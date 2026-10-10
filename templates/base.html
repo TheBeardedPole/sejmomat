@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {% set page_title %}{% block title %}{{ _("Głosowania w Sejmie, poprawka po poprawce") }}{% endblock %}{% endset %}
 {% set page_desc %}{% filter striptags | trim | truncate(300) %}{% block description %}{{ _("Domyślny opis") }}{% endblock %}{% endfilter %}{% endset %}
-<title>{{ page_title | trim }} · Lepszy Sejm</title>
+<title>{{ page_title | trim }} · Sejmomat</title>
 <meta name="description" content="{{ page_desc }}">
 {% if SITE_URL %}
 <link rel="canonical" href="{{ SITE_URL }}{{ full_path }}">
@@ -15,7 +15,7 @@
 <meta property="og:url" content="{{ SITE_URL }}{{ full_path }}">
 {% endif %}
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Lepszy Sejm">
+<meta property="og:site_name" content="Sejmomat">
 <meta property="og:title" content="{{ page_title | trim }}">
 <meta property="og:description" content="{{ page_desc }}">
 <meta property="og:locale" content="{{ 'pl_PL' if lang == 'pl' else 'en_GB' }}">
@@ -27,7 +27,7 @@
 <body>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="{{ root }}index.html">Lepszy&nbsp;Sejm</a>
+    <a class="brand" href="{{ root }}index.html">Sejmomat</a>
     <nav>
       <a href="{{ root }}posiedzenia.html">{{ _("Posiedzenia") }}</a>
       <a href="{{ root }}ustawy.html">{{ _("Ustawy") }}</a>
@@ -49,8 +49,10 @@
 <footer class="wrap foot">
   {{ _("Dane") }}: <a href="https://api.sejm.gov.pl">{{ _("API Sejmu RP") }}</a> ({{ term_name }}).
   {{ _("Treść poprawek wyodrębniana automatycznie z druków sejmowych — w razie wątpliwości rozstrzyga oficjalny druk.") }}
-  {{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.
-  <a href="{{ root }}api.html">API</a>
+  {% block generated %}{% endblock %}
+  <br><a href="{{ root }}api.html">API</a> ·
+  <a href="https://github.com/TheBeardedPole/sejmomat">{{ _("Kod źródłowy") }}</a> (GNU GPL v3) ·
+  ☕ {{ _("Wesprzyj projekt") }}: <a href="https://buycoffee.to/adamkoscielak">buycoffee.to/adamkoscielak</a>
 </footer>
 <script src="{{ site_root }}static/app.js" defer></script>
 </body>

@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% from "_macros.html" import result_badge, counts %}
+{% block generated %}{{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.{% endblock %}
 {% block content %}
 <h1>{{ _("Głosowania w Sejmie, poprawka po poprawce") }}</h1>
 <p>{{ _("Domyślny opis") }}</p>

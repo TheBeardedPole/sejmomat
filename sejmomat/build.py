@@ -519,6 +519,19 @@ def run():
 
     write_api({**ctx, "print_meta": print_meta, "source_items": source_items}, ctx["generated"])
 
+    # Apache/LiteSpeed hosting (e.g. Hostinger): let other sites use the API,
+    # serve JSON with the right type, compress text.
+    (SITE / "api" / ".htaccess").write_text(
+        '<IfModule mod_headers.c>\n  Header set Access-Control-Allow-Origin "*"\n</IfModule>\n'
+        "AddType application/json .json\n")
+    (SITE / ".htaccess").write_text(
+        "AddDefaultCharset UTF-8\n"
+        "<IfModule mod_deflate.c>\n"
+        "  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json application/xml\n"
+        "</IfModule>\n"
+        "<IfModule mod_expires.c>\n  ExpiresActive On\n  ExpiresByType text/css \"access plus 1 day\"\n"
+        "  ExpiresByType application/javascript \"access plus 1 day\"\n</IfModule>\n")
+
     _write_sitemap([p for _, p, _ in pages])
     robots = "User-agent: *\nAllow: /\n"
     if SITE_URL:

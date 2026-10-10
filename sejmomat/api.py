@@ -9,7 +9,7 @@ BASE = f"https://api.sejm.gov.pl/sejm/term{TERM}"
 ELI = "https://api.sejm.gov.pl/eli"
 
 _session = requests.Session()
-_session.headers["User-Agent"] = "lepszy-sejm (open data viewer)"
+_session.headers["User-Agent"] = "sejmomat (open data viewer)"
 
 
 def get(path, *, binary=False, retries=5, base=BASE):

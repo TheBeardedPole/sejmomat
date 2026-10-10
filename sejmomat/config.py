@@ -13,6 +13,6 @@ STATIC = ROOT / "static"
 # because the Sejm sometimes corrects records after publishing them.
 REFRESH_LAST_SITTINGS = 2
 
-# Public base URL ("https://example.org/lepszy-sejm/"), used for canonical
+# Public base URL ("https://example.org/sejmomat/"), used for canonical
 # links and the sitemap. Left empty for local builds.
 SITE_URL = os.environ.get("SITE_URL", "").rstrip("/") + "/" if os.environ.get("SITE_URL") else ""

@@ -31,6 +31,8 @@ EN = {
     "Treść poprawek wyodrębniana automatycznie z druków sejmowych — w razie wątpliwości rozstrzyga oficjalny druk.":
         "Amendment texts are extracted automatically from Sejm prints — the official print is authoritative. Legal texts are in Polish.",
     "Wygenerowano": "Generated",
+    "Kod źródłowy": "Source code",
+    "Wesprzyj projekt": "Support the project",
     "Domyślny opis": "Every vote in the Polish Sejm linked to the amendment it concerns: full text, sponsor, committee recommendation and results by parliamentary club.",
     # votes
     "za": "for", "przeciw": "against", "wstrzymał(a) się": "abstained", "nie głosował(a)": "did not vote",

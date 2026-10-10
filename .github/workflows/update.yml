@@ -8,15 +8,13 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: update
   cancel-in-progress: false
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -40,7 +38,7 @@ jobs:
           restore-keys: acts-
 
       - name: Fetch new votings, prints and amended acts
-        run: python -m lepszy_sejm fetch
+        run: python -m sejmomat fetch
 
       - name: Commit updated data
         run: |
@@ -52,29 +50,24 @@ jobs:
             git push
           fi
 
-      - id: pages
-        uses: actions/configure-pages@v5
-
       - name: Build site
-        run: python -m lepszy_sejm build
+        run: python -m sejmomat build
         env:
-          # Canonical links, hreflang and sitemap.xml need the public URL.
-          # Set a SITE_URL repository variable when using a custom domain.
-          SITE_URL: ${{ vars.SITE_URL || steps.pages.outputs.base_url }}
+          # Public address ("https://example.pl/"), for canonical links,
+          # hreflang and sitemap.xml. Set as a repository variable.
+          SITE_URL: ${{ vars.SITE_URL }}
 
       - name: Build search index
         run: npx -y pagefind@1 --site site
 
-      - uses: actions/upload-pages-artifact@v3
+      # Upload to the web host. A state file on the server records file
+      # hashes, so only changed files are sent on each run.
+      - name: Deploy over FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          path: site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
+          local-dir: ./site/
+          server-dir: ${{ vars.FTP_DIR || 'public_html/' }}
