@@ -1,0 +1,42 @@
+name: Test połączenia SSH
+
+# Quick check of the SSH_* settings without fetching or building anything:
+# logs in, checks that rsync exists on the server and looks at the target folder.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  login:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github
+      - name: Log in and inspect the target folder
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST || secrets.FTP_SERVER }}
+          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+          SSH_PORT: ${{ vars.SSH_PORT || '65002' }}
+          SSH_DIR: ${{ vars.SSH_DIR }}
+          SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          source .github/ssh-setup.sh
+          # Only counts and yes/no answers are printed: these logs are public.
+          $RSYNC_SSH "$SSH_TARGET" "
+            echo 'Login OK'
+            command -v rsync >/dev/null && echo 'rsync on server: yes' || echo 'rsync on server: NO'
+            if [ -d '$SSH_DIR' ]; then
+              echo 'target folder exists: yes'
+              echo \"top-level entries: \$(ls -A '$SSH_DIR' | wc -l)\"
+              echo \"files in total: \$(find '$SSH_DIR' -type f | wc -l)\"
+            else
+              echo 'target folder exists: NO'
+            fi"
+          echo "Host key to pin in the SSH_KNOWN_HOSTS variable:"
+          ssh-keygen -F "[$SSH_HOST]:${SSH_PORT}" -f ~/.ssh/known_hosts | grep -v '^#' | sed "s/^[^ ]* /[HOST]:PORT /" || true

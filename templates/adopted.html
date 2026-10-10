@@ -54,7 +54,7 @@
 <div class="table-scroll">
 <table id="adopted-table"><tbody>
 {% for row in adopted %}{% set v = row.v %}{% set a = v.amendments[0] %}
-<tr data-proposer="{{ v.proposer.clubs | join('|') }}" data-against="{{ 1 if v.against_rec else 0 }}">
+<tr data-proposer="{{ v.proposer.clubs | sort | join('|') }}" data-against="{{ 1 if v.against_rec else 0 }}">
   <td style="white-space:nowrap">{{ v.date | date_pl }}</td>
   <td>
     <a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a> · <span class="muted">{{ row.proposer | who }}{% if a.item and a.item.recommendation %} · {{ _("komisja") }}: {{ _(a.item.recommendation) }}{% endif %}</span>

@@ -80,17 +80,29 @@ jobs:
           # hreflang and sitemap.xml. Set as a repository variable.
           SITE_URL: ${{ vars.SITE_URL }}
 
+      # Index the Polish pages only: the English ones repeat the same legal
+      # text, and every indexed page becomes one more file to upload. Search
+      # on English pages falls back to the Polish index.
       - name: Build search index
-        run: npx -y pagefind@1 --site site
+        run: |
+          mv site/en "$RUNNER_TEMP/site-en"
+          npx -y pagefind@1 --site site
+          mv "$RUNNER_TEMP/site-en" site/en
 
-      # Upload to the web host. A state file on the server records file
-      # hashes, so only changed files are sent on each run.
-      - name: Deploy over FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
-          local-dir: ./site/
-          server-dir: ${{ vars.FTP_DIR || 'public_html/' }}
+      # Upload over SSH with rsync: one connection, compressed, and only
+      # files whose content changed are sent (--checksum, because every build
+      # gives all files a new date). Files no longer in the build are removed.
+      - name: Deploy over SSH (rsync)
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST || secrets.FTP_SERVER }}
+          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+          SSH_PORT: ${{ vars.SSH_PORT || '65002' }}
+          SSH_DIR: ${{ vars.SSH_DIR }}
+          SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          source .github/ssh-setup.sh
+          rsync --recursive --links --checksum --compress --delete --delete-after \
+            --exclude '.well-known/' --stats --human-readable \
+            -e "$RSYNC_SSH" site/ "$SSH_TARGET:$SSH_DIR"

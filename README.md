@@ -7,7 +7,7 @@ jest w podziale na kluby — wraz z posłami wyłamującymi się z linii klubu.
 ## How it works
 
 ```
-api.sejm.gov.pl ──fetch──> data/ (committed) ──build──> site/ (static HTML) ──> GitHub Pages
+api.sejm.gov.pl ──fetch──> data/ (committed) ──build──> site/ (static HTML + JSON API) ──rsync──> web host
 ```
 
 - `python -m sejmomat fetch` downloads votings (with individual ballots) and the
@@ -54,28 +54,32 @@ python -m http.server -d site 8000
 
 ## Deploying
 
-The workflow builds the site and uploads it over FTPS to any static host
-(Hostinger shared hosting here). Only changed files are uploaded: the
-deploy action keeps a hash file (`.ftp-deploy-sync-state.json`) on the
-server.
+The workflow builds the site and copies it to the web host (Hostinger
+shared hosting here) with rsync over SSH. Only files whose content changed
+are sent, and files no longer in the build are removed from the server.
 
 Repository settings → Secrets and variables → Actions:
 
-| name | kind | example |
+| name | kind | value |
 | --- | --- | --- |
-| `FTP_SERVER` | secret | `ftp.example.pl` (hPanel → Files → FTP Accounts) |
-| `FTP_USERNAME` | secret | `u123456789.example.pl` |
-| `FTP_PASSWORD` | secret | |
+| `SSH_PRIVATE_KEY` | secret | private half of a deploy key; add the public half in hPanel → Advanced → SSH Access |
+| `SSH_USERNAME` | secret | SSH user, e.g. `u123456789` |
+| `SSH_HOST` | secret | server IP (falls back to `FTP_SERVER` if unset) |
 | `SITE_URL` | variable | `https://example.pl/` |
-| `FTP_DIR` | variable (optional) | `public_html/` (default) |
-| `FTP_PROTOCOL` | variable (optional) | `ftps` (default) or `ftp` |
+| `SSH_PORT` | variable (optional) | `65002` (default, Hostinger) |
+| `SSH_DIR` | variable (optional) | default `domains/<domain from SITE_URL>/public_html/` |
+| `SSH_KNOWN_HOSTS` | variable (optional) | the server's host key line, to pin it |
 
-Then run the workflow once by hand (Actions → "Aktualizacja danych i
-publikacja" → Run workflow). The first upload sends the whole site
-(~400 MB) and takes a while; later runs send only what changed.
+"Test połączenia SSH" (Actions tab) checks the login and the target folder
+in a few seconds. Everything in the target folder that is not part of the
+build is deleted on deploy, except `.well-known/`.
 
 The build also writes `.htaccess` files for Apache/LiteSpeed hosts: CORS
 for `/api/` (so other sites can use the JSON API) and compression.
+
+Site-wide extras (consent bar, support links, footer privacy links) are
+added by `static/app.js`, not the page template: the site is ~18,000 HTML
+files, and a template change means sending every one of them again.
 
 ## Known limitations
 

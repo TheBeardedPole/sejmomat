@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}{{ _("Prywatność") }}{% endblock %}
+{% block description %}{{ _("Prywatność — opis") }}{% endblock %}
+{% block content %}
+<h1>{{ _("Prywatność") }}</h1>
+{% if lang == "pl" %}
+<h2>Kto prowadzi stronę</h2>
+<p>Sejmomat jest niekomercyjnym projektem prowadzonym przez osobę prywatną: Adam Koscielak,
+kontakt: <a href="mailto:adam.s.koscielak@gmail.com">adam.s.koscielak@gmail.com</a>. W rozumieniu RODO jest on administratorem danych
+przetwarzanych w związku z działaniem strony.</p>
+
+<h2>Co dzieje się, gdy odwiedzasz stronę</h2>
+<ul>
+  <li><strong>Brak plików cookie, śledzenia i reklam.</strong> Strona nie używa cookies, narzędzi analitycznych ani skryptów
+      zewnętrznych firm. Nie ma kont, formularzy ani newslettera. Wyszukiwarka działa w Twojej przeglądarce — zapytania nie są nigdzie wysyłane.</li>
+  <li><strong>Logi serwera.</strong> Dostawca hostingu (Hostinger) zapisuje standardowe logi: adres IP, datę i godzinę, adres
+      żądanej strony oraz informację o przeglądarce. Służą one bezpieczeństwu i utrzymaniu serwisu (art. 6 ust. 1 lit. f RODO)
+      i są przechowywane przez okres stosowany przez dostawcę hostingu. Nie łączymy ich z innymi danymi.</li>
+  <li><strong>Pamięć przeglądarki.</strong> W pamięci lokalnej przeglądarki (localStorage) zapisujemy Twój wybór z paska zgody.
+      Tylko jeśli się zgodzisz, zapisujemy tam także licznik odwiedzonych podstron i datę zamknięcia informacji o możliwości
+      wsparcia projektu — po to, by pojawiała się rzadko i nie wracała po zamknięciu. Dane te nie opuszczają Twojego urządzenia.
+      Wybór możesz zmienić w każdej chwili linkiem „Ustawienia zgody” w stopce.</li>
+  <li><strong>Linki zewnętrzne.</strong> Strona zawiera linki do serwisów Sejmu, GitHuba i buycoffee.to. Po kliknięciu obowiązują
+      zasady prywatności tych serwisów.</li>
+</ul>
+
+<h2>Dane posłów</h2>
+<p>Strona publikuje imiona i nazwiska posłów, ich przynależność klubową oraz sposób głosowania. Są to jawne informacje o działalności
+publicznej osób pełniących funkcje publiczne, pochodzące z oficjalnego <a href="https://api.sejm.gov.pl">API Sejmu RP</a>.
+Statystyki (np. „wyłamania z linii klubu”) są wyliczane automatycznie według zasad opisanych w
+<a href="{{ root }}metodologia.html">metodologii</a>. Jeśli zauważysz błąd, napisz na adres podany wyżej.</p>
+
+<h2>Twoje prawa</h2>
+<p>Masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania oraz wniesienia sprzeciwu —
+wystarczy napisać na adres podany wyżej. Możesz też wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych
+(<a href="https://uodo.gov.pl">uodo.gov.pl</a>).</p>
+{% else %}
+<h2>Who runs this site</h2>
+<p>Sejmomat is a non-commercial project run by a private individual: Adam Koscielak,
+contact: <a href="mailto:adam.s.koscielak@gmail.com">adam.s.koscielak@gmail.com</a>. Under the GDPR he is the controller of
+the data processed in connection with the site.</p>
+
+<h2>What happens when you visit</h2>
+<ul>
+  <li><strong>No cookies, tracking or ads.</strong> The site uses no cookies, analytics or third-party scripts. There are no
+      accounts, forms or newsletters. Search runs in your browser — queries are not sent anywhere.</li>
+  <li><strong>Server logs.</strong> The hosting provider (Hostinger) keeps standard logs: IP address, date and time, the page
+      requested and browser information. They serve security and maintenance (Art. 6(1)(f) GDPR) and are kept for the period
+      applied by the hosting provider. We do not combine them with other data.</li>
+  <li><strong>Browser storage.</strong> The browser's local storage (localStorage) holds your choice from the consent bar.
+      Only if you agree, it also holds a count of pages you have viewed and the date you closed the note about supporting the
+      project — so that the note appears rarely and does not come back after you close it. This never leaves your device.
+      You can change your choice at any time with the “Consent settings” link in the footer.</li>
+  <li><strong>External links.</strong> The site links to the Sejm's websites, GitHub and buycoffee.to. Once you click, those
+      services' privacy rules apply.</li>
+</ul>
+
+<h2>Data about MPs</h2>
+<p>The site publishes MPs' names, club membership and votes. This is public information about the public activity of people
+holding public office, taken from the official <a href="https://api.sejm.gov.pl">Sejm API</a>. Statistics (such as “votes against
+the club line”) are computed automatically as described in the <a href="{{ root }}metodologia.html">methodology</a>.
+If you spot an error, write to the address above.</p>
+
+<h2>Your rights</h2>
+<p>You have the right to access your data, have it corrected or erased, restrict its processing and object to it — just write
+to the address above. You can also lodge a complaint with the Polish data protection authority, UODO
+(<a href="https://uodo.gov.pl">uodo.gov.pl</a>).</p>
+{% endif %}
+{% endblock %}

@@ -82,3 +82,141 @@ if (proposerFilter) {
   proposerFilter.addEventListener("change", apply);
   againstFilter.addEventListener("change", apply);
 }
+
+// ---------------------------------------------------------------------------
+// Site-wide extras: footer links, consent bar, support pill and support note.
+// They are added here rather than in the page template on purpose: the site
+// is ~18,000 static HTML files, and anything in the shared template forces
+// every one of them to be re-uploaded. Changing this file uploads one file.
+const LANG = document.documentElement.lang === "en" ? "en" : "pl";
+const ROOT = (document.querySelector(".brand")?.getAttribute("href") || "index.html").replace(/index\.html$/, "");
+const COFFEE_URL = "https://buycoffee.to/adamkoscielak";
+const T = {
+  pl: {
+    privacy: "Prywatność", consentSettings: "Ustawienia zgody",
+    consentText: "Ta strona Cię nie śledzi. Za Twoją zgodą zapisze w przeglądarce licznik odwiedzonych podstron, " +
+      "używany wyłącznie po to, by od czasu do czasu przypomnieć o możliwości wsparcia projektu.",
+    essential: "Tylko niezbędne", agree: "Zgadzam się",
+    support: "Wesprzyj", close: "Zamknij", useful: "Sejmomat się przydaje?",
+    pitch: "Projekt jest darmowy, bez reklam i śledzenia. Jeśli chcesz, możesz postawić autorowi kawę.",
+    buy: "Postaw kawę", later: "Nie teraz",
+  },
+  en: {
+    privacy: "Privacy", consentSettings: "Consent settings",
+    consentText: "This site does not track you. With your consent it will keep a page-view counter in your browser, " +
+      "used only to occasionally mention that you can support the project.",
+    essential: "Only essential", agree: "I agree",
+    support: "Support", close: "Close", useful: "Finding Sejmomat useful?",
+    pitch: "The project is free, with no ads or tracking. If you like, you can buy the author a coffee.",
+    buy: "Buy a coffee", later: "Not now",
+  },
+}[LANG];
+const h = (tag, props = {}, children = []) => {
+  const node = Object.assign(document.createElement(tag), props);
+  node.append(...children);
+  return node;
+};
+const privacyLink = () => h("a", { href: `${ROOT}prywatnosc.html`, textContent: T.privacy });
+
+// Consent for optional browser storage. The choice itself is kept in
+// localStorage (needed to remember the answer); nothing optional runs before
+// "agree". To add analytics later: create its <script> inside an
+// onConsent.push(() => { ... }) callback below, update the consent text and
+// the privacy page, and bump CONSENT_VERSION so everyone is asked again.
+const CONSENT_VERSION = 1;
+const CONSENT_KEY = "sejmomat-consent";
+const SUPPORT_KEY = "sejmomat-support";
+const readConsent = () => {
+  try {
+    const c = JSON.parse(localStorage.getItem(CONSENT_KEY) || "null");
+    return c && c.v === CONSENT_VERSION ? c : null;
+  } catch {
+    return null;
+  }
+};
+const onConsent = [];
+let consentApplied = false;
+const applyConsent = (granted) => {
+  if (!granted || consentApplied) return;
+  consentApplied = true;
+  onConsent.forEach((fn) => fn());
+};
+const choose = (optional) => {
+  try {
+    localStorage.setItem(CONSENT_KEY, JSON.stringify({ v: CONSENT_VERSION, optional, at: Date.now() }));
+    if (!optional) localStorage.removeItem(SUPPORT_KEY);
+  } catch {
+    // storage unavailable: the choice lasts for this page only
+  }
+  consentBar.hidden = true;
+  applyConsent(optional);
+};
+const consentBar = h("div", { className: "consent-bar", hidden: true }, [
+  h("p", {}, [T.consentText + " ", privacyLink()]),
+  h("p", { className: "consent-actions" }, [
+    h("button", { type: "button", textContent: T.essential, onclick: () => choose(false) }),
+    h("button", { type: "button", textContent: T.agree, onclick: () => choose(true) }),
+  ]),
+]);
+consentBar.setAttribute("role", "region");
+consentBar.setAttribute("aria-label", T.consentSettings);
+
+// Support note: a corner card for really dedicated readers only, and only
+// with consent (it counts page views in localStorage). It needs at least
+// SUPPORT_MIN_VIEWS page views, waits before appearing, never blocks the
+// page, and stays away for months once shown, closed or clicked.
+const SUPPORT_MIN_VIEWS = 40;
+const SUPPORT_DELAY_MS = 30000;
+const DAY_MS = 86400000;
+onConsent.push(() => {
+  try {
+    const state = JSON.parse(localStorage.getItem(SUPPORT_KEY) || "{}");
+    const save = () => localStorage.setItem(SUPPORT_KEY, JSON.stringify(state));
+    state.views = (state.views || 0) + 1;
+    save();
+    if (state.views < SUPPORT_MIN_VIEWS || state.until > Date.now()) return;
+    const snooze = (days) => {
+      state.until = Date.now() + days * DAY_MS;
+      save();
+    };
+    const close = (days) => () => {
+      note.hidden = true;
+      snooze(days);
+    };
+    const note = h("aside", { className: "support-note", hidden: true }, [
+      h("button", { type: "button", className: "support-close", textContent: "×", ariaLabel: T.close, onclick: close(180) }),
+      h("p", {}, [h("strong", { textContent: `☕ ${T.useful}` })]),
+      h("p", { textContent: T.pitch }),
+      h("p", {}, [
+        h("a", { className: "support-link", href: COFFEE_URL, target: "_blank", rel: "noopener", textContent: T.buy, onclick: close(365) }),
+        h("button", { type: "button", className: "support-later", textContent: T.later, onclick: close(180) }),
+      ]),
+    ]);
+    note.setAttribute("aria-label", T.support);
+    document.body.append(note);
+    setTimeout(() => {
+      note.hidden = false;
+      snooze(30); // ignored: not again for a month
+    }, SUPPORT_DELAY_MS);
+  } catch {
+    // storage unavailable (private mode, blocked): never show the note
+  }
+});
+
+// Always-visible support pill (no storage involved), footer links, consent bar.
+document.body.append(
+  h("a", { className: "support-pill", href: COFFEE_URL, target: "_blank", rel: "noopener", textContent: `☕ ${T.support}` }),
+  consentBar,
+);
+const foot = document.querySelector("footer.foot");
+if (foot) {
+  const settings = h("a", { href: "#", textContent: T.consentSettings });
+  settings.addEventListener("click", (e) => {
+    e.preventDefault();
+    consentBar.hidden = false;
+  });
+  foot.append(" · ", privacyLink(), " · ", settings);
+}
+const consent = readConsent();
+if (consent) applyConsent(consent.optional);
+else consentBar.hidden = false;

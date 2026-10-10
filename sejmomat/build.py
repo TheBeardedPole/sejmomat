@@ -201,7 +201,8 @@ def build_context():
             "votings": votings, "amend_count": len(amend_votes),
             "last": max(v["date"] for v in votings),
             "prints": sorted({p for v in votings for p in v["prints"]}, key=lambda p: (len(p), p)),
-            "by_author": sorted(by_author.items(), key=lambda kv: -sum(kv[1].values())),
+            # name as tie-break: club sets iterate in a different order each run
+            "by_author": sorted(by_author.items(), key=lambda kv: (-sum(kv[1].values()), kv[0])),
         })
     bill_rows.sort(key=lambda b: b["last"], reverse=True)
 
@@ -451,6 +452,7 @@ def _pages(ctx):
     yield "method.html", "metodologia.html", {}
     yield "search.html", "szukaj.html", {}
     yield "api.html", "api.html", {}
+    yield "privacy.html", "prywatnosc.html", {}
     for c in ctx["club_rows"]:
         yield "club.html", f"klub/{c['slug']}.html", {"c": c}
     for s, votings in ctx["sittings"].items():

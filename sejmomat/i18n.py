@@ -33,6 +33,8 @@ EN = {
     "Wygenerowano": "Generated",
     "Kod źródłowy": "Source code",
     "Wesprzyj projekt": "Support the project",
+    "Prywatność": "Privacy",
+    "Prywatność — opis": "Sejmomat uses no cookies, tracking or ads. What the hosting provider logs, what is kept in your browser, and where the data about MPs comes from.",
     "Domyślny opis": "Every vote in the Polish Sejm linked to the amendment it concerns: full text, sponsor, committee recommendation and results by parliamentary club.",
     # votes
     "za": "for", "przeciw": "against", "wstrzymał(a) się": "abstained", "nie głosował(a)": "did not vote",
@@ -257,6 +259,8 @@ EN = {
 PL = {
     "Domyślny opis": "Każde głosowanie w Sejmie powiązane z poprawką, której dotyczy: pełna treść, "
                      "zgłaszający, rekomendacja komisji i wynik w podziale na kluby.",
+    "Prywatność — opis": "Sejmomat nie używa cookies, śledzenia ani reklam. Co zapisuje dostawca hostingu, "
+                         "co trafia do pamięci przeglądarki i skąd pochodzą dane o posłach.",
     "Skuteczne poprawki — opis": "Wszystkie poprawki, wnioski mniejszości i poprawki Senatu, które Sejm "
                                  "przyjął w tej kadencji — i kto je zgłosił.",
 }
