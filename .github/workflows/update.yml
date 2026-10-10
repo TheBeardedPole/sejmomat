@@ -41,7 +41,7 @@ jobs:
       - name: Fetch new votings, prints and amended acts
         run: python -m sejmomat fetch
         env:
-          ACTS_PER_RUN: "150"
+          ACTS_PER_RUN: "400"
 
       - name: Commit updated data
         run: |
