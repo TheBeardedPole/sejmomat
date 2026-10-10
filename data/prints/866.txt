@@ -1,0 +1,123 @@
+USTAWA
+
+z dnia …
+
+o zmianie ustawy o podatkach i opłatach lokalnych oraz ustawy – Ordynacja podatkowa
+
+Art. 1. W ustawie z dnia 12 stycznia 1991 r. o podatkach i opłatach lokalnych (Dz. U. z 2023 r. poz. 70, 1313 i 2291) po art. 7b dodaje się art. 7c w brzmieniu:
+
+„Art. 7c. 1. Przewodniczący rady gminy przesyła ministrowi właściwemu do spraw finansów publicznych informację o wysokości stawek podatku od nieruchomości, określonych na dany rok, w terminie do 30 listopada roku, w którym podjęta została uchwała określająca wysokość tych stawek.
+
+2. Informacja, o wysokości stawek, o których mowa w ust. 1 jest sporządzana na formularzu według wzoru określonego przez ministra właściwego do spraw finansów publicznych w drodze obwieszczenia. Obwieszczenie, o którym mowa w zdaniu pierwszym publikowane jest w Biuletynie Informacji Publicznej na stronie podmiotowej obsługującej ministra właściwego do spraw finansów publicznych.
+
+3. Informacja, w wysokości stawek, o których mowa w ust. 1 jest przesyłana za pośrednictwem systemu teleinformatycznego.
+
+4. Minister właściwy do spraw finansów publicznych w terminie do 31 grudnia danego roku publikuje informację o wysokości stawek określonych przez radę gminy na następny rok w Biuletynie Informacji Publicznej na stronie podmiotowej obsługującej ministra właściwego do spraw finansów publicznych oraz udostępnia te informacje w systemie teleinformatycznym w sposób zapewniający korzystanie z tych informacji przez podatników.
+
+5. Jeśli przewodniczący rady gminy nie przekaże informacji o wysokości stawek w terminie, o którym mowa w ust. 1 minister właściwy do spraw finansów publicznych publikuje dla tej gminy wysokość stawek przyjętych w poprzednim roku. W takiej sytuacji podatnik może skorzystać z wysokości stawki podatku publikowanej przez ministra właściwego do spraw finansów publicznych”.
+
+Art. 2. W ustawie z dnia 29 sierpnia 1997 r. – Ordynacja podatkowa (Dz. U. z 2023 r. poz. 2383) wprowadza się następujące zmiany:
+
+1) w art. 14i po § 5 dodaje się § 6 w brzmieniu:
+
+„§ 6. W Biuletynie Informacji Publicznej na stronie podmiotowej urzędu obsługującego ministra właściwego do spraw finansów publicznych zamieszcza się interpretacje indywidualne dotyczące podatku od nieruchomości, wydawane przez wójta, burmistrza (prezydenta miasta), a także o informację o zmianie, uchyleniu oraz stwierdzeniu wygaśnięcia takiej interpretacji indywidualnej.”;
+
+2) w art. 14j po § 2a dodaje się § 2b w brzmieniu:
+
+„§ 2b. Wójt, burmistrz (prezydent miasta), przesyła bez zbędnej zwłoki wydaną interpretację indywidualną dotyczącą podatku od nieruchomości do Dyrektora Krajowej Informacji Skarbowej oraz informację o zmianie, uchyleniu oraz stwierdzeniu wygaśnięcia takiej interpretacji indywidualnej.”.
+
+Art. 3. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+
+UZASADNIENIE
+
+Zmiany w ustawie o podatkach i opłatach lokalnych
+
+Zgodnie z przepisami ustawy o podatkach i opłatach lokalnych, wysokość stawek podatku od nieruchomości jest uchwalana przez poszczególne gminy. Ustawa wskazuje tylko maksymalne stawki. Zgodnie z art. 7b ust. 1 ustawy, organy podatkowe właściwe w sprawach podatku od nieruchomości sporządzają co roku sprawozdanie podatkowe w zakresie podatku od nieruchomości. Takie sprawozdanie zawiera informacje o stawkach podatku od nieruchomości (dalej podatek od nieruchomości we właściwych przypadkach) i jest przekazywane do Ministra Finansów w terminie do końca I kwartału danego roku podatkowego. Termin zapłaty pierwszej raty podatku przypada w lutym danego roku podatkowego. W tym terminie podatnicy muszą już znać stawki podatków uchwalone przez gminy na ten nowy rok, ponieważ muszą wyliczyć zobowiązanie podatkowe i wysokość pierwszej raty za styczeń tego roku. Sprawozdanie przekazywane do końca I kwartału danego roku podatkowego jest więc dla podatników bezwartościowe. Ponadto, informacje ze sprawozdań przekazywanych przez gminy są publikowane przez Ministra Finansów w formie załączonego na stronie pliku typu excel.
+
+Potrzebne jest rozwiązanie, polegające na udostępnianiu przez Ministra Finansów, informacje o nowych stawkach podatku od nieruchomości, dzięki któremu podatnicy będą mogli pozyskać te informacje w ciągu kilku chwil, bez konieczności weryfikacji stawek osobno z każdą gminą. Należy przy tym podkreślić, że są w Polsce podatnicy, którzy mają nieruchomości rozsiane w wielu gminach. Proces ustalenia przez takich podatników stawek podatku dla każdej z gmin zajmuje kilka tygodni żmudnej, ręcznej pracy, powtarzanej co roku. Proces ustalania tych stawek nie może być zautomatyzowany, z uwagi na to, że gminy publikują uchwały na dany rok w różny sposób: jako skan samej uchwały, bezpośrednio na stronie, w PDF, itp.
+
+Proponowane rozwiązanie to nałożenie na przewodniczącego rady gminy obowiązku przesyłania do Ministra Finansów wysokości stawek podatku od nieruchomości uchwalanych na każdy rok do 30 listopada roku poprzedzającego rok, na który uchwalone zostały nowe stawki. Następnie Minister Finansów publikowałby te stawki do końca roku w Biuletynie Informacji Publicznej na stronie podmiotowej obsługującej ministra właściwego do spraw finansów publicznych oraz udostępniał te informacje w systemie teleinformatycznym w sposób zapewniający korzystanie z tych informacji przez podatników.
+
+Sprawdzanie stawek podatku dałoby się wówczas zautomatyzować, proces ten skróciłby się z dni i tygodni do minut. Podatnicy mieliby również pewność, że przyjmują właściwe stawki, wyeliminowane zostałyby możliwość pomyłek.
+
+Zmiany w ustawie - Ordynacja podatkowa
+
+Zgodnie z ustawą wójt, burmistrz lub prezydent miasta są organami podatkowymi w zakresie podatku od nieruchomości. Zatem interpretacje indywidualne dotyczące podatku od nieruchomości są wydawane przez wójtów lub burmistrzów i prezydentów miast. Powoduje to, że nie ma żadnego mechanizmu, który zapewniałby ujednolicanie linii interpretacyjnej w podatku od nieruchomości. Co gmina, to może być inne rozstrzygnięcie tej samej kwestii. Podatnicy mogą więc być postawieni wobec problemu, jak podejść do opodatkowania np. nietypowych części nieruchomości. Dla jednej gminy podjazd do garażu będzie stanowił budowlę, dla innej będzie częścią budynku. Dla jednej gminy rusztowanie pod fotowoltaikę stanowi budowlę, dla innej może nie być opodatkowane, jeśli jest tylko przykręcone do fundamentów. Przy czym ani podatnicy, ani same gminy nie mają możliwości sprawdzenia, jaka linia interpretacyjna jest przeważająca. Interpretacje indywidualne wydawane przez wójtów, burmistrzów i prezydentów miast nie są bowiem publikowane w Systemie Informacji Celno-Skarbowej Eureka, ani w żadnej innej bazie interpretacji indywidualnych. W najgorszej sytuacji są duże podmioty, które mają swoje nieruchomości w różnych gminach. Z każdą gminą muszą indywidualnie podchodzić do tych samych stanów faktycznych, otrzymując często różne rozstrzygnięcia.
+
+Propozycja nakłada na wójta, burmistrza i prezydenta miasta obowiązek przesyłania bez zbędnej zwłoki wydanych interpretacji indywidualnych dotyczącą podatku od nieruchomości do Dyrektora Krajowej Informacji Skarbowej oraz informację o zmianie, uchyleniu oraz stwierdzeniu wygaśnięcia takiej interpretacji indywidualnej. Interpretacje indywidualne byłyby publikowane w Biuletynie Informacji Publicznej na stronie podmiotowej urzędu obsługującego ministra właściwego do spraw finansów publicznych i zostałyby włączone do Systemu Informacji Celno-Skarbowej Eureka.
+
+DEKLAROWANE SKUTKI REGULACJI (DSR)
+
+projektu ustawy
+
+Informacja o projekcie
+
+a) Tytuł projektu:
+
+Projekt ustawy o zmianie ustawy o podatkach i opłatach lokalnych oraz ustawy – Ordynacja podatkowa
+
+b) Przedstawiciel wnioskodawcy:
+
+Janusz Kowalski
+
+I. Część wstępna
+
+[1] Zwięzły opis zidentyfikowanego problemu i proponowanych rozwiązań.
+
+Projekt ustawy zakłada nałożenie na przewodniczącego rady gminy obowiązku przesyłania do Ministra Finansów wysokości stawek podatku od nieruchomości uchwalanych na każdy rok do 30 listopada roku poprzedzającego rok, na który uchwalone zostały nowe stawki. Następnie Minister Finansów publikowałby te stawki do końca roku w Biuletynie Informacji Publicznej na stronie podmiotowej obsługującej ministra właściwego do spraw finansów publicznych oraz udostępniał te informacje w systemie teleinformatycznym w sposób zapewniający korzystanie z tych informacji przez podatników.
+
+Projekt ustawy zakłada również wprowadzenie na wójta, burmistrza i prezydenta miasta obowiązku przesyłania bez zbędnej zwłoki wydanych interpretacji indywidualnych dotyczącą podatku od nieruchomości do Dyrektora Krajowej Informacji Skarbowej oraz informację o zmianie, uchyleniu oraz stwierdzeniu wygaśnięcia takiej interpretacji indywidualnej. Interpretacje indywidualne byłyby publikowane w Biuletynie Informacji Publicznej na stronie podmiotowej urzędu obsługującego ministra właściwego do spraw finansów publicznych i zostałyby włączone do Systemu Informacji Celno-Skarbowej Eureka.
+
+Źródłem danych wykorzystanych do identyfikacji problemu są obowiązujące przepisy i praktyka petentów w urzędach.
+
+W przypadku braku zmiany stanu obecnego będziemy mieli do czynienia z status quo tj. z utrudnieniami dla obywateli, którzy mają utrudnione zdobycie wiedzy na temat wysokości podatków.
+
+.
+
+[2] Czy były rozważane rozwiązania alternatywne?
+
+3) Nie
+
+Nie rozważano rozwiązań alternatywnych, gdyż przyjęto najprostsze rozwiązanie wskazanego problemu tj. w przypadku braku dla petentów dostępu do informacji zobowiązano urzędy do ich przekazywania.
+
+II. Wymogi określone w art. 34 ust. 2 pkt 3–5 regulaminu Sejmu
+
+[3] Jakie są przewidywane skutki prawne projektowanych rozwiązań?
+
+Skutki prawne projektu ustawy a dokładnie różnice pomiędzy dotychczasowym a projektowanym stanem prawnym zostały już opisane w części ogólnej uzasadnienia. Ponadto projekt ustawy jest spójny z dotychczasowymi regulacjami, zgodny z Konstytucją RP, w tym z konstytucyjnym standardem ochrony wolności i praw.
+
+[4] Jakie są przewidywane skutki społeczne projektowanych rozwiązań?
+
+Skutki społeczne projektu ustawy obejmą szeroki zakres podmiotów, gdyż będą nimi wszyscy płatnicy podatku od nieruchomości. Proponowane zmiany będą dla nich zdecydowanie korzystne, choć nie będą to korzyści stricte finansowe. Proponowane zmiany będą polegały na szerszym dostępie do informacji potencjalnie istotnych dla płatników ww. podatku.
+
+[5] Jakie są przewidywane skutki gospodarcze projektowanych rozwiązań?
+
+Projekt ustawy wywołuje pozytywne skutki gospodarcze poprzez dostęp do informacji istotnej dla osób płacących podatek od nieruchomości, co pozwoli na spokojne gospodarowanie posiadanymi zasobami pieniężnymi poprzez zdobycie wiedzy o pierwszej racie podatku.
+
+Projekt ustawy pozytywnie wpłynie na mikroprzedsiębiorców, małych i średnich przedsiębiorców (MŚP) jednak będzie to wpływ niewielki, co bardzo istotne pozytywny, choć nie w wymiarze finansowym.
+
+[6] Jakie są przewidywane skutki finansowe projektowanych rozwiązań, w szczególności wpływ na sektor finansów publicznych, w tym na budżet państwa i budżety jednostek samorządu terytorialnego?
+
+Projekt nie wywołuje skutków finansowych w tym dla sektora finansów publicznych, na budżet państwa i budżety jednostek samorządu terytorialnego.
+
+[7] Wykaz źródeł finansowania, jeśli projekt ustawy pociąga za sobą obciążenie budżetu państwa lub budżetów jednostek samorządu terytorialnego.
+
+Projekt nie wywołuje skutków finansowych.
+
+[8] Czy projekt ustawy podlega procedurze notyfikacyjnej?
+
+4) Nie
+
+III. Wymogi określone w art. 34 ust. 2a i 2b regulaminu Sejmu
+
+[9] Czy projekt ustawy zawiera przepisy określające zasady podejmowania, wykonywania lub zakończenia działalności gospodarczej (art. 34 ust. 2a regulaminu Sejmu)?
+
+5) Nie
+
+[10] Czy wdrożenie projektowanych przepisów spowoduje obciążenia administracyjne mikroprzedsiębiorców, małych i średnich przedsiębiorców (art. 34 ust. 2a regulaminu Sejmu)?
+
+6) Nie
+
+[11] Czy projekt ustawy zawiera przepisy regulacyjne lub określa wymogi dotyczące świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r. o zasadach uznawania kwalifikacji zawodowych nabytych w państwach członkowskich Unii Europejskiej (art. 34 ust. 2b regulaminu Sejmu)?
+
+7) Nie

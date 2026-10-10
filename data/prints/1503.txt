@@ -1,0 +1,252 @@
+                                                                         Druk nr 1503
+          SEJM
+RZECZYPOSPOLITEJ POLSKIE J
+             X kadencja
+
+
+
+                                     SPRAWOZDANIE
+                            KOMISJI DO SPRAW DEREGULACJI
+                     ORAZ KOMISJI ROLNICTWA I ROZWOJU WSI
+
+
+     o rządowym projekcie ustawy o zmianie ustawy
+     o środkach ochrony roślin (druk nr 1430)
+
+         Marszałek Sejmu, zgodnie z art. 37 ust. 1 i art. 40 ust. 1 regulaminu Sejmu – po
+   zasięgnięciu opinii Prezydium Sejmu - skierował w dniu 7 lipca 2025 r. powyższy projekt
+   ustawy do Komisji do Spraw Deregulacji oraz Komisji Rolnictwa i Rozwoju Wsi do
+   pierwszego czytania.
+
+        Komisje: do Spraw Deregulacji oraz Rolnictwa i Rozwoju Wsi po przeprowadzeniu
+   pierwszego czytania oraz rozpatrzeniu tego projektu ustawy na posiedzeniu w dniu 21 lipca
+   2025 r.
+
+        wnoszą:
+
+        W y s o k i S e j m uchwalić raczy załączony projekt ustawy.
+
+
+
+   Warszawa, dnia 21 lipca 2025 r.
+
+
+
+             Zastępca Przewodniczącego                          Przewodniczący Komisji
+                do Spraw Deregulacji                            Rolnictwa i Rozwoju Wsi
+
+                (-) Waldemar Sługocki                          (-) Mirosław Maliszewski
+
+
+                                            Sprawozdawca
+
+                                     (-) Alicja Łepkowska - Gołaś
+
+
+
+
+                  Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 6     Data : 2025-07-21      Nazwa pliku : V3_1565-2.NK                              1
+X kadencja/druk 1430
+
+                                                                                             Projekt
+                                           U S T AWA
+
+                                                z dnia
+
+                       o zmianie ustawy o środkach ochrony roślin1)
+
+
+       Art. 1. W ustawie z dnia 8 marca 2013 r. o środkach ochrony roślin (Dz. U. z
+2024 r. poz. 630) wprowadza się następujące zmiany:
+1)     w art. 35 w ust. 3 po pkt 1 dodaje się pkt 1a w brzmieniu:
+       „1a) prowadzą i przechowują dokumentację, o której mowa w art. 67 ust. 1
+              rozporządzenia       nr    1107/2009,       w     Elektronicznej       Dokumentacji
+              Stosowanych Środków Ochrony Roślin z wykorzystaniem systemu
+              teleinformatycznego, o którym mowa w art. 47a ust. 1;”;
+2)     po art. 47 dodaje się art. 47a w brzmieniu:
+              „Art. 47a. 1.     Główny       Inspektor     zapewnia       i   utrzymuje      system
+       teleinformatyczny umożliwiający prowadzenie i przechowywanie dokumentacji,
+       o której mowa w art. 67 ust. 1 rozporządzenia nr 1107/2009, w formacie
+       określonym w art. 2 rozporządzenia wykonawczego Komisji (UE) 2023/564 z
+       dnia 10 marca 2023 r. w odniesieniu do treści i formatu dokumentacji dotyczącej
+       środków ochrony roślin prowadzonej i przechowywanej przez użytkowników
+       profesjonalnych na podstawie rozporządzenia Parlamentu Europejskiego i Rady
+       (WE) nr 1107/2009 (Dz. Urz. UE L 74 z 13.03.2023, str. 4), zwanego dalej
+       „rozporządzeniem 2023/564”, w Elektronicznej Dokumentacji Stosowanych
+       Środków Ochrony Roślin, udostępnia go użytkownikom profesjonalnym i nim
+       administruje.
+              2. System teleinformatyczny, o którym mowa w ust. 1, umożliwia
+       wprowadzanie, przechowywanie, przetwarzanie i agregowanie:
+       1)     informacji określonych w załączniku do rozporządzenia 2023/564 i
+              informacji dotyczących sposobu realizacji wymagań integrowanej ochrony
+              roślin, o którym mowa w art. 35 ust. 3 pkt 2,
+
+
+1)
+     Niniejsza ustawa służy stosowaniu rozporządzenia wykonawczego Komisji (UE) 2023/564 z dnia
+     10 marca 2023 r. w odniesieniu do treści i formatu dokumentacji dotyczącej środków ochrony roślin
+     prowadzonej i przechowywanej przez użytkowników profesjonalnych na podstawie rozporządzenia
+     Parlamentu Europejskiego i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74 z 13.03.2023, str. 4).
+Liczba stron : 6    Data : 2025-07-21     Nazwa pliku : V3_1565-2.NK                      2
+X kadencja/druk 1430
+
+     2)    następujących danych osobowych użytkownika profesjonalnego:
+           a)      imienia, nazwiska oraz adresu i miejsca zamieszkania, z tym że w
+                   przypadku gdy użytkownikiem profesjonalnym jest osoba fizyczna
+                   wykonująca działalność gospodarczą, zamiast adresu i miejsca
+                   zamieszkania tej osoby – adresu miejsca wykonywania działalności
+                   gospodarczej, jeżeli jest inny niż adres i miejsce zamieszkania,
+           b)      numeru PESEL, numeru REGON i numeru identyfikacji podatkowej
+                   (NIP),
+     c)    numeru identyfikacyjnego, o którym mowa w art. 12 ust. 1 ustawy z dnia
+           18 grudnia 2003 r. o krajowym systemie ewidencji producentów, ewidencji
+           gospodarstw rolnych oraz ewidencji wniosków o przyznanie płatności (Dz.
+           U. z 2023 r. poz. 885 oraz z 2025 r. poz. 368)
+     – oraz umożliwia sporządzanie raportów na podstawie tych informacji i danych.
+           3. Wprowadzenie        przez     użytkownika    profesjonalnego    lub     osobę
+     uprawnioną do reprezentowania użytkownika profesjonalnego informacji i
+     danych, o których mowa w ust. 2, w systemie teleinformatycznym, o którym
+     mowa w ust. 1, następuje po uwierzytelnieniu w tym systemie:
+     1)    w sposób określony w art. 20a ust. 1 ustawy z dnia 17 lutego 2005 r. o
+           informatyzacji działalności podmiotów realizujących zadania publiczne lub
+     2)    za pomocą loginu i kodu dostępu do systemu teleinformatycznego, o
+           którym mowa w ust. 1.
+           4. Informacje i raporty, o których mowa w ust. 2, mogą być udostępniane:
+     1)    Głównemu Urzędowi Statystycznemu – w zakresie niezbędnym do
+           realizacji zadań z zakresu statystyki publicznej i zadań określonych w
+           rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2022/2379 z dnia
+           23 listopada 2022 r. w sprawie statystyk dotyczących nakładów i produkcji
+           w rolnictwie, zmiany rozporządzenia Komisji (WE) nr 617/2008 oraz
+           uchylenia rozporządzeń Parlamentu Europejskiego i Rady (WE) nr
+           1165/2008, (WE) nr 543/2009 i (WE) nr 1185/2009 oraz dyrektywy Rady
+           96/16/WE (Dz. Urz. UE L 315 z 07.12.2022, str. 1) za pośrednictwem
+           systemu teleinformatycznego wykorzystywanego przez Główny Urząd
+           Statystyczny,
+Liczba stron : 6   Data : 2025-07-21   Nazwa pliku : V3_1565-2.NK                  3
+X kadencja/druk 1430
+
+     2)    urzędowi obsługującemu ministra właściwego do spraw rolnictwa – w
+           zakresie niezbędnym do oceny ryzyka związanego ze stosowaniem
+           środków ochrony roślin, w tym obliczania wartości wskaźników służących
+           do oceny ryzyka związanego ze stosowaniem środków ochrony roślin dla
+           zdrowia ludzi, zwierząt oraz dla środowiska określonych w krajowym
+           planie działania oraz do określania trendów i analizowania zmian wartości
+           tych wskaźników, w tym określania substancji czynnych i upraw mających
+           największy wpływ na wartość tych wskaźników, oraz do prowadzenia prac
+           nad projektami aktów prawnych i dokumentów strategicznych dotyczących
+           stosowania środków ochrony roślin,
+     3)    państwowym instytutom badawczym, o których mowa w art. 21 ust. 1
+           ustawy z dnia 30 kwietnia 2010 r. o instytutach badawczych (Dz. U. z 2024
+           r. poz. 534), wykonującym na rzecz ministra właściwego do spraw
+           rolnictwa zadania w zakresie obliczania wartości wskaźników służących do
+           oceny ryzyka związanego ze stosowaniem środków ochrony roślin dla
+           zdrowia ludzi, zwierząt i dla środowiska określonych w krajowym planie
+           działania oraz do określania trendów i analizowania zmian wartości tych
+           wskaźników,
+     4)    stronom trzecim określonym w art. 67 ust. 1 akapicie drugim
+           rozporządzenia nr 1107/2009 w celu ograniczenia ryzyka związanego ze
+           stosowaniem środków ochrony roślin dla zdrowia ludzi, zwierząt lub dla
+           środowiska
+     – z wyłączeniem danych osobowych i w formie uniemożliwiającej identyfikację
+     użytkownika profesjonalnego.
+           5. Informacje i dane z systemu teleinformatycznego, o którym mowa w ust.
+     1, mogą być udostępniane Agencji Restrukturyzacji i Modernizacji Rolnictwa
+     jako agencji płatniczej, o której mowa w art. 9 ust. 1 rozporządzenia Parlamentu
+     Europejskiego i Rady (UE) 2021/2116 z dnia 2 grudnia 2021 r. w sprawie
+     finansowania wspólnej polityki rolnej, zarządzania nią i monitorowania jej oraz
+     uchylenia rozporządzenia (UE) nr 1306/2013 (Dz. Urz. UE L 435 z 06.12.2021,
+Liczba stron : 6     Data : 2025-07-21     Nazwa pliku : V3_1565-2.NK                            4
+X kadencja/druk 1430
+
+       str. 187, z późn. zm.2)) – w zakresie niezbędnym do przeprowadzania kontroli
+       administracyjnych i kontroli na miejscu.
+             6. Dane, o których mowa w ust. 5, mogą obejmować dane osobowe
+       użytkownika profesjonalnego określone w ust. 2 pkt 2.
+             7. Dane gromadzone w systemie teleinformatycznym administrowanym
+       przez Agencję Restrukturyzacji i Modernizacji Rolnictwa mogą być
+       przekazywane do systemu teleinformatycznego, o którym mowa w ust. 1, w
+       zakresie określonym w załączniku do rozporządzenia 2023/564.
+             8. Dane, o których mowa w ust. 7, mogą także obejmować dane osobowe
+       użytkownika profesjonalnego określone w ust. 2 pkt 2.
+             9. Szczegółowy zakres przekazywanych informacji i danych, o których
+       mowa odpowiednio w ust. 5 i 7, oraz sposób i terminy ich przekazywania zostaną
+       określone w porozumieniu zawartym między Głównym Inspektorem a Agencją
+       Restrukturyzacji i Modernizacji Rolnictwa.
+             10. Minister     właściwy      do    spraw     rolnictwa     określi,    w    drodze
+       rozporządzenia, państwowe instytuty badawcze wykonujące na rzecz ministra
+       właściwego do spraw rolnictwa zadania w zakresie obliczania wartości
+       wskaźników służących do oceny ryzyka związanego ze stosowaniem środków
+       ochrony roślin dla zdrowia ludzi, zwierząt i dla środowiska określonych w
+       krajowym planie działania oraz do określania trendów i analizowania zmian
+       wartości tych wskaźników, którym mogą być udostępniane informacje i raporty,
+       o których mowa w ust. 2, mając na względzie zapewnienie właściwego
+       wykonywania przez te państwowe instytuty badawcze tych zadań.”;
+3)     w art. 60 w ust. 1 w pkt 2a skreśla się wyrazy „(Dz. U. z 2023 r. poz. 885)”;
+4)     w art. 76 w ust. 1:
+       a)    po pkt 24 dodaje się pkt 24a w brzmieniu:
+             „24a) będąc użytkownikiem profesjonalnym:
+                   a)    wbrew przepisowi art. 1 ust. 1 rozporządzenia 2023/564 w
+                         dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia nr
+                         1107/2009, nie przekazuje informacji określonych w załączniku
+                         do rozporządzenia 2023/564 lub
+
+
+2)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 29 z 10.02.2022, str. 45,
+     Dz. Urz. UE L 216 z 19.08.2022, str. 1 oraz Dz. Urz. UE L 2024/1468 z 24.05.2024.
+Liczba stron : 6    Data : 2025-07-21    Nazwa pliku : V3_1565-2.NK                   5
+X kadencja/druk 1430
+
+                   b)   wbrew przepisowi art. 2 rozporządzenia 2023/564 nie prowadzi
+                        lub nie przechowuje dokumentacji, o której mowa w art. 67 ust. 1
+                        rozporządzenia nr 1107/2009, w formacie określonym w art. 2
+                        rozporządzenia 2023/564, lub
+                   c)   będąc do tego obowiązanym, nie prowadzi lub nie przechowuje
+                        dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia nr
+                        1107/2009, w Elektronicznej Dokumentacji          Stosowanych
+                        Środków Ochrony Roślin, lub”,
+     b)    w pkt 25, 26 i 30 wyrazy „profesjonalnym użytkownikiem środków ochrony
+           roślin” zastępuje się wyrazami „użytkownikiem profesjonalnym”;
+5)   po rozdziale 10 dodaje się rozdział 10a w brzmieniu:
+                                          „Rozdział 10a
+
+                                        Przepis epizodyczny
+
+            Art. 78a. Do dnia 31 grudnia 2027 r. na potrzeby stosowania rozporządzenia
+     2023/564 przez użytkownika profesjonalnego rozumie się osobę fizyczną, która
+     stosuje środki ochrony roślin w celach innych niż własne niezarobkowe potrzeby,
+     w szczególności w ramach działalności gospodarczej lub zawodowej, w tym
+     w rolnictwie i leśnictwie, z wyłączeniem osób, które stosują środki ochrony
+     roślin w gospodarstwie rolnym, którego łączna powierzchnia użytków rolnych
+     wynosi nie więcej niż 20 ha.”.
+
+     Art. 2. 1. Przepis art. 35 ust. 3 pkt 1a ustawy zmienianej w art. 1 stosuje się od
+dnia określonego w obwieszczeniu wydanym na podstawie ust. 2.
+     2. Minister właściwy do spraw rolnictwa ogłosi, w drodze obwieszczenia, w
+Dzienniku     Urzędowym        Rzeczypospolitej     Polskiej   „Monitor   Polski”   datę
+udostępnienia użytkownikom profesjonalnym w rozumieniu art. 2 pkt 24 ustawy
+zmienianej w art. 1 przez Głównego Inspektora Ochrony Roślin i Nasiennictwa
+systemu teleinformatycznego umożliwiającego prowadzenie i przechowywanie
+dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia Parlamentu
+Europejskiego i Rady (WE) nr 1107/2009 z dnia 21 października 2009 r. dotyczącego
+wprowadzania do obrotu środków ochrony roślin i uchylającego dyrektywy Rady
+Liczba stron : 6     Data : 2025-07-21       Nazwa pliku : V3_1565-2.NK                               6
+X kadencja/druk 1430
+
+79/117/EWG i 91/414/EWG (Dz. Urz. UE L 309 z 24.11.2009, str. 1, z późn. zm. 3)),
+w Elektronicznej Dokumentacji Stosowanych Środków Ochrony Roślin.
+
+       Art. 3. Ustawa wchodzi w życie z dniem 1 stycznia 2026 r.
+
+
+
+
+3)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 81 z 21.03.2012, str. 43,
+     Dz. Urz. UE L 158 z 10.06.2013, str. 72, Dz. Urz. UE L 189 z 27.06.2014, str. 1, Dz. Urz. UE L 95
+     z 07.04.2017, str. 1, Dz. Urz. UE L 205 z 08.08.2017, str. 59, Dz. Urz. UE L 101 z 20.04.2018, str.
+     33, Dz. Urz. UE L 111 z 02.05.2018, str. 10, Dz. Urz. UE L 82 z 25.03.2019, str. 40, Dz. Urz. UE L
+     170 z 25.06.2019, str. 1, Dz. Urz. UE L 231 z 06.09.2019, str. 1, Dz. Urz. UE L 74 z 04.03.2021,
+     str. 7 oraz Dz. Urz. UE L 227 z 01.09.2022, str. 2.
+

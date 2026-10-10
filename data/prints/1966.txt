@@ -1,0 +1,1790 @@
+                                                                     Druk nr 1966
+                                                             Warszawa, 7 listopada 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+    DSP.WPP.4521.4.2025
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+        Szanowny Panie Marszałku,
+
+ przekazuję przyjęty przez Radę Ministrów dokument:
+
+ - Sprawozdanie Rady Ministrów z wykonania
+   ustawy o pomocy obywatelom Ukrainy
+   w     związku    z    konfliktem zbrojnym
+   na terytorium tego państwa.
+         Jednocześnie informuję, że Rada Ministrów upoważniła Ministra Spraw
+ Wewnętrznych i Administracji do prezentowania stanowiska Rządu w tej sprawie w toku
+ prac parlamentarnych.
+
+
+                                                       Z wyrazami szacunku
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+      Sprawozdanie Rady Ministrów
+z wykonania ustawy o pomocy obywatelom
+                Ukrainy
+  w związku z konfliktem zbrojnym na
+        terytorium tego państwa
+Spis skrótów
+
+BGK – Bank Gospodarstwa Krajowego
+FP – Fundusz Pomocy
+JST – Jednostki Samorządu Terytorialnego
+KGSG – Komendant Główny Straży Granicznej
+KPRM – Kancelaria Prezesa Rady Ministrów
+MRPiPS – Ministerstwo Rodziny Pracy i Polityki Społecznej
+MC – Ministerstwo Cyfryzacji
+MEN – Ministerstwo Edukacji Narodowej
+MF – Ministerstwo Finansów
+MNiSW – Ministerstwo Nauki i Szkolnictwa Wyższego
+MZ – Ministerstwo Zdrowia
+MS – Ministerstwo Sprawiedliwości
+NFZ – Narodowy Fundusz Zdrowia
+PSP – Państwowa Straż Pożarna
+RARS – Rządowa Agencja Rezerw Strategicznych
+RP – Rzeczypospolita Polska
+SG – Straż Graniczna
+CEIDG – Centralna Ewidencja i Informacja o Działalności Gospodarczej
+PCPR – Powiatowe Centrum Pomocy Rodzinie
+ZUS – Zakład Ubezpieczeń Społecznych
+SIO – System Informacji Oświatowej
+EOG – Europejski Obszar Gospodarczy
+UE – Unia Europejska
+PESEL – Powszechny Elektroniczny System Ewidencji Ludności
+Ustawa pomocowa – Ustawa z dnia 12 marca 2022 r. o pomocy obywatelom Ukrainy w
+związku z konfliktem zbrojnym na terytorium tego państwa (Dz. U. z 2025 r.
+poz. 337 z późn. zm.).
+
+
+
+
+                                                                             2
+Wprowadzenie
+
+Po wybuchu wojny na Ukrainie Rząd RP przygotował ustawę pomocową. Stworzono
+przepisy umożliwiające legalny pobyt uchodźców z Ukrainy w Polsce, korzystanie
+ze świadczeń socjalnych, opieki zdrowotnej, a także podjęcie legalnej pracy oraz
+nauki przez dzieci. Od 24 lutego 2022 r. do 31 grudnia 2024 r. około 1,6 mln
+osób, głównie kobiet i dzieci znalazło schronienie w Polsce.
+Decyzja Wykonawcza Rady (UE) 2022/382 z dnia 4 marca 2022 r. stwierdzająca
+istnienie masowego napływu wysiedleńców z Ukrainy w rozumieniu art. 5 dyrektywy
+2001/55/WE1) wprowadziła tymczasową ochronę, początkowo na rok. Okres ten był
+przedłużany, a ostatnia Decyzja Wykonawcza Rady (UE) nr 2024/18369 z dnia 25
+czerwca 2024 r. przedłużyła go do dnia 4 marca 2026 r.
+Przedłużanie obowiązywania tymczasowej ochrony nie oznaczało automatycznego
+przedłużenia funkcjonowania ustawy pomocowej. Przedłużanie okresu obowiązywania
+tej ustawy możliwe było jedynie w drodze procesu legislacyjnego. Sytuacja
+uchodźców wojennych z Ukrainy, w szczególności dotycząca ich potrzeb i
+możliwości samodzielnego funkcjonowania w Polsce, była na bieżąco monitorowana
+i analizowana również pod kątem warunków dostępu do różnego rodzaju uprawnień i
+świadczeń.
+Niniejsze sprawozdanie stanowi wykonanie obowiązku określonego w art. 115 ustawy
+pomocowej, obejmuje okres od 12 marca 2022 r. do 31 grudnia 2024 r. i zawiera
+opis działań, wynikających z ustawy, realizowanych przez poszczególne resorty i
+instytucje.
+
+
+
+
+1)   Dyrektywa Rady 2001/55/WE z dnia 20 lipca 2001 r. w sprawie minimalnych standardów przyznawania
+     tymczasowej ochrony na wypadek masowego napływu wysiedleńców oraz środków wspierających
+     równowagę wysiłków między Państwami Członkowskimi związanych z przyjęciem takich osób wraz z
+     jego następstwami: określa procedury działania w przypadku masowego napływu do Unii
+     Europejskiej obywateli innych krajów, którzy nie mogą wrócić do swojego państwa pochodzenia,
+     w szczególności z powodu wojny; wprowadza natychmiastową tymczasową ochronę dla tych
+     wysiedleńców;
+     wspiera równowagę wysiłków między państwami członkowskimi UE w związku z przyjmowaniem
+                        wysiedleńców.
+                                                                                                  3
+Ustawa z dnia 12 marca 2022 r. o pomocy obywatelom Ukrainy w związku z
+konfliktem zbrojnym na terytorium tego państwa
+
+Ustawa pomocowa stanowi fundament udzielania pomocy obywatelom Ukrainy,
+uciekającym przed wojną na terytorium RP. Została uchwalona w celu stworzenia
+szczególnej regulacji prawnej zapewniającej kompleksowe wsparcia obywatelom
+Ukrainy, którzy uciekali przed wojną wywołaną inwazją Rosji, a także uregulowanie
+ich sytuacji prawnej w Polsce. Główne cele ustawy to: legalizacja pobytu, dostęp
+do rynku pracy, wsparcie socjalne, opieka zdrowotna, dostęp do edukacji, wsparcie
+dla samorządów i NGO, tj. stworzenie podstaw prawnych do przekazywania środków.
+Od momentu wybuchu konfliktu zbrojnego sytuacja związana z wojną w Ukrainie i
+napływem uchodźców do Polski dynamicznie się zmieniała, co wiązało się z
+koniecznością dokonywania niezbędnych zmian legislacyjnych, pozwalających
+odpowiedzieć na aktualne w danym czasie potrzeby obywateli Ukrainy, reagować na
+pojawiające się praktyczne problemy oraz uszczelnić przepisy tak, aby nie
+dochodziło do nadużyć.
+
+Ustawa nowelizująca z dnia 8 kwietnia 2022 r. (Dz. U. z 2022 r. poz. 830)
+Ponad dwutygodniowy okres obowiązywania ustawy pomocowej przyniósł doświadczenia
+wskazujące na potrzebę doprecyzowania i uszczegółowienia niektórych jej
+przepisów, rozwiązań z zakresu edukacji i pomocy społecznej. Zmiana miała na
+celu wyłączenie obywateli polskich z grupy osób, które mogą zostać objęte
+regulacjami ustawy. Rozszerzono zakres ustawy o dystrybucję produktów
+leczniczych przeznaczonych na pomoc humanitarną na terytorium Ukrainy przez
+RARS. Dodano do zbioru danych przechowywanych w rejestrze – obywateli Ukrainy,
+którzy przybyli na terytorium RP z terytorium Ukrainy oraz tych, którzy złożyli
+wniosek o zarejestrowanie pobytu na terytorium RP. Określono w nich również,
+kiedy osoba małoletnia musi być obecna przy składaniu wniosku o PESEL.
+Nowelizacją rozszerzono katalog podmiotów uprawnionych do pozyskiwania danych z
+rejestru obywateli Ukrainy, którym nadano numer PESEL. Zmiany spowodowały
+dopuszczenie w okresie do dnia 31 sierpnia 2022 r. tymczasowego wykorzystania
+obiektu budowlanego innego niż budynek zamieszkania zbiorowego, który nie
+spełnia wymagań przepisów techniczno-budowlanych, przeciwpożarowych oraz
+higieniczno-sanitarnych, jeżeli przy takim sposobie jego użytkowania występujące
+w nim warunki zapewniają spełnienie podstawowych wymagań w zakresie określonym
+w przepisie. Dodano w art. 13 ust. 1a–1d, co miało na celu rozstrzygnięcie, iż
+w sprawach dotyczących świadczeń za zapewnienie zakwaterowania i wyżywienia
+obywatelom Ukrainy nie mają zastosowania przepisy ustawy z dnia 14 czerwca
+1960 r. – Kodeks postępowania administracyjnego (Dz. U. z 2024 r. poz. 572, z
+późn. zm.) oraz ustawy z dnia 17 listopada 1964 r. – Kodeks postepowania
+cywilnego (Dz. U. z 2024 r. poz. 1568, z późn. zm.) oraz nie są wydawane decyzje
+administracyjne. Ewentualne wynikłe na tym tle spory pomiędzy podmiotami
+zapewniającymi zakwaterowanie i wyżywienie, a gminą są rozstrzygane przez sądy
+powszechne. Uelastyczniono procedury związane ze zmianami w planie finansowym
+jednostek sektora finansów publicznych w związku z wpłatami środków pieniężnych
+                                                                                4
+do FP. Dodanie nowych przepisów służyło dostarczaniu ministrowi właściwemu do
+spraw pracy oraz instytucjom kontrolnym aktualnych informacji pozwalających
+ocenić liczbę obywateli Ukrainy, którzy wykonują pracę zgodnie z przepisami
+ustawy, jak również kierować do podmiotów powierzających wykonywanie pracy
+kontrole dotyczące przestrzegania przepisów prawa w szczególności w zakresie
+minimalnego wynagrodzenia za pracę oraz bezpieczeństwa i higieny pracy.
+Umożliwiono zatrudnianie obywateli Ukrainy w strukturach administracji
+samorządowej oraz w strukturach administracji rządowej, bez konieczności
+potwierdzania znajomości języka polskiego. Nowe rozwiązanie pozwoliło na dostęp
+obywateli Ukrainy, których pobyt na terytorium Polski uznaje się za legalny do
+uczestnictwa w zajęciach prowadzonych przez centrum integracji społecznej i
+klubach integracji społecznej. Zmiany posłużyły doprecyzowaniu sposobu
+zapewnienia opiekunom tymczasowym oraz przebywającym pod ich opieką małoletnim
+pomocy prawnej oraz doprecyzowaniu, jaką pomoc organizacyjną powiat zapewnia
+opiekunom tymczasowym. Wsparto ukraińskie środowisko naukowe poprzez ułatwienie
+podejmowania przez kadrę akademicką zatrudnienia w polskich uczelniach.
+Nowelizacja umożliwiła lekarzom i lekarzom dentystom spoza Unii Europejskiej
+chcącym udzielać pomocy medycznej obywatelom Ukrainy przebywającym na terytorium
+RP, prawa tymczasowego wykonywania zawodu na terytorium RP, a także monitorowanie
+aktywności zawodowej pielęgniarek i położnych posiadających warunkowe prawo
+wykonywania zawodu poprzez wprowadzenie obowiązku zgłaszania do ministra
+właściwego do spraw zdrowia, w jakim podmiocie leczniczym i na jaki okres jest
+zatrudnienie. Umożliwiono udzielanie świadczeń psychologicznych przez obywateli
+Ukrainy na rzecz swoich rodaków, którzy nie znają języka polskiego. Obywatele
+Ukrainy zainteresowani świadczeniem w Polsce usług psychologicznych mogli
+dokonać nostryfikacji dyplomu.
+
+Ustawa nowelizująca z dnia 27 kwietnia 2022 r. (Dz. U. z 2022 r. poz. 930)
+
+Celem nowelizacji ustawy było wydłużenie do 120 dni okresu, za który może być
+przyznane świadczenie pieniężne z tytułu zapewnienia zakwaterowania i wyżywienia
+obywatelom Ukrainy. Nowelizacja zakładała gromadzenie danych osób, na które
+zostały złożone wnioski, o których mowa w art. 13 ust. 1 ustawy pomocowej.
+Dzięki wdrożeniu odpowiednich rozwiązań teleinformatycznych organy gminy miały
+możliwość weryfikacji, czy dla danej osoby, której nadano numer PESEL UKR na
+podstawie art. 4 ustawy pomocowej, nie został już złożony wniosek o przyznanie
+środków za ten sam okres. Celem zapisu było wprowadzenie sprawniejszego
+monitorowania wydatkowania środków publicznych na świadczenia pieniężne z tytułu
+zapewnienia zakwaterowania i wyżywienia obywatelom Ukrainy i wyeliminowanie
+ewentualnych nadużyć w tym zakresie.
+
+Ustawa nowelizująca z dnia 8 czerwca 2022 r. (Dz. U. z 2022 r. poz. 1383)
+Nowelizacja wprowadziła zmiany polegające na dodaniu zastrzeżenia, że małżonek
+obywatela Ukrainy, który korzysta z uprawnień wynikających z tej ustawy, nie
+może być również obywatelem innego niż RP państwa członkowskiego Unii
+Europejskiej. Doprecyzowano również, że bezpośredni wjazd na terytorium RP z
+terytorium Ukrainy nie jest konieczny dla objęcia obywatela Ukrainy przepisami
+
+                                                                                5
+ustawy. Wskazano właściwość KGSG jako organu pełniącego funkcję krajowego punktu
+kontaktowego do celów wymiany z właściwymi organami innych państw członkowskich
+Unii Europejskiej informacji dotyczących osób korzystających z ochrony czasowej.
+Uproszczono procedury związane z przebudową, remontem lub zmianą sposobu
+użytkowania budynków lub ich części, będących w posiadaniu JST i przeznaczonych
+docelowo na cele mieszkalne przy zachowaniu podstawowych wymagań dotyczących
+nośności    i stateczności   konstrukcji    oraz   bezpieczeństwa    użytkowania,
+bezpieczeństwa pożarowego, higieny, zdrowia i środowiska rozpoczętych w terminie
+do dnia 31 lipca 2024 r. Nowelizacja umożliwiła przeprowadzanie szkoleń z języka
+polskiego dla obywateli Ukrainy wykonujących zawody medyczne (zawody
+deficytowe). Umożliwiła również organom SG uzyskanie dostępu do „ewidencji
+małoletnich", o której mowa w art. 25a ustawy. SG w ramach posiadanych uprawnień
+wynikających z ustawy z dnia 12 października 1990 r. o Straży Granicznej (Dz.
+U. z 2025 r. poz. 914) prowadzi szereg czynności wobec małoletnich, mających
+na celu m.in. zapobieganie i przeciwdziałanie nielegalnej migracji. Dodanie w
+art. 26 ust. 3a–3f spowodowało, że wyjazd obywatela Ukrainy z terytorium RP na
+okres powyżej 1 miesiąca pozbawiał go uprawnienia, o którym mowa w art. 2 ust.
+1. Zmiana umożliwiła wyeliminowanie wątpliwości w zakresie finansowania kosztów
+wydawania orzeczeń dla obywateli Ukrainy ze środków, jakie przekazywane są
+z budżetu    państwa   w   formie   dotacji    zespołom   do   spraw    orzekania
+o niepełnosprawności. Otworzyła również możliwość objęcia wsparciem dzieci
+ukraińskich pomiędzy 3. a 5. rokiem życia w ramach czynności i zadań
+realizowanych przez dziennego opiekuna, uzupełniając w ten sposób istniejącą
+ofertę jednostek organizacyjnych systemu oświaty (przedszkola, oddziały
+przedszkolne i inne formy wychowania przedszkolnego). Dodanie ust. 2 miało na
+celu uregulowanie pobytu na terytorium RP cudzoziemców, którzy nie posiadają
+obywatelstwa Ukrainy, a którym komendant placówki SG na odcinku granicy RP
+z Ukrainą zezwolił na wjazd na terytorium RP na podstawie art. 32 ust. 1 ustawy
+z dnia 12 grudnia 2013 r. o cudzoziemcach, tj. w przypadku, o którym mowa w art.
+6 ust. 5 lit. c kodeksu granicznego Schengen, czyli zezwolenie na wjazd
+na terytorium RP ze względów humanitarnych, ze względu na interes narodowy lub
+zobowiązania międzynarodowe. Zmiana art. 49 spowodowała, że uprawniony obywatel
+Ukrainy mógł zostać zatrudniony, z pominięciem procedury konkursowej, w Centrum
+Łukasiewicz lub instytucie działającym w ramach Sieci Badawczej Łukasiewicz.
+Rozszerzono uprawnienia RARS do przyjęcia w formie darowizny, przechowywania
+i wydawania oraz wywozu na terytorium Ukrainy obok produktów leczniczych, także
+wyrobów medycznych.
+
+Ustawa nowelizująca z dnia 13 stycznia 2023 r. (Dz. U. z 2023 r. poz. 185)
+Ważnym obszarem związanym z pobytem obywateli Ukrainy w Polsce było zapewnienie
+ciągłości kształcenia, wychowania i opieki. Dlatego też w nowelizacji
+zaproponowano kontynuowanie w roku 2023 finansowego wspierania JST w realizacji
+dodatkowych zadań oświatowych – w tym dotyczących dowożenia dzieci i uczniów
+oraz zapewnienia korzystania z wychowania przedszkolnego – związanych z
+kształceniem, wychowaniem i opieką nad dziećmi i uczniami, którzy przybyli do
+Polski w związku z konfliktem zbrojnym w Ukrainie. Zaproponowano przepisy
+odnoszące się do obszarów uregulowanych ustawą z dnia 27 października 2017 r. o
+                                                                              6
+finansowaniu zadań oświatowych (Dz. U. z 2025 r. poz. 439), dotyczące dotowania
+niesamorządowych przedszkoli, szkół i placówek z budżetów JST oraz rozliczania
+się gmin z tytułu korzystania przez dzieci zamieszkujące na obszarze danej gminy
+z wychowania przedszkolnego w innej gminie. W art. 12 ustawy pomocowej określono
+warunki udzielania obywatelowi Ukrainy przez wojewodę i inne podmioty pomocy w
+zakresie zakwaterowania i wyżywienia po upływie 120 dni od dnia pierwszego wjazdu
+na terytorium RP po 24.02.2022 r. i wprowadzono obowiązek partycypacji uchodźców
+w kosztach pomocy. Ustawodawca zwolnił jednak z tego obowiązku obywateli Ukrainy,
+którzy należeli do grup szczególnie wrażliwych.
+Celem znowelizowanych przepisów było zmobilizowanie obywateli Ukrainy do
+aktywizacji zawodowej oraz, w miarę ich możliwości, do samodzielnego
+funkcjonowania na terytorium RP. W związku z faktem, że nie było możliwe
+wskazanie w ustawie wszystkich okoliczności, które mogą utrudnić obywatelom
+Ukrainy proces usamodzielnienia się, dodano ogólną przesłankę znajdowania się w
+trudnej sytuacji życiowej, uniemożliwiającej udział w kosztach pomocy.
+Spełnienie tej przesłanki podlegało ocenie wojewody oraz innych podmiotów,
+zobligowanych do kierowania się przy tym względami humanitarnymi.
+W tym zakresie zostały wydane rekomendacje dla wojewodów i JST dotyczące
+stosowania przepisów związanych ze zwolnieniem z partycypacji w kosztach pomocy
+obywatela Ukrainy, zgodnie z którymi m.in. powinny być zbierane ankiety od osób
+chcących skorzystać z takiego zwolnienia.
+
+Ustawa nowelizująca z dnia 15 maja 2024 r. (Dz. U. z 2024 r. poz. 854)
+Nowelizacja wprowadziła zmiany polegające na przedłużeniu legalności pobytu w
+Polsce obywateli Ukrainy do dnia 30 września 2025 r. Przepisy zmieniające były
+efektem szerokich konsultacji z organizacjami pozarządowymi, samorządowcami
+oraz instytucjami państwowymi.
+W znowelizowanej ustawie przewidziano możliwość przekształcenia posiadanych
+przez obywateli Ukrainy uprawnień pobytowych w zezwolenia na pobyt czasowy.
+Uprawnionymi do uzyskania karty pobytu (ważnej przez okres 3 lat) będą obywatele
+Ukrainy, których pobyt na terytorium RP jest uznawany za legalny na podstawie
+ustawy, którzy będą posiadać status „UKR” (nadany numer PESEL ze statusem UKR)
+w dwóch różnych datach, tj. w dniu 4 marca 2024 r. oraz w dniu złożenia wniosku
+o wydanie karty pobytu, jak również nieprzerwany status „UKR” przynajmniej przez
+365 dni.
+Od 1 lipca 2024 r. zmieniła się też forma pomocy obywatelom Ukrainy i
+kontynuowana jest tylko jedna forma zakwaterowania, w obiektach prowadzonych na
+polecenie wojewodów. Obywatele Ukrainy, którzy nadal będą wymagali wsparcia w
+zakresie zakwaterowania mogą zgłaszać się do właściwego miejscowo wojewody,
+który wskaże im wolne miejsce w obiekcie zbiorowego zakwaterowania, dostosowanym
+do potrzeb.
+W nowelizacji ponadto:
+      doprecyzowano warunki nabycia PESEL UKR;
+
+
+
+                                                                                7
+        zobowiązano obywateli Ukrainy do aktualizacji danych w rejestrze PESEL UKR
+         oraz potwierdzenia tożsamości na podstawie ważnego dokumentu podróży w
+         dowolnej gminie;
+        doprecyzowano zasady zwalniania z partycypacji w kosztach zakwaterowania;
+        nie przedłużono możliwości uzyskania świadczenia pieniężnego, które do 30
+         czerwca przysługiwało podmiotom prywatnym za zapewnienie zakwaterowania z
+         wyżywieniem;
+        zniesiono jednorazowe świadczenia pieniężne w wysokości 300 zł na
+         utrzymanie;
+        uszczelniono przepisy dotyczące powiadomienia, jakie musi złożyć
+         pracodawca zatrudniający obywatela Ukrainy, w tym skrócono z 14 na 7 dni
+         termin na powiadomienie;
+        powiązano wypłaty świadczenia wychowawczego i świadczenia „Dobry Start” z
+         realizacją obowiązku nauki w szkole należącej do polskiego systemu
+         oświaty2);
+        określono 36-miesięczny okres, w którym uczniowie mogą uczestniczyć
+         w dodatkowych bezpłatnych zajęciach z języka polskiego;
+        zwolniono uczniów z Ukrainy z obowiązku przystąpienia w roku szkolnym
+         2024/2025 do egzaminu ósmoklasisty z języka polskiego;
+        przywrócono możliwość świadczenia usług psychologicznych dla obywateli
+         Ukrainy przez obywateli Ukrainy, posiadających odpowiednie wykształcenie
+         uzyskane w Ukrainie;
+        wydłużono o rok preferencje podatkowe dot. darowizn przekazanych na cele
+         związane z przeciwdziałaniem skutkom działań wojennych oraz kosztów
+         poniesionych z tytułu nieodpłatnego świadczenia, którego celem było
+         przeciwdziałanie skutkom tych działań.
+
+
+
+
+Przekraczenie granicy i prowadzenie rejestru obywateli Ukrainy, którzy
+przybyli na terytorium RP z terytorium Ukrainy w związku z działaniami
+wojennymi
+
+Od 24 lutego 2022 r. do 29 grudnia 2024 r. granicę ukraińsko-polską przekroczyło
+24 908 643 (w tym 4 332 561 dzieci do 17 lat, 13 978 922 kobiet, 6 596 497
+mężczyzn), a granicę polsko-ukraińską przekroczyło 23 287 270 obywateli Ukrainy
+(w tym 4 332 561 dzieci do 17 roku życia, 13 195 638 kobiet, 6 424 555 mężczyzn).
+
+Rejestr obywateli Ukrainy, którzy przybyli na terytorium RP z terytorium Ukrainy
+w związku z działaniami wojennymi prowadzonymi na tym terytorium, prowadzi
+zgodnie z art. 3 ust. 3 ustawy pomocowej Komendant Główny Straży Granicznej:
+
+
+2)   Zmiana ta weszła w życie od okresu świadczeniowego rozpoczynającego się 1 czerwca
+     2025 r. w przypadku świadczenia wychowawczego oraz roku szkolnego 2025/2026 odnośnie
+     do świadczenia Dobry Start.
+                                                                                       8
+    rejestruje pobyt obywateli Ukrainy, których wjazd na terytorium RP nie
+     został zarejestrowany przez SG podczas kontroli granicznej lub nastąpił
+     przez odcinek granicy, na którym nie prowadzi się kontroli granicznej (art.
+     3 ust. 1),
+    prowadzi rejestr obywateli Ukrainy, którzy wjechali na terytorium RP w
+     związku z działaniami wojennymi na Ukrainie, a ich pobyt został uznany za
+     legalny na podstawie przepisów ustawy pomocowej (art. 3 ust. 3),
+    pełni funkcję krajowego punktu kontaktowego w zakresie ochrony tymczasowej
+     i wymiany informacji z innymi krajami UE na temat obywateli Ukrainy objętych
+     ochroną czasową (art. 3a).
+
+W zakresie realizacji ww. zadania, Szef Urzędu do Spraw Cudzoziemców na bieżąco
+współdziała z KGSG przy uzyskiwaniu od organów innych niż RP państw członkowskich
+UE informacji o osobach korzystających z ochrony czasowej w tych państwach.
+W okresie 24.02.2022 r. – 31.12.2022 r. łączna liczba rejestracji wyniosła 2
+600 290, z czego:
+- liczba rejestracji bez uprawnień PESEL: 1 556 251
+- liczba rejestracji z uprawnieniami PESEL: 1 044 039
+W okresie 01.01.2023 r. – 31.12.2023 r. łączna liczba rejestracji wyniosła 515
+274, z czego:
+- liczba rejestracji bez uprawnień PESEL: 305 700
+- liczba rejestracji z uprawnieniami PESEL: 209 574
+W okresie 01.01.2024 r. – 31.12.2024 r. łączna liczba rejestracji wyniosła 228
+465, z czego:
+- liczba rejestracji bez uprawnień PESEL: 81 681
+- liczba rejestracji z uprawnieniami PESEL: 146 784.
+
+KGSG jako krajowy punkt kontaktowy w zakresie ochrony tymczasowej i wymiany
+informacji z innymi krajami UE na temat obywateli Ukrainy objętych ochroną
+czasową realizował ustawowe zadania poprzez platformę Temporary Protection
+Platform. Od momentu utworzenia platformy do dnia 31.12.2024 r. zarządzano
+przedmiotową platformą, w szczególności:
+  • zweryfikowano 8 425 rekordów dot. beneficjentów tymczasowej ochrony
+    korzystających z pomocy socjalnej w Państwach Członkowskich UE,
+  • zweryfikowano i zasilono platformę (6 002 rekordów) o informację dot.
+    korzystania z pomocy socjalnej w Polsce.
+Dane przetwarzane w rejestrze obywateli Ukrainy, prowadzonym przez KGSG, o którym
+mowa w art. 3 ust. 3 ustawy pomocowej, zostały włączone do Krajowego Zbioru
+Rejestrów, Ewidencji i Wykazu w Sprawach Cudzoziemców.
+
+Uzyskanie numeru PESEL UKR
+
+Wnioski o nadanie numeru PESEL UKR obywatele Ukrainy mogą składać od 16 marca
+2022                                                                          r.
+W 2022 r. w Systemie Rejestrów Państwowych przeprowadzono prace mające na celu
+wdrożenie przepisów art. 4 i 6 ustawy pomocowej. W tym celu przeprowadzono prace
+programistyczne w celu uruchomienia procesu nadawania numeru PESEL obywatelom
+                                                                               9
+Ukrainy w specjalnym trybie, który to proces połączony został z pobieraniem
+fotografii, odcisków palców oraz szeregu innych danych wskazanych w art. 6 ustawy
+pomocowej, przekazywaniem określonego zestawu danych KGSG oraz potwierdzeniem
+profilu zaufanego i przekazaniem danych do Rejestru Danych Kontaktowych.
+W roku 2023 przeprowadzono prace wynikające z nowelizacji ustawy pomocowej oraz
+zaimplementowano poprawki w systemie usprawniające obsługę obywateli Ukrainy.
+Dostosowanie modyfikowanych rozwiązań informatycznych, obsługujących nadawanie
+numeru PESEL obywatelom Ukrainy stosownie do znowelizowanych przepisów, objęło
+w szczególności procesy zarządzania statusem UKR w rejestrze PESEL (w związku z
+aktywną migracją obywateli Ukrainy) tj. rejestrację jego utraty, w tym na skutek
+komunikatu z systemu KGSG o opuszczeniu kraju na okres powyżej 30 dni. Wykonano
+prace niezbędne do przekazywania odcisków palców z rejestru obywateli Ukrainy
+do wojewodów w celu ich zamieszczenia w karcie pobytu (realizacja art. 42 ust.
+15 ustawy pomocowej). Prace usprawniające obejmowały m.in. umożliwienie
+weryfikacji wjazdów i wyjazdów obywatela Ukrainy przez granice zewnętrzne Polski
+czy odmiejscowienie rejestracji zmiany dokumentu tożsamości obywatela Ukrainy.
+
+Wniosek o nadanie numeru PESEL
+MSWiA prowadzi nadzór nad wykonywaniem przez organy gmin zadania związanego
+z nadawaniem numeru PESEL w trybie art. 4 ustawy pomocowej, tj. nadawania numeru
+PESEL, o którym mowa w art. 15 ustawy z dnia 24 września 2010 r. o ewidencji
+ludności (Dz. U. z 2025 r. poz. 274, z późn. zm.).
+Wniosek o nadanie numeru PESEL wypełniany jest zgodnie z zasadami transliteracji
+imion i nazwisk obywateli Ukrainy określonymi w decyzji nr 265 KGSG z dnia 12
+listopada 2007 r. w sprawie określenia zasad transliteracji, bez konieczności
+przedkładania przez obywateli Ukrainy tłumaczeń dokumentów.
+
+Liczba zarejestrowanych wniosków o nadanie statusu UKR w latach 2022–2024
+wynosiła:
+  2022 r. (od 14 marca) – 1 504 179,
+  2023 r. – 232 421,
+  2024 r. – 160 511.
+
+Wykonanie zdjęcia osobie ubiegającej się o nadanie numeru PESEL
+Liczba sfinansowanych usług:
+  2022 r. – 920 834,
+  2023 r. – 94 635,
+  2024 r. (do 30 czerwca) – 25 878.
+Od dnia 1 lipca 2024 r. wykonanie zdjęcia osobie ubiegającej się o nadanie
+numeru PESEL nie jest już finansowane z Funduszu Pomocy.
+
+Nowelizacja ustawy pomocowej, która weszła w życie 1 lipca 2024 r., wprowadziła
+następujące zmiany w art. 4:
+    rozszerzenie zakresu osób objętych przepisami ustawy o dwie kategorie
+      cudzoziemców, tj. o małoletnie dzieci obywateli Ukrainy oraz o małoletnie
+
+                                                                               10
+       dzieci   małżonków   obywateli   Ukrainy,   nieposiadające    obywatelstwa
+       ukraińskiego;
+      wprowadzenie obowiązku złożenia wniosku o PESEL ze statusem UKR
+       niezwłocznie po przybyciu na terytorium RP;
+      zobowiązanie obywateli Ukrainy do aktualizacji danych w rejestrze PESEL
+       ze statusem UKR oraz potwierdzenia tożsamości na podstawie ważnego
+       dokumentu podróży w dowolnym organie gminy przez osoby, którym PESEL ze
+       statusem UKR został nadany na podstawie nieważnego paszportu,
+       oświadczenia, Karty Polaka, innego dokumentu;
+      obniżenie górnej granicy wieku małoletnich, od których nie wymaga się
+       osobistego stawiennictwa w urzędzie gminy przy składaniu wniosku o nadanie
+       numeru PESEL ze statusem UKR, z 12. roku życia, na 6. rok życia;
+      wprowadzenie obowiązku pobierania odcisków palców do bazy PESEL ze
+       statusem UKR od dzieci, które ukończyły 6. rok życia;
+      wprowadzenie potwierdzania tożsamości przy nadawaniu numeru PESEL
+       wyłącznie w oparciu o ważny dokument podróży.
+
+Aplikacja Diia.pl
+W celu uregulowania kwestii przemieszczania się obywateli Ukrainy w ramach strefy
+Schengen i przekraczania granicy zewnętrznej UE, 12 lipca 2022 r. Ministerstwo
+Spraw Wewnętrznych i Administracji przekazało Komisji Europejskiej zgłoszenie
+tymczasowo wykorzystywanego dokumentu Diia.pl, jako poświadczającego legalność
+pobytu w Polsce. Informacje na temat dokumentu zostały jednocześnie przesłane
+do państw członkowskich UE i państw stowarzyszonych strefy Schengen. Dokument
+mobilny Diia.pl w aplikacji mObywatel wydawany jest wyłącznie osobom
+pełnoletnim, które przekroczyły granicę ukraińsko-polską po 24.02.2022 r., mają
+obywatelstwo ukraińskie, ważny status uchodźcy (UKR), nadano im w Polsce nr
+PESEL i mają aktywny Profil Zaufany. Dokument uprawnia między innymi do
+przekraczania granic Polski. Jest pierwszym w pełni cyfrowym zezwoleniem na
+pobyt w UE, które jest uznawane w całej UE i ułatwia przekraczanie granic w
+strefie Schengen oraz do/z Ukrainy. W czerwcu 2023 r. w Diia.pl udostępniono
+funkcję, która umożliwia rodzicom i opiekunom prawnym dodawanie dokumentów
+młodszych dzieci do swojego dokumentu.
+
+
+
+
+                                                                               11
+Zakwaterowanie
+Zbiorowe punkty zakwaterowania z wyżywieniem
+Na podstawie art. 12 ustawy pomocowej wojewodowie uruchomili tymczasowe zbiorowe
+punkty zakwaterowania z wyżywieniem. Takie punkty przygotowywały także, na
+podstawie wydanych przez wojewodów poleceń, państwowe osoby prawne, organy
+samorządu terytorialnego, samorządowe osoby prawne oraz samorządowe jednostki
+organizacyjne nieposiadające osobowości prawnej. W punktach zbiorowego
+zakwaterowania osoby otrzymywały m.in. wyżywienie, nocleg, opiekę medyczną
+i psychologiczną oraz informacje dotyczące legalności pobytu.
+
+Każdy obywatel Ukrainy, uciekający przed wojną, może zgłosić się do wojewody,
+który zakwateruje go w jednym z obiektów zbiorowego zakwaterowania.
+Ze zorganizowanego zakwaterowania w województwach skorzystało narastająco, od
+24.02.2022 r.:
+    do 28.12.2022 r. – 474 125 osób, natomiast liczba miejsc zajętych
+      w ośrodkach zakwaterowania zbiorowego wg stanu na dzień 28 grudnia 2022
+      r. wynosiła 84 896,
+    do 27.12.2023 r. – 530 618 osób, natomiast liczba miejsc zajętych
+      w ośrodkach zakwaterowania zbiorowego wg stanu na dzień 27 grudnia 2023
+      r. wynosiła 42 391,
+    do 31.12.2024 r. – 546 576 osób, natomiast liczba miejsc zajętych
+      w ośrodkach zakwaterowania zbiorowego wg stanu na dzień 31 grudnia 2024
+      r. wynosiła 29 050.
+Na podstawie przepisów ustawy pomocowej PSP w obszarze kontrolno-rozpoznawczym
+przeprowadzała   działania   polegające   na   dopuszczeniu    do   tymczasowego
+wykorzystania (na potrzeby zamieszkania zbiorowego obywateli Ukrainy) obiektów
+budowlanych (przeznaczonych do zakwaterowania więcej niż 20 osób), w tym również
+innych niż budynki zamieszkania zbiorowego, które mogły nie spełniać wszystkich
+wymagań m.in. przepisów przeciwpożarowych. W ramach działań prowadzonych na
+podstawie art. 12a ustawy pomocowej do końca 2024 r. komendanci powiatowi
+(miejscy) PSP rozpoznali łącznie 148 wniosków o wydanie opinii potwierdzających
+spełnienie podstawowych wymagań w zakresie bezpieczeństwa pożarowego w ww.
+obiektach przeznaczonych do celów zakwaterowania.
+Rok po wybuchu wojny określono dodatkowe warunki udzielania obywatelowi Ukrainy,
+przez wojewodę i inne podmioty, pomocy w zakresie zakwaterowania i wyżywienia
+po upływie 120 dni od dnia pierwszego wjazdu na terytorium RP po 24.02.2022 r.:
+     a. posiadanie numeru PESEL przez obywatela Ukrainy;
+     b. pokrycie przez niego z góry 50% kosztów pomocy, ale nie więcej niż 40 zł
+        za                                                                 dzień
+        w okresie od 121 do 180 dnia od pierwszego wjazdu na terytorium RP;
+     c. pokrycie przez niego z góry 75% kosztów pomocy, ale nie więcej niż 60 zł
+        za dzień od 181 dnia od pierwszego wjazdu na terytorium RP.
+Kolejna nowelizacja ustawy pomocowej (z czerwca 2024 r.) wprowadziła od 1 lipca
+2024 r. dodatkowy obowiązek opłaty (po upływie 120 i 180 dni od dnia pierwszego
+wjazdu obywatela Ukrainy) w zakresie zakwaterowania i wyżywienia w ośrodkach
+                                                                              12
+zbiorowego zakwaterowania w przypadku małoletnich, na których pobierane jest
+świadczenie wychowawcze, części kosztów tej pomocy w wysokości 15 zł za osobę
+dziennie.
+Biorąc pod uwagę fakt, że istnieją grupy osób, wymagające szczególnego wsparcia,
+które mogły nie być w stanie partycypować w kosztach pomocy, zwolniono z tego
+obowiązku obywateli Ukrainy, którzy spełniają co najmniej jedną z poniższych
+przesłanek:
+      1) posiadają     orzeczenie    o     niepełnosprawności     lub    stopniu
+         niepełnosprawności umiarkowanym i znacznym lub orzeczenie równoważne,
+         o którym mowa w art. 5 pkt 1–2 ustawy z dnia 27 sierpnia 1997 r. o
+         rehabilitacji   zawodowej   i   społecznej   oraz   zatrudnianiu   osób
+         niepełnosprawnych (Dz. U. z 2025 r. poz. 913);
+      2) ukończyli:
+         a) w przypadku kobiet – 60. rok życia,
+         b) w przypadku mężczyzn – 65. rok życia;
+      3) są kobietami w ciąży lub osobami wychowującymi dziecko do 12 miesiąca
+        życia, na podstawie przedstawionych dokumentów;
+      4) samotnie sprawują na terytorium RP opiekę nad trojgiem i więcej dzieci,
+        o ile przynajmniej jedno z dzieci nie ukończyło 14. roku życia, na
+        podstawie przedstawionych dokumentów;
+      5) są małoletnim w pieczy zastępczej lub są małoletnimi, na których nie
+        jest pobierane świadczenie wychowawcze;
+      6) otrzymali zgodę właściwego miejscowo wojewody na zwolnienie z
+        partycypacji w kosztach pomocy ze względu na swoją trudną sytuację
+        życiową;
+      7) sprawują opiekę nad osobami, o których mowa w pkt 1;
+      8) są opiekunami tymczasowymi ustanowionymi dla małoletnich, o których
+        mowa w art. 25a ust. 1.
+Na dzień 31 grudnia 2024 r. w ośrodkach zbiorowego zakwaterowania przebywało 29
+050 uchodźców wojennych z Ukrainy, spośród których:
+      a. 6% nie przekroczyło jeszcze 120 dni pobytu od pierwszego wjazdu na
+      terytorium RP,
+      b. 49% partycypowało w kosztach zakwaterowania,
+      c. 45% podlegało zwolnieniu z partycypacji w kosztach ze względu na swoją
+      szczególną sytuację życiową, w tym:
+      małoletni w pieczy, bądź bez świadczenia wychowawczego – 12%;
+      osoby z niepełnosprawnościami wraz z opiekunami – 20%;
+      kobiety ciężarne i rodzice samotnie wychowujący co najmniej 3 dzieci
+         oraz opiekunowie tymczasowi – 12%;
+      kobiety i mężczyźni w wieku emerytalnym – 42%;
+      inne osoby, znajdujące się w szczególnie trudnej sytuacji życiowej –
+         14%.
+Ponadto zmiany w art. 12 ustawy pomocowej, które weszły w życie od 1 lipca
+2024 r., wprowadziły doprecyzowanie, że za zbiorowe zakwaterowanie uznaje się
+zakwaterowanie w obiekcie, w którym przebywa co najmniej 10 osób lub w obiektach
+
+                                                                              13
+będących własnością lub przedmiotem trwałego zarządu jednostek sektora finansów
+publicznych. Wprowadzono jednak przepis umożliwiający wojewodzie podpisanie
+umowy z organizacjami pożytku publicznego, które istnieją minimum 24 miesiące i
+zapewniają zakwaterowanie wyłącznie dla osób niepełnosprawnych i ich opiekunów
+oraz osób starszych w ośrodkach poniżej 10 osób.
+Oprócz wojewodów ośrodki zbiorowego zakwaterowania były prowadzone również przez
+podmioty bezpośrednio podległe MRPiPS i MS, w tym przez Akademię Wymiaru
+Sprawiedliwości, która na podstawie art. 12 ust. 3 ustawy pomocowej udzieliła
+pomocy obywatelom Ukrainy w formie zakwaterowania, wyżywienia oraz zapewnienia
+warunków bytowych na terenie Uczelni w Kaliszu.
+
+
+
+Dofinansowanie rządu do zapewnienia zakwaterowania z wyżywieniem przez podmioty
+prywatne
+Zgodnie z art. 13 ust. 1 ustawy pomocowej do 30 czerwca 2024 r. każdemu
+podmiotowi, w szczególności osobie fizycznej prowadzącej gospodarstwo domowe,
+który zapewnił, na własny koszt, zakwaterowanie i wyżywienie obywatelom Ukrainy,
+o których mowa w art. 1 ust. 1 ww. ustawy, mogło być przyznane na jego wniosek
+świadczenie pieniężne z tego tytułu nie dłużej niż za okres 120 dni od dnia
+przybycia obywatela Ukrainy na terytorium RP. Okres wypłaty świadczenia mógł
+być przedłużony w szczególnie uzasadnionych przypadkach, o których mowa w § 4
+ust. 1 Rozporządzenia Rady Ministrów z dnia 24 czerwca 2022 r. zmieniającego
+rozporządzenie w sprawie maksymalnej wysokości świadczenia pieniężnego
+przysługującego z tytułu zapewnienia zakwaterowania i wyżywienia obywatelom
+Ukrainy oraz warunków przyznawania tego świadczenia i przedłużania jego wypłaty.
+Przedłużenie przez gminę wypłaty ww. świadczenia było fakultatywne, a nie
+obligatoryjne. Świadczenie pieniężne wynosiło 40 zł za dobę za osobę.
+Zgodnie z ww. przepisem gmina mogła przedłużyć okres wypłaty świadczenia na
+okres dłuższy niż 120 dni w przypadku zapewnienia zakwaterowania i wyżywienia
+obywatelowi Ukrainy, który:
+ 1) posiadał orzeczenie o niepełnosprawności lub stopniu niepełnosprawności lub
+    orzeczenie, o którym mowa w art. 5 ustawy o rehabilitacji zawodowej
+    i społecznej oraz zatrudnianiu osób niepełnosprawnych;
+ 2) posiadał dokument potwierdzający I lub II stopień niepełnosprawności wydany
+    w ramach ukraińskiego systemu orzekania o niepełnosprawności;
+ 3) ukończył 60 rok życia (kobiety) albo 65 rok życia (mężczyźni);
+ 4) był kobietą w ciąży lub osobą wychowującą dziecko do 12 miesiąca życia;
+ 5) samotnie sprawował na terytorium RP opiekę nad trojgiem i więcej dzieci;
+ 6) był małoletnim wymienionym w art. 25a ust. 1 ustawy.
+Świadczenie, o którym mowa w:
+  1) pkt 1 i 2 – przysługiwało za osobę niepełnosprawną, za osobę sprawującą nad
+     nią opiekę i za każde małoletnie dziecko tych osób;
+  2) pkt 4 – przysługiwało za kobietę w ciąży i za każde jej małoletnie dziecko
+     lub za opiekuna wychowującego dziecko do 12 miesiąca życia i za wszystkie
+     jego małoletnie dzieci;
+                                                                              14
+  3) pkt 5 – przysługiwało za opiekuna i za każde małoletnie dziecko;
+  4) pkt 6 – przysługiwało za małoletniego, za opiekuna tymczasowego
+     ustanowionego dla małoletniego oraz za wszystkie małoletnie dzieci opiekuna
+     tymczasowego.
+
+Ostatnią nowelizacją ustawy pomocowej wygaszono przepis art. 13, co w
+konsekwencji spowodowało brak możliwości kontynuowania wypłaty świadczenia
+pieniężnego za zakwaterowanie i wyżywienie w lokalach prywatnych po 30 czerwca
+2024 r.
+
+Liczba złożonych wniosków o świadczenie wg daty ich złożenia
+ Rok złożenia              Liczba          Liczba wniosków   Liczba wniosków
+ wniosku              zarejestrowanych     bez przedłużenia  z przedłużeniem
+                          wniosków
+ rok 2022                      1 291 248           1 125 351          165 897
+ rok 2023                         564 136            189 921          374 215
+ rok 2024                         243 077             41 794          201 283
+* Dane Centralnego Ośrodka Informatyki
+
+Dostęp do rynku pracy
+Zatrudnienie na podstawie powiadomień
+MRPiPS opracowało regulacje zawarte w przepisach ustawy pomocowej, umożliwiające
+obywatelom Ukrainy wykonywanie pracy w Polsce bez dodatkowego obowiązku
+uzyskania zezwolenia na pracę dla cudzoziemca lub oświadczenia o powierzeniu
+wykonywania pracy cudzoziemcowi. Zgodnie z regulacją zawartą w art. 22 ust. 1
+ustawy pomocowej obywatel Ukrainy jest uprawniony do wykonywania pracy na
+terytorium RP w okresie pobytu zgodnego z obowiązującymi przepisami, jeżeli
+podmiot powierzający wykonywanie pracy powiadomi w terminie 7 dni (wcześniej 14
+dni) od dnia podjęcia pracy przez obywatela Ukrainy powiatowy urząd pracy
+właściwy ze względu na siedzibę lub miejsce zamieszkania podmiotu o powierzeniu
+wykonywania pracy temu obywatelowi, a praca jest powierzana w wymiarze czasu
+pracy nie niższym niż wskazany w powiadomieniu lub liczbie godzin nie mniejszej
+niż wskazana w powiadomieniu oraz za wynagrodzeniem nie niższym niż ustalone
+według stawki określonej w powiadomieniu, proporcjonalnie zwiększonym w
+przypadku podwyższenia wymiaru czasu pracy lub liczby godzin pracy. Przesłanie
+przez pracodawcę za pomocą portalu praca.gov.pl powiadomienia o powierzeniu
+wykonywania pracy obywatelowi Ukrainy jest warunkiem zgodnego z przepisami
+powierzania pracy w Polsce temu cudzoziemcowi. Na takich samych zasadach jak
+obywatel Ukrainy pracę może podjąć jego małżonek niemający obywatelstwa
+ukraińskiego, jeśli wjechał legalnie na terytorium RP z terytorium Ukrainy w
+związku z działaniami wojennymi prowadzonymi na terytorium tego państwa w okresie
+od dnia 24 lutego 2022 r.
+Od momentu wprowadzenia powiadomienia o powierzeniu wykonywania pracy
+obywatelowi Ukrainy (pierwsze rejestracje dokonane zostały 15 marca 2022 r.) do
+dnia 31 grudnia 2024 r. odnotowano 2 miliony 873 tys. powiadomień (786 tys. w
+2022 roku; 1 080 tys. w 2023 roku; 1 007 tys. w 2024 roku) – liczba ta określa
+
+                                                                               15
+liczbę wszystkich powiadomień, które mogły również niekiedy dotyczyć tej samej
+osoby – jeśli cudzoziemiec na przykład zmienił pracę (w liczbie tej zawiera się
+ponowne powiadomienie dot. jego osoby). Liczba cudzoziemców, których to
+rozwiązanie dotyczyło, sięgnęła 1 244 tys. osób.
+Po zestawieniu danych dotyczących powiadomień z rejestrami ZUS można zauważyć,
+że na koniec 2024 roku 451 tys. osób, których dotyczyły powiadomienia, było
+nadal   zarejestrowanych   w   ZUS.  Liczba   wszystkich   obywateli   Ukrainy
+zarejestrowanych w ZUS na dzień 31 grudnia 2024 r. wynosiła 787 468 (na dzień
+31 grudnia 2023 r. było to 759 387, na dzień 31 grudnia 2022 r. było to 745
+980).
+W latach 2022–2024 powiadomienia (dokumenty) dotyczyły wykonywania pracy na
+podstawie umowy zlecenia w 2/3 przypadków, a wykonywania pracy na podstawie
+umowy o pracę w prawie 29% przypadków. Inne formy zatrudnienia stanowiły
+marginalny odsetek. Obywatele Ukrainy pracowali najczęściej w następujących
+branżach: przetwórstwo przemysłowe – 30%, działalność w zakresie usług
+administrowania i działalność wspierająca – 18%, transport i gospodarka
+magazynowa – 17%. Byli zatrudniani głównie jako: pracownicy wykonujący prace
+proste – 46%, robotnicy przemysłowi i rzemieślnicy – 15%, operatorzy i monterzy
+maszyn i urządzeń – 12%, pracownicy biurowi – 11%. Badając liczbę powiadomień w
+podziale terytorialnym, wg miejsca wykonywania pracy, najwięcej osób pracuje w
+województwie: mazowieckim – 19%, dolnośląskim – 14%, wielkopolskim – 11% i
+śląskim – 10%.
+Rejestracja jako osoba bezrobotna albo poszukująca pracy
+Na mocy art. 221 ustawy pomocowej umożliwiono obywatelom Ukrainy dokonywanie
+rejestracji w urzędach pracy na terenie Polski oraz nabywanie z tego tytułu
+statusu bezrobotnego albo poszukującego pracy na zasadach określonych w ustawie
+z dnia 20 kwietnia 2004 r. o promocji zatrudnienia i instytucjach rynku pracy.
+W związku z faktem, że wśród osób przyjeżdżających do Polski były osoby starsze,
+wprowadzono regulację umożliwiającą rejestrację jako osoby bezrobotne kobiet
+powyższej 60. roku życia i mężczyzn powyżej 65. roku życia (obywatele RP
+legitymujący się wiekiem emerytalnym nie są rejestrowani w powiatowych urzędach
+pracy jako osoby bezrobotne).
+Konsekwencją nabywania statusu bezrobotnego przez obywateli Ukrainy było
+umożliwienie tym osobom po przepracowaniu 12 miesięcy, w okresie ostatnich 18
+miesięcy bezpośrednio poprzedzających dzień zarejestrowania nabywanie zasiłków
+dla bezrobotnych w sytuacjach wskazanych ustawą o promocji zatrudnienia i
+instytucjach rynku pracy (czyli na takich samych zasadach jak dla obywateli
+Polski).
+Liczba rejestracji obywateli Ukrainy w urzędach pracy była największa w
+pierwszych miesiącach – szczytowym momentem był kwiecień 2022 r., kiedy
+zarejestrowano 22 298 osób (w tym 20 673 bezrobotnych). Po tym okresie liczba
+rejestracji spadała z sezonowymi wahaniami. Łącznie od 24 lutego 2022 r. do końca
+grudnia 2024 r. zarejestrowało się 154 113 obywateli Ukrainy (145 765
+bezrobotnych), z tego 83 158 w 2022 r. (78 655 bezrobotnych) i 42 467 w 2023 r.
+
+                                                                               16
+(39 921 bezrobotnych). Najwięcej osób zarejestrowano w woj. mazowieckim, gdzie
+od rozpoczęcia wojny do końca grudnia 2024 r. odnotowano 25 066 rejestracji
+obywateli Ukrainy. Drugim w kolejności województwem było małopolskie (18 698
+osoby zarejestrowane), a trzecim śląskie (17 364 osoby).
+Trendy w zakresie wyrejestrowań z urzędów pracy podążały na ogół za trendami w
+zakresie rejestracji. Najwięcej obywateli Ukrainy wyrejestrowano w maju 2022 r.
+– ich liczba wyniosła 11 167, z tego 10 790 stanowili bezrobotni. W kolejnych
+miesiącach liczba wyrejestrowań spadała tak jak liczba rejestracji. Łącznie od
+24 lutego 2022 r. do końca grudnia 2024 r. z urzędów pracy wyrejestrowano 144
+242 obywateli Ukrainy (136 329 bezrobotnych), z tego 69 190 osób w 2022 r. (65
+670 bezrobotnych) i 45 373 osób w 2023 r. (42 495 bezrobotnych). Głównymi
+powodami wyrejestrowania z urzędów pracy (od 24 lutego 2022 r. do końca grudnia
+2024 r.) były: podjęcie pracy niesubsydiowanej (38 184 osób), niepotwierdzenie
+gotowości do pracy (25 036 osób), dobrowolna rezygnacja ze statusu bezrobotnego
+(18 518 osoby), rozpoczęcie stażu (13 843 osoby). Na przestrzeni dwóch lat
+rozkład przyczyn wyrejestrowań przedstawiał się podobnie.
+Pod koniec grudnia 2024 r. zarejestrowanych było 11 803 obywateli Ukrainy, w
+tym 11 114 bezrobotnych (1 410 osób z prawem do zasiłku). W ciągu roku liczba
+bezrobotnych obywateli Ukrainy spadła o 7,5%. Według stanu na koniec grudnia
+2024 r. zdecydowana większość zarejestrowanych to kobiety – 85,7%. Najwięcej
+zarejestrowanych było w wieku 35–44 lata, najmniej w wieku 60 lat i więcej.
+Przeważały osoby z wykształceniem gimnazjalnym i poniżej (41,2%) oraz z wyższym
+wykształceniem (28,6%). Struktura wieku i wykształcenia ulegała niewielkim
+zmianom w latach 2022–2024. Zmieniała się natomiast struktura zarejestrowanych
+osób pod względem posiadanego stażu pracy: na koniec grudnia 2022 r. osoby bez
+stażu stanowiły 66,3%, rok później było to 49,7%, a na koniec 2024 r: 40,1%. Na
+przestrzeni lat 2022–2024 udział osób ze stażem do 1 roku wzrósł z 25,9% do
+34,0%.
+
+
+Wśród zarejestrowanych w urzędach pracy obywateli Ukrainy pod kątem posiadanych
+zawodów najwięcej było (stan na koniec grudnia 2024 r.): pracowników produkcji
+(403), sprzedawców (334), kucharzy (253), ekonomistów (241) i księgowych (200),
+z kolei 34,7% zarejestrowanych obywateli Ukrainy nie posiadało zawodu.
+
+Inne ułatwienia dla obywateli Ukrainy na polskim rynku pracy:
+
+– wsparcie Centrum Informacyjno-Konsultacyjnego Służb Zatrudnienia Zielona Linia
+pod numerem telefonu 19 524,
+– umożliwienie pracodawcom zgłaszania do PUP ofert pracy dedykowanych dla
+obywateli Ukrainy, oferty te oznaczone są flagą Ukrainy i dostępne w j.
+ukraińskim w Centralnej Bazie Ofert Pracy (www.oferty.praca.gov.pl),
+–   uruchomienie   we   współpracy   z    KPRM   specjalnej   platformy   online
+https://pracawpolsce.gov.pl/ do poszukiwania pracy. Portal łączy poszukujących
+pracy z polskimi pracodawcami. Każdego tygodnia do użytkowników docierają oferty
+pracy dopasowane do ich kompetencji i miejsca pobytu.
+
+
+                                                                              17
+   Rok    Liczba ofert pracy dla obywateli    Liczba miejsc pracy dla obywateli
+                      Ukrainy                              Ukrainy
+  2022                  6774                               49 162
+  2023                  8636                               68 248
+  2024                  3753                               31517
+
+
+
+Dofinansowanie do kosztów szkolenia z języka polskiego
+Minister właściwy ds. pracy, po wejściu w życie ustawy pomocowej oraz niektórych
+innych ustaw może dofinansować z Funduszu Pracy koszty szkoleń z języka polskiego
+dla wykonujących zawody medyczne obywateli Ukrainy. Wsparcie przyznawane jest
+okręgowym izbom lekarskim oraz okręgowym izbom pielęgniarek i położnych na ich
+wniosek. Minister właściwy do spraw pracy po pozytywnym rozpatrzeniu wniosku o
+dofinansowanie podpisuje umowę z okręgową izbą lekarską albo z okręgową izbą
+pielęgniarek i położnych. Po zakończeniu szkolenia izba przekazuje do ministra
+właściwego do spraw pracy sprawozdanie zawierające m.in. rozliczenie otrzymanych
+środków na podstawie ostatecznych kosztów szkolenia wraz z określeniem
+poniesionych wydatków.
+
+W latach 2022–2023 zawartych zostało 20 umów z okręgowymi izbami
+lekarskimi/okręgowymi izbami pielęgniarek i położnych, które dotyczyły szkoleń
+dla 776 uczestników, przy czym szkolenia ukończyło 704 osoby. W roku 2024 zawarto
+3 umowy (wszystkie z okręgowymi izbami lekarskimi), które dotyczyły szkoleń dla
+195 uczestników.
+
+
+
+
+Działalność gospodarcza
+Umożliwiono wszystkim obywatelom Ukrainy (legalnie przebywającym na terytorium
+RP) podejmowanie i wykonywanie działalności gospodarczej na takich samych
+zasadach jak obywatele polscy (art. 23).
+Od wybuchu wojny w rejestrze CEIDG odnotowano 79 544 wnioski o rejestrację
+działalności złożonych przez osoby posiadające obywatelstwo ukraińskie (17 967
+wniosków złożono w 2022 r., w 2023 r. złożono 30 136 wniosków, a w 2024 r.
+złożono 31 441).
+Spośród złożonych wniosków największy udział stanowiły osoby decydujące się na
+zarejestrowanie działalności, której profil związany był z oprogramowaniem (12%
+wszystkich wniosków), na drugim miejscu była to działalność związana z
+fryzjerstwem i zabiegami kosmetycznymi (9,5%), trzecie miejsce to działalności
+związane z ogólnymi robotami budowlanymi (7% udziału w liczbie wniosków).
+
+
+                                                                                  18
+Na dzień 31 grudnia 2024 r. w rejestrze CEIDG zarejestrowanych i posiadających
+status aktywny działalności gospodarczej odnotowano 64 400 wpisów, w których
+przedsiębiorca posiada obywatelstwo ukraińskie. Łącznie wpisy obywateli
+ukraińskich stanowią 2,4% udziału w aktywnych wpisach w rejestrze CEIDG.
+
+
+
+
+Oświata
+Finansowanie dodatkowych zadań oświatowych
+W celu wsparcia JST w realizacji dodatkowych zadań oświatowych związanych z
+kształceniem, wychowaniem i opieką nad dziećmi i uczniami będącymi obywatelami
+Ukrainy, w ustawie pomocowej, przewidziano możliwość takiego wsparcia ze środków
+rezerwy części oświatowej subwencji ogólnej lub z FP. Wsparciem objęte zostały
+zadania do tej pory niefinansowane z subwencji oświatowej – dofinansowanie
+wychowania przedszkolnego dzieci w wieku 2,5–5 lat oraz dofinansowanie dowożenia
+uczniów. W roku szkolnym 2023/2024 z dowożenia skorzystało 7 366 dzieci i uczniów
+uchodźców z Ukrainy.
+Ustawodawca przewidział również możliwość utworzenia przez organ prowadzący
+innych lokalizacji prowadzenia zajęć dydaktycznych. Jeśli organem prowadzącym
+jest JST, utworzenie innej lokalizacji zajęć przybiera formę uchwały rady gminy
+(miejskiej). W ramach działań prowadzonych na podstawie art. 51 ustawy pomocowej
+
+                                                                               19
+komendanci powiatowi (miejscy) Państwowej Straży Pożarnej rozpoznali w 2022 r.
+52 wnioski o wydanie opinii w sprawach innych lokalizacji prowadzenia zajęć, w
+kolejnych latach wnioski te miały charakter incydentalny.
+Wszystkie placówki wychowania przedszkolnego, szkoły, w których realizowany jest
+obowiązek szkolny lub obowiązek nauki oraz placówki oświatowe otrzymują dotację
+na uczniów z Ukrainy na zasadach dotyczących obywateli polskich. Wyjątkiem od
+powyższej reguły są pełnoletni słuchacze, którzy przybyli do Polski z Ukrainy,
+kształcący   się    w   niepublicznych   szkołach    podstawowych    i   liceach
+ogólnokształcących dla dorosłych, branżowych szkołach II stopnia oraz szkołach
+policealnych. Dorośli słuchacze z Ukrainy mogą kształcić się w publicznych
+szkołach podstawowych i liceach ogólnokształcących dla dorosłych, branżowych
+szkołach II stopnia oraz szkołach policealnych prowadzonych zarówno przez JST
+lub osoby prawne niebędące JST lub osoby fizyczne, na zasadach obowiązujących
+obywateli polskich. Słuchacze są uwzględniani przy podziale środków z FP.
+W 2023 r. JST otrzymały środki z FP na zakup podręczników, materiałów
+edukacyjnych i materiałów ćwiczeniowych dla uczniów publicznych i niepublicznych
+szkół podstawowych dla dzieci i młodzieży oraz szkół artystycznych realizujących
+kształcenie ogólne w zakresie szkoły podstawowej, będących obywatelami Ukrainy,
+w zakresie, o którym mowa w art. 55 ust. 1 ustawy z dnia 27 października 2017
+r. o finansowaniu zadań oświatowych, przeznaczonych do obowiązkowych zajęć
+edukacyjnych z zakresu kształcenia ogólnego, określonych w ramowych planach
+nauczania ustalonych dla tych szkół. W 2024 r. nie ujęto w FP środków
+przeznaczonych na ten cel.
+Nauczanie w oddziale przygotowawczym
+Dla osób nieznających języka polskiego lub znających w stopniu uniemożliwiającym
+korzystanie z nauki, które wymagają dostosowania procesu kształcenia do ich
+potrzeb i możliwości edukacyjnych, a także dostosowania formy organizacyjnej
+wspomagającej efektywność ich kształcenia, organ prowadzący szkołę może
+zorganizować oddział przygotowawczy w szkole, w której te osoby realizują naukę
+zgodnie z podstawą programową kształcenia ogólnego.
+
+Nauczanie w oddziale przygotowawczym może być prowadzone w grupie
+międzyszkolnej. JST prowadzące szkoły mogą zawierać porozumienia w celu
+kierowania przez organ wykonawczy JST uczniów prowadzonej przez siebie szkoły
+do oddziału przygotowawczego zorganizowanego w szkole tego samego typu
+prowadzonej przez inną JST.
+
+Liczba oddziałów przygotowawczych i liczba uczniów w tych oddziałach w dniu 30
+września
+w latach szkolnych 2022/2023–2024/2025 wraz z liczbą uczniów uchodźców z
+Ukrainy.
+
+
+                                             W tym liczba
+                                                                W tym liczba
+     Rok     Liczba oddziałów   Liczba        oddziałów
+                                                             uczniów uchodźców
+   szkolny   przygotowawczych   uczniów     z uchodźcami z
+                                                                 z Ukrainy
+                                                Ukrainy
+
+                                                                                 20
+  2022/2023            960         15 968        951                 15 058
+
+  2023/2024            311         4 603         302                 3 903
+
+  2024/2025            260         4 118         249                 3 592
+
+
+Dodatkowa nauka języka polskiego
+Zgodnie z art. 165 ust. 7 ustawy – Prawo oświatowe – osoby niebędące obywatelami
+polskimi, podlegające obowiązkowi szkolnemu lub obowiązkowi nauki, które nie
+znają języka polskiego albo znają go na poziomie niewystarczającym do korzystania
+z nauki, mają prawo do dodatkowej, bezpłatnej nauki języka polskiego w wymiarze
+nie niższym niż 6 godzin tygodniowo nie dłużej niż przez okres 24 miesięcy.
+Dodatkową naukę języka polskiego dla tych osób organizuje organ prowadzący
+szkołę.
+Liczba uczniów/dzieci z Ukrainy objętych wsparciem z FP na dodatkowe zajęcia z
+języka polskiego w 2022 r. – 69 116, w 2023 r. – 85 780, w 2024 r. – 68 992.
+W przypadku uczniów, którzy rozpoczęli w latach szkolnych 2022/2023 i 2023/2024
+dodatkową naukę języka polskiego prawo do tej nauki przysługuje na okres nie
+dłuższy niż 36 miesięcy (wcześniej 24 miesiące).
+Liczba uczniów uchodźców z Ukrainy, którzy korzystali z dodatkowej, bezpłatnej
+nauki języka polskiego w dniu 30 września 2024 r., w szkołach dla dzieci
+i młodzieży w podziale na typ szkoły.
+
+
+                                                  Uczniowie-uchodźcy z Ukrainy
+                    Typ podmiotu             korzystający z dodatkowej, bezpłatnej
+                                                     nauki języka polskiego
+Szkoła podstawowa                                            57 156
+Liceum ogólnokształcące                                     3 770
+
+Technikum                                                   5 686
+
+Szkoła specjalna przysposabiająca do pracy                    11
+
+Ogólnokształcąca szkoła muzyczna I stopnia                    7
+
+Liceum sztuk plastycznych                                     54
+
+Ogólnokształcąca szkoła baletowa                              6
+Bednarska Szkoła Realna                                       2
+Branżowa szkoła I stopnia                                   2 300
+
+Razem                                                       68 992
+
+
+
+
+Skreślenie z listy ucznia
+Dyrektor przedszkola, szkoły lub placówki, a w przypadku innej formy wychowania
+przedszkolnego prowadzonej przez osobę prawną inną niż JST lub osobę fizyczną –
+                                                                             21
+osoba kierująca tą inną formą wychowania przedszkolnego, może, w drodze decyzji,
+skreślić dziecko, ucznia albo wychowanka, będących obywatelami Ukrainy, których
+pobyt na terytorium RP jest uznawany za legalny na podstawie ustawy pomocowej
+albo którzy przebywają legalnie na terytorium RP, w przypadku, gdy przybyli na
+terytorium RP z terytorium Ukrainy od dnia 24 lutego 2022 r. w związku
+z działaniami wojennymi prowadzonymi na terytorium tego państwa, z listy
+odpowiednio dzieci, uczniów, albo wychowanków, jeżeli dziecko, uczeń albo
+wychowanek:
+1) nie zamieszkuje na obszarze gminy, w której jest położone przedszkole, inna
+forma wychowania przedszkolnego, szkoła lub placówka, oraz
+2) ma nieusprawiedliwioną nieobecność w okresie dwóch miesięcy na co najmniej
+50% dni zajęć odpowiednio w przedszkolu, oddziale przedszkolnym w szkole
+podstawowej, innej formie wychowania przedszkolnego, szkole lub placówce.
+
+Wczesne wspomaganie rozwoju dzieci
+Liczba uczniów uchodźców z Ukrainy przypisanych do oddziałów podstawowych/
+przygotowawczych oraz posiadających opinię o potrzebie wczesnego wspomagania
+rozwoju w dniu 30 września w latach szkolnych 2022/2023–2024/2025 (wg stanu bazy
+danych SIO na dzień 19 lutego 2025 r.):
+
+           Rok szkolny                   Typ orzeczenia                   Liczba uczniów
+                          opinia o potrzebie wczesnego
+         2022/2023                                                              237
+                          wspomagania
+                          opinia o potrzebie wczesnego
+         2023/2024                                                              488
+                          wspomagania
+                          opinia o potrzebie wczesnego
+         2024/2025                                                              684
+                          wspomagania
+
+Dzieci z Ukrainy, posiadające opinię o potrzebie wczesnego wspomagania rozwoju,
+uczestniczyły w zajęciach prowadzonych przez zespoły wczesnego wspomagania
+rozwoju na tych samych zasadach co dzieci z Polski.
+
+Pomoc materialna dla uczniów
+W latach 2022–2024 dla uczniów z Ukrainy, o których mowa w art. 53 ust. 1 ustawy
+pomocowej, dostępna była pomoc materialna o charakterze socjalnym w formie
+stypendium szkolnego3) (maksymalnie 248 zł miesięcznie dla ucznia) i zasiłku
+szkolnego         (maksymalnie         620         zł         na         ucznia,
+w którego rodzinie nastąpiło zdarzenie pogarszające znacznie jej sytuację
+materialną):
+
+
+
+
+3)   Dane dotyczące stypendiów szkolnych podawane są w podziale na półrocze, co z wynika z tego,
+     że decyzje administracyjne w sprawie ich przyznania wydawane są na dane półrocze (np. na okres
+     od stycznia do czerwca 2023 r.). Liczby uczniów za poszczególne półrocza nie należy sumować,
+     ponieważ część z nich mogła korzystać ze stypendium szkolnego również w kolejnym półroczu.
+
+                                                                                                22
+   od marca do sierpnia 2022 r. stypendium szkolne otrzymało 6 784 uczniów, a
+    od września do grudnia 2022 r. – 7 742 uczniów, natomiast w 2022 r. zasiłki
+    szkolne otrzymało łącznie 3 309 uczniów,
+   od stycznia do czerwca 2023 r. stypendium szkolne otrzymało 5 597 uczniów, a
+    od września do grudnia 2023 r. – 4 661 uczniów, natomiast w 2023 r. zasiłki
+    szkolne otrzymało 80 uczniów,
+   od stycznia 2024 r. do czerwca 2024 r. stypendium szkolne otrzymało 3 768
+    uczniów, a od września do grudnia 2024 r. 3 039 uczniów, natomiast w 2024 r.
+    zasiłki szkolne otrzymało 90 uczniów.
+
+Ułatwienie zatrudniania pomocy nauczyciela
+Pracę na stanowisku pomocy nauczyciela, o którym mowa w art. 165 ust. 8 ustawy
+– Prawo oświatowe, mogą podjąć osoby niebędące obywatelami polskimi, które
+posiadają znajomość języka polskiego w mowie i piśmie w stopniu umożliwiającym
+pomoc uczniowi, który nie zna języka polskiego albo zna go na poziomie
+niewystarczającym do korzystania z nauki, bez konieczności potwierdzenia
+znajomości języka polskiego wymaganymi dokumentami.
+Osoby   zatrudniane   na  stanowisku   pomocy   nauczyciela   są   pracownikami
+samorządowymi. W myśl art. 11 ust. 3 ustawy o pracownikach samorządowych osoba
+nieposiadająca obywatelstwa polskiego może zostać zatrudniona na stanowisku, na
+którym wykonywana praca nie polega na bezpośrednim lub pośrednim udziale
+w wykonywaniu władzy publicznej i funkcji mających na celu ochronę generalnych
+interesów państwa, jeżeli posiada znajomość języka polskiego potwierdzoną
+dokumentem określonym w przepisach o służbie cywilnej. Obecnie osoba
+nieposiadająca obywatelstwa polskiego ubiegająca się o zatrudnienie na
+stanowisku pomocy nauczyciela musi zatem legitymować się jednym z poniższych
+dokumentów:
+1) certyfikatem znajomości języka polskiego poświadczającym zdany egzamin z
+   języka polskiego na poziomie średnim ogólnym lub zaawansowanym, wydanym przez
+   Państwową Komisję Poświadczania Znajomości Języka Polskiego jako Obcego;
+2) dokumentem potwierdzającym ukończenie studiów wyższych prowadzonych w języku
+   polskim;
+3) świadectwem dojrzałości uzyskanym w polskim systemie oświaty;
+4) świadectwem nabycia uprawnień do wykonywania zawodu tłumacza przysięgłego
+   wydanym przez Ministra Sprawiedliwości.
+Przepisy ustawy ułatwiają zatrudnianie na stanowisku pomocy nauczyciela
+obywateli Ukrainy, którzy znają język polski w stopniu umożliwiającym pomoc
+uczniom z Ukrainy, przez zniesienie w tym okresie wymogu legitymowania się
+określonym dokumentem poświadczającym znajomość języka polskiego.
+
+
+                                  2022              2023                  2024
+Pomoc nauczyciela
+                             I   II III   IV   I   II III   IV   I   II    III   IV
+
+
+
+
+                                                                                      23
+osoby władające językiem
+kraju pochodzenia, o których
+                             435 467 487 525 521 379 373 369 380 327 201   173
+mowa w art. 165 ust. 8
+ustawy – Prawo oświatowe
+
+
+
+
+Asystent międzykulturowy
+Zgodnie z art. 165 ust. 8a ustawy – Prawo oświatowe od 1 września 2024 r. w
+szkole może być zatrudniony asystent międzykulturowy, który udziela osobom
+niebędącym obywatelami polskimi, podlegającym obowiązkowi szkolnemu lub
+obowiązkowi nauki, które nie znają języka polskiego albo znają go na poziomie
+niewystarczającym do korzystania z nauki, pomocy w kontaktach ze środowiskiem
+szkolnym, a także współdziała z ich rodzicami oraz ze szkołą. Może zostać
+zatrudniony w szkołach podstawowych, liceach ogólnokształcących, technikach,
+szkołach branżowych I stopnia i szkołach branżowych II stopnia. Musi spełniać
+warunek niekaralności potwierdzony zaświadczeniem z Krajowego Rejestru Karnego
+i nie może toczyć się przeciwko niemu postępowanie karne.
+W roku szkolnym 2024/2025 na stanowisku asystenta międzykulturowego może być
+zatrudniona osoba nieposiadająca obywatelstwa polskiego, jeżeli posiada
+znajomość języka polskiego w mowie i piśmie w stopniu umożliwiającym pomoc
+uczniowi, który nie zna języka polskiego albo zna go na poziomie
+niewystarczającym do korzystania z nauki. Nie stosuje się wymogu potwierdzania
+znajomości języka polskiego dokumentem, o którym mowa w art. 11 ust. 3 ustawy o
+pracownikach samorządowych.
+Asystent międzykulturowy diagnozuje etapy szoku kulturowego, bariery adaptacji
+i integracji uczniów oraz podejmuje działania zapobiegawcze i naprawcze. Ułatwia
+uczniom niebędącym obywatelami polskimi integrację w środowisku szkolnym.
+Wspomaga dyrektora szkoły w procesie organizacji współpracy z rodzicami ucznia
+cudzoziemskiego, a także ich włączaniu w społeczność szkolną. Wspiera spójne
+funkcjonowanie wielokulturowej społeczności szkolnej.
+W IV kwartale 2024 r., według stanu bazy danych SIO na 10 lutego 2025 r.,
+zatrudnionych było 476 asystentów międzykulturowych (382,50 etatów).
+
+
+
+
+                                                                                 24
+Szkolnictwo wyższe
+
+Art. 93 ustawy pomocowej określa postępowanie w sprawie potwierdzenia ukończenia
+studiów na określonym poziomie. Wprowadzono nowelizację przepisu dotyczącego
+potwierdzania przez polskie uczelnie ukończenia studiów na określonym poziomie
+osobom, które nie dysponują dyplomem ukończenia studiów. Rozwiązanie to zostało
+rozszerzone na obywateli polskich, którzy wjechali na terytorium RP z terytorium
+Ukrainy w okresie od 24 lutego 2022 r. i obywateli Ukrainy przebywających na
+terytorium RP, których pobyt na terytorium RP jest uznawany za legalny. Dzięki
+temu osoby, które nie dysponują dyplomem ukończenia studiów, będą mogły mieć
+potwierdzone ukończenie studiów na określonym poziomie w drodze postępowania
+przeprowadzonego przez uprawnioną uczelnię.
+Ponadto w art. 96 ww. ustawy wprowadzono rozwiązania, które umożliwiają uczelniom
+przyjmującym na studia i podmiotom prowadzącym szkoły doktorskie wdrożenie
+szczególnych zasad organizacji kształcenia i funkcjonowania tych uczelni i szkół
+doktorskich w związku z konfliktem zbrojnym w Ukrainie, w tym w kontekście
+kształcenia obywateli Ukrainy, którzy w wyniku działań wojennych na jej
+terytorium byli zmuszeni opuścić ten kraj albo przerwać proces kształcenia w
+RP. Umożliwiono uczelniom i podmiotom prowadzącym szkoły doktorskie dokonanie
+zmian w zasadach rekrutacji na studia i do szkół doktorskich oraz w programach
+kształcenia określonych dla kształcenia rozpoczętego w 2021 r. i dla kształcenia
+rozpoczynającego się w 2022 r., z pominięciem określonego w ustawie Prawo o
+szkolnictwie wyższym i nauce (Dz. U. z 2024 r. poz. 1571, z późn. zm.) terminu
+ich udostępnienia przed rozpoczęciem rekrutacji.
+
+Refundacja dla polskich studentów kierunków medycznych uczących się na Ukrainie
+Na podstawie art. 41 ustawy pomocowej refundacja kosztów usług edukacyjnych
+poniesionych w związku z przeniesieniem studentów z uczelni ukraińskich na
+uczelnie medyczne w Polsce (ok. 130 studentów będących obywatelami polskimi)
+jest realizowana zarówno przez MZ w zakresie uczelni medycznych nadzorowanych
+przez ten resort oraz przez MNiSW. Refundacja, o której mowa, jest różnicą między
+wysokością opłaty ustalonej dla danego semestru na określonym kierunku
+i poziomie studiów w polskiej uczelni medycznej, a wysokością udokumentowanej
+opłaty wniesionej przez studenta w uczelni medycznej działającej na terytorium
+Ukrainy.
+
+
+
+
+                                                                               25
+Zdrowie
+
+
+
+
+                         2022 r.                         2023 r.                     2024 r.
+Rodzaj świadczeń,
+udzielonych na podstawie Liczba         Wartość          Liczba       Wartość        Liczba     Wartość
+ustawy pomocowej         osób           świadczeń (w     osób       świadczeń (w     osób       świadczeń (w
+                                        zł)                         zł)                         zł)
+podstawowa opieka zdrowotna   338 887   41 478 145,77     312 339   52 011 995,17     177 637   48 481 270,30
+ambulatoryjna opieka          125 303   29 917 394,11      113382   48 090 453,43      83 500   49 745 831,35
+specjalistyczna
+leczenie szpitalne            66 149    369 287 222,62     53847    533 892 903,51     37 646   495 466 432,32
+opieka psychiatryczna i        4 222     6 368 833,30       4519      9 690 667,39     4 008    12 746 791,19
+leczenie uzależnień
+rehabilitacja lecznicza        5 964     8 087 803,23       8856    174 86 150,70      8 643    19 101 770,54
+świadczenia pielęgnacyjne i    133       1 760 451,18       118      3 707 031,66        95      5 374 543,12
+opiekuńcze w ramach opieki
+długoterminowej
+opieka paliatywna i            836       4 424 491,28       784     10 987 239,79       528      9 566 414,41
+hospicyjna
+leczenie stomatologiczne      72 260    17 892 942,48      73581    33 783 344,08      50 950   34 688 766,14
+pomoc doraźna i transport       2           648,00           6         1 944,00          0           0,00
+sanitarny
+koszty profilaktycznych                                                                1 407     1 195 940,68
+programów zdrowotnych          918        442 672,01        1307      779 523,85
+finans. ze środków własnych
+świadczenia zdrowotne          2 875    21 697 212,97       2537    31 622 576,52      1 997    28 817 045,89
+kontraktowane odrębnie
+zaopatrzenie w wyroby          6 561    10 066 246,24      13 122   77 161 876,11      8 266    15 312 778,49
+medyczne oraz ich naprawa
+refundacja leków, środków                                                             127 377   21 233 178,33
+spożywczych specjalnego       27 007     2 200 240,13     215 525   26 796 652,14
+przeznaczenia (...)
+refundacja leków bez                                                                     2        63 954,78
+pozwolenia na dopuszczenie      0            0,00            2        152 085,04
+do obrotu na terytorium RP
+(...)
+programy pilotażowe, o         518        977 871,30        2319     1 837 942,98      21 238    5 227 370,33
+których mowa w art. 48e
+ustawy
+Szczepienia w aptekach                                                                  176        7 201,81
+
+
+                                                                                                            26
+RAZEM                  651 635   514 602 174,62   802 244   848 002 386,37   523 470   747 029 289,68
+
+
+
+Świadczenia opieki zdrowotnej udzielane są obywatelom Ukrainy na terytorium RP
+na podstawie art. 37 ust. 1 i 1b ustawy pomocowej. Wsparcie obywatelom
+ukraińskim, w tym dostęp do publicznego systemu ochrony zdrowia, na tych samych
+zasadach, co obywatele Polscy, gwarantuje ustawa pomocowa, która w sposób
+kompleksowy reguluje zakres i sposób udzielania tej pomocy. Obywatel Ukrainy,
+którego pobyt na terytorium RP jest uznawany za legalny, jest uprawniony do
+opieki medycznej obejmującej świadczenia opieki zdrowotnej na zasadach i w
+zakresie, w jakim osobom objętym obowiązkowym lub dobrowolnym ubezpieczeniem
+zdrowotnym przysługuje prawo do świadczeń na podstawie ustawy z dnia 27 sierpnia
+2004 r. o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych
+(Dz.U. z 2025 r. poz. 1461), z wyłączeniem leczenia uzdrowiskowego i
+rehabilitacji uzdrowiskowej, a także podania produktów leczniczych wydawanych
+świadczeniobiorcom w ramach programów polityki zdrowotnej ministra właściwego
+do spraw zdrowia.
+Koszty tych świadczeń są rozliczane ze świadczeniodawcami oraz aptekami przez
+NFZ, a finansowane z FP (art. 14 ustawy pomocowej). Szczegółowy tryb i sposób
+finansowania jest określony w umowie zawartej między ministrem właściwym do
+spraw zdrowia a NFZ.
+
+Krwiodawstwo i krwiolecznictwo
+Na stronie internetowej Narodowego Centrum Krwi został uruchomiony formularz
+pod nazwą „Gotowi oddać krew!” Liczba wypełnień ankiety wynosi 9 570. Formularz
+służy do skierowania komunikacji bezpośrednio do osób, które zgłoszą chęć oddania
+krwi, dzięki czemu możliwe jest racjonalne zarządzanie jej zasobami. Narodowe
+Centrum Krwi koordynowało działania w zakresie udzielenia wsparcia Ukrainie, na
+podstawie art. 14 ustawy pomocowej – Wydatki związane z zapewnieniem krwi i jej
+składników wraz z niezbędnymi wyrobami medycznymi celem ich badania,
+preparatyki, przechowywania, wydawania i transportu.
+Regionalne Centrum Krwiodawstwa i Krwiolecznictwa przekazały na Ukrainę
+koncentrat krwinek czerwonych (KKCz i UKKCz w łącznej ilości 300 jednostek) oraz
+materiały zużywalne niezbędne do pobierania i preparatyki krwi. Wydawano
+koncentraty czynników krzepnięcia w ramach zadania pn.: „Zakup i wydawanie
+produktów leczniczych w ramach Narodowego Programu Leczenia Chorych na Hemofilię
+i Pokrewne Skazy Krwotoczne (PPZ)”. Podstawą prawną do wydawania produktów
+leczniczych w ramach programów polityki zdrowotnej jest art. 37 ust. 2 ustawy
+pomocowej.
+
+Opieka zdrowotna dla osób rannych i poszkodowanych
+Opieka medyczna, o której mowa w art. 37 ust. 1 ustawy pomocowej, przysługuje
+również osobom, które odniosły obrażenia w wyniku działań wojennych prowadzonych
+na terytorium Ukrainy, niespełniającym warunków, o których mowa w art. 2 ww.
+ustawy, i nieuprawnionych do świadczeń opieki zdrowotnej finansowanych ze
+
+                                                                                                27
+środków publicznych na terytorium RP na podstawie innych przepisów lub umów
+międzynarodowych, które zostały przetransportowane na terytorium RP w celu
+udzielania świadczeń opieki zdrowotnej. Zgodnie z ww. przepisem ranni i
+poszkodowani w wyniku konfliktu zbrojnego na terytorium Ukrainy transportowani
+do Polski w celu leczenia uprawnieni są do opieki medycznej udzielanej
+na terytorium RP obejmującej świadczenia opieki zdrowotnej na zasadach
+i w zakresie, w jakim osobom objętym obowiązkowym lub dobrowolnym ubezpieczeniem
+zdrowotnym przysługuje prawo do świadczeń na podstawie ustawy o świadczeniach
+opieki zdrowotnej finansowanych ze środków publicznych z wyłączeniem leczenia
+uzdrowiskowego i rehabilitacji uzdrowiskowej, a także podania produktów
+leczniczych wydawanych świadczeniobiorcom w ramach programów polityki zdrowotnej
+ministra właściwego do spraw zdrowia.
+Mając na uwadze ww. uregulowania, w 2022 r. została opracowana „Procedura w
+zakresie uruchamiania transportu ewakuacyjnego dla rannych żołnierzy z Ukrainy
+realizowanego pociągiem medycznym, organizacji leczenia w podmiotach leczniczych
+w Polsce i powrotów żołnierzy po zakończonym leczeniu”. Na podstawie
+przedmiotowej procedury odbywa się kwalifikacja rannych i poszkodowanych
+żołnierzy w związku z konfliktem zbrojnym na terytorium Ukrainy na podstawie
+zgłoszenia przekazanego przez rząd Ukrainy stronie polskiej w celu organizacji
+dla nich miejsc udzielania świadczeń opieki zdrowotnej w podmiotach leczniczych
+na terenie Polski.
+Zgodnie z powyższą procedurą w latach 2022–2024 liczba ewakuowanych na leczenie
+do Polski rannych i poszkodowanych w wyniku konfliktu zbrojnego na terytorium
+Ukrainy wynosiła:
+– 2022 r. – 143,
+– 2023 r. – 118,
+– 2024 r. – 36.
+
+Dostęp do systemu E-ZDROWIE
+Dzięki uproszczonym procedurom obywatele Ukrainy, posiadający numer PESEL, mają
+dostęp do Internetowego Konta Pacjenta. Konto umożliwia dostęp do e-recept, e-
+skierowań, e-zwolnień lekarskich oraz unijnego zaświadczenia COVID. Na portalu
+pacjent.gov.pl dostępna jest zakładka „Pacjenci z Ukrainy", gdzie publikowane
+są najważniejsze informacje o systemie ochrony zdrowia w języku ukraińskim.
+Dzięki uproszczonym procedurom obywatele Ukrainy, którzy uzyskali numer PESEL,
+mają dostęp do Internetowego Konta Pacjenta, które dostępne jest również w języku
+ukraińskim, w tym w wersji mobilnej. Konto umożliwia dostęp do e-recept, e-
+skierowań, e-zwolnień lekarskich.
+
+
+
+Zgoda na wykonywanie zawodów medycznych
+Lekarze, lekarze dentyści, którzy uzyskali prawo wykonywania zawodu (PWZ) na
+określony zakres czynności zawodowych, okres i miejsce zatrudnienia w podmiocie
+leczniczym wykonują świadczenia zdrowotne przez okres 1 roku pod nadzorem
+opiekuna będącego lekarzem posiadającym specjalizację II stopnia lub tytuł
+
+                                                                               28
+specjalisty w danej dziedzinie medycyny wyznaczonego przez kierownika podmiotu.
+Lekarz, lekarz dentysta, który uzyskał PWZ na wykonywanie warunkowego prawa
+wykonywania zawodu, posiadający dyplom potwierdzający uzyskanie tytułu
+specjalisty, może uzyskać zgodę na samodzielne wykonywanie zawodu, po 3
+miesiącach wykonywania zawodu pod nadzorem odpowiednio lekarza albo lekarza
+dentysty posiadającego specjalizację II stopnia lub tytuł specjalisty. W
+przypadku zaś gdy lekarz lub lekarz dentysta, który uzyskał PWZ na wykonywanie
+warunkowego   prawa   wykonywania   zawodu   lekarza,    nie   posiada   dyplomu
+potwierdzającego uzyskanie tytułu specjalisty, może uzyskać zgodę na wykonywanie
+zawodu przez cały okres zatrudnienia pod nadzorem lekarza albo lekarza dentysty
+posiadającego specjalizację II stopnia lub tytuł specjalisty.
+
+Od 24 lutego 2022 r. do 31 grudnia 2024 r. zostało wydanych 5 330 pozytywnych
+decyzji dla
+ukraińskich lekarzy/lekarzy dentystów.
+
+
+
+Tryb wydawania decyzji       2022             2023           2024
+Ministra Zdrowia             Lekarze i        Lekarze i      Lekarze i
+                             lekarze          lekarze        lekarze
+                             dentyści         dentyści       dentyści
+W procedurze na określony           153             124            51
+zakres czynności, czas i
+miejsce
+W procedurze o warunkowe           133              1               0
+prawo wykonywania zawodu
+(PWZ)
+Zgodnie z art. 61 ustawy           1989            1630           1249
+
+Łącznie obywatelom Ukrainy         2275            1755           1300
+wydano pozytywnych decyzji
+Ministra Zdrowia
+
+
+
+
+Pielęgniarki i położne, które uzyskały swoje kwalifikacje poza terytorium UE –
+minister właściwy do spraw zdrowia może udzielić zgody (w formie decyzji
+administracyjnej) osobie, która uzyskała kwalifikacje zawodowe poza terytorium
+państw członkowskich Unii Europejskiej, na wykonywanie zawodu pielęgniarki lub
+położnej na terytorium RP, jeżeli spełnia wymagania określone w art. 35a ustawy
+z dnia 15 lipca 2011 r. o zawodach pielęgniarki i położnej (Dz. U. z 2024 r.
+poz. 814, z późn. zm.).
+Przepisy prawa umożliwiają osobie, która uzyskała kwalifikacje zawodowe poza
+terytorium państw członkowskich Unii Europejskiej uzyskanie prawa wykonywania
+zawodu pielęgniarki lub położnej w dwóch trybach:
+  prawo wykonywania zawodu pielęgniarki lub położnej na określony zakres
+     czynności zawodowych, czas i miejsce zatrudnienia w Polsce,
+  warunkowe prawo wykonywania zawodu pielęgniarki lub warunkowe prawo
+                                                                              29
+    wykonywania zawodu położnej.
+
+Od 24 lutego 2022 r. do 31 grudnia 2024 r. zostało wydanych 2653 pozytywnych
+decyzji Ministra Zdrowia dla ukraińskich pielęgniarek i położnych.
+
+
+              na określony zakres     o warunkowe prawo      Pozytywne decyzje
+    Tryb
+               czynności, czas i      wykonywania zawodu         MZ wydane
+ wydawania
+                    miejsce                 (PWZ)                obywatelom
+  decyzji
+             pielęgniar   położne   pielęgniar    położne         Ukrainy:
+ Ministra
+ Zdrowia:        ki                     ki
+    2022         56          2          736         108             902
+
+    2023         21          0          842         132             995
+    2024         1           0          642         113             756
+
+
+
+Ratownicy medyczni, do dnia 30 czerwca 2023 r. każda osoba, która uzyskała poza
+terytorium państw członkowskich Unii Europejskiej kwalifikacje do wykonywania
+zadań zawodowych, o których mowa w art. 11 ust. 1 ustawy z dnia 8 września 2006
+r. o Państwowym Ratownictwie Medycznym (Dz. U. z 2025 r. poz. 91, z późn. zm.),
+mogła uzyskać zgodę na wykonywanie zawodu ratownika medycznego na okres 5 lat.
+Od 24 lutego 2022 r. do 31 grudnia 2022 r. wpłynęło 68 wniosków o udzielenie
+zgody na wykonywanie zawodu ratownika medycznego od obywateli Ukrainy, z czego
+33 osoby uzyskały zgodę MZ na wykonywanie zawodu ratownika medycznego, a 35
+wniosków w związku z nieusunięciem braków formalnych pozostawiono bez
+rozpoznania.
+Od 1 stycznia 2023 r. do 1 lipca 2023 r. do MZ wpłynęło 35 wniosków o udzielenie
+zgody na wykonywanie zawodu ratownika medycznego od obywateli Ukrainy, z czego
+16 osób uzyskało zgodę Ministra Zdrowia na wykonywanie zawodu ratownika
+medycznego, a 18 wniosków pozostawiono bez rozpoznania w związku z nieusunięciem
+braków formalnych. Została wydana również 1 decyzja umarzająca postępowanie.
+W oparciu o zalecenia Ministra Edukacji i Nauki oraz Ministra Zdrowia został
+przygotowany program „Solidarni z Ukrainą”, którego celem było umożliwienie
+uczestnikom Programu – studentom i doktorantom, którzy byli obywatelami Ukrainy
+i przybyli do Polski od 24 lutego 2022 r. – kontynuowania studiów, prowadzenia
+prac nad rozprawą doktorską lub odbycia innych dowolnych form kształcenia w
+polskich uczelniach i instytutach, w okresie od marca do września 2022 r.
+O udział w Programie mogły ubiegać się: uczelnie nadzorowane przez Ministra
+Edukacji i Nauki lub Ministra Zdrowia, w których liczba studentów studiów
+stacjonarnych wynosiła minimum 150 osób, instytuty PAN, instytuty badawcze,
+instytuty Sieci Łukasiewicz.
+
+Relokacja ukraińskich pacjentów do innych państw
+Pełnomocnik Ministra Zdrowia do spraw przeniesienia, w celu kontynuacji leczenia
+poza granicami Rzeczypospolitej Polskiej, pacjentów ukraińskich przebywających
+                                                                              30
+na terytorium Rzeczpospolitej Polskiej w związku z konfliktem zbrojnym na
+terytorium Ukrainy zapewnia przeprowadzenie procesu przeniesienia pacjentów do
+innych państw UE/EOG. Do 31 grudnia 2024 r. z Polski relokowano 226 pacjentów,
+podczas gdy w ramach całego programu MEDEVAC relokowano ponad 3 900 pacjentów
+do 22 krajów UE i EOG.
+
+Zgodnie z danymi NFZ na grudzień 2024 r. w 820 polskich podmiotach leczniczych
+przebywało 4 831 obywateli ukraińskich (2 914 dorosłych i 1 917 dzieci).
+1 września 2022 r. został otwarty Medevac Hub Jasionka (dalej: również jako MHJ)
+na terenie Rzeszowskiej Agencji Rozwoju Regionalnego, finansowany przez Komisję
+Europejską, zarządzany przez polską fundację Polskie Centrum Pomocy
+Międzynarodowej, częściowo wyposażony przez Międzynarodową Organizację ds.
+Migracji, a jego założenia organizacyjne i operacyjne zostały wypracowane
+wspólnie przez Komisję Europejską i Światową Organizację Zdrowia, w procesie
+koordynowanym przez MZ.
+Hub stanowi wsparcie procesu relokacji, a także zwiększa bezpieczeństwo
+relokowanych osób, zapewniając zakwaterowanie i opiekę będącym w podróży
+pacjentom oraz członkom ich rodzin. Pozwala planować proces relokacji w
+koordynacji ze stroną ukraińską i norweską.
+Medevac Hub Jasionka:
+    zapewnia   podstawową   obserwację,   opiekę   pielęgniarską   i   wsparcie
+     psychospołeczne dla relokowanych pacjentów,
+    zapewnia ciągłość oraz modyfikację bieżącej opieki medycznej,
+    identyfikuje, ocenia, kieruje pacjentów z zagrożeniem pogorszenia się stanu
+     zdrowia lub których stan zdrowia się pogorszył do szpitala referencyjnego.
+Obecnie w Hubie istnieje możliwość przyjęcia do około 20 pacjentów i do około
+30 osób towarzyszących, którzy korzystają z procedury ewakuacji medycznej do
+państw UE/EOG.
+Hub może przyjąć również do 20 osób / pacjentów, którzy zakończyli leczenie w
+Polsce / państwach UE i chcą powrócić na terytorium Ukrainy (repatriacje
+pacjentów).
+Do dnia 31 grudnia 2024 r. z pobytu w MHJ skorzystało 2 744 osób (1 996 pacjentów
+i 748 osób towarzyszących).
+
+
+
+
+                                                                               31
+Wsparcie na rzecz rodzin
+Dostęp do żłobków, klubów dziecięcych i dziennych opiekunów
+Na podstawie art. 28 ustawy pomocowej została utworzona dodatkowa liczba miejsc
+opieki w żłobkach, klubach dziecięcych i u dziennych opiekunów w celu zapewnienia
+opieki nad dziećmi w wieku do lat 3 będącymi obywatelami Ukrainy, przebywającymi
+na terytorium RP, których pobyt na terytorium RP jest uznawany za legalny na
+podstawie art. 2 ust. 1 ww. ustawy:
+  – 2022 r. – 1 571 miejsc opieki (dane na koniec grudnia 2022 r.),
+  – 2023 r. – 1 328 miejsc opieki (dane na koniec grudnia 2023 r.),
+  – 2024 r. – 1 255 miejsc opieki (dane na koniec grudnia 2024 r.).
+
+Świadczenia na rzecz rodziny
+Obywatelom Ukrainy, którzy przybyli na terytorium Polski od 24 lutego 2022 r. z
+terytorium Ukrainy w związku z działaniami wojennymi prowadzonymi na terytorium
+tego państwa i których pobyt na terytorium Polski jest uznawany za legalny, ZUS
+przyznaje i wypłaca z zastosowaniem art. 26 ustawy pomocowej:
+    świadczenie wychowawcze, o którym mowa w ustawie o pomocy państwa
+      w wychowywaniu dzieci,
+    rodzinny kapitał opiekuńczy, o którym mowa w ustawie o rodzinnym kapitale
+      opiekuńczym,
+    dofinansowanie obniżenia opłaty rodzica za pobyt dziecka w żłobku, klubie
+      dziecięcym lub u dziennego opiekuna, o którym mowa w art. 64c ust. 1 ustawy
+      o opiece nad dziećmi w wieku do lat 3,
+    świadczenie „Dobry Start”, o którym mowa w przepisach wydanych na podstawie
+      art. 187a ustawy o wspieraniu rodziny i systemie pieczy zastępczej.
+
+Średniomiesięczna liczba        2022 r.         2023 r.           2024 r.
+wypłacanych poszczególnych
+świadczeń w kolejnych
+latach:
+Świadczenie wychowawcze         271 386         219 121           214 838
+
+Rodzinny Kapitał Opiekuńczy      7 235           4 330             3 313
+– przyznawane od marca 2022
+r.
+Dofinansowanie żłobków –          738            1 088              856
+przyznawane od kwietnia
+2022 r.
+Świadczenie „Aktywnie w        świadczenie realizowane od          2 821
+żłobku" (w ramach „Aktywny        października 2024 r.
+rodzic ")
+Świadczenie dobry start –       148 738         124 626           131 966
+wypłacane raz w roku
+
+
+Z uwagi na duży wolumen beneficjentów programów dla rodzin z Ukrainy ZUS
+przygotował do obsługi przyznawania świadczeń dla rodzin dla uchodźców
+rozwiązania technologiczne oparte na automatycznym przyznawaniu świadczeń przez
+
+                                                                               32
+specjalnie przygotowane oprogramowanie. Dla realizacji zadań związanych z
+obsługą wniosków o świadczenia rodzinne dla obywateli Ukrainy, konieczne było
+podłączenie się przez ZUS do rejestrów zewnętrznych, w tym do ewidencji
+małoletnich, specjalnego rejestru PESEL, jak również rejestru KGSG, wynikających
+z ustawy pomocowej. Automatyczne sprawdzenie danych w tych rejestrach warunkuje
+prawidłowe przyznanie lub wypłatę świadczeń przez ZUS.
+
+Na mocy ustawy pomocowej uchodźcy wojenni z Ukrainy (posiadający polski numer
+ewidencyjny PESEL z symbolem UKR) uprawnieni do legalnego pobytu na terytorium
+Polski, mając w Polsce prawo do pracy, mogą ubiegać się także o świadczenia
+rodzinne przyznawane na podstawie ustawy o świadczeniach rodzinnych. Należą do
+nich m.in. zasiłek rodzinny oraz dodatki do zasiłku rodzinnego, zasiłek
+pielęgnacyjny oraz świadczenie pielęgnacyjne. Świadczenia rodzinne przyznaje i
+wypłaca organ właściwy, czyli wójt, burmistrz, prezydent miasta lub upoważniony
+kierownik/pracownik ośrodka pomocy społecznej lub innej jednostki organizacyjnej
+gminy, właściwy ze względu na miejsce zamieszkania osoby ubiegającej się o
+świadczenia. Przeciętna miesięczna liczba świadczeń rodzinnych wypłacona w 2024
+r. wyniosła 53 098.
+
+
+
+Opiekun tymczasowy dla małoletniego obywatela Ukrainy
+Ze sprawozdań, zawierających dane dotyczące spraw o ustanowienie opiekuna
+tymczasowego do sądów rejonowych wydziałów rodzinnych i nieletnich wynika, że:
+     a) w 2022 r. – wpłynęło 23 955, rozpatrzono 23 777, uwzględniono w całości
+       lub                               w                               części
+       21 708 wniosków, które dotyczyły 25 486 małoletnich,
+     b) w 2023 r. wpłynęło 7 134, rozpatrzono 7 060, uwzględniono w całości lub
+       w                                                                 części
+       5 905 wniosków, które dotyczyły 6 669 małoletnich,
+     c) w 2024 r. wpłynęło 6 710, rozpatrzono 6 710, uwzględniono w całości lub
+       w                                                                 części
+       5 535 wniosków, które dotyczyły 6 187 małoletnich.
+
+
+Piecza zastępcza
+Na podstawie ustawy pomocowej PCPR mógł zatrudniać osoby do pomocy dla opiekuna
+tymczasowego w sytuacji, gdy ten ma pod opieką więcej niż 15 dzieci, zapewnić
+pomoc psychologiczną i pomoc wolontariuszy oraz tłumaczy lub pomoc przy
+załatwianiu spraw urzędowych. PCPR prowadził również ewidencję małoletnich
+obywateli Ukrainy, którzy przybyli na terytorium RP bez opieki osoby sprawującej
+faktyczną pieczę nad nimi oraz małoletnich obywateli Ukrainy, którzy przybyli
+na terytorium RP i przed przybyciem były umieszczone w pieczy zastępczej na
+terytorium Ukrainy.
+
+
+
+
+                                                                              33
+Wsparcie społeczne
+
+Świadczenia z pomocy społecznej
+Zgodnie z art. 29 i 30 ustawy pomocowej obywatelom Ukrainy mogły być przyznawane
+świadczenia zarówno pieniężne, jak i niepieniężne, na zasadach i w trybie ustawy
+z dnia 12 marca 2004 r. o pomocy społecznej (Dz. U. z 2025 r. poz. 1214).
+Przyznanie świadczeń z pomocy społecznej na podstawie ustawy pomocowej, od 1
+lipca 2024 r. wymaga przeprowadzenia rodzinnego wywiadu środowiskowego,
+wcześniej odbywało się na podstawie złożonego przez obywatela Ukrainy
+oświadczenia o sytuacji osobistej, rodzinnej, majątkowej i dochodowej. Gminą
+właściwą do udzielania świadczeń jest gmina miejsca pobytu osoby ubiegającej
+się o te świadczenia.
+Świadczenia, w tym niepieniężne, z systemu pomocy społecznej stanowią wsparcie
+w przezwyciężaniu trudnych sytuacji życiowych i zabezpieczają potrzeby bytowe,
+m.in. osób w podeszłym wieku, osób z niepełnosprawnościami czy matek z małymi
+dziećmi. Uprawnienie do świadczeń z pomocy społecznej obejmuje dostęp do
+niezbędnych usług, w tym usług opiekuńczych, czy usług świadczonych przez takie
+placówki jak np. domy pomocy społecznej, mieszkania chronione (od dnia 1
+listopada 2023 r.: treningowe i wspomagane), ośrodki wsparcia, domy dla matek z
+małoletnimi dziećmi i kobiet w ciąży. Schronienie dla osób doświadczających
+kryzysu, które utraciły możliwość zamieszkiwania w swoim środowisku, oferują
+również ośrodki interwencji kryzysowej.
+Ważnym wsparciem dla obywateli Ukrainy jest przyznanie posiłku dla dzieci w
+szkole i przedszkolu. Posiłek w szkole lub przedszkolu może być przyznany również
+doraźnie na podstawie art. 48 b ust. 5 pkt. 1 ustawy o pomocy społecznej, tj.
+na czas nie dłuższy niż 2 miesiące kalendarzowe. Pomoc przyznawana w ww. trybie
+nie wymaga przeprowadzenia rodzinnego wywiadu środowiskowego i wydania decyzji
+administracyjnej.
+
+Pomoc udzielona w formie posiłku (dane narastająco):
+2022 r.:
+     – 114 011 – liczba dzieci i młodzieży, którym zapewniono 1 ciepły posiłek
+     w szkole,
+     – 35 575 – liczba dzieci, którym zapewniono wyżywienie w przedszkolu
+
+                                                                               34
+     ogółem.
+2023 r.:
+     – 119 652 – liczba dzieci i młodzieży, którym zapewniono 1 ciepły posiłek
+     w szkole,
+     – 37 743 – liczba dzieci, którym zapewniono wyżywienie w przedszkolu
+     ogółem.
+2024 r.:
+     – 121 762 – liczba dzieci i młodzieży, którym zapewniono 1 ciepły posiłek
+     w szkole,
+     – 38 223 – liczba dzieci, którym zapewniono wyżywienie w przedszkolu
+     ogółem.
+
+Jednorazowe świadczenie pieniężne
+Jednorazowe świadczenie pieniężne w wysokości 300 zł na osobę przeznaczone było
+na podstawowe utrzymanie, w szczególności na pokrycie wydatków na żywność,
+odzież, obuwie, czy środki higieny osobistej.
+Według danych statystycznych do dnia 31 grudnia 2022 r. świadczenie jednorazowe
+300 zł otrzymało 1 199 115 osób (złożono 688 785 wniosków w tej sprawie), zaś
+do dnia 31 grudnia 2023 r. (narastająco, włącznie z danymi za 2022 r.)
+świadczenie jednorazowe 300 zł otrzymało 1 302 196 osób (złożono 766 927 wniosków
+w tej sprawie). Jednorazowe świadczenie pieniężne do dnia 30 czerwca 2024 r. w
+wysokości 300 zł otrzymało 1 358 328 osób. (narastająco, włącznie z danymi za
+2022 r. i 2023 r.). Z dniem 1 lipca 2024 r. przepis umożliwiający otrzymanie
+ww. świadczenia został uchylony.
+
+Bezpłatna pomoc psychologiczna
+Pomoc udzielona w formie bezpłatnej pomocy psychologicznej (dane narastająco):
+       -  2022 r. – 31 712 osób,
+       -  2023 r. – 42 371 osób,
+       -  2024 r. – 50 245 osób.
+
+
+
+
+                                                                               35
+Zapewnienie łączności na terytorium Ukrainy
+
+Minister Cyfryzacji, na podstawie art. 14 ust. 13 ustawy pomocowej, udzielał
+pomocy Ukrainie finansowanej z FP, w ramach realizowanych przez siebie zadań we
+współpracy z Instytutem Łączności – Państwowym Instytutem Badawczym, czyli
+podmiotem nadzorowanym.
+
+W wyniku konfliktu zbrojnego, który toczy się na terytorium Ukrainy, zniszczeniu
+uległa infrastruktura telekomunikacyjna, w związku z czym na terytorium tego
+państwa utrudnione jest zachowanie łączności w celach cywilnych.
+
+W 2022 r. zostało zakupione i dostarczone w formie użyczenia na Ukrainę 14 560
+terminali systemu satelitarnej łączności Starlink. Ponadto Minister Cyfryzacji
+finansował opłaty abonamentowe z tym związane.
+W 2023 r. kontynuowano ww. wsparcie finansowania. Ponadto Minister Cyfryzacji
+sfinansował zakup dodatkowych 5 000 terminali systemu satelitarnej łączności
+Starlink. Minister Cyfryzacji zaczął też finansować opłaty abonamentowe za 5150
+terminale Starlink dostarczone na Ukrainę przez inne podmioty.
+W 2024 r. Minister Cyfryzacji kontynuował finansowanie opłat abonamentowych za
+zakupione przez MC i użyczone na Ukrainę w latach 2022–2023 oraz udostępnione
+przez inne podmioty terminale systemu satelitarnej łączności Starlink. Ponadto
+pod koniec 2024 r. Minister Cyfryzacji sfinansował zakup dodatkowych 5 000
+terminali systemu satelitarnej łączności Starlink.
+
+
+
+
+                                                                              36
+Fundusz Pomocy
+Na podstawie art. 14 ust. 1 ustawy pomocowej, w celu finansowania lub
+dofinansowania realizacji zadań na rzecz pomocy Ukrainie, w szczególności
+obywatelom Ukrainy dotkniętym konfliktem zbrojnym na terytorium Ukrainy, w tym
+zadań realizowanych na terytorium RP, jak i poza nim, a także realizacji zadań
+związanych z bezpieczeństwem żywnościowym kraju został utworzony w Banku
+Gospodarstwa Krajowego FP.
+
+Nadzór nad FP w okresie od utworzenia Funduszu do końca czerwca 2024 r. sprawował
+Prezes Rady Ministrów. Z dniem 1 lipca 2024 r. na podstawie ustawy z dnia 15
+maja 2024 r. o zmianie niektórych ustaw związanych z funkcjonowaniem
+administracji rządowej, zadania i kompetencje Prezesa Rady Ministrów w zakresie
+nadzoru nad FP przejął Minister Finansów. Minister Finansów upoważnił do
+składania dyspozycji wypłaty ze środków Funduszu poszczególnych dysponentów
+części budżetowych oraz ministrów kierujących określonymi działami administracji
+rządowej. Zgodnie zatem z modelem funkcjonowania FP Minister Finansów przekazuje
+środki dysponentom pomocniczym, którzy z uwzględnieniem swoich kompetencji
+ustawowych, realizują określone w planie finansowym zadania i finansują je
+środkami FP.
+
+Podstawą gospodarki finansowej FP jest plan finansowy, który przygotowywany jest
+przez                                                                        BGK
+i aktualnie zatwierdzany przez Ministra Finansów (wcześniej Prezesa Rady
+Ministrów). Plan finansowy Funduszu stanowi podstawę dokonywania wypłat ze
+środków Funduszu oraz podstawę do przeprowadzenia emisji obligacji. BGK
+przekazuje Ministrowi Finansów comiesięczne sprawozdania z realizacji planu
+finansowego FP.
+W oparciu o ww. sprawozdania z realizacji planu finansowego FP należy wskazać,
+
+                                                                               37
+że:
+   w 2022 r.
+        wpływy Funduszu osiągnęły poziom 16 763,4 mln zł,
+        wydatki Funduszu wyniosły 13 884,2 mln zł, w tym wydatki dysponentów
+          na realizację zadań na rzecz pomocy Ukrainie – 13 879,6 mln zł;
+   w 2023 r.
+        wpływy Funduszu osiągnęły poziom 13 057,1 mln zł,
+        wydatki Funduszu wyniosły 15 019,3 mln zł, w tym wydatki dysponentów
+          na realizację zadań na rzecz pomocy Ukrainie – 14 775,8 mln zł;
+   w 2024 r.
+        wpływy Funduszu osiągnęły poziom 10 133,7 mln zł,
+        wydatki Funduszu wyniosły 10 499,7 mln zł, w tym wydatki dysponentów
+          na realizację zadań na rzecz pomocy Ukrainie – 10 124,0 mln zł.
+
+Szczegółowe rozliczenie FP w latach 2022 r. – 2024 r. stanowi tabela załączona
+do niniejszego sprawozdania.
+
+
+
+
+                                                                            38
+                                                                                                                                  PLAN 2022                                % realizacji    PLAN 2023                                % realizacji    PLAN 2024                                % realizacji
+ Lp                                                        Wyszczególnienie                                                                           WYKONANIE 2022                                           WYKONANIE 2023                                           WYKONANIE 2024
+                                                                                                                                 po zmianach                                  2022        po zmianach                                  2023        po zmianach                                  2024
+
+  I.    Stan środków (początek okresu)                                                                                                         0,00                 0,00        x          2 880 636 244,40      2 880 636 244,40    100,0%          924 537 682,44        924 537 682,44     100,0%
+ II.    WPŁYWY                                                                                                                   19 097 835 800,00     16 763 373 996,08     87,8%        13 157 422 356,56     13 057 119 605,60     99,2%        10 127 270 925,35     10 133 671 979,33    100,1%
+
+        Wpłaty środków pieniężnych jednostek sektora finansów publicznych, o których mowa w art. 9 pkt 5–8 i 14 ustawy z
+        dnia 27 sierpnia 2009 r. o finansach publicznych, z wyłączeniem samorządowych osób prawnych, z wyjątkiem
+ 1.                                                                                                                               7 800 000 000,00      7 800 000 000,00    100,0%           27 000 000,00          27 000 000,00    100,0%         2 854 115 000,00      2 854 115 000,00    100,0%
+        środków pochodzących z dotacji z budżetu i środków, o których mowa w art. 5 ust. 1 pkt 2 i 3 ustawy z dnia 27
+        sierpnia 2009 r. o finansach publicznych
+
+        Środki, o których mowa w art. 5 ust. 1 pkt 2 ustawy z dnia 27 sierpnia 2009 r. o finansach publicznych, które za zgodą
+ 2.                                                                                                                                            0,00      324 551 160,00         x           260 306 100,00        260 306 100,00     100,0%                      0,00                 0,00        x
+        Komisji Europejskiej mogą zostać przeznaczone na wparcie realizacji zadań Funduszu Pomocy
+ 3.     Wpłaty z budżetu państwa                                                                                                  2 307 318 500,00      2 307 318 500,00    100,0%         4 450 000 000,00      4 450 000 000,00    100,0%          500 000 000,00        500 000 000,00     100,0%
+ 4.     Wpływy ze skarbowych papierów wartościowych, o których mowa w art. 15 Ustawy                                              2 500 000 000,00                  0,00     0,0%                      0,00                  0,00       x                      0,00                  0,00        x
+        Środki pochodzące ze źródeł zagranicznych niepodlegających zwrotowi, o których mowa w art. 5 ust. 1 pkt 3 ustawy z
+ 5.                                                                                                                                            0,00                 0,00        x                       0,00                 0,00        x                       0,00                 0,00        x
+        dnia 27 sierpnia 2009 r. o finansach publicznych
+ 6.     Wpływy z emisji obligacji                                                                                                 6 439 584 200,00      6 170 225 035,00     95,8%         8 073 171 132,50      7 944 056 855,89     98,4%         6 539 298 804,52      6 539 298 804,52    100,0%
+        nominał                                                                                                                   6 450 000 000,00      6 172 330 000,00     95,7%         8 090 100 000,00      8 049 547 000,00     99,5%         6 632 631 200,00      6 632 631 200,00     100,0%
+        dyskonto                                                                                                                     -2 105 000,00         -2 104 965,00    100,0%            -4 528 867,50       -111 293 648,76    2457,4%          -93 351 683,10        -93 351 683,10     100,0%
+        premia                                                                                                                                0,00                  0,00        x                      0,00                  0,00       x                       0,00                  0,00        x
+        odsetki                                                                                                                               0,00                  0,00        x                      0,00         12 801 522,15       x                  19 287,62             19 287,62     100,0%
+        prowizja agenta emisji                                                                                                       -8 310 800,00                  0,00      0,0%           -12 400 000,00         -6 998 017,50     56,4%                     0,00                  0,00        x
+  7.    Darowizny                                                                                                                           500,00         99 700 944,19        x             12 655 167,91         14 000 907,12    110,6%                 6 361,20              6 361,20    100,0%
+  8.    Finansowanie przejściowe                                                                                                              0,00                  0,00        x                      0,00                  0,00       x                       0,00                  0,00       x
+  9.    Odsetki                                                                                                                      50 133 300,00         59 267 937,29    118,2%            80 067 400,00        102 734 753,15    128,3%            54 000 000,00         55 240 714,16    102,3%
+ 10.    Odsetki i inne wpływy przekazane przez dysponentów                                                                                                                                     4 033 940,36          5 661 786,04    140,4%            12 256 005,67         12 575 518,72    102,6%
+ 11.    Zwroty środków dotyczące lat ubiegłych, przeksięgowane z rachunków pomocniczych                                                                                                      250 188 615,79        253 359 203,40    101,3%           167 589 430,28        172 430 257,05    102,9%
+ 12.    Inne wpływy                                                                                                                    799 300,00           2 310 419,60    289,1%                                                                          5 323,68              5 323,68    100,00%
+
+ III.   WYDATKI OGÓŁEM                                                                                                           17 791 394 774,07     13 884 199 256,26     78,0%        15 993 881 000,00     15 019 332 487,46     93,9%        10 879 871 072,35     10 499 749 765,27     96,5%
+
+
+ 1.     WYDATKI DYSPONENTÓW                                                                                                      17 785 669 074,07     13 879 565 944,47     78,0%        15 692 663 000,00     14 775 778 900,42     94,2%        10 497 423 172,35     10 123 977 152,65     96,4%
+
+ 1.1    Minister właściwy ds. rodziny                                                                                             1 240 110 000,00        158 972 702,91     12,8%          281 600 000,00         263 520 860,77     93,6%          299 081 000,00         293 633 544,46     98,2%
+1.1.1   świadczenia rodzinne                                                                                                     1 211 500 000,00        147 150 124,55      12,1%          260 000 000,00        242 208 970,17      93,2%          269 840 000,00        264 541 834,70      98,0%
+1.1.2   dzieci cudzoziemskie                                                                                                        12 880 000,00         10 689 842,68      83,0%           20 000 000,00         19 967 215,52      99,8%           28 136 000,00         27 999 615,31      99,5%
+        pozostałe zadania realizowane i koordynowane przez ministra właściwego do spraw rodziny w ramach ustawy o
+1.1.3                                                                                                                               15 730 000,00          1 132 735,68       7,2%            1 600 000,00          1 344 675,08      84,0%            1 105 000,00          1 092 094,45      98,8%
+        pomocy obywatelom Ukrainy w związku z konfliktem zbrojnym na terytorium tego państwa
+ 1.2    Minister właściwy ds. zabezpieczenia społecznego                                                                           660 600 000,00         480 513 427,11     72,7%          111 000 000,00          99 572 062,51     89,7%            71 919 000,00         67 731 957,88     94,2%
+1.2.1   wypłata jednorazowego świadczenia pieniężnego                                                                              492 389 000,00        393 776 583,33      80,0%           45 000 000,00         40 438 440,19      89,9%           10 814 000,00          9 936 942,14      91,9%
+1.2.2   świadczenia z pomocy społecznej                                                                                            137 411 000,00         76 913 562,69      56,0%           55 000 000,00         49 984 739,75      90,9%           52 650 000,00         50 346 819,46      95,6%
+        pozostałe zadania realizowane i koordynowane przez ministra właściwego do spraw zabezpieczenia społecznego w
+1.2.3                                                                                                                               30 800 000,00          9 823 281,09      31,9%           11 000 000,00          9 148 882,57      83,2%            8 455 000,00          7 448 196,28      88,1%
+        ramach ustawy o pomocy obywatelom Ukrainy w związku z konfliktem zbrojnym na terytorium tego państwa
+
+ 1.3    Zakład Ubezpieczeń Społecznych                                                                                            1 939 800 000,00      1 919 927 211,75     99,0%         1 630 000 000,00      1 584 255 455,04     97,2%         2 421 319 000,00      2 324 868 297,48     96,0%
+        świadczenia, o których mowa w art. 26 ust. 1 pkt 2-5 (pkt 2-6 po zmianie planu na 2024) ustawy z dnia 12 marca
+1.3.1   2022 r. o pomocy obywatelom Ukrainy w związku z konfliktem zbrojnym na terytorium tego państwa wypłacane przez           1 939 800 000,00       1 919 927 211,75     99,0%        1 630 000 000,00       1 584 255 455,04     97,2%        2 421 319 000,00       2 324 868 297,48     96,0%
+        Zakład Ubezpieczeń Społecznych
+ 1.4    Minister właściwy ds. zdrowia                                                                                              761 353 400,00         667 417 870,70     87,7%          911 812 000,00         908 749 838,39     99,7%          877 057 153,00         852 358 342,01     97,2%
+        finansowanie świadczeń opieki zdrowotnej oraz produktów leczniczych, o których mowa w art. 37 ustawy z dnia 12
+        marca 2022 r. o pomocy obywatelom Ukrainy w związku z konfliktem zbrojnym na terytorium tego państwa, a także
+1.4.1                                                                                                                              761 353 400,00        667 417 870,70      87,7%          911 812 000,00        908 749 838,39      99,7%          877 057 153,00        852 358 342,01      97,2%
+        pozostałych zadań realizowanych przez ministra właściwego do spraw zdrowia realizowanych w ramach
+        przedmiotowej ustawy
+ 1.5    Prezes Rady Ministrów                                                                                                     1 962 744 279,67                  0,00      0,0%            81 563 840,95                  0,00      0,0%                      0,00                 0,00        x
+ 1.6    Szef Kancelarii Prezesa Rady Ministrów                                                                                     715 000 000,00        602 068 382,66      84,2%          348 100 000,00        288 612 602,64      82,9%                      0,00                0,00         x
+1.6.1   Realizacja rządowego programu "Bezpieczny transport"                                                                        60 000 000,00          1 994 582,66      3,3%            58 100 000,00            629 255,72      1,1%                       0,00                0,00         x
+1.6.2   inne zadania                                                                                                                55 000 000,00             73 800,00      0,1%            40 000 000,00         37 983 346,92     95,0%                       0,00                0,00         x
+1.6.3   środki dla Rządowej Agencji Rezerw Strategicznych                                                                          600 000 000,00        600 000 000,00     100,0%          250 000 000,00        250 000 000,00     100,0%                      0,00                0,00         x
+
+ 1.7    Minister właściwy ds. wewnętrznych                                                                                        5 840 000 000,00      5 600 509 980,54     95,9%         2 895 192 932,65      2 827 636 283,83     97,7%         1 859 119 000,00      1 752 069 036,37     94,2%
+
+        zadania realizowane i koordynowane przez ministra właściwego do spraw wewnętrznych w ramach ustawy o pomocy
+1.7.1                                                                                                                            5 840 000 000,00       5 600 509 980,54     95,9%        2 895 192 932,65       2 827 636 283,83     97,7%        1 859 119 000,00       1 752 069 036,37     94,2%
+        obywatelom Ukrainy w związku z konfliktem zbrojnym na terytorium tego państwa
+
+ 1.8    Minister właściwy ds. oświaty i wychowania                                                                                   53 260 601,96         39 742 253,63     74,6%            36 811 654,35         29 992 227,24     81,5%            11 179 018,00          7 798 795,48     69,8%
+1.8.1   stypendia i zasiłki dla uczniów z Ukrainy (szkoły)                                                                          53 008 868,00         39 503 093,66      74,5%           16 201 107,00         13 451 678,76      83,0%           11 179 018,00          7 798 795,48      69,8%
+        wsparcie organizacji przez polskie uczelnie ukraińskiego egzaminu maturalnego dla obywateli Ukrainy
+1.8.2                                                                                                                                  251 733,96            239 159,97      95,0%              135 785,33            135 785,33     100,0%                      0,00                0,00         x
+        przebywających na terenie Polski
+1.8.3   materiały edukacyjne dla uczniów z Ukrainy                                                                                             0,00                0,00         x            20 474 762,02         16 404 763,15      80,1%                      0,00                0,00         x
+ 1.9    Minister właściwy ds. finansów publicznych                                                                                1 665 000 000,00      1 585 021 264,17     95,2%         2 664 131 513,00      2 618 774 635,68     98,3%         2 716 280 000,00      2 637 950 398,95     97,1%
+        wsparcie jednostek samorządu terytorialnego w realizacji dodatkowych zadań oświatowych, zgodnie z art. 50 ust. 6
+1.9.1   ustawy z dnia 12 marca 2022 r. o pomocy obywatelom Ukrainy w związku z konfliktem zbrojnym na terytorium tego            1 665 000 000,00       1 585 021 264,17     95,2%        2 664 131 513,00       2 618 774 635,68     98,3%        2 716 280 000,00       2 637 950 398,95     97,1%
+        państwa
+                                                                                                                                 PLAN 2022                                % realizacji    PLAN 2023                                % realizacji    PLAN 2024                                % realizacji
+ Lp                                                        Wyszczególnienie                                                                          WYKONANIE 2022                                           WYKONANIE 2023                                           WYKONANIE 2024
+                                                                                                                                po zmianach                                  2022        po zmianach                                  2023        po zmianach                                  2024
+
+ 1.10    Minister właściwy ds. transportu                                                                                         130 000 000,00          13 071 397,37     10,1%          116 928 600,00         116 928 600,00    100,0%                      0,00                 0,00        x
+
+1.10.1   realizacja działań w obszarze resortu infrastruktury na rzecz pomocy Ukrainie                                           130 000 000,00          13 071 397,37      10,1%          116 928 600,00        116 928 600,00     100,0%                      0,00                0,00         x
+
+ 1.11    Minister właściwy ds. rolnictwa, rozwoju wsi i rynków rolnych                                                          2 620 000 000,00       2 617 109 884,54     99,9%        6 450 000 000,00       5 875 000 000,00     91,1%        2 100 000 000,00       2 057 000 767,95     98,0%
+
+         pomoc finansowa udzielana przez Agencję Restrukturyzacji i Modernizacji Rolnictwa producentowi rolnemu na
+         dofinansowanie zakupu w okresie od 1 września 2021 r. do dnia 15 maja 2022 r. nawozów mineralnych innych niż
+1.11.1                                                                                                                          2 620 000 000,00       2 617 109 884,54     99,9%                      0,00                0,00         x                       0,00                0,00         x
+         wapno nawozowe i wapno nawozowe zawierające magnez od podmiotów prowadzących działaność w zakresie
+         obrotu lub sprzedaży nawozów
+         pomoc dla producenta rolnego, któremu zagraża utrata płynności finansowej w związku z zakłóceniami na rynku
+         rolnym spowodowanymi agresją Federacji Rosyjskiej wobec Ukrainy na dofinansowanie w 2023 r. zakupu nawozów
+1.11.2                                                                                                                                        0,00                0,00         x         2 800 000 000,00       2 800 000 000,00    100,0%                      0,00                0,00         x
+         mineralnych innych niż wapno nawozowe i wapno nawozowe zawierające magnez od podmiotów prowadzących
+         działalność w zakresie obrotu nawozami lub sprzedaży nawozów
+         pomoc dla producenta rolnego, o której mowa w §13zw rozporządzenia Rady Ministrów w sprawie szczegółowego
+1.11.3   zakresu i sposobów realizacji niektórych zadań Agencji Restrukturyzacji i Modernizacji Rolnictwa dotycząca sprzedaży                 0,00                0,00         x         2 200 000 000,00       2 200 000 000,00    100,0%                      0,00                0,00         x
+         zbóż
+1.11.4   zapłata za sprzedaną kukurydzę                                                                                                       0,00                0,00         x           200 000 000,00         25 000 000,00     12,5%                       0,00                0,00         x
+1.11.5   dodatkowe koszty związane z zakupem mokrej kukurydzy                                                                                 0,00                0,00         x           240 000 000,00        240 000 000,00     100,0%                      0,00                0,00         x
+1.11.6   dopłaty do innych zbóż i nasion oleistych                                                                                            0,00                0,00         x           610 000 000,00        610 000 000,00     100,0%                      0,00                0,00         x
+1.11.7   pomoc - transport zbóż i rzepaku                                                                                                     0,00                0,00         x           400 000 000,00                  0,00      0,0%                       0,00                0,00         x
+         pomoc dla producentów zbóż, którym zagraża utrata płynności finansowej w związku z ograniczeniami na rynku
+1.11.8                                                                                                                                        0,00                0,00         x                       0,00                0,00         x         2 100 000 000,00       2 057 000 767,95     98,0%
+         rolnym spowodowanymi agresją Federacji Rosysjkiej wobec Ukrainy
+
+ 1.12    Minister właściwy ds. informatyzacji                                                                                     189 553 955,44         186 964 732,09     98,6%          157 671 000,00         157 248 483,27     99,7%          139 068 476,35         128 435 099,51     92,4%
+
+1.12.1   realizacja działań w obszarze informatyzacji na rzecz pomocy Ukrainie                                                   189 553 955,44         186 964 732,09      98,6%          157 671 000,00        157 248 483,27      99,7%         139 068 476,35         128 435 099,51      92,4%
+ 1.13    Minister właściwy ds. energii                                                                                              8 246 837,00           8 246 837,00    100,0%              392 851,05             392 851,05    100,0%                      0,00                 0,00        x
+         dostarczenie do stacji kolejowej Mościska II w obwodzie Lwowskim w Ukrainie węgla kamiennego w celach
+1.13.1                                                                                                                             8 246 837,00           8 246 837,00     100,0%              392 851,05            392 851,05     100,0%                      0,00                0,00         x
+         humanitarnych w związku z konfliktem zbrojnym na Ukrainie
+ 1.14    Minister właściwy ds. kultury i ochrony dziedzictwa narodowego                                                                       0,00                 0,00        x             7 458 608,00           5 095 000,00     68,3%            2 400 525,00           2 130 912,56     88,8%
+         zabezpieczenie obiektów historycznych lub zabytkowych oraz digitalizacji obiektów materialnego i niematerialnego
+1.14.1                                                                                                                                        0,00                0,00         x             4 363 608,00          2 000 000,00      45,8%           2 400 525,00           2 130 912,56      88,8%
+         dziedzictwa kulturowego w Ukrainie
+1.14.2   Polskie Radio dla Ukrainy                                                                                                          0,00                   0,00       x              3 095 000,00          3 095 000,00     100,0%                    0,00                  0,00        x
+   2.    Odsetki z tytułu udzielenia finansowania przejściowego                                                                     3 000 000,00           3 479 052,09    116,0%                    0,00                  0,00        x                      0,00                  0,00        x
+   3.    Obsługa obligacji                                                                                                          1 750 000,00             472 707,07     27,0%          299 362 400,00        242 180 505,12      80,9%          380 845 800,00        374 378 526,48      98,3%
+  3.1    kapitał                                                                                                                            0,00                   0,00       x                      0,00                  0,00        x                      0,00                  0,00        x
+  3.2    odsetki                                                                                                                            0,00                   0,00       x            286 862 400,00        234 824 030,73      81,9%          364 745 800,00        360 675 991,08      98,9%
+  3.3    prowizje, opłaty, inne koszty emisji                                                                                       1 750 000,00             472 707,07     27,0%           12 500 000,00          7 356 474,39      58,9%           16 100 000,00         13 702 535,40      85,1%
+   4.    Wynagrodzenie prowizyjne dla BGK                                                                                             975 700,00             681 552,63     69,9%            1 855 600,00          1 373 081,92      74,0%            1 602 100,00          1 393 600,75      87,0%
+  5.     Korekta z tytułu przeksięgowań dotyczących sprawozdania za 2023 r.                                                                                                                                                                                   0,00                485,39        x
+ IV.     Saldo przepływów w danym okresie                                                                                       1 306 441 025,93       2 879 174 739,82        x         -2 836 458 643,44     -1 962 212 881,86     69,2%         -752 600 147,00        -366 077 785,94     48,6%
+  V.     Różnice kursowe                                                                                                             x                    1 461 504,58         x             -1 911 871,88          6 114 319,90    -319,8%                     0,00       -33 915 017,45        x
+ VI.     Stan środków (koniec okresu)                                                                                           1 306 441 025,93       2 880 636 244,40        x            42 265 729,08        924 537 682,44     2187,4%         171 937 535,44        524 544 879,05     305,1%
+

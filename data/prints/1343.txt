@@ -1,0 +1,805 @@
+                                                                       Druk nr 1343
+                                                                Warszawa, 5 czerwca 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-81-25
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+
+  -      o zmianie ustawy o ubezpieczeniach
+      obowiązkowych, Ubezpieczeniowym Funduszu
+      Gwarancyjnym i Polskim Biurze Ubez-
+      pieczycieli Komunikacyjnych oraz ustawy
+      o ewidencji ludności.
+
+        Projekt ma charakter deregulacyjny.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Finansów.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                      Projekt
+                                        U S T AWA
+
+                                           z dnia
+
+  o zmianie ustawy o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu
+    Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych oraz ustawy
+                                    o ewidencji ludności
+
+
+     Art. 1. W ustawie z dnia 22 maja 2003 r. o ubezpieczeniach obowiązkowych,
+Ubezpieczeniowym      Funduszu     Gwarancyjnym      i   Polskim    Biurze   Ubezpieczycieli
+Komunikacyjnych (Dz. U. z 2025 r. poz. 367) w art. 5 po ust. 2 dodaje się ust. 2a w brzmieniu:
+          „2a. Zakład ubezpieczeń przed zawarciem umowy, o której mowa w art. 23 ust. 1,
+     może weryfikować w sposób, o którym mowa w art. 23j lub art. 23m ustawy z dnia
+     24 września 2010 r. o ewidencji ludności (Dz. U. z 2025 r. poz. 274 i …), za
+     pośrednictwem systemu teleinformatycznego obsługującego Ubezpieczeniowy Fundusz
+     Gwarancyjny, w rejestrze zastrzeżeń numerów PESEL, o którym mowa w art. 23a tej
+     ustawy, czy numer PESEL ubezpieczającego lub osoby, na rzecz której ma być zawarta
+     umowa, o której mowa w art. 23 ust. 1, jest zastrzeżony. W przypadku gdy weryfikacja
+     wykaże, że numer PESEL jest zastrzeżony, przepisu ust. 2 nie stosuje się.”.
+
+     Art. 2. W ustawie z dnia 24 września 2010 r. o ewidencji ludności (Dz. U. z 2025 r. poz.
+274) w art. 23m w ust. 1 w pkt 9 kropkę zastępuje się średnikiem i dodaje się pkt 10 i 11 w
+brzmieniu:
+     „10) zakładom ubezpieczeń, w celu realizacji zadań ustawowych;
+     11) Ubezpieczeniowemu Funduszowi Gwarancyjnemu, w celu realizacji zadań
+          ustawowych.”.
+
+     Art. 3. Ustawa wchodzi w życie po upływie 3 miesięcy od dnia ogłoszenia.
+                                      UZASADNIENIE
+
+Celem projektu ustawy jest ograniczenie sytuacji, w których dochodzi do zawierania umów
+obowiązkowego       ubezpieczenia    odpowiedzialności      cywilnej   posiadaczy   pojazdów
+mechanicznych za szkody powstałe w związku z ruchem tych pojazdów, przy użyciu
+skradzionych danych osobowych, z wykorzystaniem danych osobowych osób, które dokonały
+zastrzeżenia numeru PESEL.
+
+Wzrastająca liczba kradzieży numerów PESEL z różnych ewidencji sprawiła, że przestępcy
+zaczęli je wykorzystywać do zawierania obowiązkowej umowy ubezpieczenia OC posiadaczy
+pojazdów mechanicznych, która to umowa jest zawierana na skradzione dane osobowe.
+Obecnie zakłady ubezpieczeń nie posiadają uprawnienia do weryfikacji zastrzeżenia numeru
+PESEL w rejestrze zastrzeżeń numerów PESEL, w związku z tym przy zawieraniu umów
+ubezpieczenia OC posiadaczy pojazdów mechanicznych nie posiadają informacji o
+zastrzeżeniu takich danych.
+
+Projektowana ustawa zakłada zmianę ustawy z dnia 22 maja 2003 r. o ubezpieczeniach
+obowiązkowych,      Ubezpieczeniowym      Funduszu     Gwarancyjnym      i   Polskim   Biurze
+Ubezpieczycieli Komunikacyjnych (Dz. U. z 2025 r. poz. 367) oraz ustawy z dnia 24 września
+2010 r. o ewidencji ludności (Dz. U. z 2025 r. poz. 274).
+
+Zmiany ustawy o         ubezpieczeniach    obowiązkowych,      Ubezpieczeniowym     Funduszu
+Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych zakładają przyznanie
+uprawnienia weryfikacji zastrzeżenia numeru PESEL dla zakładów ubezpieczeń w zakresie
+umów ubezpieczenia OC posiadaczy pojazdów mechanicznych. Przedmiotowa weryfikacja
+będzie odbywać się za pośrednictwem systemu teleinformatycznego UFG, który stanowi węzeł
+informacyjny dla zakładów ubezpieczeń pośredniczący w komunikacji z różnymi rejestrami
+publicznymi (art. 1 projektu). W przypadku zastrzeżenia numeru PESEL zakład ubezpieczeń
+będzie mógł odmówić zawarcia umowy, w celu ochrony danych i tożsamości klientów
+zakładów ubezpieczeń (art. 1 projektu).
+
+Zmiany ustawy o ewidencji ludności zakładają rozszerzenie katalogu podmiotów, którym będą
+udostępniane dane o zastrzeżeniu numeru PESEL, o zakłady ubezpieczeń, które będą zawierały
+umowy obowiązkowego ubezpieczenia OC posiadaczy pojazdów mechanicznych oraz o
+Ubezpieczeniowy Fundusz Gwarancyjny, który będzie pośredniczył w przekazywaniu takich
+danych (art. 2 projektu).
+Powyższa propozycja zakłada przyznanie zakładom ubezpieczeń uprawnienia do weryfikacji
+zastrzeżenia numeru PESEL przed zawarciem umów ubezpieczenia OC komunikacyjnego, bez
+konieczności każdorazowej weryfikacji zastrzeżenia numeru PESEL. Ponadto proponowane
+regulacje wskazują na prawo odmowy zawarcia umowy ubezpieczenia OC posiadaczy
+pojazdów mechanicznych, bez konieczności jednoznacznego i generalnego obowiązku
+odmowy zawarcia umowy ubezpieczenia, w przypadku zidentyfikowania zastrzeżenia numeru
+PESEL.
+
+Przyjęte w projekcie rozwiązania wynikają ze specyficznej konstrukcji oraz głównego celu
+obowiązkowego ubezpieczenia OC posiadaczy pojazdów mechanicznych.
+
+Ustawowy obowiązek zawarcia umowy obowiązkowego ubezpieczenia OC posiadaczy
+pojazdów mechanicznych uwarunkowany jest bowiem szczególną społeczną funkcją tego
+ubezpieczenia, jaką jest ochrona osób trzecich przed skutkami częstych, niekorzystnych
+zdarzeń powstałych wskutek ruchu pojazdów. Nieprzerwany charakter odpowiedzialności
+zakładu ubezpieczeń i zarazem ochrony ubezpieczeniowej daje poszkodowanym w wypadku
+gwarancję otrzymania należnego odszkodowania. Z drugiej strony, umowa tego ubezpieczenia
+chroni ewentualnego sprawcę wypadku komunikacyjnego przed nadmiernymi obciążeniami
+finansowymi z tytułu jego odpowiedzialności cywilnej oraz zabezpiecza jego majątek przed
+nadmiernym uszczupleniem z tytułu tej odpowiedzialności.
+
+Z uwagi na powyższe obowiązujące regulacje stanowią, że zakład ubezpieczeń posiadający
+zezwolenie na wykonywanie działalności ubezpieczeniowej w grupach obejmujących
+ubezpieczenia obowiązkowe nie może odmówić zawarcia takiej umowy ubezpieczenia.
+Ponadto każdy posiadacz pojazdu mechanicznego jest obowiązany zawrzeć umowę
+ubezpieczenia OC posiadaczy pojazdów mechanicznych, w ściśle określonych terminach,
+wskazanych w przepisach ustawy o ubezpieczeniach obowiązkowych, Ubezpieczeniowym
+Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych. Z kolei
+ewentualne niedochowanie terminu będzie mogło wiązać się z negatywnymi konsekwencjami
+dla takiego posiadacza. W przypadku zaistnienia sytuacji, w której do ruchu zostałby
+wprowadzony pojazd, którego posiadacz nie byłby ubezpieczony w zakresie OC
+komunikacyjnego, a jednocześnie zostałaby wyrządzona przez ruch takiego pojazdu szkoda,
+ewentualne roszczenia osób poszkodowanych z tytułu szkód na osobie, w tym np.
+zadośćuczynienia lub dożywotnich rent mogłyby sięgać nawet sumy 29 876 400 złotych. Kwota
+ta wynika z ustawowego określenia wysokości minimalnej sumy gwarancyjnej w odniesieniu
+do szkód osobowych na takim właśnie poziomie. W takim przypadku świadczenia osobom
+
+
+                                           2
+poszkodowanym lub uprawnionym wypłaca Ubezpieczeniowy Fundusz Gwarancyjny, ale ma
+on prawo domagania się od nieubezpieczonego sprawcy szkody zwrotu wydatkowanych
+pieniędzy.
+
+W tej sytuacji uzależnienie przez zakład ubezpieczeń zawarcia umowy obowiązkowego
+ubezpieczenia OC posiadaczy pojazdów mechanicznych od uprzedniego obligatoryjnego
+zweryfikowania numeru PESEL klienta czy też ustanowienie jednoznacznego i generalnego
+obowiązku odmowy zawarcia takiej umowy mogłoby rodzić negatywne konsekwencje dla
+obywateli w określonych sytuacjach. Dotyczy to możliwości niedochowania ustawowych
+terminów na zawarcie umowy obowiązkowego ubezpieczenia OC przez osoby chcące wycofać
+zastrzeżenie   numeru   PESEL,    np.   w   czasie   okresowej   niedostępności   systemu
+teleinformatycznego, w którym prowadzony jest rejestr zastrzeżeń numerów PESEL,
+okresowej niedostępności usługi cofnięcia zastrzeżenia numeru PESEL lub w przypadku
+opóźnienia uwzględnienia dokonanego cofnięcia w rejestrze zastrzeżeń. Do podobnej sytuacji
+może dochodzić, gdy osoba chcąca zawrzeć umowę ubezpieczenia będzie wykluczona
+cyfrowo, a stacjonarne placówki umożliwiające cofnięcie zastrzeżenia będą nieczynne. Tak
+więc przyjęcie fakultatywności weryfikacji numeru PESEL nie będzie negatywnie wpływać na
+sytuację ubezpieczonego, w szczególności w przypadku gdy wspomniana weryfikacja nie
+będzie możliwa technicznie.
+
+Dodatkowo przyjęcie obligatoryjności weryfikacji zastrzeżenia numeru PESEL przez zakład
+ubezpieczeń oraz generalnego obowiązku odmowy zawarcia umowy ubezpieczenia
+utrudniałoby stosowanie klauzuli prolongacyjnej wynikającej z przepisów ustawy o
+ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim
+Biurze Ubezpieczycieli Komunikacyjnych. Klauzula ta ma na celu ochronę ubezpieczonego i
+polega na automatycznym odnowieniu się umowy ubezpieczenia na kolejny okres, jeśli składka
+została w pełni opłacona a umowa ubezpieczenia nie została wcześniej wypowiedziana.
+Uzależnienie tego automatyzmu od wcześniejszego potwierdzenia, że PESEL nie został
+zastrzeżony, mogłoby prowadzić do sytuacji, że ubezpieczony zostanie pozbawiony ochrony
+ubezpieczeniowej bez świadomości, że tak się stało. To z kolei mogłoby prowadzić do
+nieoczekiwanych przerw w ubezpieczeniu, mimo iż ubezpieczony zostałby już raz
+zweryfikowany przy zawieraniu umowy, która podlegałaby prolongacie.
+
+Ponadto przy przyjęciu obligatoryjnego charakteru weryfikacji zastrzeżeń numerów PESEL,
+przed zawarciem każdej umowy ubezpieczenia OC posiadaczy pojazdów mechanicznych,
+należałoby spodziewać się podobnego poziomu zapytań ze strony Ubezpieczeniowego
+
+
+                                            3
+Funduszu Gwarancyjnego na rzecz zakładów ubezpieczeń, jaki ma miejsce w przypadku
+zapytań do rejestrów Centralnej Ewidencji Pojazdów i Centralnej Ewidencji Kierowców, tj.
+około 7 mln dziennie. Taka skala zapytań mogłaby mieć wpływ na płynność działania rejestru
+zastrzeżeń numerów PESEL. Projektowane regulacje zakładają przyznanie możliwości
+weryfikacji zastrzeżenia numeru PESEL w rejestrze zastrzeżeń numerów PESEL, w związku z
+czym można spodziewać się znacznie mniejszej liczby zapytań.
+
+Należy zauważyć, że także w interesie zakładów ubezpieczeń pozostaje potwierdzenie
+tożsamości swojego klienta wszelkimi dostępnymi metodami i w oparciu o dostępne dane. W
+związku z powyższym należy oczekiwać, że zakłady ubezpieczeń wypracują procesowe lub
+biznesowe sposoby wykorzystania informacji o zastrzeżeniu numeru PESEL, w celu
+minimalizacji ryzyka związanego z kradzieżą tożsamości.
+
+W art. 3 projektu przyjęto, że ustawa wejdzie w życie po upływie 3 miesięcy od dnia ogłoszenia.
+Proponowany termin wejścia w życie uwzględnia czas konieczny do implementacji rozwiązań
+web-service przez Ubezpieczeniowy Fundusz Gwarancyjny i zakłady ubezpieczeń, a także
+konieczność uzyskania przez te podmioty pozytywnej decyzji dostępowej do rejestru
+zastrzeżeń numerów PESEL.
+
+Projekt ustawy nie jest objęty prawem Unii Europejskiej.
+
+Projektowana ustawa nie wymaga przedstawiania organom i instytucjom Unii Europejskiej w
+celu uzyskania opinii, dokonania powiadomienia, konsultacji albo uzgodnienia. W
+szczególności, zgodnie z art. 2 ust. 1 decyzji Rady 98/415/WE z dnia 29 czerwca 1998 r.
+w sprawie konsultacji Europejskiego Banku Centralnego udzielanych władzom krajowym
+w sprawie projektów przepisów prawnych (Dz. Urz. WE L 189 z 03.07.1998, str. 42 – Dz. Urz.
+UE Polskie Wydanie Specjalne rozdz. 1, t. 1, str. 446), projekt ustawy nie podlega konsultacji
+z Europejskim Bankiem Centralnym.
+
+Zawarte w projekcie regulacje nie stanowią przepisów technicznych w rozumieniu
+rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania
+krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.), dlatego
+też projekt ustawy nie podlega procedurze notyfikacji.
+
+Stosownie do art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. z 2025 r. poz. 677) projekt ustawy został udostępniony w Biuletynie
+Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie
+„Rządowy Proces Legislacyjny”.
+
+
+                                              4
+Zawarte w projekcie regulacje nie będą miały wpływu na działalność mikroprzedsiębiorców,
+małych i średnich przedsiębiorców zgodnie z ustawą z dnia 6 marca 2018 r. – Prawo
+przedsiębiorców (Dz. U. z 2024 r. poz. 236, z późn. zm.). Projektowane regulacje będą dotyczyć
+dużych instytucji finansowych (zakładów ubezpieczeń) oraz Ubezpieczeniowego Funduszu
+Gwarancyjnego.
+
+
+
+
+                                              5
+                                                                 Data sporządzenia
+Nazwa projektu
+                                                                 30 maja 2025 r.
+Projekt ustawy o zmianie ustawy o ubezpieczeniach obowiązkowych,
+Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze
+                                                                 Źródło:
+Ubezpieczycieli Komunikacyjnych oraz ustawy o ewidencji ludności Inne
+Ministerstwo i ministerstwa współpracujące                       Deregulacja
+Ministerstwo Finansów
+                                                                        Nr w Wykazie prac legislacyjnych i
+Ministerstwo Cyfryzacji
+                                                                        programowych Rady Ministrów
+                                                                        UDER27
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Stanu
+lub Podsekretarza Stanu
+Pan Jurand Drop
+Podsekretarz Stanu w Ministerstwie Finansów
+Kontakt do opiekuna merytorycznego projektu
+Jarosław Niezgoda – Zastępca Dyrektora Departamentu Rozwoju Rynku
+Finansowego w Ministerstwie Finansów,
+Tel. 22 694-58-28
+e-mail: sekretariat.fn@mf.gov.pl
+
+                                OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Celem projektu ustawy jest ograniczenie sytuacji, w których dochodzi do zawierania umów obowiązkowego ubezpieczenia
+odpowiedzialności cywilnej posiadaczy pojazdów mechanicznych za szkody powstałe w związku z ruchem tych pojazdów,
+przy użyciu skradzionych danych osobowych.
+Wzrastająca liczba kradzieży numerów PESEL z różnych ewidencji sprawiła, że przestępcy zaczęli je wykorzystywać do
+zawierania umowy obowiązkowego ubezpieczenia OC posiadaczy pojazdów mechanicznych, która to umowa jest
+zawierana na skradzione dane osobowe. Obecnie zakłady ubezpieczeń nie posiadają uprawnienia do weryfikacji
+zastrzeżenia numeru PESEL w rejestrze zastrzeżeń numerów PESEL, w związku z tym przy zawieraniu umów
+ubezpieczenia OC posiadaczy pojazdów mechanicznych nie posiadają informacji o zastrzeżeniu takich danych.
+
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Proponuje się wprowadzenie zmian do ustawy z dnia 22 maja 2003 r. o ubezpieczeniach obowiązkowych, Ubezpieczeniowym
+Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych (Dz. U. z 2025 r. poz. 367) oraz ustawy z dnia
+24 września 2010 r. o ewidencji ludności (Dz. U. z 2025 r. poz. 274).
+Zmiany ustawy o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze
+Ubezpieczycieli Komunikacyjnych zakładają przyznanie uprawnienia weryfikacji zastrzeżenia numeru PESEL dla zakładów
+ubezpieczeń w zakresie umów ubezpieczenia OC posiadaczy pojazdów mechanicznych.
+Zgodnie z obecnie obowiązującymi przepisami zakład ubezpieczeń oferujący ubezpieczenia obowiązkowe nie ma możliwości
+odmówienia zawarcia takiej umowy. W związku z tym, proponuje się modyfikację regulacji, w taki sposób, że w przypadku
+zastrzeżenia numeru PESEL, zakład ubezpieczeń będzie mógł odmówić zawarcia umowy.
+Zmiany ustawy o ewidencji ludności zakładają rozszerzenie katalogu podmiotów, którym będą udostępniane dane o
+zastrzeżeniu numeru PESEL, o zakłady ubezpieczeń oraz Ubezpieczeniowy Fundusz Gwarancyjny.
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Brak informacji.
+
+4. Podmioty, na które oddziałuje projekt
+          Grupa                    Wielkość                  Źródło danych                    Oddziaływanie
+   Zakłady ubezpieczeń               27                  Urząd Komisji Nadzoru        Zakłady ubezpieczeń, które
+ posiadających zezwolenie                                    Finansowego              będą zawierały umowy
+     na wykonywanie                                                                   obowiązkowego ubezpieczenia
+  działalności w zakresie                                                             OC posiadaczy pojazdów
+      obowiązkowego                                                                   mechanicznych.
+     ubezpieczenia OC
+   posiadaczy pojazdów
+      mechanicznych
+Ubezpieczeniowy Fundusz                1                Ubezpieczeniowy Fundusz       Przedmiotowa weryfikacja
+     Gwarancyjny                                             Gwarancyjny              będzie odbywać się za
+                                                                                      pośrednictwem systemu
+                                                                                      teleinformatycznego UFG,
+                                                                                      który stanowi węzeł
+                                                                                      informacyjny dla zakładów
+                                                                                      ubezpieczeń pośredniczący w
+                                                                                      komunikacji z różnymi
+                                                                                      rejestrami publicznymi.
+   Osoby, które dokonają           Brak danych                                        Po uprzedniej weryfikacji przez
+    zastrzeżenia numeru                                                               zakład ubezpieczeń
+           PESEL                                                                      zastrzeżenia numeru PESEL,
+                                                                                      dane osób, które dokonały
+                                                                                      takiego zastrzeżenia, nie
+                                                                                      zostaną wykorzystane do
+                                                                                      zawarcia umowy ubezpieczenia
+                                                                                      OC posiadaczy pojazdów
+                                                                                      mechanicznych.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt ustawy został przekazany do konsultacji publicznych i opiniowania następującym podmiotom, m.in.: Komisji
+Nadzoru Finansowego, Polskiemu Biuru Ubezpieczycieli Komunikacyjnych, Ubezpieczeniowemu Funduszowi
+Gwarancyjnemu, Rzecznikowi Finansowemu, Polskiej Izbie Ubezpieczeń, Prokuratorii Generalnej Rzeczypospolitej
+Polskiej, Urzędowi Ochrony Danych Osobowych, Urzędowi Ochrony Konkurencji i Konsumentów, Konfederacji Lewiatan,
+Rzecznikowi Małych i Średnich Przedsiębiorców, Polskiej Izbie Pośredników Ubezpieczeniowych i Finansowych,
+Stowarzyszeniu Polskich Brokerów Ubezpieczeniowych i Reasekuracyjnych, Polskiej Izbie Brokerów Ubezpieczeniowych i
+Reasekuracyjnych.
+Uwagi do projektu zostały zgłoszone przez Rzecznika Finansowego oraz Urząd Ochrony Danych Osobowych. Uwzględniono
+propozycję Urzędu Ochrony Danych Osobowych w zakresie uzupełnienia projektowanych regulacji o wskazanie celu
+(zakresu) przetwarzania danych przez uprawnione podmioty.
+Nie uwzględniono propozycji Rzecznika Finansowego w zakresie zmiany przyjętego w projektowanych regulacjach
+uprawnienia zakładów ubezpieczeń do odmowy zawarcia umowy ubezpieczenia OC posiadaczy pojazdów mechanicznych
+oraz zmiany całej konstrukcji projektowanych regulacji zmierzającej do przyznania dostępu do bazy PESEL tylko
+Ubezpieczeniowemu Funduszowi Gwarancyjnemu, który byłby jedynym podmiotem uprawnionym do weryfikacji numeru
+PESEL.
+Szczegółowe omówienie wyniku konsultacji publicznych i opiniowania zostało zamieszczone w raporcie z konsultacji.
+
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                            Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                   0       1   2     3     4      5       6     7      8     9     10     Łącznie (0–10)
+Dochody ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Wydatki ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Saldo ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Źródła finansowania
+
+
+
+
+                                                         2
+Dodatkowe informacje,    Wejście w życie ustawy nie będzie miało wpływu na sektor finansów publicznych, w
+w tym wskazanie          szczególności nie wystąpi skutek w postaci zwiększenia wydatków lub zmniejszenia dochodów
+źródeł danych i          jednostek sektora finansów publicznych.
+przyjętych do obliczeń
+założeń
+
+
+
+
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                          Skutki
+Czas w latach od wejścia w życie zmian         0          1          2          3          5         10       Łącznie (0–10)
+W ujęciu          duże przedsiębiorstwa
+pieniężnym        sektor mikro-, małych i
+(w mln zł,        średnich
+ceny stałe z      przedsiębiorstw
+…… r.)            rodzina, obywatele oraz
+                  gospodarstwa domowe
+W ujęciu          duże przedsiębiorstwa     Zakłady ubezpieczeń uzyskają uprawnienie do weryfikacji zastrzeżenia numeru
+niepieniężnym                               PESEL w rejestrze zastrzeżeń numerów PESEL oraz uprawnienie do odmowy
+                                            zawarcia umowy obowiązkowego ubezpieczenia odpowiedzialności cywilnej
+                                            posiadaczy pojazdów mechanicznych, przy użyciu takich danych.
+
+                  sektor mikro-, małych i
+                  średnich
+                  przedsiębiorstw
+                  rodzina, obywatele oraz   Zakłada się, że projekt będzie miał pozytywny wpływ na rodzinę, obywateli, w tym
+                  gospodarstwa domowe       osoby starsze i niepełnosprawne oraz gospodarstwa domowe poprzez ograniczenie
+                                            sytuacji, w których mogłoby dochodzić do zawierania umów obowiązkowego
+                                            ubezpieczenia odpowiedzialności cywilnej posiadaczy pojazdów mechanicznych,
+                                            przy użyciu skradzionych danych osobowych tych osób.
+Niemierzalne
+
+
+
+
+Dodatkowe informacje,    Wejście w życie ustawy nie będzie miało wpływu na konkurencyjność gospodarki.
+w tym wskazanie
+źródeł danych i
+przyjętych do obliczeń
+założeń
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+☒ nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie               ☐ tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli        ☐ nie
+zgodności).                                               ☐ nie dotyczy
+☐ zmniejszenie liczby dokumentów                          ☐ zwiększenie liczby dokumentów
+☐ zmniejszenie liczby procedur                            ☐ zwiększenie liczby procedur
+☐ skrócenie czasu na załatwienie sprawy                   ☐ wydłużenie czasu na załatwienie sprawy
+☐ inne:                                                   ☐ inne: …
+
+Wprowadzane obciążenia są przystosowane do ich            ☐ tak
+elektronizacji.                                           ☐ nie
+                                                          ☐ nie dotyczy
+
+Komentarz:
+
+
+9. Wpływ na rynek pracy
+                                                           3
+Wejście w życie ustawy nie będzie miało wpływu na rynek pracy.
+
+10. Wpływ na pozostałe obszary
+
+☐ środowisko naturalne                 ☐ demografia                            ☐ informatyzacja
+☐ sytuacja i rozwój regionalny         ☐ mienie państwowe                      ☐ zdrowie
+☐ sądy powszechne, administracyjne     ☐ inne:
+lub wojskowe
+
+                         Wejście w życie ustawy nie będzie miało wpływu na sytuację i rozwój regionalny oraz pozostałe
+Omówienie wpływu         obszary, o których mowa w pkt 10.
+
+11. Planowane wykonanie przepisów aktu prawnego
+Wykonanie przepisów aktu prawnego nastąpi z dniem jego wejścia w życie.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Ewaluacja efektów projektu będzie dokonywana na bieżąco przez zakłady ubezpieczeń na podstawie odmów zawarcia umów
+obowiązkowego ubezpieczenia odpowiedzialności cywilnej posiadaczy pojazdów mechanicznych, dla których wniosek o ich
+zawarcie będą składały osoby posługujące się zastrzeżonym numerem PESEL.
+
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                          4
+                                                           RAPORT Z KONSULTACJI
+ projektu ustawy o zmianie ustawy o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli
+                                               Komunikacyjnych oraz ustawy o ewidencji ludności
+
+
+1.   Omówienie wyników przeprowadzanych konsultacji publicznych/opiniowania.
+
+     Lp.    Jednostka Podmiot, który                         Stanowisko/opinia podmiotu                                Stanowisko MF
+           redakcyjna/ przedstawił
+               część   stanowisko/
+             projektu     opinię
+              założeń
+             projektu
+              ustawy
+
+     1       Uwaga        PBUK         Polskie Biuro Ubezpieczycieli Komunikacyjnych z zadowoleniem przyjmuje Informacja      przyjęta   do
+             ogólna                    przedstawiony projekt nowelizacji ustawy o ubezpieczeniach obowiązkowych, wiadomości
+                                       UFG i PBUK. W opinii Biura wprowadzenie projektowanych regulacji może
+                                       pozytywnie wpłynąć na ograniczenie wykorzystywania tożsamości osób tego
+                                       nieświadomych, w celu zawierania umów ubezpieczenia obowiązkowego OC ppm
+                                       w ich imieniu. Projektowane rozwiązanie opiera się o umożliwienie zakładom
+                                       ubezpieczeń weryfikacji numerówPESEL w rejestrze zastrzeżeń i w konsekwencji,
+                                       w przypadku stwierdzenia, iż numer taki jest zastrzeżony, wyrażenia odmowy
+                                       zawarcia omawianego ubezpieczenia. Zakładane rozwiązanie opiera się o zasadę
+                                       dobrowolności działania zakładów ubezpieczeń w tym zakresie, dając im swobodę
+                                       w zakresie kształtowania polityki akwizycji.
+                                       W ocenie PBUK tego rodzaju rozwiązanie jest optymalne, także z uwagi na
+                                       powszechny obowiązkowy charakter ubezpieczenia OC ppm, bowiem w
+                                       maksymalny sposób ogranicza potencjalne negatywne skutki m.in. braku
+                                       możliwości zawarcia takiego ubezpieczenia przez dotychczasowych – już
+                                       wcześniej zweryfikowanych - klientów zakładów ubezpieczeń oraz możliwych do
+                                       wystąpienia czasowych problemów z funkcjonowaniem infrastruktury
+                                       elektronicznego przetwarzania danych.
+                  Co prawda z dniem 1 czerwca 2024 roku w systemie instytucji finansowych np.
+                  banków, firm pożyczkowych, SKOK-ów, leasingodawców itd. wprowadzono
+                  obligatoryjność sprawdzania ww. danych przez podmioty rynku finansowego,
+                  należy jednak mieć na uwadze, iż charakter produktów finansowych
+                  (dobrowolność), jak i potencjalne finansowe konsekwencje zawarcia umów mają
+                  całkowicie inną naturę, niż wynikające z obowiązku zawarcia umowy
+                  obowiązkowego ubezpieczenia OC ppm.
+                  Dodatkowo należy podkreślić, iż przedstawiony projekt w żaden sposób nie
+                  ogranicza praw ubezpieczających i ubezpieczonych, a także potencjalnych
+                  poszkodowanych w zdarzeniach drogowych będących przedmiotem ochrony
+                  ubezpieczeniowej. Wręcz przeciwnie, może stanowić o wzmocnieniu poziomu ich
+                  bezpieczeństwa, podobnie jak i finansowego bezpieczeństwa zakładów
+                  ubezpieczeń zarządzających składkami swoich klientów.
+                  Mając powyższe na uwadze Polskie Biuro Ubezpieczycieli Komunikacyjnych
+                  popiera projekt nowelizacji w przedstawionej formie
+
+2   Uwaga    RF   Na wstępie należy podkreślić, że cel regulacji jest jak najbardziej słuszny. Uwaga nieuwzględniona
+    ogólna        Zapobieganie użyciu wyłudzonych danych osobowych na potrzeby umów Przyznanie                             zakładom
+                  ubezpieczenia jak najbardziej leży w interesie ubezpieczających, posiadaczy ubezpieczeń uprawnienia do
+                  pojazdów mechanicznych, ale też samych zakładów ubezpieczeń. Zachodzą jednak weryfikacji zastrzeżenia numeru
+                  wątpliwości co do tego, czy zaproponowane rozwiązanie pozwoli osiągnąć ten cel. PESEL przed zawarciem umów
+                  Po pierwsze – weryfikacja zastrzeżenia numeru PESEL, zgodnie z projektem, ma ubezpieczenia                     OC
+                  być tylko możliwością, a nie obowiązkiem zakładu ubezpieczeń. Jeśli komunikacyjnego,                           bez
+                  ubezpieczyciel tego nie zrobi, osoba, której dane zostały wykorzystane, nie jest konieczności       każdorazowej
+                  chroniona przed przestępczym użyciem jej danych. Można się zastanawiać, czy w obowiązkowej             weryfikacji
+                  takiej sytuacji ubezpieczyciel ponosi odpowiedzialność odszkodowawczą na zastrzeżenia numeru PESEL
+                  zasadzie winy – ale to już kwestia późniejsza, ponieważ umowa z użyciem cudzych wynika        ze      specyficznej
+                  danych już zostanie zawarta. Poszkodowany będzie musiał zmagać się z konstrukcji oraz głównego celu
+                  negatywnymi konsekwencjami tego, że ubezpieczyciel nie zapobiegł tej sytuacji. obowiązkowego ubezpieczenia
+                  Po drugie – możliwość sprawdzania zastrzeżenia numeru PESEL przez OC                    posiadaczy       pojazdów
+                  ubezpieczycieli jest uzasadniona. Zachodzi jednak poważna wątpliwość, czy mechanicznych. Przyznanie tego
+                  zakłady ubezpieczeń powinny mieć prawo do odmowy zawarcia umowy prawa a nie obowiązku, umożliwi
+                  obowiązkowego ubezpieczenia OC posiadaczy pojazdów mechanicznych (OC zakładom                         ubezpieczeń
+                  p.p.m.) tylko z tego powodu, że dana osoba, aby chronić swoje dane osobowe możliwość             przeprowadzenia
+                  zdecydowała się zastrzec swój numer PESEL. W pewnych przypadkach może to szczegółowej                  weryfikacji
+                  prowadzić do pokrzywdzenia uczciwych klientów zakładów ubezpieczeń. Jedynie poszczególnych           sytuacji    i
+                  tytułem przykładu można wskazać sytuację, w której zakład ubezpieczeń będzie podejmowanie działań, które
+mógł odmówić zawarcia umowy w przypadku gdy tożsamość klienta można będą                   miały      na      celu
+zweryfikować na podstawie dowodu osobistego podczas wizyty w placówce, wyeliminowanie sytuacji, na
+posiadacz pojazdu jest wpisany w dowodzie rejestracyjnym pojazdu jako jego które           wskazuje      Rzecznik
+właściciel, a umowa jest kontynuacją ubezpieczenia zawieranego od wielu lat. Finansowy.
+Odmówić zawarcia umowy można nawet, jeśli ubezpieczający chciałby opłacić Ponadto przyznanie zakładom
+składkę w całości z góry, a więc nie ma ryzyka, że umowa zostanie zawarta „na ubezpieczeń uprawnienia do
+cudze dane” po to żeby nie płacić składki.                                        docelowej odmowy zawarcia
+Istnieje poważne ryzyko, że właściciele pojazdów, którym ubezpieczyciel odmówi umowy              obowiązkowego
+zawarcia umowy w ostatniej chwili, nie zdążą zawrzeć nowej umowy ani cofnąć ubezpieczenia OC posiadaczy
+zastrzeżenia w rejestrze PESEL. Postawi to posiadaczy pojazdów mechanicznych pojazdów mechanicznych, w
+w bardzo niekorzystnej sytuacji, tj.:                                             sytuacji   gdy     doszło     do
+-posiadacz pojazdu będzie musiał zapłacić wysoką opłatę karną nakładaną przez zastrzeżenia numeru PESEL na
+Ubezpieczeniowy Fundusz Gwarancyjny za brak zawarcia umowy (art. 88 ust. 1 i skutek kradzieży danych, ma na
+2 ustawy z dnia 22 maja 2003 r. o ubezpieczeniach obowiązkowych, celu ograniczenie sytuacji, w
+Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli których dochodzi do zawierania
+Komunikacyjnych dalej: ustawa o ubezpieczeniach obowiązkowych), ale przede umów ubezpieczenia przy użyciu
+wszystkim                                                                         skradzionych danych osobowych.
+-sprawca szkody (którym często jest posiadacz pojazdu lub jego osoba najbliższa) Dodatkowo należy wskazać, że
+będzie ponosił pełną odpowiedzialność finansową za skutki wypadku. Będzie także w interesie zakładów
+musiał on zwrócić kwotę jaką poszkodowanemu wypłaci Ubezpieczeniowy ubezpieczeń pozostaje
+Fundusz Gwarancyjny (art. 110 ust. 1 w zw. z art. 98 ust 1 pkt 3 ustawy o zweryfikowanie indywidualnej
+ubezpieczeniach obowiązkowych). Poza kwestią zwrotu wypłaconego sytuacji swojego klienta, w tym
+odszkodowania za szkody w mieniu, przy szkodach na osobie może to oznaczać też weryfikacja (potwierdzenie) jego
+zwrot zadośćuczynienia i renty odszkodowawczej.                                   tożsamości wszelkimi prawnie
+Ponadto, uznaniowa (fakultatywna) możliwość skorzystania z możliwości odmowy dostępnymi metodami i w oparciu
+zawarcia umowy ubezpieczenia może prowadzić do nadużyć.                           o dostępne dane. Należy
+W ocenie Rzecznika Finansowego, ubezpieczyciele powinni weryfikować zauważyć,                     że      zakłady
+tożsamość klientów nie tylko przy pomocy numeru PESEL, ale też innymi ubezpieczeń również ponoszą
+dostępnymi metodami. Przy zawieraniu umowy stacjonarnie można sprawdzić dane szkodę w przypadku procederu
+z dowodem osobistym, a przy umowie na odległość – potwierdzić tożsamość np. zawierania ubezpieczeń OC
+przez podpis elektroniczny, profil zaufany, bankowość elektroniczną lub aplikację komunikacyjnych na skradzione
+mObywatel.                                                                        dane osobowe. Wynika to z faktu,
+Ewentualnie, można zastanowić się też nad przyznaniem Ubezpieczeniowemu że w przypadku uiszczenia
+Funduszowi Gwarancyjnemu (UFG) dostępu do bazy PESEL, aby mógł – na pierwszej raty ubezpieczenia,
+wniosek ubezpieczyciela lub z urzędu – weryfikować numer PESEL podany przez zakład ubezpieczeń skutecznie
+klienta. Przyznanie dostępu do bazy PESEL tylko UFG, a nie wszystkim udziela ochrony ubezpieczenia, a
+ubezpieczycielom, wydaje się bezpieczniejsze z punktu widzenia ochrony danych jednocześnie                  wobec
+osobowych. Może to też zapobiec nakładaniu kar przez UFG na osoby, które nie zidentyfikowanej i potwierdzonej
+wiedziały, że ich dane zostały skradzione i wykorzystane na potrzeby fikcyjnego sytuacji kradzieży tożsamości
+zakupu pojazdów oraz zawierania umów ubezpieczenia OC p.p.m. Taki dostęp nie zakłady ubezpieczeń umarzają
+powinien jednak obejmować wszystkich danych z rejestru PESEL. Prawo do swoje roszczenia wobec osoby,
+odmowy zawarcia umowy ubezpieczenia przy zastrzeżonym PESEL-u mogłoby której dane skradziono.
+przysługiwać tylko w jasno określonych sytuacjach, np. gdy dane właściciela W związku z powyższym należy
+pojazdu nie zgadzają się z danymi w rejestrze PESEL. Nie rozwiązuje to jednak oczekiwać,         że       zakłady
+problemu, gdy oszust użyje prawdziwych danych osobowych, zgodnych z danymi ubezpieczeń                 wypracują
+w rejestrze PESEL.                                                                procesowe    lub     biznesowe
+W ocenie Rzecznika Finansowego, można zastanowić się nad rozwiązaniami w sposoby                   wykorzystania
+pewien sposób wzorowanymi na tych, jakie zostały wprowadzone w ustawie z dnia informacji o zastrzeżeniu numeru
+7 lipca 2023 r. o zmianie niektórych ustaw w celu ograniczania niektórych skutków PESEL, w celu minimalizacji
+kradzieży tożsamości (Dz. U. poz. 1394 z późn. zm.) w stosunku do operatorów ryzyka związanego z kradzieżą
+usług telekomunikacyjnych. Jeśli numer PESEL jest zastrzeżony a system jest tożsamości.
+niedostępny powyżej 15 minut, mogą oni odmówić wydania duplikatu karty SIM Propozycje                  Rzecznika
+albo wydać duplikat karty SIM po weryfikacji tożsamości abonenta z zachowaniem Finansowego         w     zakresie
+należytej staranności przy udokumentowaniu dokonania tej weryfikacji. W przyznania jedynie UFG dostępu
+przypadku ubezpieczenia OC p.p.m. trzeba jednak uwzględnić, że jest to do                bazy    PESEL        oraz
+ubezpieczenie obowiązkowe, pod rygorem sankcji. Odmowa zawarcia umowy nie zobowiązania           Funduszu       do
+powinna uderzać więc w uczciwych klientów zakładów ubezpieczeń, tam gdzie nie weryfikowania numeru PESEL
+ma ryzyka działania przestępczego.                                                podanego przez klienta, czy też
+Niezależnie od powyższych uwag należałoby uzupełnić Ocenę Skutków Regulacji wprowadzenia               rozwiazań
+(OSR). Obecnie w OSR nie ma informacji o liczbie osób, które zastrzegły już swój przyjętych w stosunku do
+numer PESEL. Z nieoficjalnych doniesień prasowych wynika, że na koniec 2024 operatorów                       usług
+roku już ponad 5 milionów Polaków zastrzegło swój numer PESEL. Liczba ta może komunikacyjnych, wiązałyby się
+jeszcze wzrosnąć. Skala odmów zawarcia umowy ubezpieczenia OC p.p.m. i z koniecznością wprowadzenia
+problemów z zawarciem umowy ubezpieczenia OC p.p.m. może potencjalnie być zasadniczych                      zmian
+duża. W OSR brakuje też danych o liczbie umów ubezpieczenia zawartych tylko systemowych           (prawnych      i
+na podstawie skradzionego numeru PESEL (nieoficjalnie mówi się o kilkuset technologicznych) zarówno po
+przypadkach). W związku z brakiem powyższych informacji, trudno ocenić jakie stronie rynku jak i po stronie
+rozwiązanie prawne będzie proporcjonalne do skali problemu.                       Funduszu. Dodatkowo należy
+                                                                                  zauwaćyć, że Ubezpieczeniowy
+                                                                                  Fundusz Gwarancyjny gromadzi
+                                                                                  informacje o już zawartych
+                                                                                  umowach     ubezpieczenia      a
+                                                                                  założeniem     projektowanych
+                                                                                  zmian jest aby weryfikacja
+                                                                                                    zastrzeżonych numerów PESEL
+                                                                                                    odbywała się przde zawarciem
+                                                                                                    umowy ubezpieczenia.
+                                                                                                    Odnosząc się do uwag o
+                                                                                                    charakterze stricte kazusowym
+                                                                                                    należy zauważycć, że rolą norm
+                                                                                                    ustawowych         nie       jest
+                                                                                                    wprowadzanie regulacji, które
+                                                                                                    rozstrzygałyby każdy możliwy
+                                                                                                    przypadek, jaki może zaistnieć w
+                                                                                                    danym stanie prawnym.
+                                                                                                    Odnosząc się do uwag w zakresie
+                                                                                                    ewentualnego        uzupełnienia
+                                                                                                    Oceny Skutków Regulacji należy
+                                                                                                    wskazać, iż resort finansów nie
+                                                                                                    posiada wnioskowanych przez
+                                                                                                    Rzecznika          Finansowego
+                                                                                                    informacji.
+
+
+3   Uwaga    UODO   Projektowana ustawa przewiduje przyznanie uprawnienia weryfikacji zastrzeżenia Uwaga uwzględniona
+    ogólna          numeru PESEL przez zakłady ubezpieczeń „w zakresie umów ubezpieczenia OC Projektowane regulacje zostały
+                    posiadaczy pojazdów mechanicznych. Przedmiotowa weryfikacja ma się odbywać uzupełnione o wskazanie celu
+                    za pośrednictwem systemu teleinformatycznego UFG, który stanowi węzeł (zakresu) przetwarzania danych
+                    informacyjny dla zakładów ubezpieczeń pośredniczący w komunikacji z różnymi przez uprawnione podmioty.
+                    rejestrami publicznymi (art. 1 projektu)”. W pierwszej kolejności organ nadzorczy Niezależnie od tego należy
+                    wskazuje na niedookreślenie w projektowanym art. 2 ustawy o ewidencji ludności zauważyć, że UODO wskazało na
+                    wskazanej powyżej szczegółowej regulacji dotyczącej zakresu przetwarzania, w niedookreślenie                   w
+                    związku z ustawowymi zadaniami i obowiązkami podmiotu żądającego, jak zrobił projektowanym art. 2 ustawy o
+                    to prawodawca w art. 46 ustawy o ewidencji ludności3. Związek ten ma wynikać z ewidencji      ludności    zakresu
+                    niezbędności posiadania danych osobowych dla osiągnięcia celu wyznaczonego przetwarzania, w związku z
+                    treścią obowiązku. Projektodawca ograniczył się wyłącznie do dodania ustawowymi                   zadaniami     i
+                    Ubezpieczeniowego Funduszu Gwarancyjnego (dalej również jako UFG) oraz obowiązkami                      podmiotu
+                    zakładów ubezpieczeń do listy podmiotów uprawnionych. Zakres ten został żądającego, jak zrobił to
+                    również pominięty w projekcie o zmianie ustawy o ubezpieczeniach prawodawca w art. 46 ustawy o
+                    obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze ewidencji ludności. Wskazać
+                    Ubezpieczycieli Komunikacyjnych. Doprecyzowanie tej materii jest konieczne z natomiast należy, że regulacje
+punktu widzenia poszanowania zasad dotyczących przetwarzania danych określone w projekcie ustawy
+osobowych, tj. zasady zgodności z prawem, rzetelności i przejrzystości (art. 5 ust. odnoszą się do weryfikowania
+1 lit. a)4. Projektowana regulacja ma na celu „ograniczenie sytuacji, w których danych w rejestrze z rejestru
+dochodzi do zawierania umów obowiązkowego ubezpieczenia odpowiedzialności zastrzeżeń numerów PESEL w
+cywilnej posiadaczy pojazdów mechanicznych za szkody powstałe w związku z drodze weryfikacji. Nie jest
+ruchem tych pojazdów, przy użyciu skradzionych danych osobowych, z zatem zrozumiałe stosowanie
+wykorzystaniem danych osobowych osób, które dokonały zastrzeżenia numeru odniesienia do art. 46 ustawy o
+PESEL.”. Cel dostępu do rejestru i do danych osobowych nie został jednak ewidencji ludności. Odnosząc się
+określony wprost w projektowanych przepisach. Zgodnie zaś z art. 6 ust. 3 jednak do wskazanych w art. 23m
+rozporządzenia 2016/679 cel przetwarzania danych osobowych powinien być podmiotów uprawnionych do
+określony w przepisach prawa, które mają stanowić podstawę tego przetwarzania. zasięgania informacji z rejestru
+Cel przetwarzania musi być określony w tej podstawie prawnej lub, w przypadku zastrzeżonych numerów PESEL,
+przetwarzania, o którym mowa w ust. 1 lit. e) – musi być ono niezbędne do należy zwrócić uwagę, że
+wykonania zadania realizowanego w interesie publicznym lub w ramach zarówno                          w    stosunku     do
+sprawowania władzy publicznej powierzonej administratorowi. Projektodawca telekomów, jak i podmiotów
+powinien zapewnić w przepisach stosowanie wynikających z art. 5 rozporządzenia sektora bankowego, nie jest
+2016/679 zasad dotyczących przetwarzania danych osobowych: ograniczenia celu doprecyzowany konkretny cel
+(art. 5 ust. 1 lit. b)5, minimalizacji danych (art. 5 ust. 1 lit. c)6. Projektodawca nie przetwarzania danych, określony
+uwzględnił w proponowanej regulacji określenia mechanizmu działania „za w tym przepisie.
+pośrednictwem systemu teleinformatycznego obsługującego Ubezpieczeniowy Niezaleznie od powyzszego
+Fundusz Gwarancyjny”. Wskazał jedynie że „(...) Zakład ubezpieczeń przed doprecyzowano przedmiotowe
+zawarciem umowy, o której mowa w art. 23 ust. 1, może weryfikować w sposób, o regulacje o wskazanie celu
+którym mowa w art. 23j lub art. 23m ustawy z dnia 24 września 2010 r. o ewidencji (zakresu) przetwarzania danych
+ludności (Dz. U. z 2025 r. poz. 274), za pośrednictwem systemu przez uprawnione podmioty.
+teleinformatycznego obsługującego Ubezpieczeniowy Fundusz Gwarancyjny, w Odnosząc                     się    do     trybu
+rejestrze zastrzeżeń numerów PESEL, o którym mowa w art. 23a tej ustawy, czy udostępniania danych z rejestru
+numer PESEL ubezpieczającego lub ubezpieczonego jest zastrzeżony.”. zastrzeżeń numerów PESEL, tj.
+Projektodawca odsyła wyłącznie do sposobu weryfikacji zastrzeżonego numeru za                  pośrednictwem     systemu
+PESEL w sposób ogólny, tymczasem niezbędne wydaje się rozgraniczenie pozycji teleinformatycznego
+UFG oraz zakładów ubezpieczeń w procesie dostępu do rejestru zastrzeżeń obsługującego Ubezpieczeniowy
+numerów PESEL. Dodatkowo, nie jest jasne, w kontekście przetwarzania danych Fundusz Gwarancyjny” jest
+osobowych w jaki sposób działa „pośrednictwo systemu obsługującego UFG, który rozwiązaniem znanym przepisom
+stanowi węzeł informacyjny dla zakładów ubezpieczeń pośredniczący w prawa. W podobnym trybie
+komunikacji z różnymi rejestrami publicznymi” w kontekście relacji tego systemu odbywa się udostępnianie danych
+z rejestrem zastrzeżeń numerów PESEL. Analiza ról w procesach przetwarzania zakładom ubezpieczeń z CEPiK
+danych osobowych, determinująca legalność przetwarzania danych osobowych, (art.                   105a      ustawy      o
+powinna znaleźć swoje odzwierciedlenie w ocenie skutków dla ochrony danych dla ubezpieczeniach
+                                   projektowanej ustawy czyli dokonanej w związku z przyjęciem tej podstawy obowiązkowych, UFG i PBUK),
+                                   prawnej. Zgodnie z Wytycznymi Europejskiej Rady Ochrony Danych 07/2020 wymiana informacji z Policją w
+                                   dotyczącymi pojęć administratora i podmiotu przetwarzającego zawartych w zakresie tzw. notatek policyjnych
+                                   RODO (wersja 2.0, przyjęta 7 lipca 2021 r.) „częściej ma jednak miejsce sytuacja, (art.    105b     ustawy     o
+                                   w której przepisy prawa, zamiast bezpośrednio wyznaczyć administratora danych ubezpieczeniach
+                                   lub określić kryteria jego wyznaczania, ustalają zadanie lub nakładają na kogoś obowiązkowych, UFG i PBUK
+                                   obowiązek gromadzenia i przetwarzania niektórych danych. W takim przypadku oraz wymiany danych pomiędzy
+                                   określenie, kto jest administratorem, wynika z prawa. Administratorem będzie zakładami ubezpieczeń a UFG w
+                                   zazwyczaj administrator wyznaczony przez prawo do realizacji tego celu, tego zakresie informatycznej bazy
+                                   zadania publicznego”. Ponadto, jak wskazuje EROD w swoich wytycznych, danych, o której mowa w art.
+                                   „pojęcie administratora jest pojęciem funkcjonalnym, opiera się ono raczej na 102a ustawy o ubezpieczeniach
+                                   analizie okoliczności faktycznych niż analizie formalnej”, a co za tym idzie „rola obowiązkowych, UFG i PBUK.
+                                   administratora nie wynika z charakteru podmiotu przetwarzającego dane, ale z jego Podobne rozwiązania znane są
+                                   konkretnych działań w określonym kontekście”. Zgodnie z wyrokiem NSA z dnia również z ustawy – Prawo o
+                                   30.01.2002 r, sygn. akt II SA 1098/01 „administratorem jest ten, kto decyduje o ruchu drogowym itp. Przyjęty
+                                   celach i środkach przetwarzania, przy czym zasadnicze znaczenie ma rodzaj i mechanizm nie jest zatem
+                                   charakter nadanych przez prawo kompetencji z zakresu spraw publicznych”. W odosobniony            i      stanowi
+                                   ocenie Prezesa UODO projektodawca powinien określić odpowiednie środki wykorzystywane już w praktyce
+                                   /sposoby lub chociażby kryteria zapewnienia bezpieczeństwa przetwarzanych rozwiązanie.
+                                   danych osobowych w związku z dostępem do rejestru zastrzeżeń nr PESEL.
+                                   Powinno to nastąpić w akcie prawa powszechnie obowiązującego – jako, że
+                                   dotyczy prawa i obowiązków związanych z przetwarzaniem danych osobowych, z
+                                   uwzględnieniem testu prywatności, tj. wpływu charakteru, zakresu, kontekstu i
+                                   celów przetwarzania oraz ryzyk naruszeń na ochronę danych osobowych i praw lub
+                                   wolności osób fizycznych o różnym prawdopodobieństwie i wadze, tak, aby
+                                   przetwarzanie odbywało się zgodnie z rozporządzeniem 2016/679.
+
+
+2. Omówienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu z właściwymi organami i instytucjami Unii Europejskiej,
+w tym Europejskim Bankiem Centralnym.
+Nie dotyczy.
+
+3. Podmioty, które zgłosiły zainteresowanie pracami nad projektem w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa.
+Żaden podmiot nie zgłosił zainteresowania pracami nad projektem ustawy w ww. trybie.
+                                                                                                                              Sporządzono: 27 maja 2025 r.
+
+Zestawienie nieuwzględnionych uwag (i stanowisko Ministerstwa Finansów) zgłoszonych do projektu ustawy o zmianie ustawy o ubezpieczeniach
+obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych oraz ustawy o ewidencji ludności (nr
+UDER27 w wykazie).
+
+ Lp.     Jednostka     Podmiot                                     Treść uwagi                                        Stanowisko Ministerstwa Finansów
+        redakcyjna    zgłaszający
+  1    Uwaga ogólna       RF        Na wstępie należy podkreślić, że cel regulacji jest jak najbardziej słuszny.   Uwaga nieuzwględniona.
+                                    Zapobieganie użyciu wyłudzonych danych osobowych na potrzeby umów              Przyznanie zakładom ubezpieczeń
+                                    ubezpieczenia jak najbardziej leży w interesie ubezpieczających,               uprawnienia do weryfikacji zastrzeżenia
+                                    posiadaczy pojazdów mechanicznych, ale też samych zakładów                     numeru PESEL przed zawarciem umów
+                                    ubezpieczeń. Zachodzą jednak wątpliwości co do tego, czy zaproponowane         ubezpieczenia OC komunikacyjnego, bez
+                                    rozwiązanie pozwoli osiągnąć ten cel.                                          konieczności każdorazowej obowiązkowej
+                                    Po pierwsze – weryfikacja zastrzeżenia numeru PESEL, zgodnie z                 weryfikacji zastrzeżenia numeru PESEL
+                                    projektem, ma być tylko możliwością, a nie obowiązkiem zakładu                 wynika ze specyficznej konstrukcji oraz
+                                    ubezpieczeń. Jeśli ubezpieczyciel tego nie zrobi, osoba, której dane zostały   głównego celu obowiązkowego
+                                    wykorzystane, nie jest chroniona przed przestępczym użyciem jej danych.        ubezpieczenia OC posiadaczy pojazdów
+                                    Można się zastanawiać, czy w takiej sytuacji ubezpieczyciel ponosi             mechanicznych. Przyznanie tego prawa a
+                                    odpowiedzialność odszkodowawczą na zasadzie winy – ale to już kwestia          nie obowiązku, umożliwi zakładom
+                                    późniejsza, ponieważ umowa z użyciem cudzych danych już zostanie               ubezpieczeń możliwość przeprowadzenia
+                                    zawarta. Poszkodowany będzie musiał zmagać się z negatywnymi                   szczegółowej weryfikacji poszczególnych
+                                    konsekwencjami tego, że ubezpieczyciel nie zapobiegł tej sytuacji.             sytuacji i podejmowanie działań, które będą
+                                    Po drugie – możliwość sprawdzania zastrzeżenia numeru PESEL przez              miały na celu wyeliminowanie sytuacji, na
+                                    ubezpieczycieli jest uzasadniona. Zachodzi jednak poważna wątpliwość,          które wskazuje Rzecznik Finansowy.
+                                    czy zakłady ubezpieczeń powinny mieć prawo do odmowy zawarcia                  Ponadto przyznanie zakładom ubezpieczeń
+                                    umowy obowiązkowego ubezpieczenia OC posiadaczy pojazdów                       uprawnienia do docelowej odmowy
+                                    mechanicznych (OC p.p.m.) tylko z tego powodu, że dana osoba, aby              zawarcia umowy obowiązkowego
+                                    chronić swoje dane osobowe zdecydowała się zastrzec swój numer PESEL.          ubezpieczenia OC posiadaczy pojazdów
+                                    W pewnych przypadkach może to prowadzić do pokrzywdzenia uczciwych             mechanicznych, w sytuacji gdy doszło do
+                                    klientów zakładów ubezpieczeń. Jedynie tytułem przykładu można                 zastrzeżenia numeru PESEL na skutek
+                                    wskazać sytuację, w której zakład ubezpieczeń będzie mógł odmówić              kradzieży danych, ma na celu ograniczenie
+                                    zawarcia umowy w przypadku gdy tożsamość klienta można zweryfikować            sytuacji, w których dochodzi do zawierania
+                                    na podstawie dowodu osobistego podczas wizyty w placówce, posiadacz            umów ubezpieczenia przy użyciu
+                                    pojazdu jest wpisany w dowodzie rejestracyjnym pojazdu jako jego               skradzionych danych osobowych.
+
+
+                                                                                                                                                      1/3
+właściciel, a umowa jest kontynuacją ubezpieczenia zawieranego od wielu     Dodatkowo należy wskazać, że także w
+lat. Odmówić zawarcia umowy można nawet, jeśli ubezpieczający chciałby      interesie zakładów ubezpieczeń pozostaje
+opłacić składkę w całości z góry, a więc nie ma ryzyka, że umowa zostanie   zweryfikowanie indywidualnej sytuacji
+zawarta „na cudze dane” po to żeby nie płacić składki.                      swojego klienta, w tym weryfikacja
+Istnieje poważne ryzyko, że właściciele pojazdów, którym ubezpieczyciel     (potwierdzenie) jego tożsamości wszelkimi
+odmówi zawarcia umowy w ostatniej chwili, nie zdążą zawrzeć nowej           prawnie dostępnymi metodami i w oparciu
+umowy ani cofnąć zastrzeżenia w rejestrze PESEL. Postawi to posiadaczy      o dostępne dane. Należy zauważyć, że
+pojazdów mechanicznych w bardzo niekorzystnej sytuacji, tj.:                zakłady ubezpieczeń również ponoszą
+-posiadacz pojazdu będzie musiał zapłacić wysoką opłatę karną nakładaną     szkodę w przypadku procederu zawierania
+przez Ubezpieczeniowy Fundusz Gwarancyjny za brak zawarcia umowy            ubezpieczeń OC komunikacyjnych na
+(art. 88 ust. 1 i 2 ustawy z dnia 22 maja 2003 r. o ubezpieczeniach         skradzione dane osobowe. Wynika to z
+obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim             faktu, że w przypadku uiszczenia pierwszej
+Biurze Ubezpieczycieli Komunikacyjnych dalej: ustawa o ubezpieczeniach      raty ubezpieczenia, zakład ubezpieczeń
+obowiązkowych), ale przede wszystkim                                        skutecznie udziela ochrony
+-sprawca szkody (którym często jest posiadacz pojazdu lub jego osoba        ubezpieczeniowej przez cały okres
+najbliższa) będzie ponosił pełną odpowiedzialność finansową za skutki       ubezpieczenia, a jednocześnie wobec
+wypadku. Będzie musiał on zwrócić kwotę jaką poszkodowanemu wypłaci         zidentyfikowanej i potwierdzonej sytuacji
+Ubezpieczeniowy Fundusz Gwarancyjny (art. 110 ust. 1 w zw. z art. 98 ust    kradzieży tożsamości zakłady ubezpieczeń
+1 pkt 3 ustawy o ubezpieczeniach obowiązkowych). Poza kwestią zwrotu        z reguły umarzają swoje roszczenia wobec
+wypłaconego odszkodowania za szkody w mieniu, przy szkodach na osobie       osoby, której dane skradziono.
+może to oznaczać też zwrot zadośćuczynienia i renty odszkodowawczej.        W związku z powyższym należy
+Ponadto, uznaniowa (fakultatywna) możliwość skorzystania z możliwości       oczekiwać, że zakłady ubezpieczeń
+odmowy zawarcia umowy ubezpieczenia może prowadzić do nadużyć.              wypracują procesowe lub biznesowe
+W ocenie Rzecznika Finansowego, ubezpieczyciele powinni weryfikować         sposoby wykorzystania informacji o
+tożsamość klientów nie tylko przy pomocy numeru PESEL, ale też innymi       zastrzeżeniu numeru PESEL, w celu
+dostępnymi metodami. Przy zawieraniu umowy stacjonarnie można               minimalizacji ryzyka związanego z
+sprawdzić dane z dowodem osobistym, a przy umowie na odległość –            kradzieżą tożsamości.
+potwierdzić tożsamość np. przez podpis elektroniczny, profil zaufany,       Propozycje Rzecznika Finansowego w
+bankowość elektroniczną lub aplikację mObywatel.                            zakresie przyznania jedynie UFG dostępu
+Ewentualnie, można zastanowić się też nad przyznaniem                       do bazy PESEL oraz zobowiązania
+Ubezpieczeniowemu Funduszowi Gwarancyjnemu (UFG) dostępu do bazy            Funduszu do weryfikowania numeru
+PESEL, aby mógł – na wniosek ubezpieczyciela lub z urzędu –                 PESEL podanego przez klienta, czy też
+weryfikować numer PESEL podany przez klienta. Przyznanie dostępu do         wprowadzenia rozwiazań przyjętych w
+bazy PESEL tylko UFG, a nie wszystkim ubezpieczycielom, wydaje się          stosunku do operatorów usług
+bezpieczniejsze z punktu widzenia ochrony danych osobowych. Może to         komunikacyjnych, wiązałyby się z
+
+
+                                                                                                              2/3
+też zapobiec nakładaniu kar przez UFG na osoby, które nie wiedziały, że    koniecznością wprowadzenia zasadniczych
+ich dane zostały skradzione i wykorzystane na potrzeby fikcyjnego zakupu   zmian systemowych (prawnych i
+pojazdów oraz zawierania umów ubezpieczenia OC p.p.m. Taki dostęp nie      technologicznych) zarówno po stronie
+powinien jednak obejmować wszystkich danych z rejestru PESEL. Prawo        rynku jak i po stronie Funduszu.
+do odmowy zawarcia umowy ubezpieczenia przy zastrzeżonym PESEL-u           Dodatkowo należy zauwaćyć, że
+mogłoby przysługiwać tylko w jasno określonych sytuacjach, np. gdy dane    Ubezpieczeniowy Fundusz Gwarancyjny
+właściciela pojazdu nie zgadzają się z danymi w rejestrze PESEL. Nie       gromadzi informacje o już zawartych
+rozwiązuje to jednak problemu, gdy oszust użyje prawdziwych danych         umowach ubezpieczenia a założeniem
+osobowych, zgodnych z danymi w rejestrze PESEL.                            projektowanych zmian jest aby weryfikacja
+W ocenie Rzecznika Finansowego, można zastanowić się nad                   zastrzeżonych numerów PESEL odbywała
+rozwiązaniami w pewien sposób wzorowanymi na tych, jakie zostały           się przed zawarciem umowy ubezpieczenia.
+wprowadzone w ustawie z dnia 7 lipca 2023 r. o zmianie niektórych ustaw    Odnosząc się do uwag o charakterze stricte
+w celu ograniczania niektórych skutków kradzieży tożsamości (Dz. U. poz.   kazusowym należy zauważycć, że rolą
+1394 z późn. zm.) w stosunku do operatorów usług telekomunikacyjnych.      norm ustawowych nie jest wprowadzanie
+Jeśli numer PESEL jest zastrzeżony a system jest niedostępny powyżej 15    regulacji, które rozstrzygałyby każdy
+minut, mogą oni odmówić wydania duplikatu karty SIM albo wydać             możliwy przypadek, jaki może zaistnieć w
+duplikat karty SIM po weryfikacji tożsamości abonenta z zachowaniem        danym stanie prawnym.
+należytej staranności przy udokumentowaniu dokonania tej weryfikacji. W    Odnosząc się do uwag w zakresie
+przypadku ubezpieczenia OC p.p.m. trzeba jednak uwzględnić, że jest to     ewentualnego uzupełnienia Oceny Skutków
+ubezpieczenie obowiązkowe, pod rygorem sankcji. Odmowa zawarcia            Regulacji należy wskazać, iż resort
+umowy nie powinna uderzać więc w uczciwych klientów zakładów               finansów nie posiada wnioskowanych przez
+ubezpieczeń, tam gdzie nie ma ryzyka działania przestępczego.              Rzecznika Finansowego informacji.
+Niezależnie od powyższych uwag należałoby uzupełnić Ocenę Skutków
+Regulacji (OSR). Obecnie w OSR nie ma informacji o liczbie osób, które
+zastrzegły już swój numer PESEL. Z nieoficjalnych doniesień prasowych
+wynika, że na koniec 2024 roku już ponad 5 milionów Polaków zastrzegło
+swój numer PESEL. Liczba ta może jeszcze wzrosnąć. Skala odmów
+zawarcia umowy ubezpieczenia OC p.p.m. i problemów z zawarciem
+umowy ubezpieczenia OC p.p.m. może potencjalnie być duża. W OSR
+brakuje też danych o liczbie umów ubezpieczenia zawartych tylko na
+podstawie skradzionego numeru PESEL (nieoficjalnie mówi się o kilkuset
+przypadkach). W związku z brakiem powyższych informacji, trudno ocenić
+jakie rozwiązanie prawne będzie proporcjonalne do skali problemu.
+
+
+
+
+                                                                                                             3/3
+

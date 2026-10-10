@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}{{ _("Posiedzenia Sejmu") }} — {{ term_name }}{% endblock %}
+{% block content %}
+<h1>{{ _("Posiedzenia Sejmu") }} ({{ term_name }})</h1>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>{{ _("Posiedzenie") }}</th><th>{{ _("Daty głosowań") }}</th><th class="num">{{ _("Głosowania") }}</th><th class="num">{{ _("Głos. nad poprawkami") }}</th></tr></thead>
+  <tbody>
+  {% for s, votings in sittings | dictsort(reverse=true) %}
+  <tr>
+    <td><a href="{{ root }}posiedzenie/{{ s }}.html">{{ sitting_name(s) }}</a></td>
+    <td>{{ votings[0].date | date_pl }}{% if votings[-1].date[:10] != votings[0].date[:10] %} – {{ votings[-1].date | date_pl }}{% endif %}</td>
+    <td class="num">{{ votings | length }}</td>
+    <td class="num">{{ votings | selectattr("amendments") | list | length }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}

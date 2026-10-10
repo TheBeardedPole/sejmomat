@@ -1,0 +1,955 @@
+                                                                          Druk nr 548
+                                                                   Warszawa, 19 lipca 2024 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-48-24
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+
+  - o zmianie ustawy o publicznej służbie krwi.
+
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Zdrowia.
+
+
+                                                           Z poważaniem
+
+
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+            Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                     Projekt
+                                        U S T AWA
+
+                                           z dnia
+
+                        o zmianie ustawy o publicznej służbie krwi
+
+
+     Art. 1. W ustawie z dnia 22 sierpnia 1997 r. o publicznej służbie krwi (Dz. U. z 2024 r.
+poz. 281) art. 8 otrzymuje brzmienie:
+          „Art. 8. Minister właściwy do spraw zdrowia określi, w drodze rozporządzenia, ilość
+     oddanych składników krwi odpowiadających litrowi oddanej krwi, które uprawniają do
+     tytułów i odznak, o których mowa w art. 6 ust. 3–5 i art. 7 ust. 1, mając na celu
+     zapewnienie prawidłowego i jednolitego przeliczania donacji składników krwi na krew,
+     przy uwzględnieniu rozwoju technologii w medycynie i nowych typów urządzeń do
+     pobierania składników krwi.”.
+
+     Art. 2. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                     UZASADNIENIE
+
+Aktualnie uregulowany w art. 8 ustawy z dnia 22 sierpnia 1997 r. o publicznej służbie krwi
+(Dz. U. z 2024 r. poz. 281) sposób przeliczania oddanych składników krwi na krew pełną
+opracowano 17 lat temu. Jest on bardzo uproszczony, przez co nie wyczerpuje wszystkich
+możliwości pobierania składników krwi przy użyciu różnych typów separatorów
+komórkowych, jakimi dysponują centra krwiodawstwa i krwiolecznictwa, a w szczególności
+nie uwzględniają donacji kilku składników krwi podczas jednego zabiegu np. krwinek
+płytkowych i osocza. Postępujący rozwój technologii w medycynie i pojawianie się na rynku
+nowych typów urządzeń do pobierania składników krwi od dawców powoduje, że występują
+nowe rodzaje zabiegów wykonywanych u dawców.
+
+Uwzględniając uwagi zgłaszane przez dawców krwi w zakresie braku jednolitego schematu
+przeliczania oddanych przez składników krwi na krew pełną na terenie kraju oraz konieczność
+przedstawienia jednolitego sposobu przeliczania różnych donacji na potrzeby realizacji
+„Projektu e-Krew – Informatyzacja Publicznej Służby Krwi oraz Rozwój Nadzoru nad
+Krwiolecznictwem”, zespół roboczy działający przy ww. projekcie, w skład którego wchodzili
+przedstawiciele regionalnych centrów krwiodawstwa i krwiolecznictwa, Instytutu Hematologii
+i Transfuzjologii, Centrum e-Zdrowia oraz Narodowego Centrum Krwi, opracował
+i zarekomendował w 2019 r. ujednolicony sposób przeliczania objętości składników krwi
+pobieranych przy użyciu separatorów komórkowych metodą automatycznej aferezy i sposób
+ich przeliczania na krew pełną. Jednakże, w związku z kontrolą prowadzaną przez Najwyższą
+Izbę Kontroli w jednostkach organizacyjnych publicznej służby krwi oraz Narodowym
+Centrum Krwi, Najwyższa Izba Kontroli poddała pod wątpliwość zgodność stosowanego
+przelicznika z postanowieniami art. 8 ustawy z dnia 22 sierpnia 1997 r. o publicznej służbie
+krwi. Narodowe Centrum Krwi niezwłocznie zwróciło się do ww. zespołu o ponowne
+przeanalizowanie zagadnienia. Zespół w wyniku prac uznał, że nie ma technicznej możliwości
+jednoznacznego zastosowania przelicznika zapisanego w ww. przepisie ustawy, który
+uwzględniałby wszystkie możliwe kombinacje pobierania składników krwi oraz był możliwy
+do zastosowania i funkcjonalny w stosowanych systemach komputerowych.
+
+Rozwiązaniem wprowadzanym w projekcie nowelizacji ustawy z dnia 22 sierpnia 1997 r. o
+publicznej służbie krwi jest przeniesienie przepisów dotyczących przeliczania oddanych
+składników krwi na krew pełną z poziomu regulacji ustawowej na poziom aktu wykonawczego,
+w celu bardziej elastycznego określania przelicznika donacji składników krwi oddanych
+podczas zabiegów aferezy oraz w celu objęcia wszystkich możliwych typów donacji podczas
+aferezy. Przelicznik będzie miał zastosowanie w praktyce we wszystkich centrach
+krwiodawstwa i krwiolecznictwa w jednolity sposób i przyczyni się do docenienia dawcy oraz
+zachęcenia większej liczby dawców do poddania się zabiegom pobrania krwi i jej składników.
+Dla realizacji tego celu minister właściwy do spraw zdrowia, wydając rzeczone rozporządzenie,
+będzie kierował się potrzebą zapewnienia prawidłowego i jednolitego przeliczania donacji
+składników krwi na krew pełną, jak również będzie musiał uwzględnić rozwój technologii
+w medycynie i nowe typy urządzeń do pobierania składników krwi (w tym regulacją objęta
+zostanie m.in. wspomniana na wstępie możliwość pobrania podczas jednej aferezy więcej niż
+jednego składnika krwi).
+
+W związku z szybkim postępem technologicznym w służbie krwi wskazane jest umieszczanie
+szczegółowych regulacji w zakresie przeliczania donacji składników krwi w akcie
+normatywnym niższej rangi, podobnie jak w prawodawstwie Unii Europejskiej, gdzie
+szczegóły techniczne są umieszczone w „Guide to the preparation, use and quality assurance of
+Blood Components”, który będzie załącznikiem do rozporządzenia Parlamentu Europejskiego
+i Rady w sprawie norm jakości i bezpieczeństwa substancji pochodzenia ludzkiego
+przeznaczonych do zastosowania u ludzi oraz uchylającego dyrektywy 2002/98/WE i
+2004/23/WE. Zgodnie z przekazywanymi aktualnymi informacjami z Komisji Europejskiej
+osiągnięto porozumienie polityczne w sprawie projektu tego rozporządzenia pomiędzy
+Parlamentem Europejskim a Radą Europy. Parlament Europejski i Rada będą teraz musiały
+formalnie przyjąć nowe rozporządzenie, które zacznie obowiązywać 3 lata po jego przyjęciu.
+
+Przewiduje się, że ustawa wejdzie w życie po upływie 14 dni od dnia ogłoszenia.
+
+Przyjęte w projekcie ustawy rozwiązania nie będą miały wpływu na działalność
+mikroprzedsiębiorców oraz małych i średnich przedsiębiorców.
+
+Projekt nie zawiera przepisów technicznych w rozumieniu przepisów rozporządzenia Rady
+Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego systemu
+notyfikacji norm i aktów prawnych (Dz. U. poz. 2039 oraz z 2004 r. poz. 597) i w związku z
+tym nie podlega procedurze notyfikacji.
+
+Projektowana ustawa nie zawiera wymogów nakładanych na usługodawców podlegających
+notyfikacji, o której mowa w art. 15 ust. 7 lub art. 39 ust. 5 dyrektywy 2006/123/WE Parlamentu
+Europejskiego i Rady z dnia 12 grudnia 2006 r. dotyczącej usług na rynku wewnętrznym (Dz.
+Urz. UE L 376 z 27.12.2006, str. 36).
+
+Projektowane regulacje nie są sprzeczne z prawem Unii Europejskiej.
+
+
+                                              2
+Projekt ustawy nie wywiera wpływu na obszar danych osobowych. W związku z tym nie
+przeprowadzono oceny skutków ochrony danych osobowych, o której mowa w art. 35 ust. 1
+rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w
+sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie
+swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne
+rozporządzenie o ochronie danych) (Dz. Urz. UE L 119 z 04.05.2016, str. 1, z późn. zm.).
+
+Projekt ustawy nie wymaga przedstawienia właściwym organom i instytucjom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+
+Nie istnieją alternatywne środki w stosunku do projektowanej ustawy umożliwiające
+osiągniecie zamierzonego celu.
+
+
+
+
+                                               3
+Nazwa projektu                                                            Data sporządzenia
+Projekt ustawy o zmianie ustawy o publicznej służbie krwi                 19.06.2024 r.
+
+Ministerstwo wiodące i ministerstwa współpracujące                        Źródło:
+Ministerstwo Zdrowia                                                      Inicjatywa własna
+
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza             Nr w Wykazie prac legislacyjnych i
+Stanu lub Podsekretarza Stanu                                             programowych Rady Ministrów:
+Izabela Leszczyna – Minister Zdrowia                                      UD 15
+
+Kontakt do opiekuna merytorycznego projektu
+Anna Mach-But, starszy specjalista w Wydziale Transplantologii
+i Krwiolecznictwa, Departament Lecznictwa, e-mail: a.but@mz.gov.pl
+                             OCENA SKUTKÓW REGULACJI
+ 1. Jaki problem jest rozwiązywany?
+Zastosowane w art. 8 ustawy z dnia 22 sierpnia 1997 r. o publicznej służbie krwi (Dz. U. z 2024 r. poz. 281)
+sposoby przeliczania oddanych składników krwi na krew pełną opracowano ponad 17 lat temu. Są one bardzo
+uproszczone oraz nie wyczerpują wszystkich możliwości pobierania składników krwi przy użyciu różnych typów
+separatorów komórkowych, jakimi dysponują centra krwiodawstwa i krwiolecznictwa, a w szczególności nie
+uwzględniają donacji kilku składników krwi podczas jednego zabiegu np. krwinek płytkowych i osocza.
+Postępujący rozwój technologii w medycynie i pojawianie się na runku nowych typów urządzeń do pobierania
+składników krwi od dawców powoduje, iż występują nowe rodzaje zabiegów wykonywanych u dawców. Poszerza
+się zatem wachlarz kombinacji możliwych do pobrania składników krwi w trakcie jednej donacji.
+Z uwagi na:
+  1) zgłaszane przez dawców krwi uwagi w zakresie braku jednolitego schematu przeliczania oddanych przez
+      nich składników krwi na krew pełną na terenie kraju,
+  2) zmiany prawne w zakresie wydawania legitymacji – legitymacje papierowe były wydawane do wyczerpania
+      zapasów, co zobligowało pracowników centrów krwiodawstwa i krwiolecznictwa do opracowania
+      matematycznie uproszczonych algorytmów pozwalających na przeliczenie oddanych przez dawcę
+      składników krwi na odpowiadającą im objętość krwi pełnej. Uprzednio centra krwiodawstwa i
+      krwiolecznictwa niejednolicie uzupełniały legitymacje zarówno, jeśli chodzi o ilość oddanej krwi czy jej
+      składników (np. zaokrąglenia do pełnych cyfr), ale też różnie opisywały oddane składniki (np. osocze, płytki,
+      krew pełna), nawet jeśli donacja była pobierana za pomocą takiego samego aparatu do pobierania,
+  3) konieczność przedstawienia jednolitego sposobu przeliczania różnych donacji na potrzeby realizacji
+      „Projektu e-Krew – Informatyzacja Publicznej Służby Krwi oraz Rozwój Nadzoru nad Krwiolecznictwem”,
+      zwanego dalej „Projektem e-Krew”, który przewiduje m.in. prowadzenie ogólnopolskiego rejestru
+      krwiodawców, oddanych donacji krwi i jej składników
+– zespół roboczy działający przy Projekcie e-Krew, w skład którego wchodzili przedstawiciele regionalnych
+centrów krwiodawstwa i krwiolecznictwa, Instytutu Hematologii i Transfuzjologii, Centrum e-Zdrowia oraz
+Narodowego Centrum Krwi opracował i zarekomendował ujednolicony sposób przeliczania oddanych przez
+dawców składników krwi na krew pełną. Opracowanie powstało na podstawie danych uzyskanych z centrów
+krwiodawstwa i krwiolecznictwa. W obecnym kształcie nie ma technicznej możliwości jednoznacznego
+zastosowania przelicznika określonego w art. 8 ustawy z dnia 22 sierpnia 1997 r. o publicznej służbie krwi, który
+uwzględniałby wszystkie możliwe kombinacje pobierania składników krwi oraz był możliwy do
+zaimplementowania w stosowanych systemach komputerowych.
+W związku z powyższym Narodowe Centrum Krwi w 2019 r. przekazało do stosowania przez centra
+krwiodawstwa i krwiolecznictwa zasady przeliczania objętości składników krwi pobieranych przy użyciu
+separatorów komórkowych metodą automatycznej aferezy i sposób ich przeliczania na krew pełną wraz z
+informacją, że zasady te są zgodne z przepisami ustawy z dnia 22 sierpnia 1997 r. o publicznej służbie krwi.
+Jednakże w wyniku kontroli przeprowadzonej przez Najwyższą Izbę Kontroli zakwestionowano zgodność
+stosowanego przelicznika z postanowieniami art. 8 ustawy z dnia 22 sierpnia 1997 r. o publicznej służbie krwi.
+Obecny stan prawny w omawianym zakresie nie przystaje do stosowanych rozwiązań w zakresie pobierania
+składników krwi metodą aferezy. Należy bowiem zaznaczyć, że w przypadku składników krwi pobranych metodą
+aferezy automatycznej (przy użyciu separatora komórkowego), zależnie od typu stosowanego separatora
+komórkowego, końcowa ilość składnika krwi może być różna. Jedynie w przypadku koncentratu krwinek
+czerwonych pobranych metodą aferezy (KKCz-Af) nie ma wątpliwości podczas przeliczania (2 jednostki KKCz-Af
+równają się jednemu litrowi krwi pełnej (KP)), stąd rekomendowanym jest odniesienie się do dawki terapeutycznej.
+Jeżeli podczas jednego pobrania koncentratu krwinek płytkowych pobranych metodą aferezy (KKP-Af) udaje się
+uzyskać dwie dawki terapeutyczne, wówczas końcowa objętość składnika jest relatywnie większa niż przy jednej
+dawce, jednak jak wyżej wspomniano, przeliczanie objętości nie jest w tym przypadku dobrym rozwiązaniem.
+Uzyskanie podczas jednego pobrania dwóch dawek terapeutycznych KKP-Af to przede wszystkim korzyść dla
+pacjenta, a także uznanie dla dawcy i większa przejrzystość zasad przeliczania ilości składników krwi. Jeżeli
+pobierane KKP-Af od jednego dawcy będzie przeliczane tak samo w przypadku pobrania jednej dawki
+terapeutycznej oraz dwóch dawek terapeutycznych, to taka sytuacja może zniechęcać dawców do pobierania dwóch
+dawek terapeutycznych, co z kolei pogorszy dostępność KKP-Af.
+ 2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Rozwiązaniem wprowadzanym w projekcie nowelizacji ustawy z dnia 22 sierpnia 1997 r. o publicznej służbie krwi
+jest przeniesienie przepisów dotyczących przeliczania oddanych składników krwi na krew pełną z poziomu regulacji
+ustawowej na poziom aktu wykonawczego, w celu bardziej elastycznego określania przelicznika donacji składników
+krwi oddanych podczas zabiegów aferezy oraz w celu objęcia wszystkich możliwych typów donacji podczas aferezy.
+Dla realizacji tego celu minister właściwy do spraw zdrowia, wydając rzeczone rozporządzenie, będzie kierował się
+potrzebą zapewnienia prawidłowego i jednolitego przeliczania donacji składników krwi na krew pełną, jak również
+będzie musiał uwzględnić rozwój technologii w medycynie i nowe typy urządzeń do pobierania składników krwi (w
+tym regulacją objęta zostanie m.in. wspomniana możliwość pobrania podczas jednej aferezy więcej niż jednego
+składnika krwi).
+W związku z szybkim postępem technologicznym w służbie krwi wskazane jest umieszczanie szczegółowych
+regulacji w zakresie przeliczania donacji składników krwi w akcie normatywnym niższej rangi, podobnie jak w
+prawodawstwie Unii Europejskiej, gdzie szczegóły techniczne są umieszczone w „Guide to the preparation, use and
+quality assurance of Blood Components”, który będzie załącznikiem do rozporządzenia Parlamentu Europejskiego i
+Rady w sprawie norm jakości i bezpieczeństwa substancji pochodzenia ludzkiego przeznaczonych do zastosowania
+u ludzi oraz uchylającego dyrektywy 2002/98/WE i 2004/23/WE. Zgodnie z przekazywanymi aktualnymi
+informacjami z Komisji Europejskiej osiągnięto porozumienie polityczne w sprawie projektu tego rozporządzenia
+pomiędzy Parlamentem Europejskim a Radą Europy. Parlament Europejski i Rada będą teraz musiały formalnie
+przyjąć nowe rozporządzenie, które zacznie obowiązywać 3 lata po jego przyjęciu.
+Zaproponowane rozwiązanie jest możliwe do zastosowania w praktyce we wszystkich centrach krwiodawstwa i
+krwiolecznictwa w jednolity sposób oraz pozwala na docenienie dawcy i zachęca większą liczbę dawców do
+poddania się tym zabiegom.
+Podkreślić należy, że algorytmy przeliczania składników krwi oraz powiązane z tym tytuły i oznaczenia
+przysługujące honorowym krwiodawcom wielokrotnie ulegały zmianom.
+Na podstawie uchwały nr 34/93 z dnia 4 czerwca 1993 r. Prezydium Zarządu Głównego Polskiego Czerwonego
+Krzyża zostały przyjęte Zasady Wyróżniania i Odznaczania Honorowych Dawców Krwi Polskiego Czerwonego
+Krzyża, które zostały opracowane w oparciu o ustawę z dnia 16 października 1992 r. o orderach i odznaczeniach (Dz.
+U. z 2023 r. poz. 2053) oraz uchwałę nr 148 Rady Ministrów z dnia 11 sierpnia 1969 r. w sprawie akcji honorowego
+krwiodawstwa (M.P. poz. 276). Zgodnie z informacjami uzyskanymi z Polskiego Czerwonego Krzyża (od
+ówczesnych Zasłużonych Krwiodawców i działaczy Rady Krwiodawstwa) centra krwiodawstwa przyjmowały, że
+jeden litr osocza równa się jednemu litrowi krwi pełnej. Następnie uznano to za niesprawiedliwe dla krwiodawców,
+gdyż prowadziło to jednocześnie do dwóch skrajnych sytuacji – dawcom osocza przeliczano donacje w sposób, dzięki
+któremu ilość oddanej przez nich krwi (po przeliczeniu) przyrastała w sposób nieproporcjonalny w stosunku do
+innych donacji, a z kolei dawcom płytek i krwi pełnej wskazany sposób przeliczania donacji deprecjonował ich
+rzeczywiste dawstwo. W tej sytuacji w 1998 r. rozporządzeniem Ministra Zdrowia i Opieki Społecznej z dnia 14
+września 1998 r. w sprawie równoważnej ilości innych składników krwi, których oddanie uprawnia dawcę krwi do
+tytułów i odznak honorowych (Dz. U. poz. 824), wprowadzono po raz pierwszy (na poziomie aktu prawnego prawa
+powszechnie obowiązującego) odpowiedni przelicznik. W 2006 r., rozporządzeniem Ministra Zdrowia z dnia 19
+stycznia 2006 r. w sprawie równoważnej ilości innych składników krwi, których oddanie umożliwia dawcy krwi
+otrzymanie tytułów i odznak honorowych (Dz. U. poz. 163), zrównano sposób przeliczania donacji kobiet i
+mężczyzn. Polski Czerwony Krzyż dostosowywał swoje regulacje do tych aktów prawnych. Obecnie sposób
+przeliczenia równoważnych składników krwi – jak już wskazano wcześniej – określa art. 8 ustawy z dnia 22 sierpnia
+1997 r. o publicznej służbie krwi.
+Funkcjonująca obecnie regulacja na poziomie ustawowym – mając na uwadze fakt, że jest to akt prawny, którego
+nowelizacja jest procesem czasochłonnym – znacząco utrudnia uwzględnianie postępu naukowo-technicznego,
+nowych metod pobierania krwi i jej składników oraz jej preparatyki w stosowaniu adekwatnych przeliczników.
+Samego uaktualnienia art. 8 ustawy z dnia 22 sierpnia 1997 r. o publicznej służbie krwi nie można zatem traktować
+jako rozwiązania, które będzie z jednej strony rozwiązaniem systemowym, i z drugiej – spełni w ogóle swój cel. W
+
+                                                        2
+związku z tym zasadnym jest, aby projektowany przepis ustawy miał możliwie ogólny charakter i umożliwił
+uwzględnienie różnych kombinacji oddawanych składników krwi, ich ilość i metody pobierania przy użyciu
+określonej aparatury oraz dalszej ich preparatyki, jak również będzie gwarantował możliwość korygowania regulacji
+w związku z obserwowanym rozwojem technologii w medycynie i pojawianiem się na rynku nowych typów
+urządzeń do pobierania składników krwi. Przedmiotowe rozwiązanie legislacyjne wpłynie również pozytywnie na
+wizerunek publicznej służby krwi w aspekcie „sprawiedliwości” dla dawstwa krwi – objęcie wszystkich możliwych
+rodzajów donacji jednolitym sposobem przeliczania składników krwi na krew pełną, a także możliwie sprawne,
+wynikające z potrzeb, aktualizowanie tego przeliczania pozwoli na właściwe i równe uznanie wysiłku dawców krwi
+oraz maksymalne wyeliminowanie wśród nich poczucia niesprawiedliwości.
+ 3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+W krajach Unii Europejskiej oraz Europejskiego Obszaru Gospodarczego przyjęto również rozwiązania legislacyjne
+w zakresie przedmiotowym projektu ustawy. Kwestia przeliczania oddanych składników krwi na krew pełną nie
+jest ujęta w dyrektywach unijnych, tzn. każde państwo reguluje powyższe we własnym zakresie.
+ 4. Podmioty, na które oddziałuje projekt
+         Grupa           Wielkość                     Źródło danych                         Oddziaływanie
+regionalne centra       21            rozporządzenie Ministra Zdrowia i Opieki      element techniczny działań
+krwiodawstwa i                        Społecznej z dnia 23 grudnia 1998 r. w        zmierzający do jednolitego
+krwiolecznictwa                       sprawie szczegółowego trybu                   przeliczania           donacji
+(RCKIK)                               przekształcania wojewódzkich stacji           składników   krwi   na   krew
+                                      krwiodawstwa, rejonowych stacji               pełną,    co    wpłynie    na
+                                      krwiodawstwa i punktów krwiodawstwa w         zwiększenie       możliwości
+                                                                                    pobierania    krwi     i   jej
+                                      regionalne centra krwiodawstwa i
+                                                                                    składników
+                                      krwiolecznictwa (Dz. U. poz. 1261)
+
+
+Centrum                1            rozporządzenie Ministra Spraw                  element techniczny działań
+Krwiodawstwa i                      Wewnętrznych i Administracji z dnia 20         zmierzający do jednolitego
+Krwiolecznictwa                     kwietnia 2004 r. w sprawie utworzenia          przeliczania        donacji
+Ministerstwa Spraw                  Centrum Krwiodawstwa i Krwiolecznictwa         składników krwi na krew
+Wewnętrznych i                      Ministerstwa Spraw Wewnętrznych i              pełną,    co  wpłynie   na
+Administracji (CKiK                 Administracji (Dz. U. poz. 1282)               zwiększenie      możliwości
+MSWiA)                                                                             pobierania   krwi   i   jej
+                                                                                   składników
+
+Wojskowe Centrum       1            zarządzenie nr 26/MON Ministra Obrony          element techniczny działań
+Krwiodawstwa i                      Narodowej z 24 sierpnia 2018 r. w sprawie      zmierzający do jednolitego
+Krwiolecznictwa                     nadania statutu Wojskowemu Centrum             przeliczania        donacji
+(WCKiK)                             Krwiodawstwa i Krwiolecznictwa                 składników krwi na krew
+                                    Samodzielnemu Publicznemu Zakładowi            pełną,    co  wpłynie   na
+                                    Opieki Zdrowotnej w Warszawie (Dz. Urz.        zwiększenie      możliwości
+                                    MON z 2018 r. poz. 129)                        pobierania   krwi   i   jej
+                                                                                   składników
+
+
+dawcy krwi             ok. 600      roczne sprawozdanie z działalności             budowanie poczucia
+                       tys. osób    publicznej służby krwi                         sprawiedliwego i
+                                                                                   adekwatnego do ponoszonego
+                                                                                   wysiłku (związanego z
+                                                                                   różnymi metodami pobierania
+                                                                                   składników krwi), co będzie
+                                                                                   miało wpływ na bardziej
+                                                                                   przejrzyste dla dawców
+                                                                                   zasady przeliczania
+                                                                                   składników krwi na krew
+                                                                                   pełną a tym samym
+                                                                                   uzyskiwanie litrażu
+
+                                                        3
+                                                                                 uprawniającego do
+                                                                                 przyznawania odznak
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Nie prowadzono konsultacji poprzedzających przygotowanie projektu (tzw. pre-konsultacji).
+Równolegle z uzgodnieniami z członkami Rady Ministrów projekt został przesłany do opiniowania i konsultacji
+publicznych na okres 30 dni do:
+    1)      Prezesa Narodowego Funduszu Zdrowia;
+    2)      Głównego Inspektora Sanitarnego;
+    3)      Głównego Inspektora Farmaceutycznego;
+    4)      Prokuratorii Generalnej Rzeczypospolitej Polskiej;
+    5)      Naczelnej Rady Lekarskiej;
+    6)      Naczelnej Rady Pielęgniarek i Położnych;
+    7)      Naczelnej Rady Aptekarskiej;
+    8)      Krajowej Rady Diagnostów Laboratoryjnych;
+    9)      Ogólnopolskiego Związku Zawodowego Lekarzy;
+    10)     Ogólnopolskiego Związku Zawodowego Pielęgniarek i Położnych;
+    11)     Federacji Związków Pracodawców Ochrony Zdrowia „Porozumienie Zielonogórskie”;
+    12)     Ogólnopolskiego Porozumienia Związków Zawodowych;
+    13)     Forum Związków Zawodowych;
+    14)     Pracodawców Rzeczypospolitej Polskiej;
+    15)     Związku Przedsiębiorców i Pracodawców;
+    16)     Federacji Przedsiębiorców Polskich;
+    17)     Instytutu Praw Pacjenta i Edukacji Zdrowotnej;
+    18)     Federacji Pacjentów Polskich;
+    19)     Sekretariatu Ochrony Zdrowia KK–NSZZ „Solidarność”;
+    20)     KK NSZZ „Solidarność 80”;
+    21)     Konfederacji Lewiatan;
+    22)     Związku Rzemiosła Polskiego;
+    23)     Związku Pracodawców Business Centre Club;
+    24)     Rady Dialogu Społecznego;
+    25)     Konsultanta Krajowego w dziedzinie transfuzjologii klinicznej;
+    26)     Konsultanta Krajowego w dziedzinie hematologii;
+    27)     Instytutu Hematologii i Transfuzjologii;
+    28)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku;
+    29)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Bydgoszczy;
+    30)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Gdańsku;
+    31)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Kaliszu;
+    32)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Katowicach;
+    33)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Kielcach;
+    34)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Krakowie;
+    35)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Lublinie;
+    36)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Łodzi;
+    37)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Olsztynie;
+    38)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Opolu;
+    39)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Poznaniu;
+    40)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Raciborzu;
+    41)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa im. dr Konrada Vietha w Radomiu;
+    42)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Rzeszowie;
+
+
+                                                      4
+      43)    Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa im. Jana Pawła II w Słupsku;
+      44)    Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Szczecinie;
+      45)    Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Wałbrzychu;
+      46)    Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Warszawie;
+      47)    Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa im. prof. dr hab. Tadeusza Dorobisza we
+             Wrocławiu;
+    48)      Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Zielonej Górze;
+    49)      Wojskowego Centrum Krwiodawstwa i Krwiolecznictwa;
+    50)      Centrum Krwiodawstwa i Krwiolecznictwa MSWiA;
+    51)      Krajowej Rady do Spraw Krwiodawstwa i Krwiolecznictwa;
+    52)      Związku Pracodawców Ratownictwa Medycznego SP-ZOZ;
+    53)      Polskiej Unii Szpitali Klinicznych;
+    54)      Polskiej Federacji Szpitali;
+    55)      Rzecznika Praw Pacjenta;
+    56)      Polskiego Towarzystwa Koderów Medycznych;
+    57)      Polskiego Towarzystwa Prawa Medycznego;
+    58)      Zarządu Głównego Polskiego Czerwonego Krzyża;
+    59)      Porozumienia Pracodawców Ochrony Zdrowia;
+    60)      Porozumienia Łódzkiego – Łódzkiego Związku Pracodawców Ochrony Zdrowia;
+    61)      Polskiej Federacji Pracodawców Prywatnych Ochrony Zdrowia.
+Projekt, stosownie do przepisów ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2017 r. poz. 248), został opublikowany na stronie internetowej Ministerstwa Zdrowia oraz
+udostępniony w Biuletynie Informacji Publicznej Ministerstwa Zdrowia wraz z przekazaniem projektu do uzgodnień
+z członkami Rady Ministrów.
+Projekt został również udostępniony w Biuletynie Informacji Publicznej Rządowego Centrum Legislacji, zgodnie
+z uchwałą nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z
+2022 r. poz. 348).
+Wyniki opiniowania i konsultacji publicznych zostały przedstawione w raporcie z konsultacji publicznych i
+opiniowania stanowiącym załącznik do oceny skutków regulacji.
+6. Wpływ na sektor finansów publicznych
+
+                                            Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                   0      1    2      3     4     5     6      7    8     9     10 Łącznie
+                                                                                                      (0–10)
+Dochody ogółem                     0                                                                     0
+Budżet państwa
+JST
+Pozostałe jednostki (oddzielnie)
+Wydatki ogółem                     0                                                                      0
+Budżet państwa
+JST
+Pozostałe jednostki (oddzielnie)
+Saldo ogółem                       0                                                                      0
+Budżet państwa
+JST
+Pozostałe jednostki (oddzielnie)
+
+
+                                                      5
+Źródła finansowania       Projekt ustawy nie wywoła żadnych skutków.
+Dodatkowe informacje, Nie przewiduje się dodatkowych skutków finansowych dla jednostek sektora finansów
+w tym wskazanie           publicznych, w tym w szczególności dla budżetu państwa w części 46 – Zdrowie, planu
+źródeł danych i           finansowego Narodowego Funduszu Zdrowia, jednostek samorządu terytorialnego,
+przyjętych do obliczeń RCKiK oraz innych podmiotów leczniczych, w zakresie przedmiotu regulacji ustawy.
+założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców,
+    oraz na rodzinę, obywateli i gospodarstwa domowe
+                                                      Skutki
+Czas w latach od wejścia w życie zmian          0          1          2         3          5          10     Łącznie
+                                                                                                              (0–10)
+W ujęciu           duże przedsiębiorstwa
+pieniężnym         sektor mikro-, małych i
+(w mln zł,         średnich
+ceny stałe z       przedsiębiorstw
+2023 r.)           rodzina, obywatele oraz
+                   gospodarstwa domowe
+W ujęciu           duże przedsiębiorstwa    Projekt ustawy nie będzie miał wpływu na sektor dużych przedsiębiorstw.
+niepieniężnym      sektor mikro-, małych i Projekt ustawy nie będzie miał wpływu na sektor mikro-, małych i średnich
+                   średnich                 przedsiębiorstw.
+                   przedsiębiorstw
+                   rodzina, obywatele oraz Projekt ustawy będzie miał wpływ na sytuację dawców krwi i jej
+                   gospodarstwa domowe      składników poprzez docenienie dawcy i zachęcenie większej liczby
+                                            dawców do poddania się zabiegom oddania składników krwi.
+                   Osoby niepełnosprawne Projekt ustawy nie będzie miał wpływu na sytuację ekonomiczną i
+                                            społeczną osób niepełnosprawnych.
+                  Osoby starsze             Projekt ustawy nie będzie miał wpływu na sytuację ekonomiczną i
+                                            społeczną osób starszych.
+Dodatkowe informacje,
+w tym wskazanie
+źródeł danych i
+przyjętych do obliczeń
+założeń
+ 8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+    nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie          tak
+wymaganymi przez UE (szczegóły w odwróconej          nie
+tabeli zgodności).                                   nie dotyczy
+
+   zmniejszenie liczby dokumentów                             zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                               zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                      wydłużenie czasu na załatwienie sprawy
+   inne:                                                      inne:
+
+Wprowadzane obciążenia są przystosowane do ich                tak
+elektronizacji.                                               nie
+                                                              nie dotyczy
+
+ 9. Wpływ na rynek pracy
+ Zaproponowane rozwiązania nie będą miały wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+
+   środowisko naturalne                     demografia                                informatyzacja
+   sytuacja i rozwój regionalny             mienie państwowe                          zdrowie
+   sądy powszechne, administracyjne         inne:
+lub wojskowe
+
+
+                                                        6
+                        Zaproponowane rozwiązanie dotyczące przeniesienia na poziom rozporządzenia regulacji
+                        w zakresie przeliczania składników krwi oddanych podczas zabiegów aferezy, w jednolity
+Omówienie wpływu
+                        sposób, wg spójnych i obecnie stosowanych przeliczników donacji, pozwoli na docenienie
+                        dawcy i zachęci większą liczbę dawców do poddania się tym zabiegom.
+11. Planowane wykonanie przepisów aktu prawnego
+Projekt ustawy ma wejść w życie po upływie 14 dni od dnia ogłoszenia.
+
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Nie dotyczy.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Raport z konsultacji publicznych i opiniowania.
+
+
+
+
+                                                       7
+                                         RAPORT Z OPINIOWANIA I KONSULTACJI PUBLICZNYCH
+                               DO PROJEKTU USTAWY O ZMIANIE USTAWY O PUBLICZNEJ SŁUŻBIE KRWI (UD15)
+
+
+Zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2022 r. poz. 348) projekt ustawy został
+zamieszczony w Biuletynie Informacji Publicznej Rządowego Centrum Legislacji w zakładce Rządowy Proces Legislacyjny.
+
+W trybie art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248) żaden z podmiotów nie zgłosił zainteresowania
+pracami nad projektem ustawy.
+
+Równolegle z uzgodnieniami z członkami Rady Ministrów projekt został przesłany do opiniowania i konsultacji publicznych do: Prezesa Narodowego Funduszu Zdrowia, Głównego
+Inspektora Sanitarnego, Głównego Inspektora Farmaceutycznego, Prokuratorii Generalnej Rzeczpospolitej Polskiej, Instytutu Praw Pacjenta i Edukacji Zdrowotnej, Rady Dialogu
+Społecznego, Krajowej Rady do Spraw Krwiodawstwa i Krwiolecznictwa, Rzecznika Praw Pacjenta, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku,
+Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Bydgoszczy, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Gdańsku, Regionalnego Centrum
+Krwiodawstwa i Krwiolecznictwa w Kaliszu, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Katowicach, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w
+Kielcach, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Krakowie, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Lublinie, Regionalnego Centrum
+Krwiodawstwa i Krwiolecznictwa w Łodzi, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Olsztynie, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Opolu,
+Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Poznaniu, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Raciborzu, Regionalnego Centrum
+Krwiodawstwa i Krwiolecznictwa im. dr Konrada Vietha w Radomiu, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Rzeszowie, Regionalnego Centrum Krwiodawstwa
+i Krwiolecznictwa im. Jana Pawła II w Słupsku, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Szczecinie, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa
+w Wałbrzychu, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Warszawie, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa im. prof. dr hab. Tadeusza
+Dorobisza we Wrocławiu, Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Zielonej Górze, Wojskowego Centrum Krwiodawstwa i Krwiolecznictwa, Centrum
+Krwiodawstwa i Krwiolecznictwa MSWiA.
+
+Ponadto przedmiotowy projekt został przesłany do:
+   1) samorządów zawodowych: Naczelnej Rady Lekarskiej, Naczelnej Rady Pielęgniarek i Położnych, Naczelnej Rady Aptekarskiej, Związku Pracodawców Ratownictwa
+        Medycznego SP-ZOZ, Polskiego Towarzystwa Koderów Medycznych;
+   2) związków zawodowych oraz stowarzyszeń reprezentujących zawody medyczne: Krajowej Rady Diagnostów Laboratoryjnych, Ogólnopolskiego Związku Zawodowego
+        Lekarzy, Ogólnopolskiego Związku Zawodowego Pielęgniarek i Położnych, Federacji Związków Pracodawców Ochrony Zdrowia „Porozumienie Zielonogórskie”,
+        Ogólnopolskiego Porozumienia Związków Zawodowych, Forum Związków Zawodowych, Pracodawców Rzeczypospolitej Polskiej, Konfederacji „Lewiatan”, Business
+        Centre Club – Związek Pracodawców, Związku Przedsiębiorców i Pracodawców, Sekretariatu Ochrony Zdrowia KK–NSZZ „Solidarność”, KK NSZZ „Solidarność 80”,
+        Porozumienia Pracodawców Ochrony Zdrowia, Porozumienia Łódzkiego – Łódzkiego Związku Pracodawców Ochrony Zdrowia, Polskiej Federacji Pracodawców
+        Prywatnych Ochrony Zdrowia;
+   3) fundacji, federacji i stowarzyszeń: Stowarzyszenia Życie po Przeszczepie, Federacja Związków Pracodawców Ochrony Zdrowia „Porozumienie Zielonogórskie”,
+        Federacji Przedsiębiorców Polskich, Związku Rzemiosła Polskiego, Federacji Pacjentów Polskich, Polskiej Unii Szpitali Klinicznych, Stowarzyszenia Menedżerów
+        Ochrony Zdrowia, Ogólnopolskiego Stowarzyszenia Szpitali Prywatnych, Polskiej Federacji Szpitali, Zarządu Głównego Polskiego Czerwonego Krzyża, Polskiego
+        Towarzystwa Prawa Medycznego, Związku Pracodawców Business Centre Club;
+   4) Konsultanta Krajowego w dziedzinie transfuzjologii klinicznej, Konsultanta Krajowego w dziedzinie hematologii, Instytutu Hematologii i Transfuzjologii.
+
+W ramach konsultacji publicznych i opiniowania nie zgłoszono uwag.
+
+
+
+
+                                                                                      1
+                                       RAPORT Z OPINIOWANIA I KONSULTACJI PUBLICZNYCH
+                             DO PROJEKTU USTAWY O ZMIANIE USTAWY O PUBLICZNEJ SŁUŻBIE KRWI (UD15)
+
+
+
+Informacja o braku uwag:
+    1) Federacja Związków Pracodawców Ochrony Zdrowia „Porozumienie Zielonogórskie”;
+    2) Główny Inspektorat Sanitarny;
+    3) Krajowa Rada Diagnostów Laboratoryjnych;
+    4) Regionalne Centrum Krwiodawstwa i Krwiolecznictwa im. dr Konrada Vietha w Radomiu;
+    5) Regionalne Centrum Krwiodawstwa i Krwiolecznictwa w Rzeszowie;
+    6) Regionalne Centrum Krwiodawstwa i Krwiolecznictwa we Wrocławiu;
+    7) Regionalne Centrum Krwiodawstwa i Krwiolecznictwa w Poznaniu.
+
+
+
+
+                                                                               2
+                                                                                                     Projekt
+                                     ROZPORZĄDZENIE
+
+                                   M I N I S T R A Z D R O W I A 1)
+
+                                                    z dnia
+
+     w sprawie ilości oddanych składników krwi odpowiadających litrowi oddanej krwi
+
+
+        Na podstawie art. 8 ustawy z dnia 22 sierpnia 1997 r. o publicznej służbie krwi (Dz. U. z
+2024 r. poz. 281 i ...) zarządza się, co następuje:
+
+       § 1. Określa się ilość oddanych składników krwi odpowiadających litrowi oddanej krwi,
+które uprawniają do tytułów i odznak „Zasłużony Honorowy Dawca Krwi” oraz „Honorowy
+Dawca Krwi – Zasłużony dla Zdrowia Narodu”, stanowiącą załącznik do rozporządzenia.
+
+       § 2. Rozporządzenie wchodzi w życie z dniem następującym po dniu ogłoszenia.
+
+
+                                                                     MINISTER ZDROWIA
+
+
+
+
+1)
+     Minister Zdrowia kieruje działem administracji rządowej – zdrowie, na podstawie § 1 ust. 2 rozporządzenia
+     Prezesa Rady Ministrów z dnia 18 grudnia 2023 r. w sprawie szczegółowego zakresu działania Ministra
+     Zdrowia (Dz. U. poz. 2704).
+                                                                        –2–
+
+
+                                                                                                      Załącznik
+                                                                                                      do rozporządzenia
+                                                                                                      Ministra Zdrowia
+                                                                                                      z dnia
+                                                                                                      (Dz. U. poz. )
+
+   Ilość oddanych składników krwi odpowiadających litrowi oddanej krwi, które uprawniają do tytułów i odznak „Zasłużony Honorowy Dawca
+                                   Krwi” oraz „Honorowy Dawca Krwi – Zasłużony dla Zdrowia Narodu”
+
+                                                              osocze i krwinki                               krwinki czerwone i
+                                          krwinki                płytkowe                    krwinki          krwinki płytkowe
+                         osocze                                                                                                              krwinki
+                                         płytkowe                        krwinki            czerwone         krwinki    krwinki
+                                                            osocze                                                                            białe
+                                                                        płytkowe                            czerwone płytkowe
+                          ≤600              ≤500             ≤300             ≤500             ≤300            ≥200           ≥250            ≥150
+donacja:
+                     krew pełna:       krew pełna:       krew pełna: 650                  krew pełna:       krew pełna: 1000              krew pełna:
+                     200               500                                                500                                             2000
+
+                          >600              >500             >300             >500             >300
+donacja:
+                     krew pełna:       krew pełna:       krew pełna: 1000                 krew pełna:
+                     250               1000                                               1000
+
+
+    Uwagi:
+    1. Ilości krwi i jej składników podane w mililitrach.
+    2. W przypadku niedokończenia donacji lub uzyskania mniejszej ilości składnika krwi, należy przeliczyć ten składnik na krew pełną jak dla całej
+       donacji według powyższego algorytmu.
+    3. W przypadku uzyskania mniejszych ilości jednego ze składników, tj. osocza albo krwinek płytkowych przy jednoczesnym oddawaniu osocza i
+       krwinek płytkowych, należy przeliczyć tę donację na krew pełną w objętości 1000 ml.
+                                             –3–
+
+
+                                       UZASADNIENIE
+
+     Projekt rozporządzenia stanowi realizację upoważnienia zawartego w art. 8 ustawy z dnia
+22 sierpnia 1997 r. o publicznej służbie krwi (Dz. U. z 2024 r. poz. 281 i ...), zgodnie z którym
+minister właściwy do spraw zdrowia określi, w drodze rozporządzenia, ilość oddanych
+składników krwi odpowiadających litrowi oddanej krwi, które uprawniają do tytułów i odznak
+„Zasłużony Honorowy Dawca Krwi” oraz „Honorowy Dawca Krwi – Zasłużony dla Zdrowia
+Narodu”, mając na celu zapewnienie prawidłowego i jednolitego przeliczania donacji
+składników krwi na krew pełną, przy uwzględnieniu rozwoju technologii w medycynie i
+nowych typów urządzeń do pobierania składników krwi.
+
+     Ustawą z dnia ... o zmianie ustawy o publicznej służbie krwi (Dz. U. poz. ...), dokonano
+zmiany art. 8 ustawy z dnia 22 sierpnia 1997 r. o publicznej służbie krwi, która polegała na
+przeniesieniu przepisów dotyczących przeliczania oddanych składników krwi na krew pełną z
+poziomu regulacji ustawowej na poziom aktu wykonawczego, w celu bardziej elastycznego
+określania przelicznika donacji składników krwi oddanych podczas zabiegów aferezy oraz w
+celu objęcia wszystkich możliwych typów donacji podczas aferezy.
+
+     Ilość oddanych składników krwi odpowiadających litrowi oddanej krwi, które uprawniają
+do tytułów i odznak „Zasłużony Honorowy Dawca Krwi” oraz „Honorowy Dawca Krwi –
+Zasłużony dla Zdrowia Narodu”, została określona w załączniku do projektu rozporządzenia,
+w czytelnej formie tabelarycznej, w sposób obejmujący wszystkie możliwość donacji (w tym
+te, podczas których pobieranych jest kilka składników krwi). Treść załącznika odpowiada
+sformułowanym przez ustawodawcę wytycznym, którymi są prawidłowe i jednolite
+przeliczanie donacji składników krwi na krew pełną, przy uwzględnieniu rozwoju technologii
+w medycynie i nowych typów urządzeń do pobierania składników krwi. Zaproponowane
+rozwiązanie dotyczące przeliczania składników krwi oddanych podczas zabiegów aferezy jest
+możliwe do zastosowania w praktyce we wszystkich centrach krwiodawstwa i krwiolecznictwa
+w jednolity sposób i przyczyni się do docenienia dawcy oraz zachęcenia większej liczby
+dawców do poddania się tym zabiegom.
+
+     Zgodnie z art. 4 ust. 2 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów normatywnych i
+niektórych innych aktów prawnych (Dz. U. z 2019 r. poz. 1461) w uzasadnionych przypadkach
+akty normatywne mogą wchodzić w życie w terminie krótszym niż 14 dni, a jeżeli ważny
+interes państwa wymaga natychmiastowego wejścia w życie aktu normatywnego i zasady
+demokratycznego państwa prawnego nie stoją temu na przeszkodzie, dniem wejścia w życie
+                                            –4–
+
+
+może być dzień ogłoszenia tego aktu w dzienniku urzędowym. Wskazany termin wejścia w
+życie projektowanego rozporządzenia z dniem następującym po dniu ogłoszenia podyktowany
+jest koniecznością uregulowania uspójnionego przelicznika donacji składników krwi na
+krewpełną.
+
+     Projekt rozporządzenia nie zawiera przepisów technicznych, w związku z czym nie
+podlega notyfikacji w trybie przewidzianym w przepisach rozporządzenia Rady Ministrów
+z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego systemu notyfikacji
+norm i aktów prawnych (Dz. U. z 2002 r. poz. 2039 oraz z 2004 r. poz. 597).
+
+     Projekt aktu nie zawiera wymogów nakładanych na usługodawców podlegających
+notyfikacji, o której mowa w art. 15 ust. 7 i art. 39 ust. 5 dyrektywy 2006/123/WE Parlamentu
+Europejskiego i Rady z dnia 12 grudnia 2006 r. dotyczącej usług na rynku wewnętrznym (Dz.
+Urz. UE L 376 z 27.12.2006, str. 36).
+
+     Rozporządzenie nie podlega obowiązkowi przedstawienia właściwym organom
+i instytucjom Unii Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu
+uzyskania opinii, dokonania konsultacji albo uzgodnienia.
+
+     Rozporządzenie pozostaje bez wpływu na sektor mikro, małych i średnich
+przedsiębiorstw.
+
+     Rozporządzenie pozostaje bez wpływu na sytuację ekonomiczną i społeczną rodziny,
+a także osób niepełnosprawnych oraz osób starszych.
+
+     Projekt rozporządzenia nie wywiera wpływu na obszar danych osobowych. W związku z
+tym, nie przeprowadzono oceny skutków ochrony danych osobowych, o której mowa w art. 35
+ust. 1 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016
+r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w
+sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne
+rozporządzenie o ochronie danych) (Dz. Urz. UE L 119 z 04.05.2016, str. 1, z późn. zm.).
+
+     Projektowane regulacje nie są sprzeczne z prawem Unii Europejskiej.
+
+     Jednocześnie należy wskazać, że nie ma możliwości podjęcia alternatywnych w stosunku
+do rozporządzenia środków umożliwiających osiągnięcie zamierzonego celu.
+                                                     –5–
+
+Nazwa projektu                                                     Data sporządzenia
+Rozporządzenie Ministra Zdrowia w sprawie ilości oddanych 19.06.2024 r.
+składników krwi odpowiadających litrowi oddanej krwi
+                                                                   Źródło
+Ministerstwo wiodące i ministerstwa współpracujące                 Art. 8 ustawy z dnia 22 sierpnia 1997 r.
+Ministerstwo Zdrowia                                               o publicznej służbie krwi (Dz.U. z
+                                                                   2024 r. poz. 281 i ...)
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza
+Stanu lub Podsekretarza Stanu                                      Nr w Wykazie prac legislacyjnych
+Izabela Leszczyna – Minister Zdrowia                               Ministra Zdrowia
+                                                                   MZ …..
+Kontakt do opiekuna merytorycznego projektu
+Anna Mach-But, starszy specjalista w Wydziale Transplantologii
+i Krwiolecznictwa, Departament Lecznictwa, e-mail: a.but@mz.gov.pl
+                            OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Ustawą z dnia ... o zmianie ustawy o publicznej służbie krwi (Dz. U. poz. ...) dokonano zmiany art. 8 ustawy z
+dnia 22 sierpnia 1997 r. o publicznej służbie krwi, która polegała na przeniesieniu przepisów dotyczących
+przeliczania oddanych składników krwi na krew pełną z poziomu regulacji na poziom aktu wykonawczego, w celu
+bardziej elastycznego określania przelicznika donacji składników krwi oddanych podczas zabiegów aferezy oraz
+w celu objęcia wszystkich możliwych typów donacji podczas aferezy.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Ilość oddanych składników krwi odpowiadających litrowi oddanej krwi, które uprawniają do tytułów i odznak
+„Zasłużony Honorowy Dawca Krwi” oraz „Honorowy Dawca Krwi – Zasłużony dla Zdrowia Narodu”, została
+określona w załączniku do projektu rozporządzenia, w czytelnej formie tabelarycznej, w sposób obejmujący
+wszystkie możliwość donacji (w tym te, podczas których pobieranych jest kilka składników krwi). Treść załącznika
+odpowiada sformułowanym przez ustawodawcę wytycznym, którymi są prawidłowe i jednolite przeliczanie donacji
+składników krwi na krew pełną, przy uwzględnieniu rozwoju technologii w medycynie i nowych typów urządzeń do
+pobierania składników krwi. Zaproponowane rozwiązanie dotyczące przeliczania składników krwi oddanych
+podczas zabiegów aferezy jest możliwe do zastosowania w praktyce we wszystkich centrach krwiodawstwa i
+krwiolecznictwa w jednolity sposób i przyczyni się do docenienia dawcy oraz zachęcenia większej liczby dawców
+do poddania się tym zabiegom.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Z uwagi na zakres regulowanych spraw, pozostający zasadniczo poza zakresem regulacji prawa Unii Europejskiej,
+odstąpiono od przeprowadzenia porównania zasad przeliczania składników krwi na krew pełną w innych krajach
+członkowskich.
+ 4. Podmioty, na które oddziałuje projekt
+        Grupa           Wielkość                   Źródło danych                           Oddziaływanie
+regionalne centra      21           rozporządzenie Ministra Zdrowia i Opieki       element techniczny działań
+krwiodawstwa i                      Społecznej z dnia 23 grudnia 1998 r. w         zmierzający do jednolitego
+krwiolecznictwa                     sprawie szczegółowego trybu                    przeliczania donacji
+(RCKIK)                             przekształcania wojewódzkich stacji            składaków krwi na krew
+                                    krwiodawstwa, rejonowych stacji                pełną, co wpłynie na
+                                    krwiodawstwa i punktów krwiodawstwa w          zwiększenie możliwości
+                                                                                   pobierania krwi i jej
+                                    regionalne centra krwiodawstwa i
+                                                                                   składników
+                                    krwiolecznictwa (Dz. U. poz. 1261)
+
+Centrum                1            rozporządzenie Ministra Spraw                 element techniczny działań
+Krwiodawstwa i                      Wewnętrznych i Administracji z dnia 20        zmierzający do jednolitego
+Krwiolecznictwa                     kwietnia 2004 r. w sprawie utworzenia         przeliczania donacji
+Ministerstwa Spraw                  Centrum Krwiodawstwa i Krwiolecznictwa        składaków krwi na krew
+Wewnętrznych i                      Ministerstwa Spraw Wewnętrznych i             pełną, co wpłynie na
+Administracji (CKiK                 Administracji (Dz. U. poz. 1282)              zwiększenie możliwości
+MSWiA)                                                                            pobierania krwi i jej
+                                                                                  składników
+                                                    –6–
+
+Wojskowe Centrum       1           zarządzenie nr 26/MON Ministra Obrony         element techniczny działań
+Krwiodawstwa i                     Narodowej z 24 sierpnia 2018 r. w sprawie     zmierzający do jednolitego
+Krwiolecznictwa                    nadania statutu Wojskowemu Centrum            przeliczania donacji
+WCKiK (1)                          Krwiodawstwa i Krwiolecznictwa                składaków krwi na krew
+                                   Samodzielnemu Publicznemu Zakładowi           pełną, co wpłynie na
+                                   Opieki Zdrowotnej w Warszawie (Dz. Urz.       zwiększenie możliwości
+                                   MON z 2018 r. poz. 129)                       pobierania krwi i jej
+                                                                                 składników
+dawcy krwi             ok. 600     roczne sprawozdanie z działalności            budowanie poczucia
+                       tys. osób   publicznej służby krwi                        sprawiedliwego i
+                                                                                 adekwatnego do ponoszonego
+                                                                                 wysiłku (związanego z
+                                                                                 różnymi metodami pobierania
+                                                                                 składników krwi), co będzie
+                                                                                 miało wpływ na bardziej
+                                                                                 przejrzyste dla dawców
+                                                                                 zasady przeliczania
+                                                                                 składników krwi na krew
+                                                                                 pełną, a tym samym
+                                                                                 uzyskiwanie litrażu
+                                                                                 uprawniającego do
+                                                                                 przyznawania odznak
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Nie prowadzono konsultacji poprzedzających przygotowanie projektu (tzw. pre-konsultacji).
+Równolegle z uzgodnieniami z członkami Rady Ministrów projekt zostanie przesłany do opiniowania i konsultacji
+publicznych na okres 30 dni do:
+    1)       Prezesa Narodowego Funduszu Zdrowia;
+    2)       Głównego Inspektora Sanitarnego;
+    3)       Głównego Inspektora Farmaceutycznego;
+    4)       Prokuratorii Generalnej Rzeczpospolitej Polskiej;
+    5)       Naczelnej Rady Lekarskiej;
+    6)       Naczelnej Rady Pielęgniarek i Położnych;
+    7)       Naczelnej Rady Aptekarskiej;
+    8)       Krajowej Rady Diagnostów Laboratoryjnych;
+    9)       Ogólnopolskiego Związku Zawodowego Lekarzy;
+    10)      Ogólnopolskiego Związku Zawodowego Pielęgniarek i Położnych;
+    11)      Federacji Związków Pracodawców Ochrony Zdrowia „Porozumienie Zielonogórskie”;
+    12)      Ogólnopolskiego Porozumienia Związków Zawodowych;
+    13)      Forum Związków Zawodowych;
+    14)      Pracodawców Rzeczypospolitej Polskiej;
+    15)      Związku Przedsiębiorców i Pracodawców;
+    16)      Federacji Przedsiębiorców Polskich;
+    17)      Instytutu Praw Pacjenta i Edukacji Zdrowotnej;
+    18)      Federacji Pacjentów Polskich;
+    19)      Sekretariatu Ochrony Zdrowia KK–NSZZ „Solidarność”;
+    20)      KK NSZZ „Solidarność 80”;
+    21)      Konfederacji Lewiatan;
+    22)      Związku Rzemiosła Polskiego;
+    23)      Związku Pracodawców Business Centre Club;
+    24)      Rady Dialogu Społecznego;
+    25)      Konsultanta Krajowego w dziedzinie transfuzjologii klinicznej;
+    26)      Konsultanta Krajowego w dziedzinie hematologii;
+                                                    –7–
+
+   27)     Instytutu Hematologii i Transfuzjologii;
+   28)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Białymstoku;
+   29)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Bydgoszczy;
+   30)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Gdańsku;
+   31)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Kaliszu;
+   32)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Katowicach;
+   33)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Kielcach;
+   34)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Krakowie;
+   35)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Lublinie;
+   36)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Łodzi;
+   37)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Olsztynie;
+   38)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Opolu;
+   39)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Poznaniu;
+   40)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Raciborzu;
+   41)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa im. dr Konrada Vietha w Radomiu;
+   42)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Rzeszowie;
+   43)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa im. Jana Pawła II w Słupsku;
+   44)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Szczecinie;
+   45)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Wałbrzychu;
+   46)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Warszawie;
+   47)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa im. prof. dr hab. Tadeusza Dorobisza we
+           Wrocławiu;
+   48)     Regionalnego Centrum Krwiodawstwa i Krwiolecznictwa w Zielonej Górze;
+   49)     Wojskowego Centrum Krwiodawstwa i Krwiolecznictwa;
+   50)     Centrum Krwiodawstwa i Krwiolecznictwa MSWiA;
+   51)     Krajowej Rady do Spraw Krwiodawstwa i Krwiolecznictwa;
+   52)     Związku Pracodawców Ratownictwa Medycznego SP-ZOZ;
+   53)     Polskiej Unii Szpitali Klinicznych;
+   54)     Polskiej Federacji Szpitali;
+   55)     Rzecznika Praw Pacjenta;
+   56)     Polskiego Towarzystwa Koderów Medycznych;
+   57)     Polskiego Towarzystwa Prawa Medycznego;
+   58)     Zarządu Głównego Polskiego Czerwonego Krzyża;
+   59)     Porozumienia Pracodawców Ochrony Zdrowia;
+   60)     Porozumienia Łódzkiego – Łódzkiego Związku Pracodawców Ochrony Zdrowia;
+   61)     Polskiej Federacji Pracodawców Prywatnych Ochrony Zdrowia.
+
+Projekt, stosownie do przepisów ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2017 r. poz. 248), zostanie opublikowany na stronie internetowej Ministerstwa Zdrowia oraz
+udostępniony w Biuletynie Informacji Publicznej Ministerstwa Zdrowia wraz z przekazaniem projektu do uzgodnień
+z członkami Rady Ministrów. Projekt zostanie również udostępniony w Biuletynie Informacji Publicznej
+Rządowego Centrum Legislacji, zgodnie z uchwałą nr 190 Rady Ministrów z dnia 29 października 2013 r. –
+Regulamin pracy Rady Ministrów (M.P. z 2022 r. poz. 348).
+Wyniki opiniowania i konsultacji publicznych zostaną przedstawione w raporcie z konsultacji publicznych i
+opiniowania stanowiącym załącznik do niniejszej Oceny.
+6. Wpływ na sektor finansów publicznych
+                                           Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                  0     1      2     3      4      5     6     7      8    9     10 Łącznie
+                                                                                                     (0-10)
+Dochody ogółem                    0                                                                     0
+Budżet państwa
+                                                      –8–
+
+JST
+Pozostałe jednostki (oddzielnie)
+Wydatki ogółem                       0                                                                         0
+Budżet państwa
+JST
+Pozostałe jednostki (oddzielnie)
+Saldo ogółem                         0                                                                         0
+Budżet państwa
+JST
+Pozostałe jednostki (oddzielnie)
+Źródła finansowania        Projekt rozporządzenia nie wywoła żadnych skutków finansowych.
+Dodatkowe informacje, Nie przewiduje się dodatkowych skutków finansowych dla jednostek sektora finansów
+w tym wskazanie            publicznych, w tym w szczególności dla budżetu państwa w części 46 – Zdrowie, planu
+źródeł danych i            finansowego Narodowego Funduszu Zdrowia, jednostek samorządu terytorialnego,
+przyjętych do obliczeń     RCKiK oraz innych podmiotów leczniczych, w zakresie przedmiotu regulacji
+założeń                    rozporządzenia.
+ 7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców
+    oraz na rodzinę, obywateli i gospodarstwa domowe
+                                                       Skutki
+Czas w latach od wejścia w życie zmian           0          1          2         3          5          10    Łącznie
+                                                                                                              (0-10)
+W ujęciu           duże przedsiębiorstwa
+pieniężnym         sektor mikro-, małych i
+(w mln zł,         średnich
+ceny stałe z       przedsiębiorstw
+2023 r.)           rodzina, obywatele oraz
+                   gospodarstwa domowe
+W ujęciu           duże przedsiębiorstwa     Projekt rozporządzenia nie będzie miał wpływu na sektor dużych
+niepieniężnym                                przedsiębiorstw.
+                   sektor mikro-, małych i Projekt rozporządzenia nie będzie miał wpływu na sektor mikro, małych i
+                   średnich                  średnich przedsiębiorstw.
+                   przedsiębiorstw
+                   rodzina, obywatele oraz Projekt rozporządzenia będzie miał wpływ na sytuację dawców krwi i jej
+                   gospodarstwa domowe       składników przez docenienie dawcy i zachęcenie większej liczby dawców
+                                             do poddania się zabiegom oddania składników krwi.
+                   Osoby niepełnosprawne Projekt rozporządzenia nie będzie miał wpływu na sytuację ekonomiczną i
+                   i osoby starsze           społeczną osób niepełnosprawnych i osób starszych.
+Dodatkowe informacje,
+w tym wskazanie
+źródeł danych i
+przyjętych do obliczeń
+założeń
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+    nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie         tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli  nie
+zgodności).                                         nie dotyczy
+
+   zmniejszenie liczby dokumentów                             zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                               zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                      wydłużenie czasu na załatwienie sprawy
+   inne:                                                      inne:
+                                                     –9–
+
+Wprowadzane obciążenia są przystosowane do ich              tak
+elektronizacji.                                             nie
+                                                            nie dotyczy
+
+Komentarz:
+
+
+9. Wpływ na rynek pracy
+Zaproponowane rozwiązania nie będą miały wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+
+    środowisko naturalne                   demografia                              informatyzacja
+    sytuacja i rozwój regionalny           mienie państwowe                        zdrowie
+    sądy powszechne, administracyjne       inne:
+lub wojskowe
+                        Projekt rozporządzenia w jednolity sposób pozwali na docenienie dawcy i zachęci większą
+Omówienie wpływu
+                        liczbę dawców do poddania się tym zabiegom.
+11. Planowane wykonanie przepisów aktu prawnego
+Projekt rozporządzenia ma wejść w życie z dniem następującym po dniu ogłoszenia.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Nie dotyczy.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+

@@ -1,0 +1,750 @@
+                                                                       Druk nr 2497
+                                                              Warszawa, 29 kwietnia 2026 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-57-26
+
+
+                                                              Pan
+                                                              Włodzimierz Czarzasty
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+  - o zmianie ustawy o pracowniczych planach
+   kapitałowych oraz ustawy o szczególnych
+   rozwiązaniach związanych z zapobieganiem,
+   przeciwdziałaniem i zwalczaniem COVID-19,
+   innych chorób zakaźnych oraz wywołanych
+   nimi sytuacji kryzysowych.
+
+        Projekt ma charakter deregulacyjny.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Finansów i Gospodarki.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                   Projekt
+                                        U S T AWA
+
+                                           z dnia
+
+          o zmianie ustawy o pracowniczych planach kapitałowych oraz ustawy
+     o szczególnych rozwiązaniach związanych z zapobieganiem, przeciwdziałaniem
+       i zwalczaniem COVID-19, innych chorób zakaźnych oraz wywołanych nimi
+                                    sytuacji kryzysowych
+
+
+     Art. 1. W ustawie z dnia 4 października 2018 r. o pracowniczych planach kapitałowych
+(Dz. U. z 2026 r. poz. 192) w art. 8:
+1)   ust. 5 otrzymuje brzmienie:
+          „5. W przypadku gdy w wyniku dokonanej weryfikacji, o której mowa w ust. 4,
+     okaże się, że podmiot zatrudniający nie dopełnił obowiązku zawarcia umowy o
+     zarządzanie PPK w terminie, o którym mowa w ust. 1, PFR wzywa podmiot zatrudniający,
+     za pomocą profilu informacyjnego utworzonego w systemie teleinformatycznym
+     udostępnionym przez ZUS, zwanym dalej „profilem informacyjnym ZUS”, do:
+     1)   zawarcia, w terminie 30 dni od dnia otrzymania wezwania, umowy o zarządzanie
+          PPK z funduszem zdefiniowanej daty zarządzanym przez wyznaczoną instytucję
+          finansową albo
+     2)   przekazania do PFR informacji o zawarciu umowy o zarządzanie PPK z inną
+          instytucją finansową.”;
+2)   po ust. 5a dodaje się ust. 5aa–5ad w brzmieniu:
+          „5aa. Wezwanie, o którym mowa w ust. 5, jest opatrzone kwalifikowanym podpisem
+     elektronicznym, podpisem zaufanym, podpisem osobistym lub kwalifikowaną pieczęcią
+     elektroniczną PFR, ze wskazaniem w treści pisma osoby opatrującej pismo pieczęcią.
+          5ab. PFR przekazuje wezwanie, o którym mowa w ust. 5, w postaci elektronicznej
+     do ZUS w celu jego udostępnienia na profilu informacyjnym ZUS.
+          5ac. ZUS udostępnia wezwanie, o którym mowa w ust. 5, na profilu informacyjnym
+     ZUS, nie wcześniej niż po upływie 14 dni roboczych od dnia jego otrzymania.
+          5ad. Wezwanie, o którym mowa w ust. 5, uznaje się za skuteczne:
+     1)   w dniu jego odbioru przez podmiot zatrudniający na profilu informacyjnym ZUS;
+     2)   po upływie 14 dni od dnia jego udostępnienia na profilu informacyjnym ZUS – w
+          przypadku jego nieodebrania.”;
+                                           –2–
+
+
+3)   uchyla się ust. 5b;
+4)   dodaje się ust. 8 w brzmieniu:
+           „8. Koszty obsługi przez ZUS wezwań, o których mowa w ust. 5, za pomocą profilu
+     informacyjnego ZUS powiększone o należny podatek od towarów i usług pokrywa PFR.”.
+
+     Art. 2. W ustawie z dnia 2 marca 2020 r. o szczególnych rozwiązaniach związanych z
+zapobieganiem, przeciwdziałaniem i zwalczaniem COVID-19, innych chorób zakaźnych oraz
+wywołanych nimi sytuacji kryzysowych (Dz. U. z 2025 r. poz. 764 i 1806 oraz z 2026 r.
+poz. 39) uchyla się art. 31zy15.
+
+     Art. 3. Do wezwań, o których mowa w art. 8 ust. 5 ustawy zmienianej w art. 1, w
+brzmieniu dotychczasowym, wysłanych w formie pisemnej przed dniem wejścia w życie
+niniejszej ustawy, stosuje się przepisy ustawy zmienianej w art. 1, w brzmieniu
+dotychczasowym.
+
+     Art. 4. Koszty zmian w systemie teleinformatycznym Zakładu Ubezpieczeń Społecznych
+wynikających z obsługi wezwań, o których mowa w art. 8 ust. 5 ustawy zmienianej w art. 1, w
+brzmieniu nadanym niniejszą ustawą, pokrywa Polski Fundusz Rozwoju.
+
+     Art. 5. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                     UZASADNIENIE
+
+Celem projektu ustawy jest wprowadzenie możliwości elektronicznego wezwania do zawarcia
+umowy o zarządzanie pracowniczym planem kapitałowym (PPK). Projektowana ustawa
+zakłada zmianę ustawy z dnia 4 października 2018 r. o pracowniczych planach kapitałowych
+(Dz. U. z 2026 r. poz. 192) (dalej: „ustawa o PPK”) oraz zmianę ustawy z dnia 2 marca 2020 r.
+o szczególnych rozwiązaniach związanych z zapobieganiem, przeciwdziałaniem i zwalczaniem
+COVID-19, innych chorób zakaźnych oraz wywołanych nimi sytuacji kryzysowych (Dz. U. z
+2025 r. poz. 764, z późn. zm.).
+
+Zgodnie z art. 8 ust. 1 w zw. z art. 16 ust. 1 ustawy o PPK podmiot zatrudniający zwykle ma
+obowiązek zawrzeć umowę o zarządzanie PPK przed upływem 3 miesięcy zatrudnienia
+pierwszej osoby (szczegółowe wyliczenie terminu zależy od konkretnych okoliczności), chyba
+że wcześniej ta osoba zrezygnuje z dokonywania wpłat na PPK. Jeżeli podmiot zatrudniający
+nie zawrze umowy o zarządzanie PPK, Polski Fundusz Rozwoju S.A. (dalej: „PFR”) – na
+podstawie art. 8 ust. 5 ustawy o PPK – wzywa w formie pisemnej ten podmiot do zawarcia
+umowy o zarządzanie PPK. PFR uzyskuje informacje o nowych podmiotach zatrudniających
+od Zakładu Ubezpieczeń Społecznych (dalej: „ZUS”). Na podstawie tych informacji PFR
+weryfikuje, czy dany podmiot zatrudniający wywiązał się z obowiązku zawarcia umowy o
+zarządzanie PPK.
+
+Wezwania do zawarcia umowy o zarządzanie PPK, o których mowa w art. 8 ust. 5 ustawy o
+PPK, pełnią funkcję mobilizująco-dyscyplinującą podmioty zatrudniające. Ma to na celu dbanie
+o interes publiczny, jakim jest m.in. zapewnienie osobom zatrudnionym możliwości
+systematycznego gromadzenia oszczędności w PPK z przeznaczeniem na wypłatę po
+osiągnięciu przez te osoby 60. roku życia oraz na inne cele określone w ustawie.
+
+Na mocy art. 31zy15 ustawy z 2 marca 2020 r. o szczególnych rozwiązaniach związanych z
+zapobieganiem, przeciwdziałaniem i zwalczaniem COVID-19, innych chorób zakaźnych oraz
+wywołanych nimi sytuacji kryzysowych wprowadzono możliwość wysyłania wezwania, o
+którym mowa w art. 8 ust. 5 ustawy o PPK, z wykorzystaniem profilu informacyjnego w
+systemie teleinformatycznym ZUS. Ta możliwość została przewidziana jednak tylko na okres
+obowiązywania stanu zagrożenia epidemicznego albo stanu epidemii ogłoszonego z powodu
+COVID-19 oraz w okresie roku od odwołania ostatniego z nich. Stan zagrożenia epidemicznego
+z powodu COVID-19 został odwołany z dniem 1 lipca 2023 r. (rozporządzenie Ministra
+Zdrowia z 14 czerwca 2023 r. w sprawie odwołania na obszarze Rzeczypospolitej Polskiej stanu
+zagrożenia epidemicznego (Dz. U. poz. 1118)).
+
+Wysyłanie wezwań do podmiotów zatrudniających w formie elektronicznej za pomocą
+Platformy Usług Elektronicznych ZUS, tzn. na profile informacyjne podmiotów
+zatrudniających stanowiło rozwiązanie efektywne, oszczędne i angażujące w stopniu niższym
+aniżeli proces wysyłki tradycyjnej korespondencji. Taki rodzaj wysyłki jest niezwykle
+efektywną formą przekazania informacji. Pozwala na bardzo sprawne przekazanie wezwań
+bezpośrednio do podmiotów zatrudniających. Wezwania w formie elektronicznej,
+przekazywane za pomocą ZUS, zostały zaakceptowane i pozytywnie odebrane przez
+przedsiębiorców oraz     stanowią element       związany ze wspieraniem digitalizacji      i
+zrównoważonego rozwoju Państwa. W obecnym stanie prawnym należy wskazać na brak
+możliwości wykorzystania Platformy Usług Elektronicznych ZUS w celu przeprowadzenia
+wysyłki przedmiotowych wezwań, co oznacza konieczność powrotu do rozwiązań
+tradycyjnych, a tym samym stanowi odejście od stosowanej i akceptowanej praktyki.
+
+Wysyłanie wezwań do podmiotów zatrudniających w formie elektronicznej za pomocą
+Platformy Usług Elektronicznych ZUS, tzn. na profile informacyjne tych podmiotów, okazało
+się bardzo udanym rozwiązaniem. Z uwagi na funkcjonowanie już niezbędnej infrastruktury
+informatycznej, wdrożenie tego rozwiązania na stałe jest także racjonalne.
+
+W tym celu konieczne jest jednak kompleksowe uregulowanie tego rozwiązania na stałe
+w ustawie o PPK. Zaangażowanie ZUS w wykonywanie ustawy o PPK jest już przewidziane
+w innych przepisach ustawy o PPK. Jest to zresztą zgodne z założeniem wyrażonym w art. 71
+ust. 1 ustawy z 13 października 1998 r. o systemie ubezpieczeń społecznych (Dz. U. z 2026 r.
+poz. 199, z późn. zm.), w myśl którego ZUS wykonuje nie tylko zadania przewidziane tą
+ustawą, ale również zadania powierzone na podstawie innych ustaw.
+
+W projektowanych zmianach ustawy o PPK proponuje się, że wezwania PFR do zawarcia
+umów o zarządzanie PPK będą kierowane do podmiotów zatrudniających wyłącznie w drodze
+elektronicznej za pomocą profilu informacyjnego utworzonego w systemie teleinformatycznym
+udostępnionym przez ZUS, proponuje się usunięcie z przepisu art. 8 ust. 5 ustawy o PPK formy
+pisemnej wezwania, a także wskazania skuteczności wezwania określonego jako moment
+zwrotnego potwierdzenia odbioru lub poprzez nadanie przesyłką poleconą po bezskutecznej
+dwukrotnej próbie dostarczenia pisma za zwrotnym potwierdzeniem odbioru. Bez zmiany
+proponuje się pozostawienie 30-dniowego terminu na zawarcie umowy o zarządzanie PPK,
+który powinien być liczony od dnia doręczenia wezwania. Z tego samego powodu, jako zbędny,
+
+                                              2
+proponuje się uchylenie art. 8 ust. 5b ustawy o PPK, który dotyczy wydruku wezwania, a
+sposób podpisania wezwania w postaci elektronicznej proponuje się określić w ust. 5aa.
+
+W związku z tym, że art. 67 ustawy o PPK dotyczy opłat za realizację obowiązków, o których
+mowa w art. 8 ust. 4 i 5 ustawy o PPK, należy wskazać, że zmiany w art. 8 ust. 5 nie wpłyną
+na upoważnienie ustawowe zawarte w art. 67 ust. 3 ustawy o PPK.
+
+Projektowany przepis art. 8 ust. 5aa przewiduje, że wezwanie jest opatrzone kwalifikowanym
+podpisem elektronicznym, podpisem zaufanym, podpisem osobistym lub kwalifikowaną
+pieczęcią elektroniczną PFR, ze wskazaniem w treści pisma osoby opatrującej pismo pieczęcią
+(por. np. art. 14 § 1a i 1b Kodeksu postępowania administracyjnego). Jest to zgodne z
+przyjętymi wymogami dla pism urzędowych, w celu jednoznacznej identyfikacji i zachowania
+autentyczności pisma zawierającego wezwanie. Tak sporządzone wezwanie w postaci
+elektronicznej, w myśl projektowanego art. 8 ust. 5ab, PFR przekazuje do ZUS w celu jego
+udostępnienia na profilu informacyjnym ZUS, który w myśl projektowanego art. 5ac
+doręczałby podmiotowi zatrudniającemu zidentyfikowanemu przez PFR nie wcześniej niż po
+upływie 14 dni roboczych od dnia jego otrzymania. Termin wskazany w projektowanym
+art. 5ac wynika z tego, że ZUS potrzebuje czasu na przeanalizowanie otrzymanego wezwania,
+a także potrzebuje dodatkowo czasu na wygenerowanie wezwań dla podmiotu zatrudniającego,
+który nie dopełnił obowiązku zawarcia umowy o zarządzanie PPK. Ponadto ZUS daje
+dodatkowy czas podmiotowi zatrudniającemu na weryfikację informacji otrzymanej od PFR, a
+także na ewentualne złożenie wyjaśnień do PFR.
+
+Doręczenie następowałoby przez udostępnienie wezwania na profilu informacyjnym podmiotu
+zatrudniającego. Taki profil, zgodnie z art. 47b ust. 1 ustawy z dnia 13 października 1998 r. o
+systemie ubezpieczeń społecznych, zobowiązany jest założyć każdy płatnik składek, a jeżeli
+nie dopełni tego obowiązku, to – zgodnie z ust. 2 tego artykułu – profil zakłada dla tego płatnika
+sam ZUS.
+
+W projektowanym art. 8 ust. 5ad ustawy o PPK przewiduje się, że wezwanie będzie uznawane
+za skuteczne w dniu odbioru tego wezwania przez podmiot zatrudniający, o którym mowa w
+art. 8 ust. 5 na profilu informacyjnym utworzonym w systemie teleinformatycznym
+udostępnionym przez ZUS (pkt 1), bądź po upływie 14 dni od dnia udostępnienia tego
+wezwania na profilu informacyjnym utworzonym w systemie teleinformatycznym
+udostępnionym przez ZUS – w przypadku jego nieodebrania (pkt 2).
+
+
+
+
+                                                3
+Projektowany przepis art. 8 ust. 8 przewiduje, że PFR będzie pokrywał koszty obsługi przez
+ZUS wezwań, kierowanych przez PFR do podmiotów zatrudniających za pomocą profilu
+informacyjnego utworzonego w systemie teleinformatycznym ZUS powiększone o należny
+podatek od towarów i usług (VAT). Tym samym koszty realizacji tego zadania przez ZUS będą
+finansowane przez PFR analogicznie jak dotychczas na podstawie art. 31zy15 ust. 5 ustawy z
+dnia 2 marca 2020 r. o szczególnych rozwiązaniach związanych z zapobieganiem,
+przeciwdziałaniem i zwalczaniem COVID-19, innych chorób zakaźnych oraz wywołanych
+nimi sytuacji kryzysowych.
+
+Projektowany przepis art. 8 ust. 8 przewiduje, że PFR będzie pokrywał koszty udostępnienia
+wezwań, kierowanych przez PFR do podmiotów zatrudniających za pomocą profilu
+informacyjnego utworzonego w systemie teleinformatycznym ZUS powiększone o należny
+podatek od towarów i usług (VAT).
+
+W tym kontekście wskazać należy, że opodatkowaniu podatkiem VAT podlegają m.in.
+odpłatna dostawa towarów i odpłatne świadczenie usług na terytorium kraju (na podstawie
+art. 5 ust. 1 pkt 1 ustawy z dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. z 2025 r.
+poz. 775, z późn. zm.)). Dla celów opodatkowania VAT świadczenie usług dokonywane jest
+odpłatnie, jeżeli łącznie spełnione są następujące warunki:
+1) istnieje stosunek prawny pomiędzy usługobiorcą i usługodawcą (przy czym stosunek
+    prawny pomiędzy podmiotami może powstawać również na zasadach innych niż umowne;
+    fakt, że stosunek prawny powstaje na podstawie aktu prawnego (ustawy), a nie np. umowy,
+    nie ma znaczenia dla jego istnienia oraz nie powoduje braku opodatkowania VAT),
+2) w ramach stosunku prawnego następuje wymiana świadczeń wzajemnych oraz
+3) świadczenie otrzymywane przez usługodawcę stanowi rzeczywiste odzwierciedlenie
+    wartości usługi świadczonej usługobiorcy.
+
+Należy mieć na uwadze, że czynności wykonywane przez ZUS na rzecz PFR będą sprowadzać
+się w istocie do świadczenia usługi obsługi wezwań kierowanych przez PFR do
+przedsiębiorców (poprzez wysyłanie dostarczonych przez PFR wezwań w systemie
+teleinformatycznym ZUS). Wynagrodzenie z tytułu tych usług zostało ustalone w wysokości
+poniesionych w związku z ich wykonywaniem kosztów, powiększonej o podatek VAT.
+W takiej sytuacji uznać należy, że takie czynności podlegają opodatkowaniu VAT na zasadach
+ogólnych.
+
+W związku z projektowanym wprowadzeniem na stałe do ustawy o PPK rozwiązania
+określonego w regulacji zawartej obecnie w art. 31zy15 ustawy z 2 marca 2020 r. o szczególnych
+
+                                               4
+rozwiązaniach związanych z zapobieganiem, przeciwdziałaniem i zwalczaniem COVID-19,
+innych chorób zakaźnych oraz wywołanych nimi sytuacji kryzysowych, zasadne jest uchylenie
+powyższego przepisu (projektowany art. 2).
+
+W projektowanym art. 3 wskazano, że do wezwań wysłanych przed dniem wejścia w życie
+projektowanej regulacji będą stosowane obecnie obowiązujące przepisy. Aktualnie doręczanie
+wezwań może odbywać się w formie pisemnej, zatem do wezwań wysłanych pisemnie przed
+dniem wejścia w życie nowej regulacji powinny mieć zastosowanie przepisy dotychczasowe.
+Zasadne jest zatem zamieszczenie w projekcie regulacji przejściowej w powyższym zakresie.
+
+Projektowany przepis art. 4 przewiduje, że PFR będzie pokrywał koszty zmian w systemie
+teleinformatycznym ZUS wynikających z obsługi wezwań, o których mowa w art. 8 ust. 5
+ustawy o PPK. Powyższa zmiana wynika z celu całkowitej automatyzacji procesu obsługi
+wezwań.
+
+Ze względu na fakt, że wezwania PFR do zawarcia umów o zarządzanie PPK będą kierowane
+do podmiotów zatrudniających wyłącznie w drodze elektronicznej za pomocą profilu
+informacyjnego utworzonego w systemie teleinformatycznym udostępnionym przez ZUS, i
+Zakład Ubezpieczeń Społecznych będzie na stałe uczestniczył w tym procesie, w art. 8 ust. 8
+ustawy o PPK i w art. 4 projektowanej ustawy zaproponowano przepisy, które pozwolą na
+uproszczenie obsługi kosztów po stronie ZUS i PFR.
+
+Na koszty ponoszone przez ZUS, pokrywane przez PFR, w związku z przyjęciem nowego,
+stałego zadania składają się:
+• koszty modyfikacji systemu informatycznego – w celu całkowitej automatyzacji procesu
+   obsługi wezwań,
+• koszty obsługi pojedynczego wezwania.
+
+Projekt przewiduje, że ustawa wejdzie w życie po upływie 14 dni od dnia ogłoszenia.
+
+Projekt ustawy nie jest objęty prawem Unii Europejskiej.
+
+Projektowana ustawa nie wymaga przedstawiania organom i instytucjom Unii Europejskiej
+w celu uzyskania opinii, dokonania powiadomienia, konsultacji albo uzgodnienia.
+W szczególności, zgodnie z art. 2 ust. 1 decyzji Rady 98/415/WE z dnia 29 czerwca 1998 r.
+w sprawie konsultacji Europejskiego Banku Centralnego udzielanych władzom krajowym
+w sprawie projektów przepisów prawnych (Dz. Urz. WE L 189 z 03.07.1998, str. 42 – Dz. Urz.
+UE Polskie Wydanie Specjalne rozdz. 1, t. 1, str. 446), projekt ustawy nie podlega konsultacji
+z Europejskim Bankiem Centralnym.
+
+
+                                              5
+Zawarte w projekcie regulacje nie stanowią przepisów technicznych w rozumieniu
+rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania
+krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.), dlatego
+też projekt ustawy nie podlega procedurze notyfikacji.
+
+Stosownie do art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. z 2025 r. poz. 677, z późn. zm.) projekt ustawy został udostępniony
+w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji,
+w serwisie Rządowy Proces Legislacyjny.
+
+Zawarte w projekcie regulacje będą miały wpływ na działalność mikroprzedsiębiorców, małych
+i średnich przedsiębiorców zgodnie z ustawą z dnia 6 marca 2018 r. – Prawo przedsiębiorców
+(Dz. U. z 2025 r. poz. 1480, z późn. zm.). Wezwania kierowane do podmiotów zatrudniających
+wyłącznie w drodze elektronicznej, za pomocą profilu informacyjnego ZUS utworzonego w
+systemie teleinformatycznym, stanowić będą ułatwienie w komunikacji z PFR i będą bardziej
+efektywne.
+
+
+
+
+                                              6
+Nazwa projektu                                                            Data sporządzenia
+Projekt ustawy o zmianie ustawy o pracowniczych planach kapitałowych      10 kwietnia 2026 r.
+oraz ustawy o szczególnych rozwiązaniach związanych z zapobieganiem,
+przeciwdziałaniem i zwalczaniem COVID-19, innych chorób zakaźnych         Źródło:
+oraz wywołanych nimi sytuacji kryzysowych                                 Inne
+                                                                          Deregulacja
+Ministerstwo i ministerstwa współpracujące
+Ministerstwo Finansów
+                                                                          Nr w Wykazie prac legislacyjnych
+                                                                          i programowych Rady Ministrów:
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza
+                                                                          UDER99
+Stanu lub Podsekretarza Stanu
+Pan Jurand Drop
+Podsekretarz Stanu w Ministerstwie Finansów
+Kontakt do opiekuna merytorycznego projektu
+Jarosław Niezgoda – Zastępca Dyrektora Departamentu Rozwoju Rynku
+Finansowego w Ministerstwie Finansów,
+Tel. 22 694-58-28
+e-mail: sekretariat.fn@mf.gov.pl
+Magdalena Andrzejak, Departament Rozwoju Rynku Finansowego,
+e-mail: magdalena.andrzejak3@mf.gov.pl
+
+                                 OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Polski Fundusz Rozwoju S.A. (dalej: „PFR”) na podstawie art. 8 ust. 5 ustawy z dnia 4 października 2018 r. o
+pracowniczych planach kapitałowych (Dz. U. z 2026 r. poz. 192) (dalej: „ustawa o PPK”) jest zobowiązany do wysłania
+wezwań w formie pisemnej do zawarcia umów o zarządzanie PPK do podmiotów zatrudniających, które w terminach
+wskazanych w ustawie o PPK nie zawarły umów o zarządzanie PPK. Ma to na celu dbanie o interes publiczny jakim jest
+m.in. zapewnienie osobom zatrudnionym możliwości systematycznego gromadzenia oszczędności w PPK z
+przeznaczeniem na wypłatę po osiągnięciu przez te osoby 60. roku życia oraz na inne cele określone w ustawie.
+
+Na mocy przepisu art. 31zy15 ustawy z dnia 2 marca 2020 r. o szczególnych rozwiązaniach związanych z zapobieganiem,
+przeciwdziałaniem i zwalczaniem COVID-19, innych chorób zakaźnych oraz wywołanych nimi sytuacji kryzysowych
+(Dz. U. z 2025 r. poz. 764, z późn. zm.) (dalej: „ustawa COVID-19”) wprowadzono możliwość wysyłania wezwania, o
+którym mowa w art. 8 ust. 5 ustawy o PPK, za pomocą profilu informacyjnego w systemie teleinformatycznym Zakładu
+Ubezpieczeń Społecznych (dalej: „ZUS”). Ta możliwość została przewidziana jednak jedynie na okres obowiązywania
+stanu zagrożenia epidemicznego albo stanu epidemii ogłoszonego z powodu COVID-19 oraz w okresie roku od odwołania
+ostatniego z nich. Stan zagrożenia epidemicznego z powodu COVID-19 został odwołany z dniem 1 lipca 2023 r.
+(rozporządzenie Ministra Zdrowia z 14 czerwca 2023 r. w sprawie odwołania na obszarze Rzeczypospolitej Polskiej stanu
+zagrożenia epidemicznego (Dz. U. poz. 1118)). W związku z wprowadzeniem na stałe do ustawy o PPK rozwiązania
+określonego w regulacji zawartej obecnie w art. 31zy15, w konsekwencji zasadne jest usunięcie z tej ustawy regulacji art.
+31zy15.
+
+Wezwania do zawarcia umowy o zarządzanie PPK, o których mowa w art. 8 ust. 5 ustawy o PPK, pełnią funkcję
+mobilizująco-dyscyplinującą podmioty zatrudniające. Wysyłanie wezwań do podmiotów zatrudniających w formie
+elektronicznej za pomocą Platformy Usług Elektronicznych ZUS, tzn. na profile informacyjne podmiotów zatrudniających,
+stanowiło rozwiązanie efektywne, oszczędne i angażujące w stopniu niższym aniżeli proces wysyłki tradycyjnej
+korespondencji. Taki rodzaj wysyłki jest niezwykle efektywną formą przekazania informacji. Pozwala na bardzo sprawne
+przekazanie wezwań bezpośrednio do podmiotów zatrudniających. Wezwania w formie elektronicznej, przekazywane za
+pomocą ZUS zostały zaakceptowane i pozytywnie odebrane przez przedsiębiorców oraz stanowią element związany ze
+wspieraniem digitalizacji i zrównoważonego rozwoju Państwa. W obecnym stanie prawnym należy wskazać na brak
+możliwości wykorzystania Platformy Usług Elektronicznych ZUS w celu przeprowadzenia wysyłki przedmiotowych
+wezwań, co oznacza konieczność powrotu do rozwiązań tradycyjnych, a tym samym stanowi odejście od stosowanej i
+akceptowanej praktyki.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Mając na względzie dotychczasową współpracę PFR i ZUS, wynikającą z wykonywania przepisów ustawy o PPK oraz
+ustawy COVID-19 w związku z realizacją programu pracowniczych planów kapitałowych, w celu rozwiązania problemu, o
+którym mowa w pkt 1 powyżej, proponuje się przyjęcie rozwiązania zakładającego, że wezwania PFR do zawarcia umów o
+zarządzanie PPK będą kierowane do podmiotów zatrudniających wyłącznie w drodze elektronicznej za pomocą Platformy
+Usług Elektronicznych ZUS. Rozwiązanie to sprawdziło się podczas obowiązywania ustawy COVID-19. Dotychczasowe
+rozwiązanie, umożliwiające realizację procesów w latach 2021–2023, było wdrażane pod dużą presją czasu i niektóre zadania
+wymagają dodatkowych prac po stronie ZUS celem większej automatyzacji procesu.
+
+Na koszty ponoszone przez ZUS w związku z przyjęciem nowego, stałego zadania składają się:
+• koszty modyfikacji systemu informatycznego – w celu całkowitej automatyzacji procesu obsługi wezwań,
+• koszty obsługi pojedynczego wezwania.
+Koszty te ma pokrywać PFR.
+
+Wdrożenie tego rozwiązania na stałe jest racjonalne i uzasadnione. Mając na względzie powyższe, proponuje się:
+1. Wprowadzenie rozwiązania zakładającego, że wezwania do zawarcia umów o zarządzanie PPK będą kierowane przez PFR
+do podmiotów zatrudniających wyłącznie w drodze elektronicznej za pomocą Platformy Usług Elektronicznych ZUS oraz
+jednoczesne usunięcie wskazania formy pisemnej, a także wskazania skuteczności wezwania określonego jako moment
+zwrotnego potwierdzenia odbioru lub poprzez nadanie przesyłką poleconą po bezskutecznej dwukrotnej próbie dostarczenia
+pisma za zwrotnym potwierdzeniem odbioru.
+2. Ustalenie, zgodnie z przyjętymi wymogami dla pism urzędowych, że PFR zobowiązany będzie do opatrzenia pisma
+kwalifikowanym podpisem elektronicznym, podpisem zaufanym, podpisem osobistym lub kwalifikowaną pieczęcią
+elektroniczną PFR, ze wskazaniem w treści pisma osoby opatrującej pismo pieczęcią.
+3. Określenie, że wezwanie będzie uznawane za skutecznie doręczone w momencie odbioru tego wezwania przez podmiot
+zatrudniający, na profilu informacyjnym utworzonym w systemie teleinformatycznym udostępnionym przez ZUS, bądź po
+upływie 14 dni od dnia udostępniania tego wezwania na profilu informacyjnym utworzonym w systemie teleinformatycznym
+udostępnionym przez ZUS – w przypadku jego nieodebrania.
+4. Wprowadzenie przepisu dotyczącego pokrywania przez PFR kosztów obsługi przez ZUS wezwań, kierowanych przez PFR
+do podmiotów zatrudniających za pomocą profilu informacyjnego utworzonego w systemie teleinformatycznym ZUS i zmian
+w systemie teleinformatycznym ZUS wynikających z obsługi wezwań.
+Ze względu na fakt, że wezwania PFR do zawarcia umów o zarządzanie PPK będą kierowane do podmiotów zatrudniających
+wyłącznie w drodze elektronicznej za pomocą profilu informacyjnego utworzonego w systemie teleinformatycznym
+udostępnionym przez ZUS, i Zakład Ubezpieczeń Społecznych będzie na stałe uczestniczył w tym procesie, to w art. 8 ust. 8
+ustawy o PPK i art. 4 projektowanej ustawy zaproponowano przepisy, które pozwolą na uproszczenie obsługi kosztów po
+stronie ZUS i PFR.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Brak informacji.
+4. Podmioty, na które oddziałuje projekt
+          Grupa                      Wielkość                   Źródło danych                    Oddziaływanie
+          PFR                           1                 Informacja ogólnodostępna      Optymalizacja procesowa i
+                                                                                         kosztowa obsługi procesu
+                                                                                         wezwań podmiotów
+                                                                                         zatrudniających do zawarcia
+                                                                                         umowy o zarządzanie PPK.
+           ZUS                           1                Informacja ogólnodostępna      Realizacja procesu
+                                                                                         udostępnienia wezwań PFR za
+                                                                                         pomocą Platformy Usług
+                                                                                         Elektronicznych ZUS.
+      Przedsiębiorcy           W 4 kwartale 2025 r.    Informacja ogólnodostępna na      Otrzymywanie wezwań PFR za
+                                   było w Polsce        stronie GUS: Główny Urząd        pomocą Platformy Usług
+                               2 909 645 aktywnych         Statystyczny / Obszary        Elektronicznych ZUS.
+                                  przedsiębiorstw.         tematyczne / Podmioty
+                                                            gospodarcze. Wyniki
+                                                       finansowe / Przedsiębiorstwa
+                                                               niefinansowe /
+                                                       Przedsiębiorstwa aktywne w 4
+                                                              kwartale 2025 r.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt ustawy został przekazany do konsultacji publicznych i opiniowania następującym podmiotom, m.in.: Polskiemu
+Funduszowi Rozwoju, Giełdzie Papierów Wartościowych, Narodowemu Bankowi Polskiemu, Komisji Nadzoru
+Finansowego, Rzecznikowi Finansowemu, Izbie Gospodarczej Towarzystw Emerytalnych, Izbie Zarządzających
+Funduszami i Aktywami, Polskiej Izbie Ubezpieczeń, Związkowi Banków Polskich, Krajowej Spółdzielczej Kasie
+Oszczędnościowo-Kredytowej, Krajowemu Związkowi Banków Spółdzielczych, Urzędowi Ochrony Konkurencji i
+Konsumentów, Urzędowi Ochrony Danych Osobowych, Prokuratorii Generalnej Rzeczypospolitej Polskiej, Zakładowi
+Ubezpieczeń Społecznych, z terminem 5 dni od dnia otrzymania projektu.
+                                                           2
+Zgodnie z ustawą z dnia 23 maja 1991 r. o związkach zawodowych (Dz. U. z 2025 r. poz. 440, z późn. zm.), projekt został
+skierowany do konsultacji z następującymi reprezentatywnymi organizacjami związkowymi: Komisją Krajową NSZZ
+„Solidarność”, Ogólnopolskim Porozumieniem Związków Zawodowych oraz Forum Związków Zawodowych.
+
+Natomiast na podstawie ustawy z dnia 24 lipca 2015 r. o Radzie Dialogu Społecznego i innych instytucjach dialogu
+społecznego (Dz. U. z 2018 r. poz. 2232, z późn. zm.), projekt został skierowany do zaopiniowania przez Radę Dialogu
+Społecznego.
+Zgodnie z ustawą z dnia 23 maja 1991 r. o organizacjach pracodawców (Dz. U. z 2025 r. poz. 423), projekt został również
+przekazany do zaopiniowania przez następujące reprezentatywne organizacje pracodawców: Konfederację „Lewiatan”,
+Związek Rzemiosła Polskiego, Pracodawców Rzeczypospolitej Polskiej, Business Centre Club – Związek Pracodawców,
+Związek Przedsiębiorców i Pracodawców, Federację Przedsiębiorców Polskich oraz Polskie Towarzystwo Gospodarcze.
+
+Skrócony termin do zgłoszenia uwag podyktowany jest celem deregulacyjnym projektu, o szczególnej randze legislacyjnej,
+jak i wąskim zakresem jego regulacji.
+
+Projekt został udostępniony na stronie internetowej Biuletynu Informacji Publicznej Rządowego Centrum Legislacji
+w zakładce Rządowy Proces Legislacyjny.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                                    Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                       0       1       2     3     4      5       6     7      8     9     10     Łącznie (0–10)
+Dochody ogółem                     0       0       0        0       0    0      0     0      0     0      0      0
+budżet państwa                     0       0       0        0       0    0      0     0      0     0      0      0
+JST                                0       0       0        0       0    0      0     0      0     0      0      0
+pozostałe jednostki (oddzielnie)   0       0       0        0       0    0      0     0      0     0      0      0
+Wydatki ogółem                     0       0       0        0       0    0      0     0      0     0      0      0
+budżet państwa                     0       0       0        0       0    0      0     0      0     0      0      0
+JST                                0       0       0        0       0    0      0     0      0     0      0      0
+pozostałe jednostki (oddzielnie)   0       0       0        0       0    0      0     0      0     0      0      0
+Saldo ogółem                       0       0       0        0       0    0      0     0      0     0      0      0
+
+budżet państwa                     0       0       0        0       0    0      0     0      0     0      0      0
+
+JST                                0       0       0        0       0    0      0     0      0     0      0      0
+
+pozostałe jednostki (oddzielnie)    0      0     0    0      0     0     0     0     0     0     0     0
+                          Brak wpływu na sektor finansów publicznych. Zgodnie z projektowanym art. 8 ust. 8 ustawy o
+Źródła finansowania       PPK, koszt obsługi wezwań przez ZUS za pomocą profilu informacyjnego utworzonego w
+                          systemie teleinformatycznym ZUS pokrywa PFR ze środków PFR.
+Dodatkowe informacje, Wejście w życie ustawy nie będzie miało wpływu na sektor finansów publicznych, w
+w tym wskazanie           szczególności nie wystąpi skutek w postaci zwiększenia wydatków lub zmniejszenia dochodów
+źródeł danych i           jednostek sektora finansów publicznych.
+przyjętych do obliczeń
+założeń                   Rzetelne oszacowanie kosztów modyfikacji systemu informatycznego Zakładu Ubezpieczeń
+                          Społecznych nie jest możliwe na obecnym etapie prac legislacyjnych. W opinii ZUS określenie
+                          w jakim zakresie projektowane zmiany będą miały wpływ na modyfikację systemu
+                          informatycznego wymaga dłuższej analizy.
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+    rodzinę, obywateli i gospodarstwa domowe
+                                                       Skutki
+Czas w latach od wejścia w życie zmian       0         1        2   3        5        10    Łącznie (0–10)
+W ujęciu          duże przedsiębiorstwa   0        0          0   0       0        0         0
+pieniężnym        sektor mikro-, małych i 0        0          0   0       0        0         0
+(w mln zł,        średnich
+ceny stałe        przedsiębiorstw
+z …… r.)          rodzina, obywatele oraz 0        0          0   0       0        0         0
+                  gospodarstwa domowe
+                  duże przedsiębiorstwa   Brak wpływu.
+
+
+                                                                3
+W ujęciu          sektor mikro-, małych i   Brak wpływu.
+niepieniężnym     średnich
+                  przedsiębiorstw
+                  rodzina, obywatele,       Brak wpływu.
+                  gospodarstwa domowe,
+                  osoby niepełnosprawne
+                  oraz osoby starsze
+Niemierzalne                                Uproszczenie procesu obsługi pism tradycyjnych.
+                                            Wezwania kierowane do podmiotów zatrudniających wyłącznie w drodze
+                                            elektronicznej za pomocą profilu informacyjnego ZUS utworzonego w systemie
+                                            teleinformatycznym stanowić będą ułatwienie w komunikacji z PFR i będzie to
+                                            efektywne.
+Dodatkowe informacje,
+w tym wskazanie
+źródeł danych i
+przyjętych do obliczeń
+założeń
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+☐ nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie                ☐ tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli         ☐ nie
+zgodności).                                                ☒ nie dotyczy
+☒ zmniejszenie liczby dokumentów                           ☐ zwiększenie liczby dokumentów
+☐ zmniejszenie liczby procedur                             ☐ zwiększenie liczby procedur
+☐ skrócenie czasu na załatwienie sprawy                    ☐ wydłużenie czasu na załatwienie sprawy
+☐ inne:                                                    ☐ inne: …
+
+Wprowadzane obciążenia są przystosowane do ich             ☒ tak
+elektronizacji.                                            ☐ nie
+                                                           ☐ nie dotyczy
+
+Komentarz: Wezwania kierowane do podmiotów zatrudniających wyłącznie w drodze elektronicznej za pomocą profilu
+informacyjnego utworzonego w systemie teleinformatycznym ZUS zmniejszą liczbę sporządzanych dokumentów w
+papierze. Są oszczędne i angażujące w stopniu niższym aniżeli proces wysyłki tradycyjnej korespondencji. Taki rodzaj
+wysyłki jest niezwykle efektywną formą przekazania informacji.
+9. Wpływ na rynek pracy
+Wejście w życie ustawy nie będzie miało wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+
+☒ środowisko naturalne                  ☐ demografia                              ☒ informatyzacja
+☐ sytuacja i rozwój regionalny          ☐ mienie państwowe                        ☐ zdrowie
+☐ sądy powszechne, administracyjne      ☐ inne:
+lub wojskowe
+
+                     Zmniejszenie zużycia papieru do korespondencji wpłynie pozytywnie na środowisko naturalne.
+                     Projektowane rozwiązanie stanowi element związany ze wspieraniem digitalizacji i
+Omówienie wpływu
+                     zrównoważonego rozwoju Państwa. Wejście w życie ustawy nie będzie miało wpływu na sytuację
+                     i rozwój regionalny oraz pozostałe obszary, o których mowa w pkt 10.
+11. Planowane wykonanie przepisów aktu prawnego
+Planuje się, że przepisy projektowanej ustawy wejdą w życie po upływie 14 dni od dnia jej ogłoszenia.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Zgodnie z ustawą o PPK Rada Ministrów dokonuje przeglądu funkcjonowania PPK po wejściu w życie ustawy i przedkłada
+Sejmowi informację o skutkach jej obowiązywania wraz z ewentualnymi propozycjami zmian nie rzadziej niż co 4 lata.
+
+
+
+                                                            4
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                        5
+                                                                    RAPORT Z KONSULTACJI
+  projektu ustawy o zmianie ustawy o pracowniczych planach kapitałowych oraz ustawy o szczególnych rozwiązaniach związanych z zapobieganiem,
+     przeciwdziałaniem i zwalczaniem COVID-19, innych chorób zakaźnych oraz wywołanych nimi sytuacji kryzysowych (nr UDER99 z wykazu)
+
+
+1. Omówienie wyników konsultacji publicznych i opiniowania.
+Projekt ustawy został przekazany do konsultacji publicznych i opiniowania następującym podmiotom: Polskiemu Funduszowi Rozwoju, Giełdzie Papierów
+Wartościowych, Narodowemu Bankowi Polskiemu, Komisji Nadzoru Finansowego, Rzecznikowi Finansowy, Izbie Gospodarczej Towarzystw Emerytalnych,
+Izbie Zarządzających Funduszami i Aktywami, Polskiej Izbie Ubezpieczeń, Związkowi Banków Polskich, Krajowej Spółdzielczej Kasie Oszczędnościowo-
+Kredytowej, Krajowemu Związkowi Banków Spółdzielczych, Urzędowi Ochrony Konkurencji i Konsumentów, Urzędowi Ochrony Danych Osobowych,
+Prokuratorii Generalnej Rzeczypospolitej Polskiej, Zakładowi Ubezpieczeń Społecznych.
+Projekt został skierowany do konsultacji z następującymi reprezentatywnymi organizacjami związkowymi: Komisją Krajową NSZZ „Solidarność”, Ogólnopolskim
+Porozumieniem Związków Zawodowych oraz Forum Związków Zawodowych.
+
+Projekt został skierowany do zaopiniowania przez Radę Dialogu Społecznego.
+
+Projekt został również przekazany do zaopiniowania przez następujące reprezentatywne organizacje pracodawców: Konfederację „Lewiatan”, Związek Rzemiosła
+Polskiego, Pracodawców Rzeczypospolitej Polskiej, Business Centre Club – Związek Pracodawców, Związek Przedsiębiorców i Pracodawców, Federację
+Przedsiębiorców Polskich oraz Polskie Towarzystwo Gospodarcze.
+
+W ramach konsultacji publicznych i opiniowania następujące podmioty zgłosiły uwagi:
+
+
+                    Jednostka
+                                      Podmiot, który
+                 redakcyjna/część
+      Lp.
+                 projektu założeń
+                                       przedstawił                              Stanowisko/opinia podmiotu                               Stanowisko
+                                    stanowisko/ opinię
+                 projektu ustawy
+            1.   Uwaga ogólna IZFiA                      W związku z przekazaniem do uzgodnień, opiniowania i konsultacji publicznych Uwaga przyjęta   do
+                                                         projektu ustawy o zmianie ustawy o pracowniczych planach kapitałowych, wiadomości
+                                                         (numer z wykazu prac legislacyjnych: UDER99, dalej „Projekt”), Izba
+                                                         Zarządzających Funduszami i Aktywami oraz Izba Gospodarcza Towarzystw
+                                                         Emerytalnych popierają zmiany zaproponowane w art. 8 ustawy z dnia 4
+                                                         października 2018 r. o pracowniczych planach kapitałowych, wskazane w art. 1
+                                                         pkt 1) – 4) Projektu.
+                                      Jednocześnie Izby nie zgłaszają uwag dotyczących odstąpienia od dokonywania
+                                      zmian w art. 67 ustawy o pracowniczych planach kapitałowych oraz w
+                                      Rozporządzeniu Ministra Finansów z dnia 21 marca 2019 r. w sprawie opłaty za
+                                      prowadzenie Ewidencji Pracowniczych Planów Kapitałowych oraz realizację
+                                      obowiązków, o których mowa w art. 8 ust. 4 i 5 ustawy o pracowniczych planach
+                                      kapitałowych wydanym na podstawie art. 67 ust. 3 ww. ustawy.
+     2.   Uwaga ogólna Forum          Krajowy Związek Zawodowy Inspektorów Kontroli ZUS nie wnosi uwag Uwaga              przyjęta   do
+                       Związków       dotyczących zasadności wprowadzenia rozwiązania zakładającego, że wezwania wiadomości.       Poza
+                       Zawodowych-    PFR do zawarcia umów o zarządzanie PPK będą kierowane do podmiotów właściwością MF.
+                       Krajowy        zatrudniających wyłącznie w drodze elektronicznej za pomocą Platformy Usług
+                       Związek        Elektronicznych ZUS.
+                       Zawodowy
+                                      Na uwagę zasługuje kwestia poniesionych wcześniej kosztów odpowiednich
+                       Inspektorów
+                                      rozwiązań teleinformatycznych co skutkuje tym, iż w/wym. Rozwiązanie
+                       Kontroli ZUS
+                                      powinno z powodzeniem być wykorzystywane, a wdrożenie tego rozwiązania na
+                                      stałe jest racjonalne i uzasadnione.
+
+                                      Projektowany przepis art. 8 ust. 8 przewiduje, że PFR będzie pokrywał koszty
+                                      obsługi przez ZUS wezwań, kierowanych przez PFR do podmiotów
+                                      zatrudniających za pomocą profilu informacyjnego utworzonego w systemie
+                                      teleinformatycznym ZUS powiększone o należny podatek od towarów i usług
+                                      (VAT). Tym samym koszty realizacji tego zadania przez ZUS będą finansowane
+                                      przez PFR analogicznie jak dotychczas na podstawie art. 31zy15 ust. 5 ustawy z
+                                      dnia 2 marca 2020 r. o szczególnych rozwiązaniach związanych z
+                                      zapobieganiem, przeciwdziałaniem i zwalczaniem COVID-19, innych chorób
+                                      zakaźnych oraz wywołanych nimi sytuacji kryzysowych. Zwracamy jednak
+                                      uwagę na konieczność urealnienia/zwaloryzowania ponoszonych kosztów nie
+                                      tylko w przypadku projektowanej zmiany, ale już obsługiwanych zadań przez
+                                      Zakład Ubezpieczeń Społecznych.
+
+3.        Art. 1       ZUS            Z projektu wynika, że udział Zakładu Ubezpieczeń Społecznych w realizacji Uwaga nieuwzględniona.
+                                      zadania nie sprowadza się wyłącznie do udostępnienia systemu informatycznego Mając na uwadze uwagi
+                                      do przekazywania wezwań, lecz obejmuje również przeanalizowanie wezwania zgłoszone podczas
+                                      oraz wygenerowanie wezwań dla podmiotu zatrudniającego, na co – według posiedzenia SKRM
+                                      projektodawcy – Zakład potrzebuje czasu w wymiarze co najmniej 14 dni. zasadnym wydaje się
+                                      Zadanie to jest zadaniem nowym i powierzonym ZUS na stałe.                   odstąpienie od wskazania
+                                                                 2
+Należy również zwrócić uwagę, że w proponowanych przepisach zawarto opłaty za jednostkowe
+regulacje o uznaniu wezwania za skuteczne - w dniu jego odbioru przez podmiot udostępnienie wezwania,
+zatrudniający albo po 14 dniach od jego umieszczenia na profilu informacyjnym. a tym samym odstąpienie
+Rozwiązanie, które było wykorzystywane do obsługi wezwań PFR w latach od wprowadzenia
+2021-2023 nie pozwala na pełną realizację proponowanych przepisów. W corocznej waloryzacji tej
+systemie Zakładu nie ma funkcjonalności, która zapewniłaby odpisywanie daty opłaty. Zaproponowane
+odbioru poszczególnych wezwań i przekazanie tej informacji do PFR. Ponadto rozwiązanie będzie
+zadanie umieszczania wezwań na profilach płatników składek – jako zadanie analogicznie jak było
+czasowe, do szybkiego wykonania - nie było zautomatyzowane, wymagało wprowadzone na
+ingerencji pracowników Zakładu.                                                podstawie art. 31zy15 ust.
+Ponieważ zadanie ma być stale realizowane przez Zakład, to jego obsługa 5 ustawy z dnia 2 marca
+powinna być zautomatyzowana, a co za tym idzie konieczne będzie dokonanie 2020 r. o szczególnych
+zmian w systemie informatycznym. W związku z powyższym szczegółowego rozwiązaniach
+uregulowania wymaga kwestia kosztów obsługi wezwań. W latach 2021-2023 związanych z
+kwestie te były regulowane w porozumieniu i aneksach do niego. PFR regulował zapobieganiem,
+koszty obsługi wezwań na podstawie faktur wystawionych przez Zakład. W przeciwdziałaniem i
+pierwszym etapie określone zostały koszty zmian w systemie informatycznym, a zwalczaniem COVID-19,
+następnie co roku określana była kwota za obsługę jednego wezwania. Stoimy na innych chorób zakaźnych
+stanowisku, że ponieważ zadanie – zgodnie z projektem ustawy – ma być stale oraz wywołanych nimi
+realizowane przez Zakład, w zakresie kosztów obsługi jednego wezwania w sytuacji kryzysowych.
+ustawie powinna zostać określona kwota bazowa i wskazanie, że będzie ona
+podlegać corocznej waloryzacji. Uprości to obsługę kosztów po stronie Zakładu
+i będzie transparentne dla PFR. Dodatkowo w ustawie powinno być wprost
+wskazane, że PFR ponosi koszty modyfikacji sytemu informatycznego Zakładu
+w związku z przeniesieniem zadania do Zakładu.
+
+Regulacja taka mogłaby polegać na rozszerzeniu brzmienia art. 1 projektu:
+„4) dodaje się ust. 8 - 12 w brzmieniu:
+„8. Koszty zmian w systemie teleinformatycznym ZUS wynikających z obsługi
+wezwań, o których mowa w ust. 5, za pomocą profilu informacyjnego ZUS,
+powiększone o należny podatek od towarów i usług, pokrywa PFR.
+9.Koszty udostępnienia wezwań, o których mowa w ust. 5, za pomocą profilu
+informacyjnego ZUS, powiększone o należny podatek od towarów i usług,
+pokrywa PFR.
+10.Opłata za jednostkowe udostępnienie wezwania, o którym mowa w ust. 5, na
+profilu informacyjnym ZUS, wynosi 2,68 zł netto.
+                           3
+                      11.Opłata, o której mowa w ust. 10, podlega waloryzacji corocznie, 14 dni od
+                      ogłoszenia komunikatu Prezesa Głównego Urzędu Statystycznego w sprawie
+                      średniorocznego wskaźnika cen towarów i usług konsumpcyjnych ogółem w
+                      poprzednim roku kalendarzowym.
+                      12.Waloryzacja polega na pomnożeniu kwoty opłaty przez wskaźnik waloryzacji,
+                      będący średniorocznym wskaźnikiem cen towarów i usług konsumpcyjnych
+                      ogółem w poprzednim roku kalendarzowym ogłaszanym przez Prezesa
+                      Głównego Urzędu Statystycznego na podstawie art. 94 ust. 1 pkt 1 lit. a ustawy
+                      o emeryturach i rentach z Funduszu Ubezpieczeń Społecznych. W wyniku
+                      przeprowadzonej waloryzacji kwota opłaty nie może ulec obniżeniu.”.
+                      Ponadto wskazujemy, że proponowane w art. 8 ust. 5ad projektu ustawy
+                      sformułowanie tj. „Wezwanie, o którym mowa w ust. 5, uznaje się za skuteczne:
+                      (…)” nie koreluje w pełni z intencją ustawodawcy wskazaną w uzasadnieniu
+                      projektu. Proponujemy doprecyzowanie poprzez następującą modyfikację
+                      „Wezwanie, o którym mowa w ust. 5, uznaje się za skutecznie doręczone: (…)”.
+
+
+4.   Art. 1   PUODO   Art. 1 projektu ustawy zmianą 2 dodaje w art. 8 ustawy z dnia 4 października Uwaga      przyjęta   do
+                      2018 r. o pracowniczych planach kapitałowych (Dz. U. z 2024 r. poz. 427 oraz z wiadomości
+                      2025 r. poz. 1216) ust. 5aa w brzmieniu: „Wezwanie, o którym mowa w ust. 5,
+                      jest opatrzone kwalifikowanym podpisem elektronicznym, podpisem zaufanym,
+                      podpisem osobistym, mechanicznie odtwarzanym podpisem osoby uprawnionej
+                      do jego podpisania lub kwalifikowaną pieczęcią elektroniczną PFR, ze
+                      wskazaniem w treści pisma osoby opatrującej pismo pieczęcią”. Jak wynika z
+                      uzasadnienia do projektu ustawy „(…) wezwanie w postaci elektronicznej wraz
+                      z nazwą i NIP podmiotu zatrudniającego, w myśl projektowanego art. 8 ust. 5ab,
+                      PFR przekazuje do ZUS w celu jego umieszczenia na profilu informacyjnym
+                      ZUS, który w myśl projektowanego art. 5ac doręczałby podmiotowi
+                      zatrudniającemu zidentyfikowanemu przez PFR nie wcześniej niż po upływie 14
+                      dni roboczych od dnia jego otrzymania”.
+                      Przyjmując rozwiązania w takim zakresie rozważyć należy ryzyko związane z
+                      wykorzystywaniem prywatnych narzędzi pracownika do celów służbowych.
+                      Celem prawodawcy powinno być eliminowanie rozwiązań powodujących
+                      nieuzasadnioną ingerencję w prywatność pracownika. Osoba fizyczna
+                      uprawniona przez podmiot publiczny do wykonywania obowiązków
+                      wynikających ze stosunku pracy nie może być zobowiązana do ujawniania
+                                                 4
+                                                 swoich danych (oprócz imienia i nazwiska), tj. numeru PESEL (poprzez
+                                                 podpisywanie dokumentów elektronicznych). Pracownik – reprezentując
+                                                 pracodawcę na rzecz podmiotów trzecich dla celów potwierdzania wykonania
+                                                 czynności służbowych powinien posługiwać się narzędziami zapewnionymi
+                                                 przez pracodawcę. Prawidłową praktyką powinno być stosowanie rozwiązań
+                                                 opartych o korzystanie przez pracowników ze służbowych narzędzi do
+                                                 identyfikacji oraz do składania podpisów. Tożsamość pracownika
+                                                 reprezentującego pracodawcę powinna być zawsze potwierdzana przez takie
+                                                 metody uwierzytelniania jak np. nadaną pieczęć urzędową. Takie rozwiązanie
+                                                 przyczyni się także do poszanowania przepisów rozporządzenia Parlamentu
+                                                 Europejskiego i Rady (UE) 2024/1183 z dnia 11 kwietnia 2024 r. w sprawie
+                                                 zmiany rozporządzenia (UE) nr 910/2014 w odniesieniu do ustanowienia
+                                                 europejskich ram tożsamości cyfrowej (Dz. Urz. UE L 2024/1183 z 30.04.2024)
+                                                 zwanego rozporządzeniem eIDAS2.
+                                                 Prezes UODO zwracał uwagę na powyższe m.in. w wystąpieniu skierowanym do
+                                                 Ministra Cyfryzacji dotyczącym rozwiązań przyjętych w ustawie o doręczeniach
+                                                 elektronicznych (pismo z 18 października 2024 r., znak: DOL.413.7.2024
+
+
+
+
+2. Informacja o okresie przeprowadzenia konsultacji publicznych i opiniowania i terminie wyznaczonym do zajęcia stanowiska.
+Przewidziany został 5-dniowy termin do zgłaszania uwag. Skrócony termin do zgłoszenia uwag podyktowany był celem deregulacyjnym projektu, o szczególnej
+randze legislacyjnej, jak i wąskim zakresem jego regulacji.
+
+3. Omówienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu z właściwymi organami i instytucjami Unii Europejskiej, w
+tym Europejskim Bankiem Centralnym.
+Nie dotyczy.
+4. Podmioty, które zgłosiły zainteresowanie pracami nad projektem w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa.
+Żaden podmiot nie zgłosił zainteresowania pracami nad projektem ustawy w ww. trybie.
+
+
+
+
+                                                                            5
+

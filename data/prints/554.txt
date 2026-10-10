@@ -1,0 +1,1459 @@
+                                                                          Druk nr 554
+                                                                   Warszawa, 18 lipca 2024 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-45-24
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy o udostępnianiu informacji
+   gospodarczych     i    wymianie      danych
+   gospodarczych.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Rozwoju i Technologii.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                          Projekt
+                                           U S T AWA
+
+                                               z dnia
+
+     o zmianie ustawy o udostępnianiu informacji gospodarczych i wymianie danych
+                                          gospodarczych
+
+
+     Art. 1. W ustawie z dnia 9 kwietnia 2010 r. o udostępnianiu informacji gospodarczych
+i wymianie danych gospodarczych (Dz. U. z 2023 r. poz. 2160) wprowadza się następujące
+zmiany:
+1)   w art. 2 w ust. 1:
+     a)   w pkt 1 lit. b otrzymuje brzmienie:
+          „b) siedziby i adresu lub adresu do doręczeń elektronicznych, o którym mowa
+                  w art. 2 pkt 1 ustawy z dnia 18 listopada 2020 r. o doręczeniach elektronicznych
+                  (Dz. U. z 2023 r. poz. 285, 1860 i 2699), zwanego dalej „adresem do doręczeń
+                  elektronicznych”, wpisanego do bazy adresów elektronicznych, o której mowa
+                  w art. 25 tej ustawy, zwanej dalej „bazą adresów elektronicznych”,”,
+     b)   w pkt 2 lit. b otrzymuje brzmienie:
+          „b) adresu miejsca zamieszkania lub adresu do doręczeń, lub adresu do doręczeń
+                  elektronicznych wpisanego do bazy adresów elektronicznych,”;
+2)   w art. 11:
+     a)   po ust. 1 dodaje się ust. 1a w brzmieniu:
+                  „1a. Zarząd biura przesyła ministrowi właściwemu do spraw gospodarki,
+          do zatwierdzenia, regulamin wraz z kopią uchwały, w terminie 7 dni od dnia
+          uchwalenia regulaminu.”,
+     b)   po ust. 2 dodaje się ust. 2a w brzmieniu:
+                  „2a. Minister Sprawiedliwości i Prezes Urzędu Ochrony Danych Osobowych
+          niezwłocznie informują ministra właściwego do spraw gospodarki o dniu, w którym
+          ich opinie stały się ostateczne.”,
+     c)   po ust. 3 dodaje się ust. 3a i 3b w brzmieniu:
+                  „3a. Do zatwierdzenia regulaminu, w przypadku gdy opinie organów, o których
+          mowa w ust. 2, są pozytywne, stosuje się przepisy działu II rozdziału 8a ustawy
+          z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego (Dz. U.
+          z 2024 r. poz. 572), z zastrzeżeniem że termin, o którym mowa w art. 122a § 2 pkt 1
+                                                 –2–
+
+
+          tej ustawy, wynosi 14 dni od dnia otrzymania ostatniej z informacji, o której mowa
+          w ust. 2a.
+               3b. Minister właściwy do spraw gospodarki niezwłocznie informuje biuro
+          o dacie załatwienia sprawy zgodnie z ust. 3a.”,
+     d)   ust. 4 otrzymuje brzmienie:
+               „4. Zatwierdzony regulamin minister właściwy do spraw gospodarki publikuje
+          na swojej stronie internetowej w terminie 14 dni od dnia zatwierdzenia regulaminu
+          zgodnie z ust. 3a albo uprawomocnienia decyzji zatwierdzającej regulamin. Zarząd
+          biura jest obowiązany do publikacji aktualnej treści regulaminu na stronie
+          internetowej biura.”;
+3)   w art. 11a ust. 1 otrzymuje brzmienie:
+          „1. Biuro jest obowiązane do zawiadomienia ministra właściwego do spraw
+     gospodarki o firmie, pod którą działa, o podjęciu oraz o zaprzestaniu wykonywania
+     działalności gospodarczej, a także o adresie, na który należy przekazywać informacje
+     gospodarcze, i o jego zmianach, w terminie 7 dni od dnia zaistnienia tych zdarzeń.”;
+4)   po art. 11a dodaje się art. 11b w brzmieniu:
+          „Art. 11b. Informację o wysokości opłat, o których mowa w art. 22 ust. 1, art. 22a
+     ust. 6, art. 22b ust. 2 i 4, art. 23 ust. 4, art. 25 ust. 2 oraz art. 27 ust. 5, zarząd biura
+     publikuje w jednym dokumencie na stronie internetowej biura.”;
+5)   w art. 22 po ust. 2 dodaje się ust. 2a i 2b w brzmieniu:
+          „2a. Wniosek, o którym mowa w ust. 2, można złożyć w imieniu własnym lub
+     działając na rzecz innego podmiotu.
+          2b. Wniosek, o którym mowa w ust. 2, składany:
+     1)   przez podmiot działający w imieniu własnym zawiera oznaczenie tego podmiotu;
+     2)   przez podmiot działający na rzecz innego podmiotu zawiera:
+          a)   dane identyfikujące podmiot składający wniosek określone odpowiednio
+               w art. 2 ust. 1 pkt 1 lit. a i d lub pkt 2 lit. a i c, lub pkt 3 lit. a, d i f,
+          b)   oznaczenie podmiotu, na rzecz którego działa podmiot składający wniosek.”;
+6)   w art. 25 w ust. 1:
+     a)   po pkt 2 dodaje się pkt 2a w brzmieniu:
+          „2a) Szef Służby Kontrwywiadu Wojskowego oraz Szef Służby Wywiadu
+               Wojskowego – na zasadach i w trybie określonym w art. 38 ustawy z dnia
+                                                –3–
+
+
+                  9 czerwca 2006 r. o Służbie Kontrwywiadu Wojskowego oraz Służbie
+                  Wywiadu Wojskowego (Dz. U. z 2023 r. poz. 81, 1834 i 1860);”,
+     b)   pkt 3 otrzymuje brzmienie:
+          „3) Komendant Główny Policji, Komendant Centralnego Biura Śledczego Policji,
+                  Komendant Biura Spraw Wewnętrznych Policji, Komendant Centralnego Biura
+                  Zwalczania Cyberprzestępczości, komendant wojewódzki (Stołeczny) Policji
+                  lub upoważnieni przez nich policjanci – na zasadach i w trybie określonym
+                  w art. 20 ust. 1d i 1e ustawy z dnia 6 kwietnia 1990 r. o Policji (Dz. U. z 2024 r.
+                  poz. 145 i 1006);”,
+     c)   pkt 12 otrzymuje brzmienie:
+          „12) Komendant         Główny     Straży    Granicznej,    Komendant       Biura     Spraw
+                  Wewnętrznych Straży Granicznej, komendant oddziału Straży Granicznej
+                  lub upoważnieni przez nich funkcjonariusze Straży Granicznej – na zasadach
+                  i w trybie określonym w art. 10a ustawy z dnia 12 października 1990 r. o Straży
+                  Granicznej (Dz. U. z 2024 r. poz. 915);”,
+     d)   w pkt 18 kropkę zastępuje się średnikiem i dodaje się pkt 19 i 20 w brzmieniu:
+          „19) Inspektor Nadzoru Wewnętrznego lub upoważniony przez niego inspektor
+                  Biura – na zasadach i w trybie określonym w art. 11t ustawy z dnia 21 czerwca
+                  1996 r. o szczególnych formach sprawowania nadzoru przez ministra
+                  właściwego do spraw wewnętrznych (Dz. U. z 2024 r. poz. 309);
+          20) Komendant          Główny      Żandarmerii      Wojskowej,     komendant       oddziału
+                  Żandarmerii Wojskowej lub upoważnieni przez nich żołnierze Żandarmerii
+                  Wojskowej – na zasadach i w trybie określonym w art. 29 ust. 4 i 5 ustawy
+                  z dnia 24 sierpnia 2001 r. o Żandarmerii Wojskowej i wojskowych organach
+                  porządkowych (Dz. U. z 2023 r. poz. 1266 i 1860).”;
+7)   w art. 26 dodaje się ust. 5 w brzmieniu:
+          „5. Przepisy ust. 1 zdanie pierwsze oraz ust. 2 zdanie pierwsze stosuje się również
+     do podmiotu, który otrzymał informacje gospodarcze od biura, działając na rzecz innego
+     podmiotu.”;
+8)   w art. 27:
+     a)   ust. 2 otrzymuje brzmienie:
+                  „2. Rejestr zapytań obejmuje informację o złożonym wniosku o udostępnienie
+          informacji gospodarczych oraz następujące informacje:
+                                              –4–
+
+
+          1)    datę ujawnienia informacji gospodarczych;
+          2)    oznaczenie podmiotu, któremu ujawniono informacje gospodarcze, a jeżeli
+                podmiot ten otrzymał informacje gospodarcze od biura za pośrednictwem
+                podmiotu działającego na jego rzecz, również dane tego podmiotu, o których
+                mowa w art. 22 ust. 2b pkt 2 lit. a;
+          3)    wskazanie ujawnionych danych.”,
+     b)   ust. 4 otrzymuje brzmienie:
+                „4. Nie podaje się informacji o złożonym wniosku o udostępnienie informacji
+          gospodarczych, jeżeli z wnioskiem wystąpiły podmioty, o których mowa w art. 25
+          ust. 1.”;
+9)   po art. 32 dodaje się art. 32a w brzmieniu:
+          „Art. 32a. 1. Minister właściwy do spraw gospodarki może wystąpić do biura
+     w sprawach z zakresu nadzoru nad biurem, o którym mowa w art. 32 ust. 1.
+          2. Biuro może w terminie określonym przez ministra właściwego do spraw
+     gospodarki, nie krótszym niż 14 dni, licząc od dnia otrzymania przez biuro wystąpienia
+     ministra, o którym mowa w ust. 1, przedstawić swoje stanowisko w sprawie,
+     której dotyczy wystąpienie.”;
+10) w art. 41 dodaje się ust. 3 w brzmieniu:
+          „3. Stanowisko, o którym mowa w ust. 2, podpisane przez kontrolującego
+     wraz z protokołem      kontroli    kontrolujący   przedkłada     osobie    upoważnionej
+     do reprezentowania biura.”;
+11) w art. 43 ust. 1 otrzymuje brzmienie:
+          „1. W razie powzięcia uzasadnionego podejrzenia naruszenia przez biuro przepisów
+     ustawy lub regulaminu lub w razie stwierdzenia w wyniku kontroli takiego naruszenia,
+     minister właściwy do spraw gospodarki wszczyna postępowanie w sprawie wydania
+     decyzji nakazującej usunięcie nieprawidłowości. W decyzji tej określa się termin
+     usunięcia stwierdzonych nieprawidłowości.”.
+
+     Art. 2. 1. Biuro informacji gospodarczej wykonujące działalność gospodarczą w dniu
+wejścia w życie niniejszej ustawy dostosuje, w drodze uchwały, regulamin zarządzania danymi,
+o którym mowa w art. 11 ustawy zmienianej w art. 1, do art. 22 ust. 2a i 2b oraz art. 27 ust. 2
+pkt 2 ustawy zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą, w terminie
+6 miesięcy od dnia wejścia w życie tych przepisów.
+                                              –5–
+
+
+     2. Biuro informacji gospodarczej przekazuje uchwałę, o której mowa w ust. 1, w terminie
+14 dni od dnia jej powzięcia ministrowi właściwemu do spraw gospodarki do zatwierdzenia.
+     3. W przypadku gdy biuro informacji gospodarczej nie przekaże ministrowi właściwemu
+do spraw gospodarki uchwały, o której mowa w ust. 1, w terminie, o którym mowa w ust. 2,
+do zatwierdzenia, minister właściwy do spraw gospodarki wydaje decyzję o zakazie
+wykonywania działalności gospodarczej przez biuro.
+     4. Regulaminy     zarządzania   danymi    lub   zmiany    w    regulaminach    przekazane
+do zatwierdzenia przez ministra właściwego do spraw gospodarki przed dniem wejścia w życie
+przepisów art. 22 ust. 2a i 2b oraz art. 27 ust. 2 pkt 2 ustawy zmienianej w art. 1, w brzmieniu
+nadanym niniejszą ustawą, i niezatwierdzone do tego dnia, podlegają zwrotowi celem
+dostosowania, o którym mowa w ust. 1.
+
+     Art. 3. Informację o wysokości opłat za usługi biura informacji gospodarczej, o której
+mowa w art. 11b ustawy zmienianej w art. 1, zarząd biura publikuje w terminie 30 dni od dnia
+wejścia w życie niniejszej ustawy.
+
+     Art. 4. Ustawa wchodzi w życie po upływie 30 dni od dnia ogłoszenia, z wyjątkiem art. 1
+pkt 5 i 8, które wchodzą w życie po upływie 6 miesięcy od dnia ogłoszenia.
+                                     UZASADNIENIE
+
+Projektowana nowelizacja ustawy z dnia 9 kwietnia 2010 r. o udostępnianiu informacji
+gospodarczych i wymianie danych gospodarczych (Dz. U. z 2023 r. poz. 2160), zwana dalej
+„ustawą”, ma na celu ułatwienie biurom informacji gospodarczej, zwanym dalej „biurami”,
+realizację obowiązków ustawowych. Projektowana zmiana upraszcza i doprecyzowuje przepisy
+ustawy oraz eliminuje wątpliwości interpretacyjne. Część zmian wynika z wniosków innych
+podmiotów (tj. Ministra Spraw Wewnętrznych i Administracji, Ministra Obrony Narodowej,
+biur).
+Proponowane rozwiązania wynikają przede wszystkim z doświadczeń ministra właściwego
+do spraw gospodarki, zwanego dalej „ministrem”, związanych z nadzorem nad działalnością
+biur oraz przeprowadzanymi kontrolami w biurach.
+Minister właściwy do spraw gospodarki sprawuje nadzór merytoryczny nad działalnością biur.
+W ramach nadzoru, po uzyskaniu opinii Ministra Sprawiedliwości oraz Prezesa Urzędu
+Ochrony Danych Osobowych, zwanego dalej „PUODO”, minister zatwierdza obowiązujący
+w danym biurze regulamin zarządzania danymi, a także przeprowadza kontrole w biurach,
+prowadzi z biurami korespondencję, a także analizuje na bieżąco publikacje prasowe
+oraz wyroki sądowe w sprawach dotyczących stosowania przepisów ustawy.
+Ogólna ocena funkcjonowania przepisów ustawy oraz realizacji przez biura powierzonych im
+zadań wypada pozytywnie. Niemniej niektóre kwestie wymagają doprecyzowania
+i usprawnienia.
+Regulacje w zakresie udostępniania informacji gospodarczych obowiązują od 2003 r. Od tego
+czasu kompleksowe zmiany ustawowe wprowadzono dwukrotnie: w 2010 r. ustawą z dnia
+9 kwietnia 2010 r. o udostępnianiu informacji gospodarczych i wymianie danych
+gospodarczych (nowa ustawa) oraz w 2017 r. ustawą z dnia 7 kwietnia 2017 r. o zmianie
+niektórych ustaw w celu ułatwienia dochodzenia wierzytelności (Dz. U. poz. 933, z późn. zm.)
+– w ramach tzw. Pakietu wierzycielskiego. Obecnie działalność gospodarczą w Polsce,
+polegającą na udostępnianiu informacji gospodarczych, wykonują cztery biura. Ich wykaz jest
+publikowany na stronie internetowej ministra.
+
+W trakcie obowiązywania ustawy zidentyfikowano poniższe problemy:
+
+    1. Brak spójności przepisów ustawy z innymi regulacjami:
+      1) ustawą z dnia 18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U. z 2023 r.
+           poz. 285, z późn. zm.), w zakresie przekazywania do biur adresów do doręczeń
+           elektronicznych osób fizycznych i innych podmiotów;
+      2) ustawą z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego (Dz.
+           U. z 2024 r. poz. 572), zwaną dalej „KPA”.
+Ustawa nie przewiduje milczącego załatwienia sprawy w ramach procedury zatwierdzania
+regulaminów zarządzania danymi biur. Minister zatwierdza regulaminy w drodze decyzji
+administracyjnej. Wydanie decyzji jest uzależnione od uzyskania opinii Ministra
+Sprawiedliwości i PUODO, wydawanej w drodze postanowienia. Minister wydaje decyzję
+po uzyskaniu informacji, że postanowienia zawierające opinię stały się ostateczne.
+Postępowanie toczy się na wniosek biura, które przesyła ministrowi regulamin (lub jego
+zmiany).
+
+   2. Brak należytej wiedzy uczestników obrotu gospodarczego na temat zasad działania biur
+      oraz ich ofert.
+      Ustawa wymaga wprowadzenia rozwiązań mających na celu ułatwienie w korzystaniu
+      z usług biura przez klientów, którzy nie są zainteresowani stałą współpracą z biurem,
+      lecz    zamierzają   dokonać    jednorazowej      czynności.    Klienci   zainteresowani
+      okazjonalnym korzystaniem z usług biur nie mają dostępu do niektórych informacji
+      na temat ich działalności, a zwłaszcza cen za poszczególne usługi określone
+      w przepisach ustawy.
+
+   3. Minister, pomimo iż posiada wiedzę o zmianie firmy, pod którą działa biuro, nie ma
+      podstaw do zaktualizowania wykazu biur, o którym mowa w art. 11a ust. 2 ustawy.
+      Biuro bowiem swoją działalność wykonuje bez przerwy, natomiast zmianie uległa
+      wyłącznie firma.
+
+   4. Brak informacji o podmiotach, które faktycznie uzyskały informacje gospodarcze
+      z biura na temat konkretnego przedsiębiorcy lub konsumenta.
+      Ustawa    stanowi,   że   rejestr   zapytań   zawiera   m.in.    oznaczenie   podmiotu,
+      któremu ujawniono informacje gospodarcze. W przypadku występowania podmiotu
+      za pośrednictwem innego podmiotu działającego na jego rzecz (np. pełnomocnika czy
+      podmiotu świadczącego usługi księgowe czy windykacyjne), korzystającego z danych
+      dostępowych do systemu biura swojego mocodawcy (np. takich jak login i hasło),
+      informacje są ujawniane obu tym podmiotom. Biuro nie posiada wiedzy o tym, że dany
+
+                                              2
+       podmiot działa przez inny podmiot i w związku z tym nie ma możliwości odnotowania
+       w rejestrze zapytań danych podmiotów, które pozyskały takie informacje. Oznacza to,
+       że rejestr zapytań może nie odzwierciedlać stanu faktycznego, a tym samym
+       przedsiębiorca czy konsument, o którym dane zostały udostępnione, występując
+       o informacje z rejestru zapytań nie uzyskuje pełnej informacji o tym, kto o niego pytał.
+       Nadmiernie sformalizowany i utrudniony dostęp do informacji gospodarczych
+       i informacji z rejestru zapytań przez jednostki podległe Ministrowi Spraw
+       Wewnętrznych i Administracji oraz Ministrowi Obrony Narodowej.
+       W obecnym stanie prawnym uzyskanie przez jednostki podległe Ministrowi Spraw
+       Wewnętrznych i Administracji informacji gospodarczych oraz informacji z rejestru
+       zapytań wymaga zgody odpowiednio Komendanta Głównego Policji albo Komendanta
+       Głównego Straży Granicznej.
+       Obecnie ustawa nie przewiduje możliwości uzyskania informacji gospodarczych
+       oraz informacji z rejestru zapytań przez jednostki podległe Ministrowi Obrony
+       Narodowej: Szefa Służby Kontrwywiadu Wojskowego, Szefa Służby Wywiadu
+       Wojskowego oraz Komendanta Głównego Żandarmerii Wojskowej.
+
+   5. Nadmiernie sformalizowany tryb nadzoru ministra nad działalnością biur.
+       W obecnym stanie prawnym minister może przeprowadzić kontrolę biura,
+       a w przypadku stwierdzenia w jej wyniku naruszenia przez biuro przepisów ustawy
+       lub regulaminu nakazać biuru usunięcie nieprawidłowości, a w razie ich nieusunięcia
+       nałożyć na biuro kary określone w art. 43 ustawy. Realizacja uprawnień nadzorczych
+       ministra wymaga zatem, w każdym indywidualnym przypadku, przeprowadzenia
+       kolejno dwóch odrębnych postępowań: kontrolnego (w oparciu o przepisy
+       nowelizowanej ustawy oraz ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców
+       (Dz. U. z 2024 r. poz. 236) oraz administracyjnego (na podstawie KPA)). Stan taki
+       sprawia, że czynności nadzorcze ministra są przewlekłe, uciążliwe i kosztowne dla biur.
+
+Omówienie propozycji poszczególnych zmian ustawy
+
+Zmiana art. 2 ustawy:
+
+Celem zmiany jest uzupełnienie katalogu informacji gospodarczych, które mogą zostać
+przekazane do biura o adres do doręczeń elektronicznych podmiotu niebędącego konsumentem.
+Informacje o takich adresach mogą być już przekazywane w odniesieniu do osób fizycznych
+
+
+                                              3
+na podstawie art. 2 ust. 1 pkt 2 lit. b ustawy. Adres do doręczeń elektronicznych takich
+podmiotów jest informacją jawną, niemniej brak jego wskazania w katalogu informacji
+gospodarczych jest postrzegany jako luka prawna. Propozycję tej zmiany zgłosiły biura.
+Zmiana w pkt 1 w lit. b powoduje konieczność zmiany redakcyjnej w pkt 2 w lit. b, ze względu
+na przeniesienie do wcześniejszej jednostki redakcyjnej przywołania ustawy z dnia 18 listopada
+2020 r. o doręczeniach elektronicznych oraz zastosowanych skrótów.
+
+Zmiany w art. 11 ustawy:
+Art. 11 ustawy reguluje m.in. procedurę zatwierdzania przez ministra regulaminów (oraz zmian
+regulaminów) zarządzania danymi biura. Zatwierdzenie następuje po przeprowadzeniu
+postępowania administracyjnego, w toku którego regulamin (zmiany regulaminu) jest
+opiniowany przez Ministra Sprawiedliwości oraz PUODO. W obecnym stanie prawnym
+postępowanie kończy się wydaniem przez ministra decyzji administracyjnej odpowiednio
+zatwierdzającej regulamin, odmawiającej zatwierdzenia regulaminu albo umarzającej
+postępowanie.
+W przypadku braku zastrzeżeń ministra do regulaminu (zmian regulaminu) oraz uzyskania
+pozytywnych opinii Ministra Sprawiedliwości i PUODO nie ma przeszkód, aby wniosek biura
+został załatwiony pozytywnie w trybie milczącego zakończenia postępowania. W związku
+z tym projekt przewiduje (dodawany ust. 3a), że w takiej sytuacji zastosowanie znajdą
+odpowiednie przepisy KPA, z modyfikacją w zakresie terminu milczącego załatwienia sprawy.
+W przypadku zastrzeżeń ministra lub organów opiniujących, jak dotychczas, będzie wydawana
+decyzja odmawiająca zatwierdzenia regulaminu lub jego zmiany. Minister, wydając decyzję,
+nie jest związany treścią opinii organów opiniujących.
+
+Dodatkowo w art. 11 ustawy przewiduje się cztery zmiany porządkowe.
+Ust. 1 przewiduje, że regulamin zarządzania danymi jest uchwalany przez zarząd biura.
+Dodawany ust. 1a uzupełnia tę regulację o wskazanie terminu, w którym zarząd biura jest
+obowiązany przesłać regulamin do zatwierdzenia, oraz wskazuje, że biuro przesyła również
+kopię stosownej uchwały. Regulacja ta ma na celu wyeliminowanie wątpliwości praktycznych
+pojawiających się w toku prowadzonych postępowań.
+Dodawany ust. 2a przewiduje, że organy opiniujące regulamin będą obowiązane
+do niezwłocznego poinformowania ministra o dniu, w którym ich postanowienia stały się
+ostateczne. Zmiana ma na celu przyspieszenie procedury zatwierdzania regulaminów.
+W obecnej praktyce to minister występuje o przekazanie tej informacji, gdyż tylko organ
+
+
+                                              4
+prowadzący postępowanie wpadkowe jest w stanie określić terminy doręczeń i ewentualnych
+zaskarżeń wydanych przez siebie postanowień.
+Dodawany ust. 3b nakłada na ministra obowiązek poinformowania biura o dacie załatwienia
+sprawy milcząco.
+Z kolei zmieniany ust. 4 wprowadza termin, w którym minister publikuje zatwierdzony
+regulamin. W obecnym stanie prawnym nie ma w tym zakresie regulacji, co oznacza, że biuro
+nie ma wiedzy, od kiedy regulamin, zgodnie z przepisem art. 11 ust. 7, wiąże strony umów
+zawartych z biurem.
+
+
+Zmiana w art. 11a ust. 1 ustawy:
+Proponuje się nałożenie na biuro obowiązku informowania ministra o zmianach firmy,
+pod którą działa. Przepis ma charakter porządkowy.
+Obecnie biuro, będące spółką akcyjną, jest obowiązane do poinformowania ministra o podjęciu
+oraz zaprzestaniu wykonywania działalności gospodarczej oraz o adresie, na który należy
+przekazywać informacje gospodarcze.
+W toku niemal 20 lat funkcjonowania w Polsce biur kilkukrotnie wystąpiła sytuacja,
+w której biuro zmieniło swoją firmę. Literalne brzmienie obecnego art. 11a ustawy
+nie zobowiązuje jednak biura do przekazania ministrowi takiej informacji. Oznacza to,
+że minister, w przypadku zmiany nazwy spółki prowadzącej biuro, nie ma podstaw
+do zaktualizowania wykazu biur, o którym mowa w art. 11a ust. 2 ustawy. Biuro bowiem swoją
+działalność wykonuje bez przerwy, natomiast zmianie uległa wyłącznie firma.
+
+
+Dodawany art. 11b ustawy:
+Projektowana regulacja ma charakter porządkowy. Przepis ten ma na celu ułatwienie
+korzystania z usług biura przez klientów, którzy nie są zainteresowani stałą współpracą
+z biurem, lecz zamierzają dokonać jednorazowej czynności.
+
+Ustawa określa siedem przypadków, w których biuro jest obowiązane do określenia w cenniku
+wysokości opłaty za daną czynność. W związku z tym projekt przewiduje, że informację
+o wysokości opłat, o których mowa w art. 22 ust. 1, art. 22a ust. 6, art. 22b ust. 2 i 4, art. 23 ust.
+4, art. 25 ust. 2 oraz art. 27 ust. 5 ustawy, biuro publikuje w wyraźnym miejscu na swojej stronie
+internetowej. Będzie to jeden dokument zawierający jedynie tych siedem pozycji. Nie będzie
+on mieć charakteru oficjalnego cennika, tylko będzie stanowić informację o wysokości opłat,
+które wynikają z poszczególnych cenników uchwalonych przez zarząd biura.
+
+
+                                                  5
+Ustawa nie reguluje kwestii opłat za inne usługi biura. W związku z tym zasady informowania
+o nich klientów oraz sposoby konstruowania innych cenników w dalszym ciągu pozostaną
+w gestii samych biur i ich umów z klientami.
+Biura stosują najczęściej rozwiązania polegające na oferowaniu różnych pakietów usług,
+połączonych z opłatami o charakterze ryczałtowym, abonamentowym. Forma taka jest
+wygodna dla klientów biur stale korzystających z ich usług. Niemniej osoba zainteresowana
+dokonaniem jednej czynności (np. sprawdzeniem pojedynczego kontrahenta albo pobraniem
+informacji wyłącznie o sobie) może mieć trudności z ustaleniem wysokości opłaty
+przed nawiązaniem kontaktu z konkretnym biurem.
+
+Zmiany w art. 22, art. 26 i art. 27 ustawy:
+Zmiany projektowane w art. 1 pkt 5, 7 i 8 projektowanej ustawy mają na celu umożliwienie
+biurom realizację obowiązku umieszczania w rejestrze zapytań informacji o podmiocie,
+któremu ujawniono informacje gospodarcze. W obecnym stanie prawnym występują
+wątpliwości    uczestników      rynku    wymiany    informacji   gospodarczych     związane
+z udostępnianiem informacji gospodarczych podmiotom działającym na rzecz innych
+podmiotów.
+Ustawa stanowi, że rejestr zapytań zawiera m.in. oznaczenie podmiotu, któremu ujawniono
+informacje. W przypadku występowania podmiotu za pośrednictwem innego podmiotu,
+korzystającego z danych dostępowych do systemu biura swojego mocodawcy, informacje są
+faktycznie ujawniane obu tym podmiotom. Niemniej biuro nie posiada o tym wiedzy
+i w związku z tym nie ma możliwości odnotowania w rejestrze zapytań danych zarówno
+mocodawcy, jak i podmiotu działającego na jego rzecz. Oznacza to, że rejestr zapytań może nie
+odzwierciedlać stanu faktycznego.
+W związku z tym ustawa przewiduje w dodawanym art. 22 ust. 2a, że wniosek o ujawnienie
+informacji gospodarczych może zostać złożony zarówno w imieniu własnym, jak i na rzecz
+innego podmiotu. W takim przypadku biuro, na podstawie znowelizowanego przepisu art. 27
+ust. 2 pkt 2, będzie obowiązane zawrzeć w rejestrze zapytań zarówno dane podmiotu, któremu
+ujawniono informacje gospodarcze, jak również dane podmiotu działającego na jego rzecz.
+Dodawany ust. 2b tego artykułu określa zakres danych podmiotu składającego wniosek na rzecz
+innego podmiotu. Regulacja ta odnosi się do podmiotów odrębnych od klienta biura,
+w szczególności nie dotyczy uzyskiwania dostępu do informacji gospodarczych w ramach
+czynności służbowych przez jego pracowników.
+
+
+
+                                               6
+Na takim podmiocie, który otrzymał z biura informacje gospodarcze, będą spoczywać te same
+obowiązki, które dotyczą jego mocodawcy, wynikające z art. 26 ust. 1 i 2 ustawy, tj.: będzie
+musiał usuwać pobrane informacje w ustawowym terminie oraz nie będzie mógł ujawniać
+innym osobom otrzymanych informacji dotyczących dłużnika będącego konsumentem.
+Nowelizacja ustawy umożliwia biurom realizację obowiązku umieszczania w rejestrze zapytań
+informacji o podmiocie, któremu ujawniono informacje gospodarcze. Informacja taka ma
+kluczowe znaczenie dla osoby, o której informacje biuro udostępniło. Podmiot taki najczęściej
+nie jest klientem biura, a informacje zawarte w rejestrze zapytań są dla niego jedynym źródłem
+wiedzy o tym, kto i jakie jego dane posiada. Podmiotem działającym na rzecz klienta biura
+może być bowiem dowolny podmiot, np. bezpośredni konkurent czy firma windykacyjna.
+Należy podkreślić, że wprowadzenie przedmiotowej zmiany było przedmiotem konsultacji
+z poszczególnymi biurami w toku kontroli prowadzonych przez ministra. Biura wskazywały,
+że w obecnym stanie prawnym nie mają możliwości uzyskiwania od swoich klientów
+informacji o fakcie działania przez inny podmiot, jak również nie mają żadnego wpływu
+na przekazywanie przez swoich klientów innym podmiotom danych dostępowych do swojego
+systemu. Jedno z biur zadeklarowało podjęcie akcji informacyjnej dla klientów
+oraz uzupełnienie stosowanych wzorów umów w zakresie ryzyk związanych z działaniem
+przez inny podmiot. Inne biuro wprost wskazało na konieczność nowelizacji ustawy w zakresie
+odnotowywania w rejestrze zapytań informacji o np. pełnomocniku.
+Dodatkowo projekt doprecyzowuje, że w rejestrze zapytań biuro powinno odnotowywać
+informację o złożonym wniosku o udostępnienie informacji gospodarczych. Zmiana ta ma
+charakter porządkowy.
+Rozwiązanie to wynika z faktu, że niektóre biura oferują swoim klientom usługi typu
+„monitorowanie konkretnego NIP”. W ich ramach nie są udostępniane wszystkie informacje
+gospodarcze o danym podmiocie będące w posiadaniu biura, lecz informacje szczątkowe
+(np. figuruje-nie figuruje, ma/nie ma zobowiązań). Niektóre biura nie odnotowują w rejestrze
+zapytań faktu przekazania tego typu informacji.
+W opinii ministra właściwego do spraw gospodarki taka praktyka jest nieprawidłowa, a każde
+„zainteresowanie” podmiotem powinno być uwidocznione w rejestrze zapytań. W związku
+z tym, w opisanym przypadku, w rejestrze zapytań powinno być odnotowane, że konkretny
+podmiot złożył zapytanie i otrzymał informację „zero-jedynkową”.
+Należy podkreślić, że zaproponowane brzmienie przepisu nie wprowadza nowej kategorii
+danych. Pełna informacja o tym, komu, kiedy i jakie dane udostępniono, zawiera w sobie
+również informację o tym, że wniosek złożono.
+
+                                              7
+Zmiana w art. 25 ustawy:
+Jednostki podległe Ministrowi Spraw Wewnętrznych i Administracji
+
+Na wniosek Ministra Spraw Wewnętrznych i Administracji proponuje się rozszerzenie kręgu
+podmiotów uprawnionych do otrzymywania informacji gospodarczych oraz informacji
+z rejestru zapytań o organy Policji: Komendanta Centralnego Biura Śledczego Policji,
+Komendanta Biura Spraw Wewnętrznych Policji, Komendanta Centralnego Biura Zwalczania
+Cyberprzestępczości, komendanta wojewódzkiego (Stołecznego) Policji lub upoważnionych
+przez nich policjantów; organy Straży Granicznej: Komendanta Biura Spraw Wewnętrznych
+Straży Granicznej, komendanta oddziału Straży Granicznej lub upoważnionych przez nich
+funkcjonariuszy oraz Inspektora Nadzoru Wewnętrznego lub upoważnionego przez niego
+inspektora Biura.
+
+Zaproponowane zmiany mają na celu zapewnienie organom Policji i Straży Granicznej – innym
+niż Komendant Główny Policji i Komendant Główny Straży Granicznej – możliwości
+uzyskiwania informacji gospodarczych oraz informacji z rejestru zapytań. De lege lata
+podmiotami, które są ex lege uprawnionymi w tych formacjach do uzyskania informacji
+gospodarczych oraz informacji z rejestru zapytań, jest odpowiednio Komendant Główny Policji
+oraz Komendant Główny Straży Granicznej. Ograniczenie podmiotowe w dostępie do ww.
+informacji uniemożliwia bezpośrednie działanie innych organów Policji i Straży Granicznej
+wykonujących czynności służbowe dla realizacji zadań ustawowych, dla których szybkość
+dostępu do tych informacji pozostaje istotna.
+
+Rozszerzenie kręgu podmiotów uprawnionych do otrzymywania informacji gospodarczych
+oraz informacji z rejestru zapytań o organy Policji: Komendanta Centralnego Biura Śledczego
+Policji, Komendanta Biura Spraw Wewnętrznych Policji, Komendanta Centralnego Biura
+Zwalczania    Cyberprzestępczości,    komendanta     wojewódzkiego     (Stołecznego)    Policji
+oraz o organy Straży Granicznej: Komendanta Biura Spraw Wewnętrznych Straży Granicznej,
+komendanta oddziału Straży Granicznej zapewni tym podmiotom możliwość bezpośredniego
+uczestnictwa w procesie dostępu do informacji gospodarczych oraz informacji z rejestru
+zapytań, bez niepotrzebnego pośredniczenia innych podmiotów (odpowiednio Komendanta
+Głównego Policji i Komendanta Głównego Straży Granicznej). Powyższe przyspieszy proces
+przetwarzania informacji. Przetwarzanie ma na celu określenie istotności informacji, określenie
+jej wartości dla odbiorcy oraz tego, czy jest pilna, zrozumiała, a przede wszystkim – aktualna.
+Aktualność jest jednym z podstawowych kryteriów warunkujących przetwarzanie informacji
+i obrazuje, w jakim stopniu informacja odzwierciedla rzeczywistość na dany moment.
+
+                                                8
+Przetwarzanie jest najistotniejszą funkcją spełnianą przez system informacji, ponieważ podczas
+jej realizacji są tworzone bezpośrednio użyteczne dla odbiorcy wiadomości, co ma istotne
+znaczenie w kontekście sprawności i skuteczności realizacji przez służby porządku publicznego
+ich zadań ustawowych, w szczególności tych związanych z zapobieganiem i wykrywaniem
+przestępstw gospodarczych oraz ściganiem ich sprawców.
+
+Na przykładzie Policji można wskazać, że formacja ta, stosownie do art. 20 ustawy z dnia
+6 kwietnia 1990 r. o Policji (Dz. U. z 2024 r. poz. 145 i 1006), w celu realizacji zadań
+ustawowych jest uprawniona do przetwarzania informacji, w tym danych osobowych,
+z zachowaniem ograniczeń wynikających z art. 19 tej ustawy, regulujących uzyskiwanie
+informacji w wyniku kontroli operacyjnej. Ograniczenia w zakresie dostępu do zbiorów
+danych, niezależnie od źródła ich pochodzenia, określają przepisy szczególne (np. warunki
+ubiegania się o informacje) wskazane w odrębnych ustawach. Ustawodawca nie wprowadził
+ograniczeń co do kręgu podmiotów krajowych w zakresie uzyskiwania informacji niezbędnych
+do realizacji celów ustawowych Policji, która może w tym celu korzystać z danych o osobie
+(w tym również w formie zapisu elektronicznego) uzyskanych przez inne organy, służby
+i instytucje państwowe w wyniku wykonywania czynności operacyjno-rozpoznawczych.
+Dane te może przetwarzać w rozumieniu ustawy z dnia 14 grudnia 2018 r. o ochronie danych
+osobowych przetwarzanych w związku z zapobieganiem i zwalczaniem przestępczości (Dz. U.
+z 2023 r. poz. 1206), bez wiedzy i zgody osoby, której dane te dotyczą. Administrator ww.
+danych jest obowiązany udostępnić dane osobowe policjantowi wskazanemu w imiennym
+upoważnieniu Komendanta Głównego Policji, Komendanta Centralnego Biura Śledczego
+Policji, Komendanta Biura Spraw Wewnętrznych Policji, Komendanta Centralnego Biura
+Zwalczania Cyberprzestępczości, komendantów wojewódzkich Policji lub uprawnionego
+policjanta, po okazaniu tego upoważnienia oraz legitymacji służbowej. Fakt udostępnienia tych
+danych podlega ochronie na podstawie ustawy z dnia 5 sierpnia 2010 r. o ochronie informacji
+niejawnych (Dz. U. z 2024 r. poz. 632).
+
+Warto również zwrócić uwagę, że Policja jest uprawniona do przetwarzania informacji,
+w tym danych osobowych, w zakresie niezbędnym do realizacji zadań ustawowych
+lub wykonywania uprawnień związanych z prowadzeniem postępowań administracyjnych,
+realizacją czynności administracyjno-porządkowych oraz innych czynności (co wynika
+z uprawnienia na podstawie ustaw, w celach innych niż określone w art. 1 pkt 1 ustawy z dnia
+14 grudnia 2018 r. o ochronie danych osobowych przetwarzanych w związku z zapobieganiem
+i zwalczaniem przestępczości). Policja ma także prawo przetwarzać dane osobowe, o których
+
+
+                                              9
+mowa w art. 9 i art. 10 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia
+27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych
+osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy
+95/46/WE (ogólne rozporządzenie o ochronie danych osobowych).
+
+Zasygnalizowania wymaga również, że rozwiązanie w zakresie delegowania przez organy
+Policji upoważnienia na inne osoby jest już stosowane w innych przepisach ustawy o Policji
+np. w art. 20 ust. 5a. Przepis ten stanowi, że informacje i dane, o których mowa w ust. 3 tego
+artykułu, udostępnia się nieodpłatnie, w formie pisemnej lub za pomocą środków komunikacji
+elektronicznej, na wniosek Komendanta Głównego Policji, Komendanta Centralnego Biura
+Śledczego Policji, Komendanta Biura Spraw Wewnętrznych Policji, Komendanta Centralnego
+Biuro   Zwalczania    Cyberprzestępczości     albo   komendanta     wojewódzkiego      Policji
+lub upoważnionych przez nich pisemnie funkcjonariuszy. Innym przykładem przepisu
+umożliwiającego delegowanie upoważnień jest art. 105 ust. 1 ustawy z dnia 1 marca 2018 r.
+o przeciwdziałaniu praniu pieniędzy oraz finansowaniu terroryzmu (Dz. U. z 2023 r. poz. 1124,
+z późn. zm.), zgodnie z którym Generalny Inspektor Informacji Finansowej udostępnia
+posiadane informacje na pisemny i uzasadniony wniosek m.in. Komendanta Głównego Policji,
+Komendanta Centralnego Biura Śledczego Policji, Komendanta Biura Spraw Wewnętrznych
+Policji, Komendanta Centralnego Biura Zwalczania Cyberprzestępczości lub osób przez nich
+upoważnionych w zakresie ich ustawowych zadań.
+
+Przedstawione przykłady potwierdzają przyjętą w projektowanych rozwiązaniach analogię,
+umożliwiającą organom Policji zarówno uzyskiwanie informacji, jak też delegowanie
+uprawnień do ich uzyskiwania na upoważnione przez nich podmioty, bez potrzeby zmian
+przepisów pragmatycznych.
+
+W proponowanych rozwiązaniach przewidziano również możliwość uzupełnienia kręgu
+podmiotów uprawnionych do otrzymywania informacji gospodarczych oraz informacji
+z rejestru zapytań o Inspektora Nadzoru Wewnętrznego, który obecnie nie posiada uprawnień
+w przedmiotowym zakresie. Nadanie Inspektorowi Nadzoru Wewnętrznego uprawnienia
+do dostępu do wskazanych informacji jest uzasadnione wykonywaniem przez ten organ zadań
+ustawowych m.in. w zakresie rozpoznawania, zapobiegania i wykrywania popełnianych
+przez funkcjonariuszy Policji, Straży Granicznej i Służby Ochrony Państwa oraz strażaków
+Państwowej Straży Pożarnej, a także pracowników zatrudnionych w tych służbach przestępstw
+umyślnych ściganych z oskarżenia publicznego oraz przestępstw skarbowych.
+
+
+
+                                             10
+Dodatkowo należy wskazać, że organy będące adresatami proponowanych rozwiązań posiadają
+już analogiczne uprawnienia w zakresie korzystania z innych informacji prawnie chronionych
+stanowiących m.in. tajemnicę skarbową organów administracji rządowej i samorządu
+terytorialnego, tajemnicę bankową, o której mowa w ustawie z dnia 29 sierpnia 1997 r. – Prawo
+bankowe (Dz. U. z 2023 r. poz. 2488, z późn. zm.), tajemnicę zawodową w rozumieniu ustawy
+z dnia 26 października 2000 r. o giełdach towarowych (Dz. U. z 2024 r. poz. 910) czy też
+tajemnicę zawodową w rozumieniu ustawy z dnia 27 maja 2004 r. o funduszach inwestycyjnych
+i zarządzaniu alternatywnymi funduszami inwestycyjnymi (Dz. U. z 2023 r. poz. 681, z późn.
+zm.).
+
+Propozycje zawarte w projekcie są zatem spójne systemowo z innymi przejętymi
+rozwiązaniami.
+
+Jednostki podległe Ministrowi Obrony Narodowej
+
+Na wniosek Ministra Obrony Narodowej projekt rozszerza katalog podmiotów uprawnionych
+do otrzymywania informacji gospodarczych oraz informacji z rejestru zapytań prowadzonego
+przez biuro. Katalog zostaje rozszerzony o następujące podmioty: Szefa Służby Kontrwywiadu
+Wojskowego, Szefa Służby Wywiadu Wojskowego oraz Komendanta Głównego Żandarmerii
+Wojskowej, komendanta oddziału Żandarmerii Wojskowej lub upoważnionych przez nich
+żołnierzy tej formacji.
+
+Służba Kontrwywiadu Wojskowego i Służba Wywiadu Wojskowego, w celu realizacji zadań
+ustawowych, są uprawnione do przetwarzania informacji, w tym danych osobowych. Dostęp
+do informacji gospodarczej jest konieczny do realizowania ustawowych zadań określonych
+w art. 5 (odnośnie do Służby Kontrwywiadu Wojskowego) oraz art. 6 (odnośnie do Służby
+Wywiadu Wojskowego) ustawy z dnia 9 czerwca 2006 r. o Służbie Kontrwywiadu
+Wojskowego oraz Służbie Wywiadu Wojskowego (Dz. U. z 2023 r. poz. 81, z późn. zm.).
+Służba Kontrwywiadu Wojskowego wykonuje zadania związane z rozpoznawaniem,
+zapobieganiem oraz wykrywaniem przestępstw popełnianych przez żołnierzy pełniących
+czynną służbę wojskową, funkcjonariuszy Służby Kontrwywiadu Wojskowego i Służby
+Wywiadu Wojskowego oraz pracowników Sił Zbrojnych Rzeczypospolitej Polskiej i innych
+jednostek organizacyjnych Ministerstwa Obrony Narodowej. Służba Kontrwywiadu
+Wojskowego realizuje również zadania związane z uzyskiwaniem, gromadzeniem,
+analizowaniem, przetwarzaniem i przekazywaniem właściwym organom informacji mogących
+mieć znaczenie dla obronności państwa, bezpieczeństwa lub zdolności bojowej Sił Zbrojnych
+Rzeczypospolitej Polskiej lub innych jednostek organizacyjnych Ministerstwa Obrony
+
+                                             11
+Narodowej. Ponadto zadania Służby Kontrwywiadu Wojskowego są związane z ochroną
+bezpieczeństwa badań naukowych i prac rozwojowych (zleconych przez Siły Zbrojne
+Rzeczypospolitej Polskiej i inne jednostki organizacyjne Ministerstwa Obrony Narodowej)
+oraz produkcji i obrotu towarami, technologiami i usługami o przeznaczeniu wojskowym.
+Służba Wywiadu Wojskowego uzyskuje, gromadzi, analizuje, przetwarza i przekazuje
+właściwym organom informacje mogące mieć znacznie dla bezpieczeństwa potencjału
+obronnego Rzeczypospolitej Polskiej, bezpieczeństwa i zdolności bojowej Sił Zbrojnych
+Rzeczypospolitej Polskiej oraz warunków realizacji przez Siły Zbrojne Rzeczypospolitej
+Polskiej zadań poza granicami państwa.
+Dostęp do informacji gospodarczej jest konieczny m.in. do prawidłowej realizacji osłony
+postępowań publicznych związanych z zamówieniami na rzecz resortu obrony narodowej i
+jednostek     oraz     instytucji     podległych      Ministrowi      Obrony      Narodowej
+lub przez nie nadzorowanych. Informacje te są także istotne przy ocenie wiarygodności
+podmiotów zaangażowanych w prowadzone na rzecz resortu obrony narodowej badania
+rozwojowe czy przy realizacji zadań związanych ze zwalczaniem korupcji. Są również
+niezbędne do wykrywania i ścigania przestępstw popełnianych na szkodę resortu obrony
+narodowej, określonych w art. 5 ust. 1 pkt 1 ustawy z dnia 9 czerwca 2006 r. o Służbie
+Kontrwywiadu Wojskowego oraz Służbie Wywiadu Wojskowego.
+Ponadto dane te będą pomocne przy wydawaniu organowi kontroli stanowiska, o którym mowa
+w ustawie z dnia 29 listopada 2000 r. o obrocie z zagranicą towarami, technologiami i usługami
+o znaczeniu strategicznym dla bezpieczeństwa państwa, a także dla utrzymania
+międzynarodowego pokoju i bezpieczeństwa (Dz. U. z 2023 r. poz. 1582).
+W obowiązującym stanie prawnym analogiczne uprawnienia posiadają Szef Agencji
+Bezpieczeństwa Wewnętrznego, Szef Agencji Wywiadu (art. 25 ust. 1 pkt 2 nowelizowanej
+ustawy) oraz Szef Centralnego Biura Antykorupcyjnego (art. 25 ust. 1 pkt 11 nowelizowanej
+ustawy).
+Podobnie w odniesieniu do Żandarmerii Wojskowej celem zaproponowanych zmian jest
+zapewnienie tej formacji właściwej realizacji jej ustawowych zadań (ustawa z dnia 24 sierpnia
+2001 r. o Żandarmerii Wojskowej i wojskowych organach porządkowych (Dz. U. z 2023 r.
+poz. 1266, z późn. zm.), zwana dalej „ustawą o ŻW”. Zaproponowane zmiany są zbieżne
+z rozwiązaniami przedstawionymi przez Ministra Spraw Wewnętrznych i Administracji
+w zakresie Policji z uwzględnieniem odrębnych przepisów wynikających z ustawy o ŻW.
+W propozycji, jako uprawnionych, wskazano Komendanta Głównego Żandarmerii Wojskowej,
+komendantów oddziałów Żandarmerii Wojskowej lub upoważnionych przez nich żołnierzy
+
+                                             12
+Żandarmerii Wojskowej. Rozszerzenie uprawnienia ma na celu przyspieszenie dostępu do tych
+informacji w celu realizowania powierzonych tym formacjom zadań.
+Żandarmeria Wojskowa, zgodnie z art. 29 ust. 1 ustawy o ŻW, w celu realizacji ustawowych
+zadań jest uprawniona do przetwarzania informacji, w tym danych osobowych,
+oraz ich wymiany z właściwymi organami i instytucjami krajowymi Unii Europejskiej i innych
+państw, a także organizacjami międzynarodowymi. Ponadto, zgodnie z art. 29 ust. 2 ustawy
+o ŻW, Żandarmeria Wojskowa, w celach, o których mowa w art. 1 pkt 1 ustawy
+z dnia 14 grudnia 2018 r. o ochronie danych osobowych przetwarzanych w związku
+z zapobieganiem i zwalczaniem przestępczości, przetwarza dane osobowe w zakresie
+niezbędnym do realizacji zadań ustawowych związanych z zapobieganiem i zwalczaniem
+przestępstw oraz przestępstw skarbowych, a także wykroczeń oraz wykroczeń skarbowych,
+w tym dane osobowe, o których mowa w art. 14 ust. 1 tej ustawy.
+Żandarmeria Wojskowa, w zakresie swojej właściwości, przetwarza informacje, w tym dane
+osobowe, uzyskane ze zbiorów danych prowadzonych przez inne służby, instytucje państwowe
+oraz organy władzy publicznej. Służby, instytucje państwowe oraz organy władzy publicznej
+są obowiązane do nieodpłatnego udostępnienia Żandarmerii Wojskowej informacji, w tym
+danych osobowych, na podstawie pisemnego wniosku Komendanta Głównego Żandarmerii
+Wojskowej lub komendanta terenowej jednostki organizacyjnej Żandarmerii Wojskowej
+(tj. oddziału lub wydziału). Podmioty, o których mowa w art. 29 ust. 4 ustawy o ŻW, mogą
+wyrazić pisemną zgodę na udostępnianie danych zgromadzonych w zbiorach danych
+jednostkom    organizacyjnym    Żandarmerii        Wojskowej,   w   drodze   teletransmisji,
+bez konieczności składania pisemnego wniosku, jeżeli jednostki te spełniają łącznie
+następujące warunki:
+1) posiadają urządzenia umożliwiające odnotowanie w systemie, kto, kiedy i w jakim celu
+   oraz jakie dane uzyskał;
+2) posiadają zabezpieczenie techniczne i organizacyjne uniemożliwiające wykorzystanie
+   danych niezgodnie z celem ich uzyskania.
+Proponowane nowe brzmienie art. 25 ust. 1 pkt 20 ustawy, przewidujące delegowanie
+przez organy Żandarmerii Wojskowej upoważnienia na inne osoby, jest analogiczne do już
+stosowanego w innych przepisach ustawy o ŻW, np. w art. 29 ust. 8 i 9, które stanowią,
+iż Komendant Główny Żandarmerii Wojskowej może upoważnić do przetwarzania danych
+osobowych ze zbiorów danych osobowych, utworzonych w celu realizacji zadań ustawowych,
+szefów komórek organizacyjnych Komendy Głównej Żandarmerii Wojskowej. Jednocześnie
+Komendant Główny Żandarmerii Wojskowej może upoważnić ww. osoby do udzielania
+
+                                              13
+i cofania, w jego imieniu, upoważnień do przetwarzania danych osobowych podległym im
+żołnierzom i pracownikom Żandarmerii Wojskowej.
+Przedstawiony przykład potwierdza analogię przyjętą w projektowanych rozwiązaniach,
+umożliwiających organom Żandarmerii Wojskowej zarówno uzyskiwanie informacji, jak też
+delegowanie uprawnień do ich uzyskiwania na upoważnione przez nich podmioty, bez potrzeby
+zmian przepisów pragmatycznych.
+
+Dodawany art. 32a i zmiana w art. 43 ust. 1 ustawy:
+Projekt ma na celu uproszczenie i ograniczenie uciążliwości dla biur powstających na skutek
+prowadzonych czynności związanych z nadzorem ministra nad ich działalnością. Skala
+stwierdzanych przez ministra naruszeń nie jest duża, niemniej ustawa przewiduje
+skomplikowaną procedurę ich korekty.
+W obecnym stanie prawnym minister może przeprowadzić kontrolę biura, a w przypadku
+stwierdzenia w jej wyniku naruszenia przez biuro przepisów ustawy lub regulaminu,
+po przeprowadzeniu      postępowania     administracyjnego,   nakazać    biuru    usunięcie
+nieprawidłowości, a w razie ich nieusunięcia nałożyć kary określone w art. 43 ustawy.
+Realizacja uprawnień nadzorczych ministra wymaga zatem, w każdym indywidualnym
+przypadku, przeprowadzenia kolejno dwóch odrębnych formalnych postępowań: kontrolnego
+(w oparciu o przepisy ustawy oraz ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców)
+oraz administracyjnego (na podstawie KPA). Taki stan sprawia, że czynności nadzorcze
+ministra są przewlekłe, uciążliwe i kosztowne dla biur.
+W większości przypadków wynikający z obowiązujących przepisów tryb działania ministra nie
+jest uzasadniony. Niezależnie od możliwości przeprowadzenia kontroli minister, w razie
+powzięcia wątpliwości co do prawidłowości działania biura, prowadzi z biurem
+korespondencję, jak również przekazuje biurom swoje uwagi w ramach procedury
+zatwierdzania regulaminów. Po otrzymaniu stanowiska ministra biura najczęściej deklarują
+dokonanie korekt w zakresie wnioskowanym przez organ nadzoru.
+W związku z tym projekt przewiduje rozwiązanie wzorowane na obowiązującym od 2015 r.
+na podstawie art. 49a ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów
+(Dz. U. z 2024 r. poz. 594). Wprowadzany przepis art. 32a ustawy będzie stanowić podstawę
+prawną dla niewładczych działań ministra polegających na wyjaśnianiu wątpliwych kwestii
+bezpośrednio z biurem, poza formalnym postępowaniem kontrolnym lub administracyjnym.
+Dzięki temu będzie możliwe ustalenie i ewentualna korekta naruszeń ustawy lub regulaminu
+przez biuro bez konieczności sięgania przez ministra po instrumenty o charakterze władczym.
+
+
+                                              14
+Przewiduje się, że minister będzie mógł wystąpić pisemnie do biura w każdej sprawie związanej
+z nadzorem, o którym mowa w art. 32 ustawy. Rozwiązanie to znajdzie zastosowanie
+w sytuacji, w której organ nadzoru uzyska informacje wskazujące na możliwość wystąpienia
+nieprawidłowości w działalności biura. Informacje te mogą pochodzić z różnych źródeł:
+np. z korespondencji    obywateli    kierowanej    do    ministra,     publikacji   prasowych
+czy zapadających wyroków sądowych. Minister będzie mógł wystąpić do biura z wnioskiem
+o przedstawienie stanowiska i wyjaśnień, jeżeli z uzyskanych informacji poweźmie wątpliwość
+co do prawidłowości działań biura.
+Przewidywane uprawnienie ministra będzie miało charakter doraźny.
+Zaproponowane rozwiązanie jest w swojej istocie zbliżone do postępowania kontrolnego
+prowadzonego na podstawie art. 51 ust. 2 ustawy z dnia 6 marca 2018 r. – Prawo
+przedsiębiorców. Przepis ten umożliwia przeprowadzenie kontroli, za zgodą przedsiębiorcy,
+w miejscu innym niż siedziba czy miejsce wykonywania działalności biura. Przeprowadzanie
+kontroli w tym trybie wiąże się jednak z koniecznością przedsięwzięcia przez ministra i samo
+biuro szeregu formalnych czynności powodujących po obu stronach istotne koszty
+oraz dezorganizację bieżącej działalności.
+Dlatego kontrole na podstawie ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców
+prowadzi się w przypadku oceny całokształtu działalności danego biura i przestrzegania
+przez nie przepisów ustawy i regulaminu zarządzania danymi. W okresie 20 lat obowiązywania
+regulacji związanych z udostępnianiem informacji gospodarczych tylko raz minister
+przeprowadził kontrolę doraźną, podczas której został zbadany wyłącznie jeden, konkretny
+aspekt działalności biura. W latach 2004–2024 minister właściwy do spraw gospodarki
+przeprowadził łącznie 15 kontroli w biurach informacji gospodarczej.
+Do ministra cyklicznie wpływają wnioski obywateli, przedsiębiorców czy ich profesjonalnych
+pełnomocników o przeprowadzenie kontroli danego biura informacji gospodarczej
+w kontekście jego działań w konkretnej sprawie. Abstrahując od tego, że ustawa nie przewiduje
+możliwości przeprowadzania kontroli na wniosek, należy wskazać, że minister, zgodnie
+z art. 32 ust. 1 ustawy, nadzoruje biuro w zakresie zgodności wykonywanej działalności
+gospodarczej z ustawą i regulaminem. Oznacza to, że przedmiotem oceny nadzorczej ministra
+jest całokształt działalności danego biura, nie zaś jego postępowanie w sprawach
+indywidualnych.
+Niemniej analiza nadsyłanej korespondencji może wskazywać na konkretne ryzyka czy też
+wątpliwości co do prawidłowości działań biura w konkretnym, wąskim obszarze. Z reguły są
+to kwestie wymagające analizy wewnętrznych dokumentów biura czy też wręcz czynności
+
+                                             15
+podejmowanych przez poszczególnych pracowników biura. Dokonanie wiarygodnych ustaleń
+i sformułowanie w takiej sytuacji wniosków wymaga pozyskania od biura dokumentacji
+i dodatkowych pisemnych wyjaśnień, co jest czasochłonne. W takiej sytuacji wszczynanie
+kontroli biura jest z jednej strony nieuzasadnione ze względu na szczegółowość
+i jednostkowość problemu, a z drugiej – często nie przyniesie efektu w związku
+z ograniczonym czasem na przeprowadzenie czynności kontrolnych.
+
+Konsekwencją wprowadzenia nowego uprawnienia jest korekta brzmienia art. 43 ust. 1 ustawy.
+W obecnym stanie prawnym przepis ten nakłada na ministra obowiązek wszczęcia
+postępowania administracyjnego w razie stwierdzenia naruszenia przez biuro przepisów ustawy
+lub regulaminu w wyniku kontroli. Ustawa wprowadza możliwość wszczęcia takiego
+postępowania w razie stwierdzenia naruszenia w wyniku kontroli, jak również w przypadku
+powzięcia przez ministra uzasadnionego podejrzenia takiego naruszenia na podstawie
+informacji pochodzących z innych źródeł.
+
+
+
+Zmiana w art. 41 ustawy:
+Dodawany ust. 3 ma na celu wyeliminowanie wątpliwości praktycznej, kto jest właściwy
+do podpisania stanowiska wobec zgłoszonych zastrzeżeń do protokołu kontroli. Art. 40 ust. 1
+pkt 8 ustawy jednoznacznie określa, że protokół kontroli powinien zawierać m.in. podpisy
+kontrolującego. Natomiast art. 41 ust. 2 ustawy stanowi jedynie, że kontrolujący jest
+obowiązany sporządzić pisemne stanowisko wraz z uzasadnieniem wobec zgłoszonych
+zastrzeżeń.
+Przepis ten nie precyzuje zatem, czy sporządzenie stanowiska oznacza również jego podpisanie.
+W dotychczasowej praktyce minister przyjmował, że stanowisko wobec zastrzeżeń,
+analogicznie jak protokół kontroli, podpisuje kontrolujący, czyli wszyscy członkowie zespołu
+kontrolerów upoważnieni przez ministra, zgodnie z przepisem art. 33 ust. 1 ustawy,
+do przeprowadzenia kontroli działalności gospodarczej biura.
+W związku z tym w projekcie doprecyzowano, że stanowisko wobec zastrzeżeń biura
+do protokołu kontroli podpisuje kontrolujący i przedkłada je, wraz z protokołem kontroli,
+osobie upoważnionej do reprezentowania biura.
+
+Przepisy przejściowe:
+Projekt ustawy przewiduje dwa przepisy przejściowe.
+Pierwszy z nich dotyczy obowiązku dostosowania przez biura regulaminów zarządzania
+danymi do zmian wprowadzonych projektowaną regulacją związanych z uzyskiwaniem
+
+                                             16
+informacji gospodarczych przez klientów biur za pośrednictwem innych podmiotów
+działających na ich rzecz. Przewiduje się, że biura będą miały obowiązek dostosowania
+regulaminu w terminie 6 miesięcy od wejścia w życie przepisów ustawy odnoszących się
+do zamieszczania w rejestrze zapytań danych tych podmiotów pobierających informacje
+gospodarcze z biura. W przypadku nieprzekazania zmienionego regulaminu minister wydaje
+decyzję o zakazie wykonywania działalności przez biuro.
+Drugi przepis przejściowy nakazuje biurom publikację na stronie internetowej informacji o
+wysokości opłat za usługi biura, o których mowa w art. 22 ust. 1, art. 22a ust. 6, art. 22b ust. 2
+i 4, art. 23 ust. 4, art. 25 ust. 2 oraz art. 27 ust. 5 ustawy, w terminie 30 dni od dnia wejścia
+w życie ustawy. W połączeniu z 30-dniowym okresem vacatio legis oznacza to, że zarządy biur
+będą miały 60 dni na dokonanie tej czynności.
+Ustawa nie wymaga wprowadzenia przepisów przejściowych w innym zakresie. Projekt
+nie przewiduje zmian w innych postępowaniach, które mogłyby zostać wszczęte
+przed wejściem w życie nowych regulacji, a zostać zakończone w nowym stanie prawnym.
+
+Wejście w życie ustawy:
+Przewiduje się, że ustawa wejdzie w życie po upływie 30 dni od dnia ogłoszenia, z wyjątkiem
+art. 1 pkt 5 i 8, które wejdą w życie po upływie 6 miesięcy od dnia ogłoszenia. Ma to na celu
+umożliwienie biurom dostosowanie swoich systemów teleinformatycznych do obowiązku
+gromadzenia danych podmiotów występujących o ujawnienie informacji gospodarczych na
+rzecz innych podmiotów, w celu informowania o nich w ramach rejestru zapytań.
+Oceniając wpływ projektowanego aktu na mikro-, małych i średnich przedsiębiorców, zgodnie
+z art. 66 ust. 1 pkt 2 ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców, należy wskazać,
+że wprowadzane rozwiązania mają pośredni wpływ na te podmioty. Poszczególne
+projektowane rozwiązania powinny wpłynąć na ogólną poprawę relacji przedsiębiorców
+z biurami. Klienci biur uzyskają precyzyjne i jednoznaczne informacje o zakresie działalności
+i stosowanych cennikach biura oraz informacje o podmiotach, które posiadają informacje
+gospodarcze. Same biura odniosą korzyści wynikające z poprawy warunków współpracy
+z klientami oraz zwiększenia świadomości społecznej zasad funkcjonowania rynku wymiany
+informacji gospodarczej.
+Wszystkie działające w Polsce biura mają status małego lub średniego przedsiębiorcy.
+
+Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej
+w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248) oraz § 52 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2022 r.
+
+
+                                               17
+poz. 348) projekt ustawy został udostępniony w Biuletynie Informacji Publicznej Rządowego
+Centrum Legislacji, w serwisie „Rządowy Proces Legislacyjny”, z chwilą przekazania do
+uzgodnień z członkami Rady Ministrów.
+Niektóre przepisy ustawy z dnia 9 kwietnia 2010 r. o udostępnianiu informacji gospodarczych
+i wymianie     danych     gospodarczych   zostały    notyfikowane     Komisji    Europejskiej
+w trybie art. 15 ust. 7 i art. 39 ust. 5 dyrektywy 2006/123/WE Parlamentu Europejskiego i Rady
+z dnia 12 grudnia 2006 r. dotyczącej usług na rynku wewnętrznym (Dz. Urz. UE L 376
+z 27.12.2006, str. 36).
+
+Projektowana nowelizacja nie podlega notyfikacji w rozumieniu przepisów dotyczących
+krajowego systemu notyfikacji norm i aktów prawnych.
+
+Ustawa jest zgodna z prawem Unii Europejskiej.
+Wejście w życie ustawy nie spowoduje wzrostu wydatków ani wpływów do budżetu państwa.
+Ustawa nie podlega obowiązkowi przedstawienia właściwym organom i instytucjom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia, o którym mowa w § 27 ust. 4 uchwały nr 190
+Rady Ministrów z dnia 29 października 2013 r. –Regulamin pracy Rady Ministrów.
+
+
+
+
+                                             18
+Nazwa projektu                                                            Data sporządzenia
+Projekt ustawy o zmianie ustawy o udostępnianiu informacji                27.06.2024
+ gospodarczych i wymianie danych gospodarczych
+Ministerstwo wiodące i ministerstwa współpracujące
+Ministerstwo Rozwoju i Technologii (MRiT)                                 Źródło
+Ministerstwo Spraw Wewnętrznych i Administracji (MSWiA)                   Inne
+Ministerstwo Obrony Narodowej (MON)
+ Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza            Nr w Wykazie prac legislacyjnych
+ Stanu lub Podsekretarza Stanu                                            i programowych Rady Ministrów
+ Waldemar Sługocki, Sekretarz Stanu w MRiT                                UD21
+Kontakt do opiekuna merytorycznego projektu
+Wojciech Paluch, Dyrektor Departamentu Małych i Średnich
+ Przedsiębiorstw w MRiT,
+tel. 22 411 94 47, wojciech.paluch@mrit.gov.pl
+Marcin Jądrzyk, naczelnik wydziału
+tel. 22 411 94 49, marcin.jadrzyk@mrit.gov.pl
+
+                                OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Potrzeba nowelizacji ustawy z dnia 9 kwietnia 2010 r. o udostępnianiu informacji gospodarczych i wymianie danych
+gospodarczych (Dz. U. z 2023 r. poz. 2160), zwanej dalej „ustawą”, wynika z dotychczasowych doświadczeń nadzorczych
+ministra właściwego do spraw gospodarki, zwanego dalej „ministrem”, nad działalnością biur informacji gospodarczej,
+zwanych dalej „biurami”. Zmiana przepisów ma na celu przede wszystkim wyeliminowanie wątpliwości interpretacyjnych
+dotyczących stosowania przepisów ustawy. Część zmian wynika z wniosków innych podmiotów (Ministra Spraw
+Wewnętrznych i Administracji, Ministra Obrony Narodowej, biur).
+Minister sprawuje nadzór merytoryczny nad działalnością biur. W ramach nadzoru minister, po uzyskaniu opinii Ministra
+Sprawiedliwości oraz Prezesa Urzędu Ochrony Danych Osobowych, zwanego dalej „PUODO”, zatwierdza obowiązujący
+w danym biurze regulamin zarządzania danymi, przeprowadza kontrole w biurach, prowadzi z biurami korespondencję,
+a także analizuje na bieżąco publikacje oraz zapadające wyroki sądowe.
+Ogólna ocena funkcjonowania przepisów ustawy oraz realizacji przez biura powierzonych im zadań wypada pozytywnie.
+Niemniej niektóre kwestie wymagają doprecyzowania i usprawnienia.
+Regulacje w zakresie udostępniania informacji gospodarczych obowiązują od 2003 r. Od tego czasu kompleksowe zmiany
+ustawowe wprowadzono dwukrotnie: w 2010 r. ustawą z dnia 9 kwietnia 2010 r. o udostępnianiu informacji gospodarczych
+i wymianie danych gospodarczych (nowa ustawa) oraz w 2017 r. ustawą z dnia 7 kwietnia 2017 r. o zmianie innych ustaw
+w celu dochodzenia wierzytelności (Dz. U. poz. 933, z późn. zm.) – w ramach tzw. Pakietu wierzycielskiego. Obecnie
+działalność gospodarczą w Polsce polegającą na udostępnianiu informacji gospodarczych wykonują cztery biura.
+Ich wykaz jest publikowany na stronie internetowej ministra.
+Zidentyfikowane problemy:
+     1. Brak spójności przepisów ustawy z innymi regulacjami:
+1) ustawą z dnia 18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U. z 2023 r. poz. 285, z późn. zm.),
+     uniemożliwiający biurom stosowanie jednolitej praktyki postępowania wobec różnych kategorii podmiotów;
+2) ustawą z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego (Dz. U. z 2024 r. poz. 572), zwaną dalej
+     „KPA”.
+Ustawa nie przewiduje milczącego załatwienia sprawy w ramach procedury zatwierdzania regulaminów zarządzania
+danymi biur. Minister zatwierdza w drodze decyzji administracyjnej regulaminy zarządzania danymi biur. Wydanie decyzji
+jest uzależnione od uzyskania opinii Ministra Sprawiedliwości i PUODO, wydawanej w drodze postanowienia. Minister
+wydaje decyzję po uzyskaniu informacji, że postanowienia zawierające opinię stały się ostateczne. Postępowanie toczy się
+na wniosek biura, które przesyła ministrowi regulamin (lub jego zmiany).
+     2. Brak należytej wiedzy uczestników obrotu gospodarczego na temat zasad działania oraz oferty biur
+1) ustawa wymaga wprowadzenia rozwiązań mających na celu ułatwienie z korzystania z usług biura przez klientów,
+     którzy nie są zainteresowani stałą współpracą z biurem, lecz zamierzają dokonać jednorazowej czynności. Klienci
+     zainteresowani okazjonalnym korzystaniem z usług biur nie mają dostępu do niektórych informacji na temat ich
+     działalności, a zwłaszcza cen za poszczególne usługi określone w przepisach ustawy;
+2) w toku niemal 20 lat funkcjonowania w Polsce biur kilkukrotnie wystąpiła sytuacja, w której biuro zmieniło firmę,
+     pod którą działa. Literalne brzmienie obecnego art. 11a ustawy nie zobowiązuje jednak biura do przekazania
+    ministrowi takiej informacji. Oznacza to, że minister, mimo iż posiada informacje o zmianie firmy uzyskaną np.
+    z Krajowego Rejestru Sądowego, nie ma podstaw do zaktualizowania wykazu biur, o którym mowa w art. 11a ust. 2
+    ustawy. Biuro bowiem swoją działalność wykonuje bez przerwy, natomiast zmianie uległa wyłącznie jego firma.
+    3. Brak informacji o podmiotach, które faktycznie pozyskały informacje gospodarcze z biura na temat
+        konkretnego przedsiębiorcy lub konsumenta
+Ustawa stanowi, że rejestr zapytań zawiera m.in. oznaczenie podmiotu, któremu ujawniono informacje gospodarcze.
+W przypadku występowania podmiotu za pośrednictwem innego podmiotu działającego na jego rzecz, korzystającego
+z danych dostępowych do systemu biura swojego mocodawcy, informacje są ujawniane obu tym podmiotom. Biuro
+nie posiada wiedzy o tym, że dany podmiot działa przez inny podmiot i w związku z tym nie ma możliwości odnotowania
+w rejestrze zapytań danych wszystkich podmiotów, które pozyskały takie informacje. Oznacza to, że rejestr zapytań może
+nie odzwierciedlać stanu faktycznego.
+    4. Nadmiernie sformalizowany i utrudniony dostęp do informacji gospodarczych i informacji z rejestru
+        zapytań przez jednostki podległe Ministrowi Spraw Wewnętrznych i Administracji oraz brak dostępu do
+        tych danych przez jednostki podległe Ministrowi Obrony Narodowej
+W obecnym stanie prawnym uzyskanie przez jednostki podległe Ministrowi Spraw Wewnętrznych i Administracji
+informacji gospodarczych oraz informacji z rejestru zapytań wymaga zgody, odpowiednio, Komendanta Głównego Policji
+albo Komendanta Głównego Straży Granicznej.
+Obowiązująca ustawa nie przewiduje możliwości dostępu do tych danych dla jednostek podległych Ministrowi Obrony
+Narodowej: Służbie Kontrwywiadu Wojskowego, Służbie Wywiadu Wojskowego oraz Żandarmerii Wojskowej.
+    5. Nadmiernie sformalizowany tryb nadzoru ministra nad działalnością biur
+W obecnym stanie prawnym minister może przeprowadzić kontrolę biura, a w przypadku stwierdzenia w jej wyniku
+naruszenia przez biuro przepisów ustawy lub regulaminu – nakazać biuru usunięcie nieprawidłowości lub nałożyć na biuro
+kary określone w art. 43 ustawy. Realizacja uprawnień nadzorczych ministra wymaga zatem, w każdym indywidualnym
+przypadku, przeprowadzenia dwóch odrębnych postępowań: kontrolnego (w oparciu o przepisy nowelizowanej ustawy
+oraz ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców (Dz. U. z 2024 r. poz. 236) oraz administracyjnego
+(na podstawie KPA)). Stan taki sprawia, że czynności nadzorcze ministra są przewlekłe, uciążliwe i kosztowne dla biur.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Brak możliwości rozwiązania wskazanych problemów w drodze działań pozalegislacyjnych.
+ad 1. Spójność z innymi ustawami
+1) uzupełnienie katalogu informacji gospodarczych, które mogą zostać przekazane do biura, o adres do doręczeń
+    elektronicznych podmiotu niebędącego konsumentem. Informacje o takich adresach mogą być już przekazywane
+    w odniesieniu do osób fizycznych;
+2) w przypadku braku zastrzeżeń do regulaminu zarządzania danymi oraz uzyskania pozytywnych opinii Ministra
+    Sprawiedliwości i PUODO nie ma przeszkód, aby wniosek biura został załatwiony pozytywnie w trybie milczącego
+    zakończenia postępowania. W przypadku zastrzeżeń ministra lub organów opiniujących, tak jak dotychczas, będzie
+    wydawana decyzja odmawiająca zatwierdzenia regulaminu lub jego zmiany.
+ad 2. Informacja o działalności biur
+1) Cenniki
+Ustawa określa siedem przypadków, w których biuro jest obowiązane do określenia w cenniku wysokości opłaty za daną
+czynność. W związku z tym proponuje się, aby informację o wysokości opłat, o których mowa w art. 22 ust. 1, art. 22a ust.
+6, art. 22b ust. 2 i 4, art. 23 ust. 4, art. 25 ust. 2 oraz art. 27 ust. 5 ustawy, zarząd biura publikował na stronie internetowej
+w jednym dokumencie. Będzie to dokument zawierający jedynie tych siedem pozycji, nie będzie to oficjalny cennik, lecz
+informacja o opłatach wynikających z cenników uchwalonych przez zarząd biura.
+Nie oznacza to jednak, że biuro nie będzie mogło stosować innych opłat (w zakresie dopuszczonym w ustawie) czy form
+rozliczeń z klientami, ustalanych indywidualnie. Projektowana regulacja ma cel wyłącznie informacyjno-porządkowy;
+2) Firma, pod którą działa biuro
+Proponuje się nałożenie na biuro obowiązku informowania ministra o zmianach firmy, pod którą działa.
+ad 3. Informacja o podmiocie, który faktycznie uzyskał dane z biura
+Nowelizacja ustawy umożliwia biurom realizację obowiązku umieszczania w rejestrze zapytań informacji o podmiocie,
+któremu ujawniono informacje gospodarcze. Informacja taka ma kluczowe znaczenie dla osoby, o której biuro udostępniło
+informacje, gdyż najczęściej nie jest ona klientem biura, a informacje zawarte w rejestrze zapytań są dla niej jedynym
+źródłem wiedzy o tym, kto i jakie jej dane posiada. Podmiotem działającym na rzecz klienta biura może być bowiem
+dowolny podmiot, np. bezpośredni konkurent czy firma windykacyjna.
+
+
+                                                               2
+W związku z tym projektowana ustawa przewiduje, że każdy podmiot występujący z wnioskiem o ujawnienie informacji
+gospodarczych na rzecz innego podmiotu będzie obowiązany podać we wniosku określone w ustawie swoje dane, a biuro
+będzie obowiązane odnotować w rejestrze zapytań fakt ujawnienia danych zarówno temu podmiotowi, jak i jego
+mocodawcy. Po wejściu w życie projektowanej regulacji biura będą obowiązane do jednorazowej aktualizacji
+regulaminów zarządzania danymi.
+Na tym podmiocie, który otrzymał z biura informacje gospodarcze, będą spoczywać te same obowiązki, które dotyczą jego
+mocodawcy, tj. w zakresie zakazu udostępniania otrzymanych informacji gospodarczych oraz obowiązku ich usuwania
+w ustawowym terminie.
+ad 4. Jednostki podległe Ministrowi Spraw Wewnętrznych i Administracji oraz Ministrowi Obrony Narodowej
+Na wniosek Ministra Spraw Wewnętrznych i Administracji proponuje się rozszerzenie kręgu podmiotów uprawnionych
+do otrzymywania informacji gospodarczych oraz informacji z rejestru zapytań o organy Policji: Komendanta Centralnego
+Biura Śledczego Policji, Komendanta Biura Spraw Wewnętrznych Policji, Komendanta Centralnego Biura Zwalczania
+Cyberprzestępczości, komendanta wojewódzkiego (Stołecznego) Policji lub upoważnionego przez nich policjanta; organy
+Straży Granicznej: Komendanta Biura Spraw Wewnętrznych Straży Granicznej, komendanta oddziału Straży Granicznej
+lub upoważnionego przez nich funkcjonariusza oraz Inspektora Nadzoru Wewnętrznego lub upoważnionego przez niego
+inspektora Biura.
+Organy te posiadają analogiczne uprawnienia w zakresie korzystania z innych informacji prawnie chronionych
+stanowiących m.in. tajemnicę skarbową organów administracji rządowej i samorządu terytorialnego, tajemnicę bankową,
+o której mowa w ustawie z dnia 29 sierpnia 1997 r. – Prawo bankowe (Dz. U. z 2023 r. poz. 2488, z późn. zm.), tajemnicę
+zawodową w rozumieniu ustawy z dnia 26 października 2000 r. o giełdach towarowych (Dz. U. z 2024 r. poz. 910) czy też
+tajemnicę zawodową w rozumieniu ustawy z dnia 27 maja 2004 r. o funduszach inwestycyjnych i zarządzaniu
+alternatywnymi funduszami inwestycyjnymi (Dz. U. z 2023 r. poz. 681, z późn. zm.). Propozycje zawarte w projekcie będą
+spójne systemowo z innymi przejętymi rozwiązaniami.
+Na wniosek Ministra Obrony Narodowej proponuje się rozszerzenie kręgu podmiotów uprawnionych do otrzymywania
+informacji gospodarczych oraz informacji z rejestru zapytań o Szefów: Służby Kontrwywiadu Wojskowego oraz Służby
+Wywiadu Wojskowego oraz Komendanta Głównego Żandarmerii Wojskowej, komendanta oddziału Żandarmerii
+Wojskowej lub upoważnionych przez nich żołnierzy Żandarmerii Wojskowej.
+Dostęp do informacji gospodarczej m.in. informacji o podmiocie gospodarczym, o osobach fizycznych z nim powiązanych,
+o zobowiązaniach pieniężnych podmiotu czy o posłużeniu się podrobionym lub cudzym dokumentem jest konieczny m.in.
+do prawidłowej realizacji osłony postępowań publicznych związanych z zamówieniami na rzecz resortu obrony narodowej
+i jednostek oraz instytucji podległych Ministrowi Obrony Narodowej czy przez niego nadzorowanych. Informacje te są
+także istotne przy ocenie wiarygodności podmiotów zaangażowanych w prowadzone na rzecz resortu obrony narodowej
+badania rozwojowe czy przy realizacji zadań związanych ze zwalczaniem korupcji. Są również niezbędne do wykrywania
+i ścigania przestępstw popełnianych na szkodę resortu obrony narodowej, określonych w art. 5 ust. 1 pkt 1 ustawy z dnia
+9 czerwca 2006 r. o Służbie Kontrwywiadu Wojskowego oraz Służbie Wywiadu Wojskowego (Dz. U. z 2023 r. poz. 81, z
+późn. zm.).
+W odniesieniu do Żandarmerii Wojskowej celem zaproponowanych zmian jest zapewnienie tej formacji właściwej
+realizacji jej ustawowych zadań wynikających z ustawy z dnia 24 sierpnia 2001 r. o Żandarmerii Wojskowej i wojskowych
+organach porządkowych (Dz. U. z 2023 r. poz. 1266, z późn. zm.). Zaproponowane zmiany są zbieżne z rozwiązaniami
+odnoszącymi się do Policji, z uwzględnieniem odrębnych przepisów wynikających z ustawy z dnia 24 sierpnia 2001 r.
+o Żandarmerii Wojskowej i wojskowych organach porządkowych.
+ad 5. Nadzór nad działalnością gospodarczą biur
+Projekt ma na celu uproszczenie i ograniczenie uciążliwości dla biur czynności związanych z nadzorem ministra nad ich
+działalnością. Skala stwierdzanych przez ministra naruszeń nie jest duża, niemniej ustawa przewiduje skomplikowaną
+procedurę ich korekty.
+W większości przypadków wynikający z obowiązujących przepisów tryb działania ministra nie jest uzasadniony.
+Niezależnie od możliwości przeprowadzenia kontroli minister, w razie powzięcia wątpliwości co do prawidłowości działań
+biura, prowadzi z biurem korespondencję, jak również przekazuje biurom swoje uwagi w ramach procedury zatwierdzania
+regulaminów. Po otrzymaniu stanowiska ministra biura najczęściej deklarują dokonanie korekt w zakresie wnioskowanym
+przez organ nadzoru.
+W związku z tym projekt umożliwia ministrowi wszczęcie postępowania administracyjnego w przedmiocie stwierdzonych
+naruszeń, bez konieczności przeprowadzania postępowania kontrolnego. Uprawnienie to znajdzie zastosowanie w sytuacji,
+w której naruszenie nie będzie budzić wątpliwości w świetle materiału zgromadzonego podczas rutynowych działań
+ministra, na przykład na podstawie dokumentów przekazanych przez obywateli czy też wcześniejszej korespondencji
+z biurem. W toku postępowania administracyjnego biuro będzie mogło przedstawić swoje stanowisko, a w razie jego
+nieuwzględnienia – złożyć odwołanie oraz skargę na rozstrzygnięcie ministra do sądu administracyjnego.
+
+
+                                                          3
+Rozwiązanie to (na wzór art. 49a ustawy z dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów (Dz. U. z 2024 r.
+poz. 594)) polega na sformalizowaniu korespondencji organu nadzoru z biurem i ustanowieniu dodatkowego, obok
+kontroli, prostego i niekosztownego instrumentu nadzoru. Proponuje się przyznanie ministrowi uprawnienia
+do występowania do biura w sprawach z zakresu nadzoru nad biurami.
+Rozwiązanie to znajdzie zastosowanie w sytuacji, w której organ nadzoru uzyska informacje wskazujące na potencjalną
+możliwość wystąpienia nieprawidłowości w działalności biura. Informacje te mogą pochodzić z różnych źródeł:
+np. z korespondencji obywateli kierowanej do ministra, publikacji prasowych czy zapadających wyroków sądowych.
+Minister będzie mógł wystąpić do biura z wnioskiem o przedstawienie stanowiska i wyjaśnień, wskazując termin
+na udzielenie odpowiedzi nie krótszy niż 14 dni.
+W razie powzięcia w tym trybie uzasadnionego podejrzenia naruszenia przepisów ustawy lub regulaminu lub stwierdzenia
+takiego naruszenia w wyniku kontroli minister będzie wszczynać postępowanie administracyjne w sprawie wydania
+decyzji nakazującej usunięcie nieprawidłowości.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Ze względu na szczegółowy charakter projektowanej nowelizacji odstąpiono od analizy prawnoporównawczej.
+4. Podmioty, na które oddziałuje projekt
+          Grupa                     Wielkość                   Źródło danych                    Oddziaływanie
+Biura                        4                         https://www.gov.pl/web/rozwoj    1. Obowiązek informowania
+                                                       -technologia/wykaz-biur-         ministra o firmie, pod którą
+                                                       wykonujacych-dzialalnosc-        działa biuro
+                                                       gospodarcza                      2. Publikacja na stronie
+                                                                                        internetowej informacji o
+                                                                                        wysokości opłat za usługi biura
+                                                                                        przewidziane ustawą
+                                                                                        3. Uwidacznianie w rejestrze
+                                                                                        zapytań czynności
+                                                                                        dokonywanych przez podmioty
+                                                                                        działające na rzecz klientów
+                                                                                        4. Obowiązek dostosowania
+                                                                                        regulaminów zarządzania
+                                                                                        danymi do nowych regulacji
+                                                                                        5. Wprowadzenie terminu
+                                                                                        udzielania wyjaśnień w
+                                                                                        sprawach będących
+                                                                                        przedmiotem zapytań organu
+                                                                                        nadzoru
+minister właściwy do         1                         Informacja ogólnodostępna        1. Uproszczenie procedury
+spraw gospodarki                                                                        zatwierdzania regulaminów
+                                                                                        zarządzania danymi biur
+                                                                                        2. Przyjmowanie od biur
+                                                                                        informacji o firmie, pod którą
+                                                                                        działa biuro, i aktualizacja
+                                                                                        wykazu biur na stronie
+                                                                                        internetowej
+                                                                                        3. Usprawnienie komunikacji
+                                                                                        z biurami
+                                                                                        4. Uproszczenie zasad nadzoru
+                                                                                        nad biurami
+Minister Sprawiedliwości     1                         Informacja ogólnodostępna        Nałożenie obowiązku
+                                                                                        informowania ministra
+                                                                                        właściwego do spraw
+                                                                                        gospodarki o dniu, w którym
+                                                                                        opinia o regulaminie
+                                                                                        zarządzania danymi stała się
+                                                                                        ostateczna
+                                                          4
+Prezes Urzędu Ochrony        1                         Informacja ogólnodostępna            Nałożenie obowiązku
+Danych Osobowych                                                                            informowania ministra
+                                                                                            właściwego do spraw
+                                                                                            gospodarki o dniu, w którym
+                                                                                            opinia o regulaminie
+                                                                                            zarządzania danymi stała się
+                                                                                            ostateczna
+Komendant Centralnego        1                         Informacja ogólnodostępna            Możliwość uzyskiwania
+Biura Śledczego Policji,                               https://policja.pl/pol/kontakt/sk    informacji gospodarczych
+Komendant Biura Spraw                                  argi-i-wnioski/43585,Adresy-         oraz informacji z rejestru
+                             1
+Wewnętrznych Policji,                                  kontaktowe-komend-                   zapytań
+Komendant Centralnego                                  wojewodzkich-Policji.html
+Biura Zwalczania             1
+Cyberprzestępczości,
+komendant wojewódzki
+(Stołeczny) Policji
+                             17
+Komendant Biura Spraw        1                         Informacja ogólnodostępna            Możliwość uzyskiwania
+Wewnętrznych Straży                                    https://strazgraniczna.pl/pl/straz   informacji gospodarczych
+Granicznej, komendant                                  -graniczna/struktura-                oraz informacji z rejestru
+                             9
+oddziału Straży Granicznej                             sg/oddzialy-sg                       zapytań
+Inspektor Nadzoru            2                         Informacja ogólnodostępna            Możliwość uzyskiwania
+Wewnętrznego i                                                                              informacji gospodarczych
+upoważniony przez niego                                                                     oraz informacji z rejestru
+inspektor Biura Nadzoru                                                                     zapytań
+Szef Służby Kontrwywiadu     1                         Informacja ogólnodostępna            Możliwość uzyskiwania
+Wojskowego                                                                                  informacji gospodarczych
+                                                                                            oraz informacji z rejestru
+                                                                                            zapytań
+Szef Służby Wywiadu          1                         Informacja ogólnodostępna            Możliwość uzyskiwania
+Wojskowego                                                                                  informacji gospodarczych
+                                                                                            oraz informacji z rejestru
+                                                                                            zapytań
+Komendant Główny             1                         https://www.wojsko-                  Możliwość uzyskiwania
+Żandarmerii Wojskowej                                  polskie.pl/kgzw/struktura/           informacji gospodarczych
+                                                                                            oraz informacji z rejestru
+                                                                                            zapytań
+Komendant oddziału           10                        https://www.wojsko-                  Możliwość uzyskiwania
+Żandarmerii Wojskowej                                  polskie.pl/kgzw/struktura/           informacji gospodarczych
+                                                                                            oraz informacji z rejestru
+                                                                                            zapytań
+Klienci biur działający za   bd.                       Biura obecnie nie prowadzą           Obowiązek informowania biura
+pośrednictwem innego                                   statystyk w zakresie podmiotów       o podmiocie, za
+podmiotu                                               działających na rzecz swoich         pośrednictwem którego
+                                                       klientów                             otrzymuje informacje
+                                                                                            gospodarcze
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt był przedmiotem uzgodnień międzyresortowych oraz konsultacji w lipcu i sierpniu 2022 r., procedowany pod nr
+UD380. Zgłoszone uwagi, wraz z odniesieniem się do nich, zostały zamieszczone w Biuletynie Informacji Publicznej na
+stronie podmiotowej Rządowego Centrum Legislacji, w serwisie „Rządowy Proces Legislacyjny”. Uzgodniony projekt
+został rozpatrzony przez komisję prawniczą i w marcu 2023 r. skierowany do rozpatrzenia przez Radę Ministrów.
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r.
+poz. 248) oraz § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów
+
+
+                                                          5
+(M.P. z 2022 r. poz. 348) projekt został zamieszczony w Biuletynie Informacji Publicznej na stronie podmiotowej
+Rządowego Centrum Legislacji, w serwisie „Rządowy Proces Legislacyjny”.
+Projekt został ponownie przekazany do konsultacji podmiotom zainteresowanym kompetencyjnie tematyką udostępniania
+informacji gospodarczych:
+– Związkowi Przedsiębiorstw Finansowych w Polsce (zrzesza wszystkie funkcjonujące w Polsce biura)
+– Konfederacji Lewiatan
+– Związkowi Przedsiębiorców i Pracodawców
+– Pracodawcom RP
+– Związkowi Rzemiosła Polskiego
+– Business Centre Club
+– Federacji Przedsiębiorców Polskich
+– Krajowej Izbie Gospodarczej
+– Fundacji Panoptykon
+– Federacji Konsumentów
+oraz dodatkowo
+– Izbie Gospodarki Elektronicznej
+– Fundacji Forum Konsumentów
+z 30-dniowym terminem na zgłaszanie ewentualnych uwag.
+W dniu 27 marca 2024 r. w Ministerstwie Rozwoju i Technologii odbyło się robocze spotkanie z przedstawicielami
+Związku Przedsiębiorstw Finansowych w Polsce oraz wszystkich biur informacji gospodarczej. Podczas spotkania
+omówiono projekt.
+Zgłoszone uwagi wraz ze stanowiskiem MRiT zostały zamieszczone w Biuletynie Informacji Publicznej na stronie
+podmiotowej Rządowego Centrum Legislacji, w serwisie „Rządowy Proces Legislacyjny”.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                            Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                    0     1      2     3       4    5     6      7     8     9     10    Łącznie (0-10)
+Dochody ogółem                                                                                                        0
+budżet państwa                                                                                                        0
+JST                                                                                                                   0
+pozostałe jednostki (oddzielnie)                                                                                      0
+Wydatki ogółem                                                                                                        0
+budżet państwa                                                                                                        0
+JST                                                                                                                   0
+pozostałe jednostki (oddzielnie)                                                                                      0
+Saldo ogółem                                                                                                          0
+budżet państwa                                                                                                        0
+JST                                                                                                                   0
+pozostałe jednostki (oddzielnie)                                                                                      0
+                         Wydatki Policji, Straży Granicznej i Biura Nadzoru Wewnętrznego związane z uzyskaniem
+                         informacji gospodarczych i informacji z rejestru zapytań zostaną pokryte z części 42 – Sprawy
+                         wewnętrzne, w ramach środków przewidzianych na funkcjonowanie Policji, Straży Granicznej i
+                         Biura Nadzoru Wewnętrznego. Przewidywane wydatki budżetu państwa zostaną sfinansowane
+Źródła finansowania
+                         w ramach limitu wydatków określonego w ustawach budżetowych na ten rok i na kolejne lata,
+                         we właściwej części budżetowej, bez konieczności pozyskania dodatkowych środków na ten cel.
+                         Przyjęcie regulacji nie będzie stanowiło podstawy do ubiegania się o dodatkowe środki z budżetu
+                         państwa.
+
+
+                                                           6
+                         Wydatki Służby Kontrwywiadu Wojskowego, Służby Wywiadu Wojskowego, Komendy
+                         Głównej Żandarmerii Wojskowej wynikające z korzystania z uprawnienia uzyskiwania
+                         informacji gospodarczych oraz informacji z rejestru zapytań będą finansowane z części 29 –
+                         Obrona Narodowa, w ramach limitu wydatków, określonego w ustawach budżetowych na ten rok
+                         kalendarzowy i na kolejne lata, bez konieczności pozyskania dodatkowych środków na ten cel.
+Dodatkowe                Wejście w życie ustawy nie spowoduje wzrostu wydatków ani wpływów do budżetu państwa.
+informacje, w tym        Realizacja nowych obowiązków ministra właściwego do spraw gospodarki nie wymaga
+wskazanie źródeł         zapewnienia dodatkowych środków.
+danych i przyjętych do
+                         Nowe uprawnienia jednostek podległych Ministrowi Spraw Wewnętrznych i Administracji
+obliczeń założeń
+                         do uzyskiwania informacji gospodarczych i informacji z rejestru zapytań mogą zwiększyć
+                         wydatki tych jednostek. Za każdorazowe udostępnienie informacji gospodarczej i informacji
+                         z rejestru zapytań biuro pobiera opłatę, zgodnie z obowiązującym w tym biurze cennikiem,
+                         nie wyższą niż 0,5 % minimalnego wynagrodzenia za pracę ustalonego na podstawie przepisów
+                         ustawy z dnia 10 października 2002 r. o minimalnym wynagrodzeniu za pracę (Dz. U. z 2020 r.
+                         poz. 2207, z późn. zm.). Zakłada się, że potencjalny wzrost wydatków będzie niewielki i nie
+                         wymaga wskazania źródeł dodatkowego finansowania. Z informacji uzyskanych w toku kontroli
+                         w jednym z biur wynika, że w 2021 r. wszystkie podmioty wskazane w art. 25 ustawy złożyły
+                         łącznie mniej niż 200 wniosków.
+                         Trudno jest oszacować kwoty wydatków budżetu państwa w związku z zaproponowanym
+                         wprowadzeniem przepisów umożliwiających uzyskiwanie informacji gospodarczych i informacji
+                         z rejestru zapytań przez Policję, Straż Graniczną i Biuro Nadzoru Wewnętrznego, gdyż podmioty
+                         te nie gromadzą danych mogących stanowić podstawę oszacowania ewentualnych kosztów z tym
+                         związanych. Potrzeba uzyskania informacji gospodarczych i informacji z rejestru zapytań jest
+                         uzależniona od wielu czynników, w szczególności tych związanych z charakterem sprawy czy
+                         modus operandi sprawcy.
+                         Wpływ na sektor finansów publicznych projektu w przypadku jednostek podległych Ministrowi
+                         Obrony Narodowej:
+                              1) Służba Kontrwywiadu Wojskowego: zakłada się, że aktualnie roczne skutki finansowe
+                                   dotyczące pozyskiwania informacji gospodarczych nie przekroczą sumy 30-krotności
+                                   kwoty określonej w art. 25 ust. 2 ustawy z dnia 9 kwietnia 2010 r. o udostępnianiu
+                                   informacji gospodarczych i wymianie danych gospodarczych;
+                              2) Służba Wywiadu Wojskowego nie przewiduje częstego występowania o informacje
+                                   gospodarcze oraz informacje z rejestru zapytań. Nie można obecnie oszacować
+                                   ewentualnych kosztów wystąpień po ww. informacje;
+                               3) Komenda Główna i oddziały Żandarmerii Wojskowej – szacunkowe kwoty rocznych
+                                   wydatków budżetu państwa nie przekroczą sumy 100-krotności kwoty określonej w art.
+                                   25 ust. 2 ustawy z dnia 9 kwietnia 2010 r. o udostępnianiu informacji gospodarczych i
+                                   wymianie danych gospodarczych.
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                        Skutki
+Czas w latach od wejścia w życie zmian        0          1         2          3         5         10     Łącznie (0-10)
+W ujęciu         duże przedsiębiorstwa                                                                    b.d.
+pieniężnym
+                 sektor mikro-, małych i                                                                  b.d.
+(w mln zł,       średnich
+ceny stałe z     przedsiębiorstw
+…… r.)
+                 rodzina, obywatele                                                                       0
+                 oraz gospodarstwa
+                 domowe
+W ujęciu         duże przedsiębiorstwa     Wpływ pozytywny.
+niepieniężnym                              Uzyskiwanie precyzyjnej i jednoznacznej informacji o zakresie działalności
+                                           i stosowanych opłatach i cenach za usługi biura.
+                                           Uzyskiwanie informacji o podmiotach, które posiadają informacje gospodarcze.
+
+                                                             7
+                                           Dodatkowy obowiązek informowania           biura   o   pobraniu   informacji
+                                           gospodarczych przez inny podmiot.
+                 sektor mikro-, małych i   Wpływ pozytywny.
+                 średnich                  Uzyskiwanie precyzyjnej i jednoznacznej informacji o zakresie działalności
+                 przedsiębiorstw           i stosowanych opłatach i cenach za usługi biura.
+                                           Uzyskiwanie pogłębionej informacji o podmiotach, które posiadają informacje
+                                           gospodarcze.
+                                           Dodatkowy obowiązek informowania biura o pobieraniu informacji
+                                           gospodarczych przez inny podmiot.
+                                           Dodatkowy obowiązek dla biur (wszystkie działające w Polsce biura mają status
+                                           małego lub średniego przedsiębiorcy) gromadzenia informacji, w ramach
+                                           rejestru zapytań, że podmiot działa przez inny podmiot, oraz danych
+                                           identyfikujących ten podmiot.
+                                           Potencjalne dodatkowe wpływy biur z opłat wnoszonych za uzyskanie
+                                           informacji gospodarczych i informacji z rejestru zapytań przez jednostki
+                                           podległe Ministrowi Spraw Wewnętrznych i Administracji oraz Ministrowi
+                                           Obrony Narodowej.
+                 Rodzina, obywatele        Wpływ pozytywny.
+                 oraz gospodarstwa         Uzyskiwanie precyzyjnej i jednoznacznej informacji o zakresie działalności
+                 domowe, osoby starsze     i stosowanych opłatach i cenach za usługi biura.
+                 i niepełnosprawne
+                                           Uzyskiwanie informacji o podmiotach, które posiadają informacje gospodarcze
+                                           o danej osobie.
+Niemierzalne
+Dodatkowe                Ustawa powinna pozytywnie wpłynąć na sposób komunikacji biur z podmiotami korzystającymi
+informacje, w tym        z ich usług oraz podmiotami, których dane znajdują się w bazach prowadzonych przez biura.
+wskazanie źródeł         Wprowadzenie obowiązku rejestrowania przez biura pobierania informacji gospodarczych przez
+danych i przyjętych do   podmioty działające na rzecz klientów spowoduje konieczność modyfikacji systemów
+obliczeń założeń         teleinformatycznych biur. Biorąc pod uwagę, że biura gromadzą dane osobowe, zakłada się, że
+                         powiązanie danych takiego podmiotu (firma/imię i nazwisko oraz NIP/PESEL) z czynnościami
+                         już rejestrowanymi przez biura może zostać dokonane w ramach rutynowych czynności
+                         serwisowych i aktualizacyjnych. Projekt przewiduje 6-miesięczny okres dostosowawczy na
+                         dokonanie odpowiednich zmian.
+                         Gromadzenie i udostępnianie informacji o podmiotach pobierających informacje gospodarcze na
+                         rzecz klientów może zwiększyć obciążenie systemów teleinformatycznych biur. Przykładowo w
+                         latach 2019–2020 jedno z biur udostępniło ponad 600 tysięcy raportów z rejestru zapytań (ponad
+                         80 tysięcy dotyczyło przedsiębiorców) – to niemal tysiąc raportów dziennie.
+                         Z informacji przekazanych przez Związek Przedsiębiorstw Finansowych w Polsce (dane za lata
+                         2019–2021) liczba klientów (podmiotów, które mają podpisane umowy lub pobierają informacje
+                         gospodarcze z biur) wynosi ponad 800 tysięcy. Nie jest znana liczba podmiotów pobierających
+                         informacje gospodarcze za pośrednictwem innych podmiotów.
+                         Wszystkie biura posiadają łącznie ponad 200 milionów informacji gospodarczych, a udostępniają
+                         ponad 50 mln informacji rocznie.
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+☐ nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie             ☒ tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli
+                                                        ☐ nie
+zgodności).
+                                                        ☐ nie dotyczy
+☒ zmniejszenie liczby dokumentów                        ☒ zwiększenie liczby dokumentów
+☒ zmniejszenie liczby procedur                          ☒ zwiększenie liczby procedur
+☒ skrócenie czasu na załatwienie sprawy                 ☐ wydłużenie czasu na załatwienie sprawy
+
+
+                                                          8
+☐ inne:                                                   ☐ inne:
+
+
+
+
+Wprowadzane obciążenia są przystosowane do ich            ☒ tak
+elektronizacji.
+                                                          ☐ nie
+                                                          ☐ nie dotyczy
+Komentarz:
+Proponowane rozwiązania w zakresie:
+1) dostępu do informacji gospodarczych i informacji z rejestru zapytań dla jednostek podległych Ministrowi Spraw
+   Wewnętrznych i Administracji,
+2) uproszczenia zasad nadzoru ministra nad działalnością biur
+– przyczynią się do zmniejszenia liczby dokumentów i procedur oraz skrócenia czasu na załatwienie sprawy.
+Proponowane rozwiązania polegające na:
+1) informowaniu ministra o firmie, pod którą działa biuro,
+2) rejestrowaniu przez biura pobierania informacji gospodarczych przez podmioty działające na rzecz klientów,
+3) dostępie do informacji gospodarczych i informacji z rejestru zapytań przez jednostki podległe Ministrowi Obrony
+   Narodowej
+– wprowadzą dodatkowe procedury.
+9. Wpływ na rynek pracy
+Zakłada się, że wprowadzenie projektowanych regulacji nie będzie miało wpływu na zatrudnienie w organach administracji
+rządowej oraz biurach.
+10. Wpływ na pozostałe obszary
+☐ środowisko naturalne                  ☐ demografia                              ☐ informatyzacja
+☐ sytuacja i rozwój regionalny          ☐ mienie państwowe                        ☐ zdrowie
+☐ sądy powszechne, administracyjne
+lub wojskowe
+☐ inne:
+Omówienie wpływu         Brak wpływu na wskazane obszary.
+11. Planowane wykonanie przepisów aktu prawnego
+Przewiduje się, że ustawa wejdzie w życie po upływie 30 dni od dnia ogłoszenia, z wyjątkiem obowiązku informowania biura
+o pobieraniu informacji gospodarczych przez inny podmiot i rejestrowaniu tej informacji w rejestrze zapytań, który wejdzie
+w życie po upływie 6 miesięcy od dnia ogłoszenia.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Nie przewiduje się przeprowadzania ewaluacji projektu.
+Proponowane zmiany ustawy mają charakter szczegółowy i doprecyzowujący.
+Minister na bieżąco monitoruje funkcjonowanie przepisów ustawy i reaguje na ewentualne wątpliwości.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+
+
+
+
+                                                           9
+                        MINISTERSTWO ROZWOJU I TECHNOLOGII
+                   DEPARTAMENT MAŁYCH I ŚREDNICH PRZEDSIĘBIORSTW
+
+
+
+
+                                           Raport
+                                  z konsultacji publicznych
+         projektu ustawy o zmianie ustawy o udostępnianiu informacji gospodarczych
+                             i wymianie danych gospodarczych
+
+
+                                      Warszawa, maj 2024 r.
+
+
+Niniejszy raport został sporządzony na podstawie § 51 uchwały Nr 190 Rady Ministrów z dnia 29
+października 2013 r. ˗ Regulamin pracy Rady Ministrów.
+   I.    Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania
+W dniu 8 marca 2024 r. projekt ustawy o zmianie ustawy o udostępnianiu informacji gospodarczych
+i wymianie danych gospodarczych został skierowany do konsultacji publicznych i opiniowania. Projekt
+udostępniono w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji
+w serwisie Rządowy Proces Legislacyjny – w celu zapoznania się z nim przez wszystkie zainteresowane
+podmioty. Konsultacje publiczne przeprowadzone były w terminie od dnia 8 marca 2024 r. do dnia
+9 kwietnia 2024 r.
+Organ wnioskujący skierował projekt ustawy do zaopiniowania przez następujące organy administracji
+rządowej i inne organy oraz instytucje państwowe, których zakresu działania dotyczy projekt: Prezesa
+Urzędu Ochrony Danych Osobowych, Prezesa Prokuratorii Generalnej Rzeczypospolitej Polskiej,
+Prezesa Urzędu Ochrony Konkurencji i Konsumentów, Prezesa Narodowego Banku Polskiego oraz
+Komisji Nadzoru Finansowego.
+Żaden ze wskazanych organów nie zgłosił uwag do projektu.
+
+
+Ponadto projekt ustawy został przekazany do zaopiniowania przez partnerów społecznych:
+        1) na podstawie art. 19 ustawy z dnia 23 maja 1991 r. o związkach zawodowych ˗ przez
+           następujące reprezentatywne organizacje związkowe:
+                  Niezależny Samorządny Związek Zawodowy „Solidarność”,
+                  Ogólnopolskie Porozumienie Związków Zawodowych,
+                  Forum Związków Zawodowych,
+        2) na podstawie art. 16 ustawy z dnia 23 maja 1991 r. o organizacjach pracodawców – przez
+           następujące reprezentatywne organizacje pracodawców:
+                  Konfederacja Lewiatan,
+                  Związek Pracodawców Business Centre Club,
+                  Związek Rzemiosła Polskiego,
+                  Pracodawcy Rzeczypospolitej Polskiej,
+                  Związek Przedsiębiorców i Pracodawców
+                  Federacja Przedsiębiorców Polskich.
+
+                                                  1
+Na podstawie przepisu art. 5 ustawy z dnia 24 lipca 2015 r. o Radzie Dialogu Społecznego i innych
+instytucjach dialogu społecznego projekt ustawy został skierowany do opiniowania przez stronę
+pracowników i stronę pracodawców Rady Dialogu Społecznego.
+Dodatkowo projekt został przesłany do konsultacji do następujących podmiotów:
+          Krajowa Izba Gospodarcza
+          Związek Przedsiębiorstw Finansowych
+          Federacja Konsumentów
+          Fundacja „Panoptykon”
+          Izba Gospodarki Elektronicznej
+          Fundacja Forum Konsumentów
+          Polskie Towarzystwo Gospodarcze
+Dodatkowo, w dniu 27 marca 2024 r. Minister Rozwoju i Technologii zorganizował robocze spotkanie
+z przedstawicielami Związku Przedsiębiorstw Finansowych w Polsce oraz wszystkich działających biur
+informacji gospodarczej. Podczas spotkania omówiono i wyjaśniono propozycje zawarte w projekcie
+ustawy.
+Uwagi do projektu zgłosiły następujące podmioty: Konfederacja Lewiatan, Związek Przedsiębiorstw
+Finansowych w Polsce oraz Stowarzyszenie Nowoczesnej Edukacji Prawnej. Treść uwag wraz
+ze szczegółowym odniesieniem się MRiT zostały opublikowane na stronie podmiotowej Rządowego
+Centrum Legislacji w serwisie Rządowy Proces Legislacyjny.
+Uwagi zgłoszone w ramach konsultacji zmierzały do doprecyzowania i udoskonalenia propozycji
+zawartych w projekcie. Przedstawiciele ZPF i biur wskazywali na potencjalną uciążliwość i kosztowność
+dla biur informacji gospodarczych niektórych propozycji. Podmioty konsultujące proponowały
+modyfikacje projektowanych regulacji, które częściowo zostały uwzględnione w tekście projektu
+kierowanym do rozpatrzenia przez Stały Komitet Rady Ministrów. W wyniku konsultacji wydłużono
+także, na wniosek zainteresowanych, termin na dostosowanie regulaminów zarządzania danymi biur
+oraz uzupełniono uzasadnienie projektu.
+MRiT nie uwzględnił uwag kwestionujących projektowane uregulowania w zakresie odnotowywania
+przez biura działania klienta przez pełnomocnika oraz modyfikacji rejestru zapytań. Należy podkreślić,
+że projekt ustawy jest zasadniczo powtórzeniem inicjatywy procedowanej w 2022 r. pod numerem
+UD380. Poprzedni projekt został w pełni uzgodniony ze stroną społeczną, a obecny nie zawiera
+odmiennych propozycji we wskazanym zakresie.
+Nie uwzględniono także uwag zgłoszonych przez Stowarzyszenie Nowoczesnej Edukacji Prawnej
+ze względu na fakt, że zmierzały one faktycznie do nałożenia na biura nowych obowiązków, w ocenie
+MRiT nadmiarowych w świetle przepisów art. 67 ustawy – Prawo przedsiębiorców.
+
+
+    II.     Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia
+            projektu z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim
+            Bankiem Centralnym.
+
+Projekt ustawy nie wymagał zasięgnięcia opinii, dokonania konsultacji ani uzgodnienia projektu z
+właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem Centralnym.
+
+    III.    Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem w trybie
+            przepisów o działalności lobbingowej w procesie stanowienia prawa, wraz ze
+            wskazaniem kolejności dokonania zgłoszeń albo informację o ich braku.
+
+
+
+
+                                                  2
+Zgodnie z przepisami ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa oraz § 52 Regulaminu pracy Rady Ministrów, projekt ustawy został zamieszczony w Biuletynie
+Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji w serwisie Rządowy
+Proces Legislacyjny. W toku prac nad projektem żaden podmiot nie zgłosił zainteresowania pracami
+nad tym projektem w trybie przewidzianym w ww. ustawie.
+
+
+
+
+                                                 3
+

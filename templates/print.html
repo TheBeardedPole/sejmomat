@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% from "_macros.html" import result_badge, counts, law_changes, bill_diff %}
+{% block title %}{{ _("Druk nr") }} {{ num }}: {{ (meta.title or "") | truncate(90) }}{% endblock %}
+{% block description %}{{ _("Druk nr") }} {{ num }}{% if meta.documentDate %} ({{ meta.documentDate | date_pl }}){% endif %}: {{ meta.title }}{% endblock %}
+{% block main_attrs %} data-pagefind-body{% endblock %}
+{% block content %}
+{% set root_print = (meta.processPrint or [none])[0] %}
+<div class="crumbs">
+  {% if root_print and root_print in bill_by_root and root_print != num %}<a href="{{ root }}ustawa/{{ root_print }}.html" lang="pl">{{ bill_by_root[root_print].title | truncate(90) }}</a> · {% endif %}{{ _("druk nr") }} {{ num }}{% if meta.documentDate %} · {{ meta.documentDate | date_pl }}{% endif %}
+</div>
+<h1 lang="pl">{{ meta.title }}</h1>
+<p class="muted">{{ _("Druk nr") }} {{ num }} ·
+  {% if root_print == num and num in bill_by_root %}<a href="{{ root }}ustawa/{{ num }}.html">{{ _("Wszystkie głosowania") }}</a> · {% endif %}
+  <a href="{{ print_url(num) }}">{{ _("strona druku w Sejmie") }}</a>
+  {% for att in meta.attachments or [] %} · <a href="{{ pdf_url(num, att) }}">{{ att }}</a>{% endfor %}
+</p>
+
+{% for kind, report in (sources.get(num) or {}).items() %}
+{% set items = source_items(num, kind, report) %}
+{% if items %}
+<h2>{{ _({"amendment": "Poprawki", "minority": "Wnioski mniejszości", "senate": "Poprawki Senatu"}[kind]) }} ({{ items | length }})</h2>
+{% for it in items %}{% set id = anchor(kind, it.number) %}
+<div class="card amendment{% if it.recommendation %} rec-{{ it.recommendation }}{% endif %}" id="{{ id }}">
+  <h3 style="margin-top:0"><a href="#{{ id }}">{{ _(KIND_LABEL[kind]) }} {{ _("nr") }} {{ it.number }}</a></h3>
+  <p class="muted">
+    {% if it.authors %}{{ _("Zgłaszający") }}: {{ it.authors | join(", ") }}{% endif %}
+    {% if it.recommendation %} · {{ _("rekomendacja komisji") }}: <strong>{{ _(it.recommendation) }}</strong>{% endif %}
+  </p>
+  <div class="text" lang="pl">{{ it.text }}</div>
+  {% if it.bill_diff %}{{ bill_diff(it.bill_diff, root, printed) }}{% else %}{% for c in it.changes %}<div class="diff" lang="pl"><span class="where">{{ c.where or _("zmiana") }}</span>{{ c.html | safe }}</div>{% endfor %}{% endif %}
+  {% if it.law %}<p class="note"><strong>{{ _("Zmiany w obowiązującym prawie") }}</strong></p>{{ law_changes(it.law) }}{% endif %}
+    {% for n in it.notes %}<p class="note">{{ _("Uwaga") }}: <span lang="pl">{{ n }}</span></p>{% endfor %}
+  {% for v in decided.get((num, id), []) %}
+  <p class="note">{{ _("Głosowanie") }}: <a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ sitting_name(v.sitting) }}, {{ _("nr") }} {{ v.votingNumber }}</a> — {{ result_badge(v) }} {{ counts(v) }}</p>
+  {% else %}
+  <p class="note">{{ _("Nie głosowano osobno (np. głosowana łącznie z inną poprawką lub bezprzedmiotowa).") }}</p>
+  {% endfor %}
+</div>
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+{% set citing = votes_by_print.get(num, []) %}
+{% if citing %}
+<details>
+  <summary><strong>{{ _("Głosowania powołujące się na ten druk") }} ({{ citing | length }})</strong></summary>
+  <table><tbody>
+  {% for v in citing %}
+  <tr><td class="num" style="white-space:nowrap"><a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.sitting }}/{{ v.votingNumber }}</a></td>
+  <td>{{ v.topic }}</td><td>{{ result_badge(v) }}</td></tr>
+  {% endfor %}
+  </tbody></table>
+</details>
+{% endif %}
+
+{% set paras = print_paragraphs(num) %}
+<h2 id="tekst">{{ _("Pełny tekst") }}</h2>
+{% if paras and lang != "pl" %}
+<p><a href="{{ alternates.pl }}#tekst" hreflang="pl">{{ _("Pełny tekst") }} ({{ _("po polsku") }}) →</a></p>
+{% elif paras %}
+<p class="note">{{ _("Tekst wyodrębniony automatycznie z dokumentu źródłowego; wiążący jest oficjalny druk.") }}</p>
+<div class="print-text" lang="pl">
+{% for p in paras %}<p>{{ p }}</p>
+{% endfor %}
+</div>
+{% elif print_too_big(num) %}
+<p class="muted">{{ _("Dokument jest zbyt obszerny, by wyświetlić go w całości — zobacz") }} <a href="{{ print_url(num) }}">{{ _("oficjalny druk") }}</a>.</p>
+{% else %}
+<p class="muted">{{ _("Tekst tego druku nie został jeszcze pobrany — zobacz") }} <a href="{{ print_url(num) }}">{{ _("oficjalny druk") }}</a>.</p>
+{% endif %}
+{% endblock %}

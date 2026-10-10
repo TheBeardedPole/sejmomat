@@ -1,0 +1,1492 @@
+                                                                       Druk nr 2868
+                                                                   Warszawa, 22 lipca 2026 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-106-26
+
+
+                                                              Pan
+                                                              Włodzimierz Czarzasty
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy - Prawo o ustroju sądów
+   powszechnych.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Sprawiedliwości.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                   Projekt
+                                              U S T AWA
+
+                                                   z dnia
+
+                     o zmianie ustawy – Prawo o ustroju sądów powszechnych
+
+
+       Art. 1. W ustawie z dnia 27 lipca 2001 r. – Prawo o ustroju sądów powszechnych (Dz. U.
+z 2024 r. poz. 334, z późn. zm.1)) wprowadza się następujące zmiany:
+1)     w art. 5:
+       a)    po § 2 dodaje się § 2a w brzmieniu:
+                   „§ 2a. Osoba głucha oraz osoba doświadczająca trwale lub okresowo trudności
+             w komunikowaniu się z powodu niedosłuchu mają prawo do występowania przed
+             sądem w znanym im języku migowym oraz prawo do bezpłatnego korzystania z
+             pomocy tłumacza tego języka.”,
+       b)    w § 3 po wyrazach „w § 2” dodaje się wyrazy „lub 2a”;
+2)     w art. 157:
+       a)    § 1 otrzymuje brzmienie:
+                   „§ 1. Prezes sądu okręgowego ustanawia biegłych sądowych i prowadzi ich listę
+             w systemie teleinformatycznym.”,
+       b)    po § 1a dodaje się § 1b−1d w brzmieniu:
+                   „§ 1b. Na liście biegłych sądowych zamieszcza się następujące dane dotyczące
+             biegłego sądowego:
+             1)    imię i nazwisko;
+             2)    numer PESEL, a w przypadku gdy dana osoba nie posiada numeru PESEL –
+                   serię i numer dokumentu potwierdzającego tożsamość;
+             3)    adres do doręczeń;
+             4)    adres poczty elektronicznej i numer telefonu, o ile dana osoba taki numer
+                   posiada;
+             5)    termin, do którego biegły sądowy został ustanowiony;
+             6)    dane dotyczące specjalizacji.
+
+
+
+
+1)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2024 r. poz. 1907, z 2025 r.
+     poz. 526, 820, 1172, 1178 i 1609 oraz z 2026 r. poz. 26 i 370.
+                                             –2–
+
+
+                 § 1c. Prezes sądu okręgowego zapewnia sądom, prokuraturze i Ministrowi
+          Sprawiedliwości dostęp do listy biegłych sądowych za pośrednictwem systemu
+          teleinformatycznego.
+                 § 1d. Lista biegłych sądowych w zakresie ograniczonym do danych, o których
+          mowa w § 1b pkt 1, 5 i 6, jest dostępna w siedzibie sądu oraz za pośrednictwem
+          wyszukiwarki       biegłych     sądowych       w    ogólnodostępnych      sieciach
+          teleinformatycznych. Biegły może wyrazić zgodę na ujawnienie na liście biegłych
+          sądowych dostępnej w siedzibie sądu oraz za pośrednictwem wyszukiwarki biegłych
+          sądowych także danych, o których mowa w § 1b pkt 3 lub 4. Prezes sądu okręgowego
+          zamieszcza w Biuletynie Informacji Publicznej na stronie podmiotowej sądu
+          informację o adresie, pod którym w ogólnodostępnych sieciach teleinformatycznych
+          jest dostępna wyszukiwarka biegłych sądowych.”;
+3)   w art. 175da § 9 otrzymuje brzmienie:
+          „§ 9. Minister Sprawiedliwości w porozumieniu z ministrem właściwym do spraw
+     informatyzacji może określić, w drodze rozporządzenia, dla jednego lub kilku sądowych
+     systemów teleinformatycznych:
+     1)   opis danego systemu, zawierający jego strukturę, wymaganą minimalną
+          funkcjonalność oraz zakres komunikacji między elementami jego struktury,
+     2)   wymagania standaryzujące w zakresie bezpieczeństwa, wydajności i rozwoju
+          danego systemu,
+     3)   sposób postępowania w zakresie stwierdzania zgodności oprogramowania z opisem
+          danego systemu
+     – mając na uwadze zapewnienie spójności sądowych systemów teleinformatycznych,
+     w szczególności w zakresie jednorodności zakresu i rodzaju danych, a także zachowanie
+     zgodności     z   minimalnymi      wymogami     i   sposobem   stwierdzania   zgodności
+     oprogramowania, określonymi na podstawie ustawy z dnia 17 lutego 2005 r.
+     o informatyzacji działalności podmiotów realizujących zadania publiczne.”.
+
+     Art. 2. Prezes sądu okręgowego w terminie 3 miesięcy od dnia wejścia w życie niniejszej
+ustawy wzywa biegłych sądowych wpisanych na listę biegłych sądowych prowadzoną na
+podstawie art. 157 § 1 ustawy zmienianej w art. 1, w brzmieniu dotychczasowym, do
+uzupełnienia brakujących danych, o których mowa w art. 157 § 1b ustawy zmienianej w art. 1,
+w brzmieniu nadanym niniejszą ustawą, i niezwłocznie uzupełnia listę biegłych sądowych o te
+dane.
+                                     –3–
+
+
+Art. 3. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                        UZASADNIENIE
+
+Projekt ustawy ma na celu:
+1.      wprowadzenie jednoznacznie brzmiącego przepisu umożliwiającego osobom głuchym
+        bezpłatną pomoc tłumacza języka migowego w postępowaniach sądowych na takich
+        samych zasadach, na jakich osoby niewładające w wystarczającym stopniu językiem
+        polskim korzystają z pomocy tłumacza języka naturalnego,
+2.      uregulowanie zagadnień związanych z przetwarzaniem danych osobowych biegłych
+        sądowych w drodze przepisów o randze ustawowej i zapewnienie możliwości
+        prowadzenia   list   biegłych   sądowych   w   postaci   elektronicznej,   w   systemie
+        teleinformatycznym udostępnionym i administrowanym przez Ministra Sprawiedliwości,
+3.      modyfikację delegacji do wydania aktu wykonawczego zawartej w art. 175da § 9
+        nowelizowanej ustawy.
+
+W zakresie zmiany pierwszej projektowana nowelizacja jest wynikiem uwzględnienia petycji
+Stowarzyszenia Polski Instytut Praw Głuchych przez Ministra Sprawiedliwości oraz Sejmową
+Komisję ds. Petycji. Zaproponowany przepis zastąpi kształtującą się w niektórych sądach
+praktykę interpretowania art. 5 § 2 ustawy z dnia 27 lipca 2001 r. – Prawo o ustroju sądów
+powszechnych (Dz. U. z 2024 r. poz. 334, z późn. zm.), zwanej dalej „u.s.p.”, w kierunku
+objęcia jego dyspozycją także osób niesłyszących (oraz osób doświadczających trwale lub
+okresowo trudności w komunikowaniu się z powodu niedosłuchu) jednoznacznym
+unormowaniem dotyczącym prawa do udziału w postępowaniu osoby głuchej z bezpłatną
+pomocą tłumacza języka migowego. Dodanie art. 5 § 2a u.s.p. zniesie także barierę dla osób
+głuchych dochodzenia swoich praw ze względu na ewentualne dodatkowe koszty związane
+z udziałem tłumacza języka migowego w postępowaniu. Konsekwencją tej zmiany jest
+modyfikacja art. 5 § 3 u.s.p. w zakresie obejmującym odesłanie także do dodawanego art. 5
+§ 2a.
+
+Zmiana druga obejmuje uregulowanie zagadnień związanych z przetwarzaniem danych
+osobowych biegłych sądowych w drodze przepisów o randze ustawowej. Projektowane
+rozwiązania pozwolą na prowadzenie list biegłych nie – jak dotychczas – wyłącznie w postaci
+papierowej, ale w postaci elektronicznej, w systemie teleinformatycznym udostępnionym
+i administrowanym przez Ministra Sprawiedliwości, co usprawni proces aktualizacji
+i pozyskiwania, a następnie udostępniania uprawnionym podmiotom informacji o biegłych
+sądowych na potrzeby postępowań sądowych. Zmiany pozwolą na objęcie biegłych sądowych
+usługą „ROBUS” (Rejestr Osób Biorących Udział w Postępowaniu Sądowym), mającą za
+zadanie     bieżące   wsparcie       funkcjonowania      jednostek   organizacyjnych   wymiaru
+sprawiedliwości.
+
+„ROBUS” to usługa wywodząca się z rozwiązania zaprojektowanego i wdrożonego w ramach
+projektu „Wymiana danych między sądami powszechnymi a samorządami zawodowymi”.
+ROBUS to rozwiązanie, które odpowiada na potrzeby w zakresie usprawnienia dostępu sądów
+powszechnych do aktualnej, zbiorczej informacji o profesjonalnych uczestnikach postępowania
+sądowego.     ROBUS        ma   za   zadanie   bieżące    wsparcie   funkcjonowania    jednostek
+organizacyjnych wymiaru sprawiedliwości, a jego celem jest dalsze usprawnianie wymiany
+danych, zainicjowanej wskazanym projektem, co wpisuje się w założenie usprawnienia
+postępowań sądowych przez zmniejszenie liczby błędów w toku wyznaczania lub weryfikacji
+statusu zawodowego początkowo pełnomocników, a obecnie również kolejnych grup
+zawodowych. Kolejnym etapem rozwoju jest również zarządzanie informacją o biegłych
+sądowych i jej udostępnianie, co przyczyni się do wzrostu efektywności funkcjonowania
+wymiaru sprawiedliwości.
+
+System teleinformatyczny, w którym zgodnie z projektowanym art. 157 § 1 u.s.p. jest
+prowadzona lista biegłych, jest udostępniany i administrowany przez Ministra Sprawiedliwości
+(co wynika z art. 175da § 1–3 u.s.p.), pełniącego również, obok prezesów sądów okręgowych,
+funkcję administratora danych osobowych, każdy w zakresie wykonywanych zadań (zgodnie
+z art. 175da § 5 u.s.p.). Natomiast w zakresie prowadzenia przedmiotowego systemu
+teleinformatycznego mają zastosowanie zasady określone w ustawie z dnia 17 lutego 2005 r.
+o informatyzacji działalności podmiotów realizujących zadania publiczne (Dz. U. z 2024 r.
+poz. 1557, z późn. zm.).
+
+Projektowana regulacja przewiduje również dodanie przepisów stanowiących podstawę
+przetwarzania danych osobowych biegłych w zakresie: imienia i nazwiska biegłego, numeru
+PESEL albo danych dokumentu potwierdzającego tożsamość, specjalizacji, terminu, do
+którego biegły został ustanowiony, adresu do korespondencji, numeru telefonu i adresu poczty
+elektronicznej.
+
+Zapewnienie podstawy prawnej dla uzyskania dostępu do danych obejmujących numer PESEL
+biegłego jest konieczne z uwagi na potrzebę zagwarantowania jednoznacznej identyfikacji
+takiej osoby. Obecnie jedynym atrybutem jednoznacznie i niezaprzeczalnie identyfikującym
+obywatela polskiego jest właśnie numer PESEL (może bowiem dojść do sytuacji, w której na
+
+
+
+                                                2
+liście biegłych będą figurować osoby o identycznym imieniu i nazwisku). Analogiczne przepisy
+w zakresie udostępniania sądom i Ministrowi Sprawiedliwości numerów PESEL funkcjonują
+już w ustawach regulujących zawody radcy prawnego (art. 601 ust. 1 ustawy z dnia 6 lipca 1982
+r. o radcach prawnych, Dz. U. z 2024 r. poz. 499, z późn. zm.) i adwokata (art. 58a ust. 1 ustawy
+z dnia 26 maja 1982 r. – Prawo o adwokaturze, Dz. U. z 2024 r. poz. 1564, z późn. zm.).
+Ponadto należy wskazać, że uzupełnienie danych o numer PESEL osób figurujących w
+systemie ROBUS jest niezbędne dla dalszego rozwoju systemu i jego integracji z Portalem
+Informacyjnym, który w przyszłości będzie również wykorzystywany w celu przekazywania
+biegłym sądowym informacji o postępowaniu sądowym, zapewnianiu dostępu do akt sądowych
+drogą elektroniczną, czy też komunikacji dwukierunkowej między biegłym a sądem.
+
+Obecne kierunki w zakresie informatyzacji wymiaru sprawiedliwości dążą do cyfryzacji
+wszelkich rejestrów i baz, z których korzystają sądy powszechne. Przetwarzanie danych
+w systemie teleinformatycznym jest wygodniejsze, ale również bardziej wiarygodne, gdyż
+aktualizacja danych, do których dostęp uzyskują sądy, odbywa się w sposób automatyczny i nie
+jest związana z koniecznością przesyłania list w postaci skanów dokumentów papierowych.
+Stąd też należy uznać, że wyposażenie sądów w możliwość uzyskania danych kontaktowych
+do biegłego sądowego za pośrednictwem systemu teleinformatycznego jest pożądana
+i odpowiada zmianom prowadzonym również w innych obszarach prawa procesowego.
+
+W zakresie ochrony danych osobowych przetwarzanych w systemie ROBUS należy wskazać,
+że od początku jego funkcjonowania, tj. od 2016 r., za jego pośrednictwem udostępniane są
+uprawnionym podmiotom (w szczególności sądom) informacje o profesjonalnych uczestnikach
+postępowań sądowych, w tym radcach prawnych i adwokatach, zawierające również, w oparciu
+o istniejące już podstawy prawne, numer PESEL tych osób. System ten był projektowany w
+taki sposób, że obecnie nie identyfikuje się w nim podatności i zagrożeń dla ochrony danych
+osobowych. Dostęp do systemu jest reglamentowany, nadawany na wniosek uprawnionych
+podmiotów i zapewnia rozliczalność dostępu. Od momentu wdrożenia systemu ROBUS nie
+odnotowano przypadku naruszenia ochrony danych osobowych w systemie. Tym samym
+można uznać, że już w fazie projektowania systemu prawidłowo zidentyfikowano ryzyka i
+uwzględniono środki służące wyeliminowaniu zagrożenia naruszenia ochrony danych
+osobowych. W konsekwencji zasadne jest przyjęcie, że ryzyka naruszenia ochrony danych
+osobowych – rozumiane jako kombinacja prawdopodobieństwa wystąpienia określonego
+zdarzenia oraz jego skutków – nie są obecnie identyfikowane, gdyż budowa systemu oraz
+funkcjonalności zapobiegają możliwości ich zmaterializowania się.
+
+
+                                               3
+W projekcie, określając zakres i cele przetwarzania danych zawartych na listach biegłych
+sądowych, przyjęto, że będą one udostępniane sądom, prokuraturze (Prokuratorowi
+Generalnemu, prokuratorom powszechnych jednostek organizacyjnych prokuratury oraz
+prokuratorom Instytutu Pamięci Narodowej – Komisji Ścigania Zbrodni przeciwko Narodowi
+Polskiemu) i Ministrowi Sprawiedliwości, za pośrednictwem przedmiotowego systemu
+teleinformatycznego, w zakresie wszystkich danych w nich zawartych (art. 157 § 1c u.s.p.).
+Natomiast w przypadku pozostałych zainteresowanych udostępniana w siedzibie sądu oraz za
+pośrednictwem systemu teleinformatycznego lista biegłych sądowych pozbawiona będzie
+adresu do korespondencji, adresu poczty elektronicznej i numeru telefonu, o ile biegły nie
+wyrazi zgody na ich udostępnianie, a także pozbawiona numerów PESEL (art. 157 § 1d u.s.p.).
+Powyższe ma na celu uczynienie zadość zasadom dotyczącym przetwarzania danych
+osobowych, o których mowa w art. 5 rozporządzenia Parlamentu Europejskiego i Rady (UE)
+2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku
+z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz
+uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych).
+
+Należy wskazać, że projekt ustawy w powyższym zakresie powiela rozwiązania prawne
+zawarte w projekcie ustawy o zmianie ustawy – Prawo o ustroju sądów powszechnych
+wpisanym do Wykazu prac legislacyjnych i programowych Rady Ministrów pod nr UD54
+i wycofanym z uwagi na podjęcie prac legislacyjnych nad projektem ustawy o biegłych
+sądowych oraz instytucjach opiniujących (UD265), który zakłada znacznie dalej idące
+rozwiązania w stosunku do zaproponowanych w projekcie UD54 i niniejszym projekcie
+ustawy, w szczególności w zakresie odejścia od dotychczasowego modelu ustanawiania
+biegłych sądowych. Należy jednak wskazać, że projekt ustawy o biegłych sądowych oraz
+instytucjach opiniujących przewiduje daleko idące, systemowe zmiany, których wejście
+w życie nie nastąpi w najbliższym czasie. Co więcej, proponowane obecnie rozwiązania nie są
+sprzeczne z założeniami projektu ustawy o biegłych sądowych oraz instytucjach opiniujących
+w zakresie istnienia centralnej listy biegłych sądowych i jej informatyzacji, przeciwnie,
+projektowane zmiany stanowią krok w kierunku stanu prawnego planowanego w tej ustawie.
+Skutki proponowanych zmian legislacyjnych w postaci powstania listy biegłych sądowych
+prowadzonej w systemie teleinformatycznym nie zostaną zatem zaprzepaszczone nawet po
+wprowadzeniu ustawy o biegłych sądowych oraz instytucjach opiniujących.
+
+Zmiana trzecia obejmuje modyfikację delegacji do wydania rozporządzenia zawartej w art.
+175da § 9 u.s.p., która dotychczas nie została zrealizowana.
+
+
+                                              4
+Istota zmiany sprowadza się do uczynienia delegacji fakultatywną, a nadto dającą możliwość
+wydania na jej podstawie więcej niż jednego aktu wykonawczego odnoszącego się do jednego
+albo kilku sądowych systemów teleinformatycznych, w zależności od diagnozy potrzeb w tym
+zakresie. Z tego też powodu unormowano określenie organu właściwego do wydania aktu,
+wskazując na jego fakultatywny charakter, zakres spraw przekazanych do uregulowania w
+rozporządzeniu (tożsamy jak dotychczas, przy czym dodano jedynie, że rozporządzenie może
+dotyczyć poszczególnych systemów, a zatem nie wszystkich, oraz zrezygnowano z
+doprecyzowania sądowych systemów teleinformatycznych wskazaniem „stosowanych w
+sądach powszechnych”, jako zbędnego), oraz wytyczne dotyczące treści tego aktu.
+
+Przyczyną projektowanej zmiany (w zakresie zastąpienia niewykonanego, obligatoryjnego
+upoważnienia ustawowego delegacją fakultatywną, umożliwiającą wydanie kilku rozporządzeń
+dotyczących poszczególnych sądowych systemów teleinformatycznych) jest realizacja
+projektu Cyfrowy Sąd. Głównym celem projektu jest zaprojektowanie, zbudowanie, wdrożenie
+oraz uruchomienie jednego ogólnokrajowego systemu w oparciu o nowoczesne rozwiązania
+techniczno-systemowe. W wyniku podjętych działań powstanie system bazowy, który
+zlikwiduje ogromne zróżnicowanie obecnie stosowanych systemów repertoryjno-biurowych i
+związane z tym rozbieżności m.in. formatu danych, a także umożliwi dalszy rozwój
+funkcjonalności w celu ich dostosowania do zmieniających się uwarunkowań prawnych,
+organizacyjnych oraz potrzeb interesariuszy. Ponadto rozwiązanie to pozostaje w korelacji z
+organizacyjną centralizacją służb IT w sądownictwie powszechnym wprowadzonym ustawą z
+dnia 7 lipca 2023 r. o zmianie ustawy – Kodeks postępowania cywilnego, ustawy – Prawo o
+ustroju sądów powszechnych, ustawy – Kodeks postępowania karnego oraz niektórych innych
+ustaw (Dz. U. poz. 1860).
+
+Zastosowanie nowoczesnych technologii w systemie wpłynie zatem na poprawę efektywności
+procesów realizowanych w sądach powszechnych i stworzy techniczne podwaliny pod cyfrowe
+akta sądowe oraz automatyzację czynności, analiz i procesów decyzyjnych. By to uczynić,
+mając na względzie np. aspekty związane z cyberbezpieczeństwem (cybersecurity), wymagany
+będzie akt, na kanwie którego zostanie to unormowane. Tym aktem będzie właśnie
+rozporządzenie, wydawane na podstawie nowelizowanej delegacji ustawowej.
+
+Dodatkowo wskazać należy, że chcąc prowadzić odpowiednią i rzetelną koordynację zadań
+obejmujących realizację obowiązków Ministra Sprawiedliwości w zakresie utrzymania i
+administrowania systemem teleinformatycznym obsługującym postępowanie sądowe,
+zarządzanie środkami finansowymi przeznaczonymi na realizację zadań dotyczących
+
+                                            5
+informatyzacji i prowadzenie spraw związanych z zakupem sprzętu komputerowego
+i materiałów eksploatacyjnych oraz usług informatycznych i teleinformatycznych, nadal
+istnieje potrzeba opracowania opisu/opisów sądowych systemów teleinformatycznych
+stosowanych w sądach powszechnych, zawierającego/zawierających strukturę systemu,
+wymaganą minimalną funkcjonalność systemu/systemów oraz zakres komunikacji między
+elementami struktury systemu/systemów. Ponadto nadal istnieje potrzeba sporządzenia
+wymagań standaryzujących w zakresie bezpieczeństwa, wydajności i rozwoju systemu, jak
+również w aspekcie określenia sposobu postępowania w zakresie stwierdzania zgodności
+oprogramowania z opisem systemu.
+
+Należy również zaakcentować, że w 2023 r. weszła w życie Dyrektywa w sprawie środków na
+rzecz wysokiego wspólnego poziomu cyberbezpieczeństwa w całej Unii (Dyrektywa NIS2).
+Nowe przepisy dotyczą cyberbezpieczeństwa podmiotów działających w kluczowych i
+ważnych sektorach gospodarki. Ich celem jest zwiększenie odporności państwa i
+przedsiębiorstw na cyberzagrożenia oraz zapewnienie ciągłości działania usług. Dyrektywa
+NIS2 nakłada obowiązki w zakresie zarządzania ryzykiem, zgłaszania incydentów i organizacji
+bezpieczeństwa IT. W Polsce przepisy te zostały wdrożone przez nowelizację ustawy z dnia
+5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa, dokonaną ustawą z dnia 23 stycznia
+2026 r. o zmianie ustawy o krajowym systemie cyberbezpieczeństwa oraz niektórych innych
+ustaw (Dz. U. poz. 252). Uchwalona ustawa dostosowuje krajowy system cyberbezpieczeństwa
+do zmienionego otoczenia cyfrowego i rosnącej skali zagrożeń w cyberprzestrzeni. Zmiany
+obejmują m.in. rozszerzenie katalogu podmiotów objętych obowiązkami, zastąpienie
+dotychczasowego podziału na operatorów usług kluczowych i dostawców usług cyfrowych
+nową kategorią podmiotów kluczowych i podmiotów ważnych, wzmocnienie systemu
+reagowania na incydenty oraz doprecyzowanie ról organów odpowiedzialnych za
+cyberbezpieczeństwo. Także z tego względu wymagane jest narzędzie, za pomocą którego
+Minister Sprawiedliwości będzie mógł uregulować kwestie związane z cyberbezpieczeństwem
+w ramach sądowych systemów teleinformatycznych.
+
+Przepis przejściowy art. 2 zobowiązuje prezesów sądów do podjęcia w terminie 3 miesięcy od
+dnia wejścia w życie ustawy czynności nakierowanych na uzupełnienie danych osobowych
+biegłych sądowych zgodnie z ich projektowanym zakresem podlegającym uwzględnieniu na
+listach biegłych sądowych, nie przewidując jednak żadnych negatywnych skutków braku
+niewywiązania się przez biegłego z obowiązku uzupełnienia danych, jakimi sąd nie dysponuje.
+Celem projektowanej ustawy nie jest bowiem weryfikacja biegłych czy też ustanowienie
+
+
+                                            6
+podstawy do ich odwołania w przypadku zaniechań związanych z aktualizacją listy, a jedynie
+stworzenie   podstaw    prawnych    do   umożliwienia     ujęcia   w   sądowym    systemie
+teleinformatycznym dotychczasowych list biegłych sądowych.
+
+W projekcie przewidziano, że ustawa wejdzie w życie po upływie 14 dni od dnia ogłoszenia.
+
+Projekt ustawy nie jest sprzeczny z prawem Unii Europejskiej.
+
+Projekt ustawy został zamieszczony na stronie podmiotowej Biuletynu Informacji Publicznej
+Rządowego Centrum Legislacji, w serwisie „Rządowy Proces Legislacyjny”, stosownie do
+wymogów art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. 2026 r. poz. 936) oraz zgodnie z § 52 ust. 1 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2026 r.
+poz. 404). Nie zgłoszono zainteresowania pracami nad projektem w trybie przepisów o
+działalności lobbingowej w procesie stanowienia prawa.
+
+Projekt nie podlega notyfikacji zgodnie z przepisami rozporządzenia Rady Ministrów z dnia
+23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego systemu notyfikacji norm i
+aktów prawnych (Dz. U. poz. 2039, z późn. zm.).
+
+Projekt ustawy nie będzie miał negatywnego wpływu na rynek pracy oraz na konkurencyjność
+gospodarki i przedsiębiorczość, w tym na funkcjonowanie przedsiębiorstw.
+
+Projekt nie podlega dokonaniu oceny OSR przez koordynatora OSR w trybie § 32 uchwały
+nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów.
+
+
+
+
+                                             7
+Nazwa projektu                                                                       Data sporządzenia
+Projekt ustawy o zmianie ustawy – Prawo o ustroju sądów powszechnych
+                                                                                     10.07.2026 r.
+Ministerstwo wiodące i ministerstwa współpracujące
+                                                                                     Źródło:
+Ministerstwo Sprawiedliwości – ministerstwo wiodące
+                                                                                     Inicjatywa własna
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Stanu lub
+                                                                        Nr w wykazie prac
+Podsekretarza Stanu
+                                                                        UD379
+pod względem legislacyjnym i merytorycznym:
+Arkadiusz Myrcha, Sekretarz Stanu w Ministerstwie Sprawiedliwości
+Kontakt do opiekuna merytorycznego projektu
+opiekun legislacyjny:
+Marcin Gubała, Dyrektor Departamentu Legislacyjnego
+e-mail: sekretariat.dl@ms.gov.pl; tel. 22 52 12 764
+Janusz Kopciński, główny specjalista, Departament Legislacyjny
+e-mail: janusz.kopcinski@ms.gov.pl; tel. 22 52 12 640
+opiekun merytoryczny:
+Adam Synakiewicz, Dyrektor Departamentu Prawa Karnego
+e-mail: sekretariat.dpk@ms.gov.pl; tel. 22 52 12 645
+
+                                          OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+
+1. Obecne kierunki w zakresie informatyzacji wymiaru sprawiedliwości dążą do cyfryzacji wszelkich rejestrów i baz, z
+   których korzystają sądy powszechne. Przetwarzanie danych w systemie teleinformatycznym jest wygodniejsze, ale
+   również bardziej wiarygodne, gdyż aktualizacja danych, do których dostęp uzyskują sądy, odbywa się w sposób
+   automatyczny i nie jest związana z koniecznością przesyłania dokumentów w postaci papierowej.
+    Rejestr Osób Biorących Udział w Postępowaniu Sądowym (dalej: „ROBUS”) to usługa wywodząca się z rozwiązania
+    zaprojektowanego i wdrożonego w ramach projektu pt.: „Wymiana danych między sądami powszechnymi a
+    samorządami zawodowymi” (dalej: „RPA”). ROBUS to rozwiązanie, które odpowiada na potrzeby w zakresie
+    usprawnienia dostępu sądów powszechnych do aktualnej, zbiorczej informacji o profesjonalnych uczestnikach
+    postępowania sądowego.
+    Głównym zadaniem ROBUS jest bieżące wsparcie funkcjonowania jednostek organizacyjnych wymiaru
+    sprawiedliwości, a jego celem – dalsze usprawnianie wymiany danych, zainicjowanej projektem RPA (wpisuje się to w
+    założenie usprawnienia postępowań sądowych przez zmniejszenie ilości błędów w toku wyznaczania lub weryfikacji
+    statusu zawodowego – początkowo pełnomocników – a obecnie również kolejnych grup zawodowych).
+    Kolejnym etapem rozwoju ROBUS jest zarządzanie i udostępnianie informacji o biegłych sądowych, co przyczyni się
+    do wzrostu efektywności funkcjonowania wymiaru sprawiedliwości. Pozwoli to na prowadzenie list biegłych nie jak
+    dotychczas – wyłącznie w postaci papierowej, ale w postaci elektronicznej, a zatem usprawni proces aktualizacji i
+    pozyskiwania, a następnie udostępniania informacji o biegłych sądowych na potrzeby prowadzonych postępowań
+    sądowych.
+    Obecnie obowiązujące regulacje dotyczące przetwarzania danych osobowych biegłych sądowych stanowią podstawę do
+    przetwarzania tych danych w systemie ROBUS, jedynie w zakresie udostępnionym na stronach internetowych sądów
+    (zgodnie z § 122 ust. 2 rozporządzenia Ministra Sprawiedliwości z dnia 18 czerwca 2019 r. – Regulamin urzędowania
+    sądów powszechnych1)). W praktyce są to: imię i nazwisko biegłego sądowego, specjalizacja oraz termin, do którego
+    został ustanowiony. Informacje te, jako dotyczące osoby pełniącej funkcję publiczną i związane z pełnieniem tej funkcji,
+    stanowią informację publiczną i nie podlegają ochronie ze względu na prywatność (art. 5 ust. 2 ustawy z dnia 6 września
+    2001 r. o dostępie do informacji publicznej2)). Inne dane, m.in.: adres do korespondencji czy numer telefonu,
+
+
+
+
+1) (Dz. U. z 2024 r. poz. 867, z późn. zm.)
+2) (Dz. U. z 2022 r. poz. 902 i z 2025 r. poz. 1844)
+       zamieszczane są na tych listach jedynie za zgodą biegłego. W celu zamieszczenia w systemie ROBUS szerszego
+       katalogu danych osobowych niezbędne jest dokonanie odpowiednich zmian legislacyjnych.
+
+2. Zgodnie z brzmieniem art. 5 § 2 ustawy z dnia 27 lipca 2001 r. – Prawo o ustroju sądów powszechnych3) (dalej „u.s.p.”),
+   osoba niewładająca w wystarczającym stopniu językiem polskim ma prawo do występowania przed sądem w znanym
+   przez nią języku i bezpłatnego korzystania z pomocy tłumacza.
+       Brak jest analogicznego, jednoznacznie brzmiącego przepisu odnoszącego się w bezpośredni sposób do osób
+       niesłyszących oraz osób doświadczających trwale lub okresowo trudności w komunikowaniu się z powodu niedosłuchu
+       i zapewnienia im bezpłatnej pomocy tłumacza języka migowego w postępowaniach sądowych, co może powodować, że
+       osoby te niekiedy rezygnują z dochodzenia swoich praw na drodze sądowej z obawy na ewentualne dodatkowe koszty
+       tłumacza języka migowego w postępowaniu sądowym.
+       Ponadto w tej sprawie Stowarzyszenie Polski Instytut Praw Głuchych wystosowało petycję4), która to została uznana
+       przez Ministra Sprawiedliwości oraz Sejmową Komisję ds. Petycji.
+
+3. Przepis art. 175da § 9 u.s.p., zawiera delegację ustawową do wydania aktu wykonawczego, w porozumieniu z ministrem
+   właściwym do spraw informatyzacji, określającego:
+       a) opis sądowych systemów teleinformatycznych stosowanych w sądach powszechnych, zawierający strukturę
+          systemu, wymaganą minimalną funkcjonalność systemu oraz zakres komunikacji między elementami struktury
+          systemu,
+       b) wymagania standaryzujące w zakresie bezpieczeństwa, wydajności i rozwoju systemu,
+       c) sposób postępowania w zakresie stwierdzania zgodności oprogramowania z opisem systemu
+      – mając na uwadze zapewnienie spójności sądowych systemów teleinformatycznych stosowanych w sądach
+      powszechnych, w szczególności w zakresie jednorodności zakresu i rodzaju danych, a także zachowanie zgodności z
+      minimalnymi wymogami i sposobem stwierdzania zgodności oprogramowania, określonymi na podstawie ustawy z dnia
+      17 lutego 2005 r. o informatyzacji działalności podmiotów realizujących zadania publiczne.
+       Dotychczas delegacja ta nie została zrealizowana, w związku z czym zachodzi konieczność zmiany w zakresie
+       zastąpienia niewykonanego, obligatoryjnego upoważnienia ustawowego delegacją fakultatywną, umożliwiającą
+       wydanie kilku rozporządzeń dotyczących poszczególnych sądowych systemów teleinformatycznych.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+
+1. Centralizacja list biegłych w systemie ROBUS
+       Rozwiązaniem niezbędnym dla zapewnienia gwarancji prawnych i spełnienia wymagań uregulowania zagadnień
+       związanych z przetwarzaniem danych osobowych biegłych sądowych w drodze przepisów o randze ustawowej jest
+       nowelizacja ustawy z dnia 27 lipca 2001 r. – Prawo o ustroju sądów powszechnych.
+       Projektowane przepisy określają zakres i cele przetwarzania danych osobowych biegłych sądowych znajdujących się na
+       liście biegłych sądowych, prowadzonej w systemie teleinformatycznym ROBUS, a także obowiązki prezesów sądów
+       okręgowych i Ministra Sprawiedliwości w tym zakresie.
+       Zgodnie z projektowanym art. 157 § 1 u.s.p., prezes sądu okręgowego ustanawia biegłych sądowych i prowadzi ich listę
+       w systemie teleinformatycznym. Minister Sprawiedliwości jest podmiotem udostępniającym system teleinformatyczny
+       (i administrującym tym systemem, co wynika z art. 175da § 1–3 u.s.p.), w którym prowadzona jest lista biegłych, jak
+       również, obok prezesów sądów okręgowych, pełni funkcję administratora danych osobowych, każdy w zakresie
+       wykonywanych zadań (zgodnie z art. 175da § 5 u.s.p.). Natomiast w zakresie prowadzenia przedmiotowego systemu
+       teleinformatycznego mają zastosowanie zasady określone w ustawie z dnia 17 lutego 2005 r. o informatyzacji
+       działalności podmiotów realizujących zadania publiczne (Dz. U. z 2024 r. poz. 1557, z późn. zm.).
+
+
+
+
+3)
+     (Dz. U. z 2024 r. poz. 1907, z 2025 r. poz. 526, 820, 1172, 1178 i 1609 oraz z 2026 r. poz. 26 i 370)
+4) Petycja z dnia 19 maja 2025 r. w sprawie zmiany ustawy z dnia 27 lipca 2001 r. – Prawo o ustroju sądów powszechnych (Dz. U. z 2024 r. poz.
+
+334, z późn. zm.) w zakresie korzystania przez osoby głuche z pomocy tłumaczy polskiego języka migowego w postępowaniach sądowych (Nr
+BKSP-155-X-543/25)
+                                                                           2
+    Projektowana regulacja przewiduje również dodanie przepisów stanowiących podstawę przetwarzania danych
+    osobowych biegłych. Zgodnie z dodawanym § 1b w art. 157 u.s.p., na liście biegłych sądowych, prowadzonej w systemie
+    teleinformatycznym, będą zamieszczane następujące dane dotyczące biegłego sądowego:
+    – imię i nazwisko,
+    – numer PESEL, o ile biegły sądowy go posiada,
+    – adres do korespondencji,
+    – adres poczty elektronicznej i numer telefonu, o ile numer taki posiada,
+    – termin, do którego biegły sądowy został ustanowiony,
+    – dane dotyczące specjalizacji.
+    Zapewnienie podstawy prawnej dla uzyskania dostępu do danych obejmujących numer PESEL biegłego jest konieczne
+    z uwagi na potrzebę zagwarantowania jednoznacznej identyfikacji takiej osoby. W chwili obecnej jedynym atrybutem
+    jednoznacznie i niezaprzeczalnie identyfikującym obywatela polskiego jest właśnie numer PESEL (może bowiem dojść
+    do sytuacji, w której na liście biegłych figurować będą osoby o identycznym imieniu i nazwisku).
+    Analogiczne przepisy w zakresie udostępniania sądom i Ministrowi Sprawiedliwości numerów PESEL funkcjonują już
+    w ustawach regulujących zawody: radcy prawnego – art. 601 ust. 1 ustawy z dnia 6 lipca 1982 r. o radcach prawnych5),
+    i adwokata – art. 58a ust. 1 ustawy z dnia 26 maja 1982 r. – Prawo o adwokaturze6). Zatem, korzystając z istniejących
+    praktyk, należy przenieść to rozwiązanie również na regulacje dotyczące biegłych sądowych.
+    Ponadto wskazać należy, że uzupełnienie danych o numer PESEL osób figurujących w systemie ROBUS jest niezbędne
+    dla dalszego rozwoju systemu i jego integracji z Portalem Informacyjnym, który w przyszłości będzie również
+    wykorzystywany w celu przekazywania biegłym sądowym informacji o postępowaniu sądowym, zapewnianiu dostępu
+    do akt sądowych drogą elektroniczną, czy też komunikacji dwukierunkowej między biegłym a sądem.
+    W projekcie, określając zakres i cele przetwarzania danych zawartych na listach biegłych sądowych, przyjęto, że będą
+    one udostępniane sądom, prokuraturze (Prokuratorowi Generalnemu, prokuratorom powszechnych jednostek
+    organizacyjnych prokuratury oraz prokuratorom Instytutu Pamięci Narodowej – Komisji Ścigania Zbrodni przeciwko
+    Narodowi Polskiemu) i Ministrowi Sprawiedliwości, za pośrednictwem przedmiotowego systemu teleinformatycznego,
+    w zakresie wszystkich danych w nich zawartych.
+    Natomiast w przypadku pozostałych zainteresowanych, w siedzibie sądu oraz za pośrednictwem systemu
+    teleinformatycznego, udostępniana będzie lista biegłych sądowych bez następujących danych: adresu do korespondencji,
+    adresu poczty elektronicznej i numeru telefonu (o ile biegły, na wezwanie prezesa sądu okręgowego do złożenia
+    oświadczenia w tym przedmiocie, nie wyraził zgody na ich udostępnianie), a także numerów PESEL. Postępowanie
+    takie jest zgodne z zasadami przetwarzania danych osobowych, o których mowa w art. 5 RODO.
+    Prezesi sądów okręgowych, w terminie 3 miesięcy od dnia wejścia w życie ustawy, będą obowiązani do wezwania
+    biegłych do przekazania brakujących danych osobowych, których zamieszczanie na liście biegłych sądowych jest
+    przewidziane projektowanymi przepisami (w szczególności może to dotyczyć numeru PESEL oraz adresu poczty
+    elektronicznej i numeru telefonu) i na tej podstawie do uzupełnienia list. Celem projektowanej ustawy nie jest bowiem
+    weryfikacja biegłych czy też danie podstaw do ich odwołania w przypadku zaniechań związanych z aktualizacją listy, a
+    jedynie stworzenie podstaw prawnych do umożliwienia ujęcia w sądowym systemie teleinformatycznym
+    dotychczasowych list biegłych sądowych.
+    Projektowane zmiany przyspieszą budowę rejestru biegłych sądowych i instytucji opiniujących, o którym mowa
+    w projekcie ustawy o biegłych sądowych i instytucjach opiniujących (UD265). Zgodnie z przedmiotową nowelizacją
+    u.s.p. wymagany jest numer PESEL biegłego, który będzie zamieszczony w rejestrze. Zatem oba projekty idą dokładnie
+    w tym samym kierunku w zakresie budowy rejestru biegłych i instytucji opiniujących.
+
+
+
+
+5) (Dz. U. z 2024 r. poz. 499, z 2025 r. poz. 1172 oraz z 2026 r. poz. 370, 731, 846)
+6) (Dz. U. z 2024 r. poz. 1564, z 2025 r. poz. 1172 oraz z 2026 r. poz. 370 i 846)
+
+
+
+                                                                         3
+2. Zapewnienie osobom głuchym tłumacza języka migowego
+   W celu zapewnienia bezpłatnego dostępu osobom głuchym oraz osobom doświadczającym trwale lub okresowo
+   trudności w komunikowaniu się z powodu niedosłuchu do tłumacza języka migowego w postępowaniu sądowym
+   proponuje się dodanie § 2a w art. 5 u.s.p., który stanowi, że:
+   „Osoba głucha oraz osoba doświadczająca trwale lub okresowo trudności w komunikowaniu się z powodu niedosłuchu
+   mają prawo do występowania przed sądem w znanym im języku migowym oraz prawo do bezpłatnego korzystania z
+   pomocy tłumacza tego języka.”.
+   Wprowadzenie powyższego przepisu usunie wątpliwości interpretacyjne w zakresie możliwości korzystania przez ww.
+   osoby z bezpłatnej pomocy tłumacza języka migowego w postępowaniach sądowych, na tych samych zasadach jak osoby
+   niewładające w wystarczającym stopniu językiem polskim korzystają z pomocy tłumacza przysięgłego.
+   Zaproponowany przepis zastąpi kształtującą się w niektórych sądach praktykę interpretowania art. 5 § 2 u.s.p na rzecz
+   udziału takiego tłumacza w postępowaniu. Ponadto zniesie barierę dla odbiorców normy dochodzenia swoich praw ze
+   względu na ewentualne dodatkowe koszty związane z udziałem tłumacza języka migowego w postępowaniu.
+3. Pozostałe zmiany
+   Proponuje się modyfikację § 9 w art. 175da u.s.p., który zawiera delegację ustawową do wydania aktu wykonawczego,
+   w porozumieniu z ministrem właściwym do spraw informatyzacji, określającego m.in.: opis poszczególnych sądowych
+   systemów teleinformatycznych stosowanych w sądach powszechnych, zawierający strukturę systemu, wymaganą
+   minimalną funkcjonalność systemu oraz zakres komunikacji między elementami struktury systemu.
+   Istota zmiany sprowadza się do uczynienia delegacji fakultatywną, a ponadto dającą możliwość wydania na jej podstawie
+   więcej niż jednego aktu wykonawczego odnoszącego się do jednego albo kilku sądowych systemów
+   teleinformatycznych, w zależności od diagnozy potrzeb w tym zakresie. Z tego też powodu unormowano określenie
+   organu właściwego do wydania, aktu wskazując na jego fakultatywny charakter, zakres spraw przekazanych do
+   uregulowania w rozporządzeniu (tożsamy jak dotychczas, przy czym dodano jedynie, że rozporządzenie może dotyczyć
+   poszczególnych systemów, a zatem nie wszystkich, oraz zrezygnowano z doprecyzowania sądowych systemów
+   teleinformatycznych wskazaniem „stosowanych w sądach powszechnych”, jako zbędnego) oraz wytyczne dotyczące
+   treści tego aktu. Przyczyną projektowanej zmiany jest realizacja projektu Cyfrowy Sąd, którego głównym celem jest:
+   zaprojektowanie, zbudowanie, wdrożenie oraz uruchomienie jednego ogólnokrajowego systemu w oparciu o
+   nowoczesne rozwiązania techniczno-systemowe.
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+
+Ze względu na poziom szczegółowości oraz charakter projektowanych zmian, nie przeprowadzono analizy
+prawnoporównawczej.
+
+4. Podmioty, na które oddziałuje projekt
+
+       Grupa                Wielkość            Źródło danych                         Oddziaływanie
+
+                                                                  Przekazanie właściwemu prezesowi sądu okręgowego
+                                                 Informacje       określonych danych (numer PESEL, adres poczty
+Biegli sądowi            ok. 13 tys. osób
+                                               ogólnodostępne     elektronicznej i numer telefonu) – na wezwanie
+                                                                  prezesa sądu.
+
+                                                                  Wprowadzenie danych otrzymanych od biegłych
+                                                                  sądowych (numer PESEL, adres poczty elektronicznej
+                                                                  i numer telefonu), do systemu teleinformatycznego –
+Prezesi sądów                                   Ministerstwo      w terminie 3 miesięcy od dnia ich otrzymania.
+                                47
+okręgowych                                     Sprawiedliwości    Prowadzenie listy biegłych sądowych w systemie
+                                                                  teleinformatycznym.
+                                                                  Obowiązek udostępniania listy biegłych sądowych,
+                                                                  prowadzonej w systemie teleinformatycznym,
+                                                         4
+                                                                             następującym podmiotom: sądom,                prokuraturze,
+                                                                             Ministrowi Sprawiedliwości.
+                                                                             Administrator danych osobowych w systemie
+                                                                             teleinformatycznym, w którym prowadzona będzie
+                                                                             lista biegłych sądowych – w zakresie wykonywanych
+                                                                             zadań.
+
+                                                                             Obowiązek     udostępnienia i   administrowania
+                                                                             systemem teleinformatycznym do prowadzenia listy
+                                                                             biegłych sądowych.
+                                                                             Administrator danych osobowych w systemie
+                                                                             teleinformatycznym, w którym prowadzona będzie
+Minister                                                 Informacja          lista biegłych sądowych – w zakresie wykonywanych
+                                      1
+Sprawiedliwości                                        ogólnodostępna        zadań.
+                                                                             Modyfikacja w zakresie delegacji ustawowej w
+                                                                             zakresie wydania aktu wykonawczego określającego
+                                                                             m.in.: opis sądowych systemów teleinformatycznych
+                                                                             stosowanych w sądach powszechnych (zmiana z
+                                                                             obligatoryjnej na fakultatywną).
+
+Osoby głuche oraz
+osoby
+                                                                             Możliwość zapewnienia bezpłatnej pomocy tłumacza
+doświadczające
+                                                        Informacje           języka migowego w postępowaniach sądowych
+trwale lub okresowo          ok. 50 tys. osób7)
+                                                      ogólnodostępne8)       (określenie jednoznacznych przepisów w tym
+trudności w
+                                                                             zakresie).
+komunikowaniu się z
+powodu niedosłuchu
+
+                                                                             Modyfikacja w zakresie delegacji ustawowej w
+                                                                             zakresie   współpracy     przy    wydaniu    aktu
+Minister właściwy do                                     Informacja          wykonawczego określającego m.in.: opis sądowych
+                                      1
+spraw informatyzacji                                   ogólnodostępna        systemów teleinformatycznych stosowanych w sądach
+                                                                             powszechnych (zmiana z obligatoryjnej na
+                                                                             fakultatywną).
+
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+
+Projekt został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji, w
+serwisie „Rządowy Proces Legislacyjny”, zgodnie z § 4 i § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października
+2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2026 r. poz. 404) oraz stosownie do wymogów art. 5 ustawy z dnia 7 lipca
+2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2026 r. poz. 936).
+Projekt został przekazany do zaopiniowania:
+1. Krajowej Radzie Sądownictwa,
+2. Prezesom Sądów Apelacyjnych,
+3. Rzecznikowi Praw Obywatelskich,
+4. Sądowi Najwyższemu.
+Projekt został przekazany do konsultacji publicznych do następujących podmiotów:
+1. Fundacja Forum Obywatelskiego Rozwoju,
+2. Fundacja im. Stefana Batorego,
+
+
+7) Osoby te posługują się Polskim Językiem Migowym (PJM) jako swoim pierwszym językiem.
+8) https://www.poznan.pl/mim/hc/news/miedzynarodowy-dzien-gluchych-refleksja-nad-sytuacja-gluchych-w-polsce,238158.html (dostęp
+
+16.01.2026 r.)
+                                                                  5
+3. Fundacja Świat Głuchych,
+4. Helsińska Fundacja Praw Człowieka,
+5. Ogólnopolskie Stowarzyszenie Referendarzy Sądowych,
+6. Polska Fundacja Osób Słabosłyszących,
+7. Polskie Stowarzyszenie Rzeczoznawców i Biegłych Sądowych,
+8. Polskie Towarzystwo Ekspertów i Biegłych Sądowych,
+9. Stowarzyszenie Absolwentów i Aplikantów KSSiP „Votum”,
+10. Stowarzyszenie Polski Instytut Praw Głuchych,
+11. Stowarzyszenie Referendarzy Sądowych LEX IUSTA,
+12. Stowarzyszenie Sędziów Polskich „Iustitia”,
+13. Stowarzyszenie Sędziów Rodzinnych „Pro Familia”,
+14. Stowarzyszenie Sędziów Rodzinnych w Polsce,
+15. Stowarzyszenie Sędziów THEMIS,
+16. Zarząd Główny Polskiego Związku Głuchych.
+Na przedstawienie stanowiska w opiniowaniu i konsultacjach publicznych wyznaczono termin 14 dni od dnia otrzymania przez
+ww. podmioty pism kierujących projekt do opiniowania i konsultacji publicznych. Skrócenie terminu jest uzasadnione
+koniecznością pilnego procedowania projektu, bowiem jak najszybsze wdrożenie zmian przewidzianych przedmiotową
+regulacją skutkować będzie poprawą funkcjonowania wymiaru sprawiedliwości.
+Wyniki konsultacji publicznych i opiniowania zostały omówione w raporcie z konsultacji publicznych i opiniowania. Nie
+zgłoszono zainteresowania pracami nad projektem w trybie przepisów o działalności lobbingowej w procesie stanowienia
+prawa.
+
+6. Wpływ na sektor finansów publicznych
+
+(ceny stałe z 2026 r.)                          Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                                                                                                 Łącznie
+                          0      1      2       3        4         5        6       7        8         9    10
+                                                                                                                 (0–10)
+Dochody ogółem            0      0      0       0        0         0        0       0        0         0    0      0
+budżet państwa            0      0      0       0        0         0        0       0        0         0    0      0
+JST                       0      0      0       0        0         0        0       0        0         0    0      0
+Wydatki ogółem           0,08    0      0       0        0         0        0       0        0         0    0     0,08
+budżet państwa           0,08    0      0       0        0         0        0       0        0         0    0     0,08
+JST                       0      0      0       0        0         0        0       0        0         0    0      0
+
+Saldo ogółem             -0,08   0      0       0        0         0        0       0        0         0    0     -0,08
+
+budżet państwa           -0,08   0      0       0        0         0        0       0        0         0    0     -0,08
+
+JST                       0      0      0       0        0         0        0       0        0         0    0      0
+
+                                     Projektowana regulacja będzie generować skutki finansowe dla sektora finansów
+                                     publicznych, na poziomie ok. 78,3 tys. zł w roku wejścia w życie przepisów.
+                                     Wydatki te zostaną zrealizowane w ramach posiadanego limitu w części 15 budżetu
+                                     państwa – Sądy powszechne, bez konieczności ubiegania się o dodatkowe środki, zarówno
+Źródła finansowania                  w roku wejścia w życie projektowanych przepisów, jak również w latach kolejnych.
+                                     Zmiany wprowadzane w zakresie tłumaczy języka migowego są zmianami
+                                     doprecyzowującymi istniejące już przepisy w zakresie możliwości korzystania z
+                                     bezpłatnej pomocy tłumacza, nie stanowią zatem zmian mogących generować dodatkowe
+                                     koszty dla budżetu państwa.
+
+Dodatkowe informacje, w tym          Centralizacja list biegłych w systemie ROBUS oszacowana została na kwotę 78 320 zł
+wskazanie źródeł danych i            brutto.
+przyjętych do obliczeń założeń
+                                     Do obliczeń przyjęto następujące założenia:
+
+
+                                                               6
+   –     pracochłonność – 440 roboczogodzin
+   –     koszt roboczogodziny – 178 zł brutto
+Centralizacja list biegłych w systemie ROBUS, obejmuje:
+1. Komponent administracyjny
+   a) Centralizacja Rejestru:
+      – Zmiana modelu danych.
+      – Jednolity słownik specjalizacji.
+      – Odnotowywanie opinii zleconych biegłemu.
+   b) Dostęp dla uprawnionych pracowników sądów do zarządzania informacjami w
+      rejestrze biegłych sądowych:
+      – Dodawanie nowych biegłych do rejestru.
+      – Edycja i aktualizacja danych biegłych.
+      – Wyszukiwanie biegłych według różnych kryteriów.
+      – Logowanie zmian w historii wpisu w rejestrze.
+      – Zarządzanie listą specjalizacji biegłych.
+      – Zapewnienie kontroli dostępu do danych i funkcji na podstawie ról i uprawnień
+         użytkowników.
+2. Interfejsy API
+   a) Interfejs udostępniający dane z rejestru do wykorzystania przez Portal
+      Informacyjny.
+   b) Interfejs odpytujący API po stronie Portalu Informacyjnego.
+3. Proces budowy rejestru
+   a) Projekt techniczny rejestru.
+   b) Implementacja.
+   c) Przygotowanie infrastruktury.
+   d) Testowanie.
+   e) Nieprzewidziane zmiany.
+   f) Wdrożenie.
+   g) Dokumentacja rejestru.
+   h) Monitorowanie i wsparcie.
+Szacowana pracochłonność:
+                                                                  Pracochłonność
+       Zakres prac
+                                                                 (roboczogodziny)
+       Analiza i projekt           techniczny,   dokumentacja,
+                                                                       72
+       harmonogram
+       Implementacja                                                   240
+       Przygotowanie infrastruktury                                     8
+       Manualne testy i scenariusze testowe                            40
+       Instalacja i konfiguracja                                       24
+       Dokumentacja                                                    24
+       Zmiany                                                          32
+       Razem                                                           440
+
+
+Analizując wpływ rozszerzenia systemu ROBUS o funkcje związane z rejestrami biegłych
+sądowych na koszty stałe utrzymania i obsługi tego systemu, należy stwierdzić, że nastąpi
+centralizacja list biegłych sądowych, co stanowi pewne uproszczenie. Natomiast dodanie
+pola „PESEL biegłego” nie wpłynie na koszty utrzymania systemu ROBUS.
+
+
+                           7
+                                    Zgodnie z przepisami § 5 rozporządzenia Ministra Sprawiedliwości z dnia 17 kwietnia
+                                    2024 r. w sprawie określenia stawek wynagrodzenia biegłych, taryf zryczałtowanych oraz
+                                    sposobu dokumentowania wydatków niezbędnych dla wydania opinii w postępowaniu
+                                    cywilnym9), w przypadku biegłych z zakresu daktylologii, wzywanych przez sąd w razie
+                                    konieczności przesłuchania osób, które trwale lub okresowo doświadczają trudności w
+                                    komunikowaniu się i posługują się językiem migowym, systemem językowo-migowym
+                                    lub sposobem komunikowania się osób głuchoniewidomych, stawki wynoszą:
+                                     – 2,21 % za tłumaczenie z języka migowego oraz z innych środków komunikowania,
+                                     – 2,88 % za tłumaczenie na język migowy oraz na inne środki komunikowania
+                                    kwoty bazowej dla osób zajmujących kierownicze stanowiska państwowe, której
+                                    wysokość określa ustawa budżetowa.
+                                    Kwota bazowa w 2026 r. wynosi 1 935,26 zł, tak więc stawki tłumaczenia wynoszą
+                                    odpowiednio:
+                                     – 42,77 zł za tłumaczenie z języka migowego oraz z innych środków komunikowania,
+                                     – 55,74 zł za tłumaczenie na język migowy oraz na inne środki komunikowania.
+                                    Jednocześnie należy wskazać, że projektowana regulacja w zakresie zapewnienia osobom
+                                    głuchym oraz osobom doświadczającym trwale lub okresowo trudności w
+                                    komunikowaniu się z powodu niedosłuchu tłumacza języka migowego ma na celu głównie
+                                    usunięcie wątpliwości interpretacyjnych w zakresie możliwości korzystania przez ww.
+                                    osoby z bezpłatnej pomocy tłumacza języka migowego w postępowaniach sądowych.
+                                    Zatem nie powinno to wpłynąć na ewentualny wzrost częstotliwości korzystania z tego
+                                    uprawnienia przez osoby głuche.
+
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+
+                                                           Skutki
+Czas w latach od wejścia w życie zmian                0           1        2        3       5     10      Łącznie (0–10)
+W ujęciu          duże przedsiębiorstwa
+pieniężnym        sektor mikro-, małych i
+(w mln zł,        średnich przedsiębiorstw
+ceny stałe z 2026 rodzina, obywatele oraz
+r.)               gospodarstwa domowe
+W ujęciu               duże przedsiębiorstwa       Brak wpływu.
+niepieniężnym
+                       sektor mikro-, małych i
+                                                   Przedmiotowy projekt nie określa zasad podejmowania, wykonywania lub
+                       średnich przedsiębiorstw
+                                                   zakończenia działalności gospodarczej, w związku z czym odstąpiono od
+                                                   analiz i oceny przewidywanych skutków społeczno-gospodarczych,
+                                                   wskazanych w art. 66 ust. 1 ustawy z dnia 6 marca 2018 r. – Prawo
+                                                   przedsiębiorców (Dz. U. z 2025 r. poz. 1480, z późn. zm.).
+
+                       rodzina, obywatele oraz
+                       gospodarstwa domowe, w
+                                                   Projektowana zmiana nie będzie mieć wpływu na sytuację ekonomiczną i
+                       tym osoby z
+                                                   społeczną rodziny, osób niepełnosprawnych oraz osób starszych.
+                       niepełnosprawnością i
+                       starsze
+
+Niemierzalne                                       Dodanie § 2a w art. 5 u.s.p. zniesie barierę dla odbiorców normy, czyli
+                                                   osób głuchych oraz osób doświadczających trwale lub okresowo trudności
+                                                   w komunikowaniu się z powodu niedosłuchu, dochodzenia swoich praw
+
+
+9) (Dz. U. z 2025 r. poz. 1444)
+
+                                                            8
+                                                 ze względu na ewentualne dodatkowe koszty związane z udziałem
+                                                 tłumacza języka migowego w postępowaniu sądowym.
+
+Dodatkowe informacje, w tym wskazanie
+źródeł danych i przyjętych do obliczeń założeń
+
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+                                                       tak
+Wprowadzane są obciążenia poza bezwzględnie
+                                                       nie
+wymaganymi przez UE
+                                                       nie dotyczy
+
+   zmniejszenie liczby dokumentów                      zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                        zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy               wydłużenie czasu na załatwienie sprawy
+   inne:                                               inne:
+Wprowadzane obciążenia są przystosowane do ich         tak
+elektronizacji.                                        nie
+                                                       nie dotyczy
+
+Komentarz:
+Zgodnie z projektowanymi przepisami, prezesi sądów okręgowych będą mieli obowiązek udostępniania listy biegłych
+sądowych, prowadzonej w systemie teleinformatycznym, następującym podmiotom: sądom, prokuraturom, Ministrowi
+Sprawiedliwości.
+9. Wpływ na rynek pracy
+Wejście w życie przedmiotowego projektu ustawy nie będzie miało negatywnego wpływu na sytuację i rozwój regionalny
+oraz na rynek pracy, konkurencyjność gospodarki i przedsiębiorczość, w tym na funkcjonowanie przedsiębiorstw.
+10. Wpływ na pozostałe obszary
+   środowisko naturalne                     demografia                              informatyzacja
+   sytuacja i rozwój regionalny             mienie państwowe                        zdrowie
+   sądy powszechne, administracyjne,        inne: ochrona danych osobowych
+wojskowe, Sąd Najwyższy
+                           W zakresie ochrony danych osobowych przetwarzanych w systemie ROBUS należy wskazać,
+                           że od początku jego funkcjonowania, tj. od 2016 r., za jego pośrednictwem udostępniane są,
+                           uprawnionym podmiotom (w szczególności sądom), informacje o profesjonalnych uczestnikach
+                           postępowań sądowych, w tym radcach prawnych i adwokatach, zawierających również, w
+                           oparciu o istniejące już podstawy prawne, numer PESEL tych osób.
+                           System ten był projektowany w taki sposób, że nie identyfikuje się obecnie w nim podatności i
+                           zagrożeń dla ochrony danych osobowych. Dostęp do systemu jest reglamentowany, nadawany
+                           na wniosek uprawnionych podmiotów i zapewnia rozliczalność dostępu.
+Omówienie wpływu
+                           Od momentu wdrożenia systemu ROBUS nie odnotowano przypadku naruszenia ochrony
+                           danych osobowych w systemie. Tym samym uznać można, że już w fazie projektowania systemu
+                           prawidłowo zidentyfikowano ryzyka i uwzględniono środki służące wyeliminowaniu zagrożenia
+                           naruszenia ochrony danych osobowych.
+                           Mając powyższe na uwadze, można przyjąć, że ryzyka naruszenia ochrony danych osobowych
+                           – rozumiane jako kombinacja prawdopodobieństwa wystąpienia określonego zdarzenia oraz
+                           jego skutków – nie są obecnie identyfikowane, bowiem budowa systemu oraz jego
+                           funkcjonalności zapobiegają możliwości ich zmaterializowania się.
+
+
+
+
+                                                         9
+11. Planowane wykonanie przepisów aktu prawnego
+Projekt przewiduje, że ustawa wejdzie w życie po upływie 14 dni od dnia ogłoszenia.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Nie planuje się przeprowadzania ewaluacji efektów projektu.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak załączników.
+
+
+
+
+                                                          10
+                          Raport z konsultacji publicznych i opiniowania
+         projektu ustawy o zmianie ustawy – Prawo o ustroju sądów powszechnych (UD379)
+
+
+
+   I.        Informacje ogólne.
+
+
+Niniejszy dokument stanowi wypełnienie obowiązku określonego w § 51 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2026 r. poz. 404),
+zgodnie z którym organ wnioskujący sporządza raport z konsultacji obejmujący omówienie wyników
+przeprowadzonych konsultacji publicznych i opiniowania. Stosownie do postanowień Regulaminu
+pracy Rady Ministrów projekt ustawy o zmianie ustawy – Prawo o ustroju sądów powszechnych został
+udostępniony na stronie Rządowego Centrum Legislacji, w zakładce Rządowy Proces Legislacyjny.
+Projekt został też wpisany do Wykazu prac legislacyjnych i programowych Rady Ministrów – UD379.
+
+
+   II.       Przebieg uzgodnień konsultacji publicznych i opiniowania.
+
+
+Projekt ustawy został skierowany do konsultacji publicznych pismem z dnia 30 marca 2026 r.
+z czternastodniowym terminem na zgłaszanie uwag. Skrócenie terminu względem wynikającego z § 40
+ust. 3 pkt 1 Regulaminu pracy Rady Ministrów zostało uzasadnione koniecznością pilnego
+procedowania projektu z uwagi na fakt, że jak najszybsze wdrożenie zmian przewidzianych
+przedmiotową regulacją powinno skutkować poprawą funkcjonowania wymiaru sprawiedliwości.
+W ramach konsultacji publicznych projekt został przesłany do następujących podmiotów:
+         1. Fundacja Forum Obywatelskiego Rozwoju,
+         2. Fundacja im. Stefana Batorego,
+         3. Fundacja Świat Głuchych,
+         4. Helsińska Fundacja Praw Człowieka,
+         5. Ogólnopolskie Stowarzyszenie Referendarzy Sądowych,
+         6. Polska Fundacja Osób Słabosłyszących,
+         7. Polskie Stowarzyszenie Rzeczoznawców i Biegłych Sądowych,
+         8. Polskie Towarzystwo Ekspertów i Biegłych Sądowych,
+         9. Stowarzyszenie Absolwentów i Aplikantów KSSiP „Votum”,
+         10. Stowarzyszenie Polski Instytut Praw Głuchych,
+         11. Stowarzyszenie Referendarzy Sądowych LEX IUSTA,
+         12. Stowarzyszenie Sędziów Polskich „Iustitia”,
+         13. Stowarzyszenie Sędziów Rodzinnych „Pro Familia”,
+         14. Stowarzyszenie Sędziów Rodzinnych w Polsce,
+         15. Stowarzyszenie Sędziów THEMIS,
+         16. Zarząd Główny Polskiego Związku Głuchych
+
+Projekt ustawy został skierowany do opiniowania pismami z dnia 30 marca 2026 r. z czternastodniowym
+terminem na zgłaszanie uwag. Skrócenie terminu względem wynikającego z § 40 ust. 3 pkt 1
+Regulaminu pracy Rady Ministrów zostało uzasadnione koniecznością pilnego procedowania projektu
+z uwagi na fakt, że jak najszybsze wdrożenie zmian przewidzianych przedmiotową regulacją powinno
+skutkować poprawą funkcjonowania wymiaru sprawiedliwości. W ramach opiniowania projekt został
+przesłany do następujących podmiotów:
+          1. Sąd Najwyższy,
+          2. Krajowa Rada Sądownictwa,
+          3. Rzecznik Praw Obywatelskich,
+          4. Prezes Urzędu Ochrony Danych Osobowych,
+          5. Sąd Apelacyjny w Białymstoku,
+          6. Sąd Apelacyjny w Gdańsku,
+          7. Sąd Apelacyjny w Katowicach,
+          8. Sąd Apelacyjny w Krakowie,
+          9. Sąd Apelacyjny w Lublinie,
+          10. Sąd Apelacyjny w Łodzi,
+          11. Sąd Apelacyjny w Poznaniu,
+          12. Sąd Apelacyjny w Rzeszowie,
+          13. Sąd Apelacyjny w Szczecinie,
+          14. Sąd Apelacyjny w Warszawie,
+          15. Sąd Apelacyjny we Wrocławiu.
+
+   III.       Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania.
+Zgłoszone uwagi oraz przedstawienie wyników konsultacji publicznych i opiniowania zawarto w tabeli
+stanowiącej załącznik do niniejszego raportu.
+
+
+   IV.        Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia
+              projektu z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim
+              Bankiem Centralnym.
+Projekt nie wymaga przedłożenia innym instytucjom i organom Unii Europejskiej lub Europejskiemu
+Bankowi Centralnemu w celu uzyskania opinii, dokonania konsultacji lub uzgodnienia.
+
+
+   V.         Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem
+              w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa, wraz ze
+              wskazaniem kolejności dokonania zgłoszeń albo informację o ich braku.
+Nie zgłoszono zainteresowania pracami nad projektem w trybie przepisów o działalności lobbingowej
+w procesie stanowienia prawa.
+
+
+
+
+Załączniki:
+   −      tabela uwag do projektu, zgłoszonych w toku konsultacji publicznych i opiniowania.
+                                                             ZESTAWIENIE UWAG
+
+             DO PROJEKTU USTAWY O ZMIANIE USTAWY – PRAWO O USTROJU SĄDÓW POWSZECHNYCH (UD379)
+
+                                      ZGŁOSZONYCH W RAMACH OPINIOWANIA I KONSULTACJI
+
+                       Podmiot
+       Jednostka
+Lp.                   zgłaszający                         Treść uwagi                                      Stanowisko projektodawcy
+      redakcyjna
+                        uwagę
+1.    art. 1 pkt 1   Sąd Najwyższy Po pierwsze, w projekcie przewiduje się dodanie art. 5 § 2a, Uwaga uwzględniona.
+                                   który stanowi, że osoba głucha ma prawo do występowania
+                                   przed sądem w znanym przez nią języku migowym i
+                                   bezpłatnego korzystania z pomocy tłumacza tego języka.
+                                   Przepis ten jest identyczny w swej konstrukcji jak
+                                   unormowanie obecnie obowiązującego art. 5 § 2 ustawy z
+                                   dnia 27 lipca 2001 r. – Prawo o ustroju sądów powszechnych
+                                   (t.j. Dz.U. z 2023 r. poz. 1860, dalej: u.s.p.), który zapewnia
+                                   bezpłatną pomoc tłumacza osobie niewładającej w
+                                   wystarczającym stopniu językiem polskim. W projekcie nie
+                                   przewidziano jednak, jak ma to miejsce w przypadku
+                                   tłumacza języka naturalnego, procedury przyznawania
+                                   tłumacza języka migowego. Wypełnienie tej luki wymaga
+                                   stosownej nowelizacji art. 5 § 3 u.s.p., który stanowi, że o
+                                   przyznaniu tłumacza osobie, o której mowa w § 2, orzeka sąd
+                                   właściwy do rozpoznania sprawy w pierwszej instancji.
+                                   Wniosek o przyznanie tłumacza zgłoszony w toku sprawy
+                                   rozpoznaje sąd tej instancji, w której sprawa się toczy. Zmiana
+                                   powinna polegać na zmodyfikowaniu odesłania zawartego w
+                                   powyższym unormowaniu przez wymienienie w nim nie tylko
+                                   § 2, ale także dodawanego § 2a. Biorąc bowiem pod uwagę,
+                                   że pomoc tłumacza języka migowego odbywa się na takich
+                                   samych zasadach jak języka naturalnego, także kwestie
+                                   proceduralne związane z przyznaniem tłumacza powinny być
+                                   uregulowane tak samo.
+
+
+
+                                                                                                                                 Strona 1 z 14
+2.   art. 1 pkt 1   Stowarzyszeni   Działając w imieniu Stowarzyszenia Polski Instytut Praw         Uwaga nieuwzględniona. Projektowane umożliwienie
+                    e Polski        Głuchych, w ramach procesu konsultacji publicznych,             uprawnionemu korzystania z pomocy tłumacza języka
+                    Instytut        zgłaszamy uwagę do przedstawionego projektu w zakresie          powiązane z prawem występowania przed sądem w znanym
+                    Sprawa          brzmienia projektowanego art. 5 § 2a. Wnosimy o nadanie mu      osobie uprawnionej języku migowym w sposób dostateczny
+                    Głuchych        następującej, doprecyzowanej treści:                            gwarantuje możliwość korzystania z wybranego przez
+                                    „§ 2a. Osoba głucha ma prawo do występowania przed sądem        uprawnionego języka migowego. Jednocześnie potencjalne
+                                    w wybranym przez siebie języku migowym, w szczególności         problemy ze skutecznością tłumaczenia – podobnie jak w
+                                    w polskim języku migowym (PJM),                          oraz   przypadku osoby niewładającej językiem polskim – nie są
+                                    do bezpłatnego korzystania z pomocy tłumacza                    przedmiotem szczególnej regulacji, mogą zaś stać się
+                                    zapewniającego skuteczną komunikację”.                          podstawą zmiany tłumacza i przybrania innego (nie jest
+                                                                                                    bowiem spełniona uprawnienie występowania przed sądem
+                                    UZASADNIENIE MERYTORYCZNE
+                                                                                                    w znanym przez daną osobę języku migowym, jeżeli tłumacz
+                                    1.     Wdrożenie     standardów      międzynarodowych       i   nie gwarantuje odpowiedniego poziomu tłumaczenia).
+                                    konstytucyjnych
+                                    Proponowana przez Instytut modyfikacja stanowi niezbędne
+                                    przełożenie                                 na grunt krajowy
+                                    art. 13 Konwencji ONZ o prawach osób niepełnosprawnych.
+                                    W obecnym brzmieniu projektowanym przez Ministerstwo
+                                    ("w znanym przez nią języku migowym") standard ten jest
+                                    niepełny. Proponowana przez nas zmiana stanowi pełniejszą
+                                    realizację art. 45 ust. 1 Konstytucji RP (prawo do sądu),
+                                    gwarantując, że dostęp do wymiaru sprawiedliwości nie
+                                    będzie jedynie formalny, lecz faktyczny.
+                                    2. Podmiotowość komunikacyjna i ranga Polskiego Języka
+                                    Migowego (PJM)
+                                    Wskazanie wprost na Polski Język Migowy (PJM) jest
+                                    uzasadnione jego statusem jako języka naturalnego,
+                                    posiadającego własną strukturę gramatyczną.
+                                    Użycie w projekcie rządowym ogólnego sformułowania
+                                    "znany język" jest zbyt nieostre i może w praktyce prowadzić
+                                    do narzucania Systemu Językowo-Migowego (SJM).
+                                    Przyznanie stronie prawa do wyboru języka jest wyrazem
+                                    szacunku dla jej podmiotowości                   i gwarancją
+                                    swobody wypowiedzi procesowej.
+                                    3. Standard „skutecznej komunikacji” jako gwarancja prawna
+
+                                                                                                                                            Strona 2 z 14
+Wprowadzenie        wymogu       zapewnienia     „skutecznej
+komunikacji” jest kluczowe.                        Sam fakt
+obecności tłumacza "znanego języka" (jak proponuje rząd)
+nie gwarantuje zrozumienia specjalistycznej terminologii
+prawniczej.
+Standard „skutecznej komunikacji” przenosi nacisk na
+rzeczywistą zrozumiałość przekazu.       Pełni on funkcję
+zabezpieczającą – pozwala na zmianę biegłego w sytuacji,
+gdy bariery lingwistyczne uniemożliwiają osobie głuchej
+realną obronę swoich praw.
+4. Sprawność postępowań i rzetelność orzekania
+Z punktu widzenia nauki prawa, skuteczna komunikacja jest
+warunkiem koniecznym                       do prawidłowego
+ustalenia faktów.
+Precyzyjne określenie standardu tłumaczenia w art. 5 § 2a
+bezpośrednio wpłynie na trafność wyroków i ograniczy liczbę
+skarg kasacyjnych czy apelacji opartych na zarzutach
+naruszenia prawa do obrony i niewłaściwego zrozumienia
+intencji strony.
+Reasumując:
+Przyjęcie poprawki w brzmieniu zaproponowanym przez
+Instytut jest niezbędne dla zapewnienia spójności polskiego
+systemu prawnego z zobowiązaniami międzynarodowymi.
+Postulowana treść art. 5 § 2a eliminuje ryzyko tworzenia
+przepisów o charakterze iluzorycznym, zastępując nieostre
+sformułowania projektodawcy precyzyjnymi gwarancjami
+procesowymi.               Tak sformułowana norma staje się
+realnym instrumentem ochrony prawnej, a nie jedynie
+symbolicznym zapisem w ustawie ustrojowej.
+Implementacja zaproponowanych rozwiązań jest warunkiem
+niezbędnym dla urzeczywistnienia konstytucyjnych i
+konwencyjnych standardów ochrony prawnej, co pozwoli na
+wyeliminowanie barier o charakterze dyskryminacyjnym i
+zapewnienie pełnej inkluzywności postępowań sądowych.
+
+
+                                                               Strona 3 z 14
+3.   art. 1 pkt 1   Polski Związek Polski Związek Głuchych popiera proponowane zmiany w Uwaga niewymagająca stanowiska
+                    Głuchych       w/w projekcie ustawy w zakresie drugiego celu, w którym
+                                   planuje się wprowadzenie jednoznacznie brzmiącego
+                                   przepisu umożliwiającego osobom głuchym bezpłatną pomoc
+                                   tłumacza języka migowego w postępowaniach sądowych na
+                                   tych samych zasadach jak osoby niewładające w
+                                   wystarczającym stopniu językiem polskim korzystają z
+                                   pomocy tłumacza przysięgłego.
+                                   Proponowana zmiana jest właściwa i zgodna z Konwencją o
+                                   Prawach Osób z Niepełnosprawnych. Zmiana ta umożliwi
+                                   osobom głuchym korzystanie z bezpłatnej pomocy tłumacza
+                                   języka migowego w postępowaniach sądowych na tych
+                                   samych zasadach jak osobom słyszącym, niewładającym w
+                                   wystarczającym stopniu językiem polskim, którzy korzystają
+                                   z pomocy tłumacza przysięgłego.
+                                   Dla osób głuchych naturalnym i pierwszym językiem jest
+                                   język migowy, w przypadku obywateli polskich jest to polski
+                                   język migowy.
+4.   art. 1 pkt 1   Polska Izba     PIIT z uznaniem odnosi się inicjatywy resortu Uwagi nieuwzględnione, niezasadne.
+                    Informatyki i   sprawiedliwości. Jej celem jest uporządkowanie przepisów w
+                    Telekomunikac   zakresie dostępu do tłumacza języka migowego we
+                    ji              wszystkich aspektach funkcjonowania sądów powszechnych.
+                                    Sugerowane przez PIIT do projektu zmiany nie dotyczą
+                                    zakresu obowiązku zapewnienia tłumacza języka migowego.
+                                    Uregulowane jest to w ustawie dnia 19 lipca 2019 r. o
+                                    zapewnianiu dostępności osobom ze szczególnymi
+                                    potrzebami oraz przepisach regulujących postępowania
+                                    sądowe. Proponowane przez PIIT zmiany zmierzają do
+                                    doprecyzowania osób władnych do podejmowania decyzji o
+                                    zapewnieniu tłumaczenia oraz dostosowania (ograniczenia)
+                                    zakresu zobowiązania do tłumaczenia na język migowy do
+                                    przepisów ustawy z roku 2011 o polskim języku migowym
+                                    oraz w/w ustawy z 2019 r.
+                                    Ustawa z dnia 27 lipca 2001 r. o ustroju sądów powszechnych
+                                    (u.s.p.) zasadniczo reguluje wyłącznie administracyjne
+                                    funkcjonowanie sądów, a nie postępowanie przed nimi. W
+                                                                                                                         Strona 4 z 14
+odniesieniu do kontaktu głuchej osoby z sądem w każdej
+sytuacji – od zasięgnięcia informacji, przez udział w
+postępowaniu oraz otrzymanie informacji o jego wyniku (np.
+odpis wyroku) – w każdej z nich Głuchy ma prawo do
+komunikowania się w formie dla tej osoby zrozumiałej, z
+uwzględnieniem rodzaju jej niepełnosprawności.
+Przepisy ustawy z dnia 19 sierpnia 2011 r. o języku migowym
+i innych środkach komunikowania się gwarantują Głuchym
+obsługę w języku migowym w kontaktach z organami
+administracji publicznej. Dostępność zobowiązane są
+zapewnić jednostki sektora finansów publicznych               w
+rozumieniu art. 9 ustawy z dnia 27 sierpnia 2009 r. o finansach
+publicznych (Dz. U. z 2023 r. poz. 1270, z późn. zm.).
+Obejmuje to organy władzy publicznej, w tym organy
+administracji rządowej, organy kontroli państwowej i
+ochrony prawa oraz sądy i trybunały.
+Jak wynika z wyżej przytoczonych przepisów, Głuchy w
+sferze administracyjnych kontaktów z sądem ma
+zagwarantowane udogodnienia z zakresu dostępności
+cyfrowej i dostępności informacyjno-komunikacyjnej. W
+sytuacjach poza zakresem postępowania sądowego o
+udogodnieniach dla Głuchego powinien decydować
+koordynator dostępności w danym sądzie lub dyrektor
+administracyjny.
+Nieco zaskakujące jest umieszczenie przepisu nakazującego
+ustanowienie tłumacza dla celów występowania przed sądem
+w ustawie o ustroju sądów powszechnych, która reguluje
+administracyjną sferę funkcjonowania sądu, a nie w
+przepisach odrębnych jak kpc lub kpk.
+Jeżeli jednak celem tego przepisu jest zagwarantowanie
+prawa do rzetelnego procesu, unikanie dyskryminacji oraz
+zapewnienie komunikacji społecznej gwarantowanej przez
+Konstytucję RP, to potwierdzenie, iż sąd, stwierdzając
+okoliczność nieposługiwania się przez daną osobę w
+wystarczający sposób językiem urzędowym sądu,
+
+
+                                                                  Strona 5 z 14
+zobowiązany jest zapewnić udział tłumacza w postępowaniu,
+jest okolicznością pozytywną.
+Dotychczasowa ustawa o sądach powszechnych w ułomny
+sposób gwarantuje Głuchemu prawo do korzystania z
+tłumaczenia. Zawiera gwarancję prawną (§§ 1–2, 2a), ale
+mechanizm jej realizacji (§ 3 art. 5 ustawy o ustroju sądów
+powszechnych) wydaje się działać jedynie na etapie
+postępowania (sądowego). W postępowaniu cywilnym (w
+tym rejestrowym), karnym, etc. i tak zachodzi potrzeba
+stosowania przepisów regulujących dane postępowanie (np. w
+karnym art. 74 kpk i 204 kpk). Przepis w obecnym brzmieniu
+nakłada obowiązek zapewnienia tłumacza w każdym języku
+migowym, a nie tylko w ramach języków wymienionych w
+ustawie o polskim języku migowym. W odniesieniu do
+postępowania przed sądem jest to przepis uzasadniony w
+kontekście prawa do rzetelnego procesu. Na etapie kontaktu
+administracyjnego byłby niespójny z innymi, ustawowymi
+regulacjami i mógłby generować dodatkowe koszty dla sądu.
+Proponowana w art. 1 pkt. 1) projektu nowelizacja (zmiana w
+art. 5 ustawy o ustroju sądów powszechnych) idzie w dobrym
+kierunku. Przepisy powinny jasno określać prawo Głuchego
+do porozumiewania się z sądem w toku procesu. W sferze
+administrowania wymiaru sprawiedliwości powinny być
+analogiczne do istniejących, regulacji polskiego prawa
+dostępnościowego. W sferze administracyjnych kontaktów z
+sądem nie zachodzi potrzeba korzystania z pomocy biegłego.
+9. Sugerujemy zmianę redakcji przepisu art. 5. [Język
+urzędowy przed sądami; korzystanie z pomocy tłumacza] na
+następującą:
+„§ 1. Językiem urzędowym przed sądami jest język polski.
+§ 2. O udogodnieniach dla osób głuchych w zakresie kontaktu
+z sądem decyduje dyrektor administracyjny. Zapewnia m.in.
+bezpłatne skorzystanie z tłumacza w znanym osobie głuchej
+języku migowym, o którym mowa w ustawie z dnia 19
+sierpnia 2011 r. o języku migowym i innych środkach
+komunikowania się.
+                                                              Strona 6 z 14
+§ 4. O przyznaniu tłumacza osobie, o której mowa w § 3,
+orzeka sąd właściwy do rozpoznania sprawy w pierwszej
+instancji. Wniosek o przyznanie tłumacza zgłoszony w toku
+sprawy rozpoznaje sąd tej instancji, w której sprawa się
+toczy.”
+§ 3. Osoba niewładająca w wystarczającym stopniu językiem
+polskim ma prawo do występowania przed sądem w znanym
+przez nią języku i bezpłatnego korzystania z pomocy
+tłumacza. Do osoby głuchej przepis stosuje się odpowiednio.
+Proponowany przepis w sferze administrowania sądem jest
+spójny z polskim prawem dostępnościowym, t.j. prawem
+Głuchego do komunikowania się w sferze publicznej w
+znanym mu języku migowym. Nakłada na sądy, na etapie
+przedprocesowym, obowiązek zapewnienia tłumaczenia na
+języki migowe, o których mowa w ustawie z 2011, a nie na
+każdy język migowy znany osobie, która pojawi się w
+sekretariacie sądu. Wskazuje kierownika jednostki jako osobę
+właściwą do zapewnienia udogodnień i odpowiedzialną za
+zapewnienie tłumacza. Na tym etapie nie ma możliwości ani
+potrzeby ustanowienia biegłego dla tłumaczenia języka
+migowego. Wymagania co do zakresu usługi i jakości
+tłumaczenia określone są w umowach zawieranych od 2019 r.
+przez dyrektorów administracyjnych. Potwierdza to istniejąca
+praktyka, skonkretyzowana w usłudze tłumacza PJM online
+dla sądów. Wyraźnie rozgranicza obowiązki w sferze
+administracyjnego i orzeczniczego funkcjonowania sądu.
+Wydaje się, że przepisy kpc i kpk w wystarczającym stopniu
+gwarantują prawo do rzetelnego procesu i obowiązek
+ustanowienia tłumacza (jakiegokolwiek języka migowego),
+ale art. 5 (nowy § 3 i 4) można pozostawić jako dodatkową
+wytyczną dla sądu. Zwłaszcza, że znajdzie zastosowanie w
+każdym postępowaniu przed sądem.
+11. Na kanwie komentowanego przepisu można rozważyć
+celowość upowszechnienia w sądach apelacyjnych
+stanowiska koordynatora ds. dostępności, uprawnionego na
+
+
+                                                               Strona 7 z 14
+                                         mocy stosownych porozumień, do działania we wszystkich
+                                         sądach apelacji.
+
+
+5.   art. 1 pkt 2 lit.   Sąd Najwyższy Po drugie, należy zauważyć, że projektodawcy proponują Uwaga uwzględniona.
+             a                         zawrzeć w zmodyfikowanym art. 157 § 1 u.s.p.
+                                       sformułowanie       „system      teleinformatyczny,    którego
+                                       administratorem jest Minister Sprawiedliwości”. Wskazanie
+                                       jednak, że to Minister Sprawiedliwości jest administratorem
+                                       systemu, biorąc pod uwagę treść art. 175da § 3 u.s.p. w zw. z
+                                       art. 175da § 1 u.s.p., jest zbędne. Z tych ostatnich przepisów
+                                       jednoznacznie wynika bowiem, że system teleinformatyczny,
+                                       w którym znajduje się lista biegłych sądowych jest sądowym
+                                       systemem teleinformatycznym w rozumieniu art. 175da § 1
+                                       u.s.p., a te systemy, co wynika z art. 175da § 3 u.s.p. są
+                                       administrowane przez Ministra Sprawiedliwości. Nie ma
+                                       zatem, jak wskazano to powyżej, potrzeby powielania w art.
+                                       157 § 1 u.s.p. w brzmieniu proponowanym w projekcie treści
+                                       już wynikającej z art. 175da § 1 i 3 u.s.p.
+6.   art. 1 pkt 2 lit.   Prezes Urzędu   Stosownie do dyspozycji art. 157 § 1 ustawy – Prawo o ustroju    Uwaga dotycząca dopuszczalności zamieszczania na liście
+           aib           Ochrony         sądów powszechnych powoływanej dalej z zastosowaniem             biegłych sądowych numeru telefonu biegłego sądowego
+                         Danych          skrótu „u.s.p.”, w brzmieniu nadanym przez art. 1 pkt 2 lit. a   nieuwzględniona. W ocenie projektodawcy z faktu
+                         Osobowych       projektu, każdy z prezesów sądów okręgowych ma prowadzić         obowiązkowego zamieszczenia na liście biegłych sądowych
+                                         – nowo tworzoną – listę biegłych sądowych i wykorzystywać        nr telefonu biegłego wynika obowiązek udostępnienia takich
+                                         do prowadzenia tej listy system teleinformatyczny, którego       danych przez biegłego w toku ubiegania się o powołanie
+                                         administratorem jest Minister Sprawiedliwości. W świetle         biegłym. Biegli ustanowieni przed wejściem w życie ustawy
+                                         wyjaśnień zamieszczonych w uzasadnieniu projektu (str. 2)        – zgodnie z art. 2 nowelizacji – będą mogli lecz nie będą
+                                         system teleinformatyczny, w którym ma być prowadzona lista       musieli uzupełnić tę informację.
+                                         biegłych sądowych (a precyzyjniej – listy biegłych sądowych
+                                         prowadzone przez poszczególnych prezesów sądów
+                                                                                                          Uwaga dotycząca możliwości ujawniania numeru PESEL w
+                                         okręgowych), jest jednym z sądowych systemów
+                                                                                                          ramach powszechnie dostępnej listy biegłych sądowych
+                                         teleinformatycznych, o których mowa w art. 175da § 2 i 3
+                                                                                                          uwzględniona.
+                                         u.s.p.
+
+                                         Zgodnie z art. 157 § 1b pkt 4 in fine u.s.p., dodawanym przez
+                                         art. 1 pkt 2 lit. b projektu, nowo tworzona lista biegłych
+                                                                                                                                                    Strona 8 z 14
+sądowych ma zawierać m.in. numer telefonu biegłego
+sądowego. Tymczasem brak jest przepisu prawa
+materialnego, który nakładałby na biegłego sądowego
+obowiązek posiadania i posługiwania się telefonem dla celów
+służbowych [to jest realizacji zadań (obowiązków) biegłego
+sądowego]. W myśl bowiem (nienowelizowanego przez
+projekt) art. 157 § 1a zdanie pierwsze u.s.p.: „Biegły wpisany
+na listę biegłych sądowych ma obowiązek posiadania konta w
+portalu informacyjnym […]”. Portal informacyjny to system
+informatyczny uregulowany w rozporządzeniu Ministra
+Sprawiedliwości w sprawie portalu informacyjnego
+powoływanym dalej z zastosowaniem skrótu „rozporządzenie
+w sprawie portalu informacyjnego”, wydanym na podstawie
+art. 53e § 2 u.s.p. Abstrahując od kwestii, że określone
+obowiązki zostały nałożone na użytkownika portalu
+informacyjnego jedynie w rozporządzeniu, a nie w ustawie, §
+4 ust. 1 pkt 4 rozporządzenia w sprawie portalu
+informacyjnego dla założenia konta osoby fizycznej w portalu
+informacyjnym wymaga numeru telefonu jedynie
+opcjonalnie.
+Tym samym – wobec brzmienia § 4 ust. 1 pkt 4
+rozporządzenia w sprawie portalu informacyjnego, w
+powiązaniu z art. 157 § 1a zdanie pierwsze u.s.p. – brak jest
+podstaw prawnych do żądania zamieszczania na liście
+biegłych sądowych numeru telefonu biegłego sądowego.
+Umieszczenie takiej danej (informacji) w (zasadniczo)
+publicznie dostępnym rejestrze może być bowiem jedynie
+pochodną obowiązku przetwarzania tej danej, a obowiązku
+taki nie wynika z obowiązujących przepisów. Co za tym idzie
+opiniowany art. 157 § 1b pkt 4 in fine u.s.p., dodawany przez
+art. 1 pkt 2 lit. b projektu, narusza zasadę legalizmu
+(zgodności z prawem) z art. 5 ust. 1 lit. a) rozporządzenia
+2016/6797.
+
+W świetle – wynikającej z art. 87 rozporządzenia 2016/6798
+– zasady szczególnej ochrony krajowego numeru
+                                                                 Strona 9 z 14
+                                     identyfikacyjnego, którym w polskim systemie prawnym jest
+                                     numer PESEL, niezrozumiały dla organu właściwego w
+                                     sprawie ochrony danych osobowych jest art. 157 § 1d zdanie
+                                     drugie u.s.p., dodawany przez art. 1 pkt 2 lit. b projektu,
+                                     zgodnie z którym biegły może wyrazić zgodę na ujawnienie
+                                     na liście biegłych sądowych dostępnej w siedzibie sądu oraz
+                                     za pośrednictwem wyszukiwarki biegłych sądowych swój
+                                     numer PESEL (art. 157 § 1d zdanie drugie u.s.p. odsyła m.in.
+                                     do art. 157 § 1b pkt 2 u.s.p.). Wobec pominięcia tej kwestii w
+                                     uzasadnieniu, które dość szczegółowo odnosi się do kwestii
+                                     upubliczniania danych osobowych biegłych sądowych
+                                     zawartych na listach biegłych sądowych (str. 4), organ
+                                     nadzorczy zwraca się do projektodawcy o wskazanie celu
+                                     przedmiotowej regulacji.
+7.   art. 1 pkt 2 lit.   SA w        Odpowiadając na pismo z dnia 30 marca 2026 r. (DL- Uwaga uwzględniona.
+             b           Wrocławiu   IV.460.5.2026), dotyczące projektu ustawy o zmianie ustawy
+                                     – Prawo o ustroju sądów powszechnych (z dnia 27 marca
+                                     2026 r., nr w wykazie UD379), uprzejmie informuję, że w
+                                     okręgu apelacji wrocławskiej uwagi do projektu zgłosił
+                                     Inspektor Ochrony Danych w Sądzie Apelacyjnym we
+                                     Wrocławiu:
+                                     „W ocenie Inspektora Ochrony Danych przedłożony projekt
+                                     zmian jest zgodny z przepisami ochrony danych osobowych.
+                                     Niemniej jednak przewidziane w projektowanym art. 157 §
+                                     1d. założenie, iż biegły może wyrazić zgodę na ujawnienie na
+                                     liście biegłych sądowych dostępnej w siedzibie sądu oraz za
+                                     pośrednictwem wyszukiwarki biegłych sądowych (dostęp
+                                     zapewniony wszystkim obywatelom) także danych, o których
+                                     mowa w § 1b pkt 2 (numer PESEL a w przypadku gdy dana
+                                     osoba nie posiada numeru PESEL – serię i numer dokumentu
+                                     potwierdzającego tożsamość) nie znajduje uzasadnienia.
+                                     Numer PESEL jest daną ewidencyjną i identyfikacyjną, jego
+                                     przetwarzanie musi być ściśle uzasadnione. Tym samym, w
+                                     ocenie Inspektora Ochrony Danych, PESEL nie jest
+                                     niezbędny      wszystkim     użytkownikom      wyszukiwarki
+                                     (obywatelom). Tym samym rekomenduję rozważenie
+
+                                                                                                              Strona 10 z 14
+                                         wykreślenia tego zapisu z projektu zmian. Natomiast
+                                         możliwość dobrowolnego ujawnienia dodatkowych danych
+                                         kontaktowych jest zgodna z art. 6 ust. 1 lit. a RODO (zgoda
+                                         osoby, której dane dotyczą).”
+8.   art. 1 pkt 2 lit.   SA w            W art. 157 ustawy PUSP w projektowanym § 1d wskazano, Uwaga uwzględniona.
+             b           Warszawie       że biegły może wyrazić zgodę na ujawnienie na liście
+                                         biegłych sądowych dostępnej w siedzibie sądu oraz za
+                                         pośrednictwem wyszukiwarki biegłych sądowych także
+                                         danych, o których mowa w § 1b pkt 2, 3 lub 4, a zatem
+                                         również numeru PESEL, a w przypadku, gdy dana osoba nie
+                                         posiada numeru PESEL – serii i numeru dokumentu
+                                         potwierdzającego tożsamość. Pomimo dobrowolności
+                                         podania tych danych, sugerowanie podania tych danych jest
+                                         nieadekwatne i naruszające zasadę minimalizacji danych, w
+                                         szczególności również naruszać może szczególną ochronę
+                                         numeru identyfikacyjnego osoby fizycznej.
+9.   art. 1 pkt 2 lit.   Prezes Urzędu   Istotne wątpliwości organu właściwego w sprawie ochrony Uwaga uwzględniona o tyle, że odstąpiono od uchylenia art.
+             b           Ochrony         danych osobowych budzi art. 1 pkt 3 projektu uchylający art. 175da § 9 u.s.p. na rzecz modyfikacji zawartej w nim
+                         Danych          175da § 9 u.s.p.                                             delegacji ustawowej.
+                         Osobowych
+                                         Opiniowany projekt dotyczy bowiem biegłych sądowych (i –
+                                         w wąskim zakresie – uczestnictwa w postępowaniach
+                                         tłumaczy języka migowego). Art. 175da § 9 u.s.p., który ma
+                                         być uchylony przez art. 1 pkt 3 projektu, miał zaś być
+                                         przepisem stanowiącym delegację ustawową dla wydania
+                                         przez Ministra Sprawiedliwości, w porozumieniu z ministrem
+                                         właściwym do spraw informatyzacji, rozporządzenia
+                                         porządkującego i standaryzującego sądowe systemy
+                                         teleinformatyczne, o których mowa w art. 175da § 1 i 2 u.s.p.
+                                         Biorąc zatem pod uwagę brak związku tego przepisu z
+                                         zasadniczym przedmiotem opiniowanego projektu, jak
+                                         również faktyczną istotność (ważkość) wynikającą z jego
+                                         uchylenia, w opinii Prezesa Urzędu Ochrony Danych
+                                         Osobowych tak daleko idąca interwencja legislacyjna
+                                         powinna być przedmiotem odrębnego procesu legislacyjnego
+                                                                                                                                          Strona 11 z 14
+                                     poprzedzonego przeprowadzeniem szczegółowej analizy i
+                                     namysłem. Zdecydowanie niewystarczające jest – zdaniem
+                                     organu nadzorczego – stwierdzenie (uzasadnienie – str. 1 i 5),
+                                     iż za uchyleniem art. 175da § 9 u.s.p. przemawia okoliczność,
+                                     że delegacja do wydania przez Ministra Sprawiedliwości
+                                     rozporządzenia na jego podstawie nie została dotąd
+                                     wykonana. Z uwagi na powyższe organ właściwy w sprawie
+                                     ochrony danych osobowych wnosi o rozważenie usunięcia z
+                                     projektu art. 1 pkt 3.
+10.   art. 1 pkt 2   Polska Izba     W odniesieniu do drugiej kwestii PIIT z zadowoleniem wita Uwagi nieuwzględnione i niezasadne.
+                     Informatyki i   cyfryzację rejestru biegłych sądowych oraz zwiększenie jego
+                     Telekomunikac   dostępności.
+                     ji              1. PIIT pozytywnie ocenia zapowiedź prowadzenia listy
+                                     biegłych w systemie teleinformatycznym oraz powszechnego
+                                     udostępniania poprzez sieć teleinformatyczną ich
+                                     podstawowych danych.
+                                     2. Nie do końca jest zrozumiała treść przepisu „§1d. Lista
+                                     biegłych sądowych w zakresie ograniczonym do danych, o
+                                     których mowa w § 1b pkt 1, 5 i 6, jest dostępna w siedzibie
+                                     sądu oraz za pośrednictwem wyszukiwarki biegłych
+                                     sądowych          w         ogólnodostępnych       sieciach
+                                     teleinformatycznych.”. Skoro objęte tym przepisem dane są
+                                     dostępne powszechnie, to na czym polega ich dodatkowa
+                                     dostępność w siedzibie sądu?
+                                     3. Niezależnie od przepisu nakazującego prezesowi sądu
+                                     okręgowego zamieszczanie w Biuletynie Informacji
+                                     Publicznej na stronie podmiotowej sądu informacji o adresie,
+                                     pod      którym        w      ogólnodostępnych     sieciach
+                                     teleinformatycznych jest dostępna wyszukiwarka biegłych
+                                     sądowych, PIIT uważa, że link do takiej wyszukiwarki
+                                     powinien być widoczny w portalu rejestrów sądowych oraz
+                                     na stronie podmiotowej ministerstwa sprawiedliwości.
+                                     Wydaje się, że nie wymaga to przyjęcia dodatkowych
+                                     przepisów. Natomiast zwiększy wygodę użytkowników
+                                     wymiaru sprawiedliwości.
+
+                                                                                                                                     Strona 12 z 14
+4. W odniesieniu do nowego przepisu art. 157 § 1b ustawy o
+ustroju sądów powszechnych wydaje się, że brakuje w nim
+wytycznych do działania prezesa sądu w sytuacji, gdy biegły
+wezwany do uzupełnienia danych ich nie dostarczy. Wydaje
+się, że przepis § 6. Rozporządzenia Ministra Sprawiedliwości
+z dnia 24 stycznia 2005 r. w sprawie biegłych sądowych nie
+do końca ma zastosowanie do tej sytuacji.
+5. Odnosząc się do kwestii rejestru biegłych sądowych, PIIT
+pragnie zwrócić uwagę na istotne rozróżnienie, które powinno
+znaleźć odzwierciedlenie w projektowanych przepisach.
+Rejestr biegłych - tłumaczy języka migowego może dotyczyć
+wyłącznie tłumaczeń wykonywanych w toku postępowania
+sądowego – a więc czynności wymagających złożenia
+przyrzeczenia i ponoszenia odpowiedzialności prawnej za
+treść     tłumaczenia.     W    sferze     administracyjnego
+funkcjonowania sądów – obejmującego m.in. biura
+podawcze, sekretariaty, punkty informacyjne oraz strony
+internetowe sądów – w której zapewnienie dostępności
+cyfrowo-komunikacyjnej dla osób Głuchych odbywa się to w
+oparciu o przepisy ustawy z dnia 19 lipca 2019 r. o
+zapewnianiu dostępności osobom ze szczególnymi
+potrzebami. W tej sferze funkcjonują już sprawdzone
+rozwiązania rynkowe, w tym usługi zdalnego tłumacza PJM
+online, wdrożone przez wyspecjalizowane podmioty na
+podstawie obowiązującego prawa. PIIT wyraża obawę, że
+nieprecyzyjne sformułowanie projektowanych przepisów
+może prowadzić do błędnej interpretacji, jakoby wszelki
+kontakt Głuchego z sądem wymagał udziału tłumacza z
+rejestru biegłych. Takie rozumienie byłoby sprzeczne z
+duchem ustawy o dostępności, generowałoby nieuzasadnione
+koszty dla sądów i w praktyce ograniczałoby dostępność.
+Postulujemy, by przepisy wyraźnie wskazywały, że wymóg
+korzystania z tłumacza przysięgłego/biegłego dotyczy
+wyłącznie postępowania sądowego w ścisłym tego słowa
+znaczeniu, natomiast w sferze administracyjnej obsługi
+Głuchych sądy są zobowiązane korzystać z rozwiązań
+dostępnościowych wynikających z ustawy z 2019 r. 6.
+                                                               Strona 13 z 14
+                           Zwracamy także uwag, że dostęp do listy tłumaczy
+                           przysięgłych w Polsce, poprzez portal e-sprawiedliwość,
+                           następuje        z      użyciem        linku       https://arch-
+                           bip.ms.gov.pl/pl/rejestry-i-ewidencje/tlumacze-
+                           przysiegli/lista-tlumaczy-przysieglych/search.html?Title=2.
+                           Być może jest to zamierzony zabieg. Jednak uruchomienie
+                           nowej wyszukiwarki będzie wymagało aktualizacji danych w
+                           unijnym portalu. Podobnie aktualizacji wymagać będą
+                           informacje            pod           linkiem           https://e-
+                           justice.europa.eu/topics/find-legal-professional/find-
+                           expert/pl
+11.   art. 2   SA w        Wydaje się również, że wskazany w projekcie ustawy Uwaga uwzględniona o tyle, że termin trzech miesięcy będzie
+               Warszawie   zmieniającej termin uzupełnienia list (3 miesiące), może być terminem jedynie instrukcyjnym na wystąpienie przez
+                           w przypadku Sądu Okręgowego w Warszawie trudny do prezesów sądów do biegłych o uzupełnienie danych.
+                           zachowania, z uwagi na ilość biegłych sądowych. Proces
+                           będzie wymagał zwrócenia się do biegłych o aktualizację
+                           danych i zgód na ich przetwarzanie, a następnie zasilenie
+                           danymi bazy systemu ROBUS.
+
+
+
+
+                                                                                                                           Strona 14 z 14
+

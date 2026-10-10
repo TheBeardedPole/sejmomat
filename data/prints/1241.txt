@@ -1,0 +1,2147 @@
+                                                                       Druk nr 1241
+                                                                     Warszawa, 6 maja 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-50-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy o aplikacji mObywatel oraz
+   niektórych innych ustaw.
+        Projekt ma charakter deregulacyjny.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Cyfryzacji.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                     Projekt
+                                               U S T AWA
+
+                                                    z dnia
+
+            o zmianie ustawy o aplikacji mObywatel oraz niektórych innych ustaw1)
+
+
+       Art. 1. W ustawie z dnia 26 maja 2023 r. o aplikacji mObywatel (Dz. U. z 2024 r.
+poz. 1275 i 1717) wprowadza się następujące zmiany:
+1)     w art. 3:
+       a)    w ust. 1 w pkt 8 kropkę zastępuje się średnikiem i dodaje się pkt 9 i 10 w brzmieniu:
+             „9) otrzymywanie komunikatów dotyczących usług świadczonych na rzecz tego
+                   użytkownika;
+             10) opatrywanie dokumentu elektronicznego podpisem zaufanym, podpisem
+                   osobistym oraz kwalifikowanym podpisem elektronicznym oraz weryfikację
+                   tych podpisów.”,
+       b)    w ust. 2 wyrazy „w ust. 1 pkt 1–3” zastępuje się wyrazami „w ust. 1 pkt 1–3 i 9”,
+       c)    dodaje się ust. 3 w brzmieniu:
+                   „3. Na potrzeby realizacji usługi, o której mowa w ust. 1 pkt 9, minister
+             właściwy do spraw informatyzacji przetwarza dane pochodzące z rejestrów
+             publicznych,      rejestrów    niepublicznych       lub   systemów       teleinformatycznych
+             podmiotów publicznych lub podmiotów niepublicznych.”;
+2)     art. 3a otrzymuje brzmienie:
+             „Art. 3a. Dokumenty składane w ramach usług online, o których mowa w art. 19aa
+       i art. 19ab ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów
+       realizujących zadania publiczne, opatruje się:
+       1)    kwalifikowanym podpisem elektronicznym,
+       2)    podpisem zaufanym,
+       3)    podpisem osobistym albo
+
+
+
+
+1)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 17 maja 1989 r. – Prawo geodezyjne i kartograficzne,
+     ustawę z dnia 22 maja 2003 r. o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu
+     Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych, ustawę z dnia 17 lutego 2005 r. o
+     informatyzacji działalności podmiotów realizujących zadania publiczne oraz ustawę z dnia 7 maja 2010 r. o
+     wspieraniu rozwoju usług i sieci telekomunikacyjnych.
+                                                –2–
+
+
+     4)   zaawansowaną       pieczęcią      elektroniczną     ministra     właściwego    do    spraw
+          informatyzacji,     po    uwierzytelnieniu        użytkownika      aplikacji   mObywatel
+          z wykorzystaniem certyfikatu podstawowego, o którym mowa w art. 2 pkt 2.”;
+3)   po art. 3a dodaje się art. 3b i art. 3c w brzmieniu:
+          „Art. 3b. W aplikacji mObywatel można udostępniać inne usługi niż określone
+     w art. 3 ust. 1, świadczone przez podmioty publiczne lub podmioty niepubliczne
+     prowadzące rejestry publiczne, rejestry niepubliczne lub systemy teleinformatyczne.
+          Art. 3c. W aplikacji mObywatel udostępnia się funkcjonalność wirtualnego
+     asystenta opartą o model sztucznej inteligencji ogólnego przeznaczenia, o którym mowa
+     w art. 3 pkt 63 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2024/1689 z dnia
+     13 czerwca 2024 r. w sprawie ustanowienia zharmonizowanych przepisów dotyczących
+     sztucznej inteligencji oraz zmiany rozporządzeń (WE) nr 300/2008, (UE) nr 167/2013,
+     (UE) nr 168/2013, (UE) 2018/858, (UE) 2018/1139 i (UE) 2019/2144 oraz dyrektyw
+     2014/90/UE, (UE) 2016/797 i (UE) 2020/1828 (akt w sprawie sztucznej inteligencji) (Dz.
+     Urz. UE L 2024/1689 z 12.07.2024), niewykorzystujący danych osobowych użytkownika
+     aplikacji mObywatel.”;
+4)   w art. 4:
+     a)   w ust. 1 uchyla się pkt 2 i 3,
+     b)   uchyla się ust. 2–6;
+5)   w art. 7 w ust. 2 oraz w art. 10 w ust. 2 w pkt 1 wyrazy „o którym mowa w art. 4 ust. 1”
+     zastępuje się wyrazami „o którym mowa w art. 4 ust. 1 pkt 1”;
+6)   w art. 13 dodaje się ust. 3 w brzmieniu:
+          „3. W przypadku przywrócenia świadczenia usług związanych z wykorzystaniem
+     certyfikatu podstawowego, który został unieważniony, użytkownikowi aplikacji
+     mObywatel wydaje się nowy dokument mObywatel na jego żądanie złożone w tej
+     aplikacji.”;
+7)   w art. 14 uchyla się ust. 5;
+8)   w art. 15:
+     a)   w ust. 3 po pkt 1 dodaje się pkt 1a w brzmieniu:
+          „1a) warunki zapewnienia bezpieczeństwa świadczenia usługi;”,
+     b)   dodaje się ust. 9–11 w brzmieniu:
+                  „9. Minister właściwy do spraw informatyzacji po przeprowadzeniu badania
+          i oceny     bezpieczeństwa       aplikacji   mObywatel,        systemu   mObywatel     lub
+                                               –3–
+
+
+          użytkowników aplikacji mObywatel oraz spełnienia przez podmiot, o którym mowa
+          w ust. 1, warunków określonych w ogólnych warunkach świadczenia usługi cofa, w
+          drodze decyzji administracyjnej, zgodę na świadczenie usługi, o której mowa
+          w ust. 1, w przypadku:
+          1)      naruszenia przez podmiot, o którym mowa w ust. 1, warunków określonych w
+                  ogólnych warunkach świadczenia usługi;
+          2)      wystąpienia ryzyka naruszenia bezpieczeństwa aplikacji mObywatel, systemu
+                  mObywatel lub użytkowników aplikacji mObywatel.
+                  10. Przed wydaniem decyzji, o której mowa w ust. 9, minister właściwy do
+          spraw informatyzacji może zawiesić świadczenie usługi, o której mowa w ust. 1.
+                  11. Decyzja, o której mowa w ust. 9, podlega natychmiastowemu wykonaniu.”;
+9)   w art. 16:
+     a)   po ust. 1 dodaje się ust. 1a w brzmieniu:
+                  „1a. W przypadku gdy usługa, o której mowa w ust. 1, jest udostępniania
+          w oparciu o dane, pochodzące z rejestrów publicznych, rejestrów niepublicznych lub
+          systemów       teleinformatycznych    podmiotów    publicznych    lub   podmiotów
+          niepublicznych, dla których prowadzącym te rejestry lub systemy jest podmiot inny
+          niż minister właściwy do spraw informatyzacji, z wnioskiem, o którym mowa w
+          ust. 1, występuje podmiot prowadzący te rejestry lub te systemy.”,
+     b)   dodaje się ust. 11–13 w brzmieniu:
+                  „11. Minister właściwy do spraw informatyzacji po przeprowadzeniu badania
+          i oceny spełnienia zakresu i warunków współpracy określonych w porozumieniu, o
+          którym mowa w ust. 9, cofa, w drodze decyzji administracyjnej, zgodę na
+          opracowanie, udostępnienie i świadczenie w aplikacji mObywatel nowej usługi w
+          przypadku naruszenia przez podmiot, o którym mowa w ust. 1, zakresu lub
+          warunków współpracy określonych w tym porozumieniu.
+                  12. Przed wydaniem decyzji, o której mowa w ust. 11, minister właściwy do
+          spraw informatyzacji może zawiesić świadczenie usługi, o której mowa w ust. 1.
+                  13. Decyzja, o której mowa w ust. 11, podlega natychmiastowemu
+          wykonaniu.”;
+10) w art. 18 dotychczasową treść oznacza się jako ust. 1 i dodaje się ust. 2 w brzmieniu:
+          „2. W systemie mObywatel można przechowywać i archiwizować dane lub
+     dokumenty elektroniczne niezbędne do świadczenia usług, o których mowa w art. 3 ust. 1
+                                             –4–
+
+
+     pkt 1 oraz art. 3b, przez okres niezbędny do realizacji usługi, której dotyczą, przy czym
+     dane osobowe przechowuje się przez okres, o którym mowa w art. 20 ust. 3.”;
+11) w art. 19 w ust. 1 pkt 7 otrzymuje brzmienie:
+     „7) udostępnia narzędzia, które umożliwiają potwierdzenie autentyczności, ważności,
+          integralności oraz pochodzenia dokumentów mobilnych w sposób, o którym mowa
+          w art. 9 ust. 2 pkt 2 i 3:
+          a)   usługę w aplikacji mObywatel,
+          b)   usługę świadczoną zgodnie z ogólnymi warunkami świadczenia usługi,
+               o których mowa w art. 15 ust. 3,
+          c)   usługę online dla dokumentu mObywatel;”;
+12) art. 24 i art. 25 otrzymują brzmienie:
+          „Art. 24. W ustawie z dnia 26 stycznia 1982 r. – Karta Nauczyciela (Dz. U. z 2024 r.
+     poz. 986 i 1871) wprowadza się następujące zmiany:
+     1)   uchyla się art. 11a;
+     2)   po art. 11a dodaje się art. 11b i art. 11c w brzmieniu:
+                          „Art. 11b. 1. Nauczycielowi jest wydawana legitymacja służbowa w
+                    postaci dokumentu mobilnego, o którym mowa w art. 2 pkt 7 ustawy z dnia
+                    26 maja 2023 r. o aplikacji mObywatel (Dz. U. 2024 r. poz. 1275 i 1717
+                    oraz z 2025 r. poz. …), jako „mLegitymacja”, po uwierzytelnieniu przy
+                    użyciu certyfikatu podstawowego, o którym mowa w art. 2 pkt 2 ustawy z
+                    dnia 26 maja 2023 r. o aplikacji mObywatel.
+                          2. mLegitymację wydaje się w terminie 14 dni od dnia nawiązania
+                    stosunku pracy w szkole.
+                          3. mLegitymacja zawiera:
+                    1)    imię (imiona) i nazwisko nauczyciela;
+                    2)    wizerunek twarzy nauczyciela;
+                    3)    nazwę i adres siedziby szkoły, w której jest zatrudniony nauczyciel;
+                    4)    numer mLegitymacji;
+                    5)    datę wydania mLegitymacji.
+                          4. Numer mLegitymacji jest ustalany w systemie informacji
+                    oświatowej, o którym mowa w ustawie z dnia 15 kwietnia 2011 r.
+                    o systemie informacji oświatowej (Dz. U. z 2024 r. poz. 152, 858, 1572
+                    i 1933 oraz z 2025 r. poz. …).
+                          –5–
+
+
+     5. mLegitymacja potwierdza zatrudnienie na stanowisku nauczyciela.
+     6. mLegitymację wydaje się nauczycielowi bezterminowo.
+     7. mLegitymację unieważnia się w przypadku:
+1)   rozwiązania albo wygaśnięcia stosunku pracy nauczyciela;
+2)   zmiany nazwy szkoły, w której jest zatrudniony nauczyciel, jeżeli
+     zmianie uległ również numer szkoły w Rejestrze Szkół i Placówek
+     Oświatowych, o którym mowa w art. 7 ust. 1 pkt 29 ustawy z dnia
+     15 kwietnia 2011 r. o systemie informacji oświatowej;
+3)   błędu w numerze mLegitymacji;
+4)   unieważnienia legitymacji, o którym mowa w art. 11c ust. 8 pkt 1
+     lit. b–d i pkt 2.
+     8. W przypadku unieważnienia mLegitymacji z przyczyn określonych
+w ust. 7 pkt 2–4 nauczycielowi wydaje się nową mLegitymację.
+     Art. 11c. 1. Dyrektor szkoły, na wniosek nauczyciela, w terminie
+30 dni od dnia otrzymania wniosku wydaje nauczycielowi legitymację
+służbową w postaci karty, zwaną dalej „legitymacją”.
+     2. Dyrektor szkoły pobiera opłatę za wydanie nauczycielowi
+legitymacji     w wysokości    nieprzekraczającej   kosztów   wytworzenia
+legitymacji. Nie pobiera się opłaty za wydanie nauczycielowi legitymacji,
+jeżeli   jego     dotychczasowa     legitymacja     została   unieważniona
+w przypadkach, o których mowa w ust. 8 pkt 1 lit. b i d.
+     3. Legitymacja zawiera:
+1)   imię (imiona) i nazwisko nauczyciela;
+2)   wizerunek twarzy nauczyciela;
+3)   nazwę i adres siedziby szkoły, w której jest zatrudniony nauczyciel;
+4)   numer legitymacji;
+5)   datę wydania legitymacji;
+6)   hologram potwierdzający ważność legitymacji w danym roku
+     szkolnym.
+     4. Numer legitymacji jest zgodny z numerem mLegitymacji,
+a w przypadku legitymacji wydawanej nauczycielom, o których mowa w
+art. 1 ust. 2 pkt 1a, numer legitymacji jest ustalany przez kierownika
+                            –6–
+
+
+jednostki organizacyjnej, o którym mowa w przepisach wydanych na
+podstawie art. 9u ust. 1.
+     5. Legitymacja potwierdza zatrudnienie na stanowisku nauczyciela.
+     6. Legitymację wydaje się nauczycielowi bezterminowo.
+     7. Dyrektor szkoły potwierdza ważność legitymacji w danym roku
+szkolnym przez umieszczenie na niej hologramu.
+     8. Legitymację unieważnia się:
+1)   z urzędu – w przypadku:
+     a)    rozwiązania albo wygaśnięcia stosunku pracy nauczyciela,
+     b)    zmiany nazwy szkoły, w której jest zatrudniony nauczyciel,
+     c)    zapełnienia wszystkich pól legitymacji przeznaczonych na
+           hologram, jeżeli upłynął termin ważności określony ostatnim
+           hologramem,
+     d)    stwierdzenia w legitymacji błędów lub omyłek;
+2)   na wniosek nauczyciela – w przypadku:
+     a)    utraty przez nauczyciela dotychczasowej legitymacji,
+     b)    uszkodzenia      legitymacji,   które    podważa    wiarygodność
+           legitymacji lub utrudnia identyfikację nauczyciela, albo
+           zniszczenia legitymacji,
+     c)    zmiany imienia (imion) lub nazwiska nauczyciela.
+     9. W przypadkach, o których mowa w ust. 8 pkt 1 i pkt 2 lit. b i c, oraz
+w przypadku odzyskania utraconej legitymacji nauczyciel przedkłada
+dyrektorowi szkoły dotychczasową legitymację nie później niż w terminie
+3 dni od dnia jej unieważnienia albo odzyskania. Dyrektor szkoły dokonuje
+zniszczenia legitymacji przez jej przecięcie i zwraca ją nauczycielowi.
+     10. Dyrektor szkoły wydaje nauczycielowi nową legitymację:
+1)   z urzędu – w przypadku unieważnienia dotychczasowej legitymacji,
+     o którym mowa w ust. 8 pkt 1 lit. b i d;
+2)   na    wniosek     nauczyciela     –    w      przypadku   unieważnienia
+     dotychczasowej legitymacji, o którym mowa w ust. 8 pkt 1 lit. c i
+     pkt 2.
+     11. Do wniosku, o którym mowa w ust. 10 pkt 2, przepisy ust. 1 i 2
+stosuje się.
+                                         –7–
+
+
+                    12. Minister właściwy do spraw oświaty i wychowania określi,
+              w drodze rozporządzenia, wzór legitymacji, uwzględniając konieczność
+              zapewnienia identyfikacji nauczyciela, a także konieczność właściwego
+              zabezpieczenia legitymacji przed jej przerobieniem lub podrobieniem.”;
+3)   w art. 91a w ust. 4 wyrazy „art. 10–28” zastępuje się wyrazami „art. 10, art. 11,
+     art. 11c, art. 12–18, art. 20–23, art. 26–28”;
+4)   w art. 91b w ust. 2:
+     a)   w pkt 1 wyrazy „art. 11a” zastępuje się wyrazami „art. 11b, art. 11c”,
+     b)   w pkt 2 po wyrazach „art. 9,” dodaje się wyrazy „art. 11b, art. 11c,”.
+     Art. 25. W ustawie z dnia 7 września 1991 r. o systemie oświaty (Dz. U. z 2024 r.
+poz. 750, 854, 1473 i 1933) w art. 11 po ust. 1 dodaje się ust. 1a–1e w brzmieniu:
+                    „1a. Uczniowi szkoły podstawowej, szkoły ponadpodstawowej oraz
+              szkoły artystycznej realizującej kształcenie ogólne wydaje się legitymację
+              szkolną.
+                    1b. Uczniowi szkoły artystycznej realizującej wyłącznie kształcenie
+              artystyczne wydaje się legitymację szkolną:
+              1)    jeżeli uczeń nie uczęszcza do szkoły podstawowej albo szkoły
+                    ponadpodstawowej;
+              2)    na      wniosek   ucznia   pełnoletniego,   a   w   przypadku    ucznia
+                    niepełnoletniego – na wniosek jego rodziców.
+                    1c. Dziecku niepełnosprawnemu spełniającemu obowiązek rocznego
+              przygotowania przedszkolnego wydaje się legitymację przedszkolną.
+                    1d. Legitymację szkolną wydaje się także w postaci dokumentu
+              mobilnego, o którym mowa w art. 2 pkt 7 ustawy z dnia 26 maja 2023 r.
+              o aplikacji mObywatel (Dz. U. z 2024 r. poz. 1275 i 1717 oraz z 2025 r.
+              poz. …), jako „mLegitymację szkolną”:
+              1)    uczniowi pełnoletniemu;
+              2)    uczniowi niepełnoletniemu, jeżeli rodzice tego ucznia nie wyrazili
+                    sprzeciwu.
+                    1e. Uczniowi szkoły polskiej, o której mowa w art. 4 pkt 29d ustawy
+              – Prawo oświatowe, lub szkoły i zespołu szkół w Polsce oraz przy
+              przedstawicielstwach        dyplomatycznych,      urzędach     konsularnych
+                                              –8–
+
+
+                   i przedstawicielstwach wojskowych Rzeczypospolitej Polskiej, o których
+                   mowa w art. 8 ust. 5 pkt 2 lit. c ustawy – Prawo oświatowe:
+                   1)    wydaje się legitymację szkolną:
+                         a)   na wniosek ucznia – w przypadku ucznia pełnoletniego,
+                         b)   na    wniosek     jego   rodziców     –   w    przypadku      ucznia
+                              niepełnoletniego;
+                   2)    nie wydaje się mLegitymacji szkolnej.”.”;
+13) art. 40 otrzymuje brzmienie:
+          „Art. 40. W ustawie z dnia 15 kwietnia 2011 r. o systemie informacji oświatowej
+     (Dz. U. z 2024 r. poz. 152, 858, 1572 i 1933) wprowadza się następujące zmiany:
+     1)   w art. 14 w pkt 32 kropkę zastępuje się średnikiem i dodaje się pkt 33 i 34
+          w brzmieniu:
+                   „33) dane zawarte w legitymacji szkolnej, o której mowa w art. 11 ust. 1a
+                         i 1b ustawy z dnia 7 września 1991 r. o systemie oświaty, obejmujące:
+                         a)   numer legitymacji szkolnej,
+                         b)   typ legitymacji szkolnej,
+                         c)   datę wydania legitymacji szkolnej,
+                         d)   datę ważności legitymacji szkolnej;
+                   34) dane zawarte w mLegitymacji szkolnej, o której mowa w art. 11
+                         ust. 1d ustawy z dnia 7 września 1991 r. o systemie oświaty, oraz dane
+                         jej dotyczące, obejmujące:
+                         a)   numer mLegitymacji szkolnej,
+                         b)   datę wydania mLegitymacji szkolnej,
+                         c)   datę ważności mLegitymacji szkolnej,
+                         d)   datę i przyczynę unieważnienia mLegitymacji szkolnej,
+                         e)   kod QR służący do wydania mLegitymacji szkolnej,
+                         f)   fotografię kolorową zawierającą wizerunek twarzy ucznia.”;
+     2)   w art. 29 w ust. 1 w pkt 1 w lit. l średnik zastępuje się przecinkiem i dodaje się lit. m
+          i n w brzmieniu:
+                   „m) numer, datę wydania oraz datę i przyczynę unieważnienia
+                         mLegitymacji, o której mowa w art. 11b ust. 1 ustawy z dnia
+                         26 stycznia 1982 r. – Karta Nauczyciela,
+                                        –9–
+
+
+              n)   numer, datę wydania oraz datę i przyczynę unieważnienia legitymacji,
+                   o której mowa w art. 11c ust. 1 ustawy z dnia 26 stycznia 1982 r. –
+                   Karta Nauczyciela;”;
+3)   po art. 66c dodaje się art. 66d i art. 66e w brzmieniu:
+                    „Art. 66d. 1. Minister właściwy do spraw oświaty i wychowania
+              udostępnia ministrowi właściwemu do spraw informatyzacji w celu
+              wydania, z wykorzystaniem aplikacji mObywatel, mLegitymacji, o której
+              mowa w art. 11b ust. 1 ustawy z dnia 26 stycznia 1982 r. – Karta
+              Nauczyciela, z bazy danych SIO:
+              1)    dane identyfikacyjne nauczyciela obejmujące imię, drugie imię
+                    (imiona), nazwisko i numer PESEL nauczyciela oraz jego dane
+                    dziedzinowe:
+                    a)   numer mLegitymacji,
+                    b)   datę wydania mLegitymacji,
+                    c)   datę unieważnienia mLegitymacji;
+              2)    dane szkoły lub placówki oświatowej, w której jest zatrudniony
+                    nauczyciel, obejmujące:
+                    a)   numer RSPO,
+                    b)   nazwę szkoły, placówki oświatowej albo zespołu szkół i
+                         placówek oświatowych, jeżeli szkoła lub placówka oświatowa
+                         wchodzi w skład zespołu,
+                    c)   adres siedziby szkoły, placówki oświatowej albo zespołu szkół i
+                         placówek oświatowych, jeżeli szkoła lub placówka oświatowa
+                         wchodzi w skład zespołu, oraz numer telefonu, numer faksu,
+                         adres poczty elektronicznej i adres strony internetowej,
+                    d)   imię i nazwisko dyrektora szkoły lub placówki oświatowej.
+                    2. W przypadku, o którym mowa w ust. 1, minister właściwy do spraw
+              informatyzacji jest podmiotem przetwarzającym dane.
+                    Art. 66e. 1. Minister właściwy do spraw oświaty i wychowania
+              udostępnia ministrowi właściwemu do spraw informatyzacji w celu
+              wydania, z wykorzystaniem aplikacji mObywatel, mLegitymacji szkolnej,
+              o której mowa w art. 11 ust. 1d ustawy z dnia 7 września 1991 r. o systemie
+              oświaty, z bazy danych SIO:
+                                               – 10 –
+
+
+                   1)     dane identyfikacyjne ucznia obejmujące imię, drugie imię (imiona),
+                          nazwisko, datę urodzenia i numer PESEL oraz dane dziedzinowe
+                          ucznia:
+                          a)   informację o posiadaniu przez ucznia orzeczenia o potrzebie
+                               kształcenia specjalnego,
+                          b)   numer mLegitymacji szkolnej,
+                          c)   datę wydania mLegitymacji szkolnej,
+                          d)   datę ważności mLegitymacji szkolnej,
+                          e)   datę i przyczynę unieważnienia mLegitymacji szkolnej,
+                          f)   fotografię kolorową zawierającą wizerunek twarzy ucznia,
+                          g)   kod QR służący do wydania mLegitymacji szkolnej;
+                   2)     dane szkoły lub placówki oświatowej, do której uczeń uczęszcza,
+                          obejmujące:
+                          a)   numer RSPO,
+                          b)   nazwę szkoły lub placówki oświatowej,
+                          c)   adres siedziby szkoły lub placówki oświatowej oraz numer
+                               telefonu, numer faksu, adres poczty elektronicznej i adres strony
+                               internetowej,
+                          d)   imię i nazwisko dyrektora szkoły lub placówki oświatowej.
+                          2. W przypadku, o którym mowa w ust. 1, minister właściwy do spraw
+                   informatyzacji jest podmiotem przetwarzającym dane.”;
+     4)   w art. 93 ust. 3 otrzymuje brzmienie:
+                          „3. Dane ucznia zgromadzone w zbiorze danych ucznia w bazie
+                   danych SIO zostają zanonimizowane po upływie 6 lat od dnia
+                   wprowadzenia do tego zbioru ostatniej informacji, z wyjątkiem danych,
+                   o których mowa w:
+                   1)     art. 14 pkt 34 lit. f, które są przechowywane do dnia upływu daty
+                          ważności mLegitymacji szkolnej, o której mowa w art. 11 ust. 1d
+                          ustawy z dnia 7 września 1991 r. o systemie oświaty;
+                   2)     art. 20.”.”;
+14) uchyla się art. 61;
+15) art. 62 i art. 63 otrzymują brzmienie:
+                                             – 11 –
+
+
+          „Art. 62. Legitymacja służbowa wydana nauczycielowi na podstawie art. 11a ustawy
+     zmienianej w art. 24, w brzmieniu obowiązującym przed dniem określonym
+     w komunikacie, o którym mowa w art. 74 ust. 1 pkt 1, zachowuje ważność do dnia
+     wydania nauczycielowi nowej legitymacji, o której mowa w art. 11c ust. 1 ustawy
+     zmienianej w art. 24, jednak nie dłużej niż do dnia upływu terminu, na który została
+     wydana.
+          Art. 63. Stwierdzenia nieważności, anulowania oraz zwrotu legitymacji służbowej
+     wydanej nauczycielowi na podstawie art. 11a ustawy zmienianej w art. 24, w brzmieniu
+     obowiązującym przed dniem określonym w komunikacie, o którym mowa w art. 74 ust. 1
+     pkt 1, dokonuje się zgodnie z przepisami wydanymi na podstawie art. 11a ust. 3 ustawy
+     zmienianej w art. 24, w brzmieniu obowiązującym przed dniem określonym
+     w komunikacie, o którym mowa w art. 74 ust. 1 pkt 1.”;
+16) uchyla się art. 65;
+17) art. 66 i art. 67 otrzymują brzmienie:
+          „Art. 66. Stwierdzenie nieważności legitymacji służbowej nauczyciela oraz utrata
+     ważności tej legitymacji, wydanej przed dniem określonym w komunikacie, o którym
+     mowa w art. 74 ust. 1 pkt 1, nie skutkują unieważnieniem mLegitymacji, o której mowa
+     w art. 11b ust. 1 ustawy zmienianej w art. 24.
+          Art. 67. W bazie danych systemu informacji oświatowej, w danych dziedzinowych
+     nauczyciela, o których mowa w art. 29 ust. 1 pkt 1 ustawy zmienianej w art. 40,
+     w brzmieniu nadanym niniejszą ustawą, są gromadzone dane o legitymacjach służbowych
+     nauczycieli wydanych od dnia określonego w komunikacie, o którym mowa w art. 74
+     ust. 1 pkt 1, z wyjątkiem danych o legitymacjach służbowych wydanych nauczycielom
+     zatrudnionym w szkołach polskich, o których mowa w art. 4 pkt 29d ustawy z dnia
+     14 grudnia 2016 r. – Prawo oświatowe (Dz. U. z 2024 r. poz. 737, 854, 1562, 1635 i 1933),
+     oraz szkołach i zespołach szkół w Polsce, o których mowa w art. 8 ust. 5 pkt 2 lit. c tiret
+     drugie ustawy z dnia 14 grudnia 2016 r. – Prawo oświatowe, oraz przy
+     przedstawicielstwach dyplomatycznych, urzędach konsularnych i przedstawicielstwach
+     wojskowych Rzeczypospolitej Polskiej.”;
+18) w art. 73 w ust. 1 uchyla się pkt 2;
+19) w art. 74 ust. 1 otrzymuje brzmienie:
+          „1. Minister właściwy do spraw informatyzacji w porozumieniu z ministrem
+     właściwym do spraw oświaty i wychowania ogłasza w Dzienniku Urzędowym
+                                              – 12 –
+
+
+     Rzeczypospolitej Polskiej „Monitor Polski” komunikat określający dzień wdrożenia
+     rozwiązań technicznych umożliwiających gromadzenie i przetwarzanie w systemie
+     informacji oświatowej danych, o których mowa w:
+     1)   art. 29 ust. 1 pkt 1 lit. m i n oraz art. 66d ustawy zmienianej w art. 40, w brzmieniu
+          nadanym niniejszą ustawą, w celu wydania, z wykorzystaniem aplikacji mObywatel,
+          nauczycielom mLegitymacji, zgodnie z art. 11b ustawy zmienianej w art. 24, w
+          brzmieniu nadanym niniejszą ustawą, i art. 113c ustawy zmienianej w art. 52, w
+          brzmieniu nadanym niniejszą ustawą;
+     2)   art. 14 pkt 33 i 34, art. 66e oraz art. 93 ust. 3 ustawy zmienianej w art. 40, w
+          brzmieniu nadanym niniejszą ustawą, w celu wydania, z wykorzystaniem aplikacji
+          mObywatel, uczniom mLegitymacji, zgodnie z art. 11 ust. 1d ustawy zmienianej w
+          art. 25, w brzmieniu nadanym niniejszą ustawą.”;
+20) w art. 84:
+     a)   w pkt 1 skreśla się wyrazy „art. 4 ust. 1 pkt 2 i 3 oraz ust. 2–6,”,
+     b)   pkt 3 otrzymuje brzmienie:
+          „3) art. 24, art. 40 pkt 2 i pkt 3 w zakresie art. 66d ust. 1 pkt 2 i 4, art. 52 pkt 4 w
+                 zakresie art. 113c, art. 62–64, art. 66 i art. 67, które wchodzą w życie z dniem
+                 określonym w komunikacie, o którym mowa w art. 74 ust. 1 pkt 1;”,
+     c)   po pkt 3 dodaje się pkt 3a w brzmieniu:
+          „3a) art. 25 i art. 40 pkt 1, pkt 3 w zakresie art. 66d ust. 1 pkt 1 i 3, oraz pkt 4, które
+                 wchodzą w życie z dniem określonym w komunikacie, o którym mowa w
+                 art. 74 ust. 1 pkt 2;”.
+
+     Art. 2. W ustawie z dnia 17 maja 1989 r. – Prawo geodezyjne i kartograficzne (Dz. U.
+z 2024 r. poz. 1151 i 1824) w art. 45f po ust. 1 dodaje się ust. 1a i 1b w brzmieniu:
+          „1a. Świadectwo, o którym mowa w ust. 1, może być udostępnione w postaci
+     dokumentu mobilnego, o którym mowa w art. 2 pkt 7 ustawy z dnia 26 maja 2023 r.
+     o aplikacji mObywatel (Dz. U. 2024 r. poz. 1275 i 1717 oraz z 2025 r. poz. …), po
+     uwierzytelnieniu osoby zainteresowanej przy użyciu certyfikatu podstawowego, o którym
+     mowa w art. 2 pkt 2 ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel.
+          1b. Świadectwo, o którym mowa w ust. 1a, zawiera następujące informacje:
+     1)   wskazanie organu wydającego świadectwo;
+     2)   numer świadectwa;
+     3)   zdjęcie osoby, której nadano uprawnienia zawodowe;
+                                                – 13 –
+
+
+     4)    nazwisko i imię (imiona) osoby, której nadano uprawnienia zawodowe;
+     5)    zakresy posiadanych uprawnień zawodowych i daty nadania.”.
+
+     Art. 3. W ustawie z dnia 22 maja 2003 r. o ubezpieczeniach obowiązkowych,
+Ubezpieczeniowym       Funduszu         Gwarancyjnym      i   Polskim    Biurze   Ubezpieczycieli
+Komunikacyjnych (Dz. U. z 2025 r. poz. 367) wprowadza się następujące zmiany:
+1)   w art. 102 ust. 7 otrzymuje brzmienie:
+           „7. Fundusz przetwarza dane, o których mowa w ust. 2–4 i 7a, art. 103 oraz art. 105c
+     ust. 2, w celu kontroli spełnienia obowiązku zawarcia umowy ubezpieczenia
+     obowiązkowego oraz w celu identyfikacji i weryfikacji zjawisk związanych z
+     przestępczością ubezpieczeniową albo w innych celach, po modyfikacji, która nie pozwoli
+     na ustalenie tożsamości osoby, której dane dotyczą.”;
+2)   w art. 104:
+     a)   w ust. 1 po pkt 1a dodaje się pkt 1b w brzmieniu:
+          „1b) podmiotowi, którego dane dotyczą;”,
+     b)   uchyla się ust. 10;
+3)   w art. 105a dodaje się ust. 4 w brzmieniu:
+           „4. W przypadku złożenia do zakładu ubezpieczeń zawiadomienia o szkodzie
+     powodującej odpowiedzialność zakładu ubezpieczeń z tytułu umowy ubezpieczenia OC
+     posiadaczy pojazdów mechanicznych, w zakresie pojazdów uczestniczących w zdarzeniu
+     centralna ewidencja pojazdów, do realizacji celów określonych w art. 105c ust. 3 pkt 2
+     lit. a–c,   przekazuje     drogą    teletransmisji   danych,   za   pośrednictwem   systemu
+     teleinformatycznego obsługującego Fundusz, zakładowi ubezpieczeń, otrzymującemu
+     zawiadomienie, dane, o których mowa w art. 80b ust. 1 pkt 2–5 ustawy – Prawo o ruchu
+     drogowym, z wyłączeniem danych o dacie i miejscu urodzenia.”;
+4)   po art. 105b dodaje się art. 105c w brzmieniu:
+           „Art. 105c. 1. Fundusz prowadzi ewidencję oświadczeń o zdarzeniu sporządzonych
+     w usłudze udostępnionej w aplikacji mObywatel w rozumieniu ustawy z dnia 26 maja
+     2023 r. o aplikacji mObywatel (Dz. U. z 2024 r. poz. 1275 i 1717 oraz z 2025 r. poz. …),
+     przez kierującego pojazdem mechanicznym lub posiadacza takiego pojazdu,
+     uczestniczącego w zdarzeniu powodującym odpowiedzialność kierującego pojazdem
+     mechanicznym lub posiadacza takiego pojazdu za szkody powstałe w związku z ruchem
+     pojazdu mechanicznego lub w zdarzeniu powodującym odpowiedzialność zakładu
+                                      – 14 –
+
+
+ubezpieczeń z tytułu zawartej umowy ubezpieczenia, określonego w dziale II w grupie 3
+załącznika do ustawy o działalności ubezpieczeniowej.
+     2. W celu realizacji zadania, o którym mowa w ust. 1, Fundusz gromadzi i
+przetwarza następujące dane:
+1)   o sporządzającym oświadczenie o zdarzeniu posiadaczu pojazdu mechanicznego lub
+     kierującym pojazdem mechanicznym uczestniczącym w zdarzeniu:
+     a)   imię i nazwisko,
+     b)   numer PESEL,
+     c)   kategorie uprawnień do kierowania pojazdami,
+     d)   datę wydania kierującemu uprawnień do kierowania pojazdami,
+     e)   dane kontaktowe:
+          –   numer telefonu,
+          –   adres poczty elektronicznej,
+          –   adres korespondencyjny,
+     f)   oznaczenie roli w zdarzeniu,
+     g)   informację, czy jest właścicielem pojazdu mechanicznego uczestniczącego w
+          zdarzeniu;
+2)   o pojeździe mechanicznym uczestniczącym w zdarzeniu:
+     a)   numer rejestracyjny,
+     b)   numer VIN, a w przypadku jego braku – numer nadwozia (podwozia) lub ramy
+          pojazdu mechanicznego,
+     c)   rok produkcji,
+     d)   markę i model;
+3)   o właścicielach pojazdów mechanicznych uczestniczących w zdarzeniu, o ile zostały
+     przekazane przez osoby sporządzające oświadczenie o zdarzeniu:
+     a)   imię, nazwisko lub nazwę właściciela pojazdu mechanicznego uczestniczącego
+          w zdarzeniu,
+     b)   dane kontaktowe:
+          –   numer telefonu,
+          –   adres poczty elektronicznej;
+4)   o umowie ubezpieczenia działu II grupy 3 lub 10 załącznika do ustawy o działalności
+     ubezpieczeniowej, z wyłączeniem odpowiedzialności przewoźnika, dotyczącej
+     pojazdu uczestniczącego w zdarzeniu:
+                                      – 15 –
+
+
+     a)   informację, czy pojazd uczestniczący w zdarzeniu był objęty ochroną
+          ubezpieczeniową,
+     b)   nazwę zakładu ubezpieczeń, z którym została zawarta umowa,
+     c)   numer dokumentu potwierdzającego zawarcie umowy ubezpieczenia;
+5)   o zdarzeniu:
+     a)   datę i miejsce zdarzenia,
+     b)   opis zdarzenia,
+     c)   opis uszkodzeń;
+6)   zdjęcia miejsca zdarzenia lub uszkodzeń;
+7)   informacje o oświadczeniu o zdarzeniu, w tym datę jego sporządzenia.
+     3. Fundusz udostępnia dane, o których mowa w ust. 2, następującym podmiotom:
+1)   kierującemu pojazdem mechanicznym lub posiadaczowi pojazdu mechanicznego
+     uczestniczącemu w zdarzeniu;
+2)   zakładowi ubezpieczeń:
+     a)   w celu wykonania umowy ubezpieczenia,
+     b)   w celu ustalenia prawa ubezpieczonego, uprawnionego do świadczenia z
+          zawartej umowy ubezpieczenia, i wysokości tego świadczenia,
+     c)   w celu identyfikacji i weryfikacji zjawisk związanych z przestępczością
+          ubezpieczeniową,
+     d)   do innych celów, za zgodą podmiotu, o którym mowa w pkt 1, którego dane
+          dotyczą.
+     4. W celu realizacji zadania, o którym mowa w ust. 1, dane, o których mowa w ust. 2,
+Fundusz gromadzi i udostępnia za pośrednictwem systemu mObywatel, o którym w art. 2
+pkt 14 ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel.
+     5. Fundusz udostępnia dane, o których mowa w ust. 2, zakładowi ubezpieczeń za
+pośrednictwem systemu teleinformatycznego obsługującego Fundusz.
+     6. Zakres i warunki współpracy dotyczące udostępnienia oraz świadczenia usługi, o
+której mowa w ust. 1, w tym gromadzenia i udostępniania danych, o których mowa w
+ust. 2, określa się w porozumieniu zawartym między Funduszem a ministrem właściwym
+do spraw informatyzacji. Przepisy art. 16 ustawy z dnia 26 maja 2023 r. o aplikacji
+mObywatel stosuje się odpowiednio.
+     7. W celu realizacji zadania, o którym mowa w ust. 1, Fundusz przetwarza dane, o
+których mowa w art. 102 ust. 2–4 oraz art. 103.
+                                              – 16 –
+
+
+          8. Fundusz przetwarza dane, o których mowa w ust. 2, w zakresie niezbędnym do
+     realizacji zadań ustawowych.
+          9. Fundusz przechowuje dane, o których mowa w ust. 2, przez 3 lata.”.
+
+     Art. 4. W ustawie z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów
+realizujących zadania publiczne (Dz. U. z 2024 r. poz. 1557 i 1717) wprowadza się następujące
+zmiany:
+1)   w art. 3 w pkt 14a w lit. a oraz w art. 20ae w ust. 1 wyrazy „art. 20aa pkt 1” zastępuje się
+     wyrazami „art. 20aa ust. 1 pkt 1”;
+2)   w art. 20aa:
+     a)   dotychczasową treść oznacza się jako ust. 1,
+     b)   w ust. 1 w pkt 2 lit. b otrzymuje brzmienie:
+          „b) zapewnienie        osobie    fizycznej      możliwości      opatrzenia     dokumentu
+               elektronicznego     kwalifikowanym        podpisem      elektronicznym,     podpisem
+               zaufanym oraz podpisem osobistym w formatach danych wskazanych przez
+               ministra właściwego do spraw informatyzacji spośród formatów danych do
+               elektronicznego podpisywania, weryfikacji podpisu, opatrywania pieczęcią
+               elektroniczną i szyfrowania dokumentów elektronicznych, określonych w
+               przepisach wydanych na podstawie art. 18;”,
+     c)   dodaje się ust. 2–4 w brzmieniu:
+                „2. Minister właściwy do spraw informatyzacji udostępnia usługę online
+          umożliwiającą osobom fizycznym opatrzenie dokumentu elektronicznego podpisem
+          zaufanym oraz weryfikację tego podpisu.
+                3. W ramach usługi, o której mowa w ust. 2, minister właściwy do spraw
+          informatyzacji może zapewnić również funkcjonalności umożliwiające:
+          1)    weryfikację    podpisu       osobistego      oraz     kwalifikowanego       podpisu
+                elektronicznego lub
+          2)    opatrzenie    dokumentu       elektronicznego        podpisem       osobistym    lub
+                kwalifikowanym podpisem elektronicznym
+          – w formatach danych wskazanych przez ministra właściwego do spraw
+          informatyzacji spośród formatów danych do elektronicznego podpisywania,
+          weryfikacji   podpisu,      opatrywania      pieczęcią    elektroniczną    i   szyfrowania
+          dokumentów elektronicznych, określonych w przepisach wydanych na podstawie
+          art. 18.
+                                              – 17 –
+
+
+                4. Minister właściwy do spraw informatyzacji udostępnia w Biuletynie
+          Informacji Publicznej na swojej stronie podmiotowej informację o wskazanych
+          formatach podpisów elektronicznych obsługiwanych w ramach usług, o których
+          mowa w ust. 1 pkt 2 lit. b oraz ust. 2 i 3.”;
+3)   w art. 20ac w ust. 1 oraz w art. 20g wyrazy „art. 20aa” zastępuje się wyrazami „art. 20aa
+     ust. 1”;
+4)   w art. 20ae w ust. 1 wyrazy „art. 20aa pkt 1” zastępuje się wyrazami „art. 20aa ust. 1
+     pkt 1”;
+5)   art. 20e otrzymuje brzmienie:
+          „Art. 20e. 1. Minister właściwy do spraw informatyzacji przyłącza system
+     teleinformatyczny, w którym są udostępniane usługi online, do systemu, o którym mowa
+     w art. 20aa ust. 1, na wniosek podmiotu odpowiedzialnego za ten system
+     teleinformatyczny, w celu wykorzystywania:
+     1)   podpisu zaufanego oraz funkcjonalności pozwalającej na weryfikację tego podpisu
+          lub
+     2)   funkcjonalności     pozwalającej     na      opatrzenie   dokumentu   elektronicznego
+          kwalifikowanym podpisem elektronicznym oraz podpisem osobistym oraz
+          weryfikację tych podpisów elektronicznych.
+          2. Przyłączenie, o którym mowa w ust. 1, jest czynnością materialno-techniczną.
+          3. Do wniosku, o którym mowa w ust. 1, dołącza się oświadczenie o zapoznaniu się
+     z polityką bezpieczeństwa udostępnioną przez ministra właściwego do spraw
+     informatyzacji w Biuletynie Informacji Publicznej na jego stronie podmiotowej oraz z
+     informacją o formatach podpisów elektronicznych, o których mowa w art. 20aa ust. 4.
+          4. Wniosek oraz oświadczenie, o którym mowa w ust. 3, składa się w postaci
+     elektronicznej opatrzone kwalifikowanym              podpisem elektronicznym, podpisem
+     osobistym albo podpisem zaufanym.”.
+
+     Art. 5. W ustawie z dnia 7 maja 2010 r. o wspieraniu rozwoju usług i sieci
+telekomunikacyjnych (Dz. U. z 2025 r. poz. 311) po art. 29l dodaje się art. 29la w brzmieniu:
+          „Art. 29la. Minister właściwy do spraw informatyzacji może udostępniać
+     informacje, o których mowa w art. 29l ust. 4 pkt 1, art. 29j oraz art. 29k ust. 1 i 4, z
+     wykorzystaniem usługi udostępnionej w aplikacji mObywatel w rozumieniu ustawy z
+     dnia 26 maja 2023 r. o aplikacji mObywatel (Dz. U. z 2024 r. poz. 1275 i 1717 oraz z
+     2025 r. poz. …).”.
+                                             – 18 –
+
+
+     Art. 6. 1. Minister właściwy do spraw informatyzacji określi ogólne warunki świadczenia
+każdej z usług, o których mowa w art. 15 ust. 1 ustawy zmienianej w art. 1, w zakresie warunku,
+o którym mowa w art. 15 ust. 3 pkt 1a ustawy zmienianej w art. 1, w brzmieniu nadanym
+niniejszą ustawą, w terminie 30 dni od dnia ogłoszenia ustawy.
+     2. W przypadku wniosków, o których mowa w art. 15 ust. 4 ustawy zmienianej w art. 1,
+złożonych i nierozpatrzonych przed dniem wejścia w życie niniejszej ustawy, podmiot, który
+złożył ten wniosek, uzupełnia go w zakresie warunku, o którym mowa w art. 15 ust. 3 pkt 1a
+ustawy zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą, w terminie 30 dni od dnia
+określenia ogólnych warunków świadczenia każdej z usług, o których mowa w ust. 1.
+     3. Wnioski, o których mowa w art. 15 ust. 4 ustawy zmienianej w art. 1, nieuzupełnione
+w terminie pozostawia się bez rozpoznania.
+
+     Art. 7. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia, z wyjątkiem:
+1)   art. 2, który wchodzi w życie z dniem 1 stycznia 2026 r.;
+2)   art. 3, który wchodzi w życie z dniem 1 października 2026 r.
+                                     UZASADNIENIE
+
+
+     Aplikacja mObywatel, jako oprogramowanie przeznaczone dla urządzeń mobilnych,
+w którym są udostępniane usługi świadczone przez podmioty publiczne oraz podmioty
+niepubliczne, podlega, jak i inne oprogramowania, ciągłym zmianom, a przede wszystkim
+nieustannemu rozwojowi.
+
+     Obywatele oczekują, że organy państwa będą dysponować narzędziami, które pozwolą
+wyjść naprzeciw oczekiwaniom obywateli dotyczącym zwiększenia udziału technologii
+cyfrowych w kontaktach z administracją publiczną. Szeroki wachlarz usług wdrożony obecnie
+w aplikacji mObywatel pozwala nie tylko wygodnie załatwiać sprawy urzędowe, ale także dbać
+o środowisko i bezpieczeństwo. Rosną potrzeby obywateli dotyczące możliwości realizacji
+uprawnień lub obowiązków w sposób najprostszy, bez wychodzenia z domu, mobilnie. Chcąc
+nadążyć za tymi oczekiwaniami, należy rozwijać nie tylko samą aplikację jako
+oprogramowanie, ale także katalog dostępnych w niej usług, a to pociąga za sobą konieczność
+wskazania nowych rozwiązań umożliwiających użytkownikowi aplikacji mObywatel
+korzystanie z niej w oczekiwany sposób.
+
+     I. Zmiany w ustawie z dnia 26 maja 2023 r. o aplikacji mObywatel (Dz. U. z 2024 r.
+poz. 1275 i 1717)
+
+     Zmiany w ustawie z dnia 26 maja 2023 r. o aplikacji mObywatel, zwanej dalej „ustawą
+o aplikacji mObywatel”, dotyczą poniższych kwestii:
+
+     1) rozszerzenia w art. 3 katalogu rodzajów usług udostępnianych w aplikacji mObywatel
+o możliwość otrzymywania komunikatów dotyczących usług świadczonych na rzecz
+użytkownika oraz korzystania z podpisów elektronicznych;
+
+     2) rozszerzenia katalogu narzędzi wykorzystywanych w ramach usługi online (art. 3a).
+Oprócz zaawansowanej pieczęci elektronicznej możliwe będzie opatrzenie dokumentów także
+podpisem zaufanym, podpisem osobistym albo kwalifikowanym podpisem elektronicznym;
+     3) wprowadzenia przepisu, eliminującego wątpliwości interpretacyjne, stanowiącego
+o możliwości udostępnienia w aplikacji mObywatel usług świadczonych przez podmioty
+publiczne lub podmioty niepubliczne, prowadzące rejestry publiczne, rejestry niepubliczne lub
+systemy teleinformatyczne (art. 3b). Przedmiotowa zmiana umożliwi korzystanie w aplikacji
+mObywatel z usług świadczonych online przez inne podmioty publiczne lub niepubliczne.
+Celem dodanego art. 3b jest przyznanie ministrowi właściwemu do spraw informatyzacji
+możliwości zamieszczania w aplikacji mObywatel każdej dowolnej usługi, nieopartej na
+systemach teleinformatycznych i rejestrach tego ministra, a także bez zawierania porozumień,
+o których mowa w art. 16 ustawy o aplikacji mObywatel, lub usług nieopartych na ogólnych
+warunkach świadczenia usług (OWU);
+
+     4) zapewnienia w aplikacji mObywatel funkcjonalności „wirtualnego asystenta” opartej
+o model sztucznej inteligencji. Przepisy gwarantują bezpieczeństwo danych osobowych
+użytkowników aplikacji mObywatel w tym zakresie, wskazując wprost, że funkcjonalność ta
+nie może opierać się o ich wykorzystywanie (art. 3c);
+
+     5) rezygnacji w art. 4 z możliwości potwierdzania tożsamości i obywatelstwa na potrzeby
+korzystania z aplikacji mObywatel razem z wnioskiem o wydanie dowodu osobistego oraz
+potwierdzania tożsamości i obywatelstwa przez organ gminy. Zmiana wynika z planów
+dostosowania aplikacji do rozporządzenia Parlamentu Europejskiego i Rady (UE) nr 910/2014
+z dnia 23 lipca 2014 r. w sprawie identyfikacji elektronicznej i usług zaufania w odniesieniu do
+transakcji elektronicznych na rynku wewnętrznym oraz uchylającego dyrektywę 1999/93/WE
+(Dz. Urz. UE L 257 z 28.08.2014, str. 73, z późn. zm.) uwzględniającego zmiany wprowadzone
+na gruncie rozporządzenia Parlamentu Europejskiego i Rady nr 2024/1183 z dnia 11 kwietnia
+2024 r. w sprawie zmiany rozporządzenia (UE) nr 910/2014 w odniesieniu do ustanowienia
+europejskich ram tożsamości cyfrowej (Dz. Urz. UE L 2024/1183 z 30.04.2024),
+tzw. rozporządzenia eIDAS 2.0. Planuje się, aby w aplikacji mObywatel udostępnić usługę
+europejskiego portfela tożsamości cyfrowej. Portfel ten zaś, stosownie do art. 5a ust. 5 lit. d
+rozporządzenia nr 910/2014, musi spełniać wymogi określone w art. 8 tego rozporządzenia
+w odniesieniu do wysokiego poziomu bezpieczeństwa, w szczególności w zakresie wymogów
+dotyczących potwierdzania i weryfikacji tożsamości, zarządzania środkami identyfikacji
+elektronicznej oraz uwierzytelniania. Wprowadzenie zmian w aplikacji mObywatel
+w powyższym zakresie będzie wymagało rezygnacji z wnioskowego trybu potwierdzania
+tożsamości (tj. razem z wnioskiem o wydanie dowodu osobistego i jej potwierdzenia przez
+organ gminy albo przez złożenie wniosku o potwierdzenie tożsamości i obywatelstwa dla
+celów korzystania z aplikacji mObywatel i jej potwierdzenia przez organ gminy).
+W konsekwencji konieczne jest uchylenie ust. 2–6 w art. 4 odnoszących się do procedury
+osobistego potwierdzania tożsamości;
+
+
+
+
+                                               2
+     6) wprowadzenia w art. 13 rozwiązania umożliwiającego, w przypadku unieważnienia
+certyfikatu podstawowego, po przywróceniu świadczenia usług związanych z tym
+certyfikatem, na żądanie użytkownika aplikacji mObywatel, wydanie nowego dokumentu
+mObywatel. W obecnym stanie prawnym unieważnienie certyfikatu podstawowego przez
+użytkownika aplikacji mObywatel powoduje utratę dostępu do dokumentu mObywatel, jednak
+po ponownej aktywacji aplikacji mObywatel i po ponownym wygenerowaniu certyfikatu
+podstawowego, użytkownik uzyskuje dostęp do dokumentu mObywatel, który jest dokładnie
+tym samym dokumentem, gdzie numer dokumentu mObywatel pozostaje bez zmian. Mając na
+uwadze, że ogólne naruszenie bezpieczeństwa systemu, o którym mowa w art. 13, może być w
+niektórych przypadkach postrzegane przez użytkowników jako wymagające wydania nowego
+dokumentu tożsamości z innym numerem, serią, datą wydania i datą ważności, nowy przepis
+art. 13 ust. 3 stwarza taką możliwość. Wniosek będzie możliwy do złożenia bezpośrednio w
+aplikacji mObywatel;
+     7) z uwagi na bezpieczeństwo danych osobowych użytkowników aplikacji mObywatel
+oraz systemu mObywatel i aplikacji mObywatel zdecydowano się na dodanie w art. 15 oraz w
+art. 16 ustawy o aplikacji mObywatel regulacji umożliwiającej ministrowi właściwemu do
+spraw informatyzacji przeprowadzanie badania i oceny poprawności i bezpieczeństwa
+świadczenia usług online przez podmioty publiczne i podmioty niepubliczne, w zakresie
+stosowania ogólnych warunków świadczenia usług lub warunków organizacyjno-technicznych
+umożliwiających świadczenie usługi, o której mowa w art. 15 i art. 16 ustawy o aplikacji
+mObywatel.    Mając    na   uwadze   konieczność    zapewniania    bezpieczeństwa   danych
+użytkowników aplikacji mObywatel, proponuje się wprowadzenie regulacji umożliwiających
+ministrowi właściwemu do spraw informatyzacji zawieszenie świadczenia usługi oraz regulacji
+o natychmiastowym wykonaniu decyzji tak, aby możliwa była jak najszybsza reakcja
+uniemożliwiająca świadczenie usług w sposób nieprawidłowy. Zawieszenie świadczenia usługi
+będzie następować po przeprowadzeniu stosownej oceny. Należy wskazać, że świadczenie
+usług opisanych w art. 15 i art. 16 ustawy o aplikacji mObywatel odbywa się z wykorzystaniem
+danych osobowych użytkowników, a zatem minister właściwy do spraw informatyzacji, który
+zgodnie z art. 19 ust. 1 pkt 2 ustawy o aplikacji mObywatel zapewnia bezpieczne
+funkcjonowanie systemu mObywatel oraz zgodnie z art. 19 ust. 1 pkt 5 ustawy o aplikacji
+mObywatel zapewnia bezpieczeństwo i integralność danych przetwarzanych w systemie
+mObywatel oraz przekazywanych między systemem mObywatel, aplikacją mObywatel a
+systemami teleinformatycznymi podmiotów publicznych oraz systemami teleinformatycznymi
+
+
+                                             3
+podmiotów niepublicznych, musi zapewnić przede wszystkim bezpieczeństwo przetwarzania
+danych niezależnie od tego, czy pochodzą one z systemów tego ministra czy też systemów
+innych podmiotów. Zatem w przypadku, gdy przeprowadzona ocena prowadzi do podejrzeń,
+że bezpieczeństwo przetwarzania danych osobowych może być naruszone, zasadnym jest
+zawieszenie świadczenia takiej usługi;
+
+     8) dodania zmiany doprecyzowującej, dotyczącej porozumień, o których mowa w art. 16
+ustawy o aplikacji mObywatel, polegającej na wskazaniu, że w przypadku gdy usługa jest
+udostępniana w oparciu o dane, pochodzące z rejestrów publicznych, rejestrów niepublicznych
+lub systemów teleinformatycznych podmiotów publicznych lub podmiotów niepublicznych,
+dla których prowadzącym te rejestry lub te systemy jest podmiot inny niż minister właściwy do
+spraw informatyzacji, z wnioskiem o opracowanie, udostępnienie oraz umożliwienie temu
+podmiotowi świadczenia takiej usługi występuje podmiot prowadzący te rejestry lub te
+systemy;
+
+     9) zmiany w art. 18 dotyczącej umożliwienia przechowywania i archiwizowania danych
+lub dokumentów elektronicznych w systemie mObywatel niezbędnych do świadczenia usług
+w aplikacji mObywatel przez okres niezbędny do realizacji usługi, której dotyczą. Obecnie,
+zgodnie z przyjętą architekturą rozwiązania dla aplikacji mObywatel, po stronie systemowej
+nie są odkładane żadne dane lub dokumenty elektroniczne. Z uwagi na stały rozwój aplikacji
+mObywatel, w szczególności planowane do wprowadzenia usługi o różnym stopniu złożoności,
+jest niezbędne umożliwienie zapisywania ww. danych lub dokumentów na potrzeby
+prawidłowego procesu biznesowego dla wybranych usług elektronicznych. Powyższe ma na
+celu wdrożenie w aplikacji mObywatel nowych usług. Jest to szczególnie istotne w związku z
+możliwością utraty telefonu, a co za tym idzie – przechowywanych w nim danych.
+Wprowadzona zmiana umożliwi bezpieczne przechowywanie danych w systemie mObywatel
+i zapewni możliwość ich odzyskania. Już obecny etap rozwoju usług, które są planowane do
+świadczenia w aplikacji mObywatel, pozwala przyjąć, że dla usług wieloetapowych, których
+ostateczna realizacja może być osadzona w określonym przepisami prawa materialnego czasie
+(z uwagi chociażby na przedawnienie roszczeń), jest zasadne gromadzenie pewnych danych w
+systemie mObywatel. Takie umiejscowienie gromadzenia danych pozwala na dostęp do nich
+zarówno użytkownikowi aplikacji mObywatel, jak i podmiotowi, który uczestniczy w
+realizacji, za pośrednictwem danej usługi, uprawnień użytkownika, przez okres, w którym dane
+uprawnienie nie ulegnie przedawnieniu. Utrata urządzenia mobilnego, w przypadku zapisania
+
+
+
+                                             4
+danych w tym urządzeniu, uniemożliwiłaby realizację przez użytkownika aplikacji mObywatel
+swoich uprawnień;
+
+     10) zmiany w art. 19 mają na celu rozwianie wątpliwości dotyczących zakresu
+udostępnianych usług umożliwiających przeprowadzenie weryfikacji kryptograficznej, o której
+mowa w art. 19 ust. 1 pkt 7 ustawy o aplikacji mObywatel. W związku z powyższym jest
+uzasadnione rozszerzenie zbioru narzędzi do weryfikacji o usługę online, tj. weryfikator w
+wersji webowej. Usługa online będzie umożliwiała, w pierwszej kolejności, przeprowadzenie
+weryfikacji kryptograficznej dokumentu mObywatel. W tym modelu osoba weryfikująca nie
+będzie potrzebowała telefonu. Z uwagi na charakter tej usługi online jest uzasadnione, aby
+weryfikacja kolejnych dokumentów mobilnych, w ramach takiej usługi online, była
+dostarczana sukcesywnie – w zależności od potrzeb zgłaszanych przez weryfikujących oraz
+użytkowników aplikacji mObywatel. Ponadto jest zasadne skorygowanie brzmienia art. 19 ust.
+1 pkt 7 lit. a ustawy o aplikacji mObywatel, albowiem dotychczas udostępniana odrębna
+aplikacja mWeryfikator zostanie zastąpiona analogiczną funkcjonalnością świadczoną
+w ramach aplikacji mObywatel, z której będzie można korzystać bez konieczności zalogowania
+się do tej aplikacji.
+
+     II. Zmiany w art. 24 i art. 25 ustawy o aplikacji mObywatel, które dotyczą zmian
+w ustawie z dnia 26 stycznia 1982 r. – Karta Nauczyciela (Dz. U. z 2024 r. poz. 986 i 1871)
+i ustawie z dnia 7 września 1991 r. o systemie oświaty (Dz. U. z 2024 r. poz. 750, 854, 1473
+i 1933)
+
+     Przepisy art. 24 i art. 25 jeszcze nie weszły w życie, mają one na celu przede wszystkim
+stworzenie podstaw prawnych do wydawania uczniom i nauczycielom legitymacji w postaci
+dokumentu mobilnego – mLegitymacji.
+
+     Jednocześnie w ustawie z dnia 26 stycznia 1982 r. – Karta Nauczyciela uchylono art. 11a
+regulujący obecnie kwestię wydawania legitymacji i uregulowano na nowo kwestie wydawania
+nauczycielowi legitymacji w postaci karty. Zgodnie z art. 84 pkt 3 ustawy o aplikacji
+mObywatel przepisy te wejdą w życie z dniem wdrożenia rozwiązań technicznych
+umożliwiających gromadzenie i przetwarzanie danych w systemie informacji oświatowej
+określonych w art. 11b i art. 11c ustawy z dnia 26 stycznia 1982 r. – Karta Nauczyciela ustawy
+z dnia 7 września 1991 r. o systemie oświaty określonym w komunikacie, o którym mowa w
+art. 74 ust. 1 ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel. Komunikat ten nie został
+jeszcze wydany.
+
+
+                                              5
+     Celem tej zmiany jest:
+
+     1) odstąpienie od wydawania mLegitymacji nauczycielom zatrudnionym w szkołach
+polskich, o których mowa w art. 4 pkt 29d ustawy z dnia 14 grudnia 2016 r. – Prawo oświatowe
+(Dz. U. z 2024 r. poz. 737, 854, 1562, 1635 i 1933), zwanych dalej „szkołami polskimi”, oraz
+szkołach i zespołach szkół w Polsce, o których mowa w art. 8 ust. 5 pkt 2 lit c tiret drugie
+ustawy z dnia 14 grudnia 2016 r. – Prawo oświatowe, oraz przy przedstawicielstwach
+dyplomatycznych,      urzędach     konsularnych       i   przedstawicielstwach       wojskowych
+Rzeczypospolitej Polskiej, zwanych dalej „szkołami za granicą”;
+
+     2) umożliwienie      wydawania     legitymacji   służbowej    nauczyciela   i    wydawania
+mLegitymacji nauczycielom zatrudnionym w placówkach działających na podstawie ustawy
+z dnia 14 grudnia 2016 r. – Prawo oświatowe, prowadzonych przez osoby fizyczne oraz osoby
+prawne niebędące jednostkami samorządu terytorialnego;
+
+     3) wprowadzenie analogicznego rozwiązania w zakresie wydawania uczniom szkół
+podstawowych i liceów ogólnokształcących oraz zespołów tych szkół w Polsce, o których
+mowa w art. 8 ust. 5 pkt 2 lit. c ustawy z dnia 14 grudnia 2016 r. – Prawo oświatowe, tj. uczniom
+Szkoły Podstawowej im. Komisji Edukacji Narodowej i Liceum Ogólnokształcącego im.
+Komisji Edukacji Narodowej funkcjonujących w strukturze Ośrodka Rozwoju Polskiej
+Edukacji za Granicą z siedzibą w Warszawie, zwanych dalej „szkołami w Polsce”, legitymacji
+szkolnych w postaci karty formatu ID-1 i nowej mLegitymacji, jak w przypadku uczniów szkół
+polskich i szkół za granicą.
+
+     Szczegółowa charakterystyka proponowanych zmian w art. 24 i art. 25 ustawy o aplikacji
+mObywatel:
+
+     1) odstąpienie od wydawania mLegitymacji nauczycielom zatrudnionym w szkołach
+polskich i szkołach za granicą. Obecnie nauczyciele zatrudnieni w szkołach polskich i szkołach
+za granicą są uprawnieni do otrzymywania legitymacji służbowej nauczyciela w postaci karty
+formatu ID-1. Ustawą o aplikacji mObywatel, która stworzyła podstawy prawne do wydawania
+nauczycielom legitymacji w postaci dokumentu mobilnego – mLegitymacji, przewidziano,
+że nauczycielom tych szkół będą wydawane również mLegitymacje. Rozwiązanie to nie
+weszło jeszcze w życie.
+
+    Zachodzi jednak potrzeba odmiennego uregulowania kwestii wydawania legitymacji
+nauczycielom szkół polskich i szkół za granicą, co wynika ze specyfiki funkcjonowania tych
+
+
+
+                                               6
+szkół – nauczyciele uczący w tych szkołach stale zamieszkują poza granicami Rzeczypospolitej
+Polskiej. Proponuje się, aby nauczycielom zatrudnionym w szkołach polskich i szkołach
+za granicą legitymacje były wydawane na takich zasadach, jak w przypadku uczniów szkół
+polskich i szkół za granicą, którzy również zamieszkują za granicą. W projektowanych
+przepisach odstępuje się zatem od wydawania legitymacji służbowej w postaci dokumentu
+mobilnego – mLegitymacji nauczycielom zatrudnionym w szkołach polskich i szkołach
+za granicą. Takie rozwiązanie w odniesieniu do mLegitymacji szkolnej jest obecnie przyjęte
+na gruncie przepisów art. 11 ust. 1e ustawy z dnia 7 września 1991 r. o systemie oświaty,
+w brzmieniu nadanym ustawą o aplikacji mObywatel, które nie przewiduje udostępniania
+mLegitymacji szkolnej uczniom szkół polskich i uczniom szkół za granicą.
+
+       Proponuje się, aby tak jak dotychczas, nauczyciel szkoły polskiej i szkoły za granicą,
+na swój wniosek, otrzymywał legitymację służbową nauczyciela w postaci karty formatu ID-
+1. W związku z powyższym zachodzi potrzeba zmiany również art. 91a ust. 4 ustawy z dnia
+26 stycznia 1982 r. – Karta Nauczyciela oraz przepisów przejściowych przewidzianych
+w art. 61–63 i art. 65–67 ustawy o aplikacji mObywatel. Jednocześnie w związku z
+odstąpieniem od udostępniania nauczycielom szkół polskich i szkół za granicą mLegitymacji,
+jest niezbędne również odrębne uregulowanie kwestii ustalania numeru legitymacji
+wydawanych tym nauczycielom, tj. proponuje się, aby był on ustalany przez Dyrektora
+Ośrodka Rozwoju Polskiej Edukacji za Granicą, nie zaś, jak to zostało przewidziane dla innych
+legitymacji służbowych nauczycieli – ustalany w systemie informacji oświatowej i zgodny
+z numerem mLegitymacji.
+
+       W bazie danych systemu informacji oświatowej, w danych dziedzinowych nauczyciela,
+nie są gromadzone dane o legitymacjach służbowych nauczycieli uczących w szkołach i
+zespołach szkół w Polsce, o których mowa w art. 8 ust. 5 pkt 2 lit. c tiret drugie ustawy z dnia
+14 grudnia 2016 r. – Prawo oświatowe, dlatego jest niezbędne również odrębne uregulowanie
+kwestii ustalania numeru legitymacji wydawanych tym nauczycielom, tj. proponuje się, aby
+był on – podobnie, jak w przypadku legitymacji wydawanych nauczycielom szkół polskich i
+szkół za granicą – ustalany przez Dyrektora Ośrodka Rozwoju Polskiej Edukacji za Granicą,
+nie zaś, jak to zostało przewidziane dla innych legitymacji służbowych nauczycieli – ustalany
+w systemie informacji oświatowej i zgodny z numerem mLegitymacji;
+
+     2) umożliwienie wydawania legitymacji służbowej nauczyciela i wydawania
+mLegitymacji nauczycielom zatrudnionym w placówkach działających na podstawie ustawy
+
+
+                                               7
+z dnia 14 grudnia 2016 r. – Prawo oświatowe, prowadzonych przez osoby fizyczne oraz osoby
+prawne niebędące jednostkami samorządu terytorialnego.
+
+    Dotychczas, zgodnie z art. 91b ust. 2 pkt 2 ustawy z dnia 26 stycznia 1982 r. – Karta
+Nauczyciela, nauczyciele zatrudnieni w placówkach działających na podstawie ustawy z dnia
+14 grudnia 2016 r. – Prawo oświatowe, prowadzonych przez osoby fizyczne oraz osoby prawne
+niebędące jednostkami samorządu terytorialnego, nie byli uprawnieni do otrzymywania
+legitymacji służbowej nauczyciela. W związku z powyższym zmiany dokonane ustawą o
+aplikacji mObywatel nie przewidują wydawania tym nauczycielom również mLegitymacji. Z
+uwagi jednak na fakt, iż legitymacja służbowa nauczyciela i mLegitymacja są dokumentami
+potwierdzającymi zatrudnienie na stanowisku nauczyciela, jest zasadne, aby nauczyciele tych
+placówek również mogli legitymować się tymi dokumentami. Proponuje się zatem
+rozszerzenie zakresu stosowania przepisów art. 11b i art. 11c ustawy z dnia 26 stycznia 1982
+r. – Karta Nauczyciela, regulujących kwestie udostępniania nauczycielom mLegitymacji
+i wydawania legitymacji służbowej w postaci karty formatu ID-1, także na nauczycieli
+zatrudnionych w placówkach działających na podstawie ustawy z dnia 14 grudnia 2016 r. –
+Prawo oświatowe, prowadzonych przez osoby fizyczne oraz osoby prawne niebędące
+jednostkami samorządu terytorialnego. Stąd jest konieczne dodanie zmiany w art. 91b ust. 2
+pkt 2 ustawy z dnia 26 stycznia 1982 r. – Karta Nauczyciela;
+
+     3) wprowadzenie analogicznego rozwiązania w zakresie wydawania uczniom szkół
+w Polsce legitymacji szkolnych w postaci karty formatu ID-1 i wydawania nowej
+mLegitymacji, jak w przypadku uczniów szkół polskich i szkół za granicą.
+
+     Zgodnie z ustawą z dnia 7 września 1991 r. o systemie oświaty (po zmianach
+wprowadzonych ustawą o aplikacji mObywatel, które jeszcze nie weszły w życie) uczniom
+szkół w Polsce, legitymacja szkolna w postaci karty formatu ID-1 i nowa mLegitymacja byłyby
+wydawane albo udostępniane zgodnie z art. 11 ust. 1a i 1d ustawy z dnia 7 września 1991 r. o
+systemie oświaty, tj. z urzędu. W projektowanym art. 11 ust. 1e ustawy z dnia 7 września 1991
+r. proponuje się rozwiązanie, zgodnie z którym wydawanie uczniom szkół w Polsce legitymacji
+szkolnych w postaci karty formatu ID-1 i wydawania nowej mLegitymacji było uregulowane
+analogicznie, jak w przypadku uczniów szkół polskich i szkół za granicą. Szkoły w Polsce
+prowadzą kształcenie na odległość uczniów zamieszkałych za granicą, zatem jest zasadne,
+aby wydanie legitymacji szkolnych, nadających uczniom uprawnienia na terytorium
+Rzeczpospolitej Polskiej, odbywało się na takich samych zasadach, jak w przypadku uczniów
+
+
+                                             8
+szkół polskich i szkół za granicą, którzy również zamieszkują za granicą, tj. aby wydawanie
+uczniom szkół w Polsce legitymacji szkolnych w postaci karty formatu ID-1 odbywało
+się na wniosek ucznia – w przypadku ucznia pełnoletniego albo na wniosek rodziców –
+w przypadku ucznia niepełnoletniego. Jednocześnie, analogicznie jak w przypadku uczniów
+szkół polskich i szkół za granicą, nie przewiduje się wydawania uczniom szkół w Polsce nowej
+mLegitymacji. Takie rozwiązanie jest również obecnie przyjęte na gruncie rozporządzenia
+Ministra Edukacji i Nauki z dnia 7 czerwca 2023 r. w sprawie świadectw, dyplomów
+państwowych i innych druków (Dz. U. poz. 1120 i 2653) i rozporządzenia Ministra Edukacji
+Narodowej z dnia 9 sierpnia 2019 r. w sprawie organizacji kształcenia dzieci obywateli
+polskich czasowo przebywających za granicą (Dz. U. z 2023 r. poz. 2387 i 2639), zgodnie
+z którymi uczniom szkół polskich, szkół za granicą i szkół w Polsce nie była wydawana
+dotychczasowa mLegitymacja szkolna.
+
+     Dodatkowo, biorąc pod uwagę obecny postęp w pracach technicznych mających na celu
+wdrożenie rozwiązania umożliwiającego wydawanie uczniom i nauczycielom mLegitymacji,
+które zmierzają do tego, aby wydawanie nauczycielom mLegitymacji i uczniom mLegitymacji
+odbyło się w dwóch odrębnych terminach, proponuje się również zmianę art. 74 ust. 1 ustawy
+o aplikacji mObywatel, stanowiącego podstawę prawną do wydania przez ministra właściwego
+do spraw informatyzacji w porozumieniu z ministrem właściwym do spraw oświaty i
+wychowania komunikatu określającego dzień wdrożenia ww. rozwiązań technicznych. Ze
+względu na to, że wydawanie uczniom i nauczycielom mLegitymacji jest związane z
+gromadzeniem i przetwarzaniem odpowiednich danych w systemie informacji oświatowej, jest
+konieczne przeredagowanie tego przepisu w taki sposób, aby możliwe było wydanie dwóch
+odrębnych komunikatów określających odrębne daty wdrożenia ww. rozwiązań technicznych.
+
+     III. Zmiany w art. 40 ustawy o aplikacji mObywatel, które dotyczą zmian w ustawie
+z dnia 15 kwietnia 2011 r. o systemie informacji oświatowej
+
+     Ustawa o aplikacji mObywatel, w art. 40 pkt 1–4, wprowadza zmiany w ustawie z dnia
+15 kwietnia 2011 r. o systemie informacji oświatowej (, związane z wydawaniem mLegitymacji
+dla ucznia i dla nauczyciela. Zmiany te nie weszły jeszcze w życie, ponieważ komunikat
+określający dzień wdrożenia rozwiązań technicznych umożliwiających świadczenie usług w
+zakresie mLegitymacji dla ucznia i dla nauczyciela, od którego został uzależniony termin
+wejścia w życie tych zmian, nie został jeszcze ogłoszony w Dzienniku Urzędowym
+Rzeczypospolitej Polskiej ,,Monitor Polski'”. W konsekwencji tego, że w trakcie prac nad
+
+
+                                             9
+wydaniem mLegitymacji, zarówno mLegitymacji dla ucznia, jak i dla nauczyciela, modyfikacji
+uległy założenia dotyczące procesu wdrożenia tych funkcjonalności oraz fakt, że przepisy te
+nie weszły jeszcze w życie, jest konieczne nadanie nowego brzmienia art. 40 ustawy o aplikacji
+mObywatel.
+
+     Jednocześnie mając ma uwadze, że w rozdziale 4 ustawy z dnia 15 kwietnia 2011 r.
+o systemie informacji oświatowej są zawarte przepisy normujące kwestie pozyskiwania danych
+z bazy danych systemu informacji oświatowej, proponuje się dodanie art. 66d oraz art. 66e do
+tej ustawy, na podstawie których minister właściwy do spraw informatyzacji, w celu
+udostępnienia uczniom i nauczycielom mLegitymacji z wykorzystaniem aplikacji mObywatel
+będzie pozyskiwał określone dane z bazy danych systemu informacji oświatowej.
+
+     IV. Zmiany w ustawie z dnia 17 maja 1989 r. – Prawo geodezyjne i kartograficzne
+(Dz. U. z 2024 r. poz. 1151 i 1824)
+
+     Celem zmian przewidzianych w przedmiotowej ustawie jest umożliwienie udostępnienia
+w aplikacji mObywatel usługi pozwalającej osobie zainteresowanej na posługiwanie się
+świadectwem stwierdzającym nadanie uprawnień zawodowych w dziedzinie geodezji i
+kartografii również w wersji elektronicznej, w postaci dokumentu mobilnego. Posługiwanie się
+wersją elektroniczną ww. świadectwa miałoby charakter dobrowolny.
+
+     Proponowane zmiany doprecyzowują również jakie informacje będzie zawierać
+elektroniczna wersja przedmiotowego świadectwa.
+
+     V. Zmiany w ustawie z dnia 22 maja 2003 r. o ubezpieczeniach obowiązkowych,
+Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli
+Komunikacyjnych (Dz. U. z 2025 r. poz. 367)
+
+     Zmiany przedmiotowej ustawy mają na celu umożliwienie udostępnienia w aplikacji
+mObywatel usługi pozwalającej jej użytkownikom na złożenie zgodnego oświadczenia o
+zdarzeniu drogowym i przekazaniu go (wraz z dokumentacją zdjęciową) do zakładu
+ubezpieczeń osoby poszkodowanej jako formalnego zgłoszenia szkody.
+
+     Kluczową zmianą w tym zakresie jest dodanie do przedmiotowej ustawy nowego
+art. 105c. Artykuł ten daje podstawę do prowadzenia przez Ubezpieczeniowy Fundusz
+Gwarancyjny (UFG) ewidencji oświadczeń o zdarzeniu sporządzonych w usłudze
+udostępnionej w aplikacji mObywatel przez kierującego pojazdem mechanicznym lub
+posiadacza takiego pojazdu, uczestniczącego w zdarzeniu powodującym odpowiedzialność
+
+
+                                             10
+kierującego pojazdem mechanicznym lub posiadacza pojazdu mechanicznego za szkody
+powstałe w związku z ruchem pojazdu mechanicznego, lub w zdarzeniu powodującym
+odpowiedzialność zakładu ubezpieczeń z tytułu zawartej umowy ubezpieczenia, określonego
+w dziale II w grupie 3 załącznika do ustawy z dnia 11 września 2015 r. o działalności
+ubezpieczeniowej i reasekuracyjnej (Dz. U. z 2024 r. poz. 838, 1565 i 1863 oraz z 2025 r.
+poz. 146). Przepis określa także kategorie danych, które UFG gromadzi i przetwarza w celu
+realizacji tego zadania, oraz wskazuje komu Fundusz udostępnia te dane. Nowo dodany przepis
+reguluje także podstawowe kwestie organizacyjno-techniczne związane z realizacją tego
+zadania. W konsekwencji wskazano m.in., że ww. dane UFG gromadzi i udostępnia za
+pośrednictwem systemu mObywatel, UFG udostępnia te dane zakładowi ubezpieczeń za
+pośrednictwem systemu teleinformatycznego obsługującego UFG, a w celu realizacji tej usługi
+UFG zawiera porozumienie z ministrem właściwym do spraw informatyzacji (do którego
+odpowiednio stosuje się przepisy art. 16 ustawy o aplikacji mObywatel, przy czym
+odpowiednie zastosowanie przepisu będzie polegało na obligatoryjności zawarcia
+porozumienia przez ministra właściwego do spraw informatyzacji), wskazano także ogólną
+klauzulę przetwarzania danych w zakresie niezbędnym do realizacji zadań ustawowych oraz
+okres przechowywania danych. Przepis daje ponadto UFG podstawę do przetwarzania danych,
+o których mowa w art. 102 ust. 2–4 oraz art. 103 przedmiotowej ustawy w celu realizacji tego
+zadania.
+
+     Zmiana w art. 102 ust. 7 przedmiotowej ustawy ma charakter dostosowawczy i stanowi
+bezpośrednią konsekwencję dodania do niej art. 105c.
+
+     Zmiany w art. 104 przedmiotowej ustawy, z jednej strony, dają podstawę UFG do
+udostępnienia zgromadzonych danych, o których mowa w art. 102 ust. 2–4 oraz w art. 103,
+także podmiotowi, którego te dane dotyczą (dodanie w ust. 1 nowego pkt 1b), a z drugiej strony
+mają charakter porządkowy i wynikający z uchylenia przepisów dotyczących publicznej
+aplikacji mobilnej (uchylenie ust. 10), o której była mowa w ustawie z dnia 17 lutego 2005 r.
+o informatyzacji działalności podmiotów realizujących zadania publiczne (Dz. U. z 2024 r.
+poz. 1557 i 1717).
+
+     Dodanie w art. 105a nowego ust. 4 również stanowi konsekwencję wprowadzenia do
+przedmiotowej ustawy art. 105c. Zmiana ta daje podstawę do przekazywania zakładowi
+ubezpieczeń, otrzymującemu zawiadomienie, danych, o których mowa w art. 80b ust. 1
+pkt 2–5 ustawy z dnia 20 czerwca 1997 r. – Prawo o ruchu drogowym (Dz. U. z 2024 r.
+
+
+                                             11
+poz. 1251), w zakresie pojazdów uczestniczących w zdarzeniu, z wyłączeniem danych o dacie
+i miejscu urodzenia. Dane te będą przekazywane w przypadku złożenia do zakładu ubezpieczeń
+zawiadomienia o szkodzie powodującej odpowiedzialność zakładu ubezpieczeń z tytułu
+umowy ubezpieczenia OC posiadaczy pojazdów mechanicznych, do realizacji celów
+określonych w art. 105c ust. 3 pkt 2 lit. a–c przedmiotowej ustawy. Dane te będą przekazywane
+drogą teletransmisji danych, za pośrednictwem systemu teleinformatycznego obsługującego
+UFG.
+
+     VI. Zmiany w ustawie z dnia 17 lutego 2005 r. o informatyzacji działalności
+podmiotów realizujących zadania publiczne
+
+     Zmiany w art. 20aa i art. 20e ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności
+podmiotów realizujących zadania publiczne mają na celu ułatwienie korzystania w przyszłości
+ze wszystkich rodzajów podpisów elektronicznych mających wobec podmiotów publicznych
+skutek równoważny podpisowi własnoręcznemu.
+
+     Możliwość używania podpisu zaufanego, podpisu osobistego oraz kwalifikowanego
+podpisu elektronicznego jest obecnie powszechnie zapewniana w usługach online.
+
+     Osoby składające podpis elektroniczny, jak również adresaci tak podpisanych
+dokumentów, natrafiają jednakże na trudności związane z różnorodnością stosowanych
+formatów takich podpisów elektronicznych, przewidzianych w normach technicznych.
+Zgodnie art. 20aa pkt 2 lit. b ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności
+podmiotów realizujących zadania publiczne minister właściwy do spraw informatyzacji
+dostarcza podmiotom publicznym rozwiązania zapewniające osobie fizycznej możliwość
+opatrzenia dokumentu elektronicznego podpisem zaufanym w usługach świadczonych przez
+takie podmioty. Praktycznie oznacza to, że w usługach publicznych tylko składanie podpisu
+zaufanego wygląda podobnie, a w konsekwencji użytkownicy nie mają większych problemów
+z użyciem takiego podpisu. Problem zapewnienia obsługi wszystkich trzech rodzajów
+podpisów spada na podmioty publiczne wymienione w przepisach prawa, jako adresatów
+podpisanych elektronicznie dokumentów, albo jako dostawców usług umożlwiających
+realizację określonych zadań.
+
+     W rezultacie użycie kwalifikowanego podpisu elektronicznego lub podpisu osobistego
+wymaga od użytkowników wykonywania licznych dodatkowych czynności, zwykle różnych
+w różnych usługach i wykonywanych za pomocą różnego oprogramowania. Złożenie podpisu
+zaufanego jest przeważnie możliwe bezpośrednio w usłudze publicznej, zaś użycie podpisu
+
+                                              12
+osobistego lub kwalifikowanego podpisu elektronicznego wymaga instalowania specjalnych
+wtyczek do przeglądarek internetowych albo nawet zapisania dokumentu na lokalny dysk,
+podpisania go lokalnie i ponownego przesłania do usługi. Powoduje to niechęć do korzystania
+z usług, ale też problemy po stronie adresatów dokumentów, gdyż zdani na siebie użytkownicy
+kwalifikowanego podpisu elektronicznego lub podpisu osobistego nie zawsze potrafią wybrać
+właściwy format podpisu, a nawet, nie mając wcale takiego zamiaru, w rezultacie uszkadzają
+już złożone podpisy.
+
+        W związku z tym, że również minister właściwy do spraw informatyzacji w swoich
+usługach, w tym w związku z korzystaniem z aplikacji mObywatel, jest obowiązany zapewnić
+uznawanie      podpisu    zaufanego,      podpisu    osobistego       i kwalifikowanego   podpisu
+elektronicznego, jest zasadne, aby rozwiązanie umożliwiające składanie tych podpisów
+elektronicznych     mogło       być   przygotowane     jako   uniwersalne,     przystosowane   do
+wykorzystywania we wszelkich usługach publicznych i w efekcie wykorzystywane
+powszechnie także przez inne podmioty publiczne oraz, aby nie powodowało to żadnych
+wątpliwości formalno-prawnych. Dzięki temu użytkownicy usług publicznych będą mieli
+szansę uzyskania ujednoliconego interfejsu w przypadku potrzeby podpisania dokumentu,
+podobnie jak ma to miejsce przy korzystaniu ze środków identyfikacji elektronicznej, gdy
+logują się za pośrednictwem węzła krajowego. Przepisy nie zakładają jednak nałożenia
+obowiązku na podmioty publiczne, aby te korzystały z rozwiązania przygotowanego przez
+ministra właściwego do spraw informatyzacji, zakładając, że istniejące już w usługach
+publicznych metody składania podpisów elektronicznych mogą być w niektórych przypadkach
+dalej    wykorzystywane     i    zmieniane   powoli,    w     miarę    prac   zaplanowanych    nad
+unowocześnieniem usług.
+
+        W związku z licznymi uwagami i postulatami użytkowników usług udostępnianych przez
+ministra właściwego do spraw informatyzacji, dotyczącymi usługi pozwalającej na składanie
+podpisu zaufanego, która jest udostępniana m.in. w ramach portalu www.gov.pl, istnieje
+potrzeba poszerzenia zakresu tej usługi o możliwość składania kwalifikowanego podpisu
+elektronicznego i podpisu osobistego, jak również o możliwość walidacji (weryfikacji) takich
+podpisów. W odpowiedzi na zgłaszane uwagi zmiany proponowane w przepisach przewidują
+także możliwość dostarczenia przez ministra właściwego do spraw informatyzacji takiej
+właśnie kompleksowej usługi. Projektowane przepisy nie nakładają na ministra właściwego do
+spraw informatyzacji obowiązku zapewnienia możliwości składania i walidacji podpisów we
+
+
+
+                                               13
+wszelkich aktualnie dostępnych formatach, z uwagi na potencjalną złożoność usługi i
+ewentualną konieczność jej zsynchronizowania z innymi rozwiązanymi koniecznymi do
+zrealizowania w ramach prac dostosowawczych do zmian wprowadzonych rozporządzeniem
+eIDAS 2.0.
+
+     Proponowane     przepisy      pozwolą   w    szczególności   na   przygotowanie   usług
+umożliwiających wielokrotne podpisanie tego samego dokumentu, w taki sposób, aby kolejni
+podpisujący nie widzieli danych osobowych osób, które już podpisały dokument, i
+jednocześnie umożliwią stronie ufającej (adresatowi dokumentu) walidację złożonych
+podpisów. Tego typu usługa jest wskazywana w kierowanych do ministra właściwego do spraw
+informatyzacji pismach, jako potrzebna w kontekście zbierania poparcia dla inicjatyw
+ustawodawczych, uchwałodawczych i innych dokumentów wymagających złożenia wielu
+podpisów.
+
+     VII. Zmiany w ustawie z dnia 7 maja 2010 r. o wspieraniu rozwoju usług i sieci
+telekomunikacyjnych (Dz. U. z 2025 r. poz. 311)
+
+     Dodanie art. 29la do ustawy z dnia 7 maja 2010 r. o wspieraniu rozwoju usług i sieci
+telekomunikacyjnych ma na celu umożliwienie wykorzystywania aplikacji mObywatel do
+korzystania z funkcjonalności Systemu Informacyjnego o Dostępie do Usług Stacjonarnego
+Internetu Szerokopasmowego (SIDUSIS), w tym przeglądania danych z tego systemu w
+aplikacji mObywatel. Obecnie dostęp ten jest możliwy dla obywateli jedynie za pośrednictwem
+strony internet.gov.pl. SIDUSIS zapewnia informacje o dostępności usług internetowych pod
+dowolnie wybranym punktem adresowym w Polsce, jak również o planowanych inwestycjach
+w stacjonarne sieci szerokopasmowe. Obywatele mogą także m.in. zgłaszać zapotrzebowanie
+na usługi internetowe oraz ewentualne błędy czy braki w danych prezentowanych w SIDUSIS
+(dane te są dostarczane przede wszystkim przez przedsiębiorców telekomunikacyjnych).
+Uruchomienie tych funkcjonalności w aplikacji mObywatel jest planowane na podstawie
+przepisów art. 19ab ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów
+realizujących zadania publiczne.
+
+     Biorąc pod uwagę sukcesywny rozwój aplikacji mObywatel polegający na udostępnianiu
+kolejnych usług, brakuje powodów, by aplikacja ta nie była zintegrowana również z SIDUSIS.
+Dzięki temu będzie możliwy jeszcze szerszy dostęp obywateli do SIDUSIS. Aplikacja
+mObywatel nie zastąpi, a jedynie uzupełni możliwości dostępu do SIDUSIS, zatem nadal
+
+
+
+
+                                             14
+będzie możliwe korzystanie z systemu przez stronę internet.gov.pl. Zaproponowane zmiany nie
+wymagają wprowadzenia przepisów dostosowujących lub przejściowych.
+
+     Wprowadzono przepis przejściowy dotyczący wniosków składanych na podstawie art. 15
+ust. 4 ustawy o aplikacji mObywatel, w którym uregulowano kwestię określenia nowych
+ogólnych warunków świadczenia każdej z usług oraz wprowadzono obowiązek uzupełnienia
+wniosku zgodnie z nowymi przepisami, pod rygorem pozostawienia go bez rozpoznania w
+wypadku niewykonania ww. obowiązku.
+
+     Przeprowadzona analiza stanu faktycznego oraz prawnego prowadzi do wniosku, że nie
+zachodzi potrzeba wprowadzania przepisów przejściowych w odniesieniu do innych regulacji
+zawartych w projekcie ustawy, w szczególności w zakresie zmian art. 16 i art. 19 ust. 1 pkt 7
+ustawy o aplikacji mObywatel oraz art. 20e ustawy z dnia 17 lutego 2005 r. o informatyzacji
+działalności podmiotów realizujących zadania publiczne.
+
+     Projekt ustawy nie zawiera przepisów technicznych w rozumieniu rozporządzenia Rady
+Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego systemu
+notyfikacji norm i aktów prawnych (Dz. U. poz. 2039 oraz z 2004 r. poz. 597), w związku
+z tym nie podlega notyfikacji.
+
+     Projekt ustawy nie zawiera wymogów nakładanych na usługodawców podlegających
+notyfikacji, o której mowa w art. 15 ust. 7 lub art. 39 ust. 5 dyrektywy 2006/123/WE
+Parlamentu Europejskiego i Rady z dnia 12 grudnia 2006 r. dotyczącej usług na rynku
+wewnętrznych (Dz. Urz. UE L 376 z 27.12.2006, str. 36).
+
+     Projekt ustawy nie wymaga uzyskania opinii, dokonania powiadomienia, konsultacji albo
+uzgodnienia z właściwymi organami i instytucjami Unii Europejskiej, w tym z Europejskim
+Bankiem Centralnym, o czym mowa w § 39 ust. 1 uchwały nr 190 Rady Ministrów z dnia
+29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806).
+
+     Projektowana regulacja jest zgodna z prawem Unii Europejskiej.
+
+     Projekt ustawy został udostępniony w Biuletynie Informacji Publicznej na stronie
+podmiotowej Rządowego Centrum Legislacji, w zakładce „Rządowy Proces Legislacyjny”,
+zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. –
+Regulamin pracy Rady Ministrów, oraz stosownie do wymogów art. 5 ustawy z dnia 7 lipca
+2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248
+oraz z 2024 r. poz. 1535).
+
+
+                                             15
+Nazwa projektu                                                           Data sporządzenia
+Ustawy o zmianie ustawy o aplikacji mObywatel oraz niektórych            05.05.2025 r.
+innych ustaw
+                                                                         Źródło:
+Ministerstwo wiodące i ministerstwa współpracujące                       Inicjatywa własna
+Ministerstwo Cyfryzacji – ministerstwo wiodące
+Ministerstwo Edukacji Narodowej – ministerstwo współpracujące
+                                                                         Nr w Wykazie prac legislacyjnych i
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza            programowych Rady Ministrów:
+Stanu lub Podsekretarza Stanu
+Dariusz Standerski, Sekretarz Stanu, Ministerstwo Cyfryzacji             UDER1
+Katarzyna Lubnauer, Sekretarz Stanu, Ministerstwo Edukacji
+Narodowej
+Kontakt do opiekuna merytorycznego projektu
+Monika Małowiecka, Zastępca Dyrektora Departamentu
+Transformacji Cyfrowej w Ministerstwie Cyfryzacji, e-mail:
+Monika.Malowiecka3@cyfra.gov.pl
+Tomasz Kulasa, Dyrektor Departamentu Innowacji i Rozwoju
+w Ministerstwie Edukacji Narodowej, e-mail:
+Tomasz.Kulasa@men.gov.pl
+
+                                OCENA SKUTKÓW REGULACJI
+ 1. Jaki problem jest rozwiązywany?
+Obywatele oczekują, że państwo będzie posiadało zdolność posługiwania się technologiami cyfrowymi, a tym samym
+będzie posiadało narzędzia pozwalające wyjść naprzeciw ich potrzebom. Szeroki wachlarz usług wdrożony obecnie
+w aplikacji mObywatel pozwala nie tylko wygodnie załatwiać sprawy urzędowe, ale także dbać o środowisko
+i bezpieczeństwo. Rozszerza się zakres potrzeb obywateli dotyczący możliwości realizacji swoich uprawnień lub
+obowiązków w sposób najprostszy, bez wychodzenia z domu – mobilnie.
+Dążąc do sprostania tym oczekiwaniom, należy rozwijać nie tylko samą aplikację mObywatel, jako oprogramowanie,
+i system teleinformatyczny mObywatel zapewniający jej funkcjonowanie, ale także katalog dostępnych w niej usług,
+a to pociąga za sobą konieczność wskazania nowych rozwiązań umożliwiających użytkownikowi aplikacji mobilnej
+korzystanie z niej w oczekiwany sposób. Proponowane zmiany legislacyjne pozwolą, przykładowo, na wdrożenie usług
+polegających m.in. na wydawaniu mLegitymacji doktoranta, podpisywaniu dokumentów, spisywaniu oświadczenia ze
+sprawcą kolizji czy też umożliwią uruchomienie usług innych podmiotów, jeżeli podmiot odpowiadający za daną usługę
+wyrazi taką inicjatywę.
+Warto zauważyć, że wykonawca aplikacji mObywatel uruchomił funkcjonalność pozwalającą jej użytkownikom na
+zgłoszenie pomysłu dla wdrożenia nowych funkcjonalności i dokumentów w tej aplikacji. Spośród najczęściej
+pojawiających się pomysłów pojawiała się usługa podpisania dokumentu czy szereg różnego rodzaju mobilnych wersji
+dokumentów.
+Ponadto możliwość stania się użytkownikiem aplikacji mObywatel przez złożenie wniosku o potwierdzenie tożsamości
+i obywatelstwa razem z wnioskiem o wydanie dowodu osobistego lub potwierdzenia przez organ gminy na podstawie
+okazanego dokumentu tożsamości nie będzie celowa w świetle zmian, jakie wymusi na krajowym ustawodawstwie
+rozporządzenie Parlamentu Europejskiego i Rady (UE) nr 910/2014 z dnia 23 lipca 2014 r. w sprawie identyfikacji
+elektronicznej i usług zaufania w odniesieniu do transakcji elektronicznych na rynku wewnętrznym oraz uchylające
+dyrektywę 1999/93/WE (Dz. Urz. UE L 257 z 28.08.2014, str. 73, z późn. zm.).
+Minister Cyfryzacji kieruje działem administracji rządowej – informatyzacja, na podstawie § 1 ust. 2 rozporządzenia
+Prezesa Rady Ministrów z dnia 18 grudnia 2023 r. w sprawie szczegółowego zakresu działania Ministra Cyfryzacji (Dz.
+U. poz. 2720). Dział informatyzacja, zgodnie z art. 12a ust. 1 ustawy z dnia 4 września 1997 r. o działach administracji
+rządowej (Dz. U. z 2024 r. poz. 1370 i 1907), obejmuje w szczególności sprawy: informatyzacji administracji publicznej
+oraz podmiotów wykonujących zadania publiczne (pkt 1), rozwoju społeczeństwa informacyjnego i przeciwdziałania
+wykluczeniu cyfrowemu (pkt 6) oraz rozwoju usług świadczonych drogą elektroniczną (pkt 7).
+Mając na uwadze powyższe, minister właściwy do spraw informatyzacji jest obowiązany do podejmowania wszelkich
+działań mających na celu informatyzację działalności podmiotów publicznych i podmiotów niepublicznych
+realizujących zadania publiczne oraz rozwój usług cyfrowych.
+W ramach rozwoju usług cyfrowych, po analizie funkcjonowania istniejących regulacji i potrzeb zgłaszanych przez
+użytkowników usług, aktualnie jest konieczne wprowadzenie regulacji wspierających rozwój usług (również w zakresie
+dokumentów), które minister właściwy do spraw informatyzacji może udostępniać w aplikacji mObywatel.
+Wprowadzenie ww. regulacji ograniczy bariery biurokratyczne, eliminując tym samym z przestrzeni prawnej nadmierne
+wymagania formalne.
+
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Wprowadzenie planowanych zmian wymaga nowelizacji przepisów rangi ustawowej. Projekt ustawy o zmianie ustawy
+o aplikacji mObywatel oraz niektórych innych ustaw zakłada następujące zmiany:
+1) w ustawie z dnia 26 maja 2023 r. o aplikacji mObywatel (Dz. U. z 2024 r. poz. 1275 i 1717):
+      wprowadzenie zmian pozwalających na rozszerzenie katalogu rodzajów usług udostępnianych w aplikacji
+       mObywatel o usługi pozwalające na realizację uprawnień i obowiązków użytkownika tej aplikacji, określonych
+       w odrębnych przepisach, oraz o usługi związane z prezentacją temu użytkownikowi komunikatów dotyczących
+       usług świadczonych na jego rzecz (przepisy te posłużą temu, aby w aplikacji mObywatel można było nie tylko
+       prezentować swój dokument, jak dotychczas, ale również za jej pośrednictwem załatwić sprawę urzędową przez
+       złożenie podpisanego wniosku lub dokumentu);
+      umożliwienie przechowywania i archiwizowania danych lub dokumentów elektronicznych w systemie
+       mObywatel niezbędnych do świadczenia usług w aplikacji mObywatel przez okres niezbędnych do realizacji
+       usługi, której dotyczą. Wprowadzona zmiana umożliwi bezpieczne przechowywanie danych w systemie
+       mObywatel i zapewni możliwość ich odzyskania,
+      umożliwienie wydania nowego dokumentu mObywatel, w przypadku unieważnienia certyfikatu podstawowego,
+       po przywróceniu świadczenia usług związanych z tym certyfikatem, na żądanie użytkownika aplikacji mObywatel
+       złożone w tej aplikacji,
+      rezygnacja z możliwości potwierdzania tożsamości i obywatelstwa na potrzeby korzystania z aplikacji mObywatel
+       razem z wnioskiem o wydanie dowodu osobistego oraz potwierdzania tożsamości i obywatelstwa w powyższym
+       celu przez organ gminy,
+      umożliwienie ministrowi właściwemu do spraw informatyzacji badania i oceny spełniania przez podmioty
+       publiczne i podmioty niepubliczne ogólnych warunków świadczenia usług lub warunków organizacyjno-
+       technicznych umożliwiających świadczenie usług, na podstawie art. 15 i art. 16 ustawy o aplikacji mObywatel,
+       oraz możliwości naruszenia bezpieczeństwa danych osobowych użytkowników aplikacji mObywatel, systemu
+       mObywatel i aplikacji mObywatel, a także podjęcie niezbędnych działań w przypadku naruszenia tych warunków.
+       Biorąc pod uwagę konieczność zapewniania bezpieczeństwa danych użytkowników aplikacji mObywatel,
+       proponuje się wprowadzenie regulacji umożliwiających zawieszenie udostępniania usług świadczonych przez
+       podmioty w sposób nieprawidłowy,
+      uregulowanie procesu wdrażania usług udostępnianych w aplikacji mObywatel na poziomie centralnym, w
+       oparciu o rejestry publiczne, rejestry niepubliczne lub systemy teleinformatyczne, w których funkcje
+       administratora pełni inny podmiot niż Minister Cyfryzacji (System Informacji Oświatowej, Centralna Ewidencja
+       i Informacja o Działalności Gospodarczej, Zintegrowany System Informacji o Szkolnictwie Wyższym i Nauce
+       POL-on),
+      rozszerzenie zbioru narzędzi pozwalających na weryfikację kryptograficzną dokumentów mobilnych, które są
+       obsługiwane w ramach usług świadczonych w aplikacji mObywatel, o usługę online, tj. weryfikator w wersji
+       webowej,
+      wprowadzenie funkcji wirtualnego asystenta, opartej o model sztucznej inteligencji, niewykorzystującej danych
+       osobowych użytkownika aplikacji mObywatel,
+      wprowadzenie zmian w zakresie podstaw prawnych wydawania uczniom i nauczycielom legitymacji w postaci
+       dokumentu mobilnego – mLegitymacji, wynikających z dodatkowych analiz oraz analiz związanych
+       z dotychczasowymi doświadczeniami w celu:
+       -   odstąpienia od wydawania mLegitymacji nauczycielom zatrudnionym w szkołach polskich, o których mowa
+           w art. 4 pkt 29d ustawy z dnia 14 grudnia 2016 r. – Prawo oświatowe (Dz. U. z 2024 r. poz. 737, 854, 1562,
+           1635 i 1933), oraz szkołach i zespołach szkół w Polsce, o których mowa w art. 8 ust. 5 pkt 2 lit c tiret
+           drugie ustawy z dnia 14 grudnia 2016 r. – Prawo oświatowe, oraz przy przedstawicielstwach
+           dyplomatycznych, urzędach konsularnych i przedstawicielstwach wojskowych Rzeczypospolitej Polskiej,
+       -   umożliwienia wydawania legitymacji służbowej nauczyciela i mLegitymacji nauczycielom zatrudnionym
+           w placówkach działających na podstawie ustawy z dnia 14 grudnia 2016 r. – Prawo oświatowe, prowadzonych
+           przez osoby fizyczne oraz osoby prawne niebędące jednostkami samorządu terytorialnego,
+       -   wprowadzenia analogicznego rozwiązania w zakresie wydawania uczniom szkół podstawowych i liceów
+           ogólnokształcących oraz zespołów tych szkół w Polsce, o których mowa w art. 8 ust. 5 pkt 2 lit. c ustawy
+                                                          2
+               z dnia 14 grudnia 2016 r. – Prawo oświatowe, legitymacji szkolnych w postaci karty formatu ID-1 i nowej
+               mLegitymacji, jak w przypadku uczniów szkół polskich i szkół za granicą,
+           -   zmiany zakresu danych gromadzonych i przechowywanych w systemie informacji oświatowej w związku ze
+               zmianą w procesie wydawania mLegitymacji uczniom i nauczycielom;
+2) w ustawie z dnia 17 maja 1989 r. – Prawo geodezyjne i kartograficzne (Dz. U. z 2024 r. poz. 1151 i 1824):
+      wprowadzenie zmian pozwalających na posługiwanie się świadectwem stwierdzającym nadanie uprawnień
+       zawodowych w dziedzinie geodezji i kartografii również w wersji elektronicznej, w postaci dokumentu
+       mobilnego,
+      wskazanie informacji, jakie zawiera ww. świadectwo w formie elektronicznej;
+3) w ustawie z dnia 22 maja 2003 r. o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym
+   i Polskim Biurze Ubezpieczycieli Komunikacyjnych (Dz. U. z 2025 r. poz. 367):
+              przyznanie Ubezpieczeniowemu Funduszowi Gwarancyjnemu (UFG) dodatkowego zadania w zakresie
+               prowadzenia ewidencji oświadczeń o zdarzeniu sporządzonych w usłudze udostępnionej w aplikacji
+               mObywatel,
+              zmiany porządkowe i dostosowawcze związane z przyznaniem ww. zadania UFG oraz inne zmiany
+               dostosowawcze wynikające z konieczności przystosowania treści ustawy do aktualnego stanu prawnego;
+4) w ustawie z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów realizujących zadania publiczne (Dz. U.
+   z 2024 r. poz. 1557 i 1717):
+          umożliwienie Ministrowi Cyfryzacji zapewnienia narzędzia (usługi) pozwalającej osobie fizycznej opatrzyć
+           dokument elektroniczny trzema rodzajami podpisów elektronicznych, tj.: poza istniejącym już podpisem
+           zaufanym, kwalifikowanym podpisem elektronicznym oraz podpisem osobistym,
+          przyłączenie, na wniosek podmiotu odpowiedzialnego za system teleinformatyczny, innych systemów
+           teleinformatycznych, w których są udostępniane usługi online, do systemu, o którym mowa w zmienianym art.
+           20aa ustawy, a także funkcjonalności pozwalającej na opatrzenie dokumentu elektronicznego kwalifikowanym
+           podpisem elektronicznym oraz podpisem osobistym, przez podmioty publiczne,
+          ułatwienie korzystania w aplikacji mObywatel (jak również w systemach publicznych) ze wszystkich rodzajów
+           podpisów elektronicznych mających wobec podmiotów publicznych skutek równoważny podpisowi
+           własnoręcznemu;
+5)       w ustawie z dnia 7 maja 2010 r. o wspieraniu rozwoju usług i sieci telekomunikacyjnych (Dz. U. z 2025 r. poz. 311):
+          wprowadzenie rozwiązań mających na celu umożliwienie wykorzystywania aplikacji mObywatel do korzystania
+           z funkcjonalności Systemu Informacyjnego o Dostępie do Usług Stacjonarnego Internetu Szerokopasmowego
+           (SIDUSIS),w tym przeglądania danych z tego systemu w aplikacji mObywatel.
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+W zakresie dotyczącym składania podpisów elektronicznych, w innych krajach podobne problemy nie występują, z uwagi
+na to, że podpis zaufany (podpis weryfikowany pieczęcią elektroniczną organu administracji) to nietypowe rozwiązanie
+różniące się od podpisów weryfikowanych indywidualnie wydanymi certyfikatami. Dlatego też funkcjonalność składania
+podpisu zaufanego nie obejmuje powszechnie dostępnego oprogramowania do składania kwalifikowanych podpisów
+elektronicznych oferowanego przez dostawców takich usług.
+Komisja Europejska oferuje demonstracyjne usługi składania i weryfikacji kwalifikowanych podpisów elektronicznych,
+jak również  nieodpłatne     oprogramowanie     dostępne     pod     adresem     https://ec.europa.eu/digital-building-
+blocks/DSS/webapp-demo/.
+Oprogramowanie do składania i weryfikacji podpisów dostarczane przez krajowych dostawców kwalifikowanych
+podpisów elektronicznych w części rozpoznaje i weryfikuje podpis zaufany, ale nie pozwala na złożenie takiego podpisu
+z oczywistych względów (użytkownik podpisu zaufanego nie dysponuje certyfikatem weryfikującym ten podpis).
+
+4. Podmioty, na które oddziałuje projekt
+      Grupa                      Wielkość                     Źródło danych                          Oddziaływanie
+Obywatele              ok. 13,7 mln aktywnych       Dane własne                              Ułatwienie w posługiwaniu
+Rzeczypospolite        profili zaufanych                                                     się elektronicznymi
+j Polskiej                                                                                   dokumentami.
+korzystający z                                                                               Wygodniejsza obsługa
+                                                                                             podpisów elektronicznych.
+                                                               3
+profilu                                                           Możliwość korzystania
+zaufanego                                                         z usług udostępnionych
+                                                                  i świadczonych przez ministra
+                                                                  właściwego do spraw
+                                                                  informatyzacji.
+                                                                  Umożliwienie korzystania
+                                                                  z SIDUSIS w aplikacji
+                                                                  mObywatel.
+Minister         1            Informacja ogólnodostępna           Rozwijanie systemu
+właściwy do                                                       mObywatel i aplikacji
+spraw                                                             mObywatel oraz usług
+informatyzacji                                                    związanych z podpisem
+                                                                  zaufanym.
+                                                                  Dostosowanie istniejącego
+                                                                  oprogramowania do
+                                                                  składania i walidacji podpisu
+                                                                  zaufanego do obsługi
+                                                                  podpisu osobistego
+                                                                  i kwalifikowanego podpisu
+                                                                  elektronicznego.
+                                                                  Opublikowanie nowych
+                                                                  standardów
+                                                                  technologicznych systemu
+                                                                  SIDUSIS.
+Instytut         1            Informacja ogólnodostępna           Opracowanie rozwiązań
+Łączności –                                                       technicznych
+Państwowy                                                         umożliwiających integrację
+Instytut                                                          SIDUSIS z aplikacją
+Badawczy                                                          mObywatel.
+Centralny        1            Informacja ogólnodostępna           Dostosowanie
+Ośrodek                                                           utrzymywanych systemów do
+Informatyki                                                       nowych wymagań
+                                                                  ustawowych.
+Główny Geodeta   1            Informacja ogólnodostępna           Konieczność zawarcia
+Kraju                                                             stosownego porozumienia z
+                                                                  ministrem właściwym do
+                                                                  spraw informatyzacji w celu
+                                                                  wdrożenia usługi świadectwa
+                                                                  stwierdzającego nadanie
+                                                                  uprawnień zawodowych w
+                                                                  postaci dokumentu
+                                                                  mobilnego.
+Osoby            18 764       BIP Głównego Urzędu Geodezji i      Możliwość posługiwania się
+posiadające                   Kartografii (wg stanu na dzień 27   świadectwem stwierdzającym
+uprawnienia                   kwietnia 2025 r.)                   nadanie uprawnień
+zawodowe w                                                        zawodowych w postaci
+dziedzinie                                                        dokumentu mobilnego.
+geodezji i
+kartografii
+Ubezpieczeniow   1            Informacja ogólnodostępna           Konieczność prowadzenia
+y Fundusz                                                         ewidencji oświadczeń o
+Gwarancyjny                                                       zdarzeniach sporządzonych w
+                                                                  usłudze udostępnionej w
+                                                                  aplikacji mObywatel.
+Kierujący        Ok. 21 mln   Informacje własne                   Możliwość sporządzenia
+pojazdami                                                         oświadczenia o zdarzeniu w
+                                                                  aplikacji mObywatel.
+Dostawcy usług   14           Narodowy Bank Polski                Powstanie oprogramowania
+zaufania                      https://www.nccert.pl/              do składania i walidacji
+(podpisu                                                          kwalifikowanych podpisów
+                                        4
+elektronicznego                                                                          elektronicznych
+i walidacji                                                                              przeznaczonego do używania
+podpisu                                                                                  w usługach publicznych.
+elektronicznego)
+Podmioty           ok. 22 000 podmiotów Dane własne                                      Wygodniejsza obsługa
+publiczne i        posiadających                                                         podpisów elektronicznych.
+podmioty           Elektroniczną Skrzynkę                                                Możliwość korzystania z
+niepubliczne       Podawczą                                                              usług udostępnionych przez
+                                                                                         ministra właściwego do spraw
+                                                                                         informatyzacji.
+Nauczyciele        707,8 tys.                System informacji oświatowej wg             Wygodniejsze posługiwanie
+                                             stanu bazy danych na dzień 11 lutego        się legitymacją w postaci
+                                             2025 r.                                     mobilnej.
+Uczniowie          5256 tys.                 System informacji oświatowej wg             Wygodniejsze posługiwanie
+                                             stanu bazy danych na dzień 11 lutego        się legitymacją w postaci
+                                             2025 r.                                     mobilnej.
+Szkoły             163 (wg stanu na dzień 16 Zintegrowany System Informacji              Możliwość korzystania
+doktorskie         kwietnia 2025 r.)         o Szkolnictwie Wyższym i Nauce              z usług udostępnionych
+                                             POL-on                                      i świadczonych przez
+                                                                                         ministra właściwego do
+                                                                                         spraw informatyzacji.
+
+                                                                                         Wdrożenie
+                                                                                         mLegitymacji
+                                                                                         doktoranta ograniczy
+                                                                                         udział i obowiązki
+                                                                                         podmiotów w procesie
+                                                                                         wydawania legitymacji
+                                                                                         doktoranta.
+Doktoranci         18 685 (wg stanu na dzień Zintegrowany System Informacji              Możliwość korzystania
+                   16 kwietnia 2025 r.)      o Szkolnictwie Wyższym i Nauce              z usług udostępnionych
+                                             POL-on                                      i świadczonych przez
+                                                                                         ministra właściwego do
+                                                                                         spraw informatyzacji.
+
+                                                                                        Możliwość korzystania
+                                                                                        z mLegitymacji
+                                                                                        doktoranta.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt ustawy został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum
+Legislacji, w zakładce „Rządowy Proces Legislacyjny”, zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29
+października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806), oraz stosownie do wymogów art. 5
+ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248 oraz z
+2024 r. poz. 1535).
+Projekt ustawy został skierowany do konsultacji publicznych do podmiotów takich jak:
+1. Izba Gospodarki Elektronicznej,
+2. Krajowa Izba Gospodarcza Elektroniki i Telekomunikacji,
+3. Polska Izba Informatyki i Telekomunikacji,
+4. Polska Izba Komunikacji Elektronicznej,
+5. Polskie Towarzystwo Informatyczne,
+6. Stowarzyszenie Sieć Obywatelska – Watchdog Polska,
+7. Związek Banków Polskich,
+8. Zarząd Główny Związku Nauczycielstwa Polskiego,
+9. Krajowa Sekcja Oświaty i Wychowania NSZZ „Solidarność”,
+10. Wolny Związek Zawodowy „Forum-Oświata”,
+11. Związek Zawodowy „Rada Poradnictwa”,
+12. Chrześcijański Związek Zawodowy „Solidarność im. ks. J. Popiełuszki”,
+13. Związek Zawodowy Pracowników Oświaty i Wychowania „Oświata”,
+14. Sekcja Oświaty KNSZZ „Solidarność 80”,
+
+                                                           5
+15. NSZZ Pracowników Schronisk dla Nieletnich i Zakładów Poprawczych.
+Projekt ustawy został przesłany również do związków zawodowych i organizacji pracodawców.
+Zgodnie z ustawą z dnia 23 maja 1991 r. o związkach zawodowych (Dz. U. z 2025 r. poz. 440) projekt ustawy został
+przekazany do następujących organizacji związków zawodowych:
+1. NSZZ „Solidarność”,
+2. Ogólnopolskie Porozumienie Związków Zawodowych,
+3. Forum Związków Zawodowych.
+Zgodnie z ustawą z dnia 23 maja 1991 r. o organizacjach pracodawców (Dz. U. z 2025 r. poz. 423) projekt ustawy został
+przekazany do następujących reprezentatywnych organizacji pracodawców:
+1. Konfederacja „Lewiatan”,
+2. Związek Rzemiosła Polskiego,
+3. Pracodawcy Rzeczypospolitej Polskiej,
+4. Business Centre Club,
+5. Związek Przedsiębiorców i Pracodawców,
+6. Federacja Przedsiębiorców Polskich,
+7. Polskie Towarzystwo Gospodarcze.
+Skrócenie terminu zostało zaproponowane z uwagi na uznanie projektu za mający charakter deregulacyjny, a także
+ważny interes publiczny i potrzebę pilnego przyjęcia projektu ustawy jako kamienia milowego Krajowego Planu
+Odbudowy i Zwiększania Odporności.
+Projekt ustawy został skierowany do zaopiniowania do następujących podmiotów:
+1. Prezesa Urzędu Ochrony Danych Osobowych,
+2. Prezesa Urzędu Ochrony Konkurencji i Konsumentów,
+3. Prokuratorii Generalnej Rzeczypospolitej Polskiej,
+4. Rady do spraw Cyfryzacji,
+5. Rzecznika Praw Obywatelskich.
+Projekt ustawy został również przekazany do zaopiniowania przez Komisję Wspólną Rządu i Samorządu Terytorialnego
+oraz wojewodów, a także przez Radę Działalności Pożytku Publicznego oraz Radę Dialogu Społecznego.
+
+6.   Wpływ na sektor finansów publicznych,
+(ceny stałe z 2024 r.)                     Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                           0       1      2      3       4         5      6        7      8        9     10      Łączn
+                                                                                                                 ie (0–
+                                                                                                                  10)
+Dochody ogółem
+budżet państwa
+JST
+pozostałe jednostki
+(oddzielnie)
+
+                         0,00    0,00    0,00   0,00    0,00    0,00   0,00     0,00    0,00    0,00   0,00      0,00
+Wydatki ogółem
+                         0,00    0,00    0,00   0,00    0,00    0,00   0,00     0,00    0,00    0,00   0,00      0,00
+budżet państwa
+JST
+pozostałe jednostki
+(oddzielnie)
+                         0,00    0,00    0,00   0,00    0,00    0,00   0,00     0,00    0,00    0,00   0,00       0,00
+Saldo ogółem
+budżet państwa
+JST
+pozostałe jednostki
+(oddzielnie)
+
+
+
+
+                                                           6
+Dodatkowe informacje,
+                          Projektowana ustawa nie będzie generować nowych wydatków dla budżetu państwa.
+w tym wskazanie źródeł
+danych i przyjętych do    Proponowane zmiany nie spowodują powstania wydatków, nawet w ramach obowiązujących
+obliczeń założeń          limitów.
+                           Projekt ustawy nie powoduje skutków finansowych dla sektora finansów publicznych, w tym
+                          budżetu państwa i budżetów jednostek samorządu terytorialnego. Warto zauważyć, że
+                          proponowane zmiany umożliwią wykonanie inwestycji C2.1.1 „E-usługi publiczne,
+                          rozwiązania IT usprawniające funkcjonowanie administracji i sektorów gospodarki”.
+
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz
+   na rodzinę, obywateli i gospodarstwa domowe
+                                                       Skutki
+Czas w latach od wejścia w            0           1             2       3           5             10        Łączn
+życie zmian                                                                                                 ie (0–
+                                                                                                             10)
+W          duże                  Nie
+ujęciu     przedsiębiorstwa      dotyczy.
+pieniężn   sektor mikro-,        Nie
+ym         małych i średnich     dotyczy.
+           przedsiębiorstw
+(w mln
+           rodzina, obywatele    Nie
+zł,        oraz gospodarstwa     dotyczy.
+ceny       domowe
+stałe z    (dodaj/usuń)
+2022 r.)
+W          duże                  Nie dotyczy.
+ujęciu     przedsiębiorstwa
+niepieni   sektor mikro-,        Nie dotyczy.
+ężnym      małych i średnich
+           przedsiębiorstw
+           rodzina, obywatele    Dostęp do szerokiego wachlarza mobilnych usług i dokumentów elektronicznych,
+           oraz gospodarstwa     w tym lokalnych. Ułatwienia w załatwieniu spraw urzędowych w formie mobilnej,
+           domowe, osoby         korzystaniu bezkontaktowo lub zdalnie z usług oferowanych przez biznes, urząd.
+           starsze i             Wygodniejsza obsługa podpisów elektronicznych w usługach publicznych.
+           niepełnosprawne       Umożliwienie korzystania z SIDUSIS również przez aplikację mObywatel ułatwi
+                                 obywatelom korzystanie z tego systemu.
+           Podmioty, tj.         Wygodniejsza obsługa podpisów elektronicznych w usługach publicznych.
+           zrzeszenia, związki
+           zawodowe
+
+
+Niemier (dodaj/usuń)
+zalne      (dodaj/usuń)
+Dodatkowe informacje,
+w tym wskazanie źródeł
+danych i przyjętych do
+obliczeń założeń
+
+
+
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+☐ nie dotyczy
+Wprowadzane są obciążenia poza                  ☐ tak
+bezwzględnie wymaganymi przez UE                ☐ nie
+(szczegóły w odwróconej tabeli zgodności).      ☒ nie dotyczy
+☒ zmniejszenie liczby dokumentów                ☐ zwiększenie liczby dokumentów
+☐ zmniejszenie liczby procedur                  ☐ zwiększenie liczby procedur
+☒ skrócenie czasu na załatwienie sprawy         ☐ wydłużenie czasu na załatwienie sprawy
+☐ inne: …                                       ☐ inne: …
+
+                                                          7
+Wprowadzane obciążenia są przystosowane do       ☒ tak
+ich elektronizacji.                              ☐ nie
+                                                 ☐ nie dotyczy
+Komentarz:
+W związku z wejściem w życie ustawy obywatele będą mieli możliwość załatwienia większej liczby spraw urzędowych
+w formie elektronicznej, czyli w dowolnym miejscu i czasie, wykorzystując do tego jedynie swoje urządzenia mobilne.
+Przewiduje się, że możliwość załatwienia sprawy elektronicznie czy podpisania dokumentu w aplikacji mObywatel
+przyczyni się w istotny sposób do zmniejszenia liczby papierowych dokumentów gromadzonych i przetwarzanych przez
+organy administracji publicznej i obywateli. Zwiększenie liczby usług elektronicznych wpłynie pozytywnie na szybkość
+załatwienia spraw urzędowych przez zarówno wyeliminowanie czasu koniecznego na dotarcie pisma do
+urzędu/obywatela, ale także przez przyspieszenie wymiany informacji między obywatelem a urzędem w trakcie
+załatwianie sprawy (np. szybsze uzupełnianie braków). Elektronizacja obrotu dokumentami może także przyczynić się
+do automatyzacji obsługi spraw i – w konsekwencji – do dalszego przyspieszenia ich załatwiania.
+
+9. Wpływ na rynek pracy
+Projektowana ustawa nie ma wpływu na rynek pracy.
+
+10. Wpływ na pozostałe obszary
+☐ środowisko              ☐ demografia                                           ☒ informatyzacja
+naturalne                 ☐ mienie państwowe                                     ☐ zdrowie
+☐ sytuacja i rozwój
+regionalny
+☐ sądy powszechne,
+administracyjne lub
+wojskowe
+                         1) Upowszechnienie korzystania z dokumentów elektronicznych obsługiwanych przy użyciu
+                            aplikacji mObywatel;
+Omówienie wpływu         2) Umożliwienie kompleksowego załatwienia sprawy urzędowej w formie mobilnej;
+                         3) Integracja SIDUSIS z aplikacją mObywatel jako kolejny etap rozwoju zarówno tego
+                            systemu, jak i aplikacji mObywatel.
+
+11. Planowane wykonanie przepisów aktu prawnego
+Ustawa wejdzie w życie po upływie 14 dni od dnia ogłoszenia, z wyjątkiem zmian dotyczących: ustawy z dnia 17 maja
+1989 r. – Prawo geodezyjne i kartograficzne (art. 2), które wejdą w życie z dniem 1 stycznia 2026 r., oraz ustawy z dnia
+22 maja 2003 r. o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze
+Ubezpieczycieli Komunikacyjnych (art. 3), które wejdą w życie z dniem 1 października 2026 r.
+
+ 12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Od lipca 2023 r. są realizowane regularne badania rozwijanych funkcji aplikacji mObywatel z wykorzystaniem metod
+ilościowych oraz jakościowych. Analizy te pozwalają na ocenę skuteczności wdrażanych rozwiązań oraz identyfikację
+kluczowych obszarów do dalszego rozwoju aplikacji. W ramach tych badań są analizowane takie mierniki jak:
+– poziom świadomości obywateli na temat istnienia aplikacji mObywatel,
+– najczęściej wykorzystywane usługi/dokumenty aplikacji mObywatel,
+– pozytywne oceny aplikacji mObywatel,
+– zainteresowanie nowymi funkcjonalnościami.
+Regularne analizy pozwalają na dalsze doskonalenie funkcjonalności oraz dostosowanie aplikacji mObywatel do
+rzeczywistych potrzeb użytkowników. W związku z wejściem w życie ustawy będą one kontynuowane w sposób ciągły,
+a projektowane przepisy pozwolą na rozszerzenie badań i analiz względem spadku liczb spraw załatwianych w sposób
+tradycyjny.
+
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Nie dotyczy.
+
+
+
+
+                                                            8
+                             RAPORT Z OPINIOWANIA I KONSULTACJI PUBLICZNYCH
+          projektu ustawy o zmianie ustawy o aplikacji mObywatel oraz niektórych innych ustaw (UDER1)
+
+
+Projekt ustawy o zmianie ustawy o aplikacji mObywatel oraz niektórych innych ustaw (UDER1) został poddany
+konsultacjom publicznym oraz opiniowaniu, a także został udostępniony w serwisie Rządowy Proces Legislacyjny
+w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji.
+    I.         Cel i obszar konsultacji
+Celem opiniowania i konsultacji publicznych było zapewnienie zainteresowanym podmiotom i organizacjom
+możliwości wyrażenia opinii na temat rozwiązań zawartych w projekcie ww. ustawy oraz możliwości zgłoszenia
+uwag i wniosków dotyczących tego projektu.
+    II.        Przebieg konsultacji
+Konsultacje publiczne projektu ustawy (wraz z uzgodnieniami oraz opiniowaniem) były prowadzone od 9 do 28
+kwietnia 2025 r. przez przekazanie projektu do opiniowania i konsultacji publicznych podmiotom wskazanym w
+OSR oraz udostępnienie projektu w serwisie Rządowy Proces Legislacyjny w Biuletynie Informacji Publicznej na
+stronie podmiotowej Rządowego Centrum Legislacji.
+Szczegółowe informacje o zgłoszonych uwagach oraz stanowisku Ministra Cyfryzacji wobec zgłoszonych uwag na
+etapie konsultacji publicznych oraz z opiniowania zawarte zostały w tabelarycznych zestawieniach, stanowiących
+załączniki do niniejszego raportu.
+Projekt rozporządzenia nie wymagał przedłożenia instytucjom i organom Unii Europejskiej, w tym Europejskiemu
+Bankowi Centralnemu, w celu uzyskania opinii, dokonania powiadomienia, konsultacji albo uzgodnienia.
+Do projektu rozporządzenia nie zostały dokonane zgłoszenia lobbingowe, w trybie przepisów ustawy z dnia 7
+lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa.
+                                                                               Tabela uwag
+                               zgłoszonych do projektu ustawy o zmianie ustawy o aplikacji mObywatel oraz niektórych innych ustaw (UDER1)
+                                                                      w ramach konsultacji publicznych
+         Podmiot          Jednostka
+lp.      wnoszący         redakcyjna, do której Zgłoszone uwagi                                                Stanowisko
+         uwagi            wnoszone są uwagi
+      1. Stowarzyszenie   Uwaga ogólna           Wnoszę o uwzględnienie w przedmiotowej nowelizacji            Uwaga wyjaśniona
+         Nowoczesnej                             zmiany, umożliwiającej stosowanie podpisu zaufanego w         W pierwszej kolejności należy zauważyć, że przedmiotowe
+         Edukacji                                aplikacji mObywatel wobec wszystkich podmiotów, w tym         zagadnienie dostrzegł już ustawodawca polski i europejski.
+         Prawnej                                 niepublicznych (art. 20ae ustawy o informatyzacji             Kwalifikowany podpis elektroniczny uregulowany został na
+                                                 działalności podmiotów realizujących zadania publiczne)       poziomie unijnym w Rozporządzeniu Parlamentu
+                                                 UZASADNIENIE                                                  Europejskiego i Rady (UE) nr 910/2014 z dnia 23 lipca 2014 r.
+                                                 Projekt ustawy niestety nie odpowiada na istotny problem, w sprawie identyfikacji elektronicznej i usług zaufania w
+                                                 którym jest ograniczone znaczenie prawne podpisu              odniesieniu do transakcji elektronicznych na rynku
+                                                 zaufanego. Nawet jeśli taki podpis będzie udostępniony w      wewnętrznym oraz uchylającym dyrektywę 1999/93/WE (Dz.
+                                                 aplikacji mObywatel (a należy się spodziewać, że podpis       U. UE. L. z 2014 r. Nr 257, str. 73 z późn. zm.), dalej:
+                                                 zaufany będzie bez porównania bardziej wykorzystywany         „rozporządzenie eIDAS”. Rozporządzenie eIDAS ma zasięg
+                                                 niż inne), to nie będzie zawsze skuteczny, wbrew              ogólny, wiąże w całości i jest bezpośrednio stosowane we
+                                                 oczekiwaniom obywateli. Brak zmiany może doprowadzić          wszystkich państwach członkowskich. Zgodnie z definicją
+                                                 do problemów prawnych obywateli, którzy mogą mieć             zawartą w art. 3 pkt 12 rozporządzenia eIDAS kwalifikowany
+                                                 przeświadczenie o spełnianiu wymogów formy pisemnej.          podpis elektroniczny oznacza zaawansowany podpis
+                                                 Bez tej zmiany nie będzie zatem spełniony kluczowy cel w      elektroniczny, który jest składany za pomocą
+                                                 postaci deregulacji. Przeciwnie - regulacje dotyczące         kwalifikowanego urządzenia do składania podpisu
+                                                 podpisów zaufanych nadal pozostaną zagmatwane i               elektronicznego i który opiera się na kwalifikowanym
+                                                 niejasne dla obywateli.                                       certyfikacie podpisu elektronicznego. Z kolei zgodnie
+                                                 Zgodnie z art. 20ae ust. 2 ustawy o informatyzacji            z art. 24a ust. 1 rozporządzenia eIDAS kwalifikowane podpisy
+                                                 działalności podmiotów realizujących zadania publiczne        elektroniczne oparte na kwalifikowanym certyfikacie
+                                                 “Dane w postaci elektronicznej opatrzone podpisem             wydanym w jednym państwie członkowskim oraz
+                                                 zaufanym są równoważne pod względem skutków                   kwalifikowane pieczęcie elektroniczne oparte na
+                                                 prawnych dokumentowi opatrzonemu podpisem                     kwalifikowanym certyfikacie wydanym w jednym państwie
+                                                 własnoręcznym, chyba że przepisy odrębne stanowią             członkowskim uznaje się, odpowiednio, za kwalifikowane
+                                                 inaczej.”                                                     podpisy elektroniczne i kwalifikowane pieczęcie elektroniczne
+                                                 Niestety, aktualne brzmienie przepisów ogranicza              we wszystkich pozostałych państwach członkowskich. Według
+                                                 zastosowanie podpisu zaufanego jako równoważnego              natomiast art. 25 ust. 2 rozporządzenia eIDAS kwalifikowany
+                                                 formie pisemnej. Art. 2 ustawy bowiem zawęża jej zakres       podpis elektroniczny ma skutek prawny równoważny
+                                                 zastosowania do podmiotów publicznych i to nie                podpisowi własnoręcznemu.
+                                                 wszystkich (np. nie dotyczy do Kancelarii Sejmu, Kancelarii   Warto zauważyć, że Rozporządzenie Parlamentu
+                                                 Prezydenta czy Narodowego Banku Polskiego).                   Europejskiego i Rady (UE) 2024/1183 z dnia 11 kwietnia
+                                                 Wskutek tego, nie jest możliwe np. do podpisywania umów 2024 r. w sprawie zmiany rozporządzenia (UE) nr 910/2014
+                                                 z zakresu prawa cywilnego czy dokumentów z zakresu            w odniesieniu do ustanowienia europejskich ram tożsamości
+prawa pracy. Nie jest również możliwe przesyłanie pism      cyfrowej (Dz.Urz.UE.L z 2024 r. str. 1183), dalej:
+np. spółkom Skarbu Państwa czy spółkom z udziałem           „rozporządzenie eIDAS 2.0”, dokonało szeregu istotnych
+jednostek samorządu terytorialnego. Wyłączenie Kancelarii   zmian w rozporządzeniu eIDAS. Najważniejszą zmianą z
+Sejmu, Kancelarii Prezydenta i Narodowego Banku             punktu widzenia przedmiotowego zagadnienia będzie wymóg
+Polskiego również nie ma żadnego uzasadnienia.              zapewnienia we wszystkich państwach członkowskich
+Podpis zaufany, który posiadają miliony Polaków, nie może   europejskiego portfela tożsamości cyfrowej, który zapewnieni
+być zatem szeroko stosowany w ważnych sprawach.             wszystkim osobom fizycznym i prawnym w Unii bezpieczny,
+Tymczasem jest on przecież bardziej wiarygodny niż          zaufany i niezakłócony transgraniczny dostępu do usług
+zwyczajna forma pisemna, która narażona jest na             publicznych i prywatnych, przy jednoczesnym zachowaniu
+fałszerstwa.                                                pełnej kontroli nad ich danymi (art. 5a ust. 1 rozporządzenia
+Niezbędna byłaby zatem zmiana ustawowa, która               eIDAS). Portfel ten umożliwi użytkownikowi (osobie fizycznej,
+zrównywałaby z formą pisemną także dane składane            prawnej lub tzw. podmiotowi ustawowemu), w sposób
+podmiotom publicznym niepublicznym, które znajdują się      przyjazny, przejrzysty i identyfikowalny dla użytkownika m. in.
+poza zakresem zastosowania art. 2 ustawy. Dla przykładu     składanie kwalifikowanych podpisów elektronicznych i
+mogłoby dotyczyć to dodania w art. 20ae ust. 2 zdania.      kwalifikowanych pieczęci elektronicznych (art. 5a ust. 4 lit. e
+“Niniejszy przepis dotyczy danych składanych wobec          rozporządzenia eIDAS). Europejski portfel tożsamości
+wszystkich podmiotów”.                                      cyfrowej będzie musiał oferować wszystkim osobom
+Warto dodać, że w przypadku podpisu osobistego (również     fizycznym możliwość składania kwalifikowanych podpisów
+niebędącego kwalifikowanym podpisem elektronicznym)         elektronicznych, domyślnie i nieodpłatnie. Państwo
+możliwe jest jego stosowanie w szerszym zakresie, zatem     członkowskie będzie mogło przewidzieć proporcjonalne
+również wobec podmiotów niepublicznych (art. 12d ust. 2     środki w celu zapewnienia, aby nieodpłatne używanie
+ustawy o dowodach osobistych) oraz wobec wszystkich         kwalifikowanych podpisów elektronicznych przez osoby
+podmiotów publicznych (art. 2 ust. 1 pkt 8 ustawy o         fizyczne było ograniczone do celów innych niż profesjonalne
+dowodach osobistych). Tym sposobem podpis zaufany           (art. 5a ust. 5 lit. g rozporządzenia eIDAS).
+znajduje się w gorszej sytuacji prawnej, mimo że jest       W tej chwili trwają prace legislacyjne (i towarzyszące im
+bardziej popularnym rozwiązaniem.                           prace techniczne) mające na celu wdrożenie przepisów
+                                                            krajowych, które zapewnią stosowanie powyższych regulacji.
+                                                            Zgodnie z art. 5a ust. 1 rozporządzenia eIDAS prace te
+                                                            zakończą się najpóźniej do dnia 24 grudnia 2026 r. i wtedy też
+                                                            najpóźniej zostanie zapewnione funkcjonowanie tego
+                                                            portfela wraz jego wszystkimi funkcjonalnościami (w tym
+                                                            dotyczącymi składania kwalifikowanego podpisu
+                                                            elektronicznego).
+                                                            Odnośnie podpisu zaufanego należy natomiast w pierwszej
+                                                            kolejności zwrócić uwagę, że podpis ten jest podpisem
+                                                            uregulowanym odmiennym reżimem prawnym, tj. na
+                                                            podstawie ustawy z dnia 17 lutego 2005 r. o informatyzacji
+                                                            działalności podmiotów realizujących zadania publiczne
+                                                            (Dz. U. z 2024 r. poz. 1557, z późn. zm.). Podpis ten cechuje
+                                                            się również odmienną budową i w konsekwencji nie spełnia
+wymogów technicznych dla podpisu kwalifikowanego
+wymaganych przepisami europejskimi. W szczególności nie
+jest oparty na kwalifikowanym certyfikacie wystawianym
+indywidualnie dla każdego użytkownika, nie spełnia
+wymogów bezpieczeństwa przy potwierdzaniu tożsamości
+przed wydaniem certyfikatu oraz nie spełnia wymogu
+składania za pomocą kwalifikowanego urządzenia. Nie jest
+więc możliwe zrównanie tych podpisów.
+Z kolei rozwiązanie polegające na zachowaniu
+funkcjonowania obu tych podpisów równolegle
+i równocześnie zrównaniu mocy prawnej oświadczeń
+złożonych przy ich pomocy rodzi szereg nieakceptowalnych
+ryzyk legislacyjnych i dotyczących bezpieczeństwa
+funkcjonowania obrotu prawnego, a także bezpieczeństwa
+danych użytkowników. Po pierwsze takie działanie mogłoby
+zostać uznane za próbę obejścia obowiązujących we
+wszystkich państwach członkowskich reguł wskazanych
+w rozporządzeniu eIDAS i dotyczących bezpieczeństwa
+podpisywania dokumentów elektronicznych. Po drugie
+działanie takie znacząco obniżyłoby wagę elektronicznej
+formy czynności prawnej i naraziło wiele osób,
+a w szczególności osoby wykluczone cyfrowo (zwykle osoby
+starsze), na poważne skutki kradzieży tożsamości.
+Podsumowując, przedstawiony problem znany jest już
+ustawodawcy krajowemu i europejskiemu, będzie on jednak
+rozwiązany poprzez szersze upowszechnienie stosowania
+kwalifikowanego podpisu elektronicznego (poprzez
+zapewnienie nieodpłatnej możliwości korzystania z niego
+w celach innych niż profesjonalne), a nie zrównanie podpisu
+kwalifikowanego i zaufanego. Rozwiązanie polegające na
+upowszechnieniu podpisu kwalifikowanego będzie bowiem
+nie tylko zgodne z regulacjami europejskimi, ale zapewni
+także większe bezpieczeństwo obrotu prawnego.”
+                                                                                Tabela uwag
+                                zgłoszonych do projektu ustawy o zmianie ustawy o aplikacji mObywatel oraz niektórych innych ustaw (UDER1)
+                                                                           w ramach opiniowania
+                            Jednostka
+         Podmiot wnoszący
+lp.                         redakcyjna, do której Zgłoszone uwagi                                                 Stanowisko
+         uwagi
+                            wnoszone są uwagi
+      1. Ubezpieczeniowy    Propozycja nowej       W art. 102 proponujemy nadanie ust. 7 następującego            Uwaga uwzględniona
+         Fundusz            regulacji              brzmienia:
+         Gwarancyjny        art. 102 ustawy o      7. Fundusz przetwarza dane, o których mowa w ust. 2-4 i
+                            ubezpieczeniach        7a, art. 103 oraz art. 105c ust. 2 i 7, w celu kontroli
+                            obowiązkowych,         spełnienia obowiązku zawarcia umowy ubezpieczenia
+                            Ubezpieczeniowym       obowiązkowego oraz w celu identyfikacji i weryfikacji
+                            Funduszu               zjawisk związanych z przestępczością ubezpieczeniową albo
+                            Gwarancyjnym i         w innych celach, po modyfikacji, która nie pozwoli na
+                            Polskim Biurze         ustalenie tożsamości osoby, której dane dotyczą.
+                            Ubezpieczycieli
+                            Komunikacyjnych
+      2. Ubezpieczeniowy    Propozycja nowej       W art. 104 ust. 1 po pkt 1a) proponujemy dodanie pkt 1b)       Uwaga uwzględniona
+         Fundusz            regulacji              w następującym brzmieniu:
+         Gwarancyjny        art. 104 ust. 1        1b) podmiotowi, którego dane dotyczą;
+                            ustawy o
+                            ubezpieczeniach
+                            obowiązkowych,
+                            Ubezpieczeniowym
+                            Funduszu
+                            Gwarancyjnym i
+                            Polskim Biurze
+                            Ubezpieczycieli
+                            Komunikacyjnych
+      3. Ubezpieczeniowy    art. 104 ustawy o      W art. 104 proponujemy skreślenie ust. 10.                     Uwaga uwzględniona
+         Fundusz            ubezpieczeniach
+         Gwarancyjny        obowiązkowych,
+                            Ubezpieczeniowym
+                            Funduszu
+                            Gwarancyjnym i
+                            Polskim Biurze
+                            Ubezpieczycieli
+                            Komunikacyjnych
+4. Ubezpieczeniowy   Propozycja nowej     W art. 105a po ust. 3 proponujemy dodanie ust. 4 o            Uwaga uwzględniona
+   Fundusz           regulacji            następującym brzmieniu:
+   Gwarancyjny       art. 105a ustawy o   4.       W przypadku złożenia do zakładu ubezpieczeń
+                     ubezpieczeniach      zawiadomienia o szkodzie powodującej odpowiedzialność
+                     obowiązkowych,       zakładu ubezpieczeń z tytułu umowy ubezpieczenia OC
+                     Ubezpieczeniowym     posiadaczy pojazdów mechanicznych, do realizacji celów
+                     Funduszu             określonych w art. 105c ust. 3 pkt 2 lit. a-c centralna
+                     Gwarancyjnym i       ewidencja pojazdów drogą teletransmisji danych, za
+                     Polskim Biurze       pośrednictwem systemu teleinformatycznego
+                     Ubezpieczycieli      obsługującego Fundusz, przekazuje zakładowi ubezpieczeń,
+                     Komunikacyjnych      otrzymującemu zawiadomienie, dane, o których mowa w
+                                          art. 80b ust. 1 pkt 2 - 5 ustawy – Prawo o ruchu
+                                          drogowym, w zakresie pojazdów uczestniczących w
+                                          zdarzeniu z wyłączeniem danych o dacie i miejscu
+                                          urodzenia.
+5. Ubezpieczeniowy   Propozycja nowej     Po art. 105b proponujemy dodanie art. 105 c w                 Uwaga uwzględniona
+   Fundusz           regulacji            następującym brzmieniu:
+   Gwarancyjny       art. 105b ustawy o   Art. 105c. [Oświadczenie o zdarzeniu drogowym w aplikacji
+                     ubezpieczeniach      mObywatel]
+                     obowiązkowych,       1.       Fundusz prowadzi ewidencję oświadczeń o
+                     Ubezpieczeniowym     zdarzeniu sporządzonych w usłudze udostępnionej w
+                     Funduszu             aplikacji mObywatel, o której mowa w ustawie z dnia 26
+                     Gwarancyjnym i       maja 2023 r. o aplikacji mObywatel (Dz. U. z 2023 r. poz.
+                     Polskim Biurze       1234), przez kierującego lub posiadacza pojazdu
+                     Ubezpieczycieli      mechanicznego, uczestniczącego w zdarzeniu
+                     Komunikacyjnych      powodującym odpowiedzialność kierującego lub
+                                          posiadacza pojazdu mechanicznego za szkody powstałe w
+                                          związku z ruchem pojazdu mechanicznego, lub w zdarzeniu
+                                          powodującym odpowiedzialność zakładu ubezpieczeń z
+                                          tytułu zawartej umowy ubezpieczenia, określonego w
+                                          grupie 3 działu II załącznika do ustawy o działalności
+                                          ubezpieczeniowej.
+                                          2.       W celu realizacji zadania, o którym mowa w ust. 1,
+                                          Fundusz gromadzi i przetwarza następujące kategorie
+                                          danych:
+                                          1) o sporządzającym oświadczenie posiadaczu pojazdu
+                                          mechanicznego lub kierującym pojazdem mechanicznym,
+                                          uczestniczącym w zdarzeniu:
+                                          a)       imię i nazwisko,
+                                          b)       numer PESEL,
+c)        kategorie uprawnień prawa jazdy kierującego,
+d)        data wydania uprawnień prawa jazdy kierującego,
+e)        dane kontaktowe:
+i) numer telefonu,
+ii) adres poczty elektronicznej,
+iii) adres korespondencyjny,
+f)        oznaczenie roli w zdarzeniu,
+g)        informacja czy jest właścicielem pojazdu
+mechanicznego, uczestniczącego w zdarzeniu,
+2) o pojeździe mechanicznym, uczestniczącym w zdarzeniu:
+a)        numer rejestracyjny,
+b)        numer VIN, a w przypadku jego braku - numer
+nadwozia (podwozia) pojazdu mechanicznego,
+c)        rok produkcji,
+d)        marka i model pojazdu,
+3) o właścicielach pojazdów mechanicznych
+uczestniczących w zdarzeniu, o ile zostały przekazane przez
+osoby sporządzające oświadczenie:
+a)        imię, nazwisko lub nazwę właściciela pojazdu
+mechanicznego uczestniczącego w zdarzeniu,
+b)        dane kontaktowe:
+i) numer telefonu,
+ii) adres poczty elektronicznej,
+4) o umowie ubezpieczenia działu II grupy 3 lub 10
+załącznika do ustawy o działalności ubezpieczeniowej z
+wyłączeniem odpowiedzialności przewoźnika, dotyczącej
+pojazdu uczestniczącego w zdarzeniu:
+a)        informacja czy pojazd uczestniczący w zdarzeniu
+był objęty ochroną ubezpieczeniową,
+b)        nazwa zakładu ubezpieczeń, z którym została
+zawarta umowa,
+c)        numer dokumentu potwierdzającego zawarcie
+umowy ubezpieczenia,
+5) o zdarzeniu:
+a)        data i miejsce zdarzenia,
+b)        opis zdarzenia,
+c)        opis uszkodzeń,
+6) zdjęcia miejsca zdarzenia lub uszkodzeń,
+7) inne dane o oświadczeniu, w tym data sporządzenia.
+                                     3.       Fundusz udostępnia dane, o których mowa w ust. 2
+                                     następującym podmiotom:
+                                     1)       kierującemu lub posiadaczowi pojazdu
+                                     mechanicznego, uczestniczącemu w zdarzeniu;
+                                     2)       zakładowi ubezpieczeń:
+                                     a)       w celu wykonania umowy ubezpieczenia,
+                                     b)       w celu ustalenia prawa ubezpieczonego,
+                                     uprawnionego do świadczenia z zawartej umowy
+                                     ubezpieczenia i wysokości tego świadczenia,
+                                     c)       w celu identyfikacji i weryfikacji zjawisk
+                                     związanych z przestępczością ubezpieczeniową,
+                                     d)       do innych celów za zgodą podmiotu, o którym
+                                     mowa w pkt 1, którego dane dotyczą.
+                                     4.       W celu realizacji zadania, o którym mowa w ust. 1,
+                                     dane, o których mowa w ust. 2, Fundusz gromadzi i
+                                     udostępnia za pośrednictwem systemu mObywatel, o
+                                     którym mowa w ustawie z dnia 26 maja 2023 r. o aplikacji
+                                     mObywatel.
+                                     5.       Fundusz udostępnia dane, o których mowa w ust. 2
+                                     zakładowi ubezpieczeń za pośrednictwem systemu
+                                     teleinformatycznego obsługującego Fundusz.
+                                     6.       Zakres i warunki współpracy dotyczące
+                                     udostępnienia oraz świadczenia usługi, o której mowa w
+                                     ust. 1, w tym gromadzenia i udostępniania danych, o
+                                     których mowa w ust. 2, określa się w porozumieniu
+                                     zawartym między Funduszem a ministrem właściwym do
+                                     spraw informatyzacji.
+                                     7.       W celu realizacji zadania, o którym mowa w ust. 1,
+                                     Fundusz przetwarza dane, o których mowa w art. 102 ust.
+                                     2-4 oraz art. 103.
+                                     8.       Fundusz przetwarza dane, o których mowa w ust.
+                                     2, w zakresie niezbędnym do realizacji zadań ustawowych.
+                                     9.       Fundusz przechowuje dane, o których mowa w ust.
+                                     2, przez 3 lata.
+6. Główny Urząd   Propozycja nowej   w nawiązaniu do toczących się prac legislacyjnych             Uwaga częściowo uwzględniona
+   Geodezji i     regulacji          dotyczących projektu ustawy o zmianie ustawy o aplikacji      (szczegółowe uzasadnienie w odniesieniu do uwagi nr 7)
+   Kartografii    Uwaga ogólna -     mObywatel oraz niektórych innych ustaw, a także
+                  ustawa Prawo       spotkania w dniu 14 kwietnia 2025 r. GGK z
+                  geodezyjne i       przedstawicielami COI przesyłam w załączeniu propozycje
+                  kartograficzne     zmian ustawy Pgik umożliwiające udostępnianie
+                                       świadectwa stwierdzającego nadanie uprawnień
+                                       zawodowych w dziedzinie geodezji i kartografii jako usługi
+                                       przy użyciu aplikacji mObywatel. Proponuję, aby zmiany te
+                                       zostały dodane do procedowanego projektu ustawy o
+                                       zmianie ustawy o aplikacji mObywatel oraz niektórych
+                                       innych ustaw.
+                                       Rozwiązanie to w sposób znaczący wspiera cyfrowy rozwój
+                                       administracji publicznej. Usługa udostępniania danych o
+                                       geodetach uprawnionych umożliwi użytkownikowi aplikacji
+                                       mObywatel pobranie z centralnego rejestru osób
+                                       posiadających uprawnienia zawodowe w dziedzinie
+                                       geodezji i kartografii danych dotyczących sytuacji prawnej
+                                       tego użytkownika lub praw mu przysługujących
+                                       (dotyczących uprawnień zawodowych w dziedzinie geodezji
+                                       i kartografii) na urządzeniach mobilnych. Integracja danych
+                                       odbywać będzie się poprzez PESEL.
+                                       Wypracowanie technicznych rozwiązań niezbędnych do
+                                       wdrożenia usługi nie będzie generowało kosztów ani po
+                                       stronie COI, ani po stronie GUGiK. Prognozowany czas
+                                       uruchomienia usługi to 6-9 miesięcy od podpisania
+                                       porozumienia z MC. Jednocześnie vacatio legis dla
+                                       projektowanych przepisów powinno być określone,
+                                       analogicznie jak w przypadku istniejących usług t.j. art. 74
+                                       – 81 ustawy o aplikacji mObywatel, poprzez komunikat
+                                       właściwego ministra, określający dzień wdrożenia
+                                       rozwiązań technicznych umożliwiających świadczenie
+                                       przedmiotowej usługi.
+7. Główny Urząd   Propozycja nowej     Art. 45f [Świadectwo]                                          Uwaga częściowo uwzględniona
+   Geodezji i     regulacji            1. Po zakończeniu postępowania kwalifikacyjnego                Dokonano zmiany brzmienia proponowanego art. 47f ust. 1a
+   Kartografii    art. 45f ustawy      stwierdzającego spełnienie wymagań określonych w art. 44       poprzez dostosowanie nomenklatury w nim użytej do
+                  Prawo geodezyjne i   lub art. 44a Główny Geodeta Kraju wydaje osobie                regulacji zawartych ustawie o aplikacji mObywatel.
+                  kartograficzne       zainteresowanej świadectwo stwierdzające nadanie               Równocześnie dodawanie art. 45f ust. 1c jest niecelowe.
+                                       uprawnień zawodowych i wpisuje ją do centralnego               Użycie w ust. 1a stwierdzenia „może być udostępniane”
+                                       rejestru osób posiadających uprawnienia zawodowe.              jednoznacznie rozstrzyga o dobrowolności posługiwania się
+                                       Odmowa nadania uprawnień zawodowych następuje w                przedmiotowym świadectwem w formie dokumentu
+                                       drodze decyzji.                                                mobilnego.
+                                       1a. Świadectwo, o którym mowa w ust. 1, może być               Ponadto wskazano konkretną datę kalendarzową wejścia w
+                                       udostępnione jako usługa przy użyciu aplikacji mObywatel       życie przedmiotowych regulacji zamiast odwołania do
+                                       w rozumieniu ustawy z dnia 26 maja 2023 r. o aplikacji         stosownego komunikatu.
+                                       mObywatel (Dz.U. 2024 r. poz. 1275), umożliwiająca
+                                       pobranie danych z wyciągu, o którym mowa w art. 45g ust.
+                                       5, potwierdzających posiadanie prawa do wykonywania
+                                       samodzielnych funkcji w dziedzinie geodezji i kartografii
+                                       przez użytkowników aplikacji mObywatel.
+                                       1b. Świadectwo, o którym mowa w ust. 1a, zawiera
+                                       następujące informacje:
+                                       1.       organ wydający;
+                                       2.       numer świadectwa;
+                                       3.       zdjęcie;
+                                       4.       imię (imiona) i nazwisko;
+                                       5.       zakresy posiadanych uprawnień zawodowych i
+                                       daty nadania.
+                                       1c. Korzystanie ze świadectwa udostępnionego w sposób, o
+                                       którym mowa w ust. 1a, jest dobrowolne, odbywa się
+                                       zgodnie z regulaminem aplikacji mObywatel i może być
+                                       uzależnione od spełnienia określonych w nim wymagań.
+8. Główny Urząd   Propozycja nowej     Art. 45g [Wpis do centralnego rejestru]                      Uwaga wyjaśniona
+   Geodezji i     regulacji            1. Prawo do wykonywania samodzielnych funkcji w              Przepis nie zawiera zmian w stosunku do obecnego stanu
+   Kartografii    art. 45g ustawy      dziedzinie geodezji i kartografii nabywa się z dniem wpisu   prawnego. Przytoczenie przepisu potraktowano jako uwagę
+                  Prawo geodezyjne i   do centralnego rejestru osób posiadających uprawnienia       informacyjną, mającą na celu poprawić czytelność
+                  kartograficzne       zawodowe.                                                    dokumentu.
+                                       2. Główny Geodeta Kraju prowadzi centralny rejestr, o
+                                       którym mowa w ust. 1.
+                                       3.W rejestrze wpisuje się następujące dane dotyczące
+                                       osób, którym nadano uprawnienia zawodowe:
+                                       1) numer kolejny wpisu;
+                                       2) nazwisko i imię (imiona);
+                                       3) imię ojca;
+                                       4) datę i miejsce urodzenia;
+                                       5) numer PESEL albo rodzaj i numer dokumentu tożsamości
+                                       w przypadku osoby nieposiadającej numeru PESEL;
+                                       6) adres zamieszkania;
+                                       7) wykształcenie;
+                                       8) numer świadectwa;
+                                       9) zakresy posiadanych uprawnień zawodowych i daty
+                                       nadania;
+                                       10) informacje o orzeczonych karach dyscyplinarnych, w
+                                       tym datę wydania i oznaczenie orzeczenia oraz rodzaj
+                                       orzeczonej kary dyscyplinarnej;
+                                     11) informacje o wykreśleniach z rejestru oraz przyczynach
+                                     tych wykreśleń.
+                                     4. W rejestrze wpisuje się również dane dotyczące osób,
+                                     którym uznano kwalifikacje do wykonywania zawodów
+                                     regulowanych w dziedzinie geodezji i kartografii na
+                                     terytorium Rzeczypospolitej Polskiej na zasadach
+                                     określonych w ustawie z dnia 22 grudnia 2015 r. o
+                                     zasadach uznawania kwalifikacji zawodowych nabytych w
+                                     państwach członkowskich Unii Europejskiej (Dz.U. z 2023 r.
+                                     poz. 334).
+                                     5. Wyciągi z rejestru zawierające dane wymienione w ust. 3
+                                     pkt 1-3, 8 i 9 podlegają publikacji w Biuletynie Informacji
+                                     Publicznej na stronie podmiotowej Głównego Urzędu
+                                     Geodezji i Kartografii. Publikacji podlegają także zmiany w
+                                     rejestrze.
+                                     6. Publikacji w Biuletynie Informacji Publicznej na stronie
+                                     podmiotowej Głównego Urzędu Geodezji i Kartografii nie
+                                     podlegają dane, o których mowa w ust. 3 pkt 1-3, 8 i 9,
+                                     dotyczące osób, wobec których prawomocnie orzeczono
+                                     karę, o której mowa w art. 46a ust. 1 pkt 3, w okresie jej
+                                     trwania.
+9. Główny Urząd   Uzasadnienie do    Uzasadnienie:                                                 Uwaga częściowo uwzględniona
+   Geodezji i     projektu           Rozwiązaniem wspierającym rozwój cyfrowy administracji        Uzasadnienie i OSR zostały uzupełnione o stosowne
+   Kartografii    (propozycja        publicznej jest uruchomienie w aplikacji mObywatel usługi     fragmenty, stosownie do modyfikacji opisanych w pkt 7.
+                  uzupełnienia w     udostępniania danych potwierdzających posiadanie
+                  związku z          uprawnień zawodowych w dziedzinie geodezji i kartografii
+                  propozycją nowej   Główny Geodeta Kraju prowadzi centralny rejestr osób
+                  regulacji)         posiadających uprawnienia zawodowe w dziedzinie
+                                     geodezji i kartografii (dalej cropuz). Prawo do
+                                     wykonywania samodzielnych funkcji w dziedzinie geodezji i
+                                     kartografii nabywa się z dniem wpisu do centralnego
+                                     rejestru osób posiadających uprawnienia zawodowe. Wpis
+                                     do tego rejestru jest potwierdzeniem posiadania
+                                     określonych uprawnień zawodowych.
+                                     Wraz z wpisem do cropuz wydawane jest świadectwo
+                                     stwierdzające nadanie uprawnień zawodowych, którego
+                                     wzór określa załącznik nr 4 do rozporządzenia Ministra
+                                     Rozwoju z dnia 28 lipca 2020 r. w sprawie uprawnień
+                                     zawodowych w dziedzinie geodezji i kartografii (Dz.U. z
+                                     2020 r. poz. 1321 ze zm.). W przypadku utraty pełnej
+zdolności do czynności prawnych, sądowego zakazu
+wykonywania zawodu geodety/kartografa lub
+odebrania/zawieszenia uprawnień zawodowych w wyniku
+postępowania dyscyplinarnego, może nastąpić utrata (stała
+lub czasowa) uprawnień zawodowych w dziedzinie geodezji
+i kartografii. Fakt taki ma wówczas odzwierciedlenie w
+cropuz, zaś świadectwo nadal jest w posiadaniu geodety.
+Usługa udostępniania danych o geodetach uprawnionych
+umożliwiałaby użytkownikowi aplikacji mObywatel
+pobranie z rejestru publicznego (jakim jest wyciąg z
+cropuz) danych dotyczących sytuacji prawnej tego
+użytkownika lub praw mu przysługujących (czyli
+dotyczących uprawnień zawodowych w dziedzinie geodezji
+i kartografii). Integracja danych odbywać będzie się
+poprzez PESEL.
+Świadectwo udostępniane w aplikacji mObywatel byłoby
+prezentacją usługi udostępniającej informacje zawarte w
+cropuz na urządzeniach mobilnych.
+

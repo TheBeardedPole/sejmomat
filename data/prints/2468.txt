@@ -1,0 +1,325 @@
+                                                                     Druk nr 2468
+                                                             Warszawa, 13 kwietnia 2026 r.
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+        X kadencja
+
+
+                                                            Pan
+                                                            Włodzimierz Czarzasty
+                                                            Marszałek Sejmu
+                                                            Rzeczypospolitej Polskiej
+
+
+       Szanowny Panie Marszałku,
+         na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej oraz art. 32
+ ust. 2 regulaminu Sejmu niżej podpisani posłowie wnoszą projekt ustawy:
+
+
+
+  - o zmianie ustawy o ochronie praw nabywcy
+   lokalu     mieszkalnego      lub     domu
+   jednorodzinnego     oraz     Deweloperskim
+   Funduszu Gwarancyjnym.
+      Do reprezentowania wnioskodawców w pracach nad projektem ustawy
+ upoważniamy pana posła Michała Gramatykę.
+
+
+
+ (-) Agnieszka Buczyńska; (-) Adam Gomoła; (-) Piotr Górnikiewicz; (-) Michał
+ Gramatyka;     (-) Bożenna Hołownia;     (-) Szymon Hołownia;         (-) Adam
+ Luboński;    (-) Maja    Ewa Nowak;      (-) Łukasz     Osmalak;    (-) Bartosz
+ Romowicz; (-) Ewa Schädler; (-) Piotr Paweł Strach; (-) Paweł Śliz; (-) Wioleta
+ Tomczak; (-) Kamil Wnuk.
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                   PROJEKT
+
+
+                                         U S T AWA
+
+                                             z dnia
+
+       o zmianie ustawy o ochronie praw nabywcy lokalu mieszkalnego lub domu
+            jednorodzinnego oraz Deweloperskim Funduszu Gwarancyjnym
+
+
+     Art. 1. W ustawie z dnia 20 maja 2021 r. o ochronie praw nabywcy lokalu mieszkalnego
+lub domu jednorodzinnego oraz Deweloperskim Funduszu Gwarancyjnym (Dz. U. z 2024 r.
+poz. 695, z 2025 r. poz. 758, 1077, 1167 i 1669 oraz z 2026 r. poz. 27) w art. 19b wprowadza
+się następujące zmiany:
+1)   w ust. 2 kropkę zastępuje się przecinkiem i dodaje się wyrazy „z zastrzeżeniem ust. 2a”;
+2)   po ust. 2 dodaje się ust. 2a i 2b w brzmieniu:
+          „2a. Dane, o których mowa w ust. 1, przekazuje się stosując ustrukturyzowany
+     format przeznaczony do odczytu maszynowego, udostępniony komunikatem ministra
+     właściwego do spraw informatyzacji, w portalu danych w rozumieniu art. 2 pkt 13 ustawy
+     z dnia 11 sierpnia 2021 r. o otwartych danych i ponownym wykorzystywaniu informacji
+     sektora publicznego.
+          2b. Minister właściwy do spraw informatyzacji ogłasza komunikat, o którym mowa
+     w ust. 2a, w Dzienniku Urzędowym Rzeczypospolitej Polskiej „Monitor Polski”.”;
+3)   w ust. 4 wyrazy „ust. 1 i 2” zastępuje się wyrazami „ust. 1, 2 i 2a”.
+
+     Art. 2. Ustawa wchodzi w życie po upływie 3 miesięcy od dnia ogłoszenia.
+                                             Uzasadnienie
+
+
+Projektowana ustawa ma na celu zapewnienie jednolitego i spójnego sposobu udostępniania
+danych przez deweloperów w portalu dane.gov.pl, prowadzonym przez Ministra Cyfryzacji.
+Ujednolicenie formatu udostępnianych danych zwiększy ich użyteczność, umożliwi
+automatyczne przetwarzanie oraz stworzy warunki do efektywnego ponownego
+wykorzystywania danych, w szczególności na potrzeby tworzenia narzędzi porównawczych i
+rozwiązań analitycznych.
+Zgodnie z art. 19b ustawy z dnia 20 maja 2021 r. o ochronie praw nabywcy lokalu mieszkalnego
+lub domu jednorodzinnego oraz Deweloperskim Funduszu Gwarancyjnym (Dz. U. z 2024 r.
+poz. 695, z późn. zm.), podmioty wskazane w tym przepisie (przede wszystkim deweloperzy)
+są zobowiązane do udostępniania danych w portalu dane.gov.pl. Udostępnianiu podlegają dane
+wskazane w art. 19a ust. 1 i 2 tej ustawy, obejmujące w szczególności dane dotyczące ceny 1
+m² powierzchni użytkowej każdego z oferowanych lokali mieszkalnych lub domów
+jednorodzinnych oraz całej nieruchomości lub jej części. Obowiązki te zostały wprowadzone
+nowelizacją z dnia 21 maja 2025 r. (Dz. U. z 2025 r. poz. 758)1.
+W celu zapewnienia spójności danych udostępnianych w portalu dane.gov.pl oraz ich zgodności
+ze standardem technicznym tego portalu, Ministerstwo Cyfryzacji opracowało i rekomenduje
+korzystanie z ustrukturyzowanego formatu danych przeznaczonego do odczytu maszynowego.
+Wzorcowe pliki zostały udostępnione w Bazie wiedzy w portalu dane.gov.pl i były
+konsultowane z Urzędem Ochrony Konkurencji i Konsumentów oraz Polskim Związkiem Firm
+Deweloperskich. Zakres danych wynika bezpośrednio z art. 19a ustawy z dnia 20 maja 2021 r.
+o ochronie praw nabywcy lokalu mieszkalnego lub domu jednorodzinnego oraz
+Deweloperskim Funduszu Gwarancyjnym.
+Obecnie korzystanie z przygotowanego przez Ministerstwo Cyfryzacji rozwiązania nie jest
+obowiązkowe, ale znaczna część deweloperów stosuje rekomendowany ustrukturyzowany
+format danych. Nadal jednak część danych nie jest udostępniana w taki sposób. Taki stan rzeczy
+ogranicza użyteczność zasobów udostępnianych w portalu oraz utrudnia ich efektywne
+przetwarzanie i wykorzystywanie przez użytkowników. Zapewnienie spójności wszystkich
+udostępnianych danych zwiększyłoby ich przydatność dla celów ponownego
+wykorzystywania, w tym w szczególności dla tworzenia narzędzi porównawczych oraz
+rozwiązań opartych na automatyzacji procesów (przetwarzaniu danych).
+Taki stan rzeczy ogranicza użyteczność zasobów udostępnianych w portalu dane.gov.pl oraz
+utrudnia ich efektywne przetwarzanie i wykorzystywanie przez użytkowników, zarówno
+indywidualnych (konsumentów poszukujących informacji o cenach mieszkań), jak i
+profesjonalnych. Zapewnienie spójności wszystkich udostępnianych danych zwiększyłoby ich
+przydatność dla celów ponownego wykorzystywania, w tym w szczególności dla tworzenia
+narzędzi porównawczych oraz rozwiązań opartych na automatyzacji procesów przetwarzania
+danych.
+Nowelizacja zakłada wprowadzenie w art. 19b ustawy o ochronie praw nabywcy lokalu
+mieszkalnego lub domu jednorodzinnego oraz Deweloperskim Funduszu Gwarancyjnym
+następujących zmian:
+
+
+
+
+1
+  Ustawa z dnia 21 maja 2025 r. o zmianie ustawy o ochronie praw nabywcy lokalu mieszkalnego lub domu
+jednorodzinnego oraz Deweloperskim Funduszu Gwarancyjnym (Dz. U. z 2025 r. poz. 758).
+- w ust. 2 dodaje się zastrzeżenie odsyłające do nowego ust. 2a - co zapewnia prawidłowe
+powiązanie systemowe nowej regulacji z dotychczasową treścią przepisu.
+- dodaje się nowy ust. 2a - ustanawiający obowiązek udostępniania danych w portalu
+dane.gov.pl z zastosowaniem ustrukturyzowanego formatu przeznaczonego do odczytu
+maszynowego. Format ten jest udostępniany komunikatem ministra właściwego do spraw
+informatyzacji w portalu danych w rozumieniu art. 2 pkt 13 ustawy z dnia 11 sierpnia 2021 r. o
+otwartych danych i ponownym wykorzystywaniu informacji sektora publicznego.
+- dodaje się nowy ust. 2b - zobowiązujący ministra właściwego do spraw informatyzacji do
+ogłoszenia komunikatu określającego ustrukturyzowany format danych w Dzienniku
+Urzędowym Rzeczypospolitej Polskiej „Monitor Polski". Publikacja komunikatu w Monitorze
+Polskim zapewnia transparentność i powszechną dostępność informacji o wymaganym
+formacie danych, a także jednoznacznie określa moment, od którego dany format staje się
+obowiązujący.
+- zmienia się ust. 4, który przewiduje, że brak zastosowania się do obowiązku udostępniania
+danych z wykorzystaniem ustrukturyzowanego formatu stanowi czyn nieuczciwej konkurencji
+Przyjęcie formy komunikatu ogłaszanego w Monitorze Polskim stanowi rozwiązanie
+proporcjonalne, z jednej strony zapewnia oficjalną publikację i dostępność formatu, z drugiej
+zaś umożliwia jego aktualizację w sposób prostszy niż zmiana rozporządzenia, co jest
+uzasadnione czysto technicznym charakterem regulowanej materii (specyfikacja struktury
+pliku danych).
+Dzięki projektowanym zmianom wszystkie dane, o których mowa w art. 19a ust. 1 i 2 ustawy
+o ochronie praw nabywcy lokalu mieszkalnego lub domu jednorodzinnego oraz
+Deweloperskim Funduszu Gwarancyjnym, będą udostępniane w portalu dane.gov.pl w
+jednolity i spójny sposób.
+Projektowany przepis (nowy ust. 2a) będzie objęty regulacją art. 19b ust. 4 nowelizowanej
+ustawy, zgodnie z którym naruszenie obowiązku określonego w ust. 1 i 2 tego artykułu stanowi
+praktykę naruszającą zbiorowe interesy konsumentów w rozumieniu art. 24 ust. 2 ustawy z dnia
+16 lutego 2007 r. o ochronie konkurencji i konsumentów. Oznacza to, że niestosowanie
+wymaganego formatu danych (nawet przy jednoczesnym wypełnieniu obowiązku
+udostępnienia danych jako takiego) będzie kwalifikowane jako praktyka naruszająca zbiorowe
+interesy konsumentów.
+Ustawa wchodzi w życie po upływie 3 miesięcy od dnia ogłoszenia. Przewidziane vacatio legis
+umożliwi deweloperom przygotowanie się do stosowania wymaganego formatu danych, a
+ministrowi właściwemu do spraw informatyzacji - ogłoszenie komunikatu określającego ten
+format w Monitorze Polskim.
+Projektowana regulacja nie powinna generować istotnych kosztów dostosowawczych po
+stronie mikroprzedsiębiorców oraz małych i średnich przedsiębiorców prowadzących
+działalność deweloperską, ponieważ obowiązek udostępniania danych w portalu dane.gov.pl
+ciąży na nich już na podstawie obowiązujących przepisów. Zmiana dotyczy wyłącznie formatu
+technicznego udostępniania danych, a wzorcowe pliki w ustrukturyzowanym formacie są
+bezpłatnie udostępniane w Bazie wiedzy portalu dane.gov.pl. Ewentualne koszty adaptacji
+ograniczają się do jednorazowego dostosowania sposobu wprowadzania danych i są szacowane
+jako minimalne.
+Przedkładany projekt ustawy jest zgodny z prawem Unii Europejskiej.
+Projekt ustawy nie wymaga przedłożenia właściwym instytucjom i organom Unii Europejskiej,
+w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+Projekt nie podlega procedurze notyfikacji.
+                   DEKLAROWANE SKUTKI REGULACJI (DSR)
+                            projektu ustawy
+
+Informacja o projekcie
+   a) Tytuł projektu:
+
+ Projekt ustawy o zmianie ustawy o ochronie praw nabywcy lokalu mieszkalnego lub
+ domu jednorodzinnego oraz Deweloperskim Funduszu Gwarancyjnym
+
+
+   b) Przedstawiciel wnioskodawcy:
+
+ Pan poseł Michał Gramatyka
+
+
+I. Część wstępna
+[1] Zwięzły opis zidentyfikowanego problemu i proponowanych rozwiązań.
+ Projektowana regulacja ma na celu rozwiązanie problemu braku jednolitego i
+ zgodnego ze standardem technicznym portalu dane.gov.pl sposobu udostępniania
+ danych przez deweloperów. Chociaż obowiązek publikacji danych wynika już z
+ obowiązujących przepisów (art. 19b ustawy z dnia 20 maja 2021 r. o ochronie praw
+ nabywcy lokalu mieszkalnego lub domu jednorodzinnego oraz Deweloperskim
+ Funduszu Gwarancyjnym, w brzmieniu nadanym nowelizacją z dnia 21 maja 2025
+ r.), obecnie istotna część podmiotów nie korzysta z ustrukturyzowanego formatu
+ danych rekomendowanego przez Ministerstwo Cyfryzacji. Problem nie ma
+ charakteru incydentalnego, lecz dotyczy znaczącej części danych udostępnianych
+ w portalu i wpływa na funkcjonalność całego mechanizmu dostępu oraz ponownego
+ wykorzystywania tych danych. Powoduje to ograniczenie użyteczności zasobów
+ publikowanych w portalu, utrudnia ich automatyczne przetwarzanie oraz zmniejsza
+ potencjał ponownego wykorzystywania danych, w szczególności dla celów
+ tworzenia narzędzi porównawczych.
+ Nowelizacja zakłada dodanie w art. 19b ustawy nowych ust. 2a i 2b. Nowy ust. 2a
+ wprowadza obowiązek udostępniania danych z zastosowaniem ustrukturyzowanego
+ formatu przeznaczonego do odczytu maszynowego, udostępnianego komunikatem
+ ministra właściwego do spraw informatyzacji w portalu danych. Nowy ust. 2b
+ zobowiązuje ministra właściwego do spraw informatyzacji do ogłoszenia tego
+ komunikatu w Dzienniku Urzędowym RP „Monitor Polski", co zapewnia
+ transparentność, pewność prawną i powszechną dostępność informacji o
+ wymaganym formacie. Ponadto w ust. 2 dodaje się zastrzeżenie odsyłające do
+ nowego ust. 2a, zapewniające systemową spójność przepisu.
+ Brak interwencji legislacyjnej skutkowałby dalszym funkcjonowaniem niejednolitego
+ sposobu udostępniania danych przez deweloperów w portalu dane.gov.pl. W
+ konsekwencji utrzymywałby się stan, w którym część danych publikowana byłaby w
+ ustrukturyzowanym formacie, a część — w sposób odmienny, niespójny lub
+ utrudniający ich dalsze wykorzystywanie. Prowadziłoby to do dalszego ograniczenia
+ użyteczności zasobów publikowanych w portalu, zarówno z perspektywy
+ konsumentów poszukujących informacji o cenach mieszkań, jak i podmiotów
+ wykorzystujących dane w sposób profesjonalny. Ponadto nie można wykluczyć, że
+ w przypadku braku obowiązku prawnego odsetek podmiotów stosujących
+ rekomendowany format mógłby w przyszłości ulec zmniejszeniu, np. w przypadku
+ rotacji podmiotów na rynku deweloperskim.
+[2] Czy były rozważane rozwiązania alternatywne?
+   ➢ Tak
+
+ Rozwiązanie alternatywne polega na utrzymaniu stanu obecnego. Obecnie
+ Ministerstwo Cyfryzacji rekomenduje stosowanie ustrukturyzowanego formatu
+ danych podczas udostępniania danych w portalu dane.gov.pl. Niewprowadzenie
+ proponowanej nowelizacji spowoduje, że nadal udostępnianie danych
+ w rekomendowanym formacie ustrukturyzowanym będzie nieobowiązkowe.
+ Utrzymanie obecnego stanu rzeczy jest nieefektywne, wpływa na użyteczność
+ zasobów oraz utrudnia wykorzystywanie danych przez użytkowników.
+ Proponowane w ustawie nowelizującej rozwiązanie polega na wprowadzeniu
+ obowiązku korzystania przez deweloperów z ustrukturyzowanego formatu danych
+ rekomendowanego do tej pory przez Ministerstwo Cyfryzacji.
+
+II. Wymogi określone w art. 34 ust. 2 pkt 3–5 regulaminu Sejmu
+[3] Jakie są przewidywane skutki prawne projektowanych rozwiązań?
+ Projektowana nowelizacja przewiduje dodanie w art. 19b ustawy o ochronie praw
+ nabywcy lokalu mieszkalnego lub domu jednorodzinnego oraz Deweloperskim
+ Funduszu Gwarancyjnym nowych ust. 2a i 2b oraz zmianę redakcyjną ust. 2
+ (dodanie zastrzeżenia) oraz ust. 4 (rozszerzenie zachowań stanowiących czyn
+ nieuczciwej konkurencji).
+ Stan dotychczasowy: Deweloperzy są obowiązani do udostępniania danych w
+ portalu dane.gov.pl (art. 19b ust. 1 i 2 ustawy). Korzystanie z ustrukturyzowanego
+ formatu danych rekomendowanego przez Ministerstwo Cyfryzacji ma charakter
+ fakultatywny. Brak jest podstawy prawnej do określenia wymaganego formatu w
+ drodze aktu o charakterze powszechnie obowiązującym.
+ Propozycja nowelizacji: Ustanawia się obowiązek korzystania przez deweloperów
+ z ustrukturyzowanego formatu przeznaczonego do odczytu maszynowego,
+ udostępnianego komunikatem ministra właściwego do spraw informatyzacji w
+ portalu danych. Komunikat ten jest ogłaszany w Monitorze Polskim, co zapewnia
+ jego powszechną dostępność i oficjalny charakter. Projektowane rozwiązanie
+ uzupełni obecne regulacje w obszarze technicznym i usprawni stosowanie
+ aktualnych przepisów.
+ Projektowany przepis (nowy ust. 2a) będzie objęty regulacją art. 19b ust. 4
+ nowelizowanej ustawy, zgodnie z którym naruszenie obowiązku określonego w ust.
+ 1, 2 oraz oddanego ust. 2a tego artykułu stanowi praktykę naruszającą zbiorowe
+ interesy konsumentów.
+ Przepisy wejdą w życie po upływie 3 miesięcy od dnia ogłoszenia. Przewidziane
+ vacatio legis umożliwi deweloperom przygotowanie się do stosowania nowego
+ rozwiązania, a ministrowi właściwemu do spraw informatyzacji ogłoszenie
+ komunikatu w Monitorze Polskim.
+
+
+[4] Jakie są przewidywane skutki społeczne projektowanych rozwiązań?
+
+ Przewidywanym skutkiem społecznym projektowanych rozwiązań będzie
+ zwiększenie użyteczności danych udostępnianych w portalu dane.gov.pl poprzez
+ ujednolicenie sposobu ich publikacji. Rozwiązanie to ułatwi przetwarzanie i analizę
+ danych, a także stworzy warunki do automatyzacji procesów związanych z ich
+ wykorzystywaniem. Jednocześnie standaryzacja danych zwiększy możliwość
+ tworzenia narzędzi porównawczych oraz innych narzędzi cyfrowych opartych na
+ ponownym wykorzystywaniu danych, co przełoży się na większą przejrzystość
+ informacji oraz ułatwi obywatelom i innym użytkownikom dostęp do danych
+ porównywalnych i bardziej użytecznych dla celów ich dalszego wykorzystywania.
+
+[5] Jakie są przewidywane skutki gospodarcze projektowanych rozwiązań?
+
+Projektowane rozwiązania będą miały pozytywny wpływ na przedsiębiorców,
+w szczególności poprzez ujednolicenie sposobu udostępniania danych oraz
+zwiększenie możliwości ich automatycznego przetwarzania i ponownego
+wykorzystywania. Standaryzacja danych stworzy warunki do rozwoju narzędzi
+cyfrowych, w tym porównywarek i usług analitycznych, a także może ograniczyć koszty
+związane z pozyskiwaniem, porządkowaniem i integracją danych. Jednocześnie
+regulacja nie powinna powodować istotnych, dodatkowych obciążeń po stronie
+deweloperów, gdyż nie wprowadza nowego obowiązku udostępniania danych, tylko
+ujednolica techniczny sposób wykonania obowiązku już istniejącego.
+
+[6] Jakie są przewidywane skutki finansowe projektowanych rozwiązań,
+w szczególności wpływ na sektor finansów publicznych, w tym na budżet państwa
+i budżety jednostek samorządu terytorialnego?
+
+ Nowelizacja nie powoduje skutków finansowych dla sektora finansów publicznych.
+
+[7] Wykaz źródeł finansowania, jeśli projekt ustawy pociąga za sobą obciążenie
+budżetu państwa lub budżetów jednostek samorządu terytorialnego.
+
+ Nie dotyczy.
+
+[8] Czy projekt ustawy podlega procedurze notyfikacyjnej?
+   ➢ Nie
+
+III. Wymogi określone w art. 34 ust. 2a i 2b regulaminu Sejmu
+[9] Czy projekt ustawy zawiera przepisy określające zasady podejmowania,
+wykonywania lub zakończenia działalności gospodarczej (art. 34 ust. 2a regulaminu
+Sejmu)?
+   ➢ Nie
+[10] Czy wdrożenie projektowanych przepisów spowoduje obciążenia administracyjne
+mikroprzedsiębiorców, małych i średnich przedsiębiorców (art. 34 ust. 2a regulaminu
+Sejmu)?
+   ➢ Nie
+ Proponowana nowelizacja wprowadza obowiązek korzystania przez deweloperów
+ z rekomendowanego do tej pory przez Ministerstwo Cyfryzacji ustrukturyzowanego
+ formatu danych, który będzie wykorzystywany przy udostępnianiu danych w portalu
+ dane.gov.pl. Obecnie takiego obowiązku nie ma. Większość deweloperów już
+ obecnie stosuje rekomendowany ustrukturyzowany format podczas udostępniania
+ danych. Dla pozostałych podmiotów (które obecnie nie stosują tego rozwiązania)
+ projektowany przepis nie będzie stanowił dodatkowego obciążenia, ponieważ sam
+ obowiązek udostępniania danych wynika już z obecnie obowiązujących regulacji.
+ Proponowana nowelizacja nie wprowadza nowego obowiązku udostępniania
+ danych, ale stanowi jedynie techniczne uzupełnienie obecnych przepisów i ma
+ ujednolicić oraz uprościć sposób udostępniania danych w portalu (ma ujednolicić
+ oraz uprościć realizację istniejącego obowiązku ustawowego). Jeden, standardowy
+ ustrukturyzowany format danych będzie ułatwieniem dla deweloperów w realizacji
+ obecnych przepisów.
+
+[11] Czy projekt ustawy zawiera przepisy regulacyjne lub określa wymogi dotyczące
+świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r.
+o zasadach uznawania kwalifikacji zawodowych nabytych w państwach członkowskich
+Unii Europejskiej (art. 34 ust. 2b regulaminu Sejmu)?
+   ➢ Nie
+

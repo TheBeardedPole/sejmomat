@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}{{ _("Szukaj") }}{% endblock %}
+{% block head %}<meta name="robots" content="noindex"><link href="{{ site_root }}pagefind/pagefind-ui.css" rel="stylesheet">{% endblock %}
+{% block content %}
+<h1>{{ _("Szukaj") }}</h1>
+<div id="search"></div>
+<noscript>{{ _("Wyszukiwarka wymaga JavaScriptu.") }}</noscript>
+<script src="{{ site_root }}pagefind/pagefind-ui.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    if (window.PagefindUI) new PagefindUI({ element: "#search", showSubResults: true, translations: { placeholder: {{ _("Szukaj ustaw, poprawek, posłów…") | tojson }} } });
+    else document.getElementById("search").textContent = {{ _("Indeks wyszukiwania nie jest jeszcze zbudowany.") | tojson }};
+  });
+</script>
+{% endblock %}

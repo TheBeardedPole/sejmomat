@@ -1,0 +1,1028 @@
+                                                                       Druk nr 3109
+         SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+                   X kadencja
+
+
+                                 SPRAWOZDANIE
+                          KOMISJI FINANSÓW PUBLICZNYCH
+
+
+
+o rządowym projekcie ustawy o podatku od
+nadzwyczajnych zysków osiągniętych w okresie
+od marca do grudnia 2026 r. ze zbycia paliw
+ciekłych (druk nr 3100)
+
+     Sejm na 65. posiedzeniu w dniu 16 września 2026 r., zgodnie z art. 39 ust. 2 regulaminu
+Sejmu, skierował powyższy projekt ustawy do Komisji Finansów Publicznych w celu
+rozpatrzenia.
+     Komisja Finansów Publicznych po rozpatrzeniu tego projektu ustawy na posiedzeniu
+w dniu 16 września 2026 r.
+
+
+     wnosi:
+
+     Wysoki Sejm uchwalić raczy załączony projekt ustawy.
+
+     Komisja, zgodnie z art. 43 ust. 3 regulaminu Sejmu, przedstawia na żądanie
+
+wnioskodawców, następujące wnioski mniejszości:
+
+
+ 1) w projekcie ustawy:
+     a) tytułowi ustawy nadać brzmienie:
+          „o Funduszu Wyrównywania Cen Paliw oraz mechanizmie osłonowym dla
+                kierowców”,
+     b) odnośnikowi nr 1 do tytułu ustawy nadać brzmienie:
+          „1) Niniejszą ustawą zmienia się ustawy: ustawę z dnia 26 lipca 1991 r. o podatku
+                 dochodowym od osób fizycznych, ustawę z dnia 15 lutego 1992 r. o podatku
+                 dochodowym od osób prawnych, ustawę z dnia 20 czerwca 1997 r. – Prawo o
+         ruchu drogowym oraz ustawę z dnia 16 listopada 2016 r. o Krajowej
+         Administracji Skarbowej.”.
+c) przed art. 1 dodać oznaczenie i tytuł rozdziału 1 w brzmieniu:
+                                       „Rozdział 1
+                                      Przepisy ogólne”,
+d) art. 1 nadać brzmienie:
+     „Art. 1. 1. Ustawa określa:
+               1) zasady tworzenia i funkcjonowania Funduszu Wyrównywania Cen
+                  Paliw, zwanego dalej „Funduszem”;
+               2) zasady poboru podatku od nadzwyczajnych zysków ze zbycia paliw
+                  ciekłych, zwanego dalej „podatkiem od nadzwyczajnych zysków”;
+               3) zasady ustalania, stosowania i rozliczania dopłaty paliwowej
+                  finansowanej ze środków Funduszu;
+               4) zasady ewidencjonowania wykorzystania limitów dopłaty paliwowej
+                  oraz przetwarzania danych niezbędnych do działania mechanizmu
+                  osłonowego.
+           2. Mechanizm osłonowy nie ustanawia ceny maksymalnej paliwa. Cena
+              detaliczna paliwa jest ustalana przez sprzedawcę na zasadach rynkowych, z
+              uwzględnieniem przepisów odrębnych określających cenę maksymalną,
+              jeżeli przepisy takie mają zastosowanie.”,
+e) art. 2 nadać brzmienie:
+     „Art. 2. Użyte w ustawie określenia oznaczają:
+               1) koszty – koszty w rozumieniu ustawy z dnia 29 września 1994 r. o
+                  rachunkowości (Dz. U. z 2026 r. poz. 522, 640 i 644) lub w rozumieniu
+                  standardów, o których mowa w art. 2 ust. 3 tej ustawy, określone na
+                  podstawie prowadzonych przez podatnika ksiąg rachunkowych albo
+                  ksiąg podatkowych prowadzonych dla celów podatku dochodowego –
+                  w przypadku gdy podatnik nie jest obowiązany do prowadzenia ksiąg
+                  rachunkowych, z zastosowaniem zasady ceny rynkowej;
+               2) paliwa ciekłe – paliwa ciekłe w rozumieniu art. 2 ust. 1 pkt 4 ustawy z
+                  dnia 25 sierpnia 2006 r. o systemie monitorowania i kontrolowania
+                  jakości paliw (Dz. U. z 2025 r. poz. 1529), z wyjątkiem olejów
+                  opałowych w rozumieniu art. 2 ust. 1 pkt 8 i 9 tej ustawy;
+               3) podmiot – osobę fizyczną, osobę prawną i jednostkę organizacyjną
+                  niemającą osobowości prawnej;
+4) przychody – przychody netto ze sprzedaży towarów i produktów w
+  rozumieniu art. 3 ust. 1 pkt 30a ustawy z dnia 29 września 1994 r. o
+  rachunkowości, określone na podstawie prowadzonych przez podatnika
+  ksiąg rachunkowych albo ksiąg podatkowych prowadzonych dla celów
+  podatku dochodowego – w przypadku gdy podatnik nie jest
+  obowiązany do prowadzenia ksiąg rachunkowych, z zastosowaniem
+  zasady ceny rynkowej;
+5) wytwarzanie paliw ciekłych – produkcję paliw ciekłych w instalacjach
+  wytwarzania paliw ciekłych w rozumieniu art. 3 pkt 10e ustawy z dnia
+  10 kwietnia 1997 r. – Prawo energetyczne (Dz. U. z 2026 r. poz. 43,
+  516 i 607), w procesie przerobu ropy naftowej;
+6) zasada ceny rynkowej – obowiązek ustalania cen transferowych
+  pomiędzy podmiotami powiązanymi na warunkach, które ustaliłyby
+  między sobą podmioty niepowiązane, określony odpowiednio w
+  przepisach o podatku dochodowym od osób fizycznych albo o podatku
+  dochodowym od osób prawnych;
+7) paliwo objęte dopłatą – benzynę silnikową bezołowiową o badawczej
+  liczbie oktanowej 95 oraz olej napędowy przeznaczony do napędu
+  pojazdów samochodowych;
+8) pojazd uprawniony – samochód osobowy w rozumieniu art. 2 pkt 40
+  ustawy z dnia 20 czerwca 1997 r. – Prawo o ruchu drogowym,
+  zarejestrowany na terytorium Rzeczypospolitej Polskiej;
+9) sprzedawca – przedsiębiorcę prowadzącego sprzedaż detaliczną paliwa
+  objętego dopłatą na stacji paliw;
+10) cena transakcyjna – cenę detaliczną brutto jednego litra paliwa
+  objętego dopłatą, po uwzględnieniu obniżek ceny przysługujących
+  nabywcy niezależnie od dopłaty paliwowej i przed zastosowaniem
+  dopłaty paliwowej, nie wyższą niż cena maksymalna wynikająca z
+  przepisów odrębnych, jeżeli cena maksymalna obowiązuje;
+11) dopłata paliwowa – kwotę finansowaną ze środków Funduszu,
+  stanowiącą część zapłaty należnej sprzedawcy z tytułu dostawy paliwa
+  objętego dopłatą, o którą pomniejsza się kwotę uiszczaną przez
+  nabywcę;
+12) tygodniowy okres rozliczeniowy – okres od godziny 0.00 w
+  poniedziałek do godziny 24.00 w niedzielę;
+               13) dzienne notowanie ropy naftowej Brent – dzienną cenę rozliczeniową
+                  kontraktu terminowego na ropę naftową Brent (Brent Crude Futures –
+                  Settlement Price), ustaloną na ICE Futures Europe dla kontraktu o
+                  najbliższym     terminie    wygaśnięcia,     wyrażoną       w   dolarach
+                  amerykańskich za baryłkę;
+               14) okres poboru podatku – okres rozpoczynający się i kończący na
+                  zasadach określonych w art. 4a;
+               15) okres referencyjny – trzy lata kalendarzowe bezpośrednio
+                  poprzedzające rok podatkowy, z zastrzeżeniem art. 12d ust. 1; przy
+                  ustalaniu danych z okresu referencyjnego nie uwzględnia się
+                  przychodów i kosztów przypadających na okresy poboru podatku.”,
+f) art. 3 nadać brzmienie:
+     „Art. 3. Wpływy z podatku od nadzwyczajnych zysków stanowią przychód
+              Funduszu.”,
+g) art. 4 nadać brzmienie:
+     „Art. 4. Rokiem podatkowym jest rok kalendarzowy.”,
+
+
+h) po art. 4 dodać oznaczenie i tytuł rozdziału 2 oraz art. 4a w brzmieniu:
+                                    „Rozdział 2
+                          Podatek od nadzwyczajnych zysków
+     Art. 4a. 1. Okres poboru podatku rozpoczyna się z mocy prawa, jeżeli średnia
+               arytmetyczna dziennych notowań ropy naftowej Brent z pięciu kolejnych
+               dni, w których ustalono notowanie, przekroczy 80 dolarów amerykańskich
+               za baryłkę.
+           2. Okres poboru podatku rozpoczyna się następnego dnia po ostatnim z dni
+              uwzględnionych przy obliczeniu średniej, o której mowa w ust. 1.
+           3. Okres poboru podatku kończy się z mocy prawa, jeżeli średnia arytmetyczna
+              dziennych notowań ropy naftowej Brent z dziesięciu kolejnych dni, w
+              których ustalono notowanie, nie przekracza 75 dolarów amerykańskich za
+              baryłkę. Okres poboru podatku kończy się następnego dnia po ostatnim z
+              tych dni.
+           4. Przy ustalaniu średnich, o których mowa w ust. 1 i 3, w dniu będącym
+              ostatnim dniem obrotu kontraktem o najbliższym terminie wygaśnięcia
+              uwzględnia się dzienne notowanie tego kontraktu, a od następnego dnia
+              obrotu – dzienne notowanie kontraktu o kolejnym najbliższym terminie
+              wygaśnięcia.
+           5. Jeżeli w danym dniu ICE Futures Europe nie ustali dziennego notowania
+              ropy naftowej Brent, dnia tego nie uwzględnia się przy obliczaniu średniej;
+              uwzględnia się kolejny dzień, w którym takie notowanie zostało ustalone.
+           6. Średnie, o których mowa w ust. 1 i 3, zaokrągla się do jednego centa
+              amerykańskich za baryłkę.
+           7. W przypadku zmiany nazwy ICE Futures Europe, przekształcenia,
+              połączenia, przejęcia albo przeniesienia prowadzenia tego rynku, stosuje się
+              dzienną cenę rozliczeniową ustalaną przez następcę prawnego lub podmiot,
+              który przejął prowadzenie rynku, dla kontraktu stanowiącego bezpośrednią
+              kontynuację kontraktu Brent Crude Futures, wyrażoną w dolarach
+              amerykańskich za baryłkę. W przypadku zmiany nazwy albo zastąpienia
+              kontraktu Brent Crude Futures innym kontraktem stosuje się cenę
+              rozliczeniową kontraktu wskazanego przez operatora rynku jako jego
+              bezpośredni następca, którego instrumentem bazowym pozostaje ropa
+              naftowa Brent i którego cena jest wyrażana w dolarach amerykańskich za
+              baryłkę.
+           8. Minister właściwy do spraw gospodarki surowcami energetycznymi ogłasza
+              niezwłocznie, w drodze obwieszczenia w Dzienniku Urzędowym
+              Rzeczypospolitej Polskiej „Monitor Polski”, datę rozpoczęcia albo
+              zakończenia okresu poboru podatku oraz wartość średniej, o której mowa
+              odpowiednio w ust. 1 albo 3. Obwieszczenie ma charakter deklaratoryjny.”,
+i) art. 6 nadać brzmienie:
+   „Art. 6. 1. W przypadku podatnika, o którym mowa w art. 5 pkt 1, opodatkowaniu
+              podlegają przychody ze zbycia paliw ciekłych wytworzonych przez tego
+              podatnika w procesie przerobu ropy naftowej, osiągnięte w dniach
+              przypadających na okres poboru podatku.
+           2. W przypadku podatnika, o którym mowa w art. 5 pkt 2, nieprowadzącego
+              działalności, o której mowa w art. 5 pkt 1, opodatkowaniu podlegają
+              wyłącznie przychody ze zbycia paliw ciekłych, które zostały przez tego
+              podatnika nabyte w ramach nabycia wewnątrzwspólnotowego albo importu
+              w związku z działalnością objętą koncesją na obrót paliwami ciekłymi z
+              zagranicą, osiągnięte w dniach przypadających na okres poboru podatku.
+           3. Jeżeli paliwa, o których mowa w ust. 2, są magazynowane lub sprzedawane
+              łącznie z paliwami nabytymi na terytorium Rzeczypospolitej Polskiej i nie
+              jest możliwe ich indywidualne przypisanie do sprzedaży, przychody i
+              koszty przypisuje się do sprzedaży podlegającej opodatkowaniu według
+              udziału ilości paliw nabytych w ramach nabycia wewnątrzwspólnotowego
+              albo importu w łącznej ilości paliw tego samego rodzaju pozostających do
+              dyspozycji podatnika w danym okresie, zgodnie z przyjętą i stosowaną w
+              sposób ciągły metodą ewidencji zapasów.
+           4. Podatnik prowadzi ewidencję rachunkową w sposób umożliwiający
+              wyodrębnienie przychodów i kosztów podlegających uwzględnieniu przy
+              obliczaniu podatku zgodnie z ust. 1–3.
+           5. Jeżeli w roku podatkowym wystąpi więcej niż jeden okres poboru podatku,
+              przy obliczaniu podatku uwzględnia się łącznie przychody i koszty
+              przypadające na wszystkie okresy poboru podatku w tym roku.”,
+j) art. 7 nadać brzmienie:
+„Art. 7. 1. Podstawę obliczenia podatku od nadzwyczajnych zysków stanowi kwota PO
+           obliczona według wzoru:
+                               PO = max(0, PF - PH)
+               w którym:
+               1) PO oznacza podstawę obliczenia podatku;
+               2) PF oznacza przychody faktyczne, czyli przychody podlegające
+                   opodatkowaniu zgodnie z art. 6, osiągnięte w okresach poboru podatku
+                   przypadających w roku podatkowym;
+               3) PH oznacza przychody hipotetyczne, o których mowa w ust. 2.
+           2. Przychody hipotetyczne oblicza się według wzoru:
+                               PH = KF × (1 + MR)
+               w którym:
+               1) KF oznacza koszty faktyczne związane z przychodami faktycznymi,
+                   stanowiące cenę nabycia albo koszt wytworzenia paliw ciekłych;
+               2) MR oznacza marżę referencyjną wyrażoną w postaci ułamka
+                   dziesiętnego.
+           3. Średnią marżę sprzedaży paliw ciekłych w okresie referencyjnym oblicza
+              się w postaci ułamka dziesiętnego według wzoru:
+                                   M = (PR - KR) / KR
+               w którym:
+               1) M oznacza średnią marżę sprzedaży paliw ciekłych w okresie
+                   referencyjnym;
+               2) PR oznacza łączne przychody ze sprzedaży paliw ciekłych
+                   odpowiadającej zakresowi sprzedaży podlegającej opodatkowaniu
+      zgodnie z art. 6, osiągnięte w okresie referencyjnym, z wyłączeniem
+      przychodów przypadających na okresy poboru podatku;
+    3) KR oznacza łączne koszty związane z przychodami, o których mowa w
+      pkt 2, stanowiące cenę nabycia albo koszt wytworzenia paliw ciekłych.
+4. Marżę referencyjną oblicza się według wzoru:
+                MR = max(0,02, M × 1,20)
+5. Jeżeli podatnik prowadził działalność, o której mowa w art. 5, przez okres
+  krótszy niż 12 miesięcy w okresie referencyjnym, KR jest równe 0 albo
+  mniejsze od 0 albo nie jest możliwe wiarygodne ustalenie PR lub KR na
+  podstawie ksiąg podatnika i dokumentów źródłowych, przyjmuje się, że
+  MR wynosi 0,06.
+6. Wartości M i MR ustala się z dokładnością do czterech miejsc po przecinku.
+  Dla potrzeb wzorów, o których mowa w ust. 2-5, 0,02 odpowiada marży
+  2%, 0,06 odpowiada marży 6%, a wartość M = 0,10 odpowiada marży 10%.
+7. Przy ustalaniu PF, KF, PR i KR:
+    1) uwzględnia się zrealizowany wynik na pochodnych instrumentach
+      finansowych służących zabezpieczeniu tych przychodów lub kosztów
+      oraz koszty związane z wykonywaniem obowiązków wynikających z
+      odrębnych przepisów, z wyłączeniem podatków, opłat i innych danin
+      publicznych, których wysokość jest uzależniona od ilości albo wartości
+      zbywanych paliw ciekłych, w części, w jakiej nie są one uwzględniane
+      przy ustalaniu odpowiednich przychodów;
+    2) nie uwzględnia się niezrealizowanych przychodów i kosztów, w
+      szczególności wycen do wartości godziwej dokonywanych dla celów
+      rachunkowych, niezrealizowanych różnic kursowych, wycen wartości
+      zapasów paliw ciekłych ani innych pozycji aktywów, pasywów,
+      przychodów lub kosztów o podobnym charakterze.
+8. Przy ustalaniu przychodów uwzględnia się również wynik na
+  zrealizowanych pochodnych instrumentach finansowych, w których
+  dodatkowe    rozliczenia   pieniężne   zależą   od   ilości   lub   wartości
+  wytworzonych albo zbytych paliw ciekłych.
+9. Jeżeli nie jest możliwe jednoznaczne przypisanie kosztów lub wyniku na
+  pochodnych instrumentach finansowych do odpowiednich przychodów,
+  uwzględnia się je w takiej proporcji, w jakiej odpowiednie przychody ze
+  zbycia paliw ciekłych pozostają w ogólnej wysokości przychodów
+  podatnika w danym okresie.
+           10. Przepisu ust. 9 nie stosuje się do ustalania ceny nabycia ani kosztu
+              wytworzenia paliw ciekłych, jeżeli są one ustalane zgodnie z ustawą o
+              rachunkowości albo standardami, o których mowa w art. 2 ust. 3 tej
+              ustawy.”,
+k) po art. 7 dodać art. 7a w brzmieniu:
+„Art. 7a. 1. Przy ustalaniu danych z okresu referencyjnego uwzględnia się dane
+              poprzedników prawnych podatnika na zasadach określonych w ust. 2–5.
+           2. W przypadku łączenia podmiotów dane PR i KR podmiotów, których prawa
+              i obowiązki związane z działalnością określoną w art. 5 przeszły na
+              podatnika, sumuje się przed obliczeniem wartości M.
+           3. W przypadku podziału podmiotu, nabycia przedsiębiorstwa albo
+              zorganizowanej części przedsiębiorstwa uwzględnia się wyłącznie dane PR
+              i KR możliwe do przypisania do przejętej działalności określonej w art. 5,
+              na podstawie wyodrębnionej ewidencji rachunkowej, a jeżeli takie
+              wyodrębnienie nie było prowadzone – według udziału wolumenu albo
+              przychodów działalności przejętej w odpowiednim wolumenie albo
+              przychodach poprzednika.
+           4. Jeżeli podatnik ma więcej niż jednego poprzednika prawnego, dane, o
+              których mowa w ust. 2 i 3, agreguje się odpowiednio przed obliczeniem
+              wartości M.
+           5. Jeżeli nie jest możliwe wiarygodne przypisanie danych zgodnie z ust. 2–4,
+              przyjmuje się, że MR wynosi 0,06.
+           6. Jeżeli podatnik prowadził działalność, o której mowa w art. 5, przez część
+              okresu referencyjnego, lecz co najmniej przez 12 miesięcy, przy obliczaniu
+              M uwzględnia się okres faktycznego prowadzenia tej działalności, z
+              wyłączeniem okresów poboru podatku.”,
+l) art. 8 nadać brzmienie:
+„Art. 8. 1. Stawka podatku od nadzwyczajnych zysków wynosi 60% podstawy obliczenia
+            podatku.
+           2. Należny podatek od nadzwyczajnych zysków, niezależnie od rodzaju
+              działalności prowadzonej przez podatnika, nie może przekroczyć dodatniej
+              kwoty osiągniętego przez podatnika i przypadającego proporcjonalnie na
+              łączną liczbę dni okresów poboru podatku w roku podatkowym:
+               1) dochodu z pozarolniczej działalności gospodarczej ustalonego zgodnie
+                   z przepisami o podatku dochodowym od osób fizycznych albo
+                2) dochodu ze źródeł przychodów innych niż zyski kapitałowe ustalonego
+                  zgodnie z przepisami o podatku dochodowym od osób prawnych, albo
+                3) zysku netto ustalonego zgodnie z przepisami o rachunkowości albo
+                  właściwymi      standardami    rachunkowości,    obliczonego     bez
+                  uwzględnienia podatku od nadzwyczajnych zysków – w przypadku
+                  podatnika niebędącego podatnikiem podatku dochodowego od osób
+                  fizycznych ani podatku dochodowego od osób prawnych.
+           3. Przez dochód, o którym mowa w ust. 2 pkt 1 i 2, rozumie się dochód przed
+             pomniejszeniami i odliczeniami, w tym przed odliczeniem straty z lat
+             ubiegłych.
+           4. Jeżeli kwota, o której mowa w ust. 2, jest równa 0 albo mniejsza od 0,
+             należny podatek od nadzwyczajnych zysków wynosi 0 zł.
+           5. Przepisy ust. 2–4 stosuje się odpowiednio przy obliczaniu tygodniowych
+             zaliczek, z uwzględnieniem dochodu albo zysku ustalonego narastająco od
+             początku roku podatkowego do końca tygodnia kalendarzowego, za który
+             jest należna zaliczka.”,
+m) art. 9 nadać brzmienie:
+„Art. 9. 1. Podatnicy są obowiązani:
+                1) wpłacać tygodniowe zaliczki na podatek od nadzwyczajnych zysków za
+                  każdy tydzień kalendarzowy, w którym przypada co najmniej jeden
+                  dzień okresu poboru podatku, obliczane narastająco od początku roku
+                  podatkowego od podstawy przypadającej na okresy poboru podatku;
+                2) złożyć właściwemu naczelnikowi urzędu skarbowego, za pomocą
+                  środków komunikacji elektronicznej, zeznanie o wysokości należnego
+                  podatku od nadzwyczajnych zysków do dnia 30 kwietnia roku
+                  następującego po roku podatkowym;
+                3) wpłacić w terminie, o którym mowa w pkt 2, różnicę między podatkiem
+                  należnym a sumą zapłaconych zaliczek.
+           2. Zaliczki, o których mowa w ust. 1 pkt 1, wpłaca się do piątego dnia
+             roboczego następującego po zakończeniu tygodnia kalendarzowego, za
+             który są należne, w wysokości różnicy między podatkiem należnym
+             obliczonym narastająco od początku roku podatkowego do końca tego
+             tygodnia a sumą należnych zaliczek za poprzednie tygodnie.”,
+n) po art. 10 dodać art. 10a, oznaczenie i tytuł rozdziału 3 oraz art. 10b i art. 10c w
+   brzmieniu:
+„Art. 10a. 1. Wpływy z podatku od nadzwyczajnych zysków stanowią przychód
+            Funduszu.
+          2. Podatek oraz zaliczki na podatek wpłaca się na rachunek właściwego urzędu
+            skarbowego.
+          3. Środki z tytułu podatku i zaliczek na podatek przekazuje się na rachunek
+            Funduszu nie później niż w terminie 1 dnia roboczego od dnia ich wpływu
+            na rachunek urzędu skarbowego.
+          4. Organem podatkowym właściwym w sprawach podatku od nadzwyczajnych
+            zysków jest naczelnik urzędu skarbowego właściwy według zasad
+            określonych dla podatku dochodowego podatnika.
+                                  Rozdział 3
+                      Fundusz Wyrównywania Cen Paliw
+Art. 10b. 1. Tworzy się Fundusz Wyrównywania Cen Paliw jako państwowy fundusz
+            celowy w rozumieniu art. 29 ustawy z dnia 27 sierpnia 2009 r. o finansach
+            publicznych (Dz. U. z 2025 r. poz. 1483, 1844 i 1846 oraz z 2026 r. poz.
+            426, 635 i 680).
+          2. Dysponentem Funduszu jest minister właściwy do spraw gospodarki
+            surowcami energetycznymi.
+          3. Środki Funduszu są przeznaczane wyłącznie na finansowanie dopłaty
+            paliwowej oraz świadczenia wyrównawczego, o którym mowa w art. 10i.
+Art. 10c. 1. Przychodami Funduszu są:
+              1) wpływy z podatku od nadzwyczajnych zysków;
+              2) odsetki od środków Funduszu;
+              3) kwoty zwróconych nienależnie wypłaconych środków Funduszu wraz
+                z odsetkami.
+          2. Fundusz nie otrzymuje dotacji ani pożyczek z budżetu państwa na
+            finansowanie dopłaty paliwowej ani świadczenia wyrównawczego.
+          3. Fundusz nie może zaciągać zobowiązań z tytułu dopłaty paliwowej ani
+            świadczenia wyrównawczego ponad wysokość środków Funduszu
+            możliwych do przeznaczenia na te cele zgodnie z art. 10e.
+          4. Niewykorzystane środki Funduszu pozostają na jego rachunku i mogą być
+            wykorzystane w kolejnych okresach poboru podatku oraz po ich
+            zakończeniu.
+          5. Dysponent Funduszu publikuje w Biuletynie Informacji Publicznej na
+            stronie podmiotowej urzędu obsługującego tego ministra, do 15. dnia
+             każdego miesiąca, informację za miesiąc poprzedni obejmującą co
+             najmniej:
+               1) kwotę wpływów z podatku od nadzwyczajnych zysków;
+               2) stan środków Funduszu;
+               3) kwotę środków objętych rezerwą płynnościową, o której mowa w art.
+                  10e ust. 2;
+               4) łączną kwotę sfinansowanych dopłat paliwowych i świadczeń
+                  wyrównawczych;
+               5) wolumen paliwa sprzedanego z zastosowaniem dopłaty paliwowej;
+               6) średnią wysokość dopłaty paliwowej na litr.”,
+o) po art. 10c dodać oznaczenie i tytuł rozdziału 4 oraz art. 10d–10j w brzmieniu:
+                                    „Rozdział 4
+                       Mechanizm osłonowy dla kierowców
+Art. 10d. 1. Sprzedawca ustala cenę detaliczną paliwa objętego dopłatą na zasadach
+            rynkowych, z zastrzeżeniem przepisów odrębnych określających cenę
+            maksymalną.
+           2. Jeżeli w dniu sprzedaży obowiązuje maksymalna cena paliwa określona na
+             podstawie art. 34a ustawy z dnia 16 lutego 2007 r. o zapasach ropy naftowej,
+             produktów naftowych i gazu ziemnego oraz zasadach postępowania w
+             sytuacjach zagrożenia bezpieczeństwa paliwowego państwa i zakłóceń na
+             rynku naftowym (Dz. U. z 2026 r. poz. 599), dopłatę paliwową oblicza się
+             od ceny transakcyjnej nie wyższej niż ta cena maksymalna.
+           3. Przy sprzedaży paliwa objętego dopłatą bezpośrednio do zbiornika paliwa
+             pojazdu uprawnionego sprzedawca pomniejsza kwotę uiszczaną przez
+             nabywcę o dopłatę paliwową obowiązującą w dniu sprzedaży, w granicach
+             limitów określonych w art. 10f.
+           4. Dopłata paliwowa stanowi część zapłaty otrzymywanej przez sprzedawcę
+             od osoby trzeciej w rozumieniu art. 29a ust. 1 ustawy z dnia 11 marca 2004
+             r. o podatku od towarów i usług (Dz. U. z 2025 r. poz. 775, 894, 896, 1203,
+             1541 i 1811). Podstawę opodatkowania dostawy paliwa stanowi pełna
+             kwota należna sprzedawcy, obejmująca kwotę uiszczaną przez nabywcę
+             oraz dopłatę paliwową.
+           5. Sprzedawca ewidencjonuje sprzedaż według pełnej ceny transakcyjnej. Na
+             fakturze oraz na paragonie fiskalnym albo dokumencie wydawanym
+             nabywcy łącznie z paragonem fiskalnym wykazuje się w sposób czytelny
+             co najmniej:
+              1) cenę transakcyjną;
+              2) kwotę dopłaty paliwowej;
+              3) kwotę uiszczaną przez nabywcę.
+          6. Sprzedawca nie może ustalać wyższej ceny detalicznej paliwa objętego
+             dopłatą wyłącznie z tego powodu, że nabywca korzysta z dopłaty
+             paliwowej, ani pobierać dodatkowej opłaty związanej z jej zastosowaniem.
+Art. 10e. 1. Wysokość dopłaty paliwowej na jeden litr paliwa objętego dopłatą, oznaczoną
+             symbolem D, ustala się na każdy tygodniowy okres rozliczeniowy według
+             wzoru:
+                                   D = S / V4
+              w którym:
+              1) S oznacza pulę środków przeznaczonych na finansowanie dopłat w
+                 okresie czterech kolejnych tygodni;
+              2) V4 oznacza prognozowany łączny wolumen paliwa objętego dopłatą,
+                 który zostanie sprzedany z zastosowaniem dopłaty w okresie czterech
+                 kolejnych   tygodni,   rozpoczynającym     się   w   pierwszym    dniu
+                 tygodniowego okresu rozliczeniowego, dla którego ustala się D.
+          2. Pulę S oblicza się według wzoru:
+                                  S = 0,85 × A
+              w którym A oznacza stan środków Funduszu dostępnych do finansowania
+              dopłat w chwili dokonywania obliczenia, pomniejszony o zobowiązania z
+              tytułu dopłat i świadczeń wyrównawczych należnych za zakończone
+              okresy oraz o środki już zarezerwowane na bieżący tygodniowy okres
+              rozliczeniowy. Pozostałe 15% kwoty A stanowi rezerwę płynnościową
+              Funduszu.
+          3. Dla każdego tygodniowego okresu rozliczeniowego ustala się pulę
+             tygodniową P według wzoru:
+                                   P = D × V1
+              w którym V1 oznacza prognozowany wolumen paliwa objętego dopłatą w
+              tym tygodniowym okresie rozliczeniowym.
+          4. Wysokość D oraz puli P wynika bezpośrednio z zastosowania wzorów
+             określonych w ust. 1–3. System, o którym mowa w art. 10g, dokonuje
+             obliczenia automatycznie w każdy czwartek według stanu na godzinę 12.00.
+          5. Począwszy od piątego tygodnia stosowania dopłaty, prognozowany
+             wolumen V4 nie może być niższy niż 105% łącznego wolumenu paliwa
+            sprzedanego      z   zastosowaniem   dopłaty   w   czterech    poprzednich
+            zakończonych tygodniowych okresach rozliczeniowych.
+          6. Kwotę D zaokrągla się w dół do pełnego grosza. Jeżeli kwota D jest niższa
+            niż 0,01 zł, dopłaty paliwowej w danym tygodniowym okresie
+            rozliczeniowym nie stosuje się.
+          7. Dopłata paliwowa dla konkretnej transakcji nie może przekroczyć ceny
+            transakcyjnej.
+          8. Minister właściwy do spraw gospodarki surowcami energetycznymi ogłasza
+            w Biuletynie Informacji Publicznej na stronie podmiotowej urzędu
+            obsługującego tego ministra, nie później niż do godziny 18.00 w czwartek,
+            wysokość D i puli P obowiązujących od poniedziałku do niedzieli
+            następnego tygodnia oraz wartości A, S, V4 i V1 przyjęte do obliczenia.
+            Ogłoszenie ma charakter informacyjny.
+          9. Jeżeli po zakończeniu okresu poboru podatku na rachunku Funduszu
+            pozostają środki, dopłata paliwowa jest nadal ustalana i stosowana zgodnie
+            z ust. 1–8 do czasu, gdy kwota D wyniesie mniej niż 0,01 zł.
+          10. Minister właściwy do spraw gospodarki surowcami energetycznymi, w
+            porozumieniu z ministrem właściwym do spraw finansów publicznych,
+            określi, w drodze rozporządzenia, metodę prognozowania wartości V4 i V1,
+            w tym sposób uwzględniania danych historycznych, sezonowości popytu,
+            zmian liczby pojazdów uprawnionych oraz zmian poziomu wykorzystania
+            limitów, kierując się koniecznością zachowania płynności Funduszu,
+            reprezentatywnością danych oraz ograniczeniem ryzyka przeszacowania
+            wysokości dopłaty.
+Art. 10f. 1. Dopłata paliwowa przysługuje dla jednego pojazdu uprawnionego w łącznym
+           limicie:
+              1) 50 litrów paliwa objętego dopłatą w tygodniu kalendarzowym;
+              2) 200 litrów paliwa objętego dopłatą w miesiącu kalendarzowym.
+          2. Limity, o których mowa w ust. 1, są wspólne dla wszystkich rodzajów
+            paliwa objętego dopłatą oraz wszystkich sprzedawców.
+          3. Niewykorzystana część limitu nie przechodzi na kolejny tydzień albo
+            miesiąc.
+          4. Limit jest przypisany do pojazdu, a nie do osoby dokonującej zakupu.
+            Zmiana numeru rejestracyjnego pojazdu nie powoduje odnowienia
+            wykorzystanego limitu.
+         5. Dopłata paliwowa nie przysługuje przy wydawaniu paliwa do przenośnego
+           zbiornika paliwa.
+         6. Uprawnienie do dopłaty jest związane ze statusem pojazdu uprawnionego i
+           przysługuje niezależnie od tego, czy właścicielem, współwłaścicielem,
+           posiadaczem    albo      użytkownikiem   pojazdu   jest   osoba   fizyczna,
+           przedsiębiorca albo inny podmiot.
+Art. 10g. 1. Minister właściwy do spraw gospodarki surowcami energetycznymi
+           prowadzi, przy pomocy urzędu obsługującego tego ministra, centralny
+           system teleinformatyczny ewidencji i rozliczeń dopłaty paliwowej, zwany
+           dalej „systemem dopłat”, oraz jest administratorem danych osobowych
+           przetwarzanych w tym systemie.
+         2. Przed zastosowaniem dopłaty sprzedawca przekazuje do systemu dopłat
+           numer rejestracyjny pojazdu oraz liczbę litrów i rodzaj paliwa objętego
+           transakcją.
+         3. System dopłat, przy wykorzystaniu danych z centralnej ewidencji pojazdów,
+           automatycznie potwierdza:
+             1) czy pojazd jest pojazdem uprawnionym;
+             2) identyfikator pojazdu umożliwiający przypisanie wykorzystanego
+               limitu do tego samego pojazdu niezależnie od zmiany jego numeru
+               rejestracyjnego;
+             3) niewykorzystaną część limitu, o którym mowa w art. 10f;
+             4) wysokość dopłaty dla transakcji;
+             5) dostępność środków w puli P na dany tygodniowy okres rozliczeniowy.
+         4. W chwili potwierdzenia transakcji system dopłat rezerwuje z puli P kwotę
+           odpowiadającą dopłacie należnej dla tej transakcji. Po wyczerpaniu puli P
+           system nie potwierdza nowych dopłat w danym tygodniowym okresie
+           rozliczeniowym.
+         5. Niewykorzystana część puli P po zakończeniu tygodniowego okresu
+           rozliczeniowego pozostaje w Funduszu i jest uwzględniana przy kolejnym
+           obliczeniu wartości A.
+         6. W celu realizacji zadań, o których mowa w ust. 3, minister właściwy do
+           spraw informatyzacji udostępnia ministrowi właściwemu do spraw
+           gospodarki surowcami energetycznymi, za pomocą urządzeń teletransmisji
+           danych, wyłącznie dane obejmujące numer rejestracyjny pojazdu, numer
+           VIN albo inny identyfikator pojazdu, rodzaj i kategorię pojazdu oraz
+           informację o jego zarejestrowaniu na terytorium Rzeczypospolitej Polskiej.
+7. Sprzedawcy udostępnia się wyłącznie informację o uprawnieniu do dopłaty,
+  niewykorzystanej części limitu, wysokości dopłaty dla transakcji oraz
+  potwierdzeniu rezerwacji środków. Sprzedawcy nie udostępnia się danych
+  właściciela ani posiadacza pojazdu.
+8. Sprzedawca przed zastosowaniem dopłaty weryfikuje zgodność numeru
+  rejestracyjnego przekazanego do systemu dopłat z numerem umieszczonym
+  na tablicy rejestracyjnej pojazdu znajdującego się przy dystrybutorze.
+9. Dane o transakcji obejmujące identyfikator pojazdu, numer rejestracyjny,
+  datę i godzinę sprzedaży, liczbę litrów, rodzaj paliwa, wysokość dopłaty
+  oraz identyfikator sprzedawcy przechowuje się w systemie dopłat na
+  następujących zasadach:
+   1) numer rejestracyjny w postaci umożliwiającej jego bezpośrednie
+      odczytanie przechowuje się przez 6 miesięcy od dnia transakcji;
+   2) po upływie terminu, o którym mowa w pkt 1, numer rejestracyjny usuwa
+      się z danych transakcyjnych, a dalsze powiązanie transakcji z pojazdem
+      może następować wyłącznie za pomocą technicznego identyfikatora
+      pojazdu, który nie ujawnia numeru rejestracyjnego ani numeru VIN;
+      pozostałe dane o transakcji przechowuje się przez 24 miesiące od dnia
+      transakcji, a następnie usuwa;
+   3) jeżeli przed upływem terminów, o których mowa w pkt 1 lub 2,
+      wszczęto kontrolę, postępowanie albo procedurę korekcyjną dotyczącą
+      transakcji, dane niezbędne do prowadzenia tej sprawy mogą być
+      przechowywane do dnia jej prawomocnego zakończenia, a następnie są
+      niezwłocznie usuwane.
+10. Minister właściwy do spraw gospodarki surowcami energetycznymi, w
+  porozumieniu z ministrem właściwym do spraw informatyzacji, określi, w
+  drodze rozporządzenia:
+   1) sposób przekazywania danych pomiędzy sprzedawcami, systemem
+      dopłat i centralną ewidencją pojazdów;
+   2) minimalne wymagania techniczne i organizacyjne dla sprzedawców;
+   3) sposób potwierdzania, korygowania i anulowania transakcji;
+   4) sposób postępowania w przypadku czasowej niedostępności systemu
+      dopłat albo centralnej ewidencji pojazdów
+  – kierując się koniecznością zapewnienia powszechnego i sprawnego
+  stosowania dopłaty, integralności danych, ochrony danych osobowych,
+            odporności systemu na nadużycia oraz ograniczenia obowiązków
+            sprzedawców do zakresu niezbędnego do realizacji ustawy.
+Art. 10h. 1. Sprzedawcy przysługuje ze środków Funduszu zwrot kwoty dopłat
+            paliwowych    prawidłowo     zastosowanych     zgodnie     z   ustawą   i
+            potwierdzonych w systemie dopłat.
+         2. Rozliczenia odbywają się w formie elektronicznej na podstawie danych
+            zgromadzonych w systemie dopłat. Minister właściwy do spraw gospodarki
+            surowcami energetycznymi dokonuje wypłaty ze środków Funduszu nie
+            później niż w terminie 7 dni roboczych od zakończenia tygodniowego
+            okresu rozliczeniowego.
+         3. Sprzedawca może dokonać korekty błędnie zarejestrowanej transakcji do
+            czasu złożenia rozliczenia za dany tygodniowy okres rozliczeniowy, a po
+            tym terminie – w terminie 14 dni od dnia zakończenia tego okresu. Korekta
+            powoduje odpowiednie przywrócenie albo pomniejszenie limitu pojazdu
+            oraz puli P, o ile środki nie zostały wypłacone; po wypłacie korekta jest
+            uwzględniana w kolejnym rozliczeniu.
+         4. Minister właściwy do spraw gospodarki surowcami energetycznymi może
+            żądać od sprzedawcy dokumentów lub informacji niezbędnych do
+            potwierdzenia prawidłowości rozliczenia.
+         5. Odmowa wypłaty w całości albo w części następuje w drodze decyzji
+            ministra właściwego do spraw gospodarki surowcami energetycznymi. Od
+            decyzji przysługuje wniosek o ponowne rozpatrzenie sprawy.
+         6. Jeżeli wypłacona kwota była nienależna, minister właściwy do spraw
+            gospodarki surowcami energetycznymi wzywa sprzedawcę do jej zwrotu
+            wraz z odsetkami ustawowymi za opóźnienie w terminie 14 dni od dnia
+            doręczenia wezwania. Po bezskutecznym upływie tego terminu minister
+            wydaje decyzję określającą kwotę podlegającą zwrotowi oraz termin jej
+            zapłaty.
+Art. 10i. 1. Osoba, której nie zastosowano dopłaty paliwowej wskutek błędu systemu
+            dopłat, niezgodności danych centralnej ewidencji pojazdów, błędnego
+            przypisania wykorzystanego limitu albo błędnego zarejestrowania
+            transakcji, może w terminie 30 dni od dnia transakcji złożyć do ministra
+            właściwego do spraw gospodarki surowcami energetycznymi wniosek o
+            korektę.
+         2. Wniosek może być złożony w postaci elektronicznej przy użyciu usługi
+            udostępnionej przez ministra albo w postaci papierowej. Wniosek zawiera
+            co najmniej numer rejestracyjny pojazdu, datę i miejsce transakcji oraz
+            dowód sprzedaży, jeżeli został wydany.
+          3. Minister dokonuje weryfikacji wniosku przez pracownika urzędu
+            obsługującego ministra, z uwzględnieniem danych z centralnej ewidencji
+            pojazdów, systemu dopłat oraz informacji uzyskanych od sprzedawcy.
+            Rozstrzygnięcie nie może być oparte wyłącznie na zautomatyzowanym
+            przetwarzaniu danych.
+          4. Jeżeli w wyniku weryfikacji stwierdzono, że dopłata paliwowa powinna
+            była zostać zastosowana, minister:
+              1) koryguje dane o wykorzystaniu limitu; oraz
+              2)    wypłaca    wnioskodawcy      ze   środków   Funduszu    świadczenie
+                   wyrównawcze w wysokości dopłaty paliwowej, która przysługiwałaby
+                   dla tej transakcji, nie większej niż kwota faktycznie uiszczona przez
+                   wnioskodawcę ponad kwotę, którą uiściłby po zastosowaniu dopłaty.
+          5. Świadczenie wyrównawcze jest wypłacane na rachunek płatniczy wskazany
+            przez wnioskodawcę w terminie 14 dni od dnia uwzględnienia wniosku.
+          6. Odmowa uwzględnienia wniosku następuje w drodze decyzji. Od decyzji
+            przysługuje wniosek o ponowne rozpatrzenie sprawy.
+Art. 10j. 1. Minister właściwy do spraw gospodarki surowcami energetycznymi publikuje
+           do dnia 31 marca każdego roku sprawozdanie z działania mechanizmu w roku
+           poprzednim.
+          2. W okresie stosowania dopłaty paliwowej Prezes Urzędu Ochrony
+            Konkurencji i Konsumentów monitoruje, w zakresie swoich ustawowych
+            kompetencji, zmiany cen detalicznych paliw objętych dopłatą, marż
+            sprzedawców oraz warunków konkurencji na rynku detalicznym i
+            przekazuje ministrowi właściwemu do spraw gospodarki surowcami
+            energetycznymi, w terminie 30 dni od zakończenia każdego kwartału,
+            informację o wynikach monitoringu, w tym ocenę ryzyka przejęcia przez
+            sprzedawców części ekonomicznej korzyści wynikającej z dopłaty
+            paliwowej.
+          3. Sprawozdanie, o którym mowa w ust. 1, obejmuje w szczególności:
+              1) wpływy do Funduszu i kwoty wypłaconych dopłat paliwowych;
+              2) liczbę okresów poboru podatku oraz czas ich trwania;
+              3) wpływ mechanizmu na ceny detaliczne, dostępność paliw i konkurencję
+                   na rynku;
+               4) wyniki monitoringu, o którym mowa w ust. 2, w tym ocenę wpływu
+                  dopłaty na ceny detaliczne i marże sprzedawców;
+               5) ocenę adekwatności progów, o których mowa w art. 4a ust. 1 i 3, z
+                  uwzględnieniem w szczególności kursu dolara amerykańskiego do
+                  złotego, krajowych cen hurtowych paliw oraz marż rafineryjnych.
+           4. Zmiana progów, o których mowa w art. 4a ust. 1 i 3, może nastąpić
+              wyłącznie w drodze ustawy.”,
+p) po art. 10j dodać oznaczenie i tytuł rozdziału 5 oraz art. 10k w brzmieniu:
+                                     „Rozdział 5
+                     Kontrola i administracyjne kary pieniężne
+Art. 10k. 1. Administracyjnej karze pieniężnej w wysokości od 10 000 zł do 1 000 000 zł
+            podlega sprzedawca, który:
+               1) nie stosuje dopłaty paliwowej mimo potwierdzenia przez system dopłat
+                  uprawnienia pojazdu, dostępności limitu, wysokości dopłaty oraz
+                  rezerwacji środków;
+               2) przedstawia do rozliczenia z Funduszem dopłatę paliwową, której nie
+                  zastosował wobec nabywcy;
+               3) przekazuje do systemu dopłat dane niezgodne ze stanem faktycznym w
+                  celu uzyskania lub zwiększenia kwoty zwrotu ze środków Funduszu;
+               4) ustala wobec nabywcy korzystającego z dopłaty wyższą cenę detaliczną
+                  paliwa niż wobec nabywcy niekorzystającego z dopłaty w takich
+                  samych warunkach sprzedaży albo pobiera dodatkową opłatę z tytułu
+                  zastosowania dopłaty;
+               5) po upływie terminu, o którym mowa w art. 12c ust. 3, prowadzi
+                  sprzedaż paliwa objętego dopłatą bez zapewnienia współpracy swojego
+                  systemu sprzedażowego z systemem dopłat.
+           2. Administracyjnej kary pieniężnej nie nakłada się, jeżeli naruszenie, o
+              którym mowa w ust. 1 pkt 1 albo 5, nastąpiło wyłącznie wskutek
+              udokumentowanej awarii systemu dopłat, centralnej ewidencji pojazdów
+              albo sieci telekomunikacyjnej niezależnej od sprzedawcy, a sprzedawca
+              zastosował tryb postępowania określony w przepisach wydanych na
+              podstawie art. 10g ust. 10.
+           3. Karę, o której mowa w ust. 1, nakłada, w drodze decyzji, naczelnik urzędu
+              celno-skarbowego, który przeprowadził kontrolę celno-skarbową w
+              zakresie naruszenia.
+           4. Do postępowania w sprawie wymierzenia kary pieniężnej stosuje się
+              przepisy ustawy z dnia 29 sierpnia 1997 r. – Ordynacja podatkowa, a do
+              wymiaru kary pieniężnej przepisy działu IVa ustawy z dnia 14 czerwca 1960
+              r. – Kodeks postępowania administracyjnego.”,
+q) przed art. 11 dodać oznaczenie i tytuł rozdziału 6 w brzmieniu:
+                                     „Rozdział 6
+                               Zmiany w przepisach”,
+r) w art. 11, w art. 52zu wyrazy „ustawie z dnia ……….. o podatku od nadzwyczajnych
+   zysków osiągniętych w okresie od marca do grudnia 2026 r. ze zbycia paliw ciekłych”
+   zastąpić wyrazami „ustawie z dnia ……….. o Funduszu Wyrównywania Cen Paliw
+   oraz mechanizmie osłonowym dla kierowców”,
+s) w art. 12, w art. 38zb wyrazy „ustawie z dnia ……….. o podatku od nadzwyczajnych
+   zysków osiągniętych w okresie od marca do grudnia 2026 r. ze zbycia paliw ciekłych”
+   zastąpić wyrazami „ustawie z dnia ……….. o Funduszu Wyrównywania Cen Paliw
+   oraz mechanizmie osłonowym dla kierowców”,
+t) po art. 12 dodać art. 12a i art. 12b w brzmieniu:
+„Art. 12a. W ustawie z dnia 20 czerwca 1997 r. – Prawo o ruchu drogowym (Dz. U. z
+           2024 r. poz. 1251, z 2025 r. poz. 820, 1006, 1676, 1734, 1843 i 1872 oraz z
+           2026 r. poz. 180) w art. 80c w ust. 2a po wyrazach „ministrowi właściwemu
+           do spraw finansów publicznych” dodaje się wyrazy „oraz ministrowi
+           właściwemu do spraw gospodarki surowcami energetycznymi”.
+Art. 12b. W ustawie z dnia 16 listopada 2016 r. o Krajowej Administracji Skarbowej (Dz.
+         U. z 2025 r. poz. 1131, 1423, 1820 i 1863 oraz z 2026 r. poz. 415 i 483)
+         wprowadza się następujące zmiany:
+           1) w art. 54 w ust. 2 po pkt 12d dodaje się pkt 12e w brzmieniu:
+                „12e) przestrzeganie przepisów ustawy z dnia … 2026 r. o Funduszu
+                   Wyrównywania Cen Paliw oraz mechanizmie osłonowym dla
+                   kierowców (Dz. U. poz. …) w zakresie obowiązków sprzedawców
+                   związanych ze stosowaniem dopłaty paliwowej, przekazywaniem
+                   danych do systemu dopłat oraz rozliczaniem środków Funduszu
+                   Wyrównywania Cen Paliw;”;
+           2) w art. 62 w ust. 5 po pkt 7a dodaje się pkt 7b w brzmieniu:
+                „7b) przestrzegania przepisów ustawy z dnia … 2026 r. o Funduszu
+                   Wyrównywania Cen Paliw oraz mechanizmie osłonowym dla
+                   kierowców w zakresie, o którym mowa w art. 54 ust. 2 pkt 12e,”;
+           3) w art. 84 w ust. 1:
+               a) w pkt 3 wyrazy „12c i 12d” zastępuje się wyrazami „12c–12e”,
+               b) w pkt 4 wyrazy „5–7a” zastępuje się wyrazami „5–7b”.”,
+u) po art. 12b dodać oznaczenie i tytuł rozdziału 7 oraz art. 12c i art. 12d w brzmieniu:
+                                     „Rozdział 7
+                       Przepisy przejściowe i dostosowujące
+Art. 12c. 1. Minister właściwy do spraw gospodarki surowcami energetycznymi podejmie
+             czynności niezbędne do utworzenia systemu dopłat, w tym udostępni
+             sprzedawcom środowisko testowe umożliwiające integrację systemów
+             sprzedażowych z systemem dopłat, nie później niż w terminie 60 dni od dnia
+             wejścia w życie niniejszego artykułu.
+           2. Minister właściwy do spraw informatyzacji zapewni warunki techniczne
+             umożliwiające automatyczne udostępnianie danych z centralnej ewidencji
+             pojazdów do systemu dopłat nie później niż w terminie 90 dni od dnia
+             wejścia w życie niniejszego artykułu.
+           3. Sprzedawcy są obowiązani dostosować systemy sprzedażowe do
+             współpracy z systemem dopłat w terminie 120 dni od dnia wejścia w życie
+             niniejszego artykułu.
+           4. Koszty utworzenia i wdrożenia systemu dopłat ponoszone przed dniem jego
+             uruchomienia są finansowane z części budżetowej, której dysponentem jest
+             minister właściwy do spraw gospodarki surowcami energetycznymi.
+             Kosztów tych nie pokrywa się ze środków Funduszu.
+           5. Koszty utrzymania i rozwoju systemu dopłat po jego uruchomieniu są
+             finansowane z części budżetowej, o której mowa w ust. 4. Środki Funduszu
+             pozostają przeznaczone wyłącznie na cele określone w art. 10b ust. 3.
+           6. Minister właściwy do spraw gospodarki surowcami energetycznymi ogłasza
+             w Biuletynie Informacji Publicznej na stronie podmiotowej urzędu
+             obsługującego tego ministra dzień uruchomienia systemu dopłat, nie
+             późniejszy niż pierwszy poniedziałek przypadający po upływie terminu, o
+             którym mowa w ust. 3.
+           7. Podatek od nadzwyczajnych zysków pobiera się niezależnie od dnia
+             uruchomienia systemu dopłat. Środki uzyskane z podatku przed
+             uruchomieniem systemu dopłat są gromadzone na rachunku Funduszu.
+           8. Dopłatę paliwową stosuje się po raz pierwszy od dnia uruchomienia systemu
+             dopłat, jeżeli kwota D ustalona zgodnie z art. 10e wynosi co najmniej 0,01
+             zł.
+Art. 12d. 1. Dla roku podatkowego 2027 okresem referencyjnym są lata 2023–2025.
+                   2. Przy ustalaniu prognozowanych wartości V4 i V1 dla pierwszych czterech
+                     tygodni stosowania dopłaty wykorzystuje się dane o krajowej sprzedaży
+                     detalicznej paliw objętych dopłatą z ostatnich 12 dostępnych miesięcy, dane
+                     o liczbie pojazdów uprawnionych oraz limity określone w art. 10f.
+                   3. Przy ustalaniu, czy w dniu 1 stycznia 2027 r. zachodzi przesłanka, o której
+                     mowa w art. 4a ust. 1, uwzględnia się dzienne notowania ropy naftowej
+                     Brent z pięciu kolejnych dni, w których ustalono notowanie, bezpośrednio
+                     poprzedzających ten dzień. Jeżeli średnia tych notowań przekracza 80
+                     dolarów amerykańskich za baryłkę, pierwszy okres poboru podatku
+                     rozpoczyna się z dniem 1 stycznia 2027 r.
+                   4. Pierwsze zeznanie, o którym mowa w art. 9 ust. 1 pkt 2, obejmuje okresy
+                     poboru podatku przypadające w 2027 r.”,
+   v) przed art. 13 dodać oznaczenie i tytuł rozdziału 8 w brzmieniu:
+                                           „Rozdział 8
+                                       Przepisy końcowe”,
+   w) art. 13 nadać brzmienie:
+    „Art. 13. 1. Ustawa wchodzi w życie z dniem 1 stycznia 2027 r., z wyjątkiem art. 10 ust.
+                     2, art. 10e ust. 10, art. 10g ust. 10 oraz art. 12c, które wchodzą w życie po
+                     upływie 14 dni od dnia ogłoszenia.
+                   2. Przepisy wykonawcze wydane na podstawie art. 10 ust. 2, art. 10e ust. 10 i
+                     art. 10g ust. 10 mogą zostać ogłoszone przed dniem 1 stycznia 2027 r., z
+                     mocą obowiązującą nie wcześniej niż od tego dnia.”;
+– poseł S. Tułajew
+
+
+2) w projekcie ustawy:
+    a) w tytule ustawy w określeniu przedmiotu ustawy wyrazy „marca do grudnia 2026 r.”
+       zastąpić wyrazami „dnia 1 listopada 2026 r. do dnia 1 września 2027 r.”,
+    b) w art. 1 wyrazy „1 marca 2026 r. do dnia 31 grudnia 2026 r.” zastąpić wyrazami „1
+       listopada 2026 r. do dnia 1 września 2027 r.”,
+    c) w art. 4 wyrazy „1 marca 2026 r. do dnia 31 grudnia 2026 r.” zastąpić wyrazami „1
+       listopada 2026 r. do dnia 1 września 2027 r.”,
+    d) w art. 9:
+         – w ust. 1 w pkt 2 wyrazy „30 kwietnia 2027 r.” zastąpić wyrazami „31 grudnia 2027
+            r.”,
+         – w ust. 2 skreślić wyrazy „ , przy czym pierwsza zaliczka na podatek od
+            nadzwyczajnych zysków jest wpłacana za okres od dnia 1 marca 2026 r. do dnia
+            31 października 2026 r.”,
+     e) w art. 11 w art. 52zu wyrazy „marca do grudnia 2026 r.” zastąpić wyrazami „dnia 1
+        listopada 2026 r. do dnia 1 września 2027 r.”,
+     f) w art. 12, w art. 38zb wyrazy „marca do grudnia 2026 r.” zastąpić wyrazami „dnia 1
+        listopada 2026 r. do dnia 1 września 2027 r.”.
+ – poseł Z. Kuźmiuk
+ – poseł H. Kowalczyk
+ – poseł A. Kosztowniak
+
+
+
+
+Warszawa, dnia 16 września 2026 r.
+
+
+
+                                                           Przewodniczący Komisji
+              Sprawozdawca                                  Finansów Publicznych
+
+
+      (-) Katarzyna Kierzek-Koperska                           (-) Janusz Cichoń
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 7   Data : 2026-09-16    Nazwa pliku : V2_2725-0.PK                                 1
+X kadencja/druk nr 3100
+
+                                                                                             Projekt
+                                            U S T AWA
+
+                                                z dnia
+
+            o podatku od nadzwyczajnych zysków osiągniętych w okresie od marca
+                           do grudnia 2026 r. ze zbycia paliw ciekłych1)
+
+
+       Art. 1. Ustawa reguluje podatek od nadzwyczajnych zysków osiągniętych w okresie od
+dnia 1 marca 2026 r. do dnia 31 grudnia 2026 r. ze zbycia paliw ciekłych, zwany dalej
+„podatkiem od nadzwyczajnych zysków”.
+
+       Art. 2. Użyte w ustawie określenia oznaczają:
+1)     koszty – koszty w rozumieniu ustawy z dnia 29 września 1994 r. o rachunkowości (Dz. U.
+       z 2026 r. poz. 522, 640, 644 i 1206) lub w rozumieniu standardów, o których mowa w
+       art. 2 ust. 3 tej ustawy, określone na podstawie:
+       a)   prowadzonych przez podatnika ksiąg rachunkowych albo
+       b)   ksiąg podatkowych innych niż księgi rachunkowe, prowadzonych przez podatnika
+            dla celów podatku dochodowego – w przypadku gdy podatnik w roku podatkowym
+            nie był obowiązany do prowadzenia ksiąg rachunkowych lub w 2025 r. nie prowadził
+            takich ksiąg
+       – przy czym do transakcji wpływających na ustalenie wysokości tych kosztów stosuje się
+       zasadę ceny rynkowej;
+2)     paliwa ciekłe – paliwa ciekłe w rozumieniu art. 2 ust. 1 pkt 4 ustawy z dnia 25 sierpnia
+       2006 r. o systemie monitorowania i kontrolowania jakości paliw (Dz. U. z 2025 r.
+       poz. 1529), z wyjątkiem olejów opałowych w rozumieniu art. 2 ust. 1 pkt 8 i 9 tej ustawy;
+3)     podmiot – osobę fizyczną, osobę prawną i jednostkę organizacyjną niemającą osobowości
+       prawnej;
+4)     przychody – przychody netto ze sprzedaży towarów i produktów w rozumieniu art. 3 ust. 1
+       pkt 30a ustawy z dnia 29 września 1994 r. o rachunkowości, określone na podstawie:
+       a)   prowadzonych przez podatnika ksiąg rachunkowych albo
+       b)   ksiąg podatkowych innych niż księgi rachunkowe, prowadzonych przez podatnika
+            dla celów podatku dochodowego – w przypadku gdy podatnik w roku podatkowym
+
+
+1)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 26 lipca 1991 r. o podatku dochodowym od osób
+     fizycznych oraz ustawę z dnia 15 lutego 1992 r. o podatku dochodowym od osób prawnych.
+Liczba stron : 7   Data : 2026-09-16   Nazwa pliku : V2_2725-0.PK                            2
+X kadencja/druk nr 3100
+
+           nie był obowiązany do prowadzenia ksiąg rachunkowych lub w 2025 r. nie prowadził
+           takich ksiąg
+     – przy czym do transakcji wpływających na ustalenie wysokości tych przychodów stosuje
+     się zasadę ceny rynkowej;
+5)   wytwarzanie paliw ciekłych – produkcję paliw ciekłych w instalacjach wytwarzania paliw
+     ciekłych w rozumieniu art. 3 pkt 10e ustawy z dnia 10 kwietnia 1997 r. – Prawo
+     energetyczne (Dz. U. z 2026 r. poz. 43, 516, 607 i 900) w procesie przerobu ropy naftowej;
+6)   zasada ceny rynkowej – obowiązek ustalania cen transferowych pomiędzy podmiotami
+     powiązanymi na warunkach, które ustaliłyby między sobą podmioty niepowiązane,
+     określony odpowiednio w art. 23o ust. 1 ustawy z dnia 26 lipca 1991 r. o podatku
+     dochodowym od osób fizycznych (Dz. U. z 2026 r. poz. 592, 779, 846, 1079, 1098 i 1123)
+     oraz art. 11c ust. 1 ustawy z dnia 15 lutego 1992 r. o podatku dochodowym od osób
+     prawnych (Dz. U. z 2026 r. poz. 554, 779, 846, 912 i 1123).
+
+     Art. 3. Podatek od nadzwyczajnych zysków stanowi dochód budżetu państwa.
+
+     Art. 4. Rokiem podatkowym jest okres od dnia 1 marca 2026 r. do dnia 31 grudnia 2026 r.
+
+     Art. 5. Podatnikiem podatku od nadzwyczajnych zysków jest podmiot prowadzący na
+terytorium Rzeczypospolitej Polskiej, samodzielnie lub za pośrednictwem innego podmiotu,
+działalność w zakresie:
+1)   wytwarzania paliw ciekłych lub
+2)   obrotu paliwami ciekłymi na podstawie koncesji na obrót paliwami ciekłymi z zagranicą.
+
+     Art. 6. Przedmiotem opodatkowania podatkiem od nadzwyczajnych zysków są
+przychody osiągnięte ze zbycia paliw ciekłych.
+
+     Art. 7. 1. Podstawę obliczenia podatku od nadzwyczajnych zysków stanowi nadwyżka
+przychodów ze zbycia paliw ciekłych osiągniętych w roku podatkowym (przychody faktyczne)
+ponad przychody ze zbycia paliw ciekłych, jakie zostałyby osiągnięte przy zastosowaniu marży
+referencyjnej (przychody hipotetyczne).
+     2. Przychody hipotetyczne oblicza się według następującego wzoru:
+                                     𝑘𝑜𝑠𝑧𝑡𝑦 𝑓𝑎𝑘𝑡𝑦𝑐𝑧𝑛𝑒
+                              1 − 𝑚𝑎𝑟ż𝑎 𝑟𝑒𝑓𝑒𝑟𝑒𝑛𝑐𝑦𝑗𝑛𝑎 ÷ 100 %
+     w którym:
+     1)        koszty faktyczne oznaczają koszty związane z przychodami faktycznymi,
+               stanowiące cenę nabycia lub koszt wytworzenia paliw ciekłych;
+Liczba stron : 7    Data : 2026-09-16   Nazwa pliku : V2_2725-0.PK                            3
+X kadencja/druk nr 3100
+
+     2)        marża referencyjna oznacza średnią marżę sprzedaży paliw ciekłych w 2025 r.,
+               powiększoną o 20 %, przy czym w przypadku gdy marża referencyjna ustalona w
+               ten sposób jest niższa niż 2,00 %, a także w przypadku podatników, którzy nie
+               prowadzili w 2025 r. działalności w zakresie określonym w art. 5, przyjmuje się,
+               że marża referencyjna wynosi 2,00 %.
+     3. Średnią marżę sprzedaży paliw ciekłych w 2025 r. oblicza się według następującego
+wzoru:
+                   𝑝𝑟𝑧𝑦𝑐ℎ𝑜𝑑𝑦 𝑟𝑒𝑓𝑒𝑟𝑒𝑛𝑐𝑦𝑗𝑛𝑒 − 𝑘𝑜𝑠𝑧𝑡𝑦 𝑟𝑒𝑓𝑒𝑟𝑒𝑛𝑐𝑦𝑗𝑛𝑒
+                                                                × 100 %
+                             𝑝𝑟𝑧𝑦𝑐ℎ𝑜𝑑𝑦 𝑟𝑒𝑓𝑒𝑟𝑒𝑛𝑐𝑦𝑗𝑛𝑒
+     w którym:
+     1)        przychody referencyjne oznaczają przychody ze zbycia paliw ciekłych osiągnięte
+               w 2025 r.;
+     2)        koszty referencyjne oznaczają koszty związane z przychodami referencyjnymi,
+               stanowiące cenę nabycia lub koszt wytworzenia paliw ciekłych.
+     4. Marżę referencyjną i średnią marżę sprzedaży paliw ciekłych w 2025 r. zaokrągla się
+do dwóch miejsc po przecinku.
+     5. Przy ustalaniu wysokości przychodów faktycznych i kosztów faktycznych oraz
+przychodów referencyjnych i kosztów referencyjnych:
+1)   uwzględnia się:
+     a)    wynik na pochodnych instrumentach finansowych służących zabezpieczeniu tych
+           przychodów i kosztów, z wyłączeniem wycen pochodnych instrumentów
+           finansowych,
+     b)    koszty związane z wykonywaniem wynikających z odrębnych przepisów
+           obowiązków dotyczących prowadzenia działalności określonej w art. 5, z
+           wyłączeniem podatków, opłat i innych danin publicznych, których wysokość jest
+           uzależniona od ilości lub wartości zbywanych paliw ciekłych, w części, w jakiej te
+           podatki, opłaty i inne daniny publicznoprawne nie są uwzględniane przy ustalaniu
+           przychodów referencyjnych albo przychodów faktycznych;
+2)   nie uwzględnia się:
+     a)    niezrealizowanych przychodów i kosztów, w szczególności wycen do wartości
+           godziwej dokonywanych dla celów rachunkowych,
+     b)    niezrealizowanych różnic kursowych,
+     c)    wycen wartości zapasów paliw ciekłych,
+Liczba stron : 7   Data : 2026-09-16   Nazwa pliku : V2_2725-0.PK                              4
+X kadencja/druk nr 3100
+
+     d)     innych, niż określone w lit. a–c, pozycji aktywów, pasywów albo przychodów lub
+            kosztów, o podobnym charakterze.
+     6. Przy ustalaniu wysokości przychodów faktycznych i przychodów referencyjnych
+uwzględnia się również wynik na zrealizowanych pochodnych instrumentach finansowych, w
+których dodatkowe rozliczenia pieniężne zależą od ilości lub wartości wytworzonych paliw
+ciekłych lub zbytych paliw ciekłych.
+     7. W przypadku gdy nie jest możliwe jednoznaczne przypisanie:
+1)   kosztów faktycznych lub kosztów referencyjnych odpowiednio do przychodów
+     faktycznych lub przychodów referencyjnych, ze zbycia paliw ciekłych,
+2)   wyniku na pochodnych instrumentach finansowych, o którym mowa w ust. 5 pkt 1 lit. a,
+     odpowiednio do przychodów faktycznych, kosztów faktycznych, przychodów
+     referencyjnych lub kosztów referencyjnych
+– koszty te i wynik ten uwzględnia się w takiej proporcji, w jakiej pozostają osiągnięte w danym
+okresie roku podatkowego odpowiednie przychody ze zbycia paliw ciekłych w ogólnej
+wysokości przychodów podatnika.
+     8. Przepisu ust. 7 nie stosuje się do ustalania ceny nabycia ani kosztu wytworzenia paliw
+ciekłych, jeżeli są one ustalane zgodnie z ustawą z dnia 29 września 1994 r. o rachunkowości
+lub standardami, o których mowa w art. 2 ust. 3 tej ustawy.
+     9. Jeżeli podatnik prowadził działalność w zakresie określonym w art. 5 przez część
+2025 r., przy obliczaniu marży referencyjnej uwzględnia się miesiące, w których podatnik
+prowadził taką działalność.
+     10. Przepisy ust. 1–9 stosuje się z uwzględnieniem poprzedników prawnych podatnika.
+
+     Art. 8. 1. Stawka podatku od nadzwyczajnych zysków wynosi 60 % podstawy obliczenia
+tego podatku.
+     2. W przypadku podatnika nieprowadzącego działalności, o której mowa w art. 5 pkt 1,
+należny podatek od nadzwyczajnych zysków nie może przekroczyć wysokości osiągniętego
+przez tego podatnika i przypadającego proporcjonalnie na rok podatkowy:
+1)   dochodu z pozarolniczej działalności gospodarczej ustalonego zgodnie z przepisami
+     ustawy z dnia 26 lipca 1991 r. o podatku dochodowym od osób fizycznych albo
+2)   dochodu ze źródeł przychodów innych niż zyski kapitałowe ustalonego zgodnie
+     z przepisami ustawy z dnia 15 lutego 1992 r. o podatku dochodowym od osób prawnych,
+     albo
+Liczba stron : 7   Data : 2026-09-16   Nazwa pliku : V2_2725-0.PK                             5
+X kadencja/druk nr 3100
+
+3)   zysku netto ustalonego zgodnie z przepisami ustawy z dnia 29 września 1994 r.
+     o rachunkowości lub standardami, o których mowa w art. 2 ust. 3 tej ustawy, obliczonego
+     bez uwzględnienia podatku od nadzwyczajnych zysków – w przypadku podatnika
+     niebędącego podatnikiem podatku dochodowego od osób fizycznych ani podatku
+     dochodowego od osób prawnych.
+     3. Przez dochód, o którym mowa w ust. 2 pkt 1 i 2, rozumie się dochód przed
+pomniejszeniami i odliczeniami, w tym w szczególności przed odliczeniem straty z lat
+ubiegłych.
+
+     Art. 9. 1. Podatnicy są obowiązani:
+1)   wpłacać w terminie określonym w ust. 2 na rachunek urzędu skarbowego obliczane
+     narastająco miesięczne zaliczki na podatek od nadzwyczajnych zysków w wysokości
+     różnicy między tym podatkiem od zysków osiągniętych od początku roku podatkowego,
+     obliczonym zgodnie z art. 7 i art. 8 ust. 1, a sumą należnych zaliczek na ten podatek za
+     poprzednie miesiące;
+2)   złożyć w terminie do dnia 30 kwietnia 2027 r. właściwemu naczelnikowi urzędu
+     skarbowego zeznanie o wysokości należnego podatku od nadzwyczajnych zysków za
+     pomocą środków komunikacji elektronicznej zgodnie z odrębnymi przepisami
+     określającymi sposób składania deklaracji podatkowych;
+3)   obliczyć i wpłacić na rachunek urzędu skarbowego w terminie określonym w pkt 2
+     należny podatek od nadzwyczajnych zysków albo różnicę między należnym podatkiem
+     od nadzwyczajnych zysków a sumą zapłaconych zaliczek na ten podatek.
+     2. Zaliczki na podatek od nadzwyczajnych zysków są wpłacane w terminie do 25. dnia
+miesiąca za miesiące poprzedzające, przy czym pierwsza zaliczka na podatek od
+nadzwyczajnych zysków jest wpłacana za okres od dnia 1 marca 2026 r. do dnia
+31 października 2026 r.
+     3. W przypadku zaprzestania prowadzenia działalności przez podatnika przed upływem
+terminu do złożenia zeznania o wysokości należnego podatku od nadzwyczajnych zysków,
+zeznanie to jest składane niepóźniej niż w dniu zaprzestania prowadzenia działalności.
+     4. Nadpłata w podatku od nadzwyczajnych zysków powstaje z dniem złożenia zeznania
+o wysokości należnego podatku od nadzwyczajnych zysków i podlega zwrotowi w terminie:
+1)   3 miesięcy od dnia złożenia tego zeznania;
+2)   2 miesięcy od dnia złożenia wniosku o stwierdzenie nadpłaty wraz ze skorygowanym
+     zeznaniem, lecz niewcześniej niż w terminie 3 miesięcy od dnia złożenia tego zeznania.
+Liczba stron : 7    Data : 2026-09-16     Nazwa pliku : V2_2725-0.PK                                     6
+X kadencja/druk nr 3100
+
+       5. Zaliczenie nadpłaty na poczet zaległości podatkowych następuje z dniem powstania
+nadpłaty.
+       6. Oprocentowanie z tytułu nadpłaty, o której mowa w ust. 4, przysługuje:
+1)     od dnia powstania nadpłaty, jeżeli nadpłata nie została zwrócona w terminie 3 miesięcy
+       od dnia złożenia zeznania lub od dnia skorygowania zeznania w trybie art. 274 lub
+       art. 274a ustawy z dnia 29 sierpnia 1997 r. – Ordynacja podatkowa (Dz. U. z 2026 r.
+       poz. 622, z późn. zm.2));
+2)     od dnia złożenia wniosku o stwierdzenie nadpłaty wraz ze skorygowanym zeznaniem,
+       jeżeli nadpłata nie została zwrócona w terminie 2 miesięcy od dnia złożenia wniosku,
+       chyba że do opóźnienia w zwrocie nadpłaty przyczynił się podatnik.
+       7. Do podatku od nadzwyczajnych zysków nie stosuje się art. 74a ustawy z dnia
+29 sierpnia 1997 r. – Ordynacja podatkowa.
+
+       Art. 10. 1. Zeznanie o wysokości należnego podatku od nadzwyczajnych zysków zawiera
+dane identyfikacyjne podatnika oraz dane niezbędne do obliczenia i zapłaty podatku od
+nadzwyczajnych zysków.
+       2. Minister właściwy do spraw finansów publicznych określi, w drodze rozporządzenia,
+szczegółowy zakres danych zawartych w zeznaniu o wysokości należnego podatku od
+nadzwyczajnych zysków wraz z niezbędnymi pouczeniami, uwzględniając konieczność
+prawidłowego rozliczenia podatku od nadzwyczajnych zysków oraz kontroli wykonania tego
+obowiązku przez organ podatkowy.
+
+       Art. 11. Minister właściwy do spraw finansów publicznych może, w drodze
+rozporządzenia, obniżać stawki podatku akcyzowego na wyroby akcyzowe, o których mowa w
+art. 89 ust. 1 pkt 2, 6 i 8 ustawy z dnia 6 grudnia 2008 r. o podatku akcyzowym (Dz. U. z 2026
+r. poz. 412, 414 i 846), na okres do końca roku podatkowego, o którym mowa w art. 4,
+niezbędny do ograniczenia negatywnych skutków konfliktu na Bliskim Wschodzie dla rynku
+paliw, uwzględniając sytuację gospodarczą państwa.
+
+       Art. 12. W ustawie z dnia 26 lipca 1991 r. o podatku dochodowym od osób fizycznych
+(Dz. U. z 2026 r. poz. 592, 779, 846, 1079, 1098 i 1123) po art. 52zt dodaje się art. 52zu
+w brzmieniu:
+
+
+
+2)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2026 r. 825, 846, 875, 1098,
+     1154 i 1206.
+Liczba stron : 7   Data : 2026-09-16   Nazwa pliku : V2_2725-0.PK                             7
+X kadencja/druk nr 3100
+
+           „Art. 52zu. Nie uważa się za koszty uzyskania przychodów podatku od
+     nadzwyczajnych zysków, o którym mowa w ustawie z dnia ……….. o podatku od
+     nadzwyczajnych zysków osiągniętych w okresie od marca do grudnia 2026 r. ze zbycia
+     paliw ciekłych (Dz. U. poz. …).”.
+
+     Art. 13. W ustawie z dnia 15 lutego 1992 r. o podatku dochodowym od osób prawnych
+(Dz. U. z 2026 r. poz. 554, 779, 846, 912 i 1123) po art. 38za dodaje się art. 38zb w brzmieniu:
+           „Art. 38zb. Nie uważa się za koszty uzyskania przychodów podatku od
+     nadzwyczajnych zysków, o którym mowa w ustawie z dnia ……….. o podatku od
+     nadzwyczajnych zysków osiągniętych w okresie od marca do grudnia 2026 r. ze zbycia
+     paliw ciekłych (Dz. U. poz. …).”.
+
+     Art. 14. Ustawa wchodzi w życie z dniem 1 listopada 2026 r., z wyjątkiem art. 11, który
+wchodzi w życie z dniem następującym po dniu ogłoszenia.
+

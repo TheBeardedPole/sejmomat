@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% from "_macros.html" import result_badge, counts %}
+{% block title %}{{ c.name }} ({{ c.id }}){% endblock %}
+{% block description %}{{ c.name }}: {{ c.members | length }} {{ _("obecnych członków") }}, {{ _("spójność") }} {{ c.cohesion | pct }}, {{ _("skuteczność") }} {{ c.effectiveness | pct }}.{% endblock %}
+{% block main_attrs %} data-pagefind-body{% endblock %}
+{% block content %}
+<div class="crumbs"><a href="{{ root }}kluby.html">{{ _("Kluby i koła") }}</a></div>
+<h1>{{ c.name }}</h1>
+<p class="muted">{{ c.id }} · {{ _("głosowania od") }} {{ c.first | date_pl }} {{ _("do") }} {{ c.last | date_pl }}{% if not c.current %} · {{ _("klub/koło już nie istnieje") }}{% endif %}</p>
+
+<div class="grid">
+  <div class="card stat"><b>{{ c.members | length }}</b>{{ _("obecnych członków") }}</div>
+  <div class="card stat"><b>{{ c.cohesion | pct }}</b>{{ _("spójność") }}</div>
+  <div class="card stat"><b>{{ c.split | length }}</b>{{ _("głosowań z podziałem") }}</div>
+  <div class="card stat"><b>{{ c.effectiveness | pct }}</b>{{ _("skuteczność") }}</div>
+</div>
+
+<h2>{{ _("Zgodność z innymi klubami") }}</h2>
+<p class="muted">{{ _("Odsetek głosowań, w których oba kluby miały wyraźną linię i była ona taka sama (min. 20 wspólnych głosowań).") }}</p>
+{% if c.agreement %}
+<table>
+  <tbody>
+  {% for o in c.agreement %}
+  <tr>
+    <td style="width:12em"><a href="{{ root }}klub/{{ club_slug(o.club) }}.html">{{ o.club }}</a></td>
+    <td><div class="bar"><span class="Y" style="width:{{ o.rate * 100 }}%"></span></div></td>
+    <td class="num" style="width:5em">{{ o.rate | pct }}</td>
+    <td class="num muted" style="width:6em">{{ o.both }} {{ _("gł.") }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% else %}<p class="muted">{{ _("Za mało danych.") }}</p>{% endif %}
+
+{% if c.members %}
+<h2>{{ _("Członkowie") }} ({{ c.members | length }})</h2>
+<div class="table-scroll">
+<table>
+  <thead><tr><th data-sort="text">{{ _("Poseł") }}</th><th class="num" data-sort="num">{{ _("Udział w głos.") }}</th><th class="num" data-sort="num">{{ _("Wyłamania") }}</th><th class="num" data-sort="num">{{ _("% wyłamań") }}</th></tr></thead>
+  <tbody>
+  {% for r in c.members %}
+  <tr>
+    <td data-v="{{ r.mp.firstLastName.split()[-1] }}"><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a></td>
+    <td class="num" data-v="{{ r.turnout }}">{{ r.turnout | pct }}</td>
+    <td class="num" data-v="{{ r.rebel_count }}">{{ r.rebel_count }}</td>
+    <td class="num" data-v="{{ r.rebel_rate }}">{{ r.rebel_rate | pct }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endif %}
+
+{% if c.split %}
+<h2>{{ _("Głosowania z podziałem w klubie") }} ({{ c.split | length }})</h2>
+<p class="muted">{{ _("Żadna opcja nie uzyskała większości wśród głosujących członków. Najnowsze na górze.") }}</p>
+<div class="table-scroll"><table><tbody>
+{% for v in c.split | reverse %}{% if loop.index <= 100 %}{% set cc = v.clubs[c.id] %}
+<tr>
+  <td style="white-space:nowrap">{{ v.date | date_pl }}</td>
+  <td><a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic or v.agenda }}</a><div class="snippet">{{ v.agenda | truncate(120) }}</div></td>
+  <td class="num" style="white-space:nowrap"><span class="v-Y">{{ cc.Y }}</span> / <span class="v-N">{{ cc.N }}</span> / <span class="v-A">{{ cc.A }}</span></td>
+  <td>{{ result_badge(v) }}</td>
+</tr>
+{% endif %}{% endfor %}
+</tbody></table></div>
+{% endif %}
+{% endblock %}

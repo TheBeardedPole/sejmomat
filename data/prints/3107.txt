@@ -1,0 +1,817 @@
+                                                                        Druk nr 3107
+          SEJM                                                                                     .
+RZECZYPOSPOLITEJ POLSKIEJ
+              X kadencja
+
+                                      SPRAWOZDANIE
+
+      KOMISJI DO SPRAW ENERGII, KLIMATU I AKTYWÓW PAŃSTWOWYCH
+
+
+   o rządowym projekcie ustawy o zmianie ustawy
+   - Prawo energetyczne oraz niektórych innych
+   ustaw (druk nr 3102)
+         Marszałek Sejmu, zgodnie z art. 37 ust. 1 i art. 40 ust. 1 regulaminu Sejmu – skierował
+   w dniu 15 września 2026 r. powyższy projekt ustawy do Komisji do Spraw Energii, Klimatu
+   i Aktywów Państwowych do pierwszego czytania.
+         Komisja do Spraw Energii, Klimatu i Aktywów Państwowych po przeprowadzeniu
+   pierwszego czytania oraz rozpatrzeniu tego projektu ustawy na posiedzeniu w dniu 16 września
+   2026 r.
+
+        wnosi:
+
+
+        W y s o k i S e j m uchwalić raczy załączony projekt ustawy.
+
+
+   Warszawa, dnia 16 września 2026 r.
+
+
+                    Sprawozdawca                                 Przewodniczący Komisji
+
+
+                 (-) Mariusz Popielarz                                (-) Marek Suski
+
+
+
+
+                   Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 22     Data : 2026-09-17      Nazwa pliku : V7_254-46.NK                                      1
+X kadencja/druk nr 3102
+
+                                                                                                      Projekt
+                                                U S T AWA
+
+                                                    z dnia
+
+            o zmianie ustawy – Prawo energetyczne oraz niektórych innych ustaw1)
+
+
+       Art. 1. W ustawie z dnia 10 kwietnia 1997 r. – Prawo energetyczne (Dz. U. z 2026 r.
+poz. 43, 516, 607 i 900) wprowadza się następujące zmiany:
+1)     w art. 3 w pkt 96 kropkę zastępuje się średnikiem i dodaje się pkt 97–100 w brzmieniu:
+       „97) dane czasu rzeczywistego – dane o bieżącej pracy modułu wytwarzania energii,
+             magazynu energii elektrycznej oraz innych urządzeń, instalacji i sieci;
+       98) dane grafikowe – dane o planowanej dyspozycyjności modułu wytwarzania energii
+             lub magazynu energii elektrycznej, planowanej generacji mocy czynnej netto
+             modułu wytwarzania energii, planowanej wielkości mocy czynnej netto
+             wprowadzanej do sieci przez magazyn energii elektrycznej lub planowanej wielkości
+             mocy czynnej netto pobieranej z sieci przez magazyn energii elektrycznej;
+       99) dane strukturalne – dane o budowie modułu wytwarzania energii, magazynu energii
+             elektrycznej oraz innych urządzeń, instalacji i sieci, a także dane topograficzne
+             określające lokalizację modułu wytwarzania energii lub dane o lokalizacji magazynu
+             energii elektrycznej;
+       100) moduł wytwarzania energii – moduł wytwarzania energii w rozumieniu art. 2 pkt 5
+             rozporządzenia Komisji (UE) 2016/631 z dnia 14 kwietnia 2016 r. ustanawiającego
+             kodeks sieci dotyczący wymogów w zakresie przyłączenia jednostek wytwórczych
+             do sieci (Dz. Urz. UE L 112 z 27.04.2016, str. 1, z późn. zm.), zwanego dalej
+             „rozporządzeniem 2016/631”.”;
+
+
+
+
+1)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 28 grudnia 2018 r. o zmianie ustawy o podatku akcyzowym
+     oraz niektórych innych ustaw, ustawę z dnia 20 maja 2021 r. o zmianie ustawy – Prawo energetyczne oraz
+     niektórych innych ustaw, ustawę z dnia 27 października 2022 r. o środkach nadzwyczajnych mających na celu
+     ograniczenie wysokości cen energii elektrycznej oraz wsparciu niektórych odbiorców w latach 2023–2025 oraz
+     ustawę z dnia 11 czerwca 2026 r. o zmianie niektórych ustaw w celu dokonania deregulacji w zakresie
+     energetyki.
+Liczba stron : 22     Data : 2026-09-17   Nazwa pliku : V7_254-46.NK                           2
+X kadencja/druk nr 3102
+
+2)   w art. 4k:
+     a)    ust. 2 otrzymuje brzmienie:
+                    „2. W przypadku braku możliwości prowadzenia rozliczeń na podstawie
+           informacji rynku energii zarejestrowanych w centralnym systemie informacji rynku
+           energii, spowodowanej niedostępnością:
+           1)       centralnego systemu informacji rynku energii lub
+           2)       systemu informacyjnego współpracującego z centralnym systemem informacji
+                    rynku energii, wykorzystywanego przez podmiot, o którym mowa w art. 11zg
+                    ust. 1, lub operatora systemu przesyłowego elektroenergetycznego
+           – dopuszcza się prowadzenie rozliczeń, o których mowa w ust. 1, na podstawie
+           danych pomiarowych oraz innych informacji rynku energii niezarejestrowanych
+           w centralnym systemie informacji rynku energii, w zakresie, w jakim ta
+           niedostępność uniemożliwia zarejestrowanie danych pomiarowych lub innych
+           informacji rynku energii w centralnym systemie informacji rynku energii lub ich
+           pozyskanie z tego systemu.”,
+     b)    dodaje się ust. 3–10 w brzmieniu:
+                    „3. W przypadku odbiorców końcowych korzystających z przedpłatowej formy
+           rozliczeń energii elektrycznej dopuszcza się prowadzenie rozliczeń oraz wystawianie
+           dokumentów rozliczeniowych na podstawie informacji pochodzących z systemów
+           obsługujących rozliczenia przedpłatowe, niezarejestrowanych w centralnym
+           systemie informacji rynku energii.
+                    4. Podmiot, o którym mowa w art. 11zg ust. 1, którego systemy informacyjne
+           współpracują z centralnym systemem informacji rynku energii, oraz operator
+           systemu przesyłowego elektroenergetycznego przekazują do operatora informacji
+           rynku energii informacje o:
+           1)       niedostępności swojego systemu informacyjnego – w terminie niedłuższym niż
+                    1 godzina od stwierdzenia tej niedostępności;
+           2)       zakresie   niedostępności    oraz    przewidywanym     terminie    usunięcia
+                    niedostępności – w terminie określonym w planie działania, o którym mowa
+                    w art. 11zha ust. 1, przy czym termin ten nie może być dłuższy niż 3 godziny
+                    od stwierdzenia niedostępności albo stwierdzenia zmiany przewidywanego
+                    terminu usunięcia niedostępności;
+Liczba stron : 22     Data : 2026-09-17      Nazwa pliku : V7_254-46.NK                          3
+X kadencja/druk nr 3102
+
+           3)       usunięciu niedostępności – w terminie określonym w planie działania, o którym
+                    mowa w art. 11zha ust. 1, przy czym termin ten nie może być dłuższy niż
+                    2 godziny od przywrócenia normalnej pracy swojego systemu informacyjnego.
+                    5. Operator informacji rynku energii przekazuje podmiotom, o których mowa
+           w art. 11zg ust. 1, oraz operatorowi systemu przesyłowego elektroenergetycznego
+           informacje o:
+           1)       niedostępności centralnego systemu informacji rynku energii, jej zakresie oraz
+                    przewidywanym terminie jej usunięcia – w terminie określonym w planie
+                    działania, o którym mowa w art. 11zha ust. 1, przy czym termin ten nie może
+                    być dłuższy niż 2 godziny od stwierdzenia tej niedostępności;
+           2)       usunięciu niedostępności – w terminie niedłuższym niż 1 godzina od usunięcia
+                    tej niedostępności.
+                    6. Podmiot, o którym mowa w art. 11zg ust. 1, operator systemu przesyłowego
+           elektroenergetycznego oraz operator informacji rynku energii przekazują informacje,
+           o których mowa odpowiednio w ust. 4 i 5, w sposób określony w planach działania,
+           o których mowa w art. 11zha ust. 1 i 2.
+                    7. Operator informacji rynku energii, podmiot, o którym mowa w art. 11zg
+           ust. 1, którego systemy informacyjne współpracują z centralnym systemem
+           informacji        rynku        energii,   oraz    operator     systemu   przesyłowego
+           elektroenergetycznego usuwają niedostępności odpowiednio centralnego systemu
+           informacji rynku energii albo systemu informacyjnego współpracującego z tym
+           systemem, w terminach określonych w planach działania, o których mowa
+           odpowiednio w art. 11zha ust. 1 i 2, przy czym terminy te nie mogą być dłuższe niż
+           24 godziny od stwierdzenia niedostępności danego systemu informacyjnego.
+                    8. Wydłużenie terminów, o których mowa w ust. 7, może nastąpić wyłącznie
+           w przypadku, gdy ich dochowanie nie jest możliwe z przyczyn niezależnych
+           odpowiednio od operatora informacji rynku energii, podmiotu, o którym mowa
+           w art. 11zg ust. 1, którego systemy informacyjne współpracują z centralnym
+           systemem informacji rynku energii, albo operatora systemu przesyłowego
+           elektroenergetycznego.
+                    9. Podmioty, o których mowa w art. 11zg ust. 1, oraz operator systemu
+           przesyłowego elektroenergetycznego uzupełniają lub dokonują korekty danych
+           pomiarowych oraz innych informacji rynku energii w centralnym systemie
+Liczba stron : 22     Data : 2026-09-17     Nazwa pliku : V7_254-46.NK                                   4
+X kadencja/druk nr 3102
+
+             informacji    rynku      energii   po   usunięciu     niedostępności     danego     systemu
+             informacyjnego, o której mowa w ust. 4, lub niedostępności centralnego systemu
+             informacji rynku energii, o której mowa w ust. 5.
+                    10. Użytkownik systemu elektroenergetycznego, w tym operator systemu
+             dystrybucyjnego         elektroenergetycznego,      operator     systemu      przesyłowego
+             elektroenergetycznego lub sprzedawca energii elektrycznej, po usunięciu
+             niedostępności centralnego systemu informacji rynku energii lub systemu
+             informacyjnego współpracującego z tym systemem, dokonują korekty rozliczeń
+             przeprowadzonych zgodnie z ust. 2, jeżeli zastosowane do tych rozliczeń dane
+             pomiarowe lub inne informacje rynku energii były niezgodne z danymi
+             pomiarowymi       lub     innymi    informacjami      rynku    energii    zarejestrowanymi
+             w centralnym systemie informacji rynku energii po ich uzupełnieniu lub korekcie
+             zgodnie z ust. 9. Korektę, o której mowa w zdaniu pierwszym, sporządza się zgodnie
+             z art. 22 ust. 2 ustawy z dnia 29 września 1994 r. o rachunkowości oraz art. 106j
+             ustawy z dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. z 2025 r.
+             poz. 775, z późn. zm.2)), a także przekazuje się w terminie najbliższego rozliczenia
+             dokonywanego po usunięciu niedostępności wraz z informacją o jej przyczynach.”;
+3)     w art. 7 w ust. 3df w pkt 1 wyrazy „rozporządzenia Komisji (UE) 2016/631 z dnia
+       14 kwietnia 2016 r. ustanawiającego kodeks sieci dotyczący wymogów w zakresie
+       przyłączenia jednostek wytwórczych do sieci (Dz. Urz. UE L 112 z 27.04.2016, str. 1,
+       z późn. zm.), zwanego dalej „rozporządzeniem 2016/631”” zastępuje się wyrazami
+       „rozporządzenia 2016/631”;
+4)     w art. 9g w ust. 4 po pkt 5a dodaje się pkt 5b i 5c w brzmieniu:
+       „5b) wymagań w zakresie przekazywania danych strukturalnych, danych grafikowych
+             i danych czasu rzeczywistego oraz wymagań w zakresie realizacji danych
+             grafikowych oraz poleceń operatora systemu elektroenergetycznego dla modułów
+             wytwarzania energii lub magazynów energii elektrycznej;
+       5c) kryteriów spełnienia wymagań w zakresie przekazywania oraz realizacji danych
+             grafikowych, spełnienia wymagań w zakresie przekazywania danych czasu
+             rzeczywistego oraz spełnienia wymagań w zakresie realizacji poleceń operatora
+             systemu elektroenergetycznego dla modułów wytwarzania energii lub magazynów
+
+2)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2025 r. poz. 894, 896, 1203,
+     1541 i 1811 oraz z 2026 r. poz. 507 i 846.
+Liczba stron : 22     Data : 2026-09-17   Nazwa pliku : V7_254-46.NK                             5
+X kadencja/druk nr 3102
+
+           energii elektrycznej, których niespełnienie stanowi rażące naruszenie tych wymagań
+           z punktu widzenia bezpieczeństwa pracy sieci elektroenergetycznej lub warunków,
+           jakie muszą zostać spełnione dla jego utrzymania;”;
+5)   w art. 9j:
+     a)    w ust. 1 uchyla się pkt 4,
+     b)    po ust. 1 dodaje się ust. 1a i 1b w brzmieniu:
+                    „1a. Przedsiębiorstwo energetyczne zajmujące się wytwarzaniem energii
+           elektrycznej w źródłach stanowiących moduł wytwarzania energii typu B, C lub D
+           przyłączonych do sieci elektroenergetycznej jest obowiązane do współpracy
+           z operatorem systemu elektroenergetycznego, do którego sieci elektroenergetycznej
+           dane źródło jest przyłączone, w tym do przekazywania temu operatorowi
+           w odniesieniu do tego źródła danych strukturalnych oraz danych czasu
+           rzeczywistego, a także do przekazywania i realizacji danych grafikowych oraz
+           realizacji poleceń operatorów systemu elektroenergetycznego, w zakresie oraz
+           zgodnie z wymaganiami określonymi w ustawie, przepisach wydanych na podstawie
+           art. 9 ust. 3 i 4, metodzie przyjętej na podstawie art. 40 ust. 5 rozporządzenia Komisji
+           (UE) 2017/1485 z dnia 2 sierpnia 2017 r. ustanawiającego wytyczne dotyczące pracy
+           systemu przesyłowego energii elektrycznej (Dz. Urz. UE L 220 z 25.08.2017, str. 1),
+           instrukcji, o której mowa w art. 9g ust. 1, oraz umowie zawartej z operatorem
+           systemu elektroenergetycznego.
+                    1b. Przedsiębiorstwo energetyczne zajmujące się agregacją lub będące
+           sprzedawcą energii elektrycznej, upoważnione na podstawie art. 4b ust. 12 ustawy
+           z dnia 20 lutego 2015 r. o odnawialnych źródłach energii, w przypadku gdy zarządza
+           pracą źródeł stanowiących moduły wytwarzania energii typu A, jest obowiązane do
+           przekazywania operatorom systemów elektroenergetycznych, do których sieci
+           elektroenergetycznych źródła są przyłączone, i realizacji danych grafikowych
+           w odniesieniu do tych źródeł, w zakresie oraz zgodnie z wymaganiami określonymi
+           w instrukcji, o której mowa w art. 9g ust. 1.”;
+6)   po art. 9j dodaje się art. 9ja–9je w brzmieniu:
+           „Art. 9ja. 1. Przedsiębiorstwo energetyczne zajmujące się magazynowaniem energii
+     elektrycznej w magazynie energii elektrycznej o łącznej mocy zainstalowanej
+     elektrycznej większej niż 50 kW przyłączonym do sieci elektroenergetycznej, niebędącym
+     magazynem energii elektrycznej w mikroinstalacji prosumenta energii odnawialnej,
+Liczba stron : 22   Data : 2026-09-17   Nazwa pliku : V7_254-46.NK                          6
+X kadencja/druk nr 3102
+
+     prosumenta zbiorowego energii odnawialnej lub prosumenta wirtualnego energii
+     odnawialnej,      jest    obowiązane     do    współpracy       z   operatorem   systemu
+     elektroenergetycznego, do którego sieci elektroenergetycznej magazyn energii
+     elektrycznej jest przyłączony, w tym do przekazywania temu operatorowi w odniesieniu
+     do tego magazynu energii elektrycznej danych strukturalnych oraz danych czasu
+     rzeczywistego, a także do przekazywania i realizacji danych grafikowych oraz realizacji
+     poleceń operatorów systemu elektroenergetycznego, w zakresie oraz zgodnie z
+     wymaganiami określonymi w ustawie, przepisach wydanych na podstawie art. 9 ust. 3 i
+     4, instrukcji, o której mowa w art. 9g ust. 1, oraz umowie zawartej z operatorem systemu
+     elektroenergetycznego.
+           2. Przedsiębiorstwo energetyczne zajmujące się agregacją, w przypadku gdy
+     zarządza pracą magazynów energii elektrycznej o łącznej mocy zainstalowanej
+     elektrycznej niewiększej niż 50 kW, magazynów energii elektrycznej w mikroinstalacjach
+     prosumenta energii odnawialnej, prosumenta zbiorowego energii odnawialnej lub
+     prosumenta wirtualnego energii odnawialnej, jest obowiązane do przekazywania
+     operatorom systemów elektroenergetycznych, do których sieci elektroenergetycznych te
+     magazyny energii elektrycznej są przyłączone, i realizacji danych grafikowych
+     w odniesieniu do tych magazynów energii elektrycznej, w zakresie oraz zgodnie
+     z wymaganiami określonymi w instrukcji, o której mowa w art. 9g ust. 1.
+           Art. 9jb. Właściciel źródła stanowiącego moduł wytwarzania energii typu B, C lub
+     D, niebędący przedsiębiorstwem energetycznym zajmującym się wytwarzaniem energii
+     elektrycznej,     jest    obowiązany     do    współpracy       z   operatorem   systemu
+     elektroenergetycznego, do którego sieci elektroenergetycznej są przyłączone jego
+     urządzenia, instalacje lub sieć, w tym do przekazywania temu operatorowi w odniesieniu
+     do tego źródła danych strukturalnych oraz danych czasu rzeczywistego, a także do
+     przekazywania i realizacji danych grafikowych oraz realizacji poleceń operatorów
+     systemu elektroenergetycznego, w zakresie oraz zgodnie z wymaganiami określonymi
+     w ustawie, przepisach wydanych na podstawie art. 9 ust. 3 i 4, szczegółowych
+     wymaganiach dotyczących sposobu i zakresu wymiany danych określonych na podstawie
+     art. 40 ust. 5 rozporządzenia Komisji (UE) 2017/1485 z dnia 2 sierpnia 2017 r.
+     ustanawiającego wytyczne dotyczące pracy systemu przesyłowego energii elektrycznej,
+     instrukcji, o której mowa w art. 9g ust. 1, oraz umowie zawartej z operatorem systemu
+     elektroenergetycznego.
+Liczba stron : 22   Data : 2026-09-17     Nazwa pliku : V7_254-46.NK                              7
+X kadencja/druk nr 3102
+
+           Art. 9jc. Posiadacz magazynu energii elektrycznej o łącznej mocy zainstalowanej
+     elektrycznej większej niż 50 kW przyłączonego do sieci elektroenergetycznej,
+     niebędącego magazynem energii elektrycznej w mikroinstalacji prosumenta energii
+     odnawialnej, prosumenta zbiorowego energii odnawialnej lub prosumenta wirtualnego
+     energii odnawialnej, niebędący przedsiębiorstwem energetycznym zajmującym się
+     magazynowaniem energii elektrycznej, jest obowiązany do współpracy z operatorem
+     systemu elektroenergetycznego, do którego sieci elektroenergetycznej magazyn energii
+     elektrycznej jest przyłączony, w tym do przekazywania temu operatorowi w odniesieniu
+     do tego magazynu energii elektrycznej danych strukturalnych oraz danych czasu
+     rzeczywistego, a także do przekazywania i realizacji danych grafikowych oraz realizacji
+     poleceń operatorów systemu elektroenergetycznego, w zakresie oraz zgodnie
+     z wymaganiami określonymi w ustawie, przepisach wydanych na podstawie art. 9 ust. 3
+     i 4, instrukcji, o której mowa w art. 9g ust. 1, oraz umowie zawartej z operatorem systemu
+     elektroenergetycznego.
+           Art. 9jd. 1. Przedsiębiorstwa energetyczne, o których mowa w art. 9j ust. 1b i art. 9ja
+     ust. 2, w przypadku gdy pozyskują dane czasu rzeczywistego, wymienione w instrukcji,
+     o której mowa w art. 9g ust. 1, o pracy źródeł, o których mowa w art. 9j ust. 1b, oraz
+     magazynów energii elektrycznej, o których mowa w art. 9ja ust. 2, są obowiązane do
+     przekazywania na bieżąco tych danych do operatora systemu elektroenergetycznego, do
+     którego sieci elektroenergetycznej zasoby te są przyłączone, w zakresie oraz zgodnie
+     z wymaganiami określonymi w instrukcji, o której mowa w art. 9g ust. 1.
+           2. Przedsiębiorstwa energetyczne, o których mowa w art. 9j ust. 1b i art. 9ja ust. 2,
+     na     wniosek       operatora     systemu   elektroenergetycznego,     do    którego     sieci
+     elektroenergetycznej są przyłączone zasoby, o których mowa w tych przepisach, składają,
+     w terminie 21 dni od dnia otrzymania wniosku, do tego operatora pisemne oświadczenie
+     o zakresie i sposobie pozyskiwania danych czasu rzeczywistego o pracy tych zasobów.
+           Art. 9je. 1. W przypadku gdy przedsiębiorstwo energetyczne, o którym mowa
+     w art. 9j ust. 1a i art. 9ja ust. 1, właściciel źródła, o którym mowa w art. 9jb, lub posiadacz
+     magazynu energii elektrycznej, o którym mowa w art. 9jc, rażąco naruszy wymagania
+     w zakresie przekazywania lub realizacji danych grafikowych, wymagania w zakresie
+     przekazywania danych czasu rzeczywistego lub wymagania w zakresie realizacji poleceń
+     operatora systemu elektroenergetycznego w odniesieniu do modułu wytwarzania energii
+     lub magazynu energii elektrycznej, operator systemu elektroenergetycznego może
+Liczba stron : 22     Data : 2026-09-17   Nazwa pliku : V7_254-46.NK                         8
+X kadencja/druk nr 3102
+
+     w każdym przypadku tego naruszenia, na zasadach określonych w instrukcji, o której
+     mowa w art. 9g ust. 1, na okres niedłuższy niż 24 godziny, ograniczyć albo wstrzymać
+     świadczenie usług przesyłania albo dystrybucji energii elektrycznej, przez ograniczenie
+     wprowadzania energii elektrycznej do sieci elektroenergetycznej, poboru energii
+     elektrycznej z tej sieci albo odłączenie od sieci elektroenergetycznej tego modułu
+     wytwarzania energii lub magazynu energii elektrycznej.
+           2. Z tytułu ograniczenia albo wstrzymania świadczenia usług przesyłania albo
+     dystrybucji energii elektrycznej zgodnie z ust. 1, przedsiębiorstwu energetycznemu,
+     właścicielowi źródła oraz posiadaczowi magazynu energii elektrycznej, o których mowa
+     w ust. 1, nie przysługuje odszkodowanie lub rekompensata, a operator systemu
+     elektroenergetycznego nie ponosi odpowiedzialności za skutki ograniczeń albo
+     odłączenia.”;
+7)   w art. 11:
+     a)    w ust. 1 część wspólna otrzymuje brzmienie:
+           „– na terytorium Rzeczypospolitej Polskiej lub jego części mogą być wprowadzone
+           na czas oznaczony ograniczenia w dostarczaniu i poborze energii elektrycznej,
+           sprzedaży paliw stałych lub dostarczaniu ciepła.”,
+     b)    w ust. 3 wprowadzenie do wyliczenia otrzymuje brzmienie:
+           „Ograniczenia w dostarczaniu i poborze energii elektrycznej lub dostarczaniu ciepła
+           polegają na:”,
+     c)    w ust. 3b pkt 2 otrzymuje brzmienie:
+           „2) operator systemu dystrybucyjnego elektroenergetycznego, do którego sieci jest
+                    przyłączony odbiorca, działając w imieniu własnym, lecz na rzecz operatora
+                    systemu przesyłowego elektroenergetycznego – w przypadku odbiorcy
+                    przyłączonego do sieci dystrybucyjnej elektroenergetycznej.”,
+     d)    ust. 6 i 6a otrzymują brzmienie:
+                    „6. Rada Ministrów określi, w drodze rozporządzenia, szczegółowe wymagania
+           dotyczące wprowadzania na czas oznaczony ograniczeń w dostarczaniu i poborze
+           energii elektrycznej oraz wypłaty wynagrodzenia, o którym mowa w ust. 3a, a także
+           tryb postępowania w tych sprawach, biorąc pod uwagę znaczenie odbiorców dla
+           gospodarki i funkcjonowania państwa, w szczególności zadania wykonywane przez
+           tych odbiorców, oraz mając na względzie pokrycie uzasadnionych kosztów
+           ponoszonych przez odbiorców, którzy dostosowują się do ograniczeń, zachętę dla
+Liczba stron : 22     Data : 2026-09-17      Nazwa pliku : V7_254-46.NK                               9
+X kadencja/druk nr 3102
+
+           odbiorców do uczestniczenia w mechanizmach rynkowych oraz średnią cenę
+           sprzedaży energii elektrycznej na rynku konkurencyjnym ogłaszaną na podstawie art.
+           23 ust. 2 pkt 18 lit. b.
+                    6a. Rozporządzenie, o którym mowa w ust. 6, określa w szczególności:
+           1)       sposób wprowadzania ograniczeń w dostarczaniu i poborze energii elektrycznej
+                    umożliwiający odbiorcom dostosowanie się do tych ograniczeń w określonym
+                    czasie;
+           2)       rodzaje odbiorców objętych ograniczeniami w dostarczaniu i poborze energii
+                    elektrycznej;
+           3)       zakres i okres ochrony odbiorców przed wprowadzonymi ograniczeniami
+                    w dostarczaniu i poborze energii elektrycznej;
+           4)       zakres planów wprowadzania ograniczeń w dostarczaniu i poborze energii
+                    elektrycznej oraz sposób określania w nich wielkości tych ograniczeń;
+           5)       sposób    i     termin   opracowywania     planów     wprowadzania      ograniczeń
+                    w dostarczaniu i poborze energii elektrycznej;
+           6)       termin uzgodnienia planów wprowadzania ograniczeń w dostarczaniu i poborze
+                    energii elektrycznej, zgodnie z ust. 3[5] pkt 1, oraz okres, na jaki uzgadnia się te
+                    plany;
+           7)       zakres informacji przekazywanych, zgodnie z ust. 3[4] pkt 1, między operatorem
+                    systemu elektroenergetycznego a odbiorcami energii elektrycznej;
+           8)       sposób podawania do publicznej wiadomości informacji o ograniczeniach
+                    w dostarczaniu i poborze energii elektrycznej;
+           9)       przypadki, w których za wprowadzenie ograniczeń w dostarczaniu i poborze
+                    energii elektrycznej przysługuje odbiorcy wynagrodzenie, o którym mowa
+                    w ust. 3a;
+           10) sposób ustalania danych niezbędnych do określenia wielkości dokonanego
+                    przez odbiorcę zmniejszenia zużycia energii elektrycznej wynikającego
+                    z wprowadzonych ograniczeń w dostarczaniu i poborze energii elektrycznej;
+           11) sposób ustalania wynagrodzenia, o którym mowa w ust. 3a, w przypadkach
+                    określonych na podstawie pkt 9;
+           12) sposób i tryb dokonywania rozliczeń między operatorami systemów
+                    elektroenergetycznych oraz tymi operatorami i odbiorcami energii elektrycznej
+                    z tytułu wypłaty wynagrodzenia, o którym mowa w ust. 3a;
+Liczba stron : 22     Data : 2026-09-17      Nazwa pliku : V7_254-46.NK                             10
+X kadencja/druk nr 3102
+
+           13) sposób i tryb wymiany informacji oraz zakres i rodzaj przekazywanych danych
+                    między operatorami systemów elektroenergetycznych oraz tymi operatorami
+                    i odbiorcami energii elektrycznej niezbędnych do wypłaty wynagrodzenia,
+                    o którym mowa w ust. 3a;
+           14) zakres i rodzaj danych publikowanych przez operatorów systemów
+                    elektroenergetycznych o odbiorcach energii elektrycznej podlegających
+                    ograniczeniom lub uwzględnianych w planach wprowadzania ograniczeń
+                    w dostarczaniu i poborze energii elektrycznej.”,
+     e)    po ust. 6a dodaje się ust. 6aa i 6ab w brzmieniu:
+                    „6aa. Rada Ministrów określi, w drodze rozporządzenia, szczegółowe
+           wymagania dotyczące wprowadzania na czas oznaczony ograniczeń w sprzedaży
+           paliw stałych oraz dostarczaniu ciepła, a także tryb postępowania w tych sprawach,
+           biorąc pod uwagę bezpieczeństwo osób, a także znaczenie odbiorców dla gospodarki
+           i funkcjonowania państwa, w szczególności zadania wykonywane przez tych
+           odbiorców.
+                    6ab. Rozporządzenie, o którym mowa w ust. 6aa, określa w szczególności:
+           1)       sposób wprowadzania ograniczeń w dostarczaniu ciepła umożliwiający
+                    odbiorcom dostosowanie się do tych ograniczeń w określonym czasie;
+           2)       rodzaje odbiorców objętych ograniczeniami w dostarczaniu ciepła;
+           3)       zakres i okres ochrony odbiorców przed wprowadzonymi ograniczeniami
+                    w dostarczaniu ciepła;
+           4)       zakres planów wprowadzania ograniczeń w dostarczaniu ciepła oraz sposób
+                    określania w nich wielkości tych ograniczeń;
+           5)       sposób    i   termin   opracowywania      planów      wprowadzania      ograniczeń
+                    w dostarczaniu ciepła;
+           6)       termin uzgodnienia planów wprowadzania ograniczeń w dostarczaniu ciepła,
+                    zgodnie z ust. 3[5] pkt 2, oraz okres, na jaki uzgadnia się te plany;
+           7)       zakres informacji przekazywanych, zgodnie z ust. 3[4] pkt 2, między odbiorcami
+                    ciepła a przedsiębiorstwami energetycznymi zajmującymi się przesyłaniem
+                    i dystrybucją ciepła albo podmiotami prowadzącymi działalność w zakresie
+                    zaopatrzenia w ciepło;
+           8)       sposób podawania do publicznej wiadomości informacji o ograniczeniach
+                    w dostarczaniu ciepła.”,
+Liczba stron : 22     Data : 2026-09-17   Nazwa pliku : V7_254-46.NK                          11
+X kadencja/druk nr 3102
+
+     f)    w ust. 7 wyrazy „ograniczenia w sprzedaży paliw stałych oraz w dostarczaniu
+           i poborze energii elektrycznej i ciepła” zastępuje się wyrazami „ograniczenia
+           w dostarczaniu i poborze energii elektrycznej, sprzedaży paliw stałych oraz
+           dostarczaniu ciepła”;
+8)   w art. 11t:
+     a)    po ust. 2 dodaje się ust. 2a–2c w brzmieniu:
+                    „2a. Operator systemu dystrybucyjnego elektroenergetycznego instaluje
+           liczniki     zdalnego    odczytu   na   wszystkich   stacjach   elektroenergetycznych
+           transformujących średnie napięcie na niskie, stanowiących element jego sieci
+           dystrybucyjnej, skomunikowane z systemem zdalnego odczytu.
+                    2b. Operator systemu dystrybucyjnego elektroenergetycznego, który odstąpił
+           od realizacji obowiązku, o którym mowa w ust. 2a, w odniesieniu do danej stacji
+           elektroenergetycznej transformującej średnie napięcie na niskie, jeżeli instalacja
+           licznika zdalnego odczytu:
+           1)       okazała się niemożliwa z przyczyn technicznych lub prawnych lub
+           2)       okazała się nieuzasadniona ekonomicznie
+           – dokumentuje te okoliczności w terminie 3 miesięcy od dnia stwierdzenia przesłanki
+           uzasadniającej odstąpienie od realizacji tego obowiązku.
+                    2c. Operator systemu dystrybucyjnego elektroenergetycznego informuje
+           Prezesa Urzędu Regulacji Energetyki o odstąpieniu od realizacji obowiązku, o
+           którym mowa w ust. 2a, oraz o przyczynach tego odstąpienia w terminie 30 dni od
+           dnia udokumentowania okoliczności, o których mowa w ust. 2b.”,
+     b)    uchyla się ust. 3;
+9)   w art. 11y w ust. 1 po pkt 5 dodaje się pkt 5a w brzmieniu:
+     „5a) opracowuje plan działania, o którym mowa w art. 11zha ust. 1, wprowadza go do
+           stosowania oraz informuje o okresie jego stosowania;”;
+10) w art. 11zc:
+     a)    w ust. 1 w pkt 8 wyrazy „Prezesowi Głównego Urzędu Miar –” zastępuje się
+           wyrazami „organom administracji miar w rozumieniu art. 2 ust. 1 pkt 3 ustawy z dnia
+           11 maja 2001 r. – Prawo o miarach, zwanym dalej „organami administracji miar”,”,
+     b)    w ust. 5 pkt 6 otrzymuje brzmienie:
+           „6) organom administracji miar;”;
+Liczba stron : 22   Data : 2026-09-17     Nazwa pliku : V7_254-46.NK                          12
+X kadencja/druk nr 3102
+
+11) po art. 11zh dodaje się art. 11zha w brzmieniu:
+           „Art. 11zha. 1. Operator informacji rynku energii jest obowiązany do opracowania
+     i stosowania planu działania mającego na celu zapewnienie ciągłości realizacji procesów
+     rynku energii, w szczególności na wypadek wystąpienia:
+     1)    zakłóceń pracy lub niedostępności centralnego systemu informacji rynku energii;
+     2)    zakłóceń pracy lub niedostępności infrastruktury telekomunikacyjnej niezbędnej do
+           wymiany informacji rynku energii za pośrednictwem centralnego systemu
+           informacji rynku energii.
+           2. Operator systemu przesyłowego elektroenergetycznego oraz podmioty, o których
+     mowa w art. 11zg ust. 1, których systemy informacyjne współpracują z centralnym
+     systemem informacji rynku energii, są obowiązani do opracowania i stosowania planów
+     działania mających na celu zapewnienie ciągłości realizacji procesów rynku energii,
+     w szczególności przez ograniczenie skutków zakłóceń oraz zapewnienie możliwie
+     najszybszego przywrócenia prawidłowej realizacji tych procesów, na wypadek
+     wystąpienia:
+     1)    zakłóceń pracy lub niedostępności systemów informacyjnych współpracujących
+           z centralnym systemem informacji rynku energii;
+     2)    zakłóceń pracy lub niedostępności centralnego systemu informacji rynku energii;
+     3)    zakłóceń pracy lub niedostępności infrastruktury telekomunikacyjnej niezbędnej do
+           wymiany informacji rynku energii za pośrednictwem centralnego systemu
+           informacji rynku energii.
+           3. Plany działania, o których mowa w ust. 1 i 2, określają w szczególności:
+     1)    podmioty, do których stosuje się dany plan;
+     2)    procesy rynku energii, które są objęte danym planem;
+     3)    środki stosowane dla ograniczenia skutków zakłóceń w realizacji procesów rynku
+           energii oraz przywrócenia prawidłowej realizacji tych procesów;
+     4)    środki stosowane dla przywrócenia ciągłości realizacji procesów rynku energii;
+     5)    terminy     zgłaszania       niedostępności   systemów      informacyjnych,   zakresu
+           niedostępności, przewidywanego terminu usunięcia niedostępności, stwierdzenia
+           zmiany przewidywanego terminu usunięcia niedostępności oraz jej usunięcia;
+     6)    sposób uzupełnienia i korekty danych pomiarowych i innych informacji rynku
+           energii w centralnym systemie informacji rynku energii oraz w systemach
+           informacyjnych współpracujących z tym systemem;
+Liczba stron : 22     Data : 2026-09-17     Nazwa pliku : V7_254-46.NK                              13
+X kadencja/druk nr 3102
+
+     7)    sposób i zakres wymiany informacji rynku energii oraz komunikacji między
+           operatorem         informacji       rynku      energii      a       użytkownikami   systemu
+           elektroenergetycznego oraz między użytkownikami systemu elektroenergetycznego,
+           w przypadku niedostępności centralnego systemu informacji rynku energii oraz
+           systemów informacyjnych współpracujących z centralnym systemem informacji
+           rynku energii, o której mowa w art. 4k ust. 2.
+           4. Plany działania, o których mowa w ust. 2, uwzględniają postanowienia planu
+     działania, o którym mowa w ust. 1.”;
+12) w art. 28:
+     a)    w ust. 1 wyrazy „przedsiębiorstwa energetycznego i podmiotu przywożącego”
+           zastępuje się wyrazami „podmiotów, o których mowa w art. 9jb lub art. 9jc,
+           w zakresie, w jakim są obowiązane do przekazywania danych strukturalnych oraz
+           danych czasu rzeczywistego, a także do przekazywania i realizacji danych
+           grafikowych oraz realizacji poleceń operatorów systemu elektroenergetycznego,
+           przedsiębiorstwa energetycznego i podmiotu przywożącego”,
+     b)    dodaje się ust. 4 w brzmieniu:
+                    „4. Operator systemu elektroenergetycznego przekazuje Prezesowi URE, w
+           terminie 30 dni od zakończenia kwartału, zbiorczą informację o stwierdzonych
+           naruszeniach obowiązków, o których mowa w art. 9j–9jd, oraz o zastosowaniu
+           środków wskazanych w art. 9je ust. 1.”;
+13) w art. 32d w ust. 4 wyrazy „Prezesowi Głównego Urzędu Miar” zastępuje się wyrazami
+     „organom administracji miar”;
+14) w art. 43c wyrazy „Prezesowi Głównego Urzędu Miar” zastępuje się wyrazami „organom
+     administracji miar”;
+15) w art. 56:
+     a)    w ust. 1:
+           –   po pkt 19 dodaje się pkt 19a i 19b w brzmieniu:
+               „19a) nie wykonuje obowiązków określonych w art. 9j ust. 1a lub 1b, art. 9ja
+                       ust. 1 lub 2, art. 9jb, art. 9jc lub art. 9jd ust. 1;
+               19b) nie złożył w terminie albo złożył nieprawdziwe albo złożył świadomie lub
+                       w wyniku niedbalstwa wprowadzające w błąd oświadczenie, o którym
+                       mowa w art. 9jd ust. 2;”,
+Liczba stron : 22     Data : 2026-09-17     Nazwa pliku : V7_254-46.NK                         14
+X kadencja/druk nr 3102
+
+           –   po pkt 30b dodaje się pkt 30ba–30be w brzmieniu:
+               „30ba)nie przekazuje albo nie przekazuje w terminach określonych w planach
+                       działania, o których mowa w art. 11zha ust. 1 i 2, informacji
+                       o niedostępności albo informacji o usunięciu niedostępności odpowiednio
+                       centralnego systemu informacji rynku energii albo systemu informacyjnego
+                       współpracującego z tym systemem;
+               30bb) nie usuwa z nieuzasadnionych powodów albo nie usuwa w terminie,
+                       o którym mowa w art. 4k ust. 7, z wyjątkiem przypadku, o którym mowa w
+                       art. 4k ust. 8, niedostępności centralnego systemu informacji rynku energii
+                       albo systemu informacyjnego współpracującego z tym systemem, o której
+                       mowa w art. 4k ust. 2, wbrew obowiązkowi, o którym mowa w art. 4k ust.
+                       7;
+               30bc) nie uzupełnia lub nie dokonuje korekty danych pomiarowych oraz innych
+                       informacji rynku energii w centralnym systemie informacji rynku energii,
+                       wbrew obowiązkowi, o którym mowa w art. 4k ust. 9;
+               30bd) nie dokonuje korekty rozliczeń, wbrew obowiązkowi, o którym mowa
+                       w art. 4k ust. 10;
+               30be) nie opracowuje planu działania, o którym mowa w art. 11zha ust. 1
+                       lub 2;”,
+           –   pkt 30d otrzymuje brzmienie:
+               „30d) z nieuzasadnionych powodów nie instaluje liczników zdalnego odczytu
+                       zgodnie z art. 11t ust. 1–2a;”,
+     b)    w ust. 2g w pkt 3 wyrazy „pkt 30b” zastępuje się wyrazami „pkt 30b–30be”,
+     c)    w ust. 3:
+           –   w pkt 1 wyrazy „18a–20” zastępuje się wyrazami „18a–19, 19b, 20”,
+           –   w pkt 2 kropkę zastępuje się średnikiem i dodaje się pkt 3 w brzmieniu:
+               „3) w ust. 1 pkt 19a nie może być niższa niż 1000 zł i wyższa niż 500 000 zł.”,
+     d)    po ust. 3c dodaje się ust. 3d w brzmieniu:
+                    „3d. W przypadkach, o których mowa w ust. 1 pkt 19a, karę pieniężną wymierza
+           się, w granicach określonych w ust. 3 pkt 3, łącznie za wszystkie przypadki
+           niewykonania obowiązków określonych w art. 9j ust. 1a i 1b, art. 9ja ust. 1 i 2,
+           art. 9jb, art. 9jc lub art. 9jd ust. 1, które miały miejsce w okresie danego kwartału
+           kalendarzowego.”,
+Liczba stron : 22     Data : 2026-09-17      Nazwa pliku : V7_254-46.NK                                     15
+X kadencja/druk nr 3102
+
+       e)    po ust. 6a dodaje się ust. 6aa i 6ab w brzmieniu:
+                    „6aa. Użytkownik systemu elektroenergetycznego nie podlega karom
+             pieniężnym, o których mowa w ust. 1 pkt 30b, 30h i 30k–30m, w zakresie, w jakim
+             okoliczności stanowiące podstawę do wymierzenia tych kar pieniężnych wynikają
+             z wystąpienia niedostępności, o której mowa w art. 4k ust. 2, odpowiednio
+             centralnego systemu informacji rynku energii albo systemu informacyjnego
+             współpracującego z tym systemem, wykorzystywanego przez podmiot, o którym
+             mowa w art. 11zg ust. 1, lub operatora systemu przesyłowego elektroenergetycznego.
+                    6ab. Operator informacji rynku energii nie podlega karom pieniężnym,
+             o których mowa w ust. 1 pkt 30j i 30l, w zakresie, w jakim okoliczności stanowiące
+             podstawę do wymierzenia tych kar pieniężnych wynikają z wystąpienia
+             niedostępności, o której mowa w art. 4k ust. 2, odpowiednio centralnego systemu
+             informacji rynku energii albo systemu informacyjnego współpracującego z tym
+             systemem, wykorzystywanego przez podmiot, o którym mowa w art. 11zg ust. 1, lub
+             operatora systemu przesyłowego elektroenergetycznego.”.
+
+       Art. 2. W ustawie z dnia 28 grudnia 2018 r. o zmianie ustawy o podatku akcyzowym oraz
+niektórych innych ustaw (Dz. U. poz. 2538, z późn. zm.3)) w art. 16 w ust. 1:
+1)     w pkt 2d po wyrazach „w latach 2023–2025,” dodaje się wyrazy „na rachunek Funduszu
+       z przeznaczeniem na wypłaty”;
+2)     w pkt 2m wprowadzenie do wyliczenia otrzymuje brzmienie:
+       „przekazywanie środków na rzecz podmiotu, o którym mowa w:”.
+
+       Art. 3. W ustawie z dnia 20 maja 2021 r. o zmianie ustawy – Prawo energetyczne oraz
+niektórych innych ustaw (Dz. U. poz. 1093, z późn. zm. 4)) po art. 20d dodaje się art. 20e
+i art. 20f w brzmieniu:
+             „Art. 20e. 1. Prezes Urzędu Regulacji Energetyki może odstąpić od wymierzenia
+       kary pieniężnej, o której mowa w art. 56 ust. 1 pkt 30b, 30h, 30k, 30l i 30m ustawy
+       zmienianej w art. 1, operatorowi systemu dystrybucyjnego elektroenergetycznego, o
+       którym mowa w art. 20b ust. 1, który nie rozpoczął realizacji zadań, o których mowa w
+
+
+
+3)
+     Zmiany wymienionej ustawy zostały ogłoszone w Dz. U. z 2019 r. poz. 412, 1210, 1495 i 1532, z 2021 r.
+     poz. 1093, z 2022 r. poz. 202, 1477, 1692, 2243 i 2687, z 2023 r. poz. 1785 i 2760 oraz z 2024 r. poz. 859
+     i 1831.
+4)
+     Zmiany wymienionej ustawy zostały ogłoszone w Dz. U. z 2021 r. poz. 1505, 1642, 2269 i 2376, z 2022 r.
+     poz. 1, 1967 i 2243, z 2023 r. poz. 1113, 1506, 1681 i 1762 oraz z 2025 r. poz. 759.
+Liczba stron : 22   Data : 2026-09-17   Nazwa pliku : V7_254-46.NK                           16
+X kadencja/druk nr 3102
+
+     rozdziale 2d ustawy zmienianej w art. 1, w terminie wskazanym w art. 20b ust. 1, jeżeli
+     łącznie są spełnione następujące warunki:
+     1)    operator ten zawarł umowę, o której mowa w art. 11zg ust. 1 ustawy zmienianej
+           w art. 1, przed terminem określonym w art. 20b ust. 1;
+     2)    operator ten rozpoczął realizację zadań, o których mowa w rozdziale 2d ustawy
+           zmienianej w art. 1, z dniem 19 kwietnia 2028 r.
+           2. Użytkownik systemu elektroenergetycznego, inny niż operator systemu
+     dystrybucyjnego elektroenergetycznego, który wbrew obowiązkowi nie rozpoczął
+     realizacji zadań, o których mowa w rozdziale 2d ustawy zmienianej w art. 1, w terminie
+     określonym w art. 20b ust. 1, nie podlega karom pieniężnym, o których mowa w art. 56
+     ust. 1 pkt 30b, 30h i 30k–30m ustawy zmienianej w art. 1, w zakresie, w jakim
+     okoliczności stanowiące podstawę do wymierzenia tych kar pieniężnych wynikają z braku
+     rozpoczęcia przez danego operatora systemu dystrybucyjnego elektroenergetycznego, o
+     którym mowa w art. 20b ust. 1, realizacji zadań, o których mowa w rozdziale 2d ustawy
+     zmienianej w art. 1.
+           Art. 20f. Użytkownik systemu elektroenergetycznego, w tym operator systemu
+     dystrybucyjnego        elektroenergetycznego,     operator       systemu     przesyłowego
+     elektroenergetycznego lub sprzedawca energii elektrycznej, prowadzi rozliczenia,
+     o których mowa w art. 4k ust. 1 ustawy zmienianej w art. 1, od dnia 19 października
+     2026 r. na podstawie informacji rynku energii niezarejestrowanych w centralnym
+     systemie informacji rynku energii, jeżeli prowadzenie tych rozliczeń na podstawie
+     informacji rynku energii zarejestrowanych w centralnym systemie informacji rynku
+     energii nie jest możliwe z powodu braku rozpoczęcia przez danego operatora systemu
+     dystrybucyjnego elektroenergetycznego, o którym mowa w art. 20b ust. 1, realizacji
+     zadań, o których mowa w rozdziale 2d ustawy zmienianej w art. 1, od dnia
+     19 października 2026 r. Rozliczenia, o których mowa w zdaniu pierwszym, prowadzi się
+     do     dnia    rozpoczęcia     przez   danego    operatora      systemu    dystrybucyjnego
+     elektroenergetycznego realizacji zadań, o których mowa w rozdziale 2d ustawy
+     zmienianej w art. 1. W przypadku, o którym mowa w zdaniu pierwszym, dopuszcza się
+     wykonywanie obowiązku, o którym mowa w art. 92 ust. 11a ustawy zmienianej w art. 7,
+     bez pośrednictwa centralnego systemu informacji rynku energii do dnia rozpoczęcia przez
+     danego operatora systemu dystrybucyjnego elektroenergetycznego realizacji zadań, o
+     których mowa w rozdziale 2d ustawy zmienianej w art. 1.”.
+Liczba stron : 22   Data : 2026-09-17   Nazwa pliku : V7_254-46.NK                           17
+X kadencja/druk nr 3102
+
+     Art. 4. W ustawie z dnia 27 października 2022 r. o środkach nadzwyczajnych mających
+na celu ograniczenie wysokości cen energii elektrycznej oraz wsparciu niektórych odbiorców
+w latach 2023–2025 (Dz. U. z 2024 r. poz. 1622 i 1831, z 2025 r. poz. 290 i 1302 oraz z 2026 r.
+poz. 32) wprowadza się następujące zmiany:
+1)   w art. 24 ust. 4 otrzymuje brzmienie:
+           „4. Zarządca rozliczeń, w terminie do 15. dnia roboczego każdego miesiąca
+     następującego      po   miesiącu    rozliczenia,   przekazuje   na   rachunek    Funduszu
+     Przeciwdziałania COVID-19 środki finansowe zgromadzone z odpisu na Fundusz wraz
+     z odsetkami, jeżeli takie powstaną, pomniejszone o kwoty, wynikające z decyzji Prezesa
+     URE wydanych na podstawie art. 28 ust. 7 pkt 2 lit. b oraz wniosków, o których mowa
+     w art. 28b ust. 3 pkt 2, złożonych w miesiącu poprzedzającym dany miesiąc oraz innych
+     środków podlegających zwrotowi podmiotom, o których mowa w art. 21.”;
+2)   w art. 28 w ust. 7 w pkt 2 lit. b otrzymuje brzmienie:
+     „b) obowiązku przekazania z rachunku Funduszu na rzecz podmiotu, o którym mowa
+           w art. 21, kwoty stanowiącej dodatnią różnicę między odpisem na Fundusz
+           obliczonym przez Prezesa URE a odpisem na Fundusz w wysokości wskazanej
+           w sprawozdaniu, o którym mowa w art. 25 ust. 1, z uwzględnieniem wcześniej
+           dokonanych wpłat – w przypadku gdy nadwyżka dotyczy ostatniego miesiąca
+           objętego obowiązkiem, o którym mowa w art. 21, albo kiedy decyzja została wydana
+           po okresie obowiązywania tego obowiązku, w terminie 60 dni od dnia jej
+           doręczenia.”.
+
+     Art. 5. W ustawie z dnia 11 czerwca 2026 r. o zmianie niektórych ustaw w celu dokonania
+deregulacji w zakresie energetyki (Dz. U. poz. 900) w art. 1 w pkt 4 skreśla się wyrazy „(Dz. U.
+z 2025 r. poz. 775, z późn. zm.)”.
+
+     Art. 6. Zarządca Rozliczeń S.A., o którym mowa w rozdziale 7 ustawy z dnia 29 czerwca
+2007 r. o zasadach pokrywania kosztów powstałych u wytwórców w związku
+z przedterminowym rozwiązaniem umów długoterminowych sprzedaży mocy i energii
+Liczba stron : 22      Data : 2026-09-17       Nazwa pliku : V7_254-46.NK                                         18
+X kadencja/druk nr 3102
+
+elektrycznej (Dz. U. z 2022 r. poz. 311 oraz z 2026 r. poz. 176), przekazuje po raz pierwszy,
+w terminie 30 dni od dnia wejścia w życie niniejszej ustawy:
+1)     środki, o których mowa w art. 24 ust. 4 ustawy zmienianej w art. 4 w brzmieniu nadanym
+       niniejszą ustawą, pomniejszone o kwoty, wynikające z:
+       a)    decyzji Prezesa Urzędu Regulacji Energetyki wydanych do dnia wejścia w życie
+             niniejszej ustawy na podstawie art. 28 ust. 7 pkt 2 lit. b ustawy zmienianej w art. 4 w
+             brzmieniu dotychczasowym oraz
+       b)    wniosków, o których mowa w art. 28b ust. 3 pkt 2 ustawy zmienianej w art. 4,
+             złożonych do dnia wejścia w życie niniejszej ustawy, oraz
+2)     inne środki podlegające zwrotowi podmiotom, o których mowa w art. 21 ustawy
+       zmienianej w art. 4
+– zgromadzone na rachunku Funduszu Wypłaty Różnicy Ceny, o którym mowa w art. 11 ust.
+1 ustawy zmienianej w art. 2, które do dnia wejścia w życie niniejszej ustawy nie zostały
+przekazane na rachunek Funduszu Przeciwdziałania COVID-19, o którym mowa w art. 65 ust.
+1 ustawy z dnia 31 marca 2020 r. o zmianie ustawy o szczególnych rozwiązaniach związanych
+z zapobieganiem, przeciwdziałaniem i zwalczaniem COVID-19, innych chorób zakaźnych oraz
+wywołanych nimi sytuacji kryzysowych oraz niektórych innych ustaw (Dz. U. poz. 568, z późn.
+zm.5)).
+
+       Art. 7. 1. Operator systemu przesyłowego elektroenergetycznego, w terminie 3 miesięcy
+od dnia wejścia w życie niniejszej ustawy, opracuje i przedłoży Prezesowi Urzędu Regulacji
+Energetyki do zatwierdzenia zmianę instrukcji, o której mowa w art. 9g ust. 1 ustawy
+zmienianej w art. 1, w zakresie jej dostosowania do przepisów ustawy zmienianej w art. 1
+w brzmieniu nadanym niniejszą ustawą, wraz z informacją o uwagach zgłoszonych przez
+użytkowników systemu elektroenergetycznego oraz sposobie ich uwzględnienia.
+       2.      Operator        systemu        dystrybucyjnego          elektroenergetycznego            niebędący
+przedsiębiorstwem, o którym mowa w art. 9d ust. 7 ustawy zmienianej w art. 1, w terminie
+3 miesięcy od dnia ogłoszenia zatwierdzonej zmiany instrukcji, o której mowa w ust. 1,
+opracuje i przedłoży Prezesowi Urzędu Regulacji Energetyki do zatwierdzenia zmianę
+instrukcji ruchu i eksploatacji sieci dystrybucyjnej w zakresie jej dostosowania do przepisów
+ustawy zmienianej w art. 1 w brzmieniu nadanym niniejszą ustawą, wraz z informacją
+
+
+5)
+     Zmiany wymienionej ustawy zostały ogłoszone w Dz. U. z 2020 r. poz. 695, 1086, 1262, 1478, 1747, 2157
+     i 2255, z 2021 r. poz. 1535 i 2368, z 2022 r. poz. 64, 202, 1561, 1692, 1730, 1967, 2127, 2236 i 2687, z 2023 r.
+     poz. 295, 556, 803, 1641, 1785 i 2760, z 2024 r. poz. 834, 859, 1089 i 1831 oraz z 2026 r. poz. 160 i 635.
+Liczba stron : 22   Data : 2026-09-17   Nazwa pliku : V7_254-46.NK                          19
+X kadencja/druk nr 3102
+
+o uwagach zgłoszonych przez użytkowników systemu elektroenergetycznego oraz sposobie ich
+uwzględnienia.
+     3. Operator systemu dystrybucyjnego elektroenergetycznego będący przedsiębiorstwem,
+o którym mowa w art. 9d ust. 7 ustawy zmienianej w art. 1, w terminie 3 miesięcy od dnia
+ogłoszenia zatwierdzonej zmiany instrukcji operatora systemu elektroenergetycznego, do
+którego sieci jest przyłączony, zmienia instrukcję ruchu i eksploatacji sieci dystrybucyjnej
+w zakresie dostosowania jej do przepisów ustawy zmienianej w art. 1 w brzmieniu nadanym
+niniejszą ustawą.
+
+     Art. 8. Obowiązek przekazywania i realizacji danych grafikowych zgodnie z art. 9j ust. 1b
+i art. 9ja ust. 2 ustawy zmienianej w art. 1 oraz obowiązek przekazywania danych czasu
+rzeczywistego zgodnie z art. 9jd ust. 1 ustawy zmienianej w art. 1 stosuje się od dnia 1 lutego
+2027 r.
+
+     Art. 9. Operator systemu dystrybucyjnego elektroenergetycznego, który przed dniem
+wejścia w życie niniejszej ustawy nie zainstalował licznika zdalnego odczytu na stacji
+elektroenergetycznej transformującej średnie napięcie na niskie z przyczyn, o których mowa w
+art. 11t ust. 2b ustawy zmienianej w art. 1, jest obowiązany udokumentować te okoliczności
+oraz przekazać Prezesowi Urzędu Regulacji Energetyki informację, o której mowa w art. 11t
+ust. 2c ustawy zmienianej w art. 1, w terminie 6 miesięcy od dnia wejścia w życie niniejszej
+ustawy.
+
+     Art. 10. 1. Nie wszczyna się postępowań w sprawie wymierzenia kary pieniężnej, o której
+mowa w art. 56 ust. 1 pkt 30d ustawy zmienianej w art. 1 w brzmieniu nadanym niniejszą
+ustawą, w związku z niewykonaniem obowiązku, o którym mowa w art. 11t ust. 3 ustawy
+zmienianej w art. 1 w brzmieniu dotychczasowym, wobec operatorów systemów
+dystrybucyjnych elektroenergetycznych, o których mowa w art. 11t ust. 2b ustawy zmienianej
+w art. 1 w brzmieniu nadanym niniejszą ustawą.
+     2. Postępowania w sprawie wymierzenia kary pieniężnej, o której mowa w art. 56 ust. 1
+pkt 30d ustawy zmienianej w art. 1 w brzmieniu dotychczasowym, wszczęte i niezakończone
+przed dniem wejścia w życie niniejszej ustawy wobec podmiotów, o których mowa w ust. 1,
+umarza się, jeżeli dotyczą niewykonania obowiązku określonego w art. 11t ust. 3 ustawy
+zmienianej w art. 1 w brzmieniu dotychczasowym w przypadkach, o których mowa w art. 11t
+ust. 2b ustawy zmienianej w art. 1 w brzmieniu nadanym niniejszą ustawą.
+Liczba stron : 22   Data : 2026-09-17   Nazwa pliku : V7_254-46.NK                           20
+X kadencja/druk nr 3102
+
+     Art. 11. 1. Operator informacji rynku energii opracuje i opublikuje na swojej stronie
+internetowej po raz pierwszy plan działania, o którym mowa w art. 11zha ust. 1 ustawy
+zmienianej w art. 1, w terminie 2 miesięcy od dnia wejścia w życie niniejszej ustawy.
+     2. Operator systemu przesyłowego elektroenergetycznego oraz podmioty, o których
+mowa w art. 11zg ust. 1 ustawy zmienianej w art. 1, których systemy informacyjne
+współpracują z centralnym systemem informacji rynku energii, opracują po raz pierwszy plany
+działania, o których mowa w art. 11zha ust. 2 ustawy zmienianej w art. 1, w terminie 2 miesięcy
+od dnia opublikowania planu działania, o którym mowa w ust. 1.
+
+     Art. 12. Dotychczasowe przepisy wykonawcze wydane na podstawie art. 11 ust. 6 i 6a
+ustawy zmienianej w art. 1 w brzmieniu dotychczasowym zachowują moc do dnia wejścia
+w życie przepisów wykonawczych wydanych odpowiednio na podstawie art. 11 ust. 6 i 6a oraz
+ust. 6aa i 6ab ustawy zmienianej w art. 1 w brzmieniu nadanym niniejszą ustawą, jednak
+niedłużej niż do dnia 7 września 2028 r.
+
+     Art. 13. 1. W przypadku gdy w okresie od dnia 19 października 2026 r. do dnia
+rozpoczęcia przez operatora systemu dystrybucyjnego elektroenergetycznego, o którym mowa
+w art. 20a ust. 1 albo w art. 20b ust. 1 ustawy zmienianej w art. 3, realizacji zadań, o których
+mowa w rozdziale 2d ustawy zmienianej w art. 1, niepóźniej jednak niż do dnia 19 kwietnia
+2028 r., operator systemu dystrybucyjnego elektroenergetycznego powziął informację, że dla
+danego punktu poboru energii odbiorcy lub podmiotu, o którym mowa w art. 5ag ustawy
+zmienianej w art. 1, nie jest realizowana umowa sprzedaży lub umowa kompleksowa, w
+szczególności z powodu:
+1)   niezgłoszenia do realizacji umowy sprzedaży energii elektrycznej lub umowy
+     kompleksowej,
+2)   zaprzestania sprzedaży energii elektrycznej na podstawie dotychczasowej umowy,
+3)   wygaśnięcia albo rozwiązania umowy sprzedaży lub umowy kompleksowej z
+     dotychczasowym sprzedawcą energii elektrycznej
+– informuje niezwłocznie sprzedawcę rezerwowego o zawarciu z mocy prawa odpowiednio
+umowy sprzedaży rezerwowej energii elektrycznej lub umowy kompleksowej zawierającej
+postanowienia umowy sprzedaży rezerwowej energii elektrycznej oraz o dacie zawarcia tej
+umowy.
+Liczba stron : 22   Data : 2026-09-17   Nazwa pliku : V7_254-46.NK                        21
+X kadencja/druk nr 3102
+
+     2. Umowa sprzedaży rezerwowej energii elektrycznej lub umowa kompleksowa
+zawierająca postanowienia umowy sprzedaży rezerwowej energii elektrycznej jest zawierana z
+mocy prawa z dniem zaprzestania realizacji umowy sprzedaży lub umowy kompleksowej.
+     3. Umowa sprzedaży rezerwowej energii elektrycznej lub umowa kompleksowa
+zawierająca postanowienia umowy sprzedaży rezerwowej energii elektrycznej nie jest
+zawierana w przypadku wystąpienia przesłanek, o których mowa w art. 5ac ust. 6 ustawy
+zmienianej w art. 1.
+     4. W przypadku sprzedaży rezerwowej uruchamianej w odniesieniu do odbiorców oraz do
+podmiotów, o których mowa w art. 5ag ustawy zmienianej w art. 1, w okresie, o którym mowa
+w ust. 1, operator systemu dystrybucyjnego elektroenergetycznego informuje odbiorcę
+końcowego przyłączonego do jego sieci o zawarciu umowy sprzedaży rezerwowej energii
+elektrycznej lub umowy kompleksowej zawierającej postanowienia umowy sprzedaży
+rezerwowej energii elektrycznej, dacie uruchomienia sprzedaży rezerwowej energii
+elektrycznej, podstawie prawnej jej uruchomienia, jak również przyczynach jej uruchomienia,
+danych teleadresowych sprzedawcy rezerwowego oraz miejscu opublikowania przez
+sprzedawcę rezerwowego warunków umowy sprzedaży rezerwowej lub umowy kompleksowej
+zawierającej postanowienia umowy sprzedaży rezerwowej, w terminie 5 dni od dnia
+uruchomienia sprzedaży rezerwowej energii elektrycznej.
+     5. W przypadku sprzedaży rezerwowej uruchamianej zgodnie z ust. 4 sprzedawca
+rezerwowy przekazuje odbiorcy końcowemu jeden egzemplarz umowy sprzedaży rezerwowej
+lub umowy kompleksowej zawierającej postanowienia umowy sprzedaży rezerwowej w
+terminie 30 dni od dnia otrzymania przez sprzedawcę rezerwowego energii elektrycznej
+informacji od operatora systemu dystrybucyjnego, o której mowa w ust. 1, oraz informuje o
+prawie odbiorcy końcowego do wypowiedzenia tej umowy.
+     6.    Operator       systemu   dystrybucyjnego     elektroenergetycznego   nie   ponosi
+odpowiedzialności za konsekwencje uruchomienia lub nieuruchomienia sprzedaży rezerwowej
+energii elektrycznej wynikające z działań lub zaniechań użytkowników systemu.
+
+     Art. 14. W okresie od dnia 19 października 2026 r. do dnia rozpoczęcia przez operatora
+systemu dystrybucyjnego elektroenergetycznego, o którym mowa w art. 20a ust. 1 albo w art.
+20b ust. 1 ustawy zmienianej w art. 3, który nie rozpoczął realizacji zadań, o których mowa w
+rozdziale 2d ustawy zmienianej w art. 1, niepóźniej jednak niż do dnia 19 kwietnia 2028 r.,
+operator systemu przesyłowego elektroenergetycznego oraz operator systemu dystrybucyjnego
+elektroenergetycznego są obowiązani umożliwić odbiorcy energii elektrycznej w zakresie
+Liczba stron : 22   Data : 2026-09-17   Nazwa pliku : V7_254-46.NK                                22
+X kadencja/druk nr 3102
+
+punktów poboru energii przyłączonych do sieci tego operatora zmianę sprzedawcy energii
+elektrycznej, niepóźniej niż w terminie 21 dni od dnia poinformowania właściwego operatora
+o zawarciu umowy sprzedaży albo umowy kompleksowej z nowym sprzedawcą.
+
+     Art. 15. Ustawa wchodzi w życie z dniem następującym po dniu ogłoszenia, z wyjątkiem
+art. 1 pkt 4–6, pkt 15 lit. a tiret pierwsze oraz lit. c i d, które wchodzą w życie po upływie 14 dni
+od dnia ogłoszenia.
+

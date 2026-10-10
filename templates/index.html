@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% from "_macros.html" import result_badge, counts %}
+{% block content %}
+<h1>{{ _("Głosowania w Sejmie, poprawka po poprawce") }}</h1>
+<p>{{ _("Domyślny opis") }}</p>
+
+{% set latest = sittings | dictsort | last %}
+{% set s, votings = latest %}
+<h2>{{ _("Ostatnie posiedzenie") }}: <a href="{{ root }}posiedzenie/{{ s }}.html">{{ sitting_name(s) }}</a></h2>
+{% set flagged = votings | selectattr("against_rec") | list %}
+<div class="grid">
+  <div class="card stat"><b>{{ votings | length }}</b>{{ _("głosowań") }}</div>
+  <div class="card stat"><b>{{ votings | selectattr("amendments") | list | length }}</b>{{ _("głosowań nad poprawkami i wnioskami") }}</div>
+  <div class="card stat"><b>{{ flagged | length }}</b>{{ _("rozstrzygnięć wbrew rekomendacji komisji") }}</div>
+</div>
+{% if flagged %}
+<h3>{{ _("Wbrew rekomendacji komisji") }}</h3>
+<div class="table-scroll"><table><tbody>
+{% for v in flagged %}
+<tr><td><a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a><div class="snippet">{{ v.agenda | truncate(140) }}</div></td>
+<td>{{ result_badge(v) }}</td><td class="num">{{ counts(v) }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+{% endif %}
+
+<div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); margin-top: 24px">
+<section>
+  <h2>{{ _("Skuteczne poprawki") }}</h2>
+  <table><tbody>
+  {% for p in proposers %}{% if loop.index <= 8 %}
+  <tr><td>{{ p.name | who }}</td><td class="num">{{ p.adopted }} / {{ p.voted }}</td></tr>
+  {% endif %}{% endfor %}
+  </tbody></table>
+  <p class="note"><a href="{{ root }}skuteczne-poprawki.html">{{ _("Poprawki przyjęte przez Sejm") }} →</a></p>
+</section>
+<section>
+  <h2>{{ _("Najczęściej wyłamujący się z linii klubu") }}</h2>
+  <table><tbody>
+  {% for r in mp_rows | sort(reverse=true, attribute="rebel_count") %}{% if loop.index <= 8 %}
+  <tr><td><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a> <span class="muted">{{ r.mp.club }}</span></td>
+  <td class="num">{{ r.rebel_count }}</td><td class="num muted">{{ r.rebel_rate | pct }}</td></tr>
+  {% endif %}{% endfor %}
+  </tbody></table>
+  <p class="note">{{ _("Pełne zestawienia") }}: <a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a>, <a href="{{ root }}kluby.html">{{ _("Kluby") }}</a>. {{ _("Jak liczymy") }}: <a href="{{ root }}metodologia.html">{{ _("Metodologia") }}</a>.</p>
+</section>
+</div>
+{% endblock %}

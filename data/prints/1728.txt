@@ -1,0 +1,511 @@
+                                                                       Druk nr 1728
+                                                              Warszawa, 19 września 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-169-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy o podatku od towarów
+   i usług.
+        Projekt ma charakter deregulacyjny.
+
+
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Finansów i Gospodarki.
+
+
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                       Projekt
+                                        U S T AWA
+
+                                            z dnia
+
+                     o zmianie ustawy o podatku od towarów i usług
+
+
+     Art. 1. W ustawie z dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. z 2025 r.
+poz. 775, 894, 896 i 1203) w art. 33a ust. 6a otrzymuje brzmienie:
+          „6a. W przypadku gdy podatnik nie rozliczył w całości lub w części podatku
+     należnego z tytułu importu towarów na zasadach określonych w ust. 1, może dokonać
+     korekty deklaracji podatkowej:
+     1)   w terminie 4 miesięcy, licząc od miesiąca następującego po miesiącu, w którym
+          powstał obowiązek podatkowy z tytułu importu tych towarów;
+     2)   w terminie późniejszym niż określony w pkt 1, jednak nie później niż w terminie
+          miesiąca po upływie terminu na złożenie zgłoszenia uzupełniającego – w przypadku
+          gdy podatnik stosuje uproszczenie, o którym mowa w art. 166 unijnego kodeksu
+          celnego, i posiada status upoważnionego przedsiębiorcy w rozumieniu art. 38
+          unijnego kodeksu celnego.”.
+
+     Art. 2. Przepis art. 33a ust. 6a ustawy zmienianej w art. 1, w brzmieniu nadanym niniejszą
+ustawą, stosuje się do importu towarów, dla których zgłoszenie uproszczone zostało złożone
+po dniu 18 czerwca 2025 r.
+
+     Art. 3. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                            UZASADNIENIE
+
+Projekt ustawy o zmianie ustawy o podatku od towarów i usług przewiduje wprowadzenie
+zmian w art. 33a ustawy z dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. z 2025 r.
+poz. 775, z późn. zm.), dalej „ustawa o VAT”, w związku z wdrożonym w dniu 19 czerwca
+2025 r. nowym systemem celnym AIS/IMPORT PLUS.
+Wdrożenie tego systemu wynika z konieczności dostosowania do unijnych przepisów celnych
+(UKC1), UKC-RD2) i UKC-RW3)). W związku z wdrożeniem tego systemu, zmianie uległ m.in.
+zakres danych wymaganych dla zgłoszeń uproszczonych. Zgłoszenie uproszczone nie będzie
+zawierało danych w zakresie należności celnych i podatkowych. Należności będą wyliczone
+dopiero w zgłoszeniu uzupełniającym. Zatem w przypadku stosowania uproszczeń, o których
+mowa w art. 166 UKC, podatnik jest obowiązany do obliczenia i wykazania podatku dopiero
+w zgłoszeniu uzupełniającym w rozumieniu przepisów celnych. Termin na składanie zgłoszeń
+uzupełniających jest określony w pozwoleniu na stosowanie zgłoszeń uproszczonych. Terminy,
+w których powinno zostać przedłożone zgłoszenie uzupełniające, określa art. 146
+Rozporządzenia delegowanego Komisji (UE) 2015/24464). Co do zasady zgłoszenie
+uzupełniające przedkłada się organowi w terminie 10 dni od daty zwolnienia towarów lub
+10 dni od daty zakończenia okresu, którego dotyczy zgłoszenie uzupełniające (tj. do 10 dnia
+następnego miesiąca).
+
+W uzasadnionych okolicznościach organy celne mogą zezwolić na dłuższy termin na złożenie
+zgłoszenia uzupełniającego. Termin ten nie może przekraczać 120 dni od daty zwolnienia
+towarów. Jednakże w wyjątkowych, należycie uzasadnionych okolicznościach związanych z
+wartością celną towarów, termin ten może zostać przedłużony do maksymalnie dwóch lat od
+daty zwolnienia towarów.
+
+Zgodnie z art. 33a ustawy o VAT podatnik zarejestrowany jako podatnik VAT czynny może
+rozliczyć podatek należny z tytułu importu towarów w deklaracji podatkowej składanej za
+
+
+1)
+     Rozporządzenie Parlamentu Europejskiego i Rady (UE) nr 952/2013 z dnia 9 października 2013 r.
+     ustanawiające unijny kodeks celny (Dz. Urz. UE L 269 z 10.10.2013, str. 1, z późn. zm.).
+2)
+     Rozporządzenie Delegowane Komisji (UE) nr 2021/234 z dnia 7 grudnia 2020 r. zmieniające rozporządzenie
+     delegowane (UE) nr 2015/2446 w odniesieniu do wspólnych wymogów dotyczących danych oraz
+     rozporządzenie delegowane (UE) nr 2016/341 w odniesieniu do kodów stosowanych w określonych
+     formularzach (Dz. Urz. UE L 63 z 23.02.2021, str. 1).
+3)
+     Rozporządzenie Wykonawcze Komisji (UE) nr 2015/2447 z dnia 24 listopada 2015 r. ustanawiające
+     szczegółowe zasady wykonania niektórych przepisów rozporządzenia Parlamentu Europejskiego i Rady (UE)
+     nr 952/2013 ustanawiającego unijny kodeks celny (Dz. Urz. UE L 343 z 29.12.2015, str. 558, z późn. zm.).
+4)
+     Rozporządzenie delegowane Komisji (UE) 2015/2446 z dnia 28 lipca 2015 r. uzupełniające rozporządzenie
+     Parlamentu Europejskiego i Rady (UE) 952/2013 w odniesieniu do szczegółowych zasad dotyczących
+     niektórych przepisów unijnego kodeksu celnego (Dz. Urz. UE L 343 z 29.12.2015, str. 1, z późn. zm.).
+okres, w którym powstał obowiązek podatkowy z tytułu importu tych towarów. W przypadku
+nierozliczenia w całości lub w części podatku należnego z tytułu importu towarów w deklaracji
+podatkowej składanej za okres, w którym powstał obowiązek podatkowy z tytułu importu tych
+towarów, przepisy umożliwiają podatnikowi dokonanie korekty deklaracji podatkowej w
+terminie 4 miesięcy następujących po miesiącu, w którym powstał obowiązek podatkowy z
+tytułu importu tych towarów.
+
+Jeżeli podatnik nie rozliczył tego podatku w terminie ww. 4 miesięcy, traci prawo do jego
+rozliczenia w deklaracji podatkowej i jest zobowiązany do zapłaty podatku wraz z odsetkami.
+
+W przypadku zgłoszeń uproszczonych obowiązek podatkowy z tytułu importu towarów
+powstaje z chwilą przyjęcia zgłoszenia uproszczonego. Jeżeli podatnik stosujący zgłoszenia
+uproszczone uzyskał zgodę organu celnego na składanie zgłoszeń uzupełniających w terminie
+dłuższym niż 120 dni z uwagi na wyjątkowe, uzasadnione okoliczności to zgodnie z obecnymi
+przepisami podatek obliczony i wykazany w zgłoszeniu uzupełniającym nie będzie mógł być
+rozliczony w deklaracji podatkowej. Podatek należny z tytułu importu towarów musi być
+rozliczony w deklaracji podatkowej składanej za okres, w którym przyjęte zostało zgłoszenie
+uproszczone. Podatek jest jednak obliczany i wykazywany dopiero w zgłoszeniu
+uzupełniającym składanym po 120 dniach, czyli po terminie do złożenia deklaracji podatkowej
+za okres, w którym miał być rozliczony podatek, jak również po upływie terminu do złożenia
+korekty deklaracji podatkowej. Oznacza to, że w takim przypadku podatnik nie może
+skorzystać z ułatwienia, o którym mowa w art. 33a ustawy o VAT.
+
+Przykład
+
+Podatnik dokonuje importu towarów, których wartość ostateczna jest możliwa do ustalenia
+dopiero po kilku miesiącach po ich dostawie do Polski. W momencie importu towarów znana
+jest jedynie cena pierwotna ustalana wg znanych na dany moment parametrów zmiennych ceny.
+Podatnik posiada pozwolenie na stosowanie zgłoszeń uproszczonych z wydłużonym terminem
+składania zgłoszeń uzupełniających (np. 7 miesięcy).
+
+Przed 19 czerwca 2025 r.
+
+Import towarów dokonany w maju br. Zgłoszenie uproszczone jest składane przez podatnika w
+maju, w zgłoszeniu tym wykazane są wyliczone należności celne i podatkowe. Obowiązek
+podatkowy z tytułu importu towarów powstaje z chwilą przyjęcia zgłoszenia uproszczonego
+(tj. w maju). Podatnik może skorzystać z art. 33a ustawy o VAT w maju i rozliczyć podatek
+
+
+
+
+                                             2
+należny z tytułu importu towarów w deklaracji podatkowej za okres, w którym powstał
+obowiązek podatkowy od importu towarów (tj. składanej za miesiąc maj).
+
+Od 19 czerwca 2025 r.
+
+Import towarów dokonany w lipcu br. Podatnik składa zgłoszenie uproszczone w lipcu br. (bez
+wyliczonych należności celnych i podatkowych). Obowiązek podatkowy z tytułu importu
+towarów powstaje z chwilą przyjęcia zgłoszenia uproszczonego (tj. w lipcu). Natomiast
+zgłoszenie uzupełniające z wyliczonymi należnościami celnymi i podatkowymi składane jest
+po ustaleniu ostatecznej ceny tych towarów dopiero w lutym następnego roku.
+
+W takim przypadku w związku z wdrożeniem unijnych przepisów celnych podatnik nie będzie
+mógł rozliczać podatku VAT z tytułu importu towarów bezpośrednio w deklaracji podatkowej
+zgodnie z obecnym brzmieniem art. 33a ustawy o VAT, ponieważ zgłoszenie uzupełniające z
+wykazanym podatkiem VAT będzie składane już po ostatecznym terminie na złożenie korekty
+deklaracji.
+
+Zatem podatnik korzystający dotychczas z art. 33a ustawy o VAT (tj. rozliczający podatek w
+deklaracji podatkowej bez konieczności fizycznej zapłaty podatku z tytułu importu towarów)
+będzie musiał dostosować się do nowej sytuacji prawnej. Oznacza to, że będzie zobowiązany
+nie tylko do zapłaty podatku z tytułu importu towarów po złożeniu zgłoszenia uzupełniającego,
+ale przede wszystkim będzie musiał złożyć zabezpieczenie podatku należnego z tytułu importu
+towarów już w momencie złożenia zgłoszenia uproszczonego i posiadać to zabezpieczenie
+przez kilka miesięcy. Konieczność posiadania zabezpieczenia przez kilka miesięcy może
+okazać się dla podmiotów dokonujących importu towarów o dużej wartości istotną barierą dla
+prowadzenia działalności gospodarczej.
+
+Projekt ma na celu zmniejszenie obciążeń podatników stosujących zgłoszenia uproszczone i
+redukcję kosztów prowadzenia działalności.
+
+Projektowana propozycja nadania nowego brzmienia ust. 6a w art. 33a ustawy o VAT ma na
+celu umożliwienie podatnikowi posiadającemu pozwolenie na stosowanie procedury
+uproszczonej, o której mowa wart. 166 UKC, bez względu na termin, w którym podatnik ten
+ma przedkładać zgłoszenie uzupełniające, rozliczania podatku należnego z tytułu importu
+towarów na zasadach określonych w art. 33a ustawy o VAT.
+
+Projektowany przepis art. 33a ust. 6a pkt 1 nie został zmieniony i odpowiada obecnie
+obowiązującemu przepisowi art. 33a ust. 6a ustawy o VAT.
+
+
+
+                                             3
+Zgodnie z projektowanym przepisem art. 33a ust. 6a pkt 2 podatnik stosujący uproszczenie, o
+którym mowa w art. 166 UKC, i posiadający status upoważnionego przedsiębiorcy w
+rozumieniu art. 38 UKC będzie mógł dokonać korekty deklaracji podatkowej w terminie
+późniejszym niż 4 miesiące następujące po miesiącu, w którym powstał obowiązek podatkowy
+z tytułu importu tych towarów, jednak nie później niż w terminie miesiąca po upływie terminu
+na złożenie zgłoszenia uzupełniającego.
+
+W celu ograniczenia wystąpienia ewentualnych nadużyć proponowana regulacja ogranicza
+wydłużenie terminu do dokonania korekty deklaracji do podatników posiadających pozwolenie
+na stosowanie zgłoszeń uproszczonych, którzy mają jednocześnie status upoważnionego
+przedsiębiorcy w rozumieniu przepisów celnych.
+
+Przepis przejściowy (art. 2 projektu ustawy)
+
+W związku z tym, że zmiany w zakresie danych wymaganych dla zgłoszeń uproszczonych, w
+wyniku których należności celne i podatkowe z tytułu importu towarów są wykazywane
+dopiero na etapie zgłoszenia uzupełniającego, obowiązują od dnia 19 czerwca 2025 r.
+proponuje się (w art. 2 projektu), aby projektowane regulacje miały zastosowanie do importu
+towarów, dla których zgłoszenie uproszczone zostało złożone po dniu 18 czerwca 2025 r.
+Wprawdzie obowiązek podatkowy z tytułu importu towarów powstaje w momencie przyjęcia
+zgłoszenia uproszczonego, jednak podatek VAT będzie możliwy do rozliczenia w deklaracji
+podatkowej dopiero po złożeniu zgłoszenia uzupełniającego. Dopiero bowiem na etapie
+zgłoszenia uzupełniającego będą wyliczane należności celne i podatkowe.
+
+Przepis przejściowy ma na celu umożliwienie rozliczenia podatku VAT według nowych zasad
+w odniesieniu do importu towarów, dla których zgłoszenie uproszczone zostało złożone po
+18 czerwca 2025 r.
+
+Termin wejścia w życie ustawy (art. 3 projektu ustawy)
+
+W art. 3 projektu określono termin wejścia w życie przepisów ustawy. Zgodnie z nim ustawa
+wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+
+Projekt ustawy pozytywnie wpływa na działalność mikroprzedsiębiorców oraz małych i
+średnich przedsiębiorców poprzez zniwelowanie negatywnych konsekwencji, jakimi jest
+konieczność składania zabezpieczenia podatku należnego z tytułu importu towarów na okres
+kilku miesięcy do momentu złożenia zgłoszenia uzupełniającego i fizycznej zapłaty do
+właściwego organu.
+
+
+
+                                             4
+Projekt ustawy jest zgodny z prawem Unii Europejskiej.
+
+Niniejszy projekt ustawy nie zawiera przepisów technicznych, w związku z czym nie podlega
+procedurze notyfikacji na zasadach przewidzianych w rozporządzeniu Rady Ministrów z dnia
+23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego systemu notyfikacji norm i
+aktów prawnych (Dz. U. poz. 2039, z późn. zm.).
+
+Projekt ustawy nie wymaga przedstawienia właściwym instytucjom i organom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, celem uzyskania opinii, dokonania
+konsultacji albo uzgodnienia, w przypadkach określonych w obowiązujących na terytorium
+Rzeczypospolitej Polskiej przepisach Unii Europejskiej.
+
+Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w
+procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677) oraz § 52 ust. 1 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r.
+poz. 806, z późn. zm.) projekt ustawy został udostępniony w Biuletynie Informacji Publicznej
+na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces
+Legislacyjny.
+
+
+
+
+                                             5
+Nazwa projektu                                                                     Data sporządzenia
+Projekt ustawy o zmianie ustawy o podatku od towarów i usług                       29.07.2025 r.
+
+Ministerstwo wiodące i ministerstwa współpracujące                                 Źródło:
+Ministerstwo Finansów                                                              Ustawa z dnia 11 marca 2004 r. o podatku od
+                                                                                   towarów i usług (Dz. U. z 2025 r. poz. 775,
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza                      z późn. zm.).
+Stanu lub Podsekretarza Stanu
+Jarosław Neneman – Podsekretarz Stanu w Ministerstwie Finansów                     Nr w Wykazie prac legislacyjnych
+                                                                                   i programowych Rady Ministrów
+Kontakt do opiekuna merytorycznego projektu                                        UDER76
+Katarzyna Nowicka, Zastępca Dyrektora Departamentu Podatku od
+Towarów i Usług w Ministerstwie Finansów; tel. 22 694 30 72; e-mail:
+sekretariat.pt@mf.gov.pl
+                                     OCENA SKUTKÓW REGULACJI
+ 1. Jaki problem jest rozwiązywany?
+Od dnia 19 czerwca 2025 r. został wdrożony nowy system celny AIS/IMPORT PLUS. Zmianie uległ m.in. zakres danych
+wymaganych dla zgłoszeń uproszczonych. Zgłoszenie uproszczone nie zawiera danych w zakresie należności celnych
+i podatkowych. Należności te będą wyliczone dopiero w zgłoszeniu uzupełniającym. Wdrożenie tego systemu wynika z
+konieczności dostosowania do unijnych przepisów celnych.
+W związku z tym podatnik stosujący uproszczenie, o którym mowa w art. 166 UKC1), który posiada zgodę organu celnego
+na składanie zgłoszeń uzupełniających w terminie dłuższym niż 120 dni, nie będzie mógł rozliczać podatku VAT z tytułu
+importu towarów bezpośrednio w deklaracji podatkowej. W przypadku zgłoszeń uproszczonych obowiązek podatkowy z
+tytułu importu towarów powstaje z chwilą przyjęcia zgłoszenia uproszczonego. Jeżeli podatnik składa zgłoszenia
+uzupełniające w terminie dłuższym niż 120 dni, to zgodnie z obecnymi przepisami podatek obliczony i wykazany w
+zgłoszeniu uzupełniającym nie będzie mógł być rozliczony w deklaracji podatkowej.
+W konsekwencji podatnik obowiązany będzie składać zabezpieczenie podatku VAT z tytułu importu towarów na kilka
+miesięcy, tj. do czasu złożenia zgłoszenia uzupełniającego i zapłaty podatku do właściwego urzędu skarbowego.
+ 2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Projektowana zmiana polegająca na nadaniu nowego brzmienia ust. 6a w art. 33a ustawy z dnia 11 marca 2004 r. o podatku
+od towarów i usług, dalej „ustawa o VAT”, ma na celu umożliwienie podatnikowi posiadającemu pozwolenie na
+stosowanie procedury uproszczonej, o której mowa w art. 166 UKC, bez względu na termin, w którym podatnik ten ma
+przedkładać zgłoszenie uzupełniające, rozliczania podatku należnego z tytułu importu towarów na zasadach określonych
+w art. 33a ustawy o VAT.
+Zgodnie z projektowanym przepisem podatnik stosujący uproszczenie, o którym mowa w art. 166 UKC, będzie mógł
+dokonać korekty deklaracji podatkowej w terminie późniejszym niż 4 miesiące następujące po miesiącu, w którym powstał
+obowiązek podatkowy z tytułu importu tych towarów, jednak nie później niż w terminie miesiąca po upływie terminu na
+złożenie zgłoszenia uzupełniającego.
+W celu ograniczenia wystąpienia ewentualnych nadużyć proponowana regulacja ogranicza wydłużenie terminu do
+dokonania korekty deklaracji do podatników posiadających pozwolenie na stosowanie zgłoszeń uproszczonych, którzy
+mają jednocześnie status upoważnionego przedsiębiorcy w rozumieniu przepisów celnych.
+
+Proponowana regulacja miałaby zastosowanie do importu towarów, dla których zgłoszenie uproszczone zostało złożone
+po dniu 18 czerwca 2025 r. Wprawdzie obowiązek podatkowy z tytułu importu towarów powstaje w momencie przyjęcia
+zgłoszenia uproszczonego, jednak zgodnie z obowiązującymi od dnia 19 czerwca 2025 r. zasadami dotyczącymi zgłoszeń
+uproszczonych i systemu AIS/IMPORT PLUS podatek VAT będzie możliwy do rozliczenia w deklaracji podatkowej
+dopiero po złożeniu zgłoszenia uzupełniającego. Dopiero bowiem na etapie zgłoszenia uzupełniającego będą wyliczane
+należności celne i podatkowe. Zatem w projekcie przewidziana jest regulacja przejściowa mająca na celu umożliwienie
+rozliczenia podatku VAT według nowych zasad w odniesieniu do importu towarów, dla których zgłoszenie uproszczone
+zostało złożone po dniu 18 czerwca 2025 r., tj. już na nowych zasadach.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Ze względu na charakter zmian nie ma potrzeby analizowania jak kwestia ta jest rozwiązana w innych krajach.
+
+
+
+
+1)   Rozporządzenie Parlamentu Europejskiego i Rady (UE) nr 952/2013 z dnia 9 października 2013 r. ustanawiające unijny kodeks celny
+     (Dz. Urz. UE L 269 z 10.10.2013, str. 1, z późn. zm.).
+4. Podmioty, na które oddziałuje projekt
+          Grupa                      Wielkość                Źródło danych               Oddziaływanie
+Organy Krajowej              izby administracji       Dane własne               Weryfikacja spełnienia przez
+Administracji Skarbowej      skarbowej – 16,                                    podatnika warunków do
+                             urzędy celno-skarbowe                              korzystania z rozliczenia
+                             – 16 wraz z                                        podatku VAT w deklaracji
+                             delegaturami – 45 i                                podatkowej. Kontrola
+                             oddziałami celnymi                                 rozliczenia podatku VAT w
+                             – 143                                              deklaracji podatkowej.
+Podatnicy podatku z tytułu wg stanu na 2.06 br. są Dane własne                  1. Możliwość rozliczenia
+importu towarów              4 podmioty, które                                  podatku VAT z tytułu importu
+posiadający pozwolenia na posiadają pozwolenia                                  bezpośrednio w deklaracji
+stosowanie zgłoszeń          na złożenie zgłoszeń                               podatkowej na podstawie
+uproszczonych z              uzupełniających w                                  art. 33a ustawy o VAT, bez
+wydłużonym terminem na       terminie dłuższym niż                              konieczności fizycznej zapłaty
+złożenie zgłoszeń            do 10-tego dnia                                    podatku VAT do właściwego
+uzupełniających.             miesiąca następującego                             urzędu.
+                             po miesiącu, w którym                              2. Brak konieczności
+                             zostało złożone                                    zabezpieczenia podatku
+                             zgłoszenie                                         należnego z tytułu importu
+                             uproszczone, w tym                                 towarów w momencie złożenia
+                             jest jeden podmiot,                                zgłoszenia uproszczonego.
+                             posiadający
+                             pozwolenie na
+                             stosowanie zgłoszeń
+                             uproszczonych z
+                             terminem powyżej
+                             120 dni na złożenie
+                             zgłoszeń
+                             uzupełniających
+ 5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt ustawy nie był poddany procedurze prekonsultacji.
+
+Projekt ustawy został udostępniony w Biuletynie Informacji Publicznej Rządowego Centrum Legislacji oraz przekazany
+do konsultacji publicznych.
+Projekt został przekazany do partnerów społecznych, takich jak np.: Business Centre Club, Fundacja Rozwoju
+Rachunkowości w Polsce, Konfederacja LEWIATAN, Polska Izba Biegłych Rewidentów, Krajowa Izba Gospodarcza,
+Krajowa Izba Doradców Podatkowych, Krajowa Izba Radców Prawnych, Naczelna Rada Zrzeszeń Handlu i Usług,
+Stowarzyszenie Księgowych w Polsce, Polska Izba Handlu, Polska Organizacja Handlu i Dystrybucji, Polska Rada
+Biznesu, Pracodawcy Rzeczypospolitej Polskiej, Związek Przedsiębiorców i Pracodawców, Związek Przedsiębiorstw
+Finansowych w Polsce, Polska Izba Spedycji i Logistyki oraz Polska Izba Cła, Logistyki i Spedycji.
+Żaden podmiot nie zgłosił uwag do projektu.
+
+Z uwagi na deregulacyjny charakter przepisów oraz korzyści wynikające z wprowadzenia rozwiązań objętych projektem
+ustawy, istnieje potrzeba sprawnego prowadzenia procesu legislacyjnego projektowanego aktu, w tym zastosowania
+skróconych terminów na konsultacje publiczne i opiniowanie, zgodnie z § 40 ust. 3 uchwały nr 190 Rady Ministrów z dnia
+29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.).
+Przyjęcie krótszego terminu (10 dni) na przedstawienie stanowisk i opinii przez partnerów społecznych oraz partnerów
+publicznych nie utrudniło ich udziału w procesie legislacyjnym, z uwagi na wąski zakres regulacji oraz nieznaczną objętość
+projektowanego aktu.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                               Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                       0       1   2     3     4      5      6     7     8      9    10 Łącznie (0–10)
+                                   0       0       0   0        0   0     0      0     0     0      0     0
+Dochody ogółem
+budżet państwa                     0       0       0   0        0   0     0      0     0     0      0     0
+JST                                0       0       0   0        0   0     0      0     0     0      0     0
+
+                                                            2
+pozostałe jednostki (oddzielnie)   0   0     0     0       0   0     0     0     0     0     0     0
+Wydatki ogółem                     0   0     0     0       0   0     0     0     0     0     0     0
+budżet państwa                     0   0     0     0       0   0     0     0     0     0     0     0
+JST                                0   0     0     0       0   0     0     0     0     0     0     0
+pozostałe jednostki (oddzielnie)   0   0     0     0       0   0     0     0     0     0     0     0
+                                   0   0     0     0       0   0     0     0     0     0     0     0
+Saldo ogółem
+
+budżet państwa                     0   0     0     0       0   0     0     0     0     0     0     0
+JST                                0   0     0     0       0   0     0     0     0     0     0     0
+pozostałe jednostki (oddzielnie)   0   0     0     0       0   0     0     0     0     0     0     0
+
+Źródła finansowania
+Dodatkowe
+                          Wprowadzone regulacje nie spowodują skutków finansowych dla jednostek sektora finansów
+informacje, w tym
+                          publicznych, w tym budżetu państwa i budżetów jednostek samorządu terytorialnego,
+wskazanie źródeł
+                          polegających na zwiększeniu wydatków lub zmniejszeniu dochodów tych jednostek w stosunku
+danych i przyjętych do
+                          do wielkości wynikających z obowiązujących planów budżetowych.
+obliczeń założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+    rodzinę, obywateli i gospodarstwa domowe
+                                                        Skutki
+Czas w latach od wejścia w życie zmian         0         1          2         3      5        10        Łącznie
+                                                                                                         (0–10)
+W ujęciu          duże przedsiębiorstwa
+pieniężnym        sektor mikro-, małych i
+(w mln zł,        średnich
+ceny stałe        przedsiębiorstw
+z …… r.)          rodzina, obywatele
+                  oraz gospodarstwa
+                  domowe
+W ujęciu          duże przedsiębiorstwa Umożliwienie rozliczenia podatku VAT z tytułu importu towarów
+niepieniężnym                              bezpośrednio w deklaracji podatkowej spowoduje zmniejszenie obciążeń
+                                           finansowych podatników (brak fizycznej zapłaty podatku VAT, a w
+                                           konsekwencji poprawa płynności finansowej) oraz redukcję kosztów
+                                           prowadzenia działalności związanych z brakiem konieczności składania
+                                           zabezpieczenia, co pozytywnie wpłynie na funkcjonowanie dużych
+                                           przedsiębiorstw.
+                  sektor mikro-, małych i Umożliwienie rozliczenia podatku VAT z tytułu importu towarów
+                  średnich                 bezpośrednio w deklaracji podatkowej spowoduje zmniejszenie obciążeń
+                  przedsiębiorstw          finansowych podatników (brak fizycznej zapłaty podatku VAT, a w
+                                           konsekwencji poprawa płynności finansowej) oraz redukcję kosztów
+                                           prowadzenia działalności związanych z brakiem konieczności składania
+                                           zabezpieczenia, co pozytywnie wpłynie na przedsiębiorczość, w tym na
+                                           mikro-, małe i średnie przedsiębiorstwa.
+                  rodzina, obywatele       Brak wpływu.
+                  oraz gospodarstwa
+                  domowe
+                  osoby niepełnosprawne Brak wpływu.
+                  i starsze
+Niemierzalne
+Dodatkowe
+informacje, w tym
+wskazanie źródeł
+danych i przyjętych do
+obliczeń założeń
+
+
+
+                                                       3
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+                                                             tak
+                                                             nie
+                                                             nie dotyczy
+
+   zmniejszenie liczby dokumentów                            zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                              zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                     wydłużenie czasu na załatwienie sprawy
+   inne:                                                     inne:
+
+Wprowadzane obciążenia są przystosowane do ich               tak
+elektronizacji.                                              nie
+                                                             nie dotyczy
+
+Komentarz:
+Przyjęcie proponowanego rozwiązania ujętego w projekcie ustawy spowoduje brak konieczności posiadania przez
+podatnika zabezpieczenia podatku należnego z tytułu importu towarów przez kilka miesięcy oraz bieżącego monitorowania
+i kontroli prawidłowej wysokości tego zabezpieczenia.
+9. Wpływ na rynek pracy
+Zakres projektowanej nowelizacji nie wpłynie na rynek pracy.
+10. Wpływ na pozostałe obszary
+
+   środowisko naturalne                    demografia                              informatyzacja
+   sytuacja i rozwój regionalny            mienie państwowe                        zdrowie
+   sądy powszechne,                        inne:
+administracyjne lub wojskowe
+
+Omówienie wpływu        Zakres projektowanej nowelizacji nie wpłynie na pozostałe obszary.
+
+11. Planowane wykonanie przepisów aktu prawnego
+Przepisy projektowanej ustawy powinny wejść w życie po upływie 14 dni od dnia ogłoszenia.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Z uwagi na charakter proponowanych zmian nie przewiduje się ewaluacji efektów projektu.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+
+
+
+
+                                                         4
+                         RAPORT Z KONSULTACJI projektu z dnia 10 lipca 2025 r. ustawy o zmianie ustawy o podatku od towarów i usług
+
+
+1. Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania
+  Projekt ustawy został skierowany do zaopiniowania przez partnerów społecznych, takich jak np.: Business Centre Club, Fundacja Rozwoju Rachunkowości w Polsce,
+  Konfederacja LEWIATAN, Polska Izba Biegłych Rewidentów, Krajowa Izba Gospodarcza, Krajowa Izba Doradców Podatkowych, Krajowa Izba Radców Prawnych,
+  Naczelna Rada Zrzeszeń Handlu i Usług, Stowarzyszenie Księgowych w Polsce, Polska Izba Handlu, Polska Organizacja Handlu i Dystrybucji, Polska Rada Biznesu,
+  Pracodawcy Rzeczypospolitej Polskiej, Związek Przedsiębiorców i Pracodawców, Związek Przedsiębiorstw Finansowych w Polsce, Polska Izba Spedycji i Logistyki oraz
+  Polska Izba Cła, Logistyki i Spedycji.
+
+  Żaden podmiot nie zgłosił uwag do projektu.
+
+2. Omówienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu z właściwymi organami i instytucjami Unii Europejskiej, w
+   tym Europejskim Bankiem Centralnym
+  Projekt rozporządzenia nie wymaga przedstawienia właściwym organom i instytucjom Unii Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu
+  uzyskania opinii, dokonania powiadomienia, konsultacji albo uzgodnienia.
+
+3. Podmioty, które zgłosiły zainteresowanie pracami nad projektem w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa
+
+  Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677) oraz § 52 uchwały
+  nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.), projekt rozporządzenia został
+  udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces Legislacyjny.
+
+  Żaden podmiot nie zgłosił zainteresowania pracami nad projektem w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa.
+
+
+
+
+                                                                             1
+

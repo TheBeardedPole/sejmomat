@@ -1,0 +1,1038 @@
+                                                                       Druk nr 2105
+                                                               Warszawa, 23 grudnia 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-232-25
+
+
+                                                              Pan
+                                                              Włodzimierz Czarzasty
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+         na podstawie art. 118 ust. 1 i art. 123 ust. 1 Konstytucji Rzeczypospolitej
+ Polskiej przedstawiam Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy o księgach wieczystych
+   i hipotece oraz ustawy o Krajowym Rejestrze
+   Sądowym.
+         Rada Ministrów uznała wymieniony projekt ustawy za pilny, ponieważ realizuje
+ on kamień milowy KPO „Rozwój i zwiększenie dostępności Rejestrów Sądowych –
+ eKRS i EKW”. Projekt realizuje priorytet polityki Rady Ministrów oraz ma charakter
+ deregulacyjny.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Sprawiedliwości.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                    Projekt
+                                        U S T AWA
+
+                                              z dnia
+
+ o zmianie ustawy o księgach wieczystych i hipotece oraz ustawy o Krajowym Rejestrze
+                                           Sądowym
+
+
+     Art. 1. W ustawie z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece (Dz. U.
+z 2025 r. poz. 341, 1669, 1792 i 1793) wprowadza się następujące zmiany:
+1)   w art. 364:
+     a)   ust. 4 otrzymuje brzmienie:
+               „4. W przypadku złożenia za pośrednictwem systemu teleinformatycznego
+          wniosku o wydanie dokumentów, o których mowa w ust. 2, Centralna Informacja
+          umożliwia pobranie tych dokumentów w postaci dokumentów elektronicznych
+          pozwalających na samodzielne sporządzenie wydruków za pośrednictwem systemu
+          teleinformatycznego. Pobrane dokumenty elektroniczne oraz ich wydruki mają moc
+          dokumentów wydawanych przez sąd, jeżeli posiadają cechy umożliwiające ich
+          weryfikację z danymi zawartymi w centralnej bazie danych ksiąg wieczystych.”,
+     b)   w ust. 17:
+          –   pkt 6 otrzymuje brzmienie:
+              „6) cechy dokumentów elektronicznych oraz wydruków tych dokumentów,
+                   mających moc dokumentów wydawanych przez sąd, oraz sposób i tryb ich
+                   weryfikacji z danymi zawartymi w centralnej bazie danych ksiąg
+                   wieczystych,”,
+          –   część wspólna otrzymuje brzmienie:
+              „– uwzględniając zasadę jawności ksiąg wieczystych i powszechność dostępu do
+              nich, szybkość postępowania, zakres danych zawartych we w0niosku,
+              konieczność zapewnienia możliwości i sprawności weryfikacji pobranego
+              dokumentu elektronicznego oraz samodzielnie wydrukowanego dokumentu
+              z danymi zawartymi w centralnej bazie danych ksiąg wieczystych oraz
+              konieczność zapewnienia ochrony centralnej bazy danych ksiąg wieczystych
+              przed nieuprawnionym dostępem osób trzecich, a także treść i strukturę księgi
+              wieczystej.”;
+2)   w art. 365 ust. 2 otrzymuje brzmienie:
+                                               –2–
+
+
+          „2. Minister Sprawiedliwości, w porozumieniu z ministrem właściwym do spraw
+     finansów publicznych, określi, w drodze rozporządzenia, wysokość opłat, o których
+     mowa w ust. 1, uwzględniając potrzebę pokrycia kosztów administracyjnych oraz
+     zróżnicowania opłat od wniosków o uzyskanie poszczególnych dokumentów
+     w zależności od sposobu złożenia wniosku, sposobu doręczenia dokumentów oraz postaci
+     wydawanego dokumentu, a także konieczność realizacji ustawowych zadań przez
+     podmiot wnioskujący o wyszukanie ksiąg wieczystych.”.
+
+     Art. 2. W ustawie z dnia 20 sierpnia 1997 r. o Krajowym Rejestrze Sądowym (Dz. U.
+z 2025 r. poz. 869, 1556 i 1792) w art. 10a:
+1)   po ust. 1 dodaje się ust. 1a w brzmieniu:
+          „1a. Informacja, o której mowa w ust. 1, może być automatycznie przesyłana za
+     pośrednictwem aplikacji mObywatel, o której mowa w ustawie z dnia 26 maja 2023 r.
+     o aplikacji mObywatel (Dz. U. z 2024 r. poz. 1275 i 1717 oraz z 2025 r. poz. 1019),
+     użytkownikowi tej aplikacji, który za jej pośrednictwem wskazał numer w Rejestrze
+     podmiotu, którego informacja ta ma dotyczyć, a z którym użytkownik ten jest powiązany
+     przez numer PESEL.”;
+2)   w ust. 2 zdanie pierwsze otrzymuje brzmienie:
+     „Informacje, o których mowa w ust. 1 i ust. 1a, są przesyłane przez wskazany okres, nie
+     dłużej niż przez rok, albo do chwili rezygnacji z otrzymywania tych informacji.”;
+3)   ust. 3 otrzymuje brzmienie:
+          „3. Jednocześnie przesyła się informacje dotyczące nie więcej niż pięćdziesięciu
+     podmiotów za pośrednictwem systemu teleinformatycznego i nie więcej niż
+     pięćdziesięciu podmiotów za pośrednictwem aplikacji mObywatel.”;
+4)   w ust. 4 wprowadzenie do wyliczenia otrzymuje brzmienie:
+     „Informacje, o których mowa w ust. 1 i ust. 1a, są przesyłane automatycznie po:”.
+
+     Art. 3. Odpisy ksiąg wieczystych, wyciągi z ksiąg wieczystych oraz zaświadczenia
+o zamknięciu ksiąg wieczystych, których wydruku dokonano do dnia wejścia w życie ustawy,
+na podstawie art. 364 ustawy zmienianej w art. 1 w brzmieniu dotychczasowym, zachowują
+moc dokumentów wydawanych przez sąd, jeżeli posiadają cechy umożliwiające ich
+weryfikację z danymi zawartymi w centralnej bazie danych ksiąg wieczystych.
+
+     Art. 4. Ustawa wchodzi w życie z dniem 31 marca 2026 r., z wyjątkiem art. 2, który
+wchodzi w życie z dniem 31 maja 2026 r.
+                                   UZASADNIENIE
+
+       Projekt przewiduje zmianę ustawy z dnia 6 lipca 1982 r. o księgach wieczystych
+i hipotece (Dz. U. z 2025 r. poz. 341, z późn. zm.), dalej: "ukwh", celem uregulowania
+możliwości wydawania dokumentów elektronicznych przez Centralną Informację Ksiąg
+Wieczystych, dalej: "CI KW". W projekcie ujęto również zmiany w ustawie z dnia 20 sierpnia
+1997 r. o Krajowym Rejestrze Sądowym (Dz. U. z 2025 r. poz. 869, z późn. zm.), dalej: uKRS,
+w zakresie możliwości uzyskania informacji z newslettera KRS za pośrednictwem aplikacji
+mObywatel.
+
+ 1. Projektowane zmiany w zakresie możliwości samodzielnego pobrania dokumentów
+                                  elektronicznych z CI KW.
+
+     Aktualne brzmienie przepisu art. 364 ust. 4 ukwh stanowi, że w przypadku gdy wniosek
+o wydanie odpisu ksiąg wieczystych, wyciągu z ksiąg wieczystych oraz zaświadczenia
+o zamknięciu      ksiąg   wieczystych   zostanie   złożony    za    pośrednictwem     systemu
+teleinformatycznego, to Centralna Informacja Ksiąg Wieczystych umożliwia samodzielne
+wydrukowanie tych dokumentów za pośrednictwem systemu teleinformatycznego. Wydruki
+tych dokumentów mają moc dokumentów wydawanych przez sąd, jeżeli posiadają cechy
+umożliwiające ich weryfikację z danymi zawartymi w centralnej bazie danych ksiąg
+wieczystych. Wspomniane wyżej dokumenty mogą stanowić wymagany załącznik do wniosku
+wnoszonego do organu administracji publicznej w postaci elektronicznej. W takim przypadku
+konieczne jest załączenie do wniosku dokumentu elektronicznego. W związku z powyższym
+proponuje się nadanie przedmiotowej jednostce redakcyjnej brzmienia, zgodnie z którym moc
+dokumentów wydawanych przez sąd będą posiadały nie tylko wydruki, jak obecnie, ale także
+dokumenty elektroniczne generowane przez system teleinformatyczny, z których te wydruki
+są sporządzane.
+
+     Wynikiem wprowadzonej zmiany do art. 364 ust. 4 ukwh (art. 1 pkt 2 lit. a projektu) będzie
+nadanie mocy dokumentów wydawanych przez sąd, tj.: odpisu ksiąg wieczystych, wyciągu
+z ksiąg wieczystych oraz zaświadczenia o zamknięciu ksiąg wieczystych, nie tylko wydrukom
+takich dokumentów, jak to jest obecnie, ale także dokumentom elektronicznie generowanym
+przez system teleinformatyczny.
+
+     Konsekwencją powyższej zmiany jest modyfikacja delegacji ustawowej zawartej w art.
+364 ust. 17 ukwh (art. 1 pkt 2 lit. b projektu). Zmiana ta będzie skutkowała koniecznością
+wydania nowego, w miejsce obecnie obowiązującego, aktu wykonawczego na podstawie
+nowelizowanego przepisu, który to projekt jest przedmiotem odrębnych prac legislacyjnych.
+
+       Dalszym efektem wprowadzonych zmian jest uwzględnienie możliwości wygenerowania
+dokumentu elektronicznego równego mocą dokumentowi wydanemu przez sąd, w odniesieniu
+do obowiązku uiszczenia opłaty od wniosków o wydanie przez Centralną Informację Ksiąg
+Wieczystych odpisów ksiąg wieczystych, wyciągów z ksiąg wieczystych i zaświadczeń
+o zamknięciu ksiąg wieczystych oraz od wniosku o wyszukanie ksiąg wieczystych w centralnej
+bazie danych ksiąg wieczystych. Z tego też względu w projekcie uwzględniono modyfikację
+delegacji ustawowej zawartej w art. 365 ust. 2 ukwh (art. 1 pkt 3 projektu), która również
+doprowadzi do konieczności wydania nowego aktu wykonawczego na jego podstawie, co jest
+przedmiotem odrębnego procesu legislacyjnego.
+
+     2. Projektowane zmiany w zakresie możliwości otrzymywania newslettera, o którym
+ mowa w art. 10a ustawy z dnia 20 sierpnia 1997 r. o Krajowym Rejestrze Sądowym za
+                           pośrednictwem aplikacji mObywatel.
+
+       Ostatnia   modyfikacja   aplikacji   mObywatel,       dokonana   poprzez   nowelizację
+rozporządzenia Rady Ministrów z dnia 12 lipca 2023 r. w sprawie zakresu danych i wykazu
+rejestrów publicznych oraz systemów teleinformatycznych podmiotów publicznych, z dniem
+31 maja 2026 r. umożliwi pozyskiwanie za jej pośrednictwem danych z Krajowego Rejestru
+Sądowego (KRS) dotyczących podmiotu wpisanego do rejestru przedsiębiorców lub rejestru
+stowarzyszeń, innych organizacji społecznych i zawodowych, fundacji oraz samodzielnych
+publicznych zakładów opieki zdrowotnej m.in. w zakresie:
+1)       zarejestrowania w systemie teleinformatycznym sprawy – obejmująca numer w
+Rejestrze, sygnaturę sprawy i datę rejestracji sprawy albo
+2)       dokonaniu wpisu w pozycji Rejestru – obejmująca numer w Rejestrze, sygnaturę
+sprawy, datę dokonania wpisu i numer wpisu.
+
+Mając zatem na uwadze, że informacje te – za pośrednictwem systemu teleinformatycznego
+KRS – można również pozyskiwać w ramach usługi tzw. newslettera, za zasadne uznano, aby
+możliwość z jej skorzystania była również dostępna poprzez aplikację mObywatel, dla jej
+użytkowników, w zakresie podmiotowym zgodnym z ww. rozporządzeniem Rady Ministrów.
+Z tego względu w niniejszym projekcie proponuje się uregulowanie pozyskiwania
+ww. informacji przez aplikację mObywatel w ramach tzw. subskrypcji z odpowiednim
+zastosowaniem przepisów art. 10a, w szczególności poprzez wyraźne zaznaczenie:
+
+
+                                               2
+ zakresu podmiotowego (dostęp do danych z KRS za pośrednictwem aplikacji mObywatel
+będzie ograniczony do danych podmiotów, z którymi ten konkretny użytkownik aplikacji jest
+powiązany przez PESEL – projektowany art. 10a ust. 1a uKRS),
+
+ zakresu informacji, jakie użytkownik aplikacji mObywatel może pozyskiwać (określone
+w art. 10a ust. 1 uKRS),
+
+ przez jaki okres będzie on otrzymywał powiadomienia w aplikacji o żądanych danych (rok
+czasu z możliwością przedłużenia – art. 10a ust. 2 uKRS) oraz
+
+ ograniczenia jednoczesnego przesyłania danych nie więcej niż 50 podmiotów, które
+to ograniczenie będzie obowiązywało odrębnie w odniesieniu do wniosków składanych przez
+system teleinformatyczny i odrębnie dla wniosków składanych przez aplikację mObywatel (art.
+10a ust. 3 uKRS).
+
+                                    3. Przepisy końcowe
+
+     Przewiduje się, że dokumenty udostępnione przez Centralną Informację Ksiąg
+Wieczystych do samodzielnego wydruku za pośrednictwem systemu teleinformatycznego
+przed dniem wejścia w życie ustawy zachowują moc dokumentów wydawanych przez sąd,
+jeżeli posiadają cechy umożliwiające ich weryfikację z danymi zawartymi w centralnej bazie
+danych ksiąg wieczystych (art. 3 projektu).
+
+     Zakłada się, że ustawa wejdzie w życie z dniem 31 marca 2026 r., który to termin z jednej
+strony wynika z założeń przedsięwzięcia „Rozwój i zwiększenie dostępności Rejestrów
+Sądowych – eKRS i EKW”, które znalazło się na liście projektów indykatywnych do Inwestycji
+C2.1.1 Krajowego Planu Odbudowy i Zwiększania Odporności, jak również pozwoli
+na przeprowadzenie procesu legislacyjnego w zakresie niezbędnych nowelizacji aktów
+wykonawczych, wydawanych na podstawie przepisów, których zmianę przewiduje się
+w niniejszym projekcie. Z tych samych względów dla przepisów nowelizujących ustawę o KRS
+przewidziano datę wejścia w życie określoną na dzień 31 maja 2026 r.
+
+     Projektowana regulacja nie wywiera bezpośredniego wpływu na działalność
+mikroprzedsiębiorców oraz małych i średnich przedsiębiorstw.
+
+     Projekt nie wykonuje prawa Unii Europejskiej. Wprowadzane regulacje nie są sprzeczne
+z prawem Unii Europejskiej i nie podlegają przedstawieniu właściwym organom i instytucjom
+Unii Europejskiej, w tym Europejskiemu Bankowi Centralnemu, o których mowa w § 27 ust.
+
+
+
+                                              3
+4 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady
+Ministrów (M.P. z 2024 r. poz. 806 oraz z 2025 r. poz. 408).
+
+     Projekt nie zawiera przepisów technicznych w rozumieniu rozporządzenia Rady
+Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego systemu
+notyfikacji norm i aktów prawnych (Dz. U. poz. 2039 oraz z 2004 r. poz. 597) i nie podlega
+notyfikacji w trybie przewidzianym w tym rozporządzeniu.
+
+     Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. z 2025 r. poz. 677) projekt został udostępniony w Biuletynie
+Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji.
+
+
+
+
+                                              4
+Nazwa projektu                                                                Data sporządzenia
+Projekt ustawy o zmianie ustawy o księgach wieczystych i hipotece oraz ustawy 11.12.2025 r.
+o Krajowym Rejestrze Sądowym
+                                                                              Źródło
+Ministerstwo wiodące i ministerstwa współpracujące                            Inicjatywa własna
+Ministerstwo Sprawiedliwości                                                  DEREGULACJA
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Stanu lub
+                                                                        Nr w Wykazie prac legislacyjnych i
+Podsekretarza Stanu
+                                                                        programowych Rady Ministrów
+pod względem legislacyjnym:
+                                                                        UDER89
+Arkadiusz Myrcha, Sekretarz Stanu w Ministerstwie Sprawiedliwości
+Kontakt do opiekuna merytorycznego projektu
+opiekun legislacyjny:
+Łukasz Paszka, Zastępca Dyrektora Departamentu Legislacyjnego
+tel. 22 52 12 764, e-mail: sekretariat.dl@ms.gov.pl
+Agnieszka Góral, Główny specjalista w Departamencie Legislacyjnym
+Departament Legislacyjny
+tel. 22 52 12 340, e-mail: Agnieszka.Goral@ms.gov.pl
+opiekun merytoryczny:
+Grzegorz Polak, Dyrektor Departamentu Informatyzacji i Rejestrów Sądowych
+tel. 22 39 76 600/601, e-mail: sekretariat.dirs@ms.gov.pl
+                                 OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Projekt przewiduje zmianę ustawy z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece (Dz. U. z 2025 r. poz. 341, z
+późn. zm.), dalej: „ukwh”, celem uregulowania możliwości wydawania dokumentów elektronicznych przez Centralną
+Informację Ksiąg Wieczystych.
+Obecnie zgodnie z art. 364 ust. 4 ukwh Centralna Informacja Ksiąg Wieczystych umożliwia samodzielne wydrukowanie
+odpisu ksiąg wieczystych, wyciągu z ksiąg wieczystych oraz zaświadczenia o zamknięciu ksiąg wieczystych za
+pośrednictwem systemu teleinformatycznego, jeśli za jego pośrednictwem został złożony wniosek o wydanie tych
+dokumentów. Wydruki tych dokumentów mają moc dokumentów wydawanych przez sąd, jeżeli posiadają cechy
+umożliwiające ich weryfikację z danymi zawartymi w centralnej bazie danych ksiąg wieczystych i mogą stanowić wymagany
+załącznik do wniosku wnoszonego w postaci elektronicznej do organu administracji publicznej. W takim przypadku
+konieczne jest jednak załączenie do wniosku dokumentu elektronicznego. W związku z powyższym wymagana jest zmiana
+art. 364 ust. 4 ukwh, by moc dokumentów wydawanych przez sąd posiadały nie tylko wydruki, ale także dokumenty
+elektroniczne generowane przez system teleinformatyczny, z których te wydruki są sporządzane.
+Konieczne jest również umożliwienie obywatelom ustalenia, za pośrednictwem aplikacji mObywatel, danych z Krajowego
+Rejestru Sądowego. Ma to na celu ułatwienie użytkownikom pozyskiwania danych ich dotyczących za pośrednictwem jednej
+aplikacji.
+Należy wskazać, że aplikacja mObywatel pozwala użytkownikom na realizację ich uprawnień w prosty sposób. Aplikacja
+jest stale rozwijana i dodawane są do niej nowe usługi, co powoduje konieczność wskazania nowych rejestrów, z których
+użytkownik będzie mógł pobrać dotyczące go dane i informacje.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Wobec kwestii przedstawionych w pkt 1 OSR projektowana ustawa przewiduje zmiany w zakresie:
+ możliwości samodzielnego pobrania dokumentów elektronicznych z Centralnej Informacji Ksiąg Wieczystych
+   Proponuje się zmianę art. 364 ust. 4 ukwh poprzez nadanie mocy dokumentów wydanych przez sąd odpisom ksiąg
+   wieczystych, wyciągom z ksiąg wieczystych oraz zaświadczeniom o zamknięciu ksiąg wieczystych nie tylko w formie
+   wydruków, ale również w formie dokumentów elektronicznie generowanych przez system teleinformatyczny.
+   Konsekwencją tej zmiany będzie modyfikacja delegacji ustawowej zawartej w art. 364 ust. 17 i art. 365 ust. 2 ukwh, co
+   doprowadzi do konieczności wydania nowych aktów wykonawczych;
+ wykorzystania aplikacji mObywatel
+   Projekt przewiduje modyfikację aplikacji mObywatel w taki sposób, aby było możliwe pozyskanie za jej pośrednictwem,
+   w ramach tzw. subskrypcji, danych z Krajowego Rejestru Sądowego (KRS) dotyczących podmiotu wpisanego do
+   rejestru przedsiębiorców lub rejestru stowarzyszeń, innych organizacji społecznych i zawodowych, fundacji oraz
+   samodzielnych publicznych zakładów opieki zdrowotnej między innymi w zakresie zarejestrowania w systemie
+   teleinformatycznym sprawy (numer w Rejestrze, sygnatura i data rejestracji sprawy) albo dokonania wpisu w pozycji
+   Rejestru (numer w Rejestrze, sygnatura sprawy, numer i data dokonania wpisu). Dostęp do danych z KRS za
+   pośrednictwem aplikacji mObywatel będzie ograniczony do danych podmiotów, z którymi ten konkretny użytkownik
+   aplikacji jest powiązany przez PESEL.
+   Uwzględnione zostanie obowiązujące na mocy art. 10a ust. 3 uKRS ograniczenie jednoczesnego przesyłania danych nie
+   więcej niż 50 podmiotów, w odniesieniu do wniosków składanych przez system teleinformatyczny służący do
+   prowadzenia Rejestru i odrębnie dla wniosków składanych przez aplikację mObywatel.
+Dokumenty udostępnione przez Centralną Informację Ksiąg Wieczystych do samodzielnego wydruku za pośrednictwem
+systemu teleinformatycznego przed dniem wejścia w życie ustawy zachowają moc dokumentów wydawanych przez sąd,
+jeżeli posiadają cechy umożliwiające ich weryfikację z danymi zawartymi w centralnej bazie danych ksiąg wieczystych.
+Projektowana regulacja wpłynie na poprawę dostępności usług publicznych poprzez umożliwienie obywatelom szybkiego,
+zdalnego dostępu do danych z ksiąg wieczystych i KRS.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Projektowana regulacja ze względu na stopień jej szczegółowości nie była poddawana analizie prawnoporównawczej.
+4. Podmioty, na które oddziałuje projekt
+     Grupa               Wielkość            Źródło danych                          Oddziaływanie
+Obywatele         ok. 331 tys. firm        Rejestr             Poprawa dostępności usług publicznych, która nastąpi
+                                           Dłużników BIG       poprzez cyfryzację procedur, zmniejszenie formalności,
+                  ok. 2,54 mln
+                                           InfoMonitor         dostępność informacji 24/7 i zwiększoną kontrolę nad
+                  konsumentów
+                                                               własnymi danymi, tj.:
+                  - stan na 2024 r.                             nadanie mocy dokumentów wydanych przez sąd
+                                                                    odpisom ksiąg wieczystych, wyciągom z ksiąg
+                                                                    wieczystych oraz zaświadczeniom o zamknięciu
+                                                                    ksiąg wieczystych dokumentom elektronicznie
+                                                                    generowanym przez system teleinformatyczny, co
+                                                                    wpłynie na uproszczenie i przyspieszenie dostępu do
+                                                                    dokumentów;
+                                                                umożliwienie pozyskania za pośrednictwem aplikacji
+                                                                    mObywatel danych z KRS dotyczących podmiotu
+                                                                    wpisanego do rejestru przedsiębiorców lub rejestru
+                                                                    stowarzyszeń, innych organizacji społecznych i
+                                                                    zawodowych,       fundacji   oraz    samodzielnych
+                                                                    publicznych zakładów opieki zdrowotnej m.in. w
+                                                                    zakresie      zarejestrowania      w       systemie
+                                                                    teleinformatycznym sprawy albo dokonania wpisu w
+                                                                    pozycji Rejestru.
+Krajowy Rejestr   1                        Informacja          Możliwość pozyskania za pośrednictwem aplikacji
+Sądowy                                     ogólnodostępna      mObywatel danych z Krajowego Rejestru Sądowego
+                                                               (KRS) dotyczących podmiotu wpisanego do rejestru
+                                                               przedsiębiorców lub rejestru stowarzyszeń, innych
+                                                               organizacji społecznych i zawodowych, fundacji oraz
+                                                               samodzielnych publicznych zakładów opieki zdrowotnej
+                                                               między innymi w zakresie zarejestrowania w systemie
+                                                               teleinformatycznym sprawy albo dokonania wpisu w
+                                                               pozycji Rejestru.
+Centralna         1                        Informacja
+                                                               Nadanie mocy dokumentów wydanych przez sąd odpisom
+Informacja                                 ogólnodostępna
+                                                               ksiąg wieczystych, wyciągom z ksiąg wieczystych oraz
+Ksiąg
+                                                               zaświadczeniom o zamknięciu ksiąg wieczystych
+Wieczystych
+
+                                                         2
+                                                                  dokumentom elektronicznie generowanym przez system
+                                                                  teleinformatyczny.
+Rada Ministrów       1                       Informacja           Konieczność wprowadzenia zmiany w rozporządzeniu
+                                             ogólnodostępna       Rady Ministrów z dnia 12 lipca 2023 r. w sprawie zakresu
+                                                                  danych i wykazu rejestrów publicznych oraz systemów
+                                                                  teleinformatycznych podmiotów publicznych, z których
+                                                                  użytkownik aplikacji mObywatel może pobrać dane (Dz.
+                                                                  U. poz. 1342).
+Minister             1                       Informacja           Konieczność wydania nowych aktów wykonawczych na
+Sprawiedliwości                              ogólnodostępna       podstawie art. 364 ust. 17 i art. 365 ust. 2 ukwh.
+ 5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Zgodnie z § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P.
+z 2024 r. poz. 806 oraz z 2025 r. poz. 408) oraz stosownie do wymogów art. 5 ustawy z dnia 7 lipca 2005 r. o działalności
+lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677) projekt został udostępniony w Biuletynie Informacji
+Publicznej na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces Legislacyjny. Projekt ma
+charakter deregulacyjny.
+
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2025 r.)                       Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                          0      1       2       3       4       5        6        7        8        9     10      Łącznie
+                               (2026)                                                                               (0-10)
+Dochody ogółem            0      0       0       0       0       0        0        0        0        0      0        0
+budżet państwa            0      0       0       0       0       0        0        0        0        0      0        0
+JST                       0      0       0       0       0       0        0        0        0        0      0        0
+ZUS                       0      0       0       0       0       0        0        0        0        0      0        0
+NFZ                       0      0       0       0       0       0        0        0        0        0      0        0
+Inne podmioty             0      0       0       0       0       0        0        0        0        0      0        0
+Wydatki ogółem            0     9,87     0       0       0       0        0        0        0        0      0       9,87
+budżet państwa            0      0       0       0       0       0        0        0        0        0      0        0
+JST                       0      0       0       0       0       0        0        0        0        0      0        0
+Saldo ogółem              0     -9,87    0       0       0       0        0        0        0        0      0       -9,87
+budżet państwa            0      0       0       0       0       0        0        0        0        0      0        0
+JST                       0      0       0       0       0       0        0        0        0        0      0        0
+ZUS                       0      0       0       0       0       0        0        0        0        0      0        0
+NFZ                       0      0       0       0       0       0        0        0        0        0      0        0
+Inne podmioty             0      0       0       0       0       0        0        0        0        0      0        0
+                     Koszty_ Minister Sprawiedliwości:
+                     Wszystkie koszty związane ze zmianami w KRS i Centralnej Ewidencji Ksiąg Wieczystych, z
+                     wyłączeniem kosztów VAT, sfinansowane będą ze środków Unii Europejskiej, pochodzących z
+                     Instrumentu na rzecz Odbudowy i Zwiększania Odporności (część bezzwrotna), w ramach Krajowego
+                     Planu Odbudowy i Zwiększania Odporności, inwestycja C2.1.1. E-usługi publiczne, rozwiązania IT
+                     usprawniające funkcjonowanie administracji i sektorów gospodarki.
+Źródła               Koszty VAT zostaną sfinansowane z budżetu Państwa, część 15 – Sądy powszechne i 37 –
+finansowania
+                     Sprawiedliwość, w ramach posiadanych środków i nie będą stanowiły podstawy do ubiegania się o
+                     dodatkowe środki z budżetu państwa na ten cel w roku bieżącym, jak i w kolejnych latach budżetowych.
+                     W latach następnych koszty pokryte zostaną z umów utrzymaniowo-rozwojowych w ramach dotychczas
+                     posiadanych środków.
+
+                     Koszty_ Minister Cyfryzacji:
+
+                                                             3
+                    Koszty wdrożenia projektowanych zmian usług dotyczących ksiąg wieczystych i KRS w zakresie
+                    dotyczącym aplikacji mObywatel zostaną sfinansowane przez ministra właściwego do spraw
+                    informatyzacji z budżetu Państwa, część 27 – Informatyzacja.
+                    Ministerstwo Cyfryzacji w zakresie prac wdrożeniowych dot. zmian usług KRS oraz Ksiąg wieczystych,
+                    w ramach projektu "Rozbudowa ekosystemu aplikacji mObywatel", nie planuje ubiegać się o dodatkowe
+                    środki z budżetu państwa z części 27 Informatyzacja, w roku bieżącym oraz w roku 2026.
+Dodatkowe           Koszty_ Minister Sprawiedliwości:
+informacje, w       Szacowana wysokość środków inwestycji:
+tym wskazanie
+                     w zakresie zmian w ustawie o KRS - 1 mln zł;
+źródeł danych i
+przyjętych do        w zakresie zmian w ustawie o ukwh - 3,2 mln zł.
+obliczeń założeń    Szacowana wysokość środków w części VAT:
+                     w zakresie zmian ustawy o KRS - 0,23 mln zł;
+                     w zakresie zmian w ustawie o ukwh - 0,74 mln zł.
+
+                    Koszty opracowania i wdrożenia e-usług KRS udostępnianych w aplikacji mObywatel oszacowano na
+                    podstawie dotychczasowych doświadczeń zespołu rozwoju eKRS, biorąc pod uwagę szacunkową
+                    pracochłonność prac wykonawcy oraz koszty jednostkowe roboczogodziny wykonawcy zawarte w
+                    umowie na rozwój i utrzymanie systemu elektroniczny Krajowy Rejestr Sądowy (eKRS) nr 5/2023 z
+                    28.02.2023 r.
+                    Koszty opracowania i wdrożenia nowego komponentu Centralnej Informacji Ksiąg Wieczystych oraz e-
+                    usług KW udostępnianych w aplikacji mObywatel oszacowano na podstawie dotychczasowych
+                    doświadczeń zespołu rozwoju Ksiąg Wieczystych, biorąc pod uwagę szacunkową pracochłonność prac
+                    wykonawcy oraz koszty jednostkowe roboczogodziny wykonawcy zawarte w umowie nr 2024/010/PZP
+                    z dnia 22.01.2024 r. na utrzymanie i rozwój systemu Elektroniczne Księgi Wieczyste (EKW).
+
+                    Koszty_ Minister Cyfryzacji:
+                    Koszty wdrożenia projektowanych zmian usług dotyczących ksiąg wieczystych i KRS, w zakresie
+                    dotyczącym aplikacji mObywatel, szacuje się na 4,7 mln zł.
+                    Ministerstwo Cyfryzacji finansuje prace związane z uruchomieniem usług po stronie aplikacji
+                    mObywatel, które polegają na integracji z systemem Ministerstwa Sprawiedliwości.
+                    W ramach tych kosztów finansowany jest również VAT wynikający z kosztów wytwórczych
+                    ponoszonych przez Ministerstwo Cyfryzacji.
+                    Powyższe prace rozwojowe są zaplanowane do realizacji do końca czerwca 2026 r. zgodnie z terminem
+                    realizacji projektu i zostaną sfinansowane z budżetu państwa z części 27 – Informatyzacja.
+
+                    Informacja dodatkowa:
+                    Wdrożenie usług dotyczących ksiąg wieczystych i KRS w zakresie dotyczącym aplikacji mObywatel
+                    sfinansowane zostanie w ramach projektu „Rozbudowa ekosystemu aplikacji mObywatel”
+                    finansowanego z Krajowego Planu Odbudowy i Zwiększania Odporności, Inwestycja C2.1.1 E-usługi
+                    publiczne, rozwiązania IT usprawniające funkcjonowanie administracji i sektorów gospodarki.
+                    Całkowity koszt projektu wynosi: 235 589 055,32 zł, wydatki kwalifikowane: 192 367 183,19 zł,
+                    dofinansowanie: 192 367 183,19 zł. Zgodnie z pkt. 27 Wniosku o Dofinansowanie są zaplanowane
+                    „prace integracyjne związane z usługami opracowywanymi przez inne podmioty, w tym m.in.: mFirma,
+                    Elektroniczne dyplomy, eKRS oraz elektroniczne księgi wieczyste, Odyseusz”.
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                         Skutki
+Czas w latach od wejścia w życie zmian     0         1            2          3             5           10      Łącznie
+                                         (2025)                                                                 (0-10)
+                    duże
+                    przedsiębiorstwa
+
+
+
+                                                         4
+W ujęciu            sektor mikro-,
+pieniężnym          małych i średnich
+(w mln zł,          przedsiębiorstw
+ceny stałe z 2025   rodzina, obywatele
+r.)                 oraz gospodarstwa
+                    domowe
+W ujęciu            duże                  Brak wpływu.
+niepieniężnym       przedsiębiorstwa
+                    sektor mikro-,        Przedmiotowy projekt nie określa zasad podejmowania, wykonywania lub
+                    małych i średnich     zakończenia działalności gospodarczej, w związku z czym odstąpiono od analiz i
+                    przedsiębiorstw
+                                          oceny przewidywanych skutków społeczno-gospodarczych, wskazanych w art. 66
+                                          ust. 1 ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców (Dz. U. z 2025 r.
+                                          poz. 1480, z późn.zm.).
+                    rodzina, obywatele    Nadanie mocy dokumentów wydanych przez sąd odpisom ksiąg wieczystych,
+                    oraz gospodarstwa     wyciągom z ksiąg wieczystych oraz zaświadczeniom o zamknięciu ksiąg
+                    domowe, w tym
+                                          wieczystych dokumentom elektronicznie generowanym przez system
+                    osoby z
+                    niepełnosprawnością   teleinformatyczny.
+                    i starsze             Pozyskanie za pośrednictwem aplikacji mObywatel danych z Krajowego Rejestru
+                                          Sądowego (KRS) dotyczących podmiotu wpisanego do rejestru przedsiębiorców
+                                          lub rejestru stowarzyszeń, innych organizacji społecznych i zawodowych, fundacji
+                                          oraz samodzielnych publicznych zakładów opieki zdrowotnej między innymi w
+                                          zakresie zarejestrowania w systemie teleinformatycznym sprawy albo dokonania
+                                          wpisu w pozycji Rejestru.
+Niemierzalne
+Dodatkowe informacje,
+w tym wskazanie źródeł
+danych i przyjętych do
+obliczeń założeń
+ 8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+    nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie     tak
+wymaganymi przez UE (szczegóły w odwróconej     nie
+tabeli zgodności).                              nie dotyczy
+
+   zmniejszenie liczby dokumentów                        zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                          zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                 wydłużenie czasu na załatwienie sprawy
+   inne:                                                 inne:
+Wprowadzane obciążenia są przystosowane do ich           tak
+elektronizacji.                                          nie
+                                                         nie dotyczy
+Komentarz: Projektowana regulacja ma na celu zwiększenie dostępności usług publicznych poprzez zapewnienie
+obywatelom możliwości szybkiego i zdalnego dostępu do danych z ksiąg wieczystych oraz KRS, co przyczyni się do
+skrócenia czasu pozyskiwania informacji.
+9. Wpływ na rynek pracy
+Projektowana regulacja nie ma bezpośredniego wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+   środowisko naturalne                      demografia                                 informatyzacja
+   sytuacja i rozwój regionalny              mienie państwowe                           zdrowie
+   sądy powszechne, administracyjne lub      inne:
+wojskowe
+                   Projektowana regulacja wpłynie na informatyzację poprzez nadanie mocy dokumentów wydanych przez
+Omówienie          sąd odpisom ksiąg wieczystych, wyciągom z ksiąg wieczystych oraz zaświadczeniom o zamknięciu ksiąg
+wpływu             wieczystych dokumentom elektronicznie generowanym przez system teleinformatyczny.
+
+
+                                                            5
+                   Możliwość pozyskania za pośrednictwem aplikacji mObywatel danych z Krajowego Rejestru Sądowego
+                   (KRS) dotyczących podmiotu wpisanego do rejestru przedsiębiorców lub rejestru stowarzyszeń, innych
+                   organizacji społecznych i zawodowych, fundacji oraz samodzielnych publicznych zakładów opieki
+                   zdrowotnej między innymi w zakresie zarejestrowania w systemie teleinformatycznym sprawy albo
+                   dokonania wpisu w pozycji Rejestru.
+11. Planowane wykonanie przepisów aktu prawnego
+Ustawa wchodzi w życie z dniem 31 marca 2026 r., z wyjątkiem art. 2, który wchodzi w życie z dniem 31 maja 2026 r. Termin
+wynika z założeń przedsięwzięcia „Rozwój i zwiększenie dostępności Rejestrów Sądowych – eKRS i EKW”, które znalazło
+się na liście projektów indykatywnych do Inwestycji C2.1.1 Krajowego Planu Odbudowy i Zwiększania Odporności oraz
+pozwoli na przeprowadzenie procesu legislacyjnego w zakresie niezbędnych nowelizacji aktów wykonawczych, wydawanych
+na podstawie przepisów, których zmianę przewiduje się w projekcie. Z tych samych względów dla przepisów nowelizujących
+ustawę o KRS przewidziano datę wejścia w życie określoną na dzień 31 maja 2026 r.
+Dokumenty udostępnione przez Centralną Informację Ksiąg Wieczystych do samodzielnego wydruku za pośrednictwem
+systemu teleinformatycznego przed dniem wejścia w życie ustawy zachowają moc dokumentów wydawanych przez sąd, jeżeli
+posiadają cechy umożliwiające ich weryfikację z danymi zawartymi w centralnej bazie danych ksiąg wieczystych.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Efekty wejścia w życie projektowanych rozwiązań będą natychmiastowe i nie wymagają pomiaru.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                          6
+                                                                                        Projekt
+                               ROZPORZĄDZENIE
+
+                      M I N I S T R A S P R AW I E D L I W O Ś C I
+
+                                            z dnia
+
+                   w sprawie Centralnej Informacji Ksiąg Wieczystych
+
+
+     Na podstawie art. 364 ust. 17 ustawy z dnia 6 lipca 1982 r. o księgach wieczystych i
+hipotece (Dz. U. z 2025 r. poz. 341, 1669, 1792, 1793 i …) zarządza się, co następuje
+
+     § 1. Rozporządzenie określa:
+1)   sposób funkcjonowania Centralnej Informacji Ksiąg Wieczystych oraz jej strukturę
+     organizacyjną;
+2)   tryb składania wniosków i rodzaje dokumentów wydawanych przez Centralną Informację
+     Ksiąg Wieczystych;
+3)   wzory wniosków składanych do Centralnej Informacji Ksiąg Wieczystych, w tym zakres
+     danych we wniosku składanym za pośrednictwem systemu teleinformatycznego;
+4)   tryb postępowania z wnioskami i sposób pobierania od nich opłaty;
+5)   tryb przeglądania księgi wieczystej;
+6)   cechy pobranych dokumentów elektronicznych i wydruków tych dokumentów
+     elektronicznych, mających moc dokumentów wydawanych przez sąd oraz sposób i tryb
+     ich weryfikacji z danymi zawartymi w centralnej bazie danych ksiąg wieczystych;
+7)   warunki techniczne i organizacyjne wykonania decyzji, o której mowa w art. 364 ust. 13
+     ustawy z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece;
+8)   tryb, sposób i kryteria wyszukiwania ksiąg wieczystych.
+
+     § 2. 1. Centralna Informacja Ksiąg Wieczystych, zwana dalej „Centralną Informacją”, jest
+komórką organizacyjną Ministerstwa Sprawiedliwości.
+     2. Centralna Informacja składa się z centrali, zwanej dalej „centralą Centralnej
+Informacji”, oraz ekspozytur przy wydziałach sądów rejonowych prowadzących księgi
+wieczyste, zwanych dalej „ekspozyturami Centralnej Informacji.
+
+     § 3. Centralna Informacja realizuje swoje zadania za pośrednictwem, utworzonego i
+utrzymywanego      przez    Ministra    Sprawiedliwości,       systemu   teleinformatycznego
+umożliwiającego dostęp do centralnej bazy danych ksiąg wieczystych, zwanej dalej „cbdkw”.
+                                            –2–
+
+
+     § 4. 1. Centralna Informacja wydaje na wniosek następujące rodzaje dokumentów:
+1)   odpis zwykły księgi wieczystej, przedstawiający ostatni stan wpisów w księdze
+     wieczystej oraz wzmianki o wnioskach, skargach na orzeczenia referendarzy sądowych,
+     apelacjach, skargach kasacyjnych i wszczęciu postępowań z urzędu;
+2)   odpis zupełny księgi wieczystej, przedstawiający ostatni stan wpisów w księdze
+     wieczystej i wpisy wykreślone oraz wzmianki o wnioskach, skargach na orzeczenia
+     referendarzy sądowych, apelacjach, skargach kasacyjnych i wszczęciu postępowań z
+     urzędu;
+3)   wyciąg z księgi wieczystej, przedstawiający ostatni stan wpisów we wskazanych działach
+     w księdze wieczystej oraz wzmianek o wnioskach, skargach na orzeczenia referendarzy
+     sądowych, apelacjach, skargach kasacyjnych i wszczęciu postępowań z urzędu;
+     wskazanie, z jakich działów wyciąg został sporządzony, zawarte jest w dokumencie wraz
+     z informacją, że treść pozostałych działów nie jest objęta wyciągiem i może mieć wpływ
+     na rozumienie treści działów objętych wyciągiem;
+4)   zaświadczenie o zamknięciu księgi wieczystej zawierające informację, że księga
+     wieczysta o wskazanym przez wnioskodawcę numerze jest zamknięta.
+     2. Odpis zwykły księgi wieczystej oraz wyciąg z księgi wieczystej nie zawiera danych o
+założeniu księgi wieczystej oraz o podstawie zmiany księgi wieczystej.
+     3. W przypadku przeniesienia treści dotychczasowej księgi wieczystej do struktury księgi
+wieczystej prowadzonej w systemie informatycznym, odpis zupełny księgi wieczystej
+przedstawia wpisy wykreślone oraz wzmianki o wnioskach, skargach na orzeczenia
+referendarzy sądowych, apelacjach, skargach kasacyjnych i wszczęciu postępowań z urzędu,
+ujawnione od chwili przeniesienia treści dotychczasowej księgi wieczystej do struktury księgi
+wieczystej prowadzonej w systemie informatycznym.
+
+     § 5. Wniosek o wydanie jednego z dokumentów, o których mowa w § 4 ust. 1, składa się:
+1)   w centrali Centralnej Informacji albo ekspozyturze Centralnej Informacji - bezpośrednio
+     albo korespondencyjnie;
+2)   w centrali Centralnej Informacji - za pośrednictwem systemu teleinformatycznego, o
+     którym mowa w § 3.
+
+     § 6. 1. W przypadku, o którym mowa w § 5 pkt 1, wniosek o wydanie jednego z
+dokumentów, o których mowa w § 4 ust. 1, składa się na urzędowym formularzu.
+                                           –3–
+
+
+     2. Urzędowe formularze wniosków udostępnia się nieodpłatnie w centrali Centralnej
+Informacji i ekspozyturach Centralnej Informacji.
+     3. Urzędowe formularze wniosków udostępnia się nieodpłatnie na stronie internetowej
+Ministerstwa Sprawiedliwości oraz w Biuletynie Informacji Publicznej Ministerstwa
+Sprawiedliwości.
+     4. W przypadku, o którym mowa w ust. 3, urzędowe formularze wniosków udostępnia się
+w formie umożliwiającej ich wypełnienie.
+
+     § 7. 1. Składany za pośrednictwem systemu teleinformatycznego, o którym mowa w § 3,
+wniosek o wydanie jednego z dokumentów, o których mowa w § 4 ust. 1, wnosi się wraz z
+opłatą.
+     2. Składany za pośrednictwem systemu teleinformatycznego, o którym mowa w § 3,
+wniosek o wydanie jednego z dokumentów, o których mowa w § 4 ust. 1, opłacany jest
+wyłącznie za pomocą mechanizmów gwarantujących nieodwracalne zainicjowanie procedury
+opłacenia wniosku i identyfikację wnoszącego opłatę, udostępnionych przez ten system.
+     3. System teleinformatyczny, o którym mowa w § 3, uniemożliwia złożenie wniosku
+nieopłaconego lub opłaconego niezgodnie z żądaniem.
+     4. Jeżeli wnioskodawca składa równocześnie więcej niż jeden wniosek, dopuszcza się
+jednoczesne uiszczenie sumy opłat od poszczególnych wniosków podlegających opłacie.
+
+     § 8. 1. Wniosek o wyszukanie ksiąg wieczystych w cbdkw składa się wraz z opłatą za
+pośrednictwem systemu teleinformatycznego.
+     2. Wniosek o wyszukanie ksiąg wieczystych w cbdkw jest opłacany wyłącznie za pomocą
+mechanizmów gwarantujących nieodwracalne zainicjowanie procedury opłacenia wniosku i
+identyfikację wnoszącego opłatę, udostępnionych przez ten system.
+     3. System teleinformatyczny uniemożliwia złożenie wniosku nieopłaconego lub
+opłaconego niezgodnie z żądaniem.
+     4. Jeżeli wnioskodawca składa równocześnie więcej niż jeden wniosek, dopuszcza się
+jednoczesne uiszczenie sumy opłat od poszczególnych wniosków podlegających opłacie.
+
+     § 9. 1. Wnioskodawca zwolniony z mocy ustawy od opłaty od wniosku o wydanie jednego
+z dokumentów, o których mowa w § 4 ust. 1, składa wniosek za pośrednictwem konta
+założonego w systemie teleinformatycznym, o którym mowa w § 3.
+                                           –4–
+
+
+     2. Założenie konta, a jeżeli Centralna Informacja dysponuje warunkami technicznymi -
+założenie kont w systemie teleinformatycznym, o którym mowa w § 3, następuje na wniosek
+złożony w Centralnej Informacji, który zawiera:
+1)   oznaczenie wnioskodawcy;
+2)   wskazanie konkretnego przepisu prawa, na podstawie którego wnioskodawca jest
+     zwolniony od opłaty;
+3)   dane identyfikacyjne osoby fizycznej lub osób fizycznych działającej lub działających z
+     upoważnienia i na rzecz wnioskodawcy zwolnionego od opłaty z mocy ustawy,
+     obejmujące imię, nazwisko oraz numer PESEL, jeżeli został nadany.
+     3. Centralna Informacja informuje o założeniu konta lub kont w systemie
+teleinformatycznym, o którym mowa w § 3.
+
+     § 10. 1. Do wniosku złożonego bezpośrednio w centrali Centralnej Informacji dołącza się
+oryginalny dowód wniesienia opłaty na wskazany rachunek bankowy Ministerstwa
+Sprawiedliwości albo wydruk, o którym mowa w ust. 3. Do wniosku złożonego bezpośrednio
+w ekspozyturze Centralnej Informacji dołącza się oryginalny dowód wniesienia opłaty na
+wskazany rachunek bankowy sądu, przy którego wydziale ksiąg wieczystych prowadzona jest
+ekspozytura, bądź w kasie tego sądu, albo wydruk, o którym mowa w ust. 3. Oryginalny dowód
+wniesienia opłaty, po potwierdzeniu na nim faktu wydania dokumentu, zwraca się
+wnioskodawcy.
+     2. Do wniosku złożonego korespondencyjnie w centrali Centralnej Informacji dołącza się
+kopię dowodu wpłaty na wskazany rachunek bankowy Ministerstwa Sprawiedliwości albo
+wydruk, o którym mowa w ust. 3. Do wniosku złożonego korespondencyjnie w ekspozyturze
+Centralnej Informacji dołącza się kopię dowodu wniesienia opłaty na wskazany rachunek
+bankowy sądu, przy którego wydziale ksiąg wieczystych prowadzona jest ekspozytura, albo
+wydruk, o którym mowa w ust. 3.
+     3. W przypadku dołączenia do wniosku dowodu wniesienia opłaty w formie wydruku
+potwierdzającego dokonanie operacji bankowej, na wydruku zamieszcza się potwierdzoną
+własnoręcznym podpisem informację, że figurująca w nim kwota stanowi opłatę za składany
+wniosek.
+     4. Dowodu wniesienia opłaty w formie kopii albo wydruku nie zwraca się wnioskodawcy.
+
+     § 11. 1. Wniosek, o którym mowa w § 5, rejestruje się w prowadzonej w centrali
+Centralnej Informacji albo ekspozyturach Centralnej Informacji ewidencji wniosków,
+                                            –5–
+
+
+zamieszczając w niej dane o chwili wpływu wniosku, rodzaju wniosku oraz chwili i sposobie
+jego załatwienia.
+     2. Wniosek o wyszukanie ksiąg wieczystych w cbdkw rejestruje się w systemie
+teleinformatycznym, o którym mowa w § 3, zamieszczając informację o wnioskodawcy, chwili
+wpływu wniosku oraz okolicznościach, o których mowa w § 20 ust. 5.
+
+     § 12. 1. Wniosek niezłożony na urzędowym formularzu, nieprawidłowo wypełniony,
+nieopłacony, a także wniosek, od którego uiszczono opłatę w wysokości niższej od należnej,
+lub złożony z naruszeniem § 10 ust. 1-3, pozostawia się bez nadania biegu, o czym zawiadamia
+się wnioskodawcę, wraz z podaniem przyczyny.
+     2. Jeżeli w terminie miesiąca od dnia doręczenia zawiadomienia braki, o których mowa
+w ust. 1, zostaną usunięte, wydaje się żądany dokument.
+     3. Przepisy ust. 1 i 2 nie dotyczą wniosków złożonych za pośrednictwem systemu
+teleinformatycznego, o którym mowa w § 3.
+
+     § 13. 1. Dokumenty wydawane przez Centralną Informację są opatrzone, z zastrzeżeniem
+dokumentów, o których mowa w art. 364 ust. 4 ustawy z dnia 6 lipca 1982 r. o księgach
+wieczystych i hipotece, zwanej dalej „ustawą”, pieczęcią urzędową i podpisem upoważnionego
+pracownika, zawierają oznaczenie sygnatury, a także oznaczenie i liczbę stron oraz miejsce
+sporządzenia dokumentu.
+     2. Niezależnie od treści złożonego wniosku Centralna Informacja wydaje dokument
+opisujący stan prawny ujawniony w księdze wieczystej, który zawiera także informację o dacie,
+godzinie, minucie i sekundzie, w której nastąpiło pobranie danych z cbdkw.
+
+     § 14. Składany za pośrednictwem systemu teleinformatycznego, o którym mowa w § 3,
+wniosek o wydanie dokumentu, o którym mowa w § 4 ust. 1, może zawierać żądanie pobrania
+dokumentu w postaci dokumentu elektronicznego pozwalającego na samodzielne sporządzenie
+wydruku w trybie art. 364 ust. 4 ustawy albo żądanie jego doręczenia na wskazany przez
+wnioskodawcę adres.
+
+     § 15. 1. Dokument, o którym mowa w § 4 ust. 1, wydawany jest bezpośrednio
+wnioskodawcy przez centralę Centralnej Informacji albo ekspozytury Centralnej Informacji.
+     2. Jeżeli we wniosku o wydanie dokumentu, o którym mowa w § 4 ust. 1, zawarto żądanie
+doręczenia dokumentu, centrala Centralnej Informacji albo ekspozytura Centralnej Informacji
+przesyła dokument na wskazany we wniosku adres.
+                                             –6–
+
+
+     3. Przepis ust. 2 stosuje się także w razie zaistnienia przeszkód uniemożliwiających
+wydanie bezpośrednio wnioskodawcy dokumentu przez centralę Centralnej Informacji albo
+ekspozyturę Centralnej Informacji.
+
+     § 16. 1. Jeżeli wniosek o wydanie dokumentu, o którym mowa w § 4 ust. 1, dotyczy księgi
+wieczystej, której treść nie została przeniesiona do struktury księgi wieczystej prowadzonej w
+systemie informatycznym, Centralna Informacja przekazuje go wraz z oryginalnym dowodem
+wniesienia opłaty albo dowodem wniesienia opłaty w formie kopii albo wydruku w celu
+załatwienia właściwemu sądowi rejonowemu prowadzącemu księgi wieczyste.
+     2. System teleinformatyczny, o którym mowa w § 3, uniemożliwia złożenie wniosku
+dotyczącego księgi wieczystej, której treść nie została przeniesiona do struktury księgi
+wieczystej prowadzonej w systemie informatycznym. W takim przypadku wnioskodawca jest
+informowany o braku numeru księgi wieczystej w cbdkw.
+
+     § 17. 1. Przeglądanie księgi wieczystej odbywa się na wniosek złożony w systemie
+teleinformatycznym, o którym mowa w § 3.
+     2. Przeglądanie księgi wieczystej nie wymaga uwierzytelnienia w systemie
+teleinformatycznym, o którym mowa w § 3.
+     3. Przeglądanie księgi wieczystej polega na wywołaniu na ekran monitora aktualnej albo
+zupełnej treści żądanej księgi wieczystej.
+     4. W każdej ekspozyturze Centralnej Informacji umożliwia się przeglądanie treści księgi
+wieczystej za pośrednictwem systemu teleinformatycznego, o którym mowa w § 3.
+     5. Ze względu na bezpieczeństwo cbdkw Centralna Informacja może ograniczyć
+możliwość przeglądania ksiąg wieczystych poprzez wskazanie maksymalnej liczby wniosków
+o przeglądanie ksiąg wieczystych kierowanych z jednej lokalizacji internetowej lub poprzez
+przedłużenie minimalnego czasu na udzielenie dostępu do księgi wieczystej.
+
+     § 18. 1. Dokument pobrany w postaci dokumentu elektronicznego oraz samodzielnie
+sporządzony wydruk tego dokumentu w trybie art. 364 ust. 4 ustawy posiada następujące cechy:
+1)   informację, że wydruk dokumentu elektronicznego został sporządzony na podstawie art.
+     364 ust. 4 ustawy;
+2)   niepowtarzalny identyfikator umożliwiający weryfikację wydruku z danymi zawartymi w
+     cbdkw;
+3)   zaawansowaną pieczęć elektroniczną ministra właściwego do spraw informatyzacji oraz
+     kod QR;
+                                                –7–
+
+
+4)   adres strony internetowej umożliwiającej weryfikację treści dokumentu;
+5)   oznaczenie danych adresowych Centralnej Informacji, z której pochodzą dane ujawnione
+     w dokumencie;
+6)   informację o dacie, godzinie, minucie i sekundzie, w której nastąpiło pobranie danych z
+     cbdkw;
+7)   wskazanie, ile stron liczy dokument, oraz oznaczenie numeru każdej strony;
+8)   nazwę dokumentu zgodną z § 4 ust. 1;
+9)   klauzulę, że zgodnie z art. 364 ust. 4 zdanie drugie ustawy pobrany dokument
+     elektroniczny oraz samodzielnie sporządzony wydruk tego dokumentu posiada moc
+     dokumentu wydawanego przez sąd, bez zaopatrywania go w pieczęć urzędową i podpis
+     upoważnionego pracownika;
+10) pouczenie o sposobie weryfikacji, o którym mowa w § 19.
+     2. Dane, o których mowa w ust. 1 pkt 2, 3, 4, 7 i 8, ujawnia się na każdej stronie
+dokumentu.
+
+     § 19. 1. Weryfikacja stanowi procedurę umożliwiającą potwierdzenie, że dokument
+poddany weryfikacji pochodzi z Centralnej Informacji. Ważność pobranego dokumentu
+elektronicznego oraz samodzielnie sporządzonego wydruku tego dokumentu nie jest zależna
+od przeprowadzenia procedury weryfikacji.
+     2. Weryfikacja pobranego dokumentu elektronicznego oraz samodzielnie sporządzonego
+wydruku tego dokumentu jest możliwa za pomocą systemu teleinformatycznego, o którym
+mowa w § 3. Do ograniczenia możliwości weryfikacji pobranego dokumentu elektronicznego
+oraz samodzielnie sporządzonego wydruku tego dokumentu stosuje się przepis § 17 ust. 5.
+     3. Weryfikacja pobranego dokumentu elektronicznego oraz samodzielnie sporządzonego
+wydruku tego dokumentu jest możliwa w ciągu 24 miesięcy od chwili złożenia wniosku w
+trybie art. 364 ust. 4 ustawy.
+     4. Weryfikacja pobranego dokumentu elektronicznego oraz samodzielnie sporządzonego
+wydruku tego dokumentu jest bezpłatna i nie wymaga uwierzytelnienia w systemie
+teleinformatycznym, o którym mowa w § 3.
+     5. Procedura weryfikacji składa się z następujących etapów:
+1)   w systemie teleinformatycznym, o którym mowa w § 3, udostępnionym za pośrednictwem
+     strony    internetowej      Ministerstwa    Sprawiedliwości,   weryfikujący   odnajduje
+     funkcjonalność weryfikacji pobranego dokumentu elektronicznego oraz samodzielnie
+     sporządzonego wydruku tego dokumentu;
+                                             –8–
+
+
+2)   weryfikujący wprowadza identyfikator, o którym mowa w § 18 ust. 1 pkt 2.
+     6. Wynikiem weryfikacji jest pochodząca z systemu teleinformatycznego, o którym mowa
+w § 3, informacja:
+1)   o tym, że dokument o podanym identyfikatorze został wydany przez Centralną Informację
+     w trybie art. 364 ust. 4 ustawy, o dacie jego wydania i o jego treści albo
+2)   o tym, że dokument o podanym identyfikatorze nie został wydany przez Centralną
+     Informację w trybie art. 364 ust. 4 ustawy albo że od daty jego wydania upłynęły ponad
+     24 miesiące.
+     7. W przypadku informacji, o której mowa w ust. 6 pkt 1, jeżeli treść księgi wieczystej
+uległa zmianie od chwili wydania dokumentu, system teleinformatyczny, o którym mowa w §
+3, wskazuje, w jakich działach i rubrykach księgi wieczystej dane zawarte w pobranym
+dokumencie elektronicznym oraz samodzielnie sporządzonym wydruku tego dokumentu nie są
+aktualne. System teleinformatyczny, o którym mowa w § 3, umożliwia przeglądanie treści
+księgi wieczystej stanowiącej źródło danych dla pobranego dokumentu elektronicznego oraz
+samodzielnie sporządzonego wydruku tego dokumentu bez składania odrębnego wniosku.
+     8. Wynik weryfikacji może zostać wydrukowany samodzielnie przez weryfikującego.
+     9. Wydruk, o którym mowa w ust. 8, zawiera dane określające weryfikowany dokument
+oraz czas i wynik weryfikacji.
+
+     § 20. 1. Zgoda Ministra Sprawiedliwości na wielokrotne nieograniczone w czasie
+wyszukiwanie ksiąg wieczystych, o której mowa w art. 364 ust. 8 ustawy, udzielana jest na
+wniosek, który zawiera:
+1)   oznaczenie wnioskodawcy;
+2)   oznaczenie podmiotu, o którym mowa w art. 364 ust. 8 ustawy;
+3)   wskazanie ustawowych zadań, o których mowa w art. 364 ust. 8 ustawy, z powołaniem
+     konkretnych przepisów prawa;
+4)   uzasadnienie przesłanki niezbędności, o której mowa w art. 364 ust. 8 ustawy;
+5)   w przypadku podmiotów, o których mowa w art. 364 ust. 8 pkt 1-2a, 4-6, 8-17 oraz 19-21
+     ustawy, dane identyfikacyjne osób fizycznych działających z upoważnienia i na rzecz tego
+     podmiotu, obejmujące: imię, nazwisko oraz numer PESEL, jeżeli został nadany;
+6)   w przypadku podmiotów, o których mowa w art. 364 ust. 8 pkt 7 i 18 ustawy, dane
+     identyfikacyjne tych osób, obejmujące: imię, nazwisko oraz numer PESEL, jeżeli został
+     nadany.
+                                            –9–
+
+
+     2. W przypadku, o którym mowa w art. 364 ust. 9 ustawy, we wniosku należy wskazać i
+     uzasadnić uprawnienie wnioskodawcy do występowania w imieniu grupy podmiotów.
+     3. W przypadku udzielenia zgody, o której mowa w art. 364 ust. 8 ustawy, wnioskodawca
+informowany jest o założeniu kont użytkowników mających prawo wyszukiwania ksiąg
+wieczystych w cbdkw.
+     4. Osoba fizyczna działająca z upoważnienia i na rzecz podmiotu uprawnionego do
+składania wniosku o wyszukanie ksiąg wieczystych uwierzytelnia się w systemie
+teleinformatycznym, o którym mowa w § 3.
+     5. Osoba, o której mowa w ust. 4, wskazuje kryterium wyszukania oraz uzasadnia
+szczegółowo potrzebę wyszukania ksiąg wieczystych w cbdkw, chyba że sprawa, w której
+następuje wyszukanie, posiada sygnaturę - wówczas wystarczy jej podanie.
+
+     § 21. 1. Wyszukanie ksiąg wieczystych w cbdkw za pośrednictwem systemu
+teleinformatycznego, o którym mowa w § 3, polega na wywołaniu na ekran monitora numerów
+ksiąg wieczystych spełniających wskazane przez wnioskującego kryteria wyszukania ksiąg
+wieczystych.
+     2. Wyszukanie ksiąg wieczystych może być przeprowadzone według następujących
+kryteriów:
+1)   oznaczenie nieruchomości, lokalu lub domu jednorodzinnego;
+2)   oznaczenie podmiotu wpisanego do działu II księgi wieczystej;
+3)   numer dziennika księgi wieczystej;
+4)   elementy numeru księgi wieczystej, zawierające co najmniej czteroznakowy kod
+     wydziału ksiąg wieczystych sądu rejonowego, w którym księga została założona, oraz
+     numer w repertorium ksiąg wieczystych.
+
+     § 22. 1. W wyniku wyszukania ksiąg wieczystych w cbdkw ujawnia się także kryteria, na
+podstawie których miało miejsce wyszukanie.
+     2. Wynik wyszukania ksiąg wieczystych w cbdkw odzwierciedla stan danych zawartych
+w cbdkw, a także zawiera informację o dacie, godzinie, minucie i sekundzie, w której nastąpiło
+pobranie danych z cbdkw.
+     3. Osoba dokonująca wyszukania ksiąg wieczystych w cbdkw może przeglądać
+wyszukane księgi bez składania odrębnych wniosków.
+                                           – 10 –
+
+
+     4. Centralna Informacja może ograniczyć liczbę jednorazowo wyszukanych ksiąg
+wieczystych. W takim przypadku system teleinformatyczny, o którym mowa w § 3, ujawnia w
+wyniku wyszukania tylko część numerów ksiąg wieczystych, informując o tym wnioskującego.
+
+     § 23. 1. Zgoda Ministra Sprawiedliwości, o której mowa w art. 364 ust. 13 ustawy, na
+wielokrotne, nieograniczone w czasie wyszukiwanie ksiąg wieczystych w cbdkw, bez
+konieczności każdorazowego składania wniosku do Centralnej Informacji udzielana jest na
+wniosek podmiotu, o którym mowa w art. 364 ust. 8 ustawy, zawierający:
+1)   oznaczenie wnioskodawcy;
+2)   oznaczenie podmiotu, o którym mowa w art. 364 ust. 8 ustawy;
+3)   wskazanie ustawowych zadań, o których mowa w art. 364 ust. 8 ustawy, z powołaniem
+     konkretnych przepisów prawa;
+4)   uzasadnienie przesłanki niezbędności, o której mowa w art. 364 ust. 8 ustawy;
+5)   uzasadnienie przesłanki, o której mowa w art. 364 ust. 13 pkt 3 ustawy, poprzez wskazanie
+     specyfiki i zakresu realizowanych zadań ustawowych wymagających wyszukiwania ksiąg
+     wieczystych w trybie art. 364 ust. 13 ustawy;
+6)   oświadczenie podmiotu występującego o zgodę w trybie art. 364 ust. 13 ustawy, że
+     posiada urządzenia lub systemy teleinformatyczne, umożliwiające identyfikację osoby
+     uzyskującej dane z cbdkw, zakresu danych oraz daty ich uzyskania;
+7)   oświadczenie podmiotu występującego o zgodę w trybie art. 364 ust. 13 ustawy o
+     posiadaniu   zabezpieczeń     technicznych      i   organizacyjnych   chroniących   przed
+     wykorzystaniem uzyskanych danych niezgodnie z celem;
+8)   wskazanie osoby umocowanej do rozwiązywania technicznych problemów udzielenia
+     możliwości wyszukiwania ksiąg wieczystych;
+9)   oświadczenie o wykorzystywaniu dostępu w trybie art. 364 ust. 13 ustawy wyłącznie
+     zgodnie z celem wynikającym z ustawy i oświadczenie o zabezpieczeniu danych
+     uzyskanych w wyniku wyszukania.
+     2. W przypadku, o którym mowa w art. 364 ust. 9 ustawy, we wniosku należy wskazać
+uzasadnić uprawnienie wnioskodawcy do występowania w imieniu grupy podmiotów.
+     3. Centralna Informacja może żądać szczegółowego wykazania spełnienia przesłanek, o
+których mowa w ust. 1 pkt 6 i 7.
+     4. Decyzja Ministra Sprawiedliwości, o której mowa w art. 364 ust. 13 ustawy, stanowi
+podstawę do stworzenia przez Centralną Informację technicznych warunków umożliwiających
+jej wykonanie.
+                                             – 11 –
+
+
+     § 24. Ustala się wzór urzędowego formularza wniosku o wydanie odpisu księgi
+wieczystej, wyciągu z księgi wieczystej oraz zaświadczenia o zamknięciu księgi wieczystej,
+który stanowi załącznik do rozporządzenia.
+
+     § 25. Ustala się następujący zakres danych objętych wnioskiem składanym za
+pośrednictwem systemu teleinformatycznego, o którym mowa w § 3:
+1)   dla wniosku o wydanie odpisu księgi wieczystej:
+     a)   wskazanie, czy wydany ma być odpis zwykły czy zupełny,
+     b)   numer księgi wieczystej,
+     c)   żądanie wydania dokumentu w celu pobrania dokumentu elektronicznego oraz
+          samodzielnego sporządzenia wydruku tego dokumentu albo żądanie doręczenia
+          dokumentu na wskazany adres,
+     d)   w przypadku żądania doręczenia dokumentu na wskazany adres - także imię i
+          nazwisko lub nazwę wnioskodawcy oraz adres, na który należy dokonać doręczenia;
+2)   dla wniosku o wydanie wyciągu z księgi wieczystej:
+     a)   wskazanie numerów działów, z których ma być dokonany wyciąg,
+     b)   numer księgi wieczystej,
+     c)   żądanie wydania dokumentu w celu pobrania dokumentu elektronicznego oraz
+          samodzielnego sporządzenia wydruku tego dokumentu albo żądanie doręczenia
+          dokumentu na wskazany adres,
+     d)   w przypadku żądania doręczenia dokumentu na wskazany adres - także imię i
+          nazwisko lub nazwę wnioskodawcy oraz adres, na który należy dokonać doręczenia;
+3)   dla wniosku o wydanie zaświadczenia o zamknięciu księgi wieczystej:
+     a)   numer księgi wieczystej,
+     b)   żądanie wydania dokumentu w celu pobrania dokumentu elektronicznego oraz
+          samodzielnego sporządzenia wydruku tego dokumentu albo żądanie doręczenia
+          dokumentu na wskazany adres,
+     c)   w przypadku żądania doręczenia dokumentu na wskazany adres - także imię i
+          nazwisko lub nazwę wnioskodawcy oraz adres, na który należy dokonać doręczenia;
+4)   dla wniosku o przeglądanie księgi wieczystej: numer księgi wieczystej;
+5)   dla wniosku o wyszukanie ksiąg wieczystych w cbdkw:
+     a)   wskazanie kryteriów, o których mowa w § 21 ust. 2,
+     b)   uzasadnienie potrzeby wyszukania ksiąg wieczystych zgodnie z § 20 ust. 5.
+                                                    – 12 –
+
+
+       § 24. Rozporządzenie wchodzi w życie z dniem 31 marca 2026 r.1)
+
+
+
+                                                               MINISTER SPRAWIEDLIWOŚCI
+
+
+
+
+1)
+     Niniejsze rozporządzenie było poprzedzone rozporządzeniem Ministra Sprawiedliwości z dnia 27 listopada
+     2013 r. w sprawie Centralnej Informacji Ksiąg Wieczystych (Dz. U. 2024 poz. 1401), które traci moc z dniem
+     wejścia w życie niniejszego rozporządzenia w związku z wejściem w życie ustawy z dnia …….. o zmianie
+     ustawy o księgach wieczystych i hipotece oraz ustawy o Krajowym Rejestrze Sądowym (Dz. U. …).
+                                                                                          Projekt
+                                ROZPORZĄDZENIE
+
+                      M I N I S T R A S P R AW I E D L I W O Ś C I
+
+                                              z dnia
+
+ w sprawie wysokości opłat od wniosków o wydanie przez Centralną Informację Ksiąg
+ Wieczystych odpisów ksiąg wieczystych, wyciągów z ksiąg wieczystych i zaświadczeń o
+     zamknięciu ksiąg wieczystych oraz od wniosku o wyszukanie ksiąg wieczystych w
+                          centralnej bazie danych ksiąg wieczystych
+
+
+      Na podstawie art. 365 ust. 2 ustawy z dnia 6 lipca 1982 r. o księgach wieczystych i hipotece
+(Dz. U. z 2025 r. poz. 341, 1669, 1792, 1793 i …) zarządza się, co następuje:
+
+      § 1. Centralna Informacja Ksiąg Wieczystych pobiera następujące opłaty:
+1)    od wniosku o wydanie w postaci papierowej:
+      a)   odpisu zwykłego księgi wieczystej - 30 zł pomnożone przez liczbę żądanych
+           odpisów zwykłych,
+      b)   odpisu zupełnego księgi wieczystej - 60 zł pomnożone przez liczbę żądanych
+           odpisów zupełnych,
+      c)   wyciągu z księgi wieczystej:
+           –   15 zł - za wyciąg z jednego działu księgi wieczystej,
+           –   20 zł - za wyciąg z dwóch działów księgi wieczystej,
+           –   25 zł - za wyciąg z trzech działów księgi wieczystej,
+           –   30 zł - za wyciąg z czterech działów księgi wieczystej
+           pomnożone przez liczbę żądanych wyciągów,
+      d)   zaświadczenia o zamknięciu księgi wieczystej - 10 zł pomnożone przez liczbę
+           żądanych zaświadczeń;
+2)    od wniosku złożonego, na podstawie art. 364 ust. 4 ustawy z dnia 6 lipca 1982 r. o księgach
+      wieczystych i hipotece, za pośrednictwem systemu teleinformatycznego, o wydanie
+      dokumentów w postaci elektronicznej pozwalającej na samodzielne sporządzenie
+      wydruków za pośrednictwem systemu teleinformatycznego:
+      a)   odpisu zwykłego księgi wieczystej – 20 zł,
+      b)   odpisu zupełnego księgi wieczystej – 50 zł,
+      c)   wyciągu z księgi wieczystej:
+                                                   –2–
+
+
+             – 5 zł – za wyciąg z jednego działu księgi wieczystej,
+             – 10 zł – za wyciąg z dwóch działów księgi wieczystej,
+             – 15 zł – za wyciąg z trzech działów księgi wieczystej,
+             – 20 zł – za wyciąg z czterech działów księgi wieczystej,
+       d)    zaświadczenia o zamknięciu księgi wieczystej - 5 zł;
+3)     od wniosku o wyszukanie ksiąg wieczystych w centralnej bazie danych ksiąg wieczystych
+       – 20 zł.
+
+       § 2. Rozporządzenie wchodzi w życie po upływie 3 miesięcy od dnia ogłoszenia1).
+
+
+                                                             MINISTER SPRAWIEDLIWOŚCI
+
+
+
+
+1)
+     Niniejsze rozporządzenie było poprzedzone rozporządzeniem Ministra Sprawiedliwości z dnia 29 listopada
+     2013 r. w sprawie wysokości opłat od wniosków o wydanie przez Centralną Informację Ksiąg Wieczystych
+     odpisów ksiąg wieczystych, wyciągów z ksiąg wieczystych i zaświadczeń o zamknięciu ksiąg wieczystych
+     oraz od wniosku o wyszukanie ksiąg wieczystych w centralnej bazie danych ksiąg wieczystych (Dz. U. 2013
+     poz. 1412), które traci moc z dniem wejścia w życie niniejszego rozporządzenia w związku z wejściem w
+     życie ustawy z dnia ….. o zmianie ustawy o księgach wieczystych i hipotece oraz ustawy o Krajowym
+     Rejestrze Sądowym (Dz. U. ….).
+

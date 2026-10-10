@@ -1,0 +1,966 @@
+                                                                       Druk nr 1306
+                                                                   Warszawa, 20 maja 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-62-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy - Prawo bankowe oraz
+   niektórych innych ustaw.
+        Projekt ma charakter deregulacyjny.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Finansów.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                      Projekt
+                                                U S T AWA
+
+                                                    z dnia
+
+              o zmianie ustawy – Prawo bankowe oraz niektórych innych ustaw1)
+
+
+       Art. 1. W ustawie z dnia 29 sierpnia 1997 r. – Prawo bankowe (Dz. U. z 2024 r. poz. 1646,
+1685 i 1863 oraz z 2025 r. poz. 146, 222 i 525) w art. 105 w ust. 1 w pkt 2 po lit. ła dodaje się
+lit. łb i łc w brzmieniu:
+       „łb) syndyka, w zakresie niezbędnym do wykonywania czynności w postępowaniu
+             upadłościowym,
+       łc) nadzorcy sądowego albo zarządcy, w zakresie niezbędnym do wykonywania
+             czynności w postępowaniu restrukturyzacyjnym,”.
+
+       Art. 2. W ustawie z dnia 28 lutego 2003 r. – Prawo upadłościowe (Dz. U. z 2025 r.
+poz. 614) w art. 178 w ust. 5 po wyrazach „sejfy lub skrytki,” dodaje się wyrazy „oraz
+spółdzielcze kasy oszczędnościowo-kredytowe, które prowadzą rachunki upadłego,”.
+
+       Art. 3. W ustawie z dnia 5 listopada 2009 r. o spółdzielczych kasach oszczędnościowo-
+kredytowych (Dz. U. z 2025 r. poz. 379) w art. 9f w ust. 1 po pkt 14a dodaje się pkt 14b i 14c
+w brzmieniu:
+       „14b) na żądanie syndyka, w zakresie niezbędnym do wykonywania czynności
+             w postępowaniu upadłościowym;
+       14c) na żądanie nadzorcy sądowego albo zarządcy, w zakresie niezbędnym do
+             wykonywania czynności w postępowaniu restrukturyzacyjnym;”.
+
+       Art. 4. W ustawie z dnia 15 maja 2015 r. – Prawo restrukturyzacyjne (Dz. U. z 2024 r.
+poz. 1428) po art. 26 dodaje się art. 26a w brzmieniu:
+             „Art.    26a.    Po     obwieszczeniu       postanowienia       o   otwarciu      postępowania
+       restrukturyzacyjnego banki, w których dłużnik ma rachunki bankowe, sejfy lub skrytki,
+       oraz spółdzielcze kasy oszczędnościowo-kredytowe, które prowadzą rachunki dłużnika,
+       są obowiązane zawiadomić o tym nadzorcę sądowego albo zarządcę.”.
+
+
+
+1)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 28 lutego 2003 r. – Prawo upadłościowe, ustawę z dnia
+     5 listopada 2009 r. o spółdzielczych kasach oszczędnościowo-kredytowych oraz ustawę z dnia 15 maja 2015 r.
+     – Prawo restrukturyzacyjne.
+                                           –2–
+
+
+     Art. 5. W przypadku gdy postanowienie o ogłoszeniu upadłości zostało obwieszczone
+przed dniem wejścia w życie niniejszej ustawy, a postępowanie upadłościowe nie zakończyło
+się przed tym dniem, spółdzielcze kasy oszczędnościowo-kredytowe, które prowadzą rachunki
+upadłego, są obowiązane zawiadomić o tym syndyka w terminie 90 od dnia wejścia w życie
+niniejszej ustawy.
+
+     Art. 6. W przypadku gdy postanowienie o otwarciu postępowania restrukturyzacyjnego
+zostało obwieszczone przed dniem wejścia w życie niniejszej ustawy, a postępowanie
+restrukturyzacyjne nie zakończyło się przed tym dniem, banki, w których dłużnik ma rachunki
+bankowe, sejfy lub skrytki, oraz spółdzielcze kasy oszczędnościowo-kredytowe, które
+prowadzą rachunki dłużnika, są obowiązane zawiadomić o tym nadzorcę sądowego albo
+zarządcę w terminie 90 od dnia wejścia w życie niniejszej ustawy.
+
+     Art. 7. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                    UZASADNIENIE
+
+I. Aktualny stan prawny oraz cel uchwalenia projektowanej regulacji
+
+Celem projektowanych przepisów jest wprowadzenie podstawy prawnej jednoznacznie
+umożliwiającej bankom udzielanie informacji objętych tajemnicą bankową, w toku
+postępowania upadłościowego i restrukturyzacyjnego, syndykowi oraz nadzorcy sądowemu
+albo zarządcy w celu wykonywania czynności w postępowaniu upadłościowym bądź
+restrukturyzacyjnym. Przewiduje się także wprowadzenie analogicznych rozwiązań w sferze
+funkcjonowania spółdzielczych kas oszczędnościowo-kredytowych (dalej: „kas”).
+
+Obecnie w ustawie z dnia 29 sierpnia 1997 r. – Prawo bankowe (Dz. U. z 2024 r. poz. 1646,
+z późn. zm.) brak bowiem przepisów, które jednoznacznie umożliwiałyby bankom udzielanie
+informacji objętych tajemnicą bankową organom postępowania restrukturyzacyjnego oraz
+organom postępowania upadłościowego.
+
+Jednocześnie ustawa z dnia 5 listopada 2009 r. o spółdzielczych kasach oszczędnościowo-
+kredytowych (Dz. U. z 2025 r. poz. 379) także nie zawiera przepisów umożliwiających kasom
+udzielanie informacji objętych tajemnicą zawodową – będącą odpowiednikiem tajemnicy
+bankowej – organom postępowania restrukturyzacyjnego oraz organom postępowania
+upadłościowego.
+
+Brak podstawy prawnej powoduje liczne wątpliwości interpretacyjne i problemy w praktyce,
+tym bardziej, że ujawnienie lub wykorzystanie informacji stanowiących tajemnicę bankową
+lub zawodową niezgodnie z upoważnieniem określonym w ustawie jest obarczone karą
+grzywny    i   karą   pozbawienia   wolności.   Utrudnia   to   prowadzenie     postępowań
+restrukturyzacyjnych i upadłościowych.
+
+Proponuje się zatem zmianę przepisów tak, aby banki oraz kasy mogły udzielać informacji
+objętych, odpowiednio, tajemnicą bankową i tajemnicą zawodową organom postępowania
+restrukturyzacyjnego oraz organom postępowania upadłościowego, co powinno ułatwić
+wymianę informacji między tymi organami a bankami albo kasami, jak i wpłynąć na
+usprawnienie przebiegu całego procesu restrukturyzacyjnego bądź upadłościowego.
+Jednocześnie, w ocenie projektodawcy, ingerencja w ochronę tajemnicy bankowej lub
+tajemnicy zawodowej musi pozostawać w odpowiedniej proporcji, zatem powinna być
+dokonana jedynie w zakresie niezbędnym dla osiągnięcia celu, którym jest w danej sytuacji
+ochrona   preferowanej    przez    ustawodawcę     wartości.   W    kontekście    postępowania
+upadłościowego oraz restrukturyzacyjnego tą wartością są przede wszystkim interesy
+majątkowe wierzycieli, które korzystają z konstytucyjnej ochrony (art. 64 Konstytucji RP).
+Dostęp do tajemnicy bankowej i tajemnicy zawodowej pozasądowych organów postępowania
+upadłościowego (syndyka) oraz restrukturyzacyjnego (nadzorcy sądowego, zarządcy) będzie
+miał istotne znaczenie w tych postępowaniach, w których powstaje masa upadłości, masa
+układowa albo masa sanacyjna.
+
+II Proponowane rozwiązania
+
+W art. 1 projektowanej ustawy wprowadza się zmianę w art. 105 ust. 1 pkt 2 ustawy z dnia
+29 sierpnia 1997 r. – Prawo bankowe, polegającą na dodaniu po lit. ła lit. łb i łc w brzmieniu:
+
+– „łb) syndyka, w zakresie niezbędnym do wykonywania czynności w postępowaniu
+   upadłościowym,
+
+– łc) nadzorcy sądowego albo zarządcy, w zakresie niezbędnym do wykonywania czynności
+   w postępowaniu restrukturyzacyjnym,”.
+
+Tym samym dodawane lit. łb i łc przewidują, że zachowanie tajemnicy bankowej nie
+obowiązuje w przypadku udzielenia informacji syndykowi wyznaczonemu w postępowaniu
+upadłościowym lub nadzorcy sądowemu albo zarządcy wyznaczonemu w postępowaniu
+restrukturyzacyjnym.
+
+Aktualnie syndyk nie może uzyskać informacji o rachunkach bankowych dłużnika, ponieważ
+bank nie ma podstawy prawnej do ujawnienia danych objętych tajemnicą bankową.
+Postępowanie upadłościowe utyka na etapie ustalenia masy upadłości, co wydłuża procedurę
+i obniża wartość zaspokojenia wierzycieli.
+
+Projektowana zmiana ma zatem za zadanie umożliwienie bankom udzielania informacji
+objętych tajemnicą bankową organom postępowań restrukturyzacyjnego i upadłościowego, co
+powinno usprawnić wymianę informacji między organami a bankami, a co wpłynie pozytywnie
+na usprawnienie przebiegu całego procesu restrukturyzacyjnego czy upadłościowego.
+
+W zakresie art. 2 należy wskazać, iż de lege lata spółdzielcze kasy oszczędnościowo-
+kredytowe nie mają obowiązku zawiadomienia syndyka o rachunkach upadłego. W celu
+wyeliminowania tej luki proponuje się zmianę art. 178 ust. 5 ustawy z dnia 28 lutego 2003 r. –
+Prawo upadłościowe (Dz. U. z 2025 r. poz. 614) tak, aby również kasy miały obowiązek
+
+
+
+                                               2
+zawiadomić syndyka o rachunkach upadłego.
+
+W art. 3 projektowanej ustawy wprowadza się zmiany w art. 9f ust. 1 ustawy z dnia 5 listopada
+2009 o spółdzielczych kasach oszczędnościowo-kredytowych, polegające na dodaniu pkt 14b
+i 14c w brzmieniu:
+
+– „14b) na żądanie syndyka, w zakresie niezbędnym do wykonywania czynności
+  w postępowaniu upadłościowym;
+
+– 14c) na żądanie nadzorcy sądowego albo zarządcy, w zakresie niezbędnym do wykonywania
+  czynności w postępowaniu restrukturyzacyjnym;”.
+
+Analogicznie jak w przypadku tajemnicy bankowej, przepis ten spowoduje, że zachowanie
+tajemnicy zawodowej nie będzie obowiązywało kas w ramach udzielania informacji syndykowi
+albo nadzorcy sądowemu albo zarządcy w prowadzonych postępowaniach upadłościowych lub
+restrukturyzacyjnych.
+
+W art. 4 projektowanej ustawy wprowadza się zmianę w ustawie z dnia 15 maja 2015 r. –
+Prawo restrukturyzacyjne (Dz. U. z 2024 r. poz. 1428), polegającą na dodaniu po art. 26
+nowego art. 26a. Zgodnie z tym przepisem, po obwieszczeniu postanowienia o otwarciu
+postępowania restrukturyzacyjnego, banki, w których dłużnik ma rachunki bankowe, sejfy lub
+skrytki oraz spółdzielcze kasy oszczędnościowo-kredytowe, które prowadzą rachunki dłużnika,
+są obowiązane zawiadomić o tym nadzorcę sądowego albo zarządcę.
+
+Przepis   ten   pozwoli   na   zachowanie   spójności   systemowej    w   zakresie   procesu
+restrukturyzacyjnego lub upadłościowego. Odnosi się on bowiem do przepisu art. 178 ust. 5
+ustawy z dnia 28 lutego 2003 r. – Prawo upadłościowe.
+
+W art. 5 został przewidziany przepis przejściowy, dotyczący zmian w ustawie z dnia 28 lutego
+2003 r. – Prawo upadłościowe, które mają na celu umożliwienie skutecznego zastosowania
+nowego obowiązku informacyjnego także w odniesieniu do postępowań upadłościowych, które
+zostały otwarte przed dniem wejścia w życie projektowanej ustawy, a które nadal trwają.
+Zobowiązanie banków i spółdzielczych kas oszczędnościowo-kredytowych do przekazania
+stosownych informacji syndykowi w określonym terminie (90 dni) od wejścia w życie ustawy
+przyczyni się do zwiększenia efektywności całego procesu.
+
+W art. 6 przewidziano natomiast przepis przejściowy, odnoszący się do dodawanego w ustawie
+
+
+
+
+                                             3
+z dnia 15 maja 2015 r. – Prawo restrukturyzacyjne obowiązku zawiadamiania przez banki oraz
+przez spółdzielcze kasy oszczędnościowo-kredytowe nadzorcy sądowego albo zarządcy
+o rachunkach    bankowych,     sejfach,    skrytkach    lub   rachunkach      dłużnika.   Zgodnie
+z projektowanym przepisem przejściowym, w przypadku gdy postanowienie o otwarciu
+postępowania restrukturyzacyjnego zostanie obwieszczone przed dniem wejścia w życie
+niniejszej ustawy, a postępowanie restrukturyzacyjne nie zakończy się przed tym dniem, banki,
+w których dłużnik ma rachunki bankowe, sejfy lub skrytki, oraz spółdzielcze kasy
+oszczędnościowo-kredytowe,      które     prowadzą     rachunki   dłużnika,    będą   obowiązane
+zawiadomić o tym nadzorcę sądowego albo zarządcę w terminie 90 dni od dnia wejścia w życie
+ustawy.
+
+Należy zauważyć, że nałożenie na banki oraz spółdzielcze kasy oszczędnościowo-kredytowe
+obowiązku informacyjnego względem postępowań trwających w dniu wejścia w życie
+przepisów projektowanej regulacji będzie de facto implikowało konieczność dokonywania
+przez banki oraz kasy wstecznej analizy nie tylko obwieszczeń o wszczęciu postępowań
+restrukturyzacyjnych i upadłościowych, ale także obwieszczeń o ich zakończeniu.
+Z powyższych względów wprowadza się doprecyzowanie, iż obowiązek ten należy
+zrealizować w określonym terminie (90 dni) od wejścia w życie ustawy.
+
+W art. 7 wskazuje się, że ustawa wejdzie w życie po upływie 14 dni od dnia ogłoszenia. Taki
+okres vacatio legis jest zgodny z art. 4 ust. 1 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów
+normatywnych i niektórych innych aktów prawnych (Dz. U. z 2019 r. poz. 1461), który
+stanowi, że akty normatywne zawierające przepisy powszechnie obowiązujące, ogłaszane
+w dziennikach urzędowych, wchodzą w życie po upływie czternastu dni od dnia ich ogłoszenia,
+chyba że dany akt normatywny określi termin dłuższy.
+
+Projekt ustawy nie jest sprzeczny z prawem Unii Europejskiej.
+
+Projekt ustawy nie wymaga przedstawienia właściwym organom i instytucjom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+
+Brak możliwości podjęcia alternatywnych środków osiągnięcia celu projektowanej regulacji
+w stosunku do działań legislacyjnych.
+
+Projektowana regulacja nie zawiera przepisów technicznych w rozumieniu rozporządzenia
+
+
+
+
+                                               4
+Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego
+systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.), w związku z czym
+nie podlega notyfikacji zgodnie z trybem przewidzianym w tych przepisach.
+
+Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej
+w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248, z późn. zm.) oraz § 52 uchwały nr 190
+Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów
+(M.P. z 2024 r. poz. 806, z późn. zm.), projekt ustawy został udostępniony w Biuletynie
+Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie
+„Rządowy Proces Legislacyjny”.
+
+Zawarte w projekcie ustawy regulacje nie będą miały wpływu na działalność
+mikroprzedsiębiorców, małych i średnich przedsiębiorców.
+
+
+
+
+                                              5
+Nazwa projektu                                                        Data sporządzenia
+Projekt ustawy o zmianie ustawy – Prawo bankowe oraz niektórych
+                                                                      16 maja 2025 r.
+innych ustaw
+Ministerstwo wiodące i ministerstwa współpracujące
+                                                                      Źródło
+Ministerstwo Finansów – Ministerstwo wiodące
+                                                                      Inne
+Ministerstwo Sprawiedliwości – Ministerstwo współpracujące
+                                                                      Deregulacja
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza
+Stanu lub Podsekretarza Stanu
+Jurand Drop, Podsekretarz Stanu                                       Nr w Wykazie prac legislacyjnych
+                                                                      i programowych Rady Ministrów
+Kontakt do opiekuna merytorycznego projektu
+                                                                      UDER11
+Jarosław Niezgoda, Zastępca Dyrektora Departamentu Rozwoju
+Rynku Finansowego w Ministerstwie Finansów, tel. 22 694 58 28,
+e-mail: sekretariat.fn@mf.gov.pl
+Radosław Zielak, główny specjalista, Departament Rozwoju Rynku
+Finansowego, Wydział Sektora Bankowego, tel. 539 149 498 e-mail:
+radoslaw.zielak@mf.gov.pl
+
+                              OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Obecnie w ustawie z dnia 29 sierpnia 1997 r. – Prawo bankowe (Dz. U. z 2024 r. poz. 1646, z późn. zm.) brak
+przepisów, które jednoznacznie umożliwiałyby bankom udzielanie informacji objętych tajemnicą bankową organom
+postępowania restrukturyzacyjnego oraz organom postępowania upadłościowego. Także ustawa z dnia 5 listopada
+2009 r. o spółdzielczych kasach oszczędnościowo-kredytowych (Dz. U. z 2025 r. poz. 379) nie zawiera przepisów
+umożliwiających kasom udzielanie informacji objętych tajemnicą zawodową – będącą odpowiednikiem tajemnicy
+bankowej – organom postępowania restrukturyzacyjnego oraz organom postępowania upadłościowego.
+Brak podstawy prawnej powoduje liczne wątpliwości interpretacyjne i problemy w praktyce, tym bardziej, że
+ujawnienie lub wykorzystanie informacji stanowiących tajemnicę bankową lub tajemnicę zawodową w przypadku
+kas, niezgodnie z upoważnieniem określonym w ustawie, jest obarczone karą grzywny do 1 000 000 zł i karą
+pozbawienia wolności do lat 3. Utrudnia to prowadzenie postępowań restrukturyzacyjnych i upadłościowych. Syndyk
+np. nie może uzyskać informacji o rachunkach bankowych dłużnika, ponieważ bank lub spółdzielcza kasa
+oszczędnościowo-kredytowa nie ma podstawy prawnej do ujawnienia danych objętych tajemnicą bankową.
+Postępowanie upadłościowe utyka na etapie ustalenia masy upadłości, co wydłuża procedurę i obniża wartość
+zaspokojenia wierzycieli.
+Jednocześnie należy pamiętać, że ingerencja w ochronę tajemnicy bankowej lub zawodowej musi pozostawać
+w odpowiedniej proporcji, co oznacza, że uzasadniona jest ingerencja jedynie w zakresie niezbędnym dla osiągnięcia
+celu, którym jest w danej sytuacji ochrona preferowanej przez ustawodawcę wartości. W kontekście postępowania
+upadłościowego oraz restrukturyzacyjnego tą wartością są przede wszystkim interesy majątkowe wierzycieli. Dostęp
+do tajemnicy bankowej i tajemnicy zawodowej pozasądowych organów postępowania upadłościowego (syndyka)
+oraz restrukturyzacyjnego (nadzorcy sądowego, zarządcy) będzie miał istotne znaczenia w tych postępowaniach,
+w których powstaje masa upadłości, masa układowa albo masa sanacyjna.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Proponuje się umożliwienie bankom udzielania informacji objętych tajemnicą bankową organom postępowań
+restrukturyzacyjnego i upadłościowego, co powinno usprawnić wymianę informacji między organami a bankami oraz
+wpłynie pozytywnie na usprawnienie przebiegu całego procesu restrukturyzacyjnego czy upadłościowego. W związku
+z sytuacją opisaną w pkt 1 proponuje się zmianę ustawy z dnia 29 sierpnia 1997 r. – Prawo bankowe przez wprowadzenie
+podstawy prawnej jednoznacznie umożliwiającej bankom udzielanie informacji objętych tajemnicą bankową syndykowi
+oraz nadzorcy sądowemu albo zarządcy. Zgodnie z projektem udzielanie powyższych informacji jest możliwe tylko
+w zakresie niezbędnym do wykonywania czynności w postępowaniu upadłościowym bądź restrukturyzacyjnym.
+Przewidziano także zmiany w ustawie z dnia 5 listopada 2009 r. o spółdzielczych kasach oszczędnościowo-
+kredytowych, w myśl których zachowanie tajemnicy zawodowej nie będzie obowiązywało kasy oszczędnościowo-
+kredytowej w ramach udzielania informacji syndykowi albo nadzorcy sądowemu lub zarządcy w prowadzonych
+postępowaniach upadłościowych lub restrukturyzacyjnych.
+W celu zachowania spójności systemowej dodatkowo proponuje się zmianę w ustawie z dnia 15 maja 2015 r. – Prawo
+restrukturyzacyjne (Dz. U. z 2024 r. poz. 1428) przez wprowadzenie przepisu, zgodnie z którym, po obwieszczeniu
+postanowienia o otwarciu postępowania restrukturyzacyjnego, banki, w których dłużnik ma rachunki bankowe, sejfy
+lub skrytki, albo spółdzielcze kasy oszczędnościowo-kredytowe, które prowadzą rachunki dłużnika, będą obowiązane
+zawiadomić o tym nadzorcę sądowego albo zarządcę. Wspomniana spójność systemowa w zakresie procesu
+restrukturyzacyjnego lub upadłościowego odnosi się do przepisu art. 178 ust. 5 ustawy z dnia 28 lutego 2003 r. – Prawo
+upadłościowe (Dz. U. z 2025 r. poz. 614).
+Jednocześnie proponuje się przepis przejściowy dotyczący postępowań restrukturyzacyjnych niezakończonych przed
+dniem wejścia w życie ustawy, zgodnie z którym banki, w których dłużnik ma rachunki bankowe, sejfy lub skrytki,
+oraz spółdzielcze kasy oszczędnościowo-kredytowe, które prowadzą rachunki dłużnika, będę obowiązane
+zawiadomić o tym nadzorcę sądowego albo zarządcę w terminie określonym w ustawie.
+Dodatkowo w celu usprawnienia przebiegu postępowania upadłościowego proponuje się uzupełnienie art. 178 ust. 5
+ustawy z dnia 28 lutego 2003 r. – Prawo upadłościowe przez wskazanie, że obowiązek zawiadomienia syndyka dotyczy
+również spółdzielczych kas oszczędnościowo-kredytowych prowadzących rachunki upadłego.
+Proponuje się również wprowadzenie przepisu przejściowego dotyczącego ustawy z dnia 28 lutego 2003 r. – Prawo
+upadłościowe, mającego na celu zobowiązanie spółdzielczych kas oszczędnościowo-kredytowych, które prowadzą
+rachunki upadłego, do zawiadamiania o tym syndyka w terminie wskazanym w ustawie.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Projektowana regulacja ze względu na stopień jej szczegółowości i domenę prawa krajowego nie była poddawana
+analizie prawnoporównawczej.
+4. Podmioty, na które oddziałuje projekt
+         Grupa                     Wielkość                   Źródło danych                   Oddziaływanie
+                                                                                         Możliwość uzyskania od
+                                  ok. 2140            Krajowy Rejestr Postępowań        banku informacji objętych
+                                                           Upadłościowych i                tajemnicą bankową,
+Syndyk w postępowaniu         Lista Doradców                                            w zakresie niezbędnym do
+   upadłościowym            Restrukturyzacyjnych         Restrukturyzacyjnych
+                                                                                        wykonywania czynności w
+                                  w Polsce            (wg stanu na 24.04.2025 r.)             postępowaniu
+                                                                                             upadłościowym.
+                                                                                         Możliwość uzyskania od
+                                  ok. 2140            Krajowy Rejestr Postępowań        banków informacji objętych
+Nadzorca lub zarządca w                                    Upadłościowych i                tajemnicą bankową, w
+     postępowaniu             Lista Doradców                                              zakresie niezbędnym do
+                            Restrukturyzacyjnych         Restrukturyzacyjnych
+ restrukturyzacyjnym                                                                    wykonywania czynności w
+                                  w Polsce            (wg stanu na 24.04.2025 r.)               postępowaniu
+                                                                                            restrukturyzacyjnym.
+ Banki w formie spółek                29               Rejestr podmiotów sektora           Możliwość udzielania
+      akcyjnych                                            bankowego KNF               informacji objętych tajemnicą
+                                                        (stan na 30.04.2025 r.)           bankową syndykom oraz
+                                                                                         nadzorcom sądowym albo
+                                                                                           zarządcom w zakresie
+                                                                                       niezbędnym do wykonywania
+                                                                                             czynności w tych
+                                                                                              postępowaniach.
+   Banki spółdzielcze                 489              Rejestr podmiotów sektora           Możliwość udzielania
+                                                           bankowego KNF               informacji objętych tajemnicą
+                                                        (stan na 30.04.2025 r.)           bankową syndykom oraz
+                                                                                         nadzorcom sądowym albo
+                                                                                           zarządcom w zakresie
+                                                                                       niezbędnym do wykonywania
+                                                                                             czynności w tych
+                                                                                              postępowaniach.
+   Spółdzielcze kasy                  18              Rejestr kas oszczędnościowo-         Możliwość udzielania
+   oszczędnościowo-                                        kredytowych KNF             informacji objętych tajemnicą
+       kredytowe                                          (stan na 9.05.2025 r.)         zawodową syndykom oraz
+                                                                                         nadzorcom sądowym albo
+                                                                                           zarządcom w zakresie
+                                                                                       niezbędnym do wykonywania
+
+                                                          2
+                                                                                           czynności w tych
+                                                                                           postępowaniach.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt ustawy w ramach konsultacji publicznych i opiniowania został przekazany, z 4-dniowym terminem na
+zgłaszanie uwag, do następujących podmiotów i organizacji: Narodowego Banku Polskiego; Komisji Nadzoru
+Finansowego; Polskiej Agencji Nadzoru Audytowego; Prokuratorii Generalnej Rzeczypospolitej Polskiej; Rzecznika
+Finansowego; Rzecznika Małych i Średnich Przedsiębiorców; Bankowego Funduszu Gwarancyjnego; Urzędu Ochrony
+Konkurencji i Konsumentów; Urzędu Ochrony Danych Osobowych; Polskiego Funduszu Rozwoju S.A.; Związku
+Banków Polskich; Krajowego Związku Banków Spółdzielczych; Krajowej Spółdzielczej Kasy Oszczędnościowo-
+Kredytowej; Rady Banków Depozytariuszy; Krajowego Depozytu Papierów Wartościowych S.A.; Giełdy Papierów
+Wartościowych w Warszawie S.A.; Izby Domów Maklerskich; Izby Zarządzających Funduszami i Aktywami;
+Stowarzyszenia Emitentów Giełdowych; BondSpot S.A.; Stowarzyszenia Inwestorów Indywidualnych; Polskiego
+Stowarzyszenia Inwestorów Kapitałowych; Fundacji Małych i Średnich Przedsiębiorstw; Polskiego Związku Instytucji
+Pożyczkowych; Związku Przedsiębiorstw Finansowych oraz Konfederacji Lewiatan.
+Skrócony termin do zgłoszenia uwag jest podyktowany celem deregulacyjnym projektu, o szczególnej randze
+legislacyjnej, jak i wąskim zakresem jego regulacji.
+Projekt został udostępniony na stronie internetowej Biuletynu Informacji Publicznej Rządowego Centrum Legislacji,
+w zakładce „Rządowy Proces Legislacyjny”.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                        Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                 0     1     2     3       4   5     6     7     8     9     10         Łącznie
+                                                                                                        (0–10)
+Dochody ogółem                   0     0     0     0       0   0     0     0     0     0      0          0 zł
+budżet państwa
+JST
+pozostałe jednostki
+(oddzielnie)
+Wydatki ogółem                   0     0     0     0       0   0     0     0     0     0      0          0 zł
+budżet państwa
+JST
+pozostałe jednostki
+(oddzielnie)
+Saldo ogółem                     0     0     0     0       0   0     0     0     0     0      0          0 zł
+budżet państwa
+JST
+pozostałe jednostki
+(oddzielnie)
+                       Wejście w życie ustawy nie wiąże się z koniecznością poniesienia dodatkowych wydatków
+Źródła finansowania    z budżetu państwa. Jednocześnie nie przewiduje się zwiększenia wydatków ani zmniejszenia
+                       dochodów budżetu państwa i budżetów jednostek samorządu terytorialnego.
+Dodatkowe
+informacje, w tym
+wskazanie źródeł
+danych i przyjętych
+do obliczeń założeń
+
+
+
+
+                                                       3
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz
+   na rodzinę, obywateli i gospodarstwa domowe
+                                                     Skutki
+Czas w latach od wejścia w życie           0         1         2        3         5        10        Łącznie
+zmian                                                                                                (0–10)
+W ujęciu         duże
+pieniężnym       przedsiębiorstwa
+(w mln zł,
+                 sektor mikro-,
+ceny stałe
+                 małych i średnich
+z … r.)
+                 przedsiębiorstw
+                 rodzina, obywatele
+                 oraz gospodarstwa
+                 domowe
+W ujęciu      duże
+niepieniężnym przedsiębiorstwa
+                 sektor mikro-,
+                 małych i średnich
+                 przedsiębiorstw
+                 rodzina, obywatele     Wejście w życie ustawy nie wpłynie na sytuację ekonomiczną i społeczną
+                 oraz gospodarstwa      rodziny, a także osób niepełnosprawnych oraz osób starszych.
+                 domowe
+Niemierzalne     Przedmiotowa zmiana umożliwiająca bankom i spółdzielczym kasom oszczędnościowo-kredytowym
+                 udzielanie informacji objętych tajemnicą bankową, w toku postępowania upadłościowego
+                 i restrukturyzacyjnego, syndykowi oraz nadzorcy sądowemu i zarządcy może w sposób pośredni
+                 wpływać na ochronę interesów majątkowych wierzycieli. Oznacza to także konieczność wdrożenia
+                 nowych procedur identyfikacji wnioskodawców, weryfikacji zakresu danych oraz bezpiecznego
+                 przekazywania informacji. Skala zadań może okazać się istotna – przy licznych postępowaniach
+                 prowadzonych każdego roku można spodziewać się zauważalnego wzrostu liczby zapytań
+                 kierowanych do banków.
+                 Projekt ustawy nie wprowadza przepisów, które nakładałyby nowe obowiązki bezpośrednio na
+                 przedsiębiorców, ani nie modyfikuje warunków prowadzenia działalności gospodarczej przez
+                 przedsiębiorstwa. Przepisy mają na celu usprawnienie postępowań upadłościowych
+                 i restrukturyzacyjnych przez doprecyzowanie obowiązków informacyjnych banków oraz
+                 spółdzielczych kas oszczędnościowo-kredytowych wobec syndyka, nadzorcy sądowego oraz
+                 zarządcy.
+                 Zakres regulacji nie obejmuje kwestii związanych z obowiązkiem uwzględniania przez banki oraz
+                 spółdzielcze kasy oszczędnościowo-kredytowe ryzyk ESG (tj. ryzyk środowiskowych, społecznych
+                 i z zakresu ładu korporacyjnego), a tym samym nie oddziałuje w tym zakresie na sektor
+                 przedsiębiorstw. Projektowane zmiany mają charakter proceduralny i techniczny, ukierunkowany na
+                 zwiększenie efektywności prowadzonych postępowań restrukturyzacyjnych i upadłościowych.
+Dodatkowe
+informacje, w tym
+wskazanie źródeł
+                       Wejście w życie ustawy nie będzie miało wpływu na konkurencyjność gospodarki.
+danych i przyjętych
+do obliczeń założeń
+
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie              tak
+wymaganymi przez UE (szczegóły w odwróconej              nie
+tabeli zgodności).
+                                                         nie dotyczy
+
+                                                         4
+   zmniejszenie liczby dokumentów                       zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                         zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                wydłużenie czasu na załatwienie sprawy
+   inne:                                                inne:
+Wprowadzane obciążenia są przystosowane do ich          tak
+elektronizacji.                                         nie
+                                                        nie dotyczy
+Wprowadzenie nowych obowiązków może wymagać od banków i spółdzielczych kas oszczędnościowo-kredytowych
+dostosowania procedur operacyjnych i organizacyjnych, w szczególności w zakresie przetwarzania i udostępniania
+informacji objętych tajemnicą bankową. Może to pociągać za sobą konieczność aktualizacji systemów
+informatycznych, przeszkolenia pracowników oraz zapewnienia zgodności z przepisami o ochronie danych
+osobowych. W efekcie może pojawić się pewien wzrost kosztów operacyjnych i administracyjnych związanych
+z realizacją nowych zadań.
+9. Wpływ na rynek pracy
+Wejście w życie ustawy nie będzie miało wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+   środowisko naturalne                demografia                             informatyzacja
+   sytuacja i rozwój regionalny        mienie państwowe                       zdrowie
+   sądy powszechne,                    inne:
+administracyjne lub wojskowe
+                       Wejście w życie ustawy nie wpłynie na sytuację i rozwój regionalny oraz pozostałe obszary
+Omówienie wpływu
+                       wskazane w pkt 10.
+11. Planowane wykonanie przepisów aktu prawnego
+Planowane wykonanie przepisów ustawy nastąpi z dniem jej wejścia w życie.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Ewaluacja efektów projektu będzie dokonywana w toku bieżących czynności wykonywanych przez Komisję Nadzoru
+Finansowego.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                       5
+                                                                RAPORT Z KONSULTACJI
+
+                             Projekt ustawy o zmianie ustawy – Prawo bankowe oraz niektórych innych ustaw (UDER11)
+
+1)    Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania
+
+Stosownie do postanowień uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806,
+z późn. zm.) projekt o zmianie ustawy – Prawo bankowe oraz niektórych innych ustaw 6 maja br. został przekazany do konsultacji publicznych oraz opiniowania
+Narodowemu Bankowi Polskiego, Komisji Nadzoru Finansowego, Polskiej Agencji Nadzoru Audytowego, Prokuratorii Generalnej Rzeczypospolitej Polskiej,
+Rzecznikowi Finansowemu, Rzecznikowi Małych i Średnich Przedsiębiorców, Bankowemu Funduszowi Gwarancyjnemu; Urzędu Ochrony Konkurencji i
+Konsumentów; Urzędu Ochrony Danych Osobowych; Polskiego Funduszu Rozwoju S.A.; Związku Banków Polskich; Krajowego Związku Banków
+Spółdzielczych; Krajowej Spółdzielczej Kasy Oszczędnościowo-Kredytowej; Rady Banków Depozytariuszy; Krajowego Depozytu Papierów Wartościowych S.A.;
+Giełdy Papierów Wartościowych w Warszawie S.A.; Izby Domów Maklerskich; Izby Zarządzających Funduszami i Aktywami; Stowarzyszenia Emitentów
+Giełdowych; BondSpot S.A.; Stowarzyszenia Inwestorów Indywidualnych; Polskiego Stowarzyszenia Inwestorów Kapitałowych; Fundacji Małych i Średnich
+Przedsiębiorstw; Polskiego Związku Instytucji Pożyczkowych; Związku Przedsiębiorstw Finansowych oraz Konfederacji Lewiatan. Termin na zgłaszanie uwag
+został wyznaczony do dnia 9 maja br.
+
+Podczas konsultacji publicznych i opiniowania uwagi do projektu zgłosiła Krajowa Spółdzielcza Kasa Oszczędnościowo-Kredytowa.
+
+Stosownie do art. 4 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248, z późn. zm.) projekt
+został zamieszczony w wykazie prac legislacyjnych i programowych Rady Ministrów. Zgodnie natomiast z art. 5 tej ustawy oraz § 52 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów projekt ustawy został udostępniony w Biuletynie Informacji Publicznej na stronie
+podmiotowej Rządowego Centrum Legislacji – numer z wykazu UDER11. Uwagi do projektu w tym trybie nie zgłosił żaden podmiot.
+
+Projekt nie wymaga zasięgnięcia opinii, dokonania konsultacji oraz uzgodnienia z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim
+Bankiem Centralnym.
+
+Poniżej zostały przedstawione uwagi zgłoszone w trakcie konsultacji publicznych oraz opiniowania, wraz z rozstrzygnięciem projektodawcy.
+
+
+
+
+                                                                            1
+                                                                    Uwagi ogólne
+
+Lp.       Jednostk   Podmiot                             Stanowisko/opinia podmiotu                                  Stanowisko MF
+              a      który
+          redakcyj   przedsta
+          na/część   wił
+          projektu   stanowis
+           założeń   ko/
+          projektu   opinię
+           ustawy
+
+      1. 1 Uwaga     KSKOK      Jak wskazano w uzasadnieniu Celem projektowanych przepisów jest wprowadzenie Uwaga uwzględniona
+         . ogólna               podstawy prawnej jednoznacznie umożliwiającej bankom udzielanie informacji
+                                objętych tajemnicą bankową, w toku postępowania upadłościowego i
+                                restrukturyzacyjnego syndykowi oraz nadzorcy sądowemu albo zarządcy w celu
+                                wykonywania czynności w postępowaniu upadłościowym bądź restrukturyzacyjnym.
+                                Obecnie w ustawie z dnia 29 sierpnia 1997 r. - Prawo bankowe (Dz. U. z 2024 r. poz.
+                                1646 i 1863 oraz z 2025 r. poz. 146 i poz. 222, dalej jako: „ustawa — Prawo
+                                bankowe”) brak jest bowiem przepisów, które jednoznacznie umożliwiałyby bankom
+                                udzielanie informacji objętych tajemnicą bankową organom postępowania
+                                restrukturyzacyjnego oraz organom postępowania upadłościowego. Brak podstawy
+                                prawnej powoduje liczne wątpliwości interpretacyjne i problemy w praktyce (…).
+
+                                W związku z tym wnioskodawca proponuje wprowadzenie zmiany w art. 105 ust. 1
+                                pkt. 2 ustawy — Prawo bankowe, polegającą na dodaniu po lit. ła liter łb i łc w
+                                odpowiednim brzmieniu.
+
+                                Mając na uwadze fakt, że zgodnie z brzmieniem przepisu art. 10 ustawy z dnia 5
+                                listopada 2009 r. o spółdzielczych kasach oszczędnościowo-kredytowych (Dz. U.
+                                z 2025 r., poz. 379, dalej: ustawa o skok), członkami kas mogą być zarówno osoby
+                                                                                2
+                    fizyczne, jak i spółki jawne, spółki partnerskie i spółki komandytowe, czy spółdzielnie,
+                    a obowiązujące brzmienie ustawy o skok, podobnie jak w ustawa — Prawo bankowe,
+                    nie zawiera przepisów umożlwiających kasom udzielanie informacji objętych
+                    tajemnicą zawodową, będącą odpowiednikiem tajemnicy bankowej, organom
+                    postępowania restrukturyzacyjnego oraz organom postępowania upadłościowego, w
+                    ocenie Kasy Krajowej, zasadne wydaje się wprowadzenie w ustawie o skok
+                    analogicznych rozwiązań względem tych, które przewidziane są dla banków w
+                    procedowanym projekcie UDER11.
+
+                    W związku z powyższym uprzejmie proszę o rozważenie możliwości uwzględnienia
+                    w toku dalszych prac nad projektem następującej propozycji legislacyjnej:
+
+                    Po art.1 dodaje się art.1a w brzmieniu:
+
+                    „Art. la. W ustawie z dnia 5 listopada 2009 r. o spółdzielczych kasach
+                    oszczędnościowo-kredytowych (Dz. U. z 2025 r., poz. 379) w art. 9fw ust. 1 dodaje się
+                    pkt 14b i 14c w brzmieniu:
+
+                    14b) na żądanie syndyka, w zakresie niezbędnym do wykonywania czynności w
+                    postępowaniu upadłościowym,
+
+                    14c) na żądanie nadzorcy sądowego albo zarządcy, w zakresie niezbędnym do
+                    wykonywania czynności w postępowaniu restrukturyzacyjnym,”.
+
+2.   Uwaga    BFG   W ocenie Fundusz, nałożenie na banki, w projektowanym przepisie art. 26a ustawy – Uwaga uwzględniona
+     ogólna         Prawo restrukturyzacyjne , obowiązku informacyjnego względem postępowań
+                    trwających w dniu wejścia w życie przepisów projektowanej regulacji będzie de facto
+                    implikowało konieczność dokonywania przez banki wstecznej analizy nie tylko
+                    obwieszczeń o wszczęciu postępowań restrukturyzacyjnych, ale także obwieszczeń o
+                    ich zakończeniu. Nie można przy tym wykluczyć, że rzeczona analiza będzie dotyczyła
+                    również postępowań restrukturyzacyjnych, które zostały wszczęte przed wejściem w
+
+                                                                         3
+                    życie ustawy z dnia 6 grudnia 2018 r. o Krajowym Rejestrze Zadłużonych (t.j. Dz. U.
+                    z 2021 r. poz. 1909 z późn. zm.), co znacznie wydłuży proces analityczny. Z
+                    powyższych względów pod rozwagę poddajemy wydłużenie proponowanego w art. 4
+                    projektu okresu vacatio legis, który wydaje się być zbyt krótki. Na uwadze bowiem
+                    mieć należy czasochłonność dostosowania przez banki swoich procedur i systemów
+                    celem realizacji nakładanych nowych obowiązków.
+
+
+
+                                                        Uwagi szczegółowe
+
+
+
+3.   Art. 1   ZPF   Wydaje się, że w Projekcie ustawy nie uwzględniono etapu postępowania o ogłoszenie Uwaga nieuwzględniona
+                    upadłości (przedsiębiorcy, w tym na podstawie art. 7-9 ustawy z dnia 28 lutego 2003
+                                                                                                         Patrz stanowisko do uwagi nr 6
+                    r. Prawo upadłościowe, dalej: „Ustawa”; niekoniecznie konsumenta), w trakcie którego
+                    dokonywana jest przez tymczasowego nadzorcę sądowego ocena stanu majątkowego i
+                    finansowego dłużnika.
+
+                    Na wskazanym wyżej etapie kluczowym jest zobiektywizowane skontrolowanie
+                    sytuacji finansowej dłużnika wedle treści wniosku. Zgodnie z art. 38 ust. 3 Ustawy Sąd
+                    może zobowiązać tymczasowego nadzorcę sądowego do złożenia w wyznaczonym
+                    terminie sprawozdania obejmującego w szczególności informacje na temat stanu
+                    finansowego dłużnika, rodzaju i wartości jego majątku oraz przewidywanych kosztów
+                    postępowania upadłościowego.
+
+                    Tymczasowy nadzorca sądowy z reguły przekazuje Sądowi takie sprawozdanie przed
+                    przeprowadzeniem rozprawy i wydaniem postanowienia.
+
+                    Sprawozdanie to powinno zawierać szereg informacji związanych między innymi z
+                    oceną przedsiębiorstwa dłużnika pod kątem możliwości prowadzenia działalności
+                    gospodarczej po ogłoszeniu upadłości, ustaleniem dotyczącym czynności dłużnika
+                                                                       4
+dających się zakwalifikować w przypadku ogłoszenia upadłości jako bezskuteczne w
+stosunku do masy upadłości na podstawie art. 127 Ustawy, analizą stanu majątkowego
+dłużnika pod kątem możliwości spieniężenia składników powstałej w przypadku
+ogłoszenia upadłości masy upadłości czy też wskazaniem hipotek i innych
+ograniczonych praw rzeczowych, jakie zostały ustanowione na nieruchomości
+wchodzącej w skład majątku dłużnika.
+
+Oparcie tego sprawozdania między innymi na danych zgromadzonych od banku w
+trybie art. 105 ust. 1 pkt 2 ustawy z dnia 29 sierpnia 1997 r. – Prawo bankowe może
+znacznie ułatwić i przyśpieszyć pracę tymczasowego nadzorcy sądowego, a w
+konsekwencji usprawnić postępowanie o ogłoszenie upadłości, szczególnie, że
+niejednokrotnie tymczasowy nadzorca sądowy doznaje trudności w pozyskaniu
+pełnych danych o sytuacji majątkowej i finansowej od dłużnika, co utrudnia jego pracę
+i wydłuża przygotowywanie sprawozdania, a w konsekwencji wydłuża całe
+postępowanie.
+
+W związku z powyższym, postulujemy zmianę brzmienia art. 1 Projektu ustawy na
+następującą (zmiany zaznaczone na czerwono):
+
+„Art. 1. W ustawie z dnia 29 sierpnia 1997 r. – Prawo bankowe. (Dz. U. z 2024 r. poz.
+1646, 1685, 1863 oraz z 2025 r. poz. 146, 222 i 525) w art. 105 w ust. 1 w pkt 2 po lit.
+ła dodaje się lit. łb, łc i łd w brzmieniu:
+
+„łb) syndyka, w zakresie niezbędnym do wykonywania czynności w postępowaniu
+upadłościowym,
+
+łc) nadzorcy sądowego albo zarządcy, w zakresie niezbędnym do wykonywania
+czynności w postępowaniu restrukturyzacyjnym,
+
+łd) tymczasowego nadzorcy sądowego, w zakresie niezbędnym do wykonywania
+czynności w postępowaniu w przedmiocie ogłoszenia upadłości,”.
+
+                                                     5
+4.   Art. 1   ZBP   I.      Projekt reguluje kwestię udzielania informacji objętych tajemnicą bankową       Uwaga nieuwzględniona
+                    syndykowi w związku wykonywaniem czynności w postępowaniu upadłościowym
+                                                                                                            Pożądane jest ograniczenie zakresu
+                    oraz nadzorcy sądowemu i zarządcy w związku z wykonywania czynności w
+                                                                                                            udzielanych informacji w ramach
+                    postępowaniu restrukturyzacyjnym - pomijając całkowicie kwestie relacji z bankiem
+                                                                                                            zwolnienia z tajemnicy bankowej co do
+                    i dostępu do tajemnicy bankowej nadzorcy układu (aktualnie zdecydowanie
+                                                                                                            danych niezbędnych do wykonywania
+                    dominująca forma restrukturyzacji obejmująca ok. 90 % wszystkich restrukturyzacji),
+                                                                                                            czynności        w       postępowaniu
+                    tymczasowego nadzorcy sądowego oraz zarządcy przymusowego.
+                                                                                                            upadłościowym/restrukturyzacyjnym.
+                    Pragniemy podkreślić, iż warunkiem usprawnienia procesów restrukturyzacyjnych i         Co do dodania do katalogu podmiotów
+                    upadłościowych jest umożliwienie bankom wymiany informacji z wszystkimi                 także    sądu    restrukturyzacyjnego/
+                    organami tych postępowań. Koniecznym jest zatem wprowadzenie podstawy prawnej           upadłościowego – nie ma takiej
+                    zwalniającej banki z obowiązku zachowania tajemnicy bankowej także wobec                potrzeby w toku prowadzonych
+                    nadzorcy układu, tymczasowego nadzorcy sądowego oraz zarządcy przymusowego.             postępowań.
+
+                    Ograniczenie zakresu Projektu wyłącznie do określenia zasad dostępu do tajemnicy  Za niezasadne należy uznać udzielenie
+                    bankowej przez syndyka, nadzorcę sądowego i zarządcę spotęguje problemy           dostępu nadzorcy układu do tajemnicy
+                    interpretacyjne, a nadto może podważyć możliwą dziś do zastosowania w niektórych  bankowej z uwagi na charakter
+                    przypadkach formułę, kontaktowania się przez banki z organami postępowań          postępowania o zatwierdzenie układu,
+                    upadłościowych/restrukturyzacyjnych prowadzonych wobec klientów banku, w          które de facto jest prywatnym
+                    oparciu o ogólną przesłankę zwalniającą, a wynikającą z art. 104 ust. 2 pkt. 1 ustawy
+                                                                                                      postępowaniem       prowadzonym      w
+                    Prawo bankowe (należyte wykonanie umowy w relacji bank - syndyk (upadłość) lub    oparciu o kontrakt między dłużnikiem a
+                    zarządca (sanacja) z uwagi na istotę funkcji jaką organy te pełnią w postępowaniach -
+                                                                                                      doradcą           restrukturyzacyjnym.
+                    czyli pełen zarząd masą upadłości/sanacyjną).                                     Natomiast       przedmiot      ochrony
+                                                                                                      tajemnicy bankowej zalicza się do
+                    W sytuacji wejścia w życie regulacji objętej Projektem pojawi się wątpliwość, czy
+                                                                                                      zakresu prywatności klienta banku
+                    wprowadzone przepisy są jedyną możliwą formułą i podstawą komunikowania się
+                                                                                                      chronionej przepisami Konstytucji RP.
+                    banków z organami (wyraźnie wskazanymi w ustawie Prawo bankowe) w
+                                                                                                      Zgodnie z wyrokiem Trybunału
+                    postępowaniach upadłościowych i restrukturyzacyjnych.
+                                                                                                      Konstytucyjnego z 24.06.1997 „prawo
+                                                                                                      do prywatności obejmuje też ochronę
+
+                                                                       6
+                                                                                       danych        dotyczących       sytuacji
+II. Projekt wprowadza zmianę w art. 105 ust. 1 pkt 2 ustawy – Prawo bankowe, a zatem
+                                                                                       majątkowej obywatela, a więc odnosi
+wskazuje na możliwość udostępnienia przez bank danych objętych tajemnicą bankową
+                                                                                       się też do posiadanych przez niego
+wyłącznie na żądanie organów wskazanych w dodawanych literach łb i łc. Ponadto
+                                                                                       rachunków bankowych (i podobnych)
+przekazywane na żądanie dane będą musiały się mieścić w zakresie niezbędnym do
+                                                                                       oraz dokonywanych przez niego
+wykonywania czynności w danym postępowaniu insolwencyjnym.
+                                                                                       transakcji” (zob. K 21/96, OTK 1997/2,
+Tak wskazana podstawa prawna (art. 105 ust.1 pkt.2 ustawy prawo bankowe) wymiany       poz. 23). W konsekwencji wszelka
+informacji z organami postępowań upadłościowych i restrukturyzacyjnych niweczy         ingerencja w ochronę tajemnicy
+inicjatywę sektora bankowego, zmierzającą do umożliwienia przekazywania                bankowej musi być konieczna w
+informacji pomiędzy organami – także z inicjatywy banku.                               demokratycznym państwie dla jego
+                                                                                       bezpieczeństwa        lub      porządku
+Ponownie zatem wskazujemy na potrzebę uregulowania kwestii zwolnienia z                publicznego, bądź dla ochrony
+tajemnicy bankowej poprzez wprowadzenie zmiany w art. 104 ustawy - Prawo               środowiska, zdrowia i moralności
+bankowe, a zatem w formule, iż (…) banku nie obowiązuje zachowanie tajemnicy           publicznej, albo wolności i praw innych
+bankowej wobec określonych podmiotów, co umożliwi bankom udostępnienie danych          osób.       Ponadto       przedmiotowa
+objętych tajemnicą bankową organom postępowań insolwencyjnych prowadzonych             ingerencja musi pozostawać w
+wobec dłużników banku, również wtedy, gdy potrzeba i inicjatywa kontaktu z danym       odpowiedniej proporcji (tj. uzasadniona
+organem jest po stronie banku (bank jako aktywny wierzyciel podejmuje działania        jest ingerencja w ochronę tajemnicy
+konieczne i zasadne do odzyskania swoich pieniędzy od dłużnika w ramach                bankowej (ergo w prawo do
+upadłości/restrukturyzacji i w tym celu nawiązuje kontakt z organem).                  prywatności) jedynie w zakresie
+III. Mając na uwadze powyższą argumentację, poniżej przedkładamy propozycję            niezbędnym dla osiągnięcia celu,
+zapisów – wnosząc o jej uwzględnienie w dalszym toku prac nad projektem.               którym jest w danej sytuacji ochrona
+                                                                                       preferowanej przez ustawodawcę
+Art. 1 W ustawie z dnia 29 sierpnia 1997 r. – Prawo bankowe. (Dz. U. z 2024 r. poz.    wartość). W związku z powyższym
+1646, 1685, 1863 oraz z 2025 r. poz. 146, 222 i 525):                                  dostęp do tajemnicy bankowej
+                                                                                       powinien      być    ograniczony     do
+1. w art. 104 po ust. 3 dodaje się ust. 3a i 3b w brzmieniu:
+                                                                                       minimum, wyłącznie w zakresie w
+„3a. Banku nie obowiązuje zachowanie tajemnicy bankowej wobec syndyka                  jakim jest to koniczne ze względu na
+wyznaczonego w postępowaniu upadłościowym oraz wobec nadzorcy sądowego albo            realizację innych wartości chronionych
+                                                     7
+                      zarządcy wyznaczonych w postępowaniu restrukturyzacyjnym, prowadzonych wobec przez system prawa. W kontekście
+                      podmiotu, którego dotyczą informacje objęte tajemnicą.                              postępowania upadłościowego oraz
+                                                                                                          restrukturyzacyjnego tą wartością są
+                      3b. Przepis ust. 3a stosuje się odpowiednio do:
+                                                                                                          przede wszystkim interesy majątkowe
+                      1)       nadzorcy układu od dnia dokonania obwieszczenia, o którym mowa w art. 226a wierzycieli, które korzystają z
+                      ust. 1 ustawy Prawo restrukturyzacyjne, do dnia prawomocnego umorzenia konstytucyjnej ochrony (art. 64
+                      postępowania w przedmiocie rozpoznania wniosku o zatwierdzenie układu albo Konstytucji RP). Dostęp do tajemnicy
+                      zakończenia postępowania o zatwierdzenie układu,                                    bankowej pozasądowych organów
+                                                                                                          postępowania          upadłościowego
+                      2)       tymczasowego nadzorcy sądowego lub zarządcy przymusowego (syndyka) oraz restrukturyzacyjnego
+                      ustanowionych w postępowaniu w przedmiocie ogłoszenia upadłości;                    (nadzorcy sądowego, zarządcy) będzie
+                      3)       tymczasowego nadzorcy sądowego lub tymczasowego zarządcy miał istotne znaczenia w tych
+                      ustanowionych w postępowaniu w przedmiocie otwarcia restrukturyzacji.”              postępowaniach w których powstaje
+                                                                                                          masa upadłości, masa układowa albo
+                      2. w art. 105 ust. 1 po pkt 4) dodaje się pkt 5) i pkt 6) w brzmieniu:              masa sanacyjna. Co do zarządcy
+                                                                                                          przymusowego       to     analogiczne
+                      „5) sądowi restrukturyzacyjnemu rozpoznającemu sprawy w postępowaniu
+                                                                                                          stanowisko jak przy tymczasowym
+                      restrukturyzacyjnym prowadzonym wobec podmiotu, którego dotyczą informacje
+                                                                                                          zarządcy sądowym, dalej: TNS.
+                      objęte tajemnicą oraz sędziemu komisarzowi wykonującemu czynności sądowe w tym
+                      postępowaniu;
+
+                      6) sądowi upadłościowemu rozpoznającemu sprawę o ogłoszenie upadłości
+                      prowadzoną wobec podmiotu, którego dotyczą informacje objęte tajemnicą, sądowi
+                      upadłościowemu w którym toczy się postępowanie upadłościowe wobec podmiotu,
+                      którego dotyczą informacje objęte tajemnicą oraz sędziemu komisarzowi
+                      wykonującemu czynności postępowania upadłościowego w tym postępowaniu.”
+
+5.   Art. 2   KSKOK   W przypadku uwzględnienia powyższej propozycji, jako jej konsekwencję, należałoby Uwaga uwzględniona
+                      wprowadzić poniższą zmianę polegającą na nadaniu następującego brzmienia art. 2
+                      projektu:
+
+                                                                       8
+                     „Art. 2. W ustawie z dnia 15 maja 2015 r. — Prawo restrukturyzacyjne (Dz. U. z 2024
+                     r. poz. 1428) po art. 26 dodaje się art. 26a w brzmieniu:
+
+                     Art. 26a. Po obwieszczeniu postanowienia o otwarciu postępowania
+                     restrukturyzacyjnego, banki, w których dłużnik ma rachunki bankowe, sejfy lub
+                     skrytki, spółdzielcze kasy oszczędnościowo-kredytowe, które prowadzą rachunki
+                     dłużnika, są obowiązane zawiadomić o tym nadzorcę sądowego albo zarządcę.” .
+
+6.   Art. 2   KZBS   Popieramy propozycję zmiany zapisów w art.105 Ustawy Prawo bankowe, dotyczącą Uwaga nieuwzględniona
+                     umożliwienia bankom udzielenia informacji objętych tajemnicą bankową na wniosek
+                                                                                                        Dodawana        w     ustawie     prawo
+                     stosownego organu, co wynika z uzasadnienia proponowanych zmian.
+                                                                                                        restrukturyzacyjne treść przepisu 26a
+                     Odnosząc się jednak wprost do projektu ustawy, zapisy nakładają na banki dodatkowe powinna być analogiczna do przepisu
+                     obowiązki dotyczące każdorazowego               zawiadamiania nadzorcy             funkcjonującego w ustawie prawo
+                            sądowego        bądź zarządcy            sądowego     o prowadzonych dla upadłościowe – art. 178 ust. 5 „po
+                     dłużnika rachunkach bankowych, skrytkach sejfowych, sejfach.                       obwieszczeniu       postanowienia     o
+                                                                                                        ogłoszeniu upadłości banki, w których
+                     W przypadku banków spółdzielczych, których średnie zatrudnienie wynosi ok. 55 upadły ma rachunki bankowe, sejfy lub
+                     etatów w całym banku (centrala i placówki), nakładanie dodatkowych obowiązków jest skrytki, są obowiązane zawiadomić o tym
+                     w naszej ocenie nadmiarowe.                                                        syndyka”.
+
+                     Stąd też proponujemy:                                                                 Ponadto uwaga dotycząca rozszerzenia
+                                                                                                           dostępu do tajemnicy bankowej na TNS
+                     •      aby zadania w tym zakresie banki wykonywały na żądanie stosownego organu,      jest wątpliwa. Jeżeli chodzi o prawo
+                     oraz                                                                                  restrukturyzacyjne to taka zmiana nie jest
+                                                                                                           konieczna, gdyż zgodnie z art. 268 ust. 5
+                     •      doprecyzowania zakresu przekazywanych przez banki informacji.
+                                                                                                           Prawa      Restrukturyzacyjnego      „Do
+                     Poniżej propozycja zapisu art. 26a:                                                   tymczasowego nadzorcy sądowego
+                                                                                                           przepisy o nadzorcy sądowym, z
+                     „Po obwieszczeniu postanowienia o otwarciu postępowania restrukturyzacyjnego,         wyłączeniem przepisów art. 42-46,
+                     bank na pisemne żądanie nadzorcy sądowego albo zarządcy sądowego udziela              stosuje się odpowiednio.”, oraz zgodnie
+                                                                       9
+                     informacji o prowadzonych dla dłużnika rachunkach bankowych, sejfów, skrytek z art. 286 ust                     1   Prawa
+                     sejfowych, a także o udzielonych kredytach i pożyczkach, z podaniem wysokości tych restrukturyzacyjnego „W postępowaniu o
+                     zobowiązań i sposobu ich zabezpieczenia.”                                          otwarcie postępowania sanacyjnego sąd
+                                                                                                        może zabezpieczyć majątek dłużnika
+                     Dodatkowo proponujemy rozważanie rozszerzenia katalogu osób uprawnionych przez ustanowienie tymczasowego
+                     (organów) o tymczasowego nadzorcę sądowego (TNS) w postępowaniu o rozpatrzenie nadzorcy sądowego, do którego stosuje
+                     wniosku o ogłoszenie upadłości oraz analogicznie o inne organy pozasądowe tj. TNS się odpowiednio przepisy o nadzorcy
+                     w postępowaniu restrukturyzacyjnym.                                                sądowym, z wyłączeniem przepisów art.
+                                                                                                        42-46,     albo   przez    ustanowienie
+                     Ogłoszenie upadłości oraz otwarcie postępowania restrukturyzacyjnego wywierają
+                                                                                                        tymczasowego zarządcy, do którego
+                     różne skutki prawne dla dłużnika, stąd też w naszej ocenie przepisów ustawy prawo
+                                                                                                        stosuje się odpowiednio przepisy o
+                     upadłościowe i restrukturyzacyjne nie należy stosować per analogiam”.              zarządcy, z wyłączeniem przepisów art.
+                     W postępowaniu upadłościowym dłużnik traci uprawnienie do rozporządzania swoim 55-59 oraz art. 61 i art. 62. Postanowienie
+                     majątkiem. Natomiast w postępowaniu restrukturyzacyjnym dłużnik samodzielnie o ustanowieniu tymczasowego nadzorcy
+                                                                                                        sądowego albo tymczasowego zarządcy,
+                     podejmuje decyzje w sprawach nie przekraczających zakresu czynności zwykłego
+                                                                                                        zmianie osoby tymczasowego nadzorcy
+                     zarządu, w wyjątkowych sytuacjach traci zarząd.
+                                                                                                        sądowego albo tymczasowego zarządcy
+                     Tym samym to dłużnikowi powinno zależeć na tym by rzetelnie informować właściwe oraz informację o uprawomocnieniu się
+                     organy o posiadanych rachunkach, majątku oraz istniejących zobowiązaniach. Tylko postanowienia o zmianie sposobu
+                     rzetelne dane mogą stanowić podstawę do przygotowania, a następnie oceny przez zabezpieczenia         przez      odwołanie
+                     wierzycieli proponowanych przez dłużnika działań restrukturyzacyjnych.             tymczasowego nadzorcy sądowego albo
+                                                                                                        tymczasowego zarządcy obwieszcza się.”
+                     Udzielanie informacji organom restrukturyzacyjnym powinno zostać ograniczone do
+                     wniosku organu, a nie stać się każdorazowym obowiązkiem banku po obwieszczeniu
+                     postanowienia o otwarciu postępowania restrukturyzacyjnego.
+
+7.   Art. 2   UKNF   W zakresie projektowanych zmian, UKNF wyraża poparcie dla ich wprowadzenia, z Uwaga nieuwzględniona
+                     uwagi na możliwość ułatwienia wymiany informacji pomiędzy organami
+                                                                                                      Brak uzasadnienia do zawężenia do
+                     postępowania upadłościowego i restrukturyzacyjnego a bankami, co wpłynie na
+                                                                                                      informacji w zakresie rachunków
+                     usprawnienie ww. postępowań oraz zapewni wyższy stopień ochrony praw wierzycieli
+                                                                                                      bankowych, rachunków pieniężnych,
+
+                                                                      10
+poprzez potencjalne skrócenie czasu oczekiwania na zaspokojenie przysługujących im rachunków papierów wartościowych,
+wobec upadłego lub dłużnika wierzytelności.                                         skrytek, sejfów lub salda wierzytelności
+                                                                                    przysługującej    bankowi     względem
+Pozytywnie należy ocenić również proponowane zmiany do ustawy – Prawo dłużnika lub upadłego.
+restrukturyzacyjne (art. 26a) stanowiące implementację rozwiązania przewidzianego w
+art. 178 ust. 5 ustawy – Prawo upadłościowe do ustawy – Prawo restrukturyzacyjne.
+Powyższa zmiana pozwoli na wzmocnienie spójności systemowej pomiędzy
+powyższymi ustawami oraz może przyczynić się do znacznego usprawnienia
+postępowania restrukturyzacyjnego - zobowiązanie banków do (tożsamego w stosunku
+do postępowania upadłościowego) zawiadamiania zarządcy oraz nadzorcy sądowego
+o prowadzeniu na rzecz dłużnika rachunków bankowych, sejfów lub skrytek umożliwi
+organom postępowania restrukturyzacyjnego sprawne ustalenie składników majątku
+dłużnika.
+
+Propozycja zmiany:
+
+W ocenie UKNF, rozważyć można jednak uzupełnienie projektowanych zmian w ten
+sposób, aby umożliwić syndykowi, zarządcy oraz nadzorcy sądowemu dostęp do
+informacji objętych tajemnicą bankową, z zawężeniem przedmiotowym do informacji
+w zakresie rachunków bankowych, rachunków pieniężnych, rachunków papierów
+wartościowych, skrytek, sejfów lub salda wierzytelności przysługującej bankowi
+względem dłużnika lub upadłego.
+
+Dla celów zapewnienia proporcjonalności ingerencji w zakres tajemnicy bankowej, w
+naszej    ocenie    dostęp    organów      postępowania    upadłościowego      oraz
+restrukturyzacyjnego do informacji objętych ww. tajemnicą powinien być ograniczony
+zakresem przedmiotowym, uwzględniającym konkretne składniki majątku dłużnika
+lub upadłego.
+
+Proponowana zmiana powinna w ocenie UKNF korelować z proponowanym
+uregulowaniem art. 26a ustawy – Prawo restrukturyzacyjne (zaczerpniętym z art. 178
+
+                                                 11
+ust. 5 ustawy – Prawo upadłościowe) – z potencjalnym rozszerzeniem w zakresie
+innych składników majątku, niż tych na rachunkach bankowych, w sejfach i skrytkach.
+
+Z uwagi na specyficzne role syndyka, nadzorcy sądowego oraz zarządcy i
+podejmowane przez nich czynności, zakres przedmiotowy dostępu do tajemnicy
+bankowej może wymagać zmiany. Pozwoli to w ocenie UKNF na zachowanie
+spójności systemowej pomiędzy powyższymi ustawami, które regulują obecnie tryb
+postępowania     wobec    podmiotów    niewypłacalnych     lub    zagrożonych
+niewypłacalnością.
+
+Zgodnie z powyższym, analogicznie jak w przypadku uwag UKNF do projektu ustawy
+
+o zmianie ustawy – Prawo bankowe oraz ustawy – Prawo upadłościowe z 28 kwietnia
+2025 r., proponujemy modyfikację art. 1 projektu ustawy o zmianie ustawy - Prawo
+bankowe oraz ustawy – Prawo restrukturyzacyjne z 7 maja 2025 r., poprzez nadanie
+mu brzmienia:
+
+Art. 1. W ustawie z dnia 29 sierpnia 1997 r. – Prawo bankowe. (Dz. U. z 2024 r. poz.
+1646, 1685, 1863 oraz z 2025 r. poz. 146, 222) w art. 105 w ust. 1 w pkt 2 po lit. ła
+dodaje się lit. łb i łc w brzmieniu:
+
+„łb) syndyka, w zakresie rachunków bankowych, rachunków pieniężnych, rachunków
+papierów wartościowych, skrytek, sejfów lub salda wierzytelności przysługującej
+bankowi względem upadłego, w zakresie niezbędnym do prawidłowego wykonywania
+czynności w postępowaniu upadłościowym,
+
+łc) nadzorcy sądowego albo zarządcy w zakresie rachunków bankowych, rachunków
+pieniężnych, rachunków papierów wartościowych, skrytek, sejfów lub salda
+wierzytelności przysługującej bankowi względem dłużnika, w zakresie niezbędnym do
+prawidłowego wykonywania czynności w postępowaniu restrukturyzacyjnym”.
+
+
+
+                                                  12
+     Uwagi redakcyjne
+
+          Uzasadnienie
+
+8.
+
+          OSR
+
+
+
+
+                 13
+

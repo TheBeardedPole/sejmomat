@@ -1,0 +1,928 @@
+Liczba stron : 25      Data : 2025-07-08       Nazwa pliku : V4_1181-6.NK                              1
+X kadencja/druk1239
+
+                                                                                                Projekt
+                                            U S T AWA
+
+                                                 z dnia
+
+      o zmianie ustawy o zapasach ropy naftowej, produktów naftowych i gazu
+ ziemnego oraz zasadach postępowania w sytuacjach zagrożenia bezpieczeństwa
+     paliwowego państwa i zakłóceń na rynku naftowym oraz niektórych innych
+                                               ustaw1), 2)
+
+
+       Art. 1. W ustawie z dnia 16 lutego 2007 r. o zapasach ropy naftowej, produktów
+naftowych i gazu ziemnego oraz zasadach postępowania w sytuacjach zagrożenia
+bezpieczeństwa paliwowego państwa i zakłóceń na rynku naftowym (Dz. U. z 2024 r.
+poz. 1281) wprowadza się następujące zmiany:
+1)     odnośnik nr 1 do tytułu ustawy otrzymuje brzmienie:
+       „1) Niniejsza ustawa:
+            1) w zakresie swojej regulacji wdraża:
+                 a) dyrektywę Parlamentu Europejskiego i Rady 2009/73/WE z dnia 13
+                      lipca 2009 r. dotyczącą wspólnych zasad rynku wewnętrznego gazu
+                      ziemnego i uchylającą dyrektywę 2003/55/WE (Dz. Urz. UE L 211
+                      z 14.08.2009, str. 94, Dz. Urz. UE L 328 z 21.12.2018, str. 1, Dz.
+                      Urz. UE L 117 z 03.05.2019, str. 1 oraz Dz. Urz. UE L 152 z
+                      03.06.2022, str. 45),
+                 b) dyrektywę Radę 2009/119/WE z dnia 14 września 2009 r.
+                      nakładającą na państwa członkowskie obowiązek utrzymywania
+
+1)
+     Niniejsza ustawa:
+      1) w zakresie swojej regulacji wdraża dyrektywę Parlamentu Europejskiego i Rady 2012/27/UE
+          z dnia 25 października 2012 r. w sprawie efektywności energetycznej, zmiany dyrektyw
+          2009/125/WE i 2010/30/UE oraz uchylenia dyrektyw 2004/8/WE i 2006/32/WE (Dz. Urz. UE
+          L 315 z 14.11.2012, str. 1, Dz. Urz. UE L 113 z 25.04.2013, str. 24, Dz. Urz. UE L 141 z
+          28.05.2013, s. 28, Dz. Urz. UE L 156 z 19.06.2018, str. 75, Dz. Urz. UE L 328 z 21.12.2018,
+          str. 1 i 210, Dz. Urz. UE L 85 I z 27.03.2019, str. 66, Dz. Urz. UE L 137 z 23.05.2019, str. 3,
+          Dz. Urz. UE L 158 z 14.06.2019, str. 125, Dz. Urz. UE L 101 z 14.04.2023, str. 16 oraz Dz.
+          Urz. UE L 178 z 13.07.2023, str. 10);
+      2) służy stosowaniu rozporządzenia Parlamentu Europejskiego i Rady (UE) 2017/1938 z dnia
+          25 października 2017 r. dotyczącego środków zapewniających bezpieczeństwo dostaw gazu
+          ziemnego i uchylającego rozporządzenie (UE) nr 994/2010 (Dz. Urz. UE L 280 z 28.10.2017,
+          str. 1, Dz. Urz. UE L 104 z 01.04.2022, str. 53, Dz. Urz. UE L 173 z 30.06.2022, str. 17, Dz.
+          Urz. UE L 245 z 22.09.2022, str. 70 oraz Dz. Urz. UE L 2024/1789 z 15.07.2024).
+2)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 10 kwietnia 1997 r. – Prawo energetyczne oraz
+     ustawę z dnia 8 grudnia 2017 r. o rynku mocy.
+Liczba stron : 25        Data : 2025-07-08       Nazwa pliku : V4_1181-6.NK                   2
+X kadencja/druk1239
+
+                         minimalnych         zapasów     ropy     naftowej      lub   produktów
+                         ropopochodnych (Dz. Urz. UE L 265 z 09.10.2009, str. 9, Dz. Urz.
+                         UE L 263 z 22.10.2018, str. 57 oraz Dz. Urz. UE L 328 z 21.12.2018,
+                         str. 1);
+          2) w zakresie swojej regulacji służy stosowaniu rozporządzenia Parlamentu
+              Europejskiego i Rady (UE) 2017/1938 z dnia 25 października 2017 r.
+              dotyczącego środków zapewniających bezpieczeństwo dostaw gazu
+              ziemnego i uchylającego rozporządzenie (UE) nr 994/2010 (Dz. Urz. UE
+              L 280 z 28.10.2017, str. 1, Dz. Urz. UE L 104 z 01.04.2022, str. 53, Dz.
+              Urz. UE L 173 z 30.06.2022, str. 17, Dz. Urz. UE L 245 z 22.09.2022,
+              str. 70 oraz Dz. Urz. UE L 2024/1789 z 15.07.2024).”;
+2)   w art. 2 w ust. 1:
+     a)    pkt 7 otrzymuje brzmienie:
+           „7) gaz ziemny – gaz ziemny wysokometanowy lub zaazotowany, we
+                    wszystkich stanach skupienia;”,
+     b)    w pkt 11 wyraz „Wspólnoty” zastępuje się wyrazem „Unii”,
+     c)    po pkt 22 dodaje się pkt 22a–22c w brzmieniu:
+           „22a) odbiorca chroniony – odbiorcę:
+                    a)      paliw gazowych w gospodarstwie domowym w rozumieniu art. 3
+                            pkt 13b ustawy z dnia 10 kwietnia 1997 r. – Prawo energetyczne,
+                    b)      przyłączonego do sieci dystrybucyjnej gazowej, w przypadku
+                            którego moc umowna w punkcie poboru gazu ziemnego
+                            z systemu gazowego lub suma mocy umownej we wszystkich
+                            punktach poboru tego gazu z systemu gazowego zasilających
+                            danego odbiorcę pod jednym adresem nie przekracza 710 kWh/h,
+                            będącego:
+                            –       mikroprzedsiębiorcą, małym przedsiębiorcą lub średnim
+                                    przedsiębiorcą w rozumieniu odpowiednio art. 7 ust. 1 pkt 1–
+                                    3 ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców
+                                    (Dz. U. z 2024 r. poz. 236, 1222 i 1871 oraz z 2025 r. poz.
+                                    222),
+                            –       podmiotem     prowadzącym     działalność     wytwórczą   w
+                                    rolnictwie w zakresie upraw rolnych oraz chowu i hodowli
+Liczba stron : 25        Data : 2025-07-08    Nazwa pliku : V4_1181-6.NK                            3
+X kadencja/druk1239
+
+                               zwierząt, ogrodnictwa, warzywnictwa, leśnictwa i rybactwa
+                               śródlądowego,
+                           –   rolnikiem wynajmującym pokoje, sprzedającym posiłki
+                               domowe i świadczącym w gospodarstwie rolnym inne usługi
+                               związane z pobytem turystów,
+                           –   producentem wina w rozumieniu art. 2 pkt 23 ustawy z dnia
+                               2 grudnia 2021 r. o wyrobach winiarskich (Dz. U. z 2023 r.
+                               poz. 550) będącym rolnikiem wyrabiającym mniej niż 100
+                               hektolitrów wina w roku winiarskim wyłącznie z winogron
+                               pochodzących z własnych upraw winorośli,
+                           –   rolnikiem prowadzącym działalność w zakresie sprzedaży, o
+                               której mowa w art. 20 ust. 1c ustawy z dnia 26 lipca 1991 r.
+                               o podatku dochodowym od osób fizycznych (Dz. U. z 2025
+                               r. poz. 163, 340 i 368),
+                           –   kołem gospodyń wiejskich prowadzącym działalność na
+                               podstawie ustawy z dnia 9 listopada 2018 r. o kołach
+                               gospodyń wiejskich (Dz. U. z 2025 r. poz. 310), które spełnia
+                               warunki, o których mowa w art. 24 ust. 1 tej ustawy,
+                    c)     przyłączonego do sieci dystrybucyjnej gazowej lub sieci
+                           przesyłowej gazowej, będącego:
+                           –   podmiotem zapewniającym świadczenie opieki zdrowotnej
+                               w rozumieniu ustawy z dnia 27 sierpnia 2004 r. o
+                               świadczeniach opieki zdrowotnej finansowanych ze środków
+                               publicznych (Dz. U. z 2024 r. poz. 146, z późn. zm.3)),
+                           –   jednostką organizacyjną pomocy społecznej w rozumieniu
+                               art. 6 pkt 5 ustawy z dnia 12 marca 2004 r. o pomocy
+                               społecznej (Dz. U. z 2024 r. poz. 1283 i 1572),
+                           –   noclegownią lub ogrzewalnią, o których mowa odpowiednio
+                               w art. 48a ust. 3 i 4 ustawy z dnia 12 marca 2004 r. o pomocy
+                               społecznej,
+
+
+
+3)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2024 r. poz. 858, 1222,
+     1593, 1615 i 1915 oraz z 2025 r. poz. 129 i 304.
+Liczba stron : 25    Data : 2025-07-08      Nazwa pliku : V4_1181-6.NK                         4
+X kadencja/druk1239
+
+                        –    jednostką organizacyjną wspierania rodziny i systemu pieczy
+                             zastępczej w rozumieniu art. 2 ust. 3 ustawy z dnia 9 czerwca
+                             2011 r. o wspieraniu rodziny i systemie pieczy zastępczej
+                             (Dz. U. z 2025 r. poz. 49),
+                        –    jednostką systemu Państwowego Ratownictwa Medycznego,
+                             o której mowa w art. 32 ust. 1 ustawy z dnia 8 września
+                             2006 r. o Państwowym Ratownictwie Medycznym (Dz. U. z
+                             2025 r. poz. 91), lub jednostką współpracującą z tym
+                             systemem, o której mowa w art. 15 ust. 1 tej ustawy,
+                        –    jednostką systemu oświaty, o której mowa w art. 2 pkt 1, 2, 4
+                             i 6–8 ustawy z dnia 14 grudnia 2016 r. – Prawo oświatowe
+                             (Dz. U. z 2024 r. poz. 737, 854, 1562, 1635 i 1933),
+                        –    organem administracji publicznej w rozumieniu art. 5 § 2 pkt
+                             3 ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania
+                             administracyjnego (Dz. U. z 2024 r. poz. 572) i urzędem go
+                             obsługującym,
+                        –    podmiotem prowadzącym żłobek lub kluby dziecięce, w
+                             zakresie tej działalności, a także dziennym opiekunem, o
+                             których mowa w ustawie z dnia 4 lutego 2011 r. o opiece nad
+                             dziećmi w wieku do lat 3 (Dz. U. z 2024 r. poz. 338, 743 i
+                             858),
+                        –    przedsiębiorstwem         wodociągowo-kanalizacyjnym              w
+                             rozumieniu art. 2 pkt 4 ustawy z dnia 7 czerwca 2001 r. o
+                             zbiorowym        zaopatrzeniu       w wodę       i     zbiorowym
+                             odprowadzaniu ścieków (Dz. U. z 2024 r. poz. 757),
+                        –    podmiotem odpowiedzialnym za gospodarowanie odpadami,
+                             w zakresie, w jakim realizuje zadania, o których mowa w art.
+                             3 ust. 1 pkt 2 ustawy z dnia 14 grudnia 2012 r. o odpadach
+                             (Dz. U. z 2023 r. poz. 1587, z późn. zm.4)),
+                        –    placówką dyplomatyczną rozumianą jako pomieszczenia
+                             misji, o których mowa w art. 1 lit. i Konwencji Wiedeńskiej
+
+
+4)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2023 r. poz. 1597,
+     1688, 1852 i 2029 oraz z 2024 r. poz. 1834, 1911 i 1914.
+Liczba stron : 25        Data : 2025-07-08   Nazwa pliku : V4_1181-6.NK                      5
+X kadencja/druk1239
+
+                               o stosunkach dyplomatycznych, sporządzonej w Wiedniu
+                               dnia 18 kwietnia 1961 r. (Dz. U. z 1965 r. poz. 232),
+                    d)     gazu ziemnego, w zakresie, w jakim zajmuje się wytwarzaniem
+                           ciepła dla odbiorcy, o którym mowa w lit. a–c, pobierającego
+                           ciepło w okresie od dnia 1 września do dnia 31 maja, na potrzeby
+                           centralnego ogrzewania, ciepłej wody użytkowej, wentylacji oraz
+                           technologii w postaci pary i wody gorącej, lub zaopatrywaniem
+                           w ciepło tego odbiorcy, pod warunkiem że instalacji odbiorcy
+                           gazu ziemnego zajmującego się wytwarzaniem ciepła nie można
+                           zasilać paliwem innym niż gaz ziemny;
+           22b) odbiorca chroniony w ramach solidarnego wsparcia – odbiorcę
+                    chronionego, o którym mowa w pkt 22a lit. a oraz lit. c tiret od
+                    pierwszego do piątego i od ósmego do jedenastego, a także odbiorcę
+                    chronionego, o którym mowa w pkt 22a lit. d, w zakresie, w jakim
+                    zajmuje się wytwarzaniem ciepła dla innego odbiorcy chronionego
+                    w ramach solidarnego wsparcia;
+           22c) odbiorca końcowy – odbiorcę końcowego, o którym mowa w art. 3
+                    pkt 13a ustawy z dnia 10 kwietnia 1997 r. – Prawo energetyczne;”,
+     d)    uchyla się pkt 29,
+     e)    w pkt 30 kropkę zastępuje się średnikiem i dodaje się pkt 31 i 32 w
+           brzmieniu:
+           „31) operatora          systemu     magazynowania      –    operatora       systemu
+                    magazynowania w rozumieniu art. 3 pkt 26 ustawy z dnia 10 kwietnia
+                    1997 r. – Prawo energetyczne;
+           32) rok gazowy – okres kolejnych dwunastu miesięcy, rozpoczynający się
+                    od godziny 6.00 dnia 1 października i trwający do godziny 6.00 dnia
+                    1 października.”;
+3)   w art. 4 pkt 2 otrzymuje brzmienie:
+     „2) wartości współczynników określających gęstość produktów naftowych
+           służących do ich przeliczenia z jednostek objętościowych na jednostki
+           wagowe, stosowanych w okresie od dnia 30 czerwca danego roku
+           kalendarzowego do dnia 29 czerwca następnego roku kalendarzowego.”;
+4)   w art. 5:
+Liczba stron : 25     Data : 2025-07-08   Nazwa pliku : V4_1181-6.NK                   6
+X kadencja/druk1239
+
+     a)    w ust. 3 w pkt 6 dodaje się średnik i dodaje się pkt 7–9 w brzmieniu:
+           „7) 50 dni i średniej dziennej produkcji paliw lub przywozu ropy naftowej
+                    lub paliw zrealizowanych przez producenta lub handlowca w
+                    poprzednim roku kalendarzowym – od dnia 30 września 2025 r.;
+           8)       47 dni i średniej dziennej produkcji paliw lub przywozu ropy naftowej
+                    lub paliw zrealizowanych przez producenta lub handlowca w
+                    poprzednim roku kalendarzowym – od dnia 30 czerwca 2026 r.;
+           9)       45 dni i średniej dziennej produkcji paliw lub przywozu ropy naftowej
+                    lub paliw zrealizowanych przez producenta lub handlowca w
+                    poprzednim roku kalendarzowym – od dnia 30 czerwca 2027 r.”,
+     b)    ust. 9 otrzymuje brzmienie:
+                    „9. Ilość utrzymywanych zapasów obowiązkowych ropy naftowej lub
+           paliw dostosowuje się w terminie do dnia 30 czerwca danego roku
+           kalendarzowego do poziomu wynikającego z obliczeń wykonanych zgodnie
+           z ust. 3b lub 3k, z zastrzeżeniem, że w odniesieniu do okresu od dnia 1
+           stycznia do dnia 29 czerwca danego roku kalendarzowego dane do obliczeń
+           wymaganej ilości zapasów obowiązkowych są ustalane na podstawie
+           wielkości przywozu ropy naftowej lub paliw, lub produkcji paliw, w
+           przedostatnim roku kalendarzowym.”;
+5)   w art. 16:
+     a)    w ust. 2 w pkt 2 lit. c otrzymuje brzmienie:
+           „c) wygaśnięcia lub cofnięcia koncesji na wykonywanie działalności
+                  gospodarczej w zakresie wytwarzania paliw ciekłych lub obrotu
+                  paliwami ciekłymi z zagranicą, lub zmiany wydanej koncesji poprzez
+                  objęcie tą koncesją jedynie produktów naftowych, z którymi nie jest
+                  związany      obowiązek      tworzenia     i utrzymywania     zapasów
+                  obowiązkowych oraz uiszczania opłaty zapasowej,”,
+     b)    w ust. 4:
+           –    pkt 3 otrzymuje brzmienie:
+                „3) wygaśnięcia lub cofnięcia koncesji na wykonywanie działalności
+                        gospodarczej w zakresie wytwarzania paliw ciekłych lub obrotu
+                        paliwami ciekłymi z zagranicą, lub zmiany wydanej koncesji
+                        poprzez objęcie tą koncesją jedynie produktów naftowych, z
+Liczba stron : 25     Data : 2025-07-08   Nazwa pliku : V4_1181-6.NK                 7
+X kadencja/druk1239
+
+                       którymi nie jest związany obowiązek tworzenia i utrzymywania
+                       zapasów obowiązkowych oraz uiszczania opłaty zapasowej;”,
+           –   dodaje się pkt 4 w brzmieniu:
+               „4) wykreślenia z rejestru przedsiębiorców Krajowego Rejestru
+                       Sądowego lub Centralnej Ewidencji i Informacji o Działalności
+                       Gospodarczej.”,
+     c)    dodaje się ust. 8 w brzmieniu:
+                    „8. W przypadku, o którym mowa w ust. 4 pkt 4, przepisu ust. 6 nie
+           stosuje się.”;
+6)   użytą w art. 24 w ust. 2 w pkt 2, w ust. 3b w zdaniu drugim oraz w art. 24b w ust.
+     8 w pkt 2 liczbę „40” zastępuje się liczbą „50”;
+7)   w art. 24a:
+     a)    w ust. 1 część wspólna otrzymuje brzmienie:
+           „– w okresie nie dłuższym niż 50 dni, o ile uzyskano zgodę ministra
+           właściwego do spraw gospodarki surowcami energetycznymi.”,
+     b)    po ust. 1 dodaje się ust. 1a i 1b w brzmieniu:
+                    „1a. Zgodę, o której mowa w ust. 1, minister właściwy do spraw
+           gospodarki surowcami energetycznymi wyraża w drodze decyzji, na
+           wniosek przedsiębiorstwa lub podmiotu, o których mowa w art. 24 ust. 1, w
+           terminie 14 dni od dnia otrzymania tego wniosku, po uzyskaniu opinii
+           operatora systemu przesyłowego gazowego. Brak decyzji w terminie, o
+           którym mowa w zdaniu pierwszym, uznaje się za zgodę, o której mowa w
+           ust. 1.
+                    1b. Do decyzji, o której mowa w ust. 1, nie stosuje się przepisów
+           ustawy       z   dnia    14 czerwca   1960   r.   –   Kodeks   postępowania
+           administracyjnego.”,
+     c)    uchyla się ust. 3 i 4;
+8)   w art. 28b po pkt 7 dodaje się pkt 7a w brzmieniu:
+     „7a) wpływów z tytułu zbywania akcji lub udziałów w spółkach, o których
+           mowa w art. 43 ust. 1 ustawy z dnia 17 grudnia 2020 r. o rezerwach
+           strategicznych (Dz. U. z 2024 r. poz. 1598 i 1907 oraz z 2025 r. poz. ...),
+           oraz wpływów z dywidend z tytułu udziału w zyskach tych spółek;”;
+9)   w art. 28d:
+Liczba stron : 25        Data : 2025-07-08    Nazwa pliku : V4_1181-6.NK                             8
+X kadencja/druk1239
+
+       a)    w ust. 3 w zdaniu drugim po wyrazach „z ministrem właściwym do spraw
+             gospodarki surowcami energetycznymi” dodaje się wyrazy „oraz ministrem
+             właściwym do spraw wewnętrznych”,
+       b)    w ust. 4 po wyrazach „z ministrem właściwym do spraw gospodarki
+             surowcami energetycznymi” dodaje się wyrazy „oraz ministrem właściwym
+             do spraw wewnętrznych”;
+10) w art. 48a dodaje się ust. 6 w brzmieniu:
+              „6. Do decyzji, o których mowa w ust. 1, nie stosuje się przepisów ustawy
+       z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego.”;
+11) w art. 49:
+       a)    ust. 1 otrzymuje brzmienie:
+                    „1. Przedsiębiorstwo:
+             1)     wykonujące działalność gospodarczą w zakresie:
+                    a)     wydobywania gazu ziemnego ze złóż,
+                    b)     obrotu paliwami gazowymi,
+                    c)     obrotu gazem ziemnym z zagranicą oraz
+             2)     zlecające usługi przesyłania lub dystrybucji gazu ziemnego niebędące
+                    przedsiębiorstwem, o którym mowa w pkt 1
+             – opracowuje i aktualizuje procedury postępowania gwarantujące
+             nieprzerwane dostawy gazu ziemnego do odbiorców chronionych w
+             przypadkach określonych w art. 6 ust. 1 rozporządzenia Parlamentu
+             Europejskiego i Rady (UE) 2017/1938 z dnia 25 października 2017 r.
+             dotyczącego środków zapewniających bezpieczeństwo dostaw gazu
+             ziemnego i uchylającego rozporządzenie (UE) nr 994/2010 (Dz. Urz. UE L
+             280 z 28.10.2017, str. 1, z późn. zm.5)), zwanego dalej „rozporządzeniem
+             2017/1938”.”,
+       b)    ust. 3 i 4 otrzymują brzmienie:
+                    „3. Obowiązku uzgodnienia procedur, o którym mowa w ust. 2, nie
+             stosuje się do odbiorców paliw gazowych w gospodarstwach domowych w
+
+
+
+
+5)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 104 z 01.04.2022, str.
+     53, Dz. Urz. UE L 173 z 30.06.2022, str. 17, Dz. Urz. UE L 245 z 22.09.2022, str. 70 oraz Dz. Urz.
+     UE L 2024/1789 z 15.07.2024.
+Liczba stron : 25     Data : 2025-07-08   Nazwa pliku : V4_1181-6.NK                9
+X kadencja/druk1239
+
+           rozumieniu art. 3 pkt 13b ustawy z dnia 10 kwietnia 1997 r. – Prawo
+           energetyczne.
+                    4. Procedury postępowania określają w szczególności sposób
+           wdrażania środków rynkowych wskazanych w planie na wypadek sytuacji
+           nadzwyczajnej, o którym mowa w art. 10 rozporządzenia 2017/1938, w tym
+           sposób:
+           1)       uruchamiania dodatkowych dostaw gazu ziemnego z innych źródeł lub
+                    kierunków;
+           2)       zmniejszania poboru gazu ziemnego przez odbiorców, zgodnie z
+                    umowami z nimi zawartymi, niebędącego ograniczeniami, o których
+                    mowa w art. 56 ust. 1.”;
+12) w art. 49a w ust. 1 wyrazy „rozporządzenia Parlamentu Europejskiego i Rady
+     (UE) 2017/1938 z dnia 25 października 2017 r. dotyczącego środków
+     zapewniających bezpieczeństwo dostaw gazu ziemnego i uchylającego
+     rozporządzenie (UE) nr 994/2010 (Dz. Urz. UE L 280 z 28.10.2017, str. 1,
+     z późn. zm.), zwanego dalej „rozporządzeniem 2017/1938”” zastępuje się
+     wyrazami „rozporządzenia 2017/1938”;
+13) w art. 52 ust. 3 otrzymuje brzmienie:
+            „3. Operator systemu magazynowania gazu ziemnego przekazuje
+     przedsiębiorstwom energetycznym wykonującym działalność w zakresie obrotu
+     gazem ziemnym z zagranicą lub podmiotom dokonującym przywozu gazu
+     ziemnego,        lub   podmiotom,     którym   zlecono    utrzymywanie   zapasów
+     obowiązkowych gazu ziemnego, utrzymującym zapasy obowiązkowe gazu
+     ziemnego w zarządzanych przez niego instalacjach magazynowych, informację
+     o uruchomieniu zapasów obowiązkowych gazu ziemnego, najpóźniej w dniu
+     uruchomienia tych zapasów.”;
+14) w art. 521 w ust. 2 pkt 3 otrzymuje brzmienie:
+     „3) bilansują system przesyłowy gazowy w oparciu o środki nierynkowe, o
+           których mowa w załączniku VIII rozporządzenia 2017/1938, z
+           uwzględnieniem zamówionych wcześniej usług bilansujących, oraz
+           prowadzą rozliczenia z użytkownikami obszaru bilansowania tego systemu
+           z tytułu niezbilansowania – w dobach gazowych, w których był dostarczany
+           gaz ziemny wysokometanowy z uruchomionych zapasów strategicznych
+Liczba stron : 25     Data : 2025-07-08     Nazwa pliku : V4_1181-6.NK                10
+X kadencja/druk1239
+
+           lub w których były wprowadzone ograniczenia w stopniu zasilania
+           wyższym niż pierwszy;”;
+15) w art. 54:
+     a)    po ust. 1 dodaje się ust. 1a w brzmieniu:
+                    „1a. Na terytorium Rzeczypospolitej Polskiej lub jego części mogą być
+           wprowadzone na czas oznaczony ograniczenia także w przypadku
+           określonym w art. 13 ust. 1 rozporządzenia 2017/1938, jeżeli jest to
+           konieczne do udzielenia solidarnego wsparcia.”,
+     b)    dodaje się ust. 3 w brzmieniu:
+                    „3. Operator systemu przesyłowego gazowego lub operator systemu
+           połączonego gazowego podaje do publicznej wiadomości informacje
+           o wprowadzeniu ograniczeń.”;
+16) po art. 54 dodaje się art. 54a w brzmieniu:
+           „Art. 54a. 1. Operator systemu dystrybucyjnego gazowego oraz operator
+     systemu magazynowania współdziałają z operatorem systemu przesyłowego
+     gazowego lub operatorem systemu połączonego gazowego w szczególności
+     przez:
+     1)    uzgadnianie warunków prowadzenia ruchu sieciowego między systemami
+           gazowymi w okresie obowiązywania ograniczeń;
+     2)    zapewnienie kontroli jakości gazu ziemnego w okresie, o którym mowa w
+           pkt 1;
+     3)    zapewnienie poprawności wykonywania pomiarów przepływu gazu
+           ziemnego między systemami gazowymi w okresie, o którym mowa w pkt
+           1;
+     4)    przekazywanie, na wniosek operatora systemu przesyłowego gazowego lub
+           operatora systemu połączonego gazowego, niezbędnych informacji
+           służących do wprowadzania ograniczeń, w szczególności informacji
+           dotyczących:
+           a)       skutków wprowadzenia ograniczeń,
+           b)       przewidywanych        efektów wprowadzenia ograniczeń i       liczby
+                    odbiorców, których te ograniczenia dotyczą.
+           2. Operator systemu przesyłowego gazowego lub operator systemu
+     połączonego gazowego współdziała z operatorem systemu przesyłowego
+Liczba stron : 25     Data : 2025-07-08   Nazwa pliku : V4_1181-6.NK                    11
+X kadencja/druk1239
+
+     elektroenergetycznego, o którym mowa w art. 3 pkt 24 ustawy z dnia 10 kwietnia
+     1997 r. – Prawo energetyczne, lub operatorem systemu połączonego
+     elektroenergetycznego, o którym mowa w art. 3 pkt 28 tej ustawy, w
+     szczególności w zakresie ustalenia dobowych i godzinowych ilości gazu
+     ziemnego umożliwiających prace jednostek wytwórczych wykorzystujących gaz
+     ziemny do wytwarzania energii elektrycznej, które zostały wskazane zgodnie z
+     art. 11 ust. 7 rozporządzenia 2017/1938, w zakresie wymaganym przez operatora
+     systemu        przesyłowego     elektroenergetycznego    lub      operatora   systemu
+     połączonego elektroenergetycznego w okresie obowiązywania ograniczeń.”;
+17) uchyla się art. 55;
+18) w art. 58:
+     a)    ust. 1–4 otrzymują brzmienie:
+                    „1. Operator systemu przesyłowego gazowego lub operator systemu
+           połączonego gazowego oraz operator systemu dystrybucyjnego gazowego
+           opracowuje plan wprowadzania ograniczeń, na podstawie danych własnych
+           oraz na podstawie informacji uzyskanych na podstawie ust. 5–5b i 5e.
+                    2. Plan wprowadzania ograniczeń określa ilości poboru gazu ziemnego
+           w okresie obowiązywania ograniczeń, w szczególności maksymalne
+           godzinowe i dobowe ilości poboru gazu ziemnego w poszczególnych
+           stopniach zasilania przez poszczególnych odbiorców przyłączonych do sieci
+           operatora, o którym mowa w ust. 1, określonych w tym planie.
+                    3. Operator, o którym mowa w ust. 1, w terminie 30 dni od dnia
+           zatwierdzenia przez Prezesa URE planu wprowadzania ograniczeń,
+           informuje odbiorców, z wyłączeniem odbiorców chronionych w ramach
+           solidarnego wsparcia, o ustalonej dla nich w zatwierdzonym planie
+           wprowadzania ograniczeń maksymalnej ilości poboru gazu ziemnego w
+           poszczególnych stopniach zasilania, przy czym wielkości, określone w
+           zatwierdzonych planach wprowadzania ograniczeń, stają się integralną
+           częścią umów sprzedaży, umów o świadczenie usług przesyłania lub
+           dystrybucji gazu ziemnego oraz umów kompleksowych, w rozumieniu
+           odpowiednio art. 5 ust. 2 pkt 1 i 2 oraz ust. 3 ustawy z dnia 10 kwietnia 1997
+           r. – Prawo energetyczne.
+Liczba stron : 25        Data : 2025-07-08     Nazwa pliku : V4_1181-6.NK                  12
+X kadencja/druk1239
+
+                    4. Ograniczenia wynikające z planów wprowadzania ograniczeń nie
+           mają zastosowania do:
+           1)       odbiorców chronionych w ramach solidarnego wsparcia;
+           2)       operatora systemu przesyłowego gazowego jako odbiorcy gazu
+                    ziemnego przyłączonego do sieci dystrybucyjnej gazowej;
+           3)       operatora systemu magazynowania jako odbiorcy gazu ziemnego
+                    przyłączonego do sieci przesyłowej gazowej – w zakresie zużycia na
+                    potrzeby własne instalacji służących do magazynowania gazu
+                    ziemnego.”,
+     b)    po ust. 4 dodaje się ust. 4a w brzmieniu:
+                    „4a. W przypadku gdy odbiorca chroniony prowadzi działalność inną
+           niż kwalifikująca go do uzyskania statusu odbiorcy chronionego, wówczas
+           w zakresie tej innej działalności podlega ograniczeniom.”,
+     c)    ust. 5 otrzymuje brzmienie:
+                    „5. Odbiorcy, z wyłączeniem odbiorców chronionych, o których mowa
+           w art. 2 ust. 1 pkt 22a lit. a–c, oraz przedsiębiorstwa wykonujące działalność
+           gospodarczą polegającą na obrocie gazem ziemnym, w zakresie dotyczącym
+           odbiorców danego przedsiębiorstwa energetycznego, do dnia 31 lipca
+           każdego roku informują:
+           1)       operatora, do którego sieci są przyłączeni, o:
+                    a)     minimalnej ilości gazu ziemnego, której pobór nie powoduje
+                           zagrożenia    bezpieczeństwa      osób   oraz    uszkodzenia   lub
+                           zniszczenia obiektów technologicznych,
+                    b)     ilościach    gazu    ziemnego    dostarczanego     do   odbiorców
+                           chronionych, do których dostarczają gaz ziemny,
+                    c)     możliwym procentowym udziale ciepła, które może zostać
+                           wytworzone w instalacji należącej do odbiorcy przy użyciu
+                           paliwa innego niż gaz ziemny oraz o możliwym procentowym
+                           udziale paliwa innego niż gaz ziemny, które może zostać
+                           wykorzystane w instalacji należącej do odbiorcy,
+                    d)     ilości gazu ziemnego potrzebnej do wytworzenia ciepła dla
+                           odbiorców chronionych,
+                    e)     adresie poczty elektronicznej do kontaktu, jeżeli posiadają;
+Liczba stron : 25     Data : 2025-07-08   Nazwa pliku : V4_1181-6.NK                  13
+X kadencja/druk1239
+
+           2)       operatora, do którego sieci są przyłączeni, oraz operatora systemu
+                    przesyłowego    gazowego lub     operatora   systemu   połączonego
+                    gazowego – o ilościach gazu ziemnego potrzebnych do wytworzenia
+                    i wyprowadzenia mocy elektrycznej w wielkości wymaganej przez
+                    operatora systemu przesyłowego elektroenergetycznego lub operatora
+                    systemu połączonego elektroenergetycznego, lub możliwości pracy
+                    danej jednostki wytwórczej energii elektrycznej z wykorzystaniem
+                    paliwa innego niż gaz ziemny; obowiązek ten dotyczy odbiorców
+                    wskazanych zgodnie z art. 11 ust. 7 rozporządzenia 2017/1938.”,
+     d)    po ust. 5 dodaje się ust. 5a–5g w brzmieniu:
+                    „5a. W przypadku gdy odbiorca chroniony, o którym mowa w art. 2
+           ust. 1 pkt 22a lit. d, nie dokonuje sprzedaży ciepła bezpośrednio do
+           odbiorców chronionych, w celu realizacji obowiązku, o którym mowa w ust.
+           5, ustala zakres, w jakim wytwarzane przez niego ciepło jest pobierane
+           przez tych odbiorców chronionych na podstawie informacji przekazanych
+           przez przedsiębiorstwo energetyczne zajmujące się przesyłaniem lub
+           dystrybucją ciepła w danej sieci ciepłowniczej, dostarczające ciepło do tych
+           odbiorców.
+                    5b. Przedsiębiorstwo energetyczne zajmujące się przesyłaniem lub
+           dystrybucją ciepła w danej sieci ciepłowniczej, dostarczające ciepło do
+           odbiorców chronionych, na żądanie odbiorcy chronionego, o którym mowa
+           w art. 2 ust. 1 pkt 22a lit. d, przekazuje informacje o zakresie, w jakim
+           wytwarzane przez tego odbiorcę ciepło jest dostarczane do odbiorców
+           chronionych.
+                    5c. Odbiorcy, z wyłączeniem odbiorców paliw gazowych w
+           gospodarstwach domowych w rozumieniu art. 3 pkt 13b ustawy z dnia 10
+           kwietnia 1997 r. – Prawo energetyczne, niezwłocznie po zawarciu lub
+           zmianie umowy sprzedaży lub umowy kompleksowej w rozumieniu
+           odpowiednio art. 5 ust. 2 pkt 1 i ust. 3 tej ustawy, składają przedsiębiorstwu
+           wykonującemu działalność gospodarczą w zakresie obrotu gazem ziemnym
+           dostarczającemu do danego odbiorcy gaz ziemny na podstawie tej umowy,
+           zgodnie ze wzorem określonym w przepisach wydanych na podstawie art.
+           60a ust. 1, oświadczenie o uzyskaniu lub utracie statusu odbiorcy
+Liczba stron : 25     Data : 2025-07-08   Nazwa pliku : V4_1181-6.NK                  14
+X kadencja/druk1239
+
+           chronionego wraz ze wskazaniem adresu poczty elektronicznej do kontaktu,
+           jeżeli posiadają. W przypadku braku adresu poczty elektronicznej, odbiorca
+           oraz przedsiębiorstwo, o których mowa w zdaniu pierwszym, wzajemnie
+           uzgadniają inną dostępną formę kontaktu.
+                    5d. Oświadczenie, o którym mowa w ust. 5c, składa się pod rygorem
+           odpowiedzialności karnej za składanie fałszywych oświadczeń i zawiera się
+           w nim klauzulę następującej treści: „Jestem świadomy odpowiedzialności
+           karnej za złożenie fałszywego oświadczenia wynikającej z art. 233 § 6
+           ustawy z dnia 6 czerwca 1997 r. – Kodeks karny.”. Klauzula ta zastępuje
+           pouczenie organu o odpowiedzialności karnej za składanie fałszywych
+           oświadczeń.
+                    5e. Odbiorca przyłączony do sieci gazowej, dokonujący zakupu gazu
+           ziemnego bez udziału przedsiębiorstwa wykonującego działalność
+           gospodarczą       w zakresie    obrotu   paliwami      gazowymi,   przekazuje
+           oświadczenie, o którym mowa w ust. 5c, operatorowi systemu gazowego,
+           do którego sieci jest przyłączony.
+                    5f. Odbiorca, który nie złoży oświadczenia, o którym mowa w ust. 5c,
+           podlega ograniczeniom.
+                    5g. Przedsiębiorstwo, o którym mowa w ust. 5c, przekazuje informację
+           o statusie odbiorcy, który złożył oświadczenie, o którym mowa w tym
+           przepisie,     w sposób    wzajemnie     uzgodniony,    operatorowi   systemu
+           gazowego, do którego sieci gazowej jest przyłączony dany odbiorca
+           składający oświadczenie, nie później niż do dnia 31 lipca każdego roku.”,
+     e)    ust. 6 otrzymuje brzmienie:
+                    „6. Operator, o którym mowa w ust. 1, weryfikuje informacje podane
+           przez odbiorców, dotyczące minimalnych ilości gazu ziemnego, których
+           pobór nie powoduje zagrożenia bezpieczeństwa osób oraz uszkodzenia lub
+           zniszczenia obiektów technologicznych, porównując te informacje z
+           danymi historycznymi zarejestrowanymi przez tego operatora.”,
+     f)    po ust. 6 dodaje się ust. 6a i 6b w brzmieniu:
+                    „6a. W przypadku gdy podane przez odbiorców minimalne ilości
+           poboru gazu ziemnego, o których mowa w ust. 5 pkt 1 lit. a, przekraczają
+           ilości wskazane na podstawie danych historycznych zarejestrowanych przez
+Liczba stron : 25     Data : 2025-07-08   Nazwa pliku : V4_1181-6.NK               15
+X kadencja/druk1239
+
+           operatora, o którym mowa w ust. 1, operator ten przyjmuje minimalne ilości
+           poboru gazu ziemnego, których pobór nie powoduje zagrożenia
+           bezpieczeństwa osób oraz uszkodzenia lub zniszczenia obiektów
+           technologicznych, wynikające z danych historycznych.
+                    6b. W sprawach spornych dotyczących ustaleń minimalnej ilości
+           poboru gazu ziemnego, o której mowa w ust. 6a, rozstrzyga Prezes URE, w
+           drodze decyzji, na wniosek odbiorcy złożony w terminie 7 dni od dnia
+           otrzymania przez odbiorcę informacji o ustalonej dla niego minimalnej
+           ilości poboru gazu ziemnego.”,
+     g)    uchyla się ust. 7–15,
+     h)    ust. 16–18 otrzymują brzmienie:
+                    „16. Operator systemu dystrybucyjnego gazowego, na wniosek
+           operatora systemu przesyłowego gazowego lub operatora systemu
+           połączonego gazowego lub ministra właściwego do spraw gospodarki
+           surowcami energetycznymi, przekazuje dane dotyczące dobowych ilości
+           poboru gazu ziemnego przez odbiorców objętych planami wprowadzania
+           ograniczeń do 10. dnia każdego miesiąca za miesiąc poprzedni.
+                    17. Operator, o którym mowa w ust. 1, corocznie opracowuje plan
+           wprowadzania ograniczeń i przedkłada go Prezesowi URE, do dnia 15
+           listopada danego roku. Prezes URE zatwierdza plan wprowadzania
+           ograniczeń w drodze decyzji.
+                    18. Operator systemu dystrybucyjnego gazowego niezwłocznie
+           przekazuje operatorowi systemu przesyłowego gazowego lub operatorowi
+           systemu połączonego gazowego oraz ministrowi właściwemu do spraw
+           gospodarki surowcami energetycznymi zatwierdzone plany wprowadzania
+           ograniczeń wraz z informacją o zapotrzebowaniu odbiorców chronionych
+           na gaz ziemny.”;
+19) w art. 59:
+     a)    w ust. 1:
+           –   wprowadzenie do wyliczenia otrzymuje brzmienie:
+               „W okresie obowiązywania ograniczeń operator systemu przesyłowego
+               gazowego lub operator systemu połączonego gazowego:”,
+           –   pkt 2 otrzymuje brzmienie:
+Liczba stron : 25     Data : 2025-07-08     Nazwa pliku : V4_1181-6.NK                   16
+X kadencja/druk1239
+
+               „2) koordynuje             działania      przedsiębiorstw    energetycznych
+                       wykonujących działalność gospodarczą w zakresie obrotu gazem
+                       ziemnym, innych operatorów systemów gazowych, operatorów
+                       systemów magazynowania oraz operatorów systemów skraplania
+                       gazu ziemnego, w celu zapewnienia bezpieczeństwa systemu
+                       gazowego i realizacji wprowadzonych ograniczeń;”,
+     b)    po ust. 1 dodaje się ust. 1a w brzmieniu:
+                    „1a. Ograniczenia są realizowane przez odbiorców stosownie do
+           komunikatów operatora systemu przesyłowego gazowego lub operatora
+           systemu połączonego gazowego o obowiązujących stopniach zasilania.”,
+     c)    ust. 2 otrzymuje brzmienie:
+                    „2. W okresie obowiązywania ograniczeń operator systemu
+           dystrybucyjnego gazowego przekazuje operatorowi systemu przesyłowego
+           gazowego lub operatorowi systemu połączonego gazowego, do godziny
+           10.00 każdej doby, dane dotyczące dobowych ilości poboru gazu ziemnego
+           przez odbiorców objętych planami wprowadzania ograniczeń, za
+           poprzednią dobę.”;
+20) w art. 60 dotychczasową treść oznacza się jako ust. 1 i dodaje się ust. 2 w
+     brzmieniu:
+           „2. Po zakończeniu miesiąca gazowego, w którym wprowadzono
+     ograniczenia, operator systemu przesyłowego gazowego lub operator systemu
+     połączonego gazowego oraz operator systemu dystrybucyjnego gazowego
+     przekazuje       Prezesowi    URE,       na      podstawie   zarejestrowanych   danych
+     pomiarowych, informacje dotyczące dostosowania się przez odbiorców do
+     wprowadzonych ograniczeń. Operator systemu dystrybucyjnego gazowego
+     przekazuje te informacje również operatorowi systemu przesyłowego gazowego
+     lub operatorowi systemu połączonego gazowego, do którego sieci jest
+     przyłączony.”;
+21) po art. 60 dodaje się art. 60a w brzmieniu:
+           „Art. 60a. 1. Rada Ministrów określi, w drodze rozporządzenia:
+     1)    sposób wprowadzania ograniczeń,
+     2)    wzór oświadczenia o uzyskaniu lub utracie statusu odbiorcy chronionego,
+     3)    sposób określania wielkości ograniczeń,
+Liczba stron : 25   Data : 2025-07-08     Nazwa pliku : V4_1181-6.NK                       17
+X kadencja/druk1239
+
+     4)    sposób wyznaczania minimalnej godzinowej i dobowej ilości gazu
+           ziemnego pobieranej przez odbiorcę w punkcie wyjścia z systemu
+           gazowego, niepowodującej zagrożenia osób ani uszkodzenia lub
+           zniszczenia obiektów technologicznych,
+     5)    szczegółowy zakres planów wprowadzania ograniczeń, o których mowa
+           w art. 58 ust. 1,
+     6)    sposób podawania do publicznej wiadomości informacji o ograniczeniach
+     – uwzględniając konieczność zapewnienia dostaw gazu ziemnego do odbiorców,
+     w szczególności odbiorców chronionych, oraz wpływ ograniczeń na krajowy
+     rynek gazu ziemnego, krajowy rynek energii elektrycznej, rynek wewnętrzny
+     gazu ziemnego Unii Europejskiej i na odbiorców końcowych gazu ziemnego
+     objętych ograniczeniami.
+           2. Minister właściwy do spraw gospodarki surowcami energetycznymi
+     informuje niezwłocznie Komisję Europejską o przepisach wydanych na
+     podstawie ust. 1.”;
+22) w art. 63:
+     a)    w ust. 1:
+           –   pkt 11 otrzymuje brzmienie:
+               „11) nie stosuje się, w okresie obowiązywania przepisów wydanych na
+                       podstawie art. 56 ust. 1, do wyznaczonej zgodnie z art. 59 ust. 1a
+                       maksymalnej dobowej lub godzinowej ilości poboru gazu
+                       ziemnego określonej w planie wprowadzania ograniczeń
+                       wynikającej z obowiązującego stopnia zasilania;”,
+           –   pkt 21 otrzymuje brzmienie:
+               „21) będąc       przedsiębiorstwem      energetycznym,     nie    przestrzega
+                       obowiązków określonych w art. 5 ust. 4, art. 7 ust. 6 oraz art. 14
+                       ust. 1, ust. 6 lit. a i b oraz ust. 7 rozporządzenia 2017/1938;”,
+           –   dodaje się pkt 22 i 23 w brzmieniu:
+               „22) nie przedkłada do zatwierdzenia planu wprowadzania ograniczeń,
+                       w terminie, o którym mowa w art. 58 ust. 17;
+               23) nie przekazuje informacji, o której mowa w art. 58 ust. 3 lub 5g.”,
+     b)    po ust. 6a dodaje się ust. 6aa i 6ab w brzmieniu:
+Liczba stron : 25     Data : 2025-07-08   Nazwa pliku : V4_1181-6.NK                 18
+X kadencja/druk1239
+
+                    „6aa. W przypadkach, o których mowa w ust. 1 pkt 22 i 23, kara
+           pieniężna nie może być niższa niż 10 000 zł i wyższa niż 15 % przychodu
+           ukaranego przedsiębiorcy osiągniętego w poprzednim roku podatkowym,
+           wynikającego z działalności koncesjonowanej w zakresie przesyłania lub
+           dystrybucji gazu ziemnego lub obrotu gazem ziemnym.
+                    6ab. W przypadkach, o których mowa w ust. 1 pkt 8–10, 18b i 21–23,
+           gdy ukarany podmiot w roku poprzedzającym rok wymierzenia kary
+           pieniężnej nie osiągnął przychodu lub nie dysponuje danymi finansowymi
+           niezbędnymi do ustalenia przychodu za ten rok lub danych takich nie
+           przedstawił, właściwy organ, wymierzając karę pieniężną, uwzględnia
+           ostatni ustalony przychód osiągnięty przez ten podmiot, a jeżeli kara
+           pieniężna jest związana z działalnością prowadzoną na podstawie koncesji
+           – ostatni ustalony przychód z działalności koncesjonowanej.”,
+     c)    dodaje się ust. 18 w brzmieniu:
+                    „18. W przypadku gdy Prezes Agencji nie przeprowadził kontroli, o
+           której mowa w art. 29, dniem stwierdzenia niedopełnienia obowiązku, o
+           którym mowa w ust. 1 pkt 1, jest dzień złożenia Prezesowi Agencji
+           deklaracji, o której mowa w art. 22 ust. 1, z której wynika, że producent lub
+           handlowiec nie dopełnił obowiązku tworzenia i utrzymywania zapasów
+           obowiązkowych w przewidzianym terminie lub wymaganej ilości.”;
+23) w art. 64 w ust. 1 w pkt 1 wyrazy „oraz pkt 19 i 19b” zastępuje się wyrazami
+     „oraz pkt 19, 19b, 22 i 23”;
+24) w art. 66 po ust. 6 dodaje się ust. 6a w brzmieniu:
+           „6a. Kary pieniężne, o których mowa w art. 64 ust. 1 pkt 1, płatne są na
+     rachunek bankowy Urzędu Regulacji Energetyki.”;
+25) w art. 70c:
+     a)    po ust. 1a dodaje się ust. 1b w brzmieniu:
+                    „1b. W terminie do dnia 30 września każdego roku, w odniesieniu do
+           okresu, o którym mowa w ust. 2 pkt 5, przedsiębiorstwo energetyczne
+           wykonujące działalność gospodarczą w zakresie obrotu gazem ziemnym z
+           zagranicą i podmiot dokonujący przywozu gazu ziemnego, z wyjątkiem
+           przedsiębiorstw lub podmiotów, które zleciły w całości utrzymywanie
+           zapasów obowiązkowych gazu ziemnego innemu podmiotowi na podstawie
+Liczba stron : 25     Data : 2025-07-08      Nazwa pliku : V4_1181-6.NK               19
+X kadencja/druk1239
+
+           art. 24b, mogą zlecić Agencji, na podstawie umowy, wykonywanie zadań w
+           zakresie utrzymywania zapasów obowiązkowych gazu ziemnego. Przepisy
+           art. 24b ust. 1a–5 i 9–11 stosuje się odpowiednio.”,
+     b)    w ust. 2 w pkt 4 kropkę zastępuje się średnikiem i dodaje się pkt 5 w
+           brzmieniu:
+           „5) od dnia 1 października każdego roku do dnia 30 września każdego
+                    następnego roku – w terminie do dnia 1 września każdego roku, a
+                    umowa powinna zostać zawarta do dnia 28 września tego roku.”,
+     c)    w ust. 6 wyrazy „ust. 1 i 1a” zastępuje się wyrazami „ust. 1–1b”.
+
+     Art. 2. W ustawie z dnia 10 kwietnia 1997 r. – Prawo energetyczne (Dz. U. z
+2024 r. poz. 266, 834, 859, 1847 i 1881 oraz z 2025 r. poz. 303) wprowadza się
+następujące zmiany:
+1)   odnośnik nr 1 do tytułu ustawy otrzymuje brzmienie:
+     „1) Niniejsza ustawa:
+          1) w zakresie swojej regulacji wdraża:
+              a) dyrektywę Parlamentu Europejskiego i Rady 2009/31/WE z dnia 23
+                     kwietnia 2009 r. w sprawie geologicznego składowania dwutlenku
+                     węgla oraz zmieniającą dyrektywę Rady 85/337/EWG, dyrektywy
+                     Parlamentu Europejskiego i Rady 2000/60/WE, 2001/80/WE,
+                     2004/35/WE, 2006/12/WE, 2008/1/WE i rozporządzenie (WE) nr
+                     1013/2006 (Dz. Urz. UE L 140 z 05.06.2009, str. 114, Dz. Urz. UE
+                     L 26 z 28.01.2012, str. 1, Dz. Urz. UE L 140 z 30.05.2012, str. 74,
+                     Dz. Urz. UE L 150 z 14.06.2018, str. 155 oraz Dz. Urz. UE L 328 z
+                     21.12.2018, str. 1),
+              b) dyrektywę Parlamentu Europejskiego i Rady 2009/73/WE z dnia 13
+                     lipca 2009 r. dotyczącą wspólnych zasad rynku wewnętrznego gazu
+                     ziemnego i uchylającą dyrektywę 2003/55/WE (Dz. Urz. UE L 211
+                     z 14.08.2009, str. 94, Dz. Urz. UE L 328 z 21.12.2018, str. 1, Dz.
+                     Urz. UE L 117 z 03.05.2019, str. 1 oraz Dz. Urz. UE L 152 z
+                     03.06.2022, str. 45),
+              c) dyrektywę Parlamentu Europejskiego i Rady 2012/27/UE z dnia
+                     25 października 2012 r. w sprawie efektywności energetycznej,
+                     zmiany dyrektyw 2009/125/WE i 2010/30/UE oraz uchylenia
+Liczba stron : 25   Data : 2025-07-08   Nazwa pliku : V4_1181-6.NK                    20
+X kadencja/druk1239
+
+                    dyrektyw 2004/8/WE i 2006/32/WE (Dz. Urz. UE L 315 z
+                    14.11.2012, str. 1, Dz. Urz. UE L 113 z 25.04.2013, str. 24, Dz. Urz.
+                    UE L 141 z 28.05.2013, str. 28, Dz. Urz. UE L 156 z 19.06.2018,
+                    str. 75, Dz. Urz. UE L 328 z 21.12.2018, str. 1 i 210, Dz. Urz. UE L
+                    85 I z 27.03.2019, str. 66, Dz. Urz. UE L 137 z 23.05.2019, str. 3,
+                    Dz. Urz. UE L 158 z 14.06.2019, str. 125, Dz. Urz. UE L 101
+                    z 14.04.2023, str. 16 oraz Dz. Urz. UE L 178 z 13.07.2023, str. 10),
+              d) dyrektywę Parlamentu Europejskiego i Rady (UE) 2018/2001 z dnia
+                    11 grudnia 2018 r. w sprawie promowania stosowania energii ze
+                    źródeł odnawialnych (Dz. Urz. UE L 328 z 21.12.2018, str. 82, Dz.
+                    Urz. UE L 311 z 25.09.2020, str. 11, Dz. Urz. UE L 41 z 22.02.2022,
+                    str. 37 oraz Dz. Urz. UE L 139 z 18.05.2022, str. 1, Dz. Urz. UE L
+                    2023/2413 z 31.10.2023, Dz. Urz. UE L 2024/1405 z 17.05.2024
+                    oraz Dz. Urz. UE L 2024/1711 z 26.06.2024),
+              e) dyrektywę Parlamentu Europejskiego i Rady (UE) 2019/944 z dnia
+                    5 czerwca 2019 r. w sprawie wspólnych zasad rynku wewnętrznego
+                    energii elektrycznej oraz zmieniającą dyrektywę 2012/27/UE (Dz.
+                    Urz. UE L 158 z 14.06.2019, str. 125, Dz. Urz. UE L 152 z
+                    03.06.2022, str. 45, Dz. Urz. UE L 178 z 13.07.2023, str. 10 oraz Dz.
+                    Urz. UE L 2024/1711 z 26.06.2024);
+          2) służy stosowaniu:
+              a) rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 715/2009
+                    z dnia 13 lipca 2009 r. w sprawie warunków dostępu do sieci
+                    przesyłowych gazu ziemnego i uchylającego rozporządzenie (WE)
+                    nr 1775/2005 (Dz. Urz. UE L 211 z 14.08.2009, str. 36, Dz. Urz. UE
+                    L 229 z 01.09.2009, str. 29, Dz. Urz. UE L 309 z 24.11.2009, str. 87,
+                    Dz. Urz. UE L 293 z 11.11.2010, str. 67, Dz. Urz. UE L 231 z
+                    28.08.2012, str. 16, Dz. Urz. UE L 115 z 25.04.2013, str. 39, Dz.
+                    Urz. UE L 114 z 05.05.2015, str. 9, Dz. Urz. UE L 328 z 21.12.2018,
+                    str. 1, Dz. Urz. UE L 152 z 03.06.2022, str. 45 oraz Dz. Urz. UE L
+                    173 z 30.06.2022, str. 17),
+              b) rozporządzenia Parlamentu Europejskiego i Rady (UE) nr
+                    1227/2011 z dnia 25 października 2011 r. w sprawie integralności i
+Liczba stron : 25   Data : 2025-07-08    Nazwa pliku : V4_1181-6.NK                   21
+X kadencja/druk1239
+
+                    przejrzystości hurtowego rynku energii (Dz. Urz. UE L 326 z
+                    08.12.2011, str. 1, Dz. Urz. UE L 2024/1106 z 17.04.2024 oraz Dz.
+                    Urz. UE L 2024/1789 z 15.07.2024),
+              c) rozporządzenia Komisji (UE) 2015/1222 z dnia 24 lipca 2015 r.
+                    ustanawiającego      wytyczne    dotyczące     alokacji    zdolności
+                    przesyłowych i zarządzania ograniczeniami przesyłowymi (Dz. Urz.
+                    UE L 197 z 25.07.2015, str. 24, Dz. Urz. UE L 151 z 08.06.2016,
+                    str. 21, Dz. Urz. UE L 2 z 05.01.2018, str. 15 oraz Dz. Urz. UE L 62
+                    z 23.02.2021, str. 24),
+              d) rozporządzenia Komisji (UE) 2016/631 z dnia 14 kwietnia 2016 r.
+                    ustanawiającego kodeks sieci dotyczący wymogów w zakresie
+                    przyłączenia jednostek wytwórczych do sieci (Dz. Urz. UE L 112 z
+                    27.04.2016, str. 1, Dz. Urz. UE L 118 z 06.05.2019, str. 10 oraz Dz.
+                    Urz. UE L 2024/90110 z 20.02.2024),
+              e) rozporządzenia Komisji (UE) 2016/1388 z dnia 17 sierpnia 2016 r.
+                    ustanawiającego kodeks sieci dotyczący przyłączenia odbioru (Dz.
+                    Urz. UE L 223 z 18.08.2016, str. 10 oraz Dz. Urz. UE L 2024/90113
+                    z 20.02.2024),
+              f) rozporządzenia Komisji (UE) 2016/1447 z dnia 26 sierpnia 2016 r.
+                    ustanawiającego kodeks sieci określający wymogi dotyczące
+                    przyłączenia do sieci systemów wysokiego napięcia prądu stałego
+                    oraz modułów parku energii z podłączeniem prądu stałego (Dz. Urz.
+                    UE L 241 z 08.09.2016, str. 1 oraz Dz. Urz. UE L 2024/90109 z
+                    20.02.2024),
+              g) rozporządzenia Parlamentu Europejskiego i Rady (UE) 2017/1938 z
+                    dnia 25 października 2017 r. dotyczącego środków zapewniających
+                    bezpieczeństwo      dostaw    gazu    ziemnego     i   uchylającego
+                    rozporządzenie (UE) nr 994/2010 (Dz. Urz. UE L 280 z 28.10.2017,
+                    str. 1, Dz. Urz. UE L 104 z 01.04.2022, str. 53, Dz. Urz. UE L 173 z
+                    30.06.2022, str. 17, Dz. Urz. UE L 245 z 22.09.2022, str. 70 oraz Dz.
+                    Urz. UE L 2024/1789 z 15.07.2024),
+              h) rozporządzenia Komisji (UE) 2017/2195 z dnia 23 listopada 2017 r.
+                    ustanawiającego wytyczne dotyczące bilansowania (Dz. Urz. UE L
+Liczba stron : 25     Data : 2025-07-08     Nazwa pliku : V4_1181-6.NK                           22
+X kadencja/druk1239
+
+                     312 z 28.11.2017, str. 6, Dz. Urz. UE L 62 z 23.02.2021, str. 24 oraz
+                     Dz. Urz. UE L 147 z 30.05.2022, str. 27),
+                i)   rozporządzenia Parlamentu Europejskiego i Rady (UE) 2019/943 z
+                     dnia 5 czerwca 2019 r. w sprawie rynku wewnętrznego energii
+                     elektrycznej (Dz. Urz. UE L 158 z 14.06.2019, str. 54, Dz. Urz. UE
+                     L 152 z 03.06.2022, str. 45 oraz Dz. Urz. UE L 2024/1747 z
+                     26.06.2024).”;
+2)     po art. 6g dodaje się art. 6h w brzmieniu:
+             „Art. 6h. 1. W przypadku gdy jest to technicznie wykonalne, uzasadnione
+       ekonomicznie i może skutkować oszczędnością paliw gazowych, operator
+       systemu dystrybucyjnego gazowego instaluje liczniki wskazujące rzeczywiste
+       zużycie paliw gazowych przez danego odbiorcę końcowego i rzeczywisty czas
+       korzystania z paliw gazowych przez tego odbiorcę, w przypadku instalacji
+       liczników     w    nowym      budynku      lub    planowanej     wymiany          liczników,
+       w szczególności wynikającej z remontu przeprowadzanego w miejscu ich
+       zainstalowania.
+             2. Administratorem danych osobowych pozyskiwanych z liczników,
+       o których mowa w ust. 1, jest operator systemu dystrybucyjnego gazowego oraz
+       sprzedawca paliw gazowych, którzy zapewniają ich przetwarzanie zgodnie
+       z rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia
+       27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku
+       z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich
+       danych oraz uchylenia dyrektywy 95/46/WE (Dz. Urz. UE L 119 z 04.05.2016,
+       str. 1, z późn. zm.6)), zwanym dalej „rozporządzeniem 2016/679”.
+             3. Dane, o których mowa w ust. 1, mogą być przetwarzane przez podmioty,
+       o których mowa w ust. 2, wyłącznie w celu:
+       1)    zawarcia,     wykonywania,        zmiany      lub    ustalenia     treści     umowy
+             z użytkownikiem systemu gazowego w zakresie dostarczania paliw
+             gazowych;
+       2)    dokonywania rozliczeń za sprzedaży paliw gazowych lub usługi dystrybucji
+             paliw gazowych;
+
+
+6)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 127 z 23.05.2018, str. 2
+     oraz Dz. Urz. UE L 74 z 04.03.2021, str. 35.
+Liczba stron : 25   Data : 2025-07-08   Nazwa pliku : V4_1181-6.NK                23
+X kadencja/druk1239
+
+     3)    zapewnienia bezpieczeństwa pracy systemu gazowego;
+     4)    wykrywania nieprawidłowości w poborze paliw gazowych;
+     5)    analiz statystycznych;
+     6)    ustalania istnienia roszczeń, dochodzenia roszczeń lub obrony przed
+           roszczeniami;
+     7)    rozliczeń podmiotów odpowiedzialnych za bilansowanie;
+     8)    realizacji innych obowiązków wynikających z przepisów odrębnych.
+           4. Przetwarzanie danych, o których mowa w ust. 1, w celu analiz
+     statystycznych, o których mowa w ust. 3 pkt 5, odbywa się wyłącznie na danych
+     zanonimizowanych.
+           5. Podmioty, o których mowa w ust. 2, mogą, w celu oszczędności paliw
+     gazowych, podejmować decyzje, opierając się wyłącznie na zautomatyzowanym
+     przetwarzaniu, w tym profilowaniu, danych osobowych pod warunkiem
+     zapewnienia odbiorcy końcowemu, którego dotyczy decyzja podejmowana
+     w sposób zautomatyzowany, prawa do otrzymania stosownych wyjaśnień co do
+     podstaw podjętej decyzji, do uzyskania interwencji ludzkiej w celu podjęcia
+     ponownej decyzji oraz do wyrażenia własnego stanowiska.”;
+3)   w art. 9c w ust. 2 pkt 20 otrzymuje brzmienie:
+     „20) zarządzanie danymi, w tym rozwijanie systemów zarządzania danymi w
+           zakresie wykonywania zadań określonych w przepisach prawa, z
+           zapewnieniem cyberbezpieczeństwa i ochrony danych, zgodnie z ustawą z
+           dnia 5 lipca 2018 r. o krajowym systemie cyberbezpieczeństwa (Dz. U. z
+           2024 r. poz. 1077 i 1222), ustawą z dnia 10 maja 2018 r. o ochronie danych
+           osobowych (Dz. U. z 2019 r. poz. 1781) oraz rozporządzeniem 2016/679;”;
+4)   w art. 11ze w ust. 1 wyrazy „nr 2016/679” zastępuje się wyrazami „2016/679”;
+5)   w art. 43e w ust. 1 wyrazy „do Prezesa Rządowej Agencji Rezerw
+     Strategicznych” zastępuje się wyrazami „Prezesowi URE”;
+6)   po art. 43f dodaje się art. 43f1 w brzmieniu:
+           „Art. 43f1. 1. Portal Platforma Paliwowa jest niedostępny, jeżeli
+     użytkownicy nie mają możliwości złożenia sprawozdań, informacji, deklaracji
+     lub zestawień, o których mowa w art. 43f ust. 1 pkt 1.
+           2. W przypadku stwierdzenia niedostępności portalu, Prezes Rządowej
+     Agencji Rezerw Strategicznych niezwłocznie ogłasza w Biuletynie Informacji
+Liczba stron : 25      Data : 2025-07-08      Nazwa pliku : V4_1181-6.NK                            24
+X kadencja/druk1239
+
+       Publicznej na stronie podmiotowej Rządowej Agencji Rezerw Strategicznych
+       informację o czasie wystąpienia i przyczynie niedostępności.
+              3. Jeżeli niedostępność, o której mowa w ust. 2, będzie trwała w ostatnim
+       dniu terminu, do upływu którego istnieje obowiązek złożenia dokumentów, o
+       których mowa w art. 43f ust. 1 pkt 1, termin na złożenie dokumentów wydłuża
+       się o trzy dni od dnia następującego po przywróceniu dostępności portalu.
+              4. Złożenie dokumentów, o których mowa w art. 43f ust. 1 pkt 1, w terminie
+       określonym w ust. 3 uznaje się za złożenie z zachowaniem terminu.
+              5. Po przywróceniu funkcjonalności portalu, Prezes Rządowej Agencji
+       Rezerw Strategicznych niezwłocznie ogłasza w Biuletynie Informacji Publicznej
+       na stronie podmiotowej Rządowej Agencji Rezerw Strategicznych informację o
+       czasie przywrócenia dostępności portalu.”.
+
+       Art. 3. W ustawie z dnia 8 grudnia 2017 r. o rynku mocy (Dz. U. z 2023 r. poz.
+2131 oraz z 2025 r. poz. 159 i 290) w art. 67 po ust. 7 dodaje się ust. 7a w brzmieniu:
+              „7a. Operator nie może ogłosić testowego okresu przywołania na rynku
+       mocy w stosunku do jednostki rynku mocy, w skład której wchodzi jednostka
+       fizyczna wytwórcza, która została wskazana zgodnie z art. 11 ust. 7
+       rozporządzenia Parlamentu Europejskiego i Rady (UE) 2017/1938 z dnia 25
+       października 2017 r. dotyczącego środków zapewniających bezpieczeństwo
+       dostaw gazu ziemnego i uchylającego rozporządzenie (UE) nr 994/2010 (Dz.
+       Urz. UE L 280 z 28.10.2017, str. 1, z późn. zm.7)) w czasie trwania ograniczeń w
+       poborze gazu ziemnego ogłoszonych zgodnie z art. 56 ustawy z dnia 16 lutego
+       2007 r. o zapasach ropy naftowej, produktów naftowych i gazu ziemnego oraz
+       zasadach postępowania w sytuacjach zagrożenia bezpieczeństwa paliwowego
+       państwa i zakłóceń na rynku naftowym (Dz. U. z 2024 r. poz. 1281 oraz z 2025
+       r. poz. …).”.
+
+       Art. 4. 1. Plany wprowadzania ograniczeń, o których mowa w art. 58 ust. 1
+ustawy zmienianej w art. 1, w brzmieniu dotychczasowym, zatwierdzone prawomocną
+decyzją Prezesa Urzędu Regulacji Energetyki i obowiązujące w dniu wejścia w życie
+niniejszej ustawy pozostają w mocy.
+
+7)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 104 z 01.04.2022, str.
+     53, Dz. Urz. UE L 173 z 30.06.2022, str. 17, Dz. Urz. UE L 245 z 22.09.2022, str. 70 oraz Dz. Urz.
+     UE L 2024/1789 z 15.07.2024.
+Liczba stron : 25   Data : 2025-07-08   Nazwa pliku : V4_1181-6.NK                 25
+X kadencja/druk1239
+
+     2. Operator systemu przesyłowego gazowego lub operator systemu połączonego
+gazowego oraz operator systemu dystrybucyjnego gazowego po raz pierwszy
+opracowuje plan wprowadzania ograniczeń, o którym mowa w art. 58 ust. 1 ustawy
+zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą, i przedkłada go do
+zatwierdzenia Prezesowi Urzędu Regulacji Energetyki w terminie do dnia 15 listopada
+2025 r.
+
+     Art. 5. Odbiorcy, z wyłączeniem odbiorców paliw gazowych w gospodarstwach
+domowych w rozumieniu art. 3 pkt 13b ustawy zmienianej w art. 2, składają po raz
+pierwszy oświadczenia, o których mowa w art. 58 ust. 5c ustawy zmienianej w art. 1,
+w terminie 14 dni od dnia wejścia w życie przepisów wykonawczych wydanych na
+podstawie art. 60a ust. 1 ustawy zmienianej w art. 1.
+
+     Art. 6. Przedsiębiorstwo wykonujące działalność gospodarczą w zakresie
+wydobywania gazu ziemnego ze złóż oraz obrotu paliwami gazowymi, które przed
+dniem wejścia w życie niniejszej ustawy nie było obowiązane do opracowania
+procedur, o których mowa w art. 49 ust. 1 ustawy zmienianej w art. 1, opracowuje te
+procedury po raz pierwszy w terminie do dnia 1 października 2025 r.
+
+     Art. 7. Ilość utrzymywanych zapasów obowiązkowych ropy naftowej lub paliw
+w 2025 r. dostosowuje się w terminie 14 dni od dnia wejścia w życie niniejszej ustawy,
+do poziomu wynikającego z obliczeń wykonanych zgodnie z art. 5 ust. 3b lub 3k
+ustawy zmienianej w art. 1.
+
+     Art. 8. Dotychczasowe przepisy wykonawcze wydane na podstawie art. 55 ust.
+1 ustawy zmienianej w art. 1 zachowują moc do dnia wejścia w życie przepisów
+wykonawczych wydanych na podstawie art. 60a ust. 1 ustawy zmienianej w art. 1,
+jednak nie dłużej niż 36 miesięcy od dnia wejścia w życie niniejszej ustawy, i mogą
+być zmieniane na podstawie przepisów upoważniających w brzmieniu nadanym
+niniejszą ustawą.
+
+     Art. 9. Ustawa wchodzi w życie po upływie 7 dni od dnia ogłoszenia.
+

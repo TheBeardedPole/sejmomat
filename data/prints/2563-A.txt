@@ -1,0 +1,622 @@
+                                                                Druk nr 2563-A
+          SEJM
+RZECZYPOSPOLITEJ POLSKIE J
+           X kadencja
+
+
+
+                        DODATKOWE SPRAWOZDANIE
+                            KOMISJI FINANSÓW PUBLICZNYCH
+
+
+   o poselskim, przedstawionym przez Prezydenta
+   Rzeczypospolitej    Polskiej  i    rządowym
+   projektach ustaw o rynku kryptoaktywów
+   (druki nr 2363, 2528 i 2529) oraz poselskim
+   projekcie ustawy o kryptoaktywach (druk nr
+   2530)
+        Sejm na 57. posiedzeniu w dniu 14 maja 2026 r., zgodnie z art. 47 ust. 1 regulaminu
+   Sejmu, skierował ponownie projekt ustawy zawarty w druku nr 2563 do Komisji Finansów
+   Publicznych w celu rozpatrzenia poprawek zgłoszonych w drugim czytaniu.
+        Komisja    Finansów   Publicznych   po   rozpatrzeniu   poprawek     na   posiedzeniu
+   w dniu 14 maja 2026 r.
+
+        wnosi:
+
+        W y s o k i S e j m raczy następujące poprawki:
+
+
+    1) po art. 16 dodać nowy rozdział … w brzmieniu:
+                                               „Rozdział…
+                                   Dostęp do infrastruktury finansowej.
+        Art. ... 1. Odmowa zawarcia umowy rachunku bankowego albo jej wypowiedzenie wobec
+           podmiotu posiadającego zezwolenie, o którym mowa w art. 59 ust. 1 lit. a
+           rozporządzenia 2023/1114, wymaga sporządzenia pisemnego uzasadnienia.
+              2. Uzasadnienie wskazuje okoliczności związane z oceną ryzyka dotyczącą danego
+                  podmiotu.
+              3. Prowadzenie działalności regulowanej na podstawie rozporządzenia 2023/1114
+                  nie może stanowić samodzielnej przesłanki uznania podmiotu za podwyższone
+                  ryzyko ani podstawy odmowy zawarcia umowy rachunku bankowego albo jej
+                  wypowiedzenia.
+         4. Podmiot, o którym mowa w ust. 1, może dochodzić swoich praw przed sądem
+             właściwym na zasadach ogólnych.
+    Art. ... 1. W zakresie, w jakim rozporządzenie 2023/1114 nakłada na dostawcę usług w
+      zakresie kryptoaktywów obowiązek segregacji środków klientów, bank zapewnia
+      możliwość prowadzenia rachunków lub stosowania rozwiązań organizacyjnych i
+      technicznych umożliwiających wykonanie tego obowiązku.
+         2. Rozwiązania, o których mowa w ust. 1, mogą obejmować w szczególności
+             prowadzenie rachunków technicznych, subrachunków lub rachunków
+             wirtualnych.
+         3. Odmowa zapewnienia możliwości, o której mowa w ust. 1, wymaga pisemnego
+             uzasadnienia.”;
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                              – odrzucić
+
+
+2) po art. 16 dodać art. 16a w brzmieniu:
+    „Art. 16a. 1. Decyzje Europejskiego Urzędu Nadzoru Bankowego nakładające kary
+       pieniężne lub okresowe kary pieniężne na podstawie rozporządzenia 2023/1114
+       podlegają wykonaniu na terytorium Rzeczypospolitej Polskiej w trybie przepisów
+       ustawy z dnia 17 listopada 1964 r. - Kodeks postępowania cywilnego, w zakresie
+       egzekucji świadczeń pieniężnych, na podstawie decyzji EBA wraz z nakazem
+       wykonania, o którym mowa w art. 134 ust. 6 rozporządzenia 2023/1114.
+          2. Klauzulę wykonalności decyzjom, o których mowa w ust. 1, nadaje Sąd Okręgowy
+             w Warszawie. Sąd bada wyłącznie przesłanki formalne nadania klauzuli
+             wykonalności.
+          3. Organem właściwym do weryfikacji autentyczności decyzji EBA, o których mowa
+             w ust. 1, jest Komisja.”;
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                              – odrzucić
+
+
+3) po art. 16a dodać art. 16b w brzmieniu:
+    „Art. 16b. 1. Strona może składać pisma i dokumenty w postępowaniu przed Komisją w
+       sprawach z zakresu rozporządzenia 2023/1114 w języku polskim albo angielskim.
+          2. Pisma i dokumenty złożone w języku angielskim nie wymagają tłumaczenia
+             poświadczonego. Komisja może wezwać do przedłożenia tłumaczenia na język
+             polski, jeżeli jest to niezbędne do rozstrzygnięcia sprawy.
+          3. Rozstrzygnięcia Komisji sporządza się w języku polskim; na wniosek strony
+             Komisja udostępnia wersję angielską o charakterze informacyjnym.”;
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                              – odrzucić
+ 4) skreślić art. 63-65 i w ich miejsce dodać art.... w brzmieniu:
+      „Art.... 1. W przypadku uzasadnionego podejrzenia naruszenia art. 89 ust. 2 lub 3, art. 90
+        ust. 1 lub art. 91 ust. 1 rozporządzenia 2023/1114, Komisja może wystąpić do sądu
+        okręgowego z wnioskiem o nakaz dokonania blokady rachunku kryptoaktywów lub
+        rachunku pieniężnego, o którym mowa w art. 13 ust. 2, na okres niezbędny do
+        zapobieżenia poważnej szkodzie dla interesów posiadaczy kryptoaktywów lub
+        stabilności rynku.
+           2. Sąd, po rozważeniu niezbędności i proporcjonalności środka, wydaje nakaz
+               blokady na okres nieprzekraczający 3 miesięcy; sąd może przedłużyć ten okres
+               jednokrotnie, na wniosek Komisji, na czas niezbędny do wydania decyzji
+               kończącej postępowanie administracyjne.
+      Art. ... 1. W wypadkach niecierpiących zwłoki Przewodniczący Komisji może wydać
+        postanowienie tymczasowe nakazujące dostawcy usług w zakresie kryptoaktywów
+        dokonanie blokady, o której mowa w art. [Z 1], na okres nieprzekraczający 7 dni od
+        dnia jego wydania.
+           2. W terminie 48 godzin od wydania postanowienia tymczasowego Komisja
+               występuje do sądu okręgowego z wnioskiem o wydanie nakazu, o którym mowa
+               w art. [Zl]. W razie niezłożenia wniosku w tym terminie postanowienie
+               tymczasowe wygasa z mocy prawa.
+           3. Na postanowienie tymczasowe Komisji przysługuje zażalenie do sądu
+               okręgowego w terminie 7 dni od dnia doręczenia. Wniesienie zażalenia nie
+               wstrzymuje wykonania postanowienia, chyba że sąd postanowi inaczej.
+           4. Dokonanie blokady na podstawie postanowienia tymczasowego lub nakazu sądu
+               wyłącza odpowiedzialność dostawcy usług w zakresie kryptoaktywów oraz osób
+               działających w jego imieniu, w tym odpowiedzialność dyscyplinarną, cywilną i
+               karną.”;
+
+ – KP Konfederacja Wolność i Niepodległość
+                                                                                    – odrzucić
+Uwaga: Konsekwencją przyjęcia poprawki nr 4 będzie bezprzedmiotowość poprawek nr 5, 6,
+7, 8 i 32.
+
+
+
+ 5) w art. 63:
+     a) po ust. 6 dodać ust. 6a i 6b w brzmieniu:
+           „6a. Odpis żądania, o którym mowa w ust. 1, Komisja niezwłocznie doręcza
+              posiadaczowi rachunku kryptoaktywów lub rachunku pieniężnego, o którym
+              mowa w art. 13 ust. 2.
+           6b. Dostawca usług w zakresie kryptoaktywów niezwłocznie informuje posiadacza
+              rachunku kryptoaktywów lub rachunku pieniężnego, o którym mowa w art. 13
+              ust. 2, o dokonaniu blokady, o której mowa w ust. 1.”,
+     b) skreślić ust. 7,
+     c) ust. 8 nadać brzmienie:
+           „8. Na żądanie, o którym mowa w ust. 1, dostawcy usług w zakresie kryptoaktywów
+              oraz posiadaczowi rachunku kryptoaktywów lub rachunku pieniężnego, o którym
+              mowa w art. 13 ust. 2, służy skarga do sądu administracyjnego w terminie 30 dni
+              od dnia otrzymania odpisu tego żądania.”,
+     d) po ust. 8 dodać ust. 9 w brzmieniu:
+         „9. Sąd administracyjny rozpoznaje skargę, o której mowa w ust. 8, w terminie
+            czternastu dni od dnia jej wniesienia.”;
+
+
+– Prezydent RP
+                                                                                  – odrzucić
+Uwaga: Poprawki nr 5, 6, 7, 8 i 32 należy głosować łącznie.
+Uwaga: Konsekwencją przyjęcia poprawek nr 5, 6, 7, 8 i 32 będzie bezprzedmiotowość
+     poprawki nr 31.
+
+
+
+6) po art. 63 dodać art. 63a w brzmieniu:
+    „Art. 63a. 1. Jeżeli jest to niezbędne do zapewnienia bezpieczeństwa obrotu na platformie
+       obrotu kryptoaktywami lub jest zagrożony interes posiadaczy kryptoaktywów,
+       Przewodniczący Komisji może wystąpić do dostawcy usług w zakresie
+       kryptoaktywów z żądaniem przedłużenia blokady, o której mowa w art. 63 ust. 1, lub
+       z żądaniem wstrzymania określonej transakcji, na czas oznaczony, nie dłuższy niż 3
+       miesiące.
+        2. Wystąpienie przez Przewodniczącego Komisji z żądaniem przedłużenia blokady
+           lub żądaniem wstrzymania określonej transakcji, o których mowa w ust. 1, wymaga
+           uprzedniej zgody sądu administracyjnego.
+        3. Wniosek o wyrażenie zgody przez sąd administracyjny na wystąpienie przez
+           Przewodniczącego Komisji z żądaniem przedłużenia blokady, o której mowa w ust.
+           1 lub z żądaniem wstrzymania określonej transakcji, Przewodniczący Komisji
+           składa do sądu administracyjnego niezwłocznie, ale nie później niż na 48 godzin
+           przed upływem terminu blokady, o której mowa w art. 63 ust. 1.
+        4. Wniosek, o którym mowa w ust. 3, powinien odpowiadać warunkom pisma
+           procesowego, o których mowa w art. 46-47 ustawy z dnia 30 sierpnia 2002 r. -
+           Prawo o postępowaniu przed sądami administracyjnymi (Dz. U. z 2026 r. poz. 143),
+           a ponadto zawierać określenie czasu przedłużenia blokady lub wstrzymania
+           określonej transakcji oraz przedstawienie faktów i dowodów co do zaistnienia
+           okoliczności uzasadniających przedłużenie blokady lub wstrzymania określonej
+           transakcji, o których mowa w ust. 1.
+        5. Sąd administracyjny rozpoznaje wniosek, o którym mowa w ust. 4, na posiedzeniu
+           niejawnym, niezwłocznie, nie później niż w ciągu 24 godzin od jego wniesienia.
+        6. Na postanowienie sądu administracyjnego o odmowie wyrażenia zgody na
+           wystąpienie przez Przewodniczącego Komisji z żądaniem przedłużenia blokady, o
+           której mowa w art. 63 ust. 1 lub wstrzymania określonej transakcji, nie przysługuje
+           zażalenie.
+        7. W przypadku wydania przez sąd administracyjny postanowienia o wyrażeniu zgody
+           na wystąpienie przez Przewodniczącego Komisji z żądaniem przedłużenia blokady,
+           o której mowa w art. 63 ust. 1 lub wstrzymania określonej transakcji, przepisy art.
+           63 ust. 2-9 stosuje się odpowiednio.”;
+
+
+– Prezydent RP
+                                                                                  – odrzucić
+7) art. 64 nadać brzmienie:
+     „Art. 64. 1. Niezwłocznie po wystąpieniu z żądaniem, o którym mowa w art. 63 ust. 1,
+         ale nie później niż 24 godziny do tego wystąpienia, Przewodniczący Komisji wydaje
+         postanowienie o wszczęciu postępowania administracyjnego w sprawie naruszenia
+         przepisów art. 89 ust. 2 lub 3, art. 90 ust. 1 lub art. 91 ust. 1 rozporządzenia 2023/1114.
+         2. Komisja wydaje decyzję kończącą postępowanie w sprawie naruszenia przepisów
+            art. 89 ust. 2 lub 3, art. 90 ust. 1 lub art. 91 ust. 1 rozporządzenia 2023/1114 albo o
+            umorzeniu postępowania w sprawie naruszenia tych przepisów niezwłocznie, ale
+            nie później niż w terminie 14 dni od dnia wszczęcia postępowania.
+         3. Blokada, o której mowa w art. 63 ust. 1 i art. 63a ust. 1, oraz wstrzymanie określonej
+            transakcji, o którym mowa w art. 63a ust. 1, ustaje z dniem wydania przez Komisję
+            decyzji kończącej postępowanie administracyjne w sprawie naruszenia przepisów
+            art. 89 ust. 2 lub 3, art. 90 ust. 1 lub art. 91 ust. 1 rozporządzenia 2023/1114 albo
+            umorzenia postępowania w sprawie naruszenia tych przepisów. Komisja
+            niezwłocznie powiadamia dostawcę usług w zakresie kryptoaktywów oraz
+            posiadacza rachunku kryptoaktywów lub rachunku pieniężnego, o którym mowa w
+            art. 13 ust. 2, o wydaniu decyzji, o której mowa w zdaniu pierwszym.”;
+
+
+– Prezydent RP
+                                                                                        – odrzucić
+
+
+
+8) skreślić art. 65;
+
+
+– Prezydent RP
+                                                                                        – odrzucić
+
+
+
+9) po art. 65 dodać art. 65a w brzmieniu:
+    „Art. 65a. W przypadku gdy rachunek kryptoaktywów lub rachunek pieniężny, o którym
+       mowa w art. 13 ust. 2, został zablokowany z naruszeniem prawa lub wstrzymanie
+       określonej transakcji nastąpiło z naruszeniem prawa, odpowiedzialność za szkodę
+       wynikłą z dokonania blokady lub wstrzymania określonej transakcji ponosi Skarb
+       Państwa na zasadach określonych w ustawie z dnia 23 kwietnia 1964 r. - Kodeks
+       cywilny.”;
+
+
+– Prezydent RP
+                                                                                        – odrzucić
+10) art. 67 nadać brzmienie:
+    „Art. 67. Do Rejestru wpisuje się domenę internetową wykorzystywaną do prowadzenia
+        działalności w zakresie kryptoaktywów bez wymaganego prawem zezwolenia albo
+        posiadania innego uprawnienia na podstawie przepisów rozporządzenia 2023/1114.”;
+
+
+– Prezydent RP
+                                                                             – odrzucić
+Uwaga: Poprawki nr 10, 12, 13, 15, 16, 17, 18 i 27 należy głosować łącznie.
+Uwaga: Konsekwencją przyjęcia poprawek nr 10, 12, 13, 15, 16, 17, 18 i 27 będzie
+       bezprzedmiotowość poprawek nr 11, 14 i 26.
+
+
+
+
+11) w art. 67 dotychczasową treść oznaczyć jako ust. 1 i dodać ust. 2 i 3 w brzmieniu:
+    „2. Dokonanie wpisu domeny internetowej do Rejestru na podstawie ust. 1 pkt 2,
+       skutkujące zastosowaniem środków, o których mowa w art. 70 ust. 1 i 3, jest
+       dopuszczalne wyłącznie, jeżeli Komisja stwierdzi, że dla zapobieżenia ryzyku
+       wyrządzenia poważnych szkód, o którym mowa w ust. 1 pkt 2, nie jest możliwe
+       osiągnięcie tego celu przez zastosowanie środków mniej dolegliwych przewidzianych
+       w rozporządzeniu 2023/1114 albo w niniejszej ustawie.
+    3. Komisja, przed dokonaniem wpisu, rozważa w szczególności zastosowanie:
+         1) środków tymczasowych wobec dostawcy usług w zakresie kryptoaktywów, w tym
+            środków służących niezwłocznemu ograniczeniu ryzyka dla klientów;
+         2) nakazów zaprzestania naruszeń lub nakazów usunięcia naruszeń, w tym
+            dotyczących określonych czynności lub praktyk;
+         3) ograniczenia lub zakazu świadczenia określonych usług w zakresie
+            kryptoaktywów;
+         4) nałożenia sankcji administracyjnych, w tym kar pieniężnych;
+         5) nakazu publikacji ostrzeżenia skierowanego do klientów lub posiadaczy
+            kryptoaktywów.”;
+
+– KP Polska 2050
+                                                                             – odrzucić
+Uwaga: Poprawki nr 11 i 14 należy głosować łącznie.
+
+
+
+12) w art. 69 wyrazy „o którym mowa w art. 67 ust. 1” zastąpić wyrazami „o którym mowa
+   w art. 67”;
+
+
+– Prezydent RP
+                                                                             – odrzucić
+13) skreślić art. 71;
+
+
+– Prezydent RP
+                                                                                 – odrzucić
+
+
+14) w art. 71:
+    a) po ust. 2 dodać ust. 2a w brzmieniu:
+         „2a. Podmiot, o którym mowa w ust. 1, wnosząc sprzeciw, może także złożyć
+            wniosek o uzasadnienie, jakie środki, o których mowa w art. 67 ust. 3, zostały
+            zastosowane albo rozważone, albo uzasadnienie, dlaczego środki te byłyby
+            nieskuteczne lub niewystarczające do zapobieżenia ryzyku wyrządzenia
+            poważnych szkód.”,
+    b) dodać ust. 4 w brzmieniu:
+         „4. W uzasadnieniu decyzji, o której mowa w ust. 3, Komisja wskazuje, jakie środki,
+            o których mowa w art. 67 ust. 3, zostały zastosowane albo rozważone, albo
+            wykazuje, dlaczego w danych okolicznościach środki te byłyby nieskuteczne lub
+            niewystarczające do zapobieżenia ryzyku wyrządzenia poważnych szkód. W
+            przypadku odstąpienia od zastosowania środków, o których mowa w art. 67 ust.
+            3, Komisja wskazuje w uzasadnieniu przyczyny, dla których uznała ich
+            zastosowanie za nieskuteczne lub niewystarczające do zapobieżenia ryzyku
+            wyrządzenia poważnych szkód.”;
+
+– KP Polska 2050
+                                                                                 – odrzucić
+
+
+15) skreślić art. 72;
+
+
+– Prezydent RP
+                                                                                 – odrzucić
+
+
+16) w art. 73 skreślić pkt 2;
+
+
+– Prezydent RP
+                                                                                 – odrzucić
+
+
+17) w art. 74 ust. 2 nadać brzmienie:
+    „2. W przypadku usunięcia informacji zamieszczonych na wyodrębnionej stronie
+       internetowej Komisji, o której mowa w art. 6b ust. 4 ustawy z dnia 21 lipca 2006 r. o
+       nadzorze nad rynkiem finansowym, dotyczących podmiotu, w związku z którego
+       działalnością złożono zawiadomienie o podejrzeniu popełnienia przestępstwa
+       określonego w art. 117 i art. 121, rejestr domen i rejestratorzy domen nieodpłatnie
+       przywracają nazwę domeny internetowej oraz nieodpłatnie rejestrują tę nazwę na rzecz
+       podmiotu uprzednio posiadającego do niej tytuł prawny, nie później niż w terminie 2
+       dni roboczych od dnia skierowania do nich żądania przez Komisję”;
+
+
+– Prezydent RP
+                                                                               – odrzucić
+
+
+18) po art. 76 dodać art. 76a w brzmieniu:
+    „Art. 76a. 1. W przypadku domeny internetowej wykorzystywanej do prowadzenia
+       działalności naruszającej przepisy rozporządzenia 2023/1114 w sposób inny niż
+       określony w art. 67, jeżeli jest to niezbędne do zapobieżenia ryzyku wyrządzenia
+       poważnych szkód klientom lub posiadaczom kryptoaktywów-w przypadku braku
+       innych skutecznych środków prowadzących do zaprzestania naruszania przepisów
+       rozporządzenia 2023/1114, Komisja podaje do publicznej wiadomości informacje o
+       wykorzystywaniu domeny do prowadzenia takiej działalności oraz o sposobie i formie
+       prowadzenia działalności naruszającej przepisy rozporządzenia 2023/1114.
+       2. Informacje, o których mowa w ust. 1, podawane są do wiadomości publicznej
+             poprzez zamieszczenie na wyodrębnionej stronie internetowej Komisji, w drodze
+             wpisu, pod nazwą „Lista ostrzeżeń publicznych Komisji Nadzoru Finansowego".
+       3. W przypadku, o którym mowa ust. 2, sprzeciw od wpisu, w terminie 2 miesięcy
+             od dnia dokonania tego wpisu, może wnieść:
+               1) podmiot wykorzystujący nazwę domeny internetowej wpisanej do Rejestru
+                    lub posiadający tytuł prawny do tej domeny;
+               2) dostawca usług hostingowych;
+               3) rejestr domen;
+               4) rejestrator domen;
+               5) przedsiębiorca telekomunikacyjny.
+       4. Sprzeciw zawiera:
+             1) dane identyfikacyjne podmiotu wnoszącego sprzeciw:
+                  a) imię i nazwisko - w przypadku osób fizycznych,
+                  b) firmę (nazwę), adres oraz numer w Krajowym Rejestrze Sądowym - w
+                       przypadku osób prawnych oraz jednostek organizacyjnych
+                       nieposiadających osobowości prawnej;
+             2) uzasadnienie.
+       5. Komisja, w terminie 14 dni od dnia wniesienia sprzeciwu, wydaje decyzję o
+             pozostawieniu wpisu albo o jego wykreśleniu.
+       6. Komisja niezwłocznie usuwa wpis, o którym mowa w ust. 2, po ustaniu podstaw
+             do dokonania wpisu, o których mowa w ust. 1, albo po wydaniu decyzji o jego
+             wykreśleniu w przypadku, o którym mowa w ust. 5.
+       7. W zakresie nieuregulowanym w ust. 1-6 do wpisu stosuje się odpowiednio przepis
+             art. 6c ustawy o nadzorze nad rynkiem finansowym.
+       8. W przypadku opublikowania informacji, o których mowa w ust. 1, na Liście
+             ostrzeżeń publicznych Komisji Nadzoru Finansowego, Przewodniczący Komisji
+             występuje z żądaniem do podmiotu wykorzystującego nazwę domeny
+             internetowej lub posiadającego tytuł prawny do tej domeny o opublikowanie w
+             domenie internetowej komunikatu o fakcie publikacji tych informacji na Liście
+             ostrzeżeń publicznych Komisji Nadzoru Finansowego oraz o ich treści.
+        9. Żądanie, o którym mowa w ust. 8, zawiera datę jego wydania, treść komunikatu
+           podlegającego publikacji, formę i termin jego publikacji oraz uzasadnienie.
+       10. Żądanie, o którym mowa w ust. 8, opatruje się podpisem własnoręcznym albo
+           kwalifikowanym podpisem elektronicznym.
+       11. Na żądanie, o którym mowa w ust. 8, podmiotowi wykorzystującemu nazwę
+           domeny internetowej lub posiadającemu tytuł prawny do tej domeny służy skarga
+           do sądu administracyjnego w terminie 30 dni od dnia otrzymania odpisu tego
+           żądania.
+       12. Obowiązek publikacji komunikatu ustaje w przypadkach, o których mowa w ust.
+           6.”;
+
+– Prezydent RP
+                                                                                     – odrzucić
+
+19) w art. 77 w ust. 1 w pkt 1 lit. a nadać brzmienie:
+    „a) udzielenia zezwolenia, o którym mowa w art. 16 ust. 1 lit. a oraz w art. 59 ust. 1 lit. a
+       rozporządzenia 2023/1114, w wysokości nieprzekraczającej równowartości w złotych:
+         – 1 000 EUR, jeżeli wnioskodawca zamierza świadczyć wyłącznie usługi
+            przyjmowania i przekazywania zleceń lub doradztwa w zakresie kryptoaktywów,
+         – 3 000 EUR, jeżeli wnioskodawca zamierza świadczyć co najmniej jedną z
+            pozostałych usług określonych w tytule V rozporządzenia 2023/1114, z
+            wyłączeniem prowadzenia platformy obrotu,
+         – 4 500 EUR, jeżeli wnioskodawca zamierza prowadzić platformę obrotu
+            kryptoaktywami;”;
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                                     – odrzucić
+20) w art. 77 skreślić ust. 2;
+
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                                     – odrzucić
+
+
+21) w art. 78 ust. 1 nadać brzmienie:
+    „1. Dostawca usług w zakresie kryptoaktywów wnosi roczną wpłatę na pokrycie kosztów
+       nadzoru nad rynkiem kryptoaktywów, ustalaną jako iloczyn podstawy obliczenia oraz
+       stawki nieprzekraczającej 0,1 %, jednak w wysokości nieprzekraczającej
+       równowartości w złotych kwoty 15 000 EUR rocznie. Podstawą obliczenia opłaty są:
+         1) w przypadku świadczenia usług wymiany kryptoaktywów na środki pieniężne lub
+            inne kryptoaktywa, wynik na operacjach wymiany, stanowiący dodatnią różnicę
+            między przychodami ze sprzedaży kryptoaktywów a wartością sprzedanych
+            kryptoaktywów według cen ich nabycia, wykazany w zatwierdzonym
+            sprawozdaniu finansowym za rok poprzedzający;
+         2) w przypadku świadczenia pozostałych usług, przychody z tytułu opłat i prowizji
+            związanych ze świadczeniem usług w zakresie kryptoaktywów, wykazane w
+            zatwierdzonym sprawozdaniu finansowym za rok poprzedzający
+        – podmioty rozpoczynające działalność w danym roku kalendarzowym oraz
+        podmioty, których podstawa obliczenia opłaty nie przekracza równowartości 100
+        000 EUR, wnoszą opłatę zryczałtowaną w wysokości równowartości 250 EUR.”;
+
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                            – odrzucić
+Uwaga: Konsekwencją przyjęcia poprawki nr 21 będzie bezprzedmiotowość poprawki nr 22.
+
+
+
+22) w art. 78 w ust. 1 wyraz „0,4 %” zastąpić wyrazem „0,l %”;
+
+– Prezydent RP
+                                                                            – odrzucić
+
+23) w art. 79 ust. 1 nadać brzmienie:
+    „1. Emitent tokenów powiązanych z aktywami lub tokenów będących e-pieniądzem
+       wnosi roczną wpłatę na pokrycie kosztów nadzoru nad rynkiem kryptoaktywów, w
+       wysokości stanowiącej iloczyn ustalanej na dzień 1 stycznia danego roku
+       kalendarzowego średniej arytmetycznej sum zobowiązań finansowych z tytułu
+       wyemitowanych tokenów powiązanych z aktywami lub tokenów będących e-
+       pieniądzem, obliczonej na koniec każdego miesiąca kalendarzowego w okresie 12
+       miesięcy kalendarzowych poprzedzających, oraz stawki nieprzekraczającej 0,05 %,
+       jednak w wysokości nieprzekraczającej równowartości w złotych kwoty 25 000 EUR
+       rocznie.”;
+
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                            – odrzucić
+Uwaga: Konsekwencją przyjęcia poprawki nr 23 będzie bezprzedmiotowość poprawki nr 24.
+
+
+
+24) w art. 79 w ust. 1 wyrazy „0,5 %” zastąpić wyrazami „0,1 %”;
+
+
+– KP Polska 2050
+– Prezydent RP
+                                                                            – odrzucić
+
+
+25) w art. 81 dodać ust. 2 w brzmieniu:
+    „2. Wydając rozporządzenie, o którym mowa w ust. 1, Prezes Rady Ministrów uwzględni
+       konieczność zapewnienia, aby wysokość opłat:
+         1) była proporcjonalna do rzeczywistych kosztów sprawowania nadzoru;
+         2) uwzględniała skalę i model działalności podmiotów nadzorowanych;
+         3)      zapewniała niedyskryminujące traktowanie podmiotów krajowych i
+              transgranicznych w rozumieniu przepisów Traktatu o funkcjonowaniu Unii
+              Europejskiej.”;
+
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                              – odrzucić
+
+
+26) skreślić art. 102–110 i w ich miejsce dodać art. … w brzmieniu:
+    „Art. ... 1. W przypadku naruszenia obowiązków wynikających z rozporządzenia
+       2023/1114, Komisja stosuje administracyjne kary i inne środki administracyjne, o
+       których mowa w art. 111 rozporządzenia 2023/1114, wobec:
+                1) osoby fizycznej lub prawnej podlegającej obowiązkom wynikającym z
+                   rozporządzenia 2023/1114;
+                2) członka organu zarządzającego dostawcy usług w zakresie kryptoaktywów,
+                   emitenta tokenów powiązanych z aktywami albo emitenta tokenów
+                   będących pieniądzem elektronicznym oraz innej osoby fizycznej
+                   odpowiedzialnej za naruszenie obowiązków wynikających z rozporządzenia
+                   2023/1114.
+         2. Przy ustalaniu rodzaju i wysokości administracyjnej kary lub środka Komisja
+            uwzględnia okoliczności określone w art. 112 rozporządzenia 2023/1114.
+         3. Komisja podaje do wiadomości publicznej informacje o nałożonych karach i
+            zastosowanych środkach zgodnie z art. 113 rozporządzenia 2023/1114.”;
+
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                              – odrzucić
+
+
+27) po art. 105 dodać art. 105a w brzmieniu:
+    „Art. 105a. W przypadku naruszenia przez podmiot wykorzystujący nazwę domeny
+       internetowej lub posiadającego tytuł prawny do tej domeny obowiązku wykonania
+       żądania Przewodniczącego Komisji, o którym mowa w art. 76a ust. 8, Komisja może
+       nałożyć karę pieniężną do wysokości 1 000 000 zł.”;
+
+– Prezydent RP
+                                                                              – odrzucić
+
+28) skreślić art. 117;
+
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                              – odrzucić
+29) skreślić art. 122;
+
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                              – odrzucić
+30) skreślić art. 123;
+
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                                 – odrzucić
+31) skreślić art. 125;
+
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                                 – odrzucić
+32) w art. 125 wyrazy „art. 63 ust. 7” zastąpić wyrazami „art. 63a ust. 1”;
+
+– Prezydent RP
+                                                                                 – odrzucić
+
+33) skreślić art. 142;
+
+
+– KP Polska 2050
+                                                                                 – odrzucić
+Uwaga: Poprawki nr 33, 34, 35 i 36 należy głosować łącznie.
+
+
+
+34) w art. 146 skreślić pkt 4;
+
+
+– KP Polska 2050
+                                                                                 – odrzucić
+35) w art. 150:
+    a) skreślić pkt 1,
+    b) skreślić pkt 4;
+
+
+– KP Polska 2050
+                                                                                 – odrzucić
+36) skreślić art. 158;
+
+
+– KP Polska 2050
+                                                                                 – odrzucić
+37) w art. 162:
+    a) w ust. 1 wyrazy „nie dłużej jednak niż do dnia 1 lipca 2026 r.” zastąpić wyrazami „nie
+       dłużej jednak niż do dnia 1 lipca 2026 r., a jeżeli podmiot ten złożył kompletny
+       wniosek o udzielenie zezwolenia, o którym mowa w art. 59 ust. 1 lit. a rozporządzenia
+       2023/1114, nie później niż w dniu 31 maja 2026 r., do dnia doręczenia ostatecznej
+       decyzji w sprawie tego wniosku albo do dnia cofnięcia wniosku”;
+    b) dodać ust. [...] w brzmieniu:
+        „[...]. Komisja, niezwłocznie po wejściu w życie ustawy, publikuje na swojej stronie
+           internetowej komunikat określający:
+                1) kryteria uznania wniosku, o którym mowa w art. 59 ust. 1 lit. a
+                   rozporządzenia 2023/1114, za kompletny;
+                2) wykaz dokumentów wymaganych do złożenia wniosku;
+                3) zasady postępowania w okresie od dnia złożenia kompletnego wniosku do
+                   dnia doręczenia ostatecznej decyzji, w szczególności potwierdzenie, że
+                   Komisja nie podejmuje czynności nadzorczych ani sankcyjnych z tytułu
+                   prowadzenia działalności bez zezwolenia wobec podmiotów, które:
+                     a) złożyły kompletny wniosek w terminie określonym w ust. 1,
+                     b) przestrzegają obowiązków informacyjnych wobec klientów
+                        wynikających z rozporządzenia 2023/1114,
+                     c) przestrzegają obowiązków wynikających z ustawy z dnia 1 marca 2018
+                        r. o przeciwdziałaniu praniu pieniędzy oraz finansowaniu terroryzmu.”;
+
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                                  – odrzucić
+38) po art. 162 dodać art. 162a w brzmieniu:
+    „Art. 162a. 1. W odniesieniu do podmiotów, o których mowa w art. 162 ust. 1, Komisja
+       stosuje procedurę uproszczoną, o której mowa w art. 143 ust. 6 rozporządzenia
+       2023/1114, obejmującą wyłącznie elementy wniosku, które:
+                1) były objęte krajowymi wymogami regulacyjnymi przed dniem 30 grudnia
+                   2024 r.,
+                2) pozostają zgodne z tytułem V rozporządzenia 2023/1114.
+         2. Wyłącznie na potrzeby stosowania art. 143 ust. 6 rozporządzenia 2023/1114, za
+             podmiot posiadający zezwolenie na podstawie prawa krajowego uznaje się
+             również podmiot, o którym mowa w art. 162 ust. 1, wpisany do rejestru
+             działalności w zakresie walut wirtualnych, o ile wpis ten obejmował działalność
+             odpowiadającą usługom objętym tytułem V rozporządzenia 2023/1114.
+         3. W ramach procedury uproszczonej Komisja:
+                1) nie żąda ponownego przekazania informacji i dokumentów, które znajdują
+                   się w jej posiadaniu lub w posiadaniu organu właściwego w sprawach
+                   rejestru działalności w zakresie walut wirtualnych w związku z
+                   wykonywaniem zadań w zakresie przeciwdziałania praniu pieniędzy oraz
+                   finansowaniu terroryzmu, o ile pozostają aktualne;
+                2) może ograniczyć zakres weryfikacji do wymogów wynikających z
+                   rozporządzenia 2023/1114, które nie były przedmiotem weryfikacji w
+                   ramach krajowych mechanizmów rejestracyjnych i nadzorczych.”;
+
+
+– KP Konfederacja Wolność i Niepodległość
+                                                                                  – odrzucić
+ 39) w art. 166 w ust. 1 wyrazy „2 lipca 2026 r.” zastąpić wyrazami „31 grudnia 2026 r.”.
+
+
+ – KP Konfederacja Wolność i Niepodległość
+                                                                                      – odrzucić
+
+
+
+
+Warszawa, dnia 14 maja 2026 r.
+
+                                                              Przewodniczący Komisji
+            Sprawozdawca                                       Finansów Publicznych
+
+
+         (-) Jarosław Urbaniak                                    (-) Janusz Cichoń
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+

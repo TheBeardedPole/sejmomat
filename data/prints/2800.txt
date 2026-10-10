@@ -1,0 +1,1464 @@
+                                                                       Druk nr 2800
+                                                                   Warszawa, 10 lipca 2026 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-97-26
+
+
+                                                              Pan
+                                                              Włodzimierz Czarzasty
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+
+  - o zmianie ustawy - Kodeks postępowania
+   karnego oraz ustawy o doręczeniach
+   elektronicznych.
+
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Sprawiedliwości.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                     Projekt
+                                       U S T AWA
+
+                                           z dnia
+
+     o zmianie ustawy – Kodeks postępowania karnego oraz ustawy o doręczeniach
+                                      elektronicznych
+
+
+     Art. 1. W ustawie z dnia 6 czerwca 1997 r. – Kodeks postępowania karnego (Dz. U.
+z 2026 r. poz. 490, 421, 638 i 760) wprowadza się następujące zmiany:
+1)   w art. 81a w § 3 pkt 1 otrzymuje brzmienie:
+     „1) wniosek o wyznaczenie obrońcy oraz inne dokumenty niezbędne do rozpoznania
+          wniosku    mogą    być   przekazane      przez   organ   prowadzący   postępowanie
+          przygotowawcze do właściwego sądu za pośrednictwem poczty elektronicznej;”;
+2)   w art. 119 w § 1 pkt 2 otrzymuje brzmienie:
+     „2) oznaczenie oraz adres wnoszącego pismo, a także – w pierwszym piśmie złożonym
+          w sprawie – numer telefonu i adres poczty elektronicznej lub oświadczenie o ich
+          nieposiadaniu;”;
+3)   w art. 132 w § 3 zdanie pierwsze otrzymuje brzmienie:
+     „Pismo może być także doręczone za pośrednictwem poczty elektronicznej.”;
+4)   w art. 148a:
+     a)   w § 1 zdanie pierwsze otrzymuje brzmienie:
+          „W protokole nie zamieszcza się danych dotyczących miejsca zamieszkania, miejsca
+          pracy, numeru telefonu, adresu poczty elektronicznej, numeru PESEL oraz nazwy
+          i numeru dokumentu stwierdzającego tożsamość, jak również nazwy organu
+          wydającego ten dokument pokrzywdzonych i świadków uczestniczących
+          w czynności.”,
+     b)   w § 3 zdanie pierwsze otrzymuje brzmienie:
+          „Jeżeli dane dotyczące miejsca zamieszkania, miejsca pracy, numeru telefonu,
+          adresu poczty elektronicznej, numeru PESEL oraz nazwy i numeru dokumentu
+          stwierdzającego tożsamość, jak również nazwy organu wydającego ten dokument
+          pokrzywdzonych i świadków są zawarte w dokumentach innych niż protokół,
+          o którym mowa w § 1, dokumenty, w całości lub w części, w jakiej zawierają te dane,
+          przechowuje się w załączniku adresowym do akt sprawy, do wiadomości organu
+          prowadzącego postępowanie.”,
+                                             –2–
+
+
+     c)   w § 4 pkt 1–3 otrzymują brzmienie:
+          „1) jeżeli dane dotyczące miejsca zamieszkania, miejsca pracy, numeru telefonu
+               lub adresu poczty elektronicznej pokrzywdzonego lub świadka są oskarżonemu
+               znane;
+          2)   w odniesieniu do danych dotyczących miejsca zamieszkania, miejsca pracy,
+               numeru telefonu, adresu poczty elektronicznej oraz numeru PESEL
+               pokrzywdzonego lub świadka, jeżeli dane te są związane z miejscem
+               prowadzenia działalności gospodarczej przez pokrzywdzonego lub świadka
+               i zostały przekazane do publicznej wiadomości do właściwego rejestru lub
+               ewidencji;
+          3)   z powodu oczywistego braku potrzeby ochrony danych dotyczących miejsca
+               zamieszkania, miejsca pracy, numeru telefonu lub adresu poczty elektronicznej
+               pokrzywdzonego lub świadka z uwagi na charakter sprawy.”,
+     d)   po § 4 dodaje się § 4a w brzmieniu:
+               „§ 4a. Zarządzenie o odstąpieniu, w całości lub w części, od stosowania
+          przepisów § 1 lub 3 wymaga uzasadnienia.”;
+5)   w art. 191 § 1a otrzymuje brzmienie:
+          „§ 1a. Numer PESEL świadka ustala się na podstawie dokumentu tożsamości albo
+     powiadomienia o nadaniu numeru PESEL, wydanego przez właściwy organ gminy. W
+     przypadku świadka nieposiadającego numeru PESEL nazwę i numer dokumentu
+     stwierdzającego tożsamość oraz nazwę organu wydającego ten dokument ustala się na
+     podstawie dokumentu tożsamości. Miejsce zamieszkania oraz numer telefonu i adres
+     poczty elektronicznej świadka ustala się na podstawie pisemnego oświadczenia
+     świadka.”;
+6)   w art. 192a w § 1 w zdaniu pierwszym wyrazy „odciski daktyloskopijne” zastępuje się
+     wyrazami „odciski linii papilarnych”;
+7)   w art. 299a § 2 otrzymuje brzmienie:
+          „§ 2. Na wniosek pokrzywdzonego zgłoszony w postępowaniu przygotowawczym
+     sąd powiadamia go o sposobie zakończenia sprawy listem zwykłym, przesłanym na
+     wskazany przez pokrzywdzonego adres lub za pośrednictwem poczty elektronicznej wraz
+     z odpisem prawomocnego orzeczenia kończącego postępowanie w sprawie lub jego
+     wyciągiem, które mogą być przesłane w postaci elektronicznej.”;
+8)   w art. 332 w § 1 pkt 1 otrzymuje brzmienie:
+                                               –3–
+
+
+     „1) imię i nazwisko oskarżonego, inne dane o jego osobie, w tym numer telefonu i adres
+           poczty elektronicznej lub informację o ich nieposiadaniu przez oskarżonego lub
+           niemożności ich ustalenia, dane o zastosowaniu środka zapobiegawczego oraz
+           zabezpieczenia majątkowego;”;
+9)   w art. 333 w § 3 zdanie drugie otrzymuje brzmienie:
+     „Należy również podać numery telefonów i adresy poczty elektronicznej osób
+     wskazanych w zdaniu pierwszym, chyba że informacji tych nie można ustalić.”;
+10) w art. 589y w § 1 pkt 1 otrzymuje brzmienie:
+     „1) oznaczenie organu wydającego END i zatwierdzającego END, ze wskazaniem ich
+           adresów, numerów telefonów i adresów poczty elektronicznej;”;
+11) w art. 607c w § 1 pkt 1 otrzymuje brzmienie:
+     „1) oznaczenie sądu występującego, ze wskazaniem jego adresu, numeru telefonu
+           i adresu poczty elektronicznej;”.
+
+     Art. 2. W ustawie z dnia 18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U.
+z 2026 r. poz. 3 i 507) w art. 82:
+1)   pkt 4 otrzymuje brzmienie:
+     „4) w art. 119 w § 1 pkt 2 otrzymuje brzmienie:
+                    „2) oznaczenie oraz adres wnoszącego pismo, a także – w pierwszym
+                          piśmie złożonym w sprawie:
+                          a)   oświadczenie     wnoszącego       pismo    będącego    podmiotem
+                               niepublicznym, o którym mowa w art. 2 pkt 5 ustawy z dnia
+                               18 listopada    2020     r.   o doręczeniach   elektronicznych,   o
+                               wyrażeniu zgody na dokonywanie doręczeń na adres do doręczeń
+                               elektronicznych, wraz ze wskazaniem tego adresu albo braku
+                               takiej zgody, chyba że takie oświadczenie już zostało przez niego
+                               w tym postępowaniu złożone,
+                          b)   numer telefonu i adres poczty elektronicznej lub oświadczenie o
+                               ich nieposiadaniu;”;”;
+2)   pkt 16 otrzymuje brzmienie:
+     „16) w art. 148a:
+           a)   § 1 otrzymuje brzmienie:
+                          „§ 1. W protokole nie zamieszcza się danych dotyczących miejsca
+                    zamieszkania,    miejsca    pracy,       numeru   telefonu,   adresu   poczty
+                                    –4–
+
+
+         elektronicznej, adresu do doręczeń elektronicznych, numeru PESEL oraz
+         nazwy i numeru dokumentu stwierdzającego tożsamość, jak również
+         nazwy organu wydającego ten dokument pokrzywdzonych i świadków
+         uczestniczących w czynności. Dane te, niezamieszczone w protokole,
+         zamieszcza się w załączniku do protokołu, który przechowuje się w
+         załączniku    adresowym     do akt   sprawy, do wiadomości       organu
+         prowadzącego postępowanie.”,
+b)   § 3 i 4 otrzymują brzmienie:
+              „§ 3. Jeżeli dane dotyczące miejsca zamieszkania, miejsca pracy,
+         numeru telefonu, adresu poczty elektronicznej, adresu do doręczeń
+         elektronicznych, numeru PESEL oraz nazwy i numeru dokumentu
+         stwierdzającego tożsamość, jak również nazwy organu wydającego ten
+         dokument, pokrzywdzonych i świadków są zawarte w dokumentach innych
+         niż protokół, o którym mowa w § 1, dokumenty, w całości lub w części, w
+         jakiej zawierają te dane, przechowuje się w załączniku adresowym do akt
+         sprawy, do wiadomości organu prowadzącego postępowanie. Do akt
+         sprawy załącza się uwierzytelnione kserokopie dokumentów lub ich części,
+         sporządzone w sposób uniemożliwiający zapoznanie się z tymi danymi.
+              § 4. Przeprowadzający czynność w postępowaniu przygotowawczym
+         albo przewodniczący składu sądu – w odniesieniu do protokołu, o którym
+         mowa w § 1, a w odniesieniu do innych dokumentów – organ prowadzący
+         postępowanie przygotowawcze albo prezes sądu lub przewodniczący
+         składu sądu może zarządzić o odstąpieniu, w całości lub w części, od
+         stosowania przepisów § 1 lub 3:
+         1)   jeżeli dane dotyczące miejsca zamieszkania, miejsca pracy, numeru
+              telefonu, adresu poczty elektronicznej i adresu do doręczeń
+              elektronicznych pokrzywdzonego lub świadka są oskarżonemu
+              znane;
+         2)   w odniesieniu do danych dotyczących miejsca zamieszkania, miejsca
+              pracy, numeru telefonu, adresu poczty elektronicznej, adresu do
+              doręczeń elektronicznych oraz numeru PESEL pokrzywdzonego lub
+              świadka, jeżeli dane te są związane z miejscem prowadzenia
+              działalności gospodarczej przez pokrzywdzonego lub świadka i
+                                           –5–
+
+
+                        zostały przekazane do wiadomości publicznej do właściwego rejestru
+                        lub właściwej ewidencji;
+                  3)    z powodu oczywistego braku potrzeby ochrony danych dotyczących
+                        miejsca zamieszkania, miejsca pracy, numeru telefonu lub adresu
+                        poczty elektronicznej i adresu do doręczeń elektronicznych
+                        pokrzywdzonego lub świadka z uwagi na charakter sprawy.”;”;
+3)   pkt 21 otrzymuje brzmienie:
+     „21) w art. 333 w § 3 zdanie drugie otrzymuje brzmienie:
+                  „Należy również podać numery telefonów i adresy poczty elektronicznej
+                  osób wskazanych w zdaniu pierwszym, chyba że informacji tych nie można
+                  ustalić, oraz adresy do doręczeń elektronicznych, jeżeli osoby te wyraziły
+                  zgodę na dokonywanie doręczeń na ten adres.”.”.
+
+     Art. 3. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                         UZASADNIENIE
+
+     Celem projektu jest wyeliminowanie mankamentów regulacji ustawy z dnia 6 czerwca
+1997 r. – Kodeks postępowania karnego (Dz. U. z 2026 r. poz. 490, z późn. zm.), dalej jako
+„k.p.k.”, dostrzeżonych w praktyce ich stosowania.
+
+     W projekcie zaproponowano:
+1.   rozszerzenie zakresu danych osobowych odbieranych w trakcie przesłuchania od świadka
+     (numer PESEL, nazwa i numer dokumentu stwierdzającego tożsamość, nazwa organu
+     wydającego ten dokument, numer telefonu, adres poczty elektronicznej) oraz ochronę tych
+     danych, w zakresie dotychczas niewskazanym, poprzez zamieszczanie w załączniku do
+     protokołu przechowywanym w załączniku adresowym do akt sprawy (art. 191 § 1a k.p.k.
+     i art. 148a § 1 k.p.k.);
+2.   uchylenie regulacji dotyczących wykorzystywania w toku procesu karnego urządzeń
+     technicznych typu faks w związku z wycofywaniem się z ich użytkowania wobec braku
+     posiadania przez tego typu urządzenia właściwych mechanizmów bezpieczeństwa
+     (art. 81a § 3 pkt 1 k.p.k., art. 119 § 1 pkt 2 k.p.k., art. 132 § 3 k.p.k., art. 299a § 2 k.p.k.,
+     art. 332 § 1 pkt 1 k.p.k., art. 333 § 3 k.p.k., art. 589y § 1 pkt 1 k.p.k. i art. 607c § 1 pkt 1
+     k.p.k.);
+3.   nowelizację art. 192a § 1 k.p.k. poprzez użycie w miejsce sformułowania „odciski
+     daktyloskopijne” zgodnego z przyjętą w nauce terminologią z zakresu kryminalistyki
+     i biometrii sformułowania „odciski linii papilarnych”.
+
+     Ad 1.
+
+     Projektowany przepis art. 191 § 1a k.p.k. ma na celu rozszerzenie zakresu danych, które
+organ przesłuchujący jest zobowiązany odebrać od świadka, o informacje takie jak: numer
+PESEL (nazwa i numer dokumentu stwierdzającego tożsamość, jak również nazwa organu
+wydającego ten dokument – w przypadku świadka nieposiadającego nr PESEL), numer
+telefonu, adres poczty elektronicznej.
+
+     Numer PESEL jest to jedenastocyfrowy symbol numeryczny, który zawiera datę
+urodzenia, numer porządkowy, oznaczenie płci oraz liczbę kontrolną, dzięki czemu
+jednoznacznie identyfikuje daną osobę. Ustalenie i odebranie nr PESEL występującego
+w sprawie świadka (pokrzywdzonego) ma istotne znaczenie dla sprawności przebiegu
+postępowania karnego, w tym realizacji poszczególnych czynności procesowych, w toku
+których niezbędna jest identyfikacja osoby, której dana czynność ma dotyczyć lub której dane
+czy dokumenty są przedmiotem tej czynności. Dla przykładu celem zabezpieczenia przez sąd
+lub prokuratora rzeczy mogących stanowić dowód w sprawie, m.in. w postaci dokumentacji
+medycznej pokrzywdzonego od określonej placówki medycznej, w sentencji postanowienia
+o żądaniu wydania rzeczy oprócz imienia i nazwiska pacjenta zasadnym i koniecznym jest
+wskazanie przypisanego do niego nr PESEL. Stanowi on nieodłączną część dokumentacji
+medycznej, jednoznacznie identyfikującą określoną osobę. Również w przypadku konieczności
+uzyskania informacji lub dokumentacji urzędowej, np. z Zakładu Ubezpieczeń Społecznych,
+urzędów skarbowych, czy też komorników sądowych, niezbędnym elementem pozwalającym
+na sprawne pozyskanie informacji lub dokumentów jest właściwa identyfikacja osoby, której
+one dotyczą, co nie ulega wątpliwości zapewnia wskazanie nr PESEL. Brak takiej identyfikacji
+może uniemożliwić bądź utrudnić uzyskanie kluczowego dla sprawy dowodu. Numer PESEL
+jako informacja jednoznacznie identyfikująca określoną osobę jest także niezbędny w celu
+realizacji kar porządkowych. Jeżeli świadek bez należytego usprawiedliwienia nie stawił się na
+wezwanie organu prowadzącego postępowanie albo bez zezwolenia tego organu wydalił się
+z miejsca czynności przed jej zakończeniem właściwy organ procesowy może nałożyć na
+świadka karę pieniężną w wysokości do 3000 zł, jak też zarządzić zatrzymanie i przymusowe
+doprowadzenie świadka (art. 285 § 1 i 2 k.p.k.).
+
+     W przypadku świadka nieposiadającego nr PESEL zasadnym jest ustalenie nazwy i
+numeru dokumentu stwierdzającego tożsamość, jak również nazwy organu wydającego ten
+dokument. Informacje te umożliwią identyfikację danej osoby.
+
+     Dodatkowo zasadnym jest uzyskanie od świadka uczestniczącego w protokołowanej
+czynności nazwy i numeru dokumentu stwierdzającego jego tożsamość wraz z nazwą organu,
+który wydał ten dokument, ponieważ elementy te dopełniają identyfikację danej osoby.
+
+     Ponadto za konieczne uznano uzyskanie od świadka (pokrzywdzonego) informacji
+o numerze telefonu i adresie poczty elektronicznej. Wskazane dane ułatwią kontakt organu ze
+świadkiem, a tym samym pozwalają na usprawnienie przebiegu postępowania. Regulacja ta jest
+również konsekwencją obowiązujących unormowań. Przykładowo, w wypadku skierowania do
+sądu aktu oskarżenia (czy też wniosku o warunkowe umorzenie postępowania) normy Kodeksu
+postępowania karnego obligują organ postępowania przygotowawczego do przekazania do
+sądu takich danych (art. 333 § 3 k.p.k.). Dlatego też wprowadzono podstawę prawną do ich
+uzyskania.
+
+     Nowelizacja przepisu art. 148a k.p.k. jest konsekwencją zmiany przepisu art. 191 k.p.k.
+i ma na celu rozszerzenie zakresu danych podlegających ochronie. Aktualne brzmienie przepisu
+
+                                              2
+art. 148a § 1 k.p.k. wskazuje, że dane dotyczące miejsca zamieszkania, miejsca pracy, numeru
+telefonu, telefaksu, a także adresu poczty elektronicznej pokrzywdzonych i świadków
+uczestniczących w czynności nie zamieszcza się w protokole, ponieważ ustawa nakazuje
+zamieszczanie ich w załączniku do protokołu, który przechowuje się w załączniku adresowym
+do akt sprawy, do wiadomości organu prowadzącego postępowanie. Zgodnie z proponowanym
+brzmieniem zakres danych podlegających ochronie zostanie poszerzony o informacje takie jak:
+numer PESEL, nazwa i numer dokumentu stwierdzającego tożsamość oraz nazwa organu
+wydającego ten dokument (przy rezygnacji z anonimizacji numeru telefaksu, z uwagi na
+odstąpienie od obowiązku jego uzyskania). Wskazane elementy zawierające dane osobowe
+podlegające ochronie nie powinny być również umieszczane w protokołach, ponieważ
+dokumenty te mogą być udostępniane innym uczestnikom postępowania, w tym także w formie
+odpisów bądź kopii. Wymienione informacje będą dostępne tylko do wiadomości organu
+prowadzącego postępowanie. Wpłynie to na podniesienie poziomu bezpieczeństwa
+pokrzywdzonych i świadków uczestniczących w czynności, eliminując tym samym zagrożenie
+niezgodnego z prawem uzyskania danych osobowych. Należy także podkreślić, że
+proponowany kierunek zmiany został pozytywnie zaopiniowany przez Prezesa Urzędu
+Ochrony Danych Osobowych. Zwrócił on uwagę, że wprowadzenie w jednym przepisie
+Kodeksu postępowania karnego zamkniętego katalogu danych osobowych odbieranych od
+świadka realizuje zasadę ochrony danych osobowych, a ponadto zamieszczenie wskazanych
+danych w załączniku do protokołu, dostępnym tylko do wiadomości organu prowadzącego
+postępowanie, jest zasadne dla zapewnienia ich bezpieczeństwa. Tym samym proponowany
+przepis zawiera zamknięty katalog obligatoryjnych elementów przesłuchania każdego świadka
+(oczywiście jedynie w zakresie danych wskazanych w tym przepisie, które świadek posiada).
+Nie oznacza to jednak, że na etapie przeprowadzania czynności procesowej świadkowi nie
+mogą zostać zadane pytania dotyczące innych danych osobowych, które mają znaczenie dla
+rozstrzygnięcia konkretnej sprawy, mając na uwadze treść art. 171 k.p.k. regulującego zasady
+przesłuchania każdego osobowego źródła dowodowego. W proponowanych rozwiązaniach
+rozszerzono także katalog danych, w stosunku do których uprawniony organ procesowy może
+podjąć decyzję o odstąpieniu od ich anonimizacji, w wypadku zaistnienia wymienionych
+w przepisie okoliczności. Należy jednak podkreślić, że organ może odstąpić od anonimizacji
+wskazanych informacji w szczególnie uzasadnionych wypadkach. Zasadą pozostaje
+anonimizacja wskazanych danych (w szczególności nr PESEL, którego nie można zmienić
+i który jednoznacznie identyfikuje określoną osobę). Dlatego też podejmując decyzję
+o odstąpieniu od anonimizacji wskazanych informacji, organ powinien kierować się zasadą
+
+
+                                             3
+szczególnej ostrożności, mając na uwadze konieczność jak najpełniejszej ochrony danych
+osobowych świadka.
+
+     Zgodnie z projektowanym przepisem art. 148a § 4a k.p.k. „Zarządzenie o odstąpieniu, w
+całości lub w części, od stosowania przepisów § 1 lub 3 wymaga uzasadnienia”. Dodatkowo
+zatem zarządzenie o odstąpieniu w całości lub w części od anonimizacji wskazanych informacji
+będzie wymagało uzasadnienia.
+
+     Ad 2.
+
+     Mając na uwadze rekomendację zalecającą wycofanie z użytku służbowego wszystkich
+urządzeń technicznych typu faks, w obrębie całego resortu sprawiedliwości, z uwagi na brak
+posiadania przez tego typu urządzenia mechanizmów bezpieczeństwa (w tym brak ich
+regularnej aktualizacji) zaproponowano rezygnację z konieczności odebrania od świadka
+informacji dot. numeru telefaksu. Uchylono także regulacje przewidujące możliwość przesłania
+określonych dokumentów za pośrednictwem telefaksu, czy też przewidujące obowiązek
+oznaczenia numeru telefaksu w pismach procesowych.
+
+     Ad 3.
+
+     Artykuł 192a § 1 k.p.k. stanowi aktualnie, że „w celu ograniczenia kręgu osób
+podejrzanych lub ustalenia wartości dowodowej ujawnionych śladów można pobrać odciski
+daktyloskopijne, wymaz ze śluzówki policzków, włosy, ślinę, próby pisma, zapach, wykonać
+fotografię osoby lub dokonać utrwalenia głosu. Po wykorzystaniu w sprawie, w której
+dokonano pobrania lub utrwalenia, pobrany lub utrwalony materiał zbędny dla postępowania
+należy niezwłocznie usunąć z akt i zniszczyć”.
+
+     Przepis art. 192a § 1 k.p.k. w obecnym brzmieniu posługuje się terminem „odciski
+daktyloskopijne”, który nie jest zgodny z przyjętą w nauce terminologią z zakresu
+kryminalistyki i biometrii. Zgodnie bowiem z aktualnym stanem wiedzy i przyjętą praktyką
+legislacyjną w innych aktach prawnych, właściwym terminem odnoszącym się do pobierania
+danych biometrycznych w postaci wzorów linii papilarnych jest określenie: „odciski linii
+papilarnych”.
+
+     Przykładowo, terminologia „odcisków linii papilarnych” została przyjęta w:
+1)   ustawie z dnia 6 kwietnia 1990 r. o Policji (Dz. U. z 2025 r. poz. 636, z późn. zm.);
+2)   ustawie z dnia 22 listopada 2013 r. o postępowaniu wobec osób z zaburzeniami
+     psychicznymi stwarzających zagrożenie życia, zdrowia lub wolności seksualnej innych
+     osób (Dz. U. z 2022 r. poz. 1689);
+
+
+                                               4
+3)   ustawie z dnia 12 grudnia 2013 r. o cudzoziemcach (Dz. U. z 2025 r. poz. 1079, z późn.
+     zm.).
+
+     W świetle powyższego należy wskazać, że zastosowanie przez ustawodawcę w art. 192a
+§ 1 k.p.k. określenia „odciski daktyloskopijne”, jest nie tylko nieścisłe, lecz może także
+prowadzić do wątpliwości interpretacyjnych, szczególnie w sytuacjach wymagających
+precyzyjnego określenia zakresu czynności procesowych oraz środków przymusu.
+
+     Mając na uwadze, że objęte przedmiotowym projektem regulacje dotyczą m.in. art. 119
+§ 1 pkt 2 k.p.k., art. 148a § 1, 3 i 4 k.p.k. oraz art. 333 § 3 zdanie drugie k.p.k., które zostały
+znowelizowane na mocy art. 82 ustawy z dnia 18 listopada 2020 r. o doręczeniach
+elektronicznych (Dz. U. z 2026 r. poz. 3, z późn. zm.), jednakże pozostają w okresie vacatio
+legis do dnia 1 października 2029 r., zasadnym było dokonanie stosownych zmian również
+w tym akcie prawnym.
+
+     Zgodnie z art. 3 projektu ustawa wejdzie w życie po upływie 14 dni od dnia ogłoszenia.
+
+     Projektowana regulacja nie jest sprzeczna z zakresem prawa Unii Europejskiej.
+
+     Projekt nie zawiera przepisów technicznych, zatem nie podlega procedurze notyfikacji
+zgodnie z trybem przewidzianym w rozporządzeniu Rady Ministrów z dnia 23 grudnia 2002 r.
+w sprawie sposobu funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych
+(Dz. U. poz. 2039, z późn. zm.).
+
+     Projekt nie wymaga przedstawienia właściwym organom i instytucjom Unii Europejskiej,
+w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+
+     Zawarte     w    projekcie    regulacje   nie   będą    miały    wpływu     na    działalność
+mikroprzedsiębiorców, małych i średnich przedsiębiorców, o których mowa w ustawie z dnia
+6 marca 2018 r. – Prawo przedsiębiorców (Dz. U. z 2025 r. poz. 1480, z późn. zm.).
+
+     Zgodnie z § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. –
+Regulamin pracy Rady Ministrów (M.P. z 2026 r. poz. 404) oraz stosownie do wymogów art.
+5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa
+(Dz. U. z 2025 r. poz. 677, z późn. zm.) projekt został udostępniony w Biuletynie Informacji
+Publicznej na stronie internetowej Rządowego Centrum Legislacji w zakładce Rządowy Proces
+Legislacyjny.
+
+
+
+
+                                                5
+     Projekt nie podlegał dokonaniu oceny OSR przez Koordynatora OSR w trybie § 32
+uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady
+Ministrów.
+
+     W celu spełnienia wymogów, o których mowa w § 42 ust. 1 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów, projekt został
+skierowany do Koordynatora OSR. Uwag nie zgłoszono.
+
+     Projekt nie dotyczy warunków określonych w uchwale nr 20 Rady Ministrów z dnia
+18 lutego 2014 r. w sprawie zaleceń ujednolicenia terminów wejścia w życie niektórych aktów
+normatywnych (M.P. poz. 205).
+
+
+
+
+                                            6
+Nazwa projektu:                                                    Data sporządzenia:
+Projekt ustawy o zmianie ustawy – Kodeks postępowania karnego oraz 29.06.2026 r.
+ustawy o doręczeniach elektronicznych
+                                                                   Źródło:
+Ministerstwo wiodące i ministerstwa współpracujące:
+                                                                   Inicjatywa własna.
+Ministerstwo Sprawiedliwości
+
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Stanu     Nr w Wykazie prac legislacyjnych
+lub Podsekretarza Stanu:                                                i programowych Rady Ministrów:
+Pod względem legislacyjnym i merytorycznym:                             UD272
+Arkadiusz Myrcha, Sekretarz Stanu w Ministerstwie Sprawiedliwości
+Kontakt do opiekuna merytorycznego projektu:
+Opiekun legislacyjny:
+Monika Walewska, Zastępca Dyrektora Departamentu Legislacyjnego
+tel. 22 52 12 764, e-mail: sekretariat.dl@ms.gov.pl
+
+Anna Łubińska-Bujak, Główny Specjalista ds. legislacji, Departament
+Legislacyjny
+e-mail: Anna.Lubinska-Bujak@ms.gov.pl, tel. 22 52 12 285
+Opiekun merytoryczny:
+Adam Synakiewicz, Dyrektor Departamentu Prawa Karnego
+tel. 22 52 12 645, e-mail: sekretariat.dpk@ms.gov.pl
+                                OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Konieczność podjęcia prac legislacyjnych wyniknęła z potrzeby przeprowadzenia zmian ukierunkowanych na
+uaktualnienie i ulepszenie przepisów postępowania karnego. Obecnie występują istotne mankamenty legislacyjne, które
+wymagają zmiany, mianowicie:
+    • dane osobowe podawane przez świadka przed pierwszym przesłuchaniem są niewystarczające i wymagają
+        rozszerzenia o m.in. numer PESEL (nazwa i numer dokumentu stwierdzającego tożsamość, jak również nazwa
+        organu wydającego ten dokument – w przypadku świadka nieposiadającego nr PESEL), numer telefonu, adres
+        poczty elektronicznej, nazwę i numer dokumentu stwierdzającego jego tożsamość wraz z nazwą organu, który
+        wydał dokument, a także numer telefonu i adres poczty elektronicznej. Uzyskanie pierwszych dwóch
+        z wymienionych danych ma na celu usprawnienie realizacji poszczególnych czynności procesowych związanych
+        z tym uczestnikiem postępowania. Numer PESEL stanowi bowiem oznaczenie numeryczne, które jednoznacznie
+        identyfikuje daną osobę i będzie pomocny przy uzyskiwaniu np. dowodu związanego ze świadkiem w postaci
+        dokumentacji medycznej lub dokumentacji urzędowej z Zakładu Ubezpieczeń Społecznych lub urzędów
+        skarbowych. Dane w postaci nazwy i numeru dokumentu stwierdzającego tożsamość będą zaś stanowić element
+        dopełniający identyfikację świadka. Natomiast rozszerzenie podawania danych przez świadka o numer telefonu
+        i adres poczty elektronicznej usprawni komunikację między organami procesowymi a tym uczestnikiem
+        postępowania. Przy wprowadzeniu przedmiotowych zmian niezbędne będzie odpowiednie zabezpieczenie tych
+        danych przed dostępem osób trzecich lub oskarżonego;
+    • nieprecyzyjne ujęcie sformułowania odnoszącego się do pobierania odcisków palców w Kodeksie postępowania
+        karnego, co może skutkować problemami interpretacyjnymi w stosowaniu i dopuszczaniu przedmiotowego
+        dowodu.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Rozwiązaniem problemów zaprezentowanych w punkcie 1 OSR jest nowelizacja przepisów ustawy – Kodeks postępowania
+karnego (dalej jako „k.p.k.”) oraz ustawy o doręczeniach elektronicznych.
+
+Rozszerzenie katalogu danych podawanych przez świadka i zabezpieczenie tych danych
+
+Projektowana zmiana art. 191 § 1a k.p.k. zakłada rozszerzenie katalogu danych osobowych odbieranych przed pierwszym
+przesłuchaniem od świadka przez sąd, ale również przez organy postępowania przygotowawczego. Zmieniona treść § 1a
+wymienia następujące dane: miejsce zamieszkania świadka, numer PESEL świadka, nazwę i numer dokumentu
+stwierdzającego tożsamość świadka, nazwę organu wydającego dokument świadkowi, numer telefonu świadka oraz
+adres poczty elektronicznej świadka. Zmiana ta z jednej strony pozwoli na identyfikację świadka z drugiej zaś usprawni
+komunikację między organami procesowymi a świadkami, co może wpłynąć pozytywnie na sprawność prowadzonych
+postępowań karnych.
+Projektowany przepis art. 191 § 1a nakazuje ustalenie nr PESEL świadka. Natomiast ustalenie nazwy i numeru dokumentu
+stwierdzającego tożsamość, jak również nazwy organu wydającego ten dokument, jest konieczne w przypadku świadka
+nieposiadającego nr PESEL. Projektowany przepis art. 191 § 1a k.p.k. ma na celu rozszerzenie zakresu danych, które organ
+przesłuchujący jest zobowiązany odebrać od świadka, o informacje takie jak: numer PESEL (nazwa i numer dokumentu
+stwierdzającego tożsamość, jak również nazwa organu wydającego ten dokument – w przypadku świadka nieposiadającego
+nr PESEL), numer telefonu, adres poczty elektronicznej.
+W przypadku świadka nieposiadającego nr PESEL zasadnym jest ustalenie nazwy i numeru dokumentu stwierdzającego
+tożsamość, jak również nazwy organu wydającego ten dokument. Informacje te umożliwią identyfikację danej osoby.
+Zgodnie z projektowanym przepisem art. 191 § 1a k.p.k. miejsce zamieszkania świadka ustala się na podstawie pisemnego
+oświadczenia świadka.
+
+Nowelizacja przepisu art. 148a k.p.k. jest konsekwencją zmiany przepisu art. 191 k.p.k. i ma na celu rozszerzenie zakresu
+danych podlegających ochronie. Aktualne brzmienie przepisu art. 148a § 1 k.p.k. wskazuje, że dane dotyczące miejsca
+zamieszkania, miejsca pracy, numeru telefonu, telefaksu, a także adresu poczty elektronicznej pokrzywdzonych i świadków
+uczestniczących w czynności nie zamieszcza się w protokole, ponieważ ustawa nakazuje zamieszczanie ich w załączniku do
+protokołu, który przechowuje się w załączniku adresowym do akt sprawy, do wiadomości organu prowadzącego
+postępowanie. Zgodnie z proponowanym brzmieniem zakres danych podlegających ochronie zostanie poszerzony
+o informacje takie jak: numer PESEL, nazwa i numer dokumentu stwierdzającego tożsamość oraz nazwa organu
+wydającego dokument (przy rezygnacji z anonimizacji numeru telefaksu, z uwagi na odstąpienie od obowiązku jego
+uzyskania). Wskazane elementy zawierające dane osobowe podlegające ochronie nie powinny być również umieszczane
+w protokołach, ponieważ dokumenty te mogą być udostępniane innym uczestnikom postępowania, w tym także w formie
+odpisów bądź kopii. Wymienione informacje będą dostępne tylko do wiadomości organu prowadzącego postępowanie.
+Wpłynie to na podniesienie poziomu bezpieczeństwa pokrzywdzonych i świadków uczestniczących w czynności,
+eliminując tym samym zagrożenie niezgodnego z prawem uzyskania danych osobowych.
+Podkreślić należy, że proponowany kierunek zmiany został pozytywnie zaopiniowany przez Prezesa Urzędu Ochrony Danych
+Osobowych, który zwrócił uwagę, że wprowadzenie w jednym przepisie k.p.k. zamkniętego katalogu danych osobowych
+odbieranych od świadka realizuje zasadę ochrony danych osobowych, a ponadto zamieszczenie wskazanych danych w
+załączniku do protokołu, dostępnym tylko do wiadomości organu prowadzącego postępowanie, jest zasadne dla zapewnienia
+ich bezpieczeństwa. Tym samym proponowany przepis zawiera zamknięty katalog obligatoryjnych elementów
+przesłuchania każdego świadka (oczywiście jedynie w zakresie danych wskazanych w tym przepisie, które świadek
+posiada). Nie oznacza to jednak, że na etapie przeprowadzania czynności procesowej świadkowi nie mogą zostać zadane
+pytania dotyczące innych danych osobowych, które mają znaczenia dla rozstrzygnięcia konkretnej sprawy, mając na
+uwadze treść art. 171 k.p.k. regulującego zasady przesłuchania każdego osobowego źródła dowodowego.
+W proponowanych rozwiązaniach rozszerzono także katalog danych, w stosunku do których uprawniony organ procesowy
+może podjąć decyzję o odstąpieniu od ich anonimizacji, w wypadku zaistnienia wymienionych w przepisie okoliczności.
+Należy jednak podkreślić, że organ może odstąpić od anonimizacji wskazanych informacji w szczególnie uzasadnionych
+wypadkach. Zasadą pozostaje anonimizacja wskazanych danych (w szczególności nr PESEL, którego nie można zmienić
+i który jednoznacznie identyfikuje określoną osobę). Dlatego też podejmując decyzję o odstąpieniu od anonimizacji
+wskazanych informacji, organ powinien kierować się zasadą szczególnej ostrożności, mając na uwadze konieczność jak
+najpełniejszej ochrony danych osobowych świadka.
+Zgodnie z projektowanym przepisem art. 148a § 4a k.p.k. „zarządzenie o odstąpieniu, w całości lub w części, od stosowania
+przepisów § 1 lub 3 wymaga uzasadnienia”. Dlatego dodatkowo zarządzenie o odstąpieniu w całości lub w części od
+anonimizacji wskazanych informacji będzie wymagało uzasadnienia.
+
+Eliminacja faksu jako kanału komunikacji między organami procesowymi a uczestnikami postępowania
+
+Projektowane zmiany art. 81a § 3 pkt 1 k.p.k., art. 119 § 1 pkt 2 k.p.k., art. 132 § 3 k.p.k., art. 299a § 2 k.p.k., art. 332 § 1
+pkt 1 k.p.k., art. 333 § 3 k.p.k., art. 589y § 1 pkt 1 k.p.k. oraz art. 607c § 1 pkt 1 k.p.k. zakładają usunięcie faksu jako narzędzia
+komunikacji w postępowaniu karnym. Zmiany te uwzględniają zalecenia w zakresie bezpieczeństwa, które rekomendują
+wycofanie z użytku służbowego wszystkich urządzeń technicznych typu faks, z uwagi na brak posiadania przez te
+urządzenia mechanizmów bezpieczeństwa (w tym brak ich regularnej aktualizacji). Powyższe zmiany zaproponowano
+również ze względu na fakt, że faks jest narzędziem komunikacyjnym, który nie jest już praktycznie stosowany w
+obrocie w sektorze zarówno publicznym, jak i prywatnym. Omawiana zmiana legislacyjna ma więc na celu
+dostosowanie prawa do zmieniającej się rzeczywistości. Zaproponowano więc rezygnację z konieczności odebrania od
+świadka informacji dotyczących numeru telefaksu. Uchylono także regulacje m.in. przewidujące możliwość przesłania
+określonych dokumentów za pośrednictwem telefaksu lub przewidujące obowiązek oznaczenia numeru telefaksu w
+pismach procesowych, a także inne zmiany techniczne, rugujące faks z postępowania karnego. Komunikacja pomiędzy
+organami postępowania karnego a uczestnikami procesu może w dalszym ciągu odbywać się w sposób tradycyjny –
+poprzez skuteczne doręczenie w sposób przewidziany w przepisach k.p.k. wezwania, zawiadomienia lub każdego innego
+pisma. Obowiązujący przepis art. 191 § 1a k.p.k. daje podstawę prawną do ustalenia miejsca zamieszkania świadka, a co
+za tym idzie umożliwia skuteczne doręczenie korespondencji. Ponadto obowiązujący przepis art. 119 § 1 pkt 2 k.p.k.,
+nakładający obowiązek umieszczenia przez każdego wnoszącego pismo procesowe adresu zamieszkania, umożliwia
+doręczenie takiej osobie korespondencji. Również uczestnik postępowania może złożyć stosowne pismo do organu
+
+                                                                 2
+postępowania poprzez nadanie go w placówce operatora pocztowego. Kolejną możliwością nawiązania kontaktu pomiędzy
+organem, a uczestnikiem postępowania karnego jest komunikacja telefoniczna. Projektowany przepis art. 191 § 1a k.p.k.
+ustanawia podstawę prawną dla uzyskania przez organ numeru telefonu osoby przesłuchiwanej. Ponadto obowiązujący
+przepis art. 119 § 1 pkt 2 k.p.k., nakładający obowiązek umieszczenia przez każdego wnoszącego pismo procesowe numeru
+telefonu, umożliwia kontakt z uczestnikiem postępowania. Również powszechna dostępność numerów telefonu, na
+stronach internetowych właściwych sądów lub prokuratury, daje możliwość kontaktu osoby zainteresowanej z właściwym
+organem. Istnieje także możliwość komunikacji w oparciu o kanały poczty elektronicznej. Projektowany przepis art. 191
+§ 1a k.p.k. ustanawia podstawę prawną dla uzyskania przez organ adresu poczty elektronicznej występującego w sprawie
+świadka. Ponadto obowiązujący przepis art. 119 § 1 pkt 2 k.p.k., nakładający obowiązek umieszczenia przez każdego
+wnoszącego pismo procesowe adresu poczty elektronicznej, umożliwia kontakt e-mailowy z uczestnikiem postępowania.
+Również powszechna dostępność adresów poczty elektronicznej, na stronach internetowych właściwych sądów lub
+prokuratur, daje możliwość kontaktu osoby zainteresowanej z właściwym organem. Należy także podkreślić, że w sądach
+powszechnych funkcjonuje Portal Informacyjny, który ma na celu ułatwienie podmiotom upoważnionym i uprawnionym
+w myśl obowiązujących przepisów prawa, a w szczególności stronom postępowania i ich pełnomocnikom, dostępu do
+informacji o stanie spraw oraz o czynnościach podejmowanych w sprawie, jakie znajdują się w oprogramowaniu
+wspomagającym biurowość sądową w sprawach rozpoznawanych przed danym sądem.
+
+Doprecyzowanie pojęcia odnoszącego się do pobierania odcisków palców
+
+Projektowana zmiana art. 192a § 1 k.p.k. zakłada zastąpienie pojęcia „odciski daktyloskopijne” pojęciem „odciski linii
+papilarnych” w odniesieniu do pobierania i badania odcisków palców w postępowaniu dowodowym. Zmiana ta wynika
+z potrzeby wyeliminowania niezgodności pojęcia „odciski daktyloskopijne” z przyjętą w nauce terminologią z zakresu
+kryminalistyki i biometrii. Zgodnie z aktualnym stanem wiedzy i przyjętą praktyką legislacyjną w innych aktach prawnych,
+właściwym terminem odnoszącym się do pobierania danych biometrycznych w postaci wzorów linii papilarnych (a więc
+odcisków palców) jest określenie: „odciski linii papilarnych”.
+
+Zmiany w ustawie o doręczeniach elektronicznych
+
+Mając na uwadze, że objęte przedmiotowym projektem regulacje dotyczą m.in. art. 119 § 1 pkt 2 k.p.k., art. 148a § 1, 3 i 4
+k.p.k. oraz art. 333 § 3 zdanie drugie k.p.k., które zostały znowelizowane na mocy art. 82 ustawy z dnia 18 listopada 2020 r.
+o doręczeniach elektronicznych (Dz. U. z 2026 r. poz. 3, z późn. zm.), jednakże pozostają w okresie vacatio legis do dnia
+1 października 2029 r., zasadnym jest dokonanie stosownych zmian również w tym akcie prawnym. Zmiany te są identyczne
+jak zmiany wymienione w podrozdziałach „Rozszerzenie katalogu danych podawanych przez świadka i zabezpieczenie tych
+danych” oraz „Eliminacja faksu jako kanału komunikacji między sądem o stronami postępowania”.
+ 3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Projektowana regulacja ze względu na stopień jej szczegółowości i domenę prawa krajowego nie była poddawana analizie
+prawnoporównawczej.
+ 4. Podmioty, na które oddziałuje projekt
+       Grupa            Wielkość         Źródło                                   Oddziaływanie
+                                        danych
+Obywatele              37 423 000    Główny           •   Wprowadzenie obowiązku podawania: numeru PESEL, nazwy
+                                     Urząd                i numeru dokumentu stwierdzającego tożsamość, nazwy organu
+                                     Statystyczny         wydającego dokument, numeru telefonu i adresu poczty
+                                                          elektronicznej przed przesłuchaniem w charakterze świadka,
+                                                          w toku postępowania karnego;
+                                                      •   Wyeliminowanie możliwości komunikowania się z podmiotem
+                                                          prowadzącym postępowanie karne przy użyciu faksu.
+Sądy powszechne        377, w tym:   Informacja       •   Wyeliminowanie możliwości komunikowania się z uczestnikami
+                       319 – sądy    powszechnie          postępowania karnego przy użyciu faksu;
+                       rejonowe      dostępna.        •   Wprowadzenie obowiązku uzyskania od świadka numeru PESEL,
+                       47 – sądy                          nazwy i numeru dokumentu stwierdzającego jego tożsamość,
+                       okręgowe                           nazwy organu wydającego ten dokument oraz numeru telefonu i
+                       11 – sądy
+                       apelacyjne                         adresu poczty elektronicznej, a ponadto umieszczenia tych
+                                                          danych w zakresie dotychczas niewskazanym w załączniku do
+                                                          protokołu zamiast w samym protokole, ze względu na ochronę
+                                                          danych, z jednoczesnym zachowaniem możliwości do ujęcia
+                                                          powyższych danych w samym protokole przy spełnieniu
+
+
+                                                             3
+                                                        warunków zawartych w projektowanym art. 148a § 4 pkt 1–3
+                                                        k.p.k.
+Prokuratorzy          5863          Mały            •   Wyeliminowanie możliwości komunikowania się z uczestnikami
+                                    Rocznik             postępowania karnego i sądem przy użyciu faksu;
+                                    statystyczny    •   Wprowadzenie obowiązku uzyskania od świadka numeru PESEL,
+                                    GUS 2024            nazwy i numeru dokumentu stwierdzającego jego tożsamość,
+                                                        nazwy organu wydającego ten dokument oraz numeru telefonu i
+                                                        adresu poczty elektronicznej, a ponadto umieszczenia tych
+                                                        danych w zakresie dotychczas niewskazanym w załączniku do
+                                                        protokołu zamiast w samym protokole, ze względu na ochronę
+                                                        danych, z jednoczesnym zachowaniem możliwości do ujęcia
+                                                        powyższych danych w samym protokole przy spełnieniu
+                                                        warunków zawartych w projektowanym art. 148a § 4 pkt 1–3
+                                                        k.p.k.
+Policja i inne        1             Informacja      •   Wyeliminowanie możliwości komunikowania się z uczestnikami
+organy uprawnione                   powszechnie         postępowania karnego i sądem przy użyciu faksu;
+do prowadzenia                      dostępna.       •   Wprowadzenie obowiązku uzyskania od świadka numeru PESEL,
+postępowania                                            nazwy i numeru dokumentu stwierdzającego jego tożsamość,
+przygotowawczego                                        nazwy organu wydającego ten dokument oraz numeru telefonu i
+                                                        adresu poczty elektronicznej, a ponadto umieszczenia tych
+                                                        danych w zakresie dotychczas niewskazanym w załączniku do
+                                                        protokołu zamiast w samym protokole, ze względu na ochronę
+                                                        danych, z jednoczesnym zachowaniem możliwości do ujęcia
+                                                        powyższych danych w samym protokole przy spełnieniu
+                                                        warunków zawartych w projektowanym art. 148a § 4 pkt 1–3
+                                                        k.p.k.
+Pełnomocnicy            22 953 –     Naczelna        •  Wyeliminowanie możliwości komunikowania się z podmiotem
+uczestników             adwokaci     Rada               prowadzącym postępowanie karne i innymi uczestnikami procesu
+postępowań              wykonujący Adwokacka,           przy użyciu faksu.
+przygotowawczych        zawód        Krajowa Izba
+– adwokaci i            40 000 –     Radców
+radcowie prawni         radcowie     Prawnych
+wykonujący zawód        prawni
+                        wykonujący
+                        zawód
+                        Razem: ok.
+                        63 tys.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji
+w serwisie Rządowy Proces Legislacyjny zgodnie z § 4 i § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października
+2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2026 r. poz. 404) oraz stosownie do wymogów art. 5 ustawy z dnia 7 lipca
+2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677, z późn. zm.).
+W trybie art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa zainteresowania
+pracami nad projektem nie zgłosił żaden podmiot.
+
+Projekt w ramach opiniowania i konsultacji został przekazany następującym podmiotom:
+1. Prokurator Krajowy,
+2. Przewodniczący Krajowej Rady Prokuratorów przy Prokuratorze Generalnym,
+3. Pierwszy Prezes Sądu Najwyższego,
+4. Przewodniczący Krajowej Rady Sądownictwa,
+5. Prezes Naczelnej Rady Adwokackiej,
+6. Prezes Krajowej Rady Radców Prawnych,
+7. Prezes Urzędu Ochrony Danych Osobowych,
+8. Prezes Prokuratorii Generalnej Rzeczypospolitej Polskiej,
+9. Rzecznik Praw Obywatelskich,
+10. Prezesi sądów apelacyjnych (po uzyskaniu stanowiska prezesów sądów okręgowych i rejonowych – odpowiedź
+    zbiorcza),
+11. Prokuratorzy regionalni (po uzyskaniu stanowiska prokuratorów okręgowych i rejonowych),
+12. Związek Zawodowy Prokuratorów i Pracowników Prokuratury RP,
+13. Krajowy Niezależny Samorządny Związek Zawodowy „Ad Rem”,
+
+                                                           4
+14. Stowarzyszenie Prokuratorów „Lex Super Omnia”,
+15. Stowarzyszenie Sędziów Polskich „Iustitia”,
+16. Stowarzyszenie Sędziów „Themis”,
+17. Międzyzakładowa Organizacja Związkowa NSZZ „Solidarność” Pracowników Sądownictwa i Prokuratury,
+18. Ogólnokrajowy Związek Zawodowy „AR Prim”,
+19. Instytut Wymiaru Sprawiedliwości,
+20. Helsińska Fundacja Praw Człowieka,
+21. Fundacja Krakowski Instytut Prawa Karnego,
+22. Fundacja Court Watch Polska,
+23. Centralne Laboratorium Kryminalistyczne Policji,
+24. Polskie Stowarzyszenie Rzeczoznawców i Biegłych Sądowych,
+25. Polskie Towarzystwo Ekspertów i Biegłych Sądowych.
+Czas trwania opiniowania i konsultacji publicznych – 21 dni.
+
+Uwagi zgłosili:
+– Sąd Najwyższy oraz Prezes Sądu Apelacyjnego we Wrocławiu – częściowo uwzględnione;
+– Naczelna Rada Adwokacka, Stowarzyszenie Prokuratorów „Lex Super Omnia”, Prokuratura Regionalna w Katowicach
+  oraz Centralne Laboratorium Kryminalistyczne Policji – nie zostały uwzględnione.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2025 r.)                               Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                     0     1     2       3      4      5      6      7     8      9    10      Łącznie (0–10)
+Dochody ogółem                       0     0     0       0       0     0     0      0      0     0      0            0
+budżet państwa                       0     0     0       0       0     0     0      0      0     0      0            0
+JST                                  0     0     0       0       0     0     0      0      0     0      0            0
+pozostałe jednostki (oddzielnie)     0     0     0       0       0     0     0      0      0     0      0            0
+Wydatki ogółem                       0     0     0       0       0     0     0      0      0     0      0            0
+budżet państwa                       0     0     0       0       0     0     0      0      0     0      0            0
+JST                                  0     0     0       0       0     0     0      0      0     0      0            0
+pozostałe jednostki (oddzielnie)     0     0     0       0       0     0     0      0      0     0      0            0
+Saldo ogółem                         0     0     0       0       0     0     0      0      0     0      0            0
+budżet państwa                       0     0     0       0       0     0     0      0      0     0      0            0
+JST                                  0     0     0       0       0     0     0      0      0     0      0            0
+pozostałe jednostki (oddzielnie)     0     0     0       0       0     0     0      0      0     0      0            0
+Źródła finansowania       Brak wpływu na sektor finansów publicznych.
+Dodatkowe informacje,
+w tym wskazanie
+źródeł danych i
+przyjętych do obliczeń
+założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+    rodzinę, obywateli i gospodarstwa domowe
+                                                        Skutki
+Czas w latach od wejścia w życie zmian       0          1          2         3          5        10      Łącznie (0–10)
+W ujęciu          duże przedsiębiorstwa
+pieniężnym        sektor mikro-, małych i
+(w mln zł,        średnich
+ceny stałe        przedsiębiorstw
+z …… r.)          rodzina, obywatele oraz
+                  gospodarstwa domowe
+W ujęciu          duże przedsiębiorstwa   Brak wpływu.
+niepieniężnym     sektor mikro-, małych i Projekt ustawy nie dotyczy majątkowych praw i obowiązków przedsiębiorców lub
+                  średnich                praw i obowiązków przedsiębiorców wobec organów administracji publicznej i nie
+                  przedsiębiorstw         wpływa na działalność mikroprzedsiębiorców oraz małych i średnich
+                                          przedsiębiorców.
+
+
+                                                             5
+                 rodzina, obywatele oraz   Zgodnie z założeniami projektu obywatele będą mieli możliwość komunikowania
+                 gospodarstwa domowe,      się z sądem lub oskarżycielem publicznym w nowoczesny sposób, to jest za
+                 w tym osoby z             pośrednictwem m.in. poczty elektronicznej. Wariant komunikacji za
+                 niepełnosprawnością i     pośrednictwem faksu między obywatelem a powyższymi podmiotami zostanie
+                 starsze                   usunięty ze względu na niski poziom bezpieczeństwa tego środka komunikacji,
+                                           a przede wszystkim znikomy stopień jego wykorzystania w obecnych czasach,
+                                           zarówno w obrocie prywatnym, jak i profesjonalnym.
+Niemierzalne
+Dodatkowe informacje,
+w tym wskazanie
+źródeł danych i
+przyjętych do obliczeń
+założeń
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie          tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli   nie
+zgodności).                                          nie dotyczy
+
+   zmniejszenie liczby dokumentów                            zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                              zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                     wydłużenie czasu na załatwienie sprawy
+   inne:                                                     inne:
+
+Wprowadzane obciążenia są przystosowane do ich               tak
+elektronizacji.                                              nie
+                                                             nie dotyczy
+Komentarz:
+Sądy powszechne będą obowiązane do tworzenia załączników do protokołów rozpraw karnych poszerzonych o numer
+PESEL świadka, nazwę i numer dokumentu stwierdzającego tożsamość świadka oraz nazwę organu wydającego dokument
+świadkowi, w celu ochrony tych danych przez oskarżonym.
+9. Wpływ na rynek pracy
+Projektowana regulacja nie ma bezpośredniego wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+   środowisko naturalne                     demografia                            informatyzacja
+   sytuacja i rozwój regionalny             mienie państwowe                      zdrowie
+   sądy powszechne, administracyjne         inne: organy postępowania
+lub wojskowe                            przygotowawczego
+                         Projektowana regulacja wpłynie na sądy powszechne i organy postępowania przygotowawczego
+                         poprzez:
+                         • Wyeliminowanie możliwości komunikowania się z uczestnikami postępowania karnego przy
+                             użyciu faksu;
+                         • Wprowadzenie obowiązku uzyskania od świadka numeru PESEL, nazwy i numeru dokumentu
+Omówienie wpływu             stwierdzającego jego tożsamość, nazwy organu wydającego ten dokument oraz numeru
+                             telefonu i adresu poczty elektronicznej, a ponadto umieszczenia tych danych w zakresie
+                             dotychczas niewskazanym w załączniku do protokołu zamiast w samym protokole, ze względu
+                             na ochronę danych, z jednoczesnym zachowaniem możliwości do ujęcia powyższych danych
+                             w samym protokole przy spełnieniu warunków zawartych w projektowanym art. 148a § 4
+                             pkt 1–3 k.p.k.
+11. Planowane wykonanie przepisów aktu prawnego
+Ustawa wejdzie w życie po upływie 14 dni od dnia ogłoszenia.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Efekty wejścia w życie projektowanych rozwiązań będą natychmiastowe i nie wymagają pomiaru.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak załączników.
+
+
+
+                                                         6
+                                                                                                               Warszawa, dnia 26 maja 2026 r.
+
+
+                                                         Raport z konsultacji
+          projektu ustawy o zmianie ustawy – Kodeks postępowania karnego oraz ustawy o doręczeniach elektronicznych (UD272)
+
+
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677, z późn. zm.)
+i § 52 ust. 1 uchwały Nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2026 r. poz. 404) projekt
+ustawy został zamieszczony w Biuletynie Informacji Publicznej Rządowego Centrum Legislacji, w zakładce Rządowy Proces Legislacyjny.
+Projekt nie wymaga zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu z właściwymi organami i instytucjami Unii Europejskiej,
+w tym Europejskim Bankiem Centralnym.
+W trybie art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa zainteresowania pracami nad projektem nie
+zgłosił żaden podmiot.
+
+
+W ramach opiniowania projekt został przekazany następującym podmiotom:
+1) Prokurator Krajowy,
+2) Krajowa Rada Sądownictwa,
+3) Krajowa Rada Prokuratorów,
+4) Sąd Najwyższy,
+5) Naczelna Rada Adwokacka,
+6) Krajowa Rada Radców Prawnych,
+7) Urząd Ochrony Danych Osobowych,
+8) Prokuratoria Generalna Rzeczypospolitej Polskiej,
+9) Sądy Apelacyjne,
+10) Prokuratury Regionalne,
+11) Rzecznik Praw Obywatelskich.
+
+
+Uwagi do projektu przedstawione przez Prezesa Sądu Najwyższego oraz Prezesa Sądu Apelacyjnego we Wrocławiu – zostały częściowo
+uwzględnione.
+Uwagi do projektu przedstawione przez Naczelną Radę Adwokacką oraz Prokuraturę Regionalną w Katowicach – nie zostały uwzględnione.
+Zestawienie przedstawionych uwag wraz z odniesieniem Ministra Sprawiedliwości zawiera odrębna tabela.
+
+
+W ramach konsultacji publicznych projekt został przekazany następującym podmiotom:
+1) Związek Zawodowy Prokuratorów i Pracowników Prokuratury RP,
+2) Krajowy Niezależny Samorządny Związek Zawodowy „Ad Rem”,
+3) Stowarzyszenie Prokuratorów „Lex Super Omnia”,
+4) Stowarzyszenie Sędziów Polskich „Iustitia”,
+5) Stowarzyszenie Sędziów „Themis”,
+6) Międzyzakładowa Organizacja Związkowa NSZZ „Solidarność” Pracowników Sądownictwa i Prokuratury,
+7) Ogólnokrajowy Związek Zawodowy „AR Prim”,
+8) Instytut Wymiaru Sprawiedliwości,
+9) Helsińska Fundacja Praw Człowieka,
+10) Fundacja Krakowski Instytut Prawa Karnego,
+11) Fundacja Court Watch Polska,
+12) Centralne Laboratorium Kryminalistyczne Policji,
+
+
+                                                                   2
+       13) Polskie Stowarzyszenie Rzeczoznawców i Biegłych Sądowych,
+       14) Polskie Towarzystwo Ekspertów i Biegłych Sądowych.
+
+
+       Uwagi do projektu zostały przedstawione przez Stowarzyszenie Prokuratorów „Lex Super Omnia” oraz Centralne Laboratorium Kryminalistyczne
+       Policji – nie zostały uwzględnione.
+
+
+              Zestawienie uwag zgłoszonych w toku konsultacji do projektu ustawy o zmianie ustawy – Kodeks postępowania karnego oraz ustawy
+                                                        o doręczeniach elektronicznych (UD272)
+
+
+Lp.   Podmiot                  Uwaga                Treść uwagi                                                          Stanowisko MS
+      zgłaszający              dotyczy
+      uwagi
+
+1.    Stowarzyszenie   Uwagi ogólne                 W zamyśle projektodawcy celem przedstawionych zmian                  Niezasadnym jest także uwzględnienie uwag zgłaszanych
+      Prokuratorów Lex                              jest uaktualnienie i ulepszenie przepisów postępowania               przez Stowarzyszenie Prokuratorów „Lex Super Omnia”.
+      Super Omnia                                   karnego z uwagi na występujące mankamenty
+                                                    legislacyjne Kodeksu postępowania karnego1.
+                                                    Dostrzeżono problemy występujące w treści art. 81a § 3
+                                                    pkt 1 k.p.k., art. 119 § 1 pkt 2 k.p.k., art. 132 § 3 k.p.k., art.
+                                                    299a § 2 k.p.k., art. 332 § 1 pkt 1 k.p.k., art. 333 § 3 k.p.k.,
+                                                    art. 589y § 1 pkt 1 k.p.k. oraz art. 607c § 1 pkt 1 k.p.k., a
+                                                    wynikające m.in. z tego, iż dane osobowe podawane
+                                                    przez świadka przed pierwszym przesłuchaniem są
+                                                    niewystarczające i wymagają rozszerzenia o m.in. numer
+                                                    PESEL, nazwę i numer dokumentu stwierdzającego jego
+                                                    tożsamość wraz z nazwą organu, który wydał dokument,
+
+       1
+           Ustawa z dnia 6 czerwca 1997 r. (Dz. U. z 2025 r. poz. 46).
+
+
+                                                                                             3
+                                         a także numer telefonu i adres poczty elektronicznej.
+                                         Konieczne stało się uzupełnienie procesową identyfikację
+                                         świadka o ww. elementy.
+                                         Niemniej istotne jest także projektowane rozszerzenie
+                                         możliwości podania przez świadka sposobów
+                                         kontaktowania się za pośrednictwem telefonu oraz adresu
+                                         poczty elektronicznej, a także procesowe zabezpieczanie
+                                         tych danych przed nieuprawnionym dostępem.
+                                         Przedmiotowa nowela usuwa także problemy
+                                         interpretacyjne związane z możliwością i
+                                         dopuszczalnością procesowego pobierania odcisków
+                                         palców poprzez przyjęcie terminologii zgodnej z innymi
+                                         aktami prawnymi.
+2.   Stowarzyszenie   Art. 1             Proponowane zmiany art. 81a § 3 pkt 1 k.p.k., art. 119 § 1          Niezasadnym jest także uwzględnienie uwag zgłaszanych
+     Prokuratorów Lex (projektowany      pkt 2 k.p.k., art. 132 § 3 k.p.k., art. 299a § 2 k.p.k., art. 332   przez Stowarzyszenie Prokuratorów „Lex Super Omnia”.
+     Super Omnia      art. 81a § 3 pkt   § 1 pkt 1 k.p.k., art. 333 § 3 k.p.k., art. 589y § 1 pkt 1          Należy wskazać, że projektowany przepis art. 132 § 3
+                      1 k.p.k., art.     k.p.k. oraz art. 607c § 1 pkt 1 k.p.k. uznać należy za              k.p.k. nie dotyczy bezpośrednio instytucji doręczeń
+                      119 § 1 pkt 2      słuszne i konieczne. Formalnoprocesowe usunięcie faksu              elektronicznych. Zmiana jego treści wynika z rezygnacji
+                      k.p.k., art. 132   jako urządzenia służącego do komunikacji i przesyłania              korzystania z telefaksu jako środka komunikacji
+                      § 3 k.p.k., art.   dokumentów w postępowaniu karnym będzie stanowiło                   procesowej. Istota projektowanej regulacji nie odnosi się
+                      299a § 2 k.p.k.,   dostosowanie przepisów prawa do rzeczywistości. Od                  tym samym do samej instytucji doręczenia
+                      art. 332 § 1 pkt   wielu już lat faks nie jest używany w organach                      elektronicznego. Jedynie na marginesie należy wskazać,
+                      1 k.p.k., art.     prokuratury i wymiaru sprawiedliwości, stąd chociażby               że doręczenie określone w przepisie art. 132 § 3 (w tym
+                      333 § 3 k.p.k.,    odbieranie od uczestników postępowania danych                       rozwiązanie wskazujące, że dowodem takiego doręczenia
+                      art. 589y § 1      osobowych w zakresie jego numeru jest                               jest potwierdzenie transmisji danych) funkcjonuje,
+                      pkt 1 k.p.k.       bezprzedmiotowe.                                                    dyspozycja ta uzyskała więc aprobatę w toku
+                      oraz art. 607c §                                                                       poprzedzającego procesu legislacyjnego. Wydaje się, że
+                      1 pkt 1 k.p.k.)                                                                        doręczenie elektroniczne nie narusza praw oskarżonego,
+                                                                                                             albowiem przepis art. 132 § 4 k.p.k. wskazuje, że
+                                                                                                             doręczenie oskarżonemu zawiadomienia o pierwszym
+                                                                                                             terminie rozprawy głównej, terminie posiedzenia, o
+                                                                                                             którym mowa w art. 341 § 1, art. 343 § 5, art. 343a i art.
+
+
+                                                                                 4
+                                                                                                                  420 § 1 oraz doręczenie wyroku, o którym mowa w art.
+                                                                                                                  500 § 1 nie może nastąpić w oparciu o pocztę
+                                                                                                                  elektroniczną.
+3.   Stowarzyszenie   art. 1 pkt 4            Bardzo pozytywnie należy ocenić uregulowanie                        Niezasadnym jest także uwzględnienie uwag zgłaszanych
+     Prokuratorów Lex (projektowany           polegające na nowelizacji normy art. 148 k.p.k. i                   przez Stowarzyszenie Prokuratorów „Lex Super Omnia”.
+     Super Omnia      art. 148a               rozszerzenie zakresu podlegających ochronie wrażliwych
+                      k.p.k.)                 danych uczestników postępowania karnego. Wobec
+                                              wyzwań stojących przed podmiotami publicznymi
+                                              wynikającymi m.in. z nowelizacji ustawy o krajowym
+                                              systemie cyberbezpieczeństwo (KSC)2, wdrażającego
+                                              unijną dyrektywę NIS23, poddanie ochronie takich
+                                              danych jak numery PESEL, nazwy i numery dowodów
+                                              stwierdzających tożsamość oraz nazwy publicznych
+                                              podmiotów je wydających, jawi się jako niezbędna
+                                              konieczność. Oczywistym jest, że dane wrażliwe
+                                              uczestników postępowania karnego na każdym jego
+                                              etapie wymagają szczególnej ochrony aby nie dopuścić
+                                              np. do powtórnej wiktymizacji pokrzywdzonych
+                                              (związanej z zagrożeniem niezgodnego z prawem
+                                              uzyskania danych osobowych).
+                                              Przedmiotowe dane jednoznacznie identyfikują określoną
+                                              osobę i powinny pozostać do wyłącznej wiedzy organu
+                                              procesowego.
+4.   Stowarzyszenie   Art. 1 pkt 5            Projektowane brzmienie art. 191a § 1 k.p.k. i rozszerzenie Niezasadnym jest także uwzględnienie uwag zgłaszanych
+     Prokuratorów Lex (projektowany           danych osobowych odbieranych przed pierwszym               przez Stowarzyszenie Prokuratorów „Lex Super Omnia”.
+     Super Omnia      art. 191 § 1a           przesłuchaniem świadka należy ocenić pozytywnie.
+                      k.p.k.)                 Należy zwrócić uwagę, że najważniejsze jest
+                                              usprawnienie komunikacji między organami
+
+      2
+       Ustawa z dnia 5 lipca 2018 r. (Dz. U. z 2025 r. poz. 20).
+      3
+       Zob. dyrektywę Parlamentu Europejskiego i Rady (UE) 2022/2555 z dnia 14 grudnia 2022 r. w sprawie środków na rzecz wysokiego wspólnego poziomu cyberbezpieczeństwa
+      na terytorium Unii, zmieniającą rozporządzenie (UE) nr 910/2014 i dyrektywę (UE) 2018/1972 oraz uchylająca dyrektywę (UE) 2016/1148); Consolidated TEXT: 32022L2555
+      — EN — 27.12.2022, eur-lex.eurpa.eu; dostęp 16.04.2026 r.
+
+
+                                                                                      5
+                                                procesowymi a uczestnikami postępowania karnego i
+                                                umożliwienie używania poczty elektronicznej co z jednej
+                                                strony (także) wpłynie na usprawnienie procesu, a z
+                                                drugiej wprost przełoży się na obniżenie jego kosztów –
+                                                w obecnym czasie ma to niebagatelne znaczenie wobec
+                                                skokowego wzrostu kosztów postępowania ponoszonych
+                                                przez sądy powszechne i jednostki organizacyjne
+                                                prokuratury w związku z umową z Pocztą Polską.
+5.   Stowarzyszenie   Art. 1 pkt 6              Zmiana art. 192a § 1 k.p.k. polegająca na zastąpieniu                   Niezasadnym jest także uwzględnienie uwag zgłaszanych
+     Prokuratorów Lex (projektowany             pojęcia „odciski daktyloskopijne” pojęciem „odciski linii               przez Stowarzyszenie Prokuratorów „Lex Super Omnia”.
+     Super Omnia      art. 192a § 1             papilarnych” zasługuje na uznanie, albowiem ujednolica
+                      k.p.k.)                   semantyczno-legislacyjnie określenie tej czynności
+                                                procesowej. doktrynie oraz aktach prawnych
+                                                odnoszących się do pobierania danych biometrycznych w
+                                                postaci wzorów linii papilarnych4, określa się tą czynność
+                                                „pobieraniem odcisków linii papilarnych”.
+                                                Zasługującym na pozytywną ocenę uzupełnieniem
+                                                powyższych regulacji jest projektowane dokonania
+                                                koniecznych zmian w ustawie z dnia 18 listopada 2020 r. o
+                                                doręczeniach elektronicznych5.
+6.   Stowarzyszenie   Uwagi                     Reasumpcja i rekomendacje.                                              Niezasadnym jest także uwzględnienie uwag zgłaszanych
+     Prokuratorów Lex końcowe                   Podsumowując zmiany proponowane w opisanym wyżej                        przez Stowarzyszenie Prokuratorów „Lex Super Omnia”.
+     Super Omnia                                obszarze należy ocenić, że mimo ich niekompletności
+                                                wpłyną one pozytywnie na sądy powszechne oraz
+                                                powszechne jednostki organizacyjne prokuratury.
+                                                Wymuszą także zmiany w bieżącej pracy dochodzeniowo
+                                                – śledczej pozostałych organów postępowania
+                                                przygotowawczego. Likwidacja możliwości używania
+
+      4
+        Por. ustawę z dnia 6 kwietnia 1990 r. o Policji (Dz. U. z 2025 r. poz. 636); ustawę z dnia 22 listopada 2013 r. o postępowaniu wobec osób z zaburzeniami psychicznymi
+      stwarzających zagrożenie życia, zdrowia lub wolności seksualnej innych osób (Dz. U. z 2022 r. poz. 1689); ustawę z dnia 12 grudnia 2013 r. o cudzoziemcach (Dz. U. z 2025 r.
+      poz. 1079).
+      5
+        Dz. U. z 2026 r. poz. 3.
+
+
+                                                                                           6
+                                        anachronicznego faksu stanowi w istocie
+                                        uwspółcześnienie przepisów prawa, gdyż ta forma
+                                        komunikacji od dawna nie jest używana. Natomiast
+                                        wprowadzenie obowiązku uzyskania od świadków przez
+                                        organy postępowania karnego numer PESEL oraz danych
+                                        dokumentu stwierdzającego tożsamość, numeru telefonu
+                                        oraz (co najistotniejsze) adresu poczty elektronicznej
+                                        przyczyni się do usprawnienia oraz istotnego obniżenia
+                                        kosztów procesu. Zmiana ta przygotowuje organy
+                                        procesu karnego do nieuniknionego procesu cyfryzacji
+                                        postępowania karnego, w tym elektronicznego obiegu
+                                        dokumentów. Oczywiście nie można pominąć możliwych
+                                        wątpliwości interpretacyjnych związanych z określeniem
+                                        przez organ procesowy momentu skutecznego doręczenia
+                                        (zawiadomienia, wezwania, pisma, decyzji) oraz
+                                        następczego zakresu stosowania domniemania doręczenia
+                                        w przypadku braku reakcji na wysłaną uczestnikowi
+                                        postępowania za pośrednictwem poczty elektronicznej
+                                        korespondencję. Projektowane przepisy nie określają
+                                        także relacji między doręczeniem elektronicznym a
+                                        tradycyjnym. Wątpliwości na tym tle mogą prowadzić do
+                                        wniosku o powstaniu zagrożeń naruszenia prawa do
+                                        obrony, czy wykluczenia cyfrowego niektórych
+                                        uczestników postępowania. W tej mierze należy pamiętać
+                                        o prawie do rzetelnego procesu gwarantowanego zarówno
+                                        przez Europejską Konwencję Praw Człowieka6 jak i
+                                        Konstytucję RP7. Należy podkreślić, że procedura karna
+
+6
+  Konwencja o Ochronie Praw Człowieka i Podstawowych Wolności z 4.11.1950 r. (Dz.U. z 1993 r. Nr 61, poz. 284 ze zm.); zob. przykładowo wyrok ETPC z dnia 13 lutego
+2001 r. Krombach v. France, skarga nr 29731/96, LEX nr 76286; ETPC wielokrotnie podkreślał, że skuteczność prawa do obrony wymaga zapewnienia stronie rzeczywistej
+możliwości zapoznania się z materiałem sprawy; prawo do obrony obejmuje również dostęp do informacji o czynnościach procesowych oraz realną możliwość reakcji na
+doręczone pisma.
+7
+  Zob. art. 2, art. 42 ust. 2 oraz art. 45 ust. 1 Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 roku (Dz. U. z 1997 r. Nr 78, poz. 483, ze zm.).
+
+
+                                                                                7
+                                        musi zapewniać realną możliwości obrony praw jednostki
+                                        i zapobiegać przed wszystkim automatyzmowi w
+                                        komunikacji organów procesowych w uczestnikami
+                                        postępowania (tzw. fikcji doręczenia w systemie
+                                        elektronicznym)8.
+                                        Dlatego w toku dalszych prac legislacyjnych należy
+                                        rozważyć wprowadzenie mechanizmów umożliwiających
+                                        uczestnikom postępowania obalenie domniemania
+                                        doręczenia oraz zapewnienia alternatywnej formy
+                                        doręczeń dla osób wykluczonych cyfrowo. Oczywiście
+                                        tradycyjna forma doręczenia procesowej korespondencji
+                                        pozostanie realną alternatywą do 1 października 2029 r.,
+                                        ale już dziś należy przewidzieć możliwe naruszenia
+                                        konstytucyjnych standardów rzetelnego procesu karnego.
+                                        W projektowanych przepisach zasadne jest
+                                        doprecyzowanie momentu skutecznego doręczenia w
+                                        systemie elektronicznym (może poprzez system
+                                        dodatkowych powiadomień SMS-em, itp.) oraz zawarcie
+                                        procedury na wypadek awarii systemów
+                                        teleinformatycznych.
+                                        Mimo tego projektowane przepisy należy ocenić jako
+                                        zasadne i konieczne. Planowane zmiany kierunkowo są
+                                        niezbędne do rozpoczęcia procesu dostosowywania
+                                        przepisów procedury do realiów cyfrowych i
+                                        dynamicznie zmieniającego się świata. Jednak każdej
+                                        zmianie Kodeksu postępowania karnego winno
+                                        przyświecać zachowanie konstytucyjnych standardów tak
+                                        w zakresie nienaruszenia zasady zaufania obywatela do
+                                        państwa jak zachowania prawa uczestników
+                                        postępowania do sądu i (realnej) obrony.
+
+8
+ O prawie do odpowiedniego ukształtowania procedury wielokrotnie wypowiadał się Trybunał Konstytucyjny, zob. wyrok TK z dnia 24 października 2007 r., SK 7/06, OTK-
+A 2007/9/108, LEX nr 322157, wyrok TK z dnia 12 maja 2011 r., SK 38/08, OTK-A 2011/4/33, LEX nr 794949.
+
+
+                                                                                 8
+7.   Centralne          Art. 1 pkt 6    W odniesieniu do projektowanej zmiany art. 192a § 1           Projektowany przepis art. 192a § 1 k.p.k. pozostaje bez
+     Laboratorium       (projektowany   k.p.k. Centralne Laboratorium Kryminalistyczne Policji        zasadniczych krytycznych uwag (pozytywna
+     Kryminalistyczne   art. 192a § 1   (CLKP) ocenia propozycję zastąpienia pojęcia „odciski         rekomendacja Centralnego Laboratorium
+     Policji            k.p.k.)         daktyloskopijne" pojęciem „odciski linii papilarnych”         Kryminalistycznego Policji; pismo z dnia 21 kwietnia
+                                        jako merytorycznie uzasadnioną. Należy wskazać, że            2026 r.; kwestia wspomniana w piśmie Instytutu
+                                        zastosowane w art. 192a § 1 k.p.k. określenie „odciski        Legislacji i Prac Parlamentarnych NRA, pismo z 20
+                                        daktyloskopijne” jest nieprecyzyjne z punktu widzenia         kwietnia 2026 r.).
+                                        terminologii przyjętej w kryminalistyce i biometrii, co       Praktyczna uwaga co do ww. przepisu znajduje się na
+                                        może prowadzić do rozbieżności interpretacyjnych w            stronie drugiej opinii Biura Studiów i Analiz SN (pismo z
+                                        praktyce procesowej.                                          dnia 17 kwietnia 2026 r.) – cyt. odnosząc się pozytywnie
+                                        Jednocześnie termin „odciski linii papilarnych”               do zastąpienia w art. 192a § 1 k.p.k. pojęcia „odciski
+                                        funkcjonuje już w obowiązującym porządku prawnym, w           daktyloskopijne” pojęciem „odciski linii papilarnych”
+                                        szczególności w ustawie z dnia 6 kwietnia 1990 r. o           należy zasugerować równoczesne doprecyzowanie w art.
+                                        Policji (Dz. U. z 2025 r. poz. 636, z późn. zm.), ustawie z   74 § 2 pkt 1 k.p.k., że wskazany tam obowiązek dotyczy
+                                        dnia 22 listopada 2013 r. o postępowaniu wobec osób z         w szczególności odcisków linii papilarnych. Niemniej
+                                        zaburzeniami psychicznymi stwarzających zagrożenie            wydaje się, że uwaga SN jest niezasadna. Pod pojęciem
+                                        życia, zdrowia lub wolności seksualnej innych osób (Dz.       odciski w ramach art. 74 § 2 pkt 1 k.p.k. rozumie się
+                                        U. z 2022 r. poz. 1689) oraz w ustawie z dnia 12 grudnia      bowiem nie tylko kwestie odcisków linii papilarnych, ale
+                                        2013 r. o cudzoziemcach (Dz. U. z 2025 r. poz. 1079, z        np. odciski uzębienia.
+                                        późn. zm.), a także w aktach wykonawczych wydanych
+                                        na podstawie tych ustaw.
+                                        Dla pełniejszego zobrazowania kontekstu
+                                        kryminalistycznego projektowanej zmiany
+                                        terminologicznej należy przywołać ujęcie doktrynalne,
+                                        zgodnie z którym:
+                                        „Wieloletnia praktyka daktyloskopijna mówi o pobieraniu
+                                        odbitek jako materiału porównawczego. Oba terminy:
+                                        „odciski” i „odbitki”, mogą być używane wymiennie.
+                                        Materiał porównawczy w postaci odcisków (odbitek) linii
+                                        papilarnych palców i dłoni jest materiałem wtórnym w
+                                        stosunku do materiału dowodowego (...). Odwzorowania
+                                        powstają jako odciski i odbitki (...). Za najważniejsze
+
+
+                                                                            9
+cechy odwzorowania w kryminalistyce uznaje się kształt,
+wielkość i rozmieszczenie cech grupowych i
+indywidualnych (...)” - Problemy Kryminalistyki 253/06,
+Krzysztof Tomaszycki.
+Przytoczone stanowisko potwierdza, że w naukach
+kryminalistycznych konsekwentnie stosowane jest
+pojęcie „linii papilarnych”, a nie termin
+„daktyloskopijny” w odniesieniu do samych odcisków.
+Mając powyższe na uwadze, CLKP popiera projektowaną
+zmianę art. 192a § 1 k.p.k. jako zgodną z aktualnym
+stanem wiedzy kryminalistycznej oraz spójną z
+terminologią obowiązującego porządku prawnego.
+Dodatkowo należy wskazać, że w praktyce
+kryminalistycznej najszerszym i najbardziej precyzyjnym
+terminem opisującym ślady linii papilarnych jest pojęcie
+„odwzorowania linii papilarnych”. Termin ten ma
+charakter nadrzędny i obejmuje zarówno odciski
+(powstające w podłożach plastycznych), jak i odbitki
+(pozostawiane na podłożach twardych). Jego stosowanie
+w kontekście opiniodawczo-kryminalistycznym pozwala
+na pełne i jednoznaczne opisanie wszystkich fonu śladów
+linii papilarnych ujawnianych i zabezpieczanych w toku
+czynności procesowych, niezależnie od rodzaju podłoża
+oraz mechanizmu ich powstania.
+Natomiast zagadnienia dotyczące rozszerzenia katalogu
+danych podawanych przez świadka i zasad ich
+zabezpieczenia (pkt 1), jak również eliminacji faksu jako
+kanału komunikacji między organami procesowymi a
+uczestnikami postępowania (pkt 2), pozostają poza
+właściwością merytoryczną Centralnego Laboratorium
+Kryminalistycznego Policji.
+
+
+
+
+                                  10
+                                ZESTAWIENIE NIEUWZGLĘDNIONYCH UWAG ZGŁOSZONYCH W RAMACH OPINIOWANIA
+                       do projektu ustawy o zmianie ustawy – Kodeks postępowania karnego oraz ustawy o doręczeniach elektronicznych (UD272)
+
+
+Lp.         Podmiot              Uwaga                           Treść uwagi                                             Stanowisko MS
+      zgłaszający uwagi         dotyczy
+1.    Instytut Legislacji i   Uwagi ogólne   Przedmiotem niniejszej opinii jest analiza projektu     Niezasadnym jest uwzględnienie uwag artykułowanych
+      Prac                                   ustawy nowelizującej przepisy Kodeksu postępowania      przez Naczelną Radę Adwokacką.
+      Parlamentarnych                        karnego oraz ustawy o doręczeniach elektronicznych,
+      Naczelnej Rady                         którego zasadniczym celem jest dostosowanie regulacji
+      Adwokackiej                            procesowych do realiów cyfrowych oraz chęć
+                                             wzmocnienia ochrony danych osobowych uczestników
+                                             postępowania karnego.
+                                             Główne założenia projektu.
+                                             Projekt przewiduje w szczególności:
+                                             1. Rozszerzenie katalogu danych osobowych
+                                             pozyskiwanych od świadków i pokrzywdzonych (m.in.
+                                             PESEL, dane dokumentu tożsamości, telefon, e-mail).
+                                             2. Wzmocnienie ochrony tych danych poprzez
+                                             wyłączenie ich z treści protokołów i przeniesienie do
+                                             załączników adresowych dostępnych wyłącznie organom
+                                             prowadzącym postępowanie.
+                                             3. Upowszechnienie komunikacji elektronicznej, w tym
+                                             dopuszczenie doręczeń za pośrednictwem poczty
+                                             elektronicznej.
+                                             4. Rezygnację z wykorzystania faksu jako środka
+                                             komunikacji procesowej.
+                                             5. Dostosowanie terminologii prawnej do aktualnego
+                                             stanu wiedzy (np. „odciski linii papilarnych”).
+                                             Ocena pozytywna projektu
+                                             1. Spójność kierunku zmian.
+                                                Projekt cechuje się co do zasady wewnętrzną
+                                                konsekwencją — rozszerzenie zakresu zbieranych
+                                                danych osobowych zostało skorelowane z równoczesnym
+                                                chęcią wzmocnienia mechanizmów ich ochrony. Taka
+                                                konstrukcja odpowiada standardom wynikającym z zasad
+                                                ochrony danych osobowych oraz racjonalnej legislacji.
+2.   Instytut Legislacji i   Art. 1 pkt 1       Dostosowanie do realiów cyfrowych Wprowadzenie           Niezasadnym jest uwzględnienie uwag artykułowanych
+     Prac                    (projektowany      możliwości komunikacji za pomocą poczty                  przez Naczelną Radę Adwokacką.
+     Parlamentarnych         art. 81a § 3 pkt   elektronicznej oraz obowiązku podawania danych
+     Naczelnej Rady          1)                 kontaktowych (telefon, e-mail) stanowi istotne
+     Adwokackiej                                usprawnienie funkcjonowania postępowania karnego.
+                                                Zmiany te:
+                                                 • mogą przyczynić się do skrócenia czasu trwania
+                                                postępowań,
+                                                 • ułatwią kontakt organów ze świadkami i stronami,
+                                                 • odpowiadają aktualnym standardom komunikacji
+                                                społecznej.
+3.   Instytut Legislacji i   Art. 1 pkt 3       Uwagi krytyczne i ryzyka regulacyjne                     Niezasadnym jest także uwzględnienie uwag
+     Prac                    (projektowany      1. Wątpliwości dotyczące doręczeń za pośrednictwem       artykułowanych przez Naczelną Radę Adwokacką.
+     Parlamentarnych         art. 132 § 3       poczty elektronicznej.                                   Należy podkreślić, że zmiana przepisu art. 132 § 3 k.p.k. jest
+     Naczelnej Rady          k.p.k.)            Najistotniejsze zastrzeżenia budzi wprowadzenie          związana z rezygnacją korzystania z telefaksu jako środka
+     Adwokackiej                                możliwości doręczeń za pomocą zwykłej poczty             komunikacji procesowej. Istota projektowanej regulacji nie
+                                                elektronicznej przy jednoczesnym uznaniu                 odnosi się tym samym do instytucji doręczenia
+                                                „potwierdzenia transmisji danych” za dowód doręczenia.   elektronicznego, o którym mowa w tym przepisie. Jedynie
+                                                Rozwiązanie to:                                          na marginesie należy wskazać, że doręczenie określone w
+                                                • nie gwarantuje faktycznego zapoznania się adresata z   przepisie art. 132 § 3 k.p.k. (w tym rozwiązanie wskazujące,
+                                                treścią pisma,                                           że dowodem takiego doręczenia jest potwierdzenie
+                                                • może prowadzić do sporów procesowych dotyczących       transmisji danych) funkcjonuje, rozwiązanie takie uzyskało
+                                                skuteczności doręczenia,                                 aprobatę w toku poprzedzającego go postępowania
+                                                • nie zapewnia poziomu bezpieczeństwa właściwego dla     legislacyjnego. Wydaje się, że instytucja tego doręczenia nie
+                                                systemów doręczeń elektronicznych przewidzianych w       narusza praw oskarżonego, albowiem przepis art. 132 § 4
+                                                odrębnych przepisach.                                    k.p.k. wskazuje, że doręczenie oskarżonemu zawiadomienia
+
+
+                                                                                    2
+                                        W tym kontekście alternatywą mogłoby być                  o pierwszym terminie rozprawy głównej, terminie
+                                        wprowadzenie e-doręczeń, choć wiązałoby się to            posiedzenia, o którym mowa w art. 341 § 1, art. 343 § 5, art.
+                                        zapewne ze zwiększeniem kosztów. W przy wskazaniu         343a i art. 420 § 1 oraz doręczenie wyroku, o którym mowa
+                                        jednak przesłanki potwierdzenia transmisji danych jako    w art. 500 § 1 nie może nastąpić w oparciu o pocztę
+                                        skutecznego doręczenia powstaje szereg problemów          elektroniczną.
+                                        prawnych i faktycznych. Po pierwsze, co w sytuacji, gdy
+                                        świadek nie stawi się na posiedzenie i rozprawę,
+                                        ponieważ maila nie odczytał lub zwyczajnie trafił on do
+                                        folderu SPAM? W takiej sytuacji sąd ma prawo ukarać
+                                        świadka grzywną, a w skrajnych przypadkach nawet
+                                        zlecić doprowadzanie przez policję. Taka sytuacja jest
+                                        niedopuszczalna i budzi wątpliwości. Nie można
+                                        zakładać, że Sądy i dysponując takimi mechanizmami
+                                        uznawać będą wezwania za bezzasadnie doręczone. Stąd
+                                        Naczelna Rada Adwokacka jest wprowadzeniu tego
+                                        rozwiązania w takim formacie. Doręczanie elektroniczne
+                                        może stanowić bardzo duże udogodnienie jednak musi
+                                        zapewniać podstawowe prawa uczestnikom procesu
+                                        karnego. Nie może zatem budzić wątpliwości, kiedy
+                                        adresat odebrał korespondencję.
+4.   Sąd Najwyższy      Art. 1 pkt 3    Przy okazji nowelizacji art. 132 § 3 k.p.k. warto         Pozostałe uwagi SN nie zasługują na uwzględnienie.
+     (Biuro Studiów i   (projektowany   przemyśleć zawarte w nim wysoce niefortunne               Należy wskazać, że projektowane przepisy nie dotyczą
+     Analiz Sądu        art. 132 § 3    rozwiązanie, zgodnie z którym dowodem doręczenia jest     bezpośrednio instytucji doręczeń elektronicznych. Zmiana
+     Najwyższego)       k.p.k.)         potwierdzenie transmisji danych. Przerzuca to na          art. 132 § 3 oraz art. 299a § 2 k.p.k. jest związana z
+                                        adresata ryzyko niedoręczenia ze względu np. zakłócenie   rezygnacją korzystania z telefaksu jako środka komunikacji
+                                        pracy serwerów czy nieprawidłowo wprowadzony              procesowej. Istota projektowanych regulacji nie odnosi się
+                                        w wiadomości elektronicznej adres poczty elektronicznej   tym samym do samej instytucji doręczenia elektronicznego.
+                                        czy też późniejsze zaznajomienie się z uwagi na problem   Jedynie na marginesie należy wskazać, że doręczenie
+                                        z dostępem do poczty. Mając zaś na uwadze trudność        określone w przepisie art. 132 § 3 (w tym rozwiązanie
+                                        w ustaleniu doręczenia na serwerze zewnętrznym, jako      wskazujące, że dowodem takiego doręczenia jest
+                                        lepsze rozwiązanie jawi się tutaj dokonywanie doręczeń    potwierdzenie transmisji danych) oraz w art. 299a § 2 k.p.k.
+                                        przez portal informacyjny sądów powszechnych,
+
+
+                                                                             3
+                                           jak też ewentualnie inny portal przeznaczony do             funkcjonuje, rozwiązania te uzyskały aprobatę w toku
+                                           komunikacji z organami postępowania                         poprzedzających procesów legislacyjnych.
+                                           przygotowawczego.
+5.   Inspektor Ochrony   Art. 1 pkt 4      W ocenie opiniującej, projektowany przepis art. 148a § 4    Jedynie częściowo należy uwzględnić uwagi zgłaszane przez
+     Danych w Sądzie     (projektowany pkt 1-3 opiera się na nieprawidłowym założeniu                  Prezesa Sądu Apelacyjnego we Wrocławiu. Mając na
+     Apelacyjnym we      art. 148a k.p.k.) normatywnym. Zgodnie z jego treścią, przeprowadzający       uwadze konieczność zapewnienia jak najpełniejszej ochrony
+     Wrocławiu                             czynność w postępowaniu przygotowawczym albo                danych świadka, zasadna jest zmiana projektowanego art.
+                                           przewodniczący składu sądu – w odniesieniu do               148a k.p.k., poprzez wskazanie, że zarządzenie o odstąpieniu
+                                           protokołu, o którym mowa w § 1, a w odniesieniu do          w całości lub w części, od stosowania przepisów § 1 lub 3
+                                           innych dokumentów właściwy organ prowadzący                 (§4 projektowanej dyspozycji) wymaga uzasadnienia.
+                                           postępowanie przygotowawcze, prezes sądu lub                Jednocześnie należy przypomnieć, że treść projektowanego
+                                           przewodniczący składu sądu – może zarządzić                 przepisu art. 148a k.p.k. wskazuje, że zasadą jest
+                                           odstąpienie, w całości lub w części, od stosowania          anonimizacja określonym w tym przepisie informacji.
+                                           przepisów § 1 lub 3, w szczególności w sytuacji             Natomiast uzasadnienie projektu ustawy wyjaśnia, że organ
+                                           określonej w pkt 2, tj. gdy dane pokrzywdzonego lub         może odstąpić od anonimizacji wskazanych informacji
+                                           świadka, obejmujące m.in. miejsce zamieszkania,             szczególnie uzasadnionych wypadkach. Dlatego też
+                                           miejsce pracy, numer telefonu, adres poczty                 podejmując decyzję o odstąpieniu od anonimizacji
+                                           elektronicznej, adres do doręczeń elektronicznych oraz      wskazanych informacji, organ powinien kierować się zasadą
+                                           numer PESEL, są związane z miejscem prowadzenia             szczególnej ostrożności, mając na uwadze konieczność jak
+                                           działalności gospodarczej i zostały uprzednio podane do     najpełniejszej ochrony danych osobowych. Dane związane z
+                                           publicznej wiadomości w odpowiednim rejestrze lub           miejscem prowadzenia działalności gospodarczej przez
+                                           ewidencji. Tak ukształtowana regulacja implikuje, iż fakt   świadka są powszechnie dostępne w określonych rejestrach
+                                           uprzedniego ujawnienia określonych danych w rejestrach      (KRS, CEIDG) i każdy zainteresowany może uzyskać do
+                                           publicznych może stanowić wystarczającą przesłankę do       nich dostęp. Dlatego też uzasadnionym jest, aby w takiej
+                                           odstąpienia od ich ochrony w toku postępowania              sytuacji organ miał możliwość podjęcia decyzji o
+                                           karnego. Założenie to należy uznać za wadliwe. Nie          odstąpieniu od ich anonimizacji. Należy podkreślić, że
+                                           budzi bowiem wątpliwości, że udział w postępowaniu w        obowiązujący stan prawny dopuszcza odstąpienie, w
+                                           charakterze świadka lub pokrzywdzonego wiąże się z          opisywanym przypadku, od anonimizacji, natomiast treść
+                                           odmiennym celem oraz podstawą prawną przetwarzania          projektowanego przepisu poszerza jedynie zakres takich
+                                           danych osobowych niż ich przetwarzanie wynikające z         danych, co jest ściśle związane z ustanowionym
+                                           obowiązków rejestrowych lub ewidencyjnych                   obowiązkiem ich odebrania.
+                                           związanych z prowadzeniem działalności gospodarczej.
+
+
+                                                                                 4
+                                               W konsekwencji, utożsamianie zakresu dopuszczalności
+                                               ujawnienia danych w tych dwóch odrębnych reżimach
+                                               prawnych prowadzi do nieuprawnionego obniżenia
+                                               standardu ochrony danych osobowych uczestników
+                                               postępowania. Sąd meriti, jako administrator danych
+                                               osobowych pozyskanych w toku procesu, zobowiązany
+                                               jest do ich przetwarzania zgodnie z zasadami legalności,
+                                               celowości i minimalizacji, a także do zapewnienia ich
+                                               odpowiedniego zabezpieczenia.
+                                               Tym samym, nawet w przypadku danych znanych
+                                               oskarżonemu (art. 148a § 4 pkt 1), uprzednio
+                                               ujawnionych w rejestrach publicznych (art. 148a § 4 pkt
+                                               2), albo w przypadku identyfikowania braku potrzeby ich
+                                               ochrony (art. 148a § 4 pkt 3), organ procesowy powinien
+                                               każdorazowo dokonywać wnikliwej oceny potrzeby ich
+                                               dalszego ujawniania w toku postępowania, mając na
+                                               względzie konieczność ochrony prywatności oraz
+                                               bezpieczeństwa pokrzywdzonego lub świadka. Przyjęcie
+                                               odmiennego rozwiązania – jak w projektowanym art.
+                                               148a § 4 pkt 1-3 – prowadzi do nieuzasadnionego
+                                               rozszerzenia przesłanek odstąpienia od ochrony danych i
+                                               może skutkować naruszeniem konstytucyjnie
+                                               gwarantowanego prawa do prywatności.
+                                               Tym samym, w ocenie Inspektora Ochrony Danych,
+                                               projektowane zmiany winny zmierzać do podnoszenia
+                                               standardów ochrony danych w toku postępowania
+                                               sądowego, a w proponowanym kształcie mogą stanowić
+                                               istotne ryzyko dla praw i wolności podmiotów danych.
+6.   Instytut Legislacji i   Art. 1 pkt 4      3. Wzmocnienie ochrony danych osobowych.                   Nie można zgodzić się również z argumentem wskazującym,
+     Prac                    (projektowany Za szczególnie trafne należy uznać rozwiązanie                 że projekt nie przewiduje standardów zabezpieczenia
+     Parlamentarnych         art. 148a k.p.k.) polegające na:                                             określonych danych odbieranych od świadka. Wskazane
+                                               • wyłączeniu danych wrażliwych z protokołów,               informacje zawierające dane osobowe będą bowiem
+
+
+                                                                                    5
+     Naczelnej Rady                          • przechowywaniu ich w odrębnym załączniku               umieszczane w załączniku do protokołu, przechowywanym
+     Adwokackiej                             adresowym.                                               w załączniku adresowym do akt sprawy, przeznaczonym do
+                                             Rozwiązanie to ogranicza dostęp do danych osobowych      wyłącznej wiadomości organu prowadzącego postępowanie.
+                                             przez inne strony postępowania i zmniejsza ryzyko ich    Należy podkreślić, że proponowany kierunek zmiany, w tym
+                                             nieuprawnionego wykorzystania. Wpisuje się ono w         odnoszący się do mechanizmu zabezpieczenia, został
+                                             standardy ochrony prywatności i bezpieczeństwa           pozytywnie zaopiniowany przez Prezesa Urzędu Ochrony
+                                             informacji. Niestety nie do końca zgodzić się należy z   Danych Osobowych. Zwrócił on uwagę, że zamieszczenie
+                                             koniecznością podawania przez świadka takich danych      wskazanych danych w załączniku do protokołu, dostępnym
+                                             jak nr PESEL. W przypadku świadka podawanie tak          tylko do wiadomości organu prowadzącego postępowanie,
+                                             wrażliwych danych wydaje się być całkowicie zbędne na    jest właściwe dla zapewnienia ich bezpieczeństwa.
+                                             potrzeby toczącego się postępowania karnego.
+                                             4. Eliminacja przestarzałych rozwiązań Rezygnacja z
+                                             wykorzystania faksu jako środka komunikacji
+                                             procesowej jest w pełni uzasadniona, zarówno z punktu
+                                             widzenia bezpieczeństwa informacji, jak i praktyki
+                                             obrotu prawnego. Należy wskazać, że komunikacja
+                                             faksowa została niemal całkowicie „wyparta” przez e-
+                                             maile i skany dokumentów. Stąd sztuczne utrzymywanie
+                                             w k.p.k. komunikacji faksów jest całkowicie w
+                                             uzasadnione.
+7.   Instytut Legislacji i   Art. 1 pkt 4    2. Rozszerzenie zakresu danych osobowych a ryzyko ich    Za niezasadne należy również uznać wskazanie, że ustalenie
+     Prac                    (projektowany   naruszenia.                                              nr PESEL świadka w żaden sposób nie przyczyni się do
+     Parlamentarnych         art. 148a § 4   Projekt znacząco zwiększa zakres danych gromadzonych     przyspieszenia postępowania karnego. Ustalenie i odebranie
+     Naczelnej Rady          pkt 1–3)        przez organy procesowe. Pomimo wprowadzenia              nr PESEL występującego w sprawie świadka ma bowiem
+     Adwokackiej                             mechanizmów ich ochrony, należy zauważyć, że większy     istotne znaczenie dla sprawności przebiegu postępowania
+                                             zakres danych oznacza potencjalnie większe ryzyko ich    karnego, w tym realizacji poszczególnych czynności
+                                             wycieku. Projekt nie przewiduje szczegółowych            procesowych, w toku których niezbędna jest identyfikacja
+                                             standardów technicznych ich zabezpieczenia, Powyższe     osoby, której dana czynność ma dotyczyć lub której dane,
+                                             ma więc znaczenie w przywołanym powyżej nr PESEL,        czy dokumenty są przedmiotem tej czynności. Dla przykładu
+                                             który w przypadku wycieku danych może posłużyć           celem zabezpieczenia przez sąd lub prokuratora rzeczy
+                                             chociażby do zaciągnięcia kredytu czy innych             mogących stanowić dowód w prawie m.in. w postaci
+                                             niekorzystnych zjawisk (zakładanie kont internetowych,   dokumentacji medycznej pokrzywdzonego od określonej
+
+
+                                                                                 6
+kart itp.). Z tego względu należy z dużą ostrożnością     placówki medycznej, w sentencji postanowienia o żądaniu
+wprowadzać do procesu karnego każde nowe dane. Musi       wydania rzeczy oprócz imienia i nazwiska pacjenta
+istnieć korelacja pomiędzy udostępnieniem wrażliwych      zasadnym i koniecznym jest wskazanie przypisanego do
+danych a ich zabezpieczeniem, czego w przedmiotowym       niego nr PESEL. Stanowi on nieodłączną część
+projekcie niestety brak. Podobnie zdaniem opiniującego    dokumentacji medycznej, jednoznacznie identyfikującą
+wprowadzenie konieczności podawania nr PESEL przez        określoną osobę. Również w przypadku konieczności
+świadków w żaden sposób nie przyczyni się do              uzyskania informacji lub dokumentacji urzędowej np. z
+przyspieszenia postępowania karnego. Podobnie             Zakładu Ubezpieczeń Społecznych, urzędów skarbowych,
+podawanie nr PESEL świadków nie jest niezbędne dla        czy też komorników sądowych niezbędnym elementem
+dobra Wymiaru Sprawiedliwości. Dlatego również tej        pozwalającym na sprawne pozyskanie informacji lub
+zmiany NRA nie popiera.                                   dokumentów jest właściwa identyfikacja osoby, której one
+3. Nadmierna uznaniowość w zakresie odstąpienia od        dotyczą, co nie ulega wątpliwości zapewnia wskazanie nr
+anonimizacji.                                             PESEL. Brak takiej identyfikacji może uniemożliwić bądź
+Przepisy dopuszczające odstąpienie od anonimizacji        utrudnić uzyskanie kluczowego dla sprawy dowodu. Numer
+danych opierają się na nieostrych przestankach, takich    PESEL jako informacja jednoznacznie identyfikująca
+jak: „oczywisty brak potrzeby ochrony danych”,            określoną osobę jest także niezbędny w celu realizacji kar
+„charakter sprawy”. Nie sposób w przejrzysty i            porządkowych.
+niebudzący wątpliwości sposób ustalić, kiedy można        Nie można również uznać, że projektowany przepis art. 148a
+stosować te przesłanki. Jeśli ma dochodzić do zmiany      § 4 k.p.k. zakłada „nadmierną uznaniowość w zakresie
+anominizacji to przesłanki muszą być „ostre” i            odstąpienia od anonimizacji”. Zasady logiki i doświadczenia
+transparentne, tak by nie naruszało to praw jednostek,    życiowego wskazują, że nie można wykluczyć, że określone
+które często są pokrzywdzonymi lub osobami, które z nie   dane osobowe świadka mogą być znane oskarżonemu
+z własnej woli trafiły do procesu karnego. Dodatkowo      (chociażby z uwagi na więzi istniejące między osobami
+nie pozostawiono uczestnikom prawa do ewentualnego        najbliższymi, m.in. prowadzenie wspólnego konta
+zaskarżenia takiej decyzji, co również prowadzi do        bankowego, upoważnienie do udzielenia informacji o stanie
+negatywnej oceny przedmiotowej regulacji. Nie można       zdrowia pacjenta). Należy podkreślić, że obowiązujący stan
+bowiem nigdy przewidzieć, kiedy dokładnie odstąpienie     prawny dopuszcza odstąpienie, w określonych wypadkach,
+od anonimizacji może w danym układzie procesowym          od anonimizacji. Przepis art. 148a § 4 aktualnie obowiązuje,
+doprowadzić do naruszenia interesu danej osoby.           zaproponowane w jego treści przesłanki uzyskały zatem
+Konkludując zamiany mogą to prowadzić do                  aprobatę w toku poprzedzającego go postępowania
+niejednolitej praktyki stosowania prawa oraz              legislacyjnego.
+
+
+
+
+                                    7
+                                          ograniczenia przewidywalności decyzji organów
+                                          procesowych.
+8.   Sąd Najwyższy      Art. 1 pkt 5, 6   Celem projektu jest rozszerzenie możliwości                 Pozostałe uwagi SN nie zasługują na uwzględnienie.
+     (Biuro Studiów i   (projektowany     komunikowania się organów procesowych ze sobą oraz          Nie zasługuje na uwzględnienie uwaga wskazująca, że
+     Analiz Sądu        art. 191 § 1a i   z innymi uczestnikami postępowania za pomocą poczty         projektowany przepis art. 191 § 1a nie uprawnia organu
+     Najwyższego)       art. 192a § 1     elektronicznej oraz rezygnacja z wykorzystania telefaksu,   przesłuchującego do żądania uzyskania wskazanych w tym
+                        k.p.k.)           rozszerzenie przetwarzania danych osobowych                 przepisie danych od świadka. Wprowadzenie obowiązku
+                                          niektórych uczestników o numer PESEL i inne dane oraz       ustalenia danych dot. nazwy i numeru dokumentu
+                                          dokonanie korekty terminologicznej w art. 192a k.p.k.       stwierdzającego tożsamość, nazwy organu wydającego ten
+                                          Odnosząc się do pierwszej kwestii wyeliminowanie            dokument, numeru PESEL, miejsca zamieszkania, numeru
+                                          stosowania telefaksu należy ocenić pozytywnie, co wiąże     telefonu i adresu poczty elektronicznej, daje wystarczającą
+                                          się zresztą z faktyczną rezygnacją z korzystania z tych     podstawę prawną do żądania ich podania przez świadka.
+                                          urządzeń w ostatnich latach. Należy wskazać na pewną
+                                          niespójność wprowadzanych w k.p.k. rozwiązań
+                                          w zakresie doręczeń elektronicznych: z jednej strony
+                                          proponuje się nie tylko utrzymanie, ale rozszerzenie
+                                          komunikacji za pomocą poczty elektronicznej, z drugiej
+                                          wdraża system doręczeń na etapie postępowania
+                                          sądowego poprzez portal informacyjny sądów
+                                          powszechnych. W kontekście projektowanego art. 299 §
+                                          2a k.p.k. oraz uchwalonej już zmiany art. 133a § 1
+                                          i dodania art. 133a § 1a od dnia 1 czerwca 2026 r.
+                                          wartym rozważenia rozwiązaniem byłoby uwzględnienie
+                                          pokrzywdzonego w treści tych drugich przepisów.
+                                          Odnosząc się pozytywnie do zastąpienia w art. 192a § 1
+                                          k.p.k. pojęcia „odciski daktyloskopijne” pojęciem
+                                          „odciski linii papilarnych” należy zasugerować
+                                          równoczesne doprecyzowanie w art. 74 § 2 pkt 1 k.p.k.,
+                                          że wskazany tam obowiązek dotyczy w szczególności
+                                          odcisków linii papilarnych. Podsumowując powyższą
+                                          analizę należy stwierdzić, że część zawartych
+                                          w projekcie zmian nie nasuwa zastrzeżeń i zasługuje na
+
+
+                                                                                8
+                                              aprobatę, jednak niektóre proponowane regulacje
+                                              wymagają szerszego przemyślenia lub korekty.
+9.    Instytut Legislacji i   Art. 1 pkt 6    5. Uporządkowanie terminologii.                            Niezasadnym jest uwzględnienie uwag artykułowanych
+      Prac                    (projektowany   Zmiana pojęcia „odciski daktyloskopijne” na „odciski       przez Naczelną Radę Adwokacką.
+      Parlamentarnych         art. 192a § 1   linii papilarnych” ma charakter porządkujący i eliminuje
+      Naczelnej Rady          k.p.k.)         potencjalne niejasności interpretacyjne, dostosowując
+      Adwokackiej                             przepisy do aktualnej terminologii naukowej.
+10.   Instytut Legislacji i   Uwagi           4. Brak pogłębionej oceny skutków regulacji (OSR).         Niezasadnym jest uwzględnienie uwag artykułowanych
+      Prac                    końcowe         Brak pełnej oceny skutków regulacji stanowi istotny        przez Naczelną Radę Adwokacką.
+      Parlamentarnych                         mankament projektu, w szczególności w zakresie:
+      Naczelnej Rady                          - wpływu zmian na funkcjonowanie organów wymiaru
+      Adwokackiej                             sprawiedliwości,
+                                              - kosztów wdrożenia nowych rozwiązań,
+                                              - ryzyk związanych z bezpieczeństwem danych.
+                                              Wnioski końcowe.
+                                              Projekt ustawy należy ocenić jako zasadniczo trafny i
+                                              potrzebny. W szczególności pozytywnie należy ocenić:
+                                              - kierunek cyfryzacji postępowania karnego,
+                                              - wzmocnienie ochrony danych osobowych,
+                                              - eliminację przestarzałych form komunikacji.
+                                              Jednocześnie projekt wymaga dopracowania w
+                                              kluczowych obszarach, zwłaszcza w zakresie:
+                                              - zasad doręczeń elektronicznych,
+                                              - ograniczenia uznaniowości organów,
+                                              - zapewnienia odpowiedniego poziomu bezpieczeństwa
+                                              przetwarzanych danych,
+                                              - wyeliminowania konieczności podawania nr PESEL
+                                              przez świadków i uczestników.
+                                              Ostatecznie projekt stanowi krok w dobrym kierunku,
+                                              jednak jego skuteczność będzie zależała od
+                                              doprecyzowania rozwiązań szczegółowych oraz ich
+                                              właściwego wdrożenia w praktyce stosowania prawa.
+
+
+                                                                                    9
+11.   Prokuratura    Uwagi ogólne   Wskazano, że zmiany z jednej strony wprowadzają            Nie zasługują na uwzględnienie uwagi artykułowane przez
+      Regionalna                    uproszczenie procedury doręczania pism, z drugiej          Prokuraturę Regionalną w Katowicach. Nie można bowiem
+      w Katowicach                  jednak dodają organom procesowym kolejny, niemały,         uznać, że „poważnym problemem logistycznym będzie
+                                    zakres obowiązków związanych ze znacznym                   anonimizacja wskazanych w projekcie, dodatkowych danych
+                                    rozbudowaniem danych, które podlegają animizacji; w        osobowych”. Obowiązujące przepisy nakazują tworzenie
+                                    sprawach wielowątkowych i wieloosobowych będzie to         załączników adresowych do akt sprawy, w których
+                                    poważny problem logistyczny; skutkiem ubocznym             przechowywane są określone dane osobowe świadków lub
+                                    zmian będzie dalszy rozrost objętości akt papierowych      innych uczestników biorących udział w czynnościach
+                                    oraz wzrost zużycia sprzętu i materiałów eksploatacyjny.   protokołowanych. Załączniki adresowe są więc używane w
+                                    Podniesiono, że regulacja nie uwzględnia tego, iż w 90%    codziennej pracy organów procesowych. Celem
+                                    dokumentów wytworzonych w ramach postępowania              anonimizacji dodatkowych, wskazanych w projekcie
+                                    przez organy postępowania pojawiają się numery PESEL       informacji wystarczy umieścić kilka dodatkowych rubryk w
+                                    (postanowienia o z zwolnieniu z tajemnicy,                 obrębie załącznika adresowego. Pozwoli to na anonimizację
+                                    postanowienia o żądaniu wydania rzeczy dot. np.            dodatkowych, przewidzianych w projekcie informacji.
+                                    dokumentacji medycznej, postanowienia do banków,           Jeżeli chodzi o kwestię anonimizacji wydanych w toku
+                                    postanowienia do operatorów etc.) W tym zakresie           postępowania dokumentów, np. postanowienia o żądaniu
+                                    regulacja nie wyjaśnia, czy po wydaniu postanowienia z     wydania rzeczy, zawierającego nr PESEL uczestnika
+                                    danymi PESEL, organ ma wytworzyć kolejne                   postępowania to należy wskazać, że projektowany przepis
+                                    zanonimizowane postanowienie celem dołączenia do akt,      art. 148a § 3 k.p.k. wskazuje, że umieszczone w
+                                    czy niezbędne dane wskazywać jako załącznik do             dokumentach informacje dot. m.in. nr PESEL przechowuje
+                                    postanowienia.                                             się w załączniku adresowym do akt sprawy, do wiadomości
+                                                                                               organu prowadzącego postępowanie. Do akt załącza się
+                                                                                               uwierzytelnione kserokopie dokumentów lub ich części,
+                                                                                               sporządzone w sposób uniemożliwiający zapoznanie się z
+                                                                                               tymi danymi.
+
+
+
+
+                                                                         10
+

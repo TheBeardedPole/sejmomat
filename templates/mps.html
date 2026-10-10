@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}{{ _("Posłowie") }}{% endblock %}
+{% block content %}
+<h1>{{ _("Posłowie") }}</h1>
+<p class="muted">{{ _("Kliknij nagłówek kolumny, aby posortować.") }} <a href="{{ root }}metodologia.html">{{ _("Definicje wskaźników") }}</a>.</p>
+<div class="table-scroll">
+<table>
+  <thead><tr>
+    <th data-sort="text">{{ _("Poseł") }}</th><th data-sort="text">{{ _("Klub") }}</th>
+    <th class="num" data-sort="num">{{ _("Udział w głos.") }}</th>
+    <th class="num" data-sort="num">{{ _("Wyłamania") }}</th>
+    <th class="num" data-sort="num">{{ _("% wyłamań") }}</th>
+    <th class="num" data-sort="num">{{ _("Podpisane wnioski") }}</th>
+    <th class="num" data-sort="num">{{ _("Zmiany klubu") }}</th>
+  </tr></thead>
+  <tbody>
+  {% for r in mp_rows %}
+  <tr>
+    <td data-v="{{ r.mp.firstLastName.split()[-1] }}"><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a>{% if not r.mp.active %} <span class="muted">{{ _("(wygasły)") }}</span>{% endif %}</td>
+    <td>{{ r.mp.club }}</td>
+    <td class="num" data-v="{{ r.turnout }}">{{ r.turnout | pct }}</td>
+    <td class="num" data-v="{{ r.rebel_count }}">{{ r.rebel_count }}</td>
+    <td class="num" data-v="{{ r.rebel_rate }}">{{ r.rebel_rate | pct }}</td>
+    <td class="num" data-v="{{ r.signed | length }}">{% if r.signed %}{{ r.signed_adopted }} / {{ r.signed | length }}{% endif %}</td>
+    <td class="num" data-v="{{ r.switches }}" title="{{ r.history | map(attribute='club') | join(' → ') }}">{% if r.switches %}{{ r.switches }}{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}

@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}{{ r.mp.firstLastName }} ({{ r.mp.club }}){% endblock %}
+{% block description %}{{ r.mp.firstLastName }}, {{ clubs.get(r.mp.club, r.mp.club) }}{% if r.mp.districtName %}, {{ _("okręg") }} {{ r.mp.districtName }}{% endif %}: {{ _("udział w głosowaniach") }} {{ r.turnout | pct }}, {{ r.rebel_count }} {{ _("wyłamań z linii klubu") }}.{% endblock %}
+{% block main_attrs %} data-pagefind-body{% endblock %}
+{% block content %}
+<div class="crumbs"><a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a></div>
+<h1>{{ r.mp.firstLastName }}</h1>
+<p class="muted"><a href="{{ root }}klub/{{ club_slug(r.mp.club) }}.html">{{ clubs.get(r.mp.club, r.mp.club) }}</a>{% if r.mp.districtName %} · {{ _("okręg") }} {{ r.mp.districtName }}{% endif %}
+{% if r.history | length > 1 %} · {{ _("w tej kadencji w klubach") }}: {{ r.history | map(attribute="club") | join(" → ") }}{% endif %}
+{% if not r.mp.active %} · {{ _("mandat wygasły") }}{% endif %}</p>
+
+<div class="grid">
+  <div class="card stat"><b>{{ r.turnout | pct }}</b>{{ _("udział w głosowaniach") }} ({{ r.cast }} {{ _("z") }} {{ r.eligible }})</div>
+  <div class="card stat"><b>{{ r.rebel_count }}</b>{{ _("wyłamań z linii klubu") }} ({{ r.rebel_rate | pct }})</div>
+  {% if r.signed %}<div class="card stat"><b>{{ r.signed_adopted }} / {{ r.signed | length }}</b>{{ _("podpisanych poprawek i wniosków przyjętych") }}</div>{% endif %}
+</div>
+
+{% if r.history | length > 1 %}
+<h2>{{ _("Historia przynależności klubowej") }}</h2>
+<table>
+  <thead><tr><th>{{ _("Klub") }}</th><th>{{ _("Od") }}</th><th>{{ _("Do") }}</th><th class="num">{{ _("Głosowania") }}</th></tr></thead>
+  <tbody>
+  {% for h in r.history %}
+  <tr><td><a href="{{ root }}klub/{{ club_slug(h.club) }}.html">{{ h.club }}</a> <span class="muted">{{ clubs.get(h.club, "") }}</span>{% if h.rename %} <span class="muted">({{ _("zmiana nazwy lub formuły klubu") }})</span>{% endif %}</td>
+  <td style="white-space:nowrap">{{ h["from"] | date_pl }}</td><td style="white-space:nowrap">{{ h.to | date_pl }}</td><td class="num">{{ h.votes }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+<p class="note">{{ _("Na podstawie przynależności zapisanej przy każdym głosowaniu; daty to pierwsze i ostatnie głosowanie w danym klubie.") }}</p>
+{% endif %}
+
+{% if r.signed %}
+<h2>{{ _("Podpisane poprawki i wnioski") }} ({{ r.signed_adopted }} / {{ r.signed | length }} {{ _("przyjęte") }})</h2>
+<div class="table-scroll"><table><tbody>
+{% for v in r.signed %}
+<tr>
+  <td style="white-space:nowrap">{{ v.date | date_pl }}</td>
+  <td><a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a><div class="snippet" lang="pl">{{ v.agenda | truncate(120) }}</div></td>
+  <td><span class="badge {{ v.outcome_class }}">{{ _(v.outcome) }}</span></td>
+</tr>
+{% endfor %}
+</tbody></table></div>
+{% endif %}
+
+<h2>{{ _("Wyłamania z linii klubu") }}</h2>
+{% if r.rebellions %}
+<div class="table-scroll"><table>
+  <thead><tr><th>{{ _("Data") }}</th><th>{{ _("Głosowanie") }}</th><th>{{ _("Głos") }}</th><th>{{ _("Linia klubu") }}</th></tr></thead>
+  <tbody>
+  {% for s, n, code, line, club in r.rebellions | reverse %}{% set v = by_id[(s, n)] %}
+  <tr>
+    <td style="white-space:nowrap">{{ v.date | date_pl }}</td>
+    <td><a href="{{ root }}glosowanie/{{ s }}-{{ n }}.html">{{ v.topic or v.agenda }}</a><div class="snippet">{{ v.agenda | truncate(120) }}</div></td>
+    <td class="v-{{ code }}">{{ _(VOTE_LABEL[code]) }}</td>
+    <td class="v-{{ line }}">{{ _(LINE_LABEL[line]) }} <span class="muted">({{ club }})</span></td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% else %}<p class="muted">{{ _("Brak.") }}</p>{% endif %}
+{% endblock %}

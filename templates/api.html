@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}API{% endblock %}
+{% block description %}{{ _("Otwarte API w formacie JSON: głosowania Sejmu powiązane z treścią poprawek, wyniki klubów, głosy imienne, posłowie i zmiany w prawie.") }}{% endblock %}
+{% block content %}
+<h1>API</h1>
+<p>{{ _("Otwarte API w formacie JSON: głosowania Sejmu powiązane z treścią poprawek, wyniki klubów, głosy imienne, posłowie i zmiany w prawie.") }}
+{{ _("Pliki są statyczne i odświeżane razem ze stroną; można je pobierać z dowolnej strony WWW (CORS).") }}</p>
+<p>{{ _("Adres bazowy") }}: <code>{{ SITE_URL or site_root }}api/v1/</code> · <a href="{{ site_root }}api/v1/index.json">index.json</a></p>
+
+<h2>{{ _("Endpointy") }}</h2>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>{{ _("Ścieżka") }}</th><th>{{ _("Zawartość") }}</th></tr></thead>
+  <tbody>
+    <tr><td><code>sittings.json</code></td><td>{{ _("lista posiedzeń z liczbą głosowań") }}</td></tr>
+    <tr><td><code>sittings/{sitting}.json</code></td><td>{{ _("głosowania posiedzenia: wynik, temat, druki, powiązane poprawki (bez treści)") }}</td></tr>
+    <tr><td><code>votes/{sitting}/{votingNumber}.json</code></td><td>{{ _("pełne głosowanie: treść poprawek, rekomendacja komisji, zmiany w prawie, wyniki klubów, linia klubu, wyłamania, głosy imienne") }}</td></tr>
+    <tr><td><code>bills.json</code>, <code>bills/{print}.json</code></td><td>{{ _("projekty (wg druku otwierającego proces), zmiany w obowiązującym prawie, skuteczność zgłaszających, głosowania") }}</td></tr>
+    <tr><td><code>mps.json</code>, <code>mps/{id}.json</code></td><td>{{ _("posłowie: udział, wyłamania, podpisane wnioski, historia przynależności klubowej") }}</td></tr>
+    <tr><td><code>clubs.json</code></td><td>{{ _("kluby: członkowie, spójność, skuteczność, zgodność z innymi klubami") }}</td></tr>
+    <tr><td><code>prints/{print}.json</code></td><td>{{ _("druk: metadane i sparsowane poprawki / wnioski mniejszości / poprawki Senatu") }}</td></tr>
+    <tr><td><code>adopted-amendments.json</code></td><td>{{ _("skuteczność zgłaszających (kluby, posłowie) i lista przyjętych poprawek") }}</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>{{ _("Przykład") }}</h2>
+<pre class="code">fetch("{{ SITE_URL or '' }}api/v1/votes/66/21.json")
+  .then((r) => r.json())
+  .then((v) => console.log(v.result.label, v.amendments[0].text, v.clubs.KO));</pre>
+
+<h2>{{ _("Zasady") }}</h2>
+<ul>
+  <li>{{ _("Identyfikatory posłów i klubów są takie same jak w API Sejmu (api.sejm.gov.pl).") }}</li>
+  <li>{{ _("Głosy: yes / no / abstain / absent. Teksty prawne i etykiety pozostają po polsku.") }}</li>
+  <li>{{ _("Treść poprawek i porównania z prawem są wyodrębniane automatycznie; pole linked mówi, czy treść udało się powiązać. Wiążący jest oficjalny druk.") }}</li>
+  <li>{{ _("Wersja v1 jest stabilna: pola mogą być dodawane, ale nie usuwane ani zmieniane.") }}</li>
+</ul>
+{% endblock %}

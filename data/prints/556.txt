@@ -1,0 +1,304 @@
+                                                                        Druk nr 556
+                                                               Warszawa, 28 czerwca 2024 r.
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+        X kadencja
+
+
+
+                                                             Pan
+                                                             Szymon Hołownia
+                                                             Marszałek Sejmu
+                                                             Rzeczypospolitej Polskiej
+
+
+
+
+         Na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej i na podstawie
+ art. 32 ust. 2 regulaminu Sejmu niżej podpisani posłowie wnoszą projekt ustawy:
+
+
+
+  - o zmianie ustawy - Kodeks wyborczy.
+
+      Do reprezentowania wnioskodawców w pracach nad projektem ustawy
+ upoważniamy pana posła Michała Gramatykę.
+
+
+  (-) Izabela Bodnar; (-) Elżbieta Burkiewicz; (-) Dominika Chorosińska; (-) Janusz
+ Cieszyński; (-) Żaneta Cwalina-Śliwowska; (-) Sławomir Ćwik; (-) Adam
+ Gomoła; (-) Robert Gontarz; (-) Daria Gosek-Popiołek; (-) Piotr Górnikiewicz;
+ (-) Michał Gramatyka; (-) Paulina Hennig-Kloska; (-) Bożenna Hołownia; (-) Marek
+ Jakubiak;      (-) Rafał    Kasprzyk;     (-) Rafał     Komarewicz;     (-) Maciej
+ Konieczny;      (-) Aleksandra Leo;      (-) Adam Luboński;       (-) Maja Ewa
+ Nowak; (-) Barbara Okuła; (-) Barbara Oliwiecka; (-) Łukasz Osmalak; (-) Ryszard
+ Petru; (-) Bartosz Romowicz; (-) Jarosław Sachajko; (-) Ewa Schädler; (-) Marcin
+ Skonieczka;      (-) Piotr Paweł Strach;        (-) Mirosław Suchoń;       (-) Ewa
+ Szymanowska; (-) Paweł Śliz; (-) Kamil Wnuk; (-) Paweł Zalewski; (-) Adrian
+ Zandberg; (-) Marcelina Zawisza; (-) Tomasz Zimoch.
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                       Projekt
+
+
+                                          U S T AWA
+
+                                      z dnia ……. 2024 r.
+
+                           o zmianie ustawy – Kodeks wyborczy
+
+
+     Art. 1. W ustawie z dnia 5 stycznia 2011 r. – Kodeks wyborczy (Dz. U. z 2023 r. poz.
+2408 oraz z 2024 r. poz. 721) wprowadza się następujące zmiany:
+1)   w art. 160:
+     a)   w § 1 w pkt 10 kropkę zastępuje się średnikiem i dodaje pkt 11 w brzmieniu:
+          „11) prowadzenie w systemie teleinformatycznym Portalu zgłaszania kandydatów
+               lub list kandydatów w wyborach powszechnych, zwanego dalej „Portalem”
+               służącego do udostępniania formularza poparcia kandydatów lub list
+               kandydatów       drogą      elektroniczną,      zwanego    dalej   „formularzem
+               elektronicznym„ zamieszczonego na Portalu przez komitety wyborcze.”,
+     b)   dodaje się § 5–9 w brzmieniu:
+               „§ 5. Obsługę Portalu zapewnia Krajowe Biuro Wyborcze.
+               § 6. Komitet wyborczy zamieszczający formularz elektroniczny w Portalu
+          ponosi odpowiedzialność za zgodną ze wzorem treść formularza.
+               § 7. Formularz elektroniczny zawiera:
+          1)   nazwę komitetu wyborczego zgłaszającego listę lub kandydata;
+          2)   numer okręgu wyborczego, w którym lista lub kandydat jest zgłaszany;
+          3)   nazwisko, imię, adres zamieszkania i numer ewidencji PESEL udzielającego
+               poparcia;
+          4) adnotację: ”Udzielam poparcia liście kandydatów/kandydatowi na …………
+               zgłaszanej przez ................ (nazwa komitetu wyborczego) w okręgu
+               wyborczym ............ (numer okręgu) w wyborach do …………….
+               zarządzonych na ............... (dzień, miesiąc, rok).”;
+               § 8. Poparcie dla listy kandydatów lub kandydata udzielone poprzez złożenie
+          elektronicznej deklaracji poparcia, uwierzytelnia się za pomocą:
+          1)   kwalifikowanego podpisu elektronicznego;
+                                              –2–
+
+
+         2)    podpisu zaufanego;
+         3)    podpisu osobistego;
+         4)    innego środka identyfikacji elektronicznej, wydanego w systemie identyfikacji
+               elektronicznej przyłączonym do węzła krajowego identyfikacji elektronicznej,
+               o którym mowa w art. 21a ust. 1 pkt 2 lit. a ustawy z dnia 5 września 2016 r. o
+               usługach zaufania oraz identyfikacji elektronicznej (Dz. U. z 2024 r. poz. 422).
+               § 9. Prezes Rady Ministrów, po zasięgnięciu opinii Państwowej Komisji
+         Wyborczej, określa, w drodze rozporządzenia:
+         1)    wzór formularza elektronicznego,
+         2)    sposób udostępniania w Portalu formularza elektronicznego,
+         3)    sposób przekazania uwierzytelnionych formularzy elektronicznych właściwym
+               komitetom wyborczym,
+         4)    środki identyfikacji elektronicznej, o których mowa w § 8 pkt 4, służące do
+               uwierzytelniania formularza elektronicznego
+         – uwzględniając jednolitość informacji zawartych w wykazie osób popierających
+         listy kandydatów lub kandydata w postaci papierowej i formularzu elektronicznym,
+         a także możliwość jednoznacznej identyfikacji osoby udzielającej poparcia liście
+         kandydatów lub kandydatowi.”;
+2)   w art. 209 dodaje się § 4 w brzmieniu:
+          „§ 4. Wyborca może udzielić poparcia liście kandydatów za pomocą formularza
+     elektronicznego przez wypełnienie formularza elektronicznego udostępnionego w
+     Portalu, jego uwierzytelnienie oraz złożenie za pomocą Portalu.”;
+3)   w art. 210 w § 1 wyrazy „art. 209 § 2 i 3„ zastępuje się wyrazami „art. 209 § 2–4”;
+4)   w art. 212 w § 5 pkt 1 otrzymuje brzmienie:
+     „1) oświadczenie o liczbie podpisów wyborców popierających listę wraz z wykazem
+          podpisów wyborców popierających listę, w tym wykazem podpisów zebranych za
+          pośrednictwem formularzy elektronicznych złożonych za pomocą Portalu, bądź
+          oświadczenie o skorzystaniu z uprawnienia, o którym mowa w art. 210 § 2;”;
+5)   w art. 265 po § 4 dodaje się § 4a w brzmieniu:
+          „§ 4a. Wyborca może udzielić poparcia kandydatowi na senatora za pomocą
+     formularza elektronicznego przez wypełnienie formularza udostępnionego w Portalu,
+     jego uwierzytelnienie oraz złożenie za pomocą Portalu.”;
+                                             –3–
+
+
+6)   użyte w art. 299 w § 1 i w art. 304 w § 2 w pkt 3 wyrazy „art. 303 § 1 pkt 3„ zastępuje się
+     wyrazami „art. 303 § 1 pkt 3 i 4 oraz § 1a”;
+7)   w art. 303:
+     a)   w § 1 w pkt 3 kropkę zastępuje się średnikiem i dodaje się pkt 4 w brzmieniu:
+          „4) wykaz obywateli popierających zgłoszenie drogą elektroniczną wraz z
+               przesłanymi formularzami elektronicznymi.”,
+     b)   po § 1 dodaje się § 1a w brzmieniu:
+               „§ 1a. Wyborca może udzielić poparcia kandydatowi drogą elektroniczną za
+          pomocą formularza elektronicznego przez wypełnienie formularza udostępnionego
+          w Portalu, jego uwierzytelnienie oraz złożenie za pomocą Portalu.”;
+8)   w art. 427 dodaje § 5 w brzmieniu:
+          „§ 5. Wyborca może udzielić poparcia liście kandydatów za pomocą formularza
+     elektronicznego przez wypełnienie formularza udostępnionego w Portalu, jego
+     uwierzytelnienie oraz złożenie za pomocą Portalu.”;
+9)   w art. 428 § 1 otrzymuje brzmienie:
+          „§ 1. Listy kandydatów, odrębnie dla każdego okręgu wyborczego, zgłasza się do
+     gminnej komisji wyborczej najpóźniej w 34 dniu przed dniem wyborów do godziny
+     16:00, wraz z wykazem podpisów, w tym wykazem podpisów zebranych za
+     pośrednictwem formularzy elektronicznych złożone za pomocą Portalu.”;
+10) w art. 464 dotychczasową treść art. 464 oznacza się jako § 1 i dodaje się §2 w brzmieniu:
+          „§ 2. Wyborca może udzielić poparcia liście kandydatów do sejmików
+     wojewódzkich za pomocą formularza elektronicznego przez wypełnienie formularza
+     udostępnionego w Portalu, jego uwierzytelnienie oraz złożenie za pomocą Portalu.”;
+11) w art. 478 dodaje się § 6 w brzmieniu:
+          „§ 6. Wyborca może udzielić poparcia kandydatowi drogą elektroniczną za pomocą
+     formularza elektronicznego przez wypełnienie formularza udostępnionego w Portalu,
+     jego uwierzytelnienie oraz złożenie za pomocą Portalu.”;
+12) w art. 479 w § 2 pkt 3 otrzymuje brzmienie:
+     „3) w przypadku wyborów przedterminowych – wykaz wyborców popierających
+          kandydata, w tym wykaz podpisów zebranych za pośrednictwem formularzy
+          elektronicznych złożonych za pomocą Portalu oraz formularze poparcia kandydata
+          złożone za pomocą Portalu.”;
+13) art. 497 otrzymuje brzmienie:
+                                            –4–
+
+
+          „Art. 497. § 1. Kto, w związku z wyborami, zbiera podpisy osób popierających
+     zgłoszenie listy kandydatów lub kandydata lub uzyskuje poparcie dla listy kandydatów
+     lub kandydata udzielone poprzez złożenie elektronicznej deklaracji poparcia, stosując
+     jakąkolwiek formę nacisków zmierzających do uzyskania podpisów
+          – podlega grzywnie od 1000 do 10 000 złotych.
+          § 2. Tej samej karze podlega, kto zbiera podpisy osób popierających zgłoszenie listy
+     kandydatów lub kandydata lub uzyskuje poparcie dla listy kandydatów lub kandydata
+     udzielone poprzez złożenie elektronicznej deklaracji poparcia na terenie jednostek
+     wojskowych lub innych jednostek organizacyjnych podległych Ministrowi Obrony
+     Narodowej albo oddziałów obrony cywilnej lub skoszarowanych jednostek podległych
+     ministrowi właściwemu do spraw wewnętrznych.
+          § 3. Kto udziela lub przyjmuje korzyść majątkową lub osobistą w zamian za
+     zbieranie lub złożenie podpisu pod zgłoszeniem listy kandydatów lub kandydata lub
+     zbieranie poparcia dla listy kandydatów lub kandydata udzielanego poprzez złożenie
+     elektronicznej deklaracji poparcia lub udziela w tej formie poparcia
+          – podlega grzywnie od 10 000 do 50 000 zł.”.
+
+     Art. 2. Do wyborów zarządzonych przed dniem wejścia w życie niniejszej ustawy stosuje
+się przepisy ustawy zmienianej w art. 1 w brzmieniu dotychczasowym.
+
+     Art. 3. Ustawa wchodzi w życie po upływie 6 miesięcy od dnia ogłoszenia.
+                                             –5–
+
+
+                                  UZASADNIENIE
+
+
+
+     1. Potrzeba i cel uchwalenia ustawy
+
+     Wykorzystywanie nowoczesnych technologii może przysłużyć się zwiększeniu
+partycypacji obywatelskiej w życiu publicznym. Każda forma ułatwienia obywatelom udziału
+w wyborach czy popierania swoich kandydatów jest warta poparcia. Celem ustawy jest
+rozszerzenie możliwości poparcia list kandydatów i kandydatów podczas zgłaszania organom
+wyborczym.
+
+     2. Rzeczywisty stan w dziedzinie, która ma zostać unormowana
+
+     W aktualnym stanie prawnym jedyną możliwością zbierania podpisów poparcia pod
+listami kandydatów w wyborach powszechnych jest forma papierowa z przekazywaniem
+papierowych wykazów do Państwowej Komisji Wyborczej. W dobie cyfryzacji praktycznie
+większości usług publicznych, pozostawienie tylko papierowego zbierania podpisów poparcia
+pod listami kandydatów jest rozwiązaniem anachronicznym.
+
+     3. Projektowane rozwiązania
+
+     Podstawą proponowanych w projekcie ustawy rozwiązań jest zaprojektowanie w ramach
+jednej z instytucji państwowych elektronicznej platformy służącej do obsługi procesu
+elektronicznego popierania list kandydatów i kandydatów wybieranych w wyborach
+powszechnych – „Portalu zgłaszania kandydatów lub list kandydatów w wyborach
+powszechnych”. Zgodnie z projektem platforma taka zostałaby utworzona przy Państwowej
+Komisji Wyborczej, a jej utrzymanie i prowadzenie byłoby zadaniem Państwowej Komisji
+Wyborczej.
+
+     Od strony technicznej w Portalu byłby zamieszczany przez dany komitet wyborczy
+formularz elektroniczny zgodnie ze wzorem określonym w rozporządzeniu. Formularz będzie
+pobierany przez osoby zainteresowane udzieleniem poparcia kandydatowi lub liście wyborczej,
+wypełniany, a następnie podpisywany kwalifikowanym podpisem elektronicznym, podpisem
+zaufanym, podpisem osobistym lub innym środkiem identyfikacji elektronicznej, wydanym w
+systemie identyfikacji elektronicznej przyłączonym do węzła krajowego identyfikacji
+elektronicznej, o którym mowa w art. 21a ust. 1 pkt 2 lit. a ustawy z dnia 5 września 2016 r. o
+usługach zaufania oraz identyfikacji elektronicznej. Podpisany formularz przesyłany byłby na
+stronę Portalu. Z portalu uwierzytelnione formularze byłyby przekazywane komitetom
+                                             –6–
+
+
+wyborczym, których lista kandydatów lub kandydat otrzymał poparcie za pośrednictwem
+elektronicznego formularza.
+
+     Funkcjonowanie portalu i szczegóły związane z udzielaniem poparcia za pomocą
+formularza elektronicznego będą uregulowane w rozporządzeniu wydanym przez Prezesa Rady
+Ministrów po zasięgnięciu opinii Państwowej Komisji Wyborczej na podstawie art. 160 § 9
+Kodeksu wyborczego, które określi:
+     1)   wzór formularza elektronicznego,
+     2)   sposób udostępniania w Portalu formularza elektronicznego,
+     3)   sposób przekazania uwierzytelnionych formularzy elektronicznych właściwym
+          komitetom wyborczym,
+     4)   środki identyfikacji elektronicznej, o których mowa w art. 160 § 8 pkt 4, służące do
+          uwierzytelniania formularza elektronicznego.
+Założenia projektu ww. rozporządzenia są następujące:
+–    wzór formularza będzie zawierał wszystkie dane niezbędne do prawidłowej identyfikacji
+     komitetu wyborczego i osoby udzielającej poparcia i będzie skonstruowany tak, aby
+     komitet go udostępniający i wypełniający wyborcy nie mogli wprowadzić w nim żadnych
+     zmian, lub pominąć wypełnienia rubryk, które obligatoryjne mają wypełnić,
+–    sposób udostępnienia formularza na Portalu zapewni łatwość dostępu do panelu, na
+     którym umieszczone są formularze dla komitetów oraz identyfikacji formularza
+     przeznaczonego dla danych wyborów,
+–    sposób przekazania przez wyborcę wypełnionego i uwierzytelnionego formularza do
+     będzie uwzględniał uzyskanie przez wyborcę potwierdzenia przekazania z oznaczeniem
+     czasu, w którym to nastąpiło,
+–    rozporządzenie będzie wskazywało możliwie najszerszą liczbę środków identyfikacji
+     elektronicznej, wydanych w systemie identyfikacji elektronicznej przyłączonym do węzła
+     krajowego identyfikacji elektronicznej, o którym mowa w art. 21a ust. 1 pkt 2 lit. a ustawy
+     z dnia 5 września 2016 r. o usługach zaufania oraz identyfikacji elektronicznej,
+     gwarantującą jak najszerszy dostęp wyborców do elektronicznej formy udzielania
+     poparcia.
+
+     Pozostałe zmiany ujęte w projekcie uwzględniają to, że komitety wyborcze oprócz
+wykazów z listami poparcia w formie papierowej, będą musiały także przekazywać wykazy
+                                           –7–
+
+
+osób popierających listy kandydatów albo kandydatów w formie deklaracji elektronicznej oraz
+elektroniczną postać formularzy dla potwierdzenia ich prawidłowości.
+
+     Dodatkowo, konieczna jest zmiana dotychczasowych przepisów karnych dotyczących
+naruszeń zasad zbierania podpisów i rozszerzenia czynów karalnych w nim opisanych, także
+na udzielanie poparcia drogą elektroniczną – nowe brzmienie art. 497.
+
+     Proponuje się, aby ustawa weszła w życie po upływie 6 miesięcy od dnia ogłoszenia.
+Okres ten jest odpowiedni dla stworzenia portalu i uruchomienie jego funkcjonalności. Należy
+przy tym zaznaczyć, że w praktyce Portal będzie wykorzystywany tylko w okresie wyborów.
+Niezależnie od długiego okresu vacatio legis projekt zawiera przepis przejściowy stanowiący,
+że do wyborów zarządzonych przed dniem wejścia w życie nowelizacji stosuje się
+dotychczasowe przepisy Kodeksu wyborczego.
+
+     4. Skutki społeczne, gospodarcze, finansowe i prawne
+
+     Proponowane rozwiązania będą miały pozytywny skutek w postaci zwiększenia się
+zainteresowania wyborami i łatwiejszego udzielania poparcia dla swoich kandydatów w
+wyborach. Wychodząc naprzeciw tym oczekiwaniom w projekcie zaproponowano proste
+rozwiązanie systemowe umożliwiające składanie poparcia dla list kandydatów lub kandydatów
+także elektronicznie, z zapewnieniem odpowiedniej weryfikacji udzielonego poparcia.
+
+     Projekt nie wpływa na prowadzenie działalności gospodarczej, w tym na działalność
+mikroprzedsiębiorców oraz małych i średnich przedsiębiorstw.
+
+     Projekt nie pociąga za sobą obciążenia budżetów jednostek samorządu terytorialnego.
+
+     Projekt pociąga za sobą obciążenie budżetu państwa. Skutkiem projektu będą wydatki w
+wysokości 10 mln zł w pierwszym roku na utworzenie Portalu, w kolejnych lata będą to koszty
+utrzymania Portalu, które nie powinny przekroczyć kwoty 1 mln zł. Źródłem pokrycia tych
+wydatków będzie budżet Państwowej Komisji Wyborczej.
+
+     Projekt nie był poddany konsultacjom społecznym. Jednakże postulat umożliwienia
+cyfryzacji procesu wyborczego w tym zbierania podpisów poparcia był od lat zgłaszany przez
+środowiska związane z budową społeczeństwa obywatelskiego. Dla przykładu postulat ten był
+podnoszony także przez Rzecznika Praw Obywatelskich.
+
+     Projekt jest zgodny z prawem Unii Europejskiej.
+                                        –8–
+
+
+    Projekt ustawy nie zawiera przepisów technicznych i w związku z tym nie podlega
+procedurze notyfikacji w rozumieniu przepisów rozporządzenia Rady Ministrów z dnia 23
+grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego systemu notyfikacji norm i
+aktów prawnych.
+
+    Projekt nie wymaga zasięgnięcia opinii, dokonania konsultacji oraz uzgodnienia z
+właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem
+Centralnym.
+

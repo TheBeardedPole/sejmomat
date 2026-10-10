@@ -1,0 +1,80 @@
+name: Aktualizacja danych i publikacja
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # after evening voting blocks
+    - cron: "30 5 * * *"   # catch late corrections
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install poppler (pdftotext) and Tesseract (OCR for scanned prints)
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-pol
+
+      - run: pip install -r requirements.txt
+
+      # Consolidated texts of amended acts are large and not committed;
+      # keep them between runs so only newly cited acts are downloaded.
+      - uses: actions/cache@v4
+        with:
+          path: cache/acts
+          key: acts-${{ github.run_id }}
+          restore-keys: acts-
+
+      - name: Fetch new votings, prints and amended acts
+        run: python -m lepszy_sejm fetch
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "Aktualizacja danych $(date -u +%F)"
+            git push
+          fi
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build site
+        run: python -m lepszy_sejm build
+        env:
+          # Canonical links, hreflang and sitemap.xml need the public URL.
+          # Set a SITE_URL repository variable when using a custom domain.
+          SITE_URL: ${{ vars.SITE_URL || steps.pages.outputs.base_url }}
+
+      - name: Build search index
+        run: npx -y pagefind@1 --site site
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

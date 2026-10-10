@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% from "_macros.html" import result_badge, mp_link, print_link, law_changes, bill_diff %}
+{% block title %}{{ (v.topic or v.agenda) | capitalize }} — {{ v.agenda | truncate(80) }}{% endblock %}
+{% block description %}{{ v.date | date_pl }}, {{ sitting_name(v.sitting) }}, {{ _("głosowanie nr") }} {{ v.votingNumber }}: {{ v.topic }} — {{ v.agenda }}. {{ _(v.outcome) }}: {{ v.yes }} {{ _("za") }}, {{ v.no }} {{ _("przeciw") }}, {{ v.abstain }} {{ _("wstrzymało się") }}.{% endblock %}
+{% block main_attrs %} data-pagefind-body{% endblock %}
+{% block content %}
+<div class="crumbs">
+  <a href="{{ root }}posiedzenie/{{ v.sitting }}.html">{{ sitting_name(v.sitting) }}</a>
+  · {{ _("głosowanie nr") }} {{ v.votingNumber }} · {{ v.date | date_pl(true) }}
+</div>
+<h1>{{ (v.topic or v.agenda) | capitalize }}</h1>
+<p class="muted">
+  {% if v.bill and v.bill in bill_by_root %}<a href="{{ root }}ustawa/{{ v.bill }}.html">{{ v.agenda }}</a>{% else %}{{ v.agenda }}{% endif %}
+  {% if v.prints %} · {{ _("druki") }}:
+    {% for p in v.prints %}{{ print_link(p, root, printed) }}{{ ", " if not loop.last }}{% endfor %}
+  {% endif %}
+</p>
+
+<div class="card">
+  <p>{{ result_badge(v) }}</p>
+  <div class="grid">
+    <div class="stat"><b class="v-Y">{{ v.yes }}</b>{{ _("za") }}</div>
+    <div class="stat"><b class="v-N">{{ v.no }}</b>{{ _("przeciw") }}</div>
+    <div class="stat"><b class="v-A">{{ v.abstain }}</b>{{ _("wstrzymało się") }}</div>
+    <div class="stat"><b class="v-X">{{ v.notParticipating }}</b>{{ _("nie głosowało") }}</div>
+  </div>
+  <p class="note">{{ _("Wymagana") }}: {{ _(MAJORITY_LABEL.get(v.majorityType, v.majorityType)) }}{% if v.majorityType != "SIMPLE_MAJORITY" %} ({{ v.majorityVotes }} {{ _("głosów") }}){% endif %}.</p>
+  {% if v.motion %}<p class="callout">{{ _(v.motion[1]) }}</p>{% endif %}
+  {% if v.senate and v.amendments %}
+  <p class="callout">{{ _("Sejm głosuje nad <strong>odrzuceniem</strong> poprawki Senatu: głos „za” oznacza odrzucenie poprawki. Poprawka zostaje przyjęta, jeśli za jej odrzuceniem nie opowie się bezwzględna większość.") | safe }}</p>
+  {% endif %}
+</div>
+
+{% if v.amendments %}
+<h2>{{ _("Czego dotyczyło głosowanie") }}</h2>
+{% for a in v.amendments %}
+<div class="card amendment{% if a.item and a.item.recommendation %} rec-{{ a.item.recommendation }}{% endif %}">
+  <h3 style="margin-top:0">{{ _(KIND_LABEL[a.kind]) }} {{ _("nr") }} {{ a.number }}</h3>
+  {% if a.item %}
+    <p class="muted">
+      {% if a.item.authors %}{{ _("Zgłaszający") }}: {{ a.item.authors | join(", ") }}{% endif %}
+      {% if a.item.recommendation %} · {{ _("rekomendacja komisji") }}: <strong>{{ _(a.item.recommendation) }}</strong>{% endif %}
+      {% if a.source %} · {{ print_link(a.source, root, printed, anchor(a.kind, a.number), _("druk nr") ~ " " ~ a.source) }} (<a href="{{ print_url(a.source) }}">{{ _("oficjalnie") }}</a>){% endif %}
+    </p>
+    <div class="text" lang="pl">{{ a.item.text }}</div>
+    {% if a.item.bill_diff %}{{ bill_diff(a.item.bill_diff, root, printed) }}{% else %}{% for c in a.item.changes %}
+    <div class="diff" lang="pl"><span class="where">{{ c.where or _("zmiana") }}</span>{{ c.html | safe }}</div>
+    {% endfor %}{% endif %}
+    {% if a.item.law %}<p class="note"><strong>{{ _("Zmiany w obowiązującym prawie") }}</strong></p>{{ law_changes(a.item.law) }}{% endif %}
+    {% for n in a.item.notes %}<p class="note">{{ _("Uwaga") }}: <span lang="pl">{{ n }}</span></p>{% endfor %}
+  {% else %}
+    <p class="muted">{{ _("Nie udało się automatycznie odnaleźć treści.") }}
+    {% if a.source %}{{ _("Zobacz") }} {{ print_link(a.source, root, printed, none, _("druk nr") ~ " " ~ a.source) }}.{% elif v.prints %}{{ _("Zobacz druki") }}: {% for p in v.prints %}{{ print_link(p, root, printed) }}{{ ", " if not loop.last }}{% endfor %}.{% endif %}</p>
+  {% endif %}
+</div>
+{% endfor %}
+{% endif %}
+
+<h2>{{ _("Jak głosowały kluby") }}</h2>
+<p class="muted">{{ _("Kliknij klub, aby zobaczyć głosy imienne.") }}</p>
+<div class="table-scroll">
+<table class="clubs-table" data-ballots="{{ site_root }}dane/glosy/{{ v.sitting }}.json" data-mps="{{ site_root }}dane/poslowie.json"
+  data-vote="{{ v.votingNumber }}" data-root="{{ root }}"
+  data-labels='{{ {"Y": _(VOTE_LABEL["Y"]), "N": _(VOTE_LABEL["N"]), "A": _(VOTE_LABEL["A"]), "X": _(VOTE_LABEL["X"]), "rebel": _("wyłamanie z linii klubu")} | tojson }}'>
+  <thead><tr><th>{{ _("Klub / koło") }}</th><th class="num">{{ _("za") }}</th><th class="num">{{ _("przeciw") }}</th><th class="num">{{ _("wstrz.") }}</th><th class="num">{{ _("nie gł.") }}</th><th>{{ _("linia klubu") }}</th><th></th></tr></thead>
+  <tbody>
+  {% set rows = [] %}
+  {% for club, c in v.clubs.items() %}{% set _x = rows.append((c.Y + c.N + c.A + c.X, club, c)) %}{% endfor %}
+  {% for total, club, c in rows | sort(reverse=true) %}
+    <tr class="club-row" data-club="{{ club }}" data-rebels="{{ c.rebels | map(attribute='0') | join(',') }}">
+      <td><button type="button" class="club-toggle" aria-expanded="false" aria-controls="names-{{ loop.index }}" title="{{ clubs.get(club, club) }}">{{ club }}</button></td>
+      <td class="num v-Y">{{ c.Y }}</td><td class="num v-N">{{ c.N }}</td><td class="num v-A">{{ c.A }}</td><td class="num v-X">{{ c.X }}</td>
+      <td>{% if c.line %}{{ _(LINE_LABEL[c.line]) }} <span class="muted">({{ c.share | pct }})</span>{% elif club in ("niez.",) %}<span class="muted">—</span>{% else %}<span class="muted">{{ _("podzielony") }}</span>{% endif %}</td>
+      <td><div class="bar">{% for k in ("Y","N","A","X") %}<span class="{{ k }}" style="width:{{ (c[k] / total * 100) if total else 0 }}%"></span>{% endfor %}</div></td>
+    </tr>
+    <tr id="names-{{ loop.index }}" class="names-row" hidden data-pagefind-ignore>
+      <td colspan="7">
+        <div class="muted"><a href="{{ root }}klub/{{ club_slug(club) }}.html">{{ clubs.get(club, club) }}</a></div>
+        <div class="name-cols"></div>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+
+{% set rebels = [] %}
+{% for club, c in v.clubs.items() %}{% for mp, code in c.rebels %}{% set _x = rebels.append((club, mp, code, c.line)) %}{% endfor %}{% endfor %}
+<h2>{{ _("Wyłamali się z linii klubu") }} ({{ rebels | length }})</h2>
+{% if rebels %}
+<table>
+  <thead><tr><th>{{ _("Poseł") }}</th><th>{{ _("Klub") }}</th><th>{{ _("Głos") }}</th><th>{{ _("Linia klubu") }}</th></tr></thead>
+  <tbody>
+  {% for club, mp, code, line in rebels | sort %}
+  <tr><td>{{ mp_link(mps, mp, root) }}</td><td>{{ club }}</td><td class="v-{{ code }}">{{ _(VOTE_LABEL[code]) }}</td><td class="v-{{ line }}">{{ _(LINE_LABEL[line]) }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% else %}<p class="muted">{{ _("Wszyscy głosujący członkowie klubów z wyraźną linią głosowali zgodnie z nią.") }}</p>{% endif %}
+{% endblock %}

@@ -1,0 +1,1442 @@
+                                                                      Druk nr 2530
+                                                                 Warszawa, 27 lutego 2026 r.
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+        X kadencja
+
+
+
+                                                             Pan
+                                                             Włodzimierz Czarzasty
+                                                             Marszałek Sejmu
+                                                             Rzeczypospolitej Polskiej
+
+
+
+
+         Na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej i na podstawie
+ art. 32 ust. 2 regulaminu Sejmu niżej podpisani posłowie wnoszą projekt ustawy:
+
+
+
+  - o kryptoaktywach.
+
+      Do reprezentowania wnioskodawców w pracach nad projektem ustawy
+ upoważniamy pana posła Sławomira Mentzena.
+
+
+ (-) Konrad Berkowicz; (-) Karina Anna Bosak; (-) Krzysztof Bosak; (-) Bronisław
+ Foltyn;   (-) Sławomir    Mentzen;   (-) Krzysztof    Mulawa;     (-) Bartłomiej
+ Pejo;    (-) Grzegorz     Płaczek;  (-) Michał     Połuboczek;     (-) Krzysztof
+ Szymański;     (-) Krzysztof Tuduj;     (-) Witold Tumanowicz;        (-) Michał
+ Wawer; (-) Ryszard Wilk; (-) Przemysław Wipler; (-) Andrzej Tomasz Zapałowski.
+
+
+
+
+               Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                     Projekt
+                                               U S T AWA
+
+                                              z dnia … 2026 r.
+
+                                          o kryptoaktywach1), 2)
+
+
+                                                 Rozdział 1
+
+                                              Przepisy ogólne
+
+       Art. 1. Ustawa określa właściwy organ w rozumieniu art. 93 ust. 1 MiCA oraz niezbędne
+przepisy proceduralne służące stosowaniu MiCA na terytorium Rzeczypospolitej Polskiej.
+
+       Art. 2. 1. Ilekroć w ustawie jest mowa o:
+1)     MiCA – rozumie się przez to rozporządzenie Parlamentu Europejskiego i Rady (UE)
+       2023/1114 z dnia 31 maja 2023 r. w sprawie rynków kryptoaktywów oraz zmiany
+       rozporządzeń (UE) nr 1093/2010 i (UE) nr 1095/2010 oraz dyrektyw 2013/36/UE i (UE)
+       2019/1937 (Dz. Urz. UE L 150 z 09.06.2023, str. 40, z późn. zm.3);
+2)     KNF – rozumie się przez to Komisję Nadzoru Finansowego;
+3)     EBA – rozumie się przez to Europejski Urząd Nadzoru Bankowego;
+4)     ESMA – rozumie się przez to Europejski Urząd Nadzoru Giełd i Papierów
+       Wartościowych.
+       2. Pojęcia użyte w ustawie rozumie się zgodnie ze znaczeniem nadanym im przez MiCA,
+chyba że ustawa stanowi inaczej.
+
+
+
+
+1)
+     Niniejsza ustawa służy stosowaniu rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/1114 z dnia
+     31 maja 2023 r. w sprawie rynków kryptoaktywów oraz zmiany rozporządzeń (UE) nr 1093/2010 i (UE) nr
+     1095/2010 oraz dyrektyw 2013/36/UE i (UE) 2019/1937 (Dz. Urz. UE L 150 z 09.06.2023, str. 40, Dz. Urz.
+     UE L 2023/2869 z 20.12.2023, Dz. Urz. UE L 2024/90275 z 02.05.2024 oraz Dz. Urz. UE L 2024/90658 z
+     30.10.2024).
+2)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 26 lipca 1991 r. o podatku dochodowym od osób
+     fizycznych, ustawę z dnia 15 lutego 1992 r. o podatku dochodowym od osób prawnych, ustawę z dnia 29
+     sierpnia 1997 r. – Ordynacja podatkowa, ustawę z dnia 21 lipca 2006 r. o nadzorze nad rynkiem finansowym,
+     ustawę z dnia 5 sierpnia 2015 r. o rozpatrywaniu reklamacji przez podmioty rynku finansowego, o Rzeczniku
+     Finansowym i o Funduszu Edukacji Finansowej oraz ustawę z dnia 1 marca 2018 r. o przeciwdziałaniu praniu
+     pieniędzy oraz finansowaniu terroryzmu.
+3)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 2023/2869 z 20.12.2023, Dz. Urz.
+     UE L 2024/90275 z 02.05.2024 oraz Dz. Urz. UE L 2024/90658 z 30.10.2024.
+                                             –2–
+
+
+                                          Rozdział 2
+
+                    Organ właściwy i współpraca pomiędzy organami
+
+     Art. 3. KNF jest właściwym organem w rozumieniu art. 93 ust. 1 MiCA.
+
+     Art. 4. 1. KNF wykonuje zadania właściwego organu w rozumieniu przepisów MiCA
+oraz współpracuje z EBA, ESMA i właściwymi organami innych państw członkowskich
+zgodnie z przepisami MiCA.
+     2. Decyzje EBA nakładające kary pieniężne lub okresowe kary pieniężne na podstawie
+przepisów MiCA podlegają wykonaniu na terytorium Rzeczypospolitej Polskiej w trybie
+przepisów ustawy z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego (Dz. U. z 2024
+r. poz. 1568, 1841, z 2025 r. poz. 620, 1172, 1302, 1518, 1661, z 2026 r. poz. 26), w zakresie
+egzekucji świadczeń pieniężnych, na podstawie decyzji EBA wraz z nakazem wykonania, o
+którym mowa w art. 134 ust. 6 MiCA.
+     3. Klauzulę wykonalności decyzjom, o których mowa w ust. 2, nadaje Sąd Okręgowy w
+Warszawie. Sąd bada przesłanki formalne nadania klauzuli wykonalności.
+     4. Organem właściwym w sprawach weryfikacji autentyczności decyzji EBA, o których
+mowa w ust. 2, jest KNF.
+
+     Art. 5. Do dostawców usług w zakresie kryptoaktywów oraz osób działających w ich
+imieniu stosuje się odpowiednio przepisy art. 104 i art. 105 ustawy z dnia 29 sierpnia 1997 r. –
+Prawo bankowe (Dz. U. z 2026 r. poz. 38).
+
+                                          Rozdział 3
+
+                        Postępowanie w sprawach z zakresu MiCA
+
+     Art. 6. Do postępowań prowadzonych przez KNF w sprawach z zakresu przepisów MiCA
+stosuje się przepisy ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania
+administracyjnego (Dz. U. z 2025 r. poz. 1691), a kontrola działalności KNF w tych sprawach
+odbywa się na podstawie przepisów ustawy z dnia 30 sierpnia 2002 r. – Prawo o postępowaniu
+przed sądami administracyjnymi (Dz. U. z 2026 r. poz. 143), o ile przepisy MiCA nie stanowią
+inaczej.
+
+     Art. 7. W sprawach z zakresu przepisów MiCA pisma i dokumenty wnosi się oraz
+doręcza w postaci elektronicznej, chyba że doręczenie albo wniesienie w tej postaci jest
+niemożliwe z przyczyn technicznych.
+                                              –3–
+
+
+     Art. 8. 1. Strona może składać pisma i dokumenty w języku polskim albo w języku
+angielskim.
+     2. Pisma i dokumenty złożone w języku angielskim nie wymagają tłumaczenia
+poświadczonego. KNF może wezwać do przedłożenia tłumaczenia na język polski, jeżeli jest
+to niezbędne do rozstrzygnięcia sprawy.
+     3. Rozstrzygnięcia KNF sporządza się w języku polskim. Na wniosek strony KNF
+udostępnia wersję w języku angielskim o charakterze informacyjnym.
+
+                                            Rozdział 4
+
+                       Środki dotyczące interfejsów internetowych
+
+     Art. 9. 1. W celu wykonania decyzji KNF nakładającej środki nadzorcze, o których mowa
+w art. 94 ust. 1 MiCA, KNF może wystąpić do sądu okręgowego z wnioskiem o wydanie
+nakazu, jeżeli jest to niezbędne do skutecznego wykonania tej decyzji.
+     2. Sąd, po rozważeniu niezbędności i proporcjonalności środka, może nakazać, w zakresie
+koniecznym do osiągnięcia celu, podmiotowi prowadzącemu interfejs internetowy albo innemu
+podmiotowi, którego działania są niezbędne do wykonania nakazu:
+1)   zamieszczenie ostrzeżenia lub komunikatu dla użytkowników interfejsu;
+2)   usunięcie lub wyłączenie interfejsu;
+3)   ograniczenie dostępu do interfejsu;
+4)   usunięcie wskazanych treści.
+     3. Środki, o których mowa w ust. 2, stosuje się jako środki o charakterze wyjątkowym,
+jeżeli inne środki okazały się nieskuteczne lub istnieje ryzyko poważnej szkody dla interesów
+użytkowników lub stabilności rynku kryptoaktywów.
+
+     Art. 10. 1. W wypadkach niecierpiących zwłoki, jeżeli jest to niezbędne do zapobieżenia
+poważnej szkodzie dla interesów użytkowników, inwestorów lub stabilności rynku
+kryptoaktywów, KNF może wydać postanowienie tymczasowe nakładające obowiązek
+czasowego wstrzymania określonych działań faktycznych, w zakresie koniecznym do
+osiągnięcia celu.
+     2. Postanowienie tymczasowe, o którym mowa w ust. 1, nie może nakładać obowiązków
+odpowiadających środkom, o których mowa w art. 9 ust. 2.
+     3. KNF występuje do sądu okręgowego z wnioskiem o zastosowanie środka, o którym
+mowa w art. 9 w terminie 48 godzin od wydania postanowienia tymczasowego.
+                                            –4–
+
+
+     4. Postanowienie tymczasowe obowiązuje do czasu rozstrzygnięcia przez sąd, nie dłużej
+jednak niż przez 7 dni od dnia jego wydania. Postanowienie to wygasa w razie niezłożenia
+wniosku w terminie, o którym mowa w ust. 3.
+     5. Postanowienie tymczasowe doręcza się niezwłocznie podmiotowi, którego dotyczy,
+wraz z uzasadnieniem oraz pouczeniem o przysługujących mu środkach zaskarżenia.
+     6. Na postanowienie tymczasowe przysługuje zażalenie do sądu okręgowego właściwego
+do rozpoznania wniosku, o którym mowa w ust. 3, w terminie 7 dni od dnia doręczenia.
+     7. Na postanowienie sądu w przedmiocie zastosowania środka, o którym mowa w art. 9,
+przysługuje zażalenie do sądu drugiej instancji. Wniesienie zażalenia nie wstrzymuje
+wykonania tego postanowienia, chyba że sąd postanowi inaczej.
+
+                                         Rozdział 5
+
+                                      Koszty nadzoru
+
+     Art. 11. 1. Złożenie wniosku o udzielenie zezwolenia na prowadzenie działalności jako
+dostawca usług w zakresie kryptoaktywów, o którym mowa w art. 62 MiCA, podlega opłacie
+w wysokości nie wyższej niż równowartość w złotych kwoty 4500 euro.
+     2. Złożenie wniosku o udzielenie zezwolenia emitentowi tokena powiązanego z
+aktywami, o którym mowa w art. 21 MiCA, podlega opłacie w wysokości nie wyższej niż
+równowartość w złotych kwoty 4500 euro.
+     3. Minister właściwy do spraw instytucji finansowych określi, w drodze rozporządzenia,
+wysokość opłat, o których mowa w ust. 1 i 2, różnicując je w zależności od nakładu pracy KNF,
+charakteru oraz skali działalności wnioskodawcy.
+
+     Art. 12. 1. Dostawca usług w zakresie kryptoaktywów, posiadający zezwolenie udzielone
+przez KNF, wnosi na rzecz KNF roczną opłatę na pokrycie kosztów nadzoru.
+     2. Podstawę obliczenia opłaty, o której mowa w ust. 1, stanowią wartości wykazane w
+zatwierdzonym sprawozdaniu finansowym za rok poprzedzający, sporządzonym zgodnie z
+przepisami o rachunkowości, rozumiane jako:
+1)   w przypadku świadczenia usług wymiany kryptoaktywów na środki pieniężne lub inne
+     kryptoaktywa – wynik na operacjach wymiany, stanowiący dodatnią różnicę między
+     przychodami ze sprzedaży kryptoaktywów a wartością sprzedanych kryptoaktywów
+     według cen ich nabycia;
+2)   w przypadku świadczenia pozostałych usług – przychody z tytułu opłat i prowizji
+     związanych ze świadczeniem usług w zakresie kryptoaktywów.
+                                            –5–
+
+
+     3. Wysokość opłaty stanowi iloczyn podstawy, o której mowa w ust. 2, oraz stawki
+nieprzekraczającej 0,1%.
+     4. Roczna opłata nie może być wyższa niż równowartość w złotych kwoty 15 000 euro.
+     5. Podmioty rozpoczynające działalność w danym roku kalendarzowym oraz podmioty,
+których podstawa obliczenia opłaty nie przekracza równowartości w złotych kwoty 100 000
+euro, wnoszą opłatę zryczałtowaną w wysokości równowartości w złotych kwoty 250 euro.
+
+     Art. 13. 1. Emitent tokenów powiązanych z aktywami lub tokenów będących pieniądzem
+elektronicznym wnosi roczną opłatę na rzecz KNF na pokrycie kosztów nadzoru.
+     2. Wysokość opłaty stanowi iloczyn średniej miesięcznej wartości zobowiązań
+finansowych z tytułu wyemitowanych tokenów w roku kalendarzowym poprzedzającym rok
+wniesienia opłaty oraz stawki nieprzekraczającej 0,05%.
+     3. Łączna wysokość opłaty, o której mowa w ust. 1, nie może być wyższa niż
+równowartość w złotych kwoty 25 000 euro.
+
+     Art. 14. 1. Minister właściwy do spraw instytucji finansowych określi, w drodze
+rozporządzenia:
+1)   szczegółowe terminy i sposób uiszczania opłat, o których mowa w art. 12 i art. 13;
+2)   wysokość stawek procentowych, o których mowa w art. 12 ust. 3 oraz art. 13 ust. 2, w
+     granicach określonych w ustawie.
+     2. Wydając rozporządzenie, o którym mowa w ust. 1, minister uwzględni konieczność
+zapewnienia, aby wysokość opłat była proporcjonalna do rzeczywistych kosztów sprawowania
+nadzoru i nie stanowiła nadmiernego obciążenia dla działalności podmiotów nadzorowanych.
+     3. Równowartość w złotych kwot wyrażonych w euro, o których mowa w niniejszym
+rozdziale, oblicza się według średniego kursu euro ogłoszonego przez Narodowy Bank Polski
+w ostatnim dniu roboczym roku poprzedzającego rok, za który opłata jest należna, a w
+przypadku opłat, o których mowa w art. 11 – rok, w którym powstał obowiązek ich uiszczenia.
+
+                                         Rozdział 6
+
+                       Odpowiedzialność cywilna i administracyjna
+
+     Art. 15. 1. Emitent kryptoaktywów ponosi odpowiedzialność odszkodowawczą wobec
+nabywcy kryptoaktywów za szkodę wyrządzoną przez niekompletne lub wprowadzające w
+błąd informacje zawarte w dokumencie informacyjnym sporządzonym na podstawie przepisów
+MiCA, jeżeli informacje te miały istotne znaczenie dla podjęcia decyzji inwestycyjnej.
+                                           –6–
+
+
+     2. Odpowiedzialność, o której mowa w ust. 1, obejmuje również osoby, które sporządziły
+dokument informacyjny lub zatwierdziły jego treść w imieniu emitenta.
+
+     Art. 16. Kto wykonuje działalność w zakresie kryptoaktywów z naruszeniem warunków
+zezwolenia, podlega środkom nadzorczym oraz sankcjom administracyjnym przewidzianym w
+przepisach MiCA.
+
+                                        Rozdział 7
+
+                      Skargi i alternatywne rozwiązywanie sporów
+
+     Art. 17. Konsument będący klientem dostawcy usług w zakresie kryptoaktywów może
+zwrócić się do Rzecznika Finansowego o podjęcie działań przewidzianych w ustawie z dnia 5
+sierpnia 2015 r. o rozpatrywaniu reklamacji przez podmioty rynku finansowego, o Rzeczniku
+Finansowym i o Funduszu Edukacji Finansowej (Dz. U. z 2024 r. poz. 1109, z 2025 r. poz. 146,
+1069, 1545), w tym w sprawach transgranicznych, zgodnie z prawem Unii Europejskiej.
+
+     Art. 18. KNF udziela Rzecznikowi Finansowemu informacji niezbędnych do wykonania
+zadań Rzecznika w sprawach dotyczących rynku kryptoaktywów, w zakresie niezbędnym do
+rozpatrzenia indywidualnej sprawy, z poszanowaniem tajemnic prawnie chronionych, na
+zasadach wynikających z przepisów odrębnych.
+
+                                        Rozdział 8
+
+                           Dostęp do infrastruktury finansowej
+
+     Art. 19. 1. Odmowa zawarcia umowy rachunku bankowego albo jej wypowiedzenie
+wobec podmiotu posiadającego zezwolenie, o którym mowa w przepisach MiCA, wymaga
+sporządzenia pisemnego uzasadnienia.
+     2. Uzasadnienie wskazuje okoliczności związane z oceną ryzyka dotyczącą danego
+podmiotu.
+     3. Prowadzenie działalności regulowanej na podstawie przepisów MiCA nie może
+stanowić przesłanki uznania podmiotu za podwyższone ryzyko ani za podstawę odmowy
+zawarcia umowy rachunku bankowego albo jej wypowiedzenia.
+     4. Podmiot, o którym mowa w ust. 1, może dochodzić swoich praw przed sądem
+właściwym na zasadach ogólnych.
+
+     Art. 20. 1. W zakresie, w jakim przepisy MiCA nakładają na dostawcę usług w zakresie
+kryptoaktywów obowiązek segregacji środków klientów, bank zapewnia możliwość
+                                             –7–
+
+
+prowadzenia rachunków lub stosowania rozwiązań organizacyjnych i technicznych
+umożliwiających wykonanie tego obowiązku.
+     2. Rozwiązania, o których mowa w ust. 1, mogą obejmować w szczególności prowadzenie
+rachunków technicznych, subrachunków lub rachunków wirtualnych.
+     3. Odmowa zapewnienia możliwości, o której mowa w ust. 1, wymaga pisemnego
+uzasadnienia.
+
+                                          Rozdział 9
+
+                                        Przepis karny
+
+     Art. 21. Kto umyślnie i w celu osiągnięcia korzyści majątkowej, bez wymaganego
+zezwolenia wykonuje działalność w zakresie kryptoaktywów,
+     podlega karze grzywny, ograniczenia wolności albo pozbawienia wolności do lat 2.
+
+                                          Rozdział 10
+
+                                    Zmiany w przepisach
+
+     Art. 22. W ustawie z dnia 26 lipca 1991 r. o podatku dochodowym od osób fizycznych
+(Dz. U. z 2025 r. poz. 163, 340, 368, 620, 680, 1022, 1180, 1301, 1302, 1366) wprowadza się
+następujące zmiany:
+1)   w art. 5a po pkt 52 dodaje się pkt 53 i 54 w brzmieniu:
+     „53) transfer własny – przeniesienie waluty wirtualnej pomiędzy adresami lub
+          rachunkami należącymi do tego samego podatnika;
+     54) staking – udział bezpośredni lub pośredni w mechanizmie konsensusu typu proof-
+          of-stake, w tym w drodze delegacji, skutkujący uzyskaniem waluty wirtualnej jako
+          nagrody.”;
+2)   w art. 17 po ust. 1i dodaje się ust. 1j-1l w brzmieniu:
+          „1j. Transfer własny nie stanowi odpłatnego zbycia waluty wirtualnej i nie powoduje
+     powstania przychodu.
+          1k. Otrzymanie waluty wirtualnej w wyniku stakingu nie stanowi przychodu.
+     Przychód powstaje z tytułu odpłatnego zbycia tej waluty wirtualnej.
+          1l. Wymiana waluty wirtualnej na inne kryptoaktywo, w tym na token będący
+     pieniądzem elektronicznym albo token powiązany z aktywami w rozumieniu przepisów
+     rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/1114 z dnia 31 maja 2023 r.
+     w sprawie rynków kryptoaktywów oraz zmiany rozporządzeń (UE) nr 1093/2010 i (UE)
+                                                   –8–
+
+
+       nr 1095/2010 oraz dyrektyw 2013/36/UE i (UE) 2019/1937 (Dz. Urz. UE L 150 z
+       09.06.2023, str. 40, z późn. zm. 4)), nie stanowi odpłatnego zbycia waluty wirtualnej i nie
+       powoduje powstania przychodu, jeżeli w jej wyniku podatnik nie otrzymuje prawnego
+       środka płatniczego, towaru ani usługi.”.
+
+       Art. 23. W ustawie z dnia 15 lutego 1992 r. o podatku dochodowym od osób prawnych
+(Dz. U. z 2025 r. poz. 278, 340, 620, 680, 1022, 1074, 1218, 1301, 1426, 1657, 1658, 1804,
+1817, 1846) w art. 12 w ust. 4 po pkt 30 dodaje się pkt 31 i 32 w brzmieniu:
+       „31) wartości majątkowych otrzymanych przez emitenta z tytułu emisji tokenów
+             będących      pieniądzem     elektronicznym       (EMT)     w     rozumieniu     przepisów
+             rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/1114 z dnia 31 maja
+             2023 r. w sprawie rynków kryptoaktywów oraz zmiany rozporządzeń (UE) nr
+             1093/2010 i (UE) nr 1095/2010 oraz dyrektyw 2013/36/UE i (UE) 2019/1937 (Dz.
+             Urz. UE L 150 z 09.06.2023, str. 40, z późn. zm.5)), zwanego dalej:
+             „rozporządzeniem nr 2023/1114” – do momentu ich odkupu lub umorzenia;
+       32) wartości majątkowych otrzymanych przez emitenta z tytułu emisji tokenów
+             powiązanych z aktywami (ART) w rozumieniu przepisów rozporządzenia
+             2023/1114 – do momentu ich odkupu, umorzenia albo wygaśnięcia zobowiązań
+             wobec posiadaczy tokenów.”.
+
+       Art. 24. W ustawie z dnia 29 sierpnia 1997 r. – Ordynacja podatkowa (Dz. U. z 2025 r.
+poz. 111, 497, 621, 622, 769, 820, 1203, 1235, 1414, 1417, 1669, 1804, 1863) po art. 180
+dodaje się art. 180a w brzmieniu:
+             „Art. 180a. § 1. Dowodem w postępowaniu podatkowym może być dokument
+       elektroniczny lub wydruk odzwierciedlający dane utrwalone w rozproszonym rejestrze
+       transakcji (DLT), wraz ze wskazaniem publicznie dostępnego źródła weryfikacji tych
+       danych, umożliwiającego ich weryfikację na potrzeby postępowania.
+             § 2. Dane zarejestrowane w kwalifikowanym rejestrze elektronicznym w
+       rozumieniu przepisów rozporządzenia Parlamentu Europejskiego i Rady (UE) nr
+       910/2014 z dnia 23 lipca 2014 r. w sprawie identyfikacji elektronicznej i usług zaufania
+
+
+
+4)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 2023/2869 z 20.12.2023, Dz. Urz.
+     UE L 2024/90275 z 02.05.2024 oraz Dz. Urz. UE L 2024/90658 z 30.10.2024.
+5)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 2023/2869 z 20.12.2023, Dz. Urz.
+     UE L 2024/90275 z 02.05.2024 oraz Dz. Urz. UE L 2024/90658 z 30.10.2024.
+                                                   –9–
+
+
+       w odniesieniu do transakcji elektronicznych na rynku wewnętrznym oraz uchylające
+       dyrektywę 1999/93/WE (Dz. Urz. UE L 257 z 28.08.2014, str. 73) korzystają ze skutków
+       prawnych i domniemań przewidzianych w prawie Unii Europejskiej dla tego rejestru.”.
+
+       Art. 25. W ustawie z dnia 21 lipca 2006 r. o nadzorze nad rynkiem finansowym (Dz. U.
+z 2025 r. poz. 640, 1069):
+1)     w art. 5 ust. 1 wyraz „trzech” zastępuje się wyrazem „czterech”;
+2)     po art. 9 dodaje się art. 9a w brzmieniu:
+             „Art. 9a. 1. Jeden z Zastępców Przewodniczącego Komisji jest właściwy do spraw
+       nadzoru nad rynkiem kryptoaktywów, w szczególności w zakresie wykonywania
+       przepisów rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/1114 z dnia 31
+       maja 2023 r. w sprawie rynków kryptoaktywów oraz zmiany rozporządzeń (UE) nr
+       1093/2010 i (UE) nr 1095/2010 oraz dyrektyw 2013/36/UE i (UE) 2019/1937 (Dz. Urz.
+       UE L 150 z 09.06.2023, str. 40, z późn. zm.6)).
+             2. Osoba, o której mowa w ust. 1, powinna posiadać udokumentowaną wiedzę oraz
+       praktykę w zakresie rynku kryptoaktywów i technologii blockchain, w szczególności
+       praktykę zawodową, naukową lub regulacyjną związaną z funkcjonowaniem rynku
+       kryptoaktywów.
+             3. Zastępcę Przewodniczącego Komisji, o którym mowa w ust. 1, powołuje i
+       odwołuje Prezes Rady Ministrów.”.
+
+       Art. 26. W ustawie z dnia 5 sierpnia 2015 r. o rozpatrywaniu reklamacji przez podmioty
+rynku finansowego, o Rzeczniku Finansowym i o Funduszu Edukacji Finansowej wprowadza
+się następujące zmiany:
+1)     w art. 2:
+       a)    w pkt 1 po lit. k dodaje się lit. l w brzmieniu:
+             „l) będącego osobą fizyczną klienta dostawcy usług w zakresie kryptoaktywów w
+                   rozumieniu przepisów rozporządzenia Parlamentu Europejskiego i Rady (UE)
+                   2023/1114 z dnia 31 maja 2023 r. w sprawie rynków kryptoaktywów oraz
+                   zmiany rozporządzeń (UE) nr 1093/2010 i (UE) nr 1095/2010 oraz dyrektyw
+
+
+
+
+6)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 2023/2869 z 20.12.2023, Dz. Urz.
+     UE L 2024/90275 z 02.05.2024 oraz Dz. Urz. UE L 2024/90658 z 30.10.2024.
+                                                  – 10 –
+
+
+                  2013/36/UE i (UE) 2019/1937 (Dz. Urz. UE L 150 z 09.06.2023, str. 40, z późn.
+                  zm.7)), zwanego dalej: „rozporządzeniem nr 2023/1114”;”;
+       b)    w pkt 3 po lit. r dodaje się lit. s w brzmieniu:
+             „s) dostawcę usług w zakresie kryptoaktywów w rozumieniu art. 3 ust. 1 pkt 15
+                  rozporządzenia nr 2023/1114, świadczącego zgodnie z nim usługi na terytorium
+                  Rzeczypospolitej Polskiej;”;
+2)     w art. 35 dotychczasową treść oznacza się jako ust. 1 i dodaje się ust. 2 w brzmieniu:
+             „2. Postępowanie, o którym mowa w ust. 1, może obejmować spory wynikające ze
+       świadczenia usług w zakresie kryptoaktywów w rozumieniu przepisów rozporządzenia nr
+       2023/1114.”.
+
+       Art. 27. W ustawie z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy oraz
+finansowaniu terroryzmu (Dz. U. z 2023 r. poz. 1124, 1285, 1723, 1843, z 2024 r. poz. 850,
+1222, z 2025 r. poz. 146, 172) uchyla się art. 129m.
+
+                                               Rozdział 11
+
+                     Przepisy przejściowe, dostosowujące i przepis końcowy
+
+       Art. 28. Przepisy art. 5a pkt 53 i 54 oraz art. 17 ust. 1j-1l ustawy zmienianej w art. 22
+stosuje się do dochodów (przychodów) uzyskanych począwszy od dnia 1 stycznia 2027 r.
+
+       Art. 29. Przepisy art. 12 ust. 4 pkt 31 i 32 ustawy zmienianej w art. 23 stosuje się do
+dochodów (przychodów) uzyskanych począwszy od dnia 1 stycznia 2027 r.
+
+       Art. 30. Przepisy art. 180a ustawy zmienianej w art. 24 stosuje się do postępowań
+podatkowych wszczętych po dniu 31 grudnia 2026 r., a także do postępowań niezakończonych
+przed tym dniem.
+
+       Art. 31. 1. Do dnia 1 lipca 2026 r. przepisy ustawy zmienianej w art. 27 dotyczące walut
+wirtualnych oraz działalności w zakresie walut wirtualnych stosuje się odpowiednio do
+kryptoaktywów oraz działalności w zakresie kryptoaktywów w rozumieniu MiCA.
+       2. W okresie, o którym mowa w ust. 1, za instytucję obowiązaną w rozumieniu przepisów,
+o których mowa w ust. 1, uznaje się również podmiot wpisany do rejestru działalności w
+
+
+
+
+7)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 2023/2869 z 20.12.2023, Dz. Urz.
+     UE L 2024/90275 z 02.05.2024 oraz Dz. Urz. UE L 2024/90658 z 30.10.2024.
+                                           – 11 –
+
+
+zakresie walut wirtualnych, który złożył wniosek o udzielenie zezwolenia, o którym mowa w
+art. 62 MiCA.
+
+     Art. 32. 1. KNF dokonuje weryfikacji kompletności wniosku o udzielenie zezwolenia, o
+którym mowa w art. 63 MiCA, w terminie 25 dni roboczych od dnia jego złożenia.
+     2. KNF może dokonać jednego wezwania do uzupełnienia wniosku w zakresie braków
+wynikających z treści złożonego wniosku.
+     3. Jeżeli w terminie, o którym mowa w ust. 1, KNF nie wezwie wnioskodawcy do
+uzupełnienia braków wniosku, wniosek uznaje się za kompletny.
+     4. Po uznaniu wniosku za kompletny KNF wydaje decyzję w sprawie udzielenia
+zezwolenia w terminie 45 dni roboczych od dnia uznania wniosku za kompletny, zgodnie z art.
+63 MiCA.
+     5. Wniosek uznany za kompletny pozostaje kompletny w zakresie informacji i
+dokumentów, o których mowa w art. 62 ust. 2 MiCA.
+     6. Przekroczenie terminów, o których mowa w ust. 1 lub ust. 4, stanowi bezczynność
+organu w rozumieniu przepisów ustawy z dnia 30 sierpnia 2002 r. – Prawo o postępowaniu
+przed sądami administracyjnymi.
+
+     Art. 33. 1.Dostawca usług w zakresie kryptoaktywów, który zgodnie z obowiązującymi
+przepisami prowadził przed dniem 30 grudnia 2024 r. na terytorium Rzeczypospolitej Polskiej
+działalność w zakresie usług, o których mowa w tytule V MiCA, może kontynuować tę
+działalność bez zezwolenia do dnia 1 lipca 2026 r.
+     2. Jeżeli dostawca, o którym mowa w ust. 1, złoży kompletny wniosek o udzielenie
+zezwolenia, o którym mowa w art. 62 MiCA, nie później niż do dnia 30 czerwca 2026 r., może
+on kontynuować działalność do dnia doręczenia ostatecznej decyzji wydanej w sprawie tego
+wniosku.
+     3. Przez kompletny wniosek, o którym mowa w ust. 2, rozumie się wniosek zawierający
+informacje wymienione w art. 62 ust. 2 MiCA.
+     4. W odniesieniu do dostawców, o których mowa w ust. 1, KNF stosuje procedurę
+uproszczoną, o której mowa w art. 143 ust. 6 MiCA, obejmującą wyłącznie elementy wniosku,
+które były objęte krajowymi wymogami regulacyjnymi przed dniem 30 grudnia 2024 r. i
+pozostają zgodne z tytułem V MiCA.
+     5. Wyłącznie na potrzeby stosowania art. 143 ust. 6 MiCA, za podmiot posiadający
+zezwolenie na podstawie prawa krajowego uznaje się również podmiot, o którym mowa w ust.
+                                           – 12 –
+
+
+1, wpisany do rejestru działalności w zakresie walut wirtualnych, o ile wpis ten obejmował
+działalność odpowiadającą usługom objętym tytułem V MiCA.
+
+     Art. 34. 1. W okresie, o którym mowa w art. 31 ust. 1, dostawca usług w zakresie
+kryptoaktywów jest obowiązany:
+1)   wykonywać obowiązki wynikające z przepisów o przeciwdziałaniu praniu pieniędzy oraz
+     finansowaniu terroryzmu;
+2)   działać w sposób rzetelny, uczciwy i profesjonalny, z uwzględnieniem najlepiej pojętego
+     interesu klientów;
+3)   zamieszczać na swojej stronie internetowej, w widocznym miejscu, informację o
+     prowadzeniu działalności w okresie przejściowym oraz informację o złożeniu wniosku, o
+     którym mowa w art. 33 ust. 2 – w przypadku złożenia takiego wniosku.
+     2. Niespełnienie obowiązków, o których mowa w ust. 1, stwierdzone przez KNF w drodze
+decyzji ostatecznej, wyłącza możliwość korzystania z uprawnienia, o którym mowa w art. 33
+ust. 2, wyłącznie w przypadku istotnych naruszeń, które:
+1)   miały lub mogły mieć istotny negatywny wpływ na interesy klientów, albo
+2)   polegały na rażącym naruszeniu obowiązków informacyjnych wobec klientów.
+
+     Art. 35. 1. KNF może w pierwszej kolejności rozpatrywać wnioski podmiotów, których
+działalność:
+1)   obejmuje znaczną liczbę klientów lub użytkowników;
+2)   wiąże się z przechowywaniem środków klientów;
+3)   ma istotne znaczenie dla ciągłości funkcjonowania rynku kryptoaktywów na terytorium
+     Rzeczypospolitej Polskiej.
+     2. Uprawnienie, o którym mowa w ust. 1, nie może prowadzić do nierozpatrzenia
+pozostałych wniosków w terminach określonych w obowiązujących przepisach.
+
+     Art. 36. 1. Z dniem 1 lipca 2026 r. wygasa uprawnienie do kontynuowania działalności,
+o którym mowa w art. 33 ust. 1.
+     2. Uprawnienie, o którym mowa w art. 33 ust. 2, wygasa z dniem doręczenia ostatecznej
+decyzji wydanej w sprawie wniosku, o którym mowa w tym przepisie, albo z dniem cofnięcia
+wniosku.
+
+     Art. 37. Ustawa wchodzi w życie po upływie z dniem ogłoszenia, z wyjątkiem art. 27,
+który wchodzi w życie z dniem 31 grudnia 2026 r.
+                                         UZASADNIENIE
+
+1. Potrzeba i cel wydania ustawy oraz rzeczywisty stan w dziedzinie, która ma być
+unormowana
+
+       Projektowana ustawa ma na celu zapewnienie stosowania na terytorium
+Rzeczypospolitej Polskiej rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/1114
+z dnia 31 maja 2023 r. w sprawie rynków kryptoaktywów oraz zmiany rozporządzeń (UE) nr
+1093/2010 i (UE) nr 1095/2010 oraz dyrektyw 2013/36/UE i (UE) 2019/1937 (Dz. Urz. UE L
+150 z 09.06.2023, str. 40, z późn. zm.1), zwanego dalej jako: „MiCA”. Rozporządzenie to jest
+stosowane bezpośrednio, jednak jego skuteczne stosowanie wymaga ustanowienia krajowych
+rozwiązań organizacyjnych i proceduralnych, w szczególności w zakresie wskazania
+właściwego organu, trybów prowadzenia postępowań oraz zasad finansowania kosztów
+nadzoru w granicach dopuszczonych prawem.
+
+       Projekt uwzględnia uwagi zgłaszane w toku dotychczasowych prac legislacyjnych nad
+wdrożeniem MiCA, w szczególności dotyczące zasad ustalania opłat oraz gwarancji
+procesowych przy stosowaniu środków ingerencyjnych.
+
+       Ze względu na pomocniczy i wykonawczy charakter ustawy wobec bezpośrednio
+stosowanego MiCA, uzasadnienie koncentruje się na wskazaniu ratio legis kluczowych
+rozwiązań krajowych (organ właściwy, procedury, środki ingerencyjne, opłaty, przepisy
+przejściowe oraz zmiany dostosowujące), bez powielania treści rozporządzenia unijnego ani
+szczegółowego opisu rozwiązań technicznych.
+
+      Projektowana ustawa ma charakter wykonawczy wobec bezpośrednio stosowanego
+MiCA. Interwencja ustawowa została ograniczona do obszarów, w których prawo Unii
+Europejskiej wymaga lub dopuszcza uregulowanie na poziomie krajowym, w szczególności:
+wskazania organu właściwego, określenia trybów postępowań, zasad finansowania nadzoru,
+środków ingerencyjnych oraz przepisów przejściowych.
+
+      Projekt nie powiela ani nie modyfikuje obowiązków materialnych wynikających
+z MiCA. Rozwiązania krajowe mają charakter organizacyjny i proceduralny oraz służą
+zapewnieniu spójnego i proporcjonalnego stosowania rozporządzenia w polskim porządku
+prawnym. Przyjęto podejście „UE+0”, polegające na unikaniu nadregulacji oraz tworzenia
+krajowego reżimu równoległego wobec prawa unijnego.
+
+       Rozdział 1 określa przedmiot ustawy oraz podstawowe odesłania do MiCA. Celem tych
+przepisów jest jednoznaczne wskazanie, że ustawa ma charakter wykonawczy wobec
+bezpośrednio stosowanego rozporządzenia unijnego i nie tworzy równoległego reżimu
+materialnoprawnego. W konsekwencji, w zakresie definicji i obowiązków uczestników rynku
+projekt odsyła do regulacji MiCA, ograniczając interwencję krajową do kwestii
+organizacyjnych i proceduralnych (podejście „UE+0”).
+
+
+1
+ Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 2023/2869 z 20.12.2023, Dz. Urz.
+UE L 2024/90275 z 02.05.2024 oraz Dz. Urz. UE L 2024/90658 z 30.10.2024.
+                                                   1
+
+
+
+                      Konfederacja Wolność i Niepodległość | konfederacja.pl
+        Rozdział 2 wyznacza Komisję Nadzoru Finansowego (KNF), jako organ właściwy
+w sprawach objętych MiCA oraz określa ramy współpracy z Europejskim Urzędem Nadzoru
+Bankowego (EBA) i Europejskim Urzędem Nadzoru Giełd i Papierów Wartościowych
+(ESMA). Szczególne znaczenie ma uregulowanie krajowego trybu wykonywania na terytorium
+Rzeczypospolitej Polskiej kar pieniężnych i okresowych kar pieniężnych nakładanych przez
+EBA, co zapewnia skuteczność decyzji organu UE w polskim porządku prawnym. Regulacja
+ma charakter wyłącznie proceduralny i nie ustanawia nowych sankcji materialnych, lecz
+umożliwia ich wykonanie z wykorzystaniem krajowych instrumentów egzekucyjnych. Art. 4
+ust. 2 nie dotyczy postępowania administracyjnego przed KNF, lecz wykonania na terytorium
+RP decyzji o charakterze pieniężnym wydawanych przez organ UE (EBA). Z tego względu
+mechanizm wykonania odsyła do trybu sądowego właściwego dla nadania klauzuli
+wykonalności i egzekucji świadczeń pieniężnych.
+
+       Rozdział 3 porządkuje podstawowe reguły prowadzenia postępowań w sprawach MiCA
+poprzez odesłanie do ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania
+administracyjnego (Dz. U. z 2025 r. poz. 1691), zwanego dalej jako „Kpa”. Dopuszczenie
+składania dokumentów w języku angielskim ma na celu ograniczenie barier formalnych
+w postępowaniu licencyjnym i zwiększenie dostępności rynku dla podmiotów
+transgranicznych, przy zachowaniu gwarancji procesowych i możliwości żądania tłumaczenia,
+gdy jest to niezbędne do rozstrzygnięcia. Rozwiązanie dotyczy wyłącznie postępowań
+krajowych przed KNF. W zakresie, w jakim MiCA lub standardy techniczne organów UE
+określają wymogi co do formatu lub języka dokumentów w obrocie transgranicznym -
+pierwszeństwo mają przepisy prawa UE.
+
+        Rozdział 4 określa tryb stosowania środków ingerencyjnych dotyczących interfejsów
+internetowych, przewidzianych w MiCA, zapewniając jednocześnie kontrolę sądową oraz
+proporcjonalność ingerencji. Projekt przyjmuje model sądowy jako zasadę, ograniczając rolę
+organu do inicjowania postępowania oraz — w przypadkach nagłych — do czasowego środka
+tymczasowego, podlegającego niezwłocznej weryfikacji sądu. Rozwiązanie to minimalizuje
+ryzyka konstytucyjne oraz wzmacnia zgodność z prawem do sądu i skutecznego środka
+prawnego.
+
+        Rozdział 5 wprowadza ramy opłat służących pokryciu kosztów nadzoru nad CASP oraz
+emitentami ART/EMT, w granicach dopuszczonych prawem. Opłaty jednorazowe powiązano
+z postępowaniami licencyjnymi, natomiast opłaty roczne skonstruowano w sposób
+odzwierciedlający skalę i model działalności (w tym rozróżnienie między działalnością
+wymiany o niskiej marży a modelami prowizyjnymi), przy jednoczesnym zastosowaniu
+limitów maksymalnych oraz ryczałtu dla małych i nowych podmiotów. Celem jest utrzymanie
+niefiskalnego, kosztowego charakteru opłat oraz uniknięcie nadmiernych barier dla rozwoju
+rynku.
+
+       Rozdział 6 reguluje kwestie odpowiedzialności w zakresie dopuszczonym przez MiCA,
+w tym odpowiedzialność cywilną za dokumenty informacyjne oraz reżim sankcji
+administracyjnych i karnych związanych z naruszeniami obowiązków wynikających
+z rozporządzenia. Celem tych rozwiązań jest zapewnienie skuteczności i odstraszającego
+charakteru egzekwowania przepisów, przy zachowaniu proporcjonalności oraz rozdzielenia
+
+                                             2
+
+
+
+                   Konfederacja Wolność i Niepodległość | konfederacja.pl
+reżimów odpowiedzialności, tak aby ograniczyć ryzyko kumulacji represji i naruszenia zasady
+ne bis in idem.
+
+       Rozdział 7 dotyczy skarg i alternatywnych sposobów rozwiązywania sporów.
+Konsument będący klientem dostawcy usług w zakresie kryptoaktywów będzie mógł zwrócić
+się do Rzecznika Finansowego o podjęcie działań przewidzianych w ustawie z dnia 5 sierpnia
+2015 r. o rozpatrywaniu reklamacji przez podmioty rynku finansowego, o Rzeczniku
+Finansowym i o Funduszu Edukacji Finansowej (Dz. U. z 2024 r. poz. 1109, z 2025 r. poz. 146,
+1069, 1545), w tym w sprawach transgranicznych, zgodnie z prawem Unii Europejskiej, a KNF
+udzieli Rzecznikowi Finansowemu informacji niezbędnych do wykonania jego zadań
+w sprawach dotyczących rynku kryptoaktywów, w zakresie niezbędnym do rozpatrzenia
+indywidualnej sprawy, z poszanowaniem tajemnic prawnie chronionych.
+
+        Rozdział 8 wprowadza przepisy gwarancyjne zapewniające praktyczną wykonalność
+reżimu MiCA w zakresie działalności licencjonowanych dostawców usług w zakresie
+kryptoaktywów (CASP). Rozwiązania te mają charakter techniczny: służą ograniczeniu
+arbitralnych odmów dostępu do rachunków bankowych oraz umożliwieniu realizacji
+obowiązków wynikających z MiCA, w szczególności w zakresie segregacji środków klientów,
+bez ingerowania w obowiązki instytucji kredytowych wynikające z przepisów AML.
+
+        Rozdział 9 to przepis karny określony w art. 21 projekt ustawy. Zgodnie z nim: „Kto
+umyślnie i w celu osiągnięcia korzyści majątkowej, bez wymaganego zezwolenia wykonuje
+działalność w zakresie kryptoaktywów podlega karze grzywny, ograniczenia wolności albo
+pozbawienia wolności do lat 2”.
+
+       Rozdział 10 to zmiany w obowiązujących przepisach. Projekt ustawy nowelizuje:
+
+   1) ustawę z dnia 26 lipca 1991 r. o podatku dochodowym od osób fizycznych (Dz. U.
+      z 2025 r. poz. 163, 340, 368, 620, 680, 1022, 1180, 1301, 1302, 1366);
+   2) ustawę z dnia 15 lutego 1992 r. o podatku dochodowym od osób prawnych (Dz. U.
+      z 2025 r. poz. 278, 340, 620, 680, 1022, 1074, 1218, 1301, 1426, 1657, 1658, 1804,
+      1817, 1846);
+   3) ustawę z dnia 29 sierpnia 1997 r. – Ordynacja podatkowa (Dz. U. z 2025 r. poz. 111,
+      497, 621, 622, 769, 820, 1203, 1235, 1414, 1417, 1669, 1804, 1863);
+   4) ustawę z dnia 21 lipca 2006 r. o nadzorze nad rynkiem finansowym (Dz. U. z 2025 r.
+      poz. 640, 1069);
+   5) ustawę z dnia 5 sierpnia 2015 r. o rozpatrywaniu reklamacji przez podmioty rynku
+      finansowego, o Rzeczniku Finansowym i o Funduszu Edukacji Finansowej (Dz. U.
+      z 2024 r. poz. 1109, z 2025 r. poz. 146, 1069, 1545);
+   6) ustawę z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy oraz finansowaniu
+      terroryzmu (Dz. U. z 2023 r. poz. 1124, 1285, 1723, 1843, z 2024 r. poz. 850, 1222,
+      z 2025 r. poz. 146, 172).
+
+       Zmiany podatkowe nie stanowią wdrożenia MiCA sensu stricto, lecz służą usunięciu
+barier krajowych utrudniających praktyczne stosowanie rozwiązań dopuszczonych przez
+rozporządzenie. W szczególności przepisy te zapewniają neutralność podatkową określonych
+czynności związanych z emisją i wykupem tokenów (w tym EMT/ART) oraz porządkują
+                                            3
+
+
+
+                    Konfederacja Wolność i Niepodległość | konfederacja.pl
+kwestie dowodowe poprzez umożliwienie posługiwania się zapisami z rozproszonego rejestru
+jako środkiem dowodowym w sprawach podatkowych. Rozwiązania te mają zwiększyć
+pewność rozliczeń i ograniczyć rozbieżności interpretacyjne.
+
+        Rozdział 11 obejmuje zmiany dostosowujące w przepisach odrębnych, konieczne dla
+spójnego funkcjonowania reżimu MiCA w polskim porządku prawnym. Zmiany te mają
+charakter techniczny i polegają na dostosowaniu przepisów sektorowych do nowej kategorii
+podmiotów (CASP) oraz do mechanizmów ochrony użytkowników rynku. Celem jest
+zapewnienie spójności systemowej i uniknięcie luk kompetencyjnych lub proceduralnych
+w obszarach powiązanych z rynkiem kryptoaktywów. Dostosowuje terminologię i odesłania
+w reżimie AML do rozwiązań wynikających z MiCA oraz zapewnia ciągłość stosowania
+obowiązków AML w okresie przejściowym. Wprowadzone rozwiązania mają charakter
+porządkujący i służą uniknięciu kolizji definicyjnych, a także zapewnieniu, że obowiązki AML
+pozostają skuteczne wobec podmiotów przechodzących z dotychczasowych krajowych
+mechanizmów na reżim licencyjny MiCA. Jednocześnie przepisy wskazują moment utraty
+mocy regulacji krajowych, które w nowym stanie prawnym stają się zbędne lub niespójne.
+Przepisy w nim zawarte zoperacjonalizują także mechanizm przejściowy przewidziany
+w MiCA, zapewniając ciągłość świadczenia usług przez podmioty działające na rynku przed
+rozpoczęciem stosowania rozporządzenia, przy jednoczesnym określeniu minimalnych
+standardów ochrony użytkowników. Istotnym elementem jest doprecyzowanie proceduralne
+trybu rozpatrywania wniosków o zezwolenie, w tym weryfikacji kompletności wniosku i formy
+żądań uzupełnienia, co ma zwiększyć przewidywalność postępowania i ograniczyć
+uznaniowość. Rozwiązania te nie tworzą krajowych „quasi-zezwoleń”, lecz zapewniają spójne
+stosowanie terminów i warunków wynikających z MiCA. Przepisy końcowy określa termin
+wejścia w życie ustawy, który z uwagi na niepewność na rynku, wynikającą z braku
+obowiązujących przepisów, mających na celu stosowanie MiCA musi być maksymalnie
+skrócony.
+
+       2. Przewidywane skutki prawne w tym różnica pomiędzy dotychczasowym
+a projektowanym stanem prawnym
+        Projekt przyjmuje podejście „UE+0”, tj. ogranicza regulację krajową do rozwiązań
+niezbędnych do stosowania MiCA, bez wprowadzania dodatkowych obowiązków materialnych
+po stronie uczestników rynku, wykraczających poza prawo Unii Europejskiej. W szczególności
+projekt nie powiela przepisów MiCA, a w zakresie definicji i wymogów merytorycznych odsyła
+do terminologii i reżimów wynikających z rozporządzenia unijnego.
+       Rozwiązania przyjęte w projekcie koncentrują się na:
+   1) wskazaniu organu właściwego w sprawach objętych MiCA oraz podstawowych
+      zasadach prowadzenia postępowań (art. 3 oraz art. 6–8);
+   2) uregulowaniu współpracy KNF z ESMA i EBA, w tym mechanizmu wykonywania na
+      terytorium Rzeczypospolitej Polskiej kar pieniężnych i okresowych kar pieniężnych
+      nakładanych przez EBA (art. 4);
+   3) ustanowieniu reżimu tajemnicy zawodowej oraz zasad udostępniania informacji
+      uprawnionym organom, w sposób spójny ze standardami rynku finansowego (art. 5);
+
+
+                                              4
+
+
+
+                    Konfederacja Wolność i Niepodległość | konfederacja.pl
+   4) uregulowaniu środków dotyczących interfejsów internetowych w sposób zapewniający
+       kontrolę sądową oraz proporcjonalność ingerencji (art. 9 i 10);
+   5) ustanowieniu ram opłat na pokrycie kosztów nadzoru, w tym limitów oraz delegacji do
+       uregulowania elementów technicznych w akcie wykonawczym (art. 11–14);
+   6) wprowadzeniu przepisów o charakterze sankcyjnym i odpowiedzialnościowym
+       w zakresie dopuszczonym przez MiCA (art. 15 i 16 oraz art. 21);
+   7) wprowadzeniu rozwiązań zapewniających pewność rozliczeń podatkowych w zakresie
+       wskazanym w projekcie (art. 22-24 oraz art. 28-30);
+   8) wprowadzeniu rozwiązań dotyczących pozasądowego rozwiązywania sporów
+       z udziałem Rzecznika Finansowego (art. 17 i 18);
+   9) zakazie dyskryminacji podmiotów sektora kryptoaktywów ze względu na charakter
+       działalności, gdy uzyskały zgodę CASP (art. 19 i 20).
+   10) dostosowaniu przepisów o przeciwdziałaniu praniu pieniędzy oraz finansowaniu
+       terroryzmu do reżimu MiCA oraz wskazaniu momentu utraty mocy przepisów
+       krajowych kolidujących z nowym reżimem (art. 27, 31 i 37);
+   11) zmianach dostosowujących w przepisach odrębnych (art. 28–36);
+   12) doprecyzowaniu trybu rozpatrywania wniosku o udzielenie zezwolenia (art. 32);
+   13) przepisach przejściowych zapewniających ciągłość świadczenia usług w okresie
+       przejściowym (art. 33–36).
+        Projekt ustawy w art. 37 wskazuje, że ustawa wejdzie w życie w dniu ogłoszenia, gdyż
+z uwagi na niepewność na rynku, wynikającą z braku obowiązujących przepisów, mających na
+celu stosowanie MiCA musi być maksymalnie skrócony. Wyżej wymieniona sytuacja musi
+zostać uznana za ważny interes państwa, który wymaga natychmiastowego wejścia w życie
+aktu normatywnego. Należy także podkreślić, że zasady demokratycznego państwa prawnego
+nie stoją temu na przeszkodzie. Przepisy te bowiem wywołają pozytywne skutki społeczne oraz
+gospodarcze, zwłaszcza dla przedsiębiorców.
+       Projektowane rozwiązania są spójne z dotychczasowymi regulacjami pod kątem
+systemowym i terminologicznym, a także zgodne z Konstytucją RP, w tym z konstytucyjnym
+standardem ochrony wolności i praw.
+3. Przewidywane skutki społeczne, gospodarcze, finansowe
+        Projekt ustawy wywoła pozytywne skutki społeczne. Regulacja wzmacnia ochronę
+użytkowników rynku kryptoaktywów poprzez zapewnienie krajowej wykonalności
+mechanizmów nadzoru wynikających z MiCA. Wprowadzenie kontroli sądowej nad środkami
+ingerencyjnymi dotyczącymi interfejsów internetowych zwiększa ochronę praw jednostki
+i przejrzystość ingerencji. Doprecyzowanie trybu rozpatrywania wniosków o zezwolenie
+(weryfikacja kompletności i forma żądań uzupełnienia) sprzyja przejrzystości działania organu
+oraz ogranicza ryzyko niepewności po stronie klientów podmiotów działających w okresie
+przejściowym.
+      Dodatkowo rozwiązania dotyczące Rzecznika Finansowego poszerzają dostęp do
+pozasądowych form rozwiązywania sporów, bez wprowadzania obowiązku mediacji.
+      Projekt nie wywiera bezpośredniego wpływu na rynek pracy w sensie regulacyjnym.
+Ewentualne skutki pośrednie są związane z warunkami prowadzenia działalności w sektorze
+
+                                              5
+
+
+
+                    Konfederacja Wolność i Niepodległość | konfederacja.pl
+usług cyfrowych i finansowych, które będą determinowane w pierwszej kolejności przez
+rozporządzenie MiCA.
+       Projekt nie wywiera wpływu na środowisko naturalne.
+       Projekt ustawy wywoła pozytywne skutki gospodarcze. Dla przedsiębiorców kluczowe
+znaczenie ma przewidywalność i proporcjonalność rozwiązań krajowych. Ustawa wprowadza
+ramy opłat w taki sposób, aby nie eliminować z rynku legalnie działających modeli
+biznesowych, w szczególności modeli niskomarżowych. Jednocześnie zastosowanie limitów
+maksymalnych oraz ryczałtu dla najmniejszych i rozpoczynających działalność podmiotów
+ogranicza barierę wejścia i stabilizuje koszty regulacyjne.
+       Brak opłat za paszportowanie sprzyja zgodności z zasadą swobody świadczenia usług
+w UE i nie tworzy krajowych barier dla działalności transgranicznej. Uregulowanie
+podstawowych reguł proceduralnych oraz dopuszczenie składania dokumentów w języku
+angielskim może ograniczać koszty administracyjne po stronie podmiotów rynku i zwiększać
+przewidywalność postępowania.
+       Projekt nie zakłada obciążenia budżetu państwa kosztami wykonywania nowych zadań.
+Finansowanie nadzoru nad rynkiem kryptoaktywów oparto na opłatach wnoszonych przez
+podmioty objęte nadzorem, przy czym w ustawie określono maksymalne limity opłat,
+a elementy techniczne pozostawiono do doprecyzowania w rozporządzeniu. Takie ujęcie służy
+przewidywalności i ogranicza ryzyko nieproporcjonalnego obciążenia rynku.
+        W zakresie środków dotyczących interfejsów internetowych projekt może skutkować
+incydentalnym zwiększeniem liczby spraw rozpoznawanych przez sądy okręgowe. Ze względu
+na wyjątkowy charakter tych środków oraz sądowy model ingerencji nie przewiduje się jednak
+istotnego ani trwałego obciążenia finansowego po stronie sądownictwa.
+       W zakresie zmian podatkowych, które wchodzą w życie od 1 stycznia 2027 r., wpływ
+fiskalny będzie zależał od skali rynku oraz zachowań podatników. Na etapie OSR o charakterze
+poselskim brak jest ustandaryzowanych danych umożliwiających wiarygodne oszacowanie
+wpływu kwotowego, w szczególności w zakresie liczby przyszłych emitentów EMT/ART oraz
+wolumenu emisji. Celem tych zmian jest przede wszystkim zwiększenie pewności rozliczeń
+oraz usunięcie barier krajowych mogących utrudniać praktyczne wykorzystanie rozwiązań
+dopuszczonych w MiCA; wpływ kwotowy powinien zostać oceniony w ramach monitoringu
+stosowania przepisów po ich wejściu w życie
+       4. Założenia podstawowych aktów wykonawczych
+       Projekt ustawy w art. 11 ust. 3 oraz art. 14 ust. 1 przewiduje określenie przez ministra
+właściwego do spraw instytucji finansowych w drodze rozporządzenia:
+   1) wysokość opłat, o których mowa w art. 11 ust. 1 i 2:
+          a. opłata za złożenie wniosku o udzielenie zezwolenia na prowadzenie działalności
+             jako dostawca usług w zakresie kryptoaktywów, o którym mowa w art. 62
+             MiCA;
+          b. opłata za złożenie wniosku o udzielenie zezwolenia emitentowi tokena
+             powiązanego z aktywami, o którym mowa w art. 21 MiCA;
+   2) szczegółowych terminów i sposobu uiszczania opłat, o których mowa w art. 12 i art. 13:
+                                            6
+
+
+
+                    Konfederacja Wolność i Niepodległość | konfederacja.pl
+                   a. roczna opłata na pokrycie kosztów nadzoru wnoszona przez dostawcę usług
+                       w zakresie kryptoaktywów;
+                   b. roczna opłata na pokrycie kosztów nadzoru wnoszona przez emitenta tokenów
+                       powiązanych z aktywami lub tokenów będących pieniądzem elektronicznym;
+             3) wysokości stawek procentowych, o których mowa w art. 12 ust. 3 oraz art. 13 ust. 2,
+                w granicach określonych w ustawie.
+                  Rozporządzenie ma mieć charakter ściśle wykonawczy: określać wysokość opłat
+          w granicach limitów ustawowych oraz techniczne zasady ich wnoszenia (terminy, sposób
+          przeliczenia euro na złote), bez wprowadzania nowych obowiązków materialnych dla
+          uczestników rynku.
+                 Potrzeba wydania rozporządzenia wynika z konieczności zapewnienia transparentnego
+          i przewidywalnego finansowania kosztów nadzoru sprawowanego przez KNF nad rynkiem
+          kryptoaktywów. Rozwiązania przyjęte w projekcie realizują zasadę proporcjonalności obciążeń
+          oraz niedyskryminacji modeli biznesowych, a także uwzględniają transgraniczny charakter
+          rynku w ramach jednolitego rynku Unii Europejskiej. Rozporządzenie nie powinno
+          przewidywać opłat związanych z paszportowaniem usług (notyfikacją transgraniczną), aby nie
+          tworzyć barier dla swobody świadczenia usług.
+                 Rozporządzenie powinno zapewnić techniczne warunki poboru opłat umożliwiające
+          finansowanie kosztów nadzoru nad rynkiem kryptoaktywów bez obciążania budżetu państwa.
+          Jednocześnie konstrukcja podstaw naliczania opłat, wprowadzenie ryczałtu dla najmniejszych
+          i nowych podmiotów oraz limitów kwotowych powinna mieć na celu utrzymanie
+          proporcjonalności obciążeń oraz przewidywalności kosztów regulacyjnych.
+          5. Zgodność z prawem Unii Europejskiej
+
+             1) Tabela zgodności z MiCA
+
+Przepis    Zakres / temat           Projekt – przepis         Charakter relacji        Uwagi
+MiCA
+Ogólnie    Ustawa     wykonawcza: Art. 1                      Uzupełnienie             UE+0:
+           elementy          krajowe                          organizacyjne            brak         powielania
+           niezbędne do stosowania                                                     przepisów
+           MiCA (organ, procedury,                                                     materialnych MiCA.
+           środki sądowe, opłaty,
+           przejściowe)
+Art. 3     Definicje – odesłanie do Art. 2                    Odesłanie                Spójność      pojęciowa
+           terminologii MiCA                                                           z rozporządzeniem.
+Art. 93    Wskazanie KNF jako Art. 3                          Wykonanie uprawnień      Umożliwia
+           organu właściwego w                                                         wykonywanie uprawnień
+           rozumieniu         MiCA.                                                    nadzorczych
+           Współpraca z EBA oraz                                                       i prowadzenie
+           krajowy               tryb                                                  postępowań.
+           wykonywania            kar
+           nakładanych przez EBA
+           zgodnie z art. 134 MiCA.
+
+
+                                                        7
+
+
+
+                              Konfederacja Wolność i Niepodległość | konfederacja.pl
+Art. 93– Współpraca KNF z EBA Art. 4                        Krajowy reżim tajemnicy Rozwiązanie
+96       oraz    krajowy    tryb                            zawodowej związany z organizacyjne;
+         wykonywania         kar                            MiCA                    przewiduje      się      też
+         nakładanych przez EBA,                                                     dostosowanie organizacji
+         zgodnie z art. 131–134                                                     KNF             w ustawie
+         MiCA.                                                                      o nadzorze nad rynkiem
+                                                                                    finansowym
+Brak     Krajowy reżim tajemnicy Art. 5                     Autonomia proceduralna Przepis nie wprowadza
+         zawodowej związanej z                              państwa członkowskiego dodatkowych
+         wykonywaniem zadań                                 (UE+0)                  obowiązków
+         przez KNF na podstawie                                                     materialnych; zapewnia
+         MiCA, w tym zasady                                                         spójność    z krajowymi
+         udostępniania informacji                                                   standardami tajemnicy
+         organom uprawnionym.                                                       zawodowej w sektorze
+                                                                                    finansowym i nie narusza
+                                                                                    MiCA ani RODO.
+Brak     Tryb       postępowania Art. 6                     Autonomia proceduralna Przepis        techniczny:
+         administracyjnego    w                             państwa członkowskiego wskazuje reżim KPA
+         sprawach prowadzonych                              (UE+0)                  jako             podstawę
+         przez właściwy organ                                                       proceduralną,           bez
+         (KPA)                                                                      zmiany          terminów
+                                                                                    i obowiązków
+                                                                                    materialnych
+                                                                                    wynikających z MiCA.
+Brak     Forma                    Art. 7                    Autonomia proceduralna Przepis porządkujący;
+         komunikacji/doręczeń w                             państwa członkowskiego powinien być neutralny
+         postępowaniach                                     (UE+0)                  wobec         podmiotów
+         prowadzonych      przez                                                    z innych państw UE
+         KNF                                                                        (brak dyskryminacji).
+Brak     Język postępowania (PL / Art. 8                    Autonomia proceduralna Dopuszczenie          języka
+         dopuszczenie EN)                                   państwa członkowskiego angielskiego wzmacnia
+                                                            (UE+0)                  dostęp podmiotów z UE
+                                                                                    i ogranicza         ryzyko
+                                                                                    zarzutów z perspektywy
+                                                                                    swobody      świadczenia
+                                                                                    usług (TFUE).
+Art. 94 Wykonywanie środków Art. 9                          Wykonanie/operacjonali Implementacja
+ust. 1  nadzorczych      dot.                               zacja         uprawnień mechanizmu
+        interfejsów                                         nadzorczych z MiCA egzekucyjnego:              KNF
+        internetowych      z                                (procedura krajowa)     działa przez sąd, a sąd
+        udziałem sądu (nakaz                                                        bada         niezbędność
+        sądowy)                                                                     i proporcjonalność         -
+                                                                                    spójne z art. 47 KPP
+                                                                                    (prawo      do        sądu)
+                                                                                    i minimalizuje      ryzyka
+                                                                                    konstytucyjne.
+Art. 94 Tryb pilny – środek Art. 10                         Wykonanie             / Środek tymczasowy ma
+ust. 1 + tymczasowy (procedura                              uzupełnienie            charakter     wyjątkowy,
+ogólna   krajowa zapewniająca                               proceduralne (autonomia czasowy     i     podlega
+zasada                                                                              kontroli sądu — to
+                                                      8
+
+
+
+                            Konfederacja Wolność i Niepodległość | konfederacja.pl
+skuteczn    skuteczność środków z                             proceduralna w ramach utrzymuje
+ego         art. 94 MiCA)                                     wykonywania MiCA)          proporcjonalność
+nadzoru                                                                                  i zgodność z KPP/TFUE
+Art. 21     Opłaty     jednorazowe Art. 11                    Autonomia        państwa Opłata dotyczy wniosku /
+oraz art.   związane z wnioskiem o                            członkowskiego          w zezwolenia. Brak opłat
+62–63       udzielenie    zezwoleń                            zakresie finansowania za paszportowanie, brak
+            (CASP; emitent ART)                               nadzoru + wykonanie opłat za „filing” tam,
+                                                              MiCA       (opłaty      za gdzie MiCA przewiduje
+                                                              procedurę licencyjną)      jedynie publikację /
+                                                                                         notyfikację.
+Brak        Roczna opłata nadzorcza Art. 12                   Autonomia        państwa podstawa              opłaty
+            dla CASP – podstawa                               członkowskiego (koszty powiązana
+            naliczania,     stawka,                           nadzoru / finansowanie z działalnością
+            limity, ryczałt                                   nadzoru)                   (przychody/marża) oraz
+                                                                                         cap/ryczałt - argument
+                                                                                         proporcjonalności
+                                                                                         i niedyskryminacji
+                                                                                         (TFUE).
+Brak        Roczna opłata nadzorcza Art. 13                   Autonomia        państwa Podstawa              oparta
+            dla emitentów ART/EMT                             członkowskiego (koszty o zobowiązania z tytułu
+            –              podstawa                           nadzoru)                   tokenów           wspiera
+            (zobowiązania) i cap                                                         „kosztowość” nadzoru
+                                                                                         (im większy wpływ
+                                                                                         systemowy, tym wyższa
+                                                                                         opłata), a cap ogranicza
+                                                                                         barierowość.
+Brak        Delegacja ustawowa do Art. 14                     Autonomia        państwa Delegacja opisana jako
+            rozporządzenia                                    członkowskiego           + „szczegółowa” (art. 92
+            (ustalenie   wysokości                            wykonanie        krajowe Konstytucji) i oparta
+            opłat i sposobu ich                               (uszczegółowienie          o kryteria: nakład pracy
+            uiszczania)                                       techniczne)                organu,              skala
+                                                                                         działalności, kosztowość
+                                                                                         - to ogranicza ryzyko
+                                                                                         zarzutu        fiskalnego
+                                                                                         charakteru opłat.
+Art.   7 Odpowiedzialność     Art. 15                         Uzupełnienie krajowe w MiCA nie harmonizuje
+ust. 3   cywilna emitenta za                                  zakresie pozostawionym reżimu
+         informacje zawarte w                                 do regulacji państwom odpowiedzialności
+         dokumencie                                           członkowskim (MiCA – cywilnej;                przepis
+         informacyjnym (white                                 odesłanie do prawa krajowy              mieści    się
+         paper)                                               krajowego)                 w zakresie art. 7 ust. 3
+                                                                                         MiCA i nie rozszerza
+                                                                                         odpowiedzialności tam,
+                                                                                         gdzie MiCA ją wyłącza.
+Art. 94– Administracyjne sankcje Art. 16                      Wykonanie                  Wykonanie
+98 oraz za            naruszenie                              i doprecyzowanie           i doprecyzowanie
+art. 111 obowiązków                                           krajowego          reżimu krajowego           reżimu
+         wynikających z MiCA                                  sankcji                    sankcji
+                                                              administracyjnych          administracyjnych
+                                                              przewidzianych w MiCA przewidzianych w MiCA
+                                                        9
+
+
+
+                              Konfederacja Wolność i Niepodległość | konfederacja.pl
+Art. 111   Odpowiedzialność karna Art. 21                      Autonomia      państwa
+                                                                                    MiCA nie harmonizuje
+           za          prowadzenie                             członkowskiego       sankcji karnych; przepis
+           działalności w zakresie                             w zakresie      sankcji
+                                                                                    krajowy realizuje wymóg
+           kryptoaktywów       bez                             karnych.             art.     111      MiCA,
+           wymaganego zezwolenia                                                    ograniczając
+                                                                                    odpowiedzialność     do
+                                                                                    czynów umyślnych.
+Brak       Zmiany w przepisach         Art. 22                 Poza zakresem MiCA – MiCA nie harmonizuje
+           podatkowych (PIT/CIT)                               autonomia krajowa    opodatkowania
+           dotyczące                                                                kryptoaktywów.
+           kryptoaktywów
+Brak       Zmiany      w     ustawie   Art. 23                 Poza zakresem MiCA – Przepis podatkowy, bez
+           podatkowej                                          autonomia krajowa    wpływu              na
+           (szczegółowe                                                             wykonywanie MiCA.
+           rozwiązania)
+Brak       Zmiany w Ordynacji          Art. 24                 Poza zakresem MiCA –         Poza zakresem MiCA –
+           podatkowej.                                         autonomia krajowa            autonomia krajowa
+Brak       Przepisy podatkowe –        Art. 28-30              Poza zakresem MiCA –         Brak związku z rynkiem
+           dalsze      dostosowania                            autonomia krajowa            wewnętrznym
+           techniczne                                                                       w rozumieniu MiCA.
+Art. 101   Alternatywne                Art. 17                 Wykonanie MiCA           –   Przepis          realizuje
+           rozwiązywanie sporów                                zapewnienie                  obowiązek zapewnienia
+           (ADR)          pomiędzy                             mechanizmu ADR               ADR, w tym w sprawach
+           klientami a CASP                                                                 transgranicznych.
+Art. 101   Współpraca                  Art. 18                 Wykonanie        MiCA        Przepis         zapewnia
+           informacyjna organów                                (instrumenty                 skuteczność ADR bez
+           na potrzeby ADR                                     organizacyjne)               naruszania       tajemnic
+                                                                                            prawnie chronionych.
+Brak       Gwarancje wykonalności Art. 19                      Uzupełnienie                 Przepis         ustanawia
+           reżimu MiCA                                         gwarancyjne (autonomia       obowiązek pisemnego
+                                                               państwa                      uzasadnienia i standard
+                                                               członkowskiego)              indywidualizacji oceny
+                                                                                            ryzyka; pozostaje bez
+                                                                                            uszczerbku             dla
+                                                                                            obowiązków AML.
+Art. 70    Zapewnienie możliwości Art. 20                      Przepis gwarancyjno -        Przepis nie narzuca
+           wykonania     segregacji                            techniczny zapewniający      bankom       konkretnego
+           środków klientów                                    wykonalność                  produktu;        wskazuje
+                                                               obowiązków z MiCA            przykładowe
+                                                                                            rozwiązania techniczne
+                                                                                            i wymaga uzasadnienia
+                                                                                            odmowy.
+Art. 68    Dostosowanie pojęciowe Art. 31                      Koordynacja / spójność       Przepis ma charakter
+           przepisów AML do                                    systemowa (terminologia      interpretacyjny
+           terminologii       MiCA                             AML vs. MiCA) –              i porządkujący;        nie
+           (kryptoaktywa zamiast                               autonomia krajowa            zmienia           zakresu
+           walut wirtualnych)                                                               obowiązków          AML,
+                                                                                            a jedynie       zapewnia
+                                                                                            spójność
+
+                                                        10
+
+
+
+                               Konfederacja Wolność i Niepodległość | konfederacja.pl
+                                                                                              terminologiczną          po
+                                                                                              wejściu w życie MiCA.
+Art.     3   Powiązanie      definicji Art. 27 oraz art. 37        Uzupełnienie   krajowe     Przepis        umożliwia
+ust. 1 pkt   dostawcy     usług     w                              zapewniające ciągłość      stosowanie obowiązków
+15 oraz      zakresie kryptoaktywów                                stosowania   przepisów     AML wobec podmiotów
+art. 143     (CASP) z przepisami                                   AML       w     okresie    przechodzących z reżimu
+             AML; funkcjonowanie                                   przejściowym (art. 143     VASP do CASP, zgodnie
+             reżimu przejściowego                                  MiCA)                      z art. 143 MiCA
+                                                                                              i rekomendacją FATF nr
+                                                                                              15.
+Art. 63      Organizacja              Art. 31                      Wykonanie MiCA –           Przepis nie modyfikuje
+             rozpatrywania wniosków                                organizacja     krajowej   terminów ani kryteriów
+             o zezwolenie (kolejność,                              procedury licencyjnej      MiCA;             dotyczy
+             znaczenie systemowe)                                                             wyłącznie zarządzania
+                                                                                              kolejnością spraw przez
+                                                                                              organ krajowy.
+Art. 143     Wygaśnięcie     prawa Art. 25                         Wykonanie MiCA –           Przepis         precyzuje
+             kontynuowania                                         doprecyzowanie             moment               utraty
+             działalności w okresie                                skutków końca okresu       uprawnień wynikających
+             przejściowym                                          przejściowego              z art. 143 MiCA i nie
+                                                                                              skraca              okresu
+                                                                                              przejściowego
+                                                                                              przewidzianego
+                                                                                              w rozporządzeniu.
+Art. 62– Weryfikacja               Art. 32                         Bezpośrednie wykonanie     Przepis         powtarza
+63       kompletności wniosku,                                     MiCA         (procedura    i operacjonalizuje
+         terminy     proceduralne,                                 licencyjna CASP)           terminy z MiCA oraz
+         skutki ich przekroczenia                                                             określa             skutki
+                                                                                              proceduralne na gruncie
+                                                                                              prawa krajowego (KPA);
+                                                                                              nie           modyfikuje
+                                                                                              standardów unijnych.
+Art. 143 Prawo kontynuowania Art. 33                               Wykonanie MiCA         –   Przepis wiernie odtwarza
+ust. 3    działalności         przez                               przepis przejściowy        zakres i czas trwania
+          podmioty        działające                                                          grandfatheringu
+          przed        stosowaniem                                                            przewidzianego
+          MiCA                                                                                w MiCA.
+Art. 66 Minimalne         standardy Art. 34                        Uzupełnienie krajowe w     Przepis odwołuje się do
+oraz art. działania     CASP      w                                ramach art. 143 MiCA       standardu      rzetelnego
+143;      okresie przejściowym                                                                i uczciwego działania,
+                                                                                              bez         przyznawania
+                                                                                              organowi uznaniowości
+                                                                                              sankcyjnej.
+Art. 143 Uproszczona procedura Art. 35                             Wykonanie MiCA         –   Przepis ogranicza zakres
+ust. 6   licencyjna         dla                                    proceduralne               weryfikacji              do
+         podmiotów działających                                                               elementów
+         przed MiCA                                                                           nieweryfikowanych
+                                                                                              wcześniej;         zgodny
+
+
+                                                              11
+
+
+
+                                 Konfederacja Wolność i Niepodległość | konfederacja.pl
+                                                                                       z zasadą
+                                                                                       proporcjonalności.
+Art. 143      Moment      wygaśnięcia Art. 36                    Wykonanie MiCA – Przepis jednoznacznie
+              uprawnień                                          przepis przejściowy   określa skutki braku
+              przejściowych                                                            zezwolenia po upływie
+                                                                                       okresu przejściowego.
+Brak          Wejście w życie ustawy   Art. 37                   Poza zakresem MiCA – Przepis techniczny, nie
+                                                                 technika legislacyjna wpływa na stosowanie
+                                                                                       MiCA.
+
+                2) Tabela zgodności z innymi aktami prawnymi UE
+
+Akt UE          Zakres / temat              Projekt PL – przepis      Charakter relacji Uwagi
+TFUE       art. Bezpośrednie stosowanie Preambuła/założenia     + Spójność              Ustawa ogranicza się do
+288             rozporządzeń UE         konstrukcja       ustawy systemowa              elementów
+                                        (odesłania,          brak                       wykonawczych;          nie
+                                        powielania)                                     powiela              norm
+                                                                                        materialnych MiCA.
+TUE art. 5 Zasada proporcjonalności         Rozdział o opłatach i Zasada ogólna         Wzmocnienie
+ust. 4      działań           państwa       środkach ingerencyjnych                     proporcjonalności
+            członkowskiego                  (model sądowy, capy)                        obciążeń i ingerencji.
+KPP art. 47 Prawo do skutecznego            Rozdział o interfejsach Gwarancja      praw Model sądowy ingerencji
+            środka prawnego i do sądu       internetowych (kontrola podstawowych        ogranicza          ryzyko
+                                            sądowa)                                     arbitralności.
+KPP art. 16     Wolność       prowadzenia   Opłaty (baza adekwatna + Gwarancja     praw Ograniczenia wolności
+                działalności gospodarczej   capy) oraz model środków podstawowych       działalności
+                                            ingerencyjnych (sankcje)                    gospodarczej wynikają
+                                                                                        bezpośrednio z MiCA lub
+                                                                                        są       proporcjonalnym
+                                                                                        wykonaniem
+                                                                                        obowiązków       państwa
+                                                                                        członkowskiego.
+KPP art. 50     Ne bis in idem              Konstrukcja         reżimu Spójność         Unika              ryzyka
+                                            sankcyjnego           (brak                 podwójnego karania za to
+                                            automatycznego                              samo zachowanie.
+                                            kumulowania sankcji)
+TFUE art. Swoboda                           Brak         opłat       za Ułatwienie      Rozwiązania ograniczają
+49 i 56   przedsiębiorczości                paszportowanie;       język                 bariery administracyjne
+          i świadczenia usług               angielski dla pism; UE+0                    dla podmiotów z innych
+                                                                                        państw UE.
+TFUE    art. Zakaz dyskryminacji ze         Opłaty i procedury mają Spójność            Brak           rozwiązań
+18           względu na przynależność       zastosowanie w sposób                       różnicujących podmioty
+             państwową                      jednolity                                   krajowe i zagraniczne.
+Rozporządz Usługi            zaufania,      Przepis dowodowy/DLT Odesłanie / spójność Ułatwia
+enie      nr identyfikacja                  oraz forma komunikacji      systemowa       wykorzystywanie
+910/2014     elektroniczna,                                                             wiarygodnych zapisów
+(eIDAS)      kwalifikowane    rejestry                                                  elektronicznych;       bez
+oraz    zm. elektroniczne                                                               tworzenia      krajowych
+2024/1183                                                                               definicji.
+                                                           12
+
+
+
+                                 Konfederacja Wolność i Niepodległość | konfederacja.pl
+6. Informacje dodatkowe
+        Projekt nie był przedmiotem formalnych konsultacji publicznych. Rozwiązania zostały
+przygotowane z uwzględnieniem uwag zgłaszanych w toku dotychczasowych prac
+legislacyjnych nad wdrożeniem MiCA, w szczególności dotyczących opłat oraz gwarancji
+procesowych przy stosowaniu środków ingerencyjnych. W szczególności uwzględniono
+publicznie dostępne stanowiska i uwagi formułowane w debacie wokół wcześniejszych
+propozycji krajowych rozwiązań dotyczących wykonywania MiCA.
+       Projekt nie zawiera przepisów określających zasady podejmowania, wykonywania lub
+zakończenia działalności gospodarczej. Wdrożenie projektowanych przepisów nie spowoduje
+wzrostu obciążeń administracyjnych mikroprzedsiębiorców, małych i średnich
+przedsiębiorców. Projekt ustawy pozytywnie wpłynie na działalność przedsiębiorców. Projekt
+ustawy jest zgodny z przepisami ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców (t.j.
+Dz. U. z 2025 r. poz. 1480, 1795, 1826).
+       Projekt ustawy jest zgodny z prawem Unii Europejskiej.
+       Osiągnięcie celu ustawy nie jest możliwe za pomocą innych środków.
+        Ocena skuteczności regulacji może być prowadzona w oparciu o mierniki obejmujące
+m.in.: liczbę wniosków o zezwolenie i czas ich rozpatrywania, wpływy z opłat nadzorczych w
+relacji do kosztów wykonywania zadań nadzorczych, liczbę zastosowanych środków
+dotyczących interfejsów internetowych i wynik postępowań sądowych w tym zakresie, a także
+liczbę spraw kierowanych do Rzecznika Finansowego dotyczących rynku kryptoaktywów. Od
+2027 r. dodatkowym miernikiem może być obserwacja liczby sporów interpretacyjnych w
+zakresie objętym zmianami podatkowymi. Dodatkowymi miernikami mogą być liczba
+przypadków wykonania w Polsce kar pieniężnych i okresowych kar pieniężnych nałożonych
+przez EBA oraz liczba zgłoszeń/analiz w obszarze AML powiązanych z podmiotami
+działającymi na rynku kryptoaktywów (w zakresie, w jakim dane są dostępne dla właściwych
+instytucji). Dodatkowym miernikiem skuteczności regulacji może być liczba oraz średni czas
+rozpatrywania wniosków o udostępnienie informacji objętych tajemnicą zawodową
+kierowanych przez uprawnione organy na podstawie przepisów ustawy.
+         Projekt nie zawiera przepisów regulacyjnych i nie określa wymogów dotyczących
+świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r. o zasadach
+uznawania kwalifikacji zawodowych nabytych w państwach członkowskich Unii Europejskiej
+(t.j. Dz. U. z 2023 r. poz. 334, z 2025 r. poz. 619).
+      Projektowana ustawa nie wymaga przedstawienia właściwym organom i instytucjom
+Unii Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii,
+dokonania powiadomienia, konsultacji albo uzgodnienia.
+       Projektowana ustawa nie zawiera przepisów technicznych i nie podlega notyfikacji
+zgodnie z przepisami rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie
+sposobu funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz.
+2039 oraz z 2004 r. poz. 597).
+
+
+
+                                             13
+
+
+
+                    Konfederacja Wolność i Niepodległość | konfederacja.pl
+                  DEKLAROWANE SKUTKI REGULACJI (DSR)
+                            projektu ustawy
+Informacja o projekcie
+
+a) Tytuł projektu:
+
+    Projekt ustawy o kryptoaktywach
+
+
+b) Przedstawiciel wnioskodawcy:
+
+    Sławomir Mentzen
+
+
+I. Część wstępna
+
+[1] Zwięzły opis zidentyfikowanego problemu i proponowanych rozwiązań.
+
+    Celem projektowanej ustawy jest zapewnienie skutecznego i jednolitego stosowania na
+    terytorium Rzeczypospolitej Polskiej rozporządzenia Parlamentu Europejskiego i Rady (UE)
+    2023/1114 z dnia 31 maja 2023 r. w sprawie rynków kryptoaktywów oraz zmiany
+    rozporządzeń (UE) nr 1093/2010 i (UE) nr 1095/2010 oraz dyrektyw 2013/36/UE i (UE)
+    2019/1937 (Dz. Urz. UE L 150 z 09.06.2023, str. 40, z późn. zm.1), zwanego dalej jako:
+    „MiCA”. MiCA jest rozporządzeniem stosowanym bezpośrednio, jednak do jego
+    praktycznego działania niezbędne jest ustanowienie krajowych rozwiązań organizacyjnych
+    i proceduralnych, w szczególności wskazanie organu właściwego, określenie podstawowych
+    zasad prowadzenia postępowań, zapewnienie wykonalności w Polsce kar pieniężnych
+    i okresowych kar pieniężnych nakładanych przez Europejski Urząd Nadzoru Bankowego
+    (EBA), a także uregulowanie tajemnicy zawodowej i zasad udostępniania informacji
+    uprawnionym organom.
+    Ustawa została przygotowana w podejściu „UE+0”, tj. wprowadza wyłącznie rozwiązania
+    konieczne do wykonywania kompetencji krajowych przewidzianych w MiCA, bez
+    powielania i bez modyfikowania obowiązków materialnych wynikających z rozporządzenia.
+    W zakresie proceduralnym ustawa doprecyzowuje w szczególności tryb rozpatrywania
+    wniosku o zezwolenie (weryfikacja kompletności i forma żądań uzupełnienia), aby zapewnić
+    przewidywalność i pewność stosowania terminów wynikających z MiCA na gruncie
+    Kodeksu postępowania administracyjnego.
+    Projekt obejmuje również wybrane zmiany w przepisach podatkowych i dowodowych, które
+    nie stanowią wdrożenia MiCA sensu stricto, lecz mają na celu usunięcie barier krajowych
+    i zwiększenie pewności rozliczeń w obszarach wskazanych w ustawie. Przepisy podatkowe
+    przewidziano do wejścia w życie z dniem 1 stycznia 2027 r.
+    Bez przyjęcia ustawy występowałaby niepewność w zakresie tego, który organ wykonuje
+    kompetencje nadzorcze przewidziane w MiCA oraz w jaki sposób prowadzone są
+    postępowania w sprawach objętych rozporządzeniem. Brakowałoby także podstaw
+
+1
+ Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 2023/2869 z 20.12.2023, Dz. Urz.
+UE L 2024/90275 z 02.05.2024 oraz Dz. Urz. UE L 2024/90658 z 30.10.2024.
+                                                   1
+
+
+
+                     Konfederacja Wolność i Niepodległość | konfederacja.pl
+ krajowych do pobierania opłat na pokrycie kosztów nadzoru, w tym określenia limitów
+ maksymalnych oraz delegacji do uregulowania elementów technicznych w akcie
+ wykonawczym. Ponadto brak przepisów przejściowych zwiększałby ryzyko nieciągłości
+ funkcjonowania rynku w okresie dostosowania do nowych wymogów.
+ Brakowałoby ponadto rozwiązań zapewniających krajową wykonalność kar pieniężnych
+ i okresowych kar pieniężnych nakładanych przez EBA oraz jednolitych reguł tajemnicy
+ zawodowej i udostępniania informacji w sprawach dotyczących rynku kryptoaktywów.
+ W zakresie podatkowym utrzymywałyby się rozbieżności interpretacyjne i praktyczne
+ w wybranych obszarach rozliczeń związanych z rynkiem kryptoaktywów, co wpływa na
+ pewność obrotu i ryzyko sporów.
+
+[2] Czy były rozważane rozwiązania alternatywne?
+
+   ●   Nie
+
+ Nie ma możliwości podjęcia działań alternatywnych. Bez przyjęcia przedmiotowej ustawy
+ występowałaby niepewność w zakresie tego, który organ wykonuje kompetencje nadzorcze
+ przewidziane w MiCA oraz w jaki sposób prowadzone są postępowania w sprawach objętych
+ rozporządzeniem. Określenie podmiotu właściwego oraz trybu postępowania musi zostać
+ dokonane w formie ustawy.
+
+II. Wymogi określone w art. 34 ust. 2 pkt 3–5 regulaminu Sejmu
+
+[3] Jakie są przewidywane skutki prawne projektowanych rozwiązań?
+
+ Projekt przyjmuje podejście „UE+0”, tj. ogranicza regulację krajową do rozwiązań
+ niezbędnych do stosowania MiCA, bez wprowadzania dodatkowych obowiązków
+ materialnych po stronie uczestników rynku, wykraczających poza prawo Unii Europejskiej.
+ W szczególności projekt nie powiela przepisów MiCA, a w zakresie definicji i wymogów
+ merytorycznych odsyła do terminologii i reżimów wynikających z rozporządzenia unijnego.
+ Rozwiązania przyjęte w projekcie koncentrują się na:
+ 1) wskazaniu organu właściwego w sprawach objętych MiCA oraz podstawowych zasadach
+ prowadzenia postępowań (art. 3 oraz art. 6–8);
+ 2) uregulowaniu współpracy KNF z Europejskim Urzędem Nadzoru Giełd i Papierów
+ Wartościowych (ESMA) i EBA, w tym mechanizmu wykonywania na terytorium RP kar
+ pieniężnych i okresowych kar pieniężnych nakładanych przez EBA (art. 4);
+ 3) ustanowieniu reżimu tajemnicy zawodowej oraz zasad udostępniania informacji
+ uprawnionym organom, w sposób spójny ze standardami rynku finansowego (art. 5);
+ 4) uregulowaniu środków dotyczących interfejsów internetowych w sposób zapewniający
+ kontrolę sądową oraz proporcjonalność ingerencji (art. 9 i 10);
+
+
+
+                                             2
+
+
+
+                 Konfederacja Wolność i Niepodległość | konfederacja.pl
+ 5) ustanowieniu ram opłat na pokrycie kosztów nadzoru, w tym limitów oraz delegacji do
+ uregulowania elementów technicznych w akcie wykonawczym (art. 11–14);
+ 6) wprowadzeniu przepisów o charakterze sankcyjnym i odpowiedzialnościowym w zakresie
+ dopuszczonym przez MiCA (art. 15 i 16 oraz art. 21);
+ 7) wprowadzeniu rozwiązań zapewniających pewność rozliczeń podatkowych w zakresie
+ wskazanym w projekcie (art. 22-24 oraz art. 28-30);
+ 8) wprowadzeniu rozwiązań dotyczących pozasądowego rozwiązywania sporów z udziałem
+ Rzecznika Finansowego (art. 17 i 18);
+ 9) zakazie dyskryminacji podmiotów sektora kryptoaktywów ze względu na charakter
+ działalności, gdy uzyskały zgodę CASP (art. 19 i 20).
+ 10) dostosowaniu przepisów o przeciwdziałaniu praniu pieniędzy oraz finansowaniu
+ terroryzmu do reżimu MiCA oraz wskazaniu momentu utraty mocy przepisów krajowych
+ kolidujących z nowym reżimem (art. 27, 31 i 37);
+ 11) zmianach dostosowujących w przepisach odrębnych (art. 28–36);
+ 12) doprecyzowaniu trybu rozpatrywania wniosku o udzielenie zezwolenia (art. 32);
+ 13) przepisach przejściowych zapewniających ciągłość świadczenia usług w okresie
+ przejściowym (art. 33–36).
+ Projekt ustawy w art. 37 wskazuje, że ustawa wejdzie w życie w dniu ogłoszenia, gdyż
+ z uwagi na niepewność na rynku, wynikającą z braku obowiązujących przepisów, mających
+ na celu stosowanie MiCA musi być maksymalnie skrócony. Wyżej wymieniona sytuacja
+ musi zostać uznana za ważny interes państwa, który wymaga natychmiastowego wejścia
+ w życie aktu normatywnego. Należy także podkreślić, że zasady demokratycznego państwa
+ prawnego nie stoją temu na przeszkodzie. Przepisy te bowiem wywołają pozytywne skutki
+ społeczne oraz gospodarcze, zwłaszcza dla przedsiębiorców.
+ Projektowane rozwiązania są spójne z dotychczasowymi regulacjami pod kątem
+ systemowym i terminologicznym, a także zgodne z Konstytucją RP, w tym z konstytucyjnym
+ standardem ochrony wolności i praw. Przedmiot projektu ustawy jest zgodny z prawem Unii
+ Europejskiej.
+
+[4] Jakie są przewidywane skutki społeczne projektowanych rozwiązań?
+
+ Projekt ustawy wywoła pozytywne skutki społeczne.
+ Regulacja wzmacnia ochronę użytkowników rynku kryptoaktywów poprzez zapewnienie
+ krajowej wykonalności mechanizmów nadzoru wynikających z MiCA. Wprowadzenie
+ kontroli sądowej nad środkami ingerencyjnymi dotyczącymi interfejsów internetowych
+ zwiększa ochronę praw jednostki i przejrzystość ingerencji. Doprecyzowanie trybu
+ rozpatrywania wniosków o zezwolenie (weryfikacja kompletności i forma żądań
+ uzupełnienia) sprzyja przejrzystości działania organu oraz ogranicza ryzyko niepewności po
+ stronie klientów podmiotów działających w okresie przejściowym.
+
+                                             3
+
+
+
+                  Konfederacja Wolność i Niepodległość | konfederacja.pl
+ Dodatkowo rozwiązania dotyczące Rzecznika Finansowego poszerzają dostęp do
+ pozasądowych form rozwiązywania sporów, bez wprowadzania obowiązku mediacji.
+ Projekt nie wywiera bezpośredniego wpływu na rynek pracy w sensie regulacyjnym.
+ Ewentualne skutki pośrednie są związane z warunkami prowadzenia działalności w sektorze
+ usług cyfrowych i finansowych, które będą determinowane w pierwszej kolejności przez
+ rozporządzenie MiCA.
+ Projekt nie wywiera wpływu na środowisko naturalne.
+ Regulacja oddziałuje bezpośrednio na dostawców usług w zakresie kryptoaktywów (CASP)
+ oraz na emitentów tokenów powiązanych z aktywami (ART) i tokenów będących e-
+ pieniądzem (EMT). Oddziałuje również na Komisję Nadzoru Finansowego jako organ
+ właściwy oraz – w zakresie stosowania środków dotyczących interfejsów internetowych – na
+ sądy powszechne (sądy okręgowe). W zakresie tajemnicy zawodowej i udostępniania
+ informacji regulacja dotyczy także organów uprawnionych do uzyskiwania informacji na
+ podstawie przepisów odrębnych (w szczególności organów ścigania i sądów). W obszarze
+ pozasądowego rozwiązywania sporów regulacja dotyczy Rzecznika Finansowego. Pośrednio
+ skutki regulacji dotyczą użytkowników i konsumentów korzystających z usług na rynku
+ kryptoaktywów.
+
+[5] Jakie są przewidywane skutki gospodarcze projektowanych rozwiązań?
+
+ Projekt ustawy wywoła pozytywne skutki gospodarcze
+ Dla przedsiębiorców kluczowe znaczenie ma przewidywalność i proporcjonalność
+ rozwiązań krajowych. Ustawa wprowadza ramy opłat w taki sposób, aby nie eliminować
+ z rynku legalnie działających modeli biznesowych, w szczególności modeli
+ niskomarżowych. Jednocześnie zastosowanie limitów maksymalnych oraz ryczałtu dla
+ najmniejszych i rozpoczynających działalność podmiotów ogranicza barierę wejścia
+ i stabilizuje koszty regulacyjne.
+ Brak opłat za paszportowanie sprzyja zgodności z zasadą swobody świadczenia usług w UE
+ i nie tworzy krajowych barier dla działalności transgranicznej. Uregulowanie podstawowych
+ reguł proceduralnych oraz dopuszczenie składania dokumentów w języku angielskim może
+ ograniczać koszty administracyjne po stronie podmiotów rynku i zwiększać
+ przewidywalność postępowania.
+ Podejście „UE+0” ogranicza ryzyko powstania krajowych barier regulacyjnych
+ wykraczających poza prawo Unii Europejskiej. Przewidywalny system opłat oraz
+ elektronizacja postępowań zmniejszają koszty regulacyjne. Ujednolicenie wybranych
+ kwestii dowodowych i podatkowych może ograniczyć liczbę sporów interpretacyjnych
+ i koszty obsługi prawnej, co sprzyja stabilności otoczenia prawnego.
+
+[6] Jakie są przewidywane skutki finansowe projektowanych rozwiązań, w szczególności
+wpływ na sektor finansów publicznych, w tym na budżet państwa i budżety jednostek
+samorządu terytorialnego?
+
+                                            4
+
+
+
+                 Konfederacja Wolność i Niepodległość | konfederacja.pl
+ Projekt nie zakłada obciążenia budżetu państwa kosztami wykonywania nowych zadań.
+ Finansowanie nadzoru nad rynkiem kryptoaktywów oparto na opłatach wnoszonych przez
+ podmioty objęte nadzorem, przy czym w ustawie określono maksymalne limity opłat,
+ a elementy techniczne pozostawiono do doprecyzowania w rozporządzeniu. Takie ujęcie
+ służy przewidywalności i ogranicza ryzyko nieproporcjonalnego obciążenia rynku.
+ W zakresie środków dotyczących interfejsów internetowych projekt może skutkować
+ incydentalnym zwiększeniem liczby spraw rozpoznawanych przez sądy okręgowe. Ze
+ względu na wyjątkowy charakter tych środków oraz sądowy model ingerencji nie przewiduje
+ się jednak istotnego ani trwałego obciążenia finansowego po stronie sądownictwa.
+ W zakresie zmian podatkowych, które wchodzą w życie od 1 stycznia 2027 r., wpływ fiskalny
+ będzie zależał od skali rynku oraz zachowań podatników. Na etapie OSR o charakterze
+ poselskim brak jest ustandaryzowanych danych umożliwiających wiarygodne oszacowanie
+ wpływu kwotowego, w szczególności w zakresie liczby przyszłych emitentów EMT/ART
+ oraz wolumenu emisji. Celem tych zmian jest przede wszystkim zwiększenie pewności
+ rozliczeń oraz usunięcie barier krajowych mogących utrudniać praktyczne wykorzystanie
+ rozwiązań dopuszczonych w MiCA; wpływ kwotowy powinien zostać oceniony w ramach
+ monitoringu stosowania przepisów po ich wejściu w życie.
+
+[7] Wykaz źródeł finansowania, jeśli projekt ustawy pociąga za sobą obciążenie budżetu
+państwa lub budżetów jednostek samorządu terytorialnego.
+
+ Projekt nie zakłada obciążenia budżetu państwa kosztami wykonywania nowych zadań.
+
+[8] Czy projekt ustawy podlega procedurze notyfikacyjnej?
+
+   ●   Nie
+
+III. Wymogi określone w art. 34 ust. 2a i 2b regulaminu Sejmu
+
+[9] Czy projekt ustawy zawiera przepisy określające zasady podejmowania, wykonywania lub
+zakończenia działalności gospodarczej (art. 34 ust. 2a regulaminu Sejmu)?
+   ●   Nie
+
+[10] Czy wdrożenie projektowanych przepisów spowoduje obciążenia administracyjne
+mikroprzedsiębiorców, małych i średnich przedsiębiorców (art. 34 ust. 2a regulaminu Sejmu)?
+   ●   Nie
+
+[11] Czy projekt ustawy zawiera przepisy regulacyjne lub określa wymogi dotyczące
+świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r. o zasadach
+uznawania kwalifikacji zawodowych nabytych w państwach członkowskich Unii Europejskiej
+(art. 34 ust. 2b regulaminu Sejmu)?
+   ●   Nie
+
+
+
+                                            5
+
+
+
+                 Konfederacja Wolność i Niepodległość | konfederacja.pl
+

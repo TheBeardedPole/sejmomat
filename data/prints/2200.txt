@@ -1,0 +1,1815 @@
+                                                                       Druk nr 2200
+                                                                   Warszawa, 5 lutego 2026 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-10-26
+
+
+                                                              Pan
+                                                              Włodzimierz Czarzasty
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+ - o zmianie ustawy - Kodeks postępowania
+  karnego.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Sprawiedliwości.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                               Projekt
+                                           U S T AWA
+
+                                               z dnia
+
+                    o zmianie ustawy – Kodeks postępowania karnego
+
+
+     Art. 1. W ustawie z dnia 6 czerwca 1997 r. – Kodeks postępowania karnego (Dz. U.
+z 2025 r. poz. 46, 304, 1178, 1420 i 1872) w art. 25 w § 1 pkt 2 otrzymuje brzmienie:
+     „2) o występki określone w rozdziałach XVI i XVII oraz w art. 140‒142, art. 148 § 4
+          i 5, art. 148a, art. 149, art. 150 § 1, art. 151‒154, art. 158 § 3, art. 163 § 3 i 4, art. 165
+          § 1, 3 i 4, art. 166 § 1, art. 173 § 3 i 4, art. 185 § 2, art. 189a § 2, art. 210 § 2,
+          art. 211a, art. 228 § 6, art. 229 § 5, art. 252 § 3, art. 258 § 1‒3, art. 265 § 1 i 2,
+          art. 269, art. 278 § 1, 2 i 3a w związku z art. 294 § 1 lub 2, art. 284 § 1 i 2 w związku
+          z art. 294 § 1 lub 2, art. 286 § 1 w związku z art. 294 § 1 lub 2, art. 287 § 1
+          w związku z art. 294 § 1 lub 2, art. 296 § 3 oraz art. 299 Kodeksu karnego;”.
+
+     Art. 2. 1. W sprawach, w których przed dniem wejścia w życie niniejszej ustawy
+wniesiono do sądu akt oskarżenia albo skierowano wniosek, o którym mowa w art. 324 § 1,
+art. 335 § 1 lub 2 lub art. 336 § 1 ustawy zmienianej w art. 1, sąd właściwy do rozpoznania
+sprawy według przepisów dotychczasowych pozostaje właściwy do czasu prawomocnego
+zakończenia postępowania w tej sprawie.
+     2. Postępowania przygotowawcze o przestępstwa określone w art. 228 § 6 w związku
+z § 2 oraz w art. 229 § 5 w związku z § 2 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny
+(Dz. U. z 2025 r. poz. 383, 1818 i 1872), prowadzone w formie dochodzenia, wszczęte
+i niezakończone przed dniem wejścia w życie niniejszej ustawy, prowadzi się w formie
+dochodzenia również po wejściu w życie niniejszej ustawy.
+
+     Art. 3. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                        UZASADNIENIE
+
+     Potrzeba przeprowadzenia przedmiotowej nowelizacji wynika m.in. z treści otrzymanych
+rekomendacji     w ramach      współpracy     z grupą    roboczą     OECD      ds.    przekupstwa
+w międzynarodowych transakcjach handlowych (OECD WGB). W dniach 11–14 marca
+2025 r. w Paryżu odbyło się posiedzenie OECD WGB, podczas którego został omówiony tzw.
+Action Plan z Fazy 4 ewaluacji dotyczący Polski. OECD WGB przekazało wówczas, że
+wymagane jest podjęcie działań w celu wyraźnego wskazania w przepisach, że wszystkie
+sprawy      dotyczące      przekupstwa       zagranicznych        funkcjonariuszy      publicznych
+w międzynarodowych transakcjach handlowych rozpoznawane będą przez sąd okręgowy
+w I instancji (potrzeba nowelizacji art. 25 § 1 pkt 2 k.p.k.).
+
+     Realizacja tylko powyższego zalecenia OECD WGB, tj. przekazanie do rozpoznawania
+w I instancji   sądowym      okręgowym      wyłącznie     spraw     przekupstwa      zagranicznych
+funkcjonariuszy publicznych w międzynarodowych transakcjach handlowych czy też tylko
+zagranicznych funkcjonariuszy publicznych – zdaniem projektodawcy jest uzasadniona.
+
+     Dlatego też jest wskazanym przekazanie do właściwości sądów okręgowych spraw
+kwalifikowanych z art. 228 § 6 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny (Dz. U.
+z 2025 r. poz. 383, 1818 i 1872), dalej: „k.k.”, i art. 229 § 5 k.k., dotyczących odpowiednio
+sprzedajności i przekupstwa osoby pełniącej funkcję publiczną w państwie obcym lub
+w organizacji międzynarodowej, w związku z pełnieniem tej funkcji. Powodem objęcia
+kognicją sądów okręgowych tego rodzaju spraw jest ich wyjątkowy charakter wynikający
+w szczególności z ich bardzo niewielkiej liczby i opieranie ustaleń faktycznych na materiale
+dowodowym zbieranym z reguły poza granicami kraju.
+
+     Nowelizacja kodeksu karnego z dnia 9 września 2000 r. rozszerzyła przepisy dotyczące
+łapownictwa biernego i czynnego, tj. art. 228 § 6 k.k. i art. 229 § 5 k.k., na osobę pełniącą
+funkcję publiczną w państwie obcym lub organizacji międzynarodowej, wypełniając tym
+samym zobowiązanie wynikające z ratyfikacji Konwencji OECD z dnia 17 grudnia 1997 r.
+o zwalczaniu przekupstwa zagranicznych funkcjonariuszy publicznych w transakcjach
+międzynarodowych. Takie przestępstwa, w ujęciu abstrakcyjnym, charakteryzują się bowiem
+wyższym stopniem winy sprawcy (od osoby pełniącej funkcję publiczną można wymagać
+więcej niż od innej osoby – pod kątem niezakłócania prawidłowości działalności jednostek
+dysponujących środkami publicznymi w aspekcie korupcji). W przypadku takich przestępstw
+stopień zarzucalności jest więc z reguły wyższy.
+     Abstrakcyjny stopień materialnego bezprawia takich czynów również jest wyższy niż
+korupcji czynnej, gdyż z reguły oznacza wyższy stopień niebezpieczeństwa dla prawidłowości
+funkcjonowania jednostek dysponujących środkami publicznymi (zazwyczaj osoba pełniąca
+funkcję publiczną, która przyjęła korzyść majątkową lub osobistą, podjęła już decyzje
+o dokonaniu określonego zachowania, za które korzyść taką przyjęła).
+
+     Jakkolwiek ww. różnice w stopniu winy sprawcy i społecznej szkodliwości czynu nie
+znajdują odzwierciedlenia w różnicach w sankcjach za typy z art. 228 § 6 k.k. i art. 229
+§ 5 k.k., to nie można na tej podstawie ich kwestionować, gdyż ustawodawca niejednokrotnie
+ze względów kryminalno-politycznych lub wynikających ze stopnia winy zagraża dane czyny
+identycznymi sankcjami, nie przesądzając jednak w ten sposób o ich zbliżonej wadze (np.
+art. 149 k.k. i art. 278 § 1 k.k.), wychodząc z założenia, że ich rozpiętość jest adekwatna do
+orzeczenia kary zgodnie z dyrektywami jej wymiaru.
+
+     Korupcja bierna uderza w chronione dobro prawne (system) od środka, popełnianie takich
+przestępstw oznacza głęboką patologię wśród kadry urzędniczej i zwłaszcza z tego powodu ich
+społeczna szkodliwość jest wysoka. Natomiast w przypadku korupcji czynnej, realne
+konsekwencje naruszenia dobra prawnego mogą być niższe, gdyż osoba pełniąca funkcję
+publiczną takiej korzyści może nie przyjąć i atak na dobro prawne nie doprowadzi do
+faktycznych skutków w zakresie wydania (zaniechania) decyzji przez urzędnika, będąc tylko
+atakiem na prawidłowość funkcjonowania jednostek dysponujących środkami publicznymi
+w aspekcie braku narażenia na propozycje korupcyjne.
+
+     Nie kwestionując wysokiego stopnia naganności obu postaci korupcji, z ww. powodów
+konieczne jest jednolite potraktowanie spraw o takie czyny w aspekcie właściwości rzeczowej
+sądów, które będą właściwe do ich rozpatrywania w I instancji.
+
+     W ocenie projektodawcy sprawy dotyczące przekupstwa zagranicznych funkcjonariuszy
+publicznych w międzynarodowych transakcjach handlowych ze swojej natury charakteryzują
+się szczególną wagą. Już sam fakt, że postępowanie toczy się przeciwko zagranicznemu
+funkcjonariuszowi publicznemu, wskazuje, że przedmiot sprawy ma precedensowy charakter,
+co już na tym etapie rozpoznawania danego stanu faktycznego pozwala zakwalifikować daną
+sprawę jako tę o szczególnej wadze. Należy jednak podkreślić, że waga przestępstw
+korupcyjnych z reguły jest również duża, nawet jeżeli nie dotyczą one przekupstwa
+zagranicznych funkcjonariuszy publicznych.
+
+
+
+
+                                              2
+     Waga przestępstw stypizowanych w art. 228 § 6 k.k. i art. 229 § 5 k.k. przemawia więc za
+wprowadzaną zmianą w obrębie art. 25 § 1 pkt 2 ustawy z dnia 6 czerwca 1997 r. – Kodeks
+postępowania karnego (Dz. U. z 2025 r. poz. 46, 304, 1178, 1420 i 1872), dalej: „k.p.k.”, ale
+nie jest to jedyny argument, który legł u podstaw projektu.
+
+     Zdaniem projektodawcy przekazanie sądom okręgowym do rozpatrywania w I instancji
+przestępstw korupcji biernej i czynnej osoby pełniącej funkcję publiczną w państwie obcym
+lub w organizacji międzynarodowej, w związku z pełnieniem tej funkcji jest uzasadnione nie
+tylko ich wagą, lecz również szeregiem innych przyczyn. Orzekanie o odpowiedzialności za
+powyższe czyny powinno zostać przekazane sędziom o z reguły większym doświadczeniu
+zawodowym oraz życiowym, a rozpatrywanie środków zaskarżenia takich wyroków – sądom
+apelacyjnym. Jakkolwiek w zakresie spraw o takie czyny znajdują się również sprawy
+stosunkowo proste (niezawiłe), to jednak istotna ich część (w szczególności, jeżeli oskarżonym
+jest zagraniczny funkcjonariusz publiczny) takiego charakteru nie ma, jest wymagane
+przeprowadzenie szeregu dowodów, usunięcie wątpliwości między wnioskami z nich
+płynącymi, a w szczególności weryfikacja wiarygodności depozycji świadków i oskarżonych.
+
+     Warto zwrócić uwagę, że w latach 2021–2024 osądzono łącznie 3902 osoby za
+przestępstwa określone w art. 228 k.k. albo 229 k.k.. Tylko 7 z nich, a więc ułamek procenta
+(około 0,0018 ogółu), zostało osądzonych za przestępstwa z art. 228 § 6 k.k. albo z art. 229
+§ 5 k.k.
+
+     W przypadku prokuratury przekazanie sądom okręgowym wszystkich spraw dotyczących
+przestępstw typizowanych w art. 228 k.k. i art. 229 k.k. w zauważalny sposób wpłynie na
+obciążenie pracą prokuratorów. Dotyczy to zwłaszcza sytuacji, gdy postępowania
+przygotowawcze prowadzone lub nadzorowane będą przez prokuratorów wykonujących swoje
+obowiązki w prokuraturach rejonowych mających siedziby w miastach innych niż te, w których
+siedziby mają sądy okręgowe. Stosownie do § 321 rozporządzenia Ministra Sprawiedliwości
+z dnia 7 kwietnia 2016 r. – Regulamin wewnętrznego urzędowania powszechnych jednostek
+organizacyjnych prokuratury (Dz. U. z 2025 r. poz. 753), zgodnie z którym: „Do udziału
+w rozprawie (posiedzeniu) wyznacza się jako referenta sądowego prokuratora, który w danej
+sprawie prowadził lub nadzorował postępowanie przygotowawcze albo sporządził akt
+oskarżenia. Wyznaczenie innego prokuratora jest dopuszczalne wyłącznie w szczególnie
+uzasadnionych przypadkach; wyznacza się wówczas prokuratora znającego sprawę.”. Co do
+zasady prokuratorzy z prokuratur rejonowych w miejscowościach innych niż miasta będące
+siedzibami sądów okręgowych będą zmuszeni przemieszczać się do tych miast w celu udziału
+
+
+                                               3
+w rozprawach i posiedzeniach w sprawach o przestępstwa z art. 228 k.k. i art. 229 k.k.
+Oznacza to ograniczenie czasu, który będą mogli oni poświęcić na wykonywanie innych
+obowiązków służbowych. Nie bez znaczenia są również koszty, które trzeba będzie ponieść na
+przejazd prokuratorów.
+
+     Dla zobrazowania skutków zmian, które wpłyną na funkcjonowanie prokuratury, należy
+zauważyć, że z 362 prokuratur rejonowych w całym kraju 268 jest położonych poza
+miejscowościami będącymi siedzibami sądów okręgowych. W roku 2024 prokuratorzy
+z prokuratur rejonowych z miejscowości niebędących siedzibami sądów okręgowych
+uczestniczyli w 15 rozprawach i posiedzeniach w sprawach o przestępstwa z art. 228 k.k.
+i 161 rozprawach i posiedzeniach w rozprawach o przestępstwa z art. 229 k.k. Żadna z tych
+spraw nie była przy tym kwalifikowana z art. 228 § 6 k.k. lub z art. 229 § 5 k.k. Do tych liczb
+należy doliczyć sprawy o przestępstwa będące wypadkami mniejszej wagi (art. 228 § 2 k.k.
+i art. 229 § 2 k.k.), w których prokuratorzy obecnie nie muszą uczestniczyć w rozprawie, jeśli
+postępowanie przygotowawcze prowadzone było w formie dochodzenia.
+
+     Taka proporcja liczby spraw wskazuje, ze projektowany cel zostanie osiągnięty przez
+przekazanie do właściwości sądów okręgowych jedynie spraw dotyczących sprzedajności
+i przekupstwa osoby pełniącej funkcję publiczną w państwie obcym lub w organizacji
+międzynarodowej, w związku z pełnieniem tej funkcji.
+
+     Zgodnie z przepisem intertemporalnym w sprawach, w których akt oskarżenia wniesiono
+przed dniem wejścia w życie niniejszej ustawy, sąd właściwy do rozpoznania sprawy według
+przepisów dotychczasowych pozostanie właściwy do czasu prawomocnego zakończenia
+postępowania w tej sprawie. Aby uniknąć wątpliwości, czy przepis przejściowy dotyczy
+również tzw. substytutów aktu oskarżenia, projekt wskazuje expressis verbis, że analogicznie
+należy oceniać złożenie przez prokuratora (zamiast aktu oskarżenia) wniosku o warunkowe
+umorzenie postępowania karnego (art. 336 § 1 k.p.k.), wydanie na posiedzeniu wyroku
+skazującego i orzeczenie uzgodnionych z oskarżonym kar lub innych środków przewidzianych
+za zarzucany mu występek (art. 335 § 1 i 2 k.p.k.). Sąd właściwy do rozpoznania sprawy
+według przepisów dotychczasowych pozostanie właściwy do czasu prawomocnego
+zakończenia postępowania w tej sprawie również, jeżeli przed dniem wejścia w życie ustawy
+nastąpiło skierowanie sprawy do sądu z wnioskiem o umorzenie postępowania i zastosowanie
+środków zabezpieczających (art. 324 § 1 k.p.k.).
+
+     Utrzymanie dotychczasowej właściwości sądu w sprawach, w których akt oskarżenia lub
+jego substytuty i wniosek, o którym mowa wart. 324 § 1 k.p.k., wniesiono przed dniem wejścia
+
+                                              4
+w życie projektowanej ustawy, pozwala uniknąć chaosu organizacyjnego oraz konieczności
+przekazywania spraw pomiędzy sądami, co mogłoby skutkować poważnymi komplikacjami
+proceduralnymi, zwiększeniem kosztów postępowania, a także znaczną jego przewlekłością.
+
+     Projekt przewiduje również, że postępowania przygotowawcze o przestępstwa określone
+w art. 228 § 6 w związku z § 2 i art. 229 § 5 w związku z § 2 k.k. (tzw. wypadki mniejszej wagi
+– zagrożone w górnej granicy karą nie wyższą niż 5 lat pozbawienia wolności), wszczęte
+i niezakończone przed dniem wejścia w życie niniejszej ustawy, prowadzone w formie
+dochodzenia, prowadzone będą dalej w tej formie po dniu wejścia w życie projektowanej
+ustawy. Taki przepis przejściowy jest więc uzasadniony, gdyż w sprawach o powyższe
+przestępstwa zasadniczo jest prowadzone dochodzenie (por. art. 309 w związku z art. 325b
+k.p.k.). Natomiast po wejściu w życie projektowanej ustawy obligatoryjne będzie prowadzenie
+śledztwa, gdyż w sprawach tych właściwy będzie sąd okręgowy (art. 309 pkt 1 k.p.k.) Celem
+projektodawcy nie jest wprowadzanie konieczności wydawania przez prokuratora
+postanowienia o zmianie formy prowadzenia postępowania przygotowawczego, czego
+skutkiem może być dodatkowo konieczność podejmowania szeregu dodatkowych czynności,
+co trudno byłoby uznać za rozwiązanie zgodne z prakseologią postępowania (w szczególności,
+gdy śledztwo prowadziła Policja a dochodzenie będzie prowadzić prokurator).
+
+     Projekt nie dotyczy warunków określonych w uchwale nr 20 Rady Ministrów z dnia
+18 lutego 2014 r. w sprawie zaleceń ujednolicenia terminów wejścia w życie niektórych aktów
+normatywnych (M.P. poz. 205).
+
+     Projekt nie zawiera przepisów technicznych, zatem nie podlega procedurze notyfikacji
+zgodnie z trybem przewidzianym w rozporządzeniu Rady Ministrów z dnia 23 grudnia 2002 r.
+w sprawie sposobu funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych
+(Dz. U. poz. 2039 oraz z 2004 r. poz. 597).
+
+     Projekt przewiduje, że ustawa wejdzie w życie po upływie 14 dni od dnia ogłoszenia.
+
+     Projekt ustawy nie dotyczy funkcjonowania samorządu terytorialnego.
+
+     Projekt ustawy nie jest sprzeczny z prawem Unii Europejskiej oraz nie wymaga
+przedstawienia właściwym organom i instytucjom Unii Europejskiej, w tym Europejskiemu
+Bankowi Centralnemu, w celu uzyskania opinii, dokonania powiadomienia, konsultacji albo
+uzgodnienia.
+
+     Projektowana regulacja nie stwarza zagrożeń korupcyjnych.
+
+
+
+                                              5
+     Projektowana ustawa nie będzie wymagała notyfikacji Komisji Europejskiej w trybie
+ustawy z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach dotyczących pomocy publicznej
+(Dz. U. z 2025 r. poz. 468 i 1652).
+
+     W celu spełnienia wymogów, o których mowa w § 42 ust. 1 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r.
+poz. 806 oraz z 2025 r. poz. 408), projekt został skierowany do koordynatora OSR.
+
+     Zawarte    w projekcie    regulacje   nie   będą   miały   wpływu     na       działalność
+mikroprzedsiębiorców, małych i średnich przedsiębiorców, o których mowa w ustawie z dnia
+6 marca 2018 r. – Prawo przedsiębiorców (Dz. U. z 2025 r. poz. 1480, 1795 i 1826).
+
+     Zgodnie z § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. –
+Regulamin pracy Rady Ministrów oraz stosownie do wymogów art. 5 ustawy z dnia 7 lipca
+2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677)
+projekt został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej
+Rządowego Centrum Legislacji w serwisie Rządowy Proces Legislacyjny. W trybie ww.
+ustawy nie odnotowano zgłoszeń zainteresowanych podmiotów.
+
+
+
+
+                                             6
+Nazwa projektu                                                              Data sporządzenia
+Ustawa o zmianie ustawy – Kodeks postępowania karnego                       22.01.2026 r.
+Ministerstwo wiodące i ministerstwa współpracujące                          Źródło
+Ministerstwo Sprawiedliwości                                                Inicjatywa własna
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Stanu         Nr w Wykazie prac legislacyjnych
+lub Podsekretarza Stanu                                                     i programowych Rady Ministrów
+pod względem legislacyjnym i merytorycznym:                                 UD273
+Arkadiusz Myrcha, Sekretarz Stanu
+Kontakt do opiekuna merytorycznego projektu
+opiekun legislacyjny:
+Wojciech Ulitko
+Zastępca Dyrektora Departamentu Legislacyjnego
+e-mail: sekretariat.dl@ms.gov.pl, tel. 22 52 12 764
+Emilia Siemieniuk
+Główny Specjalista, w Departamencie Legislacyjnym
+e-mail: Emilia.Siemieniuk@ms.gov.pl, tel. 22 52 12 449
+opiekun merytoryczny:
+Anna Sporczyk-Popielarczyk
+Zastępca Dyrektora Departamentu Współpracy Międzynarodowej i Praw
+Człowieka, e-mail: sekretariat.dwmpc@ms.gov.pl, tel. 22 23 90 870
+
+                                 OCENA SKUTKÓW REGULACJI
+ 1. Jaki problem jest rozwiązywany?
+W międzynarodowym handlu coraz większe znaczenie mają standardy antykorupcyjne. Jednym z najpoważniejszych
+przestępstw w tym obszarze jest przekupstwo zagranicznych funkcjonariuszy publicznych mające na celu zdobycie
+lub utrzymanie korzyści gospodarczych.
+Podkreślenia wymaga, że przepisy karne dotyczące przekupstwa zagranicznych funkcjonariuszy publicznych
+w międzynarodowych transakcjach handlowych mają na celu ochronę ważnego, z punktu widzenia podstawowego interesu
+państwa, dobra prawnego w postaci prawidłowego funkcjonowania jednostek dysponujących środkami publicznymi,
+ściślej – bezinteresowności działających w tej sferze osób. Wobec powyższego sprawy takie powinny być traktowane jako
+te o szczególnej wadze, często też charakteryzujące się znaczną zawiłością.
+Potrzeba zmian w ustawie z dnia 6 czerwca 1997 r. – Kodeks postępowania karnego (Dz. U. z 2025 r. poz. 46, z późn.
+zm.), dalej „k.p.k.”, wynika m.in. z treści otrzymanych rekomendacji w ramach współpracy z grupą roboczą Organizacji
+Współpracy Gospodarczej i Rozwoju (OECD WGB) ds. przekupstwa w międzynarodowych transakcjach handlowych.
+W ramach IV fazy ewaluacji dotyczącej Polski grupa robocza przedstawiła rekomendacje, w zakresie których zawarła
+zalecenie ustanowienia jasnych i konkretnych procedur, które kwalifikują sprawy przekupstwa zagranicznych
+funkcjonariuszy publicznych jako podlegające sądom okręgowym.
+Podczas posiedzenia OECD WGB, które odbyło się w dniach 11–14 marca 2025 r. w Paryżu, został omówiony tzw. Action
+Plan z Fazy 4 ewaluacji dotyczący Polski. OECD WGB podkreśliło wówczas, że jest wymagane podjęcie działań w celu
+wyraźnego wskazania w przepisach, iż wszystkie sprawy dotyczące przekupstwa zagranicznych funkcjonariuszy
+publicznych w międzynarodowych transakcjach handlowych rozpoznawane będą w I instancji przez sąd okręgowy.
+Dlatego też jest wskazanym przekazanie do właściwości sądów okręgowych spraw kwalifikowanych
+z art. 228 § 6 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny (Dz. U. z 2025 r. poz. 383, z późn. zm.), zwanej dalej
+„k.k.”, i art. 229 § 5 k.k., dotyczących odpowiednio sprzedajności i przekupstwa osoby pełniącej funkcję publiczną
+w państwie obcym lub w organizacji międzynarodowej, w związku z pełnieniem tej funkcji. Powodem objęcia
+kognicją sądów okręgowych tego rodzaju spraw jest ich wyjątkowy charakter wynikający w szczególności z ich bardzo
+niewielkiej liczby i opieranie ustaleń faktycznych na materiale dowodowym zbieranym z reguły poza granicami kraju.
+Podkreślenia jeszcze raz wymaga, iż sprawy kwalifikowane z art. 228 § 6 k.k. i 229 § 5 k.k. mają istotny wymiar
+międzynarodowy, gdyż wynikają z implementacji konwencji antykorupcyjnych, dotyczą funkcjonariuszy państw obcych
+lub organizacji międzynarodowych, obejmują inwestycje i interesy transnarodowe oraz wymagają współdziałania
+z licznymi instytucjami zagranicznymi, także unijnymi i globalnymi. Wobec powyższego sprawy te należą do najbardziej
+skomplikowanych postępowań korupcyjnych w polskim systemie karnym. Łączą elementy prawa karnego,
+międzynarodowego, finansowego, handlowego i administracyjnego. Każda z nich wymaga wielopoziomowej współpracy
+międzynarodowej, analizy prawa obcego, szkolenia technicznego oraz zaangażowania instytucji transnarodowych (OECD,
+UNCAC1, OLAF2, Europol3). Prawie zawsze istnieje wrażliwość polityczna oraz ryzyko ustaleń „zderzających się”
+jurysdykcji.
+Powyższe sprawy charakteryzuje:
+1. Wysoki stopień skomplikowania dowodowego:
+−   transgraniczny charakter czynności – część czynu często dokonuje się poza granicami Rzeczypospolitej Polskiej
+    (np. wręczenie korzyści zagranicznemu urzędnikowi); jest konieczne również ustalenie norm lokalnych – kto jest
+    „osobą pełniącą funkcję publiczną” w innym państwie; występują problemy z dostępem do dokumentów, świadków
+    i infrastruktury dowodowej;
+−   utrudniona dostępność świadków i instytucji – zagraniczne organy państwowe nie zawsze współpracują lub działają
+    w oparciu o odmienne standardy proceduralne; istnieje ryzyko odmowy pomocy prawnej z powodów politycznych,
+    dyplomatycznych albo z uwagi na tajemnice państwowe;
+−   złożone schematy finansowe – korzyści majątkowe mogą być przekazywane poprzez: spółki-„słupy”, rachunki
+    w rajach podatkowych, fundacje, pseudo-doradztwo, fikcyjne umowy usług konsultingowych; postępowanie wymaga
+    często opinii biegłych od rachunkowości i prawa finansowego różnych państw.
+2. Skomplikowanie prawne:
+−   kwalifikacja urzędnika zagranicznego – polskie prawo posługuje się szeroką definicją, obejmującą zarówno:
+    funkcjonariuszy państwowych, pracowników organizacji międzynarodowych, osoby pełniące funkcje quasi-publiczne;
+    jest konieczne badanie prawa obcego, statutu organizacji międzynarodowych itp.;
+−   konflikt norm i jurysdykcji – jest możliwe równoległe prowadzenie postępowań w kilku państwach; część państw
+    penalizuje przekupstwo urzędników wyłącznie w odniesieniu do własnych funkcjonariuszy, inne – jak Polska – stosują
+    szeroką jurysdykcję eksterytorialną; pojawia się problem ne bis in idem (tej samej osoby nie można sądzić lub karać
+    więcej niż jeden raz za ten sam czyn) w wymiarze międzynarodowym;
+−   konieczność uwzględnienia prawa międzynarodowego publicznego – m.in. immunitety dyplomatyczne
+    i konsularne, immunitet organizacji międzynarodowych, status funkcjonariuszy misji pokojowych lub struktur UE.
+3. Złożoność operacyjna:
+−   prowadzenie postępowań w szerokiej kooperacji międzynarodowej – wymagane są często: europejskie nakazy
+    dochodzeniowe (EIO), wnioski o pomoc prawną na podstawie konwencji Rady Europy, współpraca z OLAF,
+    Europolem, Interpolem, Eurojustem;
+−   różne standardy dowodowe – kłopotliwe pozyskanie materiałów z krajów o odmiennych standardach (np. nagrania
+    z podsłuchów, dokumenty bankowe); konieczność zapewnienia legalności dowodu zgodnie z polskim procesem;
+
+−   ryzyko ingerencji politycznej - sprawy często dotyczą inwestycji, koncesji, zasobów naturalnych czy zamówień
+    publicznych o wysokiej wartości; zaangażowane bywają podmioty państwowe lub o znaczeniu strategicznym.
+Nowelizacja kodeksu karnego z dnia 9 września 2000 r. rozszerzyła przepisy dotyczące łapownictwa biernego i czynnego,
+tj. art. 228 § 6 k.k. i art. 229 § 5 k.k., na osobę pełniącą funkcję publiczną w państwie obcym lub organizacji
+międzynarodowej, wypełniając tym samym zobowiązanie wynikające z ratyfikacji Konwencji OECD z dnia 17 grudnia
+1997 r. o zwalczaniu przekupstwa zagranicznych funkcjonariuszy publicznych w transakcjach międzynarodowych. Takie
+przestępstwa, w ujęciu abstrakcyjnym, charakteryzują się bowiem wyższym stopniem winy sprawcy (od osoby pełniącej
+funkcję publiczną można wymagać więcej niż od innej osoby – pod kątem niezakłócania prawidłowości działalności
+jednostek dysponujących środkami publicznymi w aspekcie korupcji). W przypadku takich czynów zabronionych stopień
+zarzucalności jest więc z reguły wyższy. Abstrakcyjny stopień materialnego bezprawia takich czynów również jest wyższy
+
+1 Konwencja Narodów Zjednoczonych przeciwko korupcji (UNCAC).
+2 Europejski Urząd ds. Zwalczania Nadużyć Finansowych (OLAF).
+3 Agencja Unii Europejskiej ds. Współpracy Organów Ścigania (Europol).
+
+                                                                   2
+niż korupcji czynnej, gdyż z reguły oznacza wyższy stopień niebezpieczeństwa dla prawidłowości funkcjonowania
+jednostek dysponujących środkami publicznymi (zazwyczaj osoba pełniąca funkcję publiczną, która przyjęła korzyść
+majątkową lub osobistą, podjęła już decyzje o dokonaniu określonego zachowania, za które korzyść taką przyjęła).
+Jakkolwiek ww. różnice w stopniu winy sprawcy i społecznej szkodliwości czynu nie znajdują odzwierciedlenia
+w różnicach w sankcjach za typy z art. 228 § 6 k.k. i art. 229 § 5 k.k., to nie można na tej podstawie ich kwestionować,
+gdyż ustawodawca niejednokrotnie ze względów kryminalno-politycznych lub wynikających ze stopnia winy zagraża dane
+czyny identycznymi sankcjami, nie przesądzając jednak w ten sposób o ich zbliżonej wadze (np. art. 149 k.k. i art. 278
+§ 1 k.k.), wychodząc z założenia, że ich rozpiętość jest adekwatna do orzeczenia kary zgodnie z dyrektywami jej wymiaru.
+Korupcja bierna uderza w chronione dobro prawne (system) od środka. Popełnianie takich przestępstw oznacza głęboką
+patologię wśród kadry urzędniczej i zwłaszcza z tego powodu ich społeczna szkodliwość jest wysoka. Natomiast
+w przypadku korupcji czynnej, realne konsekwencje naruszenia dobra prawnego mogą być niższe, gdyż osoba pełniąca
+funkcję publiczną takiej korzyści może nie przyjąć i atak na dobro prawne nie doprowadzi do faktycznych skutków
+w zakresie wydania (zaniechania) decyzji przez urzędnika, będąc tylko atakiem na prawidłowość funkcjonowania
+jednostek dysponujących środkami publicznymi w aspekcie braku narażenia na propozycje korupcyjne.
+Mając na uwadze powyższe konieczna jest implementacja zaleceń OECD WGB, a także ujednolicenie właściwości sądów
+w przedmiotowym zakresie4.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Wobec kwestii przedstawionych w pkt 1 OSR oraz ze względu na wagę problematyki zwalczania przekupstwa
+zagranicznych funkcjonariuszy publicznych w międzynarodowych transakcjach handlowych, jak również wobec
+stanowczych wymagań, przedstawionych przez OECD WGB, dotyczących podjęcia działań w celu wyraźnego wskazania
+w przepisach, aby wszystkie tego typu sprawy rozpoznawane były w I instancji przez sąd okręgowy – zachodzi potrzeba
+nowelizacji ustawy z dnia 6 czerwca 1997 r. – Kodeks postępowania karnego.
+Proponuje się zmianę art. 25 k.p.k. przez dodanie w § 1 pkt 2 tego przepisu art. 228 § 6 oraz art. 229 § 5.
+Sprawy dotyczące przekupstwa zagranicznych funkcjonariuszy publicznych w międzynarodowych transakcjach
+handlowych ze swojej natury charakteryzują się szczególną wagą. Już sam fakt, że postępowanie toczy się przeciwko
+zagranicznemu funkcjonariuszowi publicznemu, wskazuje, że przedmiot sprawy ma precedensowy charakter, co już na
+tym etapie rozpoznawania danego stanu faktycznego pozwala zakwalifikować daną sprawę jako tę o szczególnej wadze.
+Należy jednak podkreślić, że waga przestępstw korupcyjnych z reguły jest również duża, nawet jeżeli nie dotyczą one
+przekupstwa zagranicznych funkcjonariuszy publicznych.
+Przestępstwa przekupstwa obejmują obecnie bardzo różnorodne spektrum przypadków. Korupcja wymierzona jest już nie
+tylko w działalność instytucji państwowych i samorządu terytorialnego, ale również, z uwagi na zakres nadany przez
+ustawodawcę znamieniu osoby pełniącej funkcję publiczną, można przyjąć, że drąży sfery, które wykraczają poza ramy
+klasycznej działalności urzędniczej.
+W praktyce rozpiętość stanów faktycznych jest ogromna, od poważnych afer, w które uwikłani są wysoko postawieni
+urzędnicy państwa i zaangażowane wielomilionowe łapówki, po przypadki drobnej korupcji z pogranicza znikomej
+społecznej szkodliwości czynu, gdzie wartość bezprawnej korzyści oscyluje w granicach kilkunastu, a nawet kilku złotych.
+W części przypadków zachowania sprawców mają charakter błahy, wpisują się w obraz korupcji drobnej, leżącej często
+na pograniczu znikomej społecznej szkodliwości czynu, a czasem z uwagi na okoliczności popełnienia czynu po prostu
+łatwiej jest je usprawiedliwić5.
+Celem przedstawienia skali spraw dotyczących korupcji biernej i czynnej, poniżej przedstawiono dane statystyczne
+w przedmiotowym zakresie6.
+Tab. 1. Osoby osądzone w I instancji za występki określone w art. 228 k.k. w latach 2021–2024
+
+
+4 Projekt stanowi realizację zaleceń OECD WGB i koncentruje się na dostosowaniu krajowych regulacji do standardów międzynarodowych,
+
+wskazać jednocześnie należy, że nowelizacja nie ma na celu oceny jakości orzecznictwa sądów rejonowych, dlatego przedstawienie danych w tym
+zakresie nie wydaje się zasadne.
+5 Paweł Bachmat Drobna korupcja na przykładzie przestępstw z art. 228 § 2 i art. 229 § 2 k.k. w ujęciu doktryny i ocenach sądów, Prawo
+
+w działaniu sprawy karne 11/2012, https://iws.gov.pl/prawo-w-dzialaniu/numery-archiwalne/tom-11-sprawy-karne/.
+6 Brak danych na temat liczby spraw dotyczących przestępstw przekupstwa zagranicznych funkcjonariuszy publicznych w międzynarodowych
+
+transakcjach handlowych.
+                                                                    3
+                           art. 228 §1 k.k.     art. 228 §2 k.k.   art. 228 §3 k.k.     art. 228 §4 k.k.   art. 228 §5 k.k.        art. 228 §6 k.k.
+                                                                      2021
+ Osądzeni ogółem:                      140                    5                 84                   13                     47                      0
+ - skazani                              95                    3                 79                   11                     46                      0
+                                                                      2022
+ Osądzeni ogółem:                        94                   5                 84                   10                     2                       0
+ - skazani                               71                   0                 82                   10                     2                       0
+                                                                      2023
+ Osądzeni ogółem:                        47                   5                 62                   10                     0                       0
+ - skazani                               27                   1                 54                   10                     0                       0
+                                                                      2024
+ Osądzeni ogółem:                        63                   6                 45                    9                     3                       2
+ - skazani                               53                   3                 41                    8                     3                       2
+
+Tab. 2. Osoby osądzone w I instancji za występki określone w art. 229 k.k. w latach 2021–2024
+                                art. 229 §1 k.k.  art. 229 §2 k.k.            art. 229 §3 k.k.       art. 229 §4 k.k.            art. 229 §5 k.k.
+                                                              2021
+ Osądzeni ogółem:                          180                  134                           402                    10                             0
+ - skazani                                 150                   71                           389                     6                             0
+                                                              2022
+ Osądzeni ogółem:                          197                   45                           424                       9                           4
+ - skazani                                 163                   36                           406                       6                           3
+                                                              2023
+ Osądzeni ogółem:                          131                  149                           441                       2                           1
+ - skazani                                 109                   55                           431                       2                           0
+                                                              2024
+ Osądzeni ogółem:                          143                   99                           485                       3                           0
+ - skazani                                 106                   63                           472                       2                           0
+Źródło: dane statystyczne Ministerstwa Sprawiedliwości
+Tab. 3. Czas trwania postępowań
+
+
+               Średni czas trwania (w miesiącach) od popełnienia przestępstw korupcyjnych (art. 228 i 229 k.k.)
+                   do uprawomocnienia się wyroku skazanych dorosłych za lata 2016–2020 – prawomocne7
+
+
+                                              2016             2017                   2018                 2019                      2020
+         Wyszczególnienie
+                                                                             skazania prawomocne
+ Art.228 §1 k.k.                                 107,7             102,2                     150,9                106,5                     112,4
+ Art.228 §2 k.k.                                    X               64,8                      61,3                 35,0                      65,7
+ Art.228 §3 k.k.                                 107,7             130,9                     113,4                102,8                     119,5
+ Art.228 §4 k.k.                                 102,5             112,0                     102,7                126,6                      83,2
+ Art.228 §5 k.k.                                 177,3             183,8                     223,3                239,5                        X
+ Art.229 §1 k.k.                                  54,4              53,6                      51,7                 69,6                      52,1
+ Art.229 §2 k.k.                                   9,3              13,1                      32,4                 15,2                      16,6
+ Art.229 §3 k.k.                                  36,7              38,3                      42,7                 47,0                      47,4
+ Art.229 §4 k.k.                                 174,4             127,3                        X                  98,0                     239,0
+ Art.229 §5 k.k.                                    X                 X                         X                    X                       80,0
+Waga przestępstw stypizowanych w art. 228 § 6 k.k. i art. 229 § 5 k.k. przemawia za wprowadzaną zmianą w obrębie
+art. 25 § 1 pkt 2 k.p.k.
+Podkreślenia jednak wymaga, że nie jest to jedyny argument, który legł u podstaw projektu. W opinii projektodawcy
+przekazanie sądom okręgowym do rozpatrywania w I instancji przestępstw korupcji biernej i czynnej osoby pełniącej
+
+
+
+7 MS nie dysponuje danymi z zakresu czasu trwania postępowań za lata 2021 – 2024 oraz I półrocze 2025 r.
+
+                                                                      4
+funkcję publiczną w państwie obcym lub w organizacji międzynarodowej, w związku z pełnieniem tej funkcji, jest
+uzasadnione nie tylko ich wagą, lecz również szeregiem innych przyczyn.
+Ratio legis proponowanego rozwiązania wiąże się z przekonaniem, że orzekanie o odpowiedzialności za powyższe
+czyny powinno zostać przekazane sędziom o – z reguły – większym doświadczeniu zawodowym oraz życiowym,
+a rozpatrywanie środków zaskarżenia takich wyroków – sądom apelacyjnym. Jakkolwiek w zakresie spraw o takie
+czyny znajdują się również sprawy stosunkowo proste (niezawiłe), to jednak istotna ich część (w szczególności, jeżeli
+oskarżonym jest zagraniczny funkcjonariusz publiczny) takiego charakteru nie ma, jest wymagane przeprowadzenie
+szeregu dowodów, usunięcie wątpliwości między wnioskami z nich płynącymi, a w szczególności weryfikacja
+wiarygodności depozycji świadków i oskarżonych.
+Warto zwrócić uwagę, że w latach 2021–2024 osądzono łącznie 3902 osoby za przestępstwa określone w art. 228 k.k. albo
+229 k.k. Tylko 7 z nich, a więc ułamek procenta (ok. 0,18 % ogółu), zostało osądzonych za przestępstwa z art. 228 § 6 k.k.
+albo z art. 229 § 5 k.k.
+Obciążenie pracą prokuratorów
+W przypadku prokuratury przekazanie sądom okręgowym wszystkich spraw dotyczących przestępstw typizowanych
+w art. 228 k.k. i art. 229 k.k. w zauważalny sposób wpłynęłoby na obciążenie pracą prokuratorów. Dotyczy to zwłaszcza
+sytuacji, gdy postępowania przygotowawcze prowadzone lub nadzorowane byłyby przez prokuratorów wykonujących
+swoje obowiązki w prokuraturach rejonowych mających siedziby w miastach innych niż te, w których siedziby mają sądy
+okręgowe. Co do zasady prokuratorzy z prokuratur rejonowych w miejscowościach innych niż miasta będące siedzibami
+sądów okręgowych byliby zmuszeni przemieszczać się do tych miast w celu udziału w rozprawach i posiedzeniach
+w sprawach o przestępstwa z art. 228 k.k. i art. 229 k.k. Oznacza to ograniczenie czasu, który mogliby oni poświęcić
+na wykonywanie innych obowiązków służbowych.
+Dla zobrazowania skutków zmian, które wpłyną na funkcjonowanie prokuratury, należy zauważyć, że z 362 prokuratur
+rejonowych w całym kraju 268 jest położonych poza miejscowościami będącymi siedzibami sądów okręgowych.
+W roku 2024 prokuratorzy z prokuratur rejonowych z miejscowości niebędących siedzibami sądów okręgowych
+uczestniczyli w 15 rozprawach i posiedzeniach w sprawach o przestępstwa z art. 228 k.k. i 161 rozprawach i posiedzeniach
+w rozprawach o przestępstwa z art. 229 k.k. Żadna z tych spraw nie była przy tym kwalifikowana z art. 228 § 6 k.k.
+lub z art. 229 § 5 k.k. Do tych liczb należałoby doliczyć sprawy o przestępstwa będące wypadkami mniejszej wagi
+(art. 228 § 2 k.k. i art. 229 § 2 k.k.), w których prokuratorzy obecnie nie muszą uczestniczyć w rozprawie, jeśli
+postępowanie przygotowawcze prowadzone było w formie dochodzenia.
+Taka proporcja liczby spraw wskazuje, ze projektowany cel zostanie osiągnięty przez przekazanie do właściwości
+sądów okręgowych jedynie spraw dotyczących sprzedajności i przekupstwa osoby pełniącej funkcję publiczną
+w państwie obcym lub w organizacji międzynarodowej, w związku z pełnieniem tej funkcji.
+Przepisy przejściowe
+Zgodnie z przepisem intertemporalnym, w sprawach, w których akt oskarżenia wniesiono przed dniem wejścia w życie
+niniejszej ustawy, sąd właściwy do rozpoznania sprawy według przepisów dotychczasowych pozostaje właściwy do czasu
+prawomocnego zakończenia postępowania w tej sprawie. Aby uniknąć wątpliwości, czy przepis przejściowy dotyczy
+również tzw. substytutów aktu oskarżenia, projekt wskazuje dobitnie, że analogicznie należy oceniać złożenie
+przez prokuratora (zamiast aktu oskarżenia) wniosku o warunkowe umorzenie postępowania karnego (art. 336 § 1 k.p.k.)
+albo o wydanie na posiedzeniu wyroku skazującego i orzeczenie uzgodnionych z oskarżonym kar lub innych środków
+przewidzianych za zarzucany mu występek (art. 335 § 1 i 2 k.p.k.). Sąd właściwy do rozpoznania sprawy według przepisów
+dotychczasowych pozostanie właściwy do czasu prawomocnego zakończenia postępowania w tej sprawie również, jeżeli
+przed dniem wejścia w życie ustawy nastąpiło skierowanie sprawy do sądu z wnioskiem o umorzenie postępowania
+i zastosowanie środków zabezpieczających (art. 324 § 1 k.p.k.).
+Utrzymanie dotychczasowej właściwości sądu w sprawach, w których akt oskarżenia lub jego substytuty wniesiono przed
+dniem wejścia w życie projektowanej ustawy, pozwoli uniknąć chaosu organizacyjnego oraz konieczności przekazywania
+spraw między sądami, co mogłoby skutkować poważnymi komplikacjami proceduralnymi, zwiększeniem kosztów
+postępowania, a także znaczną jego przewlekłością.
+
+
+
+                                                           5
+Projekt przewiduje również, że postępowania przygotowawcze o przestępstwa określone w art. 228 § 6 w związku z § 2,
+i art. 229 § 5 w związku z § 2 ustawy z dnia 6 czerwca 1997 r. – k.k. (tzw. wypadki mniejszej wagi – zagrożone w górnej
+granicy karą nie wyższą niż 5 lat pozbawienia wolności), wszczęte i niezakończone przed dniem wejścia w życie niniejszej
+ustawy, prowadzone w formie dochodzenia, prowadzone będą dalej w tej formie również po dniu wejścia w życie
+projektowanej ustawy. Taki przepis przejściowy jest więc uzasadniony, gdyż w sprawach o powyższe przestępstwa
+zasadniczo jest prowadzone dochodzenie (por. art. 309 w związku z art. 325b k.p.k.).
+Natomiast po wejściu w życie projektowanej ustawy obligatoryjne będzie prowadzenie śledztwa, gdyż w sprawach tych
+właściwy będzie sąd okręgowy (art. 309 pkt 1 k.p.k.).
+Celem projektodawcy nie jest wprowadzanie konieczności wydawania przez prokuratora postanowienia o zmianie formy
+prowadzenia postępowania przygotowawczego, czego skutkiem może być dodatkowo konieczność podejmowania szeregu
+dodatkowych czynności, co trudno byłoby uznać za rozwiązanie zgodne z prakseologią postępowania (w szczególności,
+gdy śledztwo prowadziła Policja a dochodzenie będzie prowadzić prokurator).
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Konieczność zmian wynika m.in. z treści otrzymanych rekomendacji w ramach współpracy z grupą roboczą OECD WGB
+ds. przekupstwa w międzynarodowych transakcjach handlowych. Jak wskazano w pkt 1 OSR, w ramach IV fazy ewaluacji
+dotyczącej Polski, grupa robocza zaleciła ustanowienie procedur kwalifikujących sprawy przekupstwa zagranicznych
+funkcjonariuszy publicznych jako podlegające rozpoznaniu przez sądy okręgowe.
+Przeprowadzenie analizy prawno-porównawczej wydaje się zatem niecelowe, ponieważ przepisy te wynikają z zaleceń
+OECD, które jednoznacznie wskazują ich treść.
+4. Podmioty, na które oddziałuje projekt
+         Grupa                       Wielkość             Źródło danych                      Oddziaływanie
+Sądy powszechne             377, w tym:                     Informacja        Zmiana właściwości sądu, który będzie
+                            319 – sądy rejonowe           ogólnodostępna      orzekał w I instancji w sprawach
+                            47 – sądy okręgowe                                dotyczących przestępstw sprzedajności (na
+                            11 – sądy apelacyjne                              podstawie art. 228 § 6 k.k.) oraz czynów
+                                                                              zabronionych przekupstwa (na podstawie
+                                                                              art. 229 § 5 k.k.).
+Prokuratorzy                5863                            Mały Rocznik      Obligatoryjne prowadzenie śledztwa, w
+                                                         statystyczny GUS.    ramach postępowania przygotowawczego,
+                                                                2024          w sprawach dotyczących przestępstw
+Powszechne jednostki        Prokuratura Krajowa 1            Informacja       sprzedajności (na podstawie art. 228 § 6
+organizacyjne prokuratury   prokuratury regionalne 11      ogólnodostępna     k.k.) oraz przestępstw przekupstwa (na
+                            prokuratury okręgowe 46                           podstawie art. 229 § 5 k.k.), ze względu na
+                            prokuratury rejonowe 358                          zmianę właściwości sądu, który będzie
+                            ośrodki zamiejscowe PK 2
+                            wydziały zamiejscowe PK                           orzekał w I instancji.
+                            11                                                Postępowania             przygotowawcze
+                                                                              o przestępstwa określone w art. 228 § 6 w
+                                                                              związku z § 2 i art. 229 § 5 w związku
+                                                                              z § 2 Kodeksu karnego (tzw. wypadki
+                                                                              mniejszej wagi – zagrożone w górnej
+                                                                              granicy karą nie wyższą niż 5 lat
+                                                                              pozbawienia wolności), wszczęte i
+                                                                              niezakończone przed dniem wejścia w
+                                                                              życie projektowanej ustawy, prowadzone
+                                                                              w formie dochodzenia, prowadzi się dalej
+                                                                              w tej formie również po dniu wejścia
+                                                                              w życie nowelizacji.
+
+
+
+
+                                                          6
+ 5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Zgodnie z § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów
+(M.P. z 2024 r. poz. 806 oraz z 2025 r. poz. 408) oraz stosownie do wymogów art. 5 ustawy z dnia 7 lipca 2005 r. o działalności
+lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677) projekt został udostępniony w Biuletynie Informacji
+Publicznej na stronie podmiotowej Rządowego Centrum Legislacji w serwisie Rządowy Proces Legislacyjny. W trybie ww.
+ustawy nie odnotowano zgłoszeń zainteresowanych podmiotów.
+W ramach opiniowania i konsultacji publicznych projekt został przekazany następującym podmiotom:
+1. Prokuratura Krajowa;
+2. Krajowa Rada Sądownictwa;
+3. Krajowa Rada Prokuratorów przy Prokuratorze Generalnym;
+4. Sąd Najwyższy;
+5. Naczelna Rada Adwokacka;
+6. Krajowa Rada Radców Prawnych;
+7. Sądy apelacyjne, sądy okręgowe i sądy rejonowe;
+7. Prokuratury regionalne, prokuratury okręgowe i prokuratury rejonowe;
+8. Rzecznik Praw Obywatelskich;
+9. Stowarzyszenie Sędziów Polskich „Iustitia”;
+10. Stowarzyszenie Sędziów „Themis”;
+11. Stowarzyszenie Absolwentów i Aplikantów KSSiP Votum;
+12. Stowarzyszenie Prokuratorów „Lex super omnia”;
+13. Stowarzyszenie Prokuratorów Rzeczypospolitej Polskiej;
+14. Ogólnopolskie Stowarzyszenie Referendarzy Sądowych;
+15. Stowarzyszenie Referendarzy Sądowych LEX IUSTA;
+16. Helsińska Fundacja Praw Człowieka;
+17. Amnesty International;
+18. Fundacja Batorego;
+19. Fundacja Forum Obywatelskiego Rozwoju;
+20. Fundacja Court Watch Polska;
+21. Sieć Obywatelska Watchdog Polska;
+22. Ogólnopolska Federacja Organizacji Pozarządowych.
+Czas trwania opiniowania i konsultacji publicznych – 21 dni.
+Omówienie uwag zgłoszonych w trakcie opiniowania zostało przedstawione w Raporcie z opiniowania, stanowiącym
+załącznik do OSR. W ramach konsultacji publicznych podmioty, do których został przekazany projekt ustawy, nie zgłosiły
+uwag.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2026 r.)                          Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                            0       1       2       3       4         5       6       7         8        9     10     Łącznie
+                                                                                                                      (0–10)
+Dochody ogółem              0       0       0        0       0       0       0        0         0       0      0             0
+budżet państwa              0       0       0        0       0       0       0        0         0       0      0             0
+JST                         0       0       0        0       0       0       0        0         0       0      0             0
+pozostałe jednostki         0       0       0        0       0       0       0        0         0       0      0             0
+Wydatki ogółem              0       0       0        0       0       0       0        0         0       0      0             0
+budżet państwa              0       0       0        0       0       0       0        0         0       0      0             0
+JST                         0       0       0        0       0       0       0        0         0       0      0             0
+pozostałe jednostki         0       0       0        0       0       0       0        0         0       0      0             0
+Saldo ogółem                0       0       0        0       0       0       0        0         0       0      0             0
+budżet państwa              0       0       0        0       0       0       0        0         0       0      0             0
+JST                         0       0       0        0       0       0       0        0         0       0      0             0
+pozostałe jednostki         0       0       0        0       0       0       0        0         0       0      0             0
+Źródła                   Projektowana regulacja nie będzie miała wpływu na wydatki sektora finansów publicznych.
+finansowania
+
+                                                              7
+                      Wejście w życie proponowanych rozwiązań nie spowoduje dodatkowych kosztów dla sektora
+                      finansów publicznych, w tym dla budżetu państwa, budżetów jednostek samorządu terytorialnego
+                      oraz pozostałych jednostek sektora finansów publicznych.
+Dodatkowe             Projektowana zmiana nie będzie miała wpływu na zwiększenie kognicji sądów powszechnych.
+informacje, w tym     Celem regulacji jest zmiana właściwości sądu, który będzie orzekał w sprawach dotyczących
+wskazanie źródeł      przestępstw sprzedajności (na podstawie art. 228 § 6 k.k.) oraz przestępstw przekupstwa (na
+danych i przyjętych
+                      podstawie art. 229 § 5 k.k.).
+do obliczeń założeń
+                      Projektowana nowelizacja art. 25 § 1 pkt 2 k.p.k. rozszerza właściwość rzeczową sądów
+                      okręgowych w ten sposób, że do ich właściwości jako sądów orzekających w I instancji należeć
+                      będą przestępstwa stypizowane w art. 228 § 6 k.k. i art. 229 § 5 k.k.
+                      Wskazać należy, że powyższe przyczyni się do zwiększenia obciążenia sądów okręgowych I-
+                      instancyjnych, a także sądów apelacyjnych rozpatrujących apelacje od orzeczeń zapadłych w sądach
+                      okręgowych. Niemniej jednak takie przesunięcie środka ciężkości, co do wielkości wpływu spraw
+                      określonych w art. 228 § 6 k.k. i art. 229 § 5 k.k., tj. z sądów rejonowych na sądy okręgowe oraz
+                      z sądów okręgowych II-instancyjnych na sądy apelacyjne, każdorazowo będzie prowadzić do
+                      zmniejszenia wielkości wpływu w sądach rejonowych oraz w sądach okręgowych II instancji.
+                      Powyższe rozwiązania nie wpłyną więc na ogólną liczbę spraw trafiających do jednostek
+                      sądownictwa powszechnego, a ewentualne braki w limicie etatów sądów okręgowych (w I instancji)
+                      i apelacyjnych zostaną zaspokojone w ramach etatów aktualnie funkcjonujących
+                      w jednostkach sądownictwa powszechnego, przez ich adekwatną relokację między tymi
+                      jednostkami, w myśl zasady racjonalnego wykorzystania kadr sądownictwa powszechnego.
+                      Przekazanie sądom okręgowym spraw dotyczących przestępstw typizowanych w art. 228 § 6 k.k.
+                      i art. 229 § 5 k.k. nie spowoduje konieczności zmian w strukturze organizacyjnej prokuratury,
+                      ale będzie miało wpływ na obciążenie pracą prokuratorów.
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                        Skutki
+Czas w latach od wejścia w życie          0        1             2          3         5         10      Łącznie (0–10)
+zmian
+W ujęciu         duże
+pieniężnym       przedsiębiorstwa
+(w mln zł,       sektor mikro-,
+ceny stałe z     małych i średnich
+2026 r.)         przedsiębiorstw
+                 rodzina, obywatele
+                 oraz gospodarstwa
+                 domowe
+W ujęciu         duże przedsiębiorstwa            Brak wpływu.
+niepieniężnym    sektor mikro-, małych i          Przedmiotowy projekt nie określa zasad podejmowania, wykonywania
+                 średnich przedsiębiorstw         lub zakończenia działalności gospodarczej, w związku z czym
+                                                  odstąpiono od analiz i oceny przewidywanych skutków społeczno-
+                                                  gospodarczych, wskazanych w art. 66 ust. 1 ustawy z dnia 6 marca
+                                                  2018 r. – Prawo przedsiębiorców (Dz. U. z 2025 r. poz. 1480, 1795
+                                                  i 1826).
+                 rodzina, obywatele oraz          Brak wpływu.
+                 gospodarstwa domowe,
+                 w szczególności
+                 osoby z niepełnosprawnością
+                 i starsze
+Niemierzalne
+
+
+
+
+                                                         8
+Dodatkowe         Wejście w życie projektowanej ustawy nie będzie miało negatywnego wpływu na konkurencyjność
+informacje, w tym gospodarki i przedsiębiorczość, w tym na funkcjonowanie przedsiębiorstw, jak również nie będzie
+wskazanie źródeł  miało negatywnego wpływu na sytuację i rozwój regionalny. Nie przewiduje się również
+danych i
+przyjętych do     bezpośredniego wpływu na rodzinę, obywateli oraz gospodarstwa domowe, w szczególności osoby z
+obliczeń założeń  niepełnosprawnością i starsze.
+ 8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+☒ nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie           ☐ tak
+wymaganymi przez UE (szczegóły w odwróconej           ☐ nie
+tabeli zgodności).                                    ☒ nie dotyczy
+☐ zmniejszenie liczby dokumentów                      ☒ zwiększenie liczby dokumentów
+☐ zmniejszenie liczby procedur                        ☒ zwiększenie liczby procedur
+☐ skrócenie czasu na załatwienie sprawy               ☐ wydłużenie czasu na załatwienie sprawy
+☐ inne: …                                             ☐ inne: …
+Wprowadzane obciążenia są przystosowane do ich        ☐ tak
+elektronizacji.                                       ☐ nie
+                                                      ☒ nie dotyczy
+Komentarz:
+Rozszerzenie właściwości rzeczowej sądów okręgowych w ten sposób, że do ich właściwości jako sądów orzekających w I
+instancji należeć będą przestępstwa stypizowane w art. 228 § 6 k.k. i 229 § 5 k.k.
+Zmiana przyczyni się do zwiększenia obciążenia sądów okręgowych I-instancyjnych, a także sądów apelacyjnych rozpatrujących
+apelacje od orzeczeń zapadłych w sądach okręgowych. Niemniej jednak takie przesunięcie środka ciężkości, co do wielkości
+wpływu spraw określonych w art. 228 § 6 k.k. i 229 § 5 k.k., tj. z sądów rejonowych na sądy okręgowe oraz z sądów okręgowych
+II - instancyjnych na sądy apelacyjne, każdorazowo będzie prowadzić do zmniejszenia wielkości wpływu w sądach rejonowych
+oraz w sądach okręgowych II instancji.
+Wejście w życie projektowanej ustawy może wpłynąć na zmiany w liczbie procedur i dokumentów w wyniku obligatoryjnego
+prowadzenia śledztw, w ramach postępowania przygotowawczego, w sprawach dotyczących przestępstw sprzedajności (na
+podstawie art. 228 § 6 k.k.) oraz przestępstw przekupstwa (na podstawie art. 229 § 5 k.k.), ze względu na zmianę właściwości
+sądu, który będzie orzekał w I instancji.
+Przekazanie sądom okręgowym jedynie spraw dotyczących przestępstw typizowanych w art. 228 § 6 k.k. i art. 229 § 5 k.k. nie
+spowoduje konieczności zmian w strukturze organizacyjnej prokuratury, ale wpłynie na obciążenie pracą prokuratorów.
+Dotyczyć to będzie sytuacji, gdy postępowania przygotowawcze prowadzone lub nadzorowane będą przez prokuratorów
+wykonujących swoje obowiązki w prokuraturach rejonowych mających siedziby w miastach innych niż te, w których siedziby
+mają sądy okręgowe.
+9. Wpływ na rynek pracy
+Wejście w życie ustawy nie będzie miało negatywnego wpływu na rynek pracy.
+
+10. Wpływ na pozostałe obszary
+☐ środowisko naturalne                ☐ demografia                           ☐ informatyzacja
+☐ sytuacja i rozwój regionalny        ☐ mienie państwowe                     ☐ zdrowie
+☒ sądy powszechne,                    ☐ inne:
+administracyjne lub wojskowe
+Omówienie             Projektowana regulacja wpływa na sądy powszechne w związku z przekazaniem do właściwości sądów
+wpływu                okręgowych rozpoznawania w pierwszej instancji spraw z art. 228 § 6 k.k. oraz z art. 229 § 5 k.k.
+11. Planowane wykonanie przepisów aktu prawnego
+Planuje się, aby ustawa weszła w życie po upływie 14 dni od dnia ogłoszenia.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Efekty wprowadzanej regulacji będą natychmiastowe i nie wymagają dodatkowych pomiarów.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Raport z opiniowania.
+
+                                                            9
+                        Raport z konsultacji publicznych i opiniowania
+          projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+I. Informacje ogólne.
+
+Niniejszy dokument stanowi wypełnienie obowiązku określonego w § 51 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806
+oraz z 2025 r. poz. 408), zgodnie z którym organ wnioskujący sporządza raport z konsultacji obejmujący
+omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania.
+
+II A. Przebieg opiniowania.
+Pismami z dnia 18 sierpnia 2025 r. projekt ustawy został skierowany do opiniowania. Zwrócono się do
+adresatów ww. pism o zajęcie stanowiska w terminie 21 dni.
+
+Podmioty, którym projekt ustawy został przedstawiony w ramach opiniowania:
+• Prokurator Krajowy;
+• Krajowa Rada Sądownictwa;
+• Krajowa Rada Prokuratorów przy Prokuratorze Generalnym;
+• Sąd Najwyższy;
+• Naczelna Rada Adwokacka;
+• Krajowa Rada Radców Prawnych;
+• Sądy apelacyjne, sądy okręgowe i sądy rejonowe;
+• Prokuratury regionalne, prokuratury okręgowe i prokuratury rejonowe;
+• Rzecznik Praw Obywatelskich.
+
+II B. Przebieg konsultacji publicznych.
+
+Pismem z dnia 18 sierpnia 2025 r. projekt ustawy został skierowany do konsultacji publicznych.
+Zwrócono się do adresatów ww. pisma o zajęcie stanowiska w terminie 21 dni.
+
+Podmioty, którym projekt ustawy został przedstawiony w ramach konsultacji publicznych:
+• Stowarzyszenie Sędziów Polskich „Iustitia”;
+• Stowarzyszenie Sędziów „Themis”;
+• Stowarzyszenie Absolwentów i Aplikantów KSSiP Votum;
+• Stowarzyszenie Prokuratorów „Lex super omnia”;
+• Stowarzyszenie Prokuratorów Rzeczypospolitej Polskiej;
+• Ogólnopolskie Stowarzyszenie Referendarzy Sądowych;
+• Stowarzyszenie Referendarzy Sądowych LEX IUSTA;
+• Helsińska Fundacja Praw Człowieka;
+• Amnesty International;
+• Fundacja Batorego;
+• Fundacja Forum Obywatelskiego Rozwoju;
+• Fundacja Court Watch Polska;
+• Sieć Obywatelska Watchdog Polska;
+• Ogólnopolska Federacja Organizacji Pozarządowych.
+III A. Omówienie wyników przeprowadzonego opiniowania.
+
+Uwagi do projektu ustawy w ramach opiniowania zgłosiły następujące podmioty:
+•   Prokurator Krajowy;
+•   Krajowa Rada Sądownictwa;
+•   Rzecznik Praw Obywatelskich;
+•   Prokuratura Regionalna w Katowicach;
+•   Prokuratura Regionalna w Szczecinie;
+•   Prokuratura Okręgowa w Warszawie;
+•   Sąd Apelacyjny w Krakowie;
+•   Sąd Apelacyjny w Szczecinie;
+•   Sąd Okręgowy w Toruniu;
+•   Sąd Okręgowy w Rzeszowie.
+
+Wszystkie uwagi zostały przeanalizowane oraz zostały szczegółowo omówione w tabeli do raportu
+z konsultacji publicznych i opiniowania stanowiącego załącznik do Oceny Skutków Regulacji.
+
+
+III B. Omówienie wyników przeprowadzonych konsultacji publicznych.
+
+W ramach konsultacji publicznych podmioty, do których został przekazany projekt ustawy nie zgłosiły
+uwag.
+
+IV. Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu
+z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem
+Centralnym.
+
+Projekt nie wymaga przedłożenia innym instytucjom i organom Unii Europejskiej lub Europejskiemu
+Bankowi Centralnemu w celu uzyskania opinii, dokonania konsultacji lub uzgodnienia.
+
+V. Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem w trybie
+przepisów o działalności lobbingowej w procesie stanowienia prawa, wraz ze wskazaniem
+kolejności dokonania zgłoszeń albo informację o ich braku.
+
+Nie zgłoszono zainteresowanie pracami nad projektem w trybie przepisów o działalności lobbingowej
+w procesie stanowienia prawa.
+
+
+
+
+Załącznik:
+Tabela do raportu z konsultacji publicznych i opiniowania projektu ustawy o zmianie ustawy – Kodeks
+postępowania karnego (UD273).
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+
+ Lp.   Zakres uwagi      Podmiot                           Treść uwagi                                                  Stanowisko
+
+ 1.        Art. 1     Prokuratura    Projektowane zmiany polegające na przekazaniu                  Uwaga uwzględniona. Uzasadnione jest przekazanie
+                      Krajowa        wszystkich spraw o występki określone w art. 228 k.k. i art.   do właściwości sądów okręgowych jedynie spraw
+                                     229 k.k. do właściwości sądów okręgowych dalece                kwalifikowanych z art. 228 § 6 kk. I art. 229 § 5 k.k.,
+                                     wykraczają poza potrzebę wynikającą z rekomendacji             dotyczących odpowiednio sprzedajności i przekupstwa
+                                     grupy      roboczej       OECD       ds.      przekupstwa      osoby pełniącej funkcję publiczną w państwie obcym
+                                     w międzynarodowych transakcjach handlowych w zakresie          lub w organizacji międzynarodowej, w związku
+                                     rozpoznawania przez sąd okręgowy wszystkich spraw              z pełnieniem tej funkcji, które będzie stanowiło
+                                     dotyczących przekupstwa zagranicznych funkcjonariuszy          kompleksowe rozwiązanie pozwalające wdrożyć
+                                     publicznych      w    międzynarodowych        transakcjach     rekomendację OECD WGB poprzez przekazanie
+                                     handlowych.                                                    możliwie najmniejszego zakresu spraw do właściwości
+                                     Jednak nic nie stoi na przeszkodzie, by do właściwości         sądów okręgowych.
+                                     sądów okręgowych przeszły jedynie sprawy kwalifikowane
+                                     z art. 228 § 6 k.k. i art. 229 § 5 k.k., a więc dotyczące
+                                     odpowiednio sprzedajności i przekupstwa osoby pełniącej
+                                     funkcję publiczną w państwie obcym lub w organizacji
+                                     międzynarodowej, w związku z pełnieniem tej funkcji.
+                                     Uzasadnieniem dla objęcia kognicją sądu okręgowego tego
+                                     rodzaju spraw jest ich wyjątkowy charakter, wynikający
+                                     w szczególności z ich bardzo niewielkiej liczby i opieranie
+                                     ustaleń faktycznych na materiale dowodowym zbieranym
+                                     z reguły poza granicami kraju.
+
+
+
+
+                                                                       1
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                                     Brak jest natomiast uzasadnienia, by ze względu na tak
+                                     wąski zakres spraw, które z uwagi na zalecenia grupy
+                                     roboczej OECD powinny być rozpoznawane w pierwszej
+                                     instancji przez sądy okręgowe, obejmować właściwością
+                                     tych sądów wszystkie sprawy o przestępstwa
+                                     kwalifikowane z art. 228 k.k. lub z art. 229 k.k. Jak wynika
+                                     z danych w tabelach zawartych w ocenie skutków regulacji
+                                     (OSR), w latach 2021-2024 osądzono łącznie 3.902 osoby
+                                     za występki określone w art. 228 k.k. albo z art. 229 k.k.
+                                     Tylko 7 z nich, a więc ułamek procenta (około 0,0018 ogółu)
+                                     zostało osądzonych za przestępstwa z art. 228 § 6 k.k. albo
+                                     z art. 229 § 5 k.k. Taka proporcja liczby spraw wskazuje, że
+                                     projektowany cel ustawy zostanie osiągnięty kosztem
+                                     nieuzasadnionego,        znacznego       obciążenia   sądów
+                                     okręgowych, które bez wątpienia negatywnie wpłynie na
+                                     sprawność ich działania. Pośrednio skutkować to będzie
+                                     zwiększeniem         obciążenia       sądów     apelacyjnych
+                                     rozpoznających środki odwoławcze. Warto przypomnieć,
+                                     że sądy okręgowe orzekają w pierwszej instancji
+                                     w sprawach największej wagi, w tym o przestępstwa,
+                                     których skutkiem jest śmierć człowieka. Pogorszenie
+                                     szybkości orzekania w takich sprawach, nieuniknione
+                                     w przypadku istotnego wzrostu rozpoznawanych spraw
+                                     może negatywnie wpłynąć na realizację prawa do
+                                     rozpatrzenia       sprawy        w     rozsądnym    terminie
+                                     zagwarantowanego w art. 6 ust. 1 Europejskiej Konwencji
+                                     Praw Człowieka, a z pewnością skutkować będzie gorszą
+                                     społeczną         oceną         funkcjonowania      wymiaru
+                                     sprawiedliwości.
+                                     W przypadku prokuratury przekazanie sądom okręgowym
+                                     wszystkich spraw dotyczących przestępstw typizowanych
+                                     w art. 228 k.k. i art. 229 k.k. w zauważalny sposób wpłynie
+                                     na obciążenie pracą prokuratorów. Dotyczy to zwłaszcza
+                                     sytuacji, gdy postępowania przygotowawcze prowadzone
+
+                                                                       2
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                                     lub nadzorowane będą przez prokuratorów wykonujących
+                                     swoje obowiązki w prokuraturach rejonowych mających
+                                     siedziby w miastach innych niż te, w których siedziby mają
+                                     sądy okręgowe. Stosownie do § 321 rozporządzenia
+                                     Ministra Sprawiedliwości z dnia 7 kwietnia 2016 r.,
+                                     Regulamin wewnętrznego urzędowania powszechnych
+                                     jednostek organizacyjnych prokuratury (Dz. U. z 2025 r.
+                                     poz. 753) „Do udziału w rozprawie (posiedzeniu) wyznacza
+                                     się jako referenta sądowego prokuratora, który w danej
+                                     sprawie prowadził lub nadzorował postępowanie
+                                     przygotowawcze albo sporządził akt oskarżenia.
+                                     Wyznaczenie innego prokuratora jest dopuszczalne
+                                     wyłącznie w szczególnie uzasadnionych przypadkach;
+                                     wyznacza się wówczas prokuratora znającego sprawę.”.
+                                     Co do zasady prokuratorzy z prokuratur rejonowych
+                                     w miejscowościach innych niż miasta będące siedzibami
+                                     sądów okręgowych będą zmuszeni przemieszczać się do
+                                     tych miast w celu udziału w rozprawach i posiedzeniach
+                                     w sprawach o przestępstwa z art. 228 k.k. i art. 229 k.k.
+                                     Oznacza to ograniczenie czasu, który będą mogli oni
+                                     poświęcić na wykonywanie innych obowiązków
+                                     służbowych. Nie bez znaczenia są również koszty, które
+                                     trzeba będzie ponieść na przejazd prokuratorów.
+                                     W uzasadnieniu projektu jako argument przemawiający za
+                                     wprowadzeniem proponowanych zamian powołano wagę
+                                     przestępstw stypizowanych w art. 228 k.k. i art. 229 k.k.
+                                     Projektowane zmiany spowodują jednak objęcie
+                                     właściwością sądów okręgowych również spraw o wypadki
+                                     mniejszej wagi zagrożone co najwyżej karą pozbawienia
+                                     wolności do lat 2, stypizowane w art. 228 § 2 k.k. i art. 229 §
+                                     2 k.k. Ze strony prokuratorów spowoduje to nie tylko
+                                     konieczność wszczynania w tych sprawach śledztw, ale
+                                     także obowiązek udziału w rozprawach przed sądem
+                                     okręgowym (art. 46 § 1 i § 2 k.p.k.). Warto zauważyć, że
+
+                                                                        3
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                                     tabela zamieszczona w OSR dowodzi, że w latach 2021-
+                                     2024 osądzono 448 osób za przestępstwa z art. 228 § 2 k.k.
+                                     i z art. 229 § 2 k.k., a więc w wypadkach mniejszej wagi.
+                                     Osądzonych takich było więc 64 razy więcej niż
+                                     oskarżonych za przestępstwa z art. 228 § 6 k.k. lub z art. 229
+                                     § 5 k.k. (łącznie 7 osób), dotyczące odpowiednio
+                                     sprzedajności i przekupstwa osoby pełniącej funkcję
+                                     publiczną w państwie obcym lub w organizacji
+                                     międzynarodowej, w związku z pełnieniem tej funkcji.
+
+
+
+
+                                                                        4
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                     Sąd Apelacyjny   Przy projektowanej nowelizacji art. 25 § 1 pkt 2 k.p.k. nie
+                     w Krakowie       zwrócono uwagi na zakres orzekania przez Sądy Okręgowe         Uwaga uwzględniona częściowo. Uzasadnione jest
+                                      a w dalszej kolejności Sądy Apelacyjne. Zasadnym jest          przekazanie do właściwości sądów okręgowych jedynie
+                                      zwrócenie uwagi na przedstawione w uzasadnieniu dane           spraw kwalifikowanych z art. 228 § 6 kk. I art. 229 § 5 k.k.,
+                                      statystyczne, z których wynika, że za przestępstwa z art.      tylko   dotyczących     odpowiednio         sprzedajności
+                                      228 k.k. i z art. 229 k.k. osądzono w 2024 r. 858 osób, przy   i przekupstwa osoby pełniącej funkcję publiczną
+                                      czym niektóre sprawy były wieloosobowe, co stanowi ok.         w państwie obcym lub w organizacji międzynarodowej,
+                                      600-700 postępowań sądowych rocznie. Powyższe wpłynie          w związku z pełnieniem tej funkcji.
+                                      negatywnie na sądy okręgowe co doprowadzi do
+                                      zwiększenia zaległości w tych sądach, które i tak są już
+                                      znacznie obciążone, a także spowoduje zwiększenie spraw
+                                      odwoławczych w sądach apelacyjnych (zakładając ich
+                                      zaskarżenie i ilość sądów apelacyjnych oznacza to średni
+                                      wzrost wpływu na poziomie 60 spraw rocznie, przy
+                                      niedoborach kadry orzeczniczej).
+
+                     Prokuratura      Poddanie ponownemu rozważaniu objęcia właściwością             Uwaga uwzględniona częściowo, uzasadnienie j.w.
+                     Regionalna       rzeczową sądu okręgowego jako sądu I instancji
+                     w Katowicach     występków z art. 228 § 2 k.k. i z art. 229 § 2 k.k., czynów
+                                      kwalifikowanych jako przypadek mniejszej wagi, z uwagi na
+                                      nieskomplikowany charakter tych spraw oraz zagrożenie
+                                      karą pozbawienia wolności do 2 lat.
+
+
+
+
+                                                                        5
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                     Sąd Apelacyjny   Negatywna ocena polegająca na rozszerzeniu kognicji         Uwaga nieuwzględniona. Uwaga niezwiązana
+                     w Szczecinie     sądów okręgowych, poprzez dodanie kolejnej kategorii        z przedmiotowym projektem, może być postulatem de
+                                      spraw, bez wykreślenia np. spraw o kradzieże i oszustwa     lege ferenda.
+                                      znacznej wartości. Ponadto brak modyfikacji mienia          Potrzeba przeprowadzenia przedmiotowej nowelizacji
+                                      znacznej wartości od 1998 r., co powoduje zwiększenie       wynika m.in. z treści otrzymanych rekomendacji w
+                                      liczby spraw w sądach okręgowych jedynie ze względu na      ramach współpracy z grupą roboczą OECD ds.
+                                      tę wartość, a nie z uwagi na ciężar gatunkowy               przekupstwa w międzynarodowych transakcjach
+                                      rozpoznawanych spraw. Powyższe pociąga za sobą              handlowych (OECD WGB). W dniach 11–14 marca 2025
+                                      konieczność rozważenia celowości tego rozwiązania. Pod      r. w Paryżu odbyło się posiedzenie OECD WGB, podczas
+                                      rozwagę poddaje się ewentualne dodanie właściwości          którego został omówiony tzw. Action Plan z Fazy 4
+                                      z art. 228 k.k. i art. 229 k.k. w zamian za proste sprawy   ewaluacji dotyczący Polski. OECD WGB przekazało
+                                      o mienie znacznej wartości.                                 wówczas, że wymagane jest podjęcie działań w celu
+                                                                                                  wyraźnego wskazania w przepisach, że wszystkie
+                                                                                                  sprawy      dotyczące    przekupstwa    zagranicznych
+                                                                                                  funkcjonariuszy publicznych w międzynarodowych
+                                                                                                  transakcjach handlowych rozpoznawane będą przez
+                                                                                                  sąd okręgowy w I instancji (potrzeba nowelizacji art. 25
+                                                                                                  § 1 pkt 2 k.p.k.).
+
+                     Sąd Okręgowy     Stopień skompilowania przestępstw łapownictwa nie jest      Uwaga nieuwzględniona. Potrzeba przeprowadzenia
+                     w Toruniu        wysoki i nie uzasadniania przekazywania tych spraw do       przedmiotowej nowelizacji wynika m.in. z treści
+                                      rozpoznawania przez sądy okręgowe, co dodatkowo             otrzymanych rekomendacji w ramach współpracy
+                                      obciąży sądy okręgowe.                                      z grupą roboczą OECD ds. przekupstwa w
+                                                                                                  międzynarodowych transakcjach handlowych (OECD
+                                                                                                  WGB). W dniach 11–14 marca 2025 r. w Paryżu odbyło
+
+
+
+
+                                                                      6
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                                                                                     się posiedzenie OECD WGB, podczas którego został
+                                                                                     omówiony tzw. Action Plan z Fazy 4 ewaluacji dotyczący
+                                                                                     Polski. OECD WGB przekazało wówczas, że wymagane
+                                                                                     jest podjęcie działań w celu wyraźnego wskazania w
+                                                                                     przepisach,     że    wszystkie    sprawy     dotyczące
+                                                                                     przekupstwa         zagranicznych       funkcjonariuszy
+                                                                                     publicznych w międzynarodowych transakcjach
+                                                                                     handlowych rozpoznawane będą przez sąd okręgowy
+                                                                                     w I instancji (potrzeba nowelizacji art. 25 § 1 pkt 2
+                                                                                     k.p.k.).
+                                                                                     W     ocenie     projektodawcy     sprawy     dotyczące
+                                                                                     przekupstwa         zagranicznych       funkcjonariuszy
+                                                                                     publicznych w międzynarodowych transakcjach
+                                                                                     handlowych ze swojej natury charakteryzują się
+                                                                                     szczególną wagą. Już sam fakt, że postępowanie toczy
+                                                                                     się przeciwko zagranicznemu funkcjonariuszowi
+                                                                                     publicznemu wskazuje, że przedmiot sprawy ma
+                                                                                     precedensowy charakter, co już na tym etapie
+                                                                                     rozpoznawania danego stanu faktycznego, pozwala
+                                                                                     zakwalifikować daną sprawę, jako tę o szczególnej
+                                                                                     wadze. Należy jednak podkreślić, że waga przestępstw
+                                                                                     korupcyjnych z reguły jest również duża, nawet jeżeli nie
+                                                                                     dotyczą       one       przekupstwa       zagranicznych
+                                                                                     funkcjonariuszy publicznych.
+                                                                                     Waga występków stypizowanych w art. 228 § 6 k.k. i art.
+                                                                                     229 § 5 k.k. przemawia więc za wprowadzaną zmianą
+                                                                                     w obrębie art. 25 § 1 pkt 2 k.p.k.
+
+
+
+
+                                                               7
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                     Prokuratura     Rekomendacja OECD WGB skierowana była wyłącznie do               Uwaga uwzględniona. Uzasadnione jest przekazanie
+                     Regionalna      rozpatrywania spraw o występki z art. 228 k.k. i art. 229 k.k.   do właściwości sądów okręgowych jedynie spraw
+                     w Szczecinie    przez sądy okręgowe, względem zagranicznych                      kwalifikowanych z art. 228 § 6 kk. I art. 229 § 5 k.k.,
+                                     funkcjonariuszy publicznych w międzynarodowych                   dotyczących odpowiednio sprzedajności i przekupstwa
+                                     transakcjach handlowych. Przyjęcie, że właściwymi                osoby pełniącej funkcję publiczną w państwie obcym
+                                     rzeczowo do rozpoznawania tego rodzaju spraw w I                 lub w organizacji międzynarodowej, w związku
+                                     instancji byłyby sądy okręgowe, co będzie powodowało             z pełnieniem tej funkcji, które będzie stanowiło
+                                     nieadekwatne rozwiązanie do faktycznych potrzeb                  kompleksowe rozwiązanie pozwalające wdrożyć
+                                     problemu, powodując w konsekwencji nadmierne                     rekomendację OECD WGB poprzez przekazanie
+                                     obciążenie sądów okręgowych dodatkową ilością spraw,             możliwie najmniejszego zakresu spraw do właściwości
+                                     które w przeważającej mierze cechowałyby się                     sądów okręgowych.
+                                     nieskomplikowanym stanem faktycznym i prawym.
+                                     Propozycja, aby wdrożenie rekomendacji OECD WGB
+                                     odbyło się poprzez wprowadzenie odrębnego typu czynu
+                                     zabronionego,      polegającego       na      przekupstwie
+                                     zagranicznego         funkcjonariusza           publicznego
+                                     w międzynarodowych transakcjach handlowych (biernego
+                                     i czynnego), do którego rozpoznawania w I instancji
+                                     właściwy byłby sąd okręgowy.
+
+
+
+
+                                                                        8
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                     Prokuratura     Pod rozwagę poddać należy uzupełnienie tego przepisu                  Uwaga nieuwzględniona. Uwaga niezwiązana
+                     Okręgowa        o przepis art. 291 § 1 k.k. w zw. z art. 294 par 1 lub 2 k.k.         z przedmiotowym projektem, może być postulatem de
+                     w Warszawie     Obecny przepis wskazuje na właściwość SO w sprawach                   lege ferenda.
+                                     dot. art. 278 § 1, 2 i 3a k.k., 284 § 1 i 2 k.k., 286 § 1 k.k., 287   Potrzeba przeprowadzenia przedmiotowej nowelizacji
+                                     k.k., które mają pozostawać w związku z art. 294 § 1 lub 2            wynika m.in. z treści otrzymanych rekomendacji w
+                                     k.k. Brak jest jednak w tym katalogu umyślnego paserstwa              ramach współpracy z grupą roboczą OECD ds.
+                                     (nieumyślne jeszcze można zrozumieć z uwagi na sankcję                przekupstwa w międzynarodowych transakcjach
+                                     karną), co wydaje się być niezrozumiałe biorąc pod uwagę              handlowych (OECD WGB). W dniach 11–14 marca 2025
+                                     to, że w toku postępowania dot. czynu z art. 291 k.k. należy          r. w Paryżu odbyło się posiedzenie OECD WGB, podczas
+                                     badać kwestię zaistnienia czynu zabronionego, z którego               którego został omówiony tzw. Action Plan z Fazy 4
+                                     pochodziła rzecz będąca przedmiotem paserstwa.                        ewaluacji dotyczący Polski. OECD WGB przekazało
+                                     Okoliczność ta jest także o tyle istotna, że powoduje                 wówczas, że wymagane jest podjęcie działań w celu
+                                     niezrozumiały „rozdział” właściwości pomiędzy sądami.                 wyraźnego wskazania w przepisach, że wszystkie
+                                     W przypadku gdy sprawy byłyby prowadzone oddzielnie za                sprawy      dotyczące    przekupstwa    zagranicznych
+                                     przestępstwo kradzieży, gdzie wartość mienia będzie                   funkcjonariuszy publicznych w międzynarodowych
+                                     przekraczać kwotę 200 000 złotych, właściwy będzie sąd                transakcjach handlowych rozpoznawane będą przez
+                                     okręgowy, ale już gdy dane mienie zostanie przejęte przez             sąd okręgowy w I instancji (potrzeba nowelizacji art. 25
+                                     inną osobą, to już właściwy będzie sąd rejonowy, który i tak          § 1 pkt 2 k.p.k.).
+                                     musi ustalić fakt zaistnienia czynu pierwotnego.
+                                     Dodatkowo może to powodować liczne pomyłki
+                                     procesowe. Zauważyć trzeba ubocznie, że w realiach
+                                     prowadzonych spraw niejednokrotnie pojawiają się
+                                     wątpliwości związane z kwalifikowaniem zachowań czy to
+                                     z punktu widzenia czynu z art. 291 k.k. czy to z art. 299 k.k.
+                                     (nie tylko w zakresie dot. pieniędzy ale i rzeczy ruchomych).
+                                     Ewentualny błąd w przyjętej kwalifikacji może doprowadzić
+                                     w skrajnych przypadkach do niewłaściwości sądu
+                                     w obecnym stanie prawnym.
+
+
+
+
+                                                                           9
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                     Krajowa Rada    Przekazanie wszystkich spraw o przestępstwa korupcyjne,            Uwaga uwzględniona. Uzasadnione jest przekazanie
+                     Sądownictwa     również tych o wyraźnie niskim ciężarze gatunkowym, do             do właściwości sądów okręgowych jedynie spraw
+                                     wyłącznej     właściwości       sądów     okręgowych        jest   kwalifikowanych z art. 228 § 6 kk. I art. 229 § 5 k.k.,
+                                     rozwiązaniem niecelowym i wadliwym systemowo. Projekt              dotyczących odpowiednio sprzedajności i przekupstwa
+                                     całkowicie ignoruje podstawowe zasady proporcjonalności            osoby pełniącej funkcję publiczną w państwie obcym
+                                     i racjonalnej organizacji wymiaru sprawiedliwości –                lub w organizacji międzynarodowej, w związku
+                                     zwłaszcza, że przestępstwa określone w art. 228 § 2, § 6           z pełnieniem tej funkcji, które będzie stanowiło
+                                     w zw. z § 2 oraz art. 229 § 2 lub § 5 w zw. z § 2 k.k. obejmuje    kompleksowe rozwiązanie pozwalające wdrożyć
+                                     również czyny zagrożone karą nieprzekraczającą 5 lat               rekomendację OECD WGB poprzez przekazanie
+                                     pozbawienia wolności, tj. o stopniu społecznej                     możliwie najmniejszego zakresu spraw do właściwości
+                                     szkodliwości nieuzasadniającym poddanie tych spraw                 sądów okręgowych.
+                                     właściwości       sądów       okręgowych,       jako     sądów
+                                     pierwszoinstancyjnych.         Proponowane          rozwiązanie
+                                     spowoduje nieuzasadnione zwiększenie obciążenia tych
+                                     sądów kosztem zadań o rzeczywiście dużej wadze
+                                     społecznej. Projektodawca wydaje się nie uwzględniać
+                                     pogłębiającego się stanu nieakceptowalnie długiego
+                                     oczekiwania na rozstrzygnięcie w postępowaniach przed
+                                     sądami okręgowymi i apelacyjnym, bowiem zakłada
+                                     zwiększenie obciążenia w tych sądach wpływem o kolejne
+                                     kategorie spraw. Zwiększenie kognicji sądu okręgowego
+                                     spowoduje znaczące opóźnienie rozpoznania spraw na tym
+                                     szczeblu sądownictwa powszechnego (i w konsekwencji
+                                     także w sądach apelacyjnych) poddając tym samym
+                                     w wątpliwość realne szanse na realizację prawa obywatela
+                                     do sądu – zakończenia postępowania sądowego
+                                     w rozsądnym terminie w rozumieniu art. 6 Konwencji
+                                     o ochronie praw człowieka i podstawowych wolności
+                                     Sądy okręgowe jako sądy wyższej instancji powinny
+                                     koncentrować się na sprawach o istotnym stopniu
+                                     złożoności, w szczególności poważnych aferach
+                                     korupcyjnych lub przypadkach mających wpływ na
+                                     funkcjonowanie instytucji publicznych czy gospodarczych.
+
+
+
+                                                                        10
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                                     Prowadzenie spraw o mniejszym ciężarze gatunkowym
+                                     powinno pozostawać we właściwości sądów rejonowych.
+                                     Projektodawca powołuje się na konieczność realizacji
+                                     zaleceń grupy roboczej OECD ds. przeciwdziałania
+                                     przekupstwu      w    międzynarodowych       transakcjach
+                                     handlowych (OECD WGB), jednak objęcie wszystkich
+                                     przestępstw korupcyjnych właściwością sądu okręgowego
+                                     nawet jeśli nie dotyczą one zagranicznych funkcjonariuszy
+                                     publicznych – prowadzi do nieakceptowalnego obniżenia
+                                     efektywności sądownictwa i wydłużenia postępowań
+                                     w sprawach, które z natury, funkcjonalnie i społecznie
+                                     powinny być rozpoznawane możliwie sprawnie i szybko.
+
+
+
+
+                                                                    11
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+ 2.       Art. 2     Sąd Okręgowy    Czy prowadzenie w formie dochodzenia postępowania          Uwaga nieuwzględniona. Projekt przewiduje również,
+          ust. 2     w Rzeszowie     przygotowawczego o wskazane przestępstwa również od        że postępowania przygotowawcze o przestępstwa
+                                     dnia wejścia w życie ustawy pociągnie za sobą              określone w art. 228 § 6 w zw. z § 2 i art. 229 § 5 w zw. z §
+                                     konieczność przyjęcia (bez możliwości zwrotu celem         2 Kodeksu karnego (tzw. wypadki mniejszej wagi –
+                                     uzupełnienia) przez sądy okręgowe w takich sprawach, np.   zagrożone w górnej granicy karą nie wyższą niż 5 lat
+                                     aktu    oskarżenia    bez    uzasadnienia     i  jedynie   pozbawienia wolności), wszczęte i niezakończone
+                                     zatwierdzanego przez prokuratora?                          przed dniem wejścia w życie niniejszej ustawy,
+                                                                                                prowadzone w formie dochodzenia, prowadzi się dalej
+                                                                                                w tej formie również od dnia wejścia w życie niniejszej
+                                                                                                ustawy. Taki przepis przejściowy jest więc uzasadniony,
+                                                                                                gdyż w sprawach o powyższe przestępstwa zasadniczo
+                                                                                                prowadzone jest dochodzenie (por. art. 309 w zw. z art.
+                                                                                                325b k.p.k.). Natomiast po wejściu w życie
+                                                                                                projektowanej      ustawy       obligatoryjne        będzie
+                                                                                                prowadzenie śledztwa, gdyż w sprawach tych właściwy
+                                                                                                będzie sąd okręgowy (art. 309 pkt 1 k.p.k.) Celem
+                                                                                                projektodawcy nie jest wprowadzanie konieczności
+                                                                                                wydawania przez prokuratora postanowienia o zmianie
+                                                                                                formy prowadzenia postępowania przygotowawczego,
+                                                                                                czego skutkiem może być dodatkowo konieczność
+                                                                                                podejmowania szeregu dodatkowych czynności, co
+                                                                                                trudno byłoby uznać za rozwiązanie zgodne
+                                                                                                z prakseologią postępowania (w szczególności, gdy
+                                                                                                śledztwo prowadziła Policja a dochodzenie będzie
+                                                                                                prowadzić prokurator).
+
+
+
+
+                                                                    12
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+ 3.    Uzasadnienie   Sąd Okręgowy   Uzasadnienie projektu ogranicza skutki zmian jedynie do   Uwaga nieuwzględniona. Projektowana zmiana nie
+                      w Rzeszowie    sądów powszechnych, jednak zmiany wprowadzone             będzie miała wpływu na zwiększenie kognicji sądów
+                                     w projekcie nie zwiększając kognicji sądów wojskowych,    powszechnych. Celem regulacji jest zmiana
+                                     na ich obciążenie będą miały taki sam wpływ jak           właściwości sądu, który będzie orzekał w sprawach
+                                     w przypadku sądów powszechnych, tyle że w pionie          dotyczących występków sprzedajności (na podstawie
+                                     sądów wojskowych w II instancji orzeka Sąd Najwyższy –    art. 228 § 6 k.k.) oraz występków przekupstwa (na
+                                                                                               podstawie art. 229 § 5 k.k.). Waga powyższych
+                                     Izba Karna, w konsekwencji zaś ulegnie rozszerzeniu
+                                                                                               przestępstw przemawia więc za wprowadzaną zmianą
+                                     kognicja tego Sądu.
+                                                                                               w obrębie art. 25 § 1 pkt 2 k.p.k.
+
+
+
+ 4.   Ocena Skutków   Sąd Okręgowy   Wraz ze zmianą właściwości rzeczowej również              Uwaga nieuwzględniona. Projektowana zmiana nie
+        Regulacji     w Rzeszowie    rozszerzeniu ulegała właściwość funkcjonalna sądów        będzie miała wpływu na zwiększenie kognicji sądów
+                                     okręgowych w ramach chociażby czynności sądu              powszechnych. Celem regulacji jest zmiana
+                                     właściwego do rozpoznania sprawy w postępowaniu           właściwości sądu, który będzie orzekał w sprawach
+                                     przygotowawczym, statystki przedstawione w OSR nie        dotyczących występków sprzedajności (na podstawie
+                                     uwzględniają liczby spraw o zażalenia na postanowienia    art. 228 § 6 k.k.) oraz występków przekupstwa (na
+                                                                                               podstawie art. 229 § 5 k.k.).
+                                     o odmowie wszczęcia postępowania, o umorzeniu
+                                     postępowania,     zabezpieczeniu    majątkowym,    czy
+                                     wniosków o ustanowienie obrońcy z urzędu,
+                                     o przedłużenie tymczasowego aresztowania), czy sądu
+                                     nadrzędnego właściwego do rozpoznania skargi na
+                                     przewlekłość postępowania.
+
+
+
+
+                                                                    13
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                                     W danych OSR wśród podmiotów, na które oddziałuje          Uwaga nieuwzględniona. Projektowana nowelizacja
+                                     projekt poza wielkością sądów powszechnych i jednostek     art. 25 § 1 pkt 2 k.p.k. rozszerza właściwość rzeczową
+                                     organizacyjnych     prokuratury,    wskazano      liczbę   sądów okręgowych w ten sposób, że do ich właściwości
+                                     prokuratorów i dostrzeżono wpływ proponowanych zmian       jako sądów orzekających w I instancji należeć będą
+                                     na obciążenie pracą prokuratorów, pomijając jednak dane    przestępstwa stypizowane w art. 228 § 6 k.k. i art. 229 §
+                                     odnoszące się do liczby sędziów.                           5 k.k. Wskazać należy, że powyższe przyczyni się do
+                                                                                                zwiększenia obciążenia sądów okręgowych I-
+                                                                                                instancyjnych,     a     także   sądów     apelacyjnych
+                                                                                                rozpatrujących apelacje od orzeczeń zapadłych w
+                                                                                                sądach      okręgowych.      Niemniej    jednak     takie
+                                                                                                przesunięcie środka ciężkości, co do wielkości wpływu
+                                                                                                spraw określonych w art. 228 § 6 k.k. i art. 229 § 5 k.k.,
+                                                                                                tj. z sądów rejonowych na sądy okręgowe oraz z sądów
+                                                                                                okręgowych II-instancyjnych na sądy apelacyjne,
+                                                                                                każdorazowo powinno prowadzić do zmniejszenia
+                                                                                                wielkości wpływu w sądach rejonowych oraz w sądach
+                                                                                                okręgowych II instancji.
+                                                                                                Powyższe rozwiązania nie wpłyną więc na ogólną liczbę
+                                                                                                spraw trafiających do jednostek sądownictwa
+                                                                                                powszechnego, a ewentualne braki w limicie etatów
+                                                                                                sądów okręgowych (w I instancji) i apelacyjnych
+                                                                                                powinny zostać zaspokojone w ramach etatów
+                                                                                                aktualnie funkcjonujących w jednostkach sądownictwa
+                                                                                                powszechnego, poprzez ich adekwatną relokację
+                                                                                                pomiędzy tymi jednostkami, w myśl zasady
+                                                                                                racjonalnego wykorzystania kadr sądownictwa
+                                                                                                powszechnego.
+
+
+
+
+                                                                    14
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                                     Nie wskazano na skutki finansowe wejścia w życie           Uwaga nieuwzględniona. Projektowana regulacja nie
+                                     proponowanej zmiany, dostrzegając wpływ przekazania        będzie miała wpływu na wydatki sektora finansów
+                                     sądom okręgowym tej kategorii spraw na obciążenie pracą    publicznych. Ponadto wejście w życie proponowanych
+                                     prokuratorów, przy braku zauważenia takiego obciążenia     rozwiązań nie spowoduje dodatkowych kosztów dla
+                                     w odniesieniu do sądów – zauważono, że ewentualne braki    sektora finansów publicznych, w tym dla budżetu
+                                     w limicie etatów sądów okręgowych i apelacyjnych           państwa,      budżetów     jednostek     samorządu
+                                     powinny zostać „zaspokojone w jednostkach sądownictwa      terytorialnego oraz pozostałych jednostek sektora
+                                     poprzez adekwatną relokację pomiędzy tymi jednostkami”,    finansów publicznych.
+                                     co przy aktualnym zamrożeniu awansów do sądów
+                                     okręgowych i sądów apelacyjnych, przy odciążeniu sądów
+                                     rejonowych (napływie orzeczników – asesorów sądowych –
+                                     do tych jednostek organizacyjnych sądów) może polegać
+                                     na sięganiu po instytucję delegacji do sądu wyższego
+                                     rzędu, z czym – zważywszy na treść ustawy z dnia z dnia
+                                     6 marca 2025 r. o zmianie ustawy – Prawo o ustroju sądów
+                                     powszechnych oraz ustawy – Prawo o ustroju sądów
+                                     wojskowych (Dz.U. poz. 526) wiążą się pewne obciążenia
+                                     finansowe – nie uwzględnione jako koszty wprowadzanej
+                                     zmiany.
+
+
+
+
+                                                                    15
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+ 3.   Nowelizacja art.    Sąd Apelacyjny   Propozycja zmiany wysokości kwoty stanowiącej               Uwaga nieuwzględniona. Uwaga niezwiązana
+       115 § 5 i 6 k.k.   w Krakowie       określenie mienia znacznej i wielkiej wartości. Ich         z przedmiotowym projektem, może być postulatem de
+                                           wysokość została ustalona w 2010 r. Wartości te obecnie     lege ferenda.
+                                           bardzo zdewaluowały, a w konsekwencji np. sądy              Potrzeba przeprowadzenia przedmiotowej nowelizacji
+                                           okręgowe orzekają w sprawie o przywłaszczenie               wynika m.in. z treści otrzymanych rekomendacji w
+                                           samochodu osobowego wziętego w leasing. Propozycja          ramach współpracy z grupą roboczą OECD ds.
+                                           ustalenia tych wartości odpowiednio na poziomie 500 000     przekupstwa w międzynarodowych transakcjach
+                                           tys. zł i 2 000 000 zł (ta dryga kwota w ramach spójności   handlowych (OECD WGB). W dniach 11–14 marca 2025
+                                           wewnętrznej regulacji, pozwoliłaby na odciążenie sądów      r. w Paryżu odbyło się posiedzenie OECD WGB, podczas
+                                           okręgowych, do których wpłynęłyby sprawy korupcyjne.        którego został omówiony tzw. Action Plan z Fazy 4
+                                                                                                       ewaluacji dotyczący Polski. OECD WGB przekazało
+                                                                                                       wówczas, że wymagane jest podjęcie działań w celu
+                                                                                                       wyraźnego wskazania w przepisach, że wszystkie
+                                                                                                       sprawy      dotyczące    przekupstwa    zagranicznych
+                                                                                                       funkcjonariuszy publicznych w międzynarodowych
+                                                                                                       transakcjach handlowych rozpoznawane będą przez
+                                                                                                       sąd okręgowy w I instancji (potrzeba nowelizacji art. 25
+                                                                                                       § 1 pkt 2 k.p.k.).
+
+                          Sąd Okręgowy     Kwota stanowiąca mienie znacznej wartości nie zmieniła      Uwaga nieuwzględniona, uzasadnienie j.w.
+                          w Toruniu        się od 2010 r. mimo, że siła nabywcza złotówki spadła od
+                                           tego czasu prawie o połowę. Z tego powodu kilkukrotnie
+                                           zmieniała się wartość kwoty granicznej między
+                                           wykroczeniem, a przestępstwem, jednak przepisy
+                                           dotyczące mienia znacznej wartości pozostają od 15 lat
+                                           takie same. Powoduje to rosnące obciążenie sprawami
+                                           sędziów sądów okręgowych orzekających w I instancji,
+                                           bowiem obrót gospodarczy dotyczy coraz większych kwot.
+                                           Propozycja dostosowania brzmienia przepisów art. 115 § 5
+                                           i 6 k.k. do realiów gospodarczych.
+
+
+
+
+                                                                           16
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+ 4.          Inne       Prokuratura   Nadto po wprowadzeniu proponowanych zmian poza               Uwaga nieuwzględniona, uzasadnienie j.w.
+        (rozszerzenie   Krajowa       właściwością sądów okręgowych pozostanie szereg
+         właściwości                  poważnych przestępstw. postrzeganych w ocenie
+      rzeczowej sądów                 społecznej jako szczególnie drastyczne np. wszystkie
+        okręgowych)                   występki przeciwko wolności seksualnej i obyczajności
+                                      z Rozdziału XXV Kodeksu karnego. Z kolei zawarte
+                                      w uzasadnieniu projektu stwierdzenie. że „sprawy
+                                      o omawiane        czyny      niejednokrotnie      dotyczą
+                                      funkcjonariuszy publicznych lub osób prowadzących
+                                      działalność gospodarczą, znanych lokalnie o silnej pozycji
+                                      i koneksjach w danych społecznościach lokalnych, czy też.
+                                      lokalnych polityków" nie wytrzymuje konfrontacji z faktem,
+                                      że po wprowadzeniu proponowanych zmian poza
+                                      właściwością sądów okręgowych pozostałyby t.zw.
+                                      przestępstwa urzędnicze funkcjonariuszy publicznych
+                                      kwalifikowane z art. 231 § 1 i § 2 k.k. Ocena, czy
+                                      wyczerpane zostały znamiona tych typów czynów
+                                      zabronionych w postaci przekroczenia uprawnień lub
+                                      niedopełnienia obowiązków. jest z reguły trudniejsza niż
+                                      w odniesieniu do przejęcia bądź udzielenia korzyści
+                                      majątkowej lub osobistej albo jej obietnicy.
+
+
+
+
+                                                                      17
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                     Rzecznik Praw   Projekt nie uwzględnia innych przestępstw, które składają          Uwaga nieuwzględniona, uzasadnienie j.w.
+                     Obywatelskich   się na prawnokarny aspekt korupcji sensu largo, opisanych
+                                     w art. 230 k.k. (bierna płatna protekcja), art. 230a k.k.
+                                     (czynna płatna protekcja), art. 250a k.k. (korupcja
+                                     wyborcza), art. 296a k.k. (korupcja gospodarcza) czy art. 26
+                                     ustawy z dnia 25 czerwca 2010 r. o sporcie (korupcja
+                                     sportowa). Zwrócono tu uwagę szczególnie na dwa typy
+                                     czynów, tj. tzw. płatnej protekcji z art. 230 i 230a k.k., które
+                                     z szeregu względów powinny także zostać objęte
+                                     właściwością rzeczową sądu okręgowego. Przedmiotem
+                                     ochrony obu tych przestępstw jest prawidłowe
+                                     i bezinteresowne funkcjonowanie, w tym powaga i dobre
+                                     imię instytucji państwowych, samorządowych, organizacji
+                                     międzynarodowych i krajowych, krajowej lub zagranicznej
+                                     jednostki     organizacyjnej     dysponującej        środkami
+                                     publicznymi, czy w ramach art. 230a k.k., także
+                                     przedsiębiorstwa państwowego oraz spółki handlowej
+                                     z udziałem Skarbu Państwa, samorządu terytorialnego lub
+                                     państwowej osoby prawnej. Podobnie, jak w kontekście
+                                     art. 228 i 229 k.k., penalizując obie postacie płatnej
+                                     protekcji, ustawodawca chciał chronić obiektywizm,
+                                     bezstronność i rzetelność wykonywania funkcji publicznej,
+                                     a przede wszystkim w kontekście art. 230 i 230a k.k.
+                                     prawidłową działalność wymienionych instytucji, gdyż
+                                     zrealizowanie      znamion     opisanych         w    normach
+                                     sankcjonowanych        prowadzi      do     utraty    zaufania
+                                     publicznego, nie tylko do osób pełniących funkcje w tych
+                                     instytucjach poprzez powoływanie się na wpływy u tych
+                                     osób, lecz także do samych organów państwa. Za
+                                     zachowaniem spójności właściwości rzeczowej w ramach
+                                     tych przestępstw, oprócz wspólnego przedmiotu ochrony,
+                                     stoi także zbliżony stopień skomplikowania i złożony
+                                     charakter przestępstw, co oznacza, że czynienie przez
+                                     ustawodawcę rozróżnienia między ciężarem gatunkowym
+                                     przestępstw stypizowanych w art. 228 i 229 k.k. a
+                                     przestępstwami z art. 230 i 230a k.k., nie ma rzeczywistego
+                                     przełożenia. Mając na uwadze powyższe argumenty, należy
+
+                                                                        18
+Tabela do raportu z opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                                     postulować jednolite potraktowanie spraw o czyny płatnej
+                                     protekcji w aspekcie właściwości rzeczowej sądów, które
+                                     będą właściwe do ich rozpatrywania w I instancji na
+                                     zasadzie analogicznej, jak rzeczony projekt przewiduje w
+                                     kontekście obu postaci, tak biernej, jak i czynnej korupcji.
+
+
+
+
+                                                                      19
+Tabela uwag nieuwzględnionych w ramach opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+
+ Lp.   Zakres uwagi      Podmiot                             Treść uwagi                                                    Stanowisko
+
+ 1.        Art. 1     Sąd Apelacyjny   Przy projektowanej nowelizacji art. 25 § 1 pkt 2 k.p.k. nie    Uwaga uwzględniona częściowo. Uzasadnione jest
+                      w Krakowie       zwrócono uwagi na zakres orzekania przez Sądy Okręgowe         przekazanie do właściwości sądów okręgowych jedynie
+                                       a w dalszej kolejności Sądy Apelacyjne. Zasadnym jest          spraw kwalifikowanych z art. 228 § 6 kk. I art. 229 § 5 k.k.,
+                                       zwrócenie uwagi na przedstawione w uzasadnieniu dane           tylko   dotyczących     odpowiednio         sprzedajności
+                                       statystyczne, z których wynika, że za przestępstwa z art.      i przekupstwa osoby pełniącej funkcję publiczną
+                                       228 k.k. i z art. 229 k.k. osądzono w 2024 r. 858 osób, przy   w państwie obcym lub w organizacji międzynarodowej,
+                                       czym niektóre sprawy były wieloosobowe, co stanowi ok.         w związku z pełnieniem tej funkcji.
+                                       600-700 postępowań sądowych rocznie. Powyższe wpłynie
+                                       negatywnie na sądy okręgowe co doprowadzi do
+                                       zwiększenia zaległości w tych sądach, które i tak są już
+                                       znacznie obciążone, a także spowoduje zwiększenie spraw
+                                       odwoławczych w sądach apelacyjnych (zakładając ich
+                                       zaskarżenie i ilość sądów apelacyjnych oznacza to średni
+                                       wzrost wpływu na poziomie 60 spraw rocznie, przy
+                                       niedoborach kadry orzeczniczej).
+
+                      Prokuratura      Poddanie ponownemu rozważaniu objęcia właściwością             Uwaga uwzględniona częściowo, uzasadnienie j.w.
+                      Regionalna       rzeczową sądu okręgowego jako sądu I instancji
+                      w Katowicach     występków z art. 228 § 2 k.k. i z art. 229 § 2 k.k., czynów
+                                       kwalifikowanych jako przypadek mniejszej wagi, z uwagi na
+                                       nieskomplikowany charakter tych spraw oraz zagrożenie
+                                       karą pozbawienia wolności do 2 lat.
+
+
+
+
+                                                                         1
+Tabela uwag nieuwzględnionych w ramach opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                     Sąd Apelacyjny   Negatywna ocena polegająca na rozszerzeniu kognicji         Uwaga nieuwzględniona. Uwaga niezwiązana
+                     w Szczecinie     sądów okręgowych, poprzez dodanie kolejnej kategorii        z przedmiotowym projektem, może być postulatem de
+                                      spraw, bez wykreślenia np. spraw o kradzieże i oszustwa     lege ferenda.
+                                      znacznej wartości. Ponadto brak modyfikacji mienia          Potrzeba przeprowadzenia przedmiotowej nowelizacji
+                                      znacznej wartości od 1998 r., co powoduje zwiększenie       wynika m.in. z treści otrzymanych rekomendacji w
+                                      liczby spraw w sądach okręgowych jedynie ze względu na      ramach współpracy z grupą roboczą OECD ds.
+                                      tę wartość, a nie z uwagi na ciężar gatunkowy               przekupstwa w międzynarodowych transakcjach
+                                      rozpoznawanych spraw. Powyższe pociąga za sobą              handlowych (OECD WGB). W dniach 11-14 marca 2025
+                                      konieczność rozważenia celowości tego rozwiązania. Pod      r. w Paryżu odbyło się posiedzenie OECD WGB, podczas
+                                      rozwagę poddaje się ewentualne dodanie właściwości          którego został omówiony tzw. Action Plan z Fazy 4
+                                      z art. 228 k.k. i art. 229 k.k. w zamian za proste sprawy   ewaluacji dotyczący Polski. OECD WGB przekazało
+                                      o mienie znacznej wartości.                                 wówczas, że wymagane jest podjęcie działań w celu
+                                                                                                  wyraźnego wskazania w przepisach, że wszystkie
+                                                                                                  sprawy      dotyczące    przekupstwa    zagranicznych
+                                                                                                  funkcjonariuszy publicznych w międzynarodowych
+                                                                                                  transakcjach handlowych rozpoznawane będą przez
+                                                                                                  sąd okręgowy w I instancji (potrzeba nowelizacji art. 25
+                                                                                                  § 1 pkt 2 k.p.k.).
+
+                     Sąd Okręgowy     Stopień skompilowania przestępstw łapownictwa nie jest      Uwaga nieuwzględniona. Potrzeba przeprowadzenia
+                     w Toruniu        wysoki i nie uzasadniania przekazywania tych spraw do       przedmiotowej nowelizacji wynika m.in. z treści
+                                      rozpoznawania przez sądy okręgowe, co dodatkowo             otrzymanych rekomendacji w ramach współpracy
+                                      obciąży sądy okręgowe.                                      z grupą roboczą OECD ds. przekupstwa w
+                                                                                                  międzynarodowych transakcjach handlowych (OECD
+                                                                                                  WGB). W dniach 11-14 marca 2025 r. w Paryżu odbyło
+
+
+
+
+                                                                      2
+Tabela uwag nieuwzględnionych w ramach opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                                                                                   się posiedzenie OECD WGB, podczas którego został
+                                                                                   omówiony tzw. Action Plan z Fazy 4 ewaluacji dotyczący
+                                                                                   Polski. OECD WGB przekazało wówczas, że wymagane
+                                                                                   jest podjęcie działań w celu wyraźnego wskazania w
+                                                                                   przepisach,     że    wszystkie    sprawy     dotyczące
+                                                                                   przekupstwa         zagranicznych       funkcjonariuszy
+                                                                                   publicznych w międzynarodowych transakcjach
+                                                                                   handlowych rozpoznawane będą przez sąd okręgowy
+                                                                                   w I instancji (potrzeba nowelizacji art. 25 § 1 pkt 2
+                                                                                   k.p.k.).
+                                                                                   W     ocenie     projektodawcy     sprawy     dotyczące
+                                                                                   przekupstwa         zagranicznych       funkcjonariuszy
+                                                                                   publicznych w międzynarodowych transakcjach
+                                                                                   handlowych ze swojej natury charakteryzują się
+                                                                                   szczególną wagą. Już sam fakt, że postępowanie toczy
+                                                                                   się przeciwko zagranicznemu funkcjonariuszowi
+                                                                                   publicznemu wskazuje, że przedmiot sprawy ma
+                                                                                   precedensowy charakter, co już na tym etapie
+                                                                                   rozpoznawania danego stanu faktycznego, pozwala
+                                                                                   zakwalifikować daną sprawę, jako tę o szczególnej
+                                                                                   wadze. Należy jednak podkreślić, że waga przestępstw
+                                                                                   korupcyjnych z reguły jest również duża, nawet jeżeli nie
+                                                                                   dotyczą       one       przekupstwa       zagranicznych
+                                                                                   funkcjonariuszy publicznych.
+                                                                                   Waga występków stypizowanych w art. 228 § 6 k.k. i art.
+                                                                                   229 § 5 k.k. przemawia więc za wprowadzaną zmianą
+                                                                                   w obrębie art. 25 § 1 pkt 2 k.p.k.
+
+
+
+
+                                                              3
+Tabela uwag nieuwzględnionych w ramach opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                     Prokuratura    Pod rozwagę poddać należy uzupełnienie tego przepisu                  Uwaga nieuwzględniona. Uwaga niezwiązana
+                     Okręgowa       o przepis art. 291 § 1 k.k. w zw. z art. 294 par 1 lub 2 k.k.         z przedmiotowym projektem, może być postulatem de
+                     w Warszawie    Obecny przepis wskazuje na właściwość SO w sprawach                   lege ferenda.
+                                    dot. art. 278 § 1, 2 i 3a k.k., 284 § 1 i 2 k.k., 286 § 1 k.k., 287   Potrzeba przeprowadzenia przedmiotowej nowelizacji
+                                    k.k., które mają pozostawać w związku z art. 294 § 1 lub 2            wynika m.in. z treści otrzymanych rekomendacji w
+                                    k.k. Brak jest jednak w tym katalogu umyślnego paserstwa              ramach współpracy z grupą roboczą OECD ds.
+                                    (nieumyślne jeszcze można zrozumieć z uwagi na sankcję                przekupstwa w międzynarodowych transakcjach
+                                    karną), co wydaje się być niezrozumiałe biorąc pod uwagę              handlowych (OECD WGB). W dniach 11–14 marca 2025
+                                    to, że w toku postępowania dot. czynu z art. 291 k.k. należy          r. w Paryżu odbyło się posiedzenie OECD WGB, podczas
+                                    badać kwestię zaistnienia czynu zabronionego, z którego               którego został omówiony tzw. Action Plan z Fazy 4
+                                    pochodziła rzecz będąca przedmiotem paserstwa.                        ewaluacji dotyczący Polski. OECD WGB przekazało
+                                    Okoliczność ta jest także o tyle istotna, że powoduje                 wówczas, że wymagane jest podjęcie działań w celu
+                                    niezrozumiały „rozdział” właściwości pomiędzy sądami.                 wyraźnego wskazania w przepisach, że wszystkie
+                                    W przypadku gdy sprawy byłyby prowadzone oddzielnie za                sprawy      dotyczące    przekupstwa    zagranicznych
+                                    przestępstwo kradzieży, gdzie wartość mienia będzie                   funkcjonariuszy publicznych w międzynarodowych
+                                    przekraczać kwotę 200 000 złotych, właściwy będzie sąd                transakcjach handlowych rozpoznawane będą przez
+                                    okręgowy, ale już gdy dane mienie zostanie przejęte przez             sąd okręgowy w I instancji (potrzeba nowelizacji art. 25
+                                    inną osobą, to już właściwy będzie sąd rejonowy, który i tak          § 1 pkt 2 k.p.k.).
+                                    musi ustalić fakt zaistnienia czynu pierwotnego.
+                                    Dodatkowo może to powodować liczne pomyłki
+                                    procesowe. Zauważyć trzeba ubocznie, że w realiach
+                                    prowadzonych spraw niejednokrotnie pojawiają się
+                                    wątpliwości związane z kwalifikowaniem zachowań czy to
+                                    z punktu widzenia czynu z art. 291 k.k. czy to z art. 299 k.k.
+                                    (nie tylko w zakresie dot. pieniędzy ale i rzeczy ruchomych).
+                                    Ewentualny błąd w przyjętej kwalifikacji może doprowadzić
+                                    w skrajnych przypadkach do niewłaściwości sądu
+                                    w obecnym stanie prawnym.
+
+
+
+
+                                                                          4
+Tabela uwag nieuwzględnionych w ramach opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+ 2.       Art. 2     Sąd Okręgowy   Czy prowadzenie w formie dochodzenia postępowania          Uwaga nieuwzględniona. Projekt przewiduje również,
+          ust. 2     w Rzeszowie    przygotowawczego o wskazane przestępstwa również od        że postępowania przygotowawcze o przestępstwa
+                                    dnia wejścia w życie ustawy pociągnie za sobą              określone w art. 228 § 6 w zw. z § 2 i art. 229 § 5 w zw. z §
+                                    konieczność przyjęcia (bez możliwości zwrotu celem         2 Kodeksu karnego (tzw. wypadki mniejszej wagi –
+                                    uzupełnienia) przez sądy okręgowe w takich sprawach, np.   zagrożone w górnej granicy karą nie wyższą niż 5 lat
+                                    aktu    oskarżenia    bez    uzasadnienia     i  jedynie   pozbawienia wolności), wszczęte i niezakończone
+                                    zatwierdzanego przez prokuratora?                          przed dniem wejścia w życie niniejszej ustawy,
+                                                                                               prowadzone w formie dochodzenia, prowadzi się dalej
+                                                                                               w tej formie również od dnia wejścia w życie niniejszej
+                                                                                               ustawy. Taki przepis przejściowy jest więc uzasadniony,
+                                                                                               gdyż w sprawach o powyższe przestępstwa zasadniczo
+                                                                                               prowadzone jest dochodzenie (por. art. 309 w zw. z art.
+                                                                                               325b k.p.k.). Natomiast po wejściu w życie
+                                                                                               projektowanej      ustawy       obligatoryjne        będzie
+                                                                                               prowadzenie śledztwa, gdyż w sprawach tych właściwy
+                                                                                               będzie sąd okręgowy (art. 309 pkt 1 k.p.k.) Celem
+                                                                                               projektodawcy nie jest wprowadzanie konieczności
+                                                                                               wydawania przez prokuratora postanowienia o zmianie
+                                                                                               formy prowadzenia postępowania przygotowawczego,
+                                                                                               czego skutkiem może być dodatkowo konieczność
+                                                                                               podejmowania szeregu dodatkowych czynności, co
+                                                                                               trudno byłoby uznać za rozwiązanie zgodne
+                                                                                               z prakseologią postępowania (w szczególności, gdy
+                                                                                               śledztwo prowadziła Policja a dochodzenie będzie
+                                                                                               prowadzić prokurator).
+
+
+
+
+                                                                    5
+Tabela uwag nieuwzględnionych w ramach opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+ 3.    Uzasadnienie   Sąd Okręgowy   Uzasadnienie projektu ogranicza skutki zmian jedynie do   Uwaga nieuwzględniona. Projektowana zmiana nie
+                      w Rzeszowie    sądów powszechnych, jednak zmiany wprowadzone             będzie miała wpływu na zwiększenie kognicji sądów
+                                     w projekcie nie zwiększając kognicji sądów wojskowych,    powszechnych. Celem regulacji jest zmiana
+                                     na ich obciążenie będą miały taki sam wpływ jak           właściwości sądu, który będzie orzekał w sprawach
+                                     w przypadku sądów powszechnych, tyle że w pionie          dotyczących występków sprzedajności (na podstawie
+                                     sądów wojskowych w II instancji orzeka Sąd Najwyższy –    art. 228 § 6 k.k.) oraz występków przekupstwa (na
+                                                                                               podstawie art. 229 § 5 k.k.). Waga powyższych
+                                     Izba Karna, w konsekwencji zaś ulegnie rozszerzeniu
+                                                                                               przestępstw przemawia więc za wprowadzaną zmianą
+                                     kognicja tego Sądu.
+                                                                                               w obrębie art. 25 § 1 pkt 2 k.p.k.
+
+
+
+ 4.   Ocena Skutków   Sąd Okręgowy   Wraz ze zmianą właściwości rzeczowej również              Uwaga nieuwzględniona. Projektowana zmiana nie
+        Regulacji     w Rzeszowie    rozszerzeniu ulegała właściwość funkcjonalna sądów        będzie miała wpływu na zwiększenie kognicji sądów
+                                     okręgowych w ramach chociażby czynności sądu              powszechnych. Celem regulacji jest zmiana
+                                     właściwego do rozpoznania sprawy w postępowaniu           właściwości sądu, który będzie orzekał w sprawach
+                                     przygotowawczym, statystki przedstawione w OSR nie        dotyczących występków sprzedajności (na podstawie
+                                     uwzględniają liczby spraw o zażalenia na postanowienia    art. 228 § 6 k.k.) oraz występków przekupstwa (na
+                                                                                               podstawie art. 229 § 5 k.k.).
+                                     o odmowie wszczęcia postępowania, o umorzeniu
+                                     postępowania,     zabezpieczeniu    majątkowym,    czy
+                                     wniosków o ustanowienie obrońcy z urzędu,
+                                     o przedłużenie tymczasowego aresztowania), czy sądu
+                                     nadrzędnego właściwego do rozpoznania skargi na
+                                     przewlekłość postępowania.
+
+
+
+
+                                                                    6
+Tabela uwag nieuwzględnionych w ramach opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                                    W danych OSR wśród podmiotów, na które oddziałuje          Uwaga nieuwzględniona. Projektowana nowelizacja
+                                    projekt poza wielkością sądów powszechnych i jednostek     art. 25 § 1 pkt 2 k.p.k. rozszerza właściwość rzeczową
+                                    organizacyjnych     prokuratury,    wskazano      liczbę   sądów okręgowych w ten sposób, że do ich właściwości
+                                    prokuratorów i dostrzeżono wpływ proponowanych zmian       jako sądów orzekających w I instancji należeć będą
+                                    na obciążenie pracą prokuratorów, pomijając jednak dane    przestępstwa stypizowane w art. 228 § 6 k.k. i art. 229 §
+                                    odnoszące się do liczby sędziów.                           5 k.k. Wskazać należy, że powyższe przyczyni się do
+                                                                                               zwiększenia obciążenia sądów okręgowych I-
+                                                                                               instancyjnych,     a     także   sądów     apelacyjnych
+                                                                                               rozpatrujących apelacje od orzeczeń zapadłych w
+                                                                                               sądach      okręgowych.      Niemniej    jednak     takie
+                                                                                               przesunięcie środka ciężkości, co do wielkości wpływu
+                                                                                               spraw określonych w art. 228 § 6 k.k. i art. 229 § 5 k.k.,
+                                                                                               tj. z sądów rejonowych na sądy okręgowe oraz z sądów
+                                                                                               okręgowych II-instancyjnych na sądy apelacyjne,
+                                                                                               każdorazowo powinno prowadzić do zmniejszenia
+                                                                                               wielkości wpływu w sądach rejonowych oraz w sądach
+                                                                                               okręgowych II instancji.
+                                                                                               Powyższe rozwiązania nie wpłyną więc na ogólną liczbę
+                                                                                               spraw trafiających do jednostek sądownictwa
+                                                                                               powszechnego, a ewentualne braki w limicie etatów
+                                                                                               sądów okręgowych (w I instancji) i apelacyjnych
+                                                                                               powinny zostać zaspokojone w ramach etatów
+                                                                                               aktualnie funkcjonujących w jednostkach sądownictwa
+                                                                                               powszechnego, poprzez ich adekwatną relokację
+                                                                                               pomiędzy tymi jednostkami, w myśl zasady
+                                                                                               racjonalnego wykorzystania kadr sądownictwa
+                                                                                               powszechnego.
+
+
+
+
+                                                                    7
+Tabela uwag nieuwzględnionych w ramach opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                                    Nie wskazano na skutki finansowe wejścia w życie           Uwaga nieuwzględniona. Projektowana regulacja nie
+                                    proponowanej zmiany, dostrzegając wpływ przekazania        będzie miała wpływu na wydatki sektora finansów
+                                    sądom okręgowym tej kategorii spraw na obciążenie pracą    publicznych. Ponadto wejście w życie proponowanych
+                                    prokuratorów, przy braku zauważenia takiego obciążenia     rozwiązań nie spowoduje dodatkowych kosztów dla
+                                    w odniesieniu do sądów – zauważono, że ewentualne braki    sektora finansów publicznych, w tym dla budżetu
+                                    w limicie etatów sądów okręgowych i apelacyjnych           państwa,      budżetów     jednostek     samorządu
+                                    powinny zostać „zaspokojone w jednostkach sądownictwa      terytorialnego oraz pozostałych jednostek sektora
+                                    poprzez adekwatną relokację pomiędzy tymi jednostkami”,    finansów publicznych.
+                                    co przy aktualnym zamrożeniu awansów do sądów
+                                    okręgowych i sądów apelacyjnych, przy odciążeniu sądów
+                                    rejonowych (napływie orzeczników – asesorów sądowych –
+                                    do tych jednostek organizacyjnych sądów) może polegać
+                                    na sięganiu po instytucję delegacji do sądu wyższego
+                                    rzędu, z czym – zważywszy na treść ustawy z dnia z dnia
+                                    6 marca 2025 r. o zmianie ustawy – Prawo o ustroju sądów
+                                    powszechnych oraz ustawy – Prawo o ustroju sądów
+                                    wojskowych (Dz.U. poz. 526) wiążą się pewne obciążenia
+                                    finansowe – nie uwzględnione jako koszty wprowadzanej
+                                    zmiany.
+
+
+
+
+                                                                   8
+Tabela uwag nieuwzględnionych w ramach opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+ 3.   Nowelizacja art.    Sąd Apelacyjny   Propozycja zmiany wysokości kwoty stanowiącej               Uwaga nieuwzględniona. Uwaga niezwiązana
+       115 § 5 i 6 k.k.   w Krakowie       określenie mienia znacznej i wielkiej wartości. Ich         z przedmiotowym projektem, może być postulatem de
+                                           wysokość została ustalona w 2010 r. Wartości te obecnie     lege ferenda.
+                                           bardzo zdewaluowały, a w konsekwencji np. sądy              Potrzeba przeprowadzenia przedmiotowej nowelizacji
+                                           okręgowe orzekają w sprawie o przywłaszczenie               wynika m.in. z treści otrzymanych rekomendacji w
+                                           samochodu osobowego wziętego w leasing. Propozycja          ramach współpracy z grupą roboczą OECD ds.
+                                           ustalenia tych wartości odpowiednio na poziomie 500 000     przekupstwa w międzynarodowych transakcjach
+                                           tys. zł i 2 000 000 zł (ta dryga kwota w ramach spójności   handlowych (OECD WGB). W dniach 11–14 marca 2025
+                                           wewnętrznej regulacji, pozwoliłaby na odciążenie sądów      r. w Paryżu odbyło się posiedzenie OECD WGB, podczas
+                                           okręgowych, do których wpłynęłyby sprawy korupcyjne.        którego został omówiony tzw. Action Plan z Fazy 4
+                                                                                                       ewaluacji dotyczący Polski. OECD WGB przekazało
+                                                                                                       wówczas, że wymagane jest podjęcie działań w celu
+                                                                                                       wyraźnego wskazania w przepisach, że wszystkie
+                                                                                                       sprawy      dotyczące    przekupstwa    zagranicznych
+                                                                                                       funkcjonariuszy publicznych w międzynarodowych
+                                                                                                       transakcjach handlowych rozpoznawane będą przez
+                                                                                                       sąd okręgowy w I instancji (potrzeba nowelizacji art. 25
+                                                                                                       § 1 pkt 2 k.p.k.).
+
+                          Sąd Okręgowy     Kwota stanowiąca mienie znacznej wartości nie zmieniła      Uwaga nieuwzględniona, uzasadnienie j.w.
+                          w Toruniu        się od 2010 r. mimo, że siła nabywcza złotówki spadła od
+                                           tego czasu prawie o połowę. Z tego powodu kilkukrotnie
+                                           zmieniała się wartość kwoty granicznej miedzy
+                                           wykroczeniem, a przestępstwem, jednak przepisy
+                                           dotyczące mienia znacznej wartości pozostają od 15 lat
+                                           takie same. Powoduje to rosnące obciążenie sprawami
+                                           sędziów sądów okręgowych orzekających w I instancji,
+                                           bowiem obrót gospodarczy dotyczy coraz większych kwot.
+                                           Propozycja dostosowania brzmienia przepisów art. 115 § 5
+                                           i 6 k.k. do realiów gospodarczych.
+
+
+
+
+                                                                            9
+Tabela uwag nieuwzględnionych w ramach opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+ 4.          Inne       Prokuratura   Nadto po wprowadzeniu proponowanych zmian poza               Uwaga nieuwzględniona, uzasadnienie j.w.
+        (rozszerzenie   Krajowa       właściwością sądów okręgowych pozostanie szereg
+         właściwości                  poważnych przestępstw. postrzeganych w ocenie
+      rzeczowej sądów                 społecznej jako szczególnie drastyczne np. wszystkie
+        okręgowych)                   występki przeciwko wolności seksualnej i obyczajności
+                                      z Rozdziału XXV Kodeksu karnego. Z kolei zawarte
+                                      w uzasadnieniu projektu stwierdzenie. że „sprawy
+                                      o omawiane        czyny      niejednokrotnie      dotyczą
+                                      funkcjonariuszy publicznych lub osób prowadzących
+                                      działalność gospodarczą, znanych lokalnie o silnej pozycji
+                                      i koneksjach w danych społecznościach lokalnych, czy też.
+                                      lokalnych polityków" nie wytrzymuje konfrontacji z faktem,
+                                      że po wprowadzeniu proponowanych zmian poza
+                                      właściwością sądów okręgowych pozostałyby t.zw.
+                                      przestępstwa urzędnicze funkcjonariuszy publicznych
+                                      kwalifikowane z art. 231 § 1 i § 2 k.k. Ocena, czy
+                                      wyczerpane zostały znamiona tych           typów czynów
+                                      zabronionych w postaci przekroczenia uprawnień lub
+                                      niedopełnienia obowiązków. jest z reguły trudniejsza niż
+                                      w odniesieniu do przejęcia bądź udzielenia korzyści
+                                      majątkowej lub osobistej albo jej obietnicy.
+
+
+
+
+                                                                      10
+Tabela uwag nieuwzględnionych w ramach opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                     Rzecznik Praw   Projekt nie uwzględnia innych przestępstw, które składają          Uwaga nieuwzględniona, uzasadnienie j.w.
+                     Obywatelskich   się na prawnokarny aspekt korupcji sensu largo, opisanych
+                                     w art. 230 k.k. (bierna płatna protekcja), art. 230a k.k.
+                                     (czynna płatna protekcja), art. 250a k.k. (korupcja
+                                     wyborcza), art. 296a k.k. (korupcja gospodarcza) czy art. 26
+                                     ustawy z dnia 25 czerwca 2010 r. o sporcie (korupcja
+                                     sportowa). Zwrócono tu uwagę szczególnie na dwa typy
+                                     czynów, tj. tzw. płatnej protekcji z art. 230 i 230a k.k., które
+                                     z szeregu względów powinny także zostać objęte
+                                     właściwością rzeczową sądu okręgowego. Przedmiotem
+                                     ochrony obu tych przestępstw jest prawidłowe
+                                     i bezinteresowne funkcjonowanie, w tym powaga i dobre
+                                     imię instytucji państwowych, samorządowych, organizacji
+                                     międzynarodowych i krajowych, krajowej lub zagranicznej
+                                     jednostki     organizacyjnej     dysponującej        środkami
+                                     publicznymi, czy w ramach art. 230a k.k., także
+                                     przedsiębiorstwa państwowego oraz spółki handlowej
+                                     z udziałem Skarbu Państwa, samorządu terytorialnego lub
+                                     państwowej osoby prawnej. Podobnie, jak w kontekście
+                                     art. 228 i 229 k.k., penalizując obie postacie płatnej
+                                     protekcji, ustawodawca chciał chronić obiektywizm,
+                                     bezstronność i rzetelność wykonywania funkcji publicznej,
+                                     a przede wszystkim w kontekście art. 230 i 230a k.k.
+                                     prawidłową działalność wymienionych instytucji, gdyż
+                                     zrealizowanie      znamion     opisanych         w    normach
+                                     sankcjonowanych        prowadzi      do     utraty    zaufania
+                                     publicznego, nie tylko do osób pełniących funkcje w tych
+                                     instytucjach poprzez powoływanie się na wpływy u tych
+                                     osób, lecz także do samych organów państwa. Za
+                                     zachowaniem spójności właściwości rzeczowej w ramach
+                                     tych przestępstw, oprócz wspólnego przedmiotu ochrony,
+                                     stoi także zbliżony stopień skomplikowania i złożony
+                                     charakter przestępstw, co oznacza, że czynienie przez
+                                     ustawodawcę rozróżnienia między ciężarem gatunkowym
+                                     przestępstw stypizowanych w art. 228 i 229 k.k. a
+                                     przestępstwami z art. 230 i 230a k.k., nie ma rzeczywistego
+                                     przełożenia. Mając na uwadze powyższe argumenty, należy
+
+                                                                        11
+Tabela uwag nieuwzględnionych w ramach opiniowania projektu ustawy o zmianie ustawy – Kodeks postępowania karnego (UD273)
+
+                                    postulować jednolite potraktowanie spraw o czyny płatnej
+                                    protekcji w aspekcie właściwości rzeczowej sądów, które
+                                    będą właściwe do ich rozpatrywania w I instancji na
+                                    zasadzie analogicznej, jak rzeczony projekt przewiduje w
+                                    kontekście obu postaci, tak biernej, jak i czynnej korupcji.
+
+
+
+
+                                                                     12
+

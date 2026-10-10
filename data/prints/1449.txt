@@ -1,0 +1,651 @@
+                                                                       Druk nr 1449
+                                                                     Warszawa, 2 lipca 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-112-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy o Centralnej Ewidencji
+   i Informacji o Działalności Gospodarczej
+   i Punkcie Informacji dla Przedsiębiorcy
+   oraz ustawy o podatku od towarów i usług.
+
+        Projekt ma charakter deregulacyjny.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Rozwoju i Technologii.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                          Projekt
+                                          U S T AWA
+
+                                              z dnia
+
+     o zmianie ustawy o Centralnej Ewidencji i Informacji o Działalności Gospodarczej
+     i Punkcie Informacji dla Przedsiębiorcy oraz ustawy o podatku od towarów i usług
+
+
+       Art. 1. W ustawie z dnia 6 marca 2018 r. o Centralnej Ewidencji i Informacji
+o Działalności Gospodarczej i Punkcie Informacji dla Przedsiębiorcy (Dz. U. z 2022 r.
+poz. 541, z 2024 r. poz. 1841 oraz z 2025 r. poz. 769) w art. 51 w ust. 3 w pkt 3 kropkę zastępuje
+się średnikiem i dodaje się pkt 4 w brzmieniu:
+       „4) zapewnienie dostępu do wykazu, o którym mowa w art. 96b ust. 1 ustawy z dnia 11
+            marca 2004 r. o podatku od towarów i usług (Dz. U. z 2025 r. poz. 775 i …),
+            oraz udostępnianie na stronie internetowej Punktu danych podmiotu, o których
+            mowa w art. 96b ust. 3 pkt 2–3 i 5 ustawy z dnia 11 marca 2004 r. o podatku
+            od towarów i usług, o ile dany podmiot figuruje w tym wykazie.”.
+
+       Art. 2. W ustawie z dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. z 2025 r.
+poz. 775) w art. 96b:
+1)     ust. 9 otrzymuje brzmienie:
+            „9. Dostęp do wykazu jest możliwy także za pośrednictwem systemu
+       teleinformatycznego Centralnej Ewidencji i Informacji o Działalności Gospodarczej
+       oraz systemu teleinformatycznego Punktu Informacji dla Przedsiębiorcy, o których mowa
+       w ustawie z dnia 6 marca 2018 r. o Centralnej Ewidencji i Informacji o Działalności
+       Gospodarczej i Punkcie Informacji dla Przedsiębiorcy.”;
+2)     po ust. 9 dodaje się ust. 9a w brzmieniu:
+            „9a. Szef Krajowej Administracji Skarbowej przekazuje ministrowi właściwemu
+       do spraw gospodarki dane, o których mowa w ust. 3 pkt 2–3 i 5, w celu udostępnienia
+       tych danych w systemie teleinformatycznym Punktu Informacji dla Przedsiębiorcy.”.
+
+       Art. 3. Ustawa wchodzi w życie z dniem 1 października 2025 r.
+                                         Uzasadnienie
+
+   Celem projektowanej ustawy jest wprowadzenie regulacji poprawiającej warunki
+prowadzenia działalności gospodarczej, w szczególności przez zapewnienie w jednym miejscu
+możliwie jak najszerszego zakresu informacji na temat podmiotów wykonujących działalność
+gospodarczą.
+
+   Projekt przewiduje, że za pośrednictwem systemu teleinformatycznego prowadzonego
+przez ministra właściwego do spraw gospodarki – Punktu Informacji dla Przedsiębiorcy (PIP)
+– możliwe będzie uzyskanie dla konkretnego przedsiębiorcy on-line i w jednym miejscu
+informacji, czy dany przedsiębiorca został zarejestrowany i figuruje w wykazie podatników
+VAT, zwanym dalej „wykazem podatników VAT”, o którym mowa w art. 96b ustawy z dnia 11
+marca 2004 r. o podatku od towarów i usług (Dz. U. z 2025 r. poz. 775), zwanej dalej „ustawą
+o VAT”. Wykaz podatników VAT to wykaz podmiotów zarejestrowanych jako podatnicy VAT,
+niezarejestrowanych oraz wykreślonych i przywróconych do rejestru VAT.
+
+   Dostęp do wykazu umożliwi przedsiębiorcom weryfikację kontrahentów biznesowych, co
+stanowi istotny element wspierający procedurę dochowania należytej staranności, która ma
+istotne znaczenie z punktu widzenia obrony prawa do odliczenia podatku VAT w sytuacjach,
+gdy w łańcuchu dostaw doszło do oszustwa.
+
+   Biorąc pod uwagę istotne znaczenie wykazu podatników VAT dla prowadzenia działalności
+gospodarczej, powinien zostać zapewniony w jednym miejscu (PIP) dostęp do informacji o
+statusie podmiotu w wykazie podatników VAT, a w przypadku konieczności uzyskania
+szerszego zakresu do zakresu wynikającego z art. 96b ust. 3 – także przez przekierowanie po
+kliknięciu linku do wykazu podatników VAT, tak aby móc skutecznie i szybko weryfikować
+kontrahentów.
+
+   Dostęp ten powinien być możliwy za pośrednictwem PIP (portal: biznes.gov.pl),
+w którym gromadzone są inne informacje o działalności gospodarczej.
+
+   Szeroki zakres informacji i usług dostępnych za pośrednictwem PIP pozwala nie tylko
+wygodnie załatwiać sprawy urzędowe, ale także dbać o środowisko i bezpieczeństwo przez
+zmniejszenie liczby spraw załatwianych papierowo i zastąpienie ich usługami on-line.
+Nie bez znaczenia jest także kwestia zapewnienia bezpieczeństwa obrotu gospodarczego oraz
+potrzeby obywateli dotyczące możliwości realizacji swoich uprawnień lub obowiązków w
+sposób najprostszy, on-line.
+       Propozycja udostępniania informacji z wykazu podatników VAT wychodzi naprzeciw
+oczekiwaniom przedsiębiorców. Stanowi przy tym istotne ułatwienie w prowadzeniu
+działalności gospodarczej oraz służy zapewnieniu bezpieczeństwa gospodarczego.
+
+       Projekt zakłada współpracę i wymianę informacji pomiędzy systemami PIP i Krajowej
+Administracji Skarbowej (MF) w zakresie niektórych informacji zawartych w wykazie
+podatników VAT (dane identyfikacyjne oraz informacja o statusie podmiotu). Zakłada się, że
+KAS będzie przekazywał do PIP aktualne dane, zgodnie ze standardami określonymi w art. 96b
+ust.     2 ustawy o VAT, tak aby zapewnić           spójność danych pomiędzy systemami
+teleinformatycznymi. PIP ma pełnić funkcję informacyjną, przy zachowaniu odrębności tych
+baz.
+
+       Zakłada się dostęp do określonych danych z wykazu podatników VAT w ramach
+wyszukiwarki firm dostępnej na stronie https://www.biznes.gov.pl/pl/wyszukiwarka-firm/.
+
+       W związku z projektowanymi rozwiązaniami jest konieczne wprowadzenie zmian do art.
+96b ustawy o VAT. Obecnie dostęp do wykazu podatników VAT (link) jest możliwy za
+pośrednictwem systemu teleinformatycznego Centralnej Ewidencji i Informacji o Działalności
+Gospodarczej, na podstawie art. 96b ust. 9 ustawy o VAT.
+
+       Po wprowadzeniu projektowanych zmian dostęp do wykazu podatników VAT będzie
+możliwy za pośrednictwem systemu teleinformatycznego – Punktu Informacji dla
+Przedsiębiorcy, o którym mowa w ustawie z dnia 6 marca 2018 r. o Centralnej Ewidencji
+i Informacji o Działalności Gospodarczej i Punkcie Informacji dla Przedsiębiorcy (Dz. U.
+z 2022 r. poz. 541, z późn. zm.). Powoduje to zatem konieczność nowelizacji ustawy o VAT,
+polegającej na dodaniu w art. 96b ust. 9 tej ustawy również PIP.
+
+       Po wprowadzeniu zmian Szef Krajowej Administracji Skarbowej będzie przekazywał do
+ministra właściwego do spraw gospodarki dane, o których mowa w art. 96b ust. 3 pkt 2–3 i 5
+ustawy o VAT, tj.: numer, za pomocą którego podmiot został zidentyfikowany na potrzeby
+podatku (NIP),
+
+              numer identyfikacyjny REGON,
+              numer w Krajowym Rejestrze Sądowym,
+              status podmiotu:
+                 a)     w odniesieniu do którego nie dokonano rejestracji albo który wykreślono
+              z rejestru jako podatnika VAT,
+
+
+
+                                                2
+                b)    zarejestrowanego jako „podatnik VAT czynny” albo „podatnik VAT
+             zwolniony”,
+
+   w celu udostępniania tych danych w Punkcie Informacji dla Przedsiębiorcy (art. 96b ust. 9a
+ustawy o VAT).
+
+   Informacje o ww. danych są niezbędne w celu jednoznacznej identyfikacji przedsiębiorcy i
+będą one dostępne bezpośrednio w Punkcie Informacji dla Przedsiębiorcy. Natomiast w
+zakresie pełnych danych z wykazu podatników VAT – w Punkcie Informacji dla Przedsiębiorcy
+zostanie udostępniony link do strony w wykazie podatników VAT dotyczącej konkretnego
+podmiotu, pozwalający na sprawdzanie pełnych danych zamieszczonych w tym wykazie.
+
+   Przewiduje się uruchomienie usługi z dniem 1 października 2025 r. Data ta została
+wskazana w projekcie jako termin wejścia w życie przepisów.
+
+   Oceniając wpływ projektowanego aktu na mikro-, małych i średnich przedsiębiorców,
+zgodnie z art. 66 ust. 1 pkt 2 ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców (Dz. U.
+z 2024 r. poz. 236, z późn. zm.), należy wskazać, że wprowadzane rozwiązania mają
+pozytywny wpływ na te podmioty. Przedsiębiorcy zyskają dodatkowe wygodne i wiarygodne
+źródło informacji o działalności innych podmiotów.
+
+   Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej
+w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677) oraz § 52 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r.
+poz. 806, z późn. zm.) projekt ustawy został udostępniony w Biuletynie Informacji Publicznej
+Rządowego Centrum Legislacji z chwilą przekazania do uzgodnień z członkami Rady
+Ministrów.
+
+   Projektowana nowelizacja nie podlega notyfikacji w rozumieniu przepisów dotyczących
+krajowego systemu notyfikacji norm i aktów prawnych.
+
+   Ustawa jest zgodna z prawem Unii Europejskiej.
+
+   Wejście w życie ustawy nie spowoduje wzrostu wydatków ani wpływów do budżetu
+państwa.
+
+   Ustawa nie podlega obowiązkowi przedstawienia właściwym organom i instytucjom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia, o którym mowa w § 27 ust. 4 uchwały nr 190
+Rady Ministrów z dnia 29 października 2013 r. Regulamin pracy Rady Ministrów.
+
+                                             3
+                                                                        Data sporządzenia
+Nazwa projektu                                                          26.06.2025 r.
+Ustawa o zmianie ustawy o Centralnej Ewidencji i Informacji
+o Działalności Gospodarczej i Punkcie Informacji dla Przedsiębiorcy     Źródło: Inne – deregulacja
+oraz ustawy o podatku od towarów i usług
+Ministerstwo wiodące i ministerstwa współpracujące
+Ministerstwo Rozwoju i Technologii
+                                                                        Nr w Wykazie prac legislacyjnych i
+Ministerstwo Finansów
+                                                                        programowych Rady Ministrów
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza           UDER48
+Stanu lub Podsekretarza Stanu
+Krzysztof Paszyk, Minister Rozwoju i Technologii
+Kontakt do opiekuna merytorycznego projektu
+Zbigniew Wojciechowski, Zastępca Dyrektora Departamentu Małych
+i Średnich Przedsiębiorstw
+sekretariatDMP@mrit.gov.pl
+                                OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Przedsiębiorcy weryfikują dane kontrahentów, korzystając z kilku odrębnych rejestrów. Brakuje w jednym miejscu
+dostępu do pełnej informacji o przedsiębiorcy, także w kontekście jego statusu jako podatnika VAT, wydłuża proces
+pozyskania danych i zwiększa ryzyko błędów.
+Konieczność wielokrotnego sprawdzania tych samych danych w różnych źródłach generuje dodatkową pracochłonność
+procesu, opóźnienia i może prowadzić do niedokładnej oceny wiarygodności kontrahenta.
+Propozycja ta pojawiła się w ramach prac tzw. zespołu deregulacyjnego (postulat nr 174).
+ 2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Realizacja postulatu będzie polegać na udostępnianiu danych z wykazu podatników VAT w ramach istniejącej
+wyszukiwarki firm dostępnej w Punkcie Informacji dla Przedsiębiorcy (PIP) na portalu biznes.gov.pl
+(https://www.biznes.gov.pl/pl/wyszukiwarka-firm/).
+Portal biznes.gov.pl obecnie stanowi podstawowe źródło informacji dla podmiotów wykonujących działalność
+gospodarczą. Na portalu jest aktywnych prawie 3 mln kont użytkowników. W 2024 r. odnotowano prawie 17,5 mln
+odsłon oraz zrealizowano za jego pomocą ponad 2 mln usług elektronicznych.
+Propozycja udostępniania informacji z wykazu podatników VAT, w odniesieniu do pomiotów możliwych do wyszukania
+na stronie biznes.gov.pl, wychodzi naprzeciw oczekiwaniom przedsiębiorców. Stanowi przy tym istotne ułatwienie
+w prowadzeniu działalności gospodarczej oraz służy zapewnieniu bezpieczeństwa obrotu gospodarczego.
+Projekt zakłada współpracę i wymianę informacji pomiędzy systemami PIP i KAS (MF). Ma pełnić funkcję
+informacyjną, przy zachowaniu odrębności tych baz.
+Uzyskanie zakładanego efektu wymaga zmian legislacyjnych.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Nie przeprowadzono analizy prawnoporównawczej.
+4. Podmioty, na które oddziałuje projekt
+          Grupa                     Wielkość                  Źródło danych                   Oddziaływanie
+Minister właściwy do                   1              Informacja ogólnodostępna        Udostępnianie danych z
+spraw finansów                                                                         wykazu podatników VAT
+publicznych
+Minister właściwy do                    1             Informacja ogólnodostępna        Zapewnienie dostępu do
+spraw gospodarki                                                                       danych z wykazu podatników
+                                                                                       VAT za pośrednictwem Punktu
+                                                                                       Informacji dla Przedsiębiorcy
+Podmioty gospodarcze         ok. 700 tys. podmiotów   Centralna Informacja KRS –       Uzyskanie ułatwionego dostępu
+(przedsiębiorcy              gospodarczych            sprawozdanie o stanie Rejestru   do wykazu podatników VAT
+zarejestrowani w             zarejestrowanych         Przedsiębiorców na koniec
+Krajowym Rejestrze           w KRS                    2024 r.
+Sądowym (KRS) i
+Centralnej Ewidencji i       ok. 3,3 mln podmiotów    Hurtownia danych CEIDG –
+Informacji o Działalności    (aktywnych               stan na koniec 2024 r.
+Gospodarczej (CEIDG)         i zawieszonych)
+                             zarejestrowanych
+                             w CEIDG
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt ustawy nie był poddany procedurze prekonsultacji.
+Postulat wymiany informacji (integracji) z bazy KRS, CEIDG i wykazu podatników VAT został zgłoszony w ramach prac
+Rządowego Zespołu ds. Deregulacji.
+Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa
+(Dz. U. z 2025 r. poz. 677) oraz § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy
+Rady Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.), projekt ustawy został udostępniony w Biuletynie Informacji
+Publicznej Rządowego Centrum Legislacji, w serwisie Rządowy Proces Legislacyjny.
+Projekt został w dniu 9 czerwca 2025 r. przedłożony do konsultacji publicznych oraz opiniowania na podstawie § 36 ust. 1
+oraz § 38 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów oraz do
+zaopiniowania w trybie art. 16 ust. 1 ustawy z dnia 23 maja 1991 r. o organizacjach pracodawców (Dz. U. z 2025 r. poz.
+423).
+W ramach konsultacji publicznych projekt ustawy został przekazany do następujących partnerów społecznych:
+   1) Pracodawcy Rzeczypospolitej Polskiej;
+   2) Konfederacja „Lewiatan”;
+   3) Związek Rzemiosła Polskiego;
+   4) Związek Pracodawców Business Centre Club;
+   5) Związek Przedsiębiorców i Pracodawców;
+   6) Federacja Przedsiębiorców Polskich;
+   7) Krajowa Izba Gospodarcza;
+   8) Związek Przedsiębiorstw Finansowych;
+   9) Izba Gospodarki Elektronicznej;
+   10) Polskie Towarzystwo Gospodarcze.
+
+W ramach opiniowania projekt ustawy został przekazany do następujących podmiotów:
+    1) Prezesa Prokuratorii Generalnej Rzeczypospolitej Polskiej;
+    2) Prezesa Urzędu Ochrony Konkurencji i Konsumentów;
+    3) Prezesa Urzędu Ochrony Danych Osobowych;
+    4) Prezesa Narodowego Banku Polskiego;
+    5) Komisji Nadzoru Finansowego.
+
+Dodatkowo w dniu 12 czerwca 2025 r. projekt został przekazany do opinii Rzecznika Małych i Średnich
+Przedsiębiorców.
+Z uwagi na deregulacyjny charakter przepisów oraz korzyści wynikające z wprowadzenia rozwiązań objętych projektem
+ustawy istnieje potrzeba sprawnego prowadzenia procesu legislacyjnego projektowanego aktu, w tym zastosowania
+skróconych terminów na konsultacje publiczne i opiniowanie, zgodnie z § 40 ust. 3 uchwały nr 190 Rady Ministrów z dnia
+29 października 2013 r. – Regulamin pracy Rady Ministrów. Przyjęcie krótszego terminu przedstawienia stanowisk i opinii
+przez partnerów społecznych oraz partnerów publicznych nie utrudnia ich udziału w procesie legislacyjnym, z uwagi
+na wąski zakres regulacji oraz nieznaczną objętość projektowanego aktu. Wyniki konsultacji publicznych i opiniowania
+zostały przedstawione w raporcie z konsultacji.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                              Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                    0     1      2     3     4      5       6     7      8     9     10     Łącznie (0-10)
+Dochody ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Wydatki ogółem
+budżet państwa
+JST
+
+
+                                                            2
+pozostałe jednostki (oddzielnie)
+Saldo ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+
+Źródła finansowania
+
+Dodatkowe informacje,     Ustawa spowoduje konieczność modyfikacji w systemie teleinformatycznym PIP
+w tym wskazanie           oraz systemach teleinformatycznych Krajowej Administracji Skarbowej. Zakłada się, że prace
+źródeł danych i           te zostaną sfinansowane ze środków pozostających w dyspozycji właściwych ministrów i nie
+przyjętych do obliczeń    będą wymagać dodatkowego finansowania.
+założeń                   Na obecnym etapie szacowany koszt modyfikacji systemu teleinformatycznego PIP to około 50
+                          tysięcy zł.
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                         Skutki
+Czas w latach od wejścia w życie zmian         0         1          2          3         5         10      Łącznie (0-10)
+W ujęciu          duże przedsiębiorstwa
+pieniężnym        sektor mikro-, małych i
+(w mln zł,        średnich
+ceny stałe z      przedsiębiorstw
+…… r.)            rodzina, obywatele oraz
+                  gospodarstwa domowe
+W ujęciu          duże przedsiębiorstwa     Pozytywny. Przedsiębiorcy zyskają dodatkowe wygodne źródło informacji
+niepieniężnym                               o działalności innych podmiotów.
+                  sektor mikro-, małych i   Pozytywny. Przedsiębiorcy zyskają dodatkowe wygodne źródło informacji
+                  średnich                  o działalności innych podmiotów.
+                  przedsiębiorstw
+                  rodzina, obywatele oraz   Pozytywny. Obywatele, w tym osoby z niepełnosprawnością i starsze, zyskają
+                  gospodarstwa domowe       dodatkowe wygodne źródło informacji o działalności innych podmiotów, dostępne
+                                            przez Internet.
+
+Niemierzalne       (dodaj/usuń)
+Dodatkowe informacje,
+w tym wskazanie
+źródeł danych i
+przyjętych do obliczeń
+założeń
+
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie        tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli nie
+zgodności).                                        nie dotyczy
+
+   zmniejszenie liczby dokumentów                            zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                              zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                     wydłużenie czasu na załatwienie sprawy
+   inne:                                                     inne:
+
+Wprowadzane obciążenia są przystosowane do ich               tak
+elektronizacji.                                              nie
+                                                             nie dotyczy
+
+Komentarz:
+
+
+                                                            3
+9. Wpływ na rynek pracy
+Brak wpływu.
+10. Wpływ na pozostałe obszary
+
+   środowisko naturalne                 demografia                            informatyzacja
+   sytuacja i rozwój regionalny         mienie państwowe                      zdrowie
+   sądy powszechne, administracyjne     inne:
+lub wojskowe
+
+Omówienie wpływu       Brak wpływu.
+
+11. Planowane wykonanie przepisów aktu prawnego
+Wdrożenie projektowanych rozwiązań wymaga dostosowania systemów teleinformatycznych. Przewiduje się,
+że udostępnienie usługi nastąpi z dniem wejścia w życie projektowanej ustawy, tj. z dniem 1 października 2025 r.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Z uwagi na charakter ustawy nie przewiduje się przedstawienia wyników ewaluacji w formie OSR ex post.
+Niemniej, planowane jest systematyczne monitorowanie poszczególnych celów regulacji. Monitoring będzie dotyczył
+analizy liczby użytkowników wyszukiwarki po uruchomieniu usługi.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+
+
+
+
+                                                       4
+                             RAPORT Z KONSULTACJI PUBLICZNYCH I OPINIOWANIA
+
+         projektu ustawy o zmianie ustawy o Centralnej Ewidencji i Informacji o Działalności Gospodarczej
+           i Punkcie Informacji dla Przedsiębiorcy oraz ustawy o podatku od towarów i usług (UDER48)
+
+
+Niniejszy raport został sporządzony na podstawie § 51 uchwały nr 190 Rady Ministrów z 29 października 2013 r.
+ Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.).
+
+
+    I.       Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania
+W dniu 9 czerwca 2025 r. projekt ustawy o zmianie ustawy o Centralnej Ewidencji i Informacji o Działalności
+Gospodarczej i Punkcie Informacji dla Przedsiębiorcy oraz ustawy o podatku od towarów i usług został
+skierowany do uzgodnień międzyresortowych oraz konsultacji publicznych i opiniowania.
+Projekt udostępniono w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji
+w serwisie Rządowy Proces Legislacyjny – w celu zapoznania się z nim przez wszystkie zainteresowane podmioty.
+Projekt został skierowany do szerokich konsultacji publicznych i opiniowania, które obejmowały
+w szczególności organizacje zrzeszające przedsiębiorców oraz organy bezpośrednio zaangażowane w proces
+udostępniania danych.
+Organ wnioskujący w dniach 9 czerwca 2025 r. skierował projekt ustawy do zaopiniowania przez następujące
+organy administracji rządowej i inne organy oraz instytucje państwowe, których zakresu działania dotyczy
+projekt.
+W ramach opiniowania ww. projekt został przekazany do:
+1) Prezesa Prokuratorii Generalnej Rzeczypospolitej Polskiej;
+2) Prezesa Urzędu Ochrony Konkurencji i Konsumentów;
+3) Prezesa Urzędu Ochrony Danych Osobowych;
+4) Prezesa Narodowego Banku Polskiego;
+5) Komisji Nadzoru Finansowego.
+Dodatkowo w dniu 12 czerwca 2025 r. projekt został przekazany do opinii Rzecznika Małych i Średnich
+Przedsiębiorców.
+
+
+W ramach konsultacji publicznych ww. projekt otrzymały następujące podmioty:
+1) Pracodawcy Rzeczypospolitej Polskiej;
+2) Konfederacja „Lewiatan”;
+3) Związek Rzemiosła Polskiego;
+4) Związek Pracodawców Business Centre Club;
+5) Związek Przedsiębiorców i Pracodawców;
+6) Federacja Przedsiębiorców Polskich;
+7) Krajowa Izba Gospodarcza;
+8) Związek Przedsiębiorstw Finansowych;
+9) Izba Gospodarki Elektronicznej;
+10) Polskie Towarzystwo Gospodarcze.
+Projekt skierowano do ww. podmiotów z terminem na zgłoszenie ewentualnych uwag wynoszącym 7 dni w
+zakresie opiniowania oraz 10 dni w zakresie konsultacji publicznych.
+
+
+
+                                                                                                            1
+Na podstawie art. 5 ust. 1 ustawy z dnia 24 lipca 2015 r. o Radzie Dialogu Społecznego i innych instytucjach
+dialogu społecznego (Dz. U. z 2018 r. poz. 2232, z późn. zm.) projekt ustawy został skierowany w dniu 9 czerwca
+2025 r. do rozpatrzenia przez Radę Dialogu Społecznego.
+Uwagi zgłoszone w ramach opiniowania dotyczyły w szczególności:
+   1) dostępu do danych w Punkcie Informacji dla Przedsiębiorcy, w tym ich publikacji, a także przekazywania
+      tych danych/wymianę informacji pomiędzy systemami PIP i KAS w zakresie informacji zawartych w
+      wykazie podatników VAT,
+   2) zakresu i zasad przekazywania danych pomiędzy systemami teleinformatycznymi,
+   3) łączenia baz danych.
+Urząd Komisji Nadzoru Finansowego, w zakresie właściwości Komisji Nadzoru Finansowego, nie zgłosił uwag do
+ww. projektu.
+Prezes Urzędu Ochrony Danych Osobowych zgłosił uwagi, które dotyczyły:
+    1) zbyt ogólnie sformułowanego przepisu odnoszącego się do dostępu do danych w Punkcie Informacji dla
+       Przedsiębiorcy, w tym ich publikacji, a także przekazywania tych danych pomiędzy systemami PIP i KAS
+       w zakresie informacji zawartych w wykazie podatników VAT;
+    2) braku sprecyzowania rejestrów i baz, o jakie chodzi i do jakich zasad dostępu do nich odwołują się
+       przepisy;
+    3) podmiotowości prawnej rejestrów i baz danych;
+    4) zakresu i zasad przekazywania danych pomiędzy systemami teleinformatycznymi;
+    5) zakazu łączenia baz danych.
+Uwagi PUODO zostały uwzględnione lub wyjaśnione. Przepisy ustawy zostały doprecyzowane, ograniczając nowe
+zadania Punktu Informacji dla Przedsiębiorcy do zadania związanego z udostępnianiem informacji zawartych w
+wykazie podatników VAT. Uzupełniono uzasadnienie i OSR w tym zakresie.
+W wyznaczonym terminie nie wpłynęły uwagi przedstawicieli przedsiębiorców.
+Nie wpłynęły również uwagi od obywateli, urzędów miast i gmin, przedsiębiorców.
+Zestawienie uwag wraz ze szczegółowym odniesieniem się stanowią załącznik do raportu oraz zostały
+opublikowane na stronie podmiotowej Rządowego Centrum Legislacji w serwisie Rządowy Proces Legislacyjny.
+
+
+    II.    Przedstawienie wyników zasięgnięcia opinii, dokonania powiadomienia, konsultacji albo
+           uzgodnienia projektu z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim
+           Bankiem Centralnym.
+
+
+Projekt ustawy nie wymagał zasięgnięcia opinii, dokonania powiadomienia, konsultacji ani uzgodnienia projektu
+z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem Centralnym.
+
+
+    III.   Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem w trybie przepisów
+           o działalności lobbingowej w procesie stanowienia prawa, wraz ze wskazaniem kolejności
+           dokonania zgłoszeń albo informację o ich braku.
+
+
+Zgodnie z przepisami ustawy z 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z
+2025 r. poz. 677) oraz § 52 uchwały nr 190 Rady Ministrów z 29 października 2013 r.  Regulamin pracy Rady
+Ministrów, projekt ustawy został zamieszczony w Biuletynie Informacji Publicznej na stronie podmiotowej
+Rządowego Centrum Legislacji w serwisie Rządowy Proces Legislacyjny. W toku prac nad projektem żaden
+podmiot nie zgłosił zainteresowania pracami nad tym projektem w trybie przewidzianym w ww. ustawie.
+
+
+
+
+                                                                                                             2
+                                                               Załącznik do raportu z konsultacji publicznych i opiniowania
+
+     projektu ustawy o zmianie ustawy o Centralnej Ewidencji i Informacji o Działalności Gospodarczej i Punkcie Informacji dla Przedsiębiorcy oraz ustawy o podatku od towarów i usług
+                                                                                          (UDER48)
+
+             Jednostka
+         redakcyjna, której
+          uwaga dotyczy/          Podmiot
+Lp.                                                                     Uwaga/ Propozycja zmian zapisu                                                Stanowisko MRiT
+                                 zgłaszający
+         pkt Uzasadnienia/
+
+                 pkt OSR
+
+1.      Art. 1                Prezes Urzędu      Wątpliwości budzi art. 1 projektu, który w ustawie o Centralnej Ewidencji i        Uwaga uwzględniona.
+                              Ochrony Danych     Informacji o Działalności Gospodarczej i Punkcie Informacji dla Przedsiębiorcy w
+                                                                                                                                    MRiT przeredagowało przepis ograniczając nowe zadania
+                              Osobowych          art. 51 w ust. 3 dotyczącym zadań Punktu Informacji dla Przedsiębiorcy dodaje
+                                                                                                                                    Punktu Informacji dla Przedsiębiorcy do zadania
+                                                 pkt 4 w brzmieniu: „umożliwienie dostępu do danych, w tym publikacji za
+                                                                                                                                    związanego z udostępnianiem informacji zawartych w
+                                                 pośrednictwem Punktu informacji zawartych w rejestrach publicznych i
+                                                                                                                                    wykazie podatników VAT.
+                                                 publicznych bazach danych dotyczących działalności gospodarczej i
+                                                 przedsiębiorców, w zakresie i na zasadach ustalonych z tymi rejestrami lub
+                                                 bazami.” Wskazać należy, że projektowany przepis w ww. brzmieniu w sposób
+                                                 bardzo ogólny odnosi się do dostępu do danych w Punkcie Informacji dla
+                                                 Przedsiębiorcy, w tym ich publikacji, a także przekazywania tych
+                                                 danych/wymianę informacji pomiędzy systemami PIP i KAS w zakresie informacji
+                                                 zawartych w wykazie podatników VAT. Z projektowanego przepisu nie wynika o
+                                                 jakie rejestry i bazy chodzi i do jakich zasad dostępu do nich przedmiotowy
+                                                 przepis odwołuje się. Zauważyć bowiem należy, że projekt nie zawiera
+                                                 przepisów, które zmieniałyby regulacje, na podstawie których te rejestry i bazy
+                                                 działają.
+
+2.      Art. 1                Prezes Urzędu      Nadaje też swoistą podmiotowość prawną tym bazom i rejestrom, z którymi            Uwaga uwzględniona.
+                              Ochrony Danych     według treści projektowanego przepisy miałby zostać ustalony dostęp do ich
+                                                                                                                                    MRiT przeredagowało przepis ograniczając nowe zadania
+                              Osobowych          treści. To przepis rangi ustawy powinien regulować kwestie związane z zakresem
+                                                                                                                                    Punktu Informacji dla Przedsiębiorcy do zadania
+                                                 i zasadami przekazywania danych, a nie uzgodnienia, które nie mogą być
+                                                 podstawą do przetwarzania danych osobowych, jak wymaga tego art. 51 w zw.
+                               z art. 31 ust. 3 Konstytucji RP. Prawodawca powinien zapewnić regulacje,                     związanego z udostępnianiem informacji zawartych w
+                               którymi kierować ma się wykonawca norm udostępniający i obsługujący system                   wykazie podatników VAT.
+                               teleinformatyczny, za pomocą którego mają być przetwarzane dane osobowe.
+                                                                                                                            Nowa propozycja przepisu nie odnosi się do szeroko
+                                                                                                                            rozumianych baz i rejestrów, lecz ogranicza się tylko do
+                                                                                                                            współpracy z wykazem prowadzonym przez KAS na
+                                                                                                                            podstawie art. 96b ustawy o VAT - wykazem
+                                                                                                                            podmiotów/podatników VAT.
+
+
+
+3.   Art. 2   Prezes Urzędu    Projektodawca, regulując w przedmiotowych przepisach ww. kwestie w sposób                    Uwaga wyjaśniona.
+              Ochrony Danych   ogólny, bez wskazania chociażby ról podmiotów, trybu przekazywania danych
+                                                                                                                            MRiT przeredagowało przepis ograniczając nowe zadania
+              Osobowych        (wnioskowy/bezwnioskowy) czy informacji kto publikuje dane, nie uwzględnia
+                                                                                                                            Punktu Informacji dla Przedsiębiorcy do zadania
+                               zarówno zasady przejrzystości, jak i rozliczalności (art. 5 ust. 1 lit. a i ust. 2
+                                                                                                                            związanego z udostępnianiem informacji zawartych w
+                               rozporządzenia 2016/679).
+                                                                                                                            wykazie podatników VAT.
+
+                                                                                                                            Z treści przepisu (art. 1) wynika, ze udostępnianie
+                               Wskazać należy, że rejestr publiczny (CEIDG), w którym przetwarzane są dane                  informacji zawartych w wykazie podatników VAT
+                               osobowe powinien zapewniać autentyczność, rozliczalność, niezawodność oraz                   odbywać się będzie za pośrednictwem Punktu informacji
+                               niezaprzeczalność. Konieczne jest zatem uwzględnienie zasad przetwarzania, w                 dla Przedsiębiorcy.
+                               tym ochrony danych osobowych i prywatności na każdym etapie tworzenia oraz
+                                                                                                                            Tryb przekazywania danych zostanie ustalony z Szefem
+                               funkcjonowania technologii obejmującej ich przetwarzanie. Pojawia się
+                                                                                                                            Krajowej Administracji Publicznej odpowiedzialnym za
+                               zasadnicze pytanie: jak i który administrator / dotychczasowy administrator ma
+                                                                                                                            prowadzenie     wykazu      podatników     VAT.    Tryb
+                               pełnić kontrolę nad systemem, jak będzie kształtowała się odpowiedzialność
+                                                                                                                            przekazywania danych będzie zależał od możliwości
+                               administratorów w związku z planowanymi zmianami. Przepisy projektowanej
+                                                                                                                            technicznych poszczególnych rejestrów i baz danych oraz
+                               ustawy powinny kompleksowo regulować sposoby przetwarzania danych w
+                                                                                                                            może się zmieniać wraz z postępem technologicznym oraz
+                               systemie teleinformatycznym, zgodnie z zasadami: zgodności z prawem,
+                                                                                                                            rozwojem poszczególnych baz i rejestrów.
+                               rzetelności i przejrzystości (art. 5 ust. 1 lit. a), ograniczenia celu (art. 5 ust. 1 lit.
+                               b), minimalizacji danych (art. 5 ust. 1 lit. c) i ograniczenia przechowywania (art.          Przepisy jasno określają role poszczególnych podmiotów.
+                               5 ust. 1 lit. e), jak również rozliczalności (art. 5 ust. 2) rozporządzenia 2016/679.        Jak wynika z art. 96b ust. 9a ustawy o VAT, zadaniem Szefa
+                                                                                                                            Krajowej Administracji Skarbowej będzie przekazanie
+                                                                                                                            określonego katalogu danych (określonego w art. 96b ust.
+                                                                                                                            3 pkt 2-3 i 5 tj. NIP, status podmiotu, numer
+
+                                                                                 2
+                                                                                                                      identyfikacyjny REGON, numer w Krajowym Rejestrze
+                                                                                                                      Sądowym, o ile został nadany). Dane te są danymi
+                                                                                                                      powszechnie dostępne (nie są danymi niejawnymi) i już
+                                                                                                                      dziś                publikowanymi                 np.
+                                                                                                                      https://www.podatki.gov.pl/wykaz-podatnikow-vat-
+                                                                                                                      wyszukiwarka. Natomiast zadaniem Punktu będzie ich
+                                                                                                                      udostępnianie w odniesieniu do przedsiębiorców.
+
+                                                                                                                      Należy wskazać, że Minister realizuje wszelkie obowiązki
+                                                                                                                      informacyjne nałożone na administratora.
+
+4.   Uzasadnienie   Prezes Urzędu    Jak wynika z art. 5 ust. 1 lit a w zw. z art. 6 ust. 3 rozporządzenia 2016/679   Uwaga wyjaśniona.
+                    Ochrony Danych   podstawa przetwarzania musi być określona w prawie Unii lub w prawie
+                                                                                                                      Dane przetwarzane są wyłącznie w celu realizacji zadań
+                    Osobowych        państwa członkowskiego, któremu podlega administrator, w sposób jasny i
+                                                                                                                      ustawowych Ministra prowadzącego Punkt Informacji dla
+                                     precyzyjny oraz ma zawierać cel przetwarzania, a dodatkowo także przepisy
+                                                                                                                      Przedsiębiorcy, co również zostało uregulowane w
+                                     szczegółowe dostosowujące stosowanie przepisów rozporządzenia. Określenie
+                                                                                                                      przepisach ustawy o CEIDG i PIP (art. 51 ust. 1 ustawy o
+                                     modelu przetwarzania danych osobowych w CEIDG (dostępu do danych,
+                                                                                                                      CEIDG i PIP). Szczegółowe cele określone zostały w art. 51
+                                     publikacji danych) wymaga wyraźnego i konkretnego określenia celu i sposobu
+                                                                                                                      ust. 3 ustawy o CEIDG i PIP, i zostały uzupełnione w
+                                     jego używania. Określenie celu będzie stanowiło punkt odniesienia dla zakresu
+                                                                                                                      ustawie o VAT. A zatem, korzystanie przez ministra
+                                     wszystkich operacji przetwarzania danych.
+                                                                                                                      właściwego do spraw gospodarki z danych zawartych w
+                                     Przetwarzanie danych osobowych przez podmioty publiczne w ramach                 innych rejestrach publicznych służy realizacji zadań
+                                     funkcjonujących rejestrów jest bowiem ograniczone zakresem realizowanych         określonych w art. 51 ust. 3 ustawy.
+                                     przez nich zadań (zob. art. 15 ust. 1 ustawy o informatyzacji). Jak wymaga
+                                                                                                                      Pragniemy zwrócić uwagę, że Punkt realizuje na
+                                     również treść art. 51 ust. 2 Konstytucji RP, władze publiczne nie mogą
+                                                                                                                      terytorium      Rzeczypospolitej     Polskiej    zadania
+                                     pozyskiwać, gromadzić i udostępniać innych informacji o obywatelach niż
+                                                                                                                      pojedynczego punktu kontaktowego w rozumieniu
+                                     niezbędne w demokratycznym państwie prawnym. Zaś zasady i tryb
+                                                                                                                      przepisu art. 6 dyrektywy 2006/123/WE Parlamentu
+                                     gromadzenia oraz udostępnienia informacji określa ustawa (art. 51 ust. 5
+                                                                                                                      Europejskiego i Rady z dnia 12 grudnia 2006 r. dotyczącej
+                                     Konstytucji RP).
+                                                                                                                      usług na rynku wewnętrznym.
+                                     Wprawdzie z uzasadnienia do projektu ustawy wynika, że nie będzie
+                                                                                                                      Zgodnie z art. 7 ww. dyrektywy Państwa członkowskie
+                                     dochodziło do łączenia baz, projektodawca wskazuje na ich odrębność,
+                                                                                                                      zapewniają usługodawcom i usługobiorcom łatwy dostęp
+                                     natomiast projektowane przepisy nie wskazują na powyższe. Podkreślić zatem
+                                                                                                                      do informacji poprzez pojedyncze punkty kontaktowe.
+                                                                                                                      Dostęp do wykazu podatników VAT poprzez Punkt
+
+                                                                                3
+należy, że zakaz łączenia baz danych wyraźnie określony został w treści motywu   Informacji dla Przedsiębiorcy stanowi zatem realizację
+31 rozporządzenia 2016/679 zdanie drugie w brzmieniu:                            idei łatwego dostępu do informacji.
+
+                                                                                 Minister jako organ prowadzący PIP i administrator tych
+                                                                                 danych dba i odpowiada za ich bezpieczeństwo. MRiT
+                                                                                 stosuje wypracowane wymogi bezpieczeństwa systemów
+                                                                                 teleinformatycznych w administracji wynikające ze
+                                                                                 wspomnianych wcześniej przepisów szczególnych oraz
+                                                                                 systemu zarządzania bezpieczeństwem informacji, który
+                                                                                 przewiduje odpowiednie procedury utrzymania ciągłości
+                                                                                 działania (np. zapewnianie kopii systemów) oraz
+                                                                                 zapobiegania cyberzagrożeniom (np. w formie cyklicznych
+                                                                                 audytów).
+
+                                                                                 Projekt nie zakłada łączenia baz (zachowanie odrębności
+                                                                                 rejestrów).
+
+
+
+
+                                           4
+

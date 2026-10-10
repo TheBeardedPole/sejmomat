@@ -1,0 +1,637 @@
+                                                                       Druk nr 1824
+                                                         Warszawa, 14 października 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-199-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+         Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy o dochodach jednostek
+   samorządu terytorialnego.
+          Jednocześnie, z uwagi na bezpośredni wpływ rozwiązań zawartych w projekcie
+ ww. ustawy na proces przygotowania uchwał budżetowych jednostek samorządu
+ terytorialnego na rok 2026, na podstawie art. 51 ust. 1 pkt 1 i ust. 2 Regulaminu Sejmu
+ przedstawiam wniosek o skrócenie postępowania z projektem ustawy przez
+ przystąpienie do pierwszego czytania projektu bez zachowania terminu określonego
+ w art. 37 ust. 4 Regulaminu Sejmu.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Finansów i Gospodarki.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                         Projekt
+                                            U S T AWA
+
+                                                z dnia
+
+                 o zmianie ustawy o dochodach jednostek samorządu terytorialnego
+
+
+         Art. 1. W ustawie z dnia 1 października 2024 r. o dochodach jednostek samorządu
+    terytorialnego (Dz. U. poz. 1572 i 1717) wprowadza się następujące zmiany:
+    1)   po art. 80 dodaje się art. 80a w brzmieniu:
+                 „Art. 80a. 1. W celu obliczenia na rok 2026 przeliczeniowej liczby mieszkańców
+         jednostki samorządu terytorialnego przyjmuje się dla poszczególnych kategorii jednostek
+         samorządu terytorialnego następujące obszary wydatkowe i wartości ich wag,
+         determinanty wpływające na potrzeby wydatkowe w danym obszarze wydatkowym oraz
+         wysokość współczynników regresji dla poszczególnych determinant:
+                                                                                       Wysokość
+  Kategoria                             Wartość wagi     Determinanty wpływające
+                                                                                     współczynników
+  jednostki                                obszaru       na potrzeby wydatkowe w
+                   Obszar wydatkowy                                                    regresji dla
+ samorządu                              wydatkowego           danym obszarze
+                                                                                     poszczególnych
+terytorialnego                               (𝜆f)              wydatkowym
+                                                                                     determinant (𝛽)
+                                                               iloczyn liczby
+                                                           mieszkańców i relacji
+                      administracja                      przeciętnego miesięcznego
+                                            0,24                                            1
+                       publiczna                          wynagrodzenia brutto w
+                                                            danym powiecie do
+                                                             średniej krajowej
+                        oświata i
+   gminy                                                    liczba oddziałów w
+                     wychowanie –           0,17                                            1
+                                                          szkołach podstawowych
+                         szkoły
+                                                               liczba dzieci
+                        oświata i
+                                                            uczęszczających do
+                     wychowanie –
+                                            0,19          przedszkoli, oddziałów            1
+                      wychowanie
+                                                         przedszkolnych w szkołach
+                      przedszkolne
+                                                          podstawowych i innych
+                                      –2–
+
+
+                                                form wychowania
+                                                 przedszkolnego
+                                              prowadzonych przez
+                                              jednostki samorządu
+                                              terytorialnego, osoby
+                                                prawne niebędące
+                                             jednostkami samorządu
+                                            terytorialnego oraz osoby
+                                                    fizyczne
+                                               liczba gospodarstw
+                                            domowych korzystających
+             polityka społeczna    0,12                                 1
+                                            ze środowiskowej pomocy
+                                                   społecznej
+                                            ilość wody dostarczonej i
+                gospodarka
+                                               ścieków bytowych
+            komunalna i ochrona    0,07                                 1
+                                             odprowadzonych siecią
+                środowiska
+                                              kanalizacyjną [dam3]
+                                              liczba mieszkańców w
+            transport i łączność   0,06                                 1
+                                                  wieku 20–64
+                                                 iloczyn liczby
+                                              mieszkańców i relacji
+             kultura i ochrona
+                                            przeciętnego miesięcznego
+                dziedzictwa        0,07                                 1
+                                             wynagrodzenia brutto w
+                narodowego
+                                               danym powiecie do
+                                                średniej krajowej
+                 pozostałe         0,08        liczba mieszkańców       1
+            transport i łączność   0,18     liczba pracujących ogółem   1
+                                                 iloczyn liczby
+miasta na
+                                              mieszkańców i relacji
+prawach        administracja
+                                   0,15     przeciętnego miesięcznego   1
+powiatu          publiczna
+                                            wynagrodzenia brutto do
+                                                średniej krajowej
+                         –3–
+
+
+                                  liczba oddziałów w
+     oświata i
+                                szkołach podstawowych,
+   wychowanie –       0,15                                     1
+                                 ponadpodstawowych i
+      szkoły
+                                      policealnych
+                                      liczba dzieci
+                                  uczęszczających do
+                                 przedszkoli, oddziałów
+                               przedszkolnych w szkołach
+                                podstawowych i innych
+     oświata i                     form wychowania
+   wychowanie –                     przedszkolnego
+                      0,17                                     1
+   wychowanie                     prowadzonych przez
+   przedszkolne                   jednostki samorządu
+                                  terytorialnego, osoby
+                                   prawne niebędące
+                                jednostkami samorządu
+                               terytorialnego oraz osoby
+                                        fizyczne
+                               liczba osób korzystających
+                               ze środowiskowej pomocy
+                                                             0,8065
+                                       społecznej
+ polityka społeczna   0,15
+                                   (łącznie z filiami)
+                                  liczba bezrobotnych
+                                                             0,1935
+                                   zarejestrowanych
+                               suma powierzchni parków
+                                      spacerowo-
+                                   wypoczynkowych,
+    gospodarka
+                               zieleńców i terenów zieleni
+komunalna i ochrona   0,05                                     1
+                                osiedlowej oraz średniej
+    środowiska
+                                  powierzchni objętej
+                                utrzymaniem czystości i
+                                porządku przez gminy w
+                                    –4–
+
+
+                                               okresie letnim i
+                                             powierzchni objętej
+                                           utrzymaniem czystości i
+                                           porządku przez gminy w
+                                          okresie zimowym – będąca
+                                            w gestii miasta [w ha]
+                                                iloczyn liczby
+           kultura i ochrona                mieszkańców i relacji
+             dziedzictwa         0,06     przeciętnego miesięcznego       1
+             narodowego                   wynagrodzenia brutto do
+                                              średniej krajowej
+               pozostałe         0,09        liczba mieszkańców           1
+                                                iloczyn liczby
+                                            mieszkańców i relacji
+             administracja
+                                 0,40     przeciętnego miesięcznego       1
+              publiczna
+                                          wynagrodzenia brutto do
+                                              średniej krajowej
+                                             liczba mieszkańców
+                                           zakładów stacjonarnych
+                                             pomocy społecznej          0,3712
+          polityka społeczna     0,25     podległych samorządowi
+                                          powiatu (łącznie z filiami)
+powiaty
+                                             liczba bezrobotnych
+                                                                        0,6288
+                                              zarejestrowanych
+                                          długość dróg powiatowych
+                                            o nawierzchni twardej       0,1632
+          transport i łączność   0,12              [w km]
+                                            liczba mieszkańców w
+                                                                        0,8368
+                                                wieku 20–64
+               oświata i
+                                             liczba oddziałów w
+            wychowanie –         0,16                                     1
+                                                   szkołach
+                szkoły
+                                                –5–
+
+
+                                                        ponadpodstawowych i
+                                                            policealnych
+                     pozostałe             0,07          liczba mieszkańców            1
+                                                         suma długości dróg
+                                                          wojewódzkich o
+                transport i łączność       0,36         nawierzchni twardej i          1
+                                                      długości linii kolejowych
+                                                      eksploatowanych [w km]
+                                                           iloczyn liczby
+                                                        mieszkańców i relacji
+                   administracja
+                                           0,24       przeciętnego miesięcznego        1
+                    publiczna
+                                                      wynagrodzenia brutto do
+                                                          średniej krajowej
+województwa      ochrona zdrowia           0,05          liczba mieszkańców            1
+                                                      suma liczby bezrobotnych
+                                                      zarejestrowanych i liczby
+                polityka społeczna         0,08                                        1
+                                                            osób w wieku
+                                                          poprodukcyjnym
+                                                           iloczyn liczby
+                 kultura i ochrona                      mieszkańców i relacji
+                   dziedzictwa             0,16       przeciętnego miesięcznego        1
+                   narodowego                         wynagrodzenia brutto do
+                                                          średniej krajowej
+                     pozostałe             0,11          liczba mieszkańców            1
+
+
+              2. W przypadku gdy na dzień 31 maja 2025 r. wartości determinant wpływających
+        na potrzeby wydatkowe w danym obszarze wydatkowym były objęte tajemnicą
+        statystyczną do obliczenia przeliczeniowej liczby mieszkańców jednostek samorządu
+        terytorialnego na rok 2026 przyjmuje się posiadane przez Główny Urząd Statystyczny i
+        ostatnio dostępne wartości determinant, które nie były objęte tą tajemnicą w dniu
+        30 czerwca 2025 r.”;
+   2)   po art. 93 dodaje się art. 93a w brzmieniu:
+                                      –6–
+
+
+     „Art. 93a. Do obliczenia dochodów jednostek samorządu terytorialnego na rok 2026
+z tytułu udziału w podatku dochodowym od osób fizycznych, podatku dochodowym od
+osób prawnych i subwencji ogólnej, przyjmuje się:
+1)   kwoty dochodów za 2025 r. z tytułu udziału w podatku dochodowym od osób
+     fizycznych, podatku dochodowym od osób prawnych i subwencji ogólnej oraz
+     środków z rezerwy, o których mowa w art. 89 ust. 2 i 3, obliczone w sposób
+     określony w niniejszej ustawie, przy czym:
+     a)   do obliczenia dochodu jednostki samorządu terytorialnego z tytułu udziału
+          w podatku dochodowym od osób prawnych przyjmuje się kwotę dochodów
+          podatników podatku dochodowego od osób prawnych, o których mowa
+          w art. 12, ustaloną na podstawie danych, według stanu na dzień 30 czerwca
+          2025 r.,
+     b)   do obliczenia kwoty rocznego dochodu jednostki samorządu terytorialnego
+          z tytułu udziału we wpływach z podatku dochodowego od osób prawnych za
+          lata 2024 i 2025 przyjmuje się kwotę należnego podatku dochodowego od osób
+          prawnych i wskaźnik udziału należnego podatku dochodowego od osób
+          prawnych od podatników posiadających siedzibę na obszarze danej jednostki
+          samorządu terytorialnego w ogólnej kwocie należnego podatku, ustalone,
+          w przypadku lat 2021 i 2022, na podstawie danych, według stanu na dzień
+          30 czerwca 2025 r.,
+     c)   do obliczenia kwoty kalkulacyjnej za rok 2025 przyjmuje się dochody jednostki
+          samorządu terytorialnego z tytułu udziału w podatku dochodowym od osób
+          prawnych, obliczone z uwzględnieniem danych, o których mowa w lit. a i b,
+     d)   w zakresie potrzeb oświatowych za rok 2025 przyjmuje się dla poszczególnych
+          jednostek samorządu terytorialnego kwoty przekazane przez ministra
+          właściwego do spraw oświaty i wychowania ministrowi właściwemu do spraw
+          finansów publicznych do dnia 31 maja 2025 r.,
+     e)   do obliczenia potrzeb wyrównawczych i uzupełniających oraz korekty z tytułu
+          zamożności za rok 2025 przyjmuje się dane, o których mowa w lit. a i b, oraz
+          potrzeby oświatowe, o których mowa w lit. d;
+2)   wskaźnik, o którym mowa w art. 31 ust. 2, ustalony jako iloraz dochodów jednostki
+     samorządu terytorialnego z tytułu udziału w podatku dochodowym od osób
+     fizycznych i podatku dochodowym od osób prawnych na rok 2026 i dochodów tej
+                                     –7–
+
+
+    jednostki z tych tytułów za rok 2025, obliczonych z uwzględnieniem danych, o
+    których mowa w pkt 1 lit. a.”.
+
+Art. 2. Ustawa wchodzi w życie z dniem następującym po dniu ogłoszenia.
+                                     UZASADNIENIE
+
+Potrzeba i cel uchwalenia ustawy
+
+Projekt ustawy o zmianie ustawy o dochodach jednostek samorządu terytorialnego ma na celu
+wykorzystanie zaktualizowanych danych podatkowych z tytułu podatku dochodowego od osób
+prawnych do obliczenia dochodów jednostek samorządu terytorialnego.
+Zgodnie z przepisami przejściowymi ustawy z dnia 1 października 2024 r. o dochodach
+jednostek samorządu terytorialnego (Dz. U. poz. 1572 i 1717), wprowadzającymi reformę
+dochodów jednostek samorządu terytorialnego (dalej: JST), dochody JST z tytułu udziału w
+podatku dochodowym od osób prawnych na rok 2025 zostały ustalane na podstawie danych
+zawartych w złożonych za rok 2022 zeznaniach podatkowych, według stanu na dzień 10 marca
+2024 r. (art. 79 ust. 1 ustawy z dnia 1 października 2024 r. o dochodach jednostek samorządu
+terytorialnego). Na etapie opracowania projektu ustawy przyjęto dane, które były wówczas
+dostępne w bazach danych. W związku z aktualizacją danych będących podstawą naliczenia
+dochodów JST z tytułu udziału w podatku CIT na rok 2025 oraz aktualizacją kwot potrzeb
+oświatowych dokonaną przez Ministra Edukacji, zasadne jest wykorzystanie tych
+zaktualizowanych danych do obliczenia dochodów JST na rok 2026, w zakresie, w jakim
+przewiduje to ustawa z dnia 1 października 2024 r. o dochodach jednostek samorządu
+terytorialnego – co zapewni właściwą, zgodną z danymi alokację środków do jednostek.
+Dochody samorządów z tytułu udziału w PIT czy CIT na rok 2026 będą naliczane zgodnie z
+obowiązującą ustawą o dochodach jednostek samorządu terytorialnego, tj. na podstawie danych
+podatkowych za rok 2024. Natomiast naliczenie subwencji ogólnej dla JST na rok 2026 opiera
+się na ustaleniu przyrostów (potrzeb finansowych oraz kwoty kalkulacyjnej) zachodzących
+między rokiem 2026 a rokiem 2025. Na rok 2026 potrzeby finansowe JST będą naliczane
+według ustawy, zaś aktualizacja, o której mowa wyżej, dotyczyć będzie wyłącznie roku 2025,
+będącego podstawą ustalenia przyrostu. Wykorzystanie, wygenerowanych przez systemy
+informatyczne, zaktualizowanych danych o dochodach podatników CIT, pozwalając na
+precyzyjne przypisanie dochodów osiąganych przez poszczególnych podatników do właściwej
+JST, umożliwi zatem ustalenie dochodów subwencyjnych JST na rok 2026, w oparciu
+o aktualne dane.
+Projekt wprowadza więc rozwiązania o charakterze technicznym, nie ingerując w metodologię
+ustalania dochodów JST.
+
+Ponadto przedłożenie projektu ustawy wynika również z potrzeby przedłużenia na rok 2026
+parametrów służących ustaleniu przeliczeniowej liczby mieszkańców. Przeliczeniowa liczba
+mieszkańców jest istotnym elementem przy naliczeniu potrzeb wyrównawczych i korekt z
+tytułu zamożności, dlatego też utrzymanie obowiązujących zasad konstrukcji systemu
+dochodów zapewni stabilność dochodów JST i pozwoli na dokonanie w 2026 r. ewaluacji
+systemu dochodów samorządowych w sposób adekwatny i obiektywny. Proponowane
+rozwiązanie, będące kontynuacją metody obliczeniowej zastosowanej w 2025 r., zostało
+uzgodnione ze stroną samorządową Komisji Wspólnej Rządu i Samorządu Terytorialnego.
+Dlatego też koniecznym jest wprowadzenie proponowanych rozwiązań, aby prawidłowo ustalić
+dochody JST na rok 2026. Projekt wprowadza więc rozwiązania o charakterze incydentalnym,
+które będą wykorzystane do obliczenia dochodów na rok 2026.
+
+Należy też wyjaśnić, że wejście w życie projektowanych przepisów nie wymaga wprowadzenia
+przepisów przejściowych, w szczególności w zakresie informowania jednostek samorządu
+terytorialnego o kwotach dochodów na 2026 r. Dochody na 2026 r., o których jednostki
+samorządu terytorialnego zostaną poinformowane w terminie do 15 października 2025 r., będą
+aktualne.
+
+Szczegółowy zakres projektowanych zmian
+
+W art. 1 projektowanej ustawy wprowadza się następujące zmiany w ustawie o dochodach
+jednostek samorządu terytorialnego:
+1) dodanie art. 80a
+Zgodnie z ustaleniami ze stroną samorządową KWRiST, do ustalenia przeliczeniowej liczby
+mieszkańców na rok 2026 proponuje się utrzymanie obszarów wydatkowych JST i wartości ich
+wag, determinant wpływających na potrzeby wydatkowe w danym obszarze wydatkowym oraz
+wysokości współczynników regresji dla poszczególnych determinant z roku 2025.
+Dodatkowo, zgodnie z ustaleniami, w celu doprecyzowania proponuje się dookreślenie, że
+obszar oświata i wychowanie – wychowanie przedszkolne, uwzględnia dzieci uczęszczające do
+przedszkoli i innych form wychowania przedszkolnego prowadzonych przez jednostki
+samorządu terytorialnego, osoby prawne niebędące jednostkami samorządu terytorialnego oraz
+osoby fizyczne.
+Ponadto w ust. 2 uregulowano przypadek parametrów objętych tajemnicą statystyczną, o której
+mowa w ustawie z dnia 29 czerwca 1995 r. o statystyce publicznej (Dz. U. z 2024 r. poz. 1799).
+W takiej sytuacji będą przyjmowane ostatnio dostępne wartości determinant, które nie były
+objęte tajemnicą.
+
+
+
+
+                                              2
+2) dodanie art. 93a
+Regulacja ta umożliwi ustalenie dochodów JST na rok 2026 z tytułu udziału w podatku
+dochodowym od osób fizycznych, udziału w podatku dochodowym od osób prawnych oraz
+subwencji ogólnej z budżetu państwa, uwzględniając dochody za rok 2025 obliczone z
+wykorzystaniem dostępnych danych.
+W projektowanym art. 93a w:
+–   pkt 1 lit. a i b proponuje się przyjęcie do obliczeń przewidzianych w ustawie z dnia
+    1 października 2024 r. o dochodach jednostek samorządu terytorialnego danych o
+    wysokości dochodów podatników podatku dochodowego od osób prawnych za rok 2022
+    oraz o należnym podatku dochodowym od osób prawnych w zakresie lat 2021–2022,
+    według stanu na dzień 30 czerwca 2025 r. Lata te były podstawą naliczenia dochodów JST
+    na rok 2025,
+–   pkt 1 lit. c, z uwagi na naliczenie dochodów JST z tytułu udziału w podatku dochodowym
+    od osób prawnych na podstawie zaktualizowanych danych, przewiduje się aktualizację
+    kwoty kalkulacyjnej na rok 2025, będącej podstawą ustalenia subwencji ogólnej z budżetu
+    państwa,
+–   pkt 1 lit. d proponuje się przyjęcie zaktualizowanych danych w zakresie potrzeb
+    oświatowych, naliczonych przez ministra właściwego do spraw oświaty i wychowania, o
+    których informacje zostały przekazane ministrowi właściwemu do spraw finansów
+    publicznych do dnia 31 maja 2025 r.,
+–   pkt 1 lit. e proponuje się, w związku z aktualizacją dochodów z tytułu udziału w podatku
+    dochodowym od osób prawnych oraz potrzeb oświatowych, przeliczenie potrzeb
+    wyrównawczych i potrzeb uzupełniających, a także korekty z tytułu zamożności za rok
+    2025,
+–   pkt 2 przewiduje się ustalenie wskaźnika służącego do naliczenia kwoty kalkulacyjnej na
+    rok 2026, z wykorzystaniem dochodów z tytułu udziału w podatku dochodowym od osób
+    prawnych za rok 2025, obliczonych na podstawie zaktualizowanych danych w zakresie
+    tych dochodów.
+
+W art. 2 projektu ustawy określono termin wejścia w życie ustawy, tj. z dniem następującym
+po dniu ogłoszenia. Zaproponowany termin wejścia w życie ustawy pozwoli na naliczenie
+dochodów JST na rok 2026 zgodnie z proponowanymi rozwiązaniami według poprawnych
+danych oraz przekazanie do samorządów, możliwie szybko, informacji o wysokości ich
+dochodów w związku z prowadzonymi przez JST pracami nad budżetami samorządowymi na
+
+
+
+                                             3
+rok 2026. Zgodnie z art. 4 ust. 2 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów
+normatywnych i niektórych innych aktów prawnych (Dz. U. z 2019 r. poz. 1461) w
+uzasadnionych przypadkach akty normatywne mogą wchodzić w życie w terminie krótszym
+niż czternaście dni, a jeżeli ważny interes państwa wymaga natychmiastowego wejścia w życie
+aktu normatywnego i zasady demokratycznego państwa prawnego nie stoją temu na
+przeszkodzie, dniem wejścia w życie może być dzień ogłoszenia tego aktu w dzienniku
+urzędowym. Charakter przepisów zawartych w omawianym projekcie uzasadnia zastosowanie
+wyżej wymienionego terminu wejścia w życie.
+
+Projekt ustawy nie jest objęty prawem Unii Europejskiej.
+Projekt ustawy nie wymaga przedstawienia właściwym organom i instytucjom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+Projekt ustawy nie podlega notyfikacji zgodnie z przepisami dotyczącymi funkcjonowania
+krajowego systemu notyfikacji norm i aktów prawnych, stosownie do § 27 ust. 3 pkt 4 lit. b
+uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady
+Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.).
+Projekt ustawy nie dotyczy majątkowych praw i obowiązków przedsiębiorców lub praw
+i obowiązków przedsiębiorców wobec organów administracji publicznej i nie wpływa
+na działalność mikroprzedsiębiorców oraz małych i średnich przedsiębiorców.
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2025 r. poz. 677) projekt został udostępniony w Biuletynie Informacji
+Publicznej na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie „Rządowy
+Proces Legislacyjny”.
+Nie ma możliwości podjęcia alternatywnych w stosunku do projektu ustawy działań
+umożliwiających osiągnięcie zamierzonego celu.
+
+
+
+
+                                               4
+Nazwa projektu                                                            Data sporządzenia
+Projekt ustawy o zmianie ustawy o dochodach jednostek samorządu           2025-10-10
+terytorialnego
+                                                                          Źródło:
+Ministerstwo wiodące i ministerstwa współpracujące
+                                                                          inne
+Ministerstwo Finansów
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza
+                                                                          Nr w Wykazie prac legislacyjnych i
+Stanu lub Podsekretarza Stanu
+                                                                          programowych Rady Ministrów:
+Hanna Majszczyk, Podsekretarz Stanu w Ministerstwie Finansów
+                                                                          UD304
+Kontakt do opiekuna merytorycznego projektu
+Marek Wiewióra, Dyrektor Departamentu Finansów Samorządu
+Terytorialnego, tel. 22 694 34 16, e-mail: sekretariat.st@mf.gov.pl
+                                 OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Zgodnie z przepisami przejściowymi ustawy z dnia 1 października 2024 r. o dochodach jednostek samorządu terytorialnego
+(Dz. U. poz. 1572 i 1717), wprowadzającymi reformę dochodów jednostek samorządu terytorialnego (dalej: JST), dochody
+JST na rok 2025 ustalane były m.in. na podstawie danych zawartych w złożonych za lata 2021–2022 zeznaniach
+podatkowych, według stanu na dzień 10 marca 2024 r. Na etapie opracowania projektu ustawy przyjęto dane, które były
+wówczas dostępne w bazach danych. W związku z aktualizacją danych będących podstawą naliczenia dochodów JST
+z tytułu udziału w podatku CIT oraz aktualizacją kwot potrzeb oświatowych dokonaną przez Ministra Edukacji Narodowej,
+zasadne jest wykorzystanie tych zaktualizowanych danych do obliczenia dochodów JST na rok 2026, w zakresie w jakim
+przewiduje to ustawa z dnia 1 października 2024 r. o dochodach jednostek samorządu terytorialnego – co zapewni
+właściwą, zgodną z danymi alokację środków do jednostek.
+Dochody samorządów z tytułu udziału w PIT czy CIT na rok 2026 będą naliczane zgodnie z obowiązującą ustawą o
+dochodach jednostek samorządu terytorialnego, tj. na podstawie danych podatkowych za rok 2024. Natomiast naliczenie
+subwencji ogólnej dla JST na rok 2026 opiera się na ustaleniu przyrostów (potrzeb finansowych oraz kwoty kalkulacyjnej)
+zachodzących między rokiem 2026 a rokiem 2025. Na rok 2026 potrzeby finansowe JST będą naliczane według ustawy,
+zaś aktualizacja, o której mowa wyżej, dotyczyć będzie wyłącznie roku 2025, będącego podstawą ustalenia przyrostu.
+Wykorzystanie, wygenerowanych przez systemy informatyczne, zaktualizowanych danych o dochodach podatników CIT,
+pozwalając na precyzyjne przypisanie dochodów osiąganych przez poszczególnych podatników do właściwej JST,
+umożliwi zatem ustalenie dochodów subwencyjnych JST na rok 2026 w oparciu o aktualne dane.
+Projekt wprowadza więc rozwiązania o charakterze technicznym, nie ingerując w metodologię ustalania dochodów JST.
+Ponadto, zgodnie z art. 24 i art. 25 ustawy z dnia 1 października 2024 r. o dochodach jednostek samorządu terytorialnego,
+potrzeby wyrównawcze danej JST ustala się m.in. biorąc pod uwagę obszary wydatkowe JST i wartości ich wag,
+determinanty wpływające na potrzeby wydatkowe w danym obszarze wydatkowym oraz wysokości współczynników
+regresji dla poszczególnych determinant. W obowiązującym stanie prawnym powyższe parametry zostały określone
+wyłącznie do ustalenia potrzeb wyrównawczych na rok 2025. Brak tych parametrów uniemożliwi obliczenie
+przeliczeniowej liczby mieszkańców jednostek samorządu terytorialnego, a w konsekwencji potrzeb wyrównawczych i
+korekty z tytułu zamożności na 2026 r.
+Dlatego też, w celu ustalenia potrzeb wyrównawczych i korekty z tytułu zamożności JST na rok 2026, koniecznym jest
+określenie ww. parametrów.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+ 1. W projekcie ustawy proponuje się zastosowanie zaktualizowanych terytorialnie danych w zakresie podatku
+    dochodowego od osób prawnych oraz potrzeb oświatowych. W efekcie wprowadzenia proponowanego rozwiązania
+    dochody JST na 2026 r. zostaną obliczone z wykorzystaniem najbardziej aktualnych danych. Skutkiem tego będzie
+    precyzyjne przypisanie dochodów osiąganych przez poszczególnych podatników do właściwej JST.
+ 2. W zakresie dochodów JST proponuje się pozostawienie na rok 2026, co do zasady, wag obszarów wydatkowych i
+    determinant potrzeb wyrównawczych obowiązujących na rok 2025. Wprowadzenie proponowanych rozwiązań
+    umożliwi obliczenie potrzeb wyrównawczych JST na 2026 r., które stanowią element kalkulacyjny dochodów tych
+    jednostek. Ponadto zastosowanie w kolejnym roku wag obszarów wydatkowych i determinant potrzeb wyrównawczych
+    obowiązujących w roku 2025 da pełniejszy obraz systemu wyrównawczego i tym samym pozwoli w sposób adekwatny
+    i obiektywny przeprowadzić ewaluację systemu dochodów samorządowych.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Brak informacji.
+4. Podmioty, na które oddziałuje projekt
+           Grupa                     Wielkość                   Źródło danych                  Oddziaływanie
+Jednostki samorządu            16 województw,          Dane MSWiA                        Uwzględnienie w
+terytorialnego                 314 powiatów,           Stan na dzień 1 stycznia 2025 r.   dochodach JST
+                                    66 miast na prawach                                 zaktualizowanych danych
+                                     powiatu,                                            w zakresie dochodów z
+                                    2413 gmin                                           tytułu udziału w podatku
+                                                                                         CIT oraz potrzeb
+                                                                                         oświatowych.
+                                                                                       Uwzględnienie w systemie
+                                                                                         dochodów JST
+                                                                                         zróżnicowanych potrzeb
+                                                                                         wydatkowych.
+ 5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projektowane rozwiązania w zakresie wag obszarów wydatkowych i determinant potrzeb wyrównawczych poprzedzone
+były prekonsultacjami z przedstawicielami strony samorządowej Komisji Wspólnej Rządu i Samorządu Terytorialnego.
+Zgodnie z ustaleniami ze stroną samorządową, w roku 2026 w ww. zakresie będą obowiązywały rozwiązania przyjęte na
+rok 2025.
+Projekt ustawy został przekazany do opinii Komisji Wspólnej Rządu i Samorządu Terytorialnego. Na posiedzeniu w dniu
+24 września 2025 r. Komisja Wspólna Rządu i Samorządu Terytorialnego pozytywnie zaopiniowała projekt ustawy.
+Jednocześnie Komisja Wspólna Rządu i Samorządu Terytorialnego zaapelowała o szybkie wypełnienie obowiązków
+informacyjnych w zakresie dochodów planowanych na rok 2026 oraz o rozpoczęcie prac nad kryteriami podziału rezerwy
+na uzupełnienie dochodów jednostek samorządu terytorialnego w obszarze drogowym na 2026 r.
+Projekt ustawy został zamieszczony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum
+Legislacji w serwisie Rządowy Proces Legislacyjny zgodnie z uchwałą nr 190 Rady Ministrów z dnia 29 października
+2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.).
+Z uwagi na konieczność naliczenia dochodów JST na rok 2026 zgodnie z proponowanymi rozwiązaniami oraz przekazania
+do samorządów, możliwie szybko, informacji o wysokości ich dochodów w związku z prowadzonymi przez JST pracami
+dotyczącymi przygotowania budżetów samorządowych na rok 2026, projekt ustawy nie był przedmiotem uzgodnień
+międzyresortowych, konsultacji publicznych i opiniowania.
+ 6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                                     Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                         0       1   2       3      4      5       6      7     8      9     10      Łącznie (0–10)
+Dochody ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Wydatki ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Saldo ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+
+Źródła finansowania
+Dodatkowe                   Ustawa nie wprowadza zmian w systemie dochodów JST, przewiduje natomiast wykorzystanie
+informacje, w tym           zaktualizowanych danych do obliczenia potrzeb finansowych i dochodów JST za 2025 r., które
+wskazanie źródeł            będą uwzględniane do obliczenia dochodów JST na rok 2026, w sposób określony w ustawie z
+danych i przyjętych do      dnia 1 października 2024 r. o dochodach jednostek samorządu terytorialnego. Skutkiem tego
+obliczeń założeń            będzie precyzyjne dopasowanie dochodów osiąganych przez poszczególnych podatników do
+                            właściwej JST.
+                            Wprowadzenie proponowanych rozwiązań dotyczących wag obszarów wydatkowych i
+                            determinant potrzeb wyrównawczych umożliwi ustalenie potrzeb wyrównawczych JST na
+                            2026 r., które stanowią element kalkulacyjny dochodów tych jednostek. Brak projektowanych
+                            rozwiązań uniemożliwi obliczenie potrzeb wyrównawczych na 2026 r., które w 2025 r. wynoszą
+                            18 034 mln zł.
+
+                                                                2
+ 7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+    rodzinę, obywateli i gospodarstwa domowe
+                                                      Skutki
+Czas w latach od wejścia w życie zmian        0        1        2      3        5       10      Łącznie (0–10)
+W ujęciu           duże przedsiębiorstwa
+pieniężnym         sektor mikro-, małych i
+(w mln zł,         średnich
+ceny stałe         przedsiębiorstw
+z …… r.)           rodzina, obywatele
+                   oraz gospodarstwa
+                   domowe
+W ujęciu           duże przedsiębiorstwa Brak wpływu.
+niepieniężnym sektor mikro-, małych i Brak wpływu.
+                   średnich
+                   przedsiębiorstw
+                   rodzina, obywatele      Brak wpływu.
+                   oraz gospodarstwa
+                   domowe
+Niemierzalne
+Dodatkowe
+informacje, w tym
+                          Projektowane regulacje nie będą miały wpływu na sytuację osób starszych oraz osób
+wskazanie źródeł
+                          niepełnosprawnych.
+danych i przyjętych do
+obliczeń założeń
+ 8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+    nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie              tak
+wymaganymi przez UE (szczegóły w odwróconej              nie
+tabeli zgodności).                                       nie dotyczy
+
+   zmniejszenie liczby dokumentów                           zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                             zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                    wydłużenie czasu na załatwienie sprawy
+   inne:                                                    inne:
+
+Wprowadzane obciążenia są przystosowane do ich              tak
+elektronizacji.                                             nie
+                                                            nie dotyczy
+
+Komentarz:
+
+
+9. Wpływ na rynek pracy
+Brak wpływu.
+10. Wpływ na pozostałe obszary
+
+   środowisko naturalne                    demografia                             informatyzacja
+   sytuacja i rozwój regionalny            mienie państwowe                       zdrowie
+   sądy powszechne,                        inne:
+administracyjne lub wojskowe
+
+Omówienie wpływu        Brak wpływu.
+
+11. Planowane wykonanie przepisów aktu prawnego
+Wykonanie przepisów nastąpi po wejściu w życie projektowanych regulacji, czyli z dniem następującym po dniu
+ogłoszenia.
+
+
+
+                                                        3
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Ocena proponowanych rozwiązań będzie dokonywana na podstawie przekazywanych przez jednostki samorządu
+terytorialnego sprawozdań budżetowych w procesie stałego monitorowania sytuacji finansowej samorządu terytorialnego.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                        4
+

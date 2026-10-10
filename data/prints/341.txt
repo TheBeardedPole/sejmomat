@@ -1,0 +1,791 @@
+                                                                          Druk nr 341
+                                                                     Warszawa, 2 maja 2024 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-32-24
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - zmieniającej ustawę o zmianie ustawy
+   o podatku od towarów i usług oraz niektórych
+   innych ustaw.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Finansów.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                             Projekt
+                                                U S T AWA
+
+                                                   z dnia
+
+     zmieniająca ustawę o zmianie ustawy o podatku od towarów i usług oraz niektórych
+                                                innych ustaw
+
+
+       Art. 1. W ustawie z dnia 16 czerwca 2023 r. o zmianie ustawy o podatku od towarów
+i usług oraz niektórych innych ustaw (Dz. U. poz. 1598) wprowadza się następujące zmiany:
+1)     w art. 1:
+       a)   w pkt 34:
+            –      w art. 145l:
+                   – – w ust. 1:
+                      – – – we wprowadzeniu do wyliczenia wyrazy „od dnia 1 lipca 2024 r. do
+                            dnia 31 grudnia 2024 r.” zastępuje się wyrazami „od dnia 1 lutego
+                            2026 r. do dnia 31 lipca 2026 r.”,
+                      – – – uchyla się pkt 1,
+                   – – w ust. 2 wyrazy „od dnia 1 lipca 2024 r. do dnia 31 grudnia 2024 r.” zastępuje
+                       się wyrazami „od dnia 1 lutego 2026 r. do dnia 31 lipca 2026 r.”,
+            –      w art. 145m wyrazy „od dnia 1 lipca 2024 r. do dnia 31 grudnia 2024 r.”
+                   zastępuje się wyrazami „od dnia 1 lutego 2026 r. do dnia 31 lipca 2026 r.”,
+       b)   uchyla się pkt 35;
+2)     w art. 13 wyrazy „po dniu 30 czerwca 2024 r.” zastępuje się wyrazami „po dniu 31
+       stycznia 2026 r.”;
+3)     w art. 17 wyrazy „od dnia 1 stycznia 2025 r.” zastępuje się wyrazami „od dnia 1 sierpnia
+       2026 r.”;
+4)     użyte w art. 18 w ust. 2, w art. 19 w ust. 2 oraz w art. 20 w ust. 2 wyrazy „od dnia wejścia
+       w życie niniejszej ustawy” zastępuje się wyrazami „od dnia 1 lipca 2024 r.”;
+5)     w art. 22 ust. 1 otrzymuje brzmienie:
+            „1. W latach 2026–2035 maksymalny limit wydatków budżetu państwa będących
+       skutkiem finansowym związanym z Krajowym Systemem e-Faktur wynosi 575,4 mln zł,
+       w tym w:
+       1)   2026 r. – 13,1 mln zł;
+       2)   2027 r. – 17,8 mln zł;
+                                              –2–
+
+
+     3)   2028 r. – 45,1 mln zł;
+     4)   2029 r. – 110,8 mln zł;
+     5)   2030 r. – 62,4 mln zł;
+     6)   2031 r. – 69,8 mln zł;
+     7)   2032 r. – 64,1 mln zł;
+     8)   2033 r. – 64,1 mln zł;
+     9)   2034 r. – 64,1 mln zł;
+     10) 2035 r. – 64,1 mln.”;
+6)   w art. 23:
+     a)   we wprowadzeniu do wyliczenia wyrazy „z dniem 1 lipca 2024 r.” zastępuje się
+          wyrazami „z dniem 1 lutego 2026 r.”,
+     b)   pkt 4 otrzymuje brzmienie:
+          „4) art. 1 pkt 7 lit. e, pkt 13 lit. b w zakresie art. 106h ust. 2 i 4, pkt 24 w zakresie
+                  art. 106ni ust. 1–3 i 5–7 i pkt 30, które wchodzą w życie z dniem 1 sierpnia
+                  2026 r.”.
+
+     Art. 2. Ustawa wchodzi w życie z dniem 1 lipca 2024 r.
+                                    UZASADNIENIE
+
+
+Ustawą z dnia 16 czerwca 2023 r. o zmianie ustawy o podatku od towarów i usług oraz
+niektórych innych ustaw (Dz. U. poz. 1598), zwanej dalej „ustawą KSeF”, został wprowadzony
+obowiązek wystawiania faktur (e-fakturowania) w Krajowym Systemie e-Faktur (KSeF) od 1
+lipca 2024 r. Obligatoryjne e-fakturowanie obejmie zasadniczo czynności, które obecnie
+wymagają udokumentowania fakturą wystawioną zgodnie z ustawą z dnia 11 marca 2004 r.
+o podatku od towarów i usług (Dz. U. z 2024 r. poz. 361), zwanej dalej „ustawą o VAT”.
+W pierwszej kolejności od dnia 1 lipca 2024 r. mieli zostać nim objęci podatnicy czynni VAT,
+a następnie od 1 stycznia 2025 r. podatnicy zwolnieni podmiotowo (drobni przedsiębiorcy) lub
+wykonujący wyłącznie czynności zwolnione od podatku. Od 1 lipca 2024 r. miał także wejść
+w życie obowiązek podawania numeru KSeF w przelewach za faktury w transakcjach między
+podatnikami VAT czynnymi, w tym transakcje objęte mechanizmem podzielonej płatności.
+
+W związku ze zdiagnozowanymi problemami związanymi z wydajnością systemu, które
+uniemożliwiają wprowadzenie obowiązku KSeF w zakładanym terminie, konieczne jest
+przesunięcie terminu jego wdrożenia.
+
+W celu dokładnego zdiagnozowania błędów systemowych przeprowadzono zewnętrzny audyt
+informatyczny. Przedstawiona na jego podstawie finalna ocena techniczna wdrażanego
+rozwiązania potwierdziła, że konieczne i niezbędne jest przesunięcie terminu wprowadzenia
+obligatoryjnego KSeF.
+
+Wskazaną w oparciu o przeprowadzony audyt systemu nową datę wejścia w życie
+obligatoryjnego KSeF określa się na dzień 1 lutego 2026 r.
+
+W projektowanej ustawie proponuje się, aby obowiązek wdrożenia KSeF miał zastosowanie do
+wszystkich podatników (czynnych i zwolnionych z VAT) w jednym terminie,
+tj. 1 lutego 2026 r.
+
+W związku z odroczeniem daty wejścia w życie obowiązkowego KSeF konieczne będzie
+również odpowiednie przesunięcie terminów, zawartych w ww. ustawie, dodatkowych
+odroczeń obowiązków związanych z wdrożeniem KSeF, tj. wskazanie:
+
+    1)      okresu, w którym podatnicy będą mogli w sposób dotychczasowy, w okresie
+            przejściowym po wprowadzeniu obowiązku KSeF, wystawiać faktury z kasy
+            rejestrującej;
+   2)        odroczenia obowiązku dokonywania płatności przelewem z podaniem numeru
+             KSeF;
+   3)        odroczenia kar wobec podatników za błędy związane ze stosowaniem obowiązku
+             KSeF.
+Dodatkowe odroczenia wprowadza się zachowując dotychczasową logikę rozwiązań, tj.
+dokonując przesunięcia terminów zachowuje się okres półroczny stosowania przejściowych
+rozwiązań.
+
+Ujednolicenie terminu dla podatników czynnych i zwolnionych z VAT wychodzi naprzeciw
+postulatom przedsiębiorców zgłaszających problemy z koniecznością ustalania przez wystawcę
+faktury w KSeF statusu podmiotu, na rzecz którego jest ona wystawiana.
+
+Utrzymanie odroczenia kar za naruszenia w KSeF złagodzi skutki błędów po stronie
+przedsiębiorców w początkowym okresie obowiązku stosowania KSeF.
+
+Odroczenie obowiązku podania numeru KSeF w płatnościach utrzyma dodatkowy czas na
+dostosowanie przez przedsiębiorców swoich systemów IT do KSeF.
+
+Zmiany do art. 1 pkt 34 ustawy KSeF (art. 145l ust. 1 i 2 oraz art. 145m ustawy o VAT)
+
+W związku z odroczeniem terminu stosowania obowiązkowego KSeF, w przepisie
+epizodycznym art. 145l ust. 1 i 2 ustawy o VAT należy wskazać nowy okres dla możliwości
+korzystania przez podatników z określonej w tym przepisie formy wystawiania faktur, od dnia
+1 lutego 2026 r. do dnia 31 lipca 2026 r.
+
+Ponadto, w przepisie epizodycznym art. 145l ust. 1 ustawy o VAT uchyla się pkt 1, ponieważ
+nie przewiduje się odroczenia obowiązku wystawiania e-faktur w KSeF dla podatników
+zwolnionych z VAT.
+
+Określenia nowych ram czasowych wymagało również rozwiązanie z art. 145m ustawy
+o VAT. Proponowana w tym przepisie epizodycznym zmiana zakłada, że regulacja ta będzie
+obowiązywać od dnia 1 lutego 2026 r. do dnia 31 lipca 2026 r.
+
+Zmiana do art. 1 pkt 35 ustawy o KSeF (art. 146k ust. 2 zdanie drugie ustawy o VAT)
+
+W związku z przesunięciem daty wdrożenia rozwiązań projektowanej ustawy, zmiana zawarta
+w art. 1 pkt 35 ustawy o KSeF w zakresie skreślenia zdania drugiego w art. 146k ust. 2
+w ustawie o VAT jest niezasadna. Przepis art. 146k ust. 2 ma charakter epizodyczny
+
+
+                                             2
+i obowiązuje tylko do dnia 30 czerwca 2025 r., a więc w dniu wejścia w życie KSeF (1 lutego
+2026 r.) nie będzie już obowiązywał.
+
+Zmiany do art. 13 i 17 ustawy KSeF
+
+Zmiany do przepisów przejściowych, tj. art. 13 i 17 ustawy KSeF stanowią dostosowanie dat
+zawartych w tych przepisach do odraczanej daty wdrożenia obowiązkowego KSeF:
+
+- art. 13 dotyczy odraczanego terminu wdrożenia obowiązkowego KSeF (do czynności,
+dokonanych przed wejściem w życie obowiązku wystawiania faktur w KSeF, w stosunku do
+których termin wystawienia faktury upływa po dniu 31 stycznia 2026 r. i dla których w tym
+terminie nie wystawiono faktury, są dokumentowane e-fakturą);
+
+- art. 17 dotyczy odraczanego terminu stosowania płatności z podaniem numeru KSeF (po
+odroczeniu obowiązek ten będzie dotyczył płatności dokonanych od dnia 1 sierpnia 2026 r.).
+
+Zmiany do art. 18 ust. 2, art. 19 ust. 2 oraz art. 20 ust. 2 ustawy KSeF
+
+W związku ze zmianą daty wejścia w życie ustawy KSeF konieczne jest dokonanie zmian
+dostosowawczych w przepisach tej ustawy dotyczących wyłącznie elektronicznej obsługi
+spraw z zakresu WIS, WIA, WIP i WIT w drugiej instancji i w tzw. „trybach nadzwyczajnych”.
+W obecnym brzmieniu przepisy te odnosiły się wprost do „dnia wejścia w życie ustawy” (czyli
+do daty 1 lipca 2024 r.), która to data zostanie zmieniona na 1 lutego 2026 r. Natomiast
+założeniem jest, aby elektroniczna obsługa ww. spraw była stosowana od 1 lipca 2024 r.
+
+Zmiany do art. 22 ustawy KSeF
+
+Nadanie nowego brzmieniu przepisowi określającemu limit wydatków budżetu państwa
+(zmiana w art. 22 ust. 1) stanowi konsekwencję decyzji o odroczeniu terminu wejścia w życie
+obowiązku KSeF i potrzeby przesunięcia generowanych przez KSeF w wersji obligatoryjnej
+skutków finansowych. Zmiana terminu wdrożenia KSeF powoduje przesunięcie wydatków
+budżetu państwa, z uwagi na konieczność utrzymania systemu teleinformatycznego w okresie
+10 lat, w szacunkowych kwotach wskazanych w projekcie ustawy.
+
+Szacuje się, że wydatki w związku z KSeF będą na poziomie ok. 13,1 mln zł w pierwszym roku
+obowiązywania regulacji.
+
+
+                                             3
+Zmiany do art. 23 ustawy KSeF
+
+Zmieniany art. 23 ustawy KSeF – zmiana we wprowadzeniu do wyliczenia– odracza termin
+wdrożenia obligatoryjnego KSeF na dzień 1 lutego 2026 r.
+
+Zmiana w pkt 4 odracza termin wdrożenia kar pieniężnych oraz regulacji mających związek
+z wystawianiem faktur na kasach rejestrujących na dzień 1 sierpnia 2026 r. Brzmienie przepisu
+dostosowano również do zmiany polegającej na uchyleniu pkt 35 w ustawie KSeF.
+
+Art. 2 – wejście w życie ustawy
+Przewiduje się, że ustawa wejdzie w życie z dniem 1 lipca 2024 r. Wskazana data wejścia
+w życie ustawy została przyjęta na podstawie § 91 ust. 3 rozporządzenia Prezesa Rady
+Ministrów z dnia 20 czerwca 2002 r. w sprawie „Zasad techniki prawodawczej” (Dz. U. z
+2016 r. poz. 283), zgodnie z którym ustawę nowelizującą przepisy ustawy zmieniającej, która
+zostanie ogłoszona w okresie vacatio legis przepisów zmieniających, wprowadza się w życie
+z dniem wejścia w życie tych przepisów zmieniających.
+
+
+
+
+                                             4
+                                                                           Data sporządzenia
+Nazwa projektu                                                             25.04.2024 r.
+Ustawa zmieniająca ustawę o zmianie ustawy o podatku od towarów i usług
+oraz niektórych innych ustaw
+                                                                           Źródło:
+Ministerstwo wiodące i ministerstwa współpracujące                         inne
+Ministerstwo Finansów
+                                                                           Nr w wykazie prac legislacyjnych i
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Stanu lub
+                                                                           programowych Rady Ministrów
+Podsekretarza Stanu
+                                                                           UD49
+Pan Jarosław Neneman - Podsekretarz Stanu w Ministerstwie Finansów
+
+Kontakt do opiekuna merytorycznego projektu
+Pan Tomasz Tratkiewicz
+Dyrektor Departamentu Podatku od Towarów i Usług
+Ministerstwo Finansów
+tel.: (022) 694-30-72
+e-mail: Sekretariat.PT@mf.gov.pl
+                                 OCENA SKUTKÓW REGULACJI
+I. Jaki problem jest rozwiązywany?
+   Obligatoryjne e-fakturowanie obejmie zasadniczo czynności, które obecnie wymagają udokumentowania fakturą
+   wystawioną zgodnie z ustawą z dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. z 2024 r. poz. 361), zwanej
+   dalej „ustawą o VAT”. W pierwszej kolejności od dnia 1 lipca 2024 r. mieli zostać nim objęci podatnicy czynni VAT, a
+   następnie od 1 stycznia 2025 r. podatnicy zwolnieni podmiotowo (drobni przedsiębiorcy) lub wykonujący wyłącznie
+   czynności zwolnione od podatku.
+
+    W związku ze zdiagnozowanymi problemami związanymi z wydajnością systemu, który nie byłby w stanie na dzień
+    wejścia w życie obligatoryjnego e-fakturowania przetworzyć znacznej, w tym przypadku nawet kilkumilionowej liczby
+    faktur przesłanych w krótkim odstępie czasu do Krajowego Systemu e-Faktur (KSeF), podjęto decyzję o przesunięciu
+    terminu wdrożenia systemu. Podejmując decyzję o przesunięciu terminu wzięto pod uwagę stan gotowości projektu oraz
+    potrzebę zapewnienia stabilności i przewidywalności prowadzenia działalności gospodarczej w Polsce.
+
+    W celu dokładnego zdiagnozowania błędów systemowych przeprowadzono zewnętrzny audyt informatyczny.
+    Przedstawiona na podstawie zakończonego audytu, finalna ocena techniczna wdrażanego rozwiązania potwierdziła, że
+    konieczne i niezbędne jest przesunięcie terminu wprowadzenia obligatoryjnego KSeF. Proponuje się, aby KSeF został
+    wdrożony 1 lutego 2026 r.
+
+    Wychodząc naprzeciw oczekiwaniom przedsiębiorców, mając na uwadze napływające od podatników sygnały dotyczące
+    konieczności wprowadzenia zmian w zakresie KSeF, Minister Finansów przeprowadził konsultacje z przedsiębiorcami,
+    podczas których zebrano szereg informacji i opinii o funkcjonowaniu systemu. W odpowiedzi na zgłaszane postulaty
+    dotyczące potrzeby uproszczenia otoczenia prawnego wdrożenia i funkcjonowania obowiązkowego KSeF, dokonano
+    analizy jego środowiska prawnego i biznesowego oraz określono podejście do sposobu odroczenia wejścia w życie
+    systemu.
+
+    Przeprowadzone konsultacje ujawniły również, że dotychczas realizowana kampania informacyjna była niewystarczająca,
+    w związku z czym stosunkowo niski jest stopień przygotowania podatników do stawianego przed nimi wyzwania, jakim
+    byłoby przejście na obligatoryjne e-fakturowanie w planowanym pierwotnie terminie, czyli z dniem 1 lipca 2024 r. Na
+    dzień 11 stycznia 2024 r., czyli na kilka dni przed ogłoszeniem przez Ministra Finansów, że system nie zacznie
+    obowiązywać w 2024 r. (briefing prasowy z 19 stycznia 2024 r.), z produkcyjnej wersji KSeF korzystało 0,15%
+    wszystkich podmiotów zobowiązanych do korzystania z KSeF od 1 lipca 2024 r.
+II. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+    W niniejszym projekcie przedstawia się datę wejścia w życie zmian wdrażających obowiązkową wersję KSeF, która
+    pierwotnie została określona w ustawie z dnia 16 czerwca 2023 r. o zmianie ustawy o podatku od towarów i usług oraz
+    niektórych innych ustaw (Dz. U. 2023 r. poz. 1598), zwanej dalej „ustawą KSeF”, na dzień 1 lipca 2024 r.
+    Nową datę wejścia w życie obligatoryjnego KSeF dla podatników czynnych oraz zwolnionych z VAT określa się na dzień
+    1 lutego 2026 r.
+    Objęcie wszystkich podatników jedną datą obowiązku KSeF wynika z długiego terminu odroczenia KSeF oraz stanowi
+    odpowiedź na postulaty przedsiębiorców kierowane w trakcie przeprowadzonych konsultacji.
+    Poza tym odroczeniem konieczne będzie również odpowiednie przesunięcie terminów zawartych w ww. ustawie,
+    dodatkowych odroczeń obowiązków związanych z wdrożeniem KSeF, tj. wskazanie:
+       1) okresu, w którym podatnicy będą mogli w sposób dotychczasowy, w okresie przejściowym po wprowadzeniu
+          obowiązku KSeF, wystawiać faktury z kasy rejestrującej;
+       2) odroczenia obowiązku dokonywania płatności przelewem z podaniem numeru KSeF;
+       3) odroczenia kar wobec podatników za błędy związane ze stosowaniem obowiązku KSeF.
+
+       Podanie nowych dat dla wskazanych rozwiązań jest konieczne, z uwagi że te rozwiązania w ustawie odnoszą się wprost
+       do odraczanej daty wejścia w życie KSeF, tj. 1 lipca 2024 r.
+
+       Nieprzeprowadzenie stosownych zmian legislacyjnych w zakresie przesunięcia daty wejścia w życie KSeF
+       doprowadziłoby do sytuacji, w której z dniem 1 lipca 2024 r. podatnicy zostaliby ustawowo zmuszeni do obligatoryjnego
+       e-fakturowania i korzystania z systemu wykazującego błędy i nieprzygotowanego do obsługi dużej liczby faktur, co
+       groziłoby jego załamaniem i wiązałoby się zachwianiem stabilności i pewności prowadzenia działalności gospodarczej w
+       Polsce, a w konsekwencji również z możliwością nałożenia – przewidzianych ustawą – kar na podatników za
+       niewywiązywanie się z ich prawnych obowiązków.
+       Odroczenie wejścia w życie regulacji jest konieczne w celu zapewnienia kompletnego i wydajnościowo sprawnego pod
+       względem technologicznym systemu. Wyeliminowanie w okresie długiego vacatio legis błędów czy problemów
+       informatycznych zapewni możliwość wdrożenia rozwiązań KSeF i jego stosowania przez przedsiębiorców oraz
+       zabezpieczy interes podatników.
+
+       Przesunięcie terminu wdrożenia KSeF wpłynie również na wydłużenie czasu na przygotowanie podatników do
+       obowiązkowego e-fakturowania. W tym celu Ministerstwo Finansów uruchomi cykl praktycznych szkoleń dotyczących
+       korzystania z darmowego oprogramowania, czyli Aplikacji Podatnika i e-mikrofirmy oraz zapewni dodatkowe wsparcie
+       w postaci uruchamianej infolinii KIS.
+
+       W niniejszym projekcie w zakresie KSeF przewiduje się zmiany mające na celu wyłącznie przesunięcie terminów
+       wejścia w życie obowiązków dotyczących KSeF. Propozycje uproszczeń w zakresie obowiązków dotyczących KSeF,
+       zidentyfikowane w trakcie konsultacji ze stroną społeczną, będą przedmiotem odrębnych prac i będą zawarte w
+       odrębnym projekcie.
+
+III.      Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Od 2004 r. we Włoszech funkcjonują przepisy dotyczące fakturowania elektronicznego. Pod koniec 2007 r. wprowadzono
+przepisy przewidujące obowiązkowe fakturowanie elektroniczne w sektorze publicznym (B2G). Na potrzeby tego fakturowania
+utworzono System wymiany Sistema di interscambio, (SdI) – platformę służącą przesyłaniu faktur elektronicznych
+do podmiotów publicznych. System rozwijano stopniowo – obowiązek fakturowania elektronicznego wprowadzono w życie
+etapami w latach 2014 i 2015. Celem zwalczania oszustw podatkowych poprzez promocję fakturowania elektronicznego
+od 1 stycznia 2017 r. udostępniono SdI na potrzeby fakturowania między podmiotami prywatnymi (sektor B2B oraz B2C).
+Portugalia wprowadziła obowiązek raportowania danych dotyczących faktur wraz z danymi z ksiąg podatkowych w 2007 r.
+Regulacje te zostały wprowadzone w oparciu o SAF-T (Standard Audit File for Taxes Purposes) zaproponowany przez OECD
+w 2005 r.
+Hiszpania wprowadziła obowiązek stosowania fakturowania elektronicznego w administracji publicznej w 2015 r. Miało
+to na celu promowanie rozpowszechniania i dystrybucji fakturowania elektronicznego oraz poprawę wymiany faktur między
+instytucjami rządowymi a przedsiębiorcami. Faktury są przekazywane w określonym formacie z wykorzystaniem podpisu
+elektronicznego. Transmisja odbywa się za pomocą platformy zwanej Punto General de Entrada de Facturas Electrónicas
+(FACe). W 2018 r. platforma została rozszerzona o fakturowanie B2B pod nazwą FACeB2B69. Przedsiębiorstwa, które są
+podwykonawcami, w przypadku zamówień sektora publicznego oraz gdy wystawiają faktury na kwotę powyżej 5.000 euro, są
+zobowiązane do korzystania z tej platformy. Inne hiszpańskie przedsiębiorstwa mają możliwość dobrowolnego korzystania
+z FACeB2B.
+
+IV.       Podmioty, na które oddziałuje projekt
+Grupa                Wielkość                           Źródło danych                   Oddziaływanie
+Podatnicy podatku od 1. ok. 2 mln podatników            Dane     własne    Ministerstwa Przesunięcie w czasie wdrożenia
+towarów i usług         VAT czynnych (stan              Finansów (hurtownia SPR)        KSeF przyczyni się do stabilności i
+                        na 2022 r.)                                                     pewności prowadzenia działalności
+                     2. ok. 755 tys.                                                    gospodarczej              poprzez
+                        podmiotów                                                       umożliwienie     przedsiębiorcom
+                                                            2
+                              zwolnionych (stan na                            lepszego przygotowania się do
+                              2021 r.)                                        zmian oraz uniknięcia nagłych i
+                                                                              nieoczekiwanych konsekwencji w
+                                                                              postaci niewydajności systemu.
+                                                                              Dodatkowy czas pozwoli również
+                                                                              przedsiębiorcom lepiej zrozumieć,
+                                                                              jak nowe regulacje wpłyną na
+                                                                              prowadzoną         przez      nich
+                                                                              działalność, co pozwoli im uniknąć
+                                                                              niepotrzebnych kosztów oraz
+                                                                              zakłóceń w funkcjonowaniu.
+V. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+W dniu 3 kwietnia 2024 r. przedstawiono do konsultacji podatkowych (prekonsultacji) projekt rozwiązań prawnych, dotyczący
+zmian w zakresie obowiązkowego e-fakturowania w KSeF (wcześniej zorganizowano 9 spotkań konsultacyjnych – od 16 lutego
+do 1 marca br. – w których uczestniczyło łącznie około 10 tys. osób stacjonarnie w siedzibie Ministerstwa Finansów i on-line).
+Prekonsultacje ze stroną społeczną trwały w okresie od 3 do 19 kwietnia br. Przedstawiony do prekonsultacji projekt rozwiązań
+prawnych zawierał propozycje zmian w zakresie odroczenia terminu wdrożenia KSeF oraz rozwiązania dotyczące uproszczenia
+otoczenia prawnego, których potrzebę wprowadzenia sygnalizowali podatnicy. Przedsiębiorcy zasadniczo pozytywnie ocenili
+sposób konsultowania proponowanych rozwiązań, a w tym potrzebę odroczenia obowiązku KSeF i wprowadzenia go w jednym
+terminie podatników VAT czynnych i zwolnionych. Podobnie z pozytywną oceną spotkała się propozycja utrzymania odroczenia
+zawartych w ustawie obowiązków dotyczących KSeF.
+W niniejszym projekcie nowelizacji ustawy KSeF podjęta została wyłącznie kwestia odroczenia terminu wejścia w życie KSeF
+i towarzyszących mu dodatkowych odroczeń obowiązków zawartych w ustawie KSeF. Pozostałe kwestie związane z KSeF,
+które podlegały prekonsultacjom, będą przedmiotem odrębnego projektu aktu prawnego i będą odrębnie procedowane. Jest to
+spowodowane faktem, że ustawa wprowadzająca obowiązek KSeF wchodzi w życie z dniem 1 lipca 2024 r., a w celu
+zapewnienia przesunięcia tego terminu konieczne jest niezwłoczne przeprowadzenie i zakończenie procesu legislacyjnego przed
+tym dniem.
+W związku z powyższym projekt nie będzie przedmiotem odrębnych konsultacji publicznych.
+
+VI.      Wpływ na sektor finansów publicznych
+(ceny stałe z 2024 r.)                          Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                            2024       2025     2026    2027        2028    2029   2030    2031    2032     2033   2034    Łączni
+                             0          1        2       3           4       5      6       7       8        9      10      e (0-
+                                                                                                                             10)
+Dochody ogółem              -900,0   -1 800,0   450,0   840,0       240,0   0,0    120,0   120,0    0,0     0,0    840,0   -90,0
+budżet państwa z tytułu              -1 800,0   450,0   840,0       240,0   0,0    120,0   120,0    0,0     0,0    840,0
+                            -900,0                                                                                         -90,0
+KSeF
+JST                          0,0       0,0       0,0     0,0         0,0    0,0     0,0     0,0     0,0     0,0     0,0     0,0
+
+pozostałe jednostki
+                             0,0       0,0       0,0     0,0         0,0    0,0     0,0     0,0     0,0     0,0     0,0     0,0
+(oddzielnie)
+Wydatki ogółem               0,0       0,0       0,0     0,0         0,0    0,0     0,0     0,0     0,0     0,0    64,1     64,1
+budżet państwa, z tytułu     0,0       0,0       0,0     0,0         0,0    0,0     0,0     0,0     0,0     0,0    64,1     64,1
+KSeF
+JST                          0,0       0,0       0,0     0,0         0,0    0,0     0,0     0,0     0,0     0,0     0,0     0,0
+
+pozostałe jednostki          0,0       0,0       0,0     0,0         0,0    0,0     0,0     0,0     0,0     0,0     0,0     0,0
+(oddzielnie)
+Saldo ogółem                -900,0   -1 800,0   450,0   840,0       240,0   0,0    120,0   120,0    0,0     0,0    775,9   -154,1
+
+budżet państwa              -900,0   -1 800,0   450,0   840,0       240,0   0,0    120,0   120,0    0,0     0,0    775,9   -154,1
+
+JST                          0,0       0,0       0,0     0,0         0,0    0,0     0,0     0,0     0,0     0,0     0,0     0,0
+
+pozostałe jednostki
+                             0,0       0,0       0,0     0,0         0,0    0,0     0,0     0,0     0,0     0,0     0,0     0,0
+(oddzielnie)
+
+
+                                                                3
+                      Projekt będzie miał wpływ zarówno na dochody, jak i wydatki budżetu państwa. Nie będzie miał
+                      wpływu na dochody JST.
+                      I.      Wpływ projektu na dochody budżetu państwa.
+                      Przedstawione skutki oszacowano poprzez różnicę w dochodach z VAT wynikającą z przesunięcia
+                      wejścia w życie obowiązkowego e-fakturowania z dnia 1 lipca 2024 r. na dzień 1 lutego 2026 r.
+                      a skutkami oszacowanymi w OSR do ustawy z dnia 16 czerwca 2023 r. o zmianie ustawy o podatku
+                      od towarów i usług oraz niektórych innych ustaw (UD468).
+                      Przykładowo skutek przedstawiony w pkt 6 OSR z 2023 r. dla budżetu państwa z tytułu KSeF
+                      w całym 2026 r. wynosi „in plus” 1 200 mln zł (dane poniżej w informacjach dodatkowych).
+                      W wyniku przesunięcia dochodów z VAT obecnie prezentowany (przez różnicę) skutek dla tego
+                      roku wynosi odpowiednio „in plus” 450 mln zł (tj. 1 650 (1 800/12*11, skutek za okres luty-grudzień
+                      2026) – 1 200 = 450).
+                      Analogicznie dla roku 2027 skutek wynosi „in plus” 840 mln zł (tj. 1 800 (przesunięcie dochodów)
+                      – 960 = 840), dla roku 2028 skutek wyniesie „in plus” 240 mln zł (tj. 1 200 – 960 = 240) a dla lat
+                      2030 i 2031 skutek wyniesie „in plus” 120 mln zł (tj. 960 – 840 = 120).
+                      Wykazane w 2034 roku dochody z VAT w kwocie 840 mln zł wynikają z przesunięcia wejścia w
+                      życie obowiązkowego e-fakturowania oraz braku danych za ten rok w OSR do ustawy z dnia 16
+                      czerwca 2023 r. o zmianie ustawy o podatku od towarów i usług oraz niektórych innych ustaw
+                      (UD468).
+                      Globalny skutek dla 10 lat w dochodach z podatku od towarów i usług wynikający z przesunięcia
+                      terminu obowiązywania obligatoryjnego KSeF to około - 90 mln zł.
+                      Odroczenie wdrożenia obowiązku KSeF powoduje, że towarzyszące temu rozwiązaniu skrócenie
+Źródła finansowania   terminu zwrotu podatku VAT z 60 dni do 40 dni również podlega odroczeniu. Wskazane skrócenie
+                      terminu zwrotu podatku VAT może przyczynić się do przesunięcia dochodów z VAT w czasie.
+                      II.     Wpływ projektu na wydatki budżetu państwa.
+                      Generalnie można przyjąć, że wydatki z tytułu KSeF przedstawione w OSR do ustawy z dnia 16
+                      czerwca 2023 r. o zmianie ustawy o podatku od towarów i usług oraz niektórych innych ustaw
+                      (UD468) nie ulegną zmianie w związku z przesunięcia wejścia w życie obowiązkowego e-
+                      fakturowania z dnia 1 lipca 2024 r. na dzień 1 lutego 2026 r.
+
+                      Wykazane w 2034 roku wydatki z tytułu KSeF w kwocie 64,1 mln zł wynikają z przesunięcia
+                      wejścia w życie obowiązkowego e-fakturowania oraz braku danych za ten rok w OSR do ustawy z
+                      dnia 16 czerwca 2023 r. o zmianie ustawy o podatku od towarów i usług oraz niektórych innych
+                      ustaw (UD468).
+
+                      Należy jednak zauważyć, że w zakresie KSeF realizacja projektowanych zadań, co do zasady,
+                      odbywać się będzie w ramach rezerwy celowej pn. „Środki na odbudowę dochodów budżetu
+                      państwa oraz na zadania związane z funkcjonowaniem systemu finansów publicznych” (cz. 83 poz.
+                      40).
+
+                      W 2024 r. uruchomiono środki ze wskazanej rezerwy celowej na potrzeby przygotowania infolinii
+                      KSeF, która będzie realizowana przez Krajową Informację Skarbową z wykorzystaniem systemu
+                      eMCeK co będzie miało skutki budżetowe w kolejnych latach. W następnych latach zostaną
+                      uruchomione niezbędne środki w celu zapewnienia centralnego nadzoru nad systemem eMCeK oraz
+                      centralnego nadzoru nad realizacją wszystkich zadań w zakresie KSeF przez właściwe komórki
+                      Ministerstwa Finansów, co również będzie miało skutki budżetowe w następnych latach.
+
+                                                        4
+Dodatkowe informacje,
+                         Jako dodatkowe informacje w celu pełnego obrazu skutków przedstawionych w pkt 6 przedstawiono
+w tym wskazanie
+źródeł danych i          poniżej skutki liczbowe wraz z opisem metodologii przyjętej do szacunków w OSR do ustawy z
+przyjętych do obliczeń   dnia 16 czerwca 2023 r. o zmianie ustawy o podatku od towarów i usług oraz niektórych innych
+założeń                  ustaw (UD468).
+
+
+                          (ceny stałe z                               Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                          2023 r.)
+                                            2023    2024     2025        2026          2027       2028     2029      2030         2031    2032    2033    Łącznie
+                                              0       1        2           3             4          5        6         7            8       9      10      (0-10)
+                          Dochody                   900,0   1 800,0     1 200,0       960,0      960,0     960,0     840,0        840,0   840,0   840,0    10
+                                             0,0
+                          ogółem                                                                                                                          140,0
+                          budżet państwa,                                                                                                                  10
+                                             0,0    900,0   1 800,0     1 200,0       960,0      960,0     960,0     840,0        840,0   840,0   840,0
+                          w tym:                                                                                                                          140,0
+                                                                                                                                                           10
+                          z tytułu KSeF      0,0    900,0   1 800,0     1 200,0       960,0      960,0     960,0     840,0        840,0   840,0   840,0
+                                                                                                                                                          140,0
+
+                          JST                0,0     0,0      0,0         0,0           0,0        0,0      0,0       0,0          0,0     0,0     0,0      0,0
+
+                          pozostałe
+                          jednostki          0,0     0,0      0,0         0,0           0,0        0,0      0,0       0,0          0,0     0,0     0,0      0,0
+                          (oddzielnie)
+
+                          Wydatki           68,2    28,1     31,2        18,1          22,8       50,1     115,8      67,4        74,8    69,1    69,1    614,7
+                          ogółem
+                          budżet państwa,   68,2    28,1     31,2        18,1          22,8       50,1     115,8      67,4        74,8    69,1    69,1    614,7
+                          w tym:
+                                            63,2    23,1     26,2        13,1          17,8       45,1     110,8      62,4        69,8    64,1    64,1    559,7
+                          z tytułu KSeF
+
+                                             0,0     0,0      0,0         0,0           0,0        0,0      0,0       0,0          0,0     0,0     0,0      0,0
+                          JST
+
+                          pozostałe          0,0     0,0      0,0         0,0           0,0        0,0      0,0       0,0          0,0     0,0     0,0      0,0
+                          jednostki
+                          (oddzielnie)
+                                            -68,2   871,9   1 768,8     1 181,9       937,2      909,9     844,2     772,6        765,2   770,9   770,9   9 525,3
+                          Saldo ogółem
+
+                                            -68,2   871,9   1 768,8     1 181,9       937,2      909,9     844,2     772,6        765,2   770,9   770,9   9 525,3
+                          budżet państwa
+
+
+                          JST                0,0     0,0      0,0         0,0           0,0        0,0      0,0       0,0          0,0     0,0     0,0      0,0
+
+                          pozostałe
+                          jednostki          0,0     0,0      0,0         0,0           0,0        0,0      0,0       0,0          0,0     0,0     0,0      0,0
+                          (oddzielnie)
+
+                         Wpływ projektu na dochody budżetu państwa.
+                         Szacuje się, że wprowadzenie obowiązku e-fakturowania może skutkować dodatkowymi dochodami
+                         budżetu państwa z tytułu podatku VAT w kwocie 1,8 mld zł w pierwszym całym roku
+                         obowiązywania nowego rozwiązania. W latach kolejnych z uwagi na utrzymywanie się efektu
+                         uszczelnienia systemu podatkowego dochody wynikające z tego rozwiązania będą stopniowo maleć.
+                         Wpływ projektu na wydatki budżetu państwa.
+                         Szacuje się, że wydatki w związku z KSeF będą na poziomie ok. 23 mln zł w pierwszym roku
+                         obowiązywania regulacji. Przyjęcie określonych założeń pozwoliło oszacować roczny przyrost
+                         danych w perspektywie 10 lat, co bezpośrednio przekłada się na wielkość powierzchni dyskowej
+                         niezbędnej do ich przechowywania. Ponadto, na podstawie wiedzy eksperckiej oraz uwzględniając
+                         dotychczasowe obciążenie infrastruktury eksploatowanej dla wersji fakultatywnej KSeF, wyliczono
+                         potrzebną moc obliczeniową, która pozwoli obsłużyć zakładany wolumen faktur w wersji
+                         obowiązkowej systemu.
+                         System KSeF - omówienie wpływu projektu na dochody budżetu państwa.
+                         Szacując skutki finansowe projektu przyjęto założenie, że wprowadzenie obligatoryjnego systemu
+                         e-fakturowania będzie kolejnym działaniem uszczelniającym polski system podatkowy, obok
+                         istniejących obecnie rozwiązań takich jak: pakiet paliwowy, SENT, JPK_VAT, STIR czy kasy
+                         online. Charakter uszczelniający obligatoryjnego e-fakturowania będzie związany m.in. ze
+                         skróceniem czasu dostępu do danych analitycznych oraz możliwością bieżącego monitorowania
+                         transakcji. Możliwa będzie analiza zdarzeń gospodarczych jeszcze przed terminem wskazanym dla
+
+                                                                5
+składania deklaracji podatkowych. Wprowadzenie raportowania w czasie zbliżonym do
+rzeczywistego zwiększa możliwości w zakresie skrócenia czasu wykrycia i zwalczania oszustwa
+podatkowego.
+Podstawowym źródłem informacji niezbędnym do właściwego typowania podejrzanych transakcji
+jest informacja o transakcjach dokumentowanych fakturami. Minimalny zakres informacji znajduje
+się obecnie w ewidencji VAT, przesyłanej w formie JPK_VAT. Pozyskanie dodatkowych
+informacji, w szczególności o przedmiocie transakcji, pozwoli zwiększyć efektywność
+prowadzonych analiz, które w istotnym zakresie będą mogły zostać zautomatyzowane
+i zcentralizowane.
+Posiadanie informacji o towarach występujących w obrocie objętym oszustwami podatkowymi
+pozwala na reakcję stanowiącą zarazem ochronę wolnej konkurencji w danym obszarze. Szybszy
+dostęp do tych informacji pozwoli również zbudować o wiele skuteczniejszy system zarządzania i
+kontroli podatku VAT, efektywnie identyfikować przestępcze łańcuchy transakcji oraz eliminować
+proceder wystawiania pustych faktur na o wiele wcześniejszym niż obecnie etapie.
+Szacuje się, że szybszy dostęp do danych analitycznych oraz wprowadzenie automatyzacji w ich
+analizie pozwoli zwiększyć wpływy budżetowe o ok. 1,8 mld zł rocznie. Poniżej na wykresie
+przedstawiono źródła dodatkowych wpływów budżetowych.
+
+               Dodatkowe roczne wpływy budżetowe: e-faktury
+
+
+                            1 200                           120 34          450
+
+
+
+  0                   500                     1 000                    1 500                   2 000
+                                                                                         Miliony
+
+               Wzrost wpłat - ograniczenie oszustw typu zniakjący podatnik/bufor
+               Spadek zwrotów - weryfikacja deklaracji składanych przed terminem
+               Spadek zwrotów - nabycia od podatników rozliczających się kwartalnie
+               Spadek zwrotów - podatnicy o wysokiej fluktuacji dostawców krótkodziałających
+
+Szacując dodatkowe wpływy budżetowe przyjęto, że:
+1. Ograniczona zostanie skala oszustw podatkowych typu znikający podatnik lub bufor
+   (dodatkowe dochody z tego działania oszacowano na 1,2 mld zł rocznie)
+Realizacja tego celu będzie możliwa nie tylko dzięki udoskonalonym algorytmom typującym
+i przyspieszeniu działań kontrolnych, ale również w wyniku powszechnego efektu prewencyjnego,
+wynikającego z przekonania, iż faktury obrazujące zdarzenia gospodarcze, są widoczne przez
+organy skarbowe natychmiast po ich wystawieniu.
+Działania silnie oddziałowujące na skalę oszustw takie jak JPK_VAT, STIR wywołują spadek
+obrotu buforowego od około 30% do blisko 50%. Można się spodziewać, że szczegóły transakcji
+w zakresie towaru i związana z tym szybkość raportowania wywoła podobny skutek. Opierają się
+na dostępnych danych ustalono, że poziom obrotu buforowego wynosi około 4,36 mld zł. Przewiduje
+się, że w wyniku wprowadzenia e-fakturowania może nastąpić spadek obrotu buforowego od 30-
+45% do poziomu odpowiednio: od 3 mld zł do 2,4 mld zł. Podatek VAT od takich transakcji wynosi
+odpowiednio od ok. 700 mln do ok. 550 mln zł.
+Średnio w łańcuchu transakcji objętych oszustwami VAT występują dwa bufory co oznacza, że
+korzyści dla budżetu wynikające z samego wprowadzenia dodatkowego obowiązku w zakresie
+
+
+
+                                    6
+raportowania szczegółów faktury wynoszą od 350 mln zł do 275 mln zł kwartalnie. Przyjmując
+ostrożny próg 300 mln zł na kwartał, roczny skutek oszacowano na 1,2 mld zł.
+Nastąpi spadek zwrotów podatku w wyniku weryfikacji transakcji składanych przed terminem
+(dodatkowe dochody z tego działania oszacowano na 0,12 mld zł rocznie).
+Pomimo ogromnej poprawy możliwości analitycznych dzięki danym ze STIR i JPK-VAT,
+występują ograniczenia weryfikacji dla podatników występujących o zwrot podatku VAT, którzy
+składają deklarację przed terminem ustawowym.
+Dla deklaracji z żądaniem zwrotu składanych przed terminem, możliwość weryfikacji poprawności
+jest bardzo ograniczona dla przypadków, kiedy dostawcy złożą JPK i deklaracje VAT-7 w terminie
+ustawowym.
+Podatnicy składający deklarację kwartalną stanowią około 10%, zatem w skali roku, występuje
+ograniczona możliwość weryfikacji dla zwrotów o łącznej wartości od 2,75 mld zł do 5,4 mld zł.
+Przy założeniu wykrycia nieprawidłowości na poziomie błędu statystycznego (3%), oszczędności w
+zakresie ograniczenia skali nienależnych zwrotów szacuje się na: od ok. 82,5 mln do ok. 162 mln zł.
+W szacunkach dodatkowych dochodów budżetowych, ze względów ostrożnościowych, przyjęto
+wartość średnią dla ww. kwot tj. 122 mln zł.
+2. Nastąpi spadek zwrotów podatku w wyniku weryfikacji podatników deklarujących zwrot
+   podatku, dokonujących nabyć od podatników rozliczających się kwartalnie (dodatkowe
+   dochody z tego działania oszacowano na 0,034 mld zł rocznie)
+Działanie ma na celu ograniczenie niezgodności w częstotliwości rozliczeń dostawców i odbiorców.
+Dla czwartego kwartału 2019 r. obrót deklarowany kwartalnie wyniósł około 2,24% sumy łącznych
+obrotów deklarowanych w VAT. Pomimo, że wartość ta mieści się w granicach błędu
+statystycznego, stanowi wartość ponad 38 mld zł. Oznacza to, że około 7-8 mld zł podatku
+odliczanego przez nabywców od tej grupy, napotyka na trudności analityczne związane z tym, że
+nabywca wykazuje fakturę zakupu o wiele wcześniej aniżeli dostawca fakturę sprzedaży.
+Aby określić skalę zjawiska, zbadano, czy w IV kwartale 2019 r. występują podatnicy deklarujący
+kwoty do zwrotu, dla których podatek naliczony pochodzi od dostawców rozliczających się
+kwartalnie w wysokości niewspółmiernie wysokiej (badano wariant powyżej 25% i 50% łącznej
+wartości podatku naliczonego) w stosunku do odsetka obrotu krajowego realizowanego przez
+podatników rozliczających się kwartalnie (2,24%).
+Przy założeniu wykrycia nieprawidłowości na poziomie błędu statystycznego (3%) oszczędności
+w zakresie ograniczenia skali nienależnych zwrotów oszacowano na od ok. 19,5 mln do ok. 48 mln
+zł. Wartość średnia dla ww. kwot wynosi około 33,7 mln zł i taką wartość przyjęto jako
+prognozowane dodatkowe dochody budżetu.
+Nastąpi spadek zwrotów podatku w wyniku weryfikacji podatników o wysokiej fluktuacji
+dostawców, krótko działających na rynku (dodatkowe dochody z tego działania oszacowano na 0,45
+mld zł rocznie). Dla podatników działających w otoczeniu nieustannie zmieniających się dostawców
+zwłaszcza o cechach tj.: krótki czas działania oraz zakończenie działalności po tym czasie, czas
+dostępu do informacji jest kluczowy. Zwroty występujące w tej grupie należy traktować jako wysoce
+ryzykowne, w związku z czym dla szacowania potencjalnych dodatkowych wpływów uwzględnia
+się całą wartość. Dla deklaracji za lata 2019-12 wartości te wynoszą: 41,2 mln zł (35,2 mln zł w
+VAT-7 i 6 mln zł w VAT-7K). Tym sposobem skala potencjalnych uszczupleń w skali roku może
+wynieść ok. 450 mln zł.
+Z uwagi na utrzymujący się efekt uszczelnienia szacując skutki dla wyżej wymienionych działań (1-
+4) na lata 2026-28 przyjęto założenie, że wyniosą one nie więcej niż 80% dochodów z 2025 r., zaś
+na lata 2029-33, iż wyniosą one nie więcej niż 70%.
+System KSeF - omówienie wpływu projektu na wydatki budżetu państwa.
+
+                                  7
+                         Szacunki wydatków w związku z wdrożeniem KSeF zostały wyliczone na podstawie przyjętych
+                         założeń odnośnie:
+                              oszacowania ilości faktur globalnie wystawianych w Polsce, w kolejnych latach przyjęto
+                                 uśrednioną wartość roczną, zakładając niewielki wzrost w przeciągu 10 lat względem
+                                 bazowego 2021 r.,
+                              stopnia wykorzystania KSeF przez podatników w danym roku. Do czasu wprowadzenia
+                                 obligatoryjności systemu w kolejnych latach przyjęto współczynniki 10% przyrostu faktur,
+                                 następnie 20% rynku,
+                              eksperckiego oszacowania średniej wielkość (w KB) faktury po skompresowaniu.
+
+                         Przyjęcie powyższych założeń pozwoliło oszacować roczny przyrost danych w perspektywie 10 lat,
+                         co bezpośrednio przekłada się na wielkość powierzchni dyskowej niezbędnej do ich
+                         przechowywania. Ponadto, na podstawie wiedzy eksperckiej oraz uwzględniając dotychczasowe
+                         obciążenie infrastruktury eksploatowanej dla wersji fakultatywnej KSeF, wyliczono potrzebną moc
+                         obliczeniową, która pozwoli obsłużyć zakładany wolumen faktur w wersji obowiązkowej systemu.
+                         Skalując ją, wzięto pod uwagę również krytyczność systemu z punktu widzenia ciągłości pracy
+                         przedsiębiorców.
+                         W perspektywie 10-letniej uwzględniono roczne koszty związane z utrzymaniem ciągłości
+                         gwarancji sprzętu i jego wymiany po 5 latach, aby wyeliminować ryzyko eksploatacji przestarzałego
+                         sprzętu. Założenia biznesowe oraz aplikacja wymagają zapewnienia również niezbędnych
+                         składników oprogramowania (licencje na systemy operacyjne, silniki bazodanowe, wirtualizacja,
+                         backup – zabezpieczenie danych, hadoop, dedykowane oprogramowanie analityczne), jak również
+                         koszty zapewnienia niezbędnego sprzętu informatycznego dla pracowników komórek
+                         analitycznych. Pozwoli to na zwiększenie efektywności prowadzonych analiz oraz pełną obsługę
+                         ustrukturyzowanych faktur elektronicznych.
+                         Roczne koszty poszczególnych pozycji wyliczono, posiłkując się średnimi cenami przetargowymi
+                         dla przeprowadzanych postępowań, jednak realnym ryzykiem, biorąc pod uwagę sytuację
+                         geopolityczną, jest gwałtowny wzrost kursów walut, a co za tym idzie cen komponentów
+                         sprzętowych oraz oprogramowania.
+                         Mając na uwadze krytyczność systemu dla resortu finansów oraz dla całej gospodarki, w kalkulacji
+                         budżetu uwzględniono również coroczne koszty utrzymania systemu – docelowo również 24
+                         godziny na dobę 7 dni w tygodniu.
+                         Tym samym w procesie kalkulacji uwzględniono w szczególności:
+                              monitoring i wsparcie techniczne w ramach pierwszej i drugiej linii wsparcia dla wszystkich
+                                 komponentów systemu we wszystkich dostępnych środowiskach (testowe zewnętrzne, pre-
+                                 produkcyjne, produkcyjne),
+                              zapewnienie dedykowanej infolinii KSeF z wykorzystaniem kanału telefonicznego oraz
+                                 dedykowanego formularza kontaktowego przez Krajową Informację Skarbową przy użyciu
+                                 systemu eMCeK jak również sprawowania centralnego nadzoru przez Ministerstwo
+                                 Finansów nad funkcjonowaniem tego systemu,
+                              zapewnienie centralnego nadzoru nad realizacją wszystkich zadań w zakresie KSeF przez
+                                 właściwą komórkę Ministerstwa Finansów,
+                              potrzebę uruchomienia oraz utrzymywania ośrodka zapasowego,
+                              cykliczną potrzebę rozbudowy i wymiany infrastruktury.
+
+
+
+VII. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz na
+    rodzinę, obywateli i gospodarstwa domowe
+                                                         Skutki
+Czas w latach od wejścia w życie zmian        0         1           2           3       5              10           Łączn
+                                            2024       2025        2026       2027     2029           2034          ie (0-
+                                                                                                                     10)
+                 duże przedsiębiorstwa
+                                                          8
+W ujęciu         sektor mikro-, małych i
+pieniężnym       średnich
+(w mln zł,       przedsiębiorstw
+ceny z dnia      rodzina, obywatele oraz
+…..r.)           gospodarstwa domowe
+
+W ujęciu         duże przedsiębiorstwa     Przesunięcie w czasie wdrożenia KSeF przyczyni się do stabilności i pewności
+niepieniężnym    sektor mikro-, małych i   prowadzenia działalności gospodarczej poprzez umożliwienie przedsiębiorcom
+                 średnich                  lepszego przygotowania się do zmian oraz uniknięcia nagłych i nieoczekiwanych
+                 przedsiębiorstw
+                                           konsekwencji w postaci niewydajności systemu. Dodatkowy czas pozwoli
+                                           również przedsiębiorcom lepiej zrozumieć, jak nowe regulacje wpłyną na
+                                           prowadzoną przez nich działalność, co pozwoli im uniknąć niepotrzebnych
+                                           kosztów oraz zakłóceń w funkcjonowaniu. W tym celu Ministerstwo Finansów
+                                           zorganizuje praktyczne szkolenia korzystania z darmowego oprogramowania,
+                                           czyli Aplikacji Podatnika i e-mikrofimy. Ponadto, uruchomiona zostanie
+                                           infolinia, gdzie przedsiębiorcy będą mogli uzyskać dodatkowe informacje na
+                                           temat pojawiających po ich stronie wątpliwości lub zdiagnozowanych
+                                           problemów przy testowaniu systemu.
+                                           W wyniku przeprowadzonego cyklu spotkań i prekonsultacji ze strony
+                                           podatników nie napłynęły do resortu finansów zastrzeżenia w zakresie
+                                           proponowanego odroczenia terminów wprowadzenia KSeF.
+                                           Objęcie wszystkich podatników jedną datą obowiązku KSeF stanowi odpowiedź
+                                           na postulaty przedsiębiorców kierowane w trakcie przeprowadzonych konsultacji
+                                           i powinno korzystnie wpłynąć na proces wdrożenia rozwiązania u
+                                           przedsiębiorców – wyeliminuje wątpliwości w zakresie sposobu wystawiania
+                                           faktur w zależności od statusu podatnika VAT (czynny VAT czy zwolniony z
+                                           VAT). Z drugiej strony odpowiednio dłuższy termin wynikający z odroczenia
+                                           KSeF zapewni wszystkim podatnikom odpowiedni czas na dostosowanie się do
+                                           obowiązków.
+                                           Odpowiednie przesunięcie w terminach dotyczących stosowania kar za błędy
+                                           związane z wystawianiem faktur w KSeF oraz dotyczących obowiązku
+                                           dokonywana płatności z podaniem numeru KSeF faktury jest związane z
+                                           odroczeniem terminu wdrożenia obowiązku KSeF i stanowi utrzymanie
+                                           proponowanego w ustawie KSeF podejścia do tych odpowiedzialności i
+                                           obowiązków.
+                 rodzina, obywatele oraz   Projektowane regulacje nie wpłyną na sytuację ekonomiczną i społeczną rodziny,
+                 gospodarstwa domowe       a także osób niepełnosprawnych oraz osób starszych.
+
+Niemierzalne
+
+Dodatkowe informacje,
+w tym wskazanie
+źródeł danych i
+przyjętych do obliczeń
+założeń
+
+
+VIII. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie        tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli nie
+zgodności).                                        nie dotyczy
+
+
+
+
+                                                         9
+   zmniejszenie liczby dokumentów                           zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                             zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                    wydłużenie czasu na załatwienie sprawy
+   inne:                                                    inne:
+
+Wprowadzane obciążenia są przystosowane do ich                 tak
+elektronizacji.                                                nie
+                                                               nie dotyczy
+
+Celem niniejszego projektu jest wyłącznie przesunięcie w czasie wejścia w życie rozwiązań przewidzianych w ustawie KSeF
+w zakresie terminu wdrożenia systemu. Przesuniecie tego terminu nie ma dodatkowego wpływu na obciążenia regulacyjne,
+które zostały opisane w ustawie KSeF, w ślad za zmianą terminu one również przesuną się w czasie.
+IX. Wpływ na rynek pracy
+Wejście w życie ustawy nie będzie miało wpływu na rynek pracy z uwagi na charakter zaproponowanych zmian.
+
+X. Wpływ na pozostałe obszary
+
+   środowisko naturalne                    demografia                                     informatyzacja
+   sytuacja i rozwój regionalny            mienie państwowe                               zdrowie
+   sądy powszechne, administracyjne        inne:
+lub wojskowe
+
+Omówienie wpływu
+
+XI.    Planowane wykonanie przepisów aktu prawnego
+
+Planuje się, że rozwiązania dotyczące e-fakturowania zaczną obowiązywać z dniem 1 lutego 2026 r.
+
+XII.    W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+
+Z uwagi na charakter proponowanych zmian nie przewiduje się ewaluacji projektu. Ewaluacja efektów projektu będzie dotyczyła
+funkcjonowania w praktyce wprowadzonych rozwiązań prawnych.
+
+XIII. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak załączników.
+
+
+
+
+                                                          10
+

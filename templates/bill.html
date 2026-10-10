@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% from "_macros.html" import vote_row, print_link, law_changes %}
+{% block title %}{{ b.title | truncate(110) }}{% endblock %}
+{% block description %}{{ b.title }} — {{ b.votings | length }} {{ _("głosowań") }}, {{ _("Nad poprawkami") | lower }}: {{ b.amend_count }}. {{ _("Ostatnie głosowanie") }}: {{ b.last | date_pl }}.{% endblock %}
+{% block main_attrs %} data-pagefind-body{% endblock %}
+{% block content %}
+<div class="crumbs"><a href="{{ root }}ustawy.html">{{ _("Ustawy") }}</a> · {{ _("druk nr") }} {{ b.root }}</div>
+<h1 lang="pl">{{ b.title }}</h1>
+<p class="muted">{{ _("Druki") }}: {% for p in b.prints %}{{ print_link(p, root, printed) }}{{ ", " if not loop.last }}{% endfor %}</p>
+
+{% if b.law %}
+<h2>{{ _("Zmiany w obowiązującym prawie") }}</h2>
+<p class="muted">{{ _("Obecne brzmienie przepisów porównane z projektem według") }} {{ print_link(b.law_source, root, printed, none, _("druku nr") ~ " " ~ b.law_source) }}
+{{ _("(przed poprawkami z drugiego czytania)") }}. <del>{{ _("usunięte") }}</del> <ins>{{ _("dodane") }}</ins></p>
+{{ law_changes(b.law, true) }}
+{% endif %}
+
+{% if b.by_author %}
+<h2>{{ _("Poprawki i wnioski według zgłaszających") }}</h2>
+<table>
+  <thead><tr><th>{{ _("Zgłaszający") }}</th><th class="num">{{ _("przyjęte") }}</th><th class="num">{{ _("odrzucone") }}</th></tr></thead>
+  <tbody>
+  {% for author, c in b.by_author %}
+  <tr><td>{{ author | who }}</td><td class="num v-Y">{{ c.adopted }}</td><td class="num v-N">{{ c.rejected }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+<p class="note">{{ _("Liczone są głosowania; jedno głosowanie może obejmować kilka łącznie głosowanych poprawek.") }}</p>
+{% endif %}
+
+<h2>{{ _("Wszystkie głosowania") }} ({{ b.votings | length }})</h2>
+{% for s, group in b.votings | groupby("sitting") %}
+<section class="agenda">
+  <h3><a href="{{ root }}posiedzenie/{{ s }}.html">{{ sitting_name(s) }}</a> <span class="muted">· {{ group[0].date | date_pl }}</span></h3>
+  <div class="table-scroll"><table><tbody>
+  {% for v in group %}{{ vote_row(v, root) }}
+  {% endfor %}
+  </tbody></table></div>
+</section>
+{% endfor %}
+{% endblock %}

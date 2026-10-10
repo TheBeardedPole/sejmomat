@@ -1,0 +1,211 @@
+                                                                       Druk nr 3059
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+        X kadencja
+
+
+
+
+                                  SPRAWOZDANIE
+
+ KOMISJI NADZWYCZAJNEJ DO SPRAW ZMIAN W KODYFIKACJACH
+
+
+ o rządowym projekcie ustawy o zmianie ustawy -
+ Kodeks postępowania karnego oraz ustawy
+ o doręczeniach elektronicznych (druk nr 2800)
+
+      Marszałek Sejmu na 63. posiedzeniu Sejmu w dniu 29 lipca 2026 r. – na podstawie art. 87
+ ust. 2 w związku z art. 90 ust. 1 regulaminu Sejmu skierował powyższy projekt ustawy do Komisji
+ Nadzwyczajnej do spraw zmian w kodyfikacjach w celu rozpatrzenia.
+      Komisja Nadzwyczajna do spraw zmian w kodyfikacjach po rozpatrzeniu tego projektu
+ ustawy na posiedzeniu w dniu 16 września 2026 r.
+
+
+      wnosi:
+
+
+      Wysoki Sejm            uchwalić raczy załączony projekt ustawy.
+
+
+
+
+ Warszawa, dnia 16 września 2026 r.
+
+
+                                                               Przewodnicząca Komisji
+                                                                    i Sprawozdawca
+                                                                  /-/Barbara Dolniak
+
+
+
+
+               Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 5   Data : 2026-09-17   Nazwa pliku : V4_305-78.NK                            1
+X kadencja/druk nr 2800
+
+                                                                                      Projekt
+                                          U S T AWA
+
+                                              z dnia
+
+      o zmianie ustawy – Kodeks postępowania karnego oraz ustawy o doręczeniach
+                                         elektronicznych
+
+
+     Art. 1. W ustawie z dnia 6 czerwca 1997 r. – Kodeks postępowania karnego (Dz. U.
+z 2026 r. poz. 490, 421, 638 i 760) wprowadza się następujące zmiany:
+1)   w art. 81a w § 3 pkt 1 otrzymuje brzmienie:
+     „1) wniosek o wyznaczenie obrońcy oraz inne dokumenty niezbędne do rozpoznania
+           wniosku     mogą    być     przekazane   przez   organ   prowadzący   postępowanie
+           przygotowawcze do właściwego sądu za pośrednictwem poczty elektronicznej;”;
+2)   w art. 119 w § 1 pkt 2 otrzymuje brzmienie:
+     „2) oznaczenie oraz adres wnoszącego pismo, a także – w pierwszym piśmie złożonym
+           w sprawie – numer telefonu i adres poczty elektronicznej lub oświadczenie o ich
+           nieposiadaniu;”;
+3)   w art. 132 w § 3 zdanie pierwsze otrzymuje brzmienie:
+     „Pismo może być także doręczone za pośrednictwem poczty elektronicznej.”;
+4)   w art. 148a:
+     a)    w § 1 zdanie pierwsze otrzymuje brzmienie:
+           „W protokole nie zamieszcza się danych dotyczących miejsca zamieszkania, miejsca
+           pracy, numeru telefonu, adresu poczty elektronicznej, numeru PESEL oraz nazwy
+           i numeru dokumentu stwierdzającego tożsamość, jak również nazwy organu
+           wydającego ten dokument, pokrzywdzonych i świadków uczestniczących
+           w czynności.”,
+     b)    w § 3 zdanie pierwsze otrzymuje brzmienie:
+           „Jeżeli dane dotyczące miejsca zamieszkania, miejsca pracy, numeru telefonu,
+           adresu poczty elektronicznej, numeru PESEL oraz nazwy i numeru dokumentu
+           stwierdzającego tożsamość, jak również nazwy organu wydającego ten dokument,
+           pokrzywdzonych i świadków są zawarte w dokumentach innych niż protokół,
+           o którym mowa w § 1, dokumenty, w całości lub w części, w jakiej zawierają te dane,
+Liczba stron : 5    Data : 2026-09-17     Nazwa pliku : V4_305-78.NK                           2
+X kadencja/druk nr 2800
+
+           przechowuje się w załączniku adresowym do akt sprawy, do wiadomości organu
+           prowadzącego postępowanie.”,
+     c)    w § 4 pkt 1–3 otrzymują brzmienie:
+           „1) jeżeli dane dotyczące miejsca zamieszkania, miejsca pracy, numeru telefonu
+                   lub adresu poczty elektronicznej pokrzywdzonego lub świadka są oskarżonemu
+                   znane;
+           2)      w odniesieniu do danych dotyczących miejsca zamieszkania, miejsca pracy,
+                   numeru telefonu, adresu poczty elektronicznej oraz numeru PESEL
+                   pokrzywdzonego lub świadka, jeżeli dane te są związane z miejscem
+                   prowadzenia działalności gospodarczej przez pokrzywdzonego lub świadka
+                   i zostały przekazane do wiadomości publicznej do właściwego rejestru lub
+                   właściwej ewidencji;
+           3)      z powodu oczywistego braku potrzeby ochrony danych dotyczących miejsca
+                   zamieszkania, miejsca pracy, numeru telefonu lub adresu poczty elektronicznej
+                   pokrzywdzonego lub świadka z uwagi na charakter sprawy.”,
+     d)    po § 4 dodaje się § 4a w brzmieniu:
+                   „§ 4a. Zarządzenie o odstąpieniu, w całości lub w części, od stosowania
+           przepisów § 1 lub 3 wymaga uzasadnienia.”;
+5)   w art. 191 § 1a otrzymuje brzmienie:
+           „§ 1a. Numer PESEL świadka ustala się na podstawie dokumentu tożsamości albo
+     powiadomienia o nadaniu numeru PESEL, wydanego przez właściwy organ gminy. W
+     przypadku świadka nieposiadającego numeru PESEL nazwę i numer dokumentu
+     stwierdzającego tożsamość oraz nazwę organu wydającego ten dokument ustala się na
+     podstawie dokumentu tożsamości. Miejsce zamieszkania oraz numer telefonu i adres
+     poczty elektronicznej świadka ustala się na podstawie pisemnego oświadczenia
+     świadka.”;
+6)   w art. 192a w § 1 w zdaniu pierwszym wyrazy „odciski daktyloskopijne” zastępuje się
+     wyrazami „odciski linii papilarnych”;
+7)   w art. 299a § 2 otrzymuje brzmienie:
+           „§ 2. Na wniosek pokrzywdzonego zgłoszony w postępowaniu przygotowawczym
+     sąd powiadamia go o sposobie zakończenia sprawy listem zwykłym, przesłanym na
+     wskazany przez pokrzywdzonego adres, lub za pośrednictwem poczty elektronicznej wraz
+Liczba stron : 5   Data : 2026-09-17   Nazwa pliku : V4_305-78.NK                                 3
+X kadencja/druk nr 2800
+
+     z odpisem prawomocnego orzeczenia kończącego postępowanie w sprawie lub jego
+     wyciągiem, które mogą być przesłane w postaci elektronicznej.”;
+8)   w art. 332 w § 1 pkt 1 otrzymuje brzmienie:
+     „1) imię i nazwisko oskarżonego, inne dane o jego osobie, w tym numer telefonu i adres
+           poczty elektronicznej lub informację o ich nieposiadaniu przez oskarżonego lub
+           niemożności ich ustalenia, dane o zastosowaniu środka zapobiegawczego oraz
+           zabezpieczenia majątkowego;”;
+9)   w art. 333 w § 3 zdanie drugie otrzymuje brzmienie:
+     „Należy również podać numery telefonów i adresy poczty elektronicznej osób
+     wskazanych w zdaniu pierwszym, chyba że informacji tych nie można ustalić.”;
+10) w art. 589y w § 1 pkt 1 otrzymuje brzmienie:
+     „1) oznaczenie organu wydającego END i zatwierdzającego END, ze wskazaniem ich
+           adresów, numerów telefonów i adresów poczty elektronicznej;”;
+11) w art. 607c w § 1 pkt 1 otrzymuje brzmienie:
+     „1) oznaczenie sądu występującego, ze wskazaniem jego adresu, numeru telefonu
+           i adresu poczty elektronicznej;”.
+
+     Art. 2. W ustawie z dnia 18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U.
+z 2026 r. poz. 3 i 507) w art. 82:
+1)   pkt 4 otrzymuje brzmienie:
+     „4) w art. 119 w § 1 pkt 2 otrzymuje brzmienie:
+                     „2) oznaczenie oraz adres wnoszącego pismo, a także – w pierwszym
+                           piśmie złożonym w sprawie:
+                           a)   oświadczenie    wnoszącego        pismo    będącego    podmiotem
+                                niepublicznym, o którym mowa w art. 2 pkt 5 ustawy z dnia
+                                18 listopada   2020      r.   o doręczeniach   elektronicznych,   o
+                                wyrażeniu zgody na dokonywanie doręczeń na adres do doręczeń
+                                elektronicznych, wraz ze wskazaniem tego adresu, albo braku
+                                takiej zgody, chyba że takie oświadczenie już zostało przez niego
+                                w tym postępowaniu złożone,
+                           b)   numer telefonu i adres poczty elektronicznej lub oświadczenie o
+                                ich nieposiadaniu;”;”;
+Liczba stron : 5    Data : 2026-09-17   Nazwa pliku : V4_305-78.NK                                  4
+X kadencja/druk nr 2800
+
+2)   pkt 16 otrzymuje brzmienie:
+     „16) w art. 148a:
+           a)      § 1 otrzymuje brzmienie:
+                            „§ 1. W protokole nie zamieszcza się danych dotyczących miejsca
+                       zamieszkania,    miejsca   pracy,       numeru     telefonu,   adresu   poczty
+                       elektronicznej, adresu do doręczeń elektronicznych, numeru PESEL oraz
+                       nazwy i numeru dokumentu stwierdzającego tożsamość, jak również nazwy
+                       organu wydającego ten dokument, pokrzywdzonych i świadków
+                       uczestniczących w czynności. Dane te, niezamieszczone w protokole,
+                       zamieszcza się w załączniku do protokołu, który przechowuje się w
+                       załączniku   adresowym     do     akt    sprawy,    do   wiadomości     organu
+                       prowadzącego postępowanie.”,
+           b)      § 3 i 4 otrzymują brzmienie:
+                            „§ 3. Jeżeli dane dotyczące miejsca zamieszkania, miejsca pracy,
+                       numeru telefonu, adresu poczty elektronicznej, adresu do doręczeń
+                       elektronicznych, numeru PESEL oraz nazwy i numeru dokumentu
+                       stwierdzającego tożsamość, jak również nazwy organu wydającego ten
+                       dokument, pokrzywdzonych i świadków są zawarte w dokumentach innych
+                       niż protokół, o którym mowa w § 1, dokumenty, w całości lub w części, w
+                       jakiej zawierają te dane, przechowuje się w załączniku adresowym do akt
+                       sprawy, do wiadomości organu prowadzącego postępowanie. Do akt
+                       sprawy załącza się uwierzytelnione kserokopie dokumentów lub ich części,
+                       sporządzone w sposób uniemożliwiający zapoznanie się z tymi danymi.
+                            § 4. Przeprowadzający czynność w postępowaniu przygotowawczym
+                       albo przewodniczący składu sądu – w odniesieniu do protokołu, o którym
+                       mowa w § 1, a w odniesieniu do innych dokumentów – organ prowadzący
+                       postępowanie przygotowawcze albo prezes sądu lub przewodniczący
+                       składu sądu, może zarządzić o odstąpieniu, w całości lub w części, od
+                       stosowania przepisów § 1 lub 3:
+                       1)   jeżeli dane dotyczące miejsca zamieszkania, miejsca pracy, numeru
+                            telefonu, adresu poczty elektronicznej i adresu do doręczeń
+                            elektronicznych pokrzywdzonego lub świadka są oskarżonemu znane;
+Liczba stron : 5   Data : 2026-09-17   Nazwa pliku : V4_305-78.NK                             5
+X kadencja/druk nr 2800
+
+                     2)    w odniesieniu do danych dotyczących miejsca zamieszkania, miejsca
+                           pracy, numeru telefonu, adresu poczty elektronicznej, adresu do
+                           doręczeń elektronicznych oraz numeru PESEL pokrzywdzonego lub
+                           świadka, jeżeli dane te są związane z miejscem prowadzenia
+                           działalności gospodarczej przez pokrzywdzonego lub świadka i
+                           zostały przekazane do wiadomości publicznej do właściwego rejestru
+                           lub właściwej ewidencji;
+                     3)    z powodu oczywistego braku potrzeby ochrony danych dotyczących
+                           miejsca zamieszkania, miejsca pracy, numeru telefonu lub adresu
+                           poczty elektronicznej i adresu do doręczeń elektronicznych
+                           pokrzywdzonego lub świadka z uwagi na charakter sprawy.”;”;
+3)   pkt 21 otrzymuje brzmienie:
+     „21) w art. 333 w § 3 zdanie drugie otrzymuje brzmienie:
+                     „Należy również podać numery telefonów i adresy poczty elektronicznej
+                     osób wskazanych w zdaniu pierwszym, chyba że informacji tych nie można
+                     ustalić, oraz adresy do doręczeń elektronicznych, jeżeli osoby te wyraziły
+                     zgodę na dokonywanie doręczeń na te adresy.”.”.
+
+     Art. 3. Do protokołów sporządzonych przed dniem wejścia w życie niniejszej ustawy
+stosuje się przepisy art. 148a ustawy zmienianej w art. 1 w brzmieniu dotychczasowym.
+
+     Art. 4. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+

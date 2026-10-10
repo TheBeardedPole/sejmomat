@@ -1,0 +1,384 @@
+                                                                       Druk nr 1628
+                                                                 Warszawa, 6 sierpnia 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-150-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  -      o zmianie ustawy o ubezpieczeniach
+      obowiązkowych, Ubezpieczeniowym Funduszu
+      Gwarancyjnym i Polskim Biurze Ubez-
+      pieczycieli Komunikacyjnych.
+
+        Projekt ma charakter deregulacyjny.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Finansów i Gospodarki.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                      Projekt
+                                         U S T A WA
+
+                                             z dnia
+
+     o zmianie ustawy o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu
+            Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych
+
+
+       Art. 1. W ustawie z dnia 22 maja 2003 r. o ubezpieczeniach obowiązkowych,
+Ubezpieczeniowym        Funduszu    Gwarancyjnym      i    Polskim   Biurze   Ubezpieczycieli
+Komunikacyjnych (Dz. U. z 2025 r. poz. 367 i 1019) wprowadza się następujące zmiany:
+1)     w art. 102:
+       a)   w ust. 2:
+            –   w pkt 3 wyrazy „imię i nazwisko, adres zamieszkania, numer PESEL lub nazwę,
+                adres siedziby i numer REGON ubezpieczonego” zastępuje się wyrazami „imię
+                i nazwisko lub nazwę ubezpieczonego, adres jego zamieszkania lub siedziby
+                oraz jego numer PESEL i numer REGON, jeżeli takie numery posiada”,
+            –   w pkt 9 w lit. e wyrazy „imię i nazwisko, adres zamieszkania, numer PESEL lub
+                nazwę, adres siedziby i numer REGON posiadacza pojazdu mechanicznego”
+                zastępuje się wyrazami „imię i nazwisko lub nazwę posiadacza pojazdu
+                mechanicznego, adres jego zamieszkania lub siedziby oraz jego numer PESEL
+                i numer REGON, jeżeli takie numery posiada”,
+       b)   w ust. 3 w pkt 2 wyrazy „imię i nazwisko, adres zamieszkania, numer PESEL lub
+            nazwę, adres siedziby i numer REGON posiadacza pojazdu uczestniczącego
+            w zdarzeniu” zastępuje się wyrazami „imię i nazwisko lub nazwę posiadacza pojazdu
+            uczestniczącego w zdarzeniu, adres jego zamieszkania lub siedziby oraz jego numer
+            PESEL i numer REGON, jeżeli takie numery posiada”;
+2)     w art. 105a ust. 1 otrzymuje brzmienie:
+            „1. Centralna ewidencja pojazdów przekazuje drogą teletransmisji danych do
+       Funduszu dane, o których mowa w art. 102 ust. 2 pkt 9 lit. a–d, oraz imię i nazwisko,
+       adres zamieszkania, numer PESEL lub nazwę, adres siedziby i numer REGON posiadacza
+       pojazdu mechanicznego, a w przypadku posiadaczy pojazdów będących nierezydentami
+       – imię i nazwisko, adres zamieszkania, nazwę i numer dokumentu tożsamości lub nazwę
+       i adres siedziby ubezpieczonego, z wyjątkiem danych pojazdów rejestrowanych w trybie
+       art. 73 ust. 3 ustawy – Prawo o ruchu drogowym.”.
+                                     –2–
+
+Art. 2. Ustawa wchodzi w życie po upływie 3 miesięcy od dnia ogłoszenia.
+                                           UZASADNIENIE
+
+Projekt ustawy jest wykonaniem zobowiązań rządowego Zespołu Deregulacyjnego
+(ID MF-80-262).
+
+Celem projektu ustawy jest umożliwienie Ubezpieczeniowemu Funduszowi Gwarancyjnemu,
+który pełni rolę ośrodka informacji, gromadzenia w rejestrze umów ubezpieczenia działu II
+grupy 3 i 10 załącznika do ustawy z dnia 11 września 2015 r. o działalności ubezpieczeniowej
+i reasekuracyjnej (Dz. U. z 2024 r. poz. 838, z późn. zm.), zarówno danych o numerze PESEL,
+jak i numerze REGON. Dane te są bowiem wykorzystywane przez zakłady ubezpieczeń, które
+dokonują oceny ryzyka ubezpieczeniowego. Jest to istotne w przypadku ubezpieczonych
+prowadzących działalność gospodarczą. Oczekuje się, że proponowana zmiana przyczyni się
+do usunięcia wątpliwości w zakresie możliwości pozyskiwania numerów PESEL w przypadku
+tych osób. Zakłady ubezpieczeń wykorzystujące dane zgromadzone przez Ubezpieczeniowy
+Fundusz Gwarancyjny do oceny ryzyka ubezpieczeniowego, bez możliwości pozyskania numeru
+PESEL, nie zawsze mogą zidentyfikować dane konkretnej osoby, a w konsekwencji należycie
+dokonać oceny ryzyka. Powyższe rozwiązanie w przyszłości może przyczynić się także do
+obniżenia wysokości składek za obowiązkowe ubezpieczenie OC posiadaczy pojazdów
+mechanicznych.
+
+Zgodnie z obowiązującym stanem prawnym Ubezpieczeniowy Fundusz Gwarancyjny, jako
+ośrodek informacji, prowadzi rejestr umów ubezpieczenia i gromadzi dane, które są następnie
+wykorzystywane przez zakłady ubezpieczeń do oceny ryzyka ubezpieczeniowego.
+Ubezpieczeniowy Fundusz Gwarancyjny, jako ośrodek informacji, prowadzi rejestr umów
+ubezpieczenia zawierający imię i nazwisko, adres zamieszkania, numer PESEL lub nazwę,
+adres siedziby i numer REGON.
+
+Projektowana ustawa zakłada zmianę ustawy z dnia 22 maja 2003 r. o ubezpieczeniach
+obowiązkowych,        Ubezpieczeniowym          Funduszu      Gwarancyjnym   i   Polskim   Biurze
+Ubezpieczycieli Komunikacyjnych (Dz. U. z 2025 r. poz. 367, z późn. zm.) w zakresie art. 102
+ust. 2 pkt 3 i pkt 9 lit. e, ust. 3 pkt 2 oraz art. 105a ust. 1.
+
+Projekt ustawy przewiduje umożliwienie Ubezpieczeniowemu Funduszowi Gwarancyjnemu
+gromadzenia zarówno numeru REGON, jak i numeru PESEL osób fizycznych prowadzących
+działalność gospodarczą, które to dane następnie będą wykorzystywane przez zakłady
+ubezpieczeń do dokonywania oceny ryzyka ubezpieczeniowego.
+Jednocześnie w związku z proponowaną zmianą art. 102 uspójnienia wymaga art. 105a ust. 1
+ustawy. Zgodnie bowiem z art. 105a ust. 1 centralna ewidencja pojazdów przekazuje drogą
+teletransmisji danych do Funduszu dane, o których mowa w art. 102 ust. 2 pkt 9. Ponieważ
+w centralnej ewidencji pojazdów (CEP) gromadzi się dane właściciela, którym w przypadku
+jednoosobowej działalności gospodarczej jest osoba fizyczna, to z CEP każdorazowo jest
+przekazywany numer PESEL. Obecnie nie jest planowane ani projektowane dostosowanie
+systemu CEPiK polegające na przekazywaniu zarówno numeru PESEL, jak i REGON z CEP
+do Ubezpieczeniowego Funduszu Gwarancyjnego, w przypadku podmiotów prowadzących
+jednoosobową działalność gospodarczą. Dlatego też uzasadnione pozostaje dostosowanie
+przepisów projektu w tym zakresie.
+
+W art. 2 projektu przyjęto, że ustawa wejdzie w życie po upływie 3 miesięcy od dnia ogłoszenia.
+Proponowany termin wejścia w życie uwzględnia czas konieczny do implementacji rozwiązań
+przez Ubezpieczeniowy Fundusz Gwarancyjny i zakłady ubezpieczeń.
+
+Nowe regulacje będą miały zastosowanie od momentu wejścia w życie ustawy. W przypadkach
+określonych w projekcie ustawy gromadzenie obu identyfikatorów (REGON i PESEL) osób
+fizycznych prowadzących działalność gospodarczą będzie dotyczyć wyłącznie nowych danych
+przekazywanych     do   Ubezpieczeniowego      Funduszu     Gwarancyjnego      przez   zakłady
+ubezpieczeń.
+
+Projekt ustawy nie jest objęty prawem Unii Europejskiej.
+
+Projektowana ustawa nie wymaga przedstawienia organom i instytucjom Unii Europejskiej
+w celu uzyskania opinii, dokonania powiadomienia, konsultacji albo uzgodnienia.
+W szczególności, zgodnie z art. 2 ust. 1 decyzji Rady 98/415/WE z dnia 29 czerwca 1998 r.
+w sprawie konsultacji Europejskiego Banku Centralnego udzielanych władzom krajowym
+w sprawie projektów przepisów prawnych (Dz. Urz. WE L 189 z 03.07.1998, str. 42 – Dz. Urz.
+UE Polskie wydanie specjalne rozdz. 1, t. 1, str. 446), projekt ustawy nie podlega konsultacji
+z Europejskim Bankiem Centralnym.
+
+Zawarte w projekcie regulacje nie stanowią przepisów technicznych w rozumieniu
+rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania
+krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.), dlatego
+też projekt ustawy nie podlega procedurze notyfikacji.
+
+Stosownie do art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. z 2025 r. poz. 677) projekt ustawy został udostępniony w Biuletynie
+Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie
+„Rządowy Proces Legislacyjny”.
+
+
+
+                                              2
+Zawarte w projekcie regulacje nie będą miały wpływu na działalność mikroprzedsiębiorców,
+małych i średnich przedsiębiorców zgodnie z ustawą z dnia 6 marca 2018 r. – Prawo
+przedsiębiorców (Dz. U. z 2024 r. poz. 236, z późn. zm.). Projektowane regulacje będą dotyczyć
+dużych instytucji finansowych (zakładów ubezpieczeń).
+
+
+
+
+                                              3
+Nazwa projektu                                                   Data sporządzenia
+Projekt ustawy o zmianie ustawy o ubezpieczeniach obowiązkowych, 1 sierpnia 2025 r.
+Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze
+Ubezpieczycieli Komunikacyjnych                                  Źródło
+                                                                 Inne
+Ministerstwo i ministerstwa współpracujące                       Deregulacja
+Ministerstwo Finansów
+                                                                 Nr w Wykazie prac legislacyjnych
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza    i programowych Rady Ministrów
+Stanu lub Podsekretarza Stanu                                    UDER67
+Pan Jurand Drop, Podsekretarz Stanu w Ministerstwie Finansów
+
+Kontakt do opiekuna merytorycznego projektu
+Jarosław Niezgoda – Zastępca Dyrektora Departamentu Rozwoju Rynku
+Finansowego w Ministerstwie Finansów,
+tel. 22 694-58-28; e-mail: sekretariat.fn@mf.gov.pl
+                                OCENA SKUTKÓW REGULACJI
+ 1.   Jaki problem jest rozwiązywany?
+Celem projektu ustawy jest umożliwienie Ubezpieczeniowemu Funduszowi Gwarancyjnemu, który pełni rolę ośrodka
+informacji, gromadzenia w rejestrze umów ubezpieczenia działu II grupy 3 i 10 załącznika do ustawy z dnia 11 września
+2015 r. o działalności ubezpieczeniowej i reasekuracyjnej (Dz. U. z 2024 r. poz. 838, z późn. zm.), zarówno danych
+o numerze PESEL, jak i numerze REGON.
+Jest to istotne w przypadku ubezpieczonych prowadzących działalność gospodarczą. Dane te są bowiem wykorzystywane
+przez zakłady ubezpieczeń, które dokonują oceny ryzyka ubezpieczeniowego. Oczekuje się, że proponowana zmiana
+przyczyni się do usunięcia wątpliwości w zakresie możliwości pobierania numerów PESEL w przypadku tych osób, a dane
+te będą następnie wykorzystywane przez zakłady ubezpieczeń do dokonywania oceny ryzyka ubezpieczeniowego.
+Powyższe rozwiązanie w przyszłości może przyczynić się do obniżenia wysokości składek za obowiązkowe ubezpieczenie
+OC posiadaczy pojazdów mechanicznych.
+Zgodnie z obowiązującym stanem prawnym Ubezpieczeniowy Fundusz Gwarancyjny, jako ośrodek informacji, prowadzi
+rejestr umów ubezpieczenia i gromadzi dane, które są następnie wykorzystywane przez zakłady ubezpieczeń do oceny
+ryzyka ubezpieczeniowego. Ubezpieczeniowy Fundusz Gwarancyjny, jako ośrodek informacji, prowadzi rejestr umów
+ubezpieczenia zawierający imię i nazwisko, adres zamieszkania, numer PESEL lub nazwę, adres siedziby i numer REGON.
+Jednocześnie w związku z proponowaną zmianą art. 102 uspójnienia będzie wymagał art. 105a ust. 1 ustawy. Aktualnie
+zgodnie z art. 105a ust. 1 „centralna ewidencja pojazdów przekazuje drogą teletransmisji danych do Funduszu dane,
+o których mowa w art. 102 ust. 2 pkt 9”. Ponieważ w centralnej ewidencji pojazdów (CEP) gromadzi się dane właściciela,
+którym w przypadku jednoosobowej działalności gospodarczej jest osoba fizyczna, to z CEP każdorazowo jest
+przekazywany numer PESEL. Obecnie nie jest planowane ani projektowane dostosowanie systemu CEPiK polegające na
+przekazywaniu z CEP do Ubezpieczeniowego Funduszu Gwarancyjnego, w przypadku podmiotów prowadzących
+jednoosobową działalność gospodarczą, zarówno numeru PESEL, jak i REGON. Dlatego też uzasadnione pozostaje
+dostosowanie przepisów projektu w tym zakresie.
+ 2.   Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Proponuje się wprowadzenie zmian w ustawie z dnia 22 maja 2003 r. o ubezpieczeniach obowiązkowych,
+Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych (Dz. U. z 2025 r.
+poz. 367, z późn. zm.) w zakresie art. 102 ust. 2 pkt 3 i pkt 9 lit. e oraz ust. 3 pkt 2 oraz art. 105a ust. 1.
+Proponowana zmiana zakłada umożliwienie Ubezpieczeniowemu Funduszowi Gwarancyjnemu, jako ośrodkowi
+informacji, gromadzenia w rejestrze umów ubezpieczenia zarówno numeru REGON, jak i numeru PESEL osób fizycznych
+prowadzących działalność gospodarczą. Z danych tych korzystają następnie zakłady ubezpieczeń przy dokonywaniu oceny
+ryzyka ubezpieczeniowego. Zmiany te wymagały jednocześnie odpowiedniego uspójnienia art. 105a ust. 1 ustawy.
+Zakłada się, że oczekiwanym efektem wejścia w życie projektowanej ustawy będzie możliwość dokonania przez zakłady
+ubezpieczeń bardziej rzetelnej oceny ryzyka ubezpieczeniowego. Zakłady ubezpieczeń wykorzystujące dane zgromadzone
+przez Ubezpieczeniowy Fundusz Gwarancyjny do oceny ryzyka ubezpieczeniowego, bez możliwości pozyskania numeru
+PESEL, nie zawsze mogą zidentyfikować dane konkretnej osoby, a w konsekwencji należycie dokonać oceny ryzyka.
+ 3.   Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Brak informacji.
+4.   Podmioty, na które oddziałuje projekt
+           Grupa                   Wielkość                  Źródło danych                      Oddziaływanie
+Zakłady ubezpieczeń                  27                  Urząd Komisji Nadzoru         Zakłady ubezpieczeń, które
+posiadające zezwolenie na                                    Finansowego               będą zawierały umowy
+wykonywanie działalności                                                               ubezpieczenia działu II grupy
+w zakresie obowiązkowego                                                               3 i 10 załącznika do ustawy
+ubezpieczenia OC                                                                       z dnia 11 września 2015 r.
+posiadaczy pojazdów                                                                    o działalności
+mechanicznych,                                                                         ubezpieczeniowej
+obowiązkowego                                                                          i reasekuracyjnej, będą mogły
+ubezpieczenia OC                                                                       dokonać bardziej rzetelnej
+rolników z tytułu                                                                      oceny ryzyka
+posiadania gospodarstwa                                                                ubezpieczeniowego,
+rolnego oraz                                                                           szczególnie w stosunku do
+obowiązkowego                                                                          osób fizycznych
+ubezpieczenia budynków                                                                 prowadzących działalność
+wchodzących w skład                                                                    gospodarczą.
+gospodarstwa rolnego od
+ognia i innych zdarzeń
+losowych
+Ubezpieczeniowy Fundusz                1                Ubezpieczeniowy Fundusz         Ubezpieczeniowy Fundusz
+Gwarancyjny                                                  Gwarancyjny                Gwarancyjny, który pełni rolę
+                                                                                        ośrodka informacji, będzie
+                                                                                        miał możliwość gromadzenia
+                                                                                        w rejestrze umów
+                                                                                        ubezpieczenia działu II grupy
+                                                                                        3 i 10 załącznika do ustawy
+                                                                                        z dnia 11 września 2015 r.
+                                                                                        o działalności
+                                                                                        ubezpieczeniowej
+                                                                                        i reasekuracyjnej, zarówno
+                                                                                        danych o numerze PESEL, jak
+                                                                                        i numerze REGON.
+5.   Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt ustawy został przekazany do konsultacji publicznych i opiniowania następującym podmiotom: Komisji Nadzoru
+Finansowego, Polskiemu Biuru Ubezpieczycieli Komunikacyjnych, Ubezpieczeniowemu Funduszowi Gwarancyjnemu,
+Rzecznikowi Finansowemu, Polskiej Izbie Ubezpieczeń, Prokuratorii Generalnej Rzeczypospolitej Polskiej, Urzędowi
+Ochrony Danych Osobowych, Urzędowi Ochrony Konkurencji i Konsumentów, Narodowemu Bankowi Polskiemu,
+Rzecznikowi Małych i Średnich Przedsiębiorców, Konfederacji Lewiatan, Stowarzyszeniu Polskich Brokerów
+Ubezpieczeniowych i Reasekuracyjnych oraz Polskiej Izbie Brokerów Ubezpieczeniowych i Reasekuracyjnych.
+Projekt został udostępniony na stronie internetowej Biuletynu Informacji Publicznej Rządowego Centrum Legislacji,
+w zakładce „Rządowy Proces Legislacyjny”.
+Przewidziany został 4-dniowy termin do zgłaszania uwag. Skrócony termin do zgłoszenia uwag był podyktowany celem
+deregulacyjnym projektu, o szczególnej randze legislacyjnej, jak i wąskim zakresem jego regulacji.
+Ww. podmioty nie zgłosiły uwag w ramach konsultacji publicznych i opiniowania.
+6.   Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                           Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                   0       1   2     3     4      5      6     7     8      9    10        Łącznie
+                                                                                                           (0–10)
+Dochody ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Wydatki ogółem
+budżet państwa
+JST
+
+                                                         2
+pozostałe jednostki (oddzielnie)
+Saldo ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Źródła finansowania
+Dodatkowe                Wejście w życie ustawy nie będzie miało wpływu na sektor finansów publicznych,
+informacje, w tym        w szczególności nie wystąpi skutek w postaci zwiększenia wydatków lub zmniejszenia
+wskazanie źródeł         dochodów jednostek sektora finansów publicznych.
+danych i przyjętych do
+obliczeń założeń
+
+7.   Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz na
+     rodzinę, obywateli i gospodarstwa domowe
+                                                        Skutki
+Czas w latach od wejścia w życie zmian         0        1          2         3         5         10     Łącznie (0–10)
+W ujęciu         duże przedsiębiorstwa
+pieniężnym       sektor mikro-, małych i
+(w mln zł,       średnich
+ceny stałe z     przedsiębiorstw
+…… r.)           rodzina, obywatele
+                 oraz gospodarstwa
+                 domowe
+W ujęciu         duże przedsiębiorstwa      Zakłady ubezpieczeń będą mogły dokonać bardziej rzetelnej oceny ryzyka
+niepieniężnym                               ubezpieczeniowego, szczególnie w stosunku do osób fizycznych
+                                            prowadzących działalność gospodarczą.
+                  sektor mikro-, małych i   Bez wpływu.
+                  średnich
+                  przedsiębiorstw
+                  rodzina, obywatele        Zakłada się, że projekt będzie miał pozytywny wpływ na rodzinę, obywateli,
+                  oraz gospodarstwa         w tym osoby starsze i niepełnosprawne, oraz gospodarstwa domowe przez
+                  domowe                    dokonywanie przez zakłady ubezpieczeń bardziej rzetelnej oceny ryzyka
+                                            ubezpieczeniowego, co w przyszłości może przyczynić się do obniżenia
+                                            wysokości składek za obowiązkowe ubezpieczenie OC posiadaczy pojazdów
+                                            mechanicznych.
+Niemierzalne
+Dodatkowe                Wejście w życie ustawy nie będzie miało wpływu na konkurencyjność gospodarki.
+informacje, w tym
+wskazanie źródeł
+danych i przyjętych do
+obliczeń założeń
+ 8.   \Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+☐ nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie              ☐ tak
+wymaganymi przez UE (szczegóły w odwróconej              ☐ nie
+tabeli zgodności).                                       ☒ nie dotyczy
+☐ zmniejszenie liczby dokumentów                         ☐ zwiększenie liczby dokumentów
+☐ zmniejszenie liczby procedur                           ☐ zwiększenie liczby procedur
+☐ skrócenie czasu na załatwienie sprawy                  ☐ wydłużenie czasu na załatwienie sprawy
+☒ inne: na obecnym etapie prac ostateczna ocena w        ☐ inne: …
+tym zakresie nie jest możliwa
+Wprowadzane obciążenia są przystosowane do ich           ☐ tak
+elektronizacji.                                          ☐ nie
+                                                         ☒ nie dotyczy
+
+
+                                                           3
+Komentarz: zmiana ta nie wyklucza konieczności dostosowania przez niektóre zakłady ubezpieczeń systemów
+informatycznych. W związku z tym zostało przewidziane 3-miesięczne vacatio legis.
+
+9.   Wpływ na rynek pracy
+Wejście w życie ustawy nie będzie miało wpływu na rynek pracy.
+10.   Wpływ na pozostałe obszary
+☐ środowisko naturalne               ☐ demografia                            ☐ informatyzacja
+☐ sytuacja i rozwój regionalny       ☐ mienie państwowe                      ☐ zdrowie
+☐ sądy powszechne, administracyjne   ☐ inne:
+lub wojskowe
+                       Wejście w życie ustawy nie będzie miało wpływu na sytuację i rozwój regionalny oraz pozostałe
+Omówienie wpływu
+                       obszary, o których mowa w pkt 10.
+11.  Planowane wykonanie przepisów aktu prawnego
+Wykonanie przepisów aktu prawnego nastąpi z dniem jego wejścia w życie.
+12.  W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Ewaluacja efektów projektu będzie dokonywana na bieżąco przez zakłady ubezpieczeń przez dostęp do numerów PESEL
+ubezpieczonych, a tym samym możliwość dokonania bardziej rzetelnej oceny ryzyka ubezpieczeniowego.
+13.  Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                        4
+                                                         RAPORT Z KONSULTACJI
+ projektu ustawy o zmianie ustawy o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli
+                                                         Komunikacyjnych (UDER67)
+
+
+1. Omówienie wyników konsultacji publicznych i opiniowania.
+    a) Podmioty, do których skierowano projekt w celu przedstawienia stanowiska w ramach konsultacji publicznych lub wyrażenia opinii
+    b) Podmioty, które przedstawiły stanowisko lub opinię
+2. Informacja o okresie przeprowadzenia konsultacji publicznych i opiniowania i terminie wyznaczonym do zajęcia stanowiska.
+Projekt ustawy został przekazany do konsultacji publicznych i opiniowania następującym podmiotom: Komisji Nadzoru Finansowego, Polskiemu Biuru
+Ubezpieczycieli Komunikacyjnych, Ubezpieczeniowemu Funduszowi Gwarancyjnemu, Rzecznikowi Finansowemu, Polskiej Izbie Ubezpieczeń, Prokuratorii
+Generalnej Rzeczypospolitej Polskiej, Urzędowi Ochrony Danych Osobowych, Urzędowi Ochrony Konkurencji i Konsumentów, Narodowemu Bankowi Polskiemu,
+Rzecznikowi Małych i Średnich Przedsiębiorców, Konfederacji Lewiatan, Stowarzyszeniu Polskich Brokerów Ubezpieczeniowych i Reasekuracyjnych oraz Polskiej
+Izbie Brokerów Ubezpieczeniowych i Reasekuracyjnych.
+Przewidziany został 4-dniowy termin do zgłaszania uwag. Skrócony termin do zgłoszenia uwag podyktowany był celem deregulacyjnym projektu, o szczególnej
+randze legislacyjnej, jak i wąskim zakresem jego regulacji.
+Ww. podmioty nie zgłosiły uwag w ramach konsultacji publicznych i opiniowania.
+3. Omówienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu z właściwymi organami i instytucjami Unii Europejskiej,
+w tym Europejskim Bankiem Centralnym.
+Nie dotyczy.
+4. Podmioty, które zgłosiły zainteresowanie pracami nad projektem w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa.
+Żaden podmiot nie zgłosił zainteresowania pracami nad projektem ustawy w ww. trybie.
+

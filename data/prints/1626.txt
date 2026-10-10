@@ -1,0 +1,2990 @@
+                                                                       Druk nr 1626
+                                                               Warszawa, 13 sierpnia 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-148-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+ - o zmianie ustawy o postępowaniu w sprawach
+   dotyczących pomocy publicznej.
+
+        Projekt ma na celu wykonanie prawa Unii Europejskiej.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Rolnictwa i Rozwoju Wsi.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                      Projekt
+                                                U S T AWA
+
+                                                    z dnia
+
+       o zmianie ustawy o postępowaniu w sprawach dotyczących pomocy publicznej1)
+
+
+       Art. 1. W ustawie z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach dotyczących
+pomocy publicznej (Dz. U. z 2025 r. poz. 468) wprowadza się następujące zmiany:
+1)     w art. 2 pkt 19 otrzymuje brzmienie:
+       „19) aplikacji SRPP – należy przez to rozumieć aplikację informatyczną, pod nazwą
+             System Rejestracji Pomocy Publicznej, służącą do monitorowania pomocy
+             publicznej w rolnictwie lub rybołówstwie.”;
+2)     uchyla się art. 31a;
+3)     w art. 32a w ust. 3 i 4 po wyrazie „aplikacji” dodaje się wyraz „SRPP”;
+4)     w art. 35 pkt 2 otrzymuje brzmienie:
+       „2) zakres sprawozdań i informacji, o których mowa w art. 32a ust. 1, terminy ich
+             składania i okresy sprawozdawcze oraz wzory formularzy, mając na uwadze
+             zapewnienie skuteczności monitorowania pomocy publicznej w rolnictwie lub
+             rybołówstwie, w szczególności przestrzegania krajowego limitu skumulowanej
+             kwoty pomocy de minimis w rolnictwie lub rybołówstwie, z wykorzystaniem
+             aplikacji SRPP.”;
+5)     w art. 37 ust. 2 otrzymuje brzmienie:
+             „2. Podmiot ubiegający się o:
+       1)    pomoc de minimis w rolnictwie jest zobowiązany do przedstawienia podmiotowi
+             udzielającemu pomocy, wraz z wnioskiem o udzielenie pomocy, wszystkich
+             zaświadczeń o pomocy de minimis w rolnictwie lub rybołówstwie oraz pomocy de
+             minimis, jakie otrzymał w okresie 3 lat poprzedzających dzień złożenia wniosku o
+             udzielenie pomocy, albo oświadczenia o wielkości tej pomocy otrzymanej w tym
+             okresie, albo oświadczenia o nieotrzymaniu takiej pomocy w tym okresie;
+
+
+
+
+1)
+     Niniejsza ustawa w zakresie swojej regulacji służy stosowaniu rozporządzenia Komisji (UE) 2024/3118 z dnia
+     10 grudnia 2024 r. zmieniającego rozporządzenie (UE) nr 1408/2013 w sprawie stosowania art. 107 i 108
+     Traktatu o funkcjonowaniu Unii Europejskiej do pomocy de minimis w sektorze rolnym (Dz. Urz. UE L
+     2024/3118 z 13.12.2024).
+                                            –2–
+
+
+     2)   pomoc de minimis w rybołówstwie jest zobowiązany do przedstawienia podmiotowi
+          udzielającemu pomocy, wraz z wnioskiem o udzielenie pomocy, wszystkich
+          zaświadczeń o pomocy de minimis w rolnictwie lub rybołówstwie oraz pomocy de
+          minimis, jakie otrzymał w roku, w którym ubiega się o pomoc, oraz w okresie
+          2 poprzedzających go lat podatkowych, albo oświadczenia o wielkości tej pomocy
+          otrzymanej w roku, w którym ubiega się o pomoc, oraz w okresie 2 poprzedzających
+          go lat podatkowych, albo oświadczenia o nieotrzymaniu takiej pomocy w roku, w
+          którym ubiega się o pomoc, oraz w okresie 2 poprzedzających go lat podatkowych;
+     3)   pomoc de minimis w rolnictwie lub rybołówstwie jest zobowiązany do
+          przedstawienia podmiotowi udzielającemu pomocy, wraz z wnioskiem o udzielenie
+          pomocy, informacji niezbędnych do udzielenia pomocy de minimis w rolnictwie lub
+          rybołówstwie, dotyczących w szczególności wnioskodawcy i prowadzonej przez
+          niego działalności gospodarczej oraz wielkości i przeznaczenia pomocy publicznej
+          otrzymanej w odniesieniu do tych samych kosztów kwalifikujących się do objęcia
+          pomocą, na pokrycie których ma być przeznaczona pomoc de minimis w rolnictwie
+          lub rybołówstwie.”.
+
+     Art. 2. Dotychczasowe przepisy wykonawcze wydane na podstawie art. 32a ust. 4 i
+art. 35 pkt 2 ustawy zmienianej w art. 1 zachowują moc do dnia wejścia w życie przepisów
+wykonawczych wydanych na podstawie art. 32a ust. 4 i art. 35 pkt 2 ustawy zmienianej w art. 1
+w brzmieniu nadanym niniejszą ustawą, nie dłużej jednak niż przez 6 miesięcy od dnia wejścia
+w życie niniejszej ustawy.
+
+     Art. 3. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                      UZASADNIENIE
+
+Potrzeba i cel wydania ustawy
+
+1.   Przepisy obecnie obowiązującej ustawy z dnia 30 kwietnia 2004 r. o postępowaniu w
+     sprawach dotyczących pomocy publicznej (Dz. U. z 2025 r. poz. 468), zwanej dalej
+     „ustawą”, przewidują uwzględnianie bieżącego roku podatkowego oraz dwóch
+     poprzednich lat podatkowych przy sumowaniu limitu pomocy de minimis w rolnictwie.
+W związku z wejściem w życie rozporządzenia Komisji (UE) 2024/3118 z dnia 10 grudnia
+2024 r. zmieniającego rozporządzenie (UE) nr 1408/2013 w sprawie stosowania art. 107 i 108
+Traktatu o funkcjonowaniu Unii Europejskiej do pomocy de minimis w sektorze rolnym
+(Dz. Urz. UE L 2024/3118 z 13.12.2024) uległ zmianie m.in. sposób obliczania okresu przy
+sumowaniu limitu pomocy de minimis w rolnictwie z lat podatkowych (bieżący rok podatkowy
+oraz dwa poprzednie lata podatkowe) na okres 3 minionych lat na podstawie przedstawianych
+zaświadczeń.
+
+Istnieje zatem potrzeba dostosowania przepisów ustawy do obecnie obowiązujących przepisów
+Komisji Europejskiej.
+
+2.   Ponadto w obowiązujących przepisach istnieje niespójność terminologiczna między
+     aktualnym nazewnictwem aplikacji informatycznej służącej do monitorowania pomocy
+     publicznej w rolnictwie lub rybołówstwie a jej powszechnie używaną nazwą w praktyce –
+     dotyczy aplikacji System Rejestracji Pomocy Publicznej w Rolnictwie (SRPP).
+
+Szczegółowe rozwiązania zawarte w projekcie
+
+1.   Doprecyzowany został art. 2 pkt 19 ustawy dotyczący aplikacji informatycznej służącej do
+     monitorowania pomocy publicznej w rolnictwie lub rybołówstwie przez dodanie nazwy tej
+     aplikacji, tj.: SRPP – System Rejestracji Pomocy Publicznej w Rolnictwie. W ślad za
+     zmianą nazwy aplikacji SRPP w art. 2 pkt 19 ustawy dokonano zmian w dalszej treści
+     ustawy, tj. w art. 32a w ust. 3 oraz 4 po wyrazie „aplikacji” dodano wyraz „SRPP”.
+     Ponadto celem zachowania dalszej spójności przepisów projektowanej ustawy nadano
+     również nowe brzmienie art. 35 pkt 2 ustawy, tj.: „zakres sprawozdań i informacji, o
+     których mowa w art. 32a ust. 1, terminy ich składania i okresy sprawozdawcze oraz wzory
+     formularzy, mając na uwadze zapewnienie skuteczności monitorowania pomocy
+     publicznej w rolnictwie lub rybołówstwie, w szczególności przestrzegania krajowego
+     limitu skumulowanej kwoty pomocy de minimis w rolnictwie lub rybołówstwie, z
+     wykorzystaniem aplikacji SRPP”.
+     Uzupełnienie nazwy aplikacji w ustawie jest porządkującą zmianą redakcyjną, mającą na
+     celu ujednolicenie przepisów z obowiązującym stanem faktycznym, co pozwala na
+     zachowanie przejrzystości i precyzji legislacyjnej oraz eliminuje niejasności w interpretacji
+     prawa.
+2.   Zaproponowano również uchylenie art. 31a ustawy dotyczącego obowiązku ogłaszania w
+     drodze obwieszczenia Ministra Rolnictwa i Rozwoju Wsi informacji o wysokości
+     wykorzystanego krajowego limitu skumulowanej kwoty pomocy de minimis w rolnictwie
+     lub rybołówstwie. W wyniku zmiany sposobu obliczania okresu przy sumowaniu limitu
+     pomocy de minimis w rolnictwie na okres 3 minionych lat (36 miesięcy) zmianie uległ
+     sposób liczenia krajowego limitu pomocy de minimis w rolnictwie. Aplikacja System
+     Rejestracji Pomocy Publicznej – SRPP, monitorująca pomoc publiczną, w tym pomoc de
+     minimis w rolnictwie, będąca zarazem centralnym rejestrem na poziomie krajowym,
+     pokazuje na bieżąco aktualne wykorzystanie limitu pomocy de minimis w rolnictwie.
+     Zatem ogłaszanie w drodze obwieszczenia Ministra Rolnictwa i Rozwoju Wsi informacji
+     o wysokości wykorzystanego krajowego limitu skumulowanej kwoty pomocy de minimis
+     w rolnictwie stało się bezcelowe, gdyż wykorzystanie tego limitu na bieżąco się zmienia.
+     Nie jest także celowe ogłaszanie w drodze obwieszczenia wysokości krajowego limitu
+     pomocy de minimis w rybołówstwie, ponieważ od lat poziom jego wykorzystania jest na
+     bardzo niskim poziomie i nigdy nie dochodzi do jego wyczerpania, a informacja o jego
+     wykorzystaniu jest również zamieszczana na bieżąco w aplikacji SRPP.
+3.   Ponadto proponuje się wprowadzenie nowego brzmienia art. 37 ust. 2 ustawy w celu
+     zapewnienia zgodności okresu, za który są przedstawiane zaświadczenia lub oświadczenia
+     o pomocy de minimis w rolnictwie, z obowiązującymi w tym zakresie od dnia 16 grudnia
+     2024 r. przepisami prawa Unii Europejskiej.
+     Zgodnie z art. 37 ust. 2 obecnie obowiązującej ustawy o postępowaniu w sprawach
+     dotyczących pomocy publicznej „podmiot ubiegający się o pomoc de minimis w rolnictwie
+     lub rybołówstwie jest zobowiązany do przedstawienia podmiotowi udzielającemu pomocy,
+     wraz z wnioskiem o udzielenie pomocy, wszystkich zaświadczeń o pomocy de minimis w
+     rolnictwie lub rybołówstwie oraz pomocy de minimis, jakie otrzymał w roku, w którym
+     ubiega się o pomoc, oraz w ciągu 2 poprzedzających go lat podatkowych, albo
+     oświadczenia o wielkości tej pomocy otrzymanej w tym okresie, albo oświadczenia o
+     nieotrzymaniu takiej pomocy w tym okresie”. W związku z wejściem w życie
+     rozporządzenia Komisji (UE) 2024/3118 zmianie uległ sposób obliczania okresu przy
+
+
+
+                                                2
+    sumowaniu limitu pomocy de minimis w rolnictwie z lat podatkowych (bieżący rok
+    podatkowy oraz dwa poprzednie lata podatkowe) na okres 3 minionych lat (36 miesięcy).
+    Wskazany w ustawie okres, za który są przedstawiane zaświadczenia lub oświadczenia o
+    otrzymanej pomocy de minimis, jest zatem niezgodny z obecnie obowiązującym
+    rozporządzeniem Komisji Europejskiej określającym warunki udzielania pomocy de
+    minimis w sektorze rolnym.
+
+Przepis art. 2 ma na celu zapewnienie ciągłości stosowania prawa w okresie przejściowym
+między wejściem w życie nowej ustawy a wydaniem nowych przepisów wykonawczych
+wydanych na podstawie art. 32a ust. 4 i art. 35 pkt 2 ustawy zmienianej w art. 1. Zachowanie
+w mocy dotychczasowych przepisów wykonawczych pozwala na uniknięcie luk prawnych,
+które   mogłyby    zakłócić   funkcjonowanie       regulowanych   obszarów.   Wprowadzenie
+sześciomiesięcznego okresu przejściowego pozwala na niezwłoczne opracowanie nowych
+przepisów zgodnie założeniami projektowanej ustawy.
+
+Jednocześnie w związku z planowanym wydaniem nowego aktu wykonawczego w sprawie
+informacji składanych przez podmioty ubiegające się o pomoc de minimis w rolnictwie lub
+rybołówstwie, o którym mowa w art. 37 ust. 2a ustawy, będącym przepisem upoważniającym,
+nie zachodzi potrzeba czasowego zachowania w mocy tego aktu. Termin wejścia w życie
+nowego rozporządzenia zostanie skoordynowany z datą wejścia w życie ustawy nowelizującej,
+co zapewni zachowanie ciągłości legislacyjnej.
+
+Pozostałe informacje
+
+Projekt jest zgodny z prawem Unii Europejskiej.
+
+Projekt nie wymaga przedstawienia właściwym organom i instytucjom Unii Europejskiej,
+w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+
+Projekt nie podlega procedurze notyfikacji w rozumieniu przepisów rozporządzenia Rady
+Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego systemu
+notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.), ponieważ nie zawiera
+przepisów technicznych.
+
+Projekt nie będzie miał negatywnego wpływu na mikroprzedsiębiorców, małych i średnich
+przedsiębiorców, ponieważ nie wpływa na możliwość udzielania przedsiębiorcom wsparcia
+określonego w nowelizowanych ustawach. Celem wprowadzanych zmian jest zapewnienie
+
+
+                                               3
+zgodności udzielanej pomocy de minimis w rolnictwie z obecnie obowiązującymi przepisami
+prawa Unii Europejskiej.
+
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2025 r. poz. 677) projekt został udostępniony na stronie podmiotowej
+Ministerstwa Rolnictwa i Rozwoju Wsi. Ponadto stosownie do § 52 ust. 1 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r.
+poz. 806, z późn. zm.) projekt został udostępniony w Biuletynie Informacji Publicznej na
+stronie podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces
+Legislacyjny.
+
+Projekt został wpisany do Wykazu prac legislacyjnych i programowych Rady Ministrów pod
+nr UC85.
+
+
+
+
+                                               4
+Nazwa projektu                                     Data sporządzenia
+Ustawa o zmianie ustawy o postępowaniu w sprawach 26.06.2025 r.
+dotyczących pomocy publicznej
+                                                   Źródło:
+Ministerstwo wiodące i ministerstwa współpracujące
+                                                   Inicjatywa własna
+Ministerstwo Rolnictwa i Rozwoju Wsi
+Osoba odpowiedzialna za projekt w randze Ministra,                Nr w Wykazie prac legislacyjnych i
+Sekretarza Stanu lub Podsekretarza Stanu:                         programowych Rady Ministrów:
+Stefan Krajewski – Minister Rolnictwa i Rozwoju Wsi               UC85
+Kontakt do opiekuna merytorycznego projektu
+Beata Gawlik-Pliszka, zastępca dyrektora, Departament
+Budżetu, tel. 22 623 16 64
+                           OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Przepisy obecnie obowiązującej ustawy z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach dotyczących
+pomocy publicznej, zwanej dalej „ustawą”, przewidują uwzględnienie bieżącego roku podatkowego oraz
+dwóch poprzednich lat podatkowych przy sumowaniu limitu pomocy de minimis w rolnictwie. W związku z
+wejściem w życie rozporządzenia Komisji (UE) 2024/3118 z dnia 10 grudnia 2024 r. zmieniającego
+rozporządzenie (UE) nr 1408/2013 w sprawie stosowania art. 107 i 108 Traktatu o funkcjonowaniu Unii
+Europejskiej do pomocy de minimis w sektorze rolnym (Dz. Urz. UE L 2024/3118 z 13.12.2024) zmianie uległ
+m.in. sposób obliczania okresu przy sumowaniu limitu pomocy de minimis w rolnictwie z lat podatkowych
+(bieżący rok podatkowy oraz dwa poprzednie lata podatkowe) na okres 3 minionych lat na podstawie
+przedstawianych zaświadczeń.
+W związku z tym istnieje potrzeba dostosowania przepisów ustawy do obecnie obowiązujących przepisów
+Komisji Europejskiej.
+Ponadto w obowiązujących przepisach ustawy istnieje niespójność terminologiczna między aktualnym
+nazewnictwem aplikacji informatycznej służącej do monitorowania pomocy publicznej w rolnictwie lub
+rybołówstwie a jej powszechnie używaną nazwą w praktyce – dotyczy aplikacji System Rejestracji Pomocy
+Publicznej w Rolnictwie (w skrócie SRPP).
+Przepisy obecnie obowiązującej ustawy przewidują obowiązek ogłaszania w drodze obwieszczenia Ministra
+Rolnictwa i Rozwoju Wsi informacji o wysokości wykorzystanego krajowego limitu skumulowanej kwoty
+pomocy de minimis w rolnictwie lub rybołówstwie.
+W wyniku zmiany sposobu obliczania okresu przy sumowaniu limitu pomocy de minimis w rolnictwie na okres
+3 minionych lat (36 miesięcy) zmianie uległ sposób liczenia krajowego limitu pomocy de minimis w rolnictwie.
+Aplikacja System Rejestracji Pomocy Publicznej SRPP, monitorująca pomoc publiczną, w tym pomoc de
+minimis w rolnictwie, będąca zarazem centralnym rejestrem na poziomie krajowym, pokazuje na bieżąco
+aktualne wykorzystanie limitu pomocy de minimis w rolnictwie. Zatem ogłaszanie w drodze obwieszczenia
+Ministra Rolnictwa i Rozwoju Wsi, informacji o wysokości wykorzystanego krajowego limitu skumulowanej
+kwoty pomocy de minimis w rolnictwie jest obecnie bezcelowe.
+Nie ma także celowości ogłaszania w drodze obwieszczenia wysokości krajowego limitu pomocy de minimis
+w rybołówstwie, ponieważ od lat poziom jego wykorzystania jest na bardzo niskim poziomie i nigdy nie
+dochodzi do jego wyczerpania, a informacja o jego wykorzystaniu jest również zamieszczana na bieżąco w
+aplikacji SRPP.
+
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+W projekcie ustawy proponuje się:
+– doprecyzowanie nazewnictwa aplikacji informatycznej służącej do monitorowania pomocy publicznej w
+   rolnictwie lub rybołówstwie poprzez dodanie nazwy tej aplikacji, tj. SRPP – System Rejestracji Pomocy
+   Publicznej w Rolnictwie.
+   Doprecyzowanie nazwy aplikacji w ustawie jest zmianą redakcyjną, mającą na celu ujednolicenie
+   przepisów z obowiązującym stanem faktycznym, co pozwala na zachowanie przejrzystości i precyzji
+   legislacyjnej oraz eliminuje niejasności w interpretacji prawa.
+– zmianę sposobu obliczania dla danego beneficjenta limitu pomocy de minimis w rolnictwie z lat
+   podatkowych (bieżący rok podatkowy oraz dwa poprzednie lata podatkowe) na okres 3 minionych lat
+   (36 miesięcy) stosownie do przepisów KE.
+– uchylenie art. 31a dotyczącego obowiązku ogłaszania w drodze obwieszczenia Ministra Rolnictwa i
+  Rozwoju Wsi informacji o wysokości wykorzystanego krajowego limitu skumulowanej kwoty pomocy de
+  minimis w rolnictwie lub rybołówstwie.
+Wdrożenie proponowanych zmian w ustawie przyniesie zgodność z przepisami UE – zmiana sposobu
+obliczania limitu pomocy de minimis w okresie 3 lat zapewni zgodność z unijnymi regulacjami co zapobiegnie
+potencjalnym konfliktom prawnym oraz sankcjom ze strony instytucji unijnych.
+Dostosowanie nazewnictwa aplikacji informatycznej SRPP – System Rejestracji Pomocy Publicznej w
+Rolnictwie jest ułatwieniem administracyjnym, które usprawni czytelność dokumentów oraz komunikację
+pomiędzy organami administracji.
+Niewprowadzenie powyższych zmian głównie w zakresie dostosowania sposobu obliczania limitu pomocy de
+minimis w rolnictwie grozi niezgodnością z prawem UE.
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich
+   OECD/UE?
+Wszystkie państwa członkowskie UE są zobowiązane do określenia warunków udzielania pomocy de minimis
+w rolnictwie zgodnie z obowiązującymi w tym zakresie przepisami prawa unijnego.
+4. Podmioty, na które oddziałuje projekt
+       Grupa                  Wielkość                     Źródło danych                Oddziaływanie
+
+Przedsiębiorcy będący     1,2 mln                  Agencja Restrukturyzacji i        Zapewnienie
+potencjalnymi                                      Modernizacji Rolnictwa            zgodności
+beneficjentami pomocy                                                                przedstawianych
+de minimis w rolnictwie                                                              dokumentów przy
+                                                                                     ubieganiu się o pomoc
+                                                                                     de minimis w
+                                                                                     rolnictwie z
+                                                                                     obowiązującymi w
+                                                                                     tym zakresie
+                                                                                     przepisami prawa
+                                                                                     unijnego.
+Podmioty udzielające       ok. 3 tys.                                                Zapewnienie
+pomoc                                                                                zgodności udzielanej
+                                                                                     pomocy de minimis w
+                                                                                     rolnictwie z
+                                                                                     obowiązującymi w
+                                                                                     tym zakresie
+                                                                                     przepisami prawa
+                                                                                     unijnego.
+ 5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt ustawy został przekazany do opiniowania i konsultacji publicznych na 21 dni w celu jak najszybszego
+wejścia w życie przedmiotowego projektu oraz w celu zapewnienia zgodności udzielanej pomocy de minimis
+w rolnictwie z obowiązującymi w tym zakresie od dnia 16 grudnia 2024 r. przepisami unijnymi. Należy przy
+tym wskazać, że wprowadzane w nowelizowanej ustawie zmiany mają charakter dostosowujący i redakcyjny.
+
+Projekt w ramach konsultacji publicznych został przekazany do:
+    1. Business Centre Club;
+    2. Federacji Branżowych Związków Producentów Rolnych;
+    3. Federacji Producentów Żywności Związek Pracodawców;
+    4. Federacji Przedsiębiorców Polskich;
+    5. Federacji Związków Kółek i Organizacji Rolniczych RP;
+    6. Forum Aktywizacji Obszarów Wiejskich;
+    7. Forum Związków Zawodowych;
+    8. Instytutu Gospodarki Rolnej;
+    9. Konfederacji Lewiatan;
+    10. Krajowego Związku Grup Producentów Rolnych – Izby Gospodarczej;
+
+                                                    2
+    11. Krajowego Związku Rewizyjnego Rolniczych Spółdzielni Produkcyjnych;
+    12. Krajowego Związku Rolników, Kółek i Organizacji Rolniczych;
+    13. Krajowej Izby Gospodarczej, Komitetu Rolnictwa i Obrotu Rolnego;
+    14. Krajowej Rady Drobiarstwa – Izby Gospodarczej;
+    15. Krajowej Rady Izb Rolniczych;
+    16. Krajowej Rady Spółdzielczej;
+    17. Niezależnego Samorządowego Związku Zawodowego Rolników Indywidualnych „Solidarność”;
+    18. Ogólnopolskiego Porozumienia Związków Zawodowych Rolników i Organizacji Rolniczych;
+    19. Ogólnopolskiego Porozumienia Związków Zawodowych;
+    20. Ogólnopolskiej Federacji Przedsiębiorców i Pracodawców Przedsiębiorcy.pl;
+    21. Polskiej Rady ds. Wieprzowiny;
+    22. Polskiego Związku Owczarskiego;
+    23. Polskiego Związku Pszczelarskiego;
+    24. Polskiego Stowarzyszenia Zrównoważonego Rolnictwa i Żywności;
+    25. Polskiego Związku Producentów Roślin Zbożowych;
+    26. Polskiego Związku Hodowców Koni;
+    27. Polskiego Związku Hodowców i Producentów Trzody Chlewnej „POLSUS”;
+    28. Polskiego Związku Zawodowego Rolników;
+    29. Polskiego Związku Zrzeszeń Hodowców i Producentów Drobiu;
+    30. Polskiej Federacji Hodowców Bydła i Producentów Mleka;
+    31. Polskiej Federacji Rolnej;
+    32. Pracodawców Rzeczpospolitej Polskiej;
+    33. Rady Dialogu Społecznego;
+    34. Sekretariatu Rolnictwa Komisji Krajowej NSZZ „Solidarność”;
+    35. Stowarzyszenia Pszczelarzy Polskich POLANKA;
+    36. Związku Gmin Wiejskich Rzeczypospolitej Polskiej;
+    37. Związku Polskie Mięso;
+    38. Związku Przedsiębiorców i Pracodawców;
+    39. Związku Rzemiosła Polskiego;
+    40. Związku Sadowników RP;
+    41. Związku Zawodowego Centrum Narodowe Młodych Rolników;
+    42. Związku Zawodowego Pracowników Rolnictwa w RP;
+    43. Związku Zawodowego Rolnictwa „KORONA”;
+    44. Związku Zawodowego Rolnictwa „SAMOOBRONA”;
+    45. Związku Zawodowego Rolnictwa i Obszarów Wiejskich „Regiony”;
+    46. Związku Zawodowego Rolników „Ojczyzna”;
+    47. Związku Zawodowego Rolników Rzeczpospolitej „Solidarni”;
+    48. Związku Zawodowego Wsi i Rolnictwa „Solidarność Wiejska”
+
+    oraz w ramach opiniowania został przekazany m.in. do
+
+    1.   Dyrektora Generalnego Krajowego Ośrodka Wsparcia Rolnictwa;
+    2.   Prezesa Agencji Restrukturyzacji i Modernizacji Rolnictwa;
+    3.   Prezesa Prokuratorii Generalnej Rzeczypospolitej Polskiej;
+    4.   Prezesa Urzędu Ochrony Konkurencji i Konsumentów;
+    5.   Prezesa Kasy Rolniczego Ubezpieczenia Społecznego;
+    6.   Prezesa Zarządu Narodowego Funduszu Ochrony Środowiska i Gospodarki Wodnej;
+    7.   Prezesa Zarządu — Państwowy Fundusz Rehabilitacji Osób Niepełnosprawnych;
+    8.   Prezesa Zakładu Ubezpieczeń Społecznych.
+
+Powyższy projekt został przekazany do zaopiniowania przy piśmie z dnia 26 lutego 2025 r. z terminem
+zgłaszania uwag do 19 marca 2025 r.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2024 r.)                 Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                               0     1    2     3     4      5     6     7     8    9     10     Łącznie
+                                                                                                 (0–10)
+Dochody ogółem
+
+                                                   3
+budżet państwa
+JST
+pozostałe jednostki
+(oddzielnie)
+Wydatki ogółem
+budżet państwa
+JST
+pozostałe jednostki
+(oddzielnie)
+Saldo ogółem
+budżet państwa
+JST
+pozostałe jednostki
+(oddzielnie)
+Źródła
+finansowania
+Dodatkowe             Wejście w życie ustawy nie spowoduje skutków finansowych dla budżetu państwa
+informacje, w tym     ani jednostek samorządu terytorialnego. Zmiany wprowadzane w ustawie mają na celu
+wskazanie źródeł      jedynie zaktualizowanie zawartych w nich odesłań do właściwego rozporządzenia
+danych i przyjętych   Komisji Europejskiej określających warunki udzielania pomocy de minimis w rolnictwie
+do obliczeń           oraz zapewnienie udzielania pomocy zgodnie z obowiązującymi w tym zakresie
+założeń               przepisami prawa unijnego.
+
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców,
+    oraz na rodzinę, obywateli i gospodarstwa domowe
+                                                Skutki
+Czas w latach od wejścia w życie zmian     0       1     2        3       5      10      Łącznie
+                                                                                         (0–10)
+W ujęciu       duże przedsiębiorstwa
+pieniężnym     sektor mikro-, małych
+(w mln zł,     i średnich
+ceny stałe     przedsiębiorstw
+z 2024 r.)     rodzina, obywatele,
+               gospodarstwa domowe
+               oraz osoby starsze
+               i z niepełnosprawnością
+W ujęciu       duże przedsiębiorstwa
+niepieniężnym sektor mikro-, małych
+               i średnich
+               przedsiębiorstw
+               rodzina, obywatele,
+               gospodarstwa domowe
+               oraz osoby starsze
+               i z niepełnosprawnością
+Niemierzalne
+
+
+
+
+                                                    4
+Dodatkowe           Wejście w życie projektowanej ustawy umożliwi zarówno beneficjentom pomocy de
+informacje, w tym   minimis w rolnictwie jak i podmiotom jej udzielającym kontrolowanie, że udzielana jest
+wskazanie źródeł    ona zgodnie z obowiązującymi przepisami. W szczególności pozwoli monitorować limit
+danych i przyjętych udzielanej przedsiębiorcom pomocy de minimis w rolnictwie. W wyniku
+do obliczeń         wprowadzonych zmian zostanie ujednolicony zakres informacji przedstawianych przez
+założeń             podmioty ubiegające się o pomoc de minimis w rolnictwie. Projekt nie ma wpływu na
+                    rodzinę, obywateli i gospodarstwa domowe, w tym na osoby niepełnosprawne i osoby
+                    starsze.
+ 8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+    nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie            tak
+wymaganymi przez UE (szczegóły w odwróconej            nie
+tabeli zgodności).                                     nie dotyczy
+
+   zmniejszenie liczby dokumentów                        zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                          zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                 wydłużenie czasu na załatwienie sprawy
+   inne:                                                 inne:
+
+Wprowadzane obciążenia są przystosowane do ich           tak
+elektronizacji.                                          nie
+                                                         nie dotyczy
+
+Projektowana ustawa nie wpłynie na istniejące obciążenia regulacyjne.
+
+
+9. Wpływ na rynek pracy
+Wejście w życie ustawy nie wpłynie na rynek pracy.
+10. Wpływ na pozostałe obszary
+
+   środowisko naturalne                demografia                              informatyzacja
+   sytuacja i rozwój regionalny        mienie państwowe                        zdrowie
+   sądy powszechne,                    inne:
+administracyjne lub wojskowe
+Omówienie
+                      Projektowana ustawa nie będzie miała wpływu na pozostałe obszary.
+wpływu
+11. Planowane wykonanie przepisów aktu prawnego
+Wejście w życie projektowanej ustawy planowane jest w III kwartale 2025 r.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Nie dotyczy.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak załączników.
+
+
+
+
+                                                     5
+                 Raport z konsultacji (§ 51 Regulaminu pracy Rady Ministrów)
+
+
+1.       Omówienie         wyników        przeprowadzonych          konsultacji       publicznych
+i opiniowania:
+W ramach konsultacji publicznych i opiniowania projekt ustawy o zmianie ustawy o postępowaniu w
+sprawach dotyczących pomocy publicznej skierowano przy piśmie z dnia 26 lutego 2025 r. do:
+
+     1. Business Centre Club;
+     2. Federacji Branżowych Związków Producentów Rolnych;
+     3. Federacji Producentów Żywności Związek Pracodawców;
+     4. Federacji Przedsiębiorców Polskich;
+     5. Federacji Związków Kółek i Organizacji Rolniczych RP;
+     6. Forum Aktywizacji Obszarów Wiejskich;
+     7. Forum Związków Zawodowych;
+     8. Instytutu Gospodarki Rolnej;
+     9. Konfederacji Lewiatan;
+     10. Krajowego Związku Grup Producentów Rolnych – Izby Gospodarczej;
+     11. Krajowego Związku Rewizyjnego Rolniczych Spółdzielni Produkcyjnych;
+     12. Krajowego Związku Rolników, Kółek i Organizacji Rolniczych;
+     13. Krajowej Izby Gospodarczej, Komitetu Rolnictwa i Obrotu Rolnego;
+     14. Krajowej Rady Drobiarstwa – Izby Gospodarczej;
+     15. Krajowej Rady Izb Rolniczych;
+     16. Krajowej Rady Spółdzielczej;
+     17. Niezależnego Samorządowego Związku Zawodowego Rolników Indywidualnych
+         „Solidarność”;
+     18. Ogólnopolskiego Porozumienia Związków Zawodowych Rolników i Organizacji Rolniczych;
+     19. Ogólnopolskiego Porozumienia Związków Zawodowych;
+     20. Ogólnopolskiej Federacji Przedsiębiorców i Pracodawców Przedsiębiorcy.pl;
+     21. Polskiej Rady ds. Wieprzowiny;
+     22. Polskiego Związku Owczarskiego;
+     23. Polskiego Związku Pszczelarskiego;
+     24. Polskiego Stowarzyszenia Zrównoważonego Rolnictwa i Żywności;
+     25. Polskiego Związku Producentów Roślin Zbożowych;
+     26. Polskiego Związku Hodowców Koni;
+     27. Polskiego Związku Hodowców i Producentów Trzody Chlewnej „POLSUS”;
+     28. Polskiego Związku Zawodowego Rolników;
+     29. Polskiego Związku Zrzeszeń Hodowców i Producentów Drobiu;
+     30. Polskiej Federacji Hodowców Bydła i Producentów Mleka;
+     31. Polskiej Federacji Rolnej;
+     32. Pracodawców Rzeczpospolitej Polskiej;
+     33. Rady Dialogu Społecznego;
+     34. Sekretariatu Rolnictwa Komisji Krajowej NSZZ „Solidarność”;
+     35. Stowarzyszenia Pszczelarzy Polskich POLANKA;
+     36. Związku Gmin Wiejskich Rzeczypospolitej Polskiej;
+     37. Związku Polskie Mięso;
+     38. Związku Przedsiębiorców i Pracodawców;
+     39. Związku Rzemiosła Polskiego;
+     40. Związku Sadowników RP;
+                                                                                               1
+   41. Związku Zawodowego Centrum Narodowe Młodych Rolników;
+   42. Związku Zawodowego Pracowników Rolnictwa w RP;
+   43. Związku Zawodowego Rolnictwa „KORONA”;
+   44. Związku Zawodowego Rolnictwa „SAMOOBRONA”;
+   45. Związku Zawodowego Rolnictwa i Obszarów Wiejskich „Regiony”;
+   46. Związku Zawodowego Rolników „Ojczyzna”;
+   47. Związku Zawodowego Rolników Rzeczpospolitej „Solidarni”;
+   48. Związku Zawodowego Wsi i Rolnictwa „Solidarność Wiejska”
+
+   z prośbą o zgłaszanie uwag do dnia 19 marca 2025 r. Ponadto projekt został zamieszczony na
+   stronie internetowej Rządowego Centrum Legislacji w zakładce Rządowy Proces Legislacyjny.
+
+Związek Zawodowy Rolnictwa „Korona” stwierdza, że projekt ustawy jest następstwem wejścia w życie
+rozporządzenia Komisji Europejskiej 2024/3118 z dnia 10 grudnia 2024 r. zmieniającego
+rozporządzenie (UE) nr 1408/2013 w sprawie stosowania art. 107 i 108 Traktatu o funkcjonowaniu Unii
+Europejskiej do pomocy de minimis w sektorze rolnym (Dz. Urz. UE L 2024/3118 z 13.12.2024), w
+którym uległ zmianie m.in. sposób obliczania okresu przy sumowaniu limitu pomocy de minimis w
+rolnictwie z lat podatkowych (bieżący rok podatkowy oraz dwa poprzednie lata podatkowe) na okres
+3 minionych lat na podstawie przedstawianych zaświadczeń. Zatem zrozumiała jest potrzeba
+dostosowania przepisów ustawy do obecnie obowiązujących przepisów Komisji Europejskiej. Fakt ten
+jest bezsporny.
+Związek Zawodowy Rolnictwa „Korona” stwierdza, że prócz wymogu dostosowawczego do przepisów
+unijnych, uzasadnienie nie przytacza merytorycznej przesłanki przemawiającej za zmianą sposobu
+obliczenia okresu przy sumowaniu limitu pomocy de minimis.
+
+
+Zmiana przepisów art. 37 ust. 2 ma jedynie charakter dostosowujący prawa krajowego do prawa
+unijnego.
+
+
+Polska Federacja Hodowców Bydła i Producentów Mleka do projektu zmiany ustawy uwag nie zgłasza.
+Jednocześnie zauważa, że uchylenie art. 31a może zmniejszyć przejrzystość systemu, a zaostrzenie
+wymogów w art. 37 może nadmiernie obciążyć beneficjentów. Organizacje pozarządowe, dziennikarze
+czy sami beneficjenci mogą mieć trudności z uzyskaniem aktualnych informacji, co może prowadzić do
+braku zaufania do systemu pomocy publicznej.
+
+
+
+
+Nowe brzmienie art. 37 nie nakłada dodatkowych obowiązków na beneficjentów, a jedynie zmienia
+sposób obliczania okresu przy sumowaniu limitu pomocy de minimis w rolnictwie z lat podatkowych
+(bieżący rok podatkowy oraz dwa poprzednie lata podatkowe) na okres 3 minionych lat na podstawie
+                                                                                               2
+przedstawianych zaświadczeń). Zmiana ta nie powoduje również dodatkowych obciążeń
+administracyjnych gdyż obowiązek składania zaświadczeń o otrzymanej pomocy wynika bezpośrednio
+z prawa unijnego, które mają zastosowanie w Polsce od początku akcesji.
+
+
+Na stronie głównej aplikacji System Rejestracji Pomocy Publicznej (SRPP), bez konieczności logowania
+do systemu, jest możliwość sprawdzenia otrzymanej pomocy publicznej, w tym de minimis w rolnictwie
+lub rybołówstwie. Informacja o wykorzystaniu krajowego limitu pomocy de minimis w rolnictwie lub
+rybołówstwie pojawia się na głównej stronie aplikacji – również bez konieczności logowania. Zatem
+każdy ma możliwość sprawdzenia powyższych danych.
+
+
+Ponadto projekt został przekazany do opiniowania do:
+
+   1. Dyrektora Generalnego Krajowego Ośrodka Wsparcia Rolnictwa;
+   2. Prezesa Agencji Restrukturyzacji i Modernizacji Rolnictwa;
+   3. Prezesa Prokuratorii Generalnej Rzeczypospolitej Polskiej;
+   4. Prezesa Urzędu Ochrony Konkurencji i Konsumentów;
+   5. Prezesa Kasy Rolniczego Ubezpieczenia Społecznego;
+   6. Prezesa Zarządu Narodowego Funduszu Ochrony Środowiska i Gospodarki Wodnej;
+   7. Prezesa Zarządu Państwowego Funduszu Rehabilitacji Osób Niepełnosprawnych;
+   8. Prezesa Zakładu Ubezpieczeń Społecznych.
+
+
+
+Prezes Kasy Rolniczego Ubezpieczenia Społecznego wniósł o zniesienie obowiązku składania
+zaświadczeń przez podmioty ubiegające się o pomoc de minimis w rolnictwie lub rybołówstwie.
+
+
+Powyższa uwaga nie została uwzględniona. Zgodnie z obowiązującymi przepisami podmiot
+udzielający pomoc przekazuje sprawozdania o udzielonej pomocy w terminie 7 dni od dnia
+następującego po dniu udzielenia pomocy – w przypadku udzielenia pomocy de minimis w rolnictwie
+lub rybołówstwie. Już dziś niektóre z podmiotów w tym również KRUS czy Urzędy Skarbowe mają
+problemy z terminowym wprowadzaniem sprawozdań tj. w ciągu 7 dni od dnia udzielenia pomocy.
+
+
+Natomiast zniesienie obowiązku składania zaświadczeń przez podmioty ubiegające się o pomoc de
+minimis w rolnictwie lub rybołówstwie wiązałoby się z koniecznością nałożenia na podmioty
+udzielające pomocy, obowiązku raportowania do Systemu Rejestracji Pomocy Publicznej (SRPP),
+sprawozdania z udzielonej pomocy - już w dniu jej udzielenia.
+
+
+
+
+                                                                                                  3
+Dodatkowo, zwolnienie z obowiązku przedkładania zaświadczeń przed podmioty ubiegające się o
+pomoc de minimis w rolnictwie lub rybołówstwie wymagałaby jednoczesnych zmian po stronie
+Prezesa UOKIK w zakresie ogólnej pomocy de minimis.
+
+
+A zatem na chwilę obecną nie ma możliwości wdrożenia proponowanej zmiany. Natomiast
+wprowadzenie wnioskowanej zmiany będzie możliwe w przyszłości, po wypracowaniu wspólnie z
+podmiotami udzielającymi pomocy rozwiązań umożliwiających raportowanie pomocy w dniu jej
+udzielenia.
+
+
+
+
+2.        Przedstawienie         wyników        zasięgnięcia   opinii,   dokonania       konsultacji
+albo uzgodnienia projektu z właściwymi organami i instytucjami Unii Europejskiej, w tym
+Europejskim Bankiem Centralnym:
+
+
+Projekt       ustawy       nie       podlegał       konsultacjom     z      właściwymi    organami
+i instytucjami Unii Europejskiej, w tym z Europejskim Bankiem Centralnym.
+
+
+3.        Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem w trybie
+przepisów o działalności lobbingowej w procesie stanowienia prawa, wraz ze wskazaniem kolejności
+dokonania zgłoszeń albo informację o ich braku:
+
+
+Projekt ustawy został umieszczony na stronie internetowej Rządowego Centrum Legislacji w zakładce
+Rządowy Proces Legislacyjny w celu zgłaszania w trakcie trwania prac legislacyjnych zainteresowania
+w trybie przepisów ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2025 r. poz. 677).
+Żaden podmiot nie zgłosił zainteresowania pracami nad projektem przedmiotowego aktu w trybie
+przepisów o działalności lobbingowej w procesie stanowienia prawa.
+
+
+
+
+                                                                                                  4
+                                                                          TABELA ZGODNOŚCI
+
+
+TYTUŁ PROJEKTU:                                                      Projekt ustawy o zmianie ustawy o postępowaniu w sprawach dotyczących pomocy
+                                                                     publicznej
+TYTUŁ WDRAŻANEGO AKTU PRAWNEGO / Rozporządzenie Komisji (UE) 2024/3118 z dnia 10 grudnia 2024 r. zmieniające rozporządzenie
+WDRAŻANYCH AKTÓW PRAWNYCH                                            (UE) nr 1408/2013 w sprawie stosowania art. 107 i 108 Traktatu o funkcjonowaniu Unii
+                                                                     Europejskiej do pomocy de minimis w sektorze rolnym (Dz. Urz. UE L 2024/3118 z
+                                                                     13.12.2024)
+WYJAŚNIENIE TERMINU WEJŚCIA W ŻYCIE Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia, ze względu na konieczność
+PROJEKTU / ÓW                                                        dostosowania prawa krajowego do już obowiązujących przepisów unijnych
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     Konieczność
+                                                                      wdrożenia
+ Jedn.                                                                             Jedn.
+                            Treść przepisu UE                                                            Treść przepisu/ów ustawy                             Uzasadnienie
+  red.                                                                              red.
+                                                                       T/N
+         Rozporządzenie Komisji (UE) 2024/3118 z dnia 10                                   Art. 37 ust. 2
+Art. 1                                                                   T         Art. 37
+         grudnia 2024 r zmieniające rozporządzenie (UE) nr                                 Proponuje się nadać brzmienie:
+                                                                                   ust. 2
+         1408/2013 w sprawie stosowania art. 107 i 108
+         Traktatu o funkcjonowaniu Unii Europejskiej do                                     „2. Podmiot ubiegający się o:
+         pomocy de minimis w sektorze rolnym                                               1)       pomoc de minimis w rolnictwie jest
+                                                                                           zobowiązany       do    przedstawienia    podmiotowi
+         Zgodnie z nowym brzmieniem art. 3 ust.2                                           udzielającemu pomocy, wraz z wnioskiem o udzielenie
+                                                                                           pomocy, wszystkich zaświadczeń o pomocy de minimis
+         Całkowita kwota pomocy de minimis przyznanej                                      w rolnictwie lub rybołówstwie oraz pomocy de minimis,
+         przez jedno państwo członkowskie jednemu                                          jakie otrzymał w okresie 3 lat poprzedzających dzień
+         przedsiębiorstwu nie może przekroczyć 50 000 EUR                                  złożenia wniosku o udzielenie pomocy, albo
+         w okresie 3 lat.                                                                  oświadczenia o wielkości tej pomocy otrzymanej w tym
+                                                                                           okresie, albo oświadczenia o nieotrzymaniu takiej
+         Okres ten należy oceniać w sposób ciągły. Dla                                     pomocy w tym okresie;
+         każdego przypadku przyznania nowej pomoce de                                      2)       pomoc de minimis w rybołówstwie jest
+         minimis należy uwzględnić całkowitą kwotę pomocy                                  zobowiązany       do    przedstawienia    podmiotowi
+         de minimis przyznaną w ciągu minionych 3 lat.                                     udzielającemu pomocy, wraz z wnioskiem o udzielenie
+                                                                                           pomocy wszystkich zaświadczeń o pomocy de minimis
+                                                                                           w rolnictwie lub rybołówstwie oraz pomocy de minimis,
+                                                                                           jakie otrzymał w roku, w którym ubiega się o pomoc,
+                                                                                           oraz w okresie 2 poprzedzających go lat podatkowych,
+                                                                                           albo oświadczenia o wielkości tej pomocy otrzymanej w
+                                                                                           roku, w którym ubiega się o pomoc, oraz w okresie 2
+                                                                                           poprzedzających go lat podatkowych, albo oświadczenia
+                                                                                           o nieotrzymaniu takiej pomocy w roku, w którym ubiega
+                                                                                                                                                                                   1
+się o pomoc, oraz w okresie 2 poprzedzających go lat
+podatkowych;
+3)       pomoc de minimis w rolnictwie lub
+rybołówstwie jest zobowiązany do przedstawienia
+podmiotowi udzielającemu pomocy, wraz z wnioskiem
+o udzielenie pomocy, informacji niezbędnych do
+udzielenia pomocy de minimis w rolnictwie lub
+rybołówstwie,     dotyczących     w      szczególności
+wnioskodawcy i prowadzonej przez niego działalności
+gospodarczej oraz wielkości i przeznaczenia pomocy
+publicznej otrzymanej w odniesieniu do tych samych
+kosztów kwalifikujących się do objęcia pomocą, na
+pokrycie których ma być przeznaczona pomoc de
+minimis w rolnictwie lub rybołówstwie.”.
+
+
+
+
+                                                         2
+                                                            ODWRÓCONA TABELA ZGODNOŚCI
+                                  w zakresie projektu ustawy o zmianie ustawy o postępowaniu w sprawach dotyczących pomocy publicznej
+
+ Lp.                  Jedn. red                                       Treść przepisu projektu                                    Uzasadnienie
+1.     Art. 1 pkt 1                           W ustawie z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach        Konieczność zmiany obowiązujących
+                                              dotyczących pomocy publicznej wprowadza się następujące zmiany:       przepisów wynika z niespójności
+                                              w art. 2 pkt 19 otrzymuje brzmienie:                                  terminologicznej między aktualnym
+                                              „19)      aplikacji SRPP – należy przez to rozumieć aplikację         nazewnictwem aplikacji
+                                              informatyczną, pod nazwą System Rejestracji Pomocy Publicznej,        informatycznej służącej do
+                                              służącą do monitorowania pomocy publicznej w rolnictwie lub           monitorowania pomocy publicznej w
+                                              rybołówstwie;                                                         rolnictwie lub rybołówstwie a jej
+                                                                                                                    powszechnie używaną nazwą w
+                                                                                                                    praktyce - dotyczy aplikacji System
+                                                                                                                    Rejestracji Pomocy Publicznej w
+                                                                                                                    Rolnictwie (SRPP). W związku z tym
+                                                                                                                    doprecyzowany został przepis ustawy.
+
+
+2.     Art. 1 pkt 2                           Uchyla się art. 31a;
+                                                                                                                    W wyniku zmiany sposobu obliczania
+                                                                                                                    okresu przy sumowaniu limitu pomocy
+                                                                                                                    de minimis w rolnictwie na okres 3
+                                                                                                                    minionych lat (36 miesięcy) zmianie
+                                                                                                                    uległ sposób liczenia krajowego limitu
+                                                                                                                    pomocy de minimis w rolnictwie.
+                                                                                                                    Aplikacja System Rejestracji Pomocy
+                                                                                                                    Publicznej – SRPP, monitorująca
+                                                                                                                    pomoc publiczną, w tym pomoc de
+                                                                                                                    minimis w rolnictwie, będąca zarazem
+                                                                                                                    centralnym rejestrem na poziomie
+                                                                                                                    krajowym, pokazuje na bieżąco
+                                                                                                                    aktualne wykorzystanie limitu pomocy
+                                                                                                                    de minimis w rolnictwie. Zatem
+                                                                                                                    ogłaszanie w drodze obwieszczenia
+                                                                                                                    Ministra Rolnictwa i Rozwoju Wsi
+                                                                                                                    informacji o wysokości
+                                                                                                                    wykorzystanego krajowego limitu
+                                                                                                                    skumulowanej kwoty pomocy de
+                                                                                                                    minimis w rolnictwie stało się
+                                                                                                                    bezcelowe, gdyż wykorzystanie tego
+                                                                                                                    limitu na bieżąco się zmienia.
+
+
+
+                                                                                                                                                             1
+                                                                                               Nie jest także celowe ogłaszanie w
+                                                                                                 drodze obwieszczenia wysokości
+                                                                                             krajowego limitu pomocy de minimis w
+                                                                                             rybołówstwie, ponieważ od lat poziom
+                                                                                                jego wykorzystania jest na bardzo
+                                                                                              niskim poziomie i nigdy nie dochodzi
+                                                                                              do jego wyczerpania, a informacja o
+                                                                                                 jego wykorzystaniu jest również
+                                                                                              zamieszczana na bieżąco w aplikacji
+                                                                                                              SRPP.
+
+
+
+3.   Art. 1 pkt 3                                                                            Konieczność zmiany obowiązujących
+                    W art. 32a w ust. 3 i 4 po wyrazie „aplikacji” dodaje się wyraz „SRPP”   przepisów wynika z niespójności
+                                                                                             terminologicznej między aktualnym
+                                                                                             nazewnictwem aplikacji
+                                                                                             informatycznej służącej do
+                                                                                             monitorowania pomocy publicznej w
+                                                                                             rolnictwie lub rybołówstwie a jej
+                                                                                             powszechnie używaną nazwą w
+                                                                                             praktyce - dotyczy aplikacji System
+                                                                                             Rejestracji Pomocy Publicznej w
+                                                                                             Rolnictwie (SRPP). W związku z tym
+                                                                                             doprecyzowany został przepis ustawy.
+
+
+
+
+                                                                                              Celem zachowania dalszej spójności
+4.   Art. 1 pkt 4
+                    W art. 35 pkt 2 otrzymuje brzmienie:                                        przepisów projektowanej ustawy
+                     „2) zakres sprawozdań i informacji, o których mowa w art. 32a ust. 1,   nadano również nowe brzmienie w art.
+                    terminy ich składania i okresy sprawozdawcze oraz wzory formularzy,                    35 pkt 2.
+                    mając na uwadze zapewnienie skuteczności monitorowania pomocy
+                    publicznej w rolnictwie lub rybołówstwie, w szczególności
+                    przestrzegania krajowego limitu skumulowanej kwoty pomocy de
+                    minimis w rolnictwie lub rybołówstwie, z wykorzystaniem aplikacji
+                    SRPP.”;
+
+
+
+
+                                                                                             Przepis art. 2 ma na celu zapewnienie
+                                                                                             ciągłości stosowania prawa w okresie
+
+                                                                                                                                     2
+5.   Art. 2   Dotychczasowe przepisy wykonawcze wydane na podstawie art. 32a ust.        przejściowym między wejściem w
+              4 i art. 35 pkt 2 ustawy zmienianej w art. 1 zachowują moc do dnia         życie nowej ustawy a wydaniem
+              wejścia w życie przepisów wykonawczych wydanych na podstawie art.          nowych przepisów wykonawczych.
+              32a ust. 4 i art. 35 pkt 2 ustawy zmienianej w art. 1, w brzmieniu
+                                                                                         Zachowanie w mocy dotychczasowych
+              nadanym niniejszą ustawą, nie dłużej jednak niż przez 6 miesięcy od dnia
+                                                                                         przepisów wykonawczych pozwala na
+              wejścia w życie niniejszej ustawy.
+                                                                                             uniknięcie luk prawnych, które
+                                                                                           mogłyby zakłócić funkcjonowanie
+                                                                                                regulowanych obszarów.
+                                                                                          Wprowadzenie sześciomiesięcznego
+                                                                                           okresu przejściowego pozwala na
+                                                                                           niezwłoczne opracowanie nowych
+                                                                                           przepisów zgodnie z założeniami
+                                                                                                 projektowanej ustawy.
+
+
+
+
+                                                                                                                              3
+                                                                                     Projekt
+                               ROZPORZĄDZENIE
+
+                               RADY MINISTRÓW
+
+                                              z dnia
+
+     w sprawie sposobu udzielania dostępu do aplikacji System Rejestracji Pomocy
+                                         Publicznej
+
+
+     Na podstawie art. 32a ust. 4 ustawy z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach
+dotyczących pomocy publicznej (Dz. U. z 2025 r. poz. 468 i …) zarządza się, co następuje:
+
+     § 1. Dostępu do aplikacji udziela się na wniosek podmiotu udzielającego pomocy, złożony
+na formularzu udostępnionym na stronie internetowej administrowanej przez urząd
+obsługujący ministra właściwego do spraw rolnictwa.
+
+     § 2. 1. Wniosek, o którym mowa w § 1, zawiera:
+1)   nazwę, siedzibę i adres podmiotu udzielającego pomocy;
+2)   numer identyfikacji podatkowej podmiotu udzielającego pomocy;
+3)   dane użytkownika aplikacji obejmujące imię i nazwisko pracownika wyznaczonego do
+     obsługi aplikacji, stanowisko, numer telefonu oraz adres e-mail.
+     2. Minister właściwy do spraw rolnictwa, udzielając dostępu do aplikacji, przekazuje
+wnioskodawcy identyfikator (login) i hasło dostępu do aplikacji w terminie 14 dni od dnia
+otrzymania wniosku, o którym mowa w § 1, za pomocą środków komunikacji elektronicznej
+w rozumieniu art. 2 pkt 5 ustawy z dnia 18 lipca 2002 r. o świadczeniu usług drogą
+elektroniczną (Dz. U. z 2024 r. poz. 1513).
+     3. W terminie 7 dni od dnia zmiany danych, o którym mowa w ust. 1, podmiot udzielający
+pomocy przekazuje ministrowi właściwemu do spraw rolnictwa zaktualizowane dane,
+składając wniosek, o którym mowa w § 1.
+     4. Minister właściwy do spraw rolnictwa aktualizuje dane, o których mowa w ust. 1, w
+terminie 14 dni od dnia otrzymania zaktualizowanych danych.
+
+     § 3. Dostęp do aplikacji udzielony przed dniem wejścia w życie rozporządzenia uznaje
+się za udzielony zgodnie z niniejszym rozporządzeniem.
+
+     § 4. Do wniosków o udzielenie dostępu do aplikacji złożonych i nierozpatrzonych przed
+dniem wejścia w życie rozporządzenia stosuje się przepisy dotychczasowe.
+                                                     –2–
+
+
+       § 5. Rozporządzenie wchodzi w życie z dniem następującym po dniu ogłoszenia.1)
+
+
+                                                                  PREZES RADY MINISTRÓW
+
+
+
+
+1)
+     Niniejsze rozporządzenie było poprzedzone rozporządzeniem Rady Ministrów z dnia 28 sierpnia 2020 r. w
+     sprawie sposobu udzielania dostępu do aplikacji (Dz. U. poz. 1543), które na podstawie art. … ustawy z dnia
+     … 2025 r. o zmianie ustawy o postępowaniu w sprawach dotyczących pomocy publicznej (Dz. U. poz. …)
+     traci moc z dniem wejścia w życie niniejszego rozporządzenia.
+                                           –3–
+
+
+
+
+                                    UZASADNIENIE
+
+
+
+Potrzeba i cel wydania rozporządzenia.
+Zgodnie z art. 37 ust. 2a ustawy z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach
+dotyczących pomocy publicznej zachodzi konieczność wydania nowego rozporządzenia w
+sprawie sposobu udzielania dostępu do aplikacji System Rejestracji Pomocy Publicznej.
+Dotychczasowe przepisy wykonawcze wydane na podstawie art. 32a ust. 4 ustawy z dnia 30
+kwietnia 2004 r. o postępowaniu w sprawach dotyczących pomocy publicznej zachowują moc
+do dnia wejścia w życie przepisów wykonawczych wydanych na podstawie ww. przepisów.
+Procedowana zmiana ustawy przewiduje okres przejściowy dla przepisów regulujących zakres
+informacji składanych przez podmioty ubiegające się o pomoc de minimis w rolnictwie lub
+rybołówstwie.
+Zatem zachowanie w mocy przepisów wynikających z przedmiotowego rozporządzenia jest
+niezbędne dla zapewnienia ciągłości prawnej i organizacyjnej udzielania pomocy de minimis
+w rolnictwie lub rybołówstwie oraz zapewni zgodność przepisów wykonawczych z nową
+podstawą prawną.
+
+
+Szczegółowe rozwiązania zawarte w projekcie
+Projektowane rozporządzenie stanowi wykonanie delegacji ustawowej określonej w art. 32a
+ust. 4 ustawy z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach dotyczących pomocy
+publicznej. Projektowane rozporządzenie zastąpi dotychczas obowiązujące rozporządzenie
+Rady Ministrów z dnia 28 sierpnia 2020 r. w sprawie sposobu udzielania dostępu do aplikacji
+(Dz. U. poz. 1543).
+W tytule rozporządzenia dodano nazwę aplikacji, tj. System Rejestracji Pomocy Publicznej,
+którą dodano również w art. 2 pkt 19 ustawy o postępowaniu w sprawach pomocy publicznej.
+§ 1 stanowi, że dostęp do aplikacji służącej do przekazywania sprawozdań z udzielonej pomocy
+publicznej w rolnictwie lub rybołówstwie oraz informacji o nieudzieleniu takiej pomocy jest
+udostępniany na podstawie wniosku podmiotu udzielającego pomocy. Wniosek ten będzie
+udostępniony na stronie internetowej Ministerstwa Rolnictwa i Rozwoju Wsi.
+W § 2 określono zakres informacji, które powinny być zawarte we wniosku: nazwę, siedzibę i
+adres podmiotu udzielającego pomocy, numer identyfikacji podatkowej tego podmiotu oraz
+                                            –4–
+
+
+dane użytkownika aplikacji (imię i nazwisko wyznaczonego pracownika, stanowisko, numer
+telefonu oraz adres e-mail). W przypadku aktualizacji danych podmiot jest zobowiązany
+dokonać w terminie 7 dni od dnia ich zaistnienia, dodatkowo podając przyczyny tych zmian.
+Minister jest zobowiązany udzielić dostęp oraz dokonać aktualizacji danych w terminie 14 dni
+od dnia otrzymania wniosku.
+§ 3 określa, że obowiązek wystąpienia o identyfikator (login) i hasło dostępu do aplikacji nie
+dotyczy podmiotów, które w dniu wejścia w życie rozporządzenia posiadają dostęp do
+aplikacji.
+W § 4 wskazano, że do wniosków o udzielenie dostępu do aplikacji złożonych i
+nierozpatrzonych przed dniem wejścia w życie rozporządzenia stosuje się przepisy niniejszego
+rozporządzenia.
+W § 5 proponuje się, aby rozporządzenie weszło w życie z dniem następującym po dniu
+ogłoszenia. Propozycja daty wynika z utraty mocy obowiązujących przepisów wykonawczych,
+zgodnie z art. 2 ustawy z dnia ….. o zmianie ustawy o postępowaniu w sprawach dotyczących
+pomocy publicznej (Dz. U. ……poz. ……).
+
+
+Pozostałe informacje
+Projekt jest zgodny z prawem Unii Europejskiej.
+Projekt nie wymaga przedstawienia właściwym organom i instytucjom Unii Europejskiej, w
+tym Europejskiemu      Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+Projekt rozporządzenia nie zostanie przesłany do zaopiniowania przez Komisję Wspólną Rządu
+i Samorządu Terytorialnego ponieważ jednostkom samorządu terytorialnego aplikacja została
+udostępniona we wcześniejszych latach na podstawie rozporządzenia Rady Ministrów z dnia
+28 lipca 2009 r. w sprawie przekazywania sprawozdań albo informacji dotyczących pomocy
+publicznej w rolnictwie lub rybołówstwie z wykorzystaniem aplikacji (Dz. U. poz. 1053, z
+późn. zm.). Projekt rozporządzenia nie wprowadza nowych obowiązków dla jednostek
+samorządu terytorialnego.
+Projekt nie będzie przedmiotem konsultacji społecznych ponieważ nie wprowadza żadnych
+przepisów dotyczących tej grupy odbiorców.
+Projekt nie podlega procedurze notyfikacji w rozumieniu przepisów rozporządzenia Rady
+Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego systemu
+notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.), ponieważ nie zawiera
+                                             –5–
+
+
+przepisów technicznych.
+Projekt nie będzie miał negatywnego wpływu na mikroprzedsiębiorców, małych i średnich
+przedsiębiorców, ponieważ nie wpływa na możliwość udzielania przedsiębiorcom wsparcia
+określonego w nowelizowanych przepisach. Celem wprowadzanych zmian jest zapewnienie
+zgodności udzielanej pomocy de minimis w rolnictwie z obecnie obowiązującymi przepisami
+prawa Unii Europejskiej.
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2025 r. poz. 677) projekt zostanie udostępniony na stronie podmiotowej
+Ministerstwa Rolnictwa i Rozwoju Wsi. Ponadto stosownie do § 52 ust. 1 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r.
+poz. 806, późn. zm.) projekt zostanie udostępniony w Biuletynie Informacji Publicznej na
+stronie podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces
+Legislacyjny.
+Projekt został wpisany do Wykazu prac legislacyjnych i programowych Rady Ministrów pod
+nr ……………..
+                                                   –6–
+
+
+Nazwa projektu                                                          Data sporządzenia
+Projekt rozporządzenia Rady Ministrów w sprawie sposobu 29.07.2025 r.
+udzielania dostępu do aplikacji System Rejestracji Pomocy
+Publicznej                                                              Źródło:
+                                                                        Inicjatywa własna
+Ministerstwo wiodące i ministerstwa współpracujące
+Ministerstwo Rolnictwa i Rozwoju Wsi                                    Nr w wykazie prac:
+                                                                        UD…..
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza
+Stanu lub Podsekretarza Stanu
+Stefan Krajewski – Minister Rolnictwa i Rozwoju Wsi
+
+
+Kontakt do opiekuna merytorycznego projektu
+Beata Gawlik-Pliszka, zastępca dyrektora, Departament Budżetu,
+tel. 22 623 16 64
+
+                             OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Nastąpiła konieczność wydania rozporządzenia, którego delegacja ustawowa jest określona w art. 32a ust. 4 ustawy
+z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach dotyczących pomocy publicznej (Dz. U. z 2025 r. poz. 468).
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Określenie zasad dostępu do aplikacji służącej do przekazywania sprawozdań z udzielonej pomocy publicznej w
+rolnictwie lub rybołówstwie oraz informacji o nieudzieleniu takiej pomocy podmiotom udzielającym pomocy
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+
+Nie są znane uregulowania dotyczące sposobu przekazywania sprawozdań z udzielonej pomocy publicznej w innych
+krajach, w szczególności UE i EFTA.
+4. Podmioty, na które oddziałuje projekt
+Grupa                        Wielkość                 Źródło danych                    Oddziaływanie
+
+Podmioty udzielające         Ok. 3 tysiące            własne                           Aktualizacja wniosku o
+pomocy publicznej w          podmiotów                                                 dostęp do aplikacji lub
+rolnictwie lub                                                                         aktualizację danych.
+rybołówstwie, w tym
+pomocy de minimis w
+rolnictwie lub
+                                                    –7–
+
+
+rybołówstwie
+
+
+
+
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt nie będzie przedmiotem konsultacji społecznych ponieważ nie wprowadza żadnych przepisów dotyczących
+tej grupy odbiorców.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2024 r.)             Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                   0     1     2        3   4     5      6     7     8         9   10   Łącznie
+                                                                                                        (0-10)
+Dochody ogółem                     0     0     0        0   0     0      0     0     0         0   0    0
+budżet państwa                     0     0     0        0   0     0      0     0     0         0   0    0
+JST                                0     0     0        0   0     0      0     0     0         0   0    0
+pozostałe jednostki (oddzielnie)   0     0     0        0   0     0      0     0     0         0   0    0
+Wydatki ogółem                     0     0     0        0   0     0      0     0     0         0   0    0
+budżet państwa                     0     0     0        0   0     0      0     0     0         0   0    0
+JST                                0     0     0        0   0     0      0     0     0         0   0    0
+pozostałe jednostki (oddzielnie)   0     0     0        0   0     0      0     0     0         0   0    0
+Saldo ogółem                       0     0     0        0   0     0      0     0     0         0   0    0
+budżet państwa                     0     0     0        0   0     0      0     0     0         0   0    0
+JST                                0     0     0        0   0     0      0     0     0         0   0    0
+pozostałe jednostki (oddzielnie)   0     0     0        0   0     0      0     0     0         0   0    0
+
+
+                         Wejście w życie rozporządzenia nie będzie miało wpływu na sektor finansów publicznych,
+                         w tym na wydatki i dochody budżetu państwa oraz jednostek samorządu terytorialnego.
+Źródła finansowania
+                         Projektowane rozporządzenie nie stanowi podstawy prawnej udzielania pomocy w
+                         rolnictwie lub rybołówstwie.
+
+
+Dodatkowe
+                               Ne dotyczy
+informacje, w tym
+wskazanie źródeł
+danych i przyjętych do
+obliczeń założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz
+                                                      –8–
+
+
+na rodzinę, obywateli i gospodarstwa domowe
+Skutki
+Czas w latach od wejścia w życie zmian        0        1            2       3         5         10          Łącznie
+                                                                                                            (0-10)
+W ujęciu             duże przedsiębiorstwa                                                                  Nie
+pieniężnym                                                                                                  dotyczy
+(w mln zł,           sektor mikro-, małych
+ceny stałe           i średnich                                                                             Nie
+z 2024 r.)           przedsiębiorstw                                                                        dotyczy
+                     rodzina, obywatele,                                                                    Nie
+                     gospodarstwa domowe                                                                    dotyczy
+                     oraz osoby starsze
+                     i z niepełnosprawności
+                     ą
+W ujęciu             duże przedsiębiorstwa    Nie dotyczy
+niepieniężnym
+                     sektor mikro-, małych    Nie dotyczy
+                     i średnich
+                     przedsiębiorstw
+                     rodzina, obywatele,      Nie dotyczy
+                     gospodarstwa domowe
+                     oraz osoby starsze
+                     i z niepełnosprawności
+                     ą
+Niemierzalne                                  Nie dotyczy
+Dodatkowe
+                            Projekt nie będzie miał wpływu na konkurencyjność gospodarki i przedsiębiorczość, w
+informacje, w tym
+                            tym funkcjonowanie przedsiębiorców, oraz na obywateli i gospodarstwa domowe, a także
+wskazanie źródeł
+                            na sytuację ekonomiczną i społeczną rodziny, osób niepełnosprawnych oraz osób
+danych i przyjętych do
+                            starszych.
+obliczeń założeń
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie                   tak
+wymaganymi przez UE (szczegóły w odwróconej                   nie
+tabeli zgodności).                                            nie dotyczy
+                                                   –9–
+
+
+   zmniejszenie liczby dokumentów                          zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                            zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                   wydłużenie czasu na załatwienie sprawy
+   inne:                                                   inne:
+
+
+Wprowadzane obciążenia są przystosowane do ich             tak
+elektronizacji.                                            nie
+                                                           nie dotyczy
+
+
+Projektowane rozporządzenie nie wpłynie na istniejące obciążenia regulacyjne.
+
+9. Wpływ na rynek pracy
+
+
+Projektowane rozporządzenie nie będzie miało wpływu na rynek pracy.
+
+
+10. Wpływ na pozostałe obszary
+
+
+   środowisko naturalne                    demografia                             informatyzacja
+   sytuacja i rozwój regionalny            mienie państwowe                       zdrowie
+   sądy powszechne,                        inne:
+administracyjne lub wojskowe
+                          Projektowane rozporządzenie nie będzie miało wpływu na pozostałe obszary.
+Omówienie wpływu
+
+11. Planowane wykonanie przepisów aktu prawnego
+
+Wejście w życie projektowanego rozporządzenia jest planowane w III kwartale 2025 r.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Z uwagi na przedmiotowy zakres regulacji projektowanego rozporządzenia jego ewaluacja jest niezasadna.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak załączników.
+                                                                                     Projekt
+                                ROZPORZĄDZENIE
+
+                                RADY MINISTRÓW
+
+                                           z dnia
+
+ w sprawie sprawozdań o udzielonej pomocy publicznej w rolnictwie lub rybołówstwie
+                      oraz informacji o nieudzieleniu takiej pomocy
+
+
+     Na podstawie art. 35 pkt 2 ustawy z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach
+dotyczących pomocy publicznej (Dz. U. z 2025 r. poz. 468 i …) zarządza się, co następuje:
+
+     § 1. Rozporządzenie określa:
+1)   zakres sprawozdań o udzielonej pomocy publicznej w rolnictwie lub rybołówstwie oraz o
+     udzielonej pomocy de minimis w rolnictwie lub rybołówstwie, zwanej dalej „pomocą”, o
+     której mowa w art. 32a ust. 1 ustawy z dnia 30 kwietnia 2004 r. o postępowaniu w
+     sprawach dotyczących pomocy publicznej, zwanej dalej „ustawą”;
+2)   zakres informacji o nieudzieleniu pomocy, o której mowa w art. 32a ust. 1 ustawy;
+3)   okresy sprawozdawcze;
+4)   terminy składania sprawozdań oraz informacji, o których mowa w art. 32a ust. 1 ustawy;
+5)   wzory formularzy sprawozdań oraz informacji, o których mowa w art. 32a ust. 1 ustawy.
+
+     § 2. 1. W sprawozdaniach o udzielonej pomocy podaje się następujące informacje:
+1)   nazwę i adres siedziby podmiotu udzielającego pomocy;
+2)   numer identyfikacji podatkowej (NIP) podmiotu udzielającego pomocy;
+3)   podstawę prawną udzielonej pomocy;
+4)   oznaczenie programu pomocowego w przypadku pomocy udzielanej w ramach programu
+     pomocowego lub oznaczenie pomocy indywidualnej w przypadku, gdy udzielona została
+     pomoc indywidualna a w przypadku pomocy de minimis w rolnictwie lub rybołówstwie
+     należy podać nr rozporządzenia Komisji (UE) na podstawie którego pomoc została
+     udzielona;
+5)   dzień udzielenia pomocy;
+6)   imię i nazwisko albo nazwę beneficjenta pomocy;
+7)   oznaczenie formy prawnej beneficjenta pomocy;
+8)   wskazanie kategorii przedsiębiorstwa, przy użyciu którego beneficjent pomocy wykonuje
+     działalność (mikroprzedsiębiorstwo, małe, średnie lub duże przedsiębiorstwo);
+                                            –2–
+
+
+9)   numer identyfikacyjny powszechnego elektronicznego systemu ewidencji ludności
+     (numer PESEL) beneficjenta pomocy;
+10) numer identyfikacji podatkowej (NIP) beneficjenta pomocy;
+11) identyfikator jednostki podziału terytorialnego, na której obszarze beneficjent pomocy ma
+     siedzibę lub miejsce zamieszkania;
+12) klasę rodzaju działalności wg. Polskiej Klasyfikacji Działalności (PKD);
+13) wartość nominalną pomocy;
+14) wartość pomocy brutto wyrażoną jako ekwiwalent dotacji brutto;
+15) formę pomocy;
+16) przeznaczenie pomocy;
+17) intensywność pomocy – w przypadku udzielenia pomocy innej niż pomoc de minimis w
+     rolnictwie lub rybołówstwie;
+18) źródło pochodzenia pomocy.
+     2. Sprawozdanie o udzielonej pomocy sporządza się na formularzu, którego wzór określa
+załącznik nr 1 do rozporządzenia.
+
+     § 3. 1. W informacji, o której mowa w § 1 pkt 2, podaje się następujące informacje:
+1)   nazwę i adres siedziby podmiotu udzielającego pomocy;
+2)   numer identyfikacji podatkowej (NIP) podmiotu udzielającego pomocy;
+3)   rok kalendarzowy, za który sporządza się informację.
+     2. Informację, o której mowa w ust. 1, sporządza się na formularzu, którego wzór określa
+załącznik nr 2 do rozporządzenia.
+
+     § 4. Podmiot udzielający pomocy przekazuje:
+1)   sprawozdania, o których mowa w § 2 ust. 1:
+     a)   w terminie 7 dni od dnia następującego po dniu udzielenia pomocy – w przypadku
+          udzielenia pomocy de minimis w rolnictwie lub rybołówstwie,
+     b)   za każdy miesiąc roku kalendarzowego, w terminie 30 dni od dnia następującego po
+          ostatnim dniu miesiąca, w którym pomoc została udzielona – w pozostałych
+          przypadkach udzielenia pomocy;
+2)   informację, o której mowa w § 1 pkt 2, za dany rok kalendarzowy, w terminie do dnia 7
+     stycznia roku następującego po roku kalendarzowym, w którym pomoc nie została
+     udzielona.
+                                                    –3–
+
+
+       § 5. Podmiot udzielający pomocy, który po upływie terminu przekazania sprawozdania,
+o którym mowa w § 4 ust. 2, uzyskał informację o udzielonej pomocy, o której mowa w art. 6
+ust. 2 ustawy, przekazuje sprawozdanie o udzielonej pomocy bezzwłocznie, nie później niż w
+terminie 7 dni od dnia uzyskania informacji o udzielonej pomocy.
+
+       § 6. Do spraw wszczętych i niezakończonych do dnia wejścia niniejszego rozporządzenia
+stosuje się przepisy dotychczasowe.
+
+       § 7. Rozporządzenie wchodzi w życie z dniem następującym po dniu ogłoszenia.1)
+
+
+
+
+                                                                 PREZES RADY MINISTRÓW
+
+
+
+
+1)
+     Niniejsze rozporządzenie było poprzedzone rozporządzeniem Rady Ministrów z dnia 5 stycznia 2017 r. w
+     sprawie sprawozdań o udzielonej pomocy publicznej w rolnictwie lub rybołówstwie oraz informacji o
+     nieudzieleniu takiej pomocy (Dz. U. poz. 120 oraz z 2020 r. poz. 561), które na podstawie art. … ustawy z
+     dnia … 2025 r. o zmianie ustawy o postępowaniu w sprawach dotyczących pomocy publicznej (Dz. U. poz.
+     …) traci moc z dniem wejścia w życie niniejszego rozporządzenia.
+                                                                                                                         –4–
+
+
+                                                                                                                                                                   Załączniki
+                                                                                                                                                                   do rozporządzenia
+                                                                                                                                                                   Rady Ministrów
+                                                                                                                                                                   z dnia
+                                                                                                                                                                   (Dz. U. poz. …)
+
+
+                                                                                                                                                                                                                           Załącznik nr 1
+
+
+                                                                                                                      WZÓR
+
+       SPRAWOZDANIE O UDZIELONEJ POMOCY PUBLICZNEJ W ROLNICTWIE
+       LUB RYBOŁÓWSTWIE ORAZ POMOCY DE MINIMIS W ROLNICTWIE LUB
+                                                                                                     RYBOŁÓWSTWIE
+
+
+I. Nazwa podmiotu udzielającego pomocy
+………………………………………………………………….
+II. Adres siedziby podmiotu udzielającego pomocy
+………………………………………………………………….
+III. Numer identyfikacji podatkowej (NIP) podmiotu udzielającego pomocy
+………………………………………………………………….
+
+
+                                                                                                                                                                                            Wartość
+                                                                                                                                                                                           nominalna    Wartość pomocy
+                                                                                                Imię i                                                                                      pomocy      publicznej brutto Wartość pomocy
+                                                                       Program                            Forma                                                 Identyfikator                                                                                   Intensyw-
+                                                                                    Dzień    nazwisko                 Kategoria                     NIP                                 publicznej oraz oraz pomocy de de minimis w                  Przezna-                Źródło
+       Podstawa prawna - informacje   Podstawa prawna - informacje    pomocowy/                          prawna                                                   jednostki                                                                 Forma                  nośc
+ Lp.                                                                              udzielenia /nazwa                   przedsię-                 beneficjenta                  Klasa PKD   pomocy de        minimis w       rolnictwie lub             czenie              pochodzeni
+              podstawowe                     szczegółowe                pomoc                          beneficjenta                                               podziału                                                                  prawna               pomocy
+                                                                                   pomocy beneficjent                 biorstwa      PESEL         pomocy                                   minimis w     rolnictwie lub    rybołówstwie              pomocy                a pomocy
+                                                                     indywidualna                        pomocy                                                terytorialnego                                                                                       (%)
+                                                                                             a pomocy                                                                                    rolnictwie lub  rybołówstwie         (w euro)
+                                                                                                                                  beneficjent                                            rybołówstwie         (w zł)
+                                                                                                                                  a pomocy                                                   (w zł)
+ 1      2a         2b         2c       3a         3b         3c           4           5          6           7           8            9             10              11           12            13              14              14a           15        16         17         18
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+
+
+
+
+Instrukcja sporządzania sprawozdania.
+
+
+Kolejne pozycje sprawozdania wypełnia się według poniższych wyjaśnień:
+I. Nazwa podmiotu udzielającego pomocy – należy podać pełną nazwę podmiotu
+udzielającego pomocy.
+II. Adres siedziby podmiotu udzielającego pomocy – należy podać dokładny adres
+                                          –5–
+
+
+siedziby podmiotu udzielającego pomocy.
+III. Numer identyfikacji podatkowej (NIP) podmiotu udzielającego pomocy – należy
+podać numer identyfikacji podatkowej podmiotu udzielającego pomocy.
+
+
+Ilekroć w instrukcji jest mowa o „pomocy”, rozumie się przez to pomoc publiczną
+w rolnictwie lub rybołówstwie oraz pomoc de minimis w rolnictwie lub rybołówstwie.
+Wszystkie informacje dotyczące beneficjenta pomocy podaje się według stanu na dzień
+udzielenia pomocy.
+
+
+TABELA
+Uwaga: istnieją następujące możliwości łączenia elementów tworzących podstawę
+prawną udzielenia pomocy publicznej, które należy wpisać w poszczególne kolumny tabeli
+w sposób przedstawiony poniżej.
+
+
+ Podstawa prawna                  Podstawa prawna
+ – informacje podstawowe          – informacje szczegółowe
+ 2a         2b       2c           3a            3b               3c
+ kod                 przepis      brak          brak             brak
+ ustawy              ustawy
+ kod                 przepis      brak          brak             decyzja/uchwała/umowa
+ ustawy              ustawy                                      – symbol
+ kod                 przepis      akt           przepis aktu     brak
+ ustawy              ustawy       wykonawczy wykonawczego
+ kod                 przepis      akt           przepis aktu     decyzja/uchwała/umowa
+ ustawy              ustawy       wykonawczy                     – symbol
+ kod 9.99   ustawa   przepis      *)            *)               *)
+                     ustawy
+
+
+*) Należy wybrać jeden z powyższych przykładów.
+
+
+Kol. 2a – Podstawa prawna – informacje podstawowe – jeżeli pomoc została udzielona
+na podstawie aktu normatywnego, należy wpisać właściwy kod wskazujący odpowiednią
+podstawę prawną.
+                                           –6–
+
+
+
+
+Tytuł ustawy                                                                     Kod
+Ustawa budżetowa (na kolejne lata)                                               1.1
+
+
+Ustawa z dnia 29 sierpnia 1997 r. – Ordynacja podatkowa (Dz. U. z 2025 r. poz.   1.2
+111, z późn. zm.)
+
+
+Ustawa z dnia 15 lutego 1992 r. o podatku dochodowym od osób prawnych (Dz.       1.3
+U. z 2025 r. poz. 278, z późn. zm.)
+
+
+Ustawa z dnia 26 lipca 1991 r. o podatku dochodowym od osób fizycznych (Dz.      1.4
+U. z 2025 r. poz. 163, z późn. zm.)
+
+
+Ustawa z dnia 30 kwietnia 2010 r. o zasadach finansowania nauki                  1.5
+(Dz. U. z 2018 r. poz. 87, z późn. zm.)
+
+
+Ustawa z dnia 27 sierpnia 1997 r. o rehabilitacji zawodowej i społecznej oraz    1.6
+zatrudnianiu osób niepełnosprawnych (Dz. U. z 2025 r. poz. 913)
+
+
+Ustawa z dnia 27 kwietnia 2001 r. – Prawo ochrony środowiska (Dz. U. z 2025 r.   1.7
+poz. 647)
+
+
+Ustawa z dnia 14 grudnia 2012 r. o odpadach (Dz. U. z 2023 r. poz. 1587, z       1.8
+późn. zm.)
+
+
+Ustawa z dnia 20 października 1994 r. o specjalnych strefach ekonomicznych       1.9
+(Dz. U. z 2023 r. poz. 1604)
+
+
+Ustawa z dnia 12 stycznia 1991 r. o podatkach i opłatach lokalnych               1.10
+(Dz. U. z 2025 r. poz. 707)
+
+
+Ustawa z dnia 9 czerwca 2011 r. – Prawo geologiczne i górnicze                   1.11
+                                            –7–
+
+
+(Dz. U. z 2024 r. poz. 1290, z późn. zm.)
+
+
+Ustawa z dnia 8 maja 1997 r. o poręczeniach i gwarancjach udzielanych przez      1.12
+Skarb Państwa oraz niektóre osoby prawne (Dz. U. z 2024 r. poz. 291, z późn.
+zm.)
+
+
+Ustawa z dnia 21 sierpnia 1997 r. o gospodarce nieruchomościami                  1.13
+(Dz. U. z 2024 r. poz. 1145, z późn. zm.)
+
+
+Ustawa z dnia 3 lutego 1993 r. o restrukturyzacji finansowej przedsiębiorstw     1.14
+i banków oraz o zmianie niektórych ustaw (Dz. U. z 2018 r. poz. 1439)
+
+
+Ustawa z dnia 16 kwietnia 2004 r. o ochronie przyrody                            1.15
+(Dz. U. z 2024 r. poz. 1478, z późn. zm.)
+
+
+Ustawa z dnia 9 maja 2008 r. o Agencji Restrukturyzacji i Modernizacji           1.16
+Rolnictwa (Dz. U. z 2023 r. poz. 1199, z późn. zm.)
+
+
+Ustawa z dnia 20 marca 2025 r. o rynku pracy i służbach zatrudnienia (Dz. U.     1.17
+poz. 620)
+
+
+Ustawa z dnia 19 marca 2004 r. – Prawo celne (Dz. U. z 2024 r. poz. 1373)        1.18
+
+
+Ustawa z dnia 13 października 1998 r. o systemie ubezpieczeń społecznych         1.19
+(Dz. U. z 2024 r. poz. 350, z późn. zm.)
+
+
+Ustawa z dnia 11 marca 2004 r. o organizacji niektórych rynków rolnych (Dz. U.   1.20
+z 2023 r. poz. 1502)
+
+
+Ustawa z dnia 27 sierpnia 2009 r. o finansach publicznych                        1.21
+(Dz. U. z 2024 r. poz. 1530, z późn. zm.)
+
+
+Ustawa z dnia 13 lipca 2006 r. o ochronie roszczeń pracowniczych w razie         1.22
+                                           –8–
+
+
+niewypłacalności pracodawcy (Dz. U. z 2025 r. poz. 433, z późn. zm.)
+
+
+Ustawa z dnia 30 sierpnia 1996 r. o komercjalizacji i niektórych             1.23
+uprawnieniach pracowników (Dz. U. z 2024 r. poz. 1198, z późn. zm.)
+
+
+Ustawa z dnia 15 września 2000 r. o grupach producentów rolnych i ich        1.24
+związkach oraz o zmianie innych ustaw (Dz. U. z 2023 r, poz. 1145)
+
+
+Ustawa z dnia 11 marca 2004 r. o podatku od towarów i usług                  1.25
+(Dz. U. z 2025 r. poz. 775, z późn. zm.)
+
+
+Ustawa z dnia 25 września 1981 r. o przedsiębiorstwach państwowych           1.26
+(Dz. U. z 2023 r. poz. 437)
+
+
+Ustawa z dnia 19 października 1991 r. o gospodarowaniu nieruchomościami      1.27
+rolnymi Skarbu Państwa (Dz. U. z 2025 r. poz. 826)
+
+
+Ustawa z dnia 30 sierpnia 2002 r. o restrukturyzacji niektórych należności   1.28
+publicznoprawnych od przedsiębiorców (Dz. U. z 2020 r. poz. 2183)
+
+
+Ustawa z dnia 16 grudnia 2016 r. o zasadach zarządzania mieniem państwowym   1.29
+(Dz. U. z 2024 r. poz. 125, z późn. zm.)
+
+
+Ustawa z dnia 10 marca 2006 r. o zwrocie podatku akcyzowego zawartego        1.30
+w cenie oleju napędowego wykorzystywanego do produkcji rolnej
+(Dz. U. z 2023 r. poz. 1948)
+
+
+Ustawa z dnia 20 listopada 1998 r. o zryczałtowanym podatku dochodowym       1.31
+od niektórych przychodów osiąganych przez osoby fizyczne
+(Dz. U. z 2025 r. poz. 843)
+
+
+Ustawa z dnia 9 września 2000 r. o podatku od czynności cywilnoprawnych      1.32
+(Dz. U. z 2024 r. poz. 295, z późn. zm.)
+                                             –9–
+
+
+
+
+Ustawa z dnia 15 listopada 1984 r. o podatku rolnym (Dz. U. z 2024 r. poz. 1176, 1.33
+z późn. zm.)
+
+
+Ustawa z dnia 30 października 2002 r. o podatku leśnym (Dz. U. z 2025 r. poz.   1.34
+176)
+
+
+Ustawa z dnia 20 lipca 2017 r. – Prawo wodne (Dz. U. z 2025 r. poz. 960)        1.35
+
+
+Ustawa z dnia 5 lutego 2015 r. o płatnościach w ramach systemów wsparcia        1.36
+bezpośredniego (Dz. U. 2022 poz. 1775, z późn. zm.)
+
+
+Ustawa z dnia 7 lipca 2005 r. o ubezpieczeniach upraw rolnych i zwierząt        1.37
+Gospodarskich (Dz. U. z 2025 r. poz. 251)
+
+
+Ustawa z dnia 10 lipca 2007 r. o nawozach i nawożeniu                           1.38
+(Dz. U. z 2024 r. poz. 105)
+
+
+Ustawa z dnia 28 września 1991 r. o lasach                                      1.39
+(Dz. U. z 2025 r. poz. 567)
+
+
+Ustawa z dnia 8 marca 2013 r. o środkach ochrony roślin                         1.40
+(Dz. U. z 2024 r. poz. 630)
+
+
+Ustawa z dnia 23 czerwca 2022 r. o rolnictwie ekologicznym i produkcji          1.41
+ekologicznej (Dz. U. z 2023 r. poz. 1235)
+
+
+Ustawa z dnia 13 października 1995 r. – Prawo łowieckie                         1.42
+(Dz. U. z 2025 r. poz. 539)
+
+
+Ustawa z dnia 20 grudnia 1990 r. o ubezpieczeniu społecznym rolników            1.43
+(Dz. U. z 2025 r. poz. 197, z późn. zm.)
+                                            – 10 –
+
+
+Ustawa z dnia 28 lipca 1983 r. o podatku od spadków i darowizn                  1.44
+(Dz. U. z 2024 r. poz. 1837, z późn. zm.)
+
+
+Ustawa z dnia 23 kwietnia 1964 r. – Kodeks cywilny                              1.45
+(Dz. U. z 2024 r. poz. 1061, z późn. zm.)
+
+
+Ustawa z dnia 11 marca 2004 r. o ochronie zdrowia zwierząt oraz zwalczaniu      1.46
+chorób zakaźnych zwierząt (Dz. U. z 2023 r. poz. 1075)
+
+
+Ustawa z dnia 10 maja 2018 r. o wspieraniu nowych inwestycji                    1.47
+(Dz. U. z 2025 r. poz. 469)
+
+
+Ustawa z dnia 20 lutego 2015 r. o wspieraniu rozwoju obszarów wiejskich z       1.48
+udziałem środków Europejskiego Funduszu Rolnego na rzecz Rozwoju
+Obszarów Wiejskich w ramach Programu Rozwoju Obszarów Wiejskich na lata
+2014–2020 (Dz. U. z 2023 r. poz. 2298)
+
+
+Ustawa z dnia 11 lipca 2014 r. o zasadach realizacji programów w zakresie       1.49
+polityki spójności finansowanych w perspektywie finansowej 2014–2020
+(Dz. U. z 2020 r. poz. 818)
+
+
+Ustawa z dnia 6 grudnia 2008 r. o podatku akcyzowym                             1.50
+(Dz. U. z 2025 r. poz. 126, z późn. zm.)
+
+
+Ustawa z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego        1.51
+(Dz. U. z 2024 r. poz. 572, z późn. zm.)
+
+
+Ustawa z dnia 14 grudnia 2016 r. – Prawo oświatowe                              1.52
+(Dz. U. z 2025 r. poz. 1043)
+
+
+Ustawa z dnia 23 maja 2024 r. o bonie energetycznym oraz o zmianie niektórych   1.53
+ustaw w celu ograniczenia cen energii elektrycznej, gazu ziemnego i ciepła
+systemowego (Dz. U. z 2024 r. poz. 859, z późn. zm.)
+                                             – 11 –
+
+
+
+
+ Ustawa z dnia 13 lutego 2020 r. o ochronie roślin przed agrofagami (Dz. U. z          1.54
+ 2023 r. poz. 301)
+
+
+ Inne ustawy                                                                           9.99
+
+
+Kol. 2b – Podstawa prawna – informacje podstawowe – jeżeli pomoc została udzielona na
+podstawie ustawy oznaczonej kodami od 1.1 do 1.54 – kolumny tej nie wypełnia się. Jeżeli
+został wybrany kod 9.99, wówczas w kolumnie 2b należy podać w następującej kolejności:
+oznaczenie rodzaju aktu normatywnego, jego datę, tytuł oraz oznaczenie roku i pozycję
+Dziennika Ustaw Rzeczypospolitej Polskiej, pod którą został ogłoszony.
+Kol. 2c – Podstawa prawna – informacje podstawowe – jeżeli pomoc publiczna została
+udzielona na podstawie ustawy, należy podać oznaczenie przepisu będącego podstawą
+udzielenia pomocy publicznej (w kolejności: artykuł, ustęp, punkt, litera, tiret).
+Kol. 3a – Podstawa prawna – informacje szczegółowe – jeżeli podstawą udzielenia pomocy
+publicznej był akt wykonawczy do ustawy, należy podać w następującej kolejności:
+oznaczenie rodzaju aktu normatywnego, nazwę organu wydającego ten akt, jego datę i tytuł
+oraz oznaczenie roku i pozycji Dziennika Ustaw Rzeczypospolitej Polskiej, pod którą został
+ogłoszony.
+Jeżeli pomoc została udzielona na podstawie innego aktu prawnego, należy podać:
+oznaczenie rodzaju aktu, nazwę organu wydającego ten akt, jego datę i tytuł oraz ewentualnie
+oznaczenie roku i pozycji Dziennika Ustaw Rzeczypospolitej Polskiej, pod którą został
+ogłoszony.
+W przypadku braku aktu wykonawczego będącego podstawą prawną udzielenia pomocy
+należy wstawić wyraz „brak”.
+Kol. 3b – Podstawa prawna – informacje szczegółowe – jeżeli podstawą udzielenia pomocy
+był akt wykonawczy do ustawy, należy podać oznaczenie przepisu będącego podstawą
+udzielenia pomocy (w kolejności: paragraf, ustęp, punkt, litera, tiret). Jeżeli podstawą
+udzielania pomocy był inny akt prawny, należy podać oznaczenie przepisu będącego
+podstawą udzielenia pomocy.
+W przypadku braku aktu wykonawczego będącego podstawą prawną udzielenia pomocy
+należy wstawić wyraz „brak”,
+Kol. 3c – Podstawa prawna – informacje szczegółowe – jeżeli podstawą udzielenia pomocy
+                                          – 12 –
+
+
+była decyzja, uchwała lub umowa, należy podać jako symbol: w przypadku decyzji – numer
+decyzji, w przypadku uchwały – numer uchwały, w przypadku umowy – przedmiot oraz
+strony umowy, w przypadku pomocy automatycznej – pole pozostaje puste. W przypadku
+braku decyzji, uchwały lub umowy będącej podstawą prawną udzielenia pomocy należy
+wstawić wyraz „brak”.
+
+
+Kol. 4 – Program pomocowy – należy podać numer programu pomocowego lub numer
+pomocy indywidualnej. W przypadku pomocy de minimis w rolnictwie lub rybołówstwie
+należy podać nr rozporządzenia Komisji (UE) na podstawie którego pomoc została udzielona.
+
+
+Kol. 5 – Dzień udzielenia pomocy – należy przez to rozumieć dzień, w którym podmiot
+ubiegający się o pomoc nabył prawo do otrzymania tej pomocy (np. dzień wydania decyzji,
+dzień podpisania umowy), a w przypadku gdy udzielenie w formie ulgi podatkowej następuje
+na podstawie aktu normatywnego, bez wymogu wydania decyzji:
+1) dzień, w którym zgodnie z odrębnymi przepisami upływa termin złożenia deklaracji albo
+innego dokumentu określającego wartość pomocy, z zastrzeżeniem pkt 2;
+2) dzień, w którym zgodnie z odrębnymi przepisami upływa termin złożenia zeznania
+rocznego – w przypadku udzielenia pomocy w formie ulgi w podatku dochodowym;
+3) dzień faktycznego przysporzenia korzyści finansowych – w przypadku braku obowiązku
+złożenia deklaracji albo innego dokumentu określającego wartość pomocy.
+
+
+Kol. 6 – Imię i nazwisko albo nazwa beneficjenta pomocy – należy podać pełną nazwę
+beneficjenta pomocy, któremu udzielono pomocy, a w przypadku osób fizycznych
+prowadzących działalność gospodarczą – imię i nazwisko beneficjenta pomocy, kod
+pocztowy i nazwę gminy, na której obszarze jest prowadzona działalność gospodarcza.
+
+
+Kol. 7 – Forma prawna beneficjenta pomocy – należy wpisać kod odpowiadający formie
+prawnej beneficjenta pomocy.
+
+
+ Wyszczególnienie                                                       Kod
+ Przedsiębiorstwo państwowe                                             1.A
+
+
+ Jednoosobowa spółka Skarbu Państwa                                     1.B
+                                           – 13 –
+
+
+
+
+ Jednoosobowa spółka jednostki samorządu terytorialnego w               1.C
+ rozumieniu ustawy z dnia 20 grudnia 1996 r. o gospodarce komunalnej
+ (Dz. U. z 2021 r. poz. 679)
+
+
+ Spółka akcyjna albo spółka z ograniczoną odpowiedzialnością, w         1.D
+ stosunku do których Skarb Państwa, jednostka samorządu
+ terytorialnego, przedsiębiorstwo państwowe lub jednoosobowa spółka
+ Skarbu Państwa są podmiotami, które posiadają uprawnienia takie jak
+ przedsiębiorcy dominujący w rozumieniu ustawy z dnia 16 lutego
+ 2007 r. o ochronie konkurencji i konsumentów (Dz. U. z 2024 r. poz.
+ 1616, z późn. zm.)
+
+
+ Jednostka sektora finansów publicznych w rozumieniu ustawy z dnia      1.E
+ 27 sierpnia 2009 r. o finansach publicznych
+
+
+ Beneficjent pomocy nienależący do kategorii określonych kodem od       2
+ 1.A do 1.E
+
+
+Kol. 8 – Wskazanie kategorii przedsiębiorstwa, przy którego użyciu beneficjent pomocy
+wykonuje działalność w rozumieniu załącznika I do rozporządzenia Komisji (UE) nr
+2022/2472 z dnia 14 grudnia 2022 r. uznającego niektóre kategorie pomocy w sektorach
+rolnym i leśnym oraz na obszarach wiejskich za zgodne z rynkiem wewnętrznym w
+zastosowaniu art. 107 i 108 Traktatu o funkcjonowaniu Unii Europejskiej (Dz. Urz.
+UE L 327 z 21.12.2022, str. 1) – należy wpisać odpowiedni kod.
+
+
+ Wyszczególnienie*)                                                         Kod
+ mikroprzedsiębiorstwo                                                      0
+ małe przedsiębiorstwo                                                      1
+ średnie przedsiębiorstwo                                                   2
+*) Wielkość beneficjenta określa się na dzień udzielenia pomocy.
+
+
+Kol. 9 - numer identyfikacyjny powszechnego elektronicznego systemu ewidencji ludności
+                                            – 14 –
+
+
+(numer PESEL) beneficjenta pomocy.
+
+
+Kol. 10 - numer identyfikacji podatkowej (NIP) beneficjenta pomocy a w przypadku braku
+należy wstawić wyraz „brak .
+
+
+Kol. 11 – Identyfikator jednostki podziału terytorialnego – należy podać pełne,
+siedmiocyfrowe oznaczenie gminy, na której obszarze beneficjent pomocy ma siedzibę lub
+miejsce zamieszkania – zgodnie z rozporządzeniem Rady Ministrów z dnia 15 grudnia 1998
+r. w sprawie szczegółowych zasad prowadzenia, stosowania i udostępniania krajowego
+rejestru urzędowego podziału terytorialnego kraju oraz związanych z tym obowiązków
+organów administracji rządowej i jednostek samorządu terytorialnego (Dz. U. poz. 1031, z
+późn. zm.).
+
+
+Kol. 12 – Klasa PKD – należy podać klasę działalności (4 pierwsze znaki), w związku z którą
+beneficjent otrzymał pomoc, określoną zgodnie z rozporządzeniem Rady Ministrów z dnia 18
+grudnia 2024 r. w sprawie Polskiej Klasyfikacji Działalności (PKD) (Dz. U. poz. 1936).
+
+
+Kol. 13 – Wartość nominalna pomocy (w zł) – całkowita wielkość środków finansowych
+będących podstawą do obliczania wielkości udzielonej pomocy (np. kwota dotacji, refundacji,
+kwota podatku albo opłaty, z której beneficjent pomocy został zwolniony, kwota
+odroczonego lub rozłożonego na raty podatku albo zaległości podatkowej, kwota udzielonego
+kredytu albo pożyczki itp.). W przypadku gdy udzielona pomoc obejmuje więcej niż jedną
+formę pomocy, należy informację o pomocy dla danego beneficjenta wykazać w dwóch lub
+więcej wierszach, dzieląc odpowiednio wartość nominalną pomocy dla każdej z form.
+
+
+Kol. 14 – Wartość pomocy brutto (w zł) – należy podać wartość pomocy jako ekwiwalent
+dotacji brutto, obliczony zgodnie z rozporządzeniem Rady Ministrów z dnia 11 sierpnia 2004
+r. w sprawie szczegółowego sposobu obliczania wartości pomocy publicznej udzielanej w
+różnych formach (Dz. U. z 2018 r. poz. 461). W przypadku gdy udzielona pomoc obejmuje
+więcej niż jedną formę pomocy, należy informację o pomocy dla danego beneficjenta
+wykazać w dwóch lub więcej wierszach, dzieląc odpowiednio wartość pomocy brutto dla
+każdej z form. W przypadku pomocy de minimis w rolnictwie lub rybołówstwie należy
+dodatkowo podać wartość pomocy wyrażoną w euro, obliczoną w sposób określony w art. 11
+                                          – 15 –
+
+
+ust. 3 ustawy z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach dotyczących pomocy
+publicznej.
+
+
+Kol. 15 – Forma pomocy – należy podać kod oznaczający właściwą formę pomocy.
+
+
+ Wyszczególnienie
+                                                                           Kod
+ DOTACJE
+ Dotacja i inne bezzwrotne świadczenia                                     A1.1
+ Dopłaty do oprocentowania kredytów bankowych                              A1.1
+ (bezpośrednio dla przedsiębiorców)
+ Inne wydatki związane z funkcjonowaniem jednostek budżetowych lub         A1.3
+ realizacją ich zadań statutowych
+ Refundacja                                                                A1.4
+ ZWOLNIENIA, ULGI, UMORZENIA
+ Zwolnienie z podatku                                                      A2.1
+ Odliczenie od podatku                                                     A2.2
+ Obniżka lub zmniejszenie powodujące obniżenie podstawy opodatkowania      A2.3
+ lub wysokości podatku
+ Obniżenie wysokości opłaty                                                A2.4
+ Zwolnienie z opłaty                                                       A2.5
+ Zaniechanie poboru podatku                                                A2.6
+ Zaniechanie poboru opłaty                                                 A2.7
+ Umorzenie w całości lub w części zaległości podatkowej wraz z odsetkami   A2.8
+ Umorzenie w całości lub w części odsetek od zaległości podatkowej         A2.9
+ Umorzenie opłaty (składki, wpłaty)                                        A2.10
+ Umorzenie w całości lub w części odsetek za zwłokę z tytułu opłaty        A2.11
+ (składki, wpłaty, kary)
+ Umorzenie kar                                                             A2.12
+ Oddanie mienia będącego własnością Skarbu Państwa albo jednostek          A2.13
+ samorządu terytorialnego lub ich związków do korzystania na warunkach
+ korzystniejszych od oferowanych na rynku
+ Zbycie mienia będącego własnością Skarbu Państwa albo jednostek           A2.14
+                                           – 16 –
+
+
+samorządu terytorialnego lub ich związków na warunkach korzystniejszych
+od oferowanych na rynku
+Umorzenie kosztów egzekucyjnych                                            A2.15
+Jednorazowa amortyzacja                                                    A2.16
+SUBSYDIOWANIE KAPITAŁOWO-INWESTYCYJNE
+Wniesienie kapitału                                                        B1.1
+Konwersja wierzytelności na akcje lub udziały                              B2.1
+POŻYCZKI PREFERENCYJNE
+Pożyczka preferencyjna                                                     C1.1
+Kredyt preferencyjny                                                       C1.2
+Dopłaty do oprocentowania kredytów bankowych (dla banków)                  C1.3
+Pożyczki warunkowo umorzone                                                C1.4
+ODROCZENIA, ROZŁOŻENIA NA RATY
+Odroczenie terminu płatności podatku                                       C2.1
+Odroczenie terminu zapłaty zaległości podatkowej lub zaległości            C2.1.1
+podatkowej wraz z odsetkami
+Rozłożenie na raty płatności podatku                                       C2.2
+Rozłożenie na raty płatności zaległości podatkowej lub zaległości          C2.3
+podatkowej wraz z odsetkami
+Odroczenie terminu płatności opłaty (składki, wpłaty)                      C2.4
+Odroczenie terminu zapłaty zaległej opłaty (składki, wpłaty, kary) lub     C2.4.1
+zaległej opłaty (składki, wpłaty, kary) wraz z odsetkami
+Rozłożenie na raty opłaty (składki, wpłaty)                                C2.5
+Rozłożenie na raty płatności zaległej opłaty (składki, wpłaty, kary) lub   C2.5.1
+zaległej opłaty (składki, wpłaty, kary) wraz z odsetkami
+Odroczenie terminu płatności kary                                          C2.6
+Rozłożenie na raty kary                                                    C2.7
+Rozłożenie na raty kosztów egzekucyjnych                                   C2.8
+Rozłożenie na raty odsetek                                                 C2.9
+Odroczenie terminu płatności kosztów egzekucyjnych                         C2.10
+Odroczenie terminu płatności odsetek                                       C2.11
+Odroczenie terminu płatności kosztów procesu sądowego                      C2.12
+Rozłożenie na raty kosztów procesu sądowego                                C2.13
+                                          – 17 –
+
+
+ PORĘCZENIA I GWARANCJE
+ Poręczenie                                                                 D1.1
+ Gwarancja                                                                  D1.2
+ INNE                                                                       E
+
+
+W przypadku gdy udzielona pomoc obejmuje więcej niż jedną formę pomocy, należy
+informację o pomocy dla danego beneficjenta wykazać w dwóch lub więcej wierszach,
+dzieląc odpowiednio wartość pomocy dla każdej z form pomocy.
+
+
+Kol. 16 – Przeznaczenie pomocy – należy podać odpowiedni kod.
+ Wyszczególnienie                                                         Kod
+ POMOC SEKTOROWA – ROLNICTWO
+ Środki na rzecz rozwoju obszarów wiejskich Pomoc na inwestycje w         A1.1.1
+ rzeczowe aktywa trwałe i wartości niematerialne i prawne w
+ gospodarstwach rolnych związane z produkcją podstawową produktów
+ rolnych
+ Pomoc na inwestycje na rzecz zachowania dziedzictwa kulturowego i        A1.1.2
+ naturalnego w gospodarstwach rolnych
+ Pomoc na inwestycje dotyczące przeniesienia budynków gospodarczych       A1.1.3
+ Pomoc na inwestycje związane z przetwarzaniem i wprowadzaniem do         A1.1.4
+ obrotu produktów rolnych
+ Pomoc na rozpoczęcie działalności dla młodych rolników i na rozwój       A1.1.5
+ małych gospodarstw rolnych
+ Pomoc na przenoszenie gospodarstw rolnych                                A1.1.6
+ Pomoc na rozpoczynanie działalności dla grup i organizacji producentów   A1.1.7
+ w sektorze rolnym
+ Pomoc na zobowiązania rolno-środowiskowo-klimatyczne                     A1.1.8
+ Pomoc na zobowiązania związane z dobrostanem zwierząt                    A1.1.9
+ Pomoc na niwelowanie niedogodności związanych z obszarami Natura         A1.1.10
+ 2000 oraz z ramową dyrektywą wodną
+ Pomoc na rzecz obszarów z ograniczeniami naturalnymi lub innymi          A1.1.11
+ szczególnymi ograniczeniami
+ Pomoc na rzecz rolnictwa ekologicznego                                   A1.1.12
+                                          – 18 –
+
+
+Pomoc na uczestnictwo producentów produktów rolnych w systemach     A1.1.13
+jakości
+Pomoc na przekazywanie wiedzy i działania informacyjne              A1.1.14
+Pomoc na usługi doradcze                                            A1.1.15
+Pomoc na usługi zastępowania rolników                               A1.1.16
+Pomoc na współpracę w sektorze rolnym                               A1.1.17
+Zarządzanie ryzykiem i zarządzanie w sytuacjach kryzysowych         A1.2.1
+Pomoc mająca na celu naprawienie szkód spowodowanych klęskami
+żywiołowymi lub innymi zdarzeniami nadzwyczajnymi
+Pomoc na naprawę szkód spowodowanych przez niekorzystne zjawiska    A1.2.2
+klimatyczne porównywalne do klęski żywiołowej
+Pomoc na pokrycie kosztów zapobiegania chorobom zwierząt i          A1.2.3
+szkodnikom roślin i zwalczania ich oraz pomoc na wyrównanie strat
+spowodowanych chorobami zwierząt lub działaniem szkodników roślin
+Pomoc dotycząca padłych zwierząt gospodarskich                      A1.2.4
+Pomoc przeznaczona na naprawę szkód spowodowanych przez zwierzęta   A1.2.5
+chronione
+Pomoc na opłacenie składek ubezpieczeniowych                        A1.2.6
+Pomoc na wkład finansowy na rzecz funduszy wspólnego inwestowania   A1.2.7
+Likwidacja zdolności produkcyjnych ze względów związanych ze        A1.2.8
+zdrowiem ludzi, zwierząt lub roślin bądź z przyczyn sanitarnych,
+etycznych lub środowiskowych
+Likwidacja zdolności produkcyjnych z innych powodów                 A1.2.9
+Inne rodzaje pomocy w sektorze rolnym                               A1.3.1
+Pomoc dla sektora produkcji zwierzęcej                              A1.3.2
+Pomoc na działania promocyjne dotyczące produktów rolnych           A1.3.3
+Pomoc na rzecz scalania gruntów rolnych                             A1.3.4
+Pomoc na ratowanie i restrukturyzację zagrożonych przedsiębiorstw   A1.3.1
+Pomoc na działalność badawczo-rozwojową                             A1.3.5
+Pomoc w sektorze leśnym, współfinansowana przez EFRROW,             A2.1.1
+przyznana jako dodatkowe finansowanie krajowe na współfinansowane
+środki pomocy lub wyłącznie jako pomoc państwa
+Pomoc na zalesianie i tworzenie terenu zalesionego
+                                         – 19 –
+
+
+Pomoc na zakładanie systemów rolno-leśnych                                A2.1.2
+Pomoc na zapobieganie zniszczeniom lasów wskutek pożarów lasów,           A2.1.3
+klęsk żywiołowych, niekorzystnych zjawisk klimatycznych
+porównywalnych z klęską żywiołową, innych niekorzystnych zjawisk
+klimatycznych, działań szkodników roślin i katastrof oraz na wyrównanie
+związanych z nimi szkód
+Pomoc na inwestycje zwiększające odporność ekosystemów leśnych i ich      A2.1.4
+wartość dla środowiska
+Pomoc na inwestycje w nowe technologie w dziedzinie leśnictwa oraz        A2.1.5
+w pozyskiwanie, przetwarzanie i wprowadzanie do obrotu produktów
+leśnych
+Pomoc na inwestycje w infrastrukturę związane z rozwojem,                 A2.1.6
+modernizacją i dostosowaniem leśnictwa
+Pomoc na niwelowanie niedogodności związanych z obszarami leśnymi         A2.1.7
+Natura 2000
+Pomoc na usługi leśno-środowiskowe i klimatyczne oraz ochronę lasów       A2.1.8
+Pomoc na przekazywanie wiedzy i działania informacyjne w sektorze         A2.1.9
+leśnym
+Pomoc na usługi doradcze w sektorze leśnym                                A2.1.10
+Pomoc na współpracę w sektorze leśnym                                     A2.1.11
+Pomoc na rozpoczynanie działalności dla grup i organizacji producentów    A2.1.12
+w sektorze leśnym
+Pomoc na szczególne działania i interwencje w sektorze leśnym, której     A2.1.13
+głównym celem jest utrzymanie lub przywrócenie ekosystemu leśnego i
+bioróżnorodności lub tradycyjnego krajobrazu
+Pomoc na utrzymanie i poprawę jakości gleby oraz zapewnienie              A2.1.14
+równomiernego i zdrowego wzrostu drzew w sektorze leśnym
+Przywracanie i utrzymanie naturalnych ścieżek, elementów i cech           A2.1.15
+krajobrazu oraz siedlisk przyrodniczych zwierząt w sektorze leśnym
+Pomoc na utrzymanie dróg w celu zapobiegania pożarom lasów                A2.1.16
+Pomoc na naprawianie szkód spowodowanych w lasach przez zwierzęta o       A2.1.17
+statusie regulowanym przez prawo
+Pomoc na ustanowienie planów urządzenia lasu                              A2.1.18
+                                         – 20 –
+
+
+Pomoc na badania i rozwój w sektorze leśnym                            A2.1.19
+Pomoc na scalanie gruntów leśnych                                      A2.1.20
+Pomoc na systemy rolno-leśne                                           A2.1.21
+Pomoc na zachowanie zasobów genetycznych w leśnictwie                  A2.1.22
+Środki pomocy na obszarach wiejskich współfinansowane przez            A3.1.1
+EFRROW
+lub przyznane jako dodatkowe finansowanie krajowe na takie
+współfinansowane środki
+Pomoc na inwestycje dotyczące przetwarzania produktów rolnych na
+produkty nierolne, produkcji bawełny lub inwestycje w tworzenie i
+rozwój działalności pozarolniczej
+Pomoc na podstawowe usługi i odnowę wsi na obszarach wiejskich         A3.1.3
+A3.1.2
+Pomoc na rozpoczęcie pozarolniczej działalności gospodarczej na
+obszarach wiejskich
+Pomoc na zobowiązania rolno-środowiskowo-klimatyczne dla innych        A3.1.4
+zarządców gruntów oraz przedsiębiorstw na obszarach wiejskich, które
+nie prowadzą
+działalności w sektorze rolnym
+Pomoc na niwelowanie niedogodności związanych z obszarami Natura       A3.1.5
+2000 dla innych zarządców gruntów
+Pomoc na przekazywanie wiedzy i działania informacyjne na obszarach    A3.1.6
+wiejskich
+Pomoc na usługi doradcze na obszarach wiejskich                        A3.1.7
+Pomoc na przystępowanie rolników do systemów jakości bawełny lub       A3.1.8
+środków spożywczych
+Pomoc na działania informacyjne i promocyjne dotyczące bawełny i       A3.1.9
+środków spożywczych objętych systemami jakości
+Pomoc na współpracę na obszarach wiejskich                             A3.1.10
+Pomoc na ustanowienie funduszy wspólnego inwestowania                  A3.1.11
+POMOC SEKTOROWA – RYBOŁÓWSTWO
+SEKCJA 1 – Zrównoważony rozwój rybołówstwa
+Pomoc na innowacje                                                     B1.1.1
+                                         – 21 –
+
+
+Pomoc na usługi doradcze                                                B1.1.2
+Pomoc na partnerstwo między naukowcami a rybakami                       B1.1.3
+Pomoc na wspieranie kapitału ludzkiego, tworzenie miejsc pracy i        B1.1.4
+dialogu społecznego
+Pomoc na ułatwienie różnicowania form dochodu i nowe formy dochodu      B1.1.5
+Pomoc na rozpoczęcie działalności przez młodych rybaków                 B1.1.6
+Pomoc na poprawę warunków zdrowotnych i bezpieczeństwa                  B1.1.7
+Pomoc na rzecz funduszy wspólnego inwestowania na wypadek               B1.1.8
+niekorzystnych zjawisk klimatycznych oraz incydentów środowiskowych
+Pomoc na wspieranie systemów przydziału uprawnień do połowów            B1.1.9
+Pomoc na opracowywanie i wdrażanie środków ochrony oraz współpracę      B1.1.10
+regionalną
+Pomoc na zmniejszanie oddziaływania rybołówstwa na środowisko           B1.1.11
+morskie i dostosowanie połowów do wymogów ochrony gatunków
+Pomoc na innowacje związane z ochroną morskich zasobów                  B1.1.12
+biologicznych
+Pomoc na ochronę i odbudowę morskiej różnorodności biologicznej         B1.1.13
+i ekosystemów oraz systemów rekompensat w ramach zrównoważonej
+działalności połowowej
+Pomoc na poprawę efektywności energetycznej i łagodzenie skutków        B1.1.14
+zmiany klimatu
+Pomoc w zakresie wartości dodanej, jakości produktów i wykorzystania    B1.1.15
+przypadkowych połowów
+Pomoc w zakresie wartości dodanej, jakości produktów i wykorzystania    B1.1.16
+przypadkowych połowów
+Pomoc na wspieranie portów rybackich, miejsc wyładunku, hal             B1.1.17
+aukcyjnych i przystani
+Pomoc na rzecz rybołówstwa śródlądowego oraz śródlądowej fauny i        B1.1.14
+flory wodnej
+SEKCJA 2 – Zrównoważony rozwój akwakultury
+Pomoc na innowacje w sektorze akwakultury                               B2.1.1
+Pomoc na rzecz inwestycji produkcyjnych w sektorze akwakultury          B2.1.2
+Pomoc na rzecz usług z zakresu zarządzania, zastępstw i doradztwa dla   B2.1.3
+                                         – 22 –
+
+
+gospodarstw akwakultury
+Pomoc na wspieranie kapitału ludzkiego i tworzenie sieci współpracy w   B2.1.4
+sektorze akwakultury
+Pomoc na zwiększanie potencjału terenów hodowli w ramach                B2.1.5
+akwakultury
+Pomoc na zachęty dla nowych hodowców prowadzących zrównoważoną          B2.1.6
+działalność w sektorze akwakultury
+Pomoc na wspieranie przechodzenia na systemy ekozarządzania i audytu    B2.1.7
+oraz na akwakulturę ekologiczną
+Pomoc na wspieranie akwakultury świadczącej usługi w zakresie ochrony   B2.1.8
+środowiska
+Pomoc przeznaczona na środki na rzecz zdrowia publicznego               B2.1.9
+Pomoc przeznaczona na środki z zakresu zdrowia i dobrostanu zwierząt    B2.1.10
+Pomoc przeznaczona na ubezpieczenie zasobów hodowlanych                 B2.1.11
+akwakultury
+SEKCJA 3 – Środki dotyczące wprowadzania do obrotu i przetwarzania
+Pomoc na środki dotyczące wprowadzania do obrotu                        B3.1.1
+Pomoc na przetwarzanie produktów rybołówstwa i akwakultury              B3.1.2
+SEKCJA 4 – Inne rodzaje pomocy
+Pomoc na gromadzenie danych                                             B4.1.1
+Pomoc na wyrównanie szkód spowodowanych przez klęski żywiołowe          B4.1.2
+Zwolnienia i ulgi podatkowe zgodne z dyrektywą 2003/96/WE               B4.1.3
+Pomoc mająca na celu naprawienie szkód spowodowanych klęskami           B4.1.4
+żywiołowymi lub innymi zdarzeniami nadzwyczajnymi
+Pomoc na wyrównanie szkód spowodowanych przez niekorzystne              B4.1.5
+zjawiska klimatyczne
+Pomoc na pokrycie kosztów zapobiegania, kontrolowania i zwalczania      B4.1.6
+chorób zwierząt w sektorze akwakultury
+Pomoc finansowana poprzez opłaty parafiskalne                           B4.1.7
+Pomoc na inne środki                                                    B4.1.8
+POMOC HORYZONTALNA – ROLNICTWO LUB RYBOŁÓWSTWO
+Pomoc na działalność badawczą, rozwojową i innowacyjną                  C1
+Pomoc na ochronę środowiska i cele związane z energią                   C2
+                                           – 23 –
+
+
+ Pomoc dla małych i średnich przedsiębiorstw                                C3
+ Pomoc dla pracowników znajdujących się w szczególnie niekorzystnej         C4
+ sytuacji oraz pracowników niepełnosprawnych
+ Pomoc szkoleniowa                                                          C5
+ Pomoc na ratowanie                                                         C6
+ Pomoc na restrukturyzację                                                  C7
+ INNE                                                                       C8
+ POMOC DE MINIMIS W ROLNICTWIE LUB RYBOŁÓWSTWIE
+ Pomoc de minimis w rolnictwie udzielana zgodnie z rozporządzeniem          D1
+ Komisji (UE) nr 1408/2013 z dnia 18 grudnia 2013 r. w sprawie
+ stosowania art. 107 i 108 Traktatu o funkcjonowaniu Unii Europejskiej do
+ pomocy de minimis w sektorze rolnym (Dz. Urz. UE L 352 z 24.12.2013,
+ str. 9 z późn. zm.)
+ Pomoc de minimis w rybołówstwie udzielana zgodnie z rozporządzeniem        D2
+ Komisji (UE) nr 717/2014 z dnia 27 czerwca 2014 r. w sprawie
+ stosowania art. 107 i 108 Traktatu o funkcjonowaniu Unii Europejskiej do
+ pomocy de minimis w sektorzerybołówstwa i akwakultury (Dz. Urz. UE
+ L 190 z 28.06.2014, str. 45 zpóźn. zm.)
+
+
+Kol. 18 – Intensywność pomocy – oznacza kwotę pomocy wyrażoną jako procent kosztów
+kwalifikowalnych (intensywność pomocy mieści się w przedziale od 0 do 100%). W
+przypadku pomocy de minimis w rolnictwie lub rybołówstwie należy wpisać wyraz „brak”.
+
+
+Kol. 19 – Źródło pochodzenia pomocy – należy podać kod wskazujący pochodzenie środków
+pomocowych.
+                                                                                 Kod
+ Wyszczególnienie
+ Środki pochodzące ze źródeł krajowych                                           A
+ Środki pochodzące ze źródeł zagranicznych                                       B
+ Środki pochodzące ze źródeł krajowych i zagranicznych                           AB
+                                         – 24 –
+
+
+
+
+                                                                        Załącznik nr 2
+
+
+                                        WZÓR
+
+  INFORMACJA O NIEUDZIELENIU POMOCY PUBLICZNEJ W ROLNICTWIE
+
+       LUB RYBOŁÓWSTWIE ORAZ POMOCY DE MINIMIS W ROLNICTWIE
+
+                               LUB RYBOŁÓWSTWIE
+
+
+Nazwa podmiotu udzielającego pomocy ………………………………………….............
+Adres siedziby podmiotu udzielającego pomocy ……………………………………...…
+Numer identyfikacji podatkowej (NIP) podmiotu udzielającego pomocy ………………..
+Informuję, że w ………. roku nie udzielono pomocy publicznej w rolnictwie lub
+rybołówstwie oraz pomocy de minimis w rolnictwie i rybołówstwie.
+Dane osoby upoważnionej do przekazywania informacji:
+……………………… …………………….. ……………
+
+
+Imię i nazwisko
+……………………………………….
+Stanowisko służbowe
+……………………………………….
+Data
+                                          – 25 –
+
+
+                                    UZASADNIENIE
+
+
+
+Potrzeba i cel wydania rozporządzenia.
+Zgodnie z art. 2 ustawy z dnia … 2025 r. o zmianie ustawy o postępowaniu w sprawach
+dotyczących pomocy publicznej zachodzi konieczność wydania nowego rozporządzenia w
+sprawie sprawozdań o udzielonej pomocy publicznej w rolnictwie lub rybołówstwie oraz
+informacji o nieudzieleniu takiej pomocy. Dotychczasowe przepisy wykonawcze wydane na
+podstawie art. 32a ust. 4 ustawy z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach
+dotyczących pomocy publicznej zachowują moc do dnia wejścia w życie przepisów
+wykonawczych wydanych na podstawie ww. przepisów. Procedowana zmiana ustawy
+przewiduje okres przejściowy dla przepisów regulujących zakres informacji składanych przez
+podmioty ubiegające się o pomoc de minimis w rolnictwie lub rybołówstwie.
+Zatem zachowanie w mocy przepisów wynikających z przedmiotowego rozporządzenia jest
+niezbędne dla zapewnienia ciągłości prawnej i organizacyjnej udzielania pomocy de minimis
+w rolnictwie lub rybołówstwie oraz zapewni zgodność przepisów wykonawczych z nową
+podstawą prawną
+
+
+Szczegółowe rozwiązania zawarte w projekcie.
+Projektowane rozporządzenie stanowi wykonanie delegacji ustawowej określonej w art. 32a
+ust. 4 ustawy z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach dotyczących pomocy
+publicznej. Projektowane rozporządzenie zastąpi dotychczas obowiązujące rozporządzenie
+Rady Ministrów z w sprawie sprawozdań o udzielonej pomocy publicznej w rolnictwie lub
+rybołówstwie oraz informacji o nieudzieleniu takiej pomocy.
+Projekt rozporządzenia określa zakres sprawozdań o udzielonej pomocy publicznej w
+rolnictwie lub rybołówstwie oraz o udzielonej pomocy de minimis w rolnictwie lub
+rybołówstwie a także zakres informacji o nieudzieleniu takiej pomocy.
+Wprowadzone zmiany dokonano odpowiednio:
+- w kol. 2 podstawa prawna – uzupełniono o dodanie kolejnych nr kodów z przypisanymi do
+tych kodów ustawami na podstawie których udzielana jest pomoc;
+- w kol. 4 program pomocowy - przyporządkowanie stosownego rozporządzenia Komisji (UE)
+na podstawie, którego udzielana jest pomoc de minimis w rolnictwie lub rybołówstwie i
+akwakulturze;
+                                            – 26 –
+
+
+- w kol. 8 wskazanie kategorii przedsiębiorstwa – usunięto rubrykę: przedsiębiorstwo
+nienależące do żadnej z powyższych kategorii, kod 3 z uwagi iż podane mikroprzedsiębiorstwo,
+małe przedsiębiorstwo, średnie przedsiębiorstwo określają wielkość beneficjenta na dzień
+udzielenia pomocy.
+Proponuje się, aby rozporządzenie weszło w życie z dniem ogłoszenia. Data ta wynika z utraty
+mocy obowiązujących przepisów wykonawczych, zgodnie z art. 4 ustawy z o postępowaniu w
+sprawach dotyczących pomocy publicznej.
+
+
+Pozostałe informacje.
+Projekt jest zgodny z prawem Unii Europejskiej.
+Projekt nie wymaga przedstawienia właściwym organom i instytucjom Unii Europejskiej, w
+tym Europejskiemu       Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+Projekt rozporządzenia nie zostanie przesłany do zaopiniowania przez Komisję Wspólną Rządu
+i Samorządu Terytorialnego, ponieważ jednostkom samorządu terytorialnego aplikacja została
+udostępniona we wcześniejszych latach na podstawie rozporządzenia Rady Ministrów z dnia
+28 lipca 2009 r. w sprawie przekazywania sprawozdań albo informacji dotyczących pomocy
+publicznej w rolnictwie lub rybołówstwie z wykorzystaniem aplikacji (Dz. U. poz. 1053, z
+późn. zm.). Projekt rozporządzenia nie wprowadza nowych obowiązków dla jednostek
+samorządu terytorialnego.
+Projekt nie będzie przedmiotem konsultacji społecznych ponieważ nie wprowadza żadnych
+przepisów dotyczących tej grupy odbiorców.
+Projekt nie podlega procedurze notyfikacji w rozumieniu przepisów rozporządzenia Rady
+Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego systemu
+notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.), ponieważ nie zawiera
+przepisów technicznych.
+Projekt nie będzie miał negatywnego wpływu na mikroprzedsiębiorców, małych i średnich
+przedsiębiorców, ponieważ nie wpływa na możliwość udzielania przedsiębiorcom wsparcia
+określonego w nowelizowanych przepisach. Celem wprowadzanych zmian jest zapewnienie
+zgodności udzielanej pomocy de minimis w rolnictwie z obecnie obowiązującymi przepisami
+prawa Unii Europejskiej.
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2025 r. poz. 677) projekt zostanie udostępniony na stronie podmiotowej
+                                          – 27 –
+
+
+Ministerstwa Rolnictwa i Rozwoju Wsi. Ponadto stosownie do § 52 ust. 1 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r.
+poz. 806, późn. zm.) projekt zostanie udostępniony w Biuletynie Informacji Publicznej na
+stronie podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces
+Legislacyjny.
+Projekt został wpisany do Wykazu prac legislacyjnych i programowych Rady Ministrów pod
+nr ……………..
+                                                – 28 –
+
+
+Nazwa projektu                                                    Data sporządzenia
+Projekt rozporządzenia Rady Ministrów w sprawie sprawozdań o      29.07.2025 r.
+udzielonej pomocy publicznej w rolnictwie lub rybołówstwie oraz
+informacji o nieudzieleniu takiej pomocy                          Źródło:
+                                                                  Inicjatywa własna
+Ministerstwo wiodące i ministerstwa współpracujące
+Ministerstwo Rolnictwa i Rozwoju Wsi                              Nr w wykazie prac:
+                                                                  UD…..
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza
+Stanu lub Podsekretarza Stanu
+Stefan Krajewski – Minister Rolnictwa i Rozwoju Wsi
+
+
+Kontakt do opiekuna merytorycznego projektu
+Beata Gawlik-Pliszka, zastępca dyrektora, Departament Budżetu,
+tel. 22 623 16 64
+
+                             OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+W związku z uchwaleniem ustawy z dnia … 2025 r. o zmianie ustawy o postępowaniu w sprawach
+dotyczących pomocy publicznej zachodzi konieczność wydania nowego rozporządzenia w sprawie
+sprawozdań o udzielonej pomocy publicznej w rolnictwie lub rybołówstwie oraz informacji o nieudzieleniu
+takiej pomocy.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+
+Wszystkie państwa członkowskie UE są zobowiązane do określenia warunków udzielania pomocy de minimis
+w rolnictwie zgodnie z obowiązującymi w tym zakresie przepisami prawa unijnego.
+4. Podmioty, na które oddziałuje projekt
+Grupa                       Wielkość             Źródło danych                    Oddziaływanie
+
+Podmioty udzielające        Ok. 3 tys.           System Rejestracji Pomocy        Monitorowanie pomocy w
+pomoc                                            Publicznej                       rolnictwie lub
+                                                                                  rybołówstwie, pomocy de
+                                                                                  minimis w rolnictwie lub
+                                                 – 29 –
+
+
+                                                                                   rybołówstwie zgodnie z
+                                                                                   obowiązującymi
+                                                                                   przepisami
+
+
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt rozporządzenia zostanie przekazany do opiniowania i konsultacji publicznych, które będą trwać 21
+dni. Etap opiniowania i konsultacji wynika z konieczności zachowania w mocy przepisów rozporządzenia w
+sprawie informacji składanych przez podmioty ubiegające się o pomoc de minimis w rolnictwie lub
+rybołówstwie. Należy przy tym wskazać, że wprowadzane w nowelizowanym rozporządzeniu zmiany mają
+charakter dostosowujący i redakcyjny.
+Projekt w ramach konsultacji publicznych zostanie przekazany do:
+Business Centre Club;
+Federacji Branżowych Związków Producentów Rolnych;
+Federacji Producentów Żywności Związek Pracodawców;
+Federacji Przedsiębiorców Polskich;
+Federacji Związków Kółek i Organizacji Rolniczych RP;
+Forum Aktywizacji Obszarów Wiejskich;
+Forum Związków Zawodowych;
+Instytutu Gospodarki Rolnej;
+Konfederacji Lewiatan;
+Krajowego Związku Grup Producentów Rolnych – Izby Gospodarczej;
+Krajowego Związku Rewizyjnego Rolniczych Spółdzielni Produkcyjnych;
+Krajowego Związku Rolników, Kółek i Organizacji Rolniczych;
+Krajowej Izby Gospodarczej, Komitetu Rolnictwa i Obrotu Rolnego;
+Krajowej Rady Drobiarstwa – Izby Gospodarczej;
+Krajowej Rady Izb Rolniczych;
+Krajowej Rady Spółdzielczej;
+Niezależnego Samorządowego Związku Zawodowego Rolników Indywidualnych „Solidarność”;
+Ogólnopolskiego Porozumienia Związków Zawodowych Rolników i Organizacji Rolniczych;
+Ogólnopolskiego Porozumienia Związków Zawodowych;
+Ogólnopolskiej Federacji Przedsiębiorców i Pracodawców Przedsiębiorcy.pl;
+Polską Radę ds. Wieprzowiny;
+                                                – 30 –
+
+
+Polski Związek Owczarski;
+Polski Związek Pszczelarski
+Polskiego Stowarzyszenia Zrównoważonego Rolnictwa i Żywności;
+Polskiego Związek Producentów Roślin Zbożowych;
+Polski związek Hodowców koni;
+Polskiego Związku Hodowców i Producentów Trzody Chlewnej „POLSUS”;
+Polskiego Związku Zawodowego Rolników;
+Polskiego Związku Zrzeszeń Hodowców i Producentów Drobiu;
+Polskiej Federacji Hodowców Bydła i Producentów Mleka;
+Polskiej Federacji Rolnej;
+Pracodawców Rzeczpospolitej Polskiej;
+Rady Dialogu Społecznego;
+Sekretariatu Rolnictwa Komisji Krajowej NSZZ „Solidarność”;
+Stowarzyszenie Pszczelarzy Polskich POLANKA;
+Związku Gmin Wiejskich Rzeczypospolitej Polskiej;
+Związku Polskie Mięso;
+Związku Przedsiębiorców i Pracodawców;
+Związku Rzemiosła Polskiego;
+Związku Sadowników RP;
+Związku Zawodowego Centrum Narodowe Młodych Rolników;
+Związku Zawodowego Pracowników Rolnictwa w RP;
+Związku Zawodowego Rolnictwa „KORONA”;
+Związku Zawodowego Rolnictwa „SAMOOBRONA”;
+Związku Zawodowego Rolnictwa i Obszarów Wiejskich „Regiony”;
+Związku Zawodowego Rolników „Ojczyzna”;
+Związku Zawodowego Rolników Rzeczpospolitej „Solidarni”;
+Związku Zawodowego Wsi i Rolnictwa „Solidarność Wiejska”.
+
+
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2024 r.)         Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                               0    1     2     3     4     5     6    7     8     9       10   Łącznie (0-
+                                                                                                10)
+Dochody ogółem                 0    0     0     0     0     0     0    0     0     0       0    0
+                                                      – 31 –
+
+
+budżet państwa                   0        0       0   0    0       0   0       0   0   0        0   0
+JST                              0        0       0   0    0       0   0       0   0   0        0   0
+pozostałe jednostki              0        0       0   0    0       0   0       0   0   0        0   0
+(oddzielnie)
+Wydatki ogółem                   0        0       0   0    0       0   0       0   0   0        0   0
+budżet państwa                   0        0       0   0    0       0   0       0   0   0        0   0
+JST                              0        0       0   0    0       0   0       0   0   0        0   0
+pozostałe jednostki              0        0       0   0    0       0   0       0   0   0        0   0
+(oddzielnie)
+Saldo ogółem                     0        0       0   0    0       0   0       0   0   0        0   0
+budżet państwa                   0        0       0   0    0       0   0       0   0   0        0   0
+JST                              0        0       0   0    0       0   0       0   0   0        0   0
+pozostałe jednostki              0        0       0   0    0       0   0       0   0   0        0   0
+(oddzielnie)
+
+
+                        Wejście w życie rozporządzenia nie będzie miało wpływu na sektor finansów
+                        publicznych, w tym na wydatki i dochody budżetu państwa oraz jednostek samorządu
+Źródła finansowania     terytorialnego.
+                        Projektowane rozporządzenie nie stanowi podstawy prawnej udzielania pomocy w
+                        rolnictwie lub rybołówstwie.
+
+
+Dodatkowe               Nie dotyczy.
+informacje, w tym
+wskazanie źródeł
+danych i przyjętych
+do obliczeń założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz na
+rodzinę, obywateli i gospodarstwa domowe
+Skutki
+Czas w latach od wejścia w życie              0       1        2           3       5       10       Łącznie
+zmian                                                                                               (0-10)
+W ujęciu         duże                                                                               Nie
+                                                    – 32 –
+
+
+pieniężnym        przedsiębiorstwa                                                               dotyczy
+(w mln zł,        sektor mikro-,
+ceny stałe        małych i średnich                                                              Nie
+z 2024 r.)        przedsiębiorstw                                                                dotyczy
+                  rodzina, obywatele,                                                            Nie
+                  gospodarstwa                                                                   dotyczy
+                  domowe oraz osoby
+                  starsze
+                  i z niepełnosprawnoś
+                  cią
+W ujęciu          duże                     Nie dotyczy.
+niepieniężny      przedsiębiorstwa
+m
+                  sektor mikro-,           Nie dotyczy.
+                  małych i średnich
+                  przedsiębiorstw
+                  rodzina, obywatele,      Nie dotyczy.
+                  gospodarstwa
+                  domowe oraz osoby
+                  starsze
+                  i z niepełnosprawnoś
+                  cią
+Niemierzalne                               Nie dotyczy.
+Dodatkowe
+                         Projekt nie będzie miał wpływu na konkurencyjność gospodarki i przedsiębiorczość,
+informacje, w tym
+                         w tym funkcjonowanie przedsiębiorców, oraz na obywateli i gospodarstwa domowe, a
+wskazanie źródeł
+                         także na sytuację ekonomiczną i społeczną rodziny, osób niepełnosprawnych oraz
+danych i przyjętych
+                         osób starszych.
+do obliczeń założeń
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+    nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie                  tak
+wymaganymi przez UE (szczegóły w odwróconej                  nie
+                                                   – 33 –
+
+
+tabeli zgodności).                                          nie dotyczy
+
+
+   zmniejszenie liczby dokumentów                           zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                             zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                    wydłużenie czasu na załatwienie sprawy
+   inne:                                                    inne:
+
+
+Wprowadzane obciążenia są przystosowane do ich           tak
+elektronizacji.                                             nie
+                                                            nie dotyczy
+
+
+Projektowane rozporządzenie nie wpłynie na istniejące obciążenia regulacyjne.
+
+9. Wpływ na rynek pracy
+
+
+Projektowane rozporządzenie nie będzie miało wpływu na rynek pracy
+
+
+10. Wpływ na pozostałe obszary
+
+
+   środowisko naturalne                  demografia                              informatyzacja
+   sytuacja i rozwój regionalny          mienie państwowe                        zdrowie
+   sądy powszechne,                      inne:
+administracyjne lub wojskowe
+                       Projektowane rozporządzenie nie będzie miało wpływu na pozostałe obszary.
+Omówienie wpływu
+
+11. Planowane wykonanie przepisów aktu prawnego
+
+Wejście w życie projektowanego rozporządzenia jest planowane w III kwartale 2025 r.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Z uwagi na przedmiotowy zakres regulacji projektowanego rozporządzenia jego ewaluacja jest niezasadna.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak załączników.
+                                                                                     Projekt
+                               ROZPORZĄDZENIE
+
+                               RADY MINISTRÓW
+
+                                            z dnia
+
+ w sprawie informacji składanych przez podmioty ubiegające się o pomoc de minimis w
+                                rolnictwie lub rybołówstwie
+
+
+     Na podstawie art. 37 ust. 2a ustawy z dnia 30 kwietnia 2004 r. o postępowaniu w sprawach
+dotyczących pomocy publicznej (Dz. U. z 2025 r. poz. 468 i …) zarządza się, co następuje:
+
+     § 1. Rozporządzenie określa zakres informacji przedstawianych przez podmiot ubiegający
+się o pomoc de minimis w rolnictwie lub rybołówstwie, zwany dalej ,,wnioskodawcą'”,
+niezbędnych do udzielenia tej pomocy oraz wzór formularza, na którym są przekazywane
+informacje.
+
+     § 2. 1. Wnioskodawca przekazuje podmiotowi udzielającemu pomocy informacje
+dotyczące:
+1)   wnioskodawcy, w tym:
+     a)   imię i nazwisko albo firmę,
+     b)   miejsce zamieszkania i adres albo siedzibę i adres,
+     c)   rodzaj prowadzonej działalności, w związku z którą ubiega się o pomoc,
+     d)   numer identyfikacyjny powszechnego elektronicznego systemu ewidencji ludności
+          (numer PESEL),
+     e)   numer identyfikacji podatkowej (NIP) beneficjenta pomocy;
+2)   otrzymanej pomocy publicznej w odniesieniu do tych samych kosztów kwalifikujących
+     się do objęcia pomocą, na pokrycie których ma być udzielana pomoc de minimis w
+     rolnictwie lub rybołówstwie, w tym:
+     a)   wielkość pomocy publicznej,
+     b)   przeznaczenie pomocy publicznej,
+     c)   dzień udzielenia pomocy publicznej,
+     d)   podstawę prawną udzielenia pomocy publicznej,
+     e)   formę, w jakiej pomoc publiczna została udzielona,
+     f)   program pomocowy/pomoc indywidualna,
+     g)   wielkość przedsiębiorstwa,
+                                                      –2–
+
+
+       h)    klasa rodzaju działalności wg. Polskiej Klasyfikacji Działalności (PKD).
+       2. Informacje wymienione w ust. 1 są przekazywane na formularzu, którego wzór jest
+określony w załączniku do rozporządzenia.
+       § 3. Do spraw wszczętych i niezakończonych do dnia wejścia niniejszego rozporządzenia,
+stosuje się przepisy niniejszego rozporządzenia.
+
+       § 4. Rozporządzenie wchodzi w życie z dniem....1)
+
+
+                                                                  PREZES RADY MINISTRÓW
+
+
+
+
+1)
+     Niniejsze rozporządzenie było poprzedzone rozporządzeniem Rady Ministrów z dnia 11 czerwca 2010 r. w
+     sprawie informacji składanych przez podmioty ubiegające się o pomoc de minimis w rolnictwie lub
+     rybołówstwie (Dz. U. poz. 810), które traci moc z dniem wejścia w życie ustawy z dnia ……. 2025 r. o zmianie
+     ustawy o postępowaniu w sprawach dotyczących pomocy publicznej (Dz. U. poz. …).
+                                                         –3–
+
+
+                                                                                           Załącznik
+                                                                                           do rozporządzenia
+                                                                                           Rady Ministrów
+                                                                                           z dnia
+                                                                                           (Dz. U. poz. )
+
+
+                                                        WZÓR
+
+
+
+                       FORMULARZ INFORMACJI PRZEDSTAWIANYCH PRZEZ WNIOSKODAWCĘ
+
+
+
+1) Imię i nazwisko albo firma wnioskodawcy
+
+…………………………………………………………………………………………………………………………………………………………….
+
+2) Miejsce zamieszkania i adres albo siedziba i adres wnioskodawcy
+
+…………………………………………………………………………………………………………………………………………………………….
+
+…………………………………………………………………………………………………………………………………………………………….
+
+3) Rodzaj prowadzonej działalności, w związku z którą ubiega się o pomoc:
+
+       działalność w rolnictwie
+       działalność w rybołówstwie
+4) PESEL i NIP beneficjenta pomocy*
+
+5) Informacja o otrzymanej pomocy publicznej w odniesieniu do tych samych kosztów kwalifikujących
+    się do objęcia pomocą, na których pokrycie ma być udzielona pomoc de minimis w rolnictwie lub
+    rybołówstwie
+
+ Lp         Dzień        Podstaw    Wartość      Forma       Przeznaczenie        Program         Wielkość       Klasa
+  .       udzielenia        a       pomocy3)    pomocy4)       pomocy5)          pomocowy/       przedsiębio     PKD8)
+          pomocy1)       prawna2)                                                  Pomoc           rstwa7)
+                                                                               indywidualna6)
+ 1
+ 2
+ 3
+ 4
+ 5
+
+
+
+Objaśnienia:
+     1)   Dzień udzielenia pomocy – podać dzień udzielenia pomocy wynikający z decyzji lub umowy,
+     2)   Podstawa prawna – podać tytuł aktu prawnego stanowiącego podstawę do udzielenia pomocy,
+     3)   Wartość otrzymanej pomocy – podać wartość pomocy jako ekwiwalent dotacji brutto określony w decyzji lub
+          umowie,
+     4)   Forma pomocy – wpisać formę otrzymanej pomocy, tj.: dotacja, dopłaty do oprocentowania kredytów, zwolnienie
+          lub umorzenie z podatku lub opłat, refundacja w całości lub w części, lub inne,
+     5)   Przeznaczenie otrzymanej pomocy – wskazać, czy koszty które zostały objęte pomocą, dotyczą inwestycji w
+          gospodarstwie rolnym lub w rybołówstwie czy działalności bieżącej,
+     6)   Program pomocowy/Pomoc indywidualna – należy podać numer programu pomocowego lub numer pomocy
+          indywidualnej. W przypadku pomoce de minimis w rolnictwie lub rybołówstwie należy podać numer
+          rozporządzenia Komisji Europejskiej na podstawie, którego udzielona została pomoc,
+                                                        –4–
+
+
+   7)   Wielkość przedsiębiorstwa Kategoria przedsiębiorstwa - wskazanie kategorii przedsiębiorstwa, przy którego użyciu
+        beneficjent pomocy wykonuje działalność w rozumieniu załącznika I do rozporządzenia Komisji (UE) nr 2022/2472 z
+        dnia 14 grudnia 2022 r. uznającego niektóre kategorie pomocy w sektorach rolnym i leśnym oraz na obszarach
+        wiejskich za zgodne z rynkiem wewnętrznym w zastosowaniu art. 107 i 108 Traktatu o funkcjonowaniu Unii
+        Europejskiej (Dz. Urz. UE L 2022.327.1) — należy wpisać odpowiedni kod:
+             mikroprzedsiębiorstwo — Kod 0;
+             małe przedsiębiorstwo — Kod 1;
+             średnie przedsiębiorstwo — Kod 2;
+   8)   Klasa PKD – należy podać klasę działalności (4 pierwsze znaki), w związku z którą beneficjent otrzymał pomoc,
+        określoną zgodnie z Rozporządzeniem Rady Ministrów z dnia 18 grudnia 2024 r. w sprawie Polskiej Klasyfikacji
+        Działalności (PKD) (Dz. U. poz. 1936).
+        (Do czasu wprowadzenia do centralnej ewidencji działalności klasy PKD zgodnej z wersją PKD2025, dozwolone jest
+        wpisanie klasy PKD w wersji PKD2007).
+
+*NIP należy podać, jeśli został nadany. W przypadku braku numeru NIP należy powtórzyć numer PESEL.
+
+
+
+
+Dane osoby upoważnionej do podpisania informacji:
+
+……………………………………………………………………………….                                             ……………………………………..
+          (Imię i nazwisko)                                                    (data i podpis)
+                                           –5–
+
+
+                                    UZASADNIENIE
+
+Potrzeba i cel wydania rozporządzenia
+Konieczność wydania nowego rozporządzenia w sprawie informacji składanych przez
+podmioty ubiegające się o pomoc de minimis w rolnictwie lub rybołówstwie stanowi
+wykonanie upoważnienia ustawowego określonego w art. 37 ust. 2a ustawy z dnia 30 kwietnia
+2004 r. o postępowaniu w sprawach dotyczących pomocy publicznej.
+W procedowanej obecnie zmianie do ustawy zaproponowane zostało nowe brzmienie art. 37
+ust. 2. Ponieważ art. 37 ust. 2a ustawy, będący przepisem upoważnionym, zawiera odesłanie
+do zmienianego w projekcie ustawy ust. 2 pkt 3 w art. 37 ustawy, zachodzi konieczność
+zachowania w mocy rozporządzenia w sprawie informacji składanych przez podmioty
+ubiegające się o pomoc de minimis w rolnictwie lub rybołówstwie, które zostało wydane na
+podstawie przepisu upoważniającego zawartego w dotychczasowej ustawie.
+Procedowana zmiana ustawy przewiduje okres przejściowy dla przepisów regulujących zakres
+informacji składanych przez podmioty ubiegające się o pomoc de minimis w rolnictwie lub
+rybołówstwie.
+Zatem zachowanie w mocy przepisów wynikających z przedmiotowego rozporządzenia jest
+niezbędne dla zapewnienia ciągłości prawnej i organizacyjnej udzielania pomocy de minimis
+w rolnictwie lub rybołówstwie oraz zapewni zgodność przepisów wykonawczych z nową
+podstawą prawną.
+Szczegółowe rozwiązania zawarte w projekcie
+Projekt rozporządzenia wymienia zakres informacji, które muszą być przedłożone przez
+beneficjentów ubiegających się o pomoc de minimis w rolnictwie lub rybołówstwie.
+Przepis § 2 ust. 1 pkt 1 rozporządzenia zawiera informacje o Wnioskodawcy, które są
+przekazywane podmiotowi udzielającemu pomocy tj.:
+   a) imię i nazwisko albo firmę,
+   b) miejsce zamieszkania i adres albo siedzibę i adres,
+   c) rodzaj prowadzonej działalności, w związku z którą ubiega się o pomoc.
+Powyższy zakres w projekcie rozporządzenia został rozszerzony o konieczność podawania
+również numeru:
+PESEL (numer identyfikacyjny powszechnego elektronicznego systemu ewidencji ludności i
+(NIP) numeru identyfikacji podatkowej, beneficjenta pomocy,
+                                            –6–
+
+
+Powyższa zmiana wynika z konieczności szczegółowego raportowania udzielonej pomocy do
+aplikacji System Rejestracji Pomocy Publicznej (SRPP).
+Obowiązek podawania numerów zarówno PESEL oraz NIP przez osoby ubiegające się o
+pomoc de minimis w rolnictwie lub rybołówstwie wynika z doświadczeń resortu, które
+pokazują, że wnioskodawcy podają zamiennie te identyfikatory u różnych podmiotów
+udzielających takiej pomocy. Należy zauważyć, że powoduje to utrudnienia przy
+monitorowaniu udzielonej pomocy.
+Przepis § 2 ust. 1 pkt 2 rozporządzenia zawiera informacje o otrzymanej pomocy publicznej w
+odniesieniu do tych samych kosztów kwalifikujących się do objęcia pomocą, na pokrycie
+których ma być udzielana pomoc de minimis w rolnictwie lub rybołówstwie, w tym:
+   a) wielkość i przeznaczenie pomocy publicznej,
+   b) dzień udzielenia pomocy publicznej,
+   c) podstawę prawną udzielenia pomocy publicznej,
+   d) formę, w jakiej pomoc publiczna została udzielona.
+Powyższy zakres w projekcie rozporządzenia został rozszerzony o konieczność podawania
+programu pomocowego, wielkości przedsiębiorstwa oraz klasy PKD.
+Powyższe ma na celu precyzyjne określenie charakteru prowadzonej działalności przez
+podmiot ubiegający się o pomoc, jak również przekazanie informacji do podmiotu
+udzielającego pomocy danych na temat dotychczas otrzymanej pomocy przez wnioskodawcę,
+celem prawidłowego monitorowania pomocy.
+Wynika to również z wymogów jakie nadkłada na państwo członkowskie Komisja Europejska
+w przepisach prawa unijnego.
+Pozostałe informacje
+Projekt jest zgodny z prawem Unii Europejskiej.
+Projekt nie wymaga przedstawienia właściwym organom i instytucjom Unii Europejskiej,
+w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+Projekt nie podlega procedurze notyfikacji w rozumieniu przepisów rozporządzenia Rady
+Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego systemu
+notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.), ponieważ nie zawiera
+przepisów technicznych.
+Projekt nie będzie miał negatywnego wpływu na mikroprzedsiębiorców, małych i średnich
+przedsiębiorców, ponieważ nie wpływa na możliwość udzielania przedsiębiorcom wsparcia
+                                             –7–
+
+
+określonego w nowelizowanych przepisach. Celem wprowadzanych zmian jest zapewnienie
+zgodności udzielanej pomocy de minimis w rolnictwie z obecnie obowiązującymi przepisami
+prawa Unii Europejskiej.
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2025 r. poz. 677) projekt zostanie udostępniony na stronie podmiotowej
+Ministerstwa Rolnictwa i Rozwoju Wsi. Ponadto stosownie do § 52 ust. 1 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r.
+poz. 806, z późn. zm.) projekt zostanie udostępniony w Biuletynie Informacji Publicznej na
+stronie podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces
+Legislacyjny.
+Projekt został wpisany do Wykazu prac legislacyjnych i programowych Rady Ministrów pod
+nr ………
+                                                     –8–
+
+
+Nazwa projektu                                                  Data sporządzenia
+Projekt rozporządzenia Rady Ministrów w sprawie informacji      29.07.2025 r.
+składanych przez podmioty ubiegające się o pomoc de minimis
+w rolnictwie lub rybołówstwie.                                  Źródło:
+                                                                Inicjatywa własna
+Ministerstwo wiodące i ministerstwa współpracujące
+Ministerstwo Rolnictwa i Rozwoju Wsi                            Nr w wykazie prac:
+                                                                UD…..
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza
+Stanu lub Podsekretarza Stanu
+Stefan Krajewski – Minister Rolnictwa i Rozwoju Wsi
+
+Kontakt do opiekuna merytorycznego projektu
+Beata Gawlik-Pliszka, zastępca dyrektora, Departament
+Budżetu, tel. 22 623 16 64
+                           OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Projektowane rozporządzenie wykonuje upoważnienie ustawowe określone w art. 37 ust. 2a ustawy z dnia 30
+kwietnia 2004 r. o postępowaniu w sprawach dotyczących pomocy publicznej.
+Istnieje także konieczność uaktualnienia zakresu informacji niezbędnych do udzielania pomocy de minimis w
+rolnictwie lub rybołówstwie.
+
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Projekt rozporządzenia wymienia zakres informacji, które muszą być przedłożone przez beneficjentów
+ubiegających się o pomoc de minimis w rolnictwie lub rybołówstwie.
+ Przepis § 2 ust. 1 pkt 1 rozporządzenia zawiera informacje o Wnioskodawcy, które są przekazywane podmiotowi
+udzielającemu pomocy, tj.:
+     a) imię i nazwisko albo firmę,
+     b) miejsce zamieszkania i adres albo siedzibę i adres,
+     c) rodzaj prowadzonej działalności, w związku z którą ubiega się o pomoc.
+Powyższy zakres w projekcie rozporządzenia został rozszerzony o konieczność podawania również numeru:
+PESEL (numer identyfikacyjny powszechnego elektronicznego systemu ewidencji ludności i (NIP) numeru
+identyfikacji podatkowej, beneficjenta pomocy.
+Powyższa zmiana wynika z konieczności szczegółowego raportowania udzielonej pomocy do aplikacji System
+Rejestracji Pomocy Publicznej (SRPP).
+Obowiązek podawania numerów zarówno PESEL oraz NIP przez osoby ubiegające się o pomoc de minimis w
+rolnictwie lub rybołówstwie wynika z doświadczeń resortu, które pokazują, że wnioskodawcy podają zamiennie
+te identyfikatory u różnych podmiotów udzielających takiej pomocy. Należy zauważyć, że powoduje to
+utrudnienia przy monitorowaniu udzielonej pomocy.
+Przepis § 2 ust. 1 pkt 2 rozporządzenia zawiera informacje o otrzymanej pomocy publicznej w odniesieniu do
+tych samych kosztów kwalifikujących się do objęcia pomocą, na pokrycie których ma być udzielana pomoc de
+minimis w rolnictwie lub rybołówstwie, w tym:
+     a) wielkość i przeznaczenie pomocy publicznej,
+     b) dzień udzielenia pomocy publicznej,
+     c) podstawę prawną udzielenia pomocy publicznej,
+     d) formę, w jakiej pomoc publiczna została udzielona.
+                                                    –9–
+
+
+Powyższy zakres w projekcie rozporządzenia został rozszerzony o konieczność podawania programu
+pomocowego, wielkości przedsiębiorstwa oraz klasy PKD.
+Powyższe ma na celu precyzyjne określenie charakteru prowadzonej działalności przez podmiot ubiegający się o
+pomoc, jak również przekazanie informacji do podmiotu udzielającego pomocy danych na temat dotychczas
+otrzymanej pomocy przez wnioskodawcę, celem prawidłowego monitorowania pomocy.
+Wynika to również z wymogów jakie nadkłada na państwo członkowskie Komisja Europejska w przepisach
+prawa unijnego.
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+
+Wszystkie państwa członkowskie UE są zobowiązane do określenia warunków udzielania pomocy de
+minimis w rolnictwie zgodnie z obowiązującymi w tym zakresie przepisami prawa unijnego.
+4. Podmioty, na które oddziałuje projekt
+Grupa                Wielkość                 Źródło danych                    Oddziaływanie
+
+Przedsiębiorcy       1,2 mln                  Agencja Restrukturyzacji i        Zapewnienie zgodności
+będący                                        Modernizacji Rolnictwa            przedstawianych dokumentów
+potencjalnymi                                                                   przy ubieganiu się o pomoc de
+beneficjentami                                                                  minimis w rolnictwie z
+pomocy de minimis                                                               obowiązującymi w tym
+w rolnictwie                                                                    zakresie przepisami prawa
+                                                                                unijnego.
+Podmioty              ok. 3 tys.                                                Zapewnienie zgodności
+udzielające pomoc                                                               udzielanej pomocy de minimis
+                                                                                w rolnictwie z
+                                                                                obowiązującymi w tym
+                                                                                zakresie przepisami prawa
+                                                                                unijnego.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt rozporządzenia zostanie przekazany do opiniowania i konsultacji publicznych, które będą trwać 21 dni.
+Etap opiniowania i konsultacji wynika z konieczności zachowania w mocy przepisów rozporządzenia w sprawie
+informacji składanych przez podmioty ubiegające się o pomoc de minimis w rolnictwie lub rybołówstwie. Należy
+przy tym wskazać, że wprowadzane w nowelizowanym rozporządzeniu zmiany mają charakter dostosowujący i
+redakcyjny.
+Projekt w ramach konsultacji publicznych zostanie przekazany do:
+Business Centre Club;
+Federacji Branżowych Związków Producentów Rolnych;
+Federacji Producentów Żywności Związek Pracodawców;
+Federacji Przedsiębiorców Polskich;
+Federacji Związków Kółek i Organizacji Rolniczych RP;
+Forum Aktywizacji Obszarów Wiejskich;
+Forum Związków Zawodowych;
+Instytutu Gospodarki Rolnej;
+Konfederacji Lewiatan;
+Krajowego Związku Grup Producentów Rolnych – Izby Gospodarczej;
+Krajowego Związku Rewizyjnego Rolniczych Spółdzielni Produkcyjnych;
+                                                  – 10 –
+
+
+Krajowego Związku Rolników, Kółek i Organizacji Rolniczych;
+Krajowej Izby Gospodarczej, Komitetu Rolnictwa i Obrotu Rolnego;
+Krajowej Rady Drobiarstwa – Izby Gospodarczej;
+Krajowej Rady Izb Rolniczych;
+Krajowej Rady Spółdzielczej;
+Niezależnego Samorządowego Związku Zawodowego Rolników Indywidualnych „Solidarność”;
+Ogólnopolskiego Porozumienia Związków Zawodowych Rolników i Organizacji Rolniczych;
+Ogólnopolskiego Porozumienia Związków Zawodowych;
+Ogólnopolskiej Federacji Przedsiębiorców i Pracodawców Przedsiębiorcy.pl;
+Polską Radę ds. Wieprzowiny;
+Polski Związek Owczarski;
+Polski Związek Pszczelarski
+Polskiego Stowarzyszenia Zrównoważonego Rolnictwa i Żywności;
+Polskiego Związek Producentów Roślin Zbożowych;
+Polski związek Hodowców koni;
+Polskiego Związku Hodowców i Producentów Trzody Chlewnej „POLSUS”;
+Polskiego Związku Zawodowego Rolników;
+Polskiego Związku Zrzeszeń Hodowców i Producentów Drobiu;
+Polskiej Federacji Hodowców Bydła i Producentów Mleka;
+Polskiej Federacji Rolnej;
+Pracodawców Rzeczpospolitej Polskiej;
+Rady Dialogu Społecznego;
+Sekretariatu Rolnictwa Komisji Krajowej NSZZ „Solidarność”;
+Stowarzyszenie Pszczelarzy Polskich POLANKA;
+Związku Gmin Wiejskich Rzeczypospolitej Polskiej;
+Związku Polskie Mięso;
+Związku Przedsiębiorców i Pracodawców;
+Związku Rzemiosła Polskiego;
+Związku Sadowników RP;
+Związku Zawodowego Centrum Narodowe Młodych Rolników;
+Związku Zawodowego Pracowników Rolnictwa w RP;
+Związku Zawodowego Rolnictwa „KORONA”;
+Związku Zawodowego Rolnictwa „SAMOOBRONA”;
+Związku Zawodowego Rolnictwa i Obszarów Wiejskich „Regiony”;
+Związku Zawodowego Rolników „Ojczyzna”;
+Związku Zawodowego Rolników Rzeczpospolitej „Solidarni”;
+Związku Zawodowego Wsi i Rolnictwa „Solidarność Wiejska”.
+
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2024 r.)   Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                         0     1     2      3      4     5     6     7      8      9   10   Łącznie (0-10)
+Dochody ogółem
+budżet państwa
+JST
+pozostałe jednostki
+(oddzielnie)
+                                               – 11 –
+
+
+Wydatki ogółem
+budżet państwa
+JST
+pozostałe jednostki
+(oddzielnie)
+Saldo ogółem
+budżet państwa
+JST
+pozostałe jednostki
+(oddzielnie)
+
+Źródła
+finansowania
+
+Dodatkowe
+                     Wejście w życie rozporządzenia nie spowoduje skutków finansowych dla budżetu
+informacje, w tym
+wskazanie źródeł     państwa ani jednostek samorządu terytorialnego. Zmiany wprowadzane w
+danych i przyjętych rozporządzeniu mają na celu jedynie zachowanie w mocy zawartych w nich
+do obliczeń
+założeń              przepisów i odesłań do właściwej podstawy prawnej.
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców
+oraz na rodzinę, obywateli i gospodarstwa domowe
+Skutki
+Czas w latach od wejścia w życie       0    1       2        3        5       10         Łącznie (0-
+zmian                                                                                    10)
+W ujęciu             duże
+pieniężnym           przedsiębiorstw
+(w mln zł,           a
+ceny stałe z 2024    sektor mikro-,
+r.)                  małych
+                     i średnich
+                     przedsiębiorstw
+                     rodzina,
+                     obywatele,
+                     gospodarstwa
+                     domowe oraz
+                     osoby starsze
+                     i z niepełnospra
+                     wnością
+W ujęciu             duże
+niepieniężnym        przedsiębiorstw
+                     a
+                     sektor mikro-,
+                     małych
+                     i średnich
+                     przedsiębiorstw
+                                                    – 12 –
+
+
+                     rodzina,
+                     obywatele,
+                     gospodarstwa
+                     domowe oraz
+                     osoby starsze
+                     i z niepełnospra
+                     wnością
+Niemierzalne
+Dodatkowe
+                    Wejście w życie rozporządzenia umożliwi zachowanie w mocy przepisów w sprawie
+informacje, w tym
+                    informacji składanych przez podmioty ubiegające się o pomoc de minimis w rolnictwie lub
+wskazanie źródeł
+                    rybołówstwie.
+danych i przyjętych
+                    Projekt nie ma wpływu na rodzinę, obywateli i gospodarstwa domowe, w tym na osoby
+do obliczeń
+                    niepełnosprawne i osoby starsze.
+założeń
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+    nie dotyczy
+Wprowadzane są obciążenia poza                    tak
+bezwzględnie wymaganymi przez UE                  nie
+(szczegóły w odwróconej tabeli zgodności).        nie dotyczy
+   zmniejszenie liczby dokumentów                   zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                     zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy            wydłużenie czasu na załatwienie sprawy
+   inne:                                            inne:
+
+Wprowadzane obciążenia są przystosowane do          tak
+ich elektronizacji.                                 nie
+                                                    nie dotyczy
+
+Projektowane rozporządzenie nie wpłynie na istniejące obciążenia regulacyjne.
+
+9. Wpływ na rynek pracy
+
+Wejście w życie rozporządzenia nie wpłynie na rynek pracy.
+
+10. Wpływ na pozostałe obszary
+
+   środowisko naturalne            demografia                              informatyzacja
+   sytuacja i rozwój               mienie państwowe                        zdrowie
+regionalny                         inne:
+   sądy powszechne,
+administracyjne lub
+wojskowe
+Omówienie            Projektowane rozporządzenie nie będzie miało wpływu na pozostałe obszary.
+wpływu
+11. Planowane wykonanie przepisów aktu prawnego
+                                                 – 13 –
+
+
+
+     Wejście w życie projektowanego rozporządzenia planowane jest w III kwartale 2025 r.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Nie dotyczy.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak załączników.
+Radosław Sikorski
+
+
+
+
+Warszawa, /elektroniczny znacznik czasu/
+Dot. RM-0610-148-25 z 31.07.2025 r.
+
+
+
+Pani Joanna Knapińska
+Sekretarz Rady Ministrów
+
+
+
+
+Opinia
+o zgodności z prawem Unii Europejskiej projektu ustawy o zmianie ustawy o postępowaniu w
+sprawach dotyczących pomocy publicznej, wyrażona przez ministra właściwego do spraw
+członkostwa Rzeczypospolitej Polskiej w Unii Europejskiej
+
+
+Szanowna Pani Minister,
+
+
+w związku z przedłożonym projektem ustawy pozwalam sobie wyrazić poniższą opinię.
+
+
+Projekt ustawy jest zgodny z prawem Unii Europejskiej.
+
+
+Z poważaniem
+Radosław Sikorski
+/podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+Do wiadomości:
+Pan Stefan Krajewski
+Minister Rolnictwa i Rozwoju Wsi
+
+
+
+
+www.gov.pl/dyplomacja                                            al. J. Ch. Szucha 23
+                                                                 00-580 Warszawa
+

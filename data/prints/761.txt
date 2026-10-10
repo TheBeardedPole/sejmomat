@@ -1,0 +1,2001 @@
+                                                                          Druk nr 761
+                                                         Warszawa, 30 października 2024 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-94-24
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+             Szanowny Panie Marszałku,
+
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+
+  -      o zmianie                     ustawy                  o          doręczeniach
+      elektronicznych.
+
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Cyfryzacji.
+
+
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                       Projekt
+                                           U S T AWA
+
+                                             z dnia
+
+                       o zmianie ustawy o doręczeniach elektronicznych
+
+
+     Art. 1. W ustawie z dnia 18 listopada 2020 r. o doręczeniach elektronicznych
+(Dz. U. z 2024 r. poz. 1045) wprowadza się następujące zmiany:
+1)   w art. 2 w pkt 6 w lit. e średnik zastępuje się przecinkiem i dodaje się lit. f oraz g
+     w brzmieniu:
+     „f) uczelnię niepubliczną,
+     g)   federację podmiotów systemu szkolnictwa wyższego i nauki;”;
+2)   w art. 11 pkt 2 otrzymuje brzmienie:
+     „2) automatycznie po otrzymaniu przez ministra właściwego do spraw informatyzacji,
+          za pośrednictwem systemu teleinformatycznego:
+          a)      o którym mowa w art. 3a ust. 1 ustawy z dnia 20 sierpnia 1997 r. o Krajowym
+                  Rejestrze Sądowym albo w art. 3 ust. 1 ustawy z dnia 6 marca 2018 r. o
+                  Centralnej Ewidencji i Informacji o Działalności Gospodarczej i Punkcie
+                  Informacji dla Przedsiębiorcy – danych przekazanych w związku z wnioskiem
+                  o wpis do Krajowego Rejestru Sądowego albo do Centralnej Ewidencji i
+                  Informacji o Działalności Gospodarczej,
+          b)      operatora wyznaczonego – danych, o których mowa w art. 14 ust. 1 i 2,
+                  w przypadku podmiotów niepublicznych.”;
+3)   w art. 12:
+     a)   w ust. 1 wyrazy „o którym mowa w art. 11 pkt 2” zastępuje się wyrazami „o którym
+          mowa w art. 11 pkt 2 lit. a”,
+     b)   po ust. 1 dodaje się ust. 1a–1c w brzmieniu:
+                  „1a. Minister właściwy do spraw informatyzacji tworzy, z uwzględnieniem ust.
+          1c, jeden adres do doręczeń elektronicznych powiązany z publiczną usługą
+          rejestrowanego doręczenia elektronicznego dla:
+          1)      urzędu gminy;
+          2)      starostwa powiatowego;
+          3)      urzędu marszałkowskiego;
+                                                –2–
+
+          4)      podmiotu obsługującego związki międzygminne, związki powiatów, związki
+                  powiatowo-gminne albo związki metropolitalne.
+                  1b. Adres, o którym mowa w ust. 1a, jest adresem wspólnym dla:
+          1)      jednostki samorządu terytorialnego oraz jej organów – w przypadku, o którym
+                  mowa w ust. 1a pkt 1–3;
+          2)      związku międzygminnego, związku powiatów, związku powiatowo-gminnego
+                  albo związku metropolitalnego oraz ich organów – w przypadku, o którym
+                  mowa w ust. 1a pkt 4.
+                  1c. Dla każdej jednostki organizacyjnej jednostki samorządu terytorialnego,
+          posiadającej numer identyfikacyjny REGON, tworzy się odrębny adres do doręczeń
+          elektronicznych powiązany z publiczną usługą rejestrowanego doręczenia
+          elektronicznego.”;
+4)   art. 13 otrzymuje brzmienie:
+          „Art. 13. Minister właściwy do spraw informatyzacji tworzy adres do doręczeń
+     elektronicznych      powiązany       z   publiczną    usługą   rejestrowanego   doręczenia
+     elektronicznego na wniosek podmiotu niepublicznego skierowany do tego ministra,
+     a w przypadku podmiotów niepublicznych:
+     1)   wpisanych do Krajowego Rejestru Sądowego albo do Centralnej Ewidencji
+          i Informacji o Działalności Gospodarczej,
+     2)   będących osobami fizycznymi
+     – także odpowiednio w trybie, o którym mowa w art. 11 pkt 2.”;
+5)   w art. 14 dodaje się ust. 4 w brzmieniu:
+          „4. Minister właściwy do spraw informatyzacji udostępnia usługę sieciową
+     umożliwiającą przekazanie przez operatora wyznaczonego danych, o których mowa
+     w ust. 1 i 2, za pomocą bezpośredniej wymiany danych między systemem
+     teleinformatycznym operatora wyznaczonego a bazą adresów elektronicznych.”;
+6)   w art. 15 po ust. 1 dodaje się ust. 1a w brzmieniu:
+          „1a. Wniosek o utworzenie adresu do doręczeń elektronicznych powiązanego
+     z publiczną usługą rejestrowanego doręczenia elektronicznego może być złożony
+     z wykorzystaniem usługi online udostępnianej przez operatora wyznaczonego – dla
+     podmiotów niepublicznych.”;
+7)   w art. 16 w ust. 1 w pkt 2 kropkę zastępuje się średnikiem i dodaje się pkt 3 w brzmieniu:
+     „3) operatora wyznaczonego – dane, o których mowa w art. 14 ust. 1 lub 2.”;
+8)   w art. 26:
+                                             –3–
+
+     a)   w pkt 2 w lit. p średnik zastępuje się przecinkiem i dodaje się lit. q w brzmieniu:
+          „q) informację o korzystaniu z dodatkowych usług, o których mowa w art. 53 ust.
+                  1, w zakresie wymiany korespondencji między podmiotami niepublicznymi;”,
+     b)   w pkt 3 w lit. l kropkę zastępuje się przecinkiem i dodaje się lit. m w brzmieniu:
+          „m) informację o korzystaniu z dodatkowych usług, o których mowa w art. 53 ust.
+                  1, w zakresie wymiany korespondencji między podmiotami niepublicznymi.”;
+9)   w art. 34:
+     a)   ust. 1 otrzymuje brzmienie:
+                  „1. Wpisu adresu do doręczeń elektronicznych do bazy adresów
+          elektronicznych dokonuje się bezterminowo.”,
+     b)   uchyla się ust. 2–4;
+10) w art. 35 w ust. 4 uchyla się pkt 7;
+11) w art. 53 dotychczasową treść oznacza się jako ust. 1 i dodaje się ust. 2 w brzmieniu:
+          „2. W przypadku świadczenia dodatkowych usług, o których mowa w ust. 1,
+     w zakresie wymiany korespondencji między osobami fizycznymi lub podmiotami
+     niebędącymi podmiotami publicznymi operator wyznaczony przekazuje informacje
+     o korzystaniu z tych usług ministrowi właściwemu do spraw informatyzacji za
+     pośrednictwem systemu teleinformatycznego.”;
+12) w art. 60 w ust. 1:
+     a)   w pkt 1:
+          –   w lit. b dodaje się tiret dziesiąte w brzmieniu:
+              „– informacji o korzystaniu z dodatkowych usług, o których mowa w art. 53
+                     ust. 1, w zakresie wymiany korespondencji pomiędzy podmiotami
+                     niepublicznymi,”,
+          –   w lit. c dodaje się tiret jedenaste w brzmieniu:
+              „– informacji o korzystaniu z dodatkowych usług, o których mowa w art. 53
+                     ust. 1, w zakresie wymiany korespondencji pomiędzy podmiotami
+                     niepublicznymi;”,
+     b)   w pkt 2 w lit. i kropkę zastępuje się przecinkiem i dodaje się lit. j w brzmieniu:
+          „j) informacji o korzystaniu z dodatkowych usług, o których mowa w art. 53 ust. 1,
+                  w zakresie wymiany korespondencji pomiędzy podmiotami niepublicznymi.”;
+13) w art. 63 w pkt 2 w art. 1312 uchyla się § 3;
+14) w art. 141 w pkt 2 w art. 6a w ust. 2 skreśla się zdanie drugie;
+15) w art. 147:
+                                                –4–
+
+     a)   ust. 2 i 3 otrzymują brzmienie:
+               „2. Doręczenie korespondencji nadanej przez osobę fizyczną lub podmiot
+          niebędący podmiotem publicznym, będące użytkownikami konta w ePUAP, do
+          podmiotu publicznego posiadającego elektroniczną skrzynkę podawczą w ePUAP,
+          w ramach usługi udostępnianej w ePUAP, jest równoważne w skutkach prawnych
+          z doręczeniem przy wykorzystaniu publicznej usługi rejestrowanego doręczenia
+          elektronicznego do dnia 31 grudnia 2025 r.
+               3. Doręczenie korespondencji nadanej przez podmiot publiczny posiadający
+          elektroniczną skrzynkę podawczą w ePUAP do osoby fizycznej lub podmiotu
+          niebędącego podmiotem publicznym, o których mowa w ust. 2, nieposiadających
+          adresu do doręczeń elektronicznych, jeżeli:
+          1)   korespondencja ta stanowi odpowiedź na podanie albo wniosek złożone
+               w ramach usługi udostępnionej w ePUAP, albo
+          2)   ta osoba fizyczna lub ten podmiot wystąpiły do organu administracji publicznej
+               o doręczenie korespondencji na konto w ePUAP
+          – jest równoważne w skutkach prawnych z doręczeniem przy wykorzystaniu
+          publicznej usługi rejestrowanego doręczenia elektronicznego do dnia 31 grudnia
+          2025 r.”,
+     b)   dodaje się ust. 5 i 6 w brzmieniu:
+               „5. Do dnia 31 grudnia 2025 r. przepisów art. 4 i art. 5 nie stosuje się
+          w przypadku gdy korespondencja nie może być doręczona na adres do doręczeń
+          elektronicznych albo z wykorzystaniem publicznej usługi hybrydowej ze względu na
+          przesłanki organizacyjne. Istnienie przesłanek organizacyjnych ocenia nadawca.
+               6. Do doręczeń, o których mowa w ust. 1–3 i 5, przepis art. 41 stosuje się
+          odpowiednio.”;
+16) w art. 152 dodaje się ust. 5 w brzmieniu:
+          „5. W przypadku adresów do doręczeń elektronicznych podmiotów wpisanych do
+     Centralnej Ewidencji i Informacji o Działalności Gospodarczej, które zostały wpisane do
+     bazy adresów elektronicznych od dnia 5 lipca 2022 r., informacja w przedmiocie tych
+     adresów     zostanie    przekazana        automatycznie   za   pośrednictwem   systemu
+     teleinformatycznego z bazy adresów elektronicznych do Centralnej Ewidencji
+     i Informacji o Działalności Gospodarczej albo w innej ustrukturyzowanej formie
+     elektronicznej, nie później niż w dniu wejścia w życie obowiązku, o którym mowa
+     w art. 155 ust. 10.”;
+                                             –5–
+
+17) w art. 155:
+     a)   ust. 5 otrzymuje brzmienie:
+                „5. Agencje wykonawcze, instytucje gospodarki budżetowej, państwowe
+          fundusze celowe, samodzielne publiczne zakłady opieki zdrowotnej, uczelnie
+          publiczne, uczelnie niepubliczne, federacje podmiotów systemu szkolnictwa
+          wyższego i nauki, Polska Akademia Nauk i tworzone przez nią jednostki
+          organizacyjne, państwowe instytucje kultury oraz inne państwowe osoby prawne
+          utworzone na podstawie odrębnych ustaw w celu wykonywania zadań publicznych
+          są obowiązane stosować przepisy ustawy w zakresie doręczania korespondencji z
+          wykorzystaniem publicznej usługi rejestrowanego doręczenia elektronicznego lub
+          publicznej usługi hybrydowej od dnia określonego w komunikacie wydanym na
+          podstawie ust. 10.”,
+     b)   po ust. 5 dodaje się ust. 5a w brzmieniu:
+                „5a. Agencja Bezpieczeństwa Wewnętrznego, Agencja Wywiadu, Służba
+          Kontrwywiadu Wojskowego, Służba Wywiadu Wojskowego, Centralne Biuro
+          Antykorupcyjne i resort obrony narodowej są obowiązane stosować przepisy ustawy
+          w zakresie doręczania korespondencji z wykorzystaniem publicznej usługi
+          rejestrowanego doręczenia elektronicznego lub publicznej usługi hybrydowej od
+          dnia 31 grudnia 2026 r.”,
+     c)   ust. 6 otrzymuje brzmienie:
+                „6. Jednostki samorządu terytorialnego i ich związki oraz związki
+          metropolitalne, samorządowe instytucje kultury, samorządowe osoby prawne oraz
+          samorządowe zakłady budżetowe są obowiązane stosować przepisy ustawy
+          w zakresie doręczania korespondencji z wykorzystaniem publicznej usługi
+          rejestrowanego doręczenia elektronicznego od dnia określonego w komunikacie
+          wydanym na podstawie ust. 10, a w zakresie doręczania korespondencji
+          z wykorzystaniem publicznej usługi hybrydowej od dnia 1 października 2029 r.”;
+18) art. 156 otrzymuje brzmienie:
+          „Art. 156. Do podmiotów publicznych w rozumieniu ustawy zmienianej w art. 105
+     udostępniających elektroniczną skrzynkę podawczą w systemie innym niż ePUAP
+     w okresie od dnia wejścia w życie niniejszej ustawy do dnia 31 grudnia 2025 r. stosuje się
+     art. 157 i art. 158.”.
+                                            –6–
+
+     Art. 2. Do korespondencji, o której mowa w art. 147 ust. 2 i 3 ustawy zmienianej w art.
+1, nadanej przed dniem wejścia w życie ustawy i niedoręczonej przed tym dniem, stosuje się
+przepisy ustawy zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą.
+
+     Art. 3. 1. Do wniosków o utworzenie adresów do doręczeń elektronicznych złożonych
+przez jednostki samorządu terytorialnego, związki międzygminne, związki powiatów, związki
+powiatowo-gminne, związki metropolitalne albo jednostki organizacyjne jednostki samorządu
+terytorialnego i nierozpatrzonych do dnia wejścia w życie ustawy stosuje się przepisy art. 12
+ust. 1a–1c ustawy zmienianej w art. 1.
+     2. Wnioski o utworzenie adresów do doręczeń elektronicznych innych niż adresy,
+o których mowa w art. 12 ust. 1a–1c ustawy zmienianej w art. 1, złożone przez jednostki
+i związki, o których mowa w ust. 1, i nierozpatrzone do dnia wejścia w życie ustawy,
+pozostawia się bez rozpatrzenia.
+
+     Art. 4. 1.W przypadku gdy dla jednostki samorządu terytorialnego, związku
+międzygminnego, związku powiatów, związku powiatowo-gminnego albo związku
+metropolitalnego utworzono adres do doręczeń elektronicznych inny niż ten, o którym mowa
+w art. 12 ust. 1a i 1b ustawy zmienianej w art. 1, wpisany do bazy adresów elektronicznych,
+minister właściwy do spraw informatyzacji wykreśla ten adres z urzędu w terminie roku od dnia
+wejścia w życie ustawy.
+     2. Przed wykreśleniem adresu do doręczeń elektronicznych innego niż ten, o którym
+mowa w art. 12 ust. 1a i 1b ustawy zmienianej w art. 1, z bazy adresów elektronicznych minister
+właściwy do spraw informatyzacji informuje jednostki i związki, o których mowa w ust. 1,
+o konieczności pobrania zasobów znajdujących się w skrzynce doręczeń powiązanej z adresem
+do doręczeń elektronicznych, który podlega wykreśleniu, i wyznacza termin wykreślania tego
+adresu z bazy adresów elektronicznych.
+     3. Wykreślenie, o którym mowa w ust. 1, stanowi czynność materialno-techniczną.
+
+     Art. 5. Adresy do doręczeń elektronicznych wpisane przed dniem 1 marca 2025 r. do bazy
+adresów elektronicznych na podstawie art. 34 ust. 1 pkt 1 ustawy zmienianej w art. 1,
+w brzmieniu dotychczasowym, i niewykreślone z bazy adresów elektronicznych do tego dnia
+stają się adresami, o których mowa w art. 34 ust. 1 ustawy zmienianej w art. 1, w brzmieniu
+nadanym niniejszą ustawą.
+
+     Art. 6. Ustawa wchodzi w życie z dniem 1 stycznia 2025 r., z wyjątkiem:
+1)   art. 1 pkt 2 i 4–7, które wchodzą w życie z dniem 1 czerwca 2025 r.;
+2)   art. 1 pkt 9 i 10, które wchodzą w życie z dniem 1 marca 2025 r.
+                                    UZASADNIENIE
+Wprowadzenie planowanych rozwiązań podyktowane jest przede wszystkim brakiem
+gotowości po stronie części podmiotów publicznych do stosowania e-Doręczeń, tj. rozwiązań
+wynikających z ustawy z dnia 18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U.
+z 2024 r. poz. 1045), dalej „ustawa o doręczeniach elektronicznych”, w zakresie doręczania
+korespondencji    z   wykorzystaniem     publicznej    usługi   rejestrowanego      doręczenia
+elektronicznego (PURDE) lub publicznej usługi hybrydowej (PUH). Z przeprowadzonych
+analiz wynika bowiem, że wniosek o założenie adresu do doręczeń złożyło jedynie 30%
+obowiązanych podmiotów publicznych, mimo że termin wejścia w życie obowiązku
+stosowania doręczeń elektronicznych był już kilkukrotnie przesuwany ze względu na
+niewystarczającą gotowość po stronie podmiotów obowiązanych.
+Nie ulega przy tym wątpliwości, iż wdrożenie e-Doręczeń jako nowego sposobu prowadzenia
+korespondencji jest dużym przedsięwzięciem technicznym,             ale przede wszystkim
+organizacyjnym, szczególnie dla podmiotów publicznych.
+Termin wejścia w życie obowiązku stosowania doręczeń elektronicznych, o którym mowa
+w art. 155 ust. 10 ustawy o doręczeniach elektronicznych, wiąże się bowiem
+z obowiązywaniem nowych przepisów ustawy z dnia 14 czerwca 1960 r. – Kodeks
+postępowania administracyjnego (Dz. U. z 2024 r. poz. 572), dalej „KPA”, zmienionych ustawą
+o doręczeniach elektronicznych. Zgodnie z brzmieniem KPA obowiązującym od terminu
+wskazanego w art. 155 ust. 10 ustawy o doręczeniach elektronicznych, korespondencja musi
+być kierowana przez podmioty publiczne na adres do doręczeń elektronicznych (art. 39 KPA).
+Dopiero po spełnieniu warunków określonych w KPA korespondencja może być kierowana
+w inny sposób.
+Jest to znaczna różnica w porównaniu do brzmienia KPA przed zmianą wprowadzoną ustawą
+o doręczeniach elektronicznych, zgodnie z którym korespondencja jest przesyłana w postaci
+papierowej za pośrednictwem operatora pocztowego, a dopiero po spełnieniu określonych
+warunków może być przesyłana w postaci elektronicznej.
+Analogiczna sytuacja dotyczy ustawy z dnia 29 sierpnia 1997 r. – Ordynacja podatkowa (Dz. U.
+z 2023 r. poz. 2383 i 2760 oraz z 2024 r. poz. 879), dalej „ordynacja podatkowa”.
+Nowe brzmienie KPA i ordynacji podatkowej, nadane przez ustawę o doręczeniach
+elektronicznych, skutkuje zatem znacznymi zmianami w funkcjonowaniu podmiotów
+publicznych w Polsce. Z jednej strony są one zobowiązane do wdrożenia nowego narzędzia do
+prowadzenia korespondencji, jakim są doręczenia elektroniczne w miejsce powszechnie
+dotychczas funkcjonującego ePUAP, z drugiej strony muszą zmienić sposób nadawania
+korespondencji z papierowej na elektroniczną. Wiąże się to ze znacznymi zmianami
+organizacyjnymi w podmiotach publicznych, takimi jak:
+    zapewnienie elektronicznego obiegu dokumentów,
+    zmiana sposobu nadawania korespondencji (z papierowej na elektroniczną oraz
+       z ePUAP na e-Doręczenia),
+    zapewnienie archiwizacji elektronicznych dokumentów,
+    zapoznanie się z nowym narzędziem – usługi PURDE i PUH,
+    zapewnienie podpisów elektronicznych dla upoważnionych osób,
+    nadanie uprawnień i zapewnienie dostępu do skrzynki e-Doręczeń uprawnionym
+       pracownikom.
+Uwzględniając powyższe, w celu zapewnienia skutecznego wdrożenia e-Doręczeń
+w podmiotach publicznych, proponuje się wprowadzenie okresu przejściowego do 31 grudnia
+2025 r., w którym będą one mogły stopniowo dostosowywać się do nowego sposobu
+prowadzenia korespondencji, tj. dostosować organizacyjnie urzędy, wprowadzić systemy
+elektronicznego obiegu dokumentów (systemy klasy EZD) oraz poznać nowe rozwiązanie,
+jakim są e-Doręczenia.
+W okresie tym zostanie zapewniona równoważność doręczenia za pośrednictwem operatora
+pocztowego, ePUAP oraz innych systemów dziedzinowych z e-Doręczeniami. Przy czym
+wprowadzane rozwiązania będą promować doręczanie korespondencji z wykorzystaniem e-
+Doręczeń.
+Bez zmian pozostaje obowiązek uzyskania przez podmioty wskazane w ustawie o doręczeniach
+elektronicznych adresu do doręczeń elektronicznych do dnia określonego w komunikacie
+wydanym na podstawie art. 155 ust. 10 ustawy o doręczeniach elektronicznych.
+W projektowanym okresie przejściowym podmiot publiczny będzie kierował korespondencję
+do podmiotu niebędącego podmiotem publicznym na adres do doręczeń elektronicznych –
+jeżeli odbiorca taki adres posiada – zgodnie z obowiązującymi przepisami KPA i ordynacji
+podatkowej. Jeżeli odbiorca nie posiada adresu do doręczeń elektronicznych, to korespondencja
+może być kierowana w dotychczasowy sposób, tj. zgodnie z przepisami KPA i ordynacji
+podatkowej w brzmieniu sprzed nowelizacji, tj. korespondencja będzie kierowana przez
+operatora pocztowego, chyba że jest to odpowiedź na wniosek złożony przez ePUAP – w takim
+przypadku korespondencja będzie kierowana przez ePUAP.
+Przepis art. 1 projektu zawiera zmiany porządkujące i uzupełniające w ustawie o doręczeniach
+elektronicznych.
+
+                                             2
+Zaproponowano rozszerzenie projektu o zmianę w art. 2 pkt 6 ustawy o doręczeniach
+elektronicznych przez dodanie uczelni niepublicznych oraz federacji podmiotów systemu
+szkolnictwa wyższego i nauki.
+W konsekwencji wprowadzenia tej zmiany w art. 1 pkt 17 lit. a dotyczącym art. 155 ust. 5 po
+wyrazach „uczelnie publiczne” dodano wyrazy „uczelnie niepubliczne, federacje podmiotów
+systemu szkolnictwa wyższego i nauki”. Przepisy ustawy o doręczeniach elektronicznych
+powinny bowiem być stosowane w tym samym zakresie do uczelni publicznych, uczelni
+niepublicznych oraz federacji podmiotów szkolnictwa wyższego i nauki.
+Uczelnie niepubliczne oraz federacje podmiotów systemu szkolnictwa wyższego i nauki są na
+gruncie ustawy o doręczeniach elektronicznych uznawane za podmioty niepubliczne.
+Ze względu na zadania realizowane przez te podmioty oraz obowiązujące je przepisy
+i wynikające z nich obowiązki, zasadne jest zdefiniowanie ich jako podmioty publiczne
+w przedmiotowym akcie prawnym. Przemawia za tym również konieczność zachowania
+jednolitych rozwiązań w zakresie e-doręczeń w stosunku do wskazanych grup podmiotów
+analogicznie, jak ma to miejsce w przypadku elektronicznej platformy usług administracji
+publicznej ePUAP. W ustawie z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów
+realizujących zadania publiczne (Dz. U. z 2024 r. poz. 1557) uczelnie niepubliczne oraz
+federacje podmiotów systemu szkolnictwa wyższego i nauki są rozumiane jako podmioty
+publiczne i traktowane na równi z uczelniami publicznymi, w związku z czym przepisy tego
+aktu prawnego są stosowane w jednakowym zakresie przez wskazane wyżej podmioty.
+Zmiany zawarte w art. 11, art. 12, art. 13, art. 14, art. 15 oraz art. 16 ustawy o doręczeniach
+elektronicznych mają na celu umożliwienie klientom składanie wniosków za pośrednictwem
+operatora wyznaczonego, analogicznie do kwalifikowanych dostawców usług - jest to
+ujednolicenie podejścia dla klientów i ujednolicenie zasad dla wszystkich dostawców.
+Wprowadzone zmiany umożliwią podmiotom niepublicznym założenie ADE (złożenie
+wniosku) również za pośrednictwem operatora wyznaczonego, który na rzecz danego podmiotu
+mógłby realizować usługi elektroniczne.
+Takie podejście rozszerzy możliwe kanały do składania wniosków o ADE i jednocześnie
+uprości cały proces dla podmiotów niepublicznych, umożliwiając załatwienie całego procesu
+założenia ADE i aktywacji za pośrednictwem jednego operatora, w tym przypadku operatora
+wyznaczonego.
+Taki proces jest obecnie realizowany przez innych dostawców usług zaufania, ale nie przez
+operatora wyznaczonego co może stanowić nierówne traktowanie dostawców usług oraz
+
+                                              3
+sprawia, iż rozpoczęcie korzystania z usług operatora wyznaczonego jest bardziej
+skomplikowane dla podmiotów niepublicznych.
+W art. 12 ustawy o doręczeniach elektronicznych po ust. 1 dodaje się ust. 1a, który stanowi, że
+tworzy się, z uwzględnieniem ust. 1c, jeden adres do doręczeń elektronicznych powiązany
+z publiczną usługą rejestrowanego doręczenia elektronicznego dla urzędów gmin, starostw
+powiatowych, urzędów marszałkowskich albo organu obsługującego związki międzygminne,
+związki powiatów, związki powiatowo-gminne albo związki metropolitalne. Przepis ust. 1c
+stanowi, że dla każdej jednostki organizacyjnej jednostki samorządu terytorialnego,
+posiadającej numer identyfikacyjny REGON, tworzy się odrębny adres do doręczeń
+elektronicznych powiązany z publiczną usługą rejestrowanego doręczenia elektronicznego.
+To rozwiązanie jest odpowiedzią na apele jednostek samorządu terytorialnego, dalej „jst”,
+i zostało ustalone z organizacjami zrzeszającymi jst w ramach grupy roboczej, która powstała
+przy Ministerstwie Cyfryzacji. Obecnie ustawa o doręczeniach elektronicznych nie precyzuje,
+czy o adres do doręczeń elektronicznych wnioskować powinien organ czy urząd obsługujący
+ten organ. W efekcie część jst założyła adresy do doręczeń elektronicznych na
+gminę/powiat/województwo, część na urząd gminy/starostwo powiatowe/urząd marszałkowski
+albo na jedno i na drugie. Skutkuje to niejednolitym sposobem zakładania adresów do doręczeń
+elektronicznych w Bazie Adresów Elektronicznych (BAE) i trudnościami w wyszukiwaniu
+adresów.
+Wprowadza się zmiany w art. 26 ustawy o doręczeniach elektronicznych. Zostaje on
+rozszerzony i uzupełniony w koniecznym zakresie, który pozwoli na zidentyfikowanie, czy
+podmiot niepubliczny posiadający adres do doręczeń elektronicznych powiązany z PURDE
+korzysta również z usług dodatkowych Operatora Wyznaczonego (OW).
+W art. 26 w pkt 2 w lit. p projektu średnik zastępuje się przecinkiem i dodaje się lit. q
+w brzmieniu: „informację o korzystaniu z dodatkowych usług, o których mowa w art. 53 ust.
+1, w zakresie wymiany korespondencji między podmiotami niepublicznymi.”, natomiast
+w art. 26 pkt 3 w lit. l kropkę zastępuje się przecinkiem i dodaje się lit. m w brzmieniu:
+„informację o korzystaniu z dodatkowych usług, o której mowa w art. 53 ust. 1, w zakresie
+wymiany korespondencji między podmiotami niepublicznymi.”.
+Taka zmiana ułatwi prowadzenie korespondencji między dwoma podmiotami niepublicznymi,
+z których jeden posiada adres do doręczeń elektronicznych powiązany z PURDE. Dostawca
+usługi komercyjnej będzie wówczas wiedział, czy klient OW będący podmiotem
+niepublicznym korzysta z usługi dodatkowej i czy może mu doręczyć korespondencję od
+
+                                              4
+swojego klienta, który również jest podmiotem niepublicznym. Brak takiej zmiany niesie ze
+sobą ryzyko, że komercyjny dostawca usługi rejestrowanego doręczenia elektronicznego
+(RDE) doręczy korespondencję do klienta OW będącego podmiotem niepublicznym, który nie
+aktywował usługi dodatkowej OW. Wówczas taka korespondencja nie zostanie doręczona
+i brak będzie informacji o przyczynie braku doręczenia.
+Zmiana w art. 34 ustawy o doręczeniach elektronicznych wskazuje, że wpisu adresu do
+doręczeń elektronicznych do bazy adresów elektronicznych dokonuje się bezterminowo.
+Przepis ten ma na celu usprawnienie dla osób fizycznych, tak jak dla innych podmiotów,
+polegające na tym, aby nie musieli oni dokonywać dodatkowych czynności związanych ze
+wznowieniem po 3 latach ADE. W przypadku osób fizycznych zawsze istnieje możliwość
+rezygnacji z ADE. Uchylono również w art. 35 w ust. 4 pkt 7 - przesłankę wykreślenia przez
+ministra właściwego do spraw informatyzacji z urzędu adresu do doręczeń elektronicznych z
+bazy adresów elektronicznych w przypadku nieprzedłużenia wpisu tego adresu.
+W art. 53 ustawy o doręczeniach elektronicznych dodaje się ust. 2 stanowiący, że w przypadku
+świadczenia usług dodatkowych, o których mowa w ust. 1, w zakresie wymiany korespondencji
+między osobami fizycznymi lub podmiotami niebędącymi podmiotami publicznymi operator
+wyznaczony przekazuje informacje o korzystaniu z tych usług ministrowi właściwemu do
+spraw informatyzacji za pośrednictwem systemu teleinformatycznego. Przepis ten nakłada na
+operatora wyznaczonego obowiązek przekazania informacji o wykonywaniu usługi do BAE w
+celu umożliwienia przetwarzania i wyszukiwania tych danych z bazy adresów elektronicznych.
+Konieczne jest również uchylenie w art. 63 ustawy o doręczeniach elektronicznych, w pkt 2,
+który dodaje do Kodeksu postępowania cywilnego przepis art. 1312 – jego § 3. W toku prac nad
+projektem ustawy o zmianie ustawy – Kodeks postępowania cywilnego, ustawy – Prawo o
+ustroju sądów powszechnych, ustawy – Kodeks postępowania karnego oraz niektórych innych
+ustaw (druk sejmowy IX kadencji nr 3216) projektodawca dążył do uchylenia zarówno art. 125
+§ 6, jak i ww. art. 1312 § 3 k.p.c. Jednakże w toku parlamentarnego procesu legislacyjnego
+doszło do omyłki redakcyjnej, bowiem w zmienianym przez art. 29 pkt 11 ustawy z dnia 7 lipca
+2023 r. o zmianie ustawy – Kodeks postępowania cywilnego, ustawy – Prawo o ustroju sądów
+powszechnych, ustawy – Kodeks postępowania karnego oraz niektórych innych ustaw (Dz. U.
+poz. 1860) w art. 63 ustawy o doręczeniach elektronicznych, wskazano na pkt 3, tj. „w art. 63
+w pkt 3 w art. 1312 uchyla się § 3”, zamiast na pkt 2, w którym ustawa o doręczeniach
+elektronicznych traktowała o art. 1312 k.p.c. Jednocześnie Minister Sprawiedliwości w piśmie
+z 7 listopada 2023 r. zwrócił się z prośbą o zajęcie stanowiska w ww. zakresie przez Rządowe
+
+                                             5
+Centrum Legislacji, które to w piśmie z 17 listopada 2023 r. (znak: RCL.DPKA.555.182/2022)
+poinformowało m.in., iż mając na uwadze dotychczas stosowane zasady oceny prawidłowości
+dokonywania nowelizacji, uchylenie przepisu art. 1312 § 3 k.p.c. powinno nastąpić w wyniku
+kolejnej nowelizacji ustawy o doręczeniach elektronicznych.
+Propozycja zmiany ustawy z dnia 6 marca 2018 r. o Centralnej Ewidencji i Informacji
+o Działalności Gospodarczej i Punkcie Informacji dla Przedsiębiorcy zawarta w art. 141 ustawy
+o doręczeniach elektronicznych dotyczy skreślenia w art. 6a w ust. 2 zdania drugiego.
+Wykreślenie wskazanego wyżej przepisu następuje na wniosek Ministerstwa Rozwoju i
+Technologii. Propozycja zmiany zdejmuje z przedsiębiorcy objętego wpisem w CEIDG
+obowiązek składania przy wniosku o wpis do CEIDG oświadczenia o posiadaniu adresu do
+doręczeń elektronicznych wpisanego do BAE i aktualności danych zamieszczonych w BAE.
+Dodatkowo dane w BAE aktualizowane są na podstawie danych przekazanych przez CEIDG,
+które pochodzą z wniosku złożonego przez przedsiębiorcę w ramach zmiany danych we wpisie
+CEIDG. Tym samym dane w BAE zawsze powinny być zgodne ze stanem podanym przez
+przedsiębiorcę w ramach prowadzonej działalności gospodarczej, a co za tym idzie
+przedsiębiorca nie powinien dodatkowo składać oświadczeń o aktualności danych.
+W związku z wprowadzeniem okresu przejściowego, który umożliwi prowadzenie
+korespondencji nie tylko przez e-Doręczenia, ale również przez ePUAP, niezbędne jest
+wprowadzenie zmian w art. 147 ustawy o doręczeniach elektronicznych polegających na
+umożliwieniu wysyłania korespondencji przez ten system i zrównoważenie jej skutków
+prawnych.
+Zgodnie z projektowaną zmianą art. 147 ust. 2 ustawy o doręczeniach elektronicznych
+doręczenie korespondencji nadanej przez osobę fizyczną lub podmiot niebędący podmiotem
+publicznym, będące użytkownikami konta w ePUAP, do podmiotu publicznego posiadającego
+elektroniczną skrzynkę podawczą w ePUAP, w ramach usługi udostępnianej w ePUAP, jest
+równoważne w skutkach prawnych z doręczeniem przy wykorzystaniu publicznej usługi
+rejestrowanego doręczenia elektronicznego do dnia 31 grudnia 2025 r. – czyli do końca okresu
+przejściowego.
+W zmienianym art. 147 ust. 3 ustawy o doręczeniach elektronicznych przewidziano, że
+doręczenie korespondencji nadanej przez podmiot publiczny posiadający elektroniczną
+skrzynkę podawczą w ePUAP do osoby fizycznej lub podmiotu niebędącego podmiotem
+publicznym, nieposiadających adresu do doręczeń elektronicznych, jeżeli korespondencja ta
+stanowi odpowiedź na podanie albo wniosek złożone w ramach usługi udostępnionej w ePUAP,
+
+                                             6
+albo ta osoba fizyczna lub ten podmiot wystąpiły do organu administracji publicznej o
+doręczenie na konto w ePUAP, jest równoważne w skutkach prawnych z doręczeniem przy
+wykorzystaniu publicznej usługi rejestrowanego doręczenia elektronicznego do dnia 31 grudnia
+2025 r. Zgodnie z art. 7 ust. 1 ustawy o doręczeniach elektronicznych wpis ADE do bazy
+adresów elektronicznych jest równoważne żądaniu doręczania korespondencji przez podmioty
+publiczne na ten adres. Dlatego też, jeżeli adresat posiada ADE to korespondencja nie może
+zostać skierowana przez ePUAP, w tym przypadku nie będzie miał zastosowania art. 147 ust.
+3 pkt 2, a korespondencja będzie kierowana na adres do doręczeń elektronicznych.
+Powyższe przepisy stanowią kluczowe rozwiązania w zakresie wprowadzonego okresu
+przejściowego, tj. umożliwienie prowadzenie korespondencji przez ePUAP w okresie
+przejściowym i zapewnienie skuteczności prawnej takiego doręczenia.
+W projekcie w zmienianym art. 147 ustawy o doręczeniach elektronicznych dodaje się ust. 5,
+który reguluje, że do dnia 31 grudnia 2025 r. przepisów art. 4 i art. 5 nie stosuje się w przypadku
+gdy korespondencja nie może być doręczona na adres do doręczeń elektronicznych albo
+z wykorzystaniem publicznej usługi hybrydowej ze względu na przesłanki organizacyjne.
+Istnienie przesłanek organizacyjnych ocenia nadawca. Jest to odpowiedź na apel jst, które ze
+względu na niewystarczające przygotowanie do stosowania e-Doręczeń mogą mieć problem
+z odpytywaniem BAE przy wysyłkach korespondencji na szeroką skalę (np. wymiarowanie
+podatku). Jest to duże przedsięwzięcie organizacyjne w jst, które wymaga dopracowania
+procedur i przeszkolenia pracowników. Dlatego też w okresie przejściowym wprowadza się
+zapis, który umożliwi organom rezygnację z doręczenia na adres do doręczeń elektronicznych
+w takich wyjątkowych sytuacjach, jak wysyłka masowa korespondencji. W art. 147 dodaje się
+także ust. 6, zgodnie z którym do doręczeń, o których mowa w ust. 1–3 i 5, przepis art. 41
+ustawy o doręczeniach elektronicznych stosuje się odpowiednio. Regulacja wprowadza
+możliwość stosowania fikcji doręczenia w przypadku wysyłki przez ePUAP po 1 stycznia 2025
+r.
+W projekcie w zmienianym art. 152 ustawy o doręczeniach elektronicznych dodaje się ust. 5,
+który zawiera regulację, że informacja w przedmiocie adresów do doręczeń elektronicznych
+wpisanych, od dnia 5 lipca 2022 r., do bazy doręczeń elektronicznych, podmiotów wpisanych
+do Centralnej Ewidencji i Informacji o Działalności Gospodarczej zostanie przekazana
+automatycznie     za   pośrednictwem      systemu    teleinformatycznego      z   bazy    adresów
+elektronicznych do Centralnej Ewidencji i Informacji o Działalności Gospodarczej lub w innej
+ustrukturyzowanej formie elektronicznej, nie później niż w dniu wejścia w życie obowiązku,
+
+                                                7
+o którym mowa w art. 155 ust. 10, co ma na celu rozwiązanie problemu dotyczącego adresów
+do doręczeń elektronicznych podmiotów wpisanych do Centralnej Ewidencji i Informacji
+o Działalności Gospodarczej po dniu 5 lipca 2022 r.
+Doprecyzowuje się regulacje art. 155 w zakresie powstania obowiązku stosowania e-Doręczeń
+dla określonych podmiotów – proponuje się nowe brzmienie ust. 5 i 6 oraz wprowadzenie ust.
+5a.
+W modyfikowanym art. 155 ust. 5 ustawy o doręczeniach elektronicznych stanowi się, że
+agencje wykonawcze, instytucje gospodarki budżetowej, państwowe fundusze celowe,
+samodzielne publiczne zakłady opieki zdrowotnej, uczelnie publiczne, uczelnie niepubliczne,
+federacje podmiotów systemu szkolnictwa wyższego i nauki, Polska Akademia Nauk
+i tworzone przez nią jednostki organizacyjne, państwowe instytucje kultury oraz inne
+państwowe osoby prawne utworzone na podstawie odrębnych ustaw w celu wykonywania
+zadań publicznych są obowiązane stosować przepisy ustawy w zakresie doręczania
+korespondencji    z   wykorzystaniem     publicznej    usługi     rejestrowanego    doręczenia
+elektronicznego lub publicznej usługi hybrydowej od dnia określonego w komunikacie
+wydanym na podstawie ust. 10. W stosunku do dotychczasowego brzmienia przepisu wykreśla
+się samorządowe instytucje kultury oraz samorządowe osoby prawne i przenosi się je do ust. 6.
+Taka zmiana zapewni, że jst oraz podległe im podmioty będą miały obowiązek korzystania
+z PURDE i PUH w tych samych terminach.
+W zmienianym art. 155 ustawy o doręczeniach elektronicznych po ust. 5 dodaje się ust. 5a,
+który stanowi, iż Agencja Bezpieczeństwa Wewnętrznego, Agencja Wywiadu, Służba
+Kontrwywiadu Wojskowego, Służba Wywiadu Wojskowego, Centralne Biuro Antykorupcyjne
+i resort obrony narodowej są obowiązane stosować przepisy ustawy w zakresie doręczania
+korespondencji    z   wykorzystaniem     publicznej    usługi     rejestrowanego    doręczenia
+elektronicznego lub publicznej usługi hybrydowej od dnia 31 grudnia 2026 r.
+W art. 155 ustawy o doręczeniach elektronicznych przepis ust. 6 otrzymuje natomiast
+brzmienie, zgodnie z którym jst i ich związki oraz związki metropolitalne, samorządowe
+instytucje kultury, samorządowe osoby prawne oraz samorządowe zakłady budżetowe są
+obowiązane    stosować   przepisy   ustawy    w   zakresie      doręczania   korespondencji   z
+wykorzystaniem publicznej usługi rejestrowanego doręczenia elektronicznego od dnia
+określonego w komunikacie wydanym na podstawie ust. 10, a w zakresie doręczania
+korespondencji z wykorzystaniem publicznej usługi hybrydowej od dnia 1 października 2029
+r.
+
+                                             8
+Projekt nadaje nowe brzmienie art. 156 ustawy o doręczeniach elektronicznych, który
+stwierdza, że do podmiotów publicznych w rozumieniu ustawy zmienianej w art. 105,
+udostępniających elektroniczną skrzynkę podawczą w systemie innym niż ePUAP w okresie
+od dnia wejścia w życie niniejszej ustawy do dnia 31 grudnia 2025 r., stosuje się art. 157 i art.
+158.
+W art. 2 projektu proponuje się, by do korespondencji, o której mowa w art. 147 ust. 2 i 3
+ustawy zmienianej w art. 1, nadanej przed dniem wejście ustawy i niedoręczonej przed tym
+dniem, stosować przepisy ustawy zmienianej w art. 1 w brzmieniu nadanym niniejszą ustawą.
+Przepis ten rozstrzyga, jakie przepisy mają zastosowanie do doręczeń, o których mowa
+w art. 147 ustawy o doręczeniach elektronicznych.
+Projektowany art. 3 stanowi, że do wniosków o utworzenie adresów do doręczeń
+elektronicznych złożonych przez jednostki samorządu terytorialnego, związki międzygminne,
+związki powiatów, związki powiatowo-gminne, związki metropolitalne albo jednostki
+organizacyjne jednostki samorządu terytorialnego i nierozpatrzonych do dnia wejścia w życie
+ustawy stosuje się przepisy art. 12 ust. 1a–1c ustawy zmienianej w art. 1. Wnioski o utworzenie
+adresu do doręczeń innego niż ten, o którym mowa w art. 12 ust. 1a-1c ustawy zmienianej w art.
+1, złożone i nie rozpatrzone do dnia wejścia w życie ustawy pozostawia się bez rozpatrzenia.
+Aby uporządkować zagadnienie istnienia aktualnych adresów do doręczeń elektronicznych,
+które zostały założone w inny sposób niż określono to w art. 12 ust. 1a i 1b ustawy zmienianej
+w art. 1, projekt ustawy w art. 4 pozwala na wykreślenie takich adresów. W przypadku gdy dla
+jednostki samorządu terytorialnego, związku międzygminnego, związku powiatów, związku
+powiatowo-gminnego albo związku metropolitalnego utworzono więcej niż jeden adres do
+doręczeń elektronicznych, inny niż ten, o którym mowa w art. 12 ust. 1a i 1b ustawy
+o doręczeniach elektronicznych, wpisany do bazy adresów elektronicznych, minister właściwy
+do spraw informatyzacji wykreśla go z urzędu w terminie roku od dnia wejścia w życie ustawy.
+Jednocześnie w art. 4 ust. 2 tej ustawy postanowiono, iż przed dokonaniem czynności
+wykreślenia, minister właściwy do spraw informatyzacji informuje podmioty, o których mowa
+w ust. 1, o konieczności pobrania zasobów znajdujących się w skrzynce powiązanej z adresem
+do doręczeń elektronicznych i wskazuje termin wykreślenia adresu. Wykreślenie adresu
+stanowić będzie czynność materialno-techniczną.
+Przepis art. 5 określa następstwa zmiany dla dotychczasowych terminowych (3-letnich) wpisów
+adresów do doręczeń elektronicznych w bazie adresów elektronicznych na podstawie art. 34
+ust. 1 pkt 1 ustawy o doręczeniach elektronicznych w brzmieniu dotychczasowym.
+
+                                               9
+Dotychczasowe     3-letnie   adresy   do   doręczeń     elektronicznych   stają   się   adresami
+bezterminowymi.
+Przepis art. 6 stanowi, że ustawa wchodzi w życie z dniem 1 stycznia 2025 r. , z wyjątkiem:
+1) art. 1 pkt 2 i 4–7, które wchodzą w życie z dniem 1 czerwca 2025 r.,
+2) art. 1 pkt 9 i 10, które wchodzą w życie z dniem 1 marca 2025 r.
+Wskazanie późniejszych terminów wejścia w życie art. 1 pkt 2 i 4–7 i pkt 9 i 10 jest
+podyktowane     koniecznością    dostosowania      rozwiązań   technicznych   umożliwiających
+stosowanie wskazanych norm prawnych.
+Projektowane przepisy zostały przeanalizowane pod kątem wpływu na małe i średnie
+przedsiębiorstwa. Regulacje zawarte w projekcie będą miały pośredni (pozytywny) wpływ
+na działalność mikro- przedsiębiorców oraz małych i średnich przedsiębiorców, gdyż stworzą
+nowe możliwości komunikacji elektronicznej z podmiotami publicznymi. Uporządkują też
+dotychczasowe procedury w tym zakresie oraz mogą ograniczyć koszty i zaoszczędzić czas
+podczas tego typu komunikacji oraz w ramach prowadzonych z udziałem tych przedsiębiorców
+postępowań administracyjnych.
+Projekt ustawy nie zawiera przepisów technicznych i w związku z tym nie podlega procedurze
+notyfikacji w rozumieniu przepisów rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r.
+w sprawie sposobu funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych
+(Dz. U. z 2002 r. poz. 2039 oraz z 2004 r. poz. 597).
+Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej
+w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248 oraz z 2024 r. poz. 1535), projekt
+został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Ministra
+Cyfryzacji. Ponadto zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29
+października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806), został
+udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum
+Legislacji w zakładce Rządowy Proces Legislacyjny.
+Projektowane regulacje nie stoją w sprzeczności z prawem Unii Europejskiej.
+Projekt nie wymaga zasięgnięcia opinii, dokonania konsultacji oraz uzgodnienia z właściwymi
+organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem Centralnym.
+
+
+
+
+                                              10
+Nazwa projektu                                                     Data sporządzenia
+Ustawa o zmianie ustawy o doręczeniach elektronicznych             18.10.2024 r.
+Ministerstwo wiodące i ministerstwa współpracujące                 Źródło:
+Ministerstwo Cyfryzacji                                            inicjatywa własna
+Osoba odpowiedzialna za projekt w randze Ministra,                 Nr w Wykazie prac legislacyjnych i
+Sekretarza Stanu lub Podsekretarza Stanu                           programowych Rady Ministrów:
+Dariusz Standerski, Sekretarz Stanu w Ministerstwie Cyfryzacji     UD107
+Kontakt do opiekuna merytorycznego projektu
+Katarzyna Zajkowska Dyrektor Departamentu Transformacji
+Cyfrowej Ministerstwa Cyfryzacji, adres e-mail
+katarzyna.zajkowska3@cyfra.gov.pl
+                                     OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Termin wejścia w życie obowiązku stosowania doręczeń elektronicznych, określonych przepisami ustawy z dnia
+18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U. z 2024 r. poz. 1045), dalej „ustawa o doręczeniach
+elektronicznych”, był kilkukrotnie przesuwany ze względu na niewystarczającą gotowość do doręczania
+korespondencji w sposób elektroniczny po stronie podmiotów obowiązanych.
+Termin został określony w komunikacie wydanym na podstawie art. 155 ust. 10 ustawy o doręczeniach
+elektronicznych. Od dnia ogłoszenia tego komunikatu podmioty publiczne, których dotyczy komunikat, są
+obowiązane stosować przepisy tej ustawy w zakresie doręczania korespondencji z wykorzystaniem publicznej
+usługi rejestrowanego doręczenia elektronicznego (PURDE) lub publicznej usługi hybrydowej (PUH). Obecnie
+termin ten został przesunięty komunikatem Ministra Cyfryzacji z dnia 12 lipca 2024 r. na 1 stycznia 2025 r.
+Skuteczne wdrożenie doręczeń elektronicznych (e-Doręczeń) wymaga wprowadzenia znacznych zmian
+w funkcjonowaniu podmiotów publicznych w Polsce, takich jak zapewnienie:
+    zmiany sposobu nadawania korespondencji (z papierowej na elektroniczną oraz z ePUAP na e-
+       Doręczenia),
+    prawidłowego korzystania z nowych rozwiązań, w szczególności PURDE i PUH,
+    nadania uprawnień do obsługi skrzynki doręczeń uprawnionym pracownikom,
+    podpisów elektronicznych dla upoważnionych osób,
+    archiwizacji dokumentów elektronicznych,
+    elektronicznego obiegu dokumentów.
+Z powyższego wynika, że wdrożenie e-Doręczeń, jako nowego sposobu prowadzenia korespondencji, jest dużym
+przedsięwzięciem technicznym, ale przede wszystkim organizacyjnym, szczególnie dla podmiotów publicznych.
+Wdrożenie e-Doręczeń wynika z potrzeby wprowadzenia skutecznej, jednorodnej i równoważnej prawnie
+przesyłki elektronicznej z przesyłką poleconą za potwierdzeniem odbioru oraz jednolitych zasad i standardów
+realizacji doręczenia elektronicznego w oparciu o interoperacyjne systemy i usługi.
+Usługa rejestrowanego doręczenia elektronicznego została wprowadzona rozporządzeniem Parlamentu
+Europejskiego i Rady (UE) nr 910/2014 z dnia 23 lipca 2014 r. w sprawie identyfikacji elektronicznej i usług
+zaufania w odniesieniu do transakcji elektronicznych na rynku wewnętrznym oraz uchylającym dyrektywę
+1999/93/WE (Dz. Urz. UE L 257 z 28.08.2014, str. 73, z późn. zm.), dalej „rozporządzenie 910/2014”. Art. 3
+pkt 36 tego rozporządzenia wskazuje, że usługa rejestrowanego doręczenia elektronicznego oznacza usługę
+umożliwiającą przesłanie danych między stronami trzecimi drogą elektroniczną, zapewniającą dowody związane
+z posługiwaniem się przesyłanymi danymi, w tym dowód wysłania i otrzymania danych, oraz chroniącą
+przesyłane dane przed ryzykiem utraty, kradzieży, uszkodzenia lub jakiejkolwiek nieupoważnionej zmiany.
+W motywach rozporządzenia 910/2014 podkreślono, że Rada Europejska zwróciła się do Komisji Europejskiej
+– w konkluzjach z dnia 27 maja 2011 r. – o wsparcie rozwoju jednolitego rynku cyfrowego przez tworzenie
+odpowiednich warunków sprzyjających wzajemnemu transgranicznemu uznawaniu głównych aktywatorów,
+takich jak elektroniczna identyfikacja, dokumenty elektroniczne, podpisy elektroniczne i usługi doręczeń
+elektronicznych, oraz odpowiednich warunków sprzyjających interoperacyjności usług administracji
+elektronicznej w całej Unii Europejskiej.
+W 2023 r. i 2024 r. na zlecenie MC przeprowadzono badania wśród podmiotów publicznych weryfikujące
+przygotowanie tych podmiotów do wdrożenia e-Doręczeń. Badania te pokazują, że większość z nich nie posiada
+systemu do elektronicznego obiegu dokumentów. Natomiast nawet jeżeli podmiot posiada system klasy EZD, to
+często służy on jedynie do ewidencji spraw, a obieg dokumentów realizowany jest papierowo. Z badań wynika
+również, że podmioty publiczne nie wiedzą, jak posługiwać się podpisami elektronicznymi, jak archiwizować
+dokumenty elektroniczne. Częstą praktyką jest również drukowanie podpisanych elektronicznie dokumentów
+oraz skanowanie dokumentów podpisanych odręcznie i wysyłanie ich elektronicznie. Wnioski z badań pokazują
+konieczność przeprowadzenia szkoleń, których celem jest podniesienie kompetencji cyfrowych wśród
+podmiotów publicznych.
+Ponadto z przeprowadzonych analiz wynika, że wniosek o założenie adresu do doręczeń elektronicznych złożyło
+jedynie 30% obowiązanych podmiotów publicznych.
+Powyższe stanowi o braku wystarczającej gotowości po stronie części podmiotów publicznych, w szczególności
+jednostek samorządu terytorialnego, w zakresie doręczania korespondencji z wykorzystaniem PURDE lub PUH.
+Takie działanie jest zgodne i istotne z punktu widzenia założeń Krajowego Planu Odbudowy, który po rewizji
+dokonanej w 2024 r. zakłada finansowanie rozbudowy publicznego systemu EZD. Wdrożenie systemów klasy
+EZD jest niezbędne w celu zapewnienia w pełni elektronicznego obiegu dokumentów w podmiotach publicznych
+w Polsce. Zgodnie z przepisami KPA, które będą obowiązywać w dniu wejścia w życie obowiązku stosowania
+e-Doręczeń, oraz ustawą o doręczeniach elektronicznych korespondencja w polskiej administracji będzie
+nadawana w sposób elektroniczny. To wymaga docelowo wprowadzenia elektronicznego obiegu dokumentów,
+aby dokumentacja mogła być przygotowywana, dekretowana, podpisywana, wysyłana i archiwizowana w sposób
+elektroniczny. W przeciwnym razie obieg korespondencji pozostanie papierowy a jedynie na końcowym etapie
+– wysyłki – korespondencja będzie przenoszona do formy cyfrowej. Wprowadzenie okresu przejściowego
+pozwoli podmiotom publicznym na przygotowanie się do wdrożenia EZD, którego rozwój jest zapewniony w
+ramach Krajowego Planu Odbudowy i Zwiększania Odporności.
+Wprowadzenie zmian legislacyjnych precyzuje zasady nadawania adresu do doręczeń elektronicznych (ADE)
+jednostkom samorządu terytorialnego. Ponadto, uwzględniając potrzeby sygnalizowane przez ABW, AW, SKW,
+SWW, CBA i resort obrony narodowej, termin wdrożenia dla tych podmiotów zostanie przesunięty na 31 grudnia
+2026 r.
+ 2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+W celu zapewnienia skutecznego wdrożenia e-Doręczeń w podmiotach publicznych proponuje się wprowadzenie
+okresu przejściowego do 31 grudnia 2025 r., w którym będą one mogły stopniowo dostosowywać się do nowego
+sposobu prowadzenia korespondencji, tj. dostosować się organizacyjnie, wprowadzić systemy elektronicznego
+obiegu dokumentów (systemy klasy EZD) oraz poznać nowe rozwiązanie, jakim są e-Doręczenia. Analiza oparta
+na doświadczeniach Ministerstwa Cyfryzacji, związanych z zapewnianiem utrzymania i rozwoju systemów
+teleinformatycznych, w szczególności ePUAP, jak również projektów informatycznych dotyczących
+świadczenia usług elektronicznych, pozwala stwierdzić, że okres niezbędny do dokonania zmian technicznych,
+w szczególności dostosowania ePUAP do e-Doręczeń, wynosi około roku.
+W tym okresie zostanie przeprowadzona szeroka kampania informacyjna w celu promocji e-Doręczeń, w
+szczególności wśród pracowników jednostek samorządów terytorialnych, oraz wsparcie szkoleniowe w zakresie
+
+
+                                                    2
+obsługi e-Doręczeń oraz systemów klasy EZD.
+W celu upowszechnienia z korzystania z e-Doręczeń kampania informacyjna zostanie również przeprowadzona
+skierowana do obywateli, co podniesie ich świadomość o nowym narzędziu, z którego będą mieli możliwość
+korzystać w kontaktach z podmiotami.
+W projektowanym okresie przejściowym zostanie zapewniona równoważność doręczania korespondencji za
+pośrednictwem operatora pocztowego albo w ePUAP oraz w innych systemach dziedzinowych z e-
+Doręczeniami. Przy czym wprowadzane rozwiązania będą promować doręczanie korespondencji
+z wykorzystaniem e-Doręczeń.
+Ministerstwo Cyfryzacji planuje jednocześnie prowadzić działania pozalegislacyjne zachęcające podmioty
+publiczne do wdrażania systemów klasy EZD. Oczekuje się, że wprowadzenie w podmiotach publicznych
+systemów klasy EZD przyspieszy transformację cyfrową urzędów i pozwoli na bardziej skuteczne wdrożenie e-
+Doręczeń.
+Proponuje się rozszerzenie projektu o zmianę w art. 2 pkt 6 ustawy o doręczeniach elektronicznych przez dodanie
+uczelni niepublicznych oraz federacji podmiotów systemu szkolnictwa wyższego i nauki.
+W projekcie wprowadza się możliwość składania przez podmioty niepubliczne wniosków za pośrednictwem
+operatora wyznaczonego, analogicznie do kwalifikowanych dostawców usług.
+Proponuje się wprowadzenie rozwiązania wskazującego jednoznacznie, że dla każdej jednostki organizacyjnej
+jednostki samorządu terytorialnego, posiadającej numer identyfikacyjny REGON, tworzy się odrębny adres do
+doręczeń elektronicznych powiązany z publiczną usługą rejestrowanego doręczenia elektronicznego.
+Bez zmian pozostaje obowiązek uzyskania przez podmioty wskazane w ustawie o doręczeniach elektronicznych
+adresu do doręczeń elektronicznych do dnia określonego w komunikacie wydanym na podstawie art. 155 ust. 10
+tej ustawy.
+Dodaje się przepis wskazujący na bezterminowe wpisanie ADE do bazy adresów elektronicznych (BAE).
+Propozycja zmiany dotycząca ustawy o Centralnej Ewidencji Informacji o Działalności Gospodarczej i Punkcie
+Informacji dla Przedsiębiorcy zdejmuje z przedsiębiorcy objętego wpisem w CEIDG obowiązek składania przy
+wniosku o wpis do CEIDG oświadczenia o posiadaniu adresu do doręczeń elektronicznych wpisanego do BAE
+i aktualności danych zamieszczonych w BAE. Dodatkowo dane w BAE aktualizowane są na podstawie danych
+przekazanych przez CEIDG, które pochodzą z wniosku złożonego przez przedsiębiorcę w ramach zmiany
+danych we wpisie CEIDG.
+W projektowanym okresie przejściowym podmiot publiczny będzie kierował korespondencję do podmiotu
+niebędącego podmiotem publicznym na adres do doręczeń elektronicznych – jeżeli odbiorca taki adres posiada –
+zgodnie z obowiązującymi przepisami KPA i ordynacji podatkowej. Jeżeli odbiorca nie posiada adresu do doręczeń
+elektronicznych, to korespondencja może być kierowana w dotychczasowy sposób, tj. zgodnie z przepisami KPA
+i ordynacji podatkowej w brzmieniu sprzed nowelizacji, tj. korespondencja będzie kierowana przez operatora
+pocztowego, chyba że jest do odpowiedź na wniosek złożony przez ePUAP – w takim przypadku korespondencja
+będzie kierowana przez ePUAP.
+Wprowadzone przepisy umożliwiają ABW, AW, SKW, SWW, CBA i resortowi obrony narodowej stosowanie e-
+Doręczeń od 31 grudnia 2026 r.
+W tym okresie Minister Cyfryzacji będzie kontynuował działania informacyjno-wdrożeniowe, których celem
+jest przygotowanie podmiotów do stosowania e-Doręczeń. Takie działanie jest zgodne i istotne z punktu
+widzenia założeń Krajowego Planu Odbudowy, który po rewizji zakłada finansowanie rozbudowy publicznego
+systemu EZD.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Nie dotyczy.
+
+                                                      3
+4. Podmioty, na które oddziałuje projekt
+        Grupa                  Wielkość           Źródło danych                 Oddziaływanie
+Obywatele w wieku        ok. 31 mln          GUS 2022                    Stosowane rozwiązanie
+produkcyjnym i                                                           wpłynie na zapewnienie
+poprodukcyjnym                                                           możliwości elektronicznej
+                                                                         korespondencji z urzędami
+                                                                         przy wykorzystaniu
+                                                                         dotychczasowych albo
+                                                                         nowych narzędzi (w
+                                                                         zależności od poziomu
+                                                                         gotowości podmiotów) oraz
+                                                                         wyeliminuje trudności w
+                                                                         wyszukiwaniu adresów.
+Podmioty sektora         ok. 83 000          Według katalogu             Wprowadzenie okresu
+publicznego                                  podmiotów publicznych –     przejściowego zapewni
+                                             wewnętrznej bazy            więcej czasu na
+                                             podmiotów publicznych       dostosowanie techniczne i
+                                             prowadzonej w               organizacyjne do nowego
+                                             Ministerstwie Cyfryzacji    sposobu prowadzenia
+                                                                         korespondencji z podmiotami
+                                                                         publicznymi oraz
+                                                                         podmiotami niepublicznymi.
+Jednostki samorządu      16 województw,      Główny Urząd Statystyczny   Wprowadzenie okresu
+terytorialnego           380 powiatów, w                                 przejściowego zapewni
+                         tym 66 miast na                                 więcej czasu na
+                         prawach powiatu,                                dostosowanie techniczne i
+                         2477 gmin                                       organizacyjne do nowego
+                                                                         sposobu prowadzenia
+                                                                         korespondencji z podmiotami
+                                                                         publicznymi oraz
+                                                                         podmiotami niepublicznymi
+                                                                         oraz wyeliminuje
+                                                                         niejednolitość w sposobie
+                                                                         zakładania adresów do
+                                                                         doręczeń elektronicznych i
+                                                                         trudności w wyszukiwaniu
+                                                                         adresów.
+ABW, AW, SKW,            5 oraz jednostki    Dane ogólnodostępne         Wprowadzenie nowego
+SWW, CBA i resort        podległe i                                      terminu wdrożenia e-
+obrony narodowej         nadzorowane przez                               Doręczeń zapewni więcej
+                         Ministra Obrony                                 czasu na dostosowanie
+                         Narodowej, w tym                                techniczne i organizacyjne do
+                         Siły Zbrojne                                    nowego sposobu
+                                                                         prowadzenia korespondencji.
+uczelnie niepubliczne    ok. 420             Dane ogólnodostępne         Stosowanie
+oraz federacje                                                           zaproponowanych rozwiązań
+podmiotów systemu                                                        zrówna traktowanie uczelni
+szkolnictwa wyższego i                                                   niepublicznych oraz federacji
+nauki                                                                    podmiotów sytemu
+
+
+                                                4
+                                                                                 szkolnictwa wyższego z
+                                                                                 uczelniami publicznymi.
+Operator wyznaczony –     Przedsiębiorca o       Raport UKE o stanie rynku       Wprowadzenie okresu
+Poczta Polska S.A.        ogólnopolskim          pocztowego w 2023 roku          przejściowego umożliwi
+                          zasięgu działania                                      operatorowi wyznaczonemu
+                          zatrudniający ok. 64                                   udoskonalenie usługi
+                          272 osób                                               rejestrowanego doręczenia
+                                                                                 elektronicznego.
+Minister Cyfryzacji       1                      Dane ogólnodostępne             Wprowadzenie okresu
+                                                                                 przejściowego umożliwi MC
+                                                                                 dostosowanie systemu w
+                                                                                 większym stopniu do
+                                                                                 oczekiwań użytkowników.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+W latach 2023–2024 Ministerstwo Cyfryzacji zbierało i analizowało postulaty przedstawiane przez podmioty
+obowiązane do stosowania e-Doręczeń. Niniejszy projekt jest odpowiedzią na te postulaty.
+Projekt był prekonsultowany z jednostkami samorządu terytorialnego w ramach spotkań pod egidą Komisji
+Wspólnej Rządu i Samorządu Terytorialnego, które odbyły się m.in. w dniach 5, 17 i 24 kwietnia 2024 r. oraz
+przedsiębiorcami i przedstawicielami zawodów zaufania publicznego.
+Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2017 r. poz. 248, z późn. zm.), projekt został udostępniony w Biuletynie Informacji Publicznej.
+Ponadto, zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy
+Rady Ministrów (M.P. z 2024 r. poz. 806), został udostępniony w Biuletynie Informacji Publicznej na stronie
+podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces Legislacyjny.
+Projekt został skierowany do konsultacji publicznych, z terminem 14 dni na zgłaszanie uwag do Naczelnej Rady
+Adwokackiej, Krajowej Izby Radców Prawnych, Krajowej Rady Notarialnej, Stowarzyszenia Sędziów Polskich
+„Iustitia”, Krajowej Rady Komorniczej, Krajowej Izby Doradców Podatkowych, Polskiej Izby Rzeczników
+Patentowych, Polskiej Izby Teleinformatyki i Telekomunikacji, Związku Banków Polskich, Konfederacji
+Lewiatan, Poczty Polskiej S.A., Polskiej Izby Komunikacji Elektronicznej, Krajowej Izby Gospodarczej
+Elektronicznej i Telekomunikacji, Polskiego Towarzystwa Informatycznego.
+Zaproponowany termin konsultacji publicznych wynikał z pilnej potrzeby wprowadzenia do systemu prawnego
+rozwiązań określonych w projekcie ustawy regulujących okres przejściowy. Pozwoli to adresatom ustawy na
+dostosowanie się do elektronicznego systemu doręczania korespondencji.
+Zgłoszone uwagi w większości zostały wyjaśnione lub uzgodnione, a część uwag została nieuwzględniona.
+Projekt został przesłany również do Komisji Wspólnej Rządu i Samorządu Terytorialnego.
+Projekt został również przekazany do Rady Działalności Pożytku Publicznego oraz Rady Dialogu Społecznego.
+Nie otrzymano opinii Rady Działalności Pożytku Publicznego oraz Rady Dialogu Społecznego.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                     Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                 0     1   2     3    4     5      6     7    8      9   10       Łącznie
+                                                                                                   (0-10)
+Dochody ogółem                  0     0   0     0    0     0      0    0     0     0    0     0
+budżet państwa                  0     0   0     0    0     0      0    0     0     0    0     0
+
+
+                                                      5
+JST                            0      0      0     0      0     0       0   0   0       0   0    0
+pozostałe jednostki            0      0      0     0      0     0       0   0   0       0   0    0
+(oddzielnie)
+Wydatki ogółem                 0      0      0     0      0     0       0   0   0       0   0    0
+budżet państwa                 0      0      0     0      0     0       0   0   0       0   0    0
+JST                            0      0      0     0      0     0       0   0   0       0   0    0
+pozostałe jednostki            0      0      0     0      0     0       0   0   0       0   0    0
+(oddzielnie)
+Saldo ogółem                   0      0      0     0      0     0       0   0   0       0   0    0
+budżet państwa                 0      0      0     0      0     0       0   0   0       0   0    0
+JST                            0      0      0     0      0     0       0   0   0       0   0    0
+pozostałe jednostki            -      -      -     -      -     -       -   -   -       -   -    -
+(oddzielnie)
+Źródła finansowania   -
+Dodatkowe             Projektowana ustawa nie skutkuje wydatkami po stronie budżetu państwa oraz budżetów
+informacje, w tym     jednostek samorządu terytorialnego i pozostaje bez wpływu na sektor finansów
+wskazanie źródeł      publicznych.
+danych i przyjętych   Projektowana ustawa wprowadza jedynie okres przejściowy od dnia wejścia w życie
+do obliczeń założeń   ustawy do 31 grudnia 2025 r., w którym zostanie zapewniona równoważność doręczenia
+                      za pośrednictwem operatora pocztowego albo w ePUAP oraz innych systemach
+                      dziedzinowych z e-Doręczeniami. Wprowadzenie okresu przejściowego pozostaje bez
+                      wpływu na wydatki jednostek sektora finansów publicznych, w szczególności jednostek
+                      samorządu terytorialnego. Takie działanie jest zgodne i istotne z punktu widzenia założeń
+                      Krajowego Planu Odbudowy i Zwiększania Odporności, który po rewizji zakłada
+                      finansowanie rozbudowy publicznego systemu klasy EZD.
+
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców,
+   oraz na rodzinę, obywateli i gospodarstwa domowe
+                                                       Skutki
+Czas w latach od wejścia w życie             0         1            2       3       5       10       Łącznie (0-
+zmian                                                                                                   10)
+W ujęciu          duże
+                  przedsiębiorstwa
+pieniężnym
+                  sektor mikro-,
+(w mln zł,        małych i średnich
+                  przedsiębiorstw
+ceny stałe z
+                  rodzina,
+…… r.)
+                  obywatele oraz
+                  gospodarstwa
+                  domowe
+W ujęciu          duże                    Wprowadzenie okresu przejściowego nie wpływa na przedsiębiorców.
+niepieniężnym     przedsiębiorstwa
+                  sektor mikro-,          Regulacje zawarte w projekcie będą miały pośredni (pozytywny) wpływ
+                  małych i średnich       na działalność mikro- przedsiębiorców oraz małych i średnich
+                  przedsiębiorstw         przedsiębiorców, gdyż stworzą nowe możliwości komunikacji
+                                          elektronicznej z podmiotami publicznymi. Uporządkują też
+                                          dotychczasowe procedury w tym zakresie oraz mogą ograniczyć koszty
+
+
+                                                         6
+                                       i zaoszczędzić czas podczas tego typu komunikacji oraz w ramach
+                                       prowadzonych z udziałem tych przedsiębiorców postępowań
+                                       administracyjnych.
+                  rodzina,             Wprowadzenie okresu przejściowego pozwoli na uruchomienie lepiej
+                  obywatele oraz       przygotowanego i dostosowanego systemu doręczeń elektronicznych i
+                  gospodarstwa         usług z nim związanych.
+                  domowe, w tym
+                  osoby starsze i
+                  niepełnosprawne
+                  (dodaj/usuń)
+Niemierzalne      (dodaj/usuń)         Brak możliwości podania wartości liczbowych dot. skutków w ujęciu
+                                       pieniężnym dla dużych przedsiębiorstw, sektora mikro-, małych i
+                                       średnich przedsiębiorstw oraz rodziny, obywateli oraz gospodarstw
+                                       domowych.
+                   (dodaj/usuń)
+Dodatkowe              Wprowadzenie okresu przejściowego zapewni więcej czasu na dostosowanie techniczne
+informacje, w tym      i organizacyjne do nowego sposobu prowadzenia korespondencji. Zmiana w
+wskazanie źródeł       nieznacznym stopniu opóźnia pełną cyfryzację korespondencji z podmiotami
+danych i przyjętych publicznymi, dopuszczając w okresie przejściowym inne formy doręczeń. Wprowadzenie
+do obliczeń założeń okresu przejściowego pozwoli również na większe dostosowanie się zarówno podmiotów
+                       publicznych do stosowania e-Doręczeń. Takie działanie jest zgodne i istotne z punktu
+                       widzenia założeń Krajowego Planu Odbudowy, który po rewizji zakłada finansowanie
+                       rozbudowy publicznego systemu EZD.
+ 8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+    nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie      tak
+                                                 nie
+wymaganymi przez UE (szczegóły w odwróconej
+                                                 nie dotyczy
+tabeli zgodności).
+   zmniejszenie liczby dokumentów                        zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                          zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                 wydłużenie czasu na załatwienie sprawy
+   inne:                                                 inne:
+Wprowadzane obciążenia są przystosowane do ich           tak
+elektronizacji.                                          nie
+                                                         nie dotyczy
+Komentarz:
+
+9. Wpływ na rynek pracy
+Brak wpływu.
+10. Wpływ na pozostałe obszary
+
+   środowisko naturalne               demografia                              informatyzacja
+   sytuacja i rozwój regionalny       mienie państwowe                        zdrowie
+   sądy powszechne,                   inne:
+
+
+                                                     7
+administracyjne lub wojskowe
+
+
+
+                       Projekt opóźnia zapewnienie pełnej elektronizacji obiegu dokumentów w gospodarce, ale
+                       daje gwarancję lepszego dostosowania zobowiązanych ustawowo podmiotów do
+                       obowiązków wynikających z ustawy o doręczeniach elektronicznych. Działanie jest
+Omówienie wpływu       zgodne i istotne z punktu widzenia założeń Krajowego Planu Odbudowy i Zwiększania
+                       Odporności , który po rewizji zakłada finansowanie rozbudowy publicznego systemu
+                       klasy EZD.
+11. Planowane wykonanie przepisów aktu prawnego
+Planuje się, że ustawa wejdzie w życie z dniem 1 stycznia 2025 r., z wyjątkami w niej określonymi.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Z uwagi na charakter proponowanych zmian nie przewiduje się ewaluacji efektów oraz stosowania mierników.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Nie dotyczy.
+
+
+
+
+                                                       8
+                   RAPORT Z KONSULTACJI PUBLICZNYCH I OPINIOWANIA
+          projektu ustawy o zmianie ustawy o doręczeniach elektronicznych (UD 107)
+
+1. Przebieg konsultacji publicznych i opiniowania.
+W dniu 26.08.2024 r. Minister Cyfryzacji przekazał do konsultacji publicznych i opiniowania projektu
+ustawy o zmianie ustawy o doręczeniach elektronicznych (UD107). Termin na zgłaszanie uwag
+wynosił 14 dni.
+Projekt ustawy został przekazany w ramach konsultacji publicznych do następujących
+podmiotów:
+1. Naczelna Rada Adwokacka,
+2. Krajowa Izba Radców Prawnych,
+3. Krajowa Rada Notarialna,
+4. Stowarzyszenie Sędziów Polskich „Iustitia”,
+5. Krajowa Rada Komornicza,
+6. Krajowa Izba Doradców Podatkowych,
+7. Polska Izba Rzeczników Patentowych,
+8. Polska Izba Teleinformatyki i Telekomunikacji,
+9. Związek Banków Polskich,
+10. Konfederacja Lewiatan,
+11. Poczta Polska S.A.,
+12. Polska Izba Komunikacji Elektronicznej,
+13. Krajowa Izba Gospodarczej Elektroniki i Telekomunikacji,
+14. Polskie Towarzystwo Informatyczne.
+
+Ze względu na konieczność pilnego wprowadzenia do systemu prawnego rozwiązań określonych
+w projekcie ustawy projektodawca zrezygnował z przeprowadzenia opiniowania projektu.
+Projekt został również przekazany do Rady Działalności Pożytku Publicznego, Rady Dialogu
+Społecznego oraz Komisji Wspólnej Rządu i Samorządu Terytorialnego.
+2. Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania
+Zgłoszone uwagi w większości zostały wyjaśnione lub uzgodnione, a część uwag została
+nieuwzględniona. Szczegółowe odniesienia do zgłoszonych uwag znajdują się w tabeli uwag załączonej
+do Raportu.
+3. Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu
+z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem
+Centralnym.
+Projekt ustawy nie wymaga przedłożenia właściwym instytucjom i organom Unii Europejskiej lub
+Europejskiemu Bankowi Centralnemu w celu uzyskania opinii, dokonania konsultacji lub uzgodnienia.
+4. Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem w trybie
+przepisów o działalności lobbingowej w procesie stanowienia prawa, wraz ze wskazaniem
+kolejności dokonania zgłoszeń albo informację o ich braku.
+Nie odnotowano zgłoszeń zainteresowanych podmiotów w trybie przepisów o działalności lobbingowej
+w procesie stanowienia prawa.
+                                                                      Tabela uwag
+                                                      zgłoszonych w ramach konsultacji publicznych
+                                       do projektu ustawy o zmianie ustawy o doręczeniach elektronicznych (UD107)
+
+Lp.        Podmiot   Jedn. red.        Zgłoszone uwagi                                                                        Odniesienie projektodawcy
+
+
+
+
+      1.   Poczta    art. 1 projektu   w art. 1 projektu ustawy z dnia 22 sierpnia 2024 r. o zmianie ustawy o doręczeniach    Uwaga częściowo uwzględniona
+           Polska                      elektronicznych oraz ustawy o Centralnej Ewidencji i Informacji o działalności
+                                                                                                                              Przepis art. 12 ust. 1b został
+           S.A.                        Gospodarczej i Punkcie Informacji dla Przedsiębiorców (dalej; „projekt’) w pkt 1 – w
+                                                                                                                              doprecyzowany.
+                                       zakresie art. 12 ust. 1b
+                                       powstaje wątpliwość, czy ten przepis należy rozumieć w ten sposób, że jednostka        Regulacja dotycząca wnioskodawcy
+                                       samorządu terytorialnego występuje o ADE dla podlegających sobie jednostek             została już zamieszczona w art. 12 ust.
+                                       organizacyjnych, np. szkół, żłobków, przedszkoli, ośrodków kultury, bibliotek? Jeśli   1 i 2, w związku z tym nie istnieje
+                                       nie, wówczas Poczta Polska proponuje:                                                  potrzeba jej powtarzania w innej
+                                       1) w projektowanym ust. 1b) w art. 12 dodać na końcu zdania wyrazy: „na wniosek        jednostce redakcyjnej tego przepisu.
+                                       jednostki samorządu terytorialnego.”;
+                                       albo
+                                       2) albo w art. 12 w ust. 2 dodać pkt. 3a) w brzmieniu: „dane nabywcy oraz płatnika
+                                       podatku VAT”,
+                                       albo
+                                       3) w art. 7 dodać ust. 2a w brzmieniu:
+                                       „Podmiot jest informowany o konieczności wskazania danych nabywcy publicznej
+                                       usługi rejestrowanego doręczenia elektronicznego lub publicznej usługi hybrydowej
+                                       oraz danych płatnika/odbiorcy faktury Vat.”
+                                       Uzasadnienie
+                                       W związku ze składaniem wniosków przez podmioty publiczne o wydanie adresów
+                                       do doręczeń elektronicznych (ADE) do Ministra właściwego do spraw informatyzacji
+                                       oraz mając na uwadze, iż wpis adresu do doręczeń elektronicznych do Bazy
+                                       Adresów Elektronicznych skutkuje dla podmiotu publicznego zawarciem umowy z
+                                       Pocztą Polską S.A. na świadczenie publicznej usługi rejestrowanego doręczenia
+                                       elektronicznego (PURDE) i publicznej usługi hybrydowej (PUH), zgodnie z
+                                       postanowieniami Regulaminu oraz Polityki świadczenia usługi na czas pełnienia roli
+                                       operatora wyznaczonego, Poczta Polska identyfikuje istotne okoliczności
+występujące na etapie wypełniania wniosku mające wpływ na sprawność i
+prawidłowość procesu fakturowania podmiotów publicznych.
+Mając na uwadze wprowadzony od 1 stycznia 2017 r. obowiązek centralizacji
+rozliczeń w VAT zgodnie z ustawą z dnia 5 września 2016 r. o szczególnych
+zasadach rozliczeń podatku od towarów i usług oraz dokonywania zwrotu środków
+publicznych przeznaczonych na realizację projektów finansowanych z udziałem
+środków pochodzących z budżetu Unii Europejskiej lub od państw członkowskich
+Europejskiego Porozumienia o Wolnym Handlu przez jednostki samorządu
+terytorialnego, do rozliczania podatku VAT zobowiązane są jednostki samorządu
+terytorialnego wraz ze wszystkimi jednostkami organizacyjnymi. Poszczególne
+jednostki organizacyjne JST najpóźniej od 1 stycznia 2017 r. nie rozliczają się jako
+odrębni podatnicy VAT a zatem nie są podmiotami, które występują w zakresie VAT
+jako nabywca towaru lub usługi, który winien być wskazany na fakturze zgodnie z
+art. 106e ust. 1 pkt. 5 ustawy o podatku od towarów i usług.
+Z kolei we wniosku o utworzenie adresu i skrzynki do doręczeń elektronicznych
+poszczególne jednostki organizacyjne działające w ramach JST wskazują NIP
+nadany im dla celów innych niż VAT lub regon, jeżeli taki NIP nie został jednostce
+nadany.
+Powyższe powoduje ryzyko, iż Poczta Polska nie posiadając informacji o właściwym
+dla rozliczeń VAT numerze NIP, którym określona jednostka organizacyjna JST
+powinna się posługiwać na potrzeby fakturowania niewłaściwie wystawi fakturę na
+NIP wskazany przez tę jednostkę przy składaniu wniosku o wydanie ADE.
+Dodatkowym utrudnieniem w tej sytuacji jest fakt, iż wiele jednostek organizacyjnych
+JST nie złożyło jeszcze wniosku o wydanie ADE i prawdopodobnie wiele z nich zrobi
+to w ostatniej chwili, uniemożliwiając (ze względu na masowość takiego podejścia)
+nawiązanie kontaktu z daną jednostką przez Pocztę Polską celem uzgodnienia
+danych do fakturowania.
+W tej sytuacji Poczta Polska będzie zobowiązana do wystawienia istotnej liczby
+faktur korygujących a następnie przeprowadzenia korekt plików JPK, w ślad za
+informacjami, które otrzyma od jednostek organizacyjnych JST z opóźnieniem, a
+które winny być wskazane już w chwili przed wystawieniem faktury (najkorzystniej
+byłoby przy zakładaniu ADE).
+W związku z powyższym, zwracamy się z uprzejmą prośbą o wsparcie w zakresie
+dokonania zmiany w formularzu rejestracyjnym w taki sposób, aby jednostki
+organizacyjne JST oprócz własnego numeru NIP wykorzystywanego dla celów
+                                    innych niż VAT mogły w formularzu wskazać NIP do celów fakturowania – mogłoby
+                                    być to pole opcjonalne tylko dla podmiotów które mają taką specyfikę działania.
+                                    Innym narzędziem, które również byłoby dla Poczty Polskiej bardzo przydatne
+                                    byłaby baza powiązań poszczególnych jednostek organizacyjnych JST z jednostką
+                                    (w tym NIP) dokonującą rozliczeń VAT w ramach centralizacji, wraz z posiadanymi
+                                    przez te jednostki numerami NIP i regon. Umożliwiłoby to Poczcie Polskiej
+                                    samodzielne przypisanie do poszczególnych jednostek organizacyjnych JST
+                                    właściwego numeru NIP dla celów fakturowania, niezależnie od NIP wskazanego w
+                                    formularzu wniosku o wydanie ADE – przy czym tutaj Poczta Polska nie dysponuje
+                                    wiedzą, czy taka baza istnieje/funkcjonuje.
+
+2.   PWPW     art. 1 pkt 2          Projekt ustawy zawiera propozycję nowelizacji art. 26 pkt 2 i 3 ustawy o                 Uwaga uwzględniona
+              projektu              doręczeniach elektronicznych poprzez dodanie, do obecnego katalogu danych,
+                                                                                                                             Uzasadnienie zostało uzupełnione
+                                    informacji o korzystaniu przez podmiot z dodatkowej usługi wymiany korespondencji
+                                                                                                                             zgodnie z treścią uwagi.
+                                    pomiędzy podmiotami niepublicznymi, o której mowa w art. 53 ustawy o
+                                    doręczeniach elektronicznych. W związku z powyższym prosimy o udzielenie
+                                    dodatkowych informacji, np. poprzez uzupełnienie uzasadnienia lub oceny skutków
+                                    regulacji, o przewidywany wpływ projektowanego przepisu na realizację
+                                    Kwalifikowanej Usługi Rejestrowanego Doręczenia Elektronicznego przez
+                                    Kwalifikowanych Dostawców Usług, tj. omówienie wpływu zmiany na integrację
+                                    usług kwalifikowanych z publiczną usługą rejestrowanego doręczenia
+                                    elektronicznego oraz usługą dodatkową wymiany korespondencji pomiędzy
+                                    podmiotami niepublicznymi a także wpływu na standard, o którym mowa w art. 26a
+                                    ustawy z dnia 5 września 2016 r. o usługach zaufania oraz identyfikacji
+                                    elektronicznej (Dz.U. z 2024 r. poz. 422 ze zm.) w zakresie wymiany korespondencji
+                                    i wystawiania dowodów wysłania i otrzymania.
+
+3.   Poczta   art. 1 pkt 3 lit. a   w art. 1 pkt 3 lit. a projektu – dotyczy art. 147 ust. 2 i 3 - Poczta Polska proponuje   Uwaga nieuwzględniona
+     Polska   projektu              zostawić w niezmienionym brzmieniu.
+                                                                                                                        Wprowadzenie planowanych rozwiązań
+     S.A.
+                                    Uzasadnienie:                                                                       podyktowane jest przede wszystkim
+                                                                                                                        brakiem gotowości po stronie części
+                                    Brzmienie art. 147 ust 2 i 3 nie powinno zostać zmienione. Zgodnie z założeniami e-
+                                                                                                                        podmiotów publicznych, w
+                                    Doręczenia miały być promowaną formą wysyłki przez MC. W tym celu prowadzone
+                                                                                                                        szczególności jednostek samorządu
+                                    są działania edukacyjne, więc w konsekwencji zrównanie ePUAP z e-Doręczeniami
+                                                                                                                        terytorialnego, do stosowania e-
+                                    nie powinno być wydłużane, tylko zakończyć się z dniem wejścia obowiązku tj.
+                                                                                                                        Doręczeń, w zakresie doręczania
+                                    1.01.2025 r., tym bardziej że komunikacja w ePUAP nie jest usługą zaufania, nie
+                                                                                                                        korespondencji z wykorzystaniem
+                                    zapewnia kwalifikowanych znaczników czasu, jak również dowodów
+                                                                                                                        publicznej usługi rejestrowanego
+                                    zabezpieczonych kwalifikowaną pieczęcią elektroniczną dostawcy.
+                                                                                                                        doręczenia elektronicznego (PURDE)
+                                                                                                                             lub publicznej usługi hybrydowej (PUH).
+                                                                                                                             Z przeprowadzonych analiz wynika
+                                                                                                                             bowiem, że wniosek o założenie adresu
+                                                                                                                             do doręczeń złożyło jedynie 30 %
+                                                                                                                             obowiązanych podmiotów publicznych,
+                                                                                                                             pomimo że termin wejścia w życie
+                                                                                                                             obowiązku stosowania doręczeń
+                                                                                                                             elektronicznych był już kilkukrotnie
+                                                                                                                             przesuwany ze względu na
+                                                                                                                             niewystarczającą gotowość po stronie
+                                                                                                                             podmiotów obowiązanych.
+
+4.   Poczta      art. 1 pkt 3 lit. b   w art. 1 pkt 3 lit. b projektu – dotyczy art. 147 ust. 5 – Poczta Polska proponuje    Uwaga wyjaśniona
+     Polska      projektu              usunąć nowo dodawany ust. 5
+                                                                                                                             Przepis zostanie zmieniony, jednak nie
+     S.A.
+                                       Uzasadnienie:                                                                         usunięty.
+                                       Przepis wprost wskazuje na "obejście" w zakresie wymogu nadawania                     Przepis będzie obowiązywać tylko do
+                                       korespondencji za pośrednictwem PURDE/PUH. Stwierdzenie, że coś przekracza            31 grudnia 2025 r. W gestii organu leży
+                                       możliwości organizacyjne organu jest pojęciem bardzo szerokim i będzie                ocena, jaka liczba korespondencji
+                                       umożliwiało podmiotom na nie korzystanie z eDoręczeń a korzystanie z innych           przekracza jego możliwości
+                                       różnych form komunikacji w tym tradycyjnej oraz z wykorzystaniem różnych              organizacyjne. Celem wprowadzenia
+                                       dedykowanych portali. Jest to sprzeczne z ideą ustawy o doręczeniach                  okresu przejściowego – co 31 grudnia
+                                       elektronicznych. Zgodnie z jej założeniami eDoręczenia miały być promowaną i          2025 r. – jest umożliwienie organowi
+                                       główną formą komunikacji. eDoręczenia jako główna forma komunikacji z organami        rezygnację z doręczenia za
+                                       publicznymi miały również uporządkować i uprościć procesy komunikacji, aby różne      pośrednictwem e-Doręczeń, jeśli nie
+                                       sprawy w szczególności obywatele mogli załatwić korzystając z jednego narzędzia.      zdążył się dostosować organizacyjnie
+                                                                                                                             do nadawania korespondencji za
+                                                                                                                             pośrednictwem e-Doręczeń.
+
+5.   Urząd    art. 1 pkt 3 lit. b      1. pojęcia „krótki okres” i „duża liczba korespondencji” to zwroty niedookreślone i   Uwaga uwzględniona
+     m.st.    projektu                 mogą powstać spory z adresatami korespondencji, co do tego czy i w jakim okresie
+                                                                                                                             Przepis został zmodyfikowany.
+     Warszawy                          możliwe było zastosowanie wyjątku od e-doręczeń.
+                                       2. Ustawodawca posługuje się art. 147 u.d.e pojęciem „podmiot publiczny” - w
+                                       proponowanym ust. 5 należy posłużyć się takim samym pojęciem dla usunięcia
+                                       ewentualnych wątpliwości
+                                       3. W trakcie wysyłki masowej musielibyśmy spośród osób, którym doręczalibyśmy
+                                       dotychczas decyzję przez ePUAP, odnaleźć te osoby, które mają ADE i takim
+                                       osobom doręczylibyśmy decyzję papierowo. Po pierwsze oznacza to dla nas więcej
+                                      pracy, a po drugie z punktu widzenia podatnika byłoby to pewne uwstecznienie -
+                                      dotychczas otrzymywał on bowiem decyzję elektronicznie, a otrzyma papierowo
+
+6.   PWPW       art. 1 pkt 3 lit. b   Propozycja dodania do art. 147 nowelizowanej ustawy z dnia 18 listopada 2020 r. o   Uwaga uwzględniona.
+                projektu              doręczeniach elektronicznych (Dz. U. z 2024 r. poz. 1045) nowego ust. 5 może
+                                                                                                                          Przepis został zmodyfikowany.
+                                      budzić wątpliwości interpretacyjne. Proponowany przepis stanowi w pkt 2, że w
+                                      szczególnej sytuacji jest możliwość nadania przez organ pisma „przez swoich
+                                      pracowników lub inne upoważnione osoby lub organy”. Przepis nie wskazuje
+                                      natomiast w jaki sposób powinno lub może to nastąpić.
+                                      Należy zwrócić uwagę, że dodawany ust. 5 posługuje się pojęciem „organ”, które
+                                      jest nieznane na gruncie zmienianej ustawy oraz pojęciem „nadanie”, które ma
+                                      zupełnie inne znaczenie w zakresie skutku niż wyrażenie doręczenie, którym
+                                      posługuje się art. 39 § 3 Kodeksu postępowania administracyjnego, odnoszący się
+                                      do prowadzenia korespondencji przez organy administracji publicznej. Z podanych
+                                      względów projektowany przepis może w przyszłości budzić wątpliwości dlatego
+                                      możliwości jego ewentualnego wykorzystania powinny zostać wyjaśnione.
+
+7.   Osoba      art. 1 pkt 5 lit. b   Uważam za co najmniej nie poważne odraczanie obowiązku doręczania                     Uwaga wyjaśniona
+     fizyczna   projektu              korespondencji przy użyciu publicznej usługi rejestrowanego doręczenia
+                                                                                                                            Brak propozycji konkretnych zmian w
+                                      elektronicznego i publicznej usługi hybrydowej dla służb specjalnych oraz Resortu
+                                                                                                                            treści projektu ustawy.
+                                      Obrony Narodowej, a które to odroczenie zawarto w proponowanym poleceniu
+                                      nowelizacyjnym w art. 1 pkt 5 lit. b, przypomnę, że pierwotne publiczne prace
+                                      rządowe nad ówczesnym projektem ustawy o elektronizacji doręczeń oraz zmianie
+                                      niektórych innych ustaw trwały od 14 lutego 2019 r. do połowy września 2019 r., gdy
+                                      Rada Ministrów przyjęła na swoim posiedzeniu projekt ustawy o doręczeniach
+                                      elektronicznych, który to wskutek dyskontynuacji prac parlamentarnych musiał
+                                      zostać ponownie przyjęty już w kolejnej kadencji parlamentarnej przez Radę
+                                      Ministrów i 5 czy 6 lutego 2020 r. ów projekt został skierowany do Sejmu
+                                      Rzeczpospolitej Polskiej IX kadencji, gdzie dosyć długo trwały posiedzenia sejmowej
+                                      podkomisji nadzwyczajnej powołanej do rozpatrzenia tego projektu ustawy - bodajże
+                                      odbyło się aż 7 posiedzeń - nim wypracowano końcowe sprawozdanie podkomisji,
+                                      które to potem ostatecznie zatwierdziła sejmowa Komisja Cyfryzacji, Innowacyjności
+                                      i Nowoczesnych Technologii, ostatecznie Sejm RP na posiedzeniu plenarnym
+                                      uchwalił po licznych senackich poprawkach Ustawę o doręczeniach elektronicznych
+                                      w dniu 18 listopada 2020 r., która to ogłoszona została 22 grudnia 2020 r., a w życie
+                                      weszła ta Ustawa w dniu 5 października 2021 r., a i to po zmianie, pierwotnie miała
+                                      wejść w dniu 1 lipca 2021 r., ale na niecałe 3. tygodnie przed tą datą wniesiono do
+                                      Sejmu RP rządowy projekt ustawy, którego wnioskodawcą/projektodawcą było MC,
+                                       ów projekt odraczał datę wejścia w życie UoDE.....także wielokrotnie termin
+                                       obowiązku stosowania tej ustawy w zakresie doręczania korespondencji przy użyciu
+                                       publicznej usługi rejestrowanego doręczenia elektronicznego i publicznej usługi
+                                       hybrydowej był odraczany poprzez kilkukrotne "żonglowanie" terminem zawartym w
+                                       komunikacie wydawanym na podstawie delegacji ustawowej zawartej w art. 155 ust.
+                                       10 UoDE.....także sobie robicie jaja, że mimo upływu blisko 4 lat od ogłoszenia
+                                       pierwotnego UoDE służby specjalne i Resort Obrony Narodowej potrzebują
+                                       kolejnych 2 lat ponad termin określony w komunikacie Ministra właściwego ds.
+                                       Informatyzacji (Dz. U. z 2024 r. poz. 1078), a ten termin był już przecież i tak 4-
+                                       krotnie zmieniany, co jest niepoważne co najmniej.....także kolejne odroczenie
+                                       obowiązku doręczania korespondencji przy użyciu PURDE i PUH aż o 2 lata dla
+                                       podmiotów określonych w dodawanym ust. 5a w art. 155 UoDE jest kpiną, co te
+                                       podmioty robiły przez czas od pierwotnego uchwalenia i ogłoszenia UoDE ? żeby
+                                       przez blisko 4-lata się nie wdrożyły w Krajowy System Doręczeń Elektronicznych.....
+
+8.   Poczta      art. 1 pkt 5 lit. c   W art. 1 pkt 5 lit. c projektu – dotyczy w art. 155 ust. 6                               Uwaga wyjaśniona
+     Polska      projektu
+                                       Usługa hybrydowa nie powinna być ograniczana z możliwością jej wykorzystania,            Intencją wprowadzenia tej zmiany było
+     S.A.
+                                       założeniem ustawy o doręczeniach elektronicznych PUH był uzupełnieniem PURDE,            przesunięcie samorządowych instytucji
+                                       czyli umożliwiał przejście przez administrację na jeden kanał wysyłki, niezależnie       kultury i samorządowych osób
+                                       czy odbiorca posiada ADE czy też nie, zgodnie z założeniem ustawy miało być to           prawnych z ust. 5 do 6 tak, aby
+                                       uproszczenie i ograniczenie kosztów po stronie administracji publicznej, dlatego też     jednostki podległe JST miały obowiązek
+                                       obie usługi powinny być wdrażane w tym samym czasie.                                     stosowania PUH w tym samym terminie
+                                                                                                                                do JST.
+
+9.   Polska    art. 3 ust. 1 i 2       Zmiana zasadna, choć wymaga podkreślenia następująca okoliczność: skoro                  Uwaga wyjaśniona
+     Izba      projektu                utworzenie (skreślenie jest odwróceniem utworzenia) jest tylko czynnością
+                                                                                                                                W aktualnym stanie prawnym osoba
+     Rzecznikó                         materialno-techniczną, to nie znajduje uzasadnienia tworzenie kilku adresów dla tej
+                                                                                                                                fizyczna zobowiązana jest:
+     w                                 samej i jednej osoby fizycznej, niezależnie od ilości pełnionych przez nią funkcji lub
+     Patentowy                         zawodów. Skoro ustawodawca ogranicza ilość adresów celem eliminacji powielania           - posiadać adres do doręczeń prywatny,
+     ch                                adresów dla jednego podmiotu publicznego to analogicznie jednemu podmiotowi
+                                       fizycznemu całkowicie zbędnie nakazuje tworzenie wielu adresów. Zaproponowana            - jeżeli prowadzi działalność
+                                       przez ustawodawcę zmiana jest kolejnym argumentem za postulatem zmiany                   gospodarczą – winna posiadać drugi
+                                       ustawy w zakresie adresów do doręczeń.                                                   adres związany z tą działalnością
+                                                                                                                                - jeżeli wykonuje ZZP dla każdej funkcji
+                                                                                                                                (rzecznik patentowy, adwokat, radca
+                                                                                                                                itd.) winien posiadać osobny adres do
+                                                                                                                                doręczeń,
+                                                                                                                     Odrębne adresy wynikają ze specyfiki
+                                                                                                                     realizowanych prac/działań i porządkują
+                                                                                                                     korespondencję z poszczególnych
+                                                                                                                     obszarów działań.
+                                                                                                                     Jednocześnie podkreślić należy, że
+                                                                                                                     adres prywatny dla osoby fizycznej nie
+                                                                                                                     jest obligatoryjny, natomiast w
+                                                                                                                     przypadku pozostałych funkcji wynika
+                                                                                                                     wprost z ustawy o doręczeniach
+                                                                                                                     elektronicznych.
+
+10. Poczta   art. 11 pkt 2     w art. 11 pkt 2 otrzymuje brzmienie:                                                  Uwaga uwzględniona
+    Polska   ustawy o
+                               „2) automatycznie po otrzymaniu przez ministra właściwego do spraw informatyzacji     Przepisy wejdą w życie w czerwcu 2025
+    S.A.     doręczeniach
+                               danych, o których mowa w art. 14 za pośrednictwem:                                    r.
+             elektronicznych
+                               a) operatora wyznaczonego – w przypadku podmiotów niepublicznych lub,
+                               b) systemu teleinformatycznego, o którym mowa w art. 3a ust. 1 ustawy z dnia 20
+                               sierpnia 1997 r. o Krajowym Rejestrze Sądowym albo w art. 3 ust. 1 ustawy z dnia 6
+                               marca 2018 r. o Centralnej Ewidencji i Informacji o Działalności Gospodarczej i
+                               Punkcie Informacji dla Przedsiębiorcy, danych przekazanych w związku z wnioskiem
+                               o wpis do Krajowego Rejestru Sądowego albo do Centralnej Ewidencji i Informacji o
+                               Działalności Gospodarczej.”
+                               Uzasadnienie:
+                               Proponowana zmiana ma na celu umożliwienie klientom składanie wniosków za
+                               pośrednictwem operatora wyznaczonego, analogicznie jak poprzez kwalifikowanych
+                               dostawców usług, jest to ujednolicenie podejścia dla klientów i ujednolicenie zasad
+                               dla wszystkich dostawców. Zmiana dotyczy przepisów art. 11, 13, 14 oraz 15.
+                               Wprowadzona zmiana umożliwi podmiotom niepublicznym założenie ADE (złożenie
+                               wniosku) również za pośrednictwem operatora wyznaczonego, który na rzecz
+                               danego podmiotu mógłby realizować usługi elektroniczne.
+                               Takie podejście zarówno rozszerzy możliwe kanały do składania wniosków o ADE i
+                               jednocześnie uprości cały proces dla podmiotów niepublicznych umożliwiając
+                               załatwienie całego procesu założenia ADE i aktywacji za pośrednictwem jednego
+                               operatora, w tym przypadku operatora wyznaczonego.
+                                    Taki proces jest obecnie realizowany przez innych dostawców usług zaufania, ale
+                                    nie przez operatora wyznaczonego co może stanowić nierówne traktowanie
+                                    dostawców usług oraz sprawia, iż rozpoczęcie korzystania z usług operatora
+                                    wyznaczonego jest bardziej skomplikowane dla podmiotów niepublicznych.
+
+11. Polska      art. 12 ust. 1a i   Zmiana zasadna.                                                                       Uwaga wyjaśniona
+    Izba        1b ustawy o
+                                    Jednakże wnioskuje się o wystąpienie, we współpracy z pozostałymi ZZP, o              W aktualnym stanie prawnym osoba
+    Rzecznikó   doręczeniach
+                                    podjęcie działań legislacyjnych celem sprostowania zapisów ustawy w zakresie          fizyczna zobowiązana jest:
+    w           elektronicznych
+                                    adresów dla osoby fizycznej. Celem tych działań ma być doprowadzenie do
+    Patentowy                                                                                                             - posiadać adres do doręczeń prywatny,
+                                    eliminacji obowiązku tworzenia wielu adresów do doręczeń dla jednej i tej samej
+    ch
+                                    osoby fizycznej.                                                                      - jeżeli prowadzi działalność
+                                                                                                                          gospodarczą – winna posiadać drugi
+                                    W aktualnym stanie prawnym osoba fizyczna zobowiązana jest:
+                                                                                                                          adres związany z tą działalnością
+                                    - posiadać adres do doręczeń prywatny - jeżeli chce, równocześnie
+                                                                                                                          - jeżeli wykonuje ZZP dla każdej funkcji
+                                    - jeżeli prowadzi działalność gospodarczą – winna posiadać drugi adres związany z     (rzecznik patentowy, adwokat, radca
+                                    tą działalnością, następnie równocześnie                                              itd.) winien posiadać osobny adres do
+                                                                                                                          doręczeń,
+                                    - jeżeli wykonuje ZZP dla każdej funkcji (rzecznik patentowy, adwokat, radca itd.)
+                                    winien posiadać osobny adres do doręczeń, równocześnie                                 Odrębne adresy wynikają ze specyfiki
+                                                                                                                           realizowanych prac/działań i porządkują
+                                    - jeżeli pełni funkcje w organach podmiotów prawnych lub o podobnym charakterze -
+                                                                                                                           korespondencję z poszczególnych
+                                    również winien posiadać osobny adres do doręczeń (np. jako prezes spółki i osobno
+                                                                                                                           obszarów działań.
+                                    jako udziałowiec).
+                                                                                                                           Jednocześnie podkreślić należy, że
+                                    W konsekwencji, na skutek wadliwej legislacji (dedykowanie adresu dla funkcji a nie
+                                                                                                                           adres prywatny dla osoby fizycznej nie
+                                    dla podmiotu) kiedy osoba fizyczna jest jednocześnie np. prezesem stowarzyszenia,
+                                                                                                                           jest obligatoryjny, natomiast w
+                                    fundacji, spółki, wykonuje wolny zawód itd. a nadal jest tylko i wyłącznie jedną osobą
+                                                                                                                           przypadku pozostałych funkcji wynika
+                                    fizyczną - powinna mieć jeden adres do doręczeń.
+                                                                                                                           wprost z ustawy o doręczeniach
+                                    W myśl tak Konstytucji jak i kodeksu cywilnego podmiotowość jest jedna i kreowanie elektronicznych.
+                                    adresów do funkcji społecznych lub zawodowych a nie do podmiotu jest
+                                    nieprawidłowe.
+                                    Kolejnym argumentem jest fakt, że zarówno CEiDG, KRS oraz inne rejestry - jak
+                                    sama nazwa wskazuje - służą jedynie do celów ewidencyjnych. Nie tworzą nowych
+                                    podmiotów.
+                                    Kolejnym argumentem jest okoliczność, że skoro ustawodawca tworzy adresy dla
+                                    jednostki (podmiotu) publicznego to analogicznie taka sama zasada powinna
+                                obowiązywać dla osoby (podmiotu) fizycznego - to też tylko jeden podmiot,
+                                niezmiennie aż do śmierci.
+                                Następnym argumentem przemawiającym za powyższym, jest znaczące zajęcie i
+                                tak już bardzo intensywnego czasu pracy pełnomocników zawodowych - i odbieranie
+                                codziennie kilku skrzynek jest też znaczącą przeszkodą, szczególnie w sytuacji,
+                                kiedy nie ma dostępu do usługi internetu o dobrej przepustowości. Między innymi w
+                                takiej sytuacji logowanie się do każdego adresu osobno, absorbować będzie bardzo
+                                wiele czasu, analogicznie jak dzieje się to przy obecnie stosowanych systemach
+                                informatycznych. Stąd postulatem środowiska jest ograniczenie liczby skrzynek do
+                                jednej, przypisanej do osoby fizycznej. Natomiast należy dokonać zmiany zapisów
+                                ustawy w zakresie usług operatorów, tak aby wykorzystać możliwości techniczne
+                                sprzętu i oprogramowania w tym zakresie, aby dysponent danego adresu do
+                                doręczeń mógł w nim samodzielnie: tworzyć filtry, działy i inne formy selekcji poczty
+                                oraz decydować i przyznawać uprawnienia do wydzielonych części korespondencji
+                                dla wybranych osób (np. pracowników).
+                                Proponuje się, aby przyjąć następujące założenie, zgodne ze stanem faktycznym:
+                                osoba fizyczna - niezależnie od ilości pełnionych funkcji, niezależnie od wpisania w
+                                CEiDG - ma jeden adres do doręczeń, właśnie jako podmiot prawa. Następnie ten
+                                podmiot uzyskuje prawną i faktyczną możliwość dysponowania zasobem
+                                korespondencji odebranej za pomocą adresu do doręczeń, analogicznie jak to ma
+                                miejsce w dobrych programach pocztowych.
+                                Bezsporny jest fakt, że doręczenie korespondencji niezależnie od wszystkich
+                                okoliczności, ma trafić to do osoby fizycznej i jej funkcja czy status nie mają żadnego
+                                znaczenia w tym zakresie.
+                                Kolejnym argumentem jest możliwość wystąpienia problemów proceduralnych.
+                                Teoretycznie jest możliwa sytuacja, w której adwokat zupełnie omyłkowo wyśle
+                                korespondencję w sprawie, którą prowadzi jako adwokat, ale z adresu
+                                przydzielonego jako dla rzecznika patentowego. Czy takie doręczenie będzie
+                                skuteczne? Czy odpowiedź skierowana również omyłkowo przez odpowiadającego
+                                do rzecznika patentowego, zamiast do adwokata, będzie skutecznie doręczona?
+                                Jakie będą skutki procesowe takich omyłkowych doręczeń? Jeżeli przyjąć, że takie
+                                doręczenia będą skuteczne, bo korespondencja dociera do konkretnych osób
+                                fizycznych, to jest to kolejnym argumentem właśnie dla zniesienia zbędnie
+                                powielanych adresów do doręczeń.
+
+12. Poczta   art. 13 ustawy o   art. 13 otrzymuje brzmienie:                                                              Uwaga uwzględniona
+    Polska   doręczeniach
+    S.A.     elektronicznych    „Art. 13. Minister właściwy do spraw informatyzacji tworzy adres do doręczeń         Przepisy wejdą w życie w czerwcu 2025
+                                elektronicznych powiązany z publiczną usługą rejestrowanego doręczenia               r.
+                                elektronicznego na wniosek podmiotu niepublicznego skierowany do tego ministra, a
+                                w przypadku podmiotów niepublicznych będących osobami fizycznymi oraz
+                                wpisanych do Krajowego Rejestru Sądowego albo do Centralnej Ewidencji i
+                                Informacji o Działalności Gospodarczej - także w trybie, o którym mowa w art. 11 pkt
+                                2.”
+                                Uzasadnienie:
+                                Proponowana zmiana ma na celu umożliwienie klientom składanie wniosków za
+                                pośrednictwem operatora wyznaczonego, analogicznie jak poprzez kwalifikowanych
+                                dostawców usług, jest to ujednolicenie podejścia dla klientów i ujednolicenie zasad
+                                dla wszystkich dostawców. Zmiana dotyczy przepisów art. 11, 13, 14 oraz 15.
+                                Ponieważ proponowana zmiana ma dotyczyć wszystkich podmiotów niepublicznych
+                                w tym osób fizycznych niezbędne jest rozszerzenie tego przepisu i wskazanie, iż
+                                również osoby fizyczne mogą składać wnioski o ADE za pośrednictwem operatora
+                                wyznaczonego.
+
+13. Poczta   Art. 14 ustawy o   w art. 14 po ust. 3 dodaje się ust. 4 w brzmieniu:                                    Uwaga uwzględniona
+    Polska   doręczeniach
+                                „4. Minister właściwy do spraw informatyzacji udostępnia usługę sieciową              Przepisy wejdą w życie w czerwcu 2025
+    S.A.     elektronicznych
+                                umożliwiającą przekazanie przez operatora wyznaczonego danych, o których mowa         r..
+                                w ust. 1 i ust. 2, za pomocą bezpośredniej wymiany danych między systemem
+                                teleinformatycznym operatora wyznaczonego a bazą adresów elektronicznych.”
+                                Uzasadnienie:
+                                jw. Proponowana zmiana ma na celu umożliwienie klientom składanie wniosków za
+                                pośrednictwem operatora wyznaczonego, analogicznie jak poprzez kwalifikowanych
+                                dostawców usług, jest to ujednolicenie podejścia dla klientów i ujednolicenie zasad
+                                dla wszystkich dostawców. Zmiana dotyczy przepisów w art. 11, 13, 14 oraz 15.
+
+14. Poczta   art. 15 ustawy o   w art. 15 ust. 1 po pkt 2 dodanie pkt 3 w brzmieniu:                                  Uwaga uwzględniona
+    Polska   doręczeniach
+                                „3) operatora wyznaczonego – dla podmiotów niepublicznych.”                           Przepisy wejdą w życie w czerwcu 2025
+    S.A.     elektronicznych
+                                                                                                                      r.
+                                Uzasadnienie:
+                                jw. Proponowana zmiana ma na celu umożliwienie klientom składanie wniosków za
+                                pośrednictwem operatora wyznaczonego, analogicznie jak poprzez kwalifikowanych
+                                    dostawców usług, jest to ujednolicenie podejścia dla klientów i ujednolicenie zasad
+                                    dla wszystkich dostawców. Zmiana dotyczy przepisów w art. 11, 13, 14 oraz 15.
+
+15. Polska      art. 26 pkt 2 i 3   W uzasadnieniu do ustawy nie jest wyjaśniony cel gromadzenia takiej informacji        Uwaga uwzględniona
+    Izba        ustawy o            oraz dla kogo i do czego jest ta informacja potrzebna. Wydaje się ona być
+    Rzecznikó   doręczeniach        informacją własną danego podmiotu stąd brak uzasadnienia dla gromadzenia tej          Uzasadnienie zostało uzupełnione.
+    w           elektronicznych     informacji. Gromadzenie danych w tym zakresie powinno być ograniczone do
+    Patentowy                       niezbędnego minimum i uzasadnione konkretnymi przesłankami, których w
+    ch                              uzasadnieniu nie stwierdzono.
+
+16. Poczta      art. 34 ustawy o    Art. 34. otrzymuje brzmienie:                                                         Uwaga uwzględniona
+    Polska      doręczeniach
+                                    „Wpisu adresu do doręczeń elektronicznych do bazy adresów elektronicznych             Przepisy wejdą w życie w marcu 2025 r.
+    S.A.        elektronicznych
+                                    dokonuje się bezterminowo.”;
+                                    Uzasadnienie:
+                                    Usprawnienie dla osób fizycznych, tak jak dla innych podmiotów, aby nie musieli
+                                    dokonywać dodatkowych czynności związanych ze wznowieniem po 3 latach ADE.
+                                    W przypadku osób fizycznych zawsze istnieje możliwość rezygnacji z ADE.
+
+17. Poczta      art. 50 pkt 1       art. 50 pkt 1 otrzymuje brzmienie:                                                    Uwaga wyjaśniona
+    Polska      ustawy o
+                                    „1) wskaźniki czasu przebiegu przesyłek listowych w ramach publicznej usługi          Do ewentualnego rozważenia przy
+    S.A.        doręczeniach
+                                    hybrydowej, z tym, że doręczenie przesyłki nastąpi w czasie nie dłuższym niż 6 dni    planowanej kolejnej, szerokiej
+                elektronicznych
+                                    roboczych od dnia nadania.”                                                           nowelizacji ustawy o doręczeniach
+                                                                                                                          elektronicznych.
+                                    Uzasadnienie:
+                                    PUH to przesyłka pocztowa i w zakresie doręczenia jest realizowana w procesie
+                                    przesyłek listowych w oparciu o ustawę Prawo pocztowe. Ustawa – Prawo pocztowe
+                                    stanowi, że usługi pocztowe świadczone są przez operatora w dni robocze od
+                                    poniedziałku do piątku. Stąd wg nas przepisy te powinny być zbieżne. Stanowisko w
+                                    zakresie 6 dni roboczych o których mowa w art. 50 ustawy o doręczeniach
+                                    elektronicznych zostało uzgodnione z KPRM (stosowne pismo zostało przekazane
+                                    do MAP). Przepisy te wymagają zatem ujednolicenia w przypadku usługi PUH z
+                                    przepisami ustawy Prawo pocztowe i doprecyzowania terminów o dni robocze, aby
+                                    odzwierciedlały faktyczny proces realizacji PUH przez Operatora wyznaczonego.
+
+18. Poczta      art. 52 ustawy o    w art. 52:                                                                            Uwaga wyjaśniona
+    Polska      doręczeniach
+S.A.   elektronicznych   a) ust. 1 otrzymuje brzmienie:                                                     Do rozważenia na kolejnych etapach
+                                                                                                            procesu legislacyjnego, w zależności od
+                         „1. Operator wyznaczony świadczy publiczną usługę rejestrowanego doręczenia
+                                                                                                            możliwości finansowych budżetu
+                         elektronicznego oraz publiczną usługę hybrydową odpłatnie.”,
+                                                                                                            państwa w części „ łączność”.
+                         b) ust. 3 otrzymuje brzmienie:
+                         „3. Z opłaty jest zwolniony nadawca korespondencji przekazywanej z
+                         wykorzystaniem publicznej usługi rejestrowanego doręczenia elektronicznego, przy
+                         czym w przypadku korespondencji przekazywanej:
+                         1) przez podmiot niepubliczny do podmiotu publicznego operator wyznaczony
+                         otrzymuje dotację, o której mowa w ust. 9;
+                         2) przez podmiot publiczny do podmiotu niepublicznego operatorowi wyznaczonemu
+                         przysługuje wynagrodzenie, o którym mowa w ust. 13.”,
+                         c) w ust. 4 po wyrazie „opłaty” dodaje się wyrazy „dotacji albo wynagrodzenia”,
+                         d) ust. 5 otrzymuje brzmienie:
+                         „5. Minister właściwy do spraw łączności oraz minister właściwy do spraw
+                         informatyzacji w porozumieniu z ministrem właściwym do spraw finansów
+                         publicznych określą, w drodze rozporządzenia, odrębnie dla każdej z usług,
+                         metodykę ustalania opłat za przekazywanie korespondencji przy użyciu publicznej
+                         usługi rejestrowanego doręczenia elektronicznego i publicznej usługi hybrydowej,
+                         uwzględniając konieczność zapewnienia jej przejrzystości i celowości.”,
+                         e) w ust. 6 w części wspólnej wyraz „metodologiami” zastępuje się wyrazem
+                         „metodykami”,
+                         f) ust. 9 otrzymuje brzmienie:
+                         „9. Operator wyznaczony, w związku z przekazywaniem korespondencji z
+                         wykorzystaniem publicznej usługi rejestrowanego doręczenia elektronicznego przez
+                         podmiot niepubliczny do podmiotu publicznego, otrzymuje z budżetu państwa, na
+                         zasadach określonych w przepisach odrębnych, dotację przedmiotową do
+                         świadczonej publicznej usługi rejestrowanego doręczenia elektronicznego.”,
+                         g) dodaje się ust. 13 i 14 w brzmieniu:
+                         „13. Operatorowi wyznaczonemu przysługuje wynagrodzenie z tytułu świadczenia
+                         publicznej usługi rejestrowanego doręczenia elektronicznego w związku z
+                         przekazywaniem korespondencji przez podmiot publiczny do podmiotu
+                                niepublicznego finansowane z budżetu państwa z części, której dysponentem jest
+                                minister właściwy do spraw informatyzacji.
+                                14. Szczegółowe warunki wypłaty wynagrodzenia, kwoty należne z tytułu
+                                świadczenia publicznej usługi rejestrowanego doręczenia elektronicznego, sposób i
+                                zasady rozliczeń oraz szczegółowe warunki zwrotu opłaty za publiczną usługę
+                                rejestrowanego doręczenia elektronicznego, w przypadku, o którym mowa w art. 56
+                                ust. 4, określa umowa zawarta między ministrem właściwym do spraw informatyzacji
+                                a operatorem wyznaczonym, przy czym podstawę obliczenia wynagrodzenia
+                                stanowią:
+                                1) określone ryczałtowo wynagrodzenie za świadczenie przez operatora
+                                wyznaczonego publicznej usługi rejestrowanego doręczenia elektronicznego
+                                uwzględniające opłatę ustaloną zgodnie z metodyką określoną w przepisach
+                                wydanych na podstawie ust. 5;
+                                2) wydatki poniesione na rozwój infrastruktury i oprogramowania niezbędnego do
+                                świadczenia publicznej usługi rejestrowanego doręczenia elektronicznego.”;
+                                Uzasadnienie:
+                                PP postuluje dodanie przepisów wypracowanych już w poprzednim roku w zakresie
+                                modelu finansowania OW. Wprowadzenie tych przepisów pozwoli na wypłatę
+                                wynagrodzenia dla operatora wyznaczonego za świadczone przez niego usługi
+                                PURDE w sposób zryczałtowany na podstawie zawartej umowy z jednego źródła,
+                                bez konieczności zawierania umów z każdym podmiotem publicznym osobno.
+
+19. Poczta   Art. 56 ustawy o   w art. 56:                                                                          Uwaga wyjaśniona
+    Polska   doręczeniach
+                                a) w ust. 1 pkt 2 otrzymuje brzmienie:                                              Do rozważenia na kolejnych etapach
+    S.A.     elektronicznych
+                                                                                                                    procesu legislacyjnego, w zależności od
+                                „2) za niewykonanie albo nienależyte wykonanie publicznej usługi rejestrowanego
+                                                                                                                    możliwości finansowych budżetu
+                                doręczenia elektronicznego – w wysokości nie niższej niż dwukrotność opłaty za
+                                                                                                                    państwa w części „łączność”.
+                                taką usługę określonej w przepisach wydanych na podstawie art. 52 ust. 5, jednak
+                                nie wyższej niż trzydziestokrotność tej opłaty,”,
+                                b) w ust. 2 zdanie pierwsze otrzymuje brzmienie:
+                                „Kwoty przysługujące z tytułu niezapłaconych odszkodowań oraz zwrotu opłaty za
+                                niewykonaną publiczną usługę hybrydową podlegają oprocentowaniu w wysokości
+                                odsetek ustawowych za opóźnienie.”,
+                                c) ust. 3 otrzymuje brzmienie:
+„3. W przypadku niewykonania publicznej usługi hybrydowej operator wyznaczony
+zwraca w całości pobraną opłatę za usługę niezależnie od należnego
+odszkodowania, o ile taka opłata została uiszczona przez wnoszącego reklamację.”,
+d) dodaje się ust. 4 w brzmieniu:
+„4. W przypadku niewykonania publicznej usługi rejestrowanego doręczenia
+elektronicznego w związku z przekazywaniem korespondencji przez podmiot
+publiczny do podmiotu niepublicznego, operator wyznaczony zwraca ministrowi
+właściwemu do spraw informatyzacji opłatę za tę usługę ustaloną zgodnie z
+metodyką określoną w przepisach wydanych na podstawie art. 52 ust. 5.”;
+2e) po art. 57 dodaje się art. 57a w brzmieniu:
+„Art. 57a. 1. Drogę postępowania reklamacyjnego w odniesieniu do publicznej usługi
+rejestrowanego doręczenia elektronicznego lub publicznej usługi hybrydowej uważa
+się za wyczerpaną w przypadku odmowy uznania reklamacji przez operatora
+wyznaczonego albo niezapłacenia dochodzonej należności w terminie 30 dni od
+dnia uznania reklamacji.
+2. Roszczenia dochodzone na podstawie ustawy przedawniają się z upływem 12
+miesięcy od dnia nadania korespondencji z wykorzystaniem publicznej usługi
+rejestrowanego doręczenia elektronicznego lub publicznej usługi hybrydowej.
+3. Bieg przedawnienia roszczeń zawiesza się na okres od dnia wniesienia reklamacji
+do dnia wyczerpania drogi postępowania reklamacyjnego.”;
+Uzasadnienie:
+Poczta Polska proponuje doprecyzować kwestie reklamacji i odszkodowań w
+zakresie PURDE i PUH, które korelują z zaproponowanymi powyżej przepisami art.
+52 dotyczącymi finansowania dla Poczty Polskiej.
+Proponowana zmiana wynika w głównej mierze z konieczności doprecyzowania
+przepisów ustawy w zakresie zwrotu opłaty w przypadku jej uiszczenia przez
+wnoszącego reklamację z uwagi na fakt, że opłata powinna być zwrócona na rzecz
+płatnika (reklamacja może zostać złożona przez adresata, który nie jest płatnikiem).
+Ponadto zgodnie z nowym brzmieniem ust. 3 w przypadku niewykonania PURDE
+nie zwraca się pobranej opłaty. Stąd też konieczna jest zmiana brzmienia ust. 2 art.
+56 przy jednoczesnym pozostawieniu części obecnego przepisu art. 56 ust. 2 w
+zakresie terminów, od których należy liczyć termin naliczania odsetek.
+20. Polska    art. 147 ustawy o Proponujemy dodanie kolejnego ustępu w art. 147 ustawy o doręczeniach                     Uwaga nieuwzględniona
+    Izba      doręczeniach      elektronicznych, który precyzowałby uprawnienia podmiotu niepublicznego w okresie
+                                                                                                                          Zgodnie z ustawą o doręczeniach
+    Ubezpiecz elektronicznych   przejściowym:
+                                                                                                                          posiadanie aktywnego adresu do
+    eń
+                                Do dnia 31 grudnia 2025 r., podmiot publiczny może doręczać korespondencję do             doręczeń jest równoważne żądaniu
+                                osoby fizycznej lub podmiotu niebędącego podmiotem publicznym przy                        doręczenia korespondencji na ten
+                                wykorzystaniu publicznej usługi doręczenia rejestrowanego wyłącznie w przypadku,          adres. Taki przepis utrudniałby
+                                gdy osoba fizyczna lub podmiot niebędący podmiotem publicznym wyrazi zgodę na             doręczanie korespondencji przez
+                                doręczanie przez ten podmiot publiczny pism na adres do doręczeń elektronicznych.         podmioty publiczne, gdyż musieliby
+                                Przy czym sama aktywacja adresu BAE nie jest równoznaczna z wyrażeniem takiej             weryfikować, czy nadawca posiada
+                                zgody.                                                                                    adres do doręczeń i dodatkowo czy
+                                                                                                                          nadawca wyraził zgodę na doręczenia
+                                                                                                                          korespondencji na ten adres. Ustawa o
+                                                                                                                          doręczeniach elektronicznych weszła w
+                                                                                                                          życie wiele lat temu o podmioty
+                                                                                                                          niepubliczne miały kilka lat na
+                                                                                                                          dostosowanie się do zmian. Brak
+                                                                                                                          uzasadnienia wprowadzenia okresu
+                                                                                                                          przejściowego dla podmiotów
+                                                                                                                          niepublicznych, gdyż obowiązek
+                                                                                                                          posiadania adresu do doręczeń nie jest
+                                                                                                                          dla niech tak dużą zmianą
+                                                                                                                          organizacyjną, jak dla podmiotów
+                                                                                                                          publicznych.
+
+21. 2Polska    art. 147 ustawy o   Dodatkowo Projekt ustawy zawiera błędy pisarskie i językowe. Przykładowo w art.        Uwaga uwzględniona
+     Izba      doręczeniach        147 ustawy o doręczeniach elektronicznych dodaje się ustęp 5, chociaż z numeracji
+                                                                                                                          Wprowadzono korekty redakcyjne .
+     Ubezpiecz elektronicznych     wynika, że powinien to być ustęp 4. Szyk zdania ustępu 4 jest ponadto
+     eń                            nieprawidłowy:
+                                   „4. Jeżeli ze względu na konieczność wysłania dużej liczby korespondencji w
+                                   krótkim okresie z wykorzystaniem publicznej usługi rejestrowanego doręczenia
+                                   elektronicznego przekraczającą możliwości organizacyjne organu, organ ten może
+                                   nadać pismo:
+                                   1) przesyłką rejestrowaną, o której mowa w art. 3 pkt 23 ustawy z dnia 23 listopada
+                                   2012 r. - Prawo pocztowe (Dz. U. z 2023 r. poz. 1640 oraz z 2024 r. poz. 467 i 1222)
+                                   albo
+                                   2) przez swoich pracowników lub przez inne upoważnione osoby lub organy
+                                  - do dnia 31 grudnia 2025.”;
+                                  Powyższy przepis można zredagować w następujący sposób:
+                                  „4. Jeżeli wysłanie dużej liczby korespondencji w krótkim okresie z wykorzystaniem
+                                  publicznej usługi rejestrowanego doręczenia elektronicznego przekracza możliwości
+                                  organizacyjne organu, organ ten może nadać pismo:
+                                  1) przesyłką rejestrowaną, o której mowa w art. 3 pkt 23 ustawy z dnia 23 listopada
+                                  2012 r. - Prawo pocztowe (Dz. U. z 2023 r. poz. 1640 oraz z 2024 r. poz. 467 i 1222)
+                                  albo
+                                  2) przez swoich pracowników lub przez inne upoważnione osoby lub organy - do
+                                  dnia 31 grudnia 2025 r.”;
+
+22. Polska      art. 147 ust 5    Zapis zasadniczo całkowicie niweczy cel i sens ustawy. Celem wprowadzenia              Uwaga częściowo uwzględniona
+    Izba        ustawy o          systemu elektronicznego jest ułatwienia i przyspieszenie usługi doręczenia
+                                                                                                                         Zaproponowano nowe brzmienie art.
+    Rzecznikó   doręczeniach      korespondencji, szczególnie tego rodzaju.
+                                                                                                                         147 ust. 5.
+    w           elektronicznych
+                                  Zmiana jest również nielogiczna, gdyż ustawodawca zakłada, że szybciej i łatwiej
+    Patentowy                                                                                                             Przepis daje uprawnienie podmiotom
+                                  (mniejsze obciążenie organizacyjne) będzie zastosować alternatywne metody
+    ch                                                                                                                    publicznym na niedoręczenie
+                                  doręczeń niż korespondencję elektroniczną, tymczasem system publicznej usługi
+                                                                                                                          korespondencji za pośrednictwem e-
+                                  rejestrowanego doręczenia elektronicznego ma ułatwić i przyspieszyć pracę
+                                                                                                                          Doręczeń a nie obowiązek. Jeśli
+                                  organów. Dodatkowo wskazane alternatywne formy doręczeń są przecież znacznie
+                                                                                                                          podmiot nie zdążył się dostosować
+                                  bardziej kosztowne.
+                                                                                                                          organizacyjnie do stosowania e-
+                                  Natomiast wprowadzenie generalnej zasady: kiedy system doręczeń elektronicznych Doręczeń, to wyjątkowo w tej sytuacji
+                                  z jakichś powodów nie działa, stosuje się dotychczasową formę doręczeń                  może z takiego doręczenia
+                                  analogowych. Taki zapis umożliwi operatorom przygotowanie się i zabezpieczenie          zrezygnować. Natomiast jeśli jest
+                                  stosownej infrastruktury, co szczególnie w obliczu konfliktu za granicą jest krytycznie dostosowany – tzn. ma odpowiednio
+                                  ważne dla funkcjonowania Państwa.                                                       zintegrowany system do
+                                                                                                                          elektronicznego obiegu dokumentów -
+                                                                                                                          to doręczy korespondencję za
+                                                                                                                          pośrednictwem e-Doręczeń, gdyż jest to
+                                                                                                                          łatwiejsze, szybsze i tańsze.
+
+23. Polska      art. 155 ust 5a   Ujawnianie danych o służbach, czyli organów istniejących przecież w ramach             Uwaga nieuwzględniona
+    Izba        ustawy o          administracji państwowej jest niezasadne. Ponadto osoba zorientowana może
+                                                                                                                         Przepisy zmienianej ustawy dotyczą ich
+    Rzecznikó   doręczeniach      wyprowadzić wnioski o tych służbach, które powinny pozostać niejawne ze względu
+                                                                                                                         działalności jawnej. Działalność
+    w           elektronicznych   na bezpieczeństwo organizacji Państwa.
+                                                                                                                         operacyjna i korespondencja niejawna
+    Patentowy                  Natomiast odroczenie terminu wdrożenia systemu doręczeń dla tych służb można          są określone w odrębnych przepisach
+    ch                         wykonać w trybie rozporządzenia lub z wyłączeniem jawności.                           szczegółowych.
+
+24. Polska    uzasadnienie     Dodatkowo w treści uzasadnienia występują błędy literowe:                             Uwaga uwzględniona.
+    Izba
+                               „Taka zmiana ułatwi prowadzenie korespondencji między dwoma podmiotami                Wprowadzono zmiany redakcyjne.
+    Ubezpiecz
+                               niepublicznymi, z których jeden posiada adres do doręczeń elektronicznych
+    eń
+                               powiadany z PURDE”
+
+25. UM          Uwaga ogólna   Nadal nie ma jasności, kiedy wchodzą w obowiązek stosowania PUH samorządowe           Uwaga wyjaśniona
+    Poznań                     jednostki budżetowe oraz spółki miejskie (bo chyba nie je ma na myśli ustawodawca
+                                                                                                                     Zaproponowany przepis jest zgodny z
+                               pisząc o samorządowych podmiotach prawnych?). Czy nie można ich po prostu
+                                                                                                                     brzmieniem art. 9 ustawy z dnia 27
+                               wymienić w art. 155 ust. 6? A jeżeli nie tam, to pod zapisy którego ustępu art. 155
+                               (np. art. 155, ust.9) te podmioty podlegają? Dodam tylko, że jednostek budżetowych    sierpnia 2009 r. o finansach
+                               mamy kilkaset, a zakładów budżetowych zaledwie 3, wiec wyszczególnianie tych          publicznych.
+                               drugich a pomijanie tych pierwszych jest z logicznego punktu widzenia niezasadne.
+
+26. UM          Uwaga ogólna   Jeżeli do samorządowych jednostek budżetowych i spółek miejskich odnosi się art.      Uwaga wyjaśniona
+    Poznań                     155. ust. 9 to dlaczego z jednej strony zrównano terminy wejścia w PURDE
+                                                                                                                     Art. 155 ust. 9 dotyczy innych
+                               wszystkich jednostek samorządu terytorialnego, a nie zrobiono tego w przypadku
+                                                                                                                     podmiotów publicznych niż wymienione
+                               PUH. Dotyczy to także Publicznych Zakładów Opieki Zdrowotnej, dla których
+                                                                                                                     w ust. 1-7.
+                               organem tworzącym i prowadzącym jest Urząd Miasta, które wchodzą w PUH od 1
+                               stycznia 2025? Zachowanie tego dualizmu wydaje się nieuzasadnione, tym bardziej,
+                               że w pierwszej kolejności w PUH wchodzić będą jednostki stosunkowo najmniej do
+                               tego przygotowane – np. szkoły, szpitale itp. Naszym zdaniem jst powinny wchodzić
+                               jednolicie w PURDE 1 stycznia 2025 a w PUH 1 października 2029.
+                               Trudno wiec zgodzić się z tekstem z uzasadnienia: „W stosunku do
+                               dotychczasowego brzmienia przepisu wykreśla się samorządowe instytucje kultury
+                               oraz samorządowe osoby prawne i przenosi się je do ust. 6. Taka zmiana zapewni,
+                               że jednostki samorządu terytorialnego oraz podległe im podmioty będą miały
+                               obowiązek korzystania z PURDE i PUH w tych samych terminach”. Naszym
+                               zdaniem, to sformułowanie nie jest prawdziwe.
+
+27. UM          Uwaga ogólna   Czy w zapisach ustawy nie możemy stosować jaśniejszej pisowni. Dotyczy to np.         Uwaga wyjaśniona
+    Poznań                     art. 155 ust 5 - słowo „lub” sugeruje, że podmioty będą mogły stosować uznaniowo
+                                                                                                                     Regulacje dotyczące tego, kiedy
+                               PURDE lub PUH, a nie i to i to – o co chodziło chyba twórcom zapisów.
+                                                                                                                     stosować PURDE, a kiedy PUH są
+                               Zapisy proponowanych zmian w par. 147 ust 2 obejmują zakres czasowy do 31             określone w odrębnych przepisach
+                               grudnia 2025. Ponieważ z tą datą ePUAP nie ulegnie likwidacji, proszę o info, co      ustawy o doręczeniach, KPA i ordynacji
+                            dalej się będzie działo, jeżeli osoba fizyczna, która nie ma przecież obowiązku      podatkowej. ePUAP nie zostanie
+                            posiadania skrzynki edoręczeń,, ale nawet jak ją ma, to przyśle nam podpisane        zamknięty, tylko wyłączony w zakresie
+                            prawidłowo pismo ePUAPEM? Czy ono będzie nieskutecznie doręczone? Czy                korespondencji między obywatelem a
+                            będziemy musieli ją – i w jaki sposób – poinformować, że nie prowadzimy już          podmiotem niepublicznych.
+                            korespondencji tym kanałem? Czy dobrze rozumiem, że po tej dacie będziemy
+                            musieli odpowiedzieć takiej osobie papierowo na pismo elektroniczne (my czy
+                            Poczta korzystając z PUH)? Ponieważ ePUAP jest bezpłatny, a list tradycyjny czy
+                            też wysłany PUH płatny, to ten obowiązek podniesie koszty prowadzenia
+                            korespondencji.
+
+28. UM       Uwaga ogólna   Ponieważ w 2025 r. będziemy funkcjonować w podwójnej rzeczywistości prawnej –        Uwaga wyjaśniona
+    Poznań                  w zależności od sposobu nadania, e-Doręczeniami lub w dotychczasowy sposób,
+                                                                                                                 W odniesieniu do postulatu odstąpienia
+                            stosować lub nie stosować będziemy zmiany w ustawach – to dla bezpieczeństwa
+                                                                                                                 od obowiązku sprawdzania w BAE jest
+                            skuteczności doręczenia – bo tego się najbardziej obawiać będą urzędnicy, bo może
+                                                                                                                 to niezgodne z intencją ustawy o
+                            się to wiązać z poważnymi konsekwencjami – może jednak lepiej nie stosować w
+                                                                                                                 doręczeniach. Posiadanie adresu do
+                            tym okresie obowiązku sprawdzania adresu w BAE – o co apelują m.in. miasta
+                                                                                                                 doręczeń jest równoważne żądaniu
+                            zrzeszone w Unii Metropolii Polskich i wysyłać pisma tą drogą, którą pismo do nas
+                                                                                                                 doręczenia korespondencji na ten
+                            dotarło. Tylko w przypadku inicjowania korespondencji przez jst należało by
+                                                                                                                 adres. Okres przejściowy jest również
+                            sprawdzać BAE i w przypadku obecności adresu prowadzić korespondencję e-
+                                                                                                                 czasem, w którym należy nauczyć
+                            Doręczeniami. Do przejścia na e-doręczenia najskuteczniej zmusi ekonomia i
+                                                                                                                 obywateli korzystania z e-Doręczeń i
+                            łatwość oraz szybkość prowadzenia korespondencji. To wynik ekonomiczny możliwy
+                                                                                                                 poinformowania, że korespondencja
+                            do osiągnięcia przy korzystaniu z e-doręczeń powinien być najlepszym bodźcem do
+                                                                                                                 przez ePUAP zostanie wkrótce
+                            ich stosowania w okresie przejściowym.
+                                                                                                                 wyłączona.
+                            Czy możemy liczyć na solidarne wsparcie Ministerstwa Cyfryzacji w przypadku
+                                                                                                                 Minister będzie monitorował działania.
+                            podnoszenia cen usług pocztowych, przez Pocztę Polską, w tym PURDE i PUH?
+                            Oczywiście dba o to UKE, ale…
+
+29. UM       Uwaga ogólna   W art. 147 w dodanym ust. 5 przewidziano możliwość doręczania korespondencji         Uwaga wyjaśniona
+    Poznań                  masowej poprzez pracowników organu. Jak ma się ten zapis do dotychczasowego,
+                                                                                                                 Zostało zaproponowane nowe
+                            podobnego zapisu w art. 6 ust. 1 p. 3. Czy znosi ten zapis, czy oba zapisy
+                                                                                                                 brzmienie art. 147 ust. 5.
+                            funkcjonują dublując się, z tym że ten w art. 147 ust. 5 ma charakter czasowy i
+                            dotyczy tylko okresu przejściowego.
+                            Drobna uwaga redakcyjna – jeżeli w art. 147 dodaje się ustęp 5 to nie powinno się
+                            go numerować cyfrą 4.
+                            Z projektu ustawy wypadły istniejące wcześniej zapisy dot. zmian w KPA i Ordynacji
+                            Podatkowej. Czy to zabieg celowy?
+30. Osoba      Uwaga ogólna   W dowodzie otrzymania o którym mowa w art. 40 Ustawy z dnia 18 listopada 2020 r.       Uwaga wyjaśniona
+    fizyczna                  o doręczeniach elektronicznych (Dz. U. z 2024 r. poz. 1045) w pdf'ie w części pt.
+                                                                                                                     Wystawianie dowodów technicznych
+                              "Nadawca", "Adresat" są pola odpowiednio "Dane nadawcy" jak i "Dane adresata"
+                                                                                                                     jest w obszarze analitycznym i
+                              moim zdaniem warto by poszerzyć zamieszczane tam informacje o dane z wpisu
+                                                                                                                     implementacyjnym dostawcy usługi.
+                              zamieszczonego w Bazie Adresów Elektronicznych tj. podać przynajmniej miasto
+                                                                                                                     Postulat zostanie przekazany
+                              danej osoby/podmioty, które wskazała podając swój "tradycyjny" adres
+                                                                                                                     operatorowi wyznaczonemu, a w
+                              korespondencyjny, ponieważ osób o tym samym imieniu i nazwisku często bywa
+                                                                                                                     przypadku realizacji przez OW zmian w
+                              kilka lub kilkanaście np. osób o moich personaliach jest z tego co wiem
+                                                                                                                     strukturze dowodów technicznych,
+                              8.....podobna sugestia dotyczy rzecz jasna i dowodu nadania analogicznie....a
+                                                                                                                     uwzględniony w wizualizacjach
+                              zgodnie z standardem publicznej usługi rejestrowanego doręczenia elektronicznego
+                                                                                                                     dokumentów.
+                              świadczonej przez operatora wyznaczonego i kwalifikowanych dostawców usług
+                              świadczących kwalifikowane usługi rejestrowanego doręczenia elektronicznego w
+                              zakresie współpracy z publiczną usługą rejestrowanego doręczenia elektronicznego
+                              oraz skrzynki doręczeń o której mowa w art. 26 a Ustawy z dnia 5 września 2016 r. o
+                              usługach zaufania oraz identyfikacji elektronicznej (Dz. U. z 2024 r. poz. 422), ów
+                              standard daje Wam możliwość zamieszczania tam - w dowodzie otrzymania jak i
+                              dowodzie wysłania - więcej informacji o czym mowa w pkt 6.4.0.7b standardu
+                              PURDE "Dostawca usługi RDE wystawiając dowód może dołączać inne dane
+                              identyfikujących niż wskazane w 6.4.0.6 i 6.4.0.7. "
+
+31. Osoba      Uwaga ogólna   Otóż w dowodzie otrzymania o którym mowa w art. 40 Ustawy z dnia 18 listopada          Uwaga wyjaśniona
+    fizyczna                  2020 r. o doręczeniach elektronicznych (Dz. U. z 2024 . poz. 1045) w części pt.
+                                                                                                                     Wystawianie dowodów technicznych
+                              "Data odbioru" jest formułka o brzmieniu: "Data wpłynięcia korespondencji na adres
+                                                                                                                     jest w obszarze analitycznym i
+                              do doręczeń", Ja bym dodał przed wyrazem "doręczeń" literkę "e" i znak "-", tak żeby
+                                                                                                                     implementacyjnym dostawcy usługi.
+                              to wyglądało tak: "Data wpłynięcia korespondencji na adres do e-doręczeń".
+                                                                                                                     Postulat zostanie przekazany
+                                                                                                                     operatorowi wyznaczonemu, a w
+                                                                                                                     przypadku realizacji przez OW zmian w
+                                                                                                                     strukturze dowodów technicznych,
+                                                                                                                     uwzględniony w wizualizacjach
+                                                                                                                     dokumentów
+
+32. Osoba      Uwaga ogólna   Dlaczego w aplikacji klienckiej e-Doręczeń w zakładce "odebrane" w przypadku         Uwaga wyjaśniona
+    fizyczna                  korespondencji tam się znajdującej nie można bezpośrednio z poziomu danej
+                                                                                                                   Przedstawione zagadnienie zostanie
+                              przesyłki pobrać dowodu otrzymania w pdf i xml tak jak jest to w zakładce "wysłane",
+                                                                                                                   poddane analizie.
+                              gdzie po kliknięciu opcji "pokaż szczegóły" jest informacja o doręczeniu przesyłki,
+                              można pobrać dowód wysłania jak i otrzymania oraz pobrać dowody
+                              techniczne....moim zdaniem należałoby jednak umożliwić z poziomu zakładki
+                              "odebrane" w przypadku danej przesyłki pobranie dowodu otrzymania w pdf
+                              chociażby....póki co można tam tylko pobrać dowody techniczne.....
+
+33. Osoba      Uwaga ogólna   uważam, że stowarzyszenia, inne organizacje społeczne i zawodowe, fundacje oraz       Uwaga wyjaśniona
+    fizyczna                  samodzielne publiczne zakłady opieki zdrowotnej również powinny być zobowiązane
+                                                                                                                    Stowarzyszenia posiadające
+                              do posiadania ADE, powinien zostać zmodyfikowany pkt 8 art. 9 UoDE i powinno
+                                                                                                                    osobowość prawną (lub fundacje) i
+                              nadać mu się brzmienie: "podmiot niepubliczny wpisany do rejestru, o którym mowa
+                                                                                                                    prowadzące działalność gospodarczą
+                              w art. 1 ust. 2 pkt 1 i 2 Ustawy z dnia 20 sierpnia 1997 r. o Krajowym Rejestrze
+                                                                                                                    będą posiadały taki obowiązek - są
+                              Sądowym (Dz. U. z 2024 r. poz. 979) lub dodać pkt 8a o brzmieniu :
+                                                                                                                    bowiem podmiotami niepublicznymi
+                              "stowarzyszenia, inne organizacje społeczne i zawodowe, fundacje oraz
+                                                                                                                    wpisanymi do rejestru przedsiębiorców,
+                              samodzielne publiczne zakłady opieki zdrowotnej, o których mowa w art. 1 ust. 2 pkt
+                                                                                                                    o którym mowa w art. 1 ust. 2 pkt
+                              2 Ustawy z dnia 20 sierpnia 1997 r. o Krajowym Rejestrze Sądowym"......nie widzę
+                                                                                                                    1 ustawy z dnia 20 sierpnia 1997 r. o
+                              podstaw dlaczego podmioty wymienione w pkt 2 ust. 2 w art. 1 Ustawy z dnia 20
+                                                                                                                    Krajowym Rejestrze Sądowym i do tego
+                              sierpnia 1997 r. o Krajowym Rejestrze Sądowym nie miały by być zobligowane do
+                                                                                                                    przepisu dosyła art. 9 ust. 1 pkt 8
+                              posiadania ADE i tym samym włączenia się w Krajowy System Doręczeń
+                                                                                                                    UODE. Natomiast uwaga dot. art. 9 w
+                              Elektronicznych.
+                                                                                                                    zakresie rozszerzenia o podmioty
+                                                                                                                    wskazane w uwadze, to jest czy
+                                                                                                                    wszystkie stowarzyszenia posiadające
+                                                                                                                    osobowość prawną, a nie prowadzące
+                                                                                                                    działalności gospodarczej, czy też
+                                                                                                                    stowarzyszenia zwykłe powinny zostać
+                                                                                                                    objęte tym obowiązkiem posiadania
+                                                                                                                    ADE zostanie rozważona przy
+                                                                                                                    następnej nowelizacji ustawy.
+                                                                                                                    Mimo braku obowiązku podmioty te
+                                                                                                                    mogą złożyć wniosek o ADE na
+                                                                                                                    podstawie art. 10 UODE.
+
+34. Osoba      Uwaga ogólna   uważam, że stowarzyszenia, inne organizacje społeczne i zawodowe, fundacje            Uwaga wyjaśniona.
+    fizyczna                  również powinny być zobowiązane do posiadania ADE, powinno się dodać w art. 9
+                                                                                                                    Do rozważenia przy planowanej,
+                              UoDE pkt 8a o brzmieniu: "stowarzyszenia, inne organizacje społeczne i zawodowe,
+                                                                                                                    szerszej nowelizacji ustawy o
+                              fundacje, o których mowa w art. 1 ust. 2 pkt 2 Ustawy z dnia 20 sierpnia 1997 r. o
+                                                                                                                    doręczeniach elektronicznych.
+                              Krajowym Rejestrze Sądowym" (Dz. U. z 2024 r. poz. 979) lub nadać nowe
+                              brzmienie pkt 8 np. "podmiot niepubliczny wpisany do rejestru, o którym mowa w art.
+                              1 ust. 2 pkt 1 i 2 ustawy z dnia20 sierpnia 1997 r. o Krajowym Rejestrze
+                              Sądowym......nie widzę podstaw dlaczego podmioty wymienione w pkt 2 ust. 2 w art.
+                              1 Ustawy z dnia 20 sierpnia 1997 r. o Krajowym Rejestrze Sądowym nie miały by
+                              być zobligowane do posiadania ADE i tym samym włączenia się w Krajowy System
+                              Doręczeń Elektronicznych. Podówczas należałoby także zmodyfikować art. 19f ust.
+                              1 Ustawy o Krajowym Rejestrze Sądowym, tak żeby brzmiał: "Składając za
+                              pośrednictwem systemu teleinformatycznego wniosek o wpis do rejestru, o którym
+                              mowa w art. 1 ust. 2 pkt 1 i 2, wnioskodawca wskazuje, następujące dane
+                              niezbędne do utworzenia adresu do doręczeń elektronicznych, o którym mowa w art.
+                              2 pkt 1 ustawy z dnia 18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U. z
+                              2024 r. poz. 1045), zwanego dalej „adresem do doręczeń elektronicznych”, bądź
+                              wpisu adresu do doręczeń elektronicznych powiązanego z kwalifikowaną usługą
+                              rejestrowanego doręczenia elektronicznego do bazy adresów elektronicznych, o
+                              której mowa w art. 25 tej ustawy, zwanej dalej „bazą adresów elektronicznych”:....."
+
+35. Osoba      Uwaga ogólna   Nadto nadal nie została udostępniona publiczna usługa elektroniczna do             Uwaga wyjaśniona
+    fizyczna                  przedłużenia wpisu adresu do doręczeń elektronicznych o której mowa w art. 34 ust.
+                                                                                                                 Wprowadzono przepis wskazujący na
+                              3 Ustawy z dnia 18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U. z 2024
+                                                                                                                 bezterminowy wpis adresu do doręczeń
+                              r. poz. 1045)
+                                                                                                                 elektronicznych do bazy adresów
+                                                                                                                 elektronicznych
+
+36. Osoba      Uwaga ogólna   Nadto w art. 41 ust. 2 i 3 należy dokonać korekty, zastąpić wyrazy "dokumentu          Uwaga wyjaśniona
+    fizyczna                  elektronicznego" tak, żeby to brzmiało mniej więcej tak: "2. Przez odebranie
+                                                                                                                     Definicja „dokumentu elektronicznego”
+                              korespondencji nadanej przy udziale publicznej usługi rejestrowanego doręczenia
+                                                                                                                     (art. 1 ust. 2 UoDE) wskazuje, iż
+                              elektronicznego rozumie się każde działanie adresata posiadającego adres do
+                                                                                                                     "dokument elektroniczny" oznacza
+                              doręczeń
+                                                                                                                     każdą treść przechowywaną w postaci
+                              elektronicznych, powodujące, że adresat dysponuje korespondencją, która wpłynęła       elektronicznej, w szczególności tekst
+                              na ten adres, i może zapoznać się z treścią odebranej korespondencji."                 lub nagranie dźwiękowe, wizualne lub
+                                                                                                                     audiowizualne.
+                              "3. Przez wpłynięcie korespondencji nadanej przez publiczną usługę rejestrowanego
+                              doręczenia elektronicznego na adres do doręczeń elektronicznych rozumie się       Przepis dotyczy ogólnie „dokumentów
+                              zaistnienie warunków technicznych umożliwiających adresatowi odebranie            elektronicznych” w rozumieniu eidas.
+                              doręczanej korespondencji."                                                       Jeżeli zgodnie z KPA będą to podania
+                                                                                                                przesyłane przez stronę lub
+                                                                                                                korespondencją wysyłana przez urząd i
+                                                                                                                będą one posiadały „postać
+                                                                                                                elektroniczną” to mieszczą się również
+                                                                                                                w określeniu „dokument elektroniczny”
+                                                                                                                     Zatem nie ma konieczności zmiany
+                                                                                                                     treści ustawy UoDE.
+37. Osoba      Uwaga ogólna   Uprzejmie zgłaszam wniosek/sugestię wdrożenia rozszerzonych powiadomień               Uwaga wyjaśniona
+    fizyczna                  notyfikacyjnych o nowych przesyłkach. Najlepiej, żeby można było w ustawieniach
+                                                                                                                    Wysyłanie notyfikacji o nowych
+                              skrzynki doręczeń samodzielnie wybrać czy chce się otrzymywać notyfikacje o
+                                                                                                                    przesyłkach (w tym zakres
+                              nowych przesyłkach w podstawowej postaci czyli tylko sam nr danej przesyłki albo
+                                                                                                                    przekazywanych w nich danych) jest w
+                              też w formie rozszerzonej zawierającej oprócz nr przesyłki, również informację o
+                                                                                                                    obszarze analitycznym i
+                              nadawcy oraz tytuł wiadomości - tak jest w czeskiej usłudze skrzynek danych -
+                                                                                                                    implementacyjnym dostawcy usługi.
+                              dobrze byłoby, aby takowa opcja/funkcjonalność miała zastosowanie nie tylko do
+                              notyfikacji dla adresu poczty elektronicznej, ale i dla powiadomień o nowych          Postulat zostanie przekazany do
+                              przesyłkach, które mają być wdrożone pod koniec roku w aplikacji mObywatel.           operatora wyznaczonego i
+                                                                                                                    kwalifikowanych dostawców usług, a
+                                                                                                                    także zostanie poddana analizie
+                                                                                                                    zaproponowana funkcjonalność
+                                                                                                                    konfiguracji dla notyfikacji z poziomu
+                                                                                                                    skrzynki.
+
+38. Osoba      Uwaga ogólna   Uprzejmie wnoszę o umożliwienie podania adresu poczty elektronicznej do               Uwaga wyjaśniona
+    fizyczna                  notyfikacji w przypadku bycia administratorem innego adresu do doręczeń
+                                                                                                                    Do rozważenia przy planowanej,
+                              elektronicznych. Obecnie z poziomu administratora można zmienić adres poczty
+                                                                                                                    szerszej nowelizacji ustawy o
+                              elektronicznej do notyfikacji, jednakże wtedy osoba, która jest właścicielem adresu
+                                                                                                                    doręczeniach elektronicznych.
+                              do doręczeń elektronicznych nie będzie dostawała powiadomień
+                              notyfikacyjnych.....tak żeby, notyfikacje przychodziły zarówno na adres poczty
+                              elektronicznej właściciela adresu do doręczeń elektronicznych jak i
+                              administratora.....
+
+39. Osoba      Uwaga ogólna   Czy aplikacja kliencka eDoręczeń zostanie zintegrowana z Węzłem Podpisu            Uwaga wyjaśniona
+    fizyczna                  Elektronicznego w celu umożliwienia podpisywania pisma przewodniego z użyciem
+                                                                                                                 Aktualnie trwają prace analityczne we
+                              typów podpisów elektronicznych skorelowanych z tymże Węzłem Podpisu
+                                                                                                                 wskazanym zakresie.
+                              Elektronicznego. To samo pytanie dotyczy możliwości podpisania pisma
+                              przewodniego w ramach aplikacji klienckiej eDoręczeń - póki co w wersji webowej -
+                              przy użyciu kwalifikowanego podpisu elektronicznego, który ma być dostępny w
+                              ramach europejskich portfelach tożsamości cyfrowej za darmo dla wszystkich, którzy
+                              będą ich używać do celów innych niż zawodowe - zgodnie z art. 5a ust. 5 lit. g
+                              Rozporządzenia Parlamentu Europejskiego i Rady (UE) nr 910/2014 z dnia 23 lipca
+                              2014 r. w sprawie identyfikacji elektronicznej i usług zaufania w odniesieniu do
+                              transakcji elektronicznych na rynku wewnętrznym oraz uchylające dyrektywę
+                              1999/93/WE (Dz. Urz. UE L 257 z 28.8.2014, str. 73—114, L 333 z 27.12.2022, str.
+                              80 oraz Dz.U. L 2024/1183, 30.4.2024), oczywiście po dostosowaniu do warunków
+                              technicznych przewidzianych dla europejskich portfeli tożsamości cyfrowej w
+                              przypadku aplikacji mObywatel.
+
+40. Osoba      Uwaga ogólna   Czy w aplikacji klienckiej eDoręczeń zostanie dodany licznik zapełnienia skrzynki    Uwaga wyjaśniona
+    fizyczna                  doręczeń ? (w formie MB jak i %) ?
+                                                                                                                   Taka funkcjonalność nie była
+                                                                                                                   planowana, zostanie przedmiotem
+                                                                                                                   analizy.
+                                                                                                                   System jest skonfigurowany w taki
+                                                                                                                   sposób, że w przypadku osiągnięcia
+                                                                                                                   poziomu 90%, a także następnie 98%
+                                                                                                                   pojemności skrzynki, podmioty
+                                                                                                                   korzystające ze skrzynki, otrzymują
+                                                                                                                   alerty na adres e-mail wskazany do
+                                                                                                                   notyfikacji, informujące o zapełnieniu
+                                                                                                                   skrzynki, konieczności uwolnienia
+                                                                                                                   miejsca oraz utracie możliwość
+                                                                                                                   wysyłania i odbierania korespondencji
+                                                                                                                   (w przypadku przekroczenia progu 98%
+                                                                                                                   pojemności skrzynki doręczeń, aż do
+                                                                                                                   czasu zwolnienia pojemności na
+                                                                                                                   skrzynce doręczeń)
+
+41. Poczta     Uwaga ogólna   Poczta Polska postuluje dodanie do projektu ustawy art. 31 w brzmieniu:              Uwaga wyjaśniona
+    Polska
+                              Art. 31. Do dnia 31.12.2030 roku wynagrodzenie, o którym mowa w art. 52 ust. 13      Uwaga odnosi się do uwagi PPSA dot.
+    S.A.
+                              ustawy zmienianej w art. 1, jest ustalane jako iloczyn szacowanej liczby przesyłek   zmiany modelu finansowania OW. Do
+                              nadawanych od podmiotów publicznych do podmiotów niepublicznych w roku               rozważenia na kolejnych etapach
+                              kalendarzowym oraz opłaty za publiczną usługę rejestrowanego doręczenia              procesu legislacyjnego, w zależności od
+                              elektronicznego ustalanej zgodnie z metodyką określoną w przepisach wydanych na      możliwości finansowych budżetu
+                              podstawie art. 52 ust. 5 ustawy zmienianej w art. 1.                                 państwa w części „łączność”.
+                              2. Podstawę obliczenia wynagrodzenia, o której mowa w art. 52 ust. 14 ustawy
+                              zmienianej w art. 1, stanowi dodatkowo kwota wydatków poniesionych przez
+                              operatora wyznaczonego na zakup infrastruktury i wytworzenia oprogramowania
+                              niezbędnego do przygotowania się do świadczenia publicznej usługi rejestrowanego
+                              doręczenia elektronicznego, przy czym wynagrodzenie w tej części podlega
+                              wypłacie operatorowi wyznaczonemu w 2024 r.”
+                              Uzasadnienie
+                             Poczta Polska postuluje dodanie przepisu, który umożliwi zwrot wydatków
+                             poniesionych przez Pocztę Polską S.A. na zakup infrastruktury i wytworzenie
+                             oprogramowania niezbędnego do przygotowania się do świadczenia PURDE. Środki
+                             te zostały poniesione przez Pocztę Polską S.A. w poprzednich latach, począwszy od
+                             2019 r.
+
+42. Polska    Uwaga ogólna   Dodatkowo warto rozważyć rozwiązanie awaryjne, które określi sposób                  Uwaga wyjaśniona
+    Izba                     postępowania z przesyłką w sytuacjach, gdy mamy do czynienia z błędnym
+                                                                                                                  Do rozważenia przy planowanej,
+    Ubezpiecz                działaniem systemów informatycznych odpowiedzialnych za obsługę e-Doręczeń.
+                                                                                                                  szerokiej nowelizacji ustawy o
+    eń
+                             W chwili wystąpienia awarii technicznej uniemożliwiającej nadanie, odbiór lub brak   doręczeniach elektronicznych.
+                             możliwości poprawnego pobrania wiadomości przez e-doręczenia, operator
+                             zobowiązany jest do zachowania transparentności w komunikacji o awarii oraz
+                             przewidywanych czasach przywrócenia systemu. Dodatkowo w przypadku
+                             występowania awarii, pismo nie zostaje uznane za doręczone/odebrane w chwili
+                             wskazanej w elektronicznym potwierdzeniu odbioru korespondencji.
+                             Zarówno podmioty publiczne jak i niepubliczne zobowiązane są do wykonania
+                             szeregu prac technicznych, odpowiadających na wyzwania jakie stawia przed nimi
+                             obsługa e-Doręczeń. Zapowiedziana zmiana działania funkcjonalności e-Doręczeń
+                             niesie ze sobą konieczność rozbudowy infrastruktury technicznej odpowiedzialnej za
+                             dostosowanie się do tych zmian. Przykładem jest tutaj zapowiedziana zmiana
+                             maksymalnej objętości plików nawet to 500 MB. Z uwagi na to, że jest to nowy
+                             proces, zarówno organizacje publiczne jak i niepubliczne nie są w stanie oszacować
+                             jaka infrastruktura jest niezbędna do zapewnienia obsługi tak dużych wiadomości,
+                             co wiąże się z wydłużonym czasem obsługi.
+

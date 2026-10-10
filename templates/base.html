@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% set page_title %}{% block title %}{{ _("Głosowania w Sejmie, poprawka po poprawce") }}{% endblock %}{% endset %}
+{% set page_desc %}{% filter striptags | trim | truncate(300) %}{% block description %}{{ _("Domyślny opis") }}{% endblock %}{% endfilter %}{% endset %}
+<title>{{ page_title | trim }} · Lepszy Sejm</title>
+<meta name="description" content="{{ page_desc }}">
+{% if SITE_URL %}
+<link rel="canonical" href="{{ SITE_URL }}{{ full_path }}">
+<link rel="alternate" hreflang="pl" href="{{ SITE_URL }}{{ path }}">
+<link rel="alternate" hreflang="en" href="{{ SITE_URL }}en/{{ path }}">
+<link rel="alternate" hreflang="x-default" href="{{ SITE_URL }}{{ path }}">
+<meta property="og:url" content="{{ SITE_URL }}{{ full_path }}">
+{% endif %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lepszy Sejm">
+<meta property="og:title" content="{{ page_title | trim }}">
+<meta property="og:description" content="{{ page_desc }}">
+<meta property="og:locale" content="{{ 'pl_PL' if lang == 'pl' else 'en_GB' }}">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#b3122e">
+<link rel="stylesheet" href="{{ site_root }}static/style.css">
+{% block head %}{% endblock %}
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="{{ root }}index.html">Lepszy&nbsp;Sejm</a>
+    <nav>
+      <a href="{{ root }}posiedzenia.html">{{ _("Posiedzenia") }}</a>
+      <a href="{{ root }}ustawy.html">{{ _("Ustawy") }}</a>
+      <a href="{{ root }}skuteczne-poprawki.html">{{ _("Skuteczne poprawki") }}</a>
+      <a href="{{ root }}kluby.html">{{ _("Kluby") }}</a>
+      <a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a>
+      <a href="{{ root }}szukaj.html">{{ _("Szukaj") }}</a>
+      <a href="{{ root }}metodologia.html">{{ _("Metodologia") }}</a>
+    </nav>
+    <div class="lang">
+      {% if lang == "pl" %}<strong>PL</strong> · <a href="{{ alternates.en }}" hreflang="en" lang="en">EN</a>
+      {% else %}<a href="{{ alternates.pl }}" hreflang="pl" lang="pl">PL</a> · <strong>EN</strong>{% endif %}
+    </div>
+  </div>
+</header>
+<main class="wrap"{% block main_attrs %}{% endblock %}>
+{% block content %}{% endblock %}
+</main>
+<footer class="wrap foot">
+  {{ _("Dane") }}: <a href="https://api.sejm.gov.pl">{{ _("API Sejmu RP") }}</a> ({{ term_name }}).
+  {{ _("Treść poprawek wyodrębniana automatycznie z druków sejmowych — w razie wątpliwości rozstrzyga oficjalny druk.") }}
+  {{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.
+  <a href="{{ root }}api.html">API</a>
+</footer>
+<script src="{{ site_root }}static/app.js" defer></script>
+</body>
+</html>

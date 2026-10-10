@@ -1,0 +1,1047 @@
+                                                                       Druk nr 1377
+                                                               Warszawa, 13 czerwca 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-91-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+ - o zmianie ustawy - Prawo bankowe oraz
+  niektórych innych ustaw.
+
+        Projekt ma charakter deregulacyjny.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Finansów.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                          Projekt
+                                                  U S T AWA
+
+                                                      z dnia
+
+               o zmianie ustawy – Prawo bankowe oraz niektórych innych ustaw1)
+
+
+       Art. 1. W ustawie z dnia 29 sierpnia 1997 r. – Prawo bankowe (Dz. U. z 2024 r. poz. 1646,
+1685 i 1863 oraz z 2025 r. poz. 146, 222 i 525) wprowadza się następujące zmiany:
+1)     w art. 59a ust. 6 otrzymuje brzmienie:
+              „6. Z upływem 5 lat od dnia wydania ostatniej dyspozycji dotyczącej rachunku
+       prowadzonego na podstawie umowy, o której mowa w ust. 1, bank jest obowiązany
+       wystąpić o udostępnienie danych z rejestru Powszechnego Elektronicznego Systemu
+       Ewidencji Ludności (PESEL) umożliwiających ustalenie, czy posiadacz rachunku żyje, a
+       w przypadku jego śmierci – daty zgonu albo daty znalezienia zwłok. W przypadku gdy
+       bank prowadzi więcej niż jeden rachunek dla tego samego posiadacza rachunku, termin,
+       o którym mowa w zdaniu pierwszym, liczy się od dnia wydania ostatniej dyspozycji
+       dotyczącej tych rachunków.”;
+2)     art. 59b otrzymuje brzmienie:
+              „Art. 59b. Z upływem 3 miesięcy od dnia wygaśnięcia umowy rachunku bankowego,
+       o której mowa w art. 59a, zawartej na czas oznaczony, w razie braku wcześniejszej
+       dyspozycji wypłaty środków pieniężnych, bank jest obowiązany wystąpić o udostępnienie
+       danych z rejestru PESEL umożliwiających ustalenie, czy posiadacz rachunku żyje, a w
+       przypadku jego śmierci – daty zgonu albo daty znalezienia zwłok. Bank nie ma obowiązku
+       wystąpienia o udostępnienie danych, jeżeli prowadzi więcej niż jeden rachunek dla tego
+       samego posiadacza rachunku i posiadacz ten wydał w terminie, o którym mowa w zdaniu
+       pierwszym, dyspozycję dotyczącą tych rachunków.”;
+3)     w art. 92ba w ust. 1 pkt 2 otrzymuje brzmienie:
+       „2) umowach rachunku bankowego posiadacza rozwiązanych albo wygasłych z
+              przyczyn, o których mowa w art. 59a ust. 1–3, w odniesieniu do których nie upłynął,
+              wynikający z odrębnych przepisów, wymagany okres przechowywania przez bank
+              informacji i dokumentów związanych z tymi umowami;”.
+
+
+1)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 7 grudnia 2000 r. o funkcjonowaniu banków
+     spółdzielczych, ich zrzeszaniu się i bankach zrzeszających, ustawę z dnia 5 listopada 2009 r. o spółdzielczych
+     kasach oszczędnościowo-kredytowych oraz ustawę z dnia 24 września 2010 r. o ewidencji ludności.
+                                              –2–
+
+
+     Art. 2. W ustawie z dnia 7 grudnia 2000 r. o funkcjonowaniu banków spółdzielczych, ich
+zrzeszaniu się i bankach zrzeszających (Dz. U. z 2025 r. poz. 265) w art. 10d dodaje się ust. 5
+w brzmieniu:
+          „5. Z upływem 5 lat od dnia dokonania przez członka banku spółdzielczego ostatniej
+     czynności prawnej lub czynności faktycznej, bank jest obowiązany wystąpić o
+     udostępnienie danych z rejestru Powszechnego Elektronicznego Systemu Ewidencji
+     Ludności umożliwiających ustalenie, czy członek banku spółdzielczego żyje, a w
+     przypadku jego śmierci – daty zgonu albo daty znalezienia zwłok.”.
+
+     Art. 3. W ustawie z dnia 5 listopada 2009 r. o spółdzielczych kasach oszczędnościowo-
+-kredytowych (Dz. U. z 2025 r. poz. 379) wprowadza się następujące zmiany:
+1)   w art. 13a ust. 6 otrzymuje brzmienie:
+          „6. Z upływem 5 lat od dnia wydania przez członka kasy ostatniej dyspozycji
+     dotyczącej rachunku, kasa jest obowiązana wystąpić o udostępnienie danych z rejestru
+     Powszechnego Elektronicznego Systemu Ewidencji Ludności (PESEL) umożliwiających
+     ustalenie, czy członek kasy żyje, a w przypadku jego śmierci – daty zgonu albo daty
+     znalezienia zwłok.”;
+2)   art. 13b otrzymuje brzmienie:
+          „Art. 13b. Z upływem 3 miesięcy od wygaśnięcia umowy imiennego rachunku
+     członka kasy, o którym mowa w art. 28, zawartej na czas oznaczony, w razie braku
+     wcześniejszej dyspozycji wypłaty środków pieniężnych, kasa jest obowiązana wystąpić o
+     udostępnienie danych z rejestru PESEL umożliwiających ustalenie, czy członek kasy żyje,
+     a w przypadku jego śmierci – daty zgonu albo daty znalezienia zwłok.”;
+3)   w art. 13d w ust. 1 pkt 2 otrzymuje brzmienie:
+     „2) umowach imiennego rachunku członka kasy rozwiązanych albo wygasłych z
+          przyczyn, o których mowa w art. 13a ust. 1–3, w odniesieniu do których nie upłynął,
+          wynikający z odrębnych przepisów, wymagany okres przechowywania przez kasę
+          informacji i dokumentów związanych z tymi umowami;”.
+
+     Art. 4. W ustawie z dnia 24 września 2010 r. o ewidencji ludności (Dz. U. z 2025 r.
+poz. 274) wprowadza się następujące zmiany:
+1)   w art. 49 po ust. 2a dodaje się ust. 2aa w brzmieniu:
+          „2aa. Podmiotom, o których mowa w art. 46 ust. 2 pkt 1, będącym bankami albo
+     spółdzielczymi    kasami    oszczędnościowo-kredytowymi,       po   wykazaniu     interesu
+                                             –3–
+
+
+     faktycznego, udostępnia się, w sposób i na warunkach określonych w ust. 1, dane
+     potwierdzające datę zgonu albo datę znalezienia zwłok.”;
+2)   w art. 51 w ust. 2:
+     a)   w pkt 1 wyrazy „art. 49 ust. 2 i 2a” zastępuje się wyrazami „art. 49 ust. 2–2aa”,
+     b)   w pkt 2 wyrazy „art. 49 ust. 2 i 2a” zastępuje się wyrazami „art. 49 ust. 2–2aa”.
+
+     Art. 5. Do udzielenia zbiorczej informacji o umowach rachunku bankowego posiadacza
+rachunku bankowego rozwiązanych albo wygasłych z przyczyn, o których mowa w art. 59a
+ust. 1–3 ustawy zmienianej w art. 1, na podstawie żądania zgłoszonego przed dniem wejścia w
+życie niniejszej ustawy i nierozpatrzonego do tego dnia stosuje się art. 92ba ust. 1 pkt 2 ustawy
+zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą.
+
+     Art. 6. Do udzielania zbiorczej informacji o umowach imiennego rachunku członka kasy
+rozwiązanych albo wygasłych z przyczyn, o których mowa w art. 13a ust. 1–3 ustawy
+zmienianej w art. 3, na podstawie żądania zgłoszonego przed dniem wejścia w życie niniejszej
+ustawy i nierozpatrzonego do tego dnia stosuje się art. 13d ust. 1 pkt 2 ustawy zmienianej w
+art. 3, w brzmieniu nadanym niniejszą ustawą.
+
+     Art. 7. Bank i spółdzielcza kasa oszczędnościowo-kredytowa posiadające w dniu wejścia
+w życie niniejszej ustawy dostęp do danych na podstawie decyzji, o której mowa w art. 51
+ust. 2 pkt 1 ustawy zmienianej w art. 4, w brzmieniu dotychczasowym, uzyskują dostęp do
+danych określonych w art. 49 ust. 2aa ustawy zmienianej w art. 4, bez konieczności składania
+pisemnego wniosku do ministra właściwego do spraw informatyzacji.
+
+     Art. 8. Ustawa wchodzi w życie po upływie 3 miesięcy od dnia ogłoszenia.
+                                      UZASADNIENIE
+
+ I. Aktualny stan prawny oraz cel uchwalenia projektowanej regulacji
+
+W zakresie udostępniania bankom lub spółdzielczym kasom oszczędnościowo-kredytowym
+informacji o śmierci posiadacza rachunku bankowego będącego osobą fizyczną, w przypadku
+którego umowa rachunku bankowego nie została zawarta w związku z prowadzeniem
+działalności gospodarczej lub śmierci członka kasy, z Powszechnego Elektronicznego Systemu
+Ewidencji Ludności, zwanego dalej „rejestrem PESEL”, wskazane jest, aby potwierdzana była
+data zgonu albo data znalezienia zwłok, a nie jak obecnie tylko fakt śmierci. To z datą śmierci,
+a nie z datą powzięcia informacji o śmierci ustawa z dnia 29 sierpnia 1997 r. – Prawo bankowe
+(Dz. U. z 2024 r. poz. 1646, z późn. zm.), zwana dalej „ustawą”, oraz ustawa z dnia 5 listopada
+2009 r. o spółdzielczych kasach oszczędnościowo-kredytowych (Dz. U. z 2025 r. poz. 379),
+zwana dalej „ustawą o spółdzielczych kasach oszczędnościowo-kredytowych”, wiąże skutki
+rozwiązania umowy rachunku bankowego lub umowy imiennego rachunku członka kasy oraz
+kwestię związania tą umową do chwili wypłaty przez bank lub spółdzielczą kasę
+oszczędnościowo-kredytową środków pieniężnych osobie posiadającej do nich tytuł prawny.
+Należy zatem zapewnić bankom oraz spółdzielczym kasom oszczędnościowo-kredytowym
+odpowiednią podstawę prawną w zakresie potwierdzenia informacji o dacie zgonu albo dacie
+znalezienia zwłok posiadacza rachunku lub członka kasy.
+
+Art. 92ba ust. 1 pkt 2 ustawy stanowi, że bank jest obowiązany udzielić posiadaczowi rachunku
+bankowego, będącemu osobą fizyczną, osobie, która uzyskała tytuł prawny do spadku po
+posiadaczu rachunku, oraz zarządcy sukcesyjnemu zbiorczej informacji o umowach rachunku
+bankowego posiadacza rozwiązanych albo wygasłych z przyczyn, o których mowa w art. 59a
+ust. 1–3 ustawy. Jednocześnie art. 92ba ust. 2 ustawy stanowi, że w zbiorczej informacji
+wskazuje się podmiot, który prowadzi albo prowadził rachunek, numery rachunków
+wynikające z umowy rachunku oraz informację, czy rachunki są nadal prowadzone.
+
+Wyżej wymieniona ustawa nie precyzuje jednak zakresu czasowego udzielania informacji o
+rachunkach bankowych posiadacza rozwiązanych albo wygasłych z przyczyn, o których mowa
+w art. 59a ust. 1–3 ustawy. Obowiązek ten może być trudny do wykonania wobec rachunków
+zamkniętych wcześniej niż maksymalne okresy przechowywania informacji o rachunkach
+wynikające z aktualnie obowiązujących przepisów prawa (przykładowo termin 5-letni z ustawy
+z dnia 29 września 1994 r. o rachunkowości (Dz. U. z 2023 r. poz. 120, z późn. zm.), ustawy
+z dnia 29 sierpnia 1997 r. – Ordynacja podatkowa (Dz. U. z 2025 r. poz. 111, z późn. zm.) czy
+z ustawy z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy oraz finansowaniu
+terroryzmu (Dz. U. z 2025 r. poz. 644)). Warto również zauważyć, że banki, przechowując
+dokumentację dotyczącą rachunków bankowych, mają na uwadze także okres przedawnienia
+roszczeń klientów związanych z danym rodzajem rachunku bankowego.
+
+Ponadto zgodnie z art. 13d ust. 1 pkt 2 ustawy o spółdzielczych kasach oszczędnościowo-
+kredytowych kasa jest obowiązana udzielić członkowi kasy, osobie, która uzyskała tytuł
+prawny do spadku po członku kasy, oraz zarządcy sukcesyjnemu zbiorczej informacji o:
+umowach imiennego rachunku członka kasy rozwiązanych albo wygasłych z przyczyn, o
+których mowa w art. 13a ust. 1–3.
+
+Proponuje się zatem zmianę przepisów tak, aby banki oraz spółdzielcze kasy oszczędnościowo-
+-kredytowe dysponowały podstawą prawną w zakresie realizacji obowiązku uzyskiwania przez
+te podmioty informacji o dacie śmierci klientów bezpośrednio z rejestru PESEL, co umożliwi
+szybkie zamknięcie tzw. „rachunków uśpionych” (związanych z brakiem aktywności po stronie
+posiadacza rachunku). Projektowana zmiana przepisów ustawy może przyczynić się do
+przyspieszenia uzyskania przez spadkobierców informacji zbiorczej i może ograniczyć ryzyko
+wypłat na rzecz osób nieuprawnionych. Banki oraz spółdzielcze kasy oszczędnościowo-
+kredytowe nie będą miały bowiem obowiązku uwzględniania w informacji zbiorczej
+rachunków, jeśli upłynął, wynikający z odrębnych przepisów, okres wymagany do
+przechowywania przez bank związanych z tymi umowami informacji i dokumentów.
+
+ II Proponowane rozwiązania
+
+W art. 1 pkt 1 projektu wprowadza się zmiany w art. 59a ust. 6 ustawy. Zgodnie
+z proponowanym przepisem z upływem 5 lat od dnia wydania ostatniej dyspozycji dotyczącej
+rachunku prowadzonego na podstawie umowy, o której mowa w ust. 1, bank będzie
+obowiązany wystąpić o udostępnienie danych z rejestru PESEL umożliwiających ustalenie, czy
+posiadacz rachunku żyje, a w przypadku jego śmierci − daty zgonu albo daty znalezienia zwłok.
+Proponuje się, aby banki miały obowiązek uzyskiwania informacji o dacie śmierci klientów
+bezpośrednio z rejestru PESEL, co umożliwi szybkie zamknięcie tzw. „rachunków uśpionych”.
+Zasady w zakresie potwierdzenia lub zaprzeczenia informacji pozostają niezmienione, a
+nałożenie obowiązku na banki pozwoli bankom wykazać interes prawny, o którym mowa w
+art. 46 ust. 2 pkt 1 ustawy z dnia 24 września 2010 r. o ewidencji ludności (Dz. U. z 2025 r.
+poz. 274), zwanej dalej: „ustawą o ewidencji ludności”, w celu uzyskania informacji o dacie
+śmierci.
+
+
+
+                                             2
+Zmieniono redakcję drugiego zdania w art. 59a ust. 6, zgodnie z którym, w przypadku gdy bank
+prowadzi więcej niż jeden rachunek dla tego samego posiadacza rachunku, termin, o którym
+mowa w zdaniu pierwszym, liczy się od dnia wydania ostatniej dyspozycji dotyczącej tych
+rachunków. Zmiana redakcji ma na celu określenie momentu, od którego należy liczyć termin,
+o którym mowa w art. 59 ust. 6 zdanie pierwsze, w przypadku gdy bank prowadzi więcej niż
+jeden rachunek dla tego samego posiadacza rachunku.
+
+W art. 1 pkt 2 projektowanej ustawy zmienia się art. 59b ustawy. Zgodnie z nowym
+brzmieniem tego przepisu z upływem 3 miesięcy od dnia wygaśnięcia umowy rachunku
+bankowego, o której mowa w art. 59a, zawartej na czas oznaczony, w razie braku wcześniejszej
+dyspozycji wypłaty środków pieniężnych, bank jest obowiązany wystąpić o udostępnienie
+danych z rejestru PESEL umożliwiających ustalenie, czy posiadacz rachunku żyje, a w
+przypadku jego śmierci – daty zgonu albo daty znalezienia zwłok. Bank nie będzie miał
+obowiązku wystąpienia o udostępnienie danych, jeżeli prowadzi więcej niż jeden rachunek dla
+tego samego posiadacza rachunku i posiadacz rachunku wydał w terminie, o którym mowa w
+zdaniu pierwszym, dyspozycję dotyczącą tych rachunków. W poprzednim stanie prawnym
+udostępniana była jedynie informacja o fakcie śmierci, natomiast bez wskazania jej daty.
+Informacja dotyczyła zatem potwierdzenia śmierci lub zaprzeczenia śmierci, bez wskazania
+informacji o dacie zgonu albo dacie znalezienia zwłok posiadacza rachunku. Jak wskazano, to
+z datą śmierci, a nie z datą powzięcia informacji o śmierci, ustawa wiąże skutki rozwiązania
+umowy rachunku bankowego oraz kwestię związania tą umową do chwili wypłaty przez bank
+środków pieniężnych osobie posiadającej do nich tytuł prawny. Zdanie drugie wyżej
+wymienionego artykułu określa przypadek zwolnienia banku z obowiązku wystąpienia o
+udostępnienie danych.
+
+W art. 1 pkt 3 projektowanej ustawy zmienia się art. 92ba w ust. 1 pkt 2 ustawy, zgodnie
+z którym bank jest obowiązany udzielić posiadaczowi rachunku bankowego, będącemu osobą
+fizyczną, osobie, która uzyskała tytuł prawny do spadku po posiadaczu rachunku, oraz zarządcy
+sukcesyjnemu zbiorczej informacji o umowach rachunku bankowego posiadacza rozwiązanych
+albo wygasłych z przyczyn, o których mowa w art. 59a ust. 1–3, w odniesieniu do których nie
+upłynął, wynikający z odrębnych przepisów, okres wymagany do przechowywania przez bank
+związanych z tymi umowami informacji i dokumentów. Przepis ten wskazuje zakres informacji
+przekazywanych przez bank posiadaczowi rachunku bankowego, będącemu osobą fizyczną,
+osobie, która uzyskała tytuł prawny do spadku po posiadaczu rachunku, oraz zarządcy
+sukcesyjnemu. W obecnym stanie prawnym było utrudnione wykonanie obowiązku udzielenia
+
+
+                                             3
+informacji wobec rachunków zamkniętych wcześniej niż maksymalne okresy przechowywania
+informacji o rachunkach wynikające z aktualnie obowiązujących przepisów prawa,
+przykładowo termin 5-letni z ustawy z dnia 29 września 1994 r. o rachunkowości, ustawy z
+dnia 29 sierpnia 1997 r. – Ordynacja podatkowa czy z ustawy z dnia 1 marca 2018 r. o
+przeciwdziałaniu praniu pieniędzy oraz finansowaniu terroryzmu. Warto zwrócić również
+uwagę, że banki, przechowując dokumentację dotyczącą rachunków bankowych, mają na
+uwadze także okres przedawnienia roszczeń klientów związanych z danym rodzajem rachunku
+bankowego. Uproszczona została zatem procedura przekazania informacji zbiorczej przez
+bank, która polega na zwolnieniu banków z przekazania informacji zbiorczej w odniesieniu do
+umów rachunku bankowego posiadacza rozwiązanych albo wygasłych, w których upłynął już,
+wynikający z odrębnych przepisów, okres wymagany do przechowywania przez bank
+związanych z tymi umowami informacji i dokumentów.
+
+W art. 2 projektu w art. 10d ustawy z dnia 7 grudnia 2000 r. o funkcjonowaniu banków
+spółdzielczych, ich zrzeszaniu się i bankach zrzeszających (Dz. U. z 2025 r. poz. 265) dodaje
+się ust. 5, zgodnie z którym z upływem 5 lat od dnia dokonania przez członka banku
+spółdzielczego ostatniej czynności prawnej lub czynności faktycznej, bank jest obowiązany
+wystąpić o udostępnienie danych z rejestru Powszechnego Elektronicznego Systemu Ewidencji
+Ludności umożliwiających ustalenie, czy członek banku spółdzielczego żyje, a w przypadku
+jego śmierci – daty zgonu albo daty znalezienia zwłok.
+
+W art. 3 projektu ustawy wprowadza się zmiany w ustawie o spółdzielczych kasach
+oszczędnościowo-kredytowych. Zgodnie z art. 3 pkt 1 projektowanej ustawy art. 13a ust. 6
+wskazuje, że z upływem 5 lat od dnia wydania przez członka kasy ostatniej dyspozycji
+dotyczącej rachunku, kasa jest obowiązana wystąpić o udostępnienie danych z rejestru
+Powszechnego Elektronicznego Systemu Ewidencji Ludności (PESEL) umożliwiających
+ustalenie, czy członek kasy żyje, a w przypadku jego śmierci – daty zgonu albo daty znalezienia
+zwłok. Proponuje się zatem zmianę przepisów tak, aby także spółdzielcze kasy
+oszczędnościowo-kredytowe miały ustawowy obowiązek uzyskiwania informacji o dacie
+zgonu albo dacie znalezienia zwłok klientów bezpośrednio z rejestru PESEL, co umożliwi
+szybkie zamknięcie tzw. „rachunków uśpionych”. Zmiana ma na celu umożliwienie
+spółdzielczym kasom oszczędnościowo-kredytowym uzyskanie potwierdzenia daty zgonu lub
+daty znalezienia zwłok, w przypadku gdy spółdzielcza kasa oszczędnościowo-kredytowa
+posiada taką informację.
+
+
+
+
+                                              4
+Według art. 3 pkt 2 projektowanej ustawy zmieniono brzmienie art. 13b ustawy o
+spółdzielczych kasach oszczędnościowo-kredytowych przez doprecyzowanie, że z upływem 3
+miesięcy od wygaśnięcia umowy imiennego rachunku członka kasy, o którym mowa w art. 28,
+zawartej na czas oznaczony, w razie braku wcześniejszej dyspozycji wypłaty środków
+pieniężnych, kasa jest obowiązana wystąpić o udostępnienie danych z rejestru PESEL
+umożliwiających ustalenie, czy członek kasy żyje, a w przypadku jego śmierci – daty zgonu
+albo daty znalezienia zwłok.
+
+Art. 3 pkt 3 projektu ustawy zmienia brzmienie art. 13d w ust. 1 pkt 2 tak, że kasa jest
+obowiązana udzielić członkowi kasy, osobie, która uzyskała tytuł prawny do spadku po członku
+kasy, oraz zarządcy sukcesyjnemu zbiorczej informacji o umowach imiennego rachunku
+członka kasy rozwiązanych albo wygasłych z przyczyn, o których mowa w art. 13a ust. 1–3,
+w odniesieniu do których nie upłynął, wynikający z odrębnych przepisów, okres wymagany do
+przechowywania przez kasę związanych z tymi umowami informacji i dokumentów.
+Uproszczona została procedura przekazania informacji zbiorczej przez spółdzielczą kasę
+oszczędnościowo-kredytową, która polega na zwolnieniu kas z przekazania informacji
+zbiorczej w odniesieniu do umów imiennego rachunku członka kasy rozwiązanych albo
+wygasłych, w których upłynął już, wynikający z odrębnych przepisów, okres wymagany do
+przechowywania przez kasę związanych z tymi umowami informacji i dokumentów.
+
+W art. 4 pkt 1 projektowanej ustawy wprowadza się zmianę art. 49 przez dodanie ust. 2aa w
+ustawie o ewidencji ludności. Zgodnie z tym przepisem podmiotom, o których mowa w art. 46
+ust. 2 pkt 1, będącym bankami albo spółdzielczymi kasami oszczędnościowo-kredytowymi
+udostępnia się, w sposób i na warunkach określonych w ust. 1, po wykazaniu interesu
+faktycznego, dane potwierdzające datę zgonu albo datę znalezienia zwłok. W poprzednim
+stanie prawnym bankom oraz spółdzielczym kasom oszczędnościowo-kredytowym była
+udostępniana jedynie informacja o fakcie śmierci, natomiast bez wskazania jej daty. Informacja
+dotyczyła zatem potwierdzenia śmierci lub zaprzeczenia śmierci, bez potwierdzenia informacji
+o dacie zgonu albo dacie znalezienia zwłok posiadacza rachunku. To z datą śmierci, a nie z datą
+powzięcia informacji o śmierci ustawa wiąże skutki rozwiązania umowy rachunku bankowego
+oraz kwestię związania tą umową do chwili wypłaty przez bank środków pieniężnych osobie
+posiadającej do nich tytuł prawny. Umożliwienie pozyskania informacji o dacie zgonu albo
+dacie znalezienia zwłok posiadacza rachunku przez bank ma na celu uproszczenie realizacji
+obowiązków nałożonych na banki na mocy przepisów o tzw. „rachunkach uśpionych”. W
+oparciu o projektowane regulacje bank oraz spółdzielcza kasa oszczędnościowo-kredytowa,
+
+
+                                              5
+którzy uzyskali informację o dacie śmierci klienta, będą mogli potwierdzić posiadaną
+informację o dacie śmierci klienta. W związku z tym spadkobiercy szybciej uzyskają
+informacje o zgromadzonych środkach pieniężnych.
+
+W art. 4 pkt 2 lit a i b projektowanej ustawy wprowadza się wynikową zmianę redakcyjną
+art. 51 ust. 2 ustawy o ewidencji ludności będącą skutkiem dodania w art. 49 ustawy o ewidencji
+ludności ust. 2aa. Zgodnie z tym artykułem w sprawach o udostępnianie danych za pomocą
+teletransmisji danych w drodze weryfikacji, o których mowa w art. 49, minister właściwy do
+spraw informatyzacji w drodze decyzji administracyjnej:
+
+1) wyraża zgodę na udostępnianie danych w drodze weryfikacji, po spełnieniu warunków
+    określonych w art. 48 ust. 1 oraz w art. 49 ust. 2–2aa;
+
+2) odmawia wyrażenia zgody na udostępnianie danych w drodze weryfikacji danych albo cofa
+    zgodę na ich udostępnianie w drodze weryfikacji, jeżeli nie zostały spełnione warunki
+    określone w art. 48 ust. 1 lub art. 49 ust. 2–2aa.
+
+W art. 5 wskazuje się, że do udzielenia zbiorczej informacji o umowach rachunku bankowego
+posiadacza rachunku bankowego rozwiązanych albo wygasłych z przyczyn, o których mowa w
+art. 59a ust. 1–3 ustawy zmienianej w art. 1, na podstawie żądania zgłoszonego przed dniem
+wejścia w życie niniejszej ustawy i nierozpatrzonego do tego dnia stosuje się art. 92ba ust. 1
+pkt 2 ustawy zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą.
+
+W art. 6 projektowanej ustawy wskazuje się, że do udzielania zbiorczej informacji o umowach
+imiennego rachunku członka kasy rozwiązanych albo wygasłych z przyczyn, o których mowa
+w art. 13a ust. 1–3 ustawy zmienianej w art. 3, na podstawie żądania zgłoszonego przed dniem
+wejścia w życie niniejszej ustawy i nierozpatrzonego do tego dnia stosuje się art. 13d ust. 1
+pkt 2 ustawy zmienianej w art. 3, w brzmieniu nadanym niniejszą ustawą.
+
+W art. 7 projektowanej ustawy wskazuje się, że bank i spółdzielcza kasa oszczędnościowo-
+kredytowa posiadające w dniu wejścia w życie niniejszej ustawy dostęp do danych na
+podstawie decyzji, o której mowa w art. 51 ust. 2 pkt 1 ustawy zmienianej w art. 4, w brzmieniu
+dotychczasowym, uzyskują dostęp do danych określonych w art. 49 ust. 2aa ustawy zmienianej
+w art. 4, bez konieczności składania pisemnego wniosku do ministra właściwego do spraw
+informatyzacji.
+
+W art. 8 projektowanej ustawy wskazuje się, że wejdzie ona w życie po upływie 3 miesięcy od
+dnia ogłoszenia. Taki okres vacatio legis zapewni odpowiedni czas na dostosowanie się do
+
+
+
+                                                6
+zmian, a także umożliwi dostosowanie rozporządzenia Rady Ministrów z dnia 22 grudnia
+2017 r. w sprawie opłat za udostępnienie danych z rejestrów mieszkańców oraz rejestru PESEL.
+
+Projekt ustawy nie jest sprzeczny z prawem Unii Europejskiej.
+
+Projekt ustawy nie wymaga przedstawienia właściwym organom i instytucjom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+
+Projektowana regulacja nie zawiera przepisów technicznych w rozumieniu rozporządzenia
+Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego
+systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.), w związku z czym
+nie podlega notyfikacji zgodnie z trybem przewidzianym w tych przepisach.
+
+Stosownie do art. 3 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. z 2025 r. poz. 677) projekt ustawy został zamieszczony w wykazie
+prac legislacyjnych i programowych Rady Ministrów pod nr UDER9.
+
+Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w
+procesie stanowienia prawa oraz § 52 uchwały nr 190 Rady Ministrów z dnia 29 października
+2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.) projekt
+ustawy został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej
+Rządowego Centrum Legislacji w serwisie Rządowy Proces Legislacyjny.
+
+Zawarte w projekcie ustawy regulacje będą miały wpływ na działalność mikroprzedsiębiorców,
+małych i średnich przedsiębiorców, ponieważ uproszczona zostanie procedura przekazania
+informacji zbiorczej. Uproszczenie to polega na zwolnieniu z przekazania informacji zbiorczej
+w odniesieniu do umów rachunku bankowego posiadacza tego rachunku lub umowach
+imiennego rachunku członka kasy rozwiązanych albo wygasłych, w których upłynął już,
+wynikający z odrębnych przepisów, okres wymagany do przechowywania przez bank lub
+spółdzielczą kasę oszczędnościowo-kredytową związanych z tymi umowami informacji i
+dokumentów. Bank nie będzie miał również obowiązku wystąpienia o udostępnienie danych,
+jeżeli bank prowadzi więcej niż jeden rachunek dla tego samego posiadacza rachunku i
+posiadacz rachunku wydał w określonym terminie, dyspozycję dotyczącą tych rachunków.
+
+
+
+
+                                               7
+Nazwa projektu                                                  Data sporządzenia
+Projekt ustawy o zmianie ustawy – Prawo bankowe oraz niektórych 6 czerwca 2025 r.
+innych ustaw
+                                                                Źródło:
+Ministerstwo wiodące i ministerstwa współpracujące              Inne
+Ministerstwo Finansów – Ministerstwo wiodące                    Deregulacja
+Ministerstwo Spraw Wewnętrznych i Administracji – Ministerstwo
+współpracujące                                                  Nr w Wykazie prac legislacyjnych i
+                                                                programowych Rady Ministrów:
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza   UDER9
+Stanu lub Podsekretarza Stanu
+Jurand Drop, Podsekretarz Stanu
+
+Kontakt do opiekuna merytorycznego projektu
+Jarosław Niezgoda, Zastępca Dyrektora Departamentu Rozwoju Rynku
+Finansowego w Ministerstwie Finansów, tel. 22 694 58 28,
+e-mail: sekretariat.fn@mf.gov.pl
+
+Aurelia Jasina, Starszy specjalista, Departament Rozwoju Rynku
+Finansowego, Wydział Sektora Bankowego, tel. 538 505 323 e-mail:
+aurelia.jasina@mf.gov.pl
+                                     OCENA SKUTKÓW REGULACJI
+ 1. Jaki problem jest rozwiązywany?
+W zakresie udostępniania bankom informacji o śmierci posiadacza rachunku bankowego będącego osobą fizyczną lub
+spółdzielczym kasom oszczędnościowo-kredytowym informacji o śmierci członka kasy z Powszechnego Elektronicznego
+Systemu Ewidencji Ludności, zwanego dalej „rejestrem PESEL”, wskazane jest, aby potwierdzana była również
+informacja o dacie zgonu albo dacie znalezienia zwłok, a nie jak obecnie tylko fakt śmierci. To z datą śmierci, a nie z datą
+powzięcia informacji o śmierci ustawa z dnia 29 sierpnia 1997 r. – Prawo bankowe (Dz. U. z 2024 r. poz. 1646, z późn.
+zm.), zwana dalej „ustawą”, oraz ustawa z dnia 5 listopada 2009 r. o spółdzielczych kasach oszczędnościowo-kredytowych
+(Dz. U. z 2025 r. poz. 379), zwana dalej „ustawą o spółdzielczych kasach oszczędnościowo-kredytowych”, wiąże skutki
+rozwiązania umowy rachunku bankowego lub umowy imiennego rachunku członka kasy oraz kwestię związania tą umową
+do chwili wypłaty przez bank lub spółdzielczą kasę oszczędnościowo-kredytową środków pieniężnych osobie posiadającej
+do nich tytuł prawny.
+Należy zatem zapewnić bankom oraz spółdzielczym kasom oszczędnościowo-kredytowym podstawę prawną do
+pozyskania informacji o dacie zgonu albo dacie znalezienia zwłok posiadacza rachunku lub członka kasy. Obowiązujący
+od 1 stycznia 2016 r. art. 49 ust. 2a ustawy z dnia 24 września 2010 r. o ewidencji ludności (Dz. U. z 2025 r. poz. 274),
+zwanej dalej „ustawą o ewidencji ludności”, wskazuje, że podmiotom, o których mowa w art. 46 ust. 2 pkt 1, po wykazaniu
+interesu faktycznego, udostępnia się za pomocą urządzeń teletransmisji danych, w drodze weryfikacji, dane potwierdzające
+zgon. W wyniku takiego zapytania, jest możliwe jedynie uzyskanie informacji potwierdzającej zgon lub zaprzeczającej
+zgon, bez wskazania informacji o dacie zgonu albo dacie znalezienia zwłok posiadacza rachunku.
+
+Ponadto warto zauważyć, że art. 92ba ust. 1 pkt 2 ustawy stanowi, że bank jest obowiązany udzielić posiadaczowi rachunku
+bankowego będącemu osobą fizyczną, osobie, która uzyskała tytuł prawny do spadku po posiadaczu rachunku, oraz
+zarządcy sukcesyjnemu zbiorczej informacji o umowach rachunku bankowego posiadacza rachunku rozwiązanych albo
+wygasłych z przyczyn, o których mowa w art. 59a ust. 1–3 ustawy. Jednocześnie art. 92ba ust. 2 ustawy stanowi, że w
+zbiorczej informacji wskazuje się podmiot, który prowadzi albo prowadził rachunek, numery rachunków wynikające z
+umowy rachunku oraz informację, czy rachunki są nadal prowadzone. Ustawa nie precyzuje jednak zakresu czasowego
+udzielania informacji o rachunkach bankowych posiadacza rozwiązanych albo wygasłych z przyczyn, o których mowa w
+art. 59a ust. 1–3 ustawy. Nie wskazuje ona, jak daleko wstecz bank jest obowiązany poszukiwać informacji. Proponuje się
+wskazać zatem maksymalny okres poszukiwania przez bank informacji o umowie rachunku rozwiązanej albo wygasłej z
+przyczyn, o których mowa w art. 59a ust. 1–3 ustawy. Warto również zwrócić uwagę, że banki, przechowując
+dokumentację dotyczącą rachunków bankowych, mają na uwadze także okres przedawnienia roszczeń klientów
+związanych z danym rodzajem rachunku bankowego.
+
+Ponadto zgodnie z art. 13d ust. 1 pkt 2 ustawy o spółdzielczych kasach oszczędnościowo-kredytowych kasa jest
+obowiązana udzielić członkowi kasy, osobie, która uzyskała tytuł prawny do spadku po członku kasy, oraz zarządcy
+sukcesyjnemu zbiorczej informacji o umowach imiennego rachunku członka kasy rozwiązanych albo wygasłych
+z przyczyn, o których mowa w art. 13a ust. 1–3.
+
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Proponuje się zmianę przepisów tak, aby banki oraz spółdzielcze kasy oszczędnościowo-kredytowe dysponowały podstawą
+prawną w zakresie realizacji obowiązku uzyskiwania przez te podmioty informacji o dacie śmierci klientów bezpośrednio
+z rejestru PESEL, co umożliwi szybkie zamknięcie tzw. „rachunków uśpionych” (związanych z brakiem aktywności po
+stronie posiadacza rachunku).
+
+1. Ustawa – Prawo bankowe
+Projektowana ustawa przewiduje zatem rozwiązanie, zgodnie z którym z upływem 5 lat od dnia wydania ostatniej dyspozycji
+dotyczącej rachunku prowadzonego na podstawie umowy, o której mowa w art. 59a ust. 1 ustawy, bank będzie zobowiązany
+wystąpić o udostępnienie danych z rejestru PESEL umożliwiających ustalenie, czy posiadacz rachunku żyje, a w przypadku
+jego śmierci – daty zgonu albo daty znalezienia zwłok. Podobne regulacje przewidziano w przypadku spółdzielczych kas
+oszczędnościowo-kredytowych poprzez zmiany w ustawie o spółdzielczych kasach oszczędnościowo-kredytowych. Projekt
+ustawy o zmianie ustawy – Prawo bankowe oraz niektórych innych ustaw zapewni bankom oraz spółdzielczym kasom
+oszczędnościowo-kredytowym pozyskanie informacji o dacie zgonu albo dacie znalezienia zwłok posiadacza rachunku
+bankowego lub członka kasy, z którą to datą śmieci ustawa oraz ustawa o spółdzielczych kasach oszczędnościowo-
+-kredytowych wiąże skutki rozwiązania umowy rachunku bankowego lub umowy imiennego rachunku członka kasy oraz
+kwestię związania tą umową do chwili wypłaty przez bank lub spółdzielczą kasę oszczędnościowo-kredytową środków
+pieniężnych osobie posiadającej do nich tytuł prawny. Dzięki wprowadzonej zmianie spadkobiercy łatwiej i szybciej uzyskają
+informacje o zgromadzonych środkach i ograniczone zostanie ryzyko ich wypłat na rzecz osób nieuprawnionych. Banki oraz
+spółdzielcze kasy oszczędnościowo-kredytowe nie będą miały bowiem obowiązku uwzględniania w informacji zbiorczej
+rachunków, jeśli upłynął, wynikający z odrębnych przepisów, okres wymagany do przechowywania przez bank lub
+spółdzielczą kasę oszczędnościową związanych z tymi umowami informacji i dokumentów.
+Projekt ustawy o zmianie ustawy – Prawo bankowe oraz niektórych innych ustaw przewiduje także, że bank nie będzie miał
+obowiązku wystąpienia o udostępnienie danych, jeżeli prowadzi on więcej niż jeden rachunek dla tego samego posiadacza
+rachunku w przypadku umowy rachunku bankowego zawartej na czas oznaczony i posiadacz rachunku wydał w terminie 5
+lat dyspozycję dotyczącą tych rachunków.
+Uproszczona została także procedura przekazania informacji zbiorczej przez bank, która polega na zwolnieniu banków
+z przekazania informacji zbiorczej w odniesieniu do umów rachunku bankowego posiadacza rozwiązanych albo wygasłych,
+w których upłynął już, wynikający z odrębnych przepisów, wymagany okres przechowywania przez bank informacji i
+dokumentów związanych z tymi umowami.
+
+2. Ustawa o ewidencji ludności
+Proponuje się wprowadzenie zmiany w ustawie z dnia 24 września 2010 r. o ewidencji ludności zapewniającej bankom oraz
+spółdzielczym kasom oszczędnościowo-kredytowym udostępnienie z rejestru PESEL informacji o dacie zgonu posiadacza
+rachunku lub członka kasy albo dacie znalezienia zwłok (obok dotychczasowej informacji potwierdzającej tylko zgon).
+
+3. Ustawa z dnia 7 grudnia 2000 r. o funkcjonowaniu banków spółdzielczych, ich zrzeszaniu się i bankach
+zrzeszających (Dz. U. z 2025 r. poz. 265)
+W ustawie o funkcjonowaniu banków spółdzielczych, ich zrzeszaniu się i bankach zrzeszających proponuje się, aby
+z upływem 5 lat od dnia dokonania przez członka banku spółdzielczego ostatniej czynności prawnej lub czynności faktycznej,
+bank był obowiązany wystąpić o udostępnienie danych z rejestru PESEL umożliwiających ustalenie, czy członek banku
+spółdzielczego żyje, a w przypadku jego śmierci – daty zgonu albo daty znalezienia zwłok.
+
+4. Ustawa o spółdzielczych kasach oszczędnościowo-kredytowych
+Zgodnie z projektowaną ustawą z upływem 5 lat od dnia wydania przez członka kasy ostatniej dyspozycji dotyczącej
+rachunku, kasa będzie obowiązana wystąpić o udostępnienie danych z rejestru PESEL umożliwiających ustalenie, czy
+członek kasy żyje, a w przypadku jego śmierci – daty zgonu albo daty znalezienia zwłok. Uproszczono także procedurę
+przekazania informacji zbiorczej przez spółdzielczą kasę oszczędnościowo-kredytową poprzez zmiany w ustawie o
+spółdzielczych kasach oszczędnościowo-kredytowych.
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Brak danych.
+
+4. Podmioty, na które oddziałuje projekt
+         Grupa                    Wielkość                      Źródło danych                    Oddziaływanie
+  Banki w formie spółek              29                   Rejestr podmiotów sektora          Uproszczenie procedury
+       akcyjnych                                              bankowego KNF                zamknięcia tzw. „rachunków
+                                                            (stan na 2.04.2025 r.)                uśpionych”.
+    Banki spółdzielcze                  489               Rejestr podmiotów sektora          Uproszczenie procedury
+                                                              bankowego KNF                zamknięcia tzw. „rachunków
+                                                            (stan na 2.04.2025 r.)                uśpionych”.
+
+                                                           2
+   Bank Gospodarstwa                   1                        Strona internetowa             Uproszczenie procedury
+      Krajowego                                                 https://www.bgk.pl          zamknięcia tzw. „rachunków
+                                                               (stan na 2.04.2025 r.)               uśpionych”.
+        Spadkobiercy               Brak danych                      Brak danych               Przyspieszenie procedury
+                                                                                              uzyskiwania informacji o
+                                                                                              zgromadzonych środkach
+      Spółdzielcze kasy                19                   Rejestr podmiotów                  Uproszczenie procedury
+      oszczędnościowo-                                  sektora kas spółdzielczych          zamknięcia tzw. „rachunków
+         kredytowe                                                 KNF                              uśpionych”.
+                                                           (stan na 7.05.2025 r.)
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+W ramach konsultacji publicznych i opiniowania projekt ustawy został 30 kwietnia 2025 r. przekazany do następujących
+podmiotów i organizacji: Narodowego Banku Polskiego, Komisji Nadzoru Finansowego, Polskiej Agencji Nadzoru
+Audytowego, Prokuratorii Generalnej Rzeczypospolitej Polskiej, Rzecznika Finansowego, Rzecznika Małych i Średnich
+Przedsiębiorców, Bankowego Funduszu Gwarancyjnego, Urzędu Ochrony Konkurencji i Konsumentów, Urzędu Ochrony
+Danych Osobowych, Polskiego Funduszu Rozwoju S.A., Związku Banków Polskich, Krajowego Związku Banków
+Spółdzielczych, Krajowej Spółdzielczej Kasy Oszczędnościowo-Kredytowej, Rady Banków Depozytariuszy, Krajowego
+Depozytu Papierów Wartościowych S.A., Giełdy Papierów Wartościowych w Warszawie S.A., Izby Domów Maklerskich,
+Izby Zarządzających Funduszami i Aktywami, Stowarzyszenia Emitentów Giełdowych, BondSpot S.A., Stowarzyszenia
+Inwestorów Indywidualnych, Polskiego Stowarzyszenia Inwestorów Kapitałowych, Fundacji Małych i Średnich
+Przedsiębiorstw, Polskiego Związku Instytucji Pożyczkowych, Związku Przedsiębiorstw Finansowych, Konfederacji
+Lewiatan oraz Banku Gospodarstwa Krajowego. Termin na zgłaszanie uwag został wyznaczony do dnia 8 maja 2025 r.
+
+Zgłoszone uwagi zostały poddane szczegółowej analizie. Zestawienie zgłoszonych uwag oraz stanowisko Ministerstwa
+Finansów zawiera raport z konsultacji.
+
+Projekt został udostępniony na stronie internetowej Biuletynu Informacji Publicznej Rządowego Centrum Legislacji w
+zakładce Rządowy Proces Legislacyjny.
+
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                             Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                               0     1           2     3     4      5      6     7     8      9    10 Łącznie (0–10)
+Dochody ogółem                 0     0           0     0     0      0      0     0     0      0     0      0 zł
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Wydatki ogółem                     0        0    0     0        0      0     0      0   0      0    0         0 zł
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Saldo ogółem                       0        0    0     0        0      0     0      0   0      0    0         0 zł
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+                         Wejście w życie ustawy nie wiąże się z koniecznością poniesienia dodatkowych wydatków z
+Źródła finansowania      budżetu państwa. Jednocześnie nie przewiduje się zwiększenia wydatków ani zmniejszenia
+                         dochodów budżetu państwa i budżetów jednostek samorządu terytorialnego.
+Dodatkowe
+informacje, w tym
+wskazanie źródeł
+danych i przyjętych do
+obliczeń założeń
+
+
+
+
+                                                           3
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz na
+    rodzinę, obywateli i gospodarstwa domowe
+                                                        Skutki
+Czas w latach od wejścia w życie zmian        0          1         2         3         5          10       Łącznie
+                                                                                                            (0–10)
+W ujęciu          duże przedsiębiorstwa
+pieniężnym        sektor mikro-, małych i
+(w mln zł,        średnich
+ceny stałe z      przedsiębiorstw
+…… r.)            rodzina, obywatele
+                  oraz gospodarstwa
+                  domowe
+W ujęciu          duże przedsiębiorstwa Uproszczenie procedury zamknięcia tzw. „rachunków uśpionych”.
+niepieniężnym sektor mikro-, małych i Uproszczenie procedury zamknięcia tzw. „rachunków uśpionych”.
+                  średnich
+                  przedsiębiorstw
+                  rodzina, obywatele      Wejście w życie ustawy nie wpłynie na sytuację ekonomiczną i społeczną
+                  oraz gospodarstwa       rodziny, a także osób niepełnosprawnych oraz osób starszych.
+                  domowe
+Niemierzalne      (dodaj/usuń)
+Dodatkowe
+informacje, w tym
+wskazanie źródeł         Wejście w życie ustawy nie będzie miało wpływu na konkurencyjność gospodarki.
+danych i przyjętych do
+obliczeń założeń
+
+
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie          tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli   nie
+zgodności).                                          nie dotyczy
+
+   zmniejszenie liczby dokumentów                            zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                              zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                     wydłużenie czasu na załatwienie sprawy
+   inne:                                                     inne:
+
+Wprowadzane obciążenia są przystosowane do ich               tak
+elektronizacji.                                              nie
+                                                             nie dotyczy
+
+Komentarz:
+Uproszczona zostanie procedura zamknięcia tzw. „rachunków uśpionych”.
+
+9. Wpływ na rynek pracy
+Wejście w życie ustawy nie będzie miało wpływu na rynek pracy.
+
+10. Wpływ na pozostałe obszary
+
+    środowisko naturalne                   demografia                            informatyzacja
+    sytuacja i rozwój regionalny           mienie państwowe                      zdrowie
+    sądy powszechne, administracyjne       inne:
+lub wojskowe
+                          Wejście w życie ustawy nie wpłynie na sytuację i rozwój regionalny oraz pozostałe obszary
+Omówienie wpływu          wskazane w pkt 10.
+
+11. Planowane wykonanie przepisów aktu prawnego
+Planowane wykonanie przepisów ustawy nastąpi z dniem jej wejścia w życie.
+
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+                                                         4
+Ewaluacja efektów projektu będzie dokonywana w toku bieżących czynności wykonywanych przez Komisję Nadzoru
+Finansowego.
+
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                         5
+                                                               RAPORT Z KONSULTACJI
+                            projektu ustawy o zmianie ustawy – Prawo bankowe oraz niektórych innych ustaw (UDER9)
+   1. Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania
+Stosownie do postanowień uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów projektu ustawy o zmianie
+ustawy – Prawo bankowe oraz niektórych innych ustaw 30 kwietnia 2025 r. został przekazany do konsultacji publicznych oraz opiniowania Narodowemu
+Bankowi Polskiemu, Komisji Nadzoru Finansowego, Polskiej Agencji Nadzoru Audytowego, Prokuratorii Generalnej Rzeczypospolitej Polskiej, Rzecznikowi
+Finansowemu, Rzecznikowi Małych i Średnich Przedsiębiorców, Bankowemu Funduszowi Gwarancyjnemu, Urzędowi Ochrony Konkurencji i Konsumentów,
+Urzędowi Ochrony Danych Osobowych, Polskiemu Funduszowi Rozwoju S.A., Związkowi Banków Polskich, Krajowemu Związkowi Banków Spółdzielczych,
+Krajowej Spółdzielczej Kasie Oszczędnościowo-Kredytowej, Radzie Banków Depozytariuszy, Krajowemu Depozytowi Papierów Wartościowych S.A.,
+Giełdzie Papierów Wartościowych w Warszawie S.A., Izbie Domów Maklerskich, Izbie Zarządzających Funduszami i Aktywami, Stowarzyszeniu Emitentów
+Giełdowych, BondSpot S.A, Stowarzyszeniu Inwestorów Indywidualnych, Polskiemu Stowarzyszeniu Inwestorów Kapitałowych, Fundacji Małych i Średnich
+Przedsiębiorstw, Polskiemu Związkowi Instytucji Pożyczkowych, Związkowi Przedsiębiorstw Finansowych, Konfederacji Lewiatan, Bankowi Gospodarstwa
+Krajowego. Termin na zgłaszanie uwag został wyznaczony do dnia 8 maja 2025 r.
+Podczas konsultacji publicznych i opiniowania uwagi do projektu zgłosili: Krajowa Spółdzielcza Kasa Oszczędnościowo-Kredytowa, Komisja Nadzoru
+Finansowego, Rzecznik Finansowy, Krajowy Związek Banków Spółdzielczych, Urząd Ochrony Danych Osobowych.
+
+Poniżej zostały przedstawione uwagi zgłoszone w trakcie konsultacji publicznych oraz opiniowania, wraz z rozstrzygnięciem projektodawcy.
+                                                                Uwagi ogólne
+
+Lp.      Jednostk   Podmiot                             Stanowisko/opinia podmiotu                                Stanowisko MF
+             a      który
+         redakcyj   przedstawił
+         na/część   stanowisko/
+         projektu   opinię
+          założeń
+         projektu
+          ustawy
+      1. 1Uwaga      Krajowa       Jak wskazano w dołączonej do projektu ustawy Ocenie Skutków Regulacji: Uwaga uwzględniona
+         . ogólna   Spółdzielcza   Proponuje się, aby banki miały obowiązek uzyskiwania informacji o dacie śmierci
+                       Kasa        posiadacza rachunku bankowego bezpośrednio z rejestru PESEL, co umożliwi
+                    Oszczędnośc    szybkie zamknięcie rachunków cechujących się brakiem aktywności ich posiadaczy,
+                       iowo-       tzw. ,,rachunków uśpionych". (...) Uproszczona została także procedura
+                    Kredytowa      przekazania informacji zbiorczej przez bank, która polega na zwolnieniu banków z
+                                   przekazania informacji zbiorczej w odniesieniu do umów rachunku bankowego
+                                   posiadacza rozwiązanych albo wygasłych, w których upłynął już, wynikający z
+                                   odrębnych przepisów, właściwy okres wymagany do przechowywania przez bank
+                                   związanych z tymi umowami informacji i dokumentów. (...).
+                                   Mając na uwadze powyższe Kasa Krajowa prosi o uwzględnienie w procedowanych
+                                   regulacjach:
+                                   - konieczności określenia zakresu czasowego obowiązku informacyjnego kasy,
+                                   wynikającego z art. 13d ust. 1 pkt 2 ustawy z dnia 5 listopada 2009 r. o
+                                   spółdzielczych kasach oszczędnościowo-kredytowych;
+                                   -zapewnienie także spółdzielczym kasom oszczędnościowo-kredytowym dostępu
+                                   do informacji o dacie śmierci członka kasy z rejestru PESEL (art. 13a ust. 6, art.
+                                   13b ustawy z dnia 5 listopada 2009 r. o spółdzielczych kasach oszczędnościowo-
+                                   kredytowych, art. 49 ust. 2a ustawy z dnia 24 września 2010 r. o ewidencji
+                                   ludności).
+                                   Zgodnie z art. 13d ust. 1 pkt 2 ustawy z dnia 5 listopada 2009 r. o spółdzielczych
+                                   kasach
+                                   oszczędnościowo-kredytowych, spółdzielcza kasa oszczędnościowo-kredytowa
+                                   (dalej: kasa) jest obowiązana udzielić członkowi kasy, osobie, która uzyskała tytuł
+                                   prawny do spadku po członku kasy, oraz zarządcy sukcesyjnemu, zbiorczej
+                                                                           2
+informacji o umowach imiennego rachunku członka kasy rozwiązanych albo
+wygasłych z przyczyn, o których mowa w art. 13a ust. 1-3. Wskazane regulacje
+ustawy o spółdzielczych kasach oszczędnościowo-kredytowych są analogiczne w
+tym zakresie do zapisów dotyczących banków, zawartych w Prawie bankowym,
+przy uwzględnieniu specyfiki kas w relacji do banków. Rachunek członka kasy, co
+do zasady uregulowany jest analogicznie do rachunku bankowego, a przepisy
+kodeksu cywilnego dotyczące rachunków bankowych stosuje się odpowiednio do
+rachunków prowadzonych przez kasy. W konsekwencji regulacje dotyczące
+rachunków członków kas, powinny być analogiczne do regulacji dotyczących
+rachunków bankowych, przy uwzględnieniu
+jedynie tych odrębności, które wynikają ze specyfiki działania kas odrębnej od
+działalności prowadzonej przez banki.
+Kasa Krajowa pragnie zwrócić uwagę na konieczność wprowadzenia zmian do ww.
+regulacji, polegających na określeniu zakresu czasowego obowiązku
+informacyjnego kasy w sposób analogiczny do zmian proponowanych w ustawie -
+Prawo bankowe. Obowiązek ten jest bowiem niewykonalny w odniesieniu do
+rachunków zamkniętych wcześniej niż maksymalne okresy przechowywania
+informacji o rachunkach, wynikające z obowiązujących przepisów prawa w
+odniesieniu do rachunków prowadzonych przez kasy analogicznie jak ma to miejsce
+w odniesieniu do rachunków bankowych prowadzonych przez banki. Brak jest
+bowiem uzasadnienia dla ewentualnego zróżnicowania sytuacji faktycznej i
+prawnej w tym zakresie kas i banków, do którego doszłoby w przypadku przyjęcia
+projektu ustawy w proponowanym brzmieniu, zawierającego propozycje zmian
+jedynie w Prawie bankowym, bez analogicznych zmian w ustawie o spółdzielczych
+kasach oszczędnościowo-kredytowych zawierających regulacje analogiczne do
+objętych proponowanymi zmianami regulacji Prawa bankowego.
+W ocenie Kasy Krajowej zasadnym jest także wprowadzenie regulacji
+zapewniającej spółdzielczym kasom oszczędnościowo-kredytowym dostęp do
+informacji o dacie śmierci członka kasy (obecnie udostępnieniu podlega jedynie
+informacja o samym fakcie śmierci).
+Zgodnie z brzmieniem art. 13a ust. 1 pkt 1 i ust. 4 ustawy z dnia 5 listopada 2009 r.
+o spółdzielczych kasach oszczędnościowo-kredytowych, to z datą śmierci ustawa
+wiąże skutki prawne w postaci:
+-rozwiązania umowy imiennego rachunku członka kasy, o którym mowa w art. 28
+ustawy o skok;
+
+                                                 3
+                             -przyjęcia fikcji prawnej jej dalszego obowiązywania [umowę uważa się za wiążącą
+                             do chwili wypłaty przez kasę środków pieniężnych osobie posiadającej tytuł
+                             prawny (...)].
+                             Brak dostępu do informacji o dacie śmierci członka kasy jest zatem regulacją
+                             niespójną z obowiązującymi przepisami prawa i wydaje się być niezamierzoną luką
+                             w systemie obowiązującego prawa.
+                             Przyjęcie odpowiednich zmian w tym zakresie umożliwiłoby prawidłową realizację
+                             obowiązków kas i zwiększyłoby bezpieczeństwo zdeponowanych w kasach
+                             środków. Podobnie jak w przypadku pierwszej propozycji, brak jest uzasadnienia
+                             dla ewentualnego zróżnicowania sytuacji faktycznej i prawnej kas i banków, do
+                             którego doszłoby w przypadku przyjęcia projektu ustawy w proponowanym
+                             brzmieniu, zawierającego propozycje zmian w ustawie o ewidencji ludności
+                             dotyczące rozszerzenia zakresu danych udostępnianych bankom bez analogicznego
+                             rozszerzenie zakresy danych udostępnianych kasom w sytuacji gdy regulacje Prawa
+                             bankowego i ustawy o spółdzielczych kasach oszczędnościowo-kredytowych, w
+                             związku z którymi ten zakres jest rozszerzany przez projekt, są w pełni analogiczne.
+                             Brak jest zatem podstaw do gorszego traktowania przez ustawodawcę posiadaczy
+                             rachunków w kasach w stosunku do posiadaczy rachunków w bankach, a taki skutek
+                             miałoby ewentualne zróżnicowanie zakresu dostępu do informacji określonych w
+                             ustawie o ewidencji ludności między kasami a bankami w razie przyjęcia projektu
+                             w proponowanym brzmieniu bez wprowadzenia zmian proponowanych w
+                             niniejszym piśmie.
+
+2.   Uwaga     Krajowy       Popieramy propozycję zmiany w zakresie zapewnienia warunków do uzyskiwania Uwaga uwzględniona
+     ogólna    Związek       informacji o dacie śmierci posiadacza rachunku bankowego bezpośrednio z rejestru
+                Banków       PESEL, w celu szybszego zamknięcie rachunków cechujących się brakiem
+              Spółdzielczy   aktywności ich posiadaczy.
+                  ch         Proponujemy jednoczenie rozszerzenie możliwości pozyskiwania informacji z
+                             rejestru PESEL także o członków banków spółdzielczych, w przypadku
+                             długotrwałego braku kontaktu z takimi osobami. Banki spółdzielcze zgłaszają
+                             potrzeby zmian w tym zakresie. Brak możliwości zbierania przez nie takich
+                             informacji utrudnia ich funkcjonowanie, w szczególności kiedy jest np. konieczne
+                             zwołanie zebrania przedstawicieli.
+                             Problemu tego w szczególności nie rozwiąże projektowana zmiana art. 59 a ust. 6
+                             ustawy – Prawo bankowe, objęta projektem UDER 9. Dotyczy ona bowiem tylko
+                             sytuacji rachunków uśpionych, natomiast nie ma zastosowania w przypadku
+                                                                              4
+                          członków banków spółdzielczych nie będących klientami banku i nie posiadających
+                          w danym banku rachunku.
+                          Uwzględniając powyższe, proponujemy dodanie zapisów dotyczących możliwości
+                          ustalenia bytu osoby fizycznej członka poprzez zmianę ustawy z dnia 7 grudnia
+                          2000 r. o funkcjonowaniu banków spółdzielczych, ich zrzeszaniu się i bankach
+                          zrzeszających.
+                          Proponowany zapis:
+                          •       w art. 10d ustawy z dnia 7 grudnia 2000 r. o funkcjonowaniu banków
+                          spółdzielczych, ich zrzeszaniu się i bankach zrzeszających po ust.4 dodaje się ust.5
+                          w brzmieniu:
+                          „Z upływem 5 lat od dnia braku ostatniego potwierdzenia przez członka banku
+                          spółdzielczego będącego osobą fizyczną adresu zamieszkania albo innego adresu
+                          do doręczeń albo adresu do doręczeń elektronicznych, a także adresu poczty
+                          elektronicznej, jeżeli członek banku spółdzielczego wyraził zgodę na komunikację
+                          elektroniczną w stosunkach z bankiem, bank jest obowiązany wystąpić do ministra
+                          właściwego do spraw informatyzacji o udostępnienie danych z rejestru
+                          Powszechnego Elektronicznego Systemu Ewidencji Ludności (PESEL)
+                          umożliwiających ustalenie czy członek banku spółdzielczego żyje, a w razie jego
+                          śmierci – daty śmierci.”
+
+                                                           Uwagi szczegółowe
+
+                                                                  Art. 1
+3.   Art. 1    Rzecznik   W odpowiedzi na pismo z dnia 29 kwietnia 2025 r. (zn. FN1.700.5.2025)                  Uwaga nieuwzględniona
+     pkt 3    Finansowy   przekazujące do uzgodnień, konsultacji publicznych i opiniowania projekt ustawy
+                          o zmianie ustawy – Prawo bankowe oraz ustawy o ewidencji ludności (numer w             Proponuje się uproszczenie procedury
+                          wykazie prac legislacyjnych Rady Ministrów: UDER9), uprzejmie proszę o                 przekazania informacji zbiorczej przez
+                          rozważenie poniższych uwag do zaproponowanego art. 1 pkt 3, nowelizującego art.        bank, która polega na zwolnieniu
+                          92ba ust. 1 pkt 2 ustawy z dnia 29 sierpnia 1997 r. – Prawo bankowe .                  banków z przekazania informacji
+                                 Znowelizowany przepis zwalnia banki z obowiązku przekazania:                    zbiorczej w odniesieniu do umów
+                          •      posiadaczowi rachunku bankowego będącemu osobą fizyczną,                        rachunku     bankowego     posiadacza
+                          •      osobie, która uzyskała tytuł prawny do spadku po posiadaczu rachunku oraz       rozwiązanych albo wygasłych, w
+                          •      zarządcy sukcesyjnemu,                                                          których upłynął już, termin 5 lat,
+                          informacji zbiorczej, w odniesieniu do umów rachunku bankowego posiadacza              wynikający z odrębnych przepisów,
+                          rozwiązanych lub wygasłych, w których upłynął już, wynikający z odrębnych              okres wymagany do przechowywania
+                                                                                                                 przez bank związanych z tymi
+                                                                           5
+przepisów, właściwy okres wymagany do przechowywania przez bank związanych           umowami informacji i dokumentów.
+z tymi umowami informacji i dokumentów.                                              W becnym stanie prawnym utrudnione
+         W ocenie Rzecznika Finansowego, projektując przepisy określające ramy       było wykonanie obowiązku udzielenia
+czasowe, w których możliwe jest uzyskanie przez osobę posiadającą tytuł prawny       informacji       wobec       rachunków
+do spadku określonych informacji, należy mieć na uwadze, że nierzadko                zamkniętych          wcześniej      niż
+postępowania spadkowe prowadzone są w sposób przewlekły, zaś w sprawach              maksymalne okresy przechowywania
+szczególnie skomplikowanych ustalenie w procesie sądowym kręgu spadkobierców         informacji o rachunkach wynikające z
+i ich udziałów w spadku może trwać kilka, a nawet kilkanaście lat. Zaproponowany     aktualnie obowiązujących przepisów
+przepis może tymczasem doprowadzić do sytuacji, w której osoba posiadająca tytuł     prawa, przykładowo termin 5-letni z
+prawny do spadku, która bezpośrednio po zakończeniu postępowania spadkowego          ustawy z dnia 29 września 1994 r. o
+zwróci się do banku o przekazanie informacji zbiorczej dotyczącej rozwiązanych       rachunkowości, ustawy z dnia 29
+lub wygasłych umów rachunku bankowego nie otrzyma od banku informacji w tym          sierpnia 1997 r. – Ordynacja podatkowa
+zakresie, z uwagi na upływ np. 5-letniego okresu wymaganego do przechowywania        czy z ustawy z dnia 1 marca 2018 r. o
+przez bank związanych z tymi umowami informacji i dokumentów.                        przeciwdziałaniu praniu pieniędzy oraz
+         Ponadto, oceniając zaproponowaną w nowelizacji Prawa bankowego treść        finansowaniu       terroryzmu.   Warto
+art. 92ba ust. 1 pkt 2, należy także odwołać się do norm wynikających z obecnie      zwrócić również uwagę, że banki
+obowiązującego art. 59a ust.4-5 Prawa bankowego, które stanowią, że:                 przechowując dokumentację dotyczącą
+4. Jeżeli umowa uległa rozwiązaniu na podstawie ust. 1, uważa się ją za wiążącą do   rachunków bankowych, mają na
+chwili wypłaty przez bank środków pieniężnych osobie posiadającej do nich tytuł      uwadze także okres przedawnienia
+prawny, chyba że stan środków pieniężnych na tym rachunku nie przekracza kwoty       roszczeń klientów związanych z danym
+minimalnej określonej w umowie.                                                      rodzajem rachunku bankowego.
+5. Od dnia wygaśnięcia umowy rachunku bankowego na podstawie ust. 2 albo 3, do
+dnia wypłaty środków pieniężnych osobie posiadającej do nich tytuł prawny, środki
+te podlegają waloryzacji o prognozowany w ustawie budżetowej na dany rok
+średnioroczny wskaźnik cen towarów i usług konsumpcyjnych ogółem.
+Waloryzacji dokonuje się na ostatni dzień roku kalendarzowego.
+         Jeżeli zatem w przepisach Prawa bankowego przyjęto jednoznaczną regułę,
+zgodnie z którą środki zdeponowane na rachunkach prowadzonych już po
+rozwiązaniu lub wygaśnięciu umowy powinny zostać wypłacone osobie
+posiadającej tytuł prawny do tych środków, to tym samym pozostałe przepisy Prawa
+bankowego nie powinny tworzyć barier w uzyskiwaniu informacji dotyczących
+umów rachunków bankowych, o których mowa w art. 59a ust. 1-3 Prawa
+bankowego.
+         Ramy czasowe, w których bank jest obowiązany przekazać informację o
+rozwiązanych i wygasłych umowach rachunku bankowego powinny zatem zostać
+zdefiniowane w sposób uwzględniający zarówno możliwą długotrwałość
+                                                6
+                           postępowania spadkowego, jak i bezwzględny obowiązek banku wypłacenia
+                           środków pieniężnych osobie uprawnionej po wygaśnięciu/rozwiązaniu umowy.
+4.   Art. 1      Urząd     UKNF sugeruje rozważenie czy proponowana zmiana art. 92ba w ust. 1 pkt 2            Uwaga nieuwzględniona
+     pkt 3      Komisji    ustawy, jest zgodne z celem wprowadzenia regulacji dotyczących tzw. rachunków
+               Nadzoru     uśpionych.                                                                          Propozycje wykraczają poza zakres
+              Finansoweg   Z uzasadnienia projektu wynika, że bank będzie obowiązany udzielić posiadaczowi     projektu. Nie jest konieczne wskazanie
+                   o       rachunku bankowego, będącemu osobą fizyczną, osobie, która uzyskała tytuł           terminu w kontekście odesłania do
+                           prawny do spadku po posiadaczu rachunku, oraz zarządcy sukcesyjnemu, zbiorczej      odrębnych przepisów.
+                           informacji o umowach rachunku bankowego posiadacza rozwiązanych albo
+                           wygasłych z przyczyn, o których mowa w art. 59a ust. 1–3, w odniesieniu do
+                           których nie upłynął, wynikający z odrębnych przepisów, właściwy okres
+                           wymagany do przechowywania przez bank związanych z tymi umowami informacji
+                           i dokumentów.
+                           Wobec czego UKNF zauważa, że w tak skonstruowanym przepisie ani w
+                           uzasadnieniu do niego, nie zostało uregulowane (ani wskazane), jaki jest wymagany
+                           okres przechowywania przez bank informacji i dokumentów oraz okres
+                           przedawnienia roszczeń. Podobnie nie wskazano sposobu postępowania ze
+                           środkami nie należącymi do banku w przypadku upływu okresu przetwarzania
+                           informacji i przedawnieniu roszczeń o wypłatę, w przypadku rachunków
+                           uśpionych.
+                           W ocenie UKNF, przyjęcie zaproponowanego (nie kompleksowego) rozwiązania
+                           może doprowadzić do sytuacji, gdy rachunek zostanie zamknięty, bank nie będzie
+                           miał już obowiązku udzielania informacji o rachunkach uśpionych, a jednocześnie
+                           w posiadaniu banku nadal będą znajdowały się środki należne innej osobie
+                           (posiadaczowi rachunku lub spadkobiercy). Zaś cel jaki przyświecał tzw. ustawie o
+                           rachunkach uśpionych z dnia 9 października 2015 r., był taki, aby wiedza o
+                           pozostawionych środkach finansowych w bankach mogła w łatwiejszy sposób
+                           dotrzeć do ich właścicieli (posiadaczy lub spadkobierców), tak aby mogli uzyskać
+                           do nich dostęp.
+                           W ocenie UKNF, w ramach projektu ustawy powinny zostać dodatkowo
+                           kompleksowo uwzględnione kwestie dotyczące rachunków uśpionych takie jak:
+                           1)      okres przetwarzania informacji,
+                           2)      termin przedawnienia roszczeń o wypłatę środków,
+                           3)      okres udzielania zbiorczej informacji,
+                           4)      co się dzieje ze środkami po upływie ww. terminów.
+
+                                                                          7
+                             W przeciwnym wypadku zaproponowane rozwiązanie może okazać się w efekcie
+                             niewystarczające, nie realizujące celu jaki przyświecał wprowadzeniu ustawy o
+                             rachunkach uśpionych.
+5. 1Art. 1a    Krajowa       Mając na uwadze powyższe, uprzejmie proszę o rozważenie możliwości Uwaga uwzględniona
+   .          Spółdzielcza   wprowadzenia do procedowanego projektu ustawy poniższych zmian
+                 Kasa        legislacyjnych.
+              Oszczędnośc    1. Po art. 1 dodaje się art. 1a w brzmieniu:
+                 iowo-       „Art. 1a W ustawie z dnia 5 listopada 2009 r. o spółdzielczych kasach
+              Kredytowa      oszczędnościowo-kredytowych (Dz. U. z 2025 r., poz. 379):
+                             1) w art. 13a ust. 6 otrzymuje brzmienie:
+                             6. Z upływem 5 lat od dnia wydania przez członka kasy ostatniej dyspozycji
+                             dotyczącej rachunku, kasa jest obowiązana wystąpić do ministra właściwego do
+                             spraw informatyzacji o udostępnienie danych z rejestru Powszechnego
+                             Elektronicznego Systemu Ewidencji Ludności (PESEL) umożliwiających ustalenie,
+                             czy członek kasy żyje oraz, jeśli nie żyje, daty jego śmierci."
+                             2) Art. 13 b otrzymuje brzmienie:
+                             Art.13b. Z upływem 3 miesięcy od wygaśnięcia umowy imiennego rachunku
+                             członka kasy, o którym mowa w art. 28, zawartej na czas oznaczony, w razie braku
+                             wcześniejszej dyspozycji wypłaty środków pieniężnych, kasa jest obowiązana
+                             wystąpić do ministra właściwego do spraw informatyzacji o udostępnienie danych
+                             z rejestru PESEL umożliwiających ustalenie, czy członek kasy żyje oraz, jeśli nie
+                             żyje, daty jego śmierci.";
+                             3) W art.13d w ust. 1 pkt 2 otrzymuje brzmienie:
+                             „2) umowach imiennego rachunku członka kasy rozwiązanych albo wygasłych z
+                             przyczyn, o których mowa w art. 13a ust. 1-3, w odniesieniu do których nie upłynął,
+                             wynikający z odrębnych przepisów, właściwy okres wymagany do
+                             przechowywania przez kasę związanych z tymi umowami informacji i
+                             dokumentów.''.
+
+                                                                     Art. 2
+6.   Art. 2    Krajowa       W art. 2 kropkę zastępuje się przecinkiem i dodaje się ust. 2aaa w brzmieniu:  Uwaga uwzględniona
+              Spółdzielcza   „2aaa. Spółdzielczym kasom oszczędnościowo-kredytowym udostępnia się, w
+                 Kasa        sposób i na warunkach określonych w ust. 1, dane potwierdzające zgon oraz jego
+              Oszczędnośc    datę.”.
+                 iowo-
+              Kredytowa
+                                                                        8
+7.   Art. 2      Urząd     Art. 2. W ustawie z dnia 24 września 2010 r. o ewidencji ludności (Dz. U. z 2025 r.   Uwaga uwzględniona
+                Komisji    poz. 274) w art. 49 po ust. 2a dodaje się ust. 2aa w brzmieniu:
+               Nadzoru     „2aa. Bankom oraz spółdzielczym kasom oszczędnościowo-kredytowym
+              Finansoweg   udostępnia się, w sposób i na warunkach określonych w ust. 1, dane potwierdzające
+                   o       zgon oraz jego datę”.
+                           Z uwagi na fakt, że zgodnie z art. 48k ust. 2 ustawy Prawo bankowe, do oddziałów
+                           instytucji kredytowych przepisy art. 49-70 ustawy stosuje się odpowiednio,
+                           wskazane byłoby, aby dodawany art. 49 ust. 2aa ustawy z dnia 24 września 2010 r.
+                           o ewidencji ludności odnosił się do „banków”.
+                           Przy obecnym brzmieniu, przepis interpretowany literalnie mógłby uniemożliwić
+                           instytucjom kredytowym (nie spełniają one definicji „banku krajowego”) dostęp do
+                           danych potwierdzających zgon oraz jego datę. Jednocześnie, przepis ten nie
+                           uwzględnia spółdzielczych kas oszczędnościowo-kredytowych.
+                           Warto zarazem zauważyć, że Ustawa o ewidencji ludności posługuje się pojęciami
+                           „bank krajowy” oraz „spółdzielcza kasa oszczędnościowo-kredytowa” i nie
+                           wprowadza własnych definicji tych pojęć. W związku z tym, przyjąć należy, że
+                           przez „bank krajowy” należy rozumieć zgodnie z art. 4 ust. 1 pkt 1 ustawy Prawo
+                           bankowe. Jednocześnie ustawa o ewidencji ludności przewiduje udział zarówno
+                           banków krajowych, jak i spółdzielczych kas oszczędnościowo-kredytowych w
+                           instytucji zastrzegania numeru PESEL (art. 23f ust. 1 ustawy o ewidencji ludności).
+                           Podobnie, w zmienianych przepisach Prawa bankowego (art. 59 ust. 6, 59b i 92ba
+                           ust. 1 pkt 2) występuje termin “bank”.
+8.   Art. 2     Urząd      Celem projektowanych zmian zarówno w ustawie – Prawo bankowe, jak i w ustawie         Uwaga nieuwzględniona
+               Ochrony     o ewidencji ludności jest umożliwienie pozyskiwania przez banki krajowe z rejestru
+               Danych      Powszechnego Elektronicznego Systemu Ewidencji Ludności (PESEL) oprócz                Bank, który uzyskał informację o dacie
+              Osobowych    informacji o zgonie posiadacza rachunku (rozwiązanie dotychczasowe), także            śmierci klienta będzie mógł ją
+                           informacji o dacie jego śmierci.                                                      potwierdzić w rejestrze PESEL.
+                           Pomimo, iż ogóle rozporządzenie o ochronie danych nie ma zastosowania do              Zmiana ma na celu także umożliwienie
+                           danych osobowych osób zmarłych, a nowelizowane przepisy ww. ustaw dotyczą             spółdzielczym                   kasom
+                           przetwarzania tychże danych osobowych, to pośrednią intencją projektowanych           oszczędnościowo-kredytowym
+                           zmian, zgodnie z uzasadnieniem projektodawcy jest ochrona interesów                   uzyskanie potwierdzenia daty zgonu
+                           spadkobierców, a więc osób żyjących, tj. zakładane przyspieszenie uzyskania przez     albo daty znalezienia zwłok w
+                           spadkobierców informacji zbiorczej o umowach rachunku bankowego nieżyjącego           przypadku, gdy spółdzielcza kasa
+                           posiadacza rachunku czy ograniczenie ryzyka wypłat na rzecz osób                      oszczędnościowo-kredytowa posiada
+                           nieuprawnionych.                                                                      taką informację.
+
+                                                                           9
+                              W związku z powyższym organ nadzorczy dostrzega potrzebę zwrócenia uwagi
+                              projektodawcy na wprowadzaną w art. 2 projektowanej ustawy zmianę art. 49
+                              ustawy o ewidencji ludności poprzez dodanie ust. 2aa, zgodnie z treścią którego
+                              „bankom krajowym udostępnia się, w sposób i na warunkach określonych w ust. 1,
+                              dane potwierdzające zgon oraz jego datę”. Udostępnienie danych, zgodnie z art. 49
+                              ust. 1 ww. ustawy, następuje za pomocą urządzeń teletransmisji danych, ale w
+                              drodze weryfikacji i polega na porównaniu przekazanych danych przez podmiot
+                              uprawniony z danymi zawartymi w rejestrze PESEL. Wynikiem udostępniania
+                              danych w tym trybie jest potwierdzenie zgodności przekazanych danych albo raport
+                              niezgodności danych (art. 49 ust. 3 ustawy o ewidencji ludności). Skoro
+                              udostępnienie danych w trybie art. 49 ww. ustawy sprowadza się do sprawdzenia w
+                              drodze weryfikacji poprawności przetwarzanych danych jednostkowych przez
+                              podmiot wnioskujący o udostępnienie, to powstaje pytanie czy wystąpienie banku
+                              krajowego o udostępnienie informacji (nie znanej bankowi) o dacie zgonu
+                              posiadacza rachunku w tym trybie umożliwi faktycznie jej pozyskanie.
+                                                                     Art. 3
+9.   Art. 3a    Krajowa                                                                                           Uwaga uwzględniona
+               Spółdzielcza   Ponadto konsekwencją wprowadzenia proponowanych w niniejszym piśmie zmian
+                  Kasa        w ustawie o spółdzielczych kasach oszczędnościowo-kredytowych powinno być:
+               Oszczędnośc
+                  iowo-       -dodanie w projektowanej ustawie przepisu przejściowego analogicznego do
+               Kredytowa      zawartego w art. 3, który miałby zastosowanie do informacji dotyczących
+                              rachunków w spółdzielczych kasach oszczędnościowo-kredytowych w brzmieniu:
+
+                              „Art. 3a. Do udzielania informacji zbiorczej o umowach imiennego rachunku
+                              członka kasy rozwiązanych albo wygasłych z przyczyn, o których mowa w art. 13a
+                              ust. 1-3 ustawy zmienianej w art. 1a, na pisemne żądanie zgłoszone przed dniem
+                              wejścia w życie ustawy i nierozpatrzone do tego dnia stosuje się przepis art. 13d
+                              ust. 1 pkt 2 ustawy zmienianej w art. 1a, w brzmieniu nadanym niniejszą ustawą.";
+
+                              -nadanie nowego brzmienia tytułowi ustawy, w sposób uwzględniający
+                              wprowadzenie zmian także do ustawy o spółdzielczych kasach oszczędnościowo-
+                              kredytowych.
+
+                                                            Uwagi do uzasadnienia
+
+                                                                             10
+1.                    Urząd                                                                                         Uwaga uwzględniona
+                     Komisji      Dodatkowo proponujemy modyfikację fragmentów uzasadnienia oraz OSR
+                    Nadzoru       odnoszących się do „łatwiejszego i szybszego uzyskiwania informacji o
+                   Finansoweg     zgromadzonych środkach i ograniczeniu ryzyka ich wypłat na rzecz osób
+                        o         nieuprawnionych”, poprzez dodanie dodatkowego wyjaśnienia, na przykład o
+                                  treści:
+
+                                  Dzięki wprowadzonej zmianie spadkobiercy łatwiej i szybciej uzyskają informacje
+                                  o zgromadzonych środkach i ograniczone zostanie ryzyko ich wypłat na rzecz osób
+                                  nieuprawnionych. Banki nie będą miały bowiem obowiązku uwzględniania w
+                                  informacji zbiorczej rachunków, o których mowa w art. 59a ust. 1–3 ustawy Prawo
+                                  bankowe, jeśli upłynął, wynikający z odrębnych przepisów, właściwy okres
+                                  wymagany do przechowywania przez bank związanych z tymi umowami informacji
+                                  i dokumentów.
+
+
+           2. Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu z właściwymi organami i instytucjami Unii
+              Europejskie, w tym z Europejskim Bankiem Centralnym.
+
+
+     Projekt nie wymaga zasięgnięcia opinii, dokonania konsultacji oraz uzgodnienia z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim
+     Bankiem Centralnym.
+           3. Podmioty, które zgłosiły zainteresowanie pracami nad projektem w trybie przepisów o działalności lobbingowej w procesie stanowienia
+              prawa
+
+
+     Brak zgłoszeń w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa.
+
+
+
+
+                                                                                11
+

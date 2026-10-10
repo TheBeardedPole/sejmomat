@@ -1,0 +1,547 @@
+                                                                         Druk nr 2814
+          SEJM
+RZECZYPOSPOLITEJ POLSKIE J
+              X kadencja
+
+
+
+                                      SPRAWOZDANIE
+            KOMISJI CYFRYZACJI, INNOWACYJNOŚCI I NOWOCZESNYCH
+                                          TECHNOLOGII
+
+
+    o rządowym projekcie ustawy o zmianie ustawy
+    o świadczeniu usług drogą elektroniczną oraz
+    niektórych innych ustaw (druk nr 2693)
+
+          Marszałek Sejmu, zgodnie z art. 37 ust. 1 i art. 40 ust. 1 regulaminu Sejmu
+    – po zasięgnięciu opinii Prezydium Sejmu – skierował w dniu 17 czerwca 2026 r. powyższy
+    projekt ustawy do Komisji Cyfryzacji, Innowacyjności i Nowoczesnych Technologii
+    do pierwszego czytania.
+
+
+           Komisja Cyfryzacji, Innowacyjności i Nowoczesnych Technologii po przeprowadzeniu
+    pierwszego czytania oraz rozpatrzeniu tego projektu ustawy na posiedzeniach w dniach 16
+    i 29 lipca 2026 r.
+
+         wnosi:
+
+         W y s o k i S e j m uchwalić raczy załączony projekt ustawy.
+
+
+
+    Warszawa, dnia 29 lipca 2026 r.
+
+
+
+
+                    Sprawozdawca                               Przewodniczący Komisji
+
+                  (-) Paweł Bliźniuk                              (-) Bartłomiej Pejo
+
+
+
+
+                  Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 14      Data : 2026-08-07      Nazwa pliku : 829-4.NK                                           1
+X kadencja/druk nr 2693
+
+                                                                                                        Projekt
+                                                 U S T AWA
+
+                                                     z dnia
+
+                      o zmianie ustawy o świadczeniu usług drogą elektroniczną
+                                     oraz niektórych innych ustaw1)
+
+
+       Art. 1. W ustawie z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną
+(Dz. U. z 2024 r. poz. 1513) wprowadza się następujące zmiany:
+1)     w art. 1 po pkt 2 dodaje się pkt 2a w brzmieniu:
+       „2a) zasady i tryb wydawania nakazów podjęcia działań przeciwko nielegalnym treściom
+              oraz nakazów usunięcia ograniczeń nałożonych przez dostawcę usługi hostingu;”;
+2)     w art. 3 ust. 2 otrzymuje brzmienie:
+              „2. Przepisy rozdziałów 2a i 4a–4f stosuje się do świadczenia przez przedsiębiorcę
+       telekomunikacyjnego usług telekomunikacyjnych.”;
+3)     w art. 3a w ust. 2 w pkt 6 kropkę zastępuje się średnikiem i dodaje się pkt 7 w brzmieniu:
+       „7) nakazów podjęcia działań przeciwko nielegalnym treściom i nakazów usunięcia
+              ograniczeń nałożonych przez dostawcę usługi hostingu, o których mowa w rozdziale
+              2a.”;
+4)     po rozdziale 2 dodaje się rozdział 2a w brzmieniu:
+                                                    „Rozdział 2a
+
+        Nakazy podjęcia działań przeciwko nielegalnym treściom i nakazy usunięcia ograniczeń
+                                  nałożonych przez dostawcę usługi hostingu
+
+              Art. 11a. 1. Prokurator, Policja, organ Krajowej Administracji Skarbowej,
+       uprawniony z tytułu praw autorskich lub praw pokrewnych oraz usługobiorca może złożyć
+       wniosek o wydanie nakazu podjęcia działań przeciwko nielegalnym treściom
+       polegających na uniemożliwieniu dostępu do nielegalnych treści występujących
+       w usłudze świadczonej przez dostawcę usług pośrednich:
+       1)     których rozpowszechnianie może wyczerpywać znamiona czynu zabronionego
+              określonego w art. 119 § 1, art. 148a § 1, art. 151, art. 156a, art. 189a, art. 190 § 1,
+              art. 190a § 2, art. 191a § 1, art. 200 § 3 i 5, art. 200a, art. 200b, art. 202 § 1, 3–4c,
+
+1)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 29 grudnia 1992 r. o radiofonii i telewizji oraz ustawę z
+     dnia 12 lipca 2024 r. – Prawo komunikacji elektronicznej.
+Liczba stron : 14   Data : 2026-08-07    Nazwa pliku : 829-4.NK                                       2
+X kadencja/druk nr 2693
+
+           art. 224a, art. 256 § 1–2, art. 257, art. 264 § 2–4, art. 264a, art. 286 § 1 i 2 lub art. 287
+           § 1 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny (Dz. U. z 2025 r. poz. 383, 1818
+           i 1872), art. 116 ustawy z dnia 4 lutego 1994 r. o prawie autorskim i prawach
+           pokrewnych, art. 12c pkt 5 ustawy z dnia 9 listopada 1995 r. o ochronie zdrowia
+           przed następstwami używania tytoniu i wyrobów tytoniowych (Dz. U. z 2024 r.
+           poz. 1162 oraz z 2025 r. poz. 427 i 799) lub art. 305 ustawy z dnia 30 czerwca 2000 r.
+           – Prawo własności przemysłowej;
+     2)    odnoszących się do nielegalnej sprzedaży towarów lub nielegalnego świadczenia
+           usług, które mogą wyczerpywać znamiona czynu zabronionego określonego w art.
+           54, art. 56, art. 62, art. 63a, art. 87, art. 107 lub art. 110a ustawy z dnia 10 września
+           1999 r. – Kodeks karny skarbowy (Dz. U. z 2025 r. poz. 633 oraz z 2026 r. poz. 347,
+           421 i 846);
+     3)    nawołujących do popełnienia czynu zabronionego określonego w pkt 1 lub 2.
+           2. Usługobiorca może złożyć wniosek o wydanie nakazu usunięcia ograniczeń, o
+     których mowa w art. 17 ust. 1 lub art. 23 ust. 1 rozporządzenia 2022/2065, nałożonych
+     przez dostawcę usługi hostingu na usługobiorcę w ramach mechanizmu zgłaszania i
+     działania, o którym mowa w art. 16 tego rozporządzenia, lub na podstawie dobrowolnych
+     czynności sprawdzających, o których mowa w art. 7 tego rozporządzenia, z powołaniem
+     się na co najmniej jedną z następujących okoliczności:
+     1)    informacje umieszczone przez usługobiorcę nie stanowią nielegalnej treści, a ich
+           usunięcie przez dostawcę usługi hostingu stanowiło nadmierną ingerencję
+           w swobodę wypowiedzi usługobiorcy;
+     2)    w sposób oczywisty doszło do nałożenia ograniczenia w wyniku błędu dostawcy
+           usługi hostingu.
+           3. W przypadku usług świadczonych przez dostawcę usługi hostingu usługobiorca
+     lub uprawniony z tytułu praw autorskich lub praw pokrewnych może złożyć wniosek, o
+     którym mowa w ust. 1, po skorzystaniu z mechanizmu zgłaszania i działania, o którym
+     mowa w art. 16 rozporządzenia 2022/2065.
+           Art. 11b. Właściwymi organami do rozpatrzenia wniosków, o których mowa w
+     art. 11a ust. 1 i 2, są:
+     1)    Przewodniczący       Krajowej     Rady     Radiofonii     i   Telewizji,     zwany     dalej
+           „Przewodniczącym KRRiT”, w zakresie treści występujących na platformie
+Liczba stron : 14   Data : 2026-08-07   Nazwa pliku : 829-4.NK                             3
+X kadencja/druk nr 2693
+
+           udostępniania wideo w rozumieniu art. 4 pkt 22a ustawy z dnia 29 grudnia 1992 r. o
+           radiofonii i telewizji;
+     2)    Prezes Urzędu Komunikacji Elektronicznej, zwany dalej „Prezesem UKE”,
+           w zakresie innych treści niż wskazane w pkt 1.
+           Art. 11c. 1. Osoby uczestniczące w rozpatrywaniu wniosków, o których mowa
+     w art. 11a ust. 1 i 2, w szczególności przez wydawanie w imieniu właściwego organu, o
+     którym mowa w art. 11b, na podstawie upoważnienia decyzji, nie mogą należeć do partii
+     politycznej, publicznie manifestować poglądów politycznych ani prowadzić działalności
+     publicznej niedającej się pogodzić z zasadami bezstronności, rzetelności i politycznej
+     neutralności.
+           2. Spełnianie warunków, o których mowa w ust. 1, jest weryfikowane na podstawie
+     oświadczeń osób uczestniczących w rozpatrywaniu wniosków, o których mowa w art. 11a
+     ust. 1 i 2.
+           Art. 11d. 1. W przypadku usług świadczonych przez dostawcę usługi hostingu
+     usługobiorca lub uprawniony z tytułu praw autorskich lub praw pokrewnych może złożyć
+     wniosek, o którym mowa w art. 11a ust. 1, w terminie 14 dni od dnia otrzymania
+     powiadomienia, o którym mowa w art. 16 ust. 5 rozporządzenia 2022/2065.
+           2. Usługobiorca może złożyć wniosek, o którym mowa w art. 11a ust. 2, w terminie
+     14 dni od dnia otrzymania uzasadnienia, o którym mowa w art. 17 ust. 1 rozporządzenia
+     2022/2065.
+           3. W przypadku gdy dostawca usługi hostingu nie powiadomił usługobiorcy lub
+     uprawnionego z tytułu praw autorskich lub praw pokrewnych o decyzji, zgodnie z art. 16
+     ust. 5 rozporządzenia 2022/2065, termin, o którym mowa w ust. 1, biegnie od drugiego
+     dnia następującego po dniu zgłoszenia przez usługobiorcę lub uprawnionego z tytułu praw
+     autorskich lub praw pokrewnych nielegalnych treści w ramach mechanizmu zgłaszania i
+     działania, o którym mowa w art. 16 tego rozporządzenia.
+           4. W przypadku gdy dostawca usługi hostingu nie przekazał usługobiorcy
+     uzasadnienia, o którym mowa w art. 17 ust. 1 rozporządzenia 2022/2065, termin, o którym
+     mowa w ust. 2, biegnie od drugiego dnia następującego po dniu, w którym dostawca usługi
+     hostingu nałożył na usługobiorcę ograniczenia, o których mowa w art. 17 ust. 1 lub art.
+     23 ust. 1 tego rozporządzenia.
+Liczba stron : 14   Data : 2026-08-07   Nazwa pliku : 829-4.NK                              4
+X kadencja/druk nr 2693
+
+           Art. 11e. Przepisów art. 11a ust. 1 nie stosuje się do:
+     1)    treści o charakterze terrorystycznym w rozumieniu art. 2 pkt 7 rozporządzenia
+           Parlamentu Europejskiego i Rady (UE) 2021/784 z dnia 29 kwietnia 2021 r.
+           w sprawie przeciwdziałania rozpowszechnianiu w internecie treści o charakterze
+           terrorystycznym (Dz. Urz. UE L 172 z 17.05.2021, str. 79);
+     2)    danych informatycznych mających związek ze zdarzeniem o charakterze
+           terrorystycznym lub uprawdopodabniającym popełnienie przestępstwa szpiegostwa,
+           lub określonych usług teleinformatycznych służących lub wykorzystywanych do
+           spowodowania          zdarzenia      o     charakterze       terrorystycznym   lub
+           uprawdopodabniającego popełnienie przestępstwa szpiegostwa, o których mowa
+           w art. 32c ust. 1 ustawy z dnia 24 maja 2002 r. o Agencji Bezpieczeństwa
+           Wewnętrznego oraz Agencji Wywiadu (Dz. U. z 2025 r. poz. 902 i 1366 oraz
+           z 2026 r. poz. 26);
+     3)    naruszeń prawa konsumentów;
+     4)    audycji, wideo lub innych przekazów niezgodnych z art. 47o ust. 1 ustawy z dnia
+           29 grudnia 1992 r. o radiofonii i telewizji.
+           Art. 11f. 1. Wniosek, o którym mowa w art. 11a ust. 1, zawiera:
+     1)    imię i nazwisko oraz adres zamieszkania albo nazwę lub firmę i adres siedziby
+           wnioskodawcy;
+     2)    imię i nazwisko oraz adres zamieszkania albo nazwę lub firmę i adres siedziby
+           przedstawiciela ustawowego lub pełnomocnika wnioskodawcy, jeżeli został
+           ustanowiony;
+     3)    opis stanu faktycznego, którego dotyczy wniosek, w tym wskazanie nielegalnego
+           charakteru treści będącej przedmiotem wniosku oraz informację o skorzystaniu z
+           mechanizmu zgłaszania i działania, o którym mowa w art. 16 rozporządzenia
+           2022/2065;
+     4)    żądanie podjęcia działań, o których mowa w art. 11a ust. 1;
+     5)    informacje umożliwiające identyfikację nielegalnej treści i dokładne miejsce jej
+           umieszczenia, w szczególności dokładny adres URL lub dokładne adresy URL, lub
+           dodatkowe informacje umożliwiające identyfikację nielegalnych treści, stosownie
+           do rodzaju treści i konkretnego rodzaju usługi pośredniej;
+     6)    podpis wnioskodawcy albo jego przedstawiciela ustawowego lub pełnomocnika,
+           jeżeli został ustanowiony.
+Liczba stron : 14   Data : 2026-08-07   Nazwa pliku : 829-4.NK                              5
+X kadencja/druk nr 2693
+
+           2. Do wniosku dołącza się powiadomienie, o którym mowa w art. 16 ust. 5
+     rozporządzenia       2022/2065,    w    przypadku    jego   otrzymania   oraz   dowody
+     uprawdopodabniające nielegalny charakter treści będącej przedmiotem wniosku.
+           Art. 11g. 1. Wniosek, o którym mowa w art. 11a ust. 2, zawiera:
+     1)    imię i nazwisko oraz adres zamieszkania albo nazwę lub firmę i adres siedziby
+           wnioskodawcy;
+     2)    imię i nazwisko oraz adres zamieszkania albo nazwę lub firmę i adres siedziby
+           przedstawiciela ustawowego lub pełnomocnika wnioskodawcy, jeżeli został
+           ustanowiony;
+     3)    opis stanu faktycznego, którego dotyczy wniosek, w szczególności wskazanie treści,
+           które dostawca usługi hostingu uznał za nielegalne;
+     4)    żądanie usunięcia ograniczeń, o których mowa w art. 17 ust. 1 lub art. 23 ust. 1
+           rozporządzenia 2022/2065;
+     5)    podpis wnioskodawcy albo jego przedstawiciela ustawowego lub pełnomocnika,
+           jeżeli został ustanowiony.
+           2. Do wniosku dołącza się uzasadnienie, o którym mowa w art. 17 ust. 1
+     rozporządzenia 2022/2065, w przypadku jego przekazania.
+           Art. 11h. 1. Właściwy organ, o którym mowa w art. 11b, niezwłocznie zawiadamia
+     dostawcę usług pośrednich o otrzymaniu wniosku, o którym mowa w art. 11a ust. 1, oraz
+     możliwości przedstawienia przez usługobiorcę, który umieścił treść będącą przedmiotem
+     wniosku, stanowiska w sprawie.
+           2. Dostawca usług pośrednich niezwłocznie przekazuje usługobiorcy informacje, o
+     których mowa w ust. 1, wraz z informacją o możliwości przedstawienia przez
+     usługobiorcę stanowiska w sprawie i wyrażenia zgody na bycie stroną postępowania.
+           3. Usługobiorca może przedstawić właściwemu organowi, o którym mowa w art.
+     11b, stanowisko w sprawie w terminie 2 dni od dnia otrzymania informacji, o których
+     mowa w ust. 1.
+           4. Stanowisko, o którym mowa w ust. 3, zawiera stanowisko dotyczące usunięcia
+     treści będącej przedmiotem wniosku, o którym mowa w art. 11a ust. 1, a jeżeli
+     usługobiorca wyraża zgodę na bycie stroną postępowania również:
+     1)    imię i nazwisko oraz adres zamieszkania albo nazwę lub firmę i adres siedziby
+           usługobiorcy;
+Liczba stron : 14   Data : 2026-08-07   Nazwa pliku : 829-4.NK                              6
+X kadencja/druk nr 2693
+
+     2)    imię i nazwisko oraz adres zamieszkania albo nazwę lub firmę i adres siedziby
+           przedstawiciela ustawowego lub pełnomocnika usługobiorcy, jeżeli został
+           ustanowiony;
+     3)    podpis usługobiorcy albo jego przedstawiciela ustawowego lub pełnomocnika, jeżeli
+           został ustanowiony.
+           5. Do stanowiska usługobiorcy przepis art. 11k ust. 3 stosuje się odpowiednio.
+           Art. 11i. 1. Dostawca usług pośrednich przekazuje właściwemu organowi, o którym
+     mowa w art. 11b, dowody związane z wnioskiem, o którym mowa w art. 11a ust. 1,
+     w szczególności:
+     1)    dane usługobiorcy, który umieścił treść będącą przedmiotem wniosku, wymienione
+           w art. 18 ust. 1, o ile je posiada, a usługobiorca wyraził zgodę na bycie stroną
+           postępowania;
+     2)    materiały dotyczące przedmiotu wniosku, którymi dysponuje, w tym materiały
+           zgromadzone w ramach mechanizmu zgłaszania i działania, o którym mowa
+           w art. 16 rozporządzenia 2022/2065.
+           2. Dostawca usług pośrednich przekazuje dowody, o których mowa w ust. 1,
+     niezwłocznie, niepóźniej niż w terminie 14 dni od dnia otrzymania zawiadomienia o
+     złożonym wniosku, pod rygorem utraty prawa do ich powoływania w toku dalszego
+     postępowania. Dowody zgłoszone z naruszeniem tego obowiązku podlegają pominięciu.
+           3. Materiały, o których mowa w ust. 1 pkt 2, nie mogą zawierać danych osobowych
+     usługobiorcy, jeżeli nie wyraził on zgody na bycie stroną postępowania.
+           4. Jeżeli usługobiorca nie wyraził zgody na bycie stroną postępowania, właściwy
+     organ, o którym mowa w art. 11b, dołącza stanowisko usługobiorcy do przekazanych
+     przez dostawcę usług pośrednich dowodów, o których mowa w ust. 1.
+           Art. 11j. Stronami postępowania przed właściwym organem, o którym mowa
+     w art. 11b, w zakresie wniosku, o którym mowa w art. 11a ust. 1, są:
+     1)    wnioskodawca;
+     2)    dostawca usług pośrednich;
+     3)    usługobiorca, który umieścił treść będącą przedmiotem wniosku, jeżeli wyraził
+           zgodę na bycie stroną postępowania.
+           Art. 11k. 1. Postępowanie dowodowe przed właściwym organem, o którym mowa w
+     art. 11b, jest ograniczone do dowodów załączonych przez wnioskodawcę do wniosku,
+     dowodów przekazanych przez dostawcę usług pośrednich, o których mowa w art. 11i
+Liczba stron : 14   Data : 2026-08-07    Nazwa pliku : 829-4.NK                              7
+X kadencja/druk nr 2693
+
+     ust. 1, dowodów przekazanych przez usługobiorcę, który umieścił treść będącą
+     przedmiotem wniosku, oraz dowodów możliwych do ustalenia na podstawie materiałów,
+     którymi dysponuje ten organ.
+           2. Właściwy organ, o którym mowa w art. 11b, w sprawach szczególnie
+     skomplikowanych może przeprowadzać dowody z zeznań świadków, przesłuchania stron,
+     opinii biegłych oraz oględzin.
+           3. Wnioskodawca jest obowiązany przedstawić, wraz ze składanym wnioskiem,
+     wszystkie dowody pod rygorem utraty prawa do ich powoływania w toku dalszego
+     postępowania. Dowody zgłoszone z naruszeniem tego obowiązku podlegają pominięciu,
+     chyba że wnioskodawca uprawdopodobni, że ich powołanie wraz z wnioskiem nie było
+     możliwe.
+           4. Właściwy organ, o którym mowa w art. 11b, może pominąć dowód zmierzający
+     w sposób oczywisty do przedłużenia postępowania.
+           Art. 11l. Wniosek, o którym mowa w art. 11a ust. 1 albo 2, oparty na tych samych
+     podstawach faktycznych co wniosek wcześniej rozpoznany pozostawia się bez
+     rozpoznania.
+           Art. 11m. 1. W wyniku postępowania przeprowadzonego na skutek wniesienia
+     wniosku, o którym mowa w art. 11a ust. 1 albo 2, z wyłączeniem wniosku o wydanie
+     nakazu     podjęcia    działań     przeciwko   nielegalnym   treściom   polegających   na
+     uniemożliwieniu dostępu do nielegalnych treści występujących w usłudze świadczonej
+     przez dostawcę usług pośrednich, których rozpowszechnianie może wyczerpywać
+     znamiona czynu zabronionego określonego w art. 119 § 1, art. 256 § 1–2 lub art. 257
+     ustawy z dnia 6 czerwca 1997 r. – Kodeks karny lub nawołujących do popełnienia takiego
+     czynu zabronionego, właściwy organ, o którym mowa w art. 11b, wydaje decyzję, w
+     której:
+     1)    nakazuje uniemożliwienie dostępu do nielegalnych treści występujących w usłudze
+           świadczonej przez dostawcę usług pośrednich, których rozpowszechnianie może
+           wyczerpywać znamiona czynu zabronionego, o którym mowa w art. 11a ust. 1 pkt 1
+           lub 2, lub nawołujących do popełnienia takiego czynu zabronionego, jeżeli stwierdzi,
+           że dowody zgromadzone w postępowaniu w sposób niebudzący wątpliwości
+           świadczą o nielegalnej treści;
+     2)    nakazuje usunięcie ograniczeń, o których mowa w art. 17 ust. 1 lub w art. 23 ust. 1
+           rozporządzenia 2022/2065, nałożonych przez dostawcę usługi hostingu na
+Liczba stron : 14   Data : 2026-08-07   Nazwa pliku : 829-4.NK                               8
+X kadencja/druk nr 2693
+
+           usługobiorcę, jeżeli na podstawie dowodów zgromadzonych w postępowaniu
+           stwierdzi, że informacje umieszczone przez usługobiorcę nie stanowią nielegalnej
+           treści, a ich usunięcie stanowiło nadmierną ingerencję w swobodę wypowiedzi
+           usługobiorcy lub w sposób oczywisty doszło do nałożenia ograniczenia w wyniku
+           błędu dostawcy usługi hostingu;
+     3)    odmawia nakazania uniemożliwienia dostępu do treści występujących w usłudze
+           świadczonej przez dostawcę usług pośrednich, których rozpowszechnianie może
+           wyczerpywać znamiona czynu zabronionego, o którym mowa w art. 11a ust. 1 pkt 1
+           lub 2, lub nawołujących do popełnienia takiego czynu zabronionego, jeżeli stwierdzi,
+           że dowody zgromadzone w postępowaniu w sposób niebudzący wątpliwości nie
+           świadczą o nielegalnej treści;
+     4)    odmawia nakazania usunięcia ograniczeń, o których mowa w art. 17 ust. 1 lub art.
+           23 ust. 1 rozporządzenia 2022/2065, nałożonych przez dostawcę usługi hostingu na
+           usługobiorcę, jeżeli na podstawie dowodów zgromadzonych w postępowaniu
+           stwierdzi, że informacje umieszczone przez usługobiorcę stanowią nielegalną treść
+           lub stanowią legalną treść, a ich usunięcie nie stanowiło nadmiernej ingerencji
+           w swobodę wypowiedzi usługobiorcy, lub że nie doszło do błędu dostawcy usługi
+           hostingu przy nałożeniu ograniczenia.
+           2. W decyzji, o której mowa w ust. 1 pkt 1, właściwy organ, o którym mowa
+     w art. 11b, określi zakres uniemożliwienia dostępu do nielegalnych treści występujących
+     w usłudze świadczonej przez dostawcę usług pośrednich w przypadku nielegalnych treści,
+     których rozpowszechnianie może wyczerpywać znamiona czynu zabronionego
+     określonego w art. 116 ustawy z dnia 4 lutego 1994 r. o prawie autorskim i prawach
+     pokrewnych.
+           3. Decyzji, o której mowa w ust. 1 pkt 1, właściwy organ, o którym mowa w art. 11b,
+     nadaje rygor natychmiastowej wykonalności, jeżeli decyzja ta dotyczy nielegalnych
+     treści, których rozpowszechnianie może wyczerpywać znamiona czynu zabronionego,
+     o którym mowa w art. 200 § 3 i 5, art. 200a lub art. 200b ustawy z dnia 6 czerwca 1997 r.
+     – Kodeks karny.
+           4. Właściwy organ, o którym mowa w art. 11b, publikuje na stronie internetowej
+     obsługującego go urzędu treść decyzji, o której mowa w ust. 1, z tym że publikacja nie
+     obejmuje informacji prawnie chronionych, w tym danych osobowych osób fizycznych.
+     Publikacja jest opatrzona informacją, czy decyzja jest prawomocna.
+Liczba stron : 14   Data : 2026-08-07   Nazwa pliku : 829-4.NK                              9
+X kadencja/druk nr 2693
+
+           Art. 11n. 1. W przypadku braku skutecznych środków, które mogą doprowadzić do
+     wykonania decyzji, o której mowa w art. 11m ust. 1 pkt 1, w stosunku do nielegalnych
+     treści występujących w usłudze, o której mowa w art. 4 rozporządzenia 2022/2065,
+     właściwy organ, o którym mowa w art. 11b, może zgłosić do rejestru domen
+     internetowych wykorzystywanych do rozpowszechniania nielegalnych treści, zwanego
+     dalej „rejestrem”, domenę internetową umożliwiającą dostęp do nielegalnych treści,
+     których rozpowszechnianie może wyczerpywać znamiona czynu zabronionego, o którym
+     mowa w art. 11a ust. 1 pkt 1 lub 2, lub nawołujących do popełnienia tego czynu
+     zabronionego, jeżeli:
+     1)    strona internetowa objęta decyzją, o której mowa w art. 11m ust. 1 pkt 1, służy w
+           sposób stały lub w przeważającym zakresie do rozpowszechniania nielegalnych
+           treści lub
+     2)    uniemożliwienie dostępu wyłącznie do nielegalnych treści objętych decyzją, o której
+           mowa w art. 11m ust. 1 pkt 1, w szczególności przez wskazanie dokładnego adresu
+           URL, jest technicznie niemożliwe albo oczywiście nieskuteczne, lub
+     3)    dostawca usług pośrednich, do którego skierowano decyzję, o której mowa w art.
+           11m ust. 1 pkt 1, nie wykonał jej pomimo dodatkowego wezwania do wykonania
+           decyzji.
+           2. Wezwanie, o którym mowa w ust. 1 pkt 3, zawiera:
+     1)    oznaczenie dostawcy usług pośrednich, do którego jest kierowane;
+     2)    oznaczenie decyzji, o której mowa w art. 11m ust. 1 pkt 1;
+     3)    wskazanie zakresu, w jakim decyzja nie została wykonana;
+     4)    wskazanie domeny internetowej wykorzystywanej przez stronę internetową, która
+           służy do rozpowszechniania treści objętych decyzją, o której mowa w art. 11m ust.
+           1 pkt 1;
+     5)    wskazanie terminu wykonania decyzji, niekrótszego niż 24 godziny od dnia
+           doręczenia wezwania;
+     6)    pouczenie, że niewykonanie decyzji w terminie wskazanym w wezwaniu może
+           spowodować zgłoszenie domeny internetowej do rejestru.
+           3. Wezwanie, o którym mowa w ust. 1 pkt 3, doręcza się dostawcy usług pośrednich
+     na zasadach określonych w art. 11r oraz publikuje na stronie internetowej urzędu
+     obsługującego właściwy organ, o którym mowa w art. 11b.
+           4. Rejestr prowadzi Prezes UKE.
+Liczba stron : 14   Data : 2026-08-07   Nazwa pliku : 829-4.NK                                10
+X kadencja/druk nr 2693
+
+           5. Do rejestru jest wpisywana domena internetowa wykorzystywana przez stronę
+     internetową, która służy do rozpowszechniania treści objętych decyzją, o której mowa w
+     art. 11m ust. 1 pkt 1, jeżeli zostały spełnione warunki, o których mowa w ust. 1.
+           6. Wpis do rejestru zawiera:
+     1)    nazwę domeny internetowej;
+     2)    datę i godzinę dokonania wpisu albo jego wykreślenia.
+           7. Jeżeli decyzja, o której mowa w art. 11m ust. 1 pkt 1, została wydana przez Prezesa
+     UKE, wpis domeny internetowej do rejestru następuje z urzędu po stwierdzeniu spełnienia
+     warunków, o których mowa w ust. 1.
+           8. Jeżeli decyzja, o której mowa w art. 11m ust. 1 pkt 1, została wydana przez
+     Przewodniczącego KRRiT, Prezes UKE wpisuje domenę internetową do rejestru na
+     podstawie zgłoszenia dokonanego przez Przewodniczącego KRRiT, zawierającego
+     uzasadnienie spełnienia warunków, o których mowa w ust. 1, nie później niż w terminie
+     3 dni roboczych od dnia otrzymania tego zgłoszenia.
+           9. Rejestr jest prowadzony w systemie teleinformatycznym, umożliwiającym
+     automatyczne przekazywanie informacji zawartych w rejestrze do przedsiębiorcy
+     telekomunikacyjnego w rozumieniu art. 2 pkt 40 ustawy z dnia 12 lipca 2024 r. – Prawo
+     komunikacji elektronicznej, świadczącego usługi dostępu do internetu w rozumieniu art. 2
+     pkt 76 lit. a tej ustawy.
+           10. Dostęp do rejestru przysługuje Prezesowi UKE, Przewodniczącemu KRRiT oraz
+     przedsiębiorcom telekomunikacyjnym, o których mowa w ust. 9. Do rejestru nie stosuje
+     się przepisów ustawy z dnia 6 września 2001 r. o dostępie do informacji publicznej (Dz. U.
+     z 2022 r. poz. 902 oraz z 2025 r. poz. 1844).
+           11. Przedsiębiorca telekomunikacyjny, o którym mowa w ust. 9, jest obowiązany do
+     nieodpłatnego:
+     1)    uniemożliwienia dostępu do stron internetowych wykorzystujących nazwę domeny
+           internetowej     wpisanej    do   rejestru   przez    ich   usunięcie   z   systemów
+           teleinformatycznych tych przedsiębiorców telekomunikacyjnych służących do
+           zamiany nazw domen internetowych na adresy IP, niepóźniej niż w terminie
+           48 godzin od dokonania wpisu do rejestru;
+     2)    przekierowania połączeń odwołujących się do nazwy domeny internetowej wpisanej
+           do rejestru do strony internetowej prowadzonej przez Prezesa UKE, zawierającej
+Liczba stron : 14   Data : 2026-08-07   Nazwa pliku : 829-4.NK                               11
+X kadencja/druk nr 2693
+
+           komunikat informujący o wpisaniu szukanej nazwy domeny internetowej do
+           rejestru;
+     3)    przywrócenia dostępu do stron internetowych wykorzystujących nazwę domeny
+           internetowej wykreślonej z rejestru, niepóźniej niż w terminie 48 godzin od
+           wykreślenia nazwy domeny internetowej z rejestru.
+           12. Prezes UKE niezwłocznie wykreśla wpis z rejestru w przypadku uchylenia albo
+     zmiany decyzji będącej podstawą wpisu w zakresie odnoszącym się do domeny
+     internetowej.
+           Art. 11o. Właściwy organ, o którym mowa w art. 11b, wydaje decyzję, o której
+     mowa w:
+     1)    art. 11m ust. 1 pkt 1, w terminie 7 dni od dnia otrzymania stanowiska, o którym
+           mowa w art. 11h ust. 3, oraz dowodów, o których mowa w art. 11i ust. 1, a jeżeli nie
+           zostały one przekazane – od dnia upływu terminów, o których mowa w art. 11h ust.
+           3 i art. 11i ust. 2, albo od dnia zawiadomienia tego organu przez dostawcę usług
+           pośrednich o braku danych usługobiorcy, który umieścił treść będącą przedmiotem
+           wniosku, o którym mowa w art. 11a ust. 1;
+     2)    art. 11m ust. 1 pkt 1, w terminie 2 dni od dnia otrzymania stanowiska, o którym
+           mowa w art. 11h ust. 3, oraz dowodów, o których mowa w art. 11i ust. 1, a jeżeli nie
+           zostały one przekazane – od dnia upływu terminów, o których mowa w art. 11h ust.
+           3 i art. 11i ust. 2, albo od dnia zawiadomienia tego organu przez dostawcę usług
+           pośrednich o braku danych usługobiorcy, który umieścił treść będącą przedmiotem
+           wniosku, o którym mowa w art. 11a ust. 1, jeżeli wnioskodawcą jest Policja lub
+           prokurator;
+     3)    art. 11m ust. 1 pkt 1, w terminie 21 dni od dnia otrzymania stanowiska, o którym
+           mowa w art. 11h ust. 3, oraz dowodów, o których mowa w art. 11i ust. 1, a jeżeli nie
+           zostały one przekazane – od dnia upływu terminów, o których mowa w art. 11h ust.
+           3 i art. 11i ust. 2, albo od dnia zawiadomienia tego organu przez dostawcę usług
+           pośrednich o braku danych usługobiorcy, który umieścił treść będącą przedmiotem
+           wniosku, o którym mowa w art. 11a ust. 1, w sprawach szczególnie
+           skomplikowanych;
+     4)    art. 11m ust. 1 pkt 2, w terminie 14 dni od dnia wpływu wniosku, o którym mowa w
+           art. 11a ust. 2.
+Liczba stron : 14   Data : 2026-08-07   Nazwa pliku : 829-4.NK                              12
+X kadencja/druk nr 2693
+
+           Art. 11p. 1. Od decyzji, o której mowa w art. 11m ust. 1, nie przysługuje odwołanie
+     ani wniosek o ponowne rozpatrzenie sprawy.
+           2. Strona może wnieść sprzeciw od decyzji, o której mowa w art. 11m ust. 1, w
+     terminie 14 dni od dnia jej doręczenia.
+           3. Sprzeciw wnosi się do sądu powszechnego za pośrednictwem organu, który wydał
+     decyzję, o której mowa w art. 11m ust. 1.
+           4. Organ, który wydał decyzję, o której mowa w art. 11m ust. 1, przekazuje sprzeciw
+     sądowi powszechnemu, wraz z aktami postępowania, w terminie 2 dni od dnia jego
+     otrzymania.
+           5. Termin do wniesienia sprzeciwu przez usługobiorcę, który umieścił treść będącą
+     przedmiotem decyzji, o której mowa w art. 11m ust. 1, któremu nie można doręczyć tej
+     decyzji z uwagi na brak danych, o których mowa w art. 18 ust. 1, lub który nie przedstawił
+     stanowiska w sprawie na podstawie art. 11h ust. 3, biegnie od dnia przekazania przez
+     dostawcę usług pośrednich informacji, o których mowa w art. 9 ust. 5 rozporządzenia
+     2022/2065. Do sprzeciwu usługobiorca dołącza dowód otrzymania informacji, o których
+     mowa w art. 9 ust. 5 rozporządzenia 2022/2065.
+           6. Sąd rozpoznaje sprzeciw w trybie postępowania nieprocesowego. Sprzeciw
+     zastępuje wniosek w postępowaniu sądowym. Przepisy art. 11m ust. 1 i 2 stosuje się
+     odpowiednio.
+           7. Od wydanego przez sąd drugiej instancji postanowienia co do istoty sprawy oraz
+     postanowienia w przedmiocie odrzucenia sprzeciwu lub umorzenia postępowania
+     kończących postępowanie w sprawie przysługuje skarga kasacyjna.
+           8. W postępowaniu sądowym prokuratorowi, Policji i organom Krajowej
+     Administracji Skarbowej przysługuje zdolność sądowa oraz zdolność procesowa.
+           Art. 11q. 1. Właściwy organ, o którym mowa w art. 11b, niezwłocznie po
+     przeprowadzeniu postępowania na skutek wniesienia wniosku o wydanie nakazu podjęcia
+     działań przeciwko nielegalnym treściom polegających na uniemożliwieniu dostępu do
+     nielegalnych treści występujących w usłudze świadczonej przez dostawcę usług
+     pośrednich,     których   rozpowszechnianie     może    wyczerpywać    znamiona    czynu
+     zabronionego określonego w art. 119 § 1, art. 256 § 1–2 lub art. 257 ustawy z dnia 6
+     czerwca 1997 r. – Kodeks karny lub nawołujących do popełnienia takiego czynu
+     zabronionego, wydaje postanowienie o przekazaniu akt postępowania do sądu
+     powszechnego. Na postanowienie nie przysługuje zażalenie. Przekazując akta
+Liczba stron : 14   Data : 2026-08-07   Nazwa pliku : 829-4.NK                              13
+X kadencja/druk nr 2693
+
+     postępowania do sądu powszechnego właściwy organ, o którym mowa w art. 11b, zwraca
+     się o wydanie postanowienia w przedmiocie wniosku.
+           2. Po otrzymaniu postanowienia i zapoznaniu się z aktami postępowania, o których
+     mowa w ust. 1, sąd może, w drodze postanowienia:
+     1)    nakazać uniemożliwienie dostępu do nielegalnych treści występujących w usłudze
+           świadczonej przez dostawcę usług pośrednich, których rozpowszechnianie może
+           wyczerpywać znamiona czynu zabronionego określonego w art. 119 § 1, art. 256 §
+           1–2 lub art. 257 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny lub nawołujących
+           do popełnienia takiego czynu zabronionego albo
+     2)    odmówić uniemożliwienia dostępu do treści występujących w usłudze świadczonej
+           przez dostawcę usług pośrednich, których rozpowszechnianie może wyczerpywać
+           znamiona czynu zabronionego określonego w art. 119 § 1, art. 256 § 1–2 lub art. 257
+           ustawy z dnia 6 czerwca 1997 r. – Kodeks karny lub nawołujących do popełnienia
+           takiego czynu zabronionego.
+           3. Postanowienie, o którym mowa w ust. 2 pkt 1, zawiera elementy, o których mowa
+     w art. 9 ust. 2 lit. a rozporządzenia 2022/2065.
+           4. W postanowieniu, o którym mowa w ust. 2 pkt 1, sąd wskazuje właściwy organ, o
+     którym mowa w art. 11b, któremu dostawca usług pośrednich jest obowiązany do
+     przekazania informacji o podjętych działaniach w odpowiedzi na nakaz.
+           5. Sąd wydaje postanowienie, o którym mowa w ust. 2, w terminie 14 dni od dnia
+     otrzymania postanowienia, o którym mowa w ust. 1.
+           6. Na postanowienie, o którym mowa w ust. 2, przysługuje zażalenie. Przepisy art.
+     11p ust. 7 i 8 stosuje się odpowiednio.
+           7. Postanowienie, o którym mowa w ust. 2, doręcza się właściwemu organowi, o
+     którym mowa w art. 11b. Przepisy art. 11m ust. 4 i art. 11n stosuje się odpowiednio.
+           Art. 11r. 1. W postępowaniach, o których mowa w niniejszym rozdziale, właściwy
+     organ, o którym mowa w art. 11b, doręcza pisma dostawcom usług pośrednich na adres
+     punktu kontaktowego, w sposób określony w art. 11 rozporządzenia 2022/2065.
+           2. Dostawcy usług pośrednich będący podmiotami, o których mowa w art. 9 ust. 1
+     pkt 8 albo 9 ustawy z dnia 18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U. z
+     2026 r. poz. 3 i 507), mogą wyznaczyć jako punkt kontaktowy adres do doręczeń
+     elektronicznych, o którym mowa w art. 2 pkt 1 tej ustawy.
+Liczba stron : 14   Data : 2026-08-07   Nazwa pliku : 829-4.NK                              14
+X kadencja/druk nr 2693
+
+           Art. 11s. Uprawnienia Policji, o których mowa w niniejszym rozdziale, przysługują
+     także organom Straży Granicznej w zakresie wniosku o wydanie nakazu podjęcia działań
+     przeciwko nielegalnym treściom polegających na uniemożliwieniu dostępu do
+     nielegalnych treści występujących w usłudze świadczonej przez dostawcę usług
+     pośrednich,     których   rozpowszechnianie     może     wyczerpywać     znamiona   czynu
+     zabronionego określonego w art. 189a, art. 264 § 2–4 lub art. 264a ustawy z dnia
+     6 czerwca 1997 r. – Kodeks karny.
+           Art. 11t. W zakresie nieuregulowanym w niniejszym rozdziale do postępowania
+     przed właściwym organem, o którym mowa w art. 11b, stosuje się odpowiednio przepisy
+     ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego (Dz. U. z
+     2025 r. poz. 1691), z wyłączeniem art. 28, art. 31 i art. 108 tej ustawy.”;
+5)   w art. 15a w ust. 1:
+     a)    w pkt 2 wyrazy „Przewodniczący Krajowej Rady Radiofonii i Telewizji, zwany dalej
+           „Przewodniczącym KRRiT”,” zastępuje się wyrazami „Przewodniczący KRRiT”,
+     b)    w pkt 3 wyrazy „Prezes Urzędu Komunikacji Elektronicznej, zwany dalej „Prezesem
+           UKE”,” zastępuje się wyrazami „Prezes UKE”.
+
+     Art. 2. W ustawie z dnia 29 grudnia 1992 r. o radiofonii i telewizji (Dz. U. z 2022 r.
+poz. 1722 oraz z 2024 r. poz. 96 i 1222) po art. 10a dodaje się art. 10b w brzmieniu:
+           „Art. 10b. Przewodniczący Krajowej Rady jest właściwym organem, o którym
+     mowa w art. 11b ustawy z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną,
+     do rozpatrzenia wniosków, o których mowa w art. 11a ust. 1 i 2 tej ustawy.”.
+
+     Art. 3. W ustawie z dnia 12 lipca 2024 r. – Prawo komunikacji elektronicznej (Dz. U. poz.
+1221, z 2025 r. poz. 637 i 820 oraz z 2026 r. poz. 252) w art. 419 w ust. 1 w pkt 24 kropkę
+zastępuje się średnikiem i dodaje się pkt 25 w brzmieniu:
+     „25) wykonywanie zadań właściwego organu, o którym mowa w art. 11b ustawy z dnia
+           18 lipca 2002 r. o świadczeniu usług drogą elektroniczną, rozpatrującego wnioski, o
+           których mowa w art. 11a ust. 1 i 2 tej ustawy.”.
+
+     Art. 4. Ustawa wchodzi w życie po upływie 6 miesięcy od dnia ogłoszenia.
+

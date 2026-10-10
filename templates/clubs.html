@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}{{ _("Kluby i koła poselskie") }}{% endblock %}
+{% block content %}
+<h1>{{ _("Kluby i koła poselskie") }}</h1>
+<p class="muted">{{ _("Spójność to średni odsetek głosujących członków klubu, którzy wybrali tę samą opcję co większość klubu. Skuteczność — jak często linia klubu (za/przeciw) pokrywała się z wynikiem głosowania.") }} <a href="{{ root }}metodologia.html">{{ _("Metodologia") }}</a>.</p>
+<div class="table-scroll">
+<table>
+  <thead><tr>
+    <th data-sort="text">{{ _("Klub / koło") }}</th>
+    <th class="num" data-sort="num">{{ _("Posłowie") }}</th>
+    <th class="num" data-sort="num">{{ _("Spójność") }}</th>
+    <th class="num" data-sort="num">{{ _("Podziały") }}</th>
+    <th class="num" data-sort="num">{{ _("Wyłamania") }}</th>
+    <th class="num" data-sort="num">{{ _("Skuteczność") }}</th>
+    <th class="num" data-sort="num">{{ _("Głosowania") }}</th>
+  </tr></thead>
+  <tbody>
+  {% for c in club_rows %}
+  <tr>
+    <td><a href="{{ root }}klub/{{ c.slug }}.html"><strong>{{ c.id }}</strong></a>{% if not c.current %} <span class="muted">{{ _("(nie istnieje)") }}</span>{% endif %}<div class="snippet">{{ c.name }}</div></td>
+    <td class="num" data-v="{{ c.members | length }}">{{ c.members | length }}</td>
+    <td class="num" data-v="{{ c.cohesion }}">{{ c.cohesion | pct }}</td>
+    <td class="num" data-v="{{ c.split | length }}">{{ c.split | length }}</td>
+    <td class="num" data-v="{{ c.rebellions }}">{{ c.rebellions }}</td>
+    <td class="num" data-v="{{ c.effectiveness }}">{{ c.effectiveness | pct }}</td>
+    <td class="num" data-v="{{ c.votes }}">{{ c.votes }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+
+<h2>{{ _("Przejścia między klubami") }}</h2>
+<p class="muted">{{ _("Liczba posłów, którzy przeszli z jednego klubu lub koła do innego w tej kadencji.") }}</p>
+<table>
+  <thead><tr><th>{{ _("Z") }}</th><th></th><th>{{ _("Do") }}</th><th class="num">{{ _("Posłowie") }}</th></tr></thead>
+  <tbody>
+  {% for (a, b), n, rename in transfers %}
+  <tr><td><a href="{{ root }}klub/{{ club_slug(a) }}.html">{{ a }}</a></td><td class="muted">→</td><td><a href="{{ root }}klub/{{ club_slug(b) }}.html">{{ b }}</a>{% if rename %} <span class="muted">({{ _("zmiana nazwy lub formuły klubu") }})</span>{% endif %}</td><td class="num">{{ n }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

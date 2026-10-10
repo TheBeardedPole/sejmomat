@@ -1,0 +1,1121 @@
+                                                                       Druk nr 2227
+                                                                 Warszawa, 11 lutego 2026 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-15-26
+
+
+                                                              Pan
+                                                              Włodzimierz Czarzasty
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+           Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+
+  - o Finansowym Instrumencie Zwiększenia
+   Bezpieczeństwa SAFE.
+
+         Jednocześnie, z uwagi na konieczność wejścia w życie projektowanej ustawy
+ przed marcem 2026 r., kiedy to jest planowane zawarcie umowy pożyczkowej z Komisją
+ Europejską, na podstawie art. 51 ust. 1 i 2 regulaminu Sejmu przedstawiam wniosek
+ o skrócenie postępowania z projektem ustawy.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Obrony Narodowej.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                     Projekt
+                                               U S T AWA
+
+                                                    z dnia
+
+               o Finansowym Instrumencie Zwiększenia Bezpieczeństwa SAFE 1)
+
+
+       Art. 1. Ustawa określa:
+1)     zasady działania Finansowego Instrumentu Zwiększenia Bezpieczeństwa SAFE, zwanego
+       dalej „FIZB”;
+2)     zasady kontroli i audytu wykorzystania środków finansowych pochodzących z pożyczki,
+       zwanej dalej „pożyczką SAFE”, udzielanej na podstawie rozporządzenia Rady (UE)
+       2025/1106 z dnia 27 maja 2025 r. ustanawiającego Instrument na rzecz Zwiększenia
+       Bezpieczeństwa Europy („instrument SAFE”) poprzez Wzmocnienie Europejskiego
+       Przemysłu Obronnego (Dz. Urz. UE L 2025/1106 z 28.05.2025 oraz Dz. Urz. UE L
+       2025/90698 z 09.09.2025), zwanego dalej „rozporządzeniem SAFE”.
+
+       Art. 2. 1. FIZB tworzy się w Banku Gospodarstwa Krajowego, zwanym dalej „BGK”.
+       2. Minister Obrony Narodowej pełni wiodącą rolę w zakresie koordynacji FIZB.
+       3. Do FIZB stosuje się przepisy ustawy z dnia 27 sierpnia 2009 r. o finansach publicznych
+(Dz. U. z 2025 r. poz. 1483, 1844 i 1846) dotyczące funduszy utworzonych, powierzonych lub
+przekazanych BGK na podstawie odrębnych ustaw.
+
+       Art. 3. 1. Środki FIZB pochodzą z:
+1)     pożyczki SAFE;
+2)     środków z budżetu państwa;
+3)     kredytów, pożyczek i obligacji, o których mowa w art. 11 ust. 1;
+4)     odsetek od wolnych środków w złotych przekazanych w depozyt zgodnie z art. 5 ust. 6
+       oraz odsetek od wolnych środków w walutach obcych lokowanych zgodnie z art. 5 ust. 7;
+5)     środków pochodzących ze źródeł zagranicznych niepodlegających zwrotowi, o których
+       mowa w art. 5 ust. 1 pkt 3 ustawy z dnia 27 sierpnia 2009 r. o finansach publicznych;
+6)     innych tytułów.
+
+
+
+
+1)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 29 sierpnia 1997 r. – Prawo bankowe, ustawę z dnia 27
+     sierpnia 2009 r. o finansach publicznych oraz ustawę z dnia 16 listopada 2016 r. o Krajowej Administracji
+     Skarbowej.
+                                            –2–
+
+
+     2. W ramach obsługi FIZB BGK może gromadzić środki finansowe na cele, o których
+mowa w art. 4 ust. 1 pkt 1 i 2.
+
+     Art. 4. 1. Środki FIZB przeznacza się na:
+1)   finansowanie lub współfinansowanie zadań wynikających z Planu inwestycji w
+     europejskim przemyśle obronnym, o którym mowa w art. 7 ust. 1 rozporządzenia SAFE,
+     zwanego dalej „Planem”, i zakwalifikowanych przez Komisję Europejską do
+     finansowania z pożyczki SAFE oraz potwierdzonych decyzją wykonawczą Rady, o której
+     mowa w art. 8 rozporządzenia SAFE;
+2)   spłatę pożyczki SAFE, wraz z odsetkami i innymi kosztami bezpośrednio związanymi
+     z tą pożyczką;
+3)   spłatę zobowiązań wynikających z wykonania przez Skarb Państwa gwarancji, o której
+     mowa w art. 10 ust. 2;
+4)   spłatę kredytów i pożyczek oraz wykup obligacji, o których mowa w art. 11 ust. 1, odsetek
+     od tych kredytów, pożyczek i obligacji oraz pokrycie kosztów bezpośrednio związanych
+     z tymi kredytami, pożyczkami i obligacjami, w tym kosztów emisji obligacji;
+5)   zwrot do Funduszu Wsparcia Sił Zbrojnych, o którym mowa w art. 41 ust. 1 ustawy z dnia
+     11 marca 2022 r. o obronie Ojczyzny (Dz. U. z 2025 r. poz. 825, 1014 i 1080 oraz z 2026
+     r. poz. 26), wydatków poniesionych z tego funduszu przed wypłatą środków z pożyczki
+     SAFE na zadania, o których mowa w pkt 1, realizowane przez Ministra Obrony
+     Narodowej;
+6)   zwrot do Krajowego Funduszu Drogowego, o którym mowa w ustawie z dnia 27
+     października 1994 r. o autostradach płatnych oraz o Krajowym Funduszu Drogowym (Dz.
+     U. z 2025 r. poz. 561 i 1014), wydatków poniesionych z tego funduszu przed wypłatą
+     środków z pożyczki SAFE na zadania dotyczące dróg krajowych, realizowane przez
+     ministra właściwego do spraw transportu, z zastrzeżeniem, że wydatki te zostały
+     przeznaczone na zadania, o których mowa w pkt 1;
+7)   zwrot do Funduszu Kolejowego, o którym mowa w ustawie z dnia 16 grudnia 2005 r. o
+     Funduszu Kolejowym (Dz. U. z 2024 r. poz. 1133), wydatków poniesionych z tego
+     funduszu przed wypłatą środków z pożyczki SAFE na zadania dotyczące linii kolejowych,
+     realizowane przez ministra właściwego do spraw transportu, z zastrzeżeniem, że wydatki
+     te zostały przeznaczone na zadania, o których mowa w pkt 1;
+                                           –3–
+
+
+8)   zwrot wydatków finansowanych z budżetu państwa i poniesionych przed wypłatą
+     pożyczki SAFE na zadania, o których mowa w pkt 1; środki te stanowią dochód budżetu
+     państwa;
+9)   zwrot środków, o których mowa w art. 5 ust. 1, wraz z odsetkami określonymi w umowie,
+     o której mowa w art. 6 ust. 1;
+10) wynagrodzenie prowizyjne BGK z tytułu obsługi FIZB;
+11) spłatę zobowiązań wynikających z transakcji zabezpieczających, o których mowa w art.
+     5 ust. 8.
+     2. Środki FIZB przeznacza się również na finansowanie programu, o którym mowa w art.
+37 ust. 1 ustawy z dnia 11 marca 2022 r. o obronie Ojczyzny.
+
+     Art. 5. 1. W przypadku niedoboru środków FIZB niezbędnych do terminowej obsługi
+zadań, o których mowa w art. 4 ust. 1 pkt 1, realizowanych przez ministrów kierujących
+działami administracji rządowej, którym przydzielono realizację tych zadań, zwanych dalej
+„właściwymi ministrami”, finansowanie realizacji tych zadań może odbywać się, po
+uzgodnieniu z właściwym ministrem oraz ministrem właściwym do spraw finansów
+publicznych, ze środków BGK.
+     2. Zwrotu środków, o których mowa w ust. 1, BGK dokonuje ze środków uzyskanych
+z pożyczki SAFE. BGK dokonuje zwrotu, wraz z odsetkami określonymi w umowie, o której
+mowa w art. 6 ust. 1.
+     3. Źródłem spłaty odsetek, o których mowa w ust. 2, nie mogą być środki z pożyczki
+SAFE.
+     4. W przypadku niedoboru środków FIZB niezbędnych do terminowej obsługi zadań, o
+których mowa w art. 4 ust. 1 pkt 1, realizowanych przez właściwych ministrów, finansowanie
+realizacji tych zadań może odbywać się z Krajowego Funduszu Drogowego, o którym mowa
+w ustawie z dnia 27 października 1994 r. o autostradach płatnych oraz o Krajowym Funduszu
+Drogowym, lub Funduszu Kolejowego, o którym mowa w ustawie z dnia 16 grudnia 2005 r. o
+Funduszu Kolejowym, lub ze środków budżetu państwa, dla których dysponentem jest
+właściwy minister.
+     5. W przypadku wydatków poniesionych ze środków FIZB, przedstawionych we wniosku
+o pomoc finansową, o którym mowa w art. 7 rozporządzenia SAFE, które nie uzyskały
+pozytywnej oceny Komisji Europejskiej dotyczącej spełnienia warunków określonych
+w rozporządzeniu SAFE oraz w konsekwencji braku wypłaty tej części pożyczki SAFE,
+właściwy minister zwraca do FIZB środki w wysokości, która nie została zakwalifikowana do
+                                              –4–
+
+
+finansowania z pożyczki SAFE, wraz z odsetkami, które FIZB otrzymałby w przypadku
+lokowania środków zgodnie z ust. 6 i 7.
+     6. BGK lokuje wolne środki FIZB w złotych w formie depozytu, o którym mowa
+w art. 78b ust. 2 ustawy z dnia 27 sierpnia 2009 r. o finansach publicznych. Przepis art. 48 ust.
+3 tej ustawy stosuje się odpowiednio.
+     7. Okresowo wolne środki FIZB w walutach obcych BGK może lokować:
+1)   w bankach;
+2)   w dłużne papiery wartościowe emitowane lub gwarantowane przez rządy państw
+     członkowskich Unii Europejskiej lub Komisję Europejską;
+3)   w depozyty zabezpieczone papierami wartościowymi emitowanymi lub gwarantowanymi
+     przez rządy państw członkowskich Unii Europejskiej lub Komisję Europejską.
+     8. BGK może zawierać transakcje zabezpieczające ryzyko walutowe oraz ryzyko stopy
+procentowej dotyczące zaciąganych zobowiązań finansowych, wynikających z pożyczki
+SAFE.
+
+     Art. 6. 1. Minister Obrony Narodowej oraz właściwi ministrowie inni niż Minister
+Obrony Narodowej wspólnie zawierają z BGK umowę dotyczącą obsługi FIZB, w której
+określa się co najmniej szczegółowe zasady:
+1)   opracowania i aktualizacji planu finansowego FIZB;
+2)   występowania przez BGK do Komisji Europejskiej o wypłatę pożyczki SAFE;
+3)   dokonywania wypłat ze środków FIZB na realizację przez właściwych ministrów zadań,
+     o których mowa w art. 4 ust. 1 pkt 1;
+4)   udzielania i zwrotu finansowania, o którym mowa w art. 5 ust. 1, wraz z odsetkami;
+5)   zakresu i terminów sporządzania sprawozdawczości dotyczącej wykorzystania środków
+     FIZB, w tym opracowywania i przekazywania przez właściwych ministrów do BGK
+     raportów, zgodnie z zasadami określonymi w porozumieniu operacyjnym, o którym
+     mowa w art. 10 rozporządzenia SAFE;
+6)   naliczania i wypłaty wynagrodzenia prowizyjnego przysługującego BGK z tytułu obsługi
+     FIZB;
+7)   udzielania przez BGK gwarancji FIZB, o której mowa w art. 12 ust. 1.
+     2. Wnioski o wypłatę środków z FIZB składają do BGK właściwi ministrowie albo
+podmioty przez nich upoważnione.
+     3. Wnioski o uruchomienie środków z pożyczki SAFE BGK składa do Komisji
+Europejskiej po uprzednim opracowaniu i przekazaniu przez właściwych ministrów do BGK
+                                            –5–
+
+
+raportów zgodnych z postanowieniami porozumienia operacyjnego, o którym mowa w art. 10
+rozporządzenia SAFE, w tym po potwierdzeniu przez właściwych ministrów, że zostały
+spełnione warunki określone w rozporządzeniu SAFE, umożliwiające zakwalifikowanie do
+finansowania z pożyczki SAFE w odniesieniu do zadań lub ich części, które mają być
+finansowane lub refinansowane ze środków danej transzy pożyczki SAFE.
+
+     Art. 7. 1. BGK sporządza plan finansowy FIZB, który określa w szczególności:
+1)   kwotę planowanych w danym roku wpływów zgodnie z art. 3 ust. 1, w tym kwotę
+     planowanych do uruchomienia w danym roku środków z pożyczki SAFE;
+2)   kwotę planowanych do pozyskania środków finansowych z tytułu kredytów, pożyczek i
+     obligacji, o których mowa w art. 11 ust. 1;
+3)   przeznaczenie środków FIZB zgodnie z art. 4 ust. 1, w tym:
+     a)   kwotę planowanych na dany rok wydatków na zadania wynikające z Planu
+          i zakwalifikowane do finansowania z pożyczki SAFE,
+     b)   kwotę środków pozostających do dyspozycji właściwych ministrów wraz z listą
+          zadań, na sfinansowanie których środki te mają być przeznaczone;
+4)   strategię w zakresie zarządzania środkami FIZB, uwzgledniającą planowane na dany rok
+     transakcje zabezpieczające, o których mowa w art. 5 ust. 8, oraz strukturę takich
+     transakcji.
+     2. BGK nie później niż do dnia 15 czerwca roku poprzedzającego rok, w którym plan
+finansowy FIZB ma obowiązywać, przedstawia projekt tego planu do uzgodnienia właściwym
+ministrom w zakresie przydzielonych im zadań oraz ministrowi właściwemu do spraw
+finansów publicznych. Uzgodnienie następuje w terminie nie dłuższym niż do dnia 15 lipca
+roku poprzedzającego rok, w którym plan finansowy FIZB ma obowiązywać.
+     3. Uzgodniony plan finansowy FIZB BGK przekazuje Ministrowi Obrony Narodowej do
+zatwierdzenia. Plan finansowy FIZB podlega zatwierdzeniu do dnia 31 lipca roku
+poprzedzającego rok, w którym plan ten ma obowiązywać.
+     4. Zatwierdzony plan finansowy FIZB stanowi podstawę dokonywania wypłat ze
+środków FIZB oraz uruchomienia środków z pożyczki SAFE oraz zaciągania kredytów i
+pożyczek oraz wyemitowania obligacji, o których mowa w art. 11 ust. 1.
+     5. BGK dokonuje zmiany planu finansowego FIZB na podstawie dyspozycji właściwych
+ministrów dotyczącej przydzielonych im zadań.
+                                           –6–
+
+
+     6. Zmiany planu finansowego FIZB zatwierdza Minister Obrony Narodowej, po
+uzgodnieniu przez BGK z właściwymi ministrami w zakresie przydzielonych im zadań oraz z
+ministrem właściwym do spraw finansów publicznych.
+     7. Zwiększenie wysokości środków FIZB ze środków budżetu państwa przekazywanych
+przez Ministra Obrony Narodowej oraz przez właściwych ministrów w trakcie roku
+budżetowego nie wymaga zmiany planu finansowego FIZB.
+     8. BGK sporządza prognozę przychodów i wydatków FIZB.
+
+     Art. 8. BGK sporządza dla FIZB odrębny bilans oraz rachunek zysków i strat, które
+stanowią załącznik do sprawozdania finansowego tego banku.
+
+     Art. 9. 1. BGK sporządza i przekazuje Ministrowi Obrony Narodowej, ministrowi
+właściwemu do spraw finansów publicznych, Szefowi Krajowej Administracji Skarbowej oraz
+właściwym ministrom innym niż Minister Obrony Narodowej sprawozdanie roczne z realizacji
+planu finansowego FIZB, w terminie do dnia 30 kwietnia roku następującego po roku, którego
+dotyczy to sprawozdanie.
+     2. Minister Obrony Narodowej przedkłada komisji sejmowej właściwej w sprawach
+obrony państwa oraz sejmowej komisji właściwej do spraw budżetu sprawozdanie roczne
+z realizacji planu finansowego FIZB, w terminie do dnia 31 maja roku następującego po roku,
+którego dotyczy sprawozdanie. Komisje sejmowe wyrażają opinię do przedłożonego
+sprawozdania.
+     3. BGK sporządza i przekazuje Ministrowi Obrony Narodowej, właściwym ministrom
+innym niż Minister Obrony Narodowej oraz ministrowi właściwemu do spraw finansów
+publicznych i Szefowi Krajowej Administracji Skarbowej, w terminach określonych w
+przepisach dotyczących sprawozdawczości budżetowej państwowych funduszy celowych,
+sprawozdanie miesięczne z realizacji planu finansowego FIZB, narastająco za kolejne miesiące
+roku budżetowego, w szczegółowości nie mniejszej niż wynikająca z tego planu.
+
+     Art. 10. 1. BGK zaciąga pożyczkę SAFE na rzecz FIZB.
+     2. Zobowiązania finansowe BGK z tytułu pożyczki SAFE są objęte gwarancją Skarbu
+Państwa reprezentowanego przez ministra właściwego do spraw finansów publicznych.
+     3. Do gwarancji, o której mowa w ust. 2, nie stosuje się przepisów ustawy z dnia 8 maja
+1997 r. o poręczeniach i gwarancjach udzielanych przez Skarb Państwa oraz niektóre osoby
+prawne (Dz. U. z 2024 r. poz. 291), z wyjątkiem stosowanych odpowiednio art. 43b, art. 44,
+art. 45 i art. 46 tej ustawy.
+                                            –7–
+
+
+      4. Gwarancja, o której mowa w ust. 2, jest udzielana do wysokości 100% pozostających
+do spłaty świadczeń pieniężnych wynikających z pożyczki SAFE wraz ze 100% należnych
+odsetek od tej kwoty i innych kosztów bezpośrednio związanych z pożyczką SAFE.
+      5. Gwarancja, o której mowa w ust. 2, jest wolna od opłaty prowizyjnej oraz obowiązku
+ustanowienia zabezpieczenia.
+      6. Jeżeli odzyskanie wierzytelności Skarbu Państwa, powstałych z tytułu udzielonej
+gwarancji, o której mowa w ust. 2, nie jest możliwe, Rada Ministrów, na wniosek ministra
+właściwego do spraw finansów publicznych, może umorzyć wierzytelność w całości lub części.
+      7. Minister właściwy do spraw finansów publicznych składa oświadczenie potwierdzające
+objęcie gwarancją, o której mowa w ust. 2, zobowiązań z tytułu pożyczki SAFE.
+      8. BGK jest obowiązany na każde żądanie ministra właściwego do spraw finansów
+publicznych niezwłocznie przekazywać dokumenty i informacje niezbędne do oszacowania
+ryzyka dokonania przez Skarb Państwa zapłaty z tytułu udzielonej gwarancji, o której mowa w
+ust. 2.
+
+      Art. 11. 1. BGK może zaciągać na rzecz FIZB kredyty i pożyczki lub emitować obligacje
+na rynku krajowym i na rynkach zagranicznych.
+      2. Do zobowiązań finansowych BGK z tytułu kredytów, pożyczek i obligacji, o których
+mowa w ust. 1, stosuje się odpowiednio przepisy art. 10 ust. 2–8.
+      3. Warunki finansowe obejmujące parametry ekonomiczne kredytów lub pożyczek, o
+których mowa w ust. 1, wymagają uprzedniej akceptacji ministra właściwego do spraw
+budżetu.
+      4. Do emisji obligacji, o której mowa w ust. 1, stosuje się odpowiednio art. 39p–39w
+ustawy z dnia 27 października 1994 r. o autostradach płatnych oraz o Krajowym Funduszu
+Drogowym.
+
+      Art. 12. 1. BGK może udzielać podmiotom, które realizują zadania na podstawie umowy
+zawartej z właściwym ministrem, zapewnienia, że realizowane przez te podmioty zadania
+zostaną sfinansowane do wysokości limitu wydatków określonego w planie finansowym FIZB
+dla właściwego ministra („gwarancja FIZB”).
+      2. Podstawą udzielenia gwarancji FIZB jest zakwalifikowanie zadania, o którym mowa w
+ust. 1, do finansowania z pożyczki SAFE.
+                                             –8–
+
+
+     3. Przy sporządzaniu planu finansowego FIZB na dany rok uwzględnia się środki
+w wysokości nie niższej niż suma wymagalnych w danym roku zobowiązań wynikających
+z udzielonych gwarancji FIZB.
+
+     Art. 13. Podstawą zaciągania zobowiązań w ramach zadań zakwalifikowanych przez
+Komisję Europejską do finansowania z pożyczki SAFE jest decyzja wykonawcza Rady, o
+której mowa w art. 8 rozporządzenia SAFE.
+
+     Art. 14. Minister właściwy do spraw transportu zawiera z PKP Polskie Linie Kolejowe
+Spółka Akcyjna z siedzibą w Warszawie umowę, w której określa się warunki finansowania,
+rozliczania oraz zwrotu środków z FIZB przeznaczonych na realizację przez PKP Polskie Linie
+Kolejowe Spółka Akcyjna z siedzibą w Warszawie zadań zakwalifikowanych do finansowania
+z pożyczki SAFE, zgodnie z ustaleniami planu finansowego FIZB, o którym mowa w art. 7.
+
+     Art. 15. 1. Podmioty realizujące zadania zakwalifikowane do finansowania z pożyczki
+SAFE      są   obowiązane   zapewnić    funkcjonowanie    wewnętrznego   systemu   kontroli
+wykorzystania środków z pożyczki SAFE obejmującego kontrolę realizacji tych zadań,
+identyfikację ryzyka, zapobieganie nadużyciom oraz zapewnienie zgodności tego
+wykorzystania z przepisami prawa Rzeczypospolitej Polskiej i Unii Europejskiej.
+     2. W przypadku jednostki sektora finansów publicznych wewnętrzny system kontroli, o
+którym mowa w ust. 1, obejmuje w szczególności kontrolę zarządczą, o której mowa w ustawie
+z dnia 27 sierpnia 2009 r. o finansach publicznych, oraz audyt wewnętrzny, o którym mowa w
+tej ustawie, jeżeli jest on prowadzony w tej jednostce.
+
+     Art. 16. 1. Kontrola realizacji zadań zakwalifikowanych do finansowania z pożyczki
+SAFE ma na celu w szczególności:
+1)   weryfikację osiągnięcia wskazanego w Planie etapu realizacji zadania zakwalifikowanego
+     do finansowania z pożyczki SAFE w terminie obowiązywania instrumentu SAFE;
+2)   ocenę zgodności wydatkowania środków z umowami i Planem;
+3)   identyfikację ryzyka nadużyć i błędów;
+4)   potwierdzenie zgodności z zasadami finansowania instrumentu SAFE;
+5)   potwierdzenie skuteczności mechanizmów:
+     a)    zapobiegania, wykrywania i korygowania nieprawidłowości przy realizacji zadań,
+     b)    zapobiegania konfliktowi interesów, korupcji i nadużyciom finansowym.
+     2. Wyniki kontroli realizacji zadań są przekazywane Ministrowi Obrony Narodowej oraz
+pełnomocnikowi Rządu właściwemu do spraw instrumentu SAFE, jeżeli został ustanowiony.
+                                            –9–
+
+
+     3. Kontrola realizacji zadań jest przeprowadzana w trybie i na zasadach określonych w
+ustawie z dnia 15 lipca 2011 r. o kontroli w administracji rządowej (Dz. U. z 2020 r. poz. 224
+oraz z 2025 r. poz. 1158).
+
+     Art. 17. 1. Szef Krajowej Administracji Skarbowej jest organem odpowiedzialnym za
+audyt gospodarowania środkami FIZB.
+     2. Celem audytu jest w szczególności potwierdzenie:
+1)   prawidłowości gospodarowania środkami FIZB;
+2)   osiągnięcia wskazanego w Planie etapu realizacji zadania objętego finansowaniem z FIZB
+     w terminie wynikającym z postanowień umowy w sprawie pożyczki SAFE;
+3)   skuteczności mechanizmów:
+     a)   zapobiegania, wykrywania i korygowania nieprawidłowości przy realizacji zadań
+          objętych finansowaniem z FIZB,
+     b)   zapobiegania korupcji i nadużyciom finansowym,
+     c)   zapewnienia ochrony interesów finansowych Unii Europejskiej.
+     3. Audytowi podlegają:
+1)   BGK;
+2)   instytucje biorące udział w realizacji zadań objętych finansowaniem z FIZB;
+3)   podmioty oraz jednostki nieposiadające osobowości prawnej, działające na własny
+     rachunek i uczestniczące przy realizacji zadań objętych finansowaniem z FIZB, w tym
+     ostateczni odbiorcy wsparcia.
+     4. Audyt obejmuje w szczególności:
+1)   planowanie i realizację wydatków finansowanych z pożyczki SAFE;
+2)   zgodność wydatków z umową pożyczki SAFE oraz dokumentami programowymi;
+3)   prawidłowość prowadzenia ewidencji księgowej i sprawozdawczości;
+4)   kompletność i rzetelność dokumentów finansowych i merytorycznych;
+5)   funkcjonowanie mechanizmów zapobiegania konfliktom interesów;
+6)   przestrzeganie obowiązków informacyjnych wobec instytucji Unii Europejskiej i
+     organów krajowych.
+     5. Audyt jest prowadzony z uwzględnieniem przyjętego na dany rok planu finansowego
+FIZB, stopnia zaawansowania realizacji zadania objętego finansowaniem z FIZB oraz
+przypadającego terminu jego realizacji. Audyty mogą być wykonywane w toku realizacji
+zadania objętego finansowaniem z FIZB, jak również po zakończeniu jego realizacji.
+                                              – 10 –
+
+
+     6. Osoby zarządzające podmiotami, które podlegają audytowi, mają obowiązek
+niezwłocznie przedkładać na żądanie Szefa Krajowej Administracji Skarbowej lub dyrektora
+izby administracji skarbowej wszelkie dokumenty i materiały, w tym na nośnikach
+elektronicznych, niezbędne do przygotowania lub przeprowadzenia audytu, a także umożliwić
+dostęp do baz danych, z zachowaniem przepisów o tajemnicy ustawowo chronionej.
+     7. Sprawozdanie z audytu przekazuje się audytowanemu, Ministrowi Obrony Narodowej
+oraz pełnomocnikowi Rządu właściwemu do spraw instrumentu SAFE, jeżeli został
+ustanowiony.
+     8. W celu realizacji audytu, w zakresie i na zasadach określonych w ustawie lub
+rozporządzeniu SAFE Szef Krajowej Administracji Skarbowej i dyrektor izby administracji
+skarbowej przetwarza dane osobowe na zasadach określonych w ustawie z dnia 16 listopada
+2016 r. o Krajowej Administracji Skarbowej (Dz. U. z 2025 r. poz. 1131, 1423, 1820 i 1863).
+     9. W zakresie nieuregulowanym w ustawie do audytu stosuje się odpowiednio przepisy
+działu V rozdziału 2 ustawy z dnia 16 listopada 2016 r. o Krajowej Administracji Skarbowej.
+
+     Art. 18. W ustawie z dnia 29 sierpnia 1997 r. – Prawo bankowe (Dz. U. z 2026 r. poz. 38)
+w art. 105 w ust. 1 w pkt 2 w lit. e w tiret czwartym wyrazy „czynnościami audytowymi, o
+których mowa w art. 99a pkt 2 ustawy z dnia 16 listopada 2016 r. o Krajowej Administracji
+Skarbowej” zastępuje się wyrazami „audytem, o którym mowa w art. 95 ust. 1 ustawy z dnia
+16 listopada 2016 r. o Krajowej Administracji Skarbowej, oraz czynnościami audytowymi, o
+których mowa w art. 99a pkt 2 tej ustawy,”.
+
+     Art. 19. W ustawie z dnia 27 sierpnia 2009 r. o finansach publicznych (Dz. U. z 2025 r.
+poz. 1483, 1844 i 1846) wprowadza się następujące zmiany:
+1)   w art. 112aa:
+     a)   ust. 4a i 4b otrzymują brzmienie:
+               „4a. Wartość klauzuli obronnej w roku n, o którym mowa w ust. 1, jest równa
+          różnicy pomiędzy planowanymi wydatkami na cele obronne:
+          1)   budżetu państwa określonymi w art. 40 ust. 1 ustawy z dnia 11 marca 2022 r. o
+               obronie Ojczyzny (Dz. U. z 2025 r. poz. 825, 1014 i 1080 oraz z 2026 r. poz.
+               26),
+          2)   Funduszu Wsparcia Sił Zbrojnych,
+          3)   Finansowego Instrumentu Zwiększenia Bezpieczeństwa SAFE,
+          4)   Funduszu Inwestycji Kapitałowych,
+                                             – 11 –
+
+
+          5)   Funduszu Reprywatyzacji,
+          6)   Rządowej Agencji Rezerw Strategicznych,
+          7)   Agencji Mienia Wojskowego
+          – przyjętymi do obliczenia limitu, o którym mowa w ust. 3, a wartością wydatków
+          na cele obronne tych podmiotów ustaloną zgodnie z ust. 4c.
+               4b. Właściwi dysponenci części budżetowych przekazują Ministrowi Obrony
+          Narodowej dane dotyczące wydatków na cele obronne, o których mowa w ust. 4a, w
+          obszarze swojej odpowiedzialności w zakresie, o którym mowa w ust. 4a pkt 3–6,
+          zgodnie z przepisami dotyczącymi prac nad projektem ustawy budżetowej. Do czasu
+          przyjęcia przez Radę Ministrów projektu ustawy budżetowej, w przypadku
+          zaistnienia zmian mających wpływ na wartość klauzuli obronnej, dysponenci części
+          budżetowych przekazują niezwłocznie zmienione dane.”,
+     b)   po ust. 4b dodaje się ust. 4ba w brzmieniu:
+               „4ba. Minister Obrony Narodowej przekazuje ministrowi właściwemu do
+          spraw finansów publicznych dane dotyczące wydatków na cele obronne, o których
+          mowa w ust. 4a, w obszarze swojej odpowiedzialności w zakresie, o którym mowa
+          w ust. 4a pkt 1, 2, 3 i 7, zgodnie z przepisami dotyczącymi prac nad projektem ustawy
+          budżetowej. Do czasu przyjęcia przez Radę Ministrów projektu ustawy budżetowej,
+          w przypadku zaistnienia zmian mających wpływ na wartość klauzuli obronnej,
+          Minister Obrony Narodowej przekazuje niezwłocznie zmienione dane. Do danych
+          przekazywanych ministrowi właściwemu do spraw finansów publicznych Minister
+          Obrony Narodowej dołącza dane, o których mowa w ust. 4b.”,
+     c)   ust. 4c otrzymuje brzmienie:
+               „4c. Wartość wydatków na cele obronne ustala się zgodnie z zasadami ustalania
+          danych, o których mowa w art. 3 ust. 2 lit. c rozporządzenia Rady (WE) nr 479/2009
+          z dnia 25 maja 2009 r. o stosowaniu Protokołu w sprawie procedury dotyczącej
+          nadmiernego deficytu załączonego do Traktatu ustanawiającego Wspólnotę
+          Europejską, oraz przekazuje w formacie, o którym mowa w art. 8 ust. 2 tego
+          rozporządzenia.”,
+     d)   uchyla się ust. 4d;
+2)   w art. 142 w ust. 1 w pkt 6b uchyla się lit. d;
+3)   w art. 182:
+     a)   w ust. 4 uchyla się pkt 6a,
+                                            – 12 –
+
+
+     b)   w ust. 4a skreśla się wyrazy „i 6a”.
+
+     Art. 20. W ustawie z dnia 16 listopada 2016 r. o Krajowej Administracji Skarbowej
+(Dz. U. z 2025 r. poz. 1131, 1423, 1820 i 1863) wprowadza się następujące zmiany:
+1)   w art. 14 w ust. 1 po pkt 10f dodaje się pkt 10g w brzmieniu:
+     „10g) audyt gospodarowania środkami w ramach Finansowego Instrumentu Zwiększenia
+          Bezpieczeństwa SAFE, o którym mowa w ustawie z dnia … o Finansowym
+          Instrumencie Zwiększenia Bezpieczeństwa SAFE (Dz. U. …);”;
+2)   w art. 25 w ust. 1 w pkt 5 po wyrazach „o których mowa w art. 14 ust. 1 pkt 10a” dodaje
+     się wyrazy „i pkt 10c–10g”;
+3)   w art. 95 w ust. 1 po pkt 1e dodaje się pkt 1f w brzmieniu:
+     „1f) gospodarowania środkami w ramach Finansowego Instrumentu Zwiększenia
+          Bezpieczeństwa SAFE, o którym mowa w ustawie z dnia … o Finansowym
+          Instrumencie Zwiększenia Bezpieczeństwa SAFE;”.
+
+     Art. 21. 1. Plan finansowy FIZB na rok 2026 jest:
+1)   sporządzany przez BGK na podstawie danych przekazanych w terminie 7 dni od dnia
+     wejścia w życie niniejszej ustawy przez właściwych ministrów;
+2)   przekazywany przez BGK, w terminie 21 dni od dnia otrzymania danych, o których mowa
+     w pkt 1, do uzgodnienia właściwym ministrom w zakresie przydzielonych im zadań, oraz
+     ministrowi właściwemu do spraw finansów publicznych.
+     2. Uzgodnienie planu finansowego FIZB następuje w terminie 7 dni od dnia jego
+otrzymania.
+     3. Uzgodniony plan jest zatwierdzany przez Ministra Obrony Narodowej w terminie 7 dni
+od dnia jego przekazania przez BGK.
+
+     Art. 22. W roku 2026 wynagrodzenie prowizyjne BGK z tytułu obsługi FIZB jest zawarte
+w wynagrodzeniu prowizyjnym z tytułu obsługi Funduszu Wsparcia Sił Zbrojnych, o którym
+mowa w art. 41 ust. 1 ustawy z dnia 11 marca 2022 r. o obronie Ojczyzny, należnym za rok
+2026.
+
+     Art. 23. W roku 2026 planowane łączne wydatki Funduszu Wsparcia Sił Zbrojnych oraz
+FIZB będą zgodne z kwotą wydatków Funduszu Wsparcia Sił Zbrojnych zaplanowaną w planie
+finansowym Funduszu Wsparcia Sił Zbrojnych na rok 2026.
+
+     Art. 24. W przypadku zmiany ustawy budżetowej na rok 2026 stosuje się przepisy art.
+112aa ust. 4a–4d oraz art. 142 ustawy zmienianej w art. 19, w brzmieniu dotychczasowym.
+                                          – 13 –
+
+
+     Art. 25. Przepisy art. 112aa ust. 4a–4c oraz art. 142 ustawy zmienianej w art. 19, w
+brzmieniu nadanym niniejszą ustawą, stosuje się po raz pierwszy do projektu ustawy
+budżetowej na rok 2027.
+
+     Art. 26. Przepis art. 182 ustawy zmienianej w art. 19, w brzmieniu nadanym niniejszą
+ustawą, stosuje się po raz pierwszy do rocznego sprawozdania z wykonania ustawy budżetowej
+za rok 2025.
+
+     Art. 27. Ustawa wchodzi w życie z dniem następującym po dniu ogłoszenia.
+                                    UZASADNIENIE
+
+I. Potrzeba i cel wydania ustawy
+
+Projekt ustawy o Finansowym Instrumencie Zwiększenia Bezpieczeństwa SAFE (FIZB) ma na
+celu określenie odpowiednich rozwiązań instytucjonalnych, finansowych i proceduralnych
+umożliwiających skuteczne wykorzystanie środków pochodzących z pożyczki SAFE, o której
+mowa w rozporządzeniu Rady (UE) 2025/1106 z dnia 27 maja 2025 r. ustanawiającym
+Instrument na rzecz Zwiększenia Bezpieczeństwa Europy („instrument SAFE”) poprzez
+Wzmocnienie Europejskiego Przemysłu Obronnego (zwanym dalej „rozporządzeniem
+SAFE”).
+
+W dniu 28 listopada 2025 r. Rzeczpospolita Polska złożyła wniosek o pomoc finansową
+w formie pożyczki („pożyczka SAFE”), wraz z planem inwestycji w europejskim przemyśle
+obronnym, opiewający na kwotę 43.734.100.805,00 EUR. Środki te przeznaczone są na
+finansowanie zadań realizowanych na zasadzie współpracy, związanych z pozyskaniem
+towarów, usług i robót budowlanych objętych zakresem stosowania dyrektywy Parlamentu
+Europejskiego i Rady 2009/81/WE z dnia 13 lipca 2009 r. w sprawie koordynacji procedur
+udzielania niektórych zamówień na roboty budowlane, dostawy i usługi przez instytucje lub
+podmioty zamawiające w dziedzinach obronności i bezpieczeństwa i zmieniającej dyrektywy
+2004/17/WE i 2004/18/WE oraz związanych z pozyskaniem innych produktów do celów
+obronnych.
+
+W marcu 2026 r. planowane jest zawarcie umowy pożyczkowej z Komisją Europejską i do tego
+czasu konieczne jest wejście w życie projektowanej ustawy.
+
+Celem projektowanej ustawy jest stworzenie spójnych i jednoznacznych ram prawnych dla:
+   1) zaciągnięcia pożyczki SAFE na rzecz FIZB;
+   2) gromadzenia, zarządzania i wydatkowania środków pochodzących z tej pożyczki oraz
+       ze środków krajowych;
+   3) finansowania i współfinansowania zadań zakwalifikowanych do finansowania z
+       pożyczki SAFE, zwanych dalej „zadaniami”;
+   4) zapewnienia terminowej obsługi zobowiązań finansowych oraz spłaty pożyczki SAFE;
+   5) ustanowienia systemu kontroli i audytu, zgodnego z wymogami prawa Unii
+       Europejskiej oraz przepisami krajowymi.
+Projektowana ustawa odpowiada na potrzebę zwiększenia zdolności państwa do szybkiego
+uruchamiania znaczących nakładów inwestycyjnych w obszarze bezpieczeństwa i obronności,
+przy jednoczesnym zachowaniu stabilności finansów publicznych oraz przejrzystości
+gospodarowania    środkami    publicznymi.   Alokacja    niskooprocentowanych    środków
+pochodzących z pożyczki SAFE w przemyśle obronnym pozwoli także na pozyskanie nowych
+zdolności Sił Zbrojnych RP.
+
+II. Zakres przedmiotowy ustawy
+
+Ustawa określa w szczególności:
+   1) zasady działania Finansowego Instrumentu Zwiększenia Bezpieczeństwa SAFE;
+   2) rolę Banku Gospodarstwa Krajowego jako podmiotu obsługującego FIZB oraz
+       zaciągającego pożyczkę SAFE na rzecz FIZB;
+   3) wiodącą rolę Ministra Obrony Narodowej w zakresie koordynowania FIZB;
+   4) katalog źródeł finansowania FIZB oraz przeznaczenia zgromadzonych środków;
+   5) zasady planowania finansowego i sprawozdawczości w zakresie realizacji planu
+       finansowego FIZB;
+   6) system gwarancji Skarbu Państwa oraz gwarancji FIZB;
+   7) system kontroli i audytu wykorzystania środków pochodzących z pożyczki SAFE.
+
+Regulacja ma charakter horyzontalny i dotyczy zarówno Ministra Obrony Narodowej, jak i
+innych ministrów kierujących działami administracji rządowej, w ramach których realizowane
+są zadania w obszarze bezpieczeństwa i obronności, zakwalifikowane do finansowania z
+pożyczki SAFE, tj. ministrów właściwych do spraw wewnętrznych, do spraw infrastruktury, a
+także ministra do spraw finansów publicznych, który jest gwarantem pożyczki.
+
+III. Istota przyjętych rozwiązań instytucjonalnych i finansowych
+
+Projekt ustawy przewiduje utworzenie Finansowego Instrumentu Zwiększenia Bezpieczeństwa
+SAFE jako wyodrębnionego instrumentu finansowego prowadzonego przez Bank
+Gospodarstwa Krajowego (BGK). Wybór BGK jako instytucji obsługującej FIZB wynika z
+jego statusu państwowego banku rozwoju, doświadczenia w obsłudze funduszy, instrumentów
+zwrotnych oraz współpracy z instytucjami Unii Europejskiej.
+
+Uprawnionymi do wydatkowania środków z FIZB będą ministrowie z kilku resortów, których
+projekty zostały uwzględnione i zakwalifikowane przez Komisję Europejską w ramach planu
+
+
+                                             2
+inwestycji w europejskim przemyśle obronnym. Zgodnie z projektem ustawy pożyczkobiorcą
+będzie BGK, zaciągający pożyczkę SAFE na rzecz FIZB, zaś gwarantem pożyczki będzie
+Skarb Państwa reprezentowany przez ministra właściwego do spraw finansów publicznych.
+
+Środki FIZB pochodzą z pożyczki SAFE oraz z określonych w ustawie środków krajowych
+i zagranicznych. Projektowana regulacja w sposób jednoznaczny rozdziela środki pochodzące
+z pożyczki SAFE od innych źródeł finansowania, co ma kluczowe znaczenie dla zachowania
+zgodności z zasadami kwalifikowalności wydatków określonymi w rozporządzeniu SAFE.
+Środki FIZB będą pochodzić także z odsetek od wolnych środków FIZB w złotych
+przekazanych w depozyt u Ministra Finansów, odsetek od środków w walutach obcych, które
+BGK może lokować w innych bankach, w dłużne papiery wartościowe emitowane lub
+gwarantowane przez rządy państw członkowskich Unii Europejskiej lub Komisję Europejską
+oraz w depozyty zabezpieczone papierami wartościowymi emitowanymi przez rządy państw
+członkowskich Unii Europejskiej lub Komisję Europejską, a także z innych źródeł.
+
+Środki z pożyczki SAFE wypłacane są przez Komisję Europejską na podstawie umowy
+pożyczki. Środki te przeznaczone są na finansowanie zadań w zakresie zakwalifikowanym do
+instrumentu SAFE. Spłata pożyczki SAFE, wraz z odsetkami i innymi kosztami bezpośrednio
+związanymi z tą pożyczką odbywa się ze środków FIZB. Szczegóły operacyjne dotyczące
+uruchamiania środków z pożyczki, zasad raportowania, kontroli i audytu wykorzystania
+środków z pożyczki SAFE zostaną zawarte w porozumieniu operacyjnym z Komisją
+Europejską.
+
+FIZB, obok budżetu państwa i Funduszu Wsparcia Sił Zbrojnych, będzie źródłem finansowania
+programu rozwoju Sił Zbrojnych RP. Ustawa precyzyjnie określa przeznaczenie środków
+FIZB, w tym finansowanie i współfinansowanie zadań, obsługę i spłatę pożyczki SAFE,
+realizację zobowiązań wynikających z gwarancji Skarbu Państwa oraz zwrot wydatków
+poniesionych przed wejściem w życie projektowanej ustawy m.in. przez Fundusz Wsparcia Sił
+Zbrojnych na zadania, które zostały zakwalifikowane do finansowania z pożyczki SAFE.
+
+Rozporządzenie SAFE przewiduje, że zobowiązania zaciągnięte z pożyczki SAFE mogą być
+spłacane w okresie do 45 lat od daty wypłaty każdej transzy pożyczki, z uwzględnieniem
+dziesięcioletniego okresu karencji dla spłaty kapitału.
+
+
+
+
+                                               3
+IV. Mechanizmy zapewnienia płynności finansowej
+
+Projekt ustawy wprowadza szczegółowe mechanizmy prefinansowania zadań w przypadku
+przejściowego niedoboru środków FIZB. Mechanizmy te obejmują m.in. możliwość
+czasowego wykorzystania środków własnych BGK.
+
+W przypadku niedoboru środków FIZB niezbędnych do terminowej obsługi zadań
+realizowanych przez ministrów kierujących działami administracji rządowej prefinansowanie
+realizacji tych zadań może odbywać się, po uzgodnieniu z danym ministrem oraz ministrem
+właściwym do spraw finansów publicznych, ze środków BGK. W przypadku braku tych
+środków prefinansowanie realizacji tych zadań może odbywać się ze środków budżetowych,
+dla których dysponentem jest właściwy minister.
+
+BGK będzie lokować okresowo wolne środki FIZB w złotych w formie depozytu zgodnie z
+ustawą o finansach publicznych, a okresowo wolne środki w walutach obcych BGK może
+lokować w bankach, w dłużne papiery wartościowe emitowane lub gwarantowane przez rządy
+państw członkowskich Unii Europejskiej lub Komisję Europejską oraz w depozyty
+zabezpieczone papierami wartościowymi emitowanymi przez rządy państw członkowskich
+Unii Europejskiej lub Komisję Europejską.
+
+Minister Obrony Narodowej oraz właściwi ministrowie (którzy będą realizować zadania
+zakwalifikowane do pożyczki SAFE) zawrą z BGK umowę dotyczącą obsługi FIZB, w której
+określone zostaną co najmniej zasady opracowania i aktualizacji planu finansowego FIZB,
+występowania przez BGK do Komisji Europejskiej o wypłatę środków z pożyczki SAFE,
+dokonywania wypłat ze środków FIZB na realizację przez właściwych ministrów zadań,
+zakresu i terminów sporządzania sprawozdawczości dotyczącej wykorzystania tych środków,
+a także naliczania i wypłaty wynagrodzenia prowizyjnego przysługującego BGK z tytułu
+obsługi FIZB. W umowie zostaną także określone szczegółowe zasady udzielania przez BGK
+gwarancji FIZB, to jest udzielanego przez BGK podmiotom, które będą realizować zadania na
+podstawie umowy zawieranej z właściwym ministrem zapewnienia, że realizowane przez te
+podmioty zadania zostaną sfinansowane do wysokości limitu wydatków określonego w planie
+finansowym FIZB dla właściwego ministra.
+
+
+
+
+                                            4
+Rozwiązania te mają charakter techniczny i służą zapewnieniu ciągłości finansowania zadań o
+kluczowym znaczeniu dla bezpieczeństwa państwa, przy jednoczesnym zachowaniu rygorów
+wynikających z przepisów o finansach publicznych oraz rozporządzenia SAFE.
+
+Należy wskazać, że pożyczka SAFE przewiduje wypłatę pierwszej transzy pożyczki w formie
+zaliczki w wysokości 15% wartości pożyczki, niezwłocznie po zawarciu umowy pożyczki.
+Wnioski o kolejne transze pożyczki składane są do Komisji Europejskiej w kwietniu i
+październiku każdego roku (w roku 2026 r. – tylko październik) w zakresie zrealizowanych
+kamieni milowych.
+
+V. Planowanie finansowe i sprawozdawczość
+
+Ustawa ustanawia obowiązek sporządzania planu finansowego FIZB, który stanowi
+podstawowy instrument zarządzania środkami FIZB. Plan finansowy podlega uzgodnieniu z
+właściwymi ministrami i ministrem właściwym do spraw finansów publicznych oraz
+zatwierdzeniu przez Ministra Obrony Narodowej.
+
+Zgodnie z projektowaną ustawą BGK sporządza plan finansowy FIZB, który będzie określał
+w szczególności kwotę planowanych do uruchomienia w danym roku środków z pożyczki
+SAFE, kwotę planowanych na dany rok wydatków na zadania zakwalifikowane do
+finansowania z pożyczki SAFE i wynikające z planu inwestycji w europejskim przemyśle
+obronnym, kwotę środków pozostających do dyspozycji właściwych ministrów wraz z listą
+zadań, na sfinansowanie których środki te mają być przeznaczone, a także strategię w zakresie
+zarządzania środkami FIZB. Zatwierdzony plan finansowy FIZB będzie stanowić podstawę
+dokonywania wypłat ze środków FIZB oraz uruchamiania środków z pożyczki SAFE, a
+podstawą zaciągania zobowiązań w ramach zadań zakwalifikowanych przez Komisję
+Europejską do finansowania z pożyczki SAFE będzie decyzja wykonawcza Rady, o której
+mowa w art. 8 rozporządzenia SAFE.
+
+Zwiększenie wysokości środków FIZB ze środków budżetu państwa przekazywanych przez
+Ministra Obrony Narodowej oraz przez właściwych ministrów w trakcie roku budżetowego nie
+wymaga zmiany planu finansowego FIZB. Zwiększenie wysokości środków FIZB, o którym
+mowa w art. 7 ust. 7, nie oznacza zwiększenia wydatków FIZB ujętych w planie.
+
+
+
+
+                                             5
+BGK będzie sporządzał i przekazywał Ministrowi Obrony Narodowej, ministrowi właściwemu
+do spraw finansów publicznych, Szefowi Krajowej Administracji Skarbowej oraz właściwym
+ministrom innym niż Minister Obrony Narodowej sprawozdania z realizacji planu finansowego
+FIZB, w terminach określonych w projekcie ustawy. Sprawozdanie roczne z realizacji planu
+finansowego FIZB będzie przedstawiane również do opinii sejmowej komisji właściwej w
+sprawach obrony państwa oraz sejmowej komisji właściwej do spraw budżetu.
+
+VI. Gwarancje i zabezpieczenia
+
+BGK będzie zaciągał pożyczkę SAFE na rzecz FIZB. Ustawa przewiduje objęcie zobowiązań
+finansowych BGK z tytułu pożyczki SAFE gwarancją Skarbu Państwa, reprezentowanego
+przez ministra właściwego do spraw finansów publicznych. Gwarancja ta ma charakter pełny i
+jest niezbędna z punktu widzenia wiarygodności finansowej państwa oraz warunków
+udzielania pożyczki SAFE.
+
+Gwarancja ta będzie udzielana do wysokości 100% pozostających do spłaty świadczeń
+pieniężnych wynikających z pożyczki SAFE wraz ze 100% należnych odsetek od tej kwoty
+i innych kosztów bezpośrednio związanych z pożyczką SAFE. Gwarancja ta będzie wolna od
+opłaty prowizyjnej oraz obowiązku ustanowienia zabezpieczenia.
+
+BGK będzie mógł zaciągnąć na rzecz FIZB kredyty, pożyczki, a także wyemitować obligacje.
+Zobowiązania z tych tytułów będą objęte gwarancją Skarbu Państwa na zasadach
+analogicznych do gwarancji udzielanej przez Skarb Państwa za zobowiązania z tytułu pożyczki
+SAFE.
+
+VII. System kontroli i audytu
+
+Projekt ustawy ustanawia wielopoziomowy system kontroli i audytu wykorzystania środków
+pochodzących z pożyczki SAFE, w tym audyt systemowy prowadzony przez Szefa Krajowej
+Administracji Skarbowej.
+
+System kontroli wymagany jest rozporządzeniem SAFE i odzwierciedlony będzie
+w porozumieniu operacyjnym. Projektowana ustawa nakłada na podmioty realizujące zadania
+zakwalifikowane do instrumentu SAFE obowiązek prowadzenia wewnętrznych systemów
+kontroli oraz niezwłocznego udostępniania dokumentów i informacji na potrzeby kontroli lub
+audytu.
+
+
+                                            6
+Instytucje odpowiedzialne za realizację zadania będą też podlegać audytowi gospodarowania
+środkami FIZB, którego celem będzie w szczególności potwierdzenie:
+   1) prawidłowości gospodarowania środkami FIZB;
+   2) osiągnięcia wskazanego w Planie etapu realizacji celu objętego finansowaniem z FIZB
+       w terminie wynikającym z postanowień zawartej z Komisją Europejską umowy, o
+       której mowa w art. 10 rozporządzenia SAFE;
+   3) skuteczności mechanizmów:
+       a) zapobiegania, wykrywania i korygowania nieprawidłowości przy realizacji zadań
+           objętych finansowaniem z FIZB,
+       b) zapobiegania korupcji i nadużyciom finansowym,
+       c) zapewnienia ochrony interesów finansowych Unii Europejskiej.
+
+Szef Krajowej Administracji Skarbowej będzie organem odpowiedzialnym za audyt
+gospodarowania środkami FIZB.
+
+Audyt będzie obejmował w szczególności:
+   1) planowanie i realizację wydatków finansowanych z pożyczki SAFE;
+   2) zgodność wydatków z umową pożyczki SAFE oraz dokumentami programowymi;
+   3) prawidłowość prowadzenia ewidencji księgowej i sprawozdawczości;
+   4) kompletność i rzetelność dokumentów finansowych i merytorycznych;
+   5) funkcjonowanie mechanizmów zapobiegania konfliktom interesów;
+   6) przestrzeganie obowiązków informacyjnych wobec instytucji Unii Europejskiej i
+       organów krajowych.
+
+Audytowi będą podlegać BGK, instytucje biorące udział w realizacji zadań objętych
+finansowaniem z FIZB oraz podmioty oraz jednostki nieposiadające osobowości prawnej,
+działające na własny rachunek uczestniczące przy realizacji zadań objętych finansowaniem z
+FIZB, w tym ostateczni odbiorcy wsparcia.
+
+Audyt będzie prowadzony z uwzględnieniem przyjętego na dany rok planu finansowego FIZB,
+stopnia zaawansowania realizacji zadania objętego finansowaniem FIZB oraz przypadającego
+terminu jego realizacji. Audyty mogą być wykonywane w toku realizacji zadania objętego
+finansowaniem z FIZB jak również po zakończeniu jego realizacji. W zakresie
+nieregulowanym w ustawie do audytu będą stosowane odpowiednio przepisy działu V
+rozdziału 2 ustawy z dnia 16 listopada 2016 r. o Krajowej Administracji Skarbowej.
+
+                                             7
+System kontroli wymagany jest rozporządzeniem SAFE i odzwierciedlony będzie w
+porozumieniu operacyjnym.
+
+Podmioty realizujące zadania zakwalifikowane do pożyczki SAFE (niezależnie, czy są
+jednostkami sektora finansów publicznych, czy też podmiotami spoza tego sektora) zostały
+zobowiązane do zapewnienia funkcjonowania wewnętrznego systemu kontroli wykorzystania
+środków z pożyczki SAFE, który ma obejmować kontrolę realizacji tych zadań, identyfikację
+ryzyka, zapobieganie nadużyciom oraz zapewnienie zgodności tego wykorzystania z
+przepisami prawa Rzeczypospolitej Polskiej i Unii Europejskiej.
+
+Ze względu na fakt, że w jednostkach sektora finansów publicznych istnieje już obowiązek
+zapewnienia adekwatnej, skutecznej i efektywnej kontroli zarządczej (zgodnie z przepisami
+ustawy z dnia 27 sierpnia 2009 r. o finansach publicznych), której cele są tożsame z celami
+wewnętrznego systemu kontroli wykorzystania środków z pożyczki SAFE, uznano, że nie ma
+potrzeby tworzenia w tych jednostkach odrębnego/dedykowanego systemu kontroli.
+
+Dlatego w projekcie ustawy wskazano wprost, że wewnętrzny system kontroli wykorzystania
+środków z pożyczki SAFE w jednostkach sektora finansów publicznych obejmuje kontrolę
+zarządczą, o której mowa w ustawie z dnia 27 sierpnia 2009 r. o finansach publicznych, oraz
+audyt wewnętrzny, o którym mowa w tej ustawie, jeżeli jest on prowadzony w tej jednostce.
+
+Jednocześnie w ustawie wskazano, że wewnętrzny system kontroli wykorzystania środków z
+pożyczki SAFE ma obejmować także kontrolę realizacji tych zadań, która ma na celu w
+szczególności:
+   1) weryfikację         osiągnięcia   wskazanego   w   Planie   etapu   realizacji   zadania
+       zakwalifikowanego do pożyczki SAFE w terminie obowiązywania instrumentu SAFE;
+   2) ocenę zgodności wydatkowania środków z umowami i Planem;
+   3) identyfikację ryzyka nadużyć i błędów;
+   4) potwierdzenie zgodności z zasadami finansowania instrumentu SAFE;
+   5) potwierdzenie skuteczności mechanizmów:
+           a) zapobiegania, wykrywania i korygowania nieprawidłowości przy realizacji
+                 zadań,
+           b) zapobiegania konfliktowi interesów, korupcji i nadużyciom finansowym.
+
+
+
+
+                                                8
+Kontrola realizacji zadań ma być przeprowadzana w trybie i na zasadach określonych w
+ustawie z dnia 15 lipca 2011 r. o kontroli w administracji rządowej (Dz. U. z 2020 r. poz. 224
+oraz z 2025 r. poz. 1158), a jej wyniki mają być przekazywane Ministrowi Obrony Narodowej
+i pełnomocnikowi Rządu właściwemu do spraw instrumentu SAFE, jeżeli został ustanowiony,
+co zapewni właściwy przepływ informacji zarządczych i możliwość podejmowania działań
+korygujących i naprawczych na wysokim szczeblu zarządzania.
+
+Dodatkowo należy wskazać, że elementem powiązanym z wprowadzanymi rozwiązaniami w
+zakresie Finansowego Instrumentu Zwiększenia Bezpieczeństwa są zmiany w ustawie o
+finansach publicznych w tzw. klauzuli obronnej stabilizującej reguły wydatkowej (SRW).
+
+Zmiany te dopełniają projektowane rozwiązania dotyczące Finansowego Instrumentu
+Zwiększenia Bezpieczeństwa, których wprowadzenie umożliwi pełne wykorzystanie środków
+SAFE. Uzyskane przez Rzeczpospolitą Polską środki w ramach instrumentu SAFE wymagają
+właściwego ujęcia wydatków obronnych w obowiązujących regułach fiskalnych.
+
+Z uwagi na fakt, że klauzula obronna została opracowana i wdrożona przed wejściem w życie
+w ubiegłym roku zmian przepisów unijnych w zakresie nadzoru budżetowego umożliwiających
+specjalne traktowanie wydatków na cele obronne w ocenie sytuacji budżetowej państw
+członkowskich oraz istotnym zwiększeniem możliwości finansowania wydatków na cele
+obronne za pomocą unijnego programu SAFE, konieczna stała się modyfikacja odpowiednich
+krajowych przepisów ustawy o finansach publicznych, określających klauzulę obronną, w celu
+zapewnienia priorytetowego traktowania wszystkich wydatków na cele obronne, w tym
+finansowanych przez program SAFE. W 2025 r., wskutek niekorzystnych zmian w sytuacji
+geopolitycznej, Rada Unii Europejskiej uruchomiła krajową klauzulę wyjścia dla szesnastu
+państw członkowskich, w tym dla Rzeczpospolitej Polskiej, zgodnie z którą w unijnym
+nadzorze budżetowym specjalne traktowanie zostało rozszerzone na przyrost wydatków na
+obronność zgodnych z definicją COFOG. Krajowa klauzula wyjścia pozwala na odchylenie od
+ścieżki wydatków netto o przyrost wydatków obronnych względem 2021 r., jednak
+maksymalnie o 1,5% PKB. Szersze spojrzenie na wydatki na obronność, niż przewidziane w
+rozporządzeniu Rady (WE) nr 1467/97 z dnia 7 lipca 1997 r. w sprawie przyspieszenia i
+wyjaśnienia procedury nadmiernego deficytu, zostało również uzgodnione dla wszystkich
+państw członkowskich UE, w ramach Kodeksu postępowania dotyczącego wdrażania Paktu
+Stabilności i Wzrostu, który został przyjęty przez Radę UE w dniu 12 grudnia 2025 r.
+
+
+                                              9
+Zaproponowane zmiany uspójniają przepisy ustawy o finansach publicznych ze zmianami w
+unijnym nadzorze budżetowym, które nastąpiły w 2025 r. W 2024 r. wraz z reformą zarządzania
+gospodarczego w Unii Europejskiej weszły w życie przepisy rozporządzenia Rady 1467/97
+(art. 2 ust. 3 lit. e), zgodnie z którymi zwiększenie inwestycji publicznych na obronność zostało
+uznane za istotny czynnik, który należy uwzględnić w ocenie sytuacji budżetowej państw
+członkowskich, z drugiej strony umożliwiają poszerzenie zakresu wydatków na cele obronne,
+jakie aktualnie mieszczą się w tzw. klauzuli obronnej w stabilizującej regule wydatkowej, o
+m.in. wydatki finansowane w ramach programu SAFE.
+
+W projekcie zawarty został przepis, zgodnie z którym Minister Obrony Narodowej będzie
+przekazywał ministrowi właściwemu do spraw finansów publicznych dane dotyczące
+planowanych wydatków na cele obronne nie tylko budżetu państwa, ale wszystkich istotnych
+(z uwagi na poziom wydatków) podmiotów sektora finansów publicznych, objętych limitem
+wydatków SRW, a odpowiedzialnych za realizowanie wydatków obronnych, jak również dane
+dotyczące wydatków tych jednostek ustalonych zgodnie z zasadami opracowywania danych na
+potrzeby tzw. notyfikacji fiskalnej (wydatki na obronę wg klasyfikacji COFOG, zakres
+transakcji i moment ujęcia wg metodyki unijnej ESA2010). Są to wydatki realizowane przez
+budżet państwa, Fundusz Wsparcia Sił Zbrojnych, Finansowy Instrument Zwiększenia
+Bezpieczeństwa SAFE, Fundusz Inwestycji Kapitałowych, Fundusz Reprywatyzacji, Rządową
+Agencję Rezerw Strategicznych i Agencję Mienia Wojskowego. Przy czym należy podkreślić,
+że dane dotyczące Finansowego Instrumentu Zwiększenia Bezpieczeństwa (w zakresie
+środków wydatkowanych przez ministrów innych niż MON), Funduszu Inwestycji
+Kapitałowych, Funduszu Reprywatyzacji i pochodzące z Rządowej Agencji Rezerw
+Strategicznych będą przekazywane do Ministra Obrony Narodowej przez właściwych
+ministrów.
+
+Dodatkowo należy wskazać, że zgodnie z projektowaną ustawą w roku 2026 planowane łączne
+wydatki Funduszu Wsparcia Sił Zbrojnych oraz FIZB będą zgodne z kwotą wydatków
+Funduszu Wsparcia Sił Zbrojnych zaplanowaną w planie finansowym Funduszu Wsparcia Sił
+Zbrojnych na rok 2026. Tym samym wraz z pracami nad planem FIZB będą przeprowadzone
+prace nad zmianą planu Funduszu Wsparcia Sił Zbrojnych. Projekt ustawy jest niezbędny dla
+skutecznego wykorzystania instrumentu SAFE przez Rzeczpospolitą Polską.
+
+
+
+
+                                               10
+Regulacje zawarte w ustawie nie podlegają obowiązkowi przedstawienia właściwym organom
+i instytucjom Unii Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu
+uzyskania opinii, dokonania powiadomienia, konsultacji albo uzgodnienia.
+
+Projekt ustawy nie jest sprzeczny z prawem Unii Europejskiej.
+
+Zaproponowany termin wejścia w życie projektowanych regulacji określony na dzień
+następujący po dniu ogłoszenia wynika z konieczności wejścia w życie projektowanej ustawy
+przed marcem 2026 r., kiedy to jest planowane zawarcie umowy pożyczkowej z Komisją
+Europejską. Termin wejścia w życie projektowanej ustawy nie stoi w sprzeczności z art. 4 ust.
+2 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów normatywnych i niektórych innych aktów
+prawnych (Dz. U. z 2019 r. poz. 1461), a zasady demokratycznego państwa prawnego nie stoją
+na przeszkodzie takiemu rozwiązaniu.
+
+Projekt ustawy nie zawiera przepisów technicznych w rozumieniu przepisów rozporządzenia
+Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego
+systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039 oraz z 2004 r. poz. 597)
+i związku z tym nie podlega przedmiotowej notyfikacji.
+
+Ocena Skutków Regulacji projektu nie była dokonywana w trybie § 32 ww. uchwały nr 190
+Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P.
+z 2024 r. poz. 806 oraz z 2025 r. poz. 408).
+
+Stosownie do wymogów art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej
+w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677) oraz zgodnie z § 52 ust. 1 uchwały
+nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów,
+projekt ustawy został umieszczony w Biuletynie Informacji Publicznej na stronie podmiotowej
+Rządowego Centrum Legislacji w serwisie Rządowy Proces Legislacyjny. Żaden podmiot nie
+był zainteresowany pracami nad tym projektem w tym trybie.
+
+
+
+
+                                               11
+                                                                        Data sporządzenia
+Nazwa projektu
+Projekt ustawy o Finansowym Instrumencie Zwiększenia                    19.01.2026 r.
+Bezpieczeństwa SAFE
+                                                                        Źródło: Inicjatywa własna
+Ministerstwo wiodące i ministerstwa współpracujące
+MINISTERSTWO OBRONY NARODOWEJ
+                                                                        Nr w wykazie prac: UD357
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Stanu
+lub Podsekretarza Stanu
+Pan Władysław Kosiniak-Kamysz
+Wiceprezes Rady Ministrów – Minister Obrony Narodowej
+Kontakt do opiekuna merytorycznego projektu
+Pani Magdalena Sobkowiak-Czarnecka – Pełnomocnik Rządu do spraw
+Instrumentu na rzecz Zwiększenia Bezpieczeństwa Europy („instrument
+SAFE”)
+email: smue2@kprm.gov.pl
+                                OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+
+Projekt ustawy o Finansowym Instrumencie Zwiększenia Bezpieczeństwa SAFE (FIZB) ma na celu określenie
+odpowiednich rozwiązań instytucjonalnych, finansowych i proceduralnych umożliwiających skuteczne wykorzystanie
+środków pochodzących z pożyczki SAFE, o której mowa w rozporządzeniu Rady (UE) 2025/1106 z dnia 27 maja 2025 r.
+ustanawiającym Instrument na rzecz Zwiększenia Bezpieczeństwa Europy („instrument SAFE”) poprzez Wzmocnienie
+Europejskiego Przemysłu Obronnego. W dniu 28 listopada 2025 r. Rzeczpospolita Polska złożyła wniosek o pomoc
+finansową w formie pożyczki, wraz z planem inwestycji w europejskim przemyśle obronnym, opiewający na kwotę
+43.734.100.805,00 EUR. Środki te przeznaczone są na finansowanie zadań realizowanych na zasadzie współpracy,
+związanych z pozyskaniem towarów, usług i robót budowlanych objętych zakresem stosowania dyrektywy Parlamentu
+Europejskiego i Rady 2009/81/WE z dnia 13 lipca 2009 r. w sprawie koordynacji procedur udzielania niektórych zamówień
+na roboty budowlane, dostawy i usługi przez instytucje lub podmioty zamawiające w dziedzinach obronności i
+bezpieczeństwa i zmieniającej dyrektywy 2004/17/WE i 2004/18/WE oraz związanych z pozyskaniem innych produktów
+do celów obronnych.
+W marcu 2026 r. planowane jest zawarcie umowy pożyczkowej z Komisją Europejską i do tego czasu konieczne jest
+wejście w życie projektowanej ustawy.
+Celem projektowanej ustawy jest stworzenie spójnych i jednoznacznych ram prawnych dla:
+    1) zaciągnięcia przez Rzeczpospolitą Polską pożyczki SAFE przez Bank Gospodarstwa Krajowego na rzecz FIZB,
+    2) gromadzenia, zarządzania i wydatkowania środków pochodzących z tej pożyczki oraz ze środków krajowych,
+    3) finansowania i współfinansowania zadań kwalifikowanych do instrumentu SAFE, zwanych dalej „zadaniami”,
+    4) zapewnienia terminowej obsługi zobowiązań finansowych oraz spłaty pożyczki SAFE,
+    5) ustanowienia systemu kontroli i audytu, zgodnego z wymogami prawa Unii Europejskiej oraz przepisami
+        krajowymi.
+Projektowana ustawa odpowiada na potrzebę zwiększenia zdolności państwa do szybkiego uruchamiania znaczących
+nakładów inwestycyjnych w obszarze bezpieczeństwa i obronności, przy jednoczesnym zachowaniu stabilności finansów
+publicznych oraz przejrzystości gospodarowania środkami publicznymi. Alokacja niskooprocentowanych środków
+pochodzących z instrumentu SAFE w przemyśle obronnym pozwoli także na pozyskanie nowych zdolności Sił Zbrojnych
+RP.
+Dostosowanie sposobu obliczania klauzuli obronnej wynika ze zmian w unijnym nadzorze budżetowym, które nastąpiły w
+2025 r. Wskutek niekorzystnych zmian w sytuacji geopolitycznej, Rada Unii Europejskiej uruchomiła krajową klauzulę
+wyjścia dla szesnastu państw członkowskich, w tym dla Polski, zgodnie z którą w unijnym nadzorze budżetowym specjalne
+traktowanie zostało rozszerzone na przyrost wydatków na obronność zgodnych z definicją COFOG. Krajowa klauzula
+wyjścia pozwala na odchylenie od ścieżki wydatków netto o przyrost wydatków obronnych względem 2021 r., jednak
+maksymalnie o 1,5% PKB. Rozszerzone podejście do wydatków na obronność zostało również uzgodnione dla wszystkich
+państw członkowskich UE, w ramach Kodeksu postępowania dotyczącego wdrażania Paktu Stabilności i Wzrostu, który
+zostały przyjęty przez Radę UE w dniu 12 grudnia 2025 r.
+ 2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Projekt ustawy przewiduje utworzenie Finansowego Instrumentu Zwiększenia Bezpieczeństwa SAFE jako wyodrębnionego
+instrumentu finansowego prowadzonego przez Bank Gospodarstwa Krajowego. Wybór BGK jako instytucji obsługującej
+FIZB wynika z jego statusu państwowego banku rozwoju, doświadczenia w obsłudze funduszy, instrumentów zwrotnych
+oraz współpracy z instytucjami Unii Europejskiej.
+FIZB obsługiwany będzie przez BGK. Uprawnionymi do środków z FIZB będą ministrowie z kilku resortów, których
+projekty zostały uwzględnione i zaakceptowane przez KE w ramach planu inwestycji w europejskim przemyśle obronnym.
+Ponadto pożyczka SAFE nie jest pożyczką zaciągniętą przez poszczególne resorty w zakresie realizowanych (finansowanych
+z SAFE) zadań. Pożyczkobiorcą jest BGK, zaś gwarantem pożyczki jest minister właściwy do spraw finansów publicznych.
+Środki FIZB pochodzą z pożyczki SAFE oraz z określonych w ustawie środków krajowych i zagranicznych. Projektowana
+regulacja w sposób jednoznaczny rozdziela środki pochodzące z pożyczki SAFE od innych źródeł finansowania, co ma
+kluczowe znaczenie dla zachowania zgodności z zasadami kwalifikowalności wydatków określonymi w rozporządzeniu
+SAFE.
+Środki z pożyczki SAFE wypłacane są przez KE na podstawie umowy pożyczki i porozumienia operacyjnego. Przeznaczone
+są wyłącznie na finansowanie zadań w zakresie zakwalifikowanym do instrumentu SAFE, w tym tej części, która została
+zrealizowana przed wejściem w życie projektowanej ustawy, tj. od dnia 29 maja 2025 r., czyli od wejścia w życie
+rozporządzenia SAFE. W tym zakresie ustawa przewiduje zwrot poniesionych kosztów do Funduszu Wsparcia Sił Zbrojnych
+(wydatkowanych z tego Funduszu).
+Ustawa precyzyjnie określa przeznaczenie środków FIZB, w tym finansowanie i współfinansowanie zadań, obsługę i spłatę
+pożyczki SAFE, realizację zobowiązań wynikających z gwarancji Skarbu Państwa oraz zwrot wydatków poniesionych przed
+wejściem w życie projektowanej ustawy przez Fundusz Wsparcia Sił Zbrojnych na zadania, które zostały zakwalifikowane
+do instrumentu SAFE.
+Rozporządzenie SAFE przewiduje, że pożyczki SAFE można spłacać nawet do 45 lat od momentu ich udzielenia, z
+uwzględnieniem dziesięcioletniego okresu karencji dla spłaty kapitału.
+Zaproponowane zmiany polegają na objęciu klauzulą obronną wszystkich wydatków na cele obronne ponoszonych przez
+istotne podmioty (pod względem wielkości wydatków) sektora finansów publicznych, objęte limitem wydatków stabilizującej
+reguły wydatkowej (SRW), a odpowiedzialnych za realizowanie wydatków obronnych, a nie tylko, jak w obecnym
+rozwiązaniu, ograniczonych do operacji związanych z zakupem i dostawą sprzętu wojskowego.
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Brak danych.
+4. Podmioty, na które oddziałuje projekt
+           Grupa                     Wielkość                     Źródło danych                       Oddziaływanie
+Ministrowie Obrony                        4                   Dane ogólnodostępne           Organy administracji rządowej
+Narodowej, Finansów                                                                         uczestniczące w realizacji
+i Gospodarki,                                                                               zadań, na które będą
+Infrastruktury, Spraw                                                                       przeznaczone środki z pożyczki
+Wewnętrznych                                                                                SAFE
+i Administracji
+Bank Gospodarstwa                         1                   Dane ogólnodostępne           Obsługa FIZB
+Krajowego
+ 5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt, ze względu na fakt, że dotyczy finansowania zadań związanych z obronnością i bezpieczeństwem państwa, nie
+wymaga poddania konsultacjom publicznym.
+Projekt nie wymaga także zasięgnięcia opinii określonych podmiotów wynikających z przepisów odrębnych.
+Stosownie do postanowień § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady
+Ministrów (M.P. z 2024 r. poz. 806 oraz z 2025 r. poz. 408) oraz zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności
+lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677) projekt ustawy został zamieszczony w Biuletynie
+Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji w serwisie Rządowy Proces Legislacyjny.
+
+
+                                                              2
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                                 Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                     0      1       2     3     4      5       6     7      8     9     10     Łącznie (0–10)
+Dochody ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Wydatki ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Saldo ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+                          Projektowane regulacje wywierają skutki finansowe na budżet państwa w wysokości kosztów obsługi
+                          (kapitał, odsetki i inne koszty) zaciągniętej pożyczki z instrumentu SAFE. Zakłada się, że koszty
+                          obsługi pożyczki z instrumentu SAFE będą korzystniejsze od finansowania dłużnego organizowanego
+                          przez BGK.
+Źródła finansowania
+                          Dostosowanie w sposobie obliczania klauzuli obronnej nie spowoduje bezpośrednich skutków
+                          finansowych dla sektora finansów publicznych.
+
+
+Dodatkowe informacje,     Projektowane rozwiązania w zakresie zmiany ustawy o finansach publicznych nie spowodują
+w tym wskazanie           zwiększenia wydatków lub zmniejszenia dochodów jednostek sektora finansów publicznych, w tym
+źródeł danych i           dla budżetu państwa i jednostek samorządu terytorialnego w stosunku do wielkości wynikających z
+przyjętych do obliczeń    obowiązujących przepisów.
+założeń                   Formuła SRW określa poziom wydatków objętych nią jednostek i organów.
+                          Dostosowanie przepisów klauzuli obronnej odnosi się jedynie do ram finansowych, w jakich mogą
+                          funkcjonować jednostki i organy objęte limitem SRW.
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                            Skutki
+Czas w latach od wejścia w życie zmian          0           1          2          3          5        10      Łącznie (0–10)
+W ujęciu          duże przedsiębiorstwa
+pieniężnym        sektor mikro-, małych i
+(w mln zł,        średnich
+ceny stałe z      przedsiębiorstw
+…… r.)            rodzina, obywatele oraz
+                  gospodarstwa domowe
+                  (dodaj/usuń)
+W ujęciu          duże przedsiębiorstwa
+niepieniężnym     sektor mikro-, małych i   Regulacja bezpośrednio nie wpłynie na konkurencyjność gospodarki i
+                  średnich                  przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, a zwłaszcza
+                  przedsiębiorstw           mikroprzedsiębiorców, małych i średnich przedsiębiorców.
+                  rodzina, obywatele oraz   Regulacja nie wpłynie bezpośrednio na sytuację ekonomiczną i społeczną rodziny
+                  gospodarstwa domowe       a także osób niepełnosprawnych oraz osób starszych
+
+
+
+                                                              3
+                   (dodaj/usuń)
+Niemierzalne       (dodaj/usuń)
+                   (dodaj/usuń)
+Dodatkowe informacje,
+w tym wskazanie
+źródeł danych i
+przyjętych do obliczeń
+założeń
+
+
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie         tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli  nie
+zgodności).                                         nie dotyczy
+
+   zmniejszenie liczby dokumentów                          zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                            zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                   wydłużenie czasu na załatwienie sprawy
+   inne:                                                   inne:
+
+Wprowadzane obciążenia są przystosowane do ich             tak
+elektronizacji.                                            nie
+                                                           nie dotyczy
+
+Komentarz:
+
+
+9. Wpływ na rynek pracy
+Projektowane regulacje nie wpłyną bezpośrednio na rynek pracy.
+10. Wpływ na pozostałe obszary
+
+    środowisko naturalne                    demografia                                informatyzacja
+    sytuacja i rozwój regionalny            mienie państwowe                          zdrowie
+    sądy powszechne, administracyjne        inne: obronność
+lub wojskowe
+                           Projektowana regulacja przyczyni się do zapewnienia właściwej absorbcji środków
+                           pochodzących z pożyczki SAFE, co wpłynie na zwiększenie potencjału obronnego oraz pozwoli
+Omówienie wpływu
+                           na pozyskanie nowych zdolności przez Siły Zbrojne RP oraz wsparcie polskiego przemysłu
+                           obronnego.
+ 11. Planowane wykonanie przepisów aktu prawnego
+Przepisy wejdą w życie z dniem następującym po dniu ogłoszenia.
+ 12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Projektowana regulacja przewiduje szereg regulacji związanych z audytem i kontrolą, dotyczących zarówno podmiotów
+realizujących zadania zakwalifikowane do wsparcia w ramach SAFE, jak również dla ministra właściwego do spraw finansów
+publicznych.
+Powyższe działania pozwolą nie tylko na ocenę efektów realizowanych zadań, ale także na sprawne funkcjonowanie
+projektowanych regulacji prawnych.
+ 13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak
+
+
+
+                                                          4
+

@@ -1,0 +1,1626 @@
+                                                                       Druk nr 2277
+                                                                 Warszawa, 25 lutego 2026 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-27-26
+
+
+                                                              Pan
+                                                              Włodzimierz Czarzasty
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+           Szanowny Panie Marszałku,
+         na podstawie art. 118 ust. 1 i art. 123 ust. 1 Konstytucji Rzeczypospolitej
+ Polskiej przedstawiam Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+
+  - o zmianie ustawy o rachunkowości.
+
+         Rada Ministrów uznała projekt za pilny ze względu na konieczność ogłoszenia
+ ustawy do końca marca 2026 r. w celu umożliwienia przedsiębiorcom skorzystania
+ z projektowanych zmian w odniesieniu do roku obrotowego, który zakończył się
+ 31 grudnia 2025 r.
+        Projekt będzie miał na celu wykonanie prawa Unii Europejskiej.
+
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Finansów i Gospodarki.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                     Projekt
+                                               U S T AWA
+
+                                                    z dnia
+
+                                 o zmianie ustawy o rachunkowości1)
+
+
+       Art. 1. W ustawie z dnia 29 września 1994 r. o rachunkowości (Dz. U. z 2023 r. poz. 120,
+z późn. zm.2)) wprowadza się następujące zmiany:
+1)     tytuł rozdziału 11 otrzymuje brzmienie:
+
+                    „Zmiany w przepisach, przepisy epizodyczne i przepisy końcowe”;
+
+2)     po art. 84 dodaje się art. 84a w brzmieniu:
+             „Art. 84a. 1. W roku obrotowym rozpoczynającym się w okresie od dnia 1 stycznia
+       2025 r. do dnia 31 grudnia 2026 r. jednostki obowiązane do stosowania przepisów art. 49
+       ust. 3b oraz rozdziału 6c mogą nie wykonywać obowiązków wynikających z tych
+       przepisów, jeżeli w tym roku obrotowym i w roku poprzedzającym ten rok nie
+       przekroczyły następujących wielkości:
+       1)    1000 osób – w przypadku średniorocznego zatrudnienia w przeliczeniu na pełne
+             etaty, lub
+       2)    1 900 000 000 zł – w przypadku przychodów netto ze sprzedaży towarów i
+             produktów za rok obrotowy.
+             2. W roku obrotowym rozpoczynającym się w okresie od dnia 1 stycznia 2025 r. do
+       dnia 31 grudnia 2026 r. jednostki dominujące grup kapitałowych obowiązane do
+       stosowania przepisów art. 55 ust. 2a zdanie pierwsze, w zakresie sporządzania
+       sprawozdania z działalności grupy kapitałowej według wymogów określonych w art. 49
+       ust. 3b, oraz przepisów rozdziału 6c mogą nie wykonywać obowiązków wynikających z
+       tych przepisów, jeżeli w tym roku obrotowym i w roku poprzedzającym ten rok nie
+       przekroczyły na poziomie grupy kapitałowej następujących wielkości:
+       1)    1000 osób – w przypadku średniorocznego zatrudnienia w przeliczeniu na pełne
+             etaty, lub
+
+
+
+
+1)
+     Niniejsza ustawa w zakresie swojej regulacji wdraża dyrektywę … 2026/… z dnia … (Dz. Urz. UE L … z …).
+2)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2023 r. poz. 295 i 1598, z 2024
+     r. poz. 619, 1685 i 1863 oraz z 2025 r. poz. 1218.
+                                     –2–
+
+
+2)   1 900 000 000 zł po dokonaniu wyłączeń konsolidacyjnych, o których mowa w art.
+     60 ust. 2 i 6, albo 2 280 000 000 zł przed dokonaniem tych wyłączeń – w przypadku
+     przychodów netto ze sprzedaży towarów i produktów za rok obrotowy.
+     3. Decyzję o niewykonywaniu obowiązków zgodnie z ust. 1 i 2 podejmuje
+odpowiednio kierownik jednostki albo kierownik jednostki dominującej.”
+
+Art. 2. Ustawa wchodzi w życie z dniem następującym po dniu ogłoszenia.
+                                                UZASADNIENIE
+
+             I.     Cel regulacji
+
+
+
+Projekt ustawy o zmianie ustawy o rachunkowości ma na celu wdrożenie do przepisów
+krajowych opcji dla państwa członkowskiego przewidzianej w art. 3 pkt 1 lit. c) dyrektywy
+Parlamentu Europejskiego i Rady (UE) 2026/… w sprawie zmiany dyrektyw 2006/43/WE,
+2013/34/UE, (UE) 2022/2464 i (UE) 2024/1760 w odniesieniu do niektórych wymogów
+dotyczących sprawozdawczości przedsiębiorstw w zakresie zrównoważonego rozwoju i
+niektórych wymogów w zakresie należytej staranności przedsiębiorstw w zakresie
+zrównoważonego rozwoju – znajdującej się na końcowym etapie unijnego procesu
+legislacyjnego (zwanej dalej „dyrektywą zmieniającą”), która wprowadza m.in. zmiany do art.
+5(2) dyrektywy Parlamentu Europejskiego i Rady (UE) 2022/2464 z dnia 14 grudnia 2022 r. w
+sprawie zmiany rozporządzenia (UE) nr 537/2014, dyrektywy 2004/109/WE, dyrektywy
+2006/43/WE oraz dyrektywy 2013/34/UE w odniesieniu do sprawozdawczości przedsiębiorstw
+w zakresie zrównoważonego rozwoju1, tzw. CSRD.
+
+8 grudnia 2025 r. w ramach trilogów między Radą UE, Parlamentem Europejskim i Komisją
+Europejską osiągnięto wstępne porozumienie polityczne w zakresie wniosku dotyczącego
+dyrektywy Parlamentu Europejskiego i Rady zmieniającego dyrektywy 2006/43/WE,
+2013/34/UE, 2022/2464 i 2024/1760 w odniesieniu do niektórych wymogów dotyczących
+sprawozdawczości przedsiębiorstw w zakresie zrównoważonego rozwoju i należytej
+staranności COM(2025) 81. Ww. porozumienie zostało potwierdzone przez Coreper II w dniu
+10 grudnia 2025 r. oraz w głosowaniu plenarnym Parlamentu Europejskiego w dniu 16 grudnia
+2025 r. Projekt dyrektywy podlegał opracowaniu przez prawników lingwistów. Ostateczny
+tekst dyrektywy został przyjęty przez Parlament Europejski w dniu 10 lutego 2026 r. Przyjęcie
+ostatecznego tekstu przez Radę UE nastąpi na posiedzeniu Rady do Spraw Ogólnych w dniu
+24 lutego 2026 r. (w ramach punków A – bez dyskusji) i zostanie on przekazany do
+niezwłocznej publikacji w Dzienniku Urzędowym UE.
+
+Dyrektywa zmieniająca zawiera m.in. opcję dla państw członkowskich zwolnienia z
+raportowania za 2025 r. i 2026 r. grupy jednostek obecnie zobowiązanych do raportowania,
+które na mocy nowych przepisów mogą być zwolnione z tego obowiązku. Wynikający z ustawy
+
+
+1
+    (Dz. Urz. UE L 322 z 16.12.2022, str. 15, z późn. zm.).
+z dnia 29 września 1994 r. o rachunkowości (Dz. U. z 2023 r. poz. 120, z późn. zm.), zwanej
+dalej „ustawą o rachunkowości”, termin sporządzenia sprawozdawczości zrównoważonego
+rozwoju za rok obrotowy 2025 przypada na 31 marca 2026 r. Zatem konieczne jest wdrożenie
+opcji zwolnienia przed tym terminem. W związku z tym istnieje konieczność pilnego
+procedowania projektowanej ustawy (jeszcze przed publikacją dyrektywy zmieniającej), aby
+umożliwić uchwalenie ustawy przez Parlament i podpisanie przez Prezydenta RP w terminie
+pozwalającym na skorzystanie z opcji przez polskich przedsiębiorców. Zakłada się, że
+publikacja dyrektywy zmieniającej nastąpi w trakcie prac w Parlamencie. Jednocześnie znany
+jest tekst dyrektywy, co umożliwia podjęcie decyzji co do kształtu projektu ustawy.
+Oczekiwanie na formalną publikację dyrektywy oznaczałoby skrócenie czasu na prace
+parlamentarne nad projektem ustawy i podpisanie przez Prezydenta RP, a także zwiększałoby
+ryzyko braku wdrożenia opcji przed dniem 31 marca br. Jednocześnie, biorąc pod uwagę
+kalendarz finalizacji prac nad ustawą, należy zauważyć, że nie jest możliwe całkowite
+uniknięcie tego ryzyka. Wejście w życie ustawy po dniu 31 marca 2026 r. ograniczy krąg
+podmiotów, które będą mogły skorzystać ze zwolnienia do tych spółek, które mają rok
+obrotowy inny niż kalendarzowy (a co za tym idzie późniejszy termin raportowania) oraz do
+sprawozdawczości za rok obrotowy 2026.
+
+
+
+CSRD, która została wdrożona do przepisów krajowych ustawą z dnia 6 grudnia 2024 r. o
+zmianie ustawy o rachunkowości, ustawy o biegłych rewidentach, firmach audytorskich oraz
+nadzorze publicznym oraz niektórych innych ustaw (Dz. U. poz. 1863, z późn. zm.), zwaną dalej
+„ustawą z dnia 6 grudnia 2024 r.”, wprowadziła obowiązek przedstawiania informacji o
+wpływie działalności jednostki na obszar środowiskowy, spraw społecznych, w tym praw
+człowieka, oraz ładu korporacyjnego, a także wpływu tych trzech obszarów na rozwój, wyniki
+i sytuację jednostki (tzw. sprawozdawczość zrównoważonego rozwoju lub sprawozdawczość
+ESG). Do sporządzania tej sprawozdawczości są obowiązane obecnie jednostki duże oraz małe
+i średnie jednostki będące emitentami papierów wartościowych dopuszczonych do obrotu na
+jednym z rynków regulowanych Europejskiego Obszaru Gospodarczego, a także jednostki
+dominujące dużych grup.
+
+Zgodnie z art. 14 ust. 5 ustawy z dnia 6 grudnia 2024 r. obowiązek raportowania po raz pierwszy
+zgodnie z wymogami CSRD został rozłożony na trzy etapy. W pierwszej kolejności, w 2025 r.
+za rok obrotowy 2024, zaraportowały największe jednostki zainteresowania publicznego
+zatrudniające ponad 500 pracowników i przekraczające co najmniej jeden z progów
+
+                                              2
+finansowych dla jednostki dużej, a także jednostki zainteresowania publicznego stojące na czele
+grupy, w której zatrudnienie przekracza 500 osób, oraz która przekracza co najmniej jeden z
+progów finansowych dla dużej grupy (por. art. 14 ust. 5 pkt 1 ustawy z dnia 6 grudnia 2024 r.).
+Obowiązek raportowania w drugiej turze, w 2028 r. za rok obrotowy 2027, dotyczy pozostałych
+jednostek dużych i pozostałych dużych grup (por. art. 14 ust. 5 pkt 2 ustawy z dnia 6 grudnia
+2024 r.), natomiast w trzeciej turze, w 2029 r. za rok obrotowy 2028 – małych i średnich
+emitentów z rynku regulowanego (por. art. 14 ust. 5 pkt 3 ustawy z dnia 6 grudnia 2024 r.).
+Przy czym należy wskazać, że pierwotne terminy pierwszego raportowania dla jednostek z
+drugiej i trzeciej tury zostały przesunięte o dwa lata zgodnie z dyrektywą Parlamentu
+Europejskiego i Rady (UE) 2025/794 z dnia 14 kwietnia 2025 r. w sprawie zmiany dyrektywy
+(UE) 2022/2464 i (UE) 2024/1760 w odniesieniu do dat, od których państwa członkowskie
+mają stosować niektóre wymogi dotyczące sprawozdawczości przedsiębiorstw w zakresie
+zrównoważonego rozwoju i niektóre wymogi w zakresie należytej staranności przedsiębiorstw
+w zakresie zrównoważonego rozwoju2 (tzw. „stop-the-clock”) wdrożonej do przepisów
+krajowych ustawą z dnia 9 lipca 2025 r. zmieniającą ustawę o zmianie ustawy o rachunkowości,
+ustawy o biegłych rewidentach, firmach audytorskich oraz nadzorze publicznym oraz
+niektórych innych ustaw (Dz. U. poz. 1020).
+
+W ramach nadrzędnego celu znoszenia nadmiernych obciążeń dla przedsiębiorców w Unii
+Europejskiej oraz poprawy ich konkurencyjności, szczególnie w kontekście rosnącej presji
+konkurencyjnej ze strony państw spoza UE, 26 lutego 2025 r. Komisja Europejska przedstawiła
+pierwszy pakiet uproszczeń w obszarze zrównoważonego rozwoju, tzw. Omnibus I.
+Uproszczenia w zakresie CSRD zawarto w dwóch projektach aktów prawnych:
+
+•     pierwszy z nich, tzw. stop-the-clock, jak wskazano powyżej, został już przyjęty i wdrożony;
+•     w drugim projekcie (wniosek dotyczący dyrektywy Parlamentu Europejskiego i Rady
+      zmieniającej dyrektywy 2006/43/WE, 2013/34/UE, 2022/2464 i 2024/1760 w odniesieniu
+      do niektórych wymogów dotyczących sprawozdawczości przedsiębiorstw w zakresie
+      zrównoważonego rozwoju i należytej staranności COM(2025) 81) zaproponowano zmiany
+      merytoryczne w zakresie sprawozdawczości zrównoważonego rozwoju mające na celu jej
+      uproszczenie. Projekt ten został przyjęty w postaci dyrektywy zmieniającej, którą w
+      zakresie zmian do CSRD państwa członkowskie mają obowiązek wdrożyć w ciągu 12
+      miesięcy od dnia wejścia w życie dyrektywy.
+
+
+2
+    Dz. Urz. UE L 2025/794 z 16.04.2025
+
+
+                                                 3
+Dyrektywa zmieniająca m.in. znacząco zawęża zakres jednostek zobowiązanych do
+sporządzania sprawozdawczości zrównoważonego rozwoju – do jednostek, w których
+zatrudnienie przekracza 1000 osób, a przychody netto ze sprzedaży przekraczają 450 mln euro.
+Jednocześnie wskazuje ona, że jednostki z pierwszej tury (tj. sporządzające sprawozdawczość
+ESG po raz pierwszy za 2024 r.) finalnie mają raportować za lata obrotowe 2024, 2025 i 2026
+(art. 3 pkt 1 lit. a) ppkt (i) dyrektywy zmieniającej wprowadzający zmianę brzmienia art. 5 ust.
+2 akapit pierwszy lit. a CSRD). Niemniej jednak umożliwia ona państwom członkowskim
+zwolnienie tych jednostek z pierwszej tury, które znajdą się poza nowym zakresem jednostek
+zobowiązanych do raportowania, z raportowania za lata obrotowe 2025 i 2026 (art. 3 pkt 1 lit.
+c) dyrektywy zmieniającej3).
+
+Projekt ustawy ma na celu jak najszybsze wdrożenie ww. opcji, aby jednostki, które mają rok
+obrotowy równy kalendarzowemu, mogły z niej ewentualnie skorzystać przed terminem
+sporządzenia sprawozdania z działalności za 2025 r., który przypada z końcem marca 2026 r.
+Jednostki, których rok obrotowy jest inny niż rok kalendarzowy, będą mogły skorzystać z opcji
+przed terminem sporządzenia sprawozdania z działalności, który przypada 3 miesiące od końca
+roku obrotowego. Decyzja o skorzystaniu z opcji będzie podejmowana przez kierownika
+jednostki, biorąc m.in. pod uwagę strategię biznesową jednostki i korzyści z raportowania,
+obowiązki w zakresie raportowania (dotychczasowe i przyszłe), nakłady związane z
+raportowaniem, a także ryzyko związane z terminem finalizacji procesu legislacyjnego na
+poziomie unijnym i krajowym.
+
+Biorąc pod uwagę konieczność pilnego wdrożenia ww. opcji zawartej w dyrektywie, w
+projekcie ustawy przyjęto rozwiązanie, które zakłada brak zmiany przepisów obecnie
+określających obowiązki w zakresie raportowania, tj. art. 63r i art. 63x ustawy o rachunkowości
+
+
+
+3
+ „Art. 3 Zmiany do dyrektywy (UE) 2022/2464:
+„W dyrektywie (UE) 2022/2464 wprowadza się następujące zmiany:
+ (1) w art. 5 ust. 2 wprowadza się następujące zmiany
+     a) w akapicie pierwszym wprowadza się następujące zmiany:
+         (i) w lit. a) formuła wprowadzająca otrzymuje brzmienie:
+     „w odniesieniu do lat obrotowych rozpoczynających się między dniem 1 stycznia 2024 r. a dniem 31
+     grudnia 2026 r.:”
+     (…)
+     c) dodaje się akapit piąty w brzmieniu:
+     „Na zasadzie odstępstwa od lit. a) akapitu pierwszego i lit. a) akapitu trzeciego państwa członkowskie
+     mogą zwolnić jednostki lub emitentów, których, w stosownych przypadkach, – w ujęciu skonsolidowanym
+     – przychody netto ze sprzedaży nie przekraczają 450 000 000 EUR lub średnia liczba zatrudnionych w roku
+     obrotowym nie przekracza 1 000, z obowiązku przestrzegania środków niezbędnych do zapewnienia
+     zgodności z art. 1, z wyjątkiem pkt 14, oraz z art. 2, w odniesieniu do lat obrotowych rozpoczynających się
+     między dniem 1 stycznia 2025 r. a dniem 31 grudnia 2026 r.”;.
+
+
+                                                       4
+(będą one podlegały zmianom w drugim etapie prac legislacyjnych). Natomiast niniejszy
+projekt umożliwia jednostkom, które docelowo nie będą objęte zmienionym zakresem
+podmiotowym,          podjęcie    decyzji    o    niewykonywaniu         obowiązków         w    zakresie
+sprawozdawczości zrównoważonego rozwoju w okresie przejściowym do czasu przyjęcia
+rozwiązań docelowych (lata obrotowe 2025 i 2026). Jednocześnie należy wskazać, że w celu
+zapewnienia sprawnego wdrożenia tej opcji pozostałe kwestie wynikające z dyrektywy
+zmieniającej będą podlegać wdrożeniu w ramach odrębnego projektu.
+
+         II.     Proponowane zmiany
+
+
+
+Celem projektowanej regulacji jest skorzystanie przez Polskę z opcji przewidzianej w
+dyrektywie zmieniającej, umożliwiającej państwom członkowskim wyłączenie jednostek z
+tzw. pierwszej fali (tj. jednostek, o których mowa w art. 14 ust. 5 pkt 1 ustawy z dnia 6 grudnia
+2024 r.), które znajdą się poza nowym zakresem jednostek zobowiązanych do raportowania, z
+raportowania za lata obrotowe 2025 i 2026.
+
+W związku z powyższym w ustawie o rachunkowości proponuje się dodanie przepisu
+epizodycznego (art. 84a). Na jego podstawie ww. jednostki, tj. jednostki zainteresowania
+publicznego i jednostki zainteresowania publicznego będące jednostkami dominującymi grup
+kapitałowych, w których w danym roku obrotowym i roku obrotowym go poprzedzającym
+zatrudnienie nie przekroczyło 1000 pracowników (w przeliczeniu na pełne etaty) lub przychody
+netto ze sprzedaży towarów i produktów nie przekroczyły wysokości 1 900 000 000 zł4 po
+dokonaniu wyłączeń konsolidacyjnych wskazanych w art. 60 ust. 2 i 6 ustawy, albo
+2 280 000 000 zł5 przed dokonaniem takich wyłączeń konsolidacyjnych, mogą, za lata
+obrotowe       2025   i   2026,   nie    wykonywać       obowiązków        w    zakresie    sporządzania
+sprawozdawczości zrównoważonego rozwoju lub sprawozdawczości zrównoważonego
+rozwoju grupy kapitałowej, a także w zakresie przedstawiania informacji na temat kluczowych
+
+
+4
+  Kwota 1 900 000 000 zł odpowiada przewidzianej w dyrektywie zmieniającej kwocie 450 000 euro. Została ona
+wyliczona na bazie oficjalnego kursu EUR do PLN opublikowanego w Dz. Urz. UE w dniu 19 lutego 2026 r. i
+zaokrąglona w górę do pełnych milionów, w oparciu o zasadę przeliczania kwot określonych w euro na kwoty w
+walutach krajowych państw członkowskich, które nie przyjęły euro, określoną w art. 3 ust. 9 dyrektywy
+Parlamentu Europejskiego i Rady 2013/34/UE z dnia 26 czerwca 2013 r. w sprawie rocznych sprawozdań
+finansowych, skonsolidowanych sprawozdań finansowych i powiązanych sprawozdań niektórych rodzajów
+jednostek, zmieniającej dyrektywę Parlamentu Europejskiego i Rady 2006/43/WE oraz uchylającej dyrektywy
+Rady 78/660/EWG i 83/349/EWG (Dz. Urz. UE L 182 z 29.06.2013, str. 19, z późn. zm.). Kwota ta będzie
+podlegać jeszcze weryfikacji po oficjalnej publikacji dyrektywy, w świetle oficjalnego kursu EUR do PLN
+opublikowanego w Dz. Urz. UE na dzień wejścia w życie opublikowanej dyrektywy.
+5
+  Kwota 1 900 000 000 powiększona o 20% zgodnie z zasadą określoną w art. 3(8) dyrektywy 2013/34/UE.
+
+
+                                                    5
+zasobów niematerialnych, o których mowa art. 49 ust. 3b ustawy o rachunkowości (wystarczy,
+aby jednostka nie przekroczyła jednego z ww. progów, aby nie być objętą nowym zakresem
+jednostek zobowiązanych do sporządzania sprawozdawczości zrównoważonego rozwoju).
+
+Z uwagi na bardzo późne przyjęcie dyrektywy w stosunku do terminów sprawozdawczych za
+rok obrotowy 2025 wiele działań dotyczących tej sprawozdawczości zostało już podjętych.
+Jednostki zobowiązane do raportowania na mocy dotychczasowych przepisów, działając w
+dobrej wierze i z zachowaniem należytej staranności, podjęły już odpowiednie działania
+przygotowawcze do raportowania związane z gromadzeniem danych czy podpisaniem umowy
+z firmą audytorską na atestację sprawozdawczości zrównoważonego rozwoju, która w
+przypadku tych jednostek jest obowiązkowa.
+
+Należy podkreślić, że atestacja sprawozdawczości zrównoważonego rozwoju sporządzanej
+przez te jednostki jest neutralna z punktu widzenia limitu wynagrodzenia dla firmy audytorskiej
+za świadczenie na rzecz badanej jednostki innych usług niebędących badaniem, o którym mowa
+w art. 4 ust. 2 rozporządzenia 537/20146. Natomiast dobrowolna atestacja sprawozdawczości
+zrównoważonego rozwoju (sporządzanej przez jednostki nieobjęte obowiązkiem raportowania)
+jest wliczana do tego limitu zgodnie ze wskazanym przepisem rozporządzenia 537/2014.
+
+Biorąc pod uwagę zasadę zaufania i pewności prawa, wprowadzenie projektowanych
+przepisów nie będzie skutkowało wsteczną zmianą statusu atestacji sprawozdawczości
+zrównoważonego rozwoju z obowiązkowej na dobrowolną, gdyż dotyczy to zdarzeń, które
+miały miejsce przed dniem wejścia w życie projektowanych przepisów i były dokonywane
+zgodnie z dotychczas obowiązującymi przepisami. Jest to skutek bezpośredniego,
+natychmiastowego wejścia w życie tych przepisów i nie wymaga regulacji przejściowych.
+
+Zatem sprawozdawczość zrównoważonego rozwoju sporządzoną na mocy obecnie
+obowiązujących przepisów ustawy oraz atestację sprawozdawczości zrównoważonego rozwoju
+objętą umową o atestację dotyczącą tej sprawozdawczości uznaje się za obowiązkową.
+
+W przypadku jednostek, które zdecydują się nie skorzystać z ww. opcji, pozostają one w
+dotychczasowym reżimie sprawozdawczym, a wynagrodzenie za atestację sprawozdawczości
+zrównoważonego rozwoju pozostaje neutralne dla celów wyliczenia limitu wynagrodzenia dla
+
+
+
+
+6
+  Rozporządzenie Parlamentu Europejskiego i Rady (UE) nr 537/2014 z dnia 16 kwietnia 2014 r. w sprawie
+szczegółowych wymogów dotyczących ustawowych badań sprawozdań finansowych jednostek interesu
+publicznego, uchylające decyzję Komisji 2005/909/WE (Dz. Urz. UE L 158 z 27.05.2014, str. 77, z późn. zm.)
+
+
+                                                    6
+firmy audytorskiej za świadczenie na rzecz badanej jednostki innych usług niebędących
+badaniem.
+
+Ustawa wchodzi w życie z dniem następującym po dniu ogłoszenia, zgodnie z art. 4 ust. 2
+ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów normatywnych i niektórych innych aktów
+prawnych (Dz.U. z 2019 r. poz. 1461). Projektowane zmiany nie wprowadzają nowych
+obowiązków ani nie pogarszają sytuacji prawnej adresatów, a ich stosowanie nie wymaga
+podejmowania działań dostosowawczych. Ważny interes państwa wymaga natychmiastowego
+wejścia w życie projektowanych zmian, a zasady demokratycznego państwa prawnego nie stoją
+temu na przeszkodzie.
+
+Wprowadzenie omawianego wyłączenia nie powoduje skutków finansowych dla sektora
+finansów publicznych.
+
+Projektowana regulacja nie wymaga przedłożenia instytucjom i organom Unii Europejskiej, w
+tym   Europejskiemu     Bankowi Centralnemu,       w celu   uzyskania    opinii,   dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+
+Zawarte w projekcie ustawy regulacje nie stanowią przepisów technicznych w rozumieniu
+rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania
+krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.), dlatego
+też projekt ustawy nie podlega procedurze notyfikacji.
+
+Projekt ustawy jest zgodny z prawem UE.
+
+
+
+
+                                               7
+Nazwa projektu                                                                 Data sporządzenia
+Projekt ustawy o zmianie ustawy o rachunkowości                                5 stycznia 2026 r.
+
+Ministerstwo wiodące i ministerstwa współpracujące                             Źródło:
+Ministerstwo Finansów                                                          Prawo UE
+
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza                  Priorytet nr 38
+Stanu lub Podsekretarza Stanu
+Jurand Drop, Podsekretarz Stanu                                                Dyrektywa Parlamentu Europejskiego i
+                                                                               Rady (UE) 2026/… w sprawie zmiany
+Kontakt do opiekuna merytorycznego projektu                                    dyrektyw 2006/43/WE, 2013/34/UE, (UE)
+Agnieszka Stachniak, Zastępca Dyrektora Departamentu                           2022/2464 i (UE) 2024/1760 w odniesieniu
+Efektywności Wydatków Publicznych i Rachunkowości, tel. 22 694                 do niektórych wymogów dotyczących
+44 02, e-mail: agnieszka.stachniak@mf.gov.pl                                   sprawozdawczości przedsiębiorstw w
+                                                                               zakresie zrównoważonego rozwoju i
+Joanna Guzowska, Radca, Zespół Międzynarodowych Regulacji w                    niektórych wymogów w zakresie należytej
+zakresie Rachunkowości i Rewizji Finansowej, tel. 538 506 447,                 staranności przedsiębiorstw w zakresie
+e-mail: joanna.guzowska@mf.gov.pl                                              zrównoważonego rozwoju – znajdująca się
+                                                                               na końcowym etapie unijnego procesu
+                                                                               legislacyjnego1
+
+                                                               Nr w wykazie prac
+                                                               UC136
+                                           OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+
+Projekt ustawy o zmianie ustawy o rachunkowości ma na celu wdrożenie do przepisów krajowych opcji dla państwa
+członkowskiego przewidzianej w art. 3 pkt 1 lit. c) dyrektywy Parlamentu Europejskiego i Rady (UE) 2026/ … w
+sprawie zmiany dyrektyw 2006/43/WE, 2013/34/UE, (UE) 2022/2464 i (UE) 2024/1760 w odniesieniu do niektórych
+wymogów dotyczących sprawozdawczości przedsiębiorstw w zakresie zrównoważonego rozwoju i niektórych
+wymogów w zakresie należytej staranności przedsiębiorstw w zakresie zrównoważonego rozwoju – znajdującej się
+na końcowym etapie unijnego procesu legislacyjnego2 [zwana dalej „dyrektywą zmieniającą”], która wprowadza m.in.
+zmiany w art. 5 ust. 2 dyrektywy Parlamentu Europejskiego i Rady (UE) 2022/2464 z dnia 14 grudnia 2022 r. w
+sprawie zmiany rozporządzenia (UE) nr 537/2014, dyrektywy 2004/109/WE, dyrektywy 2006/43/WE oraz dyrektywy
+2013/34/UE w odniesieniu do sprawozdawczości przedsiębiorstw w zakresie zrównoważonego rozwoju3, tzw. CSRD.
+CSRD wprowadziła obowiązek przedstawiania informacji o wpływie działalności jednostki na obszar środowiskowy,
+spraw społecznych, w tym praw człowieka, oraz ładu korporacyjnego, a także wpływu tych trzech obszarów na
+rozwój, wyniki i sytuację jednostki (tzw. sprawozdawczość zrównoważonego rozwoju lub sprawozdawczość ESG).
+Do sprawozdawczości są zobowiązane obecnie jednostki duże oraz małe i średnie jednostki będące emitentami
+papierów wartościowych dopuszczonych do obrotu na jednym z rynków regulowanych Europejskiego Obszaru
+Gospodarczego, a także jednostki dominujące dużych grup. Obowiązek raportowania po raz pierwszy zgodnie z
+wymogami CSRD został rozłożony na trzy etapy:
+− w 2025 r. za rok obrotowy 2024 – zaraportowały największe jednostki zainteresowania publicznego zatrudniające
+  ponad 500 pracowników i przekraczające co najmniej jeden z progów finansowych dla jednostki dużej, a także
+
+ 1
+   8 grudnia 2025 r. w ramach trilogów między Radą UE, Parlamentem Europejskim i Komisją Europejską osiągnięto wstępne
+ porozumienie polityczne w zakresie wniosku dotyczącego dyrektywy Parlamentu Europejskiego i Rady zmieniającego dyrektywy
+ 2006/43/WE, 2013/34/UE, 2022/2464 i 2024/1760 w odniesieniu do niektórych wymogów dotyczących sprawozdawczości
+ przedsiębiorstw w zakresie zrównoważonego rozwoju i należytej staranności COM(2025) 81.
+ Ww. porozumienie zostało potwierdzone przez Coreper II w dniu 10 grudnia 2025 r. oraz w głosowaniu plenarnym Parlamentu
+ Europejskiego w dniu 16 grudnia 2025 r. Projekt dyrektywy podlegał opracowaniu przez prawników lingwistów. Ostateczny tekst
+ dyrektywy został przyjęty przez Parlament Europejski w dniu 10 lutego 2026 r. Przyjęcie ostatecznego tekstu przez Radę UE nastąpi
+ na posiedzeniu Rady do Spraw Ogólnych w dniu 24 lutego 2026 r. (w ramach punktów A – bez dyskusji) i zostanie przekazany do
+ niezwłocznej publikacji w Dzienniku Urzędowym UE.
+ Mimo braku formalnego zakończenia prac nad dyrektywą na poziomie UE, istnieje konieczność pilnych prac legislacyjnych na
+ poziomie krajowym w celu jak najszybszego wdrożenia jednej z opcji zawartych w tym akcie prawnym, która umożliwia państwom
+ członkowskim zwolnienie jednostek z pierwszego etapu, które znajdą się poza nowym zakresem jednostek zobowiązanych do
+ raportowania, z raportowania za lata obrotowe 2025 i 2026.
+ 2
+   Dz. Urz. UE L …
+ 3
+   Dz. Urz. UE L 322 z 16.12.2022, str. 15, z późn. zm.).
+  jednostki zainteresowania publicznego stojące na czele grupy, w której zatrudnienie przekracza 500 osób oraz która
+  przekracza co najmniej jeden z progów finansowych dla dużej grupy,
+− w 2028 r. za rok obrotowy 2027 – obowiązek raportowania dotyczy pozostałych jednostek dużych i pozostałych
+  dużych grup,
+− w 2029 r. za rok obrotowy 2028 – obowiązek raportowania dotyczy małych i średnich emitentów z rynku
+  regulowanego.
+Należy przy tym podkreślić, że pierwotne terminy pierwszego raportowania dla jednostek z drugiego i trzeciego etapu
+zostały przesunięte o dwa lata zgodnie z dyrektywą Parlamentu Europejskiego i Rady (UE) 2025/794 z dnia 14
+kwietnia 2025 r. w sprawie zmiany dyrektywy (UE) 2022/2464 i (UE) 2024/1760 w odniesieniu do dat, od których
+państwa członkowskie mają stosować niektóre wymogi dotyczące sprawozdawczości przedsiębiorstw w zakresie
+zrównoważonego rozwoju i niektóre wymogi w zakresie należytej staranności przedsiębiorstw w zakresie
+zrównoważonego rozwoju4 (tzw. „stop-the-clock”) wdrożonej do przepisów krajowych ustawą z dnia 9 lipca 2025 r.5
+W ramach nadrzędnego celu znoszenia nadmiernych obciążeń biurokratycznych i administracyjnych dla
+przedsiębiorców w UE oraz poprawy ich konkurencyjności, szczególnie w kontekście rosnącej presji konkurencyjnej
+ze strony państw spoza UE, 26 lutego 2025 r. Komisja Europejska przedstawiła pakiet uproszczeń w obszarze
+zrównoważonego rozwoju, tzw. Omnibus I. Uproszczenia w zakresie dyrektywy CSRD zawarto w dwóch projektach
+aktów prawnych:
+− pierwszy z nich, tzw. „stop-the-clock”, jak wskazano powyżej, został już przyjęty i wdrożony;
+− w drugim projekcie (wniosek dotyczący dyrektywy Parlamentu Europejskiego i Rady zmieniającej dyrektywy
+  2006/43/WE, 2013/34/UE, 2022/2464 i 2024/1760 w odniesieniu do niektórych wymogów dotyczących
+  sprawozdawczości przedsiębiorstw w zakresie zrównoważonego rozwoju i należytej staranności COM(2025) 81)
+  zaproponowano zmiany merytoryczne w zakresie sprawozdawczości zrównoważonego rozwoju mające na celu jej
+  uproszczenie. Projekt ten został ostatecznie przyjęty przez Parlament Europejski i Radę UE w postaci dyrektywy
+  zmieniającej, którą państwa członkowskie w zakresie zmian do CSRD mają obowiązek wdrożyć do końca 2026 r.
+Dyrektywa zmieniająca m.in. znacząco zawęża zakres jednostek zobowiązanych do sporządzania sprawozdawczości
+zrównoważonego rozwoju – do jednostek, w których zatrudnienie przekracza 1000 osób, a przychody netto ze
+sprzedaży przekraczają 450 mln euro. Jednocześnie wskazuje ona, że jednostki z pierwszego etapu (tzw. pierwszej
+fali) finalnie mają raportować za lata obrotowe 2024, 2025 i 2026 (art. 3 pkt 1 lit. a ppkt (i) dyrektywy zmieniającej
+wprowadzający zmianę brzmienia art. 5 ust. 2 akapit pierwszy lit. a CSRD). Niemniej jednak umożliwia ona państwom
+członkowskim zwolnienie tych jednostek z pierwszej fali, które znajdą się poza nowym zakresem jednostek
+zobowiązanych do raportowania, z raportowania za lata obrotowe 2025 i 2026 (art. 3 pkt 1 lit. c) dyrektywy
+zmieniającej6). Niniejszy projekt ustawy ma na celu jak najszybsze wdrożenie tej opcji, aby jednostki, które mają rok
+obrotowy równy kalendarzowemu, mogły z niej ewentualnie skorzystać przed terminem sporządzenia sprawozdania
+z działalności za 2025 r., który przypada z końcem marca 2026 r. Jednostki, których rok obrotowy jest inny niż rok
+kalendarzowy, będą mogłyby skorzystać z opcji przed terminem sporządzenia sprawozdania z działalności, który
+przypada 3 miesiące od końca roku obrotowego. Decyzja o skorzystaniu z opcji będzie podejmowana przez
+kierownika jednostki, biorąc m.in. pod uwagę strategię biznesową jednostki i korzyści z raportowania, obowiązki w
+zakresie raportowania (dotychczasowe i przyszłe), nakłady związane z raportowaniem, a także ryzyko związane z
+terminem finalizacji procesu legislacyjnego na poziomie unijnym i krajowym.
+
+
+
+
+4
+  Dz. Urz. UE L 2025/794 z 16.04.2025.
+5
+  ustawa z dnia 9 lipca 2025 r. zmieniająca ustawę o zmianie ustawy o rachunkowości, ustawy o biegłych rewidentach, firmach
+audytorskich oraz nadzorze publicznym oraz niektórych innych ustaw (Dz. U. poz. 1020).
+6
+  „Art. 3 Zmiany do dyrektywy (UE) 2022/2464:
+„W dyrektywie (UE) 2022/2464 wprowadza się następujące zmiany:
+  (1) w art. 5 ust. 2 wprowadza się następujące zmiany:
+      a) w akapicie pierwszym wprowadza się następujące zmiany:
+          (i) w lit. a), formuła wprowadzająca otrzymuje brzmienie:
+          „w odniesieniu do lat obrotowych rozpoczynających się między dniem 1 stycznia 2024 a dniem 31 grudnia 2026:”
+      c) dodaje się akapit piąty w brzmieniu:
+      „Na zasadzie odstępstwa od lit. a) akapitu pierwszego i lit. a) akapitu trzeciego państwa członkowskie mogą zwolnić
+      jednostki lub emitentów, których, w stosownych przypadkach, – w ujęciu skonsolidowanym – przychody netto ze sprzedaży
+      nie przekraczają 450 000 000 EUR lub średnia liczba zatrudnionych w roku obrotowym nie przekracza 1 000, z obowiązku
+      przestrzegania środków niezbędnych do zapewnienia zgodności z art. 1, z wyjątkiem pkt 14, oraz z art. 2, w odniesieniu do
+      lat obrotowych rozpoczynających się między dniem 1 stycznia 2025 r. a dniem 31 grudnia 2026 r.”;.
+                                                               2
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Dyrektywa zmieniająca dotyczy m.in. opcji dla państw członkowskich zwolnienia jednostek z pierwszej fali, które
+znajdą się poza nowym zakresem jednostek zobowiązanych do raportowania, z raportowania za lata obrotowe 2025 i
+2026.
+Grupa jednostek z pierwszej fali, które obowiązane były zaraportować na poziomie jednostkowym lub grupy
+kapitałowej za rok obrotowy 2024, szacowana jest na około 230 jednostek (w szacunku tym nie uwzględniono efektu
+wynikającego z możliwości skorzystania z opcji zwolnienia ze sprawozdawczości jednostkowej w przypadku
+sporządzenia sprawozdawczości grupy kapitałowej).
+W ramach ww. grupy część z tych jednostek nie spełnia nowych progów wynikających z dyrektywy zmieniającej, tj.
+na poziomie jednostkowym lub grupy kapitałowej poziom zatrudnienia nie przekracza 1000 pracowników, a
+przychody netto ze sprzedaży nie przekraczają 450 mln euro. Zgodnie z nowymi przepisami dyrektywy zmieniającej
+jednostki lub grupy kapitałowe nieprzekraczające tych progów nie będą zobowiązane do sporządzania
+sprawozdawczości zrównoważonego rozwoju od roku obrotowego 2027.
+Projekt ustawy o zmianie ustawy o rachunkowości, w ślad za dyrektywą zmieniającą, zakłada jak najszybsze
+wdrożenie opcji umożliwiającej zwolnienie jednostek z pierwszej fali, które nie spełniają nowych progów, z
+raportowania już za lata obrotowe 2025 i 2026. Stanowić to będzie ulgę dla tej grupy jednostek, która znajdzie się na
+podstawie dyrektywy poza zakresem jednostek obowiązkowo sporządzających sprawozdawczość ESG, a która
+zdecyduje się zaniechać raportowania. Skoro dyrektywa zmieniająca przewiduje taką opcję, to zasadne jest
+umożliwienie skorzystania z niej polskim podmiotom. Opcja ta zostanie wdrożona w ustawie o rachunkowości
+poprzez dodanie przepisu epizodycznego dającego możliwość z jej skorzystania za lata obrotowe 2025 i 2026.
+W celu zapewnienia sprawnego wdrożenia tej opcji pozostałe kwestie wynikające z dyrektywy zmieniającej będą
+podlegać wdrożeniu w ramach odrębnego projektu, który obejmie zmiany niewymagające natychmiastowego
+wdrożenia.
+
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+
+Projektowana zmiana ustawy wykonuje prawo UE w zakresie jednej z opcji przewidzianych w dyrektywie
+zmieniającej, w związku z czym należy przyjąć, że w innych państwach członkowskich, które już dokonały wdrożenia
+dyrektywy CSRD, mogą zostać przyjęte analogiczne przepisy. Ze względu na fakt, że jest to opcja, to państwa
+członkowskie mają wybór w tym zakresie.
+4. Podmioty, na które oddziałuje projekt
+            Grupa                     Wielkość                Źródło danych                     Oddziaływanie
+1. Jednostki zobowiązane       133 (szacunkowo)         Urząd Komisji Nadzoru          Wyłączenie z obowiązku
+   do sporządzenia                                      Finansowego (w oparciu o       sporządzania sprawozdawczości
+   sprawozdawczości ESG                                 dane za 2024 r.)               zrównoważonego rozwoju lub
+   po raz pierwszy za                                                                  sprawozdawczości
+   2024 r. (tzw. pierwsza                                                              zrównoważonego rozwoju grupy
+   fala), które będą mogły                                                             kapitałowej począwszy od roku
+   skorzystać z                                                                        obrotowego 2025
+   wyłączenia, tj. jednostki
+   zainteresowania
+   publicznego, które:
+   – nie przekraczają 1000
+   pracowników lub nie
+   przekraczają 450 mln
+   EURO przychodów
+   netto7; lub
+
+
+7
+  Zawartej w dyrektywie zmieniającej kwocie 450 mln euro odpowiada ujęta w projekcie ustawy kwota 1 900 000 000 zł. Została
+ona wyliczona na bazie oficjalnego kursu EUR do PLN opublikowanego w Dzienniku Urzędowych UE w dniu 19 lutego 2026 r. i
+zaokrąglona w górę do pełnych milionów, w oparciu o zasadę przeliczania kwot określonych w euro na kwoty w walutach krajowych
+państw członkowskich, które nie przyjęły euro, określoną w art. 3 ust. 9 dyrektywy Parlamentu Europejskiego i Rady 2013/34/UE
+w sprawie rocznych sprawozdań finansowych, skonsolidowanych sprawozdań finansowych i powiązanych sprawozdań niektórych
+rodzajów jednostek, zmieniającej dyrektywę Parlamentu Europejskiego i Rady 2006/43/WE oraz uchylającej dyrektywy Rady
+78/660/EWG i 83/349/EWG (Dz. Urz. UE L 182 z 29.06.2013, str. 19, z późn. zm.). Kwota ta będzie podlegać jeszcze weryfikacji
+                                                             3
+   – są jednostką
+   dominującą grupy
+   kapitałowej, która to
+   grupa nie przekracza
+   1000 pracowników oraz
+   nie przekracza 450 mln
+   EURO przychodów
+   netto.
+2. Firmy audytorskie         15 (szacunkowo)                            W związku z wyłączeniem grupy
+                                                       Polska Agencja Nadzoru
+                                                       Audytowego (PANA)jednostek z obowiązku
+                                                                        sporządzania sprawozdawczości
+                                                                        zrównoważonego rozwoju,
+                                                                        nastąpi zmniejszenie liczby
+                                                                        jednostek, które mają obowiązek
+                                                                        dokonywania atestacji tej
+                                                                        sprawozdawczości
+                                                                        przeprowadzanej przez firmy
+                                                                        audytorskie.
+3. Polska Agencja           1                                           W związku z zadaniami Agencji
+   Nadzoru Audytowego                                                   dotyczącymi nadzoru nad
+                                                                        firmami audytorskimi i biegłymi
+                                                                        rewidentami w zakresie atestacji
+                                                                        sprawozdawczości
+                                                                        zrównoważonego rozwoju,
+                                                                        zmniejszenie liczby jednostek,
+                                                                        które są obowiązane do
+                                                                        obowiązkowej atestacji tej
+                                                                        sprawozdawczości, może
+                                                                        oznaczać zmniejszenie zakresu
+                                                                        niektórych zadań nadzorczych
+                                                                        Agencji.
+4. Urząd Komisji Nadzoru 1                                              W związku z zadaniami Urzędu
+   Finansowego                                                          dotyczącymi nadzoru nad
+                                                                        podmiotami rynków
+                                                                        finansowych w zakresie
+                                                                        sprawozdawczości
+                                                                        zrównoważonego rozwoju,
+                                                                        zmniejszenie liczby jednostek,
+                                                                        które są zobowiązane do jej
+                                                                        sporządzania, może oznaczać
+                                                                        zmniejszenie zakresu niektórych
+                                                                        zadań nadzorczych Urzędu.
+5. Inwestorzy i potencjalni niemożliwa do                               Zmniejszenie liczby jednostek,
+   inwestorzy               oszacowania                                 które są zobowiązane do
+                                                                        sporządzania sprawozdawczości
+                                                                        zrównoważonego rozwoju,
+                                                                        oznacza zmniejszenie dostępu do
+                                                                        tej sprawozdawczości.
+6. Lokalna społeczność      niemożliwa do                               Zmniejszenie liczby jednostek,
+   oraz NGO                 oszacowania                                 które są zobowiązane do
+                                                                        sporządzania sprawozdawczości
+                                                                        zrównoważonego rozwoju,
+                                                                        oznacza zmniejszenie dostępu do
+                                                                        tej sprawozdawczości.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U.
+z 2025 r. poz. 677, z późn. zm.) oraz § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. –
+
+
+po oficjalnej publikacji dyrektywy, w świetle oficjalnego kursu EUR do PLN opublikowanego w Dz. Urz. UE na dzień wejścia w
+życie opublikowanej dyrektywy.
+                                                            4
+Regulamin pracy Rady Ministrów (M. P. z 2024 r. poz. 806, z późn. zm.) projekt ustawy z chwilą przekazania do
+uzgodnień z członkami Rady Ministrów został udostępniony w Biuletynie Informacji Publicznej na stronie
+Rządowego Centrum Legislacji (www.rcl.gov.pl) w celu umożliwienia zgłaszania opinii na jego temat przez
+wszystkie zainteresowane podmioty.
+Ze względu na pilność projektu, w ramach konsultacji publicznych i opiniowania projekt ustawy został przekazany
+przedstawicielom poniższych instytucji i organizacji, z 7 dniowym terminem na zgłaszanie ewentualnych uwag:
+   1. Bank Gospodarstwa Krajowego,
+   2. Bankowy Fundusz Gwarancyjny,
+   3. Federacja Przedsiębiorców Polskich,
+   4. Forum Związków Zawodowych,
+   5. Giełda Papierów Wartościowych w Warszawie S.A.,
+   6. Główny Urząd Statystyczny,
+   7. Green REV Institute,
+   8. Izba Domów Maklerskich,
+   9. Izba Gospodarcza Towarzystw Emerytalnych,
+   10. Izba Pracodawców Polskich,
+   11. Izba Zarządzających Funduszami i Aktywami,
+   12. Komisja Nadzoru Finansowego,
+   13. Krajowa Izba Gospodarcza,
+   14. Krajowa Rada Izb Rolniczych,
+   15. Krajowa Rada Spółdzielcza,
+   16. Krajowa Spółdzielcza Kasa Oszczędnościowo-Kredytowa,
+   17. Krajowy Depozyt Papierów Wartościowych S.A.,
+   18. Krajowy Związek Banków Spółdzielczych,
+   19. Narodowy Bank Polski,
+   20. NSZZ „Solidarność”,
+   21. Ogólnopolskie Porozumienie Związków Zawodowych,
+   22. Polska Agencja Nadzoru Audytowego,
+   23. Polska Izba Biegłych Rewidentów,
+   24. Polska Izba Ubezpieczeń,
+   25. Polska Konfederacja Pracodawców Prywatnych „Lewiatan”,
+   26. Polska Rada Biznesu,
+   27. Polskie Centrum Akredytacji,
+   28. Polskie Towarzystwo Gospodarcze,
+   29. Pracodawcy Rzeczypospolitej Polskiej,
+   30. Prokuratoria Generalna Skarbu Państwa,
+   31. Rzecznik Finansowy,
+   32. Stowarzyszenie Emitentów Giełdowych,
+   33. Stowarzyszenie Księgowych w Polsce,
+   34. Urząd Ochrony Konkurencji i Konsumentów,
+   35. Związek Banków Polskich,
+   36. Związek Pracodawców Business Centre Club,
+   37. Związek Przedsiębiorców i Pracodawców,
+   38. Związek Rzemiosła Polskiego.
+Jednocześnie, w grudniu 2025 r. zostały przeprowadzone prekonsultacje z ww. podmiotami w celu uzyskania ich
+opinii na temat zasadności wdrożenia ww. opcji do prawa polskiego. Odpowiedzi udzieliło 18 podmiotów.
+Zdecydowana większość respondentów poparła skorzystanie z tej opcji. Jeden z podmiotów sprzeciwił się wdrożeniu
+opcji (NSZZ Solidarność), a jeden podmiot sprzeciwił się zwolnieniu za 2025 r. (argumentując to m.in.
+zaawansowanym etapem przygotowań jednostek do raportowania za 2025 r.), popierając jednocześnie zwolnienie za
+2026 r. (Krajowa Izba Gospodarcza). Stowarzyszenie Emitentów Giełdowych zwróciło uwagę na ograniczone
+możliwości skorzystania z opcji zwolnienia z raportowania za rok obrotowy 2025, jednocześnie popierając jak
+najszybsze wdrożenie tej opcji, mając na uwadze emitentów, którzy mają rok obrotowy inny niż rok kalendarzowy.
+Niektórzy respondenci zwracali uwagę na pewne zagadnienia dotyczące zmiany podejścia do regulacji w zakresie
+sprawozdawczości zrównoważonego rozwoju (Związek Banków Polskich, Pracodawcy RP i Krajowa Izba
+Gospodarcza), które nie mogą być jednak zaadresowane w ramach procesu legislacyjnego wdrażającego tę opcję.
+
+
+
+
+                                                        5
+6. Wpływ na sektor finansów publicznych
+                                               Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                                                                                                     Łącznie
+                                 2026   2027    2028   2029    2030       2031   2032   2033       2034    2035
+                                                                                                                   (2026–2035)
+Dochody ogółem                   0,00   0,00    0,00   0,00    0,00       0,00   0,00   0,00       0,00    0,00       0,00
+budżet państwa                   0,00   0,00    0,00   0,00    0,00       0,00   0,00   0,00       0,00    0,00       0,00
+JST                              0,00   0,00    0,00   0,00    0,00       0,00   0,00   0,00       0,00    0,00       0,00
+pozostałe jednostki (PANA)       0,00   0,00    0,00   0,00    0,00       0,00   0,00   0,00       0,00    0,00       0,00
+Wydatki ogółem                   0,00   0,00    0,00   0,00    0,00       0,00   0,00   0,00       0,00    0,00       0,00
+budżet państwa                   0,00   0,00    0,00   0,00    0,00       0,00   0,00   0,00       0,00    0,00       0,00
+JST                              0,00   0,00    0,00   0,00    0,00       0,00   0,00   0,00       0,00    0,00       0,00
+pozostałe jednostki (PANA)       0,00   0,00    0,00   0,00    0,00       0,00   0,00   0,00       0,00    0,00       0,00
+Saldo ogółem                     0,00   0,00    0,00   0,00    0,00       0,00   0,00   0,00       0,00    0,00       0,00
+budżet państwa                   0,00   0,00    0,00   0,00    0,00       0,00   0,00   0,00       0,00    0,00       0,00
+JST                              0,00   0,00    0,00   0,00    0,00       0,00   0,00   0,00       0,00    0,00       0,00
+pozostałe jednostki (PANA)       0,00   0,00    0,00   0,00    0,00       0,00   0,00   0,00       0,00    0,00       0,00
+Źródła finansowania
+Dodatkowe               Wejście w życie ustawy nie spowoduje dodatkowych skutków finansowych dla jednostek
+informacje, w tym       sektora finansów publicznych, w tym budżetu państwa, polegających na zwiększeniu
+wskazanie źródeł        wydatków lub zmniejszeniu dochodów tych jednostek, w stosunku do wielkości
+danych i przyjętych     wynikających z obowiązujących przepisów.
+do obliczeń założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz
+   na rodzinę, obywateli i gospodarstwa domowe
+                                                        Skutki
+W ujęciu pieniężnym                                                                                                 Łącznie
+                                               2026     2027       2028          2029     2030            2031
+(w mln zł, ceny stałe z 2023 r.)                                                                                  (2026–2035)
+W ujęciu           Duże                        54,4     54,4          -           -            -           -         108,8
+pieniężnym         przedsiębiorstwa
+                   Sektor MŚP                   -         -           -           -            -           -          0,00
+                   rodzina, obywatele           -         -           -           -            -           -          0,00
+                   oraz gospodarstwa
+                   domowe
+W ujęciu           duże przedsiębiorstwa  Zwolniona część dużych przedsiębiorstw, która nie zdecyduje się na
+niepieniężnym                             kontynuację raportowania na zasadzie dobrowolności, będzie mogła
+                                          zaniechać raportowania już za lata obrotowe 2025 i 2026, co pozwoli na
+                                          ograniczenie ponoszonych przez nie kosztów.
+                  sektor mikro-, małych i Nie dotyczy.
+                  średnich
+                  przedsiębiorstw
+                  rodzina, obywatele      Zmniejszenie liczby jednostek, które są zobowiązane do sporządzania
+                  oraz gospodarstwa       sprawozdawczości zrównoważonego rozwoju, oznacza zmniejszenie
+                  domowe                  dostępu do tej sprawozdawczości.
+                                          Projektowana ustawa nie wpłynie na sytuację ekonomiczną i społeczną
+                                          rodziny, jak również na osoby niepełnosprawne i osoby starsze.
+Dodatkowe                Na potrzeby wdrożenia w Polsce dyrektywy CSRD w 2024 r. w ramach oceny skutków
+informacje, w tym        regulacji dokonano szacunków jednostkowych kosztów sprawozdawczości ESG dla
+wskazanie źródeł         wyodrębnionych kategorii przedsiębiorstw. Dla dużych przedsiębiorstw oszacowano, że
+danych i przyjętych do jednostkowe koszty powtarzalne wynosić będą 409 114 zł8 (bez dodatkowych kosztów
+obliczeń założeń         ponoszonych w pierwszym roku sprawozdawczości).
+
+
+8
+ Źródło: OSR do projektu ustawy o zmianie ustawy o rachunkowości, ustawy o biegłych rewidentach, firmach audytorskich oraz
+nadzorze publicznym oraz niektórych innych ustaw (UC14 w Wykazie Prac Rady Ministrów z 2024 r.).
+                                                               6
+                        W tabeli powyżej kwota wpływu wynika z pomnożenia ww. szacunku jednostkowego kosztu
+                        sprawozdawczości ESG przez liczbę 133, będącą szacowaną liczbą jednostek, które
+                        potencjalnie mogą skorzystać z wprowadzanego wyłączenia z obowiązku sporządzania tej
+                        sprawozdawczości (wynik zaokrąglony do pełnych mln zł). Jest to więc maksymalna
+                        możliwa redukcja kosztów, natomiast nie jest możliwe oszacowanie liczb jednostek, które
+                        faktycznie skorzystają z tej opcji. Zakłada się, że część z tych jednostek, ze względu na
+                        realizowaną strategię biznesową i potencjalne korzyści z raportowania, zdecyduje się na
+                        kontynuację raportowania na zasadzie dobrowolności.
+                        Ponadto w szacunku nie uwzględniono efektu wynikającego z możliwości skorzystania z
+                        opcji zwolnienia ze sprawozdawczości jednostkowej w przypadku sporządzenia
+                        sprawozdawczości grupy kapitałowej.
+                        Szacowana kwota oznacza łączny efekt możliwego zmniejszenia kosztów dla przedmiotowej
+                        kategorii jednostek. Efekt ten trwać będzie za lata obrotowe 2025 i 2026, czyli dotyczy
+                        kosztów, które odpowiednio mają być finalnie poniesione w 2026 r. i 2027 r. (dlatego zostały
+                        one ujęte dla tych lat dla uproszczenia obliczeń, mimo że część kosztów może być faktycznie
+                        ponoszona w poprzedzającym roku).
+
+8.  Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie         tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli  nie
+zgodności).                                         nie dotyczy
+   zmniejszenie liczby dokumentów                   zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                     zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy            wydłużenie czasu na załatwienie sprawy
+   inne: zmniejszenie zakresu zbieranych danych     inne:
+Wprowadzane obciążenia są przystosowane do ich                tak
+elektronizacji.                                               nie
+                                                              nie dotyczy
+
+W związku ze zmniejszeniem liczby jednostek z tzw. pierwszej fali, które są zobowiązane do sporządzania
+sprawozdawczości zrównoważonego rozwoju, nastąpi zmniejszenie obciążeń regulacyjnych w odniesieniu do tej grupy
+jednostek.
+
+9. Wpływ na rynek pracy
+
+W związku ze zmniejszeniem liczby jednostek z pierwszej fali, które są zobowiązane do sporządzania sprawozdawczości
+zrównoważonego rozwoju, nastąpi zmniejszenie zapotrzebowania na specjalistów w obszarze sprawozdawczości ESG i
+inne osoby świadczące usługi w obszarze tej sprawozdawczości i jej atestacji.
+
+10. Wpływ na pozostałe obszary
+
+    środowisko naturalne                  demografia                                informatyzacja
+    sytuacja i rozwój regionalny          mienie państwowe                          zdrowie
+    sądy powszechne, administracyjne      inne:
+lub wojskowe
+
+Omówienie wpływu        -
+
+11. Planowane wykonanie przepisów aktu prawnego
+Dyrektywa zmieniająca ma być wdrożona przez państwa członkowskie UE w zakresie zmian do CSRD do końca
+2026 r. Niemniej, by możliwe było skorzystanie przez jednostki z opcji objętej niniejszym projektem w stosunku do
+roku obrotowego 2025, niezbędne jest jak najszybsze wdrożenie tej opcji do przepisów krajowych. Zatem ustawa
+wdrażająca wejdzie w życie w terminie umożliwiającym części jednostek z pierwszej fazy skorzystanie ze zwolnienia
+ich z obowiązku sprawozdawczości ESG.
+
+
+
+
+                                                          7
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Dyrektywa zmieniająca nie przewiduje jej ewaluacji. Ewaluacja efektów dyrektywy CSRD, zgodnie z jej artykułem
+6 ust. 1, będzie przeprowadzona przez Komisję Europejską do 30 kwietnia 2029 r., a następnie co trzy lata, wraz
+z ewentualnymi wnioskami ustawodawczymi.
+
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                        8
+                                                                                                                      Warszawa, 16 stycznia 2026 r.
+
+
+                                                      Raport z konsultacji publicznych i opiniowania
+                                                projektu ustawy o zmianie ustawy o rachunkowości (UC136)
+
+1.   Omówienie wyników przeprowadzanych konsultacji publicznych i opiniowania.
+
+Projekt ustawy został skierowany do konsultacji publicznych do następujących podmiotów:
+
+Bank Gospodarstwa Krajowego, Bankowy Fundusz Gwarancyjny, Federacja Przedsiębiorców Polskich, Forum Związków Zawodowych, Giełda Papierów
+Wartościowych w Warszawie S. A., Główny Urząd Statystyczny, Green REV Institute, Izba Domów Maklerskich, Izba Gospodarcza Towarzystw Emerytalnych,
+Izba Pracodawców Polskich, Izba Zarządzających Funduszami i Aktywami, Komisja Nadzoru Finansowego, Krajowa Izba Gospodarcza, Krajowa Rada Izb
+Rolniczych, Krajowa Rada Spółdzielcza, Krajowa Spółdzielcza Kasa Oszczędnościowo-Kredytowa, Krajowy Depozyt Papierów Wartościowych, Krajowy
+Związek Banków Spółdzielczych, Narodowy Bank Polski, NSZZ „Solidarność”, Ogólnopolskie Porozumienie Związków Zawodowych, Polska Agencja Nadzoru
+Audytowego, Polska Izba Biegłych Rewidentów, Polska Izba Ubezpieczeń, Polska Konfederacja Pracodawców Prywatnych „Lewiatan”, Polska Rada Biznesu,
+Polskie Centrum Akredytacji, Polskie Towarzystwo Gospodarcze, Pracodawcy Rzeczypospolitej Polskiej, Prokuratoria Generalna Skarbu Państwa, Rzecznik
+Finansowy, Stowarzyszenie Emitentów Giełdowych, Stowarzyszenie Księgowych w Polsce, Urząd Ochrony Konkurencji i Konsumentów, Związek Banków
+Polskich, Związek Pracodawców Business Centre Club, Związek Przedsiębiorców i Pracodawców, Związek Rzemiosła Polskiego.
+
+
+Uwagi do projektu ustawy zgłosiły następujące podmioty:
+
+Krajowa Izba Gospodarcza, NSZZ „Solidarność”, Polska Izba Biegłych Rewidentów, Pracodawcy Rzeczypospolitej Polskiej, Stowarzyszenie Emitentów
+Giełdowych, Związek Przedsiębiorstw Finansowych w Polsce, MATERIALITY Sp. z o.o., Fundacja Instrat, Polska Agencja Nadzoru Audytowego.
+
+
+Projekt został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji.
+
+Do projektu zostały zgłoszone poniższe uwagi:
+                                                                           1
+      Zgłaszający
+Lp.                                             Uwagi                                                 Stanowisko MF
+        uwagi
+                    Komitet ds. Zrównoważonego Biznesu Krajowej Izby                 Uwaga nieuwzględniona.
+                    Gospodarczej podtrzymuje stanowisko przedstawione w piśnie z
+                    dnia 19 grudnia 2025 r. w ramach prekonsultacji dotyczących      Projekt ustawy wprowadza możliwość, a nie
+                    pakietu Omnibus I. Wówczas wskazaliśmy, że nie popieramy         obowiązek, zaprzestania raportowania za 2025 i
+                    zwolnienia jednostek z pierwszej fali CSRD z obowiązku           2026 r. przez jednostki, które znajdą się poza
+                    raportowania za rok 2025. Argumentowaliśmy to zaawansowanym      nowym zakresem jednostek zobowiązanych do
+                    etapem przygotowań raportów ESG, poniesionymi kosztami           sporządzania sprawozdawczości zrównoważonego
+                    związanymi z audytami, doradztwem i wdrożeniem systemów IT, a    rozwoju. Oznacza to, że jednostki, które rozpoczęły
+                    także ryzykiem chaosu regulacyjnego i utraty zaufania do         już przygotowania do raportowania za 2025 r. i
+                    stabilności prawa. Podkreślaliśmy również, że brak raportów      poniosły związane z tym koszty, mogą
+                    mógłby negatywnie wpłynąć na łańcuchy dostaw i pozycję           kontynuować raportowanie na dotychczasowych
+                    eksportową polskich przedsiębiorstw, które są kluczowymi         zasadach. Decyzja o zaprzestaniu raportowania
+                    ogniwami w relacjach z międzynarodowymi kontrahentami.           należy w pełni do kierownika jednostki.
+
+1        KIG        Komitet popiera możliwość zwolnienia jednostek z obowiązku       Skoro dyrektywa zawiera opcję zwolnienia, to
+                    raportowania za rok 2026, pod warunkiem wprowadzenia jasnych i   polskim przedsiębiorcom należy udostępnić taką
+                    stabilnych zasad oraz odpowiedniego vacatio legis. Takie         możliwość, przy czym decyzję o skorzystaniu z niej
+                    rozwiązanie daje przedsiębiorstwom czas na podjęcie świadomej    zawsze będzie podejmować dana jednostka.
+                    decyzji strategicznej – czy kontynuować raportowanie
+                    dobrowolnie, przejść na uproszczoną formułę, czy dostosować      Ponadto należy wskazać, że wdrożenie ww. opcji
+                    zakres raportowania do wymagań rynku i oczekiwań instytucji      do prawa polskiego uzyskało szerokie poparcie w
+                    finansowych.                                                     prekonsultacjach przeprowadzonych przez
+                                                                                     Ministerstwo Finansów.
+
+                                                                                     Jednocześnie należy zwrócić uwagę, że przepis
+                                                                                     został napisany w sposób elastyczny i obejmuje
+                                                                                     swoim zakresem również jednostki, których rok
+                                                                                     obrotowy nie pokrywa się z rokiem
+                                                                                     kalendarzowym.
+                                                                      2
+                  Prezydium Komisji Krajowej NSZZ „Solidarność” zgłasza           Uwaga nieuwzględniona.
+                  następujące uwagi do projektu ustawy o zmianie ustawy o
+                  rachunkowości.                                                  Dyrektywa 2026/X ogranicza zakres jednostek
+                  Prezydium Komisji Krajowej NSZZ „Solidarność” podtrzymuje       zobowiązanych do sporządzania sprawozdawczości
+                  negatywną ocenę propozycji dotyczącej umożliwienia państwom     zrównoważonego rozwoju, kierując się potrzebą
+                  członkowskim zwolnienia jednostek z pierwszej fali (tj.         zwiększenia konkurencyjności unijnych
+                  sporządzających sprawozdawczość zrównoważonego rozwoju po       przedsiębiorstw. Polska, jako państwo
+                  raz pierwszy za 2024 rok), które znajdą się poza nowym zakresem członkowskie UE, jest zobowiązana do jej
+                  jednostek zobowiązanych do raportowania, z raportowania za lata wdrożenia.
+                  obrotowe 2025 i 2026, wyrażoną w piśmie z dnia 19 grudnia 2025
+                  r. L.Dz. PBE/111382/794/2025, przesłanym do Ministerstwa        Skoro dyrektywa zawiera opcję zwolnienia, to
+                  Finansów w ramach prekonsultacji propozycji zawartej w          polskim przedsiębiorcom należy udostępnić taką
+                  opiniowanym projekcie.                                          możliwość, przy czym decyzję o skorzystaniu z niej
+       NSZZ
+2                 W piśmie tym wskazywaliśmy, iż w literaturze przedmiotu coraz   zawsze będzie podejmować dana jednostka.
+    „Solidarność”
+                  odważniej pojawiają się głosy, przełamujące stereotyp o tym, iż
+                  brak kompetencji i wysokie koszty sporządzenia sprawozdawczości Ponadto należy wskazać, że wdrożenie ww. opcji
+                  zrównoważonego rozwoju stanowią barierę nie do przejścia. Coraz do prawa polskiego uzyskało szerokie poparcie w
+                  częściej mówi się iż ESG służy nie tylko planecie, ale przede   prekonsultacjach przeprowadzonych przez
+                  wszystkim służy celom biznesowym.                               Ministerstwo Finansów.
+                  Dalej wskazuje się, iż wydatki w obszarze ESG traktowane są
+                  wprost jako inwestycje. Wdrażanie ESG to nie tylko kwestia
+                  wizerunku ale budowanie przewagi konkurencyjnej, realne
+                  zarządzanie ryzykiem biznesowym i budowanie bezpieczeństwa
+                  organizacji. Przedsiębiorstwa świadome wagi zrównoważonego
+                  rozwoju są lepiej przygotowane na zmiany regulacyjne, wstrząsy
+                  rynkowe, rosnące koszty energii czy też kryzysy w łańcuchach
+                  dostaw.
+                  Prezydium KK NSZZ „Solidarność" wskazuje, iż znakomita
+       NSZZ
+3                 większość przedsiębiorstw objętych obowiązkiem raportowania za Uwaga nie dotyczy zakresu przedmiotowego
+    „Solidarność”
+                  rok 2024 r. dobrowolnie sporządzała raporty zrównoważonego      projektu ustawy.
+                                                                      3
+                  rozwoju już w latach poprzednich. Raporty te były przygotowane w
+                  uwzględnieniem norm ISO i wytycznych GRI. Tym co ze
+                  związkowego punktu widzenia różni sprawozdawczość
+                  zrównoważonego rozwoju sporządzaną na podstawie dyrektywy
+                  Parlamentu Europejskiego I Rady (UE) 2022/2464 z dnia 14
+                  grudnia 2022 r. w sprawie zmiany rozporządzenia (UE) nr
+                  537/2014, dyrektywy 2004/109/WE, dyrektywy 2006/43/WE oraz
+                  dyrektywy 2013/34/UE w odniesieniu do sprawozdawczości
+                  przedsiębiorstw w zakresie zrównoważonego rozwoju, dalej:
+                  CSRD, jest wskazanie, iż ostatecznymi beneficjentami
+                  sprawozdawczości zrównoważonego rozwoju mają być m.in.
+                  związki zawodowe i przedstawiciele pracowników. Jednym z
+                  celów CSRD jest wzmocnienie dialogu społecznego (motyw 9).
+                  Realizacja tego celu znajduje rozwiniecie w motywie 14, w którym
+                  wskazane jest, iż brak informacji na temat zrównoważonego
+                  rozwoju dostarczanych przez jednostki ogranicza również zdolność
+                  zainteresowanych stron, w tym podmiotów społeczeństwa
+                  obywatelskiego, związków zawodowych i przedstawicieli
+                  pracowników do nawiązywania dialogu w kwestiach związanych
+                  ze zrównoważonym rozwojem. Prezydium Komisji Krajowej
+                  NSZZ „Solidarność" przypomina, iż wzmocnienie dialogu
+                  społecznego jest warunkiem osiągnięcia celów wskazanych w
+                  Dyrektywie Parlamentu Europejskiego i Rady (UE) 2022/2041 z
+                  dnia 19 października 2022 r. w sprawie adekwatnych wynagrodzeń
+                  minimalnych w Unii Europejskiej.
+                  Wskazywaliśmy również na praktykę łamania przez
+                  przedsiębiorstwa przepisów ustawy o rachunkowości w zakresie     Uwaga nie dotyczy zakresu przedmiotowego
+                  obowiązku przeprowadzania konsultacji z przedstawicielami        projektu ustawy.
+       NSZZ       pracowników w ramach sporządzania sprawozdań
+4
+    „Solidarność” zrównoważonego rozwoju. Jak wskazywaliśmy w przywołanym
+                  piśmie, z informacji pozyskanych w ramach prowadzonego
+                  projektu "Europejskie Standardy Raportowania Społecznego
+                  (ESRS) jako nowe narzędzie wzmacniania dialogu społecznego w
+                                                                     4
+                  firmach w zakresie wdrażania dyrektywy CSRD"
+                  współfinansowany ze środków unijnych" wynika, iż jedną z
+                  przyczyn niestosowania przez przedsiębiorstwa przepisów art. 63r
+                  ust. 8 lub 63x ust. 11 ustawy z dnia 29 września 1994 r. o
+                  rachunkowości (Dz. U. z 2023 r. poz. 120, z późn. zm.), dalej:
+                  ustawy o rachunkowości, jest sygnalizowana zarówno przez
+                  związki zawodowe oraz przez organizacje pracodawców już na
+                  etapie legislacyjnym nieprecyzyjność i niezrozumiałość przepisów
+                  art. 63r ust. 8 i art. 63x ust. 11 ustawy o rachunkowości. Brak
+                  zdefiniowania w ustawie wyrażenia „przedstawiciele
+                  pracowników" prowadzi do różnej interpretacji zakresu
+                  podmiotowego tego wyrażenia, włącznie z takim, które nie zalicza
+                  związków zawodowych do przedstawicieli pracowników.
+                  W ocenie Związku u podstawy problemu leży wadliwa i niepełna
+                  transpozycja CSRD w zakresie udziału przedstawicieli               Uwaga nie dotyczy zakresu przedmiotowego
+                  pracowników w procesie sporządzania sprawozdawczości               projektu ustawy.
+                  zrównoważonego rozwoju. Konsekwencją wadliwej transpozycji
+                  dyrektywy CSDR jest praktyka pomijania przez przedsiębiorstwa
+                  związków zawodowych w procesie przygotowywania
+                  oświadczenia o zrównoważonym rozwoju. (…) Polska
+                  implementacja CSRD proces informowania i omówienia istotnych
+                  informacji na temat zrównoważonego rozwoju sprowadziła
+       NSZZ       wyłącznie do konsultacji. Bez znaczenia prawnego jest wskazanie
+5
+    „Solidarność” w uzasadnieniu, iż dotyczy to zarówno informowania jak i
+                  omówienia, skoro w systemie prawa pracy, prawo do bycia
+                  informowanym jest odrębną konstrukcją prawną od prawa do
+                  konsultacji. Konsultacja nie jest synonimem informacji. Są to dwie
+                  odrębne konstrukcje prawne, przy czym proces konsultacji
+                  powinien być poprzedzony procesem informowania.
+                  W przejrzysty sposób relację między informowaniem a konsultacją
+                  wskazuje definicja informowania zawarta w art. 2 ust. 1 pkt f)
+                  dyrektywy 2009/38/WE Parlamentu Europejskiego i Rady z dnia 6
+                  maja 2009 r. w sprawie ustanowienia europejskiej rady zakładowej
+                                                                      5
+lub trybu informowania pracowników i konsultowania się z nimi w
+przedsiębiorstwach lub w grupach przedsiębiorstw o zasięgu
+wspólnotowym, Dz.U. L 122 z 16.5.2009, s. 28. Przywołany
+przepis stanowi, iż „informowanie” oznacza przekazywanie przez
+pracodawcę danych przedstawicielom pracowników, aby
+umożliwić im zapoznanie się z podnoszoną kwestią i zbadanie jej;
+informacja powinna być przedstawiana w odpowiednim momencie,
+w odpowiedni sposób i zawierać odpowiednią treść, aby możliwe
+było przeprowadzenie dogłębnej oceny ewentualnego wpływu i –
+w razie potrzeby – przygotowanie konsultacji z właściwym
+organem danego przedsiębiorstwa lub grupy przedsiębiorstw o
+zasięgu wspólnotowym.
+Podobnie, definicja konsultowania zawarta w art. 2 ust. 1 pkt g) tej
+dyrektywy wskazuje, iż „konsultowanie” oznacza nawiązywanie
+dialogu oraz wymianę poglądów między przedstawicielami
+pracowników i centralnym kierownictwem lub innym bardziej
+odpowiednim poziomem kierownictwa, w odpowiednim
+momencie, w odpowiedni sposób i o odpowiedniej treści, która
+umożliwiłaby przedstawicielom pracowników wyrażenie opinii na
+podstawie dostarczonych informacji, na temat proponowanych
+działań, których dotyczą konsultacje; bez uszczerbku dla zadań
+kierownictwa i w rozsądnym czasie działania te mogą być
+uwzględnione przez przedsiębiorstwa lub grupy przedsiębiorstw o
+zasięgu wspólnotowym; Innymi słowy konsultowanie ma na celu
+wyrażenie przez pracowników opinii na podstawie informacji
+dostarczonych w procesie informowania pracowników.
+Analogiczne rozwiązanie zawiera Dyrektywa 2002/14/WE
+Parlamentu Europejskiego i Rady z dnia 11 marca 2002 r.
+ustanawiająca ogólne ramowe warunki informowania i
+przeprowadzania konsultacji z pracownikami we Wspólnocie
+Europejskiej.
+Elementu przekazania informacji przedstawicielom pracowników,
+poprzedzającego konsultację (omówienie) zabrakło w polskiej
+                                                       6
+                  implementacji CSRD, mimo wymogu wskazanego w motywie 52
+                  zd. 1 CSRD, iż państwa członkowskie powinny zapewnić, aby
+                  sprawozdawczość w zakresie zrównoważonego rozwoju była
+                  prowadzona zgodnie z prawem pracowników do informacji i
+                  konsultacji.
+                  Drugim mankamentem polskiej implementacji dyrektywy CSRD
+                  jest brak zdefiniowania zakresu podmiotowego wyrażenia            Uwaga nie dotyczy zakresu przedmiotowego
+                  przedstawiciela pracowników. Idąc kierunkiem wskazanym przez projektu ustawy.
+                  Ministerstwo Finansów, za wskazówkę do opracowania definicji
+                  na potrzeby właściwej implementacji CSRD może służyć definicja
+                  „przedstawicieli pracowników” zawarta w tabeli nr 2 zawierającej
+                  terminy zdefiniowane w ESRS, str. 283. Zgodnie z tą definicją,
+                  pojęcie „przedstawicieli pracowników” oznacza:
+                  - przedstawicieli związków zawodowych, to znaczy przedstawicieli
+                  wyznaczonych lub wybranych przez związki zawodowe lub przez
+                  członków takich związków zgodnie z przepisami krajowymi i
+                  praktyką krajową;
+                  - należycie wybranych przedstawicieli, to znaczy przedstawicieli,
+       NSZZ       którzy są wybierani w wolnych wyborach przez pracowników
+6
+    „Solidarność” organizacji, niebędących pod wpływem lub kontrolą pracodawcy
+                  zgodnie z krajowymi przepisami ustawowymi lub wykonawczymi
+                  lub przepisami układów zbiorowych pracy, i których funkcje nie
+                  obejmują działalności uznanej w danym kraju za wyłączną
+                  prerogatywą związków zawodowych i których istnienie nie jest
+                  wykorzystywane do podważania pozycji zainteresowanych
+                  związków zawodowych lub ich przedstawicieli.
+                  Jak wskazuje treść definicji, przewidziany jest prymat
+                  przedstawicieli związkowych. Jako przedstawicieli pracowników w
+                  pierwszej kolejności uznaje się przedstawicieli związkowych. W
+                  drugiej kolejności za przedstawicieli pracowników uznaje się
+                  przedstawicieli wybranych przez pracowników, niezależnych od
+                  pracodawcy, których istnienie nie może być wykorzystywane do
+                  podważenia pozycji związków zawodowych.
+                                                                      7
+                 Niestety, brak doprecyzowania definicji przedstawicieli
+                 pracowników w ustawie o rachunkowości prowadzi do sytuacji,
+                 gdy w praktyce podważana jest pozycja związków zawodowych.
+                 Wyrażając poparcie niezmiennie akcentujemy, że wprowadzenie
+                 wyłączenia musi być połączone z podjęciem przez organ            Uwaga nie dotyczy zakresu przedmiotowego
+                 regulujący (Ministerstwo Finansów) oraz dwa kluczowe dla         projektu ustawy.
+                 raportowania zrównoważonego rozwoju organy nadzoru, to jest
+                 Komisję Nadzoru Finansowego oraz Polską Agencję Nadzoru
+                 Audytowego, niezwłocznych, stanowczych i skoordynowanych
+                 działań mających na celu eliminację realnych zagrożeń związanych
+                 z możliwym nieskoordynowanym wprowadzeniem zmian do
+    Pracodawcy   porządku prawnego.
+7
+        RP
+                 Postulujemy również, aby MF w koordynacji z organami
+                 nadzorującymi rynek kapitałowy i rynek audytorski (UKNF i
+                 PANA) ogłosiły szczegółową mapę drogową (road map) dla
+                 wdrożenia przepisów oraz zapewniły w okresie do chwili ich
+                 wdrożenia wytyczne dające emitentom, ich organom oraz
+                 audytorom możliwość zaplanowania swoich działań w sposób
+                 racjonalny, biorący pod uwagę wszystkie możliwe scenariusze
+                 wydarzeń w następnych tygodniach.
+                 Biorąc pod uwagę że kształt przepisów będzie jeszcze           Uwaga uwzględniona.
+                 doprecyzowywany, chcielibyśmy zwrócić uwagę na potencjalną
+                 niespójność proponowanego zwolnienia z ogólnym kierunkiem
+                 zmian. Otóż w ogólnym kierunku zmian obowiązek raportowania
+                 obejmie podmioty spełniające łącznie dwa warunki: (i) poziom
+    Pracodawcy   przychodów oraz (ii) poziom zatrudnienia. W proponowanych
+8
+        RP       przepisach dotyczących zwolnienia z obowiązku za lata 2025 i
+                 2026 również użyto spójnika “oraz” - jednakże w przypadku
+                 wyłączenia z obowiązku oznaczać to może, że podmiot
+                 przekraczający jeden z warunków nie jest zwolniony z
+                 obowiązków w latach 2025 i 2026. Trudno nam ocenić
+                 jednoznacznie, czy taka jest intencja ustawodawcy unijnego i
+                                                                   8
+          lokalnego czy też przepis wymaga jednoznacznego
+          doprecyzowania lub przeredagowania, tak aby nie wzbudzał
+          wątpliwości.
+          Zapis dotyczący prawa do zwolnienia powinien zamiast dwóch        Uwaga uwzględniona.
+          warunków do spełnienia łącznie przewidywać zwolnienie dla
+          wszystkich jednostek, które nie znajdą się w docelowym zakresie
+          CSRD, a zatem takich które nie przekroczą jednego lub drugiego
+          progu (zatrudnienia lub przychodów netto) – w zapisach powinna
+          być zmiana z „oraz” na „lub”.
+          Ponadto w opinii SEG wprawdzie systemowo w Dyrektywie ws.
+          rachunkowości stosuje się zasadę, że aby wejść na dany
+          obowiązek, to trzeba przekroczyć odpowiednie kryteria za dwa lata
+          z rzędu i analogicznie aby zejść z danego obowiązku, to trzeba
+          odpowiednich kryteriów nie przekraczać za dwa lata z rzędu –
+          jednakże przepis o nadzwyczajnym zwolnieniu z raportowania za
+          lata 2025 i 2026 powinien być potraktowany w wyjątkowy sposób i
+          patrzeć na zwolnienie pod kątem tego, czy podmiot by wszedł na
+          ten obowiązek od 1 stycznia 2027 (czyli musiałby przekraczać za
+9   SEG
+          rok 2026 i 2027 łącznie dwa kryteria) i z tego powodu to
+          wcześniejsze zwolnienie powinno dotyczyć nieprzekroczenia
+          jednego z dwóch kryteriów w roku za który ma być sporządzone
+          sprawozdanie, w przeciwnym razie istnieje ryzyko, że podmioty
+          nie będą podlegać pod zwolnienie z art. 84a mimo, że przy
+          transpozycji docelowej CSRD nie będą spełniać łącznego
+          przekroczenia dwóch progów za dwa lata z rzędu. Jeśli dany
+          podmiot uzna, że jego parametry się wahają, ale jest duże
+          prawdopodobieństwo, że jednak za 2027 rok wejdzie jednak pod
+          zmodyfikowany zakres CSRD, to zawsze może zdecydować o
+          dobrowolnym raportowaniu do tego czasu.
+          Jako SEG zakładamy, że przy transpozycji zmodyfikowanej CSRD
+          dla roku pierwszego roku, tj. 2027 obowiązywania zmienionej
+          CSRD na nowo w krajowych przepisach określony zostanie zakres
+          podmiotów objętych obowiązkami z CSRD, a zatem za rok 2027
+                                                            9
+           nie będą musiały zaraportować te podmioty, które za 2026 nie
+           przekroczyły obu lub tylko jednego z dwóch nowych progów, a
+           oba przekroczyły w 2027 r., ponieważ nie spełnią warunku w
+           zmodyfikowanej CSRD łącznego przekroczenia dwóch progów za
+           rok 2026 i 2027. I takie jednostki powinny też być za lata 2025 i
+           2026 zwolnione z obowiązków obecnej jeszcze CSRD.
+           Projektowany art. 84a zwalnia wszystkie jednostki poniżej nowych Uwaga uwzględniona.
+           wyższych progów (określonych w dyrektywie CSRD po
+           modyfikacji w wyniku inicjatywy unijnej Omnibus) z obowiązków
+           wynikających z CSRD i przepis ten nie przewiduje, że to kierownik
+           jednostki będzie podejmować decyzję o skorzystaniu z tego
+           zwolnienia (bo gdyby nie skorzystał, to jednostka pozostałaby w
+           reżimie obowiązkowego raportowania i ustawowej atestacji).
+           Tymczasem w Uzasadnieniu wskazano, że: „Decyzja o
+           skorzystaniu z opcji będzie podejmowana przez kierownika
+           jednostki biorąc m.in. pod uwagę strategię biznesową jednostki i
+           korzyści z raportowania, obowiązki w zakresie raportowania
+           (dotychczasowe i przyszłe), nakłady związane z raportowaniem, a
+           także ryzyko związane z terminem finalizacji procesu
+10   SEG
+           legislacyjnego na poziomie unijnym i krajowym.” Wydaje się, iż
+           być może intencją takiego zapisu w uzasadnieniu do projektu było
+           raczej zaadresowanie kwestii/problemu niepewności w
+           oczekiwaniu przez kierownika jednostki na wejście w życie
+           przepisu art. 84a zwalniającego z tych obowiązków
+           sprawozdawczych. Bowiem jeśli np. w marcu 2026 nastąpiłoby
+           wejście w życie, to te jednostki byłyby już z mocy prawa
+           zwolnione z tych obowiązków i jakakolwiek opublikowana przez
+           nie sprawozdawczość ESG po wejściu w życie tego przepisu
+           byłaby dobrowolną sprawozdawczością, a nie sprawozdawczością
+           w ramach nieskorzystania z opcji i pozostania pod obowiązkiem
+           sprawozdawczym (co akurat miałoby znaczenie przy obliczaniu
+           limitu wynagrodzeń biegłego rewidenta – atestacja obowiązkowa
+
+                                                            10
+           nie jest wliczana do limitu).
+           Podobne stwierdzenie sprzeczne z projektem znajduje się w OSR:
+
+           „Projekt ustawy o zmianie ustawy o rachunkowości, w ślad za
+           dyrektywą 2026/X, zakłada jak najszybsze wdrożenie opcji
+           umożliwiającej zwolnienie jednostek z pierwszej fali, które nie
+           spełniają nowych progów, z raportowania już za lata obrotowe
+           2025 i 2026.. Stanowić to będzie ulgę dla tej grupy jednostek, która
+           znajdzie się na podstawie dyrektywy poza zakresem jednostek
+           obowiązkowo sporządzających sprawozdawczość ESG, a która
+           zdecyduje się zaniechać raportowania. Skoro dyrektywa 2026/X
+           przewiduje taką opcję, to zasadne jest umożliwienie skorzystania z
+           niej polskim podmiotom. Opcja ta zostanie wdrożona w ustawie o
+           rachunkowości poprzez dodanie przepisu epizodycznego dającego
+           możliwość z jej skorzystania za lata obrotowe 2025 i 2026.
+           Z treści przepisu art. 84a wynika, że intencją projektodawcy jest
+           bezpośrednie zwolnienie z mocy prawa wszystkich jednostek i
+           jednostek dominujących z wymogów CSRD wprowadzonych do
+           ustawy o rachunkowości ustawą z dnia 6 grudnia 2024 r., a nie
+           umożliwienie wyboru, czy pozostają na tych obowiązkach, czy
+           korzystają ze zwolnienia przez okres dwóch lat czyli do wejścia w
+           życie nowego podmiotowego zakresu CSRD (w tej sytuacji przepis
+           dający opcję a nie bezpośrednie zwolnienie z mocy prawa
+           wszystkich określonych jednostek powinien być inaczej
+           sformułowany).
+
+           Tabela w OSR z kalkulacją ograniczenia kosztów (54,4 mln zł w          Uwaga nieuwzględniona.
+           roku 2026 i w roku 2027) oparta jest o szacunek jednostkowych
+           kosztów powtarzalnych (409 tys. zł / jednostkę) sporządzony na         Kalkulacja ograniczenia kosztów
+11   SEG   potrzeby transpozycji dyrektywy CSRD do Polskich przepisów w           sprawozdawczości zawarta w OSR została oparta
+           roku 2024. Szacunek ten dotyczył sporządzania raportów zgodnie         na sporządzaniu raportów zgodnie z Europejskimi
+           ze „starymi” standardami ESRS, wydanymi przez Komisję                  Standardami Sprawozdawczości Zrównoważonego
+           Europejską w Rozporządzeniu Delegowanym w 2023 r. EFRAG                Rozwoju (ESRS) obowiązującymi na etapie
+                                                                  11
+                    przygotował i przekazał do Komisji Europejskiej „uproszczone”    przygotowania projektu, przy uwzględnieniu ich
+                    standardy ESRS, które Komisja planuje wydać w formie             aktualnego stanu prawnego.
+                    rozporządzenia delegowanego w trakcie 2026 roku i umożliwić
+                    spółkom raportującym za rok 2026 stosowanie „starych” lub        Choć trwają prace nad uproszczeniem ESRS, ich
+                    „uproszczonych” standardów ESRS. EFRAG opublikował także         nowa wersja to ciągle projekt i nie została jeszcze
+                    dokument Cost-benefit analysis on the Draft Amended European     formalnie przyjęta, w związku z czym nie jest
+                    Sustainability Reporting Standards, którzy szacuje obniżenie     możliwe ani zasadne szacowanie ograniczenia
+                    jednostkowych kosztów powtarzalnych dla jednostek z Fali 1 o 35- kosztów w oparciu o rozwiązania, które nie są
+                    38% rocznie (Tabela 19 na s. 52 dokumentu). Szacunek             ostateczne i mogą ulec dalszym zmianom.
+                    ograniczenia kosztów w OSR dla roku 2027 (raporty za rok 2026)
+                    powinien zostać zatem odpowiednio skorygowany, tj. obniżony.
+                    Wykładnia literalna i celowościowa zmian zaakceptowanych przez Uwaga uwzględniona.
+                    organy unijne wskazuje, że obowiązkowi atestacji
+                    zrównoważonego rozwoju mają podlegać te podmioty, które
+                    zatrudniają powyżej 1000 pracowników i osiągnęły roczny
+       Związek
+                    przychów netto ze sprzedaży w wysokości 1 900 000 000 zł. Muszą
+     Przedsiębiorst
+                    zatem zostać spełnione oba te warunki. Brak spełnienia jednego z
+12         w
+                    nich (np. nieosiągnięcie odpowiedniej wysokości przychodu netto)
+     Finansowych
+                    powoduje, że taki podmiot nie podlega obowiązkowej atestacji
+       w Polsce
+                    zrównoważonego rozwoju.
+                    Mając powyższe na uwadze, postulujemy zmianę w
+                    projektowanym art. 84a funktora logicznego „oraz” (koniunkcja)
+                    na funktor logiczny „lub” (alternatywna łączna).
+                                                                                     Uwaga nieuwzględniona.
+                    Nadto wskazujemy na zagadnienie związane z terminem
+                    zakończenia procesu legislacyjnego i datą wejścia w życie
+                                                                                     Możliwość skorzystania z projektowanych
+       Związek      projektowanych zmian, albowiem będzie to decydować o
+                                                                                     przepisów nie jest ograniczona wyłącznie do
+     Przedsiębiorst możliwości skorzystania z tych przepisów w bieżącym roku przez
+                                                                                     jednostek posiadających rok obrotowy równy
+13         w        jednostki, które mają rok obrotowy równy kalendarzowemu i
+                                                                                     kalendarzowemu, a zróżnicowanie terminów
+     Finansowych obowiązujący termin sporządzenia sprawozdania z działalności za
+                                                                                     sprawozdawczych oznacza, że regulacja zachowa
+       w Polsce     2025 r. do końca marca 2026 r.
+                                                                                     zastosowanie również po upływie marca 2026 r.
+                    Niedotrzymanie terminu wejścia w życie projektowanych zmian
+                    (przed upływem terminu złożenia sprawozdania), o którym mowa
+
+                                                                          12
+                    wyżej, spowoduje, że przepis będzie formalnie obowiązywał, ale
+                    dla tej grupy podatników będzie przepisem martwym.
+
+                    Nieprzeprowadzenie odpowiednio dokładnej analizy i publicznych    Uwaga nieuwzględniona.
+                    konsultacji dotyczących przyszłości sprawozdawczości
+                    zrównoważonego rozwoju w Polsce.                                 W odniesieniu do wskazanego ryzyka ograniczenia
+                                                                                     dostępności danych w przypadku zaprzestania
+                   Projekt ustawy zakłada zwolnienie z obowiązku sprawozdawczości raportowania przez część jednostek należy
+                   wszystkich jednostek, które nie przekraczają progów 1000          podkreślić, że projekt ustawy wprowadza to
+                   pracowników i 1,9 mld zł przychodów rocznych. Rozumiemy, że       rozwiązanie wyłącznie w sposób fakultatywny i nie
+                   progi te wynikają wprost z procedowanej w Unii Europejskiej       eliminuje możliwości raportowania przez jednostki,
+                   zmiany dyrektywy CSRD w ramach projektu Omnibus. Jednakże w które uznają dalsze raportowanie i dostęp do
+                   naszej opinii decyzję o ustaleniu progów w Polsce powinna         danych za istotne z punktu widzenia relacji z
+                   poprzedzić szczegółowa analiza (uwzględniającą szerokie           inwestorami lub pozyskiwania finansowania.
+                   publiczne konsultacje). Pod uwagę w tej analizie powinny zostać
+                   wzięte co najmniej następujące kwestie:                           Jednocześnie należy podkreślić, że projekt ustawy
+                   - Sprawozdawczość zrównoważonego rozwoju pozwala                  wdraża opcję przewidzianą w dyrektywie 2026/X,
+     MATERIALI raportującym spółkom na łatwiejszy dostęp do korzystnego              która wprowadza nowy zakres jednostek
+14
+     TY Sp. z o.o. zrównoważonego finansowania.                                      zobowiązanych do raportowania od 2027 r., co
+                   - Drastyczne ograniczenie grona raportujących spółek spowoduje    oznacza, że ewentualne zmniejszenie dostępności
+                   problemy z dostępnością do danych dla instytucji finansowych      danych wynika z przyjętego kierunku
+                   (banki, firmy inwestycyjne, towarzystwa ubezpieczeniowe).         regulacyjnego, a nie z projektowanej opcji, której
+                   Instytucje te będą musiały wypełnić szacunkami (dane mniej        celem jest umożliwienie wcześniejszego,
+                   pewne i o niższej jakości niż pochodzące bezpośrednio od spółek   dobrowolnego dostosowania się do nowego
+                   dane podlegające atestacji) lub zakupem danych od pośredników     zakresu.
+                   (wzrost kosztów dla instytucji finansowych, a pośrednio także dla
+                   spółek poprzez pogorszenie warunków finansowania).                Dyrektywa 2026/X ogranicza zakres jednostek
+                   - Sprawozdawczość z zakresu zrównoważonego rozwoju stanowi        zobowiązanych do sporządzania sprawozdawczości
+                   kluczowy motywator dla doskonalenia zarządzania ryzykiem i        zrównoważonego rozwoju, kierując się potrzebą
+                   zwiększania odporności przedsiębiorstw. Koncentruje się ona na    zwiększenia konkurencyjności unijnych jednostek.
+                   prezentacji efektów zarzadzania wpływem na otoczenie i            Polska, jako państwo członkowskie UE, jest
+                   skuteczności w zarządzaniu ryzykiem. Model ten premiuje           zobowiązana do jej wdrożenia.
+                   podmioty o trwałych i odpornych modelach wytwarzania wartości.
+
+                                                                        13
+                   Publiczna ekspozycja dobrych praktyk tworzy system zachęt          Projekt ustawy dotyczy jednostek, które w
+                   zwiększający konkurencyjność gospodarki krajowej.                  docelowym zakresie dyrektywy 2026/X nie będą
+                   - Na całym świecie obserwowany jest wyraźny, nieprzerwany trend nią objęte. Jego nadrzędnym celem jest
+                   wdrażania systemów sprawozdawczości zrównoważonego                 zmniejszenie obciążeń regulacyjnych dla
+                   rozwoju. Szczególne znaczenie ma program objęcia stopniowo, do przedsiębiorców. Projekt nie przewiduje
+                   2030 roku, większości przedsiębiorstw w Chinach                    wprowadzania bardziej restrykcyjnych progów
+                   sprawozdawczością zrównoważonego rozwoju. Nadmiarowe               raportowania niż wynikające z dyrektywy 2026/X,
+                   ograniczenie raportowania przez spółki w Polsce pogorszy ich       gdyż stanowiłoby to tzw. goldplating, co jest
+                   pozycję konkurencyjną w stosunku do konkurentów z innych           sprzeczne z ww. nadrzędnym celem zmniejszania
+                   krajów, w szczególności Chin.                                      obciążeń regulacyjnych dla przedsiębiorców.
+                   - Część Państw Członkowskich Unii Europejskiej zapowiada, że
+                   nie planują one wdrażania tak wysokich progów, jakie są zawarte    Ponadto należy wskazać, że wdrożenie ww. opcji
+                   w dyrektywie zmieniającej dyrektywę CSRD, lecz zamierzają one do prawa polskiego uzyskało szerokie poparcie w
+                   ustanowić progi na niższych poziomach. W sytuacji, gdy to nastąpi, prekonsultacjach przeprowadzonych przez
+                   przedsiębiorstwa z tych krajów będą miały lepszy dostęp do         Ministerstwo Finansów.
+                   zrównoważonego finansowania niż przedsiębiorstwa Polskie.
+
+                   Nieuwzględnienie wpływu uproszczonych ESRS-ów.                   Uwaga nieuwzględniona.
+
+                   OSR do projektu ustawy w zakresie ograniczenia kosztów           Kalkulacja ograniczenia kosztów
+                   sprawozdawczości opiera się na szacunkach sporządzonych na       sprawozdawczości zawarta w OSR została oparta
+                   bazie „starych” standardów ESRS (wydanych przez Komisję          na sporządzaniu raportów zgodnie z Europejskimi
+                   Europejską w Rozporządzeniu Delegowanym 2023/2772).              Standardami Sprawozdawczości Zrównoważonego
+                   Opracowane przez EFRAG „uproszczone” standardy ESRS zostały      Rozwoju (ESRS) obowiązującymi na etapie
+     MATERIALI przekazane do Komisji Europejskiej, która planuje je wydać w         przygotowania projektu, przy uwzględnieniu ich
+15
+     TY Sp. z o.o. Rozporządzeniu Delegowanym w połowie 2026 r. i umożliwić         aktualnego stanu prawnego.
+                   spółkom raportowanie za rok 2026 już z wykorzystaniem
+                   „uproszczonych” ESRS-ów. EFRAG opublikował także dokument        Choć trwają prace nad uproszczeniem ESRS, ich
+                   Cost-benefit analysis on the Draft Amended European              nowa wersja to ciągle projekt i nie została jeszcze
+                   Sustainability Reporting Standards, w którym oszacowano          formalnie przyjęta, w związku z czym nie jest
+                   obniżenie powtarzalnego koszt stosowania „uproszczonych”         możliwe ani zasadne szacowanie ograniczenia
+                   ESRS-ów o 35-38%. Informacja ta powinna zostać uwzględniona      kosztów w oparciu o rozwiązania, które nie są
+                   w OSR.                                                           ostateczne i mogą ulec dalszym zmianom.
+                                                                      14
+                     Brak szacunku kosztów oraz utraconych korzyści związanych z      Uwaga nieuwzględniona.
+                     ograniczeniem raportowania.
+                                                                                      Wskazane koszty czy szacunek utraconych
+                   OSR projektu ustawy nie zawiera żadnych szacunków faktycznych korzyści są niemożliwe do wiarygodnego
+                   dodatkowych kosztów, które będą musiały ponieść spółki             oszacowania na etapie przygotowania projektu, ze
+                   dostarczające w nieskoordynowany sposób (tj. poza raportami)
+     MATERIALI dane instytucjom finansowym. Brak jest także szacunku utraconych względu na ich zależność od indywidualnych
+     TY Sp. z o.o. korzyści spółek z dostępu do zrównoważonego finansowania oraz uwarunkowań i decyzji poszczególnych jednostek.
+16
+
+                   szacunków kosztów dla środowiska naturalnego i dla
+                   społeczeństwa wynikających z obniżonej transparentności działań
+                   spółek. Informacje te powinny zostać odpowiednio
+                   przeanalizowane i uwzględnione, żeby Polski Ustawodawca mógł
+                   podjąć racjonale decyzje odnośnie do projektu ustawy.
+                   Dalsze ograniczanie transparentności poprzez legislację krajową    Uwaga nieuwzględniona.
+                   pogłębi przepaść w dostępie do danych między rynkiem polskim a
+                   rynkami zachodnimi. Inwestorzy zagraniczni wymagają danych         W odniesieniu do wskazanego ryzyka ograniczenia
+                   ESG do swoich modeli wyceny, a ich brak może skutkować             dostępności danych w przypadku zaprzestania
+                   nałożeniem na polskie aktywa dyskonta za ryzyko. Spółki            raportowania przez część jednostek należy
+                   transparentne mogą zostać odcięte od kapitału lub pozyskiwać go    podkreślić, że projekt ustawy wprowadza to
+                   znacznie drożej, a także znaleźć się poza spektrum zainteresowania rozwiązanie wyłącznie w sposób fakultatywny i nie
+                   dużych zagranicznych firm. Wstępne dane wskazują, że po            eliminuje możliwości raportowania przez jednostki,
+                   uwzględnieniu ustalonych w ramach Omnibus I zmian, w spektrum które uznają dalsze raportowanie i dostęp do
+      Fundacja     firm podlegających obowiązkowi raportowania pozostanie ok. 200 danych za istotne z punktu widzenia relacji z
+17
+       Instrat     spółek z Polski (lub mniej jeśli część skorzysta z wyłączeń dla    inwestorami lub pozyskiwania finansowania.
+                   spółek w ramach grupy kapitałowej, w której raportuje spółka
+                   matka), natomiast w gospodarkach niemieckiej i francuskiej będzie Jednocześnie należy podkreślić, że projekt ustawy
+                   to kolejno ok. 1600 i 600 podmiotów (w tym podmioty duże           wdraża opcję przewidzianą w dyrektywie 2026/X,
+                   podmioty finansowe posiadające filie w Polsce). Według             która wprowadza nowy zakres jednostek
+                   wstępnych wyliczeń również w Ukrainie, która wdraża unijny         zobowiązanych do raportowania od 2027 r., co
+                   acquis communautaire, liczba spółek pozostających w zakresie       oznacza, że ewentualne zmniejszenie dostępności
+                   dyrektywy plasuje się na poziomie wyższym niż w Polsce - ok. 330 danych wynika z przyjętego kierunku
+                   podmiotów. Szybkie wdrożenie części postanowień, które na          regulacyjnego, a nie z projektowanej opcji, której
+                   poziomie Unii Europejskiej wciąż pozostają w procesie              celem jest umożliwienie wcześniejszego,
+                                                                        15
+                legislacyjnym, którego zakończenie samo Ministerstwo Finansów   dobrowolnego dostosowania się do nowego
+                przewiduje na przełom lutego i marca 2026 r. może doprowadzić   zakresu.
+                do poniesienia przez firmy nadmiernych kosztów (o czym
+                wspominamy poniżej) oraz pogłębienia wrażenia chaosu
+                regulacyjnego.
+                                                                                Uwaga nieuwzględniona.
+
+                                                                                Projekt ustawy wprowadza możliwość, a nie
+                                                                                obowiązek, zaprzestania raportowania za 2025 i
+                                                                                2026 r. przez jednostki, które znajdą się poza
+                                                                                nowym zakresem jednostek zobowiązanych do
+                                                                                sporządzania sprawozdawczości zrównoważonego
+                                                                                rozwoju. Oznacza to, że jednostki, które rozpoczęły
+                                                                                już przygotowania do raportowania za 2025 r. i
+                                                                                poniosły związane z tym koszty, mogą
+                Projektowane zwolnienie obejmuje rok obrotowy rozpoczynający    kontynuować raportowanie na dotychczasowych
+                się 1 stycznia 2025 r. Jest to okres, za który wiele podmiotów  zasadach. Decyzja o zaprzestaniu raportowania
+                podjęło już działania przygotowawcze i zawarło umowy na         należy w pełni do kierownika jednostki.
+     Fundacja
+18              atestację sprawozdań zrównoważonego rozwoju. Wprowadzenie
+      Instrat
+                opcji zwolnienia na tym etapie, bez przepisów przejściowych,   Skoro dyrektywa zawiera opcję zwolnienia, to
+                dewaluuje poniesione nakłady i wprowadza chaos organizacyjny w polskim przedsiębiorcom należy udostępnić taką
+                firmach, które są gotowe do raportowania.                      możliwość, przy czym decyzję o skorzystaniu z niej
+                                                                               zawsze będzie podejmować dana jednostka.
+
+                                                                                Ponadto należy wskazać, że wdrożenie ww. opcji
+                                                                                do prawa polskiego uzyskało szerokie poparcie w
+                                                                                prekonsultacjach przeprowadzonych przez
+                                                                                Ministerstwo Finansów.
+
+                                                                                Jednocześnie należy zwrócić uwagę, że przepis
+                                                                                został napisany w sposób elastyczny i obejmuje
+                                                                                swoim zakresem również jednostki, których rok
+
+                                                                  16
+                                                                                     obrotowy nie pokrywa się z rokiem
+                                                                                     kalendarzowym.
+
+                  Zwolnienie z rygorów ustawy otwiera także drogę do publikowania
+                  informacji niefinansowych poza ustandaryzowanym formatem           Uwaga nie dotyczy zakresu przedmiotowego
+                  (ESRS) i bez atestacji. Stwarza to ryzyko, że podmioty zwolnione   projektu ustawy.
+      Fundacja    będą publikować jedynie wygodne dla siebie dane, zamiast pełnego
+19
+       Instrat    obrazu ryzyk, co w przypadku braku obowiązku atestacji
+                  doprowadzi do pojawienia się na rynku informacji nierzetelnej i
+                  nieporównywalnej oraz rozprzestrzeniania zjawiska
+                  greenwashingu.
+                  Apelujemy zatem, aby regulator przede wszystkim transparentnie
+                  informował o dalszych krokach legislacyjnych w zakresie            Uwaga nie dotyczy zakresu przedmiotowego
+                  wdrażania zmian spowodowanych przez Omnibus I, tak aby             projektu ustawy.
+                  zminimalizować ryzyka związane z niepewnością regulacyjną, do
+      Fundacja
+20                których należy również narastające zniechęcenie i negatywne
+       Instrat
+                  nastawienie spółek do raportowania kwestii zrównoważonego
+                  rozwoju. Rodzi to bowiem ryzyka nie tylko ekonomiczne
+                  (powiązane ze stabilnością obowiązywania ram prawnych), ale
+                  także polityczne, związane m.in ze zjawiskiem dezinformacji.
+                  Polska Agencja Nadzoru Audytowego, nie zgłasza uwag do             Uwaga uwzględniona.
+       Polska
+                  projektu ustawy, zwracając jednak uwagę, że w ocenie skutków
+      Agencja
+21                regulacji liczba firm audytorskich na które oddziałuje projekt,
+      Nadzoru
+                  podobnie jak liczba jednostek, które będą mogły skorzystać ze
+     Audytowego
+                  zwolnienia jest wartością szacunkową.
+
+
+
+
+                                                                     17
+2.   Informacja o okresie przeprowadzenia konsultacji publicznych i opiniowania i terminie wyznaczonym do zajęcia stanowiska
+
+Projekt został wysłany do konsultacji publicznych w dniu 8 stycznia 2026 roku. W związku z pilnym charakterem projektu termin na zajęcie stanowiska
+upływał 15 stycznia 2026 roku.
+
+3.   Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu z właściwymi organami i instytucjami Unii
+     Europejskiej, w tym Europejskim Bankiem Centralnym.
+
+Projekt nie wymaga zasięgnięcia opinii, dokonania konsultacji oraz uzgodnienia z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim
+Bankiem Centralnym.
+
+4.   Podmioty, które zgłosiły zainteresowanie pracami nad projektem w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa.
+
+Brak zgłoszeń w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa.
+
+
+
+
+                                                                            18
+                                                                                                                                    Wersja 19 lutego 2026 r.
+
+
+                                                                 TABELA ZGODNOŚCI
+
+
+
+TYTUŁ PROJEKTU                                Projekt ustawy zmieniającej ustawę o rachunkowości
+                                              Dyrektywa 2026/X [numer do uzupełnienia po publikacji dyrektywy] Parlamentu Europejskiego i Rady w
+TYTUŁ WDRAŻANEGO AKTU                         sprawie zmiany dyrektyw 2006/43/WE, 2013/34/UE, (UE) 2022/2464 oraz (EU) 2024/1760 w odniesieniu
+PRAWNEGO / WDRAŻANYCH AKTÓW                   do niektórych wymogów dotyczących sprawozdawczości przedsiębiorstw w zakresie zrównoważonego
+PRAWNYCH                                      rozwoju i niektórych wymogów w zakresie należytej staranności przedsiębiorstw w zakresie
+                                              zrównoważonego rozwoju
+                                              Przepisy ustawy wejdą w życie z dniem następującym po dniu ogłoszenia.
+                                              Termin wejścia w życie ustawy wynika z potrzeby zapewnienia jak najszybszego wdrożenia ustawy, aby
+                                              wybrane jednostki mogły skorzystać z możliwości zwolnienia ze sporządzania sprawozdawczości
+                                              zrównoważonego rozwoju przed terminem sporządzenia sprawozdania z działalności za 2025 r., który
+WYJAŚNIENIE TERMINU WEJŚCIA W
+                                              upływa z końcem marca 2026.
+ŻYCIE PROJEKTU / PROJEKTÓW
+                                              Zgodnie z art. 5 ust. 1 dyrektywy 2026/X państwa członkowskie wprowadzają w życie przepisy
+                                              ustawowe, wykonawcze i administracyjne niezbędne do wykonania tej dyrektywy w terminie 12 miesięcy
+                                              od dnia wejścia w życie dyrektywy. Termin wejścia w życie ustawy uwzględnia termin wdrożenia ww.
+                                              dyrektywy.
+                                                                Dyrektywa 2026/X
+                                              KONIECZNOŚĆ
+ JEDN.                                                                                TREŚĆ PRZEPISU / PRZEPISÓW
+                  TREŚĆ PRZEPISU UE            WDROŻENIA            JEDN. RED.                                                      UZASADNIENIE
+  RED.                                                                                             PROJEKTU
+                                                 TAK / NIE*
+  Art. 3 W dyrektywie (UE) 2022/2464, w art. TAK                  Art. 14 ust. 5 pkt Art. 14. 5. Przepisy art. 49 ust. 3b, art. W odniesieniu do lat
+  Pkt 1 5(2) wprowadza się następujące                            1 ustawy z dnia 55 ust. 2a zdanie pierwsze, art. 56 ust. obrotowych 2025 oraz 2026
+  lit. a zmiany:                                                  6 grudnia 2024 2c oraz rozdziału 6c ustawy zmienianej skorzystano z opcji
+ ppkt (i) (a) w akapicie pierwszym wprowadza                      r. o zmianie       w art. 1, w brzmieniu nadanym              przewidzianej w art. 3 pkt 1
+          się następujące zmiany:                                 ustawy o           niniejszą ustawą, oraz przepisy ustawy lit. c) dyrektywy 2026/X.
+          (i) w lit. a formuła wprowadzająca                      rachunkowości, zmienianej w art. 3, w brzmieniu
+          otrzymuje brzmienie: „w odniesieniu                     ustawy o           nadanym niniejszą ustawą, mają
+          do lat obrotowych rozpoczynających                      biegłych           zastosowanie po raz pierwszy do
+          się między dniem 1 stycznia 2024 a                      rewidentach,       sprawozdawczości zrównoważonego
+          dniem 31 grudnia 2026:”                                 firmach            rozwoju lub sprawozdawczości
+                                                                  audytorskich       zrównoważonego rozwoju grupy
+                                                                                                                 Wersja 19 lutego 2026 r.
+
+
+                                                    oraz nadzorze kapitałowej sporządzanej za rok
+                                                    publicznym oraz obrotowy rozpoczynający się:
+                                                    niektórych      1) po dniu 31 grudnia 2023 r. - w
+                                                    innych ustaw    przypadku jednostek, o których mowa
+                                                                    w art. 49b ust. 1 i art. 55 ust. 2b ustawy
+                                                                    zmienianej w art. 1, przy czym
+                                                                    wskazane w tych przepisach suma
+                                                                    aktywów bilansu na koniec roku
+                                                                    obrotowego i przychody netto ze
+                                                                    sprzedaży towarów i produktów za rok
+                                                                    obrotowy wynoszą odpowiednio:
+                                                                    a) 110 000 000 zł i 220 000 000 zł – w
+                                                                    przypadku, o którym mowa w art. 49b
+                                                                    ust. 1 pkt 2 ustawy zmienianej w art. 1,
+                                                                    b) 132 000 000 zł i 264 000 000 zł – w
+                                                                    przypadku, o którym mowa w art. 55
+                                                                    ust. 2b pkt 3 lit. b tiret drugie ustawy
+                                                                    zmienianej w art. 1;
+Art. 3    W dyrektywie (UE) 2022/2464, w art. TAK   Art. 1 projektu W ustawie z dnia 29 września 1994 r. o
+pkt 1     5(2) wprowadza się następujące                            rachunkowości (Dz. U. z 2023 r. poz.
+lit. c)   zmiany:                                                   120, z późn. zm.) wprowadza się
+          c) dodaje się akapit piąty w brzmieniu:                   następujące zmiany:
+          „Na zasadzie odstępstwa od lit. a)                        1) tytuł rozdziału 11 otrzymuje
+          akapitu pierwszego i lit. a) akapitu                      brzmienie:
+          trzeciego państwa członkowskie mogą                       „Zmiany w przepisach, przepisy
+          zwolnić jednostki lub emitentów,                          epizodyczne i przepisy końcowe”;
+          których, w stosownych przypadkach, –                      2) po art. 84 dodaje się art. 84a w
+          w ujęciu skonsolidowanym –                                brzmieniu:
+          przychody netto ze sprzedaży nie                          „Art. 84a. 1. W roku obrotowym
+          przekraczają 450 000 000 EUR lub                          rozpoczynającym się w okresie od dnia
+          średnia liczba zatrudnionych w roku                       1 stycznia 2025 r. do dnia 31 grudnia
+          obrotowym nie przekracza 1 000, z                         2026 r. jednostki obowiązane do
+          obowiązku przestrzegania środków                          stosowania przepisów art. 49 ust. 3b
+          niezbędnych do zapewnienia                                oraz rozdziału 6c mogą nie
+          zgodności z art. 1, z wyjątkiem pkt 14,                   wykonywać obowiązków
+                                                                               Wersja 19 lutego 2026 r.
+
+
+oraz z art. 2, w odniesieniu do lat   wynikających z tych przepisów, jeżeli
+obrotowych rozpoczynających się       w tym roku obrotowym i w roku
+między dniem 1 stycznia 2025 r. a     poprzedzającym ten rok nie
+dniem 31 grudnia 2026 r.”;            przekroczyły następujących wielkości:
+                                      1) 1000 osób – w przypadku
+                                          średniorocznego zatrudnienia w
+                                          przeliczeniu na pełne etaty, lub
+                                      2) 1 900 000 000 zł – w przypadku
+                                          przychodów netto ze sprzedaży
+                                          towarów i produktów za rok
+                                          obrotowy.
+                                      2. W roku obrotowym
+                                      rozpoczynającym się w okresie od dnia
+                                      1 stycznia 2025 r. do dnia 31 grudnia
+                                      2026 r. jednostki dominujące grup
+                                      kapitałowych obowiązane do
+                                      stosowania przepisów art. 55 ust. 2a
+                                      zdanie pierwsze, w zakresie
+                                      sporządzania sprawozdania z
+                                      działalności grupy kapitałowej według
+                                      wymogów określonych w art. 49 ust.
+                                      3b, oraz przepisów rozdziału 6c mogą
+                                      nie wykonywać obowiązków
+                                      wynikających z tych przepisów, jeżeli
+                                      w tym roku obrotowym i w roku
+                                      poprzedzającym ten rok nie
+                                      przekroczyły na poziomie grupy
+                                      kapitałowej następujących wielkości:
+                                      1) 1000 osób – w przypadku
+                                          średniorocznego zatrudnienia w
+                                          przeliczeniu na pełne etaty, lub
+                                      2) 1 900 000 000 zł po dokonaniu
+                                          wyłączeń konsolidacyjnych, o
+                                          których mowa w art. 60 ust. 2 i 6,
+                                          albo 2 280 000 000 zł przed
+                                                                                                        Wersja 19 lutego 2026 r.
+
+
+                                                                     dokonaniem tych wyłączeń – w
+                                                                     przypadku przychodów netto ze
+                                                                     sprzedaży towarów i produktów za
+                                                                     rok obrotowy.
+                                                                 3. Decyzję o niewykonywaniu
+                                                                 obowiązków zgodnie z ust. 1 i 2
+                                                                 podejmuje odpowiednio kierownik
+                                                                 jednostki albo kierownik jednostki
+                                                                 dominującej.”.
+Art. 5   1. Państwa członkowskie wprowadzają    Art. 2. projektu Art. 2. Ustawa wchodzi w życie z
+         w życie przepisy ustawowe,                              dniem następującym po dniu
+         wykonawcze i administracyjne                            ogłoszenia.
+         niezbędne do wykonania niniejszej
+         dyrektywy, z wyjątkiem jej art. 4, w
+         terminie 12 miesięcy od dnia wejścia
+         w życie dyrektywy.
+DPUE.950.175.2026 / 7
+RS
+Warszawa, /elektroniczny znacznik czasu/
+Dot.: KRM-0610-27-26 z 20 lutego 2026 r.
+
+
+Pani Joanna Knapińska
+Sekretarz Rady Ministrów
+
+
+Opinia
+o zgodności z prawem Unii Europejskiej projektu ustawy o zmianie ustawy o
+rachunkowości, wyrażona przez ministra właściwego do spraw członkostwa
+Rzeczypospolitej Polskiej w Unii Europejskiej
+
+Szanowna Pani Minister,
+
+w związku z przedłożonym projektem ustawy pozwalam sobie wyrazić poniższą
+opinię.
+Projekt ustawy jest zgodny z prawem Unii Europejskiej.
+Projekt ustawy ma na celu wdrożenie do krajowego porządku prawnego przepisów
+dyrektywy Parlamentu Europejskiego i Rady w sprawie zmiany dyrektyw 2006/43/WE,
+2013/34/UE, (UE) 2022/2464 oraz (EU) 2024/1760 w odniesieniu do niektórych
+wymogów dotyczących sprawozdawczości przedsiębiorstw w zakresie zrównoważonego
+rozwoju i niektórych wymogów w zakresie należytej staranności przedsiębiorstw w
+zakresie zrównoważonego rozwoju.
+
+Należy wskazać, iż na dzień sporządzenia tej opinii dyrektywa nie została jeszcze
+formalnie przyjęta w procedurze ustawodawczej Unii Europejskiej.
+
+W konsekwencji projekt ustawy wdrażającej dyrektywę odnosi się do aktu
+prawnego, który na obecnym etapie pozostaje projektem legislacyjnym Unii
+Europejskiej.
+
+Z wyrazami szacunku
+
+
+
+
+Do wiadomości:
+Pan Andrzej Domański
+Minister Finansów i Gospodarki
+
+
+
+
+Tel.: +48 22 523 8788                                       Al. J. Ch. Szucha 23
+iniemczycki.sekretariat@msz.gov.pl                          00-580 Warszawa
+www.gov.pl/dyplomacja
+

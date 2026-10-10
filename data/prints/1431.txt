@@ -1,0 +1,665 @@
+                                                                      Druk nr 1431
+                                                              Warszawa, 25 czerwca 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-103-25
+
+
+                                                             Pan
+                                                             Szymon Hołownia
+                                                             Marszałek Sejmu
+                                                             Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy o systemie ubezpieczeń
+   społecznych.
+        Projekt ma charakter deregulacyjny.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Rodziny, Pracy i Polityki Społecznej.
+
+
+                                                          Z poważaniem
+                                                           Donald Tusk
+                                           /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+             Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                     Projekt
+                                               U S T AWA
+
+                                                    z dnia
+
+                       o zmianie ustawy o systemie ubezpieczeń społecznych
+
+
+       Art. 1. W ustawie z dnia 13 października 1998 r. o systemie ubezpieczeń społecznych
+(Dz. U. z 2025 r. poz. 350, 620, 622 i 769) wprowadza się następujące zmiany:
+1)     w art. 45 w ust. 1 w pkt 3 kropkę zastępuje się średnikiem i dodaje się pkt 4 w brzmieniu:
+       „4) ewidencjonuje się informację o zgodzie, o której mowa w art. 50 ust. 28 i 31, wraz
+             z danymi osoby lub podmiotu, któremu płatnik składek udzielił zgody na dostęp do
+             danych.”;
+2)     w art. 50:
+       a)    w ust. 7 wprowadzenie do wyliczenia otrzymuje brzmienie:
+                    „7. W przypadkach, o których mowa w ust. 3–6, 12, 13 i 28, wniosek powinien
+             zawierać:”,
+       b)    dodaje się ust. 28–31 w brzmieniu:
+                    „28. Zakład, na wniosek złożony w postaci elektronicznej, udostępnia
+             bezpłatnie bankom, instytucjom finansowym, instytucjom kredytowym oraz
+             instytucjom pożyczkowym, o których mowa w art. 4 ustawy z dnia 29 sierpnia
+             1997 r. – Prawo bankowe (Dz. U. z 2024 r. poz. 1646, z późn. zm.1)), oraz osobom
+             prawnym,      jednostkom       organizacyjnym       lub    osobom      fizycznym      będącym
+             przedsiębiorcami, za zgodą płatnika składek, dane zgromadzone na koncie płatnika
+             składek, o których mowa w art. 45, obejmujące:
+             1)     numer NIP lub numer identyfikacyjny REGON, a jeżeli nie nadano tych
+                    numerów lub jednego z nich – numer PESEL lub serię i numer dowodu
+                    osobistego albo paszportu,
+             2)     nazwę skróconą lub imię i nazwisko,
+             3)     okres rozliczeniowy,
+             4)     stan rozliczeń należnych składek, do poboru których uprawniony jest Zakład
+
+
+
+
+1)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2024 r. poz. 1685 i 1863 oraz z
+     2025 r. poz. 146, 222, 525 i 769.
+                                               –2–
+
+
+          – w zakresie niezbędnym do zrealizowania przez banki, instytucje finansowe,
+          instytucje kredytowe oraz instytucje pożyczkowe wniosku płatnika składek
+          o udzielenie kredytu, pożyczki pieniężnej lub świadczenie innej usługi, o których
+          mowa w art. 5 i art. 6 ustawy z dnia 29 sierpnia 1997 r. – Prawo bankowe, albo
+          w zakresie niezbędnym do zweryfikowania sytuacji finansowej i gospodarczej
+          płatnika składek przez osoby prawne, jednostki organizacyjne lub osoby fizyczne
+          będące przedsiębiorcami.
+                  29. Dane i informacje, o których mowa w ust. 28, udostępnia się wyłącznie
+          w postaci elektronicznej, z uwzględnieniem przepisów dotyczących ochrony danych
+          osobowych.
+                  30. Zgoda, o której mowa w ust. 28, uprawnia do jednorazowego dostępu do
+          danych.
+                  31. Zgoda jest udzielana osobie lub podmiotowi uprawnionemu, o których
+          mowa w ust. 28, i jest przekazywana do Zakładu wraz z wnioskiem o udostępnienie
+          danych albo jest udzielana bezpośrednio Zakładowi i zawiera dane płatnika składek
+          oraz:
+          1)      imię i nazwisko oraz numer PESEL, a w razie gdy nie nadano numeru PESEL
+                  – serię i numer dowodu osobistego lub paszportu – w przypadku, jeżeli zgoda
+                  jest udzielana osobie fizycznej;
+          2)      nazwę oraz numer NIP albo REGON – w przypadku, jeżeli zgoda jest udzielana
+                  podmiotowi innemu niż osoba fizyczna.”.
+
+     Art. 2. Ustawa wchodzi w życie pierwszego dnia miesiąca po upływie 12 miesięcy od
+dnia ogłoszenia.
+                                     UZASADNIENIE
+
+Cel wprowadzenia przepisów
+
+Celem projektu jest usunięcie bariery administracyjnej polegającej na umożliwieniu
+systemowego mechanizmu dostępu do danych przedsiębiorcy posiadającego konto płatnika
+składek w Zakładzie Ubezpieczeń Społecznych (ZUS) dla niektórych podmiotów
+weryfikujących sytuację gospodarczą i finansową przedsiębiorcy. Wdrożenie tego rozwiązania
+ograniczy biurokrację, przyspieszy procesy decyzyjne i zwiększy efektywność gospodarki.
+Projekt ustawy stanowi propozycję deregulacji nr MC-17-190.
+
+   1. Obecny stan faktyczny i prawny
+
+Obecnie sprawdzenie rzetelności partnera biznesowego lub kontrahenta czy też udostępnianie
+informacji o nim w związku z prowadzeniem działalności gospodarczej m.in. salda rozliczeń
+na koncie płatnika składek, liczby zgłoszonych osób do ubezpieczeń w ZUS, na potrzeby oceny
+kredytowej jest czasochłonne z uwagi na konieczność jej wcześniejszego uzyskania,
+oczekiwania na jego wystawienie i przekazanie tych informacji do banku lub instytucji
+finansowej. Stanowi to utrudnienie organizacyjne dla przedsiębiorców, wpływa na efektywność
+instytucji i organów obsługujących, a także w ostateczności na płynność obrotu gospodarczego.
+
+Dodatkowo przedsiębiorcy muszą dokonywać oceny wiarygodności swoich partnerów
+handlowych głównie w oparciu o dokumenty papierowe.
+
+Podkreślając potrzebę zmiany, można odwołać się do raportu o stanie sektora małych i średnich
+przedsiębiorstw Polskiej Agencji Rozwoju Przedsiębiorczości (PARP) z 2024 r., zgodnie z
+którym kredyty i pożyczki krajowe stanowią 12,1% źródeł finansowania nakładów
+inwestycyjnych w małych i średnich przedsiębiorstwach. Według danych tego raportu
+przedsiębiorstwa należące do MSP wygenerowały 45,3% PKB (dane za 2021 r.).
+
+Ocena przez bank zdolności kredytowej jest jednym z podstawowych elementów zarządzania
+ryzykiem związanym z prowadzeniem działalności bankowej. Dla celu ustalenia, czy
+kredytobiorca ma zdolność kredytową, niezbędne jest przeprowadzenie przez bank badania
+różnych obszarów jego aktywności. Ubiegający się o kredyt, w tym również przedsiębiorca,
+jest bowiem zobowiązany do przedłożenia bankowi dokumentów i informacji niezbędnych do
+dokonania oceny zdolności kredytowej. Z kolei bank, stosownie do przyjętej regulacji,
+uzależnia udzielenie kredytu od dokonanej oceny zdolności kredytowej ubiegającego się o
+kredyt. Po zawarciu umowy kredytu kredytobiorca jest zobowiązany do umożliwienia bankowi
+podejmowania wszelkich czynności, które są niezbędne do dokonania oceny jego zdolności
+kredytowej oraz kontroli spłaty i wykorzystania kredytu. Należy więc dbać o kompletność
+dostarczanej        do     banku     dokumentacji,         w   tym   o   dostarczenie    niezbędnych
+dokumentów/zaświadczeń z urzędów i instytucji – w zakresie ubezpieczeń, z ZUS,
+zaświadczenie o niezaleganiu w opłacaniu składek, lub rozliczenia salda na koncie płatnika
+składek. Cyfrowy dostęp pozwoliłby bankowi, za zgodą wnioskodawcy, pobrać dane
+automatycznie – skracając czas analizy i zmniejszając obciążenia.
+
+Kolejną, bardzo istotną kwestią jest weryfikacja rzetelności partnera biznesowego/kontrahenta.
+Procedurę KYC1 reguluje ustawa z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy
+oraz finansowaniu terroryzmu (Dz. U. z 2025 r. poz. 644), gdzie w art. 33 i nast. wskazano, że
+instytucje obowiązane stosują wobec swoich klientów środki bezpieczeństwa finansowego.
+Procedura KYC dotyczy m.in. banków, spółdzielczych kas oszczędnościowo-kredytowych,
+przedsiębiorców prowadzących działalność kantorową, przedsiębiorców prowadzących
+działalność polegającą na obrocie lub pośrednictwie w obrocie dziełami sztuki, przedmiotami
+kolekcjonerskimi oraz antykami, podmiotów prowadzących działalność w zakresie usługowego
+prowadzenia ksiąg rachunkowych. Na potrzeby wskazanej procedury instytucje proszą także o
+aktualizowanie dokumentów, składanie oświadczeń, wyjaśnienia. Aktualnie ocena ta jest
+wykonywana bez jakiegokolwiek automatyzmu, tj. w oparciu o analizę dokumentów.
+
+Można również wskazać, że w okresie pandemii COVID-19 Polski Fundusz Rozwoju S.A.
+(PFR) wykorzystywał dane z ww. publicznych rejestrów celem oceny kwalifikacji
+przedsiębiorcy do otrzymania subwencji finansowej z Tarczy Finansowej. PFR pozyskiwał z
+ZUS informacje dotyczące stanu zatrudnienia oraz salda na koncie płatnika składek. Stan
+zatrudnienia ustalano na podstawie imiennych raportów rozliczeniowych za określony okres,
+przekazując dane w podziale na liczbę pracowników, liczbę etatów oraz liczbę
+współpracowników. PFR wykorzystywał te dane do weryfikacji wniosków o subwencje
+finansowe oraz do późniejszego rozliczania i ustalania wysokości kwoty podlegającej
+zwrotowi.       Weryfikacja      obejmowała       sprawdzenie    zgodności   danych     zawartych   w
+oświadczeniach przedsiębiorców z informacjami z baz danych ZUS, KAS oraz innych
+rejestrów publicznych, takich jak KRS, CEIDG czy GUS.
+
+Aktualnie brakuje systemowego mechanizmu dostępu do danych z ZUS i KAS potrzebnych do
+oceny sytuacji przedsiębiorców. Propozycja zakłada utworzenie cyfrowego narzędzia, które –
+
+
+1
+    Tj. Poznaj Swego Klienta (ang. Know Your Client)
+
+
+                                                       2
+za zgodą przedsiębiorcy – umożliwi automatyczne pobieranie danych przez uprawnione
+instytucje. To rozwiązanie ograniczy biurokrację, przyspieszy procesy decyzyjne i zwiększy
+efektywność gospodarki.
+
+Spodziewane korzyści
+
+Przewiduje się, że wdrożenie projektowanych zmian przyczyni się przede wszystkim do:
+    automatyzacji i przyspieszenia procesów oceny wiarygodności finansowej,
+    zmniejszenia obciążenia administracyjnego dla przedsiębiorców,
+    ułatwienia pozyskiwania danych przez banki, instytucje finansowe, kontrahentów,
+    większej przejrzystości i rzetelności informacji gospodarczej,
+    wzrostu efektywności procesów kredytowych.
+
+   2. Zakres zmian
+
+Wprowadzane rozwiązanie polega na nowelizacji przepisów art. 45 i art. 50 ustawy z dnia 13
+października 1998 r. o systemie ubezpieczeń społecznych (Dz. U. z 2025 r. poz. 350, z późn.
+zm.) poprzez rozszerzenie katalogu podmiotów uprawnionych do pozyskiwania danych z ZUS
+(art. 50 tej ustawy), jak również poprzez rozszerzenie zakresu danych ewidencjonowanych na
+koncie płatnika (art. 45 tej ustawy).
+
+Przepisy zawarte w art. 50 ustawy z dnia 13 października 1998 r. o systemie ubezpieczeń
+społecznych wskazują podmioty i organy, którym ZUS udostępnia dane z kont płatników
+składek dla celów realizacji obowiązków ustawowych. Są to m.in. sądy i prokuratorzy, organy
+podatkowe, Państwowa Inspekcja Pracy, Policja, Straż Graniczna, Służba Więzienna,
+komornicy sądowi i organy egzekucyjne w rozumieniu ustawy z dnia 17 czerwca 1966 r. o
+postępowaniu egzekucyjnym w administracji (Dz. U. z 2025 r. poz. 132, z późn. zm.), minister
+właściwy do spraw gospodarki oraz minister właściwy do spraw rodziny, pracy i
+zabezpieczenia społecznego, organy realizujące świadczenia rodzinne, świadczenia z funduszu
+alimentacyjnego oraz świadczenia wychowawcze, ośrodki pomocy społecznej, Komisja
+Nadzoru Finansowego, wojewodowie, Agencja Rozwoju Przemysłu S.A. i PFR S.A.
+
+Dlatego w celu umożliwienia realizacji celu projektu powyższą listę podmiotów uprawnionych
+poszerzono o banki, instytucje finansowe, instytucje kredytowe, instytucje pożyczkowe
+wymienione w art. 4 ustawy z dnia 29 sierpnia 1997 r. – Prawo bankowe (Dz. U. z 2024 r. poz.
+1646, z późn. zm.), a także inne podmioty (osoby prawne, jednostki organizacyjne lub osoby
+fizyczne będące przedsiębiorcami) weryfikujące płatnika składek (przedsiębiorcę) w zakresie
+jego sytuacji finansowej czy gospodarczej.
+
+
+                                             3
+Dostęp do określonych danych z konta płatnika pozwoli ww. podmiotom na potwierdzenie, czy
+przedsiębiorca kwalifikuje się do uzyskania kredytu, a także umożliwi zweryfikowanie jego
+rzetelności jako partnera biznesowego/kontrahenta w zakresie wypełniania przez niego
+obowiązków publicznoprawnych (terminowego opłacania należnych składek, do których poboru
+zobowiązany jest ZUS), a tym samym zweryfikowania jego płynności finansowej.
+
+Dane podlegające udostępnieniu, zewidencjonowane na koncie płatnika składek w ZUS, to:
+ numer NIP lub numer identyfikacyjny REGON, a jeżeli nie nadano tych numerów lub
+  jednego z nich – numer PESEL lub serię i numer dowodu osobistego albo paszportu,
+ nazwa skrócona lub imię i nazwisko,
+ okres rozliczeniowy,
+ stan rozliczeń należnych składek, do poboru których uprawniony jest ZUS.
+
+Dostęp do takich danych będzie możliwy za zgodą przedsiębiorcy, jako właściciela swoich
+danych, przy czym udzielona zgoda uprawnia do jednokrotnego uzyskania danych.
+
+Zgoda wraz z danymi identyfikującymi osobę lub podmiot uprawniony do dostępu do
+danych płatnika składek będzie przekazywana do ZUS za pośrednictwem podmiotu
+uprawnionego wraz z wnioskiem o udostępnienie danych albo przez płatnika składek
+bezpośrednio do ZUS, a podmiot uprawniony występować będzie do ZUS o udostępnienie
+danych płatnika składek.
+
+Zgoda płatnika składek, jako warunek uprawniający do dostępu do danych, będzie
+zapisywana na jego koncie w ZUS, o którym mowa w art. 45 ustawy z dnia 13 października
+1998 r. o systemie ubezpieczeń społecznych, a tym samym o przedmiotową zgodę
+rozszerzeniu ulegnie zakres dotychczas ewidencjonowanych na tym koncie danych. Dzięki
+tej zgodzie uprawnione podmioty mogłyby drogą elektroniczną uzyskać zestaw aktualnych
+i potrzebnych danych do wyżej wskazanych celów.
+
+Z powyższych względów proponuje się zmiany do art. 45 i art. 50 ustawy z dnia 13
+października 1998 r. o systemie ubezpieczeń społecznych.
+
+Zmiana ta będzie oznaczała również dostosowanie przez ZUS jego systemu
+informatycznego do udostępnienia danych zapisanych na kontach płatników składek w ZUS.
+
+Z powyższych powodów konieczna jest interwencja ustawodawcy.
+
+Szczegółowe zmiany w projekcie ustawy
+
+Zmiana ustawy z dnia 13 października 1998 r. o systemie ubezpieczeń społecznych (art. 1)
+
+
+                                            4
+Art. 1 pkt 1 (zmiana poprzez dodanie pkt 4 w ust. 1 w art. 45)
+
+Na koncie płatnika składek będzie zapisywana informacja o zgodzie, o której mowa w art. 50
+ust. 28 i 30, wraz z danymi osoby lub podmiotu, któremu płatnik składek udzielił zgody na
+dostęp do danych i informacji zgromadzonych na jego koncie płatnika składek.
+
+Art. 1 pkt 2 lit. a (zmiana w art. 50 ust. 7)
+
+Zgodnie z obowiązującym przepisami art. 50 ust. 7 ustawy z dnia 13 października 1998 r. o
+systemie ubezpieczeń społecznych, w przypadku udostępniania przez ZUS danych
+zgromadzonych na koncie płatnika składek, podmiot wnioskujący o ich udostępnienie musi
+podać imię i nazwisko lub nazwę skróconą płatnika składek oraz numery, o których mowa w
+art. 35 ust. 1 pkt 2, tj. NIP albo REGON, a jeżeli płatnikowi składek nie nadano tych numerów
+lub jednego z nich – numer PESEL lub serię i numer dowodu osobistego albo paszportu, lub
+jeden z nich, jeżeli jest wystarczający do identyfikacji płatnika składek.
+
+Zatem również w przypadku udostępnienia danych, o których mowa w projekcie, konieczne
+jest uzupełnienie przepisu wskazującego na ten obowiązek przez podmioty, które będą
+występować do ZUS o udostępnienie danych w zakresie niezbędnym do zrealizowania wniosku
+płatnika składek o udzielenie kredytu, pożyczki pieniężnej lub świadczenie innej usługi, o
+których mowa w Prawie bankowym, albo w zakresie niezbędnym do zweryfikowania sytuacji
+finansowej i gospodarczej płatnika składek będącego przedsiębiorcą.
+
+Art. 1 pkt 2 lit. b (dodanie ust. 28–31 do art. 50)
+
+W zakresie niezbędnym do zrealizowania przez banki, instytucje finansowe oraz instytucje
+kredytowe wniosku płatnika składek o udzielenie kredytu, pożyczki pieniężnej lub świadczenie
+innej usługi, o których mowa w art. 5 i art. 6 ustawy z dnia 29 sierpnia 1997 r. – Prawo bankowe,
+albo w zakresie niezbędnym do zweryfikowania sytuacji finansowej i gospodarczej płatnika
+składek przez osoby prawne, jednostki organizacyjne lub osoby fizyczne będące
+przedsiębiorcami, ZUS będzie udostępniał dane dotyczące płatnika składek zewidencjonowane
+na jego koncie płatnika składek w ZUS. Wskazane przepisy Prawa bankowego wyszczególniają
+czynności bankowe, którymi są m.in. udzielanie kredytów, udzielanie i potwierdzanie
+gwarancji bankowych oraz otwieranie i potwierdzanie akredytyw, udzielanie pożyczek
+pieniężnych oraz nabywanie i zbywanie wierzytelności pieniężnych.
+
+Zakres udostępnianych danych przez ZUS to:
+    dane identyfikacyjne (NIP lub REGON, a jeżeli nie nadano tych numerów lub jednego
+       z nich – numer PESEL lub serię i numer dowodu osobistego albo paszportu, a także
+
+
+                                                5
+       imię i nazwisko lub nazwę skróconą – w przypadku płatników będących osobami
+       fizycznymi, a nazwę skróconą w przypadku osób prawnych i jednostek
+       organizacyjnych),
+    okres rozliczeniowy oraz stan rozliczeń należnych składek, do poboru których
+       uprawniony jest ZUS, czyli składek na ubezpieczenia społeczne, ubezpieczenie
+       zdrowotne, Fundusz Pracy, Fundusz Solidarnościowy i Fundusz Gwarantowanych
+       Świadczeń Pracowniczych oraz Fundusz Emerytur Pomostowych.
+Przepis określi podmioty uprawnione jako:
+    banki, instytucje finansowe, instytucje kredytowe, a także instytucjom pożyczkowym,
+       zdefiniowane w art. 4 ustawy z dnia 29 sierpnia 1997 r. – Prawo bankowe,
+    osoby prawne, jednostki organizacyjne lub osoby fizyczne będące przedsiębiorcami
+       upoważnione przez płatnika składek do wglądu do jego danych w ZUS.
+Dane będą udostępniane przez ZUS wyłącznie w formie elektronicznej, uwzględniając
+niezbędną ich ochronę wskazaną w przepisach dotyczących ochrony danych osobowych.
+Zgoda będzie zapisywana na koncie płatnika składek i będzie uprawniać do jednorazowego
+dostępu do danych i będzie mogła być udzielona na dwa sposoby, albo:
+     osobie lub podmiotowi uprawnionemu i przekazywana jest do Zakładu wraz z
+       wnioskiem o udostępnienie danych, albo
+     udzielana bezpośrednio Zakładowi.
+Zgoda udzielona przez płatnika składek koncie podmiotowi lub osobie fizycznej
+identyfikowanych za pomocą:
+     imienia i nazwiska oraz numeru PESEL – w przypadku osób fizycznych będących
+        przedsiębiorcami, a w razie gdy nie nadano jej numeru PESEL – serią i numerem
+        dowodu osobistego lub paszportu,
+     nazwą oraz numerem NIP albo REGON – w przypadku podmiotów innych niż osoby
+        osoba fizyczna.
+
+Wejście w życie przepisów
+
+Projektowane zmiany będą mogły wejść w życie od pierwszego dnia miesiąca po upływie 12
+miesięcy od dnia ogłoszenia, z uwagi na konieczność zagwarantowania niezbędnego czasu do
+dostosowania systemu informatycznego przez ZUS do realizacji przepisu.
+
+Brak jest konieczności zamieszczania przepisów przejściowych.
+
+
+
+
+                                            6
+W ocenie projektodawcy przedmiot projektowanej regulacji nie jest sprzeczny z prawem Unii
+Europejskiej.
+
+Projekt ustawy nie podlega obowiązkowi przedstawienia właściwym organom i instytucjom
+Unii Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii,
+dokonania powiadomienia, konsultacji albo uzgodnienia.
+
+Przewidywane     rozwiązania    mają     pozytywny   wpływ     na   przedsiębiorców    poprzez
+automatyzację i przyspieszenie procesów oceny wiarygodności finansowej, zmniejszenie
+obciążenia administracyjnego dla przedsiębiorców, ułatwienia pozyskiwania danych przez
+banki, instytucje finansowe, kontrahentów, większej przejrzystości i rzetelności informacji
+gospodarczej, a także wzrost efektywności procesów kredytowych.
+
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2025 r. poz. 677) oraz § 52 uchwały nr 190 Rady Ministrów z dnia 29
+października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.)
+projekt ustawy został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej
+Ministra Rodziny, Pracy i Polityki Społecznej oraz w Biuletynie Informacji Publicznej na
+stronie podmiotowej Rządowego Centrum Legislacji, w serwisie „Rządowy Proces
+Legislacyjny”.
+
+Projektowana ustawa nie zawiera przepisów technicznych w rozumieniu przepisów
+rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania
+krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.) i w
+związku z tym nie podlega notyfikacji.
+
+Projektowane rozwiązania nie stwarzają zagrożeń korupcyjnych.
+
+
+
+
+                                               7
+                                                                         Data sporządzenia
+Nazwa projektu
+Projekt ustawy o zmianie ustawy o systemie ubezpieczeń społecznych       13.06.2025 r.
+Ministerstwo wiodące i ministerstwa współpracujące
+Ministerstwo Rodziny, Pracy i Polityki Społecznej                        Źródło:
+                                                                         Deregulacja MC-17-190
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza
+Stanu lub Podsekretarza Stanu                                            Nr w Wykazie prac legislacyjnych i
+dr hab. Sebastian Gajewski, Podsekretarz Stanu                           programowych Rady Ministrów: UDER56
+Kontakt do opiekuna merytorycznego projektu
+Andrzej Okułowicz – główny specjalista ds. legislacji w Departamencie
+Ubezpieczeń Społecznych – tel. 538 117 879, e-mail:
+andrzej.okulowicz@mrpips.gov.pl
+Sekretariat Departamentu Ubezpieczeń Społecznych – tel. 538 117 390
+
+                                       OCENA SKUTKÓW REGULACJI
+ 1. Jaki problem jest rozwiązywany?
+Celem projektu jest umożliwienie systemowego mechanizmu pozyskania danych przedsiębiorcy posiadającego konto
+płatnika składek w Zakładzie Ubezpieczeń Społecznych (ZUS) przez niektóre podmioty weryfikujące sytuację
+gospodarczą i finansową przedsiębiorcy, a tym samym usunięcie bariery administracyjnej. Pośrednim skutkiem tej zmiany
+jest ograniczenie biurokracji oraz przyspieszenie niektórych procesów decyzyjnych w obrocie gospodarczym, co
+pozytywnie wpłynie na jej efektywność.
+       1. Obecny stan faktyczny i prawny
+Obecnie sprawdzenie rzetelności partnera biznesowego lub kontrahenta czy też udostępnianie informacji o nim w związku
+z prowadzeniem działalności gospodarczej, m.in. salda rozliczeń na koncie płatnika składek, liczby zgłoszonych osób do
+ubezpieczeń w ZUS, na potrzeby oceny kredytowej jest procesem czasochłonnym – wymaga wystąpienia z odpowiednim
+wnioskiem, oczekiwania na udzielenie odpowiedzi oraz przekazania tych informacji do banku lub instytucji finansowej.
+Stanowi to utrudnienie organizacyjne dla przedsiębiorców, wpływa na efektywność instytucji i organów obsługujących, a
+także w ostateczności na płynność obrotu gospodarczego.
+Dodatkowo przedsiębiorcy muszą dokonywać oceny wiarygodności swoich partnerów handlowych głównie w oparciu o
+dokumenty papierowe.
+Podkreślając potrzebę zmiany można odwołać się do raportu o stanie sektora małych i średnich przedsiębiorstw Polskiej
+Agencji Rozwoju Przedsiębiorczości (PARP) z 2024 r., zgodnie z którym kredyty i pożyczki krajowe stanowią 12,1%
+źródeł finansowania nakładów inwestycyjnych w małych i średnich przedsiębiorstwach. Według danych tego raportu
+przedsiębiorstwa należące do MSP wygenerowały 45,3% PKB (dane za 2021 r.).
+Natomiast ocena przez bank zdolności kredytowej jest jednym z podstawowych elementów zarządzania ryzykiem
+związanym z prowadzeniem działalności bankowej. Dla celu ustalenia, czy kredytobiorca ma zdolność kredytową,
+niezbędne jest przeprowadzenie przez bank badania różnych obszarów jego aktywności. Ubiegający się o kredyt, w tym
+również przedsiębiorca, jest bowiem zobowiązany do przedłożenia bankowi dokumentów i informacji niezbędnych do
+dokonania oceny zdolności kredytowej. Z kolei bank, stosownie do przyjętej regulacji, uzależnia udzielenie kredytu od
+dokonanej oceny zdolności kredytowej ubiegającego się o kredyt. Po zawarciu umowy kredytu kredytobiorca jest
+zobowiązany do umożliwienia bankowi podejmowania wszelkich czynności, które są niezbędne do dokonania oceny jego
+zdolności kredytowej oraz kontroli spłaty i wykorzystania kredytu. Należy więc dbać o kompletność dostarczanej do banku
+dokumentacji, w tym o dostarczenie niezbędnych dokumentów/zaświadczeń z urzędów i instytucji – w zakresie
+ubezpieczeń, z ZUS, zaświadczenie o niezaleganiu w opłacaniu składek, lub rozliczenia salda na koncie płatnika składek.
+Cyfrowy dostęp pozwoliłby bankowi, za zgodą wnioskodawcy, uzyskać dane – skracając czas analizy i zmniejszając
+obciążenia.
+Kolejną, istotną kwestią jest weryfikacja rzetelności partnera biznesowego/kontrahenta. Procedurę KYC1 reguluje ustawa
+z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy oraz finansowaniu terroryzmu (Dz. U. z 2023 r. poz. 1124, z
+późn. zm.), gdzie w art. 33 i nast. wskazano, że instytucje obowiązane stosują wobec swoich klientów środki
+
+ 1
+     tj. Poznaj Swego Klienta (ang. Know Your Client)
+bezpieczeństwa finansowego. Procedura KYC dotyczy m.in. banków, spółdzielczych kas oszczędnościowo-kredytowych,
+przedsiębiorców prowadzących działalność kantorową, przedsiębiorców prowadzących działalność polegającą na obrocie
+lub pośrednictwie w obrocie dziełami sztuki, przedmiotami kolekcjonerskimi oraz antykami, podmiotów prowadzących
+działalność w zakresie usługowego prowadzenia ksiąg rachunkowych. Na potrzeby wskazanej procedury instytucje proszą
+także o aktualizowanie dokumentów, składanie oświadczeń, wyjaśnienia. Aktualnie ocena ta jest wykonywana bez
+jakiegokolwiek automatyzmu, tj. w oparciu o analizę dokumentów.
+Można również wskazać, że w okresie pandemii COVID-19 Polski Fundusz Rozwoju S.A. (PFR) wykorzystywał dane z
+ww. publicznych rejestrów celem oceny kwalifikacji przedsiębiorcy do otrzymania subwencji finansowej z Tarczy
+Finansowej. PFR pozyskiwał z ZUS informacje dotyczące stanu zatrudnienia oraz salda na koncie płatnika składek. Stan
+zatrudnienia ustalano na podstawie imiennych raportów rozliczeniowych za określony okres, przekazując dane w podziale
+na liczbę pracowników, liczbę etatów oraz liczbę współpracowników. PFR wykorzystywał te dane do weryfikacji
+wniosków o subwencje finansowe oraz do późniejszego rozliczania i ustalania wysokości kwoty podlegającej zwrotowi.
+Weryfikacja obejmowała sprawdzenie zgodności danych zawartych w oświadczeniach przedsiębiorców z informacjami z
+baz danych ZUS, KAS oraz innych rejestrów publicznych, takich jak KRS, CEIDG czy GUS.
+Aktualnie brakuje systemowego mechanizmu dostępu do danych, m.in. z ZUS, potrzebnych do oceny sytuacji
+przedsiębiorców. Propozycja zakłada utworzenie narzędzia, które – za zgodą przedsiębiorcy – umożliwi uzyskanie danych
+przez uprawnione instytucje.
+Spodziewane korzyści
+Przewiduje się, że wdrożenie projektowanych zmian przyczyni się przede wszystkim do:
+     automatyzacji i przyspieszenia procesów oceny wiarygodności finansowej,
+     zmniejszenia obciążenia administracyjnego dla przedsiębiorców,
+     ułatwienia pozyskiwania danych przez banki, instytucje finansowe, kontrahentów,
+     większej przejrzystości i rzetelności informacji gospodarczej,
+     wzrostu efektywności procesów kredytowych.
+
+Brak jest możliwości osiągnięcia celu projektu za pomocą innych środków niż przyjęcie projektowanej ustawy.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Wprowadzane rozwiązanie polega na nowelizacji przepisów art. 45 i art. 50 ustawy z dnia 13 października 1998 r. o
+systemie ubezpieczeń społecznych (Dz. U. z 2025 r. poz. 350, z późn. zm.) poprzez rozszerzenie katalogu podmiotów
+uprawnionych do pozyskiwania danych z ZUS (art. 50 tej ustawy), jak również poprzez rozszerzenie zakresu danych
+ewidencjonowanych na koncie płatnika (art. 45 tej ustawy). Przepisy zawarte w art. 50 ustawy z dnia 13 października 1998
+r. o systemie ubezpieczeń społecznych wskazują podmioty i organy, którym ZUS udostępnia dane z kont płatników składek
+dla celów realizacji obowiązków ustawowych. Są to m.in. sądy i prokuratorzy, organy podatkowe, Państwowa Inspekcja
+Pracy, Policja, Straż Graniczna, Służba Więzienna, komornicy sądowi i organy egzekucyjne w rozumieniu ustawy z dnia
+17 czerwca 1966 r. o postępowaniu egzekucyjnym w administracji (Dz. U. z 2025 r. poz. 132, z późn. zm.), minister
+właściwy do spraw gospodarki oraz minister właściwy do spraw rodziny, pracy i zabezpieczenia społecznego, organy
+realizujące świadczenia rodzinne, świadczenia z funduszu alimentacyjnego oraz świadczenia wychowawcze, ośrodki
+pomocy społecznej, Komisja Nadzoru Finansowego, wojewodowie, Agencja Rozwoju Przemysłu S.A. i PFR S.A.
+Dlatego w celu umożliwienia realizacji celu projektu powyższą listę podmiotów uprawnionych poszerzono o banki,
+instytucje finansowe, instytucje kredytowe, instytucje pożyczkowe wymienione w art. 4 ustawy z dnia 29 sierpnia 1997 r.
+– Prawo bankowe (Dz. U. z 2024 r. poz. 1646, z późn. zm.), a także inne podmioty (osoby prawne, jednostki organizacyjne
+lub osoby fizyczne) będące przedsiębiorcami weryfikujące płatnika składek (przedsiębiorcę) w zakresie jego sytuacji
+finansowej czy gospodarczej.
+Dostęp do określonych danych z konta płatnika pozwoli ww. podmiotom na potwierdzenie, czy przedsiębiorca kwalifikuje
+się do uzyskania kredytu, a także umożliwi zweryfikowanie jego rzetelności jako partnera biznesowego/kontrahenta w
+zakresie wypełniania przez niego obowiązków publicznoprawnych (terminowego opłacania należnych składek, do których
+poboru zobowiązany jest ZUS), a tym samym zweryfikowania jego płynności finansowej.
+Dane podlegające udostępnieniu, zewidencjonowane na koncie płatnika składek w ZUS, to:
+ numer NIP lub numer identyfikacyjny REGON, a jeżeli nie nadano tych numerów lub jednego z nich – numer PESEL
+  lub serię i numer dowodu osobistego albo paszportu,
+ nazwa skrócona lub imię i nazwisko,
+ okres rozliczeniowy,
+                                                            2
+ stan rozliczeń należnych składek, do poboru których uprawniony jest ZUS.
+Dostęp do takich danych będzie możliwy za zgodą przedsiębiorcy, jako właściciela swoich danych, przy czym
+udzielona zgoda uprawnia do jednokrotnego uzyskania danych.
+Zgoda wraz z danymi identyfikującymi osobę lub podmiot uprawniony do dostępu do danych płatnika składek będzie
+przekazywana do ZUS za pośrednictwem podmiotu uprawnionego wraz z wnioskiem o udostępnienie danych albo przez
+płatnika składek bezpośrednio do ZUS, a podmiot uprawniony występować będzie do ZUS o udostępnienie danych
+płatnika składek.
+Zgoda płatnika składek, jako warunek uprawniający do dostępu do danych, będzie zapisywana na jego koncie w ZUS,
+o którym mowa w art. 45 ustawy z dnia 13 października 1998 r. o systemie ubezpieczeń społecznych, a tym samym o
+przedmiotową zgodę rozszerzeniu ulegnie zakres dotychczas ewidencjonowanych na tym koncie danych. Dzięki tej
+zgodzie uprawnione podmioty mogłyby drogą elektroniczną uzyskać zestaw aktualnych i potrzebnych danych do wyżej
+wskazanych celów.
+Z powyższych względów proponuje się zmiany do art. 45 i art. 50 ustawy z dnia 13 października 1998 r. o systemie
+ubezpieczeń społecznych.
+Zmiana to będzie oznaczała również dostosowanie przez ZUS jego systemu informatycznego do udostępnienia danych
+zapisanych na kontach płatników składek w ZUS.
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Nie dotyczy.
+
+4. Podmioty, na które oddziałuje projekt
+           Grupa                      Wielkość                  Źródło danych           Oddziaływanie
+Płatnicy składek               2,9 mln                   ZUS – dane statystyczneWnioski o udostępnienie
+                                                                                danych z konta płatnika
+                                                                                składek kierowane do ZUS
+                                                                                oraz zapisane na koncie
+                                                                                płatnika składek zgody
+                                                                                płatników na udostępnienie
+                                                                                danych upoważnionym
+                                                                                podmiotom.
+ZUS                        1                                                    Udostępnianie danych nowej
+                                                                                kategorii podmiotów.
+Banki, oddziały            551                      KNF – dane za marzec 2025   Podmioty, które mogą złożyć
+instytucji kredytowych                                                          wnioski do ZUS o
+oraz oddziały banków                                                            udostępnienie danych z konta
+zagranicznych                                                                   płatnika składek.
+ 5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz.
+677) oraz § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z
+2024 r. poz. 806, z późn. zm.) projekt ustawy został zamieszczony w Biuletynie Informacji Publicznej na stronie podmiotowej
+Rządowego Centrum Legislacji, w serwisie „Rządowy Proces Legislacyjny”.
+Projekt ustawy został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Ministra Rodziny, Pracy i
+Polityki Społecznej, zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa.
+Projekt ustawy był rozpatrzony w trybie odrębnym, zgodnie z § 98 uchwały nr 190 Rady Ministrów z dnia 29 października
+2013 r. – Regulamin pracy Rady Ministrów, poprzez przekazanie go bezpośrednio do rozpatrzenia przez Stały Komitet
+Rady Ministrów, z pominięciem etapu uzgodnień, opiniowania i konsultacji publicznych, z uwagi na jego pilny charakter
+deregulacyjny.
+6. Wpływ na sektor finansów publicznych
+(ceny bieżące)                                     Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                     0      1      2     3     4      5      6     7     8      9    10 Łącznie (0–10)
+Dochody ogółem (1)(2)
+budżet państwa
+                                                              3
+JST
+pozostałe jednostki (oddzielnie)
+- FUS
+- FP
+- FEP
+- FS
+- FGŚP
+Wydatki ogółem (3)(4)
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+- FUS
+- FP
+- FEP
+- FS
+- FGŚP
+Saldo ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+- FUS
+- FP
+- FEP
+- FS
+- FGŚP
+
+                         Wprowadzane zmiany nie powodują wzrostu wydatków z budżetu państwa.
+                         Będą one jednak skutkowały wzrostem wydatków ZUS na zmiany w systemie informatycznym,
+Źródła finansowania
+                         które powinny zostać uwzględnione w planie finansowym ZUS w 2026 r. Wstępne szacunki ZUS
+                         dotyczące kosztów zmian: 3,7 mln zł (w tym roczny koszt serwisu ok. 393 tys. zł).
+
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                      Skutki
+Czas w latach od wejścia w życie zmian      0         1        2       3        5         10    Łącznie (0–10)
+W ujęciu         duże przedsiębiorstwa
+pieniężnym       sektor mikro-, małych i
+(w mln zł,       średnich
+ceny bieżące)    przedsiębiorstw
+                 rodzina, obywatele
+                 oraz gospodarstwa
+                 domowe
+                 osoby niepełnosprawne
+                 i osoby starsze
+                 duże przedsiębiorstwa Przewidywane rozwiązania mają pozytywny wpływ poprzez automatyzację i
+                                         przyspieszenie procesów oceny wiarygodności finansowej, zmniejszenie
+
+                                                         4
+W ujęciu                                   obciążenia administracyjnego dla przedsiębiorców, ułatwienia pozyskiwania
+niepieniężnym                              danych przez banki, instytucje finansowe, kontrahentów, większej
+                                           przejrzystości i rzetelności informacji gospodarczej, a także wzrost
+                                           efektywności procesów kredytowych.
+
+                 sektor mikro-, małych i   Przewidywane rozwiązania mają pozytywny wpływ poprzez automatyzację i
+                 średnich                  przyspieszenie procesów oceny wiarygodności finansowej, zmniejszenie
+                 przedsiębiorstw           obciążenia administracyjnego dla przedsiębiorców, ułatwienia pozyskiwania
+                                           danych przez banki, instytucje finansowe, kontrahentów, większej
+                                           przejrzystości i rzetelności informacji gospodarczej, a także wzrost
+                                           efektywności procesów kredytowych.
+                 rodzina, obywatele
+                 oraz gospodarstwa         Brak wpływu zmiany na sytuację rodzin, obywateli oraz gospodarstw
+                 domowe                    domowych.
+
+                 osoby niepełnosprawne Brak wpływu zmiany na sytuację osób niepełnosprawnych i osób starszych.
+                 i osoby starsze
+Niemierzalne
+
+Dodatkowe                Dane i jego źródło wskazane w pkt 4.
+informacje, w tym
+wskazanie źródeł         Przyjęto, że zgody płatników składek na udostępnienie danych z ich kont oraz wnioski o
+danych i przyjętych do   udostępnienie danych z tych kont kierowane do ZUS mogą potencjalnie dotyczyć kont wszystkich
+obliczeń założeń         płatników składek.
+
+
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie         tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli  nie
+zgodności).                                         nie dotyczy
+
+   zmniejszenie liczby dokumentów                          zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                            zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                   wydłużenie czasu na załatwienie sprawy
+   inne:                                                   inne:
+
+Wprowadzane obciążenia są przystosowane do ich             tak
+elektronizacji.                                            nie
+                                                           nie dotyczy
+
+Proponowane zmiany przyspieszą procesy oceny wiarygodności finansowej przedsiębiorców, zmniejszą obciążenia
+administracyjne dla przedsiębiorców, ułatwią pozyskiwanie danych przez banki, instytucje finansowe, kontrahentów.
+Zmiany będą wymagały po stronie ZUS obsłużenia nowej kategorii wniosków oraz dodania procedury obsługi tych
+wniosków, ale dzięki temu nastąpi usprawnienie pozyskiwania danych, potrzebnych na potrzeby oceny kredytowej lub
+sytuacji finansowej kontrahenta.
+
+9. Wpływ na rynek pracy
+Brak wpływu.
+
+10. Wpływ na pozostałe obszary
+
+    środowisko naturalne                   demografia                             informatyzacja
+    sytuacja i rozwój regionalny           mienie państwowe                       zdrowie
+    sądy powszechne, administracyjne       inne:
+lub wojskowe
+
+                                                           5
+                        Proponowana zmiana będzie wymagać po stronie ZUS dostosowania systemów IT ZUS do
+Omówienie wpływu        obsłużenia nowej kategorii wniosków oraz dodania procedury obsługi tych wniosków.
+
+11. Planowane wykonanie przepisów aktu prawnego
+
+Proponuje się wejście w życie ustawy pierwszego dnia miesiąca po upływie 12 miesięcy od dnia ogłoszenia, z uwagi na
+konieczność zagwarantowania niezbędnego czasu na dostosowanie systemu informatycznego przez ZUS do realizacji
+przepisów ustawy.
+
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Nie przewiduje się ustawowej ewaluacji efektów projektu.
+
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                          6
+

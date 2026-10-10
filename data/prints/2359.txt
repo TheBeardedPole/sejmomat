@@ -1,0 +1,675 @@
+                                                                      Druk nr 2359
+                                                                 Warszawa, 26 lutego 2026 r.
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+        X kadencja
+
+
+
+                                                             Pan
+                                                             Włodzimierz Czarzasty
+                                                             Marszałek Sejmu
+                                                             Rzeczypospolitej Polskiej
+
+
+
+
+         Na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej i na podstawie
+ art. 32 ust. 2 regulaminu Sejmu niżej podpisani posłowie wnoszą projekt ustawy:
+
+
+
+  - o zmianie ustawy o podatku od towarów
+   i usług.
+
+      Do reprezentowania wnioskodawców w pracach nad projektem ustawy
+ upoważniamy pana posła Bartłomieja Pejo.
+
+
+  (-) Konrad Berkowicz; (-) Karina Anna Bosak; (-) Krzysztof Bosak; (-) Bronisław
+ Foltyn; (-) Marek Jakubiak; (-) Sławomir Mentzen; (-) Krzysztof Mulawa;
+ (-) Bartłomiej Pejo; (-) Grzegorz Płaczek; (-) Michał Połuboczek; (-) Jarosław
+ Sachajko;     (-) Krzysztof  Szymański;      (-) Krzysztof   Tuduj;    (-) Witold
+ Tumanowicz;       (-) Michał  Wawer;      (-) Ryszard     Wilk;   (-) Przemysław
+ Wipler; (-) Andrzej Tomasz Zapałowski.
+
+
+
+
+               Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                   Projekt
+                                        U S T AWA
+
+                                      z dnia … 2026 r.
+
+                     o zmianie ustawy o podatku od towarów i usług
+
+
+     Art. 1. W ustawie z dnia 11 marca 2004 r. o podatku od towarów i usług (t.j. Dz. U. z
+2025 r. poz. 775, 894, 896, 1203, 1541, 1811) w art. 106ga:
+1)   w ust. 2 po pkt 2 dodaje się pkt 2a w brzmieniu:
+     „2a) przez podatnika będącego mikroprzedsiębiorcą, małym przedsiębiorcą lub średnim
+          przedsiębiorcą w rozumieniu art. 7 ust. 1 ustawy z dnia 6 marca 2018 r. – Prawo
+          przedsiębiorców (t.j. Dz. U. z 2025 r. poz. 1480, 1795, 1826);”;
+2)   ust. 4 otrzymuje brzmienie:
+          „4. W przypadku, o którym mowa w ust. 2 pkt 1-2a i 4, podatnicy mogą wystawiać
+     faktury ustrukturyzowane.”.
+
+     Art. 2. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                      UZASADNIENIE
+
+1. Potrzeba i cel wydania ustawy oraz rzeczywisty stan w dziedzinie, która ma być
+unormowana
+
+       Celem przedmiotowej nowelizacji jest wprowadzenie dobrowolności wystawiania
+faktur ustrukturyzowanych przy użyciu Krajowego Systemu e-Faktur (dalej: KSeF) przez
+podatnika będącego mikroprzedsiębiorcą, małym przedsiębiorcą lub średnim przedsiębiorcą
+w rozumieniu art. 7 ust. 1 ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców (t.j. Dz. U.
+z 2025 r. poz. 1480, 1795, 1826), zwanej dalej: „Prawo przedsiębiorców”.
+
+        Do osiągnięcia wskazanego powyżej celu niezbędne są zmiany w art. 106ga ustawy
+z dnia 11 marca 2004 r. o podatku od towarów i usług (t.j. Dz. U. z 2025 r. poz. 775, 894, 896,
+1203, 1541, 1811), zwanej dalej: „ustawa o VAT”, w zakresie ust. 2 poprzez dodanie po pkt 2
+pkt 2a oraz ust. 4 poprzez zmianę jego brzmienia.
+
+       Obecnie, zgodnie z art. 106ga ust. 1 ustawy o VAT, podatnicy są obowiązani wystawiać
+faktury ustrukturyzowane przy użyciu KSeF, ale jak wskazuje się w ust. 2 obowiązek ten „nie
+dotyczy wystawiania faktur:
+
+1) przez podatnika nieposiadającego siedziby działalności gospodarczej ani stałego miejsca
+prowadzenia działalności gospodarczej na terytorium kraju;
+
+2) przez podatnika nieposiadającego siedziby działalności gospodarczej na terytorium kraju,
+który posiada stałe miejsce prowadzenia działalności gospodarczej na terytorium kraju, przy
+czym to stałe miejsce prowadzenia działalności nie uczestniczy w dostawie towarów lub
+świadczeniu usług, dla których wystawiono fakturę;
+
+3) przez podatnika korzystającego z procedur szczególnych, o których mowa w dziale XII
+w rozdziałach 7, 7a i 9, dokumentujących czynności rozliczane w tych procedurach;
+
+4) na rzecz nabywcy towarów lub usług będącego osobą fizyczną nieprowadzącą działalności
+gospodarczej;
+
+5) w przypadku odpowiednio udokumentowanych dostaw towarów lub świadczenia usług,
+określonych w przepisach wydanych na podstawie art. 106s;
+
+6) przez podatnika korzystającego ze zwolnienia, o którym mowa w art. 113a ust. 1;”,
+
+natomiast ust. 3 wskazuje, że w przypadku, o którym mowa w ust. 2, wystawia się faktury
+elektroniczne lub faktury w postaci papierowej, a z kolei zgodnie z ust. 4 w przypadku, o którym
+mowa w ust. 2 pkt 1, 2 i 4, podatnicy mogą wystawiać faktury ustrukturyzowane. Wskazane
+                                               1
+
+
+
+                     Konfederacja Wolność i Niepodległość | konfederacja.pl
+wyżej przepisy ustanawiają zatem wyłączenia od ogólnego obowiązku wystawiania faktur
+ustrukturyzowanych przy użyciu KSeF oraz dobrowolność ich wystawiania dla niektórych
+podatników lub na rzecz określonych nabywców towarów lub usług.
+
+        Głównym celem projektu jest uzupełnienie katalogu przypadków, gdy wystawianie
+faktur ustrukturyzowanych przy użyciu KSeF będzie dobrowolne o wystawianie faktur przez
+podatnika będącego mikroprzedsiębiorcą, małym przedsiębiorcą lub średnim przedsiębiorcą
+w rozumieniu art. 7 ust. 1 Prawa przedsiębiorców, zgodnie z którym:
+
+1) mikroprzedsiębiorca to przedsiębiorca, „który w co najmniej jednym roku z dwóch ostatnich
+lat obrotowych spełniał łącznie następujące warunki:
+
+a) zatrudniał średniorocznie mniej niż 10 pracowników oraz
+
+b) osiągnął roczny obrót netto ze sprzedaży towarów, wyrobów i usług oraz z operacji
+finansowych nieprzekraczający równowartości w złotych 2 milionów euro, lub sumy aktywów
+jego bilansu sporządzonego na koniec jednego z tych lat nie przekroczyły równowartości
+w złotych 2 milionów euro” (art. 7 ust. 1 pkt 1 Prawa przedsiębiorców);
+
+2) mały przedsiębiorca to przedsiębiorca, „który w co najmniej jednym roku z dwóch ostatnich
+lat obrotowych spełniał łącznie następujące warunki:
+
+a) zatrudniał średniorocznie mniej niż 50 pracowników oraz
+
+b) osiągnął roczny obrót netto ze sprzedaży towarów, wyrobów i usług oraz z operacji
+finansowych nieprzekraczający równowartości w złotych 10 milionów euro, lub sumy aktywów
+jego bilansu sporządzonego na koniec jednego z tych lat nie przekroczyły równowartości
+w złotych 10 milionów euro – i który nie jest mikroprzedsiębiorcą” (art. 7 ust. 1 pkt 2 Prawa
+przedsiębiorców);
+
+3) średni przedsiębiorca to przedsiębiorca, „który w co najmniej jednym roku z dwóch ostatnich
+lat obrotowych spełniał łącznie następujące warunki:
+
+a) zatrudniał średniorocznie mniej niż 250 pracowników oraz
+
+b) osiągnął roczny obrót netto ze sprzedaży towarów, wyrobów i usług oraz z operacji
+finansowych nieprzekraczający równowartości w złotych 50 milionów euro, lub sumy aktywów
+jego bilansu sporządzonego na koniec jednego z tych lat nie przekroczyły równowartości
+w złotych 43 milionów euro – i który nie jest mikroprzedsiębiorcą ani małym przedsiębiorcą”
+(art. 7 ust. 1 pkt 3 Prawa przedsiębiorców).
+
+      Niniejszy projekt ustawy jest realizacją wielokrotnie podnoszonego przez mikro,
+małych i średnich przedsiębiorców postulatu ograniczenia podmiotowego funkcjonowania
+                                           2
+
+
+
+                    Konfederacja Wolność i Niepodległość | konfederacja.pl
+obowiązku wystawiania faktur ustrukturyzowanych przy użyciu KSeF. Dla bardzo dużej grupy,
+przede wszystkim najmniejszych firm tzw. „obowiązek KSeF” będzie wiązał się z poniesieniem
+dodatkowych wysokich kosztów związanych z wdrożeniem i funkcjonowaniem
+elektronicznego systemu wystawiania i odbioru faktur. Przedsiębiorcy, którzy od początku
+prowadzenia działalności gospodarczej wystawiają faktury ręcznie, także powinni mieć do tego
+prawo. Nie można dopuścić do tego, żeby KSeF stał się motywacją do zamknięcia kolejnych
+polskich przedsiębiorstw i działalności gospodarczych, co negatywnie odbije się na lokalnych
+społecznościach i całej polskiej gospodarce. Każdy powinien mieć możliwość korzystania
+z dobrodziejstw KSeF, ale mikro, mali i średni przedsiębiorcy nie mogą być do tego zmuszani.
+
+        Polscy przedsiębiorcy wiele razy podnosili problemy związane z obowiązkowym
+wystawianiem faktur w KSeF, także podczas posiedzeń Parlamentarnego Zespołu ds. Wsparcia
+i Rozwoju Małych i Średnich Przedsiębiorstw. Podczas posiedzenia tego Zespołu, które odbyło
+się w dniu 16 października 2025 r., a w którym uczestniczyli przedstawiciele Ministerstwa
+Finansów oraz ok. 70 przedsiębiorców reprezentujących różne branże biznesu, przedsiębiorcy
+obecni na posiedzeniu wyrazili ogromny sprzeciw i niezadowolenie z faktu wprowadzania
+KSeF oraz pomimo wyjaśnień ze strony przedstawicieli MF pozostali nieprzekonani, że
+centralizacja danych i inwigilacja transakcji są kluczem do sprawnego poboru podatków.
+Przedstawiciele branż, które łącznie odpowiadają za około 50% polskiego PKB, wyrazili szereg
+poważnych obaw dotyczących funkcjonowania systemu. Był to wyraźny objaw, że KSeF
+wprowadzony w obecnej formie nie uzyskał społecznej akceptacji i budzi fundamentalne
+wątpliwości co do proporcjonalności oraz zasadności przyjętych rozwiązań.
+
+        Główne zastrzeżenia formułowane przez przedsiębiorców pod adresem KSeF opierają
+się na czterech filarach:
+1) niedostateczne przygotowanie techniczne;
+2) negatywny wpływ na działalność firm;
+3) ryzyko bezprecedensowej inwigilacji gospodarczej;
+4) zagrożenie bezpieczeństwa danych.
+
+Ad. 1) Historia wdrożenia KSeF jest naznaczona licznymi opóźnieniami, co samo w sobie
+stanowi dowód na istnienie fundamentalnych problemów z architekturą i wydajnością systemu.
+Potwierdza to raport Najwyższej Izby Kontroli z 15 lipca 2025 r.1, który wskazuje, że problemy
+z wydajnością, sygnalizowane już w 2023 r., nie spotkały się ze skuteczną i odpowiednio
+wczesną reakcją ze strony MF. Raport NIK wprost wskazuje brak efektywnego nadzoru nad
+projektem, który ma przetwarzać ponad 2,5 miliarda faktur rocznie. Udostępnione
+w październiku 2025 r. środowisko testowe (przedprodukcyjne) KSeF 2.0 niemal natychmiast
+
+1
+    https://www.mddp.pl/vat-i-akcyza-nik-alarmuje-opozniony-ksef/
+                                                       3
+
+
+
+                          Konfederacja Wolność i Niepodległość | konfederacja.pl
+ujawniło awarie i problemy techniczne. Co więcej już po wejściu w życie przepisów
+dotyczących częściowej obligatoryjności KSeF, a więc 1 lutego 2026 r. doszło do ogromnego
+obciążenia systemu oraz awarii, mimo iż zarejestrowało się do niego dopiero 150 tys. firm2.
+Sytuacja ta podważa wiarygodność zapewnień o stabilności i gotowości systemu.
+Wprowadzenie obowiązku korzystania z wadliwego narzędzia grozi paraliżem procesów
+fakturowania w skali całej gospodarki, prowadząc do zatorów płatniczych, błędów
+w rozliczeniach i chaosu operacyjnego. Wydaje się bardzo prawdopodobne, że awarie
+i problemy techniczne mogą być jeszcze większe i częstsze, gdy obowiązkiem wystawiania
+faktur poprzez KSeF zostaną objęte kolejne 2 miliony firm, które będą do tego zobowiązane.
+Z tego powodu konieczne jest pozostawienie mikro, małym i średnim przedsiębiorcom wyboru,
+a nie zmuszanie ich do uczestnictwa w wadliwym systemie.
+
+Ad. 2) KSeF, wbrew deklaracjom o ułatwieniach, dla wielu firm, zwłaszcza z sektora MŚP,
+stanowi ogromne wyzwanie organizacyjne i finansowe. Badania z października 2025 r.
+pokazywały, że 69% biur rachunkowych oraz znaczący odsetek firm nie było gotowych na
+wdrożenie systemu. Główne obawy przedsiębiorców to ryzyko błędów, problemy
+w komunikacji z klientami oraz konieczność poniesienia wysokich kosztów na nowe
+oprogramowanie, integrację systemów i przeszkolenie pracowników3. Szczególnie dotkliwe
+będzie to dla mikroprzedsiębiorstw, które często działając w modelu niskokosztowym, nie
+posiadają rozbudowanych działów finansowo-księgowych i korzystają z prostych, darmowych
+narzędzi. Dla nich KSeF to bariera, która może zaważyć na rentowności i sensie dalszego
+prowadzenia działalności. Co więcej, reklamowane korzyści, takie jak przyspieszony zwrot
+VAT, w dużej mierze omijają najmniejsze firmy, w tym ryczałtowców oraz podmioty zwolnione
+z VAT. Prognozy formułowane przez organizacje branżowe wskazują na ryzyko zwiększenia
+przypadków zamykania jednoosobowych działalności gospodarczych oraz spadku liczby nowo
+zakładanych firm, co uderzy w fundamenty polskiej gospodarki. Nie można dopuścić do
+sytuacji, w której cyfryzacja, zamiast wspierać rozwój gospodarczy, stanie się narzędziem jego
+hamowania. Na znaczące koszty organizacyjne i finansowe, związane m.in. z koniecznością
+reorganizacji procesów wewnętrznych, integracji systemów księgowych oraz utrzymywania
+równoległych form ewidencji w związku z niedoskonałościami systemu wskazuje także
+Agnieszka Majewska, Rzecznik Małych i Średnich Przedsiębiorców, która wystąpiła do
+Ministra Finansów i Gospodarki z wnioskiem o podjęcie pilnych działań w związku
+z barierami, jakie dla przedsiębiorców szczególnie mikro i małych firm stwarza wdrożenie
+Krajowego Systemu e-Faktur4.
+
+
+2
+  https://businessinsider.com.pl/prawo/podatki/ksef-padl-przedsiebiorcy-maja-problem-z-logowaniem-dostaja-
+niepokojace-informacje/7czy285
+3
+  https://monikarozycka.pl/aktualnosci/cyfrowa-rewolucja-zmiazdzy-polska-mikroprzedsiebiorczosc-cala-
+prawda-o-ksef/
+4
+  https://rzecznikmsp.gov.pl/rzecznik-chroniac-mikro-i-malych-przedsiebiorcow-apeluje-do-ministra-finansow-
+o-przesuniecie-obowiazku-ksef
+                                                     4
+
+
+
+                       Konfederacja Wolność i Niepodległość | konfederacja.pl
+Ad. 3) KSeF w swojej istocie jest systemem centralizującym w jednym miejscu kompletne
+i szczegółowe informacje o każdej transakcji zawieranej w Polsce. Baza ta będzie zawierać nie
+tylko dane kontrahentów, ale również przedmiot transakcji, jego ilość i wartość. Oznacza to de
+facto likwidację tajemnicy handlowej. Państwo uzyska bezprecedensowy wgląd w strategie
+cenowe firm, marże, bazy klientów i dostawców, a także w prywatne zakupy obywateli, jeśli
+dokonują ich na fakturę. Według analizy na portalu Selfhosty.pl: „z uwagi na zawarte
+szczegółowe informacje o transakcji, udostępnione Rządowi tajemnica handlowa zniknie
+z życia publicznego, a przeciętny Kowalski straci jeszcze więcej prywatności”5. Centralizacja
+tak wrażliwych danych stwarza ogromne ryzyko nadużyć, prowadząc do pełnej inwigilacji
+życia gospodarczego i prywatnego. Dane te mogą posłużyć do zaawansowanej inżynierii
+społecznej, a w skrajnych przypadkach do wywierania presji na obywateli poprzez narzędzia
+finansowe. Gromadzenie tak potężnego zasobu wiedzy o społeczeństwie w rękach jednej
+instytucji jest zagrożeniem dla swobód obywatelskich i gospodarczych, co znajduje
+potwierdzenie w obawach wyrażanych przez przedsiębiorców. Należy także wskazać, że
+zgodnie z art. 10 ust. 1 Prawa przedsiębiorców „Organ kieruje się w swoich działaniach zasadą
+zaufania do przedsiębiorcy, zakładając, że działa on zgodnie z prawem, uczciwie oraz
+z poszanowaniem dobrych obyczajów”, dlatego też zgodnie z tą zasadą, powinno umożliwić
+się dobrowolne korzystanie z KSeF przez najmniejszych przedsiębiorców, zwłaszcza że
+istniejące już przepisy dają możliwość weryfikacji faktur.
+
+Ad. 4) Stworzenie centralnej bazy wszystkich faktur w Polsce czyni z KSeF niezwykle
+atrakcyjny cel dla cyberprzestępców i obcych wywiadów gospodarczych. Skuteczny atak na
+ten system mógłby doprowadzić do katastrofalnego w skutkach wycieku danych, paraliżując
+polską gospodarkę i ujawniając najgłębsze tajemnice handlowe polskich firm. Informacje
+dotyczące struktury kosztów, cen i kontrahentach mogłyby trafić w ręce konkurencji, także
+zagranicznej, niwecząc budowaną latami przewagę konkurencyjną. Niestety dotychczasowe
+zapewnienia o bezpieczeństwie systemu, w kontekście występujących problemów
+technicznych, są niewystarczające. Ryzyko związane z potencjalnym wyciekiem danych jest
+nieproporcjonalnie wysokie w stosunku do potencjalnych korzyści z wdrożenia systemu.
+Przedsiębiorcy oczekują, że ich dane będą chronione w sposób adekwatny do skali zagrożenia.
+Co istotne sam minister finansów i gospodarki Andrzej Domański poinformował 13 lutego
+2026 r., że problemy z działaniem KSeF wynikały m.in z ataku DDoS na system logowania,
+a także że ataki wyprowadzono z 17 państw i stały za nimi grupy hakerskie6. Argumenty
+o braku pełnego bezpieczeństwa okazały się zatem słuszne i nie można ich bagatelizować.
+Kolejne ataki mogą bowiem być znacznie bardziej brzemienne w skutkach, co zostało
+wskazane wyżej. Ogromne wątpliwości budzi także kwestia przetwarzania danych osobowych
+z KSeF przez zagraniczne firmy, a także informacje dotyczące wykorzystywania zagranicznej
+
+5
+ https://selfhosty.pl/krajowy-system-efaktur-ksef-inwigilacja/
+6
+ https://www.bankier.pl/wiadomosc/To-nie-byla-tylko-awaria-Hakerzy-uderzyli-w-KSeF-Domanski-Atak-
+wyprowadzono-z-17-panstw-9083082.html
+                                                  5
+
+
+
+                      Konfederacja Wolność i Niepodległość | konfederacja.pl
+infrastruktury pośredniczącej przy komunikacji z KSeF. Należy uszanować brak zaufania do
+organów państwa ze strony wielu przedsiębiorców, na co organy te „pracowały” przez
+dziesięciolecia. Narzucana obligatoryjność stosowania KSeF nawet przez najmniejsze
+podmioty gospodarcze nie rozwiewa obaw i nie buduje zaufania, a kurczowe trzymanie się
+kwestionowanych przepisów brak zaufania wręcz potęguje.
+
+       Przedstawione powyżej argumenty, wzmocnione wyraźnym i masowym sprzeciwem
+przedsiębiorców, stanowiskiem Rzecznika Małych i Średnich Przedsiębiorców, a także
+aktualnymi wydarzeniami związanymi z funkcjonowanie KSeF jasno wskazują, że KSeF jest
+projektem niedopracowanym, ryzykownym i zagrażającym stabilności polskiej gospodarki.
+Fakty te wskazują na pilną konieczność wprowadzenia dobrowolności korzystania z tego
+systemu dla mikro, małych i średnich przedsiębiorców. Nie można dopuścić do sytuacji,
+w której największe koszty poniosą polscy przedsiębiorcy. Przegłosowanie przez Sejm RP
+projektowanej nowelizacji będzie odważną rewizją błędnych założeń i wsłuchaniem się w głos
+tysięcy przedsiębiorców, którzy dzień po dniu budują dobrobyt Polski i Polaków. Nie można
+pozwolić na to, aby niedopracowana cyfrowa rewolucja zdławiła polską przedsiębiorczość.
+Dobrowolność i współpraca zamiast odgórnego narzucania rozwiązań podatnikom powinny
+być fundamentem nowoczesnej administracji państwowej.
+
+        Należy także wskazać na fakt, że dobrowolny model KSeF jest w pełni zgodny
+z ogólnymi przepisami prawa Unii Europejskiej (Dyrektywa VAT 2006/112/WE7), a także na
+to, że to obowiązkowy charakter systemu wymagał od Polski uzyskania specjalnej zgody od
+organów UE (decyzji derogacyjnej), ponieważ unijne prawo co do zasady chroni prawo
+podatnika do wyboru formy faktury (papierowej lub elektronicznej). Zgodę taką otrzymał rząd
+Mateusza Morawieckiego (PiS), który był (i nadal chyba jest) wielkim fanem obowiązkowego
+KSef, w dniu 30 marca 2022 r.8. Wprowadzenie dobrowolności dla mikro, małych i średnich
+przedsiębiorców będzie zatem przywróceniem stanu naturalnego z punktu widzenia dyrektywy
+VAT. Obligatoryjność KSeF, co warto podkreślić, nie jest zatem czymś narzuconym Polsce
+z Brukseli.
+
+       Warto także zauważyć, że celu projektowanej nowelizacji nie spełniałoby przedłużenie
+obowiązywania czasowego zwolnienia z obowiązku wystawiania faktur ustrukturyzowanych
+lub rozszerzenie podmiotowe takiego zwolnienia. Art. 145l, art. 145m oraz art. 145n ustawy
+o VAT są bowiem jedynie przepisami epizodycznymi, natomiast celem nowelizacji jest
+wprowadzenie dobrowolności dla mikro, małych i średnich przedsiębiorców na stałe,
+nieograniczonej żadnymi terminami.
+
+
+
+
+7
+    https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=celex:32006L0112
+8
+    https://www.gov.pl/web/kas/jest-zgoda-komisji-europejskiej-na-obowiazkowa-e-fakture-w-polsce
+                                                       6
+
+
+
+                          Konfederacja Wolność i Niepodległość | konfederacja.pl
+2. Przewidywane skutki prawne             w    tym    różnica   pomiędzy      dotychczasowym
+a projektowanym stanem prawnym
+
+       Proponowane zmiany w art. 106ga ustawy o VAT polegają na:
+
+1) dodaniu w ust. 2 po pkt 2 pkt 2a w brzmieniu:
+
+„2a) przez podatnika będącego mikroprzedsiębiorcą, małym przedsiębiorcą lub średnim
+przedsiębiorcą w rozumieniu art. 7 ust. 1 ustawy z dnia 6 marca 2018 r. – Prawo
+przedsiębiorców (t.j. Dz. U. z 2025 r. poz. 1480, 1795, 1826);”;
+
+2) zmianie brzmienia ust. 4 z:
+
+„4. W przypadku, o którym mowa w ust. 2 pkt 1, 2 i 4, podatnicy mogą wystawiać faktury
+ustrukturyzowane.” na:
+
+„4. W przypadku, o którym mowa w ust. 2 pkt 1-2a i 4, podatnicy mogą wystawiać faktury
+ustrukturyzowane.”.
+
+      Podstawowym skutkiem prawnym przedmiotowej nowelizacji będzie wprowadzenie
+dobrowolności wystawiania faktur ustrukturyzowanych przy użyciu KSeF przez podatnika
+będącego mikroprzedsiębiorcą, małym przedsiębiorcą lub średnim przedsiębiorcą
+w rozumieniu art. 7 ust. 1 Prawa przedsiębiorców.
+
+       Projekt ustawy określa w art. 2, że ustawa wejdzie w życie po upływie 14 dni od dnia
+ogłoszenia, a więc jest to vacatio legis zgodne z treścią ustawy z dnia 20 lipca 2000 r.
+o ogłaszaniu aktów normatywnych i niektórych innych aktów prawnych (Dz. U. z 2019 r. poz.
+1461).
+
+        Projektowane rozwiązania są spójne z dotychczasowymi regulacjami pod kątem
+systemowym i terminologicznym. Projektowane rozwiązania są zgodne z Konstytucją RP,
+w tym z konstytucyjnym standardem ochrony wolności i praw, wzmacniając m.in. wskazaną
+w art. 20 zasadę społecznej gospodarki rynkowej, która jest „oparta na wolności działalności
+gospodarczej, własności prywatnej oraz solidarności, dialogu i współpracy partnerów
+społecznych”.
+
+       Przedmiot projektu ustawy jest zgodny z prawem Unii Europejskiej.
+3. Przewidywane skutki społeczne, gospodarcze, finansowe
+      Projekt ustawy wywoła pozytywne skutki społeczne i gospodarcze. Wprowadzenie
+dobrowolności stosowania KSeF przez mikro, małych i średnich przedsiębiorców znacząco
+poprawi warunki wykonywania przez nich działalności gospodarczej w Polsce, eliminując
+
+                                               7
+
+
+
+                     Konfederacja Wolność i Niepodległość | konfederacja.pl
+ograniczenia, wysokie koszty organizacyjne i finansowe związane z wdrożeniem systemu.
+Projektowane zmiany pomogą w znacznym stopniu odciążyć przedsiębiorców oraz odbudować
+ich zaufanie do państwa. Zwiększenie zaufania do organów państwa to istotny czynnik, który
+pomoże przedsiębiorcom w rozwoju swoich przedsiębiorstw, a jednocześnie spowodują wzrost
+gospodarczy całego kraju. Jasne i przejrzyste reguły podatkowe, w tym dobrowolność
+korzystania z systemu KSeF może zachęcić do zakładania nowych przedsiębiorstw, co
+pozytywnie wpłynie na rozwój gospodarczy Polski. Dodatkowe obowiązki nakładane na
+przedsiębiorców, zwłaszcza tych mikro, małych i średnich mogą natomiast doprowadzić do
+spadku liczby aktywnych działalności gospodarczych, poprzez rezygnację z prowadzenia
+działalności gospodarczej oraz zmniejszenia liczby miejsc pracy przez nich tworzonych.
+        Projekt nie generuje obciążenia budżetu państwa lub budżetów jednostek samorządu
+terytorialnego. Proponowane zmiany nie wpłyną na plany dodatkowego uszczelnienia luki
+w podatku VAT, bowiem Ministerstwo Finansów oraz urzędy skarbowe już obecnie dysponują
+wystarczającymi narzędziami kontroli w tym aspekcie. Dodatkowo należy wskazać, że koszty
+stworzenia systemu zostały już przez budżet państwa poniesione i wprowadzenie
+dobrowolności dla niektórych przedsiębiorców nie będzie miało na nie żadnego wpływu.
+Poprawa sytuacji mikro, małych i średnich przedsiębiorców długofalowo powinna natomiast
+pozytywnie wpłynąć na stan finansów publicznych poprzez zwiększenie wpływów
+podatkowych.
+4. Informacje dodatkowe
+       Projekt nie był poddawany formalnym konsultacjom społecznym.
+       Projekt zawiera przepisy określające zasady wykonywania działalności gospodarczej.
+Wdrożenie projektowanych przepisów spowoduje spadek obciążeń administracyjnych
+mikroprzedsiębiorców, małych i średnich przedsiębiorców poprzez wprowadzenie
+dobrowolności stosowania przez nich systemu KSeF. Projekt ustawy będzie miał tym samym
+pozytywny wpływ na działalność przedsiębiorców. Projekt ustawy jest zgodny z przepisami
+ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców (t.j. Dz. U. z 2025 r. poz. 1480, 1795,
+1826).
+       Przedmiot projektu ustawy jest zgodny z prawem Unii Europejskiej.
+       Osiągnięcie celu ustawy nie jest możliwe za pomocą innych środków.
+         Projekt nie zawiera przepisów regulacyjnych i nie określa wymogów dotyczących
+świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r. o zasadach
+uznawania kwalifikacji zawodowych nabytych w państwach członkowskich Unii Europejskiej
+(t.j. Dz. U. z 2023 r. poz. 334, z 2025 r. poz. 619).
+
+
+
+
+                                              8
+
+
+
+                    Konfederacja Wolność i Niepodległość | konfederacja.pl
+      Projektowana ustawa nie wymaga przedstawienia właściwym organom i instytucjom
+Unii Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii,
+dokonania powiadomienia, konsultacji albo uzgodnienia.
+       Projektowana ustawa nie zawiera przepisów technicznych i nie podlega notyfikacji
+zgodnie z przepisami rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie
+sposobu funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz.
+2039 oraz z 2004 r. poz. 597).
+
+
+
+
+                                             9
+
+
+
+                   Konfederacja Wolność i Niepodległość | konfederacja.pl
+                  DEKLAROWANE SKUTKI REGULACJI (DSR)
+                            projektu ustawy
+Informacja o projekcie
+
+a) Tytuł projektu:
+
+ Projekt ustawy o zmianie ustawy o podatku od towarów i usług
+
+
+b) Przedstawiciel wnioskodawcy:
+
+ Bartłomiej Pejo
+
+
+I. Część wstępna
+
+[1] Zwięzły opis zidentyfikowanego problemu i proponowanych rozwiązań.
+
+ Celem przedmiotowej nowelizacji jest wprowadzenie dobrowolności wystawiania faktur
+ ustrukturyzowanych przy użyciu Krajowego Systemu e-Faktur (dalej: KSeF) przez podatnika
+ będącego mikroprzedsiębiorcą, małym przedsiębiorcą lub średnim przedsiębiorcą
+ w rozumieniu art. 7 ust. 1 ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców (t.j. Dz.
+ U. z 2025 r. poz. 1480, 1795, 1826), zwanej dalej: „Prawo przedsiębiorców”.
+ Do osiągnięcia wskazanego powyżej celu niezbędne są zmiany w art. 106ga ustawy z dnia
+ 11 marca 2004 r. o podatku od towarów i usług (t.j. Dz. U. z 2025 r. poz. 775, 894, 896, 1203,
+ 1541, 1811), zwanej dalej: „ustawa o VAT”, w zakresie ust. 2 poprzez dodanie po pkt 2 pkt
+ 2a oraz ust. 4 poprzez zmianę jego brzmienia.
+
+ Art. 106ga ust. 2, 3 i 4 ustawy o VAT ustanawia wyłączenia od obowiązku wystawiania faktur
+ ustrukturyzowanych przy użyciu KSeF oraz dobrowolność ich wystawiania dla niektórych
+ podatników lub na rzecz określonych nabywców towarów lub usług.
+ Głównym celem projektu jest uzupełnienie katalogu przypadków, gdy wystawianie faktur
+ ustrukturyzowanych przy użyciu KSeF będzie dobrowolne o wystawianie faktur przez
+ podatnika będącego mikroprzedsiębiorcą, małym przedsiębiorcą lub średnim przedsiębiorcą
+ w rozumieniu art. 7 ust. 1 Prawa przedsiębiorców.
+ Projekt ustawy jest realizacją wielokrotnie podnoszonego przez mikro, małych i średnich
+ przedsiębiorców postulatu ograniczenia podmiotowego funkcjonowania obowiązku
+ wystawiania faktur ustrukturyzowanych przy użyciu KSeF. Dla bardzo dużej grupy, przede
+ wszystkim najmniejszych firm tzw. „obowiązek KSeF” będzie wiązał się z poniesieniem
+ dodatkowych wysokich kosztów związanych z wdrożeniem i funkcjonowaniem
+ elektronicznego systemu wystawiania i odbioru faktur. Przedsiębiorcy, którzy od początku
+ prowadzenia działalności gospodarczej wystawiają faktury ręcznie, także powinni mieć do
+ tego prawo. Nie można dopuścić do tego, żeby KSeF stał się motywacją do zamknięcia
+ kolejnych polskich przedsiębiorstw i działalności gospodarczych, co negatywnie odbije się
+ na lokalnych społecznościach i całej polskiej gospodarce.
+
+                                               1
+
+
+
+                     Konfederacja Wolność i Niepodległość | konfederacja.pl
+    Polscy przedsiębiorcy wiele razy podnosili problemy związane z obowiązkowym
+    wystawianiem faktur w KSeF, także podczas posiedzeń Parlamentarnego Zespołu ds.
+    Wsparcia i Rozwoju Małych i Średnich Przedsiębiorstw. Podczas posiedzenia tego Zespołu,
+    które odbyło się w dniu 16 października 2025 r., a w którym uczestniczyli przedstawiciele
+    Ministerstwa Finansów oraz ok. 70 przedsiębiorców reprezentujących różne branże biznesu,
+    przedsiębiorcy obecni na posiedzeniu wyrazili ogromny sprzeciw i niezadowolenie z faktu
+    wprowadzania KSeF oraz pomimo wyjaśnień ze strony przedstawicieli MF pozostali
+    nieprzekonani, że centralizacja danych i inwigilacja transakcji są kluczem do sprawnego
+    poboru podatków. Przedstawiciele branż, które łącznie odpowiadają za około 50% polskiego
+    PKB, wyrazili szereg poważnych obaw dotyczących funkcjonowania systemu. Był to
+    wyraźny objaw, że KSeF wprowadzony w obecnej formie nie uzyskał społecznej akceptacji
+    i budzi fundamentalne wątpliwości co do proporcjonalności oraz zasadności przyjętych
+    rozwiązań.
+    Główne zastrzeżenia formułowane przez przedsiębiorców pod adresem KSeF opierają się na
+    czterech filarach:
+    1) niedostateczne przygotowanie techniczne;
+    2) negatywny wpływ na działalność firm;
+    3) ryzyko bezprecedensowej inwigilacji gospodarczej;
+    4) zagrożenie bezpieczeństwa danych.
+    Przedstawione powyżej argumenty, wzmocnione wyraźnym i masowym sprzeciwem
+    przedsiębiorców, stanowiskiem Rzecznika Małych i Średnich Przedsiębiorców, a także
+    aktualnymi wydarzeniami związanymi z funkcjonowanie KSeF jasno wskazują, że KSeF jest
+    projektem niedopracowanym, ryzykownym i zagrażającym stabilności polskiej gospodarki.
+    Fakty te wskazują na pilną konieczność wprowadzenia dobrowolności korzystania z tego
+    systemu dla mikro, małych i średnich przedsiębiorców. Dobrowolność i współpraca zamiast
+    odgórnego narzucania rozwiązań podatnikom powinny być fundamentem nowoczesnej
+    administracji państwowej.
+    Należy także wskazać na fakt, że dobrowolny model KSeF jest w pełni zgodny z ogólnymi
+    przepisami prawa Unii Europejskiej (Dyrektywa VAT 2006/112/WE1), a także na to, że
+    to obowiązkowy charakter systemu wymagał od Polski uzyskania specjalnej zgody od
+    organów UE (decyzji derogacyjnej), ponieważ unijne prawo co do zasady chroni prawo
+    podatnika do wyboru formy faktury (papierowej lub elektronicznej).
+    Warto także zauważyć, że celu projektowanej nowelizacji nie spełniałoby przedłużenie
+    obowiązywania czasowego zwolnienia z obowiązku wystawiania faktur ustrukturyzowanych
+    lub rozszerzenie podmiotowe takiego zwolnienia. Art. 145l, art. 145m oraz art. 145n ustawy
+    o VAT są bowiem jedynie przepisami epizodycznymi, natomiast celem nowelizacji jest
+    wprowadzenie dobrowolności dla mikro, małych i średnich przedsiębiorców na stałe,
+    nieograniczonej żadnymi terminami.
+
+
+
+1
+    https://eur-lex.europa.eu/legal-content/PL/TXT/?uri=celex:32006L0112
+                                                       2
+
+
+
+                       Konfederacja Wolność i Niepodległość | konfederacja.pl
+[2] Czy były rozważane rozwiązania alternatywne?
+
+   ●   Nie
+
+ Nie ma możliwości podjęcia działań alternatywnych. Wprowadzenie dobrowolności
+ wystawiania faktur ustrukturyzowanych za pośrednictwem KSeF przez mikro, małych
+ i średnich przedsiębiorców jest możliwe do osiągnięcia jedynie przez dokonanie zmian w art.
+ 106ga ustawy o VAT.
+
+II. Wymogi określone w art. 34 ust. 2 pkt 3–5 regulaminu Sejmu
+
+[3] Jakie są przewidywane skutki prawne projektowanych rozwiązań?
+
+ Zgodnie z art. 1 projektu ustawy
+ Projekt ustawy określa w art. 2, że ustawa wejdzie w życie po upływie 14 dni od dnia
+ ogłoszenia.
+ Projektowane rozwiązania są spójne z dotychczasowymi regulacjami pod kątem
+ systemowym i terminologicznym. Projektowane rozwiązania są zgodne z Konstytucją RP,
+ w tym z konstytucyjnym standardem ochrony wolności i praw. Przedmiot projektu ustawy
+ jest zgodny z prawem Unii Europejskiej.
+
+[4] Jakie są przewidywane skutki społeczne projektowanych rozwiązań?
+
+ Projekt ustawy wywoła pozytywne skutki społeczne. Wprowadzenie dobrowolności
+ stosowania KSeF przez mikro, małych i średnich przedsiębiorców znacząco poprawi warunki
+ wykonywania przez nich działalności gospodarczej w Polsce, eliminując ograniczenia,
+ wysokie koszty organizacyjne i finansowe związane z wdrożeniem systemu. Projektowane
+ zmiany pomogą w znacznym stopniu odciążyć przedsiębiorców oraz odbudować ich zaufanie
+ do państwa. Zwiększenie zaufania do organów państwa to istotny czynnik, który pomoże
+ przedsiębiorcom w rozwoju swoich przedsiębiorstw, a jednocześnie spowodują wzrost
+ gospodarczy całego kraju. Jasne i przejrzyste reguły podatkowe, w tym dobrowolność
+ korzystania z systemu KSeF może zachęcić do zakładania nowych przedsiębiorstw, co
+ pozytywnie wpłynie na rozwój gospodarczy Polski. Dodatkowe obowiązki nakładane na
+ przedsiębiorców, zwłaszcza tych mikro, małych i średnich mogą natomiast doprowadzić do
+ spadku liczby aktywnych działalności gospodarczych, poprzez rezygnację z prowadzenia
+ działalności gospodarczej oraz zmniejszenia liczby miejsc pracy przez nich tworzonych.
+
+[5] Jakie są przewidywane skutki gospodarcze projektowanych rozwiązań?
+
+ Projekt ustawy wywoła pozytywne skutki gospodarcze. Wprowadzenie dobrowolności
+ stosowania KSeF przez mikro, małych i średnich przedsiębiorców znacząco poprawi warunki
+ wykonywania przez nich działalności gospodarczej w Polsce, eliminując ograniczenia,
+ wysokie koszty organizacyjne i finansowe związane z wdrożeniem systemu. Projektowane
+ zmiany pomogą w znacznym stopniu odciążyć przedsiębiorców oraz odbudować ich
+ zaufanie do państwa. Zwiększenie zaufania do organów państwa to istotny czynnik, który
+
+                                             3
+
+
+
+                  Konfederacja Wolność i Niepodległość | konfederacja.pl
+ pomoże przedsiębiorcom w rozwoju swoich przedsiębiorstw, a jednocześnie spowodują
+ wzrost gospodarczy całego kraju. Jasne i przejrzyste reguły podatkowe, w tym dobrowolność
+ korzystania z systemu KSeF może zachęcić do zakładania nowych przedsiębiorstw, co
+ pozytywnie wpłynie na rozwój gospodarczy Polski. Dodatkowe obowiązki nakładane na
+ przedsiębiorców, zwłaszcza tych mikro, małych i średnich mogą natomiast doprowadzić do
+ spadku liczby aktywnych działalności gospodarczych, poprzez rezygnację z prowadzenia
+ działalności gospodarczej oraz zmniejszenia liczby miejsc pracy przez nich tworzonych.
+
+[6] Jakie są przewidywane skutki finansowe projektowanych rozwiązań, w szczególności
+wpływ na sektor finansów publicznych, w tym na budżet państwa i budżety jednostek
+samorządu terytorialnego?
+
+ Projekt nie generuje obciążenia budżetu państwa lub budżetów jednostek samorządu
+ terytorialnego. Proponowane zmiany nie wpłyną na plany dodatkowego uszczelnienia luki
+ w podatku VAT, bowiem Ministerstwo Finansów oraz urzędy skarbowe już obecnie
+ dysponują wystarczającymi narzędziami kontroli w tym aspekcie. Dodatkowo należy
+ wskazać, że koszty stworzenia systemu zostały już przez budżet państwa poniesione
+ i wprowadzenie dobrowolności dla niektórych przedsiębiorców nie będzie miało na nie
+ żadnego wpływu. Poprawa sytuacji mikro, małych i średnich przedsiębiorców długofalowo
+ powinna natomiast pozytywnie wpłynąć na stan finansów publicznych poprzez zwiększenie
+ wpływów podatkowych.
+
+[7] Wykaz źródeł finansowania, jeśli projekt ustawy pociąga za sobą obciążenie budżetu
+państwa lub budżetów jednostek samorządu terytorialnego.
+
+ Projekt nie pociąga za sobą obciążenia budżetu państwa lub budżetów jednostek samorządu
+ terytorialnego.
+
+[8] Czy projekt ustawy podlega procedurze notyfikacyjnej?
+
+   ●   Nie
+
+III. Wymogi określone w art. 34 ust. 2a i 2b regulaminu Sejmu
+
+[9] Czy projekt ustawy zawiera przepisy określające zasady podejmowania, wykonywania lub
+zakończenia działalności gospodarczej (art. 34 ust. 2a regulaminu Sejmu)?
+   ●   Tak
+
+ Projekt zawiera przepisy określające zasady wykonywania działalności gospodarczej,
+ a mianowicie     dotyczące  wprowadzenia     dobrowolności   wystawiania    faktur
+ ustrukturyzowanych przy użyciu KSeF przez podatników będących mikroprzedsiębiorcą,
+ małym przedsiębiorcą lub średnim przedsiębiorcą w rozumieniu art. 7 ust. 1 Prawa
+ przedsiębiorców.
+
+
+
+                                            4
+
+
+
+                 Konfederacja Wolność i Niepodległość | konfederacja.pl
+[10] Czy wdrożenie projektowanych przepisów spowoduje obciążenia administracyjne
+mikroprzedsiębiorców, małych i średnich przedsiębiorców (art. 34 ust. 2a regulaminu Sejmu)?
+   ●   Nie
+
+ Wdrożenie projektowanych przepisów spowoduje spadek obciążeń administracyjnych
+ mikroprzedsiębiorców, małych i średnich przedsiębiorców poprzez wprowadzenie
+ dobrowolności stosowania przez nich systemu KSeF.
+
+[11] Czy projekt ustawy zawiera przepisy regulacyjne lub określa wymogi dotyczące
+świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r. o zasadach
+uznawania kwalifikacji zawodowych nabytych w państwach członkowskich Unii Europejskiej
+(art. 34 ust. 2b regulaminu Sejmu)?
+   ●   Nie
+
+
+
+
+                                            5
+
+
+
+                 Konfederacja Wolność i Niepodległość | konfederacja.pl
+

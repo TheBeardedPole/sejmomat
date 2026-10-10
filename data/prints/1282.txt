@@ -1,0 +1,650 @@
+                                                                      Druk nr 1282
+                                                                  Warszawa, 20 maja 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-66-25
+
+
+                                                             Pan
+                                                             Szymon Hołownia
+                                                             Marszałek Sejmu
+                                                             Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy o podatku od spadków
+   i darowizn.
+        Projekt ma charakter deregulacyjny.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Finansów.
+
+
+                                                          Z poważaniem
+                                                           Donald Tusk
+                                           /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+             Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                       Projekt
+                                         U S T AWA
+
+                                             z dnia
+
+                      o zmianie ustawy o podatku od spadków i darowizn
+
+
+     Art. 1. W ustawie z dnia 28 lipca 1983 r. o podatku od spadków i darowizn (Dz. U.
+z 2024 r. poz. 1837) wprowadza się następujące zmiany:
+1)   w art. 4a w ust. 1 w pkt 1 wyrazy „art. 6 ust. 1 pkt 2–5, 7 i 8 oraz ust. 2” zastępuje się
+     wyrazami „art. 6 ust. 1 pkt 2–5, 7 i 8 oraz ust. 1a–2”;
+2)   w art. 6:
+     a)   w ust. 1 w pkt 8 skreśla się wyrazy „ , renty”,
+     b)   po ust. 1a dodaje się ust. 1b w brzmieniu:
+                 „1b. Jeżeli przedmiotem nabycia jest prawo majątkowe polegające na
+          obowiązku świadczeń powtarzających się na rzecz nabywcy tego prawa, obowiązek
+          podatkowy powstaje z chwilą:
+          1)     ustanowienia tych świadczeń – w przypadku gdy wartość świadczeń
+                 powtarzających się za cały okres trwania obowiązku tych świadczeń:
+                 a)   jest ustalona na dzień ich ustanowienia albo
+                 b)   została uprawdopodobniona zgodnie z art. 12 ust. 1 pkt 2;
+          2)     wykonania poszczególnych świadczeń – w przypadkach innych niż określone
+                 w pkt 1.”;
+3)   art. 12 otrzymuje brzmienie:
+          „Art. 12. 1. Przy ustalaniu wartości prawa majątkowego polegającego na obowiązku
+     świadczeń powtarzających się na rzecz nabywcy tego prawa przyjmuje się:
+     1)   łączną wartość świadczeń powtarzających się za okres, na jaki zostały ustanowione,
+          a jeżeli zostały ustanowione na czas nieokreślony – za okres 10 lat, w przypadku gdy
+          wartość świadczeń powtarzających się jest ustalona na dzień ich ustanowienia za
+          cały okres trwania obowiązku tych świadczeń;
+     2)   łączną uprawdopodobnioną wartość świadczeń powtarzających się za okres, na jaki
+          zostały ustanowione, a jeżeli zostały ustanowione na czas nieokreślony – za okres
+          10 lat, w przypadku gdy wartość świadczeń powtarzających się nie jest ustalona na
+          dzień ich ustanowienia za cały okres trwania obowiązku tych świadczeń, a naczelnik
+          urzędu skarbowego, za zgodą podatnika, uprawdopodobni ich wartość;
+                                             –2–
+
+
+     3)   wartość poszczególnych świadczeń w przypadkach innych niż określone w pkt 1 i 2.
+          2. Do obliczenia wartości prawa użytkowania i służebności przepis ust. 1 pkt 1
+     stosuje się odpowiednio, przy czym ich roczną wartość ustala się w wysokości 4 %
+     wartości rzeczy oddanej w użytkowanie lub obciążonej służebnością.”;
+4)   uchyla się art. 13;
+5)   w art. 18 ust. 3 otrzymuje brzmienie:
+          „3. W przypadkach określonych w art. 12 ust. 1 pkt 2 i 3 notariusz nie oblicza ani
+     nie pobiera podatku.”;
+6)   w art. 19 dodaje się ust. 7 w brzmieniu:
+          „7. Przepisu ust. 6 nie stosuje się, gdy nabycie zbywanych lub obciążanych rzeczy
+     lub praw majątkowych nastąpiło na podstawie umowy zawartej w formie aktu
+     notarialnego lub było zwolnione od podatku na podstawie art. 4a.”.
+
+     Art. 2. Do praw majątkowych polegających na obowiązku świadczeń powtarzających się,
+użytkowania i służebności ustanowionych przed dniem wejścia w życie niniejszej ustawy
+stosuje się przepisy dotychczasowe.
+
+     Art. 3. Przepis art. 19 ust. 7 ustawy zmienianej w art. 1 stosuje się do zbywanych lub
+obciążanych rzeczy lub praw majątkowych nabytych po dniu 31 grudnia 2006 r.
+
+     Art. 4. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                     UZASADNIENIE
+
+Zmiana ustawy z dnia 28 lipca 1983 r. o podatku od spadków i darowizn (Dz. U. z 2024 r. poz.
+1837), zwanej dalej „u.p.s.d.”, stanowi realizację filaru VI: „Wsparcie dla biznesu i
+deregulacja” planu gospodarczego na 2025 r. „Polska. Rok przełomu”, który zakłada eliminację
+zbędnych procedur administracyjnych, redukcję kosztów prowadzenia działalności oraz
+zwiększenie przejrzystości systemu podatkowego. Nowelizacja ma na celu uproszczenie
+rozliczania podatku w przypadku nabycia prawa majątkowego polegającego na obowiązku
+świadczeń powtarzających się na rzecz nabywcy, a także ułatwienie i przyspieszenie obrotu
+majątkiem nabytym tytułem spadku lub w inny nieodpłatny sposób, objęty zakresem ustawy,
+w formie aktu notarialnego lub od osób z kręgu najbliższej rodziny.
+
+Uproszczenie zasad rozliczania podatku z tytułu nabycia świadczeń powtarzających się
+
+Zmiana u.p.s.d. w zakresie regulacji dotyczących ustalania wartości świadczeń powtarzających
+się ma na celu zniwelowanie istotnego wzrostu biurokratycznych obowiązków po stronie
+podatnika, jak i kosztów po stronie organów podatkowych, które są skutkiem interpretacji art.
+12 u.p.s.d. zawartej w uchwale składu siedmiu sędziów Naczelnego Sądu Administracyjnego z
+dnia 31 marca 2025 r. sygn. akt III FPS 5/24.
+
+Od dnia wejścia w życie ustawy z dnia 28 lipca 1983 r. o podatku od spadków i darowizn do
+dnia 31 marca 2025 r. organy podatkowe oraz sądy administracyjne jednolicie uznawały, że
+podstawę opodatkowania umowy nieodpłatnej renty ustanowionej na czas określony, w której
+wartość pojedynczego świadczenia jest oznaczona, stanowi suma tych świadczeń.
+
+W uchwale z dnia 31 marca 2025 r. (sygn. akt III FPS 5/24) NSA zmienił swoje dotychczasowe
+poglądy i stanął na stanowisku, że umowa renty z uwagi na swój losowy charakter stanowi
+prawo majątkowe, którego wartość nie może być z góry określona co do wysokości, a zatem
+podstawę opodatkowania w przypadku nabycia nieodpłatnej renty należy ustalać w miarę
+wykonywania świadczeń. Interpretacja ta jest sprzeczna z dotychczasowym orzecznictwem
+sądów i praktyką organów podatkowych, lecz z uwagi na moc prawną uchwały pozostaje
+wiążąca dla składów orzekających sądów administracyjnych, a w konsekwencji także dla
+organów podatkowych.
+
+Przyjmując wskazany w uchwale sposób ustalania podstawy opodatkowania w miarę
+wykonywania świadczeń oraz mając na względzie to jak powstaje zobowiązanie podatkowe w
+podatku od spadków i darowizn, tj. z dniem doręczenia decyzji organu podatkowego ustalającej
+wysokość tego zobowiązania (a nie z mocy prawa), należy stwierdzić, że nowa interpretacja
+przepisów nakłada na podatnika obowiązek składania zeznania podatkowego po każdym
+wykonanym świadczeniu, zarówno dla celów opodatkowania nabycia takiego świadczenia, jak
+i odliczenia go od podstawy opodatkowania, np. jako ciężaru darowizny.
+
+Oznacza to, że zarówno podatnik, który nabył rentę, jak i podatnik zobowiązany do jej
+ustanowienia z tytułu polecenia darczyńcy, są zobowiązani po każdym wykonanym
+świadczeniu wystąpić do organu podatkowego z wnioskiem o wznowienie postępowania, a
+organ podatkowy jest zobowiązany na nowo ustalić podstawę opodatkowania oraz wysokość
+zobowiązania podatkowego, uwzględniając wykonane świadczenie. W przypadku renty
+ustanowionej dla członka najbliższej rodziny, w celu skorzystania ze zwolnienia podatnik jest
+zobowiązany do złożenia zgłoszenia po każdym otrzymanym świadczeniu.
+
+Biorąc pod uwagę powyższe, skutkiem wskazanej uchwały jest wzrost biurokratycznych
+obowiązków po stronie podatników nabywających albo wykonujących świadczenia z tytułu
+renty, a w przypadku podatników, o których mowa w art. 4a ustawy, ryzyko utraty zwolnienia.
+Po stronie organów podatkowych nowa interpretacja przepisów prowadzi do wzrostu kosztów
+związanych z wielokrotnym przeprowadzaniem pełnego postępowania podatkowego i
+doręczaniem decyzji ustalającej wysokość zobowiązania podatkowego po każdym wykonanym
+świadczeniu.
+
+Uchwała doprowadziła do zróżnicowania sposobu opodatkowania świadczeń powtarzających
+się, w zależności o tego, czy wynikają one z umowy renty czy z innego stosunku prawnego
+zobowiązaniowego. Przykładowo, w przypadku gdy obdarowany został obciążony
+obowiązkiem wykonania polecenia na rzecz osoby trzeciej polegającego na ustanowieniu
+świadczenia powtarzającego się w postaci comiesięcznej wypłaty określonej sumy pieniędzy
+przez 3 lata, organ podatkowy będzie nadal uprawniony do zastosowania dotychczasowej
+interpretacji przepisów, tj. ustalenia wartości tego obciążenia jednorazowo jako zsumowanej
+wartości świadczeń. W przypadku gdy świadczenie to zostanie ustalone dożywotnio, wartością
+tego obciążenia będzie wysokość rocznego świadczenia pomnożona przez 10 lat.
+
+Powyższe uzasadnia zmianę przepisów prowadzącą do uproszczenia zasad rozliczenia podatku,
+w ten sposób, aby zasady ustalania wartości świadczeń powtarzających się były jednolite i
+niezależne od tytułu prawnego, jakim zostały ustanowione. Zmiana przepisów przywróci
+pożądany przez ustawodawcę stan polegający na jednorazowym określaniu podstawy
+opodatkowania, a co za tym idzie jednorazowym ustaleniu wysokości zobowiązania
+podatkowego i doręczeniu jednej decyzji podatkowej w tym zakresie.
+
+
+
+                                             2
+Przywrócenie zasad obowiązujących do 31 marca 2025 r. zniweluje opisane powyżej
+negatywne konsekwencje przyjęcia interpretacji przepisów zawartej w uchwale i wprowadzi
+symetryczne rozwiązanie, w którym zarówno podatnicy zwolnieni od podatku, podatnicy, dla
+których renta stanowi ciężar darowizny, jak i podatnicy zobowiązani do zapłaty podatku z
+tytułu nabycia renty, będą zobowiązani do jednorazowego złożenia zeznania podatkowego
+(zgłoszenia) i rozliczenia podatku.
+
+Mając na uwadze powyższe, proponuje się kompleksowe uregulowanie, w dodawanym w art.
+6 ust. 1b, zasad powstania obowiązku podatkowego w przypadku nabycia prawa majątkowego
+polegającego na obowiązku świadczeń powtarzających się na rzecz nabywcy, w tym
+wynikającym z umowy renty, oraz w znowelizowanym art. 12 u.p.s.d. określenie zasad
+ustalania wartości takiego prawa dla celów określenia podstawy opodatkowania. Jeżeli
+przedmiotem nabycia będzie prawo majątkowe polegające na obowiązku świadczeń
+powtarzających się, których łączna wartość za okres trwania obowiązku tych świadczeń jest
+znana w dniu ich ustanowienia (ich wysokość jest możliwa do wyliczenia na podstawie umowy,
+która łączy strony lub oświadczenia osoby ustanawiającej je), to zasadą będzie powstanie
+obowiązku podatkowego z chwilą ich ustanowienia oraz przyjęcie przy ustalaniu wartości tych
+świadczeń łącznej ich wartości, a w przypadku gdy zostały ustanowione na czas nieokreślony
+– za okres 10 lat (zasada ta jest obecnie zawarta w art. 13 ust. 1 u.p.s.d.). Jeżeli w dniu
+ustanowienia świadczeń nie będzie znana ich łączna wartość za okres trwania obowiązku tych
+świadczeń (nie będzie możliwe jej wyliczenie), a możliwe będzie uprawdopodobnienie ich
+łącznej wartości przez naczelnika urzędu skarbowego, organ ten za zgodą podatnika wyrażoną
+w postępowaniu podatkowym wszczętym wskutek złożenia przez niego zeznania podatkowego
+przyjmie przy ustaleniu wartości tych świadczeń tę łączną uprawdopodobnioną wartość.
+Jedynie w przypadku, gdy wartość świadczeń nie będzie mogła być ustalona ani
+uprawdopodobniona w dniu ustanowienia świadczeń powtarzających się, obowiązek
+podatkowy powstanie z chwilą wykonania poszczególnych świadczeń i podstawę
+opodatkowania będzie stanowiła wartość poszczególnych świadczeń. Obejmie ona przypadki,
+gdy sposób ustalenia wysokości pojedynczego świadczenia uniemożliwi ustalenie lub
+uprawdopodobnienie łącznej wartości wszystkich świadczeń za cały czas ich trwania, np.
+wskutek określenia klauzuli waloryzacyjnej albo określenie wartości świadczenia w oparciu o
+zmienne kryterium.
+
+Powyższe zasady będą miały zastosowanie do ustalenia wartości prawa majątkowego
+polegającego na obowiązku świadczeń powtarzających się jako przedmiotu nabycia, a także
+
+
+                                            3
+gdy wykonanie polecenia polegającego na ustanowieniu świadczeń powtarzających się będzie
+stanowiło ciężar spadku lub darowizny pomniejszający podstawę opodatkowania.
+
+Zmiana w art. 4a ust. 1 pkt 1 u.p.s.d. polega na uzupełnieniu tego przepisu o odwołanie do art.
+6 ust. 1a oraz dodawanego art. 6 ust. 1b. Wskazanie wprost ustępu 1a wyeliminuje wątpliwości
+w zakresie obowiązku zgłoszenia nabycia majątku w częściach, gdy obowiązek podatkowy
+powstanie na podstawie art. 6 ust. 1a z chwilą nabycia poszczególnych części.
+
+Zmiana w art. 18. ust. 3 u.p.s.d. dotyczy przypadków, w których notariusz nie pobiera podatku,
+i stanowi dostosowanie do nowej treści art. 12.
+
+Zmienione przepisy będą miały zastosowanie do nabycia świadczeń powtarzających się
+ustanowionych po wejściu w życie projektowanej ustawy.
+
+Obrót majątkiem nabytym tytułem spadku lub w inny nieodpłatny sposób objęty
+zakresem przedmiotowym u.p.s.d.
+
+Zgodnie z art. 19 ust. 6 u.p.s.d. notariusze mogą dokonywać czynności notarialnych, w których
+przedmiotem obrotu lub obciążenia są rzeczy lub prawa majątkowe nabyte przez zbywcę
+tytułem spadku lub w inny nieodpłatny sposób objęty zakresem u.p.s.d. tylko wtedy, gdy
+zbywca    przedstawi   zaświadczenie      wydane   przez   naczelnika   urzędu    skarbowego.
+Zaświadczenie takie ma potwierdzać, że nabycie jest zwolnione od podatku, że należny podatek
+został zapłacony albo że zobowiązanie podatkowe wygasło wskutek przedawnienia, i stanowi
+zabezpieczenie przed wyzbyciem się majątku przez podatników w tych przypadkach, gdy
+uchylają się oni od zapłaty podatku.
+
+Proponowane regulacje eliminują powyższy wymóg w przypadku nabycia rzeczy lub praw
+majątkowych, mających być przedmiotem czynności notarialnej, gdy nastąpiło ono:
+1) na podstawie umowy zawartej w formie aktu notarialnego lub
+2) od osób z kręgu najbliższej rodziny.
+
+W pierwszym przypadku wymóg uzyskiwania zaświadczenia potwierdzającego, że nabycie jest
+zwolnione od podatku od spadków i darowizn, że należny podatek został zapłacony albo
+że zobowiązanie podatkowe wygasło wskutek przedawnienia jest zbędny, ponieważ treść aktu
+notarialnego, na podstawie którego nastąpiło to nabycie, odzwierciedla ten fakt. Notariusze,
+zgodnie z art. 18 ust. 1 u.p.s.d., są płatnikami podatku od spadków i darowizn od wymienionych
+w tym przepisie czynności dokonanych w formie aktu notarialnego. W związku z tym są oni
+obowiązani do pobrania należnego podatku i wpłacenia go na rachunek odpowiedniego urzędu
+skarbowego. Jeżeli czynność dokonywana w formie aktu notarialnego dotyczy majątku, od
+
+
+                                              4
+nabycia którego podatek został zapłacony, w oczywisty sposób nie występuje ryzyko, że
+podatnik będzie uchylał się od jego uiszczenia. Także w przypadkach, w których notariusz
+sporządzając akt notarialny nie występuje w roli płatnika, organ podatkowy w bardzo krótkim
+czasie, tj. w ciągu 7 dni od dnia sporządzenia aktu notarialnego, otrzymuje treść tego aktu,
+zyskując tym samym informację o nabyciu majątku objętego przepisami u.p.s.d.
+
+Drugie rozwiązanie ograniczone jest do obrotu majątkiem nabytym przez najbliższych
+członków rodziny, o których mowa w art. 4a ust. 1 u.p.s.d., to jest przez małżonka, zstępnych,
+wstępnych, pasierba, rodzeństwo, ojczyma i macochę, w sposób inny niż w formie aktu
+notarialnego. Nabycie to z mocy prawa jest zwolnione z podatku od spadków i darowizn, pod
+warunkiem zgłoszenia właściwemu naczelnikowi urzędu skarbowego w terminie 6 miesięcy od
+dnia powstania obowiązku podatkowego, lub w przypadku dziedziczenia – od dnia
+uprawomocnienia się orzeczenia sądu stwierdzającego nabycie spadku oraz udokumentowania
+otrzymania środków pieniężnych w określonych ustawą przypadkach. Jeżeli zatem podatnik
+dokonał zgłoszenia nabytego majątku, w efekcie czego nabycie to zostało zwolnione z podatku,
+obowiązek przedstawienia zaświadczenia naczelnika urzędu skarbowego o zwolnieniu nabycia
+z podatku przy dokonywaniu obrotu tym majątkiem jest zbędnym formalizmem. W związku z
+powyższym warunkiem dla zastosowania proponowanych regulacji konieczne będzie
+uprzednie dokonanie zgłoszenia majątku, będącego przedmiotem dalszego obrotu, a także
+przedstawienie potwierdzenia tego zgłoszenia notariuszowi.
+
+Proponuje się jednocześnie, aby zwolnienie z obowiązku uzyskiwania zaświadczenia przy
+dokonywaniu obrotu lub obciążenia rzeczy lub praw majątkowych, którego nabycie podlega
+podatkowi od spadków i darowizn, dotyczyło majątku nabytego od dnia 1 stycznia 2007 r. Z tą
+datą wprowadzono bowiem zwolnienie dla osób z kręgu najbliższej rodziny oraz rozszerzono
+obowiązek przedkładania zaświadczeń także na przypadki, gdy przedmiotem aktu notarialnego
+jest zbycie lub obciążenie rzeczy lub praw majątkowych nabytych w drodze czynności
+dokonanych w formie aktu notarialnego. Pozwoli to z jednej strony zrealizować cel
+projektowanych rozwiązań deregulacyjnych przy zachowaniu spójności przepisów, a z drugiej
+zabezpieczyć przed wykorzystywaniem ich niezgodnie z zamiarem projektodawcy.
+
+Z uwagi na wprowadzenie pozytywnych rozwiązań dla podatników, proponuje się, aby ustawa
+weszła w życie po upływie 14 dni od dnia ogłoszenia.
+
+Projekt ustawy nie jest sprzeczny z prawem Unii Europejskiej.
+
+
+
+
+                                              5
+Projekt ustawy nie zawiera przepisów technicznych, w związku z czym nie podlega procedurze
+notyfikacji na zasadach przewidzianych w rozporządzeniu Rady Ministrów z dnia 23 grudnia
+2002 r. w sprawie sposobu funkcjonowania krajowego systemu notyfikacji norm i aktów
+prawnych (Dz. U. poz. 2039, z późn. zm.).
+
+Projekt ustawy nie wymaga przedstawienia właściwym instytucjom i organom Unii
+Europejskiej lub Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+konsultacji albo uzgodnienia, w przypadkach określonych w obowiązujących na terytorium
+Rzeczypospolitej Polskiej przepisach Unii Europejskiej.
+
+Projekt został przekazany do zaopiniowania Komisji Wspólnej Rządu i Samorządu
+Terytorialnego uzyskując jej pozytywną opinię.
+
+Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w
+procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248, z późn. zm.) oraz § 52 ust. 1 uchwały
+nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów
+(M.P. z 2024 r. poz. 806, z późn. zm.) projekt ustawy podlega udostępnieniu w Biuletynie
+Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie
+„Rządowy Proces Legislacyjny”.
+
+
+
+
+                                             6
+                                                                          Data sporządzenia
+Nazwa projektu
+                                                                          16 maja 2025 r.
+Projekt ustawy o zmianie ustawy o podatku od spadków i darowizn
+Ministerstwo wiodące i ministerstwa współpracujące                        Źródło:
+Ministerstwo Finansów                                                     deregulacja
+                                                                          MSWiA-3-155
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Stanu
+                                                                          Nr w wykazie prac
+lub Podsekretarza Stanu
+                                                                          UDER19
+Jarosław Neneman, Podsekretarz Stanu w Ministerstwie Finansów
+
+Kontakt do opiekuna merytorycznego projektu
+Monika Derejko-Kotowska, Dyrektor Departamentu Podatków i Opłat
+ Stanowiących Dochód Jednostek Samorządu Terytorialnego
+tel. (22) 694 58 04, e-mail: sekretariat.dpl@mf.gov.pl
+
+referent projektu:
+Janina Banach, Naczelnik Wydziału w Departamencie Podatków i Opłat
+ Stanowiących Dochód Jednostek Samorządu Terytorialnego
+tel. 538 506 217, e-mail: janina.banach@mf.gov.pl
+
+                                OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Zasady rozliczania podatku z tytułu nabycia świadczeń powtarzających się
+
+Naczelny Sąd Administracyjny w składzie siedmiu sędziów w uchwale z dnia 31 marca 2025 r. sygn. akt. III FPS 5/24,
+dotyczącej umowy nieodpłatnej renty ustanowionej na czas określony, w której wysokość świadczenia jest określona w
+pieniądzu dokonał interpretacji art. 12 ustawy z dnia 28 lipca 1983 r. o podatku od spadków i darowizn (Dz. U. z 2024 r.
+poz. 1837), zwanej dalej „u.p.s.d.”, który przewiduje dwa sposoby ustalenia podstawy opodatkowania: w miarę
+wykonywania świadczeń powtarzających się (jeżeli wartość prawa majątkowego nie może być ustalona w chwili
+powstania obowiązku podatkowego), albo przez przyjęcie prawdopodobnej wartości świadczeń za cały czas trwania
+obowiązku (za zgodą podatnika).
+
+Uchwała NSA zmieniła dotychczasową linię interpretacyjną sądów administracyjnych oraz utrwaloną praktykę organów
+podatkowych, polegającą na ustalaniu wartości świadczeń powtarzających się zgodnie z art. 13 ust. 1 u.p.s.d., przez
+pomnożenie wysokości świadczenia miesięcznego przez liczbę miesięcy, na które zostało ustanowione, gdy w chwili
+ustanowienia renty znana była wartość pojedynczego świadczenia.
+
+NSA nie zaaprobował stanowiska organów podatkowych i uznał, że umowa renty nie stanowi prawa majątkowego, którego
+wartość jest z góry ustalona co do wysokości, a zatem podstawę opodatkowania należy ustalać w miarę wykonywania
+świadczeń powtarzających się wynikających z umowy renty. Taka interpretacja przepisów z jednej strony nakłada
+obowiązek składania zeznania podatkowego o nabyciu rzeczy lub praw majątkowych po każdym wykonanym
+świadczeniu, zarówno dla celów opodatkowania nabycia takiego świadczenia, jak i odliczenia go od podstawy
+opodatkowania jako ciężar. Z drugiej strony w przypadku renty ustanowionej dla członka najbliższej rodziny, w celu
+skorzystania ze zwolnienia nakłada obowiązek złożenia zgłoszenia po każdym otrzymanym świadczeniu. Biorąc pod
+uwagę okresowy charakter świadczenia, które zazwyczaj ustalane jest w miesięcznych terminach płatności, skutkiem
+wskazanej uchwały jest zarówno wzrost biurokratycznych obowiązków po stronie podatników, jak i kosztów po stronie
+organów podatkowych, a w przypadku podatników, o których mowa w art. 4a ustawy – ryzyko utraty zwolnienia.
+
+Nadmierny biurokratyzm w niektórych przypadkach dokonywania obrotu majątkiem nabytym tytułem spadku
+lub w inny nieodpłatny sposób objęty zakresem przedmiotowym u.p.s.d.
+
+Zgodnie z art. 19 ust. 6 u.p.s.d., notariusze są zobowiązani powstrzymać się od dokonywania czynności notarialnych,
+w których przedmiotem obrotu lub obciążenia są rzeczy lub prawa majątkowe nabyte przez zbywcę tytułem spadku lub w
+inny nieodpłatny sposób objęty zakresem u.p.s.d. do czasu, aż zbywca przedstawi notariuszowi zaświadczenie wydane
+przez naczelnika urzędu skarbowego potwierdzającego, że nabycie jest zwolnione od podatku, że należny podatek został
+zapłacony albo zobowiązanie podatkowe wygasło wskutek przedawnienia. Powyższy wymóg uzyskiwania zaświadczenia
+należy uznać za zbędny w sytuacji, gdy nabycie majątku zbywanego nastąpiło na podstawie umowy zawartej w formie
+aktu notarialnego lub gdy zbywca należy do osób z kręgu najbliższej rodziny co do zasady zwolnionych z podatku od
+spadków i darowizn na podstawie art. 4a u.p.s.d.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Uproszczenie i ujednolicenie zasad rozliczania podatku z tytułu nabycia świadczeń powtarzających się
+
+Proponuje się kompleksowe uregulowanie zasad powstania obowiązku podatkowego w przypadku nabycia prawa
+majątkowego polegającego na obowiązku świadczeń powtarzających się na rzecz nabywcy w dodawanym w art. 6 ust. 1b
+oraz zasad ustalania wartości nieodpłatnych świadczeń powtarzających się w znowelizowanym art. 12 u.p.s.d. Jeżeli
+przedmiotem nabycia będzie prawo majątkowe polegające na obowiązku świadczeń powtarzających się, których łączna
+wartość za okres trwania obowiązku tych świadczeń jest znana w dniu ich ustanowienia (ich wysokość jest możliwa do
+wyliczenia na podstawie umowy, która łączy strony lub oświadczenia osoby ustanawiającej je), to zasadą będzie powstanie
+obowiązku podatkowego z chwilą ich ustanowienia oraz przyjęcie przy ustalaniu wartości tych świadczeń łącznej wartości
+tych świadczeń za okres, na jaki zostały ustanowione, a w przypadku gdy zostały ustanowione na czas nieokreślony – za
+okres 10 lat (zasada ta jest obecnie zawarta w art. 13 ust. 1 u.p.s.d.).
+Jeżeli w dniu ustanowienia świadczeń nie będzie znana ich łączna wartość za okres trwania obowiązku tych świadczeń
+(nie będzie możliwe jej wyliczenie), a możliwe będzie uprawdopodobnienie ich łącznej wartości przez naczelnika urzędu
+skarbowego, organ ten za zgodą podatnika wyrażoną w postępowaniu podatkowym wszczętym wskutek złożenia przez
+niego zeznania podatkowego, przyjmie przy ustaleniu wartości tych świadczeń tę łączną uprawdopodobnioną wartość.
+
+Zasady będą miały zastosowanie do ustalenia wartości prawa majątkowego polegającego na obowiązku świadczeń
+powtarzających się (jako przedmiotu nabycia) na rzecz nabywcy tego prawa, w tym wynikającym z umowy renty, a także
+gdy wykonanie polecenia polegającego na ustanowieniu świadczeń powtarzających się będzie stanowiło ciężar spadku lub
+darowizny pomniejszający podstawę opodatkowania.
+
+Powyższe w znaczący sposób uprości rozliczanie podatku z tytułu nabycia świadczeń powtarzających się oraz wyeliminuje
+ryzyko utraty zwolnienia podatkowego.
+
+Zniesienie obowiązku uzyskiwania zaświadczeń w niektórych przypadkach dokonywania obrotu majątkiem
+nabytym tytułem spadku lub w inny nieopłatny sposób objęty zakresem przedmiotowym u.p.s.d.
+
+Proponuje się eliminację obowiązku uzyskiwania zaświadczenia naczelnika urzędu skarbowego potwierdzającego,
+że nabycie jest zwolnione z podatku od spadków i darowizn, że podatek został zapłacony albo zobowiązanie podatkowe
+wygasło wskutek przedawnienia, w przypadku gdy przedmiotem dalszego obrotu albo obciążenia w drodze czynności
+notarialnej, będzie majątek nabyty na podstawie umowy zawartej w formie aktu notarialnego albo od osób należących do
+kręgu najbliższej rodziny.
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Materia unormowana niniejszą ustawą nie jest regulowana w prawie Unii Europejskiej i nie podlega harmonizacji.
+Brak jest potrzeby odwoływania się do rozwiązań zagranicznych, gdyż w zakresie objętym projektowaną ustawą mają
+zastosowanie przepisy wynikające z uregulowań wewnętrznych poszczególnych państw.
+
+4. Podmioty, na które oddziałuje projekt
+          Grupa                     Wielkość                   Źródło danych                    Oddziaływanie
+Podatnicy podatku od         Brak danych                                                Ograniczenie obowiązku
+spadków i darowizn                                                                      wielokrotnego składania
+                                                                                        zeznań podatkowych lub
+                                                                                        zgłoszeń oraz eliminacja
+                                                                                        konieczności przedstawiania
+                                                                                        zaświadczenia
+                                                                                        potwierdzającego, że nabycie
+                                                                                        własności rzeczy lub praw
+                                                                                        majątkowych od członków
+                                                                                        najbliższej rodziny albo w
+                                                                                        formie aktu notarialnego jest
+                                                                                        zwolnione z podatku, że
+                                                                                        należny podatek został
+                                                                                        zapłacony albo zobowiązanie
+                                                                                        podatkowe wygasło wskutek
+                                                                                        przedawnienia.
+Naczelnicy urzędów           380, jako organy          rozporządzenie Ministra          Brak konieczności
+skarbowych                   właściwe w sprawie        Rozwoju i Finansów z 24          prowadzenia wielu postępowań
+
+                                                          2
+                                   podatku od spadków i    lutego 2017 r. w sprawie     podatkowych w przypadku
+                                   darowizn                terytorialnego zasięgu działania
+                                                                                        świadczeń powtarzających się
+                                                           oraz siedzib dyrektorów izb  oraz wydawania zaświadczeń
+                                                           administracji skarbowej,     potwierdzających, że nabycie
+                                                           naczelników urzędów          rzeczy lub praw majątkowych
+                                                           skarbowych i naczelników     jest zwolnione z podatku, że
+                                                           urzędów celno-skarbowych     należny podatek został
+                                                           oraz siedziby dyrektora      zapłacony albo zobowiązanie
+                                                           Krajowej Informacji Skarbowejpodatkowe wygasło, w
+                                                           (Dz. U. z 2022 r. poz. 361)  przypadku obrotu majątkiem
+                                                                                        nabytym w formie aktu
+                                                                                        notarialnego albo od członków
+                                                                                        najbliższej rodziny.
+Notariusze                  4083                      Dane Krajowej Rady                Brak obowiązku przedkładania
+                                                      Notarialnej:                      przez strony czynności
+                                                      https://krn.org.pl/aktualnosci/w- notarialnych zaświadczeń
+                                                      2023-roku-4083-notariuszy-        potwierdzających, że nabycie
+                                                      prowadzilo-3317-kancelarii        rzeczy lub praw majątkowych
+                                                                                        od członków najbliższej
+                                                                                        rodziny albo w formie aktu
+                                                                                        notarialnego było zwolnione z
+                                                                                        podatku, że należny podatek
+                                                                                        został zapłacony albo
+                                                                                        zobowiązanie wygasło wskutek
+                                                                                        przedawnienia.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Nie były prowadzone konsultacje poprzedzające przygotowanie projektu ustawy, tzw. pre-konsultacje publiczne.
+Stosownie do art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa1) oraz stosownie
+do § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów2), projekt
+ustawy został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji,
+w serwisie Rządowy Proces Legislacyjny.
+
+W celu przeprowadzenia opiniowania i konsultacji publicznych, projekt został przekazany w szczególności do Krajowej
+Rady Notarialnej, Krajowej Rady Doradców Podatkowych, a także w trybie odrębnym Komisji Wspólnej Rządu
+i Samorządu Terytorialnego, w dniu 9 maja 2025 r. Konsultacje publiczne realizowane były także przez zamieszczenie
+projektu rozporządzenia w przedmiotowym Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum
+Legislacji. Dostępne dla wszystkich podmiotów konsultacje trwały do 15 maja 2025 r. Wyniki konsultacji publicznych
+zostały przedstawione w raporcie z konsultacji i opiniowania.
+
+Zespół ds. Systemu Finansów Publicznych Komisji Wspólnej Rządu i Samorządu Terytorialnego na posiedzeniu w dniu
+15 maja 2025 roku wydał wiążącą opinię pozytywną do projektu.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                                  Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                          0    1     2     3     4      5       6      7     8     9     10 Łącznie (0–10)
+Dochody ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Wydatki ogółem
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Saldo ogółem
+
+1)
+     Dz. U. z 2017 r. poz. 248, z późn. zm.
+2)
+     M.P. z 2024 r. poz. 806, z późn. zm.
+                                                              3
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+                          Wprowadzone regulacje nie spowodują istotnych skutków finansowych dla jednostek sektora
+                          finansów publicznych, w tym budżetu państwa i budżetów jednostek samorządu terytorialnego,
+Źródła finansowania       polegających na zwiększeniu wydatków lub zmniejszeniu dochodów tych jednostek w stosunku
+                          do wielkości wynikających z obowiązujących planów budżetowych.
+
+Dodatkowe informacje,     Skutkiem projektowanych regulacji będzie zmniejszenie kosztów budżetu państwa z tytułu
+w tym wskazanie           wydawania przez naczelników urzędów skarbowych zaświadczeń oraz prowadzenia licznych
+źródeł danych i           postępowań podatkowych w sprawach opodatkowania nabycia poszczególnych świadczeń
+przyjętych do obliczeń    powtarzających się.
+założeń                   Eliminacja uzyskiwania zaświadczeń będzie miała marginalny wpływ na dochody jednostek
+                          samorządu terytorialnego z tytułu opłaty skarbowej, ze względu na obowiązujące zwolnienie
+                          z opłaty skarbowej zaświadczeń wydawanych na wniosek składany za pośrednictwem konta
+                          w e-Urzędzie Skarbowym.
+
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                         Skutki
+Czas w latach od wejścia w życie zmian          0        1         2         3         5         10     Łącznie (0–10)
+W ujęciu          duże przedsiębiorstwa
+pieniężnym        sektor mikro-, małych i
+(w mln zł,        średnich
+ceny stałe z      przedsiębiorstw
+…… r.)            rodzina, obywatele oraz
+                  gospodarstwa domowe
+
+W ujęciu           duże przedsiębiorstwa
+niepieniężnym      sektor mikro-, małych i
+                   średnich
+                   przedsiębiorstw
+                   rodzina, obywatele oraz   Pozytywny skutek polegający na zmniejszeniu biurokratycznych obowiązków
+                   gospodarstwa domowe       po stronie podatników podatku od spadków i darowizn, w tym osób
+                                             niepełnosprawnych i starszych, przez eliminację obowiązku wielokrotnego
+                                             składania zeznań podatkowych lub zgłoszeń przy świadczeniach
+                                             powtarzających się oraz przez eliminację konieczności przedstawiania
+                                             zaświadczenia potwierdzającego, że nabycie własności rzeczy i praw
+                                             majątkowych od członków najbliższej rodziny było zwolnione z podatku.
+
+Niemierzalne
+
+Dodatkowe informacje,
+w tym wskazanie
+źródeł danych i
+przyjętych do obliczeń
+założeń
+
+
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie         tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli  nie
+zgodności).                                         nie dotyczy
+
+
+
+
+                                                           4
+   zmniejszenie liczby dokumentów                             zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                               zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                      wydłużenie czasu na załatwienie sprawy
+   inne:                                                      inne:
+
+Wprowadzane obciążenia są przystosowane do ich                tak
+elektronizacji.                                               nie
+                                                              nie dotyczy
+
+Komentarz:
+Zmiana przepisów odniesie pozytywny skutek polegający na zmniejszeniu biurokratycznych obowiązków po stronie
+podatników (zmniejszy się liczba składanych zeznań podatkowych i zgłoszeń nabycia majątku), jak i kosztów po stronie
+organów podatkowych (zmniejszy się liczba postępowań podatkowych).
+
+9. Wpływ na rynek pracy
+Przedmiotowy projekt nie wywiera wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+
+   środowisko naturalne                    demografia                                informatyzacja
+   sytuacja i rozwój regionalny            mienie państwowe                          zdrowie
+   sądy powszechne, administracyjne        inne:
+lub wojskowe
+
+                        Wejście w życie projektowanej ustawy nie wywiera wpływu na wskazane wyżej obszary.
+Omówienie wpływu
+
+
+11. Planowane wykonanie przepisów aktu prawnego
+Proponuje się, aby projektowana ustawa weszła w życie po upływie 14 dni od dnia jej ogłoszenia.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Z uwagi na przedmiot regulacji nie jest planowana ewaluacja efektów projektu, a tym samym nie przewiduje się stosowania
+mierników tej ewaluacji.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                          5
+                                  RAPORT Z KONSULTACJI
+                                      projektu ustawy
+                 o zmianie ustawy o podatku od spadków i darowizn (UDER19)
+
+1.   Omówienie wyników konsultacji publicznych i opiniowania.
+     a) Podmioty, do których skierowano projekt w celu przedstawienia stanowiska w ramach
+     konsultacji publicznych lub wyrażenia opinii
+           1. Krajowa Rada Notarialna
+           2. Krajowa Rada Doradców Podatkowych
+           3. Konfederacja Lewiatan
+           4. Unia Metropolii Polskich
+           5. Unia Miasteczek Polskich
+           6. Komisja Wspólna Rządu i Samorządu Terytorialnego
+     b) Podmioty, które przedstawiły stanowisko lub opinię
+           1. Komisja Wspólna Rządu i Samorządu Terytorialnego
+           2. Stowarzyszenie Notariuszy Rzeczpospolitej Polskiej
+           3. Ogólnopolska Federacja Stowarzyszeń Uniwersytetów Trzeciego Wieku
+     c) Omówienie przedstawionych stanowisk lub opinii i odniesienie się do nich
+Zespół ds. Systemu Finansów Publicznych Komisji Wspólnej Rządu i Samorządu Terytorialnego na
+posiedzeniu w dniu 15 maja 2025 roku wydał wiążącą opinię pozytywną do projektu.
+Podniesione przez Stowarzyszenie Notariuszy Rzeczypospolitej Polskiej wątpliwości częściowo
+pokrywały się z uwagą RCL zgłoszoną w ramach uzgodnień. W tym zakresie uzupełniono
+uzasadnienie projektu ustawy po uzgodnieniach międzyresortowych, w wersji skierowanej
+na SKRM.
+Ogólnopolska Federacja Stowarzyszeń Uniwersytetów Trzeciego Wieku wyraziła pozytywną
+opinię co do procedowanych zmian.
+2. Informacja o okresie przeprowadzenia konsultacji publicznych i opiniowania i terminie
+wyznaczonym do zajęcia stanowiska
+Projekt został skierowany do konsultacji publicznych oraz opiniowania 9 maja 2025 roku. Termin
+na zajęcie stanowiska w procesie konsultacji publicznych upłynął 15 maja 2025 r.
+
+3. Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia
+projektu z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem
+Centralnym.
+
+Projekt nie wymaga zasięgnięcia opinii, dokonania konsultacji oraz uzgodnienia z właściwymi
+organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem Centralnym.
+
+
+
+                                                                                             1
+4. Podmioty, które zgłosiły zainteresowanie pracami nad projektem w trybie przepisów
+o działalności lobbingowej w procesie stanowienia prawa.
+
+Brak zgłoszeń w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa.
+
+
+
+
+                                                                                            2
+

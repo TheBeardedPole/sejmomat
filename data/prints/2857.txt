@@ -1,0 +1,1193 @@
+                                                                          Druk nr 2857
+          SEJM
+RZECZYPOSPOLITEJ POLSKIE J
+            X kadencja
+
+                                    SPRAWOZDANIE
+            KOMISJI CYFRYZACJI, INNOWACYJNOŚCI I NOWOCZESNYCH
+                    TECHNOLOGII ORAZ KOMISJI EDUKACJI I NAUKI
+
+
+
+   o rządowym projekcie ustawy o zmianie ustawy
+   – Prawo oświatowe oraz ustawy o systemie
+   informacji oświatowej (druk nr 2842)
+
+        Marszałek Sejmu, zgodnie z art. 37 ust. 1 i art. 40 ust. 1 regulaminu Sejmu - skierował
+   w dniu 23 lipca 2026 r. powyższy projekt ustawy do Komisji Cyfryzacji, Innowacyjności
+   i Nowoczesnych Technologii oraz Komisji Edukacji i Nauki - do pierwszego czytania.
+
+        Komisje: Cyfryzacji, Innowacyjności i Nowoczesnych Technologii oraz Edukacji i Nauki
+   po przeprowadzeniu pierwszego czytania oraz rozpatrzeniu tego projektu ustawy
+   na posiedzeniu w dniu 29 lipca 2026 r.
+
+         wnoszą:
+
+
+         W y s o k i S e j m uchwalić raczy załączony projekt ustawy.
+
+         Komisje, zgodnie z art. 43 ust. 3 regulaminu Sejmu, przedstawiają na żądanie wnioskodawcy
+   następujące wnioski mniejszości:
+
+    1) w art. 1 w pkt 2 w poleceniu nowelizacyjnym wyrazy „art. 44f–44o” zastąpić wyrazami
+       „art. 44f–44p”;
+   – poseł M. Józefaciuk
+
+
+    Uwaga: wnioski mniejszości zawarte w pkt 1, 3, 7 i 20 należy głosować łącznie.
+
+
+    2) w art 1 w pkt 2, w art. 44f po ust. 1 dodać ust. 1a w brzmieniu:
+         „1a. eDziennik udostępnia się szkołom i wszystkim jego użytkownikom nieodpłatnie.
+            Korzystanie z eDziennika, w tym ze wszystkich jego funkcjonalności, nie może być
+            uzależnione od wniesienia opłaty, dokonania zakupu ani wyrażenia zgody na
+       otrzymywanie informacji handlowych. W eDzienniku nie zamieszcza się reklam,
+       treści sponsorowanych ani ofert handlowych, nie prowadzi się agitacji wyborczej w
+       rozumieniu art. 105 § 1 ustawy z dnia 5 stycznia 2011 r. – Kodeks wyborczy (Dz. U.
+       z 2025 r. poz. 365, z późn. zm.) ani nie zamieszcza się materiałów wyborczych w
+       rozumieniu art. 109 § 1 tej ustawy.”;
+– poseł M. Józefaciuk
+
+
+3) w art. 1 w pkt 2, w art. 44f:
+    a) w ust 2 w pkt 6 kropkę zastąpić średnikiem i dodać pkt 7–11 w brzmieniu:
+         „7) tworzenie kopii zapasowych oraz odtwarzanie danych i funkcjonalności po
+            awarii;
+         8) zapewnienie ciągłości działania i procedur pracy awaryjnej;
+         9) interoperacyjność       eDziennika     z       systemami      teleinformatycznymi
+            wykorzystywanymi przez szkoły lub organy prowadzące szkoły, w szczególności
+            do obsługi administracyjnej szkoły, naliczania wynagrodzeń, kontroli spełniania
+            obowiązku szkolnego i obowiązku nauki, układania planu lekcji, organizowania
+            zastępstw, sporządzania arkusza organizacji szkoły oraz obsługi stołówki i
+            biblioteki szkolnej;
+         10) zapewnienie użytkownikom pomocy technicznej co najmniej w godzinach pracy
+            szkół, za pośrednictwem kanału telefonicznego i internetowego, z obowiązkiem
+            pierwszej reakcji na zgłoszenie nie później niż w następnym dniu roboczym;
+         11) zapewnienie dostępności cyfrowej eDziennika.”,
+    b) po ust. 5 dodać ust. 6–9 w brzmieniu:
+         „6. eDziennik zapewnia:
+               1) import danych z innego dziennika elektronicznego w ustrukturyzowanym
+                  formacie umożliwiającym odczyt maszynowy;
+               2) eksport komplemego zbioru danych szkoły wraz z historią zmian i
+                  dziennikiem dostępu, w ustrukturyzowanym formacie umożliwiającym
+                  odczyt maszynowy;
+               3) bezpieczną, dwukierunkową wymianę danych z innymi systemami
+                  teleinformatycznymi       wykorzystywanymi     przez    szkołę   lub   organ
+                  prowadzący       szkołę    za   pomocą     udokumentowanego        interfejsu
+                  programistycznego;
+                   4) weryfikację kompletności i zgodności danych po ich imporcie, eksporcie
+                        lub migracji.
+           7. Specyfikację formatów wymiany danych oraz dokumentację interfejsu
+                programistycznego minister właściwy do spraw oświaty i wychowania udostępnia
+                w Biuletynie Informacji Publicznej przed rozpoczęciem pilotażu. Nie udostępnia
+                się informacji, których ujawnienie mogłoby naruszyć bezpieczeństwo eDziennika
+                lub przetwarzanych w nim danych. Udostępnienie dokumentacji nie oznacza
+                udostępnienia danych;       dostęp do danych wymaga uwierzytelnienia i
+                upoważnienia.
+           8.    Warunki       techniczne   dostępu   do   wymiany   danych    są   przejrzyste,
+                niedyskryminujące i jednakowe dla podmiotów publicznych i niepublicznych. Za
+                korzystanie z interfejsu w zakresie niezbędnym do obsługi szkoły nie pobiera się
+                opłat
+           9. Interoperacyjność, o której mowa w ust. 2 pkt 9, zapewnia się w sposób
+                umożliwiający jednokrotne wprowadzenie danych oraz ich automatyczną,
+                dwukierunkową           wymianę   między     eDziennikiem      a     systemami
+                teleinformatycznymi wykorzystywanymi przez szkołę lub organ prowadzący
+                szkołę, bez konieczności ponownego ręcznego wprowadzania tych samych
+                danych.”;
+ – poseł M. Józefaciuk
+
+
+ 4) w art. 1 w pkt 2, w art. 44g w ust. 1 w pkt 4 kropkę zastąpić średnikiem i dodać pkt 5 w
+    brzmieniu:
+      „5) komunikowanie się użytkowników w sprawach dotyczących organizacji pracy szkoły,
+         przebiegu nauczania oraz działalności wychowawczej i opiekuńczej, w tym
+         wprowadzanie przez wszystkich użytkowników danych, o których mowa w art. 44k
+         ust. 1 pkt 7, na zasadach określonych w art. 44ga.”;
+– poseł M. Józefaciuk
+ Uwaga: wnioski mniejszości zawarte w pkt 4, 6, 13, 16 i 19 należy głosować łącznie.
+
+
+ 5) w art 1 w pkt 2, w art. 44g:
+      a) w ust 2 we wprowadzeniu do wyliczenia wyrazy „są posiadający numer PESEL:”
+         zastąpić wyrazami „są:”,
+      b) ust 7 i 8 nadać brzmienie:
+           „7. Uwierzytelnienie użytkownika w eDzienniku następuje:
+                1) przez użycie środka identyfikacji elektronicznej, o którym mowa w art. 20a
+                  ust 1 ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności
+                  podmiotów realizujących zadania publiczne;
+                2) w przypadku ucznia – także z wykorzystaniem certyfikatu ucznia, o którym
+                  mowa w art 2 pkt 4 ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel;
+                3) za pomocą innego bezpiecznego środka uwierzytelnienia zapewnionego
+                  nieodpłatnie przez ministra właściwego do spraw oświaty i wychowania –
+                  jeżeli użytkownik nie posiada środka, o którym mowa w pkt 1 lub 2, albo
+                  nie może z niego skorzystać.
+          8. eDziennik udostępnia się:
+                1) każdemu użytkownikowi przez przeznaczoną do tego stronę internetową;
+                2) dodatkowo, według wyboru użytkownika, za pośrednictwem aplikacji
+                  mObywatel, jeżeli rozwiązanie to jest dostępne dla danego użytkownika.
+            Korzystanie z aplikacji mObywatel nie może być warunkiem uzyskania dostępu
+            do eDziennika.”,
+     c) po ust. 8 dodać ust. 9 w brzmieniu:
+          „9. Szkoła zapewnia dyrektorowi szkoły, nauczycielowi i pracownikowi szkoły
+            niebędącemu nauczycielem sprzęt, dostęp do sieci oraz środki uwierzytelnienia
+            niezbędne do wykonywania obowiązków w eDzienniku. Osoby te nie mogą być
+            zobowiązane do używania w tym celu prywatnego urządzenia, prywatnego
+            numeru telefonu, prywatnego adresu poczty elektronicznej, prywamego rachunku
+            bankowego ani prywamego konta w aplikacji mObywatel.”;
+ – poseł M. Józefaciuk
+ Uwaga: wnioski mniejszości zawarte w pkt 5 i 11 należy głosować łącznie.
+
+
+ 6) w art. 1 w pkt 2, po art. 44g dodać art. 44ga w brzmieniu:
+„Art. 44ga. 1. Moduł komunikacyjny eDziennika umożliwia przesyłanie wiadomości i
+            załączników wyłącznie pomiędzy oznaczonym nadawcą i oznaczonym adresatem
+            albo grupą adresatów posiadających uprawnienie do ich otrzymania.
+          2. Za pośrednictwem modułu komunikacyjnego nie przekazuje się reklam, treści
+            sponsorowanych, ofert handlowych, szczegółowych przyczyn nieobecności
+            ucznia ani danych, o których mowa w art. 9 i art. 10 rozporządzenia Parlamentu
+            Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie
+            ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w
+            sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy
+            95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz. Urz. UE L 119 z
+            04.05.2016, str. 1, z późn. zm.). Informację wymagającą przetwarzania takich
+            danych przekazuje się innym bezpiecznym kanałem określonym przez szkołę
+            zgodnie z odrębnymi przepisami.
+          3. Za pośrednictwem aplikacji mObywatel może być udostępniane wyłącznie
+            powiadomienie o otrzymaniu nowej wiadomości. Treść wiadomości i załącznika
+            udostępnia się po uwierzytelnieniu użytkownika na stronie internetowej
+            eDziennika.
+          4. Dyrektor szkoły, po zasięgnięciu opinii rady pedagogicznej i działających w
+            szkole zakładowych organizacji związkowych, określa przedziały czasu w dniach
+            pracy szkoły, w których system wysyła nauczycielom powiadomienia o nowych
+            wiadomościach. Powiadomienie o wiadomości wysłanej poza takim przedziałem
+            jest wysyłane nauczycielowi w najbliższym przedziale. Przepisu nie stosuje się do
+            powiadomień przekazywanych na podstawie odrębnych przepisów w związku z
+            bezpośrednim zagrożeniem życia, zdrowia lub bezpieczeństwa.
+          5. Nauczyciel nie jest obowiązany do odczytywania wiadomości ani odpowiadania
+            na nie poza przedziałami czasu, o których mowa w ust. 4. Brak odczytania
+            wiadomości lub odpowiedzi poza tymi przedziałami nie może powodować dla
+            nauczyciela negatywnych konsekwencji.
+          6. Dane, o których mowa w art. 44k ust. 1 pkt 7, usuwa się z eDziennika z końcem
+            roku szkolnego następującego po roku szkolnym, w którym wiadomość została
+            wysłana, chyba że wiadomość została zgodnie z prawem włączona przez szkołę
+            do dokumentacji podlegającej dłuższemu przechowywaniu.
+          7. Treści wiadomości i załączników nie przekazuje się ani do bazy danych SIO, ani
+            do aplikacji mObywatel, ani nie udostępnia się ich ministrowi właściwemu do
+            spraw oświaty i wychowania w celu tworzenia statystyk, profilowania osób,
+            zautomatyzowanego podejmowania decyzji lub oceny wyników nauczania,
+            frekwencji albo zachowania.”;
+– poseł M. Józefaciuk
+
+
+7) w art. 1 w pkt 2, w art. 44h w ust. 1 wyrazy „art. 44f–44o” zastąpić wyrazami „art. 44f–
+  44p”;
+– poseł M. Józefaciuk
+8) w art 1 w pkt 2, w art. 44i w ust. 5 wyrazy „pkt 2 lit. a–d, f–m oraz x–z” zastąpić wyrazami
+   „pkt 2 lit a–d, f–1 oraz v–x”;
+– poseł M. Józefaciuk
+Uwaga: wnioski mniejszości zawarte w pkt 8, 12, 15, 18 i 21 należy głosować łącznie.
+
+
+9) w art. 1 w pkt 2, w art. 1 w pkt 2, w art. 44i:
+    a) ust 6–8 nadać brzmienie:
+         „6. W przypadku rezygnacji z prowadzenia w szkole eDziennika dyrektor szkoły, za
+            zgodą organu prowadzącego szkołę, przekazuje do Rejestru Szkół i Placówek
+            Oświatowych informację o planowanej rezygnacji i wskazuje jej termin,
+            przypadający nie wcześniej niż po upływie 60 dni od dnia przekazania informacji.
+         7. Przed terminem rezygnacji minister właściwy do spraw oświaty i wychowania
+            zapewnia szkole eksport kompletnego zbioru jej danych wraz z historią zmian i
+            dziennikiem dostępu oraz narzędzie do sprawdzenia kompletności i zgodności
+            eksportu. Dyrektor szkoły potwierdza odbiór poprawnego i kompletnego
+            eksportu.
+         8. Z dniem rezygnacji:
+                1) wstrzymuje się przekazywanie do eDziennika nowych danych o szkole;
+                2) blokuje się możliwość dodawania, modyfikowania i usuwania danych;
+                3) zachowuje się użytkownikom dostęp tylko do odczytu przez 90 dni;
+                4) przesyła się z systemu informacji oświatowej do eDziennika informację o
+                  rezygnacji przez szkołę z korzystania z eDziennika.”,
+    b) po ust. 8 dodać ust. 9 i 10 w brzmieniu:
+         „9. Po upływie okresu, o którym mowa w ust. 8 pkt 3, dostęp użytkowników blokuje
+            się. Jeżeli dyrektor szkoły nie potwierdził otrzymania poprawnego i kompletnego
+            eksportu z przyczyn leżących po stronie eDziennika, dostęp tylko do odczytu
+            utrzymuje się do czasu usunięcia nieprawidłowości, nie dłużej jednak niż przez
+            12 miesięcy.
+         10. Dane zgromadzone w eDzienniku do dnia rezygnacji usuwa się po potwierdzeniu
+            poprawnego i kompletnego eksportu oraz po upływie okresu dostępu tylko do
+            odczytu,    z   uwzględnieniem      obowiązków    dotyczących    przechowywania
+            dokumentacji przebiegu nauczania wynikających z odrębnych przepisów.”;
+– poseł M. Józefaciuk
+Uwaga: wnioski mniejszości zawarte w pkt 9, 10 i 17 należy głosować łącznie.
+10)    w art. 1 w pkt 2, w art. 44j ust. 5 nadać brzmienie:
+      „5. Informacje, o których mowa w ust. 4, przechowuje się w eDzienniku przez okres
+         przechowywania danych, których dotyczy modyfikacja.”;
+– poseł M. Józefaciuk
+
+
+11)    w art 1 w pkt 2, w art. 44k w ust. 1:
+      a) w pkt 2 lit. b nadać brzmienie:
+          ,,b) numer PESEL, a w przypadku ucznia nieposiadającego numeru PESEL – serię i
+             numer paszportu lub innego dokumentu potwierdzającego tożsamość oraz – jeżeli
+             uczeń nie jest obywatelem polskim – kraj pochodzenia,”,
+      b) w pkt 3 lit. b nadać brzmienie;
+          ,,b) numer PESEL, a w przypadku osoby nieposiadającej numeru PESEL – serię i
+             numer paszportu lub innego dokumentu potwierdzającego tożsamość oraz kraj
+             pochodzenia,”,
+      c) w pkt 4 lit. b nadać brzmienie:
+          ,,b) numer PESEL, a w przypadku osoby nieposiadającej numeru PESEL – serię i
+             numer paszportu lub innego dokumentu potwierdzającego tożsamość oraz kraj
+             pochodzenia,”,
+      d) w pkt 5 lit. e nadać brzmienie:
+          ,,e) numer PESEL, a w przypadku osoby nieposiadającej numeru PESEL – datę
+             urodzenia oraz serię i numer paszportu lub innego dokumentu potwierdzającego
+             tożsamość,”,
+      e) w pkt 6 lit. c nadać brzmienie:
+          ,,c) numer PESEL, a w przypadku osoby nieposiadającej numeru PESEL – datę
+             urodzenia oraz serię i numer paszportu lub innego dokumentu potwierdzającego
+             tożsamość,”;
+– poseł M. Józefaciuk
+
+
+12)    w art 1 w pkt 2, w art. 44k:
+      a) w ust. 1 w pkt 2:
+          – lit. o nadać brzmienie:
+                ,,o) informacja o dostosowaniach organizacji kształcenia i warunków pracy z
+                   uczniem, które są niezbędne do realizacji zaleceń wynikających z
+                   orzeczenia o potrzebie kształcenia specjalnego, orzeczenia o potrzebie
+                   indywidualnego nauczania, orzeczenia o potrzebie zajęć rewalidacyjno-
+                 wychowawczych albo opinii, o której mowa w art. 127 ust 11, a także
+                 informacja o zwolnieniu z obowiązkowych zajęć drugiego języka obcego
+                 nowożytnego albo języka łacińskiego – bez zamieszczania diagnozy, kopii
+                 lub pełnej treści orzeczenia albo opinii oraz danych o stanie zdrowia
+                 wykraczających poza niezbędne dostosowania,”,
+        – lit u nadać brzmienie:
+              ,,u) informacja o usprawiedliwieniu albo nieusprawiedliwieniu nieobecności
+                 na zajęciach, bez wskazywania przyczyny nieobecności,”,
+        – skreślić lit f, a dotychczasowe lit g–z oznaczyć jako lit. f–y,
+   b) w ust 1 w pkt 3 lit g i h nadać brzmienie:
+        ,,g) służbowy adres poczty elektronicznej, jeżeli został nadany,
+        h) służbowy numer telefonu, jeżeli został nadany;”,
+   c) w ust 1 w pkt 4 lit. f i g nadać brzmienie:
+        ,,f) służbowy adres poczty elektronicznej, jeżeli został nadany,
+        g) służbowy numer telefonu, jeżeli został nadany;”,
+   d) w ust 1 w pkt 6 lit d i e nadać brzmienie:
+        „d) służbowy adres poczty elektronicznej, jeżeli został nadany,
+   e) służbowy numer telefonu, jeżeli został nadany.”,
+   f) w ust 2 i 3 wyrazy „pkt 2 lit. a–d, f–m oraz w–y” zastąpić wyrazami „pkt 2 lit a–d, f–
+      1 oraz v–x”,
+   g) w ust 5 wyrazy „pkt 2 lit. e, n–v oraz z” zastąpić wyrazami „pkt 2 lit. e, m–u oraz y”,
+   h) po ust. 7 dodać ust 8 w brzmieniu:
+        „8. Dane wprowadzone do eDziennika przez szkołę, w szczególności dane o
+           ocenach,     obecności,     dostosowaniach       organizacji     kształcenia   oraz
+           usprawiedliwieniu albo nieusprawiedliwieniu nieobecności, nie są przekazywane
+           z eDziennika do bazy danych SIO ani wykorzystywane przez ministra właściwego
+           do spraw oświaty i wychowania do tworzenia statystyk dotyczących wyników
+           nauczania,     frekwencji     lub    zachowania,      profilowania     osób    albo
+           zautomatyzowanego podejmowania decyzji. Dopuszcza się przetwarzanie
+           zanonimizowanych i zagregowanych danych niezbędnych wyłącznie do oceny
+           technicznego funkcjonowania eDziennika i pilotażu. Przepisu nie stosuje się do
+           obowiązku przekazania danych do bazy danych SIO wynikającego z odrębnych
+           przepisów.”;
+– poseł M. Józefaciuk
+13)    w art. 1 w pkt 2, w art. 44k:
+      a) w ust. 1 w pkt 6 kropkę zastąpić średnikiem i dodać pkt 7 w brzmieniu:
+          „7) dotyczące komunikacji:
+                  a) temat i treść wiadomości oraz treść załącznika,
+                  b) oznaczenie nadawcy i adresata lub adresatów,
+                  c) datę i godzinę wysłania oraz udostępnienia wiadomości,
+                  d) status udostępnienia i odczytania wiadomości.”,
+      b) w ust 5 wyrazy „pkt 5 i 6” zastąpić wyrazami „pkt 5–7”;
+– poseł M. Józefaciuk
+
+
+14) w art. 1 w pkt 2, w art. 44k po ust. 8 dodać ust. 9–11 w brzmieniu:
+      „9. W zakresie danych, o których mowa w ust. 5, minister właściwy do spraw oświaty i
+        wychowania jest podmiotem przetwarzającym w rozumieniu art. 4 pkt 8
+        rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia
+        2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych
+        osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia
+        dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz. Urz. UE L 119
+        z 04.05.2016, str. 1, z późn. zm.), zwanego dalej „rozporządzeniem 2016/679”, i
+        przetwarza dane w imieniu dyrektora szkoły wyłącznie w celu utworzenia, utrzymania
+        i zapewnienia działania eDziennika oraz wykonania obowiązków określonych w
+        ustawie. Jednostka organizacyjna, o której mowa w art. 44f ust. 3, może przetwarzać
+        te dane jako dalszy podmiot przetwarzający na zasadach określonych w art. 28 ust. 4
+        rozporządzenia 2016/679. Przekazanie informacji, o której mowa w art. 44i ust. 3,
+        stanowi udzielenie przez dyrektora szkoły ogólnej pisemnej zgody, o której mowa w
+        art. 28 ust. 2 rozporządzenia 2016/679, na korzystanie z tej jednostki jako dalszego
+        podmiotu      przetwarzającego.     Skorzystanie    z   innego    dalszego   podmiotu
+        przetwarzającego wymaga poinformowania dyrektora szkoły co najmniej 30 dni
+        wcześniej i zapewnienia mu możliwości zgłoszenia sprzeciwu albo rezygnacji z
+        eDziennika bez ponoszenia kosztów.
+      10. Minister właściwy do spraw oświaty i wychowania, w zakresie, o którym mowa w
+        ust. 9:
+          1) przetwarza dane wyłącznie na udokumentowane polecenie dyrektora szkoły,
+             chyba że obowiązek przetwarzania nakłada prawo Unii Europejskiej lub prawo
+             krajowe; w takim przypadku przed rozpoczęciem przetwarzania informuje
+              dyrektora szkoły o tym obowiązku, o ile prawo nie zabrania udzielenia takiej
+              informacji;
+          2) zapewnia, aby osoby dopuszczone do przetwarzania danych zostały imiennie
+              upoważnione i zobowiązane do zachowania poufności;
+          3) stosuje środki wymagane na podstawie art. 32 rozporządzenia 2016/679;
+          4) pomaga dyrektorowi szkoły w wykonywaniu obowiązków wynikających z art.
+              12–22 oraz art. 32–36 rozporządzenia 2016/679;
+          5) zapewnia eksport, zwrot i usunięcie danych na zasadach określonych w ustawie;
+          6) udostępnia dyrektorowi szkoły informacje niezbędne do wykazania spełnienia
+              obowiązków oraz umożliwia audyty;
+          7) bez zbędnej zwłoki zgłasza dyrektorowi szkoły naruszenie ochrony danych lub
+              inne zdarzenie mogące wpływać na prawa osób;
+          8) prowadzi i udostępnia dyrektorom szkół wykaz dalszych podmiotów
+              przetwarzających.
+      11. Dyrektor szkoły odpowiada za zgodność z prawem celów przetwarzania, poprawność
+        danych wprowadzanych przez szkołę, nadawanie uprawnień i bezpieczeństwo lokalnej
+        organizacji pracy. Minister właściwy do spraw oświaty i wychowania odpowiada za
+        projekt techniczny, działanie, bezpieczeństwo, dostępność, integralność, kopie
+        zapasowe i odtwarzanie centralnej infrastruktury eDziennika. Podział ten nie
+        ogranicza praw osoby, której dane dotyczą, ani odpowiedzialności przewidzianej w
+        art. 82 rozporządzenia 2016/679.”;
+– poseł M. Józefaciuk
+
+
+15)    w art. 1 w pkt 2, w art 441:
+      a) w ust. 1 wyrazy „pkt 2 lit a–d, f–m oraz w–y” zastąpić wyrazami „pkt 2 lit a–d, f–1
+        oraz v–x”,
+      b) w ust. 2 i 3 wyrazy „pkt 2 lit e, n–v oraz z” zastąpić wyrazami „pkt 2 lit. e, m–u oraz
+        y”;
+– poseł M. Józefaciuk
+
+
+16)    w art. 1 w pkt 2, w art. 441 po ust. 4 dodać ust. 5 w brzmieniu:
+      „5. Dane, o których mowa w art. 44k ust. 1 pkt 7, są zamieszczane w eDzienniku przez
+        nadawcę wiadomości i przetwarzane wyłącznie w celu jej udostępnienia adresatowi,
+        zapewnienia bezpieczeństwa komunikacji oraz wykonania obowiązku wynikającego z
+        przepisów prawa.”;
+ – poseł M. Józefaciuk
+
+
+ 17)    w art. 1 w pkt 2, art. 44m nadać brzmienie:
+„Art. 44m. 1. Dane stanowiące dokumentację przebiegu nauczania oraz działalności
+              wychowawczej i opiekuńczej przechowuje się przez okres wynikający z
+              przepisów dotyczących tej dokumentacji oraz z przepisów o narodowym zasobie
+              archiwalnym i archiwach.
+           2. Dane niestanowiące dokumentacji, o której mowa w ust. 1, usuwa się nie później
+              niż z końcem roku szkolnego następującego po roku szkolnym, w którym ustała
+              podstawa ich przetwarzania, chyba że odrębny przepis wymaga dłuższego
+              przechowywania.
+           3. Przed usunięciem danych minister właściwy do spraw oświaty i wychowania
+              zapewnia szkole ich kompletny eksport w formacie, o którym mowa w art. 44f
+              ust. 6 pkt 2. Czynność usunięcia danych wraz z jej datą, zakresem i podstawą
+              rejestruje się w eDzienniku.”;
+ – poseł M. Józefaciuk
+
+
+ 18)    w art. 1 w pkt 2, w art. 44o:
+       a) w ust 2:
+           – wyrazy „pkt 2 lit a, e, f, h–o, q–z” zastąpić wyrazami „pkt 2 lit a, g–n oraz p–y”,
+           – wyrazy „pkt 5 lit a–d i f ’ zastąpić wyrazami „pkt 5 lit a, c, d i f”,
+       b) w ust 4:
+           – wyrazy „pkt 2 lit a–p, r–u oraz w–z” zastąpić wyrazami „pkt 2 lit. a–o, q–t oraz
+              v–y”,
+           – wyrazy „pkt 5 lit a–d i f” zastąpić wyrazami „pkt 5 lit a, c, d i f”,
+           – po wyrazach „udostępnia się w eDzienniku” dodać wyrazy „wyłącznie w zakresie
+              określonym w upoważnieniu, o którym mowa w art 44n ust 1,”,
+       c) w ust 6 wyrazy „pkt 2 lit b–d, g, p oraz pkt 5 lit e” zastąpić wyrazami „pkt 2 lit b–f
+          oraz o”,
+       d) w ust 8:
+           – wyrazy „pkt 2 lit a, d, h–o i q–z” zastąpić wyrazami „pkt 2 lit a, g–n i p–y”,
+           – wyrazy „pkt 5 lit a–d i f” zastąpić wyrazami „pkt 5 lit a, c, d i f”,
+       e) w ust 9 wyrazy „pkt 2 lit. b–d, g, p oraz pkt 5 lit. e” zastąpić wyrazami „pkt 2 lit. b–f
+          oraz o”,
+       f) w ust 10:
+          – w pkt 1 wyrazy „pkt 2 lit. a–d, f–m oraz w–y” zastąpić wyrazami „pkt 2 lit. a–d, f–
+             1 oraz v–x”,
+          – w pkt 2 wyrazy „pkt 2 lit e, n–v oraz z” zastąpić wyrazami „pkt 2 lit. e, m–u oraz
+             y”,
+      g) po ust. 10 dodać ust. 10a i 10b w brzmieniu:
+          „10a. Udostępnienie danych w celu świadczenia usługi umożliwiającej korzystanie
+             z eDziennika za pośrednictwem aplikacji mObywatel następuje wyłącznie po
+             dobrowolnym włączeniu tej usługi przez użytkownika i tylko w zakresie
+             niezbędnym do obsługi konkretnego żądania tego użytkownika. Niewłączenie
+             albo wyłączenie usługi nie ogranicza dostępu użytkownika do eDziennika przez
+             stronę internetową.
+          10b. Minister właściwy do spraw informatyzacji przetwarza dane udostępnione na
+             podstawie ust. 10 wyłącznie w celu przekazania ich uwierzytelnionemu
+             użytkownikowi albo wyświedenia temu użytkownikowi. Danych tych nie
+             wykorzystuje się do tworzenia statystyk dotyczących wyników nauczania,
+             frekwencji lub zachowania, profilowania osób ani zautomatyzowanego
+             podejmowania decyzji oraz nie utrwala się ich po zakończeniu obsługi żądania
+             użytkownika, z wyjątkiem danych technicznych niezbędnych do zapewnienia
+             bezpieczeństwa i rozliczalności, przechowywanych nie dłużej, niż jest to
+             niezbędne do tych celów.”;
+– poseł M. Józefaciuk
+
+
+19)    w art. 1 w pkt 2, w art. 44o po ust. 10b dodać ust. 11 w brzmieniu:
+      „11. Dane, o których mowa w art. 44k ust. 1 pkt 7, udostępnia się wyłącznie nadawcy i
+        adresatowi lub adresatom wiadomości. Dyrektor szkoły może uzyskać dostęp do
+        wiadomości wyłącznie w zakresie niezbędnym do wykonania konkremego obowiązku
+        wynikającego z przepisu prawa, wyjaśnienia udokumentowanego incydentu
+        bezpieczeństwa dotyczącego tej wiadomości albo – na wniosek nadawcy lub adresata
+        – ochrony praw tego użytkownika. Przyczynę, zakres, datę i osobę uzyskującą taki
+        dostęp rejestruje się w eDzienniku. Osoba wykonująca obsługę techniczną, imiennie
+        upoważniona przez podmiot przetwarzający, może uzyskać czasowy dostęp do treści
+        wyłącznie na udokumentowany wniosek dyrektora szkoły i w zakresie niezbędnym do
+        usunięcia incydentu.”;
+– poseł M. Józefaciuk
+20)    w art. 1 w pkt 2, po art. 44o dodać art. 44p w brzmieniu:
+ „Art. 44p. Minister właściwy do spraw oświaty i wychowania, w porozumieniu z ministrem
+                właściwym do spraw informatyzacji, określi, w drodze rozporządzenia:
+                 1) minimalny poziom dostępności eDziennika oraz sposób jego pomiaru;
+                 2) kategorie incydentów, maksymalne terminy ich zgłaszania użytkownikom i
+                    usuwania oraz zasady informowania o naruszeniu ciągłości działania;
+                 3) wymagania dotyczące kopii zapasowych, maksymalnego dopuszczalnego
+                    okresu utraty danych, czasu odtworzenia usługi i testowania procedur
+                    odtworzeniowych;
+                 4) standardy importu, eksportu, migracji i dwukierunkowej wymiany danych,
+                    w tym zasady bezpiecznego korzystania z interfejsu programistycznego;
+                 5) zasady udostępniania szkole pełnego i czytelnego archiwum danych;
+                 6) minimalny zakres i godziny działania pomocy technicznej, kanały
+                    przyjmowania zgłoszeń oraz tryb i maksymalny czas ich obsługi;
+                 7) wymagania dostępności cyfrowej dla wszystkich kanałów dostępu
+             – mając na uwadze rozmiar systemu, szczególny charakter danych uczniów,
+             potrzebę ciągłości prowadzenia dokumentacji przebiegu nauczania, zapobieganie
+             uzależnieniu szkoły od jednego dostawcy oraz konieczność ograniczenia obciążeń
+             administracyjnych pracowników szkół.”
+– poseł M. Józefaciuk
+
+
+21) w art. 2:
+      a) w pkt 2 w lit b, w pkt 35 skreślić wyrazy „lub korzystającego z eDziennika, o którym
+        mowa w art. 44f ust. 1 ustawy – Prawo oświatowe”,
+      b) w pkt 5, w art. 60c wyrazy „pkt 2 lit a–d, f–m, w–y” zastąpić wyrazami „pkt 2 lit. a–
+        d, f–1, v–x”,
+      c) w pkt 6, w dodawanym artykule, w pkt 1 skreślić lit d, a dotychczasowe lit e–k
+        oznaczyć jako lit;
+– poseł M. Józefaciuk
+
+
+22) art. 3 nadać brzmienie:
+„Art. 3. 1. W celu przetestowania funkcjonowania eDziennika w warunkach rzeczywistych
+                przed podjęciem decyzji o jego udostępnieniu szkołom nieuczestniczącym w
+                pilotażu minister właściwy do spraw oświaty i wychowania, we współpracy z
+                ministrem właściwym do spraw informatyzacji, przeprowadza w publicznych i
+    niepublicznych szkołach wszystkich typów i rodzajów, w tym szkołach
+    artystycznych,   we    wszystkich    województwach      program     pilotażowy
+    udostępniania eDziennika, zwany dalej „pilotażem”.
+2. Doboru szkół do pilotażu dokonuje się na podstawie opublikowanej uprzednio
+  metodologii, zapewniając udział:
+     1) szkół wszystkich typów i rodzajów objętych docelowym zakresem
+        eDziennika, w tym szkół specjalnych, szkół prowadzących kształcenie
+        zawodowe, szkół dla dorosłych i szkół artystycznych;
+     2) szkół publicznych i niepublicznych prowadzonych przez różne kategorie
+        organów prowadzących;
+     3) szkół z terenów wiejskich, małych i średnich miast oraz miast na prawach
+        powiatu;
+     4) szkół o zróżnicowanej liczbie uczniów, poziomie rozwoju cyfrowego,
+        jakości dostępu do sieci i wyposażeniu;
+     5) szkół korzystających z różnych dzienników elektronicznych oraz szkół
+        prowadzących dziennik w postaci papierowej;
+     6) użytkowników       z    niepełnosprawnościami      oraz     użytkowników
+        nieposiadających smartfona, aplikacji mObywatel albo numeru PESEL.
+3. Metodologia, o której mowa w ust. 2, określa i uzasadnia liczbę uczesmiczących
+  szkół i użytkowników, sposób warstwowego doboru próby, grupy porównawcze,
+  sposób zapewnienia udziału szkół, w któiych eDziennik stanowi dziennik
+  obowiązujący, oraz szkół, w których dziennikiem obowiązującym pozostaje
+  dziennik prowadzony dotychczas, a także ograniczenia wnioskowania. Minister
+  właściwy do spraw oświaty i wychowania udostępnia metodologię w Biuletynie
+  Informacji Publicznej przed rozpoczęciem naboru szkół.
+4. Pilotaż obejmuje całą szkołę, w tym wszystkie oddziały i klasy, nauczycieli oraz
+  zajęcia objęte dokumentacją przebiegu nauczania. Dostęp do eDziennika
+  zapewnia się wszystkim uczniom i rodzicom tej szkoły. Etap technicznego
+  uruchomienia może objąć wybrane oddziały lub klasy przez okres nie dłuższy niż
+  30 dni; wyników z tego okresu nie wlicza się do oceny pilotażu.
+5. Pilotaż obejmuje okres przygotowawczy oraz jeden pełny rok szkolny. Okres
+  przygotowawczy rozpoczyna się z dniem udostępnienia eDziennika szkołom
+  zakwalifikowanym do pilotażu, co następuje nie później niż 15 sierpnia roku, w
+  którym rozpoczyna się rok szkolny objęty pilotażem, wyłącznie w celu
+  przygotowania systemu i wprowadzenia danych niezbędnych do rozpoczęcia tego
+  roku szkolnego. Udostępnienie eDziennika następuje nie wcześniej niż po
+  upływie 90 dni od dnia spełnienia ostatniego z następujących warunków:
+     1) ogłoszenia rozporządzenia, o którym mowa w ust. 11;
+     2) podania do publicznej wiadomości listy szkół zakwalifikowanych do
+        pilotażu;
+     3) przekazania szkołom pełnej dokumentacji organizacyjnej i technicznej,
+        harmonogramu szkoleń oraz informacji o zapewnianym sprzęcie, integracji
+        i pomocy technicznej.
+6. Przetwarzanie rzeczywistych danych osobowych w ramach pilotażu może
+  rozpocząć się po:
+     1) przeprowadzeniu i udostępnieniu przez ministra właściwego do spraw
+        oświaty i wychowania oceny skutków planowanych operacji przetwarzania
+        dla ochrony danych, o której mowa w art. 35 rozporządzenia Parlamentu
+        Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie
+        ochrony osób fizycznych w związku z przetwarzaniem danych osobowych
+        i w sprawie swobodnego przepływu takich danych oraz uchylenia
+        dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz. Urz.
+        UE L 119 z 04.05.2016, str. 1, z późn. zm.), w zakresie centralnej
+        infrastruktury eDziennika, obejmującej również podstawę prawną,
+        przepływy danych i role wszystkich podmiotów, oraz zapewnieniu szkołom
+        wzoru i pomocy niezbędnych do przeprowadzenia przez właściwych
+        administratorów oceny w zakresie lokalnej organizacji przetwarzania;
+     2) przeprowadzeniu przez podmiot niezależny od wykonawców i operatorów
+        eDziennika audytu bezpieczeństwa, testów penetracyjnych, testów
+        wydajnościowych,      testów   odtworzenia   po   awarii   oraz    testów
+        interoperacyjności;
+     3) usunięciu nieprawidłowości stwierdzonych w ocenie i testach, o których
+        mowa w pkt 1 i 2;
+     4) opublikowaniu w Biuletynie Informacji Publicznej wyników oceny i audytu
+        w zakresie, w jakim ich ujawnienie nie narusza bezpieczeństwa systemu lub
+        danych.
+7. Testy bezpieczeństwa, wydajności, migracji i interoperacyjności poprzedzające
+  rozpoczęcie pracy w warunkach rzeczywistych przeprowadza się wyłącznie na
+  danych syntetycznych albo skutecznie zanonimizowanych. Rzeczywiste dane
+  osobowe przetwarza się dopiero po spełnieniu warunków, o których mowa w ust.
+  6, i wyłącznie w zakresie niezbędnym do przygotowania oraz prowadzenia
+  jednego obowiązującego dziennika dla każdego oddziału w warunkach
+  rzeczywistych.
+8. Ewaluację pilotażu prowadzi podmiot niezależny od ministra właściwego do
+  spraw oświaty i wychowania, ministra właściwego do spraw informatyzacji,
+  wykonawców i operatorów eDziennika, który nie uczestniczył w projektowaniu,
+  budowie ani wdrażaniu systemu. Podmiot ten wybiera się w przejrzystym trybie
+  zapewniającym niezależność i brak konfliktu interesów.
+9. Wszystkie dodatkowe koszty udziału szkoły w pilotażu, w tym koszty sprzętu,
+  służbowych środków uwierzytelnienia, dostępu do sieci, integracji, migracji
+  danych, szkoleń przeprowadzanych w czasie pracy, zastępstw, pomocy
+  technicznej i dodatkowych czynności pracowników szkoły, są finansowane z
+  budżetu państwa. Organ prowadzący szkołę będący jednostką samorządu
+  terytorialnego, inną osobą prawną albo osobą fizyczną otrzymuje na ten cel
+  dotację celową w wysokości 100 % udokumentowanych kosztów, na podstawie
+  umowy zawartej z ministrem właściwym do spraw oświaty i wychowania; umowa
+  określa sposób obliczenia, przekazania i rozliczenia dotacji. W przypadku szkoły
+  prowadzonej przez ministra koszty te pokrywa się z części budżetu państwa,
+  której dysponentem jest ten minister. Organ prowadzący szkołę nie jest
+  obowiązany do finansowania tych kosztów ze środków własnych.
+10. Szkoła może zrezygnować z udziału w pilotażu w każdym czasie, bez
+  negatywnych konsekwencji finansowych lub organizacyjnych. Rezygnacja
+  dokonana zgodnie z warunkami pilotażu nie powoduje obowiązku zwrotu
+  prawidłowo wykorzystanych środków; środki niewykorzystane podlegają
+  rozliczeniu. Minister właściwy do spraw oświaty i wychowania zapewnia szkole
+  bezpieczne zakończenie udziału, eksport danych oraz pokrycie uzasadnionych
+  kosztów wyjścia.
+11. Minister właściwy do spraw oświaty i wychowania, w porozumieniu z ministrem
+  właściwym do spraw informatyzacji, określi, w drodze rozporządzenia:
+     1) szczegółowe cele i harmonogram pilotażu;
+     2) warunki organizacyjne i techniczne pilotażu;
+     3) tryb naboru i wyboru uczestników zgodny z ust. 2 i 3;
+     4) tryb rezygnacji z udziału;
+     5) termin i sposób przygotowania danych;
+               6) minimalny, niezbędny zakres danych przetwarzanych w warunkach
+                 rzeczywistych;
+               7) zakres udostępnianych funkcjonalności;
+               8) mierniki powodzenia pilotażu, sposób ich pomiaru oraz wartości wymagane
+                 do uznania pilotażu za zakończony powodzeniem;
+               9) przesłanki zawieszenia albo przerwania pilotażu, w szczególności w razie
+                 poważnego incydentu bezpieczeństwa, utraty danych, niedostępności
+                 systemu lub nadmiernego obciążenia pracowników szkół
+               10) mając na uwadze ochronę danych, bezpieczeństwo użytkowników,
+                 reprezentatywność pilotażu, dostępność cyfrową, ciągłość prowadzenia
+                 dokumentacji oraz zakaz wymagania od pracowników szkoły podwójnego
+                 wprowadzania tych samych danych.”;
+– poseł M. Józefaciuk
+
+
+23) art. 5 nadać brzmienie:
+„Art. 5. 1. Do dnia wejścia w życie odrębnej ustawy określającej warunki udostępnienia
+           eDziennika szkołom nieuczestniczącym w pilotażu eDziennik udostępnia się
+           wyłącznie szkołom uczestniczącym w pilotażu.
+         2. W terminie 6 miesięcy od dnia zakończenia pilotażu minister właściwy do spraw
+           oświaty i wychowania, w porozumieniu z ministrem właściwym do spraw
+           informatyzacji, przedstawia Sejmowi Rzeczypospolitej Polskiej i udostępnia w
+           Biuletynie Informacji Publicznej raport z pilotażu wraz z raportem z ewaluacji
+           sporządzonym przez podmiot, o którym mowa w art. 3 ust. 8.
+         3. Raport obejmuje co najmniej:
+               1) liczbę i strukturę szkół oraz użytkowników objętych pilotażem, liczbę
+                 rezygnacji i przyczyny rezygnacji;
+               2) wyniki według mierników określonych przed rozpoczęciem pilotażu, w tym
+                 dostępność systemu, czas odpowiedzi, liczbę i wagę awarii oraz incydentów
+                 bezpieczeństwa, czas odtworzenia, utratę danych i dokładność migracji;
+               3) ocenę interoperacyjności, eksportu danych, dostępności cyfrowej i jakości
+                 pomocy technicznej;
+               4) zmianę czasu pracy dyrektorów, nauczycieli i pozostałych pracowników,
+                 liczbę przypadków podwójnego wprowadzania danych, koszty szkoleń i
+                 wpływ na dobrostan pracowników;
+               5) wyniki badań satysfakcji dyrektorów, nauczycieli, uczniów, rodziców,
+                  pracowników szkół i organów prowadzących oraz analizę wykluczenia
+                  cyfrowego;
+               6) pełny koszt posiadania systemu, obejmujący wydatki budżetu państwa,
+                  organów prowadzących i szkół, koszty integracji, migracji, sprzętu, szkoleń
+                  dyrektorów, nauczycieli, pozostałych pracowników szkół, uczniów i
+                  rodziców, obsługi, dodatkowego czasu pracy i wyjścia z systemu;
+               7) porównanie      kosztów    i   efektów       eDziennika     z     rozwiązaniami
+                  alternatywnymi,       w    szczególności       ustanowieniem        standardów
+                  interoperacyjności    i   bezpieczeństwa     dla   istniejących     dzienników,
+                  centralnym zakupem licencji albo finansowaniem licencji organom
+                  prowadzącym;
+               8) wyniki oceny skutków dla ochrony danych, audytów bezpieczeństwa i
+                  dostępności oraz informacje o usunięciu stwierdzonych nieprawidłowości;
+               9) rekomendację co do zakończenia projektu, powtórzenia lub przedłużenia
+                  pilotażu, ograniczenia jego zakresu albo przygotowania odrębnej ustawy o
+                  udostępnieniu eDziennika kolejnym szkołom.
+          4. Wraz z raportem udostępnia się metodologię badania i zanonimizowane dane
+            stanowiące podstawę wniosków, z wyłączeniem informacji, których ujawnienie
+            mogłoby naruszyć bezpieczeństwo systemu lub prawa osób.
+          5. Udostępnienie eDziennika szkołom nieuczestniczącym w pilotażu może nastąpić
+            wyłącznie na podstawie odrębnej ustawy i po przedstawieniu raportu, o którym
+            mowa w ust. 2. Do projektu tej ustawy dołącza się ocenę przewidywanych
+            skutków      społecznych,   gospodarczych      i   finansowych,       ocenę   skutków
+            planowanych operacji przetwarzania dla ochrony danych oraz wyniki
+            niezależnego audytu bezpieczeństwa. Ustawa ta określi w szczególności termin,
+            zakres funkcjonalności, warunki finansowania kosztów po stronie szkół i organów
+            prowadzących oraz zasady odpowiedzialności za działanie systemu i
+            przetwarzanie danych.”.
+ – poseł M. Józefaciuk
+
+
+
+
+Warszawa, dnia 29 lipca 2026 r.
+         Przewodniczący                                 Przewodnicząca
+Komisji Cyfryzacji, Innowacyjności                   Komisji Edukacji i Nauki
+  i Nowoczesnych Technologii
+
+        (-) Bartłomiej Pejo                            (-) Krystyna Szumilas
+
+
+                                  Sprawozdawca
+
+
+                               (-) Adam Krzemiński
+
+
+
+
+        Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 15    Data : 2026-07-30   Nazwa pliku : V7_1906-27.NK 1
+X kadencja/druk nr 2842
+
+                                                                                           Projekt
+                                           U S T AWA
+
+                                               z dnia
+
+     o zmianie ustawy – Prawo oświatowe oraz ustawy o systemie informacji oświatowej
+
+
+       Art. 1. W ustawie z dnia 14 grudnia 2016 r. – Prawo oświatowe (Dz. U. z 2026 r. poz. 820,
+904 i 982) wprowadza się następujące zmiany:
+1)     w art. 29 w ust. 1 w pkt 2 po wyrazach „art. 10 ust. 1 pkt 1–5 i 7,” dodaje się wyrazy „art.
+       44i ust. 1, 2 i 6,”;
+2)     po art. 44e dodaje się art. 44f–44o w brzmieniu:
+             „Art. 44f. 1. W celu wspierania prowadzenia dokumentacji przebiegu nauczania oraz
+       działalności wychowawczej i opiekuńczej minister właściwy do spraw oświaty i
+       wychowania udostępnia publicznym i niepublicznym szkołom system teleinformatyczny
+       w rozumieniu art. 3 pkt 3 ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności
+       podmiotów realizujących zadania publiczne (Dz. U. z 2025 r. poz. 1703 oraz z 2026 r.
+       poz. 160), w ramach którego może być świadczona usługa dziennika lekcyjnego w postaci
+       elektronicznej, zwany dalej „eDziennikiem”.
+             2. Minister właściwy do spraw oświaty i wychowania tworzy, utrzymuje i rozwija
+       eDziennik, w tym odpowiada za:
+       1)    zabezpieczenie danych zawartych w eDzienniku przed ich uszkodzeniem, utratą lub
+             nieuprawnionym dostępem do tych danych;
+       2)    integralność danych przetwarzanych w eDzienniku;
+       3)    przeciwdziałanie uszkodzeniom eDziennika;
+       4)    dostępność eDziennika dla jego użytkowników;
+       5)    rozliczalność działań dokonywanych na danych przetwarzanych w eDzienniku;
+       6)    rozwój funkcjonalności eDziennika.
+             3. Obsługę techniczną eDziennika w zakresie realizacji zadań, o których mowa w
+       ust. 2, zapewnia jednostka organizacyjna podległa ministrowi właściwemu do spraw
+       oświaty i wychowania, do której zadań statutowych należy świadczenie usług
+       informatycznych.
+             4. Minister właściwy do spraw informatyzacji świadczy usługi umożliwiające
+       korzystanie z eDziennika za pośrednictwem aplikacji mObywatel w rozumieniu ustawy z
+Liczba stron : 15   Data : 2026-07-30   Nazwa pliku : V7_1906-27.NK 2
+X kadencja/druk nr 2842
+
+     dnia 26 maja 2023 r. o aplikacji mObywatel (Dz. U. z 2024 r. poz. 1275 i 1717 oraz z
+     2025 r. poz. 1019).
+           5. Świadczenie usług, o których mowa w ust. 4, obejmuje:
+     1)    utrzymanie i rozwój rozwiązań teleinformatycznych służących integracji eDziennika
+           z aplikacją mObywatel w rozumieniu ustawy z dnia 26 maja 2023 r. o aplikacji
+           mObywatel;
+     2)    zapewnienie wymiany danych między eDziennikiem a aplikacją mObywatel w
+           rozumieniu ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel;
+     3)    udostępnianie użytkownikom aplikacji mObywatel w rozumieniu ustawy z dnia 26
+           maja 2023 r. o aplikacji mObywatel usług umożliwiających dostęp do danych
+           zawartych w eDzienniku.
+           Art. 44g. 1. eDziennik umożliwia:
+     1)    komunikowanie się z systemem informacji oświatowej w celu pozyskiwania
+           przetwarzanych w nim danych;
+     2)    udostępnianie danych użytkownikom eDziennika, o których mowa w ust. 2, w
+           zakresie przyznanego dostępu;
+     3)    wprowadzanie, modyfikowanie i usuwanie danych przez użytkowników eDziennika,
+           o których mowa w ust. 2 pkt 1–3, w zakresie, o którym mowa w art. 44o ust. 1, 2 i
+           4, oraz zgodnie z upoważnieniami, o których mowa w art. 44k ust. 3 i 6;
+     4)    usprawnienie prowadzenia przez szkoły dokumentacji przebiegu nauczania oraz
+           działalności wychowawczej i opiekuńczej.
+           2. Użytkownikami eDziennika w zakresie przyznanych uprawnień są posiadający
+     numer PESEL:
+     1)    dyrektor szkoły;
+     2)    nauczyciel;
+     3)    wyznaczony przez dyrektora szkoły pracownik szkoły niebędący nauczycielem;
+     4)    uczeń;
+     5)    rodzic ucznia.
+           3. Rodzic ucznia pełnoletniego jest użytkownikiem eDziennika, o ile uczeń ten nie
+     złoży sprzeciwu wobec dostępu tego rodzica do eDziennika. Uczeń pełnoletni może
+     wycofać sprzeciw w każdym czasie.
+           4. Sprzeciw i wycofanie sprzeciwu, o których mowa w ust. 3, składa się dyrektorowi
+     szkoły w formie pisemnej w postaci papierowej lub elektronicznej.
+Liczba stron : 15   Data : 2026-07-30   Nazwa pliku : V7_1906-27.NK 3
+X kadencja/druk nr 2842
+
+           5. Dyrektor szkoły po otrzymaniu sprzeciwu, o którym mowa w ust. 3, niezwłocznie
+     odbiera rodzicowi ucznia, który złożył ten sprzeciw, uprawnienia do dostępu do
+     eDziennika.
+           6. Dyrektor szkoły po wycofaniu sprzeciwu, o którym mowa w ust. 3, niezwłocznie
+     nadaje rodzicowi ucznia, który wycofał ten sprzeciw, uprawnienia do dostępu do
+     eDziennika wyłącznie w zakresie dotyczącym tego ucznia.
+           7. Uwierzytelnienie użytkowników, o których mowa w ust. 2, w eDzienniku:
+     1)    następuje przez użycie środka identyfikacji elektronicznej, o którym mowa w
+           art. 20a ust. 1 ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności
+           podmiotów realizujących zadania publiczne;
+     2)    może następować z wykorzystaniem certyfikatu ucznia, o którym mowa w art. 2
+           pkt 4 ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel.
+           8. eDziennik udostępnia się:
+     1)    użytkownikom, o których mowa w ust. 2 pkt 1–3, za pośrednictwem przeznaczonej
+           do tego strony internetowej;
+     2)    użytkownikom, o których mowa w ust. 2 pkt 4 i 5, za pośrednictwem aplikacji
+           mObywatel w rozumieniu ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel.
+           Art. 44h. 1. Zadania ministra właściwego do spraw oświaty i wychowania
+     wynikające z art. 44f–44o są finansowane z części budżetu państwa, której dysponentem
+     jest minister właściwy do spraw oświaty i wychowania.
+           2. Zadania ministra właściwego do spraw informatyzacji wynikające z art. 44f ust. 4
+     i 5 są finansowane z części budżetu państwa, której dysponentem jest minister właściwy
+     do spraw informatyzacji.
+           Art. 44i. 1. Dyrektor szkoły, za zgodą organu prowadzącego szkołę, podejmuje
+     decyzję o wprowadzeniu w szkole eDziennika i powiadamia o tym użytkowników, o
+     których mowa w art. 44g ust. 2 pkt 2–5.
+           2. Za zgodą organu prowadzącego szkołę dziennik lekcyjny może być prowadzony
+     wyłącznie z wykorzystaniem eDziennika.
+           3. Dyrektor szkoły w celu prowadzenia w szkole eDziennika przekazuje do Rejestru
+     Szkół i Placówek Oświatowych, o którym mowa w art. 4 ust. 1 pkt 1 ustawy z dnia
+     15 kwietnia 2011 r. o systemie informacji oświatowej, informację o zgodzie organu
+     prowadzącego szkołę, o której mowa w ust. 1.
+Liczba stron : 15   Data : 2026-07-30   Nazwa pliku : V7_1906-27.NK 4
+X kadencja/druk nr 2842
+
+           4. W przypadku zespołu szkół dyrektor zespołu przekazuje do Rejestru Szkół i
+     Placówek Oświatowych, o którym mowa w art. 4 ust. 1 pkt 1 ustawy z dnia 15 kwietnia
+     2011 r. o systemie informacji oświatowej, informację o szkole lub szkole w zespole,
+     których dotyczy zgoda organu prowadzącego szkołę, o której mowa w ust. 1.
+           5. Po przekazaniu informacji, o której mowa w ust. 3 lub 4, w systemie informacji
+     oświatowej jest uruchamiany proces przekazywania do eDziennika danych, o których
+     mowa w art. 44k ust. 1 pkt 1, pkt 2 lit. a–d, f–m oraz x–z, pkt 3 lit. a–d oraz pkt 4 lit. a–d.
+           6. W przypadku rezygnacji z prowadzenia w szkole eDziennika dyrektor szkoły
+     przekazuje do Rejestru Szkół i Placówek Oświatowych, o którym mowa w art. 4 ust. 1 pkt
+     1 ustawy z dnia 15 kwietnia 2011 r. o systemie informacji oświatowej, informację o
+     zgodzie organu prowadzącego na rezygnację z prowadzenia w szkole eDziennika.
+           7. Niezwłocznie po dokonaniu rezygnacji, o której mowa w ust. 6:
+     1)    wstrzymuje się w systemie informacji oświatowej przekazywanie do eDziennika
+           nowych danych o szkole, której dotyczy rezygnacja;
+     2)    blokuje się dostęp do eDziennika użytkownikom, o których mowa w art. 44g ust. 2;
+     3)    przesyła się z systemu informacji oświatowej do eDziennika informację o rezygnacji
+           przez szkołę z korzystania z eDziennika.
+           8. W przypadku rezygnacji, o której mowa w ust. 6, dane zgromadzone w eDzienniku
+     do dnia dokonania tej rezygnacji są przechowywane przez jeden rok szkolny, licząc od
+     dnia zakończenia roku szkolnego, w którym dokonano tej rezygnacji.
+           Art. 44j. 1. Użytkownicy, o których mowa w art. 44g ust. 2 pkt 1–3, którzy
+     stwierdzili błąd w danych przekazywanych przez szkołę do eDziennika, są obowiązani
+     niezwłocznie przekazać do eDziennika poprawne dane.
+           2. Użytkownicy, o których mowa w art. 44g ust. 2 pkt 2 i 3, którzy stwierdzili błąd
+     w danych przekazanych do eDziennika z systemu informacji oświatowej, są obowiązani
+     niezwłocznie zgłosić błąd dyrektorowi szkoły.
+           3. W przypadku, o którym mowa w ust. 2, dyrektor szkoły jest obowiązany
+     niezwłocznie poprawić błąd w danych przekazanych przez szkołę do systemu informacji
+     oświatowej.
+           4. W eDzienniku rejestruje się datę, zakres i powód modyfikacji danych oraz osobę
+     dokonującą modyfikacji danych.
+Liczba stron : 15     Data : 2026-07-30   Nazwa pliku : V7_1906-27.NK 5
+X kadencja/druk nr 2842
+
+           5. Informację o modyfikacji danych, o której mowa w ust. 4, przechowuje się w
+     eDzienniku przez jeden rok szkolny, licząc od dnia zakończenia roku szkolnego, w którym
+     dokonano modyfikacji danych.
+           Art. 44k. 1. W eDzienniku są przetwarzane dane:
+     1)    identyfikacyjne szkoły lub zespołu, jeżeli szkoła wchodzi w skład zespołu, o których
+           mowa w art. 7 ust. 1 pkt 1–18, 20, 21 i 25–31 oraz ust. 1a ustawy z dnia 15 kwietnia
+           2011 r. o systemie informacji oświatowej;
+     2)    ucznia:
+           a)       imię (imiona) i nazwisko,
+           b)       numer PESEL,
+           c)       data urodzenia,
+           d)       miejsce urodzenia,
+           e)       adres zamieszkania,
+           f)       fotografia kolorowa zawierająca wizerunek twarzy ucznia,
+           g)       numer legitymacji szkolnej,
+           h)       data rozpoczęcia i data zakończenia nauki ucznia w szkole,
+           i)       informacje o uczęszczaniu ucznia do szkoły, klasy, oddziału i jego rodzaju, a w
+                    przypadku ucznia szkoły dla dorosłych, branżowej szkoły II stopnia lub szkoły
+                    policealnej – także o semestrze, na który uczeń uczęszcza,
+           j)       zawód oraz zajęcia realizowane w ramach godzin, o których mowa w art. 47
+                    ust. 1 pkt 3 lit. e, określonych w przepisach wykonawczych wydanych na
+                    podstawie art. 47 ust. 1 pkt 3 – w przypadku ucznia szkoły ponadpodstawowej
+                    prowadzącej kształcenie zawodowe,
+           k)       zawód, specjalność i specjalizację – w przypadku ucznia szkoły artystycznej,
+           l)       informacja, jakiego języka obcego uczeń się uczy, a w przypadku ucznia
+                    oddziału dwujęzycznego – informacja, jaki język obcy jest drugim językiem
+                    nauczania,
+           m) informacja o uczestniczeniu w nauce języka mniejszości narodowej, języka
+                    mniejszości etnicznej lub języka regionalnego, z określeniem nazwy tego
+                    języka,
+           n)       informacja o grupie, do której uczeń uczęszcza,
+           o)       informacja o indywidualnych potrzebach ucznia wynikających z zaleceń
+                    orzeczenia o potrzebie kształcenia specjalnego, orzeczenia o potrzebie
+Liczba stron : 15       Data : 2026-07-30    Nazwa pliku : V7_1906-27.NK 6
+X kadencja/druk nr 2842
+
+                    indywidualnego nauczania, orzeczenia o potrzebie zajęć rewalidacyjno-
+                    wychowawczych oraz opinii, o której mowa w art. 127 ust. 11, a także o
+                    zwolnieniu z obowiązkowych zajęć drugiego języka obcego nowożytnego albo
+                    języka łacińskiego,
+           p)       numer w księdze ucznia,
+           q)       oceny:
+                    –    z zajęć edukacyjnych:
+                         – – bieżące,
+                         – – klasyfikacyjne śródroczne i roczne, a w przypadku ucznia szkoły dla
+                             dorosłych, branżowej szkoły II stopnia lub szkoły policealnej –
+                             klasyfikacyjne semestralne,
+                         – – klasyfikacyjne końcowe,
+                    –    z egzaminu:
+                         – – klasyfikacyjnego, o którym mowa w art. 44k ust. 2 i 3 oraz art. 44zia
+                             ust. 2 i 3 ustawy o systemie oświaty, oraz w art. 37 ust. 4, art. 115 ust. 3
+                             i art. 164 ust. 3 i 4,
+                         – – poprawkowego, o którym mowa w art. 44m ust. 1 i art. 44y ust. 1 oraz
+                             art. 44zk ust. 1 ustawy o systemie oświaty,
+                         – – semestralnego, o którym mowa w art. 44w ust. 1 ustawy o systemie
+                             oświaty,
+                         – – promocyjnego, o którym mowa w art. 44zg ust. 2 ustawy o systemie
+                             oświaty,
+                         – – końcowego, o którym mowa w art. 44zg ust. 2 ustawy o systemie
+                             oświaty,
+                         – – dyplomowego, o którym mowa w art. 44zn ust. 1 ustawy o systemie
+                             oświaty,
+                    –    ze sprawdzianu wiadomości i umiejętności ucznia, o którym mowa w
+                         art. 44n ust. 4 pkt 1 oraz art. 44zla ust. 4 pkt 1 ustawy o systemie oświaty,
+                    –    zachowania: śródroczne i roczne klasyfikacyjne, z wyjątkiem uczniów
+                         szkoły dla dorosłych, branżowej szkoły II stopnia, szkoły artystycznej
+                         realizującej wyłącznie kształcenie artystyczne i szkoły policealnej,
+           r)       tematy przeprowadzonych zajęć edukacyjnych,
+           s)       informacja o tygodniowym rozkładzie zajęć,
+Liczba stron : 15     Data : 2026-07-30    Nazwa pliku : V7_1906-27.NK 7
+X kadencja/druk nr 2842
+
+           t)       informacja o obecności na zajęciach,
+           u)       informacja o przyczynie nieobecności na zajęciach,
+           v)       informacja     o   liczbie   godzin    nieobecności     usprawiedliwionych       i
+                    nieusprawiedliwionych,
+           w) informacja o formie kształcenia dziennej, stacjonarnej lub zaocznej – w
+                    przypadku ucznia szkoły dla dorosłych, branżowej szkoły II stopnia lub szkoły
+                    policealnej,
+           x)       informacja o korzystaniu z indywidualnego nauczania,
+           y)       informacja o realizowaniu indywidualnego programu lub toku nauki,
+           z)       informacja o semestralnym rozkładzie zajęć edukacyjnych – w przypadku
+                    ucznia szkoły dla dorosłych, branżowej szkoły II stopnia lub szkoły policealnej;
+     3)    nauczyciela oraz osoby, o której mowa w art. 15 ust. 2 i 6:
+           a)       imię (imiona) i nazwisko,
+           b)       numer PESEL,
+           c)       data urodzenia,
+           d)       informacje o zatrudnieniu nauczyciela w szkole, zajmowanych stanowiskach i
+                    sprawowanych funkcjach, a w przypadku nauczyciela, który prowadzi zajęcia
+                    w szkole, o której mowa w art. 1 ust. 2 pkt 2 lit. a i b ustawy z dnia 26 stycznia
+                    1982 r. – Karta Nauczyciela, na innej podstawie niż umowa o pracę –
+                    informacje o zajmowanych stanowiskach i sprawowanych funkcjach,
+           e)       informacje o rodzaju i wymiarze prowadzonych zajęć lub innych
+                    wykonywanych obowiązków oraz informacje o zrealizowaniu przydzielonych
+                    zajęć, a w przypadku nauczyciela, który prowadzi zajęcia w szkole, o której
+                    mowa w art. 1 ust. 2 pkt 2 lit. a i b ustawy z dnia 26 stycznia 1982 r. – Karta
+                    Nauczyciela, na innej podstawie niż umowa o pracę – informacje o rodzaju i
+                    wymiarze zadań,
+           f)       informacje o przyczynach nieprowadzenia zajęć, z wyjątkiem nauczyciela,
+                    który prowadzi zajęcia w szkole, o której mowa w art. 1 ust. 2 pkt 2 lit. a i b
+                    ustawy z dnia 26 stycznia 1982 r. – Karta Nauczyciela, na innej podstawie niż
+                    umowa o pracę,
+           g)       adres poczty elektronicznej, o ile posiada,
+           h)       numer telefonu, o ile posiada;
+     4)    osoby, o której mowa w art. 62 ust. 2:
+Liczba stron : 15     Data : 2026-07-30    Nazwa pliku : V7_1906-27.NK 8
+X kadencja/druk nr 2842
+
+           a)       imię (imiona) i nazwisko,
+           b)       numer PESEL,
+           c)       data urodzenia,
+           d)       informacje o zajmowanym stanowisku i sprawowanych funkcjach,
+           e)       informacje o rodzaju i wymiarze obowiązków,
+           f)       adres poczty elektronicznej, o ile posiada,
+           g)       numer telefonu, o ile posiada;
+     5)    rodzica lub rodziców ucznia:
+           a)       imię (imiona) i nazwisko,
+           b)       adres zamieszkania, jeżeli jest inny niż ucznia,
+           c)       adres poczty elektronicznej, o ile posiada,
+           d)       numer telefonu, o ile posiada,
+           e)       numer PESEL,
+           f)       informacja o stosunku pokrewieństwa lub powinowactwa;
+     6)    pracownika szkoły niebędącego nauczycielem, któremu dyrektor szkoły nadał
+           uprawnienie do dostępu do eDziennika:
+           a)       informacja o roli lub zakresie uprawnień,
+           b)       imię (imiona) i nazwisko,
+           c)       numer PESEL,
+           d)       adres poczty elektronicznej, o ile posiada,
+           e)       numer telefonu, o ile posiada.
+           2. Minister właściwy do spraw oświaty i wychowania jest administratorem danych
+     zawartych w eDzienniku, o których mowa w ust. 1 pkt 1, pkt 2 lit. a–d, f–m oraz w–y,
+     pkt 3 lit. a–d oraz pkt 4 lit. a–d.
+           3. Minister właściwy do spraw oświaty i wychowania może upoważnić
+     pracowników obsługującego go urzędu oraz pracowników podległej mu jednostki
+     organizacyjnej, o której mowa w art. 44f ust. 3, do przetwarzania w eDzienniku danych,
+     o których mowa w ust. 1 pkt 1, pkt 2 lit. a–d, f–m oraz w–y, pkt 3 lit. a–d oraz pkt 4 lit.
+     a–d, w zakresie niezbędnym do realizacji zadań powierzonych tym pracownikom.
+     Upoważnienie jest wydawane w formie pisemnej jako upoważnienie imienne.
+           4. Minister właściwy do spraw oświaty i wychowania prowadzi ewidencję
+     upoważnionych pracowników, o których mowa w ust. 3.
+Liczba stron : 15   Data : 2026-07-30    Nazwa pliku : V7_1906-27.NK 9
+X kadencja/druk nr 2842
+
+           5. Dyrektor szkoły jest administratorem danych zawartych w eDzienniku, o których
+     mowa w ust. 1 pkt 2 lit. e, n–v oraz z, pkt 3 lit. e–h, pkt 4 lit. e–g oraz pkt 5 i 6.
+           6. Dyrektor szkoły może upoważnić pracowników szkoły do przetwarzania w
+     eDzienniku danych osobowych w zakresie niezbędnym do realizacji zadań powierzonych
+     tym pracownikom. Upoważnienie jest wydawane w formie pisemnej jako upoważnienie
+     imienne.
+           7. Dyrektor szkoły prowadzi ewidencję upoważnionych pracowników, o których
+     mowa w ust. 6.
+           Art. 44l. 1. Dane, o których mowa w art. 44k ust. 1 pkt 1, pkt 2 lit. a–d, f–m oraz w–
+     y, pkt 3 lit. a–d oraz pkt 4 lit. a–d, w celu umożliwienia prowadzenia eDziennika i
+     zapewnienia dostępu do eDziennika są przekazywane zgodnie z art. 60c ustawy z dnia
+     15 kwietnia 2011 r. o systemie informacji oświatowej.
+           2. Dane, o których mowa w art. 44k ust. 1 pkt 2 lit. e, n–v oraz z, pkt 3 lit. e–h, pkt 4
+     lit. e–g oraz pkt 5 i 6, w celu umożliwienia prowadzenia eDziennika i zapewnienia dostępu
+     do eDziennika są przekazywane na podstawie posiadanej przez szkołę dokumentacji i
+     zamieszczane w eDzienniku przez dyrektora szkoły.
+           3. Dyrektor szkoły zapewnia poprawność i aktualność danych, o których mowa w
+     art. 44k ust. 1 pkt 2 lit. e, n–v oraz z, pkt 3 lit. e–h, pkt 4 lit. e–g oraz pkt 5 i 6.
+           4. Realizację zadań, o których mowa w ust. 2, dyrektor szkoły może zlecić osobie
+     upoważnionej, o której mowa w art. 44k ust. 6, w zakresie określonym w upoważnieniu.
+
+     Art. 44m. W eDzienniku przechowuje się:
+1)   dane, o których mowa w art. 44k ust. 1 pkt 2 i 5, przez jeden rok szkolny, licząc od dnia
+     zakończenia roku szkolnego, w którym uczeń przestał uczęszczać do danej szkoły;
+2)   dane, o których mowa w art. 44k ust. 1 pkt 3, przez jeden rok szkolny, licząc od dnia
+     zakończenia roku szkolnego, w którym nastąpiło rozwiązanie stosunku pracy z
+     nauczycielem lub osobą, o której mowa w art. 15 ust. 2 i 6;
+3)   dane, o których mowa w art. 44k ust. 1 pkt 4, przez jeden rok szkolny, licząc od dnia
+     zakończenia roku szkolnego, w którym nastąpiło rozwiązanie stosunku pracy z osobą, o
+     której mowa w art. 62 ust. 2;
+4)   dane, o których mowa w art. 44k ust. 1 pkt 6, przez jeden rok szkolny, licząc od dnia
+     zakończenia roku szkolnego, w którym nastąpiło rozwiązanie stosunku pracy z
+     pracownikiem szkoły niebędącym nauczycielem.
+Liczba stron : 15   Data : 2026-07-30   Nazwa pliku : V7_1906-27.NK 10
+X kadencja/druk nr 2842
+
+           Art. 44n. 1. Dyrektor szkoły nadaje uprawnienia do dostępu do eDziennika osobom,
+     o których mowa w art. 44k ust. 1 pkt 3 i 6, wyłącznie w zakresie niezbędnym do realizacji
+     ich obowiązków służbowych.
+           2. Dyrektor szkoły nadaje uprawnienia do dostępu do eDziennika osobom, o których
+     mowa w art. 44k ust. 1 pkt 5, wyłącznie w zakresie dotyczącym ich dziecka lub dzieci,
+     przypisując rodzica do odpowiedniego konta danego ucznia i nadając rodzicowi ucznia
+     uprawnienia do dostępu do eDziennika wyłącznie w zakresie dotyczącym jego dziecka.
+           Art. 44o. 1. Dyrektorowi szkoły udostępnia się w eDzienniku jego dane, dane
+     identyfikacyjne szkoły lub zespołu, o których mowa w art. 44k ust. 1 pkt 1, dane ucznia i
+     jego rodzica lub rodziców, nauczyciela, osoby, o której mowa w art. 62 ust. 2,
+     pracowników szkoły niebędących nauczycielami, którym dyrektor szkoły przyznał dostęp
+     do eDziennika, o których mowa odpowiednio w art. 44k ust. 1 pkt 2–6.
+           2. Nauczycielowi prowadzącemu zajęcia, na które uczęszcza dany uczeń, udostępnia
+     się w eDzienniku jego dane, dane tego ucznia, o których mowa w art. 44k ust. 1 pkt 2
+     lit. a, e, f, h–o, q–z, dane rodzica lub rodziców ucznia, o których mowa w art. 44k ust. 1
+     pkt 5 lit. a–d i f, oraz dane identyfikacyjne szkoły lub zespołu, o których mowa w art. 44k
+     ust. 1 pkt 1, oraz dane identyfikacyjne nauczyciela lub osoby, o której mowa w art. 15 ust.
+     2 i 6, o których mowa w art. 44k ust. 1 pkt 3 lit. a, d i e.
+           3. Uczniowi uczęszczającemu na zajęcia prowadzone przez danego nauczyciela lub
+     daną osobę, o której mowa w art. 15 ust. 2 i 6, udostępnia się w eDzienniku jego dane,
+     dane tego nauczyciela lub tej osoby, o których mowa w art. 44k ust. 1 pkt 3 lit. a, d i e,
+     oraz dane identyfikacyjne szkoły lub zespołu, o których mowa w art. 44k ust. 1 pkt 1.
+           4. Pracownikowi szkoły niebędącemu nauczycielem udostępnia się w eDzienniku
+     jego dane, dane identyfikacyjne szkoły lub zespołu, o których mowa w art. 44k ust. 1
+     pkt 1, oraz dane, o których mowa w art. 44k ust. 1 pkt 2 lit. a–p, r–u oraz w–z, pkt 3 lit. a–
+     h oraz pkt 5 lit. a–d i f.
+           5. Rodzicowi ucznia udostępnia się w eDzienniku jego dane, dane, o których mowa
+     w art. 44k ust. 1 pkt 2, pkt 3 lit. a, d i e oraz pkt 4 lit. a, d i e, oraz dane identyfikacyjne
+     szkoły lub zespołu, o których mowa w art. 44k ust. 1 pkt 1.
+           6. Nauczycielowi oraz osobie, o której mowa w art. 15 ust. 2 i 6, mogą być
+     udostępnione w eDzienniku inne dane niż wskazane w ust. 2 spośród danych, o których
+     mowa w art. 44k ust. 1 pkt 2 lit. b–d, g, p oraz pkt 5 lit. e, na podstawie upoważnienia
+     wydanego przez dyrektora szkoły w formie pisemnej w postaci papierowej lub
+Liczba stron : 15     Data : 2026-07-30   Nazwa pliku : V7_1906-27.NK 11
+X kadencja/druk nr 2842
+
+     elektronicznej, jeżeli dostęp do tych danych jest niezbędny do realizacji zadań
+     powierzonych tym osobom.
+           7. Dane, o których mowa w art. 44k ust. 1 pkt 3 lit. a, d i e, mogą być udostępniane
+     uczniowi, który uczęszcza na zajęcia danego nauczyciela lub danej osoby, o której mowa
+     w art. 15 ust. 2 i 6, oraz jego rodzicowi lub rodzicom, będącym użytkownikami aplikacji
+     mObywatel w rozumieniu ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel.
+           8. Dane, o których mowa w art. 44k w ust. 1 pkt 2 lit. a, d, h–o i q–z oraz pkt 5 lit. a–
+     d i f, mogą być udostępniane nauczycielowi lub osobie, o której mowa w art. 15 ust. 2 i 6,
+     prowadzącej zajęcia, na które uczęszcza dany uczeń, będącej użytkownikiem aplikacji
+     mObywatel w rozumieniu ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel.
+           9. W przypadku, o którym mowa w ust. 6, dane, o których mowa w art. 44k ust. 1
+     pkt 2 lit. b–d, g, p oraz pkt 5 lit. e, mogą być udostępniane nauczycielowi lub osobie, o
+     której mowa w art. 15 ust. 2 i 6, będącej użytkownikiem aplikacji mObywatel w
+     rozumieniu ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel.
+           10. W celu świadczenia w aplikacji mObywatel w rozumieniu ustawy z dnia 26 maja
+     2023 r. o aplikacji mObywatel usługi umożliwiającej korzystanie z eDziennika za
+     pośrednictwem tej aplikacji:
+     1)    minister właściwy do spraw oświaty i wychowania udostępnia dane, o których mowa
+           w art. 44k ust. 1 pkt 1, pkt 2 lit. a–d, f–m oraz w–y, pkt 3 lit. a–d oraz pkt 4 lit. a–d;
+     2)    dyrektor szkoły udostępnia dane, o których mowa w art. 44k ust. 1 pkt 2 lit. e, n–v
+           oraz z, pkt 3 lit. e–h, pkt 4 lit. e–g oraz pkt 5 i 6.”.
+
+     Art. 2. W ustawie z dnia 15 kwietnia 2011 r. o systemie informacji oświatowej (Dz. U. z
+2026 r. poz. 803) wprowadza się następujące zmiany:
+1)   w art. 7 w ust. 1 w pkt 31 kropkę zastępuje się średnikiem i dodaje się pkt 32 w brzmieniu:
+     „32) informacja o korzystaniu z eDziennika, o którym mowa w art. 44f ust. 1 ustawy –
+           Prawo oświatowe.”;
+2)   w art. 14:
+     a)    w pkt 34 w lit. e przecinek zastępuje się średnikiem i uchyla się lit. f,
+     b)    dodaje się pkt 35 w brzmieniu:
+           „35) fotografię kolorową zawierającą wizerunek twarzy ucznia – w przypadku
+                    ucznia posiadającego mLegitymację szkolną lub korzystającego z eDziennika,
+                    o którym mowa w art. 44f ust. 1 ustawy – Prawo oświatowe.”;
+3)   w art. 30 ust. 2 otrzymuje brzmienie:
+Liczba stron : 15   Data : 2026-07-30   Nazwa pliku : V7_1906-27.NK 12
+X kadencja/druk nr 2842
+
+           „2. Podmiot zobowiązany do przekazywania danych do zbioru danych:
+     1)    ucznia, w zakresie danych, o których mowa w art. 11 oraz art. 14 pkt 2 i 3, pkt 5 – w
+           zakresie zawodu, oraz pkt 7–8a, 15, 16, 19, 20 i 31,
+     2)    nauczyciela, w zakresie danych, o których mowa w art. 28 oraz art. 29 ust. 1 pkt 1
+           lit. e – w zakresie formy zatrudnienia, oraz lit. k, pkt 1a lit. e – w zakresie formy
+           zatrudnienia, oraz lit. j, ust. 3 pkt 1 lit. c – w zakresie formy zatrudnienia, oraz lit. h
+           oraz pkt 2 lit. c – w zakresie formy zatrudnienia, oraz lit. g oraz ust. 4 pkt 6
+     – może przekazać te dane na kolejny rok szkolny w okresie ferii letnich poprzedzających
+     ten rok szkolny.”;
+4)   w art. 36 w ust. 1 w pkt 4 dodaje się przecinek i pkt 5 w brzmieniu:
+     „5) informację, o której mowa w art. 7 ust. 1 pkt 32”;
+5)   po art. 60b dodaje się art. 60c w brzmieniu:
+           „Art. 60c. Dane szkoły, ucznia i nauczyciela, o których mowa odpowiednio w
+     art. 44k ust. 1 pkt 1, pkt 2 lit. a–d, f–m oraz w–y, pkt 3 lit. a–d oraz pkt 4 lit. a–d ustawy
+     – Prawo oświatowe, są pozyskiwane z bazy danych SIO do eDziennika, o którym mowa
+     w art. 44f ust. 1 ustawy – Prawo oświatowe, w celu odzwierciedlenia struktury
+     organizacyjnej szkoły oraz wspierania prowadzenia przez szkołę dokumentacji przebiegu
+     nauczania oraz działalności wychowawczej i opiekuńczej.”;
+6)   w art. 93 w ust. 3 uchyla się pkt 1.
+
+     Art. 3. 1. W celu przetestowania funkcjonowania systemu teleinformatycznego w
+rozumieniu art. 3 pkt 3 ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów
+realizujących zadania publiczne (Dz. U. z 2025 r. poz. 1703 oraz z 2026 r. poz. 160), w ramach
+którego może być świadczona usługa dziennika lekcyjnego w postaci elektronicznej, w
+warunkach rzeczywistych przed jego pełnym wdrożeniem w terminie, o którym mowa w art. 5
+ust. 1, minister właściwy do spraw oświaty i wychowania, we współpracy z ministrem
+właściwym do spraw informatyzacji, przeprowadza w publicznych i niepublicznych szkołach,
+o których mowa w art. 18 ust. 1 ustawy zmienianej w art. 1, oraz szkołach artystycznych
+realizujących kształcenie ogólne we wszystkich województwach program pilotażowy
+udostępniania systemu teleinformatycznego w rozumieniu art. 3 pkt 3 ustawy z dnia 17 lutego
+2005 r. o informatyzacji działalności podmiotów realizujących zadania publiczne, w ramach
+którego może być świadczona usługa dziennika lekcyjnego w postaci elektronicznej, zwany
+dalej „pilotażem”.
+Liczba stron : 15   Data : 2026-07-30   Nazwa pliku : V7_1906-27.NK 13
+X kadencja/druk nr 2842
+
+     2. Wyboru szkół, o których mowa w ust. 1, dokonuje minister właściwy do spraw oświaty
+i wychowania, biorąc pod uwagę:
+1)   potrzebę udziału w pilotażu szkół o zróżnicowanym poziomie rozwoju cyfrowego;
+2)   dotychczasowe zaangażowanie szkół w projekty edukacyjne;
+3)   zapewnienie udziału w pilotażu szkół specjalnych, o których mowa w art. 4 pkt 2 ustawy
+     zmienianej w art. 1.
+     3. Pilotażem może zostać objęta cała szkoła, oddziały szkoły lub wybrane klasy.
+     4. Pilotaż jest przeprowadzany w roku szkolnym 2026/2027.
+     5. Minister właściwy do spraw oświaty i wychowania w porozumieniu z ministrem
+właściwym do spraw informatyzacji określi, w drodze rozporządzenia:
+1)   szczegółowy cel i termin uruchomienia pilotażu,
+2)   warunki organizacyjne i techniczne pilotażu,
+3)   tryb wyboru uczestników pilotażu,
+4)   tryb postępowania w przypadku rezygnacji przez szkołę z udziału w pilotażu,
+5)   termin wprowadzenia przez szkoły danych umożliwiających przeprowadzenie pilotażu,
+6)   zakres danych, o których mowa w art. 44k ust. 1 ustawy zmienianej w art. 1, niezbędnych
+     do przeprowadzenia pilotażu,
+7)   zakres funkcjonalności dziennika lekcyjnego w postaci elektronicznej, o którym mowa w
+     ust. 1, udostępnionych w ramach pilotażu,
+8)   kryteria ewaluacji pilotażu
+– mając na uwadze bezpieczeństwo danych przetwarzanych w dzienniku lekcyjnym w postaci
+elektronicznej, o którym mowa w ust. 1, udostępnionych w ramach pilotażu, zapewnienie
+poprawności działania tego dziennika oraz potrzebę osiągnięcia określonych wskaźników
+realizacji pilotażu.
+     6. Podmiotem obowiązanym do wdrożenia, finansowania, monitorowania i ewaluacji
+pilotażu jest minister właściwy do spraw oświaty i wychowania, z tym że minister właściwy do
+spraw     informatyzacji     świadczy    usługi   umożliwiające    korzystanie   z     systemu
+teleinformatycznego w rozumieniu art. 3 pkt 3 ustawy z dnia 17 lutego 2005 r. o informatyzacji
+działalności podmiotów realizujących zadania publiczne, w ramach którego może być
+świadczona usługa dziennika lekcyjnego w postaci elektronicznej, podczas pilotażu za
+pośrednictwem aplikacji mObywatel w rozumieniu ustawy z dnia 26 maja 2023 r. o aplikacji
+mObywatel.
+
+     Art. 4. Szkoła uczestnicząca w pilotażu:
+Liczba stron : 15   Data : 2026-07-30   Nazwa pliku : V7_1906-27.NK 14
+X kadencja/druk nr 2842
+
+1)   prowadzi dziennik lekcyjny na dotychczasowych zasadach przyjętych w szkole;
+2)   prowadzi dziennik lekcyjny w postaci elektronicznej w ramach pilotażu dodatkowo i
+     niezależnie od dziennika lekcyjnego, o którym mowa w pkt 1;
+3)   przyjmuje za obowiązujące dane zamieszczone w dzienniku lekcyjnym, o którym mowa
+     w pkt 1, w przypadku powstania rozbieżności między danymi zamieszczonymi w tym
+     dzienniku a danymi zamieszczonymi w dzienniku lekcyjnym w postaci elektronicznej
+     prowadzonym w ramach pilotażu.
+
+     Art. 5. 1. Udostępnienie systemu teleinformatycznego w rozumieniu art. 3 pkt 3 ustawy z
+dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów realizujących zadania
+publiczne, w ramach którego może być świadczona usługa dziennika lekcyjnego w postaci
+elektronicznej, szkołom, o których mowa w art. 44f ust. 1 ustawy zmienianej w art. 1, nastąpi
+z dniem 1 września 2027 r.
+     2. Szkoła, która przekaże do Rejestru Szkół i Placówek Oświatowych, o którym mowa w
+art. 4 ust. 1 pkt 1 ustawy z dnia 15 kwietnia 2011 r. o systemie informacji oświatowej,
+informację, o której mowa w art. 44i ust. 3 ustawy zmienianej w art. 1, w roku szkolnym
+2027/2028, uzyska pełny dostęp do systemu teleinformatycznego w rozumieniu art. 3 pkt 3
+ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów realizujących zadania
+publiczne, w ramach którego może być świadczona usługa dziennika lekcyjnego w postaci
+elektronicznej, w terminie 30 dni od dnia jej przekazania.
+
+     Art. 6. 1. Maksymalny limit wydatków budżetu państwa przeznaczonych na finansowanie
+zadań ministra właściwego do spraw oświaty i wychowania oraz ministra właściwego do spraw
+informatyzacji wynikających z ustawy wynosi w:
+1)   2026 r. – 14 990 000 zł;
+2)   2027 r. – 53 990 000 zł;
+3)   2028 r. – 14 360 000 zł;
+4)   2029 r. – 15 370 000 zł;
+5)   2030 r. – 20 790 000 zł;
+6)   2031 r. – 21 700 000 zł;
+7)   2032 r. – 22 680 000 zł;
+8)   2033 r. – 17 050 000 zł;
+9)   2034 r. – 17 520 000 zł;
+10) 2035 r. – 18 020 000 zł.
+Liczba stron : 15   Data : 2026-07-30   Nazwa pliku : V7_1906-27.NK 15
+X kadencja/druk nr 2842
+
+     2. Minister właściwy do spraw oświaty i wychowania monitoruje wykorzystanie limitu
+wydatków, o którym mowa w ust. 1, z uwzględnieniem informacji o wydatkach
+przekazywanych przez ministra właściwego do spraw informatyzacji w zakresie zadań
+finansowanych z części budżetu państwa pozostającej w dyspozycji tego ministra oraz
+dokonuje oceny wykorzystania tego limitu według stanu na dzień 31 sierpnia danego roku.
+     3. W przypadku przekroczenia lub zagrożenia przekroczeniem przyjętego na dany rok
+budżetowy maksymalnego limitu wydatków określonego w ust. 1 oraz w przypadku, gdy
+okresie od początku roku kalendarzowego do dnia oceny, o której mowa w ust. 2, część limitu
+rocznego przypadającego proporcjonalnie na ten okres zostanie przekroczona co najmniej o
+10 %, stosuje się mechanizm korygujący polegający na zmniejszeniu wydatków budżetu
+państwa będących skutkiem finansowym ustawy.
+     4. Organami właściwymi do wdrożenia mechanizmu korygującego, o którym mowa w
+ust. 3, są minister właściwy do spraw oświaty i wychowania oraz minister właściwy do spraw
+informatyzacji, odpowiednio w zakresie wydatków finansowanych z części budżetu państwa,
+której są dysponentami.
+     5. Minister właściwy do spraw oświaty i wychowania przekazuje ministrowi właściwemu
+do spraw informatyzacji informację o ocenie, o której mowa w ust. 2.
+     6. Minister właściwy do spraw informatyzacji przekazuje ministrowi właściwemu do
+spraw oświaty i wychowania informacje o planowanych i poniesionych wydatkach, w
+terminach i zakresie niezbędnym do monitorowania wykorzystania limitu wydatków, o którym
+mowa w ust. 1.
+
+     Art. 7. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+

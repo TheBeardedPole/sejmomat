@@ -1,0 +1,1485 @@
+                                                                       Druk nr 1008
+                                                                   Warszawa, 4 lutego 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+        RM-0610-7-25
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+         Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  -      o zmianie ustawy o rynku                                                           mocy
+      oraz niektórych innych ustaw.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister klimatu i Środowiska.
+            Jednocześnie, ze względu na istotę rozwiązań i wagę sprawy, w tym
+ konieczność pilnego wprowadzenia mechanizmu aukcji dogrywkowych na rynku mocy
+ w celu zapewnienia średnioterminowego lub długoterminowego bezpieczeństwa dostaw
+ energii elektrycznej - na podstawie art. 51 ust. 2 Regulaminu Sejmu przedstawiam
+ wniosek o skrócenie postępowania z projektem ustawy przez przystąpienie
+ do pierwszego czytania bez zachowania terminu określonego w art. 37
+ ust. 4 Regulaminu Sejmu, przystąpienie do drugiego czytania bez zachowania terminu
+ określonego w art. 44 ust. 3 Regulaminu Sejmu, przystąpienie do trzeciego czytania bez
+ kierowania projektu do komisji w razie zgłoszenia w drugim czytaniu poprawek
+ i wniosków oraz o rozpatrzenie przez Sejm sprawozdania komisji o uchwale Senatu
+ w sprawie ustawy bez zachowania terminu określonego w art. 54 ust 5 Regulaminu
+ Sejmu.
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                  Projekt
+                                              U S T AWA
+
+                                                  z dnia
+
+                o zmianie ustawy o rynku mocy oraz niektórych innych ustaw1)
+
+
+       Art. 1. W ustawie z dnia 8 grudnia 2017 r. o rynku mocy (Dz. U. z 2023 r. poz. 2131)
+wprowadza się następujące zmiany:
+1)     w art. 2 w ust. 1 po pkt 3a dodaje się pkt 3b w brzmieniu:
+       „3b) aukcja dogrywkowa – aukcję mocy, w której okresem dostaw jest rok kalendarzowy,
+             która może zostać przeprowadzona po aukcji głównej na dany rok dostaw;”;
+2)     w art. 3:
+       a)    w ust. 1 w pkt 4 kropkę zastępuje się średnikiem i dodaje się pkt 5 w brzmieniu:
+             „5) certyfikację do aukcji dogrywkowej – w celu utworzenia jednostek rynku mocy
+                   i dopuszczenia ich do aukcji dogrywkowej.”,
+       b)    po ust. 3 dodaje się ust. 3a w brzmieniu:
+                   „3a. Certyfikacja do aukcji dogrywkowej trwa 5 tygodni i rozpoczyna się w 4.
+             tygodniu po wejściu w życie rozporządzenia, o którym mowa w art. 39a ust. 4,
+             a kończy nie później niż 14 dni przed rozpoczęciem aukcji dogrywkowej.”;
+3)     w art. 18 ust. 2 otrzymuje brzmienie:
+             „2. Korekcyjny współczynnik dyspozycyjności wyznacza się corocznie na
+       podstawie danych historycznych za okres ostatnich 5 lat dotyczących typowych dla
+       danych grup technologii charakterystyk dostarczania mocy, awaryjności i ubytków mocy
+       osiągalnej netto oraz prognozowanego udziału danej technologii w zapewnieniu
+       bezpieczeństwa dostaw energii elektrycznej.”;
+4)     po art. 39 dodaje się art. 39a w brzmieniu:
+             „Art. 39a. 1. Jeżeli po przeprowadzeniu aukcji głównej operator stwierdzi, że nie
+       będzie zapewnione średnioterminowe lub długoterminowe bezpieczeństwo dostaw
+       energii elektrycznej, przekazuje ministrowi właściwemu do spraw energii oraz Prezesowi
+
+
+
+
+1)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 27 października 2022 r. o środkach nadzwyczajnych
+     mających na celu ograniczenie wysokości cen energii elektrycznej oraz wsparciu niektórych odbiorców
+     w latach 2023–2025 i ustawę dnia 23 maja 2024 r. o bonie energetycznym oraz o zmianie niektórych ustaw
+     w celu ograniczenia cen energii elektrycznej, gazu ziemnego i ciepła systemowego.
+                                      –2–
+
+
+URE, nie później niż do dnia 28 lutego roku następującego po roku przeprowadzenia
+aukcji głównej:
+1)   rekomendację dotyczącą organizacji aukcji dogrywkowej dla okresu dostaw,
+     którego dotyczyła dana aukcja główna;
+2)   uzasadnienie rekomendacji zawierające wyniki analizy bezpieczeństwa dostaw
+     energii elektrycznej z uwzględnieniem wyników aukcji głównej;
+3)   propozycję parametrów aukcji dogrywkowej, o których mowa w art. 32 ust. 1 pkt 1–
+     4, 6 i 7.
+     2. W terminie 7 dni od dnia otrzymania, zgodnie z ust. 1, proponowanych wartości
+parametrów, o których mowa w art. 32 ust. 1 pkt 1–4, 6 i 7, Prezes URE przekazuje
+ministrowi właściwemu do spraw energii propozycję parametru, o którym mowa w art. 31
+pkt 1, w odniesieniu do aukcji dogrywkowej.
+     3. Prezes URE, przygotowując propozycję parametru, o której mowa w ust. 2, może
+przyjąć propozycje przekazane przez operatora zgodnie z ust. 1 lub zaproponować inne
+wielkości.
+     4. Minister właściwy do spraw energii, po dokonaniu oceny:
+1)   rekomendacji dotyczącej organizacji aukcji dogrywkowej dla okresu dostaw,
+     którego dotyczyła dana aukcja główna,
+2)   uzasadnienia rekomendacji zawierającego wyniki analizy bezpieczeństwa dostaw
+     energii elektrycznej z uwzględnieniem wyników aukcji głównej,
+3)   propozycji parametrów aukcji dogrywkowej, o których mowa w art. 32 ust. 1 pkt 1–
+     4, 6 i 7
+– może określić, po zasięgnięciu opinii Prezesa URE, w drodze rozporządzenia, do dnia
+30 kwietnia roku następującego po roku przeprowadzenia aukcji głównej, parametry
+aukcji dogrywkowej, mając na względzie politykę energetyczną państwa, adekwatność
+stosowanych parametrów do potrzeb systemu, zapewnienie bezpieczeństwa systemu,
+równoprawne i niedyskryminacyjne traktowanie dostawców mocy oraz mając na
+względzie przewidywaną dostępność zdolności przesyłowych oraz ich udział
+w zapewnieniu bezpieczeństwa dostaw energii elektrycznej.
+     5. Parametrami aukcji dogrywkowej są parametry, o których mowa w art. 32 ust. 1
+pkt 1–4, 6 i 7, przy czym parametry, o których mowa w art. 32 ust. 1 pkt 7, wyznacza się
+odpowiednio dla stref, o których mowa w art. 6 ust. 6, jako różnicę między tymi
+parametrami określonymi w przepisach wydanych na podstawie art. 34, w odniesieniu do
+                                              –3–
+
+
+     aukcji głównej dla okresu dostaw, dla którego będzie prowadzona aukcja dogrywkowa
+     i wolumenów obowiązków mocowych, którymi zostały objęte jednostki rynku mocy
+     zagraniczne w toku tej aukcji głównej.
+          6. Aukcję wstępną do aukcji dogrywkowej prowadzi się zgodnie z zasadami
+     i warunkami dotyczącymi aukcji wstępnej do aukcji głównej, przy czym aukcja wstępna
+     do aukcji dogrywkowej jest organizowana w 2. tygodniu po wejściu w życie
+     rozporządzenia, o którym mowa w ust. 4.
+          7. Certyfikację do aukcji dogrywkowej prowadzi się zgodnie z zasadami
+     i warunkami dotyczącymi certyfikacji do aukcji głównej, z zastrzeżeniem, że do udziału
+     w tej certyfikacji mogą zostać zgłoszone wyłącznie jednostki nieobjęte obowiązkiem
+     mocowym obejmującym okres dostaw, którego dotyczy dana aukcja dogrywkowa.
+          8. Przepisy działów II–IV, przepisy wydane na podstawie art. 51, art. 68 i art. 76
+     oraz postanowienia regulaminu rynku mocy, o którym mowa w art. 83, dotyczące
+     certyfikacji do aukcji głównej, aukcji głównej i aukcji wstępnej do aukcji głównej,
+     wykonania obowiązku mocowego powstałego w wyniku umów mocowych zawartych
+     w wyniku aukcji głównej i umów mocowych zawartych w wyniku aukcji głównej, stosuje
+     się odpowiednio do certyfikacji do aukcji dogrywkowej, aukcji dogrywkowej i aukcji
+     wstępnej do aukcji dogrywkowej, wykonania obowiązku mocowego powstałego
+     w wyniku umów mocowych zawartych w wyniku aukcji dogrywkowej i umów
+     mocowych zawartych w wyniku aukcji dogrywkowej.
+          9. Aukcja dogrywkowa odbywa się w 11. tygodniu od wejścia w życie
+     rozporządzenia, o którym mowa w ust. 4.
+          10. Operator w terminie 3 dni od wejścia w życie rozporządzenia, o którym mowa
+     w ust. 4, ogłasza termin:
+     1)   aukcji wstępnej do aukcji dogrywkowej;
+     2)   rozpoczęcia i zakończenia certyfikacji do aukcji dogrywkowej;
+     3)   aukcji dogrywkowej.”;
+5)   w art. 74 ust. 1 objaśnienie symbolu KAG otrzymuje brzmienie:
+          „KAG – sumę iloczynów obowiązków mocowych wynikających z umów mocowych
+                  zawartych w toku aukcji głównych i aukcji dogrywkowych obejmujących
+                  dany rok i ich cen, uwzględniających coroczne waloryzacje tych cen
+                  obowiązku mocowego dla wieloletnich umów mocowych, o których mowa
+                                             –4–
+
+
+                   w art. 60 ust. 4, oraz pomniejszenia wynagrodzeń, o których mowa w art. 62
+                   ust. 1,”;
+6)   w art. 85 w ust. 2:
+     a)   po pkt 2 dodaje się pkt 2a w brzmieniu:
+          „2a) nieogłoszenia dat rozpoczęcia i zakończenia certyfikacji do aukcji
+               dogrywkowej zgodnie z terminem określonym w art. 39a ust. 10;”,
+     b)   po pkt 4 dodaje się pkt 4a w brzmieniu:
+          „4a) nieogłoszenia daty aukcji wstępnej do aukcji dogrywkowej w terminie
+               określonym zgodnie z art. 39a ust. 10;”,
+     c)   po pkt 11a dodaje się pkt 11b w brzmieniu:
+          „11b) nieogłoszenia daty aukcji dogrywkowej zgodnie z terminem określonym
+               w art. 39a ust. 10;”,
+     d)   po pkt 12a dodaje się pkt 12b w brzmieniu:
+          „12b) niezorganizowania aukcji dogrywkowej w terminach określonych zgodnie
+               z art. 39a ust. 9 i 10, z przyczyn leżących po stronie operatora;”.
+
+     Art. 2. W ustawie z dnia 27 października 2022 r. o środkach nadzwyczajnych mających
+na celu ograniczenie wysokości cen energii elektrycznej oraz wsparciu niektórych odbiorców
+w latach 2023–2025 (Dz. U. z 2024 r. poz. 1622 i 1831) w art. 13 w ust. 1a w pkt 2 wyrazy
+„1 maja 2025 r. do dnia 30 września 2025 r.” zastępuje się wyrazami „1 lipca 2025 r. do dnia
+31 października 2025 r.”.
+
+     Art. 3. W ustawie z dnia 23 maja 2024 r. o bonie energetycznym oraz o zmianie
+niektórych ustaw w celu ograniczenia cen energii elektrycznej, gazu ziemnego i ciepła
+systemowego (Dz. U. z 2024 r. poz. 859 i 1831) po art. 38a dodaje się art. 38b w brzmieniu:
+          „Art. 38b. W przypadku niezłożenia informacji o pomocy przez przedsiębiorcę,
+     o którym mowa:
+          1) w art. 37 ust. 1 – w terminie określonym w art. 37 ust. 6,
+          2) w art. 38 ust. 1 – w terminie określonym w art. 38 ust. 5a
+          – przedsiębiorca ten może złożyć informację o pomocy w terminie do dnia
+     30 czerwca 2025 r.”.
+                                             –5–
+
+
+     Art. 4. Dla aukcji dogrywkowej w rozumieniu art. 2 ust. 1 pkt 3b ustawy zmienianej
+w art. 1 na rok dostaw 2029 operator w rozumieniu art. 2 ust. 1 pkt 27 ustawy zmienianej
+w art. 1 przekazuje:
+1)   rekomendację dotyczącą organizacji aukcji dogrywkowej dla okresu dostaw, którego
+     dotyczyła dana aukcja główna,
+2)   uzasadnienie rekomendacji zawierające wyniki analizy bezpieczeństwa dostaw energii
+     elektrycznej z uwzględnieniem wyników aukcji głównej,
+3)   propozycję parametrów aukcji dogrywkowej, o których mowa w art. 32 ust. 1 pkt 1–4,
+     6 i 7 ustawy zmienianej w art. 1
+– zgodnie z art. 39a ust. 1 ustawy zmienianej w art. 1, nie później niż w terminie 7 dni od dnia
+wejścia w życie niniejszej ustawy.
+     Art. 5. 1. Informacje o pomocy złożone zgodnie z art. 37 ust. 6 lub art. 38 ust. 5a ustawy
+zmienianej w art. 3 po dniu 28 lutego 2025 r. a przed dniem wejścia w życie niniejszej ustawy
+są uznane za złożone w terminie i podlegają weryfikacji przez podmiot udzielający pomocy
+zgodnie z przepisami ustawy zmienianej w art. 3.
+     2. Przepis art. 38a ust. 8 pkt 1 ustawy zmienianej w art. 3 w zakresie, w jakim dotyczy
+rozliczeń ze sprzedawcą z tytułu niezłożenia w terminie informacji o pomocy, o której mowa
+w art. 37 ust. 6 lub art. 38 ust. 5a ustawy zmienianej w art. 3, stosuje się w przypadku
+niezłożenia tej informacji w terminie do dnia 30 czerwca 2025 r.
+     3. W przypadku gdy w okresie od dnia 1 marca 2025 r. do dnia wejścia w życie niniejszej
+ustawy przedsiębiorca, o którym mowa w art. 37 ust. 1 lub art. 38 ust. 1 ustawy zmienianej
+w art. 3, w rozliczeniach za energię elektryczną ze sprzedawcą energii elektrycznej zwrócił
+różnicę pomiędzy ceną maksymalną a ceną wynikającą z umowy sprzedaży, o której mowa
+w art. 5 ust. 2 pkt 1 ustawy z dnia 10 kwietnia 1997 r. – Prawo energetyczne (Dz. U. z 2024 r.
+poz. 266, 834, 859, 1847 i 1881), albo umowy kompleksowej, o której mowa w art. 5 ust. 3 tej
+ustawy, z powodu niezłożenia w terminie informacji o pomocy zgodnie z art. 37 ust. 6 lub
+art. 38 ust. 5a ustawy zmienianej w art. 3, sprzedawca dokonuje korekty takiego rozliczenia
+w kolejnym okresie rozliczeniowym.
+
+     Art. 6. Ustawa wchodzi w życie po upływie 7 dni od dnia ogłoszenia.
+                                    UZASADNIENIE
+
+1. Potrzeba i cel wydania aktu prawnego
+
+Celem projektowanej ustawy o zmianie ustawy o rynku mocy oraz zmianie niektórych innych
+ustaw jest wprowadzenie aukcji dogrywkowych, które pozwolą na powtórzenie aukcji głównej
+albo uzupełnienie umów mocowych zawartych w wyniku rozstrzygniętej aukcji głównej, w
+przypadku gdy wyniki rozstrzygniętej aukcji głównej nie zapewniają możliwości utrzymania
+bezpieczeństwa dostaw energii elektrycznej do odbiorców końcowych.
+
+Mechanizm rynku mocy, wprowadzony ustawą z dnia 8 grudnia 2017 r. o rynku mocy (Dz. U.
+z 2023 r. poz. 2131), zwaną dalej „ustawą o rynku mocy”, zapewnia możliwość wynagradzania
+uczestników rynku (jednostki wytwórcze, odpowiedź odbioru (DSR), magazyny energii) za ich
+pozostawanie w gotowości do dostarczania mocy i zapewnienie dostaw energii elektrycznej do
+systemu elektroenergetycznego w przypadku przewidywanych problemów z pokryciem
+zapotrzebowania na moc w systemie w czasie okresu przywołania na rynku mocy.
+
+Rynek mocy został zmodyfikowany przepisami rozporządzenia Parlamentu Europejskiego
+i Rady (UE) 2019/943 w sprawie rynku wewnętrznego energii elektrycznej (Dz. Urz. UE L
+158/54 z 14.06.2019), zwanego dalej „rozporządzeniem rynkowym”, którego art. 22 ust. 4
+wprowadza wymogi dotyczące limitów emisji CO2 dla mechanizmów zdolności wytwórczych.
+Wobec powyższego było konieczne dostosowanie polskiego rynku mocy do wprowadzonych
+limitów emisji CO2, w konsekwencji czego od dnia 1 lipca 2025 r. jednostki wytwórcze
+emitujące powyżej 550 kg CO2/MWh „nie będą posiadały zobowiązań ani nie będą otrzymywać
+płatności lub zobowiązań dotyczących przyszłych płatności w ramach mechanizmu zdolności
+wytwórczych” (art. 22 ust. 4 lit. b rozporządzenia rynkowego).
+
+Wprowadzenie limitu emisji CO2 na rynku mocy ograniczyło znacząco zakres podmiotów,
+które konkurują w ramach aukcji rynku mocy, co może prowadzić do braku pokrycia całego
+zapotrzebowania na moc, jakie jest niezbędne do zapewnienia bezpieczeństwa dostaw. Aby
+rozwiązać ten problem, projektodawca wprowadził aukcje uzupełniające, w ramach których
+będzie możliwy udział jednostek wytwórczych emitujących powyżej 550 kg CO 2/MWh i ich
+konkurowanie z pozostałymi podmiotami, które spełniają limit emisji 550 kg CO2/MWh
+(jednostki wytwórcze, magazyny energii, DSR). Taką możliwość – w ograniczonym czasie
+i pod rygorystycznymi warunkami zapewniło rozporządzenie Parlamentu Europejskiego
+i Rady (UE) 2024/1747 z dnia 13 czerwca 2024 r. zmieniające rozporządzenia (UE) 2019/942
+i (UE) 2019/943 w odniesieniu do poprawy struktury unijnego rynku energii elektrycznej (Dz.
+Urz. UE L 2024/1747 z 26.06.2024), zwane dalej „rozporządzeniem EMD”.
+
+Mimo wprowadzonych rozwiązań, wobec szybkiego spadku nakładów inwestycyjnych na
+budowę magazynów energii elektrycznej, przy ich ograniczonej pojemności, która nie pozwala
+na dostarczanie energii elektrycznej w sposób ciągły, zachwianiu uległy proporcje
+beneficjentów rynku mocy. Ze względu na neutralność technologiczną mechanizmu, przy
+braku możliwości dynamicznego uwzględniania malejącej skuteczności magazynów energii
+elektrycznej na potrzeby zapewnienia bezpieczeństwa dostaw energii elektrycznej, doszło do
+zaburzenia równowagi między źródłami wytwórczymi posiadającymi zdolność do dostawy
+mocy bez ograniczeń czasowych, a magazynami energii elektrycznej. Z tego powodu zasadnym
+jest wprowadzenie mechanizmu, który pozwoli na przeprowadzenie aukcji dogrywkowych,
+przy uwzględnieniu parametrów uwzględniających wyniki przeprowadzonych aukcji
+głównych. Z tego powodu jest konieczne zapewnienie funkcjonowania mocy dyspozycyjnych
+po zakończeniu obowiązywania odstępstwa od stosowania limitu emisji na rynku mocy. Moce
+te w przypadku niewystarczającego ich zakontraktowania w aukcjach głównych mogłyby
+zostać zakontraktowane w aukcjach dogrywkowych.
+
+Ponadto, w odniesieniu do systemu wsparcia dla odbiorców w zakresie cen energii elektrycznej,
+sektor MŚP zobowiązany jest dokonać rozliczenia otrzymanej pomocy jako zgodnej z prawem
+UE i wynikającej ze stosowania w II połowie 2024 roku ceny maksymalnej energii elektrycznej.
+Jednocześnie    z   powodu     braku    świadomości     tego   sektora,   w    szczególności
+mikroprzedsiębiorców, o konieczności dokonania takiego rozliczenia, zasadnym jest
+wydłużenie terminu na przekazanie przez przedsiębiorców do swoich sprzedawców formularzy
+informacji o przyznanej pomocy.
+
+2. Opis najważniejszych rozwiązań projektu ustawy
+
+Projektodawca proponuje wprowadzenie aukcji dogrywkowych w ramach obecnego
+mechanizmu rynku mocy. Projektodawca proponuje przeprowadzenie maksymalnie dwóch
+aukcji dogrywkowych na lata dostaw 2029 i 2030. Aukcje dogrywkowe zostaną przeprowadzone
+po zakończeniu aukcji głównych rynku mocy, tzn. będą przeprowadzone z krótszym niż
+czteroletnim wyprzedzeniem względem momentu rozpoczęcia trwania obowiązku mocowego
+(lead time).
+
+                                             2
+Aukcje dogrywkowe będą w swej istocie przedłużeniem istniejącego procesu rynku mocy (aukcji
+głównej): będą organizowane w przypadku, gdy po przeprowadzeniu aukcji głównej
+zidentyfikowany problem z wystarczalnością zasobów wytwórczych nie zostanie rozwiązany,
+a fakt ten zostanie potwierdzony przez analizę bezpieczeństwa dostaw energii elektrycznej z
+uwzględnieniem wyników aukcji głównej, przekazaną przez operatora systemu przesyłowego.
+Analiza ta będzie elementem uzasadnienia dla rekomendacji operatora w zakresie organizacji
+aukcji dogrywkowej na okres dostaw, którego dotyczyła aukcja główna, i będzie brała pod uwagę
+wyniki tejże aukcji głównej. Projektodawca w tym zakresie przedstawił przepisy regulujące
+szczegółowo, w jakich okolicznościach można ogłosić i zorganizować aukcje dogrywkowe.
+
+Do udziału w aukcjach dogrywkowych będą uprawnione takie same podmioty, jak w przypadku
+aukcji głównej: istniejące jednostki wytwórcze, modernizowane jednostki wytwórcze, nowe
+jednostki wytwórcze, istniejące jednostki wytwórcze zagraniczne, jednostki DSR składające się
+z istniejących jednostek fizycznych oraz jednostki DSR składające się z istniejących jednostek
+fizycznych zagranicznych (na zasadach, jak jednostki wytwórcze zagraniczne), a także jednostki
+DSR planowane. Aby uczestniczyć w aukcjach dogrywkowych, dany podmiot powinien
+wcześniej poddać się procesowi certyfikacji ogólnej, aby niezbędne dane na potrzeby procesów
+rynku mocy w odniesieniu do danego podmiotu i jego jednostek zostały właściwie przekazane i
+zweryfikowane, oraz uczestniczyć w certyfikacji do aukcji dogrywkowej, podczas której
+deklaruje również swój udział w aukcji dogrywkowej.
+
+Sposób określenia parametrów aukcji dogrywkowych rynku mocy został określony w przepisach
+ustawy. Parametry aukcji dogrywkowej na dany rok będą określone przez ministra właściwego
+do spraw energii w drodze rozporządzenia po zasięgnięciu opinii Prezesa URE. Jest to
+rozwiązanie analogiczne do publikacji parametrów aukcji głównej i dodatkowych.
+
+Dodatkowo status cenotwórcy i cenobiorcy będzie przyznany zgodnie z zasadami
+obowiązującymi na aukcji głównej, tj. jednostki wytwórcze istniejące będą miały status
+cenobiorcy, a jednostki DSR, nowe i modernizowane jednostki wytwórcze oraz jednostki
+składające się z jednostek fizycznych zagranicznych będą miały status cenotwórcy.
+
+Z tych względów w art. 1 zaproponowano przepisy zmieniające ustawę o rynku mocy:
+   1) w pkt 1 wprowadzono w art. 2 ustawy o rynku mocy definicję aukcji dogrywkowej,
+       określając, że jest to aukcja mocy, która może zostać przeprowadzona po aukcji głównej
+       na dany rok dostaw;
+
+                                              3
+2) w pkt 2 zmodyfikowano przepisy art. 3 ustawy o rynku mocy, wprowadzając
+   certyfikację do aukcji dogrywkowej jako dodatkowy etap procesów aukcji
+   dogrywkowej, niezbędny do jej przeprowadzenia, i określając czas jej trwania (5
+   tygodni) i moment rozpoczęcia (4. tydzień po wejściu w życie rozporządzenia
+   wydanego na podstawie art. 39a ust. 4 ustawy o rynku mocy) i moment zakończenia –
+   nie później niż 14 dni przed rozpoczęciem aukcji dogrywkowych;
+3) w pkt 3 zmieniono w art. 18 ust. 2 ustawy o rynku mocy, doprecyzowując sposób
+   określania korekcyjnych współczynników dyspozycyjności dla poszczególnych grup
+   technologii przez wskazanie, że będą one wyznaczane z uwzględnieniem
+   prognozowanego udziału danej technologii w możliwości zapewnienia bezpieczeństwa
+   dostaw energii elektrycznej;
+4) w pkt 4 wskazano, że w przypadku, gdy po przeprowadzeniu aukcji głównej operator
+   stwierdzi, że nie będzie zapewnione średnioterminowe lub długoterminowe
+   bezpieczeństwo dostaw energii elektrycznej, przekazuje ministrowi właściwemu do
+   spraw energii: a) rekomendację dotyczącą organizacji aukcji dogrywkowej dla okresu
+   dostaw, którego dotyczyła dana aukcja główna, b) uzasadnienie rekomendacji
+   zawierające   wyniki    analizy bezpieczeństwa     dostaw   energii    elektrycznej   z
+   uwzględnieniem wyników aukcji głównej, c) propozycję parametrów aukcji
+   dogrywkowej, wraz z określeniem terminu na przekazanie ministrowi właściwemu do
+   spraw energii oraz Prezesowi URE najpóźniej do 28 lutego roku następującego po roku
+   przeprowadzenia aukcji głównej. Prezes URE jest zobowiązany do przekazania
+   ministrowi właściwemu do spraw energii parametru, o którym mowa w art. 31 pkt 1
+   ustawy o rynku mocy, w terminie 7 dni od dnia otrzymania propozycji parametrów od
+   operatora. Następnie minister właściwy do spraw energii, po dokonaniu oceny
+   przedłożonych przez operatora rekomendacji, uzasadnienia i propozycji parametrów,
+   może określić w drodze rozporządzenia parametry aukcji dogrywkowej, mając na
+   względzie politykę energetyczną państwa, adekwatność stosowanych parametrów do
+   potrzeb   systemu,     zapewnienie   bezpieczeństwa     systemu,      równoprawne     i
+   niedyskryminacyjne traktowanie dostawców mocy oraz mając na względzie
+   przewidywaną dostępność zdolności przesyłowych oraz ich udział w zapewnieniu
+   bezpieczeństwa dostaw energii elektrycznej. Wydając rozporządzenie, minister do
+   spraw energii zasięga opinii Prezesa URE. Rozporządzenie może być wydane do dnia
+   30 kwietnia roku następującego po roku przeprowadzenia aukcji głównej. Parametrami
+   aukcji dogrywkowej są parametry, o których mowa w art. 32 ust. 1 pkt 1–4, 6 i 7 ustawy
+
+                                         4
+       o rynku mocy. Dodatkowo wprowadzono również aukcję wstępną do aukcji
+       dogrywkowej, która jest prowadzona na zasadach aukcji wstępnej do aukcji głównej i
+       jest organizowana w 2. tygodniu po opublikowaniu rozporządzenia o parametrach
+       aukcji dogrywkowej. W przedmiotowej propozycji doprecyzowano także, że na
+       potrzeby organizacji certyfikacji do aukcji dogrywkowej oraz samej aukcji
+       dogrywkowej, a także do aukcji wstępnej do aukcji dogrywkowej, wykonania
+       obowiązku mocowego powstałego w wyniku umów mocowych zawartych w wyniku
+       aukcji dogrywkowej i umów mocowych zawartych w wyniku aukcji dogrywkowej
+       stosuje się odpowiednio przepisy ustawy o rynku mocy (Dział II–IV), przepisy wydane
+       na podstawie art. 51, 68 i 76 ustawy o rynku mocy oraz postanowienia regulaminu rynku
+       mocy normujące odpowiednio przebieg certyfikacji do aukcji głównej, aukcji głównej
+       i aukcji wstępnej do aukcji głównej, wykonania obowiązku mocowego powstałego w
+       wyniku umów mocowych zawartych w wyniku aukcji głównej i umów mocowych
+       zawartych w wyniku aukcji głównej. Powyższe rozwiązanie legislacyjne jest
+       podyktowane faktem, że aukcja dogrywkowa stanowi w swej istocie powtórzenie aukcji
+       głównej, przy uwzględnieniu zaktualizowanych parametrów aukcji mających na celu
+       zapewnienie pełnej realizacji celów ustawy. Harmonogram certyfikacji do aukcji
+       dogrywkowej oraz termin aukcji dogrywkowej i termin aukcji wstępnej do aukcji
+       dogrywkowej zostanie opublikowany przez operatora w terminie 3 dni od dnia
+       opublikowania rozporządzenia o parametrach aukcji dogrywkowej, co pozwoli na
+       efektywne uczestnictwo w certyfikacji do aukcji dogrywkowej, aukcji dogrywkowej,
+       wykonania obowiązku mocowego powstałego w wyniku umów mocowych zawartych
+       w wyniku aukcji dogrywkowej i umów mocowych zawartych w wyniku aukcji
+       dogrywkowej;
+   5) w pkt 5 zmieniono art. 74 ustawy o rynku mocy, wprowadzając zmianę w sposobie
+       obliczania całkowitego kosztu rynku mocy w danym roku dostaw przez uwzględnienie
+       możliwości przeprowadzenia aukcji dogrywkowych we wzorze, na podstawie którego
+       są wyznaczane stawki opłaty mocowej;
+   6) w pkt 6 zmieniono art. 85 ustawy o rynku mocy, doprecyzowując przepisy o karach
+       pieniężnych dot. nieogłoszenia dat rozpoczęcia i zakończenia certyfikacji do aukcji
+       dogrywkowej, nieogłoszenia daty aukcji wstępnej do aukcji dogrywkowej,
+       nieogłoszenia daty aukcji dogrywkowej oraz niezorganizowania aukcji dogrywkowej.
+
+W art. 2 i 3, jak również w przepisie przejściowym zawartym w art. 5 projektu proponuje się
+
+                                             5
+regulację dotyczącą wydłużenia terminu na przekazanie sprzedawcom energii elektrycznej
+informacji od przedsiębiorców z sektora mikro, małych i średnich przedsiębiorstw o wartości
+udzielonej im pomocy. Informacja jest niezbędna sprzedawcom energii elektrycznej na
+dokonanie weryfikacji, czy pomoc publiczna lub pomoc de minimis wynikająca ze stosowania
+w drugiej połowie 2024 roku ceny maksymalnej nie przekracza dopuszczalnych limitów
+pomocy określonych w prawie UE. Projekt zmian jest korzystny dla mikro, małych i średnich
+przedsiębiorstw i eliminuje ryzyko niedochowania przez przedsiębiorców terminu na
+wykonanie obowiązków ustawowych, ze względu na fakt, że tylko znikomy odsetek
+przedsiębiorców złożył informację o pomocy do swoich sprzedawców energii elektrycznej. Ze
+względu na ryzyko zwrotu pomocy przez przedsiębiorców, którzy nie dochowają terminu na
+złożenie informacji, celowe jest wydłużenie tego terminu.
+
+W konsekwencji dokonania tych zmian niezbędne jest też dostosowanie terminu rozliczenia
+końcowego rekompensat z wydłużeniem terminu na wykonanie przez przedsiębiorców z
+sektora MŚP obowiązków sprawozdawczych z tytułu korzystania z mechanizmu ceny
+maksymalnej w drugiej połowie 2024 r. Przesunięcie terminu z okresu maj–wrzesień 2025 r.
+na okres lipiec–październik 2025 r. pozwoli Zarządcy Rozliczeń na sprawne dokonanie
+rozliczenia końcowego sprzedawców energii za stosowanie mechanizmu ceny maksymalnej w
+drugiej połowie 2024 r., jak i na uniknięcie kumulacji z innymi ustawowymi obowiązkami tego
+podmiotu.
+
+W art. 4 w projektowanym przepisie przejściowym określono procedurę organizacji aukcji
+dogrywkowej na rok dostaw 2029. Mając na względzie przewidywany termin wejścia w życie
+ustawy, byłoby niemożliwe przekazanie przez operatora propozycji parametrów aukcji
+dogrywkowej na rok dostaw 2029, zgodnie z przepisami materialnymi projektu ustawy.
+Określono zatem, że operator przekaże: a) rekomendację dotyczącą organizacji aukcji
+dogrywkowej dla okresu dostaw, którego dotyczyła dana aukcja główna, b) uzasadnienie
+rekomendacji zawierające wyniki analizy bezpieczeństwa dostaw energii elektrycznej z
+uwzględnieniem wyników aukcji głównej, c) propozycję parametrów aukcji dogrywkowej, o
+których mowa w art. 32 ust. 1 pkt 1–4, 6 i 7, w terminie 7 dni od dnia wejścia w życie ustawy.
+
+W art. 6 określono termin wejścia przepisów w życie – po upływie 7 dni od dnia ogłoszenia.
+Wprowadzenie tak krótkiego terminu jest uzasadnione koniecznością pilnego przeprowadzenia
+aukcji dogrywkowej na rok dostaw 2029 w związku z prognozami operatora w zakresie
+problemów z pokryciem zapotrzebowania na moc w 2029 r. i pilnością realizacji inwestycji w
+
+                                              6
+jednostki gazowe.
+
+3. Zgodność z prawem Unii Europejskiej
+
+Projekt jest zgodny z prawem Unii Europejskiej. Projekt ustawy nie stanowi wdrożenia
+przepisów prawa Unii Europejskiej i nie jest związany ze zmianami regulacji Unii Europejskiej.
+Regulacja obejmuje poprawę efektywności procesów rynku mocy będącego programem
+pomocy publicznej zatwierdzonym decyzją Komisji Europejskiej z dnia 7 lutego 2018 r. numer
+SA.46100 (2017/N).
+
+4. Notyfikacja
+
+Projekt ustawy nie podlega procedurze notyfikacji aktów prawnych, określonej w przepisach
+rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania
+krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.).
+
+Projekt ustawy nie wymaga przedstawienia właściwym instytucjom i organom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia projektu.
+
+Projekt aktu nie zawiera wymogów nakładanych na usługodawców, podlegających notyfikacji,
+o której mowa w art. 15 ust. 7 i art. 39 ust. 5 dyrektywy 2006/123/WE Parlamentu
+Europejskiego i Rady z dnia 12 grudnia 2006 r. dotyczącej usług na rynku wewnętrznym (Dz.
+Urz. UE L 376 z 27.12.2006, str. 36).
+
+5. Wpływ na mikroprzedsiębiorców oraz małych i średnich przedsiębiorców
+
+Projekt nie dotyczy majątkowych praw i obowiązków przedsiębiorców lub praw i obowiązków
+przedsiębiorców wobec organów administracji publicznej, ale wpływa na działalność
+podmiotów ją prowadzących, w tym na działalność mikroprzedsiębiorców oraz małych
+i średnich przedsiębiorców, ponieważ wiąże się z planowanym wzrostem kosztów energii
+elektrycznej przenoszonych na rachunku za energię elektryczną (pozycja opłata mocowa)
+w okresie, w którym będą organizowane aukcje dogrywkowe. Jednak wprowadzenie tych
+aukcji pozwala na zwiększenie bezpieczeństwa energetycznego i skuteczności mechanizmu
+rynku mocy w sytuacji, gdy w ramach krajowej oceny wystarczalności zasobów wytwórczych
+albo jej aktualizacji zostanie zidentyfikowana luka mocowa (tj. wystąpi ryzyko braku pełnej
+
+
+                                              7
+wystarczalności zasobów wytwórczych). Szerzej wpływ na poszczególne grupy odbiorców
+energii elektrycznej opisano w OSR.
+
+W zakresie zmian dotyczących wydłużenia terminu na przekazanie sprzedawcom energii
+elektrycznej informacji od przedsiębiorców z sektora mikro, małych i średnich przedsiębiorstw
+o wartości udzielonej im pomocy, z 28 lutego 2025 r. na 30 czerwca 2025 r., są one wyjątkowo
+korzystne dla przedsiębiorców, ponieważ pozwalają na złożenia formularza informacji o
+pomocy do sprzedawców energii elektrycznej w dłuższym okresie czasu.
+
+6. Wejście w życie
+
+Projektowana ustawa, zgodnie z art. 6, wchodzi w życie po upływie 7 dni od dnia ogłoszenia.
+W celu zapewnienia możliwości przeprowadzenia wszystkich procesów niezbędnych dla
+przeprowadzenia aukcji dogrywkowych rynku mocy w terminie zapewniającym możliwość
+zawarcia umów mocowych na rok dostaw 2029 r. w ramach aukcji dogrywkowej, która zostanie
+przeprowadzona w 2025 r., konieczne jest skrócenie terminu wejścia w życie projektowanej
+regulacji. Przedmiotowa regulacja jest oczekiwaną przez sektor energetyki i bezpośrednio
+wpływa na zapewnienie bezpieczeństwa dostaw energii elektrycznej, które to bezpieczeństwo
+jest kluczowe dla funkcjonowania państwa i prowadzenia działalności gospodarczej. Ponadto
+podmioty, do których bezpośrednio jest skierowana ta regulacja, są profesjonalnymi podmiotami
+działającymi w obszarze energetyki, uczestniczącymi w procesie konsultacji i opiniowania, stąd
+projektodawca zakłada termin wejścia w życie jako wystarczający.
+
+
+
+
+                                              8
+                                                                                 Data sporządzenia
+Nazwa projektu
+                                                                                 31.01.2025 r.
+Ustawa o zmianie ustawy o rynku mocy oraz niektórych innych ustaw
+Ministerstwo wiodące i ministerstwa współpracujące                               Źródło
+Minister Klimatu i Środowiska w porozumieniu z Pełnomocnikiem Rządu do
+                                                                                 decyzja Rady Ministrów
+spraw Strategicznej Infrastruktury Energetycznej
+
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Stanu lub
+                                                                                 Nr w Wykazie prac legislacyjnych i
+Podsekretarza Stanu
+                                                                                 programowych Rady Ministrów
+Miłosz Motyka, Podsekretarz Stanu, Ministerstwo Klimatu i Środowiska
+                                                                                 UD190
+Kontakt do opiekuna merytorycznego projektu
+Mirosław Maciąg, Departament Elektroenergetyki,
+miroslaw.maciag@klimat.gov.pl
+                                            OCENA SKUTKÓW REGULACJI
+ 1. Jaki problem jest rozwiązywany?
+Wobec szybkiego spadku nakładów inwestycyjnych na budowę magazynów energii elektrycznej, przy ich ograniczonej pojemności,
+która nie pozwala na dostarczanie energii elektrycznej w sposób ciągły, zachwianiu uległy proporcje mocy kupowanej na rynku mocy.
+Ze względu na neutralność technologiczną mechanizmu, przy braku możliwości dynamicznego uwzględniania malejącej skuteczności
+magazynów energii elektrycznej na potrzeby zapewnienia bezpieczeństwa dostaw energii elektrycznej, doszło do zaburzenia
+równowagi między źródłami wytwórczymi posiadającymi zdolność do dostawy mocy bez ograniczeń czasowych a magazynami energii
+elektrycznej. Z tego powodu zasadne jest wprowadzenie mechanizmu, który pozwoli na przeprowadzenie aukcji dogrywkowych, przy
+uwzględnieniu parametrów uwzględniających wyniki przeprowadzonych aukcji głównych.
+Ponadto, w odniesieniu do systemu wsparcia dla odbiorców w zakresie cen energii elektrycznej, sektor MŚP zobowiązany jest dokonać
+rozliczenia otrzymanej pomocy jako zgodnej z prawem UE i wynikającej ze stosowania w drugiej połowie 2024 roku ceny
+maksymalnej energii elektrycznej. Jednocześnie z powodu braku świadomości tego sektora, w szczególności mikroprzedsiębiorców, o
+konieczności dokonania takiego rozliczenia, jest zasadnym wydłużenie terminu na przekazanie przez przedsiębiorców do swoich
+sprzedawców formularzy informacji o przyznanej pomocy.
+ 2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+W ramach przedmiotowej zmiany ustawy o rynku mocy z dnia 8 grudnia 2017 r. o rynku mocy (Dz. U. z 2023 r. poz. 2131), zwanej
+dalej „ustawą o rynku mocy”, jest wprowadzany mechanizm aukcji dogrywkowych na rynku mocy, który pozwala na powtórzenie
+aukcji głównej albo uzupełnienie umów mocowych zawartych w wyniku rozstrzygniętej aukcji głównej, w przypadku gdy wyniki
+rozstrzygniętej aukcji głównej nie zapewniają możliwości utrzymania bezpieczeństwa dostaw energii elektrycznej do odbiorców
+końcowych.
+Jeżeli po przeprowadzeniu aukcji głównej albo jej unieważnieniu operator systemu przesyłowego stwierdzi, że nie będzie zapewnione
+średnioterminowe lub długoterminowe bezpieczeństwo dostaw energii elektrycznej, będzie miał możliwość dokonania zgłoszenia do
+ministra właściwego do spraw energii potrzeby organizacji aukcji dogrywkowej dla okresu dostaw, którego dotyczyła dana aukcja
+główna. Sposób przeprowadzenia aukcji oraz procesy niezbędne do udziału w aukcji wpisują się w zasady dotyczące pozostałych aukcji
+funkcjonujących obecnie w ramach rynku mocy zatwierdzonego decyzją Komisji Europejskiej numer SA.46100 C(2018)601 final.
+Projektodawca przewiduje przeprowadzenie aukcji dogrywkowej na rok dostaw 2029 oraz możliwość przeprowadzenia takiej aukcji
+dogrywkowej na rok dostaw 2030.
+Dodatkowo projekt wprowadza rozwiązanie w zakresie rozliczeń pomocy publicznej dotyczącej cen energii elektrycznej dla sektora MŚP,
+tj. mechanizmu ceny maksymalnej energii elektrycznej w drugiej połowie 2024 r. W projekcie przewidziano wydłużenie terminu na
+przekazanie do sprzedawcy energii elektrycznej formularza informacji o pomocy z 28.02.2025 r. do dnia 30.06.2025 r. Jednocześnie do
+tej zmiany w projekcie wprowadza się odpowiednie wydłużenie terminu na złożenie przez sprzedawców do Zarządcy Rozliczeń wniosków
+o rozliczenie końcowe rekompensat z tytułu stosowania mechanizmu ceny maksymalnej w drugiej połowie 2024 r.
+ 3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Ze względu na kształt krajowego miksu elektroenergetycznego oraz skalę wyzwań związanych z transformacją sektora elektroenergetyki
+rozwiązywany niniejszą ustawą problem nie występuje w porównywalnej skali w żadnym innym kraju. Mając na uwadze powyższe oraz
+to, że problem został spotęgowany bardzo szybkim spadkiem kosztów bateryjnych magazynów energii elektrycznej obserwowanym w
+ostatnich dwóch latach – brak jest referencyjnych rozwiązań lub doświadczeń stosowanych w innych krajach.
+4. Podmioty, na które oddziałuje projekt
+            Grupa                       Wielkość                      Źródło danych                        Oddziaływanie
+Operator systemu                1                           ustawa – Prawo energetyczne          OSP przeprowadza aukcje
+przesyłowego                                                                                     dogrywkowe i proces certyfikacji,
+elektroenergetycznego (OSP)                                                                      sprawdza wykonanie obowiązków
+                                                                                                 mocowych
+Prezes URE                      1                           ustawa – Prawo energetyczne          Prezes URE zatwierdza wyniki
+                                                                                                 aukcji dogrywkowej oraz kalkuluje
+                                                                                                 opłatę mocową
+Zarządca Rozliczeń S.A.         1                           ustawa o rynku mocy                  Zarządca Rozliczeń S.A. dokonuje
+                                                                                                 rozliczeń finansowych rynku
+                                                                                                 mocy, w tym dotyczących umów
+                                                                                                 mocowych zawartych w toku
+                                                                                                 aukcji dogrywkowych
+wytwórcy energii elektrycznej     1159                           rejestry URE                              Wytwórcy mogą uczestniczyć w
+                                                                 https://rejestry.ure.gov.pl/c/1           aukcjach dogrywkowych i zawrzeć
+                                                                                                           umowę mocową oraz mają
+                                                                                                           obowiązek dostaw mocy w
+                                                                                                           przypadku zawarcia umowy
+                                                                                                           mocowej
+DSR i magazyny energii            ok. 2000                       rejestr rynku mocy                        DSR i magazyny mogą
+                                                                                                           uczestniczyć w aukcjach
+                                                                                                           dogrywkowych i zawrzeć
+                                                                                                           umowę mocową oraz mają
+                                                                                                           obowiązek dostaw mocy w
+                                                                                                           przypadku zawarcia umowy
+                                                                                                           mocowej
+operatorzy systemów               196                            rejestry URE                              OSD uczestniczą w weryfikowaniu
+dystrybucyjnych                                                  https://rejestry.ure.gov.pl/c/1           danych pomiarowych uczestników
+elektroenergetycznych                                                                                      rynku mocy przyłączonych do ich
+                                                                                                           sieci oraz przekazują informacje na
+                                                                                                           potrzeby rozliczeń rynku mocy
+odbiorcy końcowi energii          Ok. 17,5 mln                   sprawozdanie Prezesa URE za               Odbiorcy końcowi energii
+elektrycznej1                                                    2023 r.                                   elektrycznej uzyskują zapewnienie
+                                                                                                           bezpieczeństwa energetycznego;
+                                                                                                           pokrywają koszty rynku mocy w
+                                                                                                           ramach opłaty mocowej będącej
+                                                                                                           składową rachunku za energię
+                                                                                                           elektryczną
+podmioty zagraniczne              8 operatorów systemów          brak danych                               Podmioty z zagranicy mogą
+                                  przesyłowych z                                                           uczestniczyć w aukcjach
+                                  sąsiednich systemów                                                      dogrywkowych i zawrzeć umowę
+                                  elektroenergetycznych                                                    mocową oraz mają obowiązek
+                                  i nieznana liczba                                                        dostaw mocy w przypadku
+                                  podmiotów, które mogą                                                    zawarcia umowy mocowej
+                                  zgłosić się jako dostawcy
+                                  mocy zlokalizowani w
+                                  sąsiednich systemach
+ 5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt, zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248,
+z późn. zm.) i § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r.
+poz. 806), został udostępniony w Biuletynie Informacji Publicznej, na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie
+Rządowy Proces Legislacyjny.
+Ze względu na pilny charakter regulacji projekt nie został przekazany do konsultacji, opiniowania, uzgodnień międzyresortowych,
+opiniowania przez reprezentatywne organizacje pracodawców i związków zawodowych.
+Odstąpienie od uzgodnień, opiniowania i konsultacji wynika z konieczności pilnego przyjęcia ustawy tak, aby aukcja dogrywkowa na
+2029 r. została przeprowadzona w I połowie 2025 r.
+Projekt został przekazany do Komisji Wspólnej Rządu i Samorządu Terytorialnego, gdyż dotyczy spraw związanych z samorządem
+terytorialnym, o których mowa w ustawie z dnia 6 maja 2005 r. o Komisji Wspólnej Rządu i Samorządu Terytorialnego oraz o
+przedstawicielach Rzeczypospolitej Polskiej w Komitecie Regionów Unii Europejskiej (Dz. U. z 2024 r. poz. 949).
+Projekt nie dotyczy spraw, o których mowa w art. 1 ustawy z dnia 24 lipca 2015 r. o Radzie Dialogu Społecznego i innych instytucjach
+dialogu społecznego (Dz. U. z 2018 r. poz. 2232, z późn. zm.), wobec czego nie wymagał zaopiniowania przez Radę Dialogu Społecznego.
+Projekt nie dotyczy spraw, o których mowa w art. 35 ust. 2 pkt 2 ustawy z dnia 24 kwietnia 2003 r. o działalności pożytku publicznego i
+o wolontariacie (Dz. U. z 2024 r. poz. 1491 z późn. zm.), wobec czego nie wymagał zaopiniowania przez Radę Działalności Pożytku
+Publicznego.
+Projekt ustawy nie wymaga przedstawienia innym instytucjom i organom Unii Europejskiej, w tym Europejskiemu Bankowi Centralnemu,
+w celu uzyskania opinii, dokonania powiadomienia, konsultacji albo uzgodnienia projektu.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2025 r.)                                       Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                          0       1      2       3      4      5       6      7     8      9     10           Łącznie (0-10)
+Dochody ogółem                            0       0      0       0       0      0       0          0   0        0      0            0
+budżet państwa                            0       0      0       0       0      0       0          0   0        0      0             0
+JST                                       0       0      0       0       0      0       0          0   0        0      0             0
+
+
+
+1 W grupie odbiorcy końcowi uwzględniono wszystkich odbiorców końcowych niezależnie od ich charakteru (tj. m.in. gospodarstwa domowe,
+
+podmioty prowadzące działalność gospodarczą niezależnie od wielkości, podmioty sektora finansów publicznych, itd.).
+                                                                     2
+pozostałe jednostki (oddzielnie)        0      0       0     0            0      0      0          0      0        0        0          0
+                                        0      0       0     0           154,   88,1   88,1       88,1   88,1     88,1    88,1       682,7
+Wydatki ogółem
+                                                                          1
+budżet państwa                          0      0       0     0           39,5   22,6   22,6       22,6   22,6     22,6    22,6       175,1
+
+JST                                     0      0       0     0           49,4   28,2   28,2       28,2   28,2     28,2    28,2       218,6
+
+pozostałe jednostki (oddzielnie)        0      0       0     0           65,2   37,3   37,3       37,3   37,3     37,3    37,3       289,0
+                                        0      0       0     0        -      -      -       -    -      -      -         -682,7
+Saldo ogółem                                                         154, 88,1 88,1 88,1 88,1 88,1 88,1
+                                                                      1
+                                        0       0       0      0      -      -      -       -    -      -      -         -175,1
+budżet państwa
+                                                                     39,5 22,6 22,6 22,6 22,6 22,6 22,6
+                                        0       0       0      0      -      -      -       -    -      -      -         -218,6
+JST
+                                                                     49,4 28,2 28,2 28,2 28,2 28,2 28,2
+                                        0       0       0      0      -      -      -       -    -      -      -         -289,0
+pozostałe jednostki (oddzielnie)
+                                                                     65,2 37,3 37,3 37,3 37,3 37,3 37,3
+                            Źródłem finansowania obowiązków mocowych uzyskanych w ramach aukcji dogrywkowych jest opłata
+                            mocowa, która jest ponoszona przez odbiorców energii elektrycznej i jest jedną z opłat na rachunku
+                            odbiorcy końcowego. Zasady pobierania opłaty mocowej oraz jej kalkulacji regulują przepisy Rozdziału 3
+Źródła finansowania         (w Dziale III) ustawy o rynku mocy. Wzrost kosztów opłaty mocowej dla jednostek budżetowych, JST i
+                            pozostałych jednostek powinien zostać ujęty w budżetach podmiotów zużywających energię elektryczną
+                            stosownie do poziomu jej zużycia w godzinach szczytowych. Zwiększone wydatki będą finansowane z
+                            budżetów tych jednostek bez możliwości ubiegania się o dodatkowe środki z budżetu państwa.
+Dodatkowe informacje,       Aktualnie przewiduje się organizację aukcji dogrywkowej na 2029 r. i możliwość przeprowadzenia aukcji
+w tym wskazanie źródeł      dogrywkowej również na 2030 r. Przedstawione obliczenia nie obejmują aukcji dogrywkowej na 2030 r.
+danych i przyjętych do      ze względu na to, że nie jest pewne, czy będzie konieczność przeprowadzenia aukcji dogrywkowej na 2030
+obliczeń założeń            r.
+                            Za rok 0 przyjęto 2025 r., czyli rok wejścia w życie regulacji. Wpływ na budżet państwa, JST i pozostałe
+                            jednostki przedstawiono jako przewidywany wzrost opłaty mocowej dla tych podmiotów w związku z
+                            zawarciem umów mocowych w ramach aukcji dogrywkowej. Podział kosztów między sektor publiczny i
+                            prywatny został wskazany w pkt 7. Zasady pobierania opłaty mocowej oraz jej kalkulacji regulują przepisy
+                            Rozdziału 3 (w Dziale III) ustawy o rynku mocy.
+7.    Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz na rodzinę,
+      obywateli i gospodarstwa domowe
+                                                                 Skutki
+Czas w latach od wejścia w życie zmian             0             1               2            3            5               10     Łącznie (0-10)
+W ujęciu           duże przedsiębiorstwa           0             0               0            0          1556,4          889,4       6890,8
+pieniężnym         sektor mikro-, małych i         0             0               0            0          -878,4          -501,9      -3889,8
+(w mln zł,         średnich przedsiębiorstw
+ceny stałe z 2025 rodzina, obywatele oraz          0             0               0            0          -529,8          -302,7      -2346,0
+r.)                gospodarstwa domowe
+                   osoby niepełnosprawne
+                   oraz osoby starsze
+W ujęciu           duże przedsiębiorstwa       • bezpieczeństwo dostaw energii elektrycznej i stabilne warunki do rozwoju przemysłu
+niepieniężnym                                  w związku z utrzymaniem funkcjonowania rynku mocy,
+                                               • możliwość przeprowadzenia transformacji energetycznej i kontynuacji działalności w
+                                               zakresie wytwarzania energii elektrycznej w oparciu o inne paliwo,
+                                               • poprawa rentowności strony popytowej (DSR) przez możliwość udziału w rynku mocy
+                                               DSR i uzyskanie wynagrodzenia za dostawę mocy do Krajowego Systemu
+                                               Energetycznego przez czasowe ograniczenie mocy pobieranej z sieci (redukcja DSR);
+                    sektor mikro-, małych i    bezpieczeństwo dostaw energii elektrycznej i stabilne warunki do rozwoju przemysłu;
+                    średnich przedsiębiorstw   pozytywny wpływ związany z wydłużeniem terminu na rozliczenie otrzymanej
+                                               pomocy za stosowanie mechanizmu ceny maksymalnej w II p. 2024 r.;
+                    rodzina, obywatele oraz    • wzrost bezpieczeństwa dostaw rozumianego jako niezawodność fizycznych dostaw
+                    gospodarstwa domowe        energii oraz brak gwałtownych wahań cenowych energii elektrycznej,
+                                               • ograniczenie wzrostu cen produktów konsumpcyjnych wywołanego wzrostem
+                                               kosztów dla producentów towarów i dostawców usług;
+                    osoby niepełnosprawne i    nie przewiduje się innego wpływu niż określony dla rodzin, obywateli oraz gospodarstw
+                    osoby starsze              domowych;
+Niemierzalne        odbiorcy energii           utrzymanie prawidłowego funkcjonowania mechanizmu rynku mocy gwarantującego
+                    elektrycznej               bezpieczeństwo dostaw energii elektrycznej do odbiorców przy równoczesnym
+
+
+
+                                                                     3
+                   wytwórcy energii             zapewnieniu sygnałów inwestycyjnych dla wytwórców energii elektrycznej,
+                   elektrycznej, magazyny       magazynów energii i DSR.
+                   energii i DSR
+Dodatkowe informacje,       Za rok 0 przyjęto 2025 r., czyli rok wejścia w życie projektowanej regulacji. Źródłem finansowania
+w tym wskazanie źródeł      obowiązków mocowych uzyskanych w ramach aukcji dogrywkowych jest opłata mocowa, która jest
+danych i przyjętych do      ponoszona przez odbiorców energii elektrycznej i jest jedną z opłat dodatkowych na rachunku odbiorcy
+obliczeń założeń            końcowego. Zasady pobierania opłaty mocowej oraz jej kalkulacji regulują przepisy Rozdziału 3 (w Dziale
+                            III) ustawy o rynku mocy. Wyliczenia dotyczące wpływu na gospodarkę w kolejnych latach (2026–2035)
+                            zostały przeprowadzone w oparciu o przewidywaną wartość umów mocowych wynikających z aukcji
+                            dogrywkowych (na rok dostaw 2029 i w latach kolejnych w przypadku umów wieloletnich). Przewiduje
+                            się organizację aukcji dogrywkowej na 2029 r. i możliwość przeprowadzenia również na 2030 r., ale nie
+                            jest pewne, czy będzie konieczność przeprowadzenia tej aukcji, w związku z tym przedstawione obliczenia
+                            nie obejmują aukcji dogrywkowej na 2030 r. Przewidywany koszt został zaprezentowany w tabeli poniżej:
+
+                            Rok                   2025   2026    2027   2028    2029   2030    2031    2032   2033    2034   2035
+                            Wartość  umów           0      0      0      0      1878   1073    1073    1073   1073    1073   1073
+                            mocowych, mln                                        ,8     ,6      ,6      ,6     ,6      ,6     ,6
+                            PLN
+
+                           Powyższe koszty, w rozbiciu rocznym, zostały oszacowane na podstawie szacowanego poziomu wolumenu
+                           mocy nabywanego w ramach aukcji dogrywkowej na rok dostaw 2029 oraz szacowanej ceny zamknięcia
+                           aukcji dogrywkowej. Wolumen mocy został oszacowany na podstawie symulacji ekonomicznych
+                           odstawień jednostek wytwórczych wykonanych przez operatora, szacowanych kosztów projektów
+                           jednostek wytwórczych, magazynów energii i DSR, w oparciu o metody analizy techniczno-ekonomicznej
+                           wykorzystanej do przygotowania NRAA. Ostateczna wartość wolumenu będzie podlegać aktualizacji
+                           przed aukcją dogrywkową, biorąc pod uwagę najbardziej aktualne dane dotyczące zapotrzebowania i luki
+                           mocowej. Cena zamknięcia aukcji została oszacowana na podstawie cen zamknięcia ostatnich aukcji rynku
+                           mocy i spodziewanych relacji między popytem a podażą. Ostatecznie koszty obliczono jako iloczyn
+                           oczekiwanego wolumenu nabywanego w toku aukcji dogrywkowej oraz szacowanej ceny zamknięcia tej
+                           aukcji. Przekłada się to na zmianę wysokości opłaty mocowej w związku z przeprowadzeniem aukcji
+                           dogrywkowej. Oszacowanie kosztów wprowadzanej regulacji zostało oparte o kalkulację całkowitego
+                           kosztu aukcji dogrywkowej we wskazanym okresie.
+
+                           Przedstawione w tabeli powyżej koszty wzrostu opłaty mocowej będą konsekwencją wprowadzenia
+                           projektowaną ustawą aukcji dogrywkowej rynku mocy od roku 2029. W konsekwencji całkowity koszt
+                           rynku mocy, przenoszony w opłacie mocowej na odbiorców, będzie stanowić sumę kosztów
+                           dotychczasowego mechanizmu rynku mocy obowiązującego od 2017 r. oraz kosztu projektowanej aukcji
+                           dogrywkowej.
+                           Przyjęto, że całość przychodów z umów zawartych w toku aukcji dogrywkowych zostanie uzyskana przez
+                           duże przedsiębiorstwa, lub spółki zależne od dużych przedsiębiorstw. Umowy mocowe mogą być zawarte
+                           przez dostawców mocy, którzy w większości wchodzą w skład przedsiębiorstw energetycznych będących
+                           dużymi przedsiębiorstwami. Szacowane koszty wzrostu opłaty mocowej dla poszczególnych grup
+                           odbiorców końcowych skalkulowano, biorąc pod uwagę grupę taryfową, do której należą szacowane
+                           średnie zużycie energii elektrycznej oraz szacowane zużycie energii elektrycznej w godzinach
+                           szczytowych. Szczegóły obliczeń przedstawiono poniżej. Na potrzeby obliczeń dla poszczególnych lat
+                           przyjęto wielkości mocy, które podlegają obniżonej opłacie mocowej w grupach K1–K3 analogicznie do
+                           założeń przedstawionych w OSR ustawy z dnia 23 lipca 2021 r. o zmianie ustawy o rynku mocy oraz
+                           niektórych innych ustaw. Przyjęto, że zmiana sposobu rozliczania odbiorców w roku 2029 nie wpłynie w
+                           sposób znaczący na rozkład kosztów między poszczególnymi grupami odbiorców. Założono, że koszt
+                           ponoszony przez JST i pozostałe jednostki jest proporcjonalny do ich zużycia energii elektrycznej w
+                           całkowitym zużyciu, przyjmując strukturę zużycia analogiczną do sektora MŚP. Przyjęto założenia z OSR
+                           ustawy z dnia 8 grudnia 2017 r. o rynku mocy, zgodnie z którym JST odpowiadają za 2,7 % całkowitego
+                           zużycia energii elektrycznej przez odbiorców końcowych. Założono, że zużycie energii elektrycznej w
+                           sektorze budżetowym oraz w pozostałych jednostkach jest sumarycznie dwukrotnie wyższe niż zużycie
+                           energii elektrycznej przez JST i stanowi odpowiednio 80,1 % zużycia JST w przypadku sektora
+                           budżetowego i 119,9 % zużycia JST w przypadku pozostałych jednostek. Przyjęto zużycie energii
+                           elektrycznej w dużych przedsiębiorstwach jako zużycie energii elektrycznej grupy taryfowej A, z kolei
+                           MŚP i JST jako zużycie grup taryfowych B i C. W przypadku gospodarstw domowych przyjęto zużycie
+                           grupy taryfowej G.
+                           Wartości przedstawione w tabeli wpływu są wartościami netto. Wartości ujemne oznaczają koszt, a
+                           dodatnie przychód. Ponieważ ustawa nie wpływa w sposób odmienny na sytuację osób niepełnosprawnych
+                           i osób starszych, wpływ na te osoby nie został wyodrębniony, a zawiera się we wpływie na obywateli oraz
+                           gospodarstwa domowe.
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+
+                                                                4
+Wprowadzane są obciążenia poza bezwzględnie wymaganymi            tak
+przez UE (szczegóły w odwróconej tabeli zgodności).               nie
+                                                                  nie dotyczy
+    zmniejszenie liczby dokumentów                                zwiększenie liczby dokumentów
+    zmniejszenie liczby procedur                                  zwiększenie liczby procedur
+    skrócenie czasu na załatwienie sprawy                         wydłużenie czasu na załatwienie sprawy
+    inne:                                                         inne:
+Wprowadzane obciążenia są przystosowane do ich                    tak
+elektronizacji.                                                   nie
+                                                                  nie dotyczy
+Komentarz:
+W związku z tym, że aukcje dogrywkowe są dodatkowym procesem w ramach rynku mocy, przyniosą one dodatkowe procedury
+związane z procesem organizacji aukcji dogrywkowych oraz konieczność wypełnienia dodatkowych dokumentów. Stąd uczestnicy
+rynku mocy biorący udział w aukcjach dogrywkowych, OSP i OSD oraz Prezes URE i minister właściwy do spraw energii będą mierzyć
+się ze zwiększoną ilością dokumentów i procedur. Procesy te będą zelektronizowane i będą funkcjonować na zasadach tożsamych do
+aktualnie prowadzonych procesów i wypełnianej dokumentacji.
+9. Wpływ na rynek pracy
+Wpływ na rynek pracy jest trudny do oszacowania. Wprowadzenie aukcji dogrywkowych na rynku mocy zwiększa bezpieczeństwo
+dostaw energii elektrycznej, co poprawia warunki prowadzenia działalności gospodarczej, a tym samym wpływa pozytywnie na rynek
+pracy. Zawarcie umów mocowych w ramach aukcji dogrywkowych przez uczestników rynku mocy będzie mieć pozytywny wpływ na
+zatrudnienie pracowników obsługujących te jednostki.
+Jednocześnie należy mieć na uwadze, że wszyscy odbiorcy końcowi poniosą koszty w ramach opłaty mocowej, co może wpłynąć na
+koszty prowadzenia działalności gospodarczej i tym samym na rynek pracy.
+10. Wpływ na pozostałe obszary
+   środowisko naturalne                      demografia                                    informatyzacja
+   sytuacja i rozwój regionalny              mienie państwowe                              zdrowie
+   sądy powszechne, administracyjne lub      inne:
+wojskowe
+Omówienie wpływu           Brak wpływu poza opisanym powyżej.
+11. Planowane wykonanie przepisów aktu prawnego
+Proponuje się, aby ustawa weszła w życie po upływie 7 dni od dnia ogłoszenia.
+W celu zapewnienia możliwości przeprowadzenia wszystkich procesów niezbędnych dla przeprowadzenia aukcji dogrywkowych rynku
+mocy w terminie zapewniającym możliwość zawarcia umów na rok dostaw 2029 jest konieczne skrócenie terminu wejścia w życie
+projektowanej regulacji. Przedmiotowa regulacja jest oczekiwana przez sektor energetyki i bezpośrednio wpływa na zapewnienie
+bezpieczeństwa dostaw energii elektrycznej, które to bezpieczeństwo jest kluczowe dla funkcjonowania państwa i prowadzenia
+działalności gospodarczej.
+Podmioty, do których bezpośrednio jest skierowana regulacja, są podmiotami profesjonalnymi działającymi w obszarze energetyki,
+uczestniczącymi w procesie konsultacji i opiniowania, stąd projektodawca zakłada termin wejścia w życie jako wystarczający.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Ewaluacja efektów projektu nastąpi po zakończeniu funkcjonowania rynku mocy zgodnie z zasadami ewaluacji mechanizmu określonymi
+dla ustawy z dnia 8 grudnia 2017 r. o rynku mocy.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                              5
+                                                                                                         Projekt
+
+
+                                      ROZPORZĄDZENIE
+
+                    M I N I S T R A K L I M A T U I Ś R O D O W I S K A 1)
+
+                                                      z dnia
+
+     w sprawie parametrów aukcji dogrywkowej dla roku dostaw 2029 oraz parametrów
+                                       aukcji wstępnej do tej aukcji
+
+
+       Na podstawie art. 39a ust. 4 ustawy z dnia 8 grudnia 2017 r. o rynku mocy (Dz. U. z
+2023 r. poz. 2131, oraz z 2025 r. poz. … i …) zarządza się, co następuje:
+
+                                                   Rozdział 1
+
+     Parametry aukcji dogrywkowej na rok dostaw 2029 i aukcji wstępnej do tej aukcji
+
+       § 1. Zapotrzebowanie na moc w aukcji dogrywkowej dla okresu dostaw przypadającego
+na rok 2029 wynosi … MW.
+
+       § 2. Cena wejścia na rynek nowej jednostki wytwórczej, odzwierciedlająca alternatywny
+koszt pozyskania mocy przez operatora przez budowę jednostki wytwórczej o najniższych
+operacyjnych i kapitałowych kosztach stałych, z uwzględnieniem potencjalnej marży na
+sprzedaży energii elektrycznej i świadczeniu usług systemowych, o których mowa w art. 9c
+ust. 2 pkt 8 ustawy z dnia 10 kwietnia 1997 r. – Prawo energetyczne (Dz. U. 2024 poz. 266,
+834 i 859), w aukcji dogrywkowej dla okresu dostaw przypadającego na rok 2029 wynosi … .
+
+       § 3. Współczynnik zwiększający cenę, o której mowa w § 2, służący do wyznaczenia ceny
+maksymalnej obowiązującej w aukcji dogrywkowej dla okresu dostaw przypadającego na rok
+2029 wynosi … .
+
+       § 4. Parametr wyznaczający wielkość mocy poniżej zapotrzebowania na moc w aukcji
+dogrywkowej, dla której cena osiąga wartość maksymalną uwzględniającą współczynnik, o
+którym mowa w § 3, dla okresu dostaw przypadającego na rok 2029 wynosi … .
+
+
+
+
+1)
+     Minister Klimatu i Środowiska kieruje działem administracji rządowej – energia, na podstawie § 1 ust. 2 pkt 1
+     rozporządzenia Prezesa Rady Ministrów z dnia 19 grudnia 2023 r. w sprawie szczegółowego zakresu działania
+     Ministra Klimatu i Środowiska (Dz. U. poz. 2726).
+                                           –2–
+
+
+     § 5. Parametr wyznaczający wielkość mocy ponad zapotrzebowanie na moc w aukcji
+dogrywkowej, dla której cena osiąga wartość minimalną równą 0,01 zł/kW/miesiąc, dla okresu
+dostaw przypadającego na rok 2029 wynosi … %.
+
+     § 6. Cena maksymalna określona dla cenobiorcy, wyznaczona na podstawie kapitałowych
+i operacyjnych kosztów stałych, w aukcji dogrywkowej dla okresu dostaw przypadającego na
+rok 2029 wynosi … zł/kW.
+
+     § 7. Maksymalna liczba rund aukcji dogrywkowej dla okresu dostaw przypadającego na
+rok 2029 wynosi … .
+
+     § 8. Jednostkowy poziom nakładów inwestycyjnych netto odniesiony do mocy osiągalnej
+netto, uprawniający do oferowania obowiązków mocowych w aukcji dogrywkowej dla okresu
+dostaw przypadającego na rok 2029 na nie więcej niż:
+1)   15 okresów dostaw przez nową jednostkę rynku mocy wytwórczą, wynosi … zł/kW;
+2)   5 okresów dostaw przez nową i modernizowaną jednostkę rynku mocy wytwórczą albo
+     jednostkę rynku mocy redukcji zapotrzebowania, wynosi … zł/kW.
+
+     § 9. Korekcyjne współczynniki dyspozycyjności dla poszczególnych grup technologii dla
+aukcji dogrywkowej dla okresu dostaw przypadającego na rok 2029 określa się na poziomie:
+1)   … % – dla turbin parowych, układów turbin parowych, turbin powietrznych, ogniw
+     paliwowych oraz organicznego cyklu Rankine'a;
+2)   … % – dla układów gazowo-parowych;
+3)   … % – dla turbin gazowych pracujących w cyklu prostym oraz silników tłokowych;
+4)   … % – dla elektrowni wiatrowych na lądzie;
+5)   … % – dla morskich farm wiatrowych;
+6)   … % – dla elektrowni wodnych przepływowych;
+7)   … % – dla elektrowni wodnych zbiornikowo-przepływowych, zbiornikowych z członem
+     pompowym oraz zbiornikowo-przepływowych z członem pompowym;
+8)   … % – dla elektrowni słonecznych;
+9)   … % – dla magazynów energii elektrycznej w postaci akumulatorów, kinetycznych
+     zasobników energii i superkondensatorów;
+10) … % – dla bloków jądrowych;
+11) … % – dla jednostek redukcji zapotrzebowania;
+12) … % – dla pozostałych rodzajów technologii.
+                                           –3–
+
+
+     § 10. Maksymalne wolumeny obowiązków mocowych dla stref, o których mowa
+w art. 6 ust. 6 ustawy z dnia 8 grudnia 2017 r. o rynku mocy, dla aukcji dogrywkowej oraz
+aukcji wstępnej do tej aukcji, dla okresu dostaw przypadającego na rok 2029 wynoszą:
+1)   … MW – dla strefy profilu synchronicznego;
+2)   … MW – dla Litwy;
+3)   … MW – dla Szwecji.
+
+                                        Rozdział 2
+
+                                    Przepis końcowy
+
+     § 11. Rozporządzenie wchodzi w życie z dniem następującym po dniu ogłoszenia.
+
+
+                                             M I N I S T E R K L I M AT U
+                                                 I ŚRODOWISKA
+                                       U ZASADNIENIE
+
+
+1.       Potrzeba i cel wydania rozporządzenia
+Projektowane rozporządzenie stanowi wypełnienie upoważnienia ustawowego zawartego w art.
+39a ust. 4 ustawy z dnia 8 grudnia 2017 r. o rynku mocy (Dz. U. z 2023 r. poz. 2131, oraz z
+2025 r. poz. … i …), zwanej dalej „ustawą”. Zgodnie z przedmiotowym przepisem, Minister
+Klimatu i Środowiska, po zasięgnięciu opinii Prezesa Urzędu Regulacji Energetyki, zwanego
+dalej „Prezesem URE”, określa, w drodze rozporządzenia, parametry aukcji dogrywkowej,
+biorąc pod uwagę politykę energetyczną państwa, adekwatność stosowanych parametrów do
+potrzeb systemu, zapewnienie bezpieczeństwa systemu, równoprawne i niedyskryminacyjne
+traktowanie dostawców mocy oraz mając na względzie przewidywaną dostępność zdolności
+przesyłowych oraz ich udział w zapewnieniu bezpieczeństwa dostaw energii elektrycznej.
+Projektowane rozporządzenie określające parametry aukcji jest aktem prawnym, który zgodnie
+z art. 39 ust. 4 ustawy jest wydawany nie później niż w terminie do dnia 30 kwietnia roku
+następującego po roku przeprowadzenia aukcji głównej. Projektowane rozporządzenie ma na
+celu określenie parametrów aukcji dogrywkowej dla roku dostaw 2029, która zostanie
+przeprowadzona w roku 2025.
+2.       Szczegółowe uzasadnienie przyjętych parametrów
+Zapotrzebowanie na moc w aukcji to wolumen mocy, jaki powinien zostać zakupiony na dany
+okres dostaw tak, aby spełniony był standard bezpieczeństwa dostaw energii elektrycznej
+określony w rozporządzeniu Ministra Energii z dnia 18 lipca 2018 r. w sprawie wykonania
+obowiązku mocowego, jego rozliczania i demonstrowania oraz zawierania transakcji na rynku
+wtórnym (Dz. U. poz. 1455). Standard ten, rozumiany jako dopuszczalny oczekiwany czas
+braku pokrycia zapotrzebowania na moc elektryczną odbiorców końcowych powiększonego
+o wymaganą rezerwę mocy, został określony na 3 godziny w roku.
+W celu określenia wielkości zapotrzebowania na moc w aukcji dokonano obliczeń
+historycznego krajowego zapotrzebowania sieci (zapotrzebowania odbiorców), które nie
+uwzględnia potrzeb własnych jednostek wytwórczych. Następnie opracowano prognozy
+zapotrzebowania sieci na rok 2029. Prognoza zapotrzebowania została przygotowana na
+podstawie modelu dobowego zużycia energii opracowanego na podstawie zmian historycznego
+zużycia sprowadzonego do wspólnego kalendarza oraz roku klimatycznego. W ostatecznych
+wynikach uwzględniono dodatkowo rozwój rynku pomp ciepła, pojazdów elektrycznych, data
+center i zapotrzebowania na energię elektryczną do produkcji wodoru.
+Zapotrzebowanie sieci, którego prognozy na rok 2029 wskazano powyżej, nie jest tożsame z
+zapotrzebowaniem brutto Krajowego Systemu Elektroenergetycznego, zwanego dalej „KSE”,
+które jest określone na podstawie sumy pomiarów generacji jednostek wytwórczych w KSE,
+z uwzględnieniem salda wymiany międzynarodowej. Zatem porównywanie ww. wielkości
+z publikowanymi przez OSP na stronie internetowej zapotrzebowaniem KSE może prowadzić
+do błędnych wniosków.
+Zapotrzebowanie sieci w roku 2029 wyliczone przez PSE wyniosło dla poszczególnych
+kwartałów w wariancie przyjętym w projektowanym rozporządzeniu:
+     •   I kwartał – … MW,
+      •    II kwartał – … MW,
+      •    III kwartał – … MW,
+      •    IV kwartał – … MW.
+Rynek mocy jest bardzo ważnym elementem polskiego systemu elektroenergetycznego
+mającego na celu zapewnienie bezpieczeństwa dostaw energii elektrycznej do odbiorców
+w horyzoncie długoterminowym. Sytuacją oczywistą jest, że im więcej mocy zostanie
+zakupione na aukcji mocy, tym mniejsze zagrożenie wystąpi dla poprawności bilansu mocy
+w KSE. Niemniej jednak rynek mocy nie może prowadzić do przewymiarowania KSE, a tym
+samym przenosić nadmiarowych kosztów funkcjonowania tego mechanizmu na odbiorców
+energii elektrycznej w kraju. Oznacza to m.in., że przy określaniu parametrów aukcji
+dogrywkowej należy prawidłowo uwzględnić rozwój źródeł wytwórczych korzystających z
+innych systemów wsparcia.
+Zapotrzebowanie na moc w aukcji dogrywkowej zostało wyznaczone na podstawie wyników
+probabilistycznej oceny wystarczalności, w ramach której przeprowadzone zostały analizy
+określonych wariantów założeń oraz zadanych scenariuszy w ramach tych wariantów.
+Warianty założeń obejmują:
+  •       moc osiągalną źródeł wytwórczych niebiorących udziału w rynku mocy,
+  •       występowanie strukturalnych ubytków mocy dyspozycyjnej w wyniku ograniczeń pracy
+          sieci lub trwałych niedyspozycyjności źródeł wytwórczych.
+Scenariusze w ramach wariantów dotyczą występowania lat klimatycznych i obejmują:
+  •       roczny, godzinowy profil temperatury i związaną z tym sensytywność termiczną
+          zapotrzebowania na moc i energię elektryczną,
+  •       roczny, godzinowy profil współczynników wykorzystania mocy źródeł niesterowalnych,
+          takich jak elektrownie wiatrowe lądowe i morskie, elektrownie fotowoltaiczne.
+Prognozowane zapotrzebowanie na moc w aukcji zostało wyznaczone odrębnie dla każdego
+kwartału roku dostaw. Kwartał o najniższym zapotrzebowaniu na moc wyznaczył
+zapotrzebowanie na moc w aukcji głównej. Otrzymane zapotrzebowanie na moc w aukcji
+głównej zostało pomniejszone o wielkość umów zawartych na aukcjach głównych
+przeprowadzonych do roku …, które obejmują rok dostaw 2029 – na poziomie …MW.
+Następnie zapotrzebowanie zostało obniżone o szacowaną moc jednostek niespełniających
+limitu 550 gCO2/kWh, dostępnych poza rynkiem mocy, których moc w roku dostaw została
+oszacowana na … MW, szacowaną niepewność wynikającą z dostaw magazynów energii
+elektrycznej …. W efekcie ww. analiz zapotrzebowanie na moc w aukcji dogrywkowej na rok
+dostaw 2029 wynosi …MW.
+W przypadku magazynów energii, w związku z brakiem dostępnych danych historycznych za
+okres 5 lat, zarówno w krajowym systemie elektroenergetycznym, jak i poza nim, do
+wyznaczenia korekcyjnego współczynnika dyspozycyjności dla technologii magazynów
+wykorzystano analizę wystarczalności, zgodnie z ppkt 8.2.4.2. regulaminu rynku mocy. Zmiana
+podejścia wynika z konieczności uwzględnienia dostępności źródeł o ograniczonej czasowo
+dyspozycyjności (pojemności), przy rosnącym udziale tych źródeł w strukturze mocy
+zainstalowanej. Brak uwzględnienia tej specyfiki mógłby skutkować brakiem dostaw energii
+elektrycznej w przypadku okresów przywołania trwających dłużej niż 4 h w ciągu doby, co
+byłoby skutkiem zastępowania jednostek wytwórczych magazynami o ograniczonym czasie
+dostępności. Podobne rozwiązania są stosowane u innych operatorów tj. National Grid czy
+EirGrid.
+Na potrzeby analizy wystarczalności zasobów wytwórczych wykorzystano prognozę
+zapotrzebowania na moc i energię elektryczną netto w KSE dla roku 2029 przygotowaną na
+potrzeby wyznaczenia prognozowanego zapotrzebowania na moc. Wielkości zdolności
+wytwórczych w jednostkach JWCD oraz pozostałych jednostkach wytwórczych
+przemysłowych i zawodowych w poszczególnych latach, zostały określone na podstawie
+ankietyzacji krajowych przedsiębiorstw energetycznych i inwestorów planujących budowę
+nowych mocy wytwórczych. Przyjęto aktualne informacje dotyczące przewidywanych
+terminów oddania do eksploatacji konwencjonalnych jednostek wytwórczych będących w
+trakcie realizacji. Analizę przeprowadzono z wykorzystaniem pełnej dostępnej bazy danych lat
+klimatycznych Entso-E tj. uwzględniono profile godzinowe wynikające z 38 lat klimatycznych
+dla okresu 1982 - 2019. Profile pracy elektrociepłowni, farm wiatrowych lądowych i morskich
+oraz źródeł fotowoltaicznych wykorzystane w obliczeniach powstały również w oparciu o tę
+bazę danych oraz dane historyczne.
+Dla każdego roku klimatycznego ujednolicono założenia bazowe (zmniejszano lub zwiększano
+zapotrzebowanie) tak, aby wynikowy wskaźnik wystarczalności LOLE był identyczny we
+wszystkich latach klimatycznych. Przyjęto docelową wartość wskaźnika LOLE na poziomie 3
+godz./rok. Następnie dodano nową jednostkę magazynu energii elektrycznej, po czym
+iteracyjne zwiększano zapotrzebowania na moc do czasu utrzymywania standardu
+bezpieczeństwa na poziomie 3h. W wyniku tych działań wyznaczono wskaźnik dostępności
+magazynu energii zgodnie ze wzorem:
+                                                        ∆𝑍𝑎𝑝𝑜𝑡𝑟𝑧𝑒𝑏𝑜𝑤𝑎𝑛𝑖𝑒𝑖
+                                                ∑𝑛𝑖 (                     )
+                                                           𝑀𝑜𝑐𝑚𝑎𝑔𝑎𝑧𝑦𝑛𝑖
+                            𝐾𝑊𝐷𝑚𝑎𝑔𝑎𝑧𝑦𝑛 =
+                                                              𝑛
+Gdzie:
+𝐾𝑊𝐷𝑚𝑎𝑔𝑎𝑧𝑦𝑛 – oznacza korekcyjny współczynnik dyspozycyjności magazynu;
+∆𝑍𝑎𝑝𝑜𝑡𝑟𝑧𝑒𝑏𝑜𝑤𝑎𝑛𝑖𝑒 – oznacza możliwy wzrost zapotrzebowania bez przekroczenia standardu
+LOLE;
+𝑀𝑜𝑐𝑚𝑎𝑔𝑎𝑧𝑦𝑛 – oznacza moc dodawanej jednostki magazynu;
+𝑛 – oznacza liczbę lat klimatycznych wykorzystywanych w analizie;
+𝑖 – oznacza rok klimatyczny.
+
+Analiza została wykonana dla roku 2029 oraz dla magazynu o mocy zainstalowanej … MWe i
+pojemności …MWh. Takie parametry magazynu odpowiadają w przybliżeniu średnim
+parametrom magazynów, które zostały objęte obowiązkami mocowymi w wyniku
+rozstrzygnięcia dotychczasowych aukcji rynku mocy. Wartość wskaźnika dostępności
+jednostki wytwórczej dla tak określonego magazynu energii wynosi …%.
+
+Pozostałe współczynniki zostały wyznaczone przy użyciu metodyki przyjętej przy
+przyjmowaniu poprzednich rozporządzeń dotyczących parametrów aukcji głównej – dla
+określonego roku dostaw1):
+
+
+
+1)
+  Rozporządzenie Ministra Energii z dnia 22 sierpnia 2018 r. w sprawie parametrów aukcji głównych dla okresów
+dostaw przypadających na lata 2021–2023 (Dz. U. poz. 1632),
+rozporządzenie Ministra Energii z dnia 2 sierpnia 2019 r. w sprawie parametrów aukcji głównej dla roku dostaw
+2024 oraz parametrów aukcji dodatkowych dla roku dostaw 2021 (Dz. U. poz. 1457),
+rozporządzenie Ministra Klimatu z dnia 6 sierpnia 2020 r. w sprawie parametrów aukcji głównej dla roku dostaw
+2025 oraz parametrów aukcji dodatkowych dla roku dostaw 2022 (Dz. U. poz. 1355),
+  •   Zgodnie z metodyką przyjętą przy przyjmowaniu poprzednich rozporządzeń cena
+      wejścia, zwana dalej „CeWe”, nowej jednostki wytwórczej nie została powiększona
+      o inflację. Przyjęto bowiem, że koszty kapitałowe są ponoszone przez dostawcę mocy
+      przed rozpoczęciem dostaw, a kontrakty mogą być zawierane już w roku 2025. OSP
+      przeanalizował inwestycje w podobne źródła w Polsce i na świecie, a koszty operacyjne
+      oparł m.in. na danych pochodzących z World Energy Outlook. CeWe ustalono na
+      poziomie …zł/kW.
+
+                                                                                       Układ
+                                              Turbina gazowa w cyklu
+ Parametr                 Jednostka                                                   gazowo-
+                                             prostym lub silnik tłokowy
+                                                                                      parowy
+
+ Rodzaj paliwa                   -                 ciekłe         gazowe              gazowe
+
+ Nakłady                   mln zł/MW
+                                                  …                  …                   …
+ inwestycyjne                 netto
+
+ Średni      ważony
+ realny         koszt
+                               %                  …                  …                   …
+ kapitału      przed
+ opodatkowaniem
+
+ Czas           życia
+                              lata                …                  …                   …
+ jednostki
+
+ Koszty stałe             zł/MW-rok               …                  …                   …
+
+ Koszty                                           …                  …                   …
+                          zł/MW/rok
+ kapitałowe
+
+ Marża z rynku                                    …                  …                   …
+                          zł/MW/rok
+ energii
+
+ CeWe bez KWD             zł/kWe/rok              …                  …                   …
+
+
+
+
+rozporządzenie Ministra Klimatu i Środowiska z dnia 12 sierpnia 2021 r. w sprawie parametrów aukcji głównej
+dla roku dostaw 2026 oraz parametrów aukcji dodatkowych dla roku dostaw 2023 (Dz. U. poz. 1480),
+rozporządzenie Ministra Klimatu i Środowiska z dnia 10 sierpnia 2022 r. w sprawie parametrów aukcji głównej
+dla roku dostaw 2027 oraz parametrów aukcji dodatkowych dla roku dostaw 2024 (Dz. U. poz. 1690), oraz
+Rozporządzenie Ministra Klimatu i Środowiska z dnia 4 sierpnia 2023 r. w sprawie parametrów aukcji głównej
+dla roku dostaw 2028 oraz parametrów aukcji dodatkowych dla roku dostaw 2025 (Dz. U. poz. 1561).
+KWD (na 2029)             %             …%               …%                …%
+
+CeWe z KWD          zł/kWe/rok           ...              ...                ...
+
+•   Określenie współczynnika wyznaczającego cenę maksymalną w aukcji dogrywkowej
+    w aukcjach dodatkowych należy do kompetencji Ministra Klimatu i Środowiska. W celu
+    promowania wsparcia nowych jednostek rynku mocy, w tym, w technologiach których
+    koszt jest wyższy niż będące punktem odniesienia silniki gazowe przyjęto współczynnik
+    na poziomie …dla aukcji dogrywkowej na rok 2029.
+•   W przypadku aukcji dogrywkowej przyjęto jak w poprzednim roku wartość parametru
+    wyznaczającego wielkość mocy, dla której cena osiąga odpowiednio wartość
+    maksymalną na poziomie …%, a w przypadku parametru wyznaczającego wielkość
+    mocy, dla której cena osiąga wartość minimalną, przyjęto wartość …%. Takie podejście
+    ma na celu zapewnienie kreowania sygnałów do inwestycji w nowe źródła wytwórcze,
+    przy jednoczesnym zapewnieniu niższego poziomu kosztów ponoszonych przez
+    odbiorców niż gwałtowna dekarbonizacja gospodarki.
+•   Maksymalna cena dla cenobiorcy, zwana dalej „CeCe”, odzwierciedla koszty stałe
+    istniejących jednostek wytwórczych. Cena ta jest wyznaczana na podstawie danych
+    statystycznych publikowanych przez Agencję Rynku Energii. Przy obliczaniu CeCe
+    uwzględniono następujące koszty: amortyzację, materiały (koszty materiałów, których
+    wielkość nie jest uzależniona od rozmiarów produkcji), koszty pracy, pozostałe koszty
+    działalności podstawowej (koszty wydziałów pomocniczych, podatki i opłaty oraz
+    pozostałe koszty) oraz usługi obce. W roku dostaw 2029 obowiązują wymogi
+    rozporządzenia Parlamentu Europejskiego i Rady (UE) 2019/943 z dnia 5 czerwca 2019
+    r. w sprawie rynku wewnętrznego energii elektrycznej (Dz. Urz. UE L 158 z 14.06.2019,
+    str. 54, z późn. zm.). Dlatego też przyjęto, że limitów emisji nie spełnią jednostki, w
+    których paliwem podstawowym jest węgiel kamienny lub brunatny. W związku z tym
+    parametr CeCe dla aukcji na rok 2029 wyznaczono w oparciu o koszty dla jednostek, w
+    których paliwem podstawowym są paliwa gazowe, czyli elektrociepłownie zawodowe
+    gazowe.
+
+            Parametr                                    Jednostka     2029
+
+            Jednostkowe       koszty     stałe    bez
+                                                        zł/kW/rok      …
+            amortyzacji
+
+            Jednostkowe koszty stałe z amortyzacją      zł/kW/rok      …
+
+            KWD                                             %          …
+
+            CeCe – wartość odniesienia z roku 2024      zł/kW/rok      …
+
+            CeCe dla roku dostaw                        zł/kW/rok      …
+•   Mając na uwadze doświadczenia zebrane podczas organizacji dotychczasowych aukcji
+    mocy oraz ze względu na konieczność zapewnienia niezbędnych działań dla
+    prawidłowego oraz bezpiecznego przebiegu aukcji, przez OSP są zalecane jednodniowe
+    aukcje mocy. Od roku 2018 w Polsce aukcje główne przeprowadzane były w ciągu
+    jednego dnia ze względu na przewidziany w ustawie harmonogram. Według opinii OSP
+    taki czas na przeprowadzenie procesów aukcyjnych był wystarczający. Mając powyższe
+    na uwadze, maksymalną liczbę rund zarówno dla aukcji dogrywkowej utrzymano na
+    poziomie obowiązującym w zeszłym roku, tj. …rund.
+•   Zebrane przez OSP informacje odnośnie do jednostkowych nakładów inwestycyjnych dla
+    wybranych nowych projektów energetycznych w Polsce wskazują, że istotne znaczenie
+    w przypadku spełnienia określonego poziomu nakładów ma wielkość jednostek oraz to,
+    czy są jednostkami kogeneracyjnymi. Utrzymanie w bieżącym roku jednostkowych
+    nakładów inwestycyjnych na poziomie … mln zł/MW netto powinno umożliwić
+    ubieganie się o umowę 15-letnią wszystkim jednostkom analogicznie do roku
+    poprzedniego. Zakłada się, że wartość jednostkowych nakładów inwestycyjnych
+    uprawniających do umów mocowych 5-letnich na poziomie … mln zł/MW netto
+    pozytywnie wpływa na oczekiwania inwestorów, zachęcając ich do modernizacji
+    jednostek wytwórczych.
+•   Korekcyjne współczynniki dyspozycyjności (KWD) służą do wyznaczenia maksymalnej
+    wielkości obowiązku mocowego danej jednostki rynku mocy możliwego do
+    zaoferowania na aukcji mocy oraz rynku wtórnym. W projektowanym rozporządzeniu
+    proponuje się podział na grupy technologii, dla których korekcyjne współczynniki będą
+    określone odrębnie, zostaną wyznaczone zgodnie z przepisami ustawy. Tak jak w
+    przypadku tej aukcji, przy wyznaczaniu KWD magazynów energii uwzględniono, wpływ
+    ich dostępności na możliwość ich wykorzystania w przypadku powtarzających się
+    okresów przywołania.
+•   W projektowanym rozporządzeniu określono prognozowane maksymalne wolumeny
+    obowiązków mocowych dla poszczególnych stref na potrzeby aukcji dogrywkowej dla
+    roku dostaw 2029 są określone w oparciu analizy prognostyczne. Do analiz wykorzystano
+    zgodnie z metodyką wydaną przez ACER próbki Monte Carlo otrzymane w ramach
+    obliczeń ERAA 2023. Wynikiem każdej próbki był fizyczny przepływ na połączeniu albo
+    profilu transgranicznym między strefami w poszczególnych godzinach. Jako wolumeny
+    obowiązków mocowych dla poszczególnych stref przyjęto średni wolumen przepływu
+    energii na połączeniu z daną strefą w godzinach, w których występuje niedostarczona
+    energia w Polsce tj. w okresach deficytu mocy. Wolumeny te, po pomniejszeniu o
+    wielkość dotychczas zawartych umów mocowych z jednostkami zagranicznymi,
+    zlokalizowanymi w danej strefie stanowią również parametr określający wolumen mocy
+    możliwej do dopuszczenia do aukcji w wyniku aukcji wstępnych.
+•   Wspomniane wolumeny stanowią ponadto parametry aukcji wstępnej do aukcji
+    dogrywkowej. Celem aukcji wstępnych jest jedynie wyłonienie jednostek zagranicznych,
+    mogących wziąć udział w aukcji, stąd w § 11 określono maksymalny wolumen
+    obowiązków mocowych wykorzystywanych do tego celu. Wynika to z faktu, że w
+    wyniku aukcji wstępnych operator nie może dopuścić do udziału w aukcjach mocy
+    większego wolumenu mocy, niż wynika to ze zdolności przesyłowych dostępnych w
+    okresach występowania niskich rezerw w krajowym systemie elektroenergetycznym
+    (określanych w rozporządzeniu jako maksymalne wolumeny obowiązków mocowych dla
+    poszczególnych stref).
+3.     Wejście w życie
+Wejście w życie projektowanego rozporządzenia jest planowane na dzień następujący po dniu
+ogłoszenia. Termin ten wynika z konieczności możliwie wczesnego wejścia w życie regulacji
+jako aktu prawnego niezbędnego do prawidłowego przeprowadzenia aukcji mocy, czego wymaga
+ważny interes państwa, a zasady demokratycznego państwa prawnego nie stoją temu na
+przeszkodzie. Zgodnie z art. 39a ust. 4 ustawy projektowane rozporządzenie powinno zostać
+wydane przez Ministra Klimatu i nie później niż w terminie do dnia 30 kwietnia roku
+następującego po roku przeprowadzenia aukcji głównej.
+4.     Zgodność z prawem Unii Europejskiej
+Projektowane rozporządzenie jest zgodne z prawem Unii Europejskiej.
+5.     Notyfikacja
+Projektowane rozporządzenie nie podlega procedurze notyfikacji aktów prawnych określonej
+w przepisach rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu
+funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z
+późn. zm.).
+Projektowane rozporządzenie nie wymaga przedstawienia właściwym instytucjom i organom
+Unii Europejskiej, w tym Europejskiemu Bankowi Centralnemu, celem uzyskania opinii,
+dokonania powiadomienia, konsultacji albo uzgodnienia projektu.
+Projekt aktu nie zawiera wymogów nakładanych na usługodawców, podlegających notyfikacji,
+o której mowa w art. 15 ust. 7 i art. 39 ust. 5 dyrektywy 2006/123/WE Parlamentu
+Europejskiego i Rady z dnia 12 grudnia 2006 r. dotyczącej usług na rynku wewnętrznym (Dz.
+Urz. UE L 376 z 27.12.2006, str. 36).
+
+6.     Wpływ na mikroprzedsiębiorców oraz małych i średnich przedsiębiorców
+Projektowane rozporządzenie wpływa na działalność mikroprzedsiębiorców oraz małych
+i średnich przedsiębiorców. Przepisy jako określające parametry aukcji mocy będą miały
+wpływ na decyzję o udziale w aukcji dogrywkowej, aukcji wstępnej do tej aukcji oraz o
+wysokości zgłaszanej oferty na aukcji, zarówno cenowej, jak i wolumenowej. Projekt jest
+zgodny z przepisami ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców (Dz. U. z 2024 r.
+poz. 236, z późn. zm.).
+                                                                          Data sporządzenia
+Nazwa projektu
+                                                                          31.01.2025
+Rozporządzenie Ministra Klimatu i Środowiska w sprawie parametrów
+aukcji dogrywkowej dla roku dostaw 2029 oraz parametrów aukcji            Źródło
+wstępnych do tej aukcji                                                   Upoważnienie ustawowe
+                                                                          art. 39 ust. 4 ustawy z dnia 8 grudnia 2017 r.
+Ministerstwo wiodące i ministerstwa współpracujące
+                                                                          o rynku mocy (Dz. U. z 2023 r. poz. 2131,
+Ministerstwo Klimatu i Środowiska
+                                                                          oraz z 2025 r. poz. … i …)
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Stanu       Nr w wykazie prac legislacyjnych Ministra
+lub Podsekretarza Stanu                                                   Klimatu i Środowiska
+Miłosz Motyka – Podsekretarz Stanu w Ministerstwie Klimatu i Środowiska   …
+Kontakt do opiekuna merytorycznego projektu
+Mirosław Maciąg, Radca w Wydziale Krajowego Systemu
+Elektroenergetycznego w Departamencie Elektroenergetyki
+e-mail: miroslaw.maciag@klimat.gov.pl
+                                 OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Projektowane rozporządzenie stanowi wypełnienie upoważnienia ustawowego zawartego w art. 39a ust. 4
+ustawy z dnia 8 grudnia 2017 r. o rynku mocy (Dz. U. z 2023 r. poz. 2131, oraz z 2025 r. poz. … i …), zwanej
+dalej „ustawą”. Zgodnie z przedmiotowym przepisem, Minister Klimatu i Środowiska, po zasięgnięciu opinii
+Prezesa Urzędu Regulacji Energetyki, zwanego dalej „Prezesem URE”, określa, w drodze rozporządzenia,
+parametry aukcji dogrywkowej, biorąc pod uwagę politykę energetyczną państwa, adekwatność stosowanych
+parametrów do potrzeb systemu, zapewnienie bezpieczeństwa systemu, równoprawne i niedyskryminacyjne
+traktowanie dostawców mocy oraz mając na względzie przewidywaną dostępność zdolności przesyłowych oraz
+ich udział w zapewnieniu bezpieczeństwa dostaw energii elektrycznej.
+Projektowane rozporządzenie określające parametry aukcji jest aktem prawnym, który zgodnie z art. 39 ust. 4
+ustawy wydawany jest nie później niż w terminie do dnia 30 kwietnia roku następującego po roku
+przeprowadzenia aukcji głównej. Projektowane rozporządzenie ma na celu określenie parametrów aukcji
+dogrywkowej dla roku dostaw 2029, która zostanie przeprowadzona w roku 2025.
+Zgodnie z art. 39 ust. 5 ustawy parametrami aukcji dogrywkowej, które zostaną określone w rozporządzeniu, są:
+1) wielkości wyznaczające popyt w aukcji, tj. zapotrzebowanie na moc, cena wejścia na rynek nowej jednostki
+   wytwórczej, współczynnik zwiększający tę cenę, parametr wyznaczający wielkość mocy poniżej
+   zapotrzebowania na moc, dla której cena osiąga wartość maksymalną oraz parametr wyznaczający wielkość
+   mocy ponad zapotrzebowanie na moc, dla której cena osiąga wartość minimalną;
+2) cena maksymalna określona dla cenobiorcy, wyznaczona na podstawie kapitałowych i operacyjnych kosztów
+   stałych;
+3) maksymalna liczba rund aukcji;
+4) jednostkowe poziomy nakładów inwestycyjnych odniesione do mocy osiągalnej netto, warunkujące
+   kwalifikację jednostki rynku mocy jako:
+   a) nowej jednostki rynku mocy wytwórczą – uprawnionej do oferowania obowiązków mocowych na nie
+      więcej niż 15 okresów dostaw w aukcji dogrywkowej,
+   b) nowej jednostki rynku mocy wytwórczą, modernizowanej jednostki rynku mocy wytwórczą albo jednostki
+      rynku mocy redukcji zapotrzebowania – uprawnionej do oferowania obowiązków mocowych na nie
+      więcej niż 5 okresów dostaw w aukcji dogrywkowej;
+5) korekcyjne współczynniki dyspozycyjności dla poszczególnych grup technologii;
+6) maksymalne wolumeny obowiązków mocowych dla stref, o których mowa w art. 6 ust. 6 ustawy.
+Zgodnie z art. 39a ust. 4 ustawy minister właściwy do spraw energii, określa, w drodze rozporządzenia,
+parametry aukcji dogrywkowej, , po zasięgnięciu opinii Prezesa Urzędu Regulacji Energetyki, a także mając na
+względzie politykę energetyczną państwa, adekwatność stosowanych parametrów do potrzeb systemu,
+zapewnienie bezpieczeństwa systemu, równoprawne i niedyskryminacyjne traktowanie dostawców mocy oraz
+mając na względzie przewidywaną dostępność zdolności przesyłowych oraz ich udział w zapewnieniu
+bezpieczeństwa dostaw energii elektrycznej.
+W przypadku magazynów energii, w związku z brakiem dostępnych danych historycznych za okres 5 lat zarówno
+w Krajowym systemie elektroenergetycznym, jak i poza nim do wyznaczenia korekcyjnego współczynnika
+dyspozycyjności dla technologii magazynów wykorzystano analizę wystarczalności, zgodnie z ppkt 8.2.4.2.
+regulaminu rynku mocy. Podejście, przyjęte już w aukcji głównej na rok dostaw 2029 wynika z konieczności
+uwzględnienia dostępności źródeł o ograniczonej czasowo dyspozycyjności (pojemności), przy rosnącym
+udziale tych źródeł w strukturze mocy zainstalowanej. Brak uwzględnienia tej specyfiki mógłby skutkować
+brakiem dostaw energii elektrycznej w przypadku ogłoszenia okresów przywołania na więcej niż 4 h w
+przeciągu doby, co byłoby skutkiem zastępowania jednostek wytwórczych magazynami o ograniczonym czasie
+dostępności. Podobne rozwiązania są stosowane u innych operatorów tj. National Grid czy EirGrid.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+W związku z faktem, że ustawa nakłada obowiązek uregulowania materii parametrów aukcji mocy w drodze rozporządzenia
+ministra właściwego do spraw energii, regulacja wynika wprost z przepisów ustawy. Stosowanie alternatywnych rozwiązań
+byłoby niezgodne z ustawą. Rekomendowanym rozwiązaniem jest wydanie rozporządzenia w zakresie i na podstawie
+upoważnienia przewidzianego w ustawie. Oczekiwanym efektem jest wyznaczenie parametrów dla aukcji dogrywkowej dla
+roku dostaw 2029. Termin do wydania rozporządzenia wynika wprost z art. 39 ust. 6 ustawy, który wskazuje, że minister
+właściwy do spraw energii wydaje ww. rozporządzenie nie później niż w terminie do dnia 30 kwietnia roku następującego po
+roku przeprowadzenia aukcji głównej. Terminy aukcji dogrywkowej i aukcji wstępnej do aukcji dogrywkowej zostaną
+opublikowane na stronie PSE S.A. W rozporządzeniu uwzględniono również dostosowanie korekcyjnego współczynnika
+dyspozycyjności dla technologii magazynów do warunków pracy systemu w 2029 roku.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+W Wielkiej Brytanii parametry aukcji proponowane są przez operatora sieci przesyłowej (National Grid) i zatwierdzane przez
+władze centralne (Department for Business, Energy & Industrial Strategy). Parametry aukcji są publikowane w formie
+decyzji.
+W Belgii parametry są proponowane przez operatora (Elia), następnie są przedmiotem konsultacji społecznych, na podstawie
+których regulator (Commission for Electricity and Gas Regulation) wyznacza własną propozycję. Parametry są ostatecznie
+wydawane w drodze rozporządzenia.
+W Irlandii i Irlandii Północnej parametry są proponowane wspólnie przez OSP (EIRGRID I SONI), a następnie w drodze
+decyzji są zatwierdzane przez komitet regulatorów (Single Electricity Market Committee).
+4. Podmioty, na które oddziałuje projekt
+           Grupa                     Wielkość                    Źródło danych                      Oddziaływanie
+Operator systemu              1                         rejestry.ure.gov.pl                Na podstawie parametrów
+przesyłowego                                                                               aukcji zawartych w
+elektroenergetycznego                                                                      projektowanym
+(OSP)                                                                                      rozporządzeniu OSP będzie
+                                                                                           przeprowadzał aukcje mocy
+Odbiorcy energii                Około 18,7 mln            Statystyka elektroenergetyki     Wyniki aukcji wpływają na
+elektrycznej                                              polskiej 2022 ARE S.A.           wysokość opłaty mocowej
+                                                                                           ponoszonej przez odbiorców
+Uczestnicy aukcji mocy          Prawie 2700               Liczba jednostek wpisanych do W oparciu o zaproponowane
+                                                          rejestru rynku mocy              parametry aukcji mocy
+                                                                                           uczestnicy aukcji będą
+                                                          Rejestr rynku mocy,              konstruować swoją ofertę na
+                                                          informacje o certyfikacji        aukcje oraz jednostki rynku
+                                                          ogólnej 2023                     mocy składające się z jednostek
+                                                                                           fizycznych utworzonych
+                                                                                           w certyfikacji ogólnej
+Urząd Regulacji                 1                         Rozdział 4 ustawy z dnia 10      Wydanie projektowanego
+Energetyki                                                kwietnia 1997 r. – Prawo         rozporządzenia wymaga
+                                                          energetyczne (Dz. U. z 2024 r.   zasięgnięcia opinii Prezesa
+                                                          poz. 266, z późn. zm.)           Urzędu Regulacji Energetyki
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt nie był przedmiotem pre-konsultacji.
+Projekt, zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z
+2017 r. poz. 248, z późn. zm.) i § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady
+Ministrów (M.P. z 2024 r. poz. 806), został udostępniony w Biuletynie Informacji Publicznej, na stronie podmiotowej
+Rządowego Centrum Legislacji, w serwisie Rządowy Proces Legislacyjny.
+Projekt zostanie przekazany do konsultacji (10 dni) do następujących podmiotów:
+    1) Izba Gospodarcza Ciepłownictwo Polskie;
+    2) Polskie Sieci Elektroenergetyczne S.A.;
+    3) Towarzystwo Obrotu Energią;
+    4) Towarzystwo Gospodarcze Polskie Elektrownie;
+    5) Polskie Towarzystwo Przesyłu i Rozdziału Energii Elektrycznej;
+    6) Forum Odbiorców Energii Elektrycznej i Gazu;
+    7) Polski Komitet Energii Elektrycznej;
+    8) Zarządca Rozliczeń S.A.;
+    9) Hutnicza Izba Przemysłowo-Handlowa;
+    10) Krajowa Izba Gospodarcza Elektroniki i Telekomunikacji;
+    11) Izba Energetyki Przemysłowej i Odbiorców Energii;
+    12) Stowarzyszenie Klub Polskie Forum ISO – 14000.
+Projekt zostanie przekazany do zaopiniowania (10 dni) Prezesowi Urzędu Regulacji Energetyki.
+Z uwagi na zakres projektu, który nie dotyczy zadań związków zawodowych, projekt nie podlega opiniowaniu przez
+reprezentatywne związki zawodowe.
+Z uwagi na zakres projektu, który nie dotyczy praw i interesów związków pracodawców, projekt nie podlega opiniowaniu
+przez reprezentatywne organizacje pracodawców.
+Projekt nie podlega opiniowaniu przez Komisję Wspólną Rządu i Samorządu Terytorialnego, gdyż nie dotyczy spraw
+związanych z samorządem terytorialnym, o których mowa w ustawie z dnia 6 maja 2005 r. o Komisji Wspólnej Rządu
+i Samorządu Terytorialnego oraz o przedstawicielach Rzeczypospolitej Polskiej w Komitecie Regionów Unii Europejskiej
+(Dz. U. poz. 2024 r. poz. 949).
+Projekt nie dotyczy spraw, o których mowa w art. 1 ustawy z dnia 24 lipca 2015 r. o Radzie Dialogu Społecznego i innych
+instytucji dialogu społecznego (Dz. U. z 2018 r. poz. 2232, z późn. zm.), wobec czego nie wymaga zaopiniowania przez Radę
+Dialogu Społecznego.
+Projekt nie dotyczy spraw, o których mowa w art. 35 ust. 2 pkt 2 ustawy z dnia 24 kwietnia 2003 r. o działalności pożytku
+publicznego i o wolontariacie (Dz. U. 2024 r. poz. 1491, z późn. zm.), wobec czego nie wymaga zaopiniowania przez Radę
+Działalności Pożytku Publicznego.
+Projekt rozporządzenia nie wymaga przedstawienia właściwym instytucjom i organom Unii Europejskiej, w tym
+Europejskiemu Bankowi Centralnemu, celem uzyskania opinii, dokonania powiadomienia, konsultacji albo uzgodnienia
+projektu.
+Wyniki opiniowania i konsultacji publicznych zostaną omówione w raporcie z konsultacji zawierającym zestawienie
+przedstawionych stanowisk lub opinii i odniesienie się do nich przez organ wnioskujący, udostępnionym na stronie
+Rządowego Centrum Legislacji, w zakładce Rządowy Proces Legislacyjny, najpóźniej z dniem przekazania projektu na
+kolejny etap prac legislacyjnych.
+ 6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2021 r.)                                  Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                       0       1       2     3     4      5       6     7      8     9     10     Łącznie (0-10)
+Dochody ogółem                     0       0       0        0     0      0      0     0      0      0     0      0
+budżet państwa                     0       0       0        0     0      0      0     0      0      0     0      0
+JST                                0       0       0        0     0      0      0     0      0      0     0      0
+pozostałe jednostki (oddzielnie)   0       0       0        0     0      0      0     0      0      0     0      0
+Wydatki ogółem                     0       0       0        0     0      0      0     0      0      0     0      0
+budżet państwa                     0       0       0        0     0      0      0     0      0      0     0      0
+JST                                0       0       0        0     0      0      0     0      0      0     0      0
+pozostałe jednostki (oddzielnie)   0       0       0        0     0      0      0     0      0      0     0      0
+Saldo ogółem                       0       0       0        0     0      0      0     0      0      0     0      0
+
+budżet państwa                     0       0       0        0     0      0      0     0      0      0     0      0
+
+JST                                0       0       0        0     0      0      0     0      0      0     0      0
+
+pozostałe jednostki (oddzielnie)   0       0       0        0     0      0      0     0      0      0     0      0
+                          Projekt rozporządzenia nie powoduje skutków finansowych dla jednostek sektora finansów
+                          publicznych, w tym budżetu państwa i budżetów jednostek samorządu terytorialnego,
+Źródła finansowania
+                          polegających na zwiększeniu wydatków lub zmniejszeniu dochodów tych jednostek w stosunku
+                          do wielkości wynikających z obowiązujących przepisów.
+Dodatkowe informacje,     Rozporządzenie nie powoduje skutków finansowych dla jednostek sektora finansów publicznych.
+w tym wskazanie           Wpływ rynku mocy na sektor finansów publicznych został szczegółowo opisany w ocenie skutków
+źródeł danych i           regulacji do ustawy.
+przyjętych do obliczeń
+założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                             Skutki
+Czas w latach od wejścia w życie zmian            0          1           2          3          5        10     Łącznie (0-10)
+W ujęciu           duże przedsiębiorstwa      0          0           0          0         0           0        0
+pieniężnym         sektor mikro-, małych i    0          0           0          0         0           0        0
+(w mln zł,         średnich
+ceny stałe z       przedsiębiorstw
+2021 r.)           rodzina, obywatele oraz 0             0           0          0         0           0        0
+                   gospodarstwa domowe
+                   osoby niepełnosprawne 0               0           0          0         0           0        0
+                   oraz osoby starsze
+W ujęciu            duże przedsiębiorstwa     Przepisy jako określające parametry aukcji mocy będą miały wpływ na decyzję
+niepieniężnym      sektor mikro-, małych i    o udziale w aukcji dogrywkowej, aukcji wstępnej do tej aukcji oraz o wysokości
+                   średnich                   zgłaszanej oferty na aukcji, zarówno cenowej, jak i wolumenowej.
+                   przedsiębiorstw
+                   rodzina, obywatele oraz Brak wpływu
+                   gospodarstwa domowe
+                   osoby niepełnosprawne Brak wpływu
+                   oraz osoby starsze
+Niemierzalne                                  Nie dotyczy
+Dodatkowe informacje, Wpływ rynku mocy na konkurencyjność gospodarki i przedsiębiorczość w ujęciu pieniężnym został
+w tym wskazanie            opisany w Ocenie Skutków Regulacji (OSR) do ustawy. W OSR do ustawy wskazano, że
+źródeł danych i            wprowadzenie rynku mocy spowoduje ogólnie obniżenie kosztów dla gospodarki z tytułu zakupu
+przyjętych do obliczeń     energii elektrycznej oraz zapewni w horyzoncie długoterminowym bezpieczeństwo dostaw energii.
+założeń                    Na podstawie danych Ministerstwa Klimatu i Środowiska roczny koszt rynku mocy w roku 2029
+                           wyniesie około … mld PLN netto i w kolejnych latach będzie wynosił również około … mld PLN.
+                           Zaproponowany w projekcie rozporządzenia KWD dla magazynów energii odzwierciedla możliwość
+                           magazynów do bycia w gotowości do świadczenia usługi dostarczenia mocy. Wartość KWD nie
+                           wpływa też bezpośrednio na wielkość przychodów z rynku mocy dla magazynów energii, ponieważ
+                           wielkość przychodów wynika wprost z ceny zamknięcia aukcji. Z kolei cena zamknięcia aukcji
+                           wynika bezpośrednio z ofert wyjścia składanych przez uczestników aukcji.
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+☒ nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie         tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli  nie
+zgodności).                                         nie dotyczy
+    zmniejszenie liczby dokumentów                             zwiększenie liczby dokumentów
+    zmniejszenie liczby procedur                               zwiększenie liczby procedur
+    skrócenie czasu na załatwienie sprawy                      wydłużenie czasu na załatwienie sprawy
+    inne:                                                      inne:
+Wprowadzane obciążenia są przystosowane do ich                 tak
+elektronizacji.                                                nie
+                                                               nie dotyczy
+Komentarz:
+Brak
+9. Wpływ na rynek pracy
+Nie przewiduje się wpływu projektowanej regulacji na rynek pracy.
+
+
+
+10. Wpływ na pozostałe obszary
+    środowisko naturalne                    demografia                                 informatyzacja
+    sytuacja i rozwój regionalny            mienie państwowe                           zdrowie
+    sądy powszechne, administracyjne        inne:
+lub wojskowe
+Omówienie wpływu        Nie dotyczy.
+
+11. Planowane wykonanie przepisów aktu prawnego
+Planowane jest wejście w życie przedmiotowego rozporządzenia z dniem następującym po dniu ogłoszenia. Termin ten
+wynika z konieczności możliwie wczesnego wejścia w życie regulacji jako aktu prawnego niezbędnego do prawidłowego
+przeprowadzenia aukcji mocy. Zgodnie z art. 39a ust. 4 ustawy projektowane rozporządzenie powinno zostać wydane przez
+Ministra Klimatu i Środowiska nie później niż w terminie do dnia 30 kwietnia roku następującego po roku przeprowadzenia
+aukcji głównej, co zapewnia dostawcom mocy i operatorowi odpowiedni czas na przygotowanie się do aukcji niezależnie od
+krótkiego terminu wejścia w życie.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+W związku ze specyfiką tego projektu niezasadna jest jego ewaluacja. Rozporządzenia dotyczą jednorazowych wydarzeń –
+aukcji, więc nie ma możliwości dostosowania brzmienia rozporządzenia po ich zatwierdzeniu. Jednocześnie są wydawane co
+roku, w terminie wskazanym w ustawie, co pozwala na uwzględnienie wniosków z wyników aukcji w jednym roku, w
+opracowaniu parametrów na rok kolejny.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak załączników.
+

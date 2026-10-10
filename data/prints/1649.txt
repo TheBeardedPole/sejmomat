@@ -1,0 +1,328 @@
+                                                                      Druk nr 1649
+                                                                   Warszawa, 31 lipca 2025 r.
+           SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+        X kadencja
+      Marszałek Senatu
+    BPS.DPS.030.13.2025
+
+
+                                                             Pan
+                                                             Szymon Hołownia
+                                                             Marszałek Sejmu
+                                                             Rzeczypospolitej Polskiej
+
+
+         Szanowny Panie Marszałku,
+
+         zgodnie z art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia
+ 1997 r. mam zaszczyt przekazać Panu Marszałkowi podjętą przez Senat na 39.
+ posiedzeniu w dniu 31 lipca 2025 r. uchwałę w sprawie wniesienia do Sejmu projektu
+ ustawy
+
+
+
+  - o zmianie ustawy o rzecznikach patentowych
+   wraz z projektem tej ustawy.
+
+
+        Jednocześnie pragnę poinformować, że Senat upoważnił senatora Krzysztofa
+ Kwiatkowskiego do reprezentowania Senatu w dalszych pracach nad tym projektem.
+
+
+                                                          Z poważaniem
+                                                (-) Małgorzata Kidawa-Błońska
+
+
+
+
+               Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                    U C H WA Ł A
+
+            S E N AT U R Z E C Z Y P O S P O L I T E J P O L S K I E J
+
+                                  z dnia 31 lipca 2025 r.
+
+    w sprawie wniesienia do Sejmu projektu ustawy o zmianie ustawy o rzecznikach
+                                      patentowych
+
+
+    Na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia
+1997 r., Senat wnosi do Sejmu Rzeczypospolitej Polskiej projekt ustawy o zmianie ustawy
+o rzecznikach patentowych.
+
+    Jednocześnie upoważnia pana senatora Krzysztofa Kwiatkowskiego do reprezentowania
+Senatu w pracach nad projektem.
+
+
+
+
+                                                 MARSZAŁEK SENATU
+
+
+
+                                            Małgorzata KIDAWA-BŁOŃSKA
+                                                                                       projekt
+                                         U S T AWA
+
+                                              z dnia
+
+                       o zmianie ustawy o rzecznikach patentowych
+
+
+     Art. 1. W ustawie z dnia 11 kwietnia 2001 r. o rzecznikach patentowych (Dz. U. z 2024 r.
+poz. 749) wprowadza się następujące zmiany:
+1)   w art. 18 w ust. 2 po pkt 2 dodaje się pkt 2a w brzmieniu:
+     „2a) numer PESEL;”;
+2)   w art. 25a ust. 1 otrzymuje brzmienie:
+          „1. Na podstawie aktualnych informacji przekazywanych przez Krajową Radę
+     Rzeczników Patentowych Urząd Patentowy prowadzi w systemie teleinformatycznym
+     listę rzeczników patentowych oraz aplikantów, która zawiera imię i nazwisko rzecznika
+     patentowego lub aplikanta, numer PESEL, datę uchwały o wpisie na listę i numer wpisu
+     na listę oraz datę skreślenia z listy, informację o zawieszeniu prawa wykonywania zawodu
+     rzecznika   patentowego,    a   w   przypadku     aplikantów   –   także   rok   aplikacji
+     rzecznikowskiej.”.
+
+     Art. 2. 1. Rzecznik patentowy wpisany na listę rzeczników patentowych, o której mowa
+w art. 18 ust. 1 ustawy zmienianej w art. 1, informuje pisemnie Prezesa Urzędu Patentowego
+Rzeczypospolitej Polskiej o posiadanym numerze PESEL w terminie 30 dni od dnia wejścia
+w życie niniejszej ustawy.
+     2. Aplikant wpisany na listę rzeczników patentowych oraz aplikantów, o której mowa
+w art. 25a ust. 1 ustawy zmienianej w art. 1, informuje pisemnie Prezesa Urzędu Patentowego
+Rzeczypospolitej Polskiej o posiadanym numerze PESEL w terminie 30 dni od dnia wejścia
+w życie niniejszej ustawy.
+     3. Prezes Urzędu Patentowego Rzeczypospolitej Polskiej uzupełnia dane w systemach
+teleinformatycznych, w których prowadzone są listy, o których mowa w ust. 1 i 2, o numer
+PESEL niezwłocznie po uzyskaniu informacji, o której mowa w ust. 1 albo 2.
+
+     Art. 3. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                     UZASADNIENIE
+
+
+1.   Cel projektowanej ustawy oraz różnice pomiędzy dotychczasowym i projektowanym
+     stanem prawnym
+
+     Celem projektu ustawy o zmianie ustawy o rzecznikach patentowych jest dokonanie
+zmian, które umożliwią rzecznikom patentowym pełne korzystanie z portalu informacyjnego,
+będącego systemem teleinformatycznym, o którym mowa w art. 53e § 1 ustawy z dnia 27 lipca
+2001 r. – Prawo o ustroju sądów powszechnych (Dz. U. z 2024 r. poz. 334, z późn. zm.), dalej
+jako: „portal informacyjny”. Konieczność podjęcia prac legislacyjnych w tym zakresie była
+postulowana przez Polską Izbę Rzeczników Patentowych, która wykazywała, że portal
+informacyjny nie jest przygotowany w sposób umożliwiający rzecznikom patentowym
+założenie konta w portalu oraz dokonywanie odbioru pism w sprawach, w których występują
+oni jako pełnomocnicy procesowi przed sądami.
+
+     Dokonując próby rejestracji w portalu informacyjnym, przy wprowadzeniu numeru
+PESEL i numeru wpisu na listę rzeczników patentowych pojawia się komunikat
+o nieodnalezieniu danych pełnomocnika o podanym numerze PESEL. Przyczyną takiego stanu
+rzeczy jest fakt, że dane rzeczników patentowych pobierane przez portal informacyjny
+pochodzą    z   listy   rzeczników   patentowych    prowadzonej     przez   Urząd    Patentowy
+Rzeczypospolitej Polskiej na podstawie art. 18 ust. 1 i 2 ustawy ustawie z dnia 11 kwietnia
+2001 r. o rzecznikach patentowych (Dz. U. z 2024 r. poz. 749). Na liście tej nie zamieszcza się
+numerów PESEL rzeczników patentowych.
+
+     Niespójność regulacji, tj. art. 18 ust. 2 ustawy z dnia 11 kwietnia 2001 r. o rzecznikach
+patentowych określającego zakres danych zamieszczanych w systemie teleinformatycznym
+prowadzącym listę rzeczników patentowych z przepisami rozporządzenia wydanego na
+podstawie art. 53e ust. 2 ustawy z dnia 27 lipca 2001 r. – Prawo o ustroju sądów powszechnych,
+tj. § 4 ust. 1 rozporządzenia Ministra Sprawiedliwości z dnia 12 marca 2024 r. w sprawie portalu
+informacyjnego (Dz. U. poz. 366) wskazującego, że podstawą do założenia konta w portalu
+informacyjnym dla osoby fizycznej jest zamieszczenie we wniosku o utworzenie takiego
+konta numeru PESEL, skutkuje brakiem możliwości korzystania z portalu informacyjnego
+przez rzeczników patentowych, tym samym prawidłowego wykonywania obowiązków jako
+pełnomocnika procesowego.
+
+     W celu usunięcia istniejącej niespójności w regulacjach prawnych projektowana ustawa
+                                             –2–
+
+dokonuje nowelizacji ustawy z dnia 11 kwietnia 2001 r. o rzecznikach patentowych polegającej
+na poszerzeniu zakresu danych podlegających wpisowi na listę rzeczników patentowych,
+o której mowa w art. 18 ust. 1, o numer PESEL (art. 1 pkt 1).
+
+     Ponadto projekt zmienia art. 25a ust. 1 ustawy, uzupełniając o numery PESEL zakres
+danych gromadzonych w systemie teleinformatycznym utworzonym na podstawie tego
+przepisu, obejmującym rzeczników patentowych oraz aplikantów rzecznikowskich (art. 1 pkt
+2). W ocenie projektodawcy, zakres danych służących identyfikacji osób wykonujących zawód
+rzecznika patentowego powinien być identyczny w obu systemach teleinformatycznych.
+
+     Ponadto przepis dostosowujący nakłada na rzeczników patentowych oraz aplikantów
+rzecznikowskich obowiązek pisemnego poinformowania Prezesa Urzędu Patentowego RP
+o posiadanym numerze PESEL w terminie 30 dni od dnia wejścia w życie niniejszej ustawy
+(art. 2 ust. 1 i 2). Prezes Urzędu Patentowego RP został zobowiązany do niezwłocznego
+uzupełnienia danych zamieszczanych na listach prowadzonych na podstawie art. 18 ust. 1 oraz
+art. 25a ust. 1 nowelizowanej ustawy, o numer PESEL po uzyskaniu tej informacji (art. 2 ust. 3).
+
+     Konsekwencją zmiany zakresu danych zamieszczanych w systemie teleinformatycznym,
+o którym mowa w art. 25a będzie konieczność pilnej zmiany rozporządzenia wydanego na
+podstawie art. 26 ustawy z dnia 11 kwietnia 2001 r. o rzecznikach patentowych.
+Rozporządzenie Prezesa Rady Ministrów z dnia 11 października 2016 r. w sprawie wzoru
+i sposobu prowadzenia listy rzeczników patentowych, wzoru legitymacji rzecznika
+patentowego oraz wysokości opłat od wniosku o wpis lub zmianę wpisu na liście rzeczników
+patentowych (Dz. U. poz. 1738) określa bowiem w załączniku nr 1 – wzór listy rzeczników
+patentowych wskazując niezbędne dane identyfikujące rzecznika patentowego. Wśród tych
+danych konieczne będzie umieszczenie numeru PESEL.
+
+     Proponuje się aby ustawa weszła w życie z zachowaniem standardowej 14 – dniowej
+vacatio legis (art. 3).
+
+
+2.   Skutki społeczne, gospodarcze i finansowe
+
+     Oczekiwane skutki społeczne, gospodarcze i finansowe zostały przedstawione w Ocenie
+Skutków Regulacji.
+
+
+3.   Oświadczenie o zgodności z prawem Unii Europejskiej
+
+     Przedmiot projektowanej ustawy nie jest objęty prawem Unii Europejskiej.
+Tytuł projektu: ustawa o zmianie ustawy o rzecznikach patentowych Data sporządzenia: 30 lipca 2025 r.
+
+
+Przedstawiciel wnioskodawcy:                                         Źródło: inicjatywa komisji
+senator Krzysztof Kwiatkowski
+
+Osoby odpowiedzialne za projekt w Biurze Legislacyjnym:              Nr druku: 419, 419 S
+Renata Bronowska, główny legislator, 22 694 95 60
+w zakresie OSR:
+Marian Fałek, główny ekspert, tel. 22 694 90 82
+                                OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+
+Problemem wymagającym rozwiązania jest niespójność regulacji, tj. art. 18 ust. 2 ustawy z dnia 11 kwietnia 2001 r.
+o rzecznikach patentowych określającego zakres danych zamieszczanych w systemie teleinformatycznym prowadzącym
+listę rzeczników patentowych z przepisami rozporządzenia wydanego na podstawie art. 53e ust. 2 ustawy z dnia 27 lipca
+2001 r. – Prawo o ustroju sądów powszechnych, tj. § 4 ust. 1 rozporządzenia Ministra Sprawiedliwości z dnia 12 marca
+2024 r. w sprawie portalu informacyjnego (Dz. U. poz. 366) wskazującego, że podstawą do założenia konta w portalu
+informacyjnym dla osoby fizycznej jest zamieszczenie we wniosku o utworzenie takiego konta numeru PESEL, co skutkuje
+brakiem możliwości korzystania z portalu informacyjnego przez rzeczników patentowych, tym samym prawidłowego
+wykonywania obowiązków jako pełnomocnika procesowego.
+Konieczność podjęcia prac legislacyjnych w tym zakresie była postulowana przez Polską Izbę Rzeczników Patentowych,
+która wykazywała, że portal informacyjny, będący systemem teleinformatycznym, o którym mowa w art. 53e § 1 ustawy
+z dnia 27 lipca 2001 r. – Prawo o ustroju sądów powszechnych (Dz. U. z 2024 r. poz. 334, z późn. zm.) nie jest
+przygotowany w sposób umożliwiający rzecznikom patentowym założenie konta w portalu oraz dokonywanie odbioru
+pism w sprawach, w których występują oni jako pełnomocnicy procesowi przed sądami. Rzecznicy patentowi dokonując
+próby rejestracji w portalu informacyjnym, przy wprowadzeniu numeru PESEL i numeru wpisu na listę rzeczników
+patentowych pojawia się komunikat o nieodnalezieniu danych pełnomocnika o podanym numerze PESEL.
+Przyczyną takiego stanu rzeczy jest fakt, że dane rzeczników patentowych pobierane przez portal informacyjny pochodzą
+z listy rzeczników patentowych prowadzonej przez Urząd Patentowy Rzeczypospolitej Polskiej na podstawie art. 18 ust. 1
+i 2 ustawy ustawie z dnia 11 kwietnia 2001 r. o rzecznikach patentowych (Dz. U. z 2024 r. poz. 749), na której nie
+zamieszcza się numerów PESEL rzeczników patentowych.
+
+
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji i oczekiwany efekt.
+Rekomenduje się projekt ustawy o zmianie ustawy o rzecznikach patentowych, w którym poszerza się zakres danych
+podlegających wpisowi na listę rzeczników patentowych oraz aplikantów rzeczniowskich o numer PESEL.
+
+Oczekuje się, że przedmiotowa ustawa usunięcie istniejącej niespójności w regulacjach prawnych, które umożliwią
+rzecznikom patentowym pełne korzystanie z portalu informacyjnego.
+
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Nie zachodzi konieczność przeglądu rozwiązań przyjętych w innych krajach członkowskich OECD lub UE. Państwa
+członkowskie Unii Europejskiej dostrzegają korzyści wynikające z informatyzacji procesów administracyjnych, dlatego
+w coraz większym stopniu wprowadzane są rozwiązania aplikujące zastosowanie odpowiednich portali informatycznych.
+W rezultacie zastosowania tego typu usprawnień występują korzyści związane z wdrożenia rozwiązań informatycznych,
+następuje szybszy obieg dokumentów, skrócenie procedur, w rezultacie obniżenie odpowiednich kategorii kosztów sektora
+publicznego.
+4. Podmioty, na które oddziałuje projekt.
+            Grupa                      Wielkość           Źródło danych                              Oddziaływanie
+
+    rzeczników patentowych               898              Fundacja JWP1        obowiązek    poinformowania    Prezesa              Urzędu
+                                       w 2021 r.                               Patentowego o posiadanym numerze PESEL
+
+aplikantów rzeczniowskich
+
+
+
+          Prezesa                                                              obowiązek niezwłocznego uzupełniania danych w
+     Urzędu Patentowego                                                        systemach teleinformatycznych dotyczących listy
+                                                                               rzeczników     patentowych      oraz    aplikantów
+                                                                               przekazanych informacji o numerze PESEL
+
+
+                                                                               obowiązek prowadzenia w systemie teleinformatycznym
+       Urząd Patentowy                                                         listy rzeczników patentowych oraz aplikantów, która
+                                                                               zawierać będzie także numer PESEL tych osób
+
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji.
+Z uwagi na wniesienie projektu ustawy w trybie tzw. szybkiej ścieżki legislacyjnej, zgodnie z art. 69 ust. 3 Regulaminu Senatu,
+konsultacji nie przeprowadza się.
+6. Wpływ na sektor finansów publicznych.
+(ceny stałe z 2025 r.)                                    Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                   0       1        2        3      4      5       6      7      8       9     10      Łącznie (0-10)
+Dochody ogółem                     0       0        0        0      0      0       0      0      0       0      0              0
+Wydatki ogółem                     0      b.d.     b.d.     b.d.   b.d.   b.d.    b.d.   b.d.   b.d.    b.d.   b.d.          b.d.
+Saldo ogółem                       0      b.d.     b.d.     b.d.   b.d.   b.d.    b.d.   b.d.   b.d.    b.d.   b.d.          b.d.
+Źródła finansowania
+Dodatkowe
+informacje, w tym         Przedmiotowa ustawa nie będzie w sposób systemowy wpływała na sektor publiczny powodując
+wskazanie źródeł          zmiany po stronie dochodowej lub wydatkowej. Celem projektu ustawy jest usunięcie istniejącej
+danych i przyjętych
+                          niespójności w regulacjach prawnych, które umożliwią rzecznikom patentowym pełne korzystanie
+do obliczeń założeń
+                          z portalu informacyjnego co umożliwi przekazywanie doręczeń sądowych rzecznikom patentowym
+                          za pośrednictwem portalu informacyjnego sądów powszechnych.
+
+                          Dostosowanie portalu informacyjnego, aby zawierał także numer PESEL rzeczników patentowych
+                          może wiązać się z koniecznością dokonania pewnych modyfikacji w systemie informatycznym.
+                          Jednakże ew. prace w tym zakresie mogą wiązać się z marginalnym wpływem na wydatki sektora
+                          publicznego dlatego uwzględniając zasadę proporcjonalności, a także z uwagi na to, że projekt
+                          ustawy procedowany jest w trybie tzw. szybkiej ścieżki legislacyjnej, zgodnie z art. 69 ust. 3
+                          Regulaminu Senatu, nie szacuje się tych kosztów.
+
+
+
+
+1
+ Raport „Rzecznik patentowy – zawód dla twórczych”, https://www.jwp-fundacja.pl/wp-content/uploads/2021/07/raport-o-zawodzie-rzecznika-
+patentowego_fundacjajwp.pdf
+ 7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz na
+    rodzinę, obywateli i gospodarstwa domowe.
+                                                      Skutki
+Czas w latach od wejścia w życie        0        1           2         3         5        10       Łącznie (0-10)
+zmian
+W ujęciu          duże
+                                        0        0           0         0         0         0             0
+pieniężnym        przedsiębiorstwa
+(w mln zł,        sektor mikro-,
+ceny stałe z      małych i średnich     0        0           0         0         0         0             0
+2025 r.)          przedsiębiorstw
+                  rodzina, obywatele
+                  oraz gospodarstwa     0        0           0         0         0         0             0
+                  domowe
+W ujęciu          duże
+niepieniężnym     przedsiębiorstwa   Brak wpływu ustawy na konkurencyjność gospodarki i przedsiębiorczość, w tym
+                  sektor mikro-,     funkcjonowanie przedsiębiorców.
+                  małych i średnich
+                  przedsiębiorstw
+                  rodzina, obywatele
+                  oraz gospodarstwa Brak wpływ na rodzinę, obywateli i gospodarstwa domowe.
+                  domowe
+Dodatkowe
+informacje, w tym
+wskazanie źródeł
+danych i przyjętych
+do obliczeń założeń
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu.
+Brak wpływu.
+9. Wpływ na rynek pracy.
+Brak skutków.
+10. Wpływ na pozostałe obszary.
+
+   środowisko naturalne              demografia                               informatyzacja
+   sytuacja i rozwój regionalny      mienie państwowe                         zdrowie
+   inne:
+
+Przedmiotowa ustawa umożliwi pełne korzystanie z portalu informacyjnego, będącego systemem teleinformatycznym, o
+którym mowa w art. 53e § 1 ustawy z dnia 27 lipca 2001 r. – Prawo o ustroju sądów powszechnych (Dz. U. z 2024 r. poz.
+334, z późn. zm.) przez rzeczników patentowych. Regulacja umożliwi przekazywanie doręczeń sądowych rzecznikom
+patentowym za pośrednictwem portalu informacyjnego sądów powszechnych.
+
+11. Planowane wykonanie przepisów aktu prawnego.
+Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Nie zachodzi konieczność ewaluacji efektów projektu ustawy. OSR ex post projektowanej regulacji może stanowić element
+szerszej ewaluacji funkcjonalności portalu informacyjnego sądów powszechnych.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.).
+Brak
+

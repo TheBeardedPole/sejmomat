@@ -1,0 +1,2000 @@
+                                                                       Druk nr 1314
+                                                                   Warszawa, 21 maja 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-52-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy o przetwarzaniu danych
+   dotyczących przelotu pasażera.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Spraw Wewnętrznych i Administracji.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+             Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                       Projekt
+                                          U S T AWA
+
+                                             z dnia
+
+          o zmianie ustawy o przetwarzaniu danych dotyczących przelotu pasażera
+
+
+     Art. 1. W ustawie z dnia 9 maja 2018 r. o przetwarzaniu danych dotyczących przelotu
+pasażera (Dz. U. z 2022 r. poz. 1441) wprowadza się następujące zmiany:
+1)   w art. 2:
+     a)    pkt 6 otrzymuje brzmienie:
+           „6) lot PNR – lot pozaunijny albo lot wewnątrzunijny statku powietrznego
+                 wykonującego przewóz lotniczy pasażerów, w tym nieodpłatny, podczas
+                 których następuje przekroczenie granicy państwowej, a start albo lądowanie
+                 statku powietrznego następuje na terytorium Rzeczypospolitej Polskiej;”,
+     b)    po pkt 6 dodaje się pkt 6a i 6b w brzmieniu:
+           „6a) lot pozaunijny – lot, który jest planowany pomiędzy terytorium państwa
+                 trzeciego a terytorium państwa członkowskiego, bez względu na postoje na
+                 terytorium innych państw członkowskich lub państw trzecich;
+           6b) lot wewnątrzunijny – lot, który jest planowany pomiędzy terytoriami państw
+                 członkowskich, bez postojów na terytorium państwa trzeciego;”;
+2)   w art. 5 w ust. 1 wyraz „organizuje” zastępuje się wyrazem „obsługuje”;
+3)   w art. 6:
+     a)    w ust. 2 pkt 2 otrzymuje brzmienie:
+           „2) pkt 2 – polega na przesłaniu danych PNR pasażerów znajdujących się na
+                 pokładzie    statku    powietrznego,     kiedy   po   zakończeniu   odprawy
+                 biletowo-bagażowej i wejściu pasażerów na pokład statku powietrznego nie
+                 mogą go opuścić przed startem, a inni pasażerowie nie mogą wejść na pokład.
+                 Przekazanie tych danych PNR może polegać na aktualizacji danych PNR
+                 przekazanych w terminie, o którym mowa w ust. 1 pkt 1.”,
+     b)    w ust. 3 po wyrazie „ponownie” dodaje się wyrazy „z uwzględnieniem tych zmian”;
+                                               –2–
+
+
+4)   art. 10 otrzymuje brzmienie:
+          „Art. 10. 1. Przewoźnik lotniczy, na wniosek JIP, w celu zapewnienia skutecznego
+     przekazywania danych PNR, informuje JIP w formie pisemnej w postaci papierowej lub
+     elektronicznej o:
+     1)   swoich danych: nazwie, adresie, numerze telefonu oraz adresie e-mail,
+     2)   wybranym przez siebie spośród określonych w przepisach wykonawczych
+          wydanych na podstawie art. 8 ust. 3 pkt 1 protokole i formacie danych,
+          wykorzystywanych do przekazania danych PNR do JIP,
+     3)   elementach kategorii gromadzonych przez siebie danych PNR
+     – w terminie 14 dni od dnia doręczenia wniosku JIP.
+          2. W stosunku do przewoźnika lotniczego, o którym mowa w art. 8 ust. 4, nie stosuje
+     się obowiązku określonego w ust. 1 pkt 2.
+          3. W przypadku gdy zmieniły się informacje, o których mowa w ust.1, przewoźnik
+     lotniczy niezwłocznie, jednak nie później niż w terminie 30 dni od dnia, w którym
+     nastąpiła zmiana danych, przekazuje ich aktualizację w formie pisemnej w postaci
+     papierowej lub elektronicznej do JIP.”;
+5)   w art. 18:
+     a)   w ust. 1 w pkt 2 wyrazy „art. 10 ust. 1 pkt 4” zastępuje się wyrazami „art. 10 ust. 1
+          pkt 3”,
+     b)   po ust. 1 dodaje się ust. 1a w brzmieniu:
+                  „1a. JIP dokonuje weryfikacji na podstawie rocznego planu weryfikacji
+          zatwierdzonego przez Komendanta Głównego Straży Granicznej lub na jego
+          polecenie. Roczny plan weryfikacji opracowuje JIP na podstawie analizy ryzyka
+          wystąpienia nieprawidłowości przy przekazaniu danych PNR, a w szczególności
+          nieprawidłowości przy przekazaniu danych PNR mających szczególne znaczenie dla
+          wykrywania i zwalczania przestępstw lub przestępstw skarbowych, o których mowa
+          w art. 3.”,
+     c)   dodaje się ust. 5 i 6 w brzmieniu:
+                  „5. Naruszenia stwierdzone przez JIP w wyniku weryfikacji uznaje się za
+          niedopełnienie obowiązku przekazania danych PNR, o którym mowa w art. 5 ust. 1,
+          chyba że przewoźnik lotniczy przedstawi, w terminie 60 dni od dnia doręczenia
+          zawiadomienia o wszczęciu postępowania administracyjnego w sprawie naruszenia
+          przez przewoźnika lotniczego obowiązku przekazywania danych PNR, dowód
+                                             –3–
+
+
+          potwierdzający, że wykonany lot nie był lotem PNR, przewoźnik lotniczy nie
+          posiadał danych PNR w terminach, o których mowa w art. 6 ust. 1, lub wystąpiły
+          okoliczności, o których mowa w art. 69.
+               6. Za dowód, o którym mowa w ust. 5, może być uznana w szczególności
+          informacja uzyskana od Polskiej Agencji Żeglugi Powietrznej, zarządzającego
+          lotniskiem, podmiotu, na rzecz którego był realizowany lot, podmiotu, który
+          gromadzi dane pasażerów w celu rezerwacji lub realizacji lotu przez przewoźnika
+          lotniczego, lub podmiotu realizującego zadania w zakresie obsługi naziemnej
+          statków powietrznych. Jeżeli dokument stanowiący dowód jest sporządzony
+          w języku obcym, przewoźnik lotniczy przesyła ten dokument wraz z tłumaczeniem
+          na język polski wykonanym przez tłumacza przysięgłego na koszt przewoźnika
+          lotniczego.”;
+6)   po art. 18 dodaje się art. 18a w brzmieniu:
+          „Art. 18a. 1. JIP przetwarza zgromadzone w KSI PNR dane PNR pasażerów lotów
+     pozaunijnych.
+          2. W przypadku zaistnienia rzeczywistego i aktualnego lub możliwego do
+     przewidzenia zagrożenia wystąpieniem przestępstw lub przestępstw skarbowych,
+     o których mowa w art. 3, w szczególności zagrożenia o charakterze terrorystycznym, JIP
+     może przetwarzać dane PNR pasażerów lotów wewnątrzunijnych zgromadzone w KSI
+     PNR.
+          3. Przetwarzanie danych PNR, o którym mowa w ust. 2, dotyczy danych PNR
+     pasażerów lotów wewnątrzunijnych w przypadku:
+     1)   obowiązywania na terytorium Rzeczypospolitej Polskiej stopnia alarmowego,
+          o którym mowa w art. 15 ust. 1 ustawy z dnia 10 czerwca 2016 r. o działaniach
+          antyterrorystycznych (Dz. U. z 2025 r. poz. 194), albo
+     2)   wytypowania lotu zgodnie z ust. 4 albo 6.
+          4. Minister właściwy do spraw wewnętrznych na wniosek Komendanta Głównego
+     Straży Granicznej, sporządzony na podstawie informacji uzyskanych od właściwych
+     organów, uwzględniających kryteria tras lotniczych, planów podróży oraz lotnisk,
+     z zachowaniem przepisów o ochronie informacji niejawnych, może określić, w drodze
+     zarządzenia niepodlegającego ogłoszeniu, loty wewnątrzunijne objęte prawem
+     przetwarzania danych PNR.
+                                             –4–
+
+
+          5. Komendant Główny Straży Granicznej, na podstawie informacji uzyskanych od
+     właściwych organów, dokonuje na bieżąco weryfikacji zasadności objęcia lotów
+     wewnątrzunijnych prawem przetwarzania danych PNR i nie rzadziej niż raz na rok
+     przedkłada ministrowi właściwemu do spraw wewnętrznych informację w tej sprawie.
+          6. Objęcie lotu wewnątrzunijnego prawem przetwarzania danych PNR może także
+     nastąpić na wniosek właściwego organu za zgodą:
+     1)   w przypadku postępowania przed sądem – sądu prowadzącego postępowanie;
+     2)   w przypadku postępowania przygotowawczego – prokuratora prowadzącego lub
+          nadzorującego postępowanie;
+     3)   w przypadku czynności operacyjno-rozpoznawczych – prokuratora okręgowego
+          właściwego ze względu na siedzibę organu wykonującego te czynności.
+          7. Zgoda na objęcie lotu wewnątrzunijnego prawem przetwarzania danych PNR
+     może być wydana, w przypadku gdy przetwarzanie danych PNR pasażerów lotów
+     wewnątrzunijnych jest niezbędne ze względu na zaistnienie zagrożenia wystąpieniem
+     przestępstw lub przestępstw skarbowych, o których mowa w art. 3, w szczególności
+     zagrożenia o charakterze terrorystycznym, a lot nie został wytypowany na podstawie
+     zarządzenia, o którym mowa w ust. 4, albo gdy zarządzenie takie nie obowiązuje.
+          8. Właściwy organ, osoba przez niego upoważniona lub inna osoba upoważniona
+     w trybie, o którym mowa w art. 31 ust. 4, składa wniosek o wyrażenie zgody na objęcie
+     lotu wewnątrzunijnego prawem przetwarzania danych PNR. Do wniosku dołącza się
+     wniosek, o którym mowa w art. 21.
+          9. Zgoda na objęcie lotu wewnątrzunijnego prawem przetwarzania danych PNR jest
+     udzielana na wniosku, o którym mowa w art. 21.”;
+7)   w art. 21 w ust. 4 pkt 1 otrzymuje brzmienie:
+     „1) zgodę, o której mowa w art. 18a ust. 6 lub art. 33 ust. 2;”;
+8)   w art. 23 pkt 7 otrzymuje brzmienie:
+     „7) nie uzyskano zgody, o której mowa w art. 18a ust. 6 lub art. 33 ust. 2.”;
+9)   w art. 32 ust. 1 otrzymuje brzmienie:
+          „1. Dane PNR są przechowywane przez JIP przez:
+     1)   5 lat od dnia ich zgromadzenia – w przypadku danych PNR pasażerów lotów
+          pozaunijnych,
+                                             –5–
+
+
+     2)   3 lata od dnia ich zgromadzenia – w przypadku danych PNR pasażerów lotów
+          wewnątrzunijnych
+     – a po upływie tego okresu podlegają niezwłocznie trwałemu usunięciu w sposób
+     zautomatyzowany przy wykorzystaniu KSI PNR.”;
+10) w art. 33:
+     a)   ust. 3 otrzymuje brzmienie:
+                 „3. Zgoda, o której mowa w ust. 2, jest wydawana, w przypadku gdy
+          przetwarzanie zdepersonalizowanych danych PNR jest niezbędne do realizacji celu
+          określonego w art. 1 ust. 1 i dotyczy danych PNR zgromadzonych w KSI PNR nie
+          wcześniej niż dwa lata od dnia ich zgromadzenia.”,
+     b)   po ust. 3 dodaje się ust. 3a w brzmieniu:
+                 „3a. W przypadku gdy przetwarzanie zdepersonalizowanych danych PNR jest
+          niezbędne do realizacji celu określonego w art. 1 ust. 1, a uzyskanie takich informacji
+          w inny sposób okazało się bezskuteczne albo nie będzie możliwe, zgoda, o której
+          mowa w ust. 2, może dotyczyć także danych PNR zgromadzonych w KSI PNR
+          wcześniej niż dwa lata od dnia ich zgromadzenia.”;
+11) w art. 64 w ust. 1 pkt 2 otrzymuje brzmienie:
+     „2) nie przekazuje do JIP wszystkich zgromadzonych, w celu dokonania rezerwacji lub
+          realizacji lotu PNR, elementów kategorii danych, o których mowa w art. 10 ust. 1
+          pkt 3, do których przekazania był zobowiązany na podstawie art. 5 ust. 1, narusza
+          obowiązek wynikający z art. 6 ust. 2 pkt 2 albo narusza obowiązek wynikający
+          z art.6 ust. 3, podlega administracyjnej karze pieniężnej w wysokości 12 000 zł”;
+12) w art. 65:
+     a)   w ust. 2 i 3 wyrazy „obniżonej o 50 %” zastępuje się wyrazami „obniżonej o 75 %”,
+     b)   po ust. 3 dodaje się ust. 3a–3c w brzmieniu:
+                 „3a. W przypadku gdy naruszenia, o których mowa w art. 64 ust. 1, dotyczące
+          niedopełnienia obowiązków przekazania danych PNR w terminach określonych
+          w art. 6 ust. 1, zostały usunięte przez przewoźnika w terminie 7 dni od dnia
+          wylądowania statku powietrznego, administracyjną karę pieniężną za takie
+          naruszenia nakłada się w wysokości obniżonej o 50 %.
+                 3b. W przypadku gdy naruszenia, o których mowa w art. 64 ust. 1, dotyczące
+          niedopełnienia obowiązków przekazania danych PNR w terminach określonych
+          w art. 6 ust. 1 pkt 1 i 2, zostały usunięte przez przewoźnika w terminie 14 dni od dnia
+                                            –6–
+
+
+          wylądowania statku powietrznego, administracyjną karę pieniężną za takie
+          naruszenia nakłada się w wysokości obniżonej o 25 %.
+               3c. W przypadku gdy naruszenie, o którym mowa w art. 64, wystąpiło
+          w okresie 60 dni od dnia wykonania przez przewoźnika lotniczego pierwszego lotu
+          PNR i w tym okresie przewoźnik:
+          1)   zapewnił    warunki     techniczne   umożliwiające     sprawne    i    skuteczne
+               przekazywanie przez niego danych PNR do JIP oraz
+          2)   przekazał do JIP wszystkie dane PNR pasażerów lotów objętych takim
+               obowiązkiem począwszy od dnia wykonania pierwszego lotu PNR
+          – administracyjnej kary pieniężnej za takie naruszenie nie nakłada się.”;
+13) art. 66 otrzymuje brzmienie:
+          „Art. 66. 1. Przewoźnik lotniczy, który nie dopełnia obowiązków określonych
+     w art.10 ust. 1 w terminie, o którym mowa w tym przepisie, podlega administracyjnej
+     karze pieniężnej w wysokości 5000 zł za każde takie naruszenie.
+          2. Tej samej karze podlega przewoźnik lotniczy, który nie dopełnia obowiązku
+     określonego w art. 10 ust. 3.”;
+14) art. 69 otrzymuje brzmienie:
+          „Art. 69. Postępowania w sprawie naruszenia przez przewoźnika lotniczego
+     obowiązku przekazywania danych PNR nie wszczyna się, a wszczęte umarza, gdy
+     naruszenie, o którym mowa w art. 64, nastąpiło wskutek:
+     1)   działania siły wyższej;
+     2)   awarii KSI PNR;
+     3)   awarii powstałej po stronie przewoźnika lotniczego, niezawinionej przez tego
+          przewoźnika, pod warunkiem niezwłocznego poinformowania JIP o powstałej
+          awarii, nie później jednak niż 30 dni po upływie terminu przekazania danych PNR
+          oraz pod warunkiem przekazania w tym terminie danych PNR, które nie zostały
+          wskutek tej awarii przekazane, chyba że przewoźnik je utracił wskutek tej awarii.”;
+15) uchyla się art. 71.
+
+     Art. 2. 1. Nie wszczyna się postępowania administracyjnego w sprawie naruszenia przez
+przewoźnika lotniczego obowiązku określonego w art. 5–8 albo art. 10 ustawy zmienianej
+w art. 1, w brzmieniu dotychczasowym, a wszczęte umarza, jeżeli jego niedopełnienie miało
+miejsce przed dniem wejścia w życie niniejszej ustawy, a przewoźnik lotniczy nie później niż
+w ciągu trzech miesięcy od dnia wejścia w życie niniejszej ustawy spełnił warunki
+                                            –7–
+
+
+przekazywania danych PNR określone w art. 8 ustawy zmienianej w art. 1 lub w okresie roku
+przed dniem wejścia w życie niniejszej ustawy nie obsługiwał żadnego lotu PNR, lub jeżeli
+naruszenie jest związane z obsługą lotu wewnątrzunijnego.
+     2. Nie wszczyna się postępowania przed wojewódzkimi sądami administracyjnymi oraz
+przed Naczelnym Sądem Administracyjnym w sprawie naruszenia przez przewoźnika
+lotniczego obowiązku określonego w art. 5–8 albo art. 10 ustawy zmienianej w art. 1,
+w brzmieniu dotychczasowym, a wszczęte umarza, jeżeli naruszenie miało miejsce przed
+dniem wejścia w życie niniejszej ustawy, a przewoźnik lotniczy nie później niż w ciągu trzech
+miesięcy od dnia wejścia w życie niniejszej ustawy spełnił warunki przekazywania danych
+PNR określone w art. 8 ustawy zmienianej w art. 1 lub w okresie roku przed dniem wejścia
+w życie niniejszej ustawy nie obsługiwał żadnego lotu PNR, lub jeżeli naruszenie jest związane
+z obsługą lotu wewnątrzunijnego.
+     3. Nie wszczyna się postępowania egzekucyjnego dotyczącego administracyjnej kary
+pieniężnej nałożonej na przewoźnika lotniczego za naruszenie obowiązku określonego
+w art. 5–8 albo art. 10 ustawy zmienianej w art. 1, w brzmieniu dotychczasowym, a wszczęte
+umarza, jeżeli naruszenie miało miejsce przed dniem wejścia w życie niniejszej ustawy,
+a przewoźnik lotniczy nie później niż w ciągu trzech miesięcy od dnia wejścia w życie
+niniejszej ustawy spełnił warunki przekazywania danych PNR określone w art. 8 ustawy
+zmienianej w art. 1 lub w okresie roku przed dniem wejścia w życie niniejszej ustawy nie
+obsługiwał żadnego lotu PNR, lub jeżeli naruszenie jest związane z obsługą lotu
+wewnątrzunijnego.
+
+     Art. 3. Dane PNR pasażerów lotów wewnątrzunijnych zgromadzone w Krajowym
+Systemie Informatycznym PNR wcześniej niż 3 lata przed dniem wejścia w życie niniejszej
+ustawy zostają trwale usunięte w sposób zautomatyzowany przy wykorzystaniu tego systemu
+nie później niż w ciągu 3 miesięcy od dnia wejścia w życie niniejszej ustawy.
+
+     Art. 4. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                       UZASADNIENIE
+
+1. Potrzeba i cel uchwalenia ustawy
+
+         Projekt ustawy o zmianie ustawy o przetwarzaniu danych dotyczących przelotu pasażera
+ma na celu dostosowanie przepisów ustawy z dnia 9 maja 2018 r. o przetwarzaniu danych
+dotyczących przelotu pasażera (Dz. U. z 2022 r. poz. 1441), zwanej dalej „ustawą”, do
+aktualnych wyzwań w zakresie zwalczania przestępstw, w tym przestępstw o charakterze
+terrorystycznym, wynikających z zaistniałej sytuacji geopolitycznej, szanując jednocześnie
+dorobek orzeczniczy Trybunału Sprawiedliwości Unii Europejskiej, w tym mając na względzie
+wyrok Trybunału Sprawiedliwości Unii Europejskiej (TSUE) z dnia 21 czerwca 2022 r.
+w sprawie C-817/19 Ligue des droits humains (Dz. Urz. UE C 340 z 21.06.2022, str. 4), zwany
+dalej „wyrokiem TSUE”. Wyrok TSUE odnosi się do zasad przetwarzania danych dotyczących
+przelotu pasażera (danych PNR1) oraz zgodności tych zasad z prawami podstawowymi.
+
+          Trybunał Sprawiedliwości w pierwszej kolejności orzekł, że dyrektywa UE 2016/681
+z dnia 27 kwietnia 2016 r. w sprawie wykorzystywania danych dotyczących przelotu pasażera
+(danych PNR) w celu zapobiegania przestępstwom terrorystycznym i poważnej przestępczości,
+ich wykrywania, prowadzenia postępowań przygotowawczych w ich sprawie i ich ścigania
+(Dz. Urz. UE L 119 z 04.05.2016, str. 132), zwana dalej „dyrektywą”, jest zgodna z art. 7, art. 8,
+art. 21 oraz art. 52 ust. 1 Karty praw podstawowych UE. Jednocześnie Trybunał
+Sprawiedliwości podkreślił, że wprowadzone mechanizmy wykorzystywania danych PNR są
+wyrazem ochrony celu interesu ogólnego Unii Europejskiej, jakim jest walka z terroryzmem
+oraz poważną przestępczością, a także spełniają wymogi konieczności i proporcjonalności.
+Wskazał również, że przepisy dyrektywy oraz załączniki I i II, po pierwsze, wymieniają dane
+PNR, a po drugie, określają ramy przetwarzania tych danych, między innymi przez określenie
+celów i szczegółowych zasad regulujących te operacje przetwarzania.
+
+          Trybunał Sprawiedliwości stwierdził, że przepisy dyrektywy należy interpretować
+w ten sposób, że uregulowania krajowe nie powinny przewidywać, niejako z automatu, jednego
+ogólnego okresu przechowywania danych wynoszącego pięć lat, mającego zastosowanie bez
+rozróżnienia do wszystkich pasażerów. Jest to bowiem okres nieproporcjonalnie długi,
+zważywszy, że dotyczyłby również danych PNR osób, wobec których nie wykryto istnienia
+jakichkolwiek obiektywnych przesłanek wskazujących na to, że mogą stwarzać zagrożenie
+popełnienia przestępstw o charakterze terrorystycznym lub innych poważnych przestępstw.
+
+1
+    z ang. Passenger Name Record
+     Ponadto w swym wyroku TSUE wskazał, że przepisy unijne, w tym dyrektywę, należy
+interpretować w ten sposób, że państwa członkowskie nie powinny przetwarzać danych PNR z
+lotów wewnątrzunijnych, jeśli nie jest to uzasadnione względami bezpieczeństwa, tj. przy braku
+rzeczywistego i aktualnego lub dającego się przewidzieć zagrożenia o charakterze
+terrorystycznym, z którym zmaga się dane państwo członkowskie. Przetwarzanie przez
+właściwe organy takich danych PNR może mieć miejsce tylko, jeżeli służy to realizacji celów,
+o których mowa w dyrektywie, a zgodnie z art. 1 ust. 2 dyrektywy są nimi zapobieganie
+przestępstwom o charakterze terrorystycznym i poważnej przestępczości oraz ich wykrywanie,
+prowadzenie postępowań przygotowawczych w ich sprawie i ich ściganie. W takim przypadku
+stosowanie mechanizmów, o których mowa w dyrektywie, powinno być ograniczone do
+niektórych połączeń lub planów podróży, lub niektórych lotnisk, dworców lub portów
+morskich, co do których istnieją przesłanki uzasadniające takie stosowanie. TSUE podkreślił,
+że to do danego państwa członkowskiego należy wybór lotów wewnątrzunijnych lub
+przewozów odbywających się za pomocą innych środków transportu wewnątrz Unii, dla
+których takie przesłanki istnieją, oraz dokonywanie regularnego przeglądu takiego stosowania,
+w zależności od zmiany warunków, które uzasadniają ich wybór.
+
+     Tym samym wyrok TSUE uznał, że po pierwsze, niezgodne z przepisami unijnymi jest
+takie ustawodawstwo krajowe, które przewiduje ogólny pięcioletni okres przechowywania
+danych PNR, mający zastosowanie do wszystkich pasażerów lotniczych, w tym do tych, wobec
+których nie ustalono żadnych obiektywnych dowodów mogących świadczyć o istnieniu
+zagrożenia   terrorystycznego   lub   poważną     przestępczością.   Po   drugie,   niezgodne
+z prawodawstwem unijnym są również takie przepisy krajowe, które przewidują przetwarzanie
+danych PNR w odniesieniu do wszystkich lotów wewnątrzunijnych. Stosowanie środków
+wynikających z dyrektywy na loty wewnątrzunijne może mieć miejsce, ale musi zostać
+poprzedzone analizą pod kątem konieczności i proporcjonalności takiego rozwiązania do celów
+wynikających z art. 1 ust. 2 dyrektywy, a zatem ograniczone do tego, co jest ściśle konieczne,
+aby zapewnić bezpieczeństwo.
+
+     W związku z powyższym w projektowanej nowelizacji zaproponowano uwzględnić
+kierunkowe założenia wyroku TSUE w zakresie skrócenia okresu retencji danych PNR, jak
+również ograniczenia zakresu przetwarzania danych PNR z lotów wewnątrzunijnych,
+uzależniając ten zakres względami zagrożenia terrorystycznego. W obecnej sytuacji
+geopolitycznej propozycje zmian przepisów w zakresie gromadzenia i przetwarzania danych
+PNR w celu wykrywania i zwalczania przestępstw o charakterze terrorystycznym oraz innych
+
+
+                                              2
+przestępstw, o których mowa w dyrektywie, muszą być wyważone między prawem do ochrony
+danych osobowych a względami bezpieczeństwa. W tym zakresie, proponując zmiany do
+ustawy, projektodawca kierował się naczelnym celem dyrektywy, który precyzyjnie został
+określony w motywie 5 tego aktu. Zgodnie z nim „Celem niniejszej dyrektywy jest, między
+innymi, zapewnienie bezpieczeństwa ogólnego, ochrona życia i bezpieczeństwa osób oraz
+stworzenie ram prawnych służących ochronie danych PNR w związku z ich przetwarzaniem
+przez właściwe organy.”.
+
+     Niezależnie od powyższego projektowana nowelizacja ma również na celu usunięcie
+wszelkich wątpliwości interpretacyjnych powstałych na gruncie siedmioletniego stosowania
+ustawy,   a   tym   samym    usprawnienie    funkcjonowania    mechanizmów      dotyczących
+przekazywania przez przewoźników lotniczych danych PNR oraz ich przetwarzania przez
+Krajową Jednostkę do spraw Informacji o Pasażerach (JIP) w celach określonych przez
+unijnego prawodawcę.
+
+2. Obowiązujący stan prawny
+
+     Ustawa stanowi transpozycję do polskiego porządku prawnego dyrektywy, która to – a
+tym samym również ustawa – ma zastosowanie do przewoźników wykonujących loty
+pasażerskie, podczas których następuje przekroczenie granicy państwowej, a start albo
+lądowanie statku powietrznego następuje na terytorium danego państwa UE, czyli w tym
+przypadku – Rzeczypospolitej Polskiej. Zatem zgodnie z obowiązującą ustawą lot PNR to taki
+lot statku powietrznego wykonujący przewóz lotniczy pasażerów, podczas którego następuje
+przekroczenie granicy państwowej, nie zaś granicy Unii Europejskiej, a start albo lądowanie
+tego statku następuje na terytorium Rzeczypospolitej Polskiej. Definicja lotu PNR, wynikająca
+z art. 2 pkt 6 ustawy, nie przewiduje zatem rozróżnienia lotów PNR na loty pozaunijne
+i wewnątrzunijne, a co za tym idzie, ustawa stosuje wobec obu kategorii te same zasady
+przekazywania danych PNR i ich przetwarzania.
+
+     Ponadto zgodnie z ustawą wszystkie dane PNR są przechowywane przez JIP przez okres
+5 lat od dnia ich zgromadzenia, a następnie trwale usuwane z Krajowego Systemu
+Informatycznego PNR (KSI PNR). Dodatkowo w świetle art. 33 ustawy po upływie
+6-miesięcznego okresu przechowywania dane PNR są depersonalizowane, ale możliwe jest ich
+ponowne ujawnienie każdorazowo po uzyskaniu w tej sprawie stosownej zgody prokuratora
+lub sądu. Tym samym przepisy ustawy nie odpowiadają twierdzeniom Trybunału
+Sprawiedliwości, który w tej kwestii zauważa, że dostęp do danych PNR w formie pozwalającej
+na bezpośrednie zidentyfikowanie osoby, której dotyczą, „po upływie początkowego okresu
+
+                                             3
+zatrzymania” powinno następować „wyłącznie po spełnieniu bardzo restrykcyjnych i ściśle
+określonych warunków”. Trybunał uznał bowiem „że im dłuższy okres zatrzymania danych
+PNR, tym ingerencja z niego wynikająca jest poważniejsza”.
+
+3. Proponowane kierunki rozwiązań ustawowych
+
+     Mając na uwadze powyższe, w projektowanej nowelizacji zaproponowano w pierwszej
+kolejności wprowadzenie odrębnych definicji lotów wewnątrzunijnych i pozaunijnych, a tym
+samym zapewnienie na poziomie ustawowym odrębnych zasad przetwarzania danych PNR ze
+względu na to, jakiej kategorii lotów dotyczą. W konsekwencji dane PNR dotyczące pasażerów
+lotów pozaunijnych będą mogły być przetwarzane w odniesieniu do wszystkich takich lotów,
+zgodnie z art. 1 dyrektywy, natomiast rozszerzenie tego mechanizmu na zgromadzone dane
+PNR pasażerów lotów wewnątrzunijnych będzie możliwe tylko w zakresie ustawowo
+określonym. Mając na względzie, że kierunkowo zgodnie z wyrokiem TSUE to do państw
+członkowskich należy ocena zagrożeń związanych z przestępstwami o charakterze
+terrorystycznym i poważną przestępczością, zaproponowano w projekcie, w pierwszej
+kolejności,   skorelować   mechanizm    przetwarzania   danych   PNR    pasażerów    lotów
+wewnątrzunijnych z krajowym systemem antyterrorystycznym, którego podstawę stanowi
+ustawa z dnia 10 czerwca 2016 r. o działaniach antyterrorystycznych (Dz. U. z 2025 r.
+poz. 194).
+
+     W tym zakresie projekt przewiduje wykorzystanie ustanowionego w ww. ustawie
+powszechnie obowiązującego i dostosowanego do wymogów NATO czterostopniowego
+systemu stopni alarmowych uruchamianego na wypadek zagrożeń o charakterze
+terrorystycznym. Już w obowiązującym stanie prawnym system ten jest ściśle powiązany
+z innymi mechanizmami reagowania. Zakłada on bowiem, w zależności od poziomu
+zagrożenia, narzucenie organom i służbom dodatkowych obowiązków i wynikających z tego
+tytułu zadań w zakresie zapewnienia bezpieczeństwa i porządku publicznego.
+
+     W myśl projektowanych rozwiązań takie zwiększenie zadań będzie w tym wypadku
+odnosiło się do JIP, którą zgodnie z art. 12 ustawy jest wskazana przez Komendanta Głównego
+Straży Granicznej komórka organizacyjna Straży Granicznej. W rezultacie zaproponowano, że
+w przypadku wprowadzenia przez Prezesa Rady Ministrów (albo w przypadku niecierpiącym
+zwłoki przez ministra właściwego do spraw wewnętrznych) jednego ze stopni alarmowych, o
+których mowa w art. 15 ustawy z dnia 10 czerwca 2016 r. o działaniach antyterrorystycznych,
+JIP będzie zobowiązana do przetwarzania zgromadzonych danych PNR pochodzących z
+wszystkich lotów wewnątrzunijnych.
+
+                                            4
+     W drugiej kolejności, a zatem w przypadku braku zagrożenia wystąpienia zdarzenia
+o charakterze terrorystycznym na terenie Rzeczypospolitej Polskiej sygnalizowanego
+wprowadzeniem stopnia alarmowego, przetwarzanie zgromadzonych danych PNR pasażerów
+lotów wewnątrzunijnych będzie mogło następować do wybranych lotów wewnątrzunijnych na
+podstawie stosownej oceny dokonanej przez ministra właściwego do spraw wewnętrznych.
+
+     Projekt przewiduje również uwolnienie od odpowiedzialności karnoadministracyjnej
+przewoźników za naruszenia związane z wykonanymi lotami wewnątrzunijnymi w okresie do
+dnia wejścia w życie projektowanych przepisów. Wyrok TSUE, stwierdzając, że
+ustawodawstwo krajowe, które nakazuje przekazywanie danych PNR ze wszystkich lotów
+wewnątrzunijnych, przy braku rzeczywistego i aktualnego lub przewidywalnego zagrożenia
+terrorystycznego, jest niezgodne z dyrektywą, spowodował, że nakładanie kar za
+nieprzekazanie danych PNR z tego rodzaju lotów w dotychczasowych uwarunkowaniach
+prawnych również nie powinno mieć miejsca.
+
+     Drugim obszarem zmian objętych projektem, do którego również odnosi się wyrok
+TSUE, jest retencja danych PNR. Trybunał w tej sprawie stwierdził, że okres 5 lat
+przechowywania wszystkich danych PNR jest szczególnie długi, zważywszy, że całość tych
+danych jest możliwa do ujawnienia, również po okresie 6 miesięcy. W projektowanej
+nowelizacji zaproponowano zmodyfikowanie mechanizmu przechowywania danych PNR, tak
+aby z jednej strony zachowane zostały cele dyrektywy, o których mowa w art. 6 ust. 2, tj.
+skuteczne zapobieganie przestępstwom o charakterze terrorystycznym i poważnej
+przestępczości oraz ich wykrywanie i ściganie, w tym prowadzenie postępowań, z drugiej zaś
+strony, aby osiągnięcie tych celów odpowiadało zasadzie proporcjonalności, tj. aby
+ograniczenia praw i wolności, których to wymaga, występowały tylko wówczas, gdy jest to
+konieczne i rzeczywiście odpowiada celom interesu ogólnego uznawanego przez UE.
+
+     W efekcie skrócony został także okres retencji danych PNR pasażerów lotów
+wewnątrzunijnych, z pięciu do trzech lat, od dnia ich zgromadzenia (zmieniany art. 32 ust. 1
+ustawy). Ponadto w projektowanych w art. 33 ust. 3 oraz 3a określono zasady ujawnienia
+zdepersonalizowanych danych PNR przez JIP. Zgodnie z projektowanym art. 33 ust. 3 zgoda,
+którą w myśl art. 33 ust. 2 ustawy wydaje sąd albo prokurator, będzie mogła być wydawana,
+w przypadku gdy przetwarzanie zdepersonalizowanych danych PNR jest niezbędne do
+realizacji celu określonego w art. 1 ust. 1 ustawy i dotyczy danych PNR, zgromadzonych w
+KSI PNR nie wcześniej niż dwa lata od dnia ich zgromadzenia. Natomiast, w myśl
+projektowanego art. 33 ust 3a, w przypadku gdy uzyskanie takich informacji w inny sposób
+
+
+                                             5
+okazało się bezskuteczne albo nie będzie możliwe, zgoda będzie mogła dotyczyć także danych
+PNR, zgromadzonych w KSI PNR wcześniej niż dwa lata od dnia ich zgromadzenia.
+
+     Natomiast, dane PNR przechowywane krócej będą gromadzone i przetwarzane na tych
+samych zasadach co obecnie. Zakłada się bowiem, że na skutek czynności operacyjnych lub
+śledczych prowadzonych przez poszczególne służby, w tym również służby zagraniczne, mogą
+występować sytuacje, które będą wymagały ponownej personalizacji danych PNR nie starszych
+niż 3 lata. Jednak nawet wówczas będzie to odbywało się pod nadzorem prokuratury albo sądu.
+
+     Należy podkreślić, że 3-letni okres retencji danych PNR jest najczęściej przyjmowanym
+rozwiązaniem również w innych państwach członkowskich UE. Po wydaniu wyroku TSUE taki
+czasookres zaproponowały w swoich ustawodawstwach m.in. Litwa, Łotwa, Estonia, Holandia,
+Belgia, Czechy, Węgry, Chorwacja oraz Słowacja. Zgodnie z informacjami uzyskanymi od
+belgijskiego JIP (belgijska Krajowa Jednostka do spraw Informacji o Pasażerach) w przypadku
+Belgii, której to organ wymiaru sprawiedliwości (Cour constitutionelle) był autorem pytań
+prejudycjalnych w tym zakresie, po publikacji wyroku TSUE, dopuścił jednak gromadzenie i
+przetwarzanie danych PNR ze wszystkich lotów wewnątrzunijnych na okres 3 lat, a zatem po
+pierwsze, nie dokonując żadnych typowań połączeń lotniczych, a po drugie, nie wskazując na
+konieczność stopniowania długości okresu retencji tych danych. Taką decyzję argumentował
+istniejącym poziomem zagrożenia bezpieczeństwa wewnętrznego i wysokim ryzykiem
+zamachów terrorystycznych.
+
+4. Rozwiązania szczegółowe
+
+     W projekcie zaproponowano dodanie do art. 2 ustawy definicji lotu pozaunijnego oraz
+lotu wewnątrzunijnego, a także dokonanie modyfikacji definicji lotu PNR. W tym zakresie
+zaproponowano odwołanie w zasadniczych elementach do definicji zawartych w dyrektywie, a
+zatem w świetle projektowanej nowelizacji lot pozaunijny to lot, odbywający się pomiędzy
+państwem trzecim a państwem członkowskim UE, bez względu na postoje na terytorium innych
+państwach. Z kolei lot wewnątrzunijny oznacza lot, odbywający się z terytorium państwa
+członkowskiego, z zaplanowanym lądowaniem na terytorium co najmniej jednego innego
+państwa członkowskiego, bez postojów na terytorium państwa trzeciego. Zatem lot PNR to lot
+pozaunijny albo wewnątrzunijny statku powietrznego, wykonujący przewóz lotniczy
+pasażerów, podczas którego następuje przekroczenie granicy państwowej, a start albo
+lądowanie statku powietrznego następuje na terytorium Polski. W celu doprecyzowania
+i uniknięcia pojawiających się w dotychczasowej praktyce wątpliwości interpretacyjnych
+w zakresie stosowania przepisów ustawy zaproponowano również wskazanie, że lotem PNR
+
+                                            6
+jest również nieodpłatny lot. Dzięki temu nie będzie możliwe podważanie faktu wykonania lotu
+PNR również w sytuacji lotów prywatnych, za które nie dokonywano opłat.
+
+      W projektowanym art. 5 w ust. 1 zaproponowano m.in. zastąpienie wyrazu „organizuje”
+wyrazem „obsługuje”, aby uniknąć wątpliwości interpretacyjnych. Zmiana ta jest uzasadniona,
+ponieważ organizować lot może nie tylko przewoźnik lotniczy, ale także np. biuro podróży.
+Natomiast, obowiązek przekazania danych PNR do JIP leży po stronie przewoźnika lotniczego,
+który obsługuje i w ramach swojej działalności realizuje przewóz lotniczy.
+
+      Zmiana w art. 6 ust. 2 pkt 2 ustawy ma na celu wyeliminowanie wątpliwości
+interpretacyjnych, ponieważ aktualne brzmienie tego przepisu wskazuje zasadniczo, kiedy dane
+PNR powinny być przekazane, nie wskazując jednocześnie, że chodzi o dane PNR pasażerów,
+którzy znajdują się na pokładzie statku powietrznego i nie mogą go opuścić. Doprecyzowujący
+charakter ma też zmiana w art. 6 ust. 3 ustawy.
+
+      W zmienianym art. 10 wprowadzono zasadę, że informacje dotyczące przewoźnika
+lotniczego oraz informacje o wybranym przez niego protokole i formacie danych,
+wykorzystywanych do przesyłania danych PNR do JIP, a także o elementach kategorii
+gromadzonych przez przewoźnika lotniczego danych PNR będą przekazywane na wniosek JIP.
+Ponadto zrezygnowano z uzyskiwania od przewoźnika lotniczego informacji o ustalonych
+rozkładach lub programach lotów, z uwagi na niewielką przydatność takich informacji dla
+realizacji zadań przez JIP.
+
+      Zmiany w zakresie art. 18 ustawy są wynikiem dotychczasowej praktyki działania JIP,
+które wskazują, że w celu właściwego gospodarowania zasobami kadrowymi JIP i zapewnienia
+prawidłowej realizacji głównych zadań tej komórki, tj. szeroko pojętego przetwarzania danych
+PNR oraz ich analizowania, jest zasadnym, aby weryfikacja danych PNR była prowadzona
+przez JIP według corocznego planu i w oparciu o analizę ryzyka wystąpienia nieprawidłowości
+przy przekazaniu tych danych, a w szczególności nieprawidłowości przy przekazaniu danych
+PNR mających szczególne znaczenie dla wykrywania i zwalczania przestępstw o charakterze
+terrorystycznym i innych przestępstw lub przestępstw skarbowych. W związku z powyższym
+zaproponowano art. 18 uzupełnić o ust. 1a, który będzie stanowił podstawę do takiego
+działania.
+
+      Jednocześnie    projektowane    rozwiązanie   jest   optymalne   z     punktu   widzenia
+monitorowania wykonywania obowiązków przez przewoźników lotniczych wynikających
+z ustawy. Dodawane przepisy nakładają obowiązek na przewoźnika lotniczego przedstawiania
+
+
+
+                                              7
+dowodów potwierdzających, że wykonany lot nie był lotem PNR lub że przewoźnik lotniczy
+nie posiadał danych PNR lub wystąpiły negatywne przesłanki nałożenia kary administracyjnej
+(art. 18 ust. 5 ustawy). Powyższe rozwiązanie jest uzasadnione tym, że to przewoźnik lotniczy
+posiada   informacje   kluczowe    dla   rozstrzygnięcia   w   postępowaniu    kwestii    jego
+odpowiedzialności. Jednocześnie należy wskazać, że projektowane przepisy art. 18 ust. 5 i 6
+korespondują z art. 81a § 2 pkt 2 ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania
+administracyjnego (Dz. U. z 2024 r. poz. 572).
+
+     Weryfikacji, o której mowa w art. 18 ustawy, będą podlegały wszystkie zgromadzone
+dane PNR, także te zgromadzone, a nieprzetwarzane. W tym zakresie zdecydowano
+nie dokonywać zróżnicowania z uwagi na fakt, że projektowane rozwiązania w art.           18a
+przewidują w ust. 6 tryb , który zakłada, że w wyjątkowych i jednocześnie niemożliwych do
+przewidzenia sytuacjach, za zgodą odpowiedniego organu ścigania lub                 wymiaru
+sprawiedliwości,    będzie   możliwe     będzie   przetwarzanie   danych   PNR     z     lotów
+wewnątrzunijnych.
+
+     Projektowany art. 18a – co do zasady – ogranicza prawo przetwarzania zgromadzonych
+danych PNR pasażerów lotów wewnątrzunijnych do sytuacji uzasadniających takie
+przetwarzanie w związku z zagrożeniem wystąpienia przestępstw lub przestępstw skarbowych,
+o których mowa w art. 3 ustawy, w szczególności zagrożenia o charakterze terrorystycznym.
+Zgodnie z projektowanym art. 18a ust. 3 pkt 1 prawo przetwarzania zgromadzonych danych
+PNR z wszystkich lotów wewnątrzunijnych będzie możliwe, w przypadku gdy został
+wprowadzony na terytorium Rzeczypospolitej Polskiej jeden ze stopni alarmowych, o których
+mowa w art. 15 ust. 1 ustawy z dnia 10 czerwca 2016 r. o działaniach antyterrorystycznych. W
+tym miejscu wskazać należy, że w świetle ww. przepisu stopnie alarmowe mogą być
+wprowadzone w przypadku zagrożenia wystąpienia zdarzenia o charakterze terrorystycznym
+albo w przypadku wystąpienia takiego zdarzenia. Są one wprowadzane, zmieniane i
+odwoływane, w drodze zarządzenia, w zależności od rodzaju zagrożenia zdarzeniem o
+charakterze terrorystycznym, przez Prezesa Rady Ministrów, po zasięgnięciu opinii ministra
+właściwego do spraw wewnętrznych i Szefa ABW, a w przypadkach niecierpiących zwłoki –
+przez ministra właściwego do spraw wewnętrznych, po zasięgnięciu opinii Szefa ABW. W
+projekcie przewiduje się, że mechanizm przetwarzania danych PNR z lotów wewnątrzunijnych,
+o którym mowa w projektowanym art. 18a ust. 3 pkt 1, będzie miał miejsce tylko w przypadku
+obowiązywania stopnia alarmowego na terytorium Rzeczypospolitej Polskiej, w tym również
+na części tego terytorium. Natomiast, nie będzie uruchamiany, gdy stopień alarmowy będzie
+
+
+                                              8
+obowiązywał poza terytorium kraju, np. w polskich placówkach dyplomatycznych, tj. w
+przypadkach gdy zagrożenie o charakterze terrorystycznym będzie pochodziło z zewnątrz.
+
+     Powyższe koresponduje z wyrokiem TSUE, który wskazał, że przesłanką uprawniającą
+do przetwarzania danych PNR z lotów wewnątrzunijnych jest rzeczywiste i aktualne lub
+przewidywalne zagrożenie o charakterze terrorystycznym.
+
+W przypadku gdy nie został wprowadzony stopień alarmowy, przetwarzanie danych PNR
+pasażerów lotów wewnątrzunijnych będzie możliwe tylko w odniesieniu do lotów określonych
+w zarządzeniu wydanym przez ministra właściwego do spraw wewnętrznych (projektowany
+art. 18a ust. 4). Na mocy przedmiotowej delegacji ustawowej minister właściwy do spraw
+wewnętrznych będzie uprawniony do wydania, na wniosek Komendanta Głównego Straży
+Granicznej, zarządzenia wskazującego loty wewnątrzunijne, z których zgromadzone dane PNR
+pasażerów JIP będzie uprawniona przetwarzać.
+
+     Treść wniosku zostanie opracowana w oparciu o informacje uzyskane przez Komendanta
+Głównego Straży Granicznej od właściwych organów wymienionych w art. 36 ustawy, które
+w tym zakresie będą uwzględniały kryteria tras lotniczych, planów podróży oraz lotnisk. Takie
+rozwiązanie jest uzasadnione, biorąc pod uwagę cel przetwarzania danych PNR oraz
+okoliczności, które będą stanowiły podstawę do doboru lotów objętych prawem przetwarzania.
+
+     W zarządzeniu wydawanym na podstawie projektowanego art. 18a ust. 4 minister
+właściwy do spraw wewnętrznych określi loty wewnątrzunijne objęte prawem przetwarzania
+przez wskazanie np. przewoźników lotniczych wykonujących loty z danego państwa, lotnisk,
+z których albo do których wykonywane są loty, czy też przez wskazanie konkretnych rejsów
+(połączeń) realizowanych przez poszczególnych przewoźników lotniczych. Jednocześnie,
+mając na uwadze, że w świetle wyroku TSUE w zakresie właściwości państwa członkowskiego
+jest nie tylko typowanie lotów wewnątrzunijnych objętych prawem przetwarzania, ale także
+dokonywanie regularnego przeglądu zasadności utrzymania tych typowań w zależności od
+zmieniającej się sytuacji i stopnia zagrożenia, zaproponowano w art. 18a w ust. 5 zobowiązać
+Komendanta Głównego Straży Granicznej do dokonywania takiego bieżącego przeglądu i
+przekazywania w tej sprawie stosownej informacji ministrowi właściwemu do spraw
+wewnętrznych.
+
+     Zarządzenie ministra właściwego do spraw wewnętrznych będzie miało formę aktu
+prawnego niejawnego (niepodlegającego publicznemu ogłoszeniu). Powyższe ma na celu
+uniemożliwienie uzyskania przez nieuprawnione osoby, chcące uniknąć korzystania z takich
+
+
+
+                                             9
+połączeń lotniczych, informacji, które loty nie są objęte prawem przetwarzania przez JIP i tym
+samym przez właściwe organy. Takie regulacje z kolei przełożą się na zapewnienie
+bezpieczeństwa w ruchu lotniczym, a tym samym wpłyną one korzystnie na efektywność
+wykorzystania przez właściwe organy danych PNR. Rozwiązanie to spowoduje bowiem, że
+osoby, w których interesie jest skorzystanie z lotu nieobjętego prawem przetwarzania, nie będą
+posiadały informacji, który lot jest właśnie takim.
+
+      Z tych samych powodów projektowane przepisy przewidują także, że przewoźnicy
+lotniczy będą przekazywać do bazy KSI PNR dane z wszystkich lotów wewnątrzunijnych (co
+z kolei nie oznacza prawa do ich przetwarzania przez JIP), a to spowoduje, że nie będą oni
+posiadali wiedzy, które loty nie są objęte prawem przetwarzania. Takie uregulowania
+spowodują ograniczenie ryzyka przedostania się krytycznej informacji, tj. informacji na temat
+lotów objętych prawem przetwarzania, do osób trzecich. Ma to kluczowe znaczenie dla
+realizacji celu dyrektywy, którym jest funkcjonowanie efektywnego narzędzia przydatnego do
+skutecznego zwalczania najpoważniejszych form przestępczości, które w szczególności
+w ostatnich latach stanowią znaczące zagrożenie dla bezpieczeństwa i porządku publicznego w
+państwach członkowskich UE. Przewidziany w projektowanej ustawie mechanizm zapewnia
+brak możliwości uzyskania przez zainteresowane osoby wiedzy, z których lotów
+wewnątrzunijnych dane PNR w danym momencie nie będą mogły być wykorzystane do celu,
+w jakim została wydana dyrektywa. Przewoźnicy, przekazując dane PNR z wszystkich lotów
+wewnątrzunijnych, nie będą bowiem w posiadaniu takich informacji. Konsekwentnie takiej
+wiedzy nie będą mieli pasażerowie, wobec których istnieje obowiązek informacyjny, a także
+inne osoby oraz podmioty trzecie. Rozpowszechnienie tego rodzaju wiedzy godziłoby w cel
+dyrektywy, a tym samym ustawy, tj. zapobieganiu przestępstwom terrorystycznym i innym
+poważnym przestępstwom, ich wykrywaniu, prowadzeniu postępowań i ściganiu (art. 1 ust. 2
+dyrektywy).
+
+      Regulacje, które zagwarantują kluczową z punktu widzenia realizacji celu ustawy zasadę
+przekazywania wszystkich danych PNR z każdego rodzaju lotu, a tym samym zapewnienie
+efektywnego wykorzystania danych PNR przez właściwe organy, przewiduje zmiana do art. 5
+ust. 1. Zgodnie z tym przepisem przewoźnicy lotniczy będą zobligowani przekazywać
+wszystkie dane PNR zarówno z lotów pozaunijnych, jak i z lotów wewnątrzunijnych, a
+niewykonanie tego obowiązku będzie stanowić naruszenie, o którym mowa w art. 65 ustawy.
+
+Proponowane rozwiązanie dodatkowo pozwoli skorzystać, w szczególnie uzasadnionych
+przypadkach, z danych PNR, których wykorzystanie przez JIP nie jest dopuszczalne z uwagi
+
+
+                                               10
+na ograniczenia wynikające z zarządzenia ministra, o którym mowa w projektowanym art. 18a
+ust. 4. W takim przypadku na wykorzystanie danych PNR nieobjętych tym prawem będzie
+jednak potrzebna zgoda wyrażona przez sąd lub prokuratora, na zasadach określonych
+w projektowanym art. 18a ust. 6–9 oraz art. 33 ust. 3 i 3a.
+
+      Przyjmując, że podstawą do przetwarzania zgromadzonych danych PNR z lotów
+wewnątrzunijnych jest rzeczywiste i aktualne, ale także chociażby możliwe do przewidzenia
+zagrożenie terrorystyczne albo takie zagrożenie inną formą przestępczości objętej dyrektywą,
+które to zagrożenie z uwagi na swój charakter pozwala na pewien czas objąć prawem
+przetwarzania    tych   danych     PNR,     zaproponowano     wprowadzenie     mechanizmów
+przewidzianych w projektowanym art. 18a ust. 3. Natomiast, w przypadku gdyby rzeczywiste
+i aktualne zagrożenie nie było możliwe do przewidzenia odpowiednio wcześniej, tj. gdy
+wystąpi tuż przed wykonaniem organizowanego konkretnego lotu lub lotów czy też w jego/ich
+trakcie, w świetle projektowanych przepisów, będzie możliwość wykorzystania danych PNR
+także z lotów wewnątrzunijnych, w trybie przewidzianym w projektowanym art. 18a ust. 6. W
+takim przypadku, przed wystąpieniem do JIP, właściwy organ będzie musiał jednak uzyskać
+zgodę niezależnego organu, jakim jest właściwy sąd albo prokurator, który oceni, czy wystąpiła
+przesłanka, wskazana w art. 18a ust. 2.
+
+      W tym miejscu należy podkreślić, że wprowadzenie innego mechanizmu niż
+przewidziany w projekcie, polegającego np. na występowaniu przez JIP do przewoźnika
+lotniczego o dane PNR dopiero po uzyskaniu przez uprawniony organ zgody prokuratora albo
+sądu i dopiero po tym ich przekazywanie przez przewoźnika lotniczego do KSI PNR, ze
+względów technicznych byłoby nieefektywne i nie zapewniłoby realizacji celu dyrektywy.
+
+Przedstawione powyżej rozwiązanie w zakresie przekazywania przez przewoźników lotniczych
+do KSI PNR wszystkich danych PNR, zgromadzonych w celu dokonania rezerwacji lub
+realizacji lotu PNR (zarówno pozaunijne, jak i wewnątrzunijne), jest zgodne z prezentowanymi
+niejednokrotnie stanowiskami samych przewoźników i wpłynie korzystnie na ich dalsze
+funkcjonowanie. Oznacza bowiem, że przewoźnicy lotniczy, którzy już przekazują dane PNR
+do KSI PNR, będą mogli to czynić na dotychczasowych zasadach, nie będąc zmuszanymi do
+modyfikacji istniejących systemów i ponoszenia kosztów z tym związanych oraz dalszych
+kosztów związanych z monitorowaniem zmian w zakresie lotów wewnątrzunijnych objętych w
+danym okresie obowiązkiem przekazywania danych PNR. Typowanie lotów będzie ulegało
+zmianie w zależności od wyników analiz dotyczących zagrożeń. Przewoźnicy więc musieliby
+pozostawać w ciągłej gotowości do dokonywania aktualizacji (i wydatkowania na to środków
+
+
+                                               11
+finansowych). Ponadto proponowane rozwiązanie jest korzystne dla przewoźników również
+dlatego, że pozwoli ograniczyć skalę naruszeń popełnianych w tym zakresie. Przewoźnicy nie
+będą zmuszeni do bieżącej weryfikacji aktualnie typowanych lotów wewnątrzunijnych, a tym
+samym nie będą narażeni na możliwość niedopełnienia w tym zakresie nałożonych na nich
+obowiązków.
+
+     Zmiany do art. 33 ustawy dotyczą skrócenia okresu retencji danych PNR Jak zostało to
+wskazane powyżej w ocenie TSUE niezgodne z prawem unijnym jest ustanowienie 5-letniego
+okresu przechowywania danych PNR wobec wszystkich tych danych, bez ich rozróżnienia
+
+Biorąc pod uwagę stanowisko TSUE, a równocześnie chcąc zapewnić realizację celów,
+o których mowa w samej dyrektywie, a w konsekwencji także w ustawie, zaproponowano
+wprowadzenie zmian do art. 33 ustawy w taki sposób, aby zapewnić najwyższy poziom
+ochrony danych, a tym samym zredukować do absolutnego minimum ryzyko dopuszczenia się
+w tym zakresie nadużyć, przy jednoczesnym pozostawieniu minimalnej szansy odtworzenia
+danych PNR również w perspektywie ich 3 lub 5-letniej retencji. Podkreślenia wymaga również
+fakt, że zarówno dyrektywa, jak i wyrok TSUE nie wskazują innego maksymalnego okresu
+przechowywania danych PNR aniżeli okres 5-letni.
+
+     Z kolei czynności operacyjno-rozpoznawcze, a w ich następstwie prowadzone
+postępowania, w szczególności w sprawach takich jak przestępstwa o charakterze
+terrorystycznym – a prawo przetwarzania danych PNR odnosi się właśnie do takich sytuacji
+i postępowań – są bardzo skomplikowane, wielowątkowe, a tym samym obliczone na okres
+zdecydowanie dłuższy niż 6 miesięcy. W związku z powyższym nie można wykluczyć, a nawet
+należy   przyjąć   za   pewność   możliwość      zaistnienia   takich   sytuacji,   w   których
+zdepersonalizowane dane PNR ani na etapie wstępnej oceny, ani późniejszego 6-miesięcznego
+okresu przechowywania nie wykazywały istnienia powiązania w zakresie przestępstw
+o charakterze terrorystycznym lub innej poważnej przestępczości, natomiast takie powiązanie
+zostało wykryte na późniejszym etapie przechowywania danych np. na skutek dalszych
+czynności operacyjnych służb.
+
+     Z tych więc względów w projektowanym art. 33 ust. 3 i 3a znalazły się uregulowania
+wprowadzające ograniczenia w przetwarzaniu przez JIP danych PNR, które są przechowywane
+w KSI PNR dłużej niż 6 miesięcy. W przypadku tego rodzaju danych PNR będzie możliwe ich
+przetwarzanie po spełnieniu warunków przewidzianych w projektowanych przepisach.
+W przypadku danych przechowywanych nie dłużej niż 2 lata ich przetwarzanie będzie możliwe
+w celu określonym w art. 1 ust. 1 ustawy PNR, tj. w celu wykrywania i zwalczania przestępstw
+
+                                            12
+o charakterze terrorystycznym i innych przestępstw lub przestępstw skarbowych oraz
+zapobiegania im i ścigania ich sprawców, oraz będzie warunkowane w zależności od etapu
+sprawy zgodą właściwego prokuratora albo sądu. Natomiast, w przypadku starszych danych
+PNR projekt wyprowadza dodatkowo zasadę subsydiarności. Oznacza to, że w takich
+przypadkach przetwarzanie danych PNR będzie dopuszczalne tylko po spełnieniu dodatkowego
+warunku, tj. wykazaniu, że uzyskanie takich informacji dla celu wskazanego powyżej w żaden
+inny sposób nie było skuteczne albo nie będzie możliwe.
+
+     Ograniczenie    ujawniania   zdepersonalizowanych      danych   PNR     zgromadzonych
+i przechowywanych w KSI PNR powyżej 2 lat będzie obowiązywało od dnia wejścia w życie
+projektowanych przepisów. Natomiast, w przypadku gdy do takiej personalizacji doszło na
+podstawie dotychczasowych przepisów, dane te będą w dalszej dyspozycji właściwego
+(wnioskującego) organu na dotychczasowych zasadach. Takie rozwiązanie jest niezbędne
+w celu zapewnienia ciągłości postępowań lub czynności operacyjno-rozpoznawczych
+prowadzonych przez ten organ.
+
+     Kolejna zmiana w projekcie dotyczy art. 64 ust. 1 pkt 2 i stanowi doprecyzowanie tego
+przepisu w celu wyeliminowania wątpliwości interpretacyjnych, że naruszenie w nim opisane
+obejmuje także niewykonanie obowiązku wynikającego z art. 6 ust. 2 pkt 2 albo z art. 6 ust. 3
+ustawy.
+
+     Celem zmian w art. 65 jest rozszerzenie katalogu przypadków, w których obniżeniu
+ulegnie administracyjna kara pieniężna, w przypadku przekazana przez przewoźnika lotniczego
+danych PNR z opóźnieniem. Zmiany te mają na celu niejako zmotywować przewoźnika
+lotniczego do przekazania zaległych danych. Dotychczasowe przepisy pozwalały na obniżenie
+kary tylko w przypadku, gdy dane zostały przekazane z nieznacznym opóźnieniem, tj. do czasu
+lądowania statku powietrznego. Przekazanie danych PNR później niż ten moment nie wpływało
+na wysokość kary. Tymczasem przekazanie danych PNR, mimo że z większym opóźnieniem,
+jest jednak również korzystne z punktu widzenia celu ich wykorzystania przez właściwe
+organy. Oczywiście największą efektywność w realizacji celu przetwarzania danych PNR
+można uzyskać dzięki danym przekazanym w ustawowych terminach, niemniej jednak
+późniejsze przekazanie danych PNR przemawia zdecydowanie na korzyść realizacji celów
+ustawy aniżeli ich zupełny brak przekazania. Stąd przepisy projektu (dodawane do art. 65
+ust. 3a i 3b) wprowadzają rozbudowany system obniżania administracyjnej kary pieniężnej
+w przypadku ich przekazania po przekroczeniu terminu, a ich wysokość jest uzależniona od
+terminu ich przekazania. Z kolei dodawany ust. 3c ma na celu zmotywowanie przewoźników
+
+
+                                             13
+lotniczych, którzy dotychczas, w okresie obowiązywania ustawy, nie obsługiwali lotów PNR,
+do sprawnego spełnienia w okresie dostosowawczym wymogów określonych ustawą oraz
+dosłania nieprzekazanych dotychczas danych PNR, które obowiązani byli przekazać do JIP. W
+świetle proponowanych rozwiązań przewoźnik, który dopiero rozpoczyna działalność na
+polskim rynku lotniczym, będzie potraktowany w sposób szczególny, gdy podejmuje wysiłki
+w celu sprawnego i efektywnego dostosowania się do wymogów ustawowych. Nienałożenie
+kary w okresie dostosowawczym pozytywnie wpłynie na sytuację przewoźnika, gdy będzie on
+miał gwarancję, że dążąc do wypełnienia ww. wymogów nie będzie podlegał administracyjnej
+karze pieniężnej za naruszenia opisane w art. 64 ustawy, jeśli w okresie 60 dni od dnia
+wykonania pierwszego lotu PNR zapewni warunki techniczne umożliwiające sprawne i
+skuteczne przekazywanie danych PNR, jak również przekaże do JIP wszystkie dane PNR
+pasażerów lotów objętych takim obowiązkiem począwszy od dnia wykonania pierwszego lotu
+PNR. Celem tego rozwiązania jest zapewnienie czasu na dokonanie ustaleń technicznych
+między przewoźnikiem a JIP, przy czym skorzystanie z dobrodziejstwa tego przepisu jest
+warunkowane przekazaniem do JIP zaległych danych PNR do końca trwania okresu
+dostosowawczego.
+
+     Zmiana w art. 66 ustawy jest z kolei konsekwencją zmiany art. 10 tego aktu prawnego.
+
+     W projektowanym art. 69 ustawy doprecyzowano przesłankę wyłączającą możliwość
+nałożenia administracyjnej kary pieniężnej za naruszenia ustawy przez określenie na czym
+polega awaria powstała po stronie przewoźnika lotniczego. Wskazano, że musi być ona
+niezawiniona przez tego przewoźnika i pod warunkiem niezwłocznego poinformowania JIP
+o powstałej awarii, nie później jednak niż 30 dni po upływie terminu przekazania danych PNR,
+oraz pod warunkiem przekazania w tym terminie danych PNR, które nie zostały wskutek tej
+awarii przekazane, chyba że przewoźnik je utracił przez tę awarię.
+
+     W projekcie zaproponowano również uchylenie art. 71 ustawy. Przepis ten w ust. 1
+reguluje kwestie doręczeń pism w postaci dokumentów elektronicznych przewoźnikowi
+lotniczemu, który nie ma siedziby na terytorium Rzeczypospolitej Polskiej. Z uwagi na wejście
+w życie z dniem 5 października 2021 r. ustawy z dnia 18 listopada 2020 r. o doręczeniach
+elektronicznych przepis ten stał się zbędny, ponieważ obecnie kwestie te są wyczerpująco
+uregulowane w rozdziale 8 ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania
+administracyjnego.   Jednocześnie    wskazać    należy,   że   stosowanie   art.   71   ustawy
+w dotychczasowym brzmieniu powoduje problemy proceduralne z uwagi na uchylenie części
+przepisów zawartych w art. 46 Kodeksu postępowania administracyjnego regulujących
+
+
+                                               14
+niezwykle istotne z punktu widzenia prowadzenia postępowań administracyjnych kwestie
+potwierdzania doręczenia pisma. Natomiast, przepis art. 71 ust. 2 stanowi powielenie
+wyczerpujących w tym obszarze regulacji zawartych w art. 40 Kodeksu postępowania
+administracyjnego.
+
+     W art. 2 projektu zaproponowano regulacje dotyczące uwolnienia od odpowiedzialności
+karnoadministracyjnej przewoźników lotniczych za naruszenia związane z wykonanymi w
+okresie do dnia wejścia w życie projektowanych przepisów lotami PNR, jednakże przy
+spełnieniu określonych w tych przepisach warunków.
+
+     W tym miejscu wskazać należy, że dotychczasowe przepisy nowelizujące ustawę
+o przetwarzaniu danych dotyczących przelotu pasażera podejmowały już próbę uregulowania
+kwestii wysokich kar finansowych grożących przewoźnikom lotniczym za nieprzekazywanie
+w terminie danych PNR przez wdrożenie instytucji „zawieszenia”.
+
+     Ustawa z dnia 27 stycznia 2022 r. o zmianie ustawy o przetwarzaniu danych dotyczących
+przelotu pasażera na okres 2 lat zawiesiła m.in. prowadzenie postępowań administracyjnych
+w sprawie nakładania przedmiotowych kar, wszczynanie nowych postępowań, a także
+wykonywanie nałożonych już kar administracyjnych. Przedmiotowe rozwiązanie zostało
+przygotowane w formie poprawki senackiej na etapie prac parlamentarnych nad nowelizacją
+ustawy (druk sejmowy 1891), przy aktywnym wówczas udziale przedstawicieli branży
+lotniczej. Niemniej zapewniło ono jedynie czasową ochronę przewoźników przed tymi
+konsekwencjami. Uznano wówczas, że ustanowienie dalej idącego rozwiązania, polegającego
+przykładowo na znaczącym zmniejszeniu wysokości tych kar lub całkowitym zwolnieniu z ich
+uiszczania, mogłoby budzić poważne wątpliwości, co do zgodności takich rozwiązań z prawem
+Unii Europejskiej.
+
+     W kontekście powyższego polskie władze skierowały pytanie do Komisji Europejskiej
+o wskazanie właściwego kierunku rozwiązania problemu kar dla przewoźników. Komisja
+Europejska wskazała, że zgodnie z utrwalonym orzecznictwem państwa członkowskie są
+zobowiązane do przestrzegania zasady proporcjonalności nie tylko w zakresie dotyczącym
+określenia znamion naruszenia i zasad dotyczących surowości kar, lecz również w zakresie
+dotyczącym oceny okoliczności, które mogą być brane pod uwagę przy ustalaniu grzywny.
+Zgodność z przepisami należy zapewniać indywidualnie w każdym przypadku, po
+uwzględnieniu stosownych okoliczności obiektywnie ustalonych przez właściwe organy
+krajowe zgodnie ze szczegółowymi zasadami ustanowionymi przez dane państwo
+członkowskie. Okoliczności te mogą obejmować, w zależności od przypadku, wszelkie
+
+                                           15
+trudności związane z funkcjonowaniem systemu, z którego dany przewoźnik lotniczy musiał
+korzystać w celu przekazania danych PNR, a także sytuację finansową przewoźnika lotniczego,
+która może mieć wpływ na jego zdolność płatniczą. W efekcie Komisja Europejska uznała, że
+nie jest właściwa do ingerowania w oceny wysokości kar, jakie miałyby zostać zastosowane
+przez państwa członkowskie w poszczególnych sprawach i w związku z tym nie ma możliwości
+narzucania w tym zakresie jakichkolwiek rozwiązań.
+
+     Mając powyższe na uwadze, w projekcie zaproponowano w pierwszej kolejności uwolnić
+od odpowiedzialności karnoadministracyjnej tych przewoźników, którzy w okresie do dnia
+wejścia w życie projektowanych przepisów dopuścili się naruszeń z tytułu nieprzekazywania
+lub nieprawidłowego przekazywania danych PNR pasażerów lotów wewnątrzunijnych. W
+świetle wyroku TSUE, w którym uznano jako niezgodne z prawem unijnym te przepisy prawa
+krajowego, które przewidują zautomatyzowane przekazywanie i przetwarzanie danych PNR w
+odniesieniu do wszystkich lotów wewnątrzunijnych, podejmowanie dalszych starań
+wyegzekwowania od przewoźników kar za naruszenia z tego rodzaju lotów wydaje się
+nieuzasadnione. Przedmiotowe orzecznictwo TSUE oddziałuje już zresztą na praktykę
+orzeczniczą   polskich    sądów    administracyjnych.    Dotychczas     wojewódzkie     sądy
+administracyjne (WSA) kilkukrotnie uchyliły decyzje Komendanta Głównego Straży
+Granicznej nakładające administracyjne kary pieniężne na przewoźników lotniczych za
+nieprzekazanie danych PNR z lotów wewnątrzunijnych (wyrok WSA w Warszawie z dnia 14
+września 2023 r. sygn. akt VI SA/Wa 3937/23, wyrok WSA w Warszawie z dnia 11
+października 2023 r. sygn. akt VI SA/Wa 3610/23, wyrok WSA w Gorzowie Wielkopolskim z
+dnia 8 lutego 2024 r. sygn. akt II SA/Go 646/23). Ponadto w dniu 23 maja 2024 r. Naczelny
+Sąd Administracyjny w sprawach sygn. akt II GSK 395/22 oraz II GSK 444/21 uchylił decyzje
+Komendanta Głównego Straży Granicznej nakładające administracyjne kary na przewoźnika
+lotniczego za nieprzekazanie danych PNR w przypadku lotów wewnątrzunijnych, powołując
+się w uzasadnieniu wyroku na przedmiotowy wyrok TSUE.
+
+     Po drugie, w projektowanym art. 2 znalazły się uregulowania, na mocy których nastąpi
+uwolnienie od administracyjnych kar pieniężnych także tych przewoźników lotniczych, którzy
+nie później niż w ciągu trzech miesięcy od dnia wejścia w życie projektowanej ustawy spełnili
+warunki przekazywania danych PNR określone w art. 8 ustawy.
+
+     Wprowadzenie do projektu takich przepisów jest uzasadnione m.in. tym, że zgodnie
+z motywem 18 dyrektywy państwa członkowskie powinny podjąć wszelkie niezbędne środki,
+aby umożliwić przewoźnikom lotniczym wypełnianie obowiązków nałożonych na nich na
+
+
+                                             16
+podstawie dyrektywy. Wobec przewoźników lotniczych, którzy nie wypełniają obowiązków w
+zakresie przekazywania danych PNR, państwa członkowskie powinny przewidzieć skuteczne,
+proporcjonalne i odstraszające sankcje, w tym kary finansowe. Zatem, jak wynika z
+przytoczonego motywu, system kar wymagany przez dyrektywę ma pełnić funkcję
+dyscyplinującą przewoźników lotniczych, którzy nie przekazują danych PNR. Tymczasem
+aktualnie do polskiej bazy (KSI PNR) podłączonych jest ponad 500 przewoźników lotniczych,
+co oznacza, że do bazy trafiają dane 99.9% pasażerów, w odniesieniu do których istnieje
+obowiązek przekazania danych PNR. W efekcie z danych PNR z powodzeniem korzystają
+instytucje, do zadań których należy zwalczanie przestępstw, w tym również przestępstw
+o charakterze terrorystycznym. To z kolei pozwala uznać, że cel zasadniczy przedmiotowych
+regulacji został osiągnięty.
+
+       Jednocześnie zgodnie z dyrektywą, a w konsekwencji także ustawą, wykonywanie
+obowiązku przekazywania danych PNR jest zabezpieczone systemem administracyjnych kar
+pieniężnych. W praktyce wprowadzenie takiego sytemu kar, jak można przyjąć w istotnym
+stopniu, sprzyjało dynamice podłączania się przewoźników do bazy. Z drugiej jednak strony
+doprowadziło do wygenerowania znacznej liczby naruszeń, które miały miejsce głównie
+w pierwszych miesiącach obowiązywania ustawy. Oznacza to w praktyce, że nakładanie kar za
+naruszenia sprzed wielu miesięcy, w sytuacji gdy przewoźnicy lotniczy aktualnie poprawnie
+wykonują obowiązek przekazywania danych PNR ma de facto charakter represyjny, a nie
+dyscyplinujący.
+
+       Niezależnie od powyższego należy wskazać, że na skutek konieczności wdrożenia
+dyrektywy, w tym samym czasie obowiązek przekazywania danych PNR został wprowadzony
+we wszystkich państwach członkowskich Unii Europejskiej, co stanowiło dodatkowe
+utrudnienie dla przewoźników lotniczych. Musieli oni bowiem sprostać temu obowiązkowi
+w wielu państwach w tym samym czasie, a to z kolei niejednokrotnie przyczyniało się w do
+występowania naruszeń w zakresie wykonywania przez nich obowiązku przekazywania danych
+PNR.
+        Po trzecie, przepisy art. 2 projektu uwalniają od odpowiedzialności tych przewoźników
+lotniczych, którzy w okresie roku przed dniem wejścia w życie projektowanej ustawy nie
+obsługiwali lotu PNR. W praktyce przepis ten obejmie przewoźników, którzy incydentalnie
+wykonali loty PNR, zwykle kilka w okresie obowiązywania ustawy i nie będą ich już
+wykonywać z uwagi np. na ogłoszenie ich upadłości albo innej formy zakończenia działalności
+świadczenia usług w przewozie pasażerów drogą lotniczą.
+
+
+                                             17
+     Podsumowując, zaproponowane w projekcie rozwiązania abolicyjne w świetle zaistniałej
+sytuacji geopolitycznej, przy jednoczesnym uwzględnieniu stanowiska Komisji Europejskiej
+oraz poszanowaniu dorobku orzeczniczego TSUE, wydają się optymalne zarówno z
+perspektywy zapewnienia bezpieczeństwa ruchu lotniczego i pasażerskiego, zgodności z
+obowiązującymi w tym zakresie przepisami unijnymi, jak również interesów branży lotniczej,
+w tym tych przewoźników, którzy już od dłuższego czasu stosują przepisy ustawy i realizują
+wynikające z tego tytułu obowiązki przekazywania w terminie danych PNR.
+
+     Przewiduje się, że projektowana ustawa wejdzie w życie po upływie 14 dni od dnia
+ogłoszenia. Natomiast, dane PNR pasażerów lotów wewnątrzunijnych zgromadzone w KSI
+PNR i przekazane przez przewoźników lotniczych do JIP wcześniej niż 3 lata przed dniem
+wejścia w życie ustawy zostaną trwale usunięte w sposób zautomatyzowany nie później niż
+w ciągu 3 miesięcy od dnia wejścia w życie projektowanych przepisów.
+
+     Projekt ustawy nie zawiera przepisów technicznych w rozumieniu przepisów
+rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania
+krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.)
+i w związku z tym nie podlega procedurze notyfikacji.
+
+     Projekt nie jest sprzeczny z prawem Unii Europejskiej. Projekt ustawy nie podlega
+przedstawieniu właściwym organom i instytucjom Unii Europejskiej, w tym Europejskiemu
+Bankowi Centralnemu, w celu uzyskania opinii, dokonania powiadomienia, konsultacji albo
+uzgodnienia.
+
+     Projekt ustawy stosownie do wymogów art. 5 ustawy z dnia 7 lipca 2005 r. o działalności
+lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248, z późn. zm.) oraz
+zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. –
+Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.) został zamieszczony
+w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji,
+w serwisie Rządowy Proces Legislacyjny. Żaden z podmiotów nie zgłosił zainteresowania
+pracami nad projektem w trybie przepisów o działalności lobbingowej.
+
+     Projekt ustawy nie podlega dokonaniu oceny OSR przez koordynatora OSR w trybie § 32
+uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady
+Ministrów.
+
+
+
+
+                                            18
+Nazwa projektu                                                    Data sporządzenia
+Projekt ustawy o zmianie ustawy o przetwarzaniu danych            7.05.2025 r.
+dotyczących przelotu pasażera
+                                                                  Źródło
+                                                                  Inicjatywa własna
+Ministerstwo wiodące i ministerstwa współpracujące
+Ministerstwo Spraw Wewnętrznych i Administracji
+                                                                  Nr w Wykazie prac legislacyjnych i programowych
+Osoba odpowiedzialna za projekt w randze Ministra,                Rady Ministrów:
+Sekretarza Stanu lub Podsekretarza Stanu                          UD106
+Pan Czesław Mroczek – Sekretarz Stanu
+w Ministerstwie Spraw Wewnętrznych i Administracji
+
+Kontakt do opiekuna merytorycznego projektu
+Pan Mariusz Cichomski – Zastępca Dyrektora
+Departamentu Porządku Publicznego MSWiA
+tel. 47 728 40 70,
+e-mail: sekretariat.dpp@mswia.gov.pl
+
+                                    OCENA SKUTKÓW REGULACJI
+ 1. Jaki problem jest rozwiązywany?
+Polska, zapewniając stosowanie dyrektywy UE 2016/681 z dnia 27 kwietnia 2016 r. w sprawie wykorzystywania danych
+dotyczących przelotu pasażera (danych PNR) w celu zapobiegania przestępstwom terrorystycznym i poważnej
+przestępczości, ich wykrywania, prowadzenia postępowań przygotowawczych w ich sprawie i ich ścigania (Dz. Urz. UE
+L 119 z 27.04.2016, str. 132), zwanej dalej „dyrektywą”, analogicznie jak większość państw członkowskich Unii
+Europejskiej, stanęła przed koniecznością dostosowania swojego systemu gromadzenia danych dotyczących przelotu
+pasażera do nowych wyzwań związanych ze wzmożonymi atakami o charakterze hybrydowym, przy jednoczesnym
+zapewnieniu poszanowania dorobku orzeczniczego Trybunału Sprawiedliwości Unii Europejskiej (TSUE), w tym mając
+na względzie wyrok TSUE z dnia 21 czerwca 2022 r. w sprawie C-817/19 Ligue des droits humains (Dz. Urz. UE C 340 z
+21.06.2022, str. 4), zwany dalej również „wyrokiem TSUE”, który wytyczył kierunki prawidłowej implementacji tej
+dyrektywy oraz zgodności jej stosowania z prawami podstawowymi.
+Trybunał Sprawiedliwości orzekł, że dyrektywa jest zgodna z art. 7, art. 8, art. 21 oraz art. 52 ust. 1 Karty praw
+podstawowych UE, a wprowadzone przez nią mechanizmy wykorzystywania danych PNR są wyrazem ochrony celu
+interesu ogólnego Unii Europejskiej, jakim jest walka z terroryzmem oraz poważną przestępczością.
+Jednocześnie Trybunał Sprawiedliwości stwierdził, że przepisy dyrektywy należy interpretować w ten sposób,
+że uregulowania krajowe nie powinny przewidywać, niejako z automatu, jednego ogólnego okresu przechowywania
+danych wynoszącego pięć lat, mającego zastosowanie bez rozróżnienia do wszystkich pasażerów. Jest to bowiem okres
+nieproporcjonalnie długi, zważywszy, że dotyczyłby również danych PNR osób, wobec których nie wykryto istnienia
+jakichkolwiek obiektywnych przesłanek wskazujących na to, że mogą stwarzać zagrożenie popełnienia przestępstw
+o charakterze terrorystycznym lub innych poważnych przestępstw. Ponadto w swym wyroku TSUE wskazał, że przepisy
+unijne, w tym dyrektywę, należy interpretować w ten sposób, że państwa członkowskie nie powinny przetwarzać danych
+PNR z lotów wewnątrzunijnych, jeśli nie jest to uzasadnione względami bezpieczeństwa, tj. przy braku rzeczywistego
+i aktualnego lub dającego się przewidzieć zagrożenia o charakterze terrorystycznym, z którym zmaga się dane państwo
+członkowskie. Przetwarzania przez właściwe organy takich danych PNR może mieć miejsce tylko, jeżeli służy to realizacji
+celów, o których mowa w dyrektywie, a zgodnie z art. 1 ust. 2 dyrektywy są nimi zapobieganie przestępstwom
+o charakterze terrorystycznym i poważnej przestępczości oraz ich wykrywanie, prowadzenie postępowań
+przygotowawczych w ich sprawie i ich ściganie. W takim przypadku stosowanie mechanizmów, o których mowa
+w dyrektywie, powinno być ograniczone do niektórych połączeń lub planów podróży, lub niektórych lotnisk, dworców lub
+portów morskich, co do których istnieją przesłanki uzasadniające takie stosowanie. TSUE podkreślił, że to do danego
+państwa członkowskiego należy wybór lotów wewnątrzunijnych lub przewozów odbywających się za pomocą innych
+środków transportu wewnątrz Unii, dla których takie przesłanki istnieją, oraz dokonywanie regularnego przeglądu takiego
+stosowania, w zależności od zmiany warunków, które uzasadniają ich wybór. Tym samym zgodnie z wyrokiem TSUE, po
+pierwsze, niezgodne z przepisami unijnymi jest takie ustawodawstwo krajowe, które przewiduje ogólny pięcioletni okres
+przechowywania danych PNR, mający zastosowanie do wszystkich pasażerów lotniczych, w tym do tych, wobec których
+nie ustalono żadnych obiektywnych dowodów mogących świadczyć o istnieniu zagrożenia terrorystycznego lub poważną
+przestępczością. Po drugie, niezgodne z prawodawstwem unijnym są takie przepisy krajowe, które przewidują
+zautomatyzowane przetwarzanie danych PNR w odniesieniu do wszystkich lotów wewnątrzunijnych. Takie zaś
+rozwiązania przewiduje polskie ustawodawstwo.
+Zgodnie z ustawą z dnia 9 maja 2018 r. o przetwarzaniu danych dotyczących przelotu pasażera (Dz. U. z 2022 r. poz. 1441),
+zwaną dalej „ustawą”, która stanowi transpozycję do polskiego porządku prawnego dyrektywy, lotem PNR jest każdy lot
+statku powietrznego wykonujący przewóz lotniczy pasażerów, podczas którego następuje przekroczenie granicy
+państwowej, nie zaś granicy Unii Europejskiej, a start albo lądowanie tego statku następuje na terytorium Rzeczypospolitej
+Polskiej. Definicja lotu PNR, wynikająca z art. 2 pkt 6 ustawy, nie przewiduje zatem rozróżnienia lotów PNR na loty
+pozaunijne i wewnątrzunijne, a co za tym idzie, ustawa stosuje wobec obu kategorii te same zasady przekazywania danych
+PNR i ich przetwarzania.
+Ponadto zgodnie z ustawą wszystkie dane PNR są przechowywane przez JIP przez okres 5 lat od dnia ich zgromadzenia,
+a następnie trwale usuwane z Krajowego Systemu Informatycznego PNR (KSI PNR). Po upływie 6-miesięcznego okresu
+przechowywania dane PNR są co prawda depersonalizowane, ale na przestrzeni całego 5-letniego okresu retencji możliwe
+jest ich ponowne ujawnienie każdorazowo po uzyskaniu w tej sprawie stosownej zgody prokuratora lub sądu. Tym samym
+przepisy ustawy nie odpowiadają twierdzeniom Trybunału Sprawiedliwości, który w tej kwestii zauważa, że dostęp do
+danych PNR w formie pozwalającej na bezpośrednie zidentyfikowanie osoby, której dotyczą, „po upływie początkowego
+okresu zatrzymania” powinien następować „wyłącznie po spełnieniu bardzo restrykcyjnych i ściśle określonych
+warunków”. Trybunał uznał bowiem „że im dłuższy okres zatrzymania danych PNR, tym ingerencja z niego wynikająca
+jest poważniejsza”.
+W świetle powyższego jest niezbędne wprowadzenie zmian w przepisach krajowych, które doprowadzą do skrócenia
+okresu retencji danych PNR oraz ograniczą zakres ich przetwarzania w odniesieniu do lotów wewnątrzunijnych, a zatem
+uwzględnią kierunkowe założenia wyroku TSUE.
+Ponadto wskazać należy na potrzebę rozwiązania kwestii wysokich kar finansowych, które grożą przewoźnikom lotniczym
+za naruszenia ustawy w zakresie nieprzekazywania do Straży Granicznej danych PNR. Po pierwsze, podkreślenia wymaga
+fakt, że w świetle wyroku TSUE, w którym uznano jako niezgodne z prawem unijnym te przepisy prawa krajowego, które
+przewidują zautomatyzowane przekazywanie i przetwarzanie danych PNR w odniesieniu do wszystkich lotów
+wewnątrzunijnych, podejmowanie dalszych starań wyegzekwowania od przewoźników kar za naruszenia z tego rodzaju
+lotów jest nieuzasadnione. Po drugie, zgodnie z dyrektywą wobec przewoźników lotniczych, którzy nie wypełniają
+obowiązków w zakresie przekazywania danych PNR, państwa członkowskie powinny przewidzieć skuteczne,
+proporcjonalne i odstraszające sankcje, w tym kary finansowe. Zatem system kar wymagany przez dyrektywę ma pełnić
+funkcję dyscyplinującą przewoźników lotniczych. Tymczasem aktualnie do polskiej bazy (KSI PNR) jest podłączonych
+blisko 500 przewoźników lotniczych, co oznacza, że do bazy trafiają dane 99.9% pasażerów, które to dane z powodzeniem
+mogą być wykorzystywane przez określone organy właściwe do zwalczania przestępstw, w tym również przestępstw
+o charakterze terrorystycznym. Oznacza to w praktyce, że nakładanie kar za popełnione naruszenia sprzed wielu miesięcy,
+w szczególności te z początkowego etapu obowiązywania przepisów ustawy, w sytuacji gdy przewoźnicy lotniczy
+aktualnie poprawnie wykonują obowiązek przekazywania danych PNR ma de facto charakter represyjny, a nie
+dyscyplinujący.
+Obecnie w Straży Granicznej prowadzonych jest ok. 8200 postępowań, z czego ok. 7000 to postępowania dotyczące
+naruszeń związanych z nieprzekazywaniem danych PNR z lotów wewnątrzunijnych. Wysokość kary administracyjnej
+wynosi 20 000 zł lub 40 000 zł w zależności, czy przewoźnik lotniczy nie przekazał danych PNR w jednym czy dwóch
+ustawowych terminach. Niemniej jednak nie sposób stwierdzić w ilu przypadkach zostanie przez organ Straży Granicznej
+w przyszłości nałożona administracyjna kara pieniężna. Dopiero w trakcie zbierania materiału dowodowego podczas
+postępowania administracyjnego organ nabywa wiedzę, na podstawie której podejmuje decyzję, czy są podstawy
+do ukarania przewoźnika lotniczego czy też nie ma takich podstaw i konsekwencji umorzenia postępowania. Przyczyny
+umorzenia mogą być różne w zależności od poczynionych w trakcie postępowania ustaleń (ogłoszenie upadłości
+przewoźnika czy też przedawnienie karalności). Ponadto podstawą umorzenia może być także to, że postępowaniem został
+objęty lot wewnątrzunijny, jeśli w danej sprawie występują okoliczności analogiczne jak w sprawach, w których orzekał
+Naczelny Sąd Administracyjny w wyroku w dniu 23 maja 2024 r. w sprawach sygn. akt II GSK 395/22 oraz II GSK 444/21
+uchylając decyzje Komendanta Głównego Straży Granicznej nakładające administracyjne kary na przewoźnika lotniczego
+za nieprzekazanie danych PNR, powołując się w uzasadnieniu wyroku na wyrok TSUE. Przed NSA obecnie zawisły także
+sprawy nieprzekazania danych PNR dotyczące lotów do i z Wielkiej Brytanii, która nie jest już w Unii Europejskiej, ale
+przez Wojewódzki Sąd Administracyjny została ona potraktowana jak państwo członkowskie UE (Wojewódzki Sąd
+Administracyjny w Warszawie – wyrok z dnia 14 września 2023 r., sygn. akt VI SA/WA 3937/23). Z powyższych
+względów nie sposób precyzyjnie wskazać ile z prowadzonych obecnie postępowań dotyczących naruszeń w kwestii
+nieprzekazywania danych PNR zostanie zakończonych nałożeniem administracyjnej kary pieniężnej. Dotychczas Straż
+Graniczna z przeprowadzonych ponad 35 tysięcy postępowań administracyjnych dotyczących PNR umorzyła łącznie
+z różnych przyczyn ponad 19 tysięcy postępowań administracyjnych. Jednocześnie ograniczona będzie skala umorzeń
+z uwagi na przedawnienie ze względu na uchylenie w 2022 r. art. 70 ustawy, który przewidywał 3 letni okres
+przedawnienia. Obecnie do tej kategorii spraw zastosowanie ma art. 189g ustawy z dnia 14 czerwca 1960 r. – Kodeks
+postępowania administracyjnego, który przewiduje 5 letni okres przedawnienia możliwości nałożenia administracyjnej
+kary pieniężnej. W związku z powyższym należy podkreślić, że w najbliższym czasie nie będzie występowała przesłanka
+umorzenia postępowania administracyjnego ze względu na przedawnienie. Jak wskazano wcześniej są możliwe jednak
+także inne powody umorzenia postępowania administracyjnego po przeprowadzeniu postępowania dowodowego i zebraniu
+materiałów w sprawie (ogłoszenie upadłości przewoźnika, wyrok NSA w kontekście wyroku TSUE).
+Dotychczasowe przepisy nowelizujące ustawę o przetwarzaniu danych dotyczących przelotu pasażera podejmowały już
+próbę uregulowania kwestii wysokich kar finansowych grożących przewoźnikom lotniczym za nieprzekazywanie
+w terminie danych PNR przez wdrożenie instytucji „zawieszenia”. Ustawa z dnia 27 stycznia 2022 r. o zmianie ustawy o
+
+                                                           2
+przetwarzaniu danych dotyczących przelotu pasażera na okres 2 lat zawiesiła m.in. prowadzenie postępowań
+administracyjnych w sprawie nakładania przedmiotowych kar, wszczynanie nowych postępowań, a także wykonywanie
+nałożonych już kar administracyjnych. W dniu 5 lutego 2022 r. weszła w życie przedmiotowa nowelizacja, co oznacza,
+że z dniem 6 lutego 2024 r. problem stał się ponownie aktualny. W rezultacie zapewniono jedynie czasową ochronę
+przewoźników przed tymi konsekwencjami finansowymi. W toku prac parlamentarnych uznano wówczas, że ustanowienie
+dalej idącego rozwiązania, polegającego przykładowo na znaczącym zmniejszeniu wysokości tych kar lub całkowitym
+zwolnieniu z ich uiszczania, mogłoby budzić poważne wątpliwości, co do zgodności takich rozwiązań z prawem Unii
+Europejskiej.
+W kontekście powyższego polskie władze skierowały pytanie do Komisji Europejskiej o wskazanie właściwego kierunku
+rozwiązania problemu kar dla przewoźników. Komisja Europejska wskazała, że zgodnie z utrwalonym orzecznictwem
+państwa członkowskie są zobowiązane do przestrzegania zasady proporcjonalności nie tylko w zakresie dotyczącym
+określenia znamion naruszenia i zasad dotyczących surowości kar, lecz również w zakresie dotyczącym oceny
+okoliczności, które mogą być brane pod uwagę przy ustalaniu grzywny. Zgodność z przepisami należy zapewniać
+indywidualnie w każdym przypadku, po uwzględnieniu stosownych okoliczności obiektywnie ustalonych przez właściwe
+organy krajowe zgodnie ze szczegółowymi zasadami ustanowionymi przez dane państwo członkowskie. Okoliczności te
+mogą obejmować, w zależności od przypadku, wszelkie trudności związane z funkcjonowaniem systemu, z którego dany
+przewoźnik lotniczy musiał korzystać w celu przekazania danych PNR, a także sytuację finansową przewoźnika lotniczego,
+która może mieć wpływ na jego zdolność płatniczą. W efekcie Komisja Europejska uznała, że nie jest właściwa
+do ingerowania w oceny wysokości kar, jakie miałyby zostać zastosowane przez państwa członkowskie w poszczególnych
+sprawach i w związku z tym nie ma możliwości narzucania w tym zakresie jakichkolwiek rozwiązań.
+Ponadto, mając na uwadze obecną sytuację geopolityczną, jest niezbędne dokonanie stosownych zmian, które usprawnią
+funkcjonowanie mechanizmów dotyczących przekazywania przez przewoźników lotniczych danych PNR oraz ich
+przetwarzania przez Krajową Jednostkę do spraw Informacji o Pasażerach (JIP), w tym usuną narosłe na gruncie 7-letniego
+stosowania ustawy wątpliwości interpretacyjne. Mechanizmy te muszą być sprawne, efektywne, a przede wszystkim
+szczelne, w dobie podwyższonego zagrożenia atakami o charakterze terrorystycznym. Niezbędne jest utrzymanie
+wysokiego poziomu bezpieczeństwa poszczególnych państw członkowskich UE oraz ich obywateli, w szczególności
+bezpieczeństwa w ruchu lotniczym. Jest to również punkt wyjścia, który przyjął unijny prawodawca, formułując
+odpowiednio cele dyrektywy.
+Jednocześnie jest niezbędne usprawnienie systemu podłączania nowych przewoźników do systemu przekazywania danych
+PNR. Przewoźnik lotniczy, który dopiero rozpoczyna działalność na polskim rynku lotniczym, podlega odpowiedzialności
+za naruszenia na zasadach ogólnych. Przepisy nie uwzględniają szczególności tej sytuacji oraz nie zabezpieczają takiego
+czasu na dokonanie ustaleń technicznych między przewoźnikiem a JIP, aby można było bez żadnych wątpliwości uznać,
+że umożliwia on sprawne i planowe podłączenie.
+Równocześnie poprawy wymaga mechanizm nakładania kar, w tym przesłanek wyłączających ich stosowanie.
+Obowiązujące w tym zakresie rozwiązania nie w pełni odpowiadają celom, które postawił unijny prawodawca, a w
+konsekwencji również ustawodawca, tj. zwalczanie przestępstw o charakterze terrorystycznym oraz innych poważnych
+przestępstw.
+Projekt ma również na celu ograniczyć te działania, które z perspektywy kilkuletniego stosowania ustawy okazują się mało
+efektywne, a stanowią o zbędnej biurokracji, występującej zarówno po stronie przewoźników lotniczych, jak i JIP.
+ 2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Rekomendowanym rozwiązaniem jest nowelizacja ustawy . Zaproponowane rozwiązania usprawnią funkcjonowanie
+mechanizmów dotyczących przekazywania przez przewoźników lotniczych danych PNR oraz ich przetwarzania przez
+Krajową Jednostkę do spraw Informacji o Pasażerach (JIP) w celach określonych przez unijnego prawodawcę,
+jednocześnie zapewniając poszanowanie dorobku orzeczniczego. W związku z powyższym w pierwszej kolejności
+proponuje się wprowadzenie odrębnych definicji lotów wewnątrzunijnych i pozaunijnych, a tym samym zapewnienie na
+poziomie ustawowym odrębnych zasad przetwarzania danych PNR ze względu na to, jakiej kategorii lotów dotyczą. W
+tym zakresie projektowane przepisy odwołują się do definicji zawartych w dyrektywie, a zatem w świetle projektowanej
+nowelizacji lot pozaunijny to lot odbywający się pomiędzy państwem trzecim a państwem członkowskim UE, bez względu
+na postoje na terytorium innych państw. Z kolei lot wewnątrzunijny oznacza lot odbywający się z terytorium państwa
+członkowskiego, z zaplanowanym lądowaniem na terytorium co najmniej jednego innego państwa członkowskiego, bez
+postojów na terytorium państwa trzeciego.
+W konsekwencji dane PNR dotyczące pasażerów lotów pozaunijnych będą mogły być przetwarzane w odniesieniu
+do wszystkich takich lotów, zgodnie z art. 1 dyrektywy, natomiast rozszerzenie tego mechanizmu na zgromadzone dane
+PNR pasażerów lotów wewnątrzunijnych będzie możliwe tylko w zakresie ustawowo określonym. Mając na względzie,
+że zgodnie z wyrokiem TSUE to do państw członkowskich należy ocena zagrożeń związanych z przestępstwami
+o charakterze terrorystycznym i poważną przestępczością, zaproponowano w projekcie, w pierwszej kolejności,
+skorelowanie mechanizmu przetwarzania danych PNR pasażerów lotów wewnątrzunijnych z krajowym systemem
+antyterrorystycznym, którego podstawę stanowi ustawa z dnia 10 czerwca 2016 r. o działaniach antyterrorystycznych.
+W tym zakresie projekt przewiduje wykorzystanie ustanowionego w ww. ustawie powszechnie obowiązującego
+i dostosowanego do wymogów NATO czterostopniowego systemu stopni alarmowych uruchamianego na wypadek
+zagrożeń o charakterze terrorystycznym. Już w obowiązującym stanie prawnym system ten jest ściśle powiązany z innymi
+
+                                                          3
+mechanizmami reagowania. Zakłada on bowiem, w zależności od poziomu zagrożenia, nakładane na organy i służby
+dodatkowe obowiązki i wynikające z tego tytułu zadań w zakresie zapewnienia bezpieczeństwa i porządku publicznego.
+Takie zwiększenie zadań będzie w tym wypadku odnosiło się do JIP, którą zgodnie z art. 12 ustawy stanowi wskazana
+przez Komendanta Głównego Straży Granicznej stosowna komórka organizacyjna Straży Granicznej. W rezultacie
+zaproponowano, że w przypadku wprowadzenia przez Prezesa Rady Ministrów (albo w przypadku niecierpiącym zwłoki
+przez ministra właściwego do spraw wewnętrznych) jednego ze stopni alarmowych, o których mowa w art. 15 ustawy
+o działaniach antyterrorystycznych, JIP będzie zobowiązana do przetwarzania zgromadzonych danych PNR pochodzących
+z wszystkich lotów wewnątrzunijnych.
+W drugiej kolejności, a zatem w przypadku braku zagrożenia wystąpienia zdarzenia o charakterze terrorystycznym na
+terenie Rzeczypospolitej Polskiej sygnalizowanego wprowadzeniem stopnia alarmowego, przetwarzanie zgromadzonych
+danych PNR pasażerów lotów wewnątrzunijnych będzie mogło następować do wybranych lotów wewnątrzunijnych na
+podstawie stosownej oceny dokonanej przez ministra właściwego do spraw wewnętrznych. Takie rozwiązanie pozostaje
+kierunkowo zgodne z wyrokiem TSUE, który w tym zakresie stanowi, że to do państwa członkowskiego należy typowanie
+lotów wewnątrzunijnych, zgodnie z wynikami oceny, którą ma obowiązek przeprowadzić i dokonywać jej regularnej
+weryfikacji pod kątem zmian okoliczności uzasadniających ten wybór w przedmiocie przetwarzania danych PNR.
+Zaproponowano, aby minister właściwy do spraw wewnętrznych był uprawniony do wydania, na wniosek Komendanta
+Głównego Straży Granicznej, zarządzenia, w którym określi loty wewnątrzunijne objęte prawem przetwarzania przez
+wskazanie np. przewoźników lotniczych wykonujących loty z danego państwa, lotnisk, z których albo do których
+wykonywane są loty, czy też przez wskazanie konkretnych rejsów (połączeń) realizowanych przez poszczególnych
+przewoźników lotniczych. Jednocześnie, mając na uwadze, że w świetle wyroku TSUE w zakresie właściwości państwa
+członkowskiego jest nie tylko typowanie lotów wewnątrzunijnych objętych prawem przetwarzania, ale także dokonywanie
+regularnego przeglądu zasadności utrzymania tych typowań w zależności od zmieniającej się sytuacji i stopnia zagrożenia,
+zaproponowano rozwiązanie polegające na zobowiązaniu Komendanta Głównego Straży Granicznej do dokonywania
+takiego bieżącego przeglądu i przekazywania w tej sprawie stosownej informacji ministrowi właściwemu do spraw
+wewnętrznych.
+W celu zapewnienia bezpieczeństwa w ruchu lotniczym, a tym samym zapewnienia efektywności wykorzystania przez
+właściwe organy danych PNR, zarządzenie ministra właściwego do spraw wewnętrznych – w myśl projektowanych
+regulacji – będzie miało formę aktu prawnego niejawnego (niepodlegającego publicznemu ogłoszeniu). W ten sposób
+ograniczone zostanie ryzyko przedostania się krytycznej informacji, tj. informacji na temat lotów objętych prawem
+przetwarzania, do osób trzecich, w tym osób chcących uniknąć korzystania z takich właśnie połączeń lotniczych.
+Z tych samych powodów projektowane przepisy przewidują także, że przewoźnicy lotniczy będą przekazywać do bazy
+KSI PNR dane z wszystkich lotów wewnątrzunijnych (co z kolei nie oznacza prawa do ich przetwarzania przez JIP), a to
+spowoduje, że nie będą oni posiadali wiedzy, które loty nie są objęte prawem przetwarzania.
+Proponowane rozwiązanie dodatkowo pozwoli skorzystać, w szczególnie uzasadnionych przypadkach, z danych PNR,
+których wykorzystanie przez JIP nie jest dopuszczalne z uwagi na ograniczenia wynikające z zarządzenia ministra.
+W takim przypadku na wykorzystanie danych PNR nie objętych tym prawem będzie jednak potrzebna zgoda wyrażona
+przez sąd lub prokuratora, na zasadach określonych w ustawie.
+
+Drugim obszarem zmian objętych projektem, do którego również odnosi się wyrok TSUE, jest retencja danych PNR.
+Trybunał w tej sprawie stwierdził, że okres 5 lat przechowywania wszystkich danych PNR jest szczególnie długi,
+zważywszy, że całość tych danych jest możliwa do ujawnienia, również po okresie 6 miesięcy. W projekcie
+zaproponowano zmodyfikowanie mechanizmu przechowywania danych PNR, tak aby z jednej strony zachowane zostały
+cele dyrektywy, o których mowa w art. 6 ust. 2, tj. skuteczne zapobieganie przestępstwom o charakterze terrorystycznym
+i poważnej przestępczości oraz ich wykrywanie i ściganie, w tym prowadzenie postępowań, z drugiej zaś strony, aby
+osiągniecie tych celów odpowiadało zasadzie proporcjonalności, tj. aby ograniczenia praw i wolności, których to wymaga,
+występowały tylko wówczas, gdy jest to konieczne i rzeczywiście odpowiada celom interesu ogólnego uznawanego przez
+UE. W efekcie skrócony został także okres retencji danych PNR pasażerów lotów wewnątrzunijnych, z pięciu do trzech
+lat, od dnia ich zgromadzenia. Ponadto w projekcie na nowo określono zasady ujawnienia zdepersonalizowanych danych
+PNR przez JIP. Zgodnie z nimi zgoda sądu albo prokuratora na przetwarzanie zdepersonalizowanych danych PNR będzie
+mogła być wydawana, w przypadku gdy jest to niezbędne do realizacji celu określonego w art. 1 ust. 1 ustawy i dotyczy
+danych PNR, zgromadzonych w KSI PNR nie wcześniej niż dwa lata od dnia ich zgromadzenia. Natomiast, w przypadku
+starszych danych PNR projekt wyprowadza dodatkowo zasadę subsydiarności. W takich przypadkach przetwarzanie
+danych PNR będzie dopuszczalne tylko po spełnieniu dodatkowego warunku, tj. wykazaniu, że uzyskanie takich informacji
+dla celu wskazanego powyżej w żaden inny sposób nie było skuteczne albo nie będzie możliwe.
+Należy podkreślić, że wyrok TSUE nie wskazał okresu do jakiego należałoby skrócić czas przechowywania i przetwarzania
+danych PNR. Zatem, biorąc pod uwagę wskazany powyżej cel dyrektywy, wydaje się, że okres 3 lat w odniesieniu do
+danych PNR z lotów wewnątrzunijnych jest okresem optymalnym.
+Mając na względzie stanowisko TSUE, a równocześnie chcąc zapewnić realizację celów, o których mowa w samej
+dyrektywie, a w konsekwencji także w ustawie, zaproponowano wprowadzenie zmian do ustawy w taki sposób, aby
+zapewnić najwyższy poziom ochrony danych, a tym samym zredukować do absolutnego minimum ryzyko dopuszczenia
+się w tym zakresie nadużyć, przy jednoczesnym pozostawieniu minimalnej szansy odtworzenia danych PNR również
+
+                                                          4
+w perspektywie ich 3-letniej retencji. W dobie zagrożeń atakami terrorystycznymi oraz innymi działaniami o charakterze
+hybrydowym proponowane rozwiązania wydają się optymalne.
+Ograniczenie ujawniania zdepersonalizowanych danych PNR zgromadzonych i przechowywanych w KSI PNR powyżej
+2 lat będzie obowiązywało od dnia wejścia w życie projektowanych przepisów. Natomiast, w przypadku gdy do takiej
+personalizacji doszło na podstawie dotychczasowych przepisów, dane te będą w dalszej dyspozycji właściwego
+(wnioskującego) organu na dotychczasowych zasadach. Takie rozwiązanie jest niezbędne w celu zapewnienia ciągłości
+postepowań lub czynności operacyjno-rozpoznawczych prowadzonych przez ten organ.
+Nowelizacja ma również na celu usprawnienie mechanizmu podłączania nowych przewoźników do systemu
+przekazywania danych PNR, samego systemu przekazywania danych PNR oraz ich przetwarzania przez JIP, a także
+mechanizmów związanych z nakładaniem kar finansowych za popełnione w tym zakresie naruszenia.
+W odniesieniu do tej ostatniej kwestii zaproponowano wprowadzenie takich rozwiązań, które w sposób systemowy
+pozwolą na rozwiązanie problemu wysokich kar, które grożą przewoźnikom lotniczym za popełnione naruszenia
+w zakresie nieprzekazywania do JIP danych PNR. W tym zakresie zaproponowano regulacje, które uwolnią od
+odpowiedzialności karnoadministracyjnej przewoźników lotniczych za naruszenia związane w wykonanymi w okresie do
+dnia wejścia w życie projektowanych przepisów lotami PNR, jednakże przy spełnieniu określonych ustawą warunków.
+W związku z powyższym w pierwszej kolejności zaproponowano uwolnienie od odpowiedzialności karnoadministracyjnej
+tych przewoźników, którzy w okresie do dnia wejścia w życie projektowanych przepisów dopuścili się naruszeń z tytułu
+nieprzekazywania lub nieprawidłowego przekazywania danych PNR pasażerów lotów wewnątrzunijnych. W świetle
+wyroku TSUE, w którym uznano jako niezgodne z prawem unijnym te przepisy prawa krajowego, które przewidują
+zautomatyzowane przekazywanie i przetwarzanie danych PNR w odniesieniu do wszystkich lotów wewnątrzunijnych,
+podejmowanie dalszych starań wyegzekwowania od przewoźników kar za naruszenia z tego rodzaju lotów jest
+nieuzasadnione.
+Po drugie, zaproponowano uwolnienie od administracyjnych kar pieniężnych także tych przewoźników lotniczych, którzy
+nie później niż w ciągu trzech miesięcy od dnia wejścia w życie projektowanej ustawy spełnili warunki przekazywania
+danych PNR określone w art. 8 ustawy. Wprowadzenie do projektu takich przepisów jest uzasadnione m.in. tym, że zgodnie
+z dyrektywą państwa członkowskie powinny podjąć wszelkie niezbędne środki, aby umożliwić przewoźnikom lotniczym
+wypełnianie obowiązków nałożonych na nich na podstawie niniejszej dyrektywy. Wobec przewoźników lotniczych, którzy
+nie wypełniają obowiązków w zakresie przekazywania danych PNR, państwa członkowskie powinny przewidzieć
+skuteczne, proporcjonalne i odstraszające sankcje, w tym kary finansowe. Zatem, jak wynika z powyższego, system kar
+wymagany przez dyrektywę ma pełnić funkcję dyscyplinującą przewoźników lotniczych, którzy nie przekazują danych
+PNR. Tymczasem aktualnie do polskiej bazy (KSI PNR) podłączonych jest ponad 500 przewoźników lotniczych,
+co oznacza, że do bazy trafiają dane 99.9% pasażerów, w odniesieniu do których istnieje obowiązek przekazania danych
+PNR. Zdecydowana większość naruszeń miała natomiast miejsce w pierwszych miesiącach obowiązywania ustawy.
+Oznacza to w praktyce, że nakładanie kar za naruszenia sprzed wielu miesięcy, w sytuacji gdy przewoźnicy lotniczy
+aktualnie poprawnie wykonują obowiązek przekazywania danych PNR ma de facto charakter represyjny, a nie
+dyscyplinujący, gdyż cel zasadniczy przedmiotowych regulacji został osiągnięty.
+Po trzecie, zaproponowano również uwolnienie od odpowiedzialności tych przewoźników lotniczych, którzy w okresie
+roku przed dniem wejścia w życie projektowanej ustawy nie obsługiwali lotu PNR. W praktyce przepis ten obejmie
+przewoźników, którzy incydentalnie wykonali loty PNR zwykle kilka w okresie obowiązywania ustawy i nie będą ich już
+wykonywać z uwagi np. na ogłoszenie ich upadłości albo innej formy zakończenia działalności w świadczenia usług
+w przewozie pasażerów drogą lotniczą.
+W kontekście powyższych propozycji rozwiązań o charakterze abolicyjnym wskazać należy, że zgodnie ze stanowiskiem
+Komisji Europejskiej to na państwach członkowskich spoczywa obowiązek przestrzegania zasady proporcjonalności nie
+tylko w zakresie dotyczącym określenia znamion naruszenia i zasad dotyczących surowości kar, lecz również
+w zakresie dotyczącym oceny okoliczności, które mogą być brane pod uwagę przy ustalaniu grzywny. Zgodność
+z przepisami należy zapewniać indywidualnie w każdym przypadku, po uwzględnieniu stosownych okoliczności
+obiektywnie ustalonych przez właściwe organy krajowe zgodnie ze szczegółowymi zasadami ustanowionymi przez dane
+państwo członkowskie. Okoliczności te mogą obejmować, w zależności od przypadku, wszelkie trudności związane
+z funkcjonowaniem systemu, z którego dany przewoźnik lotniczy musiał korzystać w celu przekazania danych PNR,
+a także sytuację finansową przewoźnika lotniczego, która może mieć wpływ na jego zdolność płatniczą. W efekcie Komisja
+Europejska uznała, że nie jest właściwa do ingerowania w oceny wysokości kar, jakie miałyby zostać zastosowane przez
+państwa członkowskie w poszczególnych sprawach i w związku z tym nie ma możliwości narzucania w tym zakresie
+jakichkolwiek rozwiązań.
+      Projekt przewiduje również:
+     1) doprecyzowanie na gruncie ustawowym, że dane PNR wymagające przekazania w drugim terminie dotyczą
+         pasażerów, którzy znajdują się na pokładzie statku powietrznego i nie mogą go opuścić;
+     2) ograniczenie zakresu danych, które przewoźnik jest zobowiązany przekazać do JIP, przez całkowitą rezygnację z
+         obowiązku przekazywania informacji na temat rozkładów i programów lotów, a w odniesieniu do informacji
+         dotyczących przewoźnika lub wybranego przez niego protokołu i formatu danych oraz elementów kategorii
+         gromadzonych danych – takie przekazanie nastąpi tylko na wniosek JIP;
+
+
+                                                         5
+    3) wprowadzenie nowych zasad weryfikacji danych PNR przekazywanych do JIP, które to zasady będą opierały się
+        w głównej mierze na corocznych planach weryfikacji zatwierdzanych przez Komendanta Głównego Straży
+        Granicznej albo w uzasadnionych przypadkach będą realizowane na jego polecenie;
+    4) wskazanie właściwości przewoźnika lotniczego do przedstawienia dowodów potwierdzających, że dany lot nie był
+        lotem PNR lub że przewoźnik nie posiadał danych PNR, lub że wystąpiły negatywne przesłanki nałożenia kary
+        administracyjnej;
+    5) doprecyzowanie przepisów dotyczących naruszeń przez wskazanie w nich, że naruszeniem jest również
+        niewykonanie obowiązku, o którym mowa w art. 6 ust. 2 pkt 2 lub art. 6 ust. 3 ustawy;
+    6) rozszerzenie katalogu przypadków obniżenia administracyjnych kar pieniężnych o przypadki, gdy dane PNR nie
+        zostały przekazane w terminie, ale takie przekazanie do JIP nastąpiło później;
+    7) wyłączenie nakładania administracyjnych kar pieniężnych za nieterminowe przekazywanie danych PNR w okresie
+        pierwszych 60 dni wobec przewoźników lotniczych, którzy dopiero rozpoczynają działalność na polskim rynku
+        lotniczym, przy spełnieniu przez nich ustawowo określonych warunków;
+    8) doprecyzowanie przesłanki wyłączającej nałożenie administracyjnej kary pieniężnej za naruszenia ustawy
+        w związku z zaistnieniem awarii, przez wskazanie, jakie warunki muszą zostać spełnione, aby takie wyłączenie
+        mogło mieć miejsce;
+    9) uchylenie przepisu regulującego kwestie doręczeń pism w postaci dokumentów elektronicznych przewoźnikowi
+        lotniczemu, który nie ma siedziby na terytorium Rzeczypospolitej Polskiej.
+Przedstawione powyżej rozwiązania, w tym rozwiązania abolicyjne, w świetle zaistniałej sytuacji geopolitycznej oraz przy
+jednoczesnym uwzględnieniu stanowiska Komisji Europejskiej, oraz poszanowaniu dorobku orzeczniczego TSUE, wydają
+się optymalne zarówno z perspektywy zapewnienia bezpieczeństwa ruchu lotniczego i pasażerskiego, zgodności
+z obowiązującymi w tym zakresie przepisami unijnymi, jak również interesów branży lotniczej, w tym tych przewoźników,
+którzy już od dłuższego czasu stosują przepisy ustawy i realizują wynikające z tego tytułu obowiązki przekazywania
+w terminie danych PNR.
+ 3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Z informacji uzyskanych w ramach współpracy JIP z Krajowymi Jednostkami do spraw Informacji o Pasażerach innych
+państw członkowskich UE wynika, iż wiele państw (np. Francja, Węgry, Szwecja, Luksemburg, Słowacja, Finlandia, Czechy,
+Estonia, Chorwacja, Słowenia, Litwa, Łotwa, Niemcy, Hiszpania oraz Belgia) przyjęły zbieżne z polskimi założeniami
+rozwiązania polegające na monitorowaniu kierunków lotów wewnątrzunijnych w oparciu o przeprowadzaną okresowo
+Analizę Ryzyka. Ponadto przedstawiciele tych krajów deklarują wykorzystanie przy analizie tzw. Modelu belgijskiego, który
+zakłada typowanie zagrożeń w taki sposób, żeby pokryć jak najszerzej aktualną siatkę połączeń wewnątrz UE. Zgodnie z
+informacjami uzyskanymi od belgijskiego JIP (belgijska Krajowa Jednostka do spraw Informacji o Pasażerach) w Belgii po
+publikacji wyroku TSUE Sąd Konstytucyjny dopuścił jednak gromadzenie i przetwarzanie danych PNR ze wszystkich lotów
+wewnątrzunijnych na okres 3 lat, argumentując tę decyzję istniejącym poziomem zagrożenia bezpieczeństwa wewnętrznego
+i wysokim ryzykiem zamachów terrorystycznych.
+Z kolei część państw członkowskich UE, które w sposób znaczący zredukowały zakres gromadzenia danych PNR z lotów
+wewnątrzunijnych, zaczyna sygnalizować negatywne skutki tak przyjętych rozwiązań. Odnotowują bowiem częste przypadki,
+w których osoby zastrzeżone w SIS czy też w bazach Interpolu bez przeszkód poruszają się drogą lotniczą i nie są
+identyfikowane jako osoby poszukiwane podczas wsiadania na pokład statków powietrznych w tych państwach.
+Należy podkreślić, że wyrok TSUE nie wskazał okresu do jakiego należałoby skrócić czas przechowywania i przetwarzania
+danych PNR. Zatem rozwiązania przyjmowane przez poszczególne państwa członkowskie UE są różne, niemniej
+w większości krajów, które podjęły prace legislacyjne, przyjmowany jest 3-letni okres retencji danych PNR. Są to m.in.:
+Litwa, Łotwa, Estonia, Holandia, Belgia, Czechy, Węgry, Chorwacja oraz Słowacja. Wyniki badań przeprowadzanych
+m.in. przez Holandię wykazały, że 95% zapytań o dane archiwalne dotyczyło danych nie starszych niż 3 lata. Jedynie 5%
+tego typu zapytań dotyczyło danych starszych niż 3 lata. Niemcy natomiast zredukowały czas retencji danych PNR do 6
+miesięcy. Dłużej będą przechowywali jedynie te dane, które wygenerują trafienie w bazach poszukiwawczych, takich jak
+SIS II czy Interpol 24/7. Państwa takie jak Hiszpania, Rumunia czy Bułgaria czekają na rozwój sytuacji w innych
+państwach członkowskich celem podjęcia optymalnych decyzji związanych z przetwarzaniem i retencją danych PNR
+w kontekście dorobku orzeczniczego. JIP Cypru dopiero w tym roku osiągnie pełną operacyjność, więc wszelkie zmiany
+związane z dostosowaniem rozwiązań prawnych do orzecznictwa TSUE będą odłożone w czasie, a Francja potwierdziła,
+że zgodnie z ich procedurami jest gromadzone maksymalnie do 70% danych z lotów, ponadto dane te nie są sprawdzane
+w bazach poszukiwawczych. Należy zwrócić uwagę, że 2 państwa członkowskie, tj. Austria i Irlandia, od powołania JIP
+nie gromadzą danych związanych z lotami wewnątrzunijnymi W odniesieniu do nakładania kar finansowych na
+przewoźników lotniczych z tytułu popełnionych naruszeń dotyczących nieprzekazywania danych PNR w innych
+państwach członkowskich UE skala nałożonych kar pozostaje niewielka. Na 22 państwa, które przekazały w tej sprawie
+odpowiedzi, 20 państw nie nałożyło żadnej kary finansowej. Jedynie Litwa nałożyła karę na jednego przewoźnika
+w wysokości 80 000 euro oraz Rumunia ukarała 2 przewoźników na łączną kwotę 10 460 euro.
+Aktualny stan prac legislacyjnych w państwach członkowskich jest na różnym etapie zaawansowania. W zdecydowanej
+większości państw wdrażanie zmian związanych z wyrokiem TSUE jest na etapie konsultacji resortowych lub
+międzyresortowych. Głównymi tematami wzbudzającymi kontrowersje jest redukcja przetwarzania danych PNR z lotów
+
+
+                                                           6
+wewnątrzunijnych. W związku z powyższym w projekcie zaproponowano kierunkowo uwzględnić wyrok TSUE,
+zachowując równowagę między prawem do ochrony danych osobowych a względami bezpieczeństwa.
+4. Podmioty, na które oddziałuje projekt
+         Grupa              Wielkość     Źródło danych                     Oddziaływanie
+Przewoźnicy lotniczy               572       Informacje         − zwolnienie             z            odpowiedzialności
+                             zidentyfikowa   uzyskane od            karnoadministracyjnej przewoźników za naruszenia
+                                  nych       podmiotów              związane w wykonanymi lotami wewnątrzunijnymi
+                              podmiotów      zarządzających         albo po spełnieniu określonych ustawą warunków;
+                             wykonujących    portami            − rozszerzenie katalogu przypadków, w których
+                                 loty w      lotniczymi,            obniżeniu ulegnie administracyjna kara pieniężna, w
+                                polskich     Polskiej Agencji       przypadku      przekazana     przez     przewoźnika
+                                 portach     Żeglugi                lotniczego danych PNR z opóźnieniem;
+                               lotniczych    Powietrznej oraz   − zniesienie obowiązku przekazywania z urzędu do JIP
+                                             na podstawie           informacji określonych w art. 10 nowelizowanej
+                                             wykazu                 ustawy;
+                                             posiadaczy         − wskazanie właściwości do przedstawienia dowodów
+                                             certyfikatu            potwierdzających, że dany lot nie był lotem PNR lub
+                                             przewoźnika            że wystąpiły negatywne przesłanki nałożenia kary
+                                             lotniczego wg          administracyjnej;
+                                             Urzędu             − wprowadzenie czasu dostawczego na podłączenie się
+                                             Lotnictwa              do systemu przekazywania danych PNR nowych
+                                             Cywilnego              przewoźników lotniczych.
+komórka organizacyjna         1 podmiot                         − ograniczenie przetwarzania zgromadzonych danych
+Straży Granicznej pełniąca                                          PNR do przypadków określonych w art. 18a ustawy;
+funkcję JIP                                                     − ograniczenie ujawniania zdepersonalizowanych
+                                                                    danych PNR przechowywanych w KSI PNR dłużej
+                                                                    niż 2 lata;
+                                                                − zmniejszenie liczby prowadzonych postępowań
+                                                                    administracyjnych w sprawie naruszeń dotyczących
+                                                                    nieprzekazywania       danych       PNR         przez
+                                                                    przewoźników lotniczych.
+Prezes Polskiej Agencji       1 podmiot                         − współdziałanie z Komendantem Głównym Straży
+Żeglugi Powietrznej                                               Granicznej w zakresie niezbędnym do zapewnienia
+                                                                  wykonywania przez przewoźników lotniczych
+                                                                  obowiązku przekazywania danych PNR do JIP,
+                                                                  w szczególności przez udostępnianie na wniosek
+                                                                  Komendanta Głównego Straży Granicznej, złożony w
+                                                                  formie pisemnej, w postaci papierowej lub
+                                                                  elektronicznej, posiadanych informacji dotyczących
+                                                                  nazwy, adresu, numeru telefonu oraz adresu e-mail
+                                                                  przewoźników lotniczych, zakresu ich działalności
+                                                                  oraz wykazu wykonanych przez nich lotów wraz
+                                                                  z posiadanymi informacjami dotyczącymi każdego z
+                                                                  tych lotów.
+Zarządzający lotniskami      64 podmioty                        − nieodpłatne przekazywanie na wniosek Komendanta
+                                                                  Głównego Straży Granicznej albo osoby przez niego
+                                                                  upoważnionej,       w    postaci    papierowej      lub
+                                                                  elektronicznej, posiadanych informacji dotyczących
+                                                                  nazwy, adresu, numeru telefonu oraz adresu e-mail
+                                                                  przewoźników lotniczych, zakresu ich działalności
+                                                                  oraz wykazu wykonanych przez nich lotów.
+wojewódzkie sądy                  16                            − zmniejszenie liczby prowadzonych postępowań
+administracyjne                                                   skargowych na decyzje Komendanta Głównego
+                                                                  Straży      Granicznej   w sprawie          nałożonych
+                                                                  administracyjnych kar pieniężnych.
+Naczelny Sąd                      1                             − zmniejszenie liczby prowadzonych postępowań
+Administracyjny w                                                 skargowych na decyzje Komendanta Głównego
+Warszawie                                                         Straży      Granicznej   w sprawie          nałożonych
+                                                                  administracyjnych kar pieniężnych.
+
+                                                         7
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt został udostępniony w Biuletynie Informacji Publicznej na stronie Rządowego Centrum Legislacji w serwisie
+Rządowy Proces Legislacji zgodnie z § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy
+Rady Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.) oraz stosownie do wymogów art. 5 ustawy z dnia 7 lipca 2005 r. o
+działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248, z późn. zm.). Żaden z podmiotów nie
+zgłosił zainteresowania pracami nad projektem w trybie przepisów o działalności lobbingowej
+Projektowane zmiany do ustawy o przetwarzaniu danych dotyczących przelotu pasażera zostały opracowane
+z uwzględnieniem uwag i stanowisk, jakie w tym obszarze były zgłaszane m.in. przez Międzynarodowe Zrzeszenie
+Przewoźników Lotniczych (IATA), Radę Przedstawicieli Linii Lotniczych w Polsce (BARIP), Amerykańską Izba Handlową
+w Polsce, Związek Regionalnych Portów Lotniczych, Rzecznika Praw Obywatelskich, Ambasady: Kataru, Belgii, Austrii,
+Niemiec, Szwajcarii, Turcji, a także przez samych przewoźników lotniczych operujących na polskim rynku lotniczym oraz
+Airlines for Europe, a także Komendanta Głównego Straży Granicznej.
+Z uwagi na zakres projektowanych zmian projekt został przesłany do zaopiniowania i konsultacji publicznych, w tym również
+do Międzynarodowego Zrzeszenia Przewoźników Lotniczych (IATA) oraz Rady Przedstawicieli Linii Lotniczych w Polsce
+(BARIP), Krajowego Towarzystwa Lotniczego – AOPA Poland, zarządzających lotniskami, Prezesa Polskiej Agencji
+Żeglugi Powietrznej oraz Prezesa Urzędu Lotnictwa Cywilnego.
+Stanowisko przedstawiły IATA i BARIP (wspólne), Związek Regionalnych Portów Lotniczych oraz Federacja Związków
+Pracodawców Ochrony Zdrowia „Porozumienie Zielonogórskie”. Wyniki konsultacji i opiniowania zostały omówione
+w załączonym raporcie.
+Projekt został również skierowany do zaopiniowania przez Prezesa Urzędu Ochrony Danych Osobowych, który nie zgłosił
+uwag.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                          Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                            0      1       2        3        4         5       6       7      8     9    10     Łącznie
+                          2025 2026 2027 2028              2029      2030 2031 2032 203 203 203                  (0–10)
+                           r.      r.      r.       r.      r.         r.      r.      r.    3 r. 4 r. 5 r.
+                                                                                             1,7 1,5 1,2
+Dochody ogółem
+                          6,68 5,65 4,80 4,08              3,45      2,93    2,48 2,10        8     0     8       36,71
+                                                                                             1,7 1,5 1,2
+budżet państwa
+                          6,68 5,65 4,80 4,08              3,45      2,93    2,48 2,10        8     0     8       36,71
+JST                         0      0       0        0        0         0       0       0      0     0     0         0
+NFZ                       0       0       0       0        0        0        0       0      0      0     0         0
+Wydatki ogółem            0       0       0       0        0        0        0       0      0      0     0         0
+budżet państwa            0       0       0       0        0        0        0       0      0      0     0         0
+                                                                                           1,7    1,5   1,2
+Saldo ogółem
+                        6,68    5,65    4,80    4,08     3,45      2,93    2,48    2,10     8      0     8       36,71
+                                                                                           1,7    1,5   1,2
+budżet państwa
+                        6,68    5,65    4,80    4,08     3,45      2,93    2,48    2,10     8      0     8       36,71
+JST                       0       0       0       0        0        0        0       0      0      0     0         0
+NFZ                        0      0        0       0       0        0        0       0      0      0      0         0
+                        Wejście w życie projektowanej ustawy nie wywoła skutków finansowych dla budżetu państwa
+                        i budżetów jednostek samorządu terytorialnego w rozumieniu art. 50 ust. 1 ustawy z dnia
+Źródła finansowania
+                        27 sierpnia 2009 r. o finansach publicznych (Dz. U. z 2024 r. poz. 1530, z późn. zm.) i nie będzie
+                        stanowiło podstawy do ubiegania się o zwiększenie limitu wydatków.
+Dodatkowe               W konsekwencji wejścia w życie w dniu 5 lutego 2022 r. ustawy z dnia 27 stycznia 2022 r.
+informacje, w tym       o zmianie ustawy o przetwarzaniu danych dotyczących przelotu pasażera (Dz. U. poz. 271)
+wskazanie źródeł        wydłużony został termin przedawnienia administracyjnych kar pieniężnych, o których mowa
+danych i przyjętych     w art. 64 i art. 66 ustawy, z 3 do 5 lat. Z tego względu obecnie nie zostały jeszcze wszczęte
+do obliczeń założeń     postępowania administracyjne, z związku z naruszeniami za lata 2019–2023, a liczba naruszeń do
+                        2024 roku przedstawia się następująco:
+                            2019               2020             2021           2022            2023        razem
+                            65 069             4006             2113           2900            2621        76 729
+                        Z przedstawionych powyżej statystyk wynika, że tendencja naruszeń jest zdecydowanie malejąca.
+                        Zgodnie z dyrektywą wobec przewoźników lotniczych, którzy nie wypełniają obowiązków
+                        w zakresie przekazywania danych PNR, państwa członkowskie powinny przewidzieć skuteczne,
+                        proporcjonalne i odstraszające sankcje, w tym kary finansowe. Zatem, jak wynika z powyższego,
+                        system kar wymagany przez dyrektywę ma pełnić funkcję dyscyplinującą przewoźników
+
+                                                           8
+lotniczych, którzy nie przekazują danych PNR. Tymczasem aktualnie do polskiej bazy (KSI PNR)
+podłączonych jest 487 przewoźników lotniczych, co oznacza, że do bazy trafiają dane 99.9%
+pasażerów, w odniesieniu do których istnieje obowiązek przekazania danych PNR. W efekcie
+z danych PNR z powodzeniem korzystają instytucje, do zadań których należy zwalczanie
+przestępstw lub terroryzmu. To z kolei pozwala uznać, że cel zasadniczy przedmiotowych
+regulacji został osiągnięty. Jednocześnie zgodnie z dyrektywą, a w konsekwencji także ustawą
+PNR, wykonywanie obowiązku przekazywania danych PNR jest zabezpieczone systemem
+administracyjnych kar pieniężnych. W praktyce wprowadzenie takiego sytemu kar, jak można
+przyjąć w istotnym stopniu, sprzyjało dynamice podłączania się przewoźników do bazy.
+Potwierdza to statystyka obrazująca podłączanie się w poszczególnych latach do KSI PNR
+przewoźników lotniczych (w 2021 r. – 88, w 2022 – 138, w 2023 – 78). Z drugiej jednak strony
+przyjęty w ustawie system kar przyczynił się do wygenerowania znacznej kwoty kar grożących
+przewoźnikom, przy czym kary te dotyczą naruszeń, które miały miejsce w odległym czasie.
+Oznacza to w praktyce, że nakładanie kar za naruszenia sprzed wielu miesięcy, w sytuacji gdy
+przewoźnicy lotniczy aktualnie poprawnie wykonują obowiązek przekazywania danych PNR, ma
+de facto charakter represyjny, a nie dyscyplinujący.
+Jednocześnie według szacunków loty wewnątrzunijne stanowią ok. 65% wszystkich lotów, więc
+obecnie można wywnioskować, że liczba naruszeń administracyjnych z tytułu nieprzekazywania
+danych PNR z lotów pozaunijnych wyniesie 35%.
+Jednocześnie bardzo istotny wpływ na zmniejszenie liczby naruszeń w latach 2025–2034 będzie
+miało wprowadzenie rozwiązania przewidującego wprowadzenie czasu dostosowawczego dla
+nowych przewoźników, którzy dotychczas, w okresie obowiązywania ustawy, nie obsługiwali
+lotów PNR. Proponowane rozwiązanie spowoduje, że przewoźnik lotniczy, który rozpoczyna
+działalność na polskim rynku lotniczym, nie będzie podlegał odpowiedzialności za naruszenia
+opisane w art. 64 ustawy, w przypadku gdy w okresie 60 dni od dnia wykonania pierwszego lotu
+PNR rozpoczął przekazywanie danych PNR do JIP oraz przekazał do JIP wszystkie dane PNR
+pasażerów lotów objętych takim obowiązkiem począwszy od dnia wykonania pierwszego lotu
+PNR.
+Drugim czynnikiem, który wpłynie na zmniejszenie liczby naruszeń w latach 2025–2034, jest
+przepis przewidujący, że przewoźnik lotniczy będzie mógł się uwolnić od odpowiedzialności za
+naruszenia, które miały miejsce przed dniem wejścia w życie projektowanej ustawy, ale tylko
+wtedy, gdy w ciągu trzech miesięcy od obowiązywania nowych regulacji dokona podłączenia do
+KSI PNR i przekaże zaległe dane PNR. Takie rozwiązanie spowoduje, że przewoźnicy będą
+zmotywowani do dokonania podłączenia do KSI PNR, a to wpłynie na ograniczenie liczby
+naruszeń. Należy się spodziewać, że w wyniku tych rozwiązań, porównując rok np. 2023 z rokiem
+2024, skala naruszeń zmniejszy się o 85%. Ponadto z uwagi na stopniowe upowszechnianie się
+wiedzy wśród przewoźników lotniczych odnośnie do obowiązku przekazywania danych PNR,
+należy przyjąć, że w każdym kolejnym roku będzie notowany spadek liczby naruszeń o 15% rok
+do roku.
+Zatem należy przyjąć, że proponowane rozwiązania będą korzystne dla przewoźników lotniczych.
+Natomiast, na tym etapie nie jest możliwe dokładne zwymiarowanie wielkości tych korzyści.
+W tym zakresie istotne znaczenie będzie miało m.in. wprowadzenie rozwiązania określającego
+czas na podłączenie się przewoźnika lotniczego (okres dostosowawczy), który dotychczas,
+w okresie obowiązywania ustawy nie obsługiwał lotów PNR. Przewoźnik lotniczy, który
+rozpoczyna działalność na polskim rynku lotniczym, nie będzie podlegał odpowiedzialności za
+naruszenia opisane w art. 64 ustawy, w przypadku gdy w okresie 60 dni od dnia wykonania
+pierwszego lotu PNR rozpoczął przekazywanie danych PNR do JIP oraz przekazał do JIP
+wszystkie dane PNR pasażerów lotów objętych takim obowiązkiem począwszy od dnia wykonania
+pierwszego lotu PNR. Tym samym zakłada się ograniczenie skali popełnianych w tym zakresie
+naruszeń. Analizując potencjalne korzyści płynące dla przewoźników z tytułu przedmiotowej
+interwencji legislacyjnej, należy także odnieść się do zawartych w niej rozwiązań abolicyjnych.
+Rozwiązania te jednakże nie będą dotyczyły wszystkich przewoźników, ale tych, którzy będą
+spełniali określone w przepisach warunki. Na etapie projektowania zmian nie jest możliwe
+dokładne wyliczenie liczby takich przewoźników, natomiast możliwe jest oszacowanie, że będzie
+ich znaczna większość. Wynika to już z samego faktu, że loty wewnątrzunijne stanowią ok. 65%
+wszystkich lotów. Kolejne zmiany, zakładające korzystne rozwiązania dla przewoźników, także
+nie mogą być zwymiarowane. Przykładem mogą tu być rozwiązania dotyczące obniżenia
+wysokości kar. Obliczenie skali uzyskanych z tego tytułu korzyści przez przewoźników
+oznaczałoby wskazanie ile naruszeń, za które obniżono wysokość kary, zostanie popełnionych
+na przestrzeni kolejnych lat funkcjonowania nowelizacji, co na tym etapie prac nie jest możliwe
+do wiarygodnego oszacowania. Przy wyliczaniu kwot kar w skali poszczególnych lat należy wziąć
+
+                                  9
+pod uwagę, że część postępowań administracyjnych zostanie umorzonych, a tym samym kwota
+kar ulegnie zmniejszeniu z tego tytułu o 20%. Umorzenia te wynikają z powodu wystąpienia
+w niektórych przypadkach przesłanek opisanych w art. 69 ustawy (działanie siły wyższej, awaria
+KSI PNR czy też zgłoszenia wcześniej niezawinionej awarii powstałej po stronie przewoźnika
+lotniczego). Jednocześnie z praktyki wynika, że średnia kara, jaka w toku postępowania jest
+nakładana, wynosi 20 000 zł za naruszenia, których przewoźnik się dopuścił w ramach jednego
+lotu. Powyższe wynika z faktu, że niejednokrotnie przewoźnik nie gromadził danych PNR między
+48 a 24 godziną przed wykonywanym lotem, a tym samym nie miał obowiązku ich przekazać.
+W takich przypadkach administracyjna kara pieniężna za nieprzekazanie danych PNR może
+wynieść maksymalnie 20 000 zł za naruszenie w obrębie danego lotu, a nie 40 000 zł.
+Biorąc to pod uwagę, zestawienie prognozowanych dochodów z administracyjnych kar
+pieniężnych w poszczególnych latach przedstawia się następująco:
+
+                                             (w tym 816.000 zł wynikające z obecnych
+           2025          6 675 000 zł
+                                                           przepisów)
+                                             (w tym 816.000 zł wynikające z obecnych
+           2026          5 650 000 zł
+                                                           przepisów)
+                                             (w tym 816.000 zł wynikające z obecnych
+           2027          4 800 000 zł
+                                                           przepisów)
+           2028          4 075 000 zł
+           2029          3 450 000 zł
+           2030          2 925 000 zł
+           2031          2 475 000 zł
+           2032          2 100 000 zł
+           2033          1 775 000 zł
+           2034          1 500 000 zł
+           2035          1 280 000 zł
+
+Warto zauważyć, że mimo zakładanego powyżej zmniejszenia liczby naruszeń, mającego wpływ
+na wysokość rocznych dochodów budżetu państwa, prognozowane obecnie na lata 2025–2035
+wpływy z kar są wyższe niż zakładane na etapie tworzenia ustawy w 2018 r. (zakładano wówczas
+średnie roczne wpływy z kar w latach 2020–2027 na ok. 816.000 zł) z powodu znacznie większej
+liczby naruszeń niż pierwotnie zakładana oraz dużej skuteczności nakładania kar przez Straż
+Graniczną. Zatem nie jest możliwe zaprezentowanie tych szacunków jako zmniejszenia dochodów
+budżetowych, bowiem nie nastąpi uszczuplenie dochodów budżetu państwa z tytułu wejścia w
+życie ustawy zmieniającej, gdyż wskazane w Ocenie Skutków Regulacji do tej ustawy osiągane
+dochody jako nowe wielkości stanowią jednocześnie nadwyżkę w stosunku do wielkości
+wynikających z obowiązujących przepisów.
+Zmiany przepisów wynikające z przedmiotowego projektu spowodują konieczność przebudowy
+systemu KSI PNR.
+Przebudowa KSI PNR w zakresie determinowanym projektowaną nowelizacją zostanie pokryta
+w ramach dotychczasowych limitów wydatków jednostek sektora finansów publicznych, tj. ze
+środków przewidzianych w Ocenie Skutków Regulacji do ustawy z dnia 9 maja 2018 r.
+o przetwarzaniu danych dotyczących przelotu pasażera – w pkt 6 OSR „Wpływ na sektor finansów
+publicznych” wskazano:
+„Koszty związane z budową, wdrożeniem i rozwojem KSI PNR
+Budowa, wdrożenie oraz rozwój KSI PNR będą wymagały poniesienia przez Straż Graniczną
+kosztów zarówno jednorazowych w perspektywie czasu ok. 3 lat od momentu wejścia w życie
+przedmiotowej ustawy oraz koszty stałe, ponoszone w cyklicznie w stałych odstępach czasu
+(miesięcznie bądź rocznie).
+Koszty jednorazowe składać się będą ze środków przeznaczonych stricte na budowę, wdrożenie
+oraz rozwój KSI PNR, w tym zakup sprzętu informatycznego czy licencji na oprogramowanie.
+Do kosztów stałych będą zaliczały się koszty związane z zatrudnieniem oraz utrzymaniem
+odpowiedniej struktury etatowej personelu technicznego odpowiedzialnego za utrzymanie KSI
+PNR oraz koszty miesięcznego utrzymania KSI PNR w zakresie dostępu do sieci lotniczej.
+Stworzenie systemu KSI PNR będzie wymagało m.in. zakupu infrastruktury teleinformatycznej,
+a także oprogramowania serwerowego oraz bazodanowego. Zakupy niniejsze będą dokonywane
+w oparciu o ustawę z dnia 29 stycznia 2004 r. – Prawo zamówień publicznych (Dz. U. z 2015 r.
+                                 10
+                       poz. 2164, z późn. zm.) przez Straż Graniczną ze środków przyznanych z programu Funduszu
+                       Bezpieczeństwa Wewnętrznego oraz środków zaplanowanych na funkcjonowanie Straży
+                       Granicznej. W celu umożliwienia odbierania informacji PNR przesyłanych od przewoźników
+                       lotniczych, Straż Graniczna zamierza zakupić usługę, która będzie umożliwiała zbieranie
+                       komunikatów PNR we wszystkich dostępnych formatach i protokołach przewidzianych
+                       w dyrektywie oraz transformowanie ich do formatu wykorzystywanego przez KSI PNR.
+                       Skutki finansowe w zakresie budowy, wdrożenia, rozwoju i modernizacji KSI PNR, wynoszą
+                       ok. 87 249 tys. zł, w tym 26 321 tys. zł tytułem Funduszu Bezpieczeństwa Wewnętrznego
+                       w poszczególnych latach obowiązywania ustawy:
+                       1) 2018 - 27 821 tys. zł;
+                       2) 2019 - 8 500 tys. zł;
+                       3) 2020 - 1 500 tys. zł;
+                       4) 2021 - 2 977 tys. zł;
+                       5) 2022 - 2 477 tys. zł;
+                       6) 2023 - 25 619 tys. zł;
+                       7) 2024 - 2 977 tys. zł;
+                       8) 2025 - 9 924 tys. zł;
+                       9) 2026 - 2 477 tys. zł;
+                       10) 2027 - 2 977 tys. zł.”.
+
+                       W związku z planowanym zmniejszeniem liczby prowadzonych postępowań administracyjnych
+                       Straż Graniczna nie planuje oszczędności z tytułu zmniejszenia nakładu pracy. Obecnie
+                       postępowania administracyjne dotyczące nieprzekazywania danych PNR są prowadzone siłami
+                       własnymi, przez funkcjonariuszy Straży Granicznej, którzy oprócz realizacji dotychczasowych
+                       zadań (ok. 100 osób w Straży Granicznej) dodatkowo prowadzą postępowania administracyjne
+                       wynikające z ustawy o przetwarzaniu danych dotyczących przelotu pasażera. Zadania stricte
+                       związane z prowadzeniem przedmiotowych postępowań prowadzą i nadzorują 4 osoby
+                       w Zarządzie Operacyjno-Śledczym KGSG, które po wejściu w życie przepisów abolicyjnych będą
+                       nadal wykonywać zadania w tym zakresie, ponieważ zgodnie z przewidywaniami naruszenia
+                       administracyjne będą występować, ale w zdecydowanie mniejszym zakresie. Zatem mimo
+                       rozwiązań abolicyjnych, JIP nadal będzie ustawowo zobowiązany do weryfikacji naruszeń
+                       i informowania o nich Komendanta Głównego Straży Granicznej.
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+    rodzinę, obywateli i gospodarstwa domowe
+Projektowana ustawa korzystnie wpłynie na funkcjonowanie przedsiębiorców działających w sektorze przewozów lotniczych
+przez zminimalizowanie ryzyka ponoszenia przez nich znacznych wydatków z tytułu kar pieniężnych za naruszenia
+przepisów. W efekcie pozwoli to ograniczyć negatywne skutki, których obecnie doświadcza branża lotnicza.
+Czas w latach od wejścia w życie      202   202    202   202   202    203   203   203   203    203   203     Łącznie
+zmian                                  5     6      7     8     9      0     1     2     3      4     5      (0–10)
+W ujęciu         duże
+pieniężnym       przedsiębiorstwa
+(w mln zł,       sektor mikro-,
+ceny stałe z     małych i średnich
+…… r.)           przedsiębiorstw
+                 rodzina, obywatele
+                 oraz gospodarstwa
+                 domowe
+                 przewoźnicy
+                 lotniczy z tytułu
+                 nakładanych kar                     0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0
+                 pieniężnych            0      0     00     0     0     00     00   00    00     00   00      0,000
+W ujęciu         duże                 Zmniejszenie obowiązków informacyjnych nakładanych na przewoźników
+niepieniężnym przedsiębiorstwa        lotniczych.
+                                      Informacje dotyczące przewoźnika lotniczego oraz informacje o wybranym przez
+                                      niego protokole i formacie danych, wykorzystywanych do przesyłania danych PNR
+                                      do JIP, a także o elementach kategorii gromadzonych przez przewoźnika lotniczego
+                                      danych PNR będą przekazywane do JIP wyłącznie na wniosek. Ponadto zmniejsza
+                                      się zakres danych, które przewoźnik przekazuje do JIP, przez rezygnację z
+                                      uzyskiwania od przewoźnika lotniczego informacji o ustalonych rozkładach lub
+                                      programach lotów.
+
+                                                         11
+                 sektor mikro-,        Zmniejszenie obowiązków informacyjnych nakładanych na przewoźników
+                 małych i średnich     lotniczych.
+                 przedsiębiorstw       Informacje dotyczące przewoźnika lotniczego oraz informacje o wybranym przez
+                                       niego protokole i formacie danych, wykorzystywanych do przesyłania danych PNR
+                                       do JIP, a także o elementach kategorii gromadzonych przez przewoźnika lotniczego
+                                       danych PNR będą przekazywane do JIP wyłącznie na wniosek. Ponadto zmniejsza
+                                       się zakres danych, które przewoźnik przekazuje do JIP, przez rezygnację z
+                                       uzyskiwania od przewoźnika lotniczego informacji o ustalonych rozkładach lub
+                                       programach lotów.
+                 rodzina, obywatele    Projekt nie będzie miał wpływu na ekonomiczną i społeczną sytuację rodziny,
+                 oraz gospodarstwa     a także osób niepełnosprawnych i osób starszych.
+                 domowe
+Niemierzalne
+Dodatkowe
+informacje, w tym
+wskazanie źródeł
+danych i przyjętych
+do obliczeń założeń
+ 8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+    nie dotyczy
+Wprowadzane są obciążenia poza              tak
+bezwzględnie wymaganymi przez UE            nie
+(szczegóły w odwróconej tabeli zgodności).  nie dotyczy
+
+  zmniejszenie liczby dokumentów                zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                 zwiększenie liczby procedur
+  skrócenie czasu na załatwienie sprawy         wydłużenie czasu na załatwienie sprawy
+   inne:                                        inne:
+
+Wprowadzane obciążenia są przystosowane         tak
+do ich elektronizacji.                           nie
+                                                 nie dotyczy
+
+Zmniejszenie obowiązków informacyjnych przewoźników lotniczych wobec JIP:
+– stały obowiązek informowania JIP zastąpiono obowiązkiem przekazania informacji, o których mowa w art. 10 ustawy,
+wyłącznie na wniosek JIP, a także zmniejszono zakres danych, które przewoźnik przekazuje do JIP.
+9. Wpływ na rynek pracy
+Wejście w życie projektowanej nowelizacji ustawy zapobiegnie negatywnym skutkom, w tym także dotyczącym rynku
+pracy, z tytułu wysokich sum kar grożących przewoźnikom, którzy przed wejściem w życie nowelizacji dopuścili się
+naruszenia przepisów. Istniało realne ryzyko, iż przewoźnicy obarczeni wysokim karami mogliby wycofywać się z rynku
+przewozów oraz usług polskich portów lotniczych. Powyższe mogłoby spowodować redukcję liczby zatrudnionych
+w szeroko rozumianym sektorze usług obsługi naziemnej portów lotniczych.
+10. Wpływ na pozostałe obszary
+
+    środowisko naturalne                   demografia               informatyzacja
+    sytuacja i rozwój regionalny           mienie państwowe         zdrowie
+    sądy powszechne, administracyjne      inne:
+lub wojskowe
+
+                        Zaproponowane zmiany wpłyną pozytywnie na branże lotniczą. Zakłada się, że projektowane
+                        przepisy staną się częścią szczególnych i nadzwyczajnych rozwiązań umożliwiających
+Omówienie wpływu
+                        podejmowanie działań mających pomóc w utrzymaniu się branży lotniczej, która jest szczególnie
+                        dotknięta skutkami pandemii.
+11. Planowane wykonanie przepisów aktu prawnego
+Ustawa wejdzie w życie po upływie 14 dni od dnia ogłoszenia.
+Wskutek wejścia w życie przepisów ustawy JIP będzie wykorzystywał dane PNR z lotów wewnątrzunijnych na zasadach
+określonych w projekcie. W przypadku gdy w momencie wejścia w życie przepisów na terytorium Rzeczypospolitej
+Polskiej nie będzie obowiązywał stopień alarmowy, o którym mowa w art. 15 ust. 1 ustawy z dnia 10 czerwca 2016 r.
+o działaniach antyterrorystycznych, zostanie wydane na podstawie projektowanego art. 18a ust. 4 zarządzenie ministra
+właściwego do spraw wewnętrznych, które to będzie określało loty wewnątrzunijne objęte prawem wykorzystania danych
+PNR przez JIP.
+                                                         12
+Natomiast, dane PNR pasażerów lotów wewnątrzunijnych zgromadzone w KSI PNR i przekazane przez przewoźników
+lotniczych do JIP wcześniej niż 3 lata przed dniem wejścia w życie ustawy zostaną trwale usunięte w sposób
+zautomatyzowany nie później niż w ciągu 3 miesięcy od dnia wejścia w życie projektowanych przepisów.
+Jednocześnie nastąpi przebudowa bazy KSI PNR w celu wprowadzenia rozwiązań technicznych umożliwiających
+wskazywanie lotów wewnątrzunijnych, z których dane PNR będą mogły być wykorzystane przez JIP. Z uwagi na
+harmonogram prac i tempo procesu legislacyjnego należy przyjąć, że wdrożenie modernizacji KSI PNR nastąpi w 2025 r.
+Ponadto po spełnieniu określonych w projekcie warunków zostaną wdrożone rozwiązania o charakterze abolicyjnym.
+W rezultacie postępowania administracyjne w sprawie naruszeń przez przewoźników lotniczych obowiązków określonych
+w art. 5–8 albo art. 10 ustawy zostaną umorzone (zostaną wydane przez właściwe organy Straży Granicznej postanowienia
+o umorzeniu). Umorzeniu będą podlegały także sprawy toczące się przed wojewódzkimi sądami administracyjnymi oraz
+przed Naczelnym Sądem Administracyjnym. Umorzeniu będą podlegały również postępowania egzekucyjne dotyczące
+administracyjnych kar pieniężnych nałożonych na przewoźników lotniczych za naruszenie wyżej wymieniony
+obowiązków. W efekcie zmian wprowadzonych ustawą zostanie także wdrożony system rocznego planowania czynności
+weryfikacji wykonywania przez przewoźników lotniczych obowiązku przekazywania danych PNR.
+ 12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Zakłada się, że efekty projektowanych rozwiązań zostaną poddane ewaluacji rok po wejściu w życie ustawy. Zastosowany
+zostanie miernik badający spadek liczby naruszeń przepisów ustawy w zakresie przekazywania przez przewoźników danych
+PNR. Miernik wrażony będzie stosunkiem liczby zidentyfikowanych w ciągu wyżej wymienionego roku naruszeń do liczby
+naruszeń zidentyfikowanych w latach 2019 i 2020.
+ 13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Raport z konsultacji publicznych i opiniowania.
+
+
+
+
+                                                        13
+                           Raport z konsultacji publicznych i opiniowania
+
+projektu ustawy o zmianie ustawy o przetwarzaniu danych dotyczących przelotu pasażera (UD 106)
+
+1. Informacje ogólne
+
+Projekt ustawy został zamieszczony, stosownie do wymogów art. 5 ustawy z dnia 7 lipca 2005 r.
+o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248, z późn. zm.) oraz
+zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy
+Rady Ministrów (M.P. z 2024 r. poz. 806) w Biuletynie Informacji Publicznej Rządowego Centrum
+Legislacji.
+
+Z uwagi na zakres projektowanych zmian, projekt został przesłany do zaopiniowania do Prezesa
+Polskiej Agencji Żeglugi Powietrznej, Prezesa Urzędu Lotnictwa Cywilnego oraz Prezesa Urzędu
+Ochrony Danych Osobowych (PUODO), a także w ramach konsultacji publicznych przekazany
+do Międzynarodowego Zrzeszenia Przewoźników Lotniczych (IATA), Rady Przedstawicieli Linii
+Lotniczych w Polsce (BARIP), Krajowego Towarzystwa Lotniczego – AOPA Poland, Związku
+Regionalnych Portów Lotniczych oraz Polskich Portów Lotniczych S.A.
+
+Wyznaczono 14-dniowy okres konsultacji publicznych i opiniowania z uwagi na potrzebę jak
+najszybszego wejścia w życie projektowanych rozwiązań mających na celu głównie dostosowanie
+przepisów ustawy z dnia 9 maja 2018 r. o przetwarzaniu danych dotyczących przelotu pasażera do
+wyroku Trybunału Sprawiedliwości UE.
+
+2. Omówienie wyników konsultacji publicznych i opiniowania
+
+W toku konsultacji publicznych i opiniowania wpłynęły stanowiska: Prezesa Urzędu Lotnictwa
+Cywilnego (pismo z dnia 26 lipca 2024 r.), IATA i BARIP (pismo z dnia 26 sierpnia 2024 r.), Związku
+Regionalnych Portów Lotniczych (pismo z dnia 26 sierpnia 2024 r.) oraz Federacji Związków
+Pracodawców Ochrony Zdrowia „Porozumienie Zielonogórskie” (pismo z dnia 23 sierpnia 2024 r.).
+
+W swoim stanowisku Prezes Urzędu Ochrony Danych Osobowych kierunkowo pozytywnie ocenił
+zaproponowane zmiany i nie zgłosił uwag do projektu. Natomiast we wspólnym stanowisku IATA
+i BARIP podkreśliły, że opiniowany projekt reguluje większość zagadnień zgłaszanych w ostatnich latach
+przez przedstawicieli rynku lotniczego dotyczących przekazywania danych pasażerów (PNR). WW.
+organizacje zauważyły ponadto, że proponowane rozwiązania stanowią odpowiedź na postulowany
+przez Trybunał Sprawiedliwości UE sposób przetwarzania danych PNR w zakresie lotów
+wewnątrzunijnych, a jednocześnie uwzględniają ich praktyczny wymiar i możliwość implementacji
+w codziennych operacjach linii lotniczych.
+
+IATA i BARIP zgłosiły następujące wspólne uwagi:
+
+     l.p.                    uwagi                   stanowisko projektodawcy
+ 1          W obecnym kształcie zaproponowane Uwaga uwzględniona.
+            definicje      lotu        pozaunijnego
+            i wewnątrzunijnego posługują się dwoma
+            różnymi sformułowaniami, tj. „lot, który
+            jest planowany” albo „lot, który zgodnie
+            z planem odbywa się (…)”. Aby uniknąć
+            wątpliwości            interpretacyjnych
+            uzasadnione jest ujednolicenie definicji
+            obu lotów poprzez wybranie jednego
+            sformułowania i zastosowanie go w obu
+
+                                                                                                    1
+           definicjach tj. albo „jest planowany” albo
+           „zgodnie z planem odbywa się”.
+    2      Obie definicje korzystają z pojęcia             Uwaga nieuwzględniona
+           „państwo członkowskie”. Tymczasem,              Proponowane definicje „lotu pozaunijnego”
+           definicja lotu wewnątrzunijnego powinna         oraz „lotu wewnątrzunijnego” opierają się na
+           obejmować również państwa, które nie są         definicjach      tych     pojęć      zawartych
+           państwami członkowskimi, a wobec                w dyrektywie1. Dyrektywa z kolei stosuje
+           których zastosowanie znajduje zasada            jedynie pojęcia „państwo członkowskie” oraz
+           swobody przepływu osób, tj. kraje               „państwo trzecie”. Nie przewiduje w tym
+           należące do strefy Schengen. W grupie tej       zakresie wprowadzenia dodatkowej kategorii
+           znajdują      się,      poza    państwami       „państwa należącego do strefy Schengen”.
+           członkowskimi, również: Szwajcaria,             Analogicznie do takiej kategorii nie odnosi się
+           Norwegia, Islandia i Lichtenstein.              Trybunał Sprawiedliwości UE, którego wyrok
+           Mając powyższe na uwadze uzasadnionym           z dnia 21 czerwca 2022 r.2 nie obowiązuje
+           jest dokonanie zmiany w treści definicji        państw      stowarzyszonych       w    ramach
+           lotu pozaunijnego i wewnątrzunijnego            Europejskiego Stowarzyszenia Wolnego
+           poprzez zastąpienie słów „państwo               Handlu. Państwa te nie są związane
+           członkowskie”        słowami     „państwo       dyrektywą.
+           członkowskie lub państwo należące do            Krajowy       ustawodawca        w     ustawie
+           strefy Schengen”.                               o przetwarzaniu danych dotyczących przelotu
+                                                           pasażera przewiduje zatem również dwie
+                                                           kategorie państw: „państwo członkowskie”
+                                                           oraz      „państwo      trzecie”,    definiując
+                                                           je odpowiednio w art. 2 pkt 7 i 8. Państwo
+                                                           członkowskie to więc państwo, które spełnia
+                                                           łącznie dwa warunki: jest państwem UE oraz
+                                                           stosuje     dyrektywę.      W      pozostałych
+                                                           przypadkach mamy do czynienia z państwem
+                                                           trzecim, a zatem państwami trzecimi,
+                                                           w      rozumieniu ustawy są państwa
+                                                           stowarzyszone.
+                                                           Wyodrębnienie          osobnej        kategorii
+                                                           w krajowym akcie prawnym dla grupy
+                                                           państw, które transponują dyrektywę nie jest
+                                                           możliwe, gdyż w praktyce mogłoby to
+                                                           w sposób systemowy zaburzyć stosowanie
+                                                           przyjętych rozwiązań w kontekście całego
+                                                           mechanizmu przekazywania danych PNR,
+                                                           w tym m.in. w części dotyczącej wymiany
+                                                           informacji między państwami członkowskimi
+                                                           (art. 9 dyrektywy) oraz przekazywania danych
+                                                           PNR do państw trzecich (art. 11). Dyrektywa
+                                                           bowiem nie przewiduje współpracy z inną
+                                                           kategorią państw.
+
+
+
+1
+  dyrektywa UE 2016/681 z dnia 27 kwietnia 2016 r. w sprawie wykorzystywania danych dotyczących przelotu
+pasażera (danych PNR) w celu zapobiegania przestępstwom terrorystycznym i poważnej przestępczości, ich
+wykrywania, prowadzenia postępowań przygotowawczych w ich sprawie i ich ścigania (Dz. Urz. UE L 119
+z 04.05.2016, str. 132);
+2
+  wyrok Trybunału Sprawiedliwości Unii Europejskiej (TSUE) z dnia 21 czerwca 2022 r. w sprawie C-817/19 Ligue
+des droits humains.
+
+                                                                                                           2
+                                                 Z kolei uwzględnienie państw strefy Schengen
+                                                 w definicji państwa członkowskiego również
+                                                 nie jest możliwe, ponieważ państwa
+                                                 stowarzyszone nie stosując dyrektywy
+                                                 nie mają obowiązku jej wypełnienia
+                                                 m.in. w zakresie ustanowienia jednostki
+                                                 do spraw informacji o pasażerach (JIP).
+3   W art. 1 ust. 4 projektu ustawy dokonano Uwaga uwzględniona.
+    zmiany treści przepisu art. 10, nadając mu
+    nowe brzmienie. W konsekwencji w art.
+    10 ust. 1 w brzmieniu po nowelizacji
+    znajdowały się będą trzy, a nie jak
+    wcześniej, cztery punkty. Z kolei w art. 1
+    ust. 8 projektu ustawy dokonano zmiany
+    przepisu art. 64 ust. 1 pkt 2. W treści tego
+    przepisu znajduje się odniesienie do art.
+    10 ust. 1 pkt 4, który po nowelizacji nie
+    będzie istniał. Konieczne jest zatem
+    dokonanie         korekty       wskazanego
+    odniesienia.
+4   Podobna sytuacja dotyczy art. 1 ust. 11 Uwaga uwzględniona przez skorygowanie
+    projektu ustawy, dotyczącego zmian odesłania zawartego w art. 66 ust. 2.
+    w art. 66 zmienianej ustawy. Wydaje się,
+    że ust. 2 komentowanego przepisu
+    przewidujący karę za naruszenie art. 10
+    ust. 4 ustawy powinien zostać uchylony,
+    zgodnie bowiem z nowelizacją (por. art. 1
+    ust. 4 projektu ustawy), art. 10 ust. 4
+    przestanie istnieć, a zatem ust. 2 art. 66
+    ustawy staje się zbędny. W celu uniknięcia
+    wątpliwości interpretacyjnych zasadne
+    jest usunięcie ustępu drugiego i ujęcie
+    postanowienia art. 1 ust. 11 projektu
+    ustawy w następujący sposób: „art. 66
+    otrzymuje brzmienie:".
+5   Zgodnie z art. 2 projektu ustawy, Uwaga uwzględniona.
+    postępowania administracyjne, sądowo-
+    administracyjne oraz egzekucyjne będące
+    w toku – umarza się, a nowych się nie
+    wszczyna o ile spełniona zostanie jedna
+    z trzech przesłanek: (i) niedopełnienie
+    miało miejsce przed dniem wejścia w życie
+    niniejszej ustawy, a przewoźnik lotniczy
+    nie później niż w ciągu trzech miesięcy od
+    dnia wejścia w życie niniejszej ustawy
+    spełnił warunki przekazywania danych
+    PNR określone w art. 8; albo (ii) w okresie
+    roku przed dniem wejścia w życie
+    niniejszej ustawy nie obsługiwał żadnego
+    lotu PNR; albo (iii) naruszenie związane
+    jest z obsługą lotu wewnątrzunijnego.
+
+
+                                                                                            3
+          Biorąc jednak pod uwagę, że co
+          do     jednego     postępowania     mogą
+          potencjalnie zostać spełnione dwie
+          przesłanki (np. przesłanka (i) oraz (iii)),
+          proponujemy              doprecyzowanie
+          w uzasadnieniu ustawy, iż co prawda
+          wystarczające jest spełnienie jednej
+          przesłanki dla skorzystania z abolicji,
+          niemniej spełnienie więcej niż jednej
+          przesłanki z art. 2 również nie wyklucza
+          abolicji.
+          Obecnie spójnik „albo” może wprowadzać
+          w tym zakresie niepotrzebne wątpliwości
+          interpretacyjne, dlatego w samym
+          brzmieniu przepisu art. 2 sugerujemy
+          zmianę spójnika „albo” na „lub”
+          co pozwoli skorzystać z abolicji zarówno
+          w sytuacji, gdy tylko jedna przesłanka
+          z art. 2 jest spełniona, jak i gdy do
+          określonego      postępowania      można
+          zastosować ich więcej.
+ 6        Zgodnie z art. 2 ust. 2 projektu ustawy       Uwaga nieuwzględniona.
+          umorzeniu      ulegną     toczące      się    Wszystkie dotychczasowe decyzje wydane na
+          postępowania sądowo-administracyjne.          podstawie ustawy o przetwarzaniu danych
+          Takie umorzenie sprawia jednak, że            dotyczących przelotu pasażera, w przypadku
+          zaskarżone decyzje pozostają w mocy.          gdy nie zostały uchylone prawomocnym
+          Proponujemy dlatego, aby uzupełnić            wyrokiem sądowym, zachowują moc, gdyż
+          omawiany przepis o stwierdzenie, że wraz      zostały wydane na podstawie i w granicach
+          z umorzeniem postępowań sądowo-               obowiązującego prawa.
+          administracyjnych,       będące        ich
+          przedmiotem decyzje tracą moc.
+
+
+W stanowisku Związku Regionalnych Portów Lotniczych podkreślono, że projektowana nowelizacja ma
+kluczowe znaczenie dla płynności funkcjonowania operatorów lotniczych korzystających
+z regionalnych portów lotniczych w Polsce. Ponadto Związek zauważa, że „(…) poza dostosowaniem
+polskich przepisów do orzecznictwa tak polskich sądów administracyjnych, w ostatnich miesiącach, jak
+i Trybunału Sprawiedliwości Unii Europejskiej, nowe przepisy rozwiązują największe problemy linii
+lotniczych, tj. kary administracyjne nałożone przez Straż Graniczną w pierwszym okresie po wejściu
+w życie ustawy o przetwarzaniu danych dotyczących przelotu pasażera. Przyjęte w art. 2 projektu
+ustawy rozwiązanie abolicyjne ma niebagatelne znaczenie dla linii lotniczych, nad którymi wisiało
+ryzyko konieczności zapłaty niewspółmiernie wysokich kar administracyjnych za nieprzekazywanie
+danych dotyczących przelotu pasażera, które to uchybienia niezwykle często spowodowane były
+wyłącznie problemami technicznymi.
+
+Dodatkowym atutem nowelizacji jest złagodzenie kar za naruszenie ustawy, w szczególności
+rozszerzony system miarkowania kar do 50% i 25% ich wysokości w przypadkach przewidzianych
+w ustawie. Ma to szczególne znaczenie dla regionalnych portów lotniczych, które realnie obawiały się
+zmniejszenia ruchu w sytuacji, gdy surowość regulacji prawnych dotyczących linii lotniczych była
+zdecydowanie większa niż regulacje obowiązujące w państwach ościennych.”.
+
+
+                                                                                                  4
+W ramach zgłaszanych uwag Związek Regionalnych Portów Lotniczych podnosi konieczność
+zapewnienia poprawnych odesłań w zmienianym art. 66 i 64 ustawy o przetwarzaniu danych
+dotyczących przelotu pasażera. Są tu uwagi analogiczne jak wymienione powyżej w pkt 3 i 4 uwagi
+IATA/BARIP
+
+Ponadto pismem z dnia 23 sierpnia 2024 r. Federacja Związków Pracodawców Ochrony Zdrowia
+„Porozumienie Zielonogórskie” poinformowała o braku uwag do projektu.
+
+3. Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu
+z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem Centralnym
+
+Projekt ustawy nie wymagał zasięgnięcia opinii, dokonania konsultacji ani uzgodnienia projektu
+z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem Centralnym.
+4. Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem w trybie przepisów
+o działalności lobbingowej w procesie stanowienia prawa, wraz ze wskazaniem kolejności dokonania
+zgłoszeń albo informację o ich braku
+
+Nie odnotowano zgłoszeń zainteresowanych podmiotów w trybie przepisów o działalności
+lobbingowej w procesie stanowienia prawa.
+
+
+
+
+                                                                                              5
+

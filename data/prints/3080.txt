@@ -1,0 +1,722 @@
+                                                                       Druk nr 3080
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+               X kadencja
+
+                                    SPRAWOZDANIE
+         KOMISJI GOSPODARKI MORSKIEJ I ŻEGLUGI ŚRÓDLĄDOWEJ
+                            ORAZ KOMISJI INFRASTRUKTURY
+
+
+
+  o rządowym projekcie ustawy o usprawnieniu
+  procesu inwestycyjnego w zakresie kluczowych
+  inwestycji infrastrukturalnych (druk nr 3030)
+        Marszałek Sejmu, zgodnie z art. 37 ust. 1 i art. 40 ust. 1 regulaminu Sejmu
+  - po zasięgnięciu opinii Prezydium Sejmu - skierował w dniu 1 września 2026 r. powyższy
+  projekt ustawy do Komisji Gospodarki Morskiej i Żeglugi Śródlądowej oraz Komisji
+  Infrastruktury do pierwszego czytania.
+       Komisje: Gospodarki Morskiej i Żeglugi Śródlądowej oraz Infrastruktury
+  po przeprowadzeniu pierwszego czytania oraz rozpatrzeniu tego projektu ustawy
+  na posiedzeniu w dniu 15 września 2026 r.
+
+     wnoszą:
+
+     W y s o k i S e j m uchwalić raczy załączony projekt ustawy.
+
+
+      Komisje, zgodnie z art. 43 ust.3 regulaminu Sejmu, przedstawiają na żądanie
+  wnioskodawców następujące wnioski mniejszości:
+
+
+   1) w art. 2 w pkt 2 w lit. c średnik zastąpić przecinkiem i dodać lit. d w brzmieniu:
+       „d) budowa Stopnia Wodnego Siarzewo;”;
+   – poseł K. Płażyński
+
+
+   2) w art. 2 w pkt 3 w lit. e średnik zastąpić przecinkiem i dodać lit. f i g w brzmieniu:
+       „f) nr 631 Milanów – Fronołów,
+       g) nr 29 Ostrołęka – Łomża – Pisz – Orzysz – Giżycko;”;
+   – poseł M. Horała
+   – poseł Ł. Kmita
+ 3) w art. 2 pkt 7 nadać brzmienie:
+     „7) inwestycje z zakresu transportu lotniczego:
+          a) rozbudowa i przebudowa strefy operacyjnej na terenie Międzynarodowego Portu
+             Lotniczego im. Jana Pawła II Kraków-Balice,
+          b) budowa i przebudowa strefy operacyjnej oraz strefy ogólnodostępnej na terenie
+             Portu Lotniczego Rzeszów-Jasionka, a także elementów infrastruktury Portu
+             Lotniczego Rzeszów-Jasionka umożliwiających integrację tego portu lotniczego
+             z innymi gałęziami transportu.”;
+ – poseł M. Horała
+ – poseł Ł. Kmita
+
+
+ 4) w art. 2 w pkt 7 kropkę zastąpić średnikiem i dodać pkt 8 w brzmieniu:
+     „8) Inwestycja oraz Inwestycje Towarzyszące w rozumieniu odpowiednio art. 2 pkt 3 i
+        4 ustawy z dnia 10 maja 2018 r. o Centralnym Porcie Komunikacyjnym (Dz. U. z
+        2024 r. poz. 1747, z późn. zm.).”;
+ – poseł M. Horała
+ – poseł Ł. Kmita
+ Uwaga: wniosek mniejszości nr 4 należy głosować z wnioskami mniejszości nr 5 i 6
+
+ 5) po art. 4 dodać art. 4a w brzmieniu:
+    „Art. 4a. W razie zbiegu postępowań lub czynności prowadzonych na podstawie
+              niniejszej ustawy w odniesieniu do różnych inwestycji kluczowych
+              pierwszeństwo     mają     postępowania   i   czynności   dotyczące   inwestycji
+              kluczowych, o których mowa w art. 2 pkt 8.”;
+ – poseł M. Horała
+ – poseł Ł. Kmita
+
+
+ 6) w art. 22 ust. 13 nadać brzmienie:
+     „13. Szczególnych zasad nabywania nieruchomości określonych w niniejszym artykule
+        nie stosuje się do inwestycji kluczowych, o których mowa w art. 2 pkt 1, pkt 4 lit. b i
+        pkt 8.”;
+– poseł M. Horała
+– poseł Ł. Kmita
+ 7) skreślić art. 23;
+ – poseł M. Horała
+ – poseł Ł. Kmita
+Uwaga: wniosek mniejszości nr 7 należy głosować z wnioskiem mniejszości nr 8
+
+
+ 8) skreślić art. 28.
+ – poseł M. Horała
+ – poseł Ł. Kmita
+
+
+
+
+Warszawa, dnia 15 września 2026 r.
+
+
+
+
+           Przewodniczący Komisji                         Przewodniczący Komisji
+                Infrastruktury                    Gospodarki Morskiej i Żeglugi Śródlądowej
+
+             (-) Mirosław Suchoń                              (-) Kacper Płażyński
+
+
+
+                                         Sprawozdawca
+
+                                         (-) Artur Łącki
+
+
+
+
+               Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 17      Data : 2026-09-21      Nazwa pliku : V5_2723-0.PK                                        1
+X kadencja/druk nr 3030
+
+                                                                                                         Projekt
+                                                 U S T AWA
+
+                                                      z dnia
+
+                 o usprawnieniu procesu inwestycyjnego w zakresie kluczowych
+                                     inwestycji infrastrukturalnych1)
+
+
+       Art. 1. Ustawa określa kluczowe inwestycje infrastrukturalne, zwane dalej „inwestycjami
+kluczowymi”, oraz rozwiązania służące usprawnieniu procesu inwestycyjnego w zakresie tych
+inwestycji.
+
+       Art. 2. Inwestycjami kluczowymi są:
+1)     budowa drogi krajowej nr 7 od ul. Morskiej w Gdyni do publicznego terminala
+       promowego w porcie morskim w Gdyni;
+2)     inwestycje z zakresu gospodarki morskiej:
+       a)    rozbudowa portu zewnętrznego w porcie morskim w Świnoujściu wraz z budową
+             i rozbudową infrastruktury zapewniającej dostęp od strony morza do portu
+             morskiego w Świnoujściu – Przylądek Pomerania,
+       b)    budowa portu zewnętrznego w porcie morskim w Gdyni wraz z budową i rozbudową
+             infrastruktury zapewniającej dostęp do portu morskiego w Gdyni,
+       c)    budowa infrastruktury stacyjno-przeładunkowej na Wyspie Portowej wraz z
+             przeprawą kolejowo-drogową przez Martwą Wisłę oraz budowa odcinka nowej linii
+             kolejowej wokół rafinerii i włączenie jej do istniejącej linii kolejowej nr 226 do stacji
+             Gdańsk Olszynka;
+3)     inwestycje z zakresu transportu kolejowego realizowane na liniach kolejowych:
+       a)    nr 401 Szczecin – Świnoujście,
+       b)    nr 273 Wrocław – Szczecin,
+       c)    nr 131 Chorzów Batory – Tczew,
+       d)    nr 9 Warszawa – Gdańsk,
+       e)    nr 201 Nowa Wieś Wielka – Gdynia;
+4)     inwestycje w ramach programu wieloletniego przyjętego uchwałą nr 103 Rady Ministrów
+       z dnia 20 czerwca 2023 r. w sprawie ustanowienia programu wieloletniego pod nazwą
+
+
+1)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 7 lipca 1994 r. – Prawo budowlane, ustawę z dnia
+     10 kwietnia 1997 r. – Prawo energetyczne oraz ustawę z dnia 9 czerwca 2011 r. – Prawo geologiczne i górnicze.
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                           2
+X kadencja/druk nr 3030
+
+     „Program wspierania inwestycji infrastrukturalnych w związku z realizacją kluczowych
+     inwestycji w zakresie strategicznej infrastruktury energetycznej, w tym elektrowni
+     jądrowej, w województwie pomorskim” (M.P. z 2026 r. poz. 249):
+     a)    budowa infrastruktury hydrotechnicznej w granicach pasa technicznego na obszarze
+           gmin Choczewo lub Krokowa oraz na obszarach morskich Rzeczypospolitej
+           Polskiej, w szczególności na potrzeby elektrowni jądrowej,
+     b)    budowa drogi na odcinku 1. Lubiatowo – droga wojewódzka nr 213 oraz odcinku
+           2. droga wojewódzka nr 213 – droga ekspresowa S6,
+     c)    budowa lub przebudowa infrastruktury kolejowej zapewniającej dojazd do gmin:
+           Nowa Wieś Lęborska, Kartuzy, Chmielno, Sierakowice, Linia, Łęczyce, Lębork,
+           Wicko, Łeba, Wejherowo, Choczewo, Gniewino i Krokowa, w tym linii kolejowych
+           wraz z sieciami trakcyjnymi, stacji pasażerskich, terminali towarowych i obiektów
+           inżynieryjnych;
+5)   inwestycje przeciwpowodziowe:
+     a)    zabezpieczenie przeciwpowodziowe w dolinie potoku Wątok w gm. miasto Tarnów
+           oraz Skrzyszów i Ryglice, powiat tarnowski,
+     b)    budowa zbiornika Międzyrzecze, gm. Jasienica,
+     c)    odbudowa suchego zbiornika retencyjnego Stronie Śląskie;
+6)   budowa elementów Kolejowego Systemu Ruchomej Łączności Radiowej (RMR),
+     służących realizacji zadań zarządcy infrastruktury określonych w art. 5 ust. 1 ustawy
+     z dnia 28 marca 2003 r. o transporcie kolejowym (Dz. U. z 2025 r. poz. 1234 oraz z 2026 r.
+     poz. 41, 815 i 912), realizowanych na obszarze kolejowym w rozumieniu art. 4 pkt 8 tej
+     ustawy;
+7)   inwestycje z zakresu transportu lotniczego:
+     a)    rozbudowa i przebudowa strefy operacyjnej lotniska na terenie Międzynarodowego
+           Portu Lotniczego im. Jana Pawła II Kraków-Balice,
+     b)    rozbudowa i przebudowa elementów infrastruktury Lotniska Chopina w Warszawie
+           w części lotniczej lotniska i w strefie ogólnodostępnej lotniska,
+     c)    budowa i przebudowa strefy operacyjnej lotniska oraz strefy ogólnodostępnej
+           lotniska na terenie Portu Lotniczego Rzeszów-Jasionka, oraz elementów
+           infrastruktury Portu Lotniczego Rzeszów-Jasionka umożliwiających integrację tego
+           portu lotniczego z innymi gałęziami transportu,
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                           3
+X kadencja/druk nr 3030
+
+     d)    rozbudowa i przebudowa strefy operacyjnej lotniska oraz strefy ogólnodostępnej
+           lotniska na terenie Mazowieckiego Portu Lotniczego Warszawa-Modlin.
+
+     Art. 3. Do inwestycji kluczowych stosuje się przepisy ogólne i szczególne odnoszące się
+do tych inwestycji, z uwzględnieniem przepisów niniejszej ustawy.
+
+     Art. 4. 1. Wnioski dotyczące inwestycji kluczowych wpływające do organów właściwych
+do wydania decyzji, o której mowa w art. 71 ustawy z dnia 3 października 2008 r. o
+udostępnianiu informacji o środowisku i jego ochronie, udziale społeczeństwa w ochronie
+środowiska oraz o ocenach oddziaływania na środowisko (Dz. U. z 2026 r. poz. 670 i 875),
+zwanej dalej „decyzją o środowiskowych uwarunkowaniach”, rozpatruje się niezwłocznie,
+poza kolejnością wpływu.
+     2. Wnioski dotyczące inwestycji kluczowych wpływające do organów właściwych do
+wydania:
+1)   pozwolenia wodnoprawnego, o którym mowa w art. 388 ust. 1 pkt 1 ustawy z dnia 20 lipca
+     2017 r. – Prawo wodne (Dz. U. z 2025 r. poz. 960 i 1535 oraz z 2026 r. poz. 445, 605, 815
+     i 1033),
+2)   oceny wodnoprawnej, o której mowa w art. 388 ust. 1 pkt 3 ustawy z dnia 20 lipca 2017 r.
+     – Prawo wodne
+– rozpatruje się niezwłocznie, poza kolejnością wpływu.
+
+     Art. 5. Odstąpienie od zatwierdzonego projektu zagospodarowania działki lub terenu oraz
+projektu architektoniczno-budowlanego w zakresie objętym projektem zagospodarowania
+terenu w liniach rozgraniczających teren realizacji inwestycji kluczowych nie stanowi istotnego
+odstąpienia, o którym mowa w art. 36a ustawy z dnia 7 lipca 1994 r. – Prawo budowlane
+(Dz. U. z 2026 r. poz. 524, 605 i 646), jeżeli zakres zmian nie wymaga uzyskania lub zmiany
+decyzji o środowiskowych uwarunkowaniach wydanej dla przedsięwzięcia.
+
+     Art. 6. 1. Akta sprawy i odpowiedź na skargę na decyzję dotyczącą inwestycji kluczowej
+przekazuje się do sądu administracyjnego w terminie 7 dni od dnia otrzymania skargi. Sąd
+rozpatruje skargę w terminie 30 dni od dnia otrzymania akt sprawy wraz z odpowiedzią na
+skargę.
+     2. Termin rozpatrzenia skargi kasacyjnej na orzeczenie sądu administracyjnego dotyczące
+decyzji, o której mowa w ust. 1, wynosi 2 miesiące od dnia jej wniesienia.
+Liczba stron : 17    Data : 2026-09-21      Nazwa pliku : V5_2723-0.PK                                   4
+X kadencja/druk nr 3030
+
+       Art. 7. Weryfikacja wyników zgłoszonych prac geodezyjnych dotyczących inwestycji
+kluczowej w zakresie, o którym mowa w art. 12b ust. 1 ustawy z dnia 17 maja 1989 r. – Prawo
+geodezyjne i kartograficzne (Dz. U. z 2024 r. poz. 1151 i 1824 oraz z 2025 r. poz. 1019, 1542
+i 1792), jest dokonywana niezwłocznie, niepóźniej niż w terminie 7 dni roboczych od dnia
+otrzymania przez organ Służby Geodezyjnej i Kartograficznej zawiadomienia o przekazaniu
+wyników zgłoszonych prac.
+
+       Art. 8. 1. W przypadku realizacji inwestycji kluczowej wojewódzki konserwator
+zabytków wydaje decyzje, o których mowa w art. 32 ust. 5 ustawy z dnia 23 lipca 2003 r.
+o ochronie zabytków i opiece nad zabytkami (Dz. U. z 2024 r. poz. 1292, z późn. zm. 2)), w
+terminie niedłuższym niż 5 dni roboczych od dnia dokonania oględzin.
+       2. W przypadku inwestycji kluczowej, jeżeli w terminie, o którym mowa w art. 32 ust. 3
+ustawy z dnia 23 lipca 2003 r. o ochronie zabytków i opiece nad zabytkami, wojewódzki
+konserwator zabytków nie dokona oględzin odkrytego przedmiotu, przerwane roboty mogą być
+kontynuowane. W przypadku uznania odkrytego przedmiotu za zabytek do inwestora lub
+wykonawcy robót nie stosuje się przepisu art. 108 ustawy z dnia 23 lipca 2003 r. o ochronie
+zabytków i opiece nad zabytkami.
+
+       Art. 9. Decyzje w przedmiocie zatwierdzenia projektu robót geologicznych oraz dodatku
+do projektu robót geologicznych wydane na potrzeby inwestycji kluczowych i dotyczące
+określenia warunków:
+1)     geologiczno-inżynierskich na potrzeby zagospodarowania przestrzennego,
+2)     geologiczno-inżynierskich na potrzeby posadawiania obiektów budowlanych,
+3)     hydrogeologicznych        związanych       z   zamierzonym        wykonywaniem         odwodnień
+       budowlanych otworami wiertniczymi,
+4)     hydrogeologicznych związanych z zamierzonym wykonywaniem przedsięwzięć
+       mogących negatywnie oddziaływać na wody podziemne, w tym powodować ich
+       zanieczyszczenie
+– podlegają natychmiastowemu wykonaniu.
+
+       Art. 10. 1. Do drzew lub krzewów usuwanych w związku z realizacją inwestycji
+kluczowych nie stosuje się przepisów art. 83 i art. 84 ustawy z dnia 16 kwietnia 2004 r. o
+ochronie przyrody (Dz. U. z 2026 r. poz. 13, 426, 737 i 912) w zakresie obowiązku uzyskiwania
+
+2)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2024 r. poz. 1907, z 2025 r.
+     poz. 1168 i 1673 oraz z 2026 r. poz. 483 i 875.
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                            5
+X kadencja/druk nr 3030
+
+zezwoleń na ich usunięcie i opłat z tym związanych oraz przepisów art. 36 ust. 1 pkt 1 i 1b
+ustawy z dnia 23 lipca 2003 r. o ochronie zabytków i opiece nad zabytkami w zakresie
+uzyskania pozwolenia na prace polegające na usunięciu drzewa lub krzewu.
+     2. Do wylesień związanych z realizacją inwestycji kluczowych nie stosuje się przepisów
+art. 11 i art. 12 ustawy z dnia 3 lutego 1995 r. o ochronie gruntów rolnych i leśnych (Dz. U. z
+2024 r. poz. 82 oraz z 2026 r. poz. 781 i 875) dotyczących wyłączenia z produkcji leśnej oraz
+opłat z tym związanych, w tym jednorazowego odszkodowania za przedwczesny wyrąb
+drzewostanu oraz opłaty rocznej i należności.
+
+     Art. 11. 1. Odwołanie od decyzji dotyczących inwestycji kluczowych lub zażalenie na
+postanowienie dotyczące tych inwestycji zawiera zarzuty odnoszące się do decyzji lub
+postanowienia oraz istotę i zakres żądania będącego przedmiotem odwołania lub zażalenia, a
+także wskazuje dowody uzasadniające to żądanie.
+     2. W przypadku gdy odwołanie od decyzji lub zażalenie na postanowienie nie spełnia
+wymogów, o których mowa w ust. 1, stosuje się przepis art. 64 § 2 ustawy z dnia 14 czerwca
+1960 r. – Kodeks postępowania administracyjnego (Dz. U. z 2025 r. poz. 1691), z tym że
+wezwanie wnoszącego do usunięcia braków następuje niepóźniej niż po upływie 14 dni od dnia
+wpływu odwołania lub zażalenia do organu wyższego stopnia.
+     3. Odwołanie od decyzji o środowiskowych uwarunkowaniach dotyczącej inwestycji
+kluczowych zawiera zarzuty odnoszące się do decyzji oraz istotę i zakres żądania będącego
+przedmiotem odwołania.
+
+     Art. 12. W przypadku inwestycji kluczowych, o których mowa w art. 2 pkt 2, opinię,
+o której mowa w art. 23 ust. 2 ustawy z dnia 21 marca 1991 r. o obszarach morskich
+Rzeczypospolitej Polskiej i administracji morskiej (Dz. U. z 2024 r. poz. 1125, z 2025 r.
+poz. 409, 1535 i 1668 oraz z 2026 r. poz. 252), wydaje się w terminie niedłuższym niż 45 dni
+od dnia otrzymania wniosku o jej wydanie. Niewydanie opinii w tym terminie traktuje się jako
+brak zastrzeżeń.
+
+     Art. 13. 1. W przypadku inwestycji kluczowych, o których mowa w art. 2 pkt 1 i pkt 4
+lit. b, termin wskazany w ustawie z dnia 10 kwietnia 2003 r. o szczególnych zasadach
+przygotowania i realizacji inwestycji w zakresie dróg publicznych (Dz. U. z 2024 r. poz. 311)
+w:
+1)   art. 11a ust. 3 i art. 11h ust. 1 zdanie pierwsze – wynosi 60 dni od dnia złożenia wniosku
+     o wydanie decyzji o zezwoleniu na realizację inwestycji drogowej;
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                            6
+X kadencja/druk nr 3030
+
+2)   art. 11b ust. 2 – wynosi 7 dni od dnia zwrócenia się przez właściwego zarządcę drogi
+     o wyrażenie opinii, o której mowa w art. 11b ust. 1 tej ustawy;
+3)   art. 11d ust. 2 zdanie pierwsze – wynosi 14 dni od dnia otrzymania wniosku o wydanie
+     opinii, o których mowa w art. 11d ust. 1 pkt 8 tej ustawy.
+     2. Do inwestycji kluczowych, o których mowa w art. 2 pkt 1 i pkt 4 lit. b, nie stosuje się
+przepisów art. 18 ust. 1g pkt 3 oraz art. 32a ustawy z dnia 10 kwietnia 2003 r. o szczególnych
+zasadach przygotowania i realizacji inwestycji w zakresie dróg publicznych.
+
+     Art. 14. 1. W przypadku inwestycji kluczowych, o których mowa w art. 2 pkt 1 i pkt 4
+lit. b, porozumienie, o którym mowa w art. 20b ust. 1 ustawy z dnia 10 kwietnia 2003 r. o
+szczególnych zasadach przygotowania i realizacji inwestycji w zakresie dróg publicznych, jest
+zawierane w terminie 21 dni od dnia otrzymania przez Państwowe Gospodarstwo Leśne Lasy
+Państwowe wystąpienia o zawarcie porozumienia, a termin wycinki drzew i krzewów oraz ich
+uprzątnięcia nie może przekraczać 2 miesięcy od dnia zawarcia porozumienia. Do biegu
+terminu nie wlicza się okresów opóźnień spowodowanych z winy inwestora albo z przyczyn
+niezależnych od Państwowego Gospodarstwa Leśnego Lasy Państwowe.
+     2. W przypadku inwestycji kluczowych, o których mowa w art. 2 pkt 1 i pkt 4 lit. b, jeżeli
+w terminie 21 dni od dnia otrzymania przez Państwowe Gospodarstwo Leśne Lasy Państwowe
+wystąpienia o zawarcie porozumienia, o którym mowa w art. 20b ust. 1 ustawy z dnia
+10 kwietnia 2003 r. o szczególnych zasadach przygotowania i realizacji inwestycji w zakresie
+dróg publicznych, nie dojdzie do jego zawarcia, termin wycinki drzew i krzewów oraz ich
+uprzątnięcia ustala wojewoda w drodze decyzji w terminie 21 dni od dnia zawiadomienia przez
+inwestora o braku zawarcia porozumienia. Termin wycinki drzew i krzewów oraz ich
+uprzątnięcia ustalany w decyzji nie może przekraczać 2 miesięcy. Organem wyższego stopnia
+w sprawie, o której mowa w zdaniu pierwszym, jest minister właściwy do spraw środowiska.
+     3. W przypadku inwestycji kluczowych, o których mowa w art. 2 pkt 1 i pkt 4 lit. b, termin
+wycinki drzew i krzewów oraz ich uprzątnięcia, jeżeli są wymagane, uwzględnia środowiskowe
+uwarunkowania realizacji przedsięwzięcia określone w decyzji o środowiskowych
+uwarunkowaniach.
+     4. W przypadku gdy inwestycje kluczowe, o których mowa w art. 2 pkt 1 i pkt 4 lit. b,
+wymagają przejścia przez tereny linii kolejowej lub tereny wód płynących, a porozumienie, o
+którym mowa w art. 20a ust. 2 ustawy z dnia 10 kwietnia 2003 r. o szczególnych zasadach
+przygotowania i realizacji inwestycji w zakresie dróg publicznych, nie zostanie zawarte w
+terminie 21 dni od dnia przekazania jego projektu zarządcy infrastruktury kolejowej lub
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                           7
+X kadencja/druk nr 3030
+
+odpowiednim podmiotom, o których mowa w art. 212 ust. 1 ustawy z dnia 20 lipca 2017 r. –
+Prawo wodne, z przyczyn leżących po ich stronie, zarządca drogi po upływie tego terminu jest
+uprawniony do nieodpłatnego zajęcia terenu linii kolejowej lub terenu wód płynących. Zajęcie
+terenu linii kolejowej nie może utrudniać prowadzenia ruchu kolejowego i zagrażać
+bezpieczeństwu ruchu kolejowego. Zajęcie terenu wód płynących nie może utrudniać
+prowadzenia ochrony przed powodzią i suszą, pogarszać parametrów eksploatacyjnych
+śródlądowych dróg wodnych i wpływać na bezpieczeństwo żeglugi śródlądowej.
+
+     Art. 15. 1. Państwowe Gospodarstwo Leśne Lasy Państwowe zarządzające na podstawie
+ustawy z dnia 28 września 1991 r. o lasach (Dz. U. z 2026 r. poz. 663) nieruchomościami, na
+których realizowane będą inwestycje kluczowe, o których mowa w art. 2 pkt 2, 3 i pkt 4 lit. c,
+lub park narodowy będący na podstawie ustawy z dnia 16 kwietnia 2004 r. o ochronie przyrody
+użytkownikiem wieczystym tych nieruchomości są obowiązane do dokonania wycinki drzew
+i krzewów oraz ich uprzątnięcia w terminie oraz na warunkach ustalonych w odrębnym
+porozumieniu zawartym między Państwowym Gospodarstwem Leśnym Lasy Państwowe lub
+parkiem narodowym a inwestorem.
+     2. Porozumienie, o którym mowa w ust. 1, jest zawierane w terminie 21 dni od dnia
+otrzymania przez Państwowe Gospodarstwo Leśne Lasy Państwowe lub park narodowy
+wystąpienia o zawarcie takiego porozumienia, a termin wycinki drzew i krzewów oraz ich
+uprzątnięcia nie może przekraczać 2 miesięcy. Do biegu terminu nie wlicza się okresów
+opóźnień spowodowanych z winy inwestora albo z przyczyn niezależnych od Państwowego
+Gospodarstwa Leśnego Lasy Państwowe oraz parku narodowego.
+     3. Jeżeli w terminie 21 dni od dnia otrzymania przez Państwowe Gospodarstwo Leśne
+Lasy Państwowe lub park narodowy wystąpienia o zawarcie porozumienia, o którym mowa w
+ust. 1, nie dojdzie do jego zawarcia, termin wycinki drzew i krzewów oraz ich uprzątnięcia
+ustala wojewoda w drodze decyzji w terminie 21 dni od dnia zawiadomienia przez inwestora o
+braku zawarcia porozumienia. Termin wycinki drzew i krzewów oraz ich uprzątnięcia ustalany
+w decyzji nie może przekraczać 2 miesięcy. Organem wyższego stopnia w sprawie, o której
+mowa w zdaniu pierwszym, jest minister właściwy do spraw środowiska.
+     4. W przypadku inwestycji kluczowych, o których mowa w art. 2 pkt 2, 3 i pkt 4 lit. c,
+termin wycinki drzew i krzewów oraz ich uprzątnięcia, jeżeli są wymagane, uwzględnia
+środowiskowe        uwarunkowania       realizacji   przedsięwzięcia   określone   w   decyzji
+o środowiskowych uwarunkowaniach.
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                            8
+X kadencja/druk nr 3030
+
+     Art. 16. 1. W przypadku inwestycji kluczowych, o których mowa w art. 2 pkt 2 lit. c,
+pkt 3, pkt 4 lit. c i pkt 6, wojewoda wysyła zawiadomienie o wszczęciu postępowania o wydanie
+decyzji o ustaleniu lokalizacji linii kolejowej, o której mowa w art. 9o ust. 1 ustawy z dnia 28
+marca 2003 r. o transporcie kolejowym, wnioskodawcy, właścicielom lub użytkownikom
+wieczystym nieruchomości objętych wnioskiem o wydanie tej decyzji na adres wskazany w
+katastrze nieruchomości, Prezesowi Urzędu Transportu Kolejowego i właściwemu organowi
+ochrony zabytków oraz zawiadamia pozostałe strony o wszczęciu tego postępowania w drodze
+obwieszczeń w urzędzie wojewódzkim i urzędach gmin właściwych ze względu na przebieg
+linii kolejowej, na stronach internetowych tych gmin oraz urzędu wojewódzkiego, a także w
+prasie lokalnej. Doręczenie zawiadomienia na adres wskazany w katastrze nieruchomości jest
+skuteczne.
+     2. Z dniem otrzymania przez właściwy organ ochrony zabytków zawiadomienia, o którym
+mowa w ust. 1, wszczęcie nowych postępowań w sprawie wpisu do ewidencji zabytków lub
+wpisu do rejestru zabytków może nastąpić po uzyskaniu przez inwestora decyzji o pozwoleniu
+na użytkowanie.
+
+     Art. 17. 1. W przypadku inwestycji kluczowych, o których mowa w art. 2 pkt 5, termin
+wskazany w art. 12 ust. 1 ustawy z dnia 8 lipca 2010 r. o szczególnych zasadach przygotowania
+do realizacji inwestycji w zakresie budowli przeciwpowodziowych (Dz. U. z 2026 r. poz. 104
+i 436) wynosi 60 dni od dnia złożenia wniosku o wydanie decyzji o pozwoleniu na realizację
+inwestycji w zakresie budowli przeciwpowodziowych.
+     2. Do inwestycji kluczowych, o których mowa w art. 2 pkt 5, nie stosuje się przepisu
+art. 21 ust. 10 pkt 3 ustawy z dnia 8 lipca 2010 r. o szczególnych zasadach przygotowania do
+realizacji inwestycji w zakresie budowli przeciwpowodziowych.
+
+     Art. 18. 1. W przypadku inwestycji kluczowych, o których mowa w art. 2 pkt 7, termin
+wskazany w ustawie z dnia 12 lutego 2009 r. o szczególnych zasadach przygotowania i
+realizacji inwestycji w zakresie lotnisk użytku publicznego (Dz. U. z 2024 r. poz. 1464) w:
+1)   art. 3 – wynosi 60 dni od dnia złożenia wniosku o wydanie decyzji o zezwoleniu na
+     realizację inwestycji w zakresie lotniska użytku publicznego;
+2)   art. 5 ust. 2 – wynosi 7 dni od dnia zwrócenia się przez wnioskodawcę o wyrażenie opinii,
+     o których mowa w art. 5 ust. 1 tej ustawy;
+3)   art. 6 ust. 3 zdanie pierwsze – wynosi 14 dni od dnia otrzymania wniosku o wydanie opinii,
+     o których mowa w art. 6 ust. 1 pkt 9 tej ustawy;
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                           9
+X kadencja/druk nr 3030
+
+4)   art. 11 ust. 1 zdanie pierwsze – wynosi 65 dni od dnia złożenia wniosku o wydanie decyzji
+     o zezwoleniu na realizację inwestycji w zakresie lotniska użytku publicznego;
+5)   art. 18 ust. 2 – wynosi 30 dni od dnia otrzymania wniosku o egzekucję obowiązku
+     wynikającego z decyzji o zezwoleniu na realizację inwestycji w zakresie lotniska użytku
+     publicznego.
+     2. W przypadku inwestycji kluczowych, o których mowa w art. 2 pkt 7, w zakresie
+wydawania postanowień, o których mowa w art. 63 ust. 1 ustawy z dnia 3 października 2008 r.
+o udostępnianiu informacji o środowisku i jego ochronie, udziale społeczeństwa w ochronie
+środowiska oraz o ocenach oddziaływania na środowisko, oraz wydawania opinii i
+dokonywania uzgodnień, o których mowa w art. 64 ust. 1–1d tej ustawy, a także dokonywania
+uzgodnień oraz wydawania opinii, o których mowa w art. 77 ust. 1 tej ustawy, nowy termin
+załatwienia sprawy, o którym mowa w art. 36 § 1 ustawy z dnia 14 czerwca 1960 r. – Kodeks
+postępowania administracyjnego, może zostać wskazany tylko jeden raz, a załatwienie sprawy
+następuje niepóźniej niż w terminie miesiąca od dnia wskazania nowego terminu załatwienia
+sprawy.
+
+     Art. 19. 1. W przypadku inwestycji kluczowych, o których mowa w art. 2 pkt 6, operator
+systemu dystrybucyjnego w rozumieniu art. 3 pkt 25 ustawy z dnia 10 kwietnia 1997 r. – Prawo
+energetyczne (Dz. U. z 2026 r. poz. 43, 516, 607, 900 i …) wydaje warunki przyłączenia do
+sieci elektroenergetycznej w terminie niedłuższym niż 14 dni od dnia złożenia kompletnego
+wniosku. Wykonanie przyłącza następuje w terminie niedłuższym niż 6 miesięcy od dnia
+zawarcia umowy o przyłączenie do sieci elektroenergetycznej.
+     2. Do wykonania przyłącza energetycznego na rzecz inwestycji kluczowej, o której mowa
+w art. 2 pkt 6, stosuje się odpowiednio przepisy art. 4–7, art. 10 i art. 11.
+
+     Art. 20. 1. Właściciel, użytkownik wieczysty lub zarządca nieruchomości są obowiązani
+zapewnić inwestorowi realizującemu inwestycję kluczową, o której mowa w art. 2 pkt 6, dostęp
+do nieruchomości obejmujący:
+1)   umożliwienie umieszczenia elementów Kolejowego Systemu Ruchomej Łączności
+     Radiowej (RMR), w tym stacji bazowych, kontenerów technicznych, urządzeń
+     zasilających, światłowodów oraz innych urządzeń transmisyjnych;
+2)   umożliwienie wykonania przyłącza energetycznego oraz telekomunikacyjnego, w tym
+     światłowodowego, niezbędnego do funkcjonowania Kolejowego Systemu Ruchomej
+     Łączności Radiowej (RMR);
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                         10
+X kadencja/druk nr 3030
+
+3)   zapewnienie eksploatacji, konserwacji, modernizacji i rozbudowy infrastruktury
+     Kolejowego Systemu Ruchomej Łączności Radiowej (RMR).
+     2. Dostęp do nieruchomości, o którym mowa w ust. 1, jest odpłatny, chyba że strony
+umowy o dostępie, o którym mowa w ust. 1, postanowią inaczej. W przypadku braku zawarcia
+umowy w terminie 30 dni od dnia złożenia wniosku o jej zawarcie przez inwestora stosuje się
+odpowiednio przepisy art. 124 i art. 124a ustawy z dnia 21 sierpnia 1997 r. o gospodarce
+nieruchomościami (Dz. U. z 2026 r. poz. 399, 875 i 912).
+     3. Umowę, o której mowa w ust. 2, zawiera się pod rygorem nieważności w formie
+pisemnej z podpisami notarialnie poświadczonymi.
+     4. Uprawnienie inwestora do dostępu do nieruchomości, o którym mowa w ust. 1,
+wynikające z umowy, o której mowa w ust. 2, podlega ujawnieniu w księdze wieczystej.
+Umowa, o której mowa w ust. 2, stanowi podstawę do dokonania wpisu w księdze wieczystej.
+     5. Warunki korzystania z pasa drogowego ustala się na podstawie przepisów ustawy z
+dnia 21 marca 1985 r. o drogach publicznych (Dz. U. z 2025 r. poz. 889 oraz z 2026 r. poz. 815
+i 982).
+     6. Do zapewnienia dostępu do nieruchomości, o którym mowa w ust. 1, oraz warunków
+korzystania z pasa drogowego nie stosuje się przepisów art. 33 ustawy z dnia 7 maja 2010 r. o
+wspieraniu rozwoju usług i sieci telekomunikacyjnych (Dz. U. z 2026 r. poz. 562 i 815).
+
+     Art. 21. 1. Rada Ministrów, w drodze rozporządzenia, mając na uwadze zapewnienie
+optymalnych warunków procesu inwestycyjnego dotyczącego inwestycji kluczowych, może
+wskazać gminy lub ich części, na których terenie, w celu przygotowania obszaru inwestycji
+kluczowej, stosuje się szczególne zasady nabywania nieruchomości określone w art. 22.
+     2. Rozporządzenie, o którym mowa w ust. 1, obejmuje całe działki ewidencyjne.
+
+     Art. 22. 1. Szczególne zasady nabywania nieruchomości, uwzględniając znaczenie
+nieruchomości dla realizacji inwestycji kluczowych, obejmują uprawnienie inwestora do
+nabywania nieruchomości za cenę odpowiadającą najwyższej z wartości ustalonych zgodnie
+z ust. 2–12.
+     2. Podstawę ustalenia ceny nieruchomości w przypadku jej nabycia przez inwestora
+stanowi wartość nieruchomości określona zgodnie z przepisami ustawy z dnia 21 sierpnia
+1997 r. o gospodarce nieruchomościami.
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                       11
+X kadencja/druk nr 3030
+
+     3. Inwestor może nabyć nieruchomość za cenę ustaloną zgodnie z ust. 2 powiększoną
+o kwotę odpowiadającą:
+1)   20 % wartości gruntu oraz 40 % różnicy między wartością nieruchomości a wartością
+     gruntu – w przypadku prawa własności;
+2)   20 % wartości prawa użytkowania wieczystego – w przypadku tego prawa przy czym do
+     ustalenia ceny za budynki i inne urządzenia stanowiące własność użytkownika
+     wieczystego stosuje się przepis pkt 1;
+3)   40 % wartości lokalu stanowiącego odrębny przedmiot własności albo 40 % wartości
+     spółdzielczego własnościowego prawa do lokalu – w przypadku prawa własności do
+     lokalu albo spółdzielczego własnościowego prawa do lokalu.
+     4. Inwestor może nabyć nieruchomość za cenę stanowiącą równowartość wartości
+odtworzeniowej nieruchomości określonej bez uwzględnienia stopnia zużycia.
+     5. Inwestor może nabyć nieruchomość zabudowaną budynkiem mieszkalnym albo
+lokalem stanowiącym odrębny przedmiot własności, w którym jest zameldowany na pobyt stały
+właściciel albo użytkownik wieczysty, za cenę stanowiącą 25-krotność wskaźnika
+przeliczeniowego kosztu odtworzenia 1 m2 powierzchni użytkowej budynków mieszkalnych
+ogłaszanego przez wojewodę, obowiązującego w dniu poprzedzającym dzień dokonania
+transakcji.
+     6. Inwestor może nabyć nieruchomość za łączną wysokość ceny ustalonej zgodnie z ust. 5
+powiększoną w odniesieniu do trzeciej i każdej kolejnej osoby o 10-krotność wskaźnika,
+o którym mowa w ust. 5, w przypadku gdy w budynku mieszkalnym albo w lokalu
+stanowiącym odrębny przedmiot własności są zameldowane na pobyt stały więcej niż 2 osoby.
+     7. Przy ustalaniu liczby osób zameldowanych na pobyt stały pomija się osoby inne niż
+osoby bliskie, w rozumieniu art. 4 pkt 13 ustawy z dnia 21 sierpnia 1997 r. o gospodarce
+nieruchomościami, wobec właściciela albo użytkownika wieczystego nieruchomości oraz
+osoby zameldowane na pobyt stały krócej niż przez rok poprzedzający bezpośrednio dzień
+dokonania transakcji.
+     8. Przepis ust. 7 stosuje się również do właściciela albo użytkownika wieczystego
+nieruchomości, z wyłączeniem osób, które urodziły się w okresie roku poprzedzającego
+bezpośrednio dzień dokonania transakcji, oraz osób, które w tym okresie nabyły w drodze
+dziedziczenia, zapisu albo zapisu windykacyjnego prawo własności lub prawo użytkowania
+wieczystego nieruchomości.
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                       12
+X kadencja/druk nr 3030
+
+     9. Przy ustalaniu liczby osób zameldowanych na pobyt stały pomija się osoby posiadające
+tytuł prawny do innego lokalu mieszkalnego lub budynku mieszkalnego. Podstawą ustalenia
+okoliczności, o której mowa w zdaniu pierwszym, jest oświadczenie składane pod rygorem
+odpowiedzialności karnej za składanie fałszywych oświadczeń. Składający oświadczenie jest
+obowiązany do zawarcia w nim klauzuli o następującej treści: „Jestem świadomy(-ma)
+odpowiedzialności karnej za złożenie fałszywego oświadczenia wynikającej z art. 233 § 6
+ustawy z dnia 6 czerwca 1997 r. – Kodeks karny.”. Klauzula ta zastępuje pouczenie organu
+o odpowiedzialności karnej za składanie fałszywych oświadczeń.
+     10. Cena ustalona zgodnie z ust. 5 i 6 nie może przekroczyć 60-krotności wskaźnika, o
+którym mowa w ust. 5.
+     11. Przepisy ust. 2 i 4–10 stosuje się odpowiednio do spółdzielczego własnościowego
+prawa do lokalu mieszkalnego.
+     12. Dokonując wyceny nieruchomości, rzeczoznawca majątkowy przy zastosowaniu
+podejścia porównawczego nie uwzględnia transakcji zawartych z zastosowaniem przepisów
+ust. 3–11. W przypadku nabycia nieruchomości przez inwestora z obszaru wskazanego
+w przepisach wydanych na podstawie art. 21 ust. 1:
+1)   w okresie od dnia przeniesienia własności nieruchomości do dnia jej wydania zbywca jest
+     uprawniony do korzystania z nieruchomości, w tym pobierania z niej pożytków, na
+     warunkach szczegółowo określonych w umowie;
+2)   na żądanie inwestora w umowie zawiera się zobowiązanie zbywcy do nieodpłatnego
+     udostępnienia nieruchomości inwestorowi w przypadku konieczności przeprowadzenia
+     badań przyrodniczych lub badań i pomiarów niezbędnych do przygotowania i realizacji
+     inwestycji kluczowej, w szczególności badań archeologicznych, konserwatorskich, prac
+     geologicznych, oraz ustalania geotechnicznych warunków posadawiania obiektów
+     budowlanych bez wykonywania prac geologicznych;
+3)   zbywca jest obowiązany do wydania nieruchomości w terminie i w stanie szczegółowo
+     określonych w umowie.
+     13. Szczególnych zasad nabywania nieruchomości nie stosuje się do inwestycji
+kluczowych, o których mowa w art. 2 pkt 1 i pkt 4 lit. b.
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                              13
+X kadencja/druk nr 3030
+
+     Art. 23. W ustawie z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2026 r. poz. 524,
+605 i 646) wprowadza się następujące zmiany:
+1)   w art. 29 w ust. 1 w pkt 40 kropkę zastępuje się średnikiem i dodaje się pkt 41–45 w
+     brzmieniu:
+     „41) obiektów budowlanych realizowanych w ramach inwestycji kluczowych, o których
+           mowa w art. 2 ustawy z dnia … o usprawnieniu procesu inwestycyjnego w zakresie
+           kluczowych inwestycji infrastrukturalnych (Dz. U. poz. …), zlokalizowanych w
+           granicach portu morskiego o podstawowym znaczeniu dla gospodarki narodowej w
+           rozumieniu art. 2 pkt 3 ustawy z dnia 20 grudnia 1996 r. o portach i przystaniach
+           morskich (Dz. U. z 2023 r. poz. 1796 oraz z 2026 r. poz. 176);
+     42) umocnień dna realizowanych w ramach inwestycji kluczowych, o których mowa w
+           art. 2 ustawy z dnia … o usprawnieniu procesu inwestycyjnego w zakresie
+           kluczowych inwestycji infrastrukturalnych, zlokalizowanych w granicach portu
+           morskiego o podstawowym znaczeniu dla gospodarki narodowej w rozumieniu art. 2
+           pkt 3 ustawy z dnia 20 grudnia 1996 r. o portach i przystaniach morskich;
+     43) obiektów budowlanych realizowanych w ramach inwestycji kluczowych, o których
+           mowa w art. 2 pkt 7 ustawy z dnia … o usprawnieniu procesu inwestycyjnego w
+           zakresie kluczowych inwestycji infrastrukturalnych;
+     44) obiektów budowlanych realizowanych w ramach inwestycji kluczowych, o których
+           mowa w art. 2 pkt 2 lit. c, pkt 3 i pkt 4 lit. c ustawy z dnia … o usprawnieniu procesu
+           inwestycyjnego      w    zakresie      kluczowych    inwestycji    infrastrukturalnych,
+           wchodzących w skład infrastruktury kolejowej w rozumieniu art. 4 pkt 1 ustawy z
+           dnia 28 marca 2003 r. o transporcie kolejowym, realizowanej na obszarze
+           kolejowym w rozumieniu art. 4 pkt 8 tej ustawy;
+     45) połączeń obiektów budowlanych, o których mowa w pkt 5–11 załącznika nr 1 do
+           ustawy z dnia 28 marca 2003 r. o transporcie kolejowym, realizowanych w ramach
+           inwestycji kluczowych, o których mowa w art. 2 pkt 2 lit. c, pkt 3 i pkt 4 lit. c ustawy
+           z dnia … o usprawnieniu procesu inwestycyjnego w zakresie kluczowych inwestycji
+           infrastrukturalnych,     z    siecią     dystrybucyjną    lub     siecią    przesyłową
+           elektroenergetyczną w rozumieniu art. 3 pkt 11a i 11b ustawy z dnia 10 kwietnia
+           1997 r. – Prawo energetyczne.”;
+Liczba stron : 17    Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                         14
+X kadencja/druk nr 3030
+
+2)   w art. 30 w ust. 2a pkt 5 otrzymuje brzmienie:
+     „5) projekt zagospodarowania działki lub terenu, wykonany przez projektanta
+           posiadającego wymagane uprawnienia budowlane, w przypadku budowy, o której
+           mowa w art. 29 ust. 1 pkt 27, 28 i 40–45;”;
+3)   w art. 41 ust. 4 otrzymuje brzmienie:
+           „4. Inwestor jest obowiązany zawiadomić organ nadzoru budowlanego oraz
+     projektanta sprawującego nadzór nad zgodnością realizacji budowy z projektem o
+     zamierzonym terminie rozpoczęcia robót budowlanych, dla których wymagane jest
+     uzyskanie decyzji o pozwoleniu na budowę, dokonanie zgłoszenia budowy, o której mowa
+     w art. 29 ust. 1 pkt 1–4 i 41–45, lub dokonanie zgłoszenia instalowania, o którym mowa
+     w art. 29 ust. 3 pkt 3 lit. d.”;
+4)   w art. 42 w ust. 1:
+     a)    w pkt 1 lit. b otrzymuje brzmienie:
+           „b) budowy, o której mowa w art. 29 ust. 1 pkt 1–4 i 41–45,”,
+     b)    w pkt 2 lit. b otrzymuje brzmienie:
+           „b) budowy, o której mowa w art. 29 ust. 1 pkt 1, 1b, 2–4, 9, 27, 30 i 41–45, oraz
+                instalowania, o którym mowa w art. 29 ust. 3 pkt 3 lit. d, e i g,”;
+5)   w art. 43 w ust. 1 pkt 2 otrzymuje brzmienie:
+     „2) obiekty, o których mowa w art. 29 ust. 1 pkt 1–4, 10, 23 i 41–45 oraz w ust. 2 pkt 17
+           i 26.”.
+
+     Art. 24. W ustawie z dnia 10 kwietnia 1997 r. – Prawo energetyczne (Dz. U. z 2026 r.
+poz. 43, 516, 607 i 900) wprowadza się następujące zmiany:
+1)   w art. 7 po ust. 1a dodaje się ust. 1aa w brzmieniu:
+           „1aa. Przepisy ust. 1 i 1[1] w zakresie przyłączenia do sieci w pierwszej kolejności
+     stosuje się także do obiektów budowlanych, o których mowa w pkt 11 załącznika nr 1 do
+     ustawy z dnia 28 marca 2003 r. o transporcie kolejowym (Dz. U. z 2025 r. poz. 1234 oraz
+     z 2026 r. poz. 41, 815 i 912), wchodzących w skład inwestycji kluczowych, o których
+     mowa w art. 2 pkt 3, pkt 4 lit. c i pkt 6 ustawy z dnia … o usprawnieniu procesu
+     inwestycyjnego w zakresie kluczowych inwestycji infrastrukturalnych (Dz. U. poz. …).”;
+2)   w art. 8 ust. 1 otrzymuje brzmienie:
+           „1. W sprawach spornych dotyczących odmowy zawarcia umowy o przyłączenie do
+     sieci, w tym dotyczących zwiększenia mocy przyłączeniowej, umowy sprzedaży, umowy
+     o świadczenie usług przesyłania lub dystrybucji paliw gazowych lub energii, umowy
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                           15
+X kadencja/druk nr 3030
+
+     o świadczenie usług przesyłania wodoru lub dystrybucji wodoru, umowy o świadczenie
+     usług transportu gazu ziemnego, umowy o świadczenie usług magazynowania paliw
+     gazowych, umowy o świadczenie usług magazynowania wodoru, umowy, o której mowa
+     w art. 4c ust. 3, umowy, o której mowa w art. 4ca ust. 3, umowy o świadczenie usług
+     skraplania gazu ziemnego, umowy kompleksowej oraz umowy kompleksowej
+     wodorowej, oraz w przypadku nieuzasadnionego wstrzymania dostarczania paliw
+     gazowych, energii lub wodoru, odmowy przyłączenia w pierwszej kolejności instalacji
+     odnawialnego źródła energii lub infrastruktury ładowania drogowego transportu
+     publicznego, lub ogólnodostępnej stacji ładowania, o której mowa w art. 7 ust. 1a, lub
+     obiektów budowlanych, o których mowa w pkt 11 załącznika nr 1 do ustawy z dnia 28
+     marca 2003 r. o transporcie kolejowym, wchodzących w skład inwestycji kluczowych,
+     o których mowa w art. 2 pkt 3, pkt 4 lit. c i pkt 6 ustawy z dnia … o usprawnieniu procesu
+     inwestycyjnego w zakresie kluczowych inwestycji infrastrukturalnych, a także odmowy
+     przyłączenia mikroinstalacji, nieprzyłączenia mikroinstalacji pomimo upływu terminu, o
+     którym mowa w art. 7 ust. 8d[7] pkt 2, nieuzasadnionego ograniczenia pracy lub odłączenia
+     od sieci mikroinstalacji, lub odmowy dokonania zmiany umowy, o której mowa w art. 7
+     ust. 2a, w zakresie terminu dostarczenia po raz pierwszy do sieci energii elektrycznej,
+     rozstrzyga Prezes Urzędu Regulacji Energetyki, na wniosek strony.”;
+3)   w art. 9c w ust. 3 pkt 11 otrzymuje brzmienie:
+     „11) planowanie rozwoju sieci dystrybucyjnej z uwzględnieniem przedsięwzięć
+           związanych z efektywnością energetyczną, zarządzaniem popytem na energię
+           elektryczną lub rozwojem mocy wytwórczych, budową ogólnodostępnych stacji
+           ładowania oraz infrastruktury ładowania drogowego transportu publicznego,
+           w rozumieniu art. 2 pkt 3 ustawy z dnia 11 stycznia 2018 r. o elektromobilności
+           i paliwach alternatywnych, przyłączanych do sieci dystrybucyjnej, a także budową
+           obiektów budowlanych, o których mowa w pkt 11 załącznika nr 1 do ustawy z dnia
+           28 marca 2003 r. o transporcie kolejowym, wchodzących w skład inwestycji
+           kluczowych, o których mowa w art. 2 pkt 3, pkt 4 lit. c i pkt 6 ustawy z dnia …
+           o usprawnieniu procesu inwestycyjnego w zakresie kluczowych inwestycji
+           infrastrukturalnych;”;
+4)   w art. 16 w ust. 8b w pkt 2 kropkę zastępuje się średnikiem i dodaje się pkt 3 w brzmieniu:
+     „3) obiektów budowlanych, o których mowa w pkt 11 załącznika nr 1 do ustawy z dnia
+           28 marca 2003 r. o transporcie kolejowym, wchodzących w skład inwestycji
+Liczba stron : 17    Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                        16
+X kadencja/druk nr 3030
+
+              kluczowych, o których mowa w art. 2 pkt 3, pkt 4 lit. c i pkt 6 ustawy z dnia …
+              o usprawnieniu procesu inwestycyjnego w zakresie kluczowych inwestycji
+              infrastrukturalnych.”.
+
+     Art. 25. W ustawie z dnia 9 czerwca 2011 r. – Prawo geologiczne i górnicze (Dz. U. z
+2026 r. poz. 69) w art. 81:
+1)   ust. 2 otrzymuje brzmienie:
+              „2. Zgłoszenia dokonuje się na piśmie utrwalonym w postaci papierowej lub
+     elektronicznej,      opatrzonym     odpowiednio    do    sposobu   utrwalenia   podpisem
+     własnoręcznym, kwalifikowanym podpisem elektronicznym, podpisem zaufanym albo
+     podpisem osobistym, najpóźniej na 7 dni przed zamierzonym terminem rozpoczęcia robót
+     geologicznych, określając zamierzone terminy rozpoczęcia i zakończenia robót
+     geologicznych, ich rodzaj i podstawowe dane dotyczące robót geologicznych oraz imiona
+     i nazwiska osób sprawujących dozór i kierownictwo, a także numery świadectw
+     stwierdzających kwalifikacje do wykonywania tych czynności.”;
+2)   po ust. 2 dodaje się ust. 2a w brzmieniu:
+              „2a. W przypadku gdy decyzji zatwierdzającej projekt robót geologicznych nadano
+     rygor natychmiastowej wykonalności, zgłoszenie następuje po wydaniu tej decyzji, a
+     przed rozpoczęciem robót geologicznych. Terminu, o którym mowa w ust. 2, nie stosuje
+     się.”.
+
+     Art. 26. Do postępowań w sprawie skarg na decyzje dotyczące inwestycji
+kluczowych wszczętych i niezakończonych przed dniem wejścia w życie niniejszej ustawy
+stosuje się przepisy niniejszej ustawy, z tym że termin na rozpatrzenie skargi przez sąd albo
+skargi kasacyjnej biegnie od dnia wejścia w życie niniejszej ustawy, chyba że zgodnie z
+przepisami dotychczasowymi termin rozpatrzenia skargi lub skargi kasacyjnej przypadał
+wcześniej.
+
+     Art. 27. 1. W postępowaniach o wydanie decyzji o ustaleniu lokalizacji linii kolejowej, o
+której mowa w ustawie z dnia 28 marca 2003 r. o transporcie kolejowym, w zakresie inwestycji
+kluczowych, o których mowa w art. 2 pkt 3, pkt 4 lit. c i pkt 6, wszczętych i niezakończonych
+decyzją ostateczną przed dniem wejścia w życie niniejszej ustawy wojewoda wysyła
+zawiadomienie o toczącym się postępowaniu właściwemu organowi ochrony zabytków w
+terminie 7 dni od dnia wejścia w życie niniejszej ustawy.
+Liczba stron : 17   Data : 2026-09-21   Nazwa pliku : V5_2723-0.PK                        17
+X kadencja/druk nr 3030
+
+     2. Z dniem otrzymania przez właściwy organ ochrony zabytków zawiadomienia o
+toczącym się postępowaniu, o którym mowa w ust. 1, wszczęcie nowych postępowań w sprawie
+wpisu do ewidencji zabytków lub wpisu do rejestru zabytków może nastąpić po uzyskaniu
+przez inwestora decyzji o pozwoleniu na użytkowanie.
+     3. Z dniem otrzymania przez właściwy organ ochrony zabytków zawiadomienia o
+toczącym się postępowaniu, o którym mowa w ust. 1, toczące się postępowania w sprawie
+wpisu do ewidencji zabytków lub wpisu do rejestru zabytków umarza się z mocy prawa.
+
+     Art. 28. Postępowania administracyjne w sprawie wydania decyzji o pozwoleniu na
+budowę dla inwestycji kluczowych w przypadkach, o których mowa w art. 29 ust. 1 pkt 41–45
+ustawy zmienianej w art. 23, wszczęte i niezakończone przed dniem wejścia w życie niniejszej
+ustawy decyzją ostateczną umarza się z mocy prawa, z tym że złożone wnioski o wydanie
+decyzji o pozwoleniu na budowę podlegają rozpatrzeniu w trybie zgłoszenia, o którym mowa
+w art. 30 ust. 1b ustawy zmienianej w art. 23, a termin na wniesienie sprzeciwu przez organ
+administracji architektoniczno-budowlanej biegnie od dnia wejścia w życie niniejszej ustawy.
+
+     Art. 29. W postępowaniach o wydanie decyzji, o której mowa w art. 124 ustawy z dnia
+21 sierpnia 1997 r. o gospodarce nieruchomościami, w związku z art. 33 ust. 7 ustawy z dnia 7
+maja 2010 r. o wspieraniu rozwoju usług i sieci telekomunikacyjnych (Dz. U. z 2026 r. poz.
+562 i 815), w zakresie inwestycji kluczowej, o której mowa w art. 2 pkt 6, wszczętych i
+niezakończonych decyzją ostateczną przed dniem wejścia w życie niniejszej ustawy stosuje się
+przepisy dotychczasowe.
+
+     Art. 30. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+

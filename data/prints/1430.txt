@@ -1,0 +1,1703 @@
+                                                                       Druk nr 1430
+                                                               Warszawa, 25 czerwca 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-98-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy o środkach ochrony roślin.
+        Projekt ma na celu wykonanie prawa Unii Europejskiej.
+        Projekt zawiera rozwiązania deregulacyjne.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Rolnictwa i Rozwoju Wsi.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                 Projekt
+                                             U S T AWA
+
+                                                  z dnia
+
+                           o zmianie ustawy o środkach ochrony roślin1)
+
+
+       Art. 1. W ustawie z dnia 8 marca 2013 r. o środkach ochrony roślin (Dz. U. z 2024 r.
+poz. 630) wprowadza się następujące zmiany:
+1)     w art. 35 w ust. 3 po pkt 1 dodaje się pkt 1a w brzmieniu:
+       „1a) prowadzą i przechowują dokumentację, o której mowa w art. 67 ust. 1
+             rozporządzenia nr 1107/2009, w Elektronicznej Dokumentacji Stosowanych
+             Środków Ochrony Roślin z wykorzystaniem systemu teleinformatycznego, o którym
+             mowa w art. 47a ust. 1;”;
+2)     po art. 47 dodaje się art. 47a w brzmieniu:
+             „Art. 47a. 1. Główny Inspektor buduje i utrzymuje system teleinformatyczny
+       umożliwiający prowadzenie i przechowywanie dokumentacji, o której mowa w art. 67
+       ust. 1 rozporządzenia nr 1107/2009, w formacie określonym w art. 2 rozporządzenia
+       wykonawczego Komisji (UE) 2023/564 z dnia 10 marca 2023 r. w odniesieniu do treści
+       i formatu     dokumentacji      dotyczącej      środków      ochrony      roślin   prowadzonej
+       i przechowywanej przez użytkowników profesjonalnych na podstawie rozporządzenia
+       Parlamentu Europejskiego i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74 z 13.03.2023,
+       str. 4), zwanego dalej „rozporządzeniem 2023/564”, w Elektronicznej Dokumentacji
+       Stosowanych Środków Ochrony Roślin, udostępnia go użytkownikom profesjonalnym
+       i nim administruje.
+             2. System teleinformatyczny, o którym mowa w ust. 1, umożliwia wprowadzanie,
+       przechowywanie, przetwarzanie i agregowanie:
+       1)    informacji określonych w załączniku do rozporządzenia 2023/564 i informacji
+             dotyczących sposobu realizacji wymagań integrowanej ochrony roślin, o którym
+             mowa w art. 35 ust. 3 pkt 2,
+       2)    następujących danych osobowych użytkownika profesjonalnego:
+
+
+1)
+     Niniejsza ustawa służy stosowaniu rozporządzenia wykonawczego Komisji (UE) 2023/564 z dnia 10 marca
+     2023 r. w odniesieniu do treści i formatu dokumentacji dotyczącej środków ochrony roślin prowadzonej
+     i przechowywanej przez użytkowników profesjonalnych na podstawie rozporządzenia Parlamentu
+     Europejskiego i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74 z 13.03.2023, str. 4).
+                                          2
+
+
+     a)   imienia, nazwiska oraz adresu i miejsca zamieszkania, z tym że w przypadku
+          gdy użytkownikiem profesjonalnym jest osoba fizyczna wykonująca
+          działalność gospodarczą, zamiast adresu i miejsca zamieszkania tej osoby –
+          adresu miejsca wykonywania działalności gospodarczej, jeżeli jest inny niż
+          adres i miejsce zamieszkania,
+     b)   numeru PESEL, numeru REGON i numeru identyfikacji podatkowej (NIP),
+     c)   numeru identyfikacyjnego, o którym mowa w art. 12 ust. 1 ustawy z dnia
+          18 grudnia 2003 r. o krajowym systemie ewidencji producentów, ewidencji
+          gospodarstw rolnych oraz ewidencji wniosków o przyznanie płatności (Dz. U.
+          z 2023 r. poz. 885 oraz z 2025 r. poz. 368)
+– oraz umożliwia sporządzanie raportów na podstawie tych informacji i danych.
+     3. Wprowadzenie przez użytkownika profesjonalnego lub osobę uprawnioną do
+reprezentowania użytkownika profesjonalnego informacji i danych, o których mowa
+w ust. 2, w systemie teleinformatycznym, o którym mowa w ust. 1, następuje po
+uwierzytelnieniu w tym systemie:
+1)   w sposób określony w art. 20a ust. 1 ustawy z dnia 17 lutego 2005 r. o informatyzacji
+     działalności podmiotów realizujących zadania publiczne lub
+2)   za pomocą loginu i kodu dostępu do systemu teleinformatycznego, o którym mowa
+     w ust. 1.
+     4. Informacje i raporty, o których mowa w ust. 2, mogą być udostępniane:
+1)   Głównemu Urzędowi Statystycznemu – w zakresie niezbędnym do realizacji zadań
+     z zakresu statystyki publicznej i zadań określonych w rozporządzeniu Parlamentu
+     Europejskiego i Rady (UE) 2022/2379 z dnia 23 listopada 2022 r. w sprawie
+     statystyk dotyczących nakładów i produkcji w rolnictwie, zmiany rozporządzenia
+     Komisji (WE) nr 617/2008 oraz uchylenia rozporządzeń Parlamentu Europejskiego
+     i Rady (WE) nr 1165/2008, (WE) nr 543/2009 i (WE) nr 1185/2009 oraz dyrektywy
+     Rady 96/16/WE (Dz. Urz. UE L 315 z 07.12.2022, str. 1) za pośrednictwem systemu
+     teleinformatycznego wykorzystywanego przez Główny Urząd Statystyczny,
+2)   urzędowi obsługującemu ministra właściwego do spraw rolnictwa – w zakresie
+     niezbędnym do oceny ryzyka związanego ze stosowaniem środków ochrony roślin,
+     w tym obliczania wartości wskaźników służących do oceny ryzyka związanego ze
+     stosowaniem środków ochrony roślin dla zdrowia ludzi, zwierząt oraz dla
+     środowiska określonych w krajowym planie działania oraz do określania trendów
+                                                      3
+
+
+             i analizowania zmian wartości tych wskaźników, w tym określania substancji
+             czynnych i upraw mających największy wpływ na wartość tych wskaźników, oraz
+             do prowadzenia prac nad projektami aktów prawnych i dokumentów strategicznych
+             dotyczących stosowania środków ochrony roślin,
+       3)    państwowym instytutom badawczym, o których mowa w art. 21 ust. 1 ustawy z dnia
+             30 kwietnia 2010 r. o instytutach badawczych (Dz. U. z 2024 r. poz. 534),
+             wykonującym na rzecz ministra właściwego do spraw rolnictwa zadania w zakresie
+             obliczania wartości wskaźników służących do oceny ryzyka związanego ze
+             stosowaniem środków ochrony roślin dla zdrowia ludzi, zwierząt i dla środowiska
+             określonych w krajowym planie działania oraz do określania trendów i analizowania
+             zmian wartości tych wskaźników,
+       4)    stronom trzecim określonym w art. 67 ust. 1 akapicie drugim rozporządzenia
+             nr 1107/2009 w celu ograniczenia ryzyka związanego ze stosowaniem środków
+             ochrony roślin dla zdrowia ludzi, zwierząt lub dla środowiska
+       – z wyłączeniem danych osobowych i w formie uniemożliwiającej identyfikację
+       użytkownika profesjonalnego.
+             5. Informacje i dane z systemu teleinformatycznego, o którym mowa w ust. 1, mogą
+       być udostępniane Agencji Restrukturyzacji i Modernizacji Rolnictwa jako agencji
+       płatniczej, o której mowa w art. 9 ust. 1 rozporządzenia Parlamentu Europejskiego i Rady
+       (UE) 2021/2116 z dnia 2 grudnia 2021 r. w sprawie finansowania wspólnej polityki rolnej,
+       zarządzania nią i monitorowania jej oraz uchylenia rozporządzenia (UE) nr 1306/2013
+       (Dz. Urz. UE L 435 z 06.12.2021, str. 187, z późn. zm.2)) – w zakresie niezbędnym do
+       przeprowadzania kontroli administracyjnych i kontroli na miejscu.
+             6. Dane, o których mowa w ust. 5, mogą obejmować dane osobowe użytkownika
+       profesjonalnego określone w ust. 2 pkt 2.
+             7. Dane gromadzone w systemie teleinformatycznym administrowanym przez
+       Agencję Restrukturyzacji i Modernizacji Rolnictwa mogą być przekazywane do systemu
+       teleinformatycznego, o którym mowa w ust. 1, w zakresie określonym w załączniku do
+       rozporządzenia 2023/564.
+             8. Dane, o których mowa w ust. 7, mogą także obejmować dane osobowe
+       użytkownika profesjonalnego określone w ust. 2 pkt 2.
+
+
+2)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 29 z 10.02.2022, str. 45, Dz. Urz.
+     UE L 216 z 19.08.2022, str. 1 oraz Dz. Urz. UE L 2024/1468 z 24.05.2024.
+                                               4
+
+
+          9. Szczegółowy zakres przekazywanych informacji i danych, o których mowa
+     odpowiednio w ust. 5 i 7, oraz sposób i terminy ich przekazywania zostaną określone
+     w porozumieniu zawartym między Głównym Inspektorem a Agencją Restrukturyzacji
+     i Modernizacji Rolnictwa.
+          10. Minister właściwy do spraw rolnictwa określi, w drodze rozporządzenia,
+     państwowe instytuty badawcze wykonujące na rzecz ministra właściwego do spraw
+     rolnictwa zadania w zakresie obliczania wartości wskaźników służących do oceny ryzyka
+     związanego ze stosowaniem środków ochrony roślin dla zdrowia ludzi, zwierząt i dla
+     środowiska określonych w krajowym planie działania oraz do określania trendów
+     i analizowania zmian wartości tych wskaźników, którym mogą być udostępniane
+     informacje i raporty, o których mowa w ust. 2, mając na względzie zapewnienie
+     właściwego wykonywania przez te państwowe instytuty badawcze tych zadań.”;
+3)   w art. 60 w ust. 1 w pkt 2a skreśla się wyrazy „(Dz. U. z 2023 r. poz. 885)”;
+4)   w art. 76 w ust. 1:
+     a)   po pkt 24 dodaje się pkt 24a w brzmieniu:
+          „24a) będąc użytkownikiem profesjonalnym:
+               a)    wbrew przepisowi art. 1 ust. 1 rozporządzenia 2023/564 w dokumentacji,
+                     o której mowa w art. 67 ust. 1 rozporządzenia nr 1107/2009, nie przekazuje
+                     informacji określonych w załączniku do rozporządzenia 2023/564 lub
+               b)    wbrew przepisowi art. 2 rozporządzenia 2023/564 nie prowadzi lub nie
+                     przechowuje dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia
+                     nr 1107/2009, w formacie określonym w art. 2 rozporządzenia 2023/564,
+                     lub
+               c)    będąc do tego obowiązanym, nie prowadzi lub nie przechowuje
+                     dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia nr 1107/2009,
+                     w Elektronicznej Dokumentacji Stosowanych Środków Ochrony Roślin,
+                     lub”,
+     b)   w pkt 25, 26 i 30 wyrazy „profesjonalnym użytkownikiem środków ochrony roślin”
+          zastępuje się wyrazami „użytkownikiem profesjonalnym”.
+
+     Art. 2. 1. Przepis art. 35 ust. 3 pkt 1a ustawy zmienianej w art. 1 stosuje się od dnia
+określonego w obwieszczeniu wydanym na podstawie ust. 2.
+     2. Minister właściwy do spraw rolnictwa ogłosi, w drodze obwieszczenia, w Dzienniku
+Urzędowym Rzeczypospolitej Polskiej „Monitor Polski” datę udostępnienia użytkownikom
+                                                         5
+
+
+profesjonalnym w rozumieniu art. 2 pkt 24 ustawy zmienianej w art. 1 przez Głównego
+Inspektora Ochrony Roślin i Nasiennictwa systemu teleinformatycznego umożliwiającego
+prowadzenie i przechowywanie dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia
+Parlamentu Europejskiego i Rady (WE) nr 1107/2009 z dnia 21 października 2009 r.
+dotyczącego wprowadzania do obrotu środków ochrony roślin i uchylającego dyrektywy Rady
+79/117/EWG i 91/414/EWG (Dz. Urz. UE L 309 z 24.11.2009, str. 1, z późn. zm.3)),
+w Elektronicznej Dokumentacji Stosowanych Środków Ochrony Roślin.
+
+       Art. 3. Ustawa wchodzi w życie z dniem 1 stycznia 2026 r.
+
+
+
+
+3)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 81 z 21.03.2012, str. 43, Dz. Urz.
+     UE L 158 z 10.06.2013, str. 72, Dz. Urz. UE L 189 z 27.06.2014, str. 1, Dz. Urz. UE L 95 z 07.04.2017, str. 1,
+     Dz. Urz. UE L 205 z 08.08.2017, str. 59, Dz. Urz. UE L 101 z 20.04.2018, str. 33, Dz. Urz. UE L 111
+     z 02.05.2018, str. 10, Dz. Urz. UE L 82 z 25.03.2019, str. 40, Dz. Urz. UE L 170 z 25.06.2019, str. 1, Dz. Urz.
+     UE L 231 z 06.09.2019, str. 1, Dz. Urz. UE L 74 z 04.03.2021, str. 7 oraz Dz. Urz. UE L 227 z 01.09.2022,
+     str. 2.
+                                      UZASADNIENIE
+Projektowana ustawa wprowadza zmiany w ustawie z dnia 8 marca 2013 r. o środkach ochrony
+roślin (Dz. U. z 2024 r. poz. 630).
+Projektowana ustawa służy stosowaniu rozporządzenia wykonawczego Komisji (UE) 2023/564
+z dnia 10 marca 2023 r. w odniesieniu do treści i formatu dokumentacji dotyczącej środków
+ochrony roślin prowadzonej i przechowywanej przez użytkowników profesjonalnych na
+podstawie rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 1107/2009 (Dz. Urz. UE
+L 74 z 13.03.2023, str. 4), zwanego dalej „rozporządzeniem 2023/564”.
+Projektowane regulacje były procedowane w ramach projektu ustawy o zmianie ustawy
+o ochronie roślin przed agrofagami oraz niektórych innych ustaw (UC51), która decyzją
+Komitetu Stałego Rady Ministrów z dnia 3 kwietnia 2025 r. została podzielona na dwa odrębne
+projekty:
+1)   projekt obejmujący przepisy służące stosowaniu przepisów unijnych,
+2)   projekt obejmujący rozwiązania krajowe.
+Projekt ustawy o zmianie ustawy o środkach ochrony roślin służy wprowadzeniu do polskiego
+porządku prawnego przepisów Unii Europejskiej.
+W projektowanej ustawie proponuje się następujące rozwiązania mające na celu wprowadzenie
+do polskiego porządku prawnego przepisów rozporządzenia 2023/564.
+Zgodnie z rozporządzeniem 2023/564 dokumentacja dotycząca zabiegów w zakresie ochrony
+roślin prowadzona przez użytkownika profesjonalnego na podstawie art. 67 ust. 1
+rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 1107/2009 z dnia 21 października
+2009 r. dotyczącego wprowadzania do obrotu środków ochrony roślin i uchylającego
+dyrektywy Rady 79/117/EWG i 91/414/EWG (Dz. Urz. UE L 309 z 24.11.2009, str. 1,
+z późn. zm.), zwanego dalej „rozporządzeniem 1107/2009”, powinna być prowadzona
+„elektronicznie w formacie nadającym się do odczytu maszynowego” i zawierać informacje
+określone w załączniku do rozporządzenia 1107/2009. Z uwagi na to, że ta dokumentacja jest
+przechowywana na potrzeby kontroli przeprowadzanych przez Państwową Inspekcję Ochrony
+Roślin i Nasiennictwa, proponuje się, aby użytkownicy profesjonalni środków ochrony roślin
+wykorzystywali w celu prowadzenia tej dokumentacji Elektroniczną Dokumentację
+Stosowanych Środków Ochrony Roślin, z wykorzystaniem systemu teleinformatycznego
+utworzonego i utrzymywanego, a następnie udostępnianego i administrowanego przez
+Głównego Inspektora Ochrony Roślin i Nasiennictwa. Proponowane przepisy będą stanowiły
+podstawę prawną dla Głównego Inspektora Ochrony Roślin i Nasiennictwa do opracowania,
+                                              2
+
+
+administrowania, utrzymania i udostępnienia takiego systemu. Z uwagi na złożoność danych
+określonych w załączniku do rozporządzenia 2023/564, które powinny być raportowane przez
+użytkowników profesjonalnych, możliwość prowadzenia dokumentacji zabiegów środkami
+ochrony roślin w Elektronicznej Dokumentacji Stosowanych Środków Ochrony Roślin będzie
+stanowiła duże ułatwienie dla użytkowników profesjonalnych.
+Zgodnie z załącznikiem do rozporządzenia 2023/564 użytkownicy profesjonalni powinni
+zamieszczać w dokumentacji dotyczącej wykonywanych zabiegów ochrony roślin m.in.
+następujące informacje:
+1)   nazwę środka ochrony roślin wraz z numerem zezwolenia na jego wprowadzanie do
+     obrotu;
+2)   miejsce zastosowania środka ochrony roślin, przy czym lokalizacja tego miejsca powinna
+     zostać wskazana zgodnie z zakresem geoprzestrzennego wniosku o przyznanie pomocy
+     na podstawie przepisów rozporządzenia wykonawczego Komisji (UE) 2022/1173 z dnia
+     31 maja 2022 r. ustanawiającego zasady stosowania rozporządzenia Parlamentu
+     Europejskiego i Rady (UE) 2021/2116 w odniesieniu do zintegrowanego systemu
+     zarządzania i kontroli we wspólnej polityce rolnej (Dz. Urz. UE L 183 z 08.07.2022,
+     str. 23, z późn. zm.), a w przypadku gdy jest to niemożliwe – państwa członkowskie
+     powinny zapewnić użytkownikom profesjonalnym odpowiednie alternatywne metody
+     identyfikacji lokalizacji zastosowania środka ochrony roślin;
+3)   wskazanie    chronionej   uprawy    z   zastosowaniem     kodów    EPPO     (Europejska
+     i Śródziemnomorska Organizacja Ochrony Roślin – ang. European and Mediterranean
+     Plant Protection Organization) oraz faz fenologicznych według skali BBCH.
+Spełnienie przez użytkowników profesjonalnych środków ochrony roślin powyższych
+wymagań byłoby niemożliwe bez zapewnienia odpowiedniego narzędzia informatycznego.
+Główny Inspektorat Ochrony Roślin i Nasiennictwa po przeprowadzonej analizie przepisów
+rozporządzenia 2023/564 oraz przepisów ustawy z dnia 8 marca 2013 r. o środkach ochrony
+roślin założył, że przy tworzeniu systemu elektronicznego powinny zostać przyjęte następujące
+wymagania:
+1)   ten system powinien umożliwiać użytkownikom profesjonalnym środków ochrony roślin
+     prowadzenie i przechowanie elektronicznej dokumentacji w formacie nadającym się do
+     odczytu maszynowego, zgodnie z definicją zawartą w art. 2 pkt 13 dyrektywy Parlamentu
+     Europejskiego i Rady (UE) 2019/1024 z dnia 20 czerwca 2019 r. w sprawie otwartych
+                                                3
+
+
+     danych i ponownego wykorzystywania informacji sektora publicznego (Dz. Urz. UE L
+     172 z 26.06.2019, str. 56),
+2)   dokumentacja określona w pkt 1 powinna obejmować elementy wymienione w art. 67
+     ust. 1 rozporządzenia 1107/2009 dotyczące stosowania środków ochrony roślin (nazwa
+     środka, czas zastosowania i zastosowana dawka, obszar i rodzaj uprawy, na których
+     zastosowano środek ochrony roślin), a dodatkowo sposób realizacji wymagań
+     integrowanej ochrony roślin przez podanie co najmniej przyczyny wykonania zabiegu
+     środkiem ochrony roślin, przy czym szczegółowe wymagania w tym zakresie zostały
+     określone w załączniku do rozporządzenia 2023/564 (w tym co do sposobu podawania
+     lokalizacji miejsca wykonania zabiegu czy faz wzrostu roślin),
+3)   ten system powinien być funkcjonalny od dnia 1 stycznia 2026 r.,
+4)   ten system po wdrożeniu powinien umożliwiać dostęp do danych użytkownikowi
+     profesjonalnemu      lub   osobie   uprawnionej      do   reprezentowania   użytkownika
+     profesjonalnego (indywidualne dane) i organom uprawnionym w zakresie raportów
+     i tworzenia statystyk.
+Według    założeń    Głównego      Inspektora   Ochrony    Roślin   i   Nasiennictwa   system
+teleinformatyczny powinien mieć formę aplikacji internetowej obsługującej ok. 1,3 mln
+unikalnych użytkowników mających do niej dostęp przez moduł autoryzacji i logowania.
+Interfejs użytkownika powinien być dynamiczny, ergonomiczny i dostosowany do urządzeń
+mobilnych tak, aby umożliwiał wprowadzanie danych z „ręki” i wykorzystanie list, słowników,
+kalendarza, zaznaczania obszarów i obiektów na mapach oraz ich geotagowania. Projektowana
+aplikacja powinna umożliwiać również tworzenie zestawień, raportów i statystyk oraz ich
+wydruk i zapis lokalny.
+Powoduje to, że opracowanie, wdrożenie, utrzymanie i administrowanie systemem
+teleinformatycznym wymaga podstawy prawnej i określenia w przepisach zakresu jego
+funkcjonalności.
+Biorąc pod uwagę, że dane wprowadzane do systemu teleinformatycznego będą mogły
+stanowić podstawę do prowadzenia postępowań administracyjnych lub postępowań karnych
+i będą jedyną prowadzoną przez użytkownika profesjonalnego formą dokumentowania
+zabiegów, wprowadzanie takich danych powinno być możliwe jedynie po dokonaniu
+uwierzytelnienia.
+Postanowienia dyrektywy Parlamentu Europejskiego i Rady 2009/128/WE z dnia
+21 października 2009 r. ustanawiającej ramy wspólnotowego działania na rzecz
+                                                4
+
+
+zrównoważonego stosowania pestycydów (Dz. Urz. UE L 309 z 24.11.2009, str. 71,
+z późn. zm.) nakładają na państwa członkowskie obowiązek:
+1) przyjęcia „krajowych planów działania służących ustalaniu celów ilościowych, środków
+   i harmonogramów zmierzających do zmniejszenia zagrożenia związanego ze stosowaniem
+   pestycydów i wpływu ich stosowania na zdrowie ludzi i na środowisko oraz wspierania
+   rozwoju i stosowania integrowanej ochrony roślin oraz alternatywnych podejść lub technik
+   w celu zmniejszenia zależności od stosowania pestycydów” (art. 4 ust. 1 tej dyrektywy);
+2) obliczania    „zharmonizowanych      wskaźników      ryzyka   z   wykorzystaniem   danych
+   statystycznych zgromadzonych zgodnie z prawodawstwem wspólnotowym odnoszącym się
+   do statystyk dotyczących środków ochrony roślin oraz innych istotnych danych” (art. 10
+   ust. 2 lit. a tej dyrektywy);
+3) określenia „tendencji w zakresie stosowania niektórych substancji czynnych” (art. 10 ust. 2
+   lit. b tej dyrektywy);
+4) określenia „kwestii priorytetowych, takich jak substancje czynne, uprawy, regiony lub
+   praktyki, które wymagają szczególnej uwagi, lub dobre praktyki, które można stawiać za
+   wzór do naśladowania, aby osiągnąć cele niniejszej dyrektywy, a zatem zmniejszyć
+   zagrożenia związane ze stosowaniem pestycydów i wpływ ich stosowania na zdrowie ludzi
+   i na środowisko oraz wspierać rozwój oraz stosowanie integrowanej ochrony roślin
+   i alternatywnych podejść lub technik w celu zmniejszenia zależności od stosowania
+   pestycydów” (art. 10 ust. 2 lit. c tej dyrektywy).
+Jednocześnie w art. 47 ust. 1 wskazuje się ministra właściwego do spraw rolnictwa jako organ
+właściwy do opracowania krajowego planu działania na rzecz ograniczenia ryzyka związanego
+ze stosowaniem środków ochrony roślin. Krajowy plan działania powinien określać wskaźniki
+służące do oceny ryzyka związanego ze stosowaniem środków ochrony roślin dla zdrowia
+ludzi, zwierząt oraz dla środowiska, w tym dotyczące zużycia środków ochrony roślin, i sposób
+udostępniania wyników oceny tego ryzyka opinii publicznej.
+Ze względu na to, że realizacja powyższych zobowiązań może wymagać analizy danych
+dotyczących stosowania środków ochrony roślin, w projektowanej ustawie należy przewidzieć
+możliwość dostępu ministra właściwego do spraw rolnictwa do danych gromadzonych
+w systemie teleinformatycznym udostępnionym przez Głównego Inspektora Ochrony Roślin
+i Nasiennictwa. Dostęp do danych powinny mieć także państwowe instytuty badawcze
+wykonujące analizy na potrzeby ministra właściwego do spraw rolnictwa. Dostęp do danych
+                                                5
+
+
+powinien być jednak ograniczony do danych zagregowanych, które uniemożliwiają
+identyfikację podmiotów stosujących środki ochrony roślin.
+Dostęp do danych zgromadzonych w systemie teleinformatycznym udostępnionym przez
+Głównego Inspektora Ochrony Roślin i Nasiennictwa powinien mieć także:
+1) Główny Urząd Statystyczny – w celu realizacji zadań z zakresu statystyki publicznej
+    i zadań określonych w rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2022/2379
+    z dnia 23 listopada 2022 r. w sprawie statystyk dotyczących nakładów i produkcji
+    w rolnictwie, zmiany rozporządzenia Komisji (WE) nr 617/2008 oraz uchylenia
+    rozporządzeń Parlamentu Europejskiego i Rady (WE) nr 1165/2008, (WE) nr 543/2009
+    i (WE) nr 1185/2009 oraz dyrektywy Rady 96/16/WE (Dz. Urz. UE L 315 z 07.12.2022,
+    str. 1);
+2) strony trzecie określone w art. 67 ust. 1 akapit drugi rozporządzenia 1107/2009, na
+    potrzeby realizacji celu tego rozporządzenia, jakim jest ograniczenie ryzyka związanego
+    ze stosowaniem środków ochrony roślin dla zdrowia ludzi, zwierząt lub dla środowiska;
+3) Agencja Restrukturyzacji i Modernizacji Rolnictwa, gdyż zgodnie z art. 33 ust. 2 ustawy
+    z dnia 13 lutego 2020 r. o Państwowej Inspekcji Ochrony Roślin i Nasiennictwa (Dz. U.
+    z 2023 r. poz. 1992) „uzyskane w wyniku wykonywania zadań Inspekcji informacje lub
+    dane są nieodpłatnie przekazywane w zakresie niezbędnym do przeprowadzania kontroli
+    administracyjnych i kontroli na miejscu Agencji Restrukturyzacji i Modernizacji
+    Rolnictwa jako agencji płatniczej, o której mowa w art. 9 ust. 1 rozporządzenia Parlamentu
+    Europejskiego i Rady (UE) 2021/2116 z dnia 2 grudnia 2021 r. w sprawie finansowania
+    wspólnej polityki rolnej, zarządzania nią i monitorowania jej oraz uchylenia
+    rozporządzenia (UE) nr 1306/2013 (Dz. Urz. UE L 435 z 06.12.2021, str. 187,
+    z późn. zm.)”. Proponowane rozwiązanie jest zatem konsekwencją ww. przepisów.
+Duża część danych, które powinna zawierać dokumentacja prowadzona przez użytkowników
+profesjonalnych,   jest   gromadzona    także       w   systemach   informatycznych   Agencji
+Restrukturyzacji i Modernizacji Rolnictwa. Dlatego też proponuje się ujęcie w projektowanych
+przepisach normy umożliwiającej transfer danych z systemów Agencji Restrukturyzacji
+i Modernizacji Rolnictwa do ewidencji prowadzonej na podstawie przepisów rozporządzenia
+2023/564. Rozwiązanie takie będzie korzystne dla użytkowników profesjonalnych, którzy nie
+będą przekazywali tych samych danych na potrzeby różnych jednostek administracji.
+W projektowanej ustawie określono także katalog danych osobowych użytkowników
+profesjonalnych, które mogą być przekazywane między Państwową Inspekcją Ochrony Roślin
+                                               6
+
+
+i Nasiennictwa a Agencją Restrukturyzacji i Modernizacji Rolnictwa, a także ograniczenie celu
+przekazywania tych danych. Zakres danych jest tożsamy z zakresem danych przekazywanych
+przez Państwową Inspekcję Ochrony Roślin i Nasiennictwa, na podstawie art. 33 ust. 4 pkt 1
+i 2 ustawy z dnia 13 lutego 2020 r. o Państwowej Inspekcji Ochrony Roślin i Nasiennictwa,
+Agencji Restrukturyzacji i Modernizacji Rolnictwa.
+Wprowadzenie projektowanej normy wymaga określenia także przepisów karnych. Proponuje
+się, aby na użytkownika profesjonalnego, który:
+1)   wbrew przepisom art. 1 rozporządzenia 2023/564 w dokumentacji, o której mowa
+     w art. 67 ust. 1 rozporządzenia 1107/2009, nie przekazuje informacji określonych
+     w załączniku do rozporządzenia 2023/564 lub
+2)   wbrew przepisowi art. 2 rozporządzenia 2023/564 nie prowadzi lub nie przechowuje
+     dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia 1107/2009, w formacie
+     określonym w art. 2 rozporządzenia 2023/564, lub
+3)   będąc do tego obowiązanym, nie prowadzi lub nie przechowuje dokumentacji, o której
+     mowa w art. 67 ust. 1 rozporządzenia 1107/2009, w Elektronicznej Dokumentacji
+     Stosowanych Środków Ochrony Roślin
+– była nakładana kara grzywny.
+Tworzony system teleinformatyczny powinien umożliwiać wymianę informacji między
+dostępnymi systemami służącymi do zarządzania gospodarstwem, systemami doradczymi
+(eDWIN) czy systemami wykorzystywanymi przez Agencję Restrukturyzacji i Modernizacji
+Rolnictwa i Państwowe Gospodarstwo Leśne Lasy Państwowe.
+Proponuje się przy tym, aby obowiązek prowadzenia i przechowywania dokumentacji, o której
+mowa w art. 67 ust. 1 rozporządzenia 1107/2009, w Elektronicznej Dokumentacji Stosowanych
+Środków Ochrony Roślin powstał od daty udostępnienia użytkownikom profesjonalnym przez
+Głównego Inspektora Ochrony Roślin i Nasiennictwa systemu teleinformatycznego
+umożliwiającego prowadzenie i przechowywanie dokumentacji, która zostanie ogłoszona
+przez ministra właściwego do spraw rolnictwa, w drodze obwieszczenia, w Dzienniku
+Urzędowym Rzeczypospolitej Polskiej „Monitor Polski”.
+Konsekwencją wprowadzanych przepisów jest zmiana art. 60 ust. 1 pkt 2a ustawy z dnia
+8 marca 2013 r. o środkach ochrony roślin polegająca na wykreśleniu danych promulgacyjnych
+ustawy z dnia 18 grudnia 2003 r. o krajowym systemie ewidencji producentów, ewidencji
+gospodarstw rolnych oraz ewidencji wniosków o przyznanie płatności, które zostaną ujęte
+w dodawanym przepisie art. 47a ust. 2 pkt 2 lit. c.
+                                              7
+
+
+Proponuje się, aby projektowana ustawa weszła w życie z dniem 1 stycznia 2026 r., gdyż jest
+to termin, od którego będą stosowane przepisy rozporządzenia 2023/564 .
+Projektowana ustawa nie ma bezpośredniego wpływu na sytuację ekonomiczną i społeczną
+rodziny, a także osób niepełnosprawnych oraz osób starszych.
+Projektowana ustawa nie jest sprzeczna z przepisami ustawy z dnia 6 marca 2018 r. – Prawo
+przedsiębiorców (Dz. U. z 2024 r. poz. 236, z późn. zm.).
+Kwestie regulowane projektowaną ustawą mogą mieć pozytywny wpływ na sytuację
+ekonomiczną i konkurencyjność dużych, średnich i małych przedsiębiorstw, gdyż umożliwią
+utworzenie narzędzia informatycznego pozwalającego na wywiązanie się z zobowiązań art. 67
+ust. 1 rozporządzenia 1107/2009, w sposób określony w rozporządzeniu 2023/564.
+Projektowana ustawa jest zgodna z prawem Unii Europejskiej.
+Projektowana ustawa nie zawiera przepisów technicznych i w związku z tym jej projekt nie
+podlega notyfikacji w rozumieniu przepisów rozporządzenia Rady Ministrów z dnia 23 grudnia
+2002 r. w sprawie sposobu funkcjonowania krajowego systemu notyfikacji norm i aktów
+prawnych (Dz. U. poz. 2039, z późn. zm.).
+Projektowana ustawa została ujęta w Wykazie prac legislacyjnych i programowych Rady
+Ministrów pod numerem UC51.
+Stosownie do przepisów ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. z 2025 r. poz. 677) projektowana ustawa oraz dokumenty dotyczące
+prac nad jej projektem zostały zamieszczone w Biuletynie Informacji Publicznej na stronie
+podmiotowej Rządowego Centrum Legislacji, w serwisie „Rządowy Proces Legislacyjny”.
+Nazwa projektu                                                          Data sporządzenia
+Projekt ustawy o zmianie ustawy o środkach ochrony roślin               16.05.2025 r.
+Ministerstwo wiodące i ministerstwa współpracujące
+Ministerstwo Rolnictwa i Rozwoju Wsi                                    Źródło
+ Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza          Inicjatywa własna
+ Stanu lub Podsekretarza Stanu
+ Czesław Siekierski – Minister Rolnictwa i Rozwoju Wsi
+                                                                        Nr w Wykazie prac legislacyjnych
+Kontakt do opiekuna merytorycznego projektu                             i programowych Rady Ministrów –
+Krzysztof Kielak, Departament Hodowli i Ochrony Roślin,                 UC51
+tel.: 22 623 10 17, adres e-mail: krzysztof.kielak@minrol.gov.pl
+                               OCENA SKUTKÓW REGULACJI
+ 1. Jaki problem jest rozwiązywany?
+Projektowana ustawa rozwiązuje problem braku wprowadzenia do polskiego porządku prawnego przepisów
+rozporządzenia wykonawczego Komisji (UE) 2023/564 z dnia 10 marca 2023 r. w odniesieniu do treści i formatu
+dokumentacji dotyczącej środków ochrony roślin prowadzonej i przechowywanej przez użytkowników
+profesjonalnych na podstawie rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 1107/2009 (Dz. Urz. UE L
+74 z 13.03.2023, str. 4), zwanego dalej „rozporządzeniem 2023/564”.
+Problem dotyczy ok. 1300 tys. rolników, a także innych użytkowników profesjonalnych środków ochrony roślin.
+ 2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+ Wprowadzenie przepisów ustawowych umożliwiających prowadzenie elektronicznej ewidencji zabiegów środkami
+ ochrony roślin w formacie elektronicznym określonym w rozporządzeniu 2023/564 w Elektronicznej Dokumentacji
+ Stosowanych Środków Ochrony Roślin, z wykorzystaniem systemu teleinformatycznego udostępnianego przez
+ Główny Inspektorat Ochrony Roślin i Nasiennictwa.
+ Proponowane przepisy będą stanowiły podstawę prawną dla Głównego Inspektora Ochrony Roślin i Nasiennictwa
+ do ustanowienia i udostępnienia takiego systemu. Z uwagi na złożoność danych, które powinny być raportowane
+ przez profesjonalnych użytkowników środków ochrony roślin zgodnie z przepisami rozporządzenia 2023/564,
+ możliwość prowadzenia dokumentacji zabiegów środkami ochrony roślin w elektronicznej dokumentacji
+ stosowanych środków ochrony roślin będzie stanowiła duże ułatwienie dla użytkowników środków ochrony roślin.
+ Zgodnie z załącznikiem do rozporządzenia 2023/564 użytkownicy profesjonalni środków ochrony roślin powinni
+ bowiem zamieszczać w dokumentacji dotyczącej wykonywanych zabiegów ochrony roślin m.in. następujące
+ informacje:
+ 1) nazwę środka ochrony roślin wraz z numerem zezwolenia na jego wprowadzenie do obrotu;
+ 2) miejsce zastosowania środka ochrony roślin, przy czym lokalizacja tego miejsca powinna zostać wskazana
+      zgodnie z zakresem geoprzestrzennego wniosku o przyznanie pomocy na podstawie przepisów rozporządzenia
+      wykonawczego Komisji (UE) 2022/1173 z dnia 31 maja 2022 r. ustanawiającego zasady stosowania
+      rozporządzenia Parlamentu Europejskiego i Rady (UE) 2021/2116 w odniesieniu do zintegrowanego systemu
+      zarządzania i kontroli we wspólnej polityce rolnej (Dz. Urz. UE L 183 z 08.07.2022, str. 23, z późn. zm.), a w
+      przypadku gdy jest to niemożliwe – państwa członkowskie powinny zapewnić użytkownikom profesjonalnym
+      odpowiednie alternatywne metody identyfikacji lokalizacji zastosowania środka ochrony roślin;
+ 3) wskazanie chronionej uprawy z zastosowaniem kodów EPPO (Europejska i Śródziemnomorska Organizacja
+      Ochrony Roślin – ang. European and Mediterranean Plant Protection Organization) i faz fenologicznych
+      według skali BBCH.
+ Spełnienie przez profesjonalnych użytkowników środków ochrony roślin powyższych wymagań byłoby niemożliwe
+ bez zapewnienia odpowiedniego narzędzia informatycznego.
+ Jednocześnie opracowanie, wdrożenie, administrowanie i utrzymanie systemu informatycznego wymaga podstawy
+ prawnej oraz określenia w przepisach zakresu funkcjonalności tego systemu.
+ Biorąc pod uwagę, że dane wprowadzane do systemu internetowego będą mogły stanowić podstawę do prowadzenia
+ postępowań administracyjnych lub karnych i będą jedyną prowadzoną przez użytkownika profesjonalnego środków
+ ochrony roślin formą dokumentowania zabiegów, wprowadzanie takich danych powinno być możliwe po dokonaniu
+ uwierzytelnienia.
+ Postanowienia dyrektywy Parlamentu Europejskiego i Rady 2009/128/WE z dnia 21 października 2009 r.
+ ustanawiającej ramy wspólnotowego działania na rzecz zrównoważonego stosowania pestycydów (Dz. Urz. UE L
+ 309 z 24.11.2009, str. 71, z późn. zm.) nakładają na państwa członkowskie obowiązek:
+1) przyjęcia „krajowych planów działania służących ustalaniu celów ilościowych, środków i harmonogramów
+    zmierzających do zmniejszenia zagrożenia związanego ze stosowaniem pestycydów i wpływu ich stosowania na
+    zdrowie ludzi i na środowisko oraz wspierania rozwoju i stosowania integrowanej ochrony roślin oraz
+    alternatywnych podejść lub technik w celu zmniejszenia zależności od stosowania pestycydów” (art. 4 ust. 1 tej
+    dyrektywy);
+2) obliczania „zharmonizowanych wskaźników ryzyka z wykorzystaniem danych statystycznych zgromadzonych
+    zgodnie z prawodawstwem wspólnotowym odnoszącym się do statystyk dotyczących środków ochrony roślin oraz
+    innych istotnych danych” (art. 10 ust. 2 lit. a tej dyrektywy);
+3) określania „tendencji w zakresie stosowania niektórych substancji czynnych” (art. 10 ust. 2 lit. b tej dyrektywy);
+4) określania „kwestii priorytetowych, takich jak substancje czynne, uprawy, regiony lub praktyki, które wymagają
+    szczególnej uwagi, lub dobre praktyki, które można stawiać za wzór do naśladowania, aby osiągnąć cele niniejszej
+    dyrektywy, a zatem zmniejszyć zagrożenia związane ze stosowaniem pestycydów i wpływ ich stosowania na
+    zdrowie ludzi i na środowisko oraz wspierać rozwój oraz stosowanie integrowanej ochrony roślin i alternatywnych
+    podejść lub technik w celu zmniejszenia zależności od stosowania pestycydów” (art. 10 ust. 2 lit. c tej dyrektywy).
+ Jednocześnie w art. 47 ust. 1 zmienianej ustawy wskazuje się ministra właściwego do spraw rolnictwa jako organ
+ właściwy do opracowania krajowego planu działania na rzecz ograniczenia ryzyka związanego ze stosowaniem
+ środków ochrony roślin. Krajowy plan działania powinien określać wskaźniki służące do oceny ryzyka związanego
+ ze stosowaniem środków ochrony roślin dla zdrowia ludzi, zwierząt oraz dla środowiska, w tym dotyczące zużycia
+ środków ochrony roślin, i sposób udostępniania wyników oceny tego ryzyka opinii publicznej.
+ Ze względu na to, że realizacja powyższych zobowiązań może wymagać analizy danych dotyczących stosowania
+ środków ochrony roślin, w projektowanej ustawie przewiduje się możliwość dostępu ministra właściwego do spraw
+ rolnictwa do danych gromadzonych w systemie teleinformatycznym udostępnionym przez Głównego Inspektora
+ Ochrony Roślin i Nasiennictwa. Dostęp do danych powinny mieć także państwowe instytuty badawcze wykonujące
+ analizy na potrzeby ministra właściwego do spraw rolnictwa. Dostęp do danych powinien być jednak ograniczony do
+ danych zagregowanych, które uniemożliwiają identyfikację podmiotów stosujących środki ochrony roślin.
+ Dostęp do danych zgromadzonych w systemie teleinformatycznym udostępnionym przez Głównego Inspektora
+ Ochrony Roślin i Nasiennictwa powinny mieć także:
+  1) Główny Urząd Statystyczny – w celu realizacji zadań z zakresu statystyki publicznej i zadań określonych
+      w rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2022/2379 z dnia 23 listopada 2022 r. w sprawie
+      statystyk dotyczących nakładów i produkcji w rolnictwie, zmiany rozporządzenia Komisji (WE) nr 617/2008
+      oraz uchylenia rozporządzeń Parlamentu Europejskiego i Rady (WE) nr 1165/2008, (WE) nr 543/2009 i (WE)
+      nr 1185/2009 oraz dyrektywy Rady 96/16/WE (Dz. Urz. UE L 315 z 07.12.2022, str. 1);
+  2) strony trzecie określone w art. 67 ust. 1 akapit drugi rozporządzenia Parlamentu Europejskiego i Rady (WE)
+      nr 1107/2009 z dnia 21 października 2009 r. dotyczącego wprowadzania do obrotu środków ochrony roślin
+      i uchylającego dyrektywy Rady 79/117/EWG i 91/414/EWG (Dz. Urz. UE L 309 z 24.11.2009, str. 1,
+      z późn. zm.), zwanego dalej „rozporządzeniem 1107/2009”, na potrzeby realizacji celu tego rozporządzenia,
+      jakim jest ograniczenie ryzyka związanego ze stosowaniem środków ochrony roślin dla zdrowia ludzi, zwierząt
+      lub dla środowiska;
+  3) Agencja Restrukturyzacji i Modernizacji Rolnictwa, gdyż zgodnie z art. 33 ust. 2 ustawy z dnia 13 lutego 2020 r.
+      o Państwowej Inspekcji Ochrony Roślin i Nasiennictwa (Dz. U. z 2023 r. poz. 1992) „uzyskane w wyniku
+      wykonywania zadań Inspekcji informacje lub dane są nieodpłatnie przekazywane w zakresie niezbędnym do
+      przeprowadzania kontroli administracyjnych i kontroli na miejscu Agencji Restrukturyzacji i Modernizacji
+      Rolnictwa jako agencji płatniczej, o której mowa w art. 9 ust. 1 rozporządzenia Parlamentu Europejskiego i Rady
+      (UE) 2021/2116 z dnia 2 grudnia 2021 r. w sprawie finansowania wspólnej polityki rolnej, zarządzania nią
+      i monitorowania jej oraz uchylenia rozporządzenia (UE) nr 1306/2013 (Dz. Urz. UE L 435 z 06.12.2021, str. 187,
+      z późn. zm.)”. Proponowane rozwiązanie jest zatem konsekwencją ww. przepisu.
+ Duża część danych, które powinna zawierać dokumentacja prowadzona przez profesjonalnych użytkowników
+ środków ochrony roślin, jest gromadzona także w systemach informatycznych Agencji Restrukturyzacji
+ i Modernizacji Rolnictwa. Proponuje się zatem ujęcie w projektowanych przepisach normy umożliwiającej transfer
+ danych z systemów Agencji Restrukturyzacji i Modernizacji Rolnictwa do ewidencji prowadzonej na podstawie
+ przepisów rozporządzenia 2023/564. Rozwiązanie takie będzie korzystne dla profesjonalnych użytkowników
+ środków ochrony roślin, którzy nie będą przekazywali tych samych danych różnym jednostkom administracji.
+ W projektowanej ustawie określono także katalog danych osobowych profesjonalnych użytkowników środków
+ ochrony roślin, które mogą być przekazywane między Państwową Inspekcją Ochrony Roślin i Nasiennictwa
+ a Agencją Restrukturyzacji i Modernizacji Rolnictwa, a także ograniczenie celu przekazywania tych danych. Zakres
+ danych jest tożsamy z zakresem danych przekazywanych przez Państwową Inspekcję Ochrony Roślin i Nasiennictwa
+ Agencji Restrukturyzacji i Modernizacji Rolnictwa na podstawie art. 33 ust. 4 pkt 1 i 2 ustawy z dnia 13 lutego 2020 r.
+ o Państwowej Inspekcji Ochrony Roślin i Nasiennictwa.
+ Wprowadzenie projektowanej normy wymaga także określenia przepisów karnych. Proponuje się, aby na
+ profesjonalnego użytkownika środków ochrony roślin, który:
+
+
+                                                           2
+1)    wbrew przepisom art. 1 rozporządzenia 2023/564 w dokumentacji, o której mowa w art. 67 ust. 1
+      rozporządzenia nr 1107/2009, nie przekazuje informacji określonych w załączniku do rozporządzenia 2023/564
+      lub
+2) wbrew przepisowi art. 2 rozporządzenia 2023/564 nie prowadzi lub nie przechowuje dokumentacji, o której
+      mowa w art. 67 ust. 1 rozporządzenia nr 1107/2009, w formacie określonym w art. 2 rozporządzenia 2023/564,
+      lub
+3) będąc do tego obowiązanym, nie prowadzi lub nie przechowuje dokumentacji, o której mowa w art. 67 ust. 1
+      rozporządzenia nr 1107/2009, w Elektronicznej Dokumentacji Stosowanych Środków Ochrony Roślin
+– była nakładana kara grzywny.
+Tworzony system teleinformatyczny powinien umożliwiać wymianę informacji między systemami służącymi do
+zarządzania gospodarstwem, systemami doradczymi (eDWIN) czy systemami wykorzystywanymi przez Agencję
+Restrukturyzacji i Modernizacji Rolnictwa i Państwowe Gospodarstwo Leśne Lasy Państwowe.
+Proponuje się przy tym, aby obowiązek prowadzenia i przechowywania dokumentacji, o której mowa w art. 67 ust. 1
+rozporządzenia nr 1107/2009, w Elektronicznej Dokumentacji Stosowanych Środków Ochrony Roślin powstał od
+daty udostępnienia użytkownikom profesjonalnym przez Głównego Inspektora Ochrony Roślin i Nasiennictwa
+systemu teleinformatycznego umożliwiającego prowadzenie i przechowywanie dokumentacji, która zostanie
+ogłoszona przez ministra właściwego do spraw rolnictwa, w drodze obwieszczenia, w Dzienniku Urzędowym
+Rzeczypospolitej Polskiej „Monitor Polski”.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Rozporządzenie 2023/564 obowiązuje we wszystkich państwach członkowskich UE.
+4. Podmioty, na które oddziałuje projekt
+         Grupa                   Wielkość                   Źródło danych                 Oddziaływanie
+Profesjonalni              Rolnicy                   Powszechny Spis Rolny 2020.   Obowiązek korzystania przy
+użytkownicy środków        (ok. 1300 tys.),          Charakterystyka gospodarstw   prowadzeniu ewidencji
+ochrony roślin             dyrekcje regionalne       w 2020 r.,                    zabiegów ochrony roślin z
+                           Lasów Państwowych         https://www.lasy.gov.pl/pl    Elektronicznej Dokumentacji
+                           (17), zarządcy lub                                      Stosowanych Środków
+                           właściciele terenów                                     Ochrony Roślin, z
+                           nieużytkowanych                                         wykorzystaniem systemu
+                           rolniczo, w tym trakcji                                 teleinformatycznego
+                           kolejowej czy terenów                                   udostępnionego przez
+                           przemysłowych                                           Głównego Inspektora
+                                                                                   Ochrony Roślin i
+                                                                                   Nasiennictwa.
+Główny Inspektorat                                                                 Konieczność opracowania,
+Ochrony Roślin i                                                                   administrowania,
+Nasiennictwa                                                                       udostępnienia i utrzymania
+                                                                                   Elektronicznej Dokumentacji
+                                                                                   Stosowanych Środków
+                                                                                   Ochrony Roślin do
+                                                                                   prowadzenia ewidencji
+                                                                                   zabiegów ochrony roślin w
+                                                                                   formie elektronicznej.
+Państwowa Inspekcja        Główny Inspektorat        Dane Państwowej Inspekcji     Przeprowadzenie kampanii
+Ochrony Roślin i           Ochrony Roślin i          Ochrony Roślin i              informacyjnej wśród rolników
+Nasiennictwa               Nasiennictwa oraz         Nasiennictwa                  dotyczącej prowadzenia
+                           wojewódzkie                                             ewidencji zabiegów ochrony
+                           inspektoraty ochrony                                    roślin w formie
+                           roślin i nasiennictwa                                   elektronicznej.
+                           (16)
+
+
+
+
+                                                        3
+Agencja Restrukturyzacji                                                              Przekazywanie danych
+i Modernizacji Rolnictwa                                                              gromadzonych w systemach
+                                                                                      teleinformatycznych do
+                                                                                      udostępnionego przez
+                                                                                      Głównego Inspektora
+                                                                                      Ochrony Roślin i
+                                                                                      Nasiennictwa systemu
+                                                                                      teleinformatycznego
+                                                                                      służącego prowadzeniu
+                                                                                      ewidencji zabiegów ochrony
+                                                                                      roślin.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt ustawy został przekazany jako projekt ustawy o zmianie ustawy o ochronie roślin przed agrofagami oraz
+niektórych innych ustaw (UC51) do konsultacji organizacjom społecznym i zainteresowanym podmiotom właściwym
+ze względu na profil ich działalności, w tym do:
+Unia Owocowa – Stowarzyszenie Polskich Dystrybutorów Owoców i Warzyw; Stowarzyszenie Jabłka Grójeckie;
+Polskie Forum Bezpieczeństwa Żywności; Federacja Branżowych Związków Producentów Rolnych; Krajowa Rada Izb
+Rolniczych; Business Centre Club; Federacja Konsumentów; Federacja Związków Kółek i Organizacji Rolniczych RP;
+Federacja Związków Pracodawców-Dzierżawców i Właścicieli Rolnych; Forum Związków Zawodowych; Niezależny
+Samorządny Związek Zawodowy Rolników Indywidualnych „Solidarność”; Ogólnopolskie Porozumienie Związków
+Zawodowych; Sekretariat Rolnictwa Komisji Krajowej NSZZ „Solidarność”; Pracodawcy RP; Związek
+Przedsiębiorców i Pracodawców; Federacja Przedsiębiorców Polskich; Krajowy Związek Grup Producentów Owoców
+i Warzyw – Spółdzielnia Osób Prawnych; Polski Związek Ogrodniczy; Związek Sadowników RP; Konsorcjum
+Appolonia; Krajowy Związek Rewizyjny Rolniczych Spółdzielni Produkcyjnych; Krajowy Związek Rolników, Kółek
+i Organizacji Rolniczych; Polskie Stowarzyszenie Ochrony Roślin; Stowarzyszenie Naukowo-Techniczne Inżynierów
+i Techników Rolnictwa; Związek Rzemiosła Polskiego; Związek Zawodowy Rolników Rzeczpospolitej „Solidarni”;
+Związek Zawodowy Rolnictwa „Samoobrona”; Krajowa Rada Spółdzielcza; Ogólnopolskie Porozumienie Związków
+Zawodowych Rolników i Organizacji Rolniczych Konfederacja Lewiatan; Związek Zawodowy Rolnictwa i Obszarów
+Wiejskich „REGIONY”; Krajowy Związek Grup Producentów Rolnych – Izba Gospodarcza; Polska Izba Nasienna;
+Związek Szkółkarzy Polskich; Stowarzyszenie Polski Ziemniak; Polska Federacja Ziemniaka; Krajowe Zrzeszenie
+Producentów Rzepaku i Roślin Białkowych; Krajowy Związek Plantatorów Buraka Cukrowego; Krajowy Związek
+Plantatorów Chmielu; Ogólnopolski Związek Producentów Warzyw; Polska Federacja Producentów Żywności Związek
+Pracodawców; Polski Związek Pracodawców-Usługodawców Rolnych; Polski Związek Producentów Chmielu; Polski
+Związek Producentów Kukurydzy; Polski Związek Producentów Roślin Zbożowych; Polski Związek Pszczelarski;
+Stowarzyszenie Polski Ziemniak, Polska Izba Gospodarcza Przemysłu Drzewnego.
+Czas trwania konsultacji uwzględniał przepisy ustawy z dnia 23 maja 1991 r. o związkach zawodowych (Dz. U. z 2025 r.
+poz. 440) i wynosił 30 dni.
+Projekt ustawy został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Ministra Rolnictwa
+i Rozwoju Wsi, zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa
+(Dz. U. z 2017 r. poz. 248, z późn. zm.), oraz w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego
+Centrum Legislacji, w serwisie „Rządowy Proces Legislacyjny”, zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów
+z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.).
+Komitet do Spraw Europejskich przyjął projekt ustawy w trybie obiegowym w dniu 5 lutego 2025 r. z uwzględnieniem
+uwag Ministra Finansów zgłoszonych do Oceny Skutków Regulacji. Komitet do Spraw Europejskich rekomendował
+rozpatrzenie projektu ustawy przez Stały Komitet Rady Ministrów.
+Stały Komitet Rady Ministrów w dniu 3 kwietnia 2025 r. podjął decyzję o podziale projektu ww. ustawy na dwa odrębne
+projekty:
+1) projekt obejmujący przepisy służące stosowaniu przepisów unijnych,
+2) projekt obejmujący rozwiązania krajowe.
+Zdecydowano, że te projekty po ich przedłożeniu przez Ministra Rolnictwa i Rozwoju Wsi zostaną rozpatrzone przez
+Stały Komitet Rady Ministrów w trybie obiegowym.
+Projektowana ustawa zawiera rozwiązania służące stosowaniu przepisów unijnych.
+Projekt ustawy o zmianie ustawy o środkach ochrony roślin (UC51) został w dniu 15 maja 2025 r. przyjęty w trybie
+obiegowym przez Stały Komitet Rady Ministrów.
+
+
+
+                                                         4
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                            Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                    0       1       2       3       4       5       6       7       8       9   10       Łącznie
+                                                                                                                         (0–10)
+Dochody ogółem                  -       -       -       -       -       -       -       -       -       -       -    -
+budżet państwa                  -       -       -       -       -       -       -       -       -       -       -    -
+JST                             -       -       -       -       -       -       -       -       -       -       -    -
+pozostałe jednostki             -       -       -       -       -       -       -       -       -       -       -    -
+(oddzielnie)
+Wydatki ogółem                  -       -       -       -       -       -       -       -       -       -       -    -
+budżet państwa                  -       -       -       -       -       -       -       -       -       -       -    -
+JST                             -       -       -       -       -       -       -       -       -       -       -    -
+pozostałe jednostki             -       -       -       -       -       -       -       -       -       -       -    -
+(oddzielnie)
+Saldo ogółem                    -       -       -       -       -       -       -       -       -       -       -    -
+budżet państwa                  -       -       -       -       -       -       -       -       -       -       -    -
+JST                             -       -       -       -       -       -       -       -       -       -       -    -
+pozostałe jednostki             -       -       -       -       -       -       -       -       -       -       -    -
+(oddzielnie)
+                       Nie jest wymagane finansowanie z budżetu państwa ani budżetów jednostek
+Źródła finansowania
+                       samorządowych.
+Dodatkowe              W projektowanej ustawie proponuje się, aby Główny Inspektor Ochrony Roślin
+informacje, w tym      i Nasiennictwa opracował i udostępnił profesjonalnym użytkownikom środków ochrony
+wskazanie źródeł       roślin system teleinformatyczny pozwalający na prowadzenie ewidencji zabiegów ochrony
+danych i przyjętych    roślin zgodnie z przepisami rozporządzenia 2023/564.
+do obliczeń założeń    Zadanie to będzie generować koszty po stronie Głównego Inspektora Ochrony Roślin
+                       i Nasiennictwa, niemniej obowiązek poniesienia tych kosztów wynika nie z przepisów
+                       projektowanej ustawy, lecz stosowanego w sposób bezpośredni rozporządzenia 2023/564.
+                       Przepisy rozporządzenia 2023/564 dotyczą bowiem, zgodnie z jego art. 1 ust. 1,
+                       dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia nr 1107/2009.
+                       Art. 67 ust. 1 rozporządzenia nr 1107/2009 stanowi, że:
+                       „1. Producenci, dostawcy, dystrybutorzy, importerzy oraz eksporterzy środków ochrony
+                       roślin prowadzą i przechowują przez co najmniej pięć lat dokumentację dotyczącą
+                       produkowanych,        wwożonych,      wywożonych,       przechowywanych,    stosowanych
+                       i wprowadzanych przez nich do obrotu środków ochrony roślin. Profesjonalni użytkownicy
+                       środków ochrony roślin prowadzą i przechowują przez co najmniej trzy lata dokumentację
+                       dotyczącą stosowanych przez nich środków ochrony roślin, zawierającą nazwę środka
+                       ochrony roślin, czas zastosowania i zastosowaną dawkę, obszar i uprawy, na których
+                       zastosowano środek ochrony roślin.
+                       Na żądanie właściwego organu udostępniają oni odpowiednie informacje zawarte w tej
+                       dokumentacji. Strony trzecie, takie jak branża wody pitnej, sprzedawcy detaliczni lub
+                       mieszkańcy, mogą zażądać dostępu do tych informacji, zwracając się do właściwego organu.
+                       Właściwe organy zapewniają dostęp do takich informacji zgodnie z mającym zastosowanie
+                       prawem krajowym lub wspólnotowym.
+                       Do dnia 14 grudnia 2012 r. Komisja przedstawia Parlamentowi Europejskiemu i Radzie
+                       sprawozdanie dotyczące kosztów i korzyści z identyfikowalności informacji
+                       przekazywanych przez użytkowników sprzedawcom detalicznym i dotyczących stosowania
+                       środków ochrony roślin na produktach rolnych, w razie konieczności wraz ze stosownymi
+                       wnioskami legislacyjnymi.”.
+
+                                                                5
+                    Zgodnie z art. 3 ust. 3 pkt 1 ustawy z dnia 8 marca 2013 r. o środkach ochrony roślin:
+                    „3. Wojewódzki inspektor ochrony roślin i nasiennictwa, zwany dalej „wojewódzkim
+                    inspektorem”:
+                    1) jest organem właściwym, o którym mowa w art. 67 ust. 1 rozporządzenia nr 1107/2009;”.
+                    Tym samym za wykonanie przepisów rozporządzenia 2023/564 jest odpowiedzialna
+                    Państwowa Inspekcja Ochrony Roślin i Nasiennictwa.
+                    Koordynacja wykonywania zadań Państwowej Inspekcji Ochrony Roślin i Nasiennictwa,
+                    zgodnie z przepisami art. 6 ust. 2 ustawy z dnia 13 lutego 2020 r. o Państwowej Inspekcji
+                    Ochrony Roślin i Nasiennictwa, należy do zadań Głównego Inspektora Ochrony Roślin
+                    i Nasiennictwa. Główny Inspektor Ochrony Roślin i Nasiennictwa może przy tym zgodnie
+                    z art. 6 ust. 5 tej ustawy „podejmować czynności należące do zakresu zadań wojewódzkiego
+                    inspektora, jeżeli jest to uzasadnione szczególną wagą lub zawiłością sprawy”.
+                    Tym samym te przepisy stanowią dla Głównego Inspektora Ochrony Roślin i Nasiennictwa
+                    podstawę prawną do opracowania systemu teleinformatycznego wykonującego przepisy
+                    rozporządzenia 2023/564.
+                    Polska występowała do Komisji Europejskiej o uwzględnienie kosztów wprowadzenia
+                    obowiązku dokumentowania zabiegów ochrony roślin w postaci teleinformatycznej w ocenie
+                    wpływu dla rozporządzenia 2023/564. Komisja Europejska odpowiedziała jednak na
+                    postulaty Polski w następujący sposób:
+                    „Komisja uważa, że przejście na format elektroniczny nie będzie miało poważnych
+                    negatywnych skutków i ogólnie będzie korzystne zarówno dla użytkowników, jak i dla
+                    właściwych organów w wypełnianiu ich obowiązków wynikających z nowego
+                    rozporządzenia SAIO.
+                    Również wykorzystanie formatu elektronicznego jest częścią harmonizacji zapisu, a zatem
+                    wchodzi w zakres art. 67.
+                    Komisja zwraca również uwagę, że kiedy przyjmowano rozporządzenie w sprawie SAIO,
+                    Rada i Parlament we wspólnym oświadczeniu uznały, że gromadzenie danych przewidziane
+                    w rozporządzeniu można osiągnąć jedynie wtedy, gdy rejestry są dostępne w formacie
+                    elektronicznym.”.
+                    (The Commission considers that switch to electronic format is not going to have major
+                    negative impacts and overall will be beneficial for both users and competent authorities to
+                    fulfil their obligations under the new SAIO Regulation.
+                    Also use of electronic format is part of the harmonisation of recording and is thus within the
+                    scope of Article 67.
+                    The Commission also points out that when the SAIO Regulation was adopted, the Council
+                    and the Parliament in a joint statement recognised that the data collection foreseen under the
+                    Regulation can only be achieved when the records are available in electronic format.).
+                    Komisja Europejska nie uwzględniła zatem uwagi Polski, co m.in. było przyczyną, dla której
+                    Polska nie poparła przyjęcia rozporządzenia 2023/564.
+                    Przewiduje się, że opracowanie systemu teleinformatycznego będzie sfinansowane w ramach
+                    środków pozabudżetowych – Funduszy Europejskich na Rozwój Cyfrowy (FERC). Główny
+                    Inspektorat Ochrony Roślin i Nasiennictwa w dniu 28 marca 2025 r. złożył wniosek
+                    o finansowanie w ramach FERC projektu informatycznego „Budowa e-usługi rejestrowania
+                    zabiegów środkami ochrony roślin wraz z niezbędnym do jej świadczenia systemem
+                    informatycznym (EDEK)”. Budżet projektu został oszacowany na kwotę 19 602 101,26 zł.
+                    Zakłada się, że realizacja systemu teleinformatycznego nie będzie wymagała zwiększenia
+                    środków budżetowych przewidzianych w ustawie budżetowej na funkcjonowanie
+                    Państwowej Inspekcji Ochrony Roślin i Nasiennictwa.
+                    Proponowane rozwiązania nie będą miały zatem negatywnego wpływu na wpływy budżetu
+                    państwa ani na budżety jednostek samorządu terytorialnego.
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz
+   na rodzinę, obywateli i gospodarstwa domowe
+                                                   Skutki
+
+
+
+                                                      6
+Czas w latach od wejścia w życie              0        1         2         3         5        10        Łącznie
+zmian                                                                                                   (0–10)
+W ujęciu         duże
+pieniężnym       przedsiębiorstwa
+(w mln zł,       sektor mikro-, małych
+ceny stałe       i średnich
+z …… r.)         przedsiębiorstw
+                 rodzina, obywatele
+                 oraz gospodarstwa
+                 domowe
+W ujęciu      duże                         Proponuje się, aby użytkownicy profesjonalni środków ochrony roślin
+niepieniężnym przedsiębiorstwa             wykorzystywali do prowadzenia dokumentacji zabiegów ochrony roślin
+                                           Elektroniczną Dokumentację Stosowanych Środków Ochrony Roślin
+                                           w systemie      teleinformatycznym     utworzonym,      a     następnie
+                                           administrowanym, utrzymywanym i udostępnianym przez Głównego
+                                           Inspektora Ochrony Roślin i Nasiennictwa. Udostępnienie tego narzędzia
+                                           ułatwi profesjonalnym użytkownikom środków ochrony roślin wywiązanie
+                                           się z obowiązku nałożonego w przepisach rozporządzenia 2023/564.
+                 sektor mikro-, małych     Proponuje się, aby użytkownicy profesjonalni środków ochrony roślin
+                 i średnich                wykorzystywali w celu prowadzenia dokumentacji zabiegów ochrony roślin
+                 przedsiębiorstw           Elektroniczną Dokumentację Stosowanych Środków Ochrony Roślin
+                                           w systemie      teleinformatycznym     utworzonym,      a     następnie
+                                           administrowanym, utrzymywanym i udostępnianym przez Głównego
+                                           Inspektora Ochrony Roślin i Nasiennictwa. Udostępnienie tego narzędzia
+                                           ułatwi profesjonalnym użytkownikom środków ochrony roślin wywiązanie
+                                           się z obowiązku nałożonego w przepisach rozporządzenia 2023/564.
+                 rodzina, obywatele        Brak bezpośredniego wpływu.
+                 oraz gospodarstwa
+                 domowe
+Niemierzalne
+Dodatkowe
+informacje, w tym
+wskazanie źródeł       Projektowana ustawa nie ma bezpośredniego wpływu na rodzinę, obywateli, gospodarstwa
+danych i przyjętych    domowe, osoby niepełnosprawne i osoby starsze.
+do obliczeń założeń
+
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie                tak
+wymaganymi przez UE (szczegóły w odwróconej            ✓nie
+tabeli zgodności).
+                                                          nie dotyczy
+   zmniejszenie liczby dokumentów                          zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                            zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                   wydłużenie czasu na załatwienie sprawy
+   inne: -                                             ✓ inne: Proponuje się, aby użytkownicy profesjonalni środków
+                                                       ochrony roślin wykorzystywali w celu prowadzenia
+                                                       elektronicznej ewidencji zabiegów ochrony roślin
+                                                       Elektroniczną Dokumentację Stosowanych Środków Ochrony
+                                                       Roślin w systemie teleinformatycznym utworzonym,
+                                                       a następnie        administrowanym,          utrzymywanym
+                                                       i udostępnianym przez Głównego Inspektora Ochrony Roślin
+                                                       i Nasiennictwa. Udostępnienie tego narzędzia ułatwi
+                                                           7
+                                                        profesjonalnym użytkownikom środków ochrony roślin
+                                                        wywiązanie się z obowiązku nałożonego w przepisach
+                                                        rozporządzenia 2023/564.
+
+
+Wprowadzane obciążenia są przystosowane do ich          ✓ tak
+elektronizacji.                                            nie
+                                                           nie dotyczy
+Proponuje się, aby użytkownicy profesjonalni środków ochrony roślin wykorzystywali w celu prowadzenia
+elektronicznej dokumentacji zabiegów ochrony roślin Elektroniczną Dokumentację Stosowanych Środków Ochrony
+Roślin, z wykorzystaniem systemu teleinformatycznego utworzonego, a następnie administrowanego, utrzymywanego,
+udostępnianego i administrowanego przez Głównego Inspektora Ochrony Roślin i Nasiennictwa. Udostępnienie tego
+narzędzia ułatwi profesjonalnym użytkownikom środków ochrony roślin wywiązanie się z obowiązku nałożonego
+w przepisach rozporządzenia 2023/564.
+9. Wpływ na rynek pracy
+Projektowana ustawa nie będzie miała bezpośredniego wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+✓ środowisko naturalne                   demografia                                informatyzacja
+   sytuacja i rozwój regionalny          mienie państwowe                    ✓ zdrowie
+   sądy powszechne,                  ✓inne: rolnictwo
+administracyjne lub wojskowe
+                       Proponuje się, aby użytkownicy profesjonalni środków ochrony roślin wykorzystywali w celu
+                       prowadzenia dokumentacji wykonywanych zabiegów ochrony roślin Elektroniczną
+                       Dokumentację Stosowanych Środków Ochrony Roślin, z wykorzystaniem systemu
+Omówienie wpływu       teleinformatycznego udostępnianego przez Głównego Inspektora Ochrony Roślin
+                       i Nasiennictwa. Pozwoli to na analizowanie danych dotyczących stosowanych środków
+                       ochrony roślin, w tym w zakresie potrzeb rolnictwa i ochrony zdrowia ludzi oraz ochrony
+                       środowiska.
+11. Planowane wykonanie przepisów aktu prawnego
+Proponuje się, aby projektowana ustawa weszła w życie z dniem 1 stycznia 2026 r.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Ewaluacja efektów projektu nastąpi na podstawie liczby użytkowników środków ochrony roślin korzystających
+z Elektronicznej Dokumentacji Stosowanych Środków Ochrony Roślin.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                          8
+                      Raport z konsultacji (§ 51 Regulaminu pracy Rady Ministrów)
+
+
+1. Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania
+     Projekt podlegał konsultacjom i opiniowaniu jako projekt ustawy o zmianie ustawy o ochronie roślin
+przed agrofagami oraz niektórych innych ustaw (UC 51).
+     Stały Komitet Rady Ministrów w dniu 3 kwietnia 2025 r. podjął decyzję o podziale projektu ustawy na
+dwa odrębne projekty, tj.:
+     • projekt obejmujący przepisy służące stosowaniu przepisów unijnych,
+     • projekt obejmujący rozwiązania krajowe.
+     Zdecydowano, że powyższe projekty po przedłożeniu przez Ministra Rolnictwa i Rozwoju Wsi zostaną
+rozpatrzone przez Stały Komitet Rady Ministrów w trybie obiegowym.
+     Projekt ustawy zawiera rozwiązania unijne.
+     Poniżej omówione zostały zatem uwagi zgłoszone do tej części projektu ustawy o zmianie ustawy
+o ochronie roślin przed agrofagami oraz niektórych innych ustaw (UC 51), przekazanego do uzgodnień
+i opiniowania.
+
+
+     Projekt ustawy o zmianie ustawy o ochronie roślin przed agrofagami oraz niektórych innych ustaw został
+(UC51) skierowany do konsultacji publicznych do następujących podmiotów (na adresy poczty
+elektronicznej):
+   1. Unia Owocowa – Stowarzyszenie Polskich Dystrybutorów Owoców i Warzyw;
+   2. Stowarzyszenie Jabłka Grójeckie;
+   3. Polskie Forum Bezpieczeństwa Żywności;
+   4. Federacja Branżowych Związków Producentów Rolnych;
+   5. Krajowa Rada Izb Rolniczych;
+   6. Business Centre Club;
+   7. Federacja Konsumentów;
+   8. Federacja Związków Kółek i Organizacji Rolniczych RP;
+   9. Federacja Związków Pracodawców-Dzierżawców i Właścicieli Rolnych;
+   10. Forum       Związków   Zawodowych;    Niezależny    Samorządny    Związek    Zawodowy Rolników
+       Indywidualnych „Solidarność”;
+   11. Ogólnopolskie Porozumienie Związków Zawodowych;
+   12. Sekretariat Rolnictwa Komisji Krajowej NSZZ „Solidarność”;
+   13. Pracodawcy RP;
+   14. Związek Przedsiębiorców i Pracodawców;
+   15. Federacja Przedsiębiorców Polskich;
+   16. Krajowy Związek Grup Producentów Owoców i Warzyw – Spółdzielnia Osób Prawnych;
+   17. Polski Związek Ogrodniczy; (email nie sprawdzony)
+18. Związek Sadowników RP;
+19. Konsorcjum Appolonia;
+20. Krajowy Związek Rewizyjny Rolniczych Spółdzielni Produkcyjnych;
+21. Krajowy Związek Rolników, Kółek i Organizacji Rolniczych;
+22. Polskie Stowarzyszenie Ochrony Roślin;
+23. Stowarzyszenie Naukowo-Techniczne Inżynierów i Techników Rolnictwa;
+24. Związek Rzemiosła Polskiego;
+25. Związek Zawodowy Rolników Rzeczpospolitej „Solidarni”;
+26. Związek Zawodowy Rolnictwa „Samoobrona”;
+27. Krajowa Rada Spółdzielcza;
+28. Ogólnopolskie Porozumienie Związków Zawodowych Rolników i Organizacji Rolniczych;
+29. Konfederacja Lewiatan;
+30. Związek Zawodowy Rolnictwa i Obszarów Wiejskich „REGIONY”;
+31. Krajowy Związek Grup Producentów Rolnych – Izba Gospodarcza;
+32. Polska Izba Nasienna; Związek Szkółkarzy Polskich;
+33. Stowarzyszenie Polski Ziemniak;
+34. Polska Federacja Ziemniaka;
+35. Krajowe Zrzeszenie Producentów Rzepaku i Roślin Białkowych;
+36. Krajowy Związek Plantatorów Buraka Cukrowego;
+37. Związek Plantatorów Chmielu;
+38. Ogólnopolski Związek Producentów Warzyw;
+39. Polska Federacja Producentów Żywności;
+40. Polski Związek Pracodawców-Usługodawców Rolnych;
+41. Polski Związek Producentów Chmielu;
+42. Polski Związek Producentów Kukurydzy;
+43. Polski Związek Producentów Roślin Zbożowych;
+44. Polski Związek Pszczelarski;
+45. Związek Zawodowy Centrum Narodowe Młodych Rolników;
+46. Związek Zawodowy Rolników „Ojczyzna”;
+47. Polska Izba Lnu i Konopi;
+48. Federacja Stowarzyszeń Naukowo-Technicznych NOT;
+49. Izba Gospodarcza Eksporterów i Importerów;
+50. Polska Izba Gospodarcza Importerów, Eksporterów i Kooperacji;
+51. .Polska Izba Handlowa;
+52. Polska Izba Spedycji i Logistyki;
+53. Stowarzyszenie Przedsiębiorców Leśnych;
+54. „PNG” Sp. z o.o.;
+
+                                                 2
+   55. QA Solutions Sp. z o.o.;
+   56. Kiwa COBICO Sp. z o.o.;
+   57. Centrum Jakości AgroEko Sp. z o.o.;
+   58. SGS Polska Sp. z o.o.;
+   59. TÜV Rheinland Polska Sp. z o.o.;
+   60. BIOCERT MAŁOPOLSKA Sp. z o.o.;
+   61. EKOGWARANCJA PTRE Sp. z o. o.;
+   62. Krajowe Centrum Badań i Certyfikacji „Gwarantowana Jakość” Sp. z o. o.;
+   63. ECO2 Sp. z o.o.;
+   64. Polskie Centrum Badań i Certyfikacji Spółka Akcyjna;
+   65. Centrum Doradztwa Rolniczego;
+   66. Instytut Ochrony Roślin – Państwowy Instytut Badawczy;
+   67. Instytut Ogrodnictwa – Państwowy Instytut Badawczy;
+   68. Instytut Uprawy, Nawożenia i Gleboznawstwa – Państwowy Instytut Badawczy;
+   69. Instytut Hodowli i Aklimatyzacji Roślin – Państwowy Instytut Badawczy;
+   70. Instytut Roślin Zielarskich i Włókien naturalnych – Państwowy Instytut Badawczy;
+   71. Polska Izba Gospodarcza Przemysłu Drzewnego.
+
+
+Informację o braku uwag do projektu ustawy otrzymano od Federacji Związków Pracodawców Ochrony
+Zdrowia „Porozumienie Zielonogórskie”.
+Uwagi do projektu ustawy otrzymano od następujących podmiotów:
+   1. Krajowa Rada Izb Rolniczych:
+             Zwróciła uwagę na obciążenia dla rolników wynikające z prowadzenia rejestru zabiegów
+              ochrony roślin w formie elektronicznej – wymóg prowadzenia rejestru zabiegów ochrony roślin
+              w formie elektronicznej wynika ze stosowanych w sposób bezpośredni przepisów Unii
+              Europejskiej (rozporządzenie wykonawcze Komisji (UE) 2023/564 z dnia 10 marca 2023 r.
+              w odniesieniu do treści i formatu dokumentacji dotyczącej środków ochrony roślin
+              prowadzonej i przechowywanej przez użytkowników profesjonalnych na podstawie
+              rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 1107/2009) i z tego powodu uwaga
+              dotycząca wprowadzenia odstępstw od tego obowiązku nie mogła zostać uwzględniona. OSR
+              do projektowanej ustawy uzupełniono o konieczność przeprowadzenia przez PIORiN kampanii
+              informacyjnej wśród rolników, dotyczącej nowych obowiązków.
+              Niezależnie od powyższego należy zwrócić uwagę, że w głosowaniu na forum Stałego
+              Komitetu ds. Roślin, Zwierząt, Żywności i Pasz Polska nie poparła proponowanych rozwiązań.
+              Projekt uzyskał jednak akceptację większości państw członkowskich i został przyjęty.
+              Polska zgłaszała uchylenie rozporządzenia 2023/564 lub uproszczenie jego przepisów jako
+              jeden z elementów znoszenia barier dla rolników. Wniosek Polski został uwzględniony w nocie
+
+                                                    3
+              Prezydencji Belgijskiej do Rady UE z 20 lutego 2024 r., nie uzyskał on jednak ostatecznie
+              poparcia.
+              Minister Rolnictwa i Rozwoju Wsi zgłosił jako punkt AOB na Radzie Ministrów ds. Rolnictwa
+              i Rybołówstwa (wrzesień 2024 r.) przesunięcie o 2 lata wejścia w życie obowiązku
+              prowadzenia rejestru zabiegów ochrony roślin w formie elektronicznej.
+   2. Polskie Stowarzyszenie Ochrony Roślin:
+             Zwróciło uwagę, aby system teleinformatyczny do prowadzenia ewidencji zabiegów w formie
+              elektronicznej umożliwiał współdziałanie z systemami do zarządzania gospodarstwem rolnym.
+              Uzasadnienie do projektu ustawy zostało w tym zakresie uzupełnione.
+             Zwróciło uwagę, aby na etapie tworzenia systemu teleinformatycznego do prowadzenia
+              ewidencji zabiegów w formie elektronicznej zadbać o jego kompatybilność z systemem
+              prowadzonym przez ARiMR. Przepisy projektowanej ustawy zakładają wymianę informacji
+              pomiędzy systemem teleinformatycznym PIORiN i ARiMR – postulat ten jest więc
+              realizowany.
+2. Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu
+z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem Centralnym
+     Projekt ustawy nie wymagał zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu
+z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem Centralnym. Projekt
+uzyskał pozytywną opinię Ministra ds. Unii Europejskiej co do zgodności z prawem Unii Europejskiej.
+3. Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem w trybie przepisów
+o działalności lobbingowej w procesie stanowienia prawa, wraz ze wskazaniem kolejności dokonania
+zgłoszeń albo informację o ich braku
+     Stosownie do art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2025 r. poz. 677) projekt ustawy został udostępniony w Biuletynie Informacji Publicznej
+Rządowego Centrum Legislacji.
+     Żaden podmiot nie zgłosił zainteresowania pracami nad projektem ustawy w trybie przepisów
+o działalności lobbingowej w procesie stanowienia prawa.
+
+
+
+
+                                                   4
+                         Tabelaryczne zestawienie przepisów rozporządzenia wykonawczego Komisji (UE) 2023/564
+                                          wymagających wprowadzenia do polskiego porządku prawnego
+
+
+Tytuł wprowadzanego rozporządzenia:                                Tytuł projektu:
+Rozporządzenie wykonawcze Komisji (UE) 2023/564 z dnia Ustawa o zmianie ustawy o środkach ochrony roślin
+10 marca 2023 r. w odniesieniu do treści i formatu
+dokumentacji dotyczącej środków ochrony roślin
+prowadzonej i przechowywanej przez użytkowników
+profesjonalnych na podstawie rozporządzenia Parlamentu
+Europejskiego i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74
+z 13.03.2023, str. 4)
+Jedn.    Treść przepisu UE                                         Konie   Jedn. red.     Treść przepisu/ów projektu
+red.                                                               czne    Projektu
+rozp.                                                              wpro    ustawy
+                                                                   wadz
+                                                                   enie
+                                                                   (T/N)
+art. 1   Użytkownicy profesjonalni środków ochrony roślin          T       art. 1 pkt 4    w art. 76 w ust. 1:
+ust. 1   przekazują w dokumentacji, o której mowa w art. 67 ust.           lit. a         a) po pkt 24 dodaje się pkt 24a w brzmieniu:
+         1 rozporządzenia (WE) nr 1107/2009 („dokumentacja”),                              „24a) będąc użytkownikiem profesjonalnym:
+         informacje określone w załączniku do niniejszego                                            a) wbrew przepisowi art. 1 ust. 1 rozporządzenia 2023/564 w
+         rozporządzenia.                                                                                dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia
+                                                                                                        nr 1107/2009, nie przekazuje informacji określonych w
+                                                                                                        załączniku do rozporządzenia 2023/564 lub
+                                                                                           […]”*
+art. 1   W przypadku gdy lokalizacja obszaru lub obiektu, w        T       art. 1 pkt 2    po art. 47 dodaje się art. 47a w brzmieniu:
+ust. 2   którym zastosowano środek ochrony roślin, nie może                                     „Art. 47a. 1. Główny Inspektor buduje i utrzymuje system
+         zostać zidentyfikowana poprzez jednostkę gruntu objętą                            teleinformatyczny umożliwiający prowadzenie i przechowywanie
+         zakresem geoprzestrzennego wniosku o przyznanie                                   dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia nr
+         pomocy w ramach zintegrowanego systemu zarządzania i                              1107/2009, w formacie określonym w art. 2 rozporządzenia
+         kontroli, o którym mowa w art. 8 ust. 3 lit. b)                                   wykonawczego Komisji (UE) 2023/564 z dnia 10 marca 2023 r. w
+         rozporządzenia wykonawczego (UE) 2022/1173, lub w                                 odniesieniu do treści i formatu dokumentacji dotyczącej środków ochrony
+         przypadku gdy zgodnie z ust. 1 nie jest to wymagane w                             roślin prowadzonej i przechowywanej przez użytkowników
+         przypadku danego rodzaju zastosowania, państwa                                    profesjonalnych na podstawie rozporządzenia Parlamentu Europejskiego
+         członkowskie        zapewniają           użytkownikom                             i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74 z 13.03.2023, str. 4),
+         profesjonalnym odpowiednie alternatywne metody                                  zwanego dalej „rozporządzeniem 2023/564”, w Elektronicznej
+         identyfikacji. Takie metody identyfikacji umożliwiają                           Dokumentacji Stosowanych Środków Ochrony Roślin, udostępnia go
+         identyfikację lokalizacji obszaru, jednostki lub obiektu,                       użytkownikom profesjonalnym i nim administruje.
+         którym zastosowano środek ochrony roślin, oraz, w                               […]”
+         stosownych        przypadkach,       jego      lokalizacji
+         geoprzestrzennej.
+art. 1   Państwa członkowskie udostępniają użytkownikom               T   art. 1 pkt 2   po art. 47 dodaje się art. 47a w brzmieniu:
+ust. 3   profesjonalnym informacje na temat nazw upraw,                                       „Art. 47a. 1. Główny Inspektor buduje i utrzymuje system
+         umiejscowienia lub zastosowania w odniesieniu do                                teleinformatyczny umożliwiający prowadzenie i przechowywanie
+         gruntów odpowiadające kodom EPPO oraz informacje                                dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia nr
+         dotyczące faz wzrostu roślin zgodnie z monografią BBCH                          1107/2009, w formacie określonym w art. 2 rozporządzenia
+         w celu rejestrowania stosowania środków ochrony roślin.                         wykonawczego Komisji (UE) 2023/564 z dnia 10 marca 2023 r. w
+                                                                                         odniesieniu do treści i formatu dokumentacji dotyczącej środków ochrony
+                                                                                         roślin prowadzonej i przechowywanej przez użytkowników
+                                                                                         profesjonalnych na podstawie rozporządzenia Parlamentu Europejskiego
+                                                                                         i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74 z 13.03.2023, str. 4),
+                                                                                         zwanego dalej „rozporządzeniem 2023/564”, w Elektronicznej
+                                                                                         Dokumentacji Stosowanych Środków Ochrony Roślin, udostępnia go
+                                                                                         użytkownikom profesjonalnym i nim administruje.
+                                                                                         […]”
+art. 1   Przepisy niniejszego artykułu pozostają bez uszczerbku       N   -              -
+ust. 4   dla możliwości wymagania przez państwa członkowskie,
+         aby użytkownicy profesjonalni umieszczali w
+         dokumentacji inne informacje nieobjęte zakresem art. 67
+         ust. 1 rozporządzenia (WE) nr 1107/2009.
+art. 2   Użytkownicy profesjonalni środków ochrony roślin             T   art. 1 pkt 1   w art. 35 w ust. 3 po pkt 1 dodaje się pkt 1a w brzmieniu:
+         prowadzą i przechowują dokumentację elektronicznie w                            „1a)     prowadzą i przechowują dokumentację, o której mowa w art. 67
+         formacie nadającym się do odczytu maszynowego                                   ust. 1 rozporządzenia nr 1107/2009, w Elektronicznej Dokumentacji
+         zgodnie z definicją w art. 2 pkt 13 dyrektywy (UE)                              Stosowanych Środków Ochrony Roślin z wykorzystaniem systemu
+         2019/1024.                                                                      teleinformatycznego, o którym mowa w art. 47a ust. 1;”;
+
+                                                                          art. 1 pkt 2   po art. 47 dodaje się art. 47a w brzmieniu:
+                                                                                             „Art. 47a. 1. Główny Inspektor buduje i utrzymuje system
+                                                                                         teleinformatyczny umożliwiający prowadzenie i przechowywanie
+                                                                                         dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia nr
+                                                                                         1107/2009, w formacie określonym w art. 2 rozporządzenia
+                                                                                         wykonawczego Komisji (UE) 2023/564 z dnia 10 marca 2023 r. w
+                                                                                         odniesieniu do treści i formatu dokumentacji dotyczącej środków
+                                                                                         ochrony roślin prowadzonej i przechowywanej przez użytkowników
+profesjonalnych na podstawie rozporządzenia Parlamentu Europejskiego
+i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74 z 13.03.2023, str. 4),
+zwanego dalej „rozporządzeniem 2023/564”, w Elektronicznej
+Dokumentacji Stosowanych Środków Ochrony Roślin, udostępnia go
+użytkownikom profesjonalnym i nim administruje.
+    2. System teleinformatyczny, o którym mowa w ust. 1, umożliwia
+wprowadzanie, przechowywanie, przetwarzanie i agregowanie:
+1) informacji określonych w załączniku do rozporządzenia 2023/564 i
+    informacji dotyczących sposobu realizacji wymagań integrowanej
+    ochrony roślin, o którym mowa w art. 35 ust. 3 pkt 2,
+2) następujących danych osobowych użytkownika profesjonalnego:
+    a) imienia, nazwiska oraz adresu i miejsca zamieszkania, z tym że w
+        przypadku gdy użytkownikiem profesjonalnym jest osoba
+        fizyczna wykonująca działalność gospodarczą, zamiast adresu i
+        miejsca zamieszkania tej osoby – adresu miejsca wykonywania
+        działalności gospodarczej, jeżeli jest inny niż adres i miejsce
+        zamieszkania,
+    b) numeru PESEL, numeru REGON i numeru identyfikacji
+        podatkowej (NIP),
+    c) numeru identyfikacyjnego, o którym mowa w art. 12 ust. 1 ustawy
+        z dnia 18 grudnia 2003 r. o krajowym systemie ewidencji
+        producentów, ewidencji gospodarstw rolnych oraz ewidencji
+        wniosków o przyznanie płatności (Dz. U. z 2023 r. poz. 885 oraz
+        z 2025 r. poz. 368)
+– oraz umożliwia sporządzanie raportów na podstawie tych informacji i
+danych.
+    3. Wprowadzenie przez użytkownika profesjonalnego lub osobę
+uprawnioną do reprezentowania użytkownika profesjonalnego informacji
+i danych, o których mowa w ust. 2, w systemie teleinformatycznym, o
+którym mowa w ust. 1, następuje po uwierzytelnieniu w tym systemie:
+1) w sposób określony w art. 20a ust. 1 ustawy z dnia 17 lutego 2005 r.
+    o informatyzacji działalności podmiotów realizujących zadania
+    publiczne lub
+2) za pomocą loginu i kodu dostępu do systemu teleinformatycznego, o
+    którym mowa w ust. 1.
+    4. Informacje i raporty, o których mowa w ust. 2, mogą być
+udostępniane:
+1) Głównemu Urzędowi Statystycznemu – w zakresie niezbędnym do
+    realizacji zadań z zakresu statystyki publicznej i zadań określonych w
+    rozporządzeniu Parlamentu Europejskiego i Rady (UE) 2022/2379 z
+    dnia 23 listopada 2022 r. w sprawie statystyk dotyczących nakładów
+    i produkcji w rolnictwie, zmiany rozporządzenia Komisji (WE) nr
+    617/2008 oraz uchylenia rozporządzeń Parlamentu Europejskiego i
+    Rady (WE) nr 1165/2008, (WE) nr 543/2009 i (WE) nr 1185/2009
+    oraz dyrektywy Rady 96/16/WE (Dz. Urz. UE L 315 z 07.12.2022,
+    str. 1) za pośrednictwem systemu teleinformatycznego
+    wykorzystywanego przez Główny Urząd Statystyczny,**
+2) urzędowi obsługującemu ministra właściwego do spraw rolnictwa –
+    w zakresie niezbędnym do oceny ryzyka związanego ze stosowaniem
+    środków ochrony roślin, w tym obliczania wartości wskaźników
+    służących do oceny ryzyka związanego ze stosowaniem środków
+    ochrony roślin dla zdrowia ludzi, zwierząt oraz dla środowiska
+    określonych w krajowym planie działania oraz do określania trendów
+    i analizowania zmian wartości tych wskaźników, w tym określania
+    substancji czynnych i upraw mających największy wpływ na wartość
+    tych wskaźników, oraz do prowadzenia prac nad projektami aktów
+    prawnych i dokumentów strategicznych dotyczących stosowania
+    środków ochrony roślin,***
+3) państwowym instytutom badawczym, o których mowa w art. 21 ust.
+    1 ustawy z dnia 30 kwietnia 2010 r. o instytutach badawczych (Dz.
+    U. z 2024 r. poz. 534), wykonującym na rzecz ministra właściwego
+    do spraw rolnictwa zadania w zakresie obliczania wartości
+    wskaźników służących do oceny ryzyka związanego ze stosowaniem
+    środków ochrony roślin dla zdrowia ludzi, zwierząt i dla środowiska
+    określonych w krajowym planie działania oraz do określania
+    trendów i analizowania zmian wartości tych wskaźników,***
+4) stronom trzecim określonym w art. 67 ust. 1 akapicie drugim
+    rozporządzenia nr 1107/2009 w celu ograniczenia ryzyka związanego
+    ze stosowaniem środków ochrony roślin dla zdrowia ludzi, zwierząt
+    lub dla środowiska****
+– z wyłączeniem danych osobowych i w formie uniemożliwiającej
+identyfikację użytkownika profesjonalnego.
+    5. Informacje i dane z systemu teleinformatycznego, o którym mowa
+w ust. 1, mogą być udostępniane Agencji Restrukturyzacji i Modernizacji
+Rolnictwa jako agencji płatniczej, o której mowa w art. 9 ust. 1
+rozporządzenia Parlamentu Europejskiego i Rady (UE) 2021/2116 z dnia
+2 grudnia 2021 r. w sprawie finansowania wspólnej polityki rolnej,
+zarządzania nią i monitorowania jej oraz uchylenia rozporządzenia (UE)
+                                                                                    nr 1306/2013 (Dz. Urz. UE L 435 z 06.12.2021, str. 187, z późn. zm. 1)) –
+                                                                                    w zakresie niezbędnym do przeprowadzania kontroli administracyjnych
+                                                                                    i kontroli na miejscu.*****
+                                                                                        6. Dane, o których mowa w ust. 5, mogą obejmować dane osobowe
+                                                                                    użytkownika profesjonalnego określone w ust. 2 pkt 2.
+                                                                                        7.    Dane     gromadzone    w     systemie    teleinformatycznym
+                                                                                    administrowanym przez Agencję Restrukturyzacji i Modernizacji
+                                                                                    Rolnictwa mogą być przekazywane do systemu teleinformatycznego, o
+                                                                                    którym mowa w ust. 1, w zakresie określonym w załączniku do
+                                                                                    rozporządzenia 2023/564.
+                                                                                        8. Dane, o których mowa w ust. 7, mogą także obejmować dane
+                                                                                    osobowe użytkownika profesjonalnego określone w ust. 2 pkt 2.
+                                                                                        9. Szczegółowy zakres przekazywanych informacji i danych, o
+                                                                                    których mowa odpowiednio w ust. 5 i 7, oraz sposób i terminy ich
+                                                                                    przekazywania zostaną określone w porozumieniu zawartym między
+                                                                                    Głównym Inspektorem a Agencją Restrukturyzacji i Modernizacji
+                                                                                    Rolnictwa.
+                                                                                        10. Minister właściwy do spraw rolnictwa określi, w drodze
+                                                                                    rozporządzenia, państwowe instytuty badawcze wykonujące na rzecz
+                                                                                    ministra właściwego do spraw rolnictwa zadania w zakresie obliczania
+                                                                                    wartości wskaźników służących do oceny ryzyka związanego ze
+                                                                                    stosowaniem środków ochrony roślin dla zdrowia ludzi, zwierząt oraz dla
+                                                                                    środowiska określonych w krajowym planie działania oraz do określania
+                                                                                    trendów i analizowania zmian wartości tych wskaźników, którym mogą
+                                                                                    być udostępniane informacje i raporty, o których mowa w ust. 2, mając
+                                                                                    na względzie zapewnienie właściwego wykonywania przez te państwowe
+                                                                                    instytuty badawcze tych zadań.”;
+
+                                                                                   w art. 76 w ust. 1:
+                                                                                   a)       po pkt 24 dodaje się pkt 24a w brzmieniu:
+                                                                                   „24a) będąc użytkownikiem profesjonalnym:
+                                                                                      […]
+
+
+1)
+       Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 29 z 10.02.2022, str. 45, Dz. Urz. UE L 216 z 19.08.2022, str. 1 oraz Dz.
+Urz. UE L 2024/1468 z 24.05.2024.
+                                                                                       b) wbrew przepisowi art. 2 rozporządzenia 2023/564 nie prowadzi
+                                                                        art. 1 pkt 4      lub nie przechowuje dokumentacji, o której mowa w art. 67 ust. 1
+                                                                        lit. a            rozporządzenia nr 1107/2009, w formacie określonym w art. 2
+                                                                                          rozporządzenia 2023/564, lub
+                                                                                       c) będąc do tego obowiązanym, nie prowadzi lub nie przechowuje
+                                                                                          dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia nr
+                                                                                          1107/2009, w Elektronicznej Dokumentacji Stosowanych
+                                                                                          Środków Ochrony Roślin, lub”*
+
+art. 3   Użytkownik profesjonalny bez zbędnej zwłoki rejestruje     N
+         każde zastosowanie środka ochrony roślin.
+         Jeżeli dokumentacja nie została pierwotnie utworzona w
+         wymaganym formacie elektronicznym, przenosi się ją do
+         takiego formatu nie później niż 30 dni od daty
+         zastosowania środka ochrony roślin. W przypadku
+         stosowania środków ochrony roślin na swoim terytorium
+         państwa członkowskie mogą przewidzieć krótsze terminy
+         przenoszenia do określonego formatu elektronicznego.
+         W odniesieniu do stosowania środków ochrony roślin na
+         swoim terytorium przed dniem 1 stycznia 2030 r. państwa
+         członkowskie mogą zezwolić na dłuższe terminy niż
+         określone w akapicie drugim, dla przenoszenia
+         dokumentacji do określonego formatu elektronicznego,
+         pod warunkiem że cała dokumentacja będzie dostępna w
+         określonym formacie elektronicznym przed dniem 31
+         stycznia roku następującego po roku stosowania środka
+         ochrony roślin.
+art. 4   Na wniosek właściwego organu na podstawie art. 67 ust.     N
+         1 rozporządzenia (WE) nr 1107/2009 o przekazanie
+         informacji zawartych w dokumentacji użytkownik
+         profesjonalny przekazuje te informacje bez zbędnej
+         zwłoki.
+         Jeżeli właściwy organ wyraźnie zażąda informacji
+         zawartych w dokumentacji utworzonej dla zastosowań
+         środków ochrony roślin w określonym formacie
+         elektronicznym, jak określono w art. 2, przed upływem
+         odpowiedniego terminu określonego w art. 3 akapit drugi
+         i trzeci, użytkownik profesjonalny przekazuje informacje
+         w określonym formacie elektronicznym przed upływem
+                 tego terminu lub w ciągu 10 dni roboczych, w zależności
+                 od tego, co nastąpi wcześniej.
+                 Użytkownicy profesjonalni, którzy działają na podstawie
+                 ustaleń umownych na rzecz innej osoby fizycznej lub
+                 prawnej, zapewniają tej osobie zawierającej umowę
+                 dostęp do dokumentacji lub jej kopię bez zbędnej zwłoki
+                 lub ograniczeń.
+    art. 5       Niniejsze rozporządzenie wchodzi w życie dwudziestego     T   Art. 3        Art. 3. Ustawa wchodzi w życie z dniem 1 stycznia 2026 r.
+                 dnia po jego opublikowaniu w Dzienniku Urzędowym
+                 Unii Europejskiej.
+                 Niniejsze rozporządzenie stosuje się od dnia 1 stycznia
+                 2026 r.
+
+
+
+
+*            W związku z art. 72 akapit pierwszy rozporządzenia Parlamentu Europejskiego i Rady (WE) NR 1107/2009 z dnia 21 października 2009 r. dotyczącego
+             wprowadzania do obrotu środków ochrony roślin i uchylającego dyrektywy Rady 79/117/EWG i 91/414/EWG, który stanowi, że:
+             „Państwa członkowskie ustanawiają przepisy dotyczące sankcji mających zastosowanie do naruszeń niniejszego rozporządzenia i podejmują środki
+             niezbędne do zapewnienia ich wprowadzenia w życie. Przewidziane sankcje są skuteczne, proporcjonalne i odstraszające.”.
+**           W związku z art. 8 ust. 2 lit. b rozporządzenia Parlamentu Europejskiego i Rady (UE) 2022/2379 z dnia 23 listopada 2022 r. w sprawie statystyk
+             dotyczących nakładów i produkcji w rolnictwie, zmiany rozporządzenia Komisji (WE) nr 617/2008 oraz uchylenia rozporządzeń Parlamentu
+             Europejskiego i Rady (WE) nr 1165/2008, (WE) nr 543/2009 i (WE) nr 1185/2009 oraz dyrektywy Rady 96/16/WE, który stanowi, że:
+             „W odniesieniu do ust. 1 lit. b) niniejszego artykułu państwa członkowskie mogą wykorzystywać wszelkie dane z następujących źródeł:
+             […]
+             b) prowadzonej w formie elektronicznej dokumentacji, o której mowa w art. 67 rozporządzenia (WE) nr 1107/2009; lub”.
+***          W związku z art. 15 ust. 1 dyrektywy Parlamentu Europejskiego i Rady 2009/128/WE z dnia 21 października 2009 r. ustanawiającej ramy
+             wspólnotowego działania na rzecz zrównoważonego stosowania pestycydów, który stanowi, że:
+             „Ustala się zharmonizowane wskaźniki ryzyka, o których mowa w załączniku IV. Państwa członkowskie mogą jednak nadal stosować, oprócz
+             wskaźników zharmonizowanych, istniejące wskaźniki krajowe lub przyjąć inne odpowiednie wskaźniki”.
+**** W związku z art. 67 ust. 1 akapit pierwszy i drugi rozporządzenia Parlamentu Europejskiego i Rady (WE) NR 1107/2009 z dnia 21 października 2009 r.
+     dotyczącego wprowadzania do obrotu środków ochrony roślin i uchylającego dyrektywy Rady 79/117/EWG i 91/414/EWG, który stanowi, że:
+      „1. Producenci, dostawcy, dystrybutorzy, importerzy oraz eksporterzy środków ochrony roślin prowadzą i przechowują przez co najmniej pięć lat
+      dokumentację dotyczącą produkowanych, wwożonych, wywożonych, przechowywanych, stosowanych i wprowadzanych przez nich do obrotu środków
+      ochrony roślin. Profesjonalni użytkownicy środków ochrony roślin prowadzą i przechowują przez co najmniej trzy lata dokumentację dotyczącą
+      stosowanych przez nich środków ochrony roślin, zawierającą nazwę środka ochrony roślin, czas zastosowania i zastosowaną dawkę, obszar i uprawy,
+      na których zastosowano środek ochrony roślin.
+      Na żądanie właściwego organu udostępniają oni odpowiednie informacje zawarte w tej dokumentacji. Strony trzecie, takie jak branża wody pitnej,
+      sprzedawcy detaliczni lub mieszkańcy, mogą zażądać dostępu do tych informacji, zwracając się do właściwego organu.”
+***** W związku z art. 57 ust. 2 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2021/2116 z dnia 2 grudnia 2021 r. w sprawie finansowania wspólnej
+      polityki rolnej, zarządzania nią i monitorowania jej oraz uchylenia rozporządzenia (UE) nr 1306/2013, który stanowi, że:
+      „Państwa członkowskie ustanawiają skuteczne systemy zarządzania i kontroli w celu zapewnienia zgodności z prawodawstwem Unii regulującym
+      interwencje unijne.
+      Państwa członkowskie podejmują działania niezbędne do zapewnienia prawidłowego funkcjonowania swoich systemów zarządzania i kontroli oraz
+      legalności i prawidłowości wydatków zadeklarowanych Komisji.”.
+                                                                                                    Projekt
+                                     ROZPORZĄDZENIE
+
+                M I N I S T R A R O L N I C T W A I R O Z W O J U W S I 1)
+
+                                                   z dnia
+
+      w sprawie państwowych instytutów badawczych, którym mogą być udostępniane
+          informacje z systemu teleinformatycznego umożliwiającego prowadzenie i
+ przechowywanie dokumentacji w Elektronicznej Dokumentacji Stosowanych Środków
+                                             Ochrony Roślin
+
+
+
+
+       Na podstawie art. 47a ust. 10 ustawy z dnia 8 marca 2013 r. o środkach ochrony roślin
+(Dz. U. z 2024 r. poz. 630 oraz …) zarządza się, co następuje:
+
+       § 1. Państwowym instytutem badawczym wykonującym na rzecz ministra właściwego do
+spraw rolnictwa zadania w zakresie obliczania wartości wskaźników służących do oceny
+ryzyka związanego ze stosowaniem środków ochrony roślin dla zdrowia ludzi, zwierząt oraz
+dla środowiska określonych w krajowym planie działania na rzecz ograniczenia ryzyka
+związanego ze stosowaniem środków ochrony roślin oraz do określania trendów i analizowania
+zmian wartości tych wskaźników, któremu mogą być udostępniane informacje i raporty, o
+których mowa w art. 47a ust. 2 ustawy z dnia 8 marca 2013 r. o środkach ochrony roślin jest:
+1)     Instytut Ochrony Roślin – Państwowy Instytut Badawczy z siedzibą w Poznaniu;
+2)     Instytut Ogrodnictwa – Państwowy Instytut Badawczy z siedzibą w Skierniewicach.
+
+       § 2. Rozporządzenie wchodzi w życie z dniem 1 stycznia 2026 r.
+                                                                   MINISTER ROLNICTWA
+
+                                                                        I ROZWOJU WSI
+
+
+
+
+1)
+     Minister Rolnictwa i Rozwoju Wsi kieruje działem administracji rządowej – rolnictwo, na podstawie
+     § 1 ust. 2 pkt 1 rozporządzenia Prezesa Rady Ministrów z dnia 18 grudnia 2023 r. w sprawie szczegółowego
+     zakresu działania Ministra Rolnictwa i Rozwoju Wsi (Dz. U. poz. 2706).
+                                            –2–
+
+
+                                     UZASADNIENIE
+
+
+
+     Projektowane rozporządzenie jest wydawane na podstawie art. 47a ust. 10 ustawy z dnia
+8 marca 2013 r. o środkach ochrony roślin (Dz. U. z 2024 r. poz. 630, z późn. zm.).
+
+     Projektowane rozporządzenie ma na celu umożliwienie dostępu państwowym instytutom
+badawczym wykonującym zadania, w tym analizy, na potrzeby ministra właściwego do spraw
+rolnictwa do danych gromadzonych w systemie teleinformatycznym udostępnionym przez
+Głównego Inspektora Ochrony Roślin i Nasiennictwa, umożliwiającym prowadzenie i
+przechowywanie dokumentacji dotyczącej środków ochrony roślin stosowanych przez
+użytkowników profesjonalnych tych środków.
+
+     Zgodnie z rozporządzeniem wykonawczym Komisji (UE) 2023/564 z dnia 10 marca
+2023 r. w odniesieniu do treści i formatu dokumentacji dotyczącej środków ochrony roślin
+prowadzonej i przechowywanej przez użytkowników profesjonalnych na podstawie
+rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74
+z 13.03.2023, str. 4), zwanym dalej „rozporządzeniem 2023/564”, użytkownicy profesjonalni
+mają obowiązek prowadzenia ewidencji zabiegów ochrony roślin w formie elektronicznej, w
+formacie nadającym się do odczytu maszynowego. Obowiązek ten wchodzi w życie z dniem 1
+stycznia 2026 r. i dotyczy wszystkich państw członkowskich.
+
+     Profesjonalni użytkownicy środków ochrony roślin już obecnie mają obowiązek
+prowadzenia ewidencji wykonywanych zabiegów z zastosowaniem tych środków.
+Rozporządzenie 2023/564 określa jednak nowy format i szczegółowy zakres prowadzonej
+dokumentacji, wprowadzając dodatkowe elementy, takie jak podanie oprócz nazwy środka
+ochrony roślin również numeru zezwolenia dla danego preparatu, określenie położenia działki
+gruntu, na której został zastosowany środek ochrony roślin zgodnie z systemem identyfikacji
+na potrzeby płatności obszarowych lub, jeżeli to niemożliwe, określenie jej lokalizacji
+geoprzestrzennej za pomocą innych metod, określenie fazy wzrostu rośliny uprawnej, w której
+został zastosowany środek ochrony roślin, zgodnie z monografią BBCH, podanie nazwy
+uprawy zgodnie z kodami EPPO.
+
+     Powoduje to, że dla ułatwienia prowadzenia rolnikom i innym profesjonalnym
+użytkownikom środków ochrony roślin (stosującym środki ochrony roślin w lasach, na
+terenach kolejowych, przemysłowych, w zieleni miejskiej) elektronicznej ewidencji zabiegów
+                                           –3–
+
+
+należy stworzyć narzędzie informatyczne, dysponujące bazą środków ochrony roślin,
+umożliwiające łatwe zdefiniowanie lokalizacji działki lub obszaru zabiegu, mające
+zdefiniowane i opisane m.in. środki ochrony roślin, fazy BBCH oraz uprawy.
+
+     Jednocześnie art. 47 ust. 1 ww. ustawy wskazuje ministra właściwego do spraw rolnictwa
+jako właściwego do opracowania krajowego planu działania na rzecz ograniczenia ryzyka
+związanego ze stosowaniem środków ochrony roślin. Krajowy plan działania powinien
+określać wskaźniki służące do oceny ryzyka związanego ze stosowaniem środków ochrony
+roślin dla zdrowia ludzi, zwierząt oraz dla środowiska, w tym dotyczące zużycia środków
+ochrony roślin, i sposób udostępniania wyników oceny tego ryzyka opinii publicznej.
+
+     Ponieważ realizacja powyższych zobowiązań może wymagać analizy danych
+dotyczących stosowania środków ochrony roślin, należy przewidzieć możliwość dostępu
+ministra właściwego do spraw rolnictwa do danych gromadzonych w systemie
+teleinformatycznym    udostępnionym     przez   Głównego     Inspektora   Ochrony     Roślin
+i Nasiennictwa. Dostęp do danych powinny mieć także jednostki naukowo badawcze
+wykonujące analizy na potrzeby ministra właściwego do spraw rolnictwa. Dostęp do danych
+powinien być jednak ograniczony do danych zagregowanych, uniemożliwiających
+identyfikacje podmiotów stosujących środki ochrony roślin.
+
+     Instytut Ochrony Roślin – Państwowy Instytut Badawczy w Poznaniu realizuje m.in.
+zadania z zakresu biologii, ekologii i szkodliwości agrofagów oraz metod ich zwalczania,
+opracowywania progów szkodliwości ważnych gospodarczo agrofagów oraz strategii
+przeciwdziałania uodparnianiu agrofagów na środki ochrony roślin, opracowywania strategii
+ochrony upraw, analizy wpływu programów ochrony roślin na środowisko, bioróżnorodność
+oraz wydajność produkcji rolniczej.
+
+     W ramach tych zadań ww. Instytut, w ramach środków dotacji celowej, realizuje zadania
+na rzecz statystyki zużycia środków ochrony roślin oraz obliczania wskaźników ryzyka
+związanego ze stosowaniem środków ochrony roślin. Aby umożliwić dalsze wykonywanie
+tych zdań w projektowanym rozporządzeniu zapewnia się dostęp temu Instytutowi do zasobów
+systemu teleinformatycznego administrowanego i udostępnianego przez Głównego Inspektora
+Ochrony Roślin i Nasiennictwa, gromadzącego dane dotyczące stosowania środków ochrony
+roślin.
+
+     Proponuje się także, aby dostęp do tych zasobów uzyskał Instytut Ogrodnictwa –
+Państwowy Instytut Badawczy w Skierniewicach. Instytut ten realizuje badania naukowe
+                                            –4–
+
+
+i prace rozwojowe w obszarze sadownictwa, warzywnictwa, roślin ozdobnych i pszczelnictwa,
+obejmujące również badania i prace w zakresie ochrony roślin. Potencjał naukowy Instytutu
+stanowić będzie zatem uzupełnienie dla Instytutu Ochrony Roślin – Państwowego Instytutu
+Badawczego.
+
+     Proponuje się, aby projektowane rozporządzenie weszło w życie z dniem 1 stycznia 2026
+r., to jest zgodnie z datą wejścia w życie rozporządzenia 2023/564.
+
+     Projektowane rozporządzenie jest zgodne z prawem Unii Europejskiej.
+
+     Projektowane rozporządzenie nie zawiera przepisów technicznych i w związku z tym jego
+projekt nie podlega notyfikacji w rozumieniu przepisów rozporządzenia Rady Ministrów z dnia
+23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego systemu notyfikacji norm
+i aktów prawnych.
+
+     Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. z 2025 r. poz. 677), projekt niniejszego rozporządzenia zostanie
+zamieszczony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego
+Centrum Legislacji, w serwisie Rządowy Proces Legislacyjny.
+
+     Projekt rozporządzenia zostanie ujęty w wykazie prac legislacyjnych Ministra Rolnictwa
+i Rozwoju Wsi.
+                                                   –5–
+
+
+Nazwa projektu                                                     Data sporządzenia
+Rozporządzenie Ministra Rolnictwa i Rozwoju Wsi w sprawie          28.05.2025
+państwowych instytutów badawczych, którym mogą być
+udostępniane informacje z systemu teleinformatycznego              Źródło – art. 47a ust. 10 ustawy z dnia
+umożliwiającego prowadzenie i przechowywanie dokumentacji w        8 marca 2013 r. o środkach ochrony
+Elektronicznej Dokumentacji Stosowanych Środków Ochrony            roślin
+Roślin
+Ministerstwo wiodące i ministerstwa współpracujące                 Nr w Wykazie prac legislacyjnych
+Ministerstwo Rolnictwa i Rozwoju Wsi                               Ministra Rolnictwa i Rozwoju Wsi –
+Osoba odpowiedzialna za projekt w randze Ministra,                 …
+Sekretarza Stanu lub Podsekretarza Stanu
+Czesław Siekierski, Minister Rolnictwa i Rozwoju Wsi
+Kontakt do opiekuna merytorycznego projektu
+Krzysztof Kielak, Departament Hodowli i Ochrony Roślin
+tel.: 22 623 10 17, e-mail Krzysztof.kielak@minrol.gov.pl
+                                   OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+
+Projektowane rozporządzenie rozwiązuje problem braku podstawy prawnej zapewniającej dostęp do danych
+dotyczących stosowania środków ochrony roślin, gromadzonych w systemie teleinformatycznym
+udostępnionym przez Głównego Inspektora Ochrony Roślin i Nasiennictwa, dla państwowych instytutów
+badawczych wykonujących na rzecz ministra właściwego do spraw rolnictwa zadania w zakresie obliczania
+wartości wskaźników służących do oceny ryzyka związanego ze stosowaniem środków ochrony roślin dla
+zdrowia ludzi, zwierząt oraz dla środowiska, określonych w krajowym planie działania na rzecz ograniczenia
+ryzyka związanego ze stosowaniem środków ochrony roślin, oraz określania trendów i analizowania zmian
+wartości tych wskaźników.
+
+Brak takiej podstawy prawnej może skutkować brakiem wywiązania się ministra właściwego do spraw
+rolnictwa ze zobowiązań wynikających z art. 4 i art. 15 dyrektywy Parlamentu Europejskiego i Rady
+2009/128/WE z dnia 21 października 2009 r. ustanawiającej ramy wspólnotowego działania na rzecz
+zrównoważonego stosowania pestycydów.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+
+Rekomendowanym rozwiązaniem jest interwencja poprzez zmiany legislacyjne polegające na wskazaniu,
+w drodze rozporządzenia, Instytutu Ochrony Roślin – Państwowego Instytutu Badawczego w Poznaniu oraz
+                                                   –6–
+
+
+Instytutu Ogrodnictwa – Państwowego Instytutu Badawczego w Skierniewicach, jako jednostek mających
+dostęp do danych dotyczących stosowania środków ochrony roślin, gromadzonych w systemie
+teleinformatycznym udostępnionym przez Głównego Inspektora Ochrony Roślin i Nasiennictwa.
+
+Celu tego nie da się osiągnąć za pomocą innych rozwiązań niż legislacyjne.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich
+OECD/UE?
+Proponowane rozwiązanie jest rozwiązaniem krajowym.
+4. Podmioty, na które oddziałuje projekt
+Grupa                             Wielkość               Źródło danych       Oddziaływanie
+Instytut Ochrony Roślin –                                                    Dostęp do danych
+Państwowy Instytut Badawczy                                                  dotyczących stosowania
+Instytut Ogrodnictwa –                                                       środków ochrony roślin,
+Państwowy Instytut Badawczy                                                  gromadzonych w
+                                                                             systemie
+                                                                             teleinformatycznym
+                                                                             udostępnionym przez
+                                                                             Głównego Inspektora
+                                                                             Ochrony Roślin i
+                                                                             Nasiennictwa
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+
+     W ramach konsultacji publicznych i opiniowania projekt rozporządzenia zostanie skierowany do
+organizacji społeczno-zawodowych i instytucji działających w obszarze regulowanym niniejszym
+rozporządzeniem:
+Business Centre Club
+Centrum Doradztwa Rolniczego
+Federacja Branżowych Związków Producentów Rolnych
+Federacja Konsumentów
+Federacja Przedsiębiorców Polskich.
+Federacja Związków Pracodawców-Dzierżawców i Właścicieli Rolnych
+Forum Związków Zawodowych
+Konfederacja Lewiatan
+Krajowa Rada Izb Rolniczych
+                                                    –7–
+
+
+Krajowa Rada Spółdzielcza
+Krajowa Sekcja Pracowników Ochrony Roślin przy Zarządzie Głównym Związku
+Zawodowego Pracowników Rolnictwa w RP
+Krajowy Związek Grup Producentów Owoców i Warzyw - Spółdzielnia Osób Prawnych
+Krajowy Związek Rewizyjny Rolniczych Spółdzielni Produkcyjnych
+Niezależny Samorządny Związek Zawodowy Rolników Indywidualnych „Solidarność”
+Ogólnopolskie Porozumienie Związków Zawodowych
+Ogólnopolskie Porozumienie Związków Zawodowych Rolników i Organizacji Rolniczych
+Polska Federacja Ziemniaka
+Polska Izba Nasienna
+Polski Związek Zawodowy Rolników
+Pracodawcy RP
+Sekretariat Rolnictwa Komisji Krajowej NSZZ „Solidarność”
+Stowarzyszenie Naukowo-Techniczne Inżynierów i Techników Rolnictwa
+Stowarzyszenie Polski Ziemniak
+Stowarzyszenie Polskich Producentów Środków Ochrony Roślin
+Związek Przedsiębiorców i Pracodawców
+Związek Rzemiosła Polskiego
+Związek Zawodowy Centrum Narodowe Młodych Rolników
+Związek Zawodowy Rolnictwa „Samoobrona”
+Związek Zawodowy Rolnictwa i Obszarów Wiejskich „REGIONY”
+Związek Zawodowy Rolników „Ojczyzna”
+Związek Zawodowy Rolników Rzeczpospolitej „Solidarni”
+
+     Czas trwania konsultacji będzie uwzględniał przepisy ustawy z dnia 23 maja 1991 r. o związkach
+zawodowych (Dz. U. z 2025 r. poz. 440) i będzie wynosił 30 dni.
+
+     Stosownie do art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa
+(Dz. U. z 2025 r. poz. 677) projekt niniejszego rozporządzenia zostanie zamieszczony w Biuletynie Informacji
+Publicznej na stronie podmiotowej Ministerstwa Rolnictwa i Rozwoju Wsi oraz w Biuletynie Informacji
+Publicznej na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces Legislacyjny.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                  Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                      0    1    2    3    4   5    6   7    8   9    10 Łącznie (0-10)
+                                                         –8–
+
+
+Dochody ogółem                        0      0       0   0     0       0   0       0   0   0    0   0
+budżet państwa                        0      0       0   0     0       0   0       0   0   0    0   0
+JST                                   0      0       0   0     0       0   0       0   0   0    0   0
+pozostałe jednostki (oddzielnie)      0      0       0   0     0       0   0       0   0   0    0   0
+Wydatki ogółem                        0      0       0   0     0       0   0       0   0   0    0   0
+budżet państwa                        0      0       0   0     0       0   0       0   0   0    0   0
+JST                                   0      0       0   0     0       0   0       0   0   0    0   0
+pozostałe jednostki (oddzielnie)      0      0       0   0     0       0   0       0   0   0    0   0
+Saldo ogółem                          0      0       0   0     0       0   0       0   0   0    0   0
+budżet państwa                        0      0       0   0     0       0   0       0   0   0    0   0
+JST                                   0      0       0   0     0       0   0       0   0   0    0   0
+pozostałe jednostki (oddzielnie)      0      0       0   0     0       0   0       0   0   0    0   0
+
+Źródła finansowania
+
+Dodatkowe informacje, Wejście w życie projektowanego rozporządzenia nie spowoduje wzrostu wydatków
+w tym wskazanie           sektora finansów publicznych, w tym budżetu państwa i budżetów jednostek
+źródeł danych i           samorządu terytorialnego.
+przyjętych do obliczeń
+założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców
+oraz na rodzinę, obywateli i gospodarstwa domowe
+Skutki
+Czas w latach od wejścia w życie zmian           0       1         2           3       5       10   Łącznie (0-10)
+W ujęciu pieniężnym       duże
+(w mln zł,                przedsiębiorstwa
+ceny stałe z …… r.)       sektor mikro-,
+                          małych i
+                          średnich
+                          przedsiębiorstw
+                          rodzina,
+                          obywatele oraz
+                          gospodarstwa
+                                                 –9–
+
+
+                         domowe
+                         (dodaj/usuń)
+W ujęciu                 duże               Brak wpływu.
+niepieniężnym            przedsiębiorstwa
+                         sektor mikro-,     Brak wpływu.
+                         małych i
+                         średnich
+                         przedsiębiorstw
+                         rodzina,           Brak wpływu.
+                         obywatele oraz
+                         gospodarstwa
+                         domowe
+Niemierzalne             Brak wpływu.
+Dodatkowe informacje,
+w tym wskazanie
+źródeł danych i
+przyjętych do obliczeń   Brak wpływu.
+
+założeń
+
+
+
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie                tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli         nie
+zgodności).                                                nie dotyczy
+   zmniejszenie liczby dokumentów                          zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                            zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                   wydłużenie czasu na załatwienie sprawy
+   inne: ograniczenie kosztów badań urzędowych             inne:
+
+
+Wprowadzane obciążenia są przystosowane do ich             tak
+elektronizacji.                                            nie
+                                                  – 10 –
+
+
+                                                               nie dotyczy
+
+
+9. Wpływ na rynek pracy
+Niniejsze rozporządzenie nie będzie miało wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+
+
+    środowisko naturalne                     demografia                      informatyzacja
+    sytuacja i rozwój regionalny             mienie państwowe                zdrowie
+    sądy powszechne, administracyjne         inne: rolnictwo
+lub wojskowe
+
+Projektowane rozporządzenie pozwoli na prowadzenie analiz dotyczących wpływu stosowania środków
+ochrony roślin na środowisko naturalne oraz zdrowie ludzi.
+11. Planowane wykonanie przepisów aktu prawnego
+Wykonanie przepisów rozporządzenia nastąpi z dniem jego wejścia w życie.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną
+zastosowane?
+Nie wymaga ewaluacji.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+-
+Adam Szłapka
+
+DPUE.720.855.2024.JF(30)
+Warszawa, 20 czerwca 2025 r.
+Dot. DHR.kor.0210.7.2023 z 18.06.2025 r.
+
+Pani Joanna Knapińska
+Sekretarz Rady Ministrów
+
+
+Opinia
+o zgodności z prawem Unii Europejskiej projektu ustawy o zmianie ustawy o środkach ochrony
+roślin, wyrażona przez ministra właściwego do spraw członkostwa Rzeczypospolitej
+Polskiej w Unii Europejskiej
+
+
+Szanowna Pani Minister,
+
+
+w związku z przedłożonym projektem ustawy pozwalam sobie wyrazić poniższą opinię.
+
+
+Projekt ustawy jest zgodny z prawem Unii Europejskiej.
+
+
+Z wyrazami szacunku
+
+z upoważnienia
+
+Ignacy Niemczycki
+Sekretarz Stanu
+/dokument podpisany elektronicznie/
+
+
+Do wiadomości:
+Pan Czesław Siekierski
+Minister Rolnictwa i Rozwoju Wsi
+
+
+
+
+ Telefon: +48 22 694 7540                     Kancelaria Prezesa Rady Ministrów
+ SMUE@kprm.gov.pl                             Al. Ujazdowskie 1/3
+ www.gov.pl/web/premier                       00-583 Warszawa
+

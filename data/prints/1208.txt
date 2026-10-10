@@ -1,0 +1,988 @@
+                                                                       Druk nr 1208
+                                                              Warszawa, 23 kwietnia 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-36-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+
+  - o zmianie ustawy - Prawo geologiczne
+   i górnicze.
+
+        Projekt ma na celu wykonanie prawa Unii Europejskiej.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Przemysłu.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                     Projekt
+                                                U S T AWA
+
+                                                    z dnia
+
+                         o zmianie ustawy – Prawo geologiczne i górnicze1)
+
+
+       Art. 1. W ustawie z dnia 9 czerwca 2011 r. – Prawo geologiczne i górnicze (Dz. U.
+z 2024 r. poz. 1290) wprowadza się następujące zmiany:
+1)     odnośnik nr 1 do tytułu ustawy otrzymuje brzmienie:
+       „1) Niniejsza ustawa:
+            1) w zakresie swojej regulacji wdraża:
+                 a) dyrektywę Rady 92/91/EWG z dnia 3 listopada 1992 r. dotyczącą
+                     minimalnych        wymagań        mających      na       celu   poprawę     warunków
+                     bezpieczeństwa i ochrony zdrowia pracowników w zakładach górniczych
+                     wydobywających kopaliny otworami wiertniczymi (jedenasta szczegółowa
+                     dyrektywa w rozumieniu art. 16 ust. 1 dyrektywy 89/391/EWG)
+                     (Dz. Urz. WE L 348 z 28.11.1992, str. 9 – Dz. Urz. UE Polskie wydanie
+                     specjalne, rozdz. 5, t. 2, str. 118 oraz Dz. Urz. UE L 165 z 27.06.2007,
+                     str. 21),
+                 b) dyrektywę Rady 92/104/EWG z dnia 3 grudnia 1992 r. w sprawie
+                     minimalnych wymagań w zakresie poprawy bezpieczeństwa i ochrony
+                     zdrowia      pracowników        odkrywkowego         i     podziemnego       przemysłu
+                     wydobywczego (dwunasta dyrektywa szczegółowa w znaczeniu art. 16 ust. 1
+                     dyrektywy 89/391/EWG) (Dz. Urz. WE L 404 z 31.12.1992, str. 10 –
+                     Dz. Urz. UE Polskie wydanie specjalne, rozdz. 5, t. 2, str. 134 oraz
+                     Dz. Urz. UE L 165 z 27.06.2007, str. 21),
+                 c) dyrektywę 94/22/WE Parlamentu Europejskiego i Rady z dnia 30 maja
+                     1994 r. w sprawie warunków udzielania i korzystania z zezwoleń na
+                     poszukiwanie, badanie i produkcję węglowodorów (Dz. Urz. WE L 164
+
+
+
+1)
+     Niniejsza ustawa w zakresie swojej regulacji służy stosowaniu rozporządzenia Parlamentu Europejskiego
+     i Rady (UE) 2024/1787 z dnia 13 czerwca 2024 r. w sprawie redukcji emisji metanu w sektorze energetycznym
+     oraz zmieniającego rozporządzenie (UE) 2019/942 (Dz. Urz. UE L 2024/1787 z 15.07.2024).
+                                    –2–
+
+
+
+       z 30.06.1994, str. 3 – Dz. Urz. UE Polskie wydanie specjalne, rozdz. 6, t. 2,
+       str. 262 oraz Dz. Urz. UE L 328 z 21.12.2018, str. 1),
+   d) dyrektywę Rady 1999/31/WE z dnia 26 kwietnia 1999 r. w sprawie
+       składowania odpadów (Dz. Urz. WE L 182 z 16.07.1999, str. 1 – Dz. Urz. UE
+       Polskie wydanie specjalne, rozdz. 15, t. 4, str. 228, Dz. Urz. UE L 284
+       z 31.10.2003, str. 1 – Dz. Urz. UE Polskie wydanie specjalne, rozdz. 1, t. 4,
+       str. 447, Dz. Urz. UE L 311 z 21.11.2008, str. 1, Dz. Urz. UE L 328
+       z 10.12.2011, str. 49, Dz. Urz. UE L 150 z 14.06.2018, str. 100, Dz. Urz. UE
+       L 245 z 30.07.2020, str. 31 oraz Dz. Urz. UE L 2024/1785 z 15.07.2024),
+   e) decyzję Rady 2003/33/WE z dnia 19 grudnia 2002 r. ustanawiającą kryteria
+       i procedury przyjęcia odpadów na składowiska, na podstawie art. 16
+       i załącznika II do dyrektywy 1999/31/WE (Dz. Urz. WE L 11 z 16.01.2003,
+       str. 27 – Dz. Urz. UE Polskie wydanie specjalne, rozdz. 15, t. 7, str. 314 oraz
+       Dz. Urz. UE L 218 z 23.08.2007, str. 25),
+   f) dyrektywę Parlamentu Europejskiego i Rady 2009/31/WE z dnia 23 kwietnia
+       2009 r. w sprawie geologicznego składowania dwutlenku węgla oraz
+       zmieniającą     dyrektywę      Rady   85/337/EWG,    dyrektywy     Parlamentu
+       Europejskiego     i   Rady      2000/60/WE,     2001/80/WE,      2004/35/WE,
+       2006/12/WE, 2008/1/WE i rozporządzenie (WE) nr 1013/2006 (Dz. Urz. UE
+       L 140 z 05.06.2009, str. 114, Dz. Urz. UE L 26 z 28.01.2012, str. 1,
+       Dz. Urz. UE L 140 z 30.05.2012, str. 74, Dz. Urz. UE L 150 z 14.06.2018,
+       str. 155 oraz Dz. Urz. UE L 328 z 21.12.2018, str. 1),
+   g) dyrektywę Parlamentu Europejskiego i Rady 2013/30/UE z dnia 12 czerwca
+       2013 r. w sprawie bezpieczeństwa działalności związanej ze złożami ropy
+       naftowej i gazu ziemnego na obszarach morskich oraz zmiany dyrektywy
+       2004/35/WE (Dz. Urz. UE L 178 z 28.06.2013, str. 66 oraz Dz. Urz. UE
+       L 328 z 21.12.2018, str. 1);
+2) w zakresie swojej regulacji służy stosowaniu rozporządzenia Parlamentu
+   Europejskiego i Rady (UE) 2024/1787 z dnia 13 czerwca 2024 r. w sprawie
+   redukcji emisji metanu w sektorze energetycznym oraz zmieniającego
+   rozporządzenie (UE) 2019/942 (Dz. Urz. UE L 2024/1787 z 15.07.2024).”;
+                                             –3–
+
+
+
+2)   w art. 165 po ust. 1 dodaje się ust. 1a w brzmieniu:
+          „1a. Prezes Wyższego Urzędu Górniczego jest również właściwym organem
+     odpowiedzialnym za monitorowanie i egzekwowanie stosowania rozporządzenia
+     Parlamentu Europejskiego i Rady (UE) 2024/1787 z dnia 13 czerwca 2024 r. w sprawie
+     redukcji emisji metanu w sektorze energetycznym oraz zmieniającego rozporządzenie
+     (UE) 2019/942 (Dz. Urz. UE L 2024/1787 z 15.07.2024).”.
+
+     Art. 2. Ustawa wchodzi w życie z dniem następującym po dniu ogłoszenia.
+                                      UZASADNIENIE
+
+Z dniem 4 sierpnia 2024 r. weszło w życie rozporządzenie Parlamentu Europejskiego i Rady
+(UE) 2024/1787 z dnia 13 czerwca 2024 r. w sprawie redukcji emisji metanu w sektorze
+energetycznym oraz zmieniające rozporządzenie (UE) 2019/942 (Dz. Urz. UE L 2024/1787
+z 15.07.2024), zwane dalej „rozporządzeniem metanowym”. Zgodnie z założeniami, które
+stanowiły podstawę do opracowania tego aktu prawnego, metan to gaz cieplarniany, który jest
+na drugim miejscu po dwutlenku węgla (CO2), jeśli chodzi o ogólny wkład w zmianę klimatu,
+i jest odpowiedzialny za około jedną trzecią obecnego ocieplenia (motyw pierwszy
+rozporządzenia metanowego). W rozporządzeniu tym są ujęte przepisy dotyczące m.in.
+dokładności pomiarów, kwantyfikacji, monitorowania, raportowania i weryfikacji emisji
+metanu w sektorze energetycznym w Unii Europejskiej, jak również przepisy dotyczące
+redukcji tych emisji, w tym przez prowadzenie badań mających na celu wykrywanie wycieków
+i naprawę, obowiązki dotyczące przeprowadzania napraw oraz ograniczenia dotyczące
+uwalniania do atmosfery i spalania gazu (metanu) w pochodni. W rozporządzeniu są zawarte
+również przepisy dotyczące narzędzi, które mają zapewnić przejrzystość w odniesieniu do
+emisji metanu (art. 1 ust. 1 rozporządzenia metanowego).
+
+Zgodnie z art. 1 ust. 2 rozporządzenia metanowego ma ono zastosowanie do:
+1)   poszukiwania i produkcji ropy naftowej i gazu ziemnego oraz do gromadzenia
+     i przetwarzania gazu ziemnego;
+2)   odwiertów nieczynnych, odwiertów tymczasowo zaczopowanych oraz odwiertów
+     permanentnie zaczopowanych i opuszczonych;
+3)   przesyłu i dystrybucji gazu ziemnego, z wyłączeniem systemów pomiarowych
+     w punktach zużycia końcowego oraz części przyłączy między siecią dystrybucyjną
+     a systemem pomiarowym zlokalizowanych na terenach należących do odbiorców
+     końcowych, a także podziemnego składowania i operacji prowadzonych w instalacjach
+     LNG;
+4)   czynnych podziemnych kopalń węgla i odkrywkowych kopalń węgla, zamkniętych
+     podziemnych kopalń węgla oraz opuszczonych podziemnych kopalń węgla.
+
+Stosownie do art. 1 ust. 3 rozporządzenia metanowego rozporządzenie to ma również
+zastosowanie do emisji metanu występujących poza Unią Europejską – w odniesieniu do ropy
+naftowej, gazu ziemnego i węgla wprowadzanych do obrotu w Unii Europejskiej
+(importowanych z państw trzecich).
+Na podstawie zacytowanych regulacji oraz dalszych przepisów rozporządzenia metanowego
+należy   stwierdzić,   że   poszczególne   przepisy   tego   rozporządzenia   na   terytorium
+Rzeczypospolitej Polskiej oraz w granicach wyłącznej strefy ekonomicznej Rzeczypospolitej
+Polskiej mają zastosowanie do:
+1)   działalności geologicznej polegającej na poszukiwaniu lub rozpoznawaniu złóż
+     węglowodorów na lądzie oraz w granicach obszarów morskich Rzeczypospolitej Polskiej;
+2)   działalności górniczej polegającej na wydobywaniu węglowodorów ze złóż na lądzie oraz
+     w granicach obszarów morskich Rzeczypospolitej Polskiej;
+3)   działalności górniczej polegającej na podziemnym bezzbiornikowym magazynowaniu
+     gazu ziemnego (podziemny magazyn gazu jest zakładem górniczym w rozumieniu art. 6
+     ust. 1 pkt 18 ustawy z dnia 9 czerwca 2011 r. – Prawo geologiczne i górnicze (Dz. U.
+     z 2024 r. poz. 1290), zwanej dalej „p.g.g.”);
+4)   działalności górniczej polegającej na wydobywaniu węgla brunatnego;
+5)   działalności górniczej polegającej na wydobywaniu węgla kamiennego, w tym także
+     koksującego;
+6)   terminalu regazyfikacyjnego skroplonego gazu ziemnego, zlokalizowanego obecnie tylko
+     w Świnoujściu;
+7)   przetwarzania gazu ziemnego;
+8)   przesyłu i dystrybucji gazu ziemnego;
+9)   zlikwidowanych lub opuszczonych po dniu 3 sierpnia 1954 r. podziemnych zakładów
+     górniczych wydobywających węgiel kamienny, w tym również w częściach
+     udostępnianych w celach innych niż określone w p.g.g., w szczególności turystycznych,
+     leczniczych i rekreacyjnych (np. Zabytkowa Kopalnia Węgla Kamiennego Guido
+     w Zabrzu oraz Dawna Kopalnia Nowa Ruda), a także udostępnianych w celu budowy,
+     rozbudowy oraz utrzymywania systemów odwadniania zlikwidowanych zakładów
+     górniczych (Spółka Restrukturyzacji Kopalń S.A. Oddział Centralny Zakład Odwadniania
+     Kopalń);
+10) wszystkich znajdujących się na terytorium Rzeczypospolitej Polskiej i w granicach
+     wyłącznej strefy ekonomicznej Rzeczypospolitej Polskiej odwiertów nieczynnych,
+     odwiertów tymczasowo zaczopowanych oraz odwiertów permanentnie zaczopowanych
+     i opuszczonych, stanowiących pozostałości po otworowych zakładach górniczych
+     wydobywających węglowodory lub zakładach prowadzących poszukiwanie lub
+     rozpoznawanie złóż węglowodorów (na lądzie oraz w granicach obszarów morskich
+     Rzeczypospolitej Polskiej), oraz nieczynnych odwiertów wykonanych w celu
+
+
+
+                                               2
+     poszukiwania lub rozpoznawania złóż innych kopalin (w szczególności węgla
+     kamiennego) lub wydobywania ze złóż innych kopalin (w szczególności siarki);
+11) importu z państw trzecich ropy naftowej, gazu ziemnego i węgla.
+
+Zgodnie z ustawą z dnia 21 marca 1991 r. o obszarach morskich Rzeczypospolitej Polskiej
+i administracji morskiej (Dz. U. z 2024 r. poz. 1125 oraz z 2025 r. poz. 409) obszarami
+morskimi Rzeczypospolitej Polskiej są m.in.:
+1)   morskie wody wewnętrzne (wchodzące w skład terytorium Rzeczypospolitej Polskiej);
+2)   morze terytorialne (wchodzące w skład terytorium Rzeczypospolitej Polskiej);
+3)   wyłączna strefa ekonomiczna (której granice, co do zasady, określają umowy
+     międzynarodowe).
+
+Zgodnie z art. 288 Traktatu o funkcjonowaniu Unii Europejskiej rozporządzenie ma zasięg
+ogólny, wiąże w całości i jest bezpośrednio stosowane we wszystkich państwach
+członkowskich. Tak więc przepisy rozporządzenia metanowego znajdują bezpośrednie
+zastosowanie również w polskim porządku prawnym.
+
+Jednym z kluczowych elementów rozporządzenia metanowego jest pojęcie „właściwego
+organu”. Zgodnie z art. 4 ust. 1 rozporządzenia metanowego każde państwo członkowskie
+wyznacza co najmniej jeden właściwy organ odpowiedzialny za monitorowanie
+i egzekwowanie stosowania tego rozporządzenia, a państwa członkowskie przekazują Komisji
+Europejskiej nazwy i dane kontaktowe swoich właściwych organów do dnia 5 lutego 2025 r.
+
+Zważywszy, że właściwy organ, którego wyznaczenia wymaga art. 4 ust. 1 rozporządzenia
+metanowego, ma być organem wykonującym określone w tym rozporządzeniu zadania
+i wyposażonym w określone kompetencje, takie jak pozyskiwanie informacji od podmiotów
+zobowiązanych, władcze rozstrzyganie określonych spraw, kontrolowanie wykonywania
+obowiązków nałożonych tym rozporządzeniem na podmioty czy nakładanie sankcji za ich
+niewykonanie, wyznaczenie organu właściwego odpowiedzialnego za monitorowanie
+i egzekwowanie stosowania rozporządzenia metanowego oznacza przypisanie temu organowi
+tych zadań i kompetencji.
+
+W polskim systemie prawa zakres zadań i kompetencji organów władzy publicznej może być
+określony wyłącznie w ustawie (zasada wyłączności ustawy), zatem także i wyznaczenie
+organu właściwego przewidziane w art. 4 ust. 1 rozporządzenia metanowego może nastąpić
+wyłącznie w ustawie.
+
+Właściwy organ jest adresatem i zarządzającym szeregiem istotnych informacji dotyczących
+np. zdarzeń związanych z uwalnianiem do atmosfery i zdarzeń związanych ze spalaniem gazu
+
+
+                                               3
+w pochodni spowodowanych sytuacją nadzwyczajną lub awarią lub trwających łącznie co
+najmniej 8 godzin w ciągu 24-godzinnego okresu od wystąpienia pojedynczego zdarzenia
+(art. 16 ust. 1 rozporządzenia metanowego). Z kolei art. 6 rozporządzenia metanowego
+przewiduje rutynowe kontrole operatorów i operatorów kopalni oraz nierutynowe kontrole
+operatorów, przedsiębiorstw, operatorów kopalni i importerów. Obejmują one, w stosownych
+przypadkach, kontrole na miejscu lub kontrole w terenie i dotyczą dokumentacji i rejestrów
+wykazujących zgodność z wymogami rozporządzenia metanowego, dokumentujących
+wykrywanie i wyznaczanie emisji metanu oraz wszelkie działania następcze podjęte przez
+właściwy organ lub w jego imieniu w celu zweryfikowania i wspierania zgodności z wymogami
+tego rozporządzenia. Pierwsza rutynowa kontrola zostanie przeprowadzona do dnia 5 maja
+2026 r., a odstęp między kontrolami nie może przekraczać 3 lat (w przypadku gdy kontrola
+wykaże poważne naruszenie rozporządzenia metanowego, kolejną kontrolę przeprowadza się
+przed upływem 10 miesięcy).
+
+Ponadto, zgodnie z art. 27 ust. 1 rozporządzenia metanowego, do dnia 5 maja 2025 r.,
+a następnie do dnia 31 maja każdego roku, importerzy przekażą właściwym organom państwa
+członkowskiego, w którym mają siedzibę, informacje określone w załączniku IX,
+a w przypadku gdy importerzy nie dostarczą tych informacji, w całości lub w części,
+przedstawiają właściwym organom należyte uzasadnienie wyjaśniające takie nieprzekazanie
+oraz przedstawiają działania podjęte w celu uzyskania tych informacji. W załączniku IX
+wymieniono:
+1)   nazwę i adres eksportera oraz nazwę i adres producenta, o ile nie jest on tożsamy
+     z eksporterem;
+2)   eksportujące państwa i regiony trzecie, w których wytworzono produkty, sklasyfikowane
+     w unijnej klasyfikacji jednostek terytorialnych do celów statystycznych (NUTS) poziomu
+     1 oraz kraje i regiony sklasyfikowane na poziomie 1 (NUTS), przez które transportowano
+     produkty do momentu wprowadzenia ich na rynek Unii;
+3)   w odniesieniu do ropy naftowej i gazu ziemnego – informacje, czy producent lub
+     eksporter, stosownie do przypadku, dokonuje pomiarów i kwantyfikacji na poziomie
+     źródła i zakładu, czy dane te podlegają niezależnej weryfikacji zewnętrznej, czy jego
+     emisje metanu są zgłaszane niezależnie lub w ramach zobowiązań do zgłaszania
+     krajowych wykazów gazów cieplarnianych zgodnie z wymogami UNFCCC oraz czy są
+     one zgodne z wymogami UNFCCC w zakresie sprawozdawczości lub z normami OGMP
+     2.0; kopię najnowszego raportu dotyczącego emisji metanu zawierającego, w miarę
+     dostępności, informacje, o których mowa w art. 12 ust. 4 rozporządzenia metanowego,
+
+
+                                            4
+     jeżeli podano je w takim raporcie; oraz dla każdego rodzaju emisji metanu metodę
+     kwantyfikacji zastosowaną w raporcie (np. poziomy UNFCCC lub OGMP 2.0);
+4)   w odniesieniu do ropy naftowej i gazu ziemnego – informacje, czy producent lub
+     eksporter, stosownie do przypadku, stosuje środki regulacyjne lub dobrowolne w celu
+     kontroli swoich emisji metanu, w tym środki takie jak badania LDAR lub środki kontroli
+     i ograniczania zdarzeń związanych z uwalnianiem do atmosfery i zdarzeń związanych ze
+     spalaniem w pochodni, w tym opis tych środków, w stosownych przypadkach wraz
+     z odpowiednimi raportami z badań LDAR oraz ze zdarzeń związanych z uwalnianiem do
+     atmosfery i zdarzeń związanych ze spalaniem w pochodni w odniesieniu do ostatniego
+     dostępnego roku kalendarzowego;
+5)   w odniesieniu do węgla – informacje, czy producent lub eksporter, stosownie do
+     przypadku, dokonuje pomiarów i kwantyfikacji na poziomie źródła i zakładu górniczego,
+     czy te emisje metanu są liczone i kwantyfikowane zgodnie z załącznikiem VI, czy dane
+     te podlegają niezależnej weryfikacji zewnętrznej, czy jego emisje metanu są zgłaszane
+     niezależnie lub w ramach zobowiązań do zgłaszania krajowych wykazów gazów
+     cieplarnianych zgodnie z wymogami UNFCCC oraz czy są one zgodne z wymogami
+     UNFCCC      w   zakresie   sprawozdawczości     lub   z   europejskimi   lub   innymi
+     międzynarodowymi normami w zakresie monitorowania, raportowania i weryfikacji
+     emisji metanu; kopię najnowszego raportu dotyczącego emisji metanu zawierającego,
+     w miarę dostępności, informacje, o których mowa w art. 20 ust. 6 rozporządzenia
+     metanowego, oraz dla każdego rodzaju emisji metanu metodę kwantyfikacji zastosowaną
+     w raporcie (np. poziomy UNFCCC);
+6)   w odniesieniu do węgla – informację, czy na potrzeby kontroli emisji metanu producent
+     lub eksporter stosuje środki regulacyjne czy dobrowolne, w tym środki służące
+     kontrolowaniu i ograniczaniu zdarzeń związanych z uwalnianiem do atmosfery i zdarzeń
+     związanych ze spalaniem gazu w pochodni, oraz, o ile są dostępne, ilości metanu
+     uwalnianego do atmosfery i spalonego w pochodni obliczone dla każdej kopalni węgla co
+     najmniej w ostatnim roku kalendarzowym oraz istniejące plany ograniczania emisji dla
+     każdej kopalni węgla wraz z opisem tych środków, w tym, o ile są dostępne, raporty ze
+     zdarzeń związanych z uwalnianiem do atmosfery i zdarzeń związanych ze spalaniem gazu
+     w pochodni w ostatnim dostępnym roku kalendarzowym;
+7)   w stosownych przypadkach –, nazwę podmiotu, który przeprowadził niezależną
+     weryfikację zewnętrzną raportów, o których mowa w pkt 3 i 5;
+
+
+
+
+                                            5
+8)   informacje na podstawie art. 28 ust. 1 lub 2 rozporządzenia metanowego, stosownie do
+     przypadku, wskazujące, że ropa naftowa, gaz ziemny lub węgiel podlegają środkom
+     monitorowania, raportowania i weryfikacji na poziomie producenta równoważnym
+     środkom określonym w niniejszym rozporządzeniu w odniesieniu do umów zawartych
+     lub odnowionych w dniu 4 sierpnia 2024 r. lub po tej dacie, oraz informacje na temat
+     starań podjętych w celu zapewnienia, aby ropa naftowa, gaz ziemny lub węgiel
+     dostarczone na podstawie umów zawartych przed dniem 4 sierpnia 2024 r. podlegały
+     środkom monitorowania, raportowania i weryfikacji na poziomie producenta
+     równoważnym środkom określonym w niniejszym rozporządzeniu;
+9)   informacje, czy klauzule wzorcowe, o których mowa w art. 28 ust. 3 rozporządzenia
+     metanowego, są stosowane w umowach na dostawy, ze wskazaniem, o które klauzule
+     chodzi;
+10) informacje na podstawie art. 29 ust. 1 rozporządzenia metanowego na temat
+     intensywności emisji metanu z produkcji ropy naftowej, gazu ziemnego i węgla
+     wprowadzanych do obrotu w Unii na podstawie odpowiednich umów na dostawy.
+
+Z uwagi na zakres regulacji rozporządzenia metanowego, który w znacznej mierze obejmuje
+działalność górniczą i geologiczną, proponuje się wskazanie, że właściwym organem
+odpowiedzialnym za monitorowanie i egzekwowanie stosowania rozporządzenia metanowego
+jest Prezes Wyższego Urzędu Górniczego. W myśl art. 165 ust. 1 p.g.g. Prezes Wyższego
+Urzędu Górniczego jest centralnym organem administracji rządowej, działającym pod
+nadzorem ministra właściwego do spraw gospodarki surowcami energetycznymi, właściwym
+w sprawach nadzoru górniczego. Stosownie do art. 168 ust. 1 pkt 5 p.g.g. organy nadzoru
+górniczego, w tym Prezes Wyższego Urzędu Górniczego, sprawują nadzór i kontrolę nad
+ruchem zakładów górniczych, m.in. w zakresie ochrony środowiska. Zgodnie zaś z art. 170
+ust. 2 p.g.g. organy nadzoru górniczego sprawują nadzór i kontrolę nad wykonywaniem robót
+geologicznych, o których mowa w art. 86 tej ustawy (w tym robót geologicznych służących
+poszukiwaniu i rozpoznawaniu złóż węglowodorów).
+
+Przedstawiony stan prawny sprawia, że zasadne jest przypisanie Prezesowi Wyższego Urzędu
+Górniczego statusu właściwego organu odpowiedzialnego za monitorowanie i egzekwowanie
+stosowania rozporządzenia metanowego. Ze względu na fakt, że nie jest to kompetencja, która
+będzie realizowana wyłącznie względem podmiotów prowadzących działalność nadzorowaną
+i kontrolowaną przez organy nadzoru górniczego, przypisanie to nastąpi nie przez rozszerzenie
+zakresu regulacji art. 166 ust. 1 p.g.g., określającego podstawowe kompetencje Prezesa
+Wyższego Urzędu Górniczego, uzupełniające ogólny zakres właściwości wszystkich organów
+
+
+                                             6
+nadzoru górniczego, określony w art. 168 i art. 170 p.g.g., ale przez dodanie ust. 1a w art. 165
+p.g.g. Projektowany przepis będzie stanowić, że Prezes Wyższego Urzędu Górniczego jest
+również właściwym organem odpowiedzialnym za monitorowanie i egzekwowanie stosowania
+rozporządzenia metanowego. Użycie wyrazu „również” przesądzi, że jest to dodatkowa
+kompetencja Prezesa Wyższego Urzędu Górniczego, której charakter i przedmiot są inne niż
+ogólna kompetencja określona w art. 165 ust. 1 p.g.g. (właściwość w sprawach nadzoru
+górniczego).
+
+Projektowana zmiana p.g.g. zapewni realizację jednego z obowiązków określonych
+w rozporządzeniu metanowym, na którego realizację termin przypadł na dzień 5 lutego 2025 r.,
+przyczyniając się do zapewnienia monitorowania i egzekwowania stosowania rozporządzenia
+metanowego. Oczekiwanym efektem wejścia w życie projektowanej zmiany p.g.g. będzie
+stworzenie możliwości formalnej realizacji na terytorium Rzeczypospolitej Polskiej oraz
+w granicach wyłącznej strefy ekonomicznej Rzeczypospolitej Polskiej, przez jeden z organów
+krajowych, określonych w rozporządzeniu metanowym kompetencji organu odpowiedzialnego
+za monitorowanie i egzekwowanie stosowania tego rozporządzenia.
+
+Do tytułu projektowanej ustawy dodano odnośnik informujący o związku tego aktu
+z rozporządzeniem metanowym. Jednakże wskazanie bezpośrednio w p.g.g. krajowego organu
+odpowiedzialnego za monitorowanie i egzekwowanie stosowania rozporządzenia metanowego
+stwarza (w ramach utrwalonej praktyki legislacyjnej) konieczność uzupełnienia odnośnika nr 1
+do tytułu p.g.g. o podobny element informacyjny. Zmiana ta jest dokonywana w art. 1 pkt 1
+projektu przez nadanie nowego brzmienia całości tego odnośnika, którego pierwsza część
+(zmodyfikowana m.in. w zakresie adresów promulgacyjnych oraz tytułów aktów prawa Unii
+Europejskiej, które w zakresie swojej regulacji są wdrażane przez p.g.g., ze względu na
+potrzebę zapewnienia spójności z brzmieniem tytułów tych aktów prawa Unii Europejskiej,
+ogłoszonych w polskiej wersji językowej) będzie obejmowała dotychczasowe powołanie aktów
+prawa Unii Europejskiej (sześciu dyrektyw oraz jednej decyzji, wdrażanych przez p.g.g.
+w zakresie swojej regulacji), a druga część będzie zawierała informację o związku p.g.g.
+z rozporządzeniem metanowym.
+
+Projekt ustawy:
+1)   jest zgodny z prawem Unii Europejskiej;
+2)   nie podlega procedurze notyfikacji aktów prawnych, określonej w przepisach
+     rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu
+
+
+
+
+                                               7
+     funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039
+     oraz z 2004 r. poz. 597);
+3)   nie będzie wymagać notyfikacji Komisji Europejskiej w trybie ustawy z dnia 30 kwietnia
+     2004 r. o postępowaniu w sprawach dotyczących pomocy publicznej (Dz. U. z 2025 r.
+     poz. 468);
+4)   nie podlega obowiązkowi, o którym mowa w § 39 ust. 1 uchwały nr 190 Rady Ministrów
+     z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r.
+     poz. 806), obejmującemu przedstawienie go instytucjom i organom Unii Europejskiej,
+     w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+     powiadomienia, konsultacji albo uzgodnienia;
+5)   nie zawiera wymogów nakładanych na usługodawców, podlegających notyfikacji,
+     o której mowa w art. 15 ust. 7 i art. 39 ust. 5 dyrektywy 2006/123/WE Parlamentu
+     Europejskiego i Rady z dnia 12 grudnia 2006 r. dotyczącej usług na rynku wewnętrznym
+     (Dz. Urz. UE L 376 z 27.12.2006, str. 36).
+
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2017 r. poz. 248 oraz z 2024 r. poz. 1535) oraz § 52 ust. 1 uchwały nr 190
+Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów, projekt
+został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego
+Centrum Legislacji, w serwisie „Rządowy Proces Legislacyjny”.
+
+Nie dokonano zgłoszenia zainteresowania pracami nad projektem w trybie określonym
+w ustawie z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa.
+
+Ze względu na przewidziany w art. 4 ust. 1 rozporządzenia metanowego obowiązek
+wyznaczenia przez każde państwo członkowskie co najmniej jednego właściwego organu
+odpowiedzialnego za monitorowanie i egzekwowanie stosowania tego rozporządzenia oraz
+obowiązek przekazania przez państwa członkowskie Komisji Europejskiej nazw i danych
+kontaktowych swoich właściwych organów do dnia 5 lutego 2025 r. przyjęto, że projektowana
+ustawa wejdzie w życie z dniem następującym po dniu ogłoszenia, co w tym specyficznym
+przypadku nie stoi na przeszkodzie zasadom demokratycznego państwa prawnego. Konieczne
+jest bowiem zachowanie porządku publicznego i zapewnienie ochrony środowiska w obszarze
+będącym przedmiotem regulacji rozporządzenia metanowego.
+
+
+
+
+                                               8
+Nazwa projektu                                                                Data sporządzenia
+Projekt ustawy o zmianie ustawy – Prawo geologiczne i górnicze                18 kwietnia 2025 r.
+Ministerstwo wiodące i ministerstwa współpracujące                            Źródło
+Ministerstwo Przemysłu                                                        art. 4 ust. 1 rozporządzenia Parlamentu
+                                                                              Europejskiego i Rady (UE) 2024/1787 z dnia
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza
+Stanu lub Podsekretarza Stanu                                                 13 czerwca 2024 r. w sprawie redukcji emisji metanu
+Marzena Czarnecka, Minister Przemysłu                                         w sektorze energetycznym oraz zmieniającego
+                                                                              rozporządzenie (UE) 2019/942
+Kontakt do opiekuna merytorycznego projektu
+Magdalena Jarkulisz, Dyrektor Departamentu Ropy, Gazu                         Nr w Wykazie prac RM
+i Gospodarki Wodorowej w Ministerstwie Przemysłu                              UC86
+(tel.: 32 433 42 05, e-mail: magdalena.jarkulisz@mp.gov.pl)
+                                     OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Z dniem 4 sierpnia 2024 r. weszło w życie rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/1787 z dnia 13 czerwca 2024 r.
+w sprawie redukcji emisji metanu w sektorze energetycznym oraz zmieniające rozporządzenie (UE) 2019/942 (Dz. Urz. UE L 2024/1787
+z 15.07.2024), zwane dalej „rozporządzeniem metanowym”. Zgodnie z założeniami, które stanowiły podstawę do opracowania tego aktu
+prawnego, metan to gaz cieplarniany, który jest na drugim miejscu po dwutlenku węgla (CO2), jeśli chodzi o ogólny wkład w zmianę
+klimatu, i jest odpowiedzialny za około jedną trzecią obecnego ocieplenia (motyw pierwszy rozporządzenia metanowego).
+W rozporządzeniu tym są ujęte przepisy dotyczące m.in. dokładności pomiarów, kwantyfikacji, monitorowania, raportowania i weryfikacji
+emisji metanu w sektorze energetycznym w Unii Europejskiej, jak również przepisy dotyczące redukcji tych emisji, w tym przez
+prowadzenie badań mających na celu wykrywanie wycieków i naprawę, obowiązki dotyczące przeprowadzania napraw oraz ograniczenia
+dotyczące uwalniania do atmosfery i spalania gazu (metanu) w pochodni. W rozporządzeniu są zawarte również przepisy dotyczące
+narzędzi, które mają zapewnić przejrzystość w odniesieniu do emisji metanu (art. 1 ust. 1 rozporządzenia metanowego).
+Poszczególne przepisy rozporządzenia metanowego na terytorium Rzeczypospolitej Polskiej oraz w granicach wyłącznej strefy
+ekonomicznej Rzeczypospolitej Polskiej mają zastosowanie do:
+1) działalności geologicznej polegającej na poszukiwaniu lub rozpoznawaniu złóż węglowodorów na lądzie oraz w granicach obszarów
+    morskich Rzeczypospolitej Polskiej;
+2) działalności górniczej polegającej na wydobywaniu węglowodorów ze złóż na lądzie oraz w granicach obszarów morskich
+    Rzeczypospolitej Polskiej;
+3) działalności górniczej polegającej na podziemnym bezzbiornikowym magazynowaniu gazu ziemnego (podziemny magazyn gazu jest
+    zakładem górniczym w rozumieniu art. 6 ust. 1 pkt 18 ustawy z dnia 9 czerwca 2011 r. – Prawo geologiczne i górnicze (Dz. U. z 2024 r.
+    poz. 1290), zwanej dalej „p.g.g.”);
+4) działalności górniczej polegającej na wydobywaniu węgla brunatnego;
+5) działalności górniczej polegającej na wydobywaniu węgla kamiennego, w tym także koksującego;
+6) terminalu regazyfikacyjnego skroplonego gazu ziemnego, zlokalizowanego obecnie tylko w Świnoujściu;
+7) przetwarzania gazu ziemnego;
+8) przesyłu i dystrybucji gazu ziemnego;
+9) zlikwidowanych lub opuszczonych po dniu 3 sierpnia 1954 r. podziemnych zakładów górniczych wydobywających węgiel kamienny,
+    w tym również w częściach udostępnianych w celach innych niż określone w p.g.g., w szczególności turystycznych, leczniczych
+    i rekreacyjnych (np. Zabytkowa Kopalnia Węgla Kamiennego Guido w Zabrzu oraz Dawna Kopalnia Nowa Ruda), a także
+    udostępnianych w celu budowy, rozbudowy oraz utrzymywania systemów odwadniania zlikwidowanych zakładów górniczych (Spółka
+    Restrukturyzacji Kopalń S.A. Oddział Centralny Zakład Odwadniania Kopalń);
+10) wszystkich znajdujących się na terytorium Rzeczypospolitej Polskiej i w granicach wyłącznej strefy ekonomicznej Rzeczypospolitej
+    Polskiej odwiertów nieczynnych, odwiertów tymczasowo zaczopowanych oraz odwiertów permanentnie zaczopowanych
+    i opuszczonych, stanowiących pozostałości po otworowych zakładach górniczych wydobywających węglowodory lub zakładach
+    prowadzących poszukiwanie lub rozpoznawanie złóż węglowodorów (na lądzie oraz w granicach obszarów morskich Rzeczypospolitej
+    Polskiej), oraz nieczynnych odwiertów wykonanych w celu poszukiwania lub rozpoznawania złóż innych kopalin (w szczególności
+    węgla kamiennego) lub wydobywania ze złóż innych kopalin (w szczególności siarki);
+11) importu z państw trzecich ropy naftowej, gazu ziemnego i węgla.
+Zgodnie z art. 288 Traktatu o funkcjonowaniu Unii Europejskiej rozporządzenie ma zasięg ogólny, wiąże w całości i jest bezpośrednio
+stosowane we wszystkich państwach członkowskich. Tak więc przepisy rozporządzenia metanowego znajdują bezpośrednie zastosowanie
+również w polskim porządku prawnym.
+Jednym z kluczowych elementów rozporządzenia metanowego jest pojęcie „właściwego organu”. Zgodnie z art. 4 ust. 1 rozporządzenia
+metanowego każde państwo członkowskie wyznacza co najmniej jeden właściwy organ odpowiedzialny za monitorowanie i egzekwowanie
+stosowania tego rozporządzenia, a państwa członkowskie przekazują Komisji Europejskiej nazwy i dane kontaktowe swoich właściwych
+organów do dnia 5 lutego 2025 r. Zważywszy, że właściwy organ, którego wyznaczenia wymaga art. 4 ust. 1 rozporządzenia metanowego,
+ma być organem wykonującym określone w tym rozporządzeniu zadania i wyposażonym w określone kompetencje, takie jak pozyskiwanie
+informacji od podmiotów zobowiązanych, władcze rozstrzyganie określonych spraw, kontrolowanie wykonywania obowiązków
+nałożonych tym rozporządzeniem na podmioty czy nakładanie sankcji za ich niewykonanie, wyznaczenie organu właściwego
+odpowiedzialnego za monitorowanie i egzekwowanie stosowania rozporządzenia metanowego oznacza przypisanie temu organowi tych
+zadań i kompetencji.
+W polskim systemie prawa zakres zadań i kompetencji organów władzy publicznej może być określony wyłącznie w ustawie (zasada
+wyłączności ustawy), zatem także i wyznaczenie organu właściwego przewidziane w art. 4 ust. 1 rozporządzenia metanowego może nastąpić
+wyłącznie w ustawie.
+Właściwy organ jest adresatem i zarządzającym szeregiem istotnych informacji dotyczących np. zdarzeń związanych z uwalnianiem do
+atmosfery i zdarzeń związanych ze spalaniem gazu w pochodni spowodowanych sytuacją nadzwyczajną lub awarią lub trwających łącznie
+co najmniej 8 godzin w ciągu 24-godzinnego okresu od wystąpienia pojedynczego zdarzenia (art. 16 ust. 1 rozporządzenia metanowego).
+Z kolei art. 6 rozporządzenia metanowego przewiduje rutynowe kontrole operatorów i operatorów kopalni oraz nierutynowe kontrole
+operatorów, przedsiębiorstw, operatorów kopalni i importerów. Obejmują one, w stosownych przypadkach, kontrole na miejscu lub kontrole
+w terenie i dotyczą dokumentacji i rejestrów wykazujących zgodność z wymogami rozporządzenia metanowego, dokumentujących
+wykrywanie i wyznaczanie emisji metanu oraz wszelkie działania następcze podjęte przez właściwy organ lub w jego imieniu w celu
+zweryfikowania i wspierania zgodności z wymogami tego rozporządzenia. Pierwsza rutynowa kontrola zostanie przeprowadzona do dnia
+5 maja 2026 r., a odstęp między kontrolami nie może przekraczać 3 lat (w przypadku gdy kontrola wykaże poważne naruszenie
+rozporządzenia metanowego, kolejną kontrolę przeprowadza się przed upływem 10 miesięcy).
+Ponadto, zgodnie z art. 27 ust. 1 rozporządzenia metanowego, do dnia 5 maja 2025 r., a następnie do dnia 31 maja każdego roku, importerzy
+przekażą właściwym organom państwa członkowskiego, w którym mają siedzibę, informacje określone w załączniku IX (np. eksportujące
+państwa i regiony trzecie, w których wytworzono produkty, oraz kraje i regiony, przez które transportowano produkty do momentu
+wprowadzenia ich na rynek Unii, a także informacje na podstawie art. 29 ust. 1 rozporządzenia metanowego na temat intensywności emisji
+metanu z produkcji ropy naftowej, gazu ziemnego i węgla wprowadzanych do obrotu w Unii na podstawie odpowiednich umów na
+dostawy), a w przypadku gdy importerzy nie dostarczą tych informacji, w całości lub w części, przedstawiają właściwym organom należyte
+uzasadnienie wyjaśniające takie nieprzekazanie oraz przedstawiają działania podjęte w celu uzyskania tych informacji.
+Skala emisji metanu w Polsce wymaga podjęcia pilnych działań służących zapewnieniu realizacji przez krajowe władze publiczne zadań
+i kompetencji umożliwiających nie tylko bieżące zarządzanie obszarem, ale także podejmowanie działań o kompleksowym charakterze.
+Aktualnie dane dotyczące emisji metanu są częściowo gromadzone przez Wyższy Urząd Górniczy i udostępniane w corocznym
+opracowaniu przygotowywanym na podstawie art. 166 ust. 1 pkt 8 p.g.g. Przepis ten stanowi, że Prezes Wyższego Urzędu Górniczego
+dokonuje kompleksowego sprawdzenia i oceny stanu bezpieczeństwa powszechnego, związanego z ruchem zakładu górniczego, stanu
+bezpieczeństwa pracy w górnictwie, stanu rozpoznania i zwalczania zagrożeń w zakładach górniczych, stanu ratownictwa górniczego oraz
+innych zagadnień związanych z prowadzeniem ruchu zakładów górniczych, a także przedkłada właściwym organom informacje, opinie
+i wnioski w tej dziedzinie. W dostępnej na stronie https://www.wug.gov.pl/bhp/stan_bhp_w_gornictwie#tresc publikacji pt. „Ocena stanu
+bezpieczeństwa pracy, ratownictwa górniczego oraz bezpieczeństwa powszechnego w związku z działalnością górniczo-geologiczną
+w 2023 roku (porównanie od roku 2019)” wskazano, że w przypadku działalności polegającej na wydobywaniu węgla kamiennego:
+1) w 2023 r. z górotworu objętego wpływami eksploatacji wydzieliło się 752,1 mln m3 metanu (metanowość bezwzględna), co oznacza,
+    że średnio w ciągu minuty wydzielało się 1 431,0 m3 tego gazu;
+2) w 2023 r. zanotowano spadek metanowości bezwzględnej w stosunku do 2022 r. o około 26,8 mln m3;
+3) ilość wydzielonego metanu w przeliczeniu na tonę wydobytego węgla (metanowość względna) w 2023 r. wyniosła 15,8 m3/Mg;
+4) średnia efektywność odmetanowania w 2023 r. wyniosła około 37,7 %, co jest wartością niższą o około 1,3 %, w stosunku do uzyskanej
+    w 2022 r.;
+5) średnia efektywność zagospodarowania ujętego metanu w 2023 r. wyniosła 70,9 % (o 3,0 % więcej niż w roku 2022);
+6) ilość metanu wyemitowana w 2023 r. do atmosfery szybami wentylacyjnymi oraz ze stacji odmetanowania (niewykorzystana część)
+    wyniosła łącznie około 551,2 mln m3.
+Aktualnie w Wyższym Urzędzie Górniczym nie są gromadzone dane o emisjach metanu z pozostałych rodzajów górnictwa oraz innych
+gałęzi przemysłu, objętych rozporządzeniem metanowym.
+
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Z uwagi na zakres regulacji rozporządzenia metanowego, który w znacznej mierze obejmuje działalność górniczą i geologiczną, proponuje
+się wskazanie, że właściwym organem odpowiedzialnym za monitorowanie i egzekwowanie stosowania rozporządzenia metanowego jest
+Prezes Wyższego Urzędu Górniczego. W myśl art. 165 ust. 1 p.g.g. Prezes Wyższego Urzędu Górniczego jest centralnym organem
+administracji rządowej, działającym pod nadzorem ministra właściwego do spraw gospodarki surowcami energetycznymi, właściwym w
+sprawach nadzoru górniczego. Stosownie do art. 168 ust. 1 pkt 5 p.g.g. organy nadzoru górniczego, w tym Prezes Wyższego Urzędu
+Górniczego, sprawują nadzór i kontrolę nad ruchem zakładów górniczych, m.in. w zakresie ochrony środowiska. Zgodnie zaś z art. 170 ust.
+2 p.g.g. organy nadzoru górniczego sprawują nadzór i kontrolę nad wykonywaniem robót geologicznych, o których mowa w art. 86 tej
+ustawy (w tym robót geologicznych służących poszukiwaniu i rozpoznawaniu złóż węglowodorów).
+Przedstawiony stan prawny sprawia, że zasadne jest przypisanie Prezesowi Wyższego Urzędu Górniczego statusu właściwego organu
+odpowiedzialnego za monitorowanie i egzekwowanie stosowania rozporządzenia metanowego. Ze względu na fakt, że nie jest to
+kompetencja, która będzie realizowana wyłącznie względem podmiotów prowadzących działalność nadzorowaną i kontrolowaną przez
+organy nadzoru górniczego, przypisanie to nastąpi nie przez rozszerzenie zakresu regulacji art. 166 ust. 1 p.g.g., określającego podstawowe
+kompetencje Prezesa Wyższego Urzędu Górniczego, uzupełniające ogólny zakres właściwości wszystkich organów nadzoru górniczego,
+określony w art. 168 i art. 170 p.g.g., ale przez dodanie ust. 1a w art. 165 p.g.g. Projektowany przepis będzie stanowić, że Prezes Wyższego
+Urzędu Górniczego jest również właściwym organem odpowiedzialnym za monitorowanie i egzekwowanie stosowania rozporządzenia
+metanowego. Użycie wyrazu „również” przesądzi, że jest to dodatkowa kompetencja Prezesa Wyższego Urzędu Górniczego, której
+charakter i przedmiot są inne niż ogólna kompetencja określona w art. 165 ust. 1 p.g.g. (właściwość w sprawach nadzoru górniczego).
+Projektowana zmiana p.g.g. zapewni realizację jednego z obowiązków określonych w rozporządzeniu metanowym, na którego realizację
+termin przypadł na dzień 5 lutego 2025 r., przyczyniając się do zapewnienia monitorowania i egzekwowania stosowania rozporządzenia
+metanowego. Oczekiwanym efektem wejścia w życie projektowanej zmiany p.g.g. będzie stworzenie możliwości formalnej realizacji na
+terytorium Rzeczypospolitej Polskiej oraz w granicach wyłącznej strefy ekonomicznej Rzeczypospolitej Polskiej, przez jeden z organów
+
+                                                                    2
+krajowych, określonych w rozporządzeniu metanowym kompetencji organu odpowiedzialnego za monitorowanie i egzekwowanie
+stosowania tego rozporządzenia.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Przepisy rozporządzenia metanowego znajdują bezpośrednie zastosowanie w państwach członkowskich UE. O kształcie przepisów
+służących wykonaniu rozporządzenia metanowego oraz sposobie realizacji obowiązków faktycznych wynikających z przepisów tego
+rozporządzenia decydują poszczególne państwa członkowskie, kierując się uwarunkowaniami lokalnymi.
+4. Podmioty, na które oddziałuje projekt
+    Grupa                              Wielkość                                   Źródło danych                    Oddziaływanie
+
+Prezes                                     1                              Przepisy powszechnie               Oddziaływanie bezpośrednie:
+Wyższego                                                                  obowiązujące                       przypisanie statusu
+Urzędu                                                                                                       właściwego organu
+Górniczego                                                                                                   odpowiedzialnego
+                                                                                                             za monitorowanie
+                                                                                                             i egzekwowanie stosowania
+                                                                                                             rozporządzenia metanowego.
+Minister                                   1                              Przepisy powszechnie               Oddziaływanie pośrednie
+Przemysłu                                                                 obowiązujące                       (w związku ze sprawowaniem
+                                                                                                             nadzoru nad Prezesem
+                                                                                                             Wyższego Urzędu
+                                                                                                             Górniczego).
+Podmioty         Niektóre podmioty prowadzące działalność regulowaną      Dane Wyższego Urzędu               Oddziaływanie pośrednie
+prowadzące       działem VI p.g.g., w tym podmioty prowadzące ruch:       Górniczego, wynikające ze          (w związku z kompetencjami
+ruch zakładów                                                             statystyki prowadzonej przez ten   realizowanymi wobec
+                 • podziemnych zakładów górniczych: czynnych (19),                                           tych podmiotów przez
+górniczych lub     w likwidacji (4), w budowie (1);                       Urząd, w tym informacji
+                                                                                                             właściwy organ
+zakładów                                                                  pozyskiwanych w ramach
+                 • odkrywkowych zakładów górniczych                       nadzoru i kontroli,
+                                                                                                             odpowiedzialny
+                   wydobywających węgiel brunatny (5);                                                       za monitorowanie
+                                                                          sprawowanych przez organy          i egzekwowanie stosowania
+                 • zakładów prowadzących działalność określoną w art. 2   nadzoru górniczego, ujętych        rozporządzenia metanowego,
+                   ust. 1 p.g.g. w obszarze węgla kamiennego (3);         w szczególności w publikacji       a także obowiązkami
+                 • otworowych zakładów górniczych: wydobywających         pt. „Ocena stanu bezpieczeństwa    realizowanymi przez te
+                                                                          pracy, ratownictwa górniczego      podmioty wobec właściwego
+                   ropę naftową i gaz ziemny (9), wydobywających siarkę                                      organu), w zakresie:
+                   (2), wydobywających metan z pokładów węgla (5),        oraz bezpieczeństwa
+                                                                          powszechnego w związku             1) obowiązków – polegające
+                   prowadzących podziemne bezzbiornikowe
+                                                                          z działalnością górniczo-          na możliwości realizowania
+                   magazynowanie gazu ziemnego (2);                                                          przez Prezesa Wyższego
+                                                                          geologiczną w 2023 roku
+                 • zakładów wykonujących roboty geologiczne,              (porównanie od roku 2019)”:        Urzędu Górniczego zadań
+                   o których mowa w art. 86 p.g.g. (186).                                                    i kompetencji określonych
+                                                                          https://www.wug.gov.pl/bhp/sta     w tym rozporządzeniu;
+                                                                          n_bhp_w_gornictwie#tresc oraz
+                                                                                                             2) korzyści – polegające na
+                                                                          na stronie internetowej:           ustawowym przesądzeniu,
+                                                                          https://www.wug.gov.pl/bhp/nad     że Prezes Wyższego Urzędu
+                                                                          zorowane_zaklady                   Górniczego jest właściwym
+                                                                                                             organem odpowiedzialnym
+                                                                                                             za monitorowanie
+                                                                                                             i egzekwowanie stosowania
+                                                                                                             rozporządzenia metanowego,
+                                                                                                             co przyczyni się do
+                                                                                                             zapewnienia względem tych
+                                                                                                             podmiotów przejrzystości
+                                                                                                             kompetencji organów władzy
+                                                                                                             publicznej i zapewni realizację
+                                                                                                             określonych w tym
+                                                                                                             rozporządzeniu obowiązków
+                                                                                                             tych podmiotów wobec
+                                                                                                             skonkretyzowanego organu.
+
+
+
+
+                                                                 3
+Podmiot                    1                  Przepisy powszechnie              Oddziaływanie pośrednie
+prowadzący                                    obowiązujące oraz strona          (w związku z kompetencjami
+terminal                                      internetowa podmiotu, dotycząca   realizowanymi wobec tego
+regazyfikacyjny                               terminalu (https://www.gaz-       podmiotu przez właściwy
+                                                                                organ odpowiedzialny
+skroplonego                                   system.pl/pl/terminal-lng.html)   za monitorowanie
+gazu ziemnego                                                                   i egzekwowanie stosowania
+                                                                                rozporządzenia metanowego,
+                                                                                a także obowiązkami
+                                                                                realizowanymi przez ten
+                                                                                podmiot wobec właściwego
+                                                                                organu), w zakresie:
+                                                                                1) obowiązków – polegające
+                                                                                na możliwości realizowania
+                                                                                przez Prezesa Wyższego
+                                                                                Urzędu Górniczego zadań
+                                                                                i kompetencji określonych
+                                                                                w tym rozporządzeniu;
+                                                                                2) korzyści – polegające na
+                                                                                ustawowym przesądzeniu,
+                                                                                że Prezes Wyższego Urzędu
+                                                                                Górniczego jest właściwym
+                                                                                organem odpowiedzialnym
+                                                                                za monitorowanie
+                                                                                i egzekwowanie stosowania
+                                                                                rozporządzenia metanowego,
+                                                                                co przyczyni się do
+                                                                                zapewnienia względem tego
+                                                                                podmiotu przejrzystości
+                                                                                kompetencji organów władzy
+                                                                                publicznej i zapewni realizację
+                                                                                określonych w tym
+                                                                                rozporządzeniu obowiązków
+                                                                                tego podmiotu wobec
+                                                                                skonkretyzowanego organu.
+Podmioty                   59                 Wykaz prowadzony przez            Oddziaływanie pośrednie
+prowadzące                                    Prezesa Urzędu Regulacji          (w związku z kompetencjami
+działalność                                   Energetyki (wykaz                 realizowanymi wobec tych
+w zakresie                                    przedsiębiorstw energetycznych    podmiotów przez właściwy
+                                                                                organ odpowiedzialny
+przetwarzania,                                zajmujących się przesyłaniem,     za monitorowanie
+przesyłu                                      dystrybucją, magazynowaniem       i egzekwowanie stosowania
+i dystrybucji                                 paliw gazowych, skraplaniem       rozporządzenia metanowego,
+gazu ziemnego                                 gazu ziemnego lub regazyfikacją   a także obowiązkami
+                                              skroplonego gazu ziemnego,        realizowanymi przez te
+                                              przesyłaniem dwutlenku węgla):    podmioty wobec właściwego
+                                              https://rejestry.ure.gov.pl/      organu), identycznie jak
+                                                                                w przypadku podmiotu
+                                                                                prowadzącego terminal
+                                                                                regazyfikacyjny skroplonego
+                                                                                gazu ziemnego.
+Podmioty          505 (dane szacunkowe)       Rejestr prowadzony przez          Oddziaływanie pośrednie
+prowadzące                                    Prezesa Urzędu Regulacji          (w związku z kompetencjami
+działalność                                   Energetyki (rejestr podmiotów     realizowanymi wobec tych
+w zakresie                                    przywożących):                    podmiotów przez właściwy
+                                                                                organ odpowiedzialny
+importu ropy                                  https://rejestry.ure.gov.pl/      za monitorowanie
+naftowej lub                                                                    i egzekwowanie stosowania
+gazu ziemnego                                                                   rozporządzenia metanowego,
+                                                                                a także obowiązkami
+                                                                                realizowanymi przez te
+                                                                                podmioty wobec właściwego
+                                                                                organu), identycznie jak
+                                                                                w przypadku podmiotu
+                                                                                prowadzącego terminal
+                                                                                regazyfikacyjny skroplonego
+                                                                                gazu ziemnego.
+
+
+
+
+                                          4
+Podmioty                              Kilka tysięcy                       Dane Platformy Usług                Oddziaływanie pośrednie
+prowadzące                                                                Elektronicznych Skarbowo-           (w związku z kompetencjami
+działalność                                                               Celnych (wykaz                      realizowanymi wobec tych
+w zakresie                                                                pośredniczących podmiotów           podmiotów przez właściwy
+                                                                                                              organ odpowiedzialny
+importu węgla                                                             węglowych zarejestrowanych          za monitorowanie
+                                                                          w Centralnym Rejestrze              i egzekwowanie stosowania
+                                                                          Podmiotów Akcyzowych):              rozporządzenia metanowego,
+                                                                          https://puesc.gov.pl/uslugi/wyszu   a także obowiązkami
+                                                                          kaj-podmiot-akcyzowy                realizowanymi przez te
+                                                                                                              podmioty wobec właściwego
+                                                                                                              organu), identycznie jak
+                                                                                                              w przypadku podmiotu
+                                                                                                              prowadzącego terminal
+                                                                                                              regazyfikacyjny skroplonego
+                                                                                                              gazu ziemnego.
+
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt nie był przedmiotem pre-konsultacji.
+W trakcie opracowywania projektu analizowano zagadnienie przeprowadzenia jego konsultacji publicznych, np. z udziałem
+przedstawicieli sektora, wobec którego będzie realizowana nowa kompetencja Prezesa Wyższego Urzędu Górniczego. Analiza
+uwzględniła fakt, że przedmiot projektu ustawy nie ma bezpośredniego wpływu na sektor. Niezależnie od wskazanego w prawie
+krajowym właściwego organu odpowiedzialnego za monitorowanie i egzekwowanie stosowania rozporządzenia metanowego prawny
+model relacji między sektorem a tym organem nie będzie wykazywał istotnych dla sektora różnic. W konsekwencji uznano, że ze
+względu na powstały już obowiązek realizacji przewidzianych w rozporządzeniu metanowym zadań i kompetencji właściwego organu
+odpowiedzialnego za monitorowanie i egzekwowanie stosowania tego rozporządzenia, wymagających stałej aktywności tego organu,
+oraz istotne dla bezpieczeństwa powszechnego i ochrony środowiska obszary życia społeczno-gospodarczego, w których te zadania
+i kompetencje powinny być realizowane, należy odstąpić od przeprowadzania konsultacji publicznych, z uwagi na konieczność
+zachowania bezpieczeństwa powszechnego i porządku publicznego oraz zapewnienia ochrony środowiska. Rozstrzygnięcie
+nakładające obowiązek wyznaczenia organu właściwego, przewidziane w art. 4 ust. 1 rozporządzenia metanowego, wymaga bowiem
+pilnego uwzględnienia w krajowym porządku prawnym w związku z koniecznością zapewnienia optymalnego stanu prawnego oraz
+stabilności systemu prawa.
+Z uwagi na zakres projektu, który nie dotyczy:
+1) zadań związków zawodowych – nie podlega on zaopiniowaniu przez reprezentatywne związki zawodowe;
+2) praw i interesów związków pracodawców – nie podlega on zaopiniowaniu przez reprezentatywne organizacje pracodawców;
+3) spraw związanych z samorządem terytorialnym, o których mowa w ustawie z dnia 6 maja 2005 r. o Komisji Wspólnej Rządu
+    i Samorządu Terytorialnego oraz o przedstawicielach Rzeczypospolitej Polskiej w Komitecie Regionów Unii Europejskiej (Dz. U.
+    z 2024 r. poz. 949) – nie podlega on zaopiniowaniu przez Komisję Wspólną Rządu i Samorządu Terytorialnego;
+4) spraw, o których mowa w art. 1 ustawy z dnia 24 lipca 2015 r. o Radzie Dialogu Społecznego i innych instytucjach dialogu
+    społecznego (Dz. U. z 2018 r. poz. 2232, z późn. zm.) – nie podlega on zaopiniowaniu przez Radę Dialogu Społecznego;
+5) spraw, o których mowa w art. 35 ust. 2 pkt 2 ustawy z dnia 24 kwietnia 2003 r. o działalności pożytku publicznego i o wolontariacie
+    (Dz. U. z 2024 r. poz. 1491, 1761 i 1940) – nie wymaga on zaopiniowania przez Radę Działalności Pożytku Publicznego.
+Projektowana ustawa nie wymaga przedstawienia instytucjom i organom Unii Europejskiej, w tym Europejskiemu Bankowi
+Centralnemu, w celu uzyskania opinii, dokonania powiadomienia, konsultacji albo uzgodnienia projektu.
+Projekt, zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r.
+poz. 248 oraz z 2024 r. poz. 1535) i § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady
+Ministrów (M.P. z 2024 r. poz. 806), został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego
+Centrum Legislacji, w serwisie „Rządowy Proces Legislacyjny”.
+Nie dokonano zgłoszenia zainteresowania pracami nad projektem w trybie określonym w ustawie z dnia 7 lipca 2005 r. o działalności
+lobbingowej w procesie stanowienia prawa.
+
+
+
+
+                                                                 5
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2025 r.)                                  Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                         0      1       2       3           4   5   6       7        8    9        10   Łącznie (0–10)
+Dochody ogółem                           0      0       0       0           0   0   0       0        0    0        0          0
+
+budżet państwa                           0      0       0       0           0   0   0       0        0    0        0          0
+
+JST                                      0      0       0       0           0   0   0       0        0    0        0          0
+
+Wydatki ogółem                           0      0       0       0           0   0   0       0        0    0        0          0
+
+budżet państwa                           0      0       0       0           0   0   0       0        0    0        0          0
+
+JST                                      0      0       0       0           0   0   0       0        0    0        0          0
+
+Saldo ogółem                             0      0       0       0           0   0   0       0        0    0        0          0
+
+budżet państwa                           0      0       0       0           0   0   0       0        0    0        0          0
+
+JST                                      0      0       0       0           0   0   0       0        0    0        0          0
+Źródła finansowania       Nie dotyczy.
+Dodatkowe
+informacje, w tym         Potencjalne koszty związane z nowymi zadaniami Prezesa Wyższego Urzędu Górniczego będą ponoszone jedynie
+wskazanie źródeł          w ramach środków aktualnie przydzielonych części budżetowej 60 – Wyższy Urząd Górniczy w ustawie
+danych i przyjętych       budżetowej na rok 2025 z dnia 9 stycznia 2025 r. (Dz. U. poz. 63).
+do obliczeń założeń
+
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                                    Skutki
+Czas w latach od wejścia w życie zmian              0               1           2     3          5            10        Łącznie (0–10)
+W ujęciu              duże przedsiębiorstwa         –               –           –     –          –            –               –
+pieniężnym
+(w mln zł, ceny       sektor mikro-, małych         –               –           –     –          –            –               –
+                      i średnich
+stałe z 2025 r.)
+                      przedsiębiorstw
+                      rodzina, obywatele oraz       –               –           –     –          –            –               –
+                      gospodarstwa domowe
+W ujęciu              duże przedsiębiorstwa      Nie dotyczy.
+niepieniężnym
+                      sektor mikro-, małych
+                      i średnich                 Nie dotyczy.
+                      przedsiębiorstw
+                      rodzina, obywatele oraz
+                                                 Nie dotyczy.
+                      gospodarstwa domowe
+Niemierzalne                                     Nie dotyczy.
+Dodatkowe informacje,        Przedmiotem projektu jest wyłącznie wyznaczenie organu właściwego odpowiedzialnego za monitorowanie
+w tym wskazanie źródeł       i egzekwowanie stosowania rozporządzenia metanowego. Jak wskazano w pkt 5 OSR, niezależnie od
+danych i przyjętych do       wskazanego w prawie krajowym właściwego organu odpowiedzialnego za monitorowanie i egzekwowanie
+obliczeń założeń             stosowania rozporządzenia metanowego, prawny model relacji między sektorem a tym organem nie będzie
+                             wykazywał istotnych dla sektora różnic. Wpływ na podmioty spoza administracji rządowej ma w tym
+                             przypadku bezpośrednio art. 4 ust. 1 rozporządzenia metanowego, a nie projektowana ustawa, której celem
+                             jest wyłącznie umożliwienie wykonania obowiązku określonego w tym przepisie, uwzględniając fakt,
+                             że w polskim systemie prawa zakres zadań i kompetencji organów władzy publicznej może być określony
+                             wyłącznie w ustawie (zasada wyłączności ustawy), a zatem także i wyznaczenie organu właściwego
+                             przewidziane w art. 4 ust. 1 rozporządzenia metanowego może nastąpić wyłącznie w ustawie.
+
+
+
+
+                                                                        6
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie wymaganymi                tak
+przez UE (szczegóły w odwróconej tabeli zgodności)                    nie
+                                                                      nie dotyczy
+
+   zmniejszenie liczby dokumentów                                     zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                                       zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                              wydłużenie czasu na załatwienie sprawy
+   inne:                                                              inne:
+
+Wprowadzane obciążenia są przystosowane do ich                        tak
+elektronizacji.                                                       nie
+                                                                      nie dotyczy
+
+Komentarz: Projekt nie określa obciążeń regulacyjnych nakładanych na Prezesa Wyższego Urzędu Górniczego oraz nie nakłada obowiązków
+na podmioty spoza administracji rządowej wobec Prezesa Wyższego Urzędu Górniczego. Jednakże skutkiem wejścia w życie projektowanej
+ustawy będzie jednoznaczne wskazanie właściwego organu, względem którego te podmioty będą realizowały obowiązki określone
+bezpośrednio w rozporządzeniu metanowym. Dotyczy to np. obowiązku określonego w art. 27 ust. 1 tego rozporządzenia. Przepis ten stanowi,
+że do dnia 5 maja 2025 r., a następnie do dnia 31 maja każdego roku, importerzy przekażą właściwym organom państwa członkowskiego,
+w którym mają siedzibę, informacje określone w załączniku IX (np. eksportujące państwa i regiony trzecie, w których wytworzono produkty,
+oraz kraje i regiony, przez które transportowano produkty do momentu wprowadzenia ich na rynek Unii, a także informacje na podstawie
+art. 29 ust. 1 rozporządzenia metanowego na temat intensywności emisji metanu z produkcji ropy naftowej, gazu ziemnego i węgla
+wprowadzanych do obrotu w Unii na podstawie odpowiednich umów na dostawy), a w przypadku gdy importerzy nie dostarczą tych
+informacji, w całości lub w części, przedstawiają właściwym organom należyte uzasadnienie wyjaśniające takie nieprzekazanie oraz
+przedstawiają działania podjęte w celu uzyskania tych informacji. Jak już wskazano, drugim skutkiem wejścia w życie ustawy będzie
+przypisanie Prezesowi Wyższego Urzędu Górniczego m.in. roli organu będącego adresatem i zarządzającym szeregiem istotnych informacji
+dotyczących np. zdarzeń związanych z uwalnianiem do atmosfery i zdarzeń związanych ze spalaniem gazu w pochodni spowodowanych
+sytuacją nadzwyczajną lub awarią lub trwających łącznie co najmniej 8 godzin w ciągu 24-godzinnego okresu od wystąpienia pojedynczego
+zdarzenia (art. 16 ust. 1 rozporządzenia metanowego). Inny charakter działań Prezesa Wyższego Urzędu Górniczego będzie wynikał z art. 6
+rozporządzenia metanowego, przewidującego rutynowe kontrole operatorów i operatorów kopalni oraz nierutynowe kontrole operatorów,
+przedsiębiorstw, operatorów kopalni i importerów. Obejmują one, w stosownych przypadkach, kontrole na miejscu lub kontrole w terenie
+i dotyczą dokumentacji i rejestrów wykazujących zgodność z wymogami rozporządzenia metanowego, dokumentujących wykrywanie
+i wyznaczanie emisji metanu oraz wszelkie działania następcze podjęte przez właściwy organ lub w jego imieniu w celu zweryfikowania
+i wspierania zgodności z wymogami tego rozporządzenia. Pierwsza rutynowa kontrola zostanie przeprowadzona do dnia 5 maja 2026 r.,
+a odstęp między kontrolami nie może przekraczać 3 lat (w przypadku gdy kontrola wykaże poważne naruszenie rozporządzenia metanowego,
+kolejną kontrolę przeprowadza się przed upływem 10 miesięcy).
+9. Wpływ na rynek pracy
+Nie dotyczy.
+
+10. Wpływ na pozostałe obszary
+   środowisko naturalne                         demografia                                     informatyzacja
+   sytuacja i rozwój regionalny                 mienie państwowe                               zdrowie
+   sądy powszechne, administracyjne lub         inne:
+wojskowe
+
+                  Ustawowe wyznaczenie właściwego organu odpowiedzialnego za monitorowanie i egzekwowanie stosowania
+Omówienie
+                  rozporządzenia metanowego przyczyni się do osiągnięcia celów tego aktu normatywnego w zakresie zmniejszenia
+wpływu
+                  emisji metanu do środowiska.
+11. Planowane wykonanie przepisów aktu prawnego
+Ze względu na przewidziany w art. 4 ust. 1 rozporządzenia metanowego obowiązek wyznaczenia przez każde państwo członkowskie co
+najmniej jednego właściwego organu odpowiedzialnego za monitorowanie i egzekwowanie stosowania tego rozporządzenia oraz
+obowiązek przekazania przez państwa członkowskie Komisji Europejskiej nazw i danych kontaktowych swoich właściwych organów do
+dnia 5 lutego 2025 r. zakłada się, że projektowana ustawa wejdzie w życie z dniem następującym po dniu ogłoszenia, co w tym
+specyficznym przypadku nie stoi na przeszkodzie zasadom demokratycznego państwa prawnego. Konieczne jest bowiem zachowanie
+bezpieczeństwa powszechnego i porządku publicznego oraz zapewnienie ochrony środowiska w obszarze będącym przedmiotem regulacji
+rozporządzenia metanowego.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Efekty projektu nie wymagają ewaluacji.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Nie dotyczy.
+
+
+                                                                  7
+                                                                                                 Tabela zgodności
+
+Tytuł projektu                                   Projekt ustawy o zmianie ustawy – Prawo geologiczne i górnicze (UC86)
+
+Tytuł aktu prawnego, którego                     Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2024/1787 z dnia 13 czerwca 2024 r. w sprawie redukcji emisji metanu w sektorze energetycznym
+stosowaniu służy projektowany akt                oraz zmieniające rozporządzenie (UE) 2019/942
+
+Wyjaśnienie terminu wejścia                      Rozporządzenie 2024/1787 weszło w życie z dniem 4 sierpnia 2024 r. Zgodnie z art. 4 ust. 1 tego rozporządzenia, każde państwo członkowskie wyznacza
+w życie projektowanego aktu                      co najmniej jeden właściwy organ odpowiedzialny za monitorowanie i egzekwowanie stosowania tego rozporządzenia, a państwa członkowskie
+                                                 przekazują Komisji Europejskiej nazwy i dane kontaktowe swoich właściwych organów do dnia 5 lutego 2025 r. W polskim systemie prawa zakres zadań
+                                                 i kompetencji organów władzy publicznej może być określony wyłącznie w ustawie (zasada wyłączności ustawy), zatem także i wyznaczenie organu
+                                                 właściwego przewidziane w art. 4 ust. 1 rozporządzenia metanowego może nastąpić wyłącznie w ustawie. Ze względu na upływ terminu określonego
+                                                 w powołanym art. 4 ust. 1, konieczne jest przyjęcie, że projektowana ustawa wejdzie w życie z dniem następującym po dniu ogłoszenia.
+   Jednostka                                                 Jednostka
+redakcyjna aktu              Treść przepisu UE              redakcyjna                       Treść przepisu projektu ustawy                                                          Uzasadnienie
+ prawnego UE                                                  projektu
+
+                                                                                                                                                Z uwagi na zakres regulacji rozporządzenia 2024/1787, który w znacznej mierze
+                                                                                                                                                obejmuje działalność górniczą i geologiczną, proponuje się wskazanie, że właściwym
+                                                                                                                                                organem odpowiedzialnym za monitorowanie i egzekwowanie stosowania tego
+                                                                                                                                                rozporządzenia jest Prezes Wyższego Urzędu Górniczego. W myśl art. 165 ust. 1
+                                                                                                                                                ustawy z dnia 9 czerwca 2011 r. – Prawo geologiczne i górnicze (Dz. U. z 2024 r.
+                                                                                                                                                poz. 1290), zwanej dalej „p.g.g.”, Prezes Wyższego Urzędu Górniczego jest centralnym
+                                                                                                                                                organem administracji rządowej, działającym pod nadzorem ministra właściwego do
+                  (Przepis jest złożony z dwóch akapitów)                                                                                       spraw gospodarki surowcami energetycznymi, właściwym w sprawach nadzoru
+                                                                                „Art. 1. W ustawie z dnia 9 czerwca 2011 r. – Prawo
+                                                                                                                                                górniczego. Stosownie do art. 168 ust. 1 pkt 5 p.g.g., organy nadzoru górniczego,
+                  „1. Każde państwo członkowskie                           geologiczne i górnicze (Dz. U. z 2024 r. poz. 1290) wprowadza się
+                                                                                                                                                w tym Prezes Wyższego Urzędu Górniczego, sprawują nadzór i kontrolę nad ruchem
+                  wyznacza co najmniej jeden właściwy                      następujące zmiany:
+                                                                                                                                                zakładów górniczych, m.in. w zakresie ochrony środowiska. Zgodnie zaś z art. 170
+                  organ odpowiedzialny
+                                                                                (…..)                                                           ust. 2 p.g.g., organy nadzoru górniczego sprawują nadzór i kontrolę nad
+                  za monitorowanie i egzekwowanie
+                                                                                                                                                wykonywaniem robót geologicznych, o których mowa w art. 86 p.g.g. (w tym robót
+                  stosowania niniejszego rozporządzenia.                   2)   w art. 165 po ust. 1 dodaje się ust. 1a w brzmieniu:            geologicznych służących poszukiwaniu i rozpoznawaniu złóż węglowodorów).
+ Art. 4 ust. 1    Państwa członkowskie przekazują           Art. 1 pkt 2                                                                        Przedstawiony stan prawny sprawia, że zasadne jest przypisanie Prezesowi Wyższego
+                                                                                      „1a. Prezes Wyższego Urzędu Górniczego jest również
+                  Komisji nazwy i dane kontaktowe                                                                                               Urzędu Górniczego statusu właściwego organu odpowiedzialnego za monitorowanie
+                                                                                właściwym organem odpowiedzialnym za monitorowanie
+                  swoich właściwych organów do dnia                                                                                             i egzekwowanie stosowania rozporządzenia metanowego. Ze względu na fakt, że nie
+                                                                                i egzekwowanie stosowania rozporządzenia Parlamentu
+                  5 lutego 2025 r. Państwa członkowskie                                                                                         jest to kompetencja, która będzie realizowana wyłącznie względem podmiotów
+                                                                                Europejskiego i Rady (UE) 2024/1787 z dnia 13 czerwca 2024 r.
+                  niezwłocznie informują Komisję                                                                                                prowadzących działalność nadzorowaną i kontrolowaną przez organy nadzoru
+                                                                                w sprawie redukcji emisji metanu w sektorze energetycznym
+                  o wszelkich zmianach nazw lub danych                                                                                          górniczego, przypisanie to nastąpi nie przez rozszerzenie zakresu regulacji art. 166
+                                                                                oraz zmieniającego rozporządzenie (UE) 2019/942
+                  kontaktowych swoich właściwych                                                                                                ust. 1 p.g.g., określającego podstawowe kompetencje Prezesa Wyższego Urzędu
+                                                                                (Dz. Urz. UE L 2024/1787 z 15.07.2024).”.
+                  organów.”                                                                                                                     Górniczego, uzupełniające ogólny zakres właściwości wszystkich organów nadzoru
+                                                                                                                                                górniczego, określony w art. 168 i art. 170 p.g.g., ale przez dodanie ust. 1a w art. 165
+                                                                                                                                                p.g.g. Projektowany przepis będzie stanowić, że Prezes Wyższego Urzędu Górniczego
+                                                                                                                                                jest również właściwym organem odpowiedzialnym za monitorowanie
+                                                                                                                                                i egzekwowanie stosowania rozporządzenia metanowego. Użycie wyrazu „również”
+                                                                                                                                                przesądzi, że jest to dodatkowa kompetencja Prezesa Wyższego Urzędu Górniczego,
+                                                                                                                                                której charakter i przedmiot są inne niż ogólna kompetencja określona w art. 165
+                                                                                                                                                ust. 1 p.g.g. (właściwość w sprawach nadzoru górniczego).
+Adam Szłapka
+
+DPUE.720.264.2025.MK(10)
+Warszawa, 22 kwietnia 2025 r.
+dot. RM-0610-36-25 z 18 kwietnia 2025 r.
+
+Pani Joanna Knapińska
+Sekretarz Rady Ministrów
+
+
+Opinia
+o zgodności z prawem Unii Europejskiej projektu ustawy o zmianie ustawy – Prawo
+geologiczne i górnicze, wyrażona przez ministra właściwego do spraw członkostwa
+Rzeczypospolitej Polskiej w Unii Europejskiej
+
+
+
+Szanowna Pani Minister,
+
+w związku z przedłożonym projektem ustawy pozwalam sobie wyrazić poniższą opinię.
+
+Projekt ustawy jest zgodny z prawem Unii Europejskiej.
+
+Z wyrazami szacunku
+
+
+z upoważnienia
+
+Ignacy Niemczycki
+Sekretarz Stanu
+/dokument podpisany elektronicznie/
+
+
+Do wiadomości:
+Pani Marzena Czarnecka
+Minister Przemysłu
+
+
+
+
+ Telefon: +48 22 694 7540                   Kancelaria Prezesa Rady Ministrów
+ SMUE@kprm.gov.pl                           Al. Ujazdowskie 1/3
+ www.gov.pl/web/premier                     00-583 Warszawa
+

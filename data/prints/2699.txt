@@ -1,0 +1,1543 @@
+                                                                       Druk nr 2699
+                                                                Warszawa, 9 czerwca 2026 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-81-26
+
+
+                                                              Pan
+                                                              Włodzimierz Czarzasty
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+ - o zmianie ustawy o nabywaniu nieruchomości
+   przez cudzoziemców oraz ustawy - Prawo
+   o notariacie.
+
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Spraw Wewnętrznych i Administracji.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                      Projekt
+                                      U S T AWA
+
+                                            z dnia
+
+o zmianie ustawy o nabywaniu nieruchomości przez cudzoziemców oraz ustawy – Prawo
+                                      o notariacie
+
+
+    Art. 1. W ustawie   z dnia   24 marca     1920 r.   o nabywaniu   nieruchomości    przez
+cudzoziemców (Dz. U. z 2017 r. poz. 2278) w art. 8a po ust. 1 dodaje się ust. 1a–1d
+w brzmieniu:
+          „1a. Elektroniczne wypisy, kopie lub odpisy dokumentów, o których mowa
+    w ust. 1, notariusz umieszcza w Centralnym Repozytorium Elektronicznych Wypisów
+    Aktów Notarialnych w formacie umożliwiającym elektroniczne przeszukiwanie ich
+    treści.
+          1b. Krajowa Rada Notarialna zapewnia niezwłoczne przesłanie za pośrednictwem
+    systemu teleinformatycznego ministrowi właściwemu do spraw wewnętrznych
+    elektronicznych wypisów, kopii lub odpisów dokumentów umieszczonych przez
+    notariuszy w Centralnym Repozytorium Elektronicznych Wypisów Aktów Notarialnych
+    na podstawie ust. 1a.
+          1c. Za umieszczenie na podstawie ust. 1a elektronicznych wypisów, kopii lub
+    odpisów dokumentów w Centralnym Repozytorium Elektronicznych Wypisów Aktów
+    Notarialnych notariusz pobiera od stron czynności notarialnej opłatę, którą przekazuje
+    Krajowej Radzie Notarialnej.
+          1d. Minister właściwy do spraw wewnętrznych, po zasięgnięciu opinii Krajowej
+    Rady Notarialnej, określi, w drodze rozporządzenia:
+    1)    okres przechowywania elektronicznych wypisów, kopii lub odpisów dokumentów,
+          o których mowa w ust. 1, w Centralnym Repozytorium Elektronicznych Wypisów
+          Aktów Notarialnych,
+    2)    sposób uiszczania i wysokość opłaty za umieszczenie elektronicznych wypisów,
+          kopii lub odpisów dokumentów, o których mowa w ust. 1, w Centralnym
+          Repozytorium Elektronicznych Wypisów Aktów Notarialnych
+    – mając na względzie zapewnienie wykonywania obowiązków przez notariuszy i Krajową
+    Radę Notarialną, jak również wysokość kosztów administracyjnych prowadzenia
+    Centralnego Repozytorium Elektronicznych Wypisów Aktów Notarialnych oraz jego
+    niedochodowy charakter i niezbędny rozwój.”.
+                                         –2–
+     Art. 2. W ustawie z dnia 14 lutego 1991 r. – Prawo o notariacie (Dz. U. z 2026 r.
+poz. 614) w art. 92a wprowadza się następujące zmiany:
+1)   § 1 otrzymuje brzmienie:
+          „§ 1. Krajowa Rada Notarialna prowadzi Centralne Repozytorium Elektronicznych
+     Wypisów     Aktów     Notarialnych,    zwane      dalej    „Repozytorium”,      w systemie
+     teleinformatycznym, w którym przechowuje się elektroniczne wypisy i wyciągi z aktów
+     notarialnych sporządzonych na terytorium Rzeczypospolitej Polskiej oraz inne
+     elektroniczne dokumenty, o których mowa w art. 8a ust. 1a ustawy z dnia 24 marca
+     1920 r. o nabywaniu nieruchomości przez cudzoziemców. Krajowa Rada Notarialna
+     w zakresie i na zasadach określonych w przepisach szczególnych zapewni notariuszom,
+     sądom oraz innym organom państwowym uprawnionym na podstawie tych przepisów
+     dostęp do Repozytorium oraz bezpieczeństwo Repozytorium, w szczególności ochronę
+     danych    zgromadzonych        w Repozytorium     przed    nieuprawnionym       dostępem,
+     przetwarzaniem, zmianą lub utratą.”;
+2)   § 3 otrzymuje brzmienie:
+          „§ 3. Elektroniczne wypisy z aktów notarialnych innych niż określone w § 2 oraz
+     inne elektroniczne dokumenty umieszcza się w Repozytorium, jeżeli wynika to wprost
+     z odrębnych przepisów oraz jeżeli pozwalają na to warunki organizacyjno-techniczne
+     systemu   teleinformatycznego.    Notariusz     opatruje   wypis   lub   inny    dokument
+     kwalifikowanym podpisem elektronicznym.”;
+3)   § 6 i 7 otrzymują brzmienie:
+          „§ 6. Z chwilą umieszczenia elektronicznego wypisu lub wyciągu z aktu
+     notarialnego lub innego elektronicznego dokumentu, o których mowa w § 1,
+     w Repozytorium notariusz otrzymuje za pośrednictwem systemu teleinformatycznego
+     zawiadomienie, które zawiera numer dokumentu w Repozytorium, a także dzień, miesiąc
+     i rok oraz godzinę i minutę jego umieszczenia w Repozytorium. Notariusz dołącza
+     zawiadomienie do oryginału aktu notarialnego lub innego dokumentu. Notariusz wydaje
+     stronie aktu, o którym mowa w § 2, drugi egzemplarz zawiadomienia.
+          § 7. Minister Sprawiedliwości, w porozumieniu z ministrem właściwym do spraw
+     informatyzacji oraz po zasięgnięciu opinii Krajowej Rady Notarialnej, określi, w drodze
+     rozporządzenia:
+     1)   sposób sporządzenia elektronicznego wypisu i wyciągu z aktu notarialnego oraz
+          innego elektronicznego dokumentu, o których mowa w § 1,
+                                           –3–
+     2)   warunki     organizacyjno-techniczne ich     umieszczania    przez    notariuszy
+          w Repozytorium oraz przechowywania,
+     3)   tryb   informowania    Ministra   Sprawiedliwości   i podmiotów   wymienionych
+          w § 1 o ewentualnych przerwach w dostępie do Repozytorium
+     – uwzględniając minimalne wymagania dotyczące rejestrów publicznych i wymiany
+     informacji w postaci elektronicznej oraz bezpieczeństwo danych, w tym ochronę przed
+     nieuprawnionym ujawnieniem i dostępem.”.
+
+     Art. 3. Do dokumentów sporządzonych przed dniem wejścia w życie niniejszej ustawy
+stosuje się przepisy dotychczasowe.
+
+     Art. 4. Dotychczasowe przepisy wykonawcze wydane na podstawie art. 92a § 7 ustawy
+zmienianej w art. 2 tracą moc.
+
+     Art. 5. Ustawa wchodzi w życie po upływie 3 miesięcy od dnia ogłoszenia.
+                                       Uzasadnienie
+
+Projekt ustawy o zmianie ustawy o nabywaniu nieruchomości przez cudzoziemców oraz ustawy
+– Prawo o notariacie ma na celu wprowadzenie elektronicznego trybu przekazywania przez
+notariuszy dokumentów dotyczących dokonanych przez cudzoziemców nabyć nieruchomości
+oraz udziałów i akcji w spółkach będących właścicielami lub użytkownikami wieczystymi
+nieruchomości.
+
+Zgodnie z art. 8a ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez
+cudzoziemców (Dz. U. z 2017 r. poz. 2278) notariusze są zobowiązani do przesłania ministrowi
+właściwemu do spraw wewnętrznych w terminie 7 dni od dnia sporządzenia następujących
+dokumentów:
+
+1) wypisu aktu notarialnego oraz kopi umowy z podpisami notarialnie poświadczonymi, na
+mocy których cudzoziemiec nabył nieruchomość położoną na terytorium Rzeczypospolitej
+Polskiej lub nabył lub objął udziały, akcje lub ogół praw i obowiązków w spółce handlowej
+będącej właścicielem lub wieczystym użytkownikiem nieruchomości położonych na terytorium
+Rzeczypospolitej Polskiej;
+
+2) wypisu aktu poświadczenia dziedziczenia wraz z wypisem protokołu dziedziczenia, jeżeli w
+akcie poświadczenia dziedziczenia stwierdzono dziedziczenie przez cudzoziemca, zaś w
+poprzedzającym go protokole dziedziczenia stawający złożyli oświadczenie o tym, że w skład
+spadku wchodzą własność lub wieczyste użytkowanie nieruchomości położonych na terytorium
+Rzeczypospolitej Polskiej lub udziały, akcje lub ogół praw i obowiązków w spółce handlowej
+będącej właścicielem lub wieczystym użytkownikiem nieruchomości położonych na terytorium
+Rzeczypospolitej Polskiej;
+
+3) odpisu europejskiego poświadczenia spadkowego, jeżeli stwierdzono w nim dziedziczenie
+przez cudzoziemca, zaś w skład spadku wchodzą własność lub wieczyste użytkowanie
+nieruchomości położonych na terytorium Rzeczypospolitej Polskiej lub udziały, akcje lub ogół
+praw i obowiązków w spółce handlowej będącej właścicielem lub wieczystym użytkownikiem
+nieruchomości położonych na terytorium Rzeczypospolitej Polskiej.
+
+W aktualnym stanie prawnym wykonanie powyższego obowiązku następuje przez przesłanie
+do ministra właściwego do spraw wewnętrznych wypisu (kopii, odpisu) w formie papierowej.
+Dane zawarte w ww. dokumentach określone w rozporządzeniu Rady Ministrów z dnia
+23 listopada 2004 r. w sprawie trybu postępowania i szczegółowych zasad prowadzenia
+rejestrów nieruchomości, udziałów i akcji nabytych lub objętych przez cudzoziemców (Dz. U.
+z 2017 r. poz. 1689, z późn. zm.) są wprowadzane do rejestrów nieruchomości, udziałów i akcji
+nabytych lub objętych przez cudzoziemców, które są prowadzone w systemie informatycznym
+w oparciu o komputerową bazę danych. Przedmiotowe dokumenty w dużej mierze są
+sporządzane również w formie cyfrowej z uwagi na konieczność przedłożenia ich w takiej
+formie do Krajowego Rejestru Sądowego, czy też obowiązek przesłania do Krajowej
+Administracji   Skarbowej.   Powyższe     jest       realizowane   za   pośrednictwem   systemu
+teleinformatycznego    Centralnego   Repozytorium          Elektronicznych   Wypisów     Aktów
+Notarialnych    (CREWAN).       Umożliwienie         notariuszom    wykorzystywania     systemu
+teleinformatycznego CREWAN do przesyłania dokumentów określonych w ustawie z dnia 24
+marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców będzie stanowiło istotne
+uproszczenie sposobu realizacji powyższego obowiązku, a jednocześnie będzie istotnym
+krokiem w kierunku informatyzacji zadań z zakresu administracji rządowej. Projekt ustawy ma
+na celu wprowadzenie obowiązku przesyłania do Ministerstwa Spraw Wewnętrznych i
+Administracji dokumentów wskazanych w art. 8a ust. 1 ustawy o nabywaniu nieruchomości
+przez cudzoziemców wyłącznie w formie elektronicznej, za pośrednictwem systemu
+CREWAN. Należy podkreślić, że projekt nie wyłącza możliwości sporządzania dokumentów
+w formie papierowej. Intencją projektodawcy jest natomiast umożliwienie ich przekształcenia
+do postaci elektronicznej, umieszczenia w systemie CREWAN i przesłania do MSWiA za
+pośrednictwem systemu, co przyczyni się do usprawnienia obiegu dokumentów oraz
+zwiększenia efektywności procesu. Projektowana zmiana zminimalizuje także problem
+nieprzesyłania oraz nieterminowości przesyłania ww. dokumentów, co – przy jednoczesnym
+zastrzeżeniu formatu przesyłanych dokumentów umożliwiającego ich przeszukiwanie –
+pozytywnie wpłynie na realizację zadań ustawowych ministra właściwego do spraw
+wewnętrznych w zakresie badania legalności nabyć, co niewątpliwie będzie prowadziło także
+do poprawy bezpieczeństwa obrotu w tym zakresie.
+
+Podkreślić także należy, że analiza sprawozdań za lata 2022–2024 z wykonania ustawy z dnia
+24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców wskazuje na istotny wzrost
+liczby wniosków o wydanie zezwolenia na nabycie nieruchomości, akcji i udziałów przez
+cudzoziemców, jak i samych nabyć, dokonywanych w dużej mierze na podstawie
+przewidzianych w ustawie zwolnień z obowiązku uzyskania zezwolenia. Powyższe skutkuje
+znacznie rosnącą w ostatnim okresie liczbą dokumentów wpływających do rejestrów
+prowadzonych w tym zakresie przez ministra właściwego do spraw wewnętrznych.
+
+
+
+                                                 2
+ I.       Zmiana ustawy o nabywaniu nieruchomości przez cudzoziemców
+
+      Projektowane zmiany w ustawie z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez
+      cudzoziemców obejmują dodanie w art. 8a przepisów ujętych w ust. 1a–1d, zawierających
+      uregulowania ściśle realizujące wskazany powyżej cel, tj. wprowadzające obowiązek dla
+      notariuszy przesyłania dokumentów do ministra właściwego do spraw wewnętrznych
+      wyłącznie w formie cyfrowej za pośrednictwem systemu CREWAN. Należy podkreślić, że
+      zachowany zostaje dotychczas obowiązujący w art. 8a ust. 1 ustawy o nabywaniu
+      nieruchomości przez cudzoziemców termin siedmiu dni od dnia sporządzenia dokumentów
+      wymienionych w ust. 1 pkt 1–3 ustawy. W tym zakresie projekt nie wprowadza zmian.
+
+II.       Zmiana ustawy – Prawo o notariacie
+
+      Projektowana nowelizacja ustawy z dnia 14 lutego 1991 r. – Prawo o notariacie (Dz. U. z 2026 r.
+      poz. 614) ma na celu dostosowanie regulacji zawartych w art. 92a § 1 do zmian wprowadzonych
+      w ustawie z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców. W
+      związku z rozszerzeniem zakresu dokumentów przekazywanych przez notariuszy do Ministra
+      Spraw Wewnętrznych i Administracji, konieczne stało się uzupełnienie katalogu dokumentów
+      przechowywanych w CREWAN o dokumenty wskazane w art. 8a ust. 1a ustawy o nabywaniu
+      nieruchomości przez cudzoziemców.
+
+      Bez zmian pozostawiono obowiązujący zapis art. 92a § 1 dotyczący zapewnienia przez
+      Krajową Radę Notarialną dostępu do Repozytorium oraz jego bezpieczeństwa, w tym ochrony
+      danych przed nieuprawnionym dostępem, przetwarzaniem, zmianą lub utratą. Regulacja ta nie
+      jest przedmiotem projektowanej nowelizacji, wobec czego uznano za zasadne jej utrzymanie w
+      dotychczasowym brzmieniu. Minister właściwy do spraw wewnętrznych nie będzie miał
+      bezpośredniego dostępu do CREWAN, a jedynie będzie otrzymywał za jego pośrednictwem
+      dokumenty, o których mowa w art. 8a ustawy o nabywaniu nieruchomości przez
+      cudzoziemców.
+
+      W celu ujednolicenia terminologii w art. 92a § 3 i § 6 wprowadzono sformułowanie
+      „elektroniczne” w odniesieniu do wypisów aktów notarialnych, a także dodano „inne
+      elektroniczne      dokumenty”    w związku     z   rozszerzeniem     katalogu    dokumentów
+      przechowywanych w CREWAN. Ponadto w art. 92a § 3 utrzymano dotychczasowy zapis
+      „jeżeli   wynika     to   z   odrębnych   przepisów    oraz    pozwalają    na   to   warunki
+      organizacyjno-techniczne systemu teleinformatycznego”, jako regulację obowiązującą
+
+
+
+                                                    3
+       i funkcjonującą w praktyce. Dodano natomiast wymóg opatrzenia wypisu lub innego
+       dokumentu kwalifikowanym podpisem elektronicznym przez notariusza.
+
+       Konsekwencją wskazanych wyżej zmian jest także konieczność rozszerzenia upoważnienia
+       ustawowego dla Ministra Sprawiedliwości do wydania rozporządzenia, zawartej w art. 92a § 7.
+       Wobec powyższego, dotychczasowe przepisy wykonawcze wydane na podstawie art. 92a § 7
+       ustawy zmienianej w art. 2 tracą moc.
+
+III.      Przepisy końcowe
+
+       Z dniem wejścia w życie proponowanych zmian wszystkie dokumenty wymienione w art. 8a
+       ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców będą
+       musiały – dla potrzeb przesłania do ministra właściwego do spraw wewnętrznych – przyjąć
+       formę cyfrową, samo zaś przesłanie będzie następowało za pośrednictwem systemu CREWAN.
+       Projekt przewiduje przepis przejściowy, zgodnie z którym do dokumentów sporządzonych
+       przed dniem wejścia w życie ustawy stosuje się przepisy dotychczasowe.
+
+       Proponuje się, aby projektowana ustawa weszła w życie po upływie 3 miesięcy od dnia
+       ogłoszenia, co umożliwi wdrożenie zmian technicznych, pozwalających na realizację
+       obowiązków przez notariuszy w formie elektronicznej oraz wydanie aktów wykonawczych.
+
+       Projektowana regulacja nie jest sprzeczna z prawem Unii Europejskiej.
+
+       Projekt ustawy nie zawiera przepisów technicznych w rozumieniu przepisów rozporządzenia
+       Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego
+       systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.) i w związku z tym
+       nie podlega obowiązkowi notyfikacji.
+
+       Projektowana ustawa nie wymaga przedłożenia instytucjom i organom Unii Europejskiej,
+       w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+       powiadomienia, konsultacji albo uzgodnienia.
+
+       Projektowana regulacja nie ma wpływu na mikroprzedsiębiorców, małych i średnich
+       przedsiębiorców i jest zgodna z przepisami ustawy z dnia 6 marca 2018 r. – Prawo
+       przedsiębiorców (Dz. U. z 2025 r. poz. 1480, z późn. zm.). Projektowana regulacja nie ma także
+       wpływu na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie
+       przedsiębiorców.
+
+       Projekt ustawy, stosownie do wymogów art. 5 ustawy z dnia 7 lipca 2005 r. o działalności
+       lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677, z późn. zm.) oraz
+
+                                                      4
+zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. −
+Regulamin pracy Rady Ministrów (M.P. z 2026 r. poz. 404), został udostępniony w Biuletynie
+Informacji Publicznej Rządowego Centrum Legislacji. W trybie ww. ustawy nie odnotowano
+zgłoszeń zainteresowanych podmiotów.
+
+Projekt nie podlegał dokonaniu oceny OSR przez koordynatora OSR w trybie § 32 uchwały
+nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów.
+
+
+
+
+                                            5
+Nazwa projektu                                                               Data sporządzenia
+Projekt ustawy o zmianie ustawy o nabywaniu nieruchomości przez cudzoziemców 19 maja 2026 r.
+oraz ustawy – Prawo o notariacie
+                                                                             Źródło:
+ Ministerstwo wiodące i ministerstwa współpracujące
+                                                                             inicjatywa własna
+ Ministerstwo Spraw Wewnętrznych i Administracji – wiodące
+ Ministerstwo Sprawiedliwości - współpracujące
+                                                                             inne: projekt ma charakter
+ Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Stanu lub deregulacyjny
+ Podsekretarza Stanu
+ Pani Magdalena Roguska – Sekretarz Stanu w Ministerstwie Spraw Wewnętrznych Nr w Wykazie prac
+ i Administracji                                                             legislacyjnych i programowych
+ Kontakt do opiekuna merytorycznego projektu                                 Rady Ministrów
+ Pani Justyna Kurek – Dyrektor Departamentu Zezwoleń i Koncesji MSWiA,       UD321
+tel. 47 728 16 01, e-mail: justyna.kurek@mswia.gov.pl
+
+                               OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Minister Spraw Wewnętrznych i Administracji, jako minister właściwy do spraw wewnętrznych, zgodnie z art. 8 ust. 4
+ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców (Dz. U. z 2017 r. poz. 2278), zwanej
+dalej „ustawą”, prowadzi rejestr, który zawiera informacje o dokonanych transakcjach nabycia nieruchomości oraz
+nabycia akcji lub udziałów przez cudzoziemców. Podstawowym źródłem informacji o nabytych przez cudzoziemców
+nieruchomościach są dla Ministra Spraw Wewnętrznych i Administracji wypisy aktów notarialnych przesyłane przez
+notariuszy. Zgodnie z art. 8a ust. 1 ustawy notariusz jest zobowiązany do przesłania do ministra właściwego do spraw
+wewnętrznych wypisu aktu notarialnego w terminie 7 dni od dnia jego sporządzenia. Aktualnie wszystkie dokumenty
+przesyłane do MSWiA przez notariuszy przekazywane są w wersji papierowej. Minister Spraw Wewnętrznych i
+Administracji co roku odnotowuje przypadki nieterminowego przesyłania dokumentów przez notariuszy, co ma wpływ
+na zachowanie pewności bezpieczeństwa obrotu prawnego z udziałem cudzoziemców oraz na prawidłowość
+prowadzonych przez Ministra Spraw Wewnętrznych i Administracji rejestrów nieruchomości, akcji i udziałów nabytych
+lub objętych przez cudzoziemców.
+Potrzeba deregulacji obowiązku notariuszy przez jego cyfryzację, w zakresie przesyłania wypisów aktów notarialnych
+z udziałem cudzoziemców wynika z konieczności wprowadzenia nowych – cyfrowych rozwiązań organizacyjnych,
+zmierzających do zapewnienia najwyższych standardów w zakresie monitorowania nabywania nieruchomości przez
+cudzoziemców oraz zwiększenia bezpieczeństwa pewności obrotu nieruchomościami.
+Projekt ustawy o zmianie ustawy o nabywaniu nieruchomości przez cudzoziemców oraz ustawy – Prawo o notariacie
+(Dz. U. z 2017 r. poz. 2278) ma na celu wprowadzenie elektronicznego trybu przekazywania przez notariuszy
+dokumentów dotyczących dokonanych przez cudzoziemców nabyć nieruchomości oraz udziałów i akcji w spółkach
+będących właścicielami lub użytkownikami wieczystymi nieruchomości.
+Zgodnie z art. 8a ust. 1 ustawy notariusze są zobowiązani do przesłania ministrowi właściwemu do spraw wewnętrznych
+w terminie 7 dni od dnia sporządzenia następujących dokumentów:
+1) wypisu aktu notarialnego oraz kopi umowy z podpisami notarialnie poświadczonymi, na mocy których cudzoziemiec
+    nabył nieruchomość położoną na terytorium Rzeczypospolitej Polskiej lub nabył lub objął udziały, akcje lub ogół
+    praw i obowiązków w spółce handlowej będącej właścicielem lub wieczystym użytkownikiem nieruchomości
+    położonych na terytorium Rzeczypospolitej Polskiej;
+2) wypisu aktu poświadczenia dziedziczenia wraz z wypisem protokołu dziedziczenia, jeżeli w akcie poświadczenia
+    dziedziczenia stwierdzono dziedziczenie przez cudzoziemca, zaś w poprzedzającym go protokole dziedziczenia
+    stawający złożyli oświadczenie o tym, że w skład spadku wchodzą własność lub wieczyste użytkowanie
+    nieruchomości położonych na terytorium Rzeczypospolitej Polskiej lub udziały, akcje lub ogół praw i obowiązków
+    w spółce handlowej będącej właścicielem lub wieczystym użytkownikiem nieruchomości położonych na terytorium
+    Rzeczypospolitej Polskiej;
+3) odpisu europejskiego poświadczenia spadkowego, jeżeli stwierdzono w nim dziedziczenie przez cudzoziemca, zaś
+    w skład spadku wchodzą własność lub wieczyste użytkowanie nieruchomości położonych na terytorium
+    Rzeczypospolitej Polskiej lub udziały, akcje lub ogół praw i obowiązków w spółce handlowej będącej właścicielem
+    lub wieczystym użytkownikiem nieruchomości położonych na terytorium Rzeczypospolitej Polskiej.
+W aktualnym stanie prawnym wykonanie powyższego obowiązku następuje przez przesłanie do ministra właściwego do
+spraw wewnętrznych wypisu (kopii, odpisu) w formie papierowej. Po wejściu w życie proponowanej zmiany przepisów
+powyższy obowiązek będzie realizowany obligatoryjnie w sposób elektroniczny. Dane zawarte w ww. dokumentach,
+określone w rozporządzeniu Rady Ministrów z dnia 23 listopada 2004 r. w sprawie trybu postępowania i szczegółowych
+zasad prowadzenia rejestrów nieruchomości, udziałów i akcji nabytych lub objętych przez cudzoziemców (Dz. U. z
+2017 r. poz. 1689, z późn. zm.) są wprowadzane do rejestrów nieruchomości, udziałów i akcji nabytych lub objętych
+przez cudzoziemców, które są prowadzone w systemie informatycznym w oparciu o komputerową bazę danych.
+Przedmiotowe dokumenty w dużej mierze są sporządzane również w formie cyfrowej z uwagi na konieczność
+przedłożenia ich w takiej formie do Krajowego Rejestru Sądowego, czy też obowiązek przesłania do Krajowej
+Administracji Skarbowej. Powyższe jest realizowane za pośrednictwem systemu teleinformatycznego Centralnego
+Repozytorium Elektronicznych Wypisów Aktów Notarialnych (CREWAN).
+Celem projektu ustawy jest zmiana formy przesyłania przez notariuszy dokumentów określonych w art. 8a ust. 1 ustawy
+o nabywaniu nieruchomości przez cudzoziemców. W wyniku wejścia w życie proponowanych zmian nie nastąpi zmiana
+w zakresie przetwarzanych danych osobowych, a jedynie forma ich przetwarzania, tj. aktualnie będą przetwarzane w
+systemie CREWAN. Umożliwienie notariuszom wykorzystywania systemu teleinformatycznego CREWAN do
+przesyłania dokumentów będzie stanowiło istotne uproszczenie sposobu realizacji powyższego obowiązku, a
+jednocześnie będzie istotnym krokiem w kierunku informatyzacji zadań z zakresu administracji rządowej.
+Projektowana zmiana wpłynie także korzystnie na usprawnienie w procesie badania legalności nabyć nieruchomości,
+akcji, udziałów, a tym samym przyczyni się do poprawy bezpieczeństwa obrotu gospodarczego w tym zakresie.
+Podkreślić także należy, że analiza sprawozdań za lata 2022–2024 z wykonania ustawy o nabywaniu nieruchomości przez
+cudzoziemców wskazuje na istotny wzrost liczby wniosków o wydanie zezwolenia na nabycie nieruchomości, akcji
+i udziałów przez cudzoziemców, jak i samych nabyć, dokonywanych w dużej mierze na podstawie przewidzianych
+w ustawie zwolnień z obowiązku uzyskania zezwolenia. Powyższe skutkuje znacznie rosnącą w ostatnim okresie liczbą
+dokumentów wpływających do rejestrów prowadzonych w tym zakresie przez ministra właściwego do spraw
+wewnętrznych.
+Zgodnie ze sprawozdaniami z realizacji ustawy o nabywaniu nieruchomości przez cudzoziemców w ostatnich latach
+wpływ dokumentów do Ministerstwa Spraw Wewnętrznych i Administracji przedstawiał się następująco:
+rok 2022 – 35 258 dokumentów, z czego 25 592 dokumenty dotyczyły nabycia nieruchomości,
+rok 2023 – 34 285 dokumentów, z czego 26 611 dokumentów dotyczyło nabycia nieruchomości,
+rok 2024 – 38 284 dokumentów, z czego 30 283 dokumenty dotyczyły nabycia nieruchomości.
+Dla porównania, wpływ dokumentów w 2015 roku wynosił 12 419.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Nowelizacja ustawy o nabywaniu nieruchomości przez cudzoziemców i ustawy – Prawo o notariacie umożliwi
+przekazywanie przez notariuszy, przy użyciu systemu teleinformatycznego CREWAN dokumentów określonych
+w art. 8a ust. 1a ustawy o nabywaniu nieruchomości przez cudzoziemców, tj. dokumentów dotyczących dokonanych
+przez cudzoziemców nabyć nieruchomości oraz udziałów i akcji w spółkach będących właścicielami lub użytkownikami
+wieczystymi nieruchomości.
+W tym celu proponuje się następujące zmiany:
+    • w art. 1 projektu – zmiana w art. 8a ustawy o nabywaniu nieruchomości przez cudzoziemców polegająca na
+         dodaniu ust. 1a–1d, wprowadzających obowiązek po stronie notariuszy wykorzystywania systemu CREWAN do
+         przekazywania dokumentów, o których mowa w art. 8a ust. 1 ustawy. Jednocześnie zastrzeżono, że format
+         dokumentów ma umożliwiać elektroniczne przeszukiwanie ich treści, co ma istotne znaczenie dla prac
+         analitycznych niezbędnych dla przygotowania corocznego sprawozdania z wykonania ustawy. Pozostałe
+         uregulowania dotyczą ustalenia przez ministra właściwego do spraw wewnętrznych, po zasięgnięciu opinii
+         Krajowej Rady Notarialnej, w drodze rozporządzenia, okresu przechowywania dokumentów w systemie
+         CREWAN i odpłatności na rzecz Krajowej Rady Notarialnej za umieszczenie w systemie;
+    • w art. 2 projektu – zmiana § 1, § 3, § 6 i § 7 w art. 92a ustawy – Prawo o notariacie, przez rozszerzenie zakresu
+         przedmiotowego dokumentów umieszczanych w systemie CREWAN, co wynikało z konieczności dostosowania
+         dotychczasowych regulacji do art. 8a ust. 1a ustawy o nabywaniu nieruchomości przez cudzoziemców.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+
+Projektowana regulacja ze względu na stopień jej szczegółowości i domenę prawa krajowego nie była poddawana analizie
+prawnoporównawczej.
+
+4. Podmioty, na które oddziałuje projekt
+
+        Grupa                     Wielkość                 Źródło danych                    Oddziaływanie
+
+                                     3409                                       Zastąpienie dotychczasowej formy
+                                                           Ministerstwo         papierowej przekazywanych ministrowi
+                               liczba kancelarii          Sprawiedliwości       właściwemu do spraw wewnętrznych
+      Notariusze
+                                  notarialnych                                  dokumentów formą elektroniczną, co
+                                                        stan na 30.09.2024 r.
+                                     4169                                       wpłynie na terminowość i kompletność
+                                                                                uzyskiwanej informacji w zakresie
+
+
+
+                                                          2
+                              liczba notariuszy                               nabyć      dokonywanych         przez
+                                 (czynnych)                                   cudzoziemców.
+
+                                                                              Przystosowanie            Centralnego
+                                                                              Repozytorium          Elektronicznych
+                                                                              Wypisów        Aktów    Notarialnych,
+    Krajowa Rada                                          ustawa Prawo
+                                     1                                        prowadzonego przez Krajową Radę
+     Notarialna                                            o Notariacie
+                                                                              Notarialną, do przekazywania przez
+                                                                              Notariuszy      dokumentów      drogą
+                                                                              elektroniczną.
+
+                                                                              Dokumenty wymienione w art. 8a ust.
+                                                                              1 ustawy o nabywaniu nieruchomości
+                                                                              przez cudzoziemców nie będą już
+                                                                              przesyłane       za    pośrednictwem
+                              liczba trudna do                                operatorów pocztowych. W 2024 r. do
+ Operatorzy pocztowi                                          brak
+                                oszacowania                                   MSWiA wpłynęło 36 279 takich
+                                                                              dokumentów, ale notariusze bardzo
+                                                                              często w jednej przesyłce przekazują
+                                                                              kilka dokumentów. Liczba przesyłek
+                                                                              jest trudna do oszacowania.
+
+                                   36 279
+  Uczestnicy zdarzeń                                                          Obniżenie ponoszonych kosztów,
+                          liczba dokumentów, które
+ prawnych z udziałem                                                          w szczególności w odniesieniu do
+                             wpłynęły do MSWiA           Dane w oparciu
+    cudzoziemców,                                                             aktów notarialnych.
+                          w 2024 roku w trybie art.      o system EZD
+ a dotyczących nabyć           8a ust. 1 ustawy                               Szybsza weryfikacja zgodności nabycia
+                                                           w MSWiA
+    nieruchomości,               o nabywaniu                                  z przepisami ustawy o nabywaniu
+  udziałów lub akcji         nieruchomości przez                              nieruchomości przez cudzoziemców.
+                                cudzoziemców
+
+                                                                              Informatyzacja ustawowych       zadań
+                                                                              ministra właściwego do          spraw
+                                                                              wewnętrznych.
+ Ministerstwo Spraw
+  Wewnętrznych                       1                        brak            Zwiększenie możliwości analitycznych
+  i Administracji                                                             danych wynikających z nadsyłanych
+                                                                              dokumentów.
+
+
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+
+Projekt został udostępniony w Biuletynie Informacji Publicznej na stronie Rządowego Centrum Legislacji w serwisie
+Rządowy Proces Legislacyjny zgodnie z § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin
+pracy Rady Ministrów (M.P. z 2026 r. poz. 404) oraz stosownie do wymogów art. 5 ustawy z dnia 7 lipca 2005 r.
+o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677, z późn. zm). W trybie ww. ustawy
+nie odnotowano zgłoszeń zainteresowanych podmiotów.
+Projektowane zmiany nie spowodują skutków dla budżetów jednostek samorządu terytorialnego, w związku z tym projekt
+nie wymaga konsultacji z Komisją Wspólną Rządu i Samorządu Terytorialnego.
+Projekt został skierowany do zaopiniowania przez Krajową Radę Notarialną, Prezesa Urzędu Ochrony Danych
+Osobowych oraz Pocztę Polską S.A. – operatora wyznaczonego do świadczenia usług powszechnych.
+Uwagi do projektu zgłosił Prezes Urzędu Ochrony Danych Osobowych, wskazując zastrzeżenia do projektowanego
+rozwiązania polegającego na określeniu okresu przechowywania dokumentów w Centralnym Repozytorium
+Elektronicznych Wypisów Aktów Notarialnych (CREWAN) w drodze rozporządzenia, zamiast uregulować tę kwestię w
+przepisach rangi ustawowej. Projektodawca wskazał, że rozwiązanie to jest stosowane w obowiązującej praktyce
+legislacyjnej, w której szczegółowe wymogi dotyczące przetwarzania i przechowywania dokumentacji elektronicznej w
+systemie CREWAN powierzone są aktom wykonawczym, pozwalając na ich sprawne dostosowywanie do zmian
+technologicznych oraz rozwoju standardów bezpieczeństwa, przy jednoczesnym zachowaniu zgodności z zasadą
+proporcjonalności oraz hierarchią źródeł prawa. PUODO zgłosił również zastrzeżenia do uzależnienia zamieszczania
+
+                                                         3
+dokumentów w Repozytorium od warunków organizacyjno-technicznych systemu teleinformatycznego, podkreślając
+konieczność zapewnienia ciągłego stosowania zasad bezpieczeństwa i ochrony danych osobowych w rejestrach
+publicznych. W odpowiedzi projektodawca wyjaśnił, że wskazanie warunków organizacyjno-technicznych ma na celu
+zapewnienie wykonalności obowiązku przekazywania dokumentów oraz umożliwienie dostosowania funkcjonowania
+systemu do rozwoju technologii i standardów bezpieczeństwa, bez zwalniania notariuszy z ustawowych obowiązków.
+Zapis o treści: „…jeżeli wynika to wprost z odrębnych przepisów oraz pozwalają na to warunki organizacyjno‑techniczne
+systemu teleinformatycznego” jest obecnie zawarty w § 3 art. 92a ustawy – Prawo o notariacie i stanowi obowiązującą
+konstrukcję ustawową. Celem tej regulacji nie jest ograniczenie obowiązków, lecz zapewnienie, aby były one
+wykonywane w sposób realny, bezpieczny i zgodny z zasadami prawidłowego funkcjonowania systemów
+teleinformatycznych. Wskazanie warunków organizacyjno‑technicznych nie zwalnia notariuszy z obowiązku
+zamieszczania dokumentów w systemie CREWAN bądź ich przesyłania do MSWiA, lecz określa ramy, w jakich system
+ma działać, co jest konieczne z uwagi na różnorodność procesów.
+Poczta Polska S.A. wskazała, iż projektowana zmiana ustawy wpłynie na spadek liczby przesyłek poleconych krajowych
+z potwierdzeniem odbioru o ok. 32 tysięcy szt., co przekłada się na kwotę 400 000 zł w 2026 roku.
+Krajowa Rada Notarialna poinformowała, że nie zgłasza uwag do projektu ustawy.
+Czas trwania konsultacji publicznych to 10 dni.
+
+6. Wpływ na sektor finansów publicznych
+
+(ceny stałe z …                            Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+r.)
+                      0        1       2          3       4        5       6       7       8       9      10    Łącznie
+                    2026     2027    2028       2029     2030     2031   2032     2033    2034    2035   2036    (0-10)
+
+Dochody
+                      0        0       0          0       0        0       0       0       0       0      0       0
+ogółem
+budżet państwa        0        0       0          0       0        0       0       0       0       0      0       0
+JST                   0        0       0          0       0        0       0       0       0       0      0       0
+pozostałe
+jednostki             0        0       0          0       0        0       0       0       0       0      0       0
+(oddzielnie)
+Wydatki
+                    0,148      0       0          0       0        0       0       0       0       0      0     0,148
+ogółem
+budżet państwa      0,148      0       0          0       0        0       0       0       0       0      0     0,148
+JST                   0        0       0          0       0        0       0       0       0       0      0       0
+pozostałe
+jednostki             0        0       0          0       0        0       0       0       0       0      0       0
+(oddzielnie)
+Saldo ogółem        -0,148     0       0          0       0        0       0       0       0       0      0     -0,148
+budżet państwa      -0,148     0       0          0       0        0       0       0       0       0      0     -0,148
+JST                   0        0       0          0       0        0       0       0       0       0      0       0
+pozostałe
+jednostki             0        0       0          0       0        0       0       0       0       0      0       0
+(oddzielnie)
+                   W 2026 r. będzie konieczny zakup stosownej infrastruktury informatycznej (oprogramowanie) oraz
+Źródła             pokrycie kosztów usługi utrzymania informatycznego, instalacji i konfiguracji. Koszty te będą
+finansowania       poniesione w ramach limitu wydatków cz. 42 – Sprawy wewnętrzne, bez ubiegania się o dodatkowe
+                   środki z budżetu państwa na ten cel.
+
+Dodatkowe          Zaproponowane rozwiązanie umożliwi notariuszom przesyłanie określonych w art. 8a ust. 1 ustawy
+informacje, w      o nabywaniu nieruchomości przez cudzoziemców dokumentów dotyczących dokonanych przez
+tym wskazanie      cudzoziemców nabyć nieruchomości oraz udziałów i akcji w spółkach będących właścicielami lub
+źródeł danych i    użytkownikami wieczystymi nieruchomości. Przedmiotowe dokumenty są konsekwencją zdarzeń
+przyjętych do      zaistniałych w obrocie prawnym z udziałem cudzoziemców, a tym samym dotyczą bliżej
+obliczeń założeń   nieokreślonej liczby osób i innych podmiotów. Zaznaczyć przy tym należy, iż na przestrzeni ostatnich
+                   lat obserwowany jest wzrost liczby przesyłanych dokumentów. Wymaga podkreślenia, że notariusze
+                   przesyłając dokumenty, zgodnie z projektowaną zmianą, będą wykorzystywali już istniejący system
+
+                                                              4
+                    teleinformatyczny – CREWAN. Skutki finansowe związane z cyfryzacją procesu przekazywania
+                    przez notariuszy przez system CREWAN dokumentów do MSWiA obejmują koszty modyfikacji
+                    i rozbudowy infrastruktury systemu Elektronicznego Zarządzania Dokumentacją w MSWiA, aby
+                    zapewnić po stronie MSWiA wydajną komunikację zgodną z przyjętą polityką bezpieczeństwa.
+                    Koszty generowane przez projekt będą dotyczyły zakupu przez MSWiA w 2026 r. oprogramowania
+                    oraz implementacji nowej funkcjonalności w systemie MSWiA i wyniosą ok. 148 000,00 zł.
+                    Wydatki na integrację procesu przekazywania dokumentów z systemu CREWAN do systemu
+                    MSWiA będą finansowane ze środków MSWiA z klasyfikacji budżetowej – § 6060. Nowe
+                    rozwiązanie w kolejnych latach będzie utrzymywane w ramach bieżącego zarządzania systemem
+                    MSWiA.
+
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+
+                                                      Skutki
+Czas w latach od wejścia w życie zmian            0          1      2        3          5          10       Łącznie
+                                                                                                             (0-10)
+W ujęciu            duże przedsiębiorstwa
+pieniężnym          sektor mikro-, małych i
+(w mln zł,          średnich przedsiębiorstw
+ceny stałe z 2025   rodzina, obywatele oraz
+r.)                 gospodarstwa domowe
+                    duże przedsiębiorstwa
+W ujęciu                                         Brak wpływu.
+niepieniężnym
+                    sektor mikro-, małych i
+                                                 Przedmiotowy projekt nie określa zasad podejmowania,
+                    średnich przedsiębiorstw
+                                                 wykonywania lub zakończenia działalności gospodarczej, w związku
+                                                 z czym odstąpiono od analiz i oceny przewidywanych skutków
+                                                 społeczno-gospodarczych, wskazanych w art. 66 ust. 1 ustawy z dnia
+                                                 6 marca 2018 r. – Prawo przedsiębiorców (Dz. U. z 2025 r. poz. 1480,
+                                                 z późn. zm.).
+                    rodzina, obywatele oraz
+                    gospodarstwa domowe, w       Projektowana regulacja nie będzie miała wpływu na sytuację
+                    tym osoby z                  ekonomiczną i społeczną osób niepełnosprawnych oraz osób
+                    niepełnosprawnością i        starszych.
+                    starsze
+                                                 Projektowane zmiany dają podstawę prawną do przesyłania przez
+Niemierzalne
+                                                 notariusza za pośrednictwem systemu teleinformatycznego
+                                                 dokumentów określonych w art. 8a ust. 1 ustawy o nabywaniu
+                                                 nieruchomości przez cudzoziemców, tj. dokumentów dotyczących
+                                                 dokonanych przez cudzoziemców nabyć nieruchomości oraz
+                                                 udziałów i akcji w spółkach będących właścicielami lub
+                                                 użytkownikami wieczystymi nieruchomości.
+
+                                                 Obecnie obowiązek ten jest wypełniany przez przesyłanie ww.
+                                                 dokumentów w formie papierowej.
+
+                                                 Przedmiotowa zmiana uprości realizację powyższego obowiązku
+                                                 i wyeliminuje przypadki naruszenia terminu ustawowego, a także
+                                                 obniży opłaty z tym związane, w szczególności w odniesieniu do
+                                                 zdarzeń dokumentowanych w formie aktu notarialnego.
+                                                 Dla administracji publicznej będzie to zaś kolejny krok w kierunku
+                                                 informatyzacji, co umożliwi również skuteczniejsze wykonywanie
+                                                 zadań ustawowych w zakresie badania legalności dokonywanych
+                                                 nabyć.
+Dodatkowe informacje, w tym              Skala zmniejszenia kosztów przesyłek pocztowych dla notariuszy, ewentualne
+wskazanie źródeł danych i przyjętych     koszty Krajowej Rady Notarialnej związane z dostosowaniem systemu
+do obliczeń założeń                      Centralnego Repozytorium Elektronicznego Wypisów Aktów Notarialnych do
+                                         przekazywania dokumentów do Ministerstwa Spraw Wewnętrznych i
+
+                                                         5
+                                       Administracji, a także dochody związane z uiszczaniem na rzecz Krajowej
+                                       Rady Notarialnej odpłatności za umieszczanie dokumentów w systemie są
+                                       trudne do oszacowania.
+                                       Z kolei w odniesieniu do operatorów pocztowych wskazać należy, że aktualnie
+                                       przesyłane akty notarialne i inne dokumenty wymienione w art. 8a ust. 1
+                                       ustawy o nabywaniu nieruchomości przez cudzoziemców nie będą już
+                                       przesyłane za ich pośrednictwem. Trudno jest oszacować skalę takich
+                                       przesyłek, gdyż notariusze bardzo często przesyłają kilka dokumentów
+                                       w jednej przesyłce, a zdarza się również, że dokumenty są dostarczane
+                                       bezpośrednio na Biuro Podawcze MSWiA bez udziału operatorów
+                                       pocztowych. Poczta Polska S.A. szacuje, że projektowana zmiana wpłynie na
+                                       spadek liczby przesyłek poleconych krajowych z potwierdzeniem odbioru o
+                                       ok. 32 tysiące szt., co przekłada się na kwotę 400 000 zł w 2026 roku.
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie                    tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli             nie
+zgodności).                                                    nie dotyczy
+
+   zmniejszenie liczby dokumentów                              zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                                zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                       wydłużenie czasu na załatwienie sprawy
+   inne:                                                       inne:
+
+Wprowadzane obciążenia są przystosowane do ich                 tak
+elektronizacji.                                                nie
+                                                               nie dotyczy
+
+Komentarz:
+Aktualnie realizacja obowiązku wynikającego z art. 8a ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców
+polega na sporządzeniu, w przeważającej mierze przez notariuszy, dodatkowego wypisu aktu notarialnego lub dodatkowej
+kopii innego dokumentu i przesłanie ich w formie papierowej do Ministra Spraw Wewnętrznych i Administracji. Powyższe
+dokumenty po analizie w zakresie zgodności z ustawą o nabywaniu nieruchomości przez cudzoziemców są uwzględniane
+w prowadzonych rejestrach bądź są kierowane do sądów powszechnych w celu stwierdzenia nieważności nabycia.
+Projektowana zmiana spowoduje odejście od formy papierowej na rzecz formy cyfrowej, co uprości przesyłanie
+dokumentów, ułatwi terminowość przesyłania oraz obniży koszty, którymi są obciążani uczestnicy dokumentowanych
+zdarzeń. Zgodnie z art. 8a ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców notariusz jest zobowiązany do
+przesłania do MSWiA wypisu aktu notarialnego w terminie 7 dni od dnia jego sporządzenia. Powyższy termin nie ulegnie
+zmianie. Czas obiegu dokumentów między notariuszami i MSWiA zostanie znacznie skrócony o czas doręczenia
+dokumentu. Przewidywany aktualny termin dostarczenia przesyłki przez operatora wyznaczonego (Pocztę Polską) to od
+3 do 5 dni roboczych po dniu nadania przesyłki (informacja ze strony internetowej operatora pocztowego). Aktualnie
+wszystkie dokumenty przesyłane są do MSWiA przez notariuszy w wersji papierowej za pośrednictwem Poczty Polskiej,
+kurierem bądź dostarczane są osobiście na biuro podawcze MSWiA. Po zmianie ustawy dokumenty będą przekazywane
+elektronicznie, a czas przekazania zasadniczo zmniejszy się i będzie określany w minutach. Ponadto zmiana formy
+przekazywania dokumentów przez notariuszy ułatwi i obniży koszty archiwizacji przesłanych dokumentów.
+Tym samym projektowana ustawa nie wprowadza nowych obciążeń, a jedynie zmienia formę realizacji już istniejącego
+obowiązku w celu jego uproszczenia i obniżenia kosztów, przy jednoczesnym zwiększeniu bezpieczeństwa obrotu
+nieruchomościami z udziałem cudzoziemców.
+9. Wpływ na rynek pracy
+Wejście w życie przedmiotowej zmiany nie będzie miało negatywnego wpływu na rynek pracy, konkurencyjność
+gospodarki i przedsiębiorczość, w tym na sektor mikro-, małych i średnich przedsiębiorstw.
+10. Wpływ na pozostałe obszary
+   środowisko naturalne                                      demografia                           informatyzacja
+   sytuacja i rozwój regionalny                              mienie państwowe                     zdrowie
+   sądy powszechne, administracyjne lub wojskowe             inne:
+
+
+
+
+                                                         6
+                             Projektowana zmiana przepisów wprowadzi pełną cyfryzację procesu przesyłania aktów
+                             notarialnych przez notariuszy do Ministra Spraw Wewnętrznych i Administracji. Obecnie
+Omówienie wpływu             dokumenty przekazywane są w formie papierowej.
+                             W pozostałym zakresie regulacje prawne zawarte w projekcie ustawy nie mają wpływu na
+                             wymienione obszary.
+11. Planowane wykonanie przepisów aktu prawnego
+Przewiduje się, że projektowana ustawa wejdzie w życie po upływie 3 miesięcy od dnia ogłoszenia.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Z uwagi na zakres przedmiotowy projektu, nie przewiduje się ewaluacji efektów wejścia w życie projektu.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                          7
+                                                  RAPORT Z KONSULTACJI PUBLICZNYCH
+           projektu ustawy o zmianie ustawy o nabywaniu nieruchomości przez cudzoziemców oraz ustawy – Prawo o notariacie (UD321)
+1. Informacje ogólne
+Projekt ustawy o zmianie ustawy o nabywaniu nieruchomości przez cudzoziemców oraz ustawy - Prawo o notariacie ma na celu wprowadzenie elektronicznego
+trybu przekazywania przez notariuszy dokumentów dotyczących dokonanych przez cudzoziemców nabyć nieruchomości oraz udziałów i akcji w spółkach
+będących właścicielami lub użytkownikami wieczystymi nieruchomości, co przyczyni się do usprawnienia obiegu dokumentów oraz zwiększenia efektywności
+procesu.
+
+Projekt ustawy został zamieszczony, stosownie do wymogów art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa
+(Dz. U. z 2025 r. poz. 677, z późn. zm.) oraz zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady
+Ministrów (M.P. z 2026 r. poz. 404) w Biuletynie Informacji Publicznej Rządowego Centrum Legislacji.
+
+2. Omówienie wyników konsultacji publicznych i opiniowania
+
+Projekt ustawy został skierowany do zaopiniowania przez:
+
+1) Krajową Radę Notarialną,
+2) Prezesa Urzędu Ochrony Danych Osobowych,
+3) Pocztę Polską S.A. – operatora wyznaczonego do świadczenia usług powszechnych.
+
+Uwagi do projektu zgłosił Prezes Urzędu Ochrony Danych Osobowych, wskazując zastrzeżenia do projektowanego rozwiązania polegającego na określeniu
+okresu przechowywania dokumentów w Centralnym Repozytorium Elektronicznych Wypisów Aktów Notarialnych (CREWAN) w drodze rozporządzenia,
+zamiast uregulować tę kwestię w przepisach rangi ustawowej. Projektodawca wskazał, że rozwiązanie to jest stosowane w obowiązującej praktyce legislacyjnej,
+w której szczegółowe wymogi dotyczące przetwarzania i przechowywania dokumentacji elektronicznej w systemie CREWAN powierzone są aktom
+wykonawczym, pozwalając na ich sprawne dostosowywanie do zmian technologicznych oraz rozwoju standardów bezpieczeństwa, przy jednoczesnym
+zachowaniu zgodności z zasadą proporcjonalności oraz hierarchią źródeł prawa. Prezes Urzędu Ochrony Danych Osobowych zgłosił również zastrzeżenia do
+uzależnienia zamieszczania dokumentów w CREWAN od warunków organizacyjno-technicznych systemu teleinformatycznego, podkreślając konieczność
+zapewnienia ciągłego stosowania zasad bezpieczeństwa i ochrony danych osobowych w rejestrach publicznych. W odpowiedzi projektodawca wyjaśnił, że
+wskazanie warunków organizacyjno-technicznych ma na celu zapewnienie wykonalności obowiązku przekazywania dokumentów oraz umożliwienie
+dostosowania funkcjonowania systemu do rozwoju technologii i standardów bezpieczeństwa, bez zwalniania notariuszy z ustawowych obowiązków. Zapis o
+treści: „…jeżeli wynika to wprost z odrębnych przepisów oraz pozwalają na to warunki organizacyjno‑techniczne systemu teleinformatycznego” jest obecnie
+zawarty w § 3 art. 92a ustawy – Prawo o notariacie i stanowi obowiązującą konstrukcję ustawową. Celem tej regulacji nie jest ograniczenie obowiązków, lecz
+zapewnienie, aby były one wykonywane w sposób realny, bezpieczny i zgodny z zasadami prawidłowego funkcjonowania systemów teleinformatycznych.
+Wskazanie warunków organizacyjno‑technicznych nie zwalnia notariuszy z obowiązku zamieszczania dokumentów w systemie CREWAN bądź ich przesyłania
+do MSWiA, lecz określa ramy, w jakich system ma działać, co jest konieczne z uwagi na różnorodność procesów.
+
+Poczta Polska S.A. wskazała, iż projektowana zmiana ustawy wpłynie na spadek liczby przesyłek poleconych krajowych z potwierdzeniem odbioru o ok. 32
+tysięcy szt., co przekłada się na kwotę 400 000 zł w 2026 roku.
+Krajowa Rada Notarialna poinformowała, że nie zgłasza uwag do projektu.
+W związku z udostępnieniem projektu ustawy na stronach Rządowego Centrum Legislacji oraz na wniosek Zarządu Głównego Stowarzyszenia Notariuszy
+Rzeczypospolitej Polskiej o uwzględnienie tego Stowarzyszenia w procesie konsultacji publicznych, umożliwiono temu podmiotowi przedstawienie stanowiska
+wobec projektu ustawy. Stowarzyszenie Notariuszy Rzeczypospolitej Polskiej nie zgłosiło uwag do projektu.
+3. Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu z właściwymi organami i instytucjami Unii
+Europejskiej, w tym Europejskim Bankiem Centralnym
+
+Projekt ustawy nie wymagał zasięgnięcia opinii, dokonania konsultacji ani uzgodnienia projektu z właściwymi organami i instytucjami Unii Europejskiej, w tym
+Europejskim Bankiem Centralnym.
+4. Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem w trybie przepisów o działalności lobbingowej w procesie stanowienia
+prawa, wraz ze wskazaniem kolejności dokonania zgłoszeń albo informację o ich braku
+
+Nie odnotowano zgłoszeń zainteresowanych podmiotów w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa.
+ Zestawienie stanowisk zgłoszonych w ramach opiniowania projektu ustawy o zmianie ustawy o nabywaniu nieruchomości przez
+                                      cudzoziemców oraz ustawy – Prawo o notariacie
+
+
+           Podmiot
+Lp.                                               Treść opinii                                            Odniesienie się do opinii
+      zgłaszający opinię
+        Prezes Urzędu      Zgłoszono zastrzeżenia do projektowanego rozwiązania                               Uwaga wyjaśniona
+       Ochrony Danych      polegającego na określeniu okresu przechowywania
+                                                                                         Projektodawca wyjaśnił, że rozwiązanie takie jest stosowane
+         Osobowych         dokumentów w Centralnym Repozytorium Elektronicznych
+                                                                                         w obowiązującym systemie prawnym (vide ustawa z dnia
+                           Wypisów Aktów Notarialnych (CREWAN) w drodze
+                                                                                         29 sierpnia 1997 r. – Ordynacja podatkowa), w którym
+1.                         rozporządzenia,    zamiast  uregulowania      tej   kwestii
+                                                                                         szczegółowe      wymogi        dotyczące       przetwarzania
+                           w przepisach rangi ustawowej (art. 8a ust. 1d pkt 1 ustawy
+                                                                                         i przechowywania dokumentacji elektronicznej w systemie
+                           o nabywaniu nieruchomości przez cudzoziemców).
+                                                                                         CREWAN określone są w akcie wykonawczym, pozwalając na ich
+                                                                                         sprawne dostosowywanie do zmian technologicznych oraz
+                                                                                         rozwoju standardów bezpieczeństwa.
+
+        Prezes Urzędu      Zgłoszono zastrzeżenia do uzależnienia zamieszczania                               Uwaga wyjaśniona
+       Ochrony Danych      dokumentów w CREWAN od warunków organizacyjno-
+                                                                                         Projektodawca wyjaśnił, że wskazanie warunków organizacyjno-
+         Osobowych         technicznych systemu teleinformatycznego, podkreślając
+                                                                                         technicznych ma na celu zapewnienie wykonalności obowiązku
+                           konieczność zapewnienia ciągłego stosowania zasad
+                                                                                         przekazywania dokumentów oraz umożliwienie dostosowania
+                           bezpieczeństwa i ochrony danych osobowych w rejestrach
+                                                                                         funkcjonowania systemu do rozwoju technologii i standardów
+                           publicznych (art. 92a § 3 ustawy – Prawo o notariacie).
+                                                                                         bezpieczeństwa, bez zwalniania notariuszy z ustawowych
+                                                                                         obowiązków. Zapis o treści: „…jeżeli wynika to wprost
+2.
+                                                                                         z odrębnych przepisów oraz pozwalają na to warunki
+                                                                                         organizacyjno‑techniczne systemu teleinformatycznego” jest
+                                                                                         obecnie zawarty w art. 92a § 3 ustawy – Prawo o notariacie
+                                                                                         i stanowi obowiązującą konstrukcję ustawową. Celem tej
+                                                                                         regulacji nie jest ograniczenie obowiązków, lecz zapewnienie,
+                                                                                         aby były one wykonywane w sposób realny, bezpieczny i zgodny
+                                                                                         z zasadami      prawidłowego     funkcjonowania     systemów
+                                                                                         teleinformatycznych.            Wskazanie          warunków
+                                                                                       organizacyjno‑technicznych nie zwalnia notariuszy z obowiązku
+                                                                                       zamieszczania dokumentów w systemie CREWAN bądź ich
+                                                                                       przesyłania do MSWiA, lecz określa ramy, w jakich system ma
+                                                                                       działać, co jest konieczne z uwagi na różnorodność procesów.
+
+       Krajowa Rada       Krajowa Rada Notarialna poinformowała, że nie zgłasza uwag
+3.      Notarialna        do projektu.
+
+
+     Poczta Polska S.A.   Nie przedstawiono opinii odnośnie do projektowanych          Uzupełniono OSR o wskazane przez Pocztę Polską S.A.
+                          regulacji prawnych. Jednocześnie wskazano, że projektowana   informacje.
+4.                        nowelizacja wpłynie na spadek liczby przesyłek poleconych
+                          krajowych z potwierdzeniem odbioru o ok. 32 tysiące sztuk,
+                          co przekłada się na kwotę ok. 400 000 zł w 2026 roku.
+                                                                                                   Projekt
+                                    ROZPORZĄDZENIE
+
+M I N I S T R A S P R A W W E W N Ę T R Z N Y C H I A D M I N I S T R A C J I 1)
+
+                                                   z dnia
+
+w sprawie przechowywania dokumentów w Centralnym Repozytorium Elektronicznych
+                                    Wypisów Aktów Notarialnych
+
+
+       Na podstawie art. 8a ust. 1d ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości
+przez cudzoziemców (Dz. U. z 2017 r. poz. 2278 oraz z 2026 r. poz…) zarządza się, co
+następuje:
+
+       § 1. Rozporządzenie określa:
+1)     okres przechowywania elektronicznych wypisów, kopii lub odpisów dokumentów,
+       o których mowa w art. 8a ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu
+       nieruchomości przez cudzoziemców, w Centralnym Repozytorium Elektronicznych
+       Wypisów Aktów Notarialnych, zwanym dalej „Repozytorium”;
+2)     sposób uiszczania i wysokość opłaty za umieszczenie w Repozytorium elektronicznych
+       wypisów, kopii lub odpisów dokumentów, o których mowa w art. 8a ust. 1.
+
+       § 2. Okres przechowywania w Repozytorium dokumentów, o których mowa w art. 8a
+ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców wynosi
+5 lat od końca roku kalendarzowego, w którym zostały one umieszczone w Repozytorium.
+
+       § 3. Wysokość opłaty za umieszczenie w Repozytorium dokumentu wynosi 5 zł.
+
+       § 4. Łączną kwotę opłat za umieszczenie w Repozytorium dokumentów notariusz
+przekazuje w formie bezgotówkowej na rachunek bankowy Krajowej Rady Notarialnej
+w terminie do 7. dnia miesiąca następującego po miesiącu, w którym dokumenty zostały
+umieszczone.
+
+
+
+
+1)
+     Minister Spraw Wewnętrznych i Administracji kieruje działem administracji rządowej – sprawy wewnętrzne,
+     na podstawie § 1 ust. 2 pkt 2 rozporządzenia Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie
+     szczegółowego zakresu działania Ministra Spraw Wewnętrznych i Administracji (Dz. U. poz. 999).
+                                  –2–
+
+
+§ 5. Rozporządzenie wchodzi w życie …….
+                                    MINISTER SPRAW WEWNĘTRZNYCH
+                                            I ADMINISTRACJI
+                                         UZASADNIENIE
+Projekt ustawy o zmianie ustawy o nabywaniu nieruchomości przez cudzoziemców oraz ustawy –
+Prawo o notariacie, zwany dalej nowelizacją, przewiduje, iż do ustawy z dnia 24 marca 1920 r. o
+nabywaniu nieruchomości przez cudzoziemców (Dz. U. z 2017 r. poz. 2278), zwanej dalej „ustawą”,
+zostanie m.in. dodany art. 8a ust. 1d, zgodnie z którym minister właściwy do spraw wewnętrznych, po
+zasięgnięciu opinii Krajowej Rady Notarialnej, zwanej dalej ,,KRN”, określi w drodze rozporządzenia,
+okres przechowywania w Centralnym Repozytorium Elektronicznych Wypisów Aktów Notarialnych,
+zwanym dalej „Repozytorium”, dokumentów, o których mowa w art. 8a ust. 1 ustawy. Ponadto
+w rozporządzeniu należy określić sposób uiszczania i wysokość opłaty za umieszczenie dokumentów
+w Repozytorium. Określając powyższe, minister właściwy do spraw wewnętrznych powinien mieć na
+względzie zapewnienie wykonywania obowiązków przez notariuszy i KRN, jak również wysokość
+kosztów administracyjnych prowadzenia Repozytorium oraz jego niedochodowy charakter i niezbędny
+rozwój.
+Stosownie do przepisów art. 92a § 1−3 ustawy z dnia 14 lutego 1991 r. − Prawo o notariacie (Dz. U.
+z 2026 r. poz. 614), których nowe brzmienie w zakresie § 1 i § 3 zostanie nadane nowelizacją, KRN
+prowadzi system teleinformatyczny pod nazwą Centralne Repozytorium Elektronicznych Wypisów
+Aktów Notarialnych, w którym przechowuje się elektroniczne wypisy i wyciągi z aktów notarialnych
+sporządzonych na terytorium Rzeczypospolitej Polskiej oraz inne dokumenty, o których mowa
+w odrębnych przepisach. KRN zapewnia bezpieczeństwo Repozytorium, w szczególności ochronę
+danych w nim zgromadzonych przed dostępem, przetwarzaniem, zmianą lub ich utratą. Wypisy
+umieszczane w Repozytorium są opatrywane kwalifikowanym podpisem elektronicznym.
+W myśl projektowanego w nowelizacji art. 8a ust. 1a ustawy, notariusz umieszcza w Repozytorium
+dokumenty, o których mowa w art. 8a ust. 1 ustawy, w formacie umożliwiającym elektroniczne
+przeszukiwanie ich treści.
+Nadmienić należy, iż zgodnie z art. 8a ust. 1 ustawy, do którego odsyła projektowany w nowelizacji art.
+8a ust. 1a ustawy, notariusz przesyła ministrowi właściwemu do spraw wewnętrznych, w terminie 7 dni
+od dnia sporządzenia:
+1) wypis aktu notarialnego oraz kopię umowy z podpisami notarialnie poświadczonymi, na mocy
+których cudzoziemiec nabył nieruchomość położoną na terytorium Rzeczypospolitej Polskiej lub nabył
+lub objął udziały, akcje lub ogół praw i obowiązków w spółce handlowej będącej właścicielem lub
+wieczystym użytkownikiem nieruchomości położonych na terytorium Rzeczypospolitej Polskiej;
+2) wypis aktu poświadczenia dziedziczenia wraz z wypisem protokołu dziedziczenia, jeżeli w akcie
+poświadczenia dziedziczenia stwierdzono dziedziczenie przez cudzoziemca, zaś w poprzedzającym go
+protokole dziedziczenia stawający złożyli oświadczenie o tym, że w skład spadku wchodzą własność
+lub wieczyste użytkowanie nieruchomości położonych na terytorium Rzeczypospolitej Polskiej lub
+udziały, akcje lub ogół praw i obowiązków w spółce handlowej będącej właścicielem lub wieczystym
+użytkownikiem nieruchomości położonych na terytorium Rzeczypospolitej Polskiej;
+3) odpis europejskiego poświadczenia spadkowego, jeżeli stwierdzono w nim dziedziczenie przez
+cudzoziemca, zaś w skład spadku wchodzą własność lub wieczyste użytkowanie nieruchomości
+położonych na terytorium Rzeczypospolitej Polskiej lub udziały, akcje lub ogół praw i obowiązków w
+spółce handlowej będącej właścicielem lub wieczystym użytkownikiem nieruchomości położonych na
+terytorium Rzeczypospolitej Polskiej.
+Tym samym po nowelizacji wszystkie wyżej wymienione dokumenty, dla potrzeb przekazania ich do
+ministra właściwego do spraw wewnętrznych, przybiorą postać elektroniczną, co zwiększy zakres
+wykorzystania Repozytorium, a także rodzaj i liczbę przechowywanych w nim elektronicznych
+dokumentów.
+W projektowanym rozporządzeniu przewiduje się, żeby okres przechowywania dokumentów
+w Repozytorium wynosił 5 lat od końca roku, w którym zostały one umieszczone w tym Repozytorium
+przez notariusza. Jest to okres wystarczający dla ministra właściwego do spraw wewnętrznych na
+ewentualną weryfikację treści powyższych dokumentów, które dodatkowo będą przekazywane
+z Repozytorium przez KRN niezwłocznie do systemu teleinformatycznego ministra właściwego do
+spraw wewnętrznych.
+Zgodnie z projektowanym w nowelizacji art. 8a ust. 1c ustawy za umieszczenie dokumentu
+w Repozytorium notariusz będzie pobierał od stron czynności notarialnej opłatę, która będzie
+przekazywana KRN. Kwota opłaty za umieszczenie dokumentu w Repozytorium została określona w
+wysokości 5 zł. Zatem strony czynności notarialnej będą zobowiązane do uiszczenia notariuszowi opłaty
+w kwocie 5 zł (niezależnie od liczby stron (osób) uczestniczących w sporządzeniu dokumentu) za
+umieszczenie dokumentu w Repozytorium.
+Przy określaniu wysokości ww. opłaty należy mieć na uwadze wysokość kosztów prowadzenia
+Repozytorium oraz zapewnienie niezbędnego rozwoju. Zaznaczyć należy, że Repozytorium już istnieje,
+ale wymaga stosownych modyfikacji, bieżącego utrzymania, zabezpieczenia, a przede wszystkim
+zwiększenia pojemności serwerów.
+Zgodnie z danymi ministra właściwego do spraw wewnętrznych w 2024 roku notariusze, wykonując
+obowiązek nałożony w art. 8a ust. 1 ustawy przekazali 36 279 dokumentów w formie papierowej, w tym
+30 018 aktów notarialnych. Na przykładzie aktów notarialnych wskazać należy, iż w obowiązującym
+stanie prawnym notariusz, zgodnie z aktualną taksą notarialną, pobiera opłatę za sporządzenie wypisu
+aktu notarialnego. Na podstawie § 12 rozporządzenia Ministra Sprawiedliwości z dnia 28 czerwca
+2004 r. w sprawie maksymalnych stawek taksy notarialnej (Dz. U. z 2024 r. poz. 1566) stawka za
+sporządzenie wypisu aktu notarialnego wynosi 6 zł za każdą rozpoczętą stronę. Biorąc pod uwagę liczbę
+stron przeciętnego aktu notarialnego dokumentującego zdarzenie objęte zakresem ustawy, koszt jednego
+wypisu aktu notarialnego kształtuje się średnio na poziomie od 30 do 60 zł. W związku z powyższym,
+opłata za umieszczenie tego aktu w Repozytorium powinna być relatywnie niższa. Nie jest bowiem
+celem ustawodawcy utrzymanie tych kosztów na poziomie dotychczasowym, ale ich zmniejszenie po
+stronie uczestników czynności notarialnych. Uwzględniając przedstawione wyżej okoliczności, zasadne
+jest przyjęcie, że wysokość opłaty za umieszczenie dokumentu w Repozytorium nie powinna
+przekraczać 5 zł. W tej sytuacji opłata w wysokości 5 zł za każdy dokument umieszczony
+w Repozytorium będzie wystarczająca dla pokrycia kosztów administracyjnych systemu oraz umożliwi
+zapewnienie jego rozwoju, zatem w pełni zrealizuje wytyczne zawarte w projektowanym w nowelizacji
+przepisie art. 8a ust 1d ustawy. W konsekwencji KRN będzie dysponowała wystarczającą kwotą na
+przechowywanie, utrzymanie i rozwój Repozytorium.
+Nadmienić należy, iż za pośrednictwem Repozytorium są już w trybie art. 84a § 3 ustawy z dnia 29
+sierpnia 1997 r. – Ordynacja podatkowa (Dz. U. z 2025 r., poz. 111, z późn. zm.) przekazywane na
+potrzeby Krajowej Administracji Skarbowej elektroniczne wypisy odpowiednio aktu notarialnego,
+zarejestrowanego aktu poświadczenia dziedziczenia i europejskiego poświadczenia spadkowego.
+Stosownie do wydanego na podstawie delegacji ustawowej zawartej w art. 84a § 3 ustawy – Ordynacja
+podatkowa rozporządzeniu ministra właściwego do spraw finansów publicznych wysokość opłaty za
+umieszczenie ww. wypisów w Repozytorium wynosi także 5 zł.
+Zgodnie z projektowanym w nowelizacji art. 8a ust. 1c ustawy, za umieszczenie na podstawie ust. 1a
+dokumentu w Repozytorium notariusz pobiera od stron czynności notarialnej opłatę, którą przekazuje
+KRN. W celu zapewnienia prawidłowego wykonywania obowiązków przez notariuszy i KRN
+niezbędne jest określenie w projektowanym rozporządzeniu sposobu przekazywania przez notariuszy
+do KRN wyżej wymienionej opłaty. W związku z powyższym proponuje się, aby § 4 projektowanego
+rozporządzenia zawierał regulację, zgodnie z którą łączną kwotę opłat za umieszczenie w Repozytorium
+
+
+                                                 2
+dokumentów notariusz przekazuje w formie bezgotówkowej na rachunek bankowy KRN w terminie do
+7. dnia miesiąca następującego po miesiącu, w którym akty notarialne zostały sporządzone.
+Projektowane rozporządzenie wejdzie w życie z dniem wejścia w życie nowelizacji ustaw.
+Rozporządzenie nie dotyczy majątkowych praw i obowiązków mikroprzedsiębiorców, małych
+i średnich przedsiębiorców. Projekt nie wpłynie na sytuację ekonomiczną i społeczną rodziny, a także
+osób niepełnosprawnych oraz osób starszych, ale obniży koszty czynności notarialnych.
+Projekt nie zawiera przepisów technicznych. Projekt nie podlega obowiązkowi notyfikacji, zgodnie
+z trybem przewidzianym w przepisach dotyczących sposobu funkcjonowania krajowego systemu
+notyfikacji norm i aktów prawnych.
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa,
+w związku z § 4 i § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin
+pracy Rady Ministrów (M.P. z 2026 r. poz. 404), projekt rozporządzenia zostanie udostępniony
+w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie
+Rządowy Proces Legislacyjny.
+Projekt rozporządzenia jest zgodny z prawem Unii Europejskiej.
+Projekt nie wymaga zasięgnięcia opinii, dokonania konsultacji oraz uzgodnienia z właściwymi
+organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem Centralnym.
+
+
+
+
+                                                  3
+                                                               Data sporządzenia
+Nazwa projektu:
+                                                               19 maja 2026 r.
+Rozporządzenie Ministra Spraw Wewnętrznych i Administracji w
+sprawie przechowywania dokumentów w Centralnym Repozytorium Źródło:
+Elektronicznych Wypisów Aktów Notarialnych                     art. 8a ust. 1d ustawy z dnia 24 marca 1920 r.
+Ministerstwo wiodące i ministerstwa współpracujące             o      nabywaniu      nieruchomości       przez
+Ministerstwo Spraw Wewnętrznych i Administracji                cudzoziemców     (Dz. U. z 2017 r. poz. 2278, z
+                                                               późn. zm.)
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Nr w Wykazie:
+Stanu lub Podsekretarza Stanu
+Pani Magdalena Roguska – Sekretarz Stanu w Ministerstwie Spraw
+Wewnętrznych i Administracji
+
+Kontakt do opiekuna merytorycznego projektu
+Justyna Kurek – Dyrektor Departamentu Zezwoleń i Koncesji MSWiA,
+tel. 47 728 16 01, e-mail: Justyna.Kurek@mswia.gov.pl
+
+                                 OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Projekt ustawy o zmianie ustawy o nabywaniu nieruchomości przez cudzoziemców oraz ustawy – Prawo o notariacie
+przewiduje, iż do ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez cudzoziemców, zwanej dalej „ustawą”,
+zostanie dodany art. 8a ust. 1d, zgodnie z którym minister właściwy do spraw wewnętrznych, po zasięgnięciu opinii
+Krajowej Rady Notarialnej, zwanej dalej ,,KRN”, określi w drodze rozporządzenia, okres przechowywania w Centralnym
+Repozytorium Elektronicznych Wypisów Aktów Notarialnych, zwanym dalej „Repozytorium”, dokumentów, o których
+mowa w art. 8a ust. 1 ustawy. Ponadto w rozporządzeniu należy określić sposób uiszczania i wysokość opłaty za
+umieszczenie dokumentów w Repozytorium. Określając powyższe, minister właściwy do spraw wewnętrznych powinien
+mieć na względzie zapewnienie wykonywania obowiązków przez notariuszy i KRN, jak również wysokość kosztów
+administracyjnych prowadzenia Repozytorium oraz jego niedochodowy charakter i niezbędny rozwój.
+
+ 2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+W myśl projektowanego w nowelizacji art. 8a ust. 1a ustawy, notariusz umieszcza w Repozytorium dokumenty, o których
+mowa w art. 8a ust. 1 ustawy, w formacie umożliwiającym elektroniczne przeszukiwanie ich treści.
+Nadmienić należy, iż zgodnie z art. 8a ust. 1 ustawy, do którego odsyła projektowany w nowelizacji art. 8a ust. 1a ustawy,
+notariusz przesyła ministrowi właściwemu do spraw wewnętrznych, w terminie 7 dni od dnia sporządzenia:
+1) wypis aktu notarialnego oraz kopię umowy z podpisami notarialnie poświadczonymi, na mocy których cudzoziemiec
+nabył nieruchomość położoną na terytorium Rzeczypospolitej Polskiej lub nabył lub objął udziały, akcje lub ogół praw
+i obowiązków w spółce handlowej będącej właścicielem lub wieczystym użytkownikiem nieruchomości położonych na
+terytorium Rzeczypospolitej Polskiej;
+2) wypis aktu poświadczenia dziedziczenia wraz z wypisem protokołu dziedziczenia, jeżeli w akcie poświadczenia
+dziedziczenia stwierdzono dziedziczenie przez cudzoziemca, zaś w poprzedzającym go protokole dziedziczenia stawający
+złożyli oświadczenie o tym, że w skład spadku wchodzą własność lub wieczyste użytkowanie nieruchomości położonych
+na terytorium Rzeczypospolitej Polskiej lub udziały, akcje lub ogół praw i obowiązków w spółce handlowej będącej
+właścicielem lub wieczystym użytkownikiem nieruchomości położonych na terytorium Rzeczypospolitej Polskiej;
+3) odpis europejskiego poświadczenia spadkowego, jeżeli stwierdzono w nim dziedziczenie przez cudzoziemca, zaś
+w skład spadku wchodzą własność lub wieczyste użytkowanie nieruchomości położonych na terytorium Rzeczypospolitej
+Polskiej lub udziały, akcje lub ogół praw i obowiązków w spółce handlowej będącej właścicielem lub wieczystym
+użytkownikiem nieruchomości położonych na terytorium Rzeczypospolitej Polskiej.
+Tym samym po nowelizacji wszystkie wyżej wymienione dokumenty, dla potrzeb przekazania ich do ministra właściwego
+do spraw wewnętrznych, przybiorą postać elektroniczną, co zwiększy zakres wykorzystania Repozytorium, a także rodzaj
+i liczbę przechowywanych w nim elektronicznych dokumentów.
+W projektowanym przepisie § 2 proponuje się, aby okres przechowywania w Repozytorium dokumentów wynosił 5 lat od
+końca roku, w którym zostały one umieszczone w tym Repozytorium przez notariusza. Jest to okres wystarczający dla
+ministra właściwego do spraw wewnętrznych na ewentualną weryfikację treści powyższych dokumentów, które
+dodatkowo będą przekazywane z Repozytorium przez KRN niezwłocznie do systemu teleinformatycznego ministra
+właściwego do spraw wewnętrznych.
+Zgodnie z projektowanym w nowelizacji art. 8a ust. 1c ustawy za umieszczenie dokumentu w Repozytorium notariusz
+będzie pobierał od stron czynności notarialnej opłatę, która będzie przekazywana KRN.
+Kwota opłaty za umieszczenie dokumentu w Repozytorium została określona w wysokości 5 zł. Zatem strony czynności
+notarialnej będą zobowiązane do uiszczenia notariuszowi opłaty w kwocie 5 zł (niezależnie od liczby stron (osób)
+uczestniczących w sporządzeniu dokumentu) za umieszczenie dokumentu w Repozytorium.
+Przy określaniu wysokości ww. opłaty należy mieć na uwadze wysokość kosztów prowadzenia Repozytorium oraz
+zapewnienie niezbędnego rozwoju. Zaznaczyć należy, że Repozytorium już istnieje, ale wymaga stosownych modyfikacji,
+bieżącego utrzymania, zabezpieczenia, a przede wszystkim zwiększenia pojemności serwerów.
+Zgodnie z danymi ministra właściwego do spraw wewnętrznych w 2024 roku notariusze, wykonując obowiązek nałożony
+w art. 8a ust. 1 ustawy, przekazali 36 279 dokumentów w formie papierowej, w tym 30 018 aktów notarialnych.
+Na przykładzie aktów notarialnych wskazać należy, iż w obowiązującym stanie prawnym notariusz, zgodnie z aktualną
+taksą notarialną, pobiera opłatę za sporządzenie wypisu aktu notarialnego. Na podstawie § 12 rozporządzenia Ministra
+Sprawiedliwości z dnia 28 czerwca 2004 r. w sprawie maksymalnych stawek taksy notarialnej (Dz. U. z 2024 r. poz. 1566)
+stawka za sporządzenie wypisu aktu notarialnego wynosi 6 zł za każdą rozpoczętą stronę. Biorąc pod uwagę liczbę stron
+przeciętnego aktu notarialnego dokumentującego zdarzenie objęte zakresem ustawy, koszt jednego wypisu aktu
+notarialnego kształtuje się średnio na poziomie od 30 do 60 zł. Uwzględniając powyższe, opłata za umieszczenie tego aktu
+w Repozytorium powinna być relatywnie niższa. Nie jest bowiem celem ustawodawcy utrzymanie tych kosztów na
+poziomie dotychczasowym, ale ich zmniejszenie po stronie uczestników czynności notarialnych.
+Zasadne jest zatem przyjęcie, że wysokość opłaty za umieszczenie dokumentu w Repozytorium nie powinna przekraczać
+5 zł. W tej sytuacji opłata w wysokości 5 zł za każdy dokument umieszczony w Repozytorium będzie wystarczająca dla
+pokrycia kosztów administracyjnych systemu oraz umożliwi zapewnienie jego rozwoju, zatem w pełni zrealizuje wytyczne
+zawarte w projektowanym w nowelizacji przepisie art. 8a ust. 1d ustawy. W konsekwencji KRN będzie dysponowała
+wystarczającą kwotą na przechowywanie, utrzymanie i rozwój Repozytorium.
+Zgodnie z projektowanym w nowelizacji art. 8a ust. 1c ustawy, za umieszczenie na podstawie ust. 1a dokumentu
+w Repozytorium notariusz pobiera od stron czynności notarialnej opłatę, którą przekazuje KRN. W celu zapewnienia
+prawidłowego wykonywania obowiązków przez notariuszy i KRN niezbędne jest określenie w projektowanym
+rozporządzeniu sposobu przekazywania przez notariuszy do KRN wyżej wymienionej opłaty. W związku z powyższym
+proponuje się, aby § 4 projektowanego rozporządzenia zawierał regulację, zgodnie z którą łączną kwotę opłat za
+umieszczenie w Repozytorium dokumentów notariusz przekazuje w formie bezgotówkowej na rachunek bankowy KRN
+w terminie do 7. dnia miesiąca następującego po miesiącu, w którym akty notarialne zostały sporządzone.
+ 3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+
+Projektowana regulacja ze względu na stopień jej szczegółowości i domenę prawa krajowego nie była poddawana analizie
+prawnoporównawczej.
+
+4. Podmioty, na które oddziałuje projekt
+         Grupa                      Wielkość                   Źródło danych                      Oddziaływanie
+ Krajowa Rada Notarialna               1                Sprawozdanie i ocena notariatu      Beneficjent pobranej przez
+                                                                za rok 2024                notariuszy opłaty w celu jej
+                                                                                          wykorzystania na utrzymanie
+                                                                                           i rozwój Repozytorium oraz
+                                                                                          okres przechowywania aktów
+                                                                                          notarialnych w Repozytorium
+        Notariusze                                                                       Określenie wysokości opłaty za
+                                       3409             Ministerstwo Sprawiedliwości
+                                                                                            umieszczenie wypisu aktu
+                                 liczba kancelarii            stan na 30.09.2024 r        notarialnego w Repozytorium
+                                    notarialnych                                             oraz sposobu i terminu, w
+                                       4169                                              którym należy przekazać opłatę
+                                                                                          do Krajowej Rady Notarialnej
+                                 liczba notariuszy
+                                    (czynnych)
+
+    Uczestnicy zdarzeń                                  Dane w oparciu o system EZD        Określenie wysokości oraz
+                                      36 279
+   prawnych z udziałem                                          w MSWiA                   sposobu uiszczenia opłaty za
+     cudzoziemców, a          liczba dokumentów,                                           umieszczenie wypisu aktu
+    dotyczących nabyć          które wpłynęły do                                          notarialnego w Repozytorium
+ nieruchomości, udziałów      MSWiA w 2024 roku
+         lub akcji            w trybie art. 8a ust. 1
+                              ustawy o nabywaniu
+                              nieruchomości przez
+                                 cudzoziemców
+
+
+
+                                                          2
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Były prowadzone konsultacje poprzedzające przygotowanie projektu rozporządzenia tzw. prekonsultacje publiczne
+z Krajową Radą Notarialną.
+W ramach konsultacji publicznych i opiniowania projekt rozporządzenia został przekazany Krajowej Radzie Notarialnej do
+zaopiniowania.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2024 r.)                            Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                     0     1     2     3     4      5       6     7      8     9     10     Łącznie (0-10)
+Dochody ogółem                       0     0     0      0        0   0     0      0     0      0      0           0
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Wydatki ogółem                       0     0     0      0        0   0     0      0     0      0      0           0
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Saldo ogółem                         0     0     0      0        0   0     0      0     0      0      0           0
+
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+                          Rozwiązanie pozostanie bez wpływu na wysokość dochodów i wydatków sektora finansów
+Źródła finansowania       publicznych, w tym budżetu państwa i jednostek samorządu terytorialnego.
+Dodatkowe informacje,
+w tym wskazanie
+                          Stosownie do treści upoważnienia, projekt rozporządzenia podlega zaopiniowaniu przez Krajową
+źródeł danych i           Radę Notarialną, która jest właścicielem Repozytorium. Zważywszy na wytyczne stanowiące
+przyjętych do obliczeń    kryteria wpływające na wysokość opłaty, tj. potrzebę uwzględnienia dodatkowych kosztów
+założeń                   administracyjnych prowadzenia tego Repozytorium oraz jego niedochodowy charakter
+                          i niezbędny rozwój, proponuje się, by wysokość tej opłaty wynosiła 5 zł.
+                          Opłata będzie pobierana przez notariuszy od stron czynności notarialnych. Następnie notariusze
+                          będą przekazywać tę opłatę Krajowej Radzie Notarialnej bezgotówkowo na jej rachunek
+                          bankowy.
+                          Na podstawie liczby przekazywanych obecnie papierowych dokumentów i obserwowanych
+                          tendencji co do liczby tych wypisów w kolejnych latach można przyjąć, że wpływ z tytułu opłaty
+                          za umieszczenie dokumentu w Repozytorium będzie kształtował się na poziomie ok. 180.000,00
+                          zł (5 zł x 36.000 dokumentów umieszczanych w Repozytorium).
+                          Koszty związane z prowadzeniem podsystemu Repozytorium będą kształtowały się następująco
+                          (dane Krajowej Rady Notarialnej):
+                              a) koszty z tytułu rocznego prowadzenia podsystemu Repozytorium zawierające w sobie
+                                 także koszty budowy (rozbudowy, modernizacji) systemu do poziomu pozwalającego na
+                                 realizację obowiązków informacyjnych w stosunku do Krajowej Administracji
+                                 Skarbowej – około 4.030.000,00 zł,
+                              b) koszt jednorazowej opłaty przygotowawczej – 61.783,00 zł,
+                              c) koszty niezbędnej rezerwy finansowej uwzględniającej przewidziane w ustawie koszty
+                                 niezbędnego rozwoju systemu, które poza kosztami powierzchni dyskowych nie
+                                 mieszczą się w kosztach wymienionych w lit. a i b,
+                              d) koszty osobowe i organizacyjne obsługi po stronie Krajowej Rady Notarialnej.
+
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                            Skutki
+
+                                                             3
+Czas w latach od wejścia w życie zmian        0         1              2         3         5         10    Łącznie
+                                                                                                            (0-10)
+W ujęciu         duże przedsiębiorstwa
+pieniężnym       sektor mikro-, małych i
+(w mln zł,       średnich
+ceny stałe z     przedsiębiorstw
+…… r.)           rodzina, obywatele
+                 oraz gospodarstwa
+                 domowe
+W ujęciu         duże przedsiębiorstwa     Projekt wpłynie pozytywnie na duże przedsiębiorstwa przez obniżenie kosztów
+niepieniężnym                              czynności notarialnych związanych z przygotowaniem i przesyłką wypisu w
+                                           formie papierowej.
+                 sektor mikro-, małych i   Projekt wpłynie pozytywnie na sektor mikro-, małych i średnich
+                 średnich                  przedsiębiorstw przez obniżenie kosztów czynności notarialnych związanych
+                 przedsiębiorstw           z przygotowaniem i przesyłką wypisu w formie papierowej.
+                 rodzina, obywatele        Nastąpi obniżenie kosztów czynności notarialnych, w tym sporządzenia wypisu
+                 oraz gospodarstwa         aktu notarialnego ponoszonych przez uczestników czynności prawnej (brak
+                 domowe                    obowiązku sporządzenia i przekazania wypisu w formie papierowej).
+Niemierzalne                               Nie dotyczy.
+Dodatkowe
+informacje, w tym
+wskazanie źródeł         Rozwiązanie przewidziane w projekcie pozostanie bez wpływu na konkurencyjność gospodarki
+danych i przyjętych do   i przedsiębiorczość.
+obliczeń założeń
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie         tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli  nie
+zgodności).                                         nie dotyczy
+
+   zmniejszenie liczby dokumentów                               zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                                 zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                        wydłużenie czasu na załatwienie sprawy
+   inne:                                                        inne:
+
+Wprowadzane obciążenia są przystosowane do ich                  tak
+elektronizacji.                                                 nie
+                                                                nie dotyczy
+Rozporządzenie nie zwiększa obciążeń regulacyjnych. Opłaty za umieszczenie w Repozytorium wypisu aktu notarialnego
+będą przekazywane do Krajowej Rady Notarialnej bezgotówkowo.
+9. Wpływ na rynek pracy
+Wejście w życie rozporządzenia nie będzie miało wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+
+   środowisko naturalne                    demografia                                  informatyzacja
+   sytuacja i rozwój regionalny            mienie państwowe                            zdrowie
+   sądy powszechne, administracyjne        inne:
+lub wojskowe
+Omówienie wpływu         Brak wpływu na pozostałe obszary.
+
+ 11. Planowane wykonanie przepisów aktu prawnego
+Rozporządzenie wejdzie w życie ……
+ 12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Zostanie przeprowadzona ewaluacja efektów projektu po roku od dnia wejścia w życie rozporządzenia. Miernikiem będzie
+liczba dokumentów umieszczonych w Repozytorium oraz wysokość stałych kosztów administracyjnych prowadzenia
+Repozytorium w pierwszym roku obowiązywania rozporządzenia. Otrzymane wartości zostaną przeanalizowane w
+
+                                                            4
+odniesieniu do dotychczasowej wysokości opłaty za umieszczenie w Repozytorium elektronicznego wypisu aktu
+notarialnego. W efekcie przeprowadzonej analizy może zostać dokonana nowelizacja rozporządzenia.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                   5
+                                                                                         Projekt
+                               ROZPORZĄDZENIE
+
+                     M I N I S T R A S P R AW I E D L I W O Ś C I
+
+                                               z dnia
+
+w sprawie sposobu sporządzania elektronicznego wypisu, odpisu, kopii i wyciągu z aktu
+     notarialnego, aktu poświadczenia dziedziczenia, europejskiego poświadczenia
+                            spadkowego lub innego dokumentu
+
+
+     Na podstawie art. 92a § 7 ustawy z dnia 14 lutego 1991 r. – Prawo o notariacie (Dz. U.
+z 2026 r. poz. 614 i …) zarządza się, co następuje:
+
+     § 1. Rozporządzenie określa:
+1)   sposób sporządzenia:
+     a)   elektronicznego wypisu i wyciągu z aktu notarialnego,
+     b)   elektronicznego wypisu, kopii lub odpisu dokumentów, o których mowa w art. 8a
+          ust. 1 ustawy   z dnia    24 marca     1920 r.   o nabywaniu   nieruchomości    przez
+          cudzoziemców (Dz. U. z 2017 r. poz. 2278 oraz z 2026 r. poz. …), zwanych dalej
+          „innymi dokumentami”;
+2)   warunki organizacyjno-techniczne umieszczania dokumentów, o których mowa w pkt 1,
+     przez notariuszy w Centralnym Repozytorium Elektronicznych Wypisów Aktów
+     Notarialnych, o którym mowa w art. 92a § 1 ustawy z dnia 14 lutego 1991 r. – Prawo
+     o notariacie, zwanym dalej „Repozytorium” oraz ich przechowywania;
+3)   tryb informowania Ministra Sprawiedliwości, notariuszy, sądów oraz innych organów
+     państwowych uprawnionych do dostępu do Repozytorium o ewentualnych przerwach
+     w dostępie do Repozytorium.
+
+     § 2. 1. Elektroniczny wypis lub wyciąg z aktu notarialnego oraz elektroniczny wypis,
+kopię lub odpis innego dokumentu sporządza się przez utworzenie dokumentu elektronicznego
+w formacie ASiC, zawierającego treść oryginału aktu notarialnego lub innego dokumentu.
+     2. Umieszczenie w Repozytorium elektronicznego wypisu lub wyciągu                    z aktu
+notarialnego oraz elektronicznego wypisu, kopii lub odpisu innego dokumentu odbywa się przy
+użyciu utworzonego dokumentu elektronicznego, który zawiera:
+1)   odpowiadającą treści oryginału treść aktu notarialnego lub treść innego dokumentu;
+2)   elektroniczne kopie załączników do aktu notarialnego oraz innych dokumentów;
+                                            –2–
+
+
+3)   oznaczenie notariusza wraz ze wskazaniem siedziby jego kancelarii, a w sytuacji gdy
+     wypis lub wyciąg z aktu notarialnego lub wypis, kopię lub odpis innego dokumentu
+     sporządził zastępca notarialny, notariusz emerytowany lub aplikant notarialny
+     wykonujący czynności notarialne w trybie art. 22a ustawy z dnia 14 lutego 1991 r. –
+     Prawo    o notariacie   –   również   oznaczenie    zastępcy     notarialnego,   notariusza
+     emerytowanego lub aplikanta notarialnego;
+4)   oznaczenie podmiotu uprawnionego, któremu wydano wypis lub wyciąg z aktu
+     notarialnego lub wypis, kopię lub odpis innego dokumentu;
+5)   kwalifikowany podpis elektroniczny notariusza, zastępcy notarialnego, notariusza
+     emerytowanego lub aplikanta notarialnego wykonującego czynności notarialne w trybie
+     art. 22a ustawy z dnia 14 lutego 1991 r. – Prawo o notariacie;
+6)   numer repertorium A aktu notarialnego, aktu poświadczenia dziedziczenia, europejskiego
+     poświadczenia spadkowego lub poświadczenia podpisu na innym dokumencie oraz numer
+     repertorium A wypisu, odpisu lub wyciągu z aktu notarialnego, aktu poświadczenia
+     dziedziczenia lub europejskiego poświadczenia spadkowego.
+     3. Każdemu elektronicznemu wypisowi lub wyciągowi z aktu notarialnego lub
+elektronicznemu wypisowi, kopii lub odpisowi innego dokumentu z chwilą umieszczenia go
+w Repozytorium nadaje się automatycznie numer, zwany dalej „numerem Rep. N”, oraz
+odnotowuje się datę i czas umieszczenia go w Repozytorium.
+
+     § 3. Wypisy i wyciągi z aktów notarialnych oraz wypisy, kopie i odpisy innych
+dokumentów umieszczone w Repozytorium przechowuje się w warunkach zapewniających:
+1)   niezmienność przechowywanych danych, o których mowa w § 2;
+2)   odnotowanie każdej zmiany oddziaływującej na treść oryginału aktu notarialnego lub
+     innego dokumentu, a także elektronicznego wypisu lub wyciągu z aktu notarialnego lub
+     elektronicznego wypisu, kopii lub odpisu innego dokumentu przechowywanego
+     w Repozytorium;
+3)   opatrzenie ich zaawansowaną pieczęcią elektroniczną w momencie ich wydawania.
+
+     § 4. Krajowa Rada Notarialna informuje niezwłocznie za pomocą środków komunikacji
+elektronicznej Ministra Sprawiedliwości, notariuszy, sądy oraz inne organy państwowe
+uprawnione na podstawie przepisów szczególnych do dostępu do Repozytorium
+o ewentualnych przerwach w dostępie do Repozytorium.
+                                                    –3–
+
+
+       § 5. Rozporządzenie wchodzi w życie z dniem ….1)
+                                                              MINISTER SPRAWIEDLIWOŚCI
+
+w porozumieniu:
+MINISTER CYFRYZACJI
+
+
+
+
+1)
+     Niniejsze rozporządzenie było poprzedzone rozporządzeniem Ministra Sprawiedliwości z dnia 25 kwietnia
+     2018 r. w sprawie sposobu sporządzenia elektronicznego wypisu i wyciągu z aktu notarialnego (Dz. U. poz.
+     833), które utraciło moc z dniem … na podstawie art. 2 pkt 3 ustawy z dnia … o zmianie ustawy o nabywaniu
+     nieruchomości przez cudzoziemców oraz ustawy – Prawo o notariacie (Dz. U. poz. …).
+                                     UZASADNIENIE
+
+     Zgodnie z art. 8a ust. 1 ustawy z dnia 24 marca 1920 r. o nabywaniu nieruchomości przez
+cudzoziemców (Dz. U. z 2017 r. poz. 2278 oraz z 2026 r. poz. …) notariusz przesyła ministrowi
+właściwemu do spraw wewnętrznych, w terminie 7 od dnia sporządzenia:
+1)   wypis aktu notarialnego oraz kopię umowy z podpisami notarialnie poświadczonymi, na
+     mocy    których    cudzoziemiec     nabył   nieruchomość     położoną    na    terytorium
+     Rzeczypospolitej Polskiej lub nabył lub objął udziały, akcje lub ogół praw i obowiązków
+     w spółce handlowej będącej właścicielem lub wieczystym użytkownikiem nieruchomości
+     położonych na terytorium Rzeczypospolitej Polskiej;
+2)   wypis aktu poświadczenia dziedziczenia wraz z wypisem protokołu dziedziczenia, jeżeli
+     w akcie poświadczenia dziedziczenia stwierdzono dziedziczenie przez cudzoziemca, zaś
+     w poprzedzającym go protokole dziedziczenia stawający złożyli oświadczenie o tym, że
+     w skład spadku wchodzą własność lub wieczyste użytkowanie nieruchomości położonych
+     na terytorium Rzeczypospolitej Polskiej lub udziały, akcje lub ogół praw i obowiązków
+     w spółce handlowej będącej właścicielem lub wieczystym użytkownikiem nieruchomości
+     położonych na terytorium Rzeczypospolitej Polskiej;
+3)   odpis europejskiego poświadczenia spadkowego, jeżeli stwierdzono w nim dziedziczenie
+     przez cudzoziemca, zaś w skład spadku wchodzą własność lub wieczyste użytkowanie
+     nieruchomości położonych na terytorium Rzeczypospolitej Polskiej lub udziały, akcje lub
+     ogół praw i obowiązków w spółce handlowej będącej właścicielem lub wieczystym
+     użytkownikiem nieruchomości położonych na terytorium Rzeczypospolitej Polskiej.
+
+     Projekt ustawy o zmianie ustawy o nabywaniu nieruchomości przez cudzoziemców oraz
+ustawy – Prawo o notariacie, zwany dalej „nowelizacją”, przewiduje, że do przywołanej ustawy
+o nabywaniu nieruchomości przez cudzoziemców zostanie m.in. dodany art. 1 ust. 1a, zgodnie
+z którym elektroniczne wypisy, kopie lub odpisy dokumentów, o których mowa w ust. 1,
+notariusz umieszcza w Centralnym Repozytorium Elektronicznych Wypisów Aktów
+Notarialnych, w formacie umożliwiającym elektroniczne przeszukiwanie ich treści.
+
+     W związku z powyższą zmianą, nowelizacja przewiduje również zmianę treści art. 92a
+ustawy z dnia 14 lutego 1991 r. – Prawo o notariacie (Dz. U. z 2026 r. poz. 614).
+
+     Nowelizacja przewiduje zatem obowiązek umieszczania przez notariuszy w Centralnym
+Rejestrze Elektronicznych Wypisów Aktów Notarialnych dodatkowej grupy dokumentów,
+o których mowa w art. 8a ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców.
+     Nowelizacja przewiduje również zmianę art. 92a § 7 ustawy – Prawo o notariacie,
+zawierającego upoważnienie ustawowe do wydania przez Ministra Sprawiedliwości,
+w porozumieniu z ministrem właściwym do spraw informatyzacji oraz po zasięgnięciu opinii
+Krajowej    Rady    Notarialnej,   rozporządzenia    określającego    sposób    sporządzenia
+elektronicznego wypisu i wyciągu z aktu notarialnego oraz innego elektronicznego dokumentu,
+o których mowa w § 1, warunki organizacyjno-techniczne ich umieszczania przez notariuszy
+w Repozytorium, ich przechowywania, a także tryb informowania Ministra Sprawiedliwości
+i podmiotów wymienionych w § 1 o ewentualnych przerwach w dostępie do Repozytorium,
+uwzględniając minimalne wymagania dla rejestrów publicznych i wymiany informacji
+w postaci elektronicznej, bezpieczeństwo danych, w tym ochronę przed nieuprawnionym
+ujawnieniem i dostępem.
+
+     Mając na uwadze zmianę przepisu upoważniającego do wydania rozporządzenia, jest
+konieczne wydanie nowego rozporządzenia Ministra Sprawiedliwości na podstawie art. 92a
+§ 7 ustawy – Prawo o notariacie, zastępującego aktualne rozporządzenie Ministra
+Sprawiedliwości z dnia 25 kwietnia 2018 r. (Dz. U. z 2018 r. poz. 833) w sprawie sposobu
+sporządzenia elektronicznego wypisu i wyciągu z aktu notarialnego, wydane na podstawie
+powyższego upoważnienia ustawowego w aktualnie obowiązującym brzmieniu.
+
+     Nowe rozporządzenie Ministra Sprawiedliwości będzie uwzględniać oprócz dotychczas
+umieszczanych w Centralnym Repozytorium Elektronicznych Wypisów Aktów Notarialnych
+wypisów i wyciągów z aktów notarialnych, również inne dokumenty, których obowiązek
+umieszczania w powyższym Rejestrze wynika z projektowanego art. 8a ust. 1a ustawy
+o nabywaniu nieruchomości przez cudzoziemców oraz projektowanego art. 92a § 1 ustawy –
+Prawo o notariacie, tj. dokumenty określone w art. 8a ust. 1 ustawy o nabywaniu nieruchomości
+przez cudzoziemców.
+
+     Proponuje się, aby projektowane rozporządzenie weszło w życie z dniem … .
+
+     Nie ma możliwości zastosowania alternatywnych w stosunku do projektowanych
+rozwiązań środków, które umożliwiałyby osiągnięcie zamierzonego celu.
+
+     Przedmiot projektowanej regulacji nie jest objęty prawem Unii Europejskiej.
+
+     Projekt nie zawiera przepisów technicznych, zatem nie podlega notyfikacji zgodnie
+z rozporządzeniem Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu
+
+
+
+                                             2
+funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039 oraz
+z 2004 r. poz. 597).
+
+     Projekt nie wymaga przedstawienia właściwym organom i instytucjom Unii Europejskiej,
+w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+
+     Projekt nie określa zasad podejmowania, wykonywania lub zakończenia działalności
+gospodarczej.
+
+     Projekt nie podlegał dokonaniu oceny OSR przez koordynatora OSR w trybie § 32
+uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady
+Ministrów (M.P. z 2026 r. poz. 404).
+
+     Zgodnie z § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. –
+Regulamin pracy Rady Ministrów oraz stosownie do wymogów art. 5 ustawy z dnia 7 lipca
+2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677, z
+późn. zm.) projekt zostanie udostępniony w Biuletynie Informacji Publicznej na stronie
+podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces Legislacyjny.
+
+
+
+
+                                               3
+                                                                        Data sporządzenia
+Nazwa projektu:
+                                                                        19 maja 2026 r.
+Rozporządzenie Ministra Sprawiedliwości w sprawie sposobu
+sporządzania elektronicznego wypisu, odpisu, kopii i wyciągu z aktu     Źródło:
+notarialnego, aktu poświadczenia dziedziczenia, europejskiego           art. 92a § 7 ustawy z dnia 14 lutego 1991 r. –
+poświadczenia spadkowego lub innego dokumentu                           Prawo o notariacie (Dz. U. z 2026 r. poz. 614)
+Ministerstwo wiodące i ministerstwa współpracujące                      Nr w Wykazie:
+Ministerstwo Sprawiedliwości
+
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza
+Stanu lub Podsekretarza Stanu
+Pan Arkadiusz Myrcha – Sekretarz Stanu w Ministerstwie
+Sprawiedliwości
+
+Kontakt do opiekuna merytorycznego projektu
+
+                                OCENA SKUTKÓW REGULACJI
+ 1. Jaki problem jest rozwiązywany?
+Projekt ustawy o zmianie ustawy o nabywaniu nieruchomości przez cudzoziemców oraz ustawy Prawo o notariacie
+przewiduje zmianę art. 92a § 7 ustawy – Prawo o notariacie, zawierającego upoważnienie ustawowe do wydania przez
+Ministra Sprawiedliwości, w porozumieniu z ministrem właściwym do spraw informatyzacji oraz po zasięgnięciu opinii
+Krajowej Rady Notarialnej, rozporządzenia określającego sposób sporządzenia elektronicznego wypisu i wyciągu z aktu
+notarialnego oraz elektronicznego dokumentu, o których mowa w § 1, warunki organizacyjno-techniczne ich umieszczania
+przez notariuszy w Repozytorium, ich przechowywania, a także tryb informowania Ministra Sprawiedliwości i podmiotów
+wymienionych w § 1 o ewentualnych przerwach w dostępie do Repozytorium, uwzględniając minimalne wymagania dla
+rejestrów publicznych i wymiany informacji w postaci elektronicznej, bezpieczeństwo danych, w tym ochronę przed
+nieuprawnionym ujawnieniem i dostępem.
+Mając na uwadze zmianę przepisu upoważniającego do wydania rozporządzenia, jest konieczne wydanie nowego
+rozporządzenia Ministra Sprawiedliwości na podstawie art. 92a § 7 ustawy – Prawo o notariacie, zastępującego aktualne
+rozporządzenie Ministra Sprawiedliwości z dnia 25 kwietnia 2018 r. (Dz. U. z 2018 r. poz. 833) w sprawie sposobu
+sporządzenia elektronicznego wypisu i wyciągu z aktu notarialnego, wydane na podstawie powyższego upoważnienia
+ustawowego w aktualnie obowiązującym brzmieniu.
+ 2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Nowe rozporządzenie Ministra Sprawiedliwości będzie uwzględniać oprócz dotychczas umieszczanych w Centralnym
+Repozytorium Elektronicznych Wypisów Aktów Notarialnych wypisów i wyciągów z aktów notarialnych, również inne
+dokumenty, których obowiązek umieszczania w powyższym rejestrze wynika z projektowanego art. 8a ust. 1a ustawy
+o nabywaniu nieruchomości przez cudzoziemców oraz projektowanego art. 92a § 1 ustawy – Prawo o notariacie,
+tj. dokumenty określone w art. 8a ust. 1 ustawy o nabywaniu nieruchomości przez cudzoziemców.
+ 3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+
+Projektowana regulacja ze względu na stopień jej szczegółowości i domenę prawa krajowego nie była poddawana analizie
+prawnoporównawczej.
+
+4. Podmioty, na które oddziałuje projekt
+         Grupa                     Wielkość                  Źródło danych                     Oddziaływanie
+ Krajowa Rada Notarialna              1               Sprawozdanie i ocena notariatu
+                                                              za rok 2024
+        Notariusze
+                                      3409             Ministerstwo Sprawiedliwości
+                                liczba kancelarii          stan na 30.09.2024 r
+                                   notarialnych
+                                      4169
+                                liczba notariuszy
+                                   (czynnych)
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+
+
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2024 r.)                                Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                     0       1       2     3     4      5       6     7      8     9     10     Łącznie (0-10)
+Dochody ogółem                       0       0       0     0        0   0      0       0    0       0     0           0
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Wydatki ogółem                       0       0       0     0        0   0      0       0    0       0     0           0
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+Saldo ogółem                         0       0       0     0        0   0      0       0    0       0     0           0
+
+budżet państwa
+JST
+pozostałe jednostki (oddzielnie)
+                          Rozwiązanie pozostanie bez wpływu na wysokość dochodów i wydatków sektora finansów
+Źródła finansowania       publicznych, w tym budżetu państwa i jednostek samorządu terytorialnego.
+Dodatkowe informacje,
+w tym wskazanie
+źródeł danych i
+przyjętych do obliczeń
+założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                               Skutki
+Czas w latach od wejścia w życie zmian           0             1        2          3            5       10         Łącznie
+                                                                                                                    (0-10)
+W ujęciu           duże przedsiębiorstwa
+pieniężnym         sektor mikro-, małych i
+(w mln zł,         średnich
+ceny stałe z       przedsiębiorstw
+…… r.)             rodzina, obywatele
+                   oraz gospodarstwa
+                   domowe
+W ujęciu           duże przedsiębiorstwa
+niepieniężnym      sektor mikro-, małych i
+                   średnich
+                   przedsiębiorstw
+                   rodzina, obywatele
+                   oraz gospodarstwa
+                   domowe
+Niemierzalne                                 Nie dotyczy.
+Dodatkowe
+informacje, w tym
+wskazanie źródeł
+danych i przyjętych do
+obliczeń założeń
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+
+                                                                2
+Wprowadzane są obciążenia poza bezwzględnie                   tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli            nie
+zgodności).                                                   nie dotyczy
+
+   zmniejszenie liczby dokumentów                             zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                               zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                      wydłużenie czasu na załatwienie sprawy
+   inne:                                                      inne:
+
+                                                              tak
+                                                              nie
+                                                              nie dotyczy
+
+
+9. Wpływ na rynek pracy
+Wejście w życie rozporządzenia nie będzie miało wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+
+   środowisko naturalne                    demografia                                informatyzacja
+   sytuacja i rozwój regionalny            mienie państwowe                          zdrowie
+   sądy powszechne, administracyjne        inne:
+lub wojskowe
+Omówienie wpływu        Brak wpływu na pozostałe obszary.
+
+11. Planowane wykonanie przepisów aktu prawnego
+Rozporządzenie wejdzie w życie ……
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Brak.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                          3
+

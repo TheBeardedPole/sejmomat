@@ -1,0 +1,991 @@
+                                                                       Druk nr 1375
+                                                               Warszawa, 17 czerwca 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-96-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+           Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+  - zmieniającej ustawę o zmianie ustawy
+   o rachunkowości, ustawy o biegłych
+   rewidentach, firmach audytorskich oraz
+   nadzorze publicznym oraz niektórych innych
+   ustaw.
+        Projekt ma na celu wykonanie prawa Unii Europejskiej.
+        Projekt ma charakter deregulacyjny.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Finansów.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                               Projekt
+                                             U S T AWA
+
+                                                 z dnia
+
+ zmieniająca ustawę o zmianie ustawy o rachunkowości, ustawy o biegłych rewidentach,
+      firmach audytorskich oraz nadzorze publicznym oraz niektórych innych ustaw1)
+
+
+       Art. 1. W ustawie z dnia 6 grudnia 2024 r. o zmianie ustawy o rachunkowości, ustawy
+o biegłych rewidentach, firmach audytorskich oraz nadzorze publicznym oraz niektórych
+innych ustaw (Dz. U. poz. 1863) w art. 14:
+1)     w ust. 5:
+       a)   w pkt 2 wyrazy „po dniu 31 grudnia 2024 r.” zastępuje się wyrazami „po dniu
+            31 grudnia 2026 r.”,
+       b)   w pkt 3 we wprowadzeniu do wyliczenia wyrazy „po dniu 31 grudnia 2025 r.”
+            zastępuje się wyrazami „po dniu 31 grudnia 2027 r.”;
+2)     uchyla się ust. 6.
+
+       Art. 2. Ustawa wchodzi w życie z dniem następującym po dniu ogłoszenia.
+
+
+
+
+1)
+     Niniejsza ustawa w zakresie swojej regulacji wdraża dyrektywę Parlamentu Europejskiego i Rady (UE)
+     2025/794 z dnia 14 kwietnia 2025 r. w sprawie zmiany dyrektywy (UE) 2022/2464 i (UE) 2024/1760
+     w odniesieniu do dat, od których państwa członkowskie mają stosować niektóre wymogi dotyczące
+     sprawozdawczości przedsiębiorstw w zakresie zrównoważonego rozwoju i niektóre wymogi w zakresie
+     należytej staranności przedsiębiorstw w zakresie zrównoważonego rozwoju (Dz. Urz. UE L 2025/794
+     z 16.04.2025).
+                                           UZASADNIENIE
+      I. Cel regulacji
+Projekt ustawy zmieniającej ustawę o zmianie ustawy o rachunkowości, ustawy o biegłych
+rewidentach, firmach audytorskich oraz nadzorze publicznym oraz niektórych innych ustaw ma
+na celu dostosowanie przepisów krajowych do dyrektywy 2025/7941) w zakresie, w jakim
+wprowadza ona zmiany do dyrektywy 2022/24642), tzw. CSRD.
+
+CSRD, która została wdrożona do przepisów krajowych ustawą z dnia 6 grudnia 2024 r.
+o zmianie ustawy o rachunkowości, ustawy o biegłych rewidentach, firmach audytorskich oraz
+nadzorze publicznym oraz niektórych innych ustaw (Dz. U. poz. 1863), wprowadziła
+obowiązek przedstawiania informacji o wpływie działalności jednostki na obszar
+środowiskowy, spraw społecznych, w tym praw człowieka, oraz ładu korporacyjnego, a także
+wpływu tych trzech obszarów na rozwój, wyniki i sytuację jednostki (tzw. sprawozdawczość
+zrównoważonego rozwoju lub sprawozdawczość ESG). Do raportowania są obowiązane
+obecnie jednostki duże oraz małe i średnie jednostki będące emitentami papierów
+wartościowych dopuszczonych do obrotu na jednym z rynków regulowanych Europejskiego
+Obszaru Gospodarczego, a także jednostki dominujące dużych grup. Obowiązek raportowania
+po raz pierwszy zgodnie z wymogami CSRD został rozłożony na trzy etapy. W pierwszej
+kolejności, w 2025 r. za rok obrotowy 2024, raportują największe jednostki zainteresowania
+publicznego zatrudniające ponad 500 pracowników i przekraczające co najmniej jeden
+z progów finansowych dla jednostki dużej, a także jednostki zainteresowania publicznego
+stojące na czele grupy, w której zatrudnienie przekracza 500 osób, oraz która przekracza co
+najmniej jeden z progów finansowych dla dużej grupy. Zgodnie z obecnymi regulacjami
+w drugiej turze, w 2026 r. za rok obrotowy 2025, miałyby zaraportować pozostałe jednostki
+duże i pozostałe duże grupy, natomiast w trzeciej fali, w 2027 r. za rok obrotowy 2026 – mali
+i średni emitenci z rynku regulowanego.
+
+Jednakże w ramach nadrzędnego celu zmniejszenia obciążeń dla przedsiębiorców w Unii
+Europejskiej oraz poprawy ich konkurencyjności, szczególnie w kontekście rosnącej presji
+
+1)
+     dyrektywa Parlamentu Europejskiego i Rady (UE) 2025/794 z dnia 14 kwietnia 2025 r. w sprawie zmiany
+     dyrektywy (UE) 2022/2464 i (UE) 2024/1760 w odniesieniu do dat, od których państwa członkowskie mają
+     stosować niektóre wymogi dotyczące sprawozdawczości przedsiębiorstw w zakresie zrównoważonego
+     rozwoju i niektóre wymogi w zakresie należytej staranności przedsiębiorstw w zakresie zrównoważonego
+     rozwoju (Dz. Urz. UE L 2025/794 z 16.04.2024)
+2)
+     dyrektywa Parlamentu Europejskiego i Rady (UE) 2022/2464 z dnia 14 grudnia 2022 r. w sprawie zmiany
+     rozporządzenia (UE) nr 537/2014, dyrektywy 2004/109/WE, dyrektywy 2006/43/WE oraz dyrektywy
+     2013/34/UE w odniesieniu do sprawozdawczości przedsiębiorstw w zakresie zrównoważonego rozwoju,
+     tzw. CSRD (Dz. Urz. UE L 322 z 16.12.2022, str. 15)
+konkurencyjnej ze strony państw spoza UE, w dniu 26 lutego 2024 r. Komisja Europejska
+przedstawiła pierwszy pakiet uproszczeń w obszarze zrównoważonego rozwoju, tzw. Omnibus
+I.
+
+Uproszczenia w zakresie CSRD zawarto w dwóch projektach aktów prawnych. Pierwszy z nich
+(tzw. stop-the-clock) przewidywał odroczenie o dwa lata wejścia w życie wymogów
+sprawozdawczych dla drugiej i trzeciej fali jednostek. Został on ostatecznie przyjęty przez
+Parlament Europejski i Radę UE w postaci dyrektywy 2025/794, którą państwa członkowskie
+mają obowiązek wdrożyć do końca 2025 r. Tym niemniej konieczne jest jak najszybsze
+wdrożenie tej dyrektywy ze względu na potrzebę zapewnienia pewności prawnej dla jednostek
+objętych obowiązkiem raportowania, w szczególności dla drugiej grupy, która zgodnie
+z pierwotnymi przepisami CSRD i wdrażającej ją ustawy z dnia 6 grudnia 2024 r. o zmianie
+ustawy o rachunkowości, ustawy o biegłych rewidentach, firmach audytorskich oraz nadzorze
+publicznym oraz niektórych innych ustaw ma zaraportować po raz pierwszy za 2025 r.
+
+Przyjęte dyrektywą 2025/794 odroczenie terminów pierwszego raportowania dla drugiej
+i trzeciej grupy jednostek należy też rozpatrywać w świetle zmian merytorycznych w zakresie
+sprawozdawczości zrównoważonego rozwoju zaproponowanych w drugim z projektów aktów
+prawnych Omnibus I (wniosek dotyczący dyrektywy Parlamentu Europejskiego i Rady
+zmieniającej dyrektywy 2006/43/WE, 2013/34/UE, 2022/2464 i 2024/1760 w odniesieniu do
+niektórych     wymogów      dotyczących     sprawozdawczości         przedsiębiorstw   w    zakresie
+zrównoważonego rozwoju i należytej staranności (COM(2025) 81). Projekt ten jest obecnie
+procedowany na forum UE. KE zaproponowała w nim m.in.:
+1. znacząco zawęzić zakres jednostek zobowiązanych do sporządzania sprawozdawczości
+     zrównoważonego rozwoju;
+2. wprowadzenie limitu informacji, jakie jednostki raportujące mogłyby żądać od jednostek
+     znajdujących się w ich łańcuchu wartości;
+3. usunięcie uprawnienia dla KE do wydania sektorowych standardów sprawozdawczości
+     zrównoważonego rozwoju czy
+4. rezygnację     z   docelowo    przewidzianej        w     CSRD     atestacji   sprawozdawczości
+     zrównoważonego rozwoju na poziomie wystarczającego zapewnienia (reasonable
+     assurance) i pozostawienie jej na poziomie ograniczonego zapewnienia (limited assurance).
+
+Celem odroczenia terminów pierwszego raportowania przewidzianego w dyrektywie 2025/794
+jest    zapewnienie   odpowiedniego       czasu   na       rozpatrzenie   zaproponowanych     zmian
+
+
+
+                                                  2
+merytorycznych, ich przyjęcie i wdrożenie do krajowego porządku prawnego, aby uniknąć
+sytuacji, w której niektóre jednostki są zobowiązane do sporządzania sprawozdawczości
+zrównoważonego rozwoju za rok obrotowy 2025 (druga fala) lub 2026 (trzecia fala),
+a następnie, po przyjęciu zmian merytorycznych zawartych w drugim projekcie, będą
+zwolnione z tego wymogu. Taka sytuacja oznaczałaby, że dane jednostki poniosłyby
+niepotrzebne i możliwe do uniknięcia koszty.
+
+Tym niemniej jednostki, dla których sprawozdawczość ESG będzie istotna ze względów na
+stosowaną strategię biznesową lub potrzebę dostarczenia informacji dla dostawców kapitału,
+będą mogły dobrowolnie sporządzić sprawozdawczość zrównoważonego rozwoju.
+
+  II. Proponowane zmiany
+
+Projekt ustawy, w ślad za dyrektywą 2025/794, zakłada odroczenie o dwa lata obowiązku
+raportowania informacji o zrównoważonym rozwoju dla dużych jednostek oraz dla małych
+i średnich jednostek będących emitentami papierów wartościowych dopuszczonych do obrotu
+na jednym z rynków regulowanych Europejskiego Obszaru Gospodarczego, odpowiednio do
+2028 r. za rok obrotowy 2027 (druga fala) oraz do 2029 r. za rok obrotowy 2028 (trzecia fala).
+W związku z tym w art. 14 ust. 5 pkt 2 i 3 ustawy z dnia 6 grudnia 2024 r. o zmianie ustawy
+o rachunkowości, ustawy o biegłych rewidentach, firmach audytorskich oraz nadzorze
+publicznym oraz niektórych innych ustaw terminy „31 grudnia 2024 r.” i „31 grudnia 2025 r.”
+należy zamienić odpowiednio na „31 grudnia 2026 r.” i „31 grudnia 2027 r.”.
+
+Jednocześnie w związku z wprowadzonym przez dyrektywę 2025/794 dwuletnim odroczeniem
+pierwszego raportowania trzecia fala jednostek będzie miała obowiązek zaraportować po raz
+pierwszy za 2028 r. Zatem przewidziana dla tej grupy jednostek w obecnym art. 14 ust. 6 ustawy
+z dnia 6 grudnia 2024 r. o zmianie ustawy o rachunkowości, ustawy o biegłych rewidentach,
+firmach audytorskich oraz nadzorze publicznym oraz niektórych innych ustaw możliwość
+dwuletniego odroczenia raportowania traci rację bytu. Stąd zasadne jest wykreślenie art. 14
+ust. 6 tej ustawy.
+
+Pozostałe przepisy pozostają bez zmian. Projekt ma charakter punktowej nowelizacji
+technicznej, nieingerującej w zakres merytoryczny obowiązków sprawozdawczych, a jedynie
+w moment ich pierwszego stosowania.
+
+Ustawa wchodzi w życie z dniem następującym po dniu ogłoszenia. Projektowane zmiany
+odraczające terminy raportowania informacji o zrównoważonym rozwoju są korzystne dla
+
+
+                                               3
+adresatów, w związku z tym ważny interes państwa wymaga ich natychmiastowego wejścia
+w życie, a zasady demokratycznego państwa prawnego nie stoją temu na przeszkodzie.
+
+Projektowana regulacja nie wymaga przedłożenia instytucjom i organom Unii Europejskiej,
+w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+
+Zawarte w projekcie ustawy regulacje nie stanowią przepisów technicznych w rozumieniu
+rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania
+krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.), dlatego
+też projekt ustawy nie podlega procedurze notyfikacji.
+
+Projekt ustawy jest zgodny z prawem UE.
+
+
+
+
+                                               4
+Nazwa projektu                                                     Data sporządzenia
+Projekt ustawy zmieniającej ustawę o zmianie ustawy 12 czerwca 2025 r.
+o rachunkowości, ustawy o biegłych rewidentach, firmach
+audytorskich oraz nadzorze publicznym oraz niektórych innych ustaw
+                                                                   Źródło
+                                                                   prawo UE
+Ministerstwo wiodące i ministerstwa współpracujące
+Ministerstwo Finansów                                              deregulacja
+                                                                   dyrektywa Parlamentu Europejskiego
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza i Rady (UE) 2025/794 z dnia 14 kwietnia
+Stanu lub Podsekretarza Stanu                                      2025 r. w sprawie zmiany dyrektywy (UE)
+Jurand Drop, Podsekretarz Stanu w Ministerstwie Finansów           2022/2464 i (UE) 2024/1760 w odniesieniu
+                                                                   do dat, od których państwa członkowskie
+                                                                   mają stosować niektóre wymogi dotyczące
+Kontakt do opiekuna merytorycznego projektu                        sprawozdawczości          przedsiębiorstw
+Agnieszka      Stachniak,     Zastępca    Dyrektora   Departamentu w zakresie zrównoważonego rozwoju
+Efektywności      Wydatków       Publicznych    i   Rachunkowości, i niektóre wymogi w zakresie należytej
+tel. 22 694 44 02, e-mail: agnieszka.stachniak@mf.gov.pl           staranności przedsiębiorstw w zakresie
+Joanna Guzowska, Radca, Radca, Zespół Międzynarodowych zrównoważonego rozwoju (Dz. Urz. UE L
+Regulacji w zakresie Rachunkowości i Rewizji Finansowej, 2025/794 z 16.04.2024)
+tel. 538 506 447, e-mail: joanna.guzowska@mf.gov.pl
+                                                                       Nr w Wykazie prac legislacyjnych
+                                                                       i programowych Rady Ministrów
+                                                                       UC93
+
+                              OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Państwa członkowskie mają obowiązek dostosowania do końca 2025 r. przepisów krajowych do dyrektywy 2025/794
+w zakresie, w jakim wprowadza ona zmiany do dyrektywy Parlamentu Europejskiego i Rady (UE) 2022/2464 z dnia
+14 grudnia 2022 r. w sprawie zmiany rozporządzenia (UE) nr 537/2014, dyrektywy 2004/109/WE, dyrektywy
+2006/43/WE oraz dyrektywy 2013/34/UE w odniesieniu do sprawozdawczości przedsiębiorstw w zakresie
+zrównoważonego rozwoju, tzw. CSRD (Dz. Urz. UE L 322 z 16.12.2022, str. 15).
+CSRD, która została wdrożona do przepisów krajowych ustawą z dnia 6 grudnia 2024 r. o zmianie ustawy
+o rachunkowości, ustawy o biegłych rewidentach, firmach audytorskich oraz nadzorze publicznym oraz niektórych
+innych ustaw (Dz. U. 1863), wprowadziła obowiązek przedstawiania informacji o wpływie działalności jednostki na
+obszar środowiskowy, spraw społecznych, w tym praw człowieka, oraz ładu korporacyjnego, a także wpływu tych
+trzech obszarów na rozwój, wyniki i sytuację jednostki (tzw. sprawozdawczość zrównoważonego rozwoju lub
+sprawozdawczość ESG). Do raportowania są obowiązane obecnie jednostki duże oraz małe i średnie jednostki będące
+emitentami papierów wartościowych dopuszczonych do obrotu na jednym z rynków regulowanych Europejskiego
+Obszaru Gospodarczego, a także jednostki dominujące dużych grup. Obowiązek raportowania po raz pierwszy
+zgodnie z wymogami CSRD został rozłożony na trzy etapy. W pierwszej kolejności, w 2025 r. za rok obrotowy 2024,
+raportują największe jednostki zainteresowania publicznego zatrudniające ponad 500 pracowników i przekraczające
+co najmniej jeden z progów finansowych dla jednostki dużej, a także jednostki zainteresowania publicznego stojące
+na czele grupy, w której zatrudnienie przekracza 500 osób oraz która przekracza co najmniej jeden z progów
+finansowych dla dużej grupy. Zgodnie z obecnymi regulacjami w drugiej turze, w 2026 r. za rok obrotowy 2025,
+miałyby zaraportować pozostałe jednostki duże i pozostałe duże grupy, natomiast w trzeciej turze, w 2027 r. za rok
+obrotowy 2026 – mali i średni emitenci z rynku regulowanego.
+Jednakże w ramach nadrzędnego celu znoszenia nadmiernych obciążeń biurokratycznych i administracyjnych dla
+przedsiębiorców w UE oraz poprawy ich konkurencyjności, szczególnie w kontekście rosnącej presji konkurencyjnej
+ze strony państw spoza UE, w dniu 26 lutego 2024 r. Komisja Europejska przedstawiła pierwszy pakiet uproszczeń
+w obszarze zrównoważonego rozwoju, tzw. Omnibus I. Uproszczenia w zakresie CSRD zawarto w dwóch projektach
+aktów prawnych. Pierwszy z nich (tzw. stop-the-clock) przewidywał odroczenie o dwa lata wskazanego wyżej
+terminarza wchodzenia w życie obowiązków sprawozdawczości zrównoważonego rozwoju dla drugiej i trzeciej tury
+przedsiębiorstw. Został on ostatecznie przyjęty przez Parlament Europejski i Radę UE w postaci dyrektywy 2025/794,
+którą państwa członkowskie mają obowiązek wdrożyć do końca 2025 r.
+Przyjęte dyrektywą 2025/794 odroczenie terminów pierwszego raportowania dla drugiej i trzeciej grupy jednostek
+należy też rozpatrywać w świetle zmian merytorycznych w zakresie sprawozdawczości zrównoważonego rozwoju
+zaproponowanych w drugim z projektów aktów prawnych (wniosek dotyczący dyrektywy Parlamentu Europejskiego
+i Rady zmieniającej dyrektywy 2006/43/WE, 2013/34/UE, 2022/2464 i 2024/1760 w odniesieniu do niektórych
+     wymogów dotyczących sprawozdawczości przedsiębiorstw w zakresie zrównoważonego rozwoju i należytej
+     staranności (COM(2025) 81). Projekt ten jest obecnie procedowany na forum UE. KE zaproponowała w nim m.in.:
+     1. znacząco zawęzić zakres jednostek zobowiązanych do sporządzania sprawozdawczości zrównoważonego
+         rozwoju;
+     2. wprowadzenie limitu informacji, jakie jednostki raportujące mogłyby żądać od jednostek znajdujących się w ich
+         łańcuchu wartości;
+     3. usunięcie uprawnienia dla KE do wydania sektorowych standardów sprawozdawczości zrównoważonego rozwoju
+         czy
+     4. rezygnację z docelowo przewidzianej w CSRD atestacji sprawozdawczości zrównoważonego rozwoju na
+         poziomie wystarczającego zapewnienia (reasonable assurance) i pozostawienie jej na poziomie ograniczonego
+         zapewnienia (limited assurance).
+     Ww. odroczenie terminów pierwszego raportowania ma zapewnić odpowiedni czas na rozpatrzenie
+     zaproponowanych zmian merytorycznych, ich przyjęcie i wdrożenie do krajowego porządku prawnego, tak aby
+     jednostki miały czas dostosować się do tych zmian.
+     CRSD została wdrożona do polskiego porządku prawnego ustawą z dnia 6 grudnia 2024 r. o zmianie ustawy
+     o rachunkowości, ustawy o biegłych rewidentach, firmach audytorskich oraz nadzorze publicznym oraz niektórych
+     innych ustaw.
+     2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+     Wdrożenie zmian przewidzianych w dyrektywie 2025/794 wymaga dokonania zmian w ustawie z dnia 6 grudnia
+     2024 r. o zmianie ustawy o rachunkowości, ustawy o biegłych rewidentach, firmach audytorskich oraz nadzorze
+     publicznym oraz niektórych innych ustaw w zakresie jej art. 14 ust. 5 pkt 2 i 3 oraz wykreślenia ust. 6. Konieczne
+     jest przy tym pilne wprowadzenie tych zmian nie tylko ze względu na narzucony bardzo krótki termin transpozycji
+     (do dnia 31 grudnia 2025 r.), ale przede wszystkim ze względu na potrzebę zapewnienia pewności prawnej dla
+     jednostek objętych obowiązkiem raportowania, w szczególności dla drugiej grupy, która zgodnie z obecnym
+     brzmieniem ww. art. 14 ust. 5 pkt 2 ustawy ma zaraportować po raz pierwszy za 2025 r.
+     Dyrektywa 2025/794 dotyczy odroczenia terminów, od których państwa członkowskie mają stosować określone
+     wymogi dotyczące sprawozdawczości przedsiębiorstw w zakresie zrównoważonego rozwoju. Ma to stanowić ulgę
+     dla jednostek przez przesunięcie obowiązków w czasie.
+     Projekt ustawy, w ślad za dyrektywą, zakłada odroczenie o dwa lata obowiązku sporządzania sprawozdawczości ESG
+     dla dużych jednostek (z drugiej tury) oraz dla małych i średnich jednostek będących emitentami papierów
+     wartościowych dopuszczonych do obrotu na jednym z rynków regulowanych Europejskiego Obszaru Gospodarczego
+     (z trzeciej tury).
+     Ww. dyrektywa wprowadza też przesunięcie terminu wdrożenia dyrektywy 2024/1760 w sprawie należytej
+     staranności przedsiębiorstw w zakresie zrównoważonego rozwoju (też: CS3D)1). Nie jest to przedmiotem regulacji
+     w ramach tego projektu ustawy.
+     3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+     Projektowana zmiana ustawy wykonuje prawo UE w zakresie dyrektywy 2025/794, w związku z czym należy przyjąć,
+     że w innych państwach członkowskich zostaną przyjęte analogiczne przepisy.
+     4. Podmioty, na które oddziałuje projekt
+              Grupa                    Wielkość                  Źródło danych                 Oddziaływanie
+ 1. Jednostki                                             Fundacja Instrat (w oparciu       Odroczenie obowiązku
+    zobowiązane do                                        o dane za 2023 r.)2)          sporządzania sprawozdawczości
+    sporządzenia                                                                          zrównoważonego rozwoju.
+    sprawozdawczości
+    ESG w drugiej i
+    trzeciej turze:
+ a) duże jednostki lub           3120 (w przybliżeniu)
+    jednostki będące
+    jednostką dominującą
+    dużej grupy
+
+1)
+      Dyrektywa Parlamentu Europejskiego i Rady (UE) 2024/1760 z dnia 13 czerwca 2024 r. w sprawie należytej staranności
+      przedsiębiorstw w zakresie zrównoważonego rozwoju oraz zmieniająca dyrektywę (UE) 2019/1937 i rozporządzenie (UE)
+      2023/2859 (Dz. Urz. UE L 2024/1760 z 05.07.2024).
+2)
+      Źródło: baza Instrat: https://esg.instrat.pl/csrd/ (dostęp 2.04.2025).
+                                                             2
+     kapitałowej (druga
+     tura)3)
+ b) małe i średnie
+                                  130 (w przybliżeniu)
+     jednostki dopuszczone
+     do obrotu na rynku
+     regulowanym (trzecia
+     tura)4)
+ 2. Firmy audytorskie             1179                       Lista Polskiej Agencji          W związku z odroczeniem
+                                                             Nadzoru Audytowego              obowiązku sporządzania
+                                                             (PANA) – stan na                sprawozdawczości
+                                                             15.04.2025 r.                   zrównoważonego rozwoju
+                                                                                             w odniesieniu do wskazanych
+                                                                                             grup jednostek nastąpi
+                                                                                             odroczenie obowiązkowej
+                                                                                             atestacji tej sprawozdawczości.
+     3. Polska Agencja            1                                                          Możliwość przeprowadzenia
+         Nadzoru Audytowego                                                                  większej liczby kontroli
+                                                                                             tematycznych, co umożliwi
+                                                                                             lepsze przygotowanie firm
+                                                                                             audytorskich do
+                                                                                             przeprowadzania atestacji
+                                                                                             sprawozdawczości
+                                                                                             zrównoważonego rozwoju.
+ 4. Urząd Komisji Nadzoru         1                                                          W związku z zadaniami UKNF
+     Finansowego                                                                             w zakresie nadzoru nad
+                                                                                             podmiotami rynków
+                                                                                             finansowych odnośnie do
+                                                                                             sprawozdawczości
+                                                                                             zrównoważonego rozwoju
+                                                                                             odroczenie o dwa lata obowiązku
+                                                                                             tej sprawozdawczości w
+                                                                                             odniesieniu do wskazanych grup
+                                                                                             jednostek oznacza też odroczenie
+                                                                                             realizacji niektórych zadań
+                                                                                             nadzorczych UKNF.
+     5. Inwestorzy i              niemożliwa do                                              Odroczenie o dwa lata
+       potencjalni inwestorzy     oszacowania                                                obowiązku sprawozdawczości
+                                                                                             zrównoważonego rozwoju
+                                                                                             oznacza późniejszy dostęp do tej
+                                                                                             sprawozdawczości.
+     6. Lokalna społeczność       niemożliwa do                                              Odroczenie o dwa lata
+       oraz NGO                   oszacowania                                                obowiązku sprawozdawczości
+                                                                                             zrównoważonego rozwoju
+                                                                                             oznacza późniejszy dostęp do tej
+                                                                                             sprawozdawczości.
+     5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+     Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U.
+     z 2025 r. poz. 677) oraz § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy
+     Rady Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.), projekt ustawy z chwilą przekazania do uzgodnień
+     z członkami Rady Ministrów został udostępniony w Biuletynie Informacji Publicznej na stronie Rządowego Centrum
+     Legislacji (www.rcl.gov.pl) w celu umożliwienia zgłaszania opinii na jego temat przez wszystkie zainteresowane
+     podmioty.
+
+
+
+3)
+      Zgodnie z definicjami jednostki dużej i dużej grupy zawartymi w ustawie o rachunkowości.
+4)
+      Zgodnie z definicjami jednostki małej i jednostki średniej zawartymi w ustawie o rachunkowości.
+                                                                 3
+W ramach konsultacji publicznych i opiniowania projekt zmiany ustawy został przekazany przedstawicielom
+następujących instytucji i organizacji, z 10-dniowym terminem na zgłoszenie ewentualnych uwag:
+    1. Bank Gospodarstwa Krajowego
+    2. Bankowy Fundusz Gwarancyjny
+    3. Federacja Przedsiębiorców Polskich
+    4. Forum Związków Zawodowych
+    5. Giełda Papierów Wartościowych w Warszawie S.A.
+    6. Główny Urząd Statystyczny
+    7. Green REV Institute
+    8. Izba Domów Maklerskich
+    9. Izba Gospodarcza Towarzystw Emerytalnych
+    10. Izba Pracodawców Polskich
+    11. Izba Zarządzających Funduszami i Aktywami
+    12. Komisja Nadzoru Finansowego
+    13. Krajowa Izba Gospodarcza
+    14. Krajowa Rada Izb Rolniczych
+    15. Krajowa Rada Spółdzielcza
+    16. Krajowa Spółdzielcza Kasa Oszczędnościowo-Kredytowa
+    17. Krajowy Depozyt Papierów Wartościowych S.A.
+    18. Krajowy Związek Banków Spółdzielczych
+    19. Narodowy Bank Polski
+    20. NSZZ „Solidarność”
+    21. Ogólnopolskie Porozumienie Związków Zawodowych
+    22. Polska Agencja Nadzoru Audytowego
+    23. Polska Izba Biegłych Rewidentów
+    24. Polska Izba Ubezpieczeń
+    25. Polska Konfederacja Pracodawców Prywatnych „Lewiatan”
+    26. Polska Rada Biznesu
+    27. Polskie Centrum Akredytacji
+    28. Polskie Towarzystwo Gospodarcze
+    29. Pracodawcy Rzeczypospolitej Polskiej
+    30. Prokuratoria Generalna Skarbu Państwa
+    31. Rzecznik Finansowy
+    32. Stowarzyszenie Emitentów Giełdowych
+    33. Stowarzyszenie Księgowych w Polsce
+    34. Urząd Ochrony Konkurencji i Konsumentów
+    35. Związek Banków Polskich
+    36. Związek Pracodawców Business Centre Club
+    37. Związek Przedsiębiorców i Pracodawców
+    38. Związek Rzemiosła Polskiego.
+W ramach konsultacji publicznych uwagę zgłosił jeden podmiot. Uwaga ta, jako niezasadna, nie została
+uwzględniona.
+6. Wpływ na sektor finansów publicznych
+                                          Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                                                                                      Łącznie
+                           2025 2026 2027 2028 2029              2030 2031 2032 2033 2034
+                                                                                                    (2025–2034)
+Dochody ogółem              0,00   0,00   0,00 0,00       0,00   0,00   0,00   0,00   0,00   0,00      0,00
+budżet państwa              0,00   0,00   0,00 0,00       0,00   0,00   0,00   0,00   0,00   0,00      0,00
+                                                      4
+JST                           0,00    0,00     0,00 0,00      0,00   0,00   0,00   0,00   0,00    0,00      0,00
+pozostałe jednostki (PANA)    0,00    0,00     0,00 0,00      0,00   0,00   0,00   0,00   0,00    0,00      0,00
+Wydatki ogółem                0,00    0,00     0,00 0,00      0,00   0,00   0,00   0,00   0,00    0,00      0,00
+budżet państwa                0,00    0,00     0,00 0,00      0,00   0,00   0,00   0,00   0,00    0,00      0,00
+JST                           0,00    0,00     0,00 0,00      0,00   0,00   0,00   0,00   0,00    0,00      0,00
+pozostałe jednostki (PANA)    0,00    0,00     0,00 0,00      0,00   0,00   0,00   0,00   0,00    0,00      0,00
+Saldo ogółem                  0,00    0,00     0,00 0,00      0,00   0,00   0,00   0,00   0,00    0,00      0,00
+budżet państwa                0,00    0,00     0,00 0,00      0,00   0,00   0,00   0,00   0,00    0,00      0,00
+JST                           0,00    0,00     0,00 0,00      0,00   0,00   0,00   0,00   0,00    0,00      0,00
+pozostałe jednostki (PANA)    0,00    0,00     0,00 0,00      0,00   0,00   0,00   0,00   0,00    0,00      0,00
+Źródła finansowania
+Dodatkowe              Wejście w życie ustawy nie spowoduje dodatkowych skutków finansowych dla jednostek
+informacje, w tym      sektora finansów publicznych, w tym budżetu państwa, polegających na zwiększeniu
+wskazanie źródeł       wydatków lub zmniejszeniu dochodów tych jednostek, w stosunku do wielkości
+danych i przyjętych    wynikających z obowiązujących przepisów.
+do obliczeń założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców oraz
+   na rodzinę, obywateli i gospodarstwa domowe
+                                                        Skutki
+Czas w latach od wejścia w życie zmian                                                                     Łącznie
+                                             2025      2026      2027       2028     2029        2030
+                                                                                                         (2025–2034)
+W ujęciu         Duże                         0,00     0,00      0,00       0,00     0,00        0,00       0,00
+pieniężnym       przedsiębiorstwa
+                 (łącznie wszystkie
+                 objęte obowiązkiem)
+                 Sektor MŚP (z                0,00     0,00      0,00       0,00     0,00        0,00       0,00
+                 wyłączeniem
+                 jednostek mikro-)
+                 rodzina, obywatele           0,00     0,00      0,00       0,00     0,00        0,00       0,00
+                 oraz gospodarstwa
+                 domowe
+W ujęciu         duże przedsiębiorstwa       Przedsiębiorstwa, zamiast przygotowań do sprawozdawczości ESG, będą
+niepieniężnym                                mogły swoje zasoby, działania i planowanie skierować na działalność
+                                             operacyjną i inwestycyjną.
+                 sektor mikro-, małych       Przedsiębiorstwa, zamiast przygotowań do sprawozdawczości ESG, będą
+                 i średnich                  mogły swoje zasoby, działania i planowanie skierować na działalność
+                 przedsiębiorstw             operacyjną i inwestycyjną.
+                 rodzina, obywatele          Odroczenie obowiązku sprawozdawczości ESG oznacza późniejszy dostęp
+                 oraz gospodarstwa           do tej sprawozdawczości. Projekt nie oddziałuje na osoby starsze i osoby
+                 domowe                      niepełnosprawne.
+                 inwestorzy i                Odroczenie obowiązku sprawozdawczości ESG oznacza późniejszy dostęp
+                 potencjalni inwestorzy      do tej sprawozdawczości.
+                 firmy audytorskie           Odroczenie obowiązku sprawozdawczości ESG oznacza późniejszy termin
+                                             atestacji tej sprawozdawczości. Firmy audytorskie będą mogły swoje
+                                             zasoby, działania i planowanie skierować na inną działalność.
+Dodatkowe               Przygotowanie do sprawozdawczości zrównoważonego rozwoju wiąże się po stronie
+informacje, w tym       jednostki raportującej z koniecznością m.in. zaprojektowania i wdrożenia systemu
+wskazanie źródeł        gromadzenia danych, w tym dostosowania rozwiązań IT, dostosowania procedur
+                                                     5
+danych i przyjętych     zarządzania przedsiębiorstwem oraz zapewnienia odpowiednich zasobów ludzkich do
+do obliczeń założeń     realizacji ww. obowiązku sprawozdawczego. Odroczenie daty pierwszego obowiązku
+                        sprawozdawczego wydłuży czas na wdrożenie ww. zmian.
+                        Jednostki w ramach ww. przygotowań do obowiązku sprawozdawczości ESG poniosły już
+                        wydatki pieniężne tych przygotowań. W związku z proponowanym odroczeniem terminów
+                        sprawozdawczości w odniesieniu do wskazanych grup jednostek niektóre wydatki mogą
+                        okazać się za wczesne i być może konieczne będzie poniesienie dodatkowych wydatków
+                        przygotowań w terminie późniejszym. Oszacowanie tych wydatków byłoby czasochłonne
+                        i zasobochłonne (wymagałoby dotarcia do poszczególnych jednostek z zapytaniem
+                        o szacunki tych wydatków), dlatego, mając na uwadze wymagane szybkie tempo prac nad
+                        projektem ustawy oraz nieobciążanie przedsiębiorstw przekazywaniem tych danych,
+                        odstąpiono od szacunków pieniężnych w tym zakresie.
+                        Generalnie można uznać, że odroczenie obowiązku sprawozdawczości ESG, mimo że
+                        pewne wydatki przygotowawcze już zostały poniesione, przyczyni się w okresie odroczenia
+                        do zmniejszenia obecnie ponoszonych i przyszłych wydatków przedsiębiorstw we
+                        wskazanych grupach jednostek, które miałyby być przeznaczone na sporządzanie i atestację
+                        sprawozdawczości ESG. Tym niemniej jednostki, dla których sprawozdawczość ESG będzie
+                        istotna ze względów na stosowaną strategię biznesową lub potrzebę dostarczenia informacji
+                        dla dostawców kapitału, będą mogły dobrowolnie sporządzić sprawozdawczość
+                        zrównoważonego rozwoju.
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie                tak
+wymaganymi przez UE (szczegóły w odwróconej                nie
+tabeli zgodności).
+                                                           nie dotyczy
+   zmniejszenie liczby dokumentów                          zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                            zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                   wydłużenie czasu na załatwienie sprawy
+   inne: zmniejszenie zakresu zbieranych danych            inne:
+Wprowadzane obciążenia są przystosowane do ich             tak
+elektronizacji.                                            nie
+                                                           nie dotyczy
+W związku z odroczeniem obowiązku sprawozdawczości ESG w odniesieniu do wskazanych grup jednostek nastąpi
+okresowe zmniejszenie obciążeń regulacyjnych w porównaniu do stanu, gdyby nie wprowadzono odroczenia.
+9. Wpływ na rynek pracy
+W związku z odroczeniem obowiązku sprawozdawczości ESG w odniesieniu do wskazanych grup jednostek może
+nastąpić czasowe zmniejszenie zapotrzebowania na specjalistów w obszarze sprawozdawczości ESG i inne osoby
+świadczące usługi w obszarze tej sprawozdawczości i jej atestacji.
+10. Wpływ na pozostałe obszary
+   środowisko naturalne                  demografia                               informatyzacja
+   sytuacja i rozwój regionalny          mienie państwowe                         zdrowie
+   sądy powszechne,                      inne:
+administracyjne lub wojskowe
+
+Omówienie wpływu        -
+
+11. Planowane wykonanie przepisów aktu prawnego
+Państwa członkowskie są zobowiązane do wdrożenia postanowień dyrektywy 2025/794 do dnia 31 grudnia 2025 r.
+Planuje się, że ustawa wdrażająca wejdzie w życie w terminie umożliwiającym jednostkom z drugiej i trzeciej tury
+odroczenie ich obowiązku sprawozdawczości ESG.
+
+
+                                                       6
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Dyrektywa 2025/794 nie przewiduje jej ewaluacji. Ewaluacja efektów dyrektywy CSRD, zgodnie z jej artykułem 6
+ust. 1, będzie przeprowadzona przez KE do dnia 30 kwietnia 2029 r., a następnie co trzy lata, wraz z ewentualnymi
+wnioskami ustawodawczymi.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                       7
+                                                                                                                         Warszawa, 27 maja 2025 r.
+
+Dotyczy projektu ustawy zmieniającej ustawę o zmianie ustawy o rachunkowości, ustawy o biegłych rewidentach, firmach audytorskich oraz nadzorze
+publicznym oraz niektórych innych ustaw (UC93)
+
+                                                                  Raport z konsultacji
+
+1.   Omówienie wyników przeprowadzanych konsultacji publicznych i opiniowania
+
+a) Projekt ustawy otrzymały w ramach konsultacji publicznych następujące podmioty:
+
+Bank Gospodarstwa Krajowego, Bankowy Fundusz Gwarancyjny, Federacja Przedsiębiorców Polskich, Forum Związków Zawodowych, Giełda Papierów
+Wartościowych w Warszawie S. A., Główny Urząd Statystyczny, Green REV Institute, Izba Domów Maklerskich, Izba Gospodarcza Towarzystw Emerytalnych,
+Izba Pracodawców Polskich, Izba Zarządzających Funduszami i Aktywami, Komisja Nadzoru Finansowego, Krajowa Izba Gospodarcza, Krajowa Rada Izb
+Rolniczych, Krajowa Rada Spółdzielcza, Krajowa Spółdzielcza Kasa Oszczędnościowo-Kredytowa, Krajowy Depozyt Papierów Wartościowych, Krajowy
+Związek Banków Spółdzielczych, Narodowy Bank Polski, NSZZ „Solidarność”, Ogólnopolskie Porozumienie Związków Zawodowych, Polska Agencja Nadzoru
+Audytowego, Polska Izba Biegłych Rewidentów, Polska Izba Ubezpieczeń, Polska Konfederacja Pracodawców Prywatnych „Lewiatan”, Polska Rada Biznesu,
+Polskie Centrum Akredytacji, Polskie Towarzystwo Gospodarcze, Pracodawcy Rzeczypospolitej Polskiej, Prokuratoria Generalna Skarbu Państwa, Rzecznik
+Finansowy, Stowarzyszenie Emitentów Giełdowych, Stowarzyszenie Księgowych w Polsce, Urząd Ochrony Konkurencji i Konsumentów, Związek Banków
+Polskich, Związek Pracodawców Business Centre Club, Związek Przedsiębiorców i Pracodawców, Związek Rzemiosła Polskiego.
+
+
+b) Uwagi do projektu ustawy zgłosił następujący podmiot:
+
+Stowarzyszenie Emitentów Giełdowych.
+
+
+c) Projekt został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji.
+
+Do projektu zostały zgłoszone poniższe uwagi:
+
+
+
+
+                                                                            1
+             Jednostka      Zgłaszający
+ Lp.                                                                         Uwagi                                                          Stanowisko MF
+            redakcyjna        uwagi
+                                                                               Art. 1 projektu
+     1
+             Art. 1 pkt 2      SEG        W projekcie ustawy dokonano w art. 1 pkt 2) skreślenia opcji - dla MŚP           Uwaga nieuwzględniona.
+                                          notowanych na rynku regulowanym - odroczenia tego obowiązku o kolejne
+                                          dwa lata. W tym zakresie SEG ma wątpliwość prawną, gdyż transponowana tą         W związku z wprowadzonym przez dyrektywę
+                                          ustawą dyrektywa 2025/794 nie zawiera usunięcia tej opcji. Dopiero drugi         2025/794 dwuletnim odroczeniem pierwszego
+                                          projekt dyrektywy przedstawiony przez KE [COM(2025)81], który jest               raportowania, trzecia fala jednostek (tj. notowane
+                                          obecnie przedmiotem negocjacji zawiera wykreślenie tej opcji z art. 19a ust. 7   MŚP) będzie miała obowiązek zaraportować po raz
+                                          dyrektywy ws. rachunkowości. W rozumieniu SEG Komisja zachowała w ten            pierwszy za 2028 r. Zatem przewidziana dla tej
+                                          sposób ostrożność proponując wykreślenie tej opcji w ramach                      grupy jednostek w obecnym art. 14 ust. 6 ustawy z
+                                          kompleksowych negocjacji dotyczących ostatecznego zakresu podmiotów,             dnia 6 grudnia 2024 r. możliwość dwuletniego
+                                          które mają mieć obowiązek raportowania zrównoważonego rozwoju. W                 odroczenia raportowania traci rację bytu, z powodu
+                                          przypadku gdyby kierunek negocjacji doprowadził do pozostawienia                 zawarcia w przepisie konkretnej daty rozpoczęcia
+                                          notowanych MŚP w zakresie CSRD, to kwestia dwuletniego opt-out byłaby            raportowania przez trzecią grupę. Sprawia to, że
+                                          także negocjowana. Wydaje się zatem przedwczesne usunięcie tej opcji z           przepis ten staje się pusty, a jego pozostawienie w
+                                          ustawy o rachunkowości.                                                          systemie prawnym mogłoby naruszać zasady
+                                                                                                                           poprawnej legislacji, które wymagają aby przepisy
+                                                                                                                           były jasne, spójne i zawierały treść normatywną.
+                                                                                                                           Dlatego wykreślenie art. 14 ust. 6 jest zasadne.
+
+
+
+
+2.       Informacja o okresie przeprowadzenia konsultacji publicznych i opiniowania i terminie wyznaczonym do zajęcia stanowiska
+
+Projekt został wysłany do konsultacji publicznych w dniu 7 maja 2025 r. W związku z pilnym charakterem projektu termin na zajęcie stanowiska upływał w
+dniu 16 maja 2025 r.
+
+3.       Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu z właściwymi organami i instytucjami Unii
+         Europejskiej, w tym Europejskim Bankiem Centralnym
+
+                                                                                       2
+Projekt nie wymagał zasięgnięcia opinii, dokonania konsultacji oraz uzgodnienia z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim
+Bankiem Centralnym.
+
+4.   Podmioty, które zgłosiły zainteresowanie pracami nad projektem w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa
+
+1) Philip Morris Polska Distributions sp. z o.o. (data zgłoszenia: 15 maja 2025 r.).
+
+
+
+
+                                                                                 3
+                                                            L
+                                                                                [MINISTERSTWO FINANSOW
+i
+                                                                                      BIURO PODAWCZE
+
+                                                                                et 2025 -05- 16
+                                                            RPU/TST 2/202?; P
+                                                            MP__L——-J
+                                                                                Dep. .............zal. . A-e (:
+                                                                                                           .....
+     WZOR URZEDOWEGO FORMULARZA ZGLOSZENIA ZAINTERESOWANIA PRACAMI NAD
+     PROJEKTEM ZAL.OZEN PROJEKTU USTAWY, PROJEKTEM USTAWY LUB PROJEKTEM
+                               ROZPORZADZENIA
+
+                                 .  ZGLOSZENIE
+          ZAINTERESOWANIA PRACAMI NAD PROJEKTEM - ZGEOSZENIE-ZMIANY-DANYCH*
+
+              Projekt ustawy zmieniajacy ustawe o zmianie ustawy o rachunkowosci, ustawy o biegtych
+          rewidentach, firmach audytorskich oraz nadzorze publicznym oraz niektérych innych ustaw
+                          Nr UC93 w wykazie prac legislacyjnych Rady Ministréw
+
+    A.          OZNACZENIE PODMIOTU ZAINTERESOWANEGO PRACANI NAD PROJEKTEM
+
+     1. Nazwal/imie i nazwisko™*
+
+    Philip Morris Polska Distribution Sp. z o.0.
+
+    2. Adres siedziby/adres miejsca zamieszkania**
+    Al. Jana Pawia Il 196, 31-982 Krakow
+
+    3. Adres do korespondenciji i adres e-mail
+    ul. Inflancka 4C; Gdanski Business Center D, 00-189 Warszawa, Mariusz. Staniak@pmi.com
+
+    B.         WSKAZANIE OSOB UPRAWNIONYCH DO REPREZENTOWANIA PODMIOTU
+               WYMIENIONEGO W CZESCI A W PRACACH NAD PROJEKTEM
+
+        Lp.                    Imie i nazwisko                                  Adres
+
+          1         Adam Siekierski, Dyrektor ds. Relacji
+                               Zewnetrznych
+         2            Mariusz Staniak, Fiscal Manager
+
+
+
+         4
+
+    1-;-..;5\.‘ .
+
+
+
+
+    C:._';'_""'C_J,PI_S": P"OS:'I'ULOWANEGO ROZWIAZANIA PRAWNEGO, ZE WSKAZANIEM INTERESU
+         " BEDACEGO PRZEDMIOTEM OCHRONY
+
+
+               W imieniu Philip Morris Polska Distribution Sp. z 0.0. zglaszamy zainteresowanie naszej
+               spbiki pracami nad opublikowanym projektem w/w ustawy. Popierajac rozwigzania przyjete
+D.   ZALACZONE DOKUMENTY                                                   |
+1      Aktualny wydruk z centralnego rejestru KRS                          I
+
+2                                                                          i'
+                                                                           |
+
+b                                                                          ;
+
+
+5                                                                              |
+                                                                           |
+
+
+7                                                                              R
+
+
+
+
+8                                                                              |
+E.    Niniejsze zgloszenie dotyczy uzupetnienia brakéw formalnychfzmiariy danych**
+     zgtoszenia dokonanego dnia ......cccemmsssnersnnmsssanmsssnsssesasnnenes _
+
+                     (podac date z czesci F poprzedniego zgioszenia)               |
+                                                                                   |
+F.   OSOBA SKLADAJACA ZGLOSZENIE                                                   \|
+
+        Imie i nazwisko                     Data                           Podpis
+                                                                     A 7    %
+
+                fawslow et N9°5 2025                                                   (et
+          foe        Sl (5105 070
+                                                               :           [8 | Philio Morris Polska
+           LAA@                                                                        |   Distribution Sp. z 0.0,
+
+
+
+
+                                                                   PHLE ORR
+                                                                                           wisulouTion Sp. 2 0.0,
+
+
+
+
+                                                           |
+G.    KLAUZULA ODPOWIEDZIALNOSCI KARNEJ ZA SKEADANIE FALSZ\':’WYCH
+     ZEZNAN
+                                                                      i
+Jestem $wiadomy odpowiedzialnosci karnej za ztozenie fatszywego oswi adczenia ............
+                                                                                        dzia
+                                           Anna Kowalska-Kmiecik                        zadu
+
+
+                           PHILIP MORRIS
+                               POLSKA
+                                                                                        i Polska
+                                                                                         Spzo.c
+                                           P MOTTIE     FOISKE
+                                           Distribution & zo0.0
+
+                                                                           v (poupIs)
+
+
+    Jezeli zgtoszenie nie jest sktadane w trybie art. 7 ust. 6 ustawy z dnia 7 lipca 2005 r. o
+    dziatalnosci lobbingowej w procesie stanowienia prawa, tres¢: "- Zgloszenie zmiany danych”
+    skresla sie.
+    Niepotrzebne skreslic.
+
+Pouczenie:
+     1. Jezeli zgtoszenie ma na celu uwzglednienie zmian zaistniatlych po dacie wniesienia
+urzedowego formularza zgtoszenia (art. 7 ust. 6 ustawy z dnia 7 lipca 2005 r. o dziatalnosci
+lobbingowej w procesie stanowienia prawa) lub uzupetnienie brakéw formalnych poprzedniego
+zgtoszenia (§ 3 rozporzgdzenia Rady Ministréw z dnia 22 sierpnia 2011 r. w sprawie zgtaszania
+zainteresowania pracami nad projektami aktow normatywnych oraz projektami zatozen
+projektéw ustaw, w nowym urzedowym formularzu zgtoszenia nalezy wypetnié¢ wszystkie rubryki,
+powtarzajgc réwniez dane, ktére zachowaty swojg aktualnose.
+    2. Cze$¢ B formularza wypetnia sie w przypadku zgtoszenia dotyczgcego jednostki
+organizacyjnej oraz w sytuacji, gdy osoba fizyczna, ktéra zgtasza zainteresowanie pracami nad
+projektem zatozen projektu ustawy lub projektem aktu normatywnego, nie bedzie uczestniczyta
+osobiscie w tych pracach.
+    3. W czesci D formularza, stosownie do okolicznoéci, uwzglednia sie dokumenty, o ktérych
+mowa w art. 7 ust. 5 ustawy z dnia 7 lipca 2005 r. o dziatalnosci lobbingowej w procesie
+stanowienia prawa, a takze petnomocnictwa do wniesienia zgtoszenia lub do reprezentowania
+podmiotu w pracach nad projektem aktu normatywnego lub projektu zatozen projektu ustawy.
+    4. Cze$¢ E formularza wypelnia sie w przypadku uzupetnienia brakéw formalnych Ilub
+zmiany danych dotyczacych wniesionego zgtoszenia.
+                                                                                                                                   Wersja 5 maja 2025 r.
+
+
+                                                               TABELA ZGODNOŚCI
+
+                                               Projekt ustawy zmieniającej ustawę o zmianie ustawy o rachunkowości, ustawy o biegłych
+TYTUŁ PROJEKTU
+                                               rewidentach, firmach audytorskich oraz nadzorze publicznym oraz niektórych innych ustaw
+                                               Dyrektywa Parlamentu Europejskiego i Rady (UE) 2025/794 z dnia 14 kwietnia 2025 r. w sprawie
+TYTUŁ WDRAŻANEGO AKTU                          zmiany dyrektywy (UE) 2022/2464 i (UE) 2024/1760 w odniesieniu do dat, od których państwa
+PRAWNEGO / WDRAŻANYCH AKTÓW                    członkowskie mają stosować niektóre wymogi dotyczące sprawozdawczości przedsiębiorstw w
+PRAWNYCH                                       zakresie zrównoważonego rozwoju i niektóre wymogi w zakresie należytej staranności
+                                               przedsiębiorstw w zakresie zrównoważonego rozwoju (Dz. Urz. UE L 2025/794 z 16.04.2025)
+                                               Przepisy ustawy wejdą w życie z dniem następującym po dniu ogłoszenia.
+                                               Termin wejścia w życie ustawy wynika z potrzeby zapewnienia jak najszybszego terminu jej
+WYJAŚNIENIE TERMINU WEJŚCIA W                  obowiązywania w świetle wymogu terminu transpozycji dyrektywy 2025/794.
+ŻYCIE PROJEKTU / PROJEKTÓW                     Zgodnie z art. 3 ust. 1 dyrektywy 2025/794 państwa członkowskie wprowadzają w życie przepisy
+                                               ustawowe, wykonawcze i administracyjne niezbędne do wykonania tej dyrektywy do dnia 31 grudnia
+                                               2025 r. Termin wejścia w życie ustawy uwzględnia termin wdrożenia ww. dyrektywy.
+    Dyrektywa Parlamentu Europejskiego i Rady (UE) 2025/794 z dnia 14 kwietnia 2025 r. w sprawie zmiany dyrektywy (UE) 2022/2464 i (UE)
+ 2024/1760 w odniesieniu do dat, od których państwa członkowskie mają stosować niektóre wymogi dotyczące sprawozdawczości przedsiębiorstw w
+    zakresie zrównoważonego rozwoju i niektóre wymogi w zakresie należytej staranności przedsiębiorstw w zakresie zrównoważonego rozwoju
+                                               KONIECZNOŚĆ
+  JEDN.                                                                JEDN.      TREŚĆ PRZEPISU / PRZEPISÓW
+                  TREŚĆ PRZEPISU UE             WDROŻENIA                                                                      UZASADNIENIE
+  RED.                                                                  RED.                  PROJEKTU
+                                                  TAK / NIE*
+  Art. 1 W art. 5 ust. 2 dyrektywy (UE)        TAK                 Art. 1        W ustawie z dnia 6 grudnia 2024 r. o Przedmiotowy projekt ustawy
+          2022/2464 wprowadza się następujące                      projektu      zmianie ustawy o rachunkowości,       dokonuje wdrożenia art. 1 lit. a
+          zmiany:                                                                ustawy o biegłych rewidentach,        dyrektywy 2025/794. Art. 1
+          a) w akapicie pierwszym wprowadza                                      firmach audytorskich oraz nadzorze    lit. b dyrektywy zostanie
+          się następujące zmiany:                                                publicznym oraz niektórych innych     wdrożony w drodze wydania
+          (i) w lit. b) formuła wprowadzająca                                    ustaw (Dz.U. poz. 1863) w art. 14:    rozporządzenia Ministra
+          otrzymuje brzmienie: „w odniesieniu                                    1) w ust. 5:                          Finansów ws. informacji
+          do lat obrotowych rozpoczynających                                     a) w pkt 2 wyrazy „po dniu 31 grudnia bieżących i okresowych
+          się w dniu 1 stycznia 2027 r. lub po                                   2024 r.” zastępuje się wyrazami „po   przekazywanych przez
+          tym dniu:”;                                                            dniu 31 grudnia 2026 r.”,             emitentów papierów
+          (ii) w lit. c) formuła wprowadzająca                                   b) w pkt 3 we wprowadzeniu do         wartościowych oraz warunków
+          otrzymuje brzmienie: „w odniesieniu                                    wyliczenia wyrazy „po dniu 31 grudnia uznawania za równoważne
+
+
+                                                                           1
+                                                                                                          Wersja 5 maja 2025 r.
+
+
+         do lat obrotowych rozpoczynających               2025 r.” zastępuje się wyrazami „po   informacji wymaganych
+         się w dniu 1 stycznia 2028 r. lub po             dniu 31 grudnia 2027 r.”;             przepisami prawa państwa
+         tym dniu:”;                                      2) uchyla się ust. 6.                 niebędącego państwem
+         b) w akapicie trzecim wprowadza się                                                    członkowskim.
+         następujące zmiany:
+         (i) w lit. b) formuła wprowadzająca
+         otrzymuje brzmienie: „w odniesieniu
+         do lat obrotowych rozpoczynających
+         się w dniu 1 stycznia 2027 r. lub po
+         tym dniu:”;
+         (ii) w lit. c) formuła wprowadzająca
+         otrzymuje brzmienie: „w odniesieniu
+         do lat obrotowych rozpoczynających
+         się w dniu 1 stycznia 2028 r. lub po
+         tym dniu:”.
+Art. 2   Art. 37 ust. 1 akapit pierwszy i drugi NIE                                             –Art. 2 dyrektywy dotyczy
+         dyrektywy (UE) 2024/1760 otrzymują                                                     dyrektywy 2024/1760 o
+         brzmienie:                                                                             należytej staranności.
+         „1. Państwa członkowskie przyjmują                                                     Projekt niniejszej ustawy nie ma
+         i publikują, do dnia 26 lipca 2027 r.,                                                 na celu wdrożenia ww. art. 2
+         przepisy ustawowe, wykonawcze i                                                        dyrektywy.
+         administracyjne niezbędne do
+         wykonania niniejszej dyrektywy.
+         Niezwłocznie przekazują Komisji tekst
+         tych przepisów.
+
+         Państwa członkowskie stosują te
+         przepisy:
+         a) od dnia 26 lipca 2028 r. w
+         odniesieniu do przedsiębiorstw, o
+         których mowa w art. 2 ust. 1 lit. a) i b),
+         które utworzono zgodnie z
+         ustawodawstwem państwa
+         członkowskiego i które zatrudniały
+         średnio ponad 3 000 pracowników i
+
+                                                      2
+                                                    Wersja 5 maja 2025 r.
+
+
+osiągnęły przychody netto ze
+sprzedaży w skali światowej w
+wysokości ponad 900 000 000 EUR w
+ostatnim roku obrotowym
+poprzedzającym dzień 26 lipca 2028 r.,
+za który roczne sprawozdanie
+finansowe zostało lub powinno było
+zostać przyjęte, z wyjątkiem środków
+niezbędnych do wykonania art. 16,
+które państwa członkowskie stosują
+względem tych przedsiębiorstw za lata
+obrotowe rozpoczynające się w dniu 1
+stycznia 2029 r. lub po tej dacie;
+b) od dnia 26 lipca 2028 r. w
+odniesieniu do przedsiębiorstw, o
+których mowa w art. 2 ust. 2 lit. a) i b),
+które utworzono zgodnie z
+ustawodawstwem państwa trzeciego i
+które osiągnęły przychody netto ze
+sprzedaży w wysokości ponad 900 000
+000 EUR w Unii w roku obrotowym
+poprzedzającym ostatni rok obrotowy
+poprzedzający dzień 26 lipca 2028 r., z
+wyjątkiem środków niezbędnych do
+wykonania art. 16, które państwa
+członkowskie stosują względem tych
+przedsiębiorstw za lata obrotowe
+rozpoczynające się w dniu 1 stycznia
+2029 r. lub po tej dacie;
+c) od dnia 26 lipca 2029 r. w
+odniesieniu do wszystkich innych
+przedsiębiorstw, o których mowa w
+art. 2 ust. 1 lit. a) i b) oraz w art. 2 ust.
+2 lit. a) i b), i przedsiębiorstw, o
+których mowa w art. 2 ust. 1 lit. c) i
+
+                                                3
+                                                                                                         Wersja 5 maja 2025 r.
+
+
+         art. 2 ust. 2 lit. c), z wyjątkiem
+         środków niezbędnych do wykonania
+         art. 16, które państwa członkowskie
+         stosują względem tych przedsiębiorstw
+         za lata obrotowe rozpoczynające się w
+         dniu 1 stycznia 2030 r. lub po tej
+         dacie.”.
+Art. 3   1. Państwa członkowskie wprowadzą TAK     Art. 2       Art. 2. Ustawa wchodzi w życie z
+ust. 1   w życie przepisy ustawowe,                projektu     dniem następującym po dniu
+         wykonawcze i administracyjne                           ogłoszenia.
+         niezbędne do wykonania niniejszej         Przypis nr 1
+                                                                1)
+         dyrektywy w terminie do dnia 31           projektu        Niniejsza ustawa w zakresie swojej
+         grudnia 2025 r. Niezwłocznie                           regulacji wdraża dyrektywę Parlamentu
+         powiadamiają o tym Komisję.                            Europejskiego i Rady (UE) 2025/794 z
+         Przepisy przyjęte przez państwa                        dnia 14 kwietnia 2025 r. w sprawie
+         członkowskie zawierają odniesienie do                  zmiany dyrektywy (UE) 2022/2464 i
+         niniejszej dyrektywy lub odniesienie                   (UE) 2024/1760 w odniesieniu do dat,
+         takie towarzyszy ich urzędowej                         od których państwa członkowskie mają
+         publikacji. Sposób dokonywania                         stosować niektóre wymogi dotyczące
+         takiego odniesienia określany jest                     sprawozdawczości przedsiębiorstw w
+         przez państwa członkowskie.                            zakresie zrównoważonego rozwoju i
+                                                                niektóre wymogi w zakresie należytej
+                                                                staranności przedsiębiorstw w zakresie
+                                                                zrównoważonego rozwoju.
+
+Art. 3   2. Państwa członkowskie przekazują NIE
+ust. 2   Komisji tekst najważniejszych
+         przepisów prawa krajowego w
+         dziedzinie objętej zakresem niniejszej
+         dyrektywy.
+Art. 4   Niniejsza dyrektywa wchodzi w życie NIE
+         następnego dnia po jej opublikowaniu
+         w Dzienniku Urzędowym Unii
+         Europejskiej.
+
+
+                                                          4
+                                                         Wersja 5 maja 2025 r.
+
+
+Art. 5   Niniejsza dyrektywa skierowana jest   NIE
+         do państw członkowskich.
+
+
+
+
+                                                     5
+Adam Szłapka
+
+DPUE.720.549.2025.RS(12)
+Warszawa, 16 czerwca 2025 r.
+Dot: RM-0610-96-25 z 16.06.2025 r.
+
+Pani Joanna Knapińska
+Sekretarz Rady Ministrów
+
+
+Opinia
+o zgodności z prawem Unii Europejskiej projektu ustawy zmieniającej ustawę o zmianie
+ustawy o rachunkowości, ustawy o biegłych rewidentach, firmach audytorskich oraz nadzorze
+publicznym oraz niektórych innych ustaw wyrażona przez ministra właściwego do spraw
+członkostwa Rzeczypospolitej Polskiej w Unii Europejskiej
+
+
+Szanowna Pani Minister,
+
+
+w związku z przedłożonym projektem ustawy pozwalam sobie wyrazić poniższą opinię.
+Projekt ustawy jest zgodny z prawem Unii Europejskiej.
+
+
+Z wyrazami szacunku
+
+z upoważnienia
+
+Ignacy Niemczycki
+Sekretarz Stanu
+/dokument podpisany elektronicznie/
+
+
+Do wiadomości:
+Pan Andrzej Domański
+Minister Finansów
+
+
+
+
+ Telefon: +48 22 694 7540                    Kancelaria Prezesa Rady Ministrów
+ SMUE@kprm.gov.pl                            Al. Ujazdowskie 1/3
+ www.gov.pl/web/premier                      00-583 Warszawa
+

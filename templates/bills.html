@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}{{ _("Ustawy i uchwały") }}{% endblock %}
+{% block content %}
+<h1>{{ _("Ustawy i uchwały") }}</h1>
+<p class="muted">{{ _("Projekty, nad którymi Sejm głosował w tej kadencji, od ostatnio głosowanych.") }}</p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th data-sort="text">{{ _("Projekt") }}</th><th data-sort="text">{{ _("Ostatnie głosowanie") }}</th><th class="num" data-sort="num">{{ _("Głosowania") }}</th><th class="num" data-sort="num">{{ _("Nad poprawkami") }}</th></tr></thead>
+  <tbody>
+  {% for b in bills %}
+  <tr>
+    <td lang="pl"><a href="{{ root }}ustawa/{{ b.root }}.html">{{ b.title }}</a></td>
+    <td data-v="{{ b.last }}" style="white-space:nowrap">{{ b.last | date_pl }}</td>
+    <td class="num" data-v="{{ b.votings | length }}">{{ b.votings | length }}</td>
+    <td class="num" data-v="{{ b.amend_count }}">{{ b.amend_count }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}

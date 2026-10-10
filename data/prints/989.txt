@@ -1,0 +1,1798 @@
+                                                                         Druk nr 989
+                                                              Warszawa, 31 stycznia 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-111-24
+
+
+                                                             Pan
+                                                             Szymon Hołownia
+                                                             Marszałek Sejmu
+                                                             Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+
+  - o unijnej sieci danych dotyczących poziomu
+   zrównoważenia gospodarstw rolnych (FSDN).
+
+        Projekt ma na celu wykonanie prawa Unii Europejskiej.
+
+
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Rolnictwa i Rozwoju Wsi.
+
+
+                                                          Z poważaniem
+                                                           Donald Tusk
+                                           /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+             Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                            Projekt
+                                                  U S T AWA
+
+                                                       z dnia
+
+      o unijnej sieci danych dotyczących poziomu zrównoważenia gospodarstw rolnych
+                                                   (FSDN)1), 2)
+
+
+       Art. 1. Ustawa określa:
+1)     zadania i właściwość organów i jednostek organizacyjnych w zakresie unijnej sieci
+       danych dotyczących poziomu zrównoważenia gospodarstw rolnych, o której mowa
+       w art. 1 ust. 1 rozporządzenia Rady (WE) nr 1217/2009 z dnia 30 listopada 2009 r.
+       ustanawiającego sieć danych dotyczących poziomu zrównoważenia gospodarstw rolnych
+       (Dz. Urz. UE L 328 z 15.12.2009, str. 27, z późn. zm.3)), zwanej dalej „FSDN”,
+       określonym w tym rozporządzeniu, zwanym dalej „rozporządzeniem nr 1217/2009”, oraz
+       w przepisach Unii Europejskiej wydanych na podstawie rozporządzenia nr 1217/2009;
+2)     sprawy dotyczące FSDN w zakresie nieokreślonym w przepisach, o których mowa
+       w pkt 1, lub przewidziane w tych przepisach do określenia przez państwo członkowskie
+       Unii Europejskiej, w tym:
+       a)    organizację i tryb pracy Komitetu Krajowego do spraw Unijnej Sieci Danych
+             Dotyczących Poziomu Zrównoważenia Gospodarstw Rolnych, zwanego dalej
+             „Komitetem Krajowym ds. FSDN”,
+       b)    zasady zbierania i przekazywania danych, o których mowa w art. 1 ust. 1 zdanie
+             pierwsze rozporządzenia nr 1217/2009, zwanych dalej „danymi FSDN”,
+
+
+
+
+1)
+     Niniejsza ustawa służy stosowaniu rozporządzenia Rady (WE) nr 1217/2009 z dnia 30 listopada 2009 r.
+     ustanawiającego sieć danych dotyczących poziomu zrównoważenia gospodarstw rolnych (Dz. Urz. UE L 328
+     z 15.12.2009, str. 27, Dz. Urz. UE L 195 z 27.07.2011, str. 42, Dz. Urz. UE L 158 z 10.06.2013, str. 1, Dz. Urz.
+     UE L 340 z 17.12.2013, str. 1, Dz. Urz. UE L 328 z 12.12.2017, str. 1, Dz. Urz. UE L 325 z 20.12.2022, str. 13,
+     Dz. Urz. UE L 2023/2514 z 15.11.2023 oraz Dz. Urz. UE L 2023/2674 z 29.11.2023).
+2)
+     Niniejszą ustawą:
+     1) zmienia się ustawę z dnia 26 lipca 1991 r. o podatku dochodowym od osób fizycznych oraz ustawę z dnia
+         18 grudnia 2003 r. o krajowym systemie ewidencji producentów, ewidencji gospodarstw rolnych oraz
+         ewidencji wniosków o przyznanie płatności;
+     2) uchyla się ustawę z dnia 29 listopada 2000 r. o zbieraniu i wykorzystywaniu danych rachunkowych
+         z gospodarstw rolnych.
+3)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 195 z 27.07.2011, str. 42, Dz. Urz.
+     UE L 158 z 10.06.2013, str. 1, Dz. Urz. UE L 340 z 17.12.2013, str. 1, Dz. Urz. UE L 328 z 12.12.2017, str. 1,
+     Dz. Urz. UE L 325 z 20.12.2022, str. 13, Dz. Urz. UE L 2023/2514 z 15.11.2023 oraz Dz. Urz. UE L 2023/2674
+     z 29.11.2023.
+                                               –2–
+
+
+     c)    tryb wyboru gospodarstw przekazujących dane w rozumieniu art. 2 pkt 4
+           rozporządzenia nr 1217/2009,
+     d)    mechanizmy współpracy, o których mowa w art. 4 ust. 3 zdanie drugie
+           rozporządzenia nr 1217/2009.
+
+     Art. 2. Agencją łącznikową, o której mowa w art. 7 ust. 1 rozporządzenia nr 1217/2009,
+jest Instytut Ekonomiki Rolnictwa i Gospodarki Żywnościowej – Państwowy Instytut
+Badawczy, zwany dalej „agencją łącznikową”.
+
+     Art. 3. Agencja łącznikowa wykonuje zadania państwa członkowskiego w zakresie
+FSDN określone w przepisach wymienionych w art. 1 pkt 1, chyba że przepisy ustawy stanowią
+inaczej.
+
+     Art. 4. Minister   właściwy    do    spraw      rolnictwa   wykonuje   zadania   państwa
+członkowskiego w zakresie:
+1)   podejmowania decyzji, o której mowa w art. 1 ust. 4 rozporządzenia nr 1217/2009;
+2)   występowania z wnioskiem, o którym mowa w art. 3 rozporządzenia nr 1217/2009.
+
+     Art. 5. Komitet Krajowy ds. FSDN jest komitetem krajowym ds. FSDN, o którym mowa
+w art. 6 ust. 1 rozporządzenia nr 1217/2009.
+
+     Art. 6. 1. W skład Komitetu Krajowego ds. FSDN wchodzą:
+1)   przewodniczący Komitetu Krajowego ds. FSDN – minister właściwy do spraw rolnictwa
+     albo przedstawiciel ministra właściwego do spraw rolnictwa wyznaczony przez tego
+     ministra;
+2)   zastępca przewodniczącego Komitetu Krajowego ds. FSDN – przedstawiciel ministra
+     właściwego do spraw rolnictwa wyznaczony przez tego ministra;
+3)   dwóch przedstawicieli ministra właściwego do spraw finansów publicznych
+     wyznaczonych przez tego ministra;
+4)   po jednym przedstawicielu:
+     a)    ministra właściwego do spraw rozwoju regionalnego wyznaczonym przez tego
+           ministra,
+     b)    ministra właściwego do spraw rynków rolnych wyznaczonym przez tego ministra,
+     c)    ministra właściwego do spraw środowiska wyznaczonym przez tego ministra,
+     d)    ministra właściwego do spraw zabezpieczenia społecznego wyznaczonym przez tego
+           ministra,
+     e)    Prezesa Głównego Urzędu Statystycznego wyznaczonym przez tego Prezesa,
+                                              –3–
+
+
+     f)       agencji łącznikowej wyznaczonym przez dyrektora Instytutu Ekonomiki Rolnictwa
+              i Gospodarki Żywnościowej – Państwowego Instytutu Badawczego,
+     g)       Krajowej Rady Izb Rolniczych wyznaczonym przez prezesa zarządu tej rady.
+     2. Członków Komitetu Krajowego ds. FSDN, o których mowa w ust. 1, z wyjątkiem
+przewodniczącego, którym jest minister właściwy do spraw rolnictwa, powołuje i odwołuje
+minister właściwy do spraw rolnictwa.
+     3. Członkowie Komitetu Krajowego ds. FSDN, o których mowa w ust. 1 pkt 2–4, mogą
+być zastępowani w pracach Komitetu Krajowego ds. FSDN przez osoby upoważnione przez
+tych członków.
+     4. Przewodniczący Komitetu Krajowego ds. FSDN może zapraszać do udziału w pracach
+Komitetu Krajowego ds. FSDN z głosem doradczym inne osoby, niebędące członkami tego
+Komitetu.
+
+     Art. 7. 1. Komitet Krajowy ds. FSDN działa na posiedzeniach.
+     2. Posiedzenia Komitetu Krajowego ds. FSDN zwołuje przewodniczący Komitetu
+Krajowego ds. FSDN i im przewodniczy.
+     3. Komitet Krajowy ds. FSDN może prowadzić prace z wykorzystaniem środków
+komunikacji elektronicznej. Decyzję o przeprowadzeniu prac Komitetu Krajowego ds. FSDN
+z wykorzystaniem środków komunikacji elektronicznej podejmuje przewodniczący Komitetu
+Krajowego ds. FSDN.
+     4. W przypadku nieobecności przewodniczącego Komitetu Krajowego ds. FSDN lub
+czasowej niemożności wykonywania przez niego zadań jego zadania wykonuje zastępca
+przewodniczącego Komitetu Krajowego ds. FSDN.
+     5. W przypadku jednoczesnej nieobecności przewodniczącego Komitetu Krajowego ds.
+FSDN      i     zastępcy   przewodniczącego   Komitetu    Krajowego    ds.   FSDN    zadania
+przewodniczącego Komitetu Krajowego ds. FSDN wykonuje wyznaczony przez tego
+przewodniczącego członek Komitetu Krajowego ds. FSDN, o którym mowa w art. 6 ust. 1 pkt 3
+lub 4.
+     6. Komitet Krajowy ds. FSDN podejmuje rozstrzygnięcia w formie jednogłośnie
+podejmowanych uchwał, w obecności co najmniej połowy członków.
+     7. W przypadku gdy Komitet Krajowy ds. FSDN nie podejmie uchwały, o której mowa
+w ust. 6, w terminie 10 dni od dnia otrzymania do rozpatrzenia sprawy należącej do zadań tego
+Komitetu, rozstrzygnięcie w tej sprawie podejmuje minister właściwy do spraw rolnictwa.
+                                            –4–
+
+
+     8. Minister właściwy do spraw rolnictwa podejmuje rozstrzygnięcie, o którym mowa
+w ust. 7, w terminie 5 dni od dnia upływu terminu, o którym mowa w tym przepisie.
+     9. Szczegółową organizację i szczegółowy tryb pracy Komitetu Krajowego ds. FSDN
+określa regulamin uchwalony przez Komitet Krajowy ds. FSDN.
+
+     Art. 8. 1. Obsługę administracyjną Komitetu Krajowego ds. FSDN zapewnia urząd
+obsługujący ministra właściwego do spraw rolnictwa.
+     2. Za udział w pracach Komitetu Krajowego ds. FSDN nie przysługuje wynagrodzenie.
+
+     Art. 9. 1. Minister właściwy do spraw rolnictwa udziela corocznie agencji łącznikowej
+dotacji celowej na realizację jej zadań.
+     2. Umowa dotacji celowej, o której mowa w ust. 1, jest zawierana w formie pisemnej na
+okres jednego roku kalendarzowego.
+     3. Oprócz elementów, o których mowa w art. 150 ustawy z dnia 27 sierpnia 2009 r.
+o finansach publicznych (Dz. U. z 2024 r. poz. 1530, 1572, 1717, 1756 i 1907 oraz z 2025 r.
+poz. 39), umowa dotacji celowej, o której mowa w ust. 1, zawiera co najmniej:
+1)   oznaczenie przedmiotu i stron tej umowy;
+2)   postanowienia dotyczące skutków prawnych niewykonania lub nienależytego wykonania
+     zobowiązań określonych w tej umowie.
+
+     Art. 10. 1. Po zawarciu umowy dotacji celowej, o której mowa w art. 9 ust. 1, agencja
+łącznikowa zawiera z wojewódzkim ośrodkiem doradztwa rolniczego, o którym mowa w art. 2
+ust. 1 pkt 2 ustawy z dnia 22 października 2004 r. o jednostkach doradztwa rolniczego (Dz. U.
+z 2024 r. poz. 76), zwanym dalej „wojewódzkim ośrodkiem doradztwa rolniczego”, umowę,
+której przedmiotem jest zbieranie danych FSDN z gospodarstw rolnych w rozumieniu art. 2
+pkt 2 rozporządzenia nr 1217/2009, zwanych dalej „gospodarstwami rolnymi”, i ich
+przekazywanie agencji łącznikowej, jeżeli te dane mają być zbierane z gospodarstwa rolnego
+położonego na obszarze województwa, w którym ma siedzibę ten ośrodek.
+     2. Wojewódzki ośrodek doradztwa rolniczego, z którym została zawarta umowa, o której
+mowa w ust. 1, jest podmiotem zbierającym dane w rozumieniu art. 2 pkt 7 rozporządzenia
+nr 1217/2009.
+     3. Umowa z wojewódzkim ośrodkiem doradztwa rolniczego, o której mowa w ust. 1, jest
+zawierana w formie pisemnej na okres jednego roku kalendarzowego.
+     4. Umowa z wojewódzkim ośrodkiem doradztwa rolniczego, o której mowa w ust. 1,
+zawiera co najmniej:
+                                           –5–
+
+
+1)   oznaczenie przedmiotu i stron tej umowy;
+2)   określenie zobowiązań stron tej umowy, w tym określenie:
+     a)   zakresu danych FSDN zbieranych z gospodarstw rolnych,
+     b)   liczby gospodarstw rolnych, z których wojewódzki ośrodek doradztwa rolniczego
+          będzie zbierać dane FSDN, z uwzględnieniem planu wyboru gospodarstw
+          przekazujących dane, o którym mowa w art. 5a ust. 1 zdanie pierwsze rozporządzenia
+          nr 1217/2009, zwanego dalej „planem wyboru”,
+     c)   terminów i sposobu przekazywania danych FSDN agencji łącznikowej,
+     d)   warunków przyznania i wypłaty wojewódzkiemu ośrodkowi doradztwa rolniczego
+          środków finansowych na realizację jego zadań dotyczących zbierania danych FSDN
+          z gospodarstw rolnych i ich przekazywania agencji łącznikowej oraz warunków
+          rozliczenia tych środków,
+     e)   warunków ochrony danych indywidualnych w rozumieniu art. 2 pkt 10
+          rozporządzenia nr 1217/2009, które zostaną zebrane przez wojewódzki ośrodek
+          doradztwa rolniczego z gospodarstw rolnych;
+3)   określenie warunków rozwiązania tej umowy;
+4)   postanowienia dotyczące skutków prawnych niewykonania lub nienależytego wykonania
+     zobowiązań określonych w tej umowie.
+
+     Art. 11. Agencja łącznikowa sporządza plan wyboru na podstawie wykazu gospodarstw
+rolnych, które były badane w ramach powszechnego spisu rolnego lub badań struktury
+gospodarstw rolnych i których dane zostały przekazane do Urzędu Statystycznego Unii
+Europejskiej (Eurostat).
+
+     Art. 12. 1. Prezes Głównego Urzędu Statystycznego, na wniosek agencji łącznikowej,
+sporządza i przekazuje nieodpłatnie tej agencji, w formacie .csv, wykaz, o którym mowa
+w art. 11, zawierający dane pseudonimizowane w rozumieniu art. 2 pkt 12 rozporządzenia
+nr 1217/2009, niezbędne do sporządzenia planu wyboru.
+     2. Wykaz określony w ust. 1 zawiera co najmniej określenie:
+1)   statusu prawnego gospodarstwa rolnego;
+2)   województwa, w którym jest położone gospodarstwo rolne;
+3)   typu rolniczego gospodarstwa rolnego, w tym typu specjalizacji rolniczej, o których
+     mowa odpowiednio w art. 5b ust. 1 zdanie drugie i ust. 3 zdanie piąte rozporządzenia
+     nr 1217/2009;
+                                                  –6–
+
+
+4)     klasy wielkości ekonomicznej gospodarstwa rolnego i wielkości ekonomicznej
+       gospodarstwa rolnego, o których mowa odpowiednio w art. 5b ust. 1 zdanie drugie i ust. 4
+       rozporządzenia nr 1217/2009;
+5)     powierzchni gruntu użytkowanej rolniczo w gospodarstwie rolnym;
+6)     liczby zwierząt w gospodarstwie rolnym wyrażonej w jednostkach przeliczeniowych;
+7)     siły roboczej w gospodarstwie rolnym, o której mowa w załączniku IV do rozporządzenia
+       Parlamentu Europejskiego i Rady (UE) 2018/1091 z dnia 18 lipca 2018 r. w sprawie
+       zintegrowanych statystyk dotyczących gospodarstw rolnych oraz uchylenia rozporządzeń
+       (WE) nr 1166/2008 i (UE) nr 1337/2011 (Dz. Urz. UE L 200 z 07.08.2018, str. 1,
+       z późn. zm.4)).
+
+       Art. 13. 1. Agencja łącznikowa przekazuje zatwierdzony przez Komitet Krajowy
+ds. FSDN plan wyboru wojewódzkim ośrodkom doradztwa rolniczego, z którymi została
+zawarta umowa, o której mowa w art. 10 ust. 1, w celu sporządzenia przez te ośrodki listy
+gospodarstw przekazujących dane w rozumieniu art. 2 pkt 4 rozporządzenia nr 1217/2009.
+       2. Wojewódzkie ośrodki doradztwa rolniczego, z którymi została zawarta umowa, o której
+mowa w art. 10 ust. 1, przy sporządzaniu listy, o której mowa w ust. 1, mogą korzystać z danych
+i informacji zawartych w wykazie gospodarstw rolnych, które są reprezentatywne dla pola
+obserwacji, o którym mowa w art. 5 ust. 1 zdanie pierwsze rozporządzenia nr 1217/2009.
+
+       Art. 14. 1. Prezes Głównego Urzędu Statystycznego, na wniosek agencji łącznikowej,
+sporządza, w drodze losowania, na podstawie otrzymanego od tej agencji zatwierdzonego przez
+Komitet Krajowy ds. FSDN planu wyboru, i przekazuje nieodpłatnie tej agencji, w formacie
+.csv, wykaz, o którym mowa w art. 13 ust. 2, w celu sporządzenia przez wojewódzkie ośrodki
+doradztwa rolniczego listy, o której mowa w art. 13 ust. 1.
+       2. Wykaz określony w ust. 1 obejmuje gospodarstwa rolne, o których mowa w art. 13
+ust. 2, w liczbie niezbędnej do zapewnienia próby reprezentatywnej dla pola obserwacji,
+o której mowa w art. 5a ust. 1 zdanie pierwsze rozporządzenia nr 1217/2009, jednak nie
+większej niż trzykrotność liczby gospodarstw rolnych określonych w planie wyboru.
+       3. Wykaz określony w ust. 1 zawiera:
+1)     numer identyfikacyjny w krajowym rejestrze urzędowym podmiotów gospodarki
+       narodowej (numer REGON) gospodarstwa rolnego – jeżeli został nadany;
+
+
+4)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 265 z 24.10.2018, str. 23 oraz
+     Dz. Urz. UE L 457 z 21.12.2021, str. 1.
+                                             –7–
+
+
+2)    imię, nazwisko, miejsce zamieszkania i adres albo nazwę, siedzibę i adres rolnika
+      w rozumieniu art. 2 pkt 1 rozporządzenia nr 1217/2009, zwanego dalej „rolnikiem”;
+3)    informacje, o których mowa w art. 12 ust. 2 pkt 1–4.
+      4. Agencja łącznikowa udostępnia wojewódzkiemu ośrodkowi doradztwa rolniczego, na
+jego wniosek, dane i informacje zawarte w wykazie określonym w ust. 1 w celu sporządzenia
+listy, o której mowa w art. 13 ust. 1.
+      5. Dane i informacje zawarte w wykazie określonym w ust. 1 mogą być przechowywane
+przez okres nie dłuższy niż 1 rok od dnia:
+1)    przekazania tego wykazu agencji łącznikowej;
+2)    ich udostępnienia przez agencję łącznikową wojewódzkiemu ośrodkowi doradztwa
+      rolniczego.
+
+      Art. 15. 1. Dane FSDN z gospodarstw rolnych mogą być również zbierane przez agencję
+łącznikową.
+      2. W celu realizacji zadania, o którym mowa w ust. 1, agencja łącznikowa może zawierać
+umowy o świadczenie usług, o których mowa w art. 750 ustawy z dnia 23 kwietnia 1964 r. –
+Kodeks cywilny (Dz. U. z 2024 r. poz. 1061 i 1237). Do tej umowy przepisy art. 10 ust. 4 pkt 2
+lit. a, c oraz e stosuje się odpowiednio.
+      3. Podmioty, z którymi zostały zawarte umowy określone w ust. 2:
+1)    zbierają dane FSDN z gospodarstw rolnych wytypowanych przez agencję łącznikową
+      z uwzględnieniem planu wyboru;
+2)    są podmiotami zbierającymi dane w rozumieniu art. 2 pkt 7 rozporządzenia nr 1217/2009.
+
+      Art. 16. 1. Warunkiem zbierania danych FSDN z danego gospodarstwa rolnego jest
+złożenie przez rolnika oświadczenia o wyrażeniu zgody na udział w FSDN.
+      2. Rolnik składa oświadczenie, o którym mowa w ust. 1, w formie pisemnej,
+wojewódzkiemu ośrodkowi doradztwa rolniczego, z którym została zawarta umowa, o której
+mowa w art. 10 ust. 1, albo podmiotowi, z którym została zawarta umowa określona w art. 15
+ust. 2.
+      3. Rolnik może złożyć oświadczenie o cofnięciu zgody na udział w FSDN do czasu
+zakończenia zbierania danych FSDN z jego gospodarstwa rolnego. Przepis ust. 2 stosuje się
+odpowiednio.
+                                             –8–
+
+
+     Art. 17. 1. Rolnikowi za udział w FSDN przysługuje świadczenie pieniężne.
+     2. Warunkiem wypłaty świadczenia pieniężnego jest złożenie przez rolnika oświadczenia,
+o którym mowa w art. 16 ust. 1.
+     3. Świadczenie pieniężne jest wypłacane rolnikom przez agencję łącznikową w równej
+wysokości.
+     4. Wysokość świadczenia pieniężnego wynosi 0,0625 przeciętnego miesięcznego
+wynagrodzenia w sektorze przedsiębiorstw bez wypłat nagród z zysku w czwartym kwartale
+roku poprzedniego, ogłaszanego przez Prezesa Głównego Urzędu Statystycznego w Dzienniku
+Urzędowym Rzeczypospolitej Polskiej „Monitor Polski”.
+     5. Wojewódzki ośrodek doradztwa rolniczego, z którym została zawarta umowa, o której
+mowa w art. 10 ust. 1, albo podmiot, z którym została zawarta umowa określona w art. 15
+ust. 2, informują rolnika o warunkach i terminie wypłaty świadczenia pieniężnego.
+     6. W przypadku złożenia oświadczenia, o którym mowa w art. 16 ust. 3, świadczenie
+pieniężne nie jest rolnikowi wypłacane.
+
+     Art. 18. 1. Administratorem, o którym mowa w art. 16b ust. 2 zdanie drugie
+rozporządzenia nr 1217/2009, jest agencja łącznikowa.
+     2. Podmiotami przetwarzającymi, o których mowa w art. 16b ust. 2 zdanie drugie
+rozporządzenia nr 1217/2009, są wojewódzkie ośrodki doradztwa rolniczego, z którymi została
+zawarta umowa, o której mowa w art. 10 ust. 1, oraz podmioty, z którymi zostały zawarte
+umowy określone w art. 15 ust. 2.
+
+     Art. 19. 1. Podmioty prowadzące systemy, rejestry i inne źródła danych określone
+w art. 4 ust. 2 lit. a, b oraz d–g rozporządzenia nr 1217/2009 przekazują nieodpłatnie agencji
+łącznikowej, na jej wniosek, dane zawarte w tych systemach, rejestrach i innych źródłach
+danych, niezbędne do realizacji jej zadań, oraz udzielają jej bezpłatnych wyjaśnień i konsultacji
+w zakresie tych danych.
+     2. Wniosek, o którym mowa w ust. 1, zawiera co najmniej określenie zakresu danych,
+które podmioty, o których mowa w ust. 1, mają przekazać agencji łącznikowej, oraz terminu
+przekazania tych danych.
+                                                     –9–
+
+
+       Art. 20. W ustawie z dnia 26 lipca 1991 r. o podatku dochodowym od osób fizycznych
+(Dz. U. z 2024 r. poz. 226, z późn. zm.5)) w art. 21 w ust. 1 po pkt 47d dodaje się pkt 47da
+w brzmieniu:
+       „47da) świadczenia wypłacane w związku z udziałem w unijnej sieci danych dotyczących
+             poziomu zrównoważenia gospodarstw rolnych, o której mowa w ustawie z dnia ...
+             o unijnej sieci danych dotyczących poziomu zrównoważenia gospodarstw rolnych
+             (FSDN) (Dz. U. poz. ...);”.
+
+       Art. 21. W ustawie z dnia 18 grudnia 2003 r. o krajowym systemie ewidencji
+producentów, ewidencji gospodarstw rolnych oraz ewidencji wniosków o przyznanie płatności
+(Dz. U. z 2023 r. poz. 885) w art. 5 w ust. 1 w pkt 5 kropkę zastępuje się średnikiem i dodaje
+się pkt 6 w brzmieniu:
+       „6) zbierania danych w ramach unijnej sieci danych dotyczących poziomu
+             zrównoważenia gospodarstw rolnych, o której mowa w ustawie z dnia ... o unijnej
+             sieci danych dotyczących poziomu zrównoważenia gospodarstw rolnych (FSDN)
+             (Dz. U. poz. …).”.
+
+       Art. 22. Krajowy Komitet do Spraw Systemu Zbierania i Wykorzystywania Danych
+Rachunkowych z Gospodarstw Rolnych, o którym mowa w art. 7 ust. 1 ustawy uchylanej
+w art. 28, zwany dalej „dotychczasowym Komitetem”, staje się Komitetem Krajowym
+ds. FSDN.
+
+       Art. 23. Członkowie dotychczasowego Komitetu powołani na podstawie ustawy
+uchylanej w art. 28 pełnią swoje funkcje do dnia powołania członków Komitetu Krajowego
+ds. FSDN, o których mowa w art. 6 ust. 1, jednak nie dłużej niż przez 6 miesięcy od dnia
+wejścia w życie niniejszej ustawy.
+
+       Art. 24. Sprawy należące do zadań dotychczasowego Komitetu wszczęte i niezakończone
+przed dniem wejścia w życie ustawy przejmuje i prowadzi Komitet Krajowy ds. FSDN.
+
+       Art. 25. Uchwały podjęte przez dotychczasowy Komitet przed dniem wejścia w życie
+ustawy zachowują moc.
+
+
+
+
+5)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2024 r. poz. 232, 854, 858, 859,
+     863, 1572, 1585, 1593, 1615 i 1635.
+                                           – 10 –
+
+
+     Art. 26. Do wykorzystywania danych rachunkowych w rozumieniu art. 2 pkt 1 ustawy
+uchylanej w art. 28 za 2024 r. zebranych na podstawie tej ustawy przed dniem wejścia w życie
+niniejszej ustawy stosuje się przepisy dotychczasowe.
+
+     Art. 27. 1. Maksymalny limit wydatków budżetu państwa na realizację przez ministra
+właściwego do spraw rolnictwa zadania określonego w art. 9 ust. 1 wynosi w:
+1)   2025 r. – 49 300 000 zł;
+2)   2026 r. – 53 100 000 zł;
+3)   2027 r. – 55 000 000 zł;
+4)   2028 r. – 56 300 000 zł;
+5)   2029 r. – 57 700 000 zł;
+6)   2030 r. – 59 150 000 zł;
+7)   2031 r. – 60 600 000 zł;
+8)   2032 r. – 62 100 000 zł;
+9)   2033 r. – 63 650 000 zł;
+10) 2034 r. – 65 250 000 zł.
+     2. Minister właściwy do spraw rolnictwa monitoruje wykorzystanie limitu wydatków,
+o którym mowa w ust. 1, oraz wdraża mechanizm korygujący, o którym mowa w ust. 3.
+     3. W przypadku przekroczenia lub zagrożenia przekroczenia przyjętego na dany rok
+budżetowy maksymalnego limitu wydatków, o którym mowa w ust. 1, zostanie zastosowany
+mechanizm korygujący polegający na zmniejszeniu wydatków budżetu państwa na realizację
+zadania określonego w art. 9 ust. 1.
+
+     Art. 28. Traci moc ustawa z dnia 29 listopada 2000 r. o zbieraniu i wykorzystywaniu
+danych rachunkowych z gospodarstw rolnych (Dz. U. z 2021 r. poz. 1215).
+
+     Art. 29. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                     UZASADNIENIE
+
+     Projekt ustawy o unijnej sieci danych dotyczących poziomu zrównoważenia gospodarstw
+rolnych (FSDN) wynika z konieczności dostosowania krajowych przepisów prawnych do
+przepisów obowiązujących w Unii Europejskiej dotyczących zbierania danych rachunkowych
+z gospodarstw rolnych, a w szczególności wprowadzenia do polskiego porządku prawnego
+rozwiązań służących stosowaniu rozporządzenia Rady (WE) nr 1217/2009 z dnia 30 listopada
+2009 r. ustanawiającego sieć danych dotyczących poziomu zrównoważenia gospodarstw
+rolnych (Dz. Urz. UE L 328 z 15.12.2009, str. 27, z późn. zm.), zwanego dalej
+„rozporządzeniem nr 1217/2009”.
+
+     Zgodnie z art. 1 rozporządzenia nr 1217/2009, zmienionego rozporządzeniem Parlamentu
+Europejskiego i Rady (UE) 2023/2674 z dnia 22 listopada 2023 r. w sprawie zmiany
+rozporządzenia Rady (WE) nr 1217/2009 w odniesieniu do przekształcenia sieci danych
+rachunkowych gospodarstw rolnych w sieć danych dotyczących poziomu zrównoważenia
+gospodarstw rolnych (Dz. Urz. UE L 2023/2674 z 29.11.2023), w celu spełnienia wymogów
+wspólnej polityki rolnej (WPR), w tym oceny jej wpływu na sektor rolny, przekształca się sieć
+danych rachunkowych gospodarstw rolnych (FADN) w sieć danych dotyczących poziomu
+zrównoważenia gospodarstw rolnych (FSDN) w celu zbierania i analizy danych z gospodarstwa
+obejmujących wymiar gospodarczy, środowiskowy i społeczny, zwanych dalej „danymi
+FSDN”. Dane FSDN mogą być wykorzystywane do oceny dodatkowych aspektów związanych
+z poziomem zrównoważenia rolnictwa Unii Europejskiej oraz do sprostania wyzwaniom, przed
+którymi stoi rolnictwo Unii Europejskiej.
+
+     Do końca 2024 r. dane zbierane z gospodarstw rolnych obejmują 16 tematów, w tym
+13 w wymiarze ekonomicznym, 2 w wymiarze społecznym i 1 w wymiarze środowiskowym.
+Od 2025 r. do obecnego zestawu danych zostanie dodanych 26 nowych tematów, w tym
+5 w wymiarze ekonomicznym, 6 w wymiarze społecznym i 15 w wymiarze środowiskowym
+oraz 2 tematy ekonomiczne zostaną rozszerzone.
+
+     Zgodnie z art. 7 rozporządzenia nr 1217/2009 każde państwo członkowskie wyznacza
+agencję łącznikową, której zadaniami są:
+1)   informowanie komitetu krajowego, komitetów regionalnych oraz biur rachunkowych
+     o szczegółowych zasadach mających do nich zastosowanie oraz zapewnienie
+     prawidłowego wdrażania tych zasad;
+2)   sporządzanie i przedkładanie komitetowi krajowemu do zatwierdzenia, a następnie
+     przekazywanie Komisji Europejskiej:
+     a)   planu wyboru gospodarstw przekazujących dane, który jest sporządzany na
+          podstawie najbardziej aktualnych danych statystycznych przedstawionych zgodnie
+          ze wspólnotową typologią gospodarstw rolnych,
+     b)   sprawozdania w sprawie wykonania planu wyboru gospodarstw przekazujących
+          dane;
+3)   opracowanie:
+     a)   listy gospodarstw przekazujących dane,
+     b)   listy biur rachunkowych gotowych i zdolnych do wypełnienia sprawozdań
+          z gospodarstw rolnych;
+4)   gromadzenie sprawozdań z gospodarstw rolnych przesłanych przez biura rachunkowe
+     i weryfikowanie w oparciu o wspólny program kontroli, czy zostały one należycie
+     wypełnione;
+5)   przesyłanie Komisji Europejskiej należycie wypełnionych sprawozdań z gospodarstw
+     rolnych niezwłocznie po ich zweryfikowaniu;
+6)   przekazywanie    komitetowi      krajowemu,   komitetom   regionalnym   oraz   biurom
+     rachunkowym wniosków o informacje o danych indywidualnych i danych, o których
+     mowa w art. 1 ust. 1 zdanie pierwsze rozporządzenia nr 1217/2009, oraz przekazywanie
+     stosownych odpowiedzi Komisji Europejskiej.
+
+     Obecnie dane gromadzone w ramach FADN są wykorzystywane przede wszystkim do:
+1)   corocznego określania dochodów gospodarstw rolnych funkcjonujących w Unii
+     Europejskiej;
+2)   analizy struktury przychodów i kosztów gospodarstw rolnych;
+3)   oceny skutków projektowanych zmian w zakresie wspierania rolnictwa w Unii
+     Europejskiej, a w szczególności określenia poziomu cen.
+
+     W obecnie funkcjonującym systemie zbierania i wykorzystywania danych rachunkowych
+z gospodarstw rolnych, tj. FADN, rolę agencji łącznikowej od maja 2004 r. pełni Instytut
+Ekonomiki Rolnictwa i Gospodarki Żywnościowej – Państwowy Instytut Badawczy
+w Warszawie (IERiGŻ – PIB). Stosownie do statutu IERiGŻ – PIB zakres działania tego
+Instytutu obejmuje w szczególności:
+1)   prowadzenie badań naukowych oraz prac rozwojowych w zakresie:
+
+
+
+                                              2
+     a)      makroekonomicznych analiz stanu i rozwoju rolnictwa oraz gospodarki
+             żywnościowej,
+     b)      monitorowania i prognozowania kosztów oraz opłacalności produkcji rolnej,
+     c)      poziomu i relacji dochodowych w rolnictwie,
+     d)      analiz rozwoju rynków podstawowych produktów rolnych,
+     e)      analiz i prognoz zmian strukturalnych na wsi,
+     f)      finansowania wsi i rolnictwa;
+2)   prowadzenie terenowych badań źródłowych w zakresie społeczno-ekonomicznych
+     problemów rolnictwa i obszarów wiejskich oraz polityki rolnej;
+3)   realizację zadań związanych z pełnieniem funkcji agencji łącznikowej.
+
+     Dane FADN gromadzone od 2004 r. umożliwiają IERiGŻ – PIB oraz innym centrom
+naukowym przygotowywanie analiz i ekspertyz, zgodnie z zapotrzebowaniem administracji
+krajowej i unijnej, parlamentarzystom i innym zainteresowanym, którzy mogą korzystać
+z danych po ich zanonimizowaniu.
+
+     Funkcję biur rachunkowych na szczeblu wojewódzkim pełnią istniejące Ośrodki
+Doradztwa Rolniczego. Umowy zawierane między uczestnikami systemu precyzują zakres
+danych rachunkowych i terminy ich dostarczania, a także warunki ochrony danych
+rachunkowych z gospodarstwa rolnego i warunki ochrony danych osobowych posiadacza
+gospodarstwa rolnego.
+
+     FADN stanowi podstawowe źródło danych dla ośrodków decyzyjnych i naukowych do
+określania     dochodów      gospodarstw     rolnych   uzyskiwanych   w   różnych   warunkach
+techniczno-ekonomicznych oraz analizowania sytuacji w rolnictwie na rynkach rolnych.
+Zgodnie z przepisami Unii Europejskiej kraje członkowskie mają obowiązek przekazywać
+Komisji Europejskiej dane rachunkowe z gospodarstw rolnych.
+
+     Dane rachunkowe z gospodarstw rolnych są wykorzystywane do sporządzania w IERiGŻ
+– PIB zestawień tabelarycznych, a także analiz sytuacji ekonomiczno-produkcyjnej różnych
+grup gospodarstw rolnych. Ponadto służą do prowadzenia szeregu badań.
+
+     IERiGŻ – PIB zleca ośrodkom doradztwa rolniczego lub innym podmiotom zbieranie
+danych rachunkowych z określonych w wykazie gospodarstw rolnych przewidzianych do
+badań.
+
+     Koszty realizacji tego zadania są finansowane z wydatków budżetowych będących
+w dyspozycji ministra właściwego do spraw rolnictwa.
+
+                                                 3
+     W celu gromadzenia danych na potrzeby FSDN, których zakres jest szerszy niż
+dotychczasowy FADN, należy unowocześnić system dostarczania, zbierania i przekazywania
+danych.
+
+     W projekcie ustawy określono zadania i właściwość organów i jednostek organizacyjnych
+zaangażowanych     w   zbieranie,   dostarczanie   i   przesyłanie   danych   rachunkowych,
+środowiskowych i społecznych z gospodarstw rolnych. Ponadto określono organizację i tryb
+pracy Komitetu Krajowego do spraw Unijnej Sieci Danych Dotyczących Poziomu
+Zrównoważenia Gospodarstw Rolnych, który jest komitetem krajowym ds. FSDN, o którym
+mowa w art. 6 ust. 1 rozporządzenia nr 1217/2009, oraz zasady zawierania umów, tj.:
+1)   umowy ministra właściwego do spraw rolnictwa z IERiGŻ – PIB, wyznaczonym do
+     pełnienia funkcji agencji łącznikowej;
+2)   umów agencji łącznikowej z wojewódzkimi ośrodkami doradztwa rolniczego, które
+     bezpośrednio zbierają dane z gospodarstw rolnych i dostarczają je do agencji łącznikowej;
+3)   umów o świadczenie usług, o których mowa w art. 750 ustawy z dnia 23 kwietnia 1964 r.
+     – Kodeks cywilny (Dz. U. z 2024 r. poz. 1061, z późn. zm.), które agencja łącznikowa
+     może zawierać z innymi podmiotami.
+
+     Zgodnie z rozporządzeniem nr 1217/2009 komitet krajowy ds. FSDN jest odpowiedzialny
+za wybór gospodarstw przekazujących dane. W tym celu do jego obowiązków należy
+w szczególności zatwierdzanie:
+1)   planu wyboru gospodarstw przekazujących dane, określającego w szczególności podział
+     gospodarstw przekazujących dane na kategorię gospodarstwa rolnego oraz szczegółowe
+     zasady wyboru tych gospodarstw;
+2)   sprawozdania z wykonania planu wyboru gospodarstw przekazujących dane.
+
+     W projekcie ustawy przewiduje się, że minister właściwy do spraw rolnictwa utworzy
+Komitet Krajowy do spraw Unijnej Sieci Danych Dotyczących Poziomu Zrównoważenia
+Gospodarstw Rolnych, w którego skład wejdą: dwóch przedstawicieli ministra właściwego do
+spraw rolnictwa (albo minister właściwy do spraw rolnictwa jako przewodniczący tego
+Komitetu i jego przedstawiciel) i dwóch przedstawicieli ministra właściwego do spraw
+finansów publicznych oraz po jednym przedstawicielu ministra właściwego do spraw rynków
+rolnych, ministra właściwego do spraw rozwoju regionalnego, ministra właściwego do spraw
+środowiska, ministra właściwego do spraw zabezpieczenia społecznego, Prezesa Głównego
+Urzędu Statystycznego, agencji łącznikowej oraz Krajowej Rady Izb Rolniczych.
+
+
+
+                                              4
+Przedstawiciele ww. podmiotów będą uczestniczyć w pracach tego Komitetu w ramach swoich
+obowiązków służbowych.
+
+     W celu niepowielania danych już zaimplementowanych w bazach dotyczących statystyk
+dotyczących nakładów i produkcji w rolnictwie lub realizacji WPR w projekcie ustawy
+przewidziano obowiązek udostępniania danych na wniosek agencji łącznikowej.
+
+     FSDN opiera się na dobrowolnym uczestnictwie. Prezes Głównego Urzędu
+Statystycznego na wniosek agencji łącznikowej będzie przekazywał pseudonimizowany wykaz
+gospodarstw rolnych w celu przygotowania planu wyboru na dany rok. Następnie Prezes
+Głównego Urzędu Statystycznego będzie sporządzał, w drodze losowania, wykaz
+reprezentatywnych gospodarstw rolnych w danym typie, z którego wojewódzkie ośrodki
+doradztwa rolniczego będą mogły uzupełniać, w miarę potrzeby, listę gospodarstw
+uczestniczących w FSDN z własnych wyborów.
+
+     Uczestniczący w FSDN rolnicy będą otrzymywać za udział w FSDN świadczenie
+pieniężne, jako zachętę do ich udziału w FSDN, które będzie wynosić 0,0625 przeciętnego
+miesięcznego wynagrodzenia w sektorze przedsiębiorstw bez wypłat nagród z zysku
+w czwartym kwartale roku poprzedniego, ogłaszanego przez Prezesa Głównego Urzędu
+Statystycznego w Dzienniku Urzędowym Rzeczypospolitej Polskiej „Monitor Polski”.
+Ww. świadczenie pieniężne jest związane z przygotowaniem dokumentów niezbędnych do
+wprowadzenia określonych danych do systemu służącego do przekazywania danych FSDN.
+Świadczenie z tego tytułu będzie zwolnione z podatku dochodowego od osób fizycznych. Bez
+proponowanego zwolnienia świadczenie to byłoby zaliczane na gruncie ustawy z dnia 26 lipca
+1991 r. o podatku dochodowym od osób fizycznych (Dz. U. z 2024 r. poz. 226, z późn. zm.) do
+przychodów z innych źródeł, czyli opodatkowane według skali podatkowej. Zwolnienie
+spowoduje, że nie wystąpi po stronie podmiotu wypłacającego to świadczenie obowiązek
+wystawiania informacji PIT-11, co obniży koszty obsługi FSDN.
+
+     Projekt ustawy przewiduje, że do wykorzystywania danych rachunkowych zebranych na
+podstawie obecnie funkcjonującej ustawy będą stosowane dotychczasowe przepisy w celu
+stworzenia możliwości zamknięcia sprawozdań z gospodarstw rolnych za 2024 r. i ich
+przekazania do Komisji Europejskiej w trybie dotychczasowym.
+
+     Planuje się, że projektowana ustawa wejdzie w życie po upływie 14 dni od dnia
+ogłoszenia.
+
+     Projektowana ustawa jest zgodna z prawem Unii Europejskiej.
+
+                                            5
+     Projekt ustawy nie wymaga przedstawienia właściwym organom i instytucjom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+
+     Projekt ustawy nie zawiera norm technicznych w rozumieniu przepisów rozporządzenia
+Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania krajowego
+systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.) i w związku z tym
+nie podlega obowiązkowi notyfikacji.
+
+     Projekt ustawy został udostępniony w Biuletynie Informacji Publicznej na stronie
+podmiotowej Rządowego Centrum Legislacji, w serwisie „Rządowy Proces Legislacyjny”,
+w celu zgłaszania w trakcie trwania prac legislacyjnych zainteresowania w trybie przepisów
+ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U.
+z 2017 r. poz. 248, z późn. zm.).
+
+     Wprowadzenie projektowanych przepisów nie będzie miało wpływu na działalność
+mikroprzedsiębiorców oraz małych i średnich przedsiębiorców.
+
+     Projekt ustawy został zamieszczony w Wykazie prac legislacyjnych i programowych
+Rady Ministrów pod numerem UC64.
+
+
+
+
+                                               6
+Nazwa projektu                                              Data sporządzenia
+Projekt ustawy o unijnej sieci danych dotyczących poziomu 07.06.2024 r.
+zrównoważenia gospodarstw rolnych (FSDN)
+                                                            Źródło
+Ministerstwo wiodące i ministerstwa współpracujące          rozporządzenie Rady (WE) nr 1217/2009
+Ministerstwo Rolnictwa i Rozwoju Wsi                        z dnia 30 listopada 2009 r. ustanawiające sieć
+                                                            danych dotyczących poziomu zrównoważenia
+Osoba odpowiedzialna za projekt w randze Ministra,          gospodarstw rolnych (Dz. Urz. UE L 328
+Sekretarza Stanu lub Podsekretarza Stanu                    z 15.12.2009, str. 27, z późn. zm.)
+Pan Czesław Siekierski – Minister Rolnictwa i Rozwoju Wsi
+                                                            Nr w Wykazie prac legislacyjnych
+Kontakt do opiekuna merytorycznego projektu                 i programowych Rady Ministrów –
+Aleksandra Szelągowska – zastępca dyrektora w Departamencie UC64
+Budżetu w Ministerstwie Rolnictwa i Rozwoju Wsi,
+tel. 22 623 17 64, adres e-mail:
+aleksandra.szelagowska@minrol.gov.pl
+                             OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Zgodnie z art. 1 rozporządzenia Rady (WE) nr 1217/2009 z dnia 30 listopada 2009 r. ustanawiającego sieć danych
+dotyczących poziomu zrównoważenia gospodarstw rolnych, zwanego dalej „rozporządzeniem nr 1217/2009”,
+zmienionego rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2023/2674 z dnia 22 listopada 2023 r.
+w sprawie zmiany rozporządzenia Rady (WE) nr 1217/2009 w odniesieniu do przekształcenia sieci danych
+rachunkowych gospodarstw rolnych w sieć danych dotyczących poziomu zrównoważenia gospodarstw rolnych
+(Dz. Urz. UE L 2023/2674 z 29.11.2023), zwanego dalej „rozporządzeniem 2023/2674”, w celu spełnienia wymogów
+wspólnej polityki rolnej (WPR), w tym oceny jej wpływu na sektor rolny, przekształca się sieć danych rachunkowych
+gospodarstw rolnych (FADN) w sieć danych dotyczących poziomu zrównoważenia gospodarstw rolnych (FSDN)
+w celu zbierania i analizy danych z gospodarstwa obejmujących wymiar gospodarczy, środowiskowy i społeczny,
+zwanych dalej „danymi FSDN”. Dane FSDN mogą być wykorzystywane do oceny dodatkowych aspektów
+związanych z poziomem zrównoważenia rolnictwa Unii Europejskiej oraz do sprostania wyzwaniom, przed którymi
+stoi rolnictwo Unii Europejskiej.
+Do końca 2024 r. dane zbierane z gospodarstw rolnych obejmują 16 tematów, w tym 13 w wymiarze ekonomicznym,
+2 w wymiarze społecznym i 1 w wymiarze środowiskowym. Od 2025 r. do obecnego zestawu danych zostanie
+dodanych 26 nowych tematów, w tym 5 w wymiarze ekonomicznym, 6 w wymiarze społecznym i 15 w wymiarze
+środowiskowym oraz 2 tematy ekonomiczne zostaną rozszerzone.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Projekt ustawy wynika z konieczności dostosowania polskich przepisów prawnych do przepisów obowiązujących
+w Unii Europejskiej dotyczących zbierania danych z gospodarstw rolnych, a w szczególności przepisów
+rozporządzenia nr 1217/2009, zmienionego rozporządzeniem 2023/2674.
+Osiągnięcie celu projektowanej ustawy jest możliwe jedynie za pomocą działań o charakterze legislacyjnym.
+Projekt ustawy określa:
+1) zadania i właściwość organów i jednostek organizacyjnych w zakresie unijnej sieci danych dotyczących poziomu
+zrównoważenia gospodarstw rolnych, zwanej dalej „FSDN”, określonym w rozporządzeniu nr 1217/2009 oraz
+w przepisach Unii Europejskiej wydanych na podstawie rozporządzenia nr 1217/2009;
+2) sprawy dotyczące FSDN w zakresie nieokreślonym w przepisach, o których mowa w pkt 1, lub przewidziane
+w tych przepisach do określenia przez państwo członkowskie Unii Europejskiej, w tym:
+a) organizację i tryb pracy Komitetu Krajowego do spraw Unijnej Sieci Danych Dotyczących Poziomu
+Zrównoważenia Gospodarstw Rolnych,
+b) zasady zbierania i przekazywania danych FSDN,
+c) tryb wyboru gospodarstw przekazujących dane w rozumieniu art. 2 pkt 4 rozporządzenia nr 1217/2009,
+d) mechanizmy współpracy, o których mowa w art. 4 ust. 3 zdanie drugie rozporządzenia nr 1217/2009.
+Agencją łącznikową, o której mowa w art. 7 ust. 1 rozporządzenia nr 1217/2009, wyznacza się Instytut Ekonomiki
+Rolnictwa i Gospodarki Żywnościowej – Państwowy Instytut Badawczy. Agencja łącznikowa wykonuje zadania
+państwa członkowskiego w zakresie FSDN. Na realizację powyższych zadań Agencja otrzymuje corocznie od
+ministra właściwego do spraw rolnictwa dotację celową.
+Dane FSDN są zbierane za pośrednictwem wojewódzkich ośrodków doradztwa rolniczego na podstawie zawartych
+z agencją łącznikową umów oraz bezpośrednio przez samą agencję, w oparciu o plan wyboru sporządzony przez
+agencję łącznikową na podstawie wykazu gospodarstw rolnych, które były badane w ramach powszechnego spisu
+rolnego lub na podstawie badań struktury gospodarstw rolnych i których dane zostały przekazane do Urzędu
+Statystycznego Unii Europejskiej (Eurostat) – przekazanego bezpłatnie przez Prezesa Głównego Urzędu
+Statystycznego.
+Przekazywanie przez rolnika danych do FSDN jest całkowicie dobrowolne i wymaga jego zgody. Za udział w FSDN
+rolnikowi przysługuje świadczenie pieniężne, które jest zwolnione z podatku dochodowego.
+Istniejący obecnie Komitet do Spraw Systemu Zbierania i Wykorzystywania Danych Rachunkowych z Gospodarstw
+Rolnych staje się Komitetem Krajowym ds. FSDN. Jego skład zostaje rozszerzony o przedstawiciela ministra
+właściwego do spraw zabezpieczenia społecznego oraz przedstawiciela ministra właściwego do spraw środowiska.
+Wprowadza się obowiązek dla innych podmiotów prowadzących systemy, rejestry i inne źródła danych określone
+w art. 4 ust. 2 lit. a, b oraz d–g rozporządzenia nr 1217/2009 bezpłatnego przekazywania na wniosek agencji
+łącznikowej danych zawartych w tych systemach, rejestrach i innych źródłach danych, niezbędnych do realizacji jej
+zadań, oraz udzielania jej bezpłatnych wyjaśnień i konsultacji w zakresie tych danych.
+Oczekiwanym efektem wprowadzonych zmian jest stworzenie spójnego krajowego systemu do zbierania danych
+dotyczących poziomu zrównoważenia gospodarstw rolnych w celu wypełnienia obowiązków wynikających ze
+zmienionych przepisów unijnych.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Zgodnie z art. 7 rozporządzenia nr 1217/2009 każde państwo członkowskie wyznacza agencję łącznikową, której
+zadaniami są:
+1) informowanie komitetu krajowego, komitetów regionalnych oraz biur rachunkowych o szczegółowych zasadach
+mających do nich zastosowanie oraz zapewnienie prawidłowego wdrażania tych zasad;
+2) sporządzanie i przedkładanie komitetowi krajowemu do zatwierdzenia, a następnie przekazywanie Komisji
+Europejskiej:
+a) planu wyboru gospodarstw przekazujących dane, który jest sporządzany na podstawie najbardziej aktualnych
+danych statystycznych przedstawionych zgodnie ze wspólnotową typologią gospodarstw rolnych,
+b) sprawozdania w sprawie wykonania planu wyboru gospodarstw przekazujących dane;
+3) opracowanie:
+a) listy gospodarstw przekazujących dane,
+b) listy biur rachunkowych gotowych i zdolnych do wypełnienia sprawozdań z gospodarstw rolnych;
+4) gromadzenie sprawozdań z gospodarstw rolnych przesłanych przez biura rachunkowe i weryfikowanie w oparciu
+o wspólny program kontroli, czy zostały one należycie wypełnione;
+5) przesyłanie Komisji Europejskiej należycie wypełnionych sprawozdań z gospodarstw rolnych niezwłocznie po ich
+zweryfikowaniu;
+6) przekazywanie komitetowi krajowemu, komitetom regionalnym oraz biurom rachunkowym wniosków
+o informacje przewidzianych w art. 17 rozporządzenia nr 1217/2009 oraz przekazywanie stosownych odpowiedzi
+Komisji Europejskiej.
+4. Podmioty, na które oddziałuje projekt
+           Grupa                    Wielkość                   Źródło danych              Oddziaływanie
+Instytut Ekonomiki                     1                                              Pełni funkcję agencji
+Rolnictwa i Gospodarki                                                                łącznikowej, do zadań
+Żywnościowej –                                                                        której należy m.in.
+Państwowy Instytut                                                                    sporządzanie planu
+Badawczy z siedzibą w                                                                 wyboru gospodarstw
+Warszawie                                                                             przekazujących dane,
+                                                                                      weryfikacja sprawozdań z
+                                                                                      gospodarstw rolnych
+                                                                                      dostarczonych przez
+                                                                                      wojewódzkie ośrodki
+                                                                                      doradztwa rolniczego i
+                                                                                      przekazywanie ich
+                                                                                      terminowo do KE,
+                                                                                      przekazywanie
+                                                                                      gospodarstwom
+                                                                                      uczestniczącym w FSDN
+                                                                                      uzyskanych wyników z
+                                                                                      danego gospodarstwa,
+                                                                                      udostępnianie uzyskanych
+                                                                                      wyników w formie
+                                                       2
+                                                                                zagregowanych i
+                                                                                zanonimizowanych
+                                                                                danych, takich jak dane na
+                                                                                poziomie regionalnym,
+                                                                                krajowym, unijnym lub
+                                                                                sektorowym.
+Producenci rolni       9000 począwszy od 2025 r.   Próba reprezentatywna        Producenci rolni
+                                                   gospodarstw                  przekazujący dane z
+                                                   wytwarzających 90 %          gospodarstw rolnych na
+                                                   Standardowej Produkcji       potrzeby sieci, którzy
+                                                   (SO).                        wyrazili dobrowolną
+                                                                                zgodę na udział w FSDN i
+                                                   (Minimalna wielkość          otrzymują za ten udział
+                                                   ekonomiczna gospodarstwa     świadczenie pieniężne
+                                                   od 2025 r. Reprezentacja     zwolnione z podatku
+                                                   gospodarstw rolnych będzie   dochodowego.
+                                                   dotyczyła gospodarstw o
+                                                   SO 8000 euro)
+Minister właściwy do              1                                             Nadzór nad realizacją
+spraw rolnictwa                                                                 zadania, w tym m.in.
+                                                                                utworzenie i udział w
+                                                                                Komitecie Krajowym do
+                                                                                spraw Unijnej Sieci
+                                                                                Danych Dotyczących
+                                                                                Poziomu Zrównoważenia
+                                                                                Gospodarstw Rolnych.
+Minister właściwy do              1                                             Udział w Komitecie
+spraw finansów                                                                  Krajowym do spraw
+publicznych                                                                     Unijnej Sieci Danych
+                                                                                Dotyczących Poziomu
+                                                                                Zrównoważenia
+                                                                                Gospodarstw Rolnych.
+Minister właściwy do              1                                             Udział w Komitecie
+spraw rozwoju                                                                   Krajowym do spraw
+regionalnego                                                                    Unijnej Sieci Danych
+                                                                                Dotyczących Poziomu
+                                                                                Zrównoważenia
+                                                                                Gospodarstw Rolnych.
+Minister właściwy do              1                                             Udział w Komitecie
+spraw zabezpieczenia                                                            Krajowym do spraw
+społecznego                                                                     Unijnej Sieci Danych
+                                                                                Dotyczących Poziomu
+                                                                                Zrównoważenia
+                                                                                Gospodarstw Rolnych.
+Minister właściwy do              1                                             Udział w Komitecie
+spraw środowiska                                                                Krajowym do spraw
+                                                                                Unijnej Sieci Danych
+                                                                                Dotyczących Poziomu
+                                                                                Zrównoważenia
+                                                                                Gospodarstw Rolnych.
+Główny Urząd                      1                                             Udział w Komitecie
+Statystyczny                                                                    Krajowym do spraw
+                                                                                Unijnej Sieci Danych
+                                                                                Dotyczących Poziomu
+                                                                                Zrównoważenia
+                                                                                Gospodarstw Rolnych.
+                                                                                Prezes Głównego Urzędu
+                                                                                Statystycznego przekazuje
+                                                                                agencji łącznikowej
+
+                                                   3
+                                                                                 pseudonimizowany wykaz
+                                                                                 gospodarstw badanych w
+                                                                                 ramach powszechnych
+                                                                                 spisów rolnych lub badań
+                                                                                 struktury gospodarstw
+                                                                                 rolnych w celu
+                                                                                 sporządzenia przez
+                                                                                 agencję łącznikową planu
+                                                                                 wyboru.
+Krajowa Rada Izb                     1                                           Udział w Komitecie
+Rolniczych                                                                       Krajowym do spraw
+                                                                                 Unijnej Sieci Danych
+                                                                                 Dotyczących Poziomu
+                                                                                 Zrównoważenia
+                                                                                 Gospodarstw Rolnych.
+Agencja                              1                                           Prezes ARiMR przekazuje
+Restrukturyzacji i                                                               agencji łącznikowej,
+Modernizacji Rolnictwa                                                           zgodnie z wykazem
+(ARiMR)                                                                          gospodarstw wskazanym
+                                                                                 przez agencję łącznikową,
+                                                                                 dane z komputerowej bazy
+                                                                                 danych prowadzonej na
+                                                                                 podstawie przepisów:
+                                                                                 1) ustawy z dnia
+                                                                                 4 listopada 2022 r. o
+                                                                                 systemie identyfikacji i
+                                                                                 rejestracji zwierząt
+                                                                                 (Dz. U. z 2023 r.
+                                                                                 poz. 1815);
+                                                                               2) ustawy z dnia
+                                                                               18 grudnia 2003 r. o
+                                                                               krajowym systemie
+                                                                               ewidencji producentów,
+                                                                               ewidencji gospodarstw
+                                                                               rolnych oraz ewidencji
+                                                                               wniosków o przyznanie
+                                                                               płatności (Dz. U. z 2023 r.
+                                                                               poz. 885).
+Wojewódzkie ośrodki                  16                                        Wojewódzkie ośrodki
+doradztwa rolniczego                                                           doradztwa rolniczego, na
+                                                                               podstawie umów
+                                                                               zawartych z agencją
+                                                                               łącznikową, zbierają
+                                                                               i dostarczają dane z
+                                                                               gospodarstw rolnych na
+                                                                               określonych zasadach.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt ustawy został przesłany do konsultacji publicznych z 21-dniowym terminem na zgłoszenie uwag do
+następujących organizacji:
+1. Niezależnego Samorządnego Związku Zawodowego Rolników Indywidualnych „Solidarność”,
+2. Związku Zawodowego Rolnictwa „SAMOOBRONA”,
+3. Krajowego Związku Rolników, Kółek i Organizacji Rolniczych,
+4. Związku Zawodowego Rolników „OJCZYZNA”,
+5. Związku Zawodowego Rolników Rzeczpospolitej „SOLIDARNI”,
+6. Związku Zawodowego Centrum Narodowe Młodych Rolników,
+7. Związku Zawodowego Pracowników Rolnictwa w RP,
+8. Federacji Branżowych Związków Producentów Rolnych,
+9. Krajowej Rady Spółdzielczej,
+                                                    4
+10. Krajowej Rady Izb Rolniczych,
+11. Federacji Związków Pracodawców-Dzierżawców i Właścicieli Rolnych,
+12. Krajowego Związku Rewizyjnego Rolniczych Spółdzielni Produkcyjnych,
+13. Związku Zawodowego Rolnictwa i Obszarów Wiejskich „REGIONY”,
+14. Związku Zawodowego Wsi i Rolnictwa „Solidarność Wiejska”,
+15. Niezależnego Samorządnego Związku Zawodowego „Solidarność”,
+16. Ogólnopolskiego Porozumienia Związków Zawodowych,
+17. Forum Związków Zawodowych,
+18. Sekretariatu Rolnictwa Komisji Krajowej NSZZ „Solidarność”,
+19. Federacji Regionów i Komisji Zakładowych Solidarność '80,
+20. Krajowej Federacji Producentów Zbóż,
+21. PROM – Polskiej Rady Organizacji Młodzieżowych,
+22. Polskiej Izby Technologii i Wyrobów Naturalnych,
+23. Krajowej Federacji Hodowców Drobiu i Producentów Jaj,
+24. Krajowego Zrzeszenia Producentów Rzepaku i Roślin Białkowych,
+25. Krajowego Związku Plantatorów Buraka Cukrowego,
+26. Polskiego Związku Hodowców i Producentów Zwierząt Futerkowych,
+27. Regionalnego Związku Hodowców i Producentów Owiec i Kóz w Opolu,
+28. Związku Sadowników Rzeczpospolitej Polskiej,
+29. Polskiego Związku Plantatorów Tytoniu,
+30. Polskiego Związku Hodowców Drobnego Inwentarza,
+31. Związku Sadowników Polskich,
+32. Polskiej Federacji Ogrodniczej,
+33. Polskiej Federacji Hodowców Bydła i Producentów Mleka,
+34. Krajowego Związku Plantatorów Chmielu,
+35. Krajowego Związku Plantatorów Roślin Okopowych,
+36. Krajowego Związku Zrzeszeń Plantatorów Owoców i Warzyw dla Przemysłu,
+37. Związku Plantatorów Tytoniu w Krasnymstawie,
+38. Stowarzyszenia Krajowej Unii Producentów Soków,
+39. Związku Zawodowego Rolników Ekologicznych św. Franciszka z Asyżu,
+40. Business Centre Club,
+41. Konfederacji Lewiatan,
+42. Krajowego Związku Banków Spółdzielczych,
+43. Związku Banków Polskich,
+44. Krajowego Związku Spółdzielni Mleczarskich – Związku Rewizyjnego,
+45. Związku Polskich Przetwórców Mleka,
+46. Krajowego Stowarzyszenia Mleczarzy,
+47. Polskiej Izby Mleka,
+48. Polskiego Zrzeszenia Producentów Bydła Mięsnego,
+49. Polskiej Izby Handlu,
+50. Federacji Gospodarki Żywnościowej RP,
+51. Ogólnopolskiego Porozumienia Związków Zawodowych Rolników i Organizacji Rolniczych,
+52. Związku Rzemiosła Polskiego,
+53. Związku Przedsiębiorców i Pracodawców,
+54. Łukowsko-Obszańskiego Okręgowego Związku Plantatorów Tytoniu,
+55. Porozumienia Związków Zawodowych Rolników Warmii i Mazur,
+56. Polskiej Federacji Ziemniaka,
+57. Ogólnopolskiego Związku Plantatorów Tytoniu w Grudziądzu,
+58. Okręgowego Związku Plantatorów Tytoniu w Augustowie,
+59. Unii Producentów i Pracodawców Przemysłu Mięsnego,
+60. Stowarzyszenia Rzeźników i Wędliniarzy Rzeczypospolitej Polskiej,
+61. Polskiego Związku Hodowców i Producentów Trzody Chlewnej „POLSUS”,
+62. Krajowego Związku Pracodawców Producentów Trzody Chlewnej,
+63. Federacji Przedsiębiorców Polskich,
+64. Polskiej Izby Ubezpieczeń,
+65. Polskiego Związku Producentów Roślin Zbożowych.
+Projekt ustawy został zamieszczony w Biuletynie Informacji Publicznej na stronie podmiotowej Ministerstwa
+Rolnictwa i Rozwoju Wsi, zgodnie z przepisami ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. z 2017 r. poz. 248, z późn. zm.), oraz w Biuletynie Informacji Publicznej na stronie
+podmiotowej Rządowego Centrum Legislacji, w serwisie „Rządowy Proces Legislacyjny”.
+                                                       5
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z                      Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+2024r.)            0      1       2       3       4           5       6       7       8       9       10    Łącznie
+                                                                                                            (0–10)
+Dochody ogółem     0      33,40 14,40     14,40   14,40       14,40   14,40   14,40   14,40   14,40   14,40 163,00
+budżet państwa     0      33,40 14,40     14,40   14,40       14,40   14,40   14,40   14,40   14,40   14,40   163,00
+JST                0      0       0       0       0           0       0       0       0       0       0       0
+Wydatki ogółem     0      49,30 53,10     55,00   56,30       57,70   59,15   60,60   62,10   63,65   65,25   582,15
+budżet państwa     0      49,30 53,10     55,00   56,30       57,70   59,15   60,60   62,10   63,65   65,25   582,15
+JST                0      0       0       0       0           0       0       0       0       0       0       0
+Saldo ogółem       0      -15,90 -38,70 -40,60 -41,90 -43,30 -44,75 -46,20 -47,70 -49,25 -50,85 -419,15
+budżet państwa     0      -15,90 -38,70 -40,60 -41,90 -43,30 -44,75 -46,20 -47,70 -49,25 -50,85 -419,15
+JST                0      0       0       0       0           0       0       0       0       0       0       0
+                   Dochody:
+
+                   1. Za coroczne dostarczenie kompletnych i zweryfikowanych danych FADN do Komisji
+                   Europejskiej państwo członkowskie otrzyma od 2025 r. za 1 sprawozdanie do 360 euro z budżetu
+                   Unii Europejskiej za dostarczanych 9000 sprawozdań. Wpłaty te stanowią dochód budżetu
+                   państwa. Dochody budżetu państwa wyniosą corocznie po 14,4 mln zł (wg kursu PLN/EUR –
+                   4,45).
+
+                   2. Zgodnie z art. 19 ust. 2 rozporządzenia 2023/2674 Europejski Fundusz Rolniczy Gwarancji
+                   (EFRG) wnosi wkłady finansowe na rzecz państw członkowskich w celu uczestniczenia
+                   w ponoszonych przez państwa członkowskie kosztach wdrażania, w przypadku gdy utworzenie
+                   systemu służącego do zbierania zmiennych środowiskowych i społecznych na podstawie
+                   niniejszego rozporządzenia, w tym do prowadzenia szkoleń i zapewnienia interoperacyjności
+                   między systemami zbierania danych, wymaga znaczących dostosowań w systemie zbierania
+Źródła
+                   danych FADN danego państwa członkowskiego.
+finansowania
+                   Zgodnie z aktem wykonawczym ustanawiającym zasady stosowania rozporządzenia
+                   nr 1217/2009 przydział na utworzenie sieci danych na temat zrównoważonego rozwoju
+                   gospodarstw rolnych dla Polski wynosi 4 269 601 euro. Przeliczając wkład finansowy EFRG wg
+                   kursu PLN/EUR – 4,45, Polska otrzyma ok. 19 mln zł dodatkowych środków na przekształcenie
+                   FADN na FSDN. Kwota zostanie przekazana do budżetu państwa w całości w 2025 r. Dodatkowy
+                   wkład finansowy Unii Europejskiej na przekształcenie FADN w FSDN przypadający na państwo
+                   członkowskie nie może przekraczać 95 % kosztów kwalifikowalnych poniesionych przez to
+                   państwo, co oznacza, że wkład krajowy wyniesie ok. 1 mln zł (5 %), co będzie stanowiło wydatek
+                   budżetu państwa.
+
+                   W związku z przekształceniem FADN w FSDN oraz rozszerzeniem katalogu zbieranych
+                   i przekazywanych do Komisji Europejskiej danych z gospodarstw rolnych, szczególnie
+                   w zakresie środowiskowym i społecznym, od 2025 r. planuje się zwiększenie kwoty dotacji na
+                   poszczególne lata o wskaźnik inflacji (2,5 %).
+Dodatkowe          Minister właściwy do spraw rolnictwa zawiera z Instytutem Ekonomiki Rolnictwa i Gospodarki
+informacje, w      Żywnościowej – Państwowym Instytutem Badawczym z siedzibą w Warszawie co roku umowę
+tym wskazanie      w sprawie zbierania i dostarczania danych z gospodarstw rolnych, w której określa kwotę dotacji
+źródeł danych i    celowej na dany rok.
+przyjętych do      Instytut Ekonomiki Rolnictwa i Gospodarki Żywnościowej – Państwowy Instytut Badawczy
+obliczeń założeń   z siedzibą w Warszawie zawiera corocznie z wojewódzkimi ośrodkami doradztwa rolniczego
+                   umowy o zbieranie i dostarczanie danych z gospodarstw rolnych.
+
+                   Wydatki za realizację FSDN, tak jak dotychczas na FADN, będą realizowane z części budżetu
+                   państwa 32 – Rolnictwo, której dysponentem jest minister właściwy do spraw rolnictwa.
+                   W projekcie ustawy na rok 2025 na realizację FSDN w części 32 – Rolnictwo zostały
+                   zaplanowane wydatki w kwocie 42 mln zł, które zostaną uzupełnione z rezerwy celowej poz. 8.
+                                                          6
+                  W kolejnych latach wydatki w całości będą realizowane z limitu wydatków w części 32 –
+                  Rolnictwo.
+
+                  Przepisy projektowanej ustawy nie spowodują skutków finansowych dla budżetów jednostek
+                  samorządu terytorialnego.
+
+                   Kwota dotacji określona w umowie z Instytutem Ekonomiki Rolnictwa i Gospodarki
+                   Żywnościowej – Państwowym Instytutem Badawczym z siedzibą w Warszawie sfinansuje koszty
+                   realizacji zadań przez ten Instytut, 16 wojewódzkich ośrodków doradztwa rolniczego oraz
+                   wypłatę świadczeń dla rolników.
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz
+   na rodzinę, obywateli i gospodarstwa domowe
+                                                     Skutki
+Czas w latach od wejścia w życie    0           1          2         3           5         10        Łącznie
+zmian                                                                                                (0–10)
+W ujęciu         duże               0           0          0         0           0         0          0
+pieniężnym       przedsiębiorstwa
+(w mln zł,       sektor mikro-,     0           0          0         0           0         0          0
+ceny stałe       małych i
+z …… r.)         średnich
+                 przedsiębiorstw
+                 – wpłaty na
+                 rzecz Funduszu
+                 rodzina,           0           0          0         0           0         0          0
+                 obywatele oraz
+                 gospodarstwa
+                 domowe
+                 Producenci rolni 0             4,50       4,50      4,50        4,50      4,50       45,00
+                 przekazujący
+                 dane z
+                 gospodarstw
+                 rolnych na
+                 potrzeby FSDN
+W ujęciu         duże               Brak wpływu.
+niepieniężnym przedsiębiorstwa
+                 sektor mikro-,     Brak wpływu.
+                 małych i
+                 średnich
+                 przedsiębiorstw
+                 rodzina,           Brak wpływu.
+                 obywatele oraz
+                 gospodarstwa
+                 domowe
+Niemierzalne     Producenci rolni Korzyści odnoszone przez producentów rolnych przekazujących dane
+                                    z gospodarstw rolnych na potrzeby FSDN poza opłatą ryczałtową, która
+                                    począwszy od 2025 r. ma wynieść ok. 500 zł/ rok, dają:
+                                    – możliwość bieżącej oceny wyników, kontroli rozliczeń z odbiorcami
+                                       produktów i dostawcami materiałów oraz porównania uzyskanych wyników
+                                       z planowanymi,
+                                    – częsty kontakt z doradcą, umożliwiający pozyskiwanie szczegółowych
+                                       informacji i porad na tematy związane z funkcjonowaniem gospodarstwa
+                                       rolnego,
+                                    – poszerzenie wiedzy z zakresu ekonomiki i zarządzania, co umożliwia
+                                       podejmowanie trafnych decyzji w gospodarstwie i uzyskiwanie lepszych
+                                       wyników ekonomicznych,
+                                    – wyrabianie u kierującego gospodarstwem cech ułatwiających skuteczne
+                                       działanie, takich jak systematyczność, porządek w dokumentach oraz
+                                       otwartość na zmiany.
+                                                     7
+Dodatkowe
+informacje, w      Projektowane przepisy nie będą miały wpływu na sytuację ekonomiczną i społeczną rodziny,
+tym wskazanie      a także osób niepełnosprawnych oraz osób starszych. Projektowana ustawa nie określa zasad
+źródeł danych i    podejmowania, wykonywania lub zakończenia działalności gospodarczej, zatem nie wymaga
+przyjętych do      odrębnej oceny w tym zakresie.
+obliczeń założeń
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+Wprowadzane przepisy zwiększają zakres danych zbieranych i dostarczanych przez wojewódzkie ośrodki doradztwa
+rolniczego oraz weryfikowanych przez agencję łącznikową i przekazywanych do Komisji Europejskiej.
+Wprowadzane są obciążenia poza bezwzględnie        tak
+wymaganymi przez UE (szczegóły w                   nie
+odwróconej tabeli zgodności).
+                                                   nie dotyczy
+    zmniejszenie liczby dokumentów                 zwiększenie liczby dokumentów
+    zmniejszenie liczby procedur                   zwiększenie liczby procedur
+    skrócenie czasu na załatwienie sprawy          wydłużenie czasu na załatwienie sprawy
+    inne:                                          inne:
+Wprowadzane obciążenia są przystosowane do         tak
+ich elektronizacji.                                nie
+                                                   nie dotyczy
+9. Wpływ na rynek pracy
+Wejście w życie projektowanej ustawy nie ma wpływu na inne obszary poza rolnictwem.
+10. Wpływ na pozostałe obszary
+    środowisko naturalne                demografia                              informatyzacja
+    sytuacja i rozwój regionalny        mienie państwowe                        zdrowie
+    sądy powszechne,                  x inne: Rolnictwo
+administracyjne lub wojskowe
+Omówienie          Przesyłanie przez agencję łącznikową Komisji Europejskiej należycie wypełnionych sprawozdań
+wpływu             z gospodarstw rolnych niezwłocznie po zweryfikowaniu.
+11. Planowane wykonanie przepisów aktu prawnego
+Planuje się, że projektowana ustawa wejdzie w życie po upływie 14 dni od dnia ogłoszenia.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+W celu monitorowania realizacji zadania zostanie zastosowany miernik „Liczba rolników prowadzących
+rachunkowość na potrzeby FSDN”, który Instytut Ekonomiki Rolnictwa i Gospodarki Żywnościowej – Państwowy
+Instytut Badawczy będzie sprawozdawał corocznie.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+–
+
+
+
+
+                                                       8
+      Raport z konsultacji projektu ustawy o unijnej sieci danych dotyczących poziomu
+                     zrównoważenia gospodarstw rolnych (FSDN)
+
+                          (§ 51 Regulaminu pracy Rady Ministrów)
+
+
+1. Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania
+W ramach konsultacji publicznych i opiniowania projekt ustawy został w dniu 2 sierpnia
+2024 r. skierowany do zaopiniowania do następujących organizacji społecznych i instytucji
+samorządu gospodarczego z terminem na zajęcie stanowiska do dnia 22 sierpnia 2024 r.:
+
+1.   Niezależny Samorządny Związek Zawodowy Rolników Indywidualnych „Solidarność”;
+2.   Związek Zawodowy Rolnictwa „Samoobrona”;
+3.   Krajowy Związek Rolników, Kółek i Organizacji Rolniczych;
+4.   Związek Zawodowy Rolników „Ojczyzna”;
+5.   Związek Zawodowy Rolników Rzeczpospolitej „Solidarni”;
+6.   Związek Zawodowy. Centrum Narodowe Młodych Rolników;
+7.   Związek Zawodowy Pracowników Rolnictwa w RP;
+8.   Federacja Branżowych Związków Producentów Rolnych;
+9.   Krajowa Rada Spółdzielcza;
+10. Krajowa Rada Izb Rolniczych;
+11. Federacja Związków Pracodawców-Dzierżawców i Właścicieli Rolnych;
+12. Krajowy Związek Rewizyjny Rolniczych Spółdzielni Produkcyjnych;
+13. Związek Zawodowy Rolnictwa i Obszarów Wiejskich „Regiony”;
+14. Związek Zawodowy Wsi i Rolnictwa „Solidarność Wiejska”;
+15. Niezależny Samorządowy Związek „Solidarność”;
+16. Ogólnopolskie Porozumienie Związków Zawodowych;
+17. Forum Związków Zawodowych;
+18. Sekretariat Rolnictwa Komisji Krajowej NSZZ „Solidarność”;
+19. Federacja Regionów i Komisji Zakładowych Solidarność ’80;
+20. Krajowa Federacja Producentów Zbóż;
+21. PROM – Polska Rada Organizacji Młodzieżowych;
+22. Polska Izba Technologii i Wyrobów Naturalnych;
+23. Krajowa Federacja Hodowców Drobiu i Producentów Jaj;
+24. Krajowe Zrzeszenie Producentów Rzepaku i Roślin Białkowych;
+25. Krajowy Związek Plantatorów Buraka Cukrowego;
+
+                                                                                        1
+26. Polski Związek Hodowców i Producentów Zwierząt Futerkowych;
+27. Regionalny Związek Hodowców i Producentów Owiec i Kóz w Opolu;
+28. Związek Sadowników Rzeczpospolitej Polskiej;
+29. Polski Związek Plantatorów Tytoniu;
+30. Polski Związek Hodowców Drobnego Inwentarza;
+31. Związek Sadowników Polskich;
+32. Polska Federacja Ogrodnicza;
+33. Polska Federacja Hodowców Bydła i Producentów Mleka;
+34. Krajowy Związek Plantatorów Chmielu;
+35. Krajowy Związek Plantatorów Roślin Okopowych;
+36. Krajowy Związek Zrzeszeń Plantatorów Owoców i Warzyw dla Przemysłu;
+37. Związek Plantatorów Tytoniu w Krasnymstawie;
+38. Stowarzyszenie Krajowej Unii Producentów Soków;
+39. Związek Zawodowy Rolników Ekologicznych św. Franciszka z Asyżu;
+40. Business Centre Club;
+41. Konfederacja Lewiatan;
+42. Krajowy Związek Banków Spółdzielczych;
+43. Związek Banków Polskich;
+44. Krajowy Związek Spółdzielni Mleczarskich – Związek Rewizyjny;
+45. Związek Polskich Przetwórców Mleka;
+46. Krajowe Stowarzyszenie Mleczarzy;
+47. Polska Izba Mleka;
+48. Polskie Zrzeszenie Producentów Bydła Mięsnego;
+49. Polska Izba Handlu;
+50. Federacja Gospodarki Żywnościowej RP;
+51. Ogólnopolskie Porozumienie Związków Zawodowych Rolników i Organizacji
+    Rolniczych;
+52. Związek Rzemiosła Polskiego;
+53. Związek Przedsiębiorców i Pracodawców;
+54. Łukowsko-Obszański Okręgowy Związek Plantatorów Tytoniu;
+55. Porozumienie Związków Zawodowych Rolników Warmii i Mazur;
+56. Polska Federacja Ziemniaka;
+57. Ogólnopolski Związek Plantatorów Tytoniu w Grudziądzu;
+                                                                            2
+58. Okręgowy Związek Plantatorów Tytoniu w Augustowie;
+59. Unia Producentów i Pracodawców Przemysłu Mięsnego;
+60. Stowarzyszenie Rzeźników i Wędliniarzy Rzeczpospolitej Polskiej;
+61. Polski Związek Hodowców i Producentów Trzody Chlewnej „POLSUS”;
+62. Krajowy Związek Pracodawców Producentów Trzody Chlewnej;
+63. Federacja Przedsiębiorców Polskich;
+64. Polska Izba Ubezpieczeń;
+65. Polski Związek Producentów Roślin Zbożowych;
+66. Związek Zawodowy Rolnictwa „Korona”;
+67. Instytut Ekonomiki Rolnictwa i Gospodarki Żywnościowej PIB;
+68. Główny Urząd Statystyczny;
+69. Agencja Restrukturyzacji i Modernizacji Rolnictwa;
+70. Krajowy Ośrodek Wsparcia Rolnictwa;
+71. Prokuratoria Generalna Rzeczypospolitej Polskiej;
+72. Urząd Ochrony Konkurencji i Konsumentów;
+73. Rzecznik Małych i Średnich Przedsiębiorców.
+
+
+Informację zwrotną o niezgłoszeniu uwag otrzymano od: Krajowego Ośrodka Wsparcia
+Rolnictwa,   Federacji   Związków     Pracodawców       Ochrony   Zdrowia    „Porozumienie
+Zielonogórskie”, Polskiej Federacji Hodowców Bydła i Producentów Mleka, Agencji
+Restrukturyzacji i Modernizacji Rolnictwa oraz Polskiej Izby Ubezpieczeń.
+
+Sugestie lub uwagi zostały nadesłane przez: Prokuratorię Generalną RP, Instytut Ekonomiki
+Rolnictwa i Gospodarki Żywnościowej PIB oraz Fundację Green REV Institute.
+
+Prokuratoria Generalna RP zarekomendowała doprecyzowanie zapisów art. 16 projektu
+ustawy w zakresie umów zawieranych z podmiotami innymi niż ośrodki doradztwa
+rolniczego, w celu zbierania przez te podmioty danych FSDN. Uwaga została uwzględniona.
+
+Ponadto Prokuratoria Generalna RP zwróciła uwagę na brak uzasadnienia do wyłączenia, w
+art. 19 projektowanej ustawy, stosowania przepisów ustawy z dnia 11 września 2019 r. –
+Prawo zamówień publicznych (Dz. U. z 2024 r. poz. 1320). Z uwagi na fakt, że przepis art. 19
+został usunięty, uwagę należy uznać za niezasadną.
+
+
+
+                                                                                          3
+Instytut Ekonomiki Rolnictwa i Gospodarki Żywnościowej PIB zgłosił uwagi redakcyjno-
+legislacyjne, w tym m.in. uwagę w zakresie doprecyzowania kompetencji obszarowych
+poszczególnych ośrodków doradztwa rolniczego.
+
+Uwagi IERiGŻ zostały częściowo uwzględnione.
+
+Fundacja Green REV Institute zaproponowała wprowadzenie pełnego i obowiązkowego
+uczestnictwa wszystkich typów gospodarstw w celu zapewnienia reprezentatywnych
+i kompleksowych danych dotyczących zrównoważenia umożliwiających opracowywanie
+efektywnych polityk państwa i gwarantujących porównywalność z danymi we wszystkich
+państwach członkowskich UE.
+
+Propozycja zmian Fundacji Green REV Institute została uzgodniona.
+
+Szczegółowe omówienie zgłoszonych uwag znajduje się w załączniku do raportu.
+
+Minister Rolnictwa i Rozwoju Wsi zaprosił wszystkie ww. podmioty, które nadesłały uwagi
+na konferencję uzgodnieniową, która odbyła się 4 września br. w siedzibie Ministerstwa
+Rolnictwa i Rozwoju Wsi w celu omówienia przekazanych uwag do projektu ustawy.
+
+W wyniku uwag zgłoszonych przez Rządowe Centrum Legislacji projekt ustawy został
+przesłany do zaopiniowania przez Prezesa Urzędu Ochrony Danych Osobowych. Prezes
+Urzędu Ochrony Danych Osobowych zgłosił uwagi dotyczące zgodności projektowanej
+ustawy z przepisami RODO. Odpowiedź Ministra Rolnictwa i Rozwoju Wsi do Prezesa
+UODO została przekazana w dniu 23 października 2024 r.
+
+
+
+2. Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia
+projektu z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim
+Bankiem Centralnym
+Projekt ustawy nie podlegał zasięgnięciu opinii, dokonaniu konsultacji albo uzgodnieniu
+z właściwymi organami i instytucjami Unii Europejskiej, w tym z Europejskim Bankiem
+Centralnym.
+
+
+3. Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem w
+trybie przepisów o działalności lobbingowej w procesie stanowienia prawa, wraz ze
+wskazaniem kolejności dokonania zgłoszeń albo informację o ich braku
+
+                                                                                     4
+Projekt ustawy został umieszczony na stronie internetowej Rządowego Centrum Legislacji
+w serwisie Rządowy Proces Legislacyjny w celu zgłaszania w trakcie trwania prac
+legislacyjnych zainteresowania w trybie przepisów ustawy z dnia 7 lipca 2005 r. o
+działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248, z późn.
+zm.).
+Żaden podmiot nie zgłosił zainteresowania pracami nad projektem ustawy w trybie przepisów
+o działalności lobbingowej w procesie stanowienia prawa.
+
+
+
+
+                                                                                       5
+                         Projekt ustawy o unijnej sieci danych dotyczących poziomu zrównoważenia gospodarstw rolnych
+                                                     (FSDN) – konsultacje i opiniowanie
+
+
+Projekt przepisu   Podmiot, który przedstawił                               Uwaga                                      Stanowisko Ministra
+                      stanowisko lub opinię
+    art. 16         Prokuratoria Generalna RP   Przepis umożliwia agencji łącznikowej zawieranie umów o             Uwaga uwzględniona
+                                                świadczenie usług, o których mowa w art. 750 Kodeksu                W art. 16 ust. 2 dodano
+                                                cywilnego, z podmiotami innymi, niż ośrodki doradztwa               wyrazy:
+                                                rolniczego, w celu zbierania przez te podmioty danych               „Do tej umowy przepisy art.
+                                                dotyczących poziomu zrównoważenia gospodarstw rolnych               11 ust. 4 pkt 2 lit. a, c oraz f
+                                                (danych FSDN). W odróżnieniu od umów na zbieranie danych            stosuje się odpowiednio.”.
+                                                FSDN zawieranych z wojewódzkimi ośrodkami doradztwa
+                                                rolniczego, uregulowanych w projektowanym art. 11 ust. 3-4,
+                                                projekt nie określa żadnych szczegółowych wymagań
+                                                formalnych ani treści umów, o których mowa w art. 16 ust. 2.
+                                                W przepisie tym nie ma też żadnego odesłania do
+                                                odpowiedniego stosowania norm kształtujących tego rodzaju
+                                                umowy z wojewódzkimi ośrodkami doradztwa rolniczego.
+                                                Projekt nie zawiera również uzasadnienia odnoszącego się do
+                                                tej regulacji.
+                                                Rekomendujemy doprecyzowanie art. 16 projektu w tym
+                                                zakresie, a przynajmniej – o ile taka jest intencja projektodawcy
+                                                – odesłanie do odpowiedniego stosowania art. 11 ust. 3 i 4.
+                                                Uzupełnienia wymaga również uzasadnienie projektu.
+ uzasadnienie      Prokuratoria Generalna RP    Projekt nie zawiera uzasadnienia wobec proponowanego w              Uwaga uzgodniona
+                                                treści art. 19 projektu ustawy wyłączenia stosowania przepisów      Usunięto przepis art. 18
+                                                ustawy – Prawo zamówień publicznych. Materia zamówień               (wcześniej art. 19).
+                                                publicznych jest objęta zakresem zastosowania prawa UE i
+                                                uregulowana jest m.in. dyrektywą Parlamentu Europejskiego i
+                                                Rady 2014/24/UE z 26 lutego 2014 r. w sprawie zamówień
+                                                publicznych, uchylającą dyrektywę 2004/18/WE. Akt ten
+                                                określa również dozwolone przesłanki wyłączeń stosowania
+                                                reżimu zamówień publicznych w prawie krajowym. Jeżeli w
+
+                                                                                                                                                   1
+                               Projekt ustawy o unijnej sieci danych dotyczących poziomu zrównoważenia gospodarstw rolnych
+                                                             (FSDN) – konsultacje i opiniowanie
+
+
+                                                        ocenie projektodawcy wynikające z ustawy – Prawo zamówień
+                                                        publicznych wyłączenia nie są wystarczające, należy wyjaśnić
+                                                        to w uzasadnieniu projektu oraz wykazać zgodność
+                                                        proponowanego w art. 19 projektu z przepisami unijnymi.
+art. 1. pkt 2 lit. c   Instytut Ekonomiki Rolnictwa i   Proponujemy w lit. c zmianę sformułowania „tryb wyboru” na       Uwaga uzgodniona
+                       Gospodarki Żywnościowej PIB      sformułowanie "tryb doboru" oraz odpowiednio w dalszej
+                                                        części ustawy doprecyzowanie:
+                                                        - w art. 15 ust. 4 „Agencja łącznikowa udostępnia
+                                                        wojewódzkiemu ośrodkowi doradztwa rolniczego, na jego
+                                                        wniosek, dane zawarte w wykazie określonym w ust. 1 w celu
+                                                        doboru gospodarstw rolnych do próby reprezentatywnej i
+                                                        sporządzenia listy, o której mowa w art. 14 ust. 1.”
+                                                        - w art. 11 ust. 4 pkt 2 lit. b „liczby gospodarstw rolnych, z
+                                                        których wojewódzki ośrodek doradztwa rolniczego będzie
+                                                        zbierać dane FSDN, zgodnie z zaakceptowaną przez agencję
+                                                        łącznikową listą gospodarstw, o której mowa w art. 14 ust. 1”
+                                                        - w art. 16 ust. 3 pkt 1 „zbierają dane FSDN z gospodarstw
+                                                        rolnych zaakceptowanych przez agencję łącznikową”.
+                                                        Proponowane zmiany odzwierciedlają występujące
+                                                        (akceptowalne Rozporządzeniem 2015/220) różnice między
+                                                        teoretycznym planem wyboru a faktycznym planem doboru
+                                                        gospodarstw oraz działania agencji łącznikowej mające na celu
+                                                        pozyskanie pożądanych gospodarstw rolnych.
+   art. 6 ust. 1       Instytut Ekonomiki Rolnictwa i   Skład Komitetu jest stały (z ust. 2 wynika, że członkowie        Uwaga uwzględniona
+                       Gospodarki Żywnościowej PIB      Komitetu są powoływani, a z ust. 2 mogą być zastępowani w        W art. 6:
+                                                        pracach przez upoważnionych przedstawicieli). Proponujemy w      -w ust. 2 dodano wyrazy:
+                                                        ust. 3 po słowach "upoważnionych przedstawicieli" dopisanie:     „z                wyjątkiem
+                                                        "Do upoważnienia stosuje się odpowiednio ust. 1 pkt 2-4", co     przewodniczącego, którym
+                                                        oznaczałoby, że upoważnienia takiego udziela minister, Prezes    jest minister właściwy do
+                                                        GUS lub Dyrektor IERiGŻ – PIB, upoważniając i wyznaczając        spraw rolnictwa,”;
+
+                                                                                                                                                   2
+                               Projekt ustawy o unijnej sieci danych dotyczących poziomu zrównoważenia gospodarstw rolnych
+                                                            (FSDN) – konsultacje i opiniowanie
+
+
+                                                      określoną osobę.                                                   - w ust. 3     wyraz
+                                                                                                                    „upoważnionych”
+                                                                                                                    zastąpiono   wyrazami   :
+                                                                                                                    „osoby upoważnione przez
+                                                                                                                    tych członków”.
+
+   art. 11 ust. 1      Instytut Ekonomiki Rolnictwa i Zastąpienie wyrażenia: „…jest zbieranie danych FSDN z         Uwaga uzgodniona
+                       Gospodarki Żywnościowej PIB gospodarstw rolnych…” sformułowaniem: "...jest zbieranie
+                                                      danych umożliwiających opracowanie danych FSDN...".
+                                                      Obecnie zbieramy znacznie większą ilość danych z
+                                                      gospodarstw rolnych, które docelowo pozwalają na
+                                                      przygotowanie zestawu danych wymaganych przez FADN
+                                                      (oraz ich kontrolę jakościową). Podobnie będzie w przypadku
+                                                      FSDN.
+   art. 11 ust. 1      Instytut Ekonomiki Rolnictwa i Usunięcie zapisu „…jeżeli te dane mają być zbierane na        Uwaga uwzględniona
+                       Gospodarki Żywnościowej PIB obszarze województwa, w których ma siedzibę ten ośrodek”.        W art. 10 ust 1 (wcześniej
+                                                      Zapis wydaje się być zbyteczny, są przypadki gospodarstw na   art. 11 ust. 1) dodano
+                                                      granicy województw i zapis komplikuje organizację zbierania   wyrazy: „z gospodarstwa
+                                                      danych.                                                       rolnego położonego”, co
+                                                                                                                    wprowadzi     jednoznaczne
+                                                                                                                    kompetencje obszarowe.
+art. 11 ust. 4 pkt 2   Instytut Ekonomiki Rolnictwa i Proponujemy zapis w lit. a: „zakresu danych umożliwiających
+                       Gospodarki Żywnościowej PIB opracowanie danych FSDN, zbieranych z gospodarstw rolnych"
+                                                      w zgodzie z propozycją w art 11 ust. 1 oraz dodanie w lit. e:
+                                                      "wypłaty... przez agencję łącznikową ...".
+   art.13 ust. 1       Instytut Ekonomiki Rolnictwa i Wskazanie na format csv zawęża do obecnie stosowanych           Uwaga uzgodniona
+  i art. 15 ust.1      Gospodarki Żywnościowej PIB rozwiązań. Proponujemy zapis "w formacie umożliwiającym
+                                                      łatwe przetwarzanie komputerowe".
+art. 15 ust. 3 pkt 3   Instytut Ekonomiki Rolnictwa i Wskazane jest odniesienie także do informacji z pkt 1 w art. 13 Uwaga uwzględniona
+                       Gospodarki Żywnościowej PIB ust. 2, aby można oznaczyć formę prawną gospodarstwa ,co
+
+                                                                                                                                             3
+                         Projekt ustawy o unijnej sieci danych dotyczących poziomu zrównoważenia gospodarstw rolnych
+                                                       (FSDN) – konsultacje i opiniowanie
+
+
+                                                  determinuje metodę zbierania danych i formę współpracy w
+                                                  ramach FADN/FSDN.
+art. 16 ust. 1   Instytut Ekonomiki Rolnictwa i   Proponujemy konsekwentnie zapis: „Dane umożliwiające              Uwaga uzgodniona
+                 Gospodarki Żywnościowej PIB      opracowanie danych FSDN zbieranych z gospodarstw rolnych
+                                                  mogą ... ".
+art. 17 ust. 2   Instytut Ekonomiki Rolnictwa i   Proponujemy zapis: "podmiotom zbierającym dane". W                Uwaga uzgodniona
+                 Gospodarki Żywnościowej PIB      obecnej formie pominięto agencję łącznikową, która zbiera
+                                                  dane przez swoich pracowników co definiuje art. 16 ust. 1.
+                                                  1. Ustawa nie wskazuje z kim umowy będą zawierane.
+                                                  2. Jeżeli będą to 'umowy zlecenia', to stron takiej umowy nie
+                                                  łączy stosunek pracy.
+art. 18 ust. 3   Instytut Ekonomiki Rolnictwa i   Proponujemy przestawienie szyku wyrazów na "Świadczenie           Uwaga uzgodniona
+                 Gospodarki Żywnościowej PIB      pieniężne jest wypłacane rolnikom w równej wysokości przez
+                                                  agencję łącznikową”.
+art. 18 ust. 4   Instytut Ekonomiki Rolnictwa i   Zapis „0,0625 przeciętnego miesięcznego” wskazuje na              Uwaga uzgodniona
+                 Gospodarki Żywnościowej PIB      systematyczny wzrost wydatków z tego tytułu podczas gdy
+                                                  analiza wpływu na sektor finansów publicznych tego nie
+                                                  uwzględnia (Tabela 6. Wpływ na sektor finansów publicznych).
+art. 18 ust. 5   Instytut Ekonomiki Rolnictwa i   Proponujemy zapis: "Podmioty zbierające dane ...".                Uwaga uzgodniona
+                 Gospodarki Żywnościowej PIB
+   art. 19       Instytut Ekonomiki Rolnictwa i   Proponujemy wprowadzenie liczby mnogiej w odniesieniu do          Uwaga uzgodniona
+                 Gospodarki Żywnościowej PIB      umowy.
+art. 20 ust. 2   Instytut Ekonomiki Rolnictwa i   Proponujemy zapis "wyznacza się podmioty zbierające dane".        Uwaga uzgodniona
+                 Gospodarki Żywnościowej PIB
+uzasadnienie     Instytut Ekonomiki Rolnictwa i   Str. 11 pkt 3 lit. a i b: W ustawie jest mowa o wykazach, a nie   Uwagi uwzględnione
+                 Gospodarki Żywnościowej PIB      listach gospodarstw; w ustawie jest: w stosownych
+                                                  przypadkach, wykazu podmiotów zbierających dane zdolnych
+                                                  do wypełnienia sprawozdań z gospodarstwa rolnego.
+                                                  Str. 12: Zapis nie jest zgodny ze stanem rzeczy - izby nie
+                                                  zbierają danych dla FADN.
+
+                                                                                                                                         4
+                      Projekt ustawy o unijnej sieci danych dotyczących poziomu zrównoważenia gospodarstw rolnych
+                                                  (FSDN) – konsultacje i opiniowanie
+
+
+                                              Str. 13: Proponujemy zmianę:
+                                              - z „…zaimplementowanych” na „...zgromadzonych...”,
+                                              - z „… w danym typie…” na „…w danym typie, klasie oraz
+                                              formie prawnej…”,
+                                              - z „……w trybie doczasowym” na „…..w trybie
+                                              dotychczasowym…”.
+   OSR         Instytut Ekonomiki Rolnictwa i Pkt 6 OSR - Przewiduje się zwiększenia stawki do               Uwagi uzgodnione
+               Gospodarki Żywnościowej PIB maksymalnie 636 euro po transformacji FADN w FSDN
+                                              (MEETING OF THE COMMITTEE FOR THE FARM
+                                              SUSTAINABILITY DATA NETWORK (FSDN) 16.07.2024).
+
+                                             Pkt 7 OSR - Wskazane obliczenia nie uwzględniają
+                                             uzależniania wysokości świadczenia pieniężnego dla rolnika od
+                                             poziomu średniego wynagrodzenia w sektorze przedsiębiorstw
+                                             (art. 18 ust. 4).
+Uwaga ogólna    FUNDACJA GREEN REV           Wprowadzenie pełnego i obowiązkowego uczestnictwa               Uwaga uzgodniona
+                    INSTITUTE                wszystkich typów gospodarstw w celu zapewnienia
+                                             reprezentatywnych i kompleksowych danych dotyczących
+                                             zrównoważenia umożliwiających opracowywanie efektywnych
+                                             polityk państwa i gwarantujących porównywalność z danymi
+                                             we wszystkich państwach członkowskich UE.
+
+
+
+
+                                                                                                                                5
+                                                                                                                                           Warszawa, 29 listopada 2024 r.
+                      TABELA ZGODNOŚCI DOTYCZĄCA IMPLEMENTACJI PRZEPISÓW ROZPORZĄDZENIA PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2023/2674
+     z dnia 22 listopada 2023 r. w sprawie zmiany rozporządzenia Rady (WE) nr 1217/2009 w odniesieniu do przekształcenia sieci danych rachunkowych gospodarstw rolnych w sieć
+                        danych dotyczących poziomu zrównoważenia gospodarstw rolnych (Dz. Urz. UE L 2023/2674 z 29.11.2023)
+
+TYTUŁ AKTU PRAWNEGO:                     PROJEKT USTAWY O UNIJNEJ SIECI DANYCH DOTYCZĄCYCH POZIOMU ZRÓWNOWAŻENIA GOSPODARSTW
+                                                                               ROLNYCH (FSDN)
+TYTUŁ WDRAŻANEGO AKTU                   Rozporządzenie Rady (WE) nr 1217/2009 z dnia 30 listopada 2009 r. ustanawiające sieć danych dotyczących poziomu zrównoważenia gospodarstw rolnych
+PRAWNEGO/WDRAŻANYCH                     (Dz. Urz. UE L 328 z 15.12.2009, str. 27, z późn. zm.)
+AKTÓW PRAWNYCH
+                                                                       Konieczn
+                                                                          ość
+Jedn. red.     Treść przepisu UE                                                   Jedn. red.                                            Treść przepisu ustawy
+                                                                       wdrożenia
+                                                                         T/N
+Art. 1 ust.     W celu spełnienia wymogów wspólnej polityki rolnej         T       art. 1 ust. 1
+1 -3           (WPR), w tym oceny jej wpływu na sektor rolny,                      pkt 1 i pkt 2   Art. 1. Ustawa określa:
+               ustanawia się unijną sieć danych dotyczących poziomu                lit. a i b      1)        zadania i właściwość organów i jednostek organizacyjnych w zakresie unijnej sieci danych
+               zrównoważenia gospodarstw rolnych (FSDN) do celu                                    dotyczących poziomu zrównoważenia gospodarstw rolnych, o której mowa w art. 1 ust. 1
+               zbierania i analizy danych dotyczących poziomu                                      rozporządzenia Rady (WE) nr 1217/2009 z dnia 30 listopada 2009 r. ustanawiającego sieć danych
+               zrównoważenia       na     poziomie     gospodarstwa,                               dotyczących poziomu zrównoważenia gospodarstw rolnych (Dz. Urz. UE L 328 z 15.12.2009, str. 27,
+               obejmujących wymiar gospodarczy, środowiskowy i                                     z późn. zm.1)), zwanej dalej „FSDN”, określonym w tym rozporządzeniu, zwanym dalej
+               społeczny (zwanych dalej „danymi FSDN”). Dane                                       „rozporządzeniem nr 1217/2009”, oraz w przepisach Unii Europejskiej wydanych na podstawie
+               FSDN mogą być wykorzystywane do oceny                                               rozporządzenia nr 1217/2009;
+               dodatkowych aspektów związanych z poziomem                                          2)        sprawy dotyczące FSDN w zakresie nieokreślonym w przepisach, o których mowa w pkt 1,
+               zrównoważenia rolnictwa Unii oraz do sprostania                                     lub przewidziane w tych przepisach do określenia przez państwo członkowskie Unii Europejskiej, w
+               wyzwaniom, przed którymi stoi rolnictwo Unii.                                       tym:
+                                                                                                                 a)    organizację i tryb pracy Komitetu Krajowego do spraw Unijnej Sieci Danych
+                                                                                                                 Dotyczących Poziomu Zrównoważenia Gospodarstw Rolnych, zwanego dalej
+                                                                                                                 „Komitetem Krajowym ds. FSDN”,
+                                                                                                                 b)    zasady zbierania i przekazywania danych, o których mowa w art. 1 ust. 1 zdanie
+                                                                                                                 pierwsze rozporządzenia nr 1217/2009, zwanych dalej „danymi FSDN”,
+
+
+Art. 1 ust. 4. Państwa członkowskie mogą podjąć decyzję o                 T        Art. 4 pkt 1
+4           wykorzystaniu danych FSDN jako źródła danych, o                                        Art. 4. Minister właściwy do spraw rolnictwa wykonuje zadania państwa członkowskiego w zakresie:
+            którym mowa w art. 8 ust. 1 lit. c) rozporządzenia                                            1) podejmowania decyzji, o której mowa w art. 1 ust. 4 rozporządzenia nr 1217/2009;
+            Parlamentu Europejskiego i Rady (UE) 2022/2379 (1), w
+            art. 4 ust. 1 lit. c) rozporządzenia Parlamentu
+            Europejskiego i Rady (UE) 2018/1091 (2), w załączniku I
+            do rozporządzenia (WE) nr 138/2004 Parlamentu
+            Europejskiego i Rady (3) lub w innych aktach przyjętych
+            na podstawie art. 338 ust. 1 TFUE.
+
+
+1)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 195 z 27.07.2011, str. 42, Dz. Urz. UE L 158 z 10.06.2013, str. 1, Dz. Urz. UE L 340 z
+     17.12.2013, str. 1, Dz. Urz. UE L 328 z 12.12.2017, str. 1, Dz. Urz. UE L 325 z 20.12.2022, str. 13 oraz Dz. Urz. UE L 2023/2674 z 29.11.2023.
+
+
+                                                                                                                                                                                     1
+Art. 2 pkt 4) „gospodarstwo przekazujące dane” oznacza                 T   art. 16
+4          gospodarstwo, dla którego sporządza się sprawozdanie z                         Art. 16. 1. Warunkiem zbierania danych FSDN z danego gospodarstwa rolnego jest złożenie przez
+           gospodarstwa rolnego do celów FSDN;                                            rolnika oświadczenia o wyrażeniu zgody na udział w FSDN.
+                                                                                          2. Rolnik składa oświadczenie, o którym mowa w ust. 1, w formie pisemnej, wojewódzkiemu
+                                                                                          ośrodkowi doradztwa rolniczego, z którym została zawarta umowa, o której mowa w art. 10 ust. 1,
+                                                                                          albo podmiotowi, z którym została zawarta umowa określona w art. 15 ust. 2.
+                                                                                          3. Rolnik może złożyć oświadczenie o cofnięciu zgody na udział w FSDN do czasu zakończenia
+                                                                                          zbierania danych FSDN z jego gospodarstwa rolnego. Przepis ust. 2 stosuje się odpowiednio.
+
+
+Art. 3      Aby zapewnić możliwość aktualizacji wykazu okręgów         T   Art. 4 pkt 2
+            FSDN na wniosek państwa członkowskiego, Komisja jest                          Art. 4. Minister właściwy do spraw rolnictwa wykonuje zadania państwa członkowskiego w zakresie:
+            uprawiona do przyjmowania aktów delegowanych                                         2) występowania z wnioskiem, o którym mowa w art. 3 rozporządzenia nr 1217/2009.
+            zgodnie z art. 19a w sprawie zmiany załącznika I w
+            odniesieniu do wykazu okręgów FSDN w danym
+            państwie członkowskim
+Art. 4 ust. Agencje łącznikowe mają prawo do bezpłatnego dostępu       T   Art. 19
+2           do następujących źródeł danych i korzystania z nich: a)                       Art. 19. 1. Podmioty prowadzące systemy, rejestry i inne źródła danych określone w art. 4 ust. 2 lit. a,
+            zintegrowany system zarządzania i kontroli (ZSZiK)                            b oraz d–g rozporządzenia nr 1217/2009 przekazują nieodpłatnie agencji łącznikowej, na jej wniosek,
+            ustanowiony rozporządzeniem Parlamentu Europejskiego                          dane zawarte w tych systemach, rejestrach i innych źródłach danych, niezbędne do realizacji jej zadań,
+            i Rady (UE) 2021/2116 (1); b) system identyfikacji i                          oraz udzielają jej bezpłatnych wyjaśnień i konsultacji w zakresie tych danych.
+            rejestracji   utrzymywanych       zwierząt    lądowych                        2. Wniosek, o którym mowa w ust. 1, zawiera co najmniej określenie zakresu danych, które podmioty,
+            ustanowiony rozporządzeniem Parlamentu Europejskiego                          o których mowa w ust. 1, mają przekazać agencji łącznikowej oraz terminu przekazania tych danych.
+            i Rady (UE) 2016/429 (2); c) rejestr winnic
+            wprowadzony zgodnie z art. 145 rozporządzenia
+            Parlamentu Europejskiego i Rady (UE) nr 1308/2013 (3);
+            d) rejestry gospodarstw ekologicznych ustanowione
+            zgodnie z rozporządzeniem Parlamentu Europejskiego i
+            Rady (UE) 2018/848 (4); e) dane państw członkowskich
+            na potrzeby przeprowadzania monitorowania i ewaluacji
+            planów strategicznych WPR (DME) uzyskane zgodnie z
+            aktem wykonawczym przyjętym na podstawie art. 133
+            rozporządzenia Parlamentu Europejskiego i Rady (UE)
+            2021/2115 (5); f) w stosownych przypadkach rejestry na
+            poziomie gospodarstw zebrane w celu ustanowienia
+            programów działania przez państwa członkowskie
+            zgodnie z art. 5 dyrektywy Rady 91/676/EWG (6); g)
+            wszelkie inne istotne źródła danych dostępne dla
+            organów państw członkowskich.
+Art. 4 ust. Państwa      członkowskie      zapewniają     agencjom     T   art. 19
+3 i art. 4a łącznikowym prawo dostępu do źródeł danych, o których                         Art. 19. 1. Podmioty prowadzące systemy, rejestry i inne źródła danych określone w art. 4 ust. 2 lit. a,
+            mowa w ust. 2, i korzystania z nich. W tym celu państwa                       b oraz d–g rozporządzenia nr 1217/2009 przekazują nieodpłatnie agencji łącznikowej, na jej wniosek,
+            członkowskie mogą ustanowić niezbędne mechanizmy                              dane zawarte w tych systemach, rejestrach i innych źródłach danych, niezbędne do realizacji jej zadań,
+            współpracy, ułatwiające skuteczny dostęp do tych źródeł                       oraz udzielają jej bezpłatnych wyjaśnień i konsultacji w zakresie tych danych.
+            danych i korzystanie z nich. Prawo dostępu i korzystania                      2. Wniosek, o którym mowa w ust. 1, zawiera co najmniej określenie zakresu danych, które podmioty,
+            przyznaje się również, gdy agencja łącznikowa powierza                        o których mowa w ust. 1, mają przekazać agencji łącznikowej oraz terminu przekazania tych danych.
+            osobom prawnym lub fizycznym wykonywanie zadań w
+
+
+
+                                                                                                                                                                                 2
+           jej imieniu.
+           Artykuł 4a 1. Oprócz sprawozdania z gospodarstwa
+           rolnego, państwa członkowskie określają powiązania
+           między gospodarstwem przekazującym dane a
+           identyfikatorami odnoszącymi się do tego gospodarstwa
+           w następujących zbiorach danych: a) DME; b) ZSZiK.
+           Państwa członkowskie przesyłają Komisji te powiązania
+           albo bezpośrednio dane dotyczące gospodarstwa
+           przekazującego dane w zbiorach danych, o których mowa
+           w akapicie pierwszym, inne niż identyfikatory. Państwa
+           członkowskie, które przesyłają bezpośrednio dane,
+           podają numer FSDN gospodarstwa przekazującego dane.
+Art.    5a Każde państwo członkowskie sporządza plan wyboru                  art. 11, art. 12   Art. 11. Agencja łącznikowa sporządza plan wyboru na podstawie wykazu gospodarstw rolnych, które
+rozporządz gospodarstw przekazujących dane, który zapewnia próbę             i art. 14          były badane w ramach powszechnego spisu rolnego lub badań struktury gospodarstw rolnych i których
+enia       reprezentatywną dla pola obserwacji.                      T                          dane zostały przekazane do Urzędu Statystycznego Unii Europejskiej (Eurostat).
+1217/2009
+                                                                                                Art. 12. 1. Prezes Głównego Urzędu Statystycznego, na wniosek agencji łącznikowej, sporządza i
+                                                                                                przekazuje nieodpłatnie tej agencji, w formacie .csv, wykaz, o którym mowa w art. 11, zawierający
+                                                                                                dane pseudonimizowane w rozumieniu art. 2 pkt 12 rozporządzenia nr 1217/2009, niezbędne do
+                                                                                                sporządzenia planu wyboru.
+                                                                                                2. Wykaz określony w ust. 1 zawiera co najmniej określenie:
+                                                                                                      1) statusu prawnego gospodarstwa rolnego;
+                                                                                                      2) województwa, w którym jest położone gospodarstwo rolne;
+                                                                                                      3) typu rolniczego gospodarstwa rolnego, w tym typu specjalizacji rolniczej, o których mowa
+                                                                                                      odpowiednio w art. 5b ust. 1 zdanie drugie i ust. 3 zdanie piąte rozporządzenia nr 1217/2009;
+                                                                                                      4) klasy wielkości ekonomicznej gospodarstwa rolnego i wielkości ekonomicznej gospodarstwa
+                                                                                                      rolnego, o których mowa odpowiednio w art. 5b ust. 1 zdanie drugie i ust. 4 rozporządzenia nr
+                                                                                                      1217/2009;
+                                                                                                      5) powierzchni gruntu użytkowanej rolniczo w gospodarstwie rolnym;
+                                                                                                      6) liczby zwierząt w gospodarstwie rolnym wyrażonej w jednostkach przeliczeniowych;
+                                                                                                      7) siły roboczej w gospodarstwie rolnym, o której mowa w załączniku IV do rozporządzenia
+                                                                                                      Parlamentu Europejskiego i Rady (UE) 2018/1091 z dnia 18 lipca 2018 r. w sprawie
+                                                                                                      zintegrowanych statystyk dotyczących gospodarstw rolnych oraz uchylenia rozporządzeń (WE)
+                                                                                                      nr 1166/2008 i (UE) nr 1337/2011 (Dz. Urz. UE L 200 z 07.08.2018, str. 1, z późn. zm. 2)).
+                                                                                                Art. 14. 1. Prezes Głównego Urzędu Statystycznego, na wniosek agencji łącznikowej, sporządza, w
+                                                                                                drodze losowania, na podstawie otrzymanego od tej agencji zatwierdzonego przez Komitet Krajowy
+                                                                                                ds. FSDN planu wyboru, i przekazuje nieodpłatnie tej agencji, w formacie .csv, wykaz, o którym
+                                                                                                mowa w art. 13 ust. 2, w celu sporządzenia przez wojewódzkie ośrodki doradztwa rolniczego listy, o
+                                                                                                której mowa w art. 13 ust. 1.
+                                                                                                2. Wykaz określony w ust. 1 obejmuje gospodarstwa rolne, o których mowa w art. 13 ust. 2, w liczbie
+                                                                                                niezbędnej do zapewnienia próby reprezentatywnej dla pola obserwacji, o której mowa w art. 5a ust. 1
+                                                                                                zdanie pierwsze rozporządzenia nr 1217/2009, jednak nie większej niż trzykrotność liczby
+                                                                                                gospodarstw rolnych określonych w planie wyboru.
+
+
+2)
+     Zmiany wymienionego rozporządzenia zostały ogłoszone w Dz. Urz. UE L 265 z 24.10.2018, str. 23 oraz Dz. Urz. UE L 457 z 21.12.2021, str. 1.
+
+
+                                                                                                                                                                                    3
+                                                                                          3. Wykaz określony w ust. 1 zawiera:
+                                                                                                  1) numer identyfikacyjny w krajowym rejestrze urzędowym podmiotów gospodarki narodowej
+                                                                                                  (numer REGON) gospodarstwa rolnego – jeżeli został nadany;
+                                                                                                  2) imię, nazwisko, miejsce zamieszkania i adres albo nazwę, siedzibę i adres rolnika w
+                                                                                                  rozumieniu art. 2 pkt 1 rozporządzenia nr 1217/2009, zwanego dalej „rolnikiem”;
+                                                                                                  3) informacje, o których mowa w art. 12 ust. 2 pkt 1–4.
+                                                                                          4. Agencja łącznikowa udostępnia wojewódzkiemu ośrodkowi doradztwa rolniczego, na jego wniosek,
+                                                                                          dane i informacje zawarte w wykazie określonym w ust. 1 w celu sporządzenia listy, o której mowa w
+                                                                                          art. 13 ust. 1.
+                                                                                          5. Dane i informacje zawarte w wykazie określonym w ust. 1 mogą być przechowywane przez okres
+                                                                                          nie dłuższy niż 1 rok od dnia:
+                                                                                                  1) przekazania tego wykazu agencji łącznikowej;
+                                                                                                  2) ich udostępnienia przez agencję łącznikową wojewódzkiemu ośrodkowi doradztwa
+                                                                                                  rolniczego.
+
+Art. 6 ust. Artykuł 6 1. Każde państwo członkowskie tworzy          T   Art. 5, art. 6,
+1 -3        komitet krajowy ds. FSDN (zwany dalej „komitetem            art. 7, art. 8    Art. 5. Komitet Krajowy ds. FSDN jest komitetem krajowym ds. FSDN, o którym mowa w art. 6 ust. 1
+            krajowym”).                                                                   rozporządzenia nr 1217/2009.
+            2. Za wybór gospodarstw przekazujących dane                                   Art. 6. 1. W skład Komitetu Krajowego ds. FSDN wchodzą:
+            odpowiedzialny jest                                                                  1) przewodniczący Komitetu Krajowego ds. FSDN – minister właściwy do spraw rolnictwa
+            komitet krajowy. W tym celu do jego obowiązków należy                                albo przedstawiciel ministra właściwego do spraw rolnictwa wyznaczony przez tego ministra;
+            w     szczególności  zatwierdzanie    planu   wyboru                                 2) zastępca przewodniczącego Komitetu Krajowego ds. FSDN – przedstawiciel ministra
+            gospodarstw przekazujących dane.                                                     właściwego do spraw rolnictwa wyznaczony przez tego ministra;
+            3. Przewodniczący komitetu krajowego wyznaczany jest                                 3) dwóch przedstawicieli ministra właściwego do spraw finansów publicznych wyznaczonych
+            przez                                                                                przez tego ministra;
+            państwo członkowskie spośród członków tego komitetu.                                 4) po jednym przedstawicielu:
+            Komitet krajowy podejmuje decyzje jednomyślnie. W                                           a)    ministra właściwego do spraw rozwoju regionalnego wyznaczonym przez tego
+            wypadku                                                                                     ministra,
+            nieosiągnięcia jednomyślności decyzje podejmuje organ                                       b)    ministra właściwego do spraw rynków rolnych wyznaczonym przez tego ministra,
+            wyznaczony                                                                                  c)    ministra właściwego do spraw środowiska wyznaczonym przez tego ministra,
+            przez państwo członkowskie                                                                  d)    ministra właściwego do spraw zabezpieczenia społecznego wyznaczonym przez
+                                                                                                        tego ministra,
+                                                                                                        e)    Prezesa Głównego Urzędu Statystycznego wyznaczonym przez tego Prezesa,
+                                                                                                        f)    agencji łącznikowej wyznaczonym przez dyrektora Instytutu Ekonomiki Rolnictwa
+                                                                                                        i Gospodarki Żywnościowej – Państwowego Instytutu Badawczego,
+                                                                                                        g)    Krajowej Rady Izb Rolniczych wyznaczonym przez prezesa zarządu tej rady.
+                                                                                          2. Członków Komitetu Krajowego ds. FSDN, o których mowa w ust. 1, z wyjątkiem
+                                                                                          przewodniczącego, którym jest minister właściwy do spraw rolnictwa, powołuje i odwołuje minister
+                                                                                          właściwy do spraw rolnictwa.
+                                                                                          3. Członkowie Komitetu Krajowego ds. FSDN, o których mowa w ust. 1 pkt 2–4, mogą być
+                                                                                          zastępowani w pracach Komitetu Krajowego ds. FSDN przez osoby upoważnione przez tych
+                                                                                          członków.
+                                                                                          4. Przewodniczący Komitetu Krajowego ds. FSDN może zapraszać do udziału w pracach Komitetu
+                                                                                          Krajowego ds. FSDN z głosem doradczym inne osoby, niebędące członkami tego Komitetu.
+                                                                                          Art. 7. 1. Komitet Krajowy ds. FSDN działa na posiedzeniach.
+
+
+
+                                                                                                                                                                            4
+                                                                                               2. Posiedzenia Komitetu Krajowego ds. FSDN zwołuje przewodniczący Komitetu Krajowego ds.
+                                                                                               FSDN i im przewodniczy.
+                                                                                               3. Komitet Krajowy ds. FSDN może prowadzić prace z wykorzystaniem środków komunikacji
+                                                                                               elektronicznej. Decyzję o przeprowadzeniu prac Komitetu Krajowego ds. FSDN z wykorzystaniem
+                                                                                               środków komunikacji elektronicznej podejmuje przewodniczący Komitetu Krajowego ds. FSDN.
+                                                                                               4. W przypadku nieobecności przewodniczącego Komitetu Krajowego ds. FSDN lub czasowej
+                                                                                               niemożności wykonywania przez niego zadań, jego zadania wykonuje zastępca przewodniczącego
+                                                                                               Komitetu Krajowego ds. FSDN.
+                                                                                               5. W przypadku jednoczesnej nieobecności przewodniczącego Komitetu Krajowego ds. FSDN i
+                                                                                               zastępcy przewodniczącego Komitetu Krajowego ds. FSDN, zadania przewodniczącego Komitetu
+                                                                                               Krajowego ds. FSDN wykonuje wyznaczony przez tego przewodniczącego członek Komitetu
+                                                                                               Krajowego ds. FSDN, o którym mowa w art. 6 ust. 1 pkt 3 lub 4.
+                                                                                               6. Komitet Krajowy ds. FSDN podejmuje rozstrzygnięcia w formie jednogłośnie podejmowanych
+                                                                                               uchwał w obecności co najmniej połowy członków.
+                                                                                               7. W przypadku gdy Komitet Krajowy ds. FSDN nie podejmie uchwały, o której mowa w ust. 6, w
+                                                                                               terminie 10 dni od dnia otrzymania do rozpatrzenia sprawy należącej do zadań tego Komitetu,
+                                                                                               rozstrzygnięcie w tej sprawie podejmuje minister właściwy do spraw rolnictwa.
+                                                                                               8. Minister właściwy do spraw rolnictwa podejmuje rozstrzygnięcie, o którym mowa w ust. 7, w
+                                                                                               terminie 5 dni od dnia upływu terminu, o którym mowa w tym przepisie.
+                                                                                               9. Szczegółową organizację i szczegółowy tryb pracy Komitetu Krajowego ds. FSDN określa
+                                                                                               regulamin uchwalony przez Komitet Krajowy ds. FSDN.
+                                                                                               Art. 8. 1. Obsługę administracyjną Komitetu Krajowego ds. FSDN zapewnia urząd obsługujący
+                                                                                               ministra właściwego do spraw rolnictwa.
+                                                                                               2. Za udział w pracach Komitetu Krajowego ds. FSDN nie przysługuje wynagrodzenie.
+
+Art. 7 ust. 1. Każde państwo członkowskie wyznacza agencję              T   Art. 2, art. 3,
+1           łącznikową, której zadania polegają na:                         art. 9, art. 10,   Art. 2. Agencją łącznikową, o której mowa w art. 7 ust. 1 rozporządzenia nr 1217/2009, jest Instytut
+            a) informowaniu komitetu krajowego, komitetów                   art. 13 i art.     Ekonomiki Rolnictwa i Gospodarki Żywnościowej – Państwowy Instytut Badawczy, zwany dalej
+            regionalnych oraz podmiotów zbierających dane o                 18                 „agencją łącznikową”.
+            mających zastosowanie ramach prawnych oraz
+            zapewnieniu ich prawidłowego wdrażania;                                            Art. 3. Agencja łącznikowa wykonuje zadania państwa członkowskiego w zakresie FSDN określone w
+            b)     sporządzaniu    planu     wyboru      gospodarstw                           przepisach wymienionych w art. 1 pkt 1, chyba że przepisy ustawy stanowią inaczej.
+            przekazujących dane i przedkładaniu go komitetowi
+            krajowemu      do     zatwierdzenia     oraz    następnie                          Art. 9. 1. Minister właściwy do spraw rolnictwa udziela corocznie agencji łącznikowej dotacji celowej
+            przekazywaniu go Komisji;                                                          na realizację jej zadań.
+            c) opracowywaniu:                                                                  2. Umowa dotacji celowej, o której mowa w ust. 1, jest zawierana w formie pisemnej na okres jednego
+            (i) wykazu gospodarstw przekazujących dane, (ii) w                                 roku kalendarzowego.
+            stosownych      przypadkach,     wykazu       podmiotów                            3. Oprócz elementów, o których mowa w art. 150 ustawy z dnia 27 sierpnia 2009 r. o finansach
+            zbierających dane zdolnych do wypełnienia sprawozdań z                             publicznych (Dz. U. z 2024 r. poz. 1530, 1572, 1717, 1756 i 1907 oraz z 2025 r. poz. 39), umowa
+            gospodarstwa rolnego;                                                              dotacji celowej, o której mowa w ust. 1, zawiera co najmniej:
+            d) sporządzaniu sprawozdań z gospodarstw rolnych;                                          1) oznaczenie przedmiotu i stron tej umowy;
+            e) sprawdzaniu, czy sprawozdania z gospodarstw rolnych                                     2) postanowienia dotyczące skutków prawnych niewykonania lub nienależytego wykonania
+            zostały należycie wypełnione oraz, w razie potrzeby,                                       zobowiązań określonych w tej umowie.
+            usunięciu wszelkich wykrytych błędów lub nieścisłości;                             Art. 10. 1. Po zawarciu umowy dotacji celowej, o której mowa w art. 9 ust. 1, agencja łącznikowa
+            f) przekazywaniu należycie wypełnionych sprawozdań z                               zawiera z wojewódzkim ośrodkiem doradztwa rolniczego, o którym mowa w art. 2 ust. 1 pkt 2 ustawy
+
+
+
+                                                                                                                                                                                   5
+gospodarstw rolnych Komisji w wymaganym formacie i       z dnia 22 października 2004 r. o jednostkach doradztwa rolniczego (Dz. U. z 2024 r. poz. 76), zwanym
+w ustalonym terminie;                                    dalej „wojewódzkim ośrodkiem doradztwa rolniczego”, umowę, której przedmiotem jest zbieranie
+g) wysyłaniu powiązań lub danych, o których mowa w       danych FSDN z gospodarstw rolnych w rozumieniu art. 2 pkt 2 rozporządzenia nr 1217/2009, zwanych
+art. 4a ust. 1;                                          dalej „gospodarstwami rolnymi”, i ich przekazywanie agencji łącznikowej, jeżeli te dane mają być
+h) przekazywaniu wniosków o udzielenie informacji        zbierane z gospodarstwa rolnego położonego na obszarze województwa, w którym ma siedzibę ten
+określonych w art. 17 komitetowi krajowemu, komitetom    ośrodek.
+regionalnym oraz podmiotom zbierającym dane, a także     2. Wojewódzki ośrodek doradztwa rolniczego, z którym została zawarta umowa, o której mowa w ust.
+przekazywaniu stosownych odpowiedzi Komisji;             1, jest podmiotem zbierającym dane w rozumieniu art. 2 pkt 7 rozporządzenia nr 1217/2009.
+i) umożliwieniu - jak najszybciej, lecz w żadnym         3. Umowa z wojewódzkim ośrodkiem doradztwa rolniczego, o której mowa w ust. 1, jest zawierana w
+wypadku nie później niż cztery miesiące po               formie pisemnej na okres jednego roku kalendarzowego.
+potwierdzeniu przez Komisję, że sprawozdanie z           4. Umowa z wojewódzkim ośrodkiem doradztwa rolniczego, o której mowa w ust. 1, zawiera co
+gospodarstwa rolnego zostało należycie wypełnione -      najmniej:
+każdemu gospodarstwu przekazującemu dane uzyskania               1) oznaczenie przedmiotu i stron tej umowy;
+jego wyników od agencji łącznikowej albo wyznaczonej             2) określenie zobowiązań stron tej umowy, w tym określenie:
+przez nią organizacji; w miarę możliwości, wyniki te                    a)    zakresu danych FSDN zbieranych z gospodarstw rolnych,
+obejmują informacje z analiz porównawczych,                             b)    liczby gospodarstw rolnych, z których wojewódzki ośrodek doradztwa rolniczego
+porównujące te wyniki ze średnią regionalną, krajową,                   będzie zbierać dane FSDN, z uwzględnieniem planu wyboru gospodarstw
+unijną lub sektorową;                                                   przekazujących dane, o którym mowa w art. 5a ust. 1 zdanie pierwsze rozporządzenia nr
+j) opracowaniu planu zachęcającego rolników do udziału                  1217/2009, zwanego dalej „planem wyboru”,
+w FSDN i przedłożeniu go Komisji wraz z planem                          c)    terminów i sposobu przekazywania danych FSDN agencji łącznikowej,
+wyboru gospodarstw przekazujących dane;                                 d)    warunków przyznania i wypłaty wojewódzkiemu ośrodkowi doradztwa rolniczego
+k) udostępnianiu, samodzielnie lub przez wyznaczoną                     środków finansowych na realizację jego zadań dotyczących zbierania danych FSDN z
+przez nią organizację, uzyskanych wyników w formie                      gospodarstw rolnych i ich przekazywania agencji łącznikowej oraz warunków rozliczenia
+zagregowanych i zanonimizowanych danych, takich jak                     tych środków,
+dane na poziomie regionalnym, krajowym, unijnym lub                     e)    warunków ochrony danych indywidualnych w rozumieniu art. 2 pkt 10
+sektorowym                                                              rozporządzenia nr 1217/2009, które zostaną zebrane przez wojewódzki ośrodek
+                                                                        doradztwa rolniczego z gospodarstw rolnych;
+                                                                 3) określenie warunków rozwiązania tej umowy;
+                                                                 4) postanowienia dotyczące skutków prawnych niewykonania lub nienależytego wykonania
+                                                                 zobowiązań określonych w tej umowie.
+                                                         Art. 13. 1. Agencja łącznikowa przekazuje zatwierdzony przez Komitet Krajowy ds. FSDN plan
+                                                         wyboru wojewódzkim ośrodkom doradztwa rolniczego, z którymi została zawarta umowa, o której
+                                                         mowa w art. 10 ust. 1, w celu sporządzenia przez te ośrodki listy gospodarstw przekazujących dane w
+                                                         rozumieniu art. 2 pkt 4 rozporządzenia nr 1217/2009.
+                                                         2. Wojewódzkie ośrodki doradztwa rolniczego, z którymi została zawarta umowa, o której mowa w art.
+                                                         10 ust. 1, przy sporządzaniu listy, o której mowa w ust. 1, mogą korzystać z danych i informacji
+                                                         zawartych w wykazie gospodarstw rolnych, które są reprezentatywne dla pola obserwacji, o którym
+                                                         mowa w art. 5 ust. 1 zdanie pierwsze rozporządzenia nr 1217/2009.
+                                                         Art. 18. 1. Administratorem, o którym mowa w art. 16b ust. 2 zdanie drugie rozporządzenia nr
+                                                         1217/2009, jest agencja łącznikowa.
+                                                         2. Podmiotami przetwarzającymi, o których mowa w art. 16b ust. 2 zdanie drugie rozporządzenia nr
+                                                         1217/2009, są wojewódzkie ośrodki doradztwa rolniczego, z którymi została zawarta umowa, o której
+                                                         mowa w art. 10 ust. 1, oraz podmioty, z którymi zostały zawarte umowy określone w art. 15 ust. 2.
+
+
+
+
+                                                                                                                                             6
+Art.   16b Państwa członkowskie wyznaczają administratora oraz –     T   Art. 18
+ust.     2 w stosownych przypadkach – podmiot przetwarzający do                    Art. 18. 1. Administratorem, o którym mowa w art. 16b ust. 2 zdanie drugie rozporządzenia nr
+drugie     celów przetwarzania danych osobowych zawartych w                        1217/2009, jest agencja łącznikowa.
+zdanie     sprawozdaniach z gospodarstw rolnych dotyczących                        2. Podmiotami przetwarzającymi, o których mowa w art. 16b ust. 2 zdanie drugie rozporządzenia nr
+           gospodarstw znajdujących się na ich terytorium                          1217/2009, są wojewódzkie ośrodki doradztwa rolniczego, z którymi została zawarta umowa, o której
+                                                                                   mowa w art. 10 ust. 1, oraz podmioty, z którymi zostały zawarte umowy określone w art. 15 ust. 2.
+
+
+Art. 19 ust. 3. Kwota, o której mowa w ust. 1 lit. a), może zostać   T   Art. 17
+3            częściowo lub w całości wypłacona rolnikom za ich                     Art. 17. 1. Rolnikowi za udział w FSDN przysługuje świadczenie pieniężne.
+             udział w badaniach FSDN zgodnie z kryteriami                          2. Warunkiem wypłaty świadczenia pieniężnego jest złożenie przez rolnika oświadczenia, o którym
+             przydziału ustanowionymi przez państwa członkowskie.                  mowa w art. 16 ust. 1.
+                                                                                   3. Świadczenie pieniężne jest wypłacane rolnikom przez agencję łącznikową w równej wysokości.
+                                                                                   4. Wysokość świadczenia pieniężnego wynosi 0,0625 przeciętnego miesięcznego wynagrodzenia w
+                                                                                   sektorze przedsiębiorstw bez wypłat nagród z zysku w czwartym kwartale roku poprzedniego,
+                                                                                   ogłaszanego przez Prezesa Głównego Urzędu Statystycznego w Dzienniku Urzędowym
+                                                                                   Rzeczypospolitej Polskiej „Monitor Polski”.
+                                                                                   5. Wojewódzki ośrodek doradztwa rolniczego, z którym została zawarta umowa, o której mowa w art.
+                                                                                   10 ust. 1, albo podmiot, z którym została zawarta umowa określona w art. 15 ust. 2, informują rolnika
+                                                                                   o warunkach i terminie wypłaty świadczenia pieniężnego.
+                                                                                   6. W przypadku złożenia oświadczenia, o którym mowa w art. 16 ust. 3, świadczenie pieniężne nie jest
+                                                                                   rolnikowi wypłacane.
+
+
+
+
+                                                                                                                                                                       7
+Adam Szłapka
+
+DPUE.720.934.2024.PR(19)
+Warszawa, 17 stycznia 2025 r.
+Dot.: RM-0610-111-24
+
+Pani Joanna Knapińska
+Sekretarz Rady Ministrów
+
+
+Opinia
+o zgodności z prawem Unii Europejskiej projektu ustawy o unijnej sieci danych
+dotyczących poziomu zrównoważenia gospodarstw rolnych (FSDN), wyrażona przez
+ministra właściwego do spraw członkostwa Rzeczypospolitej Polskiej w Unii
+Europejskiej
+
+
+Szanowna Pani Minister,
+
+
+w związku z przedłożonym projektem ustawy pozwalam sobie wyrazić poniższą opinię.
+
+
+Projekt ustawy jest zgodny z prawem Unii Europejskiej.
+
+
+Z wyrazami szacunku
+
+z upoważnienia
+
+Ignacy Niemczycki
+Sekretarz Stanu
+/dokument podpisany elektronicznie/
+
+
+Do wiadomości:
+Pan Czesław Siekierski
+Minister Rolnictwa i Rozwoju Wsi
+
+
+
+
+ Telefon: +48 22 694 7540                  Kancelaria Prezesa Rady Ministrów
+ SMUE@kprm.gov.pl                          Al. Ujazdowskie 1/3
+ www.gov.pl/web/premier                    00-583 Warszawa
+

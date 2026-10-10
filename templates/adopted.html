@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}{{ _("Skuteczne poprawki") }} — {{ _("Poprawki przyjęte przez Sejm") }}{% endblock %}
+{% block description %}{{ _("Skuteczne poprawki — opis") }}{% endblock %}
+{% block content %}
+<h1>{{ _("Poprawki przyjęte przez Sejm") }}</h1>
+<p>{{ _("Skuteczne poprawki — opis") }}</p>
+
+<h2>{{ _("Skuteczność zgłaszających") }}</h2>
+<div class="table-scroll">
+<table>
+  <thead><tr><th data-sort="text">{{ _("Zgłaszający / klub") }}</th><th class="num" data-sort="num">{{ _("głosowane") }}</th><th class="num" data-sort="num">{{ _("przyjęte") }}</th><th class="num" data-sort="num">{{ _("przyjęte (%)") }}</th><th></th></tr></thead>
+  <tbody>
+  {% for p in proposers %}{% if p.voted >= 3 or p.adopted %}
+  <tr>
+    <td>{{ p.name | who }}</td>
+    <td class="num" data-v="{{ p.voted }}">{{ p.voted }}</td>
+    <td class="num v-Y" data-v="{{ p.adopted }}">{{ p.adopted }}</td>
+    <td class="num" data-v="{{ p.adopted / p.voted }}">{{ (p.adopted / p.voted) | pct }}</td>
+    <td style="min-width:120px"><div class="bar"><span class="Y" style="width:{{ p.adopted / p.voted * 100 }}%"></span></div></td>
+  </tr>
+  {% endif %}{% endfor %}
+  </tbody>
+</table>
+</div>
+<p class="note">{{ _("Liczone są głosowania; jedno głosowanie może obejmować kilka łącznie głosowanych poprawek.") }}</p>
+
+<h2>{{ _("Posłowie podpisani pod poprawkami i wnioskami") }}</h2>
+<p class="muted">{{ _("Wnioski mniejszości i poprawki zgłaszane imiennie; poprawki zgłaszane przez kluby liczone są wyżej.") }}</p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th data-sort="text">{{ _("Poseł") }}</th><th data-sort="text">{{ _("Klub") }}</th><th class="num" data-sort="num">{{ _("głosowane") }}</th><th class="num" data-sort="num">{{ _("przyjęte") }}</th><th class="num" data-sort="num">{{ _("przyjęte (%)") }}</th></tr></thead>
+  <tbody>
+  {% for p in mp_proposers %}{% if loop.index <= 60 %}{% set m = mps.get(p.name) %}
+  <tr>
+    <td data-v="{{ m.firstLastName.split()[-1] if m else '' }}"><a href="{{ root }}posel/{{ p.name }}.html">{{ m.firstLastName if m else p.name }}</a></td>
+    <td>{{ m.club if m else "" }}</td>
+    <td class="num" data-v="{{ p.voted }}">{{ p.voted }}</td>
+    <td class="num v-Y" data-v="{{ p.adopted }}">{{ p.adopted }}</td>
+    <td class="num" data-v="{{ p.adopted / p.voted }}">{{ (p.adopted / p.voted) | pct }}</td>
+  </tr>
+  {% endif %}{% endfor %}
+  </tbody>
+</table>
+</div>
+
+<h2>{{ _("Poprawki przyjęte przez Sejm") }} ({{ adopted | length }})</h2>
+<div class="filters">
+  <select id="proposer-filter" aria-label="{{ _('Zgłaszający / klub') }}">
+    <option value="">{{ _("Wszyscy zgłaszający") }}</option>
+    {% for p in proposers %}{% if p.adopted %}<option value="{{ p.name }}">{{ p.name | who }} ({{ p.adopted }})</option>{% endif %}{% endfor %}
+  </select>
+  <label><input type="checkbox" id="against-filter"> {{ _("Tylko wbrew rekomendacji komisji") }}</label>
+</div>
+<div class="table-scroll">
+<table id="adopted-table"><tbody>
+{% for row in adopted %}{% set v = row.v %}{% set a = v.amendments[0] %}
+<tr data-proposer="{{ v.proposer.clubs | join('|') }}" data-against="{{ 1 if v.against_rec else 0 }}">
+  <td style="white-space:nowrap">{{ v.date | date_pl }}</td>
+  <td>
+    <a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a> · <span class="muted">{{ row.proposer | who }}{% if a.item and a.item.recommendation %} · {{ _("komisja") }}: {{ _(a.item.recommendation) }}{% endif %}</span>
+    {% if v.against_rec %} <span class="badge warn">{{ _("wbrew komisji") }}</span>{% endif %}
+    <div class="snippet" lang="pl">{% if v.bill and v.bill in bill_by_root %}<a href="{{ root }}ustawa/{{ v.bill }}.html">{{ v.agenda | truncate(110) }}</a>{% else %}{{ v.agenda | truncate(110) }}{% endif %}</div>
+    {% if a.item %}<div class="snippet" lang="pl">{{ a.item.text | truncate(220) }}</div>{% endif %}
+  </td>
+  <td class="num" style="white-space:nowrap"><span class="v-Y">{{ v.yes }}</span> / <span class="v-N">{{ v.no }}</span></td>
+</tr>
+{% endfor %}
+</tbody></table>
+</div>
+{% endblock %}

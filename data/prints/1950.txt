@@ -1,0 +1,761 @@
+                                                                       Druk nr 1950
+                                                              Warszawa, 14 listopada 2025 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-213-25
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+         na podstawie art. 118 ust. 1 i art. 123 ust. 1 Konstytucji Rzeczypospolitej
+ Polskiej przedstawiam Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+
+ - o zmianie ustawy o środkach ochrony roślin.
+
+         Rada Ministrów uznała wymieniony projekt ustawy za pilny, ponieważ ma on
+ charakter deregulacyjny - ogranicza obciążenia administracyjne, wynikające
+ z wprowadzanego stosowanymi bezpośrednio przepisami rozporządzenia
+ wykonawczego Komisji (UE) 2023/564 obowiązku prowadzenia ewidencji zabiegów
+ środkami ochrony roślin w formacie elektronicznym - i zawiera przepisy, które powinny
+ wejść w życie 1 stycznia 2026 r.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Rolnictwa i Rozwoju Wsi.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                      Projekt
+                                                U S T AWA
+
+                                                    z dnia
+
+                            o zmianie ustawy o środkach ochrony roślin1)
+
+
+       Art. 1. W ustawie z dnia 8 marca 2013 r. o środkach ochrony roślin (Dz. U. z 2024 r.
+poz. 630 oraz z 2025 r. poz. 1168) po rozdziale 10 dodaje się rozdział 10a w brzmieniu:
+                                                   „Rozdział 10a
+
+                                              Przepisy epizodyczne
+
+             Art. 78a. 1. Dokumentację, o której mowa w art. 67 ust. 1 rozporządzenia
+       nr 1107/2009, dotyczącą środków ochrony roślin zastosowanych przez użytkownika
+       profesjonalnego przed terminem określonym w art. 3 akapit trzeci rozporządzenia
+       wykonawczego Komisji (UE) 2023/564 z dnia 10 marca 2023 r. w odniesieniu do treści i
+       formatu dokumentacji dotyczącej środków ochrony roślin prowadzonej i przechowywanej
+       przez użytkowników profesjonalnych na podstawie rozporządzenia Parlamentu
+       Europejskiego i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74 z 13.03.2023, str. 4, z późn.
+       zm.2)), zwanego dalej „rozporządzeniem 2023/564”, która nie została utworzona zgodnie
+       z art. 2 rozporządzenia 2023/564, przenosi się do formatu elektronicznego zgodnego z
+       art. 2 rozporządzenia 2023/564 do dnia 31 stycznia roku następującego po roku, w którym
+       te środki ochrony roślin zostały zastosowane.
+             2. W odniesieniu do dokumentacji, o której mowa w art. 67 ust. 1 rozporządzenia
+       1107/2009, dotyczącej środków ochrony roślin zastosowanych przed terminem
+       określonym w art. 3 akapit czwarty rozporządzenia 2023/564 nie jest wymagane
+       prowadzenie i przechowywanie jej w formacie elektronicznym zgodnym z art. 2
+       rozporządzenia 2023/564.”.
+
+       Art. 2. Ustawa wchodzi w życie z dniem 1 stycznia 2026 r.
+
+
+
+
+1)
+     Niniejsza ustawa służy stosowaniu rozporządzenia wykonawczego Komisji (UE) 2023/564 z dnia 10 marca
+     2023 r. w odniesieniu do treści i formatu dokumentacji dotyczącej środków ochrony roślin prowadzonej i
+     przechowywanej przez użytkowników profesjonalnych na podstawie rozporządzenia Parlamentu
+     Europejskiego i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74 z 13.03.2023, str. 4 oraz Dz. Urz. UE L 2025/2203
+     z 03.11.2025).
+2)
+     Zmiana wymienionego rozporządzenia została ogłoszona w Dz. Urz. UE L 2025/2203 z 03.11.2025.
+                                      UZASADNIENIE
+
+Projektowana ustawa zmienia ustawę z dnia 8 marca 2013 r. o środkach ochrony roślin
+(Dz. U. z 2024 r. poz. 630, z późn. zm.).
+
+Projektowana    ustawa    służy stosowaniu   odstępstw   określonych    w   rozporządzeniu
+wykonawczym Komisji (UE) 2023/564 z dnia 10 marca 2023 r. w odniesieniu do treści
+i formatu dokumentacji dotyczącej środków ochrony roślin prowadzonej i przechowywanej
+przez użytkowników profesjonalnych na podstawie rozporządzenia Parlamentu Europejskiego
+i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74 z 13.03.2023, str. 4, z późn. zm.), zwanym dalej
+„rozporządzeniem 2023/564”, dotyczących:
+1)   prowadzenia elektronicznie ewidencji zabiegów przeprowadzonych przy zastosowaniu
+     środków ochrony roślin;
+2)   terminów przenoszenia informacji o zabiegach przeprowadzonych przy zastosowaniu
+     środków ochrony roślin do ewidencji prowadzonej elektronicznie.
+Zgodnie z rozporządzeniem 2023/564 dokumentacja dotycząca zabiegów w zakresie ochrony
+roślin powinna być prowadzona przez użytkownika profesjonalnego środków ochrony roślin
+na podstawie art. 67 ust. 1 rozporządzenia Parlamentu Europejskiego i Rady (WE)
+nr 1107/2009 z dnia 21 października 2009 r. dotyczącego wprowadzania do obrotu środków
+ochrony roślin i uchylającego dyrektywy Rady 79/117/EWG i 91/414/EWG (Dz. Urz. UE L
+309 z 24.11.2009, str. 1, z późn. zm.) elektronicznie w formacie nadającym się do odczytu
+maszynowego i zawierać informacje określone w załączniku do rozporządzenia 2023/564.
+Rozporządzenie 2023/564 jest stosowane bezpośrednio i nie wymaga przeniesienia do prawa
+krajowego. Przepis art. 2 rozporządzenia 2023/564 stanowi, że użytkownicy profesjonalni
+środków ochrony roślin prowadzą i przechowują dokumentację elektronicznie w formacie
+nadającym się do odczytu maszynowego zgodnie z definicją w art. 2 pkt 13 dyrektywy (UE)
+2019/1024.
+W obecnym stanie prawnym użytkownikami profesjonalnymi środków ochrony roślin są m.in.
+wszyscy rolnicy i to niezależnie od powierzchni posiadanego przez nich gospodarstwa.
+
+Zgodnie z art. 5 rozporządzenia 2023/564 obowiązek prowadzenia ewidencji zabiegów
+przeprowadzonych przy zastosowaniu środków ochrony roślin elektronicznie będzie stosowany
+od dnia 1 stycznia 2026 r.
+W opinii Polski przepisy rozporządzenia 2023/564 stanowią nadmiarowe obciążenie dla
+rolników, którzy i tak są obciążeni licznymi obowiązkami administracyjnymi. Polska nie
+popierała ww. przepisów, ale zostały one przyjęte głosami większości państw członkowskich.
+
+W związku z powyższym Polska podjęła starania na forum Unii Europejskiej mające na celu
+opóźnienie wejścia w życie obowiązku prowadzenia elektronicznie ewidencji zabiegów
+przeprowadzonych przy zastosowaniu środków ochrony roślin. Sprawa była poruszana m.in.
+podczas posiedzenia Rady UE do spraw Rolnictwa i Rybołówstwa w dniu 23 września 2024 r.,
+w pisemnych wystąpieniach kierowanych do Komisarza ds. Zdrowia i Bezpieczeństwa
+Żywności oraz do Komisarza ds. Zdrowia i Dobrostanu Zwierząt, a także na forum Stałego
+Komitetu ds. Roślin, Zwierząt, Żywności i Pasz oraz Grupy Ekspertów Państw Członkowskich
+ds. Dyrektywy w sprawie Zrównoważonego Stosowania Pestycydów (dyrektywa Parlamentu
+Europejskiego i Rady 2009/128/WE z dnia 21 października 2009 r. ustanawiająca ramy
+wspólnotowego działania na rzecz zrównoważonego stosowania pestycydów (Dz. Urz. UE L
+309 z 24.11.2009, str. 71, z późn. zm.)).
+
+W wyniku działań Polski rozporządzenie 2023/564 zostało znowelizowane tak, aby państwa
+członkowskie miały możliwość opóźnienia wejścia w życie obowiązku prowadzenia
+elektronicznie ewidencji zabiegów przeprowadzanych przy zastosowaniu środków ochrony
+roślin o rok (rozporządzenie wykonawcze Komisji (UE) 2025/2203 z dnia 31 października
+2025 r. zmieniające rozporządzenie wykonawcze (UE) 2023/564 w odniesieniu do
+przenoszenia do formatu elektronicznego dokumentacji dotyczącej środków ochrony roślin
+prowadzonej i przechowywanej przez użytkowników profesjonalnych (Dz. Urz. UE L
+2025/2203 z 03.11.2025)). Skorzystanie przez Polskę z tego odstępstwa wymaga jednak
+przyjęcia przepisów projektowanej ustawy.
+
+Przepisy art. 3 akapity 1–3 rozporządzenia 2023/564 stanowią, że użytkownik profesjonalny
+bez zbędnej zwłoki rejestruje każde zastosowanie środka ochrony roślin. Jeżeli dokumentacja
+nie została pierwotnie utworzona w wymaganym formacie elektronicznym, przenosi się ją do
+takiego formatu nie później niż 30 dni od daty zastosowania środka ochrony roślin. […] W
+odniesieniu do stosowania środków ochrony roślin na swoim terytorium przed dniem 1 stycznia
+2030 r. państwa członkowskie mogą zezwolić na dłuższe terminy niż określone w akapicie
+drugim, dla przenoszenia dokumentacji do określonego formatu elektronicznego, pod
+warunkiem że cała dokumentacja będzie dostępna w określonym formacie elektronicznym
+przed dniem 31 stycznia roku następującego po roku stosowania środka ochrony roślin.
+
+
+
+
+                                            2
+W związku z powyższym proponuje się, aby na terytorium Rzeczypospolitej Polskiej dane o
+zabiegach przy zastosowaniu środków ochrony roślin wykonanych do dnia 1 stycznia 2030 r.
+były wprowadzane do prowadzonej elektronicznie ewidencji do dnia 31 stycznia roku
+następującego po roku, w którym wykonano taki zabieg.
+
+Zawarta w projektowanej ustawie regulacja pozwala zatem opóźnić wejście w życie obowiązku
+prowadzenia elektronicznie ewidencji zabiegów przeprowadzonych przy zastosowaniu
+środków ochrony roślin do dnia 1 stycznia 2027 r. Po tym terminie profesjonalni użytkownicy
+środków ochrony roślin będą mogli przenosić dokumentację dotyczącą zabiegów
+przeprowadzonych przy zastosowaniu środków ochrony roślin przed dniem 1 stycznia 2030 r.
+do ewidencji prowadzonej elektronicznie do dnia 31 stycznia roku następującego po roku, w
+którym wykonano dany zabieg.
+
+Odłożenie w czasie wejścia w życie obowiązku prowadzenia elektronicznie ewidencji
+zabiegów przeprowadzonych przy zastosowaniu środków ochrony roślin pozwoli na
+przygotowanie narzędzia informatycznego, które zapewni rolnikom proste i wygodne
+dokumentowanie ww.       zabiegów.    Bez   takiego    narzędzia każdy   z   użytkowników
+profesjonalnych musiałby samodzielnie gromadzić i odpowiednio formatować dane dotyczące
+zabiegów przeprowadzonych przy zastosowaniu środków ochrony roślin. Tymczasem
+obowiązek ten powinien być możliwy do realizacji w prosty sposób przez wszystkich rolników
+i to niezależnie od ich kompetencji informatycznych.
+
+Proponuje się, aby projektowana ustawa weszła w życie z dniem 1 stycznia 2026 r., gdyż jest
+to termin, od którego będzie stosowane rozporządzenie 2023/564, w tym odstępstwo określone
+w rozporządzeniu wykonawczym Komisji (UE) 2025/2203 z dnia 31 października 2025 r.
+zmieniającym rozporządzenie wykonawcze (UE) 2023/564 w odniesieniu do przenoszenia do
+formatu elektronicznego dokumentacji dotyczącej środków ochrony roślin prowadzonej i
+przechowywanej przez użytkowników profesjonalnych.
+
+Projektowana ustawa nie ma bezpośredniego wpływu na sytuację ekonomiczną i społeczną
+rodziny, a także osób niepełnosprawnych oraz osób starszych.
+
+Projektowana ustawa nie jest sprzeczna z przepisami ustawy z dnia 6 marca 2018 r. – Prawo
+przedsiębiorców (Dz. U. z 2025 r. poz. 1480).
+
+Projektowana ustawa jest zgodna z prawem Unii Europejskiej.
+
+Projektowana ustawa nie zawiera przepisów technicznych i w związku z tym nie podlega
+notyfikacji w rozumieniu przepisów rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r.
+
+
+                                                3
+w sprawie sposobu funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych
+(Dz. U. poz. 2039, z późń. zm.).
+
+Stosownie do przepisów ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. z 2025 r. poz. 677) projektowana ustawa oraz dokumenty dotyczące
+prac nad jej projektem zostały zamieszczone w Biuletynie Informacji Publicznej na stronie
+podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces Legislacyjny.
+
+Projektowana ustawa została ujęta w Wykazie prac legislacyjnych i programowych Rady
+Ministrów pod numerem UD323.
+
+
+
+
+                                            4
+Nazwa projektu                                                          Data sporządzenia
+Ustawa o zmianie ustawy o środkach ochrony roślin                       05.11.2025 r.
+Ministerstwo wiodące i ministerstwa współpracujące
+                                                                        Źródło:
+Ministerstwo Rolnictwa i Rozwoju Wsi
+                                                                        Deregulacja
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza
+Stanu lub Podsekretarza Stanu
+                                                                        Nr w Wykazie prac legislacyjnych i
+Małgorzata Gromadzka – Sekretarz Stanu w Ministerstwie Rolnictwa i
+                                                                        programowych Rady Ministrów – UD323
+Rozwoju Wsi
+Kontakt do opiekuna merytorycznego projektu
+Krzysztof Kielak – Departament Hodowli i Ochrony Roślin
+tel.: 22 623 10 17, adres e-mail: Krzysztof.kielak@minrol.gov.pl
+Mateusz Siemiątkowski – Departament Hodowli i Ochrony Roślin
+tel.: 22 623 24 25, adres e-mail: mateusz.siemiatkowski@minrol.gov.pl
+                                OCENA SKUTKÓW REGULACJI
+ 1. Jaki problem jest rozwiązywany?
+Projektowana ustawa rozwiązuje problem nadmiernych obciążeń administracyjnych związanych z wejściem w życie
+obowiązku prowadzenia elektronicznie ewidencji zabiegów przeprowadzanych przy zastosowaniu środków ochrony roślin.
+Zgodnie z rozporządzeniem wykonawczym Komisji (UE) 2023/564 z dnia 10 marca 2023 r. w odniesieniu do treści
+i formatu dokumentacji dotyczącej środków ochrony roślin prowadzonej i przechowywanej przez użytkowników
+profesjonalnych na podstawie rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74
+z 13.03.2023, str. 4, z późn. zm.), zwanym dalej „rozporządzeniem 2023/564”, dokumentacja dotycząca zabiegów
+w zakresie ochrony roślin prowadzona przez użytkownika profesjonalnego środków ochrony roślin na podstawie art. 67
+ust. 1 rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 1107/2009 z dnia 21 października 2009 r. dotyczącego
+wprowadzania do obrotu środków ochrony roślin i uchylającego dyrektywy Rady 79/117/EWG i 91/414/EWG (Dz. Urz.
+UE L 309 z 24.11.2009, str. 1, z późn. zm.) powinna być prowadzona elektronicznie w formacie nadającym się do odczytu
+maszynowego i zawierać informacje określone w załączniku do rozporządzenia 2023/564. Obowiązek ten wejdzie w życie
+z dniem 1 stycznia 2026 r.
+Czas ten jest niewystarczający, aby przygotować rolników i innych użytkowników środków ochrony roślin do nowego
+obowiązku, w tym udostępnić kompleksowy system teleinformatyczny służący do prowadzenia elektronicznie
+dokumentacji zabiegów przeprowadzanych przy zastosowaniu środków ochrony roślin. Bez funkcjonującego systemu
+każdy z profesjonalnych użytkowników środków ochrony roślin musiałby „na własną rękę” prowadzić elektroniczną
+ewidencję dotyczącą stosowania tych środków zgodną z wymaganiami rozporządzenia 2023/564, co mogłoby znacznie
+utrudnić prowadzenie działalności przez część rolników o niższych kompetencjach cyfrowych.
+Polska postulowała na forum Unii Europejskiej przesunięcie terminu wejścia w życie przepisów rozporządzenia 2023/564.
+Komisja Europejska, przechylając się do propozycji Polski, przedstawiła projekt przepisów nowelizujących
+rozporządzenie 2023/564. Przepisy te zostały przyjęte w głosowaniu na forum Stałego Komitetu do spraw Roślin,
+Zwierząt, Żywności i Pasz w dniu 2 października 2025 r. (rozporządzenie wykonawcze Komisji (UE) 2025/2203 z dnia
+31 października 2025 r. zmieniające rozporządzenie wykonawcze (UE) 2023/564 w odniesieniu do przenoszenia do
+formatu elektronicznego dokumentacji dotyczącej środków ochrony roślin prowadzonej i przechowywanej przez
+użytkowników profesjonalnych (Dz. Urz. UE L 2025/2203 z 03.11.2025)). Zgodnie z tymi przepisami państwa
+członkowskie mogą zdecydować o przesunięciu terminu wejścia w życie obowiązku prowadzenia elektronicznie ewidencji
+zabiegów przeprowadzanych przy zastosowaniu środków ochrony roślin o rok.
+Wykorzystanie możliwości przesunięcia w czasie obowiązku prowadzenia elektronicznie ewidencji zabiegów
+przeprowadzanych przy zastosowaniu środków ochrony roślin o rok wymaga jednak przyjęcia przepisów rangi ustawowej.
+Zgodnie z przepisami art. 3 rozporządzenia 2023/564 wpisu do elektronicznej ewidencji zabiegów przeprowadzanych przy
+zastosowaniu środków ochrony roślin dokonuje się w ciągu 30 dni od dnia zastosowania środka ochrony roślin.
+Jednocześnie jednak w odniesieniu do stosowania środków ochrony roślin na swoim terytorium przed dniem 1 stycznia
+2030 r. państwa członkowskie mogą zezwolić na dłuższe terminy […], dla przenoszenia dokumentacji do określonego
+formatu elektronicznego, pod warunkiem że cała dokumentacja będzie dostępna w określonym formacie elektronicznym
+przed dniem 31 stycznia roku następującego po roku stosowania środka ochrony roślin. Organizacje rolnicze opowiadają
+się za takim rozwiązaniem. Przyjęcie odstępstwa od zasady dokonywania wpisu do elektronicznej ewidencji zabiegów
+przeprowadzanych przy zastosowaniu środków ochrony roślin w terminie 30 dni wymaga jednak przyjęcia przepisów rangi
+ustawowej.
+ 2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Rekomendowanym rozwiązaniem jest:
+1) przesunięcie o rok terminu wejścia w życie obowiązku prowadzenia elektronicznie ewidencji zabiegów
+    przeprowadzanych przy zastosowaniu środków ochrony roślin (art. 3 akapit czwarty rozporządzenia 2023/564 –
+    zgodnie z rozporządzeniem wykonawczym Komisji (UE) 2025/2203 z dnia 31 października 2025 r. zmieniającym
+    rozporządzenie wykonawcze (UE) 2023/564 w odniesieniu do przenoszenia do formatu elektronicznego dokumentacji
+    dotyczącej środków ochrony roślin prowadzonej i przechowywanej przez użytkowników profesjonalnych;
+    projektowana ustawa odracza ten obowiązek i pozwala przygotować narzędzia odpowiednie do jego realizacji);
+2) czasowe odstępstwo – do końca 2029 r. – w odniesieniu do obowiązku rejestrowania zabiegów ochrony roślin
+    w formacie elektronicznym w ciągu 30 dni od dnia ich wykonania (art. 3 akapit trzeci rozporządzenia 2023/564
+    upoważnia państwa członkowskie do wyznaczenia terminu przeniesienia dotychczasowej dokumentacji do ewidencji
+    prowadzonej elektronicznie innego niż 30 dni pod warunkiem, że cała dokumentacja będzie dostępna elektronicznie
+    w określonym formacie przed dniem 31 stycznia roku następującego po roku zastosowania środka ochrony roślin).
+Powyższych celów nie można osiągnąć metodami pozalegislacyjnymi – konieczne jest przyjęcie przepisów ustawowych.
+ 3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Rozporządzenie 2023/564 obowiązuje w sposób bezpośredni we wszystkich państwach członkowskich UE.
+4. Podmioty, na które oddziałuje projekt
+         Grupa                      Wielkość                     Źródło danych                Oddziaływanie
+Użytkownicy profesjonalni    Rolnicy (ok. 1300 tys.),   Powszechny Spis Rolny 2020.     Przesunięcie o rok terminu
+środków ochrony roślin       dyrekcje regionalne        Charakterystyka gospodarstw      wejścia w życie obowiązku
+                             Państwowego                w 2020 r.,                       prowadzenia elektronicznie
+                             Gospodarstwa Leśnego       https://www.lasy.gov.pl/pl       ewidencji zabiegów
+                             Lasy Państwowe (17),                                        przeprowadzanych przy
+                             zarządcy lub                                                zastosowaniu środków
+                             właściciele terenów                                         ochrony roślin.
+                             nieużytkowanych                                            Czasowe odstępstwo od
+                             rolniczo, w tym trakcji                                     obowiązku rejestrowania
+                             kolejowej czy terenów                                       elektronicznie zabiegów
+                             przemysłowych, na                                           przeprowadzanych przy
+                             których są stosowane                                        zastosowaniu środków
+                             środki ochrony roślin.                                      ochrony roślin w ciągu
+                                                                                         30 dni od dnia ich
+                                                                                         przeprowadzenia.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Ze względu na to, że projektowana ustawa wprowadza rozwiązania postulowane przez branżowe organizacje rolnicze, a
+także mając na uwadze, że powinna wejść w życie z dniem 1 stycznia 2026 r., odstąpiono od przeprowadzenia konsultacji
+tego projektu.
+
+Projektowana ustawa jest zgodna z oczekiwaniami organizacji rolniczych w sprawie przesunięcia terminu wejścia w życie
+obowiązku prowadzenia elektronicznie ewidencji zabiegów przeprowadzanych przy zastosowaniu środków ochrony roślin.
+Postulaty takie przesłały: Krajowa Rada Izb Rolniczych, Izba Rolna w Opolu, Polski Związek Producentów Roślin
+Zbożowych, OPZZ Rolników i Organizacji Rolniczych. W związku z powyższym przeprowadzenie procesu opiniowania
+przedmiotowego projektu jest niezasadne – projekt jest zgodny z oczekiwaniami ww. podmiotów w zakresie, na jaki
+pozwalają przepisy rozporządzenia 2023/564.
+
+Celem zachowania transparentności procesu legislacyjnego informacja o rozpoczęciu prac nad projektem została
+przekazana do następujących organizacji:
+1. Federacja Branżowych Związków Producentów Rolnych
+2. Federacja Przedsiębiorców Polskich
+3. Federacja Związków Kółek i Organizacji Rolniczych RP
+4. Federacja Związków Pracodawców-Dzierżawców i Właścicieli Rolnych
+5. Forum Związków Zawodowych
+6. Izba Przemysłowo-Gospodarcza
+7. Konsorcjum Appolonia
+8. Krajowa Federacja Producentów Zbóż
+9. Krajowa Rada Izb Rolniczych
+10. Krajowa Sekcja Pracowników Ochrony Roślin przy Zarządzie Głównym Związku Zawodowego Pracowników
+    Rolnictwa w RP
+11. Krajowe Zrzeszenie Producentów Rzepaku i Roślin Białkowych
+12. Krajowy Związek Grup Producentów Owoców i Warzyw – Spółdzielnia Osób Prawnych
+13. Krajowy Związek Plantatorów Buraka Cukrowego
+14. Krajowy Związek Rewizyjny Rolniczych Spółdzielni Produkcyjnych
+15. Niezależny Samorządny Związek Zawodowy Rolników Indywidualnych „Solidarność”
+16. Ogólnopolskie Porozumienie Związków Zawodowych Rolników i Organizacji Rolniczych
+                                                          2
+17. Polska Federacja Producentów Żywności Związek Pracodawców
+18. Polska Federacja Ziemniaka
+19. Polska Izba Lnu i Konopi
+20. Polski Związek Ogrodniczy
+21. Polski Związek Producentów Kukurydzy
+22. Polski Związek Producentów Roślin Zbożowych
+23. Polski Związek Producentów Ziemniaków i Nasion Rolniczych
+24. Polski Związek Zawodowy Rolników
+25. Polskie Forum Bezpieczeństwa Żywności
+26. Polskie Stowarzyszenie Ochrony Roślin
+27. Sekretariat Rolnictwa Komisji Krajowej NSZZ „Solidarność”
+28. Stowarzyszenie Jabłka Grójeckie
+29. Stowarzyszenie Naukowo-Techniczne Inżynierów i Techników Rolnictwa
+30. Stowarzyszenie Polski Ziemniak
+31. Stowarzyszenie Przedsiębiorców Leśnych
+32. Stowarzyszenie Sadowników Polskich
+33. Śląska Federacja Przedsiębiorców Polskich
+34. Unia Owocowa
+35. Związek Polskich Plantatorów Chmielu
+36. Związek Sadowników Rzeczpospolitej Polskiej
+37. Związek Szkółkarzy Polskich
+38. Związek Zawodowy Centrum Narodowego Młodych Rolników
+39. Związek Zawodowy Rolnictwa „Samoobrona”
+40. Związek Zawodowy Rolnictwa i Obszarów Wiejskich „REGIONY”
+41. Związek Zawodowy Rolników „Ojczyzna”
+42. Związek Zawodowy Rolników Rzeczpospolitej „Solidarni”
+
+Stosownie do art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r.
+poz. 667) projekt ustawy został zamieszczony w Biuletynie Informacji Publicznej na stronie podmiotowej Ministerstwa
+Rolnictwa i Rozwoju Wsi oraz zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. –
+Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806, z późn. zm.) w Biuletynie Informacji Publicznej na stronie
+podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces Legislacyjny.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                              Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                     0     1      2     3     4      5      6     7     8      9    10 Łącznie (0–10)
+Dochody ogółem                       0     0      0     0       0    0      0      0     0      0     0           0
+budżet państwa                       0     0      0     0       0    0      0      0     0      0     0           0
+JST                                  0     0      0     0       0    0      0      0     0      0     0           0
+pozostałe jednostki (oddzielnie)     0     0      0     0       0    0      0      0     0      0     0           0
+Wydatki ogółem                       0     0      0     0       0    0      0      0     0      0     0           0
+budżet państwa                       0     0      0     0       0    0      0      0     0      0     0           0
+JST                                  0     0      0     0       0    0      0      0     0      0     0           0
+pozostałe jednostki (oddzielnie)     0     0      0     0       0    0      0      0     0      0     0           0
+Saldo ogółem                         0     0      0     0       0    0      0      0     0      0     0           0
+budżet państwa                       0     0      0     0       0    0      0      0     0      0     0           0
+JST                                  0     0      0     0       0    0      0      0     0      0     0           0
+pozostałe jednostki (oddzielnie)     0     0      0     0       0    0      0      0     0      0     0           0
+Źródła finansowania      -
+Dodatkowe                Projektowana ustawa nie wymaga finansowania.
+informacje, w tym        Projektowana ustawa nie powoduje skutków dla budżetu państwa, w tym budżetów jednostek
+wskazanie źródeł         samorządu terytorialnego.
+danych i przyjętych do   Projektowana ustawa nie ma wpływu na dochody i wydatki budżetu państwa, w tym budżety
+obliczeń założeń         jednostek samorządu terytorialnego.
+
+
+                                                            3
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                       Skutki
+Czas w latach od wejścia w życie zmian         0       1               2        3         5         10   Łącznie (0–10)
+W ujęciu         duże przedsiębiorstwa         0       0               0        0         0          0         0
+pieniężnym       sektor mikro-, małych i       0       0               0        0         0          0         0
+(w mln zł,       średnich
+ceny stałe       przedsiębiorstw
+z …… r.)         rodzina, obywatele            0        0              0        0         0         0          0
+                 oraz gospodarstwa
+                 domowe
+W ujęciu         duże przedsiębiorstwa     -
+niepieniężnym sektor mikro-, małych i      -
+                 średnich
+                 przedsiębiorstw
+                 rodzina, obywatele        Brak wpływu.
+                 oraz gospodarstwa
+                 domowe
+Niemierzalne                               Spodziewanym skutkiem przyjęcia projektowanej ustawy jest zmniejszenie
+                                           obciążeń administracyjnych związanych z prowadzeniem elektronicznie
+                                           ewidencji zabiegów przeprowadzanych przy zastosowaniu środków ochrony
+                                           roślin.
+                                           Proponowana regulacja jest szczególnie korzystna dla małych gospodarstw,
+                                           które w mniejszym stopniu korzystają z narzędzi informatycznych.
+                                           Projektowana ustawa pozwala zatem na ograniczenie skutków wykluczenia
+                                           cyfrowego mniejszych gospodarstw lub gospodarstw prowadzonych przez
+                                           osoby starsze.
+Dodatkowe
+informacje, w tym
+                       Projektowana ustawa nie ma bezpośredniego wpływu na rodzinę, obywateli, gospodarstwa
+wskazanie źródeł
+                       domowe, osoby niepełnosprawne i osoby starsze.
+danych i przyjętych do
+obliczeń założeń
+ 8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+    nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie             tak
+wymaganymi przez UE (szczegóły w odwróconej             nie
+tabeli zgodności).                                      nie dotyczy
+
+   zmniejszenie liczby dokumentów                               zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                                 zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                        wydłużenie czasu na załatwienie sprawy
+   inne:                                                        inne:
+  przesunięcie o rok realizacji obowiązku
+     prowadzenia elektronicznie ewidencji zabiegów
+     przeprowadzanych przy zastosowaniu środków
+     ochrony roślin,
+  czasowe odstępstwo od obowiązku rejestrowania
+     elektronicznie zabiegów przeprowadzanych przy
+     zastosowaniu środków ochrony roślin w ciągu 30
+     dni od dnia ich przeprowadzenia.
+Wprowadzane obciążenia są przystosowane do ich                  tak
+elektronizacji.                                                 nie
+                                                                nie dotyczy
+
+Komentarz:
+W projektowanej ustawie proponuje się:
+1) przesunięcie o rok terminu wejścia w życie obowiązku prowadzenia elektronicznie ewidencji zabiegów
+   przeprowadzanych przy zastosowaniu środków ochrony roślin;
+2) czasowe odstępstwo od obowiązku rejestrowania elektronicznie zabiegów przeprowadzanych przy zastosowaniu
+   środków ochrony roślin w ciągu 30 dni od dnia ich przeprowadzenia.
+                                                            4
+9. Wpływ na rynek pracy
+Projektowana ustawa nie będzie miała bezpośredniego wpływu na rynek pracy. Niemniej projektowana ustawa ułatwi
+prowadzenie gospodarstw rolnych przez ograniczenie obciążeń administracyjnych.
+10. Wpływ na pozostałe obszary
+
+   środowisko naturalne                    demografia                           informatyzacja
+   sytuacja i rozwój regionalny            mienie państwowe                     zdrowie
+   sądy powszechne,                        inne: rolnictwo
+administracyjne lub wojskowe
+                         Projektowana ustawa odroczy obowiązek prowadzenia ewidencji zabiegów środkami roślin
+Omówienie wpływu         w formacie elektronicznym. Tym samym projektowana ustawa ułatwi prowadzenie gospodarstw
+                         rolnych przez ograniczenie obciążeń administracyjnych.
+11. Planowane wykonanie przepisów aktu prawnego
+Proponuje się, aby projektowana ustawa weszła w życie z dniem 1 stycznia 2026 r.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Projektowana ustawa wprowadza odstępstwa od obowiązków administracyjnych w zakresie, na jaki pozwalają stosowane
+bezpośrednio przepisy Unii Europejskiej. Z uwagi na krótki okres obowiązywania tych odstępstw nie planuje się mierzenia
+efektów projektowanych regulacji.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                          5
+                                       Raport z konsultacji
+
+                           (§ 51 Regulaminu pracy Rady Ministrów)
+
+1. Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania:
+Projekt ustawy został przyjęty przez Stały Komitet Rady Ministrów w dniu 5 listopada 2025 r.
+Projekt ustawy nie został poddany uzgodnieniom, konsultacjom, opiniowaniu oraz rozpatrzeniu
+przez Komitet do Spraw Europejskich.
+Projektowana ustawa jest zgodna z oczekiwaniami organizacji rolniczych w zakresie
+przesunięcia terminu wejścia w życie obowiązku prowadzenia ewidencji zabiegów środkami
+ochrony roślin w formie elektronicznej. Postulaty takie przesłały: Krajowa Rada Izb
+Rolniczych, Izba Rolna w Opolu, Polski Związek Producentów Roślin Zbożowych i OPZZ
+Rolników i Organizacji Rolniczych. Projektowana ustawa powinna wejść w życie z dniem 1
+stycznia 2026 r., gdyż jest to termin, w którym wchodzi w życie obowiązek prowadzenia
+ewidencji zabiegów przeprowadzanych przy zastosowaniu środków ochrony roślin w formie
+elektronicznej wynikający z rozporządzenia 2023/564. Z uwagi na zgodność przedmiotowej
+regulacji z oczekiwaniami strony społecznej oraz mając na względzie potrzebę pilnego
+przyjęcia projektowanej ustawy, zasadne jest odstąpienie od przeprowadzania uzgodnień,
+konsultacji publicznych oraz opiniowania projektu.
+Jednocześnie informacja o rozpoczęciu prac nad projektowaną ustawą została przekazana do
+następujących podmiotów:
+      Federacja Branżowych Związków Producentów Rolnych
+      Federacja Przedsiębiorców Polskich
+      Federacja Związków Kółek i Organizacji Rolniczych RP
+      Federacja Związków Pracodawców-Dzierżawców i Właścicieli Rolnych
+      Forum Związków Zawodowych
+      Izba Przemysłowo-Gospodarcza
+      Konsorcjum Appolonia
+      Krajowa Federacja Producentów Zbóż
+      Krajowa Rada Izb Rolniczych
+      Krajowa Sekcja Pracowników Ochrony Roślin przy Zarządzie Głównym Związku
+       Zawodowego Pracowników Rolnictwa w RP
+      Krajowe Zrzeszenie Producentów Rzepaku i Roślin Białkowych
+      Krajowy Związek Grup Producentów Owoców i Warzyw – Spółdzielnia Osób Prawnych
+      Krajowy Związek Plantatorów Buraka Cukrowego
+      Krajowy Związek Rewizyjny Rolniczych Spółdzielni Produkcyjnych
+      Niezależny Samorządny Związek Zawodowy Rolników Indywidualnych „Solidarność”
+      Ogólnopolskie Porozumienie Związków Zawodowych Rolników i Organizacji
+       Rolniczych
+      Polska Federacja Producentów Żywności Związek Pracodawców
+      Polska Federacja Ziemniaka
+      Polska Izba Lnu i Konopi
+      Polski Związek Ogrodniczy
+      Polski Związek Producentów Kukurydzy
+      Polski Związek Producentów Roślin Zbożowych
+      Polski Związek Producentów Ziemniaków i Nasion Rolniczych
+      Polski Związek Zawodowy Rolników
+      Polskie Forum Bezpieczeństwa Żywności
+      Polskie Stowarzyszenie Ochrony Roślin
+      Sekretariat Rolnictwa Komisji Krajowej NSZZ „Solidarność”
+      Stowarzyszenie Jabłka Grójeckie
+      Stowarzyszenie Naukowo-Techniczne Inżynierów i Techników Rolnictwa
+      Stowarzyszenie Polski Ziemniak
+      Stowarzyszenie Przedsiębiorców Leśnych
+      Stowarzyszenie Sadowników Polskich
+      Śląska Federacja Przedsiębiorców Polskich
+      Unia Owocowa
+      Związek Polskich Plantatorów Chmielu
+      Związek Sadowników Rzeczpospolitej Polskiej
+      Związek Szkółkarzy Polskich
+      Związek Zawodowy Centrum Narodowego Młodych Rolników
+      Związek Zawodowy Rolnictwa „Samoobrona”
+      Związek Zawodowy Rolnictwa i Obszarów Wiejskich „REGIONY”
+      Związek Zawodowy Rolników „Ojczyzna”
+      Związek Zawodowy Rolników Rzeczpospolitej „Solidarni”
+
+
+2. Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia
+projektu z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim
+Bankiem Centralnym:
+Projekt ustawy nie wymagał zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia z
+właściwymi organami i instytucjami Unii Europejskiej, w tym z Europejskim Bankiem
+Centralnym.
+
+3. Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem
+w trybie przepisów o działalności lobbingowej w procesie stanowienia prawa, wraz ze
+wskazaniem kolejności dokonania zgłoszeń albo informację o ich braku:
+Stosownie do art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. z 2025 r. poz. 677) projekt ustawy został udostępniony w Biuletynie
+Informacji Publicznej Rządowego Centrum Legislacji.
+Żaden podmiot nie zgłosił zainteresowania pracami nad ustawą w trybie przepisów o
+działalności lobbingowej w procesie stanowienia prawa.
+
+
+
+
+                                             2
+                        Tabelaryczne zestawienie przepisów rozporządzenia wykonawczego Komisji (UE) 2023/564i
+                                         wymagających wprowadzenia do polskiego porządku prawnego
+
+
+Tytuł wprowadzanego rozporządzenia:                           Tytuł projektu:
+                                                              Ustawa o zmianie ustawy o środkach ochrony roślin
+
+Jedn.     Treść przepisu UE                                   Konie   Jedn. red.    Treść przepisu/ów projektu
+red.                                                          czne    Projektu
+rozp.                                                         wpro    ustawy
+                                                              wadz
+                                                              enie
+                                                              (T/N)
+art. 1    Użytkownicy profesjonalni środków ochrony roślin    N       -             -
+ust. 1    przekazują w dokumentacji, o której mowa w art.
+          67 ust. 1 rozporządzenia (WE) nr 1107/2009
+          („dokumentacja”), informacje określone w
+          załączniku do niniejszego rozporządzenia.
+art. 1    W przypadku gdy lokalizacja obszaru lub obiektu,    N       -             -
+ust. 2    w którym zastosowano środek ochrony roślin, nie
+          może zostać zidentyfikowana poprzez jednostkę
+          gruntu objętą zakresem geoprzestrzennego wniosku
+          o przyznanie pomocy w ramach zintegrowanego
+          systemu zarządzania i kontroli, o którym mowa w
+          art. 8 ust. 3 lit. b) rozporządzenia wykonawczego
+          (UE) 2022/1173, lub w przypadku gdy zgodnie z
+          ust. 1 nie jest to wymagane w przypadku danego
+          rodzaju zastosowania, państwa członkowskie
+          zapewniają użytkownikom profesjonalnym
+          odpowiednie alternatywne metody identyfikacji.
+          Takie metody identyfikacji umożliwiają
+          identyfikację lokalizacji obszaru, jednostki lub
+          obiektu, którym zastosowano środek ochrony
+          roślin, oraz, w stosownych przypadkach, jego
+          lokalizacji geoprzestrzennej.
+art. 1    Państwa członkowskie udostępniają użytkownikom      N       -             -
+ust. 3    profesjonalnym informacje na temat nazw upraw,
+           umiejscowienia lub zastosowania w odniesieniu do
+           gruntów odpowiadające kodom EPPO oraz
+           informacje dotyczące faz wzrostu roślin zgodnie z
+           monografią BBCH w celu rejestrowania
+           stosowania środków ochrony roślin.
+art. 1     Przepisy niniejszego artykułu pozostają bez          N   -            -
+ust. 4     uszczerbku dla możliwości wymagania przez
+           państwa członkowskie, aby użytkownicy
+           profesjonalni umieszczali w dokumentacji inne
+           informacje nieobjęte zakresem art. 67 ust. 1
+           rozporządzenia (WE) nr 1107/2009.
+art. 2     Użytkownicy profesjonalni środków ochrony roślin     N   -            -
+           prowadzą i przechowują dokumentację
+           elektronicznie w formacie nadającym się do
+           odczytu maszynowego zgodnie z definicją w art. 2
+           pkt 13 dyrektywy (UE) 2019/1024.
+art.3      Użytkownik profesjonalny bez zbędnej zwłoki          N   -            -
+akapit     rejestruje każde zastosowanie środka ochrony
+pierwszy   roślin.
+
+art. 3     Jeżeli dokumentacja nie została pierwotnie           N   -            -
+akapit     utworzona w wymaganym formacie
+drugi      elektronicznym, przenosi się ją do takiego formatu
+           nie później niż 30 dni od daty zastosowania środka
+           ochrony roślin. W przypadku stosowania środków
+           ochrony roślin na swoim terytorium państwa
+           członkowskie mogą przewidzieć krótsze terminy
+           przenoszenia do określonego formatu
+           elektronicznego.
+
+art. 3     W odniesieniu do stosowania środków ochrony          T   Art. 1       Art. 1. W ustawie z dnia 8 marca 2013 r. o środkach ochrony roślin (Dz.
+akapit     roślin na swoim terytorium przed dniem 1 stycznia                     U. z 2024 r. poz. 630 oraz z 2025 r. poz. 1168) po rozdziale 10 dodaje się
+trzeci     2030 r. państwa członkowskie mogą zezwolić na                         rozdział 10a w brzmieniu:
+           dłuższe terminy niż określone w akapicie drugim,                                                    „Rozdział 10a
+           dla przenoszenia dokumentacji do określonego                                                    Przepisy epizodyczne
+           formatu elektronicznego, pod warunkiem że cała                        Art. 78a. 1. Dokumentację, o której mowa w art. 67 ust. 1 rozporządzenia
+           dokumentacja będzie dostępna w określonym                             nr 1107/2009, dotyczącą środków ochrony roślin zastosowanych przez
+           formacie elektronicznym przed dniem 31 stycznia                       użytkownika profesjonalnego przed terminem określonym w art. 3 akapit
+                                                                                 trzeci rozporządzenia wykonawczego Komisji (UE) 2023/564 z dnia 10
+
+
+                                                                             2
+          roku następującego po roku stosowania środka                         marca 2023 r. w odniesieniu do treści i formatu dokumentacji dotyczącej
+          ochrony roślin.                                                      środków ochrony roślin prowadzonej i przechowywanej przez
+                                                                               użytkowników profesjonalnych na podstawie rozporządzenia Parlamentu
+                                                                               Europejskiego i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74 z
+                                                                               13.03.2023, str. 4, z późn. zm.), zwanego dalej „rozporządzeniem
+                                                                               2023/564”, która nie została utworzona zgodnie z art. 2 rozporządzenia
+                                                                               2023/564, przenosi się do formatu elektronicznego zgodnego z art. 2
+                                                                               rozporządzenia 2023/564 do dnia 31 stycznia roku następującego po roku,
+                                                                               w którym te środki ochrony roślin zostały zastosowane.
+                                                                               […]
+art. 3    W przypadku zastosowań środków ochrony roślin       T   Art. 1       Art. 1. W ustawie z dnia 8 marca 2013 r. o środkach ochrony roślin (Dz.
+akapit    na swoim terytorium przed dniem 1 stycznia 2027                      U. z 2024 r. poz. 630 oraz z 2025 r. poz. 1168) po rozdziale 10 dodaje się
+czwarty   r. państwa członkowskie mogą zezwolić, aby                           rozdział 10a w brzmieniu:
+          odpowiednia dokumentacja nie była przenoszona                                                      „Rozdział 10a
+          do wymaganego formatu elektronicznego.                                                         Przepisy epizodyczne
+                                                                               […]
+                                                                               2. W odniesieniu do dokumentacji, o której mowa w art. 67 ust. 1
+                                                                               rozporządzenia 1107/2009, dotyczącej środków ochrony roślin
+                                                                               zastosowanych przed terminem określonym w art. 3 akapit czwarty
+                                                                               rozporządzenia 2023/564 nie jest wymagane prowadzenie i
+                                                                               przechowywanie jej w formacie elektronicznym zgodnym z art. 2
+                                                                               rozporządzenia 2023/564.”
+art. 4    Na wniosek właściwego organu na podstawie art.      N   -            -
+          67 ust. 1 rozporządzenia (WE) nr 1107/2009 o
+          przekazanie informacji zawartych w dokumentacji
+          użytkownik profesjonalny przekazuje te informacje
+          bez zbędnej zwłoki.
+          Jeżeli właściwy organ wyraźnie zażąda informacji
+          zawartych w dokumentacji utworzonej dla
+          zastosowań środków ochrony roślin w określonym
+          formacie elektronicznym, jak określono w art. 2,
+          przed upływem odpowiedniego terminu
+          określonego w art. 3 akapit drugi i trzeci,
+          użytkownik profesjonalny przekazuje informacje w
+          określonym formacie elektronicznym przed
+          upływem tego terminu lub w ciągu 10 dni
+          roboczych, w zależności od tego, co nastąpi
+          wcześniej.
+
+
+
+
+                                                                           3
+                Użytkownicy profesjonalni, którzy działają na
+                podstawie ustaleń umownych na rzecz innej osoby
+                fizycznej lub prawnej, zapewniają tej osobie
+                zawierającej umowę dostęp do dokumentacji lub
+                jej kopię bez zbędnej zwłoki lub ograniczeń.
+     art. 5     Niniejsze rozporządzenie wchodzi w życie           T       Art. 2         Art. 2. Ustawa wchodzi w życie z dniem 1 stycznia 2026 r.ii
+                dwudziestego dnia po jego opublikowaniu w
+                Dzienniku Urzędowym Unii Europejskiej.
+                Niniejsze rozporządzenie stosuje się od dnia 1
+                stycznia 2026 r.
+
+
+
+i
+       Rozporządzenie wykonawcze Komisji (UE) 2023/564 z dnia 10 marca 2023 r. w odniesieniu do treści i formatu dokumentacji dotyczącej środków ochrony roślin
+       prowadzonej i przechowywanej przez użytkowników profesjonalnych na podstawie rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 1107/2009 (Dz. Urz. UE L 74
+       z 13.03.2023, str. 4 oraz Dz. Urz. UE L 2025/2203 z 03.11.2025).
+ii
+       Termin wejścia w życie projektowanej ustawy jest z tożsamy z terminem, od którego będą stosowane przepisy rozporządzenia 2023/564 nakładające obowiązek
+       prowadzenia ewidencji zabiegów środkami ochrony roślin w formacie elektronicznym na wszystkich użytkowników profesjonalnych środków ochrony roślin.
+
+
+
+
+                                                                                    4
+DPUE.950.262.2025 / 4
+JF
+Warszawa, /elektroniczny znacznik czasu/
+Dot.: RM-0610-213-25 z 07.11.2025 r.
+
+
+
+
+Pani Joanna Knapińska
+Sekretarz Rady Ministrów
+
+
+
+Opinia
+o zgodności z prawem Unii Europejskiej projektu ustawy o zmianie ustawy o
+środkach ochrony roślin, wyrażona przez ministra właściwego do spraw
+członkostwa Rzeczypospolitej Polskiej w Unii Europejskiej
+
+Szanowna Pani Minister,
+
+w związku z przedłożonym projektem ustawy pozwalam sobie wyrazić poniższą
+opinię.
+
+
+Projekt ustawy jest zgodny z prawem Unii Europejskiej.
+
+Z wyrazami szacunku
+
+z up. Ignacy Niemczycki
+Sekretarz Stanu
+
+
+
+Do wiadomości:
+Pan Stefan Krajewski
+Minister Rolnictwa i Rozwoju Wsi
+
+
+
+
+Tel.: +48 22 523 8788                                    Al. J. Ch. Szucha 23
+iniemczycki.sekretariat@msz.gov.pl                       00-580 Warszawa
+www.gov.pl/dyplomacja
+

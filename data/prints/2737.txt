@@ -1,0 +1,1833 @@
+                                                                       Druk nr 2737
+                                                               Warszawa, 19 czerwca 2026 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-90-26
+
+
+                                                              Pan
+                                                              Włodzimierz Czarzasty
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+  - o zmianie ustawy - Kodeks spółek handlowych
+   oraz ustawy o zmianie ustawy - Kodeks spółek
+   handlowych oraz niektórych innych ustaw.
+        Projekt ma charakter deregulacyjny.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Sprawiedliwości.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                          Projekt
+                                         U S T AWA
+
+                                             z dnia
+
+o zmianie ustawy – Kodeks spółek handlowych oraz ustawy o zmianie ustawy – Kodeks
+                      spółek handlowych oraz niektórych innych ustaw
+
+
+     Art. 1. W ustawie z dnia 15 września 2000 r. – Kodeks spółek handlowych (Dz. U. z
+2024 r. poz. 18 i 96 oraz z 2026 r. poz. 176, 187 i 644) wprowadza się następujące zmiany:
+1)   w art. 238 § 1 otrzymuje brzmienie:
+             „§ 1. Zgromadzenie wspólników zwołuje się za pomocą listów poleconych lub
+     przesyłek nadanych pocztą kurierską, wysłanych co najmniej dwa tygodnie przed
+     terminem zgromadzenia wspólników. Zamiast listu poleconego lub przesyłki nadanej
+     pocztą kurierską, zawiadomienie może być wysłane wspólnikowi na adres do doręczeń
+     elektronicznych albo pocztą elektroniczną, jeżeli uprzednio wyraził na to zgodę w formie
+     dokumentowej, podając adres, na który zawiadomienie powinno być wysłane. Umowa
+     spółki może przewidywać surowsze warunki udzielenia zgody.”;
+2)   w art. 243 w § 2 zdanie pierwsze otrzymuje brzmienie:
+     „Pełnomocnictwo powinno być udzielone w formie dokumentowej, chyba że umowa
+     spółki przewiduje surowsze wymogi jego udzielenia.”;
+3)   w art. 300⁹⁵ § 2 otrzymuje brzmienie:
+             „§ 2. Pełnomocnictwo powinno być udzielone w formie dokumentowej, chyba że
+     umowa spółki przewiduje surowsze wymogi jego udzielenia. Kopię pełnomocnictwa
+     dołącza się do księgi protokołów.”.
+
+     Art. 2. W ustawie z dnia 23 stycznia 2026 r. o zmianie ustawy – Kodeks spółek
+handlowych oraz niektórych innych ustaw (Dz. U. poz. 176) w art. 1 w pkt 27 wprowadza się
+następujące zmiany:
+1)   w lit. a, w art. 476 w § 11 w pkt 2 wyrazy „art. 32813 § 1” zastępuje się wyrazami „art. 3285
+     § 3”;
+2)   w lit. b, w art. 476 w § 21 wyrazy „art. 32813 § 1” zastępuje się wyrazami „art. 3285 § 3”.
+
+     Art. 3. 1. Do zgód, o których mowa w art. 238 § 1 ustawy zmienianej w art. 1,
+wyrażonych przed dniem wejścia w życie niniejszej ustawy, stosuje się przepisy
+dotychczasowe.
+     2. Do pełnomocnictw, o których mowa w art. 243 § 2 oraz art. 300⁹⁵ § 2 ustawy zmienianej
+w art. 1, udzielonych przed dniem wejścia w życie niniejszej ustawy, stosuje się przepisy
+dotychczasowe.
+
+     Art. 4. Ustawa wchodzi w życie po upływie 30 dni od dnia ogłoszenia, z wyjątkiem art. 2,
+który wchodzi w życie z dniem 18 lutego 2027 r.
+                                    UZASADNIENIE
+
+Projekt ustawy o zmianie ustawy – Kodeks spółek handlowych wprowadza zmiany w ustawie
+z dnia 15 września 2000 r. – Kodeks spółek handlowych (Dz. U. z 2024 r. poz. 18 i 96 oraz z
+2026 r. poz. 176, 187 i 644). Celem projektowanych zmian jest zmniejszenie formalizmu w
+spółce z ograniczoną odpowiedzialnością i dostosowanie regulacji Kodeksu spółek
+handlowych (KSH) do standardów cyfrowych. Obecny wymóg „pisemnej zgody” przewidziany
+w art. 238 § 1 KSH odnoszący się do formy zgody wspólnika na doręczanie zawiadomień o
+zwołaniu zgromadzeń wspólników spółki z ograniczoną odpowiedzialnością oraz „pisemnego
+pełnomocnictwa”, o którym mowa w art. 243 § 2 KSH dotyczący formy pełnomocnictwa do
+uczestnictwa w zgromadzeniu wspólników spółki z ograniczoną odpowiedzialnością generuje
+nieuzasadnione koszty i bariery, szczególnie dla wspólników zagranicznych. Proponowana
+zmiana umożliwia stosowanie formy dokumentowej, w tym komunikacji elektronicznej, co
+odpowiada realiom obrotu (przykładowo: skan oryginału jest już formą dokumentową).
+Wymaga podkreślenia, iż w sytuacji, gdy dokumentacja korporacyjna jest w zasadzie
+całkowicie zdygitalizowana, nie znajduje uzasadnienia gromadzenie dokumentacji tradycyjnej.
+Regulacja przewiduje jednocześnie możliwość wprowadzenia surowszej formy w umowie.
+
+Postulat odnoszący się do zmiany art. 238 § 1 KSH zmierza do zastąpienia wymogu wyrażenia
+przez wspólnika „pisemnej zgody” na doręczanie zawiadomień o zgromadzeniu wspólników
+drogą elektroniczną, zgodą wyrażoną w formie dokumentowej. Obecna regulacja, choć
+dopuszcza alternatywne metody doręczania, w praktyce okazuje się źródłem zbędnych
+trudności formalnych, zmusza bowiem wspólnika do składania odrębnego dokumentu z
+własnoręcznym podpisem lub podpisem kwalifikowanym, co szczególnie w przypadku
+zagranicznych udziałowców opóźnia procedurę i generuje koszty. Przekształcenie tej zgody w
+zgodę dokumentową pozwoliłoby zrealizować jej funkcję w sposób szybszy, prostszy i lepiej
+dostosowany do realiów cyfrowych, przy jednoczesnym zachowaniu istotnego elementu –
+identyfikacji osoby składającej oświadczenie. Wymaga podkreślenia, że w zmienianym
+art. 238 § 1 KSH przewidziano, iż umowa spółki może przewidywać surowsze warunki
+udzielenia zgody.
+
+W odróżnieniu od pełnomocnictwa, które ma charakter incydentalny i może być udzielane w
+sytuacjach pilnych lub konfliktowych, zgoda na doręczenia elektroniczne jest zazwyczaj
+udzielana raz, na początku relacji ze spółką i obowiązuje przez dłuższy czas. Ryzyko nadużyć
+w tym zakresie jest zatem mniejsze, a z punktu widzenia pewności obrotu bardziej
+przewidywalne.
+
+Z kolei postulat zmiany art. 243 § 2 KSH zmierza do umożliwienia udzielania pełnomocnictwa
+do udziału w zgromadzeniu wspólników w formie dokumentowej. Uzasadnienie tej propozycji
+opiera się na realiach funkcjonowania współczesnych spółek kapitałowych, w których coraz
+częściej zarówno komunikacja między wspólnikami, jak i samo odbywanie zgromadzeń
+przybiera formę zdalną. Tradycyjny wymóg formy pisemnej, rozumianej jako dokument
+opatrzony własnoręcznym podpisem lub kwalifikowanym podpisem elektronicznym, okazuje
+się w praktyce zbyt rygorystyczny, nieprzystający do potrzeb rynku i barierą zwłaszcza dla
+inwestorów zagranicznych. Forma dokumentowa, uregulowana w art. 772 ustawy z dnia
+23 kwietnia 1964 r. – Kodeks cywilny (Dz. U. z 2025 r. poz. 1071, z późn. zm.), pozwala na
+złożenie oświadczenia w dowolnej utrwalonej postaci (np. e-mail, plik PDF), o ile możliwa jest
+identyfikacja osoby, która je złożyła.
+
+Zaproponowana zmiana stanowi zatem adekwatną odpowiedź na praktyczne trudności, jakie
+napotykają wspólnicy chcący udzielić pełnomocnictwa zdalnie, bez konieczności fizycznego
+podpisu. Jednocześnie konstrukcja, w której dopuszczenie formy surowszej niż dokumentowa
+uzależnione jest od woli samych wspólników wyrażonej w umowie spółki, zachowuje
+elastyczność i pozwala każdej spółce dostosować mechanizmy identyfikacyjne do własnych
+potrzeb i poziomu zaufania korporacyjnego.
+
+Wymaga podkreślenia, że projektowana regulacja nie nakłada na spółki obowiązku
+dostosowania ani zmiany obowiązujących umów spółek. Ewentualna modyfikacja umowy
+spółki może nastąpić wyłącznie w sposób dobrowolny, jeśli wspólnicy uznają za zasadne
+skorzystanie z nowego uprawnienia przewidzianego w projektowanym przepisie. Regulacja ma
+zatem charakter fakultatywny i kreuje jedynie możliwość, a nie obowiązek, wprowadzenia do
+umowy spółki postanowień dopuszczających stosowanie formy dokumentowej.
+
+Zmiana art. 30095 § 2 KSH ma na celu zapewnienie spójności kodeksowej regulacji
+wykonywania      praw     udziałowych    przez       pełnomocnika   w   spółkach   kapitałowych
+niepublicznych oraz utrzymanie deregulacyjnego charakteru projektowanych rozwiązań.
+Wprowadzenie      formy     dokumentowej         jako    podstawowego    standardu   udzielenia
+pełnomocnictwa odpowiada utrwalonej praktyce obrotu, w której oświadczenia korporacyjne
+są składane i archiwizowane w postaci elektronicznej, a weryfikacja ich pochodzenia następuje
+przy wykorzystaniu środków komunikacji na odległość. Jednocześnie rezygnacja z
+
+
+
+                                                 2
+ustawowego rygoru nieważności dla niezachowania formy dokumentowej ogranicza ryzyko
+nadmiernie formalistycznych skutków w sytuacjach, w których umocowanie pełnomocnika jest
+w istocie niewątpliwe, a wada dotyczy wyłącznie technicznego sposobu utrwalenia
+oświadczenia. Rozwiązanie to wzmacnia pewność obrotu wewnątrzkorporacyjnego, zmniejsza
+liczbę potencjalnych sporów o charakterze czysto formalnym oraz pozostaje w zgodzie z
+zasadą autonomii woli wspólników (akcjonariuszy), przy czym umowa spółki zachowuje
+możliwość ustanowienia formy surowszej, adekwatnej do potrzeb konkretnej spółki. W
+konsekwencji projektowane ujednolicenie z regulacją spółki z ograniczoną odpowiedzialnością
+realizuje postulat przejrzystości i koherencji KSH, redukując nieuzasadnione różnice pomiędzy
+typami spółek o zbliżonej funkcji instytucji pełnomocnictwa.
+
+Ponadto w art. 2 przewidziano zmianę w ustawie z dnia 23 stycznia 2026 r. o zmianie ustawy
+– Kodeks spółek handlowych oraz niektórych innych ustaw (Dz. U. poz. 176) poprzez
+zastąpienie w tej ustawie w art. 1 w pkt 27 w lit. a oraz w lit. b wyrazów „art. 32813 § 1”
+wyrazami „art. 3285 § 3”. Zmiany te mają charakter porządkujący i zmierzają do usunięcia
+błędnego odwołania.
+
+Skutki społeczne, gospodarcze, finansowe i prawne:
+•   Społeczne/gospodarcze – uproszczenie i obniżenie kosztów procedur w spółkach z o.o.,
+•   Finansowe – brak skutków dla budżetu państwa, pozytywne skutki dla przedsiębiorców
+    (oszczędności),
+•   Prawne – ujednolicenie regulacji KSH z innymi przepisami, które już dopuszczają formę
+    dokumentową.
+
+Propozycja zmiany była przedmiotem analiz deregulacyjnych i rekomendacji środowisk
+prawniczych i biznesowych (m.in. w ramach formularzy oceny propozycji deregulacyjnych).
+Spotkała się z pozytywną oceną jako działanie upraszczające prawo spółek i zmniejszające
+obciążenia dla przedsiębiorców.
+
+Zgodnie z art. 4 projektowana ustawa wejdzie w życie po upływie 30 dni od dnia ogłoszenia, z
+wyjątkiem art. 2, który wejdzie w życie z dniem 18 lutego 2027 r.
+
+Projekt ustawy nie jest sprzeczny z prawem Unii Europejskiej.
+
+Zgodnie z wymogami wymienionymi w art. 66–68 ustawy z dnia 6 marca 2018 r. – Prawo
+przedsiębiorców (Dz. U. z 2025 r. poz. 1480, z późn. zm.) należy zaznaczyć, że projektowana
+ustawa ma charakter deregulacyjny i nie spowoduje dodatkowych obciążeń przedsiębiorców.
+
+
+
+
+                                             3
+Zgodnie z ustawą z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2025 r. poz. 677 oraz z 2026 r. poz. 160), a także mając na uwadze § 52
+uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady
+Ministrów (M.P. z 2026 r. poz. 404), projekt ustawy został udostępniony w Biuletynie
+Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie
+Rządowy Proces Legislacyjny. W trybie art. 7 ww. ustawy nie wpłynęły zgłoszenia
+zainteresowania pracami nad ww. projektem rozporządzenia.
+
+Przewiduje się, że wpływ projektu ustawy na sytuację mikroprzedsiębiorców oraz małych i
+średnich przedsiębiorców będzie korzystny, ponieważ w efekcie wprowadzonych regulacji
+nastąpi odformalizowanie, a tym samym usprawnienie obrotu, zwłaszcza w stosunkach
+korporacyjnych.    Będzie    to   korzystnie   wpływało   na   konkurencyjność     działania
+przedsiębiorców.
+
+Projekt ustawy nie zawiera przepisów technicznych, a zatem nie podlega notyfikacji zgodnie z
+trybem przewidzianym w rozporządzeniu Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie
+sposobu funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych (Dz. U.
+poz. 2039 oraz z 2004 r. poz. 597).
+
+Projekt ustawy nie wymaga przedstawienia właściwym organom i instytucjom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji lub uzgodnienia.
+
+Nie dokonano oceny OSR w trybie § 32 uchwały nr 190 Rady Ministrów z dnia 29 października
+2013 r. – Regulamin pracy Rady Ministrów.
+
+Jednocześnie należy wskazać, że nie ma możliwości podjęcia alternatywnych, w stosunku do
+projektowanej ustawy, środków umożliwiających osiągnięcie zamierzonego celu.
+
+Wejście w życie ustawy nie będzie miało negatywnego wpływu na konkurencyjność
+gospodarki i przedsiębiorczość, w tym na funkcjonowanie przedsiębiorstw, jak również nie
+będzie miało negatywnego wpływu na sytuację i rozwój regionalny.
+
+
+
+
+                                               4
+Nazwa projektu                                                     Data sporządzenia
+Projekt ustawy o zmianie ustawy – Kodeks spółek handlowych oraz 01.06.2026 r.
+ustawy o zmianie ustawy – Kodeks spółek handlowych oraz niektórych
+innych ustaw                                                       Źródło:
+                                                                   Inicjatywa własna
+Ministerstwo wiodące i ministerstwa współpracujące                 Deregulacja
+Ministerstwo Sprawiedliwości
+                                                                   Nr w Wykazie prac legislacyjnych
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza      i programowych Rady Ministrów:
+Stanu lub Podsekretarza Stanu                                      UDER98
+pod względem legislacyjnym i merytorycznym:
+Arkadiusz Myrcha, Sekretarz Stanu w Ministerstwie Sprawiedliwości
+Kontakt do opiekuna merytorycznego projektu
+opiekun legislacyjny:
+Łukasz Paszka, Zastępca Dyrektora Departamentu Legislacyjnego
+e-mail: sekretariat.dl@ms.gov.pl; tel. 22 52 12 764
+Tomasz Ulak, Główny Specjalista ds. Legislacji, Departament
+Legislacyjny
+e-mail: Tomasz.Ulak@ms.gov.pl; tel. 734 116 283
+opiekun merytoryczny:
+Przemysław Wołowski, Zastępca Dyrektora Departamentu Prawa
+Cywilnego i Gospodarczego
+email: sekretariat.dpcig@ms.gov.pl; tel. 22 52 12 423
+                                      OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Niniejszy projekt wprowadza zmiany w ustawie z dnia 15 września 2000 r. – Kodeks spółek handlowych1) (dalej KSH).
+Jego celem jest zmniejszenie formalizmu w spółce z ograniczoną odpowiedzialnością i dostosowanie regulacji KSH do
+standardów cyfrowych.
+Aktualnie w ramach art. 238 § 1 KSH nałożony jest na wspólników wymóg wyrażenia pisemnej zgody na doręczanie
+zawiadomień o zwołaniu zgromadzeń wspólników spółki z ograniczoną odpowiedzialnością na adres do doręczeń
+elektronicznych albo pocztą elektroniczną. Regulacja, choć dopuszcza alternatywne metody doręczania, w praktyce
+okazuje się źródłem zbędnych trudności formalnych, zmusza bowiem wspólnika do składania odrębnego dokumentu
+z własnoręcznym podpisem lub podpisem kwalifikowanym.
+Podobny obowiązek wynika z art. 243 § 2 KSH i dotyczy formy pełnomocnictwa do uczestnictwa w zgromadzeniu
+wspólników spółki z ograniczoną odpowiedzialnością, które musi być udzielone na piśmie pod rygorem nieważności.
+Obecnie komunikacja między wspólnikami, jak i samo odbywanie zgromadzeń w spółkach kapitałowych coraz częściej
+przybiera formę zdalną. Tak więc tradycyjny wymóg formy pisemnej, rozumianej jako dokument opatrzony
+własnoręcznym podpisem lub kwalifikowanym podpisem elektronicznym, okazuje się w praktyce zbyt rygorystyczny,
+nieprzystający do potrzeb rynku.
+Z uwagi na to, że wskazane wyżej rozwiązania generują nieuzasadnione koszty i bariery, szczególnie dla wspólników
+zagranicznych, zasadnym wydaje się wprowadzenie zmian, które umożliwią stosowanie formy dokumentowej, w tym
+komunikacji elektronicznej, co będzie adekwatne do obowiązujących realiów obrotu (np.: skan oryginalnego dokumentu
+stanowi formę dokumentową). Warto podkreślić, że w sytuacji, gdy dokumentacja korporacyjna jest w zasadzie całkowicie
+zdigitalizowana, nie znajduje uzasadnienia gromadzenie dokumentacji tradycyjnej.
+Nie ma możliwości podjęcia alternatywnych, w stosunku do projektowanej ustawy, środków umożliwiających osiągnięcie
+zamierzonego celu.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji i oczekiwany efekt
+Wobec kwestii przedstawionych w pkt 1 OSR, proponuje się zmianę brzmienia art. 238 § 1 KSH, która zastąpi wymóg
+wyrażenia przez wspólnika pisemnej zgody na doręczanie zawiadomień o zgromadzeniu wspólników drogą
+elektroniczną, zgodą wyrażoną w formie dokumentowej. Projektowany przepis przewiduje, że zgromadzenie wspólników
+zwołuje się za pomocą listów poleconych lub przesyłek nadanych pocztą kurierską, wysłanych co najmniej dwa tygodnie
+
+
+1)
+     Dz. U. z 2024 r. poz. 18 i 96 oraz z 2026 r. poz. 176, 187 i 644.
+przed terminem zgromadzenia wspólników. Zamiast listu poleconego lub przesyłki nadanej pocztą kurierską, zawiadomienie
+może być wysłane wspólnikowi na adres do doręczeń elektronicznych albo pocztą elektroniczną, jeżeli uprzednio wyraził na
+to zgodę w formie dokumentowej, podając adres, na który zawiadomienie powinno być wysłane. Przekształcenie zgody
+wyrażonej w formie pisemnej na zgodę dokumentową umożliwi realizację jej funkcji w sposób szybszy, prostszy i lepiej
+dostosowany do realiów cyfrowych, przy jednoczesnym zachowaniu istotnego elementu jakim jest identyfikacja osoby
+składającej oświadczenie. Warto zauważyć, że zgoda na doręczenia elektroniczne jest zazwyczaj udzielana raz, na początku
+relacji ze spółką i obowiązuje przez dłuższy czas, tak więc ryzyko nadużyć w tym zakresie wydaje się niewielkie. Wymaga
+podkreślenia, że w zmienianym art. 238 § 1 KSH przewidziano, iż umowa spółki może przewidywać surowsze warunki
+udzielenia zgody.
+Natomiast proponowana zmiana art. 243 § 2 KSH umożliwi wprowadzenie w ramach umowy spółki z ograniczoną
+odpowiedzialnością zapisu pozwalającego na udzielanie pełnomocnictwa do udziału w zgromadzeniu wspólników
+w formie surowszej niż dokumentowa.
+Rozwiązanie to stanowi odpowiedź na praktyczne trudności, jakie napotykają wspólnicy chcący udzielić pełnomocnictwa
+zdalnie, bez konieczności fizycznego podpisu.
+Wskazana zmiana oznacza odejście od formy bardziej rygorystycznej na rzecz rozwiązania bardziej elastycznego, przy
+jednoczesnym zachowaniu możliwości zastrzeżenia przez wspólników w umowie spółki wymogów surowszych.
+Z perspektywy bezpieczeństwa obrotu prawnego oznacza to, że poziom ochrony nie jest już w pierwszej kolejności
+determinowany przez ustawowy rygor formalny, lecz w większym stopniu kształtowany jest przez decyzje wspólników oraz
+przyjęte rozwiązania korporacyjne. Wspólnicy zachowują bowiem możliwość dostosowania wymogów dotyczących formy
+pełnomocnictwa do uwarunkowań danej spółki, w tym utrzymania formy pisemnej lub wprowadzenia dodatkowych
+warunków identyfikacyjnych. Jednocześnie stosowanie formy dokumentowej jako rozwiązania pozbawionego mechanizmów
+identyfikacyjnych właściwych dla formy pisemnej może w praktyce wymagać wdrożenia przez spółki odpowiednich
+procedur weryfikacji umocowania pełnomocników, w szczególności w zakresie potwierdzania tożsamości mocodawcy oraz
+autentyczności dokumentu. Regulacja ta może zatem skutkować koniecznością dostosowania praktyki organizacyjnej spółek,
+przy czym zakres tych działań będzie zależny od decyzji wspólników oraz przyjętego modelu ładu korporacyjnego. Natomiast
+możliwość przewidzenia w umowie spółki surowszych wymogów dotyczących formy pełnomocnictwa pełni funkcję
+mechanizmu zabezpieczającego, pozwalającego na ograniczenie potencjalnych ryzyk w przypadkach, w których wspólnicy
+uznają to za uzasadnione. W rezultacie wpływ projektowanej regulacji na bezpieczeństwo obrotu prawnego jest
+zróżnicowany, przy czym projekt wprowadza rozwiązania umożliwiające jego dostosowanie do potrzeb uczestników obrotu.
+
+Trzeba mieć jednak na uwadze, że zmiana ta wiąże się z określonymi ryzykami praktycznymi dla spółek oraz wspólników
+lub akcjonariuszy, wynikającymi z niższego stopnia sformalizowania tej formy w porównaniu z formą pisemną opatrzoną
+podpisem własnoręcznym. Forma dokumentowa, choć w pełni dopuszczalna na gruncie prawa cywilnego i adekwatna do
+obrotu elektronicznego, nie zawiera sama w sobie mechanizmów pozwalających na jednoznaczną identyfikację osoby
+składającej oświadczenie woli, co może w praktyce zwiększać podatność na posługiwanie się dokumentami
+nieautoryzowanymi, zmodyfikowanymi lub sporządzonymi przez osoby trzecie bez wiedzy wspólnika. Ryzyko to dotyczy w
+szczególności sytuacji, w których pełnomocnictwo przekazywane jest przy wykorzystaniu środków komunikacji
+elektronicznej (np. poczty elektronicznej lub skanów dokumentów), gdzie istnieje możliwość podszywania się pod wspólnika
+lub wykorzystania danych identyfikacyjnych bez jego zgody. W konsekwencji po stronie spółek powstaje potrzeba
+stosowania dodatkowych mechanizmów weryfikacyjnych, które pozwolą ograniczyć ryzyko dopuszczenia do udziału w
+zgromadzeniu osoby nieuprawnionej. W praktyce mogą to być w szczególności: przyjmowanie pełnomocnictw wyłącznie z
+adresów komunikacji uprzednio wskazanych spółce, potwierdzanie udzielenia pełnomocnictwa poprzez kontakt zwrotny ze
+wspólnikiem, weryfikacja danych identyfikacyjnych pełnomocnika, a także stosowanie środków uwierzytelnienia
+elektronicznego, takich jak podpis kwalifikowany lub podpis zaufany. Wdrożenie takich rozwiązań może wiązać się z
+dodatkowymi obowiązkami organizacyjnymi lub ewentualnymi kosztami po stronie spółek, jednak pozwala na ograniczenie
+ryzyk wynikających ze stosowania formy dokumentowej. Jednocześnie należy podkreślić, że możliwość zastrzeżenia w
+umowie spółki surowszych wymogów co do formy pełnomocnictwa stanowi mechanizm pozwalający na dostosowanie
+poziomu bezpieczeństwa do potrzeb danej spółki. Oznacza to, że wpływ projektowanej regulacji na ryzyko wykorzystania
+sfałszowanych lub nieautoryzowanych dokumentów, w praktyce będzie zależny od przyjętych rozwiązań korporacyjnych
+oraz stosowanych procedur weryfikacyjnych.
+Zmiana art. 30095 § 2 KSH ma na celu zapewnienie spójności kodeksowej regulacji wykonywania praw udziałowych
+przez pełnomocnika w spółkach kapitałowych niepublicznych oraz utrzymanie deregulacyjnego charakteru
+
+                                                          2
+projektowanych rozwiązań. Wprowadzenie formy dokumentowej jako podstawowego standardu udzielenia
+pełnomocnictwa odpowiada utrwalonej praktyce obrotu, w której oświadczenia korporacyjne są składane i archiwizowane w
+postaci elektronicznej, a weryfikacja ich pochodzenia następuje przy wykorzystaniu środków komunikacji na odległość.
+Ponadto w art. 2 przewidziano zmianę w ustawie z dnia 23 stycznia 2026 r. o zmianie ustawy – Kodeks spółek handlowych
+oraz niektórych innych ustaw (Dz. U. poz. 176) poprzez zastąpienie w tej ustawie w art. 1 w pkt 27 w lit. a oraz w lit. b
+wyrazów „art. 32813 § 1” wyrazami „art. 3285 § 3”. Zmiany te mają charakter porządkujący i zmierzają do usunięcia błędnego
+odwołania.
+Wprowadza się także przepisy przejściowe, zgodnie z którymi:
+     1) do zgód, o których mowa w art. 238 § 1 ustawy zmienianej w art. 1, wysłanych wspólnikowi przed dniem wejścia w
+        życie niniejszej ustawy, stosuje się przepisy dotychczasowe;
+     2) do pełnomocnictw, o których mowa w art. 243 § 2 oraz art. 300⁹⁵ § 2 ustawy zmienianej w art. 1, udzielonych przed
+        dniem wejścia w życie niniejszej ustawy, stosuje się przepisy dotychczasowe.
+Podkreślić należy, że propozycja zmiany była przedmiotem analiz deregulacyjnych i rekomendacji środowisk prawniczych
+i biznesowych (m.in. w ramach formularzy oceny propozycji deregulacyjnych). Spotkała się z pozytywną oceną jako działanie
+upraszczające prawo spółek i zmniejszające obciążenia dla przedsiębiorców.
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Projektowane rozwiązania ze względu na stopień szczegółowości nie były poddawane analizie prawnoporównawczej.
+4. Podmioty, na które oddziałuje projekt
+       Grupa               Wielkość           Źródło danych                           Oddziaływanie
+Spółki z                   633 618           Baza firm i osób2)    Uproszczenie procedur w spółkach z ograniczoną
+ograniczoną                                    (dostęp dnia        odpowiedzialnością, poprzez:
+odpowiedzialnością                             16.04.2026)         − zastąpienie wymogu pisemnej zgody wspólnika na
+                                                                      doręczanie zawiadomień zgodą wyrażoną w formie
+                                                                      dokumentowej;
+                                                                   − możliwość wprowadzenia w umowie spółki zapisu
+                                                                      dopuszczającego pełnomocnictwo w formie
+                                                                      dokumentowej;
+                                                                   − obowiązek podejmowania działań
+                                                                      identyfikacyjnych przez spółkę w celu weryfikacji
+                                                                      ważności pełnomocnictwa;
+Proste spółki                4160            Baza firm i osób3)    − wprowadzenie formy dokumentowej jako
+akcyjne                                        (dostęp dnia           podstawowego standardu udzielenia
+                                               16.04.2026)            pełnomocnictwa.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Zgodnie z ustawą z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677
+oraz z 2026 r. poz. 160), a także mając na uwadze § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. –
+Regulamin pracy Rady Ministrów (M.P. z 2026 r. poz. 404), projekt ustawy został udostępniony w Biuletynie Informacji
+Publicznej na stronie podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces Legislacyjny. W trybie art. 7
+ww. ustawy nie wpłynęły zgłoszenia zainteresowania pracami nad ww. projektem ustawy.
+Skierowano projekt do konsultacji publicznych na 14 dni do organizacji, takich jak:
+1. Naczelna Rada Adwokacka,
+2. Krajowa Izba Radców Prawnych,
+3. Krajowa Rada Notarialna,
+4. Stowarzyszenie Sędziów Polskich „Iustitia”,
+
+2)
+     https://www.bnf.pl/katalog/baza/baza-spolek-z-ograniczona-
+     odpowiedzialnoscia#:~:text=Baza%20z%20aktualnymi%20danymi%20aktywnych%20polskich%20sp%C3%B3%C5%82ek%
+     20z,odpowiedzialno%C5%9Bci%C4%85%20zawiera%20aktualne%20dane%20616%20458%20podmiot%C3%B3w%20gosp
+     odarczych
+3)
+     https://baza.mgbi.pl/nowa-baza
+                                                           3
+5. Stowarzyszenie Sędziów „Themis”,
+6. Porozumienie Samorządów Zawodowych i Stowarzyszeń Prawniczych,
+7. Polski Związek Pracodawców Prawniczych,
+8. Ogólnopolskie Stowarzyszenie Referendarzy Sądowych,
+9. Stowarzyszenia Referendarzy Sądowych Lex Iusta,
+10. Business Centre Club,
+11. Federacja Przedsiębiorców Polskich,
+12. Krajowa Izba Gospodarcza,
+13. Konfederacja Lewiatan,
+14. Naczelna Rada Zrzeszeń Handlu i Usług. Organizacja Samorządu Małych i Średnich Przedsiębiorstw,
+15. Polskie Towarzystwo Gospodarcze,
+16. Pracodawcy Rzeczypospolitej Polskiej,
+17. Związek Przedsiębiorców i Pracodawców,
+18. Związek Rzemiosła Polskiego,
+19. Instytut Allerhanda,
+20. Fundacja na Rzecz Bezpiecznego Obrotu Prawnego.
+Omówienie wyników konsultacji publicznych i opiniowania zawarto w załączonym raporcie z konsultacji i opiniowania.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2026 r.)                                  Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                     0      1       2        3        4   5      6       7    8       9    10       Łącznie (0–10)
+Dochody ogółem                       0      0       0        0        0   0      0       0    0       0    0              0
+budżet państwa                       0      0       0        0        0   0      0       0    0       0    0              0
+JST                                  0      0       0        0        0   0      0       0    0       0    0              0
+pozostałe jednostki (oddzielnie)     0      0       0        0        0   0      0       0    0       0    0              0
+Wydatki ogółem                       0      0       0        0        0   0      0       0    0       0    0              0
+budżet państwa                       0      0       0        0        0   0      0       0    0       0    0              0
+JST                                  0      0       0        0        0   0      0       0    0       0    0              0
+pozostałe jednostki (oddzielnie)     0      0       0        0        0   0      0       0    0       0    0              0
+Saldo ogółem                         0      0       0        0        0   0      0       0    0       0    0              0
+budżet państwa                       0      0       0        0        0   0      0       0    0       0    0              0
+JST                                  0      0       0        0        0   0      0       0    0       0    0              0
+pozostałe jednostki (oddzielnie)     0      0       0        0        0   0      0       0    0       0    0              0
+                          Projektowana zmiana nie wywoła skutków finansowych dla budżetu państwa i jednostek samorządu
+Źródła finansowania
+                          terytorialnego.
+Dodatkowe informacje,
+w tym wskazanie
+źródeł danych i           Nie dotyczy.
+przyjętych do obliczeń
+założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                                 Skutki
+Czas w latach od wejścia w życie zmian          0                1        2          3            5        10       Łącznie (0–10)
+W ujęciu          duże przedsiębiorstwa
+pieniężnym        sektor mikro-, małych i
+(w mln zł,        średnich
+ceny stałe z      przedsiębiorstw
+2026 r.)          rodzina, obywatele oraz
+                  gospodarstwa domowe
+                  duże przedsiębiorstwa
+                                                                  4
+W ujęciu            sektor mikro-, małych i    Projektowana regulacja będzie miała korzystny wpływ na sytuację przedsiębiorców,
+niepieniężnym       średnich                   w szczególności spółek z ograniczoną odpowiedzialnością, które dominują w
+                    przedsiębiorstw            sektorze MŚP. Konsekwencją wprowadzonych zmian będzie uproszczenie i
+                                               obniżenie kosztów procedur, ich odformalizowanie, a tym samym usprawnienie
+                                               obrotu korporacyjnego, zwłaszcza w kontekście komunikacji elektronicznej i
+                                               zdalnego uczestnictwa w zgromadzeniach wspólników.
+                                               Zmiany będą również pozytywnie wpływały na konkurencyjność przedsiębiorców,
+                                               umożliwiając im szybsze i bardziej elastyczne działanie, bez zbędnych barier
+                                               formalnych. Dodatkowo projekt przyczyni się do ujednolicenia przepisów Kodeksu
+                                               spółek handlowych z innymi regulacjami dopuszczającymi formę dokumentową, co
+                                               poprawi czytelność prawa i wyrówna sytuację prawną podmiotów funkcjonujących
+                                               w różnych formach organizacyjnych.
+                   rodzina, obywatele oraz
+                                               Brak wpływu.
+                   gospodarstwa domowe
+Niemierzalne       rodzina, obywatele oraz
+                   gospodarstwa domowe,
+                   w szczególności osoby       Brak wpływu.
+                   z niepełnosprawnością
+                   i starsze
+Dodatkowe informacje,
+w tym wskazanie             Wejście w życie ustawy nie będzie miało negatywnego wpływu na konkurencyjność gospodarki
+źródeł danych i             i przedsiębiorczość, w tym na funkcjonowanie przedsiębiorstw, jak również nie będzie miało
+przyjętych do obliczeń negatywnego wpływu na sytuację i rozwój regionalny.
+założeń
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie                        tak
+wymaganymi przez UE (szczegóły w odwróconej                        nie
+tabeli zgodności).                                                 nie dotyczy
+     zmniejszenie liczby dokumentów                                zwiększenie liczby dokumentów
+     zmniejszenie liczby procedur                                  zwiększenie liczby procedur
+     skrócenie czasu na załatwienie sprawy                         wydłużenie czasu na załatwienie sprawy
+     inne: uproszczenie procedur                                   inne:
+Wprowadzane obciążenia są przystosowane do ich                     tak
+elektronizacji.                                                    nie
+                                                                   nie dotyczy
+Komentarz:
+Projekt będzie miał korzystny wpływ na skrócenie czasu załatwienia sprawy oraz uproszczenie procedur w spółkach
+z ograniczoną odpowiedzialnością. Wynika to z:
+    − zastąpienia wymogu wyrażenia przez wspólnika pisemnej zgody na doręczanie zawiadomień o zgromadzeniu
+        wspólników drogą elektroniczną, zgodą wyrażoną w formie dokumentowej;
+    − umożliwienia wprowadzenia w ramach umowy spółki zapisu pozwalającego na udzielanie pełnomocnictwa do
+        udziału w zgromadzeniu wspólników w formie dokumentowej.
+Oświadczenie woli w postaci dokumentu uregulowane w art. 77² ustawy z dnia 23 kwietnia 1964 r. – Kodeks cywilny4),
+pozwala na złożenie oświadczenia w dowolnej utrwalonej postaci (np. e-mail, plik PDF), o ile możliwa jest identyfikacja
+osoby, która je złożyła. Nie będzie już zatem wymagane składanie dodatkowych dokumentów opatrzonych własnoręcznym
+podpisem lub kwalifikowanym podpisem elektronicznym.
+Możliwość wyrażania zgody w formie dokumentowej ograniczy ponadto konieczność gromadzenia dokumentacji w formie
+tradycyjnej i przyczyni się do elektronizacji procedur.
+
+
+
+4)
+     Dz. U. z 2025 r. poz. 1071, z późn. zm.
+                                                               5
+9. Wpływ na rynek pracy
+Projektowana regulacja nie będzie miała wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+   środowisko naturalne                     demografia                               informatyzacja
+   sytuacja i rozwój regionalny             mienie państwowe                         zdrowie
+   sądy powszechne, administracyjne         inne:
+lub wojskowe
+Omówienie wpływu         Projekt nie będzie oddziaływał na pozostałe obszary.
+11. Planowane wykonanie przepisów aktu prawnego
+Przewiduje się, że ustawa wejdzie w życie po upływie 30 dni od dnia ogłoszenia, z wyjątkiem art. 2, który wejdzie w życie z
+dniem 18 lutego 2027 r.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Efekty wejścia w życie projektowanych rozwiązań będą natychmiastowe i nie wymagają pomiaru.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                            6
+      Raport z konsultacji publicznych i opiniowania projektu ustawy o zmianie ustawy
+Kodeks spółek handlowych (UDER98)1
+
+
+    I.      Zakres konsultacji publicznych i opiniowania:
+        W ramach konsultacji publicznych projekt przekazano w dniu 17 grudnia 2025 r. na 14
+    dni do: Naczelnej Rady Adwokackiej, Krajowej Izby Radców Prawnych, Krajowej Rady
+    Notarialnej, Stowarzyszenia Sędziów Polskich „Iustitia”, Stowarzyszenia Sędziów
+    „Themis”, Porozumienia Samorządów Zawodowych i Stowarzyszeń Prawniczych, Polskiego
+    Związku Pracodawców Prawniczych, Ogólnopolskiego Stowarzyszenia Referendarzy
+    Sądowych, Stowarzyszenia Referendarzy Sądowych Lex Iusta, Business Centre Club,
+    Federacji Przedsiębiorców Polskich, Krajowej Izby Gospodarczej, Konfederacji Lewiatan,
+    Naczelnej Rady Zrzeszeń Handlu i Usług. Organizacji Samorządu Małych i Średnich
+    Przedsiębiorstw, Polskiego Towarzystwa Gospodarczego, Pracodawców Rzeczypospolitej
+    Polskiej, Związku Przedsiębiorców i Pracodawców, Związku Rzemiosła Polskiego, Instytutu
+    Allerhanda oraz do Fundacji na Rzecz Bezpiecznego Obrotu Prawnego.
+        W ramach opiniowania projekt został przesłany w dniu 17 grudnia 2025 r. na 14 dni do:
+    Prezesa Urzędu Ochrony Danych Osobowych, Pierwszego Prezesa Sądu Najwyższego,
+    Krajowej Rady Sądownictwa, Prezesa Prokuratorii Generalnej RP, Rzecznika Małych
+    i Średnich Przedsiębiorców oraz do prezesów wszystkich sądów apelacyjnych.
+        Projekt został zamieszczony na stronie podmiotowej Biuletynu Informacji Publicznej
+    Rządowego Centrum Legislacji, stosownie do art. 5 ustawy z dnia 7 lipca 2005 r. o
+    działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2025 r. poz. 677 oraz z
+    2026 r. poz. 160). W trybie art. 7 ww. ustawy nie wpłynęły zgłoszenia zainteresowania
+    pracami nad ww. projektem ustawy.
+       Projekt nie podlegał przedstawieniu właściwym instytucjom i organom Unii
+    Europejskiej, o których mowa w § 27 ust. 4 uchwały nr 190 Rady Ministrów z dnia
+    29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2026 r. poz. 404).
+    II.     Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania:
+      W ramach konsultacji publicznych uwagi do projektu ustawy zostały zgłoszone przez
+Krajową Radę Radców Prawnych, Krajową Radę Notarialną oraz Business Centre Club.
+       Natomiast w ramach opiniowania uwagi zostały zgłoszone przez Sąd Najwyższy,
+Rzecznika Małych i Średnich Przedsiębiorców, Prezesa Urzędu Ochrony Danych Osobowych
+oraz Prezesa Sądu Apelacyjnego w Katowicach i w Warszawie.
+        Część uwag została uwzględniona. Pozostałe zostały wyjaśnione (sposób odniesienia
+został przedstawiony w załączonym zestawieniu uwag z konsultacji publicznych i opiniowania).
+
+
+
+
+1
+ Aktualny tytuł: projekt ustawy o zmianie ustawy – Kodeks spółek handlowych oraz ustawy o zmianie ustawy –
+Kodeks spółek handlowych oraz niektórych innych ustaw
+                                                                                                                                    Warszawa, dn. 20 lutego 2026 r.
+                                      Zestawienie uwag zgłoszonych w trakcie konsultacji publicznych i opiniowania
+                                        do projektu ustawy o zmianie ustawy – Kodeks spółek handlowych (UDER98)1
+
+
+
+            Lp.       Podmiot                 Uwaga             Treść uwagi                                                       Stanowisko MS
+                      zgłaszający             dotyczy
+                      uwagi
+
+              1.      Sąd Najwyższy           Uwaga             Potrzeba całościowego podejścia do kwestii formy                  Uwaga
+                                              ogólna            oświadczeń wspólnika składanego poszczególnym                     nieuwzględniona.
+                                                                spółkom - wzmianka
+                                                                1. Na marginesie uwag dotyczących przedmiotowego                  Uwaga dotycząca
+                                                                projektu trzeba zwrócić uwagę na kwestię zasadniczą,              potrzeby całościowego
+                                                                jaką jest potrzeba kompleksowego i niekazuistycznego              podejścia do kwestii
+                                                                podejścia do zmian w kodeksach, w tym KSH. Częste                 formy oświadczeń
+                                                                i wycinkowe zmiany z istoty zagrażają bowiem                      wspólnika składanych
+                                                                stabilności systemu prawa oraz, jak pokazują                      poszczególnym spółkom
+                                                                doświadczenia ostatnich dekad, skutkować mogą                     zasługuje na
+                                                                niespójnością wewnątrz danego aktu normatywnego                   uwzględnienie co do
+                                                                (np. odnośnie do regulacji podobnych w istocie                    kierunku. Należy jednak
+                                                                kwestii, ale dotyczących różnych spółek, spośród                  zauważyć, że
+                                                                których tylko niektóre są przez ustawodawcę                       przedmiotowy projekt ma
+                                                                obejmowane nowymi rozwiązaniami).                                 charakter deregulacyjny i
+                                                                2. Z tej perspektywy trzeba zwrócić uwagę, że w                   punktowy, a jego celem
+                                                                przedmiotowym projekcie zawarto unormowanie                       jest uproszczenie
+                                                                wycinkowe, które nie jest w pełni spójne                          funkcjonowania spółki z
+                                                                rozwiązaniem podobnych kwestii dotyczących                        ograniczoną
+                                                                wspólników spółek innych niż spółka z o.o.                        odpowiedzialnością jako
+                                                                Projektowane rozwiązanie dotyczące pełnomocnictwa                 najczęściej
+                                                                jest częściowo (ale nie całkowicie z uwagi na inny                wykorzystywanej w
+                                                                rygor niezachowania formy) podobne do nowego                      obrocie formy
+1 Aktualny tytuł: projekt ustawy o zmianie ustawy – Kodeks spółek handlowych oraz ustawy o zmianie ustawy – Kodeks spółek handlowych oraz niektórych innych ustaw
+rozwiązania kodeksowego dotyczącego prostej             prowadzenia działalności
+(uproszczonej) spółki akcyjnej. Ponieważ                gospodarczej.
+projektowane unormowanie nie jest podobne do            Rozszerzenie zakresu
+rozwiązań dotyczących innych spółek, wejście w życie    nowelizacji na pozostałe
+projektu nie będzie oznaczać ujednolicenia              typy spółek prowadziłoby
+kodeksowej regulacji przedmiotowych kwestii. Brak       do istotnego poszerzenia
+przy tym wyjaśnienia zawężonej perspektywy              materii projektu oraz
+projektodawcy, która obejmuje tylko spółkę z o.o. Być   nadania mu charakteru
+może wynika to z okoliczności powiązania                kompleksowej reformy
+przedmiotowego projektu z szerszymi działaniami         kodeksowej.
+rządowymi na rzecz deregulacji, w których jako          Mając     na    względzie
+najistotniejszą gospodarczo wskazano ten rodzaj         systemowy        charakter
+spółki. Takie podejście, uzasadnione ekonomicznie,      sygnalizowanego
+nie powinno jednak przesądzać o ograniczonym            zagadnienia, uwagi Sądu
+postrzeganiu kodeksu jako takiego, a raczej stanowić    Najwyższego         zostały
+punkt wyjścia do kompleksowej oceny jego                przekazane         Komisji
+postanowień, w tym dotyczących podobnych                Kodyfikacyjnej       Prawa
+problemów w funkcjonowaniu innych rodzajów              Cywilnego, której Zespół
+spółek.                                                 ds. prawa handlowego
+3. Podobne praktyczne problemy, które projektodawca     prowadzi           obecnie
+stara się zniwelować w obrocie gospodarczym z           przegląd          regulacji
+udziałem spółki z o.o., dotyczyć mogą spółek            Kodeksu              spółek
+osobowych i spółek akcyjnych, które po wejściu w        handlowych      w      celu
+życie projektu będą regulowane w sposób odmienny        identyfikacji    obszarów
+od spółki z o.o. i prostej (uproszczonej) spółki        wymagających         zmian
+akcyjnej. Odnośnie do spółek osobowych trzeba           oraz          opracowania
+dodatkowo zauważyć, że problem braku kodeksowej         ewentualnych rozwiązań
+regulacji jest rozwiązywany przez przyjęcie, że         o              charakterze
+zagadnienie formy zawiadomień jest „poza                kompleksowym. Kwestia
+zainteresowaniem ustawodawcy”, co skutkuje              ujednolicenia     regulacji
+potrzebą regulacji w umowie spółki albo                 dotyczących          formy
+ukształtowania w drodze zwyczaju w danej spółce.        pełnomocnictw          oraz
+Zauważa się przy tym, że jeżeli w umowie spółki nie       komunikacji
+ma ustalonego trybu zaproszeń na zebranie                 korporacyjnej          w
+wspólników albo wcześniej nie było ustalonego             poszczególnych typach
+zwyczaju, to „nic nie stoi na przeszkodzie, aby w         spółek zostanie zatem
+zaproszeniu na zebranie wspólników znalazły się           poddana          dalszej,
+wymogi przewidziane dla spółek kapitałowych”, o           pogłębionej analizie w
+których była mowa wyżej (zob. A. Kidyba, A. Witosz,       ramach odrębnych prac
+Obowiązek zawiadomienia o planie, [w:] A. Kidyba,         kodyfikacyjnych.
+A. Witosz, Łączenie, podział i przekształcanie spółek
+handlowych, Warszawa 2010, pkt 2.3.2.7, Lex).
+Również z tych względów pożądane jest (i dla
+spójności wewnętrznej kodeksu i z perspektywy
+deregulacji rozumianej jako uproszczenie) rozważenie
+przez projektodawcę całościowej (kompleksowej)
+zmiany przepisów KSH również poza działem I tytułu
+III. W szczególności dotyczy to rozwiązań
+dotyczących spółki akcyjnej (art. 402 § 3 KSH), które
+mają zastosowanie też do spółki
+komandytowoakcyjnej (mocą odesłania w art. 126 § 1
+pkt 2 KSH), a ponadto spółki europejskiej, o której
+mowa w art. 53 rozporządzenia Rady (WE) nr
+2157/2001 z 8.102001 r. w sprawie statutu spółki
+europejskiej (SE) (Dz. U. UE. L. z 2001 r. Nr 294, s. 1
+i in. ze zm.) oraz art. 15 i n. ustawy z dnia 4 marca
+2005 r. o europejskim zgrupowaniu interesów
+gospodarczych i spółce europejskiej (Dz. U. z 2022 r.
+poz. 259, z późn. zm.). Postulować trzeba, żeby
+projektodawca rozważył zbadanie czy problemy
+rozwiązywane przez niego drogą przedmiotowego
+projektu występują też na gruncie innych przepisów
+kodeksu (tj. innych rodzajów spółek) oraz w razie ich
+identyfikacji, rozważenie poszerzenia zakresu
+przedmiotowego projektu celem ich jednoczesnego
+rozwiązania.
+4. Przy okazji ewentualnej kompleksowej nowelizacji
+kodeksu warto by również rozważyć rozwiązanie,
+powiązanych z materią projektu, problemu braku
+spójności między kodeksowymi przepisami
+dotyczącymi przedmiotowych kwestii, w tym zakresu
+zastosowania zgody wspólnika. Na tle obecnego,
+niejednoznacznego brzmienia art. 238 § 1 KSH w
+piśmiennictwie przyjmuje się, że taka zgoda
+wspólnika spółki z o.o. dotyczy zarówno kierowania
+korespondencji na adres do doręczeń elektronicznych,
+jak i na wskazany adres poczty elektronicznej.
+Natomiast z art. 402 § 3 KSH, który odnosi się też do
+spółki komandytowo-akcyjnej (mocą odesłania w art.
+126 § 1 pkt 2 KSH), wyraźnie wynika, że w spółce
+akcyjnej zgoda akcjonariusza dotyczy wysyłania
+zawiadomień tylko na wskazany przez niego inny
+adres poczty elektronicznej (inny niż ewentualnie
+widniejący w rejestrze akcjonariuszy), a nie jest ona
+potrzebna do kierowania przedmiotowej
+korespondencji na adres do doręczeń elektronicznych.
+5. Warto by też rozważyć ujednolicenie unormowania
+rygoru niedochowania formy, tj. zastrzeżenia rygoru
+nieważności (a tym samym daleko idących skutków, o
+których mowa w art. 73 k.c.) lub braku takiego rygoru
+odnośnie do formy udzielenia przez wspólnika
+pełnomocnictwa w poszczególnych spółkach.
+Projektowany art. 243 § 2 KSH nie zawiera takiego
+rygoru dla pełnomocnictwa wspólnika spółki z o.o.,
+natomiast jest on przewidziany (odpowiednio do
+formy dokumentowej oraz formy pisemnej) w art. 300
+                                 [95] § 2 KSH, dotyczącym prostej (uproszczonej)
+                                 spółki akcyjnej, oraz w art. 412[1] § 1 k KSH,
+                                 dotyczącym spółki akcyjnej.
+2.   Krajowa Izba   Uwagi        Wady i ryzyka projektu. Mimo licznych zalet, projekt       Uwaga
+     Radców         ogólne/OSR   budzi również poważne wątpliwości. Kluczową                nieuwzględniona.
+     Prawnych                    kwestią jest bezpieczeństwo obrotu prawnego. W
+                                 dobie zaawansowanych narzędzi graficznych,                 Zastrzeżenie rygoru
+                                 stworzenie przekonującego skanu dokumentu z                nieważności dla formy
+                                 podpisem nie stanowi większego problemu                    dokumentowej
+                                 technicznego. Ryzyko to jest szczególnie istotne w         pełnomocnictwa nie
+                                 kontekście pełnomocnictw do uczestnictwa w                 znajduje dostatecznego
+                                 zgromadzeniach wspólników. Sfałszowanie                    uzasadnienia w potrzebie
+                                 pełnomocnictwa w formie dokumentowej i                     ochrony bezpieczeństwa
+                                 dopuszczenie na zgromadzenie “pełnomocnika”                obrotu korporacyjnego.
+                                 działającego na podstawie takiego dokumentu może           Pełnomocnictwo do
+                                 doprowadzić do podjęcia uchwał, które następnie będą       udziału w zgromadzeniu
+                                 kwestionowane w długotrwałych postępowaniach               wspólników ma charakter
+                                 sądowych. Projektodawca niejako jest świadomy tych         wyłącznie fakultatywny i
+                                 ryzyk i próbuje im przeciwdziałać poprzez                  służy jedynie ułatwieniu
+                                 wprowadzenie obowiązku podejmowania przez spółkę           wykonywania praw
+                                 “odpowiednich, proporcjonalnych do celu działań            udziałowych przez
+                                 służących identyfikacji”. Problem polega jednak na         wspólnika, nie zaś
+                                 tym, że jest to klauzula generalna, która nie precyzuje,   zapewnieniu
+                                 jakie konkretnie działania spółka powinna podjąć. W        prawidłowości samej
+                                 praktyce oznacza to, że spółki będą musiały same           procedury podejmowania
+                                 wypracować procedury weryfikacyjne, co może                uchwał. Wspólnik może
+                                 prowadzić do znacznych rozbieżności w standardach          bowiem uczestniczyć w
+                                 stosowanych przez różne podmioty.                          zgromadzeniu osobiście,
+                                 Ocena skutków regulacji zawiera wprawdzie                  a brak pełnomocnictwa
+                                 przykładowe środki weryfikacyjne – takie jak               nie wpływa na ważność
+                                 okazanie oryginału pełnomocnictwa przy                     obrad ani skuteczność
+                                 sporządzaniu listy obecności, przedstawienie               podejmowanych
+dokumentu tożsamości przez pełnomocnika,              czynności. W sytuacji
+dołączenie kopii odpisu z KRS czy dokumentów          niezachowania formy
+potwierdzających własność udziałów – ale są to        dokumentowej ciężar
+jedynie sugestie, nie wiążące wymogi prawne. Brak     wykazania istnienia
+jasnych standardów może prowadzić do niepewności      umocowania obciąża
+prawnej i sporów sądowych.                            pełnomocnika
+Szczególnie problematyczna jest sytuacja, gdy         (mocodawcę), co w
+pełnomocnictwo jest przesyłane elektronicznie         praktyce prowadzi do
+bezpośrednio przed zgromadzeniem lub gdy              konieczności
+zgromadzenie odbywa się w trybie całkowicie           posługiwania się
+zdalnym. W takich przypadkach weryfikacja             dokumentem
+autentyczności dokumentu i tożsamości mocodawcy       umożliwiającym
+jest znacznie trudniejsza niż w sytuacji, gdy         jednoznaczną
+pełnomocnik stawia się osobiście i może okazać        identyfikację osoby
+oryginał dokumentu oraz swój dowód osobisty.          udzielającej
+Powyższe zagadnienie odpowiedniej weryfikacji         pełnomocnictwa.
+dokumentu pełnomocnictwa, osób wspólnika oraz         Ewentualne
+pełnomocnika nabiera szczególnego znaczenia przy      pełnomocnictwo ustne,
+uchwałach protokołowanych przez notariusza, w         choć teoretycznie
+szczególności w przypadku zmiany umowy spółki (art.   dopuszczalne na gruncie
+255 § 3 KSH).                                         ogólnych zasad prawa
+Istotne zastrzeżenie legislacyjne wywołuje brak       cywilnego, nie daje
+zastrzeżenia rygoru nieważności dla wprowadzanej      możliwości jego
+formy dokumentowej pełnomocnictwa, co ma miejsce      wiarygodnej weryfikacji i
+w porównywalnym rozwiązaniu z prostej spółki          z tego względu nie może
+akcyjnej (art. 300⁹⁵ § 2 KSH). Brak takiego rygoru    stanowić realnej
+oznaczałby obowiązywanie formy czynności prawnej      podstawy do
+dla celów dowodowych ad probationem (art. 74 KC),     dopuszczenia do udziału
+co nie byłoby pożądane z perspektywy                  w zgromadzeniu ani do
+bezpieczeństwa obrotu. Pożądanym jest wprowadzenie    wpisu na listę obecności.
+rygoru nieważności dla formy dokumentowej, co         Mechanizmy praktyki
+definitywnie wprowadzi wymóg przedstawienia           obrotu same zatem
+pełnomocnictwa w przepisanej formie.                    eliminują tego rodzaju
+Pewnym mankamentem projektu jest brak analizy           rozwiązania, bez potrzeby
+prawnoporównawczej. W ocenie skutków regulacji          sięgania po sankcję
+wprost stwierdzono, że “projektowane rozwiązania ze     nieważności.
+względu na stopień szczegółowości nie były              Wprowadzenie
+poddawane analizie prawnoporównawczej”. To              ustawowego rygoru
+podejście jest dyskusyjne. Forma pełnomocnictw          nieważności
+korporacyjnych i wymogi dotyczące doręczeń              prowadziłoby natomiast
+elektronicznych są regulowane w systemach prawnych      do nadmiernego
+wszystkich krajów Unii Europejskiej a analiza           formalizmu oraz do
+rozwiązań przyjętych w innych państwach                 nieproporcjonalnego
+członkowskich mogłaby dostarczyć cennych                zaostrzenia wymogów dla
+wskazówek, zarówno co do potencjalnych korzyści,        czynności o charakterze
+jak i ryzyk związanych z projektowanymi zmianami.       wyłącznie
+Szczególnie interesujące byłoby zbadanie, jak inne      wewnątrzkorporacyjnym.
+kraje radzą sobie z problemem weryfikacji               Pozostawałoby to w
+autentyczności dokumentów w formie elektronicznej i     sprzeczności z
+jakie wypracowały standardy należytej staranności dla   deregulacyjnym celem
+spółek. Takie porównanie mogłoby pomóc w                projektowanej
+sformułowaniu bardziej precyzyjnych wytycznych dla      nowelizacji, której
+polskich spółek i zmniejszyć ryzyko niepewności         założeniem jest
+prawnej.                                                uproszczenie i
+                                                        uelastycznienie procedur
+                                                        funkcjonowania spółki z
+                                                        ograniczoną
+                                                        odpowiedzialnością, przy
+                                                        jednoczesnym
+                                                        zachowaniu
+                                                        wystarczającego poziomu
+                                                        bezpieczeństwa
+                                                        prawnego.
+                                                        W odniesieniu natomiast
+do braku analizy prawno-
+porównawczej wskazać
+należy, że projektowana
+regulacja ma charakter
+punktowy i
+deregulacyjny, dotyczy
+wyłącznie formy
+czynności
+korporacyjnych w ramach
+prawa krajowego oraz nie
+jest przedmiotem
+harmonizacji prawa Unii
+Europejskiej. Forma
+dokumentowa stanowi
+konstrukcję prawa
+polskiego, której treść
+normatywna nie jest
+tożsama z rozwiązaniami
+przyjętymi w innych
+porządkach prawnych, co
+ogranicza praktyczną
+użyteczność analiz
+komparatystycznych. W
+ocenie projektodawcy
+zakres i charakter zmian
+nie uzasadniają
+prowadzenia
+pogłębionych badań
+porównawczych, które
+byłyby właściwe przede
+wszystkim dla reform
+systemowych lub
+                                                                                               kodyfikacyjnych, a nie
+                                                                                               dla zmian technicznych i
+                                                                                               upraszczających.
+3.   Sąd Najwyższy   proj. art. 238    Uwagi dotyczące szczególnego obowiązku działań          Uwaga uwzględniona.
+                     § 1 zd. 3         (staranności) spółki w kontekście zasad ogólnych
+                     KSH (art. 1       prawa prywatnego oraz regulacji podobnych kwestii w     Uwaga poddająca w
+                     pkt 1             funkcjonowaniu innych spółek.                           wątpliwość, czy
+                     projektu)         1. Wątpliwości rodzi natomiast projektowane dodanie     projektowane art. 238 § 1
+                     oraz proj. art.   zdania trzeciego w art. 238 § 1 KSH i art. 243 § 2      zd. 3 Kodeksu spółek
+                     243 § 2 zd. 3     KSH oraz ujęcie tych przepisów. Projektodawca           handlowych (art. 1 pkt 1
+                     KSH (art. 1       zakłada w nich uzupełnienie, omówionego wyżej,          projektu) oraz art. 243 § 2
+                     pkt 2             rozwiązania pozwalającego na korzystanie przez          zd. 3 (art. 1 pkt 2
+                     projektu)         wspólnika w relacjach ze spółką z o. o. formy           projektu) są potrzebne do
+                                       dokumentowej, o przepisy stanowiące o obowiązkach       realizacji ochronnego
+                                       podjęcia przez nią „odpowiednich, proporcjonalnych      celu, zakładanego przez
+                                       do celu, działań”, służących odpowiednio:               projektodawcę, skoro
+                                       „identyfikacji osoby składającej oświadczenie” (tj.     podwyższony standard
+                                       wspólnika, który wyraża w tej formie zgodę na           należytej staranności i
+                                       zawiadamianie go przez spółkę o zgromadzeniach          odpowiedzialności spółki
+                                       wspólników pocztą elektroniczną) oraz „identyfikacji    wynika już z
+                                       wspólnika i pełnomocnika w celu weryfikacji             obowiązujących
+                                       ważności pełnomocnictwa” (do uczestniczenia w           przepisów o charakterze
+                                       zgromadzeniu wspólników oraz wykonywania prawa          ogólnym, a definicyjną
+                                       głosu w imieniu wspólnika). 2. Co do zasady,            cechą formy
+                                       działalność spółki jako podmiotu korzystającego z       dokumentowej jest
+                                       dokumentów oraz odbiorcy oświadczeń (w tym              ustalenie tożsamości
+                                       pełnomocnictwa) powinna opierać się więc na             osoby składającej
+                                       ogólnym standardzie należytej staranności, która        oświadczenie (co w
+                                       podlega interpretacji w konkretnej sprawie z            odniesieniu do
+                                       uwzględnieniem jej charakteru i okoliczności. Zgodnie   pełnomocnictwa
+                                       z art. 355 § 2 k.c. należytą staranność dłużnika w      rozszerzyć trzeba o
+                                       zakresie prowadzonej przez niego działalności           tożsamość osoby
+gospodarczej określa się przy uwzględnieniu              umocowanej) została
+zawodowego charakteru tej działalności, a tym samym      uwzględniona poprzez
+jej poziom jest podniesiony w odniesieniu do             usunięcie
+profesjonalisty (np. spółki prawa handlowego).           przedmiotowych
+Obowiązek dołożenia staranności wynikającej z            przepisów.
+zawodowego charakteru działalności, w powiązaniu z
+– doprecyzowującymi jego granice – zasadą
+postępowania w sposób lojalny wobec spółki oraz
+możliwością działania w granicach uzasadnionego
+ryzyka gospodarczego, znajduje swój wyraz również
+w kodeksowej regulacji odpowiedzialności członka
+zarządu spółki z o.o. (art. 293 § 3 KSH). Podwyższone
+wymagania należy odnosić również do innych
+czynności dokonywanych przez spółkę, w tym działań
+jej organów i innych osób zaangażowanych w
+prowadzenie jej spraw. Wynika to z ogólnych zasad
+prawa gospodarczego prywatnego oraz kryteriów
+kompleksowej oceny funkcjonowania
+przedsiębiorstwa (due diligence), które zakładają w
+stosunku do spółki wymogi niż obowiązki obciążające
+w obrocie cywilnym podmioty nieprofesjonalne.
+Tytułem przykładu można wskazać wytyczne OECD
+dotyczące należytej staranności w odpowiedzialnym
+prowadzeniu działalności biznesowej z 2018 r.
+(https://www.gov.pl/web/funduszeregiony/wytyczne-
+dotyczace-nalezytej-starannosci).
+3. W orzecznictwie akcentuje się, że ocena takiej
+staranności w stosunku do spółki jest znacznie
+surowsza od staranności ogólnie wymaganej. Wynika
+to z faktu, że istotą działalności gospodarczej jest
+wymóg posiadania niezbędnej wiedzy fachowej w
+określonej dziedzinie, przy czym nie chodzi tu jedynie
+o czysto formalne kwalifikacje, ale wszelkie standardy
+dla danego obszaru prowadzonej działalności.
+Występują „istotnie zwiększone” oczekiwania co do
+umiejętności, wiedzy, skrupulatności i rzetelności,
+zapobiegliwości i zdolności (zob. uzasadnienie
+wyroku SN z 15 października 2023 r., II CSKP
+2044/22).
+4. Wynikający z obecnego stanu normatywnego zakres
+obowiązków spółki wynika z uwzględnienia jej
+zawodowego charakteru działalności i jego rozmiaru
+oraz specyfiki relacji korporacyjnych między
+wspólnikiem i spółką. Stąd trzeba przyjąć, że spółka
+jako profesjonalny uczestnik obrotu cywilnoprawnego,
+ma już na gruncie obecnego stanu normatywnego
+obowiązek odpowiedniej weryfikacji otrzymywanej
+korespondencji i oświadczeń. Weryfikacja ta powinna
+się przy tym odbywać w sposób proporcjonalny i przy
+zastosowaniu zakresu środków odpowiednich do celu,
+któremu służą (w tym z uwzględnieniem specyfiki
+zgód, o których mowa w art. 238 § 1 KSH, oraz
+udzielenia pełnomocnictwa i umocowania
+pełnomocnika, o którym mowa w art. 243 § 2 KSH).
+Zastosowanie znajdują bowiem ogólne rozwiązania
+prawa cywilnego i prawa gospodarczego prywatnego,
+które uwzględniają profesjonalny status spółki i
+podwyższone w związku z tym wymagania
+staranności. Należyta staranność w odniesieniu do
+spółki jest też elementem treści ładu korporacyjnego.
+W rozumieniu tego pojęcia i standardu o charakterze
+prawnym i ekonomicznym, spółka (w tym jej organy)
+jest zobowiązana do rzetelnego i lojalnego działania w
+interesie zarówno spółki, jak i wspólników, o których
+mowa w nowelizowanych przepisach.
+5. Już z definicji formy dokumentowej jako takiej
+wynika, że na podstawie danego dokumentu możliwe
+jest ustalenie tożsamości osoby składającej
+oświadczenie. Zgodnie z art. 77[2] k.c. zachowanie
+dokumentowej formy czynności prawnej oznacza
+złożenie oświadczenia woli w postaci dokumentu, w
+sposób umożliwiający ustalenie osoby składającej
+oświadczenie. Kodeksowe ujęcie przedmiotowej
+formy obejmuje więc też z istoty identyfikację
+wspólnika, o którym ma być mowa w dodawanych zd.
+3 art. 238 § 1 KSH i art. 243 § 2 KSH.
+6. Mając na względzie powyższe, trzeba wyrazić
+wątpliwość, czy projektowane, podobne art. 238 § 1
+KSH zd. 3 oraz art. 243 § 2 zd. 3 KSH są potrzebne
+dla realizacji ochronnego celu,zakładanego przez
+projektodawcę, skoro podwyższony standard należytej
+staranności i odpowiedzialności spółki wynika już z
+obowiązujących przepisów o charakterze ogólnym, a
+definicyjną cechą formy dokumentowej jest ustalenie
+tożsamości osoby składającej oświadczenie (co w
+odniesieniu do pełnomocnictwa rozszerzyć trzeba o
+tożsamość osoby umocowanej).
+7. Można w szczególności wyrazić obawę, że te
+projektowane przepisy, mówiące o obowiązku
+podjęcia przez spółkę „odpowiednich,
+proporcjonalnych do celu, działań”, mogą w praktyce
+zostać odczytane inaczej niżzakłada to projektodawca.
+Wprowadzenie przepisów o zakresie obowiązków w
+brzmieniu innym niż to przewidują ogólne zasady
+obowiązków i odpowiedzialności spółki
+(doprecyzowane w orzecznictwie) rodzi zawsze pewne
+ryzyko. W praktyce może wystąpić albo zbyt wysokie
+(w stosunku do zakładanego w uzasadnieniu projektu i
+ocenie skutków regulacji) podniesienie ogólnych
+wymogów staranności w obrocie prawnym w stosunku
+do spółki z o.o. akurat przy odczytywaniu powyższych
+oświadczeń oraz pełnomocnictw (co może godzić w
+ogólny kierunek projektu i w praktyce paraliżować
+funkcjonowanie formy dokumentowej), albo nowe
+przepisy mogą zostać zinterpretowane jako obniżenie
+standardu odpowiedzialności profesjonalisty, który
+wynika z ogólnych zasad prawa cywilnego i
+gospodarczego prywatnego. Taka interpretacja
+projektowanych zdań trzecich art. 238 § 1 zd. 3 KSH i
+art. 243 § 2 KSH może w szczególności zrodzić
+niepotrzebne problemy w razie kwestionowania przez
+spółkę złożonych oświadczeń lub udzielonych
+pełnomocnictw, jak również w razie zaskarżania przez
+wspólników uchwał zgromadzenia wspólników z
+powołaniem się na dokonanie lub niedokonanie
+zawiadomienia w przedmiotowej formie.
+8. KSH zd. 3 i art. 243 § 2 KSH wydaje się
+konstrukcją poprawniejszą i gwarantującą realizację
+zamierzenia projektodawcy. Takie ujęcie nie powinno
+rodzić wątpliwości co do tego, że stopień staranności
+wymagany przez spółkę przy uwzględnianiu formy
+dokumentowej oświadczeń jest podwyższony.
+Zarazem oznacza ono, że przy ocenie oświadczeń
+składanych przez wspólnika powinny być brane pod
+uwagę dotychczasowe relacje i praktyka
+wewnątrzkorporacyjna oraz specyfika danej spółki. 9.
+Za powyższym stanowiskiem przemawia dodatkowo
+potrzeba kompleksowego i wybiegającego poza zakres
+przedmiotowy projektu (obejmującego tylko spółkę z
+o.o.) spojrzenia na kodeksową regulację formy
+składania oświadczeń spółce przez wspólnika, co jest
+postulowane w dalszych uwagach. Przeciwko
+powyższemu stanowisku nie musi natomiast
+przemawiać obecne brzmienie art. 300 [95] § 2 KSH
+który został powołany w uzasadnieniu projektu, o
+czym niżej.
+10. Projektodawca powołuje się na podobieństwo z
+art. 300 [95] § 2 KSH, dotyczącego prostej
+(uproszczonej) spółki akcyjnej, który w kodeksie jest
+de facto nowością (zastosowanie od 1 marca 2021 r.).
+Zgodnie z tym przepisem pełnomocnictwo do
+uczestnictwa w walnym zgromadzeniu i wykonywania
+prawa głosu wymaga formy dokumentowej pod
+rygorem nieważności, a spółka „podejmuje
+odpowiednie, proporcjonalne do celu działania służące
+identyfikacji akcjonariusza i pełnomocnika w celu
+weryfikacji ważności pełnomocnictwa”. Argument z
+brzmienia nowego przepisu dotyczącego prostej
+(uproszczonej) spółki akcyjnej wymaga jednak
+uzupełnienia o sprawdzenie czy praktyka jego
+interpretacji przemawia za tym, że jest on potrzebny i
+przynosi on skutki zgodne z zamierzeniami
+ustawodawcy. Zauważyć trzeba, że przeciwny
+argument może płynąć z kodeksowego unormowania
+omawianej kwestii w stosunku do wspólników innych
+spółek. Podobnego do projektowanego rozwiązania
+nie zawiera w szczególności art. 412[1] § 1 KSH
+dotyczący spółki akcyjnej. Zgodnie z tym przepisem
+za wyjątkiem spółki publicznej, pełnomocnictwo do
+uczestniczenia w walnym zgromadzeniu i
+wykonywania prawa głosu wymaga formy pisemnej
+pod rygorem nieważności. W publicznej spółce
+akcyjnej udzielenie pełnomocnictwa może nastąpić na
+piśmie bądź w postaci elektronicznej, przy czym nie
+jest wymagane opatrzenie go kwalifikowanym
+podpisem elektronicznym. Podobnego rozwiązania nie
+zawierają również przepisy kodeksowe dotyczące
+innych spółek, z tym, że raczej z tego powodu, że
+generalnie brak w nich regulacji formy
+przedmiotowych czynności (co z kolei ma znaczenie
+dla ogólniejszego postulatu bardziej kompleksowego i
+wykraczającego poza spółkę z o.o. podejścia do
+przedmiotowej problematyki, prezentowanego niżej).
+Tym samym, w razie przyjęcia opiniowanego
+projektu, w kodeksie (zarówno obecnie, jak i w razie
+wejścia w życie projektowanej zmiany) nadal nie
+będzie występowało jednolite ujęcie dotyczące
+udzielania przez wspólnika pełnomocnictwa, mimo że
+za zróżnicowaniem nie przemawiają różnice między
+poszczególnymi rodzajami spółek.
+11. Ponadto trzeba zwrócić uwagę na pewną
+niekonsekwencję terminologiczną poszczególnych
+zmian przewidzianych projektem. Treść obu
+dodawanych przepisów różni się, mimo że cele
+projektodawcy są tożsame. Projektowane dodatkowe
+zdanie w art. 238 § 1 KSH mówi o „identyfikacji
+osoby składającej oświadczenie”, natomiast podobne
+zdanie w art. 243 § 2 KSH stanowi o „identyfikacji
+wspólnika i pełnomocnika w celu weryfikacji
+ważności pełnomocnictwa”. Warto przy tym
+zasygnalizować, że pojęcie „surowsze wymogi jego
+udzielenia” stosowane jest raczej w piśmiennictwie
+                                        niż w treści przepisów prawnych, w których mowa jest
+                                        najczęściej o szczególnych lub dodatkowych
+                                        wymaganiach formy oświadczenia.
+4.   Rzecznik          proj. art. 238   W przedstawionej uwadze do projektowanego nowego
+     Małych i          § 1 KSH (art.    brzmienia art. 238 § 1 ustawy z dnia 15 września 2000    Uwaga uwzględniona.
+     Średnich          1 pkt 1          r. – Kodeks spółek handlowych (art. 1 pkt 1 projektu),
+     Przedsiębiorców   projektu)        który przewiduje zapewnienie wspólnikom                  Po analizie
+                                        możliwości ujęcia kwestii formy zgody, co do sposobu     przedstawionych uwag
+                                        doręczania zawiadomień o zgromadzeniu wspólników         dokonano korekty
+                                        w umowie spółki postulowano dodanie zastrzeżenia w       projektowanego nowego
+                                        obrębie ww. przepisu, zgodnie z którym „umowa            brzmienia art. 238 § 1
+                                        spółki może przewidywać surowsze wymogi dotyczące        ustawy z dnia 15
+                                        formy wyrażenia zgody, w tym formę pisemną.”. Autor      września 2000 r. –
+                                        uwag podkreślił, iż zapewnienie możliwości               Kodeks spółek
+                                        uczestnictwa wspólnika w walnych zebraniach spółki       handlowych (art. 1 pkt 1
+                                        należy uznać za jego fundamentalne uprawnienie, ze       projektu), poprzez
+                                        względu na prawidłowe i sprawne jej funkcjonowanie.      dodanie w
+                                        Ponadto proponowana w projekcie forma                    projektowanym przepisie
+                                        dokumentowa takiego zawiadomienia może być               zastrzeżenia, że umowa
+                                        wystarczająca w większości wypadków, lecz warto          spółki może przewidywać
+                                        zauważyć, że w spółkach o dużej wartości aktywów         surowsze warunki
+                                        lub z rozproszonymi udziałami – istnieje ryzyko          udzielenia zgody.
+                                        komplikacji mogących prowadzić do
+                                        nieprawidłowości (także niezamierzonych).
+                                        Możliwość fakultatywnego zastrzeżenia formy
+                                        pisemnej dla zgody, o której mowa w omawianym
+                                        przepisie, pozostawia wspólnikom samodzielność w
+                                        zakresie określania najbardziej dla nich odpowiednich
+                                        procedur z zakresu zawiadamiania o zgromadzeniu
+                                        wspólników.
+5.   Prezes            proj. art. 238   W uwadze wskazano, że projektowane nowe
+     Urzędu Ochrony                                                                              Uwaga uwzględniona.
+                       § 1 KSH (art.    brzmienie art. 238 § 1 ustawy z dnia 15 września 2000
+     Danych
+     Osobowych         1 pkt 1           r. – Kodeks spółek handlowych (art. 1 pkt 1 projektu),   Wymienione uwagi
+                       projektu)         które przewiduje po zdaniu drugim dodanie zdania         zostały uwzględnione
+                                         trzeciego w brzmieniu: „Spółka podejmuje                 poprzez wprowadzenie
+                                         odpowiednie, proporcjonalne do celu działania środki     zmian w projekcie ustawy
+                                         służące identyfikacji osoby składającej                  (usunięcie z projektu
+                                         oświadczenie.”, jest nieprecyzyjne i może prowadzić      kwestionowanego
+                                         do podjęcia przez administratorów decyzji o wyborze      sformułowania).
+                                         środków identyfikacji osoby niezgodnych z
+                                         rozporządzeniem 2016/679 (np. żądania przekazania
+                                         skanu dokumentu tożsamości). Ponadto podkreślono,
+                                         że projektowany przepis powinien enumeratywnie
+                                         wymieniać dopuszczalne sposoby identyfikowania
+                                         tożsamości oraz okoliczności, w których się je stosuje
+                                         albo określenie wymogów, jakie ten sposób
+                                         identyfikacji powinien spełnić. Uwaga odnosi się
+                                         analogicznie do art. 1 pkt 2 projektu ustawy
+                                         zmieniającego § 2 w art. 243 Kodeksu spółek
+                                         handlowych.
+6.   Business Centre   proj. art. 238    Zmiana polegająca na zastąpieniu wymogu pisemnej
+     Club                                                                                         Uwaga uwzględniona.
+                       § 1 KSH (art.     zgody oraz pisemnego pełnomocnictwa formą
+                       1 pkt 1           dokumentową w art. 238 i 243 Kodeksu spółek              Uwaga dotycząca art. 238
+                       projektu)         handlowych jest zgodna z kierunkiem cyfryzacji           i 243 w zakresie
+                       oraz proj. art.   obrotu gospodarczego i zmniejsza formalizm w             podejmowania przez
+                       243 § 2 KSH       spółkach z ograniczoną odpowiedzialnością.               spółkę proporcjonalnych i
+                       (art. 1 pkt 2                                                              odpowiednich działań
+                       projektu)         Komunikacja między wspólnikami oraz odbywanie            przy identyfikacji –
+                                         zgromadzeń w spółkach kapitałowych coraz częściej        uwzględniona poprzez
+                                         odbywa się zdalnie, dlatego dotychczasowe wymogi         wprowadzenie zmian w
+                                         były zbyt rygorystyczne i nie odpowiadały realiom        projekcie ustawy.
+                                         rynku. Nowe rozwiązania ułatwią i przyspieszą
+                                         komunikację, obniżą koszty oraz zapewnią większą
+                                         elastyczność przy zwoływaniu zgromadzeń
+                                        wspólników, a tym samym przy podejmowaniu
+                                        decyzji w spółce. Istotnym elementem projektu jest
+                                        wprowadzenie obowiązku podejmowania przez spółkę
+                                        odpowiednich, proporcjonalnych działań w celu
+                                        identyfikacji osoby składającej oświadczenie ze zgodą
+                                        na wysyłanie zawiadomień na adres do doręczeń
+                                        elektronicznych albo pocztą elektroniczną, czy też
+                                        przy weryfikacji ważności pełnomocnictwa. Zwiększa
+                                        to bezpieczeństwo obrotu i pozwala spółkom
+                                        dostosować mechanizmy identyfikacji do własnych
+                                        potrzeb oraz poziomu zaufania w strukturze
+                                        właścicielskiej. Zastrzeżenia mogą budzić
+                                        nieprecyzyjne kryteria identyfikacji, które warto
+                                        byłoby doprecyzować w wytycznych, aby uniknąć
+                                        rozbieżności w praktyce.
+                                        Zgodnie z projektem spółki mogą w umowie
+                                        przewidzieć również surowsze wymogi w zakresie
+                                        formy udzielenia pełnomocnictw, co zapewnia
+                                        decyzyjność spółki w tym zakresie. Samo
+                                        wprowadzenie takich zapisów wymaga, jednakże
+                                        zmiany umowy spółki. Ogólnie projekt upraszcza
+                                        procedury i jest korzystny dla przedsiębiorców,
+                                        jednakże zapis w zakresie podejmowania przez spółkę
+                                        proporcjonalnych i odpowiednich działań przy
+                                        identyfikacji może rodzić problemy interpretacyjne.
+7.   Prezes Sądu      proj. art. 238    W odpowiedzi na pismo z dnia 17 grudnia 2025 r.
+     Apelacyjnego w                                                                              Uwaga uwzględniona.
+                      § 1 KSH (art.     znak DL-III.431.1.2025 dotyczące projektu ustawy o
+     Warszawie        1 pkt 1           zmianie ustawy - Kodeks spółek handlowych                Uwaga dotycząca proj.
+                      projektu)         (UDER98) uprzejmie informuję, że Wiceprezes ds.          art. 238 i 243 w zakresie
+                      oraz proj. art.   Gospodarczych Sądu Okręgowego w Warszawie                podejmowania przez
+                      243 § 2 KSH       wskazuje, iż zapis: „Spółka podejmuje odpowiednie,       spółkę proporcjonalnych i
+                      (art. 1 pkt 2     proporcjonalne do celu działania służące identyfikacji   odpowiednich działań
+                    projektu)        osoby składającej oświadczenie” jest tak dalece            przy identyfikacji -
+                                     nieprecyzyjny, że będzie wywoływał w praktyce              uwzględniona poprzez
+                                     ogromne problemy interpretacyjne. W przepisie nie          wprowadzenie zmian w
+                                     ma mowy, choćby o przykładowych czynnościach,              projekcie ustawy.
+                                     jakie ma podjąć spółka w celu identyfikacji, a zapis
+                                     „proporcjonalne do celu działania” jest niezrozumiały.
+                                     W pozostałym, zakresie w obszarze apelacji
+                                     warszawskiej nie zgłoszono uwag do projektów.
+8.   Prezes Sądu    proj. art. 243   Pozwalam sobie zgłosić następujące uwagi do
+     Apelacyjnego                                                                               1. Uwaga dotycząca
+                    § 2 KSH (art.    projektu przedstawionego przy tymże piśmie: 1.
+     w Katowicach                                                                               uzasadnienia –
+                    1 pkt 2          dostrzegam sprzeczność uzasadnienia z projektem w          uwzględniona.
+                    projektu)        zakresie zmiany art. 243 § 2 ksh. Projekt przewiduje
+                                     jako regułę pełnomocnictwo w formie dokumentowej,          2. Uwaga dotycząca
+                                     chyba że umowa spółki stanowi inaczej. Tymczasem           zastrzeżenia rygoru
+                                     w uzasadnieniu projektu czytamy, że postulat zmiany        nieważności -
+                                     art. 243 § 2 KSH zmierza do umożliwienia, aby              nieuwzględniona.
+                                     umowa spółki z ograniczoną odpowiedzialnością               Zastrzeżenie rygoru
+                                     przewidywała możliwość udzielania pełnomocnictwa           nieważności dla formy
+                                     do udziału w zgromadzeniu wspólników w formie              dokumentowej
+                                     dokumentowej. Stąd wedle uzasadnienia forma                pełnomocnictwa nie
+                                     dokumentowa pełnomocnictwa miałaby być jedynie             znajduje dostatecznego
+                                     wyjątkiem przewidzianym umową spółki. Tymczasem            uzasadnienia w potrzebie
+                                     w myśl projektowanej regulacji forma dokumentowa           ochrony bezpieczeństwa
+                                     ma być zasadą, o ile umowa spółki nie stanowi              obrotu korporacyjnego.
+                                     inaczej; 2. projekt w zakresie zmiany art. 243 § 2 ksh     Pełnomocnictwo do
+                                     generuje ryzyko sporów korporacyjnych z dwóch              udziału w zgromadzeniu
+                                     przyczyn: a. po pierwsze poprzez brak zastrzeżenia         wspólników ma charakter
+                                     rygoru nieważności dla projektowanej formy                 wyłącznie fakultatywny i
+                                     dokumentowej. W takiej sytuacji skuteczne wydaje się       służy jedynie ułatwieniu
+                                     udzielenie pełnomocnictwa nawet ustnie (art. 74 § 1        wykonywania praw
+                                     kc w zw. z art. 2 ksh), co grozi destabilizacją sytuacji   udziałowych przez
+                                     w spółce. Z praktyki wiadomo bowiem, że                    wspólnika, nie zaś
+pełnomocnictwo do udziału w zgromadzeniu                zapewnieniu
+wspólników bywa udzielane w sytuacjach pilnych i        prawidłowości samej
+konfliktowych. Dlatego proponowana regulacja jest       procedury podejmowania
+niewłaściwa, zwłaszcza że dotyczyć ma także już         uchwał. Wspólnik może
+istniejących spółek. Nie negując potrzeby deregulacji   bowiem uczestniczyć w
+wydaje się wskazane, aby odwrócić regułę                zgromadzeniu osobiście,
+przewidzianą przez nowe brzmienie art. 243 § 2 ksh      a brak pełnomocnictwa
+poprzez brzmienie: „Pełnomocnictwo powinno być          nie wpływa na ważność
+udzielone w formie pisemnej pod rygorem                 obrad ani skuteczność
+nieważności, chyba że umowa spółki przewiduje           podejmowanych
+możliwość jego udzielenia w formie dokumentowej         czynności. W sytuacji
+pod rygorem nieważności”; b. po drugie dlatego, że      niezachowania formy
+nie wyklucza możliwości zastrzeżenia w umowie           dokumentowej ciężar
+spółki formy surowszej np. aktu notarialnego, co może   wykazania istnienia
+prowadzić do utrudnienia udziału w zgromadzeniu         umocowania obciąża
+wspólników wspólnikom mniejszościowym,                  pełnomocnika
+zwłaszcza osobom starszym lub zagranicznym. W           (mocodawcę), co w
+takiej sytuacji skutek wprowadzanej zmiany byłby        praktyce prowadzi do
+odwrotny od deklarowanego w uzasadnieniu projektu.      konieczności
+Do takiej treści projektu nie przekonuje fakt, że       posługiwania się
+skuteczne zastrzeżenie wymogu formy surowszej           dokumentem
+wymaga jego umieszczenia w umowie spółki.               umożliwiającym
+Zastrzeżenie to bowiem może zostać wprowadzone do       jednoznaczną
+umowy spółki z pominięciem wspólnika                    identyfikację osoby
+mniejszościowego (art. 246 § 1 ksh). Generuje to        udzielającej
+ryzyko nowych sporów korporacyjnych przed sądami        pełnomocnictwa.
+okręgowymi dotyczących uchylenia uchwał                 Ewentualne
+wspólników w tym przedmiocie.                           pełnomocnictwo ustne,
+                                                        choć teoretycznie
+                                                        dopuszczalne na gruncie
+                                                        ogólnych zasad prawa
+                                                        cywilnego, nie daje
+możliwości jego
+wiarygodnej weryfikacji i
+z tego względu nie może
+stanowić realnej
+podstawy do
+dopuszczenia do udziału
+w zgromadzeniu ani do
+wpisu na listę obecności.
+Mechanizmy praktyki
+obrotu same zatem
+eliminują tego rodzaju
+rozwiązania, bez potrzeby
+sięgania po sankcję
+nieważności.
+Wprowadzenie
+ustawowego rygoru
+nieważności
+prowadziłoby natomiast
+do nadmiernego
+formalizmu oraz do
+nieproporcjonalnego
+zaostrzenia wymogów dla
+czynności o charakterze
+wyłącznie
+wewnątrzkorporacyjnym.
+Pozostawałoby to w
+sprzeczności z
+deregulacyjnym celem
+projektowanej
+nowelizacji, której
+założeniem jest
+uproszczenie i
+                                                                                          uelastycznienie procedur
+                                                                                          funkcjonowania spółki z
+                                                                                          ograniczoną
+                                                                                          odpowiedzialnością, przy
+                                                                                          jednoczesnym
+                                                                                          zachowaniu
+                                                                                          wystarczającego poziomu
+                                                                                          bezpieczeństwa
+                                                                                          prawnego.
+9.   Krajowa Rada   Uzasadnienie    Zarazem jednak Krajowa Rada Notarialna zaznacza,
+     Notarialna                                                                           1. Uwaga dotycząca
+                    projektu        że choć w uzasadnieniu projektu wskazano, iż          uzasadnienia –
+                    /przedłużenie   „postulat zmiany art. 243 § 2 KSH zmierza do          uwzględniona.
+                    vacatio legis   umożliwienia, aby umowa spółki
+                                    z ograniczoną odpowiedzialnością przewidywała         2. Uwaga dotycząca
+                                    możliwość udzielanie pełnomocnictwa do udziału w      vacatio legis –
+                                    zgromadzeniu wspólników w formie dokumentowej“,       nieuwzględniona.
+                                    w przedstawionym projekcie przewidziano               Zgłoszona uwaga nie
+                                    rozwiązanie, w którym przewiduje się nadanie          wymaga uwzględnienia.
+                                    wspomnianemu § 2 treści, wedle której                 Projektowane
+                                    „pełnomocnictwo powinno być udzielone w formie        rozwiązania mają
+                                    dokumentowej, chyba że umowa spółki przewiduje        charakter liberalizujący i
+                                    surowsze wymogi jego udzielenia “. Zatem przy         nie nakładają na spółki
+                                    utrzymaniu brzmienia projektu, to nie umowa spółki    nowych obowiązków ani
+                                    będzie przewidywać możliwość udzielenia               wymogów
+                                    pełnomocnictwa w formie dokumentowej, lecz            dostosowawczych.
+                                    wynikać to będzie już ex lege, z samej mocy nowej
+                                    treści art. 243 § 2 KSH, zaś stosownych postanowień
+                                    w umowie spółki wymagać będzie zastrzeżenie
+                                    surowszych (np. polegających na utrzymaniu
+                                    dotychczasowej formy na piśmie pod rygorem
+                                    nieważności) wymogów dla udzielenia umocowania.
+                                    Tym samym nie jest też do końca ścisłe podkreślenie
+w uzasadnieniu, że „konstrukcja, w której
+dopuszczenie formy dokumentowej uzależnione jest od
+woli samych wspólników wyrażonej w umowie spółki,
+zachowuje elastyczność i pozwala każdej spółce
+dostosować mechanizmy identyfikacyjne do własnych
+potrzeb i poziomu zaufania korporacyjnego“, skoro to
+nie dopuszczenie formy dokumentowej wymagać
+będzie pozytywnego działania wspólników
+polegającego na zmianie umowy spółki, lecz
+przeciwnie, aktywność zgromadzenia wspólników
+polegająca na zmianie umowy spółki będzie
+wymagana dla zapobieżenia dopuszczalności formy
+dokumentowej.
+Rozwiązanie takie, zwłaszcza wobec stosunkowo
+krótkiego vacatio legis (30 dni), może postawić
+niektóre spółki w sytuacji konieczności dopuszczenia
+(przynajmniej przez jakiś czas) pełnomocnictw w
+formie dokumentowej nawet, jeśli w danej spółce
+potrzeby i poziom zaufania korporacyjnego
+sprzeciwiają się temu. Uwzględnić tu należy bowiem
+nie tylko czas potrzebny na zwołanie zgromadzenia
+wspólników, niezbędnego do zmiany umowy spółki
+poprzez przewidzenie w niej surowszych niż
+wprowadzone projektowaną zmianą wymogów
+formalnych pełnomocnictwa, ale też przede wszystkim
+konieczność oczekiwania no wpis w Krajowym
+Rejestrze Sądowym wobec jego konstytutywnego
+charakteru przy zmianie umowy spółki z o.o. (art. 255
+§1 KSH). Tym samym może się okazać, że wiele
+spośród spółek, których wspólnicy nie są chętni do
+dopuszczenia posługiwania się mniej restrykcyjną,
+dokumentową formą pełnomocnictwa, najzwyczajniej
+nie zdąży przeprowadzić stosowych zmian do czasu
+wejścia nowych przepisów. W rezultacie np. przy
+pierwszym po zmianie przepisów zgromadzeniu
+wspólników, choćby nawet zwołanym dla wyłączenia
+możliwości posługiwania się formą dokumentową,
+konieczne będzie zaakceptowanie pełnomocnictw
+udzielonych w tej formie. W sytuacji, gdy spółka nie
+przygotowała się jeszcze do podejmowania
+„odpowiednich, proporcjonalnych do celu działań
+służących identyfikacji wspólnika i pełnomocnika w
+celu weryfikacji ważności pełnomocnictwa” albo gdy
+sama chęć wyłączenia stosowania nowej regulacji
+wynika z faktu, że w danej spółce uznano, iż
+podejmowanie takich działań jest dla spółki
+utrudnione czy niemożliwe, będzie to swoistym
+paradoksem.
+Tym samym Krajowa Rada Notarialna, utrzymując
+generalnie pozytywny opinię o kierunku
+proponowanych zmian, sugeruje rozważenie
+znacznego przedłużenia vacatio legis, bądź leż
+odwrócenia kierunku art. 243 § 2 KSH tak, aby
+zachować jako zasadę udzielanie pełnomocnictwa na
+piśmie, zastrzegając jednak możliwość dopuszczenia
+posługiwania się formą dokumentową przez stosowne
+postanowienia umowy spółki. Pozwoli to podjąć
+decyzję w każdej spółce po wcześniejszym
+rozważeniu, czy np. spółka jest zdolna do
+podejmowania działań weryfikacyjnych. Zarazem
+wobec konstytuwnego wpisu w rejestrze, wyłączone
+zostałoby ryzyko
+„zaskoczenia” nowymi regulacjami co do form
+pełnomocnictw spółek, w których z jakichś względów
+pożądane jest trwale (np. z uwagi na poziom zaufania
+korporacyjnego) lub czasowe (np. na czas
+przygotowania się do podejmowania starań
+weryfikacyjnych, wprowadzenie wewnętrznych
+procedur w tym zakresie itp.) utrzymanie
+dotychczasowej formy udzielania pełnomocnictw.
+Pozwoli to zatem na bardziej świadome i rozważne
+przygotowanie uczestników obrotu
+prawnospółkowego nie tylko do ułatwień, ale i
+wyzwań jakie będą wynikać z nowej regulacji.
+                                                                                                                      Warszawa, dn. 02 kwietnia 2026 r.
+
+                                 Zestawienie nieuwzględnionych uwag zgłoszonych w ramach opiniowania
+
+                               do projektu ustawy o zmianie ustawy – Kodeks spółek handlowych (UDER98)1
+
+
+
+        Lp. Podmiot                  Uwaga              Treść uwagi                                                    Stanowisko MS
+            zgłaszający              dotyczy
+            uwagi
+
+          1. Sąd Najwyższy           Uwaga              Potrzeba całościowego podejścia do kwestii formy               Uwaga
+                                     ogólna             oświadczeń wspólnika składanego poszczególnym                  nieuwzględniona.
+                                                        spółkom - wzmianka
+                                                        1. Na marginesie uwag dotyczących                              Uwaga dotycząca
+                                                        przedmiotowego projektu trzeba zwrócić uwagę na                potrzeby całościowego
+                                                        kwestię zasadniczą, jaką jest potrzeba                         podejścia do kwestii
+                                                        kompleksowego i niekazuistycznego podejścia do                 formy oświadczeń
+                                                        zmian w kodeksach, w tym KSH. Częste i wycinkowe               wspólnika składanych
+                                                        zmiany z istoty zagrażają bowiem stabilności                   poszczególnym spółkom
+                                                        systemu prawa oraz, jak pokazują doświadczenia                 zasługuje na
+                                                        ostatnich dekad, skutkować mogą niespójnością                  uwzględnienie co do
+                                                        wewnątrz danego aktu normatywnego (np. odnośnie                kierunku. Należy jednak
+                                                        do regulacji podobnych w istocie kwestii, ale                  zauważyć, że
+                                                        dotyczących różnych spółek, spośród których tylko              przedmiotowy projekt
+                                                        niektóre są przez ustawodawcę obejmowane                       ma charakter
+                                                        nowymi rozwiązaniami).                                         deregulacyjny i
+
+1
+ Aktualny tytuł: projekt ustawy o zmianie ustawy – Kodeks spółek handlowych oraz ustawy o zmianie ustawy – Kodeks spółek handlowych oraz niektórych innych
+ustaw
+2. Z tej perspektywy trzeba zwrócić uwagę, że w        punktowy, a jego celem
+przedmiotowym projekcie zawarto unormowanie            jest uproszczenie
+wycinkowe, które nie jest w pełni spójne               funkcjonowania spółki z
+rozwiązaniem podobnych kwestii dotyczących             ograniczoną
+wspólników spółek innych niż spółka z o.o.             odpowiedzialnością jako
+Projektowane rozwiązanie dotyczące                     najczęściej
+pełnomocnictwa jest częściowo (ale nie całkowicie z    wykorzystywanej w
+uwagi na inny rygor niezachowania formy) podobne       obrocie formy
+do nowego rozwiązania kodeksowego dotyczącego          prowadzenia
+prostej (uproszczonej) spółki akcyjnej. Ponieważ       działalności
+projektowane unormowanie nie jest podobne do           gospodarczej.
+rozwiązań dotyczących innych spółek, wejście w         Rozszerzenie zakresu
+życie projektu nie będzie oznaczać ujednolicenia       nowelizacji na pozostałe
+kodeksowej regulacji przedmiotowych kwestii. Brak      typy spółek
+przy tym wyjaśnienia zawężonej perspektywy             prowadziłoby do
+projektodawcy, która obejmuje tylko spółkę z o.o.      istotnego poszerzenia
+Być może wynika to z okoliczności powiązania           materii projektu oraz
+przedmiotowego projektu z szerszymi działaniami        nadania mu charakteru
+rządowymi na rzecz deregulacji, w których jako         kompleksowej reformy
+najistotniejszą gospodarczo wskazano ten rodzaj        kodeksowej.
+spółki. Takie podejście, uzasadnione ekonomicznie,     Mając na względzie
+nie powinno jednak przesądzać o ograniczonym           systemowy       charakter
+postrzeganiu kodeksu jako takiego, a raczej stanowić   sygnalizowanego
+punkt wyjścia do kompleksowej oceny jego               zagadnienia, uwagi Sądu
+postanowień, w tym dotyczących podobnych               Najwyższego        zostały
+problemów w funkcjonowaniu innych rodzajów             przekazane         Komisji
+spółek.                                                Kodyfikacyjnej      Prawa
+3. Podobne praktyczne problemy, które                  Cywilnego, której Zespół
+projektodawca stara się zniwelować w obrocie           ds. prawa handlowego
+gospodarczym z udziałem spółki z o.o., dotyczyć        prowadzi          obecnie
+mogą spółek osobowych i spółek akcyjnych, które         przegląd         regulacji
+po wejściu w życie projektu będą regulowane w           Kodeksu            spółek
+sposób odmienny od spółki z o.o. i prostej              handlowych w celu
+(uproszczonej) spółki akcyjnej. Odnośnie do spółek      identyfikacji obszarów
+osobowych trzeba dodatkowo zauważyć, że problem         wymagających        zmian
+braku kodeksowej regulacji jest rozwiązywany przez      oraz         opracowania
+przyjęcie, że zagadnienie formy zawiadomień jest        ewentualnych rozwiązań
+„poza zainteresowaniem ustawodawcy”, co skutkuje        o             charakterze
+potrzebą regulacji w umowie spółki albo                 kompleksowym. Kwestia
+ukształtowania w drodze zwyczaju w danej spółce.        ujednolicenia regulacji
+Zauważa się przy tym, że jeżeli w umowie spółki nie     dotyczących         formy
+ma ustalonego trybu zaproszeń na zebranie               pełnomocnictw         oraz
+wspólników albo wcześniej nie było ustalonego           komunikacji
+zwyczaju, to „nic nie stoi na przeszkodzie, aby w       korporacyjnej           w
+zaproszeniu na zebranie wspólników znalazły się         poszczególnych typach
+wymogi przewidziane dla spółek kapitałowych”, o         spółek zostanie zatem
+których była mowa wyżej (zob. A. Kidyba, A. Witosz,     poddana           dalszej,
+Obowiązek zawiadomienia o planie, [w:] A. Kidyba,       pogłębionej analizie w
+A. Witosz, Łączenie, podział i przekształcanie spółek   ramach odrębnych prac
+handlowych, Warszawa 2010, pkt 2.3.2.7, Lex).           kodyfikacyjnych.
+Również z tych względów pożądane jest (i dla
+spójności wewnętrznej kodeksu i z perspektywy
+deregulacji rozumianej jako uproszczenie)
+rozważenie przez projektodawcę całościowej
+(kompleksowej) zmiany przepisów KSH również poza
+działem I tytułu III. W szczególności dotyczy to
+rozwiązań dotyczących spółki akcyjnej (art. 402 § 3
+KSH), które mają zastosowanie też do spółki
+komandytowoakcyjnej (mocą odesłania w art. 126 §
+1 pkt 2 KSH), a ponadto spółki europejskiej, o której
+mowa w art. 53 rozporządzenia Rady (WE) nr
+2157/2001 z 8.102001 r. w sprawie statutu spółki
+europejskiej (SE) (Dz. U. UE. L. z 2001 r. Nr 294, s. 1 i
+in. ze zm.) oraz art. 15 i n. ustawy z dnia 4 marca
+2005 r. o europejskim zgrupowaniu interesów
+gospodarczych i spółce europejskiej (Dz. U. z 2022 r.
+poz. 259, z późn. zm.). Postulować trzeba, żeby
+projektodawca rozważył zbadanie czy problemy
+rozwiązywane przez niego drogą przedmiotowego
+projektu występują też na gruncie innych przepisów
+kodeksu (tj. innych rodzajów spółek) oraz w razie ich
+identyfikacji, rozważenie poszerzenia zakresu
+przedmiotowego projektu celem ich jednoczesnego
+rozwiązania.
+4. Przy okazji ewentualnej kompleksowej nowelizacji
+kodeksu warto by również rozważyć rozwiązanie,
+powiązanych z materią projektu, problemu braku
+spójności między kodeksowymi przepisami
+dotyczącymi przedmiotowych kwestii, w tym zakresu
+zastosowania zgody wspólnika. Na tle obecnego,
+niejednoznacznego brzmienia art. 238 § 1 KSH w
+piśmiennictwie przyjmuje się, że taka zgoda
+wspólnika spółki z o.o. dotyczy zarówno kierowania
+korespondencji na adres do doręczeń
+elektronicznych, jak i na wskazany adres poczty
+elektronicznej. Natomiast z art. 402 § 3 KSH, który
+odnosi się też do spółki komandytowo-akcyjnej
+(mocą odesłania w art. 126 § 1 pkt 2 KSH), wyraźnie
+wynika, że w spółce akcyjnej zgoda akcjonariusza
+dotyczy wysyłania zawiadomień tylko na wskazany
+                               przez niego inny adres poczty elektronicznej (inny niż
+                               ewentualnie widniejący w rejestrze akcjonariuszy), a
+                               nie jest ona potrzebna do kierowania przedmiotowej
+                               korespondencji na adres do doręczeń
+                               elektronicznych.
+                               5. Warto by też rozważyć ujednolicenie
+                               unormowania rygoru niedochowania formy, tj.
+                               zastrzeżenia rygoru nieważności (a tym samym
+                               daleko idących skutków, o których mowa w art. 73
+                               k.c.) lub braku takiego rygoru odnośnie do formy
+                               udzielenia przez wspólnika pełnomocnictwa w
+                               poszczególnych spółkach. Projektowany art. 243 § 2
+                               KSH nie zawiera takiego rygoru dla pełnomocnictwa
+                               wspólnika spółki z o.o., natomiast jest on
+                               przewidziany (odpowiednio do formy dokumentowej
+                               oraz formy pisemnej) w art. 300 [95] § 2 KSH,
+                               dotyczącym prostej (uproszczonej) spółki akcyjnej,
+                               oraz w art. 412[1] § 1 k KSH, dotyczącym spółki
+                               akcyjnej.
+2. Krajowa Izba   Uwagi        Wady i ryzyka projektu. Mimo licznych zalet, projekt     Uwaga
+   Radców         ogólne/OSR   budzi również poważne wątpliwości. Kluczową              nieuwzględniona.
+   Prawnych                    kwestią jest bezpieczeństwo obrotu prawnego. W
+                               dobie zaawansowanych narzędzi graficznych,               Zastrzeżenie rygoru
+                               stworzenie przekonującego skanu dokumentu z              nieważności dla formy
+                               podpisem nie stanowi większego problemu                  dokumentowej
+                               technicznego. Ryzyko to jest szczególnie istotne w       pełnomocnictwa nie
+                               kontekście pełnomocnictw do uczestnictwa w               znajduje dostatecznego
+                               zgromadzeniach wspólników. Sfałszowanie                  uzasadnienia w
+                               pełnomocnictwa w formie dokumentowej i                   potrzebie ochrony
+                               dopuszczenie na zgromadzenie “pełnomocnika”              bezpieczeństwa obrotu
+                                                                                        korporacyjnego.
+działającego na podstawie takiego dokumentu może         Pełnomocnictwo do
+doprowadzić do podjęcia uchwał, które następnie          udziału w zgromadzeniu
+będą kwestionowane w długotrwałych                       wspólników ma
+postępowaniach sądowych. Projektodawca niejako           charakter wyłącznie
+jest świadomy tych ryzyk i próbuje im przeciwdziałać     fakultatywny i służy
+poprzez wprowadzenie obowiązku podejmowania              jedynie ułatwieniu
+przez spółkę “odpowiednich, proporcjonalnych do          wykonywania praw
+celu działań służących identyfikacji”. Problem           udziałowych przez
+polega jednak na tym, że jest to klauzula generalna,     wspólnika, nie zaś
+która nie precyzuje, jakie konkretnie działania spółka   zapewnieniu
+powinna podjąć. W praktyce oznacza to, że spółki         prawidłowości samej
+będą musiały same wypracować procedury                   procedury
+weryfikacyjne, co może prowadzić do znacznych            podejmowania uchwał.
+rozbieżności w standardach stosowanych przez             Wspólnik może bowiem
+różne podmioty.                                          uczestniczyć w
+Ocena skutków regulacji zawiera wprawdzie                zgromadzeniu osobiście,
+przykładowe środki weryfikacyjne – takie jak             a brak pełnomocnictwa
+okazanie oryginału pełnomocnictwa przy                   nie wpływa na ważność
+sporządzaniu listy obecności, przedstawienie             obrad ani skuteczność
+dokumentu tożsamości przez pełnomocnika,                 podejmowanych
+dołączenie kopii odpisu z KRS czy dokumentów             czynności. W sytuacji
+potwierdzających własność udziałów – ale są to           niezachowania formy
+jedynie sugestie, nie wiążące wymogi prawne. Brak        dokumentowej ciężar
+jasnych standardów może prowadzić do                     wykazania istnienia
+niepewności prawnej i sporów sądowych.                   umocowania obciąża
+Szczególnie problematyczna jest sytuacja, gdy            pełnomocnika
+pełnomocnictwo jest przesyłane elektronicznie            (mocodawcę), co w
+bezpośrednio przed zgromadzeniem lub gdy                 praktyce prowadzi do
+zgromadzenie odbywa się w trybie całkowicie              konieczności
+zdalnym. W takich przypadkach weryfikacja                posługiwania się
+autentyczności dokumentu i tożsamości                 dokumentem
+mocodawcy jest znacznie trudniejsza niż w sytuacji,   umożliwiającym
+gdy pełnomocnik stawia się osobiście i może okazać    jednoznaczną
+oryginał dokumentu oraz swój dowód osobisty.          identyfikację osoby
+Powyższe zagadnienie odpowiedniej weryfikacji         udzielającej
+dokumentu pełnomocnictwa, osób wspólnika oraz         pełnomocnictwa.
+pełnomocnika nabiera szczególnego znaczenia przy      Ewentualne
+uchwałach protokołowanych przez notariusza, w         pełnomocnictwo ustne,
+szczególności w przypadku zmiany umowy spółki         choć teoretycznie
+(art. 255 § 3 KSH).                                   dopuszczalne na gruncie
+Istotne zastrzeżenie legislacyjne wywołuje brak       ogólnych zasad prawa
+zastrzeżenia rygoru nieważności dla wprowadzanej      cywilnego, nie daje
+formy dokumentowej pełnomocnictwa, co ma              możliwości jego
+miejsce w porównywalnym rozwiązaniu z prostej         wiarygodnej weryfikacji i
+spółki akcyjnej (art. 300⁹⁵ § 2 KSH). Brak takiego    z tego względu nie może
+rygoru oznaczałby obowiązywanie formy czynności       stanowić realnej
+prawnej dla celów dowodowych ad probationem           podstawy do
+(art. 74 KC), co nie byłoby pożądane z perspektywy    dopuszczenia do udziału
+bezpieczeństwa obrotu. Pożądanym jest                 w zgromadzeniu ani do
+wprowadzenie rygoru nieważności dla formy             wpisu na listę
+dokumentowej, co definitywnie wprowadzi wymóg         obecności. Mechanizmy
+przedstawienia pełnomocnictwa w przepisanej           praktyki obrotu same
+formie.                                               zatem eliminują tego
+Pewnym mankamentem projektu jest brak analizy         rodzaju rozwiązania, bez
+prawnoporównawczej. W ocenie skutków regulacji        potrzeby sięgania po
+wprost stwierdzono, że “projektowane rozwiązania      sankcję nieważności.
+ze względu na stopień szczegółowości nie były         Wprowadzenie
+poddawane analizie prawnoporównawczej”. To            ustawowego rygoru
+podejście jest dyskusyjne. Forma pełnomocnictw        nieważności
+korporacyjnych i wymogi dotyczące doręczeń            prowadziłoby natomiast
+elektronicznych są regulowane w systemach             do nadmiernego
+prawnych wszystkich krajów Unii Europejskiej a        formalizmu oraz do
+analiza rozwiązań przyjętych w innych państwach       nieproporcjonalnego
+członkowskich mogłaby dostarczyć cennych              zaostrzenia wymogów
+wskazówek, zarówno co do potencjalnych korzyści,      dla czynności o
+jak i ryzyk związanych z projektowanymi zmianami.     charakterze wyłącznie
+Szczególnie interesujące byłoby zbadanie, jak inne    wewnątrzkorporacyjnym.
+kraje radzą sobie z problemem weryfikacji             Pozostawałoby to w
+autentyczności dokumentów w formie elektronicznej     sprzeczności z
+i jakie wypracowały standardy należytej staranności   deregulacyjnym celem
+dla spółek. Takie porównanie mogłoby pomóc w          projektowanej
+sformułowaniu bardziej precyzyjnych wytycznych dla    nowelizacji, której
+polskich spółek i zmniejszyć ryzyko niepewności       założeniem jest
+prawnej.                                              uproszczenie i
+                                                      uelastycznienie
+                                                      procedur
+                                                      funkcjonowania spółki z
+                                                      ograniczoną
+                                                      odpowiedzialnością,
+                                                      przy jednoczesnym
+                                                      zachowaniu
+                                                      wystarczającego
+                                                      poziomu
+                                                      bezpieczeństwa
+                                                      prawnego.
+                                                      W odniesieniu natomiast
+                                                      do braku analizy prawno-
+                                                      porównawczej wskazać
+                                                      należy, że projektowana
+                                                      regulacja ma charakter
+punktowy i
+deregulacyjny, dotyczy
+wyłącznie formy
+czynności
+korporacyjnych w
+ramach prawa krajowego
+oraz nie jest
+przedmiotem
+harmonizacji prawa Unii
+Europejskiej. Forma
+dokumentowa stanowi
+konstrukcję prawa
+polskiego, której treść
+normatywna nie jest
+tożsama z rozwiązaniami
+przyjętymi w innych
+porządkach prawnych,
+co ogranicza praktyczną
+użyteczność analiz
+komparatystycznych. W
+ocenie projektodawcy
+zakres i charakter zmian
+nie uzasadniają
+prowadzenia
+pogłębionych badań
+porównawczych, które
+byłyby właściwe przede
+wszystkim dla reform
+systemowych lub
+kodyfikacyjnych, a nie
+                                                                                          dla zmian technicznych i
+                                                                                          upraszczających.
+3. Prezes Sądu    proj. art. 243   Pozwalam sobie zgłosić następujące uwagi do
+   Apelacyjnego                                                                           1. Uwaga dotycząca
+                  § 2 KSH (art.    projektu przedstawionego przy tymże piśmie: 1.
+   w Katowicach                                                                           uzasadnienia –
+                  1 pkt 2          dostrzegam sprzeczność uzasadnienia z projektem        uwzględniona.
+                  projektu)        w zakresie zmiany art. 243 § 2 ksh. Projekt
+                                   przewiduje jako regułę pełnomocnictwo w formie         2. Uwaga dotycząca
+                                   dokumentowej, chyba że umowa spółki stanowi            zastrzeżenia rygoru
+                                   inaczej. Tymczasem w uzasadnieniu projektu             nieważności -
+                                   czytamy, że postulat zmiany art. 243 § 2 KSH zmierza   nieuwzględniona.
+                                   do umożliwienia, aby umowa spółki z ograniczoną         Zastrzeżenie rygoru
+                                   odpowiedzialnością przewidywała możliwość              nieważności dla formy
+                                   udzielania pełnomocnictwa do udziału w                 dokumentowej
+                                   zgromadzeniu wspólników w formie dokumentowej.         pełnomocnictwa nie
+                                   Stąd wedle uzasadnienia forma dokumentowa              znajduje dostatecznego
+                                   pełnomocnictwa miałaby być jedynie wyjątkiem           uzasadnienia w
+                                   przewidzianym umową spółki. Tymczasem w myśl           potrzebie ochrony
+                                   projektowanej regulacji forma dokumentowa ma być       bezpieczeństwa obrotu
+                                   zasadą, o ile umowa spółki nie stanowi inaczej; 2.     korporacyjnego.
+                                   projekt w zakresie zmiany art. 243 § 2 ksh generuje    Pełnomocnictwo do
+                                   ryzyko sporów korporacyjnych z dwóch przyczyn: a.      udziału w zgromadzeniu
+                                   po pierwsze poprzez brak zastrzeżenia rygoru           wspólników ma
+                                   nieważności dla projektowanej formy                    charakter wyłącznie
+                                   dokumentowej. W takiej sytuacji skuteczne wydaje       fakultatywny i służy
+                                   się udzielenie pełnomocnictwa nawet ustnie (art. 74    jedynie ułatwieniu
+                                   § 1 kc w zw. z art. 2 ksh), co grozi destabilizacją    wykonywania praw
+                                   sytuacji w spółce. Z praktyki wiadomo bowiem, że       udziałowych przez
+                                   pełnomocnictwo do udziału w zgromadzeniu               wspólnika, nie zaś
+                                   wspólników bywa udzielane w sytuacjach pilnych i       zapewnieniu
+                                   konfliktowych. Dlatego proponowana regulacja jest      prawidłowości samej
+niewłaściwa, zwłaszcza że dotyczyć ma także już        procedury
+istniejących spółek. Nie negując potrzeby              podejmowania uchwał.
+deregulacji wydaje się wskazane, aby odwrócić          Wspólnik może bowiem
+regułę przewidzianą przez nowe brzmienie art. 243 §    uczestniczyć w
+2 ksh poprzez brzmienie: „Pełnomocnictwo powinno       zgromadzeniu osobiście,
+być udzielone w formie pisemnej pod rygorem            a brak pełnomocnictwa
+nieważności, chyba że umowa spółki przewiduje          nie wpływa na ważność
+możliwość jego udzielenia w formie dokumentowej        obrad ani skuteczność
+pod rygorem nieważności”; b. po drugie dlatego, że     podejmowanych
+nie wyklucza możliwości zastrzeżenia w umowie          czynności. W sytuacji
+spółki formy surowszej np. aktu notarialnego, co       niezachowania formy
+może prowadzić do utrudnienia udziału w                dokumentowej ciężar
+zgromadzeniu wspólników wspólnikom                     wykazania istnienia
+mniejszościowym, zwłaszcza osobom starszym lub         umocowania obciąża
+zagranicznym. W takiej sytuacji skutek                 pełnomocnika
+wprowadzanej zmiany byłby odwrotny od                  (mocodawcę), co w
+deklarowanego w uzasadnieniu projektu. Do takiej       praktyce prowadzi do
+treści projektu nie przekonuje fakt, że skuteczne      konieczności
+zastrzeżenie wymogu formy surowszej wymaga jego        posługiwania się
+umieszczenia w umowie spółki. Zastrzeżenie to          dokumentem
+bowiem może zostać wprowadzone do umowy                umożliwiającym
+spółki z pominięciem wspólnika mniejszościowego        jednoznaczną
+(art. 246 § 1 ksh). Generuje to ryzyko nowych sporów   identyfikację osoby
+korporacyjnych przed sądami okręgowymi                 udzielającej
+dotyczących uchylenia uchwał wspólników w tym          pełnomocnictwa.
+przedmiocie.                                           Ewentualne
+                                                       pełnomocnictwo ustne,
+                                                       choć teoretycznie
+                                                       dopuszczalne na gruncie
+                                                       ogólnych zasad prawa
+cywilnego, nie daje
+możliwości jego
+wiarygodnej weryfikacji i
+z tego względu nie może
+stanowić realnej
+podstawy do
+dopuszczenia do udziału
+w zgromadzeniu ani do
+wpisu na listę
+obecności. Mechanizmy
+praktyki obrotu same
+zatem eliminują tego
+rodzaju rozwiązania, bez
+potrzeby sięgania po
+sankcję nieważności.
+Wprowadzenie
+ustawowego rygoru
+nieważności
+prowadziłoby natomiast
+do nadmiernego
+formalizmu oraz do
+nieproporcjonalnego
+zaostrzenia wymogów
+dla czynności o
+charakterze wyłącznie
+wewnątrzkorporacyjnym.
+Pozostawałoby to w
+sprzeczności z
+deregulacyjnym celem
+projektowanej
+                                                                                       nowelizacji, której
+                                                                                       założeniem jest
+                                                                                       uproszczenie i
+                                                                                       uelastycznienie
+                                                                                       procedur
+                                                                                       funkcjonowania spółki z
+                                                                                       ograniczoną
+                                                                                       odpowiedzialnością,
+                                                                                       przy jednoczesnym
+                                                                                       zachowaniu
+                                                                                       wystarczającego
+                                                                                       poziomu
+                                                                                       bezpieczeństwa
+                                                                                       prawnego.
+4. Krajowa Rada   Uzasadnienie    Zarazem jednak Krajowa Rada Notarialna zaznacza,
+   Notarialna                                                                          1. Uwaga dotycząca
+                  projektu        że choć w uzasadnieniu projektu wskazano, iż         uzasadnienia –
+                  /przedłużenie   „postulat zmiany art. 243 § 2 KSH zmierza do         uwzględniona.
+                  vacatio legis   umożliwienia, aby umowa spółki
+                                  z ograniczoną odpowiedzialnością przewidywała        2. Uwaga dotycząca
+                                  możliwość udzielanie pełnomocnictwa do udziału w     vacatio legis –
+                                  zgromadzeniu wspólników w formie dokumentowej“,      nieuwzględniona.
+                                  w przedstawionym projekcie przewidziano              Zgłoszona uwaga nie
+                                  rozwiązanie, w którym przewiduje się nadanie         wymaga uwzględnienia.
+                                  wspomnianemu § 2 treści, wedle której                Projektowane
+                                  „pełnomocnictwo powinno być udzielone w formie       rozwiązania mają
+                                  dokumentowej, chyba że umowa spółki przewiduje       charakter liberalizujący i
+                                  surowsze wymogi jego udzielenia “. Zatem przy        nie nakładają na spółki
+                                  utrzymaniu brzmienia projektu, to nie umowa spółki   nowych obowiązków ani
+                                  będzie przewidywać możliwość udzielenia              wymogów
+                                  pełnomocnictwa w formie dokumentowej, lecz           dostosowawczych.
+wynikać to będzie już ex lege, z samej mocy nowej
+treści art. 243 § 2 KSH, zaś stosownych postanowień
+w umowie spółki wymagać będzie zastrzeżenie
+surowszych (np. polegających na utrzymaniu
+dotychczasowej formy na piśmie pod rygorem
+nieważności) wymogów dla udzielenia umocowania.
+Tym samym nie jest też do końca ścisłe podkreślenie
+w uzasadnieniu, że „konstrukcja, w której
+dopuszczenie formy dokumentowej uzależnione jest
+od woli samych wspólników wyrażonej w umowie
+spółki, zachowuje elastyczność i pozwala każdej
+spółce dostosować mechanizmy identyfikacyjne do
+własnych potrzeb i poziomu zaufania
+korporacyjnego“, skoro to nie dopuszczenie formy
+dokumentowej wymagać będzie pozytywnego
+działania wspólników polegającego na zmianie
+umowy spółki, lecz przeciwnie, aktywność
+zgromadzenia wspólników polegająca na zmianie
+umowy spółki będzie wymagana dla zapobieżenia
+dopuszczalności formy dokumentowej.
+Rozwiązanie takie, zwłaszcza wobec stosunkowo
+krótkiego vacatio legis (30 dni), może postawić
+niektóre spółki w sytuacji konieczności
+dopuszczenia (przynajmniej przez jakiś czas)
+pełnomocnictw w formie dokumentowej nawet, jeśli
+w danej spółce potrzeby i poziom zaufania
+korporacyjnego sprzeciwiają się temu. Uwzględnić
+tu należy bowiem nie tylko czas potrzebny na
+zwołanie zgromadzenia wspólników, niezbędnego do
+zmiany umowy spółki poprzez przewidzenie w niej
+surowszych niż wprowadzone projektowaną zmianą
+wymogów formalnych pełnomocnictwa, ale też
+przede wszystkim konieczność oczekiwania no wpis
+w Krajowym Rejestrze Sądowym wobec jego
+konstytutywnego charakteru przy zmianie umowy
+spółki z o.o. (art. 255 §1 KSH). Tym samym może się
+okazać, że wiele spośród spółek, których wspólnicy
+nie są chętni do dopuszczenia posługiwania się
+mniej restrykcyjną, dokumentową formą
+pełnomocnictwa, najzwyczajniej nie zdąży
+przeprowadzić stosowych zmian do czasu wejścia
+nowych przepisów. W rezultacie np. przy pierwszym
+po zmianie przepisów zgromadzeniu wspólników,
+choćby nawet zwołanym dla wyłączenia możliwości
+posługiwania się formą dokumentową, konieczne
+będzie zaakceptowanie pełnomocnictw udzielonych
+w tej formie. W sytuacji, gdy spółka nie przygotowała
+się jeszcze do podejmowania „odpowiednich,
+proporcjonalnych do celu działań służących
+identyfikacji wspólnika i pełnomocnika w celu
+weryfikacji ważności pełnomocnictwa” albo gdy
+sama chęć wyłączenia stosowania nowej regulacji
+wynika z faktu, że w danej spółce uznano, iż
+podejmowanie takich działań jest dla spółki
+utrudnione czy niemożliwe, będzie to swoistym
+paradoksem.
+Tym samym Krajowa Rada Notarialna, utrzymując
+generalnie pozytywny opinię o kierunku
+proponowanych zmian, sugeruje rozważenie
+znacznego przedłużenia vacatio legis, bądź leż
+odwrócenia kierunku art. 243 § 2 KSH tak, aby
+zachować jako zasadę udzielanie pełnomocnictwa
+na piśmie, zastrzegając jednak możliwość
+dopuszczenia posługiwania się formą dokumentową
+przez stosowne postanowienia umowy spółki.
+Pozwoli to podjąć decyzję w każdej spółce po
+wcześniejszym rozważeniu, czy np. spółka jest
+zdolna do podejmowania działań weryfikacyjnych.
+Zarazem wobec konstytuwnego wpisu w rejestrze,
+wyłączone zostałoby ryzyko
+„zaskoczenia” nowymi regulacjami co do form
+pełnomocnictw spółek, w których z jakichś
+względów pożądane jest trwale (np. z uwagi na
+poziom zaufania korporacyjnego) lub czasowe (np.
+na czas przygotowania się do podejmowania starań
+weryfikacyjnych, wprowadzenie wewnętrznych
+procedur w tym zakresie itp.) utrzymanie
+dotychczasowej formy udzielania pełnomocnictw.
+Pozwoli to zatem na bardziej świadome i rozważne
+przygotowanie uczestników obrotu
+prawnospółkowego nie tylko do ułatwień, ale i
+wyzwań jakie będą wynikać z nowej regulacji.
+

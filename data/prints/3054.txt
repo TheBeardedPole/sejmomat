@@ -1,0 +1,254 @@
+                                                                         Druk nr 3054
+          SEJM
+RZECZYPOSPOLITEJ POLSKIE J
+            X kadencja
+
+
+
+
+                                    SPRAWOZDANIE
+                            KOMISJI DO SPRAW DEREGULACJI
+                         ORAZ KOMISJI FINANSÓW PUBLICZNYCH
+
+
+
+    o rządowym projekcie ustawy o zmianie ustawy
+    o podatku od towarów i usług (druk nr 2838)
+
+         Sejm na 63. posiedzeniu w dniu 30 lipca 2026 r., zgodnie z art. 39 ust. 2 regulaminu
+    Sejmu skierował powyższy projekt ustawy do Komisji do Spraw Deregulacji oraz Komisji
+    Finansów Publicznych w celu rozpatrzenia.
+
+
+        Komisje: do Spraw Deregulacji oraz Finansów Publicznych po rozpatrzeniu
+    powyższego projektu ustawy na posiedzeniu w dniu 3 września 2026 r.
+
+         wnoszą:
+
+         W y s o k i S e j m uchwalić raczy załączony projekt ustawy.
+
+
+    Warszawa, dnia 3 września 2026 r.
+
+               Przewodniczący Komisji                         Przewodniczący Komisji
+                Finansów Publicznych                           do Spraw Deregulacji
+
+                   (-) Janusz Cichoń                               (-) Ryszard Petru
+
+
+                                            Sprawozdawca
+
+                                       (-) Marek Jan Chmielewski
+
+
+
+
+                      Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 6     Data : 2026-09-07    Nazwa pliku : V6_98-101.NK 1
+X kadencja/druk nr 2838
+
+                                                                                                  Projekt
+                                              U S T AWA
+
+                                                   z dnia
+
+                          o zmianie ustawy o podatku od towarów i usług
+
+
+       Art. 1. W ustawie z dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. z 2025 r.
+poz. 775, z późn. zm.1)) wprowadza się następujące zmiany:
+1)     w art. 2 pkt 8 otrzymuje brzmienie:
+       „8) eksporcie towarów – rozumie się przez to dostawę towarów wysyłanych lub
+             transportowanych z terytorium kraju poza terytorium Unii Europejskiej przez:
+             a)    dostawcę lub na jego rzecz, lub
+             b)    nabywcę mającego siedzibę poza terytorium kraju lub na jego rzecz, z
+                   wyłączeniem towarów wywożonych przez samego nabywcę do celów
+                   wyposażenia lub zaopatrzenia statków rekreacyjnych oraz turystycznych
+                   statków powietrznych lub innych środków transportu służących do celów
+                   prywatnych;”;
+2)     w art. 33 w ust. 7a w części wspólnej wyrazy „przedstawi organowi celnemu dokumenty
+       potwierdzające, że jest zarejestrowany jako podatnik VAT czynny i” zastępuje się
+       wyrazami „jest zarejestrowany jako podatnik VAT czynny oraz przedstawi organowi
+       celnemu dokumenty potwierdzające, że”;
+3)     w art. 33a w ust. 2 w pkt 1 uchyla się lit. b;
+4)     w art. 33b:
+       a)    po ust. 1 dodaje się ust. 1a w brzmieniu:
+                   „1a. W przypadku gdy zgłoszenie celne lub zgłoszenie uzupełniające w ramach
+             odprawy scentralizowanej realizowanej zgodnie z ust. 1 jest dokonywane przez
+             przedstawiciela pośredniego w rozumieniu przepisów celnych, deklarację importową
+             składa podatnik, na rzecz którego jest składane zgłoszenie celne lub zgłoszenie
+             uzupełniające.”,
+       b)    w ust. 2 w zdaniu pierwszym po wyrazach „naczelnikowi urzędu celno-skarbowego”
+             dodaje się wyrazy „ , za pomocą środków komunikacji elektronicznej,”,
+
+
+1)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2025 r. poz. 894, 896, 1203,
+     1541 i 1811 oraz z 2026 r. poz. 507 i 846.
+Liczba stron : 6    Data : 2026-09-07   Nazwa pliku : V6_98-101.NK 2
+X kadencja/druk nr 2838
+
+     c)    po ust. 2 dodaje się ust. 2a w brzmieniu:
+                   „2a. Deklaracja importowa zawiera dane podatnika oraz dane pozwalające na
+           prawidłowe rozliczenie podatku, w szczególności podstawę opodatkowania i
+           wysokość podatku należnego.”,
+     d)    w ust. 5 wprowadzenie do wyliczenia otrzymuje brzmienie:
+           „Minister właściwy do spraw finansów publicznych określi, w drodze
+           rozporządzenia, szczegółowy zakres danych, jakie powinna zawierać deklaracja
+           importowa, wraz z objaśnieniami co do sposobu jej wypełnienia i niezbędnymi
+           pouczeniami, miejsce i sposób jej składania oraz właściwość miejscową naczelnika
+           urzędu celno-skarbowego, o którym mowa w ust. 2, uwzględniając:”;
+5)   w art. 34 w ust. 2 wyrazy „z wyjątkiem przypadków określonych w art. 33a” zastępuje się
+     wyrazami „z wyjątkiem przypadków określonych w art. 33a i art. 138i”;
+6)   w art. 41:
+     a)    w ust. 4 skreśla się wyrazy „ , o którym mowa w art. 2 pkt 8 lit. a,”,
+     b)    w ust. 5 skreśla się wyrazy „ , o którym mowa w art. 2 pkt 8 lit. a,”,
+     c)    ust. 6 otrzymuje brzmienie:
+                   „6. Stawkę podatku 0 % stosuje się w eksporcie towarów, o którym mowa w
+           ust. 4 i 5, pod warunkiem że podatnik przed upływem terminu do złożenia deklaracji
+           podatkowej za dany okres rozliczeniowy posiada dowody, z których wynika, że w
+           wyniku dostawy towary zostały wywiezione poza terytorium Unii Europejskiej.”,
+     d)    w ust. 6a wprowadzenie do wyliczenia otrzymuje brzmienie:
+           „Dowodami, o których mowa w ust. 6, są dokumenty potwierdzone przez właściwe
+           organy celne określone w przepisach celnych, w szczególności:”,
+     e)    po ust. 6b dodaje się ust. 6c w brzmieniu:
+                   „6c. Dowodami, o których mowa w ust. 6, mogą być również:
+           1)      dokument    przewozowy       otrzymany   od   przewoźnika        lub   spedytora
+                   odpowiedzialnego za wywóz towarów z terytorium kraju, z którego wynika, że
+                   towary zostały dostarczone do miejsca ich przeznaczenia poza terytorium Unii
+                   Europejskiej, w tym dokument otrzymany w systemie elektronicznym tego
+                   przewoźnika lub spedytora;
+           2)      dokument potwierdzający dostarczenie przesyłki do miejsca jej przeznaczenia
+                   poza terytorium Unii Europejskiej przez operatora pocztowego w rozumieniu
+                   przepisów ustawy z dnia 23 listopada 2012 r. – Prawo pocztowe (Dz. U. z 2026
+Liczba stron : 6    Data : 2026-09-07   Nazwa pliku : V6_98-101.NK 3
+X kadencja/druk nr 2838
+
+                   r. poz. 558), w tym dokument otrzymany w systemie elektronicznym tego
+                   operatora;
+           3)      dokument wydany przez administrację celną państwa spoza terytorium Unii
+                   Europejskiej, potwierdzający przywóz i odprawę celną towarów w tym
+                   państwie, lub jego kopia, oraz pisemne oświadczenie nabywcy towarów, że
+                   towary zostały dostarczone do miejsca ich przeznaczenia poza terytorium Unii
+                   Europejskiej.”,
+     f)    ust. 7 otrzymuje brzmienie:
+                   „7. Jeżeli warunek, o którym mowa w ust. 6, nie został spełniony, podatnik nie
+           wykazuje tej dostawy w ewidencji, o której mowa w art. 109 ust. 3, za dany okres
+           rozliczeniowy, lecz w okresie następnym, stosując stawkę podatku 0 %, pod
+           warunkiem posiadania dowodów, o których mowa w ust. 6, przed upływem terminu
+           do złożenia deklaracji podatkowej za ten następny okres.”,
+     g)    po ust. 7 dodaje się ust. 7a w brzmieniu:
+                   „7a. W przypadku gdy podatnik nie posiadał dowodów, o których mowa w ust.
+           6, w terminie, o którym mowa w ust. 7, do dostawy towaru stosuje się stawki
+           właściwe dla dostawy tego towaru na terytorium kraju.”,
+     h)    uchyla się ust. 8,
+     i)    ust. 9 i 9a otrzymują brzmienie:
+                   „9. W przypadku gdy podatnik otrzymał dowody, o których mowa w ust. 6, w
+           terminie późniejszym niż określony w ust. 6 i 7, może dokonać korekty podatku
+           należnego w rozliczeniu za okres rozliczeniowy, w którym otrzymał te dowody.
+                   9a. Jeżeli podatnik otrzymał całość lub część zapłaty przed dokonaniem
+           eksportu towarów, o którym mowa w ust. 4 i 5, stawkę podatku 0 % stosuje się w
+           odniesieniu do otrzymanej zapłaty, pod warunkiem że:
+           1)      wywóz towarów nastąpi w terminie 6 miesięcy, licząc od końca miesiąca, w
+                   którym podatnik otrzymał tę zapłatę, oraz
+           2)      podatnik w terminie, o którym mowa w pkt 1, posiadał dowody, o których
+                   mowa w ust. 6, przy czym przepisy ust. 7, 7a i 9 stosuje się odpowiednio.”,
+     j)    uchyla się ust. 11;
+7)   w art. 52 w ust. 1 we wprowadzeniu do wyliczenia skreśla się wyrazy „przebywającej na
+     terytorium kraju”;
+8)   w art. 138i:
+Liczba stron : 6    Data : 2026-09-07   Nazwa pliku : V6_98-101.NK 4
+X kadencja/druk nr 2838
+
+     a)    w ust. 2 pkt 2 otrzymuje brzmienie:
+           „2) osoba odpowiedzialna za pobór podatku:
+                   a)   jest operatorem pocztowym w rozumieniu ustawy z dnia 23 listopada 2012
+                        r. – Prawo pocztowe lub podatnikiem posiadającym status upoważnionego
+                        przedsiębiorcy w rozumieniu art. 38 unijnego kodeksu celnego,
+                   b)   złożyła naczelnikowi urzędu celno-skarbowego oświadczenie, że zamierza
+                        rozliczać podatek na zasadach określonych w ust. 1 i pobierać podatek od
+                        osoby, dla której towary są przeznaczone.”,
+     b)    ust. 5 otrzymuje brzmienie:
+                   „5. Osoba odpowiedzialna za pobór podatku jest obowiązana składać
+           naczelnikowi urzędu celno-skarbowego, za pomocą środków komunikacji
+           elektronicznej, deklarację miesięczną w terminie do 16. dnia miesiąca następującego
+           po miesiącu, w którym został pobrany podatek.”,
+     c)    po ust. 5 dodaje się ust. 5a w brzmieniu:
+                   „5a. Deklaracja miesięczna zawiera dane osoby odpowiedzialnej za pobór
+           podatku oraz dane niezbędne do rozliczenia podatku ze zgłoszeń celnych
+           dokonanych dla importu towarów, o którym mowa w ust. 1, pobranego w danym
+           miesiącu.”,
+     d)    po ust. 6 dodaje się ust. 6a w brzmieniu:
+                   „6a. W przypadku gdy przesyłka nie zostanie doręczona osobie, dla której
+           towary są przeznaczone, osoba odpowiedzialna za pobór podatku jest obowiązana do
+           zapłaty podatku wykazanego w zgłoszeniu celnym naczelnikowi urzędu skarbowego
+           właściwemu do poboru kwoty należności celnych przywozowych wynikających z
+           długu celnego, z wyjątkiem przypadku, w którym niedoręczona przesyłka została
+           zwrócona do nadawcy poza terytorium Unii Europejskiej albo zniszczona zgodnie z
+           przepisami ustawy z dnia 23 listopada 2012 r. – Prawo pocztowe.”,
+     e)    w ust. 7 skreśla się zdanie drugie,
+     f)    po ust. 7 dodaje się ust. 7a w brzmieniu:
+                   „7a. Ewidencja, o której mowa w ust. 7, zawiera:
+           1)      datę dokonania wpisu do ewidencji;
+           2)      opis towarów będących przedmiotem importu;
+           3)      numer i datę przyjęcia zgłoszenia celnego;
+           4)      kwotę podatku obliczonego w zgłoszeniu celnym;
+Liczba stron : 6    Data : 2026-09-07     Nazwa pliku : V6_98-101.NK 5
+X kadencja/druk nr 2838
+
+           5)      kwotę pobranego podatku;
+           6)      datę:
+                   a)      doręczenia towaru i pobrania podatku albo
+                   b)      dokonania zwrotu niedoręczonej przesyłki poza terytorium Unii
+                           Europejskiej albo zniszczenia niedoręczonej przesyłki, ze wskazaniem
+                           szczegółowych informacji potwierdzających jej zwrot albo zniszczenie.”,
+     g)    dodaje się ust. 17 w brzmieniu:
+                   „17. Minister właściwy do spraw finansów publicznych określi, w drodze
+           rozporządzenia, szczegółowy zakres danych, jakie powinna zawierać deklaracja
+           miesięczna, wraz z niezbędnymi pouczeniami, miejsce i sposób jej składania oraz
+           właściwość miejscową naczelnika urzędu celno-skarbowego, o którym mowa w ust.
+           2 pkt 2 lit. b i ust. 5, uwzględniając konieczność prawidłowego rozliczenia podatku
+           oraz kontroli wykonania tego obowiązku.”.
+
+     Art. 2. Do deklaracji, o których mowa w art. 33b ust. 1 ustawy zmienianej w art. 1,
+składanych za okresy rozliczeniowe przypadające przed dniem wejścia w życie niniejszej
+ustawy stosuje się przepisy dotychczasowe.
+
+     Art. 3. 1. Do eksportu towarów, dla którego termin do złożenia deklaracji podatkowej nie
+upłynął przed dniem wejścia w życie niniejszej ustawy, stosuje się przepisy art. 2 pkt 8 oraz
+art. 41 ust. 6–7a i 9 ustawy zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą.
+     2. W przypadku gdy przed dniem wejścia w życie niniejszej ustawy podatnik otrzymał
+całość lub część zapłaty z tytułu eksportu towarów, a wywóz towarów nastąpi po tym dniu,
+stosuje się przepis art. 41 ust. 9a ustawy zmienianej w art. 1, w brzmieniu nadanym niniejszą
+ustawą.
+
+     Art. 4. 1. W przypadku gdy import towarów, o których mowa w art. 138i ust. 1 ustawy
+zmienianej w art. 1, nastąpił przed dniem 1 lipca 2026 r., a pobór podatku z tytułu tego importu
+nastąpił po tym dniu, osoba odpowiedzialna za pobór podatku, o której mowa w art. 138i ust. 1
+ustawy zmienianej w art. 1, spełniająca warunki, o których mowa w art. 138i ust. 2 ustawy
+zmienianej w art. 1, w brzmieniu dotychczasowym, jest obowiązana uwzględnić kwotę
+pobranego podatku w deklaracji miesięcznej, o której mowa w art. 138i ust. 5 ustawy
+zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą, zawierającej dane, o których mowa
+w art. 138i ust. 5a i w przepisach wykonawczych wydanych na podstawie art. 138i ust. 17
+Liczba stron : 6   Data : 2026-09-07   Nazwa pliku : V6_98-101.NK 6
+X kadencja/druk nr 2838
+
+ustawy zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą, składanej za miesiąc, w
+którym wszedł w życie niniejszy przepis.
+     2. W przypadku, o którym mowa w ust. 1, osoba odpowiedzialna za pobór podatku jest
+obowiązana do wpłacenia pobranego podatku w terminie do 16. dnia miesiąca następującego
+po miesiącu, za który jest składana deklaracja miesięczna.
+
+     Art. 5. W przypadku gdy osoba odpowiedzialna za pobór podatku, o której mowa w art.
+138i ust. 1 ustawy zmienianej w art. 1, złoży oświadczenie, o którym mowa w art. 138i ust. 2
+pkt 2 lit. b ustawy zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą, w terminie 10
+dni od dnia wejścia w życie niniejszego przepisu, warunek, o którym mowa w art. 138i ust. 2
+pkt 2 lit. b ustawy zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą, uważa się za
+spełniony.
+
+     Art. 6. Dotychczasowe przepisy wykonawcze wydane na podstawie art. 33b ust. 5 ustawy
+zmienianej w art. 1 tracą moc.
+
+     Art. 7. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia, z wyjątkiem art.
+1 pkt 5, 7 i 8 oraz art. 4 i art. 5, które wchodzą w życie z dniem następującym po dniu ogłoszenia.
+

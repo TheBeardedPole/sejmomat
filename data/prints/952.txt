@@ -1,0 +1,1477 @@
+                                                                          Druk nr 952
+                                                               Warszawa, 31 grudnia 2024 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-134-24
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+
+  - o zmianie ustawy - Prawo lotnicze.
+
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Infrastruktury.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                  Projekt
+                                             U S T AWA
+
+                                                 z dnia
+
+                               o zmianie ustawy – Prawo lotnicze
+
+
+     Art. 1. W ustawie z dnia 3 lipca 2002 r. – Prawo lotnicze (Dz. U. z 2023 r. poz. 2110 oraz
+z 2024 r. poz. 731 i 1222) wprowadza się następujące zmiany:
+1)   w art. 1 ust. 4 otrzymuje brzmienie:
+           „4. Przepisów prawa lotniczego nie stosuje się do lotnictwa państwowego,
+     z wyjątkiem przepisów art. 1 ust. 6, art. 2–9, art. 14, art. 17 ust. 17, ust. 22 pkt 2 i ust. 23,
+     art. 33, art. 35 ust. 2, art. 43, art. 44, art. 59a ust. 6, art. 60, art. 66 ust. 1a–1d i 3, art. 66a,
+     art. 66b, art. 68 ust. 2, 2e i 2f, art. 69 ust. 1–3, art. 74–76, art. 82 ust. 1 pkt 6–8, ust. 1a, 1b
+     i 3–8, art. 87, art. 871 ust. 1–8 i 10, art. 871a, art. 872, art. 874 ust. 1, 2, 4 i 5, art. 875
+     ust. 1–4, art. 876–87a, art. 89, art. 92, art. 93a ust. 1 pkt 5, art. 104 ust. 4–9, art. 119–122,
+     art. 123–126, art. 128, art. 130, art. 133, art. 134 ust. 1–1f, art. 135 ust. 3 pkt 3, art. 135a
+     ust. 2 pkt 8, art. 136, art. 137 ust. 1–4, art. 140–140e, art. 149–150, art. 193 ust. 5 oraz
+     art. 207 ust. 8, z zastrzeżeniem ust. 5.”;
+2)   po art. 871 dodaje się art. 871a w brzmieniu:
+           „Art. 871a. 1. Obiekty budowlane, w tym tymczasowe obiekty budowlane,
+     o wysokości równej 50 m albo większej, ale mniejszej niż 100 m powyżej poziomu
+     otaczającego terenu lub wody, zlokalizowane na terytorium Rzeczypospolitej Polskiej
+     oraz na obszarze wyłącznej strefy ekonomicznej Rzeczypospolitej Polskiej, podlegają
+     zgłoszeniu do Ministra Obrony Narodowej, o ile nie zostały wpisane do ewidencji
+     przeszkód lotniczych.
+           2. Zgłoszenia, o którym mowa w ust. 1, dokonuje się nie później niż 2 miesiące przed
+     dniem osiągnięcia przez obiekt budowlany wysokości 50 m powyżej poziomu
+     otaczającego terenu lub wody.
+           3. Zgłoszenia, o którym mowa w ust. 1, w formie dokumentów elektronicznych
+     opatrzonych kwalifikowanym podpisem elektronicznym, podpisem zaufanym albo
+     podpisem osobistym, a w przypadku braku możliwości złożenia kwalifikowanego
+     podpisu elektronicznego, podpisu zaufanego albo podpisu osobistego – w formie
+     dokumentów elektronicznych oraz wydruku z własnoręcznym czytelnym podpisem,
+     dokonuje podmiot:
+                                         –2–
+
+
+1)   będący właścicielem nieruchomości, użytkownikiem wieczystym, osobą, której
+     przysługują ograniczone prawa rzeczowe do nieruchomości, albo innym podmiotem
+     władającym lub gospodarującym nieruchomością, na której znajduje się obiekt
+     budowlany, w zależności od tego, kto faktycznie włada lub gospodaruje tą
+     nieruchomością;
+2)   który uzyskał pozwolenie na wznoszenie lub wykorzystywanie sztucznych wysp,
+     konstrukcji i urządzeń w polskich obszarach morskich, wydane na podstawie
+     przepisów ustawy z dnia 21 marca 1991 r. o obszarach morskich Rzeczypospolitej
+     Polskiej i administracji morskiej – w przypadku przedsięwzięć zlokalizowanych na
+     obszarach morskich Rzeczypospolitej Polskiej.
+     4. Zgłoszenie, o którym mowa w ust. 1, zawiera:
+1)   dane kontaktowe podmiotu, o którym mowa w ust. 3:
+     a)   imię i nazwisko,
+     b)   firmę albo nazwę,
+     c)   adres korespondencyjny,
+     d)   adres poczty elektronicznej,
+     e)   numer telefonu, jeżeli podmiot wyraża na to zgodę;
+2)   skrócony opis techniczny z podaniem nazwy, rodzaju i charakterystyki obiektu
+     budowlanego oraz jego konstrukcji;
+3)   dane określające lokalizację obiektu budowlanego oraz jego najwyższego punktu,
+     w układzie współrzędnych Światowego Systemu Geodezyjnego 1984 (WGS84), z
+     rozdzielczością zapisu 1/100 sekundy, a także identyfikator lub numer działki
+     ewidencyjnej, na której znajduje się obiekt, wraz z podaniem nazwy i numeru obrębu
+     ewidencyjnego i nazwy miejscowości;
+4)   dane określające wysokość powyżej poziomu otaczającego terenu lub wody
+     najwyższego    punktu    obiektu    budowlanego,   w   układzie   wysokościowym
+     PL-EVRF2007-NH z rozdzielczością zapisu 1/10 m oraz rzędną terenu dla
+     projektowanego obiektu z rozdzielczością zapisu 1/10 m;
+5)   przewidywany termin zakończenia budowy obiektu budowlanego;
+6)   przewidywany termin osiągnięcia przez obiekt budowlany wysokości 50 m powyżej
+     poziomu otaczającego terenu lub wody.
+     5. Minister Obrony Narodowej prowadzi, w formie elektronicznej przy użyciu
+jawnego systemu teleinformatycznego, ewidencję zgłoszonych obiektów budowlanych,
+                                             –3–
+
+
+     o których mowa w ust. 1. W ewidencji zamieszcza się dane i informacje, o których mowa
+     w ust. 4. Ewidencja jest jawna w zakresie danych i informacji, o których mowa w ust. 4
+     pkt 2–6.
+          6. Minister Obrony Narodowej może upoważnić kierownika podległej mu lub przez
+     niego nadzorowanej jednostki organizacyjnej do załatwiania spraw związanych z obsługą
+     zgłoszeń i zawiadomień dotyczących obiektów budowlanych, o których mowa w ust. 1,
+     oraz do prowadzenia ewidencji, o której mowa w ust. 5.
+          7. W przypadku:
+     1)   zmiany w zakresie danych, o których mowa w ust. 4 pkt 1,
+     2)   zmiany parametrów obiektu budowlanego, o którym mowa w ust. 1, skutkującej
+          wygaśnięciem obowiązku jego zgłoszenia,
+     3)   likwidacji obiektu budowlanego, o którym mowa w ust. 1
+     – podmiot, o którym mowa w ust. 3, niezwłocznie, jednak nie później niż w terminie
+     14 dni odpowiednio od dnia zaistnienia zmiany albo od dnia likwidacji obiektu
+     budowlanego, zawiadamia o tym Ministra Obrony Narodowej, w celu aktualizacji
+     ewidencji, o której mowa w ust. 5. W przypadku, o którym mowa w zdaniu pierwszym
+     w pkt 1, zawiadomienie zawiera uaktualnione dane.
+          8. Na podstawie zawiadomienia, o którym mowa w ust. 7, Minister Obrony
+     Narodowej aktualizuje ewidencję, o której mowa w ust. 5.
+          9. W przypadku gdy nie ma podmiotu, o którym mowa w ust. 3, albo gdy miejsce
+     jego pobytu nie jest znane lub nie jest możliwe do ustalenia na podstawie katastru
+     nieruchomości w rozumieniu art. 2 pkt 8 ustawy z dnia 17 maja 1989 r. – Prawo
+     geodezyjne i kartograficzne, przedstawiciel Ministra Obrony Narodowej ma prawo
+     dostępu do nieruchomości, na której znajduje się obiekt budowlany, o którym mowa
+     w ust. 1, w celu pomiaru i weryfikacji danych i informacji, o których mowa w ust. 4
+     pkt 2–4, o tym obiekcie, a w przypadku stwierdzenia rozbieżności między stanem
+     faktycznym a danymi i informacjami zawartymi w ewidencji, o której mowa w ust. 5,
+     dokonuje się z urzędu jej aktualizacji.”;
+3)   w art. 211 w ust. 1 po pkt 4a dodaje się pkt 4b i 4c w brzmieniu:
+     „4b) wbrew art. 871a ust. 1 nie zgłasza do Ministra Obrony Narodowej obiektu
+          budowlanego, o którym mowa w tym przepisie,
+     4c) wbrew art. 871a ust. 7 pkt 2 i 3 nie zawiadamia Ministra Obrony Narodowej
+          o zmianie parametrów obiektu budowlanego, o którym mowa w art. 871a ust. 1,
+                                            –4–
+
+
+           skutkującej wygaśnięciem obowiązku jego zgłoszenia albo o likwidacji tego obiektu
+           budowlanego,”.
+
+     Art. 2. 1. Obiekty budowlane, w tym tymczasowe obiekty budowlane, zlokalizowane na
+terytorium Rzeczypospolitej Polskiej oraz na obszarze wyłącznej strefy ekonomicznej
+Rzeczypospolitej Polskiej:
+1)   które do dnia wejścia w życie niniejszej ustawy osiągnęły wysokość równą 50 m albo
+     większą, ale mniejszą niż 100 m powyżej poziomu otaczającego terenu lub wody i nie
+     zostały zgłoszone do właściwego organu nadzoru nad lotnictwem wojskowym,
+2)   w stosunku do których w dniu wejścia w życie niniejszej ustawy termin osiągnięcia
+     wysokości 50 m powyżej poziomu otaczającego terenu lub wody jest krótszy niż termin
+     określony w art. 871a ust. 2 ustawy zmienianej w art. 1
+– podlegają zgłoszeniu do Ministra Obrony Narodowej w terminie 3 miesięcy od dnia wejścia
+w życie niniejszej ustawy, o ile nie zostały wpisane do ewidencji przeszkód lotniczych.
+     2. Do zgłoszenia, o którym mowa w ust. 1, stosuje się przepisy art. 871a ust. 3 i ust. 4
+pkt 1–5 ustawy zmienianej w art. 1.
+     3. Kto nie zgłosi do Ministra Obrony Narodowej obiektu budowlanego zgodnie
+z obowiązkiem wynikającym z ust. 1, podlega grzywnie, karze ograniczenia wolności lub
+pozbawienia wolności do roku.
+
+     Art. 3. Dane i informacje dotyczące obiektów budowlanych, o których mowa w art. 871a
+ust. 1 ustawy zmienianej w art. 1, zawarte w zgłoszeniach do właściwego organu nadzoru nad
+lotnictwem wojskowym dokonanych przed dniem wejścia w życie niniejszej ustawy włącza się
+do ewidencji, o której mowa w art. 871a ust. 5 ustawy zmienianej w art. 1.
+
+     Art. 4. 1. Podmioty, o których mowa w art. 871a ust. 3 ustawy zmienianej w art. 1, które
+przed dniem wejścia w życie niniejszej ustawy zgłosiły obiekty budowlane, o których mowa
+w art. 871a ust. 1 ustawy zmienianej w art. 1, do właściwego organu nadzoru nad lotnictwem
+wojskowym, albo następcy prawni tych podmiotów dokonują weryfikacji zgłoszonych danych
+i informacji.
+     2. W przypadku gdy weryfikacja, o której mowa w ust. 1, wykaże, że obiekt budowlany
+nie spełnia wymagań, o których mowa w art. 871a ust. 1 ustawy zmienianej w art. 1, podmiot,
+o którym mowa w art. 871a ust. 3 ustawy zmienianej w art. 1, albo następca prawny tego
+podmiotu zawiadamiają o tym Ministra Obrony Narodowej w terminie 3 miesięcy od dnia
+                                            –5–
+
+
+wejścia w życie niniejszej ustawy, w celu aktualizacji ewidencji, o której mowa w art. 871a
+ust. 5 ustawy zmienianej w art. 1.
+     3. Zawiadomienia, o którym mowa w ust. 2, dokonuje się w formie dokumentów
+elektronicznych opatrzonych kwalifikowanym podpisem elektronicznym, podpisem zaufanym
+albo podpisem osobistym, a w przypadku braku możliwości złożenia kwalifikowanego podpisu
+elektronicznego, podpisu zaufanego albo podpisu osobistego – w formie dokumentów
+elektronicznych oraz wydruku z własnoręcznym czytelnym podpisem. Przepisy art. 871a ust. 4
+pkt 1–4 ustawy zmienianej w art. 1 stosuje się odpowiednio.
+     4. Na podstawie zawiadomienia, o którym mowa w ust. 2, Minister Obrony Narodowej
+aktualizuje ewidencję, o której mowa w art. 871a ust. 5 ustawy zmienianej w art. 1.
+
+     Art. 5. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                     UZASADNIENIE
+
+
+I. Potrzeba i cel wydania aktu
+
+Projekt wprowadza w ustawie z dnia 3 lipca 2002 r. – Prawo lotnicze (Dz. U. z 2023 r.
+poz. 2110, z późn. zm.), zwanej dalej „ustawą”, zmiany mające na celu uregulowanie
+obowiązku zgłaszania obiektów budowlanych, w tym tymczasowych obiektów budowlanych,
+o wysokości równej 50 m albo większej, ale mniejszej niż 100 m powyżej poziomu
+otaczającego terenu lub wody. Propozycja dąży do przywrócenia obowiązującej przed dniem
+2 października 2020 r. regulacji dotyczącej zgłaszania do odpowiedniego organu wojskowego
+wszystkich obiektów budowlanych, w tym tymczasowych obiektów budowlanych, o wysokości
+od 50 m powyżej poziomu otaczającego terenu lub wody, wynikającej z § 2 ust. 2
+rozporządzenia Ministra Infrastruktury z dnia 25 czerwca 2003 r. w sprawie sposobu zgłaszania
+oraz oznakowania przeszkód lotniczych (Dz. U. poz. 1193, z późn. zm.), zwanego dalej
+„rozporządzeniem MI z dnia 25 czerwca 2003 r.”, które utraciło moc z dniem 2 października
+2020 r.
+
+W obowiązującym stanie prawnym brak jest podstawy do nałożenia na jakikolwiek podmiot
+obowiązku zgłaszania obiektu niebędącego przeszkodą lotniczą w rozumieniu ustawy, ale
+stanowiącego realne zagrożenie dla bezpieczeństwa ruchu lotniczego wojskowych statków
+powietrznych. Brak regulacji w tym zakresie ma negatywny wpływ na bezpieczeństwo
+wojskowego ruchu lotniczego, dlatego jest niezbędne wprowadzenie proponowanych zmian.
+
+W projekcie proponuje się przywrócenie obowiązku zgłaszania do Ministra Obrony Narodowej
+wszystkich obiektów budowlanych, w tym tymczasowych obiektów budowlanych, o wysokości
+równej 50 m albo większej, ale mniejszej niż 100 m powyżej poziomu otaczającego terenu lub
+wody, zlokalizowanych na terytorium Rzeczypospolitej Polskiej oraz na obszarze wyłącznej
+strefy ekonomicznej Rzeczypospolitej Polskiej. Obowiązek ten nie dotyczy obiektów, które
+zostały wpisane do ewidencji przeszkód lotniczych. Projekt nakłada obowiązek zgłaszania ww.
+obiektów na właściciela nieruchomości, użytkownika wieczystego, osobę, której przysługują
+ograniczone prawa rzeczowe do nieruchomości, albo inny podmiot władający lub
+gospodarujący nieruchomością, na której znajduje się obiekt budowlany, w zależności od tego,
+kto faktycznie włada lub gospodaruje nieruchomością, a także na podmiot, który uzyskał
+pozwolenie na wznoszenie lub wykorzystywanie sztucznych wysp, konstrukcji i urządzeń
+w polskich obszarach morskich, wydane na podstawie przepisów ustawy z dnia 21 marca
+1991 r. o obszarach morskich Rzeczypospolitej Polskiej i administracji morskiej (Dz. U.
+z 2024 r. poz. 1125), w przypadku przedsięwzięć zlokalizowanych na obszarach morskich
+Rzeczypospolitej Polskiej. Minister Obrony Narodowej będzie mógł upoważnić kierownika
+podległej mu lub przez niego nadzorowanej jednostki organizacyjnej do załatwiania spraw
+związanych z obsługą zgłoszeń oraz zawiadomień dotyczących obiektów budowlanych, w tym
+tymczasowych obiektów budowlanych, o wysokości równej 50 m albo większej, ale mniejszej
+niż 100 m powyżej poziomu otaczającego terenu lub wody, zlokalizowanych na terytorium
+Rzeczypospolitej Polskiej oraz na obszarze wyłącznej strefy ekonomicznej Rzeczypospolitej
+Polskiej, niewpisanych do ewidencji przeszkód lotniczych, a także do prowadzenia ewidencji,
+o której mowa w projektowanym art. 871a ust. 5 ustawy. Jednostką organizacyjną Sił Zbrojnych
+Rzeczypospolitej Polskiej właściwą w tym zakresie jest aktualnie Szefostwo Służby Ruchu
+Lotniczego Sił Zbrojnych Rzeczypospolitej Polskiej (SSRL SZ RP).
+Pozyskiwanie informacji o powyższych obiektach jest niezbędne ze względu m.in. na realizację
+postanowień umów międzynarodowych zawartych przez Rzeczpospolitą Polską, a także ze
+względu na wymagania określone w programach szkolenia lotniczego na poszczególne typy
+wojskowych statków powietrznych w zakresie lotów koszących i profilowych wykonywanych
+w elastycznych elementach przestrzeni powietrznej wydzielanych dla lotnictwa wojskowego:
+TSA (Temporary Segregated Area – strefa czasowo wydzielona), TRA (Temporary Reserved
+Area – strefa czasowo rezerwowana), MRT (Military Route – trasa lotnictwa wojskowego),
+D (Danger Area – strefa niebezpieczna), zgodnie z rozporządzeniem Ministra Infrastruktury
+z dnia 27 grudnia 2018 r. w sprawie struktury polskiej przestrzeni powietrznej oraz
+szczegółowych warunków i sposobu korzystania z tej przestrzeni (Dz. U. z 2019 r. poz. 619).
+Ewidencja zgłoszonych obiektów jest jawna w zakresie informacji obejmujących:
+1) skrócony opis techniczny, nazwę, rodzaj i charakterystykę obiektu budowlanego oraz jego
+    konstrukcję;
+2) dane określające lokalizację obiektu budowlanego oraz jego najwyższy punkt, w układzie
+    współrzędnych Światowego Systemu Geodezyjnego 1984 (WGS84), z rozdzielczością
+    zapisu 1/100 sekundy, a także identyfikator lub numer działki ewidencyjnej, na której
+    znajduje się obiekt, wraz z podaniem nazwy i numeru obrębu ewidencyjnego i nazwy
+    miejscowości;
+3) dane określające wysokość powyżej poziomu otaczającego terenu lub wody najwyższego
+    punktu obiektu budowlanego, w układzie wysokościowym PL-EVRF2007-NH
+    z rozdzielczością zapisu 1/10 m oraz rzędną terenu dla projektowanego obiektu
+    z rozdzielczością zapisu 1/10 m;
+4) przewidywany termin zakończenia budowy obiektu budowlanego;
+
+
+                                             2
+5) przewidywany termin osiągnięcia przez obiekt budowlany wysokości 50 m powyżej
+      poziomu otaczającego terenu lub wody.
+Udostępnianiu nie będą podlegały dane osobowe zgłaszającego.
+
+Proponowana nowelizacja ustawy zapewni odpowiedni poziom bezpieczeństwa i jakości
+operacji lotniczych wykonywanych przez statki powietrzne Sił Zbrojnych Rzeczypospolitej
+Polskiej.
+
+II. Przedstawienie rzeczywistego stanu w dziedzinie, która ma być unormowana,
+     i wskazanie różnicy między dotychczasowym a projektowanym stanem prawnym
+
+Zgodnie z art. 871 ust. 1 ustawy, przeszkodami lotniczymi są obiekty:
+1)    wyższe niż wysokości określone przez wyznaczone powierzchnie ograniczające
+      przeszkody;
+2)    o wysokości od 100 m powyżej poziomu otaczającego terenu lub wody, zlokalizowane na
+      terytorium Rzeczypospolitej Polskiej oraz na obszarze wyłącznej strefy ekonomicznej
+      Rzeczypospolitej Polskiej;
+3)    występujące w pasie drogi startowej bez względu na ich wysokość;
+4)    inne niż obiekty, o których mowa w pkt 1–3, które zostały uznane przez Prezesa Urzędu
+      Lotnictwa Cywilnego, zwanego dalej „Prezesem Urzędu”, Ministra Obrony Narodowej
+      albo ministra właściwego do spraw wewnętrznych za przeszkodę lotniczą ze względu na
+      potencjalne zagrożenie dla ruchu statków powietrznych.
+
+Obowiązujące przepisy nakładają obowiązek zgłoszenia przeszkody lotniczej do Prezesa
+Urzędu, Ministra Obrony Narodowej oraz ministra właściwego do spraw wewnętrznych.
+Zgłoszenia przeszkody lotniczej, zgodnie z art. 871 ust. 6 ustawy, dokonuje:
+1)    właściciel nieruchomości, użytkownik wieczysty albo osoba, której przysługują
+      ograniczone prawa rzeczowe do nieruchomości, w zależności od tego, kto faktycznie
+      włada nieruchomością, na której znajduje się przeszkoda lotnicza;
+2)    zarządzający lotniskiem albo jednostka organizacyjna zarządzająca lotniskiem wpisanym
+      wyłącznie do rejestru lotnisk i lądowisk wojskowych albo wpisanym wyłącznie do rejestru
+      lotnisk i lądowisk lotnictwa służb porządku publicznego, w którego granicach
+      powierzchni ograniczających przeszkody znajduje się przeszkoda lotnicza – w przypadku
+      braku osoby, o której mowa w pkt 1, albo gdy miejsce pobytu tej osoby nie jest znane i nie
+      jest możliwe do ustalenia na podstawie katastru nieruchomości w rozumieniu art. 2 pkt 8
+      ustawy z dnia 17 maja 1989 r. – Prawo geodezyjne i kartograficzne (Dz. U. z 2024 r.
+      poz. 1151, z późn. zm.); zarządzający lotniskiem ma prawo dostępu do nieruchomości, na
+
+                                               3
+       której znajduje się przeszkoda lotnicza w granicach powierzchni ograniczających
+       przeszkody, celem pomiaru i weryfikacji danych o tej przeszkodzie;
+3)     podmiot, który doprowadził do powstania obiektu stałego o charakterze czasowym lub
+       obiektu ruchomego przekraczającego wysokość wyznaczoną przez powierzchnie
+       ograniczające przeszkody, jeżeli zostaną spełnione warunki określone w określonych
+       przepisach;
+4)     podmiot, który uzyskał pozwolenie na wznoszenie lub wykorzystywanie sztucznych
+       wysp, konstrukcji i urządzeń w polskich obszarach morskich, wydane na podstawie
+       ustawy z dnia 21 marca 1991 r. o obszarach morskich Rzeczypospolitej Polskiej
+       i administracji morskiej – w przypadku przedsięwzięć zlokalizowanych na obszarach
+       morskich Rzeczypospolitej Polskiej.
+
+Zgłoszeniu do Prezesa Urzędu, Ministra Obrony Narodowej oraz ministra właściwego do spraw
+wewnętrznych podlegają także, zgodnie z art. 871 ust. 10 ustawy, urządzenia, które ze względu
+na emisję silnych powietrznych fal uderzeniowych lub wyrzut dużych ilości gazu ziemnego do
+atmosfery mogą stanowić potencjalne zagrożenie dla ruchu lotniczego.
+
+Obowiązki dotyczące zgłaszania przeszkód lotniczych (urządzeń niebezpiecznych) mają na
+celu    zwiększenie    poziomu    bezpieczeństwa    ruchu   lotniczego.     Interes   publiczny
+(bezpieczeństwo) chroniony przez nałożenie powyższych obowiązków jest na tyle ważny, że
+ich niezrealizowanie zostało zagrożone sankcją. Zgodnie z art. 211 ust. 1 pkt 4 ustawy,
+niezastosowanie się do obowiązku zgłoszenia przeszkody lotniczej podlega grzywnie, karze
+ograniczenia wolności lub pozbawienia wolności do roku.
+
+Należy jednakże zauważyć, że zgłoszeniu podlegają obiekty spełniające warunki określone
+w art. 871 ust. 1 pkt 1–3 ustawy. W obowiązującym stanie prawnym brak jest podstawy do
+nałożenia na jakikolwiek podmiot obowiązku zgłaszania do Ministra Obrony Narodowej
+obiektów niebędących przeszkodą lotniczą w rozumieniu ustawy, ale stanowiących realne
+zagrożenie bezpieczeństwa w ruchu lotniczym wojskowych statków powietrznych. Dotychczas
+szczegółowe regulacje w tym zakresie znajdowały się w przepisach wydanych na podstawie
+upoważnienia zawartego w nieobowiązującym już art. 92 pkt 5 ustawy, tj. w rozporządzeniu
+MI z dnia 25 czerwca 2003 r. Na skutek nowelizacji ustawy wskazana podstawa zgłaszania
+obiektów innych niż przeszkody lotnicze została uchylona, co spowodowało brak regulacji
+w omawianym zakresie.
+
+
+
+
+                                               4
+III. Wskazanie różnic między dotychczasowym a projektowanym stanem prawnym
+
+Ustawą z dnia 14 grudnia 2018 r. o zmianie ustawy – Prawo lotnicze (Dz. U. z 2019 r. poz. 235),
+która weszła w życie z dniem 1 kwietnia 2019 r., zwaną dalej „ustawą z dnia 14 grudnia
+2018 r.”, wprowadzono szereg znaczących zmian w dotychczas obowiązujących przepisach,
+w tym regulujących rozumienie pojęcia przeszkody lotniczej.
+
+W stanie prawnym obowiązującym przed wejściem w życie ustawy z dnia 14 grudnia 2018 r.,
+tj. przed dniem 1 kwietnia 2019 r., jako przeszkodę lotniczą zgodnie z używanymi w przepisach
+krajowych terminami określano m.in. obiekty budowlane i obiekty naturalne stanowiące
+zagrożenie dla bezpieczeństwa ruchu statków powietrznych (por. art. 87 ust. 2 ustawy
+w brzmieniu przed zmianami dokonanymi ustawą z dnia 14 grudnia 2018 r.).
+
+Uszczegółowieniem dla tak określonego pojęcia „przeszkód lotniczych” były m.in. przepisy
+rozporządzenia wydanego na podstawie ówcześnie obowiązującego art. 92 pkt 5 ustawy, tj.
+rozporządzenia MI z dnia 25 czerwca 2003 r. Zgodnie z § 2 ust. 1 rozporządzenia MI z dnia
+25 czerwca 2003 r., zgłoszeniu do Prezesa Urzędu i do właściwego organu nadzoru nad
+lotnictwem       wojskowym,   a   także   oznakowaniu,     podlegały    przeszkody    lotnicze,
+w szczególności:
+1)   stałe lub tymczasowe obiekty budowlane oraz obiekty naturalne lub ich części,
+     o wysokościach przekraczających powierzchnie ograniczające, określone w przepisach
+     w sprawie warunków, jakie powinny spełniać obiekty budowlane oraz naturalne
+     w otoczeniu lotniska;
+2)   obiekty budowlane o wysokości 100 m i więcej powyżej poziomu otaczającego terenu lub
+     wody, zlokalizowane na terytorium Rzeczypospolitej Polskiej, w tym na polskich wodach
+     terytorialnych Morza Bałtyckiego;
+3)   obiekty budowlane oraz obiekty naturalne lub ich części trudno dostrzegalne z powietrza
+     na tle otoczenia z powodu ich barwy, położenia lub konstrukcji oraz inne naziemne
+     obiekty budowlane oraz obiekty naturalne lub ich części, zlokalizowane w strefach dolotu
+     do lotniska i odlotu, szczególnie w terenie pagórkowatym i górskim, uznane przez Prezesa
+     Urzędu lub przez właściwy organ nadzoru nad lotnictwem wojskowym za przeszkody
+     lotnicze.
+
+Ponadto § 2 ust. 2 rozporządzenia MI z dnia 25 czerwca 2003 r. wskazywał, że zgłoszeniu do
+właściwego organu nadzoru nad lotnictwem wojskowym, z zastrzeżeniem ust. 1, podlegają
+wszystkie stałe lub tymczasowe obiekty budowlane o wysokości 50 m i więcej.
+
+
+
+                                              5
+Ustawą z dnia 14 grudnia 2018 r. w znacznym stopniu zmieniono regulacje zawarte w art. 87
+ustawy, dodano art. 871–878 oraz zmodyfikowano upoważnienie ustawowe zawarte w art. 92
+ustawy. Wprowadzony art. 871 ust. 1 ustawy zawiera definicję przeszkody lotniczej. Zgodnie
+z jego treścią, za przeszkody lotnicze uznaje się obiekty wyższe niż określone przez
+powierzchnie ograniczające przeszkody, które są wyznaczane na podstawie przepisów
+wydanych na podstawie art. 92 ust. 2 ustawy (art. 871 ust. 1 pkt 1), obiekty o wysokości powyżej
+100 m nad poziomem terenu lub wody (art. 871 ust. 1 pkt 2), obiekty występujące w pasie drogi
+startowej bez względu na ich wysokość (art. 871 ust. 1 pkt 3) oraz inne obiekty, które zostaną
+uznane przez Prezesa Urzędu, Ministra Obrony Narodowej albo ministra właściwego do spraw
+wewnętrznych za przeszkodę lotniczą ze względu na potencjalne zagrożenie dla ruchu statków
+powietrznych (art. 871 ust. 1 pkt 4). Jednocześnie, zgodnie z art. 18 ustawy z dnia 14 grudnia
+2018 r., dotychczasowe przepisy wykonawcze wydane na podstawie m.in. art. 92 ustawy
+zostały zachowane w mocy, jednak przez okres nie dłuższy niż 18 miesięcy od dnia wejścia
+w życie ustawy z dnia 14 grudnia 2018 r. Wydane na podstawie art. 92 rozporządzenie MI
+z dnia 25 czerwca 2003 r. utraciło moc obowiązującą z dniem 2 października 2020 r. Od tego
+dnia brak jest podstawy do zgłaszania Ministrowi Obrony Narodowej obiektów o wysokości
+równej albo większej niż 50 m, ale mniejszej niż 100 m nad poziomem terenu lub wody.
+W obecnym stanie prawnym nie ma obowiązku zgłaszania obiektu niebędącego przeszkodą
+lotniczą w rozumieniu ustawy. Sytuacja taka stwarza zagrażającą bezpieczeństwu ruchu
+lotniczego wojskowych statków powietrznych lukę prawną. Projektowane zmiany
+wprowadzają obowiązek zgłaszania do Ministra Obrony Narodowej obiektów budowlanych,
+w tym tymczasowych obiektów budowlanych, o wysokości równej 50 m albo większej, ale
+mniejszej niż 100 m powyżej poziomu otaczającego terenu lub wody, oraz określają sposób
+i terminy przekazywania informacji oraz zakres tych informacji. Proponuje się, aby zgłoszenia
+dokonywać nie później niż 2 miesiące przed dniem osiągnięcia przez obiekt wysokości 50 m
+powyżej poziomu otaczającego terenu lub wody. Taki termin pozwoli Ministrowi Obrony
+Narodowej na dokonanie oceny wpływu zgłaszanego obiektu na operacje lotnicze prowadzone
+lub planowane przez Siły Zbrojne Rzeczypospolitej Polskiej. Ewidencję zgłoszonych obiektów
+budowlanych, w tym tymczasowych obiektów budowlanych, o wysokości równej 50 m albo
+większej, ale mniejszej niż 100 m powyżej poziomu otaczającego terenu lub wody
+(o ile nie zostały wpisane do ewidencji przeszkód lotniczych), będzie prowadził Minister
+Obrony Narodowej. Minister Obrony Narodowej będzie jednak mógł upoważnić kierownika
+podległej mu lub przez niego nadzorowanej jednostki organizacyjnej do załatwiania spraw
+związanych z obsługą zgłoszeń i zawiadomień dotyczących obiektów budowlanych, w tym
+
+
+                                               6
+tymczasowych obiektów budowlanych, o wysokości równej 50 m albo większej, ale mniejszej
+niż 100 m powyżej poziomu otaczającego terenu lub wody, zlokalizowanych na terytorium
+Rzeczypospolitej Polskiej oraz na obszarze wyłącznej strefy ekonomicznej Rzeczypospolitej
+Polskiej, niewpisanych do ewidencji przeszkód lotniczych, a także do prowadzenia ewidencji,
+o której mowa w ust. 5. Ewidencja będzie prowadzona w formie elektronicznej przy użyciu
+jawnego systemu teleinformatycznego, w której zamieszcza się dane i informacje, o których
+mowa w ust. 4. Ujawnieniu w ewidencji nie będą podlegać jedynie dane osobowe podmiotu
+zgłaszającego.
+
+Zakłada się przy tym wprowadzenie obowiązku zawarcia w zgłoszeniu informacji dotyczących
+m.in.:   przewidywanego    terminu   zakończenia   budowy     obiektu   budowlanego    oraz
+przewidywanego terminu osiągnięcia przez obiekt wysokości 50 m powyżej poziomu
+otaczającego terenu lub wody. Udzielenie powyższych informacji jest konieczne z uwagi na
+możliwość ewentualnego uznania przez Ministra Obrony Narodowej za przeszkodę lotniczą
+obiektu wysokościowego ze względu na potencjalne zagrożenie dla statków powietrznych.
+
+Obecnie baza danych SSRL SZ RP zawiera ponad 20 tys. zgłoszonych obiektów powyżej 50 m.
+Średnio miesięcznie dodawanych jest 200 nowych obiektów wysokościowych. Szczególną
+uwagę poświęca się obiektom w bliskiej odległości od lotnisk i lądowisk, które muszą być
+uwzględniane przy projektowaniu podejść/dolotów/odlotów na/z lotnisk/lądowisk.
+
+Uzupełnienie informacji o przewidywanym terminie osiągnięcia przez obiekt wysokości 50 m
+powyżej poziomu otaczającego terenu lub wody o dodatkową informację wskazującą
+przewidywany termin zakończenia budowy obiektu budowlanego jest konieczne z uwagi na
+wymianę informacji lotniczej i umieszczanie na mapach zgłaszanych obiektów z ich docelową
+wysokością po jej osiągnięciu. Ponadto informacja o czasie osiągnięcia wysokości docelowej
+obiektu jest ważna przy aktualizacji publikacji lotniczych, procedur podejścia do lądowania
+i odlotu dla lotnisk Sił Zbrojnych RP czy bazy obiektów wysokościowych. Wszelkie dane,
+które są publikowane, muszą być danymi pewnymi i potwierdzonymi, dopiero wtedy mogą
+zostać opublikowane w Zintegrowanym Pakiecie Informacji Lotniczej. Z punktu widzenia
+jednostki organizacyjnej Sił Zbrojnych Rzeczypospolitej Polskiej właściwej w zakresie służby
+ruchu lotniczego, tj. SSRL SZ RP, informacja o czasie osiągnięcia przez obiekt wysokości
+docelowej jest istotna również np. w przypadku konieczności dostępu do obiektu, celem
+realizacji pomiaru i w przypadku stwierdzenia rozbieżności między stanem faktycznym
+a danymi i informacjami zawartymi w ewidencji dokonania z urzędu jej aktualizacji.
+
+
+
+
+                                             7
+Mając powyższe na uwadze oraz ze względu na bezpieczeństwo żeglugi powietrznej również
+w kontekście zaspokojenia potrzeb operacyjnych lotów statków powietrznych, w tym:
+wynikających z realizacji prac badawczo-rozwojowych, lotów treningowych lub lotów
+próbnych, prowadzenia działań w ramach szkolenia lotniczego oraz ćwiczeń, podczas których
+manewry statku powietrznego nie są zgodne z przepisami o cywilnym ruchu lotniczym, jak
+również wykonywania operacji, w tym prowadzenia szkolenia bezzałogowym statkiem
+powietrznym poza zasięgiem widoczności wzrokowej z uwzględnieniem operacji statków
+powietrznych w czasie innym niż czas pokoju, niezbędne staje się pozyskanie informacji
+o przewidywanym     terminie   osiągnięcia   wysokości   docelowej    budowanego     obiektu
+wysokościowego. Należy dodać, że podobną konstrukcję zastosowano w odniesieniu do
+zgłoszeń obiektów uznawanych za przeszkody lotnicze w § 54 ust. 4 pkt 1 lit. k oraz l
+rozporządzenia Ministra Infrastruktury z dnia 12 stycznia 2021 r. w sprawie przeszkód
+lotniczych, powierzchni ograniczających przeszkody oraz urządzeń o charakterze
+niebezpiecznym (Dz. U. poz. 264), gdzie wprowadzono obowiązek zawarcia w zgłoszeniu
+przeszkody lotniczej informacji o przewidywanym terminie osiągnięcia przez obiekt wysokości
+docelowej oraz przewidywanego terminu osiągnięcia przez obiekt wysokości 100 m.
+
+W przypadku zmiany danych kontaktowych podmiotu obowiązanego do dokonania zgłoszenia,
+zmiany parametrów obiektu budowlanego skutkującej wygaśnięciem obowiązku zgłoszenia
+takiego obiektu oraz likwidacji obiektu, który uprzednio zostanie zgłoszony zgodnie
+z projektowaną regulacją, po stronie podmiotu obowiązanego do zgłoszenia przewidziano
+obowiązek niezwłocznego, tj. w terminie nie dłuższym niż 14 dni odpowiednio od dnia
+zaistnienia zmiany albo likwidacji obiektu, zawiadomienia Ministra Obrony Narodowej
+o zaistnieniu zmiany albo likwidacji obiektu, w celu aktualizacji ewidencji zgłoszonych
+obiektów.
+
+W przypadku gdy nie ma podmiotu obowiązanego do zgłoszenia albo gdy miejsce pobytu
+takiego podmiotu nie jest znane i nie jest możliwe do ustalenia na podstawie katastru
+nieruchomości w rozumieniu art. 2 pkt 8 ustawy z dnia 17 maja 1989 r. – Prawo geodezyjne
+i kartograficzne, przedstawiciel Ministra Obrony Narodowej będzie miał prawo dostępu do
+nieruchomości, na której znajduje się obiekt budowlany, w tym tymczasowy obiekt budowlany,
+o wysokości równej 50 m albo większej, ale mniejszej niż 100 m powyżej poziomu
+otaczającego terenu lub wody, celem pomiaru i weryfikacji danych i informacji o tym obiekcie,
+a w przypadku stwierdzenia rozbieżności między stanem faktycznym a danymi i informacjami
+zawartymi w ewidencji aktualizacja ewidencji zostanie dokonana z urzędu.
+
+
+                                             8
+Z uwagi na konieczność ochrony interesu publicznego przez zapewnienie odpowiedniego
+poziomu bezpieczeństwa wojskowego ruchu lotniczego, projektowana regulacja – tak jak
+w przypadku niezrealizowania obowiązku zgłoszenia przeszkody lotniczej – ustanawia sankcję
+karną grzywny, ograniczenia wolności lub pozbawienia wolności do roku za niedopełnienie
+obowiązku zawiadomienia o likwidacji obiektu budowlanego, w tym tymczasowego obiektu
+budowlanego, o wysokości równej 50 m albo większej, ale mniejszej niż 100 m powyżej
+poziomu otaczającego terenu lub wody, a także za niedopełnienie obowiązku zgłoszenia
+w przypadku likwidacji obiektu oraz w przypadku zmiany parametrów takiego obiektu
+skutkującej wygaśnięciem obowiązku jego zgłaszania.
+Zgodnie z art. 2 projektu, obiekty budowlane, w tym tymczasowe obiekty budowlane, które do
+dnia wejścia w życie projektowanej ustawy osiągnęły wysokość równą 50 m albo większą, ale
+mniejszą niż 100 m powyżej poziomu otaczającego terenu lub wody i nie zostały zgłoszone do
+właściwego organu nadzoru nad lotnictwem wojskowym, będą podlegały zgłoszeniu
+w terminie 3 miesięcy od dnia wejścia w życie projektowanej ustawy, o ile nie zostały wpisane
+do ewidencji przeszkód lotniczych. W tym samym terminie będą podlegały też zgłoszeniu
+obiekty budowlane, w tym tymczasowe obiekty budowlane, w stosunku do których w dniu
+wejścia w życie ustawy termin osiągnięcia wysokości 50 m powyżej poziomu otaczającego
+terenu lub wody będzie krótszy niż dwumiesięczny termin na zgłoszenie obiektu określony
+w projektowanym art. 871a ust. 2 ustawy – Prawo lotnicze.
+Przepis art. 3 stanowi, że dane i informacje zawarte w zgłoszeniach obiektów budowlanych,
+o których mowa w art. 871a ust. 1 ustawy zmienianej w art. 1, dokonanych do właściwego
+organu nadzoru nad lotnictwem wojskowym przed dniem wejścia w życie niniejszej ustawy
+włącza się do ewidencji zgłoszonych obiektów prowadzonej przez Ministra Obrony
+Narodowej.
+Przepis art. 4 projektu zakłada, że podmioty, które przed dniem wejścia w życie projektowanej
+ustawy dokonały zgłoszeń obiektów budowlanych do właściwego organu nadzoru nad
+lotnictwem wojskowym, albo następcy prawni tych podmiotów dokonują weryfikacji
+zgłoszonych danych i informacji. W przypadku gdy weryfikacja wykaże, że obiekt budowlany
+nie spełnia przesłanek zgłoszenia, podmiot zawiadomi o tym Ministra Obrony Narodowej,
+w terminie 3 miesięcy od dnia wejścia w życie niniejszej ustawy. Na podstawie ww.
+zawiadomienia Minister Obrony Narodowej zaktualizuje ewidencję. W ocenie SSRL SZ RP –
+opartej na wieloletnim doświadczeniu w sprawie rozpatrywania zgłoszeń dokonywanych przez
+inwestorów w okresie obowiązywania rozporządzenia MI z dnia 25 czerwca 2003 r. – termin
+3 miesięcy jest wystarczający na dokonanie weryfikacji istniejących obiektów i złożenie
+
+
+                                             9
+zawiadomień. Zawiadomienia – tak jak zgłoszenia obiektów − będą dokonywane w formie
+dokumentów elektronicznych opatrzonych kwalifikowanym podpisem elektronicznym,
+podpisem zaufanym albo podpisem osobistym, a w przypadku braku możliwości złożenia
+podpisu elektronicznego, podpisu zaufanego albo podpisu osobistego – w formie dokumentów
+elektronicznych oraz wydruku z własnoręcznym czytelnym podpisem. Przepisy art. 871a ust. 4
+pkt 1–4 ustawy zmienianej w art. 1 będą stosowane odpowiednio.
+
+Zgodnie z art. 5 projektu, ustawa wejdzie w życie po upływie 14 dni od dnia ogłoszenia,
+stosownie do art. 4 ust. 2 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów normatywnych
+i niektórych innych aktów prawnych (Dz. U. z 2019 r. poz. 1461).
+
+IV. Przedstawienie projektu właściwym organom i instytucjom Unii Europejskiej, w tym
+  Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+  powiadomienia, konsultacji albo uzgodnienia, jeżeli obowiązek taki wynika
+  z odrębnych przepisów
+
+Projekt nie wymaga przedstawienia właściwym organom i instytucjom Unii Europejskiej,
+o których mowa w § 27 ust. 4 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r.
+– Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806), w celu uzyskania opinii,
+dokonania powiadomienia, konsultacji albo uzgodnienia.
+
+V. Ocena organu wnioskującego, czy projekt podlega notyfikacji zgodnie z przepisami
+  dotyczącymi funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych
+
+Regulacje zawarte w projektowanej ustawie nie stanowią przepisów technicznych
+w rozumieniu rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu
+funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039,
+z późn. zm.), zatem projekt ustawy nie podlega notyfikacji.
+
+VI. Zgodność z prawem Unii Europejskiej
+
+Projekt ustawy jest zgodny z prawem Unii Europejskiej.
+
+VII. Ocena wpływu na działalność mikroprzedsiębiorców, małych i średnich
+  przedsiębiorców
+
+Rozwiązania zawarte w projekcie ustawy nie będą miały wpływu na działalność
+mikroprzedsiębiorców, małych i średnich przedsiębiorców.
+
+
+
+
+                                             10
+VIII. Udostępnienie w Biuletynie Informacji Publicznej
+
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia
+prawa (Dz. U. z 2017 r. poz. 248, z późn. zm.) oraz § 52 ust. 1 uchwały nr 190 Rady Ministrów
+z dnia 29 października 2013 r. – Regulaminu pracy Rady Ministrów projekt ustawy został
+udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum
+Legislacji w serwisie Rządowy Proces Legislacyjny.
+
+
+
+
+                                              11
+Nazwa projektu                                                            Data sporządzenia
+Ustawa o zmianie ustawy – Prawo lotnicze                                  13.12.2024 r.
+Ministerstwo wiodące i ministerstwa współpracujące                        Źródło:
+Ministerstwo Infrastruktury – wiodące
+                                                                          Inicjatywa Ministerstwa Obrony Narodowej
+Ministerstwo Obrony Narodowej – współpracujące
+                                                                          Nr w wykazie prac legislacyjnych
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza             i programowych Rady Ministrów
+Stanu lub Podsekretarza Stanu                                             UD16
+Maciej Lasek – Sekretarz Stanu w Ministerstwie Infrastruktury
+Kontakt do opiekuna merytorycznego projektu
+Magdalena Porzycka – Naczelnik Wydziału w Departamencie Lotnictwa
+w Ministerstwie Infrastruktury (tel.: 22 630 14 47;
+e-mail: magdalena.porzycka@mi.gov.pl)
+Marlena Jantoń-Skoczylas – specjalista w Departamencie Lotnictwa
+w Ministerstwie Infrastruktury (tel.: 22 630 14 38;
+e-mail: marlena.janton-skoczylas@mi.gov.pl)
+                                OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Na podstawie obowiązującej do dnia 2 października 2020 r. regulacji – § 2 ust. 2 rozporządzenia Ministra Infrastruktury
+z dnia 25 czerwca 2003 r. w sprawie sposobu zgłaszania oraz oznakowania przeszkód lotniczych (Dz. U. poz. 1193, z późn.
+zm.), które utraciło moc z dniem 2 października 2020 r. – zgłoszeniu do właściwego organu nadzoru nad lotnictwem
+wojskowym, z zastrzeżeniem § 2 ust. 1 ww. rozporządzenia, podlegały wszystkie stałe lub tymczasowe obiekty budowlane
+o wysokości 50 m i więcej.
+Aktualnie obowiązujące przepisy nakładają obowiązek zgłoszenia, m.in. do Ministra Obrony Narodowej, wyłącznie
+przeszkód lotniczych, którymi zgodnie z art. 871 ust. 1 ustawy z dnia 3 lipca 2002 r. – Prawo lotnicze (Dz. U. z 2023 r.
+poz. 2110, z późn. zm.), zwanej dalej „ustawą”, są obiekty:
+1) wyższe niż wysokości określone przez wyznaczone powierzchnie ograniczające przeszkody;
+2) o wysokości od 100 m powyżej poziomu otaczającego terenu lub wody, zlokalizowane na terytorium Rzeczypospolitej
+   Polskiej oraz na obszarze wyłącznej strefy ekonomicznej Rzeczypospolitej Polskiej;
+3) występujące w pasie drogi startowej bez względu na ich wysokość;
+4) inne niż obiekty, o których mowa w pkt 1–3, które zostały uznane przez Prezesa Urzędu Lotnictwa Cywilnego,
+   zwanego dalej „Prezesem Urzędu”, Ministra Obrony Narodowej albo ministra właściwego do spraw wewnętrznych za
+   przeszkodę lotniczą ze względu na potencjalne zagrożenie dla ruchu statków powietrznych.
+W konsekwencji w obowiązującym stanie prawnym brak jest przepisów nakładających obowiązek zgłaszania do Ministra
+Obrony Narodowej obiektów niebędących przeszkodą lotniczą w rozumieniu ustawy, ale stanowiących realne zagrożenie
+bezpieczeństwa w ruchu lotniczym wojskowych statków powietrznych. Istnienie luki prawnej w tym zakresie ma realny
+wpływ na bezpieczeństwo w ruchu lotniczym wojskowych statków powietrznych.
+Z uwagi na powyższe jest zasadne wprowadzenie regulacji dotyczącej informowania Ministra Obrony Narodowej
+o wszystkich obiektach budowlanych, w tym tymczasowych obiektach budowalnych, o wysokości równej 50 m albo
+większej, ale mniejszej niż 100 m.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Rekomendowanym rozwiązaniem jest nowelizacja ustawy w celu uregulowania obowiązku zgłaszania obiektów
+budowlanych, w tym tymczasowych obiektów budowlanych, o wysokości równej 50 m albo większej, ale mniejszej niż 100 m
+powyżej poziomu otaczającego terenu lub wody, a także powiadamiania o likwidacji takich obiektów oraz o zmianie
+parametrów obiektu skutkującej wygaśnięciem obowiązku zgłaszania obiektu Ministrowi Obrony Narodowej. Przyjęto, że
+obowiązek ten będzie dotyczył obiektów niewpisanych do ewidencji przeszkód lotniczych.
+Projektowana zmiana umożliwi uzyskiwanie przez Ministra Obrony Narodowej informacji dotyczących ww. obiektów
+budowlanych. Ewidencję obiektów budowlanych, w tym tymczasowych obiektów budowlanych, o wysokości równej 50 m
+albo większej, ale mniejszej niż 100 m powyżej poziomu otaczającego terenu lub wody, prowadzić będzie Minister Obrony
+Narodowej, przy czym będzie on mógł do tego upoważnić kierownika podległej mu lub przez niego nadzorowanej jednostki
+organizacyjnej. Jednostką organizacyjną Sił Zbrojnych Rzeczypospolitej Polskiej właściwą w tym zakresie jest aktualnie
+Szefostwo Służby Ruchu Lotniczego Sił Zbrojnych Rzeczypospolitej Polskiej. Zgłoszenie w tym zakresie będzie dokonywane
+w formie dokumentów elektronicznych opatrzonych kwalifikowanym podpisem elektronicznym, podpisem zaufanym albo
+podpisem osobistym, a w przypadku braku możliwości złożenia podpisu elektronicznego, podpisu zaufanego albo podpisu
+osobistego – w formie dokumentów elektronicznych oraz wydruku z własnoręcznym czytelnym podpisem przez:
+1) właściciela nieruchomości, użytkownika wieczystego, osobę, której przysługują ograniczone prawa rzeczowe do
+   nieruchomości, albo inny podmiot władający lub gospodarujący nieruchomością, na której znajduje się obiekt budowlany,
+   w zależności od tego, kto faktycznie włada nieruchomością, na której znajduje się obiekt;
+2) podmiot, który uzyskał pozwolenie na wznoszenie lub wykorzystywanie sztucznych wysp, konstrukcji i urządzeń
+   w polskich obszarach morskich, wydane na podstawie ustawy z dnia 21 marca 1991 r. o obszarach morskich
+   Rzeczypospolitej Polskiej i administracji morskiej (Dz. U. z 2024 r. poz. 1125) – w przypadku przedsięwzięć
+   zlokalizowanych na obszarach morskich Rzeczypospolitej Polskiej.
+Należy zauważyć, że w latach 2018–2023 wpłynęły do Szefostwa Służb Ruchu Lotniczego Sił Zbrojnych Rzeczypospolitej
+Polskiej, mimo braku takiego obowiązku, wnioski o uzgodnienie lokalizacji obiektów od 50 m powyżej poziomu otaczającego
+terenu lub wody w liczbie:
+2018 r. – 1772,
+2019 r. – 1057,
+2020 r. – 1149,
+2021 r. – 1361,
+2022 r. – 2169,
+2023 r. – 1507.
+Razem: 9015 wniosków.
+W latach 2021–2023 Szefostwo Ruchu Lotniczego Sił Zbrojnych RP zaopiniowało negatywnie 79 wniosków lokalizacyjnych
+obiektów wysokościowych. Żaden z nich nie powstał w proponowanej lokalizacji w związku z kolizyjnym umiejscowieniem,
+co bezpośrednio pozytywnie wpłynęło na bezpieczeństwo lotów na niskich wysokościach. Dane w tym zakresie
+w poszczególnych latach przedstawiają się następująco:
+2021 r. – 16 wniosków dotyczących obiektów o wys. do 100 m n.p.t.
+        – 0 wniosków dotyczących obiektów o wysokości pow. 100 m n.p.m.
+2022 r. – 19 wniosków dotyczących obiektów o wys. do 100 m n.p.t.
+        – 2 wnioski dotyczące obiektów o wysokości pow. 100 m n.p.m.
+2023 r. – 14 wniosków dotyczących obiektów o wys. do 100 m n.p.t.
+        – 28 wniosków dotyczących obiektów o wysokości pow. 100 m n.p.m.
+Razem: 79 wniosków.
+Powyższe liczby świadczą o dwukrotnym wzroście w 2023 r. negatywnych opinii lokalizacyjnych inwestycji
+wysokościowych stanowiących potencjalne zagrożenie dla ruchu lotniczego.
+Dodatkowo zaznaczyć należy, że w latach 2021–2023 Szefostwo Służb Ruchu Lotniczego Sił Zbrojnych Rzeczypospolitej
+Polskiej w związku ze złożonymi wnioskami wydało w:
+2021 r. – 435,
+2022 r. – 596,
+2023 r. – 437,
+razem: 1468
+rekomendacji zastosowania oznakowania przeszkodowego dla obiektów wysokościowych do 100 m n.p.t., co bezpośrednio
+przyczyniło się do poprawy bezpieczeństwa lotów na niskich wysokościach.
+W związku z realizacją założeń rządowej polityki energetycznej, według której następuje zwiększanie pozyskiwania energii
+z odnawialnych źródeł, nastąpił znaczący wzrost inwestycji związanych z budową elektrowni wiatrowych. Z drugiej strony,
+w związku z zagrożeniami związanymi z eskalacją konfliktu za wschodnią granicą Rzeczypospolitej Polskiej, wzrosła liczba
+wykonywanych przez lotnictwo wojskowe operacji lotniczych na niskich wysokościach. Proponowana nowelizacja ustawy
+zapewni odpowiedni poziom bezpieczeństwa i jakości operacji lotniczych wykonywanych przez statki powietrzne Sił
+Zbrojnych Rzeczypospolitej Polskiej.
+W trakcie dotychczasowych prac nad projektem pod uwagę była brana propozycja alternatywna wobec nałożenia
+obowiązków na obywateli i przedsiębiorców, polegająca na nałożeniu obowiązku zgłaszania obiektów na organy
+architektoniczno-budowlane i organy nadzoru budowlanego. Pod tym kątem projekt był uzgadniany z przedstawicielami
+Ministerstwa Rozwoju i Technologii. Ostatecznie Ministerstwo Rozwoju i Technologii, po dokładnej analizie przez
+Departament Architektury, Budownictwa i Geodezji zakresu działania organów architektoniczno-budowlanych i organów
+nadzoru budowlanego, a także ich struktury organizacyjnej, opowiedziało się za kontynuowaniem prac nad projektem
+w kształcie powielającym sprawdzone już rozwiązania stosowane przed dniem 2 października 2020 r., tj. dniem utraty mocy
+obowiązującej rozporządzenia Ministra Infrastruktury z dnia 25 czerwca 2003 r. w sprawie sposobu zgłaszania oraz
+oznakowania przeszkód lotniczych.
+Brak jest możliwości osiągnięcia celów projektu w sposób inny niż przyjęcie projektowanej ustawy.
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+
+Nie przeprowadzano analizy rozwiązań przyjętych za granicą.
+
+                                                          2
+4. Podmioty, na które oddziałuje projekt
+            Grupa                Wielkość             Źródło danych                  Oddziaływanie
+1. Właściciele                  około 1350   Szefostwo Służby Ruchu          Bezpośrednie.
+nieruchomości,                               Lotniczego Sił Zbrojnych        Zgłaszanie obiektów
+użytkownicy wieczyści,                       Rzeczypospolitej Polskiej (na   budowlanych, w tym
+osoby, którym przysługują                    podstawie danych                tymczasowych obiektów
+ograniczone prawa                            statystycznych z lat            budowlanych, o wysokości
+rzeczowe do                                  poprzednich)                    równej 50 m albo większej, ale
+nieruchomości, albo inne                                                     mniejszej niż 100 m powyżej
+podmioty władające lub                                                       poziomu otaczającego terenu
+gospodarujące                                                                lub wody, niewpisanych do
+nieruchomością, na której                                                    ewidencji przeszkód lotniczych,
+znajduje się obiekt                                                          powiadamianie o likwidacji
+budowalny, w zależności od                                                   takich obiektów oraz
+tego, kto faktycznie włada                                                   aktualizowanie przekazanych
+nieruchomością, na której                                                    zgłoszeń, o ile zajdzie taka
+znajduje się obiekt.                                                         potrzeba.
+2. Podmioty, które uzyskały
+pozwolenie na wznoszenie
+lub wykorzystywanie
+sztucznych wysp,
+konstrukcji i urządzeń w
+polskich obszarach
+morskich, w przypadku
+przedsięwzięć
+zlokalizowanych na
+obszarach morskich
+Rzeczypospolitej Polskiej
+3. Minister Obrony                   1                                       Bezpośrednie.
+Narodowej                                                                    Obsługa zgłoszeń obiektów
+                                                                             budowlanych, w tym
+                                                                             tymczasowych obiektów
+                                                                             budowlanych, o wysokości
+                                                                             równej 50 m albo większej, ale
+                                                                             mniejszej niż 100 m powyżej
+                                                                             poziomu otaczającego terenu
+                                                                             lub wody, niewpisanych do
+                                                                             ewidencji przeszkód lotniczych,
+                                                                             zawiadomień o likwidacji
+                                                                             takich obiektów oraz
+                                                                             zaktualizowanych zgłoszeń,
+                                                                             a także prowadzenie ewidencji
+                                                                             ww. obiektów.
+4. Szefostwo Służby Ruchu            1                                       W przypadku upoważnienia
+Lotniczego Sił Zbrojnych                                                     przez Ministra Obrony
+Rzeczypospolitej Polskiej                                                    Narodowej – obsługa zgłoszeń
+w Warszawie                                                                  obiektów budowlanych, w tym
+                                                                             tymczasowych obiektów
+                                                                             budowlanych, o wysokości
+                                                                             równej 50 m albo większej, ale
+                                                                             mniejszej niż 100 m powyżej
+                                                                             poziomu otaczającego terenu
+                                                                             lub wody, niewpisanych do
+                                                                             ewidencji przeszkód lotniczych,
+                                                                             zawiadomień o likwidacji
+                                                                             takich obiektów oraz
+                                                                             zaktualizowanych zgłoszeń,
+                                                                             a także prowadzenie ewidencji
+                                                                             ww. obiektów.
+
+
+                                                3
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt ustawy został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum
+Legislacji w serwisie Rządowy Proces Legislacyjny, zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej
+w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248, z późn. zm.) i § 52 ust. 1 uchwały Rady Ministrów z dnia
+29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r. poz. 806).
+Informacja o udostępnieniu projektu została przekazana do następujących podmiotów:
+1)    Szefostwo Służby Ruchu Lotniczego Sił Zbrojnych Rzeczypospolitej Polskiej, ul. Żwirki i Wigury 1C, 00-909 Warszawa;
+2)    Polska Agencja Żeglugi Powietrznej, ul. Wieżowa 8, 02-147 Warszawa;
+3)    Polski Związek Firm Deweloperskich, Plac trzech Krzyży 10/14, 00-499 Warszawa;
+4)    Konfederacja Budownictwa i Nieruchomości, ul. Karczewska 18, 04-112 Warszawa;
+5)    Korporacja Przedsiębiorców Budowlanych „UNI-BUD”, ul. Zagórna 12/1, 00-441 Warszawa;
+6)    Polska Federacja Zarządców Nieruchomości, al. Jana Pawła II 11/1308, 00-828 Warszawa;
+7)    Polskie Stowarzyszenie Energetyki Wiatrowej, al. Wojska Polskiego 187/4-5; 71-325 Szczecin;
+8)    Polskie Towarzystwo Morskiej Energetyki Wiatrowej, ul. J. Uphagena 27/708, 80-237 Gdańsk;
+9)    Polska Izba Morskiej Energetyki Wiatrowej, ul. T. Wendy 15/305, 81-341 Gdynia.
+Konsultacje trwały 21 dni. W ramach konsultacji uwagi zgłosiły trzy podmioty. Treść uwag i stanowisko projektodawcy
+zawarto w tabeli stanowiącej załącznik do raportu z konsultacji.
+Ze względu na zakres przedmiotowy projektowanej regulacji, projekt nie wymagał zaopiniowania przez reprezentatywne
+związki zawodowe i organizacje pracodawców.
+
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z 2024 r.)                               Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                      0     1       2     3     4      5       6     7      8     9     10     Łącznie (0-10)
+Dochody ogółem                                                                                                0
+budżet państwa                                                                                                0
+JST                                                                                                           0
+pozostałe jednostki (oddzielnie)                                                                              0
+Wydatki ogółem                                                                                                0
+budżet państwa                                                                                                0
+JST                                                                                                           0
+pozostałe jednostki (oddzielnie)                                                                              0
+Saldo ogółem                                                                                                  0
+
+budżet państwa                                                                                                0
+
+JST                                                                                                           0
+
+pozostałe jednostki (oddzielnie)                                                                              0
+Źródła finansowania       Nie dotyczy.
+Dodatkowe informacje,     Projektowane zmiany nie powodują zwiększenia wydatków lub zmniejszenia dochodów jednostek
+w tym wskazanie           sektora finansów publicznych w stosunku do wielkości wynikających z obowiązujących przepisów.
+źródeł danych i
+przyjętych do obliczeń
+założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                            Skutki
+Czas w latach od wejścia w życie zmian          0           1          2          3          5         10         Łącznie (0-10)
+W ujęciu          duże przedsiębiorstwa                                                                           0
+pieniężnym        sektor mikro-, małych                                                                           0
+(w mln zł,        i średnich
+ceny stałe z      przedsiębiorstw
+2024 r.)          rodzina, obywatele oraz                                                                         0
+                  gospodarstwa domowe
+                  duże przedsiębiorstwa      Brak wpływu.
+
+                                                             4
+W ujęciu         sektor mikro-, małych     Brak wpływu.
+niepieniężnym    i średnich
+                 przedsiębiorstw
+                 rodzina, obywatele oraz   Brak wpływu.
+                 gospodarstwa domowe
+Niemierzalne                                Brak wpływu.
+Dodatkowe informacje,    Brak wpływu na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie
+w tym wskazanie          przedsiębiorców, a zwłaszcza mikroprzedsiębiorców, małych i średnich przedsiębiorców.
+źródeł danych i
+przyjętych do obliczeń   Brak wpływu na sytuację ekonomiczną i społeczną rodziny, a także osób niepełnosprawnych oraz
+założeń                  osób starszych.
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie         tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli  nie
+zgodności).                                         nie dotyczy
+
+   zmniejszenie liczby dokumentów                             zwiększenie liczby dokumentów
+   zmniejszenie liczby procedur                               zwiększenie liczby procedur
+   skrócenie czasu na załatwienie sprawy                      wydłużenie czasu na załatwienie sprawy
+   inne:                                                      inne:
+
+Wprowadzane obciążenia są przystosowane do ich                tak
+elektronizacji.                                               nie
+                                                              nie dotyczy
+Komentarz:
+Zgodnie z projektowaną regulacją wprowadza się obowiązek zgłaszania do Ministra Obrony Narodowej obiektów
+budowlanych, w tym tymczasowych obiektów budowlanych, o wysokości równej 50 m albo większej, ale mniejszej niż
+100 m powyżej poziomu otaczającego terenu lub wody, o ile nie zostały wpisane do ewidencji przeszkód lotniczych,
+a także obowiązek zawiadamiania o likwidacji takich obiektów.
+Nastąpi znaczne obciążenie pracą w jednostkach organizacyjnych Ministerstwa Obrony Narodowej, w szczególności
+w Szefostwie Służby Ruchu Lotniczego Sił Zbrojnych Rzeczypospolitej Polskiej, szczególnie w okresie 3 miesięcy od
+dnia wejścia w życie przepisów. Liczba zgłoszeń, które zostaną dokonane w wyniku weryfikacji obiektów budowlanych
+zgłoszonych przez wejściem w życie ustawy, może sięgnąć nawet 5000. Potencjalną liczbę budowli, które będą podlegać
+weryfikacji, oszacowano na podstawie analizy liczby zgłoszeń z lat poprzednich oraz własnych doświadczeń związanych
+ze zgłaszaniem przedmiotowych obiektów.
+
+9. Wpływ na rynek pracy
+Projektowana regulacja nie będzie miała wpływu na rynek pracy.
+
+10. Wpływ na pozostałe obszary
+
+   środowisko naturalne                    demografia                                informatyzacja
+   sytuacja i rozwój regionalny            mienie państwowe                          zdrowie
+   sądy powszechne, administracyjne        inne:
+lub wojskowe
+Omówienie wpływu         Brak wpływu.
+
+11. Planowane wykonanie przepisów aktu prawnego
+Wykonanie projektowanej ustawy nastąpi od dnia jej wejścia w życie. Projektowana ustawa wejdzie w życie po upływie
+14 dni od dnia ogłoszenia.
+Projektodawca nie przewiduje prowadzenia działań komunikacyjnych związanych z projektem.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+
+Efekty wejścia w życie projektowanych rozwiązań będą natychmiastowe i nie wymagają pomiaru.
+
+
+
+                                                          5
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+
+Brak.
+
+
+
+
+                                                           6
+                                    RAPORT Z KONSULTACJI
+                   projektu ustawy o zmianie ustawy – Prawo lotnicze (UD16)
+
+
+
+
+1. Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania
+Projekt ustawy o zmianie ustawy – Prawo lotnicze (UD16), zwany dalej „projektem ustawy”, został
+przekazany do konsultacji publicznych przez Ministra Infrastruktury przy piśmie z dnia 15 kwietnia
+2024 r., znak sprawy: DL-2.0210.33.2021, do następujących podmiotów:
+1) Szefostwo Służby Ruchu Lotniczego Sił Zbrojnych Rzeczypospolitej Polskiej, ul. Żwirki i Wigury 1C,
+   00-909 Warszawa;
+2) Polska Agencja Żeglugi Powietrznej, ul. Wieżowa 8, 02-147 Warszawa;
+3) Polski Związek Firm Deweloperskich, Plac trzech Krzyży 10/14, 00-499 Warszawa;
+4) Konfederacja Budownictwa i Nieruchomości, ul. Karczewska 18, 04-112 Warszawa;
+5) Korporacja Przedsiębiorców Budowlanych „UNI-BUD”, ul. Zagórna 12/1, 00-441 Warszawa;
+6) Polska Federacja Zarządców Nieruchomości, al. Jana Pawła II 11/1308, 00-828 Warszawa;
+7) Polskie Stowarzyszenie Energetyki Wiatrowej, al. Wojska Polskiego 187/4-5; 71-325 Szczecin;
+8) Polskie Towarzystwo Morskiej Energetyki Wiatrowej, ul. J. Uphagena 27/708, 80-237 Gdańsk;
+9) Polska Izba Morskiej Energetyki Wiatrowej, ul. T. Wendy 15/305, 81-341 Gdynia.
+Konsultacje publiczne trwały 21 dni. W toku konsultacji publicznych uwagi do projektu ustawy zgłosiły
+3 podmioty, stanowisko do zgłoszonych uwag znajduje się w zestawieniu uwag stanowiącym załącznik
+nr 1 do niniejszego raportu.
+
+Projekt ustawy został przekazany przez Ministra Infrastruktury do zaopiniowania przez Prezesa Urzędu
+Ochrony Danych Osobowych w dniu 17 lipca 2024 r., przy piśmie znak sprawy: DL-2.0210.33.2021,
+z terminem zgłaszania uwag w ciągu 14 dni od dnia otrzymania pisma, z uwagi na konieczności
+dotrzymania przez projektodawcę planowanego terminu przyjęcia projektu przez Radę Ministrów.
+Prezes Urzędu Ochrony Danych Osobowych przedstawił opinię w pismach z dnia 5 sierpnia 2024 r.,
+z dnia 18 września 2024 r oraz z dnia 29 października 2024 r. Zestawienie uwag zgłoszonych przez
+Prezesa Urzędu Ochrony Danych Osobowych zawierające stanowisko projektodawcy do tych uwag
+stanowi załącznik nr 2 do niniejszego raportu.
+
+Projekt ustawy nie podlegał opiniowaniu przez Komisję Wspólną Rządu i Samorządu Terytorialnego,
+gdyż nie dotyczy spraw związanych z samorządem terytorialnym, o których mowa w ustawie z dnia
+6 maja 2005 r. o Komisji Wspólnej Rządu i Samorządu Terytorialnego oraz o przedstawicielach
+Rzeczypospolitej Polskiej w Komitecie Regionów Unii Europejskiej (Dz. U. z 2024 r. poz. 949).
+
+Projekt nie dotyczy spraw, o których mowa w art. 1 ustawy z dnia 24 lipca 2015 r. o Radzie Dialogu
+Społecznego i innych instytucjach dialogu społecznego (Dz. U. z 2018 r. poz. 2232, z późn. zm.), wobec
+czego nie wymagał zaopiniowania przez Radę Dialogu Społecznego.
+
+
+2. Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia
+   projektu z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim
+   Bankiem Centralnym.
+Projekt ustawy nie wymaga przedstawienia właściwym instytucjom i organom Unii Europejskiej, w tym
+Europejskiemu Bankowi Centralnemu, celem uzyskania opinii, dokonania powiadomienia, konsultacji
+albo uzgodnienia projektu.
+3. Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem w trybie
+   przepisów o działalności lobbingowej w procesie stanowienia prawa, wraz ze wskazaniem
+   kolejności dokonania zgłoszeń albo informację o ich braku.
+Nie zgłoszono zainteresowania pracami nad projektem ustawy w trybie ustawy z dnia 7 lipca 2005 r.
+o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r. poz. 248, z późn. zm.).
+
+
+
+
+Załączniki:
+1. Zestawienie uwag (konsultacje)
+2. Zestawienie uwag (opiniowanie)
+
+
+
+
+                                                                                               2
+      Zestawienie uwag zgłoszonych w ramach konsultacji do projektu ustawy o zmianie ustawy – Prawo lotnicze (UD16) w wersji z dnia 05.04.2024 r.
+
+
+
+Lp.       Podmiot         Jednostka         Treść uwagi / uzasadnienie / propozycja brzmienia                          Stanowisko projektodawcy
+         zgłaszający      redakcyjna                            przepisu
+           uwagę
+
+           Polskie        Art. 1 pkt 2   Doprecyzowania wymaga, że nowy obowiązek wyrażony w            Uwzględniono wyłączając w projekcie z obowiązku
+       Stowarzyszenie                    projektowanym art. 871a ciąży wyłącznie na obiektach,          zgłaszania Ministrowi Obrony Narodowej obiektów
+         Energetyki                      których docelowa wysokość sięga nie więcej niż 100 m, a        budowlanych wpisanych do ewidencji przeszkód lotniczych.
+          Wiatrowej                      przeszkody lotnicze (>100m) będące równocześnie
+                                                                                                        Doprecyzowano w uzasadnieniu, że obowiązek zgłoszenia
+                                         obiektami budowlanymi zgłaszane są według istniejącej
+                                                                                                        nie dotyczy obiektów, które zostały uprzednio wpisane do
+                                         procedury do ewidencji MON, bez potrzeby zgłaszania ich
+                                                                                                        ewidencji przeszkód lotniczych.
+                                         również na gruncie proponowanych reguł.
+                                                                                                        Należy zauważyć, że zgłoszenie do MON obiektu
+1.                                                                                                      budowlanego w tym tymczasowego obiektu budowlanego,
+                                                                                                        o wysokości równej albo większej niż 50 m, ale mniejszej niż
+                                                                                                        100 m powyżej poziomu otaczającego terenu lub wody nie
+                                                                                                        powinno      wykluczać      możliwości     przeprowadzenia
+                                                                                                        późniejszego postępowania zmierzającego do uznania go za
+                                                                                                        przeszkodę lotniczą na podstawie art. 871 ustawy – Prawo
+                                                                                                        lotnicze. Racjonalne jest natomiast wyłączenie z obowiązku
+                                                                                                        zgłaszania     MON      obiektów,    które    zostały    już
+                                                                                                        zaewidencjonowane jako przeszkody lotnicze.
+
+        Adwokat Rafał                    Projekt ustawy wymaga pilnego uzupełnienia o przepisy          Nie uwzględniono.
+           Dębowski                      regulujące kwestie skutków planistycznych przyjęcia
+                                                                                                        Zgłoszona propozycja wybiega poza cel proponowanej
+         (zgłaszający                    dokumentów przewidzianych prawem lotniczym: map
+                                                                                                        regulacji, którym jest przywrócenie obowiązującej przed 2
+           poprosił o                    powierzchni ograniczających zabudowę oraz powierzchni
+                                                                                                        października 2020 r. regulacji dotyczącej zgłaszania do
+      nieanonimizowanie                  ograniczających przeszkody, jak również map określających
+                                                                                                        odpowiedniego organu wojskowego wszystkich obiektów
+            danych                       tereny objęte planem generalnym lotniska publicznej, które z
+                                                                                                        budowlanych, w tym tymczasowych obiektów budowlanych,
+         osobowych)                      mocy art. 55 ust. 9 prawa lotniczego nakazują dla tych
+2.                                                                                                      o wysokości równej albo większej niż 50 m, ale mniejszej niż
+                                         terenów        sporządzenie      miejscowych         planów
+                                                                                                        100 m powyżej poziomu otaczającego terenu lub wody.
+                                         zagospodarowania przestrzennego, co z mocy art. 62 ust. 2
+                                         ustawy o planowaniu i zagospodarowaniu przestrzennym           Treść uwagi dotyczy problematyki, która będzie przedmiotem
+                                         skutkuje konicznością zawieszania postępowań o ustalenie       odrębnej nowelizacji ustawy – Prawo lotnicze.
+                                         warunków zabudowy. Dlatego proponuję wprowadzenie do
+                                         projektu ustawy o zmianie ustawy – Prawo lotnicze (nr
+                                         wykazu UD16) zmiany polegającej na dodane zostanie
+                                         kolejny przepis przewidujący, że treść art. 55 ust. 9 prawa
+                                     lotniczego otrzyma brzmienie: 9. Dla terenów lotniska oraz
+                                     terenów sąsiadujących z lotniskiem zaliczonych do stref
+                                     wokół lotniska, objętych planem generalnym sporządzenie
+                                     miejscowego planu zagospodarowania przestrzennego -
+                                     zgodnego z zatwierdzonym planem generalnym - jest
+                                     obowiązkowe, z uwzględnieniem przepisów dotyczących
+                                     terenów zamkniętych. Jeżeli teren zamknięty objęty planem
+                                     generalnym utraci status terenu zamkniętego, sporządzenie
+                                     miejscowego planu zagospodarowania przestrzennego -
+                                     zgodnego z zatwierdzonym planem generalnym dla tego
+                                     terenu jest obowiązkowe.
+
+     Polska Izba      Propozycja     Art. 2. 1. Obiekty budowlane, w tym tymczasowe obiekty           Nie uwzględniono.
+      Morskiej         nadania       budowlane, zlokalizowane na terytorium Rzeczypospolitej
+                                                                                                      Zgłoszona propozycja wybiega poza cel proponowanej
+     Energetyki    alternatywnego    Polskiej oraz na obszarze wyłącznej strefy ekonomicznej
+                                                                                                      regulacji, którym jest przywrócenie obowiązującej przed 2
+      Wiatrowej     brzmienia art.   Rzeczypospolitej Polskiej:
+                                                                                                      października 2020 r. regulacji dotyczącej zgłaszania do
+                      2 projektu
+                                     1)     które do dnia wejścia w życie niniejszej ustawy           odpowiedniego organu wojskowego wszystkich obiektów
+                                     osiągnęły wysokość równą albo większą niż 50 m, ale              budowlanych, w tym tymczasowych obiektów budowlanych,
+                                     mniejszą niż 100 m powyżej poziomu otaczającego terenu           o wysokości równej albo większej niż 50 m, ale mniejszej niż
+                                     lub wody i nie zostały zgłoszone do właściwego organu            100 m powyżej poziomu otaczającego terenu lub wody.
+                                     nadzoru nad lotnictwem wojskowym,
+                                     2)      w stosunku do których w dniu wejścia w życie
+                                     niniejszej ustawy termin osiągnięcia wysokości 50 m powyżej
+                                     poziomu otaczającego terenu lub wody jest krótszy niż termin
+                                     określony w art. 871a ust. 2 ustawy zmienianej w art. 1
+3.
+                                     – podlegają Zgłoszeniu do jednostki organizacyjnej Sił
+                                     Zbrojnych Rzeczypospolitej Polskiej właściwej w zakresie
+                                     służby ruchu lotniczego, w terminie 3 miesięcy od dnia
+                                     wejścia w życie niniejszej ustawy.
+                                     2. Do Zgłoszenia, o którym mowa w ust. 1, stosuje się
+                                     przepisy art. 871a ust. 3 i 4 pkt 1–5 ustawy zmienianej w art.
+                                     1.
+                                     3. Uzyskana decyzja na Zgłoszenie wnioskodawcy od
+                                     jednostki organizacyjnej Sił Zbrojnych Rzeczypospolitej
+                                     Polskiej właściwej w zakresie służby ruchu lotniczego jest
+                                     załącznikiem do wniosku o Pozwolenia na Budowę (PnB)
+                                     składanego do odpowiedniej dla wnioskodawcy jednostki
+                                     administracyjnej (Starosta Powiatu lub Prezydent Miasta
+
+                                                                           2
+funkcjonującego na prawach powiatu lub Wojewoda lub
+Główny Inspektor Nadzoru Budowlanego).
+4. Wnioski dotyczące Pozwolenia na Budowę dla Obiektu
+budowlanego, w tym tymczasowego Obiektu budowlanego,
+o wysokości równej albo większej niż 50 m, ale mniejszej niż
+100 m powyżej poziomu otaczającego terenu lub wody,
+zlokalizowane na terytorium Rzeczypospolitej Polskiej oraz
+na obszarze wyłącznej strefy ekonomicznej Rzeczypospolitej
+Polskiej, nie będą rozpatrywane przez odpowiednią dla
+wnioskodawcy jednostkę administracyjną bez przedmiotowej
+pozytywnej decyzji jednostki organizacyjnej Sił Zbrojnych
+Rzeczypospolitej Polskiej właściwej w zakresie służby ruchu
+lotniczego.
+5. Negatywna decyzja w sprawie Obiektu budowlanego od
+jednostki organizacyjnej Sił Zbrojnych Rzeczypospolitej
+Polskiej właściwej w zakresie służby ruchu lotniczego
+uniemożliwia złożenie ważnego wniosku o pozwolenie na
+budowę do odpowiedniej dla wnioskodawcy jednostki
+administracyjnej.
+6. Pozwolenie na budowę wydane przez odpowiednią dla
+wnioskodawcy jednostki administracyjnej jak również
+informacja o demontażu wydana przez odpowiednią dla
+wnioskodawcy jednostkę administracyjną w dodatkowym
+egzemplarzu zostaje przesłana do jednostki organizacyjnej
+Sił Zbrojnych Rzeczypospolitej Polskiej właściwej w zakresie
+służby ruchu lotniczego na koszt wnioskodawcy opłacony w
+kasie     odpowiedniej   dla    wnioskodawcy       jednostki
+administracyjnej.
+7. Obiekt budowlany bez Zgłoszenia i Pozwolenia na
+Budowę (PnB) podlega karze grzywny a w przypadku
+istotnego przekroczenia wysokości lub niekorzystnej
+lokalizacji określonej przez jednostki organizacyjnej Sił
+Zbrojnych Rzeczypospolitej Polskiej właściwej w zakresie
+służby ruchu lotniczego nawet karze pozbawienia wolności.
+
+
+
+
+                                     3
+         Zestawienie uwag zgłoszonych w ramach opiniowania przez Prezesa Urzędu Ochrony Danych Osobowych w piśmie z dnia 05.08.2024 r.,
+                  DOL.401.281.2024.WL.MK do projektu ustawy o zmianie ustawy – Prawo lotnicze (UD16) w wersji z dnia 02.07.2024 r.
+
+
+
+Lp.    Podmiot       Jednostka          Treść uwagi / uzasadnienie / propozycja brzmienia                              Stanowisko projektodawcy
+      zgłaszający    redakcyjna                             przepisu
+        uwagę
+
+1.      Prezes      Uwaga ogólna    Należy wskazać, że Prezes Urzędu Ochrony Danych                    Uwaga nieuwzględniona
+        UODO                        Osobowych (w przypadku przedstawionych do opiniowania
+                                                                                                       Rodzaj przetwarzania danych osobowych ze względu na swój
+                                    projektów aktów prawnych dotyczących utworzenia nowych
+                                                                                                       charakter, zakres, kontekst i cele nie powoduje ryzyka
+                                    ewidencji czy systemów informatycznych, zwraca szczególną
+                                                                                                       naruszenia praw lub wolności osób fizycznych, dlatego też nie
+                                    uwagę, czy projektodawca wykonał tzw. test prywatności –
+                                                                                                       wydaje się zasadnym dokonanie oceny skutków planowanych
+                                    ocenę skutków dla ochrony danych osobowych (art. 35 ust. 1 i
+                                                                                                       operacji przetwarzania dla ochrony danych osobowych
+                                    10 rozporządzenia 2016/679), z uwzględnieniem ochrony
+                                                                                                       z powodu zgodności przetwarzania z prawem. Przetwarzanie
+                                    danych w fazie projektowania oraz domyślanej ochrony danych
+                                                                                                       jest niezbędne do wypełnienia obowiązku prawnego ciążącego
+                                    (art. 25 ust. 1 i 5 rozporządzenia 2016/679). Przedmiotowy
+                                                                                                       na administratorze.
+                                    projekt przewiduje natomiast utworzenie ewidencji dotyczącej
+                                    zgłoszeń obiektów budowlanych o wysokości równej i większej
+                                    niż 50 m n.p.m. do 100 m n.p.m., na potrzeby prowadzenia
+                                    której przetwarzane mają być dane osobowe identyfikujące
+                                    osoby dokonujące zgłoszenia budynku. Jak wynika z art. 1 pkt
+                                    2 projektu ustawy (projektowany art. 871a ust. 5 ustawy),
+                                    ewidencja zgłoszonych obiektów budowlanych, o której mowa w
+                                    projektowanych przepisach, jest prowadzona w formie
+                                    elektronicznej, przy użyciu systemu teleinformatycznego
+                                    i dotyczy przetwarzania na dużą skalę, gdzie pojęcie dużej skali
+                                    dotyczy geograficznego zakresu przetwarzania (art. 871a ust. 1
+                                    ustawy). Obowiązek przeprowadzenia oceny skutków dla
+                                    ochrony danych powinien być zatem zrealizowany także
+                                    w przypadku poddanego do opiniowania projektu ustawy.
+
+                     Art. 1 pkt 2   Niewątpliwie jako pozytywne należy odnotować dokonanie             Uwaga nieuwzględniona
+                                    przez projektodawcę wyłączenia z udostępnienia w jawnej
+                                                                                                       Ochronę danych osobowych uwzględniano w fazie
+                                    części ewidencji danych osobowych osób dokonujących
+                                                                                                       projektowania poprzez ich minimalizację oraz zaniechanie
+                                    zgłoszenia budynku (projektowany art. 871a ust. 5). Okoliczność
+                                                                                                       ujawnienia danych osobowych podmiotów zgłaszających (imię
+                                    ta ma bowiem istotne znaczenie z punktu widzenia ochrony
+                                                                                                       i nazwisko, firmę, nazwę, adres, nr tel., adres poczty
+                                    danych osobowych osób, których dane będą przetwarzane
+                                                                                                       elektronicznej).
+                                    w przedmiotowej ewidencji. Wydaje się zatem, że w przypadku
+                                    poddanego do opiniowania projektu ustawy – choć nie zostało
+               to wprost wykazane w uzasadnieniu projektu, ani w formie              Odnosząc się do konieczności podawania numerów telefonów
+               odrębnego dokumentu – projektodawca w tym zakresie                    i adresów poczty elektronicznej osób fizycznych dokonujących
+               zdecydował się na wyważenie prawa do prywatności i słusznie           zgłoszenia wskazać należy, iż w tym zakresie zastosowano
+               uznał jego przewagę nad innymi prawami, zważywszy na                  rozwiązanie analogiczne do rozwiązania przewidzianego
+               zagrożenia, jakie mogą się wiązać z upublicznianiem tego typu         w rozporządzeniu Ministra Infrastruktury z dnia 12 stycznia 2021
+               danych. Niezależnie od powyższego należy zauważyć, że                 r. w sprawie przeszkód lotniczych, powierzchni ograniczających
+               projektowany art. 871a ust. 4 pkt 1 (art. 1 pkt 2 projektu) określa   przeszkody oraz urządzeń o charakterze niebezpiecznym
+               zakres danych osobowych objętych zgłoszeniem, przewidując,            (Dz. U. poz. 264) w § 47 ust. 1 pkt 1 lit. a w odniesieniu do
+               że zgłoszenie obejmuje dane kontaktowe, takie jak: imię               zgłoszeń przeszkód lotniczych o wysokości powyżej 100 m.
+               i nazwisko, firmę albo nazwę, adres, numer telefonu, adres
+               poczty elektronicznej. Aktualne regulacje prawne nie przewidują
+               jednak obowiązku posiadania przez osoby fizyczne telefonu czy
+               poczty elektronicznej. Wymogi projektowanych przepisów,
+               odnosząc się do konieczności podania prywatnych numeru
+               telefonu i adresu poczty elektronicznej osób fizycznych
+               (unormowania te mogą bowiem dotyczyć prywatnych budynków
+               skoro ustawodawca nie pisze o tych danych jako służbowych),
+               budzą więc wątpliwości organu ds. ochrony danych osobowych
+               z punktu widzenia poszanowania zasady minimalizacji danych
+               i ograniczonego celu, o których mowa w art. 5 ust. 1 lit. b i c
+               rozporządzenia 2016/679. Trzeba też wskazać, że
+               w odniesieniu do regulacji odnoszących się do podmiotu
+               zgłaszającego obowiązek podania numeru telefonu i adresu
+               poczty elektronicznej powinien odnosić się do danych
+               kontaktowych firmy, a nie osoby prywatnej (ew. do tzw. danych
+               służbowych). W związku z powyższym, w ocenie Prezesa
+               UODO, pozyskiwanie i gromadzenie danych osobowych
+               w postaci numeru telefonu i adresu poczty elektronicznej osób
+               fizycznych we wskazanym celu, tj. w celu kontaktu z osobą
+               zgłaszającą, nie powinno mieć charakteru obligatoryjnego, ja
+               przewiduje projektodawca, lecz mieć charakter fakultatywny.
+               Dodatkowo należy zauważyć, że ustawodawca oczekuje obu
+               tych danych jednocześnie, a nie daje do wyboru jednej z nich,
+               co stwarza wątpliwości co do proporcjonalności danych w ten
+               sposób pozyskiwanych dla zakładanego celu.
+
+Uwaga ogólna   Ponadto, mając na uwadze zasadę retencji (wynikającą z art. 5         Uwaga nieuwzględniona
+               ust. 1 lit. e rozporządzenia 2016/679), wymaga wyjaśnienia
+                                                                                     Projektodawca    właściwie    przeanalizował   okres
+               i ewentualnego doprecyzowania w przepisach prawa, czy
+                                                                                     przechowywania danych przetwarzanych w projektowanej
+               projektodawca właściwie przeanalizował i wskazał okres
+               przechowywania danych przetwarzanych w projektowanej
+                                                             2
+               ewidencji. Projekt ustawy nie przewiduje bowiem konkretnych          ewidencji. Dane będą przechowywane przez okres nie dłuższy
+               unormowań odnośnie do okresu przechowywania i usuwania               niż jest to niezbędne do celów, w których są one przetwarzane.
+               danych z przedmiotowej ewidencji. Brak również wyjaśnienia
+               tych kwestii w uzasadnieniu projektu. Zauważyć przy tym
+               należy, że w zaproponowanym art. 871a ust. 7 przewidziano
+               regulacje odnoszące się do aktualizacji danych przetwarzanych
+               w ewidencji. Dostrzec również trzeba, że przepisy ogólne
+               nowelizowanej ustawy z dnia 3 lipca 2002 r. Prawo lotnicze (Dz.
+               U. z 2023 r. poz. 2110 ze zm., dalej: Prawo lotnicze) odsyłają w
+               zakresie okresu przechowywania danych do przepisów ustawy
+               z dnia 14 lipca 1983 r. o narodowym zasobie archiwalnym
+               i archiwach (Dz. U. z 2020 r. poz. 164; zob. art. 21b ust. 3 Prawa
+               lotniczego). Mając powyższe na uwadze należy zatem wyjaśnić,
+               czy projektowane regulacje objęte są zakresem normy art. 21b
+               ust. 3 Prawa lotniczego, ewentualnie uzupełnić projektowane
+               przepisy w tym zakresie o stosowne normy.
+
+Uwaga ogólna   Ponadto zauważyć należy, że projektodawca nie przewidział            Uwaga nieuwzględniona
+               regulacji w zakresie dostępu do pełnych danych przetwarzanych
+                                                                                    Jawność danych dotyczących tylko zgłaszanych budowli, bez
+               w rejestrze w odniesieniu do innych pomiotów, w tym podmiotów
+                                                                                    ujawniania danych osób zgłaszających, jest najlepszym
+               publicznych. Wyjaśnienia wymaga zatem, czy zagwarantowanie
+                                                                                    rozwiązaniem    dla     innych    podmiotów     publicznych
+               jawności danych dotyczących zgłaszanych budynków, bez
+                                                                                    korzystających z przedmiotowej ewidencji, gdyż istotą jej
+               dostępu do danych osób zgłaszanych, jest w tym aspekcie
+                                                                                    prowadzenia jest identyfikacja budowli, a nie podmiotów je
+               wystarczającym rozwiązaniem dla innych podmiotów
+                                                                                    zgłaszających.
+               publicznych korzystających z przedmiotowej ewidencji, czy też
+               wymaga odrębnej regulacji ustalającej warunki takiego dostępu.
+
+Uwaga ogólna   Dodatkowo, mając na uwadze okoliczność, że za brak                   Uwaga nieuwzględniona
+               dokonania zgłoszenia budynków do przedmiotowej ewidencji
+                                                                                    Nie jest zasadne wskazanie w ewidencji daty zgłoszenia. Ujęcie
+               przewidziana jest sankcja karna, pod rozwagę projektodawcy
+                                                                                    w ewidencji budowli wysokościowej stanowi dowód uznania
+               należy również poddać następujące kwestie: wskazanie w
+                                                                                    zgłoszenia za właściwie dokonane. Wcześniej odbywa się
+               ewidencji daty zgłoszenia, uregulowanie procesu weryfikacji
+                                                                                    proces weryfikacji poprawności zgłaszanych danych. Istnieje
+               zgłoszenia, czy też uznania zgłoszenia za właściwie dokonane.
+                                                                                    możliwość ustalenia daty zgłoszenia w oparciu o wniosek, który
+               Powyższe zagadnienia dotyczą przetwarzania danych
+                                                                                    jest archiwizowany.
+               osobowych, a także są istotne z punktu widzenia zasady
+               zaufania obywatela do państwa i prawa. Wskazana ewidencja
+               jest jednocześnie rejestrem publicznym, a zatem muszą zostać
+               spełnione także wszelkie warunki dla jego właściwego
+               ukształtowania z poszanowaniem przepisów szczególnych.
+
+
+                                                            3
+            Zestawienie uwag zgłoszonych w ramach opiniowania przez Prezesa Urzędu Ochrony Danych Osobowych w piśmie z dnia 18.09.2024 r.,
+                     DOL.401.281.2024.WL.MK do projektu ustawy o zmianie ustawy – Prawo lotnicze (UD16) w wersji z dnia 30.08.2024 r.
+
+
+
+Lp.    Podmiot      Jednostka     Treść uwagi / uzasadnienie / propozycja brzmienia przepisu                            Stanowisko projektodawcy
+      zgłaszający   redakcyjna
+        uwagę
+
+2.      Prezes        Uwaga       Odpowiedź na przekazaną przez Prezesa Urzędu Ochrony                Wyjaśnienie
+        UODO          ogólna      Danych Osobowych opinię wskazuje jednak na nieuwzględnienie
+                                                                                                      Zgodnie z art. 35 ust. 1 rozporządzenia Parlamentu Europejskiego
+                                  kluczowych zasad ochrony danych osobowych, których
+                                                                                                      i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony
+                                  poszanowanie w regulacji jest obowiązkiem projektodawcy.
+                                                                                                      osób fizycznych w związku z przetwarzaniem danych osobowych
+                                  Uprzejmie proszę więc Pana Ministra o dodatkowe wyjaśnienia w
+                                                                                                      i w sprawie swobodnego przepływu takich danych oraz uchylenia
+                                  odniesieniu do przedstawionego projektu ustawy i rozważenie
+                                                                                                      dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych),
+                                  dokonania zmian w proponowanym poniżej zakresie. Odnosząc
+                                                                                                      zwanego dalej „rozporządzeniem 2016/679”, jeżeli dany rodzaj
+                                  się do przedstawionych informacji, uprzejmie wskazuję, że
+                                                                                                      przetwarzania – w szczególności z użyciem nowych technologii – ze
+                                  każdorazowo przed wprowadzaniem rozwiązań prawnych,
+                                                                                                      względu na swój charakter, zakres, kontekst i cele z dużym
+                                  przewidujących utworzenie nowej ewidencji, w szczególności
+                                                                                                      prawdopodobieństwem może powodować wysokie ryzyko
+                                  z wykorzystaniem nowych technologii – tak jak w przypadku
+                                                                                                      naruszenia praw lub wolności osób fizycznych, administrator przed
+                                  projektowanej ewidencji zgłoszonych obiektów budowlanych –
+                                                                                                      rozpoczęciem przetwarzania dokonuje oceny skutków planowanych
+                                  projektodawca powinien dokonać oceny skutków dla ochrony
+                                                                                                      operacji przetwarzania dla ochrony danych osobowych.
+                                  danych, której obowiązek przeprowadzenia wynika z art. 35 ust.
+                                  1 i 10 w zw. z art. 25 ust. 1 i 5 rozporządzenia 2016/679.          Analizę taką przeprowadzono w zakresie ilości pozyskiwanych
+                                                                                                      informacji, ich charakteru oraz kontekstu, a także celów jakim te
+                                  Wobec nieuwzględnienia uwagi Prezesa Urzędu Ochrony
+                                                                                                      informacje mają służyć. W pierwszej kolejności dokonano
+                                  Danych Osobowych dotyczącej oceny skutków i wyjaśnień w tym
+                                                                                                      sprawdzenia zakresu pozyskiwanych informacji dotyczących
+                                  zakresie, w których wskazano, że w ocenie projektodawcy nie jest
+                                                                                                      przeszkód lotniczych przez instytucje odpowiedzialne za
+                                  konieczne jej dokonanie, uprzejmie proszę o poinformowanie
+                                                                                                      bezpieczeństwo wykonywania operacji lotniczych na podstawie
+                                  jakie konkretne okoliczności dotyczące tych warunków, miałyby
+                                                                                                      obowiązujących przepisów ustawy z dnia 3 lipca 2002 r. – Prawo
+                                  skutkować zwolnieniem projektodawcy z obowiązku określonego
+                                                                                                      lotnicze. Następnie określono zakres informacji niezbędny do
+                                  w art. 35 RODO. Należy podkreślić, że projektowana jest
+                                                                                                      dokonania aktualizacji map lotniczych o obiekty budowlane
+                                  ewidencja zawierająca dane osobowe o bardzo szerokim
+                                                                                                      stanowiące realne zagrożenie dla bezpieczeństwa ruchu lotniczego
+                                  zakresie, zakresie geograficznym dotyczącym całego kraju,
+                                                                                                      wojskowych statków powietrznych. W wyniku porównania tych
+                                  dlatego bardzo uprzejmie proszę o szczegółową analizę skutków
+                                                                                                      danych, w projektowanej ustawie przewidziano, że zgłoszenie
+                                  regulacji dla ochrony danych i przedstawienie jej wyników jeszcze
+                                                                                                      obiektów budowlanych, w tym tymczasowych obiektów
+                                  na etapie prac legislacyjnych. Ponadto, jak wyjaśniono,
+                                                                                                      budowlanych, o wysokości równej albo większej niż 50 m, ale
+                                  „projektodawca właściwie przeanalizował okres przechowywania
+                                                                                                      mniejszej niż 100 m powyżej poziomu otaczającego terenu lub wody,
+                                  danych przetwarzanych w projektowanej ewidencji. Dane będą
+                                                                                                      zlokalizowanych na terytorium Rzeczypospolitej Polskiej oraz na
+                                  przechowywane przez okres nie dłuższy niż jest to niezbędne do
+                                                                                                      obszarze wyłącznej strefy ekonomicznej Rzeczypospolitej Polskiej,
+                                  celów, w których są one przetwarzane.” Brak jest jednak
+                                                                                                      będzie zawierało: dane kontaktowe zgłaszającego: imię i nazwisko,
+                                  konkretnych regulacji w tym zakresie, co może prowadzić do
+                                                                                4
+nieograniczonego w czasie przetwarzania danych osobowych, a            firmę albo nazwę, adres, numer telefonu, adres poczty
+zatem w konsekwencji do naruszenia art. 5 ust. 1 lit. e                elektronicznej, skrócony opis techniczny, określający nazwę, rodzaj
+rozporządzenia 2016/679 oraz art. 17 rozporządzenia 2016/679.          i charakterystykę obiektu budowlanego oraz jego konstrukcję, dane
+                                                                       określające lokalizację obiektu budowlanego oraz jego najwyższego
+Zauważyć przy tym należy, że w art. 871a ust. 7 i 8 projektu
+                                                                       punktu, w układzie współrzędnych Światowego Systemu
+projektodawca zapewnia aktualizację ewidencji, w tym także
+                                                                       Geodezyjnego 1984 (WGS84), zapisane z precyzją zapisu 0,01
+z urzędu w przypadku braku podmiotu zgłaszającego, albo gdy
+                                                                       sekundy, a także identyfikator lub numer działki ewidencyjnej, na
+miejsce pobytu tej osoby nie jest znane lub nie jest możliwe do
+                                                                       której znajduje się obiekt, wraz z podaniem nazwy i numeru obrębu
+ustalenia na podstawie katastru nieruchomości. Przepis ten
+                                                                       ewidencyjnego i nazwy miejscowości, dane określające wysokość
+wymaga jednak dookreślenia i wskazania w jakim terminie będzie
+                                                                       powyżej poziomu otaczającego terenu lub wody najwyższego punktu
+się to odbywało. Jednocześnie wskazać należy, że nie rozwiały
+                                                                       obiektu budowlanego, w układzie wysokościowym PL-EVRF2007-
+wątpliwości organu nadzorczego przedstawione wyjaśnienia
+                                                                       NH z precyzją zapisu do 0,1 m oraz rzędną terenu dla
+dotyczące zbierania danych kontaktowych, w postaci nr telefonu
+                                                                       projektowanego obiektu z precyzją zapisu do 0,1 m, przewidywany
+i adresu poczty elektronicznej, na zasadzie obowiązku, od osób
+                                                                       termin zakończenia budowy obiektu budowlanego, przewidywany
+dokonujących         zgłoszenia     budynku.       Nie     znajduje
+                                                                       termin osiągnięcia przez obiekt budowlany wysokości 50 m powyżej
+usprawiedliwienia twierdzenie projektodawcy, że regulacje aktu
+                                                                       poziomu otaczającego terenu lub wody.
+niższego rzędu mogą być w tym zakresie wskazywane jako
+właściwe dla przyjmowanych rozwiązań ustawowych. Istotne               Dane geograficzne oraz charakterystyka obiektu są niezbędne do
+gwarancje autonomii informacyjnej jednostki stanowią bowiem            dokonania odpowiedniej aktualizacji danych map lotniczych, które z
+art. 51 ust. 1, 2 i 5 Konstytucji RP oraz art. 31 ust. 3 Konstytucji   kolei stanowią podstawę do planowania oraz wykonywania operacji
+RP, z których wynika konieczność określenia w ustawie zasad            lotniczych przy wykorzystaniu wojskowych statków powietrznych.
+przetwarzania danych osobowych.
+                                                                       Natomiast informacje dotyczące danych kontaktowych podmiotu
+Tym samym, mając na uwadze przedstawioną opinię w tym                  zgłaszającego są tożsame z informacjami, które podlegają
+zakresie, w ocenie Prezesa Urzędu Ochrony Danych Osobowych             zgłoszeniu zgodnie z § 40 rozporządzenia Ministra Infrastruktury
+wymaga ponownego rozważenia rozwiązanie przyjęte w art. 871a           z dnia 12 stycznia 2021 r. w sprawie przeszkód lotniczych,
+ust. 4 pkt 1 (art. 1 pkt 2 projektu) w kierunku fakultatywnego         powierzchni     ograniczających     przeszkody    oraz    urządzeń
+przekazania do przedmiotowej ewidencji danych osobowych w              o charakterze niebezpiecznym, zwanego dalej „rozporządzeniem
+postaci nr telefonu i adresu poczty elektronicznej w celach            MI”. Obejmują one imię i nazwisko, firmę albo nazwę, adres, numer
+kontaktowych. Przypominam przy tym uprzejmie, że to na                 telefonu oraz adres poczty elektronicznej. Zgodnie z art. 871 ust. 4
+projektodawcy ciąży ostatecznie         odpowiedzialność    za         ustawy z dnia 3 lipca 2002 r. – Prawo lotnicze ewidencja przeszkód
+zapewnienie zgodności projektowanych przepisów z przepisami            lotniczych jest jawna w zakresie informacji podlegających
+ogólnego rozporządzenia o ochronie danych.                             udostępnieniu zgodnie z przepisami rozporządzenia MI. Zgodnie
+                                                                       z § 58 pkt 3 rozporządzenia MI udostępnieniu podlegają informacje
+                                                                       ujęte w ewidencji przeszkód lotniczych dotyczące unikalnego
+                                                                       identyfikatora, opisu, lokalizacji, wysokości, oznakowania i daty
+                                                                       wpisu do tej ewidencji przeszkody lotniczej i urządzenia
+                                                                       o charakterze niebezpiecznym oraz daty ostatniej modyfikacji tych
+                                                                       informacji.
+                                                                       Niezależnie od powyższego należy podnieść, że w art. 6 ustawy
+                                                                       z dnia 10 maja 2018 r. o ochronie danych osobowych, prawodawca
+
+                                                 5
+    przewidział wyłączenie stosowania przepisów tej ustawy oraz
+    przepisów rozporządzenia 2016/679 w przypadku przetwarzania
+    danych osobowych przez m.in. organy władzy publicznej, w tym
+    organy administracji rządowej oraz jednostki budżetowe, w zakresie,
+    w jakim przetwarzanie to jest konieczne do realizacji zadań mających
+    na celu zapewnienie bezpieczeństwa narodowego. Ograniczenie to
+    jednak musi stanowić środki niezbędne, właściwe i proporcjonalne w
+    ramach społeczeństwa demokratycznego do zapewnienia
+    bezpieczeństwa narodowego (tzn. bezpieczeństwa państwa),
+    obronności oraz bezpieczeństwa publicznego. W trosce
+    o bezpieczeństwo Ojczyzny, kierując się konstytucyjnym
+    obowiązkiem Jej obrony w 2022 r. uchwalono ustawę z dnia
+    11 marca 2022 r. o obronie Ojczyzn), gdzie po raz pierwszy
+    zdefiniowano interes bezpieczeństwa i obronności projektodawca
+    dokonał      starannego    wyważenia     interesu     bezpieczeństwa
+    i obronności, który należy rozumieć jako całokształt potrzeb państwa
+    mających na celu zapewnienie ochrony podstawowych wartości,
+    takich jak: suwerenność, niepodległość, nienaruszalność terytorium,
+    pozycja międzynarodowa oraz ład i porządek konstytucyjny, oraz
+    praw lub wolności podmiotów dokonujących zgłoszenia,
+    w szczególności ochrony prywatności i ochrony danych osobowych.
+    Jednocześnie nie zidentyfikowano ryzyka naruszenia tych praw lub
+    wolności, gdyż dane kontaktowe podmiotu dokonującego zgłoszenia
+    nie będą udostępniane. Mając na uwadze powyższe oraz zasady
+    przetwarzania danych osobowych, tj. zasadę legalności, celowości,
+    minimalizacji danych oraz poufności, zaproponowano, aby przepis
+    określający zakres pozyskiwanych danych był rangi ustawowej.
+    Dane zawarte w zgłoszeniu będą przechowywane przez okres nie
+    dłuższy niż jest to niezbędne do celów, w których są one
+    przetwarzane. Celem przetwarzania danych obiektów budowlanych
+    jest wyłącznie aktualizacja map lotniczych. Zatem dane dotyczące
+    obiektów budowlanych będą przechowywane do czasu zmiany tych
+    danych lub do czasu zmiany otoczenia obiektu, tj. do czasu, gdy
+    obiekt budowlany będzie miał wysokość niższą niż 50 m lub większą
+    niż 100 m od poziomu otaczającego terenu lub wody.
+    Mając na uwadze, że zgłoszenia obiektów będą dokonywane
+    w formie dokumentów elektronicznych opatrzonych kwalifikowanym
+    podpisem elektronicznym, podpisem zaufanym albo podpisem
+    osobistym, a w przypadku braku możliwości złożenia
+    kwalifikowanego podpisu elektronicznego, podpisu zaufanego albo
+6
+                                                                                            podpisu osobistego w formie dokumentów elektronicznych oraz
+                                                                                            wydruku z własnoręcznym czytelnym podpisem - niezbędnym jest
+                                                                                            podanie adresu elektronicznego umożliwiającego porozumiewanie
+                                                                                            się za pomocą środków komunikacji elektronicznej, w szczególności
+                                                                                            adresu poczty elektronicznej. Natomiast przekazywanie danych
+                                                                                            kontaktowych w postaci numeru telefonu ma na cel umożliwienie
+                                                                                            szybkiego i efektywnego kontaktu z przedstawicielem podmiotu,
+                                                                                            który dokonał zgłoszenia obiektu budowlanego.
+                                                                                            Jednakże, mając na uwadze opinię w tym zakresie Prezesa UODO
+                                                                                            proponuje się przyjęcie rozwiązania przewidującego fakultatywne
+                                                                                            przekazanie danych osobowych w postaci numeru telefonu
+                                                                                            zgłaszającego.
+                                                                                            W związku z powyższym, w projektowanym 871a ust. 4 ustawy z dnia
+                                                                                            3 lipca 2002 r. – Prawo lotnicze, proponuje się pkt 1 nadać brzmienie:
+                                                                                            „4. Zgłoszenie, o którym mowa w ust. 1, zawiera:
+                                                                                            1) dane kontaktowe zgłaszającego:
+                                                                                            a) imię i nazwisko,
+                                                                                            b) firmę albo nazwę,
+                                                                                            c) adres,
+                                                                                            d) adres poczty elektronicznej,
+                                                                                            e) numer telefonu, jeżeli zgłaszający wyraża na to zgodę;”.
+                                                                                            W świetle powyższych wyjaśnień i oceny projektowanych przepisów
+                                                                                            nie dostrzega się wysokiego ryzyka naruszenia praw lub wolności
+                                                                                            osób fizycznych związanych z wprowadzeniem nowej ewidencji.
+
+
+
+                Stanowisko zgłoszone w ramach opiniowania przez Prezesa Urzędu Ochrony Danych Osobowych w piśmie z dnia 29.10.2024 r.,
+                     DOL.401.281.2024.WL.MK do projektu ustawy o zmianie ustawy – Prawo lotnicze (UD16) w wersji z dnia 10.10.2024 r.
+
+Lp.     Podmiot                               Treść stanowiska                                                    Stanowisko projektodawcy
+      zgłaszający
+      stanowisko
+
+
+
+
+                                                                          7
+1.   Prezes   W odpowiedzi na pismo z 17 października 2024 r. (znak: DL-2.0210.33.2021)            Stanowisko przyjęte do wiadomości
+     UODO     dotyczące projektu ustawy o zmianie ustawy – Prawo lotnicze (nr UD16 w wykazie
+              prac legislacyjnych Rady Ministrów; dalej: projekt ustawy), działając na podstawie
+              art. 57 ust. 1 lit. c) Rozporządzenia Parlamentu Europejskiego i Rady (UE)
+              2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku
+              z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich
+              danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie
+              danych) (Dz. Urz. UE L 119 z 4.5.2016, str. 1 ze zm.; dalej: rozporządzenie
+              2016/679) oraz art. 51 ustawy z dnia 10 maja 2018 r. o ochronie danych osobowych
+              (Dz. U. z 2019 r. poz. 1781), uprzejmie dziękuję za przekazane wyjaśnienia
+              w odniesieniu do podniesionych wątpliwości dotyczących zapewnienia
+              odpowiednich gwarancji ochrony danych osobowych w projektowanych
+              regulacjach, a także uwzględnienie przedstawionych uwag pod adresem 871a ust.
+              4 projektu ustawy.
+              Mając powyższe na uwadze, uznaję przedstawiony projekt ustawy za uzgodniony.
+
+
+
+
+                                                                              8
+

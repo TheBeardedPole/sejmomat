@@ -1,0 +1,1106 @@
+                                                                          Druk nr 811
+                                                              Warszawa, 14 listopada 2024 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-110-24
+
+
+                                                              Pan
+                                                              Szymon Hołownia
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi projekt ustawy
+
+  - o zmianie ustawy o promowaniu wytwarzania
+   energii elektrycznej w morskich farmach
+   wiatrowych.
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Klimatu i Środowiska.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                   Projekt
+                                      U S T AWA
+
+                                          z dnia
+
+o zmianie ustawy o promowaniu wytwarzania energii elektrycznej w morskich farmach
+                                       wiatrowych
+
+
+     Art. 1. W ustawie z dnia 17 grudnia 2020 r. o promowaniu wytwarzania energii
+elektrycznej w morskich farmach wiatrowych (Dz. U. z 2024 r. poz. 182) w art. 31 w ust. 11
+wprowadzenie do wyliczenia otrzymuje brzmienie:
+     „Minister właściwy do spraw klimatu, po zasięgnięciu opinii ministra właściwego do
+     spraw aktywów państwowych oraz ministra właściwego do spraw finansów publicznych,
+     określi, w drodze rozporządzenia, maksymalną cenę za energię elektryczną wytworzoną
+     w morskiej farmie wiatrowej i wprowadzoną do sieci, wyrażoną w złotych za 1 MWh,
+     jaka może być wskazana w ofertach złożonych w aukcji przez wytwórców, przy czym
+     cena ta może być określona odmiennie dla poszczególnych obszarów, grupy obszarów
+     lub grup obszarów wskazanych w załączniku nr 1 lub 2 do ustawy, uwzględniając:”.
+
+     Art. 2. Ustawa wchodzi w życie z dniem następującym po dniu ogłoszenia.
+                                       UZASADNIENIE
+
+1. Potrzeba i cel wydania ustawy
+
+Obszary pod morskie farmy wiatrowe wyznaczone w załączniku nr 1 lub 2 do ustawy z dnia
+17 grudnia 2020 r. o promowaniu wytwarzania energii elektrycznej w morskich farmach
+wiatrowych (Dz. U. z 2024 r. poz. 182), zwanej dalej „ustawą offshore wind”, są zróżnicowane
+m.in. pod względem geofizycznym czy oddalenia od brzegu, co ma istotne znaczenie z punktu
+widzenia kosztów budowy i późniejszej eksploatacji morskich farm wiatrowych. Wyznaczenie
+jednej maksymalnej ceny za 1 MWh, jaka może być wskazana w ofertach złożonych w aukcji
+przez wytwórców, dla wszystkich tych obszarów mogłoby prowadzić do nieuzasadnionego
+nadwsparcia dla projektów zlokalizowanych bliżej linii brzegowej.
+
+Zgodnie z zaleceniem Komitetu Ekonomicznego Rady Ministrów z dnia 30 października
+2024 r. w celu znalezienia balansu między rozwojem morskiej energetyki wiatrowej
+a niedopuszczeniem do nadmiernego obciążenia odbiorców końcowych oraz dla poprawy
+efektywności kosztowej systemu wsparcia i możliwości konkurowania projektów z różnych
+obszarów morskich proponuje się wprowadzenie rozwiązania umożliwiającego ustalenie
+odmiennych maksymalnych cen dla poszczególnych obszarów, grupy obszarów lub grup
+obszarów. Ewentualne grupy obszarów będą tworzone w oparciu o obszary wskazane
+w załączniku nr 1 lub 2 do ustawy offshore wind, biorąc pod uwagę ich warunki geofizyczne
+lub oddalenie od brzegu.
+
+Dodatkowo należy zauważyć, że funkcją maksymalnej ceny jest ograniczenie projektów o zbyt
+wysokich kosztach realizacji przy jednoczesnym zapewnieniu odpowiedniej podaży projektów,
+które będą w stanie wystartować w aukcji. Jeżeli dla wszystkich, mocno zróżnicowanych
+projektów zostanie ustanowiona jedna maksymalna cena, jest wysoce prawdopodobne, że
+projekty z obszarów o wyższych kosztach nie przystąpią do aukcji. Taka sytuacja może
+oznaczać brak możliwości realizacji istotnej części projektów, a także wpływać na brak
+minimalnej wymaganej liczby 3 ofert w ramach danej aukcji. Określenie tylko jednej
+maksymalnej ceny, ale na poziomie wystarczającym dla pokrycia wyższych kosztów projektów
+również może prowadzić do nieoptymalnych rozstrzygnięć, gdyż projekty mniej kosztochłonne
+będą mogły zgłaszać wyższe oferty cenowe niż w przypadku ustalenia odmiennych
+maksymalnych cen dla poszczególnych obszarów, grupy obszarów lub grup obszarów.
+Możliwość    zdefiniowania   różnych    maksymalnych     cen   pozwoli   na   dokładniejsze
+odzwierciedlenie charakterystyki poszczególnych grup projektów, minimalizując jednocześnie
+koszty dla odbiorców końcowych.
+
+2. Aktualny stan prawny w dziedzinie, której dotyczy projekt ustawy
+
+W obecnym stanie prawnym, uregulowanym w art. 31 ustawy offshore wind, przewiduje się
+wydanie przez ministra właściwego do spraw klimatu, po zasięgnięciu opinii ministra
+właściwego do spraw aktywów państwowych, rozporządzenia określającego maksymalną cenę,
+wyrażoną w złotych za 1 MWh, jaka może być wskazana w ofertach złożonych w aukcji przez
+wytwórców. Maksymalną cenę ustala się na poziomie uwzględniającym istotne parametry
+techniczne i ekonomiczne funkcjonowania morskich farm wiatrowych, mając na uwadze
+konieczność uniknięcia nadmiernego obciążenia odbiorców końcowych. Jednakże brak
+zróżnicowania w zakresie maksymalnej ceny, jaka może być wskazana w ofertach złożonych
+w aukcji przez wytwórców, ze względu na lokalizację farmy wiatrowej na morzu, mógłby
+prowadzić, w pewnych okolicznościach, do nieuzasadnionego nadwsparcia niektórych
+projektów. Konsekwentnie mogłoby to równocześnie godzić w jedną z podstawowych zasad
+wyrażonych w ustawie offshore wind, tj. efekt zachęty, zgodnie z którą w ramach postępowania
+o przyznanie prawa do pokrycia ujemnego salda Prezes Urzędu Regulacji Energetyki ocenia,
+czy projektowana inwestycja zostałaby zrealizowana w przypadku, w którym dla energii
+elektrycznej wytworzonej w morskiej farmie wiatrowej nie przyznanoby prawa do pokrycia
+ujemnego salda.
+
+3. Proponowane rozwiązania
+
+Zmiana w art. 31 ust. 11 polega na dodaniu we wprowadzeniu do wyliczenia regulacji
+wskazującej, że maksymalna cena może być określona odmiennie dla poszczególnych
+obszarów, grupy obszarów lub grup obszarów wskazanych w załączniku nr 1 lub 2 do ustawy
+offshore wind.
+
+Ponadto w celu zachowania spójności z przepisami art. 25 ustawy offshore wind, który to
+przepis również przewiduje wydanie rozporządzenia określającego cenę maksymalną, ale dla
+projektów realizowanych w ramach tzw. I fazy systemu wsparcia, zdecydowano się
+doprecyzować, że chodzi o maksymalną cenę za energię elektryczną wytworzoną w morskiej
+farmie wiatrowej i wprowadzoną do sieci.
+
+
+
+
+                                            2
+4. Wejście w życie
+
+Proponuje się, aby projektowana ustawa weszła w życie z dniem następującym po dniu
+ogłoszenia, z uwagi na to, że zawarte w niej przepisy mają wpływ na termin wydania
+rozporządzenia określającego maksymalną cenę, wyrażoną w złotych za 1 MWh, jaka może
+być wskazana w ofertach złożonych w aukcji przez wytwórców. Rozporządzenie to stanowi
+wykonanie kamienia milowego B4L Krajowego Planu Odbudowy i Zwiększania Odporności
+(KPO) pn. „Wejście w życie przepisów wykonawczych wynikających z ustawy o promowaniu
+wytwarzania energii elektrycznej w morskich farmach wiatrowych” ujętego w ramach reformy
+B2.3 „Wsparcie inwestycji w obszarze morskich farm wiatrowych”.
+
+Proponowany termin wejścia w życie ustawy nie narusza zasady demokratycznego państwa
+prawnego. Ewentualne ceny maksymalne, które na podstawie zawartych w projektowanej
+ustawie przepisów będzie można wskazać w rozporządzeniu określającym maksymalną cenę
+za energię elektryczną wytworzoną w morskiej farmie wiatrowej i wprowadzoną do sieci,
+wyrażoną w złotych za 1 MWh, jaka może być wskazana w ofertach złożonych w aukcji przez
+wytwórców, będą stosowane dopiero od pierwszej aukcji dla morskiej energetyki wiatrowej,
+która odbędzie się w 2025 r. Szybsze wejście w życie ustawy nie będzie miało zatem wpływu
+na sytuację jego adresatów. Skrócenie vacatio legis jest jednak konieczne w celu terminowego
+wypełnienia zobowiązań wynikających z realizacji kamienia milowego B4L, który jest
+elementem 5. wniosku o płatność w ramach KPO.
+
+5. Ocena zgodności projektu z prawem Unii Europejskiej
+
+W ocenie projektodawcy projekt ustawy jest zgodny z prawem Unii Europejskiej.
+
+6. Notyfikacja
+
+Projekt ustawy nie podlega procedurze notyfikacji aktów prawnych określonej w przepisach
+rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania
+krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.).
+
+Projekt ustawy nie wymaga przedstawienia właściwym instytucjom i organom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia projektu.
+
+
+
+
+                                            3
+7. Wpływ na mikroprzedsiębiorców oraz małych i średnich przedsiębiorców
+
+Projektowane przepisy zostały przeanalizowane pod kątem wpływu na mikro-, małe i średnie
+przedsiębiorstwa. Regulacje zawarte w projekcie ustawy nie będą miały negatywnego wpływu
+na ich funkcjonowanie.
+
+
+
+
+                                          4
+Nazwa projektu                                                        Data sporządzenia
+Ustawa o zmianie ustawy o promowaniu wytwarzania energii elektrycznej 2024-11-08
+w morskich farmach wiatrowych
+                                                                      Źródło
+Ministerstwo wiodące i ministerstwa współpracujące                    Inicjatywa własna
+Ministerstwo Klimatu i Środowiska
+                                                                      Nr w Wykazie prac RM
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza         UD159
+Stanu lub Podsekretarza Stanu
+Miłosz Motyka – Podsekretarz Stanu, Ministerstwo Klimatu
+i Środowiska
+
+Kontakt do opiekuna merytorycznego projektu
+Anna Latuszek – Zastępca Dyrektora Departamentu Odnawialnych
+Źródeł Energii, email: anna.latuszek@klimat.gov.pl;
+
+Agata Święcka – Naczelniczka Wydziału Morskiej Energetyki
+Wiatrowej, e-mail: agata.swiecka@klimat.gov.pl
+                                    OCENA SKUTKÓW REGULACJI
+ 1. Jaki problem jest rozwiązywany?
+Obecne regulacje zawarte w art. 31 ustawy z dnia 17 grudnia 2020 r. o promowaniu wytwarzania energii elektrycznej
+w morskich farmach wiatrowych (Dz. U. z 2024 r. poz. 182), zwanej dalej „ustawą offshore wind”, przewidują wydanie
+przez ministra właściwego do spraw klimatu, po zasięgnięciu opinii ministra właściwego do spraw aktywów
+państwowych, rozporządzenia określającego maksymalną cenę, wyrażoną w złotych za 1 MWh, jaka może być wskazana
+w ofertach złożonych w aukcji przez wytwórców. Maksymalną cenę ustala się na poziomie uwzględniającym istotne
+parametry techniczne i ekonomiczne funkcjonowania morskich farm wiatrowych, mając na uwadze konieczność
+uniknięcia nadmiernego obciążenia odbiorców końcowych.
+Obszary pod morskie farmy wiatrowe wyznaczone w załącznikach do ustawy offshore wind są zróżnicowane m.in. pod
+względem geofizycznym czy oddalenia od brzegu, co ma istotne znaczenie z punktu widzenia kosztów budowy
+i późniejszej eksploatacji morskich farm wiatrowych. Mając to na uwadze, niemożliwe jest wyznaczenie jednej ceny dla
+wszystkich tych obszarów, która nie powodowałaby nadmiernego obciążenia odbiorców końcowych albo
+nieuzasadnionego nadwsparcia dla projektów zlokalizowanych bliżej linii brzegowej.
+Zgodnie z zaleceniem Komitetu Ekonomicznego Rady Ministrów z dnia 30 października 2024 r. w celu znalezienia balansu
+między rozwojem morskiej energetyki wiatrowej a niedopuszczeniem do nadmiernego obciążenia odbiorców końcowych
+oraz dla poprawy efektywności kosztowej systemu wsparcia i możliwości konkurowania projektów z różnych obszarów
+morskich proponuje się wprowadzenie rozwiązania umożliwiającego ustalenie odmiennych maksymalnych cen dla
+poszczególnych obszarów, grupy obszarów lub grup obszarów. Ewentualne grupy obszarów będą tworzone w oparciu
+o obszary wskazane w załączniku nr 1 lub 2 do ustawy offshore wind, biorąc pod uwagę ich warunki geofizyczne lub
+oddalenie od brzegu.
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+Dla poprawy efektywności kosztowej systemu wsparcia oraz możliwości konkurowania projektów z różnych obszarów
+morskich proponuje się wprowadzenie fakultatywnego rozwiązania umożliwiającego ustalenie odrębnych maksymalnych
+cen dla poszczególnych obszarów, grupy obszarów lub grup obszarów. Powyższe wynika z faktu, że obszary wyznaczone
+w załącznikach do ustawy offshore wind są zróżnicowane m.in. pod względem geofizycznym czy oddalenia od brzegu, co
+ma istotne znaczenie z punktu widzenia kosztów budowy i późniejszej eksploatacji morskich farm wiatrowych.
+O ile ustalenie jednej maksymalnej ceny dla projektów tzw. I fazy było możliwe, gdyż wszystkie znajdowały się na Ławicy
+Słupskiej, o tyle ustalenie jednej maksymalnej ceny dla projektów z dużo bardziej zróżnicowanej grupy obszarów może
+prowadzić do nieoptymalnych rozwiązań.
+Funkcja maksymalnej ceny to ograniczenie projektów o zbyt wysokich kosztach realizacji przy jednoczesnym zapewnieniu
+odpowiedniej podaży projektów, które będą w stanie wystartować w aukcji. Jeżeli dla wszystkich, mocno zróżnicowanych
+projektów zostanie ustanowiona jedna maksymalna cena, jest wysoce prawdopodobne, że projekty z obszarów o wyższych
+kosztach nie przystąpią do aukcji. Taka sytuacja może oznaczać brak możliwości realizacji istotnej części projektów,
+a także wpływać na brak minimalnej wymaganej liczby 3 ofert w ramach danej aukcji. Określenie tylko jednej
+maksymalnej ceny, ale na poziomie wystarczającym dla pokrycia wyższych kosztów projektów również może prowadzić
+do nieoptymalnych rozstrzygnięć, gdyż projekty mniej kosztochłonne będą mogły zgłaszać wyższe oferty cenowe niż
+w przypadku dostosowania maksymalnej ceny do różnych grup obszarów.
+Zdefiniowanie różnych maksymalnych cen pozwoli na dokładniejsze odzwierciedlenie charakterystyki poszczególnych
+grup projektów, minimalizując jednocześnie koszty dla odbiorców końcowych.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+Konstrukcja systemów wsparcia dla energii z odnawialnych źródeł energii, w szczególności morskiej energetyki wiatrowej,
+należy do właściwości poszczególnych państw członkowskich Unii Europejskiej. Pierwsze projekty we wschodzących
+rynkach offshore wind ze względu na rozproszony łańcuch dostaw, ryzyko rynkowe oraz kwestie logistyczne generują istotnie
+wyższe koszty w porównaniu z rynkami rozwiniętymi, przez co dla uzasadnienia opłacalności wymagają systemu wsparcia
+(np. kontraktu różnicowego – ang. Contract for Difference, CfD).
+Konstrukcja kontraktów różnicowych w innych państwach zakłada określenie zarówno maksymalnej ceny aukcyjnej, jak
+i minimalnej. Cena jest ustalana na podstawie średniego kosztu wytwarzania energii elektrycznej (LCOE) danej technologii.
+Ostatecznie system wsparcia w Niemczech, Holandii czy Wielkiej Brytanii jest oparty na systemie aukcyjnym, w którym
+każdy inwestor składa ofertę, a wygrywa inwestor o najniższym koszcie wytwarzania energii dla danego wolumenu mocy.
+
+
+
+
+Wykres 1. Wskaźnik uśrednionych kosztów instalacji, współczynnik mocy, LCOE dla morskich farm wiatrowych w latach 2010–2022
+($/kWh) (źródło: IRENA, „Renewable Power Generation Costs in 2022”)
+
+W 2022 r. wolumen mocy z morskiej energetyki wiatrowej wzrósł o 8,9 GW. Byłby to nowy rekord, gdyby nie ekspansja
+obserwowana w 2021 r., kiedy to na świecie zainstalowano w sumie 21 GW nowych mocy, a na wynik miał wpływ
+dynamicznie rozwijający się rynek w Chinach. Międzynarodowa Agencja Energii Odnawialnej (IRENA) w swoim raporcie
+wskazuje, że spadek w 2022 r. udziału Chin w przyrostach nowych mocy i uruchomienie projektów na nowych rynkach
+spowodowały, że LCOE dla nowych projektów wzrósł o 2 % w porównaniu z 2021 r., z 0,079 $/kWh do 0,081 $/kWh.
+Analizy przygotowane przez National Renewable Energy Laboratory (NREL) –„2022 Cost of Wind Energy Review” oraz
+brytyjski Department for Business, Energy and Industrial Strategy (BEIS) –„Electricity generation cost 2023” wskazują na
+tendencję spadkową LCOE z morskich farm wiatrowych. Na ten spadek wpłynęły takie czynniki jak: zwiększenie
+produktywności turbin, minimalizacja zakłóceń produktywności (ograniczenie „wake-effect”), optymalizacja procesów
+obsługi i utrzymania, zmniejszenie ryzyka finansowania (dojrzałość branży i projektów), coraz większa podaż statków oraz
+portów, efektywniejsza technologia produkcji komponentów.
+Obecnie najbardziej rozpowszechnioną formą wsparcia jest wspomniany wcześniej kontrakt różnicowy. Stanowi on
+państwową gwarancję kupna po stałej cenie referencyjnej wyprodukowanej i wprowadzonej do sieci energii elektrycznej.
+W przypadku gdy rynkowe ceny energii są niższe niż cena referencyjna, dodatnia różnica jest wypłacana wytwórcy.
+Natomiast gdy ceny rynkowe energii są wyższe niż cena referencyjna, wówczas tę różnicę otrzymuje strona wspierająca.
+System ten jest satysfakcjonujący dla wszystkich stron, gdyż zapewnia stabilne przychody i minimalizuje koszty finansowe.
+
+
+                                                            2
+W 2023 r. niektóre kraje zaczęły stosować tzw. „licytacje ujemne” w aukcjach dla morskiej energetyki wiatrowej, czyli opłatę
+ponoszoną przez dewelopera za prawo do budowy nowej farmy wiatrowej. Oznacza to jednak wyższe koszty finansowe
+wynikające z problemów z pozyskaniem kredytów, gdyż banki nie widzą w takim przypadku stabilnych przychodów. Zatem,
+chcąc się zabezpieczyć, banki podwyższają stopy procentowe, co przyczynia się do zwiększenia ogólnego ryzyka projektu,
+co z kolei podnosi koszty kapitałowe. System ten nakłada na morskie farmy wiatrowe dodatkowe koszty, które następnie
+zostają przerzucone na społeczeństwo w postaci wyższych rachunków za energię lub na wytwórców energii, którzy już teraz
+zmagają się z inflacją i wzrostem kosztów.
+Niemcy:
+W 2023 r. Niemcy ogłosiły zwycięzców aukcji na morskie farmy wiatrowe na Morzu Północnym i Morzu Bałtyckim o mocy
+w sumie 8,8 GW.
+       Aukcje z „dynamiczną procedurą przetargową” (4 lokalizacje, 7 GW)
+Inwestorzy ubiegający się o prawo do każdej z lokalizacji zobowiązali się do budowy morskiej farmy wiatrowej bez żadnego
+wsparcia ze strony państwa, uruchamiając dodatkową „dynamiczną procedurę przetargową”. Procedura ta wymagała od
+deweloperów przystąpienia do drugiej rundy nieograniczonej „licytacji ujemnej”. W przypadku licytacji negatywnej, zwanej
+również licytacją odwróconą, dostawcy energii starają się zaoferować najniższą możliwą cenę, która jest zazwyczaj ujemna.
+W praktyce oznacza to, że dostawca proponuje, że będzie płacił państwu za prawo do wyprodukowania energii. Oferty były
+przyznawane wyłącznie na podstawie ceny.
+W rezultacie wygrani deweloperzy morskich farm wiatrowych będą musieli zapłacić rządowi Niemiec łącznie 12,6 mld euro.
+90 % pieniędzy zostanie przeznaczonych na sfinansowanie kosztów podłączenia do sieci, 5 % zostanie wykorzystane na
+ochronę morskiej różnorodności biologicznej, a kolejne 5 % – na wsparcie przyjaznego dla środowiska rybołówstwa.
+Cztery projekty mają zostać oddane do użytku do 2030 r. W celu terminowej realizacji tych projektów Niemcy muszą
+rozszerzyć swój łańcuch dostaw dla morskiej energetyki wiatrowej, np. o zdolność przemysłową do budowy turbin
+wiatrowych, fundamentów i statków instalacyjnych. Potrzebne będą również kolejne inwestycje w porty, a także pozyskanie
+wykwalifikowanych pracowników. „Dynamiczna procedura przetargowa” powoduje, że firmy w łańcuchu dostaw energii
+wiatrowej będą musiały pracować z jeszcze niższymi marżami, ponieważ deweloperzy przenoszą na nich dodatkowe koszty
+związane z „licytacją ujemną”.
+       Aukcje bez „dynamicznej procedury przetargowej” (4 lokalizacje, 1,8 GW)
+Lokalizacje zostały przyznane na aukcji w ramach innego projektu aukcyjnego, który obejmował cztery kryteria pozacenowe:
+ochronę środowiska, wkład w wykwalifikowaną siłę roboczą, ślad węglowy w produkcji turbin wiatrowych, istnienie umów
+PPA. Do tych lokalizacji nie miała zastosowania „dynamiczna procedura przetargowa”. Oddanie do użytku morskich farm
+wiatrowych spodziewane jest w 2028 r.
+Niemiecki regulator (Bundesnetzagentur) uznał, że 90 % przychodów z przetargu zostanie przeznaczonych na obniżenie cen
+energii, a pozostała część w proporcji 50/50 na ochronę mórz i zrównoważone rybołówstwo. Część przeznaczona na ochronę
+mórz musi zostać wpłacona do budżetu federalnego w ciągu jednego roku, podczas gdy 90 % musi zostać wpłacone od 2028 r.
+przez okres 20 lat.
+W 2024 r. Niemcy przyznały 2,5 GW na nowe projekty morskiej energetyki wiatrowej. Aukcje wykorzystywały licytację
+negatywną, w której deweloperzy farm wiatrowych licytowali kwotę, jaką są gotowi zapłacić za prawo do budowy farmy
+wiatrowej – a im wyższa cena, tym większe prawdopodobieństwo wygranej. Większość innych krajów w Europie stosuje
+aukcje kontraktów różnicowych (CfD), w których deweloperzy oferują kwotę przychodów, której potrzebują, a najniższa
+oferta wygrywa.
+Jeżeli inwestor wygra aukcję z ujemną stawką, jego przychód będzie równy hurtowej cenie rynkowej energii elektrycznej.
+Jeżeli wygra aukcję CfD, jego przychód będzie równy ofercie złożonej na aukcji, a jeżeli ceny rynkowe będą wyższe niż
+uzgodniona cena wykonania, zapłaci różnicę rządowi.
+Ujemne kwoty ofertowe są bezpośrednim dodatkiem do kosztów rozwoju morskiej farmy wiatrowej. Są to dodatkowe
+pieniądze, które deweloper musi zapłacić, a których nie płaci na aukcji CfD. Deweloperzy projektów muszą przenieść te
+koszty albo na łańcuch dostaw (który wciąż podnosi się po zakłóceniach w dostawach i wzroście kosztów) lub na
+konsumentów energii elektrycznej w postaci wyższych cen energii.
+
+                                                            3
+Holandia
+W 2024 r. Holandia ogłosiła przetarg z zerowym subsydiowaniem na 4 GW mocy w morskiej energetyce wiatrowej na Morzu
+Północnym, przy czym w aukcji zastosowano znacznie wyższy wskaźnik „licytacji ujemnych” niż w poprzednich rundach.
+Deweloperzy mieli czas na złożenie ofert na dwa projekty o mocy 2 GW – IJmuiden Ver Alpha i Beta do dnia 28 marca
+2024 r., a w dniach 11 i 13 czerwca 2024 r. ogłoszono wyniki tych aukcji. Oferenci byli oceniani pod kątem pewności, że
+ukończą budowę morskiej farmy wiatrowej. W przypadku projektu IJmuiden Ver Alpha deweloperzy byli również oceniani
+pod kątem zgodności farmy wiatrowej z zasadami obiegu zamkniętego, w tym jej wpływu na środowisko. W przypadku
+IJmuiden Ver Beta był brany pod uwagę także wkład farmy wiatrowej w integrację systemu. Deweloperzy byli również
+oceniani pod kątem ich gotowości do płacenia za prawo do korzystania z terenu – „licytacji ujemnych” – przy akceptacji
+rocznych opłat w wysokości do 420 mln euro. Jednak ostateczna cena, jaką zapłacą zwycięscy oferenci, wynosi tylko 1 mln
+euro za rok przez 40 lat dla IJmuiden Ver Alpha (tj. 20 mln euro za GW) i 20 mln euro za rok przez 40 lat dla Beta (tj. 400
+mln euro za GW). W poprzednich rundach maksymalna opłata wynosiła 50 mln euro w całym okresie trwania projektu.
+Projekty IJmuiden Ver mają zostać oddane do użytku w 2029 r.
+Wielka Brytania
+W Wielkiej Brytanii koszt przyłączenia farmy wiatrowej do sieci elektroenergetycznej leży po stronie inwestora, który
+następnie odsprzedaje gotowe przyłącze do tzw. OFTO (Offshore Transmission Owner). W Wielkiej Brytanii wszyscy
+zwycięzcy aukcji na realizację projektów, które zakończą się w tym samym roku, otrzymują wsparcie w postaci kontraktu
+różnicowego w takiej samej wysokości, którą wyznacza najwyższa wygrana oferta.
+W 2023 r. opublikowano wyniki piątej rundy aukcji dla projektów OZE, w której najwięcej wsparcia przewidziano dla
+morskiej energetyki wiatrowej (7 GW). Aukcja zakończyła się jednak fiaskiem, ponieważ do aukcji nie przystąpił ani jeden
+deweloper. Inwestorów zniechęciła zbyt niska proponowana cena energii wytwarzanej przez morskie farmy wiatrowe,
+ustalona na poziomie maksymalnym 44 funty/MWh (około 236 zł/MWh).
+W dniu 27 marca 2024 r. rozpoczęła się szósta runda alokacji. Cena maksymalna dla morskiej energetyki wiatrowej została
+ustalona na poziomie 73 funtów/MWh. Tym razem nastąpiło wyraźne odbicie po porażce poprzedniej aukcji dla offshore,
+w której żaden deweloper nie złożył oferty. Teraz kontrakty różnicowe (CfD) zostały zabezpieczone dla morskich projektów
+wiatrowych o łącznej mocy 5,3 GW.
+W szóstej brytyjskiej aukcji duński Orsted, który buduje największą morską farmę wiatrową na świecie w ramach projektu
+Hornsea, otrzymał wsparcie dla dwóch kolejnych etapów tej inwestycji. Kontrakty różnicowe obejmą energię produkowaną
+z części farmy wiatrowej Hornsea 3 (wolumen 1080 MW) oraz Hornsea 4 (2400 MW). Kontrakty CfD dla Orsted zostały
+przyznane po cenach indeksowanych inflacją – w wysokości 54,23 funtów brytyjskich za MWh (około 275 zł/MWh) dla
+zakontraktowanego udziału w Hornsea 3 oraz 58,87 funtów/MWh (około 298 zł/MWh) dla Hornsea 4.
+Dwustronne kontrakty różnicowe będą obowiązywać przez 15 lat począwszy od uruchomienia farmy. Cena jest indeksowana
+inflacją do czasu rozpoczęcia i przez cały okres obowiązywania kontraktu CfD. Orsted buduje farmy wiatrowe Hornsea 3
+i Hornsea 4 wraz z infrastrukturą przesyłową (podstacje morskie i lądowe oraz kable eksportowe). Gdy farmy wiatrowe
+zostaną w pełni oddane do użytku, Orsted zgodnie z brytyjskimi przepisami sprzeda aktywa przesyłowe nowemu
+właścicielowi.
+Litwa
+Litwa planuje budowę dwóch morskich farm wiatrowych o mocy około 1,4 GW (po 700 MW), które mają zostać
+uruchomione w wyłącznej strefie ekonomicznej na Morzu Bałtyckim w pobliżu Połągi.
+W pierwszej aukcji przeprowadzonej w 2023 r. zwycięzca aukcji jest zobowiązany do zapłaty 20 mln euro za możliwość
+rozwoju projektu. Inwestor otrzymał pozwolenie na eksploatację elektrowni wiatrowej przez 41 lat, która ma powstać około
+2030 r. W ramach drugiej aukcji zastosowano model CfD (kontrakt różnicowy), gdzie wytwórcy mogli składać oferty
+w przedziale od 64,31 euro/MWh do 107,18 euro/MWh. Litewska Krajowa Rada Regulacji Energetyki (VERT) przygotowała
+aukcję, która zakończyła się w dniu 14 kwietnia 2024 r. Do przeprowadzenia aukcji wymagano udziału co najmniej dwóch
+ofert. Niestety wpłynęła jedynie jedna oferta, zatem aukcja została nierozstrzygnięta.
+Reasumując, sposób prowadzenia aukcji i ustalone w ich ramach ceny zależą od wielu czynników i różnią się względem
+poszczególnych rynków. Dodatkowo opracowania branżowe wskazują, że projekty realizowane na nowych rynkach będą
+wymagały podobnego poziomu wsparcia względem rynków rozwijających morskie farmy wiatrowe ze względu na specyfikę
+                                                            4
+danego kraju oraz czynniki takie jak dostęp do infrastruktury portowej czy wyższy poziom ryzyka. Przedstawiane powyżej
+systemy aukcyjne mają na celu zachowanie konkurencji oraz optymalizację kosztową portfolio realizowanych projektów.
+
+4. Podmioty, na które oddziałuje projekt
+
+Grupa                              Wielkość             Źródło danych                      Oddziaływanie
+
+Minister właściwy do               1                    Szacunki własne                    Możliwość ustalenia w
+spraw klimatu                                                                              rozporządzeniu odmiennej
+                                                                                           maksymalnej ceny dla
+                                                                                           poszczególnych obszarów,
+                                                                                           grupy obszarów lub grup
+                                                                                           obszarów.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt nie był przedmiotem pre-konsultacji.
+Zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z 2017 r.
+poz. 248, z późn. zm.), projekt został udostępniony w Biuletynie Informacji Publicznej Rządowego Centrum Legislacji,
+w zakładce „Rządowy Proces Legislacyjny”.
+Projekt został skierowany bezpośrednio do rozpatrzenia przez Stały Komitet Rady Ministrów na podstawie § 61 ust. 5
+uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2024 r.
+poz. 806) w związku z niespełnieniem wymogów określonych w § 58 i § 60, w tym w związku z pominięciem wszystkich
+wcześniejszych etapów procedury legislacyjnej określonych w Regulaminie pracy Rady Ministrów, tj. w szczególności:
+uzgodnień, konsultacji publicznych, opiniowania, właściwych komitetów.
+Pilne procedowanie oraz priorytetowe traktowanie projektowanej regulacji jest uwarunkowane koniecznością zapewnienia
+wejścia w życie do końca 2024 r. kamienia milowego B4L, który jest uwzględniony w KPO i w 5 wniosku o płatność.
+Z uwagi na zakres projektu, który nie dotyczy zadań związków zawodowych, projekt nie podlega opiniowaniu przez
+reprezentatywne związki zawodowe.
+Projekt nie zostanie przekazany do zaopiniowania przez Komisję Wspólną Rządu i Samorządu Terytorialnego, gdyż nie
+dotyczy spraw związanych z samorządem terytorialnym, o których mowa w ustawie z dnia 6 maja 2005 r. o Komisji
+Wspólnej Rządu i Samorządu Terytorialnego oraz o przedstawicielach Rzeczypospolitej Polskiej w Komitecie Regionów
+Unii Europejskiej (Dz. U. z 2024 r. poz. 949).
+Projekt nie dotyczy spraw, o których mowa w art. 1 ustawy z dnia 24 lipca 2015 r. o Radzie Dialogu Społecznego i innych
+instytucjach dialogu społecznego (Dz. U. z 2018 r. poz. 2232, z późn. zm.), wobec czego nie wymaga zaopiniowania przez
+Radę Dialogu Społecznego.
+Projekt nie wymaga przedstawienia właściwym instytucjom i organom Unii Europejskiej, w tym Europejskiemu Bankowi
+Centralnemu, w celu uzyskania opinii, dokonania powiadomienia, konsultacji albo uzgodnienia projektu.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                              Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                        0     1   2     3     4      5      6     7     8      9    10 Łącznie (0-10)
+Dochody ogółem                          -     -   -      -    -     -       -     -     -     -     -        -
+budżet państwa                          -     -   -      -    -     -       -     -     -     -     -        -
+JST                                     -     -   -     -       -   -     -      -     -       -       -        -
+pozostałe jednostki (oddzielnie)        -     -   -     -       -   -     -      -     -       -       -        -
+Wydatki ogółem                          -     -   -     -       -   -     -      -     -       -   -            -
+budżet państwa                          -     -   -     -       -   -     -      -     -       -   -            -
+JST                                     -     -   -     -       -   -     -      -     -       -       -        -
+pozostałe jednostki (oddzielnie)        -     -   -     -       -   -     -      -     -       -       -        -
+Saldo ogółem                            -     -   -     -       -   -     -     -      -       -       -        -
+budżet państwa                          -     -   -    -        -   -     -     -      -       -       -        -
+JST                                     -     -   -     -       -   -     -     -      -       -       -        -
+pozostałe jednostki (oddzielnie)        -     -   -     -       -   -     -      -     -       -       -        -
+                                                            5
+Źródła finansowania      Projekt ustawy nie powoduje skutków finansowych dla jednostek sektora finansów publicznych,
+                         w tym budżetu państwa i budżetów jednostek samorządu terytorialnego, polegających na
+                         zwiększeniu wydatków lub zmniejszeniu dochodów tych jednostek w stosunku do wielkości
+                         wynikających z obowiązujących przepisów.
+
+Dodatkowe                Przedmiotowa regulacja nie powoduje zwiększenia wydatków lub zmniejszenia dochodów
+informacje, w tym        jednostek sektora finansów publicznych, w tym budżetu państwa i budżetów jednostek
+wskazanie źródeł         samorządu terytorialnego.
+danych i przyjętych do
+obliczeń założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+    rodzinę, obywateli i gospodarstwa domowe
+                                                 Skutki
+Czas w latach od wejścia w życie zmian    0      1          2       3        5        10       Łącznie
+                                                                                                (0-10)
+W ujęciu         duże przedsiębiorstwa 0      0         0        0        0        0         0
+pieniężnym       sektor mikro-, małych  0     0         0        0        0        0         0
+(w mln zł,       i średnich
+ceny stałe z     przedsiębiorstw
+…… r.)           rodzina, obywatele     0     0         0        0        0        0         0
+                 oraz gospodarstwa
+                 domowe
+                 osoby niepełnosprawne 0      0         0        0        0        0         0
+                 oraz osoby starsze
+W ujęciu         duże przedsiębiorstwa    Jak wynika z zaprezentowanej w dniu 10 września 2024 r. analizy Polskiego
+niepieniężnym                             Stowarzyszenia Energetyki Wiatrowej (PSEW) pn. „Offshore – to się opłaca”,
+                 sektor mikro-, małych    morska energetyka wiatrowa przyczyni się do obniżenia cen energii elektrycznej
+                 i średnich               na rynku. Rozwój tego sektora oznacza również szereg oszczędności dla
+                 przedsiębiorstw          gospodarki w postaci niższych kosztów zakupu paliw (węgiel, gaz) czy
+                                          mniejszych kosztów pozyskania uprawnień do emisji CO2.
+                 rodzina, obywatele
+                 oraz gospodarstwa
+                 domowe
+
+                 osoby niepełnosprawne
+                 oraz osoby starsze
+Niemierzalne
+Dodatkowe
+                         Morska energetyka wiatrowa to technologia kluczowa dla skutecznej i odpowiednio szybkiej
+informacje, w tym
+                         transformacji krajowego systemu energetycznego, a także zapewnienia konkurencyjności
+wskazanie źródeł
+                         i odporności polskiej gospodarki. Polska nie ma dziś realnej alternatywy, jeżeli chodzi
+danych i przyjętych do
+                         o nieemisyjne i stabilne wielkoskalowe źródła wytwórcze, dostępne w krótkim czasie.
+obliczeń założeń
+
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+   nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie         tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli  nie
+zgodności).                                         nie dotyczy
+
+
+
+
+                                                         6
+    zmniejszenie liczby dokumentów                             zwiększenie liczby dokumentów
+    zmniejszenie liczby procedur                               zwiększenie liczby procedur
+    skrócenie czasu na załatwienie sprawy                      wydłużenie czasu na załatwienie sprawy
+    inne:                                                      inne:
+Wprowadzane obciążenia są przystosowane do ich                 tak
+elektronizacji.                                                nie
+                                                               nie dotyczy
+Proponowana zmiana ma na celu znalezienie balansu między rozwojem morskiej energetyki wiatrowej
+a niedopuszczeniem do nadmiernego obciążenia odbiorców końcowych.
+
+9. Wpływ na rynek pracy
+Projekt nie będzie miał bezpośredniego wpływu na rynek pracy, niemniej jednak zaproponowane rozwiązania mogą mieć
+pośredni wpływ na utrzymanie miejsc pracy lub wzrost zatrudnienia wynikający z rozwoju odnawialnych źródeł energii.
+10. Wpływ na pozostałe obszary
+    środowisko naturalne                   demografia                                 informatyzacja
+    sytuacja i rozwój regionalny           mienie państwowe                           zdrowie
+    sądy powszechne, administracyjne       inne:
+lub wojskowe
+                         Morska energetyka wiatrowa może stać się skutecznym narzędziem do obniżenia emisyjności
+                         polskiego sektora energetycznego. Morska energetyka wiatrowa może w dużym stopniu
+Omówienie wpływu
+                         uczestniczyć w ewolucyjnym zastępowaniu wytwarzania energii elektrycznej w oparciu o paliwa
+                         kopalne, w szczególności węgiel.
+11. Planowane wykonanie przepisów aktu prawnego
+Planuje się, że ustawa wejdzie w życie w dniu następującym po dniu jej ogłoszenia.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Biorąc pod uwagę, że celem projektowanych zmian jest zwiększenie udziału źródeł odnawialnych w krajowym zużyciu
+energii brutto oraz szeroko pojęty rozwój sektora energii zgodny z ambicjami redukcji emisyjności gospodarki
+i zobowiązaniami międzynarodowymi, kryterium ewaluacji będzie wzrost mocy zainstalowanej w odnawialnych źródłach
+energii wykazywany w Krajowym Planie w dziedzinie Energii i Klimatu (KPEiK).
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+-
+
+
+
+
+                                                           7
+                                                                                                         Projekt
+
+
+                                       ROZPORZĄDZENIE
+
+                     M I N I S T R A K L I M A T U I Ś R O D O W I S K A 1)
+
+                                                      z dnia
+
+     w sprawie maksymalnej ceny za energię elektryczną wytworzoną w morskich farmach
+     wiatrowych i wprowadzoną do sieci, jaka może być wskazana w ofertach złożonych w
+                                          aukcji przez wytwórców
+
+
+        Na podstawie art. 31 ust. 11 ustawy z dnia 17 grudnia 2020 r. o promowaniu wytwarzania
+energii elektrycznej w morskich farmach wiatrowych (Dz. U. z 2024 r. poz. 182) zarządza się,
+co następuje:
+
+        § 1. Maksymalna cena za energię elektryczną wytworzoną w morskich farmach
+wiatrowych i wprowadzoną do sieci, jaka może być wskazana w ofertach złożonych w aukcji
+przez wytwórców wynosi:
+
+        1) … zł/MWh – dla obszarów …………………………………………………….;
+
+        2) … zł/MWh – dla obszarów …………………………………………………….;
+
+        3) … zł/MWh – dla obszarów ……………………………………………………..
+
+        § 2. Rozporządzenie wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+
+
+                                                                        MINISTER KLIMATU
+                                                                            I ŚRODOWISKA
+
+
+
+
+1)
+      Minister Klimatu i Środowiska kieruje działem administracji rządowej – klimat, na podstawie § 1 ust. 2 pkt 2
+      rozporządzenia Prezesa Rady Ministrów z dnia 19 grudnia 2023 r. w sprawie szczegółowego zakresu działania
+      Ministra Klimatu i Środowiska (Dz. U. poz. 2726).
+                                     UZASADNIENIE
+
+Projektowane rozporządzenie stanowi realizację delegacji ustawowej zawartej w art. 31 ust. 11
+ustawy z dnia 17 grudnia 2020 r. o promowaniu wytwarzania energii elektrycznej w morskich
+farmach wiatrowych (Dz. U. z 2024 r. poz. 182), zwanej dalej „ustawą”, która nakłada na
+ministra właściwego do spraw klimatu obowiązek określenia, po zasięgnięciu opinii ministra
+właściwego do spraw aktywów państwowych oraz ministra właściwego do spraw finansów
+publicznych, maksymalnej ceny za energię elektryczną wytworzoną w morskiej farmie
+wiatrowej i wprowadzoną do sieci, wyrażoną w złotych za 1 MWh, jaka może być wskazana
+w ofertach złożonych w aukcji przez wytwórców, przy czym cena ta może być określona
+odmiennie dla poszczególnych obszarów, grupy obszarów lub grup obszarów wskazanych w
+załączniku nr 1 lub 2 do ustawy, zwanej dalej „maksymalną ceną”.
+Przedmiotowe rozporządzenie określa maksymalną cenę za energię elektryczną wytworzoną w
+morskich farmach wiatrowych i wprowadzoną do sieci, w ramach II fazy systemu wsparcia.
+Przy ustalaniu maksymalnej ceny kierowano się wytycznymi do upoważnienia ustawowego,
+zgodnie z którymi ustalając cenę należy uwzględnić:
+1) koszty operacyjne oraz dodatkowe koszty inwestycyjne ponoszone w okresie eksploatacji,
+   w którym wytwórca korzysta z prawa do pokrycia ujemnego salda;
+2) koszty inwestycyjne ponoszone w okresie przygotowania projektu i budowy morskiej farmy
+   wiatrowej wraz z niezbędną infrastrukturą techniczną oraz zespołem urządzeń służących do
+   wyprowadzenia mocy, a także koszty całkowitej likwidacji morskiej farmy wiatrowej wraz
+   z zespołem urządzeń służących do wyprowadzenia mocy, po zakończeniu jej eksploatacji;
+3) uzasadniony zwrot z kapitału zaangażowanego w wykonywaną działalność gospodarczą w
+   zakresie przygotowania, budowy i eksploatacji morskiej farmy wiatrowej.
+Określenie wysokości maksymalnej ceny jest niezbędne dla uruchomienia II fazy systemu
+wsparcia, a w związku z tym – dla terminowego i zrównoważonego rozwoju morskich farm
+wiatrowych w Polsce. Informacje dotyczące maksymalnej ceny są bowiem ważnym sygnałem
+dla inwestorów pozwalającym na określenie, czy dany projekt inwestycyjny ma szansę na
+partycypację w systemie wsparcia, a tym samym na realizację.
+Terminowa realizacja inwestycji w morskie farmy wiatrowe, zwane dalej „MFW”, jest
+niezwykle istotna dla spełniania zobowiązań Polski wynikających z unijnej polityki
+energetyczno–klimatycznej.
+Do wyliczenia maksymalnej ceny wykorzystano metodykę, według której na koszt energii
+elektrycznej (LCOE) wytwarzanej w morskich farmach wiatrowych ma wpływ pięć
+czynników:
+1) prędkość wiatru – wpływa na liczbę godzin pracy z pełną mocą w ciągu roku (współczynnik
+   wykorzystania mocy, ang. capacity factor, CF);
+2) odległość od brzegu – wpływa na długość kabla eksportowego oraz koszty instalacji
+   i eksploatacji urządzeń uzależnione od długości transportu z portu instalacyjnego na teren
+   morskiej farmy wiatrowej oraz liczby roboczogodzin spędzanych na morzu przez brygady
+   eksploatacyjne i serwisowe; im mniejsza odległość tym niższe koszty kapitałowe budowy,
+   ang. Overnight Cost (OVN), przyłącza i samej farmy, oraz koszty eksploatacji, ang.
+   Operational Expenditures (OPEX);
+                                             –3–
+
+
+3) głębokość akwenu – wpływa na typ i rodzaj konstrukcji fundamentów; im mniejsza głębokość
+   tym niższy koszt fundamentów oraz OVN samej farmy;
+4) rozwój technologii – wpływa na wzrost mocy jednostkowych, ograniczając zużycie
+   materiałów przy tej samej mocy zainstalowanej MFW i straty zacienienia wiatrowego
+   wynikające z rozmieszczenia pojedynczych turbin; rozwój technologii wpływa również na
+   zwiększenie efektywności globalnych łańcuchów dostaw; im dojrzalsza technologia tym
+   niższy koszt OVN farmy, OVN przyłącza oraz OPEX; wzrasta również współczynnik
+   wykorzystania mocy, a wraz z nim ilość produkowanej energii;
+5) koszty pracy – wpływają na koszt projektowania, instalacji urządzeń oraz ich eksploatacji; im
+   niższy średni koszt roboczogodziny tym niższy spodziewany OVN farmy, OVN przyłącza
+   oraz OPEX.
+Zgodność z Krajowym Planem Odbudowy i Zwiększania Odporności:
+Przedmiotowy projekt rozporządzenia stanowi realizację kamienia milowego B4L: „Wejście w
+życie przepisów wykonawczych wynikających z ustawy o promowaniu wytwarzania energii
+elektrycznej w morskich farmach wiatrowych” ujętego w ramach reformy B2.3 „Wsparcie
+inwestycji w obszarze morskich farm wiatrowych”. Celem reformy jest zapewnienie skutecznego
+wdrożenia i dalszego rozwoju morskiej energetyki wiatrowej.
+Na kamień milowy B4L składa się wejście w życie dwóch rozporządzeń do ustawy, tj:
+1) rozporządzenia w sprawie szczegółowych wymagań dla elementów zespołu urządzeń
+   służących do wyprowadzenia mocy oraz dla elementów stacji elektroenergetycznych
+   zlokalizowanych na morzu;
+2) rozporządzenia w sprawie maksymalnej ceny za energię elektryczną wytworzoną w morskiej
+   farmie wiatrowej i wprowadzoną do sieci, wyrażonej w złotych za 1 MWh, jaka może być
+   wskazana w ofertach złożonych w aukcji przez wytwórców.
+Pierwsza część kamienia milowego B4L (pkt 1) została zrealizowana – rozporządzenie Ministra
+Klimatu i Środowiska z dnia 25 maja 2022 r. w sprawie szczegółowych wymagań dla elementów
+zespołu urządzeń służących do wyprowadzenia mocy oraz dla elementów stacji
+elektroenergetycznych zlokalizowanych na morzu (Dz. U. poz. 1257) weszło w życie w dniu 29
+czerwca 2022 r.
+Realizację drugiej części kamienia milowego (pkt 2) stanowi przedmiotowy projekt
+rozporządzenia. Maksymalna cena, określona w § 1 projektu, przełoży się na zwiększenie
+efektywności procesu inwestycyjnego w zakresie morskich farm wiatrowych. Zgodnie z art. 31
+ust. 10 ustawy maksymalna cena została ustalona na poziomie umożliwiającym realizację
+inwestycji w zakresie budowy morskich farm wiatrowych, z uwzględnieniem istotnych
+parametrów technicznych i ekonomicznych funkcjonowania morskich farm wiatrowych oraz
+mając na uwadze konieczność uniknięcia nadmiernego obciążenia odbiorców końcowych.
+Realizacja projektów morskich farm wiatrowych przyczyni się również do zwiększenia udziału
+odnawialnych źródeł energii w krajowym miksie energetycznym.
+Projektowane rozporządzenie wejdzie w życie po upływie 14 dni od dnia ogłoszenia.
+Projektowane przepisy zostały przeanalizowane pod kątem wpływu na mikro-, małe i średnie
+przedsiębiorstwa. Regulacje zawarte w projekcie rozporządzenia nie będą miały negatywnego
+wpływu na ich funkcjonowanie.
+Projekt rozporządzenia jest zgodny z przepisami Unii Europejskiej.
+Projekt rozporządzenia nie podlega procedurze notyfikacji w rozumieniu przepisów
+                                         –4–
+
+
+rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie sposobu funkcjonowania
+krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz. 2039, z późn. zm.).
+Projekt rozporządzenia nie podlega przedstawieniu właściwym organom i instytucjom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, zgodnie z § 27 ust. 4 uchwały nr
+190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P.
+z 2024 r. poz. 806).
+                                                                        Data sporządzenia
+Nazwa projektu
+                                                                        …………………..
+Rozporządzenie Ministra Klimatu i Środowiska w sprawie maksymalnej
+ceny za energię elektryczną wytworzoną w morskich farmach wiatrowych Źródło
+i wprowadzoną do sieci, jaka może być wskazana w ofertach złożonych w Upoważnienie ustawowe art. 31 ust. 11
+aukcji przez wytwórców                                                ustawy z dnia 17 grudnia 2020 r.
+                                                                      o promowaniu wytwarzania energii
+Ministerstwo wiodące i ministerstwa współpracujące
+                                                                      elektrycznej w morskich farmach wiatrowych
+Ministerstwo Klimatu i Środowiska
+                                                                      (Dz. U. z 2024 r. poz. 182)
+Ministerstwo Aktywów Państwowych
+                                                                        Nr w Wykazie prac legislacyjnych
+Osoba odpowiedzialna za projekt w randze Ministra, Sekretarza Stanu
+lub Podsekretarza Stanu
+                                                                        Ministra Klimatu i
+…………………………………………                                                        Środowiska…………………………..
+
+Kontakt do opiekuna merytorycznego projektu
+…………………………………………
+
+                                OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+Ustawa z dnia 17 grudnia 2020 r. o promowaniu wytwarzania energii elektrycznej w morskich farmach wiatrowych (Dz.
+U. z 2024 r. poz. 182), zwana dalej „ustawą”, zawiera w art. 31 ust. 11 upoważnienie do wydania rozporządzenia
+określającego maksymalną cenę za energię elektryczną wytworzoną w morskiej farmie wiatrowej i wprowadzoną do sieci,
+wyrażoną w złotych za 1 MWh, jaka może być wskazana w ofertach złożonych w aukcji przez wytwórców, przy czym
+cena ta może być określona odmiennie dla poszczególnych obszarów, grupy obszarów lub grup obszarów wskazanych w
+załączniku nr 1 lub 2 do ustawy.
+Projektowane rozporządzenie umożliwi wytwórcom realizującym projekty morskich farm wiatrowych (MFW) ubieganie
+się o prawo do pokrycia tzw. ujemnego salda w II fazie systemu wsparcia dla morskich farm wiatrowych. Aukcje dla
+morskich farm wiatrowych zostaną przeprowadzone na zasadach podobnych do funkcjonujących już aukcji odnawialnych
+źródeł energii, w której każdy z wytwórców składać będzie jedną ofertę, niejawną dla pozostałych uczestników. Aukcje
+rozliczane będą według ceny z oferty („pay as bid”), a wygrywać będą oferty z najniższą ceną. Jednak cena złożona w
+ofercie nie może być wyższa od maksymalnej ceny ustalonej w projektowanym rozporządzeniu. Tak skonstruowany
+mechanizm aukcyjny umożliwi minimalizację kosztów dla odbiorcy końcowego wynikających z wprowadzenia na rynek
+polski technologii farm wiatrowych na morzu i stanowi znaczącą zachętę do poszukiwania innowacyjnych rozwiązań
+technologicznych, umożliwiających obniżenie kosztów produkcji energii elektrycznej.
+Pierwsze aukcje, w trakcie których może zostać przyznane prawo do pokrycia ujemnego salda, zostały zaplanowane
+w latach 2025, 2027, 2029 oraz 2031 (odpowiednio po 4 GW, 4 GW, 2 GW i 2 GW), natomiast aukcje w kolejnych latach
+będą przeprowadzane w zależności od postępu rozwoju morskiej energetyki wiatrowej w Polsce.
+Określenie maksymalnej ceny jest niezbędne do uruchomienia II fazy systemu wsparcia, a co za tym idzie do zapewnienia
+terminowego i zrównoważonego rozwoju MFW w Polsce. Informacje dotyczące maksymalnej ceny są ważnym sygnałem
+dla inwestorów pozwalającym na określenie, czy dany projekt inwestycyjny ma szansę na partycypację w systemie
+wsparcia, a tym samym na realizację. Realizacja inwestycji w morskie farmy wiatrowe zgodnie z przyjętym
+harmonogramem jest kluczowa dla wzmocnienia bezpieczeństwa i suwerenności energetycznej Polski oraz spełnienia
+zobowiązań wynikających z unijnej polityki energetyczno-klimatycznej.
+Z uwagi na planowaną pierwszą aukcję w 2025 r. niezbędne jest wejście w życie rozporządzenia nie później niż w IV
+kwartale 2024 r. Jednocześnie wydanie rozporządzenia stanowi kamień milowy B4L Krajowego Planu Odbudowy
+i Zwiększania Odporności (KPO), który został uwzględniony w 5. wniosku o płatność.
+
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji, i oczekiwany efekt
+
+Rekomenduje się wydanie przedmiotowego rozporządzenia określającego maksymalną cenę za energię elektryczną
+wytworzoną w morskich farmach wiatrowych i wprowadzoną do sieci, wyrażoną w złotych za 1 MWh, jaka może być
+                                                           –6–
+
+
+wskazana w ofertach złożonych w aukcji przez wytwórców, przy czym cena ta może być określona odmiennie dla
+poszczególnych obszarów, grupy obszarów lub grup obszarów wskazanych w załączniku nr 1 lub 2 do ustawy.
+Zgodnie z wytycznymi zawartymi w przepisie upoważniającym maksymalna cena została ustalona na poziomie
+umożliwiającym realizację inwestycji w zakresie budowy morskich farm wiatrowych, uwzględniając istotne parametry
+techniczne i ekonomiczne funkcjonowania morskich farm wiatrowych oraz mając na uwadze konieczność uniknięcia
+nadmiernego obciążenia odbiorców końcowych. Określając maksymalną cenę, uwzględniono:
+    • koszty operacyjne oraz dodatkowe koszty inwestycyjne ponoszone w okresie eksploatacji, w którym wytwórca
+        korzysta z prawa do pokrycia ujemnego salda;
+    • koszty inwestycyjne ponoszone w okresie przygotowania projektu i budowy morskiej farmy wiatrowej wraz
+        z niezbędną infrastrukturą techniczną oraz zespołem urządzeń służących do wyprowadzenia mocy, a także koszty
+        całkowitej likwidacji morskiej farmy wiatrowej wraz z zespołem urządzeń służących do wyprowadzenia mocy, po
+        zakończeniu jej eksploatacji;
+    •   uzasadniony zwrot z kapitału zaangażowanego w wykonywaną działalność gospodarczą w zakresie przygotowania,
+        budowy i eksploatacji morskiej farmy wiatrowej.
+Nieprawidłowo wyliczona maksymalna cena może uniemożliwić rozwój sektora morskiej energetyki wiatrowej w Polsce
+albo spowodować wystąpienie nadmiernego wsparcia, co skutkowałoby z jednej strony nadzwyczajnie wysokimi zyskami
+wytwórców, a z drugiej nadmiernym obciążeniem odbiorców końcowych.
+Nie jest możliwe osiągnięcie celu w postaci określenia maksymalnej ceny za energię elektryczną wytworzoną w morskich
+farmach wiatrowych i wprowadzoną do sieci, wyrażonej w złotych za 1 MWh, jaka może być wskazana w ofertach złożonych
+w aukcji przez wytwórców, za pomocą innych środków niż działania legislacyjne polegające na wydaniu rozporządzenia.
+Należy podkreślić, że maksymalna cena została określona w oparciu o obowiązujące parametry techniczno-ekonomiczne
+funkcjonowania morskich farm wiatrowych.
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich OECD/UE?
+
+Konstrukcja systemów wsparcia dla energii z odnawialnych źródeł energii, w szczególności morskiej energetyki wiatrowej,
+należy do właściwości poszczególnych państw członkowskich UE. Pierwsze projekty we wschodzących rynkach offshore
+wind ze względu na rozproszony łańcuch dostaw, ryzyko rynkowe oraz kwestie logistyczne generują istotnie wyższe koszty
+w porównaniu z rynkami rozwiniętymi, przez co dla uzasadnienia opłacalności wymagają systemu wsparcia (np. kontraktu
+różnicowego – ang. Contract for Difference, CfD).
+Konstrukcja kontraktów różnicowych w innych państwach zakłada określenie zarówno maksymalnej ceny aukcyjnej jak
+i minimalnej). Cena jest ustalana na podstawie średniego kosztu wytwarzania energii elektrycznej (LCOE) danej technologii.
+Ostatecznie system wsparcia w Niemczech, Holandii czy Wielkiej Brytanii jest oparty na systemie aukcyjnym, w którym
+każdy inwestor składa ofertę, a wygrywa inwestor o najniższym koszcie wytwarzania energii dla danego wolumenu mocy.
+                                                            –7–
+
+
+
+
+Wykres 1. Wskaźnik uśrednionych kosztów instalacji, współczynnik mocy, LCOE dla morskich farm wiatrowych w latach 2010–2022
+($/kWh) (źródło: IRENA, „Renewable Power Generation Costs in 2022”)
+
+W 2022 r. wolumen mocy z morskiej energetyki wiatrowej wzrósł o 8,9 GW. Byłby to nowy rekord, gdyby nie ekspansja
+obserwowana w 2021 r., kiedy to na świecie zainstalowano w sumie 21 GW nowych mocy, a na wynik miał wpływ
+dynamicznie rozwijający się rynek w Chinach. Międzynarodowa Agencja Energii Odnawialnej (IRENA) w swoim raporcie
+wskazuje, że spadek w 2022 r. udziału Chin w przyrostach nowych mocy i uruchomienie projektów na nowych rynkach
+spowodowały, że LCOE dla nowych projektów wzrósł o 2 % w porównaniu z 2021 r., z 0,079 $/kWh do 0,081 $/kWh.
+Analizy przygotowane przez National Renewable Energy Laboratory (NREL) –„2022 Cost of Wind Energy Review” oraz
+brytyjski Department for Business, Energy and Industrial Strategy (BEIS) – „Electricity generation cost 2023” wskazują na
+tendencję spadkową LCOE z morskich farm wiatrowych. Na ten spadek wpłynęły takie czynniki jak: zwiększenie
+produktywności turbin, minimalizacja zakłóceń produktywności (ograniczenie „wake-effect”), optymalizacja procesów
+obsługi i utrzymania, zmniejszenie ryzyka finansowania (dojrzałość branży i projektów), coraz większa podaż statków oraz
+portów, efektywniejsza technologia produkcji komponentów.
+Obecnie najbardziej rozpowszechnioną formą wsparcia jest wspomniany wcześniej kontrakt różnicowy. Stanowi on
+państwową gwarancję kupna po stałej cenie referencyjnej wyprodukowanej i wprowadzonej do sieci energii elektrycznej.
+W przypadku gdy rynkowe ceny energii są niższe niż cena referencyjna, dodatnia różnica jest wypłacana wytwórcy.
+Natomiast gdy ceny rynkowe energii są wyższe niż cena referencyjna, wówczas tę różnicę otrzymuje strona wspierająca.
+System ten jest satysfakcjonujący dla wszystkich stron, gdyż zapewnia stabilne przychody i minimalizuje koszty finansowe.
+W 2023 r. niektóre rządy zaczęły stosować tzw. „licytacje ujemne” w aukcjach dla morskiej energetyki wiatrowej, czyli opłatę
+ponoszoną przez dewelopera za prawo do budowy nowej farmy wiatrowej. Oznacza to jednak wyższe koszty finansowe
+wynikające z problemów z pozyskaniem kredytów, gdyż banki nie widzą w takim przypadku stabilnych przychodów. Zatem,
+chcąc się zabezpieczyć banki podwyższają stopy procentowe, co przyczynia się do zwiększenia ogólnego ryzyka projektu, co
+z kolei podnosi koszty kapitałowe. System ten nakłada na morskie farmy wiatrowe dodatkowe koszty, które następnie zostają
+przerzucone na społeczeństwo w postaci wyższych rachunków za energię lub na wytwórców energii, którzy już teraz zmagają
+się z inflacją i wzrostem kosztów.
+
+Niemcy:
+W 2023 r. Niemcy ogłosiły zwycięzców aukcji na morskie farmy wiatrowe na Morzu Północnym i Morzu Bałtyckim o mocy
+w sumie 8,8 GW.
+    •   Aukcje z „dynamiczną procedurą przetargową” (4 lokalizacje, 7 GW)
+                                                           –8–
+
+
+
+Inwestorzy ubiegający się o prawo do każdej z lokalizacji zobowiązali się do budowy morskiej farmy wiatrowej bez żadnego
+wsparcia ze strony państwa, uruchamiając dodatkową „dynamiczną procedurę przetargową”. Procedura ta wymagała od
+deweloperów przystąpienia do drugiej rundy nieograniczonej „licytacji ujemnej”. W przypadku licytacji negatywnej, zwanej
+również licytacją odwróconą, dostawcy energii starają się zaoferować najniższą możliwą cenę, która jest zazwyczaj ujemna.
+W praktyce oznacza to, że dostawca proponuje, że będzie płacił państwu za prawo do wyprodukowania energii. Oferty były
+przyznawane wyłącznie na podstawie ceny.
+W rezultacie wygrani deweloperzy morskich farm wiatrowych będą musieli zapłacić rządowi Niemiec łącznie 12,6 mld euro.
+90 % pieniędzy zostanie przeznaczonych na sfinansowanie kosztów podłączenia do sieci, 5 % zostanie wykorzystane na
+ochronę morskiej różnorodności biologicznej, a kolejne 5 % na wsparcie przyjaznego dla środowiska rybołówstwa.
+Cztery projekty mają zostać oddane do użytku do 2030 r. W celu terminowej realizacji tych projektów Niemcy muszą
+rozszerzyć swój łańcuch dostaw dla morskiej energetyki wiatrowej, np. o zdolność przemysłową do budowy turbin
+wiatrowych, fundamentów i statków instalacyjnych. Potrzebne będą również kolejne inwestycje w porty, a także pozyskanie
+wykwalifikowanych pracowników. „Dynamiczna procedura przetargowa” powoduje, że firmy w łańcuchu dostaw energii
+wiatrowej będą musiały pracować z jeszcze niższymi marżami, ponieważ deweloperzy przenoszą na nich dodatkowe koszty
+związane z „licytacją ujemną”.
+    •   Aukcje bez „dynamicznej procedury przetargowej” (4 lokalizacje, 1,8 GW)
+Lokalizacje zostały przyznane na aukcji w ramach innego projektu aukcyjnego, który obejmował cztery kryteria pozacenowe:
+ochronę środowiska, wkład w wykwalifikowaną siłę roboczą, ślad węglowy w produkcji turbin wiatrowych, istnienie umów
+PPA. Do tych lokalizacji nie miała zastosowania „dynamiczna procedura przetargowa”. Oddanie do użytku morskich farm
+wiatrowych spodziewane jest w 2028 r.
+Niemiecki regulator (Bundesnetzagentur) uznał, że 90 % przychodów z przetargu zostanie przeznaczone na obniżenie cen
+energii, a pozostała część w proporcji 50/50 na ochronę mórz i zrównoważone rybołówstwo. Część przeznaczona na ochronę
+mórz musi zostać wpłacona do budżetu federalnego w ciągu jednego roku, podczas gdy 90 % musi zostać wpłacone od 2028 r.
+przez okres 20 lat.
+
+Holandia
+W 2024 r. Holandia ogłosiła przetarg z zerowym subsydiowaniem na 4 GW mocy w morskiej energetyce wiatrowej na Morzu
+Północnym, przy czym w aukcji zastosowano znacznie wyższy wskaźnik „licytacji ujemnych” niż w poprzednich rundach.
+Deweloperzy mieli czas na złożenie ofert na dwa projekty o mocy 2 GW – IJmuiden Ver Alpha i Beta do dnia 28 marca 2024
+r., a w dniach 11 i 13 czerwca 2024 r. ogłoszono wyniki tych aukcji. Oferenci byli oceniani pod kątem pewności, że ukończą
+budowę morskiej farmy wiatrowej. W przypadku projektu IJmuiden Ver Alpha deweloperzy byli również oceniani pod kątem
+zgodności farmy wiatrowej z zasadami obiegu zamkniętego, w tym jej wpływu na środowisko. W przypadku IJmuiden Ver
+Beta był brany pod uwagę także wkład farmy wiatrowej w integrację systemu. Deweloperzy byli również oceniani pod kątem
+ich gotowości do płacenia za prawo do korzystania z terenu – „licytacji ujemnych” – przy akceptacji rocznych opłat w
+wysokości do 420 mln euro. Jednak ostateczna cena, jaką zapłacą zwycięscy oferenci, wynosi tylko 1 mln euro za rok przez
+40 lat dla IJmuiden Ver Alpha (tj. 20 mln euro za GW) i 20 mln euro za rok przez 40 lat dla Beta (tj. 400 mln euro za GW).
+W poprzednich rundach maksymalna opłata wynosiła 50 mln euro w całym okresie trwania projektu. Projekty IJmuiden Ver
+mają zostać oddane do użytku w 2029 r.
+
+Wielka Brytania
+W Wielkiej Brytanii koszt przyłączenia farmy wiatrowej do sieci elektroenergetycznej leży po stronie inwestora, który
+następnie odsprzedaje gotowe przyłącze do tzw. OFTO (Offshore Transmission Owner). W Wielkiej Brytanii wszyscy
+zwycięzcy aukcji na realizację projektów, które zakończą się w tym samym roku, otrzymują wsparcie w postaci kontraktu
+różnicowego w takiej samej wysokości, którą wyznacza najwyższa wygrana oferta.
+W 2023 r. opublikowano wyniki piątej rundy aukcji dla projektów OZE, w której najwięcej wsparcia przewidziano dla
+morskiej energetyki wiatrowej (7 GW). Aukcja zakończyła się jednak fiaskiem, ponieważ do aukcji nie przystąpił ani jeden
+deweloper. Inwestorów zniechęciła zbyt niska proponowana cena energii wytwarzanej przez morskie farmy wiatrowe,
+ustalona na poziomie maksymalnym 44 funty/MWh (około 236 zł/MWh).
+                                                          –9–
+
+
+W dniu 27 marca 2024 r. rozpoczęła się szósta runda alokacji. Maksymalna cena dla morskiej energetyki wiatrowej została
+ustalona na poziomie 73 funtów/MWh.
+
+Litwa
+Litwa planuje budowę dwóch morskich farm wiatrowych o mocy około 1,4 GW (po 700 MW), które mają zostać uruchomione
+w wyłącznej strefie ekonomicznej na Morzu Bałtyckim w pobliżu Połągi.
+W pierwszej aukcji przeprowadzonej 2023 r. zwycięzca aukcji jest zobowiązany do zapłaty 20 mln euro za możliwość
+rozwoju projektu. Inwestor otrzymał pozwolenie na eksploatację elektrowni wiatrowej przez 41 lat, która ma powstać około
+2030 r. W ramach drugiej aukcji zastosowano model CfD (kontrakt różnicowy), gdzie wytwórcy mogli składać oferty
+w przedziale od 64,31 euro/MWh do 107,18 euro/MWh. Litewska Krajowa Rada Regulacji Energetyki (VERT) przygotowała
+aukcję, która zakończyła się w dniu 14 kwietnia 2024 r. Do przeprowadzenia aukcji wymagano udziału co najmniej dwóch
+ofert. Niestety wpłynęła jedynie jedna oferta, zatem aukcja została nierozstrzygnięta.
+
+Reasumując, ceny dla morskiej energetyki wiatrowej są bardzo zróżnicowane, zależą od wielu czynników i różnią się
+względem poszczególnych rynków. Dodatkowo opracowania branżowe wskazują, że projekty realizowane na nowych
+rynkach będą wymagały podobnego poziomu wsparcia względem rynków rozwijających morskie farmy wiatrowe, ze
+względu na specyfikę danego kraju oraz czynniki takie jak dostęp do infrastruktury portowej czy wyższy poziom ryzyka.
+Przedstawiane powyżej maksymalne ceny funkcjonowały w systemach aukcyjnych mających na celu zachowanie konkurencji
+oraz optymalizację kosztową portfolio realizowanych projektów.
+
+4. Podmioty, na które oddziałuje projekt
+          Grupa                      Wielkość                    Źródło danych                    Oddziaływanie
+Przedsiębiorcy (potencjalni   Kilkanaście               Szacunki własne, ocena na        Przedsiębiorcy (wytwórcy)
+wytwórcy energii                                        podstawie wydanych               zainteresowani przystąpieniem
+elektrycznej z morskich                                 pozwoleń na wznoszenie i         do II fazy systemu wsparcia
+elektrowni wiatrowych)                                  wykorzystywanie sztucznych       w drodze aukcji.
+                                                        wysp (PSZW) oraz
+                                                        możliwości podpisania umów
+                                                        joint venture
+Odbiorcy końcowi energii      17,3 mln                  Urząd Regulacji Energetyki       System wsparcia będzie
+elektrycznej                                                                             powodował przepływy
+                                                                                         finansowe w kierunku
+                                                                                         inwestorów budujących
+                                                                                         morskie farmy wiatrowe, które
+                                                                                         pokrywane będą w ramach
+                                                                                         opłaty związanej z
+                                                                                         zapewnieniem dostępności
+                                                                                         energii ze źródeł
+                                                                                         odnawialnych, tzw. opłaty
+                                                                                         OZE. Wysokość opłaty
+                                                                                         uzależniona będzie m.in. od
+                                                                                         cen energii elektrycznej oraz
+                                                                                         wysokości jednostkowego
+                                                                                         wsparcia dla poszczególnych
+                                                                                         projektów.
+                                                                                         Zwiększenie bezpieczeństwa
+                                                                                         dostaw energii elektrycznej.
+Mikro-, małe i średnie        • Liczba                  Polska Agencja Rozwoju           Zwiększenie bezpieczeństwa
+przedsiębiorstwa                mikroprzedsiębiorstw    Przedsiębiorczości – Raport o    dostaw energii elektrycznej,
+                                – 1,96 mln              stanie sektora małych i          możliwość rozwoju sektora
+                                                        średnich przedsiębiorstw w       przemysłu związanego
+                                                        Polsce                           z budową i eksploatacją MFW.
+                                                         – 10 –
+
+
+                             • Liczba małych                                              Dostęp do dużych ilości
+                               przedsiębiorstw – 84                                       energii ze źródeł
+                               tys.                                                       odnawialnych na potrzeby
+                             • Liczba średnich                                            prowadzonej działalności
+                               przedsiębiorstw – 15                                       gospodarczej.
+                               tys.
+
+duże przedsiębiorstwa        3,3 tys.                   Polska Agencja Rozwoju  Zwiększenie bezpieczeństwa
+                                                        Przedsiębiorczości – Raport o
+                                                                                dostaw energii elektrycznej,
+                                                        stanie sektora małych i możliwość rozwoju sektora
+                                                        średnich przedsiębiorstw w
+                                                                                przemysłu związanego
+                                                        Polsce                  z budową i eksploatacją MFW.
+                                                                                Dostęp do dużych ilości
+                                                                                energii ze źródeł
+                                                                                odnawialnych na potrzeby
+                                                                                prowadzonej działalności
+                                                                                gospodarczej.
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Projekt, zgodnie z art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie stanowienia prawa (Dz. U. z
+2017 r. poz. 248, z późn. zm.) i § 52 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. – Regulamin pracy
+Rady Ministrów (M.P. z 2024 r. poz. 806), zostanie udostępniony w Biuletynie Informacji Publicznej, na stronie
+podmiotowej Rządowego Centrum Legislacji, w serwisie Rządowy Proces Legislacyjny.
+Projekt zostanie przekazany do konsultacji do następujących podmiotów:
+1) Agencja Rozwoju Przemysłu;
+2) Baltic Power sp. z o.o.;
+3) Baltic Trade and Invest;
+4) Bank Gospodarstwa Krajowego;
+5) Enea;
+6) Energa MFW 1 i 2 sp. z o.o.;
+7) Equinor Polska sp. z o.o.;
+8) Izba Energetyki Przemysłowej i Odbiorców Energii;
+9) Izba Gospodarcza Energetyki i Ochrony Środowiska;
+10) Konfederacja Lewiatan;
+11) Krajowa Izba Gospodarcza;
+12) Krajowa Izba Gospodarki Morskiej;
+13) Northland Power;
+14) Ocean Winds;
+15) Orlen Neptun II-XI sp. z o.o.;
+16) Ørsted Polska sp. o.o.;
+17) PGE Baltica sp. z o.o.;
+18) PGE Polska Grupa Energetyczna S.A.;
+19) Orlen S.A.;
+20) Polenergia S.A.;
+21) Polska Izba Gospodarcza Energii Odnawialnej i Rozproszonej;
+22) Polska Izba Morskiej Energetyki Wiatrowej;
+23) Polski Fundusz Rozwoju;
+24) Polski Komitet Energii Elektrycznej;
+25) Polskie Sieci Elektroenergetyczne S.A;
+26) Polskie Stowarzyszenie Energetyki Wiatrowej;
+27) Pracodawcy Pomorza;
+28) RWE;
+29) Sea Wind Polska;
+                                                                – 11 –
+
+
+30) Stowarzyszenie Branży Elektroenergetycznej;
+31) Stowarzyszenie Energii Odnawialnej;
+32) Synthos Green Energy;
+33) Tauron Polska Energia;
+34) Towarzystwo Gospodarcze Polskie Elektrownie;
+35) Towarzystwo Obrotu Energią;
+36) Zarządca Rozliczeń S.A.;
+37) Związek Banków Polskich;
+38) Związek Polskich Pracodawców Handlu i Usług.
+Projekt zostanie przekazany do zaopiniowania następującym podmiotom:
+1) Pełnomocnik Rządu ds. Strategicznej Infrastruktury Energetycznej;
+2) Prezes Prokuratorii Generalnej Rzeczypospolitej Polskiej;
+3) Prezes Urzędu Ochrony Konkurencji i Konsumentów;
+4) Prezes Urzędu Regulacji Energetyki.
+Z uwagi na zakres projektu, który nie dotyczy zadań związków zawodowych ani praw i interesów związków pracodawców,
+projekt nie podlega opiniowaniu przez reprezentatywne związki zawodowe ani przez reprezentatywne organizacje
+pracodawców.
+Projekt zostanie skierowany do rozpatrzenia przez Komitet Ekonomiczny Rady Ministrów ze względu na to, że dotyczy
+spraw z zakresu właściwości ww. komitetu.
+Projekt nie podlega opiniowaniu przez Komisję Wspólną Rządu i Samorządu Terytorialnego, gdyż nie dotyczy spraw
+związanych z samorządem terytorialnym, o których mowa w ustawie z dnia 6 maja 2005 r. o Komisji Wspólnej Rządu
+i Samorządu Terytorialnego oraz o przedstawicielach Rzeczypospolitej Polskiej w Komitecie Regionów Unii Europejskiej
+(Dz. U. z 2024 r. poz. 949).
+Projekt nie dotyczy spraw, o których mowa w art. 1 ustawy z dnia 24 lipca 2015 r. o Radzie Dialogu Społecznego i innych
+instytucji dialogu społecznego (Dz. U. z 2018 r. poz. 2232, z późn. zm.), wobec czego nie wymaga zaopiniowania przez
+Rade Dialogu Społecznego.
+Projekt rozporządzenia wymaga przedstawienia właściwym instytucjom i organom Unii Europejskiej, w tym
+Europejskiemu Bankowi Centralnemu, celem uzyskania opinii, dokonania powiadomienia, konsultacji albo uzgodnienia
+projektu.
+Wyniki opiniowania i konsultacji publicznych zostaną omówione w raporcie z konsultacji zawierającym zestawienie
+przedstawionych stanowisk lub opinii i odniesienie się do nich przez organ wnioskujący, udostępnionym na stronie
+Rządowego Centrum Legislacji, w zakładce Rządowy Proces Legislacyjny.
+
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z …… r.)                                   Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+                                       0       1       2     3     4      5       6     7     8     9     10     Łącznie (0-10)
+Dochody ogółem                     -       -       -        -      -     -      -     -     -      -     -      -
+budżet państwa                     -       -       -        -      -     -      -     -     -      -     -      -
+JST                                -       -       -        -      -     -      -     -     -      -     -      -
+pozostałe jednostki (oddzielnie)   -       -       -        -      -     -      -     -     -      -     -      -
+Wydatki ogółem                     -       -       -        -      -     -      -     -     -      -     -      -
+budżet państwa                     -       -       -        -      -     -      -     -     -      -     -      -
+JST                                -       -       -        -      -     -      -     -     -      -     -      -
+pozostałe jednostki (oddzielnie)   -       -       -        -      -     -      -     -     -      -     -      -
+Saldo ogółem                       -       -       -        -      -     -      -     -     -      -     -      -
+budżet państwa                     -       -       -        -      -     -      -     -     -      -     -      -
+                                                               – 12 –
+
+
+JST                                 -        -       -     -        -   -       -       -   -       -   -       -
+pozostałe jednostki (oddzielnie)    -        -       -     -        -   -       -       -   -       -   -       -
+                          Projekt rozporządzenia nie powoduje skutków finansowych dla jednostek sektora finansów
+                          publicznych, w tym budżetu państwa i budżetów jednostek samorządu terytorialnego,
+Źródła finansowania
+                          polegających na zwiększeniu wydatków lub zmniejszeniu dochodów tych jednostek w stosunku
+                          do wielkości wynikających z obowiązujących przepisów.
+Dodatkowe informacje,     Regulacja ma charakter wtórny wobec rozwiązań przyjętych w ustawie. Rozporządzenie określa
+w tym wskazanie           wysokość ceny, która jest kluczowym elementem systemu wsparcia oraz istotnym sygnałem dla
+źródeł danych i           inwestorów.
+przyjętych do obliczeń
+założeń
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie przedsiębiorców, oraz na
+   rodzinę, obywateli i gospodarstwa domowe
+                                                               Skutki
+Czas w latach od wejścia w życie zmian              0           1           2       3           5       10          Łącznie (0-10)
+W ujęciu          duże przedsiębiorstwa             -           -           -       -           -        -                -
+pieniężnym        sektor mikro-, małych i           -           -           -       -           -        -                -
+(w mln zł,        średnich przedsiębiorstw
+ceny stałe z      rodzina, obywatele oraz           -           -           -       -           -           -             -
+…… r.)            gospodarstwa domowe
+W ujęciu          duże przedsiębiorstwa          Projekt rozporządzenia nie wprowadza dodatkowych obciążeń ani obowiązków,
+niepieniężnym                                    a jedynie określa wysokość maksymalnej ceny w II fazie systemu wsparcia.
+                  sektor mikro-, małych i        Projekt rozporządzenia nie wprowadza dodatkowych obciążeń ani obowiązków,
+                  średnich przedsiębiorstw       a jedynie określa wysokość maksymalnej ceny w II fazie systemu wsparcia.
+                  rodzina, obywatele oraz        Projekt rozporządzenia nie wprowadza dodatkowych obciążeń ani obowiązków,
+                  gospodarstwa domowe            a jedynie określa wysokość maksymalnej ceny w II fazie systemu wsparcia.
+                  osoby niepełnosprawne          Projekt rozporządzenia nie wprowadza dodatkowych obciążeń ani obowiązków,
+                  oraz osoby starsze             a jedynie określa wysokość maksymalnej ceny w II fazie systemu wsparcia.
+Dodatkowe informacje,     Projekt rozporządzenia nie wprowadza dodatkowych obciążeń ani obowiązków, a jedynie określa
+w tym wskazanie           wysokość maksymalnej ceny w II fazie systemu wsparcia. W kontekście działalności przedsiębiorstw
+źródeł danych i           zajmujących się wytwarzaniem energii elektrycznej z morskich farm wiatrowych, które będą chciały
+przyjętych do obliczeń    przystąpić do systemu wsparcia przedmiotowy projekt rozporządzenia będzie miał kluczowe
+założeń                   znaczenie, bowiem na podstawie określonej w nim ceny będą podejmować decyzję, czy przystąpić do
+                          aukcji. Maksymalna cena wskazuje bowiem górną granicę kosztu wytwarzania energii, który będzie
+                          akceptowalny z punktu widzenia przystąpienia do aukcji, przy czym cena ta została określona odmiennie
+                          dla poszczególnych obszarów, grupy obszarów lub grup obszarów wskazanych w załącznikach do
+                          ustawy.
+                          Szacunkowe koszty systemu wsparcia (łącznie I i II fazy, czyli w sumie 17,9 GW mocy
+                          zainstalowanej) wyniosą około 151,31 mld EUR. Udzielenie wsparcia w maksymalnej możliwej
+                          wysokości dla wszystkich projektów morskich farm wiatrowych przełożyłoby się na wysokość opłaty
+                          OZE i podniesienie ceny energii elektrycznej średnio ok. 0,10 zł/kWh. Należy jednak mieć na uwadze,
+                          że pojawienie się w Krajowym Systemie Elektroenergetycznym dodatkowych 18 GW mocy
+                          z morskich farm wiatrowych docelowo spowoduje spadek cen hurtowych energii, co przełoży się na
+                          spadek cen ponoszonych przez odbiorców końcowych w taryfach.
+                          Jak wynika z zaprezentowanej w dniu 10 września 2024 r. analizy Polskiego Stowarzyszenia
+                          Energetyki Wiatrowej (PSEW) pn. „Offshore – to się opłaca” morska energetyka wiatrowa przyczyni
+                          się do obniżenia cen energii elektrycznej na rynku. Rozwój morskiej energetyki wiatrowej oznacza
+                          również szereg oszczędności dla gospodarki w postaci niższych kosztów zakupu paliw (węgiel, gaz),
+                          czy mniejszych kosztów pozyskania uprawnień do emisji CO2.
+                          Zgodnie z wyliczeniami zaprezentowanymi przez PSEW w scenariuszu przewidującym rozwój
+                          morskiej energetyki wiatrowej do poziomu 5,9 GW koszt zakupu energii elektrycznej przez
+                                                         – 13 –
+
+
+                        odbiorców końcowych w latach 2026 do 2040 wyniesie 1 033,3 mld zł, a w przypadku scenariusza
+                        włączenia do 2040 r. 18 GW z morskiej energetyki wiatrowej koszt ten wyniesie 841,9 mld zł. Poziom
+                        oszczędności wynosi ponad 190 mld zł. Poza powyższym wpływ na konkurencyjność gospodarki i
+                        przedsiębiorczość, w tym funkcjonowanie mikro-, małych i średnich przedsiębiorców, oraz na
+                        sytuację ekonomiczną i społeczną rodziny, a także osób niepełnosprawnych oraz osób starszych został
+                        kompleksowo określony dla całości rozwiązań legislacyjnych wprowadzonych przez ustawę, na
+                        podstawie której wydawane jest niniejsze rozporządzenie.
+8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+☒ nie dotyczy
+Wprowadzane są obciążenia poza bezwzględnie               ☐ tak
+wymaganymi przez UE (szczegóły w odwróconej tabeli        ☐ nie
+zgodności).                                               ☒ nie dotyczy
+☐ zmniejszenie liczby dokumentów                          ☐ zwiększenie liczby dokumentów
+☐ zmniejszenie liczby procedur                            ☐ zwiększenie liczby procedur
+☐ skrócenie czasu na załatwienie sprawy                   ☐ wydłużenie czasu na załatwienie sprawy
+☐ inne: …                                                 ☐ inne: …
+Wprowadzane obciążenia są przystosowane do ich            ☐ tak
+elektronizacji.                                           ☐ nie
+                                                          ☒ nie dotyczy
+9. Wpływ na rynek pracy
+Regulacja ma charakter wtórny wobec ustawy. Wpływ wprowadzenia proponowanych rozwiązań na rynek pracy został
+opisany w ocenie skutków regulacji do ustawy.
+
+10. Wpływ na pozostałe obszary
+
+☐ środowisko naturalne                 ☐ demografia                               ☐ informatyzacja
+☐ sytuacja i rozwój regionalny         ☐ mienie państwowe                         ☐ zdrowie
+☐ sądy powszechne, administracyjne     ☐ inne: ...
+lub wojskowe
+
+Omówienie wpływu        Nie dotyczy
+
+11. Planowane wykonanie przepisów aktu prawnego
+Projektowana regulacja będzie obowiązywała od momentu wejścia w życie w IV kwartale 2024 r.
+
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Prawidłowo wyznaczona maksymalna cena za energię elektryczną wytworzoną w morskich farmach i wprowadzoną do
+sieci, jaka może być wskazana w ofertach złożonych w aukcji przez wytwórców, wpłynie na podaż projektów oraz
+osiągnięcie zakładanej mocy zainstalowanej w morskich farmach wiatrowych (prawie 18 GW do 2040 r.).
+Minister właściwy do spraw klimatu na bieżąco monitoruje rynek i prowadzi analizę dostępnych danych dotyczących
+kosztów wytwarzania energii elektrycznej w morskich farmach wiatrowych. Ma możliwość zmiany maksymalnej ceny w
+drodze wydania nowego rozporządzenia.
+Z uwagi na ograniczony charakter regulacji nie rekomenduje się wskazywania konkretnych mierników do ewaluacji.
+
+13.Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+
+Brak
+

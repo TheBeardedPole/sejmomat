@@ -1,0 +1,68 @@
+{% macro result_badge(v) -%}
+<span class="badge {{ v.outcome_class }}">{{ _(v.outcome) }}</span>
+{%- if v.against_rec %} <span class="badge warn" title="{{ _('Wynik niezgodny z rekomendacją komisji') }}">{{ _("wbrew komisji") }}</span>{% endif %}
+{%- endmacro %}
+
+{% macro counts(v) -%}
+<span class="counts"><span class="y">{{ v.yes }}</span> / <span class="n">{{ v.no }}</span> / <span class="a">{{ v.abstain }}</span></span>
+{%- endmacro %}
+
+{% macro amendment_summary(v) -%}
+{% set a = v.amendments[0] %}
+{% if a and a.item %}
+<span class="muted"> · {{ a.item.authors | join(", ") }}{% if a.item.recommendation %} · {{ _("komisja") }}: {{ _(a.item.recommendation) }}{% endif %}</span>
+<div class="snippet">{{ a.item.text | truncate(180) }}</div>
+{% endif %}
+{%- endmacro %}
+
+{% macro mp_link(mps, id, root) -%}
+{% set m = mps.get(id) %}<a href="{{ root }}posel/{{ id }}.html">{{ m.firstLastName if m else "#" ~ id }}</a>
+{%- endmacro %}
+
+{% macro print_link(num, root, printed, frag=none, label=none) -%}
+{% if num in printed %}<a href="{{ root }}druk/{{ num }}.html{% if frag %}#{{ frag }}{% endif %}">{{ label or num }}</a>{% else %}<a href="{{ print_url(num) }}">{{ label or num }}</a>{% endif %}
+{%- endmacro %}
+
+{% macro vote_row(v, root) -%}
+<tr>
+  <td class="num" style="width:3.5em"><a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.votingNumber }}</a></td>
+  <td>{{ v.topic }}{{ amendment_summary(v) }}</td>
+  <td style="width:9em">{{ result_badge(v) }}</td>
+  <td class="num" style="width:8em">{{ counts(v) }}</td>
+</tr>
+{%- endmacro %}
+
+{% macro law_changes(blocks, open_first=false) -%}
+{% for b in blocks %}
+<details class="law"{% if open_first and loop.first %} open{% endif %}>
+  <summary><strong lang="pl">{% if b.cite.name %}{{ "ustawa " if b.cite.name.startswith("o ") else "" }}{{ b.cite.name }}{% else %}Dz. U. {{ b.cite.year or b.cite.ayear }} poz. {{ b.cite.pos }}{% endif %}</strong>
+    <span class="muted">— {{ b.changes | length }} {{ _("zmian") }}</span></summary>
+  <p class="note">
+    <a href="{{ act_url(b.eli) }}">Dz. U. {{ b.cite.year or b.cite.ayear }} poz. {{ b.cite.pos }}</a>
+    {% if b.meta and b.meta.title and b.meta.type == "Obwieszczenie" %} · {{ _("tekst jednolity") }}{% if b.meta.announcementDate %} {{ b.meta.announcementDate | date_pl }}{% endif %}{% endif %}
+    {% set later = ((b.meta or {}).get("references") or {}).get("Nowelizacje po tekście jednolitym") or [] %}
+    {% if later %}<br><span class="warn-text">{{ _("Uwaga: późniejsze nowelizacje mogą nie być uwzględnione") }}: {% for r in later %}{{ r.id | replace("DU/", "") | replace("/", " poz. ") }}{{ ", " if not loop.last }}{% endfor %}.</span>{% endif %}
+    {% if not b.loaded %}<br><span class="muted">{{ _("Tekst ustawy nie został jeszcze pobrany — pokazujemy tylko nowe brzmienie.") }}</span>{% endif %}
+  </p>
+  {% for c in b.changes %}
+  <div class="diff law-change" lang="pl">
+    <span class="where">{{ _("zmiana") }} {{ c.label }} · {{ c.where }}{% if c.op == "repeal" %} · {{ _("uchylenie") }}{% elif c.op == "add" %} · {{ _("dodanie") }}{% endif %}{% if b.loaded and not c.found %} · <span class="warn-text">{{ _("nie odnaleziono przepisu w tekście jednolitym") }}</span>{% endif %}</span>
+    <div class="rows">{{ c.html | safe }}</div>
+  </div>
+  {% endfor %}
+</details>
+{% endfor %}
+{%- endmacro %}
+
+{% macro bill_diff(bd, root, printed) -%}
+<div class="bill-diff">
+  <p class="note">{{ _("Porównanie z projektem według") }} {{ print_link(bd.base, root, printed, none, _("druku nr") ~ " " ~ bd.base) }}:
+    <span class="r-legend"><del>{{ _("usunięte") }}</del> <ins>{{ _("dodane") }}</ins> <span class="muted">{{ _("szare — sąsiednie przepisy") }}</span></span></p>
+  {% for c in bd.changes %}
+  <div class="diff law-change" lang="pl">
+    <span class="where">{{ c.where }}{% if not c.found %} · <span class="warn-text">{% if c.pending %}{{ _("przepis dodawany inną zmianą — brak w projekcie") }}{% else %}{{ _("nie odnaleziono przepisu w projekcie") }}{% endif %}</span>{% endif %}</span>
+    <div class="rows">{{ c.html | safe }}</div>
+  </div>
+  {% endfor %}
+</div>
+{%- endmacro %}
