@@ -1,0 +1,37 @@
+name: Test logowania FTP
+
+# Quick check of the FTP_* secrets without fetching or building anything:
+# logs in and lists the target directory.
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  login:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Log in and list the target directory
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_DIR: ${{ vars.FTP_DIR || 'public_html/' }}
+          FTP_PROTOCOL: ${{ vars.FTP_PROTOCOL || 'ftps' }}
+        run: |
+          # Report shape problems that commonly cause "530 Login incorrect",
+          # without revealing the values.
+          for name in FTP_SERVER FTP_USERNAME FTP_PASSWORD; do
+            value="${!name}"
+            echo "$name: ${#value} characters"
+            case "$value" in
+              *[[:space:]]*) echo "::warning::$name contains whitespace (space or line break)";;
+            esac
+          done
+          case "$FTP_SERVER" in *://*) echo "::warning::FTP_SERVER should not include ftp:// or a path";; esac
+          tls=()
+          if [ "$FTP_PROTOCOL" != "ftp" ]; then tls=(--ssl-reqd); fi
+          curl --silent --show-error --max-time 60 "${tls[@]}" \
+            --user "$FTP_USERNAME:$FTP_PASSWORD" "ftp://$FTP_SERVER/$FTP_DIR" | head -20
+          echo "Login OK"
