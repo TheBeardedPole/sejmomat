@@ -5,6 +5,7 @@ TERM = 10
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 CACHE = ROOT / "cache"  # raw PDF/DOCX downloads, not committed
+ACTS = DATA / "acts"   # consolidated texts of amended acts (committed)
 SITE = ROOT / "site"
 TEMPLATES = ROOT / "templates"
 STATIC = ROOT / "static"

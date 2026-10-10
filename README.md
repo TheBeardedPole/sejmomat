@@ -15,6 +15,8 @@ api.sejm.gov.pl ──fetch──> data/ (committed) ──build──> site/ (s
   `REFRESH_LAST_SITTINGS` are re-fetched every run to pick up corrections.
   Print PDFs are converted to text (`pdftotext`; for scans the .docx
   attachment or OCR) and only the text is kept.
+  When a run brings new votes or prints, the consolidated texts of newly
+  amended acts are fetched from the ELI API into `data/acts` as well.
 - `python -m sejmomat build` parses amendments out of the print texts, links
   them to votings, computes club lines / rebellions and renders
   `site/`.

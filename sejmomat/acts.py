@@ -18,7 +18,7 @@ from functools import cache
 from html import escape
 
 from .changes import word_diff_html
-from .config import CACHE
+from .config import ACTS
 
 # ---------------------------------------------------------------- act text
 
@@ -557,8 +557,8 @@ def act_id(cite):
 
 @cache
 def load_act(eli_id):
-    """(meta, {article: Unit}) from cache/acts, or (None, None) if not fetched."""
-    base = CACHE / "acts" / eli_id.replace("/", "-")
+    """(meta, {article: Unit}) from data/acts, or (None, None) if not fetched."""
+    base = ACTS / eli_id.replace("/", "-")
     txt, meta = base.with_suffix(".txt"), base.with_suffix(".json")
     if not txt.exists():
         return None, None

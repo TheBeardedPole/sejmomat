@@ -14,8 +14,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Scheduled runs only do work on Sejm sitting days and two days after;
-  # a manual run always goes ahead.
+  # Scheduled runs only do work on Sejm sitting days and two days after,
+  # and not before PAUSE_SCHEDULED_UNTIL if set; a manual run always goes ahead.
   check:
     runs-on: ubuntu-latest
     outputs:
@@ -25,6 +25,9 @@ jobs:
         with:
           sparse-checkout: sejmomat
       - id: day
+        env:
+          # Optional repository variable (YYYY-MM-DD): no scheduled runs before that day.
+          PAUSE_SCHEDULED_UNTIL: ${{ vars.PAUSE_SCHEDULED_UNTIL }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
@@ -50,18 +53,8 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # Consolidated texts of amended acts are large and not committed;
-      # keep them between runs so only newly cited acts are downloaded.
-      - uses: actions/cache@v4
-        with:
-          path: cache/acts
-          key: acts-${{ github.run_id }}
-          restore-keys: acts-
-
       - name: Fetch new votings, prints and amended acts
         run: python -m sejmomat fetch
-        env:
-          ACTS_PER_RUN: "400"
 
       - name: Commit updated data
         run: |
@@ -70,6 +63,7 @@ jobs:
           git add data
           if ! git diff --cached --quiet; then
             git commit -m "Aktualizacja danych $(date -u +%F)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"   # main may have moved since checkout
             git push
           fi
 

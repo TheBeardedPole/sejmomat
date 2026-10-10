@@ -1,4 +1,5 @@
 """Download votings and prints into data/ (committed) and cache/ (not)."""
+import hashlib
 import json
 import os
 import re
@@ -6,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from . import api
 from .acts import CITE_RE, act_id, clean_bill_lines
-from .config import CACHE, DATA, REFRESH_LAST_SITTINGS
+from .config import ACTS, CACHE, DATA, REFRESH_LAST_SITTINGS
 from .refs import is_amendment_topic, prints_in_title
 from .textract import docx_paragraphs, docx_text, ocr_available, ocr_pdf_text, pdf_text
 
@@ -174,7 +175,7 @@ def fetch_prints():
 
 
 def _fetch_act(eli_id):
-    base = CACHE / "acts" / eli_id.replace("/", "-")
+    base = ACTS / eli_id.replace("/", "-")
     if base.with_suffix(".txt").exists():
         return
     meta = api.get(f"acts/{eli_id}", base=api.ELI)
@@ -196,7 +197,8 @@ def _fetch_act(eli_id):
 def fetch_acts():
     """Consolidated texts of acts that committee reports and amendments change.
 
-    Kept in cache/ (not committed): codes run to thousands of pages.
+    Kept in data/acts and committed, like the print texts, so every build
+    has them without re-downloading from the slow ELI API.
     """
     wanted = set()
     for meta_path in (DATA / "prints").glob("*.json"):
@@ -208,15 +210,10 @@ def fetch_acts():
             continue
         flat = "\n".join(clean_bill_lines(text_path.read_text(encoding="utf-8")))
         wanted.update(act_id(m.groupdict()) for m in CITE_RE.finditer(flat))
-    missing = sorted(e for e in wanted if not (CACHE / "acts" / f"{e.replace('/', '-')}.txt").exists())
-    # The ELI API is slow; in CI, download a bounded batch per run and let the
-    # cache fill up over several runs (ACTS_PER_RUN, unlimited when unset).
-    limit = int(os.environ.get("ACTS_PER_RUN") or 0)
-    if limit:
-        missing = missing[:limit]
+    missing = sorted(e for e in wanted if not (ACTS / f"{e.replace('/', '-')}.txt").exists())
     with ThreadPoolExecutor(3) as pool:
         list(pool.map(_fetch_act, missing))
-    have = sum(1 for e in wanted if (CACHE / "acts" / f"{e.replace('/', '-')}.txt").exists())
+    have = sum(1 for e in wanted if (ACTS / f"{e.replace('/', '-')}.txt").exists())
     print(f"acts: {have}/{len(wanted)} cited acts available")
 
 
@@ -249,8 +246,32 @@ def ocr_scanned():
         list(pool.map(one, todo))
 
 
+def _data_state():
+    """Fingerprint of the votings and the set of print texts on disk."""
+    digest = hashlib.sha256()
+    for path in sorted((DATA / "votings").glob("*.json")):
+        digest.update(path.name.encode())
+        digest.update(path.read_bytes())
+    for path in sorted((DATA / "prints").glob("*.txt")):
+        digest.update(path.name.encode())
+    return digest.hexdigest()
+
+
+ACTS_SCANNED = ACTS / "_scanned.txt"  # data fingerprint at the last completed acts scan
+
+
 def run():
+    """Fetch votings and prints; look for newly amended acts only when there
+    is something new since the last completed acts scan (a new sitting, new
+    votes or new prints). Between sittings nothing changes, so the scan and
+    the slow ELI API are skipped. `python -m sejmomat acts` forces the step."""
     fetch_people()
     fetch_sittings()
     fetch_prints()
+    state = _data_state()
+    if ACTS_SCANNED.exists() and ACTS_SCANNED.read_text().strip() == state:
+        print("acts: no new votings or prints since the last scan, skipping")
+        return
     fetch_acts()
+    # recorded only after a scan that ran to the end, so a failed one is retried
+    ACTS_SCANNED.write_text(state + "\n")

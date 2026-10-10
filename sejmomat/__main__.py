@@ -2,7 +2,8 @@ import sys
 
 from . import build, fetch
 
-COMMANDS = {"fetch": fetch.run, "build": build.run, "ocr": fetch.ocr_scanned}
+COMMANDS = {"fetch": fetch.run, "build": build.run, "ocr": fetch.ocr_scanned,
+            "acts": fetch.fetch_acts}
 
 if __name__ == "__main__":
     if len(sys.argv) != 2 or sys.argv[1] not in COMMANDS:

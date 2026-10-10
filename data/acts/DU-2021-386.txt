@@ -1,0 +1,207 @@
+                       DZIENNIK USTAW
+                       RZECZYPOSPOLITEJ POLSKIEJ
+                                        Warszawa, dnia 2 marca 2021 r.
+
+                                                         Poz. 386
+
+
+                                             O BW I ES ZC ZEN I E
+                        M A R S ZA ŁK A S EJ M U R ZEC ZY P O S P O LI TEJ P O LS K I E J
+                                                   z dnia 23 lutego 2021 r.
+
+                        w sprawie ogłoszenia jednolitego tekstu ustawy o ochronie baz danych
+
+     1. Na podstawie art. 16 ust. 1 zdanie pierwsze ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów normatywnych
+i niektórych innych aktów prawnych (Dz. U. z 2019 r. poz. 1461) ogłasza się w załączniku do niniejszego obwieszczenia
+jednolity tekst ustawy z dnia 27 lipca 2001 r. o ochronie baz danych (Dz. U. z 2019 r. poz. 2134), z uwzględnieniem
+zmian wprowadzonych ustawą z dnia 13 lutego 2020 r. o zmianie ustawy – Kodeks postępowania cywilnego oraz niektórych
+innych ustaw (Dz. U. poz. 288 i 875 oraz z 2021 r. poz. 187) oraz zmian wynikających z przepisów ogłoszonych przed
+dniem 18 lutego 2021 r.
+
+     2. Podany w załączniku do niniejszego obwieszczenia tekst jednolity ustawy nie obejmuje odnośnika nr 1 oraz art. 24
+ustawy z dnia 13 lutego 2020 r. o zmianie ustawy – Kodeks postępowania cywilnego oraz niektórych innych ustaw (Dz. U.
+poz. 288 i 875 oraz z 2021 r. poz. 187), które stanowią:
+    „1)   Niniejsza ustawa w zakresie swojej regulacji wdraża dyrektywę 2004/48/WE Parlamentu Europejskiego i Rady
+          z dnia 29 kwietnia 2004 r. w sprawie egzekwowania praw własności intelektualnej (Dz. Urz. UE L 157
+          z 30.04.2004, str. 45).”
+
+          „Art. 24. Ustawa wchodzi w życie z dniem 1 lipca 2020 r., z wyjątkiem:
+    1)    art. 5 pkt 3, 4 i pkt 5 lit. b oraz art. 18, które wchodzą w życie z dniem 1 lipca 2021 r.;
+    1a) art. 5 pkt 5 lit. a, który wchodzi w życie z dniem 1 marca 2021 r.;
+    2)    (uchylony)
+    3)    art. 7 pkt 1, który wchodzi w życie po upływie 14 dni od dnia ogłoszenia;
+    4)    art. 12 pkt 1 i 2, które wchodzą w życie z dniem 29 lutego 2020 r.;
+    5)    art. 12 pkt 3 i 4 oraz art. 15 i art. 16, które wchodzą w życie z dniem 1 marca 2020 r.;
+    6)    art. 17, który wchodzi w życie z dniem 24 marca 2020 r.;
+    7)    art. 19, który wchodzi w życie z dniem 30 lipca 2020 r.;
+    8)    art. 20, który wchodzi w życie z dniem 3 września 2020 r.;
+    9)    art. 21, który wchodzi w życie z dniem 27 lutego 2020 r.”.
+
+
+                                                                                                     Marszałek Sejmu: E. Witek
+Dziennik Ustaw                                                      –2–                                                           Poz. 386
+
+                                                                                Załącznik do obwieszczenia Marszałka Sejmu Rzeczypospolitej
+                                                                                Polskiej z dnia 23 lutego 2021 r. (poz. 386)
+
+                                                               U S TA W A
+                                                         z dnia 27 lipca 2001 r.
+                                                        o ochronie baz danych1)
+     Art. 1. Bazy danych podlegają ochronie określonej w ustawie niezależnie od ochrony przyznanej na podstawie ustawy
+z dnia 4 lutego 1994 r. o prawie autorskim i prawach pokrewnych (Dz. U. z 2019 r. poz. 1231 oraz z 2020 r. poz. 288)
+bazom danych spełniającym cechy utworu.
+      Art. 2. 1. W rozumieniu ustawy:
+1)    baza danych oznacza zbiór danych lub jakichkolwiek innych materiałów i elementów zgromadzonych według okreś-
+      lonej systematyki lub metody, indywidualnie dostępnych w jakikolwiek sposób, w tym środkami elektronicznymi,
+      wymagający istotnego, co do jakości lub ilości, nakładu inwestycyjnego w celu sporządzenia, weryfikacji lub prezen-
+      tacji jego zawartości;
+2)    pobieranie danych oznacza stałe lub czasowe przejęcie lub przeniesienie całości lub istotnej, co do jakości lub ilości,
+      części zawartości bazy danych na inny nośnik, bez względu na sposób lub formę tego przejęcia lub przeniesienia,
+      z zastrzeżeniem art. 3;
+3)    wtórne wykorzystanie oznacza publiczne udostępnienie bazy danych w dowolnej formie, a w szczególności poprzez
+      rozpowszechnianie, bezpośrednie przekazywanie lub najem, z zastrzeżeniem art. 3;
+4)    producentem bazy danych jest osoba fizyczna, prawna lub jednostka organizacyjna nieposiadająca osobowości
+      prawnej, która ponosi ryzyko nakładu inwestycyjnego przy tworzeniu bazy danych.
+      2. Ilekroć w ustawie jest mowa o producencie, należy przez to rozumieć także jego następcę prawnego.
+      Art. 3. Wypożyczenie baz danych nie stanowi pobierania danych lub wtórnego ich wykorzystania.
+    Art. 4. Ochrona przyznana bazom danych nie obejmuje programów komputerowych użytych do sporządzenia baz
+danych lub korzystania z nich.
+      Art. 5. Z ochrony korzystają bazy danych, których:
+1)    (utracił moc)
+2)    producent jest obywatelem państwa członkowskiego Unii Europejskiej lub państw członkowskich Europejskiego
+      Porozumienia o Wolnym Handlu (EFTA) – stron umowy o Europejskim Obszarze Gospodarczym lub ma miejsce
+      stałego pobytu na terytorium Wspólnoty Europejskiej lub państw członkowskich Europejskiego Porozumienia
+      o Wolnym Handlu (EFTA) – stron umowy o Europejskim Obszarze Gospodarczym;
+3)    producent jest osobą prawną założoną zgodnie z prawem państwa członkowskiego Unii Europejskiej lub państw
+      członkowskich Europejskiego Porozumienia o Wolnym Handlu (EFTA) – stron umowy o Europejskim Obszarze Gos-
+      podarczym, posiadającą siedzibę i zakład główny wykonywania działalności na terytorium Wspólnoty Europejskiej
+      lub państw członkowskich Europejskiego Porozumienia o Wolnym Handlu (EFTA) – stron umowy o Europejskim
+      Obszarze Gospodarczym; jeżeli producent posiada tylko siedzibę na terytorium Wspólnoty Europejskiej lub państw
+      członkowskich Europejskiego Porozumienia o Wolnym Handlu (EFTA) – stron umowy o Europejskim Obszarze Gos-
+      podarczym, jego działalność musi być istotnie i trwale związana z gospodarką państwa członkowskiego Unii Euro-
+      pejskiej lub państw członkowskich Europejskiego Porozumienia o Wolnym Handlu (EFTA) – stron umowy o Euro-
+      pejskim Obszarze Gospodarczym;
+4)    ochrona wynika z umów międzynarodowych, na zasadach i w zakresie w nich określonych;
+5)    producent jest podmiotem niewymienionym w pkt 1–4 i jest przedsiębiorcą w rozumieniu ustawy z dnia 19 listopada
+      1999 r. – Prawo działalności gospodarczej (Dz. U. poz. 1178, z późn. zm.2))3).
+
+1)
+     Niniejsza ustawa dokonuje w zakresie swojej regulacji wdrożenia dyrektywy 96/9/WE z dnia 11 marca 1996 r. w sprawie ochrony
+     prawnej baz danych (Dz. Urz. WE L 77 z 27.03.1996).
+     Dane dotyczące ogłoszenia aktów prawa Unii Europejskiej, zamieszczone w niniejszej ustawie – z dniem uzyskania przez Rzecz-
+     pospolitą Polską członkostwa w Unii Europejskiej – dotyczą ogłoszenia tych aktów w Dzienniku Urzędowym Unii Europejskiej –
+     wydanie specjalne.
+2)
+     Zmiany wymienionej ustawy zostały ogłoszone w Dz. U. z 2000 r. poz. 958 i 1193, z 2001 r. poz. 509, 679, 1115 i 1643, z 2002 r.
+     poz. 2, 995 i 1112, z 2003 r. poz. 789, 1176 i 2125, z 2004 r. poz. 535, 870 i 1808, z 2006 r. poz. 1043, z 2008 r. poz. 888, z 2009 r.
+     poz. 97 oraz z 2011 r. poz. 764 i 1016.
+3)
+     Ustawa utraciła moc na podstawie art. 66 ustawy z dnia 2 lipca 2004 r. – Przepisy wprowadzające ustawę o swobodzie działalności
+     gospodarczej (Dz. U. poz. 1808, z 2006 r. poz. 1636, z 2008 r. poz. 888, z 2009 r. poz. 97 oraz z 2011 r. poz. 764), która weszła
+     w życie z dniem 21 sierpnia 2004 r.
+Dziennik Ustaw                                            –3–                                                    Poz. 386
+
+     Art. 6. 1. Producentowi bazy danych przysługuje wyłączne i zbywalne prawo pobierania danych i wtórnego ich wy-
+korzystania w całości lub w istotnej części, co do jakości lub ilości.
+     2. Domniemywa się, że producentem jest osoba, której nazwisko lub firmę (nazwę) w tym charakterze uwidoczniono
+na egzemplarzach bazy danych lub której nazwisko lub firmę (nazwę) podano do publicznej wiadomości w jakikolwiek
+inny sposób w związku z rozpowszechnieniem bazy danych.
+      Art. 7. 1. Producent bazy danych udostępnionej publicznie w jakikolwiek sposób nie może zabronić użytkownikowi
+korzystającemu zgodnie z prawem z takiej bazy danych, pobierania lub wtórnego wykorzystania w jakimkolwiek celu nie-
+istotnej, co do jakości lub ilości, części jej zawartości.
+     2. Jeżeli użytkownik korzystający zgodnie z prawem z bazy danych jest uprawniony do pobierania lub wtórnego wy-
+korzystania jedynie części bazy danych, przepis ust. 1 dotyczy tylko tej części.
+     3. Korzystanie z baz danych, o którym mowa w ust. 1, nie może naruszać normalnego korzystania z baz danych lub
+godzić w słuszne interesy producenta baz danych.
+     4. Postanowienia umowne sprzeczne z ust. 1 i 2 są nieważne.
+     Art. 8. 1. Wolno korzystać z istotnej, co do jakości lub ilości, części rozpowszechnionej bazy danych:
+1)   do własnego użytku osobistego, ale tylko z zawartości nieelektronicznej bazy danych;
+2)   w charakterze ilustracji, w celach dydaktycznych lub badawczych, ze wskazaniem źródła, jeżeli takie korzystanie jest
+     uzasadnione niekomercyjnym celem, dla którego wykorzystano bazę;
+3)   do celów bezpieczeństwa wewnętrznego, postępowania sądowego lub administracyjnego;
+4)   dla dobra osób niepełnosprawnych będących beneficjentami w rozumieniu art. 6 ust. 1 pkt 18 ustawy z dnia 4 lutego
+     1994 r. o prawie autorskim i prawach pokrewnych, odpowiednio na zasadach określonych w rozdziale 3 w oddziale 3a
+     tej ustawy.
+     2. Nie jest dozwolone powtarzające się i systematyczne pobieranie lub wtórne wykorzystanie sprzeczne z normalnym
+korzystaniem i powodujące nieusprawiedliwione naruszenie słusznych interesów producenta.
+     Art. 9. 1. (utracił moc)
+     2. Pierwsza sprzedaż kopii bazy danych w państwach członkowskich Unii Europejskiej lub państwach członkow-
+skich Europejskiego Porozumienia o Wolnym Handlu (EFTA) – stronach umowy o Europejskim Obszarze Gospodarczym
+przez uprawnionego lub za jego zgodą, wyczerpuje prawo do kontrolowania odsprzedaży tej kopii na ich terytorium.
+     Art. 10. 1. Czas trwania ochrony bazy danych liczy się od jej sporządzenia przez okres piętnastu lat następujących
+po roku, w którym baza danych została sporządzona.
+      2. Jeżeli w okresie, o którym mowa w ust. 1, baza danych została w jakikolwiek sposób udostępniona publicznie, okres
+jej ochrony wygasa z upływem piętnastu lat następujących po roku, w którym doszło do jej udostępnienia po raz pierwszy.
+      3. W przypadku jakiejkolwiek istotnej zmiany treści bazy danych, co do jakości lub ilości, w tym jej uzupełnienia,
+zmiany lub usunięcia jej części, mających znamiona nowego istotnego, co do jakości lub ilości, nakładu, okres jej ochrony
+liczy się odrębnie.
+     Art. 11. 1. Producent, którego prawa do bazy danych zostały naruszone, może żądać od osoby, która naruszyła te prawa:
+1)   zaniechania naruszania;
+2)   usunięcia skutków naruszenia;
+3)   naprawienia wyrządzonej szkody:
+     a)   na zasadach ogólnych albo
+     b) poprzez zapłatę sumy pieniężnej w wysokości odpowiadającej dwukrotności, a w przypadku gdy naruszenie jest
+        zawinione – trzykrotności stosownego wynagrodzenia, które w chwili jego dochodzenia byłoby należne tytułem
+        udzielenia przez uprawnionego zgody na korzystanie z bazy danych;
+4)   wydania uzyskanych korzyści.
+     2. Niezależnie od roszczeń, określonych w ust. 1, producent może się domagać jednokrotnego albo wielokrotnego
+ogłoszenia w prasie oświadczenia odpowiedniej treści i w odpowiedniej formie lub podania do publicznej wiadomości
+części albo całości orzeczenia sądu wydanego w rozpatrywanej sprawie, w sposób i w zakresie określonym przez sąd.
+     3. Sąd może nakazać osobie, która naruszyła prawa do bazy danych, na jej wniosek i za zgodą producenta, w przypadku
+gdy naruszenie jest niezawinione, zapłatę stosownej sumy pieniężnej na rzecz producenta, jeżeli zaniechanie naruszania
+lub usunięcie skutków naruszenia byłoby dla osoby naruszającej niewspółmiernie dotkliwe.
+Dziennik Ustaw                                                 –4–                                                       Poz. 386
+
+     4. Sąd, rozstrzygając o naruszeniu prawa, może orzec na wniosek producenta, którego prawa zostały naruszone,
+o bezprawnie wytworzonych przedmiotach oraz środkach i materiałach użytych do ich wytworzenia, w szczególności może
+orzec o ich wycofaniu z obrotu, przyznaniu producentowi na poczet należnego odszkodowania lub zniszczeniu. Orzekając,
+sąd uwzględnia wagę naruszenia oraz interesy osób trzecich.
+     5. Domniemywa się, że środki i materiały, o których mowa w ust. 4, są własnością osoby, która naruszyła prawa do
+bazy danych.
+    Art. 11a. 1.4) W sprawach dotyczących roszczeń cywilnoprawnych z zakresu ochrony baz danych, nienależących do
+kompetencji innych organów, sąd rozpoznaje wniosek o:
+1)    zabezpieczenie środka dowodowego;
+2)    wyjawienie lub wydanie środka dowodowego;
+3)    wezwanie do udzielenia informacji.
+      2.4) Sprawy, o których mowa w ust. 1, są rozstrzygane w postępowaniu w sprawach własności intelektualnej.
+      3. (uchylony)5)
+      4. (uchylony)5)
+      5. (uchylony)5)
+      6. (uchylony)5)
+
+     Art. 12. 1. Kto w celu osiągnięcia korzyści majątkowych, bez uprawnienia lub wbrew jego warunkom, pobiera dane
+lub wtórnie wykorzystuje w całości lub w istotnej, co do jakości lub ilości, części bazy danych, podlega karze grzywny.
+      2. Orzekanie następuje na podstawie Kodeksu postępowania w sprawach o wykroczenia.
+      3. Sąd może orzec przepadek, na rzecz Skarbu Państwa, bezprawnie wykonanych egzemplarzy bazy danych.
+     Art. 13. Prawo do bazy danych nie narusza ochrony treści bazy danych udzielanej na podstawie ustawy z dnia 4 lutego
+1994 r. o prawie autorskim i prawach pokrewnych, lub ochrony jakichkolwiek składających się na bazę danych elemen-
+tów, udzielanej na podstawie przepisów o wynalazkach, znakach towarowych, wzorach przemysłowych, oznaczeniach
+pochodzenia, zwalczaniu nieuczciwej konkurencji, tajemnicy prawnie chronionej, ochronie informacji niejawnych, ochro-
+nie danych osobowych, a także prawa cywilnego i prawa pracy.
+
+      Art. 14. (pominięty)
+
+     Art. 15. 1. Ustawę stosuje się także do baz danych istniejących w dniu jej wejścia w życie w odniesieniu do korzy-
+stania z nich po tej dacie.
+     2. Dokonane przed dniem wejścia w życie ustawy czynności prawne odnoszące się do baz danych są skuteczne i pod-
+legają ochronie według zasad dotychczasowych.
+
+     Art. 16. 1. Przepisy art. 5 pkt 2 i 3 oraz art. 9 ust. 2 stosuje się od dnia uzyskania przez Rzeczpospolitą Polską człon-
+kostwa w Unii Europejskiej6).
+    2. Przepisy art. 5 pkt 1 i art. 9 ust. 1 tracą moc z dniem uzyskania przez Rzeczpospolitą Polską członkostwa w Unii
+Europejskiej.
+      Art. 17. Ustawa wchodzi w życie po upływie 12 miesięcy od dnia ogłoszenia7).
+
+
+
+
+4)
+     W brzmieniu ustalonym przez art. 8 pkt 1 ustawy z dnia 13 lutego 2020 r. o zmianie ustawy – Kodeks postępowania cywilnego oraz
+     niektórych innych ustaw (Dz. U. poz. 288 i 875 oraz z 2021 r. poz. 187), która weszła w życie z dniem 1 lipca 2020 r.
+5)
+     Przez art. 8 pkt 2 ustawy, o której mowa w odnośniku 4.
+6)
+     Rzeczpospolita Polska uzyskała członkostwo w Unii Europejskiej z dniem 1 maja 2004 r.
+7)
+     Ustawa została ogłoszona w dniu 9 listopada 2001 r.
+
