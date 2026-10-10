@@ -30,8 +30,11 @@ jobs:
             esac
           done
           case "$FTP_SERVER" in *://*) echo "::warning::FTP_SERVER should not include ftp:// or a path";; esac
+          set -o pipefail
           tls=()
-          if [ "$FTP_PROTOCOL" != "ftp" ]; then tls=(--ssl-reqd); fi
+          # Encrypted, but without checking the certificate's host name: the
+          # server is addressed by IP (the deploy action does the same).
+          if [ "$FTP_PROTOCOL" != "ftp" ]; then tls=(--ssl-reqd --insecure); fi
           curl --silent --show-error --max-time 60 "${tls[@]}" \
             --user "$FTP_USERNAME:$FTP_PASSWORD" "ftp://$FTP_SERVER/$FTP_DIR" | head -20
           echo "Login OK"
