@@ -35,6 +35,19 @@ jobs:
           # Encrypted, but without checking the certificate's host name: the
           # server is addressed by IP (the deploy action does the same).
           if [ "$FTP_PROTOCOL" != "ftp" ]; then tls=(--ssl-reqd --insecure); fi
-          curl --silent --show-error --max-time 60 "${tls[@]}" \
-            --user "$FTP_USERNAME:$FTP_PASSWORD" "ftp://$FTP_SERVER/$FTP_DIR" | head -20
-          echo "Login OK"
+          # Which of the usual web roots exist for this account? Only the
+          # outcome is printed: these logs are public.
+          ok=1
+          for dir in "" "$FTP_DIR" "public_html/" "domains/sejmomat.pl/public_html/"; do
+            if curl --silent --show-error --max-time 60 "${tls[@]}" --list-only \
+                 --user "$FTP_USERNAME:$FTP_PASSWORD" "ftp://$FTP_SERVER/$dir" > listing.txt 2> err.txt; then
+              echo "OK   '/$dir' exists ($(wc -l < listing.txt) entries;" \
+                   "contains public_html: $(grep -qx 'public_html' listing.txt && echo yes || echo no)," \
+                   "contains index/default page: $(grep -Eqx '(index|default)\.(html|php)' listing.txt && echo yes || echo no))"
+              ok=0
+            else
+              echo "FAIL '/$dir': $(cat err.txt)"
+            fi
+          done
+          rm -f listing.txt err.txt
+          exit $ok
