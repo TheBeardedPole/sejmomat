@@ -16,6 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
 
@@ -39,6 +40,8 @@ jobs:
 
       - name: Fetch new votings, prints and amended acts
         run: python -m sejmomat fetch
+        env:
+          ACTS_PER_RUN: "150"
 
       - name: Commit updated data
         run: |

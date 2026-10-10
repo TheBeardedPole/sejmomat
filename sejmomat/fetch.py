@@ -208,8 +208,14 @@ def fetch_acts():
             continue
         flat = "\n".join(clean_bill_lines(text_path.read_text(encoding="utf-8")))
         wanted.update(act_id(m.groupdict()) for m in CITE_RE.finditer(flat))
+    missing = sorted(e for e in wanted if not (CACHE / "acts" / f"{e.replace('/', '-')}.txt").exists())
+    # The ELI API is slow; in CI, download a bounded batch per run and let the
+    # cache fill up over several runs (ACTS_PER_RUN, unlimited when unset).
+    limit = int(os.environ.get("ACTS_PER_RUN") or 0)
+    if limit:
+        missing = missing[:limit]
     with ThreadPoolExecutor(3) as pool:
-        list(pool.map(_fetch_act, sorted(wanted)))
+        list(pool.map(_fetch_act, missing))
     have = sum(1 for e in wanted if (CACHE / "acts" / f"{e.replace('/', '-')}.txt").exists())
     print(f"acts: {have}/{len(wanted)} cited acts available")
 
