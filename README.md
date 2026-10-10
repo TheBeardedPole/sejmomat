@@ -18,8 +18,10 @@ api.sejm.gov.pl ──fetch──> data/ (committed) ──build──> site/ (s
 - `python -m sejmomat build` parses amendments out of the print texts, links
   them to votings, computes club lines / rebellions and renders
   `site/`.
-- `.github/workflows/update.yml` runs both daily, commits `data/` changes, builds
-  a Pagefind search index and deploys to GitHub Pages.
+- `.github/workflows/update.yml` runs both twice a day on Sejm sitting days and
+  the two days after (checked against the Sejm's calendar; manual runs always
+  go ahead), commits `data/` changes, builds a Pagefind search index and
+  uploads the site.
 
 ### Modules
 

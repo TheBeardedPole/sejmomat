@@ -14,7 +14,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Scheduled runs only do work on Sejm sitting days and two days after;
+  # a manual run always goes ahead.
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.day.outputs.run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: sejmomat
+      - id: day
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=$(python3 -m sejmomat.sitting_days)" >> "$GITHUB_OUTPUT"
+          fi
+
   update:
+    needs: check
+    if: needs.check.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 340
     steps:
