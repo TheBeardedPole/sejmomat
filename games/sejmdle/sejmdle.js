@@ -81,6 +81,7 @@ const LETTER_CLOSE = 2;
 
 // Compare a guessed MP with the target. Each cell: {text, color, arrow}.
 // green = same, yellow = close, grey = different; arrows point towards the target.
+// The constituency cell has one more step, blue: the right voivodeship.
 const compareMps = (guess, target, axis, day) => {
   const num = (g, t, closeBy, fmt) => ({
     text: fmt(g),
@@ -96,13 +97,13 @@ const compareMps = (guess, target, axis, day) => {
       // target sits further left (←) or right (→) on the axis; unknown if either is off it
       arrow: guess.club === target.club || gi < 0 || ti < 0 ? "" : ti < gi ? "←" : "→",
     },
-    // green: same constituency; yellow: same or neighbouring voivodeship;
-    // outside the target's voivodeship, a compass arrow points towards it
+    // green: same constituency; blue: same voivodeship; yellow: a neighbouring
+    // one; outside the target's voivodeship, a compass arrow points towards it
     district: (() => {
       const r = regionHint(guess.voivodeship, target.voivodeship);
       return {
         text: `${guess.district} (${guess.voivodeship})`,
-        color: guess.districtNum === target.districtNum ? "green" : r.same || r.neighbour ? "yellow" : "grey",
+        color: guess.districtNum === target.districtNum ? "green" : r.same ? "blue" : r.neighbour ? "yellow" : "grey",
         arrow: r.arrow,
       };
     })(),
@@ -138,9 +139,9 @@ const surnameFirst = (mp) => {
 };
 
 // "Kim jestem?": what a wrong guess has in common with the target.
-// green = same club; yellow = same constituency, or same or neighbouring
-// voivodeship; grey = neither. Outside the target's voivodeship the text
-// ends with a compass arrow pointing towards it.
+// green = same club; blue = same voivodeship (or constituency); yellow = a
+// neighbouring voivodeship; grey = neither. Outside the target's voivodeship
+// the text ends with a compass arrow pointing towards it.
 const guessFeedback = (guess, target) => {
   const r = regionHint(guess.voivodeship, target.voivodeship);
   const sameClub = guess.club === target.club;
@@ -150,10 +151,19 @@ const guessFeedback = (guess, target) => {
     : `inne województwo, kierunek ${r.arrow}`;
   const club = sameClub ? `Ten sam klub: ${guess.clubName || guess.club}` : "Inny klub";
   return {
-    color: sameClub ? "green" : guess.districtNum === target.districtNum || r.same || r.neighbour ? "yellow" : "grey",
+    color: sameClub ? "green" : guess.districtNum === target.districtNum || r.same ? "blue" : r.neighbour ? "yellow" : "grey",
     text: `${club} · ${region}`,
   };
 };
+
+// The clue colours as squares, for the result a player shares.
+const SQUARE = { green: "🟩", blue: "🟦", yellow: "🟨", grey: "⬜" };
+// "Zgadnij posła": a row of squares per guess, a square per column (`keys`).
+const guessSquares = (cmps, keys) => cmps.map((cmp) => keys.map((k) => SQUARE[cmp[k].color]).join("")).join("\n");
+// "Kim jestem?": the steps in order (a wrong guess as the colour of its
+// feedback, a skipped turn as a light bulb), then how it ended.
+const whoSquares = (steps, won) =>
+  steps.map((st) => (st === "hint" ? "💡" : SQUARE[st] || SQUARE.grey)).join("") + (won ? "✅" : "❌");
 
 const voteOf = (final, mpId) =>
   ["yes", "no", "abstain", "absent"].find((k) => (final.votes[k] || []).includes(mpId)) || null;
@@ -171,7 +181,7 @@ const whoPuzzle = (data, day, count = 5) => {
 };
 
 if (typeof module !== "undefined") {
-  module.exports = { fold, hash, dailyOrder, warsawDay, age, years, compareMps, guessFeedback, regionHint, REGIONS, surnameOf, surnameFirst, voteOf, whoPuzzle, shortTitle, surnameInitial };
+  module.exports = { fold, hash, dailyOrder, warsawDay, age, years, compareMps, guessFeedback, guessSquares, whoSquares, SQUARE, regionHint, REGIONS, surnameOf, surnameFirst, voteOf, whoPuzzle, shortTitle, surnameInitial };
 }
 
 // ------------------------------------------------------------------- DOM
@@ -264,13 +274,47 @@ if (typeof document !== "undefined") (() => {
     className: over ? "btn primary" : "btn quiet", onclick: () => nextPuzzle(game),
     textContent: over ? "Następna zagadka →" : "Pomiń tę zagadkę",
   })]);
-  // The copied result ends with the game's address, so sharing it brings
-  // people here. Change SHARE_URL when the games move to their own address.
-  const SHARE_URL = "https://sejmomat.pl/sejmdle";
-  const share = (text) => h("button", {
-    className: "btn", textContent: "Skopiuj wynik",
-    onclick: (e) => navigator.clipboard?.writeText(`${text}\nZagraj: ${SHARE_URL}`).then(() => { e.target.textContent = "Skopiowano"; }),
-  });
+  // The result to share: a line of words, rows of squares (no spoilers), and
+  // the game's address, so sharing it brings people here; the #game part
+  // opens the same game. Change SHARE_URL (and og:url in index.html) when the
+  // games move to their own address.
+  const SHARE_URL = "https://sejmomat.pl/sejmdle/";
+  const copyText = async (text) => {
+    try { await navigator.clipboard.writeText(text); return true; } catch { /* no clipboard here, or no permission */ }
+    // the older way: select the text in an unseen box and ask the browser to copy it
+    const box = h("textarea", { value: text, readOnly: true });
+    box.style.cssText = "position:fixed;top:0;left:0;opacity:0";
+    document.body.append(box);
+    box.select();
+    let ok = false;
+    try { ok = document.execCommand("copy"); } catch { /* not allowed either */ }
+    box.remove();
+    return ok;
+  };
+  // The text is shown as it will be pasted, with: the system's share sheet
+  // (phones, some desktop browsers), a copy button, and ready-made posts.
+  const share = (game, lines) => {
+    const text = [...lines, `Zagraj: ${SHARE_URL}#${game}`].join("\n");
+    const status = h("p", { className: "muted share-status" });
+    status.setAttribute("role", "status");
+    const copy = async () => {
+      status.textContent = (await copyText(text)) ? "Skopiowano — wklej, gdzie chcesz."
+        : "Nie udało się skopiować. Zaznacz tekst powyżej i skopiuj ręcznie.";
+    };
+    const native = navigator.share && h("button", { type: "button", className: "btn primary", textContent: "Udostępnij",
+      // closing the sheet without sharing is not an error; anything else falls back to copying
+      onclick: () => navigator.share({ text }).catch((err) => { if (err.name !== "AbortError") copy(); }) });
+    const post = (name, url) => h("a", { className: "btn", href: url + encodeURIComponent(text), target: "_blank",
+      rel: "noopener", textContent: name, title: `Opublikuj wynik w serwisie ${name}` });
+    return h("div", { className: "card share" }, [
+      h("p", { className: "clue-label", textContent: "Podziel się wynikiem" }),
+      h("pre", { className: "share-text", textContent: text }),
+      h("div", { className: "share-actions" }, [native,
+        h("button", { type: "button", className: native ? "btn" : "btn primary", textContent: "Skopiuj wynik", onclick: copy }),
+        post("X", "https://x.com/intent/post?text="), post("Bluesky", "https://bsky.app/intent/compose?text=")]),
+      status,
+    ]);
+  };
   const mpLink = (mp) => h("a", { href: `${SITE}posel/${mp.id}.html`, textContent: mp.name });
   const voteLink = (v, text) => h("a", { href: `${SITE}glosowanie/${v.s}-${v.n}.html`, textContent: text });
   const mpCard = (mp) => h("div", { className: "card reveal" }, [
@@ -381,8 +425,9 @@ if (typeof document !== "undefined") (() => {
       const guesses = state.guesses.map((id) => data.byId.get(id)).filter(Boolean);
       const won = guesses.some((g) => g.id === target.id);
       const over = won || guesses.length >= MAX_GUESSES;
-      const rows = guesses.map((g) => {
-        const cmp = compareMps(g, target, data.clubAxis, DAY);
+      const cmps = guesses.map((g) => compareMps(g, target, data.clubAxis, DAY));
+      const rows = guesses.map((g, i) => {
+        const cmp = cmps[i];
         return h("tr", { className: g === guesses[guesses.length - 1] ? "latest" : "" }, [h("td", { className: "name", textContent: g.name }),
           ...COLS.map(([k]) => h("td", { className: cmp[k].color, textContent: `${cmp[k].text} ${cmp[k].arrow}`.trim() }))]);
       });
@@ -392,11 +437,13 @@ if (typeof document !== "undefined") (() => {
           ["Nie znasz posłów z nazwiska? Przełącz „Poziom” na łatwy: przycisk „Lista posłów” otworzy listę wszystkich posłów pogrupowanych klubami, z której wybierasz kliknięciem."],
           ["Po każdej próbie pola pokażą, jak blisko jesteś: ", tile("green", "zgadza się"), " ", tile("yellow", "blisko"), " ", tile("grey", "nie")],
           ["Strzałki prowadzą do celu: ← → klub bardziej na lewo lub prawo, ↑ ↓ liczba większa lub mniejsza."],
+          ["Okręg ma o jeden kolor więcej: ", tile("green", "ten sam okręg"), " ", tile("blue", "to samo województwo"), " ",
+            tile("yellow", "sąsiednie województwo"), " ", tile("grey", "dalej")],
           ["Przy okręgu strzałka działa jak kompas: pokazuje, w którą stronę na mapie leży szukane województwo (↑ północ, → wschód, ↘ południowy wschód…)."],
           ["Kluby od lewej do prawej: ", h("span", { className: "axis",
             textContent: data.clubAxis.map((c) => CLUB_SHORT[c] || c).join(" → ") })],
           ["Litera nazwiska działa jak słownik: „← przed K” znaczy, że szukane nazwisko zaczyna się wcześniej w alfabecie niż K, a „po K →”, że później."],
-        ], `„Blisko” to: sąsiedni klub na tej liście, to samo lub sąsiednie województwo, wiek ±5 lat, głosy w wyborach ±25%, frekwencja ±3 pkt proc., litera nazwiska najwyżej ${LETTER_CLOSE} litery dalej w alfabecie.`),
+        ], `„Blisko” to: sąsiedni klub na tej liście, sąsiednie województwo, wiek ±5 lat, głosy w wyborach ±25%, frekwencja ±3 pkt proc., litera nazwiska najwyżej ${LETTER_CLOSE} litery dalej w alfabecie.`),
         marks(over ? "Próby:" : `Próba ${guesses.length + 1} z ${MAX_GUESSES}:`,
           Array.from({ length: MAX_GUESSES }, (_, k) => k >= guesses.length ? "todo" : (won && k === guesses.length - 1 ? "ok" : "used"))),
         guesses.length ? h("div", { className: "grid-scroll" }, [h("table", { className: "grid" }, [
@@ -410,7 +457,8 @@ if (typeof document !== "undefined") (() => {
         over && h("p", { className: `result ${won ? "ok" : "bad"}`,
           textContent: won ? `Brawo! Trafione za ${guesses.length}. razem.` : "Tym razem się nie udało." }),
         over && mpCard(target),
-        over && share(`Sejmdle ${label()} — Zgadnij posła${levelNote()}: ${won ? guesses.length : "X"}/${MAX_GUESSES}`),
+        over && share("posel", [`Sejmdle ${label()} — Zgadnij posła${levelNote()}: ${won ? guesses.length : "X"}/${MAX_GUESSES}`,
+          guessSquares(cmps, COLS.map(([k]) => k))]),
         nextButton("posel", over),
       );
     };
@@ -466,8 +514,8 @@ if (typeof document !== "undefined") (() => {
           ]),
         ]) : h("div", {}, [
           h("p", { className: `result ${score * 2 >= items.length ? "ok" : "bad"}`, textContent: `Wynik: ${score} / ${items.length}` }),
-          share(`Sejmdle ${label()} — Czy przeszło?: ${score}/${items.length} ` +
-            state.answers.map((a, k) => (a === items[k].adopted ? "🟩" : "🟥")).join("")),
+          share("przeszlo", [`Sejmdle ${label()} — Czy przeszło?: ${score}/${items.length}`,
+            state.answers.map((a, k) => (a === items[k].adopted ? "🟩" : "🟥")).join("")]),
         ]),
         nextButton("przeszlo", i >= items.length),
         ...done.reverse(),
@@ -531,7 +579,8 @@ if (typeof document !== "undefined") (() => {
         lead("Kim jestem?", "kim", [
           ["Na start widzisz, jak tajemniczy poseł głosował nad całością pięciu ustaw."],
           ["Zgadnij, kto to. Po złej odpowiedzi zobaczysz, czy trafiłeś(-aś) klub lub region: ",
-            tile("green", "ten sam klub"), " ", tile("yellow", "to samo lub sąsiednie województwo"), " ", tile("grey", "nic wspólnego")],
+            tile("green", "ten sam klub"), " ", tile("blue", "to samo województwo"), " ",
+            tile("yellow", "sąsiednie województwo"), " ", tile("grey", "nic wspólnego")],
           ["Jeśli województwo się nie zgadza, strzałka-kompas pokaże, w którą stronę na mapie leży właściwe (↑ północ, → wschód)."],
           ["Każda zła odpowiedź i każde „Pomiń” odsłania kolejną podpowiedź: wiek, komisje sejmowe, klub, zdjęcie."],
           [`Zaczynasz z ${max} punktami, a każdy taki krok zabiera jeden.`],
@@ -549,7 +598,11 @@ if (typeof document !== "undefined") (() => {
           h("p", { className: "clue-label", textContent: state.won ? `Odpowiedź · ${points} pkt z ${max}` : "Odpowiedź · 0 pkt" }),
           mpCard(mp),
         ]),
-        over && share(`Sejmdle ${label()} — Kim jestem?${levelNote()}: ${state.won ? points : 0}/${max} pkt`),
+        over && share("kim", [`Sejmdle ${label()} — Kim jestem?${levelNote()}: ${state.won ? points : 0}/${max} pkt`,
+          whoSquares(state.steps.map((v) => {
+            const guess = v === "hint" ? null : data.byId.get(v);
+            return guess ? guessFeedback(guess, mp).color : "hint";
+          }), state.won)]),
         nextButton("kim", over),
       );
     };

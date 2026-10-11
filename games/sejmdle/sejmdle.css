@@ -1,9 +1,9 @@
 :root { --bg: #f6f5f1; --surface: #fff; --text: #1d1d1f; --muted: #6b6b70; --line: #e2dfd8; --accent: #1d5fc4;
-  --green: #2e8b57; --yellow: #c9930a; --grey: #85858c; --red: #b3261e;
+  --green: #2e8b57; --blue: #2779b8; --yellow: #c9930a; --grey: #85858c; --red: #b3261e;
   --ok-bg: #e3f3e9; --bad-bg: #fbe4e2; --shadow: 0 1px 2px rgb(0 0 0 / .06), 0 4px 14px rgb(0 0 0 / .05); }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #121214; --surface: #1c1c20; --text: #ececee; --muted: #9a9aa2; --line: #2f2f35; --accent: #7db8ff;
-    --green: #3aa56c; --yellow: #d6a51f; --grey: #5e5e66; --red: #ff6b60;
+    --green: #3aa56c; --blue: #3b8fd0; --yellow: #d6a51f; --grey: #5e5e66; --red: #ff6b60;
     --ok-bg: #173a28; --bad-bg: #462220; --shadow: 0 1px 2px rgb(0 0 0 / .4); }
 }
 /* native controls and scrollbars follow the light or dark theme */
@@ -92,6 +92,7 @@ table.grid td { padding: 9px 6px; border-radius: 8px; text-align: center; color:
   font-weight: 600; box-shadow: var(--shadow); }
 table.grid td.name { background: var(--surface); color: var(--text); border: 1px solid var(--line); text-align: left; }
 td.green, .pill.green { background: var(--green); }
+td.blue, .pill.blue { background: var(--blue); }
 td.yellow, .pill.yellow { background: var(--yellow); }
 td.grey, .pill.grey { background: var(--grey); }
 .pill { display: inline-block; padding: 1px 9px; border-radius: 99px; color: #fff; font-size: .8rem; font-weight: 600; }
@@ -141,17 +142,26 @@ details.context summary { cursor: pointer; color: var(--muted); }
 .clue-value { font-size: 1.1rem; font-weight: 600; }
 .card.guessed { border-width: 2px; padding: 10px 14px; }
 .card.guessed.green { border-color: var(--green); }
+.card.guessed.blue { border-color: var(--blue); }
 .card.guessed.yellow { border-color: var(--yellow); }
 .card.guessed.grey { border-color: var(--grey); }
 .guessed-name { margin: 0; font-weight: 700; }
 .guessed-fb { margin: 2px 0 0; font-size: .9rem; color: var(--muted); display: flex; align-items: center; gap: 6px; }
 .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
-.dot.green { background: var(--green); } .dot.yellow { background: var(--yellow); } .dot.grey { background: var(--grey); }
+.dot.green { background: var(--green); } .dot.blue { background: var(--blue); } .dot.yellow { background: var(--yellow); } .dot.grey { background: var(--grey); }
 .card.answer { border-width: 2px; }
 .card.answer.won { border-color: var(--green); }
 .card.answer.lost { border-color: var(--red); }
 .card.answer .reveal { border: 0; box-shadow: none; padding: 0; margin: 0; background: none; }
 .next { text-align: center; margin: 14px 0 0; }
+
+/* The result to share: the text as it will be pasted, then where to send it. */
+.card.share { text-align: center; }
+.share-text { margin: 0 0 12px; font: inherit; line-height: 1.3; white-space: pre-wrap; overflow-wrap: anywhere; user-select: all; }
+.share-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.share-actions a.btn { text-decoration: none; }
+.share-status { margin: 8px 0 0; }
+.share-status:empty { display: none; }
 .btn.quiet { box-shadow: none; border-style: dashed; color: var(--muted); font-weight: 500; }
 .axis { font-weight: 600; }
 ul.committees { margin: 0; padding-left: 20px; font-size: 1rem; font-weight: 500; }
