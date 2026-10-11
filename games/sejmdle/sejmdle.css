@@ -39,3 +39,13 @@ ul.votes { padding-left: 18px; margin: 6px 0; } ul.votes li { margin: 4px 0; }
 .v-yes { color: var(--green); font-weight: 700; } .v-no { color: var(--red); font-weight: 700; }
 .v-abstain { color: var(--yellow); font-weight: 700; } .v-absent { color: var(--grey); font-weight: 700; }
 footer { margin-top: 32px; border-top: 1px solid var(--line); padding-top: 12px; }
+details.context { margin: 10px 0; border-top: 1px solid var(--line); padding-top: 8px; font-size: .92rem; }
+details.context summary { cursor: pointer; color: var(--muted); }
+.rows .r { padding: 2px 6px 2px calc(6px + var(--d, 0) * 1.2em); border-radius: 3px; font-family: Georgia, serif; }
+.rows .r-context, .rows .r-parent, .rows .r-gap { color: var(--muted); font-size: .9em; }
+.rows .r-added, .rows ins { background: #dff3e6; text-decoration: none; }
+.rows .r-removed, .rows del { background: #fbe1df; }
+.rows .r-removed { text-decoration: line-through; }
+@media (prefers-color-scheme: dark) {
+  .rows .r-added, .rows ins { background: #16402a; } .rows .r-removed, .rows del { background: #4a1d1b; }
+}

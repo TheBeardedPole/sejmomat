@@ -69,8 +69,17 @@ const compareMps = (guess, target, axis, day) => {
     turnout: num(Math.round(guess.turnout * 1000) / 10, Math.round(target.turnout * 1000) / 10, () => 3,
       (v) => `${v.toLocaleString("pl-PL")}%`),
     education: { text: guess.education || "—", color: guess.education === target.education ? "green" : "grey", arrow: "" },
+    // first letter of the surname: ↑ the target's comes later in the alphabet, ↓ earlier
+    initial: (() => {
+      const g = surnameInitial(guess.name), t = surnameInitial(target.name);
+      const order = g.localeCompare(t, "pl");
+      return { text: g, color: order === 0 ? "green" : "grey", arrow: order === 0 ? "" : order < 0 ? "↑" : "↓" };
+    })(),
   };
 };
+
+// "Agnieszka Wojciechowska van Heukelom" -> "W": the surname is everything after the first name.
+const surnameInitial = (name) => (name.trim().split(/\s+/)[1] || name).charAt(0).toUpperCase();
 
 const voteOf = (final, mpId) =>
   ["yes", "no", "abstain", "absent"].find((k) => (final.votes[k] || []).includes(mpId)) || null;
@@ -88,7 +97,7 @@ const whoPuzzle = (data, day, count = 5) => {
 };
 
 if (typeof module !== "undefined") {
-  module.exports = { fold, hash, dailyOrder, warsawDay, age, compareMps, voteOf, whoPuzzle, shortTitle };
+  module.exports = { fold, hash, dailyOrder, warsawDay, age, compareMps, voteOf, whoPuzzle, shortTitle, surnameInitial };
 }
 
 // ------------------------------------------------------------------- DOM
@@ -99,6 +108,12 @@ if (typeof document !== "undefined") (() => {
   const SITE = meta("sejmomat-site", "../");
   const PHOTO = (id) => `https://api.sejm.gov.pl/sejm/term10/MP/${id}/photo`;
   const DAY = warsawDay();
+  // Puzzles are picked from the date plus this round number: raise ROUND to
+  // deal everyone a fresh set. "?los=anything" in the address deals a private
+  // extra set for testing, with its own saved progress.
+  const ROUND = "2";
+  const TEST = new URLSearchParams(location.search).get("los");
+  const SEED = `${DAY}#${TEST ? `test-${TEST}` : ROUND}`;
   const MAX_GUESSES = 8, AMENDMENTS = 5;
   const VOTE_PL = { yes: "za", no: "przeciw", abstain: "wstrzymał(a) się", absent: "nie głosował(a)" };
   const main = document.getElementById("game");
@@ -110,10 +125,10 @@ if (typeof document !== "undefined") (() => {
   };
   // Progress is kept per game and day, in this browser only.
   const load = (game) => {
-    try { return JSON.parse(localStorage.getItem(`sejmdle:${game}:${DAY}`) || "null"); } catch { return null; }
+    try { return JSON.parse(localStorage.getItem(`sejmdle:${game}:${SEED}`) || "null"); } catch { return null; }
   };
   const save = (game, state) => {
-    try { localStorage.setItem(`sejmdle:${game}:${DAY}`, JSON.stringify(state)); } catch { /* play without saving */ }
+    try { localStorage.setItem(`sejmdle:${game}:${SEED}`, JSON.stringify(state)); } catch { /* play without saving */ }
   };
   const share = (text) => h("button", {
     className: "btn", textContent: "Skopiuj wynik",
@@ -145,9 +160,10 @@ if (typeof document !== "undefined") (() => {
 
   // ---- 1. Zgadnij posła
   const COLS = [["club", "Klub"], ["district", "Okręg (woj.)"], ["age", "Wiek"],
-    ["electionVotes", "Głosy w wyborach"], ["turnout", "Frekwencja"], ["education", "Wykształcenie"]];
+    ["electionVotes", "Głosy w wyborach"], ["turnout", "Frekwencja"], ["education", "Wykształcenie"],
+    ["initial", "Nazwisko na literę"]];
   const playPosel = (data) => {
-    const target = dailyOrder(data.mps, (m) => m.id, DAY, "posel")[0];
+    const target = dailyOrder(data.mps, (m) => m.id, SEED, "posel")[0];
     const state = load("posel") || { guesses: [] };
     const render = () => {
       const guesses = state.guesses.map((id) => data.byId.get(id)).filter(Boolean);
@@ -163,7 +179,7 @@ if (typeof document !== "undefined") (() => {
         h("p", { className: "legend" }, [
           h("span", { className: "pill green", textContent: "zgadza się" }), " ",
           h("span", { className: "pill yellow", textContent: "blisko" }), " ",
-          "(to samo województwo, wiek ±5 lat, głosy ±25%, frekwencja ±3 pkt proc.) · klub: ← bardziej na lewo, → bardziej na prawo · liczby: ↑ więcej, ↓ mniej",
+          "(to samo województwo, wiek ±5 lat, głosy ±25%, frekwencja ±3 pkt proc.) · klub: ← bardziej na lewo, → bardziej na prawo · liczby: ↑ więcej, ↓ mniej · litera nazwiska: ↑ dalej w alfabecie, ↓ bliżej początku",
         ]),
         !over && guessForm(data, (mp) => {
           if (!state.guesses.includes(mp.id)) { state.guesses.push(mp.id); save("posel", state); }
@@ -184,9 +200,22 @@ if (typeof document !== "undefined") (() => {
 
   // ---- 2. Czy przeszło?
   const playPrzeszlo = (data) => {
-    const items = dailyOrder(data.amendments, (a) => `${a.s}-${a.n}`, DAY, "przeszlo").slice(0, AMENDMENTS);
+    // Mostly amendments that come with a "what it changes" comparison (3 of 5).
+    const ordered = dailyOrder(data.amendments, (a) => `${a.s}-${a.n}`, SEED, "przeszlo");
+    const withContext = ordered.filter((a) => a.context).slice(0, 3);
+    const picked = new Set([...withContext, ...ordered.filter((a) => !a.context).slice(0, AMENDMENTS - withContext.length)]);
+    const items = ordered.filter((a) => picked.has(a));
     const state = load("przeszlo") || { answers: [] };
     const KIND = { amendment: "Poprawka", minority: "Wniosek mniejszości", senate: "Poprawka Senatu" };
+    // What the amendment changes in the bill: removed / added text among its
+    // neighbours. The markup comes ready-made (and escaped) from the API.
+    const context = (a) => {
+      if (!a.context) return null;
+      const rows = h("div", { className: "rows", lang: "pl" });
+      rows.innerHTML = a.context.html;
+      return h("details", { className: "context", open: true }, [
+        h("summary", { textContent: `Co zmienia w projekcie (${a.context.where})` }), rows]);
+    };
     const render = () => {
       const i = state.answers.length;
       const score = state.answers.filter((a, k) => a === items[k].adopted).length;
@@ -195,16 +224,19 @@ if (typeof document !== "undefined") (() => {
         return h("div", { className: "card" }, [
           h("p", { className: `result ${ok ? "ok" : "bad"}`,
             textContent: `${ok ? "Dobrze" : "Źle"} — ${a.adopted ? "przeszła" : "nie przeszła"} (${a.yes} za, ${a.no} przeciw)` }),
-          h("p", { className: "muted" }, [`${KIND[a.kind] || "Poprawka"} · zgłaszający: ${a.proposer} · `, voteLink(a, shortTitle(a.bill).slice(0, 120))]),
+          h("p", { className: "muted" }, [`${KIND[a.kind] || "Poprawka"} · zgłaszający: ${a.proposer}` +
+            (a.recommendation ? ` · komisja chciała: ${a.recommendation}` : "") + " · ", voteLink(a, shortTitle(a.bill).slice(0, 120))]),
           h("div", { className: "amend", lang: "pl", textContent: a.text }),
         ]);
       });
       main.replaceChildren(
-        h("p", {}, ["Pięć losowych poprawek dziennie, bez autora i ustawy. Zgadnij, czy Sejm je przyjął."]),
+        h("p", {}, ["Pięć losowych poprawek dziennie. Widzisz, czego dotyczy i co zmienia — ale nie kto ją zgłosił. Zgadnij, czy Sejm ją przyjął."]),
         h("p", { className: "muted", textContent: "Przy poprawkach Senatu „przeszła” znaczy, że Sejm jej nie odrzucił." }),
         i < items.length ? h("div", { className: "card" }, [
           h("h2", { textContent: `Poprawka ${i + 1} z ${items.length}` }),
+          h("p", { className: "muted", textContent: `${KIND[items[i].kind] || "Poprawka"} do projektu: ${shortTitle(items[i].bill)} (${items[i].date.slice(0, 4)})` }),
           h("div", { className: "amend", lang: "pl", textContent: items[i].text }),
+          context(items[i]),
           h("div", { className: "guess" }, [
             h("button", { className: "btn primary", textContent: "Przeszła", onclick: () => answer(true) }),
             h("button", { className: "btn", textContent: "Nie przeszła", onclick: () => answer(false) }),
@@ -223,7 +255,7 @@ if (typeof document !== "undefined") (() => {
 
   // ---- 3. Kim jestem?
   const playKim = (data) => {
-    const { mp, votes } = whoPuzzle(data, DAY);
+    const { mp, votes } = whoPuzzle(data, SEED);
     const HINTS = [
       ["Województwo", () => mp.voivodeship],
       ["Okręg", () => mp.district],
@@ -270,7 +302,8 @@ if (typeof document !== "undefined") (() => {
 
   // ---- start
   const GAMES = { posel: playPosel, przeszlo: playPrzeszlo, kim: playKim };
-  document.getElementById("today").textContent = DAY;
+  document.getElementById("today").textContent = TEST ? `${DAY} · tryb testowy` : DAY;
+  document.getElementById("reroll").href = `?los=${Math.random().toString(36).slice(2, 8)}${location.hash}`;
   document.getElementById("site-link").href = SITE;
   fetch(`${API}games.json`).then((r) => {
     if (!r.ok) throw new Error(r.status);

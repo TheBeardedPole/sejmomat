@@ -155,6 +155,18 @@ GAME_TEXT_MAX = 700
 GAME_FINALS = 150
 
 
+GAME_CONTEXT_MAX = 3000
+
+
+def _game_context(item):
+    """Comparison with the bill for the first change the amendment makes, if
+    it was found and is short enough to show in a game."""
+    for change in (item.get("bill_diff") or {}).get("changes", []):
+        if change["found"] and len(change["html"]) <= GAME_CONTEXT_MAX:
+            return {"where": change["where"], "html": change["html"]}
+    return None
+
+
 def _games(ctx):
     """Compact data for the Sejmdle games (see games/sejmdle)."""
     mps = [{
@@ -183,6 +195,9 @@ def _games(ctx):
             "s": v["sitting"], "n": v["votingNumber"], "date": v["date"][:10], "kind": a["kind"],
             "text": text, "adopted": v["outcome_class"] == "adopted", "proposer": v["proposer"]["label"],
             "bill": bill_title(v), "yes": v["yes"], "no": v["no"],
+            # shown before the answer: what the amendment changes in the bill
+            "context": _game_context(a["item"]),
+            "recommendation": a["item"].get("recommendation"),
         })
     finals = []
     for v in votes:
