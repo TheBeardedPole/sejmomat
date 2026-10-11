@@ -316,25 +316,58 @@ if (typeof document !== "undefined") (() => {
       h("span", { className: "muted", textContent: "Poziom:" }),
       h("span", { className: "segs" }, [seg("Trudny", !easy, false), seg("Łatwy — lista posłów", easy, true)]),
     ]);
-    const form = h("div", { className: "guess" }, [input, h("button", { className: "btn primary", textContent: label, onclick: submit }), msg]);
-    if (!easy) return h("div", {}, [level, form]);
-    const chips = [];
-    const grid = h("div", { className: "mp-grid" }, clubGroups(data).map((g) => h("section", {}, [
-      h("h3", {}, [g.name, " ", h("span", { className: "muted", textContent: `(${g.mps.length})` })]),
-      h("div", { className: "chips" }, g.mps.map((m) => {
-        const chip = h("button", { type: "button", className: "chip", textContent: surnameFirst(m),
-          disabled: used.includes(m.id), onclick: () => onGuess(m) });
-        chips.push([fold(m.name), chip]);
-        return chip;
-      })),
-    ])));
-    // typing narrows the grid; clubs left with nobody to show are hidden
-    input.addEventListener("input", () => {
-      const q = fold(input.value);
-      for (const [name, chip] of chips) chip.hidden = Boolean(q) && !name.includes(q);
-      for (const sec of grid.children) sec.hidden = ![...sec.querySelectorAll(".chip")].some((c) => !c.hidden);
+    // Easy level: a button next to the box opens the list of MPs.
+    const pick = easy && h("button", { type: "button", className: "btn", textContent: "☰ Lista posłów",
+      onclick: () => showPicker(data, used, onGuess) });
+    const form = h("div", { className: "guess" }, [input,
+      h("button", { className: "btn primary", textContent: label, onclick: submit }), pick, msg]);
+    return h("div", {}, [level, form]);
+  };
+
+  // The list of MPs as a popup: one column per club, left to right, scrolled
+  // sideways; each column scrolls through its own names. Shortcuts at the top
+  // jump to a club, the box filters by name, a click on a name is the guess.
+  const JUMP_LABEL = { Polska2050: "PL2050", "PSL-TD": "PSL", RozwojPlus: "Rozwój+", Demokracja: "Kukiz", Konfederacja_KP: "KKP" };
+  const pickDialog = h("dialog", { className: "picker" });
+  const closePicker = () => (pickDialog.close ? pickDialog.close() : pickDialog.removeAttribute("open"));
+  pickDialog.addEventListener("click", (e) => { if (e.target === pickDialog) closePicker(); });
+  document.body.append(pickDialog);
+  const showPicker = (data, used, onGuess) => {
+    const names = [];
+    const cols = clubGroups(data).map((g) => {
+      const list = h("ul", {}, g.mps.map((m) => {
+        const b = h("button", { type: "button", className: "name", textContent: surnameFirst(m),
+          disabled: used.includes(m.id), onclick: () => { closePicker(); onGuess(m); } });
+        const li = h("li", {}, [b]);
+        names.push([fold(m.name), li]);
+        return li;
+      }));
+      const count = h("span", { className: "muted", textContent: `(${g.mps.length})` });
+      return { g, count, list, col: h("section", { className: "club-col" }, [h("h3", {}, [g.name, " ", count]), list]) };
     });
-    return h("div", {}, [level, form, grid]);
+    const row = h("div", { className: "club-cols" }, cols.map((c) => c.col));
+    const jump = h("p", { className: "club-jump" }, cols.map((c) => h("button", { type: "button", className: "chip",
+      textContent: JUMP_LABEL[c.g.club] || c.g.club, title: c.g.name,
+      onclick: () => c.col.scrollIntoView?.({ behavior: "smooth", block: "nearest", inline: "start" }) })));
+    const filter = h("input", { type: "search", placeholder: "Szukaj po nazwisku…", autocomplete: "off" });
+    filter.addEventListener("input", () => {
+      const q = fold(filter.value);
+      for (const [name, li] of names) li.hidden = Boolean(q) && !name.includes(q);
+      // clubs with nobody left to show drop out of the row
+      for (const c of cols) {
+        const left = [...c.list.children].filter((li) => !li.hidden).length;
+        c.col.hidden = left === 0;
+        c.count.textContent = `(${q ? `${left} z ${c.g.mps.length}` : c.g.mps.length})`;
+      }
+    });
+    pickDialog.replaceChildren(
+      h("button", { type: "button", className: "help-close", textContent: "×", ariaLabel: "Zamknij", onclick: closePicker }),
+      h("h2", { textContent: "Wybierz posła" }),
+      h("p", { className: "muted picker-hint", textContent: "Kluby od lewej do prawej — przewijaj w bok. Kliknij nazwisko, żeby zgadnąć." }),
+      filter, jump, row,
+    );
+    if (pickDialog.open) return;
+    if (pickDialog.showModal) pickDialog.showModal(); else pickDialog.setAttribute("open", "");
   };
 
   // ---- 1. Zgadnij posła
@@ -356,7 +389,7 @@ if (typeof document !== "undefined") (() => {
       draw(
         lead("Zgadnij posła dnia", "posel", [
           [`Wpisz imię i nazwisko dowolnego posła. Masz ${MAX_GUESSES} prób.`],
-          ["Nie znasz posłów z nazwiska? Przełącz „Poziom” na łatwy: pod polem pojawi się lista wszystkich posłów pogrupowanych klubami, z której wybierasz kliknięciem."],
+          ["Nie znasz posłów z nazwiska? Przełącz „Poziom” na łatwy: przycisk „Lista posłów” otworzy listę wszystkich posłów pogrupowanych klubami, z której wybierasz kliknięciem."],
           ["Po każdej próbie pola pokażą, jak blisko jesteś: ", tile("green", "zgadza się"), " ", tile("yellow", "blisko"), " ", tile("grey", "nie")],
           ["Strzałki prowadzą do celu: ← → klub bardziej na lewo lub prawo, ↑ ↓ liczba większa lub mniejsza."],
           ["Przy okręgu strzałka działa jak kompas: pokazuje, w którą stronę na mapie leży szukane województwo (↑ północ, → wschód, ↘ południowy wschód…)."],
@@ -502,7 +535,7 @@ if (typeof document !== "undefined") (() => {
           ["Jeśli województwo się nie zgadza, strzałka-kompas pokaże, w którą stronę na mapie leży właściwe (↑ północ, → wschód)."],
           ["Każda zła odpowiedź i każde „Pomiń” odsłania kolejną podpowiedź: wiek, komisje sejmowe, klub, zdjęcie."],
           [`Zaczynasz z ${max} punktami, a każdy taki krok zabiera jeden.`],
-          ["Nie znasz posłów z nazwiska? Przełącz „Poziom” na łatwy: pod polem pojawi się lista wszystkich posłów pogrupowanych klubami, z której wybierasz kliknięciem."],
+          ["Nie znasz posłów z nazwiska? Przełącz „Poziom” na łatwy: przycisk „Lista posłów” otworzy listę wszystkich posłów pogrupowanych klubami, z której wybierasz kliknięciem."],
         ]),
         marks("Punkty:", Array.from({ length: max }, (_, k) => (!state.lost && k < points) ? (state.won ? "ok" : "used") : "todo")),
         ...timeline,
