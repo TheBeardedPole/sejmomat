@@ -32,9 +32,23 @@
 </tr>
 {%- endmacro %}
 
-{% macro law_changes(blocks, open_first=false) -%}
-{% for b in blocks %}
-<details class="law"{% if open_first and loop.first %} open{% endif %}>
+{# nav: id prefix; when given, an index of acts and articles is shown and
+   every change gets an anchor (use once per page: ids must be unique). #}
+{% macro law_changes(blocks, open_first=false, nav=none) -%}
+{% if nav %}
+<nav class="law-index" aria-label="{{ _('Spis zmian') }}">
+  {% for b in blocks %}{% set bi = loop.index %}
+  <p><a class="law-jump" href="#{{ nav }}-{{ bi }}" lang="pl"><strong>{% if b.cite.name %}{{ b.cite.name | truncate(70) }}{% else %}Dz. U. {{ b.cite.year or b.cite.ayear }} poz. {{ b.cite.pos }}{% endif %}</strong></a>
+    {% set seen = [] %}
+    {% for c in b.changes %}{% if c.art and c.art not in seen %}{% set _x = seen.append(c.art) %}
+    <a class="law-jump chip" href="#{{ nav }}-{{ bi }}-{{ loop.index }}">art. {{ c.art }}</a>
+    {% endif %}{% endfor %}
+  </p>
+  {% endfor %}
+</nav>
+{% endif %}
+{% for b in blocks %}{% set bi = loop.index %}
+<details class="law"{% if nav %} id="{{ nav }}-{{ bi }}"{% endif %}{% if open_first and loop.first %} open{% endif %}>
   <summary><strong lang="pl">{% if b.cite.name %}{{ "ustawa " if b.cite.name.startswith("o ") else "" }}{{ b.cite.name }}{% else %}Dz. U. {{ b.cite.year or b.cite.ayear }} poz. {{ b.cite.pos }}{% endif %}</strong>
     <span class="muted">— {{ b.changes | length }} {{ _("zmian") }}</span></summary>
   <p class="note">
@@ -45,7 +59,7 @@
     {% if not b.loaded %}<br><span class="muted">{{ _("Tekst ustawy nie został jeszcze pobrany — pokazujemy tylko nowe brzmienie.") }}</span>{% endif %}
   </p>
   {% for c in b.changes %}
-  <div class="diff law-change" lang="pl">
+  <div class="diff law-change" lang="pl"{% if nav %} id="{{ nav }}-{{ bi }}-{{ loop.index }}"{% endif %}>
     <span class="where">{{ _("zmiana") }} {{ c.label }} · {{ c.where }}{% if c.op == "repeal" %} · {{ _("uchylenie") }}{% elif c.op == "add" %} · {{ _("dodanie") }}{% endif %}{% if b.loaded and not c.found %} · <span class="warn-text">{{ _("nie odnaleziono przepisu w tekście jednolitym") }}</span>{% endif %}</span>
     <div class="rows">{{ c.html | safe }}</div>
   </div>

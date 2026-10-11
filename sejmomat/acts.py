@@ -36,6 +36,10 @@ _FOOTNOTE_TEXT_RE = re.compile(r"^\s*" + _FOOTNOTE_START)
 # A unit label with a footnote reference glued on: "1b)15) wolno stojących"
 _LABEL_FOOTNOTE_RE = re.compile(r"^(\s*(?:\d+[a-z]*|[a-z]{1,2})\))\d+\)")
 _ART_FOOTNOTE_RE = re.compile(r"^(\s*Art\.\s*\d+[a-z]*\.)\d+\)")
+# ... or on a paragraph number: "1.50) Przedsiębiorstwo", "§ 1a.188) Tej samej",
+# also right after the article ("Art. 7. 1.50) ..."), or on a dash ("–1) zbrodni")
+_UST_FOOTNOTE_RE = re.compile(r"^(\s*(?:Art\.\s*\d+[a-z]*\.\s*)?(?:§\s*)?\d+[a-z]*\.)\d+\)(?=\s)")
+_TIRET_FOOTNOTE_RE = re.compile(r"^(\s*[–-])\d+\)(?=\s)")
 
 
 def clean_act_text(text, bill=False):
@@ -70,6 +74,8 @@ def clean_act_text(text, bill=False):
             marker = False
         line = _LABEL_FOOTNOTE_RE.sub(r"\1", line)
         line = _ART_FOOTNOTE_RE.sub(r"\1", line)
+        line = _UST_FOOTNOTE_RE.sub(r"\1", line)
+        line = _TIRET_FOOTNOTE_RE.sub(r"\1", line)
         out.append(line.replace(",,", "„").rstrip())
     return out
 
@@ -82,11 +88,12 @@ class Unit:
     label: str         # "29", "1", "40", "a"
     text: str = ""     # own text (without children)
     children: list = field(default_factory=list)
+    sign: str = ""     # "§ " for paragraphs of codes
 
     def full_text(self, depth=0):
         """Text of the unit with its children, one sub-unit per line."""
         head = {
-            "art": f"Art. {self.label}. ", "ust": f"{self.label}. ", "pkt": f"{self.label}) ",
+            "art": f"Art. {self.label}. ", "ust": f"{self.sign}{self.label}. ", "pkt": f"{self.label}) ",
             "lit": f"{self.label}) ", "tiret": "– ",
         }[self.kind]
         lines = [head + self.text if self.text or self.kind != "art" else head.strip()]
@@ -95,7 +102,7 @@ class Unit:
         return "\n".join(l for l in lines if l)
 
     def head(self):
-        return {"art": f"Art. {self.label}.", "ust": f"{self.label}.", "pkt": f"{self.label})",
+        return {"art": f"Art. {self.label}.", "ust": f"{self.sign}{self.label}.", "pkt": f"{self.label})",
                 "lit": f"{self.label})", "tiret": "–", "root": ""}[self.kind]
 
     def lines(self, depth=0):
@@ -122,7 +129,8 @@ class Unit:
 
 
 _ART_RE = re.compile(r"^\s*Art\.\s*(\d+[a-z]*)\.\s*(.*)$")
-_UST_RE = re.compile(r"^\s*(\d+[a-z]*)\.\s+(.*)$")
+# "2. ..." in acts, "§ 2. ..." in codes
+_UST_RE = re.compile(r"^\s*(§\s*)?(\d+[a-z]*)\.\s+(.*)$")
 _PKT_RE = re.compile(r"^\s*(\d+[a-z]*)\)\s*(.*)$")
 _LIT_RE = re.compile(r"^\s*([a-z]{1,2})\)\s*(.*)$")
 _TIRET_RE = re.compile(r"^\s*[–-]\s+(.*)$")
@@ -170,15 +178,15 @@ def parse_act(lines):
             stack[:] = [art]
             rest = m[2]
             if um := _UST_RE.match(rest):   # "Art. 29. 1. Nie wymaga ..."
-                attach(Unit("ust", um[1], um[2]))
+                attach(Unit("ust", um[2], um[3], sign="§ " if um[1] else ""))
             else:
                 art.text = rest
             continue
         if not stack:
             continue
         cur = stack[-1]
-        if (m := _UST_RE.match(line)) and _is_next_label(stack, "ust", m[1]):
-            attach(Unit("ust", m[1], m[2]))
+        if (m := _UST_RE.match(line)) and _is_next_label(stack, "ust", m[2]):
+            attach(Unit("ust", m[2], m[3], sign="§ " if m[1] else ""))
         elif (m := _PKT_RE.match(line)) and _is_next_label(stack, "pkt", m[1]):
             attach(Unit("pkt", m[1], m[2]))
         elif (m := _LIT_RE.match(line)) and _is_next_label(stack, "lit", m[1]):
@@ -329,7 +337,7 @@ def instructions(lines):
 
 
 _ADDR_RE = re.compile(
-    r"\b(art\.?|ust\.?|§|pkt|lit\.|tiret)\s*(\d+[a-z]*|[a-z]{1,2}(?![a-ząćęłńóśźż])|"
+    r"(?<!\w)(art\.?|ust\.?|§|pkt|lit\.|tiret)\s*(\d+[a-z]*|[a-z]{1,2}(?![a-ząćęłńóśźż])|"
     r"pierwsze|drugie|trzecie|czwarte|piąte|szóste)"
 )
 _KIND = {"art.": "art", "art": "art", "ust.": "ust", "ust": "ust", "§": "ust", "pkt": "pkt", "lit.": "lit", "tiret": "tiret"}
@@ -788,7 +796,9 @@ def bill_changes(text):
         changes = []
         for label, ctx, own in art["changes"]:
             for op in interpret(ctx, own):
-                changes.append({"label": label, **compare(articles, op)})
+                first = (op.get("tokens") or op["path"] or [("", "")])[0]
+                changes.append({"label": label, "art": first[1] if first[0] == "art" else "",
+                                **compare(articles, op)})
         if changes:
             out.append({"cite": art["cite"], "eli": eli, "meta": meta, "loaded": articles is not None,
                         "changes": changes})

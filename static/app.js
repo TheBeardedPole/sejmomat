@@ -83,6 +83,17 @@ if (proposerFilter) {
   againstFilter.addEventListener("change", apply);
 }
 
+// Jumping to an anchor inside a collapsed <details> (the index of law
+// changes on bill pages): open the sections around the target first.
+const revealTarget = () => {
+  const target = location.hash.length > 1 && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+  if (!target) return;
+  for (let d = target.closest("details"); d; d = d.parentElement?.closest("details")) d.open = true;
+  target.scrollIntoView({ block: "start" });
+};
+window.addEventListener("hashchange", revealTarget);
+revealTarget();
+
 // ---------------------------------------------------------------------------
 // Site-wide extras: footer links, consent bar, support pill and support note.
 // They are added here rather than in the page template on purpose: the site

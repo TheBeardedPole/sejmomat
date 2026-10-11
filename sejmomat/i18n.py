@@ -214,6 +214,7 @@ EN = {
     "Uchwała Senatu utrzymana — ustawa odrzucona": "Senate resolution upheld — bill falls",
     # law comparison
     "Zmiany w obowiązującym prawie": "Changes to existing law",
+    "Spis zmian": "Index of changes",
     "Obecne brzmienie przepisów porównane z projektem według": "Current provisions compared with the bill as in",
     "druku nr": "print no.",
     "(przed poprawkami z drugiego czytania)": "(before second-reading amendments)",
