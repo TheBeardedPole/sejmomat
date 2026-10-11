@@ -1,0 +1,48 @@
+name: Szybka publikacja (style, skrypty, gry)
+
+# Styles, scripts and the games are plain files that need no build. When only
+# they change, copy them straight to the host instead of running the full
+# fetch + build + deploy.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "static/**"
+      - "games/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# never at the same time as the full deploy
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github
+            static
+            games
+      - name: Copy static files and games over SSH (rsync)
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST || secrets.FTP_SERVER }}
+          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+          SSH_PORT: ${{ vars.SSH_PORT || '65002' }}
+          SSH_DIR: ${{ vars.SSH_DIR }}
+          SSH_KNOWN_HOSTS: ${{ vars.SSH_KNOWN_HOSTS }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          source .github/ssh-setup.sh
+          # same layout as the build: static/ -> /static/, games/sejmdle/ -> /sejmdle/
+          rsync --recursive --checksum --compress --delete --itemize-changes \
+            -e "$RSYNC_SSH" static/ "$SSH_TARGET:${SSH_DIR}static/"
+          rsync --recursive --checksum --compress --delete --itemize-changes \
+            -e "$RSYNC_SSH" games/sejmdle/ "$SSH_TARGET:${SSH_DIR}sejmdle/"
