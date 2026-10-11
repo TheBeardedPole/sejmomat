@@ -253,13 +253,26 @@ document.body.append(
       if (el.matches("details.law[id]")) acts.push(el);
       if (el.matches(".amendment[id]")) amendments.push(el);
       if (el.matches(".print-text")) {
-        const seen = new Set(), arts = [];
+        // The document's own articles only. A bill quotes articles of the
+        // acts it changes („Art. 11a. …”), and those would otherwise be listed
+        // between the bill's Art. 1 and Art. 2: skip everything inside quotes.
+        const own = [], sequential = [];
+        let depth = 0, next = 1;
         for (const p of el.children) {
-          const m = /^Art\.\s*(\d+[a-z]*)\./.exec(p.textContent);
-          if (!m || seen.has(m[1])) continue;
-          seen.add(m[1]);
-          p.id = `art-${m[1]}`;
-          arts.push(link(p, m[1]));
+          const t = p.textContent;
+          const m = /^Art\.\s*(\d+[a-z]*)\./.exec(t);
+          if (m && depth <= 0) own.push([m[1], p]);
+          if (m && m[1] === String(next)) { sequential.push([m[1], p]); next++; }
+          for (const ch of t) depth += ch === "„" ? 1 : ch === "”" ? -1 : 0;
+          if (depth < 0) depth = 0;
+        }
+        // an unclosed quote would hide the rest: then trust plain 1, 2, 3 … order
+        const seen = new Set(), arts = [];
+        for (const [label, p] of (own.length >= sequential.length ? own : sequential)) {
+          if (seen.has(label)) continue;
+          seen.add(label);
+          p.id = `art-${label}`;
+          arts.push(link(p, label));
         }
         if (arts.length > 1) list.append(h("p", { className: "side-toc-sub", textContent: T.articles }), chips(arts));
       }
