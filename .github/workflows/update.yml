@@ -5,6 +5,11 @@ on:
     - cron: "0 22 * * *"   # after evening voting blocks
     - cron: "30 5 * * *"   # catch late corrections
   workflow_dispatch:
+    inputs:
+      fetch:
+        description: "Pobrać nowe dane z Sejmu (wyłącz, gdy zmienił się tylko wygląd lub treść stron)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -53,10 +58,13 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # A manual run with "fetch" off only rebuilds and uploads the pages.
       - name: Fetch new votings, prints and amended acts
+        if: github.event_name != 'workflow_dispatch' || inputs.fetch
         run: python -m sejmomat fetch
 
       - name: Commit updated data
+        if: github.event_name != 'workflow_dispatch' || inputs.fetch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

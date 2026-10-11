@@ -1,9 +1,10 @@
 {% extends "base.html" %}
 {% from "_macros.html" import result_badge, counts, author_label %}
 {% block generated %}{{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.{% endblock %}
+{% block description %}{{ _("Głosowania w Sejmie: pokazane jak należy.") }} {{ _("Poprawki w odpowiednim kontekście, lepsze statystyki, podsumowania danych.") }}{% endblock %}
 {% block content %}
-<h1>{{ _("Głosowania w Sejmie, poprawka po poprawce") }}</h1>
-<p>{{ _("Domyślny opis") }}</p>
+<h1>{{ _("Głosowania w Sejmie: pokazane jak należy.") }}</h1>
+<p class="tagline">{{ _("Poprawki w odpowiednim kontekście, lepsze statystyki, podsumowania danych.") }}</p>
 
 {% set L = latest %}
 <h2>{{ _("Ostatnie posiedzenie") }}: <a href="{{ root }}posiedzenie/{{ L.sitting }}.html">{{ sitting_name(L.sitting) }}</a>
@@ -30,26 +31,4 @@
 {% endfor %}
 </tbody></table></div>
 {% endif %}
-
-<div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); margin-top: 24px">
-<section>
-  <h2>{{ _("Skuteczne poprawki") }}</h2>
-  <table><tbody>
-  {% for p in proposers %}{% if loop.index <= 8 %}
-  <tr><td>{{ p.name | who }}</td><td class="num">{{ p.adopted }} / {{ p.voted }}</td></tr>
-  {% endif %}{% endfor %}
-  </tbody></table>
-  <p class="note"><a href="{{ root }}skuteczne-poprawki.html">{{ _("Poprawki przyjęte przez Sejm") }} →</a> · <a href="{{ root }}poprawki.html">{{ _("Wszystkie poprawki") }} →</a></p>
-</section>
-<section>
-  <h2>{{ _("Najczęściej wyłamujący się z linii klubu") }}</h2>
-  <table><tbody>
-  {% for r in mp_rows | sort(reverse=true, attribute="rebel_count") %}{% if loop.index <= 8 %}
-  <tr><td><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a> <span class="muted">{{ r.mp.club }}</span></td>
-  <td class="num">{{ r.rebel_count }}</td><td class="num muted">{{ r.rebel_rate | pct }}</td></tr>
-  {% endif %}{% endfor %}
-  </tbody></table>
-  <p class="note">{{ _("Pełne zestawienia") }}: <a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a>, <a href="{{ root }}kluby.html">{{ _("Kluby") }}</a>. {{ _("Jak liczymy") }}: <a href="{{ root }}metodologia.html">{{ _("Metodologia") }}</a>.</p>
-</section>
-</div>
 {% endblock %}

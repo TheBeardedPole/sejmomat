@@ -76,6 +76,10 @@ Repository settings → Secrets and variables → Actions:
 in a few seconds. Everything in the target folder that is not part of the
 build is deleted on deploy, except `.well-known/`.
 
+After changing templates or page text, run the main workflow with "fetch"
+switched off (`gh workflow run update.yml -f fetch=false`): it skips the
+Sejm download, rebuilds, and uploads only the pages that changed.
+
 Changes to `static/` (styles, scripts) or `games/` do not need the full
 run: pushing them to `main` starts "Szybka publikacja (style, skrypty, gry)",
 which copies just those folders to the host in well under a minute.

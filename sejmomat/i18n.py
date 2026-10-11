@@ -31,7 +31,9 @@ EN = {
     "Projekty, nad którymi głosowano w całości": "Bills voted on as a whole",
     "Szukaj": "Search",
     "Metodologia": "Methodology",
-    "Głosowania w Sejmie, poprawka po poprawce": "Polish Sejm votes, amendment by amendment",
+    "Głosowania w Sejmie: pokazane jak należy.": "Polish Sejm votes, shown properly.",
+    "Poprawki w odpowiednim kontekście, lepsze statystyki, podsumowania danych.":
+        "Amendments in their proper context, better statistics, summaries of the data.",
     "Dane": "Data",
     "API Sejmu RP": "Sejm API",
     "kadencja": "term",
