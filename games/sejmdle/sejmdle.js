@@ -111,18 +111,35 @@ if (typeof document !== "undefined") (() => {
   // Puzzles are picked from the date plus this round number: raise ROUND to
   // deal everyone a fresh set. "?los=anything" in the address deals a private
   // extra set for testing, with its own saved progress.
-  const ROUND = "2";
+  const ROUND = "3";
   const TEST = new URLSearchParams(location.search).get("los");
   const SEED = `${DAY}#${TEST ? `test-${TEST}` : ROUND}`;
   const MAX_GUESSES = 8, AMENDMENTS = 5;
   const VOTE_PL = { yes: "za", no: "przeciw", abstain: "wstrzymał(a) się", absent: "nie głosował(a)" };
   const main = document.getElementById("game");
 
+  // Conditional pieces of a screen are written as `cond && node` or
+  // `cond ? node : null`; the empty values must be dropped before they reach
+  // the DOM, which would otherwise print them as the text "null" / "false".
+  const keep = (c) => c !== null && c !== undefined && c !== false;
   const h = (tag, props = {}, children = []) => {
     const node = Object.assign(document.createElement(tag), props);
-    node.append(...[].concat(children).filter((c) => c !== null && c !== undefined && c !== false));
+    node.append(...[].concat(children).filter(keep));
     return node;
   };
+  const draw = (...nodes) => main.replaceChildren(...nodes.filter(keep));
+  // "Jak grać?": short rules, open until the player has made a first move.
+  const howTo = (started, items, note) => h("details", { className: "howto", open: !started }, [
+    h("summary", { textContent: "Jak grać?" }),
+    h("ol", {}, items.map((it) => h("li", {}, it))),
+    note ? h("p", { className: "muted", textContent: note }) : null,
+  ]);
+  // A row of markers: tries used, answers so far, points left.
+  const marks = (label, states) => h("p", { className: "marks" }, [
+    h("span", { className: "muted", textContent: label }),
+    ...states.map((st) => h("span", { className: `mark ${st}` })),
+  ]);
+  const tile = (cls, text) => h("span", { className: `pill ${cls}`, textContent: text });
   // Progress is kept per game and day, in this browser only.
   const load = (game) => {
     try { return JSON.parse(localStorage.getItem(`sejmdle:${game}:${SEED}`) || "null"); } catch { return null; }
@@ -171,16 +188,18 @@ if (typeof document !== "undefined") (() => {
       const over = won || guesses.length >= MAX_GUESSES;
       const rows = guesses.map((g) => {
         const cmp = compareMps(g, target, data.clubAxis, DAY);
-        return h("tr", {}, [h("td", { className: "name", textContent: g.name }),
+        return h("tr", { className: g === guesses[guesses.length - 1] ? "latest" : "" }, [h("td", { className: "name", textContent: g.name }),
           ...COLS.map(([k]) => h("td", { className: cmp[k].color, textContent: `${cmp[k].text} ${cmp[k].arrow}`.trim() }))]);
       });
-      main.replaceChildren(
-        h("p", {}, [`Zgadnij posła dnia. Masz ${MAX_GUESSES} prób — po każdej zobaczysz, co się zgadza.`]),
-        h("p", { className: "legend" }, [
-          h("span", { className: "pill green", textContent: "zgadza się" }), " ",
-          h("span", { className: "pill yellow", textContent: "blisko" }), " ",
-          "(to samo województwo, wiek ±5 lat, głosy ±25%, frekwencja ±3 pkt proc.) · klub: ← bardziej na lewo, → bardziej na prawo · liczby: ↑ więcej, ↓ mniej · litera nazwiska: ↑ dalej w alfabecie, ↓ bliżej początku",
-        ]),
+      draw(
+        h("p", { className: "lead", textContent: "Zgadnij posła dnia." }),
+        howTo(guesses.length > 0, [
+          [`Wpisz imię i nazwisko dowolnego posła. Masz ${MAX_GUESSES} prób.`],
+          ["Po każdej próbie pola pokażą, jak blisko jesteś: ", tile("green", "zgadza się"), " ", tile("yellow", "blisko"), " ", tile("grey", "nie")],
+          ["Strzałki prowadzą do celu: ← → klub bardziej na lewo lub prawo, ↑ ↓ liczba większa lub mniejsza, a przy literze nazwiska dalej lub bliżej w alfabecie."],
+        ], "„Blisko” to: to samo województwo, wiek ±5 lat, głosy w wyborach ±25%, frekwencja ±3 pkt proc."),
+        marks(over ? "Próby:" : `Próba ${guesses.length + 1} z ${MAX_GUESSES}:`,
+          Array.from({ length: MAX_GUESSES }, (_, k) => k >= guesses.length ? "todo" : (won && k === guesses.length - 1 ? "ok" : "used"))),
         !over && guessForm(data, (mp) => {
           if (!state.guesses.includes(mp.id)) { state.guesses.push(mp.id); save("posel", state); }
           render();
@@ -229,20 +248,25 @@ if (typeof document !== "undefined") (() => {
           h("div", { className: "amend", lang: "pl", textContent: a.text }),
         ]);
       });
-      main.replaceChildren(
-        h("p", {}, ["Pięć losowych poprawek dziennie. Widzisz, czego dotyczy i co zmienia — ale nie kto ją zgłosił. Zgadnij, czy Sejm ją przyjął."]),
-        h("p", { className: "muted", textContent: "Przy poprawkach Senatu „przeszła” znaczy, że Sejm jej nie odrzucił." }),
+      draw(
+        h("p", { className: "lead", textContent: "Czy ta poprawka przeszła?" }),
+        howTo(i > 0, [
+          [`Dostajesz ${items.length} poprawek, jedną po drugiej.`],
+          ["Widzisz treść poprawki i to, co zmienia w projekcie, ale nie widzisz, kto ją zgłosił."],
+          ["Wybierz „Przeszła” albo „Nie przeszła”. Po odpowiedzi zobaczysz wynik głosowania i zgłaszającego."],
+        ], "Przy poprawkach Senatu „przeszła” znaczy, że Sejm jej nie odrzucił."),
+        marks("Odpowiedzi:", items.map((a, k) => k >= i ? "todo" : (state.answers[k] === a.adopted ? "ok" : "bad"))),
         i < items.length ? h("div", { className: "card" }, [
           h("h2", { textContent: `Poprawka ${i + 1} z ${items.length}` }),
           h("p", { className: "muted", textContent: `${KIND[items[i].kind] || "Poprawka"} do projektu: ${shortTitle(items[i].bill)} (${items[i].date.slice(0, 4)})` }),
           h("div", { className: "amend", lang: "pl", textContent: items[i].text }),
           context(items[i]),
-          h("div", { className: "guess" }, [
-            h("button", { className: "btn primary", textContent: "Przeszła", onclick: () => answer(true) }),
-            h("button", { className: "btn", textContent: "Nie przeszła", onclick: () => answer(false) }),
+          h("div", { className: "guess choice" }, [
+            h("button", { className: "btn yes", textContent: "Przeszła", onclick: () => answer(true) }),
+            h("button", { className: "btn no", textContent: "Nie przeszła", onclick: () => answer(false) }),
           ]),
         ]) : h("div", {}, [
-          h("p", { className: "result ok", textContent: `Wynik: ${score} / ${items.length}` }),
+          h("p", { className: `result ${score * 2 >= items.length ? "ok" : "bad"}`, textContent: `Wynik: ${score} / ${items.length}` }),
           share(`Sejmdle ${DAY} — Czy przeszło?: ${score}/${items.length} ` +
             state.answers.map((a, k) => (a === items[k].adopted ? "🟩" : "🟥")).join("")),
         ]),
@@ -270,8 +294,15 @@ if (typeof document !== "undefined") (() => {
         if (state.hints < HINTS.length) state.hints++; else state.lost = true;
         save("kim", state); render();
       };
-      main.replaceChildren(
-        h("p", {}, ["Kim jestem? Zaczynasz od tego, jak głosowałem(-am). Każda wskazówka i każdy błąd to punkt mniej."]),
+      const max = HINTS.length + 1;
+      draw(
+        h("p", { className: "lead", textContent: "Kim jestem?" }),
+        howTo(state.hints > 0 || state.wrong.length > 0 || over, [
+          ["Na start widzisz, jak tajemniczy poseł głosował nad całością pięciu ustaw."],
+          ["Zgadnij, kto to, albo odsłoń wskazówkę. Kolejno: województwo, okręg, klub, zdjęcie."],
+          [`Zaczynasz z ${max} punktami. Każda wskazówka i każda zła odpowiedź zabiera jeden.`],
+        ]),
+        marks("Punkty:", Array.from({ length: max }, (_, k) => (!state.lost && k < points) ? (state.won ? "ok" : "used") : "todo")),
         h("div", { className: "card" }, [
           h("h2", { textContent: "Tak głosowałem(-am) nad całością ustaw" }),
           h("ul", { className: "votes" }, votes.map(({ final, vote }) => h("li", {}, [
@@ -283,7 +314,6 @@ if (typeof document !== "undefined") (() => {
           h("div", { className: "card" }, [h("strong", { textContent: `${label}: ` }), value()])),
         state.wrong.length ? h("p", { className: "muted",
           textContent: `To nie: ${state.wrong.map((id) => data.byId.get(id)?.name).filter(Boolean).join(", ")}` }) : null,
-        !over && h("p", { className: "muted", textContent: `Do zdobycia: ${points} pkt (maks. ${HINTS.length + 1}).` }),
         !over && guessForm(data, (guess) => {
           if (guess.id === mp.id) state.won = true;
           else { state.wrong.push(guess.id); if (state.hints < HINTS.length) state.hints++; else state.lost = true; }

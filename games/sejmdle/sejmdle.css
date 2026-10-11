@@ -1,51 +1,122 @@
-:root { --bg: #fbfaf8; --surface: #fff; --text: #1d1d1f; --muted: #6b6b70; --line: #e4e2dd; --accent: #1d5fc4;
-  --green: #2e8b57; --yellow: #d9a514; --grey: #8a8a8f; --red: #b3261e; }
+:root { --bg: #f6f5f1; --surface: #fff; --text: #1d1d1f; --muted: #6b6b70; --line: #e2dfd8; --accent: #1d5fc4;
+  --green: #2e8b57; --yellow: #c9930a; --grey: #85858c; --red: #b3261e;
+  --ok-bg: #e3f3e9; --bad-bg: #fbe4e2; --shadow: 0 1px 2px rgb(0 0 0 / .06), 0 4px 14px rgb(0 0 0 / .05); }
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #141416; --surface: #1c1c1f; --text: #ececee; --muted: #9a9aa2; --line: #2e2e33; --accent: #7db8ff; }
+  :root { --bg: #121214; --surface: #1c1c20; --text: #ececee; --muted: #9a9aa2; --line: #2f2f35; --accent: #7db8ff;
+    --green: #3aa56c; --yellow: #d6a51f; --grey: #5e5e66; --red: #ff6b60;
+    --ok-bg: #173a28; --bad-bg: #462220; --shadow: 0 1px 2px rgb(0 0 0 / .4); }
 }
 * { box-sizing: border-box; }
-body { margin: 0 auto; max-width: 860px; padding: 16px; background: var(--bg); color: var(--text);
+body { margin: 0 auto; max-width: 880px; padding: 20px 16px 40px; background: var(--bg); color: var(--text);
   font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 a { color: var(--accent); }
-h1 { margin: 0; font-size: 1.8rem; }
-h2 { font-size: 1.15rem; margin: 20px 0 8px; }
+h2 { font-size: 1.1rem; margin: 0 0 8px; }
 .muted { color: var(--muted); font-size: .9rem; }
-.tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
-.tabs button, .btn { font: inherit; padding: 6px 14px; border-radius: 8px; border: 1px solid var(--line);
-  background: var(--surface); color: var(--text); cursor: pointer; }
-.tabs button[aria-selected="true"] { border-color: var(--accent); font-weight: 600; }
-.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+
+/* Header: the name as a row of tiles, coloured like the clues. */
+header { text-align: center; }
+.wordmark { display: flex; justify-content: center; gap: 6px; margin: 4px 0 8px; font-size: 1.5rem; }
+.wordmark span { display: grid; place-items: center; width: 1.9em; height: 1.9em; border-radius: 8px;
+  font-weight: 800; color: #fff; background: var(--grey); box-shadow: var(--shadow); }
+.wordmark span:nth-child(1), .wordmark span:nth-child(4) { background: var(--green); }
+.wordmark span:nth-child(2), .wordmark span:nth-child(6) { background: var(--yellow); }
+.tagline { margin: 0 0 14px; }
+
+/* Game switcher. */
+.tabs { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 4px; margin: 0 0 18px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); }
+.tabs button { font: inherit; font-weight: 600; padding: 8px 16px; border: 0; border-radius: 9px;
+  background: none; color: var(--muted); cursor: pointer; }
+.tabs button:hover { color: var(--text); }
+.tabs button[aria-selected="true"] { background: var(--accent); color: #fff; }
+@media (prefers-color-scheme: dark) { .tabs button[aria-selected="true"] { color: #0d1b2e; } }
+
+.lead { font-size: 1.35rem; font-weight: 700; margin: 0 0 10px; text-align: center; }
+
+/* Instructions. */
+.howto { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+  border-radius: 10px; padding: 10px 14px; margin: 0 0 14px; box-shadow: var(--shadow); }
+.howto summary { cursor: pointer; font-weight: 700; }
+.howto ol { margin: 8px 0 4px; padding-left: 22px; }
+.howto li { margin: 4px 0; }
+.howto .muted { margin: 6px 0 0; }
+
+/* Progress markers. */
+.marks { display: flex; align-items: center; justify-content: center; gap: 6px; margin: 0 0 12px; }
+.marks .muted { margin-right: 4px; }
+.mark { width: 16px; height: 16px; border-radius: 5px; border: 2px solid var(--line); background: none; }
+.mark.used { background: var(--grey); border-color: var(--grey); }
+.mark.ok { background: var(--green); border-color: var(--green); }
+.mark.bad { background: var(--red); border-color: var(--red); }
+
+/* Buttons and the guess box. */
+.btn { font: inherit; font-weight: 600; padding: 9px 18px; border-radius: 10px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--text); cursor: pointer; box-shadow: var(--shadow); }
+.btn:hover { border-color: var(--accent); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.yes { background: var(--green); border-color: var(--green); color: #fff; }
+.btn.no { background: var(--red); border-color: var(--red); color: #fff; }
+@media (prefers-color-scheme: dark) { .btn.primary { color: #0d1b2e; } .btn.no { color: #2a0d0b; } }
 .btn:disabled { opacity: .5; cursor: default; }
-.guess { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
-.guess input { flex: 1 1 220px; font: inherit; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line);
+.guess { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 12px 0; }
+.guess input { flex: 1 1 220px; font: inherit; padding: 9px 12px; border-radius: 10px; border: 2px solid var(--line);
   background: var(--surface); color: var(--text); }
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin: 10px 0; }
-.grid-scroll { overflow-x: auto; }
-table.grid { border-collapse: separate; border-spacing: 4px; width: 100%; font-size: .85rem; }
-table.grid th { font-weight: 600; color: var(--muted); text-align: center; font-size: .78rem; }
-table.grid td { padding: 6px; border-radius: 6px; text-align: center; color: #fff; min-width: 84px; }
-table.grid td.name { background: var(--surface); color: var(--text); border: 1px solid var(--line); text-align: left; font-weight: 600; }
+.guess input:focus { outline: none; border-color: var(--accent); }
+.guess.choice { justify-content: center; }
+.guess.choice .btn { flex: 1 1 140px; max-width: 220px; padding: 12px 18px; font-size: 1.05rem; }
+
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px;
+  margin: 12px 0; box-shadow: var(--shadow); }
+
+/* Clue grid. */
+.grid-scroll { overflow-x: auto; margin: 0 -4px; }
+table.grid { border-collapse: separate; border-spacing: 5px; width: 100%; font-size: .85rem; }
+table.grid th { font-weight: 600; color: var(--muted); text-align: center; font-size: .74rem;
+  text-transform: uppercase; letter-spacing: .03em; padding: 0 2px 2px; }
+table.grid td { padding: 9px 6px; border-radius: 8px; text-align: center; color: #fff; min-width: 86px;
+  font-weight: 600; box-shadow: var(--shadow); }
+table.grid td.name { background: var(--surface); color: var(--text); border: 1px solid var(--line); text-align: left; }
 td.green, .pill.green { background: var(--green); }
 td.yellow, .pill.yellow { background: var(--yellow); }
 td.grey, .pill.grey { background: var(--grey); }
-.legend { font-size: .82rem; color: var(--muted); }
-.pill { display: inline-block; padding: 0 8px; border-radius: 99px; color: #fff; font-size: .8rem; }
+.pill { display: inline-block; padding: 1px 9px; border-radius: 99px; color: #fff; font-size: .8rem; font-weight: 600; }
+/* The newest guess turns over, one tile after another. */
+@media (prefers-reduced-motion: no-preference) {
+  tr.latest td { animation: flip .45s ease both; }
+  tr.latest td:nth-child(2) { animation-delay: .06s; } tr.latest td:nth-child(3) { animation-delay: .12s; }
+  tr.latest td:nth-child(4) { animation-delay: .18s; } tr.latest td:nth-child(5) { animation-delay: .24s; }
+  tr.latest td:nth-child(6) { animation-delay: .30s; } tr.latest td:nth-child(7) { animation-delay: .36s; }
+  tr.latest td:nth-child(8) { animation-delay: .42s; }
+  @keyframes flip { from { transform: rotateX(90deg); opacity: 0; } to { transform: none; opacity: 1; } }
+}
+
 .amend { white-space: pre-wrap; font-family: Georgia, "Times New Roman", serif; }
-.result { font-weight: 700; }
-.result.ok { color: var(--green); } .result.bad { color: var(--red); }
-.photo { width: 120px; height: 150px; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); }
+.result { font-weight: 700; padding: 10px 14px; border-radius: 10px; text-align: center; margin: 12px 0; }
+.result.ok { color: var(--green); background: var(--ok-bg); }
+.result.bad { color: var(--red); background: var(--bad-bg); }
+.card > .result { text-align: left; margin-top: 0; }
+.photo { width: 120px; height: 150px; object-fit: cover; border-radius: 10px; border: 1px solid var(--line); }
 .reveal { display: flex; gap: 14px; align-items: flex-start; }
-ul.votes { padding-left: 18px; margin: 6px 0; } ul.votes li { margin: 4px 0; }
+.reveal p { margin: 0 0 4px; }
+ul.votes { list-style: none; padding: 0; margin: 6px 0 0; }
+ul.votes li { margin: 0; padding: 7px 0; border-top: 1px solid var(--line); }
+ul.votes li:first-child { border-top: 0; }
 .v-yes { color: var(--green); font-weight: 700; } .v-no { color: var(--red); font-weight: 700; }
 .v-abstain { color: var(--yellow); font-weight: 700; } .v-absent { color: var(--grey); font-weight: 700; }
-footer { margin-top: 32px; border-top: 1px solid var(--line); padding-top: 12px; }
-details.context { margin: 10px 0; border-top: 1px solid var(--line); padding-top: 8px; font-size: .92rem; }
+footer { margin-top: 36px; border-top: 1px solid var(--line); padding-top: 12px; text-align: center; }
+
+/* What an amendment changes in the bill. */
+details.context { margin: 12px 0; border-top: 1px solid var(--line); padding-top: 10px; font-size: .92rem; }
 details.context summary { cursor: pointer; color: var(--muted); }
 .rows .r { padding: 2px 6px 2px calc(6px + var(--d, 0) * 1.2em); border-radius: 3px; font-family: Georgia, serif; }
 .rows .r-context, .rows .r-parent, .rows .r-gap { color: var(--muted); font-size: .9em; }
-.rows .r-added, .rows ins { background: #dff3e6; text-decoration: none; }
-.rows .r-removed, .rows del { background: #fbe1df; }
+.rows .r-added, .rows ins { background: var(--ok-bg); text-decoration: none; }
+.rows .r-removed, .rows del { background: var(--bad-bg); }
 .rows .r-removed { text-decoration: line-through; }
-@media (prefers-color-scheme: dark) {
-  .rows .r-added, .rows ins { background: #16402a; } .rows .r-removed, .rows del { background: #4a1d1b; }
+
+@media (max-width: 520px) {
+  .wordmark { font-size: 1.2rem; gap: 4px; }
+  .tabs { display: flex; }
+  .tabs button { flex: 1 1 auto; padding: 8px 10px; }
+  .reveal { flex-direction: column; }
 }
