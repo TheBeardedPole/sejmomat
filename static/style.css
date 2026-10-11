@@ -101,20 +101,20 @@ code { font-size: .9em; }
 .support-close, .support-later { background: none; border: 0; padding: 4px; color: var(--muted); cursor: pointer; font: inherit; }
 .support-link { font-weight: 600; }
 @media print { .support-note { display: none; } }
-.consent-bar { position: fixed; left: 16px; bottom: 16px; z-index: 11; width: min(420px, calc(100vw - 32px));
+.sm-choice { position: fixed; left: 16px; bottom: 16px; z-index: 11; width: min(420px, calc(100vw - 32px));
   background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px;
   box-shadow: 0 6px 24px rgb(0 0 0 / .18); font-size: .88rem; }
-.consent-bar p { margin: 0 0 8px; }
-.consent-actions { display: flex; gap: 8px; justify-content: flex-end; margin: 0 !important; }
-.consent-actions button { font: inherit; padding: 4px 12px; border-radius: 6px; border: 1px solid var(--line);
+.sm-choice p { margin: 0 0 8px; }
+.sm-choice-actions { display: flex; gap: 8px; justify-content: flex-end; margin: 0 !important; }
+.sm-choice-actions button { font: inherit; padding: 4px 12px; border-radius: 6px; border: 1px solid var(--line);
   background: var(--bg); color: var(--text); cursor: pointer; }
-@media print { .consent-bar { display: none; } }
+@media print { .sm-choice { display: none; } }
 .support-pill { position: fixed; right: 16px; bottom: 16px; z-index: 9; padding: 9px 18px; border-radius: 99px;
   background: var(--surface); border: 2px solid var(--accent); color: var(--text); font-size: .92rem; font-weight: 700;
   box-shadow: 0 4px 14px rgb(0 0 0 / .2); }
 .support-pill:hover { opacity: 1; text-decoration: none; border-color: var(--accent); }
 .foot { padding-bottom: 88px; }
-@media (max-width: 600px) { .consent-bar { bottom: 84px; } .support-pill { padding: 8px 14px; font-size: .84rem; } }
+@media (max-width: 600px) { .sm-choice { bottom: 84px; } .support-pill { padding: 8px 14px; font-size: .84rem; } }
 @media print { .support-pill { display: none; } }
 .law-index { margin: 8px 0 12px; font-size: .9rem; }
 .law-index p { margin: 0 0 6px; }

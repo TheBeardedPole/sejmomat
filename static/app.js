@@ -177,9 +177,12 @@ const choose = (optional) => {
   consentBar.hidden = true;
   applyConsent(optional);
 };
-const consentBar = h("div", { className: "consent-bar", hidden: true }, [
+// Class names are deliberately neutral: cookie-notice filter lists hide
+// elements by class (EasyList Cookie has a generic rule for ".consent-bar"),
+// which made this bar vanish a moment after it appeared.
+const consentBar = h("div", { className: "sm-choice", hidden: true }, [
   h("p", {}, [T.consentText + " ", privacyLink()]),
-  h("p", { className: "consent-actions" }, [
+  h("p", { className: "sm-choice-actions" }, [
     h("button", { type: "button", textContent: T.essential, onclick: () => choose(false) }),
     h("button", { type: "button", textContent: T.agree, onclick: () => choose(true) }),
   ]),
