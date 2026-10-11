@@ -4,8 +4,9 @@
 {% block title %}{{ _("Poprawki i wnioski zgłoszone przez") }}: {{ clubs.get(name, shown) }}{% endblock %}
 {% block description %}{{ _("Poprawki i wnioski zgłoszone przez") }} {{ clubs.get(name, shown) }}: {{ votes | length }} {{ _("głosowań") }}, {{ n_adopted }} {{ _("przyjęte") }}.{% endblock %}
 {% block content %}
-<div class="crumbs"><a href="{{ root }}skuteczne-poprawki.html">{{ _("Skuteczne poprawki") }}</a>{% if name in clubs %} · <a href="{{ root }}klub/{{ club_slug(name) }}.html">{{ name }}</a>{% endif %}</div>
+<div class="crumbs"><a href="{{ root }}poprawki.html">{{ _("Poprawki") }}</a>{% if name in clubs %} · <a href="{{ root }}klub/{{ club_slug(name) }}.html">{{ name }}</a>{% endif %}</div>
 <h1>{{ _("Poprawki i wnioski zgłoszone przez") }}: {{ clubs.get(name, shown) }}</h1>
+{% set here = name %}{% include "_amend_nav.html" %}
 <div class="grid">
   <div class="card stat"><b>{{ votes | length }}</b>{{ _("głosowane") }}</div>
   <div class="card stat"><b class="v-Y">{{ n_adopted }}</b>{{ _("przyjęte") }}</div>

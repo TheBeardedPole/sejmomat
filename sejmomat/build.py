@@ -211,6 +211,28 @@ def build_context():
 
     club_rows = build_clubs(clubs, mps, by_id, mp_rows)
     adopted, proposers, mp_proposers = build_adopted(by_id)
+    bill_by_root = {b["root"]: b for b in bill_rows}
+    all_amendments = [v for v in sorted(by_id.values(), key=lambda v: (v["date"], v["votingNumber"]), reverse=True)
+                      if v["amendments"]]
+
+    # Latest sitting: figures and the bills decided as a whole (no amendment votes).
+    last_sitting = max(sittings)
+    last_votes = sittings[last_sitting]
+    whole = [v for v in last_votes if v["motion"] and v["motion"][0] in ("final", "reject_bill", "reject_senate")]
+    decided_bills = {}
+    for v in whole:  # the last vote on the whole bill is the one that settled it
+        decided_bills[v["bill"] or v["agenda"]] = v
+    latest = {
+        "sitting": last_sitting, "votes": last_votes,
+        "amendment_votes": [v for v in last_votes if v["amendments"]],
+        "adopted_amendments": sum(1 for v in last_votes if v["amendments"] and v["outcome_class"] == "adopted"),
+        "against_rec": [v for v in last_votes if v["against_rec"]],
+        "bills": [{"v": v, "bill": bill_by_root.get(v["bill"]),
+                   "amendment_votes": sum(1 for x in last_votes if x["amendments"] and x["bill"] == v["bill"] and v["bill"])}
+                  for v in sorted(decided_bills.values(), key=lambda v: v["votingNumber"])],
+    }
+    latest["passed"] = sum(1 for b in latest["bills"] if b["v"]["motion"][0] == "final" and b["v"]["passed"])
+
     # Every amendment vote (adopted or not) by proposer, newest first.
     by_proposer = defaultdict(list)
     for v in sorted(by_id.values(), key=lambda v: (v["date"], v["votingNumber"]), reverse=True):
@@ -240,8 +262,9 @@ def build_context():
         "club_rows": club_rows, "club_slug": club_slug,
         "adopted": adopted, "proposers": proposers, "mp_proposers": mp_proposers,
         "by_proposer": by_proposer,
+        "all_amendments": all_amendments, "latest": latest,
         "transfers": [(pair, n, pair in renames) for pair, n in transfers.most_common()],
-        "bills": bill_rows, "bill_by_root": {b["root"]: b for b in bill_rows},
+        "bills": bill_rows, "bill_by_root": bill_by_root,
         "coverage": (linked, total),
         "printed": set(printed), "printed_list": printed,
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
@@ -458,6 +481,7 @@ def _pages(ctx):
     yield "bills.html", "ustawy.html", {}
     yield "mps.html", "poslowie.html", {}
     yield "clubs.html", "kluby.html", {}
+    yield "amendments.html", "poprawki.html", {}
     yield "adopted.html", "skuteczne-poprawki.html", {}
     yield "method.html", "metodologia.html", {}
     yield "search.html", "szukaj.html", {}

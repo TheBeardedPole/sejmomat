@@ -22,6 +22,13 @@ EN = {
     "Kluby": "Clubs",
     "Posłowie": "MPs",
     "Skuteczne poprawki": "Adopted amendments",
+    "Poprawki": "Amendments", "Wszystkie poprawki": "All amendments",
+    "wszystkie głosowane poprawki i wnioski": "every amendment and motion put to a vote",
+    "Poprawki — opis": "Every amendment, minority motion and Senate amendment the Sejm voted on this term, adopted or rejected, with its proposer and the committee's recommendation.",
+    "projektów rozstrzygniętych w całości": "bills decided as a whole",
+    "uchwalonych ustaw i uchwał": "bills and resolutions passed",
+    "przyjętych poprawek i wniosków": "amendments and motions adopted",
+    "Projekty, nad którymi głosowano w całości": "Bills voted on as a whole",
     "Szukaj": "Search",
     "Metodologia": "Methodology",
     "Głosowania w Sejmie, poprawka po poprawce": "Polish Sejm votes, amendment by amendment",
@@ -278,6 +285,8 @@ PL = {
                      "zgłaszający, rekomendacja komisji i wynik w podziale na kluby.",
     "Prywatność — opis": "Sejmomat nie używa cookies, śledzenia ani reklam. Co zapisuje dostawca hostingu, "
                          "co trafia do pamięci przeglądarki i skąd pochodzą dane o posłach.",
+    "Poprawki — opis": "Wszystkie poprawki, wnioski mniejszości i poprawki Senatu, nad którymi Sejm głosował w tej "
+                       "kadencji — przyjęte i odrzucone, ze zgłaszającym i rekomendacją komisji.",
     "Skuteczne poprawki — opis": "Wszystkie poprawki, wnioski mniejszości i poprawki Senatu, które Sejm "
                                  "przyjął w tej kadencji — i kto je zgłosił.",
 }

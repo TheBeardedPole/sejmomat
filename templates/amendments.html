@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% set n_adopted = all_amendments | selectattr("outcome_class", "equalto", "adopted") | list | length %}
+{% block title %}{{ _("Poprawki") }} — {{ _("wszystkie głosowane poprawki i wnioski") }}{% endblock %}
+{% block description %}{{ _("Poprawki — opis") }}{% endblock %}
+{% block content %}
+<h1>{{ _("Poprawki") }}</h1>
+<p>{{ _("Poprawki — opis") }}</p>
+{% set here = "all" %}{% include "_amend_nav.html" %}
+<div class="grid">
+  <div class="card stat"><b>{{ all_amendments | length }}</b>{{ _("głosowane") }}</div>
+  <div class="card stat"><b class="v-Y">{{ n_adopted }}</b>{{ _("przyjęte") }}</div>
+  <div class="card stat"><b class="v-N">{{ all_amendments | length - n_adopted }}</b>{{ _("odrzucone") }}</div>
+</div>
+<p class="note">{{ _("Liczone są głosowania; jedno głosowanie może obejmować kilka łącznie głosowanych poprawek.") }}</p>
+
+<div class="filters">
+  <input type="search" id="text-filter" placeholder="{{ _('Szukaj w treści, ustawie, temacie…') }}" aria-label="{{ _('Szukaj') }}">
+  <select id="proposer-filter" aria-label="{{ _('Zgłaszający / klub') }}">
+    <option value="">{{ _("Wszyscy zgłaszający") }}</option>
+    {% for p in proposers %}<option value="{{ p.name }}">{{ p.name | who }} ({{ p.voted }})</option>{% endfor %}
+  </select>
+  <select id="status-filter" aria-label="{{ _('Wynik') }}">
+    <option value="">{{ _("Wszystkie wyniki") }}</option>
+    <option value="adopted">{{ _("przyjęte") }}</option>
+    <option value="rejected">{{ _("odrzucone") }}</option>
+  </select>
+  <label><input type="checkbox" id="against-filter"> {{ _("Tylko wbrew rekomendacji komisji") }}</label>
+  <span class="muted" id="filter-count"></span>
+</div>
+<div class="table-scroll">
+<table id="amend-table"><tbody>
+{% for v in all_amendments %}{% set a = v.amendments[0] %}
+<tr data-proposer="{{ v.proposer.clubs | sort | join('|') }}" data-outcome="{{ v.outcome_class }}" data-against="{{ 1 if v.against_rec else 0 }}">
+  <td style="white-space:nowrap">{{ v.date | date_pl }}</td>
+  <td>
+    <a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a> · <span class="muted">{{ v.proposer.label | who }}</span>
+    <div class="snippet" lang="pl">{{ v.agenda | truncate(100) }}</div>
+    {% if a.item %}<div class="snippet" lang="pl">{{ a.item.text | truncate(140) }}</div>{% endif %}
+  </td>
+  <td><span class="badge {{ v.outcome_class }}">{{ _(v.outcome) }}</span></td>
+  <td class="num" style="white-space:nowrap"><span class="v-Y">{{ v.yes }}</span> / <span class="v-N">{{ v.no }}</span></td>
+</tr>
+{% endfor %}
+</tbody></table>
+</div>
+{% endblock %}

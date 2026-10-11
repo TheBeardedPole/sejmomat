@@ -1,25 +1,32 @@
 {% extends "base.html" %}
-{% from "_macros.html" import result_badge, counts %}
+{% from "_macros.html" import result_badge, counts, author_label %}
 {% block generated %}{{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.{% endblock %}
 {% block content %}
 <h1>{{ _("Głosowania w Sejmie, poprawka po poprawce") }}</h1>
 <p>{{ _("Domyślny opis") }}</p>
 
-{% set latest = sittings | dictsort | last %}
-{% set s, votings = latest %}
-<h2>{{ _("Ostatnie posiedzenie") }}: <a href="{{ root }}posiedzenie/{{ s }}.html">{{ sitting_name(s) }}</a></h2>
-{% set flagged = votings | selectattr("against_rec") | list %}
+{% set L = latest %}
+<h2>{{ _("Ostatnie posiedzenie") }}: <a href="{{ root }}posiedzenie/{{ L.sitting }}.html">{{ sitting_name(L.sitting) }}</a>
+  <span class="muted" style="font-weight:400">· {{ L.votes[0].date | date_pl }}{% if L.votes[-1].date[:10] != L.votes[0].date[:10] %} – {{ L.votes[-1].date | date_pl }}{% endif %}</span></h2>
 <div class="grid">
-  <div class="card stat"><b>{{ votings | length }}</b>{{ _("głosowań") }}</div>
-  <div class="card stat"><b>{{ votings | selectattr("amendments") | list | length }}</b>{{ _("głosowań nad poprawkami i wnioskami") }}</div>
-  <div class="card stat"><b>{{ flagged | length }}</b>{{ _("rozstrzygnięć wbrew rekomendacji komisji") }}</div>
+  <div class="card stat"><b>{{ L.votes | length }}</b>{{ _("głosowań") }}</div>
+  <div class="card stat"><b>{{ L.bills | length }}</b>{{ _("projektów rozstrzygniętych w całości") }}</div>
+  <div class="card stat"><b class="v-Y">{{ L.passed }}</b>{{ _("uchwalonych ustaw i uchwał") }}</div>
+  <div class="card stat"><b>{{ L.amendment_votes | length }}</b>{{ _("głosowań nad poprawkami i wnioskami") }}</div>
+  <div class="card stat"><b class="v-Y">{{ L.adopted_amendments }}</b>{{ _("przyjętych poprawek i wniosków") }}</div>
+  <div class="card stat"><b>{{ L.against_rec | length }}</b>{{ _("rozstrzygnięć wbrew rekomendacji komisji") }}</div>
 </div>
-{% if flagged %}
-<h3>{{ _("Wbrew rekomendacji komisji") }}</h3>
+
+{% if L.bills %}
+<h3>{{ _("Projekty, nad którymi głosowano w całości") }}</h3>
 <div class="table-scroll"><table><tbody>
-{% for v in flagged %}
-<tr><td><a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a><div class="snippet">{{ v.agenda | truncate(140) }}</div></td>
-<td>{{ result_badge(v) }}</td><td class="num">{{ counts(v) }}</td></tr>
+{% for row in L.bills %}{% set v = row.v %}
+<tr>
+  <td lang="pl">{% if row.bill %}<a href="{{ root }}ustawa/{{ row.bill.root }}.html">{{ row.bill.title }}</a>{% else %}{{ v.agenda }}{% endif %}
+    <div class="snippet">{% if row.bill and row.bill.author %}{{ author_label(row.bill.author) }} · {% endif %}<a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a>{% if row.amendment_votes %} · {{ row.amendment_votes }} {{ _("głosowań nad poprawkami i wnioskami") }}{% endif %}</div></td>
+  <td>{{ result_badge(v) }}</td>
+  <td class="num" style="white-space:nowrap">{{ counts(v) }}</td>
+</tr>
 {% endfor %}
 </tbody></table></div>
 {% endif %}
@@ -32,7 +39,7 @@
   <tr><td>{{ p.name | who }}</td><td class="num">{{ p.adopted }} / {{ p.voted }}</td></tr>
   {% endif %}{% endfor %}
   </tbody></table>
-  <p class="note"><a href="{{ root }}skuteczne-poprawki.html">{{ _("Poprawki przyjęte przez Sejm") }} →</a></p>
+  <p class="note"><a href="{{ root }}skuteczne-poprawki.html">{{ _("Poprawki przyjęte przez Sejm") }} →</a> · <a href="{{ root }}poprawki.html">{{ _("Wszystkie poprawki") }} →</a></p>
 </section>
 <section>
   <h2>{{ _("Najczęściej wyłamujący się z linii klubu") }}</h2>
