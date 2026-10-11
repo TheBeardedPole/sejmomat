@@ -543,8 +543,13 @@ def run():
         "<IfModule mod_deflate.c>\n"
         "  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json application/xml\n"
         "</IfModule>\n"
-        "<IfModule mod_expires.c>\n  ExpiresActive On\n  ExpiresByType text/css \"access plus 1 day\"\n"
-        "  ExpiresByType application/javascript \"access plus 1 day\"\n</IfModule>\n")
+        # Scripts and styles change with deploys and carry site-wide features
+        # (they are not versioned in the page URLs), so browsers and the
+        # host's CDN may keep them only briefly. The host's default is 7 days.
+        "<IfModule mod_expires.c>\n  ExpiresActive On\n"
+        + "".join(f'  ExpiresByType {t} "access plus 10 minutes"\n' for t in (
+            "text/css", "application/javascript", "application/x-javascript", "text/javascript"))
+        + "</IfModule>\n")
 
     _write_sitemap([p for _, p, _ in pages])
     robots = "User-agent: *\nAllow: /\n"
