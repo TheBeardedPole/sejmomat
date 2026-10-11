@@ -768,6 +768,7 @@ if (typeof document !== "undefined") (() => {
       const points = picked.map((mp, i) => (mp ? popularity(mp, slots[i].fits) : null));
       const score = slotScore(points), filled = points.filter((p) => p !== null).length;
       const names = (s) => s.cats.map((c) => c.label).join(" + ");
+      const votes = (mp) => mp.electionVotes.toLocaleString("pl-PL");
       const slot = (i, withConditions) => {
         const s = slots[i], mp = picked[i];
         const conditions = withConditions ? [s.title && h("span", { className: "slot-title", textContent: s.title }),
@@ -776,7 +777,8 @@ if (typeof document !== "undefined") (() => {
           return h("div", { className: "slot filled" }, [...conditions,
             h("img", { className: "thumb", src: PHOTO(mp.id), alt: "", referrerPolicy: "no-referrer" }),
             h("span", { className: "slot-name" }, [over ? mpLink(mp) : mp.name]),
-            h("span", { className: `pts ${rarityTier(points[i])}`, textContent: points[i], title: "Punkty popularności" })]);
+            h("span", { className: `pts ${rarityTier(points[i])}`, textContent: points[i],
+              title: `Punkty popularności: ${votes(mp)} głosów w wyborach` })]);
         }
         if (over) return h("div", { className: "slot missed" }, [...conditions, h("span", { className: "pts none", textContent: "100", title: "Puste miejsce" })]);
         const b = h("button", { type: "button", className: `slot open${i === active ? " active" : ""}`,
@@ -811,15 +813,17 @@ if (typeof document !== "undefined") (() => {
           ["Im mniej znany poseł, tym lepiej. Za każde miejsce dostajesz od 1 do 99 punktów popularności: ",
             tile("green", "mało znany"), " ", tile("yellow", "średnio"), " ", tile("orange", "bardzo znany"),
             ". Puste miejsce to 100 punktów. Liczy się jak najniższa suma."],
+          ["Skąd punkty? Z głosów, które posłowie zdobyli w wyborach do Sejmu w 2023 r. — nie z odpowiedzi innych graczy. Porównujemy tylko posłów pasujących do danego miejsca: ten z najmniejszą liczbą głosów dostaje około 1 punktu, ten z największą około 99."],
           [`Możesz się pomylić ${maxMistakes} razy. Zła odpowiedź nie zajmuje miejsca, ale zabiera jedną pomyłkę.`],
           ["Regiony to grupy sąsiednich województw (makroregiony GUS), np. Polska północna to pomorskie, kujawsko-pomorskie i warmińsko-mazurskie. Skład regionu zobaczysz po kliknięciu miejsca."],
           [`Koalicja rządząca to kluby: ${COALITION.map(clubShort).join(", ")}. Opozycja to pozostałe kluby i koła. Posłowie niezrzeszeni nie liczą się ani do koalicji, ani do opozycji.`],
           ["Nie znasz posłów z nazwiska? Przełącz „Poziom” na łatwy: przycisk „Lista posłów” otworzy listę wszystkich posłów pogrupowanych klubami."],
-        ], "Popularność liczymy z wyników wyborów do Sejmu, a nie z odpowiedzi graczy: wśród posłów pasujących do miejsca ten z największą liczbą głosów ma blisko 100 punktów, a ten z najmniejszą — blisko 0."),
+        ], "Liczba głosów to tylko przybliżenie rozpoznawalności: zależy też od wielkości okręgu i miejsca na liście."),
         marks(over ? "Pomyłki:" : `Pomyłki (${state.wrong.length} z ${maxMistakes}):`,
           Array.from({ length: maxMistakes }, (_, k) => (k < state.wrong.length ? "bad" : "todo"))),
         h("p", { className: "score-line" }, [h("strong", { textContent: `Wynik: ${score} pkt` }),
           h("span", { className: "muted", textContent: ` · im mniej, tym lepiej · obsadzone ${filled} z ${n}` })]),
+        h("p", { className: "muted points-source", textContent: "Punkty to popularność posła: im więcej głosów zdobył w wyborach 2023 r. na tle innych pasujących do miejsca, tym więcej punktów." }),
         board(slot),
         flash && h("p", { className: `result ${flash.ok ? "ok" : "bad"}`, textContent: flash.text }),
         !over && active >= 0 && h("p", { className: "picking" }, ["Szukasz posła, który pasuje do: ",
@@ -832,10 +836,10 @@ if (typeof document !== "undefined") (() => {
         over && share(game, [`Sejmdle ${label()} — ${shareName}${levelNote()}: ${score} pkt (im mniej, tym lepiej)`, raritySquares(points, perRow)]),
         // what the best answers were: the three least known MPs fitting each slot
         over && h("details", { className: "context" }, [
-          h("summary", { textContent: "Najrzadsze możliwe odpowiedzi" }),
+          h("summary", { textContent: "Najrzadsze możliwe odpowiedzi (z liczbą głosów w wyborach)" }),
           h("ul", { className: "answers" }, slots.map((s) => h("li", {}, [h("strong", { textContent: names(s) }),
             ` (pasujących posłów: ${s.fits.length}) — `,
-            ...[...s.fits].sort((a, b) => a.electionVotes - b.electionVotes).slice(0, 3).flatMap((m, k) => [k ? ", " : "", mpLink(m)])]))),
+            ...[...s.fits].sort((a, b) => a.electionVotes - b.electionVotes).slice(0, 3).flatMap((m, k) => [k ? ", " : "", mpLink(m), ` (${votes(m)})`])]))),
         ]),
         nextButton(game, over),
       );

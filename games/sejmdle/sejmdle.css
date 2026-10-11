@@ -208,7 +208,8 @@ dialog.picker input[type="search"]:focus { outline: none; border-color: var(--ac
 @media (max-width: 520px) { .club-col { flex-basis: 76vw; max-height: 52vh; } }
 
 /* Prezydium and Siatka: slots to fill, each with its conditions. */
-.score-line { text-align: center; margin: 0 0 10px; }
+.score-line { text-align: center; margin: 0 0 2px; }
+.points-source { text-align: center; margin: 0 0 10px; font-size: .82rem; }
 .slot { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; width: 100%; min-height: 124px;
   padding: 10px 8px; text-align: center; font: inherit; color: var(--text); background: var(--surface);
   border: 2px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); }
