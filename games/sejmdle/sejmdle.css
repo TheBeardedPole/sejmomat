@@ -1,9 +1,9 @@
 :root { --bg: #f6f5f1; --surface: #fff; --text: #1d1d1f; --muted: #6b6b70; --line: #e2dfd8; --accent: #1d5fc4;
-  --green: #2e8b57; --blue: #2779b8; --yellow: #c9930a; --grey: #85858c; --red: #b3261e;
+  --green: #2e8b57; --blue: #2779b8; --yellow: #c9930a; --orange: #cc5f1c; --grey: #85858c; --red: #b3261e;
   --ok-bg: #e3f3e9; --bad-bg: #fbe4e2; --shadow: 0 1px 2px rgb(0 0 0 / .06), 0 4px 14px rgb(0 0 0 / .05); }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #121214; --surface: #1c1c20; --text: #ececee; --muted: #9a9aa2; --line: #2f2f35; --accent: #7db8ff;
-    --green: #3aa56c; --blue: #3b8fd0; --yellow: #d6a51f; --grey: #5e5e66; --red: #ff6b60;
+    --green: #3aa56c; --blue: #3b8fd0; --yellow: #d6a51f; --orange: #e0752f; --grey: #5e5e66; --red: #ff6b60;
     --ok-bg: #173a28; --bad-bg: #462220; --shadow: 0 1px 2px rgb(0 0 0 / .4); }
 }
 /* native controls and scrollbars follow the light or dark theme */
@@ -94,6 +94,7 @@ table.grid td.name { background: var(--surface); color: var(--text); border: 1px
 td.green, .pill.green { background: var(--green); }
 td.blue, .pill.blue { background: var(--blue); }
 td.yellow, .pill.yellow { background: var(--yellow); }
+.pill.orange { background: var(--orange); }
 td.grey, .pill.grey { background: var(--grey); }
 .pill { display: inline-block; padding: 1px 9px; border-radius: 99px; color: #fff; font-size: .8rem; font-weight: 600; }
 /* The newest guess turns over, one tile after another. */
@@ -205,3 +206,42 @@ dialog.picker input[type="search"]:focus { outline: none; border-color: var(--ac
 .club-col .name:hover:not(:disabled) { background: var(--surface); color: var(--accent); }
 .club-col .name:disabled { opacity: .4; text-decoration: line-through; cursor: default; }
 @media (max-width: 520px) { .club-col { flex-basis: 76vw; max-height: 52vh; } }
+
+/* Prezydium and Siatka: slots to fill, each with its conditions. */
+.score-line { text-align: center; margin: 0 0 10px; }
+.slot { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; width: 100%; min-height: 124px;
+  padding: 10px 8px; text-align: center; font: inherit; color: var(--text); background: var(--surface);
+  border: 2px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); }
+button.slot { border-style: dashed; cursor: pointer; }
+button.slot:hover { border-color: var(--accent); }
+button.slot.active { border-style: solid; border-color: var(--accent); outline: 3px solid color-mix(in srgb, var(--accent) 30%, transparent); }
+.slot.missed { box-shadow: none; background: none; }
+.slot-title { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.slot-cond { font-size: .9rem; font-weight: 600; line-height: 1.25; }
+.slot-cond small { display: block; font-size: .74rem; font-weight: 400; color: var(--muted); }
+.slot-plus { font-size: 1.7rem; font-weight: 300; line-height: 1; color: var(--muted); }
+.slot .thumb { width: 44px; height: 55px; margin-top: 4px; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); }
+.slot-name { font-size: .86rem; font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }
+.pts { min-width: 2.4em; padding: 1px 8px; border-radius: 99px; color: #fff; font-size: .8rem; font-weight: 700; }
+.pts.green { background: var(--green); } .pts.yellow { background: var(--yellow); }
+.pts.orange { background: var(--orange); } .pts.none { background: var(--grey); }
+.picking { text-align: center; margin: 12px 0 0; }
+ul.answers { margin: 8px 0 0; padding-left: 20px; }
+ul.answers li { margin: 5px 0; }
+/* Prezydium: the Marshal alone in the first row, the deputies below. */
+.seats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 12px 0; }
+.seats > :first-child { grid-column: 1 / -1; justify-self: center; width: calc((100% - 16px) / 3); }
+/* Siatka: conditions along the top and down the side. */
+table.siatka { width: 100%; max-width: 600px; margin: 12px auto; table-layout: fixed; border-collapse: separate; border-spacing: 6px; }
+table.siatka th { padding: 2px; font-size: .8rem; font-weight: 700; line-height: 1.2; text-align: center; vertical-align: middle;
+  overflow-wrap: anywhere; hyphens: auto; }
+table.siatka td { padding: 0; }
+table.siatka .slot { min-height: 112px; padding: 6px 4px; }
+@media (max-width: 520px) {
+  .seats { grid-template-columns: repeat(2, 1fr); }
+  .seats > :first-child { width: calc((100% - 8px) / 2); }
+  table.siatka { border-spacing: 4px; }
+  table.siatka th { font-size: .7rem; }
+  table.siatka .slot { min-height: 104px; }
+  .slot-name { font-size: .78rem; }
+}

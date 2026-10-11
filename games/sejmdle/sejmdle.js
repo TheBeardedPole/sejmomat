@@ -1,4 +1,4 @@
-// Sejmdle: three daily games built on the Sejmomat JSON API (api/v1/games.json).
+// Sejmdle: five daily games built on the Sejmomat JSON API (api/v1/games.json).
 // No build step, no dependencies. Game logic is in pure functions at the top
 // (also exported for tests under Node); the DOM code is below.
 "use strict";
@@ -180,8 +180,148 @@ const whoPuzzle = (data, day, count = 5) => {
   return { mp, votes };
 };
 
+// ---- Prezydium and Siatka: slots to fill with MPs who fit their conditions
+
+// Short names of clubs, for lists and conditions.
+const CLUB_SHORT = { Polska2050: "Polska 2050", "PSL-TD": "PSL", RozwojPlus: "Rozwój Plus",
+  Demokracja: "Demokracja Bezpośrednia (Kukiz)", Konfederacja_KP: "Konfederacja Korony Polskiej" };
+const clubShort = (club) => CLUB_SHORT[club] || (club === "niez." ? "Niezrzeszeni" : club);
+// Clubs of the governing coalition. Every other club or group is the
+// opposition; MPs outside any club count as neither.
+const COALITION = ["KO", "Lewica", "Polska2050", "Centrum", "PSL-TD"];
+// Voivodeships grouped into the official statistical macro-regions (NUTS 1),
+// so that a condition is never about one small voivodeship.
+const MACRO_REGIONS = [
+  ["polnoc", "Polska północna", ["pomorskie", "kujawsko-pomorskie", "warmińsko-mazurskie"]],
+  ["polnocny-zachod", "Polska północno-zachodnia", ["zachodniopomorskie", "lubuskie", "wielkopolskie"]],
+  ["poludniowy-zachod", "Polska południowo-zachodnia", ["dolnośląskie", "opolskie"]],
+  ["poludnie", "Polska południowa", ["śląskie", "małopolskie"]],
+  ["centrum", "Polska centralna", ["łódzkie", "świętokrzyskie"]],
+  ["wschod", "Polska wschodnia", ["lubelskie", "podkarpackie", "podlaskie"]],
+  ["mazowsze", "Mazowsze", ["mazowieckie"]],
+];
+const CAT_MIN = 12;        // a condition needs at least this many MPs who meet it
+const COMMITTEE_MIN = 35;  // committees smaller than this are not used as conditions
+const committeeName = (entry) => entry.replace(/ \([^()]*\)$/, ""); // without "(przewodniczący)"
+
+const firstName = (mp) => mp.name.trim().split(/\s+/)[0];
+// Every condition an MP can meet: {id, kind, label, detail, test}. Conditions
+// of one family are never combined with each other; a family is a kind,
+// except that the coalition/opposition pair belongs with the clubs.
+const family = (kind) => (kind === "block" ? "club" : kind);
+const categories = (data) => {
+  const out = [];
+  const count = (items) => items.reduce((acc, k) => acc.set(k, (acc.get(k) || 0) + 1), new Map());
+  const add = (kind, key, label, detail, test) => {
+    if (data.mps.filter(test).length >= CAT_MIN) out.push({ id: `${kind}:${key}`, kind, label, detail, test });
+  };
+  const inClub = (m) => Boolean(m.club) && m.club !== "niez.";
+  add("block", "koalicja", "Koalicja rządząca", COALITION.map(clubShort).join(", "), (m) => COALITION.includes(m.club));
+  add("block", "opozycja", "Opozycja", "kluby i koła spoza koalicji rządzącej", (m) => inClub(m) && !COALITION.includes(m.club));
+  for (const club of count(data.mps.filter(inClub).map((m) => m.club)).keys()) {
+    add("club", club, `Klub: ${clubShort(club)}`, "", (m) => m.club === club);
+  }
+  for (const [key, label, voivodeships] of MACRO_REGIONS) {
+    add("region", key, label, voivodeships.join(", "), (m) => voivodeships.includes(m.voivodeship));
+  }
+  const born = (m) => Number(m.birthDate.slice(0, 4));
+  add("decade", "do-1959", "Urodzeni przed 1960", "", (m) => born(m) < 1960);
+  for (const d of [60, 70, 80]) {
+    add("decade", `19${d}`, `Urodzeni w latach ${d}.`, `19${d}–19${d + 9}`, (m) => born(m) >= 1900 + d && born(m) <= 1909 + d);
+  }
+  add("decade", "od-1990", "Urodzeni po 1989", "", (m) => born(m) >= 1990);
+  for (const letter of count(data.mps.map(surnameInitial)).keys()) {
+    add("initial", letter, `Nazwisko na ${letter}`, "", (m) => surnameInitial(m) === letter);
+  }
+  for (const name of count(data.mps.map(firstName)).keys()) {
+    add("name", name, `Imię: ${name}`, "", (m) => firstName(m) === name);
+  }
+  add("votes", "30", "Ponad 30 tys. głosów", "w wyborach do Sejmu w 2023 r.", (m) => m.electionVotes > 30000);
+  add("votes", "10", "Poniżej 10 tys. głosów", "w wyborach do Sejmu w 2023 r.", (m) => m.electionVotes < 10000);
+  const seats = (m) => m.committees || [];
+  add("committee", "prezydium", "Prezydium komisji", "przewodniczy komisji sejmowej albo jest zastępcą",
+    (m) => seats(m).some((c) => /\([^()]*przewodnicz[^()]*\)$/.test(c)));
+  for (const [name, size] of count(data.mps.flatMap((m) => seats(m).map(committeeName)))) {
+    if (size < COMMITTEE_MIN || name.length > 36 || /^(Nadzwyczajna|Śledcza)/.test(name)) continue;
+    add("committee", name, `Komisja ${name.replace(/^Do /, "do ")}`, "zasiada w tej komisji",
+      (m) => seats(m).some((c) => committeeName(c) === name));
+  }
+  return out;
+};
+const fitting = (data, cats) => data.mps.filter((m) => cats.every((c) => c.test(m)));
+
+// "Prezydium": seven seats, each with one or two conditions; the first seat
+// (the Marshal's) always has two. Every seat has at least as many fitting MPs
+// as there are seats, so all of them can be filled with different people.
+const SEATS = 7;
+const SEAT_KINDS = ["block", "club", "region", "region", "decade", "committee", "votes"]; // a seat's first condition
+const SEAT_SECOND_KINDS = ["block", "club", "region", "decade", "initial", "name"];       // one per family at most
+const seatsPuzzle = (data, seed, cats = categories(data)) => {
+  const shuffled = (items, key, salt) => dailyOrder(items, key, `${seed}|${salt}`, "prezydium");
+  const used = new Set(), seconds = new Set(), seats = [];
+  const free = (kinds, salt) => shuffled(cats.filter((c) => kinds.includes(c.kind) && !used.has(c.id)), (c) => c.id, salt);
+  shuffled(SEAT_KINDS.map((kind, i) => [kind, i]), (p) => String(p[1]), "kinds").forEach(([kind], i) => {
+    const first = free([kind], `a${i}`)[0] || free(SEAT_KINDS, `a${i}`)[0];
+    if (!first) return;
+    used.add(first.id);
+    const two = i === 0 || hash(`${seed}|prezydium|two|${i}`) % 2 === 0;
+    const second = two && free(SEAT_SECOND_KINDS.filter((k) => family(k) !== family(first.kind) && !seconds.has(family(k))), `b${i}`)
+      .find((c) => fitting(data, [first, c]).length >= SEATS);
+    if (second) { used.add(second.id); seconds.add(family(second.kind)); }
+    seats.push(second ? [first, second] : [first]);
+  });
+  return seats;
+};
+
+// "Siatka": three conditions down, three across; a field needs an MP who
+// meets both. The three of one side are of one family and no MP meets two
+// of them; with at least GRID_MIN fitting MPs in every field, the nine fields
+// can then always be filled with nine different people.
+const GRID_MIN = 3;
+const GRID_SIDE_KINDS = ["club", "club", "region", "region", "decade"]; // the side of one family
+const GRID_CROSS_KINDS = ["club", "region", "decade", "initial", "name", "votes", "committee"];
+const gridPuzzle = (data, seed, cats = categories(data)) => {
+  const shuffled = (items, key, salt) => dailyOrder(items, key, `${seed}|${salt}`, "siatka");
+  for (let attempt = 0; attempt < 300; attempt++) {
+    const kind = shuffled(GRID_SIDE_KINDS.map((k, i) => [k, i]), (p) => String(p[1]), `k${attempt}`)[0][0];
+    const side = [];
+    for (const c of shuffled(cats.filter((c) => family(c.kind) === kind), (c) => c.id, `s${attempt}`)) {
+      if (side.length < 3 && side.every((o) => fitting(data, [o, c]).length === 0)) side.push(c);
+    }
+    if (side.length < 3) continue;
+    // the other side: three conditions, each of another family
+    const cross = [];
+    for (const k of shuffled(GRID_CROSS_KINDS.filter((k) => k !== kind), (k) => k, `x${attempt}`)) {
+      const c = cross.length < 3 && shuffled(cats.filter((c) => family(c.kind) === k), (c) => c.id, `c${attempt}`)
+        .find((c) => side.every((o) => fitting(data, [o, c]).length >= GRID_MIN));
+      if (c) cross.push(c);
+    }
+    if (cross.length < 3) continue;
+    return hash(`${seed}|siatka|turn`) % 2 ? { rows: side, cols: cross } : { rows: cross, cols: side };
+  }
+  return null;
+};
+
+// How well known an MP is among those fitting the same slot, 1-99: the share
+// of them who got fewer votes in the election (with the MP counted as half).
+// There are no statistics of players' answers; the election result stands in
+// for them.
+const popularity = (mp, fits) => {
+  const below = fits.filter((m) => m.electionVotes < mp.electionVotes).length;
+  const level = fits.filter((m) => m.electionVotes === mp.electionVotes).length;
+  return Math.min(99, Math.max(1, Math.round((100 * (below + level / 2)) / Math.max(1, fits.length))));
+};
+// The score is the sum of the picks' popularity; an empty slot (null) costs 100.
+const slotScore = (points) => points.reduce((sum, p) => sum + (p === null ? 100 : p), 0);
+const rarityTier = (p) => (p === null ? "none" : p <= 33 ? "green" : p <= 66 ? "yellow" : "orange");
+const RARITY_SQUARE = { green: "🟩", yellow: "🟨", orange: "🟧", none: "⬜" };
+// The slots as squares, `perRow` to a line.
+const raritySquares = (points, perRow) => points.map((p, i) =>
+  (i && i % perRow === 0 ? "\n" : "") + RARITY_SQUARE[rarityTier(p)]).join("");
+
 if (typeof module !== "undefined") {
-  module.exports = { fold, hash, dailyOrder, warsawDay, age, years, compareMps, guessFeedback, guessSquares, whoSquares, SQUARE, regionHint, REGIONS, surnameOf, surnameFirst, voteOf, whoPuzzle, shortTitle, surnameInitial };
+  module.exports = { categories, family, fitting, seatsPuzzle, gridPuzzle, popularity, slotScore, rarityTier, raritySquares, firstName,
+    COALITION, MACRO_REGIONS, SEATS, GRID_MIN, fold, hash, dailyOrder, warsawDay, age, years, compareMps, guessFeedback, guessSquares, whoSquares, SQUARE, regionHint, REGIONS, surnameOf, surnameFirst, voteOf, whoPuzzle, shortTitle, surnameInitial };
 }
 
 // ------------------------------------------------------------------- DOM
@@ -256,9 +396,6 @@ if (typeof document !== "undefined") (() => {
     ...states.map((st) => h("span", { className: `mark ${st}` })),
   ]);
   const tile = (cls, text) => h("span", { className: `pill ${cls}`, textContent: text });
-  // Short names for the left-to-right list of clubs in the instructions.
-  const CLUB_SHORT = { Polska2050: "Polska 2050", "PSL-TD": "PSL", RozwojPlus: "Rozwój Plus",
-    Demokracja: "Demokracja Bezpośrednia (Kukiz)", Konfederacja_KP: "Konfederacja Korony Polskiej" };
   // Progress is kept per game and day, in this browser only.
   const load = (game) => {
     try { return JSON.parse(store.get(`sejmdle:${game}:${seedFor(game)}`) || "null"); } catch { return null; }
@@ -609,8 +746,137 @@ if (typeof document !== "undefined") (() => {
     render();
   };
 
+  // ---- 4. Prezydium and 5. Siatka
+  // One engine for both: slots, each with conditions and the MPs who fit
+  // them. A click picks a slot, a guess fills it; a wrong guess costs one of
+  // the allowed mistakes. The games differ in the puzzle and in `board`,
+  // which lays the slots out (`slot(i, withConditions)` gives one slot).
+  const playSlots = (data, { game, title, shareName, perRow, intro, slots, board }) => {
+    const n = slots.length, maxMistakes = n;
+    const saved = load(game);
+    // picks: an MP's id per slot (null = empty); wrong: "slot:id" of each wrong guess
+    const state = saved && Array.isArray(saved.picks) && saved.picks.length === n ? saved
+      : { picks: Array(n).fill(null), wrong: [], done: false };
+    const nextOpen = (from) => {
+      for (let k = 1; k <= n; k++) if (state.picks[(from + k) % n] === null) return (from + k) % n;
+      return -1;
+    };
+    let active = nextOpen(-1), flash = null;
+    const render = (focus) => {
+      const over = state.done;
+      const picked = state.picks.map((id) => (id === null ? null : data.byId.get(id) || null));
+      const points = picked.map((mp, i) => (mp ? popularity(mp, slots[i].fits) : null));
+      const score = slotScore(points), filled = points.filter((p) => p !== null).length;
+      const names = (s) => s.cats.map((c) => c.label).join(" + ");
+      const slot = (i, withConditions) => {
+        const s = slots[i], mp = picked[i];
+        const conditions = withConditions ? [s.title && h("span", { className: "slot-title", textContent: s.title }),
+          ...s.cats.map((c) => h("span", { className: "slot-cond" }, [c.label, c.detail ? h("small", { textContent: c.detail }) : null]))] : [];
+        if (mp) {
+          return h("div", { className: "slot filled" }, [...conditions,
+            h("img", { className: "thumb", src: PHOTO(mp.id), alt: "", referrerPolicy: "no-referrer" }),
+            h("span", { className: "slot-name" }, [over ? mpLink(mp) : mp.name]),
+            h("span", { className: `pts ${rarityTier(points[i])}`, textContent: points[i], title: "Punkty popularności" })]);
+        }
+        if (over) return h("div", { className: "slot missed" }, [...conditions, h("span", { className: "pts none", textContent: "100", title: "Puste miejsce" })]);
+        const b = h("button", { type: "button", className: `slot open${i === active ? " active" : ""}`,
+          onclick: () => { active = i; flash = null; render(true); } },
+          [...conditions, withConditions ? null : h("span", { className: "slot-plus", textContent: "+" })]);
+        b.setAttribute("aria-pressed", String(i === active));
+        b.setAttribute("aria-label", names(s));
+        return b;
+      };
+      const onGuess = (mp) => {
+        if (active < 0) return;
+        const s = slots[active];
+        if (state.picks.includes(mp.id)) {
+          flash = { ok: false, text: `${mp.name} ma już swoje miejsce. Każdy poseł może być użyty tylko raz.` };
+        } else if (s.fits.includes(mp)) {
+          state.picks[active] = mp.id;
+          flash = { ok: true, text: `${mp.name} pasuje: ${popularity(mp, s.fits)} pkt popularności.` };
+          active = nextOpen(active);
+        } else {
+          if (!state.wrong.includes(`${active}:${mp.id}`)) state.wrong.push(`${active}:${mp.id}`);
+          const failed = s.cats.filter((c) => !c.test(mp)).map((c) => c.label);
+          flash = { ok: false, text: `${mp.name} nie pasuje — ${failed.length > 1 ? "nie spełnia warunków" : "nie spełnia warunku"}: ${failed.join(", ")}.` };
+        }
+        if (!state.picks.includes(null) || state.wrong.length >= maxMistakes) state.done = true;
+        save(game, state);
+        render(true);
+      };
+      draw(
+        lead(title, game, [
+          ...intro,
+          ["Kliknij miejsce, a potem wpisz posła. Każdy poseł może być użyty tylko raz."],
+          ["Im mniej znany poseł, tym lepiej. Za każde miejsce dostajesz od 1 do 99 punktów popularności: ",
+            tile("green", "mało znany"), " ", tile("yellow", "średnio"), " ", tile("orange", "bardzo znany"),
+            ". Puste miejsce to 100 punktów. Liczy się jak najniższa suma."],
+          [`Możesz się pomylić ${maxMistakes} razy. Zła odpowiedź nie zajmuje miejsca, ale zabiera jedną pomyłkę.`],
+          ["Regiony to grupy sąsiednich województw (makroregiony GUS), np. Polska północna to pomorskie, kujawsko-pomorskie i warmińsko-mazurskie. Skład regionu zobaczysz po kliknięciu miejsca."],
+          [`Koalicja rządząca to kluby: ${COALITION.map(clubShort).join(", ")}. Opozycja to pozostałe kluby i koła. Posłowie niezrzeszeni nie liczą się ani do koalicji, ani do opozycji.`],
+          ["Nie znasz posłów z nazwiska? Przełącz „Poziom” na łatwy: przycisk „Lista posłów” otworzy listę wszystkich posłów pogrupowanych klubami."],
+        ], "Popularność liczymy z wyników wyborów do Sejmu, a nie z odpowiedzi graczy: wśród posłów pasujących do miejsca ten z największą liczbą głosów ma blisko 100 punktów, a ten z najmniejszą — blisko 0."),
+        marks(over ? "Pomyłki:" : `Pomyłki (${state.wrong.length} z ${maxMistakes}):`,
+          Array.from({ length: maxMistakes }, (_, k) => (k < state.wrong.length ? "bad" : "todo"))),
+        h("p", { className: "score-line" }, [h("strong", { textContent: `Wynik: ${score} pkt` }),
+          h("span", { className: "muted", textContent: ` · im mniej, tym lepiej · obsadzone ${filled} z ${n}` })]),
+        board(slot),
+        flash && h("p", { className: `result ${flash.ok ? "ok" : "bad"}`, textContent: flash.text }),
+        !over && active >= 0 && h("p", { className: "picking" }, ["Szukasz posła, który pasuje do: ",
+          ...slots[active].cats.flatMap((c, k) => [k ? " + " : "", h("strong", { textContent: c.label }), c.detail ? ` (${c.detail})` : ""])]),
+        !over && guessForm(data, onGuess, () => render(), state.picks.filter((id) => id !== null), "Wstawiam"),
+        !over && h("p", { className: "next" }, [h("button", { type: "button", className: "btn quiet", textContent: "Kończę — pokaż wynik",
+          onclick: () => { state.done = true; flash = null; save(game, state); render(); } })]),
+        over && h("p", { className: `result ${filled === n ? "ok" : "bad"}`,
+          textContent: filled === n ? `Komplet! Wynik: ${score} pkt.` : `Koniec gry. Wynik: ${score} pkt, obsadzone ${filled} z ${n}.` }),
+        over && share(game, [`Sejmdle ${label()} — ${shareName}${levelNote()}: ${score} pkt (im mniej, tym lepiej)`, raritySquares(points, perRow)]),
+        // what the best answers were: the three least known MPs fitting each slot
+        over && h("details", { className: "context" }, [
+          h("summary", { textContent: "Najrzadsze możliwe odpowiedzi" }),
+          h("ul", { className: "answers" }, slots.map((s) => h("li", {}, [h("strong", { textContent: names(s) }),
+            ` (pasujących posłów: ${s.fits.length}) — `,
+            ...[...s.fits].sort((a, b) => a.electionVotes - b.electionVotes).slice(0, 3).flatMap((m, k) => [k ? ", " : "", mpLink(m)])]))),
+        ]),
+        nextButton(game, over),
+      );
+      // after a click on a slot or a guess, typing can go on without another click
+      if (focus && !over && !easy) main.querySelector(".guess input")?.focus({ preventScroll: true });
+    };
+    render();
+  };
+  const noPuzzle = () => draw(h("p", { textContent: "Nie udało się ułożyć zagadki z dzisiejszych danych. Spróbuj ponownie później." }));
+  const allCategories = (data) => (data.cats ||= categories(data));
+
+  const playPrezydium = (data) => {
+    const seats = seatsPuzzle(data, seedFor("prezydium"), allCategories(data));
+    if (seats.length < SEATS) { noPuzzle(); return; }
+    playSlots(data, {
+      game: "prezydium", title: "Prezydium dnia", shareName: "Prezydium", perRow: SEATS,
+      intro: [[`Obsadź ${SEATS} miejsc w Prezydium Sejmu: marszałka i wicemarszałków. Na każde miejsce wskaż posła, który spełnia wszystkie podane przy nim warunki.`]],
+      slots: seats.map((cats, i) => ({ title: i ? "Wicemarszałek" : "Marszałek", cats, fits: fitting(data, cats) })),
+      board: (slot) => h("div", { className: "seats" }, seats.map((_, i) => slot(i, true))),
+    });
+  };
+
+  const playSiatka = (data) => {
+    const grid = gridPuzzle(data, seedFor("siatka"), allCategories(data));
+    if (!grid) { noPuzzle(); return; }
+    const { rows, cols } = grid;
+    const head = (c, scope) => { const th = h("th", { textContent: c.label, title: c.detail }); th.setAttribute("scope", scope); return th; };
+    playSlots(data, {
+      game: "siatka", title: "Siatka dnia", shareName: "Siatka", perRow: cols.length,
+      intro: [["Wypełnij 9 pól siatki. W każde pole wpisz posła, który pasuje jednocześnie do warunku ze swojego wiersza i ze swojej kolumny."]],
+      slots: rows.flatMap((r) => cols.map((c) => ({ cats: [r, c], fits: fitting(data, [r, c]) }))),
+      board: (slot) => h("table", { className: "siatka" }, [
+        h("thead", {}, [h("tr", {}, [h("td"), ...cols.map((c) => head(c, "col"))])]),
+        h("tbody", {}, rows.map((r, ri) => h("tr", {}, [head(r, "row"),
+          ...cols.map((_, ci) => h("td", {}, [slot(ri * cols.length + ci, false)]))]))),
+      ]),
+    });
+  };
+
   // ---- start
-  const GAMES = { posel: playPosel, przeszlo: playPrzeszlo, kim: playKim };
+  const GAMES = { posel: playPosel, przeszlo: playPrzeszlo, kim: playKim, prezydium: playPrezydium, siatka: playSiatka };
   const today = document.getElementById("today"), mode = document.getElementById("mode");
   let current = "posel";
   const showMode = () => {

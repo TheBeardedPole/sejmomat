@@ -101,12 +101,21 @@ files, and a template change means sending every one of them again.
 
 ## Sejmdle (games)
 
-`games/sejmdle/` holds three daily games (guess the MP, "Czy przeszło?",
-"Kim jestem?") as plain HTML/CSS/JS. They read `api/v1/games.json` and are
+`games/sejmdle/` holds five daily games (guess the MP, "Czy przeszło?",
+"Kim jestem?", "Prezydium", "Siatka") as plain HTML/CSS/JS. They read `api/v1/games.json` and are
 copied to `/sejmdle/` as a test bench. To host them elsewhere, copy the
 folder and point the two `<meta name="sejmomat-…">` tags in `index.html`
 at this site. The left-to-right order of clubs used by the first game is
 `CLUB_AXIS` in `sejmomat/api_out.py`.
+
+"Prezydium" (seven seats, each with one or two conditions) and "Siatka" (a
+3×3 grid of row and column conditions) ask for MPs who fit, and the less
+known the MP, the better. There are no statistics of players' answers: an
+MP's popularity is their rank by election votes among the MPs fitting the
+same slot. The conditions are built in `categories()` in `sejmdle.js`; the
+clubs of the governing coalition are `COALITION` and the groups of
+voivodeships are `MACRO_REGIONS` there — update `COALITION` when the
+coalition changes.
 
 ## Known limitations
 
