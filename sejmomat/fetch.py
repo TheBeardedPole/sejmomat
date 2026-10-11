@@ -68,6 +68,13 @@ def fetch_people():
     ])
     clubs = api.get("clubs")
     _write_json(DATA / "clubs.json", [{k: c.get(k) for k in ("id", "name")} for c in clubs])
+    # Committee membership (used by the games; "function" is set for chairs and deputies).
+    committees = api.get("committees") or []
+    _write_json(DATA / "committees.json", [
+        {"code": c.get("code"), "name": c.get("name"), "type": c.get("type"),
+         "members": [{"id": m["id"], "function": m.get("function")} for m in c.get("members") or []]}
+        for c in committees
+    ])
 
 
 def _referenced_prints():

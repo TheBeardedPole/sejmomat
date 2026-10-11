@@ -6,7 +6,7 @@ legal texts are in Polish as published by the Sejm.
 """
 import json
 
-from .config import SITE, TERM
+from .config import DATA, SITE, TERM
 
 VERSION = "v1"
 VOTE = {"Y": "yes", "N": "no", "A": "abstain", "X": "absent"}
@@ -169,9 +169,27 @@ def _game_context(item):
     return None
 
 
+def _committees_by_mp():
+    """{mp id: ["Finansów Publicznych (przewodniczący)", ...]}, standing committees first."""
+    path = DATA / "committees.json"
+    if not path.exists():
+        return {}
+    order = {"STANDING": 0, "EXTRAORDINARY": 1, "INVESTIGATIVE": 2}
+    out = {}
+    committees = json.loads(path.read_text(encoding="utf-8"))
+    for c in sorted(committees, key=lambda c: (order.get(c.get("type"), 3), c.get("name") or "")):
+        name = (c.get("name") or "").removeprefix("Komisja ")
+        name = name[:1].upper() + name[1:]
+        for m in c["members"]:
+            out.setdefault(m["id"], []).append(f"{name} ({m['function']})" if m.get("function") else name)
+    return out
+
+
 def _games(ctx):
     """Compact data for the Sejmdle games (see games/sejmdle)."""
+    committees = _committees_by_mp()
     mps = [{
+        "committees": committees.get(r["mp"]["id"], []),
         "id": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club"),
         "clubName": ctx["clubs"].get(r["mp"].get("club"), r["mp"].get("club")),
         "district": r["mp"].get("districtName"), "districtNum": r["mp"].get("districtNum"),

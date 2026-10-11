@@ -152,3 +152,5 @@ details.context summary { cursor: pointer; color: var(--muted); }
 .next { text-align: center; margin: 14px 0 0; }
 .btn.quiet { box-shadow: none; border-style: dashed; color: var(--muted); font-weight: 500; }
 .axis { font-weight: 600; }
+ul.committees { margin: 0; padding-left: 20px; font-size: 1rem; font-weight: 500; }
+ul.committees li { margin: 3px 0; }

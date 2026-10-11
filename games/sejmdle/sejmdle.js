@@ -36,6 +36,9 @@ const dailyOrder = (items, key, day, game) =>
 const warsawDay = (now = new Date()) =>
   new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Warsaw" }).format(now); // YYYY-MM-DD
 
+// "52 lata", "55 lat"
+const years = (n) => `${n} ${n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 100 <= 14) ? "lata" : "lat"}`;
+
 const age = (birthDate, day) => {
   const [y, m, d] = birthDate.split("-").map(Number);
   const [ty, tm, td] = day.split("-").map(Number);
@@ -103,7 +106,7 @@ const compareMps = (guess, target, axis, day) => {
         arrow: r.arrow,
       };
     })(),
-    age: num(age(guess.birthDate, day), age(target.birthDate, day), () => 5, (v) => `${v} lat`),
+    age: num(age(guess.birthDate, day), age(target.birthDate, day), () => 5, years),
     electionVotes: num(guess.electionVotes, target.electionVotes, (t) => t * 0.25, (v) => v.toLocaleString("pl-PL")),
     turnout: num(Math.round(guess.turnout * 1000) / 10, Math.round(target.turnout * 1000) / 10, () => 3,
       (v) => `${v.toLocaleString("pl-PL")}%`),
@@ -161,7 +164,7 @@ const whoPuzzle = (data, day, count = 5) => {
 };
 
 if (typeof module !== "undefined") {
-  module.exports = { fold, hash, dailyOrder, warsawDay, age, compareMps, guessFeedback, regionHint, REGIONS, voteOf, whoPuzzle, shortTitle, surnameInitial };
+  module.exports = { fold, hash, dailyOrder, warsawDay, age, years, compareMps, guessFeedback, regionHint, REGIONS, voteOf, whoPuzzle, shortTitle, surnameInitial };
 }
 
 // ------------------------------------------------------------------- DOM
@@ -393,12 +396,19 @@ if (typeof document !== "undefined") (() => {
   // turn) what that guess had in common with the target and the next clue.
   const playKim = (data) => {
     const { mp, votes } = whoPuzzle(data, seedFor("kim"));
+    // Region is left to the feedback on wrong guesses (with its compass
+    // arrow), so the clues say something else: age, committees, club, photo.
+    // The committee clue is skipped if the data file has no committee lists
+    // at all (an older data file), rather than claiming the MP sits on none.
+    const committees = mp.committees;
     const HINTS = [
-      ["Województwo", () => mp.voivodeship],
-      ["Okręg", () => mp.district],
+      ["Wiek", () => years(age(mp.birthDate, DAY))],
+      committees && ["Komisje sejmowe", () => (committees.length
+        ? h("ul", { className: "committees" }, committees.map((c) => h("li", { textContent: c })))
+        : "Nie zasiadam w żadnej komisji sejmowej.")],
       ["Klub", () => mp.clubName],
       ["Zdjęcie", () => h("img", { className: "photo", src: PHOTO(mp.id), alt: "Zdjęcie posła", referrerPolicy: "no-referrer" })],
-    ];
+    ].filter(keep);
     const max = HINTS.length + 1;
     const saved = load("kim");
     // steps: "hint" for a skipped turn, or the id of a wrongly guessed MP
@@ -437,7 +447,7 @@ if (typeof document !== "undefined") (() => {
           ["Zgadnij, kto to. Po złej odpowiedzi zobaczysz, czy trafiłeś(-aś) klub lub region: ",
             tile("green", "ten sam klub"), " ", tile("yellow", "to samo lub sąsiednie województwo"), " ", tile("grey", "nic wspólnego")],
           ["Jeśli województwo się nie zgadza, strzałka-kompas pokaże, w którą stronę na mapie leży właściwe (↑ północ, → wschód)."],
-          ["Każda zła odpowiedź i każde „Pomiń” odsłania kolejną podpowiedź: województwo, okręg, klub, zdjęcie."],
+          ["Każda zła odpowiedź i każde „Pomiń” odsłania kolejną podpowiedź: wiek, komisje sejmowe, klub, zdjęcie."],
           [`Zaczynasz z ${max} punktami, a każdy taki krok zabiera jeden.`],
         ]),
         marks("Punkty:", Array.from({ length: max }, (_, k) => (!state.lost && k < points) ? (state.won ? "ok" : "used") : "todo")),
