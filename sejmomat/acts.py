@@ -701,7 +701,12 @@ def _rows_diff(old, new):
             continue
         i, j = i1, j1
         while i < i2 or j < j2:
-            if i < i2 and j < j2 and difflib.SequenceMatcher(None, ka[i], kb[j]).ratio() >= 0.5:
+            # word-level similarity (character-level matching treats common
+            # letters in long lines as junk and underrates them)
+            # A lone old line against a lone new line is the same unit reworded.
+            lone = i2 - i1 == 1 and j2 - j1 == 1
+            if i < i2 and j < j2 and (lone or difflib.SequenceMatcher(
+                    None, ka[i].split(), kb[j].split(), autojunk=False).ratio() >= 0.4):
                 row(new[j][0], "changed", word_diff_html(a[i], b[j]))
                 i, j = i + 1, j + 1
             elif i < i2 and (j >= j2 or (i2 - i) >= (j2 - j)):
@@ -773,12 +778,26 @@ def rows_html(rows):
 
 def compare(articles, op):
     """{"where", "op", "rows", "html", "found"} for one parsed instruction, in context."""
-    path = op["path"]
-    unit = lookup(articles, path) if articles and path else None
-    nested_parent = None
-    if unit is None and articles and op.get("tokens"):
-        unit, nested_parent = resolve(articles, op["tokens"])
-    where = where_label(op.get("tokens") or path) if nested_parent is not None else where_label(path)
+    path, toks = op["path"], op.get("tokens") or []
+    # An address that steps back up a level ("w art. 1 w pkt 1, w lit. a pkt 2")
+    # usually does not restart: its tail points into the provision quoted by
+    # the unit reached so far, which only resolve() can follow. Tried first,
+    # because the flattened path (art. 1 pkt 2) can match an unrelated unit;
+    # that path remains the fallback for plain enumerations
+    # ("w ust. 2 pkt 1 oraz w ust. 3").
+    stepped = any(_RANK[b[0]] < _RANK[a[0]] for a, b in zip(toks, toks[1:]))
+    unit, nested_parent, nested = None, None, False
+    if articles and stepped:
+        unit, nested_parent = resolve(articles, toks)
+        nested = unit is not None
+    if unit is None and articles and path:
+        unit = lookup(articles, path)
+        if unit is None and toks and not stepped:
+            unit, nested_parent = resolve(articles, toks)
+            nested = unit is not None
+    if nested:
+        path = toks
+    where = where_label(toks) if nested else where_label(path)
     found = unit is not None
     if op["op"] == "add":
         new_rows = [{"depth": d, "state": "added", "html": escape(t)} for d, t in split_units(op["new"])]

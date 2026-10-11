@@ -27,7 +27,7 @@ def word_diff_html(old, new):
     a, b = _TOKEN_RE.findall(old), _TOKEN_RE.findall(new)
     matcher = difflib.SequenceMatcher(None, a, b, autojunk=False)
     whole = f"<del>{escape(old)}</del> <ins>{escape(new)}</ins>" if old else f"<ins>{escape(new)}</ins>"
-    if matcher.ratio() < 0.5:
+    if matcher.ratio() < 0.35:
         return whole
     # Merge changes separated only by whitespace into one del/ins pair.
     ops = []
