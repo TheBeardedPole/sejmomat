@@ -8,6 +8,7 @@ from datetime import datetime
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import analysis, authors
+from .stamp import stamp
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM
 from .i18n import LANGS, date_fmt, pct_fmt, translator
 from .acts import bill_changes
@@ -532,6 +533,7 @@ def run():
     # Sejmdle: self-contained games that read the JSON API (test bench here;
     # the folder can be served from another host by changing its API address).
     shutil.copytree(ROOT / "games" / "sejmdle", SITE / "sejmdle")
+    stamp(SITE / "sejmdle")  # so a new script or stylesheet loads at once, despite CDN caching
 
     pages = list(_pages(ctx))
     for lang in LANGS:

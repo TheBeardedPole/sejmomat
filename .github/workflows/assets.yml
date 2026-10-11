@@ -30,6 +30,7 @@ jobs:
             .github
             static
             games
+            sejmomat
       - name: Copy static files and games over SSH (rsync)
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
@@ -41,6 +42,9 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL }}
         run: |
           source .github/ssh-setup.sh
+          # as in the build: the games page loads its script and styles by
+          # content version, so the new ones show at once despite CDN caching
+          python3 -m sejmomat.stamp games/sejmdle
           # same layout as the build: static/ -> /static/, games/sejmdle/ -> /sejmdle/
           rsync --recursive --checksum --compress --delete --itemize-changes \
             -e "$RSYNC_SSH" static/ "$SSH_TARGET:${SSH_DIR}static/"
