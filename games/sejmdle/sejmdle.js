@@ -291,7 +291,7 @@ if (typeof document !== "undefined") (() => {
     })).filter((g) => g.mps.length));
   // `used`: ids already guessed (greyed out in the grid); `rerender` redraws the game after a level change.
   const guessForm = (data, onGuess, rerender, used = [], label = "Zgaduję") => {
-    const input = h("input", { type: "text", placeholder: easy ? "Wpisz nazwisko albo wybierz z listy poniżej…" : "Imię i nazwisko posła…", autocomplete: "off" });
+    const input = h("input", { type: "text", placeholder: easy ? "Wpisz nazwisko albo otwórz listę posłów…" : "Imię i nazwisko posła…", autocomplete: "off" });
     input.setAttribute("list", "mp-names");
     const msg = h("span", { className: "muted" });
     const submit = () => {
