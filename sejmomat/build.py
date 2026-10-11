@@ -1,4 +1,5 @@
 """Render the static site from data/ into site/."""
+import hashlib
 import json
 import re
 import shutil
@@ -453,6 +454,20 @@ def sitting_name(lang):
     return name
 
 
+def asset_version():
+    """Content version of the shared stylesheet and script.
+
+    Pages load them as "static/app.js?v=<this>". The host's CDN keeps scripts
+    and styles for a while (and once kept them for a week), so without a
+    version in the address visitors could get an old script long after a
+    deploy. Changing either file changes the address in every page.
+    """
+    digest = hashlib.sha256()
+    for name in ("style.css", "app.js"):
+        digest.update((STATIC / name).read_bytes())
+    return digest.hexdigest()[:10]
+
+
 def _env(lang):
     env = Environment(
         loader=FileSystemLoader(TEMPLATES),
@@ -466,7 +481,7 @@ def _env(lang):
     # Proposer labels are data, except these two.
     env.filters["who"] = lambda name: t(name) if name in ("Senat", "(nieustalony)") else name
     env.globals.update(
-        _=t, lang=lang, SITE_URL=SITE_URL,
+        _=t, lang=lang, SITE_URL=SITE_URL, asset_version=asset_version(),
         sitting_name=sitting_name(lang), term_name=f"{TERM}. kadencja" if lang == "pl" else f"{TERM}th term",
         anchor=anchor, source_items=source_items, print_paragraphs=print_paragraphs, print_too_big=print_too_big,
         VOTE_LABEL=VOTE_LABEL, LINE_LABEL=LINE_LABEL, MAJORITY_LABEL=MAJORITY_LABEL, KIND_LABEL=KIND_LABEL,

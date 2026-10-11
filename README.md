@@ -84,6 +84,14 @@ Changes to `static/` (styles, scripts) or `games/` do not need the full
 run: pushing them to `main` starts "Szybka publikacja (style, skrypty, gry)",
 which copies just those folders to the host in well under a minute.
 
+Caching: HTML is sent with `Cache-Control: no-cache` (always revalidated),
+while scripts and styles are cached for 10 minutes by browsers and the
+host's CDN. Pages name them by content version (`app.js?v=<hash>`), so
+after a full build the new files load at once. After the fast path alone,
+the main site's pages still carry the previous version and pick up the new
+script within about 10-20 minutes; the games page is re-stamped by the fast
+path and updates immediately.
+
 The build also writes `.htaccess` files for Apache/LiteSpeed hosts: CORS
 for `/api/` (so other sites can use the JSON API) and compression.
 

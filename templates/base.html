@@ -21,7 +21,7 @@
 <meta property="og:locale" content="{{ 'pl_PL' if lang == 'pl' else 'en_GB' }}">
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#b3122e">
-<link rel="stylesheet" href="{{ site_root }}static/style.css">
+<link rel="stylesheet" href="{{ site_root }}static/style.css?v={{ asset_version }}">
 {% block head %}{% endblock %}
 </head>
 <body>
@@ -54,6 +54,6 @@
   <a href="https://github.com/TheBeardedPole/sejmomat">{{ _("Kod źródłowy") }}</a> (GNU GPL v3) ·
   ☕ {{ _("Wesprzyj projekt") }}: <a href="https://buycoffee.to/adamkoscielak">buycoffee.to/adamkoscielak</a>
 </footer>
-<script src="{{ site_root }}static/app.js" defer></script>
+<script src="{{ site_root }}static/app.js?v={{ asset_version }}" defer></script>
 </body>
 </html>
