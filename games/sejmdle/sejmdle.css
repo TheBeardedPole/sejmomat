@@ -1,7 +1,7 @@
-:root { --bg: #fbfaf8; --surface: #fff; --text: #1d1d1f; --muted: #6b6b70; --line: #e4e2dd; --accent: #b3122e;
+:root { --bg: #fbfaf8; --surface: #fff; --text: #1d1d1f; --muted: #6b6b70; --line: #e4e2dd; --accent: #1d5fc4;
   --green: #2e8b57; --yellow: #d9a514; --grey: #8a8a8f; --red: #b3261e; }
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #141416; --surface: #1c1c1f; --text: #ececee; --muted: #9a9aa2; --line: #2e2e33; --accent: #ff5a6e; }
+  :root { --bg: #141416; --surface: #1c1c1f; --text: #ececee; --muted: #9a9aa2; --line: #2e2e33; --accent: #7db8ff; }
 }
 * { box-sizing: border-box; }
 body { margin: 0 auto; max-width: 860px; padding: 16px; background: var(--bg); color: var(--text);
