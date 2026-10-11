@@ -83,6 +83,15 @@ Site-wide extras (consent bar, support links, footer privacy links) are
 added by `static/app.js`, not the page template: the site is ~18,000 HTML
 files, and a template change means sending every one of them again.
 
+## Sejmdle (games)
+
+`games/sejmdle/` holds three daily games (guess the MP, "Czy przeszło?",
+"Kim jestem?") as plain HTML/CSS/JS. They read `api/v1/games.json` and are
+copied to `/sejmdle/` as a test bench. To host them elsewhere, copy the
+folder and point the two `<meta name="sejmomat-…">` tags in `index.html`
+at this site. The left-to-right order of clubs used by the first game is
+`CLUB_AXIS` in `sejmomat/api_out.py`.
+
 ## Known limitations
 
 - Amendment votes on items moved directly in the chamber (no printed report)

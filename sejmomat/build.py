@@ -8,7 +8,7 @@ from datetime import datetime
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import analysis
-from .config import DATA, SITE, SITE_URL, STATIC, TEMPLATES, TERM
+from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM
 from .i18n import LANGS, date_fmt, pct_fmt, translator
 from .acts import bill_changes
 from .api_out import write_api
@@ -502,6 +502,9 @@ def run():
     (SITE / "static").mkdir(parents=True)
     for f in STATIC.iterdir():
         shutil.copy(f, SITE / "static" / f.name)
+    # Sejmdle: self-contained games that read the JSON API (test bench here;
+    # the folder can be served from another host by changing its API address).
+    shutil.copytree(ROOT / "games" / "sejmdle", SITE / "sejmdle")
 
     pages = list(_pages(ctx))
     for lang in LANGS:

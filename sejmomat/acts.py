@@ -42,10 +42,49 @@ _UST_FOOTNOTE_RE = re.compile(r"^(\s*(?:Art\.\s*\d+[a-z]*\.\s*)?(?:§\s*)?\d+[a-
 _TIRET_FOOTNOTE_RE = re.compile(r"^(\s*[–-])\d+\)(?=\s)")
 
 
+_FN_LINE_RE = re.compile(r"^\s*(\d{1,3})\)\s+[A-ZĄĆĘŁŃÓŚŹŻ(„]")
+_LABEL_LINE_RE = re.compile(r"^\s*(\d{1,3})\)\s")
+# reference mark at the end of a line: "do:48)", "(utracił moc)22)"
+_TRAILING_REF_RE = re.compile(r"(?<=[:;,.)”])\d{1,3}\)\s*$")
+
+
+def _footnote_start(page, last_fn):
+    """Index in `page` where its footnotes begin (len(page) if none).
+
+    Footnotes close the page: a block set off by a blank line, whose entries
+    are numbered upwards from the last footnote seen in the document. That
+    tells them from points ("1) ...") of the law itself, whatever they say.
+    """
+    for i, line in enumerate(page):
+        m = _FN_LINE_RE.match(line)
+        if not m or not (last_fn < int(m[1]) <= last_fn + 60):
+            continue
+        if i and page[i - 1].strip():
+            continue
+        prev, ok = int(m[1]), True
+        for later in page[i + 1:]:
+            if lm := _LABEL_LINE_RE.match(later):
+                if int(lm[1]) <= prev or int(lm[1]) > prev + 20:
+                    ok = False
+                    break
+                prev = int(lm[1])
+        if ok:
+            return i, prev
+    return len(page), last_fn
+
+
 def clean_act_text(text, bill=False):
     """Lines of an act (or of the bill attached to a committee report) with
     page furniture and footnotes removed."""
-    lines = text.replace("\f", "\n").splitlines()
+    pages = [p.splitlines() for p in text.split("\f")]
+    if not bill:
+        # Dziennik Ustaw: drop each page's footnote block before anything else
+        kept, last_fn = [], 0
+        for page in pages:
+            end, last_fn = _footnote_start(page, last_fn)
+            kept.append(page[:end])
+        pages = kept
+    lines = [line for page in pages for line in page]
     if bill:
         # reports put the bill after a "Projekt" heading
         start = next((i for i, l in enumerate(lines) if re.fullmatch(r"\s*Projekt\s*", l)), None)
@@ -76,6 +115,8 @@ def clean_act_text(text, bill=False):
         line = _ART_FOOTNOTE_RE.sub(r"\1", line)
         line = _UST_FOOTNOTE_RE.sub(r"\1", line)
         line = _TIRET_FOOTNOTE_RE.sub(r"\1", line)
+        if not bill:
+            line = _TRAILING_REF_RE.sub("", line)
         out.append(line.replace(",,", "„").rstrip())
     return out
 
@@ -300,7 +341,10 @@ def _split(lines, marker):
 
 _NUM_MARK = re.compile(r"^\s*(\d+[a-z]*)\)\s*")
 _LIT_MARK = re.compile(r"^\s*([a-z]{1,2})\)\s*")
-_TIRET_MARK = re.compile(r"^\s*([–-])\s+")
+# "– w pkt 2:" and, one level down, "– – lit. c otrzymuje brzmienie"
+_TIRET_MARK = re.compile(r"^\s*([–-])\s+(?![–-]\s)")
+_TIRET2_MARK = re.compile(r"^\s*([–-]\s+[–-])\s+(?![–-]\s)")
+_TIRET3_MARK = re.compile(r"^\s*([–-]\s+[–-]\s+[–-])\s+")
 
 
 def _flat(lines):
@@ -326,13 +370,13 @@ def instructions(lines):
             if items:
                 head_text = _flat(head)
                 for sub, sub_lines in items:
-                    walk(sub_lines, f"{label}{sub if sub not in '–-' else '–'}",
+                    walk(sub_lines, f"{label}{'–' * len(re.findall('[–-]', sub)) or sub}",
                          f"{ctx} {head_text}".strip(), markers[1:])
                 return
             return walk(lines, label, ctx, markers[1:])
         out.append((label, ctx, _flat(lines)))
 
-    walk(lines, "", "", [_NUM_MARK, _LIT_MARK, _TIRET_MARK])
+    walk(lines, "", "", [_NUM_MARK, _LIT_MARK, _TIRET_MARK, _TIRET2_MARK, _TIRET3_MARK])
     return out
 
 

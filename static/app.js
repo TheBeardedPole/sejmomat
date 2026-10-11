@@ -115,6 +115,8 @@ revealTarget();
 const LANG = document.documentElement.lang === "en" ? "en" : "pl";
 const ROOT = (document.querySelector(".brand")?.getAttribute("href") || "index.html").replace(/index\.html$/, "");
 const COFFEE_URL = "https://buycoffee.to/adamkoscielak";
+// ROOT is the language root ("" or "en/" level); the games live at the site root.
+const SITE_ROOT = LANG === "en" ? `${ROOT}../` : ROOT;
 const T = {
   pl: {
     privacy: "Prywatność", consentSettings: "Ustawienia zgody",
@@ -232,6 +234,8 @@ document.body.append(
   h("a", { className: "support-pill", href: COFFEE_URL, target: "_blank", rel: "noopener", textContent: `☕ ${T.support}` }),
   consentBar,
 );
+// Link to the games (kept out of the page template for the same reason).
+document.querySelector("header.top nav")?.append(h("a", { href: `${SITE_ROOT}sejmdle/`, textContent: "Sejmdle" }));
 const foot = document.querySelector("footer.foot");
 if (foot) {
   const settings = h("a", { href: "#", textContent: T.consentSettings });

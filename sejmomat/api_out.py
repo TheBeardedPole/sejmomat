@@ -84,7 +84,7 @@ def write_api(ctx, generated):
         "sittings": "sittings.json", "sitting": "sittings/{sitting}.json",
         "vote": "votes/{sitting}/{votingNumber}.json", "bills": "bills.json", "bill": "bills/{print}.json",
         "mps": "mps.json", "mp": "mps/{id}.json", "clubs": "clubs.json", "print": "prints/{print}.json",
-        "adoptedAmendments": "adopted-amendments.json",
+        "adoptedAmendments": "adopted-amendments.json", "games": "games.json",
     }
     _write("index.json", {"version": VERSION, "term": TERM, "generated": generated, "endpoints": endpoints,
                           "source": "https://api.sejm.gov.pl", "documentation": "../../api.html"})
@@ -127,12 +127,63 @@ def write_api(ctx, generated):
                  for kind, report in (ctx["sources"].get(num) or {}).items()}
         _write(f"prints/{num}.json", {"number": num, "title": meta.get("title"), "date": meta.get("documentDate"),
                                       "processPrint": meta.get("processPrint"), "items": items})
+    _write("games.json", _games(ctx))
     _write("adopted-amendments.json", {
         "byProposer": ctx["proposers"],
         "byMp": ctx["mp_proposers"],
         "votes": [{"sitting": row["v"]["sitting"], "votingNumber": row["v"]["votingNumber"],
                    "proposer": row["proposer"]} for row in ctx["adopted"]],
     })
+
+
+# Left-to-right order of clubs for the guessing game. An editorial judgment,
+# not data: adjust here. Clubs not listed (and independents) have no position.
+CLUB_AXIS = ["Razem", "Lewica", "KO", "Polska2050", "Centrum", "PSL-TD", "Demokracja",
+             "Republikanie", "RozwojPlus", "PiS", "Konfederacja", "Konfederacja_KP"]
+GAME_TEXT_MAX = 700
+GAME_FINALS = 150
+
+
+def _games(ctx):
+    """Compact data for the Sejmdle games (see games/sejmdle)."""
+    mps = [{
+        "id": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club"),
+        "clubName": ctx["clubs"].get(r["mp"].get("club"), r["mp"].get("club")),
+        "district": r["mp"].get("districtName"), "districtNum": r["mp"].get("districtNum"),
+        "voivodeship": r["mp"].get("voivodeship"), "birthDate": r["mp"].get("birthDate"),
+        "education": r["mp"].get("educationLevel"), "electionVotes": r["mp"].get("numberOfVotes"),
+        "turnout": round(r["turnout"], 4), "brokeLine": r["rebel_count"],
+    } for r in ctx["mp_rows"] if r["mp"].get("active") and r["mp"].get("birthDate")]
+    votes = sorted(ctx["by_id"].values(), key=lambda v: (v["date"], v["votingNumber"]))
+
+    def bill_title(v):
+        bill = ctx["bill_by_root"].get(v["bill"])
+        return (bill["title"] if bill else v["agenda"]).rstrip(".")
+
+    amendments = []
+    for v in votes:
+        if len(v["amendments"]) != 1 or not v["amendments"][0]["item"]:
+            continue
+        a = v["amendments"][0]
+        text = a["item"]["text"]
+        if not 60 <= len(text) <= GAME_TEXT_MAX:
+            continue
+        amendments.append({
+            "s": v["sitting"], "n": v["votingNumber"], "date": v["date"][:10], "kind": a["kind"],
+            "text": text, "adopted": v["outcome_class"] == "adopted", "proposer": v["proposer"]["label"],
+            "bill": bill_title(v), "yes": v["yes"], "no": v["no"],
+        })
+    finals = []
+    for v in votes:
+        if not v["motion"] or v["motion"][0] != "final" or min(v["yes"], v["no"]) < 60:
+            continue
+        merged = {}
+        for groups in v["ballots"].values():
+            for code, ids in groups.items():
+                merged.setdefault(VOTE[code], []).extend(ids)
+        finals.append({"s": v["sitting"], "n": v["votingNumber"], "date": v["date"][:10],
+                       "title": bill_title(v), "passed": v["passed"], "votes": merged})
+    return {"clubAxis": CLUB_AXIS, "mps": mps, "amendments": amendments, "finals": finals[-GAME_FINALS:]}
 
 
 def _mp(r, full):

@@ -92,7 +92,7 @@ code { font-size: .9em; }
 .rows .r-removed { background: var(--del-bg); text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--n) 60%, transparent); }
 .rows .r-changed { border-left: 3px solid var(--a); }
 .r-legend { white-space: nowrap; }
-.support-note { position: fixed; right: 16px; bottom: 60px; z-index: 10; width: min(320px, calc(100vw - 32px));
+.support-note { position: fixed; right: 16px; bottom: 68px; z-index: 10; width: min(320px, calc(100vw - 32px));
   background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px;
   box-shadow: 0 6px 24px rgb(0 0 0 / .18); font-size: .9rem; }
 .support-note p { margin: 0 0 8px; }
@@ -109,12 +109,12 @@ code { font-size: .9em; }
 .consent-actions button { font: inherit; padding: 4px 12px; border-radius: 6px; border: 1px solid var(--line);
   background: var(--bg); color: var(--text); cursor: pointer; }
 @media print { .consent-bar { display: none; } }
-.support-pill { position: fixed; right: 16px; bottom: 16px; z-index: 9; padding: 5px 12px; border-radius: 99px;
-  background: var(--surface); border: 1px solid var(--line); color: var(--text); font-size: .85rem;
+.support-pill { position: fixed; right: 16px; bottom: 16px; z-index: 9; padding: 8px 16px; border-radius: 99px;
+  background: var(--surface); border: 1px solid var(--line); color: var(--text); font-size: .95rem; font-weight: 600;
   box-shadow: 0 2px 8px rgb(0 0 0 / .12); opacity: .85; }
 .support-pill:hover { opacity: 1; text-decoration: none; border-color: var(--accent); }
-.foot { padding-bottom: 64px; }
-@media (max-width: 600px) { .consent-bar { bottom: 60px; } }
+.foot { padding-bottom: 72px; }
+@media (max-width: 600px) { .consent-bar { bottom: 68px; } }
 @media print { .support-pill { display: none; } }
 .law-index { margin: 8px 0 12px; font-size: .9rem; }
 .law-index p { margin: 0 0 6px; }
@@ -122,3 +122,5 @@ code { font-size: .9em; }
 .law-change:target, details.law:target > summary { outline: 2px solid var(--accent); outline-offset: 2px; }
 .law-change, details.law { scroll-margin-top: 12px; }
 .filters input[type="search"] { font: inherit; padding: 4px 8px; min-width: min(280px, 100%); background: var(--surface); color: var(--text); border: 1px solid var(--line); border-radius: 6px; }
+.mp-head { display: flex; gap: 16px; align-items: flex-start; }
+.mp-photo { width: 96px; height: 120px; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); flex: none; }

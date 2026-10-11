@@ -4,10 +4,17 @@
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
 <div class="crumbs"><a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a></div>
+<div class="mp-head">
+  {# photo served by the Sejm's API, not copied to this site #}
+  <img class="mp-photo" src="https://api.sejm.gov.pl/sejm/term{{ TERM }}/MP/{{ r.mp.id }}/photo" alt="{{ r.mp.firstLastName }}"
+       width="96" height="120" loading="lazy" referrerpolicy="no-referrer">
+  <div>
 <h1>{{ r.mp.firstLastName }}</h1>
 <p class="muted"><a href="{{ root }}klub/{{ club_slug(r.mp.club) }}.html">{{ clubs.get(r.mp.club, r.mp.club) }}</a>{% if r.mp.districtName %} · {{ _("okręg") }} {{ r.mp.districtName }}{% endif %}
 {% if r.history | length > 1 %} · {{ _("w tej kadencji w klubach") }}: {{ r.history | map(attribute="club") | join(" → ") }}{% endif %}
 {% if not r.mp.active %} · {{ _("mandat wygasły") }}{% endif %}</p>
+  </div>
+</div>
 
 <div class="grid">
   <div class="card stat"><b>{{ r.turnout | pct }}</b>{{ _("udział w głosowaniach") }} ({{ r.cast }} {{ _("z") }} {{ r.eligible }})</div>

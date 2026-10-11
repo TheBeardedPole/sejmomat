@@ -62,7 +62,8 @@ def fetch_sittings():
 def fetch_people():
     mps = api.get("MP")
     _write_json(DATA / "mps.json", [
-        {k: m.get(k) for k in ("id", "firstLastName", "club", "active", "districtName")}
+        {k: m.get(k) for k in ("id", "firstLastName", "club", "active", "districtName", "districtNum",
+                               "voivodeship", "birthDate", "educationLevel", "profession", "numberOfVotes")}
         for m in mps
     ])
     clubs = api.get("clubs")
