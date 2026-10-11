@@ -578,7 +578,12 @@ def run():
         "<IfModule mod_expires.c>\n  ExpiresActive On\n"
         + "".join(f'  ExpiresByType {t} "access plus 10 minutes"\n' for t in (
             "text/css", "application/javascript", "application/x-javascript", "text/javascript"))
-        + "</IfModule>\n")
+        + "</IfModule>\n"
+        # Pages are checked with the server on every visit (an unchanged page
+        # costs a short "not modified" answer). Without this, browsers guess
+        # how long to keep a page and can show an old one after a deploy.
+        '<IfModule mod_headers.c>\n  <FilesMatch "\\.html$">\n'
+        '    Header set Cache-Control "no-cache"\n  </FilesMatch>\n</IfModule>\n')
 
     _write_sitemap([p for _, p, _ in pages])
     robots = "User-agent: *\nAllow: /\n"

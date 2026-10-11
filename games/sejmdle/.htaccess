@@ -1,0 +1,8 @@
+# The page is checked with the server on every visit (an unchanged page costs
+# only a short "not modified" answer). It names its script and stylesheet by
+# content version, so a deploy is visible on the next page load.
+<IfModule mod_headers.c>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
