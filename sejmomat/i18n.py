@@ -147,6 +147,13 @@ EN = {
     "Wszyscy zgłaszający": "All proposers",
     "Tylko wbrew rekomendacji komisji": "Only against the committee's recommendation",
     "Senat": "Senate",
+    "Kliknij zgłaszającego, aby przejrzeć wszystkie jego poprawki — także odrzucone.":
+        "Click a proposer to browse all of their amendments, including rejected ones.",
+    "Wszystkie poprawki i wnioski zgłoszone przez klub": "All amendments and motions proposed by this club",
+    "Poprawki i wnioski zgłoszone przez": "Amendments and motions proposed by",
+    "Wspólne poprawki kilku klubów są na liście każdego z nich.": "Amendments proposed jointly by several clubs appear in each club's list.",
+    "Szukaj w treści, ustawie, temacie…": "Search text, bill, topic…",
+    "Wynik": "Outcome", "Wszystkie wyniki": "All outcomes",
     "Posłowie podpisani pod poprawkami i wnioskami": "MPs who signed amendments and motions",
     "Wnioski mniejszości i poprawki zgłaszane imiennie; poprawki zgłaszane przez kluby liczone są wyżej.":
         "Minority motions and amendments signed by named MPs; amendments filed by clubs are counted above.",

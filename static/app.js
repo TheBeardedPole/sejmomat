@@ -67,20 +67,33 @@ if (clubsTable) {
   });
 }
 
-// Adopted-amendments page: filter rows by proposer / against recommendation.
-const proposerFilter = document.getElementById("proposer-filter");
-const againstFilter = document.getElementById("against-filter");
-if (proposerFilter) {
+// Amendment lists (adopted-amendments page, per-proposer pages): filter rows
+// by proposer, outcome, committee recommendation and free text.
+const amendTable = document.querySelector("#adopted-table, #amend-table");
+if (amendTable) {
+  const by = (id) => document.getElementById(id);
+  const proposer = by("proposer-filter"), status = by("status-filter");
+  const against = by("against-filter"), text = by("text-filter"), count = by("filter-count");
+  const rows = [...amendTable.rows];
+  const fold = (s) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ł/g, "l");
   const apply = () => {
-    const who = proposerFilter.value;
-    const against = againstFilter.checked;
-    document.querySelectorAll("#adopted-table tr").forEach((tr) => {
-      const clubs = (tr.dataset.proposer || "").split("|");
-      tr.hidden = (who && !clubs.includes(who)) || (against && tr.dataset.against !== "1");
-    });
+    const who = proposer?.value, outcome = status?.value, q = text ? fold(text.value.trim()) : "";
+    let shown = 0;
+    for (const tr of rows) {
+      tr._text ??= q ? fold(tr.textContent) : undefined;
+      const hide =
+        (who && !(tr.dataset.proposer || "").split("|").includes(who)) ||
+        (outcome && tr.dataset.outcome !== outcome) ||
+        (against?.checked && tr.dataset.against !== "1") ||
+        (q && !tr._text.includes(q));
+      tr.hidden = Boolean(hide);
+      if (!hide) shown++;
+    }
+    if (count) count.textContent = `${shown} / ${rows.length}`;
   };
-  proposerFilter.addEventListener("change", apply);
-  againstFilter.addEventListener("change", apply);
+  for (const el of [proposer, status, against]) el?.addEventListener("change", apply);
+  text?.addEventListener("input", apply);
+  apply();
 }
 
 // Jumping to an anchor inside a collapsed <details> (the index of law

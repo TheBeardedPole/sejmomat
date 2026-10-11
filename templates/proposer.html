@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% set shown = name | who %}
+{% set n_adopted = votes | selectattr("outcome_class", "equalto", "adopted") | list | length %}
+{% block title %}{{ _("Poprawki i wnioski zgłoszone przez") }}: {{ clubs.get(name, shown) }}{% endblock %}
+{% block description %}{{ _("Poprawki i wnioski zgłoszone przez") }} {{ clubs.get(name, shown) }}: {{ votes | length }} {{ _("głosowań") }}, {{ n_adopted }} {{ _("przyjęte") }}.{% endblock %}
+{% block content %}
+<div class="crumbs"><a href="{{ root }}skuteczne-poprawki.html">{{ _("Skuteczne poprawki") }}</a>{% if name in clubs %} · <a href="{{ root }}klub/{{ club_slug(name) }}.html">{{ name }}</a>{% endif %}</div>
+<h1>{{ _("Poprawki i wnioski zgłoszone przez") }}: {{ clubs.get(name, shown) }}</h1>
+<div class="grid">
+  <div class="card stat"><b>{{ votes | length }}</b>{{ _("głosowane") }}</div>
+  <div class="card stat"><b class="v-Y">{{ n_adopted }}</b>{{ _("przyjęte") }}</div>
+  <div class="card stat"><b class="v-N">{{ votes | length - n_adopted }}</b>{{ _("odrzucone") }}</div>
+</div>
+<p class="note">{{ _("Liczone są głosowania; jedno głosowanie może obejmować kilka łącznie głosowanych poprawek.") }}
+{{ _("Wspólne poprawki kilku klubów są na liście każdego z nich.") }}</p>
+
+<div class="filters">
+  <input type="search" id="text-filter" placeholder="{{ _('Szukaj w treści, ustawie, temacie…') }}" aria-label="{{ _('Szukaj') }}">
+  <select id="status-filter" aria-label="{{ _('Wynik') }}">
+    <option value="">{{ _("Wszystkie wyniki") }}</option>
+    <option value="adopted">{{ _("przyjęte") }}</option>
+    <option value="rejected">{{ _("odrzucone") }}</option>
+  </select>
+  <label><input type="checkbox" id="against-filter"> {{ _("Tylko wbrew rekomendacji komisji") }}</label>
+  <span class="muted" id="filter-count"></span>
+</div>
+<div class="table-scroll">
+<table id="amend-table"><tbody>
+{% for v in votes %}{% set a = v.amendments[0] %}
+<tr data-outcome="{{ v.outcome_class }}" data-against="{{ 1 if v.against_rec else 0 }}">
+  <td style="white-space:nowrap">{{ v.date | date_pl }}</td>
+  <td>
+    <a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a>{% if a.item and a.item.recommendation %} · <span class="muted">{{ _("komisja") }}: {{ _(a.item.recommendation) }}</span>{% endif %}
+    {% if v.against_rec %} <span class="badge warn">{{ _("wbrew komisji") }}</span>{% endif %}
+    <div class="snippet" lang="pl">{% if v.bill and v.bill in bill_by_root %}<a href="{{ root }}ustawa/{{ v.bill }}.html">{{ v.agenda | truncate(110) }}</a>{% else %}{{ v.agenda | truncate(110) }}{% endif %}</div>
+    {% if a.item %}<div class="snippet" lang="pl">{{ a.item.text | truncate(220) }}</div>{% endif %}
+  </td>
+  <td><span class="badge {{ v.outcome_class }}">{{ _(v.outcome) }}</span></td>
+  <td class="num" style="white-space:nowrap"><span class="v-Y">{{ v.yes }}</span> / <span class="v-N">{{ v.no }}</span></td>
+</tr>
+{% endfor %}
+</tbody></table>
+</div>
+{% endblock %}

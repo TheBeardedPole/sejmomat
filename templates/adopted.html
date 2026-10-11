@@ -12,7 +12,7 @@
   <tbody>
   {% for p in proposers %}{% if p.voted >= 3 or p.adopted %}
   <tr>
-    <td>{{ p.name | who }}</td>
+    <td><a href="{{ root }}poprawki/{{ club_slug(p.name) }}.html">{{ p.name | who }}</a></td>
     <td class="num" data-v="{{ p.voted }}">{{ p.voted }}</td>
     <td class="num v-Y" data-v="{{ p.adopted }}">{{ p.adopted }}</td>
     <td class="num" data-v="{{ p.adopted / p.voted }}">{{ (p.adopted / p.voted) | pct }}</td>
@@ -22,7 +22,7 @@
   </tbody>
 </table>
 </div>
-<p class="note">{{ _("Liczone są głosowania; jedno głosowanie może obejmować kilka łącznie głosowanych poprawek.") }}</p>
+<p class="note">{{ _("Liczone są głosowania; jedno głosowanie może obejmować kilka łącznie głosowanych poprawek.") }} {{ _("Kliknij zgłaszającego, aby przejrzeć wszystkie jego poprawki — także odrzucone.") }}</p>
 
 <h2>{{ _("Posłowie podpisani pod poprawkami i wnioskami") }}</h2>
 <p class="muted">{{ _("Wnioski mniejszości i poprawki zgłaszane imiennie; poprawki zgłaszane przez kluby liczone są wyżej.") }}</p>

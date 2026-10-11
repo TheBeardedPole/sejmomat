@@ -15,6 +15,10 @@
   <div class="card stat"><b>{{ c.effectiveness | pct }}</b>{{ _("skuteczność") }}</div>
 </div>
 
+{% if c.id in by_proposer %}
+<p><a href="{{ root }}poprawki/{{ club_slug(c.id) }}.html">{{ _("Wszystkie poprawki i wnioski zgłoszone przez klub") }} ({{ by_proposer[c.id] | length }}) →</a></p>
+{% endif %}
+
 <h2>{{ _("Zgodność z innymi klubami") }}</h2>
 <p class="muted">{{ _("Odsetek głosowań, w których oba kluby miały wyraźną linię i była ona taka sama (min. 20 wspólnych głosowań).") }}</p>
 {% if c.agreement %}

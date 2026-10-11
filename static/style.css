@@ -121,3 +121,4 @@ code { font-size: .9em; }
 .law-index .chip { display: inline-block; margin: 2px 2px 0 0; padding: 0 7px; border: 1px solid var(--line); border-radius: 99px; font-size: .85em; white-space: nowrap; }
 .law-change:target, details.law:target > summary { outline: 2px solid var(--accent); outline-offset: 2px; }
 .law-change, details.law { scroll-margin-top: 12px; }
+.filters input[type="search"] { font: inherit; padding: 4px 8px; min-width: min(280px, 100%); background: var(--surface); color: var(--text); border: 1px solid var(--line); border-radius: 6px; }

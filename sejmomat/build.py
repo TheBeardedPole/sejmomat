@@ -208,6 +208,12 @@ def build_context():
 
     club_rows = build_clubs(clubs, mps, by_id, mp_rows)
     adopted, proposers, mp_proposers = build_adopted(by_id)
+    # Every amendment vote (adopted or not) by proposer, newest first.
+    by_proposer = defaultdict(list)
+    for v in sorted(by_id.values(), key=lambda v: (v["date"], v["votingNumber"]), reverse=True):
+        if v["amendments"]:
+            for club in sorted(v["proposer"]["clubs"]):
+                by_proposer[club].append(v)
 
     # Prints: which votings cite them, and which voting decided each item.
     votes_by_print, decided, sources = defaultdict(list), defaultdict(list), {}
@@ -230,6 +236,7 @@ def build_context():
         "mp_rows": mp_rows, "mp_by_id": {r["mp"]["id"]: r for r in mp_rows},
         "club_rows": club_rows, "club_slug": club_slug,
         "adopted": adopted, "proposers": proposers, "mp_proposers": mp_proposers,
+        "by_proposer": by_proposer,
         "transfers": [(pair, n, pair in renames) for pair, n in transfers.most_common()],
         "bills": bill_rows, "bill_by_root": {b["root"]: b for b in bill_rows},
         "coverage": (linked, total),
@@ -455,6 +462,8 @@ def _pages(ctx):
     yield "privacy.html", "prywatnosc.html", {}
     for c in ctx["club_rows"]:
         yield "club.html", f"klub/{c['slug']}.html", {"c": c}
+    for name, votes in ctx["by_proposer"].items():
+        yield "proposer.html", f"poprawki/{club_slug(name)}.html", {"name": name, "votes": votes}
     for s, votings in ctx["sittings"].items():
         yield "sitting.html", f"posiedzenie/{s}.html", {"sitting": s, "votings": votings}
         for v in votings:
