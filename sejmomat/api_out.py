@@ -151,7 +151,7 @@ def write_api(ctx, generated):
 # not data: adjust here. Clubs not listed (and independents) have no position.
 # Left to right, as used by the "Zgadnij posła" game. "Demokracja" is the
 # circle around Paweł Kukiz (Demokracja Bezpośrednia, earlier Kukiz'15).
-CLUB_AXIS = ["Razem", "Lewica", "KO", "Polska2050", "Centrum", "PSL-TD", "RozwojPlus", "PiS",
+CLUB_AXIS = ["Razem", "Lewica", "Polska2050", "KO", "Centrum", "PSL-TD", "RozwojPlus", "PiS",
              "Demokracja", "Konfederacja", "Konfederacja_KP"]
 GAME_TEXT_MAX = 700
 GAME_FINALS = 150
@@ -190,7 +190,8 @@ def _games(ctx):
     committees = _committees_by_mp()
     mps = [{
         "committees": committees.get(r["mp"]["id"], []),
-        "id": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club"),
+        "id": r["mp"]["id"], "name": r["mp"]["firstLastName"], "lastName": r["mp"].get("lastName"),
+        "club": r["mp"].get("club"),
         "clubName": ctx["clubs"].get(r["mp"].get("club"), r["mp"].get("club")),
         "district": r["mp"].get("districtName"), "districtNum": r["mp"].get("districtNum"),
         "voivodeship": r["mp"].get("voivodeship"), "birthDate": r["mp"].get("birthDate"),

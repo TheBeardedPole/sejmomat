@@ -114,7 +114,7 @@ const compareMps = (guess, target, axis, day) => {
     // first letter of the surname, read like a dictionary: the target's letter
     // comes before the guessed one (←) or after it (→)
     initial: (() => {
-      const g = surnameInitial(guess.name), t = surnameInitial(target.name);
+      const g = surnameInitial(guess), t = surnameInitial(target);
       const order = g.localeCompare(t, "pl");
       const gap = Math.abs(ALPHABET.indexOf(g) - ALPHABET.indexOf(t));
       return {
@@ -127,8 +127,15 @@ const compareMps = (guess, target, axis, day) => {
   };
 };
 
-// "Agnieszka Wojciechowska van Heukelom" -> "W": the surname is everything after the first name.
-const surnameInitial = (name) => (name.trim().split(/\s+/)[1] || name).charAt(0).toUpperCase();
+// The surname as the Sejm gives it ("Wojciechowska van Heukelom"); without
+// that field, the last word of the name (second names come before it).
+const surnameOf = (mp) => mp.lastName || mp.name.trim().split(/\s+/).pop();
+const surnameInitial = (mp) => surnameOf(mp).charAt(0).toUpperCase();
+// "Lubnauer Katarzyna Anna": how names read in a list sorted by surname.
+const surnameFirst = (mp) => {
+  const last = surnameOf(mp);
+  return mp.name.endsWith(last) ? `${last} ${mp.name.slice(0, -last.length).trim()}`.trim() : mp.name;
+};
 
 // "Kim jestem?": what a wrong guess has in common with the target.
 // green = same club; yellow = same constituency, or same or neighbouring
@@ -164,7 +171,7 @@ const whoPuzzle = (data, day, count = 5) => {
 };
 
 if (typeof module !== "undefined") {
-  module.exports = { fold, hash, dailyOrder, warsawDay, age, years, compareMps, guessFeedback, regionHint, REGIONS, voteOf, whoPuzzle, shortTitle, surnameInitial };
+  module.exports = { fold, hash, dailyOrder, warsawDay, age, years, compareMps, guessFeedback, regionHint, REGIONS, surnameOf, surnameFirst, voteOf, whoPuzzle, shortTitle, surnameInitial };
 }
 
 // ------------------------------------------------------------------- DOM
@@ -270,8 +277,18 @@ if (typeof document !== "undefined") (() => {
       h("p", { className: "muted", textContent: `${mp.clubName} · okręg ${mp.district} (${mp.voivodeship})` }),
     ]),
   ]);
-  const guessForm = (data, onGuess, label = "Zgaduję") => {
-    const input = h("input", { type: "text", placeholder: "Imię i nazwisko posła…", autocomplete: "off" });
+  // Level for the two MP games. Hard: type the name. Easy: the same box plus
+  // a grid of all MPs grouped by club (left to right), to pick from.
+  let easy = store.get("sejmdle:easy") === "1";
+  const levelNote = () => (easy ? " (poziom łatwy)" : "");
+  const clubGroups = (data) => (data.groups ||= [...new Set([...data.clubAxis, ...data.mps.map((m) => m.club)])]
+    .map((club) => ({
+      club, name: CLUB_SHORT[club] || (club === "niez." ? "Niezrzeszeni" : club),
+      mps: data.mps.filter((m) => m.club === club).sort((x, y) => surnameFirst(x).localeCompare(surnameFirst(y), "pl")),
+    })).filter((g) => g.mps.length));
+  // `used`: ids already guessed (greyed out in the grid); `rerender` redraws the game after a level change.
+  const guessForm = (data, onGuess, rerender, used = [], label = "Zgaduję") => {
+    const input = h("input", { type: "text", placeholder: easy ? "Wpisz nazwisko albo wybierz z listy poniżej…" : "Imię i nazwisko posła…", autocomplete: "off" });
     input.setAttribute("list", "mp-names");
     const msg = h("span", { className: "muted" });
     const submit = () => {
@@ -282,7 +299,39 @@ if (typeof document !== "undefined") (() => {
       onGuess(mp);
     };
     input.addEventListener("keydown", (e) => { if (e.key === "Enter") submit(); });
-    return h("div", { className: "guess" }, [input, h("button", { className: "btn primary", textContent: label, onclick: submit }), msg]);
+    const setLevel = (value) => {
+      easy = value;
+      store.set("sejmdle:easy", value ? "1" : "0");
+      rerender();
+    };
+    const seg = (text, on, value) => {
+      const b = h("button", { type: "button", className: "seg", textContent: text, onclick: () => setLevel(value) });
+      b.setAttribute("aria-pressed", String(on));
+      return b;
+    };
+    const level = h("p", { className: "level" }, [
+      h("span", { className: "muted", textContent: "Poziom:" }),
+      h("span", { className: "segs" }, [seg("Trudny", !easy, false), seg("Łatwy — lista posłów", easy, true)]),
+    ]);
+    const form = h("div", { className: "guess" }, [input, h("button", { className: "btn primary", textContent: label, onclick: submit }), msg]);
+    if (!easy) return h("div", {}, [level, form]);
+    const chips = [];
+    const grid = h("div", { className: "mp-grid" }, clubGroups(data).map((g) => h("section", {}, [
+      h("h3", {}, [g.name, " ", h("span", { className: "muted", textContent: `(${g.mps.length})` })]),
+      h("div", { className: "chips" }, g.mps.map((m) => {
+        const chip = h("button", { type: "button", className: "chip", textContent: surnameFirst(m),
+          disabled: used.includes(m.id), onclick: () => onGuess(m) });
+        chips.push([fold(m.name), chip]);
+        return chip;
+      })),
+    ])));
+    // typing narrows the grid; clubs left with nobody to show are hidden
+    input.addEventListener("input", () => {
+      const q = fold(input.value);
+      for (const [name, chip] of chips) chip.hidden = Boolean(q) && !name.includes(q);
+      for (const sec of grid.children) sec.hidden = ![...sec.querySelectorAll(".chip")].some((c) => !c.hidden);
+    });
+    return h("div", {}, [level, form, grid]);
   };
 
   // ---- 1. Zgadnij posła
@@ -304,6 +353,7 @@ if (typeof document !== "undefined") (() => {
       draw(
         lead("Zgadnij posła dnia", "posel", [
           [`Wpisz imię i nazwisko dowolnego posła. Masz ${MAX_GUESSES} prób.`],
+          ["Nie znasz posłów z nazwiska? Przełącz „Poziom” na łatwy: pod polem pojawi się lista wszystkich posłów pogrupowanych klubami, z której wybierasz kliknięciem."],
           ["Po każdej próbie pola pokażą, jak blisko jesteś: ", tile("green", "zgadza się"), " ", tile("yellow", "blisko"), " ", tile("grey", "nie")],
           ["Strzałki prowadzą do celu: ← → klub bardziej na lewo lub prawo, ↑ ↓ liczba większa lub mniejsza."],
           ["Przy okręgu strzałka działa jak kompas: pokazuje, w którą stronę na mapie leży szukane województwo (↑ północ, → wschód, ↘ południowy wschód…)."],
@@ -313,18 +363,18 @@ if (typeof document !== "undefined") (() => {
         ], `„Blisko” to: sąsiedni klub na tej liście, to samo lub sąsiednie województwo, wiek ±5 lat, głosy w wyborach ±25%, frekwencja ±3 pkt proc., litera nazwiska najwyżej ${LETTER_CLOSE} litery dalej w alfabecie.`),
         marks(over ? "Próby:" : `Próba ${guesses.length + 1} z ${MAX_GUESSES}:`,
           Array.from({ length: MAX_GUESSES }, (_, k) => k >= guesses.length ? "todo" : (won && k === guesses.length - 1 ? "ok" : "used"))),
-        !over && guessForm(data, (mp) => {
-          if (!state.guesses.includes(mp.id)) { state.guesses.push(mp.id); save("posel", state); }
-          render();
-        }),
         guesses.length ? h("div", { className: "grid-scroll" }, [h("table", { className: "grid" }, [
           h("thead", {}, [h("tr", {}, [h("th", { textContent: "Poseł" }), ...COLS.map(([, t]) => h("th", { textContent: t }))])]),
           h("tbody", {}, rows),
         ])]) : null,
+        !over && guessForm(data, (mp) => {
+          if (!state.guesses.includes(mp.id)) { state.guesses.push(mp.id); save("posel", state); }
+          render();
+        }, render, state.guesses),
         over && h("p", { className: `result ${won ? "ok" : "bad"}`,
           textContent: won ? `Brawo! Trafione za ${guesses.length}. razem.` : "Tym razem się nie udało." }),
         over && mpCard(target),
-        over && share(`Sejmdle ${label()} — Zgadnij posła: ${won ? guesses.length : "X"}/${MAX_GUESSES}`),
+        over && share(`Sejmdle ${label()} — Zgadnij posła${levelNote()}: ${won ? guesses.length : "X"}/${MAX_GUESSES}`),
         nextButton("posel", over),
       );
     };
@@ -449,20 +499,21 @@ if (typeof document !== "undefined") (() => {
           ["Jeśli województwo się nie zgadza, strzałka-kompas pokaże, w którą stronę na mapie leży właściwe (↑ północ, → wschód)."],
           ["Każda zła odpowiedź i każde „Pomiń” odsłania kolejną podpowiedź: wiek, komisje sejmowe, klub, zdjęcie."],
           [`Zaczynasz z ${max} punktami, a każdy taki krok zabiera jeden.`],
+          ["Nie znasz posłów z nazwiska? Przełącz „Poziom” na łatwy: pod polem pojawi się lista wszystkich posłów pogrupowanych klubami, z której wybierasz kliknięciem."],
         ]),
         marks("Punkty:", Array.from({ length: max }, (_, k) => (!state.lost && k < points) ? (state.won ? "ok" : "used") : "todo")),
         ...timeline,
         !over && guessForm(data, (guess) => {
           if (guess.id === mp.id) { state.won = true; save("kim", state); render(); }
           else if (!state.steps.includes(guess.id)) step(guess.id);
-        }),
+        }, render, state.steps.filter((v) => v !== "hint")),
         !over && h("button", { className: "btn", onclick: () => step("hint"),
           textContent: state.steps.length < HINTS.length ? "Pomiń — pokaż kolejną podpowiedź" : "Poddaję się" }),
         over && h("div", { className: `card answer ${state.won ? "won" : "lost"}` }, [
           h("p", { className: "clue-label", textContent: state.won ? `Odpowiedź · ${points} pkt z ${max}` : "Odpowiedź · 0 pkt" }),
           mpCard(mp),
         ]),
-        over && share(`Sejmdle ${label()} — Kim jestem?: ${state.won ? points : 0}/${max} pkt`),
+        over && share(`Sejmdle ${label()} — Kim jestem?${levelNote()}: ${state.won ? points : 0}/${max} pkt`),
         nextButton("kim", over),
       );
     };

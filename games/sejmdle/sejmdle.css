@@ -154,3 +154,19 @@ details.context summary { cursor: pointer; color: var(--muted); }
 .axis { font-weight: 600; }
 ul.committees { margin: 0; padding-left: 20px; font-size: 1rem; font-weight: 500; }
 ul.committees li { margin: 3px 0; }
+
+/* Level switch and the easy-mode grid of MPs grouped by club. */
+.level { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 14px 0 0; flex-wrap: wrap; }
+.segs { display: inline-flex; border: 1px solid var(--line); border-radius: 99px; overflow: hidden; background: var(--surface); }
+.seg { font: inherit; font-size: .88rem; font-weight: 600; padding: 5px 14px; border: 0; background: none; color: var(--muted); cursor: pointer; }
+.seg[aria-pressed="true"] { background: var(--accent); color: #fff; }
+@media (prefers-color-scheme: dark) { .seg[aria-pressed="true"] { color: #0d1b2e; } }
+.mp-grid { margin: 4px 0 12px; }
+.mp-grid section { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; margin: 8px 0; }
+.mp-grid h3 { font-size: .95rem; margin: 0 0 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip { font: inherit; font-size: .82rem; padding: 3px 9px; border-radius: 99px; border: 1px solid var(--line);
+  background: var(--bg); color: var(--text); cursor: pointer; }
+.chip:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.chip:disabled { opacity: .4; text-decoration: line-through; cursor: default; }
+.chip[hidden], .mp-grid section[hidden] { display: none; }
