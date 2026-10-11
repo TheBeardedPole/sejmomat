@@ -34,6 +34,16 @@ def _amendment(a, full):
     return out
 
 
+def _author(a, full):
+    """Who submitted the bill; for MPs' bills also the signatories' clubs."""
+    if not a:
+        return None
+    out = {"kind": a["kind"], "label": a["label"], "clubs": [{"club": c, "signatures": n} for c, n in a["clubs"]]}
+    if full:
+        out["signatories"] = a["mps"]
+    return out
+
+
 def _change(c):
     return {"label": c.get("label"), "where": c["where"], "operation": c["op"], "provisionFound": c["found"],
             "rows": c["rows"], "diffHtml": c["html"]}
@@ -99,11 +109,12 @@ def write_api(ctx, generated):
             _write(f"votes/{s}/{v['votingNumber']}.json", _vote(v, full=True))
     _write("bills.json", [
         {"print": b["root"], "title": b["title"], "lastVote": b["last"], "votes": len(b["votings"]),
-         "amendmentVotes": b["amend_count"]} for b in ctx["bills"]
+         "amendmentVotes": b["amend_count"], "author": _author(b["author"], False)} for b in ctx["bills"]
     ])
     for b in ctx["bills"]:
         _write(f"bills/{b['root']}.json", {
             "print": b["root"], "title": b["title"], "prints": b["prints"],
+            "author": _author(b["author"], True),
             "lawChangesSourcePrint": b["law_source"], "lawChanges": _law(b["law"]),
             "proposers": [{"proposer": k, "adopted": c["adopted"], "rejected": c["rejected"]} for k, c in b["by_author"]],
             "votes": [{"sitting": v["sitting"], "votingNumber": v["votingNumber"], "topic": v.get("topic"),

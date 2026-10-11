@@ -1,8 +1,13 @@
 """Reflow pdftotext layout output into readable paragraphs."""
 import re
 
+# Page footers of bills printed by the Sejm's legislative office:
+#   "Liczba stron : 8   Data : 2026-07-31   Nazwa pliku : V7_141-22.NK   5"
+#   "X kadencja/druk 2007 i 2010"
+FURNITURE = r"Liczba stron\s*:.*|[IVX]+ kadencja\s*/\s*druk.*"
+FURNITURE_RE = re.compile(rf"^\s*(?:{FURNITURE})\s*$")
 _DROP_RE = re.compile(
-    r"^\s*([–—-]?\s*\d+\s*[–—-]?|Druk nr \S+|Tłoczono z polecenia Marszałka Sejmu.*)\s*$"
+    rf"^\s*([–—-]?\s*\d+\s*[–—-]?|Druk nr \S+|Tłoczono z polecenia Marszałka Sejmu.*|{FURNITURE})\s*$"
 )
 # Lines that start a new unit of legal text and so must not be joined to the
 # previous line: "1)", "a)", "Art. 5.", "§ 2.", "– poseł X", "Uwaga:", "„3) ..."

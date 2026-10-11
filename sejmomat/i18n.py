@@ -222,6 +222,15 @@ EN = {
     # law comparison
     "Zmiany w obowiązującym prawie": "Changes to existing law",
     "Spis zmian": "Index of changes",
+    "Autor projektu": "Submitted by", "Autor": "Author",
+    "Rada Ministrów": "Government (Council of Ministers)", "Posłowie": "MPs",
+    "Obywatele (inicjatywa obywatelska)": "Citizens' initiative", "Komisja sejmowa": "Sejm committee",
+    "Prezydent RP": "President of Poland", "Prezydium Sejmu": "Presidium of the Sejm",
+    "podpisów posłów": "MPs' signatures",
+    "Posłowie podpisani pod projektem": "MPs who signed the bill",
+    "Odczytane automatycznie z podpisów na druku; lista może być niepełna.":
+        "Read automatically from the signatures on the print; the list may be incomplete.",
+    "Spis treści": "Contents", "Pełny tekst — artykuły": "Full text — articles",
     "Obecne brzmienie przepisów porównane z projektem według": "Current provisions compared with the bill as in",
     "druku nr": "print no.",
     "(przed poprawkami z drugiego czytania)": "(before second-reading amendments)",

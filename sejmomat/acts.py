@@ -19,6 +19,7 @@ from html import escape
 
 from .changes import word_diff_html
 from .config import ACTS
+from .plaintext import FURNITURE
 
 # ---------------------------------------------------------------- act text
 
@@ -307,7 +308,7 @@ CITE_RE = re.compile(
     r"(?P<rest>[^)]*)\)\s*(?P<list>wprowadza\s+się\s+następujące\s+zmiany\s*:)?"
 )
 _BILL_FURNITURE_RE = re.compile(
-    r"^\s*(Liczba stron\s*:.*|[IVX]+ kadencja/druk nr \S+|\d+|[–-]\s*\d+\s*[–-]|Druk nr \S+)\s*$"
+    rf"^\s*({FURNITURE}|\d+|[–-]\s*\d+\s*[–-]|Druk nr \S+)\s*$"
 )
 
 

@@ -14,6 +14,8 @@ Three document shapes are handled:
 import re
 from dataclasses import dataclass, field
 
+from .plaintext import FURNITURE_RE
+
 
 
 @dataclass
@@ -51,7 +53,7 @@ _SIGNATURE_RE = re.compile(r"^\s*(Przewodnicząc|Sprawozdawc|Zastępca Przewodni
 
 def _clean_lines(text):
     for line in text.replace("\f", "\n").splitlines():
-        if _PAGE_NUM_RE.match(line) or re.match(r"^\s*Druk nr \S+\s*$", line):
+        if _PAGE_NUM_RE.match(line) or re.match(r"^\s*Druk nr \S+\s*$", line) or FURNITURE_RE.match(line):
             continue
         # pdftotext renders the low opening quote typed as two commas literally
         yield line.replace(",,", "„").rstrip()

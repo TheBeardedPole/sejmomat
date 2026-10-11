@@ -80,3 +80,7 @@
   {% endfor %}
 </div>
 {%- endmacro %}
+
+{% macro author_label(a) -%}
+{% if a %}{% set parts = a.label.split(": ", 1) %}{{ _(parts[0]) }}{% if parts | length > 1 %}: {{ parts[1] }}{% endif %}{% endif %}
+{%- endmacro %}

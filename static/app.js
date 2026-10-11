@@ -119,7 +119,7 @@ const COFFEE_URL = "https://buycoffee.to/adamkoscielak";
 const SITE_ROOT = LANG === "en" ? `${ROOT}../` : ROOT;
 const T = {
   pl: {
-    privacy: "Prywatność", consentSettings: "Ustawienia zgody",
+    privacy: "Prywatność", consentSettings: "Ustawienia zgody", contents: "Spis treści", articles: "Artykuły",
     consentText: "Ta strona Cię nie śledzi. Za Twoją zgodą zapisze w przeglądarce licznik odwiedzonych podstron, " +
       "używany wyłącznie po to, by od czasu do czasu przypomnieć o możliwości wsparcia projektu.",
     essential: "Tylko niezbędne", agree: "Zgadzam się",
@@ -128,7 +128,7 @@ const T = {
     buy: "Postaw kawę", later: "Nie teraz",
   },
   en: {
-    privacy: "Privacy", consentSettings: "Consent settings",
+    privacy: "Privacy", consentSettings: "Consent settings", contents: "Contents", articles: "Articles",
     consentText: "This site does not track you. With your consent it will keep a page-view counter in your browser, " +
       "used only to occasionally mention that you can support the project.",
     essential: "Only essential", agree: "I agree",
@@ -234,6 +234,54 @@ document.body.append(
   h("a", { className: "support-pill", href: COFFEE_URL, target: "_blank", rel: "noopener", textContent: `☕ ${T.support}` }),
   consentBar,
 );
+// Side navigation for legal documents (print and bill pages): sections,
+// amended acts, amendment numbers and the articles of the full text. A fixed
+// column on wide screens, a button that opens the same panel otherwise.
+(() => {
+  const content = document.querySelector("main");
+  if (!content || !content.querySelector(".print-text, main > details.law, .amendment[id]")) return;
+  const list = h("div", { className: "side-toc-list" });
+  const link = (target, text, cls = "") => h("a", { href: `#${target.id}`, textContent: text, className: cls });
+  const chips = (items) => h("p", { className: "side-toc-chips" }, items);
+  let n = 0;
+  for (const h2 of content.querySelectorAll("h2")) {
+    h2.id ||= `sekcja-${++n}`;
+    list.append(link(h2, h2.textContent.trim(), "side-toc-h"));
+    // what follows this heading, up to the next one
+    const acts = [], amendments = [];
+    for (let el = h2.nextElementSibling; el && el.tagName !== "H2"; el = el.nextElementSibling) {
+      if (el.matches("details.law[id]")) acts.push(el);
+      if (el.matches(".amendment[id]")) amendments.push(el);
+      if (el.matches(".print-text")) {
+        const seen = new Set(), arts = [];
+        for (const p of el.children) {
+          const m = /^Art\.\s*(\d+[a-z]*)\./.exec(p.textContent);
+          if (!m || seen.has(m[1])) continue;
+          seen.add(m[1]);
+          p.id = `art-${m[1]}`;
+          arts.push(link(p, m[1]));
+        }
+        if (arts.length > 1) list.append(h("p", { className: "side-toc-sub", textContent: T.articles }), chips(arts));
+      }
+    }
+    for (const act of acts) {
+      list.append(link(act, act.querySelector("summary strong")?.textContent.trim() || act.id, "side-toc-sub"));
+      // the articles changed in this act, as listed by the index above the changes
+      const arts = [...content.querySelectorAll(`.law-index a.chip[href^="#${act.id}-"]`)]
+        .map((a) => h("a", { href: a.getAttribute("href"), textContent: a.textContent.replace(/^art\.\s*/, "") }));
+      if (arts.length) list.append(chips(arts));
+    }
+    if (amendments.length > 1) list.append(chips(amendments.map((a) => link(a, a.id.replace(/^\D+/, "")))));
+  }
+  if (list.querySelectorAll("a").length < 6) return;
+  const toc = h("nav", { className: "side-toc" }, [h("strong", { textContent: T.contents }), list]);
+  toc.setAttribute("aria-label", T.contents);
+  const toggle = h("button", { type: "button", className: "side-toc-toggle", textContent: `☰ ${T.contents}` });
+  toggle.addEventListener("click", () => toc.classList.toggle("open"));
+  list.addEventListener("click", (e) => { if (e.target.closest("a")) toc.classList.remove("open"); });
+  document.body.append(toggle, toc);
+})();
+
 // Link to the games (kept out of the page template for the same reason).
 document.querySelector("header.top nav")?.append(h("a", { href: `${SITE_ROOT}sejmdle/`, textContent: "Sejmdle" }));
 const foot = document.querySelector("footer.foot");

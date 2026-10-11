@@ -7,7 +7,7 @@ from datetime import datetime
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis
+from . import analysis, authors
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM
 from .i18n import LANGS, date_fmt, pct_fmt, translator
 from .acts import bill_changes
@@ -185,6 +185,7 @@ def build_context():
         })
     mp_rows.sort(key=lambda r: r["mp"]["firstLastName"].split()[-1])
 
+    sign_index = authors.name_index(mps)
     bill_rows = []
     for root, votings in bills.items():
         meta = print_meta(root) or {}
@@ -196,6 +197,8 @@ def build_context():
         prints = sorted({p for v in votings for p in v["prints"]}, key=lambda p: (len(p), p))
         src = law_source(root, prints)
         bill_rows.append({
+            "author": authors.bill_author(meta.get("title"), print_text(root), meta.get("documentDate"),
+                                          sign_index, history),
             "law_source": src, "law": bill_changes(print_text(src)) if src else [],
             "root": root, "title": meta.get("title") or votings[0]["agenda"],
             "votings": votings, "amend_count": len(amend_votes),
