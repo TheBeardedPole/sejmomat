@@ -22,13 +22,13 @@
     <button role="tab" data-game="przeszlo">Czy przeszło?</button>
     <button role="tab" data-game="kim">Kim jestem?</button>
   </nav>
+  <p><button type="button" id="mode" class="mode" hidden></button></p>
 </header>
 <main id="game" aria-live="polite"><p class="muted">Wczytywanie danych…</p></main>
 <datalist id="mp-names"></datalist>
 <footer class="muted">
   Dane: <a href="https://api.sejm.gov.pl">API Sejmu RP</a> przez API Sejmomatu. Zdjęcia posłów wczytywane z serwera Sejmu.
   Postęp gry zapisywany jest tylko w Twojej przeglądarce.
-  <br>Tryb testowy: <a id="reroll" href="?los=test">wylosuj nowe zagadki</a> · <a href="./">wróć do zagadek dnia</a>
 </footer>
 <script src="sejmdle.js"></script>
 </body>

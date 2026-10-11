@@ -31,6 +31,12 @@ header { text-align: center; }
 .tabs button[aria-selected="true"] { background: var(--accent); color: #fff; }
 @media (prefers-color-scheme: dark) { .tabs button[aria-selected="true"] { color: #0d1b2e; } }
 
+/* Endless mode switch (testing aid). */
+.mode { font: inherit; font-size: .85rem; font-weight: 600; padding: 5px 12px; border-radius: 99px; cursor: pointer;
+  border: 1px dashed var(--line); background: none; color: var(--muted); }
+.mode[aria-pressed="true"] { border-style: solid; border-color: var(--accent); color: var(--accent); }
+header p { margin: 0 0 14px; }
+
 .lead { font-size: 1.35rem; font-weight: 700; margin: 0 0 10px; text-align: center; }
 
 /* Instructions. */
@@ -120,3 +126,22 @@ details.context summary { cursor: pointer; color: var(--muted); }
   .tabs button { flex: 1 1 auto; padding: 8px 10px; }
   .reveal { flex-direction: column; }
 }
+
+/* "Kim jestem?" timeline: clue cards, guesses with what they got right, the answer. */
+.clue-label { margin: 0 0 6px; font-size: .74rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.clue-value { font-size: 1.1rem; font-weight: 600; }
+.card.guessed { border-width: 2px; padding: 10px 14px; }
+.card.guessed.green { border-color: var(--green); }
+.card.guessed.yellow { border-color: var(--yellow); }
+.card.guessed.grey { border-color: var(--grey); }
+.guessed-name { margin: 0; font-weight: 700; }
+.guessed-fb { margin: 2px 0 0; font-size: .9rem; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.dot.green { background: var(--green); } .dot.yellow { background: var(--yellow); } .dot.grey { background: var(--grey); }
+.card.answer { border-width: 2px; }
+.card.answer.won { border-color: var(--green); }
+.card.answer.lost { border-color: var(--red); }
+.card.answer .reveal { border: 0; box-shadow: none; padding: 0; margin: 0; background: none; }
+.next { text-align: center; margin: 14px 0 0; }
+.btn.quiet { box-shadow: none; border-style: dashed; color: var(--muted); font-weight: 500; }
+.axis { font-weight: 600; }
