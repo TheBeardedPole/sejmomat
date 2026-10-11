@@ -264,9 +264,12 @@ if (typeof document !== "undefined") (() => {
     className: over ? "btn primary" : "btn quiet", onclick: () => nextPuzzle(game),
     textContent: over ? "Następna zagadka →" : "Pomiń tę zagadkę",
   })]);
+  // The copied result ends with the game's address, so sharing it brings
+  // people here. Change SHARE_URL when the games move to their own address.
+  const SHARE_URL = "https://sejmomat.pl/sejmdle";
   const share = (text) => h("button", {
     className: "btn", textContent: "Skopiuj wynik",
-    onclick: (e) => navigator.clipboard?.writeText(text).then(() => { e.target.textContent = "Skopiowano"; }),
+    onclick: (e) => navigator.clipboard?.writeText(`${text}\nZagraj: ${SHARE_URL}`).then(() => { e.target.textContent = "Skopiowano"; }),
   });
   const mpLink = (mp) => h("a", { href: `${SITE}posel/${mp.id}.html`, textContent: mp.name });
   const voteLink = (v, text) => h("a", { href: `${SITE}glosowanie/${v.s}-${v.n}.html`, textContent: text });
