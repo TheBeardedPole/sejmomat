@@ -203,12 +203,33 @@ if (typeof document !== "undefined") (() => {
     return node;
   };
   const draw = (...nodes) => main.replaceChildren(...nodes.filter(keep));
-  // "Jak grać?": short rules, open until the player has made a first move.
-  const howTo = (started, items, note) => h("details", { className: "howto", open: !started }, [
-    h("summary", { textContent: "Jak grać?" }),
-    h("ol", {}, items.map((it) => h("li", {}, it))),
-    note ? h("p", { className: "muted", textContent: note }) : null,
-  ]);
+  // "Jak grać?": the rules in a popup. A round "?" next to the game's title
+  // opens it, and it opens by itself on a player's first visit to each game.
+  const helpDialog = h("dialog", { className: "help" });
+  helpDialog.addEventListener("click", (e) => { if (e.target === helpDialog) closeHelp(); }); // click on the backdrop
+  document.body.append(helpDialog);
+  const closeHelp = () => (helpDialog.close ? helpDialog.close() : helpDialog.removeAttribute("open"));
+  const showHelp = (title, items, note) => {
+    helpDialog.replaceChildren(...[
+      h("button", { type: "button", className: "help-close", textContent: "×", ariaLabel: "Zamknij", onclick: closeHelp }),
+      h("h2", { textContent: `Jak grać: ${title}` }),
+      h("ol", {}, items.map((it) => h("li", {}, it))),
+      note ? h("p", { className: "muted", textContent: note }) : null,
+      h("p", { className: "help-ok" }, [h("button", { type: "button", className: "btn primary", textContent: "Gram!", onclick: closeHelp })]),
+    ].filter(keep));
+    if (helpDialog.open) return;
+    if (helpDialog.showModal) helpDialog.showModal(); else helpDialog.setAttribute("open", "");
+  };
+  // The game's title line with its "?" button.
+  const lead = (title, game, items, note) => {
+    const open = () => showHelp(title, items, note);
+    if (!store.get(`sejmdle:help:${game}`)) {
+      store.set(`sejmdle:help:${game}`, "1");
+      open();
+    }
+    return h("p", { className: "lead" }, [title, " ",
+      h("button", { type: "button", className: "help-btn", textContent: "?", title: "Jak grać?", ariaLabel: "Jak grać?", onclick: open })]);
+  };
   // A row of markers: tries used, answers so far, points left.
   const marks = (label, states) => h("p", { className: "marks" }, [
     h("span", { className: "muted", textContent: label }),
@@ -278,8 +299,7 @@ if (typeof document !== "undefined") (() => {
           ...COLS.map(([k]) => h("td", { className: cmp[k].color, textContent: `${cmp[k].text} ${cmp[k].arrow}`.trim() }))]);
       });
       draw(
-        h("p", { className: "lead", textContent: "Zgadnij posła dnia." }),
-        howTo(guesses.length > 0, [
+        lead("Zgadnij posła dnia", "posel", [
           [`Wpisz imię i nazwisko dowolnego posła. Masz ${MAX_GUESSES} prób.`],
           ["Po każdej próbie pola pokażą, jak blisko jesteś: ", tile("green", "zgadza się"), " ", tile("yellow", "blisko"), " ", tile("grey", "nie")],
           ["Strzałki prowadzą do celu: ← → klub bardziej na lewo lub prawo, ↑ ↓ liczba większa lub mniejsza."],
@@ -340,8 +360,7 @@ if (typeof document !== "undefined") (() => {
         ]);
       });
       draw(
-        h("p", { className: "lead", textContent: "Czy ta poprawka przeszła?" }),
-        howTo(i > 0, [
+        lead("Czy ta poprawka przeszła?", "przeszlo", [
           [`Dostajesz ${items.length} poprawek, jedną po drugiej.`],
           ["Widzisz treść poprawki i to, co zmienia w projekcie, ale nie widzisz, kto ją zgłosił."],
           ["Wybierz „Przeszła” albo „Nie przeszła”. Po odpowiedzi zobaczysz wynik głosowania i zgłaszającego."],
@@ -413,8 +432,7 @@ if (typeof document !== "undefined") (() => {
         if (k < HINTS.length) timeline.push(clue(k + 2, HINTS[k][0], h("div", { className: "clue-value" }, [HINTS[k][1]()])));
       });
       draw(
-        h("p", { className: "lead", textContent: "Kim jestem?" }),
-        howTo(state.steps.length > 0 || over, [
+        lead("Kim jestem?", "kim", [
           ["Na start widzisz, jak tajemniczy poseł głosował nad całością pięciu ustaw."],
           ["Zgadnij, kto to. Po złej odpowiedzi zobaczysz, czy trafiłeś(-aś) klub lub region: ",
             tile("green", "ten sam klub"), " ", tile("yellow", "to samo lub sąsiednie województwo"), " ", tile("grey", "nic wspólnego")],
