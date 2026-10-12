@@ -246,3 +246,12 @@ table.siatka .slot { min-height: 112px; padding: 6px 4px; }
   table.siatka .slot { min-height: 104px; }
   .slot-name { font-size: .78rem; }
 }
+
+/* "Wesprzyj": a pill fixed in the corner, as on the main site. Dialogs open above it. */
+.support-pill { position: fixed; right: 16px; bottom: 16px; z-index: 5; padding: 9px 18px; border-radius: 99px;
+  background: var(--surface); border: 2px solid var(--accent); color: var(--text); font-size: .92rem; font-weight: 700;
+  text-decoration: none; box-shadow: var(--shadow); opacity: .9; }
+.support-pill:hover { opacity: 1; background: var(--accent); color: var(--surface); }
+body { padding-bottom: 84px; } /* so the pill never covers the last line */
+@media (max-width: 520px) { .support-pill { padding: 8px 14px; font-size: .84rem; right: 10px; bottom: 10px; } }
+@media print { .support-pill { display: none; } }
