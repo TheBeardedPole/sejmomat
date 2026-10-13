@@ -8,7 +8,7 @@ from datetime import datetime
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, authors
+from . import analysis, authors, social
 from .stamp import stamp
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM
 from .i18n import LANGS, date_fmt, pct_fmt, translator
@@ -268,6 +268,7 @@ def build_context():
         "transfers": [(pair, n, pair in renames) for pair, n in transfers.most_common()],
         "bills": bill_rows, "bill_by_root": bill_by_root,
         "coverage": (linked, total),
+        "summaries": social.summaries({"by_id": by_id, "bill_by_root": bill_by_root}),
         "printed": set(printed), "printed_list": printed,
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
         "generated": datetime.now(),
@@ -486,6 +487,7 @@ def _env(lang):
         anchor=anchor, source_items=source_items, print_paragraphs=print_paragraphs, print_too_big=print_too_big,
         VOTE_LABEL=VOTE_LABEL, LINE_LABEL=LINE_LABEL, MAJORITY_LABEL=MAJORITY_LABEL, KIND_LABEL=KIND_LABEL,
         print_url=print_url, pdf_url=pdf_url, act_url=act_url, TERM=TERM,
+        post_weight=social.weight, POST_LIMIT=social.LIMIT, CARD_DIR=social.CARD_DIR,
     )
     return env, t
 
@@ -503,6 +505,7 @@ def _pages(ctx):
     yield "search.html", "szukaj.html", {}
     yield "api.html", "api.html", {}
     yield "privacy.html", "prywatnosc.html", {}
+    yield "summaries.html", "podsumowania.html", {}
     for c in ctx["club_rows"]:
         yield "club.html", f"klub/{c['slug']}.html", {"c": c}
     for name, votes in ctx["by_proposer"].items():
@@ -549,6 +552,14 @@ def run():
     # the folder can be served from another host by changing its API address).
     shutil.copytree(ROOT / "games" / "sejmdle", SITE / "sejmdle")
     stamp(SITE / "sejmdle")  # so a new script or stylesheet loads at once, despite CDN caching
+
+    # Day summaries as images. They need Pillow and a font; without either
+    # the summaries are still published, as text only.
+    try:
+        from .card import write_cards
+        write_cards(ctx["summaries"], SITE)
+    except (ImportError, RuntimeError) as e:
+        print(f"summary images skipped: {e}")
 
     pages = list(_pages(ctx))
     for lang in LANGS:

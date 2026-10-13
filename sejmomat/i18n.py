@@ -16,6 +16,22 @@ MONTHS = {
 }
 
 EN = {
+    # day summaries (the posts themselves stay in Polish)
+    "Podsumowania dni": "Daily summaries",
+    "Podsumowania dni — opis": "A ready-made image and social media post after every voting day in the Sejm: bills passed, amendments adopted and how the clubs voted, with numbers taken straight from the data.",
+    "Gotowe grafiki i wpisy do mediów społecznościowych po każdym dniu głosowań. Liczby i nazwy pochodzą wprost z danych, bez komentarza.":
+        "Ready-made images and social media posts after every voting day. Numbers and names come straight from the data, without commentary.",
+    "Grafiki i wpisy są po polsku. Przycisk serwisu otwiera go z gotową treścią: nic nie zostanie opublikowane bez Twojego kliknięcia.":
+        "The images and posts are in Polish. A service's button opens it with the text filled in: nothing is published without your click.",
+    "Wpis do grafiki": "Post to go with the image", "Pobierz grafikę": "Download the image",
+    "Udostępnij z grafiką": "Share with the image", "Wersja tekstowa (bez grafiki)": "Text version (no image)",
+    "X i Bluesky otwierają się z samym tekstem — grafikę trzeba dołączyć ręcznie.":
+        "X and Bluesky open with the text only — the image has to be attached by hand.",
+    "Jeden wpis": "Single post", "Nitka": "Thread", "Kopiuj": "Copy", "Skopiowano": "Copied",
+    "Kopiuj całą nitkę": "Copy the whole thread", "znaków": "characters",
+    "Podsumowania dni głosowań — gotowe wpisy do udostępnienia": "Voting day summaries — ready-made posts to share",
+    "podsumowania ostatnich dni głosowań: liczby, grafiki i gotowe wpisy do mediów społecznościowych":
+        "summaries of the latest voting days: figures, images and ready-made social media posts",
     # navigation & layout
     "Posiedzenia": "Sittings",
     "Ustawy": "Bills",
@@ -283,6 +299,8 @@ EN = {
 
 # Keys that are identifiers rather than Polish display text.
 PL = {
+    "Podsumowania dni — opis": "Gotowa grafika i wpis do mediów społecznościowych po każdym dniu głosowań w Sejmie: "
+                               "uchwalone ustawy, przyjęte poprawki i głosy klubów, z liczbami wprost z danych.",
     "Domyślny opis": "Każde głosowanie w Sejmie powiązane z poprawką, której dotyczy: pełna treść, "
                      "zgłaszający, rekomendacja komisji i wynik w podziale na kluby.",
     "Prywatność — opis": "Sejmomat nie używa cookies, śledzenia ani reklam. Co zapisuje dostawca hostingu, "

@@ -117,6 +117,38 @@ clubs of the governing coalition are `COALITION` and the groups of
 voivodeships are `MACRO_REGIONS` there — update `COALITION` when the
 coalition changes.
 
+## Daily summaries for social media
+
+`sejmomat/social.py` turns each voting day into a ready-made summary in
+Polish: the day's figures (votes, laws and resolutions passed, amendment
+votes), the most contested vote on a law with the clubs on each side, and
+whose amendments passed. Everything is a filled-in template — every number
+and name comes from the data, no language model is involved.
+
+- `sejmomat/card.py` draws the summary as an image with the site's address
+  in its footer (`dane/podsumowania/<day>.png`). It needs Pillow and Noto
+  Sans or DejaVu Sans; without them the build goes on and the summaries
+  are text only.
+- The build lists the days in `api/v1/summaries.json` and on the page
+  `podsumowania.html`: the image, a caption to post with it, and a text
+  version (one post or a thread), with copy and download buttons and links
+  that open X or Bluesky with the text filled in.
+- `python -m sejmomat.social [YYYY-MM-DD]` prints a day's text posts locally.
+- `python -m sejmomat.social post` publishes the newest summaries not yet
+  posted — one post per day: the image, its description for screen readers,
+  the caption and a link — on the services whose credentials are in the
+  environment, and records them in `data/social.json`. `--dry-run` only
+  shows them. A day goes out once it is over (or two hours after its last
+  vote), and never if it is more than three days old.
+
+Automatic posting is the workflow "Podsumowanie dnia w mediach
+społecznościowych" (`.github/workflows/social.yml`). It is off until the
+repository variable `SOCIAL_AUTOPOST` is `true`; run by hand, it shows what
+would be posted unless "publish" is ticked. Secrets: `X_API_KEY`,
+`X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_TOKEN_SECRET` (an X developer
+app with write access; the X API is paid per post) and/or `BLUESKY_HANDLE`,
+`BLUESKY_APP_PASSWORD` (free).
+
 ## Known limitations
 
 - Amendment votes on items moved directly in the chamber (no printed report)

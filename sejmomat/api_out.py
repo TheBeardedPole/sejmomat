@@ -94,7 +94,7 @@ def write_api(ctx, generated):
         "sittings": "sittings.json", "sitting": "sittings/{sitting}.json",
         "vote": "votes/{sitting}/{votingNumber}.json", "bills": "bills.json", "bill": "bills/{print}.json",
         "mps": "mps.json", "mp": "mps/{id}.json", "clubs": "clubs.json", "print": "prints/{print}.json",
-        "adoptedAmendments": "adopted-amendments.json", "games": "games.json",
+        "adoptedAmendments": "adopted-amendments.json", "games": "games.json", "summaries": "summaries.json",
     }
     _write("index.json", {"version": VERSION, "term": TERM, "generated": generated, "endpoints": endpoints,
                           "source": "https://api.sejm.gov.pl", "documentation": "../../api.html"})
@@ -139,6 +139,7 @@ def write_api(ctx, generated):
         _write(f"prints/{num}.json", {"number": num, "title": meta.get("title"), "date": meta.get("documentDate"),
                                       "processPrint": meta.get("processPrint"), "items": items})
     _write("games.json", _games(ctx))
+    _write("summaries.json", ctx["summaries"])
     _write("adopted-amendments.json", {
         "byProposer": ctx["proposers"],
         "byMp": ctx["mp_proposers"],
