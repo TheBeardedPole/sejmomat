@@ -6,6 +6,8 @@
 <div class="crumbs"><a href="{{ root }}posiedzenia.html">{{ _("Posiedzenia") }}</a></div>
 <h1>{{ sitting_name(sitting, true) }}</h1>
 <p class="muted">{{ votings | length }} {{ _("głosowań") }} · {{ votings[0].date | date_pl }}{% if votings[-1].date[:10] != votings[0].date[:10] %} – {{ votings[-1].date | date_pl }}{% endif %}</p>
+<p>{{ _("Jak głosowały kluby i ich posłowie na tym posiedzeniu") }}:
+  {% for c in club_rows if c.id in sitting_clubs %}<a href="{{ root }}klub/{{ c.slug }}.html#posiedzenie-{{ sitting }}">{{ c.id }}</a>{{ " · " if not loop.last }}{% endfor %}</p>
 
 {% for agenda, group in votings | groupby_consecutive("agenda") %}
 <section class="agenda">

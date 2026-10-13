@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block title %}{{ r.mp.firstLastName }} ({{ r.mp.club }}){% endblock %}
 {% block description %}{{ r.mp.firstLastName }}, {{ clubs.get(r.mp.club, r.mp.club) }}{% if r.mp.districtName %}, {{ _("okręg") }} {{ r.mp.districtName }}{% endif %}: {{ _("udział w głosowaniach") }} {{ r.turnout | pct }}, {{ r.rebel_count }} {{ _("wyłamań z linii klubu") }}.{% endblock %}
+{% from "_breakdown.html" import assets, attrs, sitting_cell, bar with context %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
 <div class="crumbs"><a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a></div>
@@ -18,13 +19,37 @@
 
 <div class="grid">
   <div class="card stat"><b>{{ r.turnout | pct }}</b>{{ _("udział w głosowaniach") }} ({{ r.cast }} {{ _("z") }} {{ r.eligible }})</div>
+  <div class="card stat"><b{% if r.eligible > r.cast %} class="v-A"{% endif %}>{{ r.eligible - r.cast }}</b>{{ _("opuszczonych głosowań") }}</div>
   <div class="card stat"><b>{{ r.rebel_count }}</b>{{ _("wyłamań z linii klubu") }} ({{ r.rebel_rate | pct }})</div>
   {% if r.signed %}<div class="card stat"><b>{{ r.signed_adopted }} / {{ r.signed | length }}</b>{{ _("podpisanych poprawek i wniosków przyjętych") }}</div>{% endif %}
 </div>
 
+{% if r.sittings %}
+<h2 id="posiedzenia">{{ _("Głosowania według posiedzeń") }}</h2>
+<p class="muted">{{ _("Kliknij posiedzenie, aby zobaczyć każde głosowanie: głos posła, linię klubu i opuszczone głosowania.") }}</p>
+{{ assets() }}
+<div class="table-scroll">
+<table {{ attrs("mp", r.mp.id) }}>
+  <thead><tr><th>{{ _("Posiedzenie") }}</th><th class="num">{{ _("Głosowania") }}</th><th class="num">{{ _("za") }}</th><th class="num">{{ _("przeciw") }}</th><th class="num">{{ _("wstrz.") }}</th><th class="num">{{ _("Opuszczone") }}</th><th class="num">{{ _("Wbrew klubowi") }}</th><th></th></tr></thead>
+  <tbody>
+  {% for x in r.sittings %}
+  <tr class="sitting-row" id="posiedzenie-{{ x.sitting }}" data-s="{{ x.sitting }}">
+    {{ sitting_cell(x.sitting) }}
+    <td class="num">{{ x.total }}</td><td class="num v-Y">{{ x.Y }}</td><td class="num v-N">{{ x.N }}</td><td class="num v-A">{{ x.A }}</td>
+    <td class="num">{% if x.X == x.total %}<span class="badge rejected">{{ _("wszystkie opuszczone") }}</span>{% elif x.X %}<span class="badge warn">{{ x.X }}</span>{% else %}0{% endif %}</td>
+    <td class="num">{{ x.rebel }}</td>
+    <td>{{ bar(x.Y, x.N, x.A, x.total) }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+<p class="note">{{ _("Opuszczone głosowanie to takie, w którym poseł był uprawniony do udziału, ale nie oddał głosu.") }}</p>
+{% endif %}
+
 {% if r.history | length > 1 %}
 <h2>{{ _("Historia przynależności klubowej") }}</h2>
-<table>
+<div class="table-scroll"><table>
   <thead><tr><th>{{ _("Klub") }}</th><th>{{ _("Od") }}</th><th>{{ _("Do") }}</th><th class="num">{{ _("Głosowania") }}</th></tr></thead>
   <tbody>
   {% for h in r.history %}
@@ -32,7 +57,7 @@
   <td style="white-space:nowrap">{{ h["from"] | date_pl }}</td><td style="white-space:nowrap">{{ h.to | date_pl }}</td><td class="num">{{ h.votes }}</td></tr>
   {% endfor %}
   </tbody>
-</table>
+</table></div>
 <p class="note">{{ _("Na podstawie przynależności zapisanej przy każdym głosowaniu; daty to pierwsze i ostatnie głosowanie w danym klubie.") }}</p>
 {% endif %}
 

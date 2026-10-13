@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% from "_macros.html" import result_badge, counts %}
+{% from "_breakdown.html" import assets, attrs, sitting_cell with context %}
 {% block title %}{{ c.name }} ({{ c.id }}){% endblock %}
 {% block description %}{{ c.name }}: {{ c.members | length }} {{ _("obecnych członków") }}, {{ _("spójność") }} {{ c.cohesion | pct }}, {{ _("skuteczność") }} {{ c.effectiveness | pct }}.{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
@@ -19,10 +20,33 @@
 <p><a href="{{ root }}poprawki/{{ club_slug(c.id) }}.html">{{ _("Wszystkie poprawki i wnioski zgłoszone przez klub") }} ({{ by_proposer[c.id] | length }}) →</a></p>
 {% endif %}
 
+{% if c.sittings %}
+<h2 id="posiedzenia">{{ _("Głosowania według posiedzeń") }}</h2>
+<p class="muted">{{ _("Kliknij posiedzenie, aby zobaczyć każde głosowanie i posłów klubu: kto nie głosował, kto wyłamał się z linii.") }}</p>
+{{ assets() }}
+<div class="table-scroll">
+<table {{ attrs("club", c.id) }}>
+  <thead><tr><th>{{ _("Posiedzenie") }}</th><th class="num">{{ _("Głosowania") }}</th><th class="num">{{ _("linia: za") }}</th><th class="num">{{ _("przeciw") }}</th><th class="num">{{ _("wstrz.") }}</th><th class="num">{{ _("podzielony") }}</th><th class="num">{{ _("Nieoddane głosy") }}</th><th class="num">{{ _("Wyłamania") }}</th></tr></thead>
+  <tbody>
+  {% for x in c.sittings %}
+  <tr class="sitting-row" id="posiedzenie-{{ x.sitting }}" data-s="{{ x.sitting }}">
+    {{ sitting_cell(x.sitting) }}
+    <td class="num">{{ x.votes }}</td><td class="num v-Y">{{ x.Y }}</td><td class="num v-N">{{ x.N }}</td><td class="num v-A">{{ x.A }}</td>
+    <td class="num">{{ x.split }}</td>
+    <td class="num">{% set share = x.X / (x.X + x.cast) if x.X + x.cast else 0 %}{% if share >= 0.1 %}<span class="badge warn">{{ share | pct }}</span>{% else %}{{ share | pct }}{% endif %}</td>
+    <td class="num">{{ x.rebels }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+<p class="note">{{ _("Nieoddane głosy: odsetek głosów, których posłowie klubu nie oddali, choć byli uprawnieni (nieobecność lub brak udziału w głosowaniu).") }}</p>
+{% endif %}
+
 <h2>{{ _("Zgodność z innymi klubami") }}</h2>
 <p class="muted">{{ _("Odsetek głosowań, w których oba kluby miały wyraźną linię i była ona taka sama (min. 20 wspólnych głosowań).") }}</p>
 {% if c.agreement %}
-<table>
+<div class="table-scroll"><table>
   <tbody>
   {% for o in c.agreement %}
   <tr>
@@ -33,7 +57,7 @@
   </tr>
   {% endfor %}
   </tbody>
-</table>
+</table></div>
 {% else %}<p class="muted">{{ _("Za mało danych.") }}</p>{% endif %}
 
 {% if c.members %}

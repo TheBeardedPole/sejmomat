@@ -8,7 +8,7 @@ Definitions (also explained on the site's methodology page):
   breaking the line.
 * Breaking the line: a club member who voted, but not the club line.
 """
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 MIN_CLUB_VOTERS = 3
 NO_CLUB = {"niez.", "?"}  # independents have no line to break
@@ -45,9 +45,11 @@ def mp_stats(sittings):
     """Per-MP aggregates over all votings.
 
     sittings: {sitting: [voting, ...]} with "clubs" (club_breakdown) set.
+    "sittings" in the result counts, per sitting, the MP's ballots by code
+    (Y/N/A/X) and the votes against the club line ("rebel").
     """
     stats = defaultdict(lambda: {"eligible": 0, "cast": 0, "with_line": 0,
-                                 "rebellions": [], "clubs": set()})
+                                 "rebellions": [], "clubs": set(), "sittings": defaultdict(Counter)})
     for s, votings in sittings.items():
         for v in votings:
             for club, groups in v["ballots"].items():
@@ -56,6 +58,7 @@ def mp_stats(sittings):
                     for mp in mps:
                         st = stats[mp]
                         st["eligible"] += 1
+                        st["sittings"][s][code] += 1
                         st["clubs"].add(club)
                         if code in CAST:
                             st["cast"] += 1
@@ -63,4 +66,5 @@ def mp_stats(sittings):
                                 st["with_line"] += 1
                                 if code != line:
                                     st["rebellions"].append((s, v["votingNumber"], code, line, club))
+                                    st["sittings"][s]["rebel"] += 1
     return stats

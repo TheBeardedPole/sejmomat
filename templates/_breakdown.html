@@ -1,0 +1,58 @@
+{# Votes by sitting on MP and club pages: one row of figures per sitting; a
+   click on it loads that sitting's votes (static/breakdown.js). Import
+   "with context". #}
+
+{# Styles and the script; once per page, before the table. #}
+{% macro assets() %}
+<style>
+  .sitting-row { cursor: pointer; scroll-margin-top: 12px; }
+  .sitting-row .when { color: var(--muted); white-space: nowrap; }
+  /* for / against / abstained / not cast, as shares of the row: --p1..--p3 are where the first three end */
+  .sbar { height: 10px; min-width: 120px; border-radius: 3px; background: linear-gradient(90deg, var(--y) 0 var(--p1),
+    var(--n) var(--p1) var(--p2), var(--a) var(--p2) var(--p3), var(--line) var(--p3) 100%); }
+  .sitting-row:hover > td { background: var(--bg); }
+  .sitting-row:target > td { background: var(--warn-bg); }
+  .sitting-votes h3 { margin: 14px 0 6px; }
+  .sitting-votes h3:first-child { margin-top: 0; }
+  .sitting-votes table { background: var(--surface); }
+  .sitting-votes tr.missed > td { background: var(--warn-bg); }
+  .sitting-votes .who { font-size: .88rem; }
+  .sitting-votes details .who { text-align: left; margin-top: 4px; min-width: 14em; }
+  .sitting-votes summary { cursor: pointer; }
+  .sitting-filter { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 8px; }
+  .sitting-filter .chip { font: inherit; font-size: .85rem; padding: 2px 10px; border: 1px solid var(--line); border-radius: 99px;
+    background: var(--surface); color: inherit; cursor: pointer; }
+  .sitting-filter .chip[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .sitting-filter .chip:disabled { opacity: .5; cursor: default; }
+</style>
+<script src="{{ site_root }}static/breakdown.js?v={{ static_version('breakdown.js') }}" defer></script>
+{% endmacro %}
+
+{# Attributes of the table: whose votes (kind "mp" or "club", id), where the data is, and the script's words. #}
+{% macro attrs(kind, id) -%}
+class="by-sitting" data-kind="{{ kind }}" data-id="{{ id }}" data-root="{{ root }}"
+  data-votes="{{ site_root }}dane/posiedzenia/{s}.json" data-ballots="{{ site_root }}dane/glosy/{s}.json" data-mps="{{ site_root }}dane/poslowie.json"
+  data-labels='{{ {
+    "vote": {"Y": _(VOTE_LABEL["Y"]), "N": _(VOTE_LABEL["N"]), "A": _(VOTE_LABEL["A"]), "X": _(VOTE_LABEL["X"])},
+    "short": {"A": _("wstrz."), "X": _("nie gł.")},
+    "line": {"Y": _(LINE_LABEL["Y"]), "N": _(LINE_LABEL["N"]), "A": _(LINE_LABEL["A"])},
+    "split": _("podzielony"), "all": _("Wszystkie"), "missed": _("Opuszczone"), "rebel": _("Wbrew klubowi"),
+    "allMissed": _("wszystkie opuszczone"), "nr": _("Nr"), "voting": _("Głosowanie"), "outcome": _("Wynik"),
+    "ballot": _("Głos"), "clubLine": _("Linia klubu"), "mp": _("Poseł"), "votes": _("Głosowania"),
+    "members": _("Posłowie klubu na tym posiedzeniu"), "loading": _("Wczytywanie…"),
+    "failed": _("Nie udało się wczytać głosowań. Kliknij ponownie, aby spróbować jeszcze raz."),
+    "none": _("Brak głosowań.")
+  } | tojson }}'
+{%- endmacro %}
+
+{# The first cell of a sitting's row: its name (the toggle) and dates. The
+   script adds the row that receives the votes when the sitting is opened. #}
+{% macro sitting_cell(s) -%}
+{% set vs = sittings[s] %}
+<td><button type="button" class="club-toggle" aria-expanded="false">{{ sitting_name(s) }}</button> <span class="when">· {{ vs[0].date | date_pl }}{% if vs[-1].date[:10] != vs[0].date[:10] %} – {{ vs[-1].date | date_pl }}{% endif %}</span></td>
+{%- endmacro %}
+
+{# A row's ballots as a bar: for, against, abstained, the rest not cast. #}
+{% macro bar(y, n, a, total) -%}
+<div class="sbar" style="--p1:{{ (y / total * 100) | round(1) }}%;--p2:{{ ((y + n) / total * 100) | round(1) }}%;--p3:{{ ((y + n + a) / total * 100) | round(1) }}%"></div>
+{%- endmacro %}

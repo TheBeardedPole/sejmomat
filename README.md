@@ -117,6 +117,22 @@ clubs of the governing coalition are `COALITION` and the groups of
 voivodeships are `MACRO_REGIONS` there — update `COALITION` when the
 coalition changes.
 
+## Votes by sitting (MPs and clubs)
+
+Every MP page and club page has a table "Głosowania według posiedzeń": one
+row of figures per sitting (for an MP: for / against / abstained / missed /
+against the club line; for a club: its line, split votes, ballots not cast,
+breaks). A click on a row loads that sitting's votes — an MP's ballot next
+to the club line, with missed votes flagged; for a club, its MPs ranked by
+votes missed and every vote with who did not vote or broke the line.
+
+The rows are in the page; the votes come on demand from two files per
+sitting shared by both languages, `dane/posiedzenia/N.json` (what was voted
+on, outcome, every club's line) and `dane/glosy/N.json` (ballots). The
+script is `static/breakdown.js`, loaded only by those pages and versioned
+on its own, so changing it does not touch every page. `#posiedzenie-N` in
+the address opens a sitting; sitting pages link to each club that way.
+
 ## Daily summaries for social media
 
 `sejmomat/social.py` turns each voting day into a ready-made summary in

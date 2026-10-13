@@ -5,6 +5,7 @@ import re
 import shutil
 from collections import Counter, defaultdict
 from datetime import datetime
+from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -183,6 +184,10 @@ def build_context():
             "rebel_rate": len(st["rebellions"]) / st["with_line"] if st["with_line"] else 0,
             "clubs": sorted(st["clubs"]),
             "history": history.get(mp_id, []),
+            # newest first: {"sitting", "Y", "N", "A", "X", "rebel", "total"}
+            "sittings": [{"sitting": s, **{k: c[k] for k in ("Y", "N", "A", "X", "rebel")},
+                          "total": c["Y"] + c["N"] + c["A"] + c["X"]}
+                         for s, c in sorted(st["sittings"].items(), reverse=True)],
             "switches": sum(1 for h in history.get(mp_id, [])[1:] if not h.get("rename")),
         })
     mp_rows.sort(key=lambda r: r["mp"]["firstLastName"].split()[-1])
@@ -396,7 +401,8 @@ def club_slug(club):
 def build_clubs(clubs, mps, by_id, mp_rows):
     """Per-club cohesion, effectiveness, agreement with other clubs, members."""
     stats = defaultdict(lambda: {"votes": 0, "shares": [], "split": [], "rebellions": 0,
-                                 "decided": 0, "won": 0, "first": None, "last": None})
+                                 "decided": 0, "won": 0, "first": None, "last": None,
+                                 "sittings": defaultdict(Counter)})
     agree = defaultdict(Counter)  # (a, b) -> {"same": n, "both": n}
     for v in sorted(by_id.values(), key=lambda v: v["date"]):
         lines = {}
@@ -408,8 +414,12 @@ def build_clubs(clubs, mps, by_id, mp_rows):
             st["first"] = st["first"] or v["date"]
             st["last"] = v["date"]
             voted = c["Y"] + c["N"] + c["A"]
+            # per sitting: votes, the club's line in them, ballots cast and not cast
+            here = st["sittings"][v["sitting"]]
+            here.update({"votes": 1, "cast": voted, "X": c["X"], "rebels": len(c["rebels"])})
             if voted >= analysis.MIN_CLUB_VOTERS:
                 st["shares"].append(c["share"])
+                here[c["line"] or "split"] += 1
                 if not c["line"]:
                     st["split"].append(v)
             st["rebellions"] += len(c["rebels"])
@@ -441,6 +451,9 @@ def build_clubs(clubs, mps, by_id, mp_rows):
             "split": st["split"], "rebellions": st["rebellions"],
             "effectiveness": st["won"] / st["decided"] if st["decided"] else 0,
             "agreement": others, "members": members,
+            # newest first: {"sitting", "votes", "Y", "N", "A", "split", "cast", "X", "rebels"}
+            "sittings": [{"sitting": s, **{k: c[k] for k in ("votes", "Y", "N", "A", "split", "cast", "X", "rebels")}}
+                         for s, c in sorted(st["sittings"].items(), reverse=True)],
             "current": club in clubs,
         })
     rows.sort(key=lambda r: (not r["current"], -len(r["members"]), r["id"]))
@@ -469,6 +482,14 @@ def asset_version():
     return digest.hexdigest()[:10]
 
 
+@cache
+def static_version(name):
+    """Content version of one script in static/ that only some pages load
+    ("static/breakdown.js?v=<this>"), so that changing it does not change
+    every page as a new asset_version() would."""
+    return hashlib.sha256((STATIC / name).read_bytes()).hexdigest()[:10]
+
+
 def _env(lang):
     env = Environment(
         loader=FileSystemLoader(TEMPLATES),
@@ -488,6 +509,7 @@ def _env(lang):
         VOTE_LABEL=VOTE_LABEL, LINE_LABEL=LINE_LABEL, MAJORITY_LABEL=MAJORITY_LABEL, KIND_LABEL=KIND_LABEL,
         print_url=print_url, pdf_url=pdf_url, act_url=act_url, TERM=TERM,
         post_weight=social.weight, POST_LIMIT=social.LIMIT, CARD_DIR=social.CARD_DIR,
+        static_version=static_version,
     )
     return env, t
 
@@ -511,7 +533,8 @@ def _pages(ctx):
     for name, votes in ctx["by_proposer"].items():
         yield "proposer.html", f"poprawki/{club_slug(name)}.html", {"name": name, "votes": votes}
     for s, votings in ctx["sittings"].items():
-        yield "sitting.html", f"posiedzenie/{s}.html", {"sitting": s, "votings": votings}
+        yield "sitting.html", f"posiedzenie/{s}.html", {
+            "sitting": s, "votings": votings, "sitting_clubs": {club for v in votings for club in v["ballots"]}}
         for v in votings:
             yield "voting.html", f"glosowanie/{s}-{v['votingNumber']}.html", {"v": v}
     for b in ctx["bills"]:
@@ -583,6 +606,16 @@ def run():
     for s, votings in ctx["sittings"].items():
         (SITE / "dane" / "glosy" / f"{s}.json").write_text(json.dumps(
             {v["votingNumber"]: v["ballots"] for v in votings}, separators=(",", ":")))
+    # What was voted on at a sitting, its outcome (in both languages) and every
+    # club's line: read, with the ballots above, by the votes-by-sitting
+    # tables on MP and club pages (static/breakdown.js).
+    (SITE / "dane" / "posiedzenia").mkdir(parents=True)
+    en = translator("en")
+    for s, votings in ctx["sittings"].items():
+        (SITE / "dane" / "posiedzenia" / f"{s}.json").write_text(json.dumps([
+            {"n": v["votingNumber"], "t": v.get("topic") or "", "a": v["agenda"], "o": v["outcome_class"],
+             "l": [v["outcome"], en(v["outcome"])], "c": {club: c["line"] for club, c in v["clubs"].items()}}
+            for v in votings], ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (SITE / "dane" / "poslowie.json").write_text(json.dumps(
         {m["id"]: m["firstLastName"] for m in ctx["mps"].values()}, ensure_ascii=False, separators=(",", ":")))
 

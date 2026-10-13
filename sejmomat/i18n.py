@@ -16,6 +16,23 @@ MONTHS = {
 }
 
 EN = {
+    # votes by sitting on MP and club pages
+    "Głosowania według posiedzeń": "Votes by sitting",
+    "Kliknij posiedzenie, aby zobaczyć każde głosowanie: głos posła, linię klubu i opuszczone głosowania.":
+        "Click a sitting to see every vote: the MP's ballot, the club line and the votes missed.",
+    "Kliknij posiedzenie, aby zobaczyć każde głosowanie i posłów klubu: kto nie głosował, kto wyłamał się z linii.":
+        "Click a sitting to see every vote and the club's MPs: who did not vote, who broke the line.",
+    "Opuszczone": "Missed", "Wbrew klubowi": "Against club line", "wszystkie opuszczone": "all missed",
+    "opuszczonych głosowań": "votes missed", "Wszystkie": "All", "Nr": "No.",
+    "Opuszczone głosowanie to takie, w którym poseł był uprawniony do udziału, ale nie oddał głosu.":
+        "A missed vote is one the MP was entitled to take part in but cast no ballot.",
+    "linia: za": "line: for", "Nieoddane głosy": "Ballots not cast",
+    "Nieoddane głosy: odsetek głosów, których posłowie klubu nie oddali, choć byli uprawnieni (nieobecność lub brak udziału w głosowaniu).":
+        "Ballots not cast: the share of ballots the club's MPs did not cast although entitled to (absent, or present but not voting).",
+    "Posłowie klubu na tym posiedzeniu": "The club's MPs at this sitting", "Wczytywanie…": "Loading…",
+    "Nie udało się wczytać głosowań. Kliknij ponownie, aby spróbować jeszcze raz.": "The votes could not be loaded. Click again to retry.",
+    "Brak głosowań.": "No votes.",
+    "Jak głosowały kluby i ich posłowie na tym posiedzeniu": "How the clubs and their MPs voted at this sitting",
     # day summaries (the posts themselves stay in Polish)
     "Podsumowania dni": "Daily summaries",
     "Podsumowania dni — opis": "A ready-made image and social media post after every voting day in the Sejm: bills passed, amendments adopted and how the clubs voted, with numbers taken straight from the data.",
