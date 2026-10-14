@@ -96,13 +96,62 @@ if (amendTable) {
   apply();
 }
 
+// Sections of MP and club pages as tabs (templates/_tabs.html): one shown
+// at a time, picked by a click or by the address, which a click updates
+// without jumping; arrow keys move between tabs.
+const tabBar = document.querySelector(".tab-bar");
+const tabPanels = document.querySelector(".tab-panels");
+const tabs = tabBar ? [...tabBar.querySelectorAll("a")] : [];
+const showTab = (id, focus = false) => {
+  const tab = tabs.find((t) => t.getAttribute("aria-controls") === id);
+  if (!tab) return;
+  for (const t of tabs) {
+    const on = t === tab;
+    t.setAttribute("aria-selected", String(on));
+    t.tabIndex = on ? 0 : -1;
+    document.getElementById(t.getAttribute("aria-controls"))?.classList.toggle("active", on);
+  }
+  // bring the tab into view in a bar that scrolls sideways, without moving the page
+  if (tab.offsetLeft < tabBar.scrollLeft || tab.offsetLeft + tab.offsetWidth > tabBar.scrollLeft + tabBar.clientWidth) {
+    tabBar.scrollLeft = tab.offsetLeft - 16;
+  }
+  if (focus) tab.focus();
+};
+if (tabBar && tabPanels && tabs.length) {
+  tabBar.setAttribute("role", "tablist");
+  for (const t of tabs) {
+    t.setAttribute("role", "tab");
+    const panel = document.getElementById(t.getAttribute("aria-controls"));
+    panel?.setAttribute("role", "tabpanel");
+    panel?.setAttribute("aria-labelledby", t.id);
+    t.addEventListener("click", (e) => {
+      e.preventDefault();
+      showTab(t.getAttribute("aria-controls"));
+      history.replaceState(null, "", t.getAttribute("href"));
+    });
+    t.addEventListener("keydown", (e) => {
+      const step = { ArrowRight: 1, ArrowLeft: -1 }[e.key];
+      if (!step) return;
+      e.preventDefault();
+      const next = tabs[(tabs.indexOf(t) + step + tabs.length) % tabs.length];
+      showTab(next.getAttribute("aria-controls"), true);
+      history.replaceState(null, "", next.getAttribute("href"));
+    });
+  }
+  showTab(tabs[0].getAttribute("aria-controls"));
+  tabPanels.classList.add("ready");
+}
+
 // Jumping to an anchor inside a collapsed <details> (the index of law
-// changes on bill pages): open the sections around the target first.
+// changes on bill pages) or a tab that is not shown: open the sections
+// around the target first. A tab's own address scrolls to the tab bar.
 const revealTarget = () => {
   const target = location.hash.length > 1 && document.getElementById(decodeURIComponent(location.hash.slice(1)));
   if (!target) return;
+  const panel = target.closest(".tab-panels > .tab-panel");
+  if (panel) showTab(panel.id);
   for (let d = target.closest("details"); d; d = d.parentElement?.closest("details")) d.open = true;
-  target.scrollIntoView({ block: "start" });
+  (target === panel ? tabBar : target).scrollIntoView({ block: "start" });
 };
 window.addEventListener("hashchange", revealTarget);
 revealTarget();
@@ -312,3 +361,32 @@ if (foot) {
 const consent = readConsent();
 if (consent) applyConsent(consent.optional);
 else consentBar.hidden = false;
+
+// Light/dark switch in the header. The choice is kept in localStorage (a
+// setting the reader asked for, so no consent needed) and applied by the
+// inline script in <head> before the page is drawn; with no choice made the
+// page follows the system setting.
+const THEME_KEY = "sejmomat-theme";
+const systemDark = matchMedia("(prefers-color-scheme: dark)");
+const isDark = () => (document.documentElement.dataset.theme || (systemDark.matches ? "dark" : "light")) === "dark";
+document.querySelectorAll(".theme-switch").forEach((btn) => {
+  const sync = () => btn.setAttribute("aria-pressed", String(isDark()));
+  sync();
+  systemDark.addEventListener("change", sync);
+  btn.addEventListener("click", () => {
+    const theme = isDark() ? "light" : "dark";
+    document.documentElement.dataset.theme = theme;
+    try {
+      // picking what the system already shows means "follow the system"
+      if (theme === (systemDark.matches ? "dark" : "light")) {
+        delete document.documentElement.dataset.theme;
+        localStorage.removeItem(THEME_KEY);
+      } else {
+        localStorage.setItem(THEME_KEY, theme);
+      }
+    } catch {
+      // storage unavailable: the choice lasts for this page only
+    }
+    sync();
+  });
+});

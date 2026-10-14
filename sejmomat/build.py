@@ -260,11 +260,17 @@ def build_context():
             "seconds": sum(x["seconds"] or 0 for x in items),
             "topics": Counter((x["topic"], x["bill"]) for x in items if x["topic"] != "—").most_common(5),
         }
+    # a club's own name says nothing about what it talks about ("Razem" even
+    # came out as "raz"), so it is left out of its cloud and its MPs' clouds
+    def club_words(club):
+        return re.findall(r"[^\W_]+", f"{club} {clubs.get(club, '')}")
+
     by_club = defaultdict(list)
     for r in mp_rows:
         mine = speeches_by_mp.get(r["mp"]["id"], [])
-        r["speeches"] = {**speech_figures(mine), "cloud": vocabulary.cloud(
-            [x["text"] for x in mine], exclude=(r["mp"].get("firstLastName") or "").split())}
+        own = (r["mp"].get("firstLastName") or "").split()
+        own += [w for club in {h["club"] for h in r["history"]} | {r["mp"].get("club") or ""} for w in club_words(club)]
+        r["speeches"] = {**speech_figures(mine), "cloud": vocabulary.cloud([x["text"] for x in mine], exclude=own)}
         for x in mine:
             by_club[club_at(r["mp"]["id"], x["date"])].append((r["mp"]["id"], x))
     for c in club_rows:
@@ -272,7 +278,8 @@ def build_context():
         speakers = Counter(mp for mp, _ in mine)
         c["speeches"] = {**speech_figures([x for _, x in mine]),
                          "speakers": speakers.most_common(10),
-                         "cloud": vocabulary.cloud([x["text"] for _, x in mine], min_count=10, min_texts=5)}
+                         "cloud": vocabulary.cloud([x["text"] for _, x in mine], min_count=10, min_texts=5,
+                                                   exclude=club_words(c["id"]))}
     for root, items in speeches_by_bill.items():
         bill_by_root[root]["speeches"] = {
             "count": len(items), "others": sum(1 for x in items if not x["mp"]),
@@ -503,13 +510,19 @@ def build_clubs(clubs, mps, by_id, mp_rows):
             (r for r in mp_rows if r["mp"].get("club") == club and r["mp"].get("active")),
             key=lambda r: r["mp"]["firstLastName"].split()[-1],
         )
+        # MPs who voted as members of the club but are not in it now
+        current = {id(r) for r in members}
+        former = sorted(
+            (r for r in mp_rows if id(r) not in current and any(h["club"] == club for h in r["history"])),
+            key=lambda r: r["mp"]["firstLastName"].split()[-1],
+        )
         rows.append({
             "id": club, "slug": club_slug(club), "name": clubs.get(club, club),
             "votes": st["votes"], "first": st["first"], "last": st["last"],
             "cohesion": sum(st["shares"]) / len(st["shares"]) if st["shares"] else 0,
             "split": st["split"], "rebellions": st["rebellions"],
             "effectiveness": st["won"] / st["decided"] if st["decided"] else 0,
-            "agreement": others, "members": members,
+            "agreement": others, "members": members, "former": former,
             # newest first: {"sitting", "votes", "Y", "N", "A", "split", "cast", "X", "rebels"}
             "sittings": [{"sitting": s, **{k: c[k] for k in ("votes", "Y", "N", "A", "split", "cast", "X", "rebels")}}
                          for s, c in sorted(st["sittings"].items(), reverse=True)],

@@ -1,13 +1,19 @@
 :root { --bg: #f6f5f1; --surface: #fff; --text: #1d1d1f; --muted: #6b6b70; --line: #e2dfd8; --accent: #1d5fc4;
   --green: #2e8b57; --blue: #2779b8; --yellow: #c9930a; --orange: #cc5f1c; --grey: #85858c; --red: #b3261e;
   --ok-bg: #e3f3e9; --bad-bg: #fbe4e2; --shadow: 0 1px 2px rgb(0 0 0 / .06), 0 4px 14px rgb(0 0 0 / .05); }
+/* dark: the Sejmomat theme switch's choice, or the system's when none is made */
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #121214; --surface: #1c1c20; --text: #ececee; --muted: #9a9aa2; --line: #2f2f35; --accent: #7db8ff;
+  :root:not([data-theme="light"]) { --bg: #121214; --surface: #1c1c20; --text: #ececee; --muted: #9a9aa2; --line: #2f2f35; --accent: #7db8ff;
     --green: #3aa56c; --blue: #3b8fd0; --yellow: #d6a51f; --orange: #e0752f; --grey: #5e5e66; --red: #ff6b60;
     --ok-bg: #173a28; --bad-bg: #462220; --shadow: 0 1px 2px rgb(0 0 0 / .4); }
 }
+:root[data-theme="dark"] { --bg: #121214; --surface: #1c1c20; --text: #ececee; --muted: #9a9aa2; --line: #2f2f35; --accent: #7db8ff;
+    --green: #3aa56c; --blue: #3b8fd0; --yellow: #d6a51f; --orange: #e0752f; --grey: #5e5e66; --red: #ff6b60;
+    --ok-bg: #173a28; --bad-bg: #462220; --shadow: 0 1px 2px rgb(0 0 0 / .4); }
 /* native controls and scrollbars follow the light or dark theme */
 :root { color-scheme: light dark; }
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
 * { box-sizing: border-box; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
 body { margin: 0 auto; max-width: 880px; padding: 20px 16px 40px; background: var(--bg); color: var(--text);
   font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
@@ -31,7 +37,8 @@ header { text-align: center; }
   background: none; color: var(--muted); cursor: pointer; }
 .tabs button:hover { color: var(--text); }
 .tabs button[aria-selected="true"] { background: var(--accent); color: #fff; }
-@media (prefers-color-scheme: dark) { .tabs button[aria-selected="true"] { color: #0d1b2e; } }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tabs button[aria-selected="true"] { color: #0d1b2e; } }
+:root[data-theme="dark"] .tabs button[aria-selected="true"] { color: #0d1b2e; }
 
 /* Endless mode switch (testing aid). */
 .mode { font: inherit; font-size: .85rem; font-weight: 600; padding: 5px 12px; border-radius: 99px; cursor: pointer;
@@ -71,7 +78,8 @@ dialog.help li { margin: 8px 0; }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 .btn.yes { background: var(--green); border-color: var(--green); color: #fff; }
 .btn.no { background: var(--red); border-color: var(--red); color: #fff; }
-@media (prefers-color-scheme: dark) { .btn.primary { color: #0d1b2e; } .btn.no { color: #2a0d0b; } }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn.primary { color: #0d1b2e; } :root:not([data-theme="light"]) .btn.no { color: #2a0d0b; } }
+:root[data-theme="dark"] .btn.primary { color: #0d1b2e; } :root[data-theme="dark"] .btn.no { color: #2a0d0b; }
 .btn:disabled { opacity: .5; cursor: default; }
 .guess { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 12px 0; }
 .guess input { flex: 1 1 220px; font: inherit; padding: 9px 12px; border-radius: 10px; border: 2px solid var(--line);
@@ -173,7 +181,8 @@ ul.committees li { margin: 3px 0; }
 .segs { display: inline-flex; border: 1px solid var(--line); border-radius: 99px; overflow: hidden; background: var(--surface); }
 .seg { font: inherit; font-size: .88rem; font-weight: 600; padding: 5px 14px; border: 0; background: none; color: var(--muted); cursor: pointer; }
 .seg[aria-pressed="true"] { background: var(--accent); color: #fff; }
-@media (prefers-color-scheme: dark) { .seg[aria-pressed="true"] { color: #0d1b2e; } }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .seg[aria-pressed="true"] { color: #0d1b2e; } }
+:root[data-theme="dark"] .seg[aria-pressed="true"] { color: #0d1b2e; }
 .chips { display: flex; flex-wrap: wrap; gap: 5px; }
 .chip { font: inherit; font-size: .82rem; padding: 3px 9px; border-radius: 99px; border: 1px solid var(--line);
   background: var(--bg); color: var(--text); cursor: pointer; }

@@ -2,6 +2,7 @@
 {% from "_macros.html" import result_badge, counts %}
 {% from "_breakdown.html" import assets, attrs, sitting_cell with context %}
 {% from "_speeches.html" import summary as speech_summary, cloud, styles as speech_styles with context %}
+{% from "_tabs.html" import bar as tab_bar with context %}
 {% block title %}{{ c.name }} ({{ c.id }}){% endblock %}
 {% block description %}{{ c.name }}: {{ c.members | length }} {{ _("obecnych członków") }}, {{ _("spójność") }} {{ c.cohesion | pct }}, {{ _("skuteczność") }} {{ c.effectiveness | pct }}.{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
@@ -11,9 +12,9 @@
 <p class="muted">{{ c.id }} · {{ _("głosowania od") }} {{ c.first | date_pl }} {{ _("do") }} {{ c.last | date_pl }}{% if not c.current %} · {{ _("klub/koło już nie istnieje") }}{% endif %}</p>
 
 <div class="grid">
-  <div class="card stat"><b>{{ c.members | length }}</b>{{ _("obecnych członków") }}</div>
+  <div class="card stat"><b>{% if c.members %}<a href="#czlonkowie">{{ c.members | length }}</a>{% else %}0{% endif %}</b>{{ _("obecnych członków") }}</div>
   <div class="card stat"><b>{{ c.cohesion | pct }}</b>{{ _("spójność") }}</div>
-  <div class="card stat"><b>{{ c.split | length }}</b>{{ _("głosowań z podziałem") }}</div>
+  <div class="card stat"><b>{% if c.split %}<a href="#podzialy">{{ c.split | length }}</a>{% else %}0{% endif %}</b>{{ _("głosowań z podziałem") }}</div>
   <div class="card stat"><b>{{ c.effectiveness | pct }}</b>{{ _("skuteczność") }}</div>
 </div>
 
@@ -21,12 +22,23 @@
 <p><a href="{{ root }}poprawki/{{ club_slug(c.id) }}.html">{{ _("Wszystkie poprawki i wnioski zgłoszone przez klub") }} ({{ by_proposer[c.id] | length }}) →</a></p>
 {% endif %}
 
+{% set sp = c.speeches %}
+{% set has_speeches = sp and (sp.spoken or sp.written) %}
+{% set tabs = ([("posiedzenia", _("Głosowania"), none)] if c.sittings else [])
+  + ([("wystapienia", _("Wystąpienia"), sp.spoken + sp.written)] if has_speeches else [])
+  + ([("czlonkowie", _("Członkowie"), (c.members | length) or none)] if c.members or c.former else [])
+  + [("zgodnosc", _("Zgodność"), none)]
+  + ([("podzialy", _("Podziały"), c.split | length)] if c.split else []) %}
+{{ tab_bar(tabs) }}
+<div class="tab-panels">
+
 {% if c.sittings %}
-<h2 id="posiedzenia">{{ _("Głosowania według posiedzeń") }}</h2>
+<section class="tab-panel" id="posiedzenia">
+<h2 class="tab-title">{{ _("Głosowania według posiedzeń") }}</h2>
 <p class="muted">{{ _("Kliknij posiedzenie, aby zobaczyć każde głosowanie i posłów klubu: kto nie głosował, kto wyłamał się z linii.") }}</p>
 {{ assets() }}
 <div class="table-scroll">
-<table {{ attrs("club", c.id) }}>
+<table {{ attrs("club", c.id) }} data-current="{{ c.members | map(attribute="mp.id") | join(",") }}">
   <thead><tr><th>{{ _("Posiedzenie") }}</th><th class="num">{{ _("Głosowania") }}</th><th class="num">{{ _("linia: za") }}</th><th class="num">{{ _("przeciw") }}</th><th class="num">{{ _("wstrz.") }}</th><th class="num">{{ _("podzielony") }}</th><th class="num">{{ _("Nieoddane głosy") }}</th><th class="num">{{ _("Wyłamania") }}</th></tr></thead>
   <tbody>
   {% for x in c.sittings %}
@@ -42,22 +54,26 @@
 </table>
 </div>
 <p class="note">{{ _("Nieoddane głosy: odsetek głosów, których posłowie klubu nie oddali, choć byli uprawnieni (nieobecność lub brak udziału w głosowaniu).") }}</p>
+</section>
 {% endif %}
 
-{% set sp = c.speeches %}
-{% if sp and (sp.spoken or sp.written) %}
-<h2 id="wystapienia">{{ _("Wystąpienia") }} ({{ sp.spoken + sp.written }})</h2>
+{% if has_speeches %}
+<section class="tab-panel" id="wystapienia">
+<h2 class="tab-title">{{ _("Wystąpienia") }} ({{ sp.spoken + sp.written }})</h2>
 {{ speech_styles() }}
 <p class="muted">{{ _("Wystąpienia posłów w czasie, gdy należeli do tego klubu lub koła.") }}</p>
 {{ speech_summary(sp) }}
 {{ cloud(sp.cloud) }}
 {% if sp.speakers %}
 <h3>{{ _("Najczęściej zabierają głos") }}</h3>
-<ol class="speakers">{% for mp, n in sp.speakers %}<li><a href="{{ root }}posel/{{ mp }}.html#wystapienia">{{ mps[mp].firstLastName if mp in mps else "#" ~ mp }}</a> <span class="muted">({{ n }})</span></li>{% endfor %}</ol>
+{% set current_ids = c.members | map(attribute="mp.id") | list %}
+<ol class="speakers">{% for mp, n in sp.speakers %}<li><a href="{{ root }}posel/{{ mp }}.html#wystapienia">{{ mps[mp].firstLastName if mp in mps else "#" ~ mp }}</a> <span class="muted">({{ n }})</span>{% if mp not in current_ids %} <span class="badge former">{{ _("były członek") }}</span>{% endif %}</li>{% endfor %}</ol>
 {% endif %}
+</section>
 {% endif %}
 
-<h2>{{ _("Zgodność z innymi klubami") }}</h2>
+<section class="tab-panel" id="zgodnosc">
+<h2 class="tab-title">{{ _("Zgodność z innymi klubami") }}</h2>
 <p class="muted">{{ _("Odsetek głosowań, w których oba kluby miały wyraźną linię i była ona taka sama (min. 20 wspólnych głosowań).") }}</p>
 {% if c.agreement %}
 <div class="table-scroll"><table>
@@ -73,9 +89,12 @@
   </tbody>
 </table></div>
 {% else %}<p class="muted">{{ _("Za mało danych.") }}</p>{% endif %}
+</section>
 
+{% if c.members or c.former %}
+<section class="tab-panel" id="czlonkowie">
 {% if c.members %}
-<h2>{{ _("Członkowie") }} ({{ c.members | length }})</h2>
+<h2 class="tab-title">{{ _("Członkowie") }} ({{ c.members | length }})</h2>
 <div class="table-scroll">
 <table>
   <thead><tr><th data-sort="text">{{ _("Poseł") }}</th><th class="num" data-sort="num">{{ _("Udział w głos.") }}</th><th class="num" data-sort="num">{{ _("Wyłamania") }}</th><th class="num" data-sort="num">{{ _("% wyłamań") }}</th></tr></thead>
@@ -92,9 +111,32 @@
 </table>
 </div>
 {% endif %}
+{% if c.former %}
+<h3 id="byli-czlonkowie">{{ _("Byli członkowie") }} ({{ c.former | length }})</h3>
+<p class="muted">{{ _("Posłowie, którzy głosowali jako członkowie tego klubu lub koła, a dziś do niego nie należą.") }}</p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th data-sort="text">{{ _("Poseł") }}</th><th>{{ _("W klubie") }}</th><th data-sort="text">{{ _("Obecnie") }}</th></tr></thead>
+  <tbody>
+  {% for r in c.former %}
+  <tr>
+    <td data-v="{{ r.mp.firstLastName.split()[-1] }}"><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a> <span class="badge former">{{ _("były członek") }}</span></td>
+    <td style="white-space:nowrap">{% for h in r.history if h.club == c.id %}{{ h["from"] | date_pl }} – {{ h.to | date_pl }}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>
+    {% if not r.mp.active %}<td data-v="~">{{ _("mandat wygasły") }}</td>
+    {% elif r.mp.club %}<td data-v="{{ r.mp.club }}"><a href="{{ root }}klub/{{ club_slug(r.mp.club) }}.html">{{ r.mp.club }}</a></td>
+    {% else %}<td data-v="~">—</td>{% endif %}
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endif %}
+</section>
+{% endif %}
 
 {% if c.split %}
-<h2>{{ _("Głosowania z podziałem w klubie") }} ({{ c.split | length }})</h2>
+<section class="tab-panel" id="podzialy">
+<h2 class="tab-title">{{ _("Głosowania z podziałem w klubie") }} ({{ c.split | length }})</h2>
 <p class="muted">{{ _("Żadna opcja nie uzyskała większości wśród głosujących członków. Najnowsze na górze.") }}</p>
 <div class="table-scroll"><table><tbody>
 {% for v in c.split | reverse %}{% if loop.index <= 100 %}{% set cc = v.clubs[c.id] %}
@@ -106,5 +148,8 @@
 </tr>
 {% endif %}{% endfor %}
 </tbody></table></div>
+</section>
 {% endif %}
+
+</div>
 {% endblock %}

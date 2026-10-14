@@ -96,6 +96,11 @@ EN = {
         "Amendment texts are extracted automatically from Sejm prints — the official print is authoritative. Legal texts are in Polish.",
     "Wygenerowano": "Generated",
     "Kod źródłowy": "Source code",
+    "Tryb ciemny": "Dark mode",
+    "były członek": "former member", "Byli członkowie": "Former members", "W klubie": "In the club", "Obecnie": "Now",
+    "Posłowie, którzy głosowali jako członkowie tego klubu lub koła, a dziś do niego nie należą.":
+        "MPs who voted as members of this club or group and no longer belong to it.",
+    "Sekcje": "Sections", "Zgodność": "Agreement", "Poprawki i wnioski": "Amendments and motions",
     "Wesprzyj projekt": "Support the project",
     "Prywatność": "Privacy",
     "Prywatność — opis": "Sejmomat uses no cookies, tracking or ads. What the hosting provider logs, what is kept in your browser, and where the data about MPs comes from.",

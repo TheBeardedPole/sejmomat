@@ -21,13 +21,14 @@
 <meta property="og:locale" content="{{ 'pl_PL' if lang == 'pl' else 'en_GB' }}">
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#b3122e">
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("sejmomat-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="stylesheet" href="{{ site_root }}static/style.css?v={{ asset_version }}">
 {% block head %}{% endblock %}
 </head>
 <body>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="{{ root }}index.html">Sejmomat</a>
+    <a class="brand" href="{{ root }}index.html"><span class="logo" role="img" aria-label="Sejmomat"></span></a>
     <nav>
       <a href="{{ root }}posiedzenia.html">{{ _("Posiedzenia") }}</a>
       <a href="{{ root }}ustawy.html">{{ _("Ustawy") }}</a>
@@ -37,9 +38,15 @@
       <a href="{{ root }}szukaj.html">{{ _("Szukaj") }}</a>
       <a href="{{ root }}metodologia.html">{{ _("Metodologia") }}</a>
     </nav>
-    <div class="lang">
-      {% if lang == "pl" %}<strong>PL</strong> · <a href="{{ alternates.en }}" hreflang="en" lang="en">EN</a>
-      {% else %}<a href="{{ alternates.pl }}" hreflang="pl" lang="pl">PL</a> · <strong>EN</strong>{% endif %}
+    <div class="tools">
+      <div class="lang">
+        {% if lang == "pl" %}<strong>PL</strong> · <a href="{{ alternates.en }}" hreflang="en" lang="en">EN</a>
+        {% else %}<a href="{{ alternates.pl }}" hreflang="pl" lang="pl">PL</a> · <strong>EN</strong>{% endif %}
+      </div>
+      <button type="button" class="theme-switch" aria-label="{{ _("Tryb ciemny") }}" title="{{ _("Tryb ciemny") }}">
+        <svg class="moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor" stroke="none"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+      </button>
     </div>
   </div>
 </header>

@@ -8,6 +8,8 @@
   if (!table) return;
   const { kind, id, votes, ballots, mps, root } = table.dataset;
   const L = JSON.parse(table.dataset.labels);
+  // a club page lists its current members, to tag those who have left since
+  const current = table.dataset.current !== undefined ? new Set(table.dataset.current.split(",").filter(Boolean).map(Number)) : null;
   const EN = document.documentElement.lang === "en";
   const CODES = ["Y", "N", "A", "X"];
   const NO_LINE = new Set(["niez.", "?"]); // MPs outside any club have no line to follow
@@ -116,7 +118,8 @@
     const memberRows = [...members].sort((a, b) => b[1].missed - a[1].missed || name(a[0]).localeCompare(name(b[0]), "pl"))
       // the row stands out when at least half of the sitting's votes were missed
       .map(([mp, m]) => el("tr", { className: m.missed * 2 >= m.total ? "missed" : "" }, [
-        el("td", {}, [el("a", { href: mpPage(mp, s), textContent: name(mp) }), " ", m.missed === m.total ? flag(L.allMissed) : null]),
+        el("td", {}, [el("a", { href: mpPage(mp, s), textContent: name(mp) }), " ", m.missed === m.total ? flag(L.allMissed) : null,
+          current && !current.has(mp) ? el("span", { className: "badge former", textContent: L.former }) : null]),
         el("td", { className: "num", textContent: m.total }),
         el("td", { className: "num" }, [m.missed ? el("strong", { className: "v-X", textContent: m.missed }) : "0"]),
         el("td", { className: "num", textContent: m.rebel }),

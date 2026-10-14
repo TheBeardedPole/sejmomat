@@ -1,0 +1,14 @@
+{# Sections of MP and club pages as tabs. The bar is a row of links to the
+   sections' ids; static/app.js turns it into tabs and shows one section at a
+   time, the one the address points to (also "#posiedzenie-N" and other ids
+   inside a section). Without scripts every section is shown, as before.
+   Usage: {{ bar([(id, label, count or none), ...]) }}, then each section as
+   <section class="tab-panel" id="..."><h2 class="tab-title">...</h2>...</section>
+   inside <div class="tab-panels">. Import "with context". #}
+{% macro bar(items) %}
+<div class="tab-bar" aria-label="{{ _("Sekcje") }}">
+  {%- for id, label, n in items %}
+  <a href="#{{ id }}" id="tab-{{ id }}" aria-controls="{{ id }}">{{ label }}{% if n is not none %} <span class="tab-count">{{ n }}</span>{% endif %}</a>
+  {%- endfor %}
+</div>
+{% endmacro %}
