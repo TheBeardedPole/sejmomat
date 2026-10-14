@@ -36,48 +36,37 @@ Live on sejmomat.pl:
   `podsumowania.html`, `api/v1/summaries.json`): per voting day a
   summary image with a "Zobacz więcej na sejmomat.pl" footer, a caption,
   and text posts; copy, download and share buttons. Figures come straight
-  from the data, no language model.
+  from the data, no language model. Images use Noto Sans (installed in
+  `update.yml`).
 - **Votes by sitting** on MP and club pages (`templates/_breakdown.html`,
   `static/breakdown.js`): per-sitting rows, each opening every vote, with
   missed votes and breaks of the club line flagged; sitting pages link to
   each club's breakdown (`klub/X.html#posiedzenie-N`).
-
-Branches on GitHub, not merged:
-
-- **`wystapienia`:** speeches in the chamber (see README, "Speeches in
-  the chamber"). `sejmomat/speeches.py` fetches transcripts into
-  `data/speeches/<date>.json`: the whole term to 9 October 2026 (202
-  sitting days, 48,377 statements, 115 MB), downloaded locally. MP, club
-  and bill pages get a "Wystąpienia" section: word clouds on MP and club
-  pages (Morfeusz 2 / SGJP dictionary forms, new dependency `morfeusz2`;
-  a click on a word in an MP's cloud searches their speeches in all its
-  forms); MP and bill pages list speeches with text, video, transcript
-  link and the bill's vote; voting pages link to the bill's debate.
-  Checked locally against the full data: build about 80 s and 2.2 GB of
-  memory; speech files `dane/wystapienia/` 130 MB and `dane/debaty/`
-  94 MB. To go live: merge to `main` and rebuild; that rebuild changes
-  every MP, club, bill and voting page and uploads the speech files once.
-  From then on `fetch` adds new days (a few hundred requests per sitting
-  day). Merge it together with its `data/speeches/`; without the data,
-  the first CI fetch would download the whole term.
-- **`sejmdle-niezrzeszeni`:** Sejmdle's coalition/opposition conditions
+- **Speeches in the chamber** (see README, "Speeches in the chamber").
+  `sejmomat/speeches.py` fetches transcripts into
+  `data/speeches/<date>.json` (the whole term from 13 November 2023 is
+  committed; `fetch` adds new days, a few hundred requests per sitting
+  day). MP, club and bill pages have a "Wystąpienia" section: word clouds
+  on MP and club pages (Morfeusz 2 / SGJP dictionary forms, dependency
+  `morfeusz2`; a click on a word in an MP's cloud searches their speeches
+  in all its forms); MP and bill pages list speeches with text, video,
+  transcript link and the bill's vote; voting pages link to the bill's
+  debate. Full build: about 80–150 s and 2.2 GB of memory; speech files
+  `dane/wystapienia/` 130 MB and `dane/debaty/` 94 MB.
+- **Sejmdle independents:** the coalition/opposition conditions
   (Prezydium, Siatka) count each independent MP with the side they vote
   with: coalition if at least 60% of their ballots in the contested final
   votes matched the coalition majority's choice, opposition at 40% or
-  less, otherwise neither. Ready to merge; it goes live with the push
-  (`games/**`).
+  less, otherwise neither.
 
 Waiting on the owner:
 
-- **`dev/pending/workflows.patch`** (on `wystapienia`): `social.yml`,
-  automatic posting of the day summary to X and/or Bluesky (off until the
-  repository variable `SOCIAL_AUTOPOST` is `true`; secrets `X_API_KEY`,
-  `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_TOKEN_SECRET` and/or
-  `BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`; the X API is paid per post),
-  and one line in `update.yml` installing the Noto Sans font for the
-  summary images (they fall back to DejaVu Sans until then). Apply with
-  `git apply dev/pending/workflows.patch` after the `workflow` scope is
-  granted, commit, push, then delete `dev/pending/`.
+- **Posting day summaries** (`.github/workflows/social.yml`): to X
+  and/or Bluesky, off until the repository variable `SOCIAL_AUTOPOST` is
+  `true`; needs secrets `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`,
+  `X_ACCESS_TOKEN_SECRET` and/or `BLUESKY_HANDLE`,
+  `BLUESKY_APP_PASSWORD` (the X API is paid per post). A manual run
+  without "publish" only shows what would be posted.
 - Scheduled data updates are paused until the date in the repository
   variable `PAUSE_SCHEDULED_UNTIL`.
 
