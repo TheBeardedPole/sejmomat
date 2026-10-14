@@ -1,11 +1,13 @@
 {% extends "base.html" %}
 {% from "_macros.html" import result_badge, counts, author_label %}
-{% from "_cards.html" import teaser as share_teaser with context %}
+{% from "_cards.html" import teaser as share_teaser, upcoming_card with context %}
 {% block generated %}{{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.{% endblock %}
 {% block description %}{{ _("Głosowania w Sejmie: pokazane jak należy.") }} {{ _("Poprawki w odpowiednim kontekście, lepsze statystyki, podsumowania danych.") }}{% endblock %}
 {% block content %}
 <h1>{{ _("Głosowania w Sejmie: pokazane jak należy.") }}</h1>
 <p class="tagline">{{ _("Poprawki w odpowiednim kontekście, lepsze statystyki, podsumowania danych.") }}</p>
+
+{{ upcoming_card() }}
 
 {% set L = latest %}
 <h2>{{ _("Ostatnie posiedzenie") }}: <a href="{{ root }}posiedzenie/{{ L.sitting }}.html">{{ sitting_name(L.sitting) }}</a>

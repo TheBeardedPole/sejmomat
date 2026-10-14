@@ -82,6 +82,20 @@ EN = {
     "Szukaj posła, okręgu, klubu…": "Search for an MP, constituency, club…", "Wszystkie kluby": "All clubs",
     "Wszystkie okręgi": "All constituencies", "Mandat": "Mandate", "Obecni i byli posłowie": "Current and former MPs",
     "Obecni posłowie": "Current MPs", "Wygasłe mandaty": "Former MPs", "Tylko ci, którzy zmienili klub": "Only those who switched clubs",
+    "Nadchodzące posiedzenie": "Upcoming sitting", "Trwające posiedzenie": "Sitting under way", "porządek obrad": "agenda",
+    "punktów": "items", "Porządek obrad następnego posiedzenia Sejmu.": "The agenda of the Sejm's next sitting.",
+    "dni obrad": "days of proceedings", "punktów w porządku obrad": "items on the agenda",
+    "punktów, które mogą zostać dodane": "items that may be added", "pierwszych czytań projektów": "first readings of bills",
+    "projektów wykonujących prawo UE": "bills implementing EU law",
+    "Porządek obrad opublikowany przez Sejm. Może się jeszcze zmienić, a kolejność punktów ustala Marszałek Sejmu bezpośrednio przed posiedzeniem. Po posiedzeniu znajdziesz tu wyniki głosowań.":
+        "The agenda as published by the Sejm, in Polish. It may still change, and the Speaker sets the order of the items just before the sitting. After the sitting, the results of the votes appear on this site.",
+    "Porządek obrad": "Agenda", "Projekt mający na celu wykonanie prawa Unii Europejskiej": "Bill implementing European Union law",
+    "Przebieg prac nad projektem": "How the bill has progressed",
+    "Porządek obrad następnego posiedzenia nie został jeszcze opublikowany. Sejm ogłasza go zwykle około tygodnia przed posiedzeniem.":
+        "The agenda of the next sitting has not been published yet. The Sejm usually announces it about a week before the sitting.",
+    "Porządek obrad następnego posiedzenia nie został jeszcze opublikowany.": "The agenda of the next sitting has not been published yet.",
+    "Kolejne planowane posiedzenia": "Planned sittings after that", "kolejne mogą zostać dodane": "more may be added",
+    "Cały porządek obrad": "The whole agenda", "Najbliższe planowane posiedzenie": "Next planned sitting",
     "Udostępnij": "Share", "Skopiowano link": "Link copied", "Za": "For", "Przeciw": "Against",
     "Gotowe grafiki i wpisy do mediów społecznościowych po każdym dniu głosowań. Liczby i nazwy pochodzą wprost z danych, bez komentarza.":
         "Ready-made images and social media posts after every voting day. Numbers and names come straight from the data, without commentary.",

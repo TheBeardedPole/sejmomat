@@ -9,7 +9,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, authors, social, speeches
+from . import agenda, analysis, authors, social, speeches
 from .stamp import stamp
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM
 from .i18n import LANGS, date_fmt, pct_fmt, translator
@@ -326,6 +326,19 @@ def build_context():
         key=lambda n: (int(n.split("-")[0]), n),
     )
 
+    # The next sitting's agenda, its items linked to bills, prints and the
+    # MPs who present them.
+    upcoming, planned = agenda.upcoming()
+    if upcoming:
+        mp_ids = {r["mp"]["firstLastName"]: r["mp"]["id"] for r in mp_rows}
+        name_re = re.compile("|".join(map(re.escape, sorted(mp_ids, key=len, reverse=True))))
+        for g in upcoming["groups"]:
+            for item in g["items"]:
+                item["bill"] = next((b for b in map(bill_of_print, item["prints"]) if b), None)
+                # each note as pieces: (text, MP id when the text is an MP's name)
+                item["notes"] = [[(part, mp_ids.get(part)) for part in re.split(f"({name_re.pattern})", note) if part]
+                                 for note in item["notes"]]
+
     linked = sum(1 for v in by_id.values() for a in v["amendments"] if a["item"])
     total = sum(1 for v in by_id.values() for a in v["amendments"])
     return {
@@ -340,7 +353,7 @@ def build_context():
         "speeches_by_bill": speeches_by_bill,
         "coverage": (linked, total),
         "summaries": social.summaries({"by_id": by_id, "bill_by_root": bill_by_root}),
-        "printed": set(printed), "printed_list": printed,
+        "printed": set(printed), "printed_list": printed, "upcoming": upcoming, "planned": planned,
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
         "generated": datetime.now(),
     }
@@ -600,6 +613,7 @@ def _pages(ctx):
     yield "api.html", "api.html", {}
     yield "privacy.html", "prywatnosc.html", {}
     yield "summaries.html", "podsumowania.html", {}
+    yield "upcoming.html", "nadchodzace-posiedzenie.html", {}
     for c in ctx["club_rows"]:
         yield "club.html", f"klub/{c['slug']}.html", {"c": c}
     for name, votes in ctx["by_proposer"].items():

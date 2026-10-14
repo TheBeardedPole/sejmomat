@@ -273,7 +273,11 @@ def run():
     is something new since the last completed acts scan (a new sitting, new
     votes or new prints). Between sittings nothing changes, so the scan and
     the slow ELI API are skipped. `python -m sejmomat acts` forces the step."""
-    from . import speeches  # it builds on this module
+    from . import agenda, speeches  # they build on this module
+    try:
+        agenda.fetch()
+    except Exception as e:  # the calendar is a nice-to-have; votes come first
+        print(f"proceedings: not updated ({e})")
     fetch_people()
     fetch_sittings()
     fetch_prints()

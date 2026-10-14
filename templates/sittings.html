@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% block title %}{{ _("Posiedzenia Sejmu") }} — {{ term_name }}{% endblock %}
 {% block content %}
+{% from "_cards.html" import upcoming_card with context %}
 <h1>{{ _("Posiedzenia Sejmu") }} ({{ term_name }})</h1>
+{{ upcoming_card() }}
 <div class="table-scroll">
 <table>
   <thead><tr><th>{{ _("Posiedzenie") }}</th><th>{{ _("Daty głosowań") }}</th><th class="num">{{ _("Głosowania") }}</th><th class="num">{{ _("Głos. nad poprawkami") }}</th></tr></thead>

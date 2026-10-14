@@ -76,6 +76,14 @@ Live on sejmomat.pl:
   (`podsumowania.html`) is for readers; the ready-made posts are only in
   `api/v1/summaries.json`.
 
+- **Upcoming sitting** (`nadchodzace-posiedzenie.html`, also a card on the
+  home page and the sittings list): the agenda of the next sitting or the
+  one under way, from the Sejm's calendar (`sejmomat/agenda.py`,
+  `data/proceedings.json`, refreshed by `fetch`), with items linked to
+  prints, bills and the MPs who present them. Scheduled updates now also
+  run in the 7 days before a sitting, when the agenda comes out and changes
+  (`sejmomat/sitting_days.py`, LEAD_DAYS).
+
 Waiting on the owner:
 
 - **Posting day summaries** (no social media accounts yet) (`.github/workflows/social.yml`): to X

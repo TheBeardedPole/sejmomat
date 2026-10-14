@@ -1,7 +1,9 @@
 """Decide whether a scheduled update is worth running today.
 
 The Sejm publishes its calendar (past and planned sittings). Updates run on
-sitting days and for GRACE_DAYS after, to pick up late votes and corrections.
+sitting days and for GRACE_DAYS after, to pick up late votes and corrections,
+and in the LEAD_DAYS before a sitting, when its agenda is published and
+changes.
 Uses only the standard library so CI can call it before installing anything.
 """
 import json
@@ -14,6 +16,7 @@ from zoneinfo import ZoneInfo
 from .config import TERM
 
 GRACE_DAYS = 2
+LEAD_DAYS = 7
 URL = f"https://api.sejm.gov.pl/sejm/term{TERM}/proceedings"
 
 
@@ -23,7 +26,7 @@ def sitting_dates():
 
 
 def should_run(today, dates):
-    return any(today - timedelta(days=n) in dates for n in range(GRACE_DAYS + 1))
+    return any(today + timedelta(days=n) in dates for n in range(-GRACE_DAYS, LEAD_DAYS + 1))
 
 
 def paused(today, until):

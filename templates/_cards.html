@@ -94,3 +94,25 @@
   </div>
 </section>
 {% endmacro %}
+
+{# The next sitting, for the home page and the list of sittings. #}
+{% macro upcoming_card() %}
+{% set u = upcoming %}
+<section class="card upcoming-card">
+  <h2>{% if u and u.under_way %}{{ _("Trwające posiedzenie") }}{% else %}{{ _("Nadchodzące posiedzenie") }}{% endif %}{% if u %}: <a href="{{ root }}nadchodzace-posiedzenie.html">{{ sitting_name(u.number) }}</a>{% endif %}</h2>
+  {% if u %}
+  <p><strong>{{ u.dates[0] | date_pl }}{% if u.dates[-1] != u.dates[0] %} – {{ u.dates[-1] | date_pl }}{% endif %}</strong> ·
+    {{ u.groups[0]["items"] | length }} {{ _("punktów w porządku obrad") }}{% if u.groups | length > 1 %}, {{ _("kolejne mogą zostać dodane") }}{% endif %}.</p>
+  <ul class="upcoming-top" lang="pl">{% for item in u.groups[0]["items"][:3] %}<li><strong>{{ item.kind }}</strong> {{ item.rest | truncate(140) }}</li>{% endfor %}</ul>
+  <p><a href="{{ root }}nadchodzace-posiedzenie.html">{{ _("Cały porządek obrad") }} →</a></p>
+  {% else %}
+  <p class="muted">{{ _("Porządek obrad następnego posiedzenia nie został jeszcze opublikowany.") }}{% if planned %} {{ _("Najbliższe planowane posiedzenie") }}: {{ planned[0].dates[0] | date_pl }}.{% endif %}</p>
+  {% endif %}
+</section>
+<style>
+  .upcoming-card h2 { margin: 0 0 6px; font-size: 1.15rem; }
+  .upcoming-card p { margin: 6px 0; }
+  .upcoming-top { margin: 6px 0; padding-left: 1.2em; font-size: .92rem; }
+  .upcoming-top li { margin: 3px 0; }
+</style>
+{% endmacro %}
