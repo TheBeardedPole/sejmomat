@@ -53,8 +53,8 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - name: Install poppler (pdftotext) and Tesseract (OCR for scanned prints)
-        run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-pol
+      - name: Install poppler (pdftotext), Tesseract (OCR for scanned prints) and a font (summary images)
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-pol fonts-noto-core
 
       - run: pip install -r requirements.txt
 
