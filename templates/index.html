@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% from "_macros.html" import result_badge, counts, author_label %}
+{% from "_cards.html" import teaser as share_teaser with context %}
 {% block generated %}{{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.{% endblock %}
 {% block description %}{{ _("Głosowania w Sejmie: pokazane jak należy.") }} {{ _("Poprawki w odpowiednim kontekście, lepsze statystyki, podsumowania danych.") }}{% endblock %}
 {% block content %}
@@ -18,7 +19,7 @@
   <div class="card stat"><b>{{ L.against_rec | length }}</b>{{ _("rozstrzygnięć wbrew rekomendacji komisji") }}</div>
 </div>
 
-<p><a href="{{ root }}podsumowania.html">{{ _("Podsumowania dni głosowań") }}</a></p>
+{{ share_teaser() }}
 
 {% if L.bills %}
 <h3>{{ _("Projekty, nad którymi głosowano w całości") }}</h3>

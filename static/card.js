@@ -223,9 +223,9 @@
   box.addEventListener("click", async (e) => {
     const button = e.target.closest("button[data-card]");
     if (!button || button.disabled) return;
-    const label = button.textContent;
+    const caption = button.querySelector("span") || button, label = caption.textContent;
     button.disabled = true;
-    button.textContent = box.dataset.busy;
+    caption.textContent = box.dataset.busy;
     try {
       await document.fonts?.ready;
       const canvas = await draw(button.dataset.card);
@@ -242,7 +242,7 @@
       box.querySelector(".card-error").hidden = false;
     } finally {
       button.disabled = false;
-      button.textContent = label;
+      caption.textContent = label;
     }
   });
 })();

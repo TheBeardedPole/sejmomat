@@ -2,9 +2,33 @@
 {% block title %}{{ _("Posłowie") }}{% endblock %}
 {% block content %}
 <h1>{{ _("Posłowie") }}</h1>
-<p class="muted">{{ _("Kliknij nagłówek kolumny, aby posortować.") }} <a href="{{ root }}metodologia.html">{{ _("Definicje wskaźników") }}</a>.</p>
+<p class="muted">{{ _("Kliknij nagłówek kolumny, aby posortować.") }} <a href="{{ root }}metodologia.html">{{ _("Definicje wskaźników") }}</a>.
+  {{ _("Na stronie każdego posła: grafiki do udostępnienia z podsumowaniem kadencji i ostatniego posiedzenia.") }}</p>
+{% set club_pages = club_rows | map(attribute="id") | list %}
+{% set current_clubs = club_rows | selectattr("members") | map(attribute="id") | list %}
+{% set districts = mp_rows | map(attribute="mp") | selectattr("districtName") | map(attribute="districtName") | unique | sort %}
+<div class="filters" id="mp-filters">
+  <input type="search" id="mp-search" name="q" placeholder="{{ _('Szukaj posła, okręgu, klubu…') }}" aria-label="{{ _('Szukaj') }}">
+  <select id="mp-club" name="klub" aria-label="{{ _('Klub') }}">
+    <option value="">{{ _("Wszystkie kluby") }}</option>
+    {% for c in club_rows if c.members %}<option value="{{ c.id }}">{{ c.id }} ({{ c.members | length }})</option>{% endfor %}
+    {% set nonaligned = mp_rows | selectattr("mp.active") | rejectattr("mp.club", "in", current_clubs) | list %}
+    {% if nonaligned %}<option value="-">{{ _("niezrzeszeni") }} ({{ nonaligned | length }})</option>{% endif %}
+  </select>
+  <select id="mp-district" name="okreg" aria-label="{{ _('Okręg') }}">
+    <option value="">{{ _("Wszystkie okręgi") }}</option>
+    {% for d in districts %}<option value="{{ d }}">{{ d }}</option>{% endfor %}
+  </select>
+  <select id="mp-status" name="mandat" aria-label="{{ _('Mandat') }}">
+    <option value="">{{ _("Obecni i byli posłowie") }}</option>
+    <option value="1">{{ _("Obecni posłowie") }}</option>
+    <option value="0">{{ _("Wygasłe mandaty") }}</option>
+  </select>
+  <label><input type="checkbox" id="mp-switch" name="zmiany" value="1"> {{ _("Tylko ci, którzy zmienili klub") }}</label>
+  <span class="muted" id="mp-count" aria-live="polite"></span>
+</div>
 <div class="table-scroll">
-<table>
+<table id="mp-table">
   <thead><tr>
     <th data-sort="text">{{ _("Poseł") }}</th><th data-sort="text">{{ _("Klub") }}</th>
     <th class="num" data-sort="num">{{ _("Udział w głos.") }}</th>
@@ -15,9 +39,11 @@
   </tr></thead>
   <tbody>
   {% for r in mp_rows %}
-  <tr>
+  {% set member = r.mp.active and r.mp.club in current_clubs %}
+  <tr data-club="{{ r.mp.club if member else ('-' if r.mp.active else '') }}" data-district="{{ r.mp.districtName or '' }}" data-active="{{ 1 if r.mp.active else 0 }}" data-switch="{{ 1 if r.switches else 0 }}"
+      data-text="{{ r.mp.firstLastName }} {{ r.mp.districtName or '' }} {{ r.mp.club or '' }} {{ clubs.get(r.mp.club, '') }}">
     <td data-v="{{ r.mp.firstLastName.split()[-1] }}"><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a>{% if not r.mp.active %} <span class="muted">{{ _("(wygasły)") }}</span>{% endif %}</td>
-    <td>{{ r.mp.club }}</td>
+    <td>{% if r.mp.club in club_pages %}<a href="{{ root }}klub/{{ club_slug(r.mp.club) }}.html">{{ r.mp.club }}</a>{% else %}{{ r.mp.club }}{% endif %}</td>
     <td class="num" data-v="{{ r.turnout }}">{{ r.turnout | pct }}</td>
     <td class="num" data-v="{{ r.rebel_count }}">{{ r.rebel_count }}</td>
     <td class="num" data-v="{{ r.rebel_rate }}">{{ r.rebel_rate | pct }}</td>

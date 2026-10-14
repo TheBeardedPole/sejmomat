@@ -3,21 +3,48 @@
    click (static/card.js). The images are in Polish. Import "with context". #}
 {% macro styles() %}
 <style>
-  .card-downloads { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 4px 0 0; font-size: .9rem; }
-  .card-downloads > span:first-child { color: var(--muted); }
-  .card-downloads a, .card-downloads button { font: inherit; padding: 3px 12px; border-radius: 99px; border: 1px solid var(--line);
-    background: none; color: inherit; cursor: pointer; text-decoration: none; }
-  .card-downloads a:hover, .card-downloads button:hover { border-color: currentColor; }
-  .card-downloads button:disabled { opacity: .6; cursor: progress; }
+  .share-panel { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px 24px; align-items: center;
+    margin: 16px 0 4px; border-color: var(--accent); }
+  @media (max-width: 760px) { .share-panel { grid-template-columns: minmax(0, 1fr); } }
+  .share-panel h2 { display: flex; align-items: center; gap: 8px; margin: 0 0 4px; font-size: 1.05rem; }
+  .share-panel h2 svg { width: 22px; height: 22px; color: var(--accent); flex: none; }
+  .share-panel p { margin: 0; }
+  .share-options { display: flex; flex-wrap: wrap; gap: 12px; }
+  .share-options .share-btn { display: inline-flex; align-items: center; gap: 8px; font: inherit; font-weight: 600; padding: 8px 16px;
+    border-radius: 99px; border: 0; background: var(--accent); color: var(--surface); cursor: pointer; text-decoration: none; }
+  .share-options .share-btn:hover { filter: brightness(1.1); text-decoration: none; }
+  .share-options .share-btn:disabled { opacity: .6; cursor: progress; }
+  .share-options .share-btn svg { width: 16px; height: 16px; flex: none; }
+  .share-thumb { display: grid; gap: 6px; width: 220px; color: inherit; text-decoration: none; }
+  .share-thumb img { width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; object-position: top;
+    border: 1px solid var(--line); border-radius: 8px; }
+  .share-thumb:hover img { border-color: var(--accent); }
+  .share-thumb:hover { text-decoration: none; }
+  .share-thumb .share-btn { justify-content: center; padding: 7px 12px; font-size: .92rem; white-space: nowrap; }
+  @media (max-width: 520px) { .share-thumb { width: calc(50% - 6px); } .share-thumb .share-btn { white-space: normal; text-align: center; } }
 </style>
 {% endmacro %}
+
+{% macro icon_image() %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/></svg>{% endmacro %}
+{% macro icon_download() %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m-5-5 5 5 5-5M5 20h14"/></svg>{% endmacro %}
 
 {% macro club(c) %}
 {% if c.cards %}
 {{ styles() }}
-<p class="card-downloads"><span>{{ _("Grafika do udostępnienia") }}:</span>
-  {% for label, path in c.cards %}<a href="{{ site_root }}{{ path }}" download="sejmomat-{{ c.slug }}-{{ path.rsplit('-', 1)[1] }}">{{ _(label) }}</a>{% endfor %}
-</p>
+<section class="card share-panel">
+  <div>
+    <h2>{{ icon_image() }}{{ _("Grafiki do udostępnienia") }}</h2>
+    <p class="muted">{{ _("Podsumowanie kadencji albo ostatniego posiedzenia — gotowe do wrzucenia w media społecznościowe. Grafiki są po polsku.") }}</p>
+  </div>
+  <div class="share-options">
+    {% for label, path in c.cards %}
+    <a class="share-thumb" href="{{ site_root }}{{ path }}" download="sejmomat-{{ c.slug }}-{{ path.rsplit('-', 1)[1] }}">
+      <img src="{{ site_root }}{{ path }}" alt="" loading="lazy" width="1200" height="750">
+      <span class="share-btn">{{ icon_download() }}{{ _(label) }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
 {% endif %}
 {% endmacro %}
 
@@ -37,12 +64,33 @@
               "total": x.total, "Y": x.Y, "N": x.N, "A": x.A, "X": x.X, "rebel": x.rebel} if x else none,
 } %}
 {{ styles() }}
-<p class="card-downloads" data-mp data-file="sejmomat-{{ r.mp.firstLastName | lower | replace(' ', '-') }}" data-busy="{{ _("Przygotowywanie…") }}">
-  <span>{{ _("Grafika do udostępnienia") }}:</span>
-  <button type="button" data-card="term" data-file="kadencja">{{ _("Kadencja") }}</button>
-  {% if x %}<button type="button" data-card="sitting" data-file="posiedzenie">{{ _("Ostatnie posiedzenie") }}</button>{% endif %}
-  <span class="card-error muted" hidden>{{ _("Nie udało się przygotować grafiki.") }}</span>
-</p>
+<section class="card share-panel card-downloads" data-mp data-file="sejmomat-{{ r.mp.firstLastName | lower | replace(' ', '-') }}" data-busy="{{ _("Przygotowywanie…") }}">
+  <div>
+    <h2>{{ icon_image() }}{{ _("Grafiki do udostępnienia") }}</h2>
+    <p class="muted">{{ _("Podsumowanie kadencji albo ostatniego posiedzenia tego posła — gotowe do wrzucenia w media społecznościowe. Grafika powstaje w Twojej przeglądarce. Grafiki są po polsku.") }}</p>
+    <p class="card-error v-N" hidden>{{ _("Nie udało się przygotować grafiki.") }}</p>
+  </div>
+  <div class="share-options">
+    <button type="button" class="share-btn" data-card="term" data-file="kadencja">{{ icon_download() }}<span>{{ _("Kadencja") }}</span></button>
+    {% if x %}<button type="button" class="share-btn" data-card="sitting" data-file="posiedzenie">{{ icon_download() }}<span>{{ _("Ostatnie posiedzenie") }}</span></button>{% endif %}
+  </div>
+</section>
 <script type="application/json" id="mp-card">{{ data | tojson }}</script>
 <script src="{{ site_root }}static/card.js?v={{ static_version('card.js') }}" defer></script>
+{% endmacro %}
+
+{# Where to find the images, for the home page and the lists of clubs and MPs. #}
+{% macro teaser(heading=true) %}
+{{ styles() }}
+<section class="card share-panel">
+  <div>
+    <h2>{{ icon_image() }}{{ _("Grafiki do udostępnienia") }}</h2>
+    <p class="muted">{{ _("Podsumowanie każdego dnia głosowań, a dla każdego klubu i posła — kadencji albo ostatniego posiedzenia. Gotowe do wrzucenia w media społecznościowe.") }}</p>
+  </div>
+  <div class="share-options">
+    <a class="share-btn" href="{{ root }}podsumowania.html">{{ _("Dni głosowań") }}</a>
+    <a class="share-btn" href="{{ root }}kluby.html">{{ _("Kluby") }}</a>
+    <a class="share-btn" href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a>
+  </div>
+</section>
 {% endmacro %}

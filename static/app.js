@@ -96,6 +96,47 @@ if (amendTable) {
   apply();
 }
 
+// MP list: search by name, constituency or club, and filters. The choice is
+// kept in the address (?q=…&klub=…), so a filtered list can be linked to.
+const mpTable = document.getElementById("mp-table");
+if (mpTable) {
+  const form = document.getElementById("mp-filters");
+  const fields = [...form.querySelectorAll("[name]")];
+  const count = document.getElementById("mp-count");
+  const rows = [...mpTable.tBodies[0].rows];
+  const fold = (s) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ł/g, "l");
+  for (const tr of rows) tr._text = fold(tr.dataset.text);
+  const value = (name) => {
+    const el = form.querySelector(`[name="${name}"]`);
+    return el.type === "checkbox" ? (el.checked ? el.value : "") : el.value.trim();
+  };
+  const apply = () => {
+    const q = fold(value("q")), club = value("klub"), district = value("okreg"), active = value("mandat"), moved = value("zmiany");
+    let shown = 0;
+    for (const tr of rows) {
+      const d = tr.dataset;
+      const hide = (q && !q.split(/\s+/).every((w) => tr._text.includes(w))) || (club && d.club !== club) ||
+        (district && d.district !== district) || (active && d.active !== active) || (moved && d.switch !== "1");
+      tr.hidden = Boolean(hide);
+      if (!hide) shown++;
+    }
+    count.textContent = `${shown} / ${rows.length}`;
+    const params = new URLSearchParams();
+    for (const el of fields) if (value(el.name)) params.set(el.name, value(el.name));
+    history.replaceState(null, "", `${location.pathname}${params.size ? `?${params}` : ""}${location.hash}`);
+  };
+  const params = new URLSearchParams(location.search);
+  for (const el of fields) {
+    const v = params.get(el.name);
+    if (v !== null) {
+      if (el.type === "checkbox") el.checked = v === el.value;
+      else if (el.tagName !== "SELECT" || [...el.options].some((o) => o.value === v)) el.value = v;
+    }
+    el.addEventListener(el.type === "search" ? "input" : "change", apply);
+  }
+  apply();
+}
+
 // Sections of MP and club pages as tabs (templates/_tabs.html): one shown
 // at a time, picked by a click or by the address, which a click updates
 // without jumping; arrow keys move between tabs.

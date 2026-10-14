@@ -65,8 +65,23 @@ EN = {
     "Rozstrzygnięcia wbrew rekomendacji komisji": "Decided against the committee's recommendation",
     "Najbardziej sporne głosowanie nad ustawą": "Most contested vote on a law", "Czyje poprawki przeszły?": "Whose amendments passed?",
     "przyjęte / głosowane": "adopted / voted", "Wszystkie głosowania tego dnia": "All votes of the day",
-    "Grafika do udostępnienia": "Image to share (in Polish)", "Kadencja": "Term",
+    "Kadencja": "Term",
     "Przygotowywanie…": "Preparing…", "Nie udało się przygotować grafiki.": "The image could not be made.",
+    "Grafiki do udostępnienia": "Images to share",
+    "Podsumowanie kadencji albo ostatniego posiedzenia — gotowe do wrzucenia w media społecznościowe. Grafiki są po polsku.":
+        "A summary of the term or of the latest sitting, ready to post on social media. The images are in Polish.",
+    "Podsumowanie kadencji albo ostatniego posiedzenia tego posła — gotowe do wrzucenia w media społecznościowe. Grafika powstaje w Twojej przeglądarce. Grafiki są po polsku.":
+        "A summary of this MP's term or of the latest sitting, ready to post on social media. The image is made in your browser. The images are in Polish.",
+    "Podsumowanie każdego dnia głosowań, a dla każdego klubu i posła — kadencji albo ostatniego posiedzenia. Gotowe do wrzucenia w media społecznościowe.":
+        "A summary of every voting day, and for every club and MP, of the term or the latest sitting. Ready to post on social media.",
+    "Dni głosowań": "Voting days", "Okręg": "Constituency", "niezrzeszeni": "non-attached",
+    "Na stronie każdego klubu: grafiki do udostępnienia z podsumowaniem kadencji i ostatniego posiedzenia.":
+        "On every club's page: images to share, summing up the term and the latest sitting.",
+    "Na stronie każdego posła: grafiki do udostępnienia z podsumowaniem kadencji i ostatniego posiedzenia.":
+        "On every MP's page: images to share, summing up the term and the latest sitting.",
+    "Szukaj posła, okręgu, klubu…": "Search for an MP, constituency, club…", "Wszystkie kluby": "All clubs",
+    "Wszystkie okręgi": "All constituencies", "Mandat": "Mandate", "Obecni i byli posłowie": "Current and former MPs",
+    "Obecni posłowie": "Current MPs", "Wygasłe mandaty": "Former MPs", "Tylko ci, którzy zmienili klub": "Only those who switched clubs",
     "Udostępnij": "Share", "Skopiowano link": "Link copied", "Za": "For", "Przeciw": "Against",
     "Gotowe grafiki i wpisy do mediów społecznościowych po każdym dniu głosowań. Liczby i nazwy pochodzą wprost z danych, bez komentarza.":
         "Ready-made images and social media posts after every voting day. Numbers and names come straight from the data, without commentary.",
