@@ -59,9 +59,18 @@ Live on sejmomat.pl:
   votes matched the coalition majority's choice, opposition at 40% or
   less, otherwise neither.
 
+- **Look:** the header logo is `static/logo.svg` (Monoton, drawn by
+  `brand/make.py`, which also makes the social media images in
+  `brand/out/`), shown as a CSS mask in the accent colour. Light/dark
+  switch in the header (`data-theme` on `<html>`, localStorage
+  `sejmomat-theme`, also read by Sejmdle). MP and club pages show their
+  sections as tabs (`templates/_tabs.html`, script in `static/app.js`);
+  ids inside a section still work as links. Club pages tag former members.
+  Word clouds leave out the words of a club's name.
+
 Waiting on the owner:
 
-- **Posting day summaries** (`.github/workflows/social.yml`): to X
+- **Posting day summaries** (no social media accounts yet) (`.github/workflows/social.yml`): to X
   and/or Bluesky, off until the repository variable `SOCIAL_AUTOPOST` is
   `true`; needs secrets `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`,
   `X_ACCESS_TOKEN_SECRET` and/or `BLUESKY_HANDLE`,
