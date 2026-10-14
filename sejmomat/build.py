@@ -581,7 +581,7 @@ def _env(lang):
         VOTE_LABEL=VOTE_LABEL, LINE_LABEL=LINE_LABEL, MAJORITY_LABEL=MAJORITY_LABEL, KIND_LABEL=KIND_LABEL,
         print_url=print_url, pdf_url=pdf_url, act_url=act_url, TERM=TERM,
         post_weight=social.weight, POST_LIMIT=social.LIMIT, CARD_DIR=social.CARD_DIR,
-        static_version=static_version,
+        static_version=static_version, club_short=social.club_short,
     )
     return env, t
 
@@ -653,6 +653,11 @@ def run():
         write_cards(ctx["summaries"], SITE)
     except (ImportError, RuntimeError) as e:
         print(f"summary images skipped: {e}")
+    try:
+        from .card import write_club_cards
+        write_club_cards(ctx["club_rows"], ctx["by_proposer"], ctx["sittings"], SITE)
+    except (ImportError, RuntimeError) as e:
+        print(f"club images skipped: {e}")
 
     pages = list(_pages(ctx))
     for lang in LANGS:

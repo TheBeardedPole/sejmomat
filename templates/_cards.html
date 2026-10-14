@@ -1,0 +1,48 @@
+{# Images for social media on club and MP pages. Club images are made with
+   the site (sejmomat/card.py); an MP's is drawn in the reader's browser on a
+   click (static/card.js). The images are in Polish. Import "with context". #}
+{% macro styles() %}
+<style>
+  .card-downloads { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 4px 0 0; font-size: .9rem; }
+  .card-downloads > span:first-child { color: var(--muted); }
+  .card-downloads a, .card-downloads button { font: inherit; padding: 3px 12px; border-radius: 99px; border: 1px solid var(--line);
+    background: none; color: inherit; cursor: pointer; text-decoration: none; }
+  .card-downloads a:hover, .card-downloads button:hover { border-color: currentColor; }
+  .card-downloads button:disabled { opacity: .6; cursor: progress; }
+</style>
+{% endmacro %}
+
+{% macro club(c) %}
+{% if c.cards %}
+{{ styles() }}
+<p class="card-downloads"><span>{{ _("Grafika do udostępnienia") }}:</span>
+  {% for label, path in c.cards %}<a href="{{ site_root }}{{ path }}" download="sejmomat-{{ c.slug }}-{{ path.rsplit('-', 1)[1] }}">{{ _(label) }}</a>{% endfor %}
+</p>
+{% endif %}
+{% endmacro %}
+
+{% macro mp(r) %}
+{% set sp = r.speeches %}
+{% set x = r.sittings[0] if r.sittings else none %}
+{% set data = {
+  "name": r.mp.firstLastName,
+  "club": club_short(r.mp.club or ""),
+  "subtitle": (([club_short(r.mp.club)] if r.mp.club else []) + (["okręg " ~ r.mp.districtName] if r.mp.districtName else []) + ([] if r.mp.active else ["mandat wygasły"])) | join(" · "),
+  "photo": "https://api.sejm.gov.pl/sejm/term" ~ TERM ~ "/MP/" ~ r.mp.id ~ "/photo",
+  "term": {"turnout": r.turnout, "cast": r.cast, "eligible": r.eligible, "missed": r.eligible - r.cast,
+           "rebels": r.rebel_count, "rebelRate": r.rebel_rate, "speeches": sp.spoken + sp.written,
+           "signed": r.signed | length, "signedAdopted": r.signed_adopted},
+  "words": (sp.cloud | sort(attribute="1", reverse=true) | map(attribute="0") | list)[:12],
+  "sitting": {"sitting": x.sitting, "first": sittings[x.sitting][0].date, "last": sittings[x.sitting][-1].date,
+              "total": x.total, "Y": x.Y, "N": x.N, "A": x.A, "X": x.X, "rebel": x.rebel} if x else none,
+} %}
+{{ styles() }}
+<p class="card-downloads" data-mp data-file="sejmomat-{{ r.mp.firstLastName | lower | replace(' ', '-') }}" data-busy="{{ _("Przygotowywanie…") }}">
+  <span>{{ _("Grafika do udostępnienia") }}:</span>
+  <button type="button" data-card="term" data-file="kadencja">{{ _("Kadencja") }}</button>
+  {% if x %}<button type="button" data-card="sitting" data-file="posiedzenie">{{ _("Ostatnie posiedzenie") }}</button>{% endif %}
+  <span class="card-error muted" hidden>{{ _("Nie udało się przygotować grafiki.") }}</span>
+</p>
+<script type="application/json" id="mp-card">{{ data | tojson }}</script>
+<script src="{{ site_root }}static/card.js?v={{ static_version('card.js') }}" defer></script>
+{% endmacro %}

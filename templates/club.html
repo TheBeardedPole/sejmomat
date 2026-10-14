@@ -3,6 +3,7 @@
 {% from "_breakdown.html" import assets, attrs, sitting_cell with context %}
 {% from "_speeches.html" import summary as speech_summary, cloud, styles as speech_styles with context %}
 {% from "_tabs.html" import bar as tab_bar with context %}
+{% from "_cards.html" import club as club_cards with context %}
 {% block title %}{{ c.name }} ({{ c.id }}){% endblock %}
 {% block description %}{{ c.name }}: {{ c.members | length }} {{ _("obecnych członków") }}, {{ _("spójność") }} {{ c.cohesion | pct }}, {{ _("skuteczność") }} {{ c.effectiveness | pct }}.{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
@@ -17,6 +18,8 @@
   <div class="card stat"><b>{% if c.split %}<a href="#podzialy">{{ c.split | length }}</a>{% else %}0{% endif %}</b>{{ _("głosowań z podziałem") }}</div>
   <div class="card stat"><b>{{ c.effectiveness | pct }}</b>{{ _("skuteczność") }}</div>
 </div>
+
+{{ club_cards(c) }}
 
 {% if c.id in by_proposer %}
 <p><a href="{{ root }}poprawki/{{ club_slug(c.id) }}.html">{{ _("Wszystkie poprawki i wnioski zgłoszone przez klub") }} ({{ by_proposer[c.id] | length }}) →</a></p>

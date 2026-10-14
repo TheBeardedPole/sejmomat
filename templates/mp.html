@@ -4,6 +4,7 @@
 {% from "_breakdown.html" import assets, attrs, sitting_cell, bar with context %}
 {% from "_speeches.html" import summary as speech_summary, cloud, styles as speech_styles, list_box with context %}
 {% from "_tabs.html" import bar as tab_bar with context %}
+{% from "_cards.html" import mp as mp_cards with context %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
 <div class="crumbs"><a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a></div>
@@ -27,6 +28,8 @@
   {% if sp.spoken or sp.written %}<div class="card stat"><b><a href="#wystapienia">{{ sp.spoken + sp.written }}</a></b>{{ _("wystąpień na sali plenarnej") }}</div>{% endif %}
   {% if r.signed %}<div class="card stat"><b><a href="#poprawki">{{ r.signed_adopted }} / {{ r.signed | length }}</a></b>{{ _("podpisanych poprawek i wniosków przyjętych") }}</div>{% endif %}
 </div>
+
+{{ mp_cards(r) }}
 
 {% set tabs = ([("posiedzenia", _("Głosowania"), none)] if r.sittings else [])
   + ([("wystapienia", _("Wystąpienia"), sp.spoken + sp.written)] if sp.spoken or sp.written else [])

@@ -65,6 +65,8 @@ EN = {
     "Rozstrzygnięcia wbrew rekomendacji komisji": "Decided against the committee's recommendation",
     "Najbardziej sporne głosowanie nad ustawą": "Most contested vote on a law", "Czyje poprawki przeszły?": "Whose amendments passed?",
     "przyjęte / głosowane": "adopted / voted", "Wszystkie głosowania tego dnia": "All votes of the day",
+    "Grafika do udostępnienia": "Image to share (in Polish)", "Kadencja": "Term",
+    "Przygotowywanie…": "Preparing…", "Nie udało się przygotować grafiki.": "The image could not be made.",
     "Udostępnij": "Share", "Skopiowano link": "Link copied", "Za": "For", "Przeciw": "Against",
     "Gotowe grafiki i wpisy do mediów społecznościowych po każdym dniu głosowań. Liczby i nazwy pochodzą wprost z danych, bez komentarza.":
         "Ready-made images and social media posts after every voting day. Numbers and names come straight from the data, without commentary.",

@@ -67,6 +67,14 @@ Live on sejmomat.pl:
   sections as tabs (`templates/_tabs.html`, script in `static/app.js`);
   ids inside a section still work as links. Club pages tag former members.
   Word clouds leave out the words of a club's name.
+- **Images to share** on club and MP pages ("Grafika do udostępnienia"):
+  a term overview and the latest sitting, in Polish. Club images are made
+  with the site (`sejmomat/card.py`, `dane/karty/klub/`); an MP's is drawn
+  in the reader's browser on a click (`static/card.js`, same layout as
+  `card.py`; the photo comes from the Sejm's API, which allows it) and
+  handed over as a download, with nothing kept. The day summaries page
+  (`podsumowania.html`) is for readers; the ready-made posts are only in
+  `api/v1/summaries.json`.
 
 Waiting on the owner:
 
