@@ -187,8 +187,41 @@ const CLUB_SHORT = { Polska2050: "Polska 2050", "PSL-TD": "PSL", RozwojPlus: "Ro
   Demokracja: "Demokracja Bezpośrednia (Kukiz)", Konfederacja_KP: "Konfederacja Korony Polskiej" };
 const clubShort = (club) => CLUB_SHORT[club] || (club === "niez." ? "Niezrzeszeni" : club);
 // Clubs of the governing coalition. Every other club or group is the
-// opposition; MPs outside any club count as neither.
+// opposition; MPs outside any club go with the side they vote with (below).
 const COALITION = ["KO", "Lewica", "Polska2050", "Centrum", "PSL-TD"];
+// Independents have no club line to follow, so they are counted with the
+// side they vote with: in each contested final vote (data.finals) the
+// coalition's choice is what most of its MPs voted; an independent who made
+// the same choice in at least LEAN_SHARE of their ballots goes with the
+// coalition, one who made it in at most 1 - LEAN_SHARE with the opposition,
+// anyone in between (or with fewer than LEAN_MIN_VOTES ballots) with neither.
+const LEAN_SHARE = 0.6;
+const LEAN_MIN_VOTES = 20;
+const independentLeans = (data) => {
+  const club = new Map(data.mps.map((m) => [m.id, m.club]));
+  const CHOICES = ["yes", "no", "abstain"];
+  const tally = new Map(); // id -> [ballots as the coalition chose, ballots]
+  for (const f of data.finals || []) {
+    const count = Object.fromEntries(CHOICES.map((k) => [k, (f.votes[k] || []).filter((id) => COALITION.includes(club.get(id))).length]));
+    const line = CHOICES.reduce((a, b) => (count[b] > count[a] ? b : a));
+    if (!count[line]) continue;
+    for (const k of CHOICES) {
+      for (const id of f.votes[k] || []) {
+        if (club.get(id) !== "niez.") continue;
+        const t = tally.get(id) || tally.set(id, [0, 0]).get(id);
+        t[1]++;
+        if (k === line) t[0]++;
+      }
+    }
+  }
+  const out = new Map();
+  for (const [id, [same, cast]] of tally) {
+    if (cast < LEAN_MIN_VOTES) continue;
+    if (same / cast >= LEAN_SHARE) out.set(id, "coalition");
+    else if (same / cast <= 1 - LEAN_SHARE) out.set(id, "opposition");
+  }
+  return out;
+};
 // Voivodeships grouped into the official statistical macro-regions (NUTS 1),
 // so that a condition is never about one small voivodeship.
 const MACRO_REGIONS = [
@@ -216,8 +249,12 @@ const categories = (data) => {
     if (data.mps.filter(test).length >= CAT_MIN) out.push({ id: `${kind}:${key}`, kind, label, detail, test });
   };
   const inClub = (m) => Boolean(m.club) && m.club !== "niez.";
-  add("block", "koalicja", "Koalicja rządząca", COALITION.map(clubShort).join(", "), (m) => COALITION.includes(m.club));
-  add("block", "opozycja", "Opozycja", "kluby i koła spoza koalicji rządzącej", (m) => inClub(m) && !COALITION.includes(m.club));
+  const leans = independentLeans(data);
+  const side = (m) => (COALITION.includes(m.club) ? "coalition" : inClub(m) ? "opposition" : leans.get(m.id) || null);
+  add("block", "koalicja", "Koalicja rządząca", `${COALITION.map(clubShort).join(", ")} i niezrzeszeni głosujący z koalicją`,
+    (m) => side(m) === "coalition");
+  add("block", "opozycja", "Opozycja", "pozostałe kluby i koła oraz niezrzeszeni głosujący z opozycją",
+    (m) => side(m) === "opposition");
   for (const club of count(data.mps.filter(inClub).map((m) => m.club)).keys()) {
     add("club", club, `Klub: ${clubShort(club)}`, "", (m) => m.club === club);
   }
@@ -321,7 +358,7 @@ const raritySquares = (points, perRow) => points.map((p, i) =>
 
 if (typeof module !== "undefined") {
   module.exports = { categories, family, fitting, seatsPuzzle, gridPuzzle, popularity, slotScore, rarityTier, raritySquares, firstName,
-    COALITION, MACRO_REGIONS, SEATS, GRID_MIN, fold, hash, dailyOrder, warsawDay, age, years, compareMps, guessFeedback, guessSquares, whoSquares, SQUARE, regionHint, REGIONS, surnameOf, surnameFirst, voteOf, whoPuzzle, shortTitle, surnameInitial };
+    COALITION, independentLeans, LEAN_SHARE, MACRO_REGIONS, SEATS, GRID_MIN, fold, hash, dailyOrder, warsawDay, age, years, compareMps, guessFeedback, guessSquares, whoSquares, SQUARE, regionHint, REGIONS, surnameOf, surnameFirst, voteOf, whoPuzzle, shortTitle, surnameInitial };
 }
 
 // ------------------------------------------------------------------- DOM
@@ -816,7 +853,7 @@ if (typeof document !== "undefined") (() => {
           ["Skąd punkty? Z głosów, które posłowie zdobyli w wyborach do Sejmu w 2023 r. — nie z odpowiedzi innych graczy. Porównujemy tylko posłów pasujących do danego miejsca: ten z najmniejszą liczbą głosów dostaje około 1 punktu, ten z największą około 99."],
           [`Możesz się pomylić ${maxMistakes} razy. Zła odpowiedź nie zajmuje miejsca, ale zabiera jedną pomyłkę.`],
           ["Regiony to grupy sąsiednich województw (makroregiony GUS), np. Polska północna to pomorskie, kujawsko-pomorskie i warmińsko-mazurskie. Skład regionu zobaczysz po kliknięciu miejsca."],
-          [`Koalicja rządząca to kluby: ${COALITION.map(clubShort).join(", ")}. Opozycja to pozostałe kluby i koła. Posłowie niezrzeszeni nie liczą się ani do koalicji, ani do opozycji.`],
+          [`Koalicja rządząca to kluby: ${COALITION.map(clubShort).join(", ")}. Opozycja to pozostałe kluby i koła. Posłowie niezrzeszeni liczą się do strony, z którą głosują: z koalicją, jeśli w spornych głosowaniach nad całymi ustawami co najmniej ${Math.round(LEAN_SHARE * 100)}% ich głosów było takich jak większości koalicji, z opozycją — jeśli najwyżej ${Math.round((1 - LEAN_SHARE) * 100)}%.`],
           ["Nie znasz posłów z nazwiska? Przełącz „Poziom” na łatwy: przycisk „Lista posłów” otworzy listę wszystkich posłów pogrupowanych klubami."],
         ], "Liczba głosów to tylko przybliżenie rozpoznawalności: zależy też od wielkości okręgu i miejsca na liście."),
         marks(over ? "Pomyłki:" : `Pomyłki (${state.wrong.length} z ${maxMistakes}):`,
