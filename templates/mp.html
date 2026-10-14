@@ -2,6 +2,7 @@
 {% block title %}{{ r.mp.firstLastName }} ({{ r.mp.club }}){% endblock %}
 {% block description %}{{ r.mp.firstLastName }}, {{ clubs.get(r.mp.club, r.mp.club) }}{% if r.mp.districtName %}, {{ _("okręg") }} {{ r.mp.districtName }}{% endif %}: {{ _("udział w głosowaniach") }} {{ r.turnout | pct }}, {{ r.rebel_count }} {{ _("wyłamań z linii klubu") }}.{% endblock %}
 {% from "_breakdown.html" import assets, attrs, sitting_cell, bar with context %}
+{% from "_speeches.html" import summary as speech_summary, cloud, styles as speech_styles, list_box with context %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
 <div class="crumbs"><a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a></div>
@@ -21,6 +22,8 @@
   <div class="card stat"><b>{{ r.turnout | pct }}</b>{{ _("udział w głosowaniach") }} ({{ r.cast }} {{ _("z") }} {{ r.eligible }})</div>
   <div class="card stat"><b{% if r.eligible > r.cast %} class="v-A"{% endif %}>{{ r.eligible - r.cast }}</b>{{ _("opuszczonych głosowań") }}</div>
   <div class="card stat"><b>{{ r.rebel_count }}</b>{{ _("wyłamań z linii klubu") }} ({{ r.rebel_rate | pct }})</div>
+  {% set sp = r.speeches %}
+  {% if sp.spoken or sp.written %}<div class="card stat"><b><a href="#wystapienia">{{ sp.spoken + sp.written }}</a></b>{{ _("wystąpień na sali plenarnej") }}</div>{% endif %}
   {% if r.signed %}<div class="card stat"><b>{{ r.signed_adopted }} / {{ r.signed | length }}</b>{{ _("podpisanych poprawek i wniosków przyjętych") }}</div>{% endif %}
 </div>
 
@@ -45,6 +48,15 @@
 </table>
 </div>
 <p class="note">{{ _("Opuszczone głosowanie to takie, w którym poseł był uprawniony do udziału, ale nie oddał głosu.") }}</p>
+{% endif %}
+
+{% if sp.spoken or sp.written %}
+<h2 id="wystapienia">{{ _("Wystąpienia") }} ({{ sp.spoken + sp.written }})</h2>
+{{ speech_styles() }}
+{{ speech_summary(sp) }}
+{{ cloud(sp.cloud, search=true) }}
+<h3>{{ _("Wszystkie wystąpienia") }}</h3>
+{{ list_box("mp", site_root ~ "dane/wystapienia/" ~ r.mp.id ~ ".json", site_root ~ "dane/wystapienia/" ~ r.mp.id ~ ".tekst.json") }}
 {% endif %}
 
 {% if r.history | length > 1 %}

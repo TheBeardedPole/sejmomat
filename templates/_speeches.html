@@ -1,0 +1,68 @@
+{# Speeches in the chamber on MP, club and bill pages: figures, a word
+   cloud, and the list loaded on request (static/speeches.js). Import
+   "with context". #}
+
+{# "N delivered (in all X h Y min), M handed in in writing." and the most frequent topics. #}
+{% macro summary(sp) -%}
+<p>{{ sp.spoken }} {{ _("wygłoszonych") }}{% if sp.seconds %} ({{ _("łącznie") }} {% if sp.seconds >= 3600 %}{{ sp.seconds // 3600 }} {{ _("godz.") }} {% endif %}{{ (sp.seconds % 3600) // 60 }} min){% endif %}{% if sp.written %}, {{ sp.written }} {{ _("złożonych na piśmie") }}{% endif %}.
+{% if sp.topics %}<br><span class="muted">{{ _("Najczęstsze tematy") }}:</span>
+  {% for (t, bill), n in sp.topics %}{% if bill %}<a href="{{ root }}ustawa/{{ bill }}.html#wystapienia" lang="pl">{{ t | truncate(90) }}</a>{% else %}<span lang="pl">{{ t | truncate(90) }}</span>{% endif %} ({{ n }}){{ "; " if not loop.last }}{% endfor %}{% endif %}</p>
+{%- endmacro %}
+
+{# The words someone uses markedly more than the chamber as a whole, larger
+   the more so. `search`: a click on a word searches the speeches list. #}
+{% macro cloud(words, search=false) -%}
+{% if words %}
+<h3>{{ _("Charakterystyczne słowa") }}</h3>
+<p class="cloud" lang="pl">{% for w, x, forms in words %}{% if search %}<button type="button" class="w" data-q="{{ forms | join('|') }}" title="{{ _('Szukaj w wystąpieniach') }}" style="font-size:{{ (0.85 + 1.25 * x) | round(2) }}rem">{{ w }}</button>{% else %}<span class="w" style="font-size:{{ (0.85 + 1.25 * x) | round(2) }}rem">{{ w }}</span>{% endif %} {% endfor %}</p>
+<p class="note">{{ _("Słowa używane w wystąpieniach znacznie częściej niż średnio na sali plenarnej, w formie słownikowej: odmiany i słowa pochodne liczone są razem (słownik Morfeusz 2 / SGJP). Im większe, tym częstsze i bardziej charakterystyczne.") }}</p>
+{% endif %}
+{%- endmacro %}
+
+{# Styles, once per page. #}
+{% macro styles() %}
+<style>
+  .speeches .speech-open, .speech-actions button, .speech-actions a, .speech-more { font: inherit; font-size: .9rem; padding: 4px 14px; border-radius: 99px;
+    border: 1px solid var(--line); background: var(--surface); color: inherit; cursor: pointer; text-decoration: none; }
+  .speeches .speech-open { color: var(--accent); border-color: var(--accent); font-weight: 600; }
+  .speech-search { font: inherit; width: 100%; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: inherit; }
+  .speech-topics { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0; }
+  .speech-topics .chip { font: inherit; font-size: .82rem; padding: 2px 10px; border: 1px solid var(--line); border-radius: 99px;
+    background: var(--surface); color: inherit; cursor: pointer; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .speech { border-top: 1px solid var(--line); padding: 10px 0; }
+  .speech-head { margin: 0 0 4px; }
+  .speech-head .badge { margin-left: 6px; }
+  .speech-stage { margin: 0 0 4px; font-size: .88rem; color: var(--muted); }
+  .speech-text p { margin: 0 0 6px; }
+  .speech-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 6px 0 0; }
+  .speech-actions .speech-vote { border: 0; padding: 0 4px; font-size: .88rem; }
+  .speech-video { display: block; width: 100%; max-width: 640px; margin-top: 8px; border-radius: 8px; background: #000; }
+  .cloud { line-height: 1.6; margin: 6px 0; }
+  .cloud .w { display: inline-block; margin: 0 .25em; font: inherit; color: var(--accent); background: none; border: 0; padding: 0; }
+  .cloud span.w { color: var(--text); }
+  .cloud button.w { cursor: pointer; }
+  .cloud button.w:hover { text-decoration: underline; }
+  .speakers { columns: 2 16em; margin: 6px 0; padding-left: 20px; }
+</style>
+{% endmacro %}
+
+{# The list, loaded on request. kind "mp": src is the list, texts the full
+   texts; kind "bill": src holds both. #}
+{% macro list_box(kind, src, texts=none) -%}
+<div class="speeches" data-kind="{{ kind }}" data-src="{{ src }}"{% if texts %} data-texts="{{ texts }}"{% endif %}
+  data-hls="{{ site_root }}static/vendor/hls.light.min.js" data-root="{{ root }}"
+  data-transcript="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/wypowiedz.xsp?posiedzenie={s}&dzien={d}&wyp={n}"
+  data-labels='{{ {
+    "loading": _("Wczytywanie…"), "failed": _("Nie udało się wczytać wystąpień."), "retry": _("Spróbuj ponownie"),
+    "search": _("Szukaj w tematach i treści wystąpień") if kind == "mp" else _("Szukaj w treści i wśród mówców"),
+    "count": _("Wystąpienia: {n} z {all}"), "more": _("Pokaż więcej"),
+    "searchingTexts": _("Wczytywanie pełnych tekstów do wyszukiwania…"),
+    "full": _("Cały tekst"), "video": _("Wideo"), "transcript": _("Stenogram"), "unspoken": _("złożone na piśmie"),
+    "vote": _("Głosowanie"), "debate": _("Cała debata"),
+    "videoFailed": _("Nie udało się odtworzyć nagrania. Spróbuj w stenogramie na stronie Sejmu.")
+  } | tojson }}'>
+  <button type="button" class="speech-open">{{ _("Pokaż wystąpienia: treść i wideo") }}</button>
+</div>
+<p class="note">{{ _("Tekst ze stenogramów Sejmu; wideo z transmisji Sejmu, przycięte do czasu wystąpienia zapisanego w stenogramie.") }}</p>
+<script src="{{ site_root }}static/speeches.js?v={{ static_version('speeches.js') }}" defer></script>
+{%- endmacro %}

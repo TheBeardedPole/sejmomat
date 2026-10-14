@@ -16,6 +16,28 @@ MONTHS = {
 }
 
 EN = {
+    # speeches on MP pages
+    "Wystąpienia": "Speeches", "Wszystkie wystąpienia": "All speeches", "Charakterystyczne słowa": "Characteristic words",
+    "Szukaj w wystąpieniach": "Search the speeches",
+    "Słowa używane w wystąpieniach znacznie częściej niż średnio na sali plenarnej, w formie słownikowej: odmiany i słowa pochodne liczone są razem (słownik Morfeusz 2 / SGJP). Im większe, tym częstsze i bardziej charakterystyczne.":
+        "Words used in these speeches markedly more often than in the chamber on average, in their dictionary form: inflected forms and derived words counted together (Morfeusz 2 / SGJP dictionary). The larger, the more frequent and characteristic.",
+    "Wystąpienia posłów w czasie, gdy należeli do tego klubu lub koła.": "Speeches by MPs while they belonged to this club or group.",
+    "Najczęściej zabierają głos": "Speak most often", "Kto zabierał głos w debatach nad projektem": "Who spoke in the debates on the bill",
+    "osoby spoza Sejmu (rząd, goście)": "speakers from outside the Sejm (government, guests)",
+    "Szukaj w treści i wśród mówców": "Search the texts and speakers", "Cała debata": "Whole debate",
+    "debata nad projektem": "debate on the bill", "wystąpień": "speeches",
+    "wystąpień na sali plenarnej": "speeches in the chamber", "Wystąpienia na sali plenarnej": "Speeches in the chamber",
+    "wygłoszonych": "delivered", "łącznie": "in all", "godz.": "h", "złożonych na piśmie": "handed in in writing",
+    "Najczęstsze tematy": "Most frequent topics", "Nie udało się wczytać wystąpień.": "The speeches could not be loaded.",
+    "Spróbuj ponownie": "Try again", "Szukaj w tematach i treści wystąpień": "Search topics and texts of the speeches",
+    "Wystąpienia: {n} z {all}": "Speeches: {n} of {all}",
+    "Wczytywanie pełnych tekstów do wyszukiwania…": "Loading the full texts to search them…", "Pokaż więcej": "Show more", "Cały tekst": "Full text",
+    "Wideo": "Video", "Stenogram": "Transcript", "złożone na piśmie": "handed in in writing",
+    "Nie udało się odtworzyć nagrania. Spróbuj w stenogramie na stronie Sejmu.":
+        "The video could not be played. Try the transcript on the Sejm's website.",
+    "Pokaż wystąpienia: treść i wideo": "Show the speeches: text and video",
+    "Tekst ze stenogramów Sejmu; wideo z transmisji Sejmu, przycięte do czasu wystąpienia zapisanego w stenogramie.":
+        "Text from the Sejm's transcripts; video from the Sejm's broadcast, cut to the speech's time as recorded in the transcript.",
     # votes by sitting on MP and club pages
     "Głosowania według posiedzeń": "Votes by sitting",
     "Kliknij posiedzenie, aby zobaczyć każde głosowanie: głos posła, linię klubu i opuszczone głosowania.":

@@ -9,7 +9,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import analysis, authors, social
+from . import analysis, authors, social, speeches
 from .stamp import stamp
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM
 from .i18n import LANGS, date_fmt, pct_fmt, translator
@@ -219,6 +219,64 @@ def build_context():
     club_rows = build_clubs(clubs, mps, by_id, mp_rows)
     adopted, proposers, mp_proposers = build_adopted(by_id)
     bill_by_root = {b["root"]: b for b in bill_rows}
+
+    # Speeches in the chamber. Figures and word clouds go into the MP, club
+    # and bill pages; the lists and texts into dane/wystapienia/ (per MP) and
+    # dane/debaty/ (per bill), loaded when asked for. Each speech on a bill
+    # links to the vote that settled the bill at that sitting.
+    def bill_of_print(num):
+        root = ((print_meta(num) or {}).get("processPrint") or [num])[0]
+        return root if root in bill_by_root else None
+    en = translator("en")
+    settled_at = {}
+    for root, b in bill_by_root.items():
+        for v in b["votings"]:
+            kind = v["motion"][0] if v["motion"] else None
+            rank = (kind == "final", kind in ("reject_bill", "reject_senate"), v["votingNumber"])
+            key = (root, v["sitting"])
+            if key not in settled_at or rank > settled_at[key][0]:
+                settled_at[key] = (rank, {"s": v["sitting"], "n": v["votingNumber"], "o": v["outcome_class"],
+                                          "l": [v["outcome"], en(v["outcome"])], "yes": v["yes"], "no": v["no"]})
+    vote_for = lambda bill, sitting: (settled_at.get((bill, sitting)) or (None, None))[1]
+
+    def club_at(mp, day):
+        """The MP's club on that day, from the clubs recorded with their votes."""
+        spells = history.get(mp) or []
+        for h in spells:
+            if h["from"][:10] <= day <= h["to"][:10]:
+                return h["club"]
+        before = [h for h in spells if h["from"][:10] <= day]  # between two votes: the club of the earlier one
+        return (before[-1] if before else spells[0])["club"] if spells else None
+
+    days = speeches.load()
+    speeches_by_mp = speeches.by_mp(days, bill_of_print, vote_for)
+    speeches_by_bill = speeches.by_bill(days, bill_of_print, vote_for, club_at)
+    vocabulary = speeches.Vocabulary(st["text"] for d in days for st in d["statements"])
+    del days
+
+    def speech_figures(items):
+        return {
+            "spoken": sum(1 for x in items if not x["unspoken"]), "written": sum(1 for x in items if x["unspoken"]),
+            "seconds": sum(x["seconds"] or 0 for x in items),
+            "topics": Counter((x["topic"], x["bill"]) for x in items if x["topic"] != "—").most_common(5),
+        }
+    by_club = defaultdict(list)
+    for r in mp_rows:
+        mine = speeches_by_mp.get(r["mp"]["id"], [])
+        r["speeches"] = {**speech_figures(mine), "cloud": vocabulary.cloud(
+            [x["text"] for x in mine], exclude=(r["mp"].get("firstLastName") or "").split())}
+        for x in mine:
+            by_club[club_at(r["mp"]["id"], x["date"])].append((r["mp"]["id"], x))
+    for c in club_rows:
+        mine = by_club.get(c["id"], [])
+        speakers = Counter(mp for mp, _ in mine)
+        c["speeches"] = {**speech_figures([x for _, x in mine]),
+                         "speakers": speakers.most_common(10),
+                         "cloud": vocabulary.cloud([x["text"] for _, x in mine], min_count=10, min_texts=5)}
+    for root, items in speeches_by_bill.items():
+        bill_by_root[root]["speeches"] = {
+            "count": len(items), "others": sum(1 for x in items if not x["mp"]),
+            "by_club": Counter(x["club"] for x in items if x["mp"]).most_common()}
     all_amendments = [v for v in sorted(by_id.values(), key=lambda v: (v["date"], v["votingNumber"]), reverse=True)
                       if v["amendments"]]
 
@@ -271,7 +329,8 @@ def build_context():
         "by_proposer": by_proposer,
         "all_amendments": all_amendments, "latest": latest,
         "transfers": [(pair, n, pair in renames) for pair, n in transfers.most_common()],
-        "bills": bill_rows, "bill_by_root": bill_by_root,
+        "bills": bill_rows, "bill_by_root": bill_by_root, "speeches_by_mp": speeches_by_mp,
+        "speeches_by_bill": speeches_by_bill,
         "coverage": (linked, total),
         "summaries": social.summaries({"by_id": by_id, "bill_by_root": bill_by_root}),
         "printed": set(printed), "printed_list": printed,
@@ -568,9 +627,7 @@ def run():
     ctx = build_context()
     if SITE.exists():
         shutil.rmtree(SITE)
-    (SITE / "static").mkdir(parents=True)
-    for f in STATIC.iterdir():
-        shutil.copy(f, SITE / "static" / f.name)
+    shutil.copytree(STATIC, SITE / "static")
     # Sejmdle: self-contained games that read the JSON API (test bench here;
     # the folder can be served from another host by changing its API address).
     shutil.copytree(ROOT / "games" / "sejmdle", SITE / "sejmdle")
@@ -616,6 +673,17 @@ def run():
             {"n": v["votingNumber"], "t": v.get("topic") or "", "a": v["agenda"], "o": v["outcome_class"],
              "l": [v["outcome"], en(v["outcome"])], "c": {club: c["line"] for club, c in v["clubs"].items()}}
             for v in votings], ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    # Each MP's speeches with their texts, for the "Wystąpienia" list (static/speeches.js).
+    (SITE / "dane" / "wystapienia").mkdir(parents=True)
+    for mp, items in ctx["speeches_by_mp"].items():
+        for name, part in zip((f"{mp}.json", f"{mp}.tekst.json"), speeches.split_for_site(items)):
+            (SITE / "dane" / "wystapienia" / name).write_text(
+                json.dumps(part, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    # Each bill's debate, with the texts (a debate is a few dozen speeches at most).
+    (SITE / "dane" / "debaty").mkdir(parents=True)
+    for root, items in ctx["speeches_by_bill"].items():
+        (SITE / "dane" / "debaty" / f"{root}.json").write_text(
+            json.dumps(items, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (SITE / "dane" / "poslowie.json").write_text(json.dumps(
         {m["id"]: m["firstLastName"] for m in ctx["mps"].values()}, ensure_ascii=False, separators=(",", ":")))
 

@@ -10,7 +10,7 @@
 </div>
 <h1>{{ (v.topic or v.agenda) | capitalize }}</h1>
 <p class="muted">
-  {% if v.bill and v.bill in bill_by_root %}<a href="{{ root }}ustawa/{{ v.bill }}.html">{{ v.agenda }}</a>{% else %}{{ v.agenda }}{% endif %}
+  {% if v.bill and v.bill in bill_by_root %}<a href="{{ root }}ustawa/{{ v.bill }}.html">{{ v.agenda }}</a>{% if bill_by_root[v.bill].speeches %} · <a href="{{ root }}ustawa/{{ v.bill }}.html#wystapienia">{{ _("debata nad projektem") }} ({{ bill_by_root[v.bill].speeches.count }} {{ _("wystąpień") }})</a>{% endif %}{% else %}{{ v.agenda }}{% endif %}
   {% if v.prints %} · {{ _("druki") }}:
     {% for p in v.prints %}{{ print_link(p, root, printed) }}{{ ", " if not loop.last }}{% endfor %}
   {% endif %}

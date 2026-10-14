@@ -273,9 +273,11 @@ def run():
     is something new since the last completed acts scan (a new sitting, new
     votes or new prints). Between sittings nothing changes, so the scan and
     the slow ELI API are skipped. `python -m sejmomat acts` forces the step."""
+    from . import speeches  # it builds on this module
     fetch_people()
     fetch_sittings()
     fetch_prints()
+    speeches.fetch()
     state = _data_state()
     if ACTS_SCANNED.exists() and ACTS_SCANNED.read_text().strip() == state:
         print("acts: no new votings or prints since the last scan, skipping")

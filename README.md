@@ -117,6 +117,48 @@ clubs of the governing coalition are `COALITION` and the groups of
 voivodeships are `MACRO_REGIONS` there — update `COALITION` when the
 coalition changes.
 
+## Speeches in the chamber
+
+`python -m sejmomat speeches` (also part of `fetch`) stores every speech of
+the term from the Sejm's transcripts in `data/speeches/<date>.json`: who
+spoke and when, the agenda item(s) and the print numbers they cite, and
+the full text; plus the day's plenary video stream. A stored day is not
+fetched again, except the latest few (new statements only), so a normal
+update costs a few hundred requests per new sitting day. The first,
+term-long download (about 55,000 requests) was run locally, not in CI.
+
+Speeches are tied to bills through the print numbers their agenda items
+cite, and to the vote that settled the bill at that sitting (the final
+vote if there was one). MP pages, club pages and bill pages each have a
+"Wystąpienia" section:
+
+- MP: figures, most frequent topics, a word cloud (each word searches the
+  speeches), and on request a list with search, each speech's text, its
+  bill debate and vote, the official transcript and the video.
+- Club: speeches by its MPs while in the club, a word cloud, who speaks
+  most.
+- Bill: who spoke, by club, and on request the whole debate in order, each
+  speech linked to its speaker, club and vote. Voting pages link to it.
+
+The video is the day's stream cut to the speech's recorded time with five
+seconds' margin (`?start=…&stop=…` in milliseconds; the recorded times
+were checked against the audio and were within five seconds). Word clouds
+weigh a speaker's words against the whole chamber (only words used at
+least 1.5 times as often count). Word forms are taken to their dictionary
+form with [Morfeusz 2](http://morfeusz.sgjp.pl) and the SGJP inflection
+data (dictionary © 2007–2026 Marcin Woliński, Zbigniew Bronk, Włodzimierz
+Gruszczyński, Witold Kieraś, Zygmunt Saloni, Danuta Skowrońska, Robert
+Wołosz; two-clause BSD licence; the `morfeusz2` package), then trimmed by
+`speeches.stem` so that derived words count together (podatkowy, podatek).
+Without the package the trimming alone is used. Stop words are
+`speeches.STOPWORDS` and `speeches.STOP_LEMMAS`.
+The lists are files per MP, `dane/wystapienia/<id>.json` plus
+`<id>.tekst.json` (full texts, loaded only for a full text or a search
+inside the texts), and per bill, `dane/debaty/<print>.json` (with texts). Videos play from the
+Sejm's streaming server; browsers without built-in HLS get
+`static/vendor/hls.light.min.js` (hls.js 1.7.3, Apache 2.0), loaded only
+on the first play.
+
 ## Votes by sitting (MPs and clubs)
 
 Every MP page and club page has a table "Głosowania według posiedzeń": one
