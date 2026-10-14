@@ -57,7 +57,15 @@ EN = {
     "Jak głosowały kluby i ich posłowie na tym posiedzeniu": "How the clubs and their MPs voted at this sitting",
     # day summaries (the posts themselves stay in Polish)
     "Podsumowania dni": "Daily summaries",
-    "Podsumowania dni — opis": "A ready-made image and social media post after every voting day in the Sejm: bills passed, amendments adopted and how the clubs voted, with numbers taken straight from the data.",
+    "Podsumowania dni — opis": "The key figures from every voting day in the Sejm: laws passed, amendments adopted and how the clubs voted on the most contested law, with numbers taken straight from the data.",
+    "Najważniejsze liczby z każdego dnia głosowań w Sejmie: ile ustaw uchwalono, czyje poprawki przeszły i które głosowanie było najbardziej sporne.":
+        "The key figures from every voting day in the Sejm: how many laws were passed, whose amendments got through and which vote was the most contested.",
+    "Uchwalone ustawy": "Laws passed", "Podjęte uchwały": "Resolutions adopted", "Odrzucone projekty": "Bills rejected",
+    "Głosowania nad poprawkami": "Votes on amendments", "w tym przyjęte": "adopted",
+    "Rozstrzygnięcia wbrew rekomendacji komisji": "Decided against the committee's recommendation",
+    "Najbardziej sporne głosowanie nad ustawą": "Most contested vote on a law", "Czyje poprawki przeszły?": "Whose amendments passed?",
+    "przyjęte / głosowane": "adopted / voted", "Wszystkie głosowania tego dnia": "All votes of the day",
+    "Udostępnij": "Share", "Skopiowano link": "Link copied", "Za": "For", "Przeciw": "Against",
     "Gotowe grafiki i wpisy do mediów społecznościowych po każdym dniu głosowań. Liczby i nazwy pochodzą wprost z danych, bez komentarza.":
         "Ready-made images and social media posts after every voting day. Numbers and names come straight from the data, without commentary.",
     "Grafiki i wpisy są po polsku. Przycisk serwisu otwiera go z gotową treścią: nic nie zostanie opublikowane bez Twojego kliknięcia.":
@@ -68,7 +76,7 @@ EN = {
         "X and Bluesky open with the text only — the image has to be attached by hand.",
     "Jeden wpis": "Single post", "Nitka": "Thread", "Kopiuj": "Copy", "Skopiowano": "Copied",
     "Kopiuj całą nitkę": "Copy the whole thread", "znaków": "characters",
-    "Podsumowania dni głosowań — gotowe wpisy do udostępnienia": "Voting day summaries — ready-made posts to share",
+    "Podsumowania dni głosowań": "Voting day summaries",
     "podsumowania ostatnich dni głosowań: liczby, grafiki i gotowe wpisy do mediów społecznościowych":
         "summaries of the latest voting days: figures, images and ready-made social media posts",
     # navigation & layout
@@ -343,8 +351,8 @@ EN = {
 
 # Keys that are identifiers rather than Polish display text.
 PL = {
-    "Podsumowania dni — opis": "Gotowa grafika i wpis do mediów społecznościowych po każdym dniu głosowań w Sejmie: "
-                               "uchwalone ustawy, przyjęte poprawki i głosy klubów, z liczbami wprost z danych.",
+    "Podsumowania dni — opis": "Najważniejsze liczby z każdego dnia głosowań w Sejmie: uchwalone ustawy, przyjęte poprawki "
+                               "i głosy klubów w najbardziej spornym głosowaniu, wprost z danych.",
     "Domyślny opis": "Każde głosowanie w Sejmie powiązane z poprawką, której dotyczy: pełna treść, "
                      "zgłaszający, rekomendacja komisji i wynik w podziale na kluby.",
     "Prywatność — opis": "Sejmomat nie używa cookies, śledzenia ani reklam. Co zapisuje dostawca hostingu, "

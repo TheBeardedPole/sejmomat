@@ -1,100 +1,98 @@
 {% extends "base.html" %}
 {% block title %}{{ _("Podsumowania dni") }}{% endblock %}
 {% block description %}{{ _("Podsumowania dni — opis") }}{% endblock %}
-{# A post in a box, with buttons; `image` adds the ones that concern the picture. #}
-{% macro post(text, image=none, name=none) %}
-<div class="post">
-  <pre lang="pl">{{ text }}</pre>
-  <p class="post-actions"><button type="button" data-copy>{{ _("Kopiuj") }}</button>
-    {% if image %}
-    <a href="{{ image }}" download="{{ name }}">{{ _("Pobierz grafikę") }}</a>
-    <button type="button" data-share="{{ image }}" data-name="{{ name }}" hidden>{{ _("Udostępnij z grafiką") }}</button>
-    {% endif %}
-    <a href="https://x.com/intent/post?text={{ text | urlencode }}" target="_blank" rel="noopener">X</a>
-    <a href="https://bsky.app/intent/compose?text={{ text | urlencode }}" target="_blank" rel="noopener">Bluesky</a>
-    <span class="muted">{{ post_weight(text) }}/{{ POST_LIMIT }} {{ _("znaków") }}</span></p>
-</div>
-{% endmacro %}
-{% macro text_version(s) %}
-  <h3>{{ _("Jeden wpis") }}</h3>
-  {{ post(s.single) }}
-  {% if s.posts | length > 1 %}
-  <h3>{{ _("Nitka") }} ({{ s.posts | length }})
-    <button type="button" class="thread-copy" data-copy-thread>{{ _("Kopiuj całą nitkę") }}</button></h3>
-  <div class="thread">{% for p in s.posts %}{{ post(p) }}{% endfor %}</div>
-  {% endif %}
-{% endmacro %}
 {% block content %}
 <style>
-  .post { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin: 8px 0; }
-  .post pre { margin: 0; font: inherit; white-space: pre-wrap; overflow-wrap: anywhere; }
-  .post-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 8px 0 0; font-size: .88rem; }
-  .post-actions button, .post-actions a, .thread-copy { font: inherit; font-size: .88rem; padding: 3px 12px; border-radius: 99px;
-    border: 1px solid var(--line); background: none; color: inherit; cursor: pointer; text-decoration: none; }
-  .post-actions button:hover, .post-actions a:hover, .thread-copy:hover { border-color: currentColor; }
-  .post-actions [hidden] { display: none; }
   .day h2 { margin-top: 0; }
-  .day h3 { margin: 14px 0 4px; }
-  .day .shot { display: block; width: 100%; max-width: 520px; height: auto; border: 1px solid var(--line); border-radius: 8px; }
-  .day details { margin-top: 14px; }
-  .day summary { cursor: pointer; color: var(--muted); }
+  .day-body { display: grid; grid-template-columns: minmax(0, 420px) minmax(0, 1fr); gap: 20px; align-items: start; }
+  @media (max-width: 760px) { .day-body { grid-template-columns: minmax(0, 1fr); } }
+  .day .shot { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; }
+  .day h3 { margin: 16px 0 6px; font-size: .95rem; }
+  .day h3:first-child { margin-top: 0; }
+  .facts { list-style: none; padding: 0; margin: 0; }
+  .facts li { display: flex; justify-content: space-between; gap: 12px; padding: 4px 0; border-bottom: 1px solid var(--line); }
+  .facts b { font-variant-numeric: tabular-nums; }
+  .contested p { margin: 4px 0; }
+  .proposers { width: auto; }
+  .proposers td { padding: 2px 16px 2px 0; }
+  .day-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 16px 0 0; font-size: .9rem; }
+  .day-actions button, .day-actions a { font: inherit; padding: 4px 14px; border-radius: 99px; border: 1px solid var(--line);
+    background: none; color: inherit; cursor: pointer; text-decoration: none; }
+  .day-actions button:hover, .day-actions a:hover { border-color: currentColor; }
 </style>
 <h1>{{ _("Podsumowania dni") }}</h1>
-<p class="tagline">{{ _("Gotowe grafiki i wpisy do mediów społecznościowych po każdym dniu głosowań. Liczby i nazwy pochodzą wprost z danych, bez komentarza.") }}</p>
-<p class="muted">{{ _("Grafiki i wpisy są po polsku. Przycisk serwisu otwiera go z gotową treścią: nic nie zostanie opublikowane bez Twojego kliknięcia.") }}
-  {{ _("X i Bluesky otwierają się z samym tekstem — grafikę trzeba dołączyć ręcznie.") }}</p>
+<p class="tagline">{{ _("Najważniejsze liczby z każdego dnia głosowań w Sejmie: ile ustaw uchwalono, czyje poprawki przeszły i które głosowanie było najbardziej sporne.") }}</p>
 {% for s in summaries %}
 <section class="card day" id="{{ s.day }}">
   <h2>{{ s.day | date_pl }} · <a href="{{ root }}posiedzenie/{{ s.sitting }}.html">{{ sitting_name(s.sitting) }}</a></h2>
-  {% if s.image %}
-  {% set image = site_root ~ CARD_DIR ~ "/" ~ s.day ~ ".png" %}
-  <a href="{{ image }}"><img class="shot" src="{{ image }}" width="{{ s.imageSize[0] }}" height="{{ s.imageSize[1] }}" alt="{{ s.alt }}" lang="pl" loading="lazy"></a>
-  <h3>{{ _("Wpis do grafiki") }}</h3>
-  {{ post(s.caption, image, "sejmomat-" ~ s.day ~ ".png") }}
-  <details><summary>{{ _("Wersja tekstowa (bez grafiki)") }}</summary>{{ text_version(s) }}</details>
-  {% else %}
-  {{ text_version(s) }}
-  {% endif %}
+  <div class="day-body">
+    {% if s.image %}{% set image = site_root ~ CARD_DIR ~ "/" ~ s.day ~ ".png" %}
+    <a href="{{ image }}"><img class="shot" src="{{ image }}" width="{{ s.imageSize[0] }}" height="{{ s.imageSize[1] }}" alt="{{ s.alt }}" lang="pl" loading="lazy"></a>
+    {% endif %}
+    <div>
+      <ul class="facts">
+        <li>{{ _("Głosowania") }} <b>{{ s.votes }}</b></li>
+        <li>{{ _("Uchwalone ustawy") }} <b>{{ s.lawsPassed }}</b></li>
+        {% if s.resolutionsPassed %}<li>{{ _("Podjęte uchwały") }} <b>{{ s.resolutionsPassed }}</b></li>{% endif %}
+        {% if s.billsRejected %}<li>{{ _("Odrzucone projekty") }} <b>{{ s.billsRejected }}</b></li>{% endif %}
+        {% if s.amendmentVotes %}<li>{{ _("Głosowania nad poprawkami") }} <b>{{ s.amendmentVotes }} <span class="muted">({{ _("w tym przyjęte") }}: {{ s.amendmentVotesAdopted }})</span></b></li>{% endif %}
+        {% if s.againstCommitteeRecommendation %}<li>{{ _("Rozstrzygnięcia wbrew rekomendacji komisji") }} <b>{{ s.againstCommitteeRecommendation }}</b></li>{% endif %}
+      </ul>
+      {% set m = s.mostContestedLaw %}
+      {% if m %}
+      <h3>{{ _("Najbardziej sporne głosowanie nad ustawą") }}</h3>
+      <div class="contested">
+        <p><a href="{{ root }}glosowanie/{{ m.sitting }}-{{ m.votingNumber }}.html" lang="pl">{{ m.title }}</a></p>
+        <p><span class="v-Y">{{ m.yes }} {{ _("za") }}</span> · <span class="v-N">{{ m.no }} {{ _("przeciw") }}</span> · <span class="v-A">{{ m.abstain }} {{ _("wstrz.") }}</span></p>
+        {% if m.lines.Y %}<p class="muted">{{ _("Za") }}: {{ m.lines.Y | join(", ") }}</p>{% endif %}
+        {% if m.lines.N %}<p class="muted">{{ _("Przeciw") }}: {{ m.lines.N | join(", ") }}</p>{% endif %}
+      </div>
+      {% endif %}
+      {% set props = s.amendmentProposers | selectattr("adopted") | list %}
+      {% if props %}
+      <h3>{{ _("Czyje poprawki przeszły?") }} <span class="muted">({{ _("przyjęte / głosowane") }})</span></h3>
+      <table class="proposers"><tbody>
+        {% for x in props %}<tr><td>{% if x.proposer in by_proposer %}<a href="{{ root }}poprawki/{{ club_slug(x.proposer) }}.html">{{ x.proposer }}</a>{% else %}{{ x.proposer }}{% endif %}</td><td class="num">{{ x.adopted }} / {{ x.voted }}</td></tr>{% endfor %}
+      </tbody></table>
+      {% endif %}
+      <p class="day-actions">
+        <a href="{{ root }}posiedzenie/{{ s.sitting }}.html">{{ _("Wszystkie głosowania tego dnia") }} →</a>
+        <button type="button" data-share="{{ s.day }}"{% if s.image %} data-image="{{ image }}"{% endif %}>{{ _("Udostępnij") }}</button>
+        {% if s.image %}<a href="{{ image }}" download="sejmomat-{{ s.day }}.png">{{ _("Pobierz grafikę") }}</a>{% endif %}
+      </p>
+    </div>
+  </div>
 </section>
 {% endfor %}
 <script>
   (() => {
-    const done = {{ _("Skopiowano") | tojson }};
-    const copy = async (text) => {
-      try { await navigator.clipboard.writeText(text); return true; } catch { /* no clipboard here, or no permission */ }
-      const box = Object.assign(document.createElement("textarea"), { value: text, readOnly: true });
-      box.style.cssText = "position:fixed;top:0;left:0;opacity:0";
-      document.body.append(box);
-      box.select();
-      let ok = false;
-      try { ok = document.execCommand("copy"); } catch { /* not allowed either */ }
-      box.remove();
-      return ok;
-    };
-    // Sharing a picture together with text works where the system's share
-    // sheet takes files (phones, mostly); the button stays hidden elsewhere.
-    const probe = new File([""], "x.png", { type: "image/png" });
-    if (navigator.canShare && navigator.canShare({ files: [probe] })) {
-      for (const b of document.querySelectorAll("[data-share]")) b.hidden = false;
-    }
+    const copied = {{ _("Skopiowano link") | tojson }};
+    const title = document.title;
+    // Share a day: the system's share sheet with the image where it takes
+    // files (phones, mostly), otherwise with the link only; where there is
+    // no share sheet, the link is copied.
     document.addEventListener("click", async (e) => {
-      const share = e.target.closest("[data-share]");
-      if (share) {
-        const blob = await (await fetch(share.dataset.share)).blob();
-        const file = new File([blob], share.dataset.name, { type: "image/png" });
-        navigator.share({ files: [file], text: share.closest(".post").querySelector("pre").textContent }).catch(() => {});
+      const button = e.target.closest("[data-share]");
+      if (!button) return;
+      const url = new URL(`#${button.dataset.share}`, location.href).href;
+      if (navigator.share) {
+        let files;
+        try {
+          if (button.dataset.image) {
+            const blob = await (await fetch(button.dataset.image)).blob();
+            const file = new File([blob], `sejmomat-${button.dataset.share}.png`, { type: "image/png" });
+            if (navigator.canShare?.({ files: [file] })) files = [file];
+          }
+        } catch { /* share without the image */ }
+        navigator.share({ title, url, ...(files && { files }) }).catch(() => {});
         return;
       }
-      // copy a post, or a day's whole thread (posts separated by an empty line)
-      const button = e.target.closest("[data-copy], [data-copy-thread]");
-      if (!button) return;
-      const posts = button.matches("[data-copy]") ? [button.closest(".post").querySelector("pre")]
-        : [...button.closest(".day").querySelectorAll(".thread pre")];
-      if (await copy(posts.map((p) => p.textContent).join("\n\n"))) {
+      try {
+        await navigator.clipboard.writeText(url);
         const label = button.textContent;
-        button.textContent = done;
+        button.textContent = copied;
         setTimeout(() => { button.textContent = label; }, 2000);
-      }
+      } catch { location.hash = button.dataset.share; }
     });
   })();
 </script>
