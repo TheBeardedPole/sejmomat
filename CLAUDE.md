@@ -95,6 +95,17 @@ Live on sejmomat.pl:
   of the last 60 days still without a transcript are checked again.
   Transcripts are linked, not read: they have no times per speaker.
 
+- **First-day club ids merged:** on 13 November 2023 three clubs voted
+  under provisional ids (PSL, Nowa_Lewica, Polska2050) and switched the next
+  day; `model.merge_opening_ids()` counts those votes under the lasting id
+  (PSL-TD, Lewica, Polska2050-TD) when the data is loaded. The later, real
+  Polska2050 club is unaffected.
+- **RCL link** on government bill pages (`data/rcl.json`, from the Sejm
+  API's process records; `fetch.fetch_rcl()`). RCL's own site disallows
+  crawling (robots.txt `Disallow: /`), so we only link to it; a request to
+  RCL for data is up to the owner. Favicon: `static/favicon.*`, made by
+  `brand/make.py`.
+
 Waiting on the owner:
 
 - **Posting day summaries** (no social media accounts yet) (`.github/workflows/social.yml`): to X
