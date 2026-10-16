@@ -108,7 +108,8 @@ EN = {
     "projektów ustaw i uchwał, nad którymi głosował Sejm": "bills and resolutions voted on by the Sejm",
     "Zaplanowane": "Planned", "Odbyte": "Held", "zaplanowane": "planned", "zamknięte": "closed", "zdalne": "remote",
     "posiedzenie nr": "meeting no.", "wspólnie z": "jointly with", "Cały porządek": "Whole agenda", "pozycji": "lines",
-    "Nagranie": "Recording", "Stenogram (PDF)": "Transcript (PDF)", "W komisjach": "In committee",
+    "Nagranie": "Recording", "w serwisie Sejmu": "on the Sejm's site",
+    "Nie udało się odtworzyć nagrania. Otwórz je w serwisie Sejmu.": "The recording could not be played. Open it on the Sejm's site.", "Stenogram (PDF)": "Transcript (PDF)", "W komisjach": "In committee",
     "Szukaj w porządku obrad…": "Search the agendas…", "Szukaj w porządku obrad": "Search the agendas",
     "Nagrania i stenogramy pochodzą z serwisu Sejmu. Stenogram pojawia się zwykle kilka dni lub tygodni po posiedzeniu; posiedzenia zamknięte często go nie mają.":
         "Recordings and transcripts are the Sejm's, in Polish. A transcript usually appears a few days or weeks after the meeting; closed meetings often have none.",

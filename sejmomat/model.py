@@ -208,15 +208,54 @@ def agenda_label(title):
     return t.strip()
 
 
+def merge_opening_ids(votes, max_votes=20, share=0.8):
+    """On the term's first day some clubs voted under a provisional id (PSL,
+    Nowa_Lewica, Polska2050) and switched to their lasting one (PSL-TD,
+    Lewica, Polska2050-TD) the next day. Those first votes are counted under
+    the lasting id, so a club is not split in two by a day's paperwork. An id
+    qualifies when its first run starts on the first day, lasts at most
+    `max_votes` votes, and at least `share` of its MPs appear together right
+    after under one id that did not exist during the run. Returns {old: new}."""
+    # elections by list (the Speaker's, on the first day) have no ballots by club
+    votes = sorted((v for v in votes if v["ballots"]), key=lambda v: (v["date"], v["votingNumber"]))
+    if not votes:
+        return {}
+    first_day = votes[0]["date"][:10]
+    opening = [i for i, v in enumerate(votes) if v["date"][:10] == first_day]
+    merged = {}
+    for club in sorted({c for i in opening for c in votes[i]["ballots"]}):
+        start = next(i for i in opening if club in votes[i]["ballots"])
+        end = start
+        while end < len(votes) and club in votes[end]["ballots"]:
+            end += 1
+        run = votes[start:end]
+        if len(run) > max_votes or end == len(votes):
+            continue
+        members = {mp for ids in run[-1]["ballots"][club].values() for mp in ids}
+        after = votes[end]
+        seen = {c for v in run for c in v["ballots"]}
+        for new, groups in after["ballots"].items():
+            moved = members & {mp for ids in groups.values() for mp in ids}
+            if new not in seen and members and len(moved) >= share * len(members):
+                for v in run:
+                    v["ballots"][new] = v["ballots"].pop(club)
+                merged[club] = new
+                break
+    return merged
+
+
 def load():
     mps = {m["id"]: m for m in _load(DATA / "mps.json")}
     clubs = {c["id"]: c["name"] for c in _load(DATA / "clubs.json")}
     sittings = {}
     for f in sorted((DATA / "votings").glob("*.json"), key=lambda p: int(p.stem)):
         data = _load(f)
-        votings = data["votings"]
-        for v in votings:
+        sittings[data["sitting"]] = data["votings"]
+        for v in data["votings"]:
             v["sitting"] = data["sitting"]
+    merge_opening_ids([v for vs in sittings.values() for v in vs])
+    for s, votings in sittings.items():
+        for v in votings:
             v["clubs"] = club_breakdown(v)
             v["passed"] = passed(v)
             v["senate"] = bool(SENATE_RE.search(v.get("title") or ""))
@@ -224,5 +263,4 @@ def load():
             v["bill"] = bill_key(v)
             v["prints"] = prints_in_title(v.get("title"))
             v["agenda"] = agenda_label(v.get("title"))
-        sittings[data["sitting"]] = votings
     return mps, clubs, sittings

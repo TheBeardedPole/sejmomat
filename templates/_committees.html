@@ -9,9 +9,14 @@
   .meeting .ag-sub { margin: 2px 0 0; font-size: .88rem; color: var(--muted); }
   .meeting details summary { cursor: pointer; color: var(--muted); font-size: .88rem; margin-top: 4px; }
   .meeting-links { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 6px 0 0; font-size: .9rem; }
+  .meeting-links button { font: inherit; padding: 0; border: 0; background: none; color: var(--accent); cursor: pointer; }
+  .meeting-links button:hover { text-decoration: underline; }
+  .meeting-video video { display: block; width: 100%; max-width: 640px; margin-top: 8px; border-radius: 8px; background: #000; }
   .meeting-search { font: inherit; width: min(420px, 100%); padding: 6px 10px; margin: 8px 0; background: var(--surface);
     color: var(--text); border: 1px solid var(--line); border-radius: 6px; }
 </style>
+<script src="{{ site_root }}static/committees.js?v={{ static_version('committees.js') }}" defer
+  data-hls="{{ site_root }}static/vendor/hls.light.min.js" data-failed="{{ _('Nie udało się odtworzyć nagrania. Otwórz je w serwisie Sejmu.') }}"></script>
 {% endmacro %}
 
 {% macro agenda_lines(lines) -%}
@@ -36,12 +41,14 @@
   {% else %}{{ agenda_lines(m.agenda) }}{% endif %}
   </div>
   {% set bills = m.bill_lines.keys() | list if not line else [] %}
-  {% if (m.video and m.status == "FINISHED") or m.transcript or bills %}
+  {% if ((m.video or m.stream) and m.status == "FINISHED") or m.transcript or bills %}
   <p class="meeting-links">
-    {% if m.video and m.status == "FINISHED" %}<a href="{{ m.video }}" target="_blank" rel="noopener">▶ {{ _("Nagranie") }}</a>{% endif %}
+    {% if m.stream and m.status == "FINISHED" %}<button type="button" data-stream="{{ m.stream }}">▶ {{ _("Nagranie") }}</button>{% endif %}
+    {% if m.video and m.status == "FINISHED" %}<a href="{{ m.video }}" target="_blank" rel="noopener">{% if m.stream %}{{ _("w serwisie Sejmu") }}{% else %}▶ {{ _("Nagranie") }}{% endif %}</a>{% endif %}
     {% if m.transcript %}<a href="{{ transcript_url(code, m.num) }}" target="_blank" rel="noopener">{{ _("Stenogram (PDF)") }}</a>{% endif %}
     {% for b in bills %}<a href="{{ root }}ustawa/{{ b }}.html">{{ _("Projekt") }}: <span lang="pl">{{ bill_by_root[b].title | truncate(80) }}</span></a>{% endfor %}
   </p>
   {% endif %}
+  <div class="meeting-video" hidden></div>
 </article>
 {% endmacro %}

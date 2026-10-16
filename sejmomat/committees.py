@@ -44,14 +44,16 @@ def compact(s):
     for _, text in lines:
         for group in _PRINTS_RE.findall(text):
             prints += re.findall(r"\d+(?:-[A-Z])?", group)
-    video = next((v for v in s.get("video") or [] if v and v.get("playerLink")), None)
+    video = next((v for v in s.get("video") or [] if v and (v.get("videoLink") or v.get("playerLink"))), None)
     return {
         "num": s["num"], "date": s["date"], "start": s.get("startDateTime"), "end": s.get("endDateTime"),
         "status": s.get("status"), "closed": bool(s.get("closed")), "remote": bool(s.get("remote")),
         "joint": [j["code"] for j in s.get("jointWith") or [] if j.get("code")],
         "agenda": lines, "prints": list(dict.fromkeys(prints)),
-        # the Sejm's player page; its stream starts and stops with the meeting
-        "video": video["playerLink"] if video else None,
+        # the Sejm's player page, and the stream itself (HLS), which starts
+        # and stops with the meeting
+        "video": video.get("playerLink") if video else None,
+        "stream": video.get("videoLink") if video else None,
     }
 
 
