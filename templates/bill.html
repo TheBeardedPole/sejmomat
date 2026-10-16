@@ -49,6 +49,14 @@
 {{ list_box("bill", site_root ~ "dane/debaty/" ~ b.root ~ ".json") }}
 {% endif %}
 
+{% if b.committee_meetings %}
+{% from "_committees.html" import styles as committee_styles, meeting with context %}
+{{ committee_styles() }}
+<h2 id="komisje">{{ _("W komisjach") }} ({{ b.committee_meetings | length }})</h2>
+<p class="muted">{{ _("Posiedzenia komisji, na których omawiano projekt (według numerów druków w porządku obrad), od najnowszych.") }}</p>
+{% for code, m in b.committee_meetings %}{{ meeting(m, code, line=m.bill_lines[b.root], show_committee=true) }}{% endfor %}
+{% endif %}
+
 <h2>{{ _("Wszystkie głosowania") }} ({{ b.votings | length }})</h2>
 {% for s, group in b.votings | groupby("sitting") %}
 <section class="agenda">

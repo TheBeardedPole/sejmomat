@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% from "_tabs.html" import bar as tab_bar with context %}
+{% from "_committees.html" import styles, meeting with context %}
+{% block title %}{{ c.name }}{% endblock %}
+{% block description %}{{ c.name }}: {{ c.members | length }} {{ _("członków") }}, {{ c.held | length }} {{ _("posiedzeń w tej kadencji") }}.{% endblock %}
+{% block main_attrs %} data-pagefind-body{% endblock %}
+{% block content %}
+{{ styles() }}
+<div class="crumbs"><a href="{{ root }}komisje.html">{{ _("Komisje sejmowe") }}</a></div>
+<h1 lang="pl">{{ c.name }}</h1>
+<p class="muted">{{ _("Komisja " ~ c.type) }} · {{ c.code }}</p>
+<div class="grid">
+  <div class="card stat"><b><a href="#czlonkowie">{{ c.members | length }}</a></b>{{ _("członków") }}</div>
+  <div class="card stat"><b><a href="#posiedzenia">{{ c.held | length }}</a></b>{{ _("posiedzeń w tej kadencji") }}</div>
+  {% if c.planned %}<div class="card stat"><b><a href="#posiedzenia">{{ c.planned | length }}</a></b>{{ _("zaplanowanych posiedzeń") }}</div>{% endif %}
+  <div class="card stat"><b><a href="#projekty">{{ c.bills | length }}</a></b>{{ _("projektów ustaw i uchwał, nad którymi głosował Sejm") }}</div>
+</div>
+
+{{ tab_bar([("posiedzenia", _("Posiedzenia"), c.held | length + c.planned | length)]
+  + [("czlonkowie", _("Członkowie"), c.members | length)]
+  + ([("projekty", _("Projekty"), c.bills | length)] if c.bills else [])) }}
+<div class="tab-panels">
+
+<section class="tab-panel" id="posiedzenia">
+<h2 class="tab-title">{{ _("Posiedzenia") }}</h2>
+{% if c.planned %}
+<h3>{{ _("Zaplanowane") }}</h3>
+{% for m in c.planned %}{{ meeting(m, c.code) }}{% endfor %}
+<h3>{{ _("Odbyte") }}</h3>
+{% endif %}
+{% if c.held | length > 10 %}<input type="search" class="meeting-search" data-filter=".meeting" placeholder="{{ _('Szukaj w porządku obrad…') }}" aria-label="{{ _('Szukaj w porządku obrad') }}"> <span class="muted" data-filter-count></span>{% endif %}
+<div class="meetings">
+{% for m in c.held %}{{ meeting(m, c.code) }}{% endfor %}
+</div>
+<p class="note">{{ _("Nagrania i stenogramy pochodzą z serwisu Sejmu. Stenogram pojawia się zwykle kilka dni lub tygodni po posiedzeniu; posiedzenia zamknięte często go nie mają.") }}</p>
+</section>
+
+<section class="tab-panel" id="czlonkowie">
+{% set club_ids = club_rows | map(attribute="id") | list %}
+<h2 class="tab-title">{{ _("Członkowie") }}</h2>
+<div class="table-scroll"><table>
+  <thead><tr><th data-sort="text">{{ _("Poseł") }}</th><th data-sort="text">{{ _("Klub") }}</th><th data-sort="text">{{ _("Funkcja") }}</th></tr></thead>
+  <tbody>
+  {% for r, function in c.members %}
+  <tr>
+    <td data-v="{{ r.mp.firstLastName.split()[-1] }}"><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a></td>
+    <td>{% if r.mp.club in club_ids %}<a href="{{ root }}klub/{{ club_slug(r.mp.club) }}.html">{{ r.mp.club }}</a>{% else %}{{ r.mp.club }}{% endif %}</td>
+    <td data-v="{{ loop.index }}">{% if function %}<span lang="pl">{{ function }}</span>{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+</section>
+
+{% if c.bills %}
+<section class="tab-panel" id="projekty">
+<h2 class="tab-title">{{ _("Projekty") }}</h2>
+<p class="muted">{{ _("Projekty ustaw i uchwał, nad którymi głosował Sejm, omawiane na posiedzeniach komisji (według numerów druków w porządku obrad).") }}</p>
+<div class="table-scroll"><table>
+  <thead><tr><th data-sort="text">{{ _("Projekt") }}</th><th class="num" data-sort="num">{{ _("Posiedzenia") }}</th></tr></thead>
+  <tbody>
+  {% for b, n in c.bills %}
+  <tr><td><a href="{{ root }}ustawa/{{ b.root }}.html#komisje" lang="pl">{{ b.title }}</a></td><td class="num" data-v="{{ n }}">{{ n }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+</section>
+{% endif %}
+
+</div>
+{% endblock %}

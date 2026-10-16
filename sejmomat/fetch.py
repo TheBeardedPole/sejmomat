@@ -68,7 +68,7 @@ def fetch_people():
     ])
     clubs = api.get("clubs")
     _write_json(DATA / "clubs.json", [{k: c.get(k) for k in ("id", "name")} for c in clubs])
-    # Committee membership (used by the games; "function" is set for chairs and deputies).
+    # Committee membership (committee and MP pages, the games; "function" is set for chairs and deputies).
     committees = api.get("committees") or []
     _write_json(DATA / "committees.json", [
         {"code": c.get("code"), "name": c.get("name"), "type": c.get("type"),
@@ -273,12 +273,16 @@ def run():
     is something new since the last completed acts scan (a new sitting, new
     votes or new prints). Between sittings nothing changes, so the scan and
     the slow ELI API are skipped. `python -m sejmomat acts` forces the step."""
-    from . import agenda, speeches  # they build on this module
+    from . import agenda, committees, speeches  # they build on this module
     try:
         agenda.fetch()
     except Exception as e:  # the calendar is a nice-to-have; votes come first
         print(f"proceedings: not updated ({e})")
     fetch_people()
+    try:
+        committees.fetch()
+    except Exception as e:  # as the calendar
+        print(f"committees: not updated ({e})")
     fetch_sittings()
     fetch_prints()
     speeches.fetch()

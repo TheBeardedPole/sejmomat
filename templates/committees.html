@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}{{ _("Komisje sejmowe") }}{% endblock %}
+{% block description %}{{ _("Komisje Sejmu: członkowie, posiedzenia z porządkiem obrad, nagraniami i stenogramami oraz projekty ustaw, którymi się zajmowały.") }}{% endblock %}
+{% block content %}
+<h1>{{ _("Komisje sejmowe") }}</h1>
+<p class="muted">{{ _("Członkowie, posiedzenia z porządkiem obrad, nagraniami i stenogramami oraz projekty ustaw, którymi zajmowała się każda komisja.") }}</p>
+<div class="table-scroll">
+<table>
+  <thead><tr>
+    <th data-sort="text">{{ _("Komisja") }}</th><th data-sort="text">{{ _("Rodzaj") }}</th>
+    <th class="num" data-sort="num">{{ _("Członkowie") }}</th>
+    <th class="num" data-sort="num">{{ _("Posiedzenia") }}</th>
+    <th class="num" data-sort="num">{{ _("Projekty ustaw") }}</th>
+    <th data-sort="text">{{ _("Ostatnie posiedzenie") }}</th>
+  </tr></thead>
+  <tbody>
+  {% for c in committee_rows %}
+  <tr>
+    <td data-v="{{ c.name }}"><a href="{{ root }}komisja/{{ c.code }}.html" lang="pl">{{ c.name }}</a></td>
+    <td>{{ _(c.type) }}</td>
+    <td class="num" data-v="{{ c.members | length }}">{{ c.members | length }}</td>
+    <td class="num" data-v="{{ c.held | length }}">{{ c.held | length }}</td>
+    <td class="num" data-v="{{ c.bills | length }}">{{ c.bills | length }}</td>
+    <td data-v="{{ c.held[0].date if c.held else '' }}" style="white-space:nowrap">{% if c.held %}{{ c.held[0].date | date_pl }}{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}

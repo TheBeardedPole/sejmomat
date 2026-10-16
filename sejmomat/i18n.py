@@ -96,6 +96,27 @@ EN = {
     "Porządek obrad następnego posiedzenia nie został jeszcze opublikowany.": "The agenda of the next sitting has not been published yet.",
     "Kolejne planowane posiedzenia": "Planned sittings after that", "kolejne mogą zostać dodane": "more may be added",
     "Cały porządek obrad": "The whole agenda", "Najbliższe planowane posiedzenie": "Next planned sitting",
+    "Komisje": "Committees", "Komisje sejmowe": "Sejm committees", "Komisja": "Committee", "Rodzaj": "Type",
+    "stała": "standing", "nadzwyczajna": "extraordinary", "śledcza": "investigative",
+    "Komisja stała": "Standing committee", "Komisja nadzwyczajna": "Extraordinary committee", "Komisja śledcza": "Investigative committee",
+    "Komisje Sejmu: członkowie, posiedzenia z porządkiem obrad, nagraniami i stenogramami oraz projekty ustaw, którymi się zajmowały.":
+        "Sejm committees: members, meetings with their agendas, recordings and transcripts, and the bills they worked on.",
+    "Członkowie, posiedzenia z porządkiem obrad, nagraniami i stenogramami oraz projekty ustaw, którymi zajmowała się każda komisja.":
+        "Members, meetings with their agendas, recordings and transcripts, and the bills each committee worked on.",
+    "Projekty ustaw": "Bills", "Projekty": "Bills", "Funkcja": "Role", "członków": "members",
+    "posiedzeń w tej kadencji": "meetings this term", "zaplanowanych posiedzeń": "planned meetings",
+    "projektów ustaw i uchwał, nad którymi głosował Sejm": "bills and resolutions voted on by the Sejm",
+    "Zaplanowane": "Planned", "Odbyte": "Held", "zaplanowane": "planned", "zamknięte": "closed", "zdalne": "remote",
+    "posiedzenie nr": "meeting no.", "wspólnie z": "jointly with", "Cały porządek": "Whole agenda", "pozycji": "lines",
+    "Nagranie": "Recording", "Stenogram (PDF)": "Transcript (PDF)", "W komisjach": "In committee",
+    "Szukaj w porządku obrad…": "Search the agendas…", "Szukaj w porządku obrad": "Search the agendas",
+    "Nagrania i stenogramy pochodzą z serwisu Sejmu. Stenogram pojawia się zwykle kilka dni lub tygodni po posiedzeniu; posiedzenia zamknięte często go nie mają.":
+        "Recordings and transcripts are the Sejm's, in Polish. A transcript usually appears a few days or weeks after the meeting; closed meetings often have none.",
+    "Projekty ustaw i uchwał, nad którymi głosował Sejm, omawiane na posiedzeniach komisji (według numerów druków w porządku obrad).":
+        "Bills and resolutions voted on by the Sejm that were discussed at the committee's meetings (going by the print numbers on the agenda).",
+    "Posiedzenia komisji, na których omawiano projekt (według numerów druków w porządku obrad), od najnowszych.":
+        "Committee meetings where the bill was discussed (going by the print numbers on the agenda), newest first.",
+    "Obecny skład komisji według Sejmu.": "Current committee membership, as listed by the Sejm.",
     "Udostępnij": "Share", "Skopiowano link": "Link copied", "Za": "For", "Przeciw": "Against",
     "Gotowe grafiki i wpisy do mediów społecznościowych po każdym dniu głosowań. Liczby i nazwy pochodzą wprost z danych, bez komentarza.":
         "Ready-made images and social media posts after every voting day. Numbers and names come straight from the data, without commentary.",

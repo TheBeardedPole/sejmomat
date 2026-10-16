@@ -84,6 +84,17 @@ Live on sejmomat.pl:
   run in the 7 days before a sitting, when the agenda comes out and changes
   (`sejmomat/sitting_days.py`, LEAD_DAYS).
 
+- **Committees** (`komisje.html`, `komisja/<code>.html`, "Komisje" in the
+  nav): members, meetings with agenda, joint committees, recording and
+  transcript links; bills discussed (from print numbers on the agenda) also
+  on bill pages ("W komisjach"); MP pages have a "Komisje" tab.
+  `sejmomat/committees.py` keeps `data/committee_sittings.json`: one request
+  per committee for the meetings, plus a HEAD request per meeting to see
+  whether its transcript PDF is out. The API answers those slowly (the
+  first full check took 5.5 hours, run locally); afterwards only meetings
+  of the last 60 days still without a transcript are checked again.
+  Transcripts are linked, not read: they have no times per speaker.
+
 Waiting on the owner:
 
 - **Posting day summaries** (no social media accounts yet) (`.github/workflows/social.yml`): to X

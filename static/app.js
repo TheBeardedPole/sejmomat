@@ -137,6 +137,25 @@ if (mpTable) {
   apply();
 }
 
+// A search box over a list of items (committee meetings): <input data-filter=".item">
+// hides the items in its section whose data-text does not have every word typed.
+for (const input of document.querySelectorAll("input[data-filter]")) {
+  const scope = input.closest("section") || document;
+  const items = [...scope.querySelectorAll(input.dataset.filter)];
+  const count = scope.querySelector("[data-filter-count]");
+  const fold = (s) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ł/g, "l");
+  for (const el of items) el._text = fold(el.dataset.text || el.textContent);
+  input.addEventListener("input", () => {
+    const words = fold(input.value.trim()).split(/\s+/).filter(Boolean);
+    let shown = 0;
+    for (const el of items) {
+      el.hidden = !words.every((w) => el._text.includes(w));
+      if (!el.hidden) shown++;
+    }
+    if (count) count.textContent = words.length ? `${shown} / ${items.length}` : "";
+  });
+}
+
 // Sections of MP and club pages as tabs (templates/_tabs.html): one shown
 // at a time, picked by a click or by the address, which a click updates
 // without jumping; arrow keys move between tabs.

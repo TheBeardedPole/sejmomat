@@ -9,7 +9,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import agenda, analysis, authors, social, speeches
+from . import agenda, analysis, authors, committees, social, speeches
 from .stamp import stamp
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM
 from .i18n import LANGS, date_fmt, pct_fmt, translator
@@ -339,6 +339,8 @@ def build_context():
                 item["notes"] = [[(part, mp_ids.get(part)) for part in re.split(f"({name_re.pattern})", note) if part]
                                  for note in item["notes"]]
 
+    committee_rows = build_committees(mp_rows, bill_of_print, bill_by_root)
+
     linked = sum(1 for v in by_id.values() for a in v["amendments"] if a["item"])
     total = sum(1 for v in by_id.values() for a in v["amendments"])
     return {
@@ -354,6 +356,7 @@ def build_context():
         "coverage": (linked, total),
         "summaries": social.summaries({"by_id": by_id, "bill_by_root": bill_by_root}),
         "printed": set(printed), "printed_list": printed, "upcoming": upcoming, "planned": planned,
+        "committee_rows": committee_rows, "committee_names": {c["code"]: c["name"] for c in committee_rows},
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
         "generated": datetime.now(),
     }
@@ -477,6 +480,61 @@ def club_slug(club):
     return re.sub(r"[^\w-]", "", club) or "klub"
 
 
+COMMITTEE_TYPE = {"STANDING": "stała", "EXTRAORDINARY": "nadzwyczajna", "INVESTIGATIVE": "śledcza"}
+
+
+def build_committees(mp_rows, bill_of_print, bill_by_root):
+    """Committees with their members (chairs first), meetings held (newest
+    first) and planned, and the bills discussed. Adds "committees" to every MP
+    row and "committee_meetings" to the bills discussed in committee."""
+    path = DATA / "committees.json"
+    listed = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    meetings = committees.load()
+    names = {c["code"]: c["name"] for c in listed}
+    by_id = {r["mp"]["id"]: r for r in mp_rows}
+    for r in mp_rows:
+        r["committees"] = []
+
+    def rank(function):
+        f = function or ""
+        return 0 if f.startswith("przewodnicz") else 1 if f.startswith("zastęp") else 2
+
+    rows, seen = [], {}
+    for c in listed:
+        code, ms = c["code"], meetings.get(c["code"], [])
+        for m in ms:
+            # each line's bills, so a bill's page can quote the line about it
+            m["bill_lines"] = {}
+            for _, text in m["agenda"]:
+                for group in committees._PRINTS_RE.findall(text):
+                    for num in re.findall(r"\d+(?:-[A-Z])?", group):
+                        bill = bill_of_print(num)
+                        if bill:
+                            m["bill_lines"].setdefault(bill, text)
+        members = sorted(((by_id[x["id"]], x["function"]) for x in c["members"] if x["id"] in by_id),
+                         key=lambda rf: (rank(rf[1]), rf[0]["mp"]["firstLastName"].split()[-1]))
+        for r, function in members:
+            r["committees"].append({"code": code, "name": c["name"], "function": function})
+        held = [m for m in reversed(ms) if m["status"] == "FINISHED"]
+        bills = Counter(b for m in held for b in m["bill_lines"])
+        rows.append({"code": code, "name": c["name"], "type": COMMITTEE_TYPE.get(c["type"], c["type"]),
+                     "members": members, "held": held, "planned": sorted((m for m in ms if m["status"] != "FINISHED"), key=lambda m: (m["date"], m["start"] or "")),
+                     "bills": [(bill_by_root[b], n) for b, n in bills.most_common()]})
+        # a joint meeting is listed under every committee; on a bill's page once
+        for m in held:
+            key = (m["date"], m["start"], frozenset([code, *m["joint"]]))
+            for b in m["bill_lines"]:
+                if (b, key) not in seen:
+                    seen[(b, key)] = True
+                    bill_by_root[b].setdefault("committee_meetings", []).append((code, m))
+    for b in bill_by_root.values():
+        b.get("committee_meetings", []).sort(key=lambda cm: (cm[1]["date"], cm[1]["start"] or ""), reverse=True)
+    for r in mp_rows:
+        r["committees"].sort(key=lambda x: (rank(x["function"]), x["name"]))
+    rows.sort(key=lambda c: ({"stała": 0, "nadzwyczajna": 1, "śledcza": 2}.get(c["type"], 3), c["name"]))
+    return rows
+
+
 def build_clubs(clubs, mps, by_id, mp_rows):
     """Per-club cohesion, effectiveness, agreement with other clubs, members."""
     stats = defaultdict(lambda: {"votes": 0, "shares": [], "split": [], "rebellions": 0,
@@ -594,7 +652,7 @@ def _env(lang):
         VOTE_LABEL=VOTE_LABEL, LINE_LABEL=LINE_LABEL, MAJORITY_LABEL=MAJORITY_LABEL, KIND_LABEL=KIND_LABEL,
         print_url=print_url, pdf_url=pdf_url, act_url=act_url, TERM=TERM,
         post_weight=social.weight, POST_LIMIT=social.LIMIT, CARD_DIR=social.CARD_DIR,
-        static_version=static_version, club_short=social.club_short,
+        static_version=static_version, club_short=social.club_short, transcript_url=committees.transcript_url,
     )
     return env, t
 
@@ -614,6 +672,9 @@ def _pages(ctx):
     yield "privacy.html", "prywatnosc.html", {}
     yield "summaries.html", "podsumowania.html", {}
     yield "upcoming.html", "nadchodzace-posiedzenie.html", {}
+    yield "committees.html", "komisje.html", {}
+    for c in ctx["committee_rows"]:
+        yield "committee.html", f"komisja/{c['code']}.html", {"c": c}
     for c in ctx["club_rows"]:
         yield "club.html", f"klub/{c['slug']}.html", {"c": c}
     for name, votes in ctx["by_proposer"].items():

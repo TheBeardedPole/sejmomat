@@ -35,7 +35,8 @@
   + ([("wystapienia", _("Wystąpienia"), sp.spoken + sp.written)] if sp.spoken or sp.written else [])
   + [("wylamania", _("Wyłamania"), r.rebel_count)]
   + ([("poprawki", _("Poprawki i wnioski"), r.signed | length)] if r.signed else [])
-  + ([("kluby", _("Kluby"), r.history | length)] if r.history | length > 1 else []) %}
+  + ([("kluby", _("Kluby"), r.history | length)] if r.history | length > 1 else [])
+  + ([("komisje", _("Komisje"), r.committees | length)] if r.committees else []) %}
 {{ tab_bar(tabs) }}
 <div class="tab-panels">
 
@@ -124,6 +125,18 @@
 </table></div>
 {% else %}<p class="muted">{{ _("Brak.") }}</p>{% endif %}
 </section>
+
+{% if r.committees %}
+<section class="tab-panel" id="komisje">
+<h2 class="tab-title">{{ _("Komisje") }}</h2>
+<div class="table-scroll"><table><tbody>
+{% for x in r.committees %}
+<tr><td><a href="{{ root }}komisja/{{ x.code }}.html" lang="pl">{{ x.name }}</a></td><td>{% if x.function %}<span lang="pl">{{ x.function }}</span>{% endif %}</td></tr>
+{% endfor %}
+</tbody></table></div>
+<p class="note">{{ _("Obecny skład komisji według Sejmu.") }}</p>
+</section>
+{% endif %}
 
 </div>
 {% endblock %}

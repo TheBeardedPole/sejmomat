@@ -1,0 +1,47 @@
+{# Committee meetings, on committee and bill pages. Import "with context". #}
+{% macro styles() %}
+<style>
+  .meeting { padding: 12px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 12px; }
+  .meeting:target { background: var(--warn-bg); }
+  .meeting-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+  .meeting-head .when { font-weight: 600; }
+  .meeting .ag { margin: 4px 0 0; }
+  .meeting .ag-sub { margin: 2px 0 0; font-size: .88rem; color: var(--muted); }
+  .meeting details summary { cursor: pointer; color: var(--muted); font-size: .88rem; margin-top: 4px; }
+  .meeting-links { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 6px 0 0; font-size: .9rem; }
+  .meeting-search { font: inherit; width: min(420px, 100%); padding: 6px 10px; margin: 8px 0; background: var(--surface);
+    color: var(--text); border: 1px solid var(--line); border-radius: 6px; }
+</style>
+{% endmacro %}
+
+{% macro agenda_lines(lines) -%}
+{% for indent, text in lines %}<p class="{{ 'ag' if indent == 0 else 'ag-sub' }}"{% if indent > 1 %} style="margin-left:{{ (indent - 1) * 1.2 }}em"{% endif %}>{{ text }}</p>{% endfor %}
+{%- endmacro %}
+
+{# One meeting. `code` is the committee it is listed under; `line` shows
+   only that agenda line (on a bill's page) instead of the whole agenda. #}
+{% macro meeting(m, code, line=none, show_committee=false) %}
+<article class="meeting" id="posiedzenie-{{ m.num }}" data-text="{{ m.date }} {{ m.agenda | map(attribute=1) | join(' ') }}">
+  <div class="meeting-head">
+    <span class="when">{{ m.date | date_pl }}{% if m.start %} · {{ m.start[11:16] }}{% if m.end %}–{{ m.end[11:16] }}{% endif %}{% endif %}</span>
+    {% if show_committee %}<a href="{{ root }}komisja/{{ code }}.html#posiedzenie-{{ m.num }}">{{ committee_names.get(code, code) }}</a>{% else %}<span class="muted">{{ _("posiedzenie nr") }} {{ m.num }}</span>{% endif %}
+    {% if m.joint %}<span class="muted">{{ _("wspólnie z") }}: {% for j in m.joint %}<a href="{{ root }}komisja/{{ j }}.html">{{ committee_names.get(j, j) }}</a>{{ ", " if not loop.last }}{% endfor %}</span>{% endif %}
+    {% if m.status != "FINISHED" %}<span class="badge warn">{{ _("zaplanowane") }}</span>{% endif %}
+    {% if m.closed %}<span class="badge">{{ _("zamknięte") }}</span>{% endif %}
+    {% if m.remote %}<span class="badge">{{ _("zdalne") }}</span>{% endif %}
+  </div>
+  <div lang="pl">
+  {% if line %}<p class="ag">{{ line }}</p>
+  {% elif m.agenda | length > 5 %}{{ agenda_lines(m.agenda[:3]) }}<details><summary>{{ _("Cały porządek") }} ({{ m.agenda | length }} {{ _("pozycji") }})</summary>{{ agenda_lines(m.agenda[3:]) }}</details>
+  {% else %}{{ agenda_lines(m.agenda) }}{% endif %}
+  </div>
+  {% set bills = m.bill_lines.keys() | list if not line else [] %}
+  {% if (m.video and m.status == "FINISHED") or m.transcript or bills %}
+  <p class="meeting-links">
+    {% if m.video and m.status == "FINISHED" %}<a href="{{ m.video }}" target="_blank" rel="noopener">▶ {{ _("Nagranie") }}</a>{% endif %}
+    {% if m.transcript %}<a href="{{ transcript_url(code, m.num) }}" target="_blank" rel="noopener">{{ _("Stenogram (PDF)") }}</a>{% endif %}
+    {% for b in bills %}<a href="{{ root }}ustawa/{{ b }}.html">{{ _("Projekt") }}: <span lang="pl">{{ bill_by_root[b].title | truncate(80) }}</span></a>{% endfor %}
+  </p>
+  {% endif %}
+</article>
+{% endmacro %}
