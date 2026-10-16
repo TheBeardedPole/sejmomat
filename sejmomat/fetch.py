@@ -77,6 +77,27 @@ def fetch_people():
     ])
 
 
+def fetch_rcl():
+    """Government bills' numbers at the Government Legislation Centre (RCL),
+    where their work before the Sejm is published: {process number: {"num",
+    "link"}}. Only a process's own record has them, so each government bill
+    is asked for once; a bill without one is kept as null and not asked again.
+    RCL's own site is not fetched: it asks robots not to (robots.txt)."""
+    path = DATA / "rcl.json"
+    known = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    todo = [p["number"] for p in api.get("processes?limit=5000") or []
+            if (p.get("title") or "").startswith("Rządowy") and p["number"] not in known]
+
+    def one(num):
+        d = api.get(f"processes/{num}") or {}
+        return num, {"num": d["rclNum"], "link": d.get("rclLink")} if d.get("rclNum") else None
+
+    with ThreadPoolExecutor(WORKERS) as pool:
+        known.update(pool.map(one, todo))
+    _write_json(path, known)
+    print(f"rcl: {sum(1 for v in known.values() if v)} government bills with an RCL number, {len(todo)} asked")
+
+
 def _referenced_prints():
     """(print numbers to fetch, of which probed candidates).
 
@@ -279,6 +300,10 @@ def run():
     except Exception as e:  # the calendar is a nice-to-have; votes come first
         print(f"proceedings: not updated ({e})")
     fetch_people()
+    try:
+        fetch_rcl()
+    except Exception as e:  # a link per bill; not worth failing the update for
+        print(f"rcl: not updated ({e})")
     try:
         committees.fetch()
     except Exception as e:  # as the calendar

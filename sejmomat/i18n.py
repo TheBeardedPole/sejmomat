@@ -118,6 +118,10 @@ EN = {
     "Posiedzenia komisji, na których omawiano projekt (według numerów druków w porządku obrad), od najnowszych.":
         "Committee meetings where the bill was discussed (going by the print numbers on the agenda), newest first.",
     "Obecny skład komisji według Sejmu.": "Current committee membership, as listed by the Sejm.",
+    "Prace w rządzie, przed skierowaniem do Sejmu": "Work in the government, before the bill went to the Sejm",
+    "Rządowe Centrum Legislacji": "Government Legislation Centre",
+    "pierwsze wersje projektu, uzgodnienia i konsultacje; RCL nie pozwala na automatyczne pobieranie danych, dlatego pokazujemy tylko odnośnik":
+        "first drafts, inter-ministerial agreement and consultations; RCL does not allow automated downloads, so we only link to it",
     "Udostępnij": "Share", "Skopiowano link": "Link copied", "Za": "For", "Przeciw": "Against",
     "Gotowe grafiki i wpisy do mediów społecznościowych po każdym dniu głosowań. Liczby i nazwy pochodzą wprost z danych, bez komentarza.":
         "Ready-made images and social media posts after every voting day. Numbers and names come straight from the data, without commentary.",

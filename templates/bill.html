@@ -19,6 +19,10 @@
 {% endif %}
 {% endif %}
 <p class="muted">{{ _("Druki") }}: {% for p in b.prints %}{{ print_link(p, root, printed) }}{{ ", " if not loop.last }}{% endfor %}</p>
+{% if b.rcl %}
+<p class="muted">{{ _("Prace w rządzie, przed skierowaniem do Sejmu") }}: <a href="{{ b.rcl.link }}" target="_blank" rel="noopener">{{ _("Rządowe Centrum Legislacji") }}, {{ b.rcl.num }}</a>
+  <span class="note">({{ _("pierwsze wersje projektu, uzgodnienia i konsultacje; RCL nie pozwala na automatyczne pobieranie danych, dlatego pokazujemy tylko odnośnik") }})</span></p>
+{% endif %}
 
 {% if b.law %}
 <h2>{{ _("Zmiany w obowiązującym prawie") }}</h2>

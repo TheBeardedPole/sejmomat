@@ -20,8 +20,11 @@
 <meta property="og:description" content="{{ page_desc }}">
 <meta property="og:locale" content="{{ 'pl_PL' if lang == 'pl' else 'en_GB' }}">
 <meta name="twitter:card" content="summary">
-<meta name="theme-color" content="#b3122e">
+<meta name="theme-color" content="#1d5fc4">
 <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("sejmomat-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="icon" href="{{ site_root }}static/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{{ site_root }}favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="apple-touch-icon" href="{{ site_root }}static/apple-touch-icon.png">
 <link rel="stylesheet" href="{{ site_root }}static/style.css?v={{ asset_version }}">
 {% block head %}{% endblock %}
 </head>

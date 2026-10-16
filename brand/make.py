@@ -103,6 +103,39 @@ def stacked_avatar(w, bg, fg):
     return svg(w, w, body, bg)
 
 
+def favicon(w, radius=0.22, share=0.74):
+    """The browser tab icon: the S on a rounded square in the site's blue,
+    larger than on the profile picture, so it still reads at 16 pixels."""
+    _, unit_w, unit_up, unit_down = text_path(MONOTON, "S", 100)
+    size = min(w * share / unit_w, w * share / (unit_up + unit_down)) * 100
+    up, down = unit_up * size / 100, unit_down * size / 100
+    r = round(w * radius)
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{w}" viewBox="0 0 {w} {w}">'
+            f'<rect width="{w}" height="{w}" rx="{r}" fill="{BLUE}"/>'
+            f'{centred(MONOTON, "S", size, w / 2, (w + up - down) / 2, "#ffffff")}</svg>\n')
+
+
+def write_favicons(static):
+    """favicon.svg, favicon.ico (16, 32, 48) and apple-touch-icon.png (180,
+    a full square: the phone rounds it) in static/."""
+    (static / "favicon.svg").write_text(favicon(64))
+    tmp = OUT / "favicon"
+    tmp.mkdir(parents=True, exist_ok=True)
+    pngs = []
+    for size in (16, 32, 48):
+        src = tmp / f"favicon-{size}.svg"
+        src.write_text(favicon(64))
+        out = tmp / f"favicon-{size}.png"
+        subprocess.run(["inkscape", str(src), "--export-type=png", f"--export-filename={out}",
+                        f"--export-width={size}"], check=True, capture_output=True)
+        pngs.append(str(out))
+    subprocess.run(["magick", *pngs, str(static / "favicon.ico")], check=True, capture_output=True)
+    touch = tmp / "apple-touch-icon.svg"
+    touch.write_text(favicon(180, radius=0))
+    subprocess.run(["inkscape", str(touch), "--export-type=png", f"--export-filename={static / 'apple-touch-icon.png'}",
+                    "--export-width=180"], check=True, capture_output=True)
+
+
 IMAGES = {
     # the logo itself
     "logo-blue.svg": wordmark(BLUE),
@@ -130,6 +163,7 @@ def main():
     # the site header shows this as a CSS mask, coloured by the theme
     (HERE.parent / "static" / "logo.svg").write_text(wordmark("#000", pad=0))
     OUT.mkdir(exist_ok=True)
+    write_favicons(HERE.parent / "static")
     for name, data in IMAGES.items():
         path = OUT / name
         path.write_text(data)

@@ -219,6 +219,11 @@ def build_context():
     club_rows = build_clubs(clubs, mps, by_id, mp_rows)
     adopted, proposers, mp_proposers = build_adopted(by_id)
     bill_by_root = {b["root"]: b for b in bill_rows}
+    # government bills: their number and page at the Government Legislation Centre
+    rcl_path = DATA / "rcl.json"
+    rcl = json.loads(rcl_path.read_text(encoding="utf-8")) if rcl_path.exists() else {}
+    for b in bill_rows:
+        b["rcl"] = rcl.get(b["root"])
 
     # Speeches in the chamber. Figures and word clouds go into the MP, club
     # and bill pages; the lists and texts into dane/wystapienia/ (per MP) and
@@ -716,6 +721,7 @@ def run():
     if SITE.exists():
         shutil.rmtree(SITE)
     shutil.copytree(STATIC, SITE / "static")
+    shutil.copy(STATIC / "favicon.ico", SITE / "favicon.ico")  # where browsers and feed readers look first
     # Sejmdle: self-contained games that read the JSON API (test bench here;
     # the folder can be served from another host by changing its API address).
     shutil.copytree(ROOT / "games" / "sejmdle", SITE / "sejmdle")
