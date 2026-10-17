@@ -106,6 +106,17 @@ Live on sejmomat.pl:
   RCL for data is up to the owner. Favicon: `static/favicon.*`, made by
   `brand/make.py`.
 
+- **Interpellations and written questions** (`interpelacje.html`, nav
+  "Interpelacje"; "Interpelacje" tabs on MP and club pages; a column on the
+  MP list): `sejmomat/questions.py` keeps `data/questions.json` (no texts;
+  titles link to the Sejm), refreshed in full by `fetch` (about 50 requests,
+  a minute). Figures: answered share, median days to the first real answer
+  (deadline extensions do not count), answers after the deadline
+  (answerDelayedDays), unanswered past the 21 days. MP pages show the
+  latest 100; the rest load from `dane/pytania/<id>.json`
+  (`static/questions.js`). "Metodologia" moved from the nav to the footer
+  to keep the header on one line.
+
 Waiting on the owner:
 
 - **Posting day summaries** (no social media accounts yet) (`.github/workflows/social.yml`): to X

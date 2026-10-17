@@ -5,6 +5,7 @@
 {% from "_speeches.html" import summary as speech_summary, cloud, styles as speech_styles, list_box with context %}
 {% from "_tabs.html" import bar as tab_bar with context %}
 {% from "_cards.html" import mp as mp_cards with context %}
+{% from "_questions.html" import list as question_list, styles as question_styles with context %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
 <div class="crumbs"><a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a></div>
@@ -36,7 +37,8 @@
   + [("wylamania", _("Wyłamania"), r.rebel_count)]
   + ([("poprawki", _("Poprawki i wnioski"), r.signed | length)] if r.signed else [])
   + ([("kluby", _("Kluby"), r.history | length)] if r.history | length > 1 else [])
-  + ([("komisje", _("Komisje"), r.committees | length)] if r.committees else []) %}
+  + ([("komisje", _("Komisje"), r.committees | length)] if r.committees else [])
+  + ([("interpelacje", _("Interpelacje"), r.questions | length)] if r.questions else []) %}
 {{ tab_bar(tabs) }}
 <div class="tab-panels">
 
@@ -125,6 +127,20 @@
 </table></div>
 {% else %}<p class="muted">{{ _("Brak.") }}</p>{% endif %}
 </section>
+
+{% if r.questions %}
+{% set qs = r.q_stats %}
+<section class="tab-panel" id="interpelacje">
+<h2 class="tab-title">{{ _("Interpelacje i zapytania") }}</h2>
+{{ question_styles() }}
+<p>{{ qs.int }} {{ _("interpelacji") }}, {{ qs.zap }} {{ _("zapytań poselskich") }} ·
+  {{ _("z odpowiedzią") }}: {{ (qs.answered / r.questions | length) | pct }}{% if qs.median is not none %} · {{ _("typowy czas odpowiedzi") }}: {{ qs.median }} {{ _("dni") }}{% endif %}
+  {% if qs.late %} · <span class="v-A">{{ qs.late }} {{ _("odpowiedzi po terminie") }}</span>{% endif %}
+  {% if qs.overdue %} · <span class="v-N">{{ qs.overdue }} {{ _("bez odpowiedzi po terminie") }}</span>{% endif %}</p>
+<p class="muted">{{ _("Łącznie z pytaniami podpisanymi wspólnie z innymi posłami. Tytuł prowadzi do treści pytania i odpowiedzi w serwisie Sejmu.") }} <a href="{{ root }}interpelacje.html">{{ _("Jak odpowiadają ministrowie") }} →</a></p>
+{{ question_list(r.questions, site_root ~ "dane/pytania/" ~ r.mp.id ~ ".json") }}
+</section>
+{% endif %}
 
 {% if r.committees %}
 <section class="tab-panel" id="komisje">

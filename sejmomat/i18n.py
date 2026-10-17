@@ -122,6 +122,36 @@ EN = {
     "Rządowe Centrum Legislacji": "Government Legislation Centre",
     "pierwsze wersje projektu, uzgodnienia i konsultacje; RCL nie pozwala na automatyczne pobieranie danych, dlatego pokazujemy tylko odnośnik":
         "first drafts, inter-ministerial agreement and consultations; RCL does not allow automated downloads, so we only link to it",
+    "Interpelacje i zapytania": "Interpellations and written questions",
+    "Interpelacje i zapytania poselskie": "MPs' interpellations and written questions",
+    "Interpelacje i zapytania poselskie w tej kadencji: kto pyta najczęściej i jak szybko odpowiadają ministrowie.":
+        "MPs' interpellations and written questions this term: who asks most, and how quickly ministers answer.",
+    "Pytania posłów do rządu i to, jak szybko ministrowie na nie odpowiadają. Na odpowiedź mają": "MPs' questions to the government and how quickly ministers answer them. They have",
+    "dni.": "days to answer.", "dni": "days", "dn.": "d",
+    "interpelacji": "interpellations", "zapytań poselskich": "written questions", "z odpowiedzią": "answered",
+    "Z odpowiedzią": "Answered", "typowy czas odpowiedzi (mediana)": "typical time to answer (median)",
+    "typowy czas odpowiedzi": "typical time to answer", "odpowiedzi po terminie": "answers after the deadline",
+    "bez odpowiedzi po terminie": "unanswered past the deadline", "Jak odpowiadają ministrowie": "How ministers answer",
+    "Kliknij nagłówek kolumny, aby posortować. „Po terminie” to odpowiedzi, które przyszły później niż przewiduje regulamin; „bez odpowiedzi” — pytania, na które termin minął, a odpowiedzi nie ma.":
+        "Click a column heading to sort. \"After the deadline\" means answers that came later than the rules allow; \"unanswered\" means questions whose deadline has passed with no answer.",
+    "Adresat": "Addressed to", "Pytania": "Questions", "Mediana dni": "Median days", "Po terminie": "After the deadline",
+    "Przedłużenia": "Extensions", "Bez odpowiedzi": "Unanswered", "Interpelacje": "Interpellations", "Zapytania": "Written questions",
+    "Pytania liczone według klubu posła w dniu ich złożenia; pytanie podpisane przez posłów kilku klubów liczy się dla każdego z nich.":
+        "Questions are counted by the MP's club on the day they were filed; a question signed by MPs of several clubs counts for each.",
+    "Najczęściej pytający posłowie": "MPs who ask most",
+    "Pytanie podpisane przez kilku posłów liczy się dla każdego z nich.": "A question signed by several MPs counts for each of them.",
+    "Wszyscy posłowie": "All MPs", "Treść pytań i odpowiedzi jest w serwisie Sejmu; tytuły prowadzą do niej.":
+        "The questions and answers themselves are on the Sejm's site, in Polish; the titles link to them.",
+    "Pytanie": "Question", "Odpowiedź": "Answer", "odpowiedź po": "answered after", "po terminie": "late",
+    "brak odpowiedzi po terminie": "no answer, deadline passed", "termin przedłużony": "deadline extended",
+    "czeka na odpowiedź": "awaiting an answer", "interpelacja": "interpellation", "zapytanie": "written question",
+    "Szukaj w tytułach i adresatach…": "Search titles and recipients…", "Pokaż wszystkie": "Show all",
+    "Nie udało się wczytać listy.": "The list could not be loaded.",
+    "Łącznie z pytaniami podpisanymi wspólnie z innymi posłami. Tytuł prowadzi do treści pytania i odpowiedzi w serwisie Sejmu.":
+        "Including questions co-signed with other MPs. The title links to the question and answer on the Sejm's site.",
+    "posłów klubu, w czasie gdy do niego należeli": "by the club's MPs while they belonged to it",
+    "Wszystkie kluby i ministrowie": "All clubs and ministers", "Najczęściej pytają": "Ask most often",
+    "Do kogo najczęściej": "Asked most often",
     "Udostępnij": "Share", "Skopiowano link": "Link copied", "Za": "For", "Przeciw": "Against",
     "Gotowe grafiki i wpisy do mediów społecznościowych po każdym dniu głosowań. Liczby i nazwy pochodzą wprost z danych, bez komentarza.":
         "Ready-made images and social media posts after every voting day. Numbers and names come straight from the data, without commentary.",

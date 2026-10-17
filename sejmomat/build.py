@@ -4,12 +4,12 @@ import json
 import re
 import shutil
 from collections import Counter, defaultdict
-from datetime import datetime
+from datetime import date, datetime
 from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import agenda, analysis, authors, committees, social, speeches
+from . import agenda, analysis, authors, committees, questions, social, speeches
 from .stamp import stamp
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM
 from .i18n import LANGS, date_fmt, pct_fmt, translator
@@ -289,6 +289,7 @@ def build_context():
         bill_by_root[root]["speeches"] = {
             "count": len(items), "others": sum(1 for x in items if not x["mp"]),
             "by_club": Counter(x["club"] for x in items if x["mp"]).most_common()}
+    questions_summary = build_questions(mp_rows, club_rows, club_at)
     all_amendments = [v for v in sorted(by_id.values(), key=lambda v: (v["date"], v["votingNumber"]), reverse=True)
                       if v["amendments"]]
 
@@ -361,7 +362,7 @@ def build_context():
         "coverage": (linked, total),
         "summaries": social.summaries({"by_id": by_id, "bill_by_root": bill_by_root}),
         "printed": set(printed), "printed_list": printed, "upcoming": upcoming, "planned": planned,
-        "committee_rows": committee_rows, "committee_names": {c["code"]: c["name"] for c in committee_rows},
+        "committee_rows": committee_rows, "questions_summary": questions_summary, "committee_names": {c["code"]: c["name"] for c in committee_rows},
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
         "generated": datetime.now(),
     }
@@ -483,6 +484,81 @@ def groupby_consecutive(items, attr):
 
 def club_slug(club):
     return re.sub(r"[^\w-]", "", club) or "klub"
+
+
+ANSWER_DAYS = 21   # a minister's deadline for answering an interpellation or a written question
+QUESTIONS_SHOWN = 100   # on an MP's page; the rest load on request
+
+
+def build_questions(mp_rows, club_rows, club_at):
+    """Interpellations and written questions: each MP's (co-signed ones count
+    for every signer), each club's (by the MP's club on the day), and how each
+    recipient (minister) answers. Adds "questions" and "q_stats" to MP rows
+    and "questions" to club rows; returns the term's summary."""
+    data = questions.load()
+    today = date.today()
+    by_id = {r["mp"]["id"]: r for r in mp_rows}
+    for r in mp_rows:
+        r["questions"] = []
+    clubs = defaultdict(lambda: {"int": 0, "zap": 0, "askers": Counter(), "to": Counter()})
+    recipients = defaultdict(lambda: {"received": 0, "answered": 0, "days": [], "late": 0, "prolonged": 0, "overdue": 0})
+    items = []
+    for kind, short in questions.KINDS.items():
+        for q in data.get(kind, []):
+            when = q["sent"] or q["received"]
+            ok = questions.answered(q)
+            item = {"kind": short, "num": q["num"], "title": q["title"], "to": q["to"], "date": when,
+                    "answered": ok, "days": questions.days_to_answer(q), "web": q["web"],
+                    "late": any(v > 0 for v in q["late"].values()),
+                    "prolonged": any(r["prolongation"] for r in q["replies"]),
+                    # no answer, and the deadline is past
+                    "overdue": not ok and bool(when) and (today - date.fromisoformat(when)).days > ANSWER_DAYS}
+            items.append(item)
+            for mp in q["from"]:
+                if mp in by_id:
+                    by_id[mp]["questions"].append(item)
+            for club in {club_at(mp, when) for mp in q["from"] if when} - {None}:
+                clubs[club][short] += 1
+                clubs[club]["to"].update(q["to"])
+                clubs[club]["askers"].update(mp for mp in q["from"] if club_at(mp, when) == club)
+            for name in q["to"]:
+                t = recipients[name]
+                t["received"] += 1
+                t["answered"] += ok
+                if item["days"] is not None:
+                    t["days"].append(item["days"])
+                t["late"] += q["late"].get(name, 0) > 0
+                t["prolonged"] += item["prolonged"]
+                t["overdue"] += item["overdue"]
+
+    def median(xs):
+        xs = sorted(xs)
+        return xs[len(xs) // 2] if xs else None
+
+    for r in mp_rows:
+        mine = sorted(r["questions"], key=lambda i: (i["date"] or "", i["num"]), reverse=True)
+        r["questions"] = mine
+        r["q_stats"] = {"int": sum(1 for i in mine if i["kind"] == "int"), "zap": sum(1 for i in mine if i["kind"] == "zap"),
+                        "answered": sum(1 for i in mine if i["answered"]), "late": sum(1 for i in mine if i["late"]),
+                        "overdue": sum(1 for i in mine if i["overdue"]),
+                        "median": median([i["days"] for i in mine if i["days"] is not None])}
+    for c in club_rows:
+        q = clubs.get(c["id"])
+        c["questions"] = q and {"int": q["int"], "zap": q["zap"],
+                                "askers": [(by_id[mp], n) for mp, n in q["askers"].most_common(10) if mp in by_id],
+                                "to": q["to"].most_common(8)}
+    return {
+        "int": sum(1 for i in items if i["kind"] == "int"), "zap": sum(1 for i in items if i["kind"] == "zap"),
+        "answered": sum(1 for i in items if i["answered"]), "total": len(items),
+        "late": sum(1 for i in items if i["late"]), "overdue": sum(1 for i in items if i["overdue"]),
+        "median": median([i["days"] for i in items if i["days"] is not None]),
+        "recipients": sorted(({"name": n, **t, "median": median(t["days"])} for n, t in recipients.items()),
+                             key=lambda t: -t["received"]),
+        "clubs": sorted(((c, clubs[c["id"]]["int"], clubs[c["id"]]["zap"]) for c in club_rows if c["id"] in clubs),
+                        key=lambda x: -(x[1] + x[2])),
+        "top": sorted(mp_rows, key=lambda r: -(r["q_stats"]["int"] + r["q_stats"]["zap"]))[:20],
+        "deadline": ANSWER_DAYS,
+    }
 
 
 COMMITTEE_TYPE = {"STANDING": "stała", "EXTRAORDINARY": "nadzwyczajna", "INVESTIGATIVE": "śledcza"}
@@ -649,6 +725,7 @@ def _env(lang):
     env.filters["pct"] = pct_fmt(lang)
     env.filters["groupby_consecutive"] = groupby_consecutive
     # Proposer labels are data, except these two.
+    env.filters["cap"] = lambda s: s[:1].upper() + s[1:] if s else s   # "minister zdrowia" -> "Minister zdrowia"
     env.filters["who"] = lambda name: t(name) if name in ("Senat", "(nieustalony)") else name
     env.globals.update(
         _=t, lang=lang, SITE_URL=SITE_URL, asset_version=asset_version(),
@@ -658,6 +735,7 @@ def _env(lang):
         print_url=print_url, pdf_url=pdf_url, act_url=act_url, TERM=TERM,
         post_weight=social.weight, POST_LIMIT=social.LIMIT, CARD_DIR=social.CARD_DIR,
         static_version=static_version, club_short=social.club_short, transcript_url=committees.transcript_url,
+        QUESTIONS_SHOWN=QUESTIONS_SHOWN,
     )
     return env, t
 
@@ -677,6 +755,7 @@ def _pages(ctx):
     yield "privacy.html", "prywatnosc.html", {}
     yield "summaries.html", "podsumowania.html", {}
     yield "upcoming.html", "nadchodzace-posiedzenie.html", {}
+    yield "questions.html", "interpelacje.html", {}
     yield "committees.html", "komisje.html", {}
     for c in ctx["committee_rows"]:
         yield "committee.html", f"komisja/{c['code']}.html", {"c": c}
@@ -762,6 +841,15 @@ def run():
     for s, votings in ctx["sittings"].items():
         (SITE / "dane" / "glosy" / f"{s}.json").write_text(json.dumps(
             {v["votingNumber"]: v["ballots"] for v in votings}, separators=(",", ":")))
+    # An MP's interpellations and written questions when there are more than
+    # the page shows, loaded when asked for (static/questions.js).
+    (SITE / "dane" / "pytania").mkdir(parents=True)
+    for r in ctx["mp_rows"]:
+        if len(r["questions"]) > QUESTIONS_SHOWN:
+            (SITE / "dane" / "pytania" / f"{r['mp']['id']}.json").write_text(json.dumps(
+                [{"d": i["date"], "k": i["kind"], "n": i["num"], "t": i["title"], "to": i["to"], "a": i["answered"],
+                  "days": i["days"], "l": i["late"], "o": i["overdue"], "p": i["prolonged"], "w": i["web"]}
+                 for i in r["questions"]], ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     # What was voted on at a sitting, its outcome (in both languages) and every
     # club's line: read, with the ballots above, by the votes-by-sitting
     # tables on MP and club pages (static/breakdown.js).

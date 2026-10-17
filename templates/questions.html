@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% from "_questions.html" import styles %}
+{% set Q = questions_summary %}
+{% block title %}{{ _("Interpelacje i zapytania poselskie") }}{% endblock %}
+{% block description %}{{ _("Interpelacje i zapytania poselskie w tej kadencji: kto pyta najczęściej i jak szybko odpowiadają ministrowie.") }}{% endblock %}
+{% block content %}
+{{ styles() }}
+<h1>{{ _("Interpelacje i zapytania poselskie") }}</h1>
+<p class="tagline">{{ _("Pytania posłów do rządu i to, jak szybko ministrowie na nie odpowiadają. Na odpowiedź mają") }} {{ Q.deadline }} {{ _("dni.") }}</p>
+<div class="grid">
+  <div class="card stat"><b>{{ Q.int }}</b>{{ _("interpelacji") }}</div>
+  <div class="card stat"><b>{{ Q.zap }}</b>{{ _("zapytań poselskich") }}</div>
+  <div class="card stat"><b class="v-Y">{{ (Q.answered / Q.total) | pct if Q.total else "—" }}</b>{{ _("z odpowiedzią") }}</div>
+  <div class="card stat"><b>{{ Q.median }} {{ _("dni") }}</b>{{ _("typowy czas odpowiedzi (mediana)") }}</div>
+  <div class="card stat"><b class="v-A">{{ Q.late }}</b>{{ _("odpowiedzi po terminie") }}</div>
+  <div class="card stat"><b class="v-N">{{ Q.overdue }}</b>{{ _("bez odpowiedzi po terminie") }}</div>
+</div>
+
+<h2>{{ _("Jak odpowiadają ministrowie") }}</h2>
+<p class="muted">{{ _("Kliknij nagłówek kolumny, aby posortować. „Po terminie” to odpowiedzi, które przyszły później niż przewiduje regulamin; „bez odpowiedzi” — pytania, na które termin minął, a odpowiedzi nie ma.") }}</p>
+<div class="table-scroll"><table>
+  <thead><tr>
+    <th data-sort="text">{{ _("Adresat") }}</th>
+    <th class="num" data-sort="num">{{ _("Pytania") }}</th>
+    <th class="num" data-sort="num">{{ _("Z odpowiedzią") }}</th>
+    <th class="num" data-sort="num">{{ _("Mediana dni") }}</th>
+    <th class="num" data-sort="num">{{ _("Po terminie") }}</th>
+    <th class="num" data-sort="num">{{ _("Przedłużenia") }}</th>
+    <th class="num" data-sort="num">{{ _("Bez odpowiedzi") }}</th>
+  </tr></thead>
+  <tbody>
+  {% for t in Q.recipients %}
+  <tr>
+    <td lang="pl">{{ t.name | cap }}</td>
+    <td class="num" data-v="{{ t.received }}">{{ t.received }}</td>
+    <td class="num" data-v="{{ t.answered / t.received }}">{{ (t.answered / t.received) | pct }}</td>
+    <td class="num" data-v="{{ t.median if t.median is not none else 999 }}">{{ t.median if t.median is not none else "—" }}</td>
+    <td class="num" data-v="{{ t.late / t.received }}">{{ t.late }}{% if t.late %} <span class="muted">({{ (t.late / t.received) | pct }})</span>{% endif %}</td>
+    <td class="num" data-v="{{ t.prolonged }}">{{ t.prolonged }}</td>
+    <td class="num" data-v="{{ t.overdue }}">{% if t.overdue %}<strong class="v-N">{{ t.overdue }}</strong>{% else %}0{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+
+<h2>{{ _("Kluby") }}</h2>
+<p class="muted">{{ _("Pytania liczone według klubu posła w dniu ich złożenia; pytanie podpisane przez posłów kilku klubów liczy się dla każdego z nich.") }}</p>
+<div class="table-scroll"><table>
+  <thead><tr><th data-sort="text">{{ _("Klub") }}</th><th class="num" data-sort="num">{{ _("Interpelacje") }}</th><th class="num" data-sort="num">{{ _("Zapytania") }}</th></tr></thead>
+  <tbody>
+  {% for c, ni, nz in Q.clubs %}
+  <tr><td><a href="{{ root }}klub/{{ c.slug }}.html#interpelacje">{{ c.id }}</a> <span class="muted">{{ c.name if c.name != c.id }}</span></td>
+    <td class="num" data-v="{{ ni }}">{{ ni }}</td><td class="num" data-v="{{ nz }}">{{ nz }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+
+<h2>{{ _("Najczęściej pytający posłowie") }}</h2>
+<p class="muted">{{ _("Pytanie podpisane przez kilku posłów liczy się dla każdego z nich.") }} <a href="{{ root }}poslowie.html">{{ _("Wszyscy posłowie") }} →</a></p>
+<div class="table-scroll"><table>
+  <thead><tr><th>{{ _("Poseł") }}</th><th>{{ _("Klub") }}</th><th class="num">{{ _("Interpelacje") }}</th><th class="num">{{ _("Zapytania") }}</th></tr></thead>
+  <tbody>
+  {% for r in Q.top %}
+  <tr><td><a href="{{ root }}posel/{{ r.mp.id }}.html#interpelacje">{{ r.mp.firstLastName }}</a></td><td>{{ r.mp.club }}</td>
+    <td class="num">{{ r.q_stats.int }}</td><td class="num">{{ r.q_stats.zap }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+<p class="note">{{ _("Treść pytań i odpowiedzi jest w serwisie Sejmu; tytuły prowadzą do niej.") }}</p>
+{% endblock %}

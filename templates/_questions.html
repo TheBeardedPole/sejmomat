@@ -1,0 +1,44 @@
+{# Interpellations and written questions, on MP pages and the overview. Import "with context". #}
+{% macro status(i) -%}
+{% if i.answered %}<span class="badge {{ 'warn' if i.late else 'adopted' }}">{{ _("odpowiedź po") }} {{ i.days }} {{ _("dn.") }}{% if i.late %} · {{ _("po terminie") }}{% endif %}</span>
+{%- elif i.overdue %}<span class="badge rejected">{{ _("brak odpowiedzi po terminie") }}</span>
+{%- elif i.prolonged %}<span class="badge warn">{{ _("termin przedłużony") }}</span>
+{%- else %}<span class="badge">{{ _("czeka na odpowiedź") }}</span>{% endif %}
+{%- endmacro %}
+
+{% macro kind(k) -%}{{ _("interpelacja") if k == "int" else _("zapytanie") }}{%- endmacro %}
+
+{# `src`: where the whole list is, when there are more than the page shows #}
+{% macro list(items, src=none) %}
+{% if items | length > 15 %}<input type="search" class="list-search" data-filter="tbody tr" placeholder="{{ _('Szukaj w tytułach i adresatach…') }}" aria-label="{{ _('Szukaj') }}"> <span class="muted" data-filter-count></span>{% endif %}
+<div class="table-scroll"><table class="questions">
+  <thead><tr><th>{{ _("Data") }}</th><th>{{ _("Pytanie") }}</th><th>{{ _("Adresat") }}</th><th>{{ _("Odpowiedź") }}</th></tr></thead>
+  <tbody>
+  {% for i in (items[:QUESTIONS_SHOWN] if src else items) %}
+  <tr>
+    <td style="white-space:nowrap">{{ i.date | date_pl if i.date else "" }}</td>
+    <td><span class="muted">{{ kind(i.kind) }} {{ i.num }}</span><br>{% if i.web %}<a href="{{ i.web }}" target="_blank" rel="noopener" lang="pl">{{ i.title | replace("Interpelacja w sprawie ", "W sprawie ") | replace("Zapytanie w sprawie ", "W sprawie ") }}</a>{% else %}<span lang="pl">{{ i.title }}</span>{% endif %}</td>
+    <td lang="pl">{{ i.to | map("cap") | join(", ") }}</td>
+    <td>{{ status(i) }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% if src and items | length > QUESTIONS_SHOWN %}
+<p><button type="button" class="questions-more" data-src="{{ src }}" data-labels='{{ {
+  "int": _("interpelacja"), "zap": _("zapytanie"), "after": _("odpowiedź po"), "d": _("dn."), "late": _("po terminie"),
+  "overdue": _("brak odpowiedzi po terminie"), "prolonged": _("termin przedłużony"), "waiting": _("czeka na odpowiedź"),
+  "failed": _("Nie udało się wczytać listy."), "lang": lang } | tojson | forceescape }}'>{{ _("Pokaż wszystkie") }} ({{ items | length }})</button></p>
+<script src="{{ site_root }}static/questions.js?v={{ static_version('questions.js') }}" defer></script>
+{% endif %}
+{% endmacro %}
+
+{% macro styles() %}
+<style>
+  .questions td { vertical-align: top; }
+  .questions-more { font: inherit; font-size: .9rem; padding: 4px 14px; border-radius: 99px; border: 1px solid var(--accent);
+    background: var(--surface); color: var(--accent); font-weight: 600; cursor: pointer; }
+  .list-search { font: inherit; width: min(420px, 100%); padding: 6px 10px; margin: 8px 0; background: var(--surface);
+    color: var(--text); border: 1px solid var(--line); border-radius: 6px; }
+</style>
+{% endmacro %}

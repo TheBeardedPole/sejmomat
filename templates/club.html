@@ -31,7 +31,8 @@
   + ([("wystapienia", _("Wystąpienia"), sp.spoken + sp.written)] if has_speeches else [])
   + ([("czlonkowie", _("Członkowie"), (c.members | length) or none)] if c.members or c.former else [])
   + [("zgodnosc", _("Zgodność"), none)]
-  + ([("podzialy", _("Podziały"), c.split | length)] if c.split else []) %}
+  + ([("podzialy", _("Podziały"), c.split | length)] if c.split else [])
+  + ([("interpelacje", _("Interpelacje"), c.questions.int + c.questions.zap)] if c.questions else []) %}
 {{ tab_bar(tabs) }}
 <div class="tab-panels">
 
@@ -151,6 +152,24 @@
 </tr>
 {% endif %}{% endfor %}
 </tbody></table></div>
+</section>
+{% endif %}
+
+{% if c.questions %}
+{% set q = c.questions %}
+<section class="tab-panel" id="interpelacje">
+<h2 class="tab-title">{{ _("Interpelacje i zapytania") }}</h2>
+<p>{{ q.int }} {{ _("interpelacji") }}, {{ q.zap }} {{ _("zapytań poselskich") }} {{ _("posłów klubu, w czasie gdy do niego należeli") }}. <a href="{{ root }}interpelacje.html">{{ _("Wszystkie kluby i ministrowie") }} →</a></p>
+<div class="grid2">
+<div>
+<h3>{{ _("Najczęściej pytają") }}</h3>
+<ol>{% for r, n in q.askers %}<li><a href="{{ root }}posel/{{ r.mp.id }}.html#interpelacje">{{ r.mp.firstLastName }}</a> <span class="muted">({{ n }})</span></li>{% endfor %}</ol>
+</div>
+<div>
+<h3>{{ _("Do kogo najczęściej") }}</h3>
+<ol lang="pl">{% for name, n in q.to %}<li>{{ name | cap }} <span class="muted">({{ n }})</span></li>{% endfor %}</ol>
+</div>
+</div>
 </section>
 {% endif %}
 

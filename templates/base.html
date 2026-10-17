@@ -39,8 +39,8 @@
       <a href="{{ root }}kluby.html">{{ _("Kluby") }}</a>
       <a href="{{ root }}komisje.html">{{ _("Komisje") }}</a>
       <a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a>
+      <a href="{{ root }}interpelacje.html">{{ _("Interpelacje") }}</a>
       <a href="{{ root }}szukaj.html">{{ _("Szukaj") }}</a>
-      <a href="{{ root }}metodologia.html">{{ _("Metodologia") }}</a>
     </nav>
     <div class="tools">
       <div class="lang">
@@ -61,7 +61,7 @@
   {{ _("Dane") }}: <a href="https://api.sejm.gov.pl">{{ _("API Sejmu RP") }}</a> ({{ term_name }}).
   {{ _("Treść poprawek wyodrębniana automatycznie z druków sejmowych — w razie wątpliwości rozstrzyga oficjalny druk.") }}
   {% block generated %}{% endblock %}
-  <br><a href="{{ root }}api.html">API</a> ·
+  <br><a href="{{ root }}metodologia.html">{{ _("Metodologia") }}</a> · <a href="{{ root }}api.html">API</a> ·
   <a href="https://github.com/TheBeardedPole/sejmomat">{{ _("Kod źródłowy") }}</a> (GNU GPL v3) ·
   ☕ {{ _("Wesprzyj projekt") }}: <a href="https://buycoffee.to/adamkoscielak">buycoffee.to/adamkoscielak</a>
 </footer>

@@ -139,13 +139,14 @@ if (mpTable) {
 
 // A search box over a list of items (committee meetings): <input data-filter=".item">
 // hides the items in its section whose data-text does not have every word typed.
+// Items added later (a list loaded on request) are picked up at the next search.
 for (const input of document.querySelectorAll("input[data-filter]")) {
   const scope = input.closest("section") || document;
-  const items = [...scope.querySelectorAll(input.dataset.filter)];
   const count = scope.querySelector("[data-filter-count]");
   const fold = (s) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ł/g, "l");
-  for (const el of items) el._text = fold(el.dataset.text || el.textContent);
   input.addEventListener("input", () => {
+    const items = [...scope.querySelectorAll(input.dataset.filter)];
+    for (const el of items) el._text ??= fold(el.dataset.text || el.textContent);
     const words = fold(input.value.trim()).split(/\s+/).filter(Boolean);
     let shown = 0;
     for (const el of items) {
