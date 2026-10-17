@@ -508,6 +508,7 @@ def build_questions(mp_rows, club_rows, club_at):
             when = q["sent"] or q["received"]
             ok = questions.answered(q)
             item = {"kind": short, "num": q["num"], "title": q["title"], "to": q["to"], "date": when,
+                    "cosigned": len(q["from"]) > 1,
                     "answered": ok, "days": questions.days_to_answer(q), "web": q["web"],
                     "late": any(v > 0 for v in q["late"].values()),
                     "prolonged": any(r["prolongation"] for r in q["replies"]),
@@ -541,7 +542,16 @@ def build_questions(mp_rows, club_rows, club_at):
         r["q_stats"] = {"int": sum(1 for i in mine if i["kind"] == "int"), "zap": sum(1 for i in mine if i["kind"] == "zap"),
                         "answered": sum(1 for i in mine if i["answered"]), "late": sum(1 for i in mine if i["late"]),
                         "overdue": sum(1 for i in mine if i["overdue"]),
+                        "sole": sum(1 for i in mine if not i["cosigned"]),
                         "median": median([i["days"] for i in mine if i["days"] is not None])}
+    # where each MP stands: rank by how many questions (ties share a rank), and the middle MP
+    totals = sorted((len(r["questions"]) for r in mp_rows), reverse=True)
+    first_at = {}
+    for place, n in enumerate(totals, 1):
+        first_at.setdefault(n, place)
+    for r in mp_rows:
+        r["q_stats"]["rank"] = first_at[len(r["questions"])]
+    mp_median = median(totals)
     for c in club_rows:
         q = clubs.get(c["id"])
         c["questions"] = q and {"int": q["int"], "zap": q["zap"],
@@ -557,7 +567,8 @@ def build_questions(mp_rows, club_rows, club_at):
         "clubs": sorted(((c, clubs[c["id"]]["int"], clubs[c["id"]]["zap"]) for c in club_rows if c["id"] in clubs),
                         key=lambda x: -(x[1] + x[2])),
         "top": sorted(mp_rows, key=lambda r: -(r["q_stats"]["int"] + r["q_stats"]["zap"]))[:20],
-        "deadline": ANSWER_DAYS,
+        "deadline": ANSWER_DAYS, "mp_median": mp_median, "mps": len(mp_rows),
+        "none": sum(1 for r in mp_rows if not r["questions"]),
     }
 
 

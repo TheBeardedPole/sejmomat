@@ -38,7 +38,7 @@
   + ([("poprawki", _("Poprawki i wnioski"), r.signed | length)] if r.signed else [])
   + ([("kluby", _("Kluby"), r.history | length)] if r.history | length > 1 else [])
   + ([("komisje", _("Komisje"), r.committees | length)] if r.committees else [])
-  + ([("interpelacje", _("Interpelacje"), r.questions | length)] if r.questions else []) %}
+  + [("interpelacje", _("Interpelacje"), r.questions | length)] %}
 {{ tab_bar(tabs) }}
 <div class="tab-panels">
 
@@ -128,19 +128,32 @@
 {% else %}<p class="muted">{{ _("Brak.") }}</p>{% endif %}
 </section>
 
-{% if r.questions %}
 {% set qs = r.q_stats %}
+{% set Q = questions_summary %}
 <section class="tab-panel" id="interpelacje">
 <h2 class="tab-title">{{ _("Interpelacje i zapytania") }}</h2>
 {{ question_styles() }}
-<p>{{ qs.int }} {{ _("interpelacji") }}, {{ qs.zap }} {{ _("zapytań poselskich") }} ·
-  {{ _("z odpowiedzią") }}: {{ (qs.answered / r.questions | length) | pct }}{% if qs.median is not none %} · {{ _("typowy czas odpowiedzi") }}: {{ qs.median }} {{ _("dni") }}{% endif %}
-  {% if qs.late %} · <span class="v-A">{{ qs.late }} {{ _("odpowiedzi po terminie") }}</span>{% endif %}
-  {% if qs.overdue %} · <span class="v-N">{{ qs.overdue }} {{ _("bez odpowiedzi po terminie") }}</span>{% endif %}</p>
+{% if r.questions %}
+<div class="grid">
+  <div class="card stat"><b>{{ qs.int }}</b>{{ _("interpelacji") }}</div>
+  <div class="card stat"><b>{{ qs.zap }}</b>{{ _("zapytań poselskich") }}</div>
+  <div class="card stat"><b>{{ qs.sole }} / {{ r.questions | length - qs.sole }}</b>{{ _("złożonych samodzielnie / podpisanych z innymi posłami") }}</div>
+  <div class="card stat"><b class="v-Y">{{ (qs.answered / r.questions | length) | pct }}</b>{{ _("z odpowiedzią") }}</div>
+  {% if qs.median is not none %}<div class="card stat"><b>{{ qs.median }} {{ _("dni") }}</b>{{ _("typowy czas odpowiedzi (mediana)") }}</div>{% endif %}
+  <div class="card stat"><b>{{ qs.rank }}. <span class="muted" style="font-size:.6em;font-weight:400">{{ _("z") }} {{ Q.mps }}</span></b>{{ _("miejsce w Sejmie pod względem liczby pytań (mediana posła") }}: {{ Q.mp_median }})</div>
+</div>
+{% if qs.late or qs.overdue %}<p>{% if qs.late %}<span class="v-A">{{ qs.late }} {{ _("odpowiedzi po terminie") }}</span>{% endif %}{% if qs.late and qs.overdue %} · {% endif %}{% if qs.overdue %}<span class="v-N">{{ qs.overdue }} {{ _("bez odpowiedzi po terminie") }}</span>{% endif %}</p>{% endif %}
 <p class="muted">{{ _("Łącznie z pytaniami podpisanymi wspólnie z innymi posłami. Tytuł prowadzi do treści pytania i odpowiedzi w serwisie Sejmu.") }} <a href="{{ root }}interpelacje.html">{{ _("Jak odpowiadają ministrowie") }} →</a></p>
 {{ question_list(r.questions, site_root ~ "dane/pytania/" ~ r.mp.id ~ ".json") }}
-</section>
+{% else %}
+<div class="card">
+  <p style="margin:0"><strong>{{ _("Brak interpelacji i zapytań poselskich w tej kadencji.") }}</strong>
+  {{ _("Mediana posła to") }} {{ Q.mp_median }}; {{ _("bez żadnego pytania jest") }} {{ Q.none }} {{ _("z") }} {{ Q.mps }} {{ _("posłów.") }}
+  {% if not r.mp.active %}{{ _("Mandat wygasł przed końcem kadencji, więc porównanie z innymi posłami jest przybliżone.") }}{% endif %}</p>
+</div>
+<p class="muted"><a href="{{ root }}interpelacje.html">{{ _("Interpelacje i zapytania wszystkich posłów") }} →</a></p>
 {% endif %}
+</section>
 
 {% if r.committees %}
 <section class="tab-panel" id="komisje">

@@ -152,6 +152,13 @@ EN = {
     "posłów klubu, w czasie gdy do niego należeli": "by the club's MPs while they belonged to it",
     "Wszystkie kluby i ministrowie": "All clubs and ministers", "Najczęściej pytają": "Ask most often",
     "Do kogo najczęściej": "Asked most often",
+    "złożonych samodzielnie / podpisanych z innymi posłami": "filed alone / co-signed with other MPs",
+    "miejsce w Sejmie pod względem liczby pytań (mediana posła": "place in the Sejm by number of questions (median MP",
+    "Brak interpelacji i zapytań poselskich w tej kadencji.": "No interpellations or written questions this term.",
+    "Mediana posła to": "The median MP has", "bez żadnego pytania jest": "MPs without a single question:",
+    "posłów.": "MPs.", "Interpelacje i zapytania wszystkich posłów": "Interpellations and written questions of all MPs",
+    "Mandat wygasł przed końcem kadencji, więc porównanie z innymi posłami jest przybliżone.":
+        "The mandate ended before the end of the term, so the comparison with other MPs is only approximate.",
     "Udostępnij": "Share", "Skopiowano link": "Link copied", "Za": "For", "Przeciw": "Against",
     "Gotowe grafiki i wpisy do mediów społecznościowych po każdym dniu głosowań. Liczby i nazwy pochodzą wprost z danych, bez komentarza.":
         "Ready-made images and social media posts after every voting day. Numbers and names come straight from the data, without commentary.",
