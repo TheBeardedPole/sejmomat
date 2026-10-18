@@ -110,7 +110,7 @@ jobs:
           # the host's SSH sometimes times out for a while: try three times, a minute apart
           for attempt in 1 2 3; do
             rsync --recursive --links --checksum --compress --delete --delete-after \
-              --exclude '.well-known/' --stats --human-readable \
+              --exclude '.well-known/' --exclude 'srv/data/' --stats --human-readable \
               -e "$RSYNC_SSH" site/ "$SSH_TARGET:$SSH_DIR" && exit 0
             echo "upload attempt $attempt failed"
             [ "$attempt" -lt 3 ] && sleep 60
