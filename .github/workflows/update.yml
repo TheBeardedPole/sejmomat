@@ -107,9 +107,18 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL }}
         run: |
           source .github/ssh-setup.sh
+          # Comparing ~30,000 files by checksum keeps the shared server's disk busy,
+          # and visitors got slow pages and 504s meanwhile: the server side of rsync
+          # runs at the lowest CPU and disk priority (ionice where the host has it).
+          if $RSYNC_SSH "$SSH_TARGET" 'command -v ionice' >/dev/null 2>&1; then
+            remote_rsync="ionice -c3 nice -n 19 rsync"
+          else
+            remote_rsync="nice -n 19 rsync"
+          fi
+          echo "remote rsync: $remote_rsync"
           # the host's SSH sometimes times out for a while: try three times, a minute apart
           for attempt in 1 2 3; do
-            rsync --recursive --links --checksum --compress --delete --delete-after \
+            rsync --rsync-path="$remote_rsync" --recursive --links --checksum --compress --delete --delete-after \
               --exclude '.well-known/' --exclude 'srv/data/' --stats --human-readable \
               -e "$RSYNC_SSH" site/ "$SSH_TARGET:$SSH_DIR" && exit 0
             echo "upload attempt $attempt failed"
