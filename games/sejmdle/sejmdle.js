@@ -911,6 +911,103 @@ if (typeof document !== "undefined") (() => {
     });
   };
 
+  // ---- Uzupełnij słowo: passages of real speeches with words left out, three
+  // rounds a day (api/v1/slowa/<day>.json, made by sejmomat/fillgaps.py). The
+  // right word in another form earns part of the points; hints cost points.
+  const TRIES = 3;
+  const playUzupelnij = () => {
+    const help = [
+      ["Dostajesz 3 fragmenty prawdziwych wystąpień z sali plenarnej: z 2, 3 i 4 lukami."],
+      ["Wpisz brakujące słowa i kliknij „Sprawdź”. Słowo dokładnie takie jak padło na sali: 3 pkt; to samo słowo w innej formie (np. „ustawa” zamiast „ustawy”): 2 pkt."],
+      ["Na każde słowo masz 3 próby. Podpowiedzi: pierwsza litera albo połowa liter (−1 pkt za każdą) i „Kto to powiedział?” (−1 pkt za rundę)."],
+    ];
+    const title = lead("Uzupełnij słowo", "uzupelnij", help, "Fragmenty wybieramy po kolei z wystąpień posłów wszystkich klubów.");
+    draw(title, h("div", { className: "card" }, [h("p", { className: "muted", textContent: "Wczytywanie…" })]));
+    fetch(`${API}slowa/${DAY}.json`).then((r) => {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    }).then((rounds) => {
+      if (!rounds.length) throw new Error("empty");
+      const state = load("uzupelnij") || { rounds: rounds.map((r) => ({ who: false, blanks: r.blanks.map(() => ({ tries: [], result: null, hint: 0 })) })) };
+      const points = (b) => (b.result === "exact" ? 3 : b.result === "form" ? 2 : 0) - (b.result === "fail" ? 0 : b.hint);
+      const roundPoints = (rs) => Math.max(0, rs.blanks.reduce((t, b) => t + Math.max(0, points(b)), 0) - (rs.who ? 1 : 0));
+      const done = (rs) => rs.blanks.every((b) => b.result);
+      const pattern = (answer, hint) => [...answer].map((ch, i) => (hint >= 2 && i % 2 === 0) || (hint >= 1 && i === 0) ? ch : "_").join(" ");
+      const whoLine = (w) => `${w.name} (${w.club}), ${dateOf(w.date)} — ${w.topic}`;
+      const check = (ri, inputs) => {
+        const rs = state.rounds[ri], r = rounds[ri];
+        rs.blanks.forEach((b, k) => {
+          if (b.result || !inputs[k] || !inputs[k].value.trim()) return;
+          const guess = fold(inputs[k].value.trim()), answer = r.blanks[k];
+          if (guess === fold(answer.answer)) b.result = "exact";
+          else if (answer.forms.some((f) => fold(f) === guess)) b.result = "form";
+          else {
+            b.tries.push(inputs[k].value.trim());
+            if (b.tries.length >= TRIES) b.result = "fail";
+          }
+        });
+        save("uzupelnij", state);
+        render();
+      };
+      const roundCard = (ri) => {
+        const r = rounds[ri], rs = state.rounds[ri], over = done(rs), inputs = [];
+        const text = h("p", { className: "gaps", lang: "pl" }, r.parts.map((part) => {
+          if (typeof part === "string") return part;
+          const b = rs.blanks[part], answer = r.blanks[part].answer;
+          if (b.result) {
+            return h("span", { className: `gap ${b.result}`, title: b.result === "form" ? "to samo słowo, inna forma" : "",
+              textContent: answer });
+          }
+          const input = h("input", { type: "text", className: "gap-input", size: Math.max(4, answer.length), maxLength: answer.length + 4,
+            autocomplete: "off", spellcheck: false, ariaLabel: `Luka ${part + 1}` });
+          input.addEventListener("keydown", (e) => { if (e.key === "Enter") check(ri, inputs); });
+          inputs[part] = input;
+          return input;
+        }));
+        const hints = h("ul", { className: "gap-hints" }, r.blanks.map((blank, k) => {
+          const b = rs.blanks[k];
+          return h("li", {}, [
+            h("span", { className: "muted", textContent: `Luka ${k + 1}: ` }),
+            h("code", { textContent: b.result ? blank.answer : pattern(blank.answer, b.hint) }),
+            h("span", { className: "muted", textContent: ` (${blank.answer.length} liter)` }),
+            b.result ? h("span", { className: `pill ${b.result === "exact" ? "green" : b.result === "form" ? "yellow" : "grey"}`,
+              textContent: b.result === "exact" ? "dokładnie" : b.result === "form" ? "inna forma" : "nie tym razem" })
+              : [b.hint < 2 && h("button", { type: "button", className: "btn quiet small", textContent: b.hint ? "Połowa liter (−1)" : "Pierwsza litera (−1)",
+                  onclick: () => { b.hint += 1; save("uzupelnij", state); render(); } }),
+                 b.tries.length ? h("span", { className: "muted", textContent: ` próby: ${b.tries.join(", ")}` }) : null],
+          ].flat());
+        }));
+        return h("div", { className: "card" }, [
+          h("h2", { textContent: `Runda ${ri + 1} z ${rounds.length} · luki: ${r.blanks.length}` }),
+          text, hints,
+          over || rs.who ? h("p", { className: "muted who" }, [whoLine(r.who), " · ",
+            h("a", { href: `${SITE}posel/${r.who.mp}.html#wystapienia`, textContent: "wystąpienia" })])
+            : h("p", {}, [h("button", { type: "button", className: "btn quiet small", textContent: "Kto to powiedział? (−1)",
+                onclick: () => { rs.who = true; save("uzupelnij", state); render(); } })]),
+          over ? h("p", { className: "result ok", textContent: `Runda: ${roundPoints(rs)} pkt` })
+            : h("p", {}, [h("button", { type: "button", className: "btn primary", textContent: "Sprawdź", onclick: () => check(ri, inputs) })]),
+        ]);
+      };
+      const render = () => {
+        const current = state.rounds.findIndex((rs) => !done(rs));
+        const shownRounds = current === -1 ? rounds.length : current + 1;
+        const total = state.rounds.reduce((t, rs) => t + roundPoints(rs), 0);
+        const max = rounds.reduce((t, r) => t + 3 * r.blanks.length, 0);
+        const squares = state.rounds.map((rs) => rs.blanks.map((b) => (b.result === "exact" && !b.hint ? "🟩" : b.result === "fail" ? "🟥" : "🟨")).join("")).join(" ");
+        draw(title,
+          marks("Rundy:", rounds.map((_, ri) => (done(state.rounds[ri]) ? "ok" : ri === current ? "now" : "todo"))),
+          ...Array.from({ length: shownRounds }, (_, ri) => roundCard(shownRounds - 1 - ri)),
+          current === -1 && h("div", {}, [
+            h("p", { className: "result ok", textContent: `Wynik: ${total} / ${max} pkt` }),
+            share("uzupelnij", [`Sejmdle ${label()} — Uzupełnij słowo: ${total}/${max} pkt`, squares]),
+          ]),
+          nextButton("uzupelnij", current === -1));
+        main.querySelector(".gap-input")?.focus();
+      };
+      render();
+    }).catch(() => draw(title, h("div", { className: "card" }, [h("p", { textContent: "Na ten dzień nie ma jeszcze zagadki. Spróbuj później albo wybierz inny dzień z archiwum." })])));
+  };
+
   // ---- Twarze na czas: ten MPs' photos against the clock, with a leaderboard.
   // Not a daily puzzle: every run deals new faces. The server (srv/speedrun.php)
   // deals the run, serves the photos (their addresses would give the answers
@@ -1033,7 +1130,7 @@ if (typeof document !== "undefined") (() => {
   };
 
   // ---- start
-  const GAMES = { posel: playPosel, przeszlo: playPrzeszlo, kim: playKim, prezydium: playPrezydium, siatka: playSiatka, twarze: playTwarze };
+  const GAMES = { posel: playPosel, przeszlo: playPrzeszlo, kim: playKim, prezydium: playPrezydium, siatka: playSiatka, uzupelnij: playUzupelnij, twarze: playTwarze };
   const today = document.getElementById("today"), picker = document.getElementById("day-pick");
   let current = "posel";
   const longDate = new Intl.DateTimeFormat("pl", { day: "numeric", month: "long", year: "numeric" });

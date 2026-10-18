@@ -143,6 +143,14 @@ Live on sejmomat.pl:
   (`?dzien=YYYY-MM-DD`) to play any earlier day; shared results link to
   their day. Past puzzles are drawn from today's data, so a day's puzzle
   can shift slightly as data grows.
+- **"Uzupełnij słowo"** (Sejmdle tab, daily, in the archive): three passages
+  of real speeches a day with 2, 3 and 4 blanks (`sejmomat/fillgaps.py`,
+  `api/v1/slowa/<day>.json`, written 60 days ahead since the site is not
+  rebuilt daily). Speakers' clubs in turn; passages naming parties, clubs
+  or MPs are left out; blanks are frequent nouns/adjectives whose word does
+  not come up again in the passage. Other forms of the word (Morfeusz
+  generate) earn 2 points instead of 3. A day uses speeches from at least
+  two days before it.
 - **"Twarze na czas"** (Sejmdle tab): 10 MP photos against the clock, with
   daily and all-time leaderboards (nickname only). The one server-side piece:
   `server/speedrun.php`, copied by the build to `/srv/speedrun.php` (PHP on

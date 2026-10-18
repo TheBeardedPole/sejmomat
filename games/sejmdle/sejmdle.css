@@ -285,3 +285,17 @@ body { padding-bottom: 84px; } /* so the pill never covers the last line */
 .leaderboard .lb-time { font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
 .leaderboard li.mine { font-weight: 700; }
 .leaderboard li.mine .lb-time { color: var(--accent); }
+
+/* Uzupełnij słowo: the passage with its blanks, and the hints under it. */
+.gaps { font-size: 1.12rem; line-height: 2.1; }
+.gap-input { font: inherit; padding: 0 6px; border: 0; border-bottom: 2px solid var(--accent); border-radius: 4px 4px 0 0;
+  background: var(--bg); color: var(--text); width: auto; }
+.gap { font-weight: 700; padding: 1px 5px; border-radius: 5px; }
+.gap.exact { background: var(--ok-bg); color: var(--green); }
+.gap.form { background: color-mix(in srgb, var(--yellow) 18%, transparent); color: var(--yellow); }
+.gap.fail { background: var(--bad-bg); color: var(--red); text-decoration: line-through; text-decoration-thickness: 1px; }
+.gap-hints { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 6px; }
+.gap-hints li { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.gap-hints code { font-size: 1rem; letter-spacing: .05em; }
+.btn.small { font-size: .82rem; padding: 4px 10px; }
+.who a { font-weight: 600; }

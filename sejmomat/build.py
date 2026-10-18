@@ -9,7 +9,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import agenda, analysis, authors, committees, questions, social, speeches
+from . import agenda, analysis, authors, committees, fillgaps, questions, social, speeches
 from .stamp import stamp
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
 from .i18n import LANGS, date_fmt, pct_fmt, translator, ORDINALS
@@ -280,6 +280,9 @@ def build_context():
     speeches_by_bill = speeches.by_bill(days, bill_of_print, vote_for, club_at)
     vocabulary = speeches.Vocabulary((st["text"] for d in days for st in d["statements"]),
                                      names={p for m in mps.values() for p in m["firstLastName"].replace("-", " ").split()})
+    # Uzupełnij słowo (Sejmdle): passages of speeches with words to fill in, one set a day
+    fill_gaps = fillgaps.puzzles(days, vocabulary, club_rows, club_at,
+                                 {r["mp"]["id"]: r["mp"]["firstLastName"] for r in mp_rows}, date.today())
     del days
 
     def speech_figures(items):
@@ -385,7 +388,7 @@ def build_context():
         "coverage": (linked, total),
         "summaries": social.summaries({"by_id": by_id, "bill_by_root": bill_by_root}),
         "printed": set(printed), "printed_list": printed, "upcoming": upcoming, "planned": planned,
-        "committee_rows": committee_rows, "questions_summary": questions_summary, "committee_names": {c["code"]: c["name"] for c in committee_rows},
+        "committee_rows": committee_rows, "questions_summary": questions_summary, "fill_gaps": fill_gaps, "committee_names": {c["code"]: c["name"] for c in committee_rows},
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
         "generated": datetime.now(),
     }
@@ -881,6 +884,11 @@ def run():
     for s, votings in ctx["sittings"].items():
         (SITE / "dane" / "glosy" / f"{s}.json").write_text(json.dumps(
             {v["votingNumber"]: v["ballots"] for v in votings}, separators=(",", ":")))
+    # Uzupełnij słowo: one file a day, read by the game for the day being played.
+    (SITE / "api" / "v1" / "slowa").mkdir(parents=True, exist_ok=True)
+    for day, rounds in ctx["fill_gaps"].items():
+        (SITE / "api" / "v1" / "slowa" / f"{day}.json").write_text(
+            json.dumps(rounds, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     # An MP's interpellations and written questions when there are more than
     # the page shows, loaded when asked for (static/questions.js).
     (SITE / "dane" / "pytania").mkdir(parents=True)
