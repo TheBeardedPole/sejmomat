@@ -137,6 +137,12 @@ Waiting on the owner:
   without "publish" only shows what would be posted.
 - Scheduled data updates are paused until the date in the repository
   variable `PAUSE_SCHEDULED_UNTIL`.
+- **Google Analytics:** ready but off. Setting the repository variable
+  `GA_MEASUREMENT_ID` ("G-...") and rebuilding turns it on: the build adds
+  `<meta name="sejmomat-ga">`, `static/app.js` loads gtag only after
+  "Zgadzam się", the consent text and version change (everyone is asked
+  again) and the privacy page gets its GA section. "Tylko niezbędne"
+  removes the `_ga` cookies. Sejmdle has no analytics.
 
 Known gaps in the speeches:
 
