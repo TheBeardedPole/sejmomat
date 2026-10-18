@@ -143,6 +143,17 @@ Live on sejmomat.pl:
   (`?dzien=YYYY-MM-DD`) to play any earlier day; shared results link to
   their day. Past puzzles are drawn from today's data, so a day's puzzle
   can shift slightly as data grows.
+- **"Twarze na czas"** (Sejmdle tab): 10 MP photos against the clock, with
+  daily and all-time leaderboards (nickname only). The one server-side piece:
+  `server/speedrun.php`, copied by the build to `/srv/speedrun.php` (PHP on
+  Hostinger). It deals the run inside an encrypted token, serves the photos
+  (so their addresses do not give the answers away), times the run itself
+  and accepts each run once; nicknames are filtered. Data (JSON files with
+  locking, secret key, cached photos) goes to `domains/sejmomat.pl/speedrun-data`
+  outside the web folder, or `srv/data/` (closed to the web, excluded from
+  the upload's delete) if the host does not allow that. Address hashes for
+  rate limiting are deleted after three days. Test locally with
+  `podman run -p 127.0.0.1:8800:8800 -v "$PWD/site":/app:Z -w /app php:8.3-cli php -S 0.0.0.0:8800`.
 - **Upload retries:** the deploy step tries rsync three times, a minute
   apart (the host's SSH times out now and then).
 

@@ -839,6 +839,8 @@ def run():
         shutil.rmtree(SITE)
     shutil.copytree(STATIC, SITE / "static")
     shutil.copy(STATIC / "favicon.ico", SITE / "favicon.ico")  # where browsers and feed readers look first
+    # the speedrun's leaderboard: the one piece of the site that runs on the server (PHP)
+    shutil.copytree(ROOT / "server", SITE / "srv")
     # Sejmdle: self-contained games that read the JSON API (test bench here;
     # the folder can be served from another host by changing its API address).
     shutil.copytree(ROOT / "games" / "sejmdle", SITE / "sejmdle")

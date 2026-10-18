@@ -911,8 +911,129 @@ if (typeof document !== "undefined") (() => {
     });
   };
 
+  // ---- Twarze na czas: ten MPs' photos against the clock, with a leaderboard.
+  // Not a daily puzzle: every run deals new faces. The server (srv/speedrun.php)
+  // deals the run, serves the photos (their addresses would give the answers
+  // away), times it and keeps the boards; the timer here is only for show.
+  const SPEEDRUN = `${SITE}srv/speedrun.php`;
+  const callServer = async (action, body) => {
+    const r = await fetch(`${SPEEDRUN}?a=${action}`, body
+      ? { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) } : {});
+    const json = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(json.error || `HTTP ${r.status}`);
+    return json;
+  };
+  const seconds = (t) => `${t.toFixed(2).replace(".", ",")} s`;
+  const leaderboard = (title, rows, mine) => h("div", { className: "card lb" }, [
+    h("p", { className: "clue-label", textContent: title }),
+    rows.length ? h("ol", { className: "leaderboard" }, rows.map((e) => h("li", { className: mine && e.nick === mine.nick && e.time === mine.time ? "mine" : "" }, [
+      h("span", { className: "lb-nick", textContent: e.nick }),
+      h("span", { className: "lb-time", textContent: seconds(e.time) + (e.wrong ? ` · błędy: ${e.wrong}` : "") }),
+    ]))) : h("p", { className: "muted", textContent: "Jeszcze nikt — możesz być pierwszy." }),
+  ]);
+  const boards = (box, mine) => callServer("board").then((b) => {
+    box.replaceChildren(leaderboard("Najlepsi dziś", b.today, mine), leaderboard("Najlepsi w historii", b.all, mine));
+  }).catch(() => box.replaceChildren(h("p", { className: "muted", textContent: "Ranking jest chwilowo niedostępny." })));
+  const playTwarze = () => {
+    const help = [
+      ["Zobaczysz po kolei 10 zdjęć posłów i posłanek. Do każdego wybierz właściwe nazwisko spośród czterech."],
+      ["Liczy się czas: zegar rusza po wczytaniu zdjęć, a każda zła odpowiedź albo pominięcie dodaje 5 sekund."],
+      ["Po rundzie możesz wpisać nick i trafić do rankingu dnia i rankingu wszech czasów. Bez logowania."],
+    ];
+    const title = lead("Twarze na czas", "twarze", help, "Każda runda to inne twarze. Czas mierzy serwer, nie Twoja przeglądarka.");
+    const intro = () => {
+      const box = h("div", { className: "lb-grid" }, [h("p", { className: "muted", textContent: "Wczytywanie rankingu…" })]);
+      draw(title, h("div", { className: "card" }, [
+        h("p", { textContent: "10 twarzy, 4 nazwiska do wyboru przy każdej, jak najszybciej." }),
+        h("p", {}, [h("button", { className: "btn primary", textContent: "Start ▶", onclick: start })]),
+      ]), box);
+      boards(box);
+    };
+    const start = async () => {
+      draw(title, h("div", { className: "card" }, [h("p", { className: "muted", textContent: "Wczytywanie zdjęć…" })]));
+      try {
+        const run = await callServer("start");
+        const photos = await Promise.all(run.rounds.map((_, k) => new Promise((resolve, reject) => {
+          const img = h("img", { className: "face", alt: "Kto to jest?", width: 220, height: 275 });
+          img.onload = () => resolve(img);
+          img.onerror = reject;
+          img.src = `${SPEEDRUN}?a=photo&t=${encodeURIComponent(run.token)}&i=${k}`;
+        })));
+        const go = await callServer("go", { t: run.token });
+        play(run, go.token, photos);
+      } catch {
+        draw(title, h("div", { className: "card" }, [h("p", { className: "result bad", textContent: "Nie udało się rozpocząć rundy. Spróbuj za chwilę." }),
+          h("p", {}, [h("button", { className: "btn", textContent: "Spróbuj ponownie", onclick: start })])]));
+      }
+    };
+    const play = (run, token, photos) => {
+      const answers = [], t0 = performance.now();
+      const clock = h("p", { className: "speed-clock", textContent: seconds(0) });
+      const tick = setInterval(() => {
+        if (!clock.isConnected) return clearInterval(tick);
+        clock.textContent = seconds((performance.now() - t0) / 1000);
+      }, 47);
+      const show = () => {
+        const k = answers.length;
+        draw(title,
+          marks("Twarze:", run.rounds.map((_, j) => (j < k ? "used" : j === k ? "now" : "todo"))),
+          h("div", { className: "card speed" }, [
+            clock, photos[k],
+            h("div", { className: "speed-options" }, run.rounds[k].options.map((name, o) =>
+              h("button", { className: "btn", textContent: name, onclick: () => choose(o) }))),
+            h("p", {}, [h("button", { className: "btn quiet", textContent: "Nie wiem (+5 s)", onclick: () => choose(-1) })]),
+          ]));
+      };
+      const choose = (o) => {
+        answers.push(o);
+        if (answers.length < run.rounds.length) return show();
+        clearInterval(tick);
+        finish(run, token, answers, photos);
+      };
+      show();
+    };
+    const finish = async (run, token, answers, photos) => {
+      draw(title, h("div", { className: "card" }, [h("p", { className: "muted", textContent: "Sprawdzanie…" })]));
+      let r;
+      try { r = await callServer("finish", { t: token, answers }); } catch (e) {
+        return draw(title, h("div", { className: "card" }, [h("p", { className: "result bad", textContent: `Nie udało się sprawdzić wyniku (${e.message}).` }),
+          h("p", {}, [h("button", { className: "btn primary", textContent: "Nowa runda", onclick: start })])]));
+      }
+      const box = h("div", { className: "lb-grid" });
+      const status = h("p", { className: "muted" });
+      const nick = h("input", { type: "text", maxLength: 20, placeholder: "Twój nick", value: store.get("sejmdle:nick") || "", ariaLabel: "Nick do rankingu" });
+      const saveScore = async () => {
+        status.textContent = "Zapisywanie…";
+        try {
+          const res = await callServer("name", { claim: r.claim, nick: nick.value });
+          store.set("sejmdle:nick", nick.value.trim());
+          form.replaceChildren(h("p", { className: "result ok", textContent: res.rank ? `Miejsce w rankingu dnia: ${res.rank}.${res.rankAll ? ` W historii: ${res.rankAll}.` : ""}` : "Zapisano." }));
+          const mine = { nick: nick.value.trim(), time: r.time };
+          box.replaceChildren(leaderboard("Najlepsi dziś", res.today, mine), leaderboard("Najlepsi w historii", res.all, mine));
+        } catch (e) { status.textContent = e.message; }
+      };
+      const form = r.counted
+        ? h("div", { className: "guess" }, [nick, h("button", { className: "btn primary", textContent: "Zapisz w rankingu", onclick: saveScore }), status])
+        : h("p", { className: "muted", textContent: "Ta runda nie trafi do rankingu (była za szybka albo za długa)." });
+      draw(title,
+        h("div", { className: "card" }, [
+          h("p", { className: `result ${r.wrong ? "bad" : "ok"}`, textContent: `Twój czas: ${seconds(r.time)}` }),
+          h("p", { className: "muted", textContent: `Samo rozpoznawanie: ${seconds(r.elapsed)}; błędy i pominięcia: ${r.wrong} × 5 s.` }),
+          form,
+          h("p", {}, [h("button", { className: "btn", textContent: "Nowa runda ▶", onclick: start })]),
+        ]),
+        share("twarze", [`Sejmdle — Twarze na czas: ${seconds(r.time)}${r.wrong ? ` (błędy: ${r.wrong})` : ""}`,
+          answers.map((a, k) => (a === r.correct[k] ? "🟩" : "🟥")).join("")]),
+        h("div", { className: "speed-review" }, run.rounds.map((round, k) => h("figure", { className: answers[k] === r.correct[k] ? "ok" : "bad" }, [
+          photos[k], h("figcaption", { textContent: round.options[r.correct[k]] })]))),
+        box);
+      boards(box);
+    };
+    intro();
+  };
+
   // ---- start
-  const GAMES = { posel: playPosel, przeszlo: playPrzeszlo, kim: playKim, prezydium: playPrezydium, siatka: playSiatka };
+  const GAMES = { posel: playPosel, przeszlo: playPrzeszlo, kim: playKim, prezydium: playPrezydium, siatka: playSiatka, twarze: playTwarze };
   const today = document.getElementById("today"), picker = document.getElementById("day-pick");
   let current = "posel";
   const longDate = new Intl.DateTimeFormat("pl", { day: "numeric", month: "long", year: "numeric" });
@@ -950,6 +1071,8 @@ if (typeof document !== "undefined") (() => {
     const tabs = [...document.querySelectorAll(".tabs button")];
     const open = (game) => {
       current = game;
+      // "Twarze na czas" deals new faces each run: no day to pick
+      picker.closest(".archive").hidden = game === "twarze";
       tabs.forEach((t) => t.setAttribute("aria-selected", String(t.dataset.game === game)));
       GAMES[game](data);
       history.replaceState(null, "", `${location.search}#${game}`);

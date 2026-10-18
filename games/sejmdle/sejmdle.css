@@ -69,6 +69,7 @@ dialog.help li { margin: 8px 0; }
 .mark.used { background: var(--grey); border-color: var(--grey); }
 .mark.ok { background: var(--green); border-color: var(--green); }
 .mark.bad { background: var(--red); border-color: var(--red); }
+.mark.now { border-color: var(--accent); }
 
 /* Buttons and the guess box. */
 .btn { font: inherit; font-weight: 600; padding: 9px 18px; border-radius: 10px; border: 1px solid var(--line);
@@ -263,3 +264,24 @@ table.siatka .slot { min-height: 112px; padding: 6px 4px; }
 body { padding-bottom: 84px; } /* so the pill never covers the last line */
 @media (max-width: 520px) { .support-pill { padding: 8px 14px; font-size: .84rem; right: 10px; bottom: 10px; } }
 @media print { .support-pill { display: none; } }
+
+/* Twarze na czas: the photo, the four names, the clock and the leaderboards. */
+.speed { text-align: center; }
+.speed .face { display: block; width: 220px; max-width: 70vw; height: auto; aspect-ratio: 4 / 5; object-fit: cover;
+  margin: 0 auto 14px; border-radius: 14px; background: var(--line); }
+.speed-clock { font-size: 1.6rem; font-weight: 700; font-variant-numeric: tabular-nums; margin: 0 0 10px; }
+.speed-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; max-width: 520px; margin: 0 auto 8px; }
+.speed-options .btn { white-space: normal; }
+@media (max-width: 480px) { .speed-options { grid-template-columns: minmax(0, 1fr); } }
+.speed-review { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 10px; margin: 12px 0; }
+.speed-review figure { margin: 0; text-align: center; font-size: .78rem; }
+.speed-review .face { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 10px; border: 3px solid var(--line); }
+.speed-review .ok .face { border-color: var(--green); }
+.speed-review .bad .face { border-color: var(--red); }
+.lb-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+.leaderboard { margin: 0; padding-left: 1.6em; }
+.leaderboard li { display: flex; justify-content: space-between; gap: 10px; padding: 3px 0; border-bottom: 1px solid var(--line); }
+.leaderboard li::marker { color: var(--muted); }
+.leaderboard .lb-time { font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+.leaderboard li.mine { font-weight: 700; }
+.leaderboard li.mine .lb-time { color: var(--accent); }
