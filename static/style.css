@@ -67,6 +67,8 @@ th { font-weight: 600; color: var(--muted); white-space: nowrap; }
 th[data-sort] { cursor: pointer; }
 td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .table-scroll { overflow-x: auto; }
+#mp-table th { white-space: normal; vertical-align: bottom; }
+#mp-table td:first-child { white-space: nowrap; }
 .amendment { border-left: 3px solid var(--line); }
 .amendment.rec-przyjąć { border-left-color: var(--y); }
 .amendment.rec-odrzucić { border-left-color: var(--n); }
