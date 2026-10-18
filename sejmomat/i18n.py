@@ -152,6 +152,9 @@ EN = {
     "posłów klubu, w czasie gdy do niego należeli": "by the club's MPs while they belonged to it",
     "Wszystkie kluby i ministrowie": "All clubs and ministers", "Najczęściej pytają": "Ask most often",
     "Do kogo najczęściej": "Asked most often",
+    "Kadencje": "Terms", "Pierwsza kadencja w Sejmie": "First term in the Sejm", "kadencja w Sejmie": "term in the Sejm",
+    "liczone od III kadencji (1997); API Sejmu nie ma danych o wcześniejszych":
+        "counted from the III term (1997); the Sejm API has no data on earlier ones",
     "złożonych samodzielnie / podpisanych z innymi posłami": "filed alone / co-signed with other MPs",
     "miejsce w Sejmie pod względem liczby pytań (mediana posła": "place in the Sejm by number of questions (median MP",
     "Brak interpelacji i zapytań poselskich w tej kadencji.": "No interpellations or written questions this term.",

@@ -107,6 +107,16 @@ def print_url(num):
     return f"https://www.sejm.gov.pl/Sejm{TERM}.nsf/druk.xsp?nr={num}"
 
 
+def roman(n):
+    """A term's number as the Sejm writes it: 10 -> "X"."""
+    out = ""
+    for value, letters in ((10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")):
+        while n >= value:
+            out += letters
+            n -= value
+    return out
+
+
 def act_url(eli):
     """ISAP page of a Dziennik Ustaw position ("DU/2026/524")."""
     _, year, pos = eli.split("/")
@@ -215,6 +225,18 @@ def build_context():
             "by_author": sorted(by_author.items(), key=lambda kv: (-sum(kv[1].values()), kv[0])),
         })
     bill_rows.sort(key=lambda b: b["last"], reverse=True)
+
+    # Terms served: the earlier terms where an MP of the same name and birth
+    # date sat (the API has them from the III term, 1997, on), and this one.
+    past_path = DATA / "past_terms.json"
+    past = json.loads(past_path.read_text(encoding="utf-8")) if past_path.exists() else {}
+    sat = defaultdict(set)
+    for term, people in past.items():
+        for name, born in people:
+            sat[(name.strip().lower(), born)].add(int(term))
+    for r in mp_rows:
+        m = r["mp"]
+        r["terms"] = sorted(sat.get(((m.get("firstLastName") or "").strip().lower(), (m.get("birthDate") or "")[:10]), set()) | {TERM})
 
     club_rows = build_clubs(clubs, mps, by_id, mp_rows)
     adopted, proposers, mp_proposers = build_adopted(by_id)
@@ -737,6 +759,7 @@ def _env(lang):
     env.filters["pct"] = pct_fmt(lang)
     env.filters["groupby_consecutive"] = groupby_consecutive
     # Proposer labels are data, except these two.
+    env.filters["roman"] = roman
     env.filters["cap"] = lambda s: s[:1].upper() + s[1:] if s else s   # "minister zdrowia" -> "Minister zdrowia"
     env.filters["who"] = lambda name: t(name) if name in ("Senat", "(nieustalony)") else name
     env.globals.update(

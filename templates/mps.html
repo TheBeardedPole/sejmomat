@@ -35,6 +35,7 @@
     <th class="num" data-sort="num">{{ _("Wyłamania") }}</th>
     <th class="num" data-sort="num">{{ _("% wyłamań") }}</th>
     <th class="num" data-sort="num">{{ _("Podpisane wnioski") }}</th>
+    <th class="num" data-sort="num" title="{{ _('liczone od III kadencji (1997); API Sejmu nie ma danych o wcześniejszych') }}">{{ _("Kadencje") }}</th>
     <th class="num" data-sort="num">{{ _("Zmiany klubu") }}</th>
     <th class="num" data-sort="num">{{ _("Interpelacje i zapytania") }}</th>
   </tr></thead>
@@ -49,6 +50,7 @@
     <td class="num" data-v="{{ r.rebel_count }}">{{ r.rebel_count }}</td>
     <td class="num" data-v="{{ r.rebel_rate }}">{{ r.rebel_rate | pct }}</td>
     <td class="num" data-v="{{ r.signed | length }}">{% if r.signed %}{{ r.signed_adopted }} / {{ r.signed | length }}{% endif %}</td>
+    <td class="num" data-v="{{ r.terms | length }}" title="{{ r.terms | map('roman') | join(', ') }}">{{ r.terms | length }}</td>
     <td class="num" data-v="{{ r.switches }}" title="{{ r.history | map(attribute='club') | join(' → ') }}">{% if r.switches %}{{ r.switches }}{% endif %}</td>
     <td class="num" data-v="{{ r.questions | length }}">{% if r.questions %}<a href="{{ root }}posel/{{ r.mp.id }}.html#interpelacje">{{ r.questions | length }}</a>{% endif %}</td>
   </tr>

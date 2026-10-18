@@ -127,6 +127,14 @@ Live on sejmomat.pl:
   `card.minister`, `card.club_term`. Needs a `git pull` first, about 2
   minutes (it loads the whole build context).
 
+- **Terms served** on MP pages, the MP list ("Kadencje") and the MP cards:
+  matched by name and birth date in `data/past_terms.json` (MP lists of the
+  earlier terms, fetched once by `fetch.fetch_past_terms()`). The API has
+  them only from the III term (1997), so counts are "od 1997" where the
+  record reaches back that far. Social media images carry the white
+  wordmark (`static/logo-white.png`, made by `brand/make.py`) in the footer;
+  MP posts use #SejmOdADoŻ and emoji bullets.
+
 Waiting on the owner:
 
 - **Posting day summaries** (no social media accounts yet) (`.github/workflows/social.yml`): to X

@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from . import api
 from .acts import CITE_RE, act_id, clean_bill_lines
-from .config import ACTS, CACHE, DATA, REFRESH_LAST_SITTINGS
+from .config import ACTS, CACHE, DATA, REFRESH_LAST_SITTINGS, TERM
 from .refs import is_amendment_topic, prints_in_title
 from .textract import docx_paragraphs, docx_text, ocr_available, ocr_pdf_text, pdf_text
 
@@ -75,6 +75,22 @@ def fetch_people():
          "members": [{"id": m["id"], "function": m.get("function")} for m in c.get("members") or []]}
         for c in committees
     ])
+
+
+FIRST_TERM_IN_API = 3   # the API has no MPs for the I and II terms (1991-1997)
+
+
+def fetch_past_terms():
+    """MPs of the earlier terms (name and birth date), to count each current
+    MP's terms: data/past_terms.json {term: [[name, birth date], ...]}. Past
+    terms do not change, so each is fetched once."""
+    path = DATA / "past_terms.json"
+    known = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    for term in range(FIRST_TERM_IN_API, TERM):
+        if str(term) not in known:
+            mps = api.get("MP", base=f"https://api.sejm.gov.pl/sejm/term{term}") or []
+            known[str(term)] = [[m.get("firstLastName") or "", (m.get("birthDate") or "")[:10]] for m in mps]
+    _write_json(path, known)
 
 
 def fetch_rcl():
@@ -300,6 +316,10 @@ def run():
     except Exception as e:  # the calendar is a nice-to-have; votes come first
         print(f"proceedings: not updated ({e})")
     fetch_people()
+    try:
+        fetch_past_terms()
+    except Exception as e:  # counts terms; not worth failing the update for
+        print(f"past terms: not updated ({e})")
     try:
         fetch_rcl()
     except Exception as e:  # a link per bill; not worth failing the update for

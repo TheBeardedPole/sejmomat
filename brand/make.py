@@ -164,6 +164,11 @@ def main():
     (HERE.parent / "static" / "logo.svg").write_text(wordmark("#000", pad=0))
     OUT.mkdir(exist_ok=True)
     write_favicons(HERE.parent / "static")
+    # the white wordmark for the footer of the social media images (sejmomat/card.py, static/card.js)
+    white = OUT / "logo-white-footer.svg"
+    white.write_text(wordmark("#ffffff", pad=0))
+    subprocess.run(["inkscape", str(white), "--export-type=png", f"--export-filename={HERE.parent / 'static' / 'logo-white.png'}",
+                    "--export-height=120"], check=True, capture_output=True)
     for name, data in IMAGES.items():
         path = OUT / name
         path.write_text(data)

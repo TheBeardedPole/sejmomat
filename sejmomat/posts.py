@@ -8,7 +8,7 @@ Each day gets posts/<date>/: the images, and posts.txt with a caption and
 an image description (alt text) for each. The folder is not in git and not
 on the site. What a day holds:
 
-- "MPs from A to Z": every MP serving when the series started, by surname,
+- "MPs from A to Z" (#SejmOdADoŻ): every MP serving when the series started, by surname,
   one on one day and two on the next (about 1.5 a day, so the series ends
   well before the end of the term). The order is fixed in
   data/posts_order.json, so it never shifts; an MP who has left the Sejm by
@@ -99,19 +99,19 @@ def _fit(lines, tail):
 
 
 def mp_post(r, place, total):
-    from .card import pct
+    from .card import pct, terms_label
     from .social import club_short
     mp, sp, q = r["mp"], r.get("speeches") or {}, r.get("q_stats") or {}
     who = ", ".join(x for x in (club_short(mp.get("club") or ""), mp.get("districtName") and f"okręg {mp['districtName']}") if x)
     speeches = (sp.get("spoken") or 0) + (sp.get("written") or 0)
     questions = q.get("int", 0) + q.get("zap", 0)
-    lines = [f"{mp['firstLastName']} ({who}) w {TERM}. kadencji Sejmu:",
-             f"• udział w głosowaniach: {pct(r['turnout'])}",
-             f"• wyłamania z linii klubu: {r['rebel_count']}",
-             f"• wystąpienia na sali: {speeches}",
-             f"• interpelacje i zapytania: {questions}"]
-    caption = _fit(lines, f"Posłowie od A do Ż, {place}/{total} → {SITE}posel/{mp['id']}.html")
-    alt = (f"Podsumowanie kadencji: {mp['firstLastName']}, {who}. Udział w głosowaniach {pct(r['turnout'])} "
+    lines = [f"🏛️ {mp['firstLastName']} ({who}), {terms_label(r['terms'])} w Sejmie. W tej kadencji:",
+             f"🗳️ udział w głosowaniach: {pct(r['turnout'])}",
+             f"↔️ wyłamania z linii klubu: {r['rebel_count']}",
+             f"🎤 wystąpienia na sali: {speeches}",
+             f"❓ interpelacje i zapytania: {questions}"]
+    caption = _fit(lines, f"#SejmOdADoŻ {place}/{total} → {SITE}posel/{mp['id']}.html")
+    alt = (f"Podsumowanie kadencji: {mp['firstLastName']}, {who}, {terms_label(r['terms'])} w Sejmie. Udział w głosowaniach {pct(r['turnout'])} "
            f"({r['cast']} z {r['eligible']}), opuszczonych głosowań {r['eligible'] - r['cast']}, wyłamań z linii klubu "
            f"{r['rebel_count']}, wystąpień {speeches}, interpelacji i zapytań {questions}. sejmomat.pl")
     return caption, alt
@@ -121,12 +121,12 @@ def club_post(c, label, proposed):
     from .card import pct
     sp = c.get("speeches") or {}
     adopted = sum(1 for v in proposed if v["outcome_class"] == "adopted")
-    lines = [f"{label} w {TERM}. kadencji Sejmu:",
-             f"• spójność w głosowaniach: {pct(c['cohesion'])}",
-             f"• skuteczność (wygrane głosowania): {pct(c['effectiveness'])}",
-             f"• wystąpienia na sali: {(sp.get('spoken') or 0) + (sp.get('written') or 0)}",
-             f"• przyjęte poprawki i wnioski: {adopted}/{len(proposed)}"]
-    caption = _fit(lines, f"→ {SITE}klub/{c['slug']}.html")
+    lines = [f"🏛️ {label} w {TERM}. kadencji Sejmu:",
+             f"🤝 spójność w głosowaniach: {pct(c['cohesion'])}",
+             f"🏆 skuteczność (wygrane głosowania): {pct(c['effectiveness'])}",
+             f"🎤 wystąpienia na sali: {(sp.get('spoken') or 0) + (sp.get('written') or 0)}",
+             f"✏️ przyjęte poprawki i wnioski: {adopted}/{len(proposed)}"]
+    caption = _fit(lines, f"#Sejm → {SITE}klub/{c['slug']}.html")
     alt = (f"Podsumowanie kadencji klubu {label}: spójność {pct(c['cohesion'])}, skuteczność {pct(c['effectiveness'])}, "
            f"przyjętych poprawek i wniosków {adopted} z {len(proposed)}, oraz kluby, z którymi głosuje najczęściej. sejmomat.pl")
     return caption, alt
@@ -135,12 +135,12 @@ def club_post(c, label, proposed):
 def minister_post(t, deadline):
     from .card import pct
     name = t["name"]
-    lines = [f"Jak {name} odpowiada na pytania posłów ({TERM}. kadencja):",
-             f"• pytania: {t['received']}, z odpowiedzią: {pct(t['answered'] / (t['received'] or 1))}",
-             f"• typowy czas odpowiedzi: {t['median']} dni (termin: {deadline})" if t["median"] is not None else "",
-             f"• odpowiedzi po terminie: {t['late']}",
-             f"• bez odpowiedzi po terminie: {t['overdue']}"]
-    caption = _fit([l for l in lines if l], f"→ {SITE}interpelacje.html")
+    lines = [f"📨 Jak {name} odpowiada na pytania posłów ({TERM}. kadencja):",
+             f"✅ pytania: {t['received']}, z odpowiedzią: {pct(t['answered'] / (t['received'] or 1))}",
+             f"⏱️ typowy czas odpowiedzi: {t['median']} dni (termin: {deadline})" if t["median"] is not None else "",
+             f"⚠️ odpowiedzi po terminie: {t['late']}",
+             f"🚫 bez odpowiedzi po terminie: {t['overdue']}"]
+    caption = _fit([l for l in lines if l], f"#Sejm #interpelacje → {SITE}interpelacje.html")
     alt = (f"Jak {name} odpowiada na interpelacje i zapytania poselskie: {t['received']} pytań, "
            f"{pct(t['answered'] / (t['received'] or 1))} z odpowiedzią, mediana {t['median']} dni, "
            f"{t['late']} odpowiedzi po terminie, {t['prolonged']} przedłużeń, {t['overdue']} bez odpowiedzi po terminie. sejmomat.pl")

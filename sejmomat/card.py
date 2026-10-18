@@ -9,6 +9,7 @@ fonts in FONTS. MP cards are drawn in the reader's browser instead
 """
 from collections import Counter
 from functools import cache
+from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -132,8 +133,24 @@ def footer(img, y):
     mid, lead = height - FOOT // 2 + 16, "Zobacz więcej na "   # the text's baseline
     d.text((PAD, mid), lead, font=font("regular", 36), fill=FOOT_TEXT, anchor="ls")
     d.text((PAD + font("regular", 36).getlength(lead), mid), "sejmomat.pl", font=font("bold", 50), fill=FOOT_TEXT, anchor="ls")
-    d.text((W - PAD, mid), "Dane: API Sejmu RP", font=font("regular", 24), fill=FOOT_MUTED, anchor="rs")
+    logo = _logo()
+    if logo:
+        # the site's wordmark over the data credit, on the right of the band
+        img.paste(logo, (W - PAD - logo.width, height - FOOT + 30), logo)
+        d.text((W - PAD, height - 30), "Dane: API Sejmu RP", font=font("regular", 22), fill=FOOT_MUTED, anchor="rs")
+    else:
+        d.text((W - PAD, mid), "Dane: API Sejmu RP", font=font("regular", 24), fill=FOOT_MUTED, anchor="rs")
     return img
+
+
+@cache
+def _logo(height=40):
+    """static/logo-white.png (made by brand/make.py) at `height`, or None."""
+    path = Path(__file__).resolve().parent.parent / "static" / "logo-white.png"
+    if not path.exists():
+        return None
+    logo = Image.open(path).convert("RGBA")
+    return logo.resize((round(logo.width * height / logo.height), height), Image.LANCZOS)
 
 
 def render(s):
@@ -352,13 +369,22 @@ def chips(img, d, y, heading, words):
     return ty + 14 + GAP
 
 
+def terms_label(terms):
+    """"pierwsza kadencja", "6. kadencja", or "8. kadencja od 1997" when the
+    record reaches back to the oldest term the API has (there may be earlier ones)."""
+    if len(terms) == 1:
+        return "pierwsza kadencja"
+    return f"{len(terms)}. kadencja" + (" od 1997" if min(terms) <= 3 else "")
+
+
 def mp_term(r, photo=None):
     """An MP's term: turnout, missed votes, breaks of the club line, speeches,
     questions to the government, amendments signed, characteristic words."""
     img = Image.new("RGB", (W, 3000), BG)
     d = ImageDraw.Draw(img)
     mp, sp, q = r["mp"], r.get("speeches") or {}, r.get("q_stats") or {}
-    subtitle = " · ".join(x for x in (club_short(mp.get("club") or ""), mp.get("districtName") and f"okręg {mp['districtName']}") if x)
+    subtitle = " · ".join(x for x in (club_short(mp.get("club") or ""), mp.get("districtName") and f"okręg {mp['districtName']}",
+                                      r.get("terms") and terms_label(r["terms"])) if x)
     y = header(d, "PODSUMOWANIE KADENCJI · POSEŁ NA SEJM", mp["firstLastName"], subtitle, photo, img)
     missed = r["eligible"] - r["cast"]
     rows = [(pct(r["turnout"]), f"udział w głosowaniach ({r['cast']} z {r['eligible']})", TEXT),

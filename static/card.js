@@ -53,6 +53,12 @@
       d.stroke();
     }
   };
+  const loadLogo = () => new Promise((resolve) => {
+    const img = new Image();
+    img.onload = () => resolve(img);
+    img.onerror = () => resolve(null);
+    img.src = data.logo;
+  });
   const loadPhoto = () => new Promise((resolve) => {
     const img = new Image();
     img.crossOrigin = "anonymous";   // the Sejm's API allows it; without it the canvas could not be saved
@@ -121,7 +127,7 @@
     }
     d.restore();
   };
-  const footer = (canvas, y) => {
+  const footer = (canvas, y, logo) => {
     const height = Math.max(MIN_H, y + PAD - GAP + FOOT);
     const out = Object.assign(document.createElement("canvas"), { width: W, height });
     const d = out.getContext("2d");
@@ -133,7 +139,14 @@
     text(d, lead, PAD, mid, font("regular", 36), FOOT_TEXT);
     d.font = font("regular", 36);
     text(d, "sejmomat.pl", PAD + d.measureText(lead).width, mid, font("bold", 50), FOOT_TEXT);
-    text(d, "Dane: API Sejmu RP", W - PAD, mid, font("regular", 24), FOOT_MUTED, "right");
+    if (logo) {
+      // the site's wordmark over the data credit, as on the site's own images (sejmomat/card.py)
+      const lh = 40, lw = Math.round(logo.width * lh / logo.height);
+      d.drawImage(logo, W - PAD - lw, height - FOOT + 30, lw, lh);
+      text(d, "Dane: API Sejmu RP", W - PAD, height - 30, font("regular", 22), FOOT_MUTED, "right");
+    } else {
+      text(d, "Dane: API Sejmu RP", W - PAD, mid, font("regular", 24), FOOT_MUTED, "right");
+    }
     return out;
   };
   const panel = (d, y, height) => rounded(d, PAD, y, W - 2 * PAD, height, 18, SURFACE, LINE);
@@ -216,9 +229,9 @@
     const d = canvas.getContext("2d");
     d.fillStyle = BG;
     d.fillRect(0, 0, W, 3000);
-    const photo = data.photo && await loadPhoto();
+    const [photo, logo] = await Promise.all([data.photo ? loadPhoto() : null, data.logo ? loadLogo() : null]);
     const y = (kind === "sitting" ? sitting : term)(d, photo);
-    return footer(canvas, y);
+    return footer(canvas, y, logo);
   };
 
   box.addEventListener("click", async (e) => {
