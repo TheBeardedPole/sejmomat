@@ -81,6 +81,8 @@ jobs:
           # Public address ("https://example.pl/"), for canonical links,
           # hreflang and sitemap.xml. Set as a repository variable.
           SITE_URL: ${{ vars.SITE_URL }}
+          # Google Analytics 4 measurement id ("G-..."); unset, the site has no analytics.
+          GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID }}
 
       # Index the Polish pages only: the English ones repeat the same legal
       # text, and every indexed page becomes one more file to upload. Search
