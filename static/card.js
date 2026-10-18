@@ -160,7 +160,8 @@
       [t.rebels, `wyłamań z linii klubu (${pct(t.rebelRate)})`, t.rebels ? NO : TEXT],
       [t.speeches, "wystąpień na sali plenarnej", TEXT],
       [t.questions, "interpelacji i zapytań poselskich", TEXT],
-      ...(t.signed ? [[`${t.signedAdopted}/${t.signed}`, "podpisanych poprawek i wniosków przyjętych", YES]] : []),
+      // how many of the amendments and motions the MP signed passed; neutral colour: few pass for the opposition
+      ...(t.signed ? [[`${t.signedAdopted} z ${t.signed}`, "podpisanych poprawek i wniosków przeszło", TEXT]] : []),
     ].filter(([n]) => n !== undefined));
     if (data.words.length) {
       // the characteristic words as chips, as many rows as they need

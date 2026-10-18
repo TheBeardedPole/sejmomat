@@ -267,7 +267,7 @@ def club_term(c, proposed, label):
             (pct(c["effectiveness"]), "skuteczność: wygrane głosowania", YES),
             (len(c["split"]), "głosowań z podziałem w klubie", ABSTAIN),
             ((sp.get("spoken") or 0) + (sp.get("written") or 0), "wystąpień na sali plenarnej", TEXT),
-            (f"{adopted}/{len(proposed)}", "poprawek i wniosków przyjętych", YES)]
+            (f"{adopted} z {len(proposed)}", "zgłoszonych poprawek i wniosków przeszło", TEXT)]
     y = tiles(d, y, [r for r in rows if r[0] not in (0, "0/0")])
     allies = c["agreement"][:5]
     if allies:
@@ -393,7 +393,8 @@ def mp_term(r, photo=None):
             ((sp.get("spoken") or 0) + (sp.get("written") or 0), "wystąpień na sali plenarnej", TEXT),
             (q.get("int", 0) + q.get("zap", 0), "interpelacji i zapytań poselskich", TEXT)]
     if r["signed"]:
-        rows.append((f"{r['signed_adopted']}/{len(r['signed'])}", "podpisanych poprawek i wniosków przyjętych", YES))
+        # neutral colour: whether amendments pass says more about the majority than about the MP
+        rows.append((f"{r['signed_adopted']} z {len(r['signed'])}", "podpisanych poprawek i wniosków przeszło", TEXT))
     y = tiles(d, y, rows)
     words = [w for w, _, _ in sorted(sp.get("cloud") or [], key=lambda c: -c[1])][:12]
     if words:

@@ -30,7 +30,7 @@
   <div class="card stat"><b><a href="#wylamania">{{ r.rebel_count }}</a></b>{{ _("wyłamań z linii klubu") }} ({{ r.rebel_rate | pct }})</div>
   {% set sp = r.speeches %}
   {% if sp.spoken or sp.written %}<div class="card stat"><b><a href="#wystapienia">{{ sp.spoken + sp.written }}</a></b>{{ _("wystąpień na sali plenarnej") }}</div>{% endif %}
-  {% if r.signed %}<div class="card stat"><b><a href="#poprawki">{{ r.signed_adopted }} / {{ r.signed | length }}</a></b>{{ _("podpisanych poprawek i wniosków przyjętych") }}</div>{% endif %}
+  {% if r.signed %}<div class="card stat"><b><a href="#poprawki">{{ r.signed_adopted }} {{ _("z") }} {{ r.signed | length }}</a></b>{{ _("podpisanych poprawek i wniosków przeszło w głosowaniu") }}</div>{% endif %}
 </div>
 
 {{ mp_cards(r) }}
@@ -99,7 +99,7 @@
 
 {% if r.signed %}
 <section class="tab-panel" id="poprawki">
-<h2 class="tab-title">{{ _("Podpisane poprawki i wnioski") }} ({{ r.signed_adopted }} / {{ r.signed | length }} {{ _("przyjęte") }})</h2>
+<h2 class="tab-title">{{ _("Podpisane poprawki i wnioski") }} ({{ _("przeszło") }} {{ r.signed_adopted }} {{ _("z") }} {{ r.signed | length }})</h2>
 <div class="table-scroll"><table><tbody>
 {% for v in r.signed %}
 <tr>

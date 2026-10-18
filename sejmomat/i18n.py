@@ -333,6 +333,9 @@ EN = {
         "Minority motions and amendments signed by named MPs; amendments filed by clubs are counted above.",
     "Podpisane poprawki i wnioski": "Signed amendments and motions",
     "podpisanych poprawek i wniosków przyjętych": "signed amendments and motions adopted",
+    "podpisanych poprawek i wniosków przeszło w głosowaniu": "of the signed amendments and motions passed",
+    "przeszło": "passed", "Podpisane poprawki: przeszło": "Signed amendments: passed",
+    "ile podpisanych poprawek i wniosków przeszło w głosowaniu, z ilu": "how many of the signed amendments and motions passed, out of how many",
     "Podpisane wnioski": "Signed motions",
     # API
     "Otwarte API w formacie JSON: głosowania Sejmu powiązane z treścią poprawek, wyniki klubów, głosy imienne, posłowie i zmiany w prawie.":

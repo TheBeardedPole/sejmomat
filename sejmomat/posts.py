@@ -125,10 +125,10 @@ def club_post(c, label, proposed):
              f"🤝 spójność w głosowaniach: {pct(c['cohesion'])}",
              f"🏆 skuteczność (wygrane głosowania): {pct(c['effectiveness'])}",
              f"🎤 wystąpienia na sali: {(sp.get('spoken') or 0) + (sp.get('written') or 0)}",
-             f"✏️ przyjęte poprawki i wnioski: {adopted}/{len(proposed)}"]
+             f"✏️ poprawki i wnioski, które przeszły: {adopted} z {len(proposed)}"]
     caption = _fit(lines, f"#Sejm → {SITE}klub/{c['slug']}.html")
     alt = (f"Podsumowanie kadencji klubu {label}: spójność {pct(c['cohesion'])}, skuteczność {pct(c['effectiveness'])}, "
-           f"przyjętych poprawek i wniosków {adopted} z {len(proposed)}, oraz kluby, z którymi głosuje najczęściej. sejmomat.pl")
+           f"z {len(proposed)} zgłoszonych poprawek i wniosków przeszło {adopted}, oraz kluby, z którymi głosuje najczęściej. sejmomat.pl")
     return caption, alt
 
 
