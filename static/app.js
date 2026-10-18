@@ -232,6 +232,9 @@ const T = {
     privacy: "Prywatność", consentSettings: "Ustawienia zgody", contents: "Spis treści", articles: "Artykuły",
     consentText: "Ta strona Cię nie śledzi. Za Twoją zgodą zapisze w przeglądarce licznik odwiedzonych podstron, " +
       "używany wyłącznie po to, by od czasu do czasu przypomnieć o możliwości wsparcia projektu.",
+    consentTextGa: "Za Twoją zgodą strona użyje Google Analytics, by liczyć odwiedziny (pliki cookie Google), i zapisze w przeglądarce " +
+      "licznik odwiedzonych podstron, używany do przypominania o możliwości wsparcia projektu. Bez zgody nic z tego się nie dzieje.",
+    pitchGa: "Projekt jest darmowy i bez reklam. Jeśli chcesz, możesz postawić autorowi kawę.",
     essential: "Tylko niezbędne", agree: "Zgadzam się",
     support: "Wesprzyj", close: "Zamknij", useful: "Sejmomat się przydaje?",
     pitch: "Projekt jest darmowy, bez reklam i śledzenia. Jeśli chcesz, możesz postawić autorowi kawę.",
@@ -241,6 +244,9 @@ const T = {
     privacy: "Privacy", consentSettings: "Consent settings", contents: "Contents", articles: "Articles",
     consentText: "This site does not track you. With your consent it will keep a page-view counter in your browser, " +
       "used only to occasionally mention that you can support the project.",
+    consentTextGa: "With your consent the site will use Google Analytics to count visits (Google cookies), and keep a page-view " +
+      "counter in your browser, used to mention that you can support the project. Without consent none of this happens.",
+    pitchGa: "The project is free, with no ads. If you like, you can buy the author a coffee.",
     essential: "Only essential", agree: "I agree",
     support: "Support", close: "Close", useful: "Finding Sejmomat useful?",
     pitch: "The project is free, with no ads or tracking. If you like, you can buy the author a coffee.",
@@ -254,12 +260,15 @@ const h = (tag, props = {}, children = []) => {
 };
 const privacyLink = () => h("a", { href: `${ROOT}prywatnosc.html`, textContent: T.privacy });
 
-// Consent for optional browser storage. The choice itself is kept in
+// Consent for optional browser storage and, when the site has a Google
+// Analytics id (<meta name="sejmomat-ga">, set by the build from the
+// GA_MEASUREMENT_ID variable), for analytics. The choice itself is kept in
 // localStorage (needed to remember the answer); nothing optional runs before
-// "agree". To add analytics later: create its <script> inside an
-// onConsent.push(() => { ... }) callback below, update the consent text and
-// the privacy page, and bump CONSENT_VERSION so everyone is asked again.
-const CONSENT_VERSION = 1;
+// "agree". With analytics the text and the privacy page say so, and the
+// consent version is new, so everyone is asked again.
+const GA_ID = document.querySelector('meta[name="sejmomat-ga"]')?.content || "";
+const CONSENT_VERSION = GA_ID ? 2 : 1;
+if (GA_ID) Object.assign(T, { consentText: T.consentTextGa, pitch: T.pitchGa });
 const CONSENT_KEY = "sejmomat-consent";
 const SUPPORT_KEY = "sejmomat-support";
 const readConsent = () => {
@@ -277,6 +286,16 @@ const applyConsent = (granted) => {
   consentApplied = true;
   onConsent.forEach((fn) => fn());
 };
+// Google Analytics' cookies (_ga, _ga_<id>), removed when consent is withdrawn;
+// they are set for the site's domain, with or without "www."
+const dropAnalyticsCookies = () => {
+  const host = location.hostname.replace(/^www\./, "");
+  for (const name of document.cookie.split(";").map((c) => c.split("=")[0].trim()).filter((n) => /^_ga(_|$)/.test(n))) {
+    for (const domain of ["", `; domain=${host}`, `; domain=.${host}`]) {
+      document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/${domain}`;
+    }
+  }
+};
 const choose = (optional) => {
   try {
     localStorage.setItem(CONSENT_KEY, JSON.stringify({ v: CONSENT_VERSION, optional, at: Date.now() }));
@@ -284,6 +303,7 @@ const choose = (optional) => {
   } catch {
     // storage unavailable: the choice lasts for this page only
   }
+  if (!optional) dropAnalyticsCookies();
   consentBar.hidden = true;
   applyConsent(optional);
 };
@@ -299,6 +319,17 @@ const consentBar = h("div", { className: "sm-choice", hidden: true }, [
 ]);
 consentBar.setAttribute("role", "region");
 consentBar.setAttribute("aria-label", T.consentSettings);
+
+// Google Analytics, only with consent and only when the site has an id.
+if (GA_ID) {
+  onConsent.push(() => {
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtag() { window.dataLayer.push(arguments); };
+    window.gtag("js", new Date());
+    window.gtag("config", GA_ID);
+    document.head.append(h("script", { async: true, src: `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GA_ID)}` }));
+  });
+}
 
 // Support note: a corner card for really dedicated readers only, and only
 // with consent (it counts page views in localStorage). It needs at least

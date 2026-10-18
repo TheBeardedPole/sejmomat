@@ -11,7 +11,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import agenda, analysis, authors, committees, questions, social, speeches
 from .stamp import stamp
-from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM
+from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
 from .i18n import LANGS, date_fmt, pct_fmt, translator
 from .acts import bill_changes
 from .api_out import write_api
@@ -256,7 +256,8 @@ def build_context():
     days = speeches.load()
     speeches_by_mp = speeches.by_mp(days, bill_of_print, vote_for)
     speeches_by_bill = speeches.by_bill(days, bill_of_print, vote_for, club_at)
-    vocabulary = speeches.Vocabulary(st["text"] for d in days for st in d["statements"])
+    vocabulary = speeches.Vocabulary((st["text"] for d in days for st in d["statements"]),
+                                     names={p for m in mps.values() for p in m["firstLastName"].replace("-", " ").split()})
     del days
 
     def speech_figures(items):
@@ -746,7 +747,7 @@ def _env(lang):
         print_url=print_url, pdf_url=pdf_url, act_url=act_url, TERM=TERM,
         post_weight=social.weight, POST_LIMIT=social.LIMIT, CARD_DIR=social.CARD_DIR,
         static_version=static_version, club_short=social.club_short, transcript_url=committees.transcript_url,
-        QUESTIONS_SHOWN=QUESTIONS_SHOWN,
+        QUESTIONS_SHOWN=QUESTIONS_SHOWN, GA_ID=GA_ID,
     )
     return env, t
 

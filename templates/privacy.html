@@ -11,8 +11,17 @@ przetwarzanych w związku z działaniem strony.</p>
 
 <h2>Co dzieje się, gdy odwiedzasz stronę</h2>
 <ul>
+  {% if GA_ID %}
+  <li><strong>Google Analytics — tylko za zgodą.</strong> Jeśli klikniesz „Zgadzam się”, strona wczyta Google Analytics (Google Ireland
+      Limited), by liczyć odwiedziny i sprawdzać, które strony są czytane. Google zapisuje wtedy swoje pliki cookie (_ga) i otrzymuje
+      Twój adres IP, informacje o przeglądarce i odwiedzanych podstronach; dane mogą być przekazywane do USA (na podstawie
+      EU-U.S. Data Privacy Framework). Podstawą jest Twoja zgoda (art. 6 ust. 1 lit. a RODO), którą możesz w każdej chwili wycofać
+      linkiem „Ustawienia zgody” w stopce — strona usuwa wtedy pliki cookie Google. Bez zgody Google Analytics się nie wczytuje.
+      Poza tym strona nie ma reklam, kont, formularzy ani newslettera, a wyszukiwarka działa w Twojej przeglądarce.</li>
+  {% else %}
   <li><strong>Brak plików cookie, śledzenia i reklam.</strong> Strona nie używa cookies, narzędzi analitycznych ani skryptów
       zewnętrznych firm (poza zdjęciami posłów i nagraniami wystąpień i posiedzeń komisji, o czym niżej). Nie ma kont, formularzy ani newslettera. Wyszukiwarka działa w Twojej przeglądarce — zapytania nie są nigdzie wysyłane.</li>
+  {% endif %}
   <li><strong>Logi serwera.</strong> Dostawca hostingu (Hostinger) zapisuje standardowe logi: adres IP, datę i godzinę, adres
       żądanej strony oraz informację o przeglądarce. Służą one bezpieczeństwu i utrzymaniu serwisu (art. 6 ust. 1 lit. f RODO)
       i są przechowywane przez okres stosowany przez dostawcę hostingu. Nie łączymy ich z innymi danymi.</li>
@@ -50,8 +59,17 @@ the data processed in connection with the site.</p>
 
 <h2>What happens when you visit</h2>
 <ul>
+  {% if GA_ID %}
+  <li><strong>Google Analytics — only with your consent.</strong> If you click “I agree”, the site loads Google Analytics (Google
+      Ireland Limited) to count visits and see which pages are read. Google then sets its cookies (_ga) and receives your IP address,
+      browser information and the pages you visit; the data may be transferred to the USA (under the EU-U.S. Data Privacy Framework).
+      The legal basis is your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time with “Consent settings” in the footer —
+      the site then removes Google's cookies. Without consent Google Analytics is not loaded. Otherwise the site has no ads,
+      accounts, forms or newsletters, and search runs in your browser.</li>
+  {% else %}
   <li><strong>No cookies, tracking or ads.</strong> The site uses no cookies, analytics or third-party scripts (apart from MPs' photos and speech and committee videos, see below). There are no
       accounts, forms or newsletters. Search runs in your browser — queries are not sent anywhere.</li>
+  {% endif %}
   <li><strong>Server logs.</strong> The hosting provider (Hostinger) keeps standard logs: IP address, date and time, the page
       requested and browser information. They serve security and maintenance (Art. 6(1)(f) GDPR) and are kept for the period
       applied by the hosting provider. We do not combine them with other data.</li>

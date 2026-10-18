@@ -120,8 +120,8 @@ Live on sejmomat.pl:
 - **Posts to share by hand** (`python -m sejmomat.posts [date] [--days N]`,
   `sejmomat/posts.py`): writes `posts/<date>/` (not in git) with images
   and `posts.txt` (caption and alt text each). "MPs from A to Z": the MPs
-  serving on 19 October 2026 by surname, fixed in `data/posts_order.json`,
-  1 and 2 on alternate days (ends around late August 2027); a club and a
+  serving on 18 October 2026 by surname, fixed in `data/posts_order.json`,
+  1 and 2 on alternate days, from 18 October 2026 (the last on 20 August 2027); a club and a
   minister once a week each; the voting-day summary the morning after.
   Cards: `card.mp_term` (the browser's `static/card.js` draws the same),
   `card.minister`, `card.club_term`. Needs a `git pull` first, about 2

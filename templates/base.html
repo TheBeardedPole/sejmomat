@@ -21,6 +21,7 @@
 <meta property="og:locale" content="{{ 'pl_PL' if lang == 'pl' else 'en_GB' }}">
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#1d5fc4">
+{% if GA_ID %}<meta name="sejmomat-ga" content="{{ GA_ID }}">{% endif %}
 <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("sejmomat-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="icon" href="{{ site_root }}static/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="{{ site_root }}favicon.ico" sizes="16x16 32x32 48x48">

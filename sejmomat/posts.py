@@ -29,7 +29,7 @@ from pathlib import Path
 
 from .config import CACHE, DATA, SITE_URL, TERM
 
-START = date(2026, 10, 19)   # the first day of the series
+START = date(2026, 10, 18)   # the first day of the series
 ORDER = DATA / "posts_order.json"
 OUT = Path(__file__).resolve().parent.parent / "posts"
 SITE = SITE_URL or "https://sejmomat.pl/"

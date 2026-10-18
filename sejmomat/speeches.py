@@ -253,7 +253,16 @@ STOP_LEMMAS = set("""
 być mieć móc musieć chcieć zostać stać dać iść wiedzieć powinien robić zrobić mówić powiedzieć uważać
 jakiś jakikolwiek inny taki ten który swój nasz wasz mój twój cały sam każdy żaden pewien niektóry
 bardzo często dużo wiele bardziej coraz właśnie także również jednak tylko więc
+pan pani poseł posłanka sala izba państwo dzięki tysiąc milion miliard
+styczeń luty marzec kwiecień maj czerwiec lipiec sierpień wrzesień październik listopad grudzień
 """.split())
+# Parts of speech that carry no subject: prepositions, conjunctions,
+# particles, adverbs, numerals, pronouns, "trzeba"-like predicatives. A form
+# is left out when every reading of it is one of these.
+STOP_TAGS = {"prep", "conj", "comp", "part", "qub", "adv", "num", "numcol", "pred", "interj",
+             "ppron12", "ppron3", "siebie", "aglt", "bedzie", "winien", "burk"}
+PERSON = {"imię", "nazwisko"}   # Morfeusz's labels for first names and surnames
+CAPITALISED = 0.7   # an MP's surname that is also a word ("Ziobro", "Duda"): left out when this share of its uses are capitalised
 # A word's forms are put together by trimming endings (ustawa, ustawy,
 # ustawie -> "ustaw"), then the "-ow-" that makes an adjective of a noun
 # (podatkowy -> "podatk") and the "e" that comes and goes before a final
@@ -282,20 +291,32 @@ def words(text):
     return [w for w in _WORD_RE.findall(re.sub(r"\([^)]*\)", " ", text).lower()) if w not in STOPWORDS]
 
 
-def lemmas(form_counts):
-    """{word form: its dictionary form} by Morfeusz 2 with the SGJP
-    dictionary (morfeusz.sgjp.pl, BSD licence), or {} without it. A form with
-    several readings (rolnicy: rolnik or rolnica) gets the dictionary form
-    that is more common across all the forms counted."""
+def lemmas(form_counts, names=()):
+    """({word form: its dictionary form}, forms to leave out) by Morfeusz 2
+    with the SGJP dictionary (morfeusz.sgjp.pl, BSD licence), or ({}, set())
+    without it. A form with several readings (rolnicy: rolnik or rolnica) gets
+    the dictionary form that is more common across all the forms counted.
+    Left out: forms that are only function words (STOP_TAGS), only first
+    names or surnames, or unknown to the dictionary and an MP's name
+    (`names`, lower case: "zandberg", "wiplera")."""
     try:
         import morfeusz2
     except ImportError:
-        return {}
+        return {}, set()
     analyser = morfeusz2.Morfeusz(generate=False)
-    readings, weight = {}, {}
+    readings, weight, skip = {}, {}, set()
     for form, count in form_counts.items():
-        found = [(i[2][1].split(":")[0].lower(), i[2][2].split(":")[0]) for i in analyser.analyse(form)
-                 if i[0] == 0 and i[2][2] != "ign"]
+        analysed = [i[2] for i in analyser.analyse(form) if i[0] == 0]
+        found = [(a[1].split(":")[0].lower(), a[2].split(":")[0]) for a in analysed if a[2] != "ign"]
+        if not found:
+            # without the name's last letter, so other forms match too (Wielichowska, Wielichowski)
+            if any(form.startswith(n[:-1]) for n in names if len(n) >= 6):
+                skip.add(form)
+            continue
+        known = [a for a in analysed if a[2] != "ign"]
+        proper = [a for a in known if a[3] and "nazwa_pospolita" not in a[3]]   # names of people, places, …
+        if all(tag in STOP_TAGS for _, tag in found) or (len(proper) == len(known) and any(set(a[3]) & PERSON for a in proper)):
+            skip.add(form)
         # a noun over the verbal noun of the same word (pytanie, not pytać)
         if any(tag != "ger" for _, tag in found):
             found = [(lemma, tag) for lemma, tag in found if tag != "ger"]
@@ -303,7 +324,30 @@ def lemmas(form_counts):
         readings[form] = found
         for lemma in found:
             weight[lemma] = weight.get(lemma, 0) + count / len(found)
-    return {form: max(found, key=lambda l: (weight[l], l)) for form, found in readings.items() if found}
+    dictionary = {form: max(found, key=lambda l: (weight[l], l)) for form, found in readings.items() if found}
+    return dictionary, skip
+
+
+def capitalised_names(texts, form_counts, dictionary, names):
+    """Forms of MPs' names that are also ordinary words ("ziobro", "duda",
+    but also "niedziela") which the speeches mostly write with a capital in
+    mid-sentence: there they are surnames, so they are left out."""
+    lemma_of = {f: dictionary.get(f, f) for f in form_counts if dictionary.get(f, f) in names}
+    if not lemma_of:
+        return set()
+    upper = {}
+    mid = re.compile(r"(?<=[a-ząćęłńóśźż,;] )([A-ZĄĆĘŁŃÓŚŹŻ][a-ząćęłńóśźż]{3,})")
+    for text in texts:
+        for w in mid.findall(text):
+            w = w.lower()
+            if w in lemma_of:
+                upper[w] = upper.get(w, 0) + 1
+    total, caps = {}, {}
+    for form, lemma in lemma_of.items():
+        total[lemma] = total.get(lemma, 0) + form_counts[form]
+        caps[lemma] = caps.get(lemma, 0) + upper.get(form, 0)
+    surnames = {l for l in total if caps[l] >= CAPITALISED * total[l]}
+    return {f for f, l in lemma_of.items() if l in surnames}
 
 
 class Vocabulary:
@@ -313,14 +357,20 @@ class Vocabulary:
     form (lemmas()), then trimmed (stem()), which also joins words made from
     one another (podatkowy, podatek). Without the dictionary, trimming alone."""
 
-    def __init__(self, texts):
+    def __init__(self, texts, names=()):
+        """`names`: MPs' first names and surnames, which are left out
+        (see lemmas() and capitalised_names())."""
+        texts = list(texts)
+        names = {n.lower() for n in names}
         form_counts = {}
         for text in texts:
             for w in words(text):
                 form_counts[w] = form_counts.get(w, 0) + 1
-        dictionary = lemmas(form_counts)
-        # None: a form left out (its dictionary form is in STOP_LEMMAS)
-        self.key = {w: None if dictionary.get(w) in STOP_LEMMAS else stem(dictionary.get(w, w)) for w in form_counts}
+        dictionary, skip = lemmas(form_counts, names)
+        skip |= capitalised_names(texts, form_counts, dictionary, names)
+        # None: a form left out (a function word, a person's name, or its dictionary form in STOP_LEMMAS)
+        self.key = {w: None if w in skip or dictionary.get(w) in STOP_LEMMAS else stem(dictionary.get(w, w))
+                    for w in form_counts}
         self.counts, self.forms, self.heads = {}, {}, {}
         for w, c in form_counts.items():
             k = self.key[w]
