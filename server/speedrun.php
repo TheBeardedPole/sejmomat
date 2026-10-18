@@ -1,21 +1,23 @@
 <?php
-// "Twarze na czas" (Sejmdle): ten MPs' photos to name as fast as possible,
-// with a daily and an all-time leaderboard. No accounts: a player leaves a
-// nickname after a run. The build copies this file to /srv/speedrun.php.
+// "Twarze w minutę" (Sejmdle): name as many MPs from their photos as you can
+// in a minute (+1 right, −1 wrong, skipping is free), with a daily and an
+// all-time leaderboard. No accounts: a player leaves a nickname after a run.
+// The build copies this file to /srv/speedrun.php.
 //
-// The run is dealt and timed here, so the leaderboard cannot simply be
-// written to: the server picks the MPs and keeps who they are in an
+// The run is dealt, checked and timed here, so the leaderboard cannot simply
+// be written to: the server picks the MPs and keeps who they are in an
 // encrypted token (photos come through ?a=photo, so their addresses do not
-// give the answers away), starts the clock at ?a=go, stops it when the
-// answers arrive at ?a=finish, and accepts each run once. A nickname is
+// give the answers away), starts the clock at ?a=go, checks and timestamps
+// every answer at ?a=answer (an answer is only revealed once given), ignores
+// answers after the minute, and finishes each run once. A nickname is
 // attached afterwards (?a=name), so typing it does not count.
 //
 //   GET  ?a=start                 -> {token, rounds: [{options: [4 names]}]}
-//   GET  ?a=photo&t=TOKEN&i=N     -> the N-th photo (0-9)
-//   POST ?a=go      t=TOKEN       -> {token} (the clock starts)
-//   POST ?a=finish  t=TOKEN, answers=[option index or -1, ...]
-//                                 -> {time, wrong, correct: [...], claim}
-//   POST ?a=name    claim, nick   -> {rank, board}
+//   GET  ?a=photo&t=TOKEN&i=N     -> the N-th photo
+//   POST ?a=go      t=TOKEN       -> {seconds} (the clock starts)
+//   POST ?a=answer  t, i, choice  -> {ok, answer} (choice -1 = skip)
+//   POST ?a=finish  t=TOKEN       -> {score, correct, wrong, claim, counted}
+//   POST ?a=name    claim, nick   -> {rank, rankAll, today, all}
 //   GET  ?a=board                 -> {today: [...], all: [...]}
 //
 // Data (JSON files, a secret key, cached photos) lives outside the web
@@ -23,11 +25,10 @@
 
 declare(strict_types=1);
 
-const ROUNDS = 10;
+const ROUNDS = 120;           // faces dealt per run: more than anyone names in a minute
 const OPTIONS = 4;
-const PENALTY = 5.0;          // seconds per wrong or skipped answer
-const MIN_SECONDS = 4.0;      // faster than this for ten faces is not a person
-const MAX_SECONDS = 900.0;    // a run left open longer does not count
+const DURATION = 60.0;        // seconds
+const GRACE = 3.0;            // for answers sent just before the end and still on their way
 const CLAIM_MINUTES = 15;     // time to type a nickname after a run
 const BOARD_SIZE = 100;       // entries kept per board
 const SHOWN = 20;             // entries shown
@@ -57,7 +58,7 @@ function data_dir(): string {
     if (str_starts_with($dir, __DIR__) && !file_exists("$dir/.htaccess")) {
         file_put_contents("$dir/.htaccess", "Require all denied\nDeny from all\n");
     }
-    foreach (['photos', 'pending'] as $sub) @mkdir("$dir/$sub", 0700);
+    foreach (['photos', 'pending', 'runs'] as $sub) @mkdir("$dir/$sub", 0700);
     return $dir;
 }
 
@@ -140,13 +141,17 @@ function locked_update(string $path, callable $change): mixed {
 }
 
 function board(string $name): array {
-    $path = data_dir() . "/board-$name.json";
+    $path = data_dir() . "/minute-$name.json";   // "minute-": the one-minute game (earlier boards were by time)
     return file_exists($path) ? (json_decode((string)file_get_contents($path), true) ?: []) : [];
 }
 
 function shown(array $board): array {
-    return array_map(fn($e) => ['nick' => $e['nick'], 'time' => $e['time'], 'wrong' => $e['wrong'], 'day' => $e['day']],
-                     array_slice($board, 0, SHOWN));
+    return array_map(fn($e) => ['nick' => $e['nick'], 'score' => $e['score'], 'correct' => $e['correct'], 'wrong' => $e['wrong'],
+                                'day' => $e['day']], array_slice($board, 0, SHOWN));
+}
+
+function run_path(array $run): string {
+    return data_dir() . '/runs/' . preg_replace('/[^a-f0-9]/', '', (string)$run['n']) . '.json';
 }
 
 function client_key(): string {
@@ -179,7 +184,8 @@ $action = $_GET['a'] ?? '';
 if ($action === 'start') {
     $rounds = deal();
     echo json_encode([
-        'token' => seal(['r' => $rounds, 'n' => bin2hex(random_bytes(8)), 'made' => microtime(true)]),
+        // the token keeps only each face's MP and right answer, so it stays short (it goes in photo addresses)
+        'token' => seal(['r' => array_map(fn($r) => [$r['id'], $r['answer']], $rounds), 'n' => bin2hex(random_bytes(8))]),
         'rounds' => array_map(fn($r) => ['options' => $r['names']], $rounds),
     ], JSON_UNESCAPED_UNICODE);
     exit;
@@ -189,7 +195,7 @@ if ($action === 'photo') {
     $run = unseal((string)($_GET['t'] ?? ''));
     $i = (int)($_GET['i'] ?? -1);
     if (!isset($run['r'][$i])) fail(404, 'no such photo');
-    $id = (int)$run['r'][$i]['id'];
+    $id = (int)$run['r'][$i][0];
     $path = data_dir() . "/photos/$id.jpg";
     if (!file_exists($path)) {
         $url = 'https://api.sejm.gov.pl/sejm/term' . TERM . "/MP/$id/photo";
@@ -213,47 +219,66 @@ if ($action === 'photo') {
 if ($action === 'go') {
     if ($_SERVER['REQUEST_METHOD'] !== 'POST') fail(405, 'POST only');
     $run = unseal((string)(body()['t'] ?? ''));
-    if (isset($run['go'])) fail(400, 'already started');
-    $run['go'] = microtime(true);
-    echo json_encode(['token' => seal($run)]);
+    $path = run_path($run);
+    $fh = @fopen($path, 'x');   // only the first "go" for a run starts it
+    if (!$fh) fail(400, 'already started');
+    fwrite($fh, json_encode(['go' => microtime(true), 'answers' => new stdClass(), 'done' => false]));
+    fclose($fh);
+    echo json_encode(['seconds' => DURATION]);
+    exit;
+}
+
+if ($action === 'answer') {
+    if ($_SERVER['REQUEST_METHOD'] !== 'POST') fail(405, 'POST only');
+    $in = body();
+    $run = unseal((string)($in['t'] ?? ''));
+    $i = (int)($in['i'] ?? -1);
+    $choice = (int)($in['choice'] ?? -1);
+    if (!isset($run['r'][$i])) fail(400, 'no such face');
+    if (!file_exists(run_path($run))) fail(400, 'not started');
+    $answer = (int)$run['r'][$i][1];
+    // each face is answered once; answers may arrive out of order, but not after the minute
+    $result = locked_update(run_path($run), function ($state) use ($i, $choice, $answer) {
+        $now = microtime(true);
+        if ($state['done'] || $now > $state['go'] + DURATION + GRACE) return [$state, 'late'];
+        if (isset($state['answers'][(string)$i])) return [$state, 'twice'];
+        $state['answers'][(string)$i] = [$choice, $choice === -1 ? null : $choice === $answer, $now];
+        return [$state, 'ok'];
+    });
+    if ($result !== 'ok') fail(409, $result);
+    echo json_encode(['ok' => $choice === -1 ? null : $choice === $answer, 'answer' => $answer]);
     exit;
 }
 
 if ($action === 'finish') {
     if ($_SERVER['REQUEST_METHOD'] !== 'POST') fail(405, 'POST only');
-    $in = body();
-    $run = unseal((string)($in['t'] ?? ''));
-    if (!isset($run['go'])) fail(400, 'not started');
-    $elapsed = microtime(true) - (float)$run['go'];
-    $answers = array_values(array_map('intval', (array)($in['answers'] ?? [])));
-    if (count($answers) !== ROUNDS) fail(400, 'answers missing');
-    // each run counts once
-    $used = locked_update(data_dir() . '/used-' . today() . '.json', function ($seen) use ($run) {
-        $dup = isset($seen[$run['n']]);
-        $seen[$run['n']] = 1;
-        return [$seen, $dup];
+    $run = unseal((string)(body()['t'] ?? ''));
+    if (!file_exists(run_path($run))) fail(400, 'not started');
+    $state = locked_update(run_path($run), function ($state) {
+        $was = $state['done'];
+        $state['done'] = true;
+        return [$state, $was ? null : $state];
     });
-    if ($used) fail(409, 'run already finished');
-    $correct = array_map(fn($r) => (int)$r['answer'], $run['r']);
-    $wrong = 0;
-    foreach ($correct as $k => $c) $wrong += $answers[$k] === $c ? 0 : 1;
-    $time = round($elapsed + PENALTY * $wrong, 2);
-    $valid = $elapsed >= MIN_SECONDS && $elapsed <= MAX_SECONDS;
+    if ($state === null) fail(409, 'run already finished');
+    $answers = (array)$state['answers'];
+    $correct = count(array_filter($answers, fn($a) => $a[1] === true));
+    $wrong = count(array_filter($answers, fn($a) => $a[1] === false));
+    $score = max(0, $correct - $wrong);
+    $counted = $score > 0;   // a run without points stays off the boards
     $claim = '';
-    if ($valid) {
+    if ($counted) {
         $claim = bin2hex(random_bytes(12));
-        file_put_contents(data_dir() . "/pending/$claim.json", json_encode(['time' => $time, 'wrong' => $wrong, 'day' => today(), 'at' => time()]));
+        file_put_contents(data_dir() . "/pending/$claim.json",
+            json_encode(['score' => $score, 'correct' => $correct, 'wrong' => $wrong, 'day' => today(), 'at' => time()]));
     }
-    // names of the right answers, to show after the run
-    echo json_encode(['time' => $time, 'elapsed' => round($elapsed, 2), 'wrong' => $wrong, 'correct' => $correct,
-                      'claim' => $claim, 'counted' => $valid], JSON_UNESCAPED_UNICODE);
-    // tidy up now and then: unclaimed results after an hour, and the per-day
-    // address hashes and finished-run lists after three days (as the privacy page says)
+    echo json_encode(['score' => $score, 'correct' => $correct, 'wrong' => $wrong, 'claim' => $claim, 'counted' => $counted]);
+    // tidy up now and then: unclaimed results and runs after an hour, and the per-day
+    // address hashes after three days (as the privacy page says)
     if (random_int(1, 20) === 1) {
-        foreach (glob(data_dir() . '/pending/*.json') ?: [] as $f) if (filemtime($f) < time() - 3600) @unlink($f);
-        foreach (array_merge(glob(data_dir() . '/rate-*.json') ?: [], glob(data_dir() . '/used-*.json') ?: []) as $f) {
-            if (filemtime($f) < time() - 3 * 86400) @unlink($f);
+        foreach (array_merge(glob(data_dir() . '/pending/*.json') ?: [], glob(data_dir() . '/runs/*.json') ?: []) as $f) {
+            if (filemtime($f) < time() - 3600) @unlink($f);
         }
+        foreach (glob(data_dir() . '/rate-*.json') ?: [] as $f) if (filemtime($f) < time() - 3 * 86400) @unlink($f);
     }
     exit;
 }
@@ -274,15 +299,17 @@ if ($action === 'name') {
     });
     if ($count > RUNS_PER_DAY) fail(429, 'Na dziś to już wszystkie zapisy z tego urządzenia.');
     @unlink($path);
-    $entry = ['nick' => $nick, 'time' => $result['time'], 'wrong' => $result['wrong'], 'day' => $result['day'], 'at' => time()];
+    $entry = ['nick' => $nick, 'score' => $result['score'], 'correct' => $result['correct'], 'wrong' => $result['wrong'],
+              'day' => $result['day'], 'at' => time()];
+    // higher score first, then fewer mistakes, then whoever got there first
     $insert = function ($board) use ($entry) {
         $board[] = $entry;
-        usort($board, fn($a, $b) => [$a['time'], $a['at']] <=> [$b['time'], $b['at']]);
+        usort($board, fn($a, $b) => [-$a['score'], $a['wrong'], $a['at']] <=> [-$b['score'], $b['wrong'], $b['at']]);
         $rank = array_search($entry, $board, true) + 1;
         return [array_slice($board, 0, BOARD_SIZE), $rank <= BOARD_SIZE ? $rank : null];
     };
-    $rank = locked_update(data_dir() . '/board-' . $result['day'] . '.json', $insert);
-    $rankAll = locked_update(data_dir() . '/board-all.json', $insert);
+    $rank = locked_update(data_dir() . '/minute-' . $result['day'] . '.json', $insert);
+    $rankAll = locked_update(data_dir() . '/minute-all.json', $insert);
     echo json_encode(['rank' => $rank, 'rankAll' => $rankAll, 'today' => shown(board(today())), 'all' => shown(board('all'))],
                      JSON_UNESCAPED_UNICODE);
     exit;

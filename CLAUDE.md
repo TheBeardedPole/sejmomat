@@ -151,12 +151,14 @@ Live on sejmomat.pl:
   not come up again in the passage. Other forms of the word (Morfeusz
   generate) earn 2 points instead of 3. A day uses speeches from at least
   two days before it.
-- **"Twarze na czas"** (Sejmdle tab): 10 MP photos against the clock, with
-  daily and all-time leaderboards (nickname only). The one server-side piece:
+- **"Twarze w minutę"** (Sejmdle tab): as many MP photos named as possible
+  in 60 seconds (+1 right, −1 wrong, skipping free), with daily and all-time
+  leaderboards (nickname only). The one server-side piece:
   `server/speedrun.php`, copied by the build to `/srv/speedrun.php` (PHP on
   Hostinger). It deals the run inside an encrypted token, serves the photos
-  (so their addresses do not give the answers away), times the run itself
-  and accepts each run once; nicknames are filtered. Data (JSON files with
+  (so their addresses do not give the answers away), checks and timestamps
+  every answer (revealed only once given; none after the minute) and
+  finishes each run once; nicknames are filtered. Data (JSON files with
   locking, secret key, cached photos) goes to `domains/sejmomat.pl/speedrun-data`
   outside the web folder, or `srv/data/` (closed to the web, excluded from
   the upload's delete) if the host does not allow that. Address hashes for

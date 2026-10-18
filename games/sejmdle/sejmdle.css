@@ -265,11 +265,15 @@ body { padding-bottom: 84px; } /* so the pill never covers the last line */
 @media (max-width: 520px) { .support-pill { padding: 8px 14px; font-size: .84rem; right: 10px; bottom: 10px; } }
 @media print { .support-pill { display: none; } }
 
-/* Twarze na czas: the photo, the four names, the clock and the leaderboards. */
+/* Twarze w minutę: the photo, the four names, the countdown and the leaderboards. */
 .speed { text-align: center; }
 .speed .face { display: block; width: 220px; max-width: 70vw; height: auto; aspect-ratio: 4 / 5; object-fit: cover;
   margin: 0 auto 14px; border-radius: 14px; background: var(--line); }
-.speed-clock { font-size: 1.6rem; font-weight: 700; font-variant-numeric: tabular-nums; margin: 0 0 10px; }
+.speed-clock { font-size: 1.6rem; font-weight: 700; font-variant-numeric: tabular-nums; margin: 0 0 4px; }
+.speed-clock.ending { color: var(--red); }
+.speed-tally { margin: 0 0 10px; }
+.speed-face { min-height: 290px; display: grid; place-items: center; }
+.speed-review .skip .face { opacity: .55; }
 .speed-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; max-width: 520px; margin: 0 auto 8px; }
 .speed-options .btn { white-space: normal; }
 @media (max-width: 480px) { .speed-options { grid-template-columns: minmax(0, 1fr); } }
