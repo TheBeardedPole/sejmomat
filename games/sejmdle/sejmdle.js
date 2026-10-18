@@ -368,23 +368,23 @@ if (typeof document !== "undefined") (() => {
   const API = meta("sejmomat-api", "../api/v1/");
   const SITE = meta("sejmomat-site", "../");
   const PHOTO = (id) => `https://api.sejm.gov.pl/sejm/term10/MP/${id}/photo`;
-  const DAY = warsawDay();
-  // Daily puzzles are picked from the date plus this round number: raise
-  // ROUND to deal everyone a fresh set.
+  // One set of puzzles a day, the same for everyone, picked from the date
+  // plus this round number (raise ROUND to deal everyone a fresh set). Every
+  // day since FIRST_DAY can be played from the archive (?dzien=YYYY-MM-DD);
+  // days are numbered from it, "Sejmdle #1" being FIRST_DAY.
+  const TODAY = warsawDay();
+  const FIRST_DAY = "2026-10-01";
   const ROUND = "3";
-  // Endless mode (a testing aid): each game deals a new puzzle on demand,
-  // counted per game in this browser. Set ENDLESS_AVAILABLE to false to
-  // remove the switch and leave only the daily puzzles.
-  const ENDLESS_AVAILABLE = true;
+  const asked = new URLSearchParams(location.search).get("dzien");
+  let DAY = asked && /^\d{4}-\d{2}-\d{2}$/.test(asked) && asked >= FIRST_DAY && asked <= TODAY ? asked : TODAY;
+  const dayNumber = (day) => Math.round((Date.parse(`${day}T12:00:00Z`) - Date.parse(`${FIRST_DAY}T12:00:00Z`)) / 864e5) + 1;
   const store = {
     get: (k) => { try { return localStorage.getItem(k); } catch { return null; } },
     set: (k, v) => { try { localStorage.setItem(k, v); } catch { /* play without saving */ } },
     del: (k) => { try { localStorage.removeItem(k); } catch { /* nothing to remove */ } },
   };
-  let endless = ENDLESS_AVAILABLE && store.get("sejmdle:endless") !== "0"; // on by default while testing
-  const roundNo = (game) => Number(store.get(`sejmdle:n:${game}`)) || 1;
-  const seedFor = (game) => (endless ? `bez-konca#${roundNo(game)}` : `${DAY}#${ROUND}`);
-  const label = () => (endless ? "tryb bez końca" : DAY);
+  const seedFor = () => `${DAY}#${ROUND}`;
+  const label = () => `#${dayNumber(DAY)}`;
   let openGame = () => {};
   const MAX_GUESSES = 8, AMENDMENTS = 5;
   const VOTE_PL = { yes: "za", no: "przeciw", abstain: "wstrzymał(a) się", absent: "nie głosował(a)" };
@@ -438,15 +438,9 @@ if (typeof document !== "undefined") (() => {
     try { return JSON.parse(store.get(`sejmdle:${game}:${seedFor(game)}`) || "null"); } catch { return null; }
   };
   const save = (game, state) => store.set(`sejmdle:${game}:${seedFor(game)}`, JSON.stringify(state));
-  // Endless mode: drop the finished (or skipped) puzzle and deal the next one.
-  const nextPuzzle = (game) => {
-    store.del(`sejmdle:${game}:${seedFor(game)}`);
-    store.set(`sejmdle:n:${game}`, String(roundNo(game) + 1));
-    openGame(game);
-  };
-  const nextButton = (game, over) => endless && h("p", { className: "next" }, [h("button", {
-    className: over ? "btn primary" : "btn quiet", onclick: () => nextPuzzle(game),
-    textContent: over ? "Następna zagadka →" : "Pomiń tę zagadkę",
+  // After an archived day's puzzle: on to the next day (or back to today).
+  const nextButton = (game, over) => over && DAY < TODAY && h("p", { className: "next" }, [h("button", {
+    className: "btn primary", onclick: () => pickDay(nextDay(DAY)), textContent: `Następny dzień (#${dayNumber(nextDay(DAY))}) →`,
   })]);
   // The result to share: a line of words, rows of squares (no spoilers), and
   // the game's address, so sharing it brings people here; the #game part
@@ -468,7 +462,8 @@ if (typeof document !== "undefined") (() => {
   // The text is shown as it will be pasted, with: the system's share sheet
   // (phones, some desktop browsers), a copy button, and ready-made posts.
   const share = (game, lines) => {
-    const text = [...lines, `Zagraj: ${SHARE_URL}#${game}`].join("\n");
+    // an archived day's result links to that day's puzzles
+    const text = [...lines, `Zagraj: ${SHARE_URL}${DAY === TODAY ? "" : `?dzien=${DAY}`}#${game}`].join("\n");
     const status = h("p", { className: "muted share-status" });
     status.setAttribute("role", "status");
     const copy = async () => {
@@ -918,22 +913,31 @@ if (typeof document !== "undefined") (() => {
 
   // ---- start
   const GAMES = { posel: playPosel, przeszlo: playPrzeszlo, kim: playKim, prezydium: playPrezydium, siatka: playSiatka };
-  const today = document.getElementById("today"), mode = document.getElementById("mode");
+  const today = document.getElementById("today"), picker = document.getElementById("day-pick");
   let current = "posel";
-  const showMode = () => {
-    today.textContent = endless ? `${DAY} · tryb bez końca (testowy)` : DAY;
-    mode.hidden = !ENDLESS_AVAILABLE;
-    mode.textContent = endless ? "∞ Bez końca: włączony" : "∞ Bez końca: wyłączony";
-    mode.setAttribute("aria-pressed", String(endless));
-    mode.title = endless ? "Przełącz na zagadki dnia" : "Włącz tryb bez końca: nowe zagadki na żądanie";
+  const longDate = new Intl.DateTimeFormat("pl", { day: "numeric", month: "long", year: "numeric" });
+  const dateOf = (day) => longDate.format(new Date(`${day}T12:00:00Z`));
+  const shift = (day, n) => new Date(Date.parse(`${day}T12:00:00Z`) + n * 864e5).toISOString().slice(0, 10);
+  const nextDay = (day) => shift(day, 1);
+  // the archive: every day from today back to FIRST_DAY, newest first
+  for (let d = TODAY; d >= FIRST_DAY; d = shift(d, -1)) {
+    picker.append(h("option", { value: d, textContent: `#${dayNumber(d)} · ${dateOf(d)}${d === TODAY ? " (dziś)" : ""}` }));
+  }
+  const showDay = () => {
+    today.textContent = `Sejmdle #${dayNumber(DAY)} · ${dateOf(DAY)}${DAY === TODAY ? "" : " · z archiwum"}`;
+    picker.value = DAY;
   };
-  mode.addEventListener("click", () => {
-    endless = !endless;
-    store.set("sejmdle:endless", endless ? "1" : "0");
-    showMode();
+  const pickDay = (day) => {
+    DAY = day;
+    const url = new URL(location.href);
+    if (day === TODAY) url.searchParams.delete("dzien"); else url.searchParams.set("dzien", day);
+    history.replaceState(null, "", url);
+    showDay();
     openGame(current);
-  });
-  showMode();
+    window.scrollTo({ top: 0 });
+  };
+  picker.addEventListener("change", () => pickDay(picker.value));
+  showDay();
   document.getElementById("site-link").href = SITE;
   fetch(`${API}games.json`).then((r) => {
     if (!r.ok) throw new Error(r.status);
@@ -948,7 +952,7 @@ if (typeof document !== "undefined") (() => {
       current = game;
       tabs.forEach((t) => t.setAttribute("aria-selected", String(t.dataset.game === game)));
       GAMES[game](data);
-      history.replaceState(null, "", `#${game}`);
+      history.replaceState(null, "", `${location.search}#${game}`);
     };
     openGame = open;
     tabs.forEach((t) => t.addEventListener("click", () => open(t.dataset.game)));

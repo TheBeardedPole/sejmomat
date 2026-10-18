@@ -8,7 +8,7 @@ Each day gets posts/<date>/: the images, and posts.txt with a caption and
 an image description (alt text) for each. The folder is not in git and not
 on the site. What a day holds:
 
-- "MPs from A to Z" (#SejmOdADoŻ): every MP serving when the series started, by surname,
+- "MPs from A to Z" (#SejmOdADoZ, also on the images): every MP serving when the series started, by surname,
   one on one day and two on the next (about 1.5 a day, so the series ends
   well before the end of the term). The order is fixed in
   data/posts_order.json, so it never shifts; an MP who has left the Sejm by
@@ -99,7 +99,7 @@ def _fit(lines, tail):
 
 
 def mp_post(r, place, total):
-    from .card import pct, terms_label
+    from .card import SERIES_TAG, pct, terms_label
     from .social import club_short
     mp, sp, q = r["mp"], r.get("speeches") or {}, r.get("q_stats") or {}
     who = ", ".join(x for x in (club_short(mp.get("club") or ""), mp.get("districtName") and f"okręg {mp['districtName']}") if x)
@@ -110,7 +110,7 @@ def mp_post(r, place, total):
              f"↔️ wyłamania z linii klubu: {r['rebel_count']}",
              f"🎤 wystąpienia na sali: {speeches}",
              f"❓ interpelacje i zapytania: {questions}"]
-    caption = _fit(lines, f"#SejmOdADoŻ {place}/{total} → {SITE}posel/{mp['id']}.html")
+    caption = _fit(lines, f"{SERIES_TAG} {place}/{total} → {SITE}posel/{mp['id']}.html")
     alt = (f"Podsumowanie kadencji: {mp['firstLastName']}, {who}, {terms_label(r['terms'])} w Sejmie. Udział w głosowaniach {pct(r['turnout'])} "
            f"({r['cast']} z {r['eligible']}), opuszczonych głosowań {r['eligible'] - r['cast']}, wyłamań z linii klubu "
            f"{r['rebel_count']}, wystąpień {speeches}, interpelacji i zapytań {questions}. sejmomat.pl")
@@ -149,7 +149,7 @@ def minister_post(t, deadline):
 
 def make(days):
     from .build import build_context
-    from .card import club_labels, club_term, minister, mp_term, render
+    from .card import SERIES_TAG, club_labels, club_term, minister, mp_term, render
     from .social import summary_post
     ctx = build_context()
     rows = {r["mp"]["id"]: r for r in ctx["mp_rows"]}
@@ -173,7 +173,7 @@ def make(days):
             if not r or not r["mp"].get("active"):
                 continue  # left the Sejm since the series began
             caption, alt = mp_post(r, place, len(ids))
-            posts.append((f"posel-{place:03d}-{mp_id}", mp_term(r, photo(mp_id)), caption, alt))
+            posts.append((f"posel-{place:03d}-{mp_id}", mp_term(r, photo(mp_id), tag=SERIES_TAG), caption, alt))
         if club:
             caption, alt = club_post(club, label(club["id"]), ctx["by_proposer"].get(club["id"], []))
             posts.append((f"klub-{club['slug']}", club_term(club, ctx["by_proposer"].get(club["id"], []), label), caption, alt))

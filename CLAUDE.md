@@ -133,7 +133,16 @@ Live on sejmomat.pl:
   them only from the III term (1997), so counts are "od 1997" where the
   record reaches back that far. Social media images carry the white
   wordmark (`static/logo-white.png`, made by `brand/make.py`) in the footer;
-  MP posts use #SejmOdADoŻ and emoji bullets.
+  MP posts use #SejmOdADoZ (also on their images) and emoji bullets; terms
+  are spelt out ("szósta kadencja").
+
+- **Sejmdle is daily:** the endless test mode is gone; one set of puzzles
+  a day, numbered from 1 October 2026 (#1), and an archive picker
+  (`?dzien=YYYY-MM-DD`) to play any earlier day; shared results link to
+  their day. Past puzzles are drawn from today's data, so a day's puzzle
+  can shift slightly as data grows.
+- **Upload retries:** the deploy step tries rsync three times, a minute
+  apart (the host's SSH times out now and then).
 
 Waiting on the owner:
 

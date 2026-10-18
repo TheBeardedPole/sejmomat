@@ -19,7 +19,7 @@
 {% if r.history | length > 1 %} · {{ _("w tej kadencji w klubach") }}: {{ r.history | map(attribute="club") | join(" → ") }}{% endif %}
 {% if not r.mp.active %} · {{ _("mandat wygasły") }}{% endif %}</p>
 <p class="muted" title="{{ _('Kadencje') }}: {{ r.terms | map('roman') | join(', ') }}">
-  {% if r.terms | length == 1 %}{{ _("Pierwsza kadencja w Sejmie") }}{% else %}{{ r.terms | length }}. {{ _("kadencja w Sejmie") }} ({{ r.terms | map("roman") | join(", ") }}){% endif %}
+  {% if r.terms | length == 1 %}{{ _("Pierwsza kadencja w Sejmie") }}{% else %}{{ (r.terms | length) | ordinal | cap }} {{ _("kadencja w Sejmie") }} ({{ r.terms | map("roman") | join(", ") }}){% endif %}
   <span class="note">· {{ _("liczone od III kadencji (1997); API Sejmu nie ma danych o wcześniejszych") }}</span></p>
   </div>
 </div>

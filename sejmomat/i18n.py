@@ -8,6 +8,9 @@ from datetime import datetime
 
 LANGS = ("pl", "en")
 
+# a term's place in an MP's career, as a word ("szósta kadencja"): reads more easily than "6."
+ORDINALS = ["pierwsza", "druga", "trzecia", "czwarta", "piąta", "szósta", "siódma", "ósma", "dziewiąta", "dziesiąta"]
+
 MONTHS = {
     "pl": ["stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca",
            "sierpnia", "września", "października", "listopada", "grudnia"],

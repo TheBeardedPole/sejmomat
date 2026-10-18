@@ -40,10 +40,9 @@ header { text-align: center; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tabs button[aria-selected="true"] { color: #0d1b2e; } }
 :root[data-theme="dark"] .tabs button[aria-selected="true"] { color: #0d1b2e; }
 
-/* Endless mode switch (testing aid). */
-.mode { font: inherit; font-size: .85rem; font-weight: 600; padding: 5px 12px; border-radius: 99px; cursor: pointer;
-  border: 1px dashed var(--line); background: none; color: var(--muted); }
-.mode[aria-pressed="true"] { border-style: solid; border-color: var(--accent); color: var(--accent); }
+/* The archive: a day to play instead of today's. */
+.archive { font-size: .9rem; color: var(--muted); }
+.archive select { font: inherit; padding: 4px 8px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--text); }
 header p { margin: 0 0 14px; }
 
 .lead { font-size: 1.35rem; font-weight: 700; margin: 0 0 10px; text-align: center; }

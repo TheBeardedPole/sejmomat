@@ -12,7 +12,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from . import agenda, analysis, authors, committees, questions, social, speeches
 from .stamp import stamp
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
-from .i18n import LANGS, date_fmt, pct_fmt, translator
+from .i18n import LANGS, date_fmt, pct_fmt, translator, ORDINALS
 from .acts import bill_changes
 from .api_out import write_api
 from .model import anchor, law_source, load, print_meta, print_paragraphs, print_text, print_too_big, source_items
@@ -760,6 +760,9 @@ def _env(lang):
     env.filters["groupby_consecutive"] = groupby_consecutive
     # Proposer labels are data, except these two.
     env.filters["roman"] = roman
+    # "szósta kadencja" / "6th term"
+    env.filters["ordinal"] = (lambda n: ORDINALS[n - 1] if n <= len(ORDINALS) else f"{n}.") if lang == "pl" else \
+        (lambda n: ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth"][n - 1] if n <= 10 else f"{n}th")
     env.filters["cap"] = lambda s: s[:1].upper() + s[1:] if s else s   # "minister zdrowia" -> "Minister zdrowia"
     env.filters["who"] = lambda name: t(name) if name in ("Senat", "(nieustalony)") else name
     env.globals.update(
@@ -770,7 +773,7 @@ def _env(lang):
         print_url=print_url, pdf_url=pdf_url, act_url=act_url, TERM=TERM,
         post_weight=social.weight, POST_LIMIT=social.LIMIT, CARD_DIR=social.CARD_DIR,
         static_version=static_version, club_short=social.club_short, transcript_url=committees.transcript_url,
-        QUESTIONS_SHOWN=QUESTIONS_SHOWN, GA_ID=GA_ID,
+        QUESTIONS_SHOWN=QUESTIONS_SHOWN, GA_ID=GA_ID, POLISH_ORDINALS=ORDINALS,
     )
     return env, t
 

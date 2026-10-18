@@ -13,7 +13,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-from .i18n import date_fmt
+from .i18n import ORDINALS, date_fmt
 from .config import SITE_URL, TERM
 from .social import CARD_DIR, LINE_LABELS, PROPOSER_ROWS, club_short, short_title
 
@@ -369,15 +369,18 @@ def chips(img, d, y, heading, words):
     return ty + 14 + GAP
 
 
+SERIES_TAG = "#SejmOdADoZ"   # the A-to-Z series of MP posts (sejmomat/posts.py)
+
+
 def terms_label(terms):
-    """"pierwsza kadencja", "6. kadencja", or "8. kadencja od 1997" when the
-    record reaches back to the oldest term the API has (there may be earlier ones)."""
-    if len(terms) == 1:
-        return "pierwsza kadencja"
-    return f"{len(terms)}. kadencja" + (" od 1997" if min(terms) <= 3 else "")
+    """"pierwsza kadencja", "szósta kadencja", or "ósma kadencja od 1997" when
+    the record reaches back to the oldest term the API has (there may be earlier ones)."""
+    n = len(terms)
+    word = ORDINALS[n - 1] if n <= len(ORDINALS) else f"{n}."
+    return f"{word} kadencja" + (" od 1997" if n > 1 and min(terms) <= 3 else "")
 
 
-def mp_term(r, photo=None):
+def mp_term(r, photo=None, tag=None):
     """An MP's term: turnout, missed votes, breaks of the club line, speeches,
     questions to the government, amendments signed, characteristic words."""
     img = Image.new("RGB", (W, 3000), BG)
@@ -385,7 +388,13 @@ def mp_term(r, photo=None):
     mp, sp, q = r["mp"], r.get("speeches") or {}, r.get("q_stats") or {}
     subtitle = " · ".join(x for x in (club_short(mp.get("club") or ""), mp.get("districtName") and f"okręg {mp['districtName']}",
                                       r.get("terms") and terms_label(r["terms"])) if x)
-    y = header(d, "PODSUMOWANIE KADENCJI · POSEŁ NA SEJM", mp["firstLastName"], subtitle, photo, img)
+    kicker = "PODSUMOWANIE KADENCJI · POSEŁ NA SEJM"
+    y = header(d, kicker, mp["firstLastName"], subtitle, photo, img)
+    if tag:
+        # the series' hashtag after the kicker, in the site's blue
+        x = PAD + font("bold", 24).getlength(kicker)
+        d.text((x, PAD - 8), " · ", font=font("bold", 24), fill=MUTED)
+        d.text((x + font("bold", 24).getlength(" · "), PAD - 8), tag, font=font("bold", 24), fill=FOOT_BG)
     missed = r["eligible"] - r["cast"]
     rows = [(pct(r["turnout"]), f"udział w głosowaniach ({r['cast']} z {r['eligible']})", TEXT),
             (missed, "opuszczonych głosowań", ABSTAIN if missed else TEXT),
