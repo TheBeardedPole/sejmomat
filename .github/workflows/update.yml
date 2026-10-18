@@ -107,6 +107,12 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL }}
         run: |
           source .github/ssh-setup.sh
-          rsync --recursive --links --checksum --compress --delete --delete-after \
-            --exclude '.well-known/' --stats --human-readable \
-            -e "$RSYNC_SSH" site/ "$SSH_TARGET:$SSH_DIR"
+          # the host's SSH sometimes times out for a while: try three times, a minute apart
+          for attempt in 1 2 3; do
+            rsync --recursive --links --checksum --compress --delete --delete-after \
+              --exclude '.well-known/' --stats --human-readable \
+              -e "$RSYNC_SSH" site/ "$SSH_TARGET:$SSH_DIR" && exit 0
+            echo "upload attempt $attempt failed"
+            [ "$attempt" -lt 3 ] && sleep 60
+          done
+          exit 1
