@@ -19,6 +19,8 @@ on the site. What a day holds:
 - the morning after a voting day, that day's summary (as on podsumowania.html).
 
 Every figure comes straight from the data, drawn on the day it is made.
+Captions carry no links (the services show posts with links to fewer
+people); the images name sejmomat.pl in their footer.
 Run it after `git pull`, so data/ has the latest votes.
 """
 import json
@@ -27,12 +29,11 @@ import urllib.request
 from datetime import date, timedelta
 from pathlib import Path
 
-from .config import CACHE, DATA, SITE_URL, TERM
+from .config import CACHE, DATA, TERM
 
 START = date(2026, 10, 18)   # the first day of the series
 ORDER = DATA / "posts_order.json"
 OUT = Path(__file__).resolve().parent.parent / "posts"
-SITE = SITE_URL or "https://sejmomat.pl/"
 CLUB_DAY, MINISTER_DAY = 3, 6   # days of the series' week (0-6)
 MIN_QUESTIONS = 100   # ministers with fewer questions are not featured
 _ALPHABET = "aąbcćdeęfghijklłmnńoóprsśtuvwxyzźż"
@@ -110,7 +111,7 @@ def mp_post(r, place, total):
              f"↔️ wyłamania z linii klubu: {r['rebel_count']}",
              f"🎤 wystąpienia na sali: {speeches}",
              f"❓ interpelacje i zapytania: {questions}"]
-    caption = _fit(lines, f"{SERIES_TAG} {place}/{total} → {SITE}posel/{mp['id']}.html")
+    caption = _fit(lines, f"{SERIES_TAG} {place}/{total}")
     alt = (f"Podsumowanie kadencji: {mp['firstLastName']}, {who}, {terms_label(r['terms'])} w Sejmie. Udział w głosowaniach {pct(r['turnout'])} "
            f"({r['cast']} z {r['eligible']}), opuszczonych głosowań {r['eligible'] - r['cast']}, wyłamań z linii klubu "
            f"{r['rebel_count']}, wystąpień {speeches}, interpelacji i zapytań {questions}. sejmomat.pl")
@@ -126,7 +127,7 @@ def club_post(c, label, proposed):
              f"🏆 skuteczność (wygrane głosowania): {pct(c['effectiveness'])}",
              f"🎤 wystąpienia na sali: {(sp.get('spoken') or 0) + (sp.get('written') or 0)}",
              f"✏️ poprawki i wnioski, które przeszły: {adopted} z {len(proposed)}"]
-    caption = _fit(lines, f"#Sejm → {SITE}klub/{c['slug']}.html")
+    caption = _fit(lines, "#Sejm")
     alt = (f"Podsumowanie kadencji klubu {label}: spójność {pct(c['cohesion'])}, skuteczność {pct(c['effectiveness'])}, "
            f"z {len(proposed)} zgłoszonych poprawek i wniosków przeszło {adopted}, oraz kluby, z którymi głosuje najczęściej. sejmomat.pl")
     return caption, alt
@@ -140,7 +141,7 @@ def minister_post(t, deadline):
              f"⏱️ typowy czas odpowiedzi: {t['median']} dni (termin: {deadline})" if t["median"] is not None else "",
              f"⚠️ odpowiedzi po terminie: {t['late']}",
              f"🚫 bez odpowiedzi po terminie: {t['overdue']}"]
-    caption = _fit([l for l in lines if l], f"#Sejm #interpelacje → {SITE}interpelacje.html")
+    caption = _fit([l for l in lines if l], "#Sejm #interpelacje")
     alt = (f"Jak {name} odpowiada na interpelacje i zapytania poselskie: {t['received']} pytań, "
            f"{pct(t['answered'] / (t['received'] or 1))} z odpowiedzią, mediana {t['median']} dni, "
            f"{t['late']} odpowiedzi po terminie, {t['prolonged']} przedłużeń, {t['overdue']} bez odpowiedzi po terminie. sejmomat.pl")
@@ -165,9 +166,8 @@ def make(days):
         yesterday = (day - timedelta(days=1)).isoformat()
         if yesterday in summaries:
             s = summaries[yesterday]
-            # outside CI the site's address is not set, so the link is relative
-            caption = s["caption"] if s["url"].startswith("http") else s["caption"].replace(s["url"], SITE + s["url"])
-            posts.append(("podsumowanie-dnia", render(s), caption, s["alt"]))
+            # the headline without the link (see the module's note on links)
+            posts.append(("podsumowanie-dnia", render(s), s["caption"].split("\n\n")[0], s["alt"]))
         for mp_id, place in mps:
             r = rows.get(mp_id)
             if not r or not r["mp"].get("active"):

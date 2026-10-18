@@ -134,7 +134,9 @@ Live on sejmomat.pl:
   record reaches back that far. Social media images carry the white
   wordmark (`static/logo-white.png`, made by `brand/make.py`) in the footer;
   MP posts use #SejmOdADoZ (also on their images) and emoji bullets; terms
-  are spelt out ("szósta kadencja").
+  are spelt out ("szósta kadencja"). Post captions carry no links, not even
+  the bare domain (the owner's rule: links cut reach); the images name
+  sejmomat.pl in their footer.
 
 - **Sejmdle is daily:** the endless test mode is gone; one set of puzzles
   a day, numbered from 1 October 2026 (#1), and an archive picker
