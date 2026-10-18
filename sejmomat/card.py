@@ -72,17 +72,30 @@ def _tiles(s):
     return [r for r in rows if r[0]]
 
 
-def header(d, kicker, title, subtitle):
-    """Kicker, title and subtitle at the top; returns where the content starts."""
+def header(d, kicker, title, subtitle, photo=None, img=None):
+    """Kicker, title and subtitle at the top, and an MP's photo on the right
+    when given (pasted into `img`); returns where the content starts."""
+    photo_w = 150 if photo else 0
+    room = W - 2 * PAD - (photo_w + 32 if photo else 0)
     y = PAD - 8
     d.text((PAD, y), kicker, font=font("bold", 24), fill=MUTED)
     y += 40
-    for line in wrap(title, font("bold", 68), W - 2 * PAD, max_lines=2):
+    for line in wrap(title, font("bold", 68), room, max_lines=2):
         d.text((PAD, y), line, font=font("bold", 68), fill=TEXT)
         y += 92
-    for line in wrap(subtitle, font("regular", 30), W - 2 * PAD, max_lines=3):
+    for line in wrap(subtitle, font("regular", 30), room, max_lines=3):
         d.text((PAD, y), line, font=font("regular", 30), fill=MUTED)
         y += 42
+    if photo:
+        h = round(photo_w * 1.25)
+        # cover the box, keeping the photo's proportions, with rounded corners
+        scale = max(photo_w / photo.width, h / photo.height)
+        pic = photo.convert("RGB").resize((round(photo.width * scale), round(photo.height * scale)))
+        pic = pic.crop(((pic.width - photo_w) // 2, 0, (pic.width - photo_w) // 2 + photo_w, h))
+        mask = Image.new("L", (photo_w, h), 0)
+        ImageDraw.Draw(mask).rounded_rectangle((0, 0, photo_w - 1, h - 1), 18, fill=255)
+        img.paste(pic, (W - PAD - photo_w, PAD), mask)
+        y = max(y, PAD + h + 8)
     return y + 22
 
 
@@ -290,17 +303,18 @@ def club_sitting(c, votes, label):
     return footer(img, ty + 40 + 18 + GAP)
 
 
+def club_labels(club_rows):
+    """A club's short name, or its id where two share one (Polska2050 and
+    Polska2050-TD are both "Polska 2050")."""
+    shorts = Counter(club_short(c["id"]) for c in club_rows)
+    return lambda club: club_short(club) if shorts[club_short(club)] < 2 else club.replace("_", " ")
+
+
 def write_club_cards(club_rows, by_proposer, sittings, site):
     """Write CLUB_DIR/<slug>-kadencja.png and -posiedzenie.png for every club
     and note them in the club's row as "cards": [(label, address in the site)]."""
     (site / CLUB_DIR).mkdir(parents=True, exist_ok=True)
-    # a club's short name, or its id where two share one (Polska2050 and
-    # Polska2050-TD are both "Polska 2050")
-    shorts = Counter(club_short(c["id"]) for c in club_rows)
-
-    def label(club):
-        return club_short(club) if shorts[club_short(club)] < 2 else club.replace("_", " ")
-
+    label = club_labels(club_rows)
     for c in club_rows:
         made = [("kadencja", club_term(c, by_proposer.get(c["id"], []), label))]
         if c["sittings"]:
@@ -310,3 +324,69 @@ def write_club_cards(club_rows, by_proposer, sittings, site):
             path = f"{CLUB_DIR}/{c['slug']}-{suffix}.png"
             img.save(site / path, optimize=True)
             c["cards"].append((dict(CLUB_CARDS)[suffix], path))
+
+
+# ------------------------------------------------------------- MPs and ministers
+# (an MP's card is also drawn in the browser, static/card.js, in the same layout)
+
+def chips(img, d, y, heading, words):
+    """Words as chips in a panel, as many rows as they need; returns the y below."""
+    x0, width, f = PAD + 28, W - 2 * PAD - 56, font("regular", 28)
+    rows, rx = [[]], 0
+    for w in words:
+        cw = f.getlength(w) + 36
+        if rx + cw > width and rows[-1]:
+            rows.append([])
+            rx = 0
+        rows[-1].append((w, rx, cw))
+        rx += cw + 12
+    d.rounded_rectangle((PAD, y, W - PAD, y + 28 + 44 + len(rows) * 58 + 14), 18, fill=SURFACE, outline=LINE, width=2)
+    ty = y + 28
+    d.text((x0, ty), heading, font=font("bold", 22), fill=MUTED)
+    ty += 44
+    for row in rows:
+        for w, rx2, cw in row:
+            d.rounded_rectangle((x0 + rx2, ty, x0 + rx2 + cw, ty + 46), 23, fill=BG, outline=LINE, width=2)
+            d.text((x0 + rx2 + 18, ty + 7), w, font=f, fill=TEXT)
+        ty += 58
+    return ty + 14 + GAP
+
+
+def mp_term(r, photo=None):
+    """An MP's term: turnout, missed votes, breaks of the club line, speeches,
+    questions to the government, amendments signed, characteristic words."""
+    img = Image.new("RGB", (W, 3000), BG)
+    d = ImageDraw.Draw(img)
+    mp, sp, q = r["mp"], r.get("speeches") or {}, r.get("q_stats") or {}
+    subtitle = " · ".join(x for x in (club_short(mp.get("club") or ""), mp.get("districtName") and f"okręg {mp['districtName']}") if x)
+    y = header(d, "PODSUMOWANIE KADENCJI · POSEŁ NA SEJM", mp["firstLastName"], subtitle, photo, img)
+    missed = r["eligible"] - r["cast"]
+    rows = [(pct(r["turnout"]), f"udział w głosowaniach ({r['cast']} z {r['eligible']})", TEXT),
+            (missed, "opuszczonych głosowań", ABSTAIN if missed else TEXT),
+            (r["rebel_count"], f"wyłamań z linii klubu ({pct(r['rebel_rate'])})", NO if r["rebel_count"] else TEXT),
+            ((sp.get("spoken") or 0) + (sp.get("written") or 0), "wystąpień na sali plenarnej", TEXT),
+            (q.get("int", 0) + q.get("zap", 0), "interpelacji i zapytań poselskich", TEXT)]
+    if r["signed"]:
+        rows.append((f"{r['signed_adopted']}/{len(r['signed'])}", "podpisanych poprawek i wniosków przyjętych", YES))
+    y = tiles(d, y, rows)
+    words = [w for w, _, _ in sorted(sp.get("cloud") or [], key=lambda c: -c[1])][:12]
+    if words:
+        y = chips(img, d, y, "CHARAKTERYSTYCZNE SŁOWA W WYSTĄPIENIACH", words)
+    return footer(img, y)
+
+
+def minister(t, deadline):
+    """How a minister answers MPs' interpellations and written questions."""
+    img = Image.new("RGB", (W, 3000), BG)
+    d = ImageDraw.Draw(img)
+    name = t["name"][:1].upper() + t["name"][1:]
+    y = header(d, f"JAK ODPOWIADA RZĄD · {TERM}. KADENCJA SEJMU", name,
+               f"Interpelacje i zapytania poselskie; na odpowiedź minister ma {deadline} dni")
+    received = t["received"] or 1
+    y = tiles(d, y, [(t["received"], "pytań od posłów", TEXT),
+                     (pct(t["answered"] / received), "z odpowiedzią", YES),
+                     (f"{t['median']} dni" if t["median"] is not None else "—", "typowy czas odpowiedzi (mediana)", TEXT),
+                     (t["late"], "odpowiedzi po terminie", ABSTAIN if t["late"] else TEXT),
+                     (t["prolonged"], "razy przedłużono termin", TEXT),
+                     (t["overdue"], "pytań bez odpowiedzi po terminie", NO if t["overdue"] else TEXT)])
+    return footer(img, y)

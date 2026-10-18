@@ -146,6 +146,7 @@
       [t.missed, "opuszczonych głosowań", t.missed ? ABSTAIN : TEXT],
       [t.rebels, `wyłamań z linii klubu (${pct(t.rebelRate)})`, t.rebels ? NO : TEXT],
       [t.speeches, "wystąpień na sali plenarnej", TEXT],
+      [t.questions, "interpelacji i zapytań poselskich", TEXT],
       ...(t.signed ? [[`${t.signedAdopted}/${t.signed}`, "podpisanych poprawek i wniosków przyjętych", YES]] : []),
     ].filter(([n]) => n !== undefined));
     if (data.words.length) {
