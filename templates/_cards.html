@@ -60,7 +60,7 @@
   "photo": "https://api.sejm.gov.pl/sejm/term" ~ TERM ~ "/MP/" ~ r.mp.id ~ "/photo",
   "term": {"turnout": r.turnout, "cast": r.cast, "eligible": r.eligible, "missed": r.eligible - r.cast,
            "rebels": r.rebel_count, "rebelRate": r.rebel_rate, "speeches": sp.spoken + sp.written, "questions": r.questions | length,
-           "signed": r.signed | length, "signedAdopted": r.signed_adopted},
+           "signed": r.signed | length, "signedAdopted": r.signed_adopted, "top": r.standing},
   "words": (sp.cloud | sort(attribute="1", reverse=true) | map(attribute="0") | list)[:12],
   "sitting": {"sitting": x.sitting, "first": sittings[x.sitting][0].date, "last": sittings[x.sitting][-1].date,
               "total": x.total, "Y": x.Y, "N": x.N, "A": x.A, "X": x.X, "rebel": x.rebel} if x else none,

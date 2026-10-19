@@ -101,12 +101,24 @@ def header(d, kicker, title, subtitle, photo=None, img=None):
 
 
 def tiles(d, y, rows):
-    """Figures as tiles, three to a row: [(number, label, colour)]; returns the y below them."""
+    """Figures as tiles, three to a row: [(number, label, colour)], or with a
+    fourth item, a tier N for a "TOP N%" badge; returns the y below them."""
     tile_w, tile_h = (W - 2 * PAD - 2 * GAP) // 3, 172
-    for i, (number, label, color) in enumerate(rows):
+    for i, (number, label, color, *badge) in enumerate(rows):
         x, ty = PAD + (i % 3) * (tile_w + GAP), y + (i // 3) * (tile_h + GAP)
         d.rounded_rectangle((x, ty, x + tile_w, ty + tile_h), 18, fill=SURFACE, outline=LINE, width=2)
-        d.text((x + 24, ty + 12), str(number), font=font("bold", 60), fill=color)
+        size = 60
+        if badge and badge[0]:
+            # a pill in the top right corner, in the site's blue; a number too
+            # wide to sit beside it ("100,0%") is set smaller
+            f, text = font("bold", 22), f"TOP {badge[0]}%"
+            bw = round(f.getlength(text)) + 28
+            while size > 40 and font("bold", size).getlength(str(number)) > tile_w - 24 - 20 - bw - 12:
+                size -= 2
+            d.rounded_rectangle((x + tile_w - 20 - bw, ty + 22, x + tile_w - 20, ty + 58), 18, fill=FOOT_BG)
+            d.text((x + tile_w - 20 - bw / 2, ty + 40), text, font=f, fill=FOOT_TEXT, anchor="mm")
+        # the number's baseline stays where a 60-pixel one has it
+        d.text((x + 24, ty + 12 + font("bold", 60).getmetrics()[0]), str(number), font=font("bold", size), fill=color, anchor="ls")
         for k, line in enumerate(wrap(label, font("regular", 24), tile_w - 48, max_lines=2)):
             d.text((x + 24, ty + 94 + k * 31), line, font=font("regular", 24), fill=MUTED)
     return y + -(-len(rows) // 3) * (tile_h + GAP) + GAP
@@ -369,6 +381,9 @@ def chips(img, d, y, heading, words):
     return ty + 14 + GAP
 
 
+# under an MP's tiles when any carries a "TOP N%" badge (sejmomat/build.py, mp_standing)
+STANDING_NOTE = "TOP N% – w gronie N% obecnych posłów z najwyższym wynikiem"
+
 SERIES_TAG = "#SejmOdADoZ"   # the A-to-Z series of MP posts (sejmomat/posts.py)
 
 
@@ -395,16 +410,19 @@ def mp_term(r, photo=None, tag=None):
         x = PAD + font("bold", 24).getlength(kicker)
         d.text((x, PAD - 8), " · ", font=font("bold", 24), fill=MUTED)
         d.text((x + font("bold", 24).getlength(" · "), PAD - 8), tag, font=font("bold", 24), fill=FOOT_BG)
-    missed = r["eligible"] - r["cast"]
-    rows = [(pct(r["turnout"]), f"udział w głosowaniach ({r['cast']} z {r['eligible']})", TEXT),
+    missed, top = r["eligible"] - r["cast"], r.get("standing") or {}
+    rows = [(pct(r["turnout"]), f"udział w głosowaniach ({r['cast']} z {r['eligible']})", TEXT, top.get("turnout")),
             (missed, "opuszczonych głosowań", ABSTAIN if missed else TEXT),
             (r["rebel_count"], f"wyłamań z linii klubu ({pct(r['rebel_rate'])})", NO if r["rebel_count"] else TEXT),
-            ((sp.get("spoken") or 0) + (sp.get("written") or 0), "wystąpień na sali plenarnej", TEXT),
-            (q.get("int", 0) + q.get("zap", 0), "interpelacji i zapytań poselskich", TEXT)]
+            ((sp.get("spoken") or 0) + (sp.get("written") or 0), "wystąpień na sali plenarnej", TEXT, top.get("speeches")),
+            (q.get("int", 0) + q.get("zap", 0), "interpelacji i zapytań poselskich", TEXT, top.get("questions"))]
     if r["signed"]:
         # neutral colour: whether amendments pass says more about the majority than about the MP
         rows.append((f"{r['signed_adopted']} z {len(r['signed'])}", "podpisanych poprawek i wniosków przeszło", TEXT))
     y = tiles(d, y, rows)
+    if top:
+        d.text((PAD, y - 6), STANDING_NOTE, font=font("regular", 22), fill=MUTED)
+        y += 34
     words = [w for w, _, _ in sorted(sp.get("cloud") or [], key=lambda c: -c[1])][:12]
     if words:
         y = chips(img, d, y, "CHARAKTERYSTYCZNE SŁOWA W WYSTĄPIENIACH", words)

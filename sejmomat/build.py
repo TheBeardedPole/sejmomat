@@ -316,6 +316,7 @@ def build_context():
             "count": len(items), "others": sum(1 for x in items if not x["mp"]),
             "by_club": Counter(x["club"] for x in items if x["mp"]).most_common()}
     questions_summary = build_questions(mp_rows, club_rows, club_at)
+    mp_standing(mp_rows)
     all_amendments = [v for v in sorted(by_id.values(), key=lambda v: (v["date"], v["votingNumber"]), reverse=True)
                       if v["amendments"]]
 
@@ -514,6 +515,32 @@ def club_slug(club):
 
 ANSWER_DAYS = 21   # a minister's deadline for answering an interpellation or a written question
 QUESTIONS_SHOWN = 100   # on an MP's page; the rest load on request
+
+
+STANDING_TIERS = (1, 5, 10, 20)   # "TOP 1%" … "TOP 20%" on the MP cards
+
+
+def mp_standing(mp_rows):
+    """Where an MP stands among the sitting MPs on turnout, speeches and
+    questions: r["standing"] = {measure: 1, 5, 10 or 20} for the smallest
+    "top N%" the MP is in. Ties count against the MP (30 MPs at 100% turnout
+    are each in the top 30/460, not the top 1/460), so no tier overstates."""
+    pool = [r for r in mp_rows if r["mp"].get("active")]
+    measures = {"turnout": lambda r: r["turnout"],
+                "speeches": lambda r: (r["speeches"].get("spoken") or 0) + (r["speeches"].get("written") or 0),
+                "questions": lambda r: len(r["questions"])}
+    for r in mp_rows:
+        r["standing"] = {}
+    for name, value in measures.items():
+        values = [value(r) for r in pool]
+        for r in mp_rows:
+            v = value(r)
+            if not v or not values:
+                continue
+            share = sum(1 for x in values if x >= v) / len(values)
+            tier = next((t for t in STANDING_TIERS if share <= t / 100), None)
+            if tier:
+                r["standing"][name] = tier
 
 
 def build_questions(mp_rows, club_rows, club_at):
