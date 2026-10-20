@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 22 * * *"   # after evening voting blocks
     - cron: "30 5 * * *"   # catch late corrections
+    # every hour on sitting days, while the Sejm sits (sejmomat/sitting_days.py,
+    # HOURLY_HOURS); off the top of the hour, when GitHub's scheduler is busiest
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       fetch:
@@ -19,8 +22,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Scheduled runs only do work on Sejm sitting days and two days after,
-  # and not before PAUSE_SCHEDULED_UNTIL if set; a manual run always goes ahead.
+  # Scheduled runs only do work on Sejm sitting days and two days after (the
+  # hourly one only on sitting days themselves), and not before
+  # PAUSE_SCHEDULED_UNTIL if set; a manual run always goes ahead.
   check:
     runs-on: ubuntu-latest
     outputs:
@@ -36,6 +40,8 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "17 * * * *" ]; then
+            echo "run=$(python3 -m sejmomat.sitting_days hourly)" >> "$GITHUB_OUTPUT"
           else
             echo "run=$(python3 -m sejmomat.sitting_days)" >> "$GITHUB_OUTPUT"
           fi
