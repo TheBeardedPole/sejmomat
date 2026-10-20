@@ -119,7 +119,7 @@ def mp_post(r, place, total):
              f"❓ interpelacje i zapytania: {questions}{top('questions')}"]
     caption = _fit(lines, f"{SERIES_TAG} {place}/{total}")
     alt = (f"Podsumowanie kadencji: {mp['firstLastName']}, {who}, {terms_label(r['terms'])} w Sejmie. Udział w głosowaniach {pct(r['turnout'])} "
-           f"({r['cast']} z {r['eligible']}){top('turnout')}, opuszczonych głosowań {r['eligible'] - r['cast']}, wyłamań z linii klubu "
+           f"({r['cast']} z {r['eligible']}{'; TOP ' + str(standing['turnout']) + '%' if 'turnout' in standing else ''}), opuszczonych głosowań {r['eligible'] - r['cast']}, wyłamań z linii klubu "
            f"{r['rebel_count']}, wystąpień {speeches}{top('speeches')}, interpelacji i zapytań {questions}{top('questions')}. sejmomat.pl")
     return caption, alt
 
