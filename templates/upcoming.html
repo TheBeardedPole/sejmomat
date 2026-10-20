@@ -1,18 +1,12 @@
 {% extends "base.html" %}
 {% from "_macros.html" import print_link %}
+{% from "_cards.html" import live_box with context %}
 {% set u = upcoming %}
 {% macro when(dates) %}{{ dates[0] | date_pl }}{% if dates[-1] != dates[0] %} – {{ dates[-1] | date_pl }}{% endif %}{% endmacro %}
 {% block title %}{% if u and u.under_way %}{{ _("Trwające posiedzenie") }}{% else %}{{ _("Nadchodzące posiedzenie") }}{% endif %}{% if u %}: {{ sitting_name(u.number) }}{% endif %}{% endblock %}
 {% block description %}{% if u %}{{ sitting_name(u.number) }}, {{ when(u.dates) | trim }}: {{ _("porządek obrad") }} — {{ u.groups | sum(attribute="items", start=[]) | length }} {{ _("punktów") }}.{% else %}{{ _("Porządek obrad następnego posiedzenia Sejmu.") }}{% endif %}{% endblock %}
 {% block content %}
 <style>
-  .agenda { padding-left: 2.2em; margin: 0; }
-  .agenda > li { padding: 10px 0; border-bottom: 1px solid var(--line); }
-  .agenda > li::marker { color: var(--muted); font-weight: 600; }
-  .agenda .notes { margin: 4px 0 0; font-size: .9rem; color: var(--muted); }
-  .agenda .links { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin: 6px 0 0; font-size: .88rem; }
-  .agenda .eu { display: inline-block; margin-left: 4px; padding: 0 6px; border-radius: 4px; background: #003399; color: #ffcc00;
-    font-size: .75rem; font-weight: 700; vertical-align: 2px; }
   .planned { columns: 2 16em; padding-left: 1.2em; }
 </style>
 <div class="crumbs"><a href="{{ root }}posiedzenia.html">{{ _("Posiedzenia") }}</a></div>
@@ -20,6 +14,7 @@
 {% set items = u.groups | sum(attribute="items", start=[]) %}
 <h1>{% if u.under_way %}{{ _("Trwające posiedzenie") }}{% else %}{{ _("Nadchodzące posiedzenie") }}{% endif %}: {{ sitting_name(u.number) }}</h1>
 <p class="tagline">{{ when(u.dates) }} · {{ u.dates | length }} {{ _("dni obrad") }}</p>
+{{ live_box() }}
 <div class="grid">
   <div class="card stat"><b>{{ u.groups[0]["items"] | length }}</b>{{ _("punktów w porządku obrad") }}</div>
   {% if u.groups | length > 1 %}<div class="card stat"><b>{{ items | length - u.groups[0]["items"] | length }}</b>{{ _("punktów, które mogą zostać dodane") }}</div>{% endif %}
@@ -30,7 +25,7 @@
 
 {% for g in u.groups %}
 <h2{% if g.heading %} lang="pl"{% endif %}>{% if g.heading %}{{ g.heading }}{% else %}{{ _("Porządek obrad") }}{% endif %}</h2>
-<ol class="agenda" lang="pl">
+<ol class="agenda" lang="pl"{% if g.start %} start="{{ g.start }}"{% endif %}>
   {% for item in g["items"] %}
   <li{% if item.n %} value="{{ item.n }}"{% endif %}>
     <div><strong>{{ item.kind }}</strong> {{ item.rest }}{% if item.eu %} <span class="eu" title="{{ _('Projekt mający na celu wykonanie prawa Unii Europejskiej') }}">UE</span>{% endif %}</div>

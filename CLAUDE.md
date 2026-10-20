@@ -85,7 +85,20 @@ Live on sejmomat.pl:
   `data/proceedings.json`, refreshed by `fetch`), with items linked to
   prints, bills and the MPs who present them. Scheduled updates now also
   run in the 7 days before a sitting, when the agenda comes out and changes
-  (`sejmomat/sitting_days.py`, LEAD_DAYS).
+  (`sejmomat/sitting_days.py`, LEAD_DAYS). On sitting days updates also run
+  hourly, 8:00–1:59 Warsaw time (cron "17 * * * *", `sitting_days hourly`).
+- **Live stream** (`static/live.js`, `_cards.live_box`, on the home page and
+  the upcoming sitting page): on the sitting's days the browser asks
+  `videos/today` for the plenary stream ("posiedzenie") and plays it muted
+  with hls.js (lowest quality first, capped to the player's size). The
+  Sejm's own player (`playerLinkIFrame`) cannot be framed: its bot
+  protection loops. The API has no live "point under discussion";
+  transcripts come out hours later.
+- **Agenda on sitting pages** ("Porządek obrad" tab): `data/proceedings.json`
+  keeps every sitting's agenda (`agenda.by_sitting()`; later lists continue
+  from `<ol start>`). Item numbers are the speeches' "point" and the votes'
+  "Pkt. N", which link each item to its speakers (transcript links), votes,
+  and a recording per day (`speeches.item_clips`, played by `static/clips.js`).
 
 - **Committees** (`komisje.html`, `komisja/<code>.html`, "Komisje" in the
   nav): members, meetings with agenda, joint committees, recording and

@@ -94,6 +94,13 @@ EN = {
         "The agenda as published by the Sejm, in Polish. It may still change, and the Speaker sets the order of the items just before the sitting. After the sitting, the results of the votes appear on this site.",
     "Porządek obrad": "Agenda", "Projekt mający na celu wykonanie prawa Unii Europejskiej": "Bill implementing European Union law",
     "Przebieg prac nad projektem": "How the bill has progressed",
+    "Porządek obrad opublikowany przez Sejm, z debatą i głosowaniami nad każdym punktem. „Nagranie” odtwarza debatę nad punktem z transmisji Sejmu; wystąpienia prowadzą do stenogramu na stronie Sejmu.":
+        "The agenda as published by the Sejm, with the debate and votes on each item. “Recording” plays the debate on the item from the Sejm's stream; speeches link to the transcript on the Sejm's website.",
+    "Debata z nagraniami": "Debate with video", "bez debaty i głosowań na tym posiedzeniu": "no debate or votes at this sitting",
+    "na piśmie": "in writing",
+    "Obrady Sejmu na żywo": "The Sejm live", "Transmisja obrad dziś od": "Live stream today from",
+    "Transmisja na stronie Sejmu": "Stream on the Sejm's website",
+    "Nie udało się odtworzyć transmisji. Spróbuj na stronie Sejmu.": "The stream could not be played. Try the Sejm's website.",
     "Porządek obrad następnego posiedzenia nie został jeszcze opublikowany. Sejm ogłasza go zwykle około tygodnia przed posiedzeniem.":
         "The agenda of the next sitting has not been published yet. The Sejm usually announces it about a week before the sitting.",
     "Porządek obrad następnego posiedzenia nie został jeszcze opublikowany.": "The agenda of the next sitting has not been published yet.",
