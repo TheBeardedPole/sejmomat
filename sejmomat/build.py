@@ -393,6 +393,18 @@ def build_context():
                 item["votes"] = votes_at.get(item["n"], [])
                 item["speakers"] = speeches_by_point.get((s, item["n"]), [])
                 item["clips"] = speeches.item_clips(item["speakers"], videos_by_date)
+                # each speech's clip as "video,start,stop" (seconds), the videos
+                # listed once per item: the full address for every speaker would
+                # make a sitting's page a good deal larger
+                item["clip_bases"] = []
+                for x in item["speakers"]:
+                    x["c"] = None
+                    if x["clip"]:
+                        base, query = x["clip"].split("?", 1)
+                        q = dict(part.split("=", 1) for part in query.split("&"))
+                        if base not in item["clip_bases"]:
+                            item["clip_bases"].append(base)
+                        x["c"] = f"{item['clip_bases'].index(base)},{int(q['start']) // 1000},{int(q['stop']) // 1000}"
         sitting_agendas[s] = a
 
     committee_rows = build_committees(mp_rows, bill_of_print, bill_by_root)

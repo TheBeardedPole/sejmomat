@@ -208,3 +208,5 @@ ol.agenda .speakers li { break-inside: avoid; }
 ol.agenda .link-btn { font: inherit; padding: 0; border: 0; background: none; color: var(--accent, #1d5fc4); cursor: pointer; }
 ol.agenda .link-btn:hover { text-decoration: underline; }
 ol.agenda .clip-video { display: block; width: 100%; max-width: 720px; aspect-ratio: 16 / 9; background: #000; border-radius: 8px; margin: 8px 0; }
+ol.agenda .sp-play { font: inherit; font-size: .8em; padding: 0 2px; border: 0; background: none; color: var(--accent); cursor: pointer; }
+ol.agenda .sp-playing { font-weight: 600; }

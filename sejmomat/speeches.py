@@ -216,7 +216,7 @@ def by_point(days, club_at):
     """{(sitting, agenda item number as a string): [speaker, ...] in the
     order they spoke}; a joint debate ("8., 9., 10. i 11.") counts under
     each of its items. A speaker: {"name", "mp", "club", "function", "date",
-    "day", "num", "unspoken", "start", "end"}."""
+    "day", "num", "unspoken", "start", "end", "clip" (or None)}."""
     out = {}
     for d in days:
         for st in d["statements"]:
@@ -224,7 +224,7 @@ def by_point(days, club_at):
                 continue
             e = {"name": st["name"], "mp": st["mp"], "club": club_at(st["mp"], d["date"]) if st["mp"] else None,
                  "function": st["function"], "date": d["date"], "day": d.get("day"), "num": st["num"],
-                 "unspoken": st["unspoken"], "start": st["start"], "end": st["end"]}
+                 "unspoken": st["unspoken"], "start": st["start"], "end": st["end"], "clip": clip(st, d["videos"])}
             for n in dict.fromkeys(re.findall(r"\d+", st["point"] or "")):
                 out.setdefault((d["sitting"], n), []).append(e)
     return out

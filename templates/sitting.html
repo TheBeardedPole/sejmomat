@@ -50,10 +50,10 @@
       {% if not item.votes and not sp %}<span class="muted">{{ _("bez debaty i głosowań na tym posiedzeniu") }}</span>{% endif %}
     </p>
     {% if sp %}
-    <details class="speakers" lang="{{ lang }}">
+    <details class="speakers" lang="{{ lang }}"{% if item.clip_bases %} data-bases="{{ item.clip_bases | tojson | forceescape }}"{% endif %}>
       <summary>{{ _("Wystąpienia") }}: {{ sp | length }} · {{ sp[0].date | date_pl }}{% if sp[-1].date != sp[0].date %} – {{ sp[-1].date | date_pl }}{% endif %}</summary>
       <ol lang="pl">
-        {% for x in sp %}<li><a href="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/wypowiedz.xsp?posiedzenie={{ sitting }}&amp;dzien={{ x.day }}&amp;wyp={{ x.num }}" target="_blank" rel="noopener">{{ x.name }}</a> <span class="muted">{{ x.club if x.mp else x.function }}{% if x.unspoken %} · {{ _("na piśmie") }}{% endif %}</span></li>
+        {% for x in sp %}<li>{% if x.c %}<button type="button" class="sp-play" data-c="{{ x.c }}" title="{{ _("Wideo") }}" aria-label="{{ _("Wideo") }}: {{ x.name }}">▶</button> {% endif %}<a href="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/wypowiedz.xsp?posiedzenie={{ sitting }}&amp;dzien={{ x.day }}&amp;wyp={{ x.num }}" target="_blank" rel="noopener">{{ x.name }}</a> <span class="muted">{{ x.club if x.mp else x.function }}{% if x.unspoken %} · {{ _("na piśmie") }}{% endif %}</span></li>
         {% endfor %}
       </ol>
     </details>
