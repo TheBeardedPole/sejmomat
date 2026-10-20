@@ -1,5 +1,6 @@
 {% extends "base.html" %}
-{% from "_macros.html" import vote_row %}
+{% from "_macros.html" import vote_row, print_link %}
+{% from "_tabs.html" import bar as tab_bar with context %}
 {% block title %}{{ sitting_name(sitting, true) }} — {{ votings[0].date | date_pl }}{% endblock %}
 {% block description %}{{ sitting_name(sitting, true) }}, {{ votings[0].date | date_pl }}: {{ votings | length }} {{ _("głosowań") }}. {% for agenda, g in votings | groupby_consecutive("agenda") %}{% if agenda and loop.index <= 4 %}{{ agenda | truncate(70) }}; {% endif %}{% endfor %}{% endblock %}
 {% block content %}
@@ -9,13 +10,72 @@
 <p>{{ _("Jak głosowały kluby i ich posłowie na tym posiedzeniu") }}:
   {% for c in club_rows if c.id in sitting_clubs %}<a href="{{ root }}klub/{{ c.slug }}.html#posiedzenie-{{ sitting }}">{{ c.id }}</a>{{ " · " if not loop.last }}{% endfor %}</p>
 
+{% if agenda %}
+{% set tabs = [("glosowania", _("Głosowania"), votings | length), ("porzadek", _("Porządek obrad"), agenda.groups | sum(attribute="items", start=[]) | length)] %}
+{{ tab_bar(tabs) }}
+<div class="tab-panels">
+<section class="tab-panel" id="glosowania">
+<h2 class="tab-title">{{ _("Głosowania") }}</h2>
 {% for agenda, group in votings | groupby_consecutive("agenda") %}
 <section class="agenda">
   <h2 class="h3">{% if group[0].bill and group[0].bill in bill_by_root %}<a href="{{ root }}ustawa/{{ group[0].bill }}.html">{{ agenda or _("Sprawy proceduralne") }}</a>{% else %}{{ agenda or _("Sprawy proceduralne") }}{% endif %}</h2>
   <div class="table-scroll"><table><tbody>
-    {% for v in group %}{{ vote_row(v, root) }}
+    {% for v in group %}{{ vote_row(v, root, "glosowanie-" ~ v.votingNumber) }}
     {% endfor %}
   </tbody></table></div>
 </section>
 {% endfor %}
+</section>
+
+<section class="tab-panel" id="porzadek">
+<h2 class="tab-title">{{ _("Porządek obrad") }}</h2>
+<p class="muted">{{ _("Porządek obrad opublikowany przez Sejm, z debatą i głosowaniami nad każdym punktem. „Nagranie” odtwarza debatę nad punktem z transmisji Sejmu; wystąpienia prowadzą do stenogramu na stronie Sejmu.") }}</p>
+{% for g in agenda.groups %}
+{% if g.heading %}<h3 lang="pl">{{ g.heading }}</h3>{% endif %}
+<ol class="agenda" lang="pl"{% if g.start %} start="{{ g.start }}"{% endif %}>
+  {% for item in g["items"] %}
+  <li value="{{ item.n }}" id="punkt-{{ item.n }}">
+    <div><strong>{{ item.kind }}</strong> {{ item.rest }}{% if item.eu %} <span class="eu" title="{{ _('Projekt mający na celu wykonanie prawa Unii Europejskiej') }}">UE</span>{% endif %}</div>
+    {% for note in item.notes %}
+    <p class="notes">{% for text, mp in note %}{% if mp %}<a href="{{ root }}posel/{{ mp }}.html">{{ text }}</a>{% else %}{{ text }}{% endif %}{% endfor %}</p>
+    {% endfor %}
+    {% set sp = item.speakers %}
+    {% set b = bill_by_root.get(item.bill) if item.bill else none %}
+    <p class="links" lang="{{ lang }}">
+      {% if item.votes %}<a href="#glosowanie-{{ item.votes[0].votingNumber }}">{{ _("Głosowania") }}: {{ item.votes | length }}</a>{% endif %}
+      {% if b and b.speeches %}<a href="{{ root }}ustawa/{{ item.bill }}.html#wystapienia">{{ _("Debata z nagraniami") }} →</a>{% endif %}
+      {% if item.bill %}<a href="{{ root }}ustawa/{{ item.bill }}.html">{{ _("Przebieg prac nad projektem") }} →</a>{% endif %}
+      {% if item.prints %}<span>{{ _("Druki") }}: {% for p in item.prints %}{{ print_link(p, root, printed) }}{{ ", " if not loop.last }}{% endfor %}</span>{% endif %}
+      {% for day, clip in item.clips %}<button type="button" class="link-btn" data-clip="{{ clip }}">▶ {{ _("Nagranie") }}{% if item.clips | length > 1 %} · {{ day | date_pl }}{% endif %}</button>{% endfor %}
+      {% if not item.votes and not sp %}<span class="muted">{{ _("bez debaty i głosowań na tym posiedzeniu") }}</span>{% endif %}
+    </p>
+    {% if sp %}
+    <details class="speakers" lang="{{ lang }}">
+      <summary>{{ _("Wystąpienia") }}: {{ sp | length }} · {{ sp[0].date | date_pl }}{% if sp[-1].date != sp[0].date %} – {{ sp[-1].date | date_pl }}{% endif %}</summary>
+      <ol lang="pl">
+        {% for x in sp %}<li><a href="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/wypowiedz.xsp?posiedzenie={{ sitting }}&amp;dzien={{ x.day }}&amp;wyp={{ x.num }}" target="_blank" rel="noopener">{{ x.name }}</a> <span class="muted">{{ x.club if x.mp else x.function }}{% if x.unspoken %} · {{ _("na piśmie") }}{% endif %}</span></li>
+        {% endfor %}
+      </ol>
+    </details>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ol>
+{% endfor %}
+{% if agenda.note %}<p class="note" lang="pl">{{ agenda.note }}</p>{% endif %}
+<script src="{{ site_root }}static/clips.js?v={{ static_version('clips.js') }}" data-hls="{{ site_root }}static/vendor/hls.light.min.js"
+  data-failed="{{ _("Nie udało się odtworzyć nagrania. Spróbuj w stenogramie na stronie Sejmu.") }}" defer></script>
+</section>
+</div>
+{% else %}
+{% for agenda, group in votings | groupby_consecutive("agenda") %}
+<section class="agenda">
+  <h2 class="h3">{% if group[0].bill and group[0].bill in bill_by_root %}<a href="{{ root }}ustawa/{{ group[0].bill }}.html">{{ agenda or _("Sprawy proceduralne") }}</a>{% else %}{{ agenda or _("Sprawy proceduralne") }}{% endif %}</h2>
+  <div class="table-scroll"><table><tbody>
+    {% for v in group %}{{ vote_row(v, root, "glosowanie-" ~ v.votingNumber) }}
+    {% endfor %}
+  </tbody></table></div>
+</section>
+{% endfor %}
+{% endif %}
 {% endblock %}

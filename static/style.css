@@ -192,3 +192,19 @@ h2, .amendment, .print-text p { scroll-margin-top: 12px; }
 .tab-panel > .tab-title + * { margin-top: 0; }
 @media print { .tab-bar { display: none; } .tab-panels > .tab-panel { display: block !important; } .js .tab-panel > .tab-title { display: block; } }
 .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0 24px; }
+/* agenda of a sitting (upcoming sitting page, "Porządek obrad" tab of sitting pages) */
+ol.agenda { padding-left: 2.2em; margin: 0; }
+ol.agenda > li { padding: 10px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 12px; }
+ol.agenda > li::marker { color: var(--muted); font-weight: 600; }
+ol.agenda .notes { margin: 4px 0 0; font-size: .9rem; color: var(--muted); }
+ol.agenda .links { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin: 6px 0 0; font-size: .88rem; }
+ol.agenda .links:empty { display: none; }
+ol.agenda .eu { display: inline-block; margin-left: 4px; padding: 0 6px; border-radius: 4px; background: #003399; color: #ffcc00;
+  font-size: .75rem; font-weight: 700; vertical-align: 2px; }
+ol.agenda .speakers { margin: 6px 0 0; font-size: .88rem; }
+ol.agenda .speakers summary { cursor: pointer; color: var(--muted); }
+ol.agenda .speakers ol { columns: 2 18em; column-gap: 24px; margin: 6px 0 0; padding-left: 2.4em; }
+ol.agenda .speakers li { break-inside: avoid; }
+ol.agenda .link-btn { font: inherit; padding: 0; border: 0; background: none; color: var(--accent, #1d5fc4); cursor: pointer; }
+ol.agenda .link-btn:hover { text-decoration: underline; }
+ol.agenda .clip-video { display: block; width: 100%; max-width: 720px; aspect-ratio: 16 / 9; background: #000; border-radius: 8px; margin: 8px 0; }

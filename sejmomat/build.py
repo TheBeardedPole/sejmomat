@@ -278,6 +278,8 @@ def build_context():
     days = speeches.load()
     speeches_by_mp = speeches.by_mp(days, bill_of_print, vote_for)
     speeches_by_bill = speeches.by_bill(days, bill_of_print, vote_for, club_at)
+    speeches_by_point = speeches.by_point(days, club_at)
+    videos_by_date = {d["date"]: d["videos"] for d in days}
     vocabulary = speeches.Vocabulary((st["text"] for d in days for st in d["statements"]),
                                      names={p for m in mps.values() for p in m["firstLastName"].replace("-", " ").split()})
     # Uzupełnij słowo (Sejmdle): passages of speeches with words to fill in, one set a day
@@ -358,18 +360,39 @@ def build_context():
         key=lambda n: (int(n.split("-")[0]), n),
     )
 
-    # The next sitting's agenda, its items linked to bills, prints and the
-    # MPs who present them.
-    upcoming, planned = agenda.upcoming()
-    if upcoming:
-        mp_ids = {r["mp"]["firstLastName"]: r["mp"]["id"] for r in mp_rows}
-        name_re = re.compile("|".join(map(re.escape, sorted(mp_ids, key=len, reverse=True))))
-        for g in upcoming["groups"]:
+    # Agendas: the next sitting's, and every past sitting's, their items linked
+    # to bills, prints and the MPs who present them; a past sitting's items
+    # also to their speeches and votes (both numbered by agenda item).
+    mp_ids = {r["mp"]["firstLastName"]: r["mp"]["id"] for r in mp_rows}
+    name_re = re.compile("|".join(map(re.escape, sorted(mp_ids, key=len, reverse=True))))
+
+    def link_items(a):
+        for g in a["groups"]:
             for item in g["items"]:
                 item["bill"] = next((b for b in map(bill_of_print, item["prints"]) if b), None)
                 # each note as pieces: (text, MP id when the text is an MP's name)
                 item["notes"] = [[(part, mp_ids.get(part)) for part in re.split(f"({name_re.pattern})", note) if part]
                                  for note in item["notes"]]
+
+    upcoming, planned = agenda.upcoming()
+    if upcoming:
+        link_items(upcoming)
+    sitting_agendas = {}
+    for s, a in agenda.by_sitting().items():
+        if s not in sittings:
+            continue   # no votes yet: the sitting has no page
+        link_items(a)
+        votes_at = defaultdict(list)
+        for v in sittings[s]:
+            point = re.match(r"\s*Pkt\.?\s*(\d+)", v.get("title") or "")
+            if point:
+                votes_at[point[1]].append(v)
+        for g in a["groups"]:
+            for item in g["items"]:
+                item["votes"] = votes_at.get(item["n"], [])
+                item["speakers"] = speeches_by_point.get((s, item["n"]), [])
+                item["clips"] = speeches.item_clips(item["speakers"], videos_by_date)
+        sitting_agendas[s] = a
 
     committee_rows = build_committees(mp_rows, bill_of_print, bill_by_root)
 
@@ -387,7 +410,7 @@ def build_context():
         "speeches_by_bill": speeches_by_bill,
         "coverage": (linked, total),
         "summaries": social.summaries({"by_id": by_id, "bill_by_root": bill_by_root}),
-        "printed": set(printed), "printed_list": printed, "upcoming": upcoming, "planned": planned,
+        "printed": set(printed), "printed_list": printed, "upcoming": upcoming, "planned": planned, "sitting_agendas": sitting_agendas,
         "committee_rows": committee_rows, "questions_summary": questions_summary, "fill_gaps": fill_gaps, "committee_names": {c["code"]: c["name"] for c in committee_rows},
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
         "generated": datetime.now(),
@@ -806,7 +829,8 @@ def _pages(ctx):
         yield "proposer.html", f"poprawki/{club_slug(name)}.html", {"name": name, "votes": votes}
     for s, votings in ctx["sittings"].items():
         yield "sitting.html", f"posiedzenie/{s}.html", {
-            "sitting": s, "votings": votings, "sitting_clubs": {club for v in votings for club in v["ballots"]}}
+            "sitting": s, "votings": votings, "sitting_clubs": {club for v in votings for club in v["ballots"]},
+            "agenda": ctx["sitting_agendas"].get(s)}
         for v in votings:
             yield "voting.html", f"glosowanie/{s}-{v['votingNumber']}.html", {"v": v}
     for b in ctx["bills"]:

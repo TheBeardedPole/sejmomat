@@ -98,6 +98,28 @@
 {% endmacro %}
 
 {# The next sitting, for the home page and the list of sittings. #}
+{# The Sejm's live stream on the days of the next or current sitting
+   (static/live.js asks the Sejm's API for today's plenary stream). #}
+{% macro live_box() %}
+{% if upcoming %}
+<section class="card live-box" hidden data-dates="{{ upcoming.dates | join(',') }}"
+  data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/videos/today"
+  data-hls="{{ site_root }}static/vendor/hls.light.min.js"
+  data-labels="{{ {"live": _("Obrady Sejmu na żywo"), "today": _("Transmisja obrad dziś od"),
+                   "sejm": _("Transmisja na stronie Sejmu"), "failed": _("Nie udało się odtworzyć transmisji. Spróbuj na stronie Sejmu.")} | tojson | forceescape }}"></section>
+<style>
+  .live-box h2 { margin: 0 0 4px; font-size: 1.15rem; display: flex; align-items: center; gap: 8px; }
+  .live-box p { margin: 4px 0 8px; }
+  .live-dot { width: 10px; height: 10px; border-radius: 50%; background: #d62828; animation: live-pulse 1.6s ease-in-out infinite; }
+  @keyframes live-pulse { 50% { opacity: .35; } }
+  @media (prefers-reduced-motion: reduce) { .live-dot { animation: none; } }
+  .live-video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: 8px; margin: 8px 0; }
+  .live-links { font-size: .9rem; }
+</style>
+<script src="{{ site_root }}static/live.js?v={{ static_version('live.js') }}" defer></script>
+{% endif %}
+{% endmacro %}
+
 {% macro upcoming_card() %}
 {% set u = upcoming %}
 <section class="card upcoming-card">

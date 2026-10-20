@@ -23,8 +23,8 @@
 {% if num in printed %}<a href="{{ root }}druk/{{ num }}.html{% if frag %}#{{ frag }}{% endif %}">{{ label or num }}</a>{% else %}<a href="{{ print_url(num) }}">{{ label or num }}</a>{% endif %}
 {%- endmacro %}
 
-{% macro vote_row(v, root) -%}
-<tr>
+{% macro vote_row(v, root, id=none) -%}
+<tr{% if id %} id="{{ id }}"{% endif %}>
   <td class="num" style="width:3.5em"><a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.votingNumber }}</a></td>
   <td>{{ v.topic }}{{ amendment_summary(v) }}</td>
   <td style="width:9em">{{ result_badge(v) }}</td>

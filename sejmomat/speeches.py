@@ -212,6 +212,38 @@ def by_bill(days, bill_of_print, vote_for, club_at):
     return out
 
 
+def by_point(days, club_at):
+    """{(sitting, agenda item number as a string): [speaker, ...] in the
+    order they spoke}; a joint debate ("8., 9., 10. i 11.") counts under
+    each of its items. A speaker: {"name", "mp", "club", "function", "date",
+    "day", "num", "unspoken", "start", "end"}."""
+    out = {}
+    for d in days:
+        for st in d["statements"]:
+            if not st["text"]:
+                continue
+            e = {"name": st["name"], "mp": st["mp"], "club": club_at(st["mp"], d["date"]) if st["mp"] else None,
+                 "function": st["function"], "date": d["date"], "day": d.get("day"), "num": st["num"],
+                 "unspoken": st["unspoken"], "start": st["start"], "end": st["end"]}
+            for n in dict.fromkeys(re.findall(r"\d+", st["point"] or "")):
+                out.setdefault((d["sitting"], n), []).append(e)
+    return out
+
+
+def item_clips(speakers, videos_by_date):
+    """[(date, address of the video from the first spoken speech on an agenda
+    item to the last that day)] for each day it was debated with video."""
+    out = []
+    for day in dict.fromkeys(x["date"] for x in speakers):
+        spoken = [x for x in speakers if x["date"] == day and not x["unspoken"] and x["start"] and x["end"]]
+        if spoken:
+            span = {"unspoken": False, "start": min(x["start"] for x in spoken), "end": max(x["end"] for x in spoken)}
+            link = clip(span, videos_by_date.get(day, []))
+            if link:
+                out.append((day, link))
+    return out
+
+
 def split_for_site(items):
     """An MP's speeches as two files: a list with a preview of each text
     (small, loaded first) and {"<date>#<num>": full text} (loaded only for
