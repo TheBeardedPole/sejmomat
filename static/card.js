@@ -101,10 +101,29 @@
   };
   const tiles = (d, y, rows) => {
     const tileW = Math.floor((W - 2 * PAD - 2 * GAP) / 3), tileH = 172;
-    rows.forEach(([number, label, color], i) => {
+    rows.forEach(([number, label, color, badge], i) => {
       const x = PAD + (i % 3) * (tileW + GAP), ty = y + Math.floor(i / 3) * (tileH + GAP);
       rounded(d, x, ty, tileW, tileH, 18, SURFACE, LINE);
-      text(d, String(number), x + 24, ty + 12, font("bold", 60), color);
+      let size = 60;
+      if (badge) {
+        // "TOP N%" as a pill in the top right corner, in the site's blue; a
+        // number too wide to sit beside it ("100,0%") is set smaller
+        d.font = font("bold", 22);
+        const label = `TOP ${badge}%`, bw = Math.round(d.measureText(label).width) + 28;
+        for (; size > 40; size -= 2) {
+          d.font = font("bold", size);
+          if (d.measureText(String(number)).width <= tileW - 24 - 20 - bw - 12) break;
+        }
+        rounded(d, x + tileW - 20 - bw, ty + 22, bw, 36, 18, FOOT_BG);
+        d.textBaseline = "middle";
+        text(d, label, x + tileW - 20 - bw / 2, ty + 41, font("bold", 22), FOOT_TEXT, "center");
+        d.textBaseline = "top";
+      }
+      // the number's baseline stays where a 60-pixel one has it
+      d.textBaseline = "alphabetic";
+      d.font = font("bold", 60);
+      text(d, String(number), x + 24, ty + 12 + d.measureText(String(number)).fontBoundingBoxAscent, font("bold", size), color);
+      d.textBaseline = "top";
       d.font = font("regular", 24);
       wrap(d, label, tileW - 48, 2).forEach((line, k) => text(d, line, x + 24, ty + 94 + k * 31, font("regular", 24), MUTED));
     });
@@ -152,17 +171,22 @@
   const panel = (d, y, height) => rounded(d, PAD, y, W - 2 * PAD, height, 18, SURFACE, LINE);
 
   const term = (d, photo) => {
-    const t = data.term;
+    const t = data.term, top = t.top || {};
     let y = header(d, "PODSUMOWANIE KADENCJI · POSEŁ NA SEJM", data.subtitle, photo);
     y = tiles(d, y, [
-      [pct(t.turnout), `udział w głosowaniach (${t.cast} z ${t.eligible})`, TEXT],
+      [pct(t.turnout), `udział w głosowaniach (${t.cast} z ${t.eligible})`, TEXT, top.turnout],
       [t.missed, "opuszczonych głosowań", t.missed ? ABSTAIN : TEXT],
       [t.rebels, `wyłamań z linii klubu (${pct(t.rebelRate)})`, t.rebels ? NO : TEXT],
-      [t.speeches, "wystąpień na sali plenarnej", TEXT],
-      [t.questions, "interpelacji i zapytań poselskich", TEXT],
+      [t.speeches, "wystąpień na sali plenarnej", TEXT, top.speeches],
+      [t.questions, "interpelacji i zapytań poselskich", TEXT, top.questions],
       // how many of the amendments and motions the MP signed passed; neutral colour: few pass for the opposition
       ...(t.signed ? [[`${t.signedAdopted} z ${t.signed}`, "podpisanych poprawek i wniosków przeszło", TEXT]] : []),
     ].filter(([n]) => n !== undefined));
+    if (Object.keys(top).length) {
+      // what the badges mean (STANDING_NOTE in sejmomat/card.py)
+      text(d, "TOP N% – w gronie N% obecnych posłów z najwyższym wynikiem", PAD, y - 6, font("regular", 22), MUTED);
+      y += 34;
+    }
     if (data.words.length) {
       // the characteristic words as chips, as many rows as they need
       d.font = font("regular", 28);

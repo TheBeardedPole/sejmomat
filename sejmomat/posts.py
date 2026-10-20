@@ -106,15 +106,21 @@ def mp_post(r, place, total):
     who = ", ".join(x for x in (club_short(mp.get("club") or ""), mp.get("districtName") and f"okręg {mp['districtName']}") if x)
     speeches = (sp.get("spoken") or 0) + (sp.get("written") or 0)
     questions = q.get("int", 0) + q.get("zap", 0)
+    standing = r.get("standing") or {}
+
+    def top(measure):
+        # where the MP stands among the sitting MPs (build.mp_standing)
+        return f" (TOP {standing[measure]}%)" if measure in standing else ""
+
     lines = [f"🏛️ {mp['firstLastName']} ({who}), {terms_label(r['terms'])} w Sejmie. W tej kadencji:",
-             f"🗳️ udział w głosowaniach: {pct(r['turnout'])}",
+             f"🗳️ udział w głosowaniach: {pct(r['turnout'])}{top('turnout')}",
              f"↔️ wyłamania z linii klubu: {r['rebel_count']}",
-             f"🎤 wystąpienia na sali: {speeches}",
-             f"❓ interpelacje i zapytania: {questions}"]
+             f"🎤 wystąpienia na sali: {speeches}{top('speeches')}",
+             f"❓ interpelacje i zapytania: {questions}{top('questions')}"]
     caption = _fit(lines, f"{SERIES_TAG} {place}/{total}")
     alt = (f"Podsumowanie kadencji: {mp['firstLastName']}, {who}, {terms_label(r['terms'])} w Sejmie. Udział w głosowaniach {pct(r['turnout'])} "
-           f"({r['cast']} z {r['eligible']}), opuszczonych głosowań {r['eligible'] - r['cast']}, wyłamań z linii klubu "
-           f"{r['rebel_count']}, wystąpień {speeches}, interpelacji i zapytań {questions}. sejmomat.pl")
+           f"({r['cast']} z {r['eligible']}){top('turnout')}, opuszczonych głosowań {r['eligible'] - r['cast']}, wyłamań z linii klubu "
+           f"{r['rebel_count']}, wystąpień {speeches}{top('speeches')}, interpelacji i zapytań {questions}{top('questions')}. sejmomat.pl")
     return caption, alt
 
 

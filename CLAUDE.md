@@ -72,7 +72,10 @@ Live on sejmomat.pl:
   with the site (`sejmomat/card.py`, `dane/karty/klub/`); an MP's is drawn
   in the reader's browser on a click (`static/card.js`, same layout as
   `card.py`; the photo comes from the Sejm's API, which allows it) and
-  handed over as a download, with nothing kept. The day summaries page
+  handed over as a download, with nothing kept. MP term images carry "TOP N%"
+  badges (1, 5, 10 or 20) on turnout, speeches and questions, against the
+  sitting MPs, ties counted against the MP (`build.mp_standing`); captions
+  of the A-to-Z posts repeat them. The day summaries page
   (`podsumowania.html`) is for readers; the ready-made posts are only in
   `api/v1/summaries.json`.
 
