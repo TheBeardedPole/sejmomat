@@ -532,6 +532,25 @@ def build_adopted(by_id):
     return adopted, rows(tally), rows(mp_tally)
 
 
+def agenda_json(a, bill_by_root, printed):
+    """A sitting's agenda for the live votes panel (static/live.js): {item
+    number: [text, bill page root or "", [prints], committee report, additional
+    report]}, short. The reports (print numbers with a page here, or "") hold
+    the minority motions and the amendments a vote names ("wniosek mniejszości
+    5", "poprawka 3")."""
+    out = {}
+    for g in a["groups"]:
+        for item in g["items"]:
+            text = f"{item['kind']} {item['rest']}".strip()
+            reports = [p for p in item["prints"] if p in printed and "prawozdanie" in ((print_meta(p) or {}).get("title") or "")]
+            report = next((p for p in reports if not (print_meta(p) or {}).get("title", "").startswith("Dodatkowe")), "")
+            extra = next((p for p in reports if (print_meta(p) or {}).get("title", "").startswith("Dodatkowe")), "") \
+                or next((f"{p}-A" for p in item["prints"] if f"{p}-A" in printed), "")
+            out[item["n"]] = [text if len(text) <= 240 else text[:237].rsplit(" ", 1)[0] + "…",
+                              item.get("bill") if item.get("bill") in bill_by_root else "", item["prints"], report, extra]
+    return out
+
+
 def groupby_consecutive(items, attr):
     """Like groupby, but only merges neighbours (agenda items recur in a sitting)."""
     out = []
@@ -823,6 +842,7 @@ def _env(lang):
     env.filters["date_pl"] = date_fmt(lang)
     env.filters["pct"] = pct_fmt(lang)
     env.filters["groupby_consecutive"] = groupby_consecutive
+    env.filters["agenda_json"] = agenda_json
     # Proposer labels are data, except these two.
     env.filters["roman"] = roman
     # "szósta kadencja" / "6th term"

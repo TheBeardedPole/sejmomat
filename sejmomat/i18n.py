@@ -98,6 +98,11 @@ EN = {
         "The agenda as published by the Sejm, with the debate and votes on each item. “Recording” plays the debate on the item from the Sejm's stream; speeches link to the transcript on the Sejm's website.",
     "Debata z nagraniami": "Debate with video", "bez debaty i głosowań na tym posiedzeniu": "no debate or votes at this sitting",
     "na piśmie": "in writing",
+    "Głosowania na żywo": "Votes as they happen", "Głosowanie nr": "Vote no.", "Punkt": "Item", "Wcześniej": "Earlier",
+    "Na tym posiedzeniu jeszcze nie głosowano.": "No votes at this sitting yet.",
+    "Wyniki z API Sejmu, z około minutowym opóźnieniem.": "Results from the Sejm's API, about a minute behind.",
+    "Transmisja idzie z opóźnieniem, a wyniki pojawiają się wtedy, gdy na nagraniu kończy się głosowanie.":
+        "The stream runs with a delay, and each result appears when the vote ends in the video.",
     "Obrady Sejmu na żywo": "The Sejm live", "Transmisja obrad dziś od": "Live stream today from",
     "Transmisja na stronie Sejmu": "Stream on the Sejm's website",
     "Nie udało się odtworzyć transmisji. Spróbuj na stronie Sejmu.": "The stream could not be played. Try the Sejm's website.",
