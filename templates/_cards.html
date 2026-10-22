@@ -105,8 +105,17 @@
 <section class="card live-box" hidden data-dates="{{ upcoming.dates | join(',') }}"
   data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/videos/today"
   data-hls="{{ site_root }}static/vendor/hls.light.min.js"
+  data-sitting="{{ upcoming.number }}" data-votes="https://api.sejm.gov.pl/sejm/term{{ TERM }}/votings/{{ upcoming.number }}"
+  data-root="{{ root }}"
+  {#- the agenda, for the item a vote is on: {number: [text, bill page root or "", [prints]]} #}
+  data-agenda="{{ upcoming | agenda_json(bill_by_root, printed) | tojson | forceescape }}"
   data-labels="{{ {"live": _("Obrady Sejmu na żywo"), "today": _("Transmisja obrad dziś od"),
-                   "sejm": _("Transmisja na stronie Sejmu"), "failed": _("Nie udało się odtworzyć transmisji. Spróbuj na stronie Sejmu.")} | tojson | forceescape }}"></section>
+                   "sejm": _("Transmisja na stronie Sejmu"), "failed": _("Nie udało się odtworzyć transmisji. Spróbuj na stronie Sejmu."),
+                   "votes": _("Głosowania na żywo"), "vote": _("Głosowanie nr"), "item": _("Punkt"), "bill": _("Przebieg prac nad projektem"),
+                   "prints": _("Druki"), "yes": _("za"), "no": _("przeciw"), "abstain": _("wstrz."), "passed": _("Przyjęto"),
+                   "rejected": _("Odrzucono"), "earlier": _("Wcześniej"), "none": _("Na tym posiedzeniu jeszcze nie głosowano."),
+                   "delay": _("Wyniki z API Sejmu, z około minutowym opóźnieniem."),
+                   "synced": _("Transmisja idzie z opóźnieniem, a wyniki pojawiają się wtedy, gdy na nagraniu kończy się głosowanie.")} | tojson | forceescape }}"></section>
 <style>
   .live-box h2 { margin: 0 0 4px; font-size: 1.15rem; display: flex; align-items: center; gap: 8px; }
   .live-box p { margin: 4px 0 8px; }
@@ -115,6 +124,16 @@
   @media (prefers-reduced-motion: reduce) { .live-dot { animation: none; } }
   .live-video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: 8px; margin: 8px 0; }
   .live-links { font-size: .9rem; }
+  .live-grid { display: grid; gap: 16px; }
+  @media (min-width: 900px) { .live-grid.with-votes { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); } }
+  .live-votes h3 { margin: 8px 0 6px; font-size: .95rem; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; }
+  .live-now { padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; }
+  .live-now .item { font-weight: 600; margin: 2px 0 4px; }
+  .live-now .topic, .live-earlier { font-size: .9rem; }
+  .live-now .counts { margin: 6px 0 0; font-variant-numeric: tabular-nums; }
+  .live-earlier { list-style: none; padding: 0; margin: 8px 0 0; }
+  .live-earlier li { padding: 4px 0; border-top: 1px solid var(--line); }
+  .live-note { font-size: .8rem; color: var(--muted); }
 </style>
 <script src="{{ site_root }}static/live.js?v={{ static_version('live.js') }}" defer></script>
 {% endif %}

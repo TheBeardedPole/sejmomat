@@ -27,7 +27,7 @@
 <h2{% if g.heading %} lang="pl"{% endif %}>{% if g.heading %}{{ g.heading }}{% else %}{{ _("Porządek obrad") }}{% endif %}</h2>
 <ol class="agenda" lang="pl"{% if g.start %} start="{{ g.start }}"{% endif %}>
   {% for item in g["items"] %}
-  <li{% if item.n %} value="{{ item.n }}"{% endif %}>
+  <li value="{{ item.n }}" id="punkt-{{ item.n }}">
     <div><strong>{{ item.kind }}</strong> {{ item.rest }}{% if item.eu %} <span class="eu" title="{{ _('Projekt mający na celu wykonanie prawa Unii Europejskiej') }}">UE</span>{% endif %}</div>
     {% for note in item.notes %}
     <p class="notes">{% for text, mp in note %}{% if mp %}<a href="{{ root }}posel/{{ mp }}.html">{{ text }}</a>{% else %}{{ text }}{% endif %}{% endfor %}</p>

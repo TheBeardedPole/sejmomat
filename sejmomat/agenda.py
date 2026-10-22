@@ -143,7 +143,7 @@ def upcoming(today=None):
     ahead.sort(key=lambda p: p["dates"][0])
     nxt = next((p for p in ahead if p.get("number") and p.get("agenda")), None)
     if nxt:
-        nxt = {**nxt, **parse(nxt["agenda"]), "under_way": nxt["dates"][0] <= today}
+        nxt = {**nxt, **number(parse(nxt["agenda"])), "under_way": nxt["dates"][0] <= today}
         del nxt["agenda"]
     later = [p for p in ahead if p is not None and (not nxt or p["dates"][0] > nxt["dates"][-1])]
     return nxt, later
@@ -156,13 +156,18 @@ def by_sitting():
     out = {}
     for p in _stored():
         if p.get("number") and p.get("agenda"):
-            a = parse(p["agenda"])
-            place = 1
-            for g in a["groups"]:
-                # a later list goes on from its "start", or from where the one before ended
-                place = g["start"] or place
-                for item in g["items"]:
-                    item["n"] = item["n"] or str(place)
-                    place = int(item["n"]) + 1 if item["n"].isdigit() else place + 1
-            out[p["number"]] = a
+            out[p["number"]] = number(parse(p["agenda"]))
     return out
+
+
+def number(a):
+    """Give items without a number in the HTML their place in the list, which
+    is how the transcripts and votes number them ("Pkt. 29"); a later list
+    goes on from its "start", or from where the one before ended."""
+    place = 1
+    for g in a["groups"]:
+        place = g["start"] or place
+        for item in g["items"]:
+            item["n"] = item["n"] or str(place)
+            place = int(item["n"]) + 1 if item["n"].isdigit() else place + 1
+    return a
