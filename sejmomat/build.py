@@ -418,11 +418,17 @@ def build_context():
     pending_amendments = pending.amendments(printed, set(votes_by_print) | set(sources), procs, agenda_prints)
     names = {c["code"]: c["name"] for c in committee_rows}
 
-    def first_signatory_club(p):
-        a = authors.bill_author(p["title"], print_text(p["number"]), p["submitted"], sign_index, history)
-        return authors.club_on(history.get(a["mps"][0]), p["submitted"] or "9999") if a and a["mps"] else None
+    def lead_club(p):
+        """An MPs' bill's club: of the MP named as the sponsors' representative,
+        else of the first signatory."""
+        text = print_text(p["number"])
+        lead = authors.representative(text, mps)
+        if lead is None:
+            a = authors.bill_author(p["title"], text, p["submitted"], sign_index, history)
+            lead = a["mps"][0] if a and a["mps"] else None
+        return authors.club_on(history.get(lead), p["submitted"] or "9999") if lead else None
 
-    frozen = pending.frozen(procs, names, first_signatory_club)
+    frozen = pending.frozen(procs, names, lead_club)
     frozen["committees"] = pending.committees(frozen["bills"], committees.load(), names)
     pending_by_root = defaultdict(list)
     for g in pending_amendments:

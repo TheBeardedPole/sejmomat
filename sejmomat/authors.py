@@ -42,6 +42,48 @@ def _match(name, index):
     return None
 
 
+# "Do reprezentowania wnioskodawców ... upoważniamy panią poseł Marcelinę
+# Zawiszę": the MP who leads an MPs' bill (the signatures are often in
+# alphabetical order, so the first of them says little). The name is declined.
+_REPRESENTATIVE_RE = re.compile(
+    r"upoważnia\w*\s+(?:(?:pan|pani|panią|pana|panie|panów)\s+)?(?:(?:posła|poseł|posłankę|posłanki|posłanka|posłów)\s+)?"
+    r"([A-ZĄĆĘŁŃÓŚŹŻ][\wąćęłńóśźż]+(?:[ -]+[A-ZĄĆĘŁŃÓŚŹŻ][\wąćęłńóśźż-]+){1,3})", re.I)
+
+
+def representative(text, mps):
+    """The MP id named as the sponsors' representative, or None. The name is
+    in another case ("Marcelinę Zawiszę"), so names are matched on their
+    beginnings: the first name and the surname (hyphened ones part by part)."""
+    m = _REPRESENTATIVE_RE.search(re.sub(r"\s+", " ", (text or "")[:20000]))
+    if not m:
+        return None
+    # the first named, when there are several ("Monikę Rosę i Monikę Wielichowską")
+    words = re.split(r"\s+(?:i|oraz)\s+|,", m.group(1))[0].split()
+    if len(words) < 2:
+        return None
+    # a short name loses one letter in another case (Ewa, Ewę), a longer one up to two
+    stem = lambda name: name[:len(name) - 1 if len(name) <= 4 else max(3, len(name) - 2)].lower()
+    first, last = words[0].lower(), words[-1].lower()
+    common = lambda a, b: next((i for i, (x, y) in enumerate(zip(a, b)) if x != y), min(len(a), len(b)))
+    # surnames that change inside (Fogiel, Fogla) only on a second, looser pass; of
+    # the MPs that fit, the one sharing the most letters (Horała over Hok for "Horałę")
+    for loose in (False, True):
+        best = None
+        for mp in mps.values():
+            parts = (mp.get("firstLastName") or "").split()
+            if len(parts) < 2 or not first.startswith(stem(parts[0])):
+                continue
+            surname, given = [x.lower() for x in parts[-1].split("-")], last.split("-")
+            sure = lambda s: s[:3] if loose else stem(s)
+            if len(surname) == len(given) and all(g.startswith(sure(s)) for s, g in zip(surname, given)):
+                score = common(first, parts[0].lower()) + sum(common(g, s) for s, g in zip(surname, given))
+                if not best or score > best[0]:
+                    best = (score, mp["id"])
+        if best:
+            return best[1]
+    return None
+
+
 def club_on(history, day):
     """Club an MP sat in on `day` (YYYY-MM-DD), from the club history."""
     if not history:
