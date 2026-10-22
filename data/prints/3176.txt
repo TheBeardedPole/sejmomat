@@ -1,0 +1,395 @@
+                                                                      Druk nr 3176
+                                                               Warszawa, 19 czerwca 2026 r.
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+        X kadencja
+
+
+                                                             Pan
+                                                             Włodzimierz Czarzasty
+                                                             Marszałek Sejmu
+                                                             Rzeczypospolitej Polskiej
+
+
+
+
+         Na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej i na podstawie
+ art. 32 ust. 2 regulaminu Sejmu niżej podpisani posłowie wnoszą projekt ustawy:
+
+
+
+  - o zmianie ustawy - Prawo komunikacji
+   elektronicznej.
+
+      Do reprezentowania wnioskodawców w pracach nad projektem ustawy
+ upoważniamy pana posła Michała Gramatykę.
+
+
+  (-) Agnieszka Buczyńska; (-) Adam Gomoła; (-) Piotr Górnikiewicz; (-) Michał
+ Gramatyka;      (-) Bożenna Hołownia;       (-) Szymon Hołownia;     (-) Marek
+ Jakubiak;     (-) Marcin   Józefaciuk;     (-) Maciej   Konieczny;   (-) Janusz
+ Kowalski; (-) Paweł Kukiz; (-) Paulina Matysiak; (-) Joanna Mucha; (-) Łukasz
+ Osmalak; (-) Bartłomiej Pejo; (-) Ireneusz Raś; (-) Tomasz Rzymkowski; (-) Ewa
+ Schädler; (-) Marta Stożek; (-) Piotr Paweł Strach; (-) Paweł Śliz; (-) Jacek
+ Tomczak; (-) Wioleta Tomczak; (-) Marek Wesoły; (-) Patryk Wicher; (-) Kamil
+ Wnuk; (-) Adrian Zandberg; (-) Marcelina Zawisza.
+
+
+
+
+               Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                   PROJEKT
+
+
+                                        U S T AWA
+
+                                      z dnia … 2026 r.
+
+                  o zmianie ustawy - Prawo komunikacji elektronicznej
+
+
+     Art. 1. W ustawie z dnia 12 lipca 2024 r. - Prawo komunikacji elektronicznej (Dz. U. poz.
+1221, z 2025 r. poz. 637 i 820 oraz z 2026 r. poz. 252) po art. 396 dodaje się art. 396a w
+brzmieniu:
+          „Art. 396a. 1. Przedsiębiorca telekomunikacyjny obowiązany jest udostępniać, na
+     wniosek, dostawcy usług płatniczych lub organizacji płatniczej zestawienie numerów
+     telefonu, które zostały przydzielone abonentowi i które w związku z rozwiązaniem
+     umowy o świadczenie usług komunikacji elektronicznej mogą zostać przydzielone
+     innemu abonentowi.
+          2. Obowiązek, o którym mowa w ust. 1, powstaje, jeżeli przy wykonywaniu
+     transakcji płatniczych w ramach usługi płatniczej świadczonej przez dostawcę usług
+     płatniczych albo schematu płatniczego prowadzonego przez organizację płatniczą jest
+     wykorzystywany unikatowy identyfikator powiązany z numerem telefonu.
+          3. Udostępnienie zestawienia, o którym mowa w ust. 1, jest nieodpłatne, nie częściej
+     niż raz w miesiącu, w terminie 14 dni od dnia doręczenia wniosku. Przedsiębiorca
+     telekomunikacyjny, za udostępnienie zestawienia z większą częstotliwością, może
+     pobierać opłatę nieprzekraczającą uzasadnionych kosztów jego sporządzenia i
+     udostępnienia.
+          4. Dostawca usług płatniczych lub organizacja płatnicza wykorzystują zestawienie,
+     o którym mowa w ust. 1, w celu usunięcia albo aktualizacji powiązania numeru telefonu
+     z numerem rachunku płatniczego wykorzystywanego jako unikatowy identyfikator przy
+     wykonywaniu transakcji płatniczych.”
+
+     Art. 2. Pierwszy wniosek o udostępnienie zestawienia, o którym mowa w art. 396a ust. 1
+ustawy zmienianej w art. 1, złożony w terminie 30 dni od dnia wejścia w życie niniejszej
+ustawy, może obejmować numery telefonów, które w okresie 12 miesięcy poprzedzających
+dzień wejścia w życie niniejszej ustawy mogły zostać przydzielone innemu abonentowi w
+związku z rozwiązaniem umowy o świadczenie usług komunikacji elektronicznej.
+
+     Art. 3. Ustawa wchodzi w życie po upływie 3 miesięcy od dnia ogłoszenia.
+                                           –2–
+
+
+                                    UZASADNIENIE
+
+
+     Celem ustawy jest zwiększenie pewności i bezpieczeństwa obrotu płatniczego w zakresie
+przelewów realizowanych z wykorzystaniem unikatowego identyfikatora powiązanego z
+numerem telefonu (tzw. przelewów na telefon). Projekt zmierza do wyeliminowania ryzyka
+błędnej adresacji środków pieniężnych wynikającego z ponownego przydziału numerów
+telefonu oraz utrzymywania się nieaktualnych powiązań numeru telefonu z numerem rachunku
+płatniczego.
+
+     Na krajowym rynku płatniczym w ostatnich kliku latach zaobserwować można
+błyskawiczny wzrost popularności przelewów na telefon realizowanych w modelu P2P (peer
+to peer). W 2025 r. w Polsce zrealizowano ponad 700 mln takich transferów pieniężnych.
+
+     Cechą charakterystyczną tego rodzaju przelewów jest unikatowy identyfikator
+użytkownika (odbiorcy przelewu) powiązany z numerem telefonu. Dzięki temu użytkownicy
+aplikacji mobilnych wydawanych przez banki mogą wysłać natychmiastowe przelewy do
+innych użytkowników. Numery telefonów użytkowników oraz powiązane z nimi numery
+rachunków bankowych są rejestrowane przez banki oraz innych dostawców usług płatniczych
+podczas aktywacji aplikacji. W chwili, gdy użytkownik zleca realizację przelewu na telefon,
+do bazy schematu płatniczego obsługującego takie przelewy trafia zapytanie autoryzacyjne
+zawierające numer telefonu, zaś w odpowiedzi zwracany jest numeru rachunku bankowego, na
+który ma być wysłany przelew. Zdarzają się jednak przypadki, kiedy przelewy na telefon nie
+trafiają do właściwych odbiorców.
+
+     Przyczyną takich zdarzeń są następujące okoliczności:
+
+     a) numer telefonu został zarejestrowany przez bank w bazie operatora schematu
+płatniczego w czasie, gdy był on w posiadaniu poprzedniego właściciela tego numeru telefonu,
+tym samym zostając powiązanym z numerem rachunku bankowego wskazanym przez bank
+dokonujący rejestracji,
+
+     b) poprzedni posiadacz numeru telefonu przestał być jego posiadaczem - umowa
+pomiędzy klientem i operatorem telekomunikacyjnym została rozwiązana przez którąś ze stron,
+
+     c) poprzedni posiadacz numer telefonu nie poinformował banku o tym, że zmienił numer
+telefonu i nie zamknął swojego rachunku prowadzonego przez ten bank.
+                                            –3–
+
+
+     W przypadkach, gdy zajdą łącznie wszystkie wymienione powyżej okoliczności,
+dochodzi do sytuacji, w której przelew wysłany na numer telefonu trafia na rachunek innej
+osoby niż rachunek aktualnego posiadacza tego numeru.
+
+     Projekt dodaje do ustawy Prawo komunikacji elektronicznej nowy art. 396a, który:
+
+     a) nakłada na przedsiębiorcę telekomunikacyjnego obowiązek udostępniania, na wniosek,
+dostawcy usług płatniczych lub organizacji płatniczej zestawienia numerów telefonu, które
+zostały przydzielone abonentowi i które w związku z rozwiązaniem umowy o świadczenie
+usług komunikacji elektronicznej mogą zostać przydzielone innemu abonentowi,
+
+     b) określa tryb udostępniania - nieodpłatnie, nie częściej niż raz w miesiącu, w terminie
+14 dni od dnia doręczenia wniosku, z możliwością pobierania opłaty (w wysokości
+nieprzekraczającej uzasadnionych kosztów) za udostępnianie w przypadku większej
+częstotliwości,
+
+     c) wskazuje cel wykorzystania zestawienia.
+
+     Projekt nie wprowadza odrębnych definicji. Użyte w projekcie pojęcia używane są przez
+ustawodawcę w ustawie z dnia 19 sierpnia 2011 r. o usługach płatniczych (Dz. U. z 2026 r.
+poz. 623, z późn. zm.).
+
+     Wprowadzenie postulowanej zmiany przyczyni do zwiększenia pewności obrotu
+płatniczego w Polsce oraz poziomu bezpieczeństwa klientów korzystających z usług
+płatniczych, gdyż wydatnie obniży ryzyko niewłaściwej adresacji transferowanych środków
+pieniężnych. W praktyce proponowana zmiana pomoże uchronić wiele osób korzystających z
+przelewów P2P przed potencjalnymi niedogodnościami wynikającymi z konieczności
+podejmowania skomplikowanych działań ukierunkowanych na odzyskanie środków
+pieniężnych, które w wielu przypadkach nie trafiły do właściwych adresatów właśnie z takiego
+powodu, iż banki nie otrzymują informacji o zmianie numerów telefonów od swoich klientów.
+
+     Należy wskazać, iż w środowiskach zajmujących się kwestiami bezpieczeństwa obrotu
+bezgotówkowego wyżej opisany problem kwalifikowany jest jako podatność mogąca ułatwiać
+realizację wyłudzeń środków pieniężnych z wykorzystaniem tej usługi. Operatorzy schematów
+płatniczych ani Policja nie dysponują konkretnymi danymi ilustrującymi skalę tego zjawiska.
+Możliwe jest jednak wykorzystywanie przez przestępców mechanizmu wprowadzania przez
+operatorów telekomunikacyjnych numerów telefonów do puli recyklingowej do wyłudzania
+środków dzięki wykorzystywaniu wcześniejszych powiązań takich numerów z numerami
+                                              –4–
+
+
+rachunków płatniczych (w tym IBAN) otwieranymi przy wykorzystaniu tzw. „słupów”. Jeżeli
+nieświadomy tego wcześniejszego powiązania nowy posiadacz numeru telefonu z puli
+recyklingowej nie podejmie żadnej akcji, środki pieniężne wysyłane przez nadawców
+przelewów P2P przy wykorzystaniu takiego scenariusza nie zasilają rachunku tego nowego
+posiadacza numeru telefonu, lecz rachunki płatnicze otwarte przez przestępców.
+
+        Skutki społeczne - wzrost bezpieczeństwa użytkowników wykonujący przelewy na
+telefon, ograniczenie przypadków błędnej adresacji środków oraz wyłudzeń wykorzystujących
+recykling numerów.
+
+        Skutki gospodarcze - obniżenie strat z tytułu błędnych transferów i nadużyć oraz kosztów
+obsługi reklamacji i odzyskiwania środków po stronie sektora płatniczego. Po stronie
+przedsiębiorców telekomunikacyjnych powstają koszty dostosowania tj. przygotowanie i
+udostępnianie zestawień.
+
+        Projekt zawiera przepis przejściowy, zgodnie z którym pierwszy wniosek złożony w
+terminie 30 dni od dnia wejścia w życie ustawy może objąć także numery telefonu zwolnione
+w okresie 12 miesięcy poprzedzających ten dzień.
+
+        Ustawa wejdzie w życie po upływie 3 miesięcy od dnia ogłoszenia. Vacatio legis jest
+zgodne z art. 4 ust. 1 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów normatywnych i
+niektórych innych aktów prawnych (Dz. U. z 2019 r. poz. 1461). Termin wejścia w życie
+uzasadnione jest potrzebą dostosowawczą na wdrożenie procesów po stronie przedsiębiorców
+telekomunikacyjnych oraz sektora płatniczego.
+
+        Projekt nie powoduje bezpośrednich skutków dla budżetu państwa i jednostek samorządu
+terytorialnego.
+
+        Projekt nie wymaga wydania aktów wykonawczych.
+
+        Projekt nie określa zasad podejmowania, wykonywania lub zakończenia działalności
+gospodarczej, zgodnie z ustawą z dnia 6 marca 2018 r. – Prawo przedsiębiorców. Nowy
+obowiązek dotyczy wszystkich przedsiębiorców telekomunikacyjnych, dlatego może mieć
+wpływ na podmioty z sektora MŚP. Dla mniejszych przedsiębiorców istotny jest jednorazowy
+koszt     przygotowania    procesu   sporządzania    zestawień,   mechanizm    odpłatności   za
+udostępnianie z częstotliwością większą niż miesięczna będzie łagodzić to obciążenie.
+
+        Przedkładany projekt ustawy jest zgodny z prawem Unii Europejskiej.
+                                            –5–
+
+
+     Projekt ustawy nie wymaga przedłożenia właściwym instytucjom i organom Unii
+Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii, dokonania
+powiadomienia, konsultacji albo uzgodnienia.
+
+     Projekt nie podlega procedurze notyfikacji.
+                       DEKLAROWANE SKUTKI REGULACJI (DSR)
+                                projektu ustawy
+
+
+
+Informacja o projekcie
+   a) Tytuł projektu:
+
+ Projekt ustawy o zmianie ustawy – Prawo komunikacji elektronicznej
+
+
+
+   b) Przedstawiciel wnioskodawcy:
+
+     Pan poseł Michał Gramatyka
+
+
+
+
+I. Część wstępna
+[1] Zwięzły opis zidentyfikowanego problemu i proponowanych rozwiązań.
+ a) Jaki problem jest rozwiązywany i jaka jest skala tego problemu:
+ Przelewy na telefon stały się jednym z podstawowych instrumentów płatności natychmiastowych. W
+ 2025 r. zrealizowano w Polsce ponad 700 mln takich transferów. Numer telefonu pełni w nich rolę
+ unikatowego identyfikatora powiązanego z numerem rachunku płatniczego.
+
+ Zidentyfikowany problem polega na tym, że po rozwiązaniu umowy przez dotychczasowego
+ abonenta numer telefonu wraca do puli numeracyjnej i może zostać przydzielony nowemu
+ abonentowi, podczas gdy dostawca usług płatniczych nie jest informowany o zmianie i nie usuwa
+ wcześniejszego powiązania. W efekcie przelew skierowany na numer telefonu może trafić na
+ rachunek powiązany z tym numerem w przeszłości, a nie na rachunek aktualnego posiadacza
+ numeru. Zjawisko jest kwalifikowane jako podatność mogąca ułatwiać wyłudzenia (m.in. z
+ wykorzystaniem rachunków zakładanych przez tzw. „słupy" i powiązań numerów z puli
+ recyklingowej).
+
+ b) Zwięzły opis proponowanych rozwiązań:
+ Projekt dodaje do ustawy Prawo komunikacji elektronicznej nowy art. 396a, który:
+ a) nakłada na przedsiębiorcę telekomunikacyjnego obowiązek udostępniania, na wniosek, dostawcy
+ usług płatniczych lub organizacji płatniczej zestawienia numerów telefonu, które zostały przydzielone
+ abonentowi i które w związku z rozwiązaniem umowy o świadczenie usług komunikacji elektronicznej
+ mogą zostać przydzielone innemu abonentowi,
+ b) określa tryb udostępniania - nieodpłatnie, nie częściej niż raz w miesiącu, w terminie 14 dni od dnia
+ doręczenia wniosku, z możliwością pobierania opłaty (w wysokości nieprzekraczającej
+ uzasadnionych kosztów) za udostępnianie w przypadku większej częstotliwości,
+ c) wskazuje cel wykorzystania zestawienia.
+
+ Projekt zawiera przepis przejściowy (pierwszy wniosek złożony w ciągu 30 dni od wejścia w życie
+ może objąć numery zwolnione w okresie 12 miesięcy poprzedzających ten dzień) oraz 3-miesięczne
+ vacatio legis.
+
+ c) Skutki braku zmiany stanu obecnego:
+
+
+
+                                                    1
+ Utrzymanie ryzyka błędnej adresacji środków i związanych z nim strat oraz kosztów odzyskiwania
+ środków i obsługi reklamacji, a także utrzymanie podatności wykorzystywanej do wyłudzeń. W
+ obecnym stanie prawnym brak jest podstawy zobowiązującej przedsiębiorców telekomunikacyjnych
+ do przekazywania sektorowi płatniczemu informacji o zwalnianych numerach. Brak interwencji
+ oznacza utrwalenie luki.
+
+
+[2] Czy były rozważane rozwiązania alternatywne?
+     Nie
+ Cel, który ma być osiągnięty za pomocą przedmiotowego projektu ustawy nie może być zrealizowany
+ za pomocą innych środków niż zaproponowane w projekcie.
+
+
+II. Wymogi określone w art. 34 ust. 2 pkt 3-5 regulaminu Sejmu
+[3] Jakie są przewidywane skutki prawne projektowanych rozwiązań?
+ Różnica między dotychczasowym a projektowanym stanem prawnym. Obecnie brak jest przepisu
+ zobowiązującego przedsiębiorców telekomunikacyjnych do udostępniania sektorowi płatniczemu
+ informacji o zwalnianych numerach telefonu.
+ Projekt dodaje art. 396a, ustanawiający taki obowiązek wraz z trybem jego realizacji i celem
+ wykorzystania danych.
+
+ Projekt zachowuje spójność systemową i terminologiczną. Projekt nie wprowadza odrębnych definicji,
+ tylko stosuje pojęcia z ustawy z dnia 19 sierpnia 2011 r. o usługach płatniczych. Regulacje dzięki
+ temu zapewnią spójność terminologiczną z reżimem prawa płatniczego.
+
+ Przepis przejściowy umożliwi objęcie pierwszym wnioskiem numerów zwolnionych w okresie 12
+ miesięcy poprzedzających wejście w życie ustawy, co pozwala na jednorazowe usunięcie zaległych,
+ nieaktualnych powiązań.
+
+ Trzymiesięczne vacatio legis zapewnia czas dostosowawczy na wdrożenie procesów po stronie
+ przedsiębiorców telekomunikacyjnych oraz sektora płatniczego.
+
+
+[4] Jakie są przewidywane skutki społeczne projektowanych rozwiązań?
+ a) Podmioty, na które oddziałuje projekt:
+ - użytkownicy usług płatniczych korzystający z przelewów na telefon (płatnicy i odbiorcy), w
+ szczególności konsumenci;
+ - pośrednio osoby, którym przydzielono numery telefonu z puli recyklingowej.
+
+ b) Liczebność:
+ ponad 700 mln przelewów na telefon zrealizowanych w 2025 r.
+
+ C) Korzyści i koszty:
+ - korzyści mają charakter niepieniężny (bezpieczeństwo, pewność obrotu).
+ - nie identyfikuje się skutków negatywnych w sferze społecznej.
+
+
+[5] Jakie są przewidywane skutki gospodarcze projektowanych rozwiązań?
+a) Podmioty, na które wpływa projekt:
+
+- przedsiębiorcy telekomunikacyjni przydzielający numery telefonu;
+
+
+
+
+                                                  2
+- dostawcy usług płatniczych (banki, spółdzielcze kasy oszczędnościowo-kredytowe, instytucje
+płatnicze, instytucje pieniądza elektronicznego) oraz organizacje płatnicze prowadzące schematy
+płatnicze.
+
+b) Liczebność:
+
+- liczbę podmiotów zobowiązanych można ustalić na podstawie rejestru przedsiębiorców
+telekomunikacyjnych prowadzonego przez Prezesa UKE;
+
+- organizacja płatnicza prowadząca krajowy schemat przelewów na telefon oraz uczestniczące w nim
+instytucje finansowe.
+
+c) Korzyści i koszty:
+
+Przewiduje się dodatni bilans gospodarczy (uniknięte straty i koszty obsługi przewyższające koszty
+dostosowania), przy czym koszty po stronie zobowiązanej mają w przeważającej części charakter
+jednorazowy.
+
+[6] Jakie są przewidywane skutki finansowe projektowanych rozwiązań,
+w szczególności wpływ na sektor finansów publicznych, w tym na budżet państwa
+i budżety jednostek samorządu terytorialnego?
+ Projekt nie powoduje bezpośrednich skutków dla budżetu państwa i jednostek samorządu
+ terytorialnego.
+
+
+[7] Wykaz źródeł finansowania, jeśli projekt ustawy pociąga za sobą obciążenie
+budżetu państwa lub budżetów jednostek samorządu terytorialnego.
+ Projekt nie pociąga za sobą obciążenia budżetu państwa. W odniesieniu do budżetów JST projekt
+ nie nakłada obowiązkowych wydatków.
+
+
+[8] Czy projekt ustawy podlega procedurze notyfikacyjnej?
+    Nie
+
+III. Wymogi określone w art. 34 ust. 2a i 2b regulaminu Sejmu
+
+
+[9] Czy projekt ustawy zawiera przepisy określające zasady podejmowania,
+wykonywania lub zakończenia działalności gospodarczej (art. 34 ust. 2a regulaminu
+Sejmu)?
+    Nie
+Projekt nie określa zasad podejmowania, wykonywania ani zakończenia działalności gospodarczej w
+rozumieniu ustawy z dnia 6 marca 2018 r. - Prawo przedsiębiorców, lecz nakłada na przedsiębiorców
+telekomunikacyjnych odrębny obowiązek sektorowy o charakterze regulacyjnym. W konsekwencji nie
+zachodzi obowiązek przedstawienia wyników analiz.
+
+[10] Czy wdrożenie projektowanych przepisów spowoduje obciążenia administracyjne
+mikroprzedsiębiorców, małych i średnich przedsiębiorców (art. 34 ust. 2a regulaminu
+Sejmu)?
+    Nie
+
+
+                                                3
+Obowiązek dotyczy wszystkich przedsiębiorców telekomunikacyjnych przydzielających numery
+telefonu. Zmiany obejmą dużych przedsiębiorców, jednak mogą mieć pośredni wpływ na sektor MŚP.
+W projekcie dąży się do proporcjonalnego ograniczania obciążeń administracyjnych przedsiębiorców
+przez:
+- ustanowienie obowiązku jako realizowanego wyłącznie na wniosek (brak obowiązku stałego,
+samoczynnego raportowania);
+- ustalenie nieodpłatnego udostępniania nie częściej niż raz w miesiącu, z możliwością pobierania opłaty
+za udostępnianie częstsze, co przenosi koszty zwiększonej częstotliwości na podmiot wnioskujący;
+- ograniczenie zakresu danych do zestawienia numerów telefonu, bez nakładania dodatkowych
+wymogów sprawozdawczych.
+
+[11] Czy projekt ustawy zawiera przepisy regulacyjne lub określa wymogi dotyczące
+świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r.
+o zasadach uznawania kwalifikacji zawodowych nabytych w państwach członkowskich
+Unii Europejskiej (art. 34 ust. 2b regulaminu Sejmu)?
+     Nie
+
+
+
+
+                                                   4
+

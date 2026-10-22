@@ -1,0 +1,443 @@
+                                                                      Druk nr 1079
+                                                                 Warszawa, 21 lutego 2025 r.
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+        X kadencja
+
+
+
+
+                                                             Pan
+                                                             Szymon Hołownia
+                                                             Marszałek Sejmu
+                                                             Rzeczypospolitej Polskiej
+
+
+         Na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej i na podstawie
+ art. 32 ust. 2 regulaminu Sejmu niżej podpisani posłowie wnoszą projekt ustawy:
+
+  - o zmianie ustawy - Prawo o ruchu drogowym.
+      Do reprezentowania wnioskodawców w pracach nad projektem ustawy
+ upoważniamy pana posła Grzegorza Adama Płaczka.
+
+
+ (-) Konrad Berkowicz; (-) Karina Anna Bosak; (-) Krzysztof Bosak; (-) Bronisław
+ Foltyn;     (-) Roman      Fritz;   (-) Sławomir    Mentzen;       (-) Krzysztof
+ Mulawa;     (-) Bartłomiej Pejo; (-) Grzegorz Adam Płaczek;           (-) Michał
+ Połuboczek; (-) Włodzimierz Skalik; (-) Krzysztof Szymański; (-) Krzysztof
+ Tuduj; (-) Michał Wawer; (-) Ryszard Wilk; (-) Przemysław Wipler; (-) Andrzej
+ Tomasz Zapałowski.
+
+
+
+
+               Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                    Projekt
+                                        U S T AWA
+
+                                    z dnia ……… 2025 r.
+
+                      o zmianie ustawy – Prawo o ruchu drogowym
+
+
+     Art. 1. W ustawie z dnia 20 czerwca 1997 r. – Prawo o ruchu drogowym (t.j. Dz. U. z
+2023 r. poz. 1047, 919, 1053, 1088, 1123, 1193, 1234, 1394, 1720, 1723, 2029, z 2024 r. poz.
+834) w art. 60 w ust. 2 pkt 3 otrzymuje brzmienie:
+     „3) pozostawiania pracującego silnika podczas postoju na obszarze zabudowanym; nie
+          dotyczy to pojazdu wykonującego czynności na drodze lub autobusu;”.
+
+     Art. 2. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                      UZASADNIENIE
+1. Potrzeba i cel wydania ustawy oraz rzeczywisty stan w dziedzinie, która ma być
+unormowana
+       Celem projektu ustawy jest umożliwienie kierującym autobusami pozostawiania
+pracującego silnika podczas postoju na obszarze zabudowanym.
+       Adekwatnym i jedynym środkiem do osiągnięcia tego celu jest zmiana w art. 60 ustawy
+z dnia 20 czerwca 1997 r. – Prawo o ruchu drogowym (t.j. Dz. U. z 2023 r. poz. 1047, 919,
+1053, 1088, 1123, 1193, 1234, 1394, 1720, 1723, 2029, z 2024 r. poz. 834), dalej: „Prawo
+o ruchu drogowym”, w ust. 2 pkt 3 poprzez wprowadzenie kolejnego wyjątku od ogólnego
+zakazu pozostawiania pracującego silnika podczas postoju na obszarze zabudowanym.
+        Stosownie do obowiązującej treści art. 60 ust. 2 pkt 3 Prawa o ruchu drogowym zabrania
+się kierującemu pozostawiania pracującego silnika podczas postoju na obszarze zabudowanym,
+przy czym nie dotyczy to pojazdu wykonującego czynności na drodze. Art. 2 pkt 30 tej ustawy
+definiuje postój pojazdu jako unieruchomienie pojazdu niewynikające z warunków lub
+przepisów ruchu drogowego, trwające dłużej niż 1 minutę. Konsekwencją niezastosowania się
+kierującego pojazdem do powyższego zakazu jest wypełnienie znamion wykroczenia z art. 97
+ustawy z dnia 20 maja 1971 r. – Kodeks wykroczeń (t.j. Dz. U. z 2023 r. poz. 2119, z 2024 r.
+poz. 1907), dalej: „KW”, a więc wykroczenie przez uczestnika ruchu lub inną osobę znajdującą
+się na drodze publicznej, w strefie zamieszkania lub strefie ruchu, a także właściciela lub
+posiadacza pojazdu „przeciwko innym przepisom ustawy z dnia 20 czerwca 1997 r. - Prawo
+o ruchu drogowym lub przepisom wydanym na jej podstawie”, co jest zagrożone karą grzywny
+do 3000 złotych albo karą nagany.
+
+       Przepisy te są nieadekwatne do niektórych technicznych aspektów użytkowania m.in.
+autobusów komunikacji miejskiej i stoją w sprzeczności z zaleceniami większości producentów
+takich autobusów. Przykładowo, można wskazać następujące fragmenty instrukcji obsługi
+autobusów użytkowanych w komunikacji miejskiej pochodzących od różnych producentów:
+
+1)       instrukcja obsługi autobusu Autosan M09LE:
+     -    „pozostawić silnik pracujący na wolnych obrotach przez 3 do 5 minut przed
+          przystąpieniem do jazdy”,
+     -    „po pracy silnika, przed jego wyłączeniem pozostawić go na wolnych obrotach przez 3-
+          5 min. Zapewni to schłodzenie silnika i turbosprężarki”;
+
+2)       instrukcja obsługi autobusu Solaris Urbino 12 Euro 6:
+     -    „przed wyłączeniem silnika po dłuższej jeździe, należy zawsze pozostawić go na kilka
+          minut na wolnych obrotach minimalnie przez 1 minutę (zaleca się 5-6 minut)”,
+     -    „przed wyłączeniem silnika należy pozwolić mu przez okres 5-6 minut popracować na
+          wolnych obrotach w celu wychłodzenia turbosprężarki”;
+
+
+
+                       Konfederacja Wolność i Niepodległość | konfederacja.pl
+3)   instrukcja obsługi autobusu MAN Lion’s Intercity 13LE: „silnika nie wyłączać od razu,
+     lecz pozwolić mu pracować nadal przez 1-2 minuty i włączyć ogrzewanie na pełną moc.
+     W ten sposób można z powrotem ochłodzić silnik.”;
+4)   instrukcja obsługi autobusu Mercedes-Benz Citaro Euro 6: „Po wystąpieniu dużego
+     obciążenia (np. jazdy pod górę) na postoju należy pozostawić silnik pracujący jeszcze
+     przez ok. 2 minuty, aby turbosprężarka zasilana spalinami mogła ostygnąć.”.
+
+       Producenci autobusów zastrzegają przy tym, że nie ponoszą odpowiedzialności za
+uszkodzenia wynikające z przyczyn związanych z nieprzestrzeganiem zaleceń instrukcji
+obsługi. Nieprzestrzeganie tych zaleceń może zatem narazić operatora komunikacji miejskiej
+na szkodę majątkową (uszkodzenie autobusu), której nie obejmuje gwarancja producenta
+pojazdu.
+
+       Istotną kwestią są także techniczne aspekty funkcjonowania układów pneumatycznych,
+a także systemów informacji pasażerskiej, w tym wyświetlaczy, którym do pełnego
+uruchomienia i właściwego działania często nie wystarcza energia pochodząca
+z akumulatorów, a uruchomienie silnika na 1 minutę przed rozpoczęciem jazdy nie gwarantuje
+ich pełnej funkcjonalności. Przy częstym korzystaniu z funkcji tzw. „ciepłego guzika”
+(otwieranie i zamykanie drzwi) zużywane jest sprężone powietrze co powoduje konieczność
+jego uzupełnienia, na co nie zawsze wystarcza 1 minuta. W przypadku wyłączenia systemu
+informacji pasażerskiej czas potrzebny na ponowne uruchomienie również wynosi powyżej
+1 minuty. W autobusach wyposażonych w blokady alkoholowe procedura sprawdzania
+trzeźwości kierowcy może trwać nawet powyżej 3 minut, na co składa się uruchomienie
+systemu, nagrzanie się urządzenia analizującego do właściwej temperatury, wdmuchanie
+próbki powietrza, analiza próbki, ewentualne pobranie kolejnej próbki powietrza (np. w sytuacji
+niedostatecznej ilości podczas próby) oraz podanie wyniku.
+
+        Należy również podkreślić, że standardową procedurą usuwania usterek urządzeń
+i systemów elektronicznych, w które wyposażone są współczesne autobusy, jest ich pełen reset.
+Przywrócenie pełnych parametrów pracy po takim resecie (np. uruchomienie właściwej
+informacji pasażerskiej lub działania systemu kasowników z biletomatem) z pewnością
+przekracza okres 1 minuty i w praktyce może zająć ok. 5 minut.
+
+       Z uwagi na powyższe kwestie, kierujący autobusem, który prawidłowo wykonuje swoje
+obowiązki związane z właściwą eksploatacją pojazdu i pozostających na wyposażeniu urządzeń
+i systemów elektronicznych, naraża się na odpowiedzialność wykroczeniową za
+nieprzestrzeganie przepisów prawa o ruchu drogowym. Z drugiej strony, przestrzeganie
+przepisów ustawy może spowodować poniesienie odpowiedzialności pracowniczej, jak
+również odszkodowawczej za szkodę wyrządzoną w mieniu pracodawcy.
+
+        Należy przy tym podkreślić, że niejednokrotnie obowiązek stosowania wyżej
+wymienionych urządzeń i systemów narzucony jest na operatora przez umowę z organizatorem
+publicznego transportu zbiorowego i zabezpieczony szeregiem kar umownych. Zgodnie z art.
+25 ust. 3 pkt 5 ustawy z dnia 16 grudnia 2010 r. o publicznym transporcie zbiorowym (t.j. Dz.
+U. z 2023 r. poz. 2778, z 2024 r. poz. 1583) obligatoryjnym elementem umowy o świadczenie
+usług w zakresie publicznego transportu zbiorowego jest określenie wymagań w stosunku do
+środków transportu, w tym dotyczących wprowadzania nowoczesnych rozwiązań
+technicznych.
+
+
+
+
+                    Konfederacja Wolność i Niepodległość | konfederacja.pl
+       Art. 60 ust. 2 pkt 3 Prawa o ruchu drogowym w obecnym brzmieniu prowadzi tym
+samym do powstania kolizji obowiązków zarówno po stronie kierującego autobusem
+komunikacji miejskiej, który jest bezpośrednim adresatem normy wynikającej z tego przepisu,
+jak również po stronie przedsiębiorcy będącego operatorem publicznego transportu zbiorowego
+w komunikacji miejskiej, związanego postanowieniami umowy z organizatorem.
+
+        Regulacje ustawowe powinny zapewniać adresatom nie tylko bezpieczeństwo prawne,
+lecz także w pełni zakładać przewidywalność co do tego, w jakim stopniu ich realizacja może
+wpływać na ukształtowanie ich pozycji prawnej jednostki w poszczególnych sytuacjach.
+Niedopuszczalne jest nakładanie obowiązków niemożliwych do spełnienia. Negatywne
+konsekwencje obecnej treści art. 60 ust. 2 pkt 3 Prawa o ruchu drogowym osłabiają zaufanie
+obywatela do państwa i prawa przez nie stanowionego, nie rekompensując tego skutku
+konieczną ochroną innych, konstytucyjnie uznawanych wartości, wobec czego proponowana
+nowelizacja wydaje się konieczna i uzasadniona.
+2. Przewidywane skutki prawne           w    tym   różnica    pomiędzy dotychczasowym
+a projektowanym stanem prawnym
+      W celu osiągnięcia wskazanych powyżej celów należy dokonać zmiany w art. 60 w ust.
+2 Prawa o ruchu drogowym polegającej na zmianie treści pkt 3 z:
+       „3) pozostawiania pracującego silnika podczas postoju na obszarze zabudowanym; nie
+dotyczy to pojazdu wykonującego czynności na drodze;”, na:
+       „3) pozostawiania pracującego silnika podczas postoju na obszarze zabudowanym; nie
+dotyczy to pojazdu wykonującego czynności na drodze lub autobusu;”.
+       W konsekwencji przepis zakazujący, stanowiący ogólną zasadę, zgodnie z którym
+„zabrania się kierującemu pozostawiania pracującego silnika podczas postoju na obszarze
+zabudowanym; nie dotyczy to pojazdu wykonującego czynności na drodze” zostanie
+ograniczony wyjątkiem, dzięki któremu kierujący autobusem będzie miał możliwość
+pozostawienia pracującego silnika podczas postoju na obszarze zabudowanym.
+        Projektowana ustawa zniesie tym samym wskazaną powyżej kolizję obowiązków po
+stronie kierującego autobusem komunikacji miejskiej, który jest bezpośrednim adresatem
+normy wynikającej z obecnego brzmienia przepisów oraz po stronie przedsiębiorcy będącego
+operatorem publicznego transportu zbiorowego w komunikacji miejskiej, związanego
+postanowieniami umowy z organizatorem.
+       Projektowane regulacje zapewnią bezpieczeństwo prawne i zmienią niedopuszczalną
+sytuację, w której nakładane są obowiązki niemożliwe do spełnienia, przez co przyczynią się
+do zwiększenia zaufania obywatela do państwa i prawa przez nie stanowionego.
+
+       Projektowana ustawa jest zgodna z prawem Unii Europejskiej.
+
+      Projektowane rozwiązania są spójne z dotychczasowymi regulacjami pod kątem
+systemowym i terminologicznym.
+
+       Projektowane rozwiązania są zgodne z Konstytucją RP, w tym z konstytucyjnym
+standardem ochrony wolności i praw.
+
+
+
+
+                   Konfederacja Wolność i Niepodległość | konfederacja.pl
+       Nie ma możliwości osiągnięcia celu projektu za pomocą innych środków niż zmiana
+przepisów.
+3. Przewidywane skutki społeczne, gospodarcze, finansowe
+   1) Skutki społeczne i gospodarcze
+       Projektowana ustawa przyniesie pozytywne skutki społeczne i gospodarcze.
+       Po pierwsze, dzięki zmianom w przepisach, kierowcy autobusów będą mogli zgodnie
+z prawem przestrzegać technicznych aspektów użytkowania m.in. autobusów komunikacji
+miejskiej i zaleceń większości producentów takich autobusów, co wpłynie pozytywnie na stan
+techniczny autobusów. Lepszy stan techniczny autobusów spowoduje mniejsze potrzeby w
+zakresie ich naprawy lub wymiany na nowsze, gdy dojdzie do niedającej się usunąć awarii, co
+wpłynie pozytywnie na stan finansów jednostek samorządu terytorialnego, które ponoszą
+koszty naprawy starych lub zakupu nowych autobusów. Umożliwienie zgodnego z prawem
+powszechnie obowiązującym przestrzegania zaleceń producentów zmniejszy także ryzyko
+ponoszenia przez operatora komunikacji miejskiej szkód majątkowych (uszkodzenie autobusu),
+których nie obejmuje gwarancja producenta pojazdu.
+        Po drugie, kierowcy autobusów, którzy prawidłowo wykonują swoje obowiązki
+związane z właściwą eksploatacją pojazdu i pozostających na wyposażeniu urządzeń
+i systemów elektronicznych, nie będą już więcej narażeni na odpowiedzialność wykroczeniową
+za nieprzestrzeganie przepisów Prawa o ruchu drogowym, ani na odpowiedzialność
+pracowniczą oraz odszkodowawcza za szkodę wyrządzoną w mieniu pracodawcy, co miało
+miejsce dotychczas, gdy postępowanie zgodne z przepisami prawa, było postępowaniem
+niezgodnym z umową o świadczenie usług w zakresie publicznego transportu zbiorowego.
+       Po trzecie, lepszy stan techniczny autobusów wpłynie pozytywnie na jakość
+wykonywanych przejazdów autobusowych, co spowoduje większe zadowolenie z jakości usług
+u pasażerów, a to może przełożyć się na częstsze korzystanie z komunikacji autobusowej.
+       Po czwarte, zmiany w przepisach, umożliwiające kierującym autobusami pozostawiania
+pracującego silnika podczas postoju na obszarze zabudowanym, spowodują odciążenie
+funkcjonariuszy Policji lub Straży Miejskiej, a także sędziów i pracowników sądów
+powszechnych. Funkcjonariusze nie będą musieli zajmować się ściganiem takich wykroczeń,
+a sędziowie orzekać w takich sprawach. Dzięki temu będą mogli skupić się na ściganiu
+poważniejszych wykroczeń i przestępstw oraz orzekaniu w takich sprawach.
+   2) Skutki finansowe
+      Projekt ustawy nie będzie rodził kosztów dla budżetu państwa, ani dla jednostek
+samorządu terytorialnego.
+        Ze wskazanych powyżej przyczyn stan finansów publicznych, a zwłaszcza jednostek
+samorządowych może się polepszyć z uwagi na lepszy stan techniczny autobusów, co przełoży
+się na rzadszą potrzebę napraw lub wymiany taboru, a przez to obniżenie kosztów napraw lub
+zakupów, a także na częstsze korzystanie z komunikacji autobusowej przez pasażerów, co
+będzie się wiązało z większymi wpływami z zakupu biletów.
+4. Informacje dodatkowe
+       Projekt nie był poddawany formalnym konsultacjom społecznym.
+
+
+
+                   Konfederacja Wolność i Niepodległość | konfederacja.pl
+      Projekt nie zawiera przepisów określających zasady podejmowania, wykonywania lub
+zakończenia działalności gospodarczej.
+       Wdrożenie projektowanych przepisów nie spowoduje wzrostu                   obciążeń
+administracyjnych mikroprzedsiębiorców, małych i średnich przedsiębiorców.
+       Projekt ustawy jest zgodny z przepisami ustawy z dnia 6 marca 2018 r. – Prawo
+przedsiębiorców (Dz. U. z 2024 r. poz. 236, 1222).
+         Projekt nie zawiera przepisów regulacyjnych i nie określa wymogów dotyczących
+świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r. o zasadach
+uznawania kwalifikacji zawodowych nabytych w państwach członkowskich Unii Europejskiej
+(t.j. Dz.U. z 2023 r. poz. 334).
+      Projektowana ustawa nie wymaga przedstawienia właściwym organom i instytucjom
+Unii Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii,
+dokonania powiadomienia, konsultacji albo uzgodnienia.
+       Projektowana ustawa nie zawiera przepisów technicznych i nie podlega notyfikacji
+zgodnie z przepisami rozporządzenia Rady Ministrów z dnia 23 grudnia 2002 r. w sprawie
+sposobu funkcjonowania krajowego systemu notyfikacji norm i aktów prawnych (Dz. U. poz.
+2039 oraz z 2004 r. poz. 597).
+
+
+
+
+                   Konfederacja Wolność i Niepodległość | konfederacja.pl
+                    DEKLAROWANE SKUTKI REGULACJI (DSR)
+                              projektu ustawy
+
+Informacja o projekcie
+   a) Tytuł projektu:
+ Projekt ustawy o zmianie ustawy – Prawo o ruchu drogowym.
+
+   b) Przedstawiciel wnioskodawcy:
+ Grzegorz Płaczek
+
+I. Część wstępna
+[1] Zwięzły opis zidentyfikowanego problemu i proponowanych rozwiązań.
+ Celem projektu ustawy jest umożliwienie kierującym autobusami pozostawiania pracującego
+ silnika podczas postoju na obszarze zabudowanym.
+ Adekwatnym i jedynym środkiem do osiągnięcia tego celu jest zmiana w art. 60 ustawy
+ z dnia 20 czerwca 1997 r. – Prawo o ruchu drogowym (t.j. Dz. U. z 2023 r. poz. 1047, 919,
+ 1053, 1088, 1123, 1193, 1234, 1394, 1720, 1723, 2029, z 2024 r. poz. 834), dalej: „Prawo
+ o ruchu drogowym”, w ust. 2 pkt 3 poprzez wprowadzenie kolejnego wyjątku od ogólnego
+ zakazu pozostawiania pracującego silnika podczas postoju na obszarze zabudowanym.
+ Stosownie do obowiązującej treści art. 60 ust. 2 pkt 3 Prawa o ruchu drogowym zabrania się
+ kierującemu pozostawiania pracującego silnika podczas postoju na obszarze zabudowanym,
+ przy czym nie dotyczy to pojazdu wykonującego czynności na drodze. Art. 2 pkt 30 tej
+ ustawy definiuje postój pojazdu jako unieruchomienie pojazdu niewynikające z warunków
+ lub przepisów ruchu drogowego, trwające dłużej niż 1 minutę. Konsekwencją
+ niezastosowania się kierującego pojazdem do powyższego zakazu jest wypełnienie znamion
+ wykroczenia z art. 97 ustawy z dnia 20 maja 1971 r. – Kodeks wykroczeń (t.j. Dz. U. z 2023
+ r. poz. 2119, z 2024 r. poz. 1907), dalej: “KW”, co jest zagrożone karą grzywny do 3000
+ złotych albo karą nagany.
+
+ Przepisy te są nieadekwatne do niektórych technicznych aspektów użytkowania m.in.
+ autobusów komunikacji miejskiej i stoją w sprzeczności z zaleceniami większości
+ producentów takich autobusów.
+
+ Producenci autobusów zastrzegają przy tym, że nie ponoszą odpowiedzialności za
+ uszkodzenia wynikające z przyczyn związanych z nieprzestrzeganiem zaleceń instrukcji
+ obsługi. Nieprzestrzeganie tych zaleceń może zatem narazić operatora komunikacji miejskiej
+ na szkodę majątkową (uszkodzenie autobusu), której nie obejmuje gwarancja producenta
+ pojazdu.
+
+ Istotną kwestią są także techniczne aspekty funkcjonowania układów pneumatycznych,
+ a także systemów informacji pasażerskiej, w tym wyświetlaczy, którym do pełnego
+
+
+
+                    Konfederacja Wolność i Niepodległość | konfederacja.pl
+ uruchomienia i właściwego działania często nie wystarcza energia pochodząca
+ z akumulatorów, a uruchomienie silnika na jedną minutę przed rozpoczęciem jazdy nie
+ gwarantuje ich pełnej funkcjonalności.
+
+ Należy również podkreślić, że standardową procedurą usuwania usterek urządzeń i systemów
+ elektronicznych, w które wyposażone są współczesne autobusy, jest ich pełen reset.
+ Przywrócenie pełnych parametrów pracy po takim resecie (np. uruchomienie właściwej
+ informacji pasażerskiej lub działania systemu kasowników z biletomatem) z pewnością
+ przekracza okres 1 minuty i w praktyce może zająć ok. 5 minut.
+
+ Z uwagi na powyższe kwestie, kierujący autobusem, który prawidłowo wykonuje swoje
+ obowiązki związane z właściwą eksploatacją pojazdu i pozostających na wyposażeniu
+ urządzeń i systemów elektronicznych, naraża się na odpowiedzialność wykroczeniową za
+ nieprzestrzeganie przepisów prawa o ruchu drogowym. Z drugiej strony, przestrzeganie
+ przepisów ustawy może spowodować poniesienie odpowiedzialności pracowniczej, jak
+ również odszkodowawczej za szkodę wyrządzoną w mieniu pracodawcy.
+
+[2] Czy były rozważane rozwiązania alternatywne?
+   ●   Tak
+   ●   Nie
+ Nie rozważano rozwiązań alternatywnych. Nie ma możliwości podjęcia alternatywnych,
+ w stosunku do projektowanej ustawy, środków umożliwiających osiągnięcie zamierzonego
+ celu. Adekwatnym i jedynym środkiem do jego osiągnięcia jest zmiana w art. 60 ust. 2 Prawa
+ o ruchu drogowym polegająca na zmianie brzmienia pkt 3.
+
+II. Wymogi określone w art. 34 ust. 2 pkt 3–5 regulaminu Sejmu
+[3] Jakie są przewidywane skutki prawne projektowanych rozwiązań?
+ W celu osiągnięcia wskazanych powyżej celów należy dokonać zmiany w art. 60 w ust. 2
+ Prawa o ruchu drogowym polegającej na zmianie treści pkt 3 z:
+        „3) pozostawiania pracującego silnika podczas postoju na obszarze zabudowanym;
+ nie dotyczy to pojazdu wykonującego czynności na drodze;”, na:
+        „3) pozostawiania pracującego silnika podczas postoju na obszarze zabudowanym;
+ nie dotyczy to pojazdu wykonującego czynności na drodze lub autobusu;”.
+ W konsekwencji przepis zakazujący, stanowiący ogólną zasadę, zgodnie z którym „zabrania
+ się kierującemu pozostawiania pracującego silnika podczas postoju na obszarze
+ zabudowanym; nie dotyczy to pojazdu wykonującego czynności na drodze” zostanie
+ ograniczony wyjątkiem, dzięki któremu kierujący autobusem będzie miał możliwość
+ pozostawienia pracującego silnika podczas postoju na obszarze zabudowanym.
+ Projekt zakłada, że ustawa wejdzie w życie 14 dni po jej ogłoszeniu, co jest zgodne z zasadą
+ odpowiedniego vacatio legis.
+ Projektowane rozwiązania są spójne z dotychczasowymi regulacjami pod kątem
+ systemowym i terminologicznym.
+
+
+
+
+                    Konfederacja Wolność i Niepodległość | konfederacja.pl
+ Projektowane rozwiązania są zgodne z Konstytucją RP, w tym z konstytucyjnym standardem
+ ochrony wolności i praw.
+ Projektowana ustawa nie jest sprzeczna z prawem Unii Europejskiej.
+
+[4] Jakie są przewidywane skutki społeczne projektowanych rozwiązań?
+ Projektowana ustawa przyniesie pozytywne skutki społeczne, które zostały wskazane poniżej
+ z rozbiciem na poszczególne podmioty na które wpływa projekt.
+ 1. Kierujący autobusami:
+ - będą mogli zgodnie z prawem przestrzegać technicznych aspektów użytkowania autobusów
+ i zaleceń większości producentów, co wpłynie pozytywnie na stan techniczny autobusów;
+ - nie będą narażeni na odpowiedzialność wykroczeniową za nieprzestrzeganie przepisów
+ Prawa o ruchu drogowym, ani na odpowiedzialność pracowniczą oraz odszkodowawcza za
+ szkodę wyrządzoną w mieniu pracodawcy, co miało miejsce dotychczas, gdy postępowanie
+ zgodne z przepisami prawa, było postępowaniem niezgodnym z umową o świadczenie usług
+ w zakresie publicznego transportu zbiorowego;
+ 2. Pasażerowie autobusów: lepszy stan techniczny autobusów wpłynie pozytywnie na jakość
+ wykonywanych przejazdów autobusowych, co spowoduje większe zadowolenie z jakości
+ usług u pasażerów, a to może przełożyć się na częstsze korzystanie z komunikacji
+ autobusowej.
+ 3. Jednostki samorządu terytorialnego: lepszy stan techniczny autobusów spowoduje
+ mniejsze potrzeby w zakresie ich naprawy lub wymiany na nowsze, gdy dojdzie do niedającej
+ się usunąć awarii, co zmniejszy koszty naprawy starych lub zakupu nowych autobusów;
+ 4. Operatorzy komunikacji miejskiej: zmniejszenie ryzyka ponoszenia przez operatora
+ komunikacji miejskiej szkód majątkowych (uszkodzenie autobusu), których nie obejmuje
+ gwarancja producenta pojazdu.
+ 5. Policja, Straż Miejska: odciążenie funkcjonariuszy Policji lub Straży Miejskiej, którzy nie
+ będą musieli zajmować się ściganiem wykroczeń z art. 97 KW polegających na
+ pozostawieniu pracującego silnika podczas postoju na obszarze zabudowanym przez
+ kierujących autobusami.
+ 6. Sądy powszechne: odciążenie sądownictwa; sędziowie nie będą musieli orzekać w takich
+ sprawach, przez co zmniejszy się ogólna liczba spraw w sądach.
+
+
+[5] Jakie są przewidywane skutki gospodarcze projektowanych rozwiązań?
+ Projektowana ustawa przyniesie pozytywne skutki gospodarcze, które zostały wskazane
+ poniżej z rozbiciem na poszczególne podmioty na które wpływa projekt.
+ 1. Kierujący autobusami: będą mogli zgodnie z prawem przestrzegać technicznych aspektów
+ użytkowania autobusów i zaleceń większości producentów, co wpłynie pozytywnie na stan
+ techniczny autobusów.
+ 2. Pasażerowie autobusów: lepszy stan techniczny autobusów wpłynie pozytywnie na jakość
+ wykonywanych przejazdów autobusowych, co spowoduje większe zadowolenie z jakości
+
+
+                    Konfederacja Wolność i Niepodległość | konfederacja.pl
+ usług u pasażerów, a to może przełożyć się na częstsze korzystanie z komunikacji
+ autobusowej.
+ 3. Jednostki samorządu terytorialnego: lepszy stan techniczny autobusów spowoduje
+ mniejsze potrzeby w zakresie ich naprawy lub wymiany na nowsze, gdy dojdzie do niedającej
+ się usunąć awarii, co zmniejszy koszty naprawy starych lub zakupu nowych autobusów;
+ 4. Operatorzy komunikacji miejskiej: zmniejszenie ryzyka ponoszenia przez operatora
+ komunikacji miejskiej szkód majątkowych (uszkodzenie autobusu), których nie obejmuje
+ gwarancja producenta pojazdu.
+
+[6] Jakie są przewidywane skutki finansowe projektowanych rozwiązań, w szczególności
+wpływ na sektor finansów publicznych, w tym na budżet państwa i budżety jednostek
+samorządu terytorialnego?
+ Projekt ustawy nie będzie rodził kosztów dla budżetu państwa, ani dla jednostek samorządu
+ terytorialnego.
+ Stan finansów publicznych, a zwłaszcza jednostek samorządowych może się polepszyć
+ z uwagi na lepszy stan techniczny autobusów, co przełoży się na rzadszą potrzebę napraw
+ lub wymiany taboru, a przez to obniżenie kosztów napraw lub zakupów, a także na częstsze
+ korzystanie z komunikacji miejskiej przez pasażerów, co będzie się wiązało z większymi
+ wpływami z zakupu biletów.
+
+[7] Wykaz źródeł finansowania, jeśli projekt ustawy pociąga za sobą obciążenie budżetu
+państwa lub budżetów jednostek samorządu terytorialnego.
+ Nie dotyczy.
+
+
+[8] Czy projekt ustawy podlega procedurze notyfikacyjnej?
+   ●   Nie
+III. Wymogi określone w art. 34 ust. 2a i 2b regulaminu Sejmu
+[9] Czy projekt ustawy zawiera przepisy określające zasady podejmowania, wykonywania lub
+zakończenia działalności gospodarczej (art. 34 ust. 2a regulaminu Sejmu)?
+   ●   Nie
+
+[10] Czy wdrożenie projektowanych przepisów spowoduje obciążenia administracyjne
+mikroprzedsiębiorców, małych i średnich przedsiębiorców (art. 34 ust. 2a regulaminu Sejmu)?
+   ●   Nie
+
+[11] Czy projekt ustawy zawiera przepisy regulacyjne lub określa wymogi dotyczące
+świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r. o zasadach
+uznawania kwalifikacji zawodowych nabytych w państwach członkowskich Unii Europejskiej
+(art. 34 ust. 2b regulaminu Sejmu)?
+   ●   Nie
+
+
+
+
+                   Konfederacja Wolność i Niepodległość | konfederacja.pl
+

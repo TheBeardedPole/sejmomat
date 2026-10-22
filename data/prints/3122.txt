@@ -1,0 +1,622 @@
+                                                                     Druk nr 3122
+                                                             Warszawa, 14 kwietnia 2026 r.
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+        X kadencja
+
+
+                                                            Pan
+                                                            Włodzimierz Czarzasty
+                                                            Marszałek Sejmu
+                                                            Rzeczypospolitej Polskiej
+
+
+
+
+        Na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej i na podstawie
+ art. 32 ust. 2 regulaminu Sejmu niżej podpisani posłowie wnoszą projekt ustawy:
+
+
+  - o zmianie ustawy o podatku dochodowym
+   od osób fizycznych.
+      Do reprezentowania wnioskodawców w pracach nad projektem ustawy
+ upoważniamy panią posłankę Ewę Schädler i pana posła Piotra Pawła Stracha.
+
+
+  (-) Agnieszka Buczyńska; (-) Adam Gomoła; (-) Piotr Górnikiewicz; (-) Michał
+ Gramatyka;     (-) Bożenna Hołownia;      (-) Szymon Hołownia;          (-) Marcin
+ Józefaciuk;    (-) Adam Luboński;      (-) Maja Ewa Nowak;              (-) Łukasz
+ Osmalak; (-) Bartosz Romowicz; (-) Ewa Schädler; (-) Piotr Paweł Strach; (-) Paweł
+ Śliz; (-) Wioleta Tomczak; (-) Kamil Wnuk.
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                  PROJEKT
+
+
+                                                U S T AWA
+
+                                              z dnia … 2026 r.
+
+                  o zmianie ustawy o podatku dochodowym od osób fizycznych
+
+
+       Art. 1. W ustawie z dnia 26 lipca 1991 r. o podatku dochodowym od osób fizycznych
+(Dz. U. z 2025 r. poz. 163, z późn. zm.1)) wprowadza się następujące zmiany:
+1)     w art. 27 ust. 1 otrzymuje brzmienie:
+             „Art. 27. 1. Podatek dochodowy, z zastrzeżeniem art. 29-30f, pobiera się od
+       podstawy jego obliczenia według następującej skali podatkowej:
+Podstawa obliczenia podatku w złotych                           Podatek wynosi
+              ponad                      do
+                                         140 000 12% minus kwota zmniejszająca podatek 3600 zł
+              140 000                               13 200 zł + 32% nadwyżki ponad 140 000 zł
+”;
+2)     użyte w art. 32 w ust. 2 w pkt 1, w pkt 2 oraz w ust. 3 w pkt 1, w pkt 2 w różnej liczbie i
+       różnym przypadku, wyrazy „120 000 zł” zastępuje się użytymi w odpowiedniej liczbie i
+       odpowiednim przypadku wyrazami „140 000 zł”.
+
+       Art. 2. Ustawa wchodzi w życie z dniem 1 stycznia 2027 r.
+
+
+
+
+1)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2025 r. poz. 340, 368, 620, 680,
+     1022, 1180, 1301, 1302, 1366, 1795, 1804, 1817, 1822, 1823, 1838 i 1858 oraz z 2026 r. poz. 203 i 424.
+                                         Uzasadnienie
+
+
+Opis historycznego i aktualnego stanu prawnego.
+Do 30.06.2022 r. skala podatkowa wyróżniała dwie stawki podatkowe: 17% i 32%. Do
+dochodów nieprzekraczających 120 000 zł stosowana była stawka 17%, zaś dochody powyżej
+górnego pułapu skali podatkowej opodatkowane były 32% podatkiem. Zmiana nastąpiła
+1.07.2022 r., kiedy wprowadzono dwie stawki podatkowe 12% i 32%. Do 120 000 zł
+zastosowanie ma stawka 12% minus kwota zmniejszająca podatek 3 600 zł, zaś powyżej progu
+120 000 zł wynosi 10 800 zł + 32% nadwyżki ponad 120 000 zł.
+Historycznie art. 27 ustawy z dnia 26 lipca 1991 r. o podatku dochodowym od osób fizycznych
+(tj. Dz.U. z 2025 r. poz.163), dalej u.p.d.o.f. przewidywał różne zasady ustalania progów
+podatkowych.
+Dwuszczeblowa skala podatkowa została wprowadzona przepisami ustawy nowelizującej z
+dnia 16 listopada 2006 r. Jednocześnie zastrzeżono wejście w życie wprowadzających ją
+przepisów dopiero z dniem 1 stycznia 2009 r. Na lata 2007 i 2008 przewidziano utrzymanie
+dotychczasowej trójszczeblowej skali podatkowej (19, 30 i 40%), zmieniając granice
+poszczególnych przedziałów skali. W związku z tym w latach 2007 i 2008 wyłączono
+zastosowanie przepisu art. 27 ust. 1 u.p.d.o.f.
+Granice przedziałów skali podatkowej określone zostały w przepisach przejściowych
+zawartych w ustawie z dnia 16 listopada 2006 r. nowelizującej u.p.d.o.f.
+Zgodnie z nimi w 2007 r. podatek dochodowy pobierało się od podstawy jego obliczenia
+według następującej skali:
+Podstawa obliczenia podatku w złotych Podatek wynosi
+ponad do
+                                           19% minus kwota zmniejszająca podatek
+         43 405
+                                           572,54 zł
+43 405 85 528                              7674,41 zł + 30% nadwyżki ponad 43 405 zł
+85 528                                     20 311,31 zł + 40% nadwyżki ponad 85 528 zł
+Natomiast w 2008 r. podatek dochodowy pobierało się od podstawy jego obliczenia według
+skali:
+Podstawa obliczenia podatku w złotych Podatek wynosi
+ponad         do
+                                                      19% minus kwota zmniejszająca podatek
+              44 490
+                                                      586,85 zł
+44 490        85 528                                  7866,25 zł + 30% nadwyżki ponad 44 490 zł
+85 528                                                20 177,65 zł + 40% nadwyżki ponad 85 528 zł
+Od 2009 r. skala podatkowa zapisana jest już w przepisach u.p.d.o.f., a nie w przepisach
+przejściowych i wynosi:
+Podstawa obliczenia podatku w złotych Podatek wynosi
+ponad          do
+                                                    18% minus kwota zmniejszająca podatek
+               85 528
+                                                    556,02 zł
+85 528                                              14 839,02 zł + 32% nadwyżki ponad 85 528 zł1
+
+
+Art. 27 w ust. 4 przewidywał waloryzację skali podatkowej. Zakładał bowiem, że przedziały
+dochodu podlegającego opodatkowaniu podatkiem, określone w skali, jak również kwota, o
+którą zmniejsza się podatek lub zaliczkę, obliczone według pierwszego szczebla tej skali,
+poczynając od roku podatkowego 1998, podlegają w każdym roku podwyższeniu w stopniu
+odpowiadającym wskaźnikowi wzrostu przeciętnego wynagrodzenia miesięcznego w
+gospodarce narodowej w okresie trzech kwartałów w roku poprzedzającym rok podatkowy w
+stosunku do analogicznego okresu roku ubiegłego.
+Ustawodawca, począwszy od 1 stycznia 2002 r., zdecydował się na "zamrożenie" na okres 2 lat
+(lata 2002-2003) granic skali podatkowej. Oznacza to, że w latach 2002-2003 nie dokonano
+waloryzacji granic skali podatkowej, których przekroczenie powodować mogło konieczność
+zapłaty podatku według wyższej stawki. Z dniem 1 stycznia 2004 r. zamrożenia skali podatkowej
+dokonano na stałe. 2
+
+
+Potrzeba i cel wydania ustawy.
+
+
+
+
+1
+    A. Bartosiewicz, R. Kubacki [w:] A. Bartosiewicz, R. Kubacki, PIT. Komentarz, wyd. V, Warszawa 2015, art. 27.
+2
+    Ibidem
+Aktualnie obowiązujący próg podatkowy 120 000 zł obowiązuje od 2022 r. i nie podlegał
+waloryzacji pomimo inflacji i wzrostu wynagrodzeń. Uderzenie wzrostu cen było odczuwalne
+zwłaszcza w latach 2022 i 2023: wskaźnik CPI wyniósł w grudniu 2022 r/r: 16,6%, a w grudniu
+2023 r/r: 6,2%. W lutym 2026 r. inflacja CPI wyniosła 2,10% r/r. A więc ceny rosną. Wraz ze
+wzrostem cen postępował wzrost nominalnych wynagrodzeń. Brak waloryzowania progów
+podatkowych oznacza, że faktyczne opodatkowanie osób rozliczających podatek PIT według
+skali wzrosło przez te lata nieproporcjonalnie wyżej od opodatkowania osób rozliczających się
+podatkiem liniowym lub ryczałtem ewidencjonowanym. Dzisiejsza siła nabywcza 120 tys. zł ze
+stycznia 2022 r. odpowiada ok. 91,2 tys. zł w cenach z lutego 2026, co przekłada się na spadek
+siły nabywczej o ok. 24%. Innymi słowy, równowartość 120 000 zł ze stycznia 2022 w cenach
+lutego 2026 to 157 804 zł, co oznacza, że aby w lutym 2026 kupić przeciętnie „ten sam koszyk”,
+co za 120 tys. zł w styczniu 2022, potrzeba ok. 157,8 tys. zł.
+Nic dziwnego zatem, że coraz więcej podatników wpada w drugi próg podatkowy, choć ich
+dochody realne nie ulegają powiększeniu. Trend ten jest naturalnym następstwem wzrostu
+wynagrodzeń przy utrzymującej się inflacji.. Wskazuje się, że wzrost liczby podatników
+objętych wyższą stawką jest znaczący: z 5,18% w 2023 r. , 7,6 % w 2024 r. do prognozowanych
+9-10% w 2025 r.
+Jak wynika z informacji dotyczącej rozliczenia PIT-u za 2023 r. publikowanej przez Ministerstwo
+Finansów opodatkowaniu dochodów przy zastosowaniu skali podatkowej dokonało ogółem 25
+516 826 podatników, z tego3:
+       •   24 519 932 złożyło zeznanie, w tym podatnicy będący przedsiębiorstwem w spadku (1
+           534 podatników)
+       •   996 894 zostało rozliczonych przez organy rentowe.
+
+
+
+
+3
+    https://www.podatki.gov.pl/media/mvrblncn/informacja-pit-za-2023.pdf
+Analogiczna informacja za 2024 r. wskazuje, że opodatkowania dochodów przy zastosowaniu
+skali podatkowej dokonało ogółem 25 582 561 podatników4,
+z tego:
+• 24 235 607 złożyło zeznanie, w tym podatnicy będący
+przedsiębiorstwem w spadku (1 284 podatników)
+• 1 346 954 zostało rozliczonych przez organy rentowe.
+
+
+
+
+4
+    https://www.podatki.gov.pl/media/sj0bmwos/informacja-dotycz%C4%85ca-rozliczenia-pit-za-2024.pdf
+Prognozuje się, że za 2025 r. w przedziale powyżej 120 000 zł znajdzie się 9-10% podatników
+skali.5 6
+Wg definicji OECD klasa średnia to grupa osób o dochodach powyżej 75 proc. mediany oraz
+poniżej 200 proc. mediany. Zgodnie z danymi GUS, mediana wynagrodzeń we wrześniu 2025 r.
+wyniosła 7 145,33 zł brutto. Oznacza to, że klasa średnia obejmuje osoby zarabiające od około
+5 358,75 zł do 14 290,66 zł brutto.7 Coraz częściej podatnicy zaliczani do klasy średniej wpadają
+w drugi próg podatkowy z powodu dodatkowych godzin pracy, dodatkowego zlecenia lub
+premii. Są to nauczyciele, pielęgniarki, logistycy, ratownicy medyczni. Z badań wynika, że drugi
+próg objął w 2024 roku 36,17 proc. nauczycieli.8
+Pracownik z miesięcznym wynagrodzeniem brutto 14 000 zł, w pierwszym progu podatkowym
+otrzymuje 9 873, 35 zł na rękę, a już "wpadając" w drugi próg 7 507, 35 zł. Tym samym w
+grudniu otrzyma o 2 366 zł mniej pensji. Przy kwocie brutto 13 000 zł miesięcznie, w pierwszym
+progu pensja wyniesie 9 192,11 zł, ale w grudniu 6 998,11 zł, czyli o 2194 zł mniej.
+Przy aktualnych cenach ubytek takiej kwoty jest odczuwalny w gospodarstwie domowym.
+Utrzymanie progu 120 000 zł narusza zasadę sprawiedliwości podatkowej, któremu w
+doktrynie prawa podatkowego przyznaje się nadrzędne znaczenie. Jak wskazuje Dr Mateusz
+Tchórzewski: ,,W doktrynie prawa podatkowego sprawiedliwość podatkową określa się jako
+superzasadę i fundament budowy racjonalnego systemu podatkowego. W tym ujęciu jest to
+norma uniwersalna, wyrażająca wzór powinnego zachowania się prawodawcy podatkowego.
+Sprawiedliwość podatkowa, rozpatrywana z perspektywy konfliktu interesów, wskazuje, że
+opodatkowanie oznacza przesunięcie dóbr ekonomicznych ze sfery prywatnej do sfery
+publicznej. W związku z tym w szerszym znaczeniu dotyczy ona nie tylko odpowiedniego
+rozdzielania ciężarów podatkowych, lecz także korzyści uzyskiwanych ze strony państwa.
+Zarazem obciążenie podatkowe należy kształtować tak, by uwzględniać zarówno interes
+publiczny, jak i ekonomiczne położenie podatników”.9
+
+5
+  https://forsal.pl/finanse/finanse-osobiste/artykuly/11202779,ile-osob-w-polsce-ma-roczne-dochody-wyzsze-
+niz-120-000-zl-co-jesli-przekroczysz-120-tys-dochodu-drugi-prog-podatkowy-pit-120-tys-brutto-czy-netto-
+kalkulator-gov.html
+6
+  https://gospodarka.dziennik.pl/news/artykuly/10600689,przykra-niespodzianka-dla-25-mln-polakow-w-
+grudniu-pensja-o-kilka-tysiecy-mniejsza.html
+7
+  https://superbiz.se.pl/wiadomosci/obnizka-podatkow-dla-klasy-sredniej-wiemy-ile-zostanie-w-kieszeni-
+podatnikow-aa-Hpzy-LKvd-JLM8.html
+8
+  https://gospodarka.dziennik.pl/news/artykuly/10600689,przykra-niespodzianka-dla-25-mln-polakow-w-
+grudniu-pensja-o-kilka-tysiecy-mniejsza.html
+9
+  https://isp-modzelewski.pl/wp-content/uploads/2024/09/Sprawiedliwosc-podatkowa-w-toku-stosowania-
+prawa-podatkowego-z-punktu-widzenia-mikroprzedsiebiorcy.pdf
+Utrzymanie progu podatkowego na poziomie 120 000 zł stanowi swoistą karę za uczciwość,
+pracowitość i aktywność zawodową.
+W 2023 r. liczba podatników rozliczających się według rodzajów złożonych zeznań (bez
+pośrednictwa płatników przedstawiała się następująco: przy czym największe grupy dotyczą
+rozliczających się PIT-36 -przychodów z pozarolniczej działalności gospodarczej oraz PIT-37-
+nieosiągających przychodów z pozarolniczej działalności gospodarczej jak m.in. praca,
+emerytura):
+
+
+
+
+Źródło: Informacja dotycząca rozliczenia podatku dochodowego od osób fizycznych za rok
+2023, https://www.podatki.gov.pl/media/mvrblncn/informacja-pit-za-2023.pdf
+W 2024 r. liczba podatników rozliczających się według rodzajów złożonych zeznań (bez
+pośrednictwa płatników przedstawiała się następująco: przy czym największe grupy dotyczą
+rozliczających się PIT-36 -przychodów z pozarolniczej działalności gospodarczej oraz PIT-37-
+nieosiągających przychodów z pozarolniczej działalności gospodarczej jak m.in. praca,
+emerytura):
+Źródło: Informacja dotycząca rozliczenia podatku dochodowego od osób fizycznych za rok
+2024,https://www.podatki.gov.pl/media/sj0bmwos/informacja-dotycz%C4%85ca-rozliczenia-
+pit-za-2024.pdf
+Z podanych liczb podatników widać wzrost liczby podatników wpadających w drugi próg
+podatkowy: 2023 r. 1 320 556 na 25 515 292 podatników, 2024 r. 1 935 495 podatników na
+25 581 277. Szacuje się, że w 2025 r. 9-10 proc. podatników, czyli około 2,5 mln osób wpadnie
+w drugi próg. Znów podkreślić należy istotny wzrost w stosunku do 2022 roku, gdzie na
+prawie 24,5 mln podatników, powyżej 120 tys. dochodu osiągnęło 738,4 tys. podatników
+(3,01% ogółu). Przykładowe obciążenia publicznoprawne w zależności od stawki ryczałtu oraz
+wysokości wynagrodzenia kształtują się następująco10 11:
+
+
+- dla 15.000, - zł brutto miesięcznie:
+
+
+                                        Roczne składki          ZUS     Roczny              Roczna suma
+Wariant rozliczenia
+                                        (społ. + zdrow.)                podatek PIT         obciążeń
+
+Umowa o pracę – obciążenia
+                                        38650 zł                        21140 zł            59790 zł
+po stronie pracownika
+
+                                        31 426    zł            (bez
+                                        chorobowego)                                        44646 zł
+B2B – Ryczałt 8,5%                                                      13220 zł
+                                        33    088   zł             (z                       46308zł
+                                        chorobowym)
+
+                                        31    426   zł          (bez
+                                        chorobowego)                                        50 096 zł
+B2B – Ryczałt 12%                                                       18670 zł
+                                        33    088   zł             (z                       51 758zł
+                                        chorobowym)
+
+
+- dla 20.000, - zł brutto miesięcznie:
+
+
+
+
+10
+   por. https://ksiegowosc.infor.pl/podatki/pit/pit/rozliczenia/7482465,plan-rzadu-tuska-faktyczna-podwyzka-
+pit-dla-lepiej-zarabiajacych-co-rok-do-2028-r-to-skutek-braku-waloryzacji-progow-podatkowych.html
+11
+   Założenia: rok stawek: 2026
+UoP: standardowe KUP 250 zł/m-c, brak ulg, brak PPK, jedno źródło dochodu
+B2B: „duży ZUS” , brak VAT w kalkulacji
+                               Roczne składki ZUS (społ. +    Roczny          Roczna suma
+Wariant rozliczenia
+                               zdrow.)                        podatek PIT     obciążeń
+
+Umowa      o    pracę    –
+obciążenia   po    stronie     51540 zł                       37710 zł        89250 zł
+pracownika
+
+
+                               31 426 zł (bez chorobowego)
+B2B – Ryczałt 8,5%                                            18320 zł
+                                                                              49 746       zł
+                               33 088 zł (z chorobowym)zł
+                                                                              51408 zł
+
+                               31 426 zł (bez chorobowego)
+                                                                              57 296 zł
+B2B – Ryczałt 12%              33 088 zł (z chorobowym) zł    25870 zł
+                               (bez chorobowego)                              58 958 zł
+
+
+
+
+Opis proponowanych zmian:
+Projekt ustawy zakłada podwyższenie progu podatkowego do kwoty 140 000 zł w u.o.p.d.o.f.
+Projektodawca zakłada, że ustawa wejdzie w życie od 1 stycznia 2027 r.
+W trakcie prac rozważana była opcja corocznej waloryzacji progów podatkowych co najmniej
+o wskaźnik inflacji lub powiązanie z średnim miesięcznym wynagrodzeniem. Projektodawcy
+mają jednak świadomość i poczucie odpowiedzialności za stan finansów publicznych. Od lipca
+2024 roku Polska jest objęta procedurą nadmiernego deficytu w związku z wysokim deficytem
+w 2023 r. Propozycja powiązania progów ze wskaźnikami makroekonomicznymi mogłaby się
+spotkać z zarzutem niekonstytucyjności z powodu naruszenia zasady równowagi budżetowej.
+W tych warunkach możliwe wydaje się tylko sztywne określenie nowego progu. Projektodawcy
+wychodzą z założenia, że zaproponowane rozwiązanie stanowi pierwszy krok do realizacji
+zasady sprawiedliwości podatkowej. Zakładają również, że przyjęcie ustawy i sprawdzenie w
+praktyce jej pozytywnych skutków w zakresie pobudzenia konsumpcji przyczynią się do
+dalszego podwyższania drugiego progu podatkowego. Docelowym rozwiązaniem powinno być
+powiązanie drugiego progu ze wskaźnikami makroekonomicznymi. Projekt jednak nie może
+powstać w oderwaniu od sytuacji budżetowej państwa.
+Na podstawie Informacji Rady Ministrów o działaniach podjętych przez Polskę w celu realizacji
+zalecenia Rady w ramach procedury nadmiernego deficytu widoczne są trudności w
+zrealizowaniu zaplanowanych na dany rok budżetowy dochodów. W ustawie budżetowej na
+rok 2024 prognozowano, że inflacja konsumencka w 2024 r. wyniesie średnio 6,6% oraz
+nominalny wzrost spożycia prywatnego na poziomie 10,2% r/r. Ostatecznie średnioroczna
+inflacja w 2024 r. wyniosła 3,6%. W efekcie nominalny wzrost spożycia prywatnego w 2024 r.
+wyniósł jedynie 6,5% a tempo wzrostu PKB w ujęciu nominalnym wyniosło 6,6%.
+W przypadku 2025 r. ustawa budżetowa na ten rok zakładała średnioroczną inflację wynoszącą
+5,0%, a prognozowany nominalny wzrost spożycia prywatnego na poziomie 9,6%. Aktualna
+prognoza na bieżący rok zawarta w projekcie ustawy budżetowej na 2026 r. przewiduje
+natomiast średnioroczną inflację na poziomie 3,7% oraz nominalny wzrost spożycia
+prywatnego wynoszący 7,2%.
+Obniżenie prognozy dochodów na 2025 r. wynika więc z niższej projekcji wskaźników
+makroekonomicznych oraz z niższego wykonania dochodów w 2024 r. w stosunku do wartości
+przyjętych do opracowania prognozy do ustawy budżetowej na 2025 r. W projekcie ustawy
+budżetowej na 2026 r. przełożyło się to na niższą prognozę wykonania dochodów podatkowych
+budżetu państwa w 2025 r. o ok. 34,5 mld zł, tj. o 6% w porównaniu z ustawą budżetową na
+2025 r. 12
+Przewidywane skutki społeczne, gospodarcze i finansowe:
+W ocenie projektodawców projekt wywoła pozytywne skutki społeczne, gdyż podniesienie
+progu podatkowego zapobiega uszczupleniu budżetu domowego w ostatnich miesiącach roku.
+Jest to rozwiązanie oczekiwane społecznie, jednocześnie realizujące zasady elementarnej
+sprawiedliwości podatkowej. Brak waloryzacji progu, wywindowanie cen na skutek inflacji
+sprawia, że wzrost dochodów nie przekłada się na możliwość zwiększonych zakupów
+pożądanych dóbr. Jest to demotywujące w kontekście zwiększania aktywności zawodowej.
+Korzyści odniosą wszyscy podatnicy rozliczający się w skali z rocznym dochodem powyżej
+120 000 zł. Roczne oszczędności na zmianie progu ze 120 000 zł na 140 000 zł wyniosą nawet
+4000 zł.
+Skutki gospodarcze będą dwojakiego rodzaju: obniżą podatek dla przedsiębiorców
+rozliczających się na skali jak i wywołają pozytywne skutki gospodarcze w postaci impulsu
+
+
+
+12
+  https://www.gov.pl/web/finanse/rada-ministrow-przyjela-informacje-o-dzialaniach-podjetych-przez-polske-
+w-celu-realizacji-zalecenia-rady-w-ramach-procedury-nadmiernego-
+deficytu#:~:text=Od%20lipca%202024%20roku%20Polska%20jest%20obj%C4%99ta,zwi%C4%85zku%20z%20wy
+sokim%20deficytem%20w%202023%20r.
+zakupów konsumenckich. Biorąc pod uwagę, że ubytek wynagrodzenia na skutek
+,,wpadnięcia” w drugi próg podatkowy pojawiał się najczęściej w miesiącach listopad,
+grudzień, w których odnotowywane są zwiększone wydatki związane z zakupem odzieży
+zimowej, organizacją świąt i czasu wolnego w przerwie świątecznej, to uznać należy, że
+,,zaoszczędzona” na podatku kwota wróci częściowo do budżetu w postaci podatku VAT.
+Przyczyni się także do wzrostu przychodów przedsiębiorców, co z kolei zwiększy kwoty
+odprowadzonego podatku do budżetu.
+
+
+Źródła finansowania:
+Maksymalny zysk podatnika z przesunięcia progu ze 120 000 zł do 140 000 zł wynosi 4 000 zł.
+Wynika to z następujących obliczeń (140 000 zł –120 000) x 32% - (140 000 zł – 120 000 zł) x
+12% = 4000 zł. Projektodawcy dokonują uproszczonej kalkulacji na podstawie określonych
+założeń. Precyzyjna kalkulacja jest możliwa jedynie przy pełnym dostępie do danych
+Ministerstwa Finansów. Projektodawcy wyliczeń dokonują w oparciu o założenia: w 2027 roku
+w II progu znajdzie się 3 mln podatników. Z tego 0,8 mln w przedziale dochodu 120-130 tys.
+(zakładana korzyść z reformy 1 000 zł); 0,6 mln w przedziale 130-140 tys. (zakładana korzyść z
+reformy 3 000 zł), 1,6 mln powyżej 140 tys. (uzysk z reformy 4 000 zł). Koszt reformy dla
+finansów publicznych szacuje się na 9 mld zł.
+Projektodawcy wskazują, że koszty reformy mogą zostać sfinansowane z następujących źródeł:
+- wpływy z podatku cyfrowego, który miałby wejść w życie w 2027 r. Z ustaleń PAP Biznes
+wynika, że resort opowiada się za podatkiem na poziomie 3 proc., co gwarantowałoby 1,7 mld
+zł wpływów do budżetu w 2027 roku, a w 2030 r. - ponad 3 mld zł,13
+- dodatkowy podatek od zysków banków wprowadzony ustawą z dnia 6.11.2025 r. o zmianie
+ustawy o podatku dochodowym od osób prawnych i ustawy o podatku od niektórych instytucji
+finansowych (Dz.U. z 2025 r., poz. 1658) – 7,2 mld zł,14
+- wpływy z podwyższonej akcyzy na alkohol przekierowane zostaną wprost na NFZ, co pozwoli
+odciążyć budżet w obszarze ochrony zdrowia (projekt poselski KP Polska 2050) – 2, 7 mld zł.15
+
+
+
+13
+   https://biznes.pap.pl/wiadomosci/gry-i-technologie/projekt-ustawy-ws-podatku-cyfrowego-na-przelomie-
+2025-i-2026-roku
+14
+   https://orka.sejm.gov.pl/Druki10ka.nsf/0/FC9DBF3FF21B0354C1258D1700406B5C/%24File/1752.pdf
+15
+   Dane z projektu rządowego, który nie wszedł życie. Projekt poselski przekierowuje zwiększoną powyżej
+ustalonych kwot akcyzę na NFZ
+https://orka.sejm.gov.pl/Druki10ka.nsf/0/5FBFE98D1620AD3BC1258D240035A7C5/%24File/1825.pdf
+Dodatkowo zmiany w zasadach opodatkowania w ramach ryczałtu nad którymi trwają prace w
+Radzie Ministrów pozwoli na sfinansowanie przywrócenia choć częściowo sprawiedliwości
+podatkowej.
+Projekt nie jest objęty prawem Unii Europejskiej.
+Projekt nie określa zasad podejmowania, wykonywania lub zakończenia działalności
+gospodarczej, jednakże może mieć pozytywny wpływ na wybór formy opodatkowania opartej
+na skali.
+                    DEKLAROWANE SKUTKI REGULACJI (DSR)
+                             projektu ustawy
+
+
+
+Informacja o projekcie
+   a) Tytuł projektu:
+
+    Projekt ustawy o zmianie ustawy o podatku dochodowym od osób fizycznych
+
+
+
+   b) Przedstawiciel wnioskodawcy:
+
+    Pani posłanka Ewa Schädler i pan poseł Piotr Strach
+
+
+
+
+I. Część wstępna
+[1] Zwięzły opis zidentyfikowanego problemu i proponowanych rozwiązań.
+ a) Zidentyfikowany problem i jego skala:
+ Aktualnie obowiązujący próg podatkowy w wysokości 120 000 zł obowiązuje od 2022 r. i nie
+ był waloryzowany, pomimo znaczącej inflacji oraz wzrostu wynagrodzeń. Brak mechanizmu
+ waloryzacji progów podatkowych sprawia, że coraz większa liczba podatników
+ rozliczających się według skali podatkowej wpada w drugi próg podatkowy (32%), mimo że
+ ich realna siła nabywcza nie wzrosła proporcjonalnie.
+ Siła nabywcza kwoty 120 000 zł ze stycznia 2022 r. odpowiada około 91 200 zł w cenach z
+ lutego 2026 r., co oznacza spadek siły nabywczej o ok. 24%. Równowartość 120 000 zł ze
+ stycznia 2022 r. w cenach lutego 2026 r. to ok. 157 804 zł.
+ Liczba podatników objętych drugim progiem podatkowym systematycznie rośnie: z 738 387
+ w 2022 r., przez 1 320 556 w 2023 r., do 1 935 495 w 2024 r. Szacuje się, że w 2025 r. w
+ przedziale powyżej 120 000 zł znajdzie się ok. 9-10% podatników skali, tj. ok. 2,5 mln osób.
+ Coraz częściej w drugi próg podatkowy wpadają przedstawiciele klasy średniej (w
+ rozumieniu definicji OECD: grupa osób o dochodach powyżej 75 proc. mediany oraz poniżej
+ 200 proc. mediany), w tym nauczyciele, pielęgniarki, logistycy i ratownicy medyczni, często
+ z powodu dodatkowych godzin pracy, premii lub zlecenia. Utrzymanie progu na poziomie
+ 120 000 zł narusza zasadę sprawiedliwości podatkowej i stanowi swoiste ukaranie za
+ zaradność i aktywność zawodową.
+ Brak waloryzowania progów podatkowych oznacza, że faktyczne opodatkowanie osób
+ rozliczających podatek PIT według skali wzrosło przez te lata nieproporcjonalnie wyżej od
+ opodatkowania osób rozliczających się podatkiem liniowym lub ryczałtem
+ ewidencjonowanym, których obciążenie co do zasady rośnie proporcjonalnie do wzrostu
+ dochodu.
+
+ b) Zwięzły opis proponowanych rozwiązań:
+ Projekt ustawy zakłada podwyższenie drugiego progu podatkowego ze 120 000 zł do 140
+ 000 zł w ustawie o podatku dochodowym od osób fizycznych. Zmiana obejmuje również
+ odpowiednie dostosowanie wartości progowych w przepisach dotyczących poboru zaliczek
+ przez płatników. Ustawa ma wejść w życie z dniem 1 stycznia 2027 r.
+ Projektodawca rozważał również wprowadzenie corocznej waloryzacji progów podatkowych
+ co najmniej o wskaźnik inflacji lub powiązanie z przeciętnym wynagrodzeniem, jednak z
+ uwagi na objęcie Polski procedurą nadmiernego deficytu oraz ryzyko zarzutu
+ niekonstytucyjności z powodu naruszenia zasady równowagi budżetowej, zdecydowano się
+ na sztywne określenie nowego progu jako pierwszy krok ku pełnej realizacji zasady
+ sprawiedliwości podatkowej.
+
+ c) Skutki braku zmiany stanu obecnego:
+ Utrzymanie progu na poziomie 120 000 zł spowoduje dalszy wzrost liczby podatników
+ objętych wyższą stawką, obniżenie motywacji do zwiększania aktywności zawodowej,
+ pogłębienie niesprawiedliwością podatkowej względem osób rozliczających się ryczałtem
+ lub podatkiem liniowym oraz spadek konsumpcji prywatnej w ostatnich miesiącach roku,
+ kiedy pracownicy odczuwają skokowy ubytek wynagrodzenia netto.
+
+
+
+[2] Czy były rozważane rozwiązania alternatywne?
+   ➢ Nie
+ Cel, który ma być osiągnięty za pomocą przedmiotowego projektu ustawy nie może być
+ zrealizowany za pomocą innych środków niż zaproponowane w projekcie.
+ Sztywne podwyższenie progu do 140 000 zł stanowi umiarkowane i odpowiedzialne fiskalnie
+ rozwiązanie, będące pierwszym krokiem w kierunku docelowego powiązania progów ze
+ wskaźnikami makroekonomicznymi. Sprawdzenie pozytywnych skutków ustawy w praktyce,
+ w szczególności w zakresie pobudzenia konsumpcji, powinno przyczynić się do dalszego
+ podwyższania progu w przyszłości.
+
+
+II. Wymogi określone w art. 34 ust. 2 pkt 3-5 regulaminu Sejmu
+[3] Jakie są przewidywane skutki prawne projektowanych rozwiązań?
+ Stan dotychczasowy: Art. 27 ust. 1 ustawy z dnia 26 lipca 1991 r. o podatku dochodowym
+ od osób fizycznych (dalej: u.p.d.o.f) ustala skalę podatkową z progiem 120 000 zł - do tej
+ kwoty stawka 12% minus 3 600 zł, powyżej 10 800 zł + 32% nadwyżki ponad 120 000 zł.
+ Stan projektowany: Art. 27 ust. 1 u.p.d.o.f. próg podwyższony do 140 000 zł: do tej kwoty
+ stawka 12% minus 3 600 zł, powyżej 13 200 zł + 32% nadwyżki ponad 140 000 zł.
+
+ Zmiana w art. 32 ust. 2 pkt 1 i 2, ust. 3 pkt 1 i 2 u.p.d.o.f. - kwota 120 000 zł zastąpiona
+ kwotą 140 000 zł.
+
+ Projekt ma charakter punktowy i nie narusza spójności systemu podatkowego. Nowelizacja
+ dotyczy wyłącznie wartości progu kwotowego, nie zmieniając konstrukcji skali podatkowej,
+ zasad obliczania podatku ani struktury stawek. Terminologia pozostaje spójna z
+ dotychczasową. Projekt nie wymaga wydania aktów wykonawczych.
+
+ Ustawa wchodzi w życie z dniem 1 stycznia 2027 r. Termin ten zapewnia odpowiednie
+ vacatio legis, umożliwiające: aktualizację systemów informatycznych płatników i organów
+ podatkowych, dostosowanie oprogramowania kadrowo-płacowego, oraz przygotowanie
+ informacji dla podatników. Wejście w życie od początku roku podatkowego jest standardową
+ praktyką przy zmianach skali podatkowej. Projekt nie przewiduje przepisów przejściowych
+ ani dostosowujących, gdyż zmiana stosuję się od nowego roku podatkowego.
+[4] Jakie są przewidywane skutki społeczne projektowanych rozwiązań?
+ a) Podmioty, na które oddziałuje projekt:
+ Projekt oddziałuje na podatników podatku dochodowego od osób fizycznych rozliczających
+ się według skali podatkowej, w szczególności na osoby osiągające roczny dochód powyżej
+ 120 000 zł: pracowników etatowych, emerytów i rencistów z wyższymi świadczeniami,
+ przedsiębiorców rozliczających się na skali, osoby uzyskujące dochody z działalności
+ wykonywanej osobiście.
+
+ b) Liczebność podmiotów:
+ Według danych Ministerstwa Finansów opodatkowaniu na skali podlegali: w 2023 r. – 25
+ 516 826 podatników (z tego 1 320 556 w II progu); w 2024 r. – 25 582 561 podatników (z
+ tego 1 935 495 w II progu). Szacuje się, że w 2025 r. ok. 2,5 mln podatników przekroczy
+ próg 120 000 zł.
+
+ c) Wpływ projektu na wskazane podmioty:
+ Podwyższenie progu zapobiegnie skokowym ubytkom wynagrodzenia netto w ostatnich
+ miesiącach roku podatkowego. Pracownik z wynagrodzeniem brutto 14 000 zł/mies. traci w
+ grudniu ok. 2 366 zł netto względem miesięcy sprzed przekroczenia progu. Przy
+ wynagrodzeniu 13 000 zł brutto ubytek wynosi ok. 2 194 zł. Zmiana zlikwiduje ten efekt dla
+ podatników z dochodem do 140 000 zł i złagodzi go dla podatników z wyższym dochodem.
+ Projekt realizuje zasadę sprawiedliwości podatkowej i przeciwdziała demotywacji do
+ zwiększania aktywności zawodowej.
+
+ d) Skutki pozytywne i negatywne:
+ Skutki pozytywne: Korzyści odniosą wszyscy podatnicy rozliczający się w skali z rocznym
+ dochodem powyżej 120 000 zł. Roczne oszczędności na zmianie progu ze 120 000 zł na
+ 140 000 zł wyniosą nawet 4000 zł.
+ Skutki negatywne: Nie przewiduje się negatywnych skutków społecznych.
+
+
+
+[5] Jakie są przewidywane skutki gospodarcze projektowanych rozwiązań?
+a) Podmioty, na które wpływa projekt:
+Projekt wpływa na: pracowników i zleceniobiorców (jako konsumentów z wyższym dochodem
+do dyspozycji), przedsiębiorców rozliczających się na skali podatkowej (niższe obciążenie
+podatkowe), sektor handlu detalicznego i usług (wzrost konsumpcji), ogólnie na gospodarkę
+przez impuls konsumpcyjny.
+b) Liczebność podmiotów:
+Bezpośrednio: ok. 1,9–2,5 mln podatników w II progu.
+Pośrednio: podmioty działające w sektorze handlu detalicznego i usług (wzrost konsumpcji).
+c) Wpływ projektu:
+Obniżenie efektywnego opodatkowania przedsiębiorców na skali. Impuls konsumpcyjny -
+ubytek wynagrodzenia netto z tytułu przekroczenia progu pojawia się najczęściej w miesiącach
+listopad-grudzień, kiedy odnotowuje się zwiększone wydatki (odzież zimowa, święta, czas
+wolny). „Zaoszczędzona” kwota wróci częściowo do budżetu jako VAT i przyczyni się do
+wzrostu przychodów przedsiębiorców. Zmniejszenie dysproporcji między formami
+opodatkowania może wpłynąć pozytywnie na wybór opodatkowania na skali, co zwiększy
+progresywność systemu. Wpływ na rynek pracy: zmniejszenie efektu demotywacyjnego do
+podejmowania dodatkowej pracy, nadgodzin lub zleceń.
+d) Skutki pozytywne i negatywne:
+Skutki pozytywne: Wzrost dochodów do dyspozycji podatników.
+Skutki negatywne: Nie przewiduje się negatywnych skutków gospodarczych.
+
+[6] Jakie są przewidywane skutki finansowe projektowanych rozwiązań,
+w szczególności wpływ na sektor finansów publicznych, w tym na budżet państwa
+i budżety jednostek samorządu terytorialnego?
+ a) Podmioty sektora finansów publicznych, na które wpływa projekt:
+ Budżet państwa - zmniejszenie wpływów z PIT.
+ budżety jednostek samorządu terytorialnego - zmniejszenie udziałów JST we wpływach z
+ PIT.
+ podatnicy - wzrost dochodu.
+
+ b) Liczebność podmiotów:
+ Budżet państwa, podmiot; JST - ogół jednostek samorządu terytorialnego partycypujących
+ we wpływach z PIT; podatnicy - ok. 1,9-2,5 mln osób (w II progu podatkowym).
+
+ c) Wpływ kwotowy:
+ Ubytek dochodów budżetu państwa: maksymalny ubytek wyniesie ok. 9 mld zł.
+ Ubytek udziałów JST w PIT: łączny ubytek JST stanowić będzie ok. 50,31% łącznego ubytku
+ PIT.
+ Częściowa kompensacja: wzrost wpływów z VAT z tytułu konsumpcji.
+
+
+[7] Wykaz źródeł finansowania, jeśli projekt ustawy pociąga za sobą obciążenie
+budżetu państwa lub budżetów jednostek samorządu terytorialnego.
+ Ubytek dochodów budżetowych (szacowany maksymalnie na ok. 9 mld zł) będzie
+ sfinansowany z następujących źródeł:
+ 1) wpływy z podatku cyfrowego, który ma wejść w życie w 2027 r. – szacowane na ok. 1,7
+ mld zł w 2027 r. (przy stawce 3%), rosnące do ponad 3 mld zł w 2030 r.;
+ 2) dodatkowy podatek od zysków banków wprowadzony ustawą z dnia 6.11.2025 r. o
+ zmianie ustawy o podatku dochodowym od osób prawnych i ustawy o podatku od niektórych
+ instytucji finansowych (Dz. U. z 2025 r. poz. 1658) - ok. 7,2 mld zł;
+ 3) wpływy z podwyższonej akcyzy na alkohol przekierowane na NFZ (projekt poselski KP
+ Polska 2050), co pozwoli odciążyć budżet w obszarze ochrony zdrowia - ok. 2,7 mld zł;
+ 4) zmiany w zasadach opodatkowania w ramach ryczałtu (nad którymi trwają prace w
+ Radzie Ministrów);
+ 5) częściowa kompensacja ubytku poprzez zwiększenie wpływów z podatku VAT w związku
+ z ożywieniem konsumpcji prywatnej.
+
+
+[8] Czy projekt ustawy podlega procedurze notyfikacyjnej?
+   ➢ Nie
+III. Wymogi określone w art. 34 ust. 2a i 2b regulaminu Sejmu
+[9] Czy projekt ustawy zawiera przepisy określające zasady podejmowania,
+wykonywania lub zakończenia działalności gospodarczej (art. 34 ust. 2a regulaminu
+Sejmu)?
+   ➢ Nie
+Projekt nie zawiera przepisów określających zasady podejmowania, wykonywania lub
+zakończenia działalności gospodarczej.
+
+
+[10] Czy wdrożenie projektowanych przepisów spowoduje obciążenia administracyjne
+mikroprzedsiębiorców, małych i średnich przedsiębiorców (art. 34 ust. 2a regulaminu
+Sejmu)?
+   ➢ Nie
+[11] Czy projekt ustawy zawiera przepisy regulacyjne lub określa wymogi dotyczące
+świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r.
+o zasadach uznawania kwalifikacji zawodowych nabytych w państwach członkowskich
+Unii Europejskiej (art. 34 ust. 2b regulaminu Sejmu)?
+   ➢ Nie
+

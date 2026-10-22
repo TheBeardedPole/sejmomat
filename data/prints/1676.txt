@@ -1,0 +1,1243 @@
+                                                                    Druk nr 1676
+                                                             Warszawa, 29 sierpnia 2025 r.
+           SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+         X kadencja
+         Prezydent
+   Rzeczypospolitej Polskiej
+
+
+                                                           Pan
+                                                           Szymon Hołownia
+                                                           Marszałek Sejmu
+                                                           Rzeczypospolitej Polskiej
+
+
+            Szanowny Panie Marszałku
+
+         Na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej z dnia
+ 2 kwietnia 1997 r. przedstawiam Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+
+  -      o   Funduszu                         Rozwoju                   Technologii
+      Przełomowych.
+
+        Jednocześnie uprzejmie informuję, że do reprezentowania mojego stanowiska
+ w toku prac nad projektem ustawy upoważniam Pana Zbigniewa Boguckiego, Szefa
+ Kancelarii Prezydenta Rzeczypospolitej Polskiej.
+
+
+
+                                                        Z poważaniem
+
+                                                      (-) Karol Nawrocki
+
+
+
+
+             Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                       Projekt
+                                          U S T AWA
+
+                                    z dnia ………… 2025 r.
+
+                     o Funduszu Rozwoju Technologii Przełomowych
+
+
+                                           Rozdział 1
+
+                                        Przepisy ogólne
+
+     Art. 1. Ustawa określa:
+1)   organizację i zasady działania Funduszu Rozwoju Technologii Przełomowych, zwanego
+     dalej „Funduszem”, oraz jego cele;
+2)   zasady gromadzenia środków Funduszu;
+3)   zasady udzielania finansowania i dofinansowania ze środków Funduszu;
+4)   organizację, tryb działania i zadania Rady Funduszu.
+
+     Art. 2. Prezydent    Rzeczypospolitej     Polskiej   sprawuje   honorowy   patronat   nad
+działalnością Funduszu.
+
+     Art. 3. Ilekroć w ustawie jest mowa o:
+1)   programie inwestycyjnym – rozumie się przez to finansowany ze środków Funduszu
+     program o okresie realizacji wynoszącym co najmniej rok;
+2)   projekcie strategicznym – rozumie się przez to finansowany ze środków Funduszu projekt
+     przyczyniający się w istotny sposób do zwiększenia technologicznej konkurencyjności
+     Rzeczypospolitej Polskiej.
+
+     Art. 4. Celem Funduszu jest działanie na rzecz wzmocnienia bezpieczeństwa państwa,
+w szczególności w zakresie realizacji i wdrażania strategii bezpieczeństwa narodowego,
+o której mowa w art. 24 ustawy z dnia 11 marca 2022 r. o obronie Ojczyzny (Dz. U. z 2025 r.
+poz. 825, 1014 i 1080), poprzez wspieranie polskiej nauki, administracji, gospodarki
+i społeczeństwa w rozwijaniu technologii przełomowych, w tym:
+     a)   biotechnologii i medycyny,
+     b)   interfejsów człowiek-maszyna i technologii immersyjnych,
+     c)   technologii materiałowych i produkcyjnych,
+     d)   technologii komunikacyjnych,
+     e)   sztucznej inteligencji i robotyki,
+                                             –2–
+
+
+     f)   technologii energetycznych,
+     g)   technologii kosmicznych i transportowych,
+     h)   technologii środowiskowych, klimatycznych i rolniczych,
+     i)   technologii cyfrowych i obliczeniowych, w tym technologii kwantowych
+          i kryptografii,
+     j)   neurotechnologii
+     – oraz tworzeniu, rozwijaniu, wdrażaniu i popularyzowaniu rozwiązań opartych na tych
+     technologiach.
+
+                                          Rozdział 2
+
+                            Organizacja i zasady działania Funduszu
+
+     Art. 5. 1. Fundusz jest państwowym funduszem celowym.
+     2. Dysponentem Funduszu jest minister właściwy do spraw informatyzacji.
+     3. W ramach Funduszu wyodrębnia się subfundusze:
+1) naukowo-badawczy;
+2) nowoczesnej administracji;
+3) bezpieczeństwa cyberprzestrzeni;
+4) edukacyjno-popularyzatorski;
+5) wsparcia innowacyjnej gospodarki.
+     4. Podziału środków Funduszu na subfundusze, o których mowa w ust. 3, dokonuje
+minister właściwy do spraw informatyzacji po uzyskaniu pozytywnej opinii Rady Funduszu.
+     5. W ramach Funduszu zakłada się rezerwę w wysokości 10% zaplanowanych na dany
+rok środków. Wydatkowanie środków z rezerwy może nastąpić wyłącznie na realizację
+nieplanowanych wcześniej wydatków powstałych w toku realizacji programu inwestycyjnego
+lub planu wydatków obsługowych Funduszu i wymaga pozytywnej opinii Rady Funduszu.
+     6. Koszty obsługi Funduszu, w tym koszty promocji Funduszu, jego działań i celów
+zbieżnych z celami Funduszu, realizowane są ze środków Funduszu i mogą stanowić
+maksymalnie 1% wydatków Funduszu zaplanowanych na dany rok.
+     7. Środki, o których mowa w ust. 6, są dzielone i wydatkowane na podstawie planu
+wydatków obsługowych Funduszu, ustalanego przez ministra właściwego do spraw
+informatyzacji po uzyskaniu pozytywnej opinii Rady Funduszu. Plan wydatków obsługowych
+Funduszu obejmuje co najmniej:
+1)   łączną kwotę wydatków, o których mowa w ust. 6, na dany rok;
+                                                –3–
+
+
+2)   wyszczególnienie zadań realizowanych w ramach wydatków obsługowych Funduszu.
+     8. Na realizację zadań w ramach subfunduszy, minister właściwy do spraw informatyzacji
+może zaciągać zobowiązania o charakterze wieloletnim do wysokości środków wynikających
+z programów inwestycyjnych.
+     9. Projekt planu finansowego Funduszu jest opracowywany przez ministra właściwego
+do spraw informatyzacji i przekazywany Radzie Funduszu do zaopiniowania w terminie nie
+późniejszym niż 30 dni przed planowanym przekazaniem projektu planu ministrowi
+właściwemu do spraw finansów publicznych.
+
+     Art. 6. 1. Środki z Funduszu, z wyjątkiem środków, o których mowa w art. 5 ust. 6,
+wydatkowane są w oparciu o programy inwestycyjne.
+     2. Programy inwestycyjne mogą być ustanawiane:
+1)   do kwoty przewidzianej w planie finansowym Funduszu – na dany rok;
+2)   do kwoty nieprzekraczającej wysokości wpłat z budżetu państwa przewidzianych
+     w ustawie na kolejne lata.
+     3. Program    inwestycyjny,   w      tym    program   inwestycyjny   dotyczący    projektu
+strategicznego, może służyć również organizacji systemu wsparcia, w tym finansowego dla
+danej kategorii podmiotów, o ile jest to uzasadnione skuteczną realizacją celów Funduszu.
+     4. Środki w ramach programów inwestycyjnych są przyznawane w oparciu o otwarte
+konkursy, w ramach których zainteresowane podmioty mogą ubiegać się o udzielenie wsparcia
+finansowego.
+     5. W szczególnie uzasadnionych przypadkach środki w ramach programu inwestycyjnego
+mogą być przeznaczone na realizację projektu strategicznego z pominięciem konkursu, jeżeli
+łącznie spełnione są następujące przesłanki:
+1)   podmiotem realizującym projekt strategiczny jest:
+     a)   jednostka sektora finansów publicznych, lub jednostka jej podległa lub przez nią
+          nadzorowana,
+     b)   instytucja rozwoju, o której mowa w ustawie z dnia 4 lipca 2019 r. o systemie
+          instytucji rozwoju (Dz. U. z 2024 r. poz. 923 oraz z 2025 poz. 352 i 769),
+     c)   jednostka systemu oświaty lub jej organ prowadzący będący jednostką samorządu
+          terytorialnego lub ministrem,
+     d)   podmiot systemu szkolnictwa wyższego i nauki,
+     e)   publiczny podmiot prowadzący działalność leczniczą,
+     f)   publiczny podmiot o szczególnym znaczeniu dla bezpieczeństwa narodowego;
+                                            –4–
+
+
+2)   projekt strategiczny:
+     a)   nie dotyczy wsparcia działalności gospodarczej podmiotu realizującego ten projekt,
+     b)   ma szczególnie istotne znaczenie dla realizacji celu, o których mowa w art. 4,
+     c)   charakteryzuje się wysokim stopniem pilności w zakresie realizacji celów, o których
+          mowa w art. 4;
+3)   podmiot realizujący projekt strategiczny jest jedynym posiadającym zdolności,
+     w szczególności techniczne, organizacyjne, kadrowe lub wynikające z jego formy
+     prawnej lub zawartych umów, do uzasadnionej ekonomicznie realizacji danego projektu.
+     6. Minister właściwy do spraw informatyzacji przeprowadza konkurs w sposób
+przejrzysty, rzetelny i bezstronny oraz zapewnia wnioskodawcom równy dostęp do informacji
+o warunkach i sposobie naboru oraz wyboru projektów. Regulamin konkursu wymaga
+pozytywnego zaopiniowania przez Radę Funduszu.
+     7. Po dokonaniu oceny zgłoszeń nadesłanych w ramach konkursu, a przed
+zatwierdzeniem listy rankingowej, minister właściwy do spraw informatyzacji przedstawia
+Radzie Funduszu informację o przebiegu konkursu.
+     8. Rada Funduszu może w toku rozpatrywania informacji o przebiegu konkursu wystąpić
+do ministra właściwego do spraw informatyzacji o przedstawienie dodatkowych informacji lub
+okazanie dokumentacji związanej z przeprowadzaniem konkursu, w tym pełnej treści
+składanych wniosków. Minister przedstawia informacje lub okazuje dokumentację
+niezwłocznie, ale nie później niż 14 dni od otrzymania wystąpienia Rady Funduszu.
+     9. Minister właściwy do spraw informatyzacji zatwierdza listę rankingową i zawiera
+umowę o udzielenie wsparcia finansowego po uzyskaniu pozytywnej opinii Rady Funduszu
+o przebiegu konkursu.
+
+     Art. 7. 1. Programy inwestycyjne są ustanawiane w drodze uchwały Rady Ministrów,
+na wniosek ministra właściwego do spraw informatyzacji, po uzyskaniu przez niego
+pozytywnej opinii Rady Funduszu.
+     2. Programy inwestycyjne są realizowane w ramach subfunduszy, o których mowa
+w art. 5 ust. 3, przy czym w ramach danego subfunduszu może być ustanowiony jeden lub
+więcej program inwestycyjny.
+     3. Program inwestycyjny zawiera co najmniej:
+1)   nazwę programu i podstawę prawną jego ustanowienia;
+2)   podmiot realizujący program lub koordynujący jego wykonanie;
+3)   cel programu;
+                                                     –5–
+
+
+4)       zadania programu;
+5)       okres realizacji programu;
+6)       łączną kwotę wydatków na realizację programu;
+7)       tryb i formę udzielania wsparcia finansowego w ramach programu;
+8)       harmonogram wydatków w poszczególnych latach realizacji programu;
+9)       mierniki określające stopień realizacji celu programu;
+10) zasady monitorowania i sprawozdawczości związane z realizacją programu.
+         4. Wsparcie finansowe ze środków Funduszu może być przyznawane w szczególności
+w formie dotacji celowej. Zasady oraz tryb udzielenia i rozliczenia dotacji celowej określają
+przepisy ustawy z dnia 27 sierpnia 2009 r. o finansach publicznych (Dz. U. z 2024 r. poz. 1530
+z późn. zm.1)).
+         5. Wsparcie finansowe ze środków Funduszu może być przeznaczone na finansowanie
+danego zadania w całości lub w części.
+         6. Wsparcie finansowe ze środków Funduszu może mieć charakter bezzwrotny lub
+zwrotny.
+         7. Program inwestycyjny oraz projekt strategiczny może mieć charakter wieloletni.
+
+         Art. 8. Fundusz gromadzi środki z przeznaczeniem na finansowanie lub dofinansowanie
+zadań polegających na:
+1)       prowadzeniu prac badawczych i wdrożeniowych z obszaru technologii przełomowych
+         oraz wdrażaniu, w tym poprzez komercjalizację i popularyzacji ich wyników;
+2)       transformacji cyfrowej podmiotów wykonujących zadania publiczne i wdrażania nowych
+         rozwiązań technicznych służących zwiększeniu efektywności realizacji tych zadań;
+3)       ekspansji zagranicznej przedsiębiorców oraz umiędzynarodowienia prowadzenia badań
+         naukowych;
+4)       poprawie bezpieczeństwa cyberprzestrzeni Rzeczypospolitej Polskiej;
+5)       wsparciu rozwoju społeczeństwa informacyjnego, zwiększaniu poziomu dostępności
+         cyfrowej oraz przeciwdziałaniu wykluczeniu cyfrowemu;
+
+
+
+
+1)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2024 r. poz. 1572. 1717, 1756 i
+      1907 oraz z 2025 r. poz. 39 i 1180).
+                                            –6–
+
+
+6)   wsparciu rzetelnej i profesjonalnej edukacji z zakresu nowych technologii, higieny
+     cyfrowej i medialnej, cyberbezpieczeństwa, innowacji, etyki nowych technologii oraz
+     przedsiębiorczości na wszystkich etapach kształcenia;
+7)   rozwoju zaplecza infrastrukturalnego jednostek systemu oświaty, podmiotów systemu
+     szkolnictwa wyższego i nauki, podmiotów wykonujących zadania publiczne oraz
+     przedsiębiorców działających w sektorze technologii przełomowych;
+8)   działalności edukacyjnej i popularyzatorskiej z zakresu technologii przełomowych oraz
+     innych nowych technologii, innowacyjności, nauki i transformacji cyfrowej.
+
+     Art. 9. 1. Przychodami Funduszu są:
+1)   wpływy z kar pieniężnych, o których mowa w art. 46, art. 47a oraz art. 47b ustawy z dnia
+     5 września 2016 r. o usługach zaufania oraz identyfikacji elektronicznej (Dz. U. z 2024 r.
+     poz. 1725);
+2)   wpływy z kar pieniężnych, o których mowa w art. 19 ustawy z dnia 4 kwietnia 2019 r.
+     o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów
+     publicznych (Dz. U. z 2023 r. poz. 1440);
+3)   wpłaty z budżetu państwa przekazywane przez ministra właściwego do spraw
+     informatyzacji, w wysokości określonej corocznie w ustawie budżetowej na dany rok
+     budżetowy, nie niższej niż 5 mld zł;
+4)   środki finansowe z tytułu odsetek lub udziału w zyskach przedsięwzięć finansowanych
+     przez Fundusz, o ile program inwestycyjny w ramach którego przyznano wsparcie
+     finansowe przewidywał takie rozwiązania;
+5)   środki finansowe, o których mowa w ust. 3 i 4;
+6)   odsetki od zgromadzonych środków finansowych;
+7)   dobrowolne wpłaty, darowizny i zapisy;
+8)   wpływy z innych tytułów.
+     2. Wysokość wpłat, o których mowa w ust. 1 pkt 3, począwszy od drugiego roku
+od powołania Funduszu powiększa się o wskaźnik cen towarów i usług konsumpcyjnych
+ogółem w poprzednim roku kalendarzowym, ogłoszony przez Prezesa Głównego Urzędu
+Statystycznego na podstawie art. 94 ust. 1 pkt 1 lit. a ustawy z dnia 17 grudnia 1998 r.
+o emeryturach i rentach z Funduszu Ubezpieczeń Społecznych (Dz. U. z 2024 r. poz. 1631
+i 1674 oraz z 2025 r. poz. 718,769 i 1159). W przypadku, gdy wskaźnik ten przyjmuje wartość
+ujemną, przyjmuje się wartość celu inflacyjnego publikowanego przez Narodowy Bank Polski
+na 1 stycznia roku, którego dotyczy.
+                                             –7–
+
+
+     3. Dyrektor Naukowej i Akademickiej Sieci Komputerowej – Państwowego Instytutu
+Badawczego może, w drodze porozumienia z ministrem właściwym do spraw informatyzacji,
+przekazać część środków z planu finansowego tego instytutu, w tym z wypracowanego przez
+Naukową i Akademicką Sieć Komputerową – Państwowy Instytut Badawczy zysku netto za
+poprzedni rok obrotowy, do Funduszu.
+     4. Minister właściwy do spraw informatyzacji może przekazać, w drodze decyzji, część
+środków z Funduszu Szerokopasmowego, o którym mowa w art. 16a ustawy z dnia 7 maja
+2010 r. o wspieraniu rozwoju usług i sieci telekomunikacyjnych (Dz. U. z 2025 r. poz. 311
+i 1019), do Funduszu, informując o tym ministra właściwego do spraw finansów publicznych.
+Decyzja, o której mowa w zdaniu pierwszym, nie jest decyzją administracyjną w rozumieniu
+przepisów ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego (Dz.
+U. z 2024 r. poz. 572 oraz z 2025 r. poz. 769).
+
+                                          Rozdział 3
+
+                                       Rada Funduszu
+
+     Art. 10. 1. Tworzy się Radę Funduszu, która jest organem opiniodawczo – doradczym
+ministra właściwego do spraw informatyzacji.
+     2. Do zadań Rady Funduszu należy w szczególności:
+1)   doradztwo w zakresie realizacji zadań Funduszu;
+2)   opiniowanie podziału środków pomiędzy subfundusze;
+3)   dokonywanie, na podstawie informacji przekazanych przez ministra właściwego do spraw
+     szkolnictwa wyższego i nauki, ministra właściwego do spraw oświaty i wychowania,
+     ministra właściwego do spraw informatyzacji oraz ministra właściwego do spraw
+     gospodarki corocznej analizy i oceny skuteczności finansowania przez Fundusz
+     programów inwestycyjnych pod względem poprawy ich dostępności i przygotowania
+     rekomendacji na przyszłość oraz przekazywanie tej analizy i oceny Prezydentowi
+     Rzeczypospolitej Polskiej w terminie do 30 czerwca każdego roku, za rok poprzedni;
+4)   zgłaszanie Prezydentowi Rzeczypospolitej Polskiej oraz ministrowi właściwemu
+     do spraw informatyzacji wniosków i propozycji dotyczących działalności Funduszu;
+5)   opiniowanie regulaminów konkursów organizowanych w ramach subfunduszy oraz
+     zmian tych regulaminów;
+6)   opiniowanie strategii komunikacji Funduszu;
+7)   opiniowanie przebiegu konkursu;
+                                            –8–
+
+
+8)   opiniowanie planu wydatków obsługowych Funduszu, o których mowa w art. 5 ust. 6;
+9)   opiniowanie propozycji wydatkowania środków finansowych, o których mowa w art. 5
+     ust. 5;
+10) opiniowanie planu finansowego Funduszu, o którym mowa w art. 5 ust. 9, oraz jego
+     zmian;
+11) opiniowanie projektów programów inwestycyjnych, zmian w tych programach oraz
+     zgłaszanie ministrowi właściwemu do spraw informatyzacji propozycji projektów
+     programów inwestycyjnych.
+     3. Obsługę Rady Funduszu zapewnia urząd obsługujący ministra właściwego do spraw
+informatyzacji.
+     4. Koszty funkcjonowania Rady Funduszu są pokrywane z budżetu Funduszu. Minister
+właściwy do spraw informatyzacji może postanowić o pokryciu części kosztów obsługi Rady
+Funduszu ze środków części budżetowej będącej w jego dyspozycji.
+     5. Rada Funduszu może występować do podmiotów publicznych o udzielenie informacji
+oraz wyjaśnień lub zajęcie stanowiska, a także zlecać sporządzanie ekspertyz, analiz i opinii
+w zakresie swoich zadań.
+     6. Minister właściwy do spraw szkolnictwa wyższego i nauki, minister właściwy do spraw
+oświaty i wychowania, minister właściwy do spraw informatyzacji oraz minister właściwy
+do spraw gospodarki są obowiązani do przekazywania Radzie Funduszu informacji
+niezbędnych do opracowania analizy i oceny skuteczności finansowania programów
+inwestycyjnych, o której mowa w ust. 2 pkt 3.
+
+     Art. 11. 1. Rada Funduszu składa się z:
+1)   przedstawiciela ministra właściwego do spraw informatyzacji;
+2)   przedstawiciela ministra właściwego do spraw szkolnictwa wyższego i nauki;
+3)   przedstawiciela ministra właściwego do spraw gospodarki;
+4)   przedstawiciela ministra właściwego do spraw oświaty i wychowania;
+5)   przedstawiciela Ministra Obrony Narodowej;
+6)   przedstawiciela Prezesa Rady Ministrów;
+7)   trzech przedstawicieli ogólnokrajowych organizacji zrzeszających przedsiębiorców,
+     do których zadań statutowych należą sprawy objęte zakresem działań Funduszu;
+                                                     –9–
+
+
+8)      trzech przedstawicieli podmiotów wchodzących w skład systemu szkolnictwa wyższego
+        i nauki, o którym mowa w art. 7 ustawy z dnia 20 lipca 2018 r. – Prawo o szkolnictwie
+        wyższym i nauce (Dz. U. z 2024 r. poz. 1571, z późn. zm.2));
+9)      czterech przedstawicieli Prezydenta Rzeczypospolitej Polskiej, w tym co najmniej
+        jednego przedstawiciela Biura Bezpieczeństwa Narodowego.
+        2. Członkiem Rady Fundusz może być osoba, która:
+1)      jest obywatelem polskim;
+2)      korzysta z pełni praw publicznych;
+3)      posiada pełną zdolność do czynności prawnych;
+4)      nie była skazana prawomocnym wyrokiem za umyślne przestępstwo ścigane z oskarżenia
+        publicznego.
+        3. Członków Rady Funduszu powołuje i odwołuje Prezydent Rzeczypospolitej Polskiej.
+Członków Rady Funduszu, o których mowa w ust. 1 pkt 1–6, Prezydent Rzeczypospolitej
+Polskiej powołuje i odwołuje na wniosek podmiotów, których są przedstawicielami.
+        4. Członkowie Rady Funduszu, o których mowa w ust. 1 pkt 7 i 8, są powoływani spośród
+kandydatów zgłoszonych przez organizacje, o których mowa odpowiednio w ust. 1 pkt 7 i 8,
+w terminie 30 dni od dnia podania do publicznej wiadomości na stronie internetowej Kancelarii
+Prezydenta Rzeczypospolitej Polskiej oraz w Biuletynie Informacji Publicznej Kancelarii
+Prezydenta Rzeczypospolitej Polskiej ogłoszenia o naborze przedstawicieli takich organizacji
+na członków Rady Funduszu.
+        5. Organizacje, o których mowa w ust. 1 pkt 7 i 8, do zgłoszenia kandydatury danej osoby,
+załączają pisemną zgodę tej osoby na kandydowanie do Rady Funduszu, życiorys zawierający,
+w szczególności informacje dotyczące posiadanego wykształcenia oraz doświadczenia
+zawodowego oraz złożone, pod rygorem odpowiedzialności karnej za składanie fałszywych
+oświadczeń, pisemne oświadczenie o:
+1)       niekaralności za przestępstwo umyślne ścigane z oskarżenia publicznego;
+2)       posiadaniu obywatelstwa polskiego;
+3)       posiadaniu pełni praw publicznych.
+        6. Do oceny zgłoszeń kandydatów na członków Rady Funduszu, o których mowa w ust.
+1 pkt 7 i 8, Prezydent Rzeczypospolitej Polskiej powołuje zespół składający się z osób, których
+
+
+2)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2024 r. poz. 1871, 1897 oraz z
+      2025 r. poz. 619, 620, 621, 622 i 1162.
+                                          – 10 –
+
+
+wiedza i doświadczenie dają rękojmię wyłonienia najlepszych kandydatów. Członek zespołu
+ma obowiązek zachowania w tajemnicy informacji dotyczących kandydatów, uzyskanych
+w trakcie oceny zgłoszeń.
+     7. Zespół, o którym mowa w ust. 6, dokonuje oceny zgłoszeń kandydatów pod kątem
+posiadania kompetencji związanych z zakresem działania Funduszu, dotychczasowej
+działalności zawodowej oraz wkładu jaki dana osoba wniesie do prac Rady Funduszu. Zespół
+może w toku oceny zgłoszeń kandydatów zwracać się do podmiotu składającego zgłoszenie
+o udzielenie dodatkowych informacji niezbędnych do oceny danej kandydatury.
+     8. Po dokonaniu oceny nadesłanych zgłoszeń, zespół, o którym mowa w ust. 6,
+przedstawia Prezydentowi Rzeczypospolitej Polskiej listę kandydatów na członków Rady
+Funduszu, o których mowa w ust. 1 pkt 7 i 8 wraz z rekomendacjami. Po rozpatrzeniu
+rekomendacji zespołu, Prezydent Rzeczypospolitej Polskiej powołuje członków Rady
+Funduszu, o których mowa w ust. 1 pkt 7 i 8.
+
+     Art. 12. 1. Rada Funduszu wybiera spośród swoich członków Przewodniczącego,
+co najmniej jednego Zastępcę Przewodniczącego oraz co najmniej jednego Sekretarza
+w sposób określony w ust. 4.
+     2. Zadania Przewodniczącego, Zastępcy Przewodniczącego oraz Sekretarza oraz tryb
+działania Rady Funduszu określa regulamin, o którym mowa w ust. 5.
+     3. W pracach Rady Funduszu mogą uczestniczyć osoby niebędące członkami Rady
+Funduszu, zaproszone przez Przewodniczącego. Osobom tym nie przysługuje prawo głosu przy
+podejmowaniu rozstrzygnięć.
+     4. Rada podejmuje rozstrzygnięcia zwykłą większością głosów w obecności co najmniej
+połowy jej członków. W przypadku równej liczby głosów, decyduje głos Przewodniczącego.
+     5. Rada Funduszu działa na podstawie uchwalonego przez siebie regulaminu.
+     6. Członkom Rady Funduszu biorącym udział w posiedzeniu Rady Funduszu oraz
+osobom, o których mowa w ust. 3, zamieszkałym poza miejscowością, w której odbywa się
+posiedzenie Rady Funduszu, przysługuje zwrot kosztów przejazdu i zakwaterowania oraz dieta
+na zasadach określonych w przepisach dotyczących należności przysługujących pracownikowi
+zatrudnionemu w państwowej lub samorządowej jednostce sfery budżetowej z tytułu podróży
+służbowej.
+                                            – 11 –
+
+
+                                         Rozdział 4
+
+             Realizacja programów inwestycyjnych w ramach subfunduszy
+
+     Art. 13. Wsparcie finansowe ze środków Funduszu mogą uzyskać projekty realizowane
+w ramach programów inwestycyjnych, ustanowionych w celu realizacji zadań, o których mowa
+w art. 8.
+
+     Art. 14. 1. Minister właściwy do spraw informatyzacji opracowuje projekt programu
+inwestycyjnego:
+1)   w zakresie subfunduszu naukowo-badawczego – w porozumieniu z ministrem właściwym
+     do spraw szkolnictwa wyższego i nauki;
+2)   w zakresie subfunduszu edukacyjno-popularyzatorskiego – w porozumieniu z ministrem
+     właściwym do spraw oświaty i wychowania;
+3)   w zakresie subfunduszu wsparcia innowacyjnej gospodarki – w porozumieniu
+     z ministrem właściwym do spraw gospodarki;
+4)   w zakresie subfunduszy nowoczesnej administracji oraz bezpieczeństwa cyberprzestrzeni
+     – samodzielnie.
+     2. Projekt programu inwestycyjnego minister właściwy do spraw informatyzacji
+przedstawia Radzie Funduszu, celem zaopiniowania.
+     3. W przypadku ustanowienia programu inwestycyjnego w trybie, o którym mowa w art.
+7, o wsparcie finansowe w ramach tego programu mogą ubiegać się podmioty, których rodzaj
+wskazany jest w ustanowionym programie inwestycyjnym.
+     4. Wniosek o udzielenie wsparcia finansowego w ramach programu inwestycyjnego
+zawiera w szczególności:
+1)   nazwę (firmę) wnioskodawcy;
+2)   tytuł lub nazwę wniosku;
+3)   harmonogram realizacji działań objętych wnioskiem;
+4)   opis działań objętych wnioskiem i ich lokalizacji;
+5)   wyjaśnienie zgodności działań z celami programu inwestycyjnego;
+6)   opis spełniania kryteriów oceny wniosków;
+7)   wartość kosztorysową działań objętych wnioskiem;
+8)   kwotę wnioskowanego wsparcia finansowego;
+9)   proponowany procent wsparcia finansowego działań objętych wnioskiem;
+                                          – 12 –
+
+
+10) proponowaną kwotę wsparcia finansowego w podziale na poszczególne lata realizacji
+     działań objętych wnioskiem;
+11) informację o wymaganiach w zakresie zasobów rzeczowych i zasobów kadrowych oraz
+     kompetencji osób, zapewniających prawidłową realizację programu inwestycyjnego.
+
+     Art. 15. 1. Wybór wniosków o udzielenie wsparcia finansowego w ramach programu
+inwestycyjnego następuje w drodze konkursu.
+     2. W przypadku gdy kwota przeznaczona w konkursie na wsparcie finansowe wystarcza
+na objęcie wsparciem finansowym wszystkich wniosków, o których mowa w ust. 1, wsparcie
+finansowe mogą uzyskać wnioski, które spełniły kryteria oceny wniosków.
+     3. W przypadku gdy kwota przeznaczona w konkursie na wsparcie finansowe nie
+wystarcza na objęcie wsparciem finansowym wszystkich wniosków, o których mowa w ust. 1,
+wsparcie finansowe mogą uzyskać wnioski, które spełniły kryteria oceny wniosków i uzyskały:
+1)   wymaganą liczbę punktów albo
+2)   kolejno największą liczbę punktów.
+
+     Art. 16. 1. Ogłoszenie o konkursie, minister właściwy do spraw informatyzacji podaje
+do publicznej wiadomości na stronie internetowej urzędu obsługującego tego ministra oraz
+w Biuletynie Informacji Publicznej tego urzędu. Zmiany regulaminu konkursu wymagają
+uzyskania pozytywnej opinii Rady Funduszu.
+     2. Ogłoszenie o konkursie zawiera:
+1)   określenie przedmiotu konkursu;
+2)   określenie kwoty przeznaczonej na wsparcie finansowe;
+3)   określenie maksymalnego dopuszczalnego poziomu wsparcia finansowego lub
+     maksymalnej dopuszczalnej kwoty wsparcia finansowego;
+4)   termin i formę składania wniosków o udzielenie wsparcia finansowego.
+
+     Art. 17. 1. Minister właściwy do spraw informatyzacji organizuje i przeprowadza
+konkurs, na podstawie określonego przez siebie i zaopiniowanego pozytywnie przez Radę
+Funduszu, regulaminu konkursu. Zmiany regulaminu konkursu wymagają uzyskania
+pozytywnej opinii Rady Funduszu.
+     2. Regulamin konkursu określa w szczególności:
+1)   nazwę i adres urzędu obsługującego ministra właściwego do spraw informatyzacji;
+2)   przedmiot konkursu;
+                                           – 13 –
+
+
+3)   termin i formę składania wniosków o udzielenie wsparcia finansowego i sposób
+     uzupełniania braków formalnych oraz poprawiania oczywistych omyłek;
+4)   wzór wniosku o udzielenie wsparcia finansowego;
+5)   wzór umowy o udzieleniu wsparcia finansowego;
+6)   czynności, jakie wnioskodawca jest obowiązany dokonać przed zawarciem umowy
+     o udzieleniu wsparcia finansowego ze środków Funduszu, oraz wymagane dokumenty
+     i terminy ich przedłożenia ministrowi właściwemu do spraw informatyzacji;
+7)   kryteria oceny wniosków wraz z określeniem ich znaczenia;
+8)   zakres, w jakim jest możliwe uzupełnianie lub poprawianie wniosku;
+9)   formę i sposób komunikacji między wnioskodawcą a ministrem właściwym do spraw
+     informatyzacji, w tym wzywania wnioskodawcy do uzupełniania lub poprawiania
+     wniosku, w trakcie jego oceny, a także informację o skutkach niezachowania wskazanej
+     formy i wskazanego sposobu komunikacji;
+10) kwotę łączną wsparcia finansowego wraz z informacją dotyczącą możliwości jej
+     zwiększenia;
+11) maksymalną dopuszczalną kwotę wsparcia finansowego;
+12) informację dotyczącą środków odwoławczych;
+13) sposób podania do publicznej wiadomości wyników konkursu;
+14) formę i sposób udzielania wyjaśnień w sprawach dotyczących konkursu;
+15) informację w zakresie możliwości skrócenia terminu składania wniosków o udzielenie
+     wsparcia finansowego.
+     3. Do czasu rozstrzygnięcia konkursu, minister właściwy do spraw informatyzacji nie
+może zmieniać regulaminu konkursu w sposób skutkujący nierównym traktowaniem
+wnioskodawców.
+     4. Przepisu ust. 1 zdanie drugie oraz ust. 3 nie stosuje się jeżeli konieczność dokonania
+zmiany regulaminu konkursu wynika z odrębnych przepisów.
+     5. Minister właściwy do spraw informatyzacji podaje do publicznej wiadomości
+na stronie internetowej urzędu obsługującego tego ministra oraz w Biuletynie Informacji
+Publicznej tego urzędu, regulamin konkursu oraz jego zmiany, wraz z terminem, od którego
+są stosowane.
+
+     Art. 18. Termin składania wniosków o udzielenie wsparcia finansowego, nie może być
+krótszy niż 21 dni, licząc od dnia publikacji regulaminu konkursu.
+                                            – 14 –
+
+
+     Art. 19. 1. W razie stwierdzenia braków formalnych we wniosku o udzielenie wsparcia
+finansowego,    minister   właściwy    do   spraw    informatyzacji   wzywa   wnioskodawcę
+do uzupełnienia wniosku w wyznaczonym terminie, nie krótszym niż 7 dni i nie dłuższym niż
+21 dni, pod rygorem pozostawienia wniosku bez rozpatrzenia.
+     2. W razie stwierdzenia oczywistej omyłki we wniosku o udzielenie wsparcia
+finansowego, minister właściwy do spraw informatyzacji poprawia tę omyłkę z urzędu,
+informując o tym wnioskodawcę, albo wzywa wnioskodawcę do poprawienia oczywistej
+omyłki w wyznaczonym terminie, nie krótszym niż 7 dni i nie dłuższym niż 21 dni, pod
+rygorem pozostawienia wniosku bez rozpatrzenia.
+     3. W razie złożenia wniosku o udzielenie wsparcia finansowego po terminie wskazanym
+w ogłoszeniu o konkursie, wniosek pozostawia się bez rozpatrzenia. Wniosek pozostawia się
+bez rozpatrzenia także w przypadku niezachowania formy i sposobu komunikacji określonych
+w regulaminie konkursu.
+
+     Art. 20. 1. Minister właściwy do spraw informatyzacji dokonuje oceny wniosków
+o udzielenie wsparcia finansowego na podstawie kryteriów, o których mowa w art. 17 ust. 2
+pkt 7.
+     2. Minister właściwy do spraw informatyzacji, po zakończeniu oceny wniosków,
+przygotowuje listę rankingową zawierającą wnioski objęte wsparciem finansowym.
+     3. W ocenie wniosków uczestniczy:
+1)   w przypadku konkursów organizowanych w ramach subfunduszu naukowo-badawczego
+     – co najmniej jeden przedstawiciel ministra właściwego do spraw szkolnictwa wyższego
+     i nauki;
+2)   w przypadku konkursów organizowanych w ramach subfunduszu edukacyjno-
+     popularyzatorskiego – co najmniej jeden przedstawiciel ministra właściwego do spraw
+     oświaty i wychowania;
+3)   w przypadku konkursów organizowanych w ramach subfunduszu wsparcia innowacyjnej
+     gospodarki – co najmniej jeden przedstawiciel ministra właściwego do spraw gospodarki.
+     4. Lista rankingowa zawiera:
+1)   wnioski uszeregowane pod względem liczby przyznanych punktów w kolejności
+     od największej do najmniejszej;
+2)   nazwę (firmę) wnioskodawcy;
+3)   tytuł albo nazwę wniosku;
+4)   przewidywany okres realizacji wniosku;
+                                          – 15 –
+
+
+5)   wartość kosztorysową wniosku;
+6)   kwotę wnioskowanego wsparcia finansowego;
+7)   proponowany procent wsparcia finansowego;
+8)   proponowaną kwotę wsparcia finansowego w podziale na poszczególne lata realizacji
+     wniosku.
+     5. Na liście rankingowej uwzględnia się wszystkie wnioski, które podlegały ocenie.
+     6. Po pozytywnym zaopiniowaniu przebiegu konkursu przez Radę Funduszu, minister
+właściwy do spraw informatyzacji podaje listę rankingową do publicznej wiadomości
+na stronie internetowej urzędu obsługującego tego ministra oraz w Biuletynie Informacji
+Publicznej tego urzędu.
+     7. W przypadku otrzymania negatywnej opinii Rady Funduszu o przebiegu konkursu,
+minister właściwy do spraw informatyzacji unieważnia konkurs.
+
+     Art. 21. Wnioskodawcy nie przysługuje prawo wniesienia wniosku o dokonanie
+ponownej oceny wniosku o udzielenie wsparcia finansowego w przypadku, gdy proponowany
+procent wsparcia finansowego, o którym mowa w art. 20 ust. 4 pkt 7, wynosi 0.
+
+     Art. 22. Do postępowania w zakresie konkursu, nie stosuje się przepisów ustawy z dnia
+14 czerwca 1960 r. – Kodeks postępowania administracyjnego, z wyjątkiem przepisów
+dotyczących obliczania terminów oraz wyłączenia pracownika i organu.
+
+                                        Rozdział 5
+
+                      Przepisy dostosowujące oraz przepis końcowy
+
+     Art. 23. Tworzy się Fundusz Rozwoju Technologii Przełomowych.
+
+     Art. 24. 1. Maksymalny limit wydatków z budżetu państwa będących skutkiem wejścia
+w życie niniejszej ustawy wynosi:
+1)     w 2026 r. – 2,5 mld zł;
+2)     w 2027 r. – 5 mld zł;
+3)     w 2028 r. – 5 mld zł;
+4)     w 2029 r. – 5 mld zł;
+5)     w 2030 r. – 5 mld zł;
+6)     w 2031 r. – 5 mld zł;
+7)     w 2032 r. – 5 mld zł;
+8)     w 2033 r. – 5 mld zł;
+                                           – 16 –
+
+
+9)      w 2034 r. – 5 mld zł;
+10)     w 2035 r. – 5 mld zł.
+      2. Minister właściwy do spraw informatyzacji monitoruje wykorzystanie limitów
+wydatków, o których mowa w ust. 1.
+      3. W przypadku przekroczenia lub zagrożenia przekroczeniem przyjętego na dany rok
+maksymalnego limitu wydatków zostanie zastosowany mechanizm korygujący, polegający
+na zmianie planu finansowego Funduszu przez odpowiednie zmniejszenie wydatków Funduszu
+w danym roku. Zastosowanie mechanizmu korygującego wymaga uzyskania pozytywnej opinii
+Rady Funduszu.
+      4. Maksymalny limit wydatków z budżetu państwa, o którym mowa w ust. 1 ulega
+corocznemu podwyższeniu zgodnie z art. 9 ust. 2, począwszy od ustawy budżetowej na rok
+2027.
+
+      Art. 25. Przepis art. 9 ust. 1 pkt 3 w zakresie określającym wysokość corocznej wpłaty
+z budżetu państwa stosuje się począwszy od ustawy budżetowej na rok 2026.
+
+      Art. 26. Rada Ministrów przedstawia Sejmowi i Senatowi oraz Prezydentowi
+Rzeczypospolitej Polskiej, w terminie do dnia 30 czerwca, sprawozdanie z działalności
+Funduszu za rok poprzedni.
+
+      Art. 27. Ustawa wchodzi w życie po upływie 30 dni od dnia ogłoszenia.
+                                            UZASADNIENIE
+
+
+       Projektowana ustawa ma na celu zwiększenie bezpieczeństwa Rzeczypospolitej
+Polskiej w strategicznym wymiarze technologii przełomowych, zapewniając tym samym
+wsparcie dla polskiej gospodarki, nauki, administracji oraz społeczeństwa, przez stworzenie
+Funduszu Rozwoju Technologii Przełomowych, zwanego dalej „Funduszem”. Fundusz
+stanowi odpowiedź na podnoszone wielokrotnie przez przedstawicieli środowiska naukowego,
+przedsiębiorców          oraz   przedstawicieli     władzy    publicznej   postulaty    zwiększenia
+i usystematyzowania nakładów na badania i rozwój, w szczególności w obszarach technologii
+przełomowych dla gospodarki i społeczeństwa. To technologie, na których opierać się będzie
+gospodarka przyszłości, a co za tym idzie ekonomiczna i strategiczna pozycja Rzeczypospolitej
+Polskiej będzie zależeć od tego w którym miejscu globalnych łańcuchów wartości znajdzie się
+nasz kraj.
+       Z tej perspektywy kluczowe staje się zapewnienie adekwatnych nakładów na wsparcie
+finansowe przedsięwzięć o kluczowym znaczeniu dla rozwoju technologii przełomowych
+w Polsce, w tym finansowanie lub dofinansowanie:
+       1) prac badawczych i wdrożeniowych z obszaru technologii przełomowych oraz
+wdrażaniu, w tym poprzez komercjalizację, oraz popularyzacji ich wyników;
+       2) transformacji cyfrowej podmiotów wykonujących zadania publiczne i wdrażania
+nowych rozwiązań technicznych służących zwiększeniu efektywności realizacji tych zadań;
+       3) ekspansji zagranicznej polskich przedsiębiorców oraz umiędzynarodowienia
+prowadzenia badań naukowych;
+       4)      działań     mających    na    celu    poprawę     bezpieczeństwa     cyberprzestrzeni
+Rzeczypospolitej Polskiej;
+       5) działań na rzecz rozwoju społeczeństwa informacyjnego, zwiększania poziomu
+dostępności cyfrowej oraz przeciwdziałania wykluczeniu cyfrowemu;
+       6) rzetelnej i profesjonalnej edukacji z zakresu nowych technologii, higieny cyfrowej
+i medialnej,     cyberbezpieczeństwa,         innowacji,     etyki   nowych       technologii   oraz
+przedsiębiorczości na wszystkich etapach kształcenia;
+       7) rozwoju zaplecza infrastrukturalnego jednostek systemu oświaty, podmiotów
+systemu szkolnictwa wyższego i nauki, podmiotów wykonujących zadania publiczne oraz
+przedsiębiorców działających w sektorze technologii przełomowych;
+       8) działalności edukacyjnej i popularyzatorskiej z zakresu technologii przełomowych
+oraz innych nowych technologii, innowacyjności, nauki i transformacji cyfrowej.
+       Na te zadania, w myśl projektowanej ustawy, Fundusz przeznaczać będzie co najmniej
+5 miliardów złotych rocznie (z wyjątkiem roku 2026 kiedy będzie to 2,5 miliarda złotych
+rocznie), z uwzględnioną coroczną waloryzacją o wskaźnik wzrostu cen i usług
+konsumpcyjnych ogółem, co zapewni zachowanie siły nabywczej środków w dyspozycji
+Funduszu.
+       Fundusz będzie miał charakter ogólnopaństwowy dzięki wprowadzeniu rozwiązań
+zapewniających ścisłą współpracę i partycypację w zarządzaniu Funduszem: Prezydentowi
+Rzeczypospolitej Polskiej, Rządowi, środowisku naukowemu i przedsiębiorcom. Podmioty te,
+skupione w Radzie Funduszu, gdzie żadna ze stron nie będzie dysponować samodzielną
+większością głosów, będą wspólnie zarządzać środkami przeznaczonymi na realizację celów
+Funduszu, co odzwierciedla założenie, że w działania tak fundamentalne dla przyszłości kraju
+muszą być włączane wszystkie środowiska.
+       Przedstawienie inicjatywy ustawodawczej Sejmowi wpisuje się w realizację
+konstytucyjnej powinności państwa zawartej w art. 73 Konstytucji Rzeczypospolitej Polskiej,
+który stanowi, że ,,Każdemu zapewnia się wolność twórczości artystycznej, badań naukowych
+oraz ogłaszania ich wyników, wolność nauczania, a także wolność korzystania z dóbr kultury.”.
+Niewątpliwie zapewnienie wystarczających nakładów na rozwój technologii przełomowych
+sprzyjać będzie realizacji tego uprawnienia, przy jednoczesnym poszanowaniu wyrażonej
+w art. 70 ust. 5 Konstytucji Rzeczypospolitej Polskiej autonomii szkół wyższych.
+       Bezpieczeństwo państwa w warunkach współczesnych nie może być pojmowane
+w kategoriach tradycyjnych, ograniczających się jedynie do aspektu militarnego czy
+dyplomatycznego. Nowoczesne ujęcie tego pojęcia obejmuje również czynniki gospodarcze,
+technologiczne i społeczne, które decydują o odporności państwa na zagrożenia i o jego
+zdolności do skutecznego funkcjonowania w warunkach globalnej rywalizacji. Rozwój
+nowoczesnych technologii – w tym w szczególności technologii przełomowych i podwójnego
+zastosowania, takich jak sztuczna inteligencja, technologie kwantowe, biotechnologie czy
+technologie kosmiczne – staje się elementem niezbędnym dla realizacji celów bezpieczeństwa
+narodowego.
+       W tym kontekście Prezydent Rzeczypospolitej Polskiej, jako najwyższy przedstawiciel
+państwa i gwarant ciągłości władzy, pełni szczególną rolę w kształtowaniu i nadzorze nad
+strategicznymi kierunkami polityki bezpieczeństwa. Wynika to zarówno z postanowień
+Konstytucji, które nakładają na Prezydenta obowiązek czuwania nad przestrzeganiem
+Konstytucji i stania na straży suwerenności oraz bezpieczeństwa państwa, jak i z jego pozycji
+w systemie organów państwowych, w szczególności w obszarze bezpieczeństwa i obronności.
+                                             2
+       Skoro zatem bezpieczeństwo narodowe w nowoczesnym rozumieniu wymaga
+konsekwentnego rozwijania potencjału naukowego i technologicznego, oczywistym jest, że to
+właśnie Prezydent – ze względu na swoje kompetencje ustrojowe – powinien posiadać
+szczególne instrumenty prawne pozwalające inicjować rozwiązania służące tym celom. Stąd
+zasadna jest jego rola przewidziana w ustawie, polegająca wspieraniu działań mających na celu
+rozwój nowoczesnych technologii w ścisłym związku z bezpieczeństwem państwa.
+       Wydatki na badania i rozwój nie mogą być traktowane wyłącznie jako element polityki
+gospodarczej czy innowacyjnej. Stanowią one jednocześnie narzędzie realizacji nadrzędnego
+obowiązku państwa, jakim jest zapewnienie bezpieczeństwa narodowego. Inwestycje w
+technologie przełomowe zwiększają odporność państwa na kryzysy, redukują zależność od
+zewnętrznych dostawców i podmiotów trzecich, a także wzmacniają zdolności obronne i
+gospodarcze.
+
+
+Potrzeba wprowadzenia regulacji:
+
+
+Doświadczenia historyczne dowodzą, że kolejne rewolucje technologiczne w decydujący
+sposób wpływały na pozycję gospodarczą i cywilizacyjną narodów. Kraje, które w XIX wieku
+zainwestowały w kolej i przemysł maszynowy, a w XX wieku w technologie komunikacyjne,
+elektronikę i komputery - osiągnęły skokowy rozwój, podczas gdy państwa pozostające na
+peryferiach postępu technologicznego zmagały się z gospodarczym zacofaniem. Obecnie świat
+znajduje się u progu czwartej rewolucji przemysłowej, opartej na technologiach cyfrowych,
+sztucznej inteligencji, dużych zbiorach danych, automatyzacji oraz nowych przełomowych
+odkryciach naukowych. Ta kolejna transformacja niesie ze sobą zarówno olbrzymie szanse
+rozwojowe, jak i ryzyko pogłębienia dysproporcji między krajami innowacyjnymi a resztą
+świata. Polska, aby zapewnić sobie trwały wzrost gospodarczy, bezpieczeństwo oraz poprawę
+jakości życia obywateli, powinna aktywnie uczestniczyć w tej globalnej rewolucji
+technologicznej i nie może pozwolić sobie na pozostanie wyłącznie odbiorcą cudzych
+technologii.
+Niestety, szereg wskaźników świadczy o tym, że obecny poziom innowacyjności polskiej
+gospodarki jest niewystarczający. W Europejskim Rankingu Innowacyjności (European
+Innovation Scoreboard 2025) Polska została zaliczona do grupy tzw. „wschodzących
+innowatorów” (Emerging Innovators), czyli państw o wynikach innowacyjnych poniżej 70%
+średniej UE, zajmując 23. miejsce w UE (na 27 krajów) z wynikiem ok. 66% średniego
+poziomu unijnego. Także globalnie Polska mierzy się z dużą konkurencją: w Globalnym
+                                             3
+Indeksie Innowacyjności (Global Innovation Index) 2024 Polska zajęła 40 pozycję na świecie
+ogółem i 47 pod względem rezultatów. Główną barierą jest niedostateczny poziom nakładów
+na badania naukowe i prace rozwojowe oraz ograniczona absorpcja nowych technologii przez
+sektor publiczny i prywatny. Choć w ostatnich latach odnotowano pozytywny trend wzrostowy
+(według ostatnich dostępnych danych GUS wydatki B+R w Polsce wzrosły nominalnie
+o 18,8% w 2023 r. względem poprzedniego roku, a ich udział w PKB wzrósł z 0,94% w 2014
+r. do 1,56% w 2023 r.), to luka względem wysoko rozwiniętych państw nadal jest duża.
+       Co istotne, znaczna część nakładów na innowacje w Polsce pochodzi ze środków
+publicznych oraz funduszy unijnych, a zaangażowanie kapitału prywatnego w prace B+R wciąż
+jest ograniczone. Z danych GUS wynika, że w 2022 r. sektor przedsiębiorstw finansował
+ok. 65% nakładów B+R w Polsce, podczas gdy w gospodarkach wysokoinnowacyjnych biznes
+często ponosi 70-80% całkowitych wydatków na B+R. Oznacza to, że bez aktywnej roli
+państwa trudno oczekiwać przełomu, tym bardziej, że przedsiębiorcy często rezygnują
+z realizacji innowacyjnych projektów, jeśli nie uzyskają wsparcia publicznego. Najwyższa Izba
+Kontroli (NIK) w raporcie podsumowującym kontrolę pod nazwą „Wykorzystanie przez
+przedsiębiorców środków publicznych na innowacje i prace badawczo-rozwojowe”
+(2017 - ostatnia szczegółowa kontrola z tego zakresu) stwierdziła, że „przedsiębiorcy
+w zdecydowanej większości przypadków (24 na 30) rezygnowali z realizacji innowacyjnych
+projektów, gdy nie otrzymali publicznego wsparcia”. Jednocześnie NIK wskazała, iż
+dotychczasowe programy wsparcia innowacji w Polsce cechował brak spójnej strategii
+i koncentracji na projektach rzeczywiście przełomowych - środki rozproszone w wielu
+programach operacyjnych często finansowały jedynie rozwiązania nowe z perspektywy danego
+przedsiębiorcy, ale niebędące faktyczną nowością w skali kraju czy świata.
+       Projektowana ustawa wprost odpowiada na powyższe wnioski. Poprzez utworzenie
+Funduszu jako państwowego funduszu celowego z jasno określonymi priorytetami
+technologicznymi (technologie przełomowe o kluczowym znaczeniu dla gospodarki
+przyszłości) oraz mechanizmami wyboru projektów, nastąpi skokowe zwiększenie
+efektywności inwestowania środków publicznych w innowacje. Fundusz umożliwi
+koncentrację zasobów finansowych na najbardziej obiecujących kierunkach rozwoju (jak
+sztuczna inteligencja i uczenie maszynowe, komputery kwantowe, biotechnologia, robotyka,
+etc.), zapewniając równocześnie koordynację działań na poziomie centralnym, tak aby uniknąć
+rozproszenia i dublowania programów wsparcia. Kompleksowe spojrzenie sprawi, że
+realizowane inwestycje przyczynią się do wyrównywania różnic w innowacyjności między
+regionami i sektorami, pomoże uniknąć pułapek wynikających z udzielania fragmentarycznego
+                                             4
+lub wybiórczego wsparcia, a także sprawi, że dofinansowane zostaną rzeczywiście projekty
+o charakterze strategicznym dla całej gospodarki.
+       Współczesne uwarunkowania czynią inwestycje w technologie przełomowe nie tylko
+kwestią rozwoju gospodarczego, ale wręcz koniecznością dla zachowania suwerenności
+i bezpieczeństwa państwa. Sztuczna inteligencja czy kryptografia kwantowa stają się
+narzędziami rywalizacji międzynarodowej - zarówno na polu ekonomii (przewaga
+technologiczna przekłada się na przewagę rynkową), jak i w sferze militarnej czy
+informacyjnej. Coraz częstsze ataki cybernetyczne na infrastrukturę krytyczną państw
+pokazują, że zdolności w zakresie cyberbezpieczeństwa i nowoczesnych systemów
+informatycznych są równie istotne jak tradycyjne zdolności obronne. W odpowiedzi na te
+wyzwania państwa wysoko rozwinięte znacząco zwiększają nakłady na badania nad nowymi
+technologiami o potencjale przełomowym. Unia Europejska, obok innych inicjatyw w zakresie
+AI, uruchomiła np. Flagowy Program Kwantowy (Quantum Flagship) o budżecie 1 mld € na
+lata 2018-2028, Francja w 2021 r. ogłosiła narodowy program rozwoju technologii
+kwantowych o wartości 1,8 mld €. Również Polska dostrzega te potrzeby - w dokumencie
+„Polityka naukowa państwa” przyjętym w 2022 r. wskazano informatykę kwantową
+i zaawansowane obliczenia wysokiej mocy jako jedne z głównych priorytetów nauki polskiej
+na najbliższe lata. Już teraz polskie ośrodki badawcze uczestniczą w międzynarodowych
+przedsięwzięciach w tym zakresie (np. w projekcie EuroQCS-PL koordynowanym przez
+Poznańskie Centrum Superkomputerowo-Sieciowe, owocującym niedawnym uruchomieniem
+komputera kwantowego w technologii spułapkowanych jonów). Aby jednak tego rodzaju
+inicjatywy mogły się rozwijać i przynosić rezultaty, niezbędne jest zapewnienie im stabilnego
+finansowania oraz systemowego wsparcia, stąd propozycja ustanowienia Funduszu jako
+dedykowanego źródła finansowania technologii przyszłości.
+       Co istotne, Fundusz będzie tam gdzie to możliwe opierał się o istniejące już dobre
+praktyki i wykorzystywał zasoby instytucjonalne istniejących podmiotów działających
+w obszarze wsparcia innowacyjności, zapewniając stabilne źródło finansowania dla inicjatyw
+będących w gestii tych instytucji.
+       Reasumując, zarówno uwarunkowania wewnętrzne, jak i trendy globalne jednoznacznie
+wskazują na konieczność podjęcia skoordynowanego wysiłku państwa na rzecz technologii
+przełomowych. Ustawa o Funduszu Rozwoju Technologii Przełomowych jest odpowiedzią na
+tę konieczność i stanowi inwestycję w przyszłość kraju - tak jak niegdyś budowa portu w Gdyni
+czy Centralnego Okręgu Przemysłowego stanowiły impulsy modernizacyjne na miarę potrzeb
+swoich czasów. Eksperci zauważają, że inwestycje w nowe technologie, takie jak sztuczna
+                                              5
+inteligencja, zwracają się wielokrotnie, a analizy wskazują, że średnio każda złotówka
+zainwestowana     w   rozwiązania    oparte    o   najnowocześniejsze   technologie   przynosi
+przedsiębiorstwom kilku, bądź nawet kilkunastokrotnie większe oszczędności lub przychody.
+Polska powinna wykorzystać te możliwości wzrostu produktywności i budowy nowych
+przewag konkurencyjnych, wymaga to jednak zasilenia systemu innowacji odpowiednim
+kapitałem oraz ukierunkowania go na najbardziej obiecujące obszary przy poszanowaniu roli
+istniejących instytucji o podobnych celach.
+
+
+Streszczenie rozwiązań przyjętych w projekcie
+
+
+     Projekt ustawy precyzyjnie wskazuje cele Funduszu Rozwoju Technologii Przełomowych
+oraz zasady jego funkcjonowania. Zgodnie z art. 4 projektu, Celem Funduszu jest działanie na
+rzecz wzmocnienia bezpieczeństwa państwa, w szczególności w zakresie realizacji i wdrażania
+strategii bezpieczeństwa narodowego, o której mowa w art. 24 ustawy z dnia 11 marca 2022 r.
+o obronie Ojczyzny (Dz. U. z 2025 r. poz. 825, 1014 i 1080), poprzez wspieranie polskiej nauki,
+administracji, gospodarki i społeczeństwa w rozwijaniu technologii przełomowych, w tym:
+     a)   biotechnologii i medycyny,
+     b)   interfejsów człowiek-maszyna i technologii immersyjnych,
+     c)   technologii materiałowych i produkcyjnych,
+     d)   technologii komunikacyjnych,
+     e)   sztucznej inteligencji i robotyki,
+     f)   technologii energetycznych,
+     g)   technologii kosmicznych i transportowych,
+     h)   technologii środowiskowych, klimatycznych i rolniczych,
+     i)   technologii cyfrowych i obliczeniowych, w tym technologii kwantowych
+          i kryptografii,
+     j)   neurotechnologii
+     - oraz tworzeniu, rozwijaniu, wdrażaniu i popularyzowaniu rozwiązań opartych na tych
+     technologiach.
+
+
+Co kluczowe, katalog ten ma charakter otwarty. Wymieniono w nim kluczowe dziedziny
+będące dziś w światowej czołówce przełomowych innowacji, przy czym dynamiczny postęp
+naukowy może powodować pojawienie się kolejnych obszarów o podobnym potencjale (które
+
+
+                                               6
+również będą mogły być wspierane w ramach Funduszu). Istotą jest ukierunkowanie wsparcia
+na technologie o charakterze horyzontalnym, których rozwój może przynieść radykalne zmiany
+społeczno-gospodarcze (ang. general purpose technologies), a tym samym zapewnić Polsce
+długofalowe korzyści rozwojowe.
+       Fundusz będzie państwowym funduszem celowym, o którym mowa w art. 29 ustawy
+z dnia 27 sierpnia 2009 r. o finansach publicznych (Dz. U. z 2024 r. poz. 1530 z późn. zm.),
+co oznacza wyodrębnienie jego środków z budżetu państwa i przeznaczenie na ściśle określone
+cele. Dysponentem Funduszu ma być minister właściwy do spraw informatyzacji (art. 5 ust. 2
+projektu). Oznacza to, że minister będzie zarządzać środkami Funduszu i odpowiadać za ich
+rozdysponowanie zgodnie z ustawą. Taki wybór dysponenta jest uzasadniony zakresem zadań
+Funduszu, obejmujących w dużej mierze finansowanie technologii cyfrowych i informatyzacji,
+przy czym minister będzie współdziałał ściśle z innymi ministrami przy realizacji
+poszczególnych komponentów np. z ministrem właściwym ds. szkolnictwa wyższego i nauki
+przy projektach z zakresu badań naukowych, z ministrem ds. gospodarki przy wsparciu
+przedsiębiorstw etc.
+       Projektowana ustawa określa przejrzyste zasady naboru i wyboru projektów do
+finansowania. W myśl art. 6 ust. 6 , minister przeprowadza konkursy w sposób „przejrzysty,
+rzetelny i bezstronny”, zapewniając wnioskodawcom równy dostęp do informacji o warunkach
+i sposobie naboru oraz wyboru projektów. Ten zapis gwarantuje dochowanie zasad uczciwej
+konkurencji i transparentności. Każdy zainteresowany podmiot, spełniający kryteria określone
+w ustawie i ogłoszeniu konkursowym będzie miał jednakową szansę ubiegania się o środki
+Funduszu, zaś proces oceny wniosków będzie oparty na jawnych kryteriach merytorycznych.
+Takie unormowania sprzyjają profesjonalnemu i bezstronnemu wyborowi najlepszych
+projektów, co jest kluczowe dla powodzenia całego Funduszu. Jednocześnie, projekt
+przewiduje szczególny tryb postępowania w przypadku projektów strategicznym, dla których
+dopuszczony jest także tryb pozakonkursowy, jednak po spełnieniu rygorystycznych
+warunków:
+1. Podmiotem realizującym projekt strategiczny jest:
+           a) jednostka sektora finansów publicznych, lub jednostka jej podległa lub przez nią
+              nadzorowana;
+           b) instytucja rozwoju, o której mowa w ustawie z dnia 4 lipca 2019 r. o systemie
+              instytucji rozwoju (Dz. U. z 2024 r. poz. 923);
+           c) jednostka systemu oświaty lub jej organ prowadzący będący jednostką
+              samorządu terytorialnego lub ministrem;
+                                              7
+           d) podmiot systemu szkolnictwa wyższego i nauki;
+           e) publiczny podmiot prowadzący działalność leczniczą;
+           f) publiczny podmiot o szczególnym znaczeniu dla bezpieczeństwa państwa;
+2. Projekt nie dotyczy wsparcia działalności gospodarczej podmiotu realizującego ten projekt;
+3. Projekt ma szczególnie istotne znaczenie dla celu Funduszu;
+4. Projekt charakteryzuje się wysokim stopniem pilności w zakresie realizacji celów Funduszu;
+5. Podmiot realizujący projekt strategiczny jest jedynym posiadającym zdolności,
+w szczególności techniczne, organizacyjne, kadrowe czy wynikające z jego formy prawnej lub
+zawartych umów, do racjonalnej ekonomicznie realizacji danego projektu.
+       W praktyce oznacza to, że nabór pozakonkursowy ograniczony będzie jedynie do
+projektów realizowanych przez podmioty publiczne, dzięki czemu projekty strategiczne nie
+będą powodować zakłóceń konkurencyjności ani budzić podejrzeń o nierówny dostęp do
+środków publicznych.
+       Fundusz będzie funkcjonował w oparciu o programy inwestycyjne, ustanawiane przez
+w drodze uchwały przez Radę Ministrów na wniosek ministra właściwego do spraw
+informatyzacji pozytywnie zaopiniowany przez Radę Funduszu i określające w sposób ogólny
+charakter interwencji dokonywanych ze środków Funduszu. Programy inwestycyjne mają mieć
+co najmniej roczny okres obowiązywania i służą temu by nadawać ramy konkursom
+ogłaszanym przez ministra.
+       Wsparcie finansowe ze środków Funduszu może być udzielane w formie dotacji
+celowej lub w innych formach zapewnienia finansowania, w tym finansowania bezpośredniego.
+Projektowana ustawa ma być samodzielną podstawą prawną do przyznawania wsparcia
+finansowego.
+       W strukturze Funduszu wyodrębnionych zostanie pięć subfunduszy celowych (art. 5
+ust. 3), odpowiadających głównym obszarom wsparcia:
+1. Subfundusz naukowo-badawczy - przeznaczony na finansowanie prac badawczo-
+rozwojowych z obszaru technologii przełomowych, realizowanych głównie przez jednostki
+naukowe, konsorcja B+R i wybitnych naukowców.
+2. Subfundusz wsparcia innowacyjnej gospodarki - przeznaczony na zapewnienie wsparcia
+przedsiębiorcom (w tym startupom, innowacyjnym MŚP) wdrażającym przełomowe
+technologie, w tym ich ekspansji zagranicznej i skalowania działalności.
+3. Subfundusz nowoczesnej administracji - przeznaczony na wsparcie projektów transformacji
+cyfrowej sektora publicznego, wdrażanie nowatorskich rozwiązań technologicznych
+
+
+                                              8
+w administracji rządowej i samorządowej celem zwiększenia efektywności i dostępności usług
+publicznych.
+4. Subfundusz bezpieczeństwa cyberprzestrzeni - przeznaczony poprawie bezpieczeństwa
+państwa w cyberprzestrzeni, poprzez finansowanie projektów z zakresu cyberbezpieczeństwa,
+kryptografii,   ochrony   infrastruktury   krytycznej   i   rozwijania   rodzimych   narzędzi
+zabezpieczających przed cyberzagrożeniami.
+5. Subfundusz edukacyjno-popularyzatorski - przeznaczony na rozwój kompetencji przyszłości
+poprzez np. dofinansowanie projektów edukacyjnych, szkoleń, stypendiów oraz inicjatyw
+popularyzujących naukę i innowacje w społeczeństwie.
+Takie rozdzielenie strumieni finansowania pozwoli na lepsze dostosowanie kryteriów
+i mechanizmów wsparcia do specyfiki beneficjentów każdego z obszarów.
+       W założeniu projektu, głównymi beneficjentami subfunduszu naukowo-badawczego
+będą uczelnie, instytuty badawcze, wybitni naukowcy prowadzący przełomowe projekty B+R
+oraz podmioty realizujące zadania publiczne. Subfundusz ten umożliwi finansowanie
+projektów strategicznych o wysokim ryzyku i potencjalnie wysokim zysku poznawczym.
+       Subfundusz wsparcia innowacyjnej gospodarki skierowany będzie przede wszystkim do
+startupów i MŚP rozwijających nowatorskie rozwiązania technologiczne. W ramach tego
+subfunduszu możliwe będzie udzielanie wsparcia finansowego np. na prace rozwojowe nad
+prototypem przełomowego produktu, na wdrożenie nowej technologii do działalności firmy czy
+na ekspansję na rynki zagraniczne. Fundusz umożliwi współfinansowanie projektów
+rozwojowych tak, by mogły one rosnąć na rodzimym rynku i stawać się globalnymi
+czempionami wywodzącymi się z Polski. Subfundusz wsparcia innowacyjnej gospodarki
+umożliwi zwiększenie tych wskaźników przez stymulowanie inwestycji prywatnych
+w innowacje (poprzez efekt mnożnikowy wsparcia finansowego) oraz poprawi struktury
+finansowania startupów. Co więcej, brak silnego wsparcia skutkuje często przejmowaniem
+polskich innowacji przez kapitał zewnętrzny. Nowy Fundusz pozwoli temu przeciwdziałać,
+finansując rodzime firmy na krytycznym etapie wzrostu. Co istotne, intencją projektu zgodnie
+z art. 6 ust. 3 jest możliwość stworzenia pośredniego systemu wsparcia, wykorzystującego
+istniejące zasoby instytucjonalne podmiotów zajmujących się bezpośrednim udzielaniem
+wsparcia.
+       Subfundusz nowoczesnej administracji przewidziany jest jako wsparcie dla projektów
+informatyzacji i cyfryzacji sektora publicznego. Głównymi beneficjentami będą tu instytucje
+publiczne (rządowe i samorządowe), które planują wdrożenia nowoczesnych technologii
+usprawniających realizację zadań publicznych. Przykładowo, środki z tego subfunduszu mogą
+                                              9
+zostać wykorzystane na sfinansowanie systemów wykorzystujących sztuczną inteligencję do
+obsługi obywatela (chatboty w urzędach, automatyczna analiza wniosków), na zastosowanie
+Internetu Rzeczy i analiz big data w zarządzaniu infrastrukturą miejską (smart city), na
+cyfryzację procesów administracyjnych (e-government) czy zwiększenie interoperacyjności
+rejestrów państwowych. Transformacja cyfrowa administracji publicznej jest priorytetem
+ogólnonarodowym - poprawia dostępność usług dla obywateli i przedsiębiorców, obniża koszty
+funkcjonowania urzędów oraz podnosi efektywność przyspieszając załatwianie spraw
+i eliminując biurokratyczne bariery. Art. 8 pkt 2 projektu ustawy wprost wskazuje, iż Fundusz
+finansuje „transformację cyfrową zadań wykonywanych przez jednostki sektora finansów
+publicznych”. Subfundusz nowoczesnej administracji pomoże nadrobić te zaległości,
+finansując m.in. tworzenie nowych cyfrowych usług publicznych, rozwój rozwiązań typu
+GovTech (technologie dla sektora rządowego) czy szkolenia urzędników z obsługi
+zaawansowanych systemów. Długofalowym efektem będzie bardziej dostępna i efektywna
+administracja, co ma znaczenie zarówno dla obywateli, jak i dla klimatu inwestycyjnego.
+       Subfundusz bezpieczeństwa cyberprzestrzeni jest odpowiedzią na rosnące zagrożenia
+w sferze cyfrowej. Polska, tak jak inne kraje, doświadcza coraz bardziej złożonych ataków
+cybernetycznych wymierzonych w systemy państwowe, infrastrukturę krytyczną (energetyka,
+finanse, transport) czy przedsiębiorstwa. W 2022 r. odnotowano tysiące incydentów
+cyberbezpieczeństwa, a skala ataków typu ransomware, phishing czy APT (Advanced
+Persistent Threat - szczególnie poważne zagrożenia) stale rośnie. W tej sytuacji inwestycje
+w rozwój    krajowych    zdolności   cyberbezpieczeństwa     są   nieodzowne.    Subfundusz
+bezpieczeństwa cyberprzestrzeni pozwoli finansować m.in.: rozwój nowych narzędzi
+i oprogramowania zabezpieczającego, wsparcie dla sektora publicznego w podnoszeniu
+poziomu zabezpieczeń, tworzenie centrów operacji bezpieczeństwa (SOC) czy specjalistyczne
+szkolenia kadr. Beneficjentami będą tu zarówno instytucje państwowe odpowiedzialne za
+cyberbezpieczeństwo (np. zespoły reagowania na incydenty CERT, jednostki administracji
+zobowiązane ustawą o krajowym systemie cyberbezpieczeństwa), jak i podmioty rozwijające
+strategiczne technologie bezpieczeństwa (startupy produkujące rozwiązania kryptograficzne,
+firmy tworzące oprogramowanie ochronne itp.). Inwestycje z tego subfunduszu wpisują się
+w założenia Krajowej Strategii Cyberbezpieczeństwa RP na lata 2019-2024 (oraz
+projektowanej Strategii Cyberbezpieczeństwa RP na lata 2025-2029), która przewiduje budowę
+silnego ekosystemu krajowego w tym obszarze. Należy podkreślić, że środki na
+cyberbezpieczeństwo to nie tylko wydatek, ale i inwestycja chroniąca przed potencjalnie
+ogromnymi stratami. Według szacunków, skuteczny system cyberochrony może uchronić
+                                             10
+gospodarkę przed szkodami rzędu wielu miliardów złotych rocznie, wynikającymi z udanych
+ataków. Wzmocnienie własnego potencjału w dziedzinie cyberbezpieczeństwa zabezpieczy
+również autonomię decyzyjną państwa ograniczy konieczność polegania na zagranicznych
+dostawcach technologii bezpieczeństwa.
+       Subfundusz edukacyjno-popularyzatorski ma z kolei za zadanie zbudować trwałe
+fundamenty kapitału ludzkiego dla gospodarki opartej na wiedzy oraz zwiększyć świadomość
+społeczeństwa w zakresie korzyści i wyzwań związanych z nowymi technologami. Główni
+planowani beneficjenci to szkoły, uczelnie, jednostki samorządu terytorialnego i organizacje
+pozarządowe prowadzące projekty z obszaru edukacji i popularyzacji nauki. Środki tego
+subfunduszu mogą posłużyć m.in. do: finansowania programów stypendialnych i konkursów
+dla uczniów i studentów wybitnie uzdolnionych w dziedzinach nowych technologii, wspierania
+tworzenia nowych kierunków studiów i specjalizacji związanych ze sztuczną inteligencją,
+inżynierią danych, mechatroniką, kwantowymi technologiami, szkolenia nauczycieli i kadry
+akademickiej, aby potrafili kształcić uczniów/studentów w najnowszych technologiach,
+dofinansowania    inicjatyw   popularyzatorskich,    czy   rozwoju    otwartych    platform
+e- learningowych z zakresu nowych technologii dostępnych dla szerokiego grona odbiorców.
+Inwestycja w edukację technologiczną jest krytycznie istotna, ponieważ już obecnie polski
+rynek odczuwa niedobór wykwalifikowanych specjalistów.          W Polsce branża nowych
+technologii sygnalizuje deficyt tysięcy programistów, inżynierów oprogramowania, czy
+analityków danych. Fundusz poprzez subfundusz edukacyjno-popularyzatorski będzie
+przeciwdziałał zjawisku drenażu mózgów, stwarzając lepsze warunki do rozwoju dla młodych
+talentów w kraju. Ponadto wzrośnie ogólny poziom kompetencji cyfrowych społeczeństwa, co
+ułatwi adaptację do zachodzących zmian technologicznych i zapewni bardziej włączający
+charakter transformacji (zmniejszając ryzyko wykluczenia cyfrowego części obywateli).
+       Każdy z subfunduszy będzie funkcjonował w ramach ogólnej struktury Funduszu, pod
+nadzorem ministra - dysponenta oraz Rady Funduszu. W art. 5 ust. 4 przewidziano, że podziału
+środków Funduszu na poszczególne zadania dokonywać będzie minister właściwy
+ds. informatyzacji po uzyskaniu pozytywnej opinii Rady Funduszu.
+       Dodatkowo, art. 5 ust. 5 zakłada utworzenie rezerwy ogólnej Funduszu w wysokości
+10% środków rocznych, co jest mechanizmem elastyczności pozwalającym reagować na
+nieprzewidziane okoliczności lub uzupełniać finansowanie tam, gdzie będzie szczególnie
+potrzebne w danym roku (np. dofinansowanie wyjątkowo licznych projektów wysokiej jakości
+lub interwencja w sytuacji kryzysowej). Koszty obsługi Funduszu zostały ograniczone do
+maksymalnie 1% wszystkich środków i również pokrywane będą z Funduszu, co zapewni że
+                                            11
+przynajmniej 99% środków trafi bezpośrednio na cele merytoryczne, a wydatki
+administracyjne będą minimalizowane. Wydatkowanie środków w ramach kosztów
+obsługowych odbywać się będzie na podstawie planu wydatków obsługowych, pozytywnie
+zaopiniowanego przez Radę Funduszu.
+       W celu realizacji działań koordynacyjno-doradczych w zakresie właściwości Funduszu,
+projekt przewiduje powołanie Rady Funduszu - organu o charakterze opiniodawczo-
+doradczym, działającego przy ministrze właściwym do spraw informatyzacji (art. 10 ust. 1).
+Rada Funduszu ma być forum eksperckim i koordynacyjnym, które zapewni ponadresortowe
+podejście i ciągłość strategiczną funkcjonowania Funduszu. Do zadań Rady należeć będzie
+m.in.: doradztwo w zakresie kierunków działań Funduszu, opiniowanie kluczowych decyzji,
+coroczna analiza i ocena skuteczności finansowania programów inwestycyjnych wraz
+z rekomendacjami na przyszłość, a także sporządzanie opinii na temat działalności Funduszu
+oraz zgłaszanie propozycji dotyczących jego funkcjonowania. Taki zakres kompetencji
+zapewni stały nadzór merytoryczny nad pracami Funduszu i umożliwi szybkie identyfikowanie
+ewentualnych problemów czy potrzeb korekt w działaniu instrumentu. Rada będzie także
+wyposażona w szereg kompetencji opiniodawczych – jej wyrażona w uchwale pozytywna
+opinia jest wymagana np. do ustalenia regulaminu konkursu, ustanowienia programu
+inwestycyjnego, zatwierdzenia przebiegu konkursu czy podziału środków na obsługę
+Funduszu. Takie podejście jest konieczne dla zapewnienia, że istnieje ciało koordynujące
+działania w ramach Funduszu oraz, że działania podejmowane w ramach konkursów mają
+szerokie poparcie wszystkich środowisk.
+
+       Skład Rady został zaprojektowany tak, by łączyć przedstawicieli administracji
+rządowej, świata nauki, przedsiębiorców oraz Prezydenta Rzeczypospolitej Polskiej. Zgodnie
+z art. 11 ust. 1, w skład Rady wejdą przedstawiciele pięciu właściwych przedmiotowo
+ministrów, przedstawiciel Prezesa Rady Ministrów, trzech przedstawicieli ogólnokrajowych
+organizacji przedsiębiorców (statutowo zajmujących się tematyką Funduszu), trzech
+przedstawicieli podmiotów systemu szkolnictwa wyższego i nauki oraz czterech
+przedstawicieli Prezydenta w tym jeden przedstawiciel Biura Bezpieczeństwa Narodowego.
+Łącznie Rada liczyć będzie 16 członków. Tak ukształtowany skład gwarantuje z jednej strony
+udział kluczowych resortów rządowych, zapewniając powiązanie Funduszu z politykami
+publicznymi rządu, a z drugiej strony silną reprezentację interesariuszy spoza rządu
+(środowisko przedsiębiorców oraz środowisko naukowe). Reprezentanci przedsiębiorców
+i nauki wniosą do prac Rady perspektywę praktyczną i ekspercką, co zwiększy jakość decyzji
+
+
+                                           12
+i rekomendacji. Warto zauważyć, że członków Rady powołuje i odwołuje Prezydent
+Rzeczypospolitej Polskiej (art. 11 ust. 3) - w tym przedstawicieli rządowych na wniosek
+odpowiednich podmiotów, zaś przedstawicieli przedsiębiorców spośród wyłonionych
+w otwartych konkursach kandydatów zgłoszonych przez organizacje pracodawców oraz
+podmioty sytemu szkolnictwa wyższego i nauki. Obsługę techniczno-organizacyjną Rady
+zapewniać będzie urząd obsługujący ministra właściwego do spraw informatyzacji (art. 10 ust.
+3), a koszty funkcjonowania Rady pokrywane będą z budżetu Funduszu (mieszcząc się
+w limicie 1% kosztów obsługi). Członkom Rady - którzy będą pełnić funkcje społecznie -
+przysługiwać ma zwrot kosztów przejazdu, zakwaterowania oraz dieta za udział
+w posiedzeniach, według zasad analogicznych jak dla pracowników sfery budżetowej
+odbywających podróże służbowe.
+
+       Powołanie Rady Funduszu ma istotne znaczenie ustrojowe i praktyczne. Po pierwsze,
+zapewnia ponadpolityczność i ciągłość - niezależnie od ewentualnych zmian na
+poszczególnych stanowiskach. Prezydent Rzeczypospolitej Polskiej, sprawujący patronat
+honorowy nad działalnością Funduszu, wraz ze środowiskiem naukowym i biznesowym
+czuwać będą nad utrzymaniem strategicznego kierunku inwestycji. Jest to szczególnie ważne
+w obszarze, którego horyzont czasowy wykracza poza jedną kadencję parlamentu - badania
+naukowe i budowa innowacji wymagają stabilności finansowania w perspektywie wielu lat.
+Oprócz tego, Rada integruje różne środowiska - staje się platformą współpracy rządu z
+biznesem i nauką. Pozwoli to uniknąć dublowania inicjatyw oraz zapewnić komplementarność
+działań na styku nauka-gospodarka-administracja. Po trzecie, Rada poprzez swoje analizy
+skuteczności będzie narzędziem monitoringu i ewaluacji. Sprawozdanie z działalności
+Funduszu przekazywane będzie co roku Prezydentowi Rzeczypospolitej Polskiej, Sejmowi i
+Senatowi. Takie podejście wpisuje się w zasadę zarządzania opartego na dowodach i pozwoli
+udoskonalać politykę Funduszu w toku jego działania. Utworzenie Rady Funduszu zapewni
+więc, że realizacja ustawy będzie odbywać się z udziałem szerokiego grona interesariuszy i
+ekspertów, co zwiększy przejrzystość, efektywność i akceptację społeczną podejmowanych
+decyzji. Przewiduje się, że członkowie Rady Funduszu będzie pełnić swoją funkcję przez czas
+nieokreślony (tj. do odwołania), co pozwoli zapewnić jej reprezentatywność oraz lepszą
+współpracę między Radą Funduszu a innymi podmiotami zaangażowanymi w wykonywanie
+zadań wynikających z projektowanej ustawy.
+
+       Projektowana ustawa wejdzie w życie po upływie 30 dni od dnia ogłoszenia.
+
+
+
+                                             13
+       Maksymalny limit finansowania z budżetu państwa Funduszu, według założeń do
+ustawy, w okresie 2026-2035 wyniesie 47 500 000 000 zł. Środki na realizację zadań w ramach
+Funduszu będą pochodzić m.in. z budżetu państwa. Projekt ustawy wskazuje przychody
+Funduszu:
+
+1) środki finansowe z tytułu odsetek lub udziału w zyskach przedsięwzięć finansowanych przez
+Fundusz, o ile program inwestycyjny w ramach którego przyznano wsparcie finansowe
+przewidywał takie rozwiązania;
+
+2) wpłaty z budżetu państwa przekazywane przez ministra właściwego do spraw
+informatyzacji, w wysokości określonej corocznie w ustawie budżetowej na dany rok
+budżetowy, nie niższej niż 5 mld zł;
+
+3) wpływy z kar pieniężnych, o których mowa w art. 46, 47a oraz 47b ustawy z dnia 5 września
+2016 r. o usługach zaufania oraz identyfikacji elektronicznej (Dz. U. z 2024 r. poz. 1725);
+
+4) wpływy z kar pieniężnych, o których mowa w art. 19 ust. 1 ustawy z dnia 4 kwietnia 2019
+r. o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych
+(Dz. U. z 2019 r. poz. 848);
+
+5) odsetki od zgromadzonych środków;
+
+6) dobrowolne wpłaty, darowizny i zapisy.
+
+Oprócz tego, w zakresie przychodów Funduszu przewidziano dwa dodatkowe rozwiązania:
+
+1. Dyrektor Naukowej i Akademickiej Sieci Komputerowej – Państwowego Instytutu
+Badawczego może, w drodze porozumienia z ministrem właściwym do spraw informatyzacji,
+przekazać część środków z planu finansowego tego instytutu, w tym z wypracowanego przez
+Naukową i Akademicką Sieć Komputerową – Państwowy Instytut Badawczy zysku netto za
+poprzedni rok obrotowy, do Funduszu.
+
+
+2. Minister właściwy do spraw informatyzacji może przekazać, w drodze decyzji, część
+środków z Funduszu Szerokopasmowego, o którym mowa w art. 16a ustawy z dnia 7 maja
+2010 r. o wspieraniu rozwoju usług i sieci telekomunikacyjnych (Dz. U. z 2024 r. poz. 604, 834
+i 1222), do Funduszu, informując o tym ministra właściwego do spraw finansów publicznych.
+
+
+       Dla zapewnienia, że Fundusz będzie w stanie realizować swoje zadania, projekt ustawy
+przewiduje, że wpłaty do Funduszu z budżetu państwa będą powiększane, począwszy od
+
+
+                                              14
+drugiego roku od powołania Funduszu, o wskaźnik cen towarów i usług konsumpcyjnych
+ogółem w poprzednim roku kalendarzowym, ogłoszony przez Prezesa Głównego Urzędu
+Statystycznego na podstawie art. 94 ust. 1 pkt 1 lit. a ustawy z dnia 17 grudnia 1998 r.
+o emeryturach i rentach z Funduszu Ubezpieczeń Społecznych. W przypadku, gdy wskaźnik
+ten przyjmuje wartość ujemną, projekt przewiduje przyjmowanie wartości celu inflacyjnego
+publikowanego przez Narodowy Bank Polski na 1 stycznia roku, którego dotyczy. Zgodnie
+z najbardziej aktualnymi Wieloletnimi Założeniami Makroekonomicznymi na lata 2025-2029,
+przyjętymi przez Radę Ministrów 29 kwietnia 2025 roku, wskaźnik cen towarów i usług
+konsumpcyjnych ma wynieść:
+
+       1) w 2026 roku: 103,0 (przy bazie za rok poprzedni = 100)
+
+       2) w 2027 roku: 102,6 (przy bazie za rok poprzedni = 100)
+
+       3) w 2028 roku: 102,5 (przy bazie za rok poprzedni = 100)
+
+       4) w 2029 roku: 102,4 (przy bazie za rok poprzedni = 100)
+
+       Przyjmując, że w kolejnych latach wskaźnik cen towarów i usług konsumpcyjnych
+miałby wynieść wartość średnią z ww. czterech, tj. 102,625, wysokość wpłat z budżetu państwa
+przedstawiałaby się następująco:
+
+       1) w 2026 roku: 2,5 miliarda złotych
+
+       2) w 2027 roku: 5,15 miliarda złotych
+
+       3) w 2028 roku: 5,284 miliarda złotych
+
+       4) w 2029 roku: 5,416 miliarda złotych
+
+       5) w 2030 roku: 5,546 miliarda złotych
+
+       6) w 2031 roku: 5,692 miliarda złotych
+
+       7) w 2032 roku: 5,840 miliarda złotych
+
+       8) w 2033 roku: 5,994 miliarda złotych
+
+       9) w 2034 roku: 6,152 miliarda złotych
+
+       10) w 2035 roku: 6,313 miliarda złotych.
+
+       Należy jednak podkreślić, że powyższe dane mają jedynie charakter szacunkowy, a
+wysokość wpłat do Funduszu z budżetu państwa byłaby uzależniona od obiektywnego
+wskaźnika gospodarczego, jakim jest wskaźnik cen towarów i usług konsumpcyjnych ogółem.
+
+                                               15
+Waloryzacja ta ma na celu zachowanie siły nabywczej środków zgromadzonych w Funduszu
+i uniknięcie erozji jego zdolności do efektywnego wsparcia strategicznych sektorów
+technologicznych w Polsce.
+
+W zakresie zasilenia budżetu państwa, przewiduje się że działania Funduszu będą miały
+pozytywny wpływ na sytuację fiskalną budżetu państwa. Zgodnie z raportem przygotowanym
+w 2023 roku na zlecenie Konferencji Rektorów Uczelni Ekonomicznych: ,,Każdy wzrost
+udziału wydatków w PKB o 0,1 punkt procentowy oznacza wyższy wzrost PKB między ok. 0,8
+punktu procentowego do ok. 1,3 punktu procentowego. Innymi słowy, każda zainwestowana
+złotówka daje efekt między ok. 8 a 13 złotych wyższego PKB”. Będzie się to przekładać
+bezpośrednio na wpływy z tytułu podatków i innych opłat, co będzie sprzyjać sytuacji
+budżetowej.
+
+       Przewidywany jest jednoznacznie korzystny skutek społeczny projektowanej ustawy,
+w szczególności z uwagi na wzrost poziomu kompetencji cyfrowych w społeczeństwie,
+pozytywne skutki prowadzonych badań finansowanych ze środków Funduszu. Na dowód tych
+słów można przytoczyć raport końcowy z badania ewaluacyjnego prowadzonego przez
+Narodowe Centrum Badań i Rozwoju w odniesieniu do Programu Innowacje Społeczne (2023),
+który na podstawie metodologii ilościowej SROI, służącej analizie mechanizmów powstawania
+i trwania wpływu organizacji na społeczeństwo, środowisko i gospodarkę, mierzeniu wartości
+tego wpływu i raportowaniu go, stwierdza że złotówka zainwestowana w program przyniosła
+zwrot społeczny od 15,55 zł do 250,26 zł w zależności od projektu i scenariusza. W przypadku
+Funduszu duży nacisk położono na działania edukacyjne i popularyzatorskie (w tym poprzez
+przeznaczenie na ten cel jednego z pięciu subfunduszy), co stanowi dodatkową korzyść
+społeczną.
+
+       Wpływ projektowanej ustawy na działalność mikro-, małych, średnich i dużych
+przedsiębiorstw jest jednoznacznie pozytywny, z uwagi na fakt że jeden z pięciu subfunduszy
+dotyczy bezpośrednio wsparcia innowacyjnej gospodarki, a pozostałe zakładają finansowanie
+zadań związanych z rozwojem technologicznym, w tym infrastrukturą badawczą. W praktyce
+oznacza to, że przedsiębiorcy zyskają na bezpośrednim finansowaniu ze środków Funduszu
+oraz na poprawie ogólnego stanu gospodarki, wywołanej zwiększeniem nakładów na badania
+i rozwój. Z uwagi na przeznaczenie dodatkowych środków finansowych na realizację działań
+inwestycyjnych, przewidywany jest pozytywny wpływ na działalność mikro-, małych, średnich
+i dużych przedsiębiorstw, w szczególności zajmujących się produkcją lub sprzedażą sprzętu
+cyfrowego i elektronicznego oraz przedsiębiorstwa z sektora budowlanego.
+
+                                            16
+       Projektowane przepisy są zgodne z zasadami proporcjonalności, uzasadnionego
+i niedyskryminującego charakteru. Przepisy projektu ustawy są uzasadnione nadrzędnymi
+względami interesu ogólnego i tym samym nie wykraczają poza to, co niezbędne.
+
+       Projekt nie zawiera przepisów regulacyjnych lub przepisów określających wymogi
+dotyczące świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r.
+o zasadach uznawania kwalifikacji zawodowych nabytych w państwach członkowskich Unii
+Europejskiej (Dz. U. z 2023 r. poz. 334).
+       Nie ma możliwości podjęcia alternatywnych w stosunku do projektowanej ustawy
+środków umożliwiających osiągnięcie zamierzonego celu.
+       Projektowana ustawa nie wymaga przedstawienia właściwym organom i instytucjom
+Unii Europejskiej, w tym Europejskiemu Bankowi Centralnemu, w celu uzyskania opinii,
+dokonania powiadomienia, konsultacji lub uzgodnienia.
+
+       Projekt ustawy nie zawiera przepisów technicznych w rozumieniu rozporządzenia Rady
+Ministrów z dnia 23 grudnia 2002 r. w sprawie funkcjonowania krajowego systemu notyfikacji
+norm i aktów prawnych (Dz. U. poz. 2039 oraz z 2004 r. poz. 597), w związku z tym nie
+podlega notyfikacji.
+       Projekt ustawy nie dotyczy praw i obowiązków przedsiębiorców lub ich praw
+i obowiązków wobec organów administracji publicznej.
+       Projektowana ustawa nie jest sprzeczna z prawem Unii Europejskiej.
+
+
+
+
+                                            17
+

@@ -1,0 +1,1983 @@
+                                                                      Druk nr 3090
+                                                                    Warszawa, 11 maja 2026 r.
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+        X kadencja
+
+
+                                                              Pan
+                                                              Włodzimierz Czarzasty
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+         Na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej i na podstawie
+ art. 32 ust. 2 regulaminu Sejmu niżej podpisani posłowie wnoszą projekt ustawy:
+
+  -      o zmianie ustawy o przeciwdziałaniu
+      nieuczciwym praktykom rynkowym.
+      Do reprezentowania wnioskodawców w pracach nad projektem ustawy
+ upoważniamy pana posła Zbigniewa Kuźmiuka.
+
+ (-) Waldemar Andzel;         (-) Dorota Arciszewska-Mielewczyk;        (-) Barbara
+ Bartuś; (-) Mariusz Błaszczak; (-) Joanna Borowiak; (-) Anna Gembicka; (-) Maria
+ Kurowska; (-) Zbigniew Krzysztof Kuźmiuk; (-) Krzysztof Lipiec; (-) Maciej
+ Małecki; (-) Grzegorz Matusiak; (-) Jan Mosiński; (-) Marcin Porzucek; (-) Urszula
+ Rusecka; (-) Jacek Sasin; (-) Ryszard Terlecki; (-) Agnieszka Wojciechowska van
+ Heukelom.
+
+
+
+
+               Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                     Projekt
+
+
+                                          USTAWA
+                                             z dnia
+         o zmianie ustawy o przeciwdziałaniu nieuczciwym praktykom rynkowym
+
+
+       Art. 1. W ustawie z dnia 23 sierpnia 2007 r. o przeciwdziałaniu nieuczciwym praktykom
+rynkowym (Dz. U. z 2023 r. poz. 845) wprowadza się następujące zmiany:
+
+
+   1) w art. 2 w pkt 12 kropkę na końcu zastępuje się średnikiem i dodaje się pkt 13 i 14 w
+       brzmieniu:
+
+
+   „13) kryptoaktywie – rozumie się przez to kryptoaktywo w rozumieniu art. 3 ust. 1 pkt 5
+   rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/1114 z dnia 31 maja 2023 r. w
+   sprawie rynków kryptoaktywów oraz zmiany rozporządzeń (UE) nr 1093/2010 i (UE) nr
+   1095/2010 oraz dyrektyw 2013/36/UE i (UE) 2019/1937 (Dz. Urz. UE L 150 z 09.06.2023, str.
+   40, z późn. zm.) zwanego dalej „rozporządzeniem 2023/1114”;
+   14) działalność w zakresie kryptoaktywów – rozumie się przez to emisję, ofertę publiczną,
+   dopuszczanie do obrotu kryptoaktywów lub inne usługi związane z kryptoaktywami, w
+   szczególności usługi w zakresie kryptoaktywów, o których mowa w rozporządzeniu
+   2023/1114.”;
+
+
+   2) w art. 4 po ust. 3 dodaje się ust. 4 w brzmieniu:
+
+
+          „4. Za nieuczciwą praktykę rynkową uznaje się prowadzenie działalności w zakresie
+   kryptoaktywów, o której mowa w art. 2 pkt 14. Praktyki te nie podlegają ocenie w świetle
+   przesłanek określonych w ust. 1.”;
+
+
+   3) po art. 11 dodaje się art. 11a-11b w brzmieniu:
+
+          „Art. 11a.W przypadku uzasadnionego podejrzenia naruszenia art. 4 ust. 4, Prezes
+   Urzędu Ochrony Konkurencji i Konsumentów występuje do Agencji Bezpieczeństwa
+   Wewnętrznego z pisemnym żądaniem dokonania blokady rachunku kryptoaktywów, w
+   rozumieniu art. 3 pkt 19 rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/1113 z
+   dnia 31 maja 2023 r. w sprawie informacji towarzyszących transferom środków pieniężnych i
+niektórych kryptoaktywów oraz zmiany dyrektywy (UE) 2015/849 (Dz. Urz. UE L 150 z
+09.06.2023, str. 1) lub rachunku pieniężnego, na którym są rejestrowane środki pieniężne
+powierzone przez klienta, służącego dokonywaniu rozliczeń w następstwie czynności
+mających za przedmiot kryptoaktywa.
+       2. Dokonanie blokady, o której mowa w ust. 1, polega na uniemożliwieniu
+dysponowania całością kryptoaktywów lub środków pieniężnych objętych blokadą
+i korzystania z nich, w tym przez podmiot prowadzący działalność zakresie kryptoaktywów.
+       3. Żądanie, o którym mowa w ust. 1, zawiera datę jego wydania, zakres i sposób
+dokonania blokady, o której mowa w ust. 1 oraz uzasadnienie.
+       4. Żądanie, o którym mowa w ust. 1, opatruje się podpisem własnoręcznym albo
+kwalifikowanym podpisem elektronicznym.
+       5. Agencja Bezpieczeństwa Wewnętrznego dokonuje blokady, o której mowa w ust. 1,
+niezwłocznie po otrzymaniu żądania, o którym mowa w ust. 1, nie później niż w terminie 24
+godzin od jego otrzymania.
+       6. Prezes Agencji Bezpieczeństwa Wewnętrznego niezwłocznie po dokonaniu
+blokady, o której mowa w ust. 1 informuje Prezesa Urzędu Ochrony Konkurencji i
+Konsumentów o jej dokonaniu.
+       Art. 11b. W przypadku, o którym mowa w art. 11a przedsiębiorca telekomunikacyjny
+świadczący usługi dostępu do sieci Internet na pisemne żądanie Prezesa Urzędu Ochrony
+Konkurencji i Konsumentów jest obowiązany do uniemożliwienia dostępu do stron
+internetowych wykorzystujących domenę internetową do prowadzenia działalności w
+zakresie   kryptoaktywów     przez   jej   usunięcie   z   systemów    teleinformatycznych
+przedsiębiorców telekomunikacyjnych. Przepisy art. 11a ust. 3-6 stosuje się odpowiednio.”;
+
+
+4) po art. 16 dodaje się art. 16a w brzmieniu
+       „Art. 16a. 1. Kto stosuje nieuczciwą praktykę rynkową, o której mowa w art. 4 ust. 4
+podlega karze pozbawienia wolności od 6 miesięcy do lat 8.
+       2. Jeżeli wartość mienia zgromadzonego w wyniku popełnienia czynu, o którym mowa
+w ust. 1 jest wielka, sprawca czynu określonego w ust. 1, podlega karze pozbawienia wolności
+od roku do lat 10.”;
+
+
+5) w art. 17 ust. 2 otrzymuje brzmienie:
+       „2. Z wnioskiem o ściganie przestępstw określonych w art. 16 i art. 16a mogą wystąpić
+także podmioty, o których mowa w art. 12 ust. 2.”.
+           Art. 2. 1. Podmioty prowadzące w dniu wejścia w życie niniejszej ustawy działalność
+w zakresie kryptoaktywów, o której mowa w art. 2 pkt 14 ustawy zmienianej w art. 1, są
+obowiązane zakończyć prowadzenie tej działalności w terminie 2 miesięcy od dnia wejścia w
+życie niniejszej ustawy.
+           2. Z dniem wejścia w życie niniejszej ustawy, podmioty prowadzące działalność w
+zakresie kryptoaktywów są obowiązane:
+           1) zakończyć przyjmowanie od klientów nowych środków pieniężnych oraz
+kryptoaktywów;
+           2) zamknąć wszystkie prowadzone platformy obrotu kryptoaktywami, o których mowa
+w rozporządzeniu 2023/1114, rachunki, o których mowa w art. 11a ust. 1 ustawy zmienianej
+w art. 1, systemy teleinformatyczne oraz strony internetowe służące prowadzeniu działalności
+w zakresie kryptoaktywów;
+           3) dokonać rozliczenia wszystkich zobowiązań wobec klientów.
+
+
+           Art. 3. 1. Podmioty, prowadzące w dniu wejścia w życie niniejszej ustawy działalność
+w zakresie kryptoaktywów, o której mowa w art. 2 pkt 14 ustawy zmienianej w art. 1, są
+obowiązane do zwrotu klientom całości środków pieniężnych powierzonych przez klientów w
+związku ze świadczeniem usług w zakresie kryptoaktywów, wraz z należnymi klientom
+korzyściami majątkowymi wynikającymi z zawartych umów lub osiągniętego wyniku
+inwestycyjnego, w szczególności równowartości kryptoaktywów, nie później niż w terminie 2
+miesięcy od dnia wejścia w życie niniejszej ustawy.
+           2. Zwrot środków oraz równowartości korzyści majątkowych, o którym mowa w ust. 1,
+nastąpi bez pobierania jakichkolwiek opłat, prowizji lub innych należności obciążających
+klienta.
+
+
+           Art. 4. W przypadku niewykonania obowiązków, o których mowa w art. 2-3 przez
+podmioty prowadzące w dniu wejścia w życie niniejszej ustawy działalność w zakresie
+kryptoaktywów, o której mowa w art. 2 pkt 14 ustawy zmienianej w art. 1, zadania te wykonują
+podmioty, o których mowa w art. 11a i 11b ustawy zmienianej w art. 1. Przepisy art. 11a i 11b
+ustawy zmienianej w art. 1 stosuje się odpowiednio.
+
+
+           Art. 5. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                     UZASADNIENIE
+
+
+W ciągu ostatnich lat obserwujemy rozwój rynku kryptowalut, które przyciągają zainteresowanie
+części społeczeństwa. Temat wirtualnych „walut” pojawia się w dyskursie publicznym, zwracając
+uwagę na atrakcyjność tej formy lokowania kapitału. Z wielu strony słyszymy gwarancję wysokiego
+zysku, bez podkreślania istotnego elementu - ryzyka utraty kapitału. Kryptowaluty, które w opinii
+wielu, stały się sposobnością do lokowania i powiększania oszczędności nie są jednak
+pieniądzem elektronicznym w rozumieniu prawa. To cyfrowa reprezentacja umownej wśród jej
+użytkowników wartości, która nie jest emitowana i gwarantowana przez żaden bank centralny na
+świecie. Używana jest jako imitacja pieniądza, jeśli dwie strony transakcji tak między sobą
+uzgodnią.
+
+
+Poprawnym określeniem kryptowaluty, zgodnie z definicją stosowaną przez Narodowy Bank
+Polski, jest „waluta” wirtualna, pseudowaluta lub nibywaluta, która działa według
+komputerowego programu, algorytmu. Środki utrzymywane w „walutach” wirtualnych nie są
+gwarantowane przez Bankowy Fundusz Gwarancyjny, gdyż nie są one depozytami bankowymi. Nie
+są też prawnym środkiem płatniczym.
+
+
+W świecie kryptoaktywów, który charakteryzuje się szybkim rozwojem i brakiem regulacji,
+oszustwa związane z kryptowalutami stały się powszechne. Wykorzystują zarówno
+technologiczne luki, jak też psychologiczne mechanizmy manipulacji. Wśród oszustw
+technologicznych wyszczególnić należy fałszywe strony internetowe i aplikacje mobilne. Każda
+próba regulacji omawianej materii pociąga za sobą szereg zagrożeń. Ostrożność i sceptyczne
+podejście użytkowników nie chronią przed licznymi niebezpieczeństwami.
+
+
+Szybki rozwój rynku „walut” wirtualnych sprawił, że wzbudził zainteresowanie konsumentów,
+jednocześnie obfitując w liczne oszustwa i manipulacje działające na szkodę angażujących swoje
+oszczędności z nadzieją zysku. Ceny walut wirtualnych charakteryzują się wysoką zmiennością,
+a niektóre formy inwestowania w waluty wirtualne mogą mieć charakter piramidy finansowej.
+Inwestycje w kryptowaluty wiążą się z ryzykiem cyberprzestępczości, straty kapitału i braku
+płynności.
+
+
+Manipulacje cenowe na rynku kryptoaktywów to wręcz powszechny proceder. Pump and dump
+polega na tym, że grupa osób sztucznie zawyża cenę mało znanej kryptowaluty, aby następnie
+sprzedać ją po wyższej cenie, gdy wzrośnie nią zainteresowanie. Komisja Nadzoru Finansowego
+wyróżniła także inne manipulacje rynkowe, które niosą ze sobą zagrożenie dla bezpieczeństwa
+użytkowników rynku kryptowalut.
+
+
+Przewagą rynku kryptowalut jest narracja o możliwości ogromnych zysków, co w zestawieniu z
+tradycyjnymi formami oszczędzania m.in. lokaty, obligacje skarbowe, fundusze inwestycyjne, jest
+niezwykle kuszące. Jednakże kluczowa jest kwestia bezpieczeństwa i przejrzystych zasad,
+gwarantowanych prawnie.
+
+
+Dynamiczny rozwój rynku kryptoaktywów, przy jednoczesnym wysokim poziomie anonimowości
+transakcji, ograniczonej możliwości identyfikacji rzeczywistych beneficjentów środków
+finansowych, stworzył istotne zagrożenia dla bezpieczeństwa konsumentów i stabilności rynku
+finansowego. Jednocześnie specyfika rynku kryptoaktywów utrudnia skuteczne dochodzenie
+roszczeń przez konsumentów oraz szybkie reagowanie organów państwa.
+
+
+Dotychczasowe instrumenty prawne okazały się niewystarczające dla zapewnienia efektywnej
+ochrony interesu publicznego. Obserwowane są przypadki utraty środków przez konsumentów w
+związku z działalnością podmiotów oferujących usługi związane z kryptoaktywami, w
+szczególności platform obrotu, usług przechowywania kryptoaktywów oraz systemów
+inwestycyjnych opartych na aktywach cyfrowych
+
+
+W związku z powyższym projekt ustawy przewiduje zakaz prowadzenia działalności
+kryptoaktywów w Polsce. Zgodnie z proponowanymi zapisami prowadzenie działalności w
+zakresie kryptoaktywów stanowi nieuczciwą praktykę rynkową niezależnie od spełnienia
+przesłanek ogólnych określonych w ustawie. Rozwiązanie to ma charakter szczególny i służy
+zapewnieniu wysokiego poziomu ochrony konsumentów wobec działalności obarczonej
+szczególnie wysokim ryzykiem ekonomicznym i organizacyjnym
+
+
+W przypadku uzasadnionego podejrzenia prowadzenia działalności w zakresie kryptoaktywów
+Prezes Urzędu Ochrony Konkurencji i Konsumentów występuje do Agencji Bezpieczeństwa
+Wewnętrznego z pisemnym żądaniem dokonania blokady rachunku kryptoaktywów lub rachunku
+pieniężnego, na którym są rejestrowane środki pieniężne powierzone przez klienta, służącego
+dokonywaniu rozliczeń w następstwie czynności mających za przedmiot kryptoaktywa.
+
+
+W przypadku uzasadnionego podejrzenia prowadzenia działalności w zakresie kryptoaktywów,
+przedsiębiorca telekomunikacyjny świadczący usługi dostępu do sieci Internet na pisemne
+żądanie Prezesa Urzędu Ochrony Konkurencji i Konsumentów jest obowiązany do
+uniemożliwienia dostępu do stron internetowych wykorzystujących domenę internetową do
+prowadzenia działalności w zakresie kryptoaktywów przez jej usunięcie z systemów
+teleinformatycznych przedsiębiorców telekomunikacyjnych.
+Zakładanym celem powyższych regulacji jest umożliwienie szybkiego i skutecznego
+przeciwdziałania dalszemu powierzaniu środków przez konsumentów oraz zabezpieczenie
+majątku klientów.
+
+
+Za prowadzenie działalności w zakresie kryptoaktywów projekt ustawy zakłada wprowadzenie
+kary pozbawienia wolności od 6 miesięcy do 8 lat. Jeśli jednak wartość zgromadzonego w wyniku
+działalności w zakresie kryptoaktywów jest wielka, kara pozbawienia wolności wynosić będzie od
+roku do lat 10.
+
+
+Projekt wprowadza także przepisy przejściowe, dotyczące zamknięcia prowadzonych w dniu
+wejścia w życie niniejszej ustawy działalności w zakresie kryptoaktywów oraz „rozliczenia się”
+z klientami. Zgodnie z nimi podmioty prowadzące w dniu wejścia w życie proponowanej ustawy
+działalność w zakresie kryptoaktywów, obowiązane są zakończyć prowadzenie tej działalności
+w terminie 2 miesięcy od dnia jej wejścia w życie, a także zwrócić klientom całość środków
+pieniężnych powierzonych przez klientów w związku ze świadczeniem usług w zakresie
+kryptoaktywów, wraz z należnymi klientom korzyściami majątkowymi wynikającymi z zawartych
+umów lub osiągniętego wyniku inwestycyjnego, w szczególności równowartości kryptoaktywów.
+
+
+Celem proponowanej regulacji jest zapewnienie bezpieczeństwa konsumentów. Gdy mówimy
+o możliwości zysku, rolę odgrywają ludzkie emocje oraz psychologia. Niestety, w tej warstwie
+rynek „walut” wirtualnych stosuje wiele socjotechnik, aby zachęcić do lokowania kapitału
+w określonych kryptowalutach. Osoby zainteresowane szybkim zyskiem podatne są na
+manipulacje. Niejednokrotnie inwestują duże kwoty, będące efektem wieloletnich oszczędności,
+z nadzieją powiększenia kapitału. Wówczas pojawia się zagrożenie manipulacji rynkowych,
+niosących zagrożenia dla uczestników rynku kryptowalut.
+
+
+Regulacje panujące na rynku finansowym są jednoznaczne i określone. Obywatel jako klient
+banku czy też innej instytucji finansowej jest chroniony posiadając określone prawa, zaś
+wspomniane podmioty tj. banki i instytucje finansowe podlegają konkretnym ustawom, a także
+znajdują się pod nadzorem Komisji Nadzoru Finansowego. W przypadku kryptowalut możemy
+jedynie mówić o wewnętrznych zasadach, do których klient musi się stosować, ale jego prawa
+i dobra nie są w żaden sposób chronione.
+Termin wejścia w życie ustawy nie narusza zasad demokratycznego państwa prawnego i nie stoi
+w sprzeczności z art. 4 ust. 2 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu aktów normatywnych
+i niektórych innych aktów prawnych (Dz.U. z 2019 r. poz. 1461).
+
+
+Przedmiot projektowanej regulacji jest objęty prawem Unii Europejskiej.
+                     DEKLAROWANE SKUTKI REGULACJI (DSR)
+                              projektu ustawy
+
+
+
+Informacja o projekcie
+
+
+   a) Tytuł projektu:
+
+    Projekt ustawy o zmianie ustawy o przeciwdziałaniu nieuczciwym praktykom rynkowym
+
+
+   b) Przedstawiciel wnioskodawcy:
+
+    Zbigniew Kuźmiuk
+
+
+I. Część wstępna
+[1] Zwięzły opis zidentyfikowanego problemu i proponowanych rozwiązań.
+
+
+ W ciągu ostatnich lat obserwujemy rozwój rynku kryptowalut, które przyciągają zainteresowanie
+ części społeczeństwa. Temat wirtualnych „walut” pojawia się w dyskursie publicznym, zwracając
+ uwagę na atrakcyjność tej formy lokowania kapitału. Z wielu strony słyszymy gwarancję wysokiego
+ zysku, możliwości powiększenia kapitału, bez podkreślania istotnego elementu - ryzyka utraty
+ kapitału. Kryptowaluty, które w opinii wielu, stały się sposobnością do lokowania i powiększania
+ oszczędności nie są jednak pieniądzem elektronicznym w rozumieniu prawa. To cyfrowa
+ reprezentacja umownej wśród jej użytkowników wartości, która nie jest emitowana i gwarantowana
+ przez żaden bank centralny na świecie. Używana jest jako imitacja pieniądza, jeśli dwie strony
+ transakcji tak między sobą uzgodnią.
+
+
+ Poprawnym określeniem kryptowaluty, zgodnie z definicją stosowaną przez Narodowy Bank Polski,
+ jest „waluta” wirtualna, pseudowaluta lub nibywaluta, która działa według komputerowego
+ programu, algorytmu. Środki utrzymywane w „walutach” wirtualnych nie są gwarantowane przez
+ Bankowy Fundusz Gwarancyjny, gdyż nie są one depozytami bankowymi. Nie są też prawnym
+ środkiem płatniczym.
+
+
+ W świecie kryptoaktywów, który charakteryzuje się szybkim rozwojem i brakiem regulacji, oszustwa
+ związane z kryptowalutami stały się powszechne. Wykorzystują zarówno technologiczne luki, jak też
+ psychologiczne mechanizmy manipulacji. Wśród oszustw technologicznych wyszczególnić należy
+                                               -2-
+
+fałszywe strony internetowe i aplikacje mobilne. Każda próba regulacji omawianej materii pociąga
+za sobą szereg zagrożeń.
+
+
+Szybki rozwój rynku „walut” wirtualnych sprawił, że wzbudził zainteresowanie konsumentów,
+jednocześnie obfitując w liczne oszusta i manipulacje działające na szkodę angażujących swoje
+oszczędności z nadzieją zysku. Ceny walut wirtualnych charakteryzują się wysoką zmiennością, a
+niektóre formy inwestowania w waluty wirtualne mogą mieć charakter piramidy finansowej.
+Inwestycje w kryptowaluty wiążą się z ryzykiem cyberprzestępczości, straty kapitału i braku
+płynności.
+
+
+Manipulacje cenowe na rynku kryptoaktywów to wręcz powszechny proceder. Pump and dump
+polega na tym, że grupa osób sztucznie zawyża cenę mało znanej kryptowaluty, aby następnie
+sprzedać ją po wyższej cenie, gdy wzrośnie nią zainteresowanie. Komisja Nadzoru Finansowego
+wyróżniła także inne manipulacje rynkowe, które niosą ze sobą zagrożenie dla bezpieczeństwa
+użytkowników rynku kryptowalut.
+
+
+Przewagą rynku kryptowalut jest narracja o możliwości ogromnych zysków, co w zestawieniu z
+tradycyjnymi formami oszczędzania m.in. lokaty, obligacje skarbowe, fundusze inwestycyjne, jest
+niezwykle kuszące. Jednakże kluczowa jest kwestia bezpieczeństwa i przejrzystych zasad,
+gwarantowanych prawnie.
+
+
+Dynamiczny rozwój rynku kryptoaktywów, przy jednoczesnym wysokim poziomie anonimowości
+transakcji,   ograniczonej   możliwości   identyfikacji   rzeczywistych   beneficjentów   środków
+finansowych, stworzył istotne zagrożenia dla bezpieczeństwa konsumentów i stabilności rynku
+finansowego. Jednocześnie specyfika rynku kryptoaktywów utrudnia skuteczne dochodzenie
+roszczeń przez konsumentów oraz szybkie reagowanie organów państwa. Dotychczasowe
+instrumenty prawne okazały się niewystarczające dla zapewnienia efektywnej ochrony interesu
+publicznego
+
+
+W związku z powyższym projekt ustawy przewiduje zakaz prowadzenia działalności kryptoaktywów
+w Polsce. Zgodnie z proponowanymi zapisami prowadzenie działalności w zakresie kryptoaktywów
+stanowi nieuczciwą praktykę rynkową niezależnie od spełnienia przesłanek ogólnych określonych w
+ustawie. Rozwiązanie to ma charakter szczególny i służy zapewnieniu wysokiego poziomu ochrony
+konsumentów wobec działalności obarczonej szczególnie wysokim ryzykiem ekonomicznym i
+organizacyjnym
+
+
+W przypadku uzasadnionego podejrzenia prowadzenia działalności w zakresie kryptoatywów Prezes
+Urzędu Ochrony Konkurencji i Konsumentów występuje do Agencji Bezpieczeństwa Wewnętrznego
+z pisemnym żądaniem dokonania blokady rachunku kryptoaktywów lub rachunku pieniężnego, na
+                                                    -3-
+
+ którym są rejestrowane środki pieniężne powierzone przez klienta, służącego dokonywaniu rozliczeń
+ w następstwie czynności mających za przedmiot kryptoaktywa.
+
+
+ W przypadku uzasadnionego podejrzenia prowadzenia działalności w zakresie kryptoaktywów,
+ przedsiębiorca telekomunikacyjny świadczący usługi dostępu do sieci Internet na pisemne żądanie
+ Prezesa Urzędu Ochrony Konkurencji i Konsumentów jest obowiązany do uniemożliwienia dostępu
+ do stron internetowych wykorzystujących domenę internetową do prowadzenia działalności w
+ zakresie kryptoaktywów przez jej usunięcie z systemów teleinformatycznych przedsiębiorców
+ telekomunikacyjnych.
+
+
+ Zakładanym        celem   powyższych   regulacji    jest   umożliwienie   szybkiego   i   skutecznego
+ przeciwdziałania dalszemu powierzaniu środków przez konsumentów oraz zabezpieczenie majątku
+ klientów.
+
+
+ Za prowadzenie działaności w zakresie kryptoaktywów projekt ustawy zakłada wprowadzenie kary
+ pozbawienia wolności od 6 miesięcy do 8 lat. Jeśli jednak wartość zgromadzonego w wyniku
+ działalności w zakresie kryptoaktywów jest wielka, kara pozbawienia wolności wynosić będzie od
+ roku do lat 10.
+
+
+ Projekt wprowadza także przepisy przejściowe, dotyczące zamknięcia prowadzonych w dniu wejścia
+ w życie niniejszej ustawy działalności w zakresie kryptoaktywów oraz „rozliczenia się” z klientami.
+ Zgodnie z nimi podmioty prowadzące w dniu wejścia w życie proponowanej ustawy działalność w
+ zakresie kryptoaktywów, obowiązane są zakończyć prowadzenie tej działalności w terminie 2
+ miesięcy od dnia jej wejścia w życie, a także zwrócić klientom całość środków pieniężnych
+ powierzonych przez klientów w związku ze świadczeniem usług w zakresie kryptoaktywów, wraz z
+ należnymi klientom korzyściami majątkowymi wynikającymi z zawartych umów lub osiągniętego
+ wyniku inwestycyjnego, w szczególności równowartości kryptoaktywów.
+
+
+[2] Czy były rozważane rozwiązania alternatywne?
+   ➢ Nie
+
+
+ Cel, który ma być osiągnięty za pomocą przedmiotowego projektu ustawy nie może być zrealizowany
+ za pomocą innych środków niż zaproponowane w projekcie.
+                                                 -4-
+
+II. Wymogi określone w art. 34 ust. 2 pkt 3–5 regulaminu Sejmu
+[3] Jakie są przewidywane skutki prawne projektowanych rozwiązań?
+
+    a) Proponowana regulacja prowadzi do całkowitego wyłączenia możliwości prowadzenia
+        działalności w zakresie kryptoaktywów na terytorium Rzeczypospolitej Polskiej oraz
+        ustanowienia szczególnego reżimu ochronnego wobec podmiotów prowadzących taką
+        działalność.
+    b) Projekt przyznaje Prezesowi Urzędu Ochrony Konkurencji i Konsumentów oraz Agencji
+        Bezpieczeństwa     Wewnętrznego      nowe   kompetencje    o   charakterze    nadzorczym     i
+        interwencyjnym. Skutkiem prawnym będzie możliwość natychmiastowego ograniczenia
+        dostępu do środków finansowych oraz infrastruktury wykorzystywanej przez podmioty
+        prowadzące działalność związaną z kryptoaktywami.
+    c) Projekt wprowadza nowy typ czynu zabronionego polegający na prowadzeniu działalności w
+        zakresie   kryptoaktywów    (proponowana       odpowiedzialność   karna   obejmująca      karę
+        pozbawienia wolności od 6 miesięcy do 8 lat, w przypadku mienia wielkiej wartości - od roku
+        do 10 lat pozbawienia wolności).
+    d) Projekt przyczyni się do zwiększenia poziomu ochrony konsumentów.
+    e) Przedmiot projektowanej regulacji jest objęty prawem Unii Europejskiej.
+
+
+[4] Jakie są przewidywane skutki społeczne projektowanych rozwiązań?
+
+ Projekt ustawy wywołuje pozytywne skutki społeczne. Projektowana ustawa będzie miała korzystny
+ wpływ poprzez zwiększenie ochrony konsumentów.
+
+
+ Celem proponowanej regulacji jest zapewnienie bezpieczeństwa konsumentów. Gdy mówimy o
+ możliwości zysku, rolę odgrywają ludzkie emocje oraz psychologia. Niestety, w tej warstwie rynek
+ „walut” wirtualnych stosuje wiele socjotechnik, aby zachęcić do lokowania kapitału w określonych
+ kryptowalutach.   Osoby    zainteresowane    szybkim    zyskiem   podatne   są      na   manipulacje.
+ Niejednokrotnie inwestują duże kwoty, będące efektem wieloletnich oszczędności, z nadzieją
+ powiększenia kapitału. Wówczas pojawia się zagrożenie manipulacji rynkowych, niosących
+ zagrożenia dla uczestników rynku kryptowalut.
+
+
+ W świecie kryptoaktywów, który charakteryzuje się szybkim rozwojem i brakiem regulacji, oszustwa
+ związane z kryptowalutami stały się powszechne. Wykorzystują zarówno technologiczne luki, jak też
+ psychologiczne mechanizmy manipulacji. Wśród oszustw technologicznych wyszczególnić należy
+ fałszywe strony internetowe i aplikacje mobilne. Każda próba regulacji omawianej materii pociąga
+ za sobą szereg zagrożeń. Przewidziane uprawnienia m.in. Prezesa Urzędu Ochrony Konkurencji i
+ Konsumentów oraz Agencji Bezpieczeństwa Wewnętrznego dotyczące blokowania rachunków i stron
+                                                -5-
+
+ internetowych mogą zwiększyć poczucie bezpieczeństwa części społeczeństwa wobec zagrożeń
+ finansowych w internecie.
+
+
+[5] Jakie są przewidywane skutki gospodarcze projektowanych rozwiązań?
+
+Projekt ustawy wywołuje pozytywne skutki gospodarcze. Projektowana ustawa będzie miała korzystny
+wpływ poprzez zwiększenie bezpieczeństwa finansowego Polek i Polaków oraz zwiększenia
+transparentności obrotu gospodarczego.
+
+
+Regulacje panujące na rynku finansowym są jednoznaczne i określone. Obywatel jako klient banku czy
+też innej instytucji finansowej jest chroniony posiadając określone prawa, zaś wspomniane podmioty tj.
+banki i instytucje finansowe podlegają konkretnym ustawom, a także znajdują się pod nadzorem
+Komisji Nadzoru Finansowego. W przypadku kryptowalut możemy jedynie mówić o wewnętrznych
+zasadach, do których klient musi się stosować, ale jego prawa i dobra nie są w żaden sposób chronione.
+
+
+Szybki rozwój rynku „walut” wirtualnych sprawił, że wzbudził zainteresowanie konsumentów,
+jednocześnie obfitując w liczne oszusta i manipulacje działające na szkodę angażujących swoje
+oszczędności z nadzieją zysku. Ceny walut wirtualnych charakteryzują się wysoką zmiennością, a
+niektóre formy inwestowania w waluty wirtualne mogą mieć charakter piramidy finansowej. Inwestycje
+w kryptowaluty wiążą się z ryzykiem cyberprzestępczości, straty kapitału i braku płynności.
+
+
+Manipulacje cenowe na rynkowe kryptoaktywów to wręcz powszechny proceder. Pump and dump
+polega na tym, że grupa osób sztucznie zawyża cenę mało znanej kryptowaluty, aby następnie sprzedać
+ją po wyższej cenie, gdy wzrośnie nią zainteresowanie. Komisja Nadzoru Finansowego wyróżniła także
+inne manipulacje rynkowe, które niosą ze sobą zagrożenie dla bezpieczeństwa użytkowników rynku
+kryptowalut.
+
+
+Projekt ustawy będzie miał wpływ na mikroprzedsiębiorców, małych i średnich przedsiębiorców (MŚP).
+Projektowana ustawa dotyczy majątkowych praw i obowiązków przedsiębiorców. Projekt ustawy
+dotyczy praw i obowiązków przedsiębiorców wobec organów administracji publicznej. Projekt może
+będzie skutkował ograniczeniem działalności gospodarczej podmiotów funkcjonujących na rynku
+kryptoaktywów, jednak ograniczenie to uzasadnione jest koniecznością ochrony interesu publicznego
+oraz bezpieczeństwa ekonomicznego obywateli
+
+[6] Jakie są przewidywane skutki finansowe projektowanych rozwiązań,
+w szczególności wpływ na sektor finansów publicznych, w tym na budżet państwa
+i budżety jednostek samorządu terytorialnego?
+ Projektowana ustawa może wywoływać skutki finansowe dla budżetu państwa, związane z
+ realizacją nowych zadań przez organy administracji publicznej oraz służby państwowe,
+                                          -6-
+
+ głównie Prezesa Urzędu Ochrony Konkurencji i Konsumentów, Agencji Bezpieczeństwa
+ Wewnętrznego oraz organów wymiaru sprawiedliwości i organów ścigania. Wydatki te będą
+ finansowane z budżetu państwa w części pozostającej w dyspozycji Prezesa Urzędu Ochrony
+ Konkurencji i Konsumentów, Agencji Bezpieczeństwa Wewnętrznego, organów wymiaru
+ sprawiedliwości i organów ścigania. Zwiększone koszty dla budżetu państwa nie powinny
+ przekroczyć kwoty 30 mln zł, (na którą będą się składać m.in. koszty prowadzenia przez
+ organy państwa działań nadzorczych i blokujących, obsługi technicznej tych zadań,
+ ewentualnych postępowań przygotowawczych w zakresie przestępstw prowadzenia
+ działalności w zakresie kryptoaktywów, spraw sądowych).
+
+
+ Projekt ustawy nie ma wpływu na budżety jednostek samorządu terytorialnego.
+
+
+[7] Wykaz źródeł finansowania, jeśli projekt ustawy pociąga za sobą obciążenie
+budżetu państwa lub budżetów jednostek samorządu terytorialnego.
+ Projektowana ustawa może wywoływać skutki finansowe dla budżetu państwa, związane z
+ realizacją nowych zadań przez organy administracji publicznej oraz służby państwowe,
+ głównie Prezesa Urzędu Ochrony Konkurencji i Konsumentów, Agencji Bezpieczeństwa
+ Wewnętrznego oraz organów wymiaru sprawiedliwości i organów ścigania. Wydatki te będą
+ finansowane z budżetu państwa w części pozostającej w dyspozycji Prezesa Urzędu Ochrony
+ Konkurencji i Konsumentów, Agencji Bezpieczeństwa Wewnętrznego, organów wymiaru
+ sprawiedliwości i organów ścigania. Zwiększone koszty dla budżetu państwa nie powinny
+ przekroczyć kwoty 30 mln zł, (na którą będą się składać m.in. koszty prowadzenia przez
+ organy państwa działań nadzorczych i blokujących, obsługi technicznej tych zadań,
+ ewentualnych postępowań przygotowawczych w zakresie przestępstw prowadzenia
+ działalności w zakresie kryptoaktywów, spraw sądowych).
+
+
+ Projekt ustawy nie ma wpływu na budżety jednostek samorządu terytorialnego.
+
+
+
+
+[8] Czy projekt ustawy podlega procedurze notyfikacyjnej?
+   ➢ Nie
+
+
+
+III. Wymogi określone w art. 34 ust. 2a i 2b regulaminu Sejmu
+                                       -7-
+
+[9] Czy projekt ustawy zawiera przepisy określające zasady podejmowania,
+wykonywania lub zakończenia działalności gospodarczej (art. 34 ust. 2a regulaminu
+Sejmu)?
+   ➢ Tak
+[10] Czy wdrożenie projektowanych przepisów spowoduje obciążenia administracyjne
+mikroprzedsiębiorców, małych i średnich przedsiębiorców (art. 34 ust. 2a regulaminu
+Sejmu)?
+   ➢ Tak
+
+
+[11] Czy projekt ustawy zawiera przepisy regulacyjne lub określa wymogi dotyczące
+świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r.
+o zasadach uznawania kwalifikacji zawodowych nabytych w państwach członkowskich
+Unii Europejskiej (art. 34 ust. 2b regulaminu Sejmu)?
+   ➢ Nie
+                              KANCELARIA SEJMU
+                              BIURO EKSPERTYZ I OCENY SKUTKÓW REGULACJI
+
+
+
+BEOS-1073/26                                                               Warszawa, 19 czerwca 2026 r.
+
+
+
+
+                                                                           Pan
+                                                                           Włodzimierz Czarzasty
+                                                                           Marszałek Sejmu
+                                                                           Rzeczypospolitej Polskiej
+
+
+     Opinia w sprawie oceny skutków poselskiego projektu ustawy o zmianie
+         ustawy o przeciwdziałaniu nieuczciwym praktykom rynkowym
+                        (przed nadaniem numeru druku)1
+
+Na podstawie art. 34 ust. 9a uchwały Sejmu Rzeczypospolitej Polskiej z dnia 30 lipca 1992 r.
+– Regulamin Sejmu Rzeczypospolitej Polskiej (Monitor Polski z 2022 r. poz. 990, ze zm.)
+sporządza się następującą opinię:
+
+
+I. Problem, który zamierzają rozwiązać Wnioskodawcy
+
+       Na podstawie uzasadnienia i deklarowanych skutków regulacji (DSR) można
+ przyjąć, że problemem, który zamierzają rozwiązać Wnioskodawcy, jest brak
+ wystarczającej ochrony interesu publicznego, jakim jest ochrona konsumentów
+ inwestujących w kryptowaluty.
+       Wnioskodawcy wskazują na rozwój rynku kryptowalut, które przyciągają
+ zainteresowanie części społeczeństwa. Kryptowaluty, które w opinii wielu stały się
+ sposobnością do lokowania i powiększania oszczędności, nie są jednak pieniądzem
+ elektronicznym w rozumieniu prawa. To cyfrowa reprezentacja wartości umownej
+ wśród jej użytkowników, która nie jest emitowana i gwarantowana przez żaden bank
+ centralny na świecie. Używana jest jako imitacja pieniądza, jeśli dwie strony
+ transakcji tak między sobą uzgodnią. Środki utrzymywane w „walutach” wirtualnych
+ nie są gwarantowane przez Bankowy Fundusz Gwarancyjny, gdyż nie są one
+ depozytami bankowymi. Nie są też prawnym środkiem płatniczym. Zdaniem
+ Wnioskodawców w świecie kryptoaktywów, który charakteryzuje się szybkim
+ rozwojem i brakiem regulacji, oszustwa związane z kryptowalutami stały się
+ powszechne. Wśród oszustw technologicznych Wnioskodawcy wskazują fałszywe
+ strony internetowe i aplikacje mobilne.
+
+
+1 Projekt znajduje się w wykazie projektów wniesionych, którym nie został nadany jeszcze numer druku
+
+sejmowego. Numer w wykazie: RPW/16436/2026.
+
+
+Kancelaria Sejmu, ul. Wiejska 4/6/8, 00-902 Warszawa tel. (22) 694 27 62, 694 17 27, email: sekretariat.beos@sejm.gov.pl
+       Wnioskodawcy uważają, że każda próba regulacji omawianej materii pociąga
+ za sobą szereg zagrożeń. Szybki rozwój rynku „walut” wirtualnych wzbudził
+ zainteresowanie konsumentów, jednocześnie obfitując w liczne oszustwa
+ i manipulacje działające na szkodę angażujących swoje oszczędności z nadzieją
+ zysku. Ceny walut wirtualnych charakteryzują się wysoką zmiennością, a niektóre
+ formy inwestowania w waluty wirtualne mogą mieć charakter piramidy finansowej.
+ Inwestycje w kryptowaluty wiążą się z ryzykiem cyberprzestępczości, straty kapitału
+ i braku płynności. Manipulacje cenowe na rynku kryptoaktywów to wręcz
+ powszechny proceder. Polegają one np. na tym, że grupa osób sztucznie zawyża
+ cenę mało znanej kryptowaluty, aby następnie sprzedać ją po wyższej cenie, gdy
+ wzrośnie nią zainteresowanie. Komisja Nadzoru Finansowego wyróżniła także inne
+ manipulacje rynkowe, które niosą ze sobą zagrożenie dla bezpieczeństwa
+ użytkowników rynku kryptowalut. W ocenie Wnioskodawców przewagą rynku
+ kryptowalut jest narracja o możliwości ogromnych zysków, co w zestawieniu
+ z tradycyjnymi formami oszczędzania m.in. lokaty, obligacje skarbowe, fundusze
+ inwestycyjne, jest niezwykle kuszące. Jednak kluczowa jest kwestia bezpieczeństwa
+ i przejrzystych zasad, gwarantowanych prawnie. Dynamiczny rozwój rynku
+ kryptoaktywów, przy wysokim poziomie anonimowości transakcji, ograniczonej
+ możliwości identyfikacji rzeczywistych beneficjentów środków finansowych, stworzył
+ istotne zagrożenia dla bezpieczeństwa konsumentów i stabilności rynku
+ finansowego. Jednocześnie specyfika rynku kryptoaktywów utrudnia skuteczne
+ dochodzenie roszczeń przez konsumentów i szybkie reagowanie organów państwa.
+ Według Wnioskodawców dotychczasowe instrumenty prawne okazały się
+ niewystarczające dla zapewnienia efektywnej ochrony interesu publicznego.
+
+
+II. Rozwiązanie rekomendowane przez Wnioskodawców
+
+      Projekt przewiduje nowelizację ustawy z dnia 23 sierpnia 2007 r.
+ o przeciwdziałaniu nieuczciwym praktykom rynkowym 2 (dalej: „ustawa”). Zmiana
+ dotyczy wprowadzenia regulacji uznającej prowadzenie działalności w zakresie
+ kryptoaktywów za nieuczciwą praktykę rynkową; praktyki te nie podlegałyby ocenie
+ w świetle przesłanek określonych w art. 4 ust. 1 ustawy 3 (art. 1 pkt 2 projektu –
+ dodawany art. 4 ust. 4 ustawy).
+      Projekt wprowadza definicje pojęć „kryptoaktywa” 4 oraz „działalność
+ w zakresie kryptoaktywów”, przy czym działalność ta obejmuje emisję, ofertę
+
+
+
+2 Dz. U. z 2023 r. poz. 845.
+3 Art.  4 ust. 1 ustawy stanowi, że praktyka rynkowa stosowana przez przedsiębiorców wobec
+konsumentów jest nieuczciwa, jeżeli jest sprzeczna z dobrymi obyczajami i w istotny sposób
+zniekształca lub może zniekształcić zachowanie rynkowe przeciętnego konsumenta przed zawarciem
+umowy dotyczącej produktu, w trakcie jej zawierania lub po jej zawarciu.
+4 Odwołującą się do definicji kryptoaktywa w art. 3 ust. 1 pkt 5 rozporządzenia Parlamentu
+
+Europejskiego i Rady (UE) 2023/1114 z dnia 31 maja 2023 r. w sprawie rynków kryptoaktywów oraz
+zmiany rozporządzeń (UE) nr 1093/2010 i (UE) nr 1095/2010 oraz dyrektyw 2013/36/UE i (UE)
+2019/1937       (Dz.    Urz.    UE     L    150     z     9.6.2023,   s.   40,     ze zm.,   ELI:
+http://data.europa.eu/eli/reg/2023/1114/2024-01-09) (dalej: „rozporządzenie 2023/1114”) [wszystkie
+źródła internetowe cytowane w niniejszej opinii zostały sprawdzone 22 VI 2026 r.].
+
+                                                2
+ publiczną, dopuszczanie do obrotu kryptoaktywów i inne usługi związane
+ z kryptoaktywami5 (art. 1 pkt 1 projektu – dodawane art. 2 pkt 13 i 14 ustawy).
+       W przypadku uzasadnionego podejrzenia naruszenia zakazu prowadzenia
+ działalności w zakresie kryptoaktywów Prezes Urzędu Ochrony Konkurencji
+ i Konsumentów (UOKiK) występowałby do Agencji Bezpieczeństwa Wewnętrznego
+ (ABW) z pisemnym żądaniem dokonania blokady rachunku kryptoaktywów 6 lub
+ rachunku pieniężnego wykorzystywanego w związku z działalnością w zakresie
+ kryptoaktywów. Dokonanie blokady polegałoby na uniemożliwieniu dysponowania
+ całością kryptoaktywów lub środków pieniężnych objętych blokadą oraz korzystania
+ z nich. Projekt określa dane objęte żądaniem, sposób jego podpisania oraz terminy
+ i tryb dokonania blokady przez ABW, a także obowiązek poinformowania Prezesa
+ UOKiK o jej dokonaniu (art. 1 pkt 3 projektu – dodawany art. 11a ustawy).
+       W przypadku uzasadnionego podejrzenia naruszenia zakazu prowadzenia
+ działalności w zakresie kryptoaktywów, przedsiębiorca telekomunikacyjny 7 byłby
+ obowiązany, na pisemne żądanie Prezesa UOKiK, uniemożliwić dostęp do stron
+ internetowych służących tej działalności przez jej usunięcie z systemów
+ teleinformatycznych (art. 1 pkt 3 projektu – dodawany art. 11b ustawy).
+       Projekt zakłada wprowadzenie odpowiedzialności karnej za stosowanie
+ nieuczciwej praktyki rynkowej polegającej na prowadzeniu działalności w zakresie
+ kryptoaktywów, przewidując kary pozbawienia wolności i ich surowszy wymiar
+ w przypadku mienia o wielkiej wartości (art. 1 pkt 4 projektu – dodawany art. 16a
+ ustawy). Z wnioskiem o ściganie tych przestępstw mogłyby wystąpić także podmioty
+ wymienione w art. 12 ust. 2 ustawy8 (art. 1 pkt 5 projektu – zmieniany art. 17 ust. 2
+ ustawy).
+       Projekt zawiera również przepisy przejściowe, które nakładają na podmioty
+ prowadzące działalność w zakresie kryptoaktywów obowiązek: zakończenia tej
+ działalności w określonym terminie9, zaprzestania przyjmowania nowych środków
+ pieniężnych i kryptoaktywów; zamknięcia platform obrotu kryptoaktywami 10 ,
+ rachunków 11 , systemów teleinformatycznych oraz stron internetowych służących
+ prowadzeniu działalności w zakresie kryptoaktywów; dokonania rozliczeń
+ zobowiązań wobec klientów (art. 2 projektu). Podmioty te są ponadto zobowiązane
+ do zwrotu klientom całości powierzonych środków pieniężnych oraz należnych
+ korzyści majątkowych, w tym równowartości kryptoaktywów, bez pobierania opłat
+ (art. 3 projektu). W przypadku niewykonania tych obowiązków przewiduje się ich
+ realizację przez organy wskazane w przepisach ustawy zmienianej 12 (art. 4
+ projektu).
+        Projektowana ustawa ma wejść w życie po upływie 14 dni od dnia ogłoszenia.
+
+
+
+5 W szczególności usługi w zakresie kryptoaktywów, o których mowa w rozporządzeniu 2023/1114.
+6 W rozumieniu art. 3 pkt 19 rozporządzenia 2023/1114.
+7 Świadczący usługi dostępu do sieci Internet.
+8 Tj. Rzecznik Praw Obywatelskich; Rzecznik Finansowy; krajowa lub regionalna organizacja, której
+
+celem statutowym jest ochrona interesów konsumentów; powiatowy (miejski) rzecznik konsumentów.
+9 Tj. 2 miesięcy od dnia wejścia w życie projektowanej ustawy.
+10 O których mowa w rozporządzenia 2023/1114.
+11 O których mowa w dodawanym art. 11a ust. 1 ustawy.
+12 Tj. wymienione w art. 11a i art. 11b ustawy.
+
+
+                                                 3
+III. Inne rozwiązania rozważane przez Wnioskodawców
+
+      Wnioskodawcy nie rozważali alternatywnych rozwiązań. Cel, który ma być
+ osiągnięty za pomocą proponowanej regulacji, nie może być – zdaniem
+ Wnioskodawców – zrealizowany za pomocą innych środków niż zaproponowane
+ w projekcie.
+
+
+IV. Rozwiązania przyjmowane w innych                     państwach,       w    szczególności
+    państwach członkowskich OECD/UE
+
+       W żadnym z państw członkowskich UE nie wprowadzono całkowitego zakazu
+ świadczenia usług związanych z kryptoaktywami. W poszczególnych państwach
+ członkowskich UE przyjęto przepisy umożliwiające stosowanie rozporządzenia (UE)
+ 2023/1114 i rozporządzenia (UE) 2023/1113, w tym uznające kryptoaktywa za część
+ rynku finansowego oraz wskazujące organy nadzoru. W większości państw UE
+ przyjęto odrębne ustawy regulujące rynek kryptoaktywów (np. Chorwacja, Czechy,
+ Estonia, Finlandia, Litwa, Łotwa, Słowacja, Szwecja, Węgry), jednak w części
+ państw przepisy umożliwiające stosowanie regulacji UE w zakresie kryptoaktywów
+ zawarto w ustawach sektorowych dotyczących rynku finansowego –
+ w szczególności przepisach regulujących działalność instytucji finansowych, nadzór
+ finansowy, przeciwdziałanie praniu pieniędzy oraz finansowaniu terroryzmu –
+ a także kompetencji krajowych organów nadzoru (np. Dania, Francja, Hiszpania).
+ W niektórych państwach obowiązują rozwiązania pośrednie, oparte na odrębnych
+ aktach wykonawczych do unijnych przepisów z równoczesnymi nowelizacjami
+ istniejących ustaw sektorowych rynku finansowego (Belgia, Niemcy, Włochy)13.
+       Na świecie generalny zakaz prowadzenia działalności związanej
+ z kryptoaktywami lub zakaz większości rodzajów takiej działalności obowiązuje m.in.
+ w Algierii, Arabii Saudyjskiej, Chinach, Egipcie. W Algierii w 2018 r. zakazano
+ nabywania, sprzedaży, wykorzystywania i posiadania kryptoaktywów. W Arabii
+ Saudyjskiej obrót kryptoaktywami nie jest dopuszczony w ramach obowiązujących
+ regulacji, a instytucjom finansowym zakazano świadczenia usług związanych
+ z kryptoaktywami.     Jednocześnie    brak   jest   jednoznacznych      przepisów
+ przewidujących sankcje karne dla osób fizycznych dokonujących transakcji na
+ własny rachunek. W Chinach wprowadzono szeroki zakaz działalności związanej
+ z prywatnymi kryptoaktywami, obejmujący m.in. obrót i świadczenie usług na rynku
+ kryptoaktywów, co jednak nie powstrzymało ich dalszego wykorzystywania przez
+ część użytkowników. W grudniu 2022 r. uruchomiono wspieraną przez podmioty
+ państwowe platformę umożliwiającą obrót tokenami NFT (Non-Fungible Tokens).
+ W Egipcie zakazane są emisja, obrót i reklamowanie kryptoaktywów. Egipski Bank
+ Centralny podjął pierwszą próbę stworzenia ram regulacyjnych dla rynku
+ kryptoaktywów, publikując w 2020 r. zasady dotyczące licencjonowania działalności
+
+
+
+
+13 Szerzej por. m.in. Opinia w sprawie oceny skutków regulacji poselskiego projektu ustawy o rynku
+
+kryptoaktywów (druk sejmowy nr 2527) z 12 V 2026 r.
+
+                                                4
+ w tym obszarze. Jednak w oświadczeniu z 2023 r. bank centralny ostrzegł obywateli
+ przed korzystaniem z kryptoaktywów14.
+
+
+ V. Skutki prawne projektowanej ustawy
+
+ 1.
+        Projektowany zakaz prowadzenia działalności w zakresie kryptoaktywów
+ pozostaje w szczególności nie do pogodzenia z rozporządzeniem Parlamentu
+ Europejskiego i Rady (UE) 2023/1114 z dnia 31 maja 2023 r. w sprawie rynków
+ kryptoaktywów oraz zmiany rozporządzeń (UE) nr 1093/2010 i (UE) nr 1095/2010
+ oraz dyrektyw 2013/36/UE i (UE) 2019/1937 (dalej: „rozporządzenie MiCA”) 15. Akt
+ ten opiera się na założeniu, że działalność w obszarze kryptoaktywów jest
+ co do zasady dopuszczalna, o ile wykonywana jest w reżimie przewidzianym przez
+ prawo Unii Europejskiej.
+        Z art. 59 ust. 1 rozporządzenia MiCA wynika, że świadczenie w Unii usług
+ w zakresie kryptoaktywów jest dozwolone po uzyskaniu zezwolenia na prowadzenie
+ działalności jako dostawca usług w zakresie kryptoaktywów zgodnie z art. 63 tego
+ rozporządzenia albo przez podmioty wymienione w art. 60 rozporządzenia MiCA,
+ w tym instytucje kredytowe, centralne depozyty papierów wartościowych, firmy
+ inwestycyjne, operatorów rynku, instytucje pieniądza elektronicznego, spółki
+ zarządzające UCITS oraz zarządzających alternatywnymi funduszami
+ inwestycyjnymi, którym zezwolono na świadczenie usług w zakresie kryptoaktywów.
+ Rozporządzenie MiCA weszło w życie 29 czerwca 2023 r. i zasadniczo stosuje się
+ je od 30 grudnia 2024 r. Od tej daty państwa członkowskie powinny zapewnić jego
+ pełną skuteczność w krajowych porządkach prawnych. Brak takiej skuteczności
+ może prowadzić do wszczęcia przez Komisję Europejską postępowania
+ naruszeniowego przeciwko państwu członkowskiemu na podstawie art. 258
+ i art. 260 TFUE16.
+        Prawo Unii Europejskiej korzysta z pierwszeństwa przed prawem krajowym,
+ co w polskim porządku konstytucyjnym potwierdza art. 91 ust. 3 Konstytucji. Zgodnie
+ z tym przepisem prawo stanowione przez organizację międzynarodową jest
+ stosowane bezpośrednio i ma pierwszeństwo w przypadku kolizji z ustawami, jeżeli
+ wynika to z ratyfikowanej umowy konstytuującej tę organizację. Prawodawca
+ krajowy powinien zatem zapewnić wykonanie rozporządzenia MiCA w zakresie
+ pozostawionym państwom członkowskim, nie może natomiast przyjmować regulacji,
+ która niweczyłaby zasadniczy skutek tego rozporządzenia.
+        Rozporządzenie MiCA przewiduje, że zezwolenie na prowadzenie działalności
+ w charakterze dostawcy usług w zakresie kryptoaktywów, uzyskane na jego
+ podstawie, wywołuje skutek w całej Unii. Zezwolenie to jest ważne we wszystkich
+ państwach członkowskich i uprawnia dostawcę usług w zakresie kryptoaktywów
+
+
+14   Cryptocurrency Regulation Tracker, https://www.atlanticcouncil.org/programs/geoeconomics-
+center/cryptoregulationtracker/.
+15 Dz. Urz. UE L 150 z 9.6.2023, s. 40, ze zm., ELI: http://data.europa.eu/eli/reg/2023/1114/2024-01-09.
+16 Traktat o funkcjonowaniu Unii Europejskiej, wersja skonsolidowana, Dz. Urz. UE C 202 z 7.6.2016,
+
+s. 47 i n.
+
+                                                   5
+ do świadczenia w całej Unii usług objętych zezwoleniem, zarówno w ramach
+ swobody przedsiębiorczości, w tym za pośrednictwem oddziału, jak i w ramach
+ swobody świadczenia usług. Od dostawców usług w zakresie kryptoaktywów
+ świadczących usługi transgranicznie nie można przy tym wymagać fizycznej
+ obecności na terytorium przyjmującego państwa członkowskiego (art. 59 ust. 7
+ rozporządzenia MiCA). Oznacza to, że jeżeli dostawca usług w zakresie
+ kryptoaktywów uzyskał zezwolenie w innym państwie członkowskim UE, to Polska
+ jako państwo przyjmujące nie może zakazać temu dostawcy wykonywania
+ działalności na swoim terytorium. Taki zakaz byłby w kolizji ze swobodą
+ przedsiębiorczości i swobodą świadczenia usług, gwarantowanymi bezpośrednio w
+ TFUE.
+        Dodać można, że rozporządzenie MiCA zmierza do wykorzystania potencjału
+ finansów cyfrowych, wspierania innowacji i wzmocnienia konkurencyjności
+ gospodarki europejskiej 17 . Krajowy zakaz prowadzenia działalności w zakresie
+ kryptoaktywów byłby w opozycji do tego celu regulacyjnego.
+        Skutek projektowanej regulacji ma charakter skrajny. Wszelka działalność
+ związana z kryptoaktywami miałaby zostać uznana za nieuczciwą praktykę rynkową,
+ podlegać blokadom i sankcji karnej, a podmioty prowadzące już taką działalność
+ zostałyby zobowiązane do jej zakończenia w terminie dwóch miesięcy
+ (projektowane art. 4 ust. 4, art. 11a, art. 11b i art. 16a ustawy, art. 2 projektu).
+        Projektowany zakaz prowadzenia działalności w zakresie kryptoaktywów
+ stanowi szczególnie intensywne ograniczenie wolności działalności gospodarczej.
+ Konstytucja opiera ustrój gospodarczy Rzeczypospolitej Polskiej na społecznej
+ gospodarce rynkowej, wolności działalności gospodarczej i własności prywatnej
+ (art. 20 Konstytucji). Ograniczenie tej wolności jest dopuszczalne wyłącznie
+ w drodze ustawy i tylko ze względu na ważny interes publiczny (art. 22 Konstytucji).
+ Każda ingerencja w konstytucyjne wolności i prawa musi ponadto spełniać wymóg
+ konieczności w demokratycznym państwie dla ochrony wartości wskazanych
+ w art. 31 ust. 3 Konstytucji oraz nie może naruszać istoty tych wolności i praw.
+        Ochrona konsumentów, bezpieczeństwo rynku i przeciwdziałanie
+ przestępczości mogą uzasadniać reglamentację działalności gospodarczej,
+ ale całkowity zakaz wszelkiej działalności gospodarczej związanej z kryptoaktywami
+ wymaga bardzo dobrego uzasadnienia. Konieczne jest bowiem wykazanie, że zakaz
+ taki jest przydatny, konieczny i proporcjonalny.
+        Sam fakt, że rynki kryptoaktywów wiążą się z podwyższonym ryzykiem,
+ nie stanowi wystarczającej podstawy do wprowadzenia generalnego zakazu
+ prowadzenia działalności w tym zakresie. Wnioskodawcy powinni zatem wykazać,
+ że dotychczasowy model publicznoprawnego nadzoru nad rynkiem walut
+ wirtualnych, wynikający z ustawy z dnia 1 marca 2018 r. o przeciwdziałaniu praniu
+ pieniędzy oraz finansowaniu terroryzmu18, w szczególności z art. 129m i nast., jest
+ niewystarczający, a jego wzmocnienie nie pozwala osiągnąć zakładanych celów
+
+
+17 Dokument Komisji z 24 IX 2020 r., Wniosek dotyczących rozporządzenia Parlamentu Europejskiego
+
+i Rady w sprawie rynków kryptoaktywów i zmieniające dyrektywę (UE) 2019/1937, COM(2020) 593 final,
+s. 1.
+18 Dz. U. z 2025 r. poz. 644.
+
+
+                                                6
+ regulacyjnych. Powinni również wykazać, że niewystarczające jest także wykonanie
+ rozporządzenia MiCA, mimo że prawodawca unijny przewidział w nim system
+ zezwoleń, nadzoru, obowiązków informacyjnych i organizacyjnych, sankcji oraz
+ mechanizmów ograniczających ryzyko nadużyć na rynku kryptoaktywów.
+       Projekt przewiduje dodanie art. 4 ust. 4 do ustawy, a tym samym wprowadzenie
+ nowego typu nieuczciwej praktyki rynkowej zakazanej w każdych okolicznościach.
+ Ustawa implementuje dyrektywę 2005/29/WE19 i opiera się na modelu oceny praktyk
+ handlowych przedsiębiorcy wobec konsumenta według przesłanek sprzeczności
+ z wymogami staranności zawodowej oraz rzeczywistego albo potencjalnego
+ istotnego zniekształcenia zachowania gospodarczego przeciętnego konsumenta
+ (art. 5 ust. 2 dyrektywy 2005/29/WE). Odrębnie uregulowano praktyki
+ wprowadzające w błąd oraz praktyki agresywne (art. 6-9 dyrektywy 2005/29/WE).
+ Za nieuczciwe w każdych okolicznościach mogą zostać uznane wyłącznie praktyki
+ wymienione w załączniku I do tej dyrektywy (art. 5 ust. 5 dyrektywy 2005/29/WE).
+       Dyrektywa 2005/29/WE przewiduje odstępstwa od tego modelu. Szczególne
+ znaczenie ma art. 3 ust. 9 dyrektywy, zgodnie z którym w odniesieniu do usług
+ finansowych oraz nieruchomości państwa członkowskie mogą ustanawiać wymogi
+ bardziej restrykcyjne lub nakazowe niż wymogi wynikające z dyrektywy w zakresie
+ objętym harmonizacją. Możliwość oparcia projektowanego art. 4 ust. 4 ustawy
+ na tym odstępstwie budzi jednak istotne wątpliwości. Po pierwsze, projekt obejmuje
+ zakazem „działalność w zakresie kryptoaktywów”, a więc posługuje się kategorią
+ bardzo szeroką i nie ogranicza się do usług finansowych. Po drugie, art. 3 ust. 9
+ dyrektywy 2005/29/WE dopuszcza ustanowienie wymogów bardziej restrykcyjnych
+ lub nakazowych, nie zaś generalnego zakazu działalności, którą rozporządzenie
+ MiCA uznaje za działalność co do zasady dopuszczalną.
+       Dyrektywa 2005/29/WE dokonuje na poziomie Unii pełnej harmonizacji
+ regulacji dotyczących nieuczciwych praktyk handlowych stosowanych przez
+ przedsiębiorców wobec konsumentów. Państwa członkowskie nie mogą zatem
+ przyjmować środków bardziej restrykcyjnych niż przewidziane w tej dyrektywie,
+ nawet w celu zapewnienia wyższego poziomu ochrony konsumentów.
+ Wprowadzenie takich środków można traktować jako ograniczenie swobód rynku
+ wewnętrznego przez państwo członkowskie (zob. art. 4 dyrektywy 2005/29/WE).
+       Ustawa o przeciwdziałaniu nieuczciwym praktykom rynkowym dotyczy relacji
+ między przedsiębiorcą a konsumentem. Zgodnie z art. 4 ust. 1 ustawy nieuczciwą
+ praktyką rynkową może być praktyka stosowana przez przedsiębiorcę wobec
+ konsumentów. Tymczasem art. 2 projektu nakazuje zakończenie wszelkiej
+ działalności w zakresie kryptoaktywów, a więc także działalności niemającej związku
+ z relacjami konsumenckimi. Jeżeli celem projektu ma być ochrona konsumentów
+ przed nieuczciwymi praktykami rynkowymi, nie jest jasne, dlaczego projekt obejmuje
+ również działalność wykonywaną w relacjach między przedsiębiorcami.
+
+
+19 Dyrektywa 2005/29/WE Parlamentu Europejskiego i Rady z dnia 11 maja 2005 r. dotycząca
+nieuczciwych praktyk handlowych stosowanych przez przedsiębiorstwa wobec konsumentów na rynku
+wewnętrznym oraz zmieniająca dyrektywę Rady 84/450/EWG, dyrektywy 97/7/WE, 98/27/WE
+i 2002/65/WE Parlamentu Europejskiego i Rady oraz rozporządzenie (WE) nr 2006/2004 Parlamentu
+Europejskiego i Rady („Dyrektywa o nieuczciwych praktykach handlowych”) (Dz. Urz. UE L 149
+z 11.6.2005, s. 22, ze zm., ELI: http://data.europa.eu/eli/dir/2005/29/2026-09-27).
+
+                                             7
+       Z punktu widzenia zasady legalizmu zastrzeżenia budzą projektowane art. 11a
+ i art. 11b ustawy (art. 1 pkt 3 projektu). Organy władzy publicznej działają
+ na podstawie i w granicach prawa (art. 7 Konstytucji). Ustawowa podstawa działania
+ organu powinna zatem obejmować nie tylko jego ogólne zadanie, lecz także
+ kompetencję, tryb działania, skutki prawne podejmowanych czynności, środki
+ kontroli oraz gwarancje przysługujące adresatowi ingerencji. Projektowane
+ kompetencje związane z wykonaniem żądań Prezesa UOKiK dotyczących blokady
+ rachunku kryptoaktywów albo rachunku pieniężnego nie zostały dostatecznie
+ dookreślone. Projekt wprowadza środki o bardzo daleko idącym charakterze,
+ nie regulując zarazem podstawowych elementów proceduralnych: czasu trwania
+ blokady rachunku i domeny, trybu jej uchylenia, kontroli sądowej, ochrony osób
+ trzecich, odpowiedzialności za szkodę ani relacji tych środków do postępowań
+ karnych i administracyjnych. Poza tym kompetencje przypisuje się w projektowanym
+ art. 11a ust. 5 ustawy Agencji Bezpieczeństwa Wewnętrznego, podczas gdy nie jest
+ ona organem państwa, lecz urzędem administracji rządowej (art. 3 ust. 1 ustawy
+ z dnia 24 maja 2002 r. o Agencji Bezpieczeństwa Wewnętrznego oraz Agencji
+ Wywiadu20).
+       Blokada rachunku pieniężnego i blokada rachunku kryptoaktywów stanowią
+ środki ingerujące w prawo własności oraz inne prawa majątkowe, objęte ochroną
+ konstytucyjną (art. 21 ust. 1 oraz art. 64 ust. 1-2 Konstytucji). Własność może być
+ ograniczona wyłącznie w drodze ustawy i tylko w zakresie, w jakim ograniczenie
+ to nie narusza istoty prawa własności (art. 64 ust. 3 Konstytucji). Istotne znaczenie
+ odgrywa również zasada proporcjonalności z art. 31 ust. 3 Konstytucji, o której była
+ już mowa wyżej. Ograniczenie własności wymaga precyzyjnych przesłanek
+ ograniczenia, ograniczenia czasowego, kontroli sądowej i mechanizmu ochrony
+ osób trzecich, zwłaszcza klientów, których środki mogą znajdować się na rachunku.
+       W tym zakresie punktem odniesienia może być regulacja ustawy z dnia 29
+ sierpnia 1997 r. – Prawo bankowe 21 , dotycząca blokady rachunku bankowego
+ w razie podejrzenia czynów przestępczych (art. 106a tej ustawy). Blokada bankowa
+ ma co do zasady charakter czasowy i podlega ścisłym rygorom proceduralnym.
+ Prokurator może w drodze postanowienia wstrzymać transakcję albo dokonać
+ blokady środków na czas oznaczony, przy czym w postanowieniu określa się zakres,
+ sposób i termin blokady. Na postanowienie prokuratora przysługuje zażalenie
+ do sądu, a blokada upada, jeżeli przed upływem okresu jej stosowania nie zostanie
+ wydane postanowienie o zabezpieczeniu majątkowym albo postanowienie
+ w przedmiocie dowodów rzeczowych (art. 106a ust. 8 Prawa bankowego). Na tym
+ tle projektowane art. 11a i art. 11b ustawy można ocenić jako niewystarczające
+ z punktu widzenia standardu ustawowej określoności ingerencji w prawa majątkowe.
+       Dodać można, że projektowana blokada obejmuje całość kryptoaktywów albo
+ środków pieniężnych znajdujących się na rachunku, wyłączając możliwość
+ dysponowania nimi oraz korzystania z nich. Zgodnie z projektem już samo
+ przeznaczenie rachunku pieniężnego do przeprowadzania rozliczeń dotyczących
+ kryptoaktywów ma uzasadniać blokadę rachunku pieniężnego (projektowane
+
+20 Dz. U. z 2025 r. poz. 902, ze zm.
+21 Dz. U. z 2026 r. poz. 38, ze zm.
+
+
+                                          8
+art. 11a ust. 1 i 2 ustawy). Tymczasem na rachunku pieniężnym mogą znajdować
+się również środki niepochodzące z transakcji dotyczących kryptoaktywów. Rodzi to
+uzasadnione zastrzeżenia co do nadmiarowego charakteru proponowanej regulacji.
+      Nadmiarowy charakter wydają się mieć również projektowane przepisy art. 11b
+ustawy, dotyczące blokady dostępu do stron internetowych (art. 1 pkt 3 projektu).
+Projekt posługuje się konstrukcją uniemożliwienia dostępu do stron internetowych
+wykorzystujących domenę internetową do prowadzenia działalności w zakresie
+kryptoaktywów przez usunięcie tej domeny z systemów teleinformatycznych
+przedsiębiorców telekomunikacyjnych. Jedna domena może jednak służyć
+wykonywaniu różnego rodzaju aktywności, obejmujących nie tylko usługi obrotu
+kryptoaktywami, lecz także treści edukacyjne, komentarze rynkowe, ostrzeżenia
+przed ryzykiem, materiały naukowe, blogi, regulaminy, dane kontaktowe oraz treści
+niezwiązane z kryptoaktywami. Blokada całej domeny może więc obejmować
+również treści legalne i informacyjne. Rodzi to ryzyko nadmiernej ingerencji
+w działalność gospodarczą oraz komunikację elektroniczną, a także naruszenia
+wolności pozyskiwania i rozpowszechniania informacji (art. 54 ust. 1 Konstytucji).
+Środek blokujący powinien mieć charakter punktowy, proporcjonalny i pozostawać
+w związku z konkretną bezprawną treścią albo usługą, nie zaś obejmować całą
+domenę, w ramach której publikowane mogą być mieszane treści.
+      Projekt przewiduje, że podmioty prowadzące działalność w zakresie
+kryptoaktywów mają zakończyć ją w terminie dwóch miesięcy od dnia wejścia
+projektowanej ustawy w życie. Już od dnia wejścia projektowanej ustawy w życie
+ww. podmioty byłyby natomiast obowiązane do zaprzestania przyjmowania nowych
+środków pieniężnych i kryptoaktywów, zamknięcia platform obrotu, rachunków,
+systemów teleinformatycznych i stron internetowych oraz rozliczenia zobowiązań
+wobec klientów (art. 2 ust. 1-2 projektu). Tak ukształtowany mechanizm
+dostosowawczy może prowadzić do poważnych strat majątkowych przedsiębiorców
+oraz ryzyka utraty płynności, zwłaszcza jeżeli środki klientów są ulokowane
+w aktywach o zmiennej wartości. Zastrzeżenia budzi art. 4 projektu, który przewiduje
+wykonywanie obowiązków związanych z likwidacją działalności w zakresie
+kryptoaktywów w zastępstwie podmiotu prowadzącego tę działalność. Projekt nie
+określa jednak precyzyjnie, które „podmioty” miałyby wykonywać obowiązki
+likwidacyjne zamiast przedsiębiorcy. Nie jest jasne, czy chodzi wyłącznie o organy
+państwa, czy również o przedsiębiorców telekomunikacyjnych, podmioty
+prowadzące rachunki pieniężne oraz inne podmioty uczestniczące w infrastrukturze
+rynku.
+      Obowiązki określone w art. 2-3 projektu, do których odsyła art. 4 projektu, mają
+przede wszystkim charakter likwidacyjny, rozliczeniowy i kontraktowo-majątkowy.
+Obejmują zakończenie działalności, zaprzestanie przyjmowania nowych środków,
+zamknięcie platform, rachunków, systemów teleinformatycznych i stron
+internetowych, a także rozliczenie zobowiązań wobec klientów. Projekt nie określa
+przy tym dostatecznie kompetencji organów państwa w tym zakresie. Środki
+przewidziane w projektowanych art. 11a i art. 11b ustawy, do których również odsyła
+art. 4 projektu, mają charakter blokujący. Obejmują blokadę rachunku
+kryptoaktywów albo rachunku pieniężnego oraz blokadę dostępu do domeny. Nie są
+
+
+                                          9
+ to jednak instrumenty wystarczające do wykonania obowiązków rozliczeniowych,
+ w szczególności obowiązku zwrotu środków pieniężnych, kryptoaktywów i pożytków
+ oraz rozliczenia zobowiązań wobec klientów. Wykonanie takich czynności wymaga
+ dostępu do dokumentacji księgowej, umów, historii transakcji, danych klientów,
+ rachunków, portfeli, kluczy, systemów informatycznych oraz relacji kontraktowych
+ przedsiębiorcy. Ani organy państwa, ani przedsiębiorcy telekomunikacyjni nie mogą
+ bez szczegółowej procedury wejść w sytuację prawną przedsiębiorcy i wykonać
+ za niego obowiązków prawnych.
+        Dwumiesięczny termin zakończenia działalności oraz natychmiastowy
+ obowiązek zamknięcia platform, rachunków, systemów teleinformatycznych i stron
+ internetowych należy oceniać przez pryzmat zasady zaufania do państwa
+ i stanowionego przez nie prawa oraz ochrony interesów w toku. Zasada ta wymaga,
+ aby niekorzystne zmiany sytuacji prawnej były wprowadzane z zastosowaniem
+ odpowiednich przepisów przejściowych albo co najmniej odpowiedniej vacatio legis,
+ umożliwiających adresatom regulacji dokończenie przedsięwzięć podjętych
+ pod rządem dotychczasowego prawa oraz dostosowanie się do nowych reguł.
+ W orzecznictwie Trybunału Konstytucyjnego i Sądu Najwyższego przyjmuje się,
+ że granicę dopuszczalnej ingerencji ustawodawcy w prawa podmiotowe wyznacza
+ wymaganie, aby wprowadzane modyfikacje nie były dla jednostki zaskakujące
+ ani arbitralne22.
+        W świetle projektu obowiązek zamknięcia działalności ma charakter gwałtowny
+ i obejmuje działalność prowadzoną dotychczas legalnie na podstawie przepisów
+ art. 129m i n. ustawy z dnia 1 marca 2018 r. o przeciwdziałaniu praniu pieniędzy
+ oraz finansowaniu terroryzmu, co uzasadnia zarzut niedostatecznej ochrony
+ interesów w toku. Sytuacja prawna osób dotkniętych nową regulacją powinna być
+ poddana przepisom przejściowym, aby mogły mieć one czas na dokończenie
+ przedsięwzięć podjętych na podstawie wcześniejszej regulacji w przeświadczeniu,
+ że będzie ona miała charakter stabilny. Zasada zaufania obywatela do państwa
+ i stanowionego przez państwo prawa nakazuje ustawodawcy należyte
+ zabezpieczenie „interesów w toku”, a zwłaszcza należytą realizację uprawnień
+ nabytych na podstawie poprzednich przepisów23.
+        Zaproponowany termin vacatio legis jest również problematyczny
+ z perspektywy ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców24. Projekt
+ przewiduje wejście ustawy w życie po upływie 14 dni od dnia ogłoszenia (art. 5
+ projektu). Jest to projekt określający zasady wykonywania i zakończenia działalności
+ gospodarczej oraz zwiększający obciążenia regulacyjne przedsiębiorców, a Prawo
+ przedsiębiorców stanowi, że w projektach zwiększających obciążenia regulacyjne
+ dla przedsiębiorców termin wejścia w życie przepisów wyznacza się na dzień
+ przypadający nie wcześniej niż po upływie sześciu miesięcy od dnia ogłoszenia
+ (art. 68b ust. 1 Prawa przedsiębiorców). Odstąpienie od tej reguły jest możliwe, jeżeli
+
+
+22 Por. wyroki TK: z 8 XII 2011 r., sygn. akt P 31/10, OTK-A 2011, nr 10, poz. 114, cz. III, pkt 5.3; z 28 II
+
+2012 r., sygn. akt K 5/11, OTK-A 2012, nr 2, poz. 16, cz. III, pkt 4.1; z 13 VI 2013 r., sygn. akt K 17/11,
+OTK-A 2013, nr 5, poz. 58, cz. III, pkt 7.1; postanowienie SN z 14 V 2024 r., sygn. akt III USK 135/23,
+LEX nr 3713926.
+23 Wyrok TK z 8 XII 2011 r., sygn. akt P 31/10, cz. III, pkt 5.3.
+24 Dz. U. z 2025 r. poz. 1480, ze zm.
+
+
+                                                    10
+ przemawia za tym ważny interes publiczny albo wynika to z konieczności
+ implementacji lub wykonania prawa UE, a przyczyny odstąpienia trzeba przedstawić
+ w uzasadnieniu projektu (art. 68b ust. 2-3 Prawa przedsiębiorców). Ewentualne
+ powołanie się na ważny interes publiczny wymagałoby pogłębionego uzasadnienia,
+ w tym wykazania, dlaczego nie wystarczy wdrożenie rozporządzenia MiCA, sankcje
+ za konkretne niedozwolone praktyki i wprowadzenie punktowych środków
+ ochronnych.
+       Projekt zmienia ustawę dotyczącą ochrony konsumentów, ale wywołuje skutek
+ w postaci likwidacji całej działalności kryptoaktywowej, także poza relacjami
+ konsumenckimi. Jednocześnie nie przewiduje nowelizacji ustawy z dnia 1 marca
+ 2018 r. o przeciwdziałaniu praniu pieniędzy oraz finansowaniu terroryzmu
+ w kwestiach dotyczących działalności w zakresie walut wirtualnych (art. 129m i n.).
+ Rodzi to zastrzeżenia co do kompletności regulacji ustawowej (§ 2 Zasad techniki
+ prawodawczej25).
+       Projekt jest przedmiotem odrębnych opinii Biura Ekspertyz i Oceny Skutków
+ Regulacji Kancelarii Sejmu (BEOS) dotyczących zgodności z prawem Unii
+ Europejskiej oraz oceny, czy stanowi projekt ustawy wykonującej prawo Unii
+ Europejskiej w rozumieniu art. 95a Regulaminu Sejmu26.
+       W opinii w sprawie zgodności z prawem Unii Europejskiej stwierdzono,
+ że projekt jest objęty zakresem regulacji prawa Unii Europejskiej. Wskazano
+ ponadto, że projektowane art. 4 ust. 4 w związku z art. 2 pkt 14, art. 11a, art. 11b
+ i art. 16a ustawy o przeciwdziałaniu nieuczciwym praktykom rynkowym
+ (odpowiednio art. 1 pkt 1-4 projektu) oraz art. 2-4 projektu są niezgodne
+ z rozporządzeniem 2023/1114.
+       W tej samej opinii stwierdzono również, że projektowany art. 4 ust. 4 ustawy
+ o przeciwdziałaniu nieuczciwym praktykom rynkowym, przewidziany w art. 1 pkt 2
+ projektu, jest niezgodny z dyrektywą 2005/29/WE w zakresie, w jakim kwalifikuje
+ prowadzenie działalności dotyczącej kryptoaktywów jako praktykę nieuczciwą
+ w każdych okolicznościach, mimo że praktyka taka nie została przewidziana
+ w załączniku I do tej dyrektywy i nie podlega ocenie według określonych w niej
+ kryteriów.
+       Stwierdzono także, że w zakresie, w jakim projekt przewiduje obowiązek
+ uniemożliwienia dostępu do stron internetowych wykorzystywanych do prowadzenia
+ działalności dotyczącej kryptoaktywów oraz obowiązek zamknięcia platform obrotu
+ kryptoaktywami, systemów teleinformatycznych i stron internetowych służących
+ prowadzeniu tej działalności (odpowiednio projektowany art. 11b ustawy
+ o przeciwdziałaniu nieuczciwym praktykom rynkowym oraz w art. 2 ust. 2 pkt 2
+
+
+
+25 Załącznik do rozporządzenia Prezesa Rady Ministrów z dnia 20 czerwca 2002 r. w sprawie „Zasad
+
+techniki prawodawczej” (Dz. U. z 2026 r. poz. 300).
+26 Opinia w sprawie zgodności z prawem Unii Europejskiej poselskiego projektu ustawy o zmianie
+
+ustawy o przeciwdziałaniu nieuczciwym praktykom rynkowym (przedstawiciel wnioskodawców: poseł
+Zbigniew Krzysztof Kuźmiuk), opinia BEOS z 21 V 2026 r., BEOS-WPEiM-1065/26; Opinia w sprawie
+stwierdzenia, czy poselski projekt ustawy o zmianie ustawy o przeciwdziałaniu nieuczciwym praktykom
+rynkowym (przedstawiciel wnioskodawców: poseł Zbigniew Krzysztof Kuźmiuk) jest projektem ustawy
+wykonującej prawo Unii Europejskiej w rozumieniu art. 95a regulaminu Sejmu, opinia BEOS z 21 V
+2026 r., BEOS-WPEiM-1066/26.
+
+                                                11
+ projektu), zawiera przepisy techniczne w rozumieniu dyrektywy 2015/1535 27
+ i wymaga notyfikacji Komisji Europejskiej w trybie tej dyrektywy.
+      Dodano, że projekt wymaga zasięgnięcia opinii Europejskiego Banku
+ Centralnego w trybie art. 127 ust. 4 i art. 282 ust. 5 TFUE oraz decyzji Rady
+ 98/415/WE28.
+      W opinii BEOS w sprawie ustalenia, czy projekt jest projektem ustawy
+ wykonującej prawo Unii Europejskiej w rozumieniu art. 95a Regulaminu Sejmu,
+ stwierdzono natomiast, że projekt nie ma takiego charakteru.
+
+ 2.
+       Opiniowany projekt dotyczy zagadnień unormowanych w art. 1 (ochrona
+ mienia) Protokołu Dodatkowego Nr 1 do Konwencji o ochronie praw człowieka
+ i podstawowych wolności (EKPC). Proponowany zakaz działalności w zakresie
+ kryptoaktywów stanowi formę ingerencji w prawa majątkowe objęte ochroną art. 1
+ Protokołu Dodatkowego Nr 1 do EKPC. Orzecznictwo Europejskiego Trybunału
+ Praw Człowieka (ETPC) pozostawia państwom-stronom EKPC szeroką swobodę
+ w zakresie kształtowania polityki gospodarczej i społecznej. Niemniej w świetle
+ orzecznictwa (zob. w szczególności wyroki ETPC z: 16 października 2018 r.
+ w sprawie Könyv-Tár Kft i in. p. Węgrom, 21623/13; 6 grudnia 2022 r. w sprawie
+ Pannon Plakát Kft i in. p. Wegrom, 39859/14) całkowite wygaszenie wymienionej
+ działalności gospodarczej, w terminie dwóch miesięcy od dnia wejścia w życie
+ ustawy, nasuwa wątpliwości z punktu widzenia wymogu proporcjonalności ingerencji
+ w prawa majątkowe.
+
+
+ VI.    Skutki społeczne projektowanej ustawy
+
+ A. Podmioty, na które wpływa projekt:
+     1. osoby inwestujące w Polsce w kryptoaktywa – szacunki dotyczące liczby
+        tych osób wahają się od 1,2 mln do 5,5 mln osób 29 , najbardziej
+        prawdopodobna wydaje się liczba 1,2-1,7 mln osób30;
+
+
+
+
+27 Dyrektywa (UE) 2015/1535 Parlamentu Europejskiego i Rady z dnia 9 września 2015 r. ustanawiająca
+
+procedurę udzielania informacji w dziedzinie przepisów technicznych oraz zasad dotyczących usług
+społeczeństwa informacyjnego (ujednolicenie) (Dz. Urz. UE L 241 z 17.9.2015, s. 1,
+ELI: http://data.europa.eu/eli/dir/2015/1535/oj).
+28 Decyzja Rady 98/415/WE z dnia 29 czerwca 1998 r. w sprawie konsultacji Europejskiego Banku
+
+Centralnego udzielanych władzom krajowym w sprawie projektów przepisów prawnych (Dz. Urz. WE
+L 189 z 3.7.1998, s. 42; Dz. Urz. UE Polskie wydanie specjalne rozdz. 1, t. 1, s. 446,
+ELI: http://data.europa.eu/eli/dec/1998/415/oj).
+29 Opracowanie na podstawie: K. Łukasik, J. Witczak, Polski Instytut Ekonomiczny, Popularność
+
+kryptowalut w Polsce, Warszawa 2023, https://pie.net.pl/wp-content/uploads/2023/09/PIE-
+Raport_kryptowaluty_2023.pdf, R. Kowalski, Bitcoin i aktywa krypto w Polsce, Towarzystwo
+Ekonomistów Polskich, https://tep.org.pl/bitcoin-i-aktywa-krypto-w-polsce-tog-31-2025/.
+30 Raport PKO Banku Polskiego i Maison&Partners, Portret Finansowy Polaków. Raport z badania
+
+ilościowego,                             maj                          2025                     r.,
+https://businessinsider.ocdn.eu/static/portretFinansowyPolakow2025.pdf#dlapi_npa=0&dlapi_aid=744
+6f5517abc26cad067b0ea158010dc&dlapi_lu=202409271132233167107244, s. 30.
+
+                                                12
+       2. przedsiębiorcy wpisani do rejestru działalności w zakresie walut
+           wirtualnych: 1 140 podmiotów31;
+       3. Prezes Urzędu Ochrony Konkurencji i Konsumentów;
+       4. Prezes Agencji Bezpieczeństwa Wewnętrznego i Agencja Bezpieczeństwa
+           Wewnętrznego;
+       5. przedsiębiorcy telekomunikacyjni świadczący usługi dostępu do sieci
+           Internet: 2 566 podmiotów32;
+       6. sądy powszechne: 377 (w tym: 317 sądów rejonowych, 47 sądów
+           okręgowych, 11 sądów apelacyjnych)33;
+       7. Rzecznik Praw Obywatelskich;
+       8. Rzecznik Finansowy;
+       9. powiatowi i miejscy rzecznicy konsumentów: 37434;
+       10. Policja;
+       11. prokuratura;
+       12. Izba Administracji Skarbowej w Katowicach – ze względu na prowadzenie
+           rejestru działalności w zakresie walut wirtualnych;
+       13. Generalny Inspektor Informacji Finansowej;
+       14. Fundusz Edukacji Finansowej;
+       15. banki: 25 banków komercyjnych, 488 banków spółdzielczych35;
+       16. spółdzielcze kasy oszczędnościowo-kredytowe: 17 podmiotów36;
+       17. krajowe instytucje pieniądza elektronicznego: 1 podmiot37;
+       18. krajowe instytucje płatnicze: 47 podmiotów38;
+       19. małe instytucje płatnicze: 154 podmioty39;
+       20. firmy inwestycyjne, w tym domy maklerskie i biura maklerskie: 27
+           podmiotów40;
+
+
+
+
+31 Rejestr działalności w zakresie walut wirtualnych na dzień 6 V 2026 r. zawiera 1 841 wpisów, w tym
+
+701 podmiotów wykreślonych, https://www.gov.pl/web/ias-katowice/rejestr-dzialalnosci-w-zakresie-
+walut-wirtualnych.
+32 W tym 2 228 przedsiębiorców świadczy usługi stacjonarnego dostępu do internetu, a 338 – usługi
+
+mobilnego dostępu do internetu: Urząd Komunikacji Elektronicznej, Odpowiedź na zapytanie z dnia 29
+V 2026 r. (DSA.WZD.613.1238.2026.2).
+33 Rozporządzenie Ministra Sprawiedliwości z dnia 28 grudnia 2018 r. w sprawie ustalenia siedzib
+
+i obszarów właściwości sądów apelacyjnych, sądów okręgowych i sądów rejonowych oraz zakresu
+rozpoznawanych przez nie spraw (Dz. U. z 2025 r. poz. 925).
+34 Baza Rzeczników Konsumentów, https://dane.gov.pl/pl/dataset/73/resource/1144,baza-rzecznikow-
+
+konsumentow/table.
+35 Bankowy Fundusz Gwarancyjny, Podmioty objęte gwarancjami, https://bfg.pl/gwarantowanie-
+
+depozytow/podmioty-objete-gwarancjami/.
+36 Ibidem.
+37 Obecnie w rejestrze figuruje wyłącznie Stabillon spółka z ograniczoną odpowiedzialnością (d. Billon
+
+Solutions spółka z ograniczoną odpowiedzialnością) –
+https://www.knf.gov.pl/podmioty/podmioty_rynku_uslug_platniczych/rejestr_krajowych_instytucji_pieni
+adza_elektronicznego.
+38 System ERUP KNF v 2.0 podaje 55 podmiotów, z czego 8 o statusie "wykreślone": https://e-
+
+rup.knf.gov.pl/?type=PSD_PI.
+39 System ERUP KNF v 2.0 podaje 288 podmiotów, z czego 134 o statusie "wykreślone": https://e-
+
+rup.knf.gov.pl/?type=PSD_EPI@MIP.
+40https://www.knf.gov.pl/podmioty/Podmioty_rynku_kapitalowego/Firmy_inwestycyjne_i_Agenci_firm_i
+
+nwestycyjnych/domy_maklerskie.
+
+                                                 13
+     21. towarzystwa funduszy inwestycyjnych: 64 podmioty41;
+     22. podmioty świadczące usługę bezgotówkowej wymiany walut (tzw. kantory
+         internetowe).
+       Ustalenie dokładnej liczby osób inwestujących w Polsce w kryptowaluty jest
+ trudne. W 2023 r. Polski Instytut Ekonomiczny (PIE) podał, za raportem Triple A,
+ liczbę 1,1 mln osób w Polsce posiadających kryptowaluty. Nowszy (z 2024 r.) raport
+ Triple A wskazuje już liczbę 1,2 mln posiadaczy kryptoaktywów w naszym kraju42.
+ Jednocześnie inne źródła podają znacznie wyższe liczby – raport z badania
+ ankietowego PIE wspomina o tym, że 11,7% Polaków zadeklarowało posiadanie
+ kryptowalut43. Najwyższą wartość podaje natomiast UCE Group Ltd.44.
+
+  B. Wpływ na społeczeństwo
+       Wejście w życie opiniowanej regulacji skutkowałoby koniecznością
+ zaprzestania działalności związanej z inwestowaniem w kryptowaluty na terytorium
+ Polski przez wszystkie podmioty ją prowadzące, a także obowiązkiem wycofania
+ środków ulokowanych w kryptowalutach przez wszystkich inwestorów. W związku
+ z krótkim vacatio legis opiniowanego projektu (14 dni) oraz brakiem uregulowania
+ informowania klientów na temat zmian mogłoby dojść do chaotycznego wycofywania
+ środków, prowadzącego do zjawisk takich jak opóźnienia w wypłatach czy nawet
+ upadłość niektórych podmiotów. Sytuacja mogłaby przypominać tzw. run na banki45
+ (w zakresie sektora usług finansowych, który obejmuje kryptowaluty).
+       Jednocześnie należy się spodziewać, że istotna część osób, które w obszarze
+ kryptowalut korzystają z usług oferowanych przez działające na terenie Polski
+ podmioty, przeniesie swoje środki do podmiotów działających poza Polską. „Cyfrowa
+ natura” kryptowalut i ponadprzeciętne kompetencje tych grup społecznych, które je
+ posiadają, pozwalają przypuszczać, że zostaną podjęte właśnie takie decyzje
+ inwestycyjne.
+       Precyzyjne określenie skali oddziaływania projektu na społeczeństwo jest
+ niezwykle trudne, z uwagi na brak możliwości jednoznacznego ustalenia ile osób
+ posiada kryptoaktywa w Polsce. Uzyskane w badaniach wartości znacząco się od
+ siebie różnią. Za najbardziej wiarygodne można uznać wyniki badań PKO Banku
+ Polskiego i Maison & Partners46, a to z uwagi na największą próbę (ponad 12 tysięcy
+ osób) i opisany mechanizm jej ważenia oraz nieodległy termin realizacji badania
+ (w pierwszym kwartale 2025 roku). Uzyskane dane wskazują, że spośród 79%
+ dorosłych Polaków deklarujących posiadanie oszczędności, 7% wybiera
+ „alternatywne formy inwestowania (np. kryptowaluty, start-upy itp.)” 47 . Spośród
+
+
+41          KNF,          Wykaz           towarzystw        i        funduszy         inwestycyjnych,
+https://www.knf.gov.pl/podmioty/Podmioty_rynku_kapitalowego/Fundusze_Inwestycyjne/TFI_i_FI.
+42 Triple A, Digital Currency Ownership Data, https://www.triple-a.io/cryptocurrency-ownership-
+
+data#report.
+43 K. Łukasik, J. Witczak, Polski Instytut Ekonomiczny, Popularność kryptowalut…, op.cit., s. 4.
+44 Zespół Prasowy UCE, Raport rynkowy. Już prawie co piąty dorosły Polak inwestuje w kryptowaluty,
+
+https://uce-pl.com/news/co-piaty-dorosly-polak-inwestuje-w-kryptowaluty.
+45   Por. D. Wroński, Analiza potencjalnego scenariusza „runu na banki” w Polsce,
+https://set.org.pl/analiza-potencjalnego-scenariusza-runu-na-banki-w-polsce/.
+46 Raport PKO Banku Polskiego i Maison & Partners…, op. cit.
+47 Ibidem, s. 32.
+
+
+                                                 14
+ wszystkich dorosłych Polaków (których jest ok. 30,7 mln 48 ) 5,5% deklaruje, że
+ wybiera inwestycje alternatywne (zapewne znacznie częściej są to łatwo dostępne
+ kryptowaluty niż udziały w startupach)49.
+       Co istotne, posiadane przez Polaków oszczędności zgromadzone
+ w kryptoaktywach są stosunkowo niewielkie – ich mediana wynosi około 1 000 zł.
+ Do tego „37 proc. [posiadaczy kryptoaktywów] deklaruje, że stanowiły one mniej niż
+ 1 proc. wszystkich posiadanych aktywów finansowych. Dla 90 proc. posiadaczy
+ kryptowaluty nie stanowiły więcej niż 25 proc. aktywów finansowych”50. Pokazuje to,
+ że dla ponad 1/3 inwestujących w kryptoaktywa stanowiły one znikomą część ich
+ oszczędności. Jedynie niewielka część (10%) spośród osób inwestujących
+ w kryptoaktywa lokowała w nich istotną część swojego majątku.
+       Wydaje się, że opiniowany projekt nie jest zgodny ze społecznymi
+ oczekiwaniami dotyczącymi kryptowalut. Podane wyżej wartości liczbowe pokazują
+ istotną popularność tego sposobu inwestowania w polskim społeczeństwie.
+ Jednocześnie poglądy Polaków na temat regulacji kryptowalut cechują się widoczną
+ niespójnością między deklaracjami a praktykami. Z jednej strony Polacy posiadający
+ kryptowaluty odróżniają się podejściem do państwa i prawa od ogółu społeczeństwa.
+ W mniejszym stopniu reprezentują postawę propaństwową, co przejawia się m.in.
+ niższym zaufaniem do instytucji państwowych, częstszym wyrażaniem opinii, że
+ „podatki w Polsce są zbyt wysokie” oraz deklarowaniem przekonania o nadmiernej
+ roli państwa i sektora bankowego w kontrolowaniu przepływu pieniędzy51. Nie bez
+ znaczenia pozostaje istotna, tożsamościowa rola kryptoaktywów dla części osób
+ w nie inwestujących (w szczególności dla młodych mężczyzn)52.
+       Z drugiej strony, te same osoby nabywając kryptowaluty korzystają przede
+ wszystkim ze scentralizowanych pośredników będących jednocześnie bankami czy
+ innymi zarejestrowanymi (i nadzorowanymi) instytucjami finansowymi. Bardzo
+ rzadko sięgają natomiast po bezpośrednie nabywanie czy tzw. „wykopywanie” (ang.
+ mining) kryptoaktywów 53 . Z uwagi na ten stan rzeczy, poddanie nadzorowi
+ finansowemu tej gałęzi działalności gospodarczej powinno zwiększyć zaufanie do
+ kryptoaktywów, a w rezultacie sprzyjać popularyzacji tej formy tezauryzacji
+ i inwestowania.
+       Omawiając skutki społeczne uregulowania kwestii kryptowalut warto
+ nadmienić, że środki te mogą być wykorzystywane do prania brudnych pieniędzy
+ czy finansowania przestępczości (często zorganizowanej): „rozpowszechnienie się
+ aktywów opartych na blockchain zwiększa możliwości prania pieniędzy, jak i tworzy
+ nowe, bezpieczniejsze dla przestępców metody zdobywania kapitału” 54 . Skala
+
+
+48 Główny Urząd Statystyczny, Struktura Ludności, Zbiór tablic: Stan i struktura ludności według wieku
+
+w latach 1989-2024,
+https://stat.gov.pl/download/gfx/portalinformacyjny/pl/defaultaktualnosci/5468/16/1/1/tablica_1.xls.
+49 Nabywanie udziałów w spółkach, które nie są publicznie notowane jest trudno dostępnym sposobem
+
+inwestowania. Badanie uwzględniało akcje oraz fundusze inwestycyjne jako oddzielną kategorię.
+50 K. Łukasik, J. Witczak, Polski Instytut Ekonomiczny, Popularność kryptowalut…, op. cit., s. 37.
+51 Ibidem, s. 38-39.
+52 Zob. D. Cassino, Bitcoin Bros: Masculinity, Cryptocurrency, and the Future of Men, 2026.
+53 Ibidem.
+54 J. Wróblewski, C. B. Martysz, Kryptowaluty a finansowanie przestępczości i pranie pieniędzy, Studia
+
+i prace Kolegium Zarządzania i Finansów, Zeszyt Naukowy 193/2023, s. 220.
+
+                                                 15
+ powiązanej z kryptoaktywami przestępczości jest trudna do ustalenia (jak zwykle
+ w przypadku nielegalnych działań). Zapobieganie tym niepożądanym zjawiskom
+ społecznym poprzez regulowanie rynku kryptoaktywów może być bardzo trudne,
+ także ze względu na to, że techniczna struktura niektórych kryptowalut sprawia, że
+ wprowadzanie dodatkowych regulacji nie będzie znacząco ograniczać możliwości
+ ich wykorzystywania w związku z działalnością przestępczą55. Niezgodne z prawem
+ działania związane z kryptowalutami mogą być na przykład dalej realizowane bez
+ udziału zarejestrowanych i prowadzących działalność w Polsce podmiotów.
+       Pomimo tego, zasadnym jest postulat „nadążania” ustawodawstwa i innych
+ działań władz publicznych za nowymi zjawiskami z obszaru kryptoaktywów. Jak
+ sugerują eksperci: „Jednym z rozwiązań tego problemu mogłoby być zwiększenie
+ reżimu regulacyjnego oraz szerzenie wiedzy o cyberprzestępczości wśród
+ pracowników instytucji finansowych odpowiedzialnych za przeciwdziałanie praniu
+ pieniędzy” 56 . M.in. z powodu braku dostatecznych regulacji kryptoaktywa są
+ wrażliwe na różnego rodzaju oszustwa i manipulacje 57 . W kwietniu br. wszczęto
+ śledztwo w sprawie Zondacrypto58. Rzecznik Prokuratury Regionalnej w Katowicach
+ Michał Binkiewicz potwierdził informację o ok. 700 poszkodowanych osobach
+ i łącznej stracie, która jest „na pewno większa niż wskazana pierwotnie kwota 350
+ milionów złotych"59. Choć jest to najgłośniejszy taki przypadek w Polsce, to upadki
+ dużych giełd kryptowalut nie są zdarzeniem wyjątkowym 60 . Lokowanie środków
+ u dużych, rozpoznawalnych pośredników nie jest gwarancją bezpieczeństwa
+ i pokazuje konieczność regulowania tego rynku61.
+       Zagadnienie kryptoaktywów ma rosnące znaczenie dla polskiego
+ społeczeństwa, co można dostrzec zarówno na płaszczyźnie samego ich
+ nabywania, jak również dyskursu medialnego dotyczącego kryptowalut i prób ich
+ regulowania. O kwestii tej pisały zarówno główne ogólnopolskie media62, jak i te
+
+
+55 „Wymuszenie     (na przykład poprzez regulacje ustawowe lub też zapisy umowne) powiązania
+tożsamości cyfrowej kont kryptowalutowych z tożsamością deklarowanych posiadaczy niewiele wnosi
+jako przeciwdziałanie niepożądanym zjawiskom w obrocie kryptowalutami.” – Zob. M. Kutyłowski,
+E. Lewańska, P. Błaśkiewicz, Kryptowaluty wybrane kluczowe aspekty, Raport przygotowany na
+zlecenie Fundacji Warszawski Instytut Bankowości, Warszawa, kwiecień 2023, s. 40.
+56 J. Wróblewski, C. B. Martysz, Kryptowaluty a finansowanie przestępczości…, op. cit., s. 220.
+57 Komisja Nadzoru Finansowego, Kryptoaktywa – czy wiążą się z wyższym ryzykiem, Oszustwa
+
+i manipulacje,
+https://www.knf.gov.pl/dla_rynku/kryptoaktywa_czy_wiaza_sie_z_wyzszym_ryzykiem/oszustwa_i_man
+ipulacje.
+58 Prokuratura Regionalna w Katowicach, Śledztwo w sprawie Zondacrypto, https://www.gov.pl/web/pr-
+
+katowice/sledztwo-w-sprawie-zondacrypto.
+59    B.   Ciepielewski,    Prokuratura:    ponad    700    poszkodowanych      przez    Zondacrypto,
+https://tvn24.pl/biznes/z-kraju/zondacrypto-prokuratura-okregowa-w-katowicach-wszystkie-watki-w-
+sprawie-zondacrypto-beda-badane-trwaja-przeszukania-st9019023.
+60   Zob. np. S. Winfrey, FTX bankruptcy, https://www.ebsco.com/research-starters/law/ftx-
+bankruptcy#overview.
+61 Por. KPMG, The collapse of FTX. Lessons and implications for stakeholders in the crypto industry,
+
+2022, http://assets.kpmg.com/content/dam/kpmgsites/cn/pdf/en/2022/11/the-collapse-of-
+ftx.pdf.coredownload.inline.pdf.
+62 M.in. M. Baczyński, Dlaczego Karol Nawrocki zawetował ustawę o kryptowalutach? "Jedna rzecz
+
+budzi wątpliwości", https://wiadomosci.onet.pl/tylko-w-onecie/dlaczego-karol-nawrocki-zawetowal-
+ustawe-o-kryptowalutach-jedno-budzi-watpliwosci/7y9q7le, czy TVN24, Kryptowaluty w politycznym
+klinczu. Sejm wrócił do zawetowanej ustawy, https://tvn24.pl/biznes/prawo/kryptowaluty-w-politycznym-
+klinczu-sejm-wrocil-do-zawetowanej-ustawy-st8807063.
+
+                                                 16
+ o charakterze branżowym 63 , szczególne nasilenie przekazów medialnych miało
+ związek z aferą Zondacrypto, szczegółowo relacjonowaną przez większość
+ ogólnopolskich i branżowych mediów64.
+       W ostatnich miesiącach kryptoaktywa były przedmiotem kolejnych projektów
+ ustaw: trzech rządowych, prezydenckiego oraz trzech poselskich 65 (które były
+ opiniowane przez BEOS 66 ). Niniejsza opinia dotyczy kolejnego, czwartego
+ poselskiego (a łącznie ósmego) projektu dotyczącego rynku kryptoaktywów.
+       Tak duża liczba projektów, nawet pomimo braku ich wejścia w życie, może
+ wywoływać stan niepewności regulacyjnej. Zjawisko to jest negatywnie oceniane
+ w literaturze, z uwagi na niekorzystne skutki społeczne: „ogromna podaż aktów
+ prawnych wywołuje brak stabilności i nieprzewidywalność prawa. Nie tylko nie
+ sprzyja to budowaniu zaufania do prawa, ani nie pozwala przedsiębiorcom na
+ znalezienie w prawie oparcia, ale też zwiększa w sposób oczywisty ryzyko
+ popełniania błędów, wymusza nieustanne śledzenie zmian w prawie i pociąga za
+ sobą duże koszty bycia na bieżąco z kolejnymi, często niespójnymi ze sobą
+ regulacjami”67. Dodatkowym skutkiem społecznym jest w takim przypadku spadek
+ zaufania do instytucji publicznych i państwa68. Znalazło to swoje odzwierciedlenie
+ w części komentarzy złożonych w ramach konsultacji społecznych opiniowanego
+ projektu69.
+
+
+63 Ł. Zalewski, Co dalej z kryptoaktywami.   Burza w Sejmie. Prawnicy tłumaczą skutki, na chłodno,
+https://businessinsider.com.pl/prawo/kryptoaktywa-polska-opoznia-wdrozenie-eksperci-ostrzegaja-i-
+tlumacza-skutki/pb4phjw, P. Gospodarczyk, Sejm zagłosował ws. kryptoaktywów. Prezydent już raz
+zawetował      ten   projekt,    https://www.money.pl/gospodarka/sejm-zaglosowal-ws-kryptoaktywów-
+prezydent-juz-raz-zawetowal-ten-projekt-7233730214214144a.html.
+64 M.in. Onet.pl, Tvn24, TV Republika, Forbes, Money.pl, OKO.press, Rzeczpospolita, Wprost,
+
+wPolityce.
+65 Nr druków sejmowych: projekty rządowe – 1424, 2064, 2529, projekt prezydencki – 2528, projekty
+
+poselskie – 2363, 2527, 2530.
+66 Opinia w sprawie oceny skutków regulacji poselskiego projektu ustawy o rynku kryptoaktywów,
+
+BEOS-2726/25, 547/26, 925/26
+https://orka.sejm.gov.pl/Druki10ka.nsf/0/4B551997E6595E64C1258DBE00498AEF/%24File/2363.pdf,
+221-262,
+https://orka.sejm.gov.pl/Druki10ka.nsf/0/2241A92069351267C1258DF5005476E5/%24File/2530-
+002.pdf,
+https://orka.sejm.gov.pl/Druki10ka.nsf/0/9CA0A23B3066F2F2C1258DF500541575/%24File/2527-
+008.pdf.
+67 G. Skąpska, Rządy prawa a gospodarka: uwagi socjologa prawa, Przegląd Socjologiczny, 3(65), 2016,
+
+s. 35, https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-01049314-c68d-4fda-9a9f-
+e0e5708890e7?q=bwmeta1.element.desklight-2f2fcbe3-272a-447f-8a7d-
+7a651aa7cd30;1&qt=CHILDREN-STATELESS.
+68 Zaufanie Polaków do publicznych instytucji należy do jednych z niższych w krajach OECD
+
+(https://www.oecd.org/en/data/indicators/trust-in-government.html?oecdcontrol-0ad85c6bab-
+var1=CZE%7CDNK%7CEST%7CFIN%7CFRA%7CDEU%7CGRC%7CHUN%7CISL%7CIRL%7CITA
+%7CLVA%7CLTU%7CLUX%7CNLD%7CNZL%7CNOR%7CPOL%7CPRT%7CSVK%7CSVN%7CES
+P%7CSWE%7CCHE%7CGBR%7CBEL%7CAUT), zatem zasadnym jest rekomendować ostrożność
+w działaniach, które mogłyby je dodatkowo nadwyrężać. Z perspektywy legitymizacji sposób
+podejmowania decyzji może mieć równie doniosłe znaczenie co ostateczna decyzja. Koncepcje
+sprawiedliwości proceduralnej w podejmowaniu decyzji kładą nacisk na jasność procesu
+podejmowania decyzji, co ma kluczowe znaczenie dla ich legitymizacji (niezależnie od ich treści i
+ostatecznego kształtu przyjętego rozstrzygnięcia) – Zob. S. Burdziej, Legitymizacja władzy a
+sprawiedliwość proceduralna, Studia Socjologiczne 4 (223)/2016,
+https://repozytorium.umk.pl/bitstream/handle/item/3941/Studia_Socjologiczne_2016_4_s.167_199.pdf
+?sequence=1.
+69 ID ankiet: 172804, 172718.
+
+
+                                                17
+      Należy również zauważyć, że przedłużający się stan niepewności regulacyjnej,
+ prowadzący do wspomnianego wyżej utrudnienia w prowadzeniu działalności
+ gospodarczej, ma swój widoczny skutek w przypadku branży kryptowalut70. Tylko
+ w bieżącym roku z rejestru działalności w zakresie walut wirtualnych wykreślone
+ zostało ponad sto pięćdziesiąt podmiotów 71 , a od 30 grudnia 2024 r. nie są
+ dokonywane nowe wpisy w tym rejestrze72.
+
+  C. Konsultacje społeczne
+      W toku przeprowadzonych konsultacji społecznych projektu złożono jedynie 29
+ ankiet. Uczestnicy konsultacji zamieścili 55 komentarzy. Większość z nich krytycznie
+ odniosła się do opiniowanego projektu. Przedstawiano liczne uwagi dotyczące
+ głównie społecznych i gospodarczych skutków projektu (w ocenie komentujących –
+ jednoznacznie negatywnych) oraz niezgodności projektu z prawem unijnym
+ i konstytucyjną zasadą proporcjonalności73.
+      Zainteresowanie konsultacjami społecznymi tego projektu należy określić jako
+ bardzo niskie, zwłaszcza wobec licznych przekazów medialnych dotyczących tego
+ zagadnienia, oraz faktu, że tematyka kryptoaktywów dotyczy raczej osób młodych
+ (oraz ponadprzeciętnie biegłych w stosowaniu narzędzi on-line).
+
+
+ VII.   Skutki gospodarcze projektowanej ustawy
+
+      DSR w zakresie skutków gospodarczych są wysoce syntetyczne i koncentrują
+ się na oczekiwanych korzyściach, do których Wnioskodawcy zaliczają zwiększenie
+ bezpieczeństwa finansowego Polek i Polaków oraz zwiększenie transparentności
+ obrotu gospodarczego. Jednocześnie przyznają, że projekt może skutkować
+ ograniczeniem działalności gospodarczej podmiotów funkcjonujących na rynku
+ kryptoaktywów 74 . Inne, potencjalne skutki gospodarcze zostały pominięte, by
+ wymienić choćby takie jak: wpływ na pracowników sektora, skutki dla konsumentów
+ i przedsiębiorstw zobligowanych do zakończenia prowadzenia działalności
+ w terminie 2 miesięcy od wejścia w życie ustawy czy ocenę wykonalności przepisów
+ przejściowych (np. zwrot „wyniku inwestycyjnego”)75.
+
+70  Zob. T. Ciechoński, Przepisy o kryptoaktywach - ochrona klienta, obowiązki dla firm,
+https://www.prawo.pl/biznes/projekt-ustawy-o-kryptoaktywach-i-rozporzadzenie-mica,532147.html.
+71 Rejestr działalności w zakresie walut wirtualnych…, op.cit.
+72 Izba Administracji Skarbowej w Katowicach, Komunikat dotyczący rejestru działalności w zakresie
+
+walut wirtualnych, https://www.gov.pl/web/ias-katowice/komunikat-dotyczacy-rejestru-dzialalnosci-w-
+zakresie-walut-wirtualnych.
+73 ID ankiet: 172718, 172804.
+74 Warto zauważyć, że w komentarzach prawniczych i eksperckich rynek kryptoaktywów opisuje się już
+
+nie jako margines, lecz realną część gospodarki cyfrowej angażującą miliony Polaków i rosnącą liczbę
+podmiotów technologicznych oraz inwestorów instytucjonalnych, zob. Czas na regulacje. Dlaczego
+Polska     potrzebuje     ustawy    o    rynku     kryptoaktywów, https://pro.rp.pl/nawigator-prawny-
+poradnik/art42808861-czas-na-regulacje-dlaczego-polska-potrzebuje-ustawy-o-rynku-kryptoaktywow.
+75 W konsultacjach społecznych podnoszono argumenty za utrzymaniem możliwości funkcjonowania
+
+rynku kryptoaktywów wynikające z jego dochodowości, innowacyjnego charakteru (ID ankiety: 174541,
+172118, i 166113), podnoszono także negatywne konsekwencje zakazu dla rynku pracy (ID ankiety:
+172804 i 172718), spodziewaną ucieczkę firm do jurysdykcji przyjaznych kryptoaktywom (ID ankiety:
+172804) oraz nieskuteczność samego zakazu wynikającego ze sposobu funkcjonowania sektora (ID
+ankiety: 16701, 166113 i 174541).
+
+                                                 18
+       Analizowany projekt skutkować będzie w praktyce niemal automatyczną
+ likwidacją polskiej branży kryptoaktywów w czasie niewystarczającym do
+ przeprowadzenia jakiegokolwiek uporządkowanego zamknięcia działalności.
+       Rynek pracy jest obszarem, który może odczuć efekty wejścia w życie
+ projektowanej regulacji. Według dostępnych danych Rejestr Działalności w Zakresie
+ Walut Wirtualnych prowadzony przez Dyrektora Izby Administracji Skarbowej
+ w Katowicach obejmował ponad 1400 podmiotów 76. Jednym z istotnych skutków
+ w sektorze kryptoaktywów byłaby konieczność zwolnienia osób zaangażowanych
+ w funkcjonowanie tego rynku. Przedsiębiorstwa w sektorze (giełdy, kantory,
+ dostawcy portfeli, firmy analityczne) zatrudniają programistów, specjalistów
+ ds. compliance, audytorów bezpieczeństwa, inżynierów infrastruktury, prawników,
+ analityków finansowych. To zwykle osoby o wiedzy specjalistycznej, z reguły wysoko
+ wynagradzani 77 . Nie chodzi więc jedynie o specjalistów IT, ale o kilka ww.
+ wymienionych, odrębnych grup zawodowych, których cechuje mobilność
+ geograficzna i zawodowa. Kadry te nie są bowiem związane z fizyczną infrastrukturą
+ (na wzór fizycznie istniejących miejsc pracy w przemyśle) lub lokalnym rynkiem
+ pracy (w sektorze ICT odsetek pracujących zdalnie jest jednym z najwyższych
+ w gospodarce) 78 . Zlikwidowanie rynku z pewnością będzie stanowiło poważne
+ wyzwanie dla specjalistów świadczących na nim swoje usługi. Wszyscy oni w ciągu
+ dwóch miesięcy utraciliby miejsca pracy lub byliby zmuszeni do relokacji do państw
+ przyjaznych regulacjom UE.
+       Z punktu widzenia przedsiębiorstw rynku kryptoaktywów – oprócz
+ konieczności zamknięcia działalności w tym sektorze – kluczowe ma znaczenie art.
+ 3 analizowanego projektu. Zobowiązuje on podmioty do zwrotu nie tylko
+ powierzonych środków, ale też należnych klientom korzyści majątkowych
+ wynikających z zawartych umów lub osiągniętego wyniku inwestycyjnego,
+ w szczególności równowartości kryptoaktywów. To przepis mogący spowodować
+ szereg istotnych wstrząsów gospodarczych. Po pierwsze, „wynik inwestycyjny"
+ kryptoaktywów jest zmienny w czasie. Projekt nie określa daty wyceny
+ kryptoaktywów. Po drugie, jeśli klient przez ostatni rok pomnożył wartość swoich
+ kryptoaktywów, firma powinna zwrócić wielokrotność powierzonych środków.
+ Projektowana regulacja mogłaby prowadzić do niewypłacalności części podmiotów
+ na rynku kryptoaktywów, co naraziłoby na straty tych konsumentów, których projekt
+ miał chronić, jednocześnie powodując spadek cen kryptoaktywów.
+       Projektowana ustawa nie zlikwiduje popytu na kryptoaktywa, a jedynie
+ zmniejszy podaż takich usług. Polscy inwestorzy będą korzystać wyłącznie
+ z platform zagranicznych, a w przypadku osób mniej technologicznie i regulacyjnie
+ świadomych, z usług platform spoza UE. Poziom rzeczywistej ochrony konsumenta
+
+76 https://www.prawo.egospodarka.pl/191765,Rynek-kryptowalut-licencja-CASP-obowiazkowa-od-
+
+czerwca-2025,1,82,1.html.
+77 Specjaliści IT zarabiają zdecydowanie najwięcej. Jednak nie tylko programiści zarabiają dobrze;
+
+specjaliści compliance czy product managerowie są coraz częściej poszukiwani, szczególnie
+w kontekście regulacji MiCA, Praca w krypto – co, gdzie, jak i za ile? Podpowiadamy,
+https://gieldomania.pl/praca-w-krypto-co-gdzie-jak-i-za-ile-podpowiadamy/.
+78 Sektor IT pozostaje liderem pracy zdalnej. Dane z platformy Just Join IT za 2026 r. wskazują, że ok.
+
+60% specjalistów IT w Polsce realnie pracuje zdalnie; https://wppoland.com/pl/praca-zdalna-it-polska-
+2026-polemika/.
+
+                                                 19
+ w takim wypadku może spaść. Co za tym idzie jednostronny zakaz w tym kształcie
+ może pełnić funkcję subsydium dla zagranicznej konkurencji. W warunkach
+ swobodnego przepływu usług i kapitału jednostronna prohibicja nie eliminuje rynku,
+ lecz jedynie przesuwa korzyści ekonomiczne wynikające z jego funkcjonowania do
+ innych państw UE i spoza Europy. Popyt polskich konsumentów pozostaje
+ nietknięty, zmienia się wyłącznie to, kto go obsługuje. Polska finansowałaby de facto
+ rozwój sektorów fintech w innych państwach, ponosząc przy tym koszty egzekucji
+ zakazu (blokady, postępowania karne)79.
+       Jednocześnie wejście w życie analizowanego projektu wygenerowałoby skutki
+ systemowe i makroekonomiczne. Zakaz wysłałby silny sygnał do całego sektora
+ technologii finansowych, że Polska jest porządkiem prawnym o wysokim stopniu
+ niepewności regulacyjnej. To osłabiłoby atrakcyjność Polski dla inwestycji w szeroko
+ pojęty fintech i gospodarkę cyfrową, dużo szerzej niż tylko sektor kryptoaktywów.
+ Podczas gdy Polska rezygnowałaby z rynku, Estonia, Litwa, czy Holandia
+ umacniałyby pozycję regionalnych hubów kryptoaktywowych, przyciągając firmy
+ i kapitał wypchnięty z Polski80.
+       Wprowadzenie zakazu i odejście firm kryptoaktywowych z Polski uruchomiłoby
+ z dużym prawdopodobieństwem tzw. pętlę wzmacniającą81, która osłabiłaby krajowy
+ rynek fintech. Odpływ kapitału, talentów i klientów zmniejszyłby gęstość
+ ekosystemu, czyli nastąpiłby spadek liczby kontrahentów, infrastruktury
+ i specjalistów od compliance. To obniżyłoby opłacalność pozostania w kraju dla
+ kolejnych firm z sektora fintech (już nie tylko powiązanych z rynkiem kryptoaktywów)
+ i zmusiło je do migracji, co jeszcze bardziej pogłębiłoby kryzys w obszarze
+ nowoczesnych technologii w finansach 82 . Jednocześnie proces ten korzystnie
+ wpływałby na kraje docelowe, w przypadku których napływ firm zwiększyłby gęstość
+ ich ekosystemów, przyciągając kolejne podmioty i tworząc efekt aglomeracji (jak np.
+ w Dolinie Krzemowej) 83. W efekcie jednorazowy zakaz wywołałby trwałą, trudno
+ odwracalną redystrybucję wartości ekonomicznej w UE, której nie cofnęłoby nawet
+ późniejsze zniesienie restrykcji84.
+       Trzeci skutek dotyczy przewidywalności prawa, ochrony własności, czyli
+ stabilności reguł działalności gospodarczej. Pojedynczy zakaz wydaje się dotyczyć
+ tylko sektora kryptoaktywów. Systemowo jednak każda taka regulacja wysyła sygnał
+ wszystkim pozostałym sektorom gospodarki cyfrowej. Ten sygnał trafia do każdego
+
+79    Por.    Pathways       to    the   Regulation    of   Crypto-Assets:    A  Global     Approach,
+https://www3.weforum.org/docs/WEF_Pathways_to_the_Regulation_of_Crypto_Assets_2023.pdf;
+https://xyz.pl/rynek-kryptoaktywow-przegrywa-z-polityka-nie-znam-firmy-ktora-nie-stara-sie-o-
+zagraniczna-licencje/.
+80 Bybit x DL Research World Crypto Rankings: małe europejskie kraje najszybciej wdrażają
+
+kryptowaluty, a przepisy MiCA zmieniają sytuację w regionie, https://www.pap.pl/mediaroom/bybit-x-dl-
+research-world-crypto-rankings-male-europejskie-kraje-najszybciej-wdrazaja.
+81 D. Meadows, Myślenie systemowe, Helion 2020.
+82 Warto odnotować potencjał polskiego sektora fintech zatrudniającego dziś 22 tys. specjalistów
+
+w ponad 400 aktywnych podmiotach, https://fintechpoland.com/pl/raport/nowy-raport-how-to-do-
+fintech-in-poland-3-0/.
+83 G. Duranton, W. Kerr, The Logic of Agglomeration, https://www.hbs.edu/ris/Publication%20Files/16-
+
+037_eb512e96-28d6-4c02-a7a9-39b52db95b00.pdf.
+84 To jest rodzaj zjawiska, który Paul Krugman opisywał jako path dependence: raz uruchomione
+
+przesunięcie geograficzne sektora staje się samowzmacniające i niezmienne. W rezultacie Polska
+utraciłaby nie tylko sektor, ale również przyszłą zdolność do jego odtworzenia.
+
+                                                 20
+ inwestora rozważającego ulokowanie kapitału w Polsce w sektorach AI, fintech,
+ biotech, telekomunikacji, energii odnawialnej, czyli wszędzie tam, gdzie kluczowa
+ jest przewidywalność regulacyjna. W teorii systemów to klasyczny problem
+ określany jako delay between cause and effect: skutki utraty zaufania
+ instytucjonalnego ujawniają się z opóźnieniem wieloletnim i są wówczas niemal
+ niemożliwe do powiązania z konkretną decyzją regulacyjną. Zakaz prowadzenia
+ działalności w zakresie kryptoaktywów może przejawiać się w innych obszarach,
+ nawet w sytuacji, gdy niezwykle trudno będzie wskazać go jako przyczynę
+ traktowania państwa jako źródła niepewności dla np. bezpośrednich zagranicznych
+ inwestycji85.
+       Niepewność regulacyjna, spowodowana wprowadzeniem zakazu, może
+ stanowić rodzaj mierzalnego kosztu inwestycyjnego. Badania Europejskiego Banku
+ Inwestycyjnego pokazują, że wysoka niepewność regulacyjna wiąże się ze
+ spadkiem wzrostu zatrudnienia o 1 punkt procentowy i obniżeniem stopy inwestycji
+ o 3 punkty procentowe 86. Przedsiębiorstwa w Europie Południowej i Wschodniej
+ znacznie częściej postrzegają niepewność jako przeszkodę inwestycyjną niż firmy
+ w Europie Zachodniej, zatem region Europy Środkowej jest strukturalnie bardziej
+ wrażliwy na szoki regulacyjne typu zakaz kryptoaktywów.
+       Projektowany zakaz działalności w zakresie kryptoaktywów stanowi radykalną
+ modyfikację ram prawnych, która generuje daleko idącą niepewność regulacyjną,
+ uderzającą w atrakcyjność inwestycyjną Polski jako gospodarki o mniejszej
+ głębokości kapitału instytucjonalnego. Wprowadzenie jednostronnego zakazu
+ w warunkach swobodnego przepływu kapitału nie eliminuje popytu, lecz jedynie
+ przesuwa korzyści ekonomiczne do innych państw, trwale osłabiając krajowy
+ ekosystem technologii finansowych poprzez odpływ talentów i kapitału. Koszty tej
+ regulacji mają charakter systemowy i długofalowy, gdyż wbudowują się w premię za
+ ryzyko stosowaną przy przyszłych inwestycjach, co w praktyce funkcjonuje jako
+ trwały, niewidoczny podatek od kapitału.
+
+
+ VIII.   Skutki projektowanej ustawy dla sektora finansów publicznych
+
+       Zdaniem Wnioskodawców projektowana ustawa może wywoływać skutki dla
+ budżetu państwa w wysokości do 30 mln zł. Przy czym skutki te będą związane
+ z realizacją nowych zadań przez organy administracji publicznej oraz służby
+ państwowe, głównie Prezesa Urzędu Ochrony Konkurencji i Konsumentów, Agencji
+ Bezpieczeństwa Wewnętrznego oraz organów wymiaru sprawiedliwości i organów
+ ścigania i wiązać się będą m.in. z dokonaniem blokady rachunku kryptoaktywów
+ i uniemożliwieniem dostępu do stron internetowych wykorzystujących domenę
+ internetową do prowadzenia działalności w zakresie kryptoaktywów przez jej
+ usunięcie z systemów teleinformatycznych przedsiębiorców telekomunikacyjnych.
+
+
+85 D. Meadows, Myślenie systemowe, Helion 2020.
+86 A. Kolev, T. Randall, The effect of uncertainty on investment: Evidence from EU survey data, EIB
+
+Working Paper 2024/02; The cost of uncertainty – new estimates, https://economy-
+finance.ec.europa.eu/economic-forecast-and-surveys/economic-forecasts/autumn-2024-economic-
+forecast-gradual-rebound-adverse-environment/cost-uncertainty-new-estimates_en.
+
+                                                21
+ Wydatki związane z realizacją tych nowych zadań przez organy administracji
+ publicznej oraz służby państwowe będą finansowane z budżetu państwa w części
+ pozostającej w dyspozycji Prezesa UOKiK, Agencji Bezpieczeństwa Wewnętrznego,
+ organów wymiaru sprawiedliwości i organów ścigania. Wnioskodawcy dodają też,
+ że projekt nie ma wpływu na budżety jednostek samorządu terytorialnego.
+       Odnosząc się do powyższych skutków należy zaznaczyć, iż Wnioskodawcy nie
+ przedstawili kalkulacji zwiększonych wydatków. Zgodzić się można z tym, że projekt
+ będzie generować koszty dla takich podmiotów sektora finansów publicznych jak
+ UOKiK, ABW, sądy, prokuratura i policja. Może on też w mniejszym stopniu
+ generować koszty u podmiotów, o których mowa w art. 12 ust. 2 projektu, takich jak:
+ Rzecznik Praw Obywatelskich, Rzecznik Finansowy, krajowa lub regionalna
+ organizacja, której celem statutowym jest ochrona interesów konsumentów,
+ powiatowy/miejski rzecznik konsumentów. Jednocześnie można zasygnalizować, że
+ wprowadzenie ustawy wprowadzającej całkowity zakaz działalności w zakresie
+ kryptoaktywów w Polsce oznaczać może utratę dochodów podatkowych budżetu
+ państwa i budżetów jednostek samorządów terytorialnych, w tym zwłaszcza z PIT
+ i CIT87. Utrata ta może być większa w przypadku osiągania wyższych zysków od
+ inwestowania w kryptowaluty88, a także w sytuacji założenia pomyślnego rozwoju
+ polskich firm prowadzących działalność w zakresie kryptowalut. Wycofanie się
+ z rynku takich firm i inwestorów po wprowadzeniu zakazu lub ich ucieczka za granicę
+ bądź przejście do szarej strefy może spowodować trwałe ograniczenie bazy
+ podatkowej i wywołać inne niemierzalne koszty związane przykładowo
+ z ograniczaniem rozwoju nowych technologii.
+       Jak wskazano wcześniej skutki dla budżetu państwa (zwiększenia wydatków)
+ wynikać będą z nowych zadań szeregu instytucji. W odniesieniu do UOKiK będą to:
+ prowadzenie postępowań, wydawanie żądań blokad i monitoring rynku.
+ W przypadku zaś ABW: blokady rachunków krypto i rachunków bankowych (co nota
+ bene może wymagać współpracy z sektorem bankowym), obsługa techniczna
+ i analityczna. Natomiast w odniesieniu do sądów, prokuratury i policji czy
+ więziennictwa wiązać się to będzie z dodatkowymi sprawami karnymi z uwagi na
+ wprowadzenie przez Wnioskodawców nowego przestępstwa zagrożonego karą do
+ 10 lat.
+       Powyższe oznacza potrzebę zwiększenia zatrudnienia lub dodatkowych
+ etatów i środków na wynagrodzenia, a także poniesienia innych wydatków
+ umożliwiających realizację zadań (np. na informatykę i telekomunikację).
+       Określenie skutków finansowych projektowanej ustawy może być trudne m.in.
+ z uwagi na to, że także rząd w swoich projektach ustaw o rynku kryptoaktywów,
+ zmierzających do wprowadzenia nowych rozwiązań mających na celu realizację
+
+87 Zob. art. 3 ust. 2 oraz art. 78 b ustawy z dnia 1 października 2024 r. o dochodach jednostek
+samorządu terytorialnego, Dz. U. z 2024 r., poz. 1572 ze zm.
+Jednostki samorządu terytorialnego mają swoje udziały w tych podatkach:
+Zob. też. https://www.gov.pl/web/finanse/kwoty-dochodow-jednostek-samorzadu-terytorialnego-na-rok-
+2026-potrzeby-finansowe-podlegajace-sfinansowaniu-oraz-szczegolowe-dane-wykorzystane-do-ich-
+obliczenia, https://www.gov.pl/web/finanse/udzialy-za-2026-r.
+88 Podatek od inwestowania w kryptowaluty (wynoszący 19% od wypracowanego dochodu) płaci każdy
+
+inwestor indywidualny (osoba fizyczna), który w danym roku podatkowym dokonał odpłatnego zbycia
+walut wirtualnych i osiągnął zysk.
+
+                                               22
+ zadań wynikających z unijnego rozporządzenia 2023/1114, w szczególności
+ w zakresie skutecznego nadzoru nad tym rynkiem i ochrony inwestorów (druki
+ sejmowe 2064 i 2529) nie przytaczał informacji o skutkach finansowych wskazując
+ m.in. na brak szczegółowych danych o stanie rynku kryptowalut, w tym w odniesieniu
+ liczby podmiotów i skali ich działalności, czy przyjętego modelu działalności, w tym
+ transgranicznego charakteru świadczenia usług89. Ponadto z informacji uzyskanych
+ z Departamentu Podatków Dochodowych Ministerstwa Finansów na zapytanie
+ BEOS z dnia 29 maja 2026 r. wynika m.in., że brak jest możliwości wyodrębnienia
+ danych dotyczących wpływów podatkowych dotyczących prowadzonej działalności
+ w zakresie kryptoaktywów. Rodzaj tej działalności nie jest także
+ uwzględniony/wyszczególniony w Polskiej Klasyfikacji Działalności (PKD) 90 .
+ Dodatkowo brak jest informacji o tym, ile środków otrzymają w kolejnych latach
+ jednostki samorządu terytorialnego z PIT i CIT.
+         Niemniej przyjmując różne hipotetyczne założenia, w tym np. w odniesieniu
+ do liczby klientów rynku kryptowalut (od 1 do 2 mln osób, w tym 1,3 mln w wariancie
+ realistycznym i 0,9 mln w wariancie defensywnym) 91 , procenta aktywnych
+ podatników (w wariancie realistycznym 35% i w wariancie defensywnym 30%),
+ średniego dochodu (6 tys. zł w wariancie realistycznym i 4 tys. zł w wariancie
+ defensywnym), czy reakcji rynku 92 można wykazać, iż projekt może rodzić
+ negatywne skutki dla sektora finansów publicznych w zależności od czterech
+ przyjętych wariantów rynku (zob. załączona tabela93).
+
+ Tabela porównawcza skutków finansowych (warianty OSR)
+                           Wariant
+                                               Wariant         Wariant               Wariant
+      Parametr           maksymalny
+                                             realistyczny    defensywny          „rynek stratny”
+                     (rynek dochodowy)
+  Roczne dochody
+  sektora przed      1,5-2,0 mld zł         ~745 mln zł      ~315 mln zł     60-130 mln zł
+  regulacją
+  Założenie dot.      wysoka rentowność      umiarkowane      niska baza
+                                                                             strata netto inwestorów
+  rynku                i opodatkowanie          zyski         dochodowa
+  Utrata dochodów
+                            70-90%               80%              60%                40-60%
+  (%)
+  Ubytek
+  dochodów               0,5-1,6 mld zł       ~600 mln zł     ~190 mln zł          40-80 mln zł
+  budżetu państwa
+
+
+89 Zob.  Proces legislacyjny nad tymi projektami: Zob. Oceny skutków regulacji dołączone do tych
+projektów;
+https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?id=12B0E819062F38BBC1258D5C006449B6,
+https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?id=FC43C8DC9B7CFBA3C1258DF1004B0B4
+D. Skutki te wyliczano przy przyjmowaniu różnych założeń.
+90 Odpowiedź z Departamentu Podatków Dochodowych Ministerstwa Finansów z dnia 29 V 2026 r. na
+
+zapytanie dotyczące tego, czy jest możliwe uzyskanie informacji nt. ogólnej kwoty przychodów, kosztów
+ich uzyskania oraz zapłaconego podatku dochodowego w odniesieniu do podmiotów prowadzących
+działalność w zakresie kryptoaktywów w roku 2025 lub 2024.
+91 Zob. pkt VI opinii co do rozbieżnych szacunków liczby klientów rynku kryptowalut.
+92 Np. w wariancie realistycznym 80% rynku wypada z opodatkowania z uwagi na migrację lub szarą
+
+strefę, a w wariancie defensywnym 60%.
+93 Tabelę sporządzono przy wykorzystaniu AI. Przyjęto m.in. szacowane łączne wydatki budżetu
+
+państwa w kwocie 19-53 mln zł rocznie (średnio 36 mln zł rocznie, a więc nieznacznie więcej niż założyli
+Wnioskodawcy).
+
+                                                  23
+  Ubytek
+                       200-670 mln zł       ~210 mln zł    ~60 mln zł          10-20 mln zł
+  dochodów JST
+  Koszty
+                        20–50 mln zł        ~36 mln zł     ~21 mln zł          30-40 mln zł
+  administracyjne
+  Saldo budżetu
+                   –0,5 do –1,65 mld zł     –636 mln zł    –211 mln zł     –70 do –120 mln zł
+  państwa (roczne)
+  Saldo JST
+                     –0,2 do –0,67 mld zł   –210 mln zł    –60 mln zł       –10 do –20 mln zł
+  (roczne)
+  Saldo sektora FP
+                     –0,7 do –2,3 mld zł    –846 mln zł    –271 mln zł     –80 do –140 mln zł
+  (roczne)
+  Saldo 10-letnie
+                         7-25 mld zł        ~9,3 mld zł    ~2,9 mld zł         ~1,2 mld zł
+  sektora FP
+  Dominujący                                                utrata PIT
+                          utrata PIT        utrata PIT                    koszty administracyjne
+  czynnik kosztu                                          (ograniczona)
+ Źródło: Opracowanie własne.
+         Skutki te w praktyce mogą okazać się jeszcze inne zważywszy np. na
+ potrzebę zatrudnienia większej liczby osób w sektorze finansów publicznych, czy
+ inną reakcję rynku. Należy też zauważyć, że przyjęte założenia nie uwzględniają
+ kosztów wypłaty odszkodowań i sporów sądowych związanych z szybkim
+ zamknięciem rynku kryptowalut czy związanych z zahamowaniem rozwoju nowych
+ technologii.
+         W trakcie konsultacji wskazywano na to, że projekt może wywołać wysokie
+ koszty dla państwa: utratę wpływów podatkowych, odpływ kapitału za granicę oraz
+ wydatki na egzekwowanie zakazu, który i tak byłby trudny do pełnego wdrożenia.
+ Istnieje też ryzyko odszkodowań i sporów sądowych, a obowiązek szybkiego zwrotu
+ środków może prowadzić do niewypłacalności firm. Zakaz może zwiększyć
+ niepewność regulacyjną, zniechęcić inwestorów oraz przenieść działalność do
+ szarej strefy lub zagranicy, pozbawiając użytkowników ochrony. Jednocześnie
+ pomija się potencjał rozwoju sektora fintech i blockchain oraz założenie, że
+ ograniczy to straty obywateli, które mogą jedynie przenieść się na inne ryzykowne
+ inwestycje94.
+
+
+ IX.    Inne skutki projektowanej ustawy
+
+       Nie zidentyfikowano innych skutków wejścia w życie projektowanej ustawy.
+
+
+ X.     Zmiana obciążeń administracyjnych
+
+      Projekt prowadzi do zasadniczego zwiększenia obciążeń regulacyjnych.
+ Projekt wygeneruje nowy typ obciążeń administracyjnych związany z przymusową
+ samolikwidacją działalności przedsiębiorstw w zakresie w nim wskazanym. W ciągu
+ dwóch miesięcy każdy podmiot działający w zakresie kryptoaktywów musiałby
+ jednocześnie: zidentyfikować i powiadomić wszystkich klientów, obliczyć
+
+
+94 ID ankiet: 172033, 172718 i 172804.
+
+
+                                                24
+indywidualny „wynik inwestycyjny" każdego z nich według nieokreślonej metodologii
+wyceny, dokonać zwrotu środków bez pobierania jakichkolwiek opłat i prowizji,
+zamknąć wszystkie rachunki, wyłączyć platformy obrotu, systemy teleinformatyczne,
+a równolegle prowadzić obsługę prawną wynikającą z pewnych roszczeń
+kontrahentów, dostawców infrastruktury i pracowników objętych zwolnieniami.
+     Projekt zwiększa zadania Prezesa UOKiK, a także Agencji Bezpieczeństwa
+Wewnętrznego. Wprowadzenie nowego typu czynu zabronionego, który ma być
+nieuczciwą praktyką rynkową, ale również przestępstwem (projektowany art. 16a
+ustawy) oznacza zwiększenie obciążeń po stronie prokuratury, Policji, sądów.
+     Koszt obciążeń administracyjnych wprowadzonych projektowaną regulacją
+szacuje się na kilkadziesiąt mln zł rocznie z uwagi na potrzebę zwiększenia
+zatrudnienia i realizacji nowych zadań.
+
+
+XI.   Konkluzje
+
+1. Skutki prawne: Projektowany zakaz działalności w zakresie kryptoaktywów jest
+systemowo wadliwy, ponieważ zastępuje przewidziany w unijnym rozporządzeniu
+2023/1114 (rozporządzeniu MiCA) model dopuszczalnej, reglamentowanej
+działalności modelem generalnego zakazu, co koliduje z bezpośrednio stosowanym
+prawem UE, zasadą pierwszeństwa prawa unijnego, skutkiem unijnego zezwolenia
+paszportowego oraz swobodą przedsiębiorczości i świadczenia usług. Zakaz
+stanowi zarazem bardzo daleko idące ograniczenie wolności działalności
+gospodarczej i praw majątkowych, niewykazane jako konieczne ani proporcjonalne
+wobec możliwych alternatyw: wdrożenia rozporządzenia MiCA, wzmocnienia
+nadzoru, sankcji za konkretne nadużycia i punktowych środków ochronnych.
+Konstrukcja uznania całej działalności kryptoaktywowej za nieuczciwą praktykę
+rynkową budzi zastrzeżenia z perspektywy unijnej dyrektywy 2005/29/WE w sprawie
+nieuczciwych praktyk handlowych, ponieważ dyrektywa ta opiera się na pełnej
+harmonizacji i zamkniętym katalogu praktyk zawsze nieuczciwych, a projekt
+obejmuje także działalność niezwiązaną z relacjami konsumenckimi. Projektowane
+blokady rachunków, środków pieniężnych, kryptoaktywów i domen internetowych są
+nadmierne i proceduralnie niedookreślone: brakuje określenia czasu trwania
+blokady, trybu uchylenia, kontroli sądowej, ochrony osób trzecich, odpowiedzialności
+za szkodę i stosunku do innych postępowań. Blokada całych domen może
+obejmować również treści legalne i informacyjne, co rodzi ryzyko naruszenia
+wolności komunikacji i dostępu do informacji. Dwumiesięczny termin likwidacji
+obecnie legalnie prowadzonej działalności oraz czternastodniowe vacatio legis
+naruszają standard ochrony interesów w toku, zasadę zaufania do państwa i regułę
+z ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców wymagającą co do zasady
+sześciomiesięcznego terminu wejścia w życie przepisów zwiększających obciążenia
+regulacyjne. Art. 4 projektu jest niewykonalny konstrukcyjnie, ponieważ obowiązki
+likwidacyjne i rozliczeniowe wymagają wejścia w sytuację prawną przedsiębiorcy,
+dostępu do dokumentacji, systemów, portfeli, kluczy, danych klientów i relacji
+kontraktowych, czego same środki blokujące nie zapewniają. Projektowana
+regulacja jest ponadto niekompletna, ponieważ likwiduje działalność
+
+                                        25
+kryptoaktywową za pomocą projektu ustawy chroniącej konsumentów, nie
+porządkując równolegle reżimu ustawy z dnia 1 marca 2018 r. o przeciwdziałaniu
+praniu pieniędzy oraz finansowaniu terroryzmu w kwestiach dotyczących
+działalności w zakresie walut wirtualnych. W odrębnych opiniach BEOS wskazano
+niezgodność kluczowych przepisów projektu z rozporządzeniem MiCA i dyrektywą
+2005/29/WE, potrzebę notyfikacji niektórych rozwiązań jako przepisów technicznych
+oraz konieczność zasięgnięcia opinii EBC, przy jednoczesnym stwierdzeniu, że
+projekt nie stanowi ustawy wykonującej prawo UE.
+Opiniowany projekt nasuwa wątpliwości z punktu widzenia art. 1 Protokołu
+Dodatkowego Nr 1 do EKPC.
+
+2. Skutki społeczne: Zakres oddziaływania regulacji jest trudny do precyzyjnego
+określenia, jednak najbardziej wiarygodne źródła wskazują na ok. 1,2-1,7 mln osób
+w Polsce posiadających kryptoaktywa. Krótkie vacatio legis oraz brak uregulowania
+procedury informowania klientów może doprowadzić do chaotycznego wycofywania
+zgromadzonych środków przez klientów, co może wywołać problemy z płatnościami,
+a nawet upadłość niektórych podmiotów. Przedłużająca się niepewność regulacyjna
+utrudnia funkcjonowanie branży oraz obniża zaufanie do państwa i jego instytucji.
+Uchwalenie projektu zlikwiduje sektor kryptowalut w Polsce, jednocześnie nie
+wpływając na korzystanie przez mieszkańców Polski z takich usług oferowanych
+przez podmioty zagraniczne.
+
+3. Skutki gospodarcze: Projektowana regulacja wywołałaby skutki gospodarcze
+znacznie wykraczające poza sam sektor objęty zakazem. W wymiarze rynku pracy
+oznaczałaby utratę zatrudnienia lub relokację wysoko wykwalifikowanej
+i geograficznie mobilnej kadry (m.in. programistów, specjalistów compliance,
+analityków), która mogłaby się przenieść do jurysdykcji przyjaznych regulacji MiCA.
+Dla przedsiębiorstw kluczowe ryzyko stwarzałby obowiązek zwrotu nie tylko
+powierzonych środków, lecz także zmiennego w czasie i niedookreślonego co do
+daty wyceny wyniku inwestycyjnego, co mogłoby prowadzić do niewypłacalności
+części podmiotów i paradoksalnie narazić na straty tych samych konsumentów,
+których regulacja miała chronić. W warunkach swobodnego przepływu usług
+i kapitału jednostronny zakaz nie eliminowałby popytu, a jedynie przesuwałby
+obsługę polskich inwestorów na platformy zagraniczne, w tym nieuregulowane
+platformy spoza UE, obniżając tym samym rzeczywisty poziom ochrony konsumenta
+i pełniąc de facto funkcję subsydium dla zagranicznej konkurencji. Najpoważniejszy,
+choć rozłożony w czasie, byłby skutek systemowy: zakaz w sektorze regulowanym
+przez UE stanowiłby przykład niepewności regulacyjnej, osłabiający atrakcyjność
+inwestycyjną Polski w całej gospodarce cyfrowej i wbudowujący się trwale w premię
+za ryzyko.
+
+4. Skutki finansowe: Proponowana przez Wnioskodawców regulacja będzie rodzić
+skutki dla sektora finansów publicznych, przy czym skutki te mogą być znacząco
+wyższe niż to zakładają Wnioskodawcy. Dotyczy to także sytuacji, gdy na rynku
+odnotowywane są straty. Zauważyć jednak należy, że precyzyjne określenie skutków
+
+
+                                        26
+ stanowi wyzwanie z uwagi na trudne do przewidzenia reakcje uczestników rynku
+ kryptowalut.
+
+ 5. Rozwiązania zagraniczne: W żadnym z państw członkowskich UE nie
+ wprowadzono całkowitego zakazu świadczenia usług związanych z kryptoaktywami.
+ W poszczególnych państwach członkowskich UE przyjęto przepisy umożliwiające
+ stosowanie rozporządzenia (UE) 2023/1114 i rozporządzenia (UE) 2023/1113,
+ w tym uznające kryptoaktywa za część rynku finansowego oraz wskazujące organy
+ nadzoru. Na świecie generalny zakaz prowadzenia działalności związanej
+ z kryptoaktywami lub zakaz większości rodzajów takiej działalności obowiązuje m.in.
+ w Algierii, Arabii Saudyjskiej, Chinach, Egipcie.
+
+
+Autorzy:
+Marcin Fryźlewicz, Bartosz Pawłowski, eksperci ds. legislacji (pkt I-III)
+dr Danuta Adamiec, specjalista ds. komparatystycznych (pkt IV, XI.5)
+dr hab. Tomasz Długosz, ekspert ds. legislacji (pkt V.1, X, XI.1.1)
+prof. dr hab. Krzysztof Wojtyczek, ekspert ds. legislacji (pkt V.2, XI.1.2)
+Marcin Wróbel, specjalista ds. społecznych (pkt. VI, X, XI.2)
+dr Radosław Zyzik, specjalista ds. systemu gospodarczego (pkt. VII, X, XI.3)
+dr Zofia Szpringer, specjalista ds. finansów publicznych (pkt. VIII, X, XI.4)
+
+                                              Akceptował:
+                                              Wicedyrektor Biura Ekspertyz
+                                              i Oceny Skutków Regulacji
+
+                                              Ziemowit Cieślik
+                                              /podpisano elektronicznie/
+
+
+
+
+                                         27
+

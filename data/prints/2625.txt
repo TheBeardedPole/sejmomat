@@ -1,0 +1,2031 @@
+                                                                     Druk nr 2625
+                                                                 Warszawa, 25 maja 2026 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+   DSP.WPP.4521.11.2026
+
+
+                                                              Pan
+                                                              Włodzimierz Czarzasty
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+        Szanowny Panie Marszałku,
+
+ przekazuję przyjęty przez Rade Ministrów dokument:
+
+ - Sprawozdanie Rady Ministrów z wykonania
+   ustawy z dnia 5 grudnia 2024 r. o ochronie
+   ludności i obronie cywilnej.
+
+         Jednocześnie informuję, że Rada Ministrów upoważniła Ministra Spraw
+ Wewnętrznych i Administracji do prezentowania stanowiska Rządu w tej sprawie w toku
+ prac parlamentarnych.
+
+
+
+
+                                                       Z wyrazami szacunku
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Sprawozdanie dla Sejmu i Senatu RP
+              z wykonania ustawy
+  z dnia 5 grudnia 2024 r. o ochronie ludności
+               i obronie cywilnej
+
+            (Dz. U. poz. 1907, z późn. zm.)
+
+
+
+
+             Warszawa, kwiecień 2026 r.
+Ustawa o ochronie ludności i obronie cywilnej wzmacnia system bezpieczeństwa
+państwa, stanowiąc jeden z kluczowych elementów realizacji konstytucyjnego
+obowiązku ochrony obywateli. Centralną rolę w jej wdrażaniu i koordynacji pełni
+Minister Spraw Wewnętrznych i Administracji, odpowiedzialny za kierowanie
+krajowym systemem ochrony ludności, nadzór nad jego strukturami oraz
+zapewnienie spójności działań administracji i służb. Ustawa wykorzystuje
+istniejący potencjał struktur cywilnych, zwiększając odporność państwa na
+zagrożenia w czasie pokoju, kryzysów i wojny.
+
+
+
+
+              Ministerstwo Spraw Wewnętrznych i Administracji
+Spis treści
+1.  Wprowadzenie...................................................................................................................7
+  1.1. Zakres informacji objętych przeglądem ....................................................................10
+  1.2. Źródła finansowania..................................................................................................11
+2. Realizacja ustawy .............................................................................................................12
+  2.1. Zadania z zakresu budownictwa ochronnego ...........................................................12
+  2.2. Zadania z zakresu zabezpieczenia logistycznego i zapewnienie ciągłości dostaw.....19
+  2.3. Zadania z zakresu utrzymania i rozwoju podmiotów ochrony ludności i organizacji
+  pozarządowych ....................................................................................................................25
+  2.4. Zadania z zakresu edukacji i szkoleń .........................................................................30
+  2.5. Zadania z zakresu Systemu Bezpiecznej Łączności Państwowej oraz alarmowania,
+  ostrzegania i powiadamiania ...............................................................................................37
+  2.6. Zadania z zakresu oznakowania podmiotów obrony cywilnej ..................................42
+3. Sposób finansowania zadań ochrony ludności i obrony cywilnej ....................................43
+  3.1. Wydatki województw oraz środki niewygasające .....................................................49
+4. Wykaz aktów wykonawczych do ustawy wydanych w 2025 r. ........................................52
+5. Współpraca cywilno-wojskowa........................................................................................54
+6. Podsumowanie ................................................................................................................55
+
+
+
+
+                                                                                                                                    5
+6
+1. Wprowadzenie
+Zapewnienie bezpieczeństwa państwa i obywateli stanowi jeden z najważniejszych celów
+strategicznych państwa określonych w Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia
+1997 r. (Dz. U. poz. 483, z późn. zm.). Stąd też, zapewnienie ochrony ludności i odbudowa
+systemu obrony cywilnej kraju, wraz z niezbędnymi zasobami, pozostaje jednym
+z pierwszoplanowych wyzwań mających na celu wzmacnianie odporności państwa
+i budowania odporności społeczeństwa na wszelkiego rodzaju zagrożenia. Wejście w życie
+ustawy z dnia 5 grudnia 2024 r. o ochronie ludności i obronie cywilnej (Dz. U. poz. 1907,
+z późn. zm.) wzmacnia system ochrony ludności oraz system obronny kraju, zarówno w czasie
+wojny jak i w czasie pokoju, oraz stanowi dopełnienie ustawy z dnia 11 marca 2022 r. o obronie
+Ojczyzny (Dz. U. z 2025 r. poz. 825, z późn. zm.), jak również umożliwia włączenie organizacji
+pozarządowych do systemu ochrony ludności i obrony cywilnej. Ustawa wykorzystuje
+potencjał istniejących struktur i systemów cywilnych ukierunkowanych na zapewnienie
+ochrony życia i zdrowia ludności w czasie wystąpienia zagrożeń, w tym sytuacji kryzysowych
+oraz podczas wprowadzenia stanów nadzwyczajnych i w czasie wojny. Ustawa określa
+w szczególności:
+  1) zadania ochrony ludności i obrony cywilnej,
+  2) organy i podmioty realizujące zadania ochrony ludności i obrony cywilnej,
+  3) zasady planowania ochrony ludności i obrony cywilnej,
+  4) zasady funkcjonowania systemów wykrywania zagrożeń oraz powiadamiania,
+     ostrzegania i alarmowania o zagrożeniach,
+  5) zasady użytkowania i ewidencjonowania oraz warunki techniczne obiektów zbiorowej
+     ochrony,
+  6) zasady funkcjonowania i organizację obrony cywilnej oraz sposób powoływania
+     personelu do obrony cywilnej,
+  7) finansowanie ochrony ludności i obrony cywilnej.
+W myśl art. 2 ust. 1 ustawy ochrona ludności to system składający się z organów administracji
+publicznej wykonujących zadania mające na celu zapewnienie bezpieczeństwa ludności przez
+ochronę życia i zdrowia ludzi, mienia, w tym zwierząt, infrastruktury niezbędnej do
+zaspokojenia potrzeb bytowych, dóbr kultury i środowiska w sytuacji zagrożenia, zwanych
+dalej „organami ochrony ludności”, podmiotów wykonujących te zadania, zwanych dalej
+„podmiotami ochrony ludności”, oraz zasobów ochrony ludności.
+Z kolei zgodnie z art. 2 ust. 2 ustawy obrona cywilna to realizacja zadań określonych w art. 61
+lit. a Protokołu dodatkowego do Konwencji genewskich z 12 sierpnia 1949 r. dotyczącego
+ochrony ofiar międzynarodowych konfliktów zbrojnych (Protokół I), sporządzonego
+w Genewie dnia 8 czerwca 1977 r. (Dz. U. z 1992 r. poz. 175, z późn. zm.), mająca na celu
+
+
+
+
+                                                                                             7
+ochronę ludności cywilnej przed zagrożeniami wynikającymi z działań zbrojnych i ich
+następstw.
+Zgodnie z art. 5 ustawy zadania z obszaru ochrony ludności i obrony cywilnej są wykonywane
+przez organy oraz podmioty ochrony ludności i obrony cywilnej, w zależności od rodzaju i skali
+zagrożeń i ich właściwości, na zasadach przewidzianych w ustawie oraz innych przepisach
+prawa.
+Dopełnienie wymienionych przepisów stanowią ustawy kompetencyjne dla organów
+administracji publicznej, jak również dla służb i podmiotów (instytucji i organizacji
+pozarządowych) realizujących działania ratownicze i pomocowe oraz przedsiębiorstw
+i organizacji pozarządowych, które realizują misję publiczną na rzecz szeroko rozumianej
+ochrony ludności. Wymienić tu należy przede wszystkim przepisy ustawy z dnia 8 marca 1990
+r. o samorządzie gminnym (Dz. U. z 2025 r. poz. 1153, z późn. zm.), ustawy z dnia 5 czerwca
+1998 r. o samorządzie powiatowym (Dz. U. z 2025 r. poz. 1684, z późn. zm.), ustawy
+z dnia 5 czerwca 1998 r. o samorządzie województwa (Dz. U. z 2025 r. poz. 581, z późn. zm.)
+oraz ustawy z dnia 24 kwietnia 2003 r. o działalności pożytku publicznego i o wolontariacie
+(Dz. U. z 2025 r. poz. 1338).
+Współpraca między organami administracji publicznej a organizacjami pozarządowymi
+w zakresie ochrony ludności i obrony cywilnej uregulowana została również w art. 4 ust. 1
+ustawy z dnia 24 kwietnia 2003 r. o działalności pożytku publicznego i o wolontariacie przez
+określenie w katalogu zadań publicznych, które mogą być realizowane przez organizacje
+pozarządowe, m.in. zostały wskazane zadania z zakresu: ratownictwa oraz pomocy ofiarom
+katastrof, klęsk żywiołowych, konfliktów zbrojnych i wojen. Współpracę z organami
+administracji publicznej prowadzącymi działalność w sferze zadań publicznych, jej formy oraz
+zasady i sposób ich zlecania organizacjom pozarządowym reguluje art. 5 sprawozdawanej
+ustawy.
+Regulacje europejskie dotyczące ochrony ludności i bezpieczeństwa powszechnego
+funkcjonują zarówno na poziomie traktatów międzynarodowych, jak i decyzji Parlamentu
+Europejskiego i Rady oraz decyzji wykonawczych Komisji Europejskiej. W szczególności
+dotyczy to art. 6 Traktatu o funkcjonowaniu Unii Europejskiej, gdzie ochronę ludności
+wymieniono jako jedną z dziedzin, w stosunku do których Unia Europejska ma kompetencje
+do wspierania, koordynowania oraz uzupełniania działań podejmowanych przez państwa
+członkowskie. Uszczegółowienie tego przepisu zawiera art. 196, w którym Unia Europejska
+zachęca państwa członkowskie do wzajemnej współpracy zmierzającej do zwiększenia
+skuteczności zapobiegania katastrofom naturalnym i klęskom żywiołowym. W kolejnych
+częściach przepisu doprecyzowano, że celem działań podejmowanych przez Unię Europejską
+jest wspieranie i uzupełnianie krajowych, regionalnych oraz lokalnych działań państw
+członkowskich związanych z zapobieganiem i reagowaniem na klęski żywiołowe lub katastrofy
+spowodowane przez człowieka. Cele Unii Europejskiej obejmują również wspieranie państw
+członkowskich w zakresie współpracy operacyjnej krajowych służb ochrony ludności oraz
+
+
+8
+szkolenia i przygotowywania ich personelu. Unia Europejska pozostawia państwom
+członkowskim pierwszeństwo w działaniach mających na celu ochronę ludności, środowiska
+naturalnego i mienia, w tym dziedzictwa kulturowego. W związku z aktualną sytuacją
+geopolityczną Unia Europejska intensyfikuje wysiłki na rzecz wzmocnienia ochrony cywilnej,
+czego przejawem jest Raport Bezpieczniejsi Razem: Wzmacnianie Europejskiej Gotowości
+Cywilnej i Wojskowej, prace nad Unijną Strategią Gotowości (Preparedness Union Strategy)
+oraz planowane konkluzje Rady UE.
+Należy również zaznaczyć, że w przypadku, gdy zasoby ochrony ludności przewidziane do
+reagowania i realizacji zadań na terenie kraju są niewystarczające, mogą być one realizowane
+także przy pomocy zasobów zadysponowanych w ramach Unijnego Mechanizmu Ochrony
+Ludności, o którym mowa w decyzji Parlamentu Europejskiego i Rady nr 1313/2013/EU
+z dnia 17 grudnia 2013 r. w sprawie Unijnego Mechanizmu Ochrony Ludności (Dz. Urz. UE L
+347 z 20.12.2013, str. 924, z późn. zm.), lub na podstawie umów międzynarodowych.
+Przewidziane w ustawie o ochronie ludności i obronie cywilnej rozwiązania prawno-
+systemowe zmierzają do właściwego umiejscowienia zadań ochrony ludności i obrony
+cywilnej w istniejącym systemie bezpieczeństwa państwa oraz usunięcia niejasności
+w dotychczasowym porządku prawnym oraz ujednolicenia prawodawstwa w zakresie ochrony
+ludności. Ponadto mają na celu wprowadzenie czytelnego podziału kompetencji między
+organami samorządu terytorialnego i administracji rządowej. Rozwiązania zawarte w ustawie
+mają także na celu harmonizację obowiązującego prawa oraz dostosowanie przepisów do
+współczesnych zagrożeń i usprawnienia reagowania służb publicznych. Istotą ustawy jest
+wykorzystanie na potrzeby ochrony ludności istniejących i sprawdzonych zasobów,
+w szczególności sił i środków krajowego systemu ratowniczo-gaśniczego, w tym Państwowej
+Straży Pożarnej, ochotniczych straży pożarnych, a także podmiotów uprawnionych do
+wykonywania ratownictwa górskiego i wodnego oraz innych organizacji społecznych
+działających w obszarze ratownictwa, ochrony ludności, pomocy humanitarnej i edukacji dla
+bezpieczeństwa. Ustawa przewiduje ich integrację na poziomie systemowym i operacyjnym,
+tak aby ich działania były skuteczne, efektywne i szybkie.
+Ustawa kładzie również duży nacisk na kształtowanie świadomości społeczeństwa oraz
+promowanie odpowiednich zachowań w obliczu zagrożenia w celu zwiększenia
+bezpieczeństwa obywateli oraz zmniejszenia skutków zagrożeń.
+Opracowanie i przyjęcie ustawy stanowiło także odpowiedź na postulaty zmian zgłaszane
+przez władzę ustawodawczą i wykonawczą, Najwyższą Izbę Kontroli, środowisko naukowe
+i obywateli, a także praktyków funkcjonujących w systemie bezpieczeństwa powszechnego
+różnych szczebli administracji rządowej i samorządowej.
+Przyjęcie ustawy zwieńczyło kilkudziesięcioletnie starania stworzenia aktu prawnego, który
+w sposób kompleksowy dotyczyłby ochrony ludności, rozumianej jako wszelkie działania
+państwa w tym obszarze, zarówno w czasie pokoju, jak i czasie wojny. Należy nadmienić,
+
+
+
+                                                                                          9
+że ustawa została przyjęta przy jednogłośnym poparciu Sejmu RP (449 głosów za, brak
+przeciwnych i wstrzymujących się).
+
+1.1. Zakres informacji objętych przeglądem
+Ustawa określa katalog zadań z zakresu ochrony ludności, w skład którego wchodzą m.in.:
+        identyfikacja zagrożeń, ocena ryzyka i monitorowanie tych zagrożeń;
+        przygotowanie organizacyjne i rzeczowe do reagowania na zagrożenia;
+        planowanie i przygotowanie warunków dla ewakuacji ludności, w tym miejsc
+         tymczasowego schronienia oraz budowli ochronnych;
+        planowanie zabezpieczenia i ewakuacji mienia i dóbr kultury;
+        zapewnienie tworzenia rezerw materiałowych służących ochronie ludności;
+        edukacja w zakresie ochrony ludności, w tym szkolenia dla ludności i podmiotów
+         ochrony ludności;
+        planowanie i przygotowanie przekształcenia podmiotów ochrony ludności w obronę
+         cywilną;
+        prowadzenie wymiany i analizy informacji, w tym pochodzących z systemów
+         monitorowania zagrożeń;
+        informowanie, ostrzeganie i alarmowanie ludności;
+        reagowanie i podejmowanie interwencji oraz działań ratowniczych, w tym udzielanie
+         pomocy medycznej osobom poszkodowanym;
+        zapewnienie osobom poszkodowanym lub ewakuowanym pomocy doraźnej;
+        zapewnienie osobom poszkodowanym i ewakuowanym opieki medycznej;
+        organizowanie i koordynowanie udzielania i przyjmowania pomocy humanitarnej;
+        informowanie rodzin o poszkodowanych oraz pomoc w ich identyfikacji.
+Dążąc do realizacji celu strategicznego, jakim jest zbudowanie systemu ochrony ludności
+i obrony cywilnej działającego podczas wystąpienia każdego rodzaju zagrożenia, bez względu
+na stan funkcjonowania państwa, ww. zadania podzielono na sześć kluczowych obszarów
+zadaniowych, których realizację opisano w poszczególnych podrozdziałach niniejszego
+sprawozdania:
+     1) zadania z zakresu budownictwa ochronnego,
+     2) zadania z zakresu zabezpieczenia logistycznego i zapewnienie ciągłości dostaw,
+     3) zadania z zakresu utrzymania i rozwoju podmiotów ochrony ludności i organizacji
+        pozarządowych,
+     4) zadania z zakresu edukacji i szkoleń,
+
+
+
+
+10
+   5) zadania z zakresu Bezpiecznej Łączności Państwowej oraz alarmowania, ostrzegania
+      i powiadamiania,
+   6) zadania z zakresu oznakowania podmiotów ochrony ludności.
+
+1.2. Źródła finansowania
+Podstawowym źródłem finansowania zadań z zakresu ochrony ludności i obrony cywilnej jest
+budżet państwa. Począwszy od 2025 r. na realizację tych zadań przeznacza się corocznie środki
+o wysokości co najmniej 0,3% PKB ustalonej w oparciu o wartość określaną w obwieszczeniu
+Prezesa Głównego Urzędu Statystycznego wydawanym na podstawie art. 5 ustawy z dnia 26
+października 2000 r. o sposobie obliczania wartości rocznego produktu krajowego brutto
+(Dz. U. z 2021 r. poz. 151), według stanu na dzień 31 sierpnia.
+Zgodnie z art. 7 ustawy z dnia 5 grudnia 2024 r. o ochronie ludności i obronie cywilnej
+podstawą finansowania realizacji zadań ochrony ludności i obrony cywilnej jest Program
+Ochrony Ludności i Obrony Cywilnej. Rada Ministrów podjęła uchwałę nr 72 z dnia 27 maja
+2025 r. w sprawie zatwierdzenia Programu Ochrony Ludności i Obrony Cywilnej na lata 2025–
+2026 (M.P. poz. 541, z późn. zm.). Budżet Programu w 2025 r. wynosił 16,7 mld zł. W 2026 r.
+na realizację zadań z zakresu ochrony ludności i obrony cywilnej przeznaczono 17,2 mld zł.
+
+
+
+
+                                                                                          11
+2. Realizacja ustawy
+Celem funkcjonowania sytemu ochrony ludności jest realizacja zadań ochrony ludności.
+Nadrzędnym celem ochrony ludności jest zapewnienie ochrony życia i zdrowia. System
+ochrony ludności funkcjonuje w czasie pokoju, a w czasie stanu wojennego i w czasie wojny
+przekształca się w system obrony cywilnej. W celu realizacji zadań ochrony ludności niezbędne
+jest zapewnienie sił i środków, w tym zasobów i personelu, wytworzenie zdolności organów
+i podmiotów do zapewnienia ciągłości działania i świadczenia usług w przypadku zagrożenia,
+wytworzenie odporności społecznej oraz stworzenie infrastruktury chroniącej ludność i zasoby
+przed bezpośrednim oddziaływaniem zagrożeń. Powyższe pozwala wyodrębnić kluczowe
+grupy zadań ustawowych, których realizację opisano poniżej.
+
+2.1. Zadania z zakresu budownictwa ochronnego
+Zadania z zakresu budownictwa ochronnego były realizowane w trzech zakresach:
+     1) przygotowanie do odtworzenia i budowa budowli ochronnych zapewniających
+        przetrwanie w przypadku wystąpienia skażeń i uderzeń z powietrza,
+     2) miejsca doraźnego schronienia,
+     3) centralna ewidencja obiektów zbiorowej ochrony.
+Przygotowanie do odtworzenia i budowa budowli ochronnych stanowi jeden z kluczowych
+elementów zabezpieczenia ludności cywilnej przed zagrożeniami. Ich głównym celem jest
+ochrona życia i zdrowia mieszkańców w sytuacjach zagrożeń – zarówno militarnych, jak i klęsk
+żywiołowych czy innych awarii. Odpowiednio zaprojektowana i utrzymana infrastruktura
+ochronna zwiększa odporność kraju na sytuacje/zdarzenia kryzysowe, wzmacnia poczucie
+bezpieczeństwa obywateli oraz umożliwia sprawne działanie służb ratunkowych. Budowle
+ochronne pozwalają na organizację schronienia, zabezpieczenie ludności oraz utrzymanie
+ciągłości funkcjonowania administracji i kluczowych instytucji.
+Głównym zadaniem realizowanym w 2025 r. były sprawdzenia budowli ochronnych. Organy
+ochrony ludności zleciły jednostkom Państwowej Straży Pożarnej (dalej: PSP) sprawdzenie
+6 936 budowli ochronnych, z czego 1 405 zleceń dotyczyło obiektów, które nie były wcześniej
+budowlami ochronnymi. Jednostki PSP przeprowadziły 4 852 sprawdzenia. W konsekwencji
+PSP wydała 4 213 stanowisk dla organów ochrony ludności, w których stwierdzono, że 2 568
+budowli ochronnych może spełniać (bądź spełnia) wymagania bezpieczeństwa pożarowego,
+a także wymagania dotyczące wyposażenia budowli ochronnych, które są weryfikowane przez
+PSP. Spośród wszystkich obiektów budowlanych, których sprawdzenia zleciły organy ochrony
+ludności, komendanci powiatowi (miejscy) PSP poddali ocenie 5 185 obiektów w zakresie
+możliwości pełnienia przez nie funkcji punktu schronienia, z których 3 790 wprowadzono jako
+punkty schronienia do aplikacji gdziesieukryc.pl.
+
+
+
+
+12
+Rysunek 1. Budownictwo ochronne
+
+
+
+
+Równolegle w 2025 r. organy nadzoru budowlanego stopnia powiatowego otrzymały od
+organów ochrony ludności 4 794 zlecenia sprawdzenia dotychczasowych budowli ochronnych,
+tj. obiektów budowlanych, które przed 1 stycznia 2025 r. pełniły funkcję schronu lub ukrycia,
+z których sprawdzeniu poddano 3 710.
+Na podstawie dokonanych ustaleń sformułowane zostały 3 394 stanowiska, przekazane do
+organów ochrony ludności, w których zawarto wnioski dotyczące:
+      spełniania lub możliwości spełniania ocenianych przez nadzór budowlany kryteriów –
+       w 617 przypadkach,
+      braku możliwości spełniania co najmniej jednego z ocenianych kryteriów – w 1181
+       przypadkach,
+      konieczności podjęcia dalszych czynności w celu oceny spełniania kryteriów, takich jak
+       sporządzenie ekspertyzy czy dokumentacji projektowej przez osoby pełniące
+       samodzielne funkcje techniczne w budownictwie – w 1596 przypadkach.
+Zgodnie z art. 114 ustawy organy ochrony ludności, w porozumieniu z właściwymi podmiotami
+ochrony ludności, zapewniają poinformowanie ludności o umiejscowieniu obiektów zbiorowej
+ochrony oraz, w razie potrzeby, o sposobie dotarcia do nich i korzystania z nich,
+z uwzględnieniem informacji o ograniczeniach dostępu dla osób z niepełnosprawnościami.
+Realizację powyższego obowiązku przez wójtów (burmistrzów, prezydentów miast)
+i starostów koordynuje wojewoda. Obowiązek ten realizowany jest w szczególności przez
+ogłoszenia za pośrednictwem systemu powiadamiania, ostrzegania i alarmowania
+o zagrożeniach, umieszczenie informacji, w tym map, z lokalizacją i kierunkiem
+przemieszczenia się do obiektu zbiorowej ochrony lub za pomocą narzędzi
+teleinformatycznych, w tym aplikacji na urządzenia mobilne.
+
+
+                                                                                          13
+Aplikacja „Gdzie się ukryć” została przygotowana i uruchomiona przez Komendę Główną PSP
+oraz udostępniona obywatelom w dniu 21 grudnia 2025 r. Zawiera ona informacje o miejscach
+schronienia na obszarze całego kraju oraz wskazuje ich lokalizację, korzystając z ustalonej
+pozycji użytkownika. Stworzenie tej aplikacji wpisuje się w realizację zadań z zakresu
+popularyzacji wiedzy dotyczącej ochrony ludności. Aplikacja „Gdzie się ukryć” bazuje na
+aktualnych danych, których zbieranie rozpoczęto w 2025 r.
+Ponadto biorąc pod uwagę możliwość aktywnego udziału społeczeństwa w rozwijaniu tego
+narzędzia zapewniona została w aplikacji funkcja przyjmowania zgłoszeń bezpośrednio od
+obywateli o obiektach mogących pełnić funkcję punktów schronienia. Komendant Główny PSP
+opracował dla komendantów wojewódzkich PSP sprawujących bezpośredni nadzór nad
+działaniami realizowanymi przez komendy powiatowe (miejskie) PSP szczegółowe wytyczne
+do sposobu typowania kolejnych obiektów z przeznaczeniem do ujęcia ich w aplikacji „Gdzie
+się ukryć”. Takie podejście do wymagań stawianych punktom schronienia sprawia, że obiekty
+ujęte w aplikacji „Gdzie się ukryć” powinny zapewnić realną ochronę w warunkach zagrożenia.
+W efekcie dotychczas zrealizowanych zadań przez jednostki PSP, w aplikacji „Gdzie się ukryć”
+zaewidencjonowanych zostało łącznie na terenie kraju 81 823 punktów schronienia.
+Pojemność zaewidencjonowanych obiektów oszacowano na 23 338 227, co odpowiada
+zapewnieniu w nich miejsca dla 62,80% liczby mieszkańców Polski, przy populacji wynoszącej
+37 162 988. Poniżej w tabeli przedstawiono szczegółowe dane na temat liczby obiektów oraz
+ich szacunkowej pojemności z podziałem na województwa wg stanu na dzień 2 marca 2026 r.
+
+
+
+
+Rysunek 2. GdzieSieUkryć.pl
+
+
+
+
+14
+Tabela 1. Liczba obiektów oraz ich szacunkowa pojemność z podziałem na województwa wg stanu na dzień
+2.03.2026 r.
+                                                                  Pojemność           % pojemności obiektów w
+ Województwo                 Populacja          Obiekty
+                                                                  (liczba osób)       stosunku do ludności
+
+ Dolnośląskie                       2 862 442             4 372           2 083 687                     72,79%
+ Kujawsko-Pomorskie                 1 963 186             3 864             641 093                     32,66%
+ Lubelskie                          1 952 227             3 718           1 342 426                     68,76%
+ Lubuskie                            963 317              4 248             407 853                     42,34%
+ Łódzkie                            2 300 086             5 432           1 107 206                     48,14%
+ Małopolskie                        3 425 827             5 834           2 117 018                     61,80%
+ Mazowieckie                        5 440 714         12 566              6 452 535                    118,60%
+ Opolskie                            919 653              2 564             366 521                     39,85%
+ Podkarpackie                       2 047 950             2 479             646 598                     31,57%
+ Podlaskie                          1 118 763             3 700             542 891                     48,53%
+ Pomorskie                          2 344 208             3 166           1 311 242                     55,94%
+ Śląskie                            4 271 949             8 080           1 719 398                     40,25%
+ Świętokrzyskie                     1 132 619             2 708             639 591                     56,47%
+ Warmińsko-Mazurskie                1 343 915             7 274             713 832                     53,12%
+ Wielkopolskie                      3 458 714             6 903           2 422 786                     70,05%
+ Zachodniopomorskie                 1 617 418             4 915             823 550                     50,92%
+ RAZEM                             37 162 988         81 823             23 338 227                     62,80%
+Źródło: KGPSP.
+
+
+Wykresy 1. I 2. Rozkład populacji i liczby obiektów w stosunku do ludności w rozdziale na
+województwa.
+
+
+
+
+                                                                                                                15
+Wykresy 3. i 4. Rozkład pojemności obiektów (liczba osób) oraz % pojemności obiektów w
+stosunku do ludności w rozdziale na województwa.
+
+
+
+
+Baza punktów schronienia jest sukcesywnie rozbudowywana o kolejne obiekty, weryfikowane
+przez funkcjonariuszy PSP. W dalszej perspektywie przewiduje się możliwość zasilenia systemu
+danymi z Centralnej Ewidencji Obiektów Zbiorowej Ochrony, przy zachowaniu procedur
+bezpieczeństwa wynikających z przepisów o ochronie informacji niejawnych.
+Nawiązując do tematyki Centralnej Ewidencji Obiektów Zbiorowej Ochrony, należy
+wspomnieć o kolejnym z ustawowych zadań w zakresie budownictwa ochronnego,
+realizowanym przez Komendę Główną PSP, a mianowicie o utworzeniu systemu Centralnej
+Ewidencji Obiektów Zbiorowej Ochrony (dalej: CEOZO). Działając na podstawie art. 108 i 201
+ustawy o ochronie ludności i obronie cywilnej, Komenda Główna PSP uruchomiła w dniu 31
+grudnia 2025 r. system CEOZO w zakresie techniczno-deweloperskim. Zgłaszanie obiektów do
+systemu ma się odbywać za pośrednictwem komend powiatowych (miejskich) PSP.
+Wojewodowie realizowali zadania z zakresu budownictwa ochronnego, wynikające
+z przepisów ustawy o ochronie ludności i obronie cywilnej. Kluczowe działania skupiły się
+w szczególności na planowaniu, ewidencjonowaniu i wstępnym przygotowaniu obiektów
+budowlanych, tj. budowli ochronnych i miejsc doraźnego schronienia, na dalsze działania
+związane z ich przystosowaniem do ochrony mieszkańców w latach następnych. Zgłoszone
+przez jednostki samorządu terytorialnego zadania dotyczyły finansowania, przede wszystkim
+wykonania ekspertyz technicznych przebudowy budowli ochronnych, usług wykonania
+nadzoru inwestorskiego, sporządzenia dokumentacji projektowych budowli ochronnych i ich
+infrastruktury, sporządzenia programów funkcjonalno-użytkowych czy dokonania oceny stanu
+
+
+
+16
+technicznego obiektów budowlanych i instalacji jako miejsc doraźnego schronienia czy
+ukrycia.
+
+
+Rysunek 3. Centralna Ewidencja Obiektów Zbiorowej Ochrony (CEOZO)
+
+
+
+
+                                                                                 17
+Tabela 2. Zestawienie zadań z zakresu budownictwa ochronnego
+
+                                                             Liczba
+                                 Liczba przedsięwzięć                      Liczba przedsięwzięć
+             Województwo                                 przedsięwzięć
+                                   dotyczących MDS                         w zakresie schronów
+                                                        w zakresie ukryć
+
+ Dolnośląskie                                   2096                 122                    182
+
+ Kujawsko-Pomorskie                               26                   0                      4
+
+ Lubelskie                                       226                  49                      8
+
+ Lubuskie                                       2140                 234                      9
+
+ Łódzkie                                         346                   0                    400
+
+ Małopolskie                                       0                   0                      0
+
+ Mazowieckie                                      28                   2                      3
+
+ Opolskie                                        288                   2                      8
+
+ Podkarpackie                                   1149                  27                      5
+
+ Podlaskie                                        25                   0                      0
+
+ Pomorskie                                         8                   2                      1
+
+ Śląskie                                           6                   0                      1
+
+ Świętokrzyskie                                    0                   0                      0
+
+ Warmińsko-Mazurskie                               0                   1                      0
+
+ Wielkopolskie                                    55                  43                      3
+
+ Zachodniopomorskie                             1220                 145                     37
+
+ RAZEM                                          7613                 627                    661
+Źródło: MSWiA.
+Na terenie kraju przeprowadzono 7 613 przedsięwzięć w zakresie miejsc doraźnego
+schronienia i 627 przedsięwzięć w zakresie ukryć. Dodatkowo w 2025 r. przeprowadzono 661
+przedsięwzięć w zakresie powstania schronów, przede wszystkim wykonania ekspertyz
+technicznych, sporządzenia dokumentacji projektowych budowli ochronnych i ich
+infrastruktury.
+Jednym z beneficjentów dotacji celowych w tym obszarze były ochotnicze straże pożarne, czyli
+kluczowy podmiot ochrony ludności funkcjonujący w systemie ochrony ludności i obrony
+cywilnej. Wydatki poniesione na rzecz OSP w tym zakresie wyniosły w 2025 r. łącznie
+690 000,00 zł.
+Realizacja zadań w 2025 r. stworzyła podstawy do kontynuacji oraz rozszerzenia działań
+w kolejnych latach obowiązywania Programu Ochrony Ludności i Obrony Cywilnej,
+w szczególności w zakresie modernizacji, rozbudowy oraz zwiększania dostępności
+infrastruktury ochronnej dla ludności.
+
+
+
+18
+Jako priorytety wskazano budowę, przebudowę lub modernizację budowli ochronnych,
+wytypowanych do realizacji i zakończenia w 2026 roku, a także zapewnienie funkcjonalności
+miejsc doraźnego schronienia. Dodatkowo Ministerstwo Spraw Wewnętrznych i Administracji
+podjęło działania legislacyjne w zakresie umożliwienia organom ochrony ludności realizacji
+inwestycji budowlanych wieloletnich przez wprowadzenie do przyszłego Programu Ochrony
+Ludności i Obrony Cywilnej limitów inwestycyjnych na inwestycje budowlane wieloletnie.
+
+2.2. Zadania z zakresu zabezpieczenia logistycznego i zapewnienie
+     ciągłości dostaw
+Ustawa o ochronie ludności i obronie cywilnej nałożyła na organy ochrony ludności (między
+innymi na prezydentów miast na prawach powiatu, burmistrzów, wójtów) obowiązek
+zabezpieczenia logistycznego i zapewnienia ciągłości dostaw. Sprawnie funkcjonujący system
+logistyczny gwarantuje dostęp do żywności, wody, leków oraz innych niezbędnych zasobów,
+co w sytuacji kryzysowej ma kluczowe znaczenie dla ochrony życia i zdrowia ludzkiego.
+Zachowanie ciągłości dostaw pozwala również na utrzymanie stabilności społecznej oraz
+zapewnia możliwość skutecznego działania administracji publicznej. Zadania w omawianym
+zakresie były realizowane w roku 2025 w trzech aspektach:
+   1) uzupełnienie zasobów i infrastruktury niezbędnej do realizacji zadań ochrony ludności
+      i obrony cywilnej,
+   2) zapewnienie ciągłości dostaw podstawowych usług,
+   3) utworzenie systemu Centralnej Ewidencji Zasobów Ochrony Ludności i Obrony
+      Cywilnej.
+Ustawowe zadania realizowane przez organy ochrony ludności w tym zakresie były skupione
+na budowie i modernizacji magazynów oraz doposażeniu baz magazynowych w sprzęt
+niezbędny do realizacji zadań w sytuacjach kryzysowych, katastrof, zdarzeń masowych,
+wielkoobszarowych, gwałtownych zjawisk atmosferycznych, zagrożeń bronią masowego
+rażenia oraz w czasie wojny. Szczegółowe zestawienie przedsięwzięć w tym zakresie
+w poszczególnych województwach zaprezentowano poniżej.
+
+
+
+
+                                                                                        19
+Wykres 5. i 6. Liczba powstałych/zmodernizowanych/wyremontowanych magazynów oraz
+liczba przedsięwzięć w zakresie wyposażenia baz magazynowych.
+
+
+
+
+Źródło: MSWiA.
+W ramach działań wojewodów oraz organów samorządu terytorialnego, łączna liczba
+powstałych/zmodernizowanych/wyremontowanych magazynów wyniosła 1 159. Ponadto,
+wskazane organy przeprowadziły łącznie 17 312 przedsięwzięć w zakresie wyposażenia baz
+magazynowych w całej Polsce.
+Równolegle realizowano zadania ukierunkowane na wzmacnianie zabezpieczenia
+logistycznego podmiotów leczniczych, obejmujące inwestycje w zasoby szpitalne oraz
+działania przygotowujące obiekty do funkcjonowania w warunkach ograniczonej dostępności
+
+
+20
+mediów. Takich inwestycji z zakresu ochrony ludności i obrony cywilnej w zasoby szpitalne
+zrealizowano 1 382.
+Najczęstszymi zakupami realizowanymi przez jednostki samorządu terytorialnego były zasoby
+takie jak: motopompy, nagrzewnice, pompy szlamowe, mobilne maszty oświetleniowe,
+paleciaki, wózki widłowe, pontony ratownicze. Jednostki zdecydowały o uzupełnieniu baz
+magazynowych m.in. o worki przeciwpowodziowe, namioty ratunkowe, zapory
+przeciwpowodziowe, łopaty, plandeki, geowłókninę, łóżka polowe, przecinarki, osuszacze,
+kuchnie polowe.
+Kolejnym elementem zadaniowym realizowanym w omawianym zakresie były działania
+zmierzające do zwiększenia autonomii energetycznej wybranych obiektów, w tym
+dostosowywanie budynków do możliwości samodzielnego funkcjonowania w przypadku
+przerw w dostawach energii. Łącznie w 2025 roku wojewodowie wykazali 3 286 budynków
+dostosowanych do uzyskania autonomii energetycznej (tworzenie tzw. punktów
+bezpieczeństwa). W ramach zadań zabezpieczenia w energię elektryczną organy ochrony
+ludności wyposażały magazyny w agregaty prądotwórcze, zbiorniki na paliwo stałe, zestawy
+łączności satelitarnej, telefony satelitarne, radiotelefony.
+
+
+Rysunek 4. Wzmocnienie zaplecza logistycznego i infrastruktury
+
+
+
+
+Uzupełnieniem tych działań były przedsięwzięcia z zakresu zabezpieczenia dostępu do wody,
+obejmujące m.in. modernizację ujęć wody, przygotowanie alternatywnych źródeł
+
+                                                                                      21
+zaopatrzenia oraz rozwój rozwiązań umożliwiających dystrybucję wody na potrzeby ludności.
+W 2025 roku łącznie zrealizowano 2 748 tego typu przedsięwzięć. W ramach zadań
+zabezpieczenia dostępu do wody zakupiono cysterny do przewozu wody, beczkowozy, drobne
+narzędzia ułatwiające reagowanie na zdarzenia kryzysowe, np. filtry do wody pitnej, przyczepy
+z atestowanymi beczkami na wodę pitną, zbiorniki na wodę, mobilne stacje uzdatniania wody.
+
+Zdjęcie 1. Nowe zbiorniki na wodę pitną na terenie woj. podkarpackiego.
+
+
+
+
+Źródło: MSWiA.
+Jednostki samorządowe dokonywały również zakupu ciągników, quadów z przyczepami,
+dronów, koparko-ładowarek, minikoparek czy ambulansów. Dodatkowo jednostki zostały
+zaopatrzone w dodatkowe elementy takie jak: zakup racji żywnościowych, hełmy, kamizelki,
+kamizelki kuloodporne, taczki, powerbanki, maseczki, koce, rękawice, defibrylatory,
+kombinezony, latarki, zestawy ratownicze, megafony, maski, megafony, pojemniki na paliwo.
+Beneficjentem (pośrednim i bezpośrednim) znacznej części dotacji celowych w tym obszarze
+były ochotnicze straże pożarne. Wydatki poniesione na rzecz ochotniczych straży pożarnych
+w tym zakresie wyniosły w 2025 r. łącznie 141 478 273,03 zł.
+Zadania w zakresie zabezpieczenia logistycznego i zapewnienie ciągłości dostaw realizuje
+także Rządowa Agencja Rezerw Strategicznych. Zgodnie z art. 3 ustawy z dnia 17 grudnia 2020
+r. o rezerwach strategicznych (Dz. U. z 2024 r. poz. 1598, z późn. zm.), rezerwy strategiczne
+tworzy się m.in. w celu wsparcia wykonywania zadań w zakresie ochrony ludności i obrony
+cywilnej. W konsekwencji realizacja obowiązującego Rządowego Programu Rezerw
+Strategicznych na lata 2022–2026 wpisuje się w realizację zadań związanych z potrzebami
+
+22
+ochrony ludności i obrony cywilnej. Struktura zadaniowo-finansowa w zakresie tworzenia oraz
+odtworzenia rezerw i ich utrzymania prezentuje się w następujący sposób:
+       rezerwy medyczne – 55 057 210 zł,
+       rezerwy żywnościowe – 275 335 954 zł,
+       rezerwy techniczne – 69 560 565 zł,
+       rezerwy surowców i produktów naftowych – 59 402 048 zł,
+       logistyka i ubezpieczenie – 3 504 890 zł.
+
+Rysunek 5. Zabezpieczenie logistyczne
+
+
+
+
+                                                                                        23
+Rysunek 6. Rezerwy strategiczne
+
+
+
+
+Ostatnim z zakresów zadaniowych tego obszaru było utworzenie i uruchomienie Ewidencji
+Zasobów Ochrony Ludności i Obrony Cywilnej. Zgodnie z art. 200 ustawy o ochronie ludności
+i obronie cywilnej, działając na podstawie upoważnienia Ministra Spraw Wewnętrznych
+i Administracji z dnia 18 lutego 2025 r. Komenda Główna PSP realizowała w 2025 r. zadanie
+związane z uruchomieniem Centralnej Ewidencji Zasobów Ochrony Ludności i Obrony
+Cywilnej. W dniu 31 grudnia 2025 r. system CEZOL został uruchomiony w zakresie techniczno-
+deweloperskim. Ze względu na konieczność zapewnienia odpowiedniego okresu wdrożenia
+tego systemu, a także organizacji szkoleń dla osób wyznaczonych do jego obsługi zakłada się
+osiągnięcie pełnej gotowości operacyjnej systemu w terminie do dnia 30 czerwca 2026 roku.
+Do momentu osiągnięcia przez system pełnej gotowości operacyjnej ewidencja zasobów
+odbywa się przez sporządzanie przez wojewodów sprawozdań rzeczowych ze zrealizowanych
+inwestycji i zakupów inwestycyjnych, które na koniec 2025 roku wynoszą ponad 47 tys. pozycji
+rzeczowych.
+Realizacja zadań w obszarze zabezpieczenia logistycznego i zapewnienia ciągłości dostaw
+w 2025 roku miała charakter etapowy i obejmowała zarówno inwestycje infrastrukturalne, jak
+i przedsięwzięcia modernizacyjne oraz organizacyjne, zgodnie z katalogiem działań
+określonym w wytycznych Ministerstwa Spraw Wewnętrznych i Administracji.
+Podjęte działania stworzyły podstawy do dalszego rozwijania oraz integracji systemu
+zabezpieczenia logistycznego w 2026 roku, w tym do rozszerzenia skali inwestycji, dalszego
+doposażania baz magazynowych, wzmacniania odporności zasobów medycznych oraz
+
+
+
+
+24
+zwiększania autonomii energetycznej i wodnej obiektów istotnych dla ochrony ludności
+w całym kraju.
+
+2.3. Zadania z zakresu utrzymania i rozwoju podmiotów ochrony
+     ludności i organizacji pozarządowych
+Obszar zadaniowy w zakresie utrzymania i rozwoju podmiotów ochrony ludności oraz
+organizacji pozarządowych stanowi kolejny istotny element budowy systemu ochrony
+ludności i obrony cywilnej, koncentrując się na kształtowaniu sieci współpracy oraz
+wzmacnianiu potencjału podmiotów zaangażowanych w realizację zadań ustawowych. Służby
+ratownicze, formacje, podmioty lecznicze oraz inne instytucje, które z punktu widzenia organu
+ochrony ludności będą potrzebne w realizacji systemu ochrony ludności na danym terenie,
+stanowią fundament sprawnego i skutecznego systemu bezpieczeństwa. Ich działania mogą
+obejmować m.in. organizację ewakuacji, zapewnienie schronienia, zabezpieczenie logistyczne,
+udzielanie pomocy medycznej, informowanie ludności oraz koordynowanie działań
+ratowniczych. Jasno określone kompetencje i odpowiedzialność poszczególnych podmiotów
+sprzyjają efektywnej współpracy. Skuteczny system ochrony ludności w dużej mierze zależy
+od właściwego przygotowania tych podmiotów, ich wyposażenia, wyszkolenia oraz zdolności
+do współdziałania.
+Realizacja zadań ustawowych z zakresu utrzymania i rozwoju podmiotów ochrony ludności
+i organizacji pozarządowych odbywa się w następujących blokach tematycznych:
+   1) wyposażenie ratowników i podmiotów ochrony ludności,
+   2) zapewnienie sprzętu do działań ratowniczych i ewakuacji,
+   3) zapewnienie sprzętu logistycznego oraz CBRN,
+   4) utrzymanie wyposażenia,
+   5) realizacja zadań z zakresu ratownictwa medycznego.
+
+Wyżej wymienione zadania były realizowane w dużej mierze przez jednostki PSP. W ramach
+wyposażenia ratowników i podmiotów ochrony ludności zakupiono 1 932 kompletów
+umundurowania specjalnego oraz wyposażenia osobistego, tj. niemal 20 tys. jednostek
+sprzętowych. Zakupy obejmowały m.in. ubrania specjalne, hełmy strażackie, rękawice, buty,
+kominiarki, latarki przeciwwybuchowe oraz odzież roboczą i treningową. Dodatkowo
+wyposażono ratowników i personel w środki ochrony indywidualnej przewidziane do działań
+z zakresu obrony cywilnej, przez zakup 47 tarcz balistycznych i 1 805 kompletów rezerwy
+wyposażenia ratownika, tj. ponad 10 tys. jednostek sprzętowych.
+
+
+
+
+                                                                                          25
+Rysunek 7. Modernizacja wyposażenia PSP
+
+
+
+
+Kolejnym realizowanym zakresem zadaniowym było zapewnienie sprzętu do działań
+ratowniczych oraz ewakuacji. W ramach tego bloku zakupiono 737 szt. różnorodnego sprzętu
+przeznaczonego do działań ratowniczych i ewakuacyjnych. Zakupy obejmowały m.in.:
+        średnie i ciężkie samochody ratowniczo-gaśnicze – 94 szt.,
+        samochody ratownictwa technicznego z żurawiem – 10 szt.,
+        samochód ratownictwa chemicznego – 1 szt.,
+        ładowarki teleskopowe z lawetami – 6 szt.,
+        pojazdy UTV z przyczepami i akcesoriami – 60 szt.,
+        łodzie ratownicze z silnikami – 35 szt.,
+        zestawy hydrauliczne (spalinowe i elektryczne) – 144 szt.,
+        mikrobusy do ewakuacji osób – 69 szt.,
+        samochody kwatermistrzowskie i typu pickup – 150 szt.,
+        pojazdy ewakuacji medycznej – 6 szt.,
+        zestawy ratownictwa medycznego – 64 szt.
+
+
+
+
+26
+Rysunek 8. Zakupy sprzętu i pojazdów
+
+
+
+
+Zdjęcie 2. Samobieżna wielofunkcyjna maszyna inżynieryjna
+
+
+
+
+Źródło: Akademia Pożarnicza.
+W ramach realizacji bloku zadaniowego polegającego na zapewnieniu sprzętu logistycznego
+oraz CBRN jednostki PSP realizowały zakupy w ilości 148 szt. sprzętu, tj.:
+       zbiorniki na paliwo z dystrybutorem – 123 szt.,
+       przyczepy i kontenery do dekontaminacji – 15 szt.,
+       kontenery sanitarne i mieszkalne – 3 szt.,
+       przyczepy do dowożenia wody – 1 szt.,
+
+
+                                                                                    27
+        nośniki kontenerowe z przyczepami – 6 szt.
+
+Zdjęcie 3. Budowa modułu rescEU CBRN, w tym zakup sprzętu i wyposażenia – wózki widłowe plus osprzęt do
+wózków widłowych
+
+
+
+
+Źródło: Akademia Pożarnicza.
+Państwowa Straż Pożarna, realizując opisane zadania, w znacznym stopniu osiągnęła
+zakładane cele rzeczowe i jakościowe na 2025 rok. Dalsze działania w 2026 roku pozwolą na
+pełną realizację założonych zadań oraz utrzymanie wysokiego potencjału ratowniczego
+i logistycznego PSP.
+Ustawa o ochronie ludności i obronie cywilnej dała organom ochrony ludności narzędzia
+prawne do prowadzenia działań zmierzających do systemowego włączania podmiotów do
+struktury ochrony ludności, w szczególności przez formalizowanie współpracy w drodze
+porozumień oraz wydawanie decyzji o uznaniu za podmioty ochrony ludności. W konsekwencji
+wiąże się to z zapewnieniem rozwoju zdolności organizacyjnych i wykonawczych tych
+podmiotów, obejmującym wsparcie organizacyjne i finansowe. Zgodnie z art. 19
+sprawozdawanej ustawy, w celu zapewnienia wykonania zadań ochrony ludności lub obrony
+cywilnej, organy ochrony ludności mogą zawierać porozumienia o wykonywaniu zadań
+ochrony ludności lub obrony cywilnej. W 2025 roku zawarto łącznie 960 takich porozumień
+z podmiotami ochrony ludności. Z kolei, na mocy art. 20 sprawozdawanej ustawy, jeżeli jest
+to uzasadnione koniecznością zapewnienia wykonania zadań ochrony ludności lub obrony
+cywilnej, organy ochrony ludności mogą uznać wskazane w ustawie podmioty za podmioty
+ochrony ludności, w drodze decyzji administracyjnej. W 2025 roku organy ochrony ludności
+wydały łącznie 823 decyzji w przedmiotowym zakresie.
+
+
+
+28
+Znaczącą rolę w realizacji zadań z zakresu ochrony ludności i obrony cywilnej odgrywa
+współpraca z organizacjami pozarządowymi, których udział w systemie ochrony ludności był
+wzmacniany przez zawieranie umów dotacyjnych. Umowy te obejmowały zarówno
+zapewnienie bieżącego funkcjonowania, jak i rozwój kompetencji oraz zaplecza
+organizacyjnego podmiotów działających na rzecz bezpieczeństwa ludności, w tym także
+podmiotów realizujących zadania z zakresu ratownictwa wodnego oraz górskiego.
+Wojewodowie i organy samorządu terytorialnego w ramach realizacji zadań w omawianym
+zakresie zawarli 556 umów dotacyjnych z podmiotami ochrony ludności na łączną kwotę
+356 745 126,80 zł, z czego wykonanie w 2025 r. wyniosło 310 497 920,30 zł, co stanowi 87%
+środków zaangażowanych na ten cel.
+
+
+Rysunek 9. Wsparcie Jednostek OSP
+
+
+
+
+W ramach omawianego w niniejszym rozdziale zakresu zadaniowego, realizowane są także
+zadania z zakresu ratownictwa medycznego, w szczególności obejmujące działalność
+lotniczych zespołów ratownictwa medycznego. Również środki finansowe wskazane w art. 155
+ust. 2 pkt 2 ustawy o ochronie ludności i obronie cywilnej składają się na pulę środków
+przeznaczonych na finansowanie zadań z zakresu ochrony ludności i obrony cywilnej.
+Środki przekazane w 2025 roku na realizację zadań, o których mowa w art. 48 ust. 1 ustawy
+z dnia 8 września 2006 r. o Państwowym Ratownictwie Medycznym (Dz. U. z 2026 r. poz. 141)
+wyniosły 304 992 000 zł. W ramach powyższego realizowane były loty ratunkowe do zdarzeń
+oraz lotnicze transporty sanitarne pomiędzy szpitalami. Liczba wylotów lotniczych zespołów
+ratownictwa medycznego w 2025 r. wyniosła 11 257, z kolei liczba wylotów lotniczych
+zespołów transportu sanitarnego w 2025 r. wyniosła 1 644. Od 1 stycznia 2023 roku
+
+
+                                                                                       29
+świadczenia zdrowotne udzielane przez zespoły ratownictwa medycznego finansowane są
+natomiast z budżetu Narodowego Funduszu Zdrowia. W 2025 roku warunki finansowe na ten
+rodzaj świadczeń zostały ustalone na poziomie 4 849 656 266,57 zł.
+
+Tabela 3. Podział ww. środków finansowych na województwa
+                    Oddział Wojewódzki NFZ                 Wartość umów
+         Dolnośląski                                              333 148 699,52 zł
+         Kujawsko-Pomorski                                        288 926 668,32 zł
+         Lubelski                                                 287 327 478,18 zł
+         Lubuski                                                  163 883 642,56 zł
+         Łódzki                                                   315 073 568,58 zł
+         Małopolski                                               374 263 963,95 zł
+         Mazowiecki                                               642 829 534,50 zł
+         Opolski                                                  136 537 629,92 zł
+         Podkarpacki                                              289 433 677,21 zł
+         Podlaski                                                 182 114 495,40 zł
+         Pomorski                                                 291 575 817,19 zł
+         Śląski                                                   504 916 644,60 zł
+         Świętokrzyski                                            144 175 505,76 zł
+         Warmińsko-Mazurski                                       243 426 789,76 zł
+         Wielkopolski                                             395 092 727,58 zł
+         Zachodniopomorski                                        256 929 423,54 zł
+         ŁĄCZNIE                                                4 849 656 266,57 zł
+
+
+Zespoły ratownictwa medycznego w 2025 roku wykonały łącznie 3 295 393 wyjazdów do
+zdarzeń, gdzie potrzebna była pomoc pacjentom w stanie nagłego zagrożenia zdrowotnego.
+Na koniec roku funkcjonowało łącznie 1 711 zespołów ratownictwa medycznego.
+Efektem realizacji wszystkich powyżej opisanych zadań w omawianym obszarze było
+stworzenie warunków do dalszego rozwoju i konsolidacji sieci podmiotów ochrony ludności
+i organizacji pozarządowych w kraju.
+
+2.4. Zadania z zakresu edukacji i szkoleń
+Kluczowym obowiązkiem ustawowym w zakresie edukacji i szkoleń jest organizacja szkoleń
+kadry z zakresu ochrony ludności i obrony cywilnej. Istotną rolę w tym zakresie odgrywa
+Akademia Pożarnicza, która prowadzi szkolenia z zakresu ochrony ludności i obrony cywilnej
+dla ministrów, sekretarzy stanu i podsekretarzy stanu, kierowników urzędów centralnych oraz
+wojewodów, marszałków województw i starostów.
+Akademia Pożarnicza w 2025 roku na podstawie art. 50 ust. 1 ustawy o ochronie ludności
+i obronie cywilnej przeprowadziła szkolenie z zakresu ochrony ludności i obrony cywilnej dla
+
+
+30
+450 osób pełniących funkcje: ministrów, sekretarzy stanu i podsekretarzy stanu, kierowników
+urzędów centralnych oraz wojewodów, marszałków województw i starostów, w tym:
+      szkolenia z zakresu ochrony ludności i obrony cywilnej dla ministrów, sekretarzy stanu
+       i podsekretarzy stanu, kierowników urzędów centralnych w formie wyższych Kursów
+       Ochrony Ludności (WKOL-C) – razem 40 osób,
+      szkolenia z zakresu ochrony ludności i obrony cywilnej dla wojewodów i marszałków
+       województw w formie wyższych Kursów Ochrony Ludności (WKOL-W) – razem 32
+       osoby,
+      szkolenia z zakresu ochrony ludności i obrony cywilnej dla osób pełniących funkcję
+       starosty w formie wyższych Kursów Ochrony Ludności (WKOL-P) – razem 378 osób.
+Równocześnie Akademia Pożarnicza w okresie od października do grudnia 2025 roku
+przeprowadziła szkolenia z zakresu ochrony ludności i obrony cywilnej dla:
+  1) komendantów wojewódzkich PSP – razem 16 osób,
+  2) komendantów powiatowych (miejskich) PSP – razem 335 osób,
+  3) kadry wojewódzkich wydziałów zarządzania kryzysowego w urzędach obsługujących
+     wojewodów jako organy ochrony ludności i obrony cywilnej – razem 30 osób.
+Zakres tematyczny przedmiotowych szkoleń dla kadry kierowniczej PSP to:
+  1) uwarunkowania ochrony ludności i obrony cywilnej w Polsce, w tym zagrożenia
+     społeczności lokalnej,
+  2) podmiot ochrony ludności w systemie ochrony ludności i obrony cywilnej – rola,
+     funkcje, zadania i sposoby ich realizacji,
+  3) funkcjonowanie podmiotu ochrony ludności w stanach nadzwyczajnych oraz w czasie
+     wojny,
+  4) przygotowanie i planowanie w ochronie ludności i obronie cywilnej, w tym planowanie
+     ciągłości działania,
+  5) współpraca, wsparcie i współdziałanie w ochronie ludności i obronie cywilnej,
+  6) wykrywanie zagrożeń, powiadamianie, ostrzeganie i alarmowanie. Komunikacja
+     kryzysowa i komunikacja ryzyka,
+  7) działania pomocowe w warunkach obrony cywilnej,
+  8) pierwsza pomoc przedmedyczna,
+  9) ewakuacja oraz środki indywidualnej i zbiorowej ochrony.
+Szkolenia z zakresu ochrony ludności i obrony cywilnej dla komendantów powiatowych
+(miejskich) PSP realizowane są w oparciu o załącznik nr 7 do rozporządzenia Ministra Spraw
+Wewnętrznych i Administracji z dnia 6 lutego 2025 r. w sprawie programów szkoleń z zakresu
+ochrony ludności i obrony cywilnej oraz wymagań dla podmiotów prowadzących szkolenia (Dz.
+U. poz. 162).
+
+
+                                                                                          31
+Poza szkoleniami z zakresu ochrony ludności i obrony cywilnej, o których mowa w art.50 ust.
+1 ustawy o ochronie ludności i obronie cywilnej, oraz szkoleniami dla komendantów
+wojewódzkich oraz powiatowych (miejskich) PSP w okresie od lipca do grudnia 2025 roku
+Akademia Pożarnicza przeprowadziła kilkanaście edycji szkoleń dla:
+         1) kadry urzędów obsługujących organy ochrony ludności,
+         2) kadry innych urzędów,
+         3) pracowników podmiotów ochrony ludności.
+Liczba przeszkolonych osób w ramach tych szkoleń to 566 osób.
+Łącznie Akademia Pożarnicza w 2025 roku w ramach szkoleń z zakresu ochrony ludności
+i obrony cywilnej przeszkoliła 1 397 osób.
+Akademia Pożarnicza realizuje również zadanie ustawowe polegające na weryfikacji
+podmiotów prowadzących szkolenia z zakresu ochrony ludności i obrony cywilnej. Prawne
+podstawy procesu weryfikacji osób fizycznych, osób prawnych lub jednostek organizacyjnych
+nieposiadających osobowości prawnej określone zostały, zarówno w art. 50 ust. 3 i 4 ustawy
+o ochronie ludności i obronie cywilnej, jak również w § 11 ust. 2 rozporządzenia Ministra Spraw
+Wewnętrznych i Administracji z dnia 6 lutego 2025 roku w sprawie programów szkoleń
+z zakresu ochrony ludności i obrony cywilnej oraz wymagań dla podmiotów prowadzących
+szkolenia. W celu zapewnienia jednolitości i odpowiedniego poziomu szkoleń z zakresu
+ochrony ludności i obrony cywilnej na obszarze całego kraju, wszystkie podmioty prowadzące
+szkolenia, o których mowa w art. 50 ust. 2 ustawy o ochronie ludności i obronie cywilnej,
+muszą spełniać wymagania dla podmiotów prowadzących szkolenia. Wykaz podmiotów –
+osób fizycznych, osób prawnych, jednostek organizacyjnych nieposiadających osobowości
+prawnej, które uzyskały informację o pozytywnym wyniku weryfikacji jest dostępny na stronie
+uczelni.
+W odniesieniu do 139 złożonych wniosków, szczegółowe dane statystyczne prezentują się
+następująco:
+        zakończone oceną pozytywną: 77,
+        zakończone oceną negatywną: 19,
+        wnioski pozostawione bez rozpatrzenia: 12 (np. złożone przez podmioty, które nie
+         muszą się weryfikować, np. uczelnie),
+        wnioski pozostawione bez ponownego rozpatrzenia: 3 (wnioski podmiotów, które
+         uzyskały weryfikację i złożyły ponownie o weryfikację),
+        wnioski, których procedowanie       zostało   wstrzymane     z   uwagi   na   prośbę
+         wnioskodawców: 5,
+        wnioski w dalszym ciągu rozpatrywane: 23 (wnioskodawcy zostali poinformowani
+         o konieczności uzupełnienia braków formalnych, oczekiwanie na uzupełnienie
+         dokumentacji umożliwiającej wydanie oceny).
+
+
+32
+Podsumowując, liczba wniosków zamkniętych w 2025 roku wyniosła 116.
+W 2025 roku zostało opracowane narzędzie informatyczne, które w 2026 roku służy do
+usprawnienia procesu weryfikacji osób fizycznych, osób prawnych, jednostek organizacyjnych
+nieposiadających osobowości prawnej, dokonywanej przez Akademię.
+Organizacja szkoleń oraz przedsięwzięć promocyjnych odgrywa istotną rolę w systemie
+ochrony ludności. Podnoszenie świadomości społecznej oraz rozwijanie praktycznych
+umiejętności w zakresie reagowania na zagrożenia bezpośrednio przekłada się na poziom
+bezpieczeństwa mieszkańców. Odpowiednio przygotowana społeczność potrafi szybciej
+i skutecznej reagować w obliczu zagrożenia. Należy również wspomnieć o kolejnym zadaniu
+zrealizowanym przez Akademię Pożarniczą, a mianowicie budowie platformy szkoleniowej
+z zakresu ochrony ludności i obrony cywilnej dla ludności cywilnej. Uruchomienie szkolenia
+zostało zaplanowane na 2026 rok, a jego odbiorcami będzie ogół obywateli. Zasoby sprzętowe
+uwzględniają udział w szkoleniu minimum 2 milionów osób w skali roku.
+
+
+Zdjęcie 4. Widok roboczy platformy szkoleniowej dla obywateli
+
+
+
+
+Inwestycja w kompetencje kadry i funkcjonariuszy Akademii Pożarniczej przekłada się
+bezpośrednio na zwiększenie skuteczności i szybkości reagowania w obliczu zagrożeń. Stąd też
+niezwykle ważnym aspektem działania Akademii w tym zakresie były:
+       szkolenie dla operatorów/pilotów bezzałogowych statków powietrznych – 23 osoby,
+       szkolenia dla operatorów specjalistycznych maszyn/urządzeń – 21 osób,
+       szkolenia dla kierowców kategorii C, D, E – 17 osób.
+Dodatkowo Akademia wydała liczne publikacje z zakresu organizacji i zarządzania ochroną
+ludności i obroną cywilną, m.in. materiały edukacyjne, książki, wydawnictwa elektroniczne
+i normy, przeprowadziła szereg prac naukowo-badawczych w dziedzinie ochrony ludności oraz
+zrealizowała inwestycje oraz zakupy inwestycyjne w zakresie utworzenia bazy i zaplecza
+poligonowego, infrastrukturalnego oraz edukacyjnego.
+
+
+                                                                                         33
+Zdjęcie 5. Publikacje z zakresu ochrony ludności i obrony cywilnej
+
+
+
+
+Źródło: Akademia Pożarnicza.
+
+
+Rysunek 10. Poradnik bezpieczeństwa w różnych językach
+
+
+
+
+Do ustawowych obowiązków organów ochrony ludności należy m.in. wzmacnianie
+świadomości zagrożeń i społecznej odporności na sytuacje zagrożeń, w tym zapewnienie
+popularyzowania wiedzy o bezpieczeństwie i ochronie ludności i obronie cywilnej wśród
+społeczeństwa czy przeciwdziałanie dezinformacji obniżającej społeczną odporność na
+obszarze kraju. Na szczeblu Ministra Spraw Wewnętrznych i Administracji zadania te były
+realizowane także przez:
+
+
+
+
+34
+  1)   opracowanie oraz dostarczenie do każdego gospodarstwa domowego Poradnika
+       Bezpieczeństwa,
+  2)   organizację szkoleń dla ludności w zakresie prawidłowego zachowania się w sytuacji
+       zagrożenia, przy współpracy z organizacjami pozarządowymi,
+  3)   szeroko zakrojoną kampanię informacyjną.
+W 2025 roku została utworzona strona internetowa dedykowana ochronie ludności i obronie
+cywilnej www.gov.pl/obrona-cywilna. Zrealizowano także kampanię informacyjną na temat
+sygnałów alarmowych, czy kampanię promocyjną Poradnika Bezpieczeństwa w Sejmie RP.
+Przygotowano także spot radiowy o dostępności Poradnika on-line, zlecono spoty telewizyjne
+poświęcone 8 zagadnieniom poruszanym w Poradniku (dezinformacja, zabezpieczenie domu
+ewakuacja, przygotowanie plecaka bezpieczeństwa, udzielanie pomocy innym, miejsca
+schronienia, syreny alarmowe, a także zabezpieczenie zwierząt) oraz przygotowaniu obywateli
+na wysyłkę Poradnika do gospodarstw domowych. Dodatkowo zorganizowano także
+kampanię informacyjną dotyczącą tematyki poruszanej w Poradniku w pociągach PKP Intercity
+w dniach 16–31 grudnia 2025 roku – łączny zasięg tej kampanii to 914 041 możliwych
+kontaktów z obywatelami.
+Wojewodowie oraz organy samorządu terytorialnego realizowali zadania z zakresu
+edukacyjno-szkoleniowego przez edukację społeczeństwa w zakresie umiejętności
+przetrwania w sytuacjach kryzysowych i promowanie bezpiecznych zachowań w sytuacji
+zagrożenia (w tym w aspekcie budowania odporności psychologicznej) oraz przez organizację
+szkoleń z zakresu szeroko pojętej ochrony ludności i obrony cywilnej.
+W ramach realizacji tych zadań ww. organy zorganizowały łącznie ponad 5 tys. szkoleń dla
+ponad 182 tys. osób, oraz zorganizowały ponad 9 tys. przedsięwzięć edukacyjno-
+informacyjnych.
+Jednym z podstawowych narzędzi w budowaniu odporności społecznej i przygotowaniu
+obywateli do reagowania w sytuacjach kryzysowych, opracowanych przez Ministerstwo Spraw
+Wewnętrznych i Administracji wraz z Ministerstwem Obrony Narodowej oraz Rządowym
+Centrum Bezpieczeństwa jest Poradnik Bezpieczeństwa. Jego treści merytoryczne zostały
+przygotowane przez pracowników administracji publicznej, przez przedstawicieli wojska,
+funkcjonariuszy służb, organizacje pozarządowe oraz ekspertów z poszczególnych obszarów
+merytorycznych. W prace nad treścią zaangażowanych było również ponad 100 ekspertów
+reprezentujących różne instytucje i środowiska eksperckie, co zapewniło interdyscyplinarne
+podejście do opracowania publikacji oraz uwzględnienie różnorodnych perspektyw
+i doświadczeń zawodowych. Poradnik Bezpieczeństwa został udostępniony w wersji cyfrowej
+w dniu 28 sierpnia 2025 r. na dedykowanej stronie internetowej www.gov.pl/poradnik-
+bezpieczenstwa. Temat Poradnika był szeroko obecny w mediach ogólnopolskich i lokalnych,
+co sprzyjało publicznej debacie i wymianie opinii w zakresie ochrony ludności. Dystrybucja
+drukowanej wersji Poradnika rozpoczęła się w grudniu 2025 r. i zakończyła się 31 stycznia
+
+
+
+                                                                                        35
+2026 r. Publikacja trafiła w sumie do 16 321 144 gospodarstw domowych w niewiele ponad
+miesiąc.
+Dodatkowo, z poziomu centralnego, zlecono Polskiemu Czerwonemu Krzyżowi realizację
+zadania publicznego z zakresu ochrony ludności i obrony cywilnej ukierunkowane na
+zwiększanie odporności społecznej przez przygotowanie obywateli do właściwego reagowania
+w sytuacjach zagrożeń. Liczba wyświetleń informacji nt. zadania w mediach
+społecznościowych wyniosła łącznie 9 833 829. W 2025 roku powszechne kursy
+przeprowadzono w 161 miejscowościach. Zakres merytoryczny zadania obejmował
+prowadzenie kursów w dwóch uzupełniających się obszarach:
+        Pierwsza Pomoc (PP) ukierunkowana na rozwój praktycznych kompetencji
+         ratunkowych – przeszkolono w tym zakresie łącznie 11 213 osób,
+        Pierwsza Pomoc Psychologiczna (PPP) ukierunkowana na przygotowanie uczestników
+         do wspierania osób w kryzysie emocjonalnym, z wykorzystaniem metody „Patrz,
+         Słuchaj, Połącz”, ćwiczeń praktycznych oraz technik aktywnego słuchania i uspokajania
+         – przeszkolono łącznie 1 323 osoby.
+Zadania w zakresie edukacyjno-szkoleniowym realizowała również Komenda Główna PSP,
+która m.in. nadzorowała realizację przez szkoły PSP inwestycji poligonowych
+i infrastrukturalnych czy przeprowadziła, w imieniu Ministra Spraw Wewnętrznych
+i Administracji, postępowanie przetargowe za zakup czujek tlenku węgla i dymu. W ramach
+wskazanego postępowania zakupiono 140 tys. autonomicznych czujek dymu i tlenku węgla dla
+najbardziej potrzebujących mieszkańców kraju.
+Istotną rolę w tym obszarze zadaniowym odegrał także podmiot ochrony ludności, jakim są
+jednostki OSP. Wydatki poniesione na rzecz OSP w zakresie edukacji i szkoleń wyniosły
+w 2025 r. 5 471 207,69 zł.
+Rolę podmiotu wspierającego organy ochrony ludności w organizacji zajęć pozaszkolnych oraz
+innych form edukacji (art. 57 ust. 3 ustawy) pełniło również Rządowe Centrum Bezpieczeństwa
+(dalej: RCB), realizujące zadania przez:
+        opracowywanie i upowszechnianie materiałów edukacyjnych z zakresu ochrony
+         ludności, w tym treści poradnikowych i informacyjnych kierowanych do obywateli,
+        wsparcie komunikacyjne działań edukacyjnych realizowanych przez organy i podmioty
+         ochrony ludności, w szczególności przez kanały informacyjne RCB,
+        udział w działaniach informacyjno-edukacyjnych skierowanych do różnych grup
+         odbiorców, mających na celu podnoszenie świadomości społecznej w zakresie
+         przygotowania na sytuacje kryzysowe,
+        bieżące komunikowanie zasad bezpieczeństwa w mediach tradycyjnych (prasa,
+         telewizja, radio) oraz cyfrowych (media społecznościowe).
+
+
+
+
+36
+Ważną rolę jako podmiotu wspierającego zadania administracji publicznej w zakresie
+edukacyjno-szkoleniowym odegrała także Krajowa Szkoła Administracji Publicznej, która
+zorganizowała w 2025 roku szkolenia z zakresu „Ochrona ludności i obrona cywilna”,
+przeprowadzone w formie 10 webinarów dla członków korpusu służby cywilnej, a realizowane
+w ramach Planu szkoleń centralnych na 2025 rok. Szkolenia te zostały przeprowadzone przy
+współpracy z Departamentem Ochrony Ludności i Zarządzania Kryzysowego MSWiA. Łącznie
+w szkoleniach udział wzięło 4 932 uczestników.
+
+2.5. Zadania z zakresu Systemu Bezpiecznej Łączności Państwowej
+     oraz alarmowania, ostrzegania i powiadamiania
+Do czasu wejścia w życie ustawy z dnia 5 grudnia 2024 r. o ochronie ludności i obronie cywilnej
+naczelne i centralne organy administracji publicznej, w tym administracja rządowa
+i samorządowa, nie posiadały zintegrowanego systemu łączności, zarówno jawnego, jak
+i niejawnego. Ustawa stworzyła ramy prawne do wprowadzenia Systemu Bezpiecznej
+Łączności Państwowej (SBŁP).
+SBŁP to wielowarstwowy system składający się ze zbioru zastępowalnych elementów
+powiązanych ze sobą relacjami w taki sposób, że stanowią one całość zdolną do zapewnienia
+bezpieczeństwa i odporności komunikacji na potrzeby realizacji zadań z zakresu
+bezpieczeństwa państwa, ochrony porządku publicznego, ratownictwa, ochrony ludności
+i obrony cywilnej oraz zarządzania kryzysowego.
+Poszczególne podsystemy, wchodzące w skład SBŁP, wskazane zostały w art. 74 ust. 5 ustawy
+OLiOC.
+SBŁP ma zapewnić zbudowanie interoperacyjności między systemami łączności i komunikacji
+administracji publicznej, służb podległych ministrowi właściwemu do spraw wewnętrznych
+oraz innymi wydzielonymi systemami łączności, w tym z systemami pozostającymi we
+właściwości Ministra Obrony Narodowej. Zapewni także możliwość przekazywania informacji
+o zagrożeniach między elementami systemu wykrywania zagrożeń, a także możliwość
+powiadamiania, ostrzegania i alarmowania ludności o zagrożeniach.
+Zgodnie z art. 74 ustawy o ochronie ludności i obronie cywilnej minister właściwy do spraw
+wewnętrznych organizuje i nadzoruje SBŁP w celu zapewnienia ciągłości i bezpieczeństwa
+funkcjonowania administracji państwowej oraz ochrony ludności i obrony cywilnej.
+Zgodnie z przyjętym przez Ministerstwo Spraw Wewnętrznych i Administracji kierunkiem
+działania, budowa SBŁP realizowana jest w oparciu o sieci i systemy teleinformatyczne
+posiadane lub wykorzystywane przez Ministerstwo Spraw Wewnętrznych i Administracji oraz
+służby i organy podległe lub nadzorowane przez ministra. Takie podejście jest w szczególności
+uzasadnione ekonomicznie z punktu widzenia ograniczenia kosztów finansowych, które
+w przypadku przyjęcia odmiennego rozwiązania wiązałoby się z koniecznością ponoszenia
+wysokich kosztów budowy nowej infrastruktury dedykowanej na potrzeby SBŁP.
+
+
+                                                                                            37
+Zgodnie z Programem Ochrony Ludności i Obrony Cywilnej w ramach obszaru 5 pn.
+„Bezpieczna Łączność Państwowa oraz alarmowanie, ostrzeganie i powiadamianie”
+w 2025 roku zapewnione zostały środki finansowe na realizację zadań z zakresu SBŁP
+w wysokości 302 999 300,00 zł. W ramach wskazanej puli środków zadania realizowały:
+Komenda Główna Policji oraz Ministerstwo Spraw Wewnętrznych i Administracji, które
+wydatkowały środki na:
+   zakup urządzeń dla sieci GovNet oraz rozbudowę infrastruktury zarządzania SBŁP –
+       łącznie 68 544 614,29 zł,
+   rozbudowę infrastruktury TETRA do zasięgu krajowego, jej utrzymanie oraz zakup
+       urządzeń abonenckich w ramach budowy jednolitego, ogólnokrajowego systemu
+       radiowego dla służb resortu spraw wewnętrznych odpowiedzialnych za
+       bezpieczeństwo publiczne – łącznie 183 346 800,24 zł,
+   zakup mobilnych węzłów dostępowych (1 070 sztuk zestawów) – łącznie
+       46 702 499,76 zł.
+Na realizację dalszych zadań z zakresu SBŁP w 2026 r. zaplanowano 259 235 500,00 zł.
+Ustawowe zadania z zakresu alarmowania, ostrzegania i powiadamiania są realizowane przez
+Rządowe Centrum Bezpieczeństwa (art. 22 ustawy ochrony ludności i obrony cywilnej) oraz
+Komendę Główną PSP.
+W 2025 r. RCB rozesłało łącznie 306 alertów, w tym 182 pogodowe, 22 smogowe, 4 inne,
+13 pożarowych, 40 sanitarnych, 38 dotyczących służb oraz 7 alertów COP – ostrzeganie.
+
+
+
+
+38
+Tabela 4. Szczegółowe dane dotyczące kampanii alertowych.
+          POGODA                               BURZE / BURZE Z GRADEM              9
+          POGODA                                  BURZE, SILNY WIATR               36
+          POGODA                                BURZE, ULEWNY DESZCZ               40
+          POGODA                               BURZE, SILNY WIATR, GRAD            24
+          POGODA                             INTENSYWNE OPADY DESZCZU              18
+          POGODA                                      SILNY WIATR                  25
+          POGODA                           ULEWNY DESZCZ Z SILNYM WIATREM          4
+          POGODA                                   OPADY MARZNĄCE                  4
+          POGODA                              INTENSYWNE OPADY ŚNIEGU              14
+          POGODA                                  ZAMIECIE I ZAWIEJE               2
+          POGODA                            SILNY WIATR / ZAWIEJE I ZAMIECIE       6
+           POŻAR                   POŻAR SUBSTANCJI NIEBEZPIECZNYCH / ZADYMIENIE   11
+           POŻAR                           ZAGROŻENIE POŻAROWE W LASACH            2
+         SANITARNE              BRAK PRZYDATNOŚCI / PRZYDATNOŚĆ WODY DO SPOŻYCIA   23
+         SANITARNE                                   WŚCIEKLIZNA                   14
+         SANITARNE                         ZATRUCIE / ZANIECZYSZCZENIE WÓD         3
+           SMOG                                      PM-10 SMOG                    22
+          SŁUŻBY                           ĆWICZENIA ANTYTERRORYSTYCZNE            3
+          SŁUŻBY                          ĆWICZENIE OBRONNE / RATOWNICZE           29
+          SŁUŻBY                              DZIAŁANIA POSZUKIWAWCZE              2
+          SŁUŻBY                                PODJĘCIE NIEWYBUCHU                3
+          SŁUŻBY                                    POSZUKIWANIA                   1
+           INNE                      SM00 ODWOŁANIE / SM80 POLACY ZA GRANICĄ       2
+           INNE                           INFO DLA PRZEKRACZAJĄCYCH GRANICĘ        2
+            COP                                ZAGROŻENIE Z POWIETRZA              7
+
+Źródło: Rządowe Centrum Bezpieczeństwa.
+
+W ramach monitorowania zagrożeń oraz powiadamiania, ostrzegania i alarmowania ludności
+o zagrożeniach, zgodnie z art. 15 ust. 3 ustawy (art. 22 pkt 1), RCB realizowało zadania
+Krajowego Centrum Zarządzania Kryzysowego (KCZK) umożliwiającego przekazywanie
+niezbędnych informacji między strukturami zarządzania kryzysowego. Realizując funkcję KCZK,
+Rządowe Centrum Bezpieczeństwa zapewniło całodobowy dyżur i obieg informacji, w tym
+monitorowanie zagrożeń oraz powiadamianie, ostrzeganie i alarmowanie ludności
+o zagrożeniach. Przekazywanie powyższych informacji między strukturami zarządzania
+kryzysowego oraz służbami realizowano w oparciu o informacje ujęte w:
+       raportach dobowych RCB,
+       raportach dobowych RCB – załącznikach dla MSWiA,
+       raportach sytuacyjnych,
+       krótkich informacjach tekstowych (SMS) przekazywanych do przedstawicieli
+        kierownictwa administracji rządowej, kierownictwa i służb dyżurnych Biura
+        Bezpieczeństwa Narodowego oraz służb.
+
+
+
+                                                                                        39
+RCB w ramach Krajowego Planu Zarządzania Kryzysowego (KPZK) realizuje procedurę
+operacyjną SPO-13 Ostrzeganie i alarmowanie wojsk oraz ludności cywilnej o zagrożeniu
+uderzeniami z powietrza. W 2025 roku RCB uruchomiło procedurę 64 razy.
+RCB prowadzi także krajową koordynację realizacji zadań wynikających z uczestnictwa
+Rzeczypospolitej Polskiej w Organizacji Traktatu Północnoatlantyckiego (NATO) i Unii
+Europejskiej (UE) w zakresie budowania odporności państwa na zagrożenia m.in. przez:
+        udział w pracach Komitetu Odporności NATO (Resilience Committee),
+        udział w pracach unijnej grupy AHWP Resilience: grupa ad hoc ds. gotowości, zdolności
+         reagowania i odporności na przyszłe kryzysy (Ad Hoc Working Party on preparedness,
+         response capability and resilience to future crises) – horyzontalna grupa Rady UE
+         w obszarze zarządzania kryzysowego,
+        udział w pracach unijnej grupy PROCIV CER (Working Party On Civil Protection Critical
+         Entities Resilience) – grupa Rady UE w obszarze odporności podmiotów krytycznych,
+        udział w pracach unijnej grupy CERG (Critical Entities Resilience Group) – grupa ds.
+         odporności podmiotów krytycznych,
+        koordynację mechanizmu IPCR (Integrated Political Crisis Response) – unijny
+         mechanizm reagowania kryzysowego,
+        koordynację ćwiczeń międzynarodowych: NATO – CMX (Crisis Management Exercise)
+         oraz UE – Integrated Resolve PACE,
+        koordynację prac międzyresortowych grup odporności zgodnie z zapisami uchwały nr 7
+         Rady Ministrów z dnia 11 sierpnia 2025 r. w sprawie zlecenia Rządowemu Centrum
+         Bezpieczeństwa koordynacji udziału przedstawicieli Rzeczypospolitej Polskiej
+         w pracach Komitetu Odporności Organizacji Traktatu Północnoatlantyckiego.
+Kolejnym z zadań realizowanych przez RCB jest opracowanie krajowego planu ewakuacji
+i koordynowanie sporządzania przez wojewodów wojewódzkich planów ewakuacji ludności
+(art. 22 pkt 3 ustawy). Krajowy Plan Ewakuacji (KPE) powstanie na bazie Wojewódzkich Planów
+Ewakuacji Ludności (WPEL). Przewiduje się, że po uzgodnieniu WPEL (wariant pożądany) KPE
+zostanie przedstawiony do zatwierdzenia Ministrowi Spraw Wewnętrznych i Administracji.
+Dyrektor Rządowego Centrum Bezpieczeństwa opracowuje, w uzgodnieniu z Szefem Sztabu
+Generalnego Wojska Polskiego (SGWP), wytyczne dla wojewódzkich planów ewakuacji
+ludności (art. 41 ust. 1 ustawy). „Wytyczne do opracowania wojewódzkich planów ewakuacji
+ludności” zostały sporządzonej uzgodnione z SGWP i MSWiA oraz wysłane do wojewodów
+18 czerwca 2025 roku. W ramach koordynacji przez RCB przygotowania przez wojewodów
+wojewódzkich planów ewakuacji ludności, przedstawiciele RCB zorganizowali w lutym 2025 r.
+warsztaty dla przedstawicieli wojewodów w zakresie procesu planistycznego oraz ogólnej
+koncepcji ewakuacji. W warsztatach, oprócz przedstawicieli urzędów wojewódzkich, wzięli
+udział przedstawiciele SGWP, MSWiA oraz Inspektoratu Wsparcia Sił Zbrojnych.
+
+
+
+40
+Rządowe Centrum Bezpieczeństwa realizowało również zadania Centrum Zarządzania
+Kryzysowego Ministra Spraw Wewnętrznych i Administracji przez:
+      przygotowywanie i dystrybucję bieżących informacji oraz komunikatów dotyczących
+       zagrożeń dla ludności,
+      obsługę informacyjną posiedzeń i odpraw z udziałem Prezesa Rady Ministrów,
+       członków Rady Ministrów oraz ministra właściwego do spraw wewnętrznych –
+       w szczególności w zakresie syntetycznego przedstawiania sytuacji zagrożeń oraz
+       działań komunikacyjnych państwa,
+      współtworzenie przekazu informacyjnego pomiędzy RCB, a kluczowymi instytucjami
+       odpowiedzialnymi za ochronę ludności (IMGW, PSP, Policja, MSWiA, resorty właściwe),
+       w celu zapewnienia spójności informacji kierowanych do decydentów,
+      przygotowywanie materiałów informacyjnych i komunikacyjnych wspierających
+       proces podejmowania decyzji na poziomie rządowym.
+Rządowe Centrum Bezpieczeństwa realizowało także zadania powierzone w zakresie ochrony
+ludności i obrony cywilnej, w szczególności przez:
+      realizację zadań Centrum Zarządzania Kryzysowego Ministra SWiA,
+      współtworzenie we współpracy z MON i MSWiA Poradnika Bezpieczeństwa,
+      prowadzenie działań informacyjnych i komunikacyjnych wspierających realizację
+       polityki państwa w obszarze ochrony ludności,
+      bieżące wsparcie komunikacyjne działań koordynowanych przez Ministra Spraw
+       Wewnętrznych i Administracji w zakresie ochrony ludności, w tym przez
+       opracowywanie komunikatów, rekomendacji i materiałów informacyjnych,
+      bieżące komunikowanie zasad bezpieczeństwa w mediach tradycyjnych (prasa,
+       telewizja, radio) oraz cyfrowych (media społecznościowe).
+Jednym z zadań RCB jest współdziałanie z organami ochrony ludności (art. 22 pkt 8 ustawy),
+które jest realizowane na zasadzie wymiany informacji w systemie stałych dyżurów.
+Za koordynację realizacji zadań ochrony ludności / obrony cywilnej na poziomie krajowym
+odpowiada MSWiA, na poziomie wojewódzkim wojewodowie. W obu przypadkach wynika to
+wprost z ustawy. RCB współpracuje na bieżąco z wojewodami w ramach procesu koordynacji
+przygotowania wojewódzkich planów ewakuacji ludności.
+Ponadto RCB współdziałało z organami ochrony ludności przez:
+      stałą współpracę komunikacyjną z wojewodami oraz wojewódzkimi centrami
+       zarządzania kryzysowego, w szczególności w zakresie uzgadniania treści komunikatów
+       kierowanych do mieszkańców,
+      współdziałanie m.in. z Państwową Strażą Pożarną przy informowaniu społeczeństwa o
+       zagrożeniach i zalecanych działaniach ochronnych,
+
+
+
+                                                                                       41
+        koordynację przekazu informacyjnego pomiędzy szczeblem centralnym a regionalnym
+         w sytuacjach kryzysowych i podwyższonej gotowości.
+
+2.6. Zadania z zakresu oznakowania podmiotów obrony cywilnej
+ Zgodnie z obowiązującym stanem prawnym inwestycje finansowane z Programu Ochrony
+ Ludności i Obrony Cywilnej powinny zostać oznakowane logotypem „Ochrona Ludności”,
+ a stosownie do potrzeb również międzynarodowym znakiem obrony cywilnej. Oznakowanie
+ inwestycji powinno być zgodne z przepisami rozporządzenia Rady Ministrów z dnia 7 maja
+ 2021 roku w sprawie określenia działań informacyjnych podejmowanych przez podmioty
+ realizujące zadania finansowane lub dofinansowane z budżetu państwa lub z państwowych
+ funduszy celowych (Dz. U. poz. 953, z późn. zm.).
+ Według danych przekazanych przez wojewodów, na dzień 31 grudnia 2025 roku, zgodnie
+ z ww. wytycznymi, oznakowano 71 obiektów oraz 1 241 zakupów inwestycyjnych.
+ W 2025 roku kontynuowano także prace legislacyjne nad aktem wykonawczym do art. 140
+ ustawy, tj. rozporządzeniem określającym sposób i tryb prowadzenia Ewidencji Obrony
+ Cywilnej, nadawania i uchylania przydziałów mobilizacyjnych obrony cywilnej i powoływania
+ do służby w obronie cywilnej, wzór wniosku o nadanie przydziału mobilizacyjnego obrony
+ cywilnej, sposób przekazywania wezwania do służby w obronie cywilnej oraz wzór karty
+ przydziału mobilizacyjnego obrony cywilnej i wzór wezwania do służby w obronie cywilnej.
+ Brak możliwości wcześniejszego wydania rozporządzenia wynikał z konieczności zmiany
+ części przepisów ustawowych dotyczących zasad przetwarzania danych w ewidencji, w tym
+ w częściach niejawnych.
+
+
+
+
+42
+3. Sposób finansowania zadań ochrony ludności
+   i obrony cywilnej
+Zgodnie z art. 155 ustawy z dnia 5 grudnia 2024 r. o ochronie ludności i obronie cywilnej, na
+finansowanie zadań z zakresu ochrony ludności i obrony cywilnej przeznacza się corocznie
+środki w wysokości nie niższej niż 0,3% produktu krajowego brutto. W skład wskazanych
+środków, zgodnie z art. 115 ust. 2 ustawy wchodzą:
+  1) środki przeznaczone na realizację zadań z zakresu ochrony ludności i obrony cywilnej
+     przez ministra właściwego do spraw wewnętrznych i wojewodów oraz wydatki
+     Rządowej Agencji Rezerw Strategicznych,
+  2) środki przeznaczone na realizację zadań z zakresu ochrony ludności i obrony cywilnej
+     przez:
+        a) ministra właściwego do spraw zdrowia w zakresie środków przeznaczonych na
+           finansowanie zadań, o których mowa w:
+              – art. 4 ust. 1 pkt 1 w ustawie o ochronie ludności i obronie cywilnej,
+              – art. 48 ust. 1 ustawy z dnia 8 września 2006 r. o Państwowym Ratownictwie
+                   Medycznym,
+        b) Narodowy Fundusz Zdrowia w zakresie środków przeznaczonych na
+           finansowanie świadczeń opieki zdrowotnej z zakresu ratownictwa medycznego,
+  3) środki ujęte w ramach limitu wydatków na finansowanie potrzeb obronnych, o którym
+     mowa w art. 40 ust. 1 pkt 2 ustawy z dnia 11 marca 2022 r. o obronie Ojczyzny,
+     w wysokości 0,15% produktu krajowego brutto.
+Za podstawę przyjęto PKB za 2023 rok w wysokości 3 410,1 mld zł, ogłoszony w obwieszczeniu
+Prezesa Głównego Urzędu Statystycznego z dnia 15 maja 2024 r. w sprawie pierwszego
+szacunku wartości PKB w 2023 r. (M.P. poz. 368) oraz PKB za 2024 rok w wysokości 3 641 mld
+zł, prognozowany w wytycznych Ministra Finansów dotyczących stosowania jednolitych
+wskaźników makroekonomicznych będących podstawą oszacowania skutków finansowych
+projektowanych ustaw (według aktualizacji z 10 października 2024 roku.).
+Zgodnie z art. 156 ust. 2 ustawy, Program Ochrony Ludności i Obrony Cywilnej określa sposób
+finansowania realizacji zadań ochrony ludności i obrony cywilnej ze środków, o których mowa
+w art. 155 ust. 2. W rozdziale 5 i 6 Programu w sposób przejrzysty i transparentny opisuje się
+sposób podziału środków finansowych, zarówno na poziomie wojewódzkim, jak i centralnym.
+Zasady podziału środków zostały zaakceptowane m.in. przez Ministerstwo Obrony
+Narodowej, Przewodniczącego Komitetu do spraw Pożytku Publicznego oraz Komisję Wspólną
+Rządu i Samorządu Terytorialnego.
+
+
+
+
+                                                                                           43
+Z kolei zgodnie z treścią Programu Ochrony Ludności i Obrony Cywilnej na lata 2025–2026,
+przyjętego uchwałą nr 72 Rady Ministrów z dnia 27 maja 2025 r., podział środków w wysokości
+0,3% PKB przedstawia się następująco:
+
+Tabela 5. Podział środków w wysokości 0,3% PKB
+Lp.                      Rodzaj wydatków                                     2025                 2026
+                                   MSWiA i wojewodowie
+                                   (z uwzględnieniem
+                                   wydatków na Komendę
+                                   Główną PSP, Akademię
+                                                                        5 779 676 000 zł    5 475 756 000 zł
+                                   Pożarniczą i komendy
+    wydatki resortu spraw          wojewódzkie oraz
+    wewnętrznych i wojewodów       powiatowe PSP w części 85
+ 1. (PSP) oraz RARS                – wojewodowie)
+                                   RCB                                   12 607 000 zł        12 641 000 zł
+                                   RARS (z uwagi na
+                                   aktualizację RPRS kwoty
+                                                                         601 916 000 zł      662 031 000 zł
+                                   wydatków na lata 2025 i
+                                   2026 mogą ulec zmianie)
+                             łącznie                                    6 394 199 000 zł    6 150 428 000 zł
+
+                                     Zespoły Ratownictwa
+                                     Medycznego (finansowane
+                                     przez NFZ) i zadania
+                                     zespołów ratownictwa
+                                     medycznego zgodnie z art.          4 896 526 000 zł    5 236 345 000 zł
+                                     46 ust. 1 ustawy z dnia 8
+    wydatki resortu zdrowia na       września 2006 r. o
+    ratownictwo medyczne oraz        Państwowym Ratownictwie
+    działalność lotniczych           Medycznym
+ 2. zespołów ratownictwa
+    medycznego                       Lotnicze Pogotowie
+                                     Ratunkowe (finansowane
+                                     przez Ministra Zdrowia z
+                                     części 46 – zdrowie, zgodnie
+                                                                         294 513 000 zł      294 513 000 zł
+                                     z art. 48 ust. 1 ustawy z dnia
+                                     8 września 2006 r. o
+                                     Państwowym Ratownictwie
+                                     Medycznym)
+                               łącznie                                  5 191 039 000 zł    5 530 858 000 zł
+    środki ujęte w ramach limitu
+    wydatków na finansowanie
+    potrzeb obronnych, o których
+    mowa w art. 40 ust. 1 pkt 2
+ 3.                                                                     5 115 150 000 zł    5 461 800 000 zł
+    ustawy z dnia 11 marca 2022 r.
+    o obronie Ojczyzny, w
+    wysokości 0,15% produktu
+    krajowego brutto
+
+      ŁĄCZNIE:                                                        16 700 388 000 zł    17 143 086 000 zł
+
+
+
+
+44
+Zgodnie z art. 155 ust. 5 ustawy, Ministerstwo Spraw Wewnętrznych i Administracji,
+w porozumieniu z Ministerstwem Obrony Narodowej, dokonało podziału środków, o których
+mowa w art. 155 ust. 4 ustawy, tj. w 2025 r. – 5 115 150 000 zł, na poszczególne części budżetu
+państwa wskazane w art. 155 ust. 6 ustawy z uwzględnieniem Programu Ochrony Ludności
+i Obrony Cywilnej, w oparciu o przepisy wydane na podstawie art. 138 ust. 6 ustawy z dnia
+27 sierpnia 2009 r. o finansach publicznych (Dz. U. z 2025 r. poz. 1483, z późn. zm.). Środki te
+zostały ujęte w części 42 „Sprawy wewnętrzne” oraz części 85 „Wojewodowie” w ramach
+działu 752 – obrona narodowa. Kryterium wyjściowym podziału środków w ramach Programu
+było założenie, że:
+       80–90% zostanie przeznaczone dla województw, w tym 90% z tej kwoty na zadania
+        realizowane przez samorządy,
+       10–20% zostanie przeznaczone na zadania ponadlokalne, inwestycje pilotażowe oraz
+        strategiczne (centralne).
+Następnie pula przeznaczona dla województw została podzielona wg poniższych kryteriów:
+       ogólna liczba mieszkańców w województwach,
+       wskaźnik urbanizacji (liczba mieszkańców miast do ogólnej liczby mieszkańców),
+       wskaźnik zwiększonego bezpieczeństwa na wschodniej granicy Polski w ramach
+        Programu „Tarcza Wschód” dla województw: lubelskiego, podlaskiego,
+        podkarpackiego, warmińsko-mazurskiego, i części województwa mazowieckiego,
+       miasto stołeczne Warszawa przy podziale środków traktowane było jak odrębne
+        województwo z uwzględnieniem wskaźników: urbanizacji i ogólnej liczby
+        mieszkańców.
+Proces podziału środków na poszczególne województwa wyglądał następująco:
+   1)   wprowadzono dane statystyczne dla każdego z województw,
+   2)   wprowadzono dane statystyczne o liczbie mieszkańców województwa, także
+        z podziałem na liczbę mieszkańców miast i wsi,
+   3)   podzielono wstępnie środki na pulę wojewódzką (83%) i pulę centralną (17%),
+   4)   dla puli wojewódzkiej, z uwagi na wyższą gęstość zaludnienia na terenach miejskich,
+        a także wymóg określony w art. 90 ustawy o ochronie ludności i obronie cywilnej dot.
+        pojemności obiektów zbiorowej ochrony z podziałem na miasta i wsie, wprowadzono
+        odpowiednio wagi 0,65 i 0,35,
+   5)   po wyliczeniu kwot przypadających na poszczególne województwa, dodano wskaźnik
+        zwiększenia puli środków na realizację zadań w ramach Programu „Tarcza Wschód”
+        (dla województw: lubelskiego, podlaskiego, warmińsko-mazurskiego, podkarpackiego
+        i części województwa mazowieckiego),
+   6)   następnie z puli centralnej dokonano dalszego wzmocnienia puli wojewódzkiej
+        w ramach realizacji zadania Host Nation Support (NATO),
+
+
+
+                                                                                             45
+     7)   otrzymano ostateczny podział na pulę wojewódzką (ponad 90%) i centralną (niecałe
+          10%),
+     8)   powyższy podział uzgodniono z MON i przekazano informację o wysokości limitów
+          w poszczególnych obszarach wojewodom.
+Zgodnie z przyjętym założeniem, nie mniej niż 90% środków jest do dyspozycji samorządów,
+a do 10% środków pozostaje w dyspozycji wojewodów.
+Wydatki RARS poniesione w 2025 roku na zadania z zakresu ochrony ludności i obrony cywilnej
+wyniosły 462 860 667 zł, co oznacza, że RARS wykonała ok. 77% kwoty zaplanowanej na
+realizację zadań. Podana kwota obejmuje wydatki poniesione na zakup asortymentu w celu
+tworzenia oraz odtworzenia rezerw, koszty ich przechowywania, obsługi logistycznej
+i ubezpieczenia, a także koszty realizacji umów o których mowa w art. 17 i art. 18 ustawy
+o rezerwach strategicznych. W ramach środków, o których mowa w art. 155 ust. 2 pkt 1 ustawy
+o ochronie ludności i obronie cywilnej, wykonanie wydatków wyniosło 6 743 491 610,35 zł.
+Środki, o których mowa w art. 155 ust. 2 pkt 2 ustawy o ochronie ludności i obronie cywilnej,
+przekazane w 2025 roku na realizację zadań, o których mowa w art. 48 ust. 1 ustawy
+o Państwowym Ratownictwie Medycznym wyniosły 304 992 000,00 zł. Dodatkowo warunki
+finansowe na świadczenia zdrowotne udzielane przez zespoły ratownictwa medycznego
+zostały ustalone na poziomie 4 849 656 266,57 zł. Ponadto w ramach środków, o których
+mowa w 155 ust. 2 pkt 2 ustawy o ochronie ludności i obronie cywilnej, Ministerstwo Zdrowia
+wykonało wydatki w wysokości 17 915,52 zł na potrzeby przygotowania Głównego Stanowiska
+Kierowania.
+Z kolei wykonanie wydatków zrealizowanych ze środków, o których mowa w art. 155 ust. 2
+pkt 3, tj. wydatków na finansowanie potrzeb obronnych wynosi 4 205 864 114,16 zł,
+co stanowi 82,22% zaplanowanych środków. W ramach wskazanego wykonania,
+wykorzystanie środków w części budżetu państwa 85 – wojewodowie wynosi
+3 775 169 119,87 zł (dane przekazane przez wojewodów na dzień 15 kwietnia 2026 r.).
+
+
+
+
+46
+Wykres. 7. Procentowe wykonanie planu wydatków na finansowanie potrzeb obronnych przez poszczególnych
+dysponentów w cz. 85 – wojewodowie.
+
+
+
+
+Wykres. 8. Procentowe wykonanie planu wydatków na finansowanie potrzeb obronnych przez poszczególnych
+dysponentów      w   cz.   85    –    wojewodowie     oraz   cz.    42    –   sprawy     wewnętrzne.
+
+                    Wykonanie wydatków na potrzeby ochronne i obronne
+  100,00%                                          98,48%
+
+
+   95,00%
+                                                        91,42%          91,40%
+                                    88,97%                   89,44%
+   90,00%                                                                                   88,35%
+               85,09%                                              84,50%
+   85,00% 81,88%                                                             83,39%
+                                                                                       82,27%
+                         80,34%
+                    79,10%                    79,06%
+   80,00%
+                                                                                  74,60%
+   75,00%
+                               71,88%
+
+   70,00%                                68,10%
+
+
+   65,00%
+
+   60,00%
+                        po kie
+
+                                     ie
+
+                                    ie
+
+                                    ie
+
+                                   kie
+
+                                     ie
+
+
+                           op )
+
+                           ar e
+
+                         po i e
+
+                        po kie
+
+                                    ie
+
+
+                                                                                  ok ie
+                                                                                           kie
+
+                                                                                            ie
+
+
+                                                                     Cz pom e
+
+                                                                                  -M e
+                                                                                            iA
+                                    ą
+
+                                    i
+
+
+
+
+                                                                                            i
+
+                                                                                           ki
+                                  sk
+
+                                 lsk
+
+                                  sk
+
+
+
+
+                                  sk
+
+
+
+                                 lsk
+
+                                  ck
+
+
+
+
+                                  sk
+
+                                                                                          sk
+
+
+
+
+                                                                                         sk
+
+                                                                                        l sk
+                                aw
+
+
+
+
+                                                                                       SW
+                                  s
+
+
+
+
+                                dz
+
+
+
+
+                                as
+
+
+
+
+                                                                                       ys
+
+
+
+
+                                                                                        rs
+                               lą
+
+                              or
+
+
+
+
+                              bu
+
+
+
+
+                               ol
+
+
+
+
+                              or
+
+                                                                                    ślą
+
+
+
+
+                                                                                      ur
+                              pa
+                             be
+
+
+
+
+                               o
+
+
+
+
+                                                                                    po
+
+                                                                                     o
+                             sz
+
+
+
+
+                                                                                    rz
+                             dl
+                             łó
+                            oś
+
+
+
+
+                           op
+                            m
+
+
+
+
+                            m
+
+
+
+
+                                                                                   az
+                           lu
+
+
+
+
+                          ar
+                          lu
+
+
+
+
+                                                                                lko
+                         ln
+
+
+
+
+                                                                               m
+                        ał
+
+
+
+
+                       dk
+                       W
+
+
+
+
+                                                                                t
+
+
+
+
+                                                                               2
+                     do
+
+
+
+
+                                                                 za wie
+                                                                             ię
+                     m
+
+
+
+
+                                                                            o-
+
+
+
+
+                                                                          ć4
+                     o-
+
+
+
+
+                                                                             o
+                    po
+                    (z
+
+
+
+
+                                                                        św
+
+
+
+
+                                                                          ni
+                                                                         sk
+                  sk
+
+
+
+
+                                                                       ęś
+                                                                      od
+                 ie
+
+
+
+
+                                                                      iń
+                w
+
+
+
+
+               ck
+
+
+
+
+                                                                    m
+
+
+
+                                                                   ch
+       ja
+
+
+
+
+             ie
+
+
+
+
+                                                                  ar
+     ku
+
+
+
+
+          ow
+
+
+
+
+                                                                  w
+       az
+     m
+
+
+
+
+                                                                                                  47
+ W ramach wykorzystania środków, o których mowa w art. 155 ust. 2 pkt 3 ustawy OLiOC,
+ zgodnie z postanowieniami Programu Ochrony Ludności i Obrony Cywilnej na lata 2025–
+ 2026, Minister Spraw Wewnętrznych i Administracji w porozumieniu z Ministrem Obrony
+ Narodowej, opiniował zakupy inwestycyjne o wartości powyżej 50 tys. złotych oraz
+ inwestycje budowlane finansowane ze środków Programu. Poziom akceptacji dla
+ opiniowanych inwestycji wynosił ok. 90%. Rozpatrzono około 1 995 wniosków o inwestycje
+ budowlane, pozytywnie rozpatrzono 1 752 wnioski (87,8%), na łączną kwotę 824 797 682,07
+ zł. Większość wniosków dotyczyła budowy magazynów, budowli ochronnych oraz ujęć wody.
+ Rozpatrzono 9 746 wniosków o zakupy inwestycyjne powyżej 50 tys. zł na kwotę
+ 2 930 931 177,16 zł (dane mają charakter przybliżony, z uwagi na możliwe odmienne
+ sposoby liczenia ponownie zgłaszanych inwestycji i innych korekt).
+ Podsumowując, wydatki poniesione w 2025 roku za realizację zadań z zakresu ochrony
+ ludności i obrony cywilnej na podstawie Programu, wyniosły łącznie 16 107 299 480,13 zł.
+
+
+
+
+48
+3.1. Wydatki województw oraz środki niewygasające
+ W 2025 roku kwota ok. 47,11 mln zł została zakwalifikowana jako środki niewygasające,
+ przeznaczone do wykorzystania w 2026 r. w ramach kontynuacji rozpoczętych zadań
+ inwestycyjnych i technicznych.
+ Poniższe zestawienia przedstawiają dane ogólne dotyczące przyznanych kwot, ich wykonania
+ w 2025 r. zgodnie z danymi przekazanymi przez województwa na dzień 15.04.2026 r. oraz
+ stopnia realizacji.
+
+
+Tabela 6. Wydatki województw oraz środki niewygasające
+                                Kwoty dla                                                  Środki       Stopień wykonania
+                                                                    Niewykorzystane
+ Lp.        Województwo       województw         Wykonanie w zł.                       niewygasające         do kwot
+                                                                       środki w zł.
+                              w 2025 r. w zł.                                               w zł.        przyznanych w zł.
+
+ 1      podkarpackie           278 777 030,00      274 526 097,63       4 250 932,37            0,00               98,48%
+
+ 2      podlaskie              161 132 097,00      147 305 630,61      13 703 166,39      123 300,00               91,42%
+
+ 3      świętokrzyskie         132 368 459,00      120 980 139,86      11 088 319,14      300 000,00               91,40%
+
+ 4      pomorskie              283 792 691,00      253 830 266,88      29 661 524,12      300 900,00               89,44%
+
+ 5      małopolskie            388 514 690,00      345 651 671,40      33 941 788,60     8 921 230,00              88,97%
+
+ 6      kujawsko-pomorskie     239 084 715,00      203 425 828,37      33 323 686,63     2 335 200,00              85,09%
+
+ 7      śląskie                528 862 398,00      446 890 899,43      75 968 898,57     6 002 600,00              84,50%
+
+ 8      warmińsko-mazurskie    191 350 632,00      159 575 218,53      27 110 395,47     4 665 018,00              83,39%
+
+ 9      zachodniopomorskie     203 704 232,00      167 590 711,53      36 113 520,47            0,00               82,27%
+
+ 10     dolnośląskie           356 905 562,00      292 248 486,11      62 151 154,89     2 505 921,00              81,88%
+
+ 11     lubuskie               118 900 118,00       95 522 201,12      20 622 652,88     2 755 264,00              80,34%
+
+ 12     lubelskie              277 733 000,00      219 699 816,78      47 542 673,22   10 490 510,00               79,10%
+
+ 13     opolskie               108 194 096,00       85 533 333,27      22 144 774,73      515 988,00               79,06%
+
+ 14     wielkopolskie          410 093 121,00      305 949 385,68     103 647 735,32      496 000,00               74,60%
+
+ 15     łódzkie                282 831 103,00      203 289 910,92      72 707 685,08     6 833 507,00              71,88%
+        mazowieckie
+ 16                            665 388 399,00      453 149 521,75     211 376 038,25      862 839,00               68,10%
+        (z Warszawą)
+     Razem (województwa)
+                              4 627 632 343,00   3 775 169 119,87     805 354 946,13   47 108 277,00               81,58%
+            [1–16]
+
+
+
+
+                                                                                                                      49
+Wykres 9. Kwoty dla województw w 2025 r.
+
+
+
+
+Najwyższe wykonanie 98,48% odnotowano w województwie podkarpackim. Województwo
+podlaskie wydatkowało 91,42% przyznanych kwot oraz województwo świętokrzyskie 91,40%.
+Najniższe wykonanie – 68,10% odnotowano w województwie mazowieckim, województwie
+łódzkim – 71,88% oraz w województwie wielkopolskim 74,60%.
+
+
+Wykres 10. i 11. Wykonie oraz środki niewygasające z podziałem na województwa w zł.
+
+
+
+
+50
+Najwyższe wykonanie kwotowo 453 149 521,75 zł odnotowano w województwie
+mazowieckim. Województwo śląskie wydatkowało 446 890 899,43 zł, a województwo
+małopolskie 345 651 671,40 zł.
+Najniższe wykonanie 85 533 333,27 zł odnotowano w województwie opolskim,
+w województwie lubuskim wydatkowano 95 522 201,12 zł oraz w województwie
+świętokrzyskim 120 980 139,86 zł.
+Z uwagi na krótki okres wydatkowania w 2025 roku konieczne było ujęcie części kwot
+(47 108 277,00 zł) jako środków niewygasających z upływem roku budżetowego.
+
+
+
+
+                                                                               51
+4. Wykaz aktów wykonawczych do ustawy wydanych
+   w 2025 r.
+Ustawa o ochronie ludności i obronie cywilnej przewiduje wydanie aktów wykonawczych
+określających sposób realizacji poszczególnych zadań. Według stanu na dzień 1 stycznia 2026
+r. wydano 20 aktów wykonawczych: 18 rozporządzeń, 1 zarządzenie oraz 1 uchwałę (oraz jej
+nowelizacja). Szczegółowy wykaz wydanych aktów zaprezentowano poniżej:
+        uchwała nr 72 Rady Ministrów z dnia 27 maja 2025 r. w sprawie zatwierdzenia
+         Programu Ochrony Ludności i Obrony Cywilnej na lata 2025–2026 (M.P. poz. 541) oraz
+         uchwała nr 151 Rady Ministrów z dnia 4 listopada 2025 r. zmieniająca uchwałę
+         w sprawie zatwierdzenia Programu Ochrony Ludności i Obrony Cywilnej na lata 2025–
+         2026 (M.P. poz. 1143),
+        zarządzenie nr 166 Prezesa Rady Ministrów z dnia 27 grudnia 2024 r. w sprawie
+         organizacji i trybu pracy Rządowego Zespołu Ochrony Ludności (M.P. poz. 1109),
+        rozporządzenie Prezesa Rady Ministrów z dnia 22 grudnia 2025 r. w sprawie udziału
+         służb i pozostałych podmiotów w budowie, utrzymaniu i rozwoju Systemu Bezpiecznej
+         Łączności Państwowej oraz szczegółowych warunków świadczenia usług
+         telekomunikacyjnych w ramach tego systemu (Dz. U. poz. 1860),
+        rozporządzenie Rady Ministrów z dnia 22 grudnia 2025 r. w sprawie sposobu
+         korzystania z Systemu Bezpiecznej Łączności Państwowej, minimalnych wymagań
+         technicznych i funkcjonalnych oraz minimalnego poziomu bezpieczeństwa usług tego
+         systemu (Dz. U. poz. 1859),
+        rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 4 listopada 2025
+         r. w sprawie warunków technicznych dla budowli ochronnych oraz warunków
+         technicznych ich użytkowania i usytuowania (Dz. U. poz. 1548),
+        rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 12 września 2025
+         r. w sprawie określenia wzorów kart tożsamości i tabliczki tożsamości personelu
+         obrony cywilnej (Dz. U. poz. 1278),
+        rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 28 sierpnia 2025
+         r. w sprawie sposobu utrzymywania zasobów ochrony ludności przez obowiązane
+         organy ochrony ludności (Dz. U. poz. 1201),
+        rozporządzenie Rady Ministrów z dnia 31 lipca 2025 r. w sprawie szczegółowych
+         warunków wyznaczania budynków użyteczności publicznej, w których zapewnia się
+         budowle ochronne (Dz. U. poz. 1070),
+        rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 1 lipca 2025 r.
+         w sprawie sposobu przygotowania obiektu zbiorowej ochrony do użycia,
+         szczegółowych warunków eksploatacji budowli ochronnych, zapewnienia porządku
+         w ich obrębie oraz ich niezbędnego wyposażenia (Dz. U. poz. 933),
+
+52
+   rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 9 lipca 2025 r.
+    w sprawie warunków organizowania oraz wymagań, jakie powinny spełniać miejsca
+    doraźnego schronienia (Dz. U. poz. 932),
+   rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 7 lipca 2025 r.
+    w sprawie Centralnej Ewidencji Obiektów Zbiorowej Ochrony (Dz. U. poz. 922),
+   rozporządzenie Rady Ministrów z dnia 30 maja 2025 r. w sprawie ewakuacji ludności
+    oraz zabezpieczenia mienia (Dz. U. poz. 765),
+   rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 14 maja 2025 r.
+    w sprawie alarmów i komunikatów ostrzegawczych (Dz. U. poz. 645),
+   rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 14 kwietnia 2025
+    r. w sprawie Centralnej Ewidencji Zasobów Ochrony Ludności i Obrony Cywilnej (Dz. U.
+    poz. 493),
+   rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 18 marca 2025 r.
+    w sprawie sposobu i trybu przeprowadzania naboru ochotniczego do służby w obronie
+    cywilnej (Dz. U. poz. 394),
+   rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 3 marca 2025 r.
+    w sprawie elementów porozumienia o wykonywaniu zadań ochrony ludności lub
+    obrony cywilnej oraz sposobu weryfikacji zdolności podmiotu, z którym ma być
+    zawarte porozumienie, do wykonywania tych zadań (Dz. U. poz. 273),
+   rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 25 lutego 2025 r.
+    w sprawie ćwiczeń z zakresu ochrony ludności i obrony cywilnej (Dz. U. poz. 253),
+   rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 21 lutego 2025 r.
+    w sprawie kryteriów uznawania obiektów budowlanych albo ich części za budowle
+    ochronne (Dz. U. poz. 235),
+   rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 6 lutego 2025 r.
+    w sprawie programów szkoleń z zakresu ochrony ludności i obrony cywilnej oraz
+    wymagań dla podmiotów prowadzących szkolenia (Dz. U. poz. 162),
+   rozporządzenie Rady Ministrów z dnia 23 stycznia 2025 r. w sprawie szczegółowej
+    zawartości Programu Ochrony Ludności i Obrony Cywilnej (Dz. U. poz. 136),
+   rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 17 kwietnia 2026
+    r. w sprawie powoływania do służby w obronie cywilnej oraz Ewidencji Obrony
+    Cywilnej (Dz. U. poz. 543).
+
+
+
+
+                                                                                     53
+5. Współpraca cywilno-wojskowa
+W roku 2025 ważną rolę w obszarze ochrony ludności odegrało zacieśnienie współpracy
+cywilno-wojskowej (CIMIC), stanowiącej kluczowy łącznik między administracją publiczną
+a Siłami Zbrojnymi RP. Działania te realizowano w oparciu o przepisy ustawy o ochronie
+ludności i obronie cywilnej oraz wytyczne Komitetu Odporności NATO, dążąc do pełnej
+integracji planowania cywilnego z operacyjnymi potrzebami obronnymi państwa.
+W 2025 roku zrealizowano następujące kluczowe zadania:
+    Koordynacja przemieszczeń ludności i wojsk: Opracowano i wdrożono procedury mające
+     na celu zapewnienie zdolności do zarządzania masowymi ruchami ludności. Kluczowym
+     osiągnięciem było stworzenie mechanizmów bezkolizyjnego wykorzystania infrastruktury
+     transportowej, co gwarantuje bezpieczeństwo ewakuowanym cywilom przy
+     jednoczesnym zachowaniu priorytetu dla mobilności jednostek wojskowych i wsparcia
+     logistycznego (HNS – Host Nation Support).
+    Budowa powszechnego systemu obrony cywilnej: Zintensyfikowano współpracę
+     z Wojskami Obrony Terytorialnej (WOT) oraz organizacjami pozarządowymi. Wojsko
+     aktywnie wspierało szkolenia kadr administracji publicznej oraz brało udział
+     w inwentaryzacji i przygotowaniu obiektów zbiorowej ochrony, co pozwoliło na
+     optymalizację zasobów w ramach Narodowych Celów Odporności.
+    Ciągłość funkcjonowania państwa: W ramach Grup Roboczych ds. Odporności, pod
+     przewodnictwem MSWiA oraz przy merytorycznym wsparciu MON, wypracowano
+     standardy ochrony infrastruktury krytycznej. Współpraca CIMIC pozwoliła na stworzenie
+     zapasowych systemów łączności i energetyki, niezbędnych dla utrzymania procesów
+     państwowych w sytuacjach kryzysu i konfliktu.
+    Wdrażanie standardów sojuszniczych: Zapewniono stałą reprezentację Polski
+     w strukturach NATO Resilience Committee. Efektem tej współpracy było dostosowanie
+     krajowych planów ochrony ludności do siedmiu podstawowych wymogów odporności
+     NATO (7BR), ze szczególnym uwzględnieniem wsparcia organów cywilnych przez
+     komponenty wojskowe.
+     Podsumowując działania w 2025 roku, model współpracy CIMIC stał się fundamentem
+     nowoczesnej obrony cywilnej. Pozwolił on na odejście od izolowanego planowania na
+     rzecz zintegrowanego systemu odporności, w którym zasoby wojskowe i cywilne
+     wzajemnie się uzupełniają, podnosząc realny poziom bezpieczeństwa obywateli
+     Rzeczypospolitej Polskiej.
+
+
+
+
+54
+6. Podsumowanie
+Wejście w życie ustawy o ochronie ludności i obronie cywilnej wzmacnia system obronny kraju
+i stanowi dopełnienie ustawy z dnia 11 marca 2022 r. o obronie Ojczyzny, jak również
+umożliwia udzielanie wsparcia przez organizacje pozarządowe w ramach systemu ochrony
+ludności i obrony cywilnej. Ustawa wykorzystuje potencjał istniejących struktur i systemów
+cywilnych ukierunkowanych na zapewnienie ochrony życia i zdrowia ludności w czasie
+wystąpienia zagrożeń, w tym sytuacji kryzysowych oraz podczas wprowadzenia stanów
+nadzwyczajnych i w czasie wojny. Podejmowane dotychczas działania legislacyjne,
+organizacyjne oraz finansowe doprowadziły do stworzenia spójnych podstaw prawnych
+i operacyjnych systemu ochrony ludności i obrony cywilnej oraz istotnego zwiększenia
+zdolności państwa do reagowania w sytuacjach kryzysowych.
+Skala zadań zrealizowanych od wejścia w życie ustawy o ochronie ludności i obronie cywilnej
+pokazuje jak wielka była potrzeba opracowania kompleksowej regulacji w tej materii,
+adekwatnej do zmieniającej się rzeczywistości oraz pojawiających się nowych zagrożeń
+wewnętrznych i zewnętrznych.
+Konstrukcja systemu ochrony ludności została oparta głównie o już działające struktury tak,
+aby optymalnie wykorzystać istniejące zasoby, obejmujące w szczególności potencjał
+Państwowej Straży Pożarnej, Ochotniczych Straży Pożarnych, struktur zarządzania
+kryzysowego, systemu powiadamiania ratunkowego, Państwowego Ratownictwa
+Medycznego oraz organizacji pozarządowych.
+Dzięki przyjętym rozwiązaniom prawno-finansowym, opisanym w sprawozdawanej ustawie,
+pierwszy raz we współczesnej historii rząd polski przeznaczył tak znaczące środki na ochronę
+ludności i obronę cywilną. Zgodnie z ustawą o ochronie ludności obronie cywilnej na
+finansowanie zadań z zakresu ochrony ludności i obrony cywilnej przeznacza się corocznie
+środki w wysokości nie niższej niż 0,3 % produktu krajowego brutto, w 2025 roku było to ponad
+16 mld zł. W 2026 roku na realizację zadań ustawowych przeznaczono ponad 17 mld zł.
+
+
+
+
+                                                                                          55
+

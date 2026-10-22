@@ -1,0 +1,438 @@
+                                                                       Druk nr 3081
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+              X kadencja
+
+
+
+                                    SPRAWOZDANIE
+
+  KOMISJI KULTURY, DZIEDZICTWA NARODOWEGO I ŚRODKÓW PRZEKAZU
+    ORAZ KOMISJI CYFRYZACJI, INNOWACYJNOŚCI I NOWOCZESNYCH
+                           TECHNOLOGII
+
+
+  o rządowym projekcie ustawy o zmianie ustawy
+  o narodowym zasobie archiwalnym i archiwach
+  (druk nr 3000)
+
+       Marszałek Sejmu, zgodnie z art. 37 ust. 1 i art. 40 ust. 1 regulaminu Sejmu skierował
+  w dniu 11 sierpnia 2026 r. powyższy projekt ustawy do Komisji Kultury, Dziedzictwa
+  Narodowego i Środków Przekazu oraz Komisji Cyfryzacji, Innowacyjności i Nowoczesnych
+  Technologii do pierwszego czytania.
+       Komisje: Kultury, Dziedzictwa Narodowego i Środków Przekazu oraz Cyfryzacji,
+  Innowacyjności i Nowoczesnych Technologii po przeprowadzeniu pierwszego czytania
+  oraz rozpatrzeniu tego projektu ustawy na posiedzeniu w dniu 15 września 2026 r.
+
+
+       wnoszą:
+
+       W y s o k i S e j m uchwalić raczy załączony projekt ustawy.
+
+
+  Warszawa, dnia 15 września 2026 r.
+
+         Przewodniczący Komisji Kultury,               Przewodniczący Komisji Cyfryzacji,
+             Dziedzictwa Narodowego                      Innowacyjności i Nowoczesnych
+               i Środków Przekazu                                 Technologii
+
+                 (-) Piotr Adamowicz                             (-) Bartłomiej Pejo
+
+                                         Sprawozdawca
+                                       (-) Urszula Augustyn
+
+
+               Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 11     Data : 2026-09-17   Nazwa pliku : V7_143-9.NK                             1
+X kadencja/druk nr 3000
+
+                                                                                          Projekt
+                                            U S T AWA
+
+                                          z dnia ….. 2026 r.
+
+                o zmianie ustawy o narodowym zasobie archiwalnym i archiwach
+
+
+     Art. 1. W ustawie z dnia 14 lipca 1983 r. o narodowym zasobie archiwalnym i archiwach
+(Dz. U. z 2020 r. poz. 164 oraz z 2025 r. poz. 1173) wprowadza się następujące zmiany:
+1)   w art. 5:
+     a)    ust. 2a otrzymuje brzmienie:
+                    „2a. Minister właściwy do spraw informatyzacji, po zasięgnięciu opinii
+           Naczelnego Dyrektora Archiwów Państwowych, określi, w drodze rozporządzenia,
+           niezbędne elementy struktury dokumentów elektronicznych powstałych i
+           gromadzonych w podmiotach, o których mowa w ust. 1, sposób porządkowania
+           metadanych        oraz   konieczność    umieszczania       poszczególnych   składników
+           metadanych,         uwzględniając      minimalne     wymagania        dla    systemów
+           teleinformatycznych używanych do realizacji zadań publicznych i wymiany danych
+           z podmiotami publicznymi oraz minimalne wymagania dla rejestrów publicznych, a
+           także potrzebę zapewnienia integralności dokumentów elektronicznych.”,
+     b)    uchyla się ust. 2b,
+     c)    po ust. 2b dodaje się ust. 2ba w brzmieniu:
+                    „2ba. Minister właściwy do spraw kultury i ochrony dziedzictwa narodowego,
+           po zasięgnięciu opinii Naczelnego Dyrektora Archiwów Państwowych, określi, w
+           drodze rozporządzenia:
+           1)       minimalne wymagania techniczne dla odwzorowań cyfrowych powstałych
+                    i gromadzonych w podmiotach, o których mowa w ust. 1,
+           2)       sposób przygotowania, ewidencjonowania i technicznego zabezpieczenia
+                    materiałów archiwalnych przechowywanych w składach chronologicznych i
+                    składach informatycznych nośników danych funkcjonujących w podmiotach, o
+                    których mowa w ust. 1, przed ich przekazaniem do archiwów państwowych,
+           3)       sposób postępowania z uszkodzonym nośnikiem danych
+           − mając na uwadze wartość historyczną dokumentacji lub utratę jej znaczenia i
+           potrzebę ochrony dokumentacji przed uszkodzeniem, zniszczeniem lub utratą oraz
+Liczba stron : 11        Data : 2026-09-17   Nazwa pliku : V7_143-9.NK                               2
+X kadencja/druk nr 3000
+
+           kierując się zakresem stosowania systemów teleinformatycznych w załatwianiu i
+           rozstrzyganiu spraw.”,
+     d)    ust. 2c otrzymuje brzmienie:
+                    „2c. Minister właściwy do spraw kultury i ochrony dziedzictwa narodowego
+           w porozumieniu z ministrem właściwym do spraw informatyzacji, po zasięgnięciu
+           opinii Naczelnego Dyrektora Archiwów Państwowych, określi, w drodze
+           rozporządzenia, wymagania techniczne, jakim powinny odpowiadać informatyczne
+           nośniki danych i formaty zapisu danych w rozumieniu przepisów ustawy z dnia 17
+           lutego 2005 r. o informatyzacji działalności podmiotów realizujących zadania
+           publiczne, przekazywanych do archiwów państwowych materiałów archiwalnych,
+           uwzględniając potrzebę ochrony tych materiałów przed utratą oraz nieuprawnioną
+           zmianą.”;
+2)   w art. 6:
+     a)    ust. 1a otrzymuje brzmienie:
+                    „1a. Zadania, o których mowa w ust. 1, mogą być dokumentowane
+           elektronicznie i realizowane w ramach systemu teleinformatycznego, który:
+           1)       zapewnia integralność treści dokumentów i metadanych polegającą na
+                    zabezpieczeniu      przed    wprowadzeniem     zmian,    z   wyjątkiem       zmian
+                    wprowadzonych w ramach ustalonych i udokumentowanych procedur;
+           2)       zabezpiecza przed wprowadzeniem zmian w dokumentach załatwionych spraw;
+           3)       zabezpiecza przed usunięciem dokumentów z systemu, z wyjątkiem
+                    udokumentowanych czynności dokonywanych w ramach ustalonych procedur
+                    usuwania dokumentów:
+                    a)     dla których upłynął okres przechowywania ustalony na podstawie art. 6
+                           ust. 2 pkt 2 lub w przepisach wydanych na podstawie art. 6 ust. 2b,
+                    b)     mylnie zapisanych,
+                    c)     mogących stanowić zagrożenie dla prawidłowego funkcjonowania
+                           systemu,
+                    d)     których usunięcie jest wymagane na podstawie przepisu prawa,
+                           prawomocnego orzeczenia sądu lub ostatecznej decyzji organu
+                           administracji;
+           4)       zapewnia stały i skuteczny dostęp do dokumentów oraz ich wyszukiwanie;
+           5)       umożliwia odczytanie metadanych dla każdego dokumentu;
+Liczba stron : 11        Data : 2026-09-17   Nazwa pliku : V7_143-9.NK                             3
+X kadencja/druk nr 3000
+
+           6)       identyfikuje użytkowników i dokumentuje dokonywane przez nich zmiany
+                    w dokumentach i metadanych;
+           7)       zapewnia kontrolę dostępu poszczególnych użytkowników do dokumentów
+                    i metadanych;
+           8)       umożliwia odczytanie bez zniekształceń treści dokumentów wytworzonych
+                    przez organ lub jednostkę organizacyjną, w których działa system;
+           9)       zachowuje dokumenty i metadane w strukturze określonej w przepisach
+                    wydanych na podstawie art. 5 ust. 2a, łącznie z możliwością prezentacji tej
+                    struktury;
+           10) umożliwia            wykonanie     czynności    związanych     z     kwalifikowaniem
+                    i klasyfikowaniem dokumentacji zgodnie z przepisami wydanymi na podstawie
+                    art. 5 ust. 2 pkt 1;
+           11) umożliwia wykonanie czynności związanych z zarządzaniem dokumentami
+                    przechowywanymi w składach chronologicznych i składach informatycznych
+                    nośników danych;
+           12) zapewnia odtworzenie przebiegu załatwiania i rozstrzygania spraw;
+           13) umożliwia wykonanie czynności związanych z brakowaniem dokumentów
+                    stanowiących dokumentację niearchiwalną i dokumentuje ten proces, w tym:
+                    a)     wyodrębnia automatycznie dokumenty przeznaczone do brakowania,
+                    b)     przygotowuje      automatycznie    spis   dokumentacji     niearchiwalnej
+                           przeznaczonej do brakowania;
+           14) umożliwia wykonanie czynności związanych z przygotowaniem dokumentów
+                    stanowiących materiały archiwalne i ich metadanych do przekazania do
+                    właściwego archiwum państwowego, w tym:
+                    a)     wyodrębnia automatycznie dokumenty przeznaczone do przekazania,
+                    b)     umożliwia sporządzenie ewidencji, o której mowa w ust. 1s pkt 5 i 6,
+                    c)     umożliwia wygenerowanie obowiązującego w organie lub jednostce
+                           organizacyjnej, o których mowa w art. 5 ust. 1, jednolitego rzeczowego
+                           wykazu akt w postaci dokumentu elektronicznego zapisanego w formacie
+                           XML, którego wzór jest publikowany w Biuletynie Informacji Publicznej
+                           Naczelnej Dyrekcji Archiwów Państwowych,
+                    d)     zapisuje dokumenty i ich metadane w sposób określony w przepisach
+                           wydanych na podstawie art. 5 ust. 2c,
+Liczba stron : 11        Data : 2026-09-17   Nazwa pliku : V7_143-9.NK                           4
+X kadencja/druk nr 3000
+
+                    e)     eksportuje dokumenty i ich metadane,
+                    f)     oznacza dokumenty przekazane do archiwum państwowego w sposób
+                           umożliwiający ich odróżnienie od dokumentów nieprzekazanych;
+           15) umożliwia przesłanie dokumentów do innych systemów teleinformatycznych,
+                    w szczególności przez:
+                    a)     eksport dokumentów i ich metadanych lub odniesień do tych metadanych
+                           oraz danych dokumentujących dokonane zmiany, o których mowa w pkt
+                           6, z zachowaniem powiązań między tymi dokumentami i metadanymi,
+                    b)     zapisywanie wyeksportowanych metadanych w formacie XML w sposób
+                           określony w przepisach wydanych na podstawie art. 5 ust. 2a;
+           16) umożliwia opatrzenie odwzorowań cyfrowych kwalifikowaną pieczęcią
+                    elektroniczną organu lub jednostki organizacyjnej, o których mowa w art. 5 ust.
+                    1,      wykonujących      odwzorowanie        lub    kwalifikowanym   podpisem
+                    elektronicznym;
+           17) zapewnia ochronę przetwarzanych danych osobowych znajdujących się
+                    w zgromadzonych dokumentach i ich metadanych, zgodnie z rozporządzeniem
+                    Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r.
+                    w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych
+                    osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia
+                    dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) (Dz. Urz. UE
+                    L 119 z 04.05.2016, str. 1, z późn. zm.).”,
+     b)    po ust. 1a dodaje się ust. 1b–1zd w brzmieniu:
+                    „1b. Zadania, o których mowa w ust. 1, mogą być realizowane w ramach
+           elektronicznego zarządzania dokumentacją, będącego systemem wykonywania
+           czynności kancelaryjnych, dokumentowania przebiegu załatwiania i rozstrzygania
+           spraw, gromadzenia i tworzenia dokumentów elektronicznych, z wykorzystaniem
+           systemu, o którym mowa w ust. 1a.
+                    1c. W systemie, o którym mowa w ust. 1a, przechowuje się dokumenty
+           elektroniczne i ich metadane, o których mowa w przepisach wydanych na podstawie
+           art. 5 ust. 2a, lub odniesienie do tych metadanych, jeżeli zapewnia ono stałe
+           przyporządkowanie metadanych aktualnych w dniu wytworzenia dokumentu.
+                    1d. W zakresie zapewnienia prawidłowego zabezpieczenia dokumentów,
+           o których mowa w ust. 1c, do czasu przekazania ich do archiwum państwowego albo
+Liczba stron : 11     Data : 2026-09-17   Nazwa pliku : V7_143-9.NK                            5
+X kadencja/druk nr 3000
+
+           brakowania, stosuje się przepisy wydane na podstawie art. 18 ustawy z dnia 17 lutego
+           2005 r. o informatyzacji działalności podmiotów realizujących zadania publiczne.
+                    1e. System, o którym mowa w ust. 1a, spełnia dla dokumentów, o których mowa
+           w ust. 1c, funkcję archiwum zakładowego albo składnicy akt, a jeżeli zachodzi taka
+           konieczność, zapewnia również funkcjonowanie kilku archiwów zakładowych albo
+           składnic akt w zależności od potrzeb bądź umożliwia przekazanie dokumentów, o
+           których mowa w ust. 1c, do innego systemu teleinformatycznego spełniającego takie
+           funkcje w organach i jednostkach organizacyjnych, o których mowa w art. 5 ust. 1.
+                    1f. W celu zapewnienia kompletności dokumentacji gromadzonej w systemie,
+           o którym mowa w ust. 1a, wykonuje się odwzorowanie cyfrowe dokumentów innych
+           niż elektroniczne, które odzwierciedla tę dokumentację i umożliwia zapoznanie się z
+           jej pełną treścią bez konieczności bezpośredniego dostępu do jej pierwotnej postaci.
+                    1g. Odwzorowanie cyfrowe, o którym mowa w ust. 1f, zastępuje dokumenty
+           sporządzone w postaci innej niż elektroniczna i jest z nią tożsame jako źródło
+           informacji o wartości dowodowej i historycznej, jeżeli spełnia łącznie następujące
+           warunki:
+           1)       zostało wykonane zgodnie z przepisami wydanymi na podstawie art. 5 ust. 2ba
+                    pkt 1;
+           2)       zostało opatrzone kwalifikowanym podpisem elektronicznym upoważnionej
+                    osoby lub kwalifikowaną pieczęcią elektroniczną organu lub jednostki
+                    organizacyjnej sporządzających odwzorowanie cyfrowe;
+           3)       jest ewidencjonowane i przechowywane z wykorzystaniem systemu, o którym
+                    mowa w ust. 1a.
+                    1h. Opatrzenie odwzorowania cyfrowego, o którym mowa w ust. 1f,
+           kwalifikowanym         podpisem    elektronicznym    lub   kwalifikowaną   pieczęcią
+           elektroniczną, o których mowa w ust. 1g pkt 2, lub innym podpisem elektronicznym,
+           o którym mowa w ust. 1i, stanowi potwierdzenie, że odwzorowanie spełnia warunki
+           określone w ust. 1g pkt 1 i 3.
+                    1i. Opatrzenie odwzorowania cyfrowego dokumentów zgromadzonych
+           w służbach specjalnych, o których mowa w art. 11 ustawy z dnia 24 maja 2002 r.
+           o Agencji Bezpieczeństwa Wewnętrznego oraz Agencji Wywiadu (Dz. U. z 2026 r.
+           poz. 937 i 1003), innym podpisem elektronicznym wykorzystywanym w systemach
+           teleinformatycznych służb specjalnych traktuje się na równi z opatrzeniem ich
+Liczba stron : 11     Data : 2026-09-17   Nazwa pliku : V7_143-9.NK                            6
+X kadencja/druk nr 3000
+
+           kwalifikowanym podpisem elektronicznym lub kwalifikowaną pieczęcią, o których
+           mowa w ust. 1g pkt 2.
+                    1j. Prezes Rady Ministrów określi, w drodze rozporządzenia, odrębnie dla
+           Agencji Bezpieczeństwa Wewnętrznego, Agencji Wywiadu i Centralnego Biura
+           Antykorupcyjnego, warunki, jakie musi spełniać inny podpis elektroniczny, o którym
+           mowa w ust. 1i, z uwzględnieniem wymogu, aby podpis elektroniczny potwierdzał
+           autentyczność tworzonego odwzorowania cyfrowego dokumentu.
+                    1k. Minister Obrony Narodowej określi, w drodze rozporządzenia, odrębnie dla
+           Służby Kontrwywiadu Wojskowego i Służby Wywiadu Wojskowego, warunki, jakie
+           musi spełniać inny podpis elektroniczny, o którym mowa w ust. 1i, z uwzględnieniem
+           wymogu, aby podpis elektroniczny potwierdzał autentyczność tworzonego
+           odwzorowania cyfrowego dokumentu.
+                    1l. Dokumenty sporządzone w postaci innej niż elektroniczna są gromadzone
+           w składzie chronologicznym.
+                    1m. Dokumenty zapisane na informatycznych nośnikach danych są
+           gromadzone w składzie informatycznych nośników danych.
+                    1n. Dokumenty sporządzone w postaci innej niż elektroniczna gromadzone w
+           składzie chronologicznym prowadzonym przez organ lub jednostkę organizacyjną,
+           w których funkcjonuje system, o którym mowa w ust. 1a, jeżeli te dokumenty w pełni
+           odwzorowano cyfrowo, są przechowywane przez okres 2 lat, licząc od dnia 1
+           stycznia roku następującego po roku, w którym zostały zgromadzone, a następnie
+           mogą być brakowane w trybie określonym w przepisach wydanych na podstawie art.
+           5 ust. 2 pkt 1 i ust. 3.
+                    1o. Dokumenty zapisane na informatycznych nośnikach danych gromadzone
+           w składzie informatycznych nośników danych prowadzonym przez organ lub
+           jednostkę organizacyjną, w których funkcjonuje system, o którym mowa w ust. 1a,
+           jeżeli te dokumenty w całości zostały skopiowane do systemu, o którym mowa w ust.
+           1a, są przechowywane przez okres 2 lat, licząc od dnia 1 stycznia roku następującego
+           po roku, w którym zostały zgromadzone, a następnie mogą być brakowane w trybie
+           określonym w przepisach wydanych na podstawie art. 5 ust. 2 pkt 1 i ust. 3.
+                    1p. Brakowanie dokumentów elektronicznych, o których mowa w ust. 1c,
+           stanowiących dokumentację niearchiwalną odbywa się w trybie określonym
+Liczba stron : 11     Data : 2026-09-17    Nazwa pliku : V7_143-9.NK                             7
+X kadencja/druk nr 3000
+
+           w przepisach wydanych na podstawie art. 5 ust. 2 pkt 1 i ust. 3 w celu ich zniszczenia
+           wraz z metadanymi je opisującymi, w sposób właściwy dla danej technologii zapisu.
+                    1q. Brakując dokumenty elektroniczne, o których mowa w ust. 1c, stanowiące
+           dokumentację niearchiwalną, można zniszczyć ich odpowiedniki zgromadzone
+           w składzie chronologicznym lub w składzie informatycznych nośników danych bez
+           sporządzania odrębnego spisu, jeżeli nie zostały już one wybrakowane zgodnie z ust.
+           1n i 1o.
+                    1r. Organy lub jednostki organizacyjne, o których mowa w art. 5 ust. 1,
+           przekazują dokumenty elektroniczne, o których mowa w ust. 1c, stanowiące
+           materiały archiwalne do właściwego archiwum państwowego niezwłocznie po
+           upływie 10 lat od ich wytworzenia, jeżeli nie przekazały ich wcześniej.
+                    1s. Materiały archiwalne, o których mowa w ust. 1r, przekazuje się do
+           archiwum państwowego po:
+           1)       przypisaniu do każdego dokumentu, o którym mowa w ust. 1c, metadanych,
+                    których podanie jest obowiązkowe zgodnie z przepisami wydanymi na
+                    podstawie art. 5 ust. 2a;
+           2)       sprawdzeniu kompletności akt sprawy oraz ewentualnym uzupełnieniu akt
+                    sprawy o brakujące przesyłki lub pisma;
+           3)       uporządkowanym zapisaniu tych dokumentów w strukturze określonej
+                    w przepisach wydanych na podstawie art. 5 ust. 2a, w sposób określony
+                    w przepisach wydanych na podstawie art. 5 ust. 2c;
+           4)       wykonaniu z całości dokumentów sporządzonych w postaci innej niż
+                    elektroniczna zgromadzonych w składzie chronologicznym odwzorowania
+                    cyfrowego i opatrzeniu go kwalifikowanym podpisem elektronicznym lub
+                    kwalifikowaną pieczęcią elektroniczną oraz wprowadzeniu go w całości do akt
+                    sprawy;
+           5)       przygotowaniu dokumentów w postaci innej niż elektroniczna, które nie zostały
+                    odwzorowane cyfrowo lub nie zostały odwzorowane cyfrowo w całości, a które
+                    odpowiadają przekazywanym materiałom archiwalnym lub ich metadanym
+                    znajdującym się w systemie, o którym mowa w ust. 1a, wraz z ich ewidencją;
+           6)       przygotowaniu dokumentów zapisanych na informatycznych nośnikach
+                    danych, które nie zostały skopiowane lub nie zostały skopiowane w całości do
+                    systemu, o którym mowa w ust. 1a, a które odpowiadają materiałom
+Liczba stron : 11     Data : 2026-09-17   Nazwa pliku : V7_143-9.NK                           8
+X kadencja/druk nr 3000
+
+                    archiwalnym lub ich metadanym znajdującym się w systemie, o którym mowa
+                    w ust. 1a, wraz z ich ewidencją.
+                    1t. Odwzorowanie cyfrowe, o którym mowa w ust. 1s pkt 4, wykonuje się, gdy
+           akta sprawy, która ma zostać przekazana, nie zawierają odwzorowania cyfrowego
+           ich całości oraz zawierają metadane dokumentów nieodwzorowanych cyfrowo, a
+           warunki techniczne i prawne na to pozwalają.
+                    1u. Do materiałów archiwalnych, o których mowa w ust. 1r, dołącza się
+           jednolity rzeczowy wykaz akt w formacie XML, którego wzór jest publikowany
+           w Biuletynie Informacji Publicznej Naczelnej Dyrekcji Archiwów Państwowych,
+           obowiązujący w jednostce organizacyjnej w okresie wytworzenia materiałów
+           archiwalnych przekazywanych do archiwum państwowego.
+                    1v. W przypadku przekazywania materiałów archiwalnych organu lub jednostki
+           organizacyjnej, których działalność trwale ustała, do materiałów archiwalnych,
+           o których mowa w ust. 1r, należy dołączyć, w postaci dokumentu elektronicznego,
+           podstawowe dane dotyczące organizacji i zakresu ich działania w ujęciu
+           chronologicznym tego organu lub tej jednostki.
+                    1w. Materiały archiwalne, o których mowa w ust. 1r, przekazuje się do
+           właściwego        archiwum     państwowego    za   pomocą    środków    komunikacji
+           elektronicznej lub na informatycznym nośniku danych spełniającym wymagania
+           techniczne określone w przepisach wydanych na podstawie art. 5 ust. 2c.
+                    1x. Dyrektor właściwego archiwum państwowego ustala, w porozumieniu
+           z zainteresowanym organem lub zainteresowaną jednostką organizacyjną, o których
+           mowa w art. 5 ust. 1, sposób przekazania materiałów archiwalnych, o których mowa
+           w ust. 1r.
+                    1y. Dyrektor właściwego archiwum państwowego może, w przypadku
+           nieprzygotowania materiałów archiwalnych, o których mowa w ust. 1r, w sposób
+           określony w ust. 1s, wstrzymać ich przekazanie do archiwum państwowego do czasu
+           dokonania odpowiednich zmian, określając termin ich dokonania.
+                    1z. Materiały archiwalne, o których mowa w ust. 1r, zgrupowane inaczej niż w
+           akta spraw bądź niezawierające metadanych, o których mowa w przepisach
+           wydanych na podstawie art. 5 ust. 2a, lub zapisane w sposób inny niż określony
+           w przepisach wydanych na podstawie art. 5 ust. 2c przekazuje się w sposób
+           uzgodniony z dyrektorem właściwego archiwum państwowego.
+Liczba stron : 11     Data : 2026-09-17   Nazwa pliku : V7_143-9.NK                           9
+X kadencja/druk nr 3000
+
+                    1za. Dyrektor właściwego archiwum państwowego potwierdza przejęcie
+           materiałów archiwalnych, o których mowa w ust. 1r, w terminie niedłuższym niż 3
+           miesiące od dnia przekazania materiałów archiwalnych.
+                    1zb. W przypadku gdy w organie lub jednostce organizacyjnej, o których mowa
+           w art. 5 ust. 1, nie występują materiały archiwalne, o których mowa w ust. 1s pkt 5 i
+           6, kierownik jednostki organizacyjnej przekazuje stosowne oświadczenie
+           dyrektorowi właściwego archiwum państwowego wraz z materiałami archiwalnymi,
+           o których mowa w ust. 1r.
+                    1zc. Do czasu uzyskania potwierdzenia, o którym mowa w ust. 1za, organ lub
+           jednostka organizacyjna, o których mowa w art. 5 ust. 1, mają obowiązek
+           przechowywać przekazane materiały archiwalne, o których mowa w ust. 1r, wraz z
+           ich metadanymi.
+                    1zd. Po potwierdzeniu przejęcia materiałów archiwalnych, o których mowa w
+           ust. 1r, wraz z ich metadanymi przez dyrektora właściwego archiwum państwowego
+           organ lub jednostka organizacyjna, o których mowa w art. 5 ust. 1, usuwają te
+           materiały wraz z ich metadanymi z systemu, o którym mowa w ust. 1a, w sposób
+           właściwy dla danej technologii zapisu.”;
+3)   w art. 21:
+     a)    w ust. 1:
+           –   pkt 5 otrzymuje brzmienie:
+               „5) nadzór nad działalnością naukową, edukacyjną i wydawniczą prowadzoną
+                       w archiwach państwowych;”,
+           –   pkt 9 otrzymuje brzmienie:
+               „9) popularyzacja wiedzy o materiałach archiwalnych i archiwach oraz
+                       prowadzenie działalności informacyjnej, edukacyjnej i wydawniczej;”,
+     b)    ust. 1a otrzymuje brzmienie:
+                    „1a. Naczelny Dyrektor Archiwów Państwowych w sprawach, o których mowa
+           w ust. 1 pkt 1, 4, 5, 9 i 10, dotyczących podległych mu archiwów państwowych może
+           wydawać zarządzenia.”;
+4)   w art. 28 w ust. 1 pkt 5 otrzymuje brzmienie:
+     „5) prowadzenie działalności naukowej, wydawniczej i edukacyjnej w zakresie
+           archiwistyki i zakresach pokrewnych;”;
+Liczba stron : 11     Data : 2026-09-17   Nazwa pliku : V7_143-9.NK                      10
+X kadencja/druk nr 3000
+
+5)   w art. 36a pkt 3 otrzymuje brzmienie:
+     „3) posiada dokumentację przydatną dla potrzeb nauki, kultury, techniki lub gospodarki
+           na terenie, na którym jest ona wytwarzana i gromadzona.”;
+6)   po art. 39 dodaje się art. 39a w brzmieniu:
+           „Art. 39a. 1. Osobom fizycznym i jednostkom organizacyjnym wyróżniającym się
+     w dziedzinie:
+     1)    działalności archiwalnej,
+     2)    popularyzacji wiedzy o materiałach archiwalnych i archiwach oraz prowadzenia w
+           tym zakresie działalności informacyjnej, edukacyjnej i wydawniczej
+     – nadaje się odznakę honorową „Za Zasługi dla Dziedzictwa Archiwalnego”, zwaną dalej
+     „odznaką honorową”.
+           2. Odznakę honorową nadaje jednorazowo Naczelny Dyrektor Archiwów
+     Państwowych z własnej inicjatywy lub na wniosek:
+     1)    dyrektora archiwum państwowego;
+     2)    kierującego archiwum wyodrębnionym;
+     3)    dyrektora instytucji kultury prowadzącej działalność archiwalną;
+     4)    ministra lub kierownika centralnego urzędu administracji rządowej;
+     5)    wojewody;
+     6)    marszałka województwa;
+     7)    Prezesa Polskiej Akademii Nauk;
+     8)    Prezesa Polskiej Akademii Umiejętności;
+     9)    rektora uczelni;
+     10) kierownika placówki dyplomatycznej lub konsularnej Rzeczypospolitej Polskiej;
+     11) organizacji społecznej, stowarzyszenia lub fundacji:
+           a)       prowadzących działalność archiwalną,
+           b)       popularyzujących wiedzę o materiałach archiwalnych i archiwach oraz
+                    prowadzących w tym zakresie działalność informacyjną, edukacyjną lub
+                    wydawniczą.
+           3. W związku z nadawaniem odznaki honorowej mogą być przetwarzane
+     następujące dane osób fizycznych, o których mowa w ust. 1:
+     1)    imię (imiona) i nazwisko;
+     2)    data urodzenia;
+     3)    miejsce pracy i zajmowane stanowisko;
+Liczba stron : 11   Data : 2026-09-17   Nazwa pliku : V7_143-9.NK                         11
+X kadencja/druk nr 3000
+
+     4)    wykształcenie;
+     5)    stopień naukowy, stopień w zakresie sztuki lub tytuł profesora.
+           4. Okres przechowywania danych osób, o których mowa w ust. 3, wynosi 80 lat.
+           5. Minister właściwy do spraw kultury i ochrony dziedzictwa narodowego określi,
+     w drodze rozporządzenia:
+     1)    sposób wręczania odznaki honorowej,
+     2)    wzór odznaki honorowej,
+     3)    sposób noszenia i przechowywania odznaki honorowej,
+     4)    elementy, jakie musi zawierać wniosek o nadanie odznaki honorowej
+     – uwzględniając wzornictwo stosowane w polskiej falerystyce oraz potrzebę sprawnego
+     przeprowadzenia postępowania o nadanie odznaki honorowej oraz godnego i uroczystego
+     uhonorowania osób fizycznych i jednostek organizacyjnych, którym jest nadawana
+     odznaka honorowa.”.
+
+     Art. 2. Za odwzorowanie cyfrowe, o którym mowa w art. 6 ust. 1f ustawy zmienianej
+w art. 1, uznaje się również odwzorowania cyfrowe dokumentów wykonane przed dniem
+wejścia w życie niniejszej ustawy, jeżeli odwzorowania te zostały wykonane w celu realizacji
+zadań, o których mowa w art. 6 ust. 1 ustawy zmienianej w art. 1, z wykorzystaniem systemu,
+o którym mowa w art. 6 ust. 1a ustawy zmienianej w art. 1.
+
+     Art. 3. Przepisów art. 6 ust. 1n i 1o ustawy zmienianej w art. 1 nie stosuje się do
+dokumentacji, o której mowa w art. 6 ust. 1 tej ustawy, sporządzonej przed dniem 20 stycznia
+2011 r.
+
+     Art. 4. Systemy, o których mowa w art. 6 ust. 1a ustawy zmienianej w art. 1,
+niespełniające wymogów tej ustawy, należy do nich dostosować w terminie 24 miesięcy od
+dnia wejścia w życie niniejszej ustawy.
+
+     Art. 5. Ustawa wchodzi w życie po upływie 12 miesięcy od dnia ogłoszenia.
+
