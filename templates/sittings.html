@@ -8,15 +8,32 @@
 <table>
   <thead><tr><th>{{ _("Posiedzenie") }}</th><th>{{ _("Daty głosowań") }}</th><th class="num">{{ _("Głosowania") }}</th><th class="num">{{ _("Głos. nad poprawkami") }}</th></tr></thead>
   <tbody>
+  {# the current sitting: its votes since the build counted in from the Sejm's API (static/newvotes.js) #}
+  {% set u = upcoming if upcoming and upcoming.under_way else none %}
+  {% set live_s = u.number if u else latest_sitting %}
+  {% if u and u.number not in sittings %}
+  <tr data-live-row hidden>
+    <td>{{ sitting_name(u.number) }}</td>
+    <td>{{ u.dates[0] | date_pl }} – <span data-live-last></span></td>
+    <td class="num"><span data-live-count data-base="0">0</span></td>
+    <td class="num"><span data-live-amend data-base="0">0</span></td>
+  </tr>
+  {% endif %}
   {% for s, votings in sittings | dictsort(reverse=true) %}
+  {% set live = s == live_s %}
   <tr>
     <td><a href="{{ root }}posiedzenie/{{ s }}.html">{{ sitting_name(s) }}</a></td>
-    <td>{{ votings[0].date | date_pl }}{% if votings[-1].date[:10] != votings[0].date[:10] %} – {{ votings[-1].date | date_pl }}{% endif %}</td>
-    <td class="num">{{ votings | length }}</td>
-    <td class="num">{{ votings | selectattr("amendments") | list | length }}</td>
+    <td>{{ votings[0].date | date_pl }}{% if live %} – <span data-live-last>{{ votings[-1].date | date_pl }}</span>{% elif votings[-1].date[:10] != votings[0].date[:10] %} – {{ votings[-1].date | date_pl }}{% endif %}</td>
+    {% set n_amend = votings | selectattr("amendments") | list | length %}
+    <td class="num">{% if live %}<span data-live-count data-base="{{ votings | length }}">{{ votings | length }}</span>{% else %}{{ votings | length }}{% endif %}</td>
+    <td class="num">{% if live %}<span data-live-amend data-base="{{ n_amend }}">{{ n_amend }}</span>{% else %}{{ n_amend }}{% endif %}</td>
   </tr>
   {% endfor %}
   </tbody>
 </table>
 </div>
+{% set built = sittings.get(live_s) %}
+<span hidden data-live-votes="https://api.sejm.gov.pl/sejm/term{{ TERM }}/votings/{{ live_s }}" data-term="{{ TERM }}" data-root="{{ root }}"
+  data-after="{{ built[-1].votingNumber if built else 0 }}" data-dates="{{ (u.dates if u else []) | join(',') }}"></span>
+<script src="{{ site_root }}static/newvotes.js?v={{ static_version('newvotes.js') }}" defer></script>
 {% endblock %}

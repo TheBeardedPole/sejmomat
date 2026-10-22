@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{# A vote taken since the last rebuild, drawn in the browser from the Sejm's
+   API (static/livevote.js): glosowanie-na-zywo.html?posiedzenie=N&nr=M. The
+   regular page (glosowanie/N-M.html) comes with the next rebuild. #}
+{% block title %}{{ _("Głosowanie") }}{% endblock %}
+{% block content %}
+{% set majorities = {} %}{% for k, l in MAJORITY_LABEL.items() %}{% set _x = majorities.update({k: _(l)}) %}{% endfor %}
+{% set slugs = {} %}{% for c in club_rows %}{% set _x = slugs.update({c.id: c.slug}) %}{% endfor %}
+<div id="live-vote" data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/votings" data-root="{{ root }}"
+  data-clubs="{{ slugs | tojson | forceescape }}"
+  data-labels="{{ {"Y": _(VOTE_LABEL["Y"]), "N": _(VOTE_LABEL["N"]), "A": _(VOTE_LABEL["A"]), "X": _(VOTE_LABEL["X"]),
+                   "lineY": _(LINE_LABEL["Y"]), "lineN": _(LINE_LABEL["N"]), "lineA": _(LINE_LABEL["A"]),
+                   "yes": _("za"), "no": _("przeciw"), "abstain": _("wstrzymało się"), "absent": _("nie głosowało"),
+                   "passed": _("Przyjęto"), "rejected": _("Odrzucono"), "vote": _("głosowanie nr"), "sitting": _("posiedzenie Sejmu"),
+                   "clubs": _("Jak głosowały kluby"), "club": _("Klub / koło"), "abstainShort": _("wstrz."), "absentShort": _("nie gł."),
+                   "line": _("linia klubu"), "split": _("podzielony"), "rebels": _("Wyłamali się z linii klubu"), "mp": _("Poseł"),
+                   "ballot": _("Głos"), "clubLine": _("Linia klubu"), "noRebels": _("Wszyscy głosujący członkowie klubów z wyraźną linią głosowali zgodnie z nią."),
+                   "click": _("Kliknij klub, aby zobaczyć głosy imienne."), "regular": _("Pełna strona głosowania"),
+                   "note": _("Głosowanie wczytane z API Sejmu; pełna strona (z poprawkami i drukami) pojawi się przy następnej aktualizacji serwisu."),
+                   "missing": _("Nie znaleziono takiego głosowania."), "majority": _("Wymagana"), "votesWord": _("głosów")} | tojson | forceescape }}"
+  data-majorities="{{ majorities | tojson | forceescape }}">
+  <p class="muted">{{ _("Wczytywanie głosowania z API Sejmu…") }}</p>
+</div>
+<script src="{{ site_root }}static/livevote.js?v={{ static_version('livevote.js') }}" defer></script>
+{% endblock %}

@@ -98,6 +98,16 @@
 {% endmacro %}
 
 {# The next sitting, for the home page and the list of sittings. #}
+{# Votes taken since the build, from the Sejm's API (static/newvotes.js):
+   after = the last vote number already on the page, dates = the sitting's days. #}
+{% macro new_votes(sitting, after, dates) %}
+<section class="new-votes" hidden data-live-votes="https://api.sejm.gov.pl/sejm/term{{ TERM }}/votings/{{ sitting }}"
+  data-term="{{ TERM }}" data-after="{{ after }}" data-dates="{{ dates | join(',') }}" data-root="{{ root }}"
+  data-labels="{{ {"passed": _("Przyjęto"), "rejected": _("Odrzucono"), "procedural": _("Sprawy proceduralne"), "heading": _("Głosowania"),
+                   "note": _("Najnowsze głosowania wczytują się na bieżąco z API Sejmu; kluby, posłowie i poprawki są na ich stronach od razu, a w pozostałych zestawieniach serwisu — od następnej aktualizacji.")} | tojson | forceescape }}"></section>
+<script src="{{ site_root }}static/newvotes.js?v={{ static_version('newvotes.js') }}" defer></script>
+{% endmacro %}
+
 {# The Sejm's live stream on the days of the next or current sitting
    (static/live.js asks the Sejm's API for today's plenary stream). #}
 {% macro live_box() %}

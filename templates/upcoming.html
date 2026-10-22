@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "_macros.html" import print_link %}
-{% from "_cards.html" import live_box with context %}
+{% from "_cards.html" import live_box, new_votes with context %}
 {% set u = upcoming %}
 {% macro when(dates) %}{{ dates[0] | date_pl }}{% if dates[-1] != dates[0] %} – {{ dates[-1] | date_pl }}{% endif %}{% endmacro %}
 {% block title %}{% if u and u.under_way %}{{ _("Trwające posiedzenie") }}{% else %}{{ _("Nadchodzące posiedzenie") }}{% endif %}{% if u %}: {{ sitting_name(u.number) }}{% endif %}{% endblock %}
@@ -15,6 +15,11 @@
 <h1>{% if u.under_way %}{{ _("Trwające posiedzenie") }}{% else %}{{ _("Nadchodzące posiedzenie") }}{% endif %}: {{ sitting_name(u.number) }}</h1>
 <p class="tagline">{{ when(u.dates) }} · {{ u.dates | length }} {{ _("dni obrad") }}</p>
 {{ live_box() }}
+{% if u.under_way %}
+{% set built = sittings.get(u.number) %}
+{{ new_votes(u.number, built[-1].votingNumber if built else 0, u.dates) }}
+{% if built %}<p><a href="{{ root }}posiedzenie/{{ u.number }}.html">{{ _("Wszystkie głosowania na tym posiedzeniu") }} ({{ built | length }}+) →</a></p>{% endif %}
+{% endif %}
 <div class="grid">
   <div class="card stat"><b>{{ u.groups[0]["items"] | length }}</b>{{ _("punktów w porządku obrad") }}</div>
   {% if u.groups | length > 1 %}<div class="card stat"><b>{{ items | length - u.groups[0]["items"] | length }}</b>{{ _("punktów, które mogą zostać dodane") }}</div>{% endif %}

@@ -210,3 +210,9 @@ ol.agenda .link-btn:hover { text-decoration: underline; }
 ol.agenda .clip-video { display: block; width: 100%; max-width: 720px; aspect-ratio: 16 / 9; background: #000; border-radius: 8px; margin: 8px 0; }
 ol.agenda .sp-play { font: inherit; font-size: .8em; padding: 0 2px; border: 0; background: none; color: var(--accent); cursor: pointer; }
 ol.agenda .sp-playing { font-weight: 600; }
+/* votes taken since the build (static/newvotes.js) */
+.new-votes h2 { display: flex; align-items: center; gap: 8px; margin: 0 0 4px; }
+.new-votes .new-votes-group { margin-top: 12px; }
+.live-dot { width: 10px; height: 10px; border-radius: 50%; background: #d62828; animation: live-pulse 1.6s ease-in-out infinite; }
+@keyframes live-pulse { 50% { opacity: .35; } }
+@media (prefers-reduced-motion: reduce) { .live-dot { animation: none; } }

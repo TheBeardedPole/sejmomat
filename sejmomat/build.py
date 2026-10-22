@@ -437,7 +437,7 @@ def build_context():
         "club_rows": club_rows, "club_slug": club_slug,
         "adopted": adopted, "proposers": proposers, "mp_proposers": mp_proposers,
         "by_proposer": by_proposer,
-        "all_amendments": all_amendments, "latest": latest,
+        "all_amendments": all_amendments, "latest": latest, "latest_sitting": last_sitting,
         "transfers": [(pair, n, pair in renames) for pair, n in transfers.most_common()],
         "bills": bill_rows, "bill_by_root": bill_by_root, "speeches_by_mp": speeches_by_mp,
         "speeches_by_bill": speeches_by_bill,
@@ -894,6 +894,7 @@ def _pages(ctx):
     yield "amendments.html", "poprawki.html", {}
     yield "pending.html", "poprawki-oczekujace.html", {}
     yield "frozen.html", "zamrazarka.html", {}
+    yield "live_vote.html", "glosowanie-na-zywo.html", {}
     yield "adopted.html", "skuteczne-poprawki.html", {}
     yield "method.html", "metodologia.html", {}
     yield "search.html", "szukaj.html", {}
