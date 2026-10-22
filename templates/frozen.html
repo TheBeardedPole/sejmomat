@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+{% set bills = frozen.bills %}
+{% set club_pages = club_rows | map(attribute="id") | list %}
+{% set PLACES = [
+  ("referral", "marshal", _("Nieskierowane do pierwszego czytania")),
+  ("reading1_plenary", "marshal", _("Czekają na pierwsze czytanie na sali")),
+  ("reading2", "marshal", _("Sprawozdanie gotowe, czekają na drugie czytanie")),
+  ("reading1_committee", "committee", _("Czekają na pierwsze czytanie w komisji")),
+  ("report", "committee", _("Po pierwszym czytaniu, bez sprawozdania komisji")),
+] %}
+{% set SPONSOR_LABEL = {"Rządowy": _("rządowy"), "Poselski": _("poselski"), "Obywatelski": _("obywatelski"), "Senacki": _("senacki"),
+                        "Prezydencki": _("prezydencki"), "Komisyjny": _("komisyjny"), "Inny": _("inny")} %}
+{% block title %}{{ _("Zamrażarka: projekty, które utknęły") }}{% endblock %}
+{% block description %}{{ bills | length }} {{ _("projektów ustaw i uchwał czeka u Marszałka Sejmu albo w komisjach; ile dni i na co.") }}{% endblock %}
+{% block content %}
+<style>
+  .frozen-stats td, .frozen-stats th { text-align: right; }
+  .frozen-stats td:first-child, .frozen-stats th:first-child { text-align: left; }
+  #frozen-table td:nth-child(2) { min-width: 18em; }
+  #frozen-table .desc { font-size: .88rem; }
+</style>
+<h1>{{ _("Zamrażarka") }}</h1>
+<p>{{ _("Projekty ustaw i uchwał, które utknęły przed drugim czytaniem: czekają, aż Marszałek Sejmu skieruje je do pierwszego czytania albo wpisze pierwsze lub drugie czytanie do porządku obrad, albo aż komisja się nimi zajmie lub przygotuje sprawozdanie. Liczy się czas od ostatniego kroku w przebiegu prac.") }}</p>
+
+<div class="grid">
+  <div class="card stat"><b>{{ bills | selectattr("holder", "equalto", "marshal") | list | length }}</b>{{ _("czeka u Marszałka Sejmu") }}</div>
+  <div class="card stat"><b>{{ bills | selectattr("holder", "equalto", "committee") | list | length }}</b>{{ _("czeka w komisjach") }}</div>
+  <div class="card stat"><b>{{ bills | selectattr("stalled") | list | length }}</b>{{ _("bez ruchu ponad pół roku") }}</div>
+</div>
+
+<h2>{{ _("Gdzie czekają") }}</h2>
+{% set sponsors = bills | map(attribute="sponsor") | unique | list %}
+{% set sponsors = (["Rządowy", "Poselski", "Obywatelski", "Senacki", "Prezydencki", "Komisyjny", "Inny"] | select("in", sponsors) | list) %}
+<div class="table-scroll"><table class="frozen-stats">
+  <thead><tr><th>{{ _("Etap") }}</th>{% for s in sponsors %}<th>{{ SPONSOR_LABEL[s] }}</th>{% endfor %}<th>{{ _("Razem") }}</th></tr></thead>
+  <tbody>
+  {% for place, holder, label in PLACES %}
+  <tr><td>{{ label }} <span class="muted">({{ _("Marszałek") if holder == "marshal" else _("komisje") }})</span></td>
+    {% for s in sponsors %}<td>{{ frozen.counts.get((place, s), 0) or "" }}</td>{% endfor %}
+    <td><strong>{{ bills | selectattr("place", "equalto", place) | list | length }}</strong></td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+
+{% set mp_bills = bills | selectattr("club") | list %}
+{% if mp_bills %}
+<h2>{{ _("Projekty poselskie według klubu") }}</h2>
+<p class="muted">{{ _("Klub posła, który podpisał projekt jako pierwszy, w dniu złożenia projektu (z podpisów w druku).") }}
+  {{ bills | selectattr("sponsor", "equalto", "Poselski") | rejectattr("club") | list | length }} {{ _("projektów poselskich bez odczytanych podpisów.") }}</p>
+<div class="table-scroll"><table class="frozen-stats">
+  <thead><tr><th>{{ _("Klub") }}</th><th>{{ _("u Marszałka") }}</th><th>{{ _("w komisjach") }}</th><th>{{ _("bez ruchu ponad pół roku") }}</th><th>{{ _("Razem") }}</th></tr></thead>
+  <tbody>
+  {% for club, group in frozen.by_club %}
+  <tr><td>{% if club in club_pages %}<a href="{{ root }}klub/{{ club_slug(club) }}.html">{{ club }}</a>{% else %}{{ club }}{% endif %}</td>
+    <td>{{ group | selectattr("holder", "equalto", "marshal") | list | length }}</td>
+    <td>{{ group | selectattr("holder", "equalto", "committee") | list | length }}</td>
+    <td>{{ group | selectattr("stalled") | list | length }}</td>
+    <td><strong>{{ group | length }}</strong></td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% endif %}
+
+<h2>{{ _("Komisje") }}</h2>
+<p class="muted">{{ _("Projekty czekające w komisji (na pierwsze czytanie albo sprawozdanie) i przerwy między posiedzeniami komisji w tej kadencji; dni od ostatniego posiedzenia pogrubione, gdy to ponad dwa miesiące.") }}</p>
+<div class="table-scroll"><table class="frozen-stats" id="committee-breaks">
+  <thead><tr><th data-sort="text">{{ _("Komisja") }}</th><th data-sort="num">{{ _("Czeka") }}</th><th data-sort="num">{{ _("ponad pół roku") }}</th>
+    <th data-sort="num">{{ _("Najdłużej (dni)") }}</th><th data-sort="num">{{ _("Posiedzenia") }}</th><th data-sort="num">{{ _("Od ostatniego (dni)") }}</th>
+    <th data-sort="num">{{ _("Najdłuższa przerwa (dni)") }}</th></tr></thead>
+  <tbody>
+  {% for c in frozen.committees if c.held or c.meetings %}
+  <tr><td><a href="{{ root }}komisja/{{ c.code }}.html" lang="pl">{{ c.name }}</a></td>
+    <td data-v="{{ c.held }}">{{ c.held or "" }}</td><td data-v="{{ c.held_long }}">{{ c.held_long or "" }}</td>
+    <td data-v="{{ c.longest }}">{{ c.longest or "" }}</td><td data-v="{{ c.meetings }}">{{ c.meetings }}</td>
+    <td data-v="{{ c.since_last or 0 }}" title="{{ c.last | date_pl if c.last }}">{% if c.since_last is not none and c.since_last > 60 %}<strong>{{ c.since_last }}</strong>{% else %}{{ c.since_last if c.since_last is not none else "—" }}{% endif %}</td>
+    <td data-v="{{ c.gap }}" title="{% if c.gap_from %}{{ c.gap_from | date_pl }} – {{ c.gap_to | date_pl }}{% endif %}">{{ c.gap or "" }}{% if c.gap_from %} <span class="muted">({{ c.gap_from[:7] }} – {{ c.gap_to[:7] }})</span>{% endif %}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+
+<h2>{{ _("Projekty") }}</h2>
+<div class="filters">
+  <input type="search" id="frozen-text" placeholder="{{ _('Szukaj w tytułach i opisach…') }}" aria-label="{{ _('Szukaj') }}">
+  <select id="frozen-place" aria-label="{{ _('Etap') }}">
+    <option value="">{{ _("Wszystkie etapy") }}</option>
+    {% for place, holder, label in PLACES %}<option value="{{ place }}">{{ label }}</option>{% endfor %}
+  </select>
+  <select id="frozen-sponsor" aria-label="{{ _('Wnioskodawca') }}">
+    <option value="">{{ _("Wszyscy wnioskodawcy") }}</option>
+    {% for s in sponsors %}<option value="{{ s }}">{{ SPONSOR_LABEL[s] }}</option>{% endfor %}
+  </select>
+  {% set clubs_here = bills | selectattr("club") | map(attribute="club") | unique | sort | list %}
+  {% if clubs_here %}<select id="frozen-club" aria-label="{{ _('Klub') }}">
+    <option value="">{{ _("Wszystkie kluby") }}</option>
+    {% for c in clubs_here %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+  </select>{% endif %}
+  <select id="frozen-type" aria-label="{{ _('Rodzaj') }}">
+    <option value="">{{ _("Ustawy i uchwały") }}</option>
+    <option value="BILL">{{ _("Projekty ustaw") }}</option>
+    <option value="DRAFT_RESOLUTION">{{ _("Projekty uchwał") }}</option>
+  </select>
+  <span class="muted" id="frozen-count" aria-live="polite"></span>
+</div>
+<div class="table-scroll">
+<table id="frozen-table">
+  <thead><tr>
+    <th class="num" data-sort="num">{{ _("Dni") }}</th><th data-sort="text">{{ _("Projekt") }}</th><th data-sort="text">{{ _("Etap") }}</th>
+    <th data-sort="text">{{ _("Wnioskodawca") }}</th><th data-sort="text">{{ _("Komisje") }}</th><th data-sort="text">{{ _("Wpłynął") }}</th>
+  </tr></thead>
+  <tbody>
+  {% for b in bills %}
+  <tr data-place="{{ b.place }}" data-sponsor="{{ b.sponsor }}" data-type="{{ b.type }}" data-club="{{ b.club or '' }}">
+    <td class="num" data-v="{{ b.days }}">{% if b.stalled %}<strong>{{ b.days }}</strong>{% else %}{{ b.days }}{% endif %}</td>
+    <td lang="pl">{% if b.number in bill_by_root %}<a href="{{ root }}ustawa/{{ b.number }}.html">{{ b.title }}</a>{% else %}<a href="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/PrzebiegProc.xsp?nr={{ b.number }}">{{ b.title }}</a>{% endif %}
+      {% if b.description %}<br><span class="desc" lang="pl">{{ b.description | replace("projekt dotyczy ", "") | truncate(220) }}</span>{% endif %}
+      <br><span class="muted">{{ _("druk nr") }} {{ b.number }} · {{ _("ostatni krok") }}: {{ b.since | date_pl }}</span></td>
+    <td>{% for place, holder, label in PLACES if place == b.place %}{{ label }}{% endfor %}</td>
+    <td>{{ SPONSOR_LABEL[b.sponsor] }}{% if b.club %} · {% if b.club in club_pages %}<a href="{{ root }}klub/{{ club_slug(b.club) }}.html">{{ b.club }}</a>{% else %}{{ b.club }}{% endif %}{% endif %}</td>
+    <td lang="pl">{% for code, name in b.committees %}{% if code in committee_names %}<a href="{{ root }}komisja/{{ code }}.html" title="{{ name }}">{{ code }}</a>{% else %}{{ code }}{% endif %}{{ ", " if not loop.last }}{% endfor %}</td>
+    <td data-v="{{ b.submitted }}" style="white-space:nowrap">{{ b.submitted | date_pl }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+<p class="note">{{ _("Z przebiegu prac nad projektami w API Sejmu. Projekty odrzucone, wycofane lub zamknięte z innego powodu nie są liczone. Linki prowadzą do przebiegu prac na stronie Sejmu albo, jeśli Sejm już nad projektem głosował, do jego strony tutaj.") }}</p>
+<script>
+(() => {
+  const rows = [...document.querySelectorAll("#frozen-table tbody tr")];
+  const text = document.getElementById("frozen-text"), place = document.getElementById("frozen-place"),
+        sponsor = document.getElementById("frozen-sponsor"), type = document.getElementById("frozen-type"),
+        club = document.getElementById("frozen-club"),
+        count = document.getElementById("frozen-count");
+  const apply = () => {
+    const q = text.value.trim().toLowerCase();
+    let n = 0;
+    for (const r of rows) {
+      const show = (!q || r.cells[1].textContent.toLowerCase().includes(q)) && (!place.value || r.dataset.place === place.value)
+        && (!sponsor.value || r.dataset.sponsor === sponsor.value) && (!type.value || r.dataset.type === type.value)
+        && (!club?.value || r.dataset.club === club.value);
+      r.hidden = !show;
+      n += show;
+    }
+    count.textContent = `${n} / ${rows.length}`;
+  };
+  for (const el of [text, place, sponsor, type, club]) el?.addEventListener("input", apply);
+  apply();
+})();
+</script>
+{% endblock %}

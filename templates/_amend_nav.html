@@ -2,6 +2,7 @@
 <nav class="subnav">
   <a href="{{ root }}poprawki.html"{% if here == "all" %} class="current"{% endif %}>{{ _("Wszystkie poprawki") }}</a>
   <a href="{{ root }}skuteczne-poprawki.html"{% if here == "adopted" %} class="current"{% endif %}>{{ _("Skuteczne poprawki") }}</a>
+  <a href="{{ root }}poprawki-oczekujace.html"{% if here == "pending" %} class="current"{% endif %}>{{ _("Czekające na głosowanie") }}</a>
   {% for p in proposers %}{% if p.voted >= 5 %}
   <a href="{{ root }}poprawki/{{ club_slug(p.name) }}.html"{% if here == p.name %} class="current"{% endif %}>{{ p.name | who }}</a>
   {% endif %}{% endfor %}

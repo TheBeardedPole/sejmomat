@@ -4,6 +4,8 @@
 {% block content %}
 <h1>{{ _("Ustawy i uchwały") }}</h1>
 <p class="muted">{{ _("Projekty, nad którymi Sejm głosował w tej kadencji, od ostatnio głosowanych.") }}</p>
+<p><a href="{{ root }}zamrazarka.html">{{ _("Zamrażarka: projekty, które utknęły u Marszałka lub w komisjach") }} →</a> ·
+  <a href="{{ root }}poprawki-oczekujace.html">{{ _("Poprawki czekające na głosowanie") }} →</a></p>
 <div class="table-scroll">
 <table>
   <thead><tr><th data-sort="text">{{ _("Projekt") }}</th><th data-sort="text">{{ _("Autor") }}</th><th data-sort="text">{{ _("Ostatnie głosowanie") }}</th><th class="num" data-sort="num">{{ _("Głosowania") }}</th><th class="num" data-sort="num">{{ _("Nad poprawkami") }}</th></tr></thead>

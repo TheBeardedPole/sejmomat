@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% set groups = pending_amendments %}
+{% set n_items = groups | sum(attribute="items", start=[]) | length %}
+{% block title %}{{ _("Poprawki czekające na głosowanie") }}{% endblock %}
+{% block description %}{{ n_items }} {{ _("poprawek, wniosków mniejszości i poprawek Senatu, nad którymi Sejm jeszcze nie głosował.") }}{% endblock %}
+{% block content %}
+<style>
+  .pending-group h2 { font-size: 1.05rem; margin: 0 0 4px; }
+  .pending-group .meta { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; margin: 0 0 8px; font-size: .9rem; }
+  .pending-group ol { margin: 0; padding-left: 0; list-style: none; }
+  .pending-group li { padding: 8px 0; border-top: 1px solid var(--line); }
+  .pending-group li .head { font-size: .88rem; color: var(--muted); }
+  .pending-group li .text { margin: 2px 0 0; font-family: Georgia, "Times New Roman", serif; }
+</style>
+<h1>{{ _("Poprawki czekające na głosowanie") }}</h1>
+<p>{{ _("Poprawki zgłoszone w drugim czytaniu, wnioski mniejszości z komisji i poprawki Senatu, nad którymi Sejm jeszcze nie głosował. Wnioski mniejszości i poprawki z drugiego czytania Sejm rozstrzyga w trzecim czytaniu; poprawki Senatu — głosując nad stanowiskiem Senatu.") }}</p>
+{% set here = "pending" %}{% include "_amend_nav.html" %}
+<div class="grid">
+  <div class="card stat"><b>{{ n_items }}</b>{{ _("poprawek i wniosków czeka") }}</div>
+  <div class="card stat"><b>{{ groups | map(attribute="root") | unique | list | length }}</b>{{ _("projektów") }}</div>
+  <div class="card stat"><b>{{ groups | selectattr("on_agenda") | list | length }}</b>{{ _("w porządku obrad najbliższego posiedzenia") }}</div>
+  <div class="card stat"><b>{{ groups | selectattr("stalled") | list | length }}</b>{{ _("czeka ponad pół roku") }}</div>
+</div>
+<p class="note">{{ _("Z druków Sejmu, których nie przywołało jeszcze żadne głosowanie, o ile przebieg prac nad projektem nie pokazuje, że sprawa jest już zamknięta (trzecie czytanie, głosowanie nad stanowiskiem Senatu, odrzucenie, wycofanie).") }}</p>
+
+{% for g in groups %}
+{% set heading = {"amendment": _("Poprawki z drugiego czytania"), "minority": _("Wnioski mniejszości"), "senate": _("Poprawki Senatu")}[g.kind] %}
+<section class="card pending-group" id="druk-{{ g.print }}">
+  <h2 lang="pl">{% if g.root in bill_by_root %}<a href="{{ root }}ustawa/{{ g.root }}.html">{{ g.title }}</a>{% else %}<a href="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/PrzebiegProc.xsp?nr={{ g.root }}">{{ g.title }}</a>{% endif %}</h2>
+  <p class="meta">
+    <strong>{{ heading }} ({{ g["items"] | length }})</strong>
+    <a href="{{ root }}druk/{{ g.print }}.html">{{ _("druk nr") }} {{ g.print }}</a>
+    {% if g.report %}<a href="{{ root }}druk/{{ g.report }}.html">{{ _("sprawozdanie komisji") }}: {{ _("druk nr") }} {{ g.report }}</a>{% endif %}
+    <span class="muted">{{ g.date | date_pl }} · {{ _("czeka") }} {{ g.days }} {{ _("dni") }}</span>
+    {% if g.on_agenda %}<a class="badge adopted" href="{{ root }}nadchodzace-posiedzenie.html">{{ _("w porządku obrad") }}</a>{% endif %}
+    {% if g.stalled %}<span class="badge warn">{{ _("ponad pół roku") }}</span>{% endif %}
+  </p>
+  <details>
+    <summary>{{ _("Pokaż") }} {{ g["items"] | length }}</summary>
+    <ol>
+      {% for it in g["items"] %}{% set id = anchor(g.kind, it.number) %}
+      <li>
+        <div class="head"><a href="{{ root }}druk/{{ g.print }}.html#{{ id }}">{{ _(KIND_LABEL[g.kind]) }} {{ _("nr") }} {{ it.number }}</a>{% if it.authors %} · {{ it.authors | join(", ") }}{% endif %}{% if it.recommendation %} · {{ _("rekomendacja komisji") }}: <strong>{{ _(it.recommendation) }}</strong>{% endif %}</div>
+        <p class="text" lang="pl">{{ it.text | truncate(400) }}</p>
+      </li>
+      {% endfor %}
+    </ol>
+  </details>
+</section>
+{% else %}
+<p>{{ _("Nie ma poprawek czekających na głosowanie.") }}</p>
+{% endfor %}
+{% endblock %}
