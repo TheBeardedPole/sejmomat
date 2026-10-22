@@ -200,13 +200,39 @@ def _print_text(num, attachments):
     return text if pdf else None
 
 
+# Reports and Senate resolutions that hold amendments still waiting for a
+# vote: fetched before any vote cites them (build.pending_amendments).
+PENDING_PRINT_RE = re.compile(r"^(Dodatkowe sprawozdanie Komisji|Sprawozdanie Komisji|Uchwała Senatu w sprawie ustawy)")
+
+
+def _pending_prints():
+    """Reports and Senate resolutions (amendments not yet voted on), and the
+    first print of every open process (the signatures under MPs' bills, for
+    frozen bills: sejmomat/pending.py)."""
+    from .processes import load
+    reports = {p["number"] for p in api.get("prints") or [] if PENDING_PRINT_RE.match(p.get("title") or "")}
+    return reports | {n for n, p in load().items() if not p["closed"]}
+
+
 def fetch_prints():
     every, probed = _referenced_prints()
+    try:
+        pending = _pending_prints() - every
+    except Exception as e:  # the list of all prints is for amendments not yet voted on; votes come first
+        print(f"prints: list of all prints not read ({e})")
+        pending = set()
+    every |= pending
     todo = sorted(every, key=lambda n: (int(re.match(r"\d+", n)[0]), n))
     # Print numbers known not to exist (mostly probed "NNNN-A" candidates).
     missing = set(json.loads(MISSING_PATH.read_text())) if MISSING_PATH.exists() else set()
+    def one(n):
+        try:
+            _fetch_print(n, missing)
+        except Exception as e:  # the API times out now and then: the print is tried again next time
+            print(f"print {n}: not fetched ({e})")
+
     with ThreadPoolExecutor(WORKERS) as pool:
-        list(pool.map(lambda n: _fetch_print(n, missing), todo))
+        list(pool.map(one, todo))
         # Root prints of each legislative process name the bill; votings at
         # the Senate stage often do not cite them.
         roots = set()
@@ -214,9 +240,10 @@ def fetch_prints():
             path = DATA / "prints" / f"{n}.json"
             if path.exists():
                 roots.update(json.loads(path.read_text(encoding="utf-8")).get("processPrint") or [])
-        list(pool.map(lambda n: _fetch_print(n, missing), sorted(roots - every)))
+        list(pool.map(one, sorted(roots - every)))
     _write_json(MISSING_PATH, sorted(missing))
-    print(f"prints: {len(todo)} referenced (incl. {len(probed)} probed), {len(roots - every)} process roots")
+    print(f"prints: {len(todo)} referenced (incl. {len(probed)} probed, {len(pending)} reports not yet voted on), "
+          f"{len(roots - every)} process roots")
 
 
 def _fetch_act(eli_id):
@@ -310,7 +337,7 @@ def run():
     is something new since the last completed acts scan (a new sitting, new
     votes or new prints). Between sittings nothing changes, so the scan and
     the slow ELI API are skipped. `python -m sejmomat acts` forces the step."""
-    from . import agenda, committees, questions, speeches  # they build on this module
+    from . import agenda, committees, processes, questions, speeches  # they build on this module
     try:
         agenda.fetch()
     except Exception as e:  # the calendar is a nice-to-have; votes come first
@@ -333,6 +360,10 @@ def run():
     except Exception as e:  # as the calendar
         print(f"questions: not updated ({e})")
     fetch_sittings()
+    try:
+        processes.fetch()
+    except Exception as e:  # stages of bills, for frozen bills and amendments not yet voted on
+        print(f"processes: not updated ({e})")
     fetch_prints()
     speeches.fetch()
     state = _data_state()

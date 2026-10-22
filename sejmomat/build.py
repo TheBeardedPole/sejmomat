@@ -9,7 +9,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import agenda, analysis, authors, committees, fillgaps, questions, social, speeches
+from . import agenda, analysis, authors, committees, fillgaps, pending, processes, questions, social, speeches
 from .stamp import stamp
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
 from .i18n import LANGS, date_fmt, pct_fmt, translator, ORDINALS
@@ -409,6 +409,26 @@ def build_context():
 
     committee_rows = build_committees(mp_rows, bill_of_print, bill_by_root)
 
+    # What is waiting: amendments no vote has dealt with yet, and bills held up
+    # before the second reading (sejmomat/pending.py, from the processes' stages).
+    procs = processes.load()
+    agenda_prints = {p for g in (upcoming or {}).get("groups", []) for item in g["items"] for p in item["prints"]}
+    # a print counts as voted on when a vote cites it or its amendments were matched to a vote
+    # (an additional report "NNNN-A" is often not cited)
+    pending_amendments = pending.amendments(printed, set(votes_by_print) | set(sources), procs, agenda_prints)
+    names = {c["code"]: c["name"] for c in committee_rows}
+
+    def first_signatory_club(p):
+        a = authors.bill_author(p["title"], print_text(p["number"]), p["submitted"], sign_index, history)
+        return authors.club_on(history.get(a["mps"][0]), p["submitted"] or "9999") if a and a["mps"] else None
+
+    frozen = pending.frozen(procs, names, first_signatory_club)
+    frozen["committees"] = pending.committees(frozen["bills"], committees.load(), names)
+    pending_by_root = defaultdict(list)
+    for g in pending_amendments:
+        pending_by_root[g["root"]].append(g)
+        sources.setdefault(g["print"], {}).setdefault(g["kind"], g["report"])   # print pages list them too
+
     linked = sum(1 for v in by_id.values() for a in v["amendments"] if a["item"])
     total = sum(1 for v in by_id.values() for a in v["amendments"])
     return {
@@ -424,7 +444,8 @@ def build_context():
         "coverage": (linked, total),
         "summaries": social.summaries({"by_id": by_id, "bill_by_root": bill_by_root}),
         "printed": set(printed), "printed_list": printed, "upcoming": upcoming, "planned": planned, "sitting_agendas": sitting_agendas,
-        "committee_rows": committee_rows, "questions_summary": questions_summary, "fill_gaps": fill_gaps, "committee_names": {c["code"]: c["name"] for c in committee_rows},
+        "committee_rows": committee_rows, "pending_amendments": pending_amendments, "pending_by_root": pending_by_root,
+        "pending_prints": {g["print"] for g in pending_amendments}, "frozen": frozen, "questions_summary": questions_summary, "fill_gaps": fill_gaps, "committee_names": {c["code"]: c["name"] for c in committee_rows},
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
         "generated": datetime.now(),
     }
@@ -871,6 +892,8 @@ def _pages(ctx):
     yield "mps.html", "poslowie.html", {}
     yield "clubs.html", "kluby.html", {}
     yield "amendments.html", "poprawki.html", {}
+    yield "pending.html", "poprawki-oczekujace.html", {}
+    yield "frozen.html", "zamrazarka.html", {}
     yield "adopted.html", "skuteczne-poprawki.html", {}
     yield "method.html", "metodologia.html", {}
     yield "search.html", "szukaj.html", {}

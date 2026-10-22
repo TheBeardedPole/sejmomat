@@ -33,7 +33,8 @@
   {% for v in decided.get((num, id), []) %}
   <p class="note">{{ _("Głosowanie") }}: <a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ sitting_name(v.sitting) }}, {{ _("nr") }} {{ v.votingNumber }}</a> — {{ result_badge(v) }} {{ counts(v) }}</p>
   {% else %}
-  <p class="note">{{ _("Nie głosowano osobno (np. głosowana łącznie z inną poprawką lub bezprzedmiotowa).") }}</p>
+  {% if num in pending_prints %}<p class="note"><span class="badge warn">{{ _("Czeka na głosowanie") }}</span></p>
+  {% else %}<p class="note">{{ _("Nie głosowano osobno (np. głosowana łącznie z inną poprawką lub bezprzedmiotowa).") }}</p>{% endif %}
   {% endfor %}
 </div>
 {% endfor %}
