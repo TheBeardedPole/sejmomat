@@ -901,6 +901,7 @@ def _pages(ctx):
     yield "pending.html", "poprawki-oczekujace.html", {}
     yield "frozen.html", "zamrazarka.html", {}
     yield "live_vote.html", "glosowanie-na-zywo.html", {}
+    yield "compare.html", "porownaj-glosowania.html", {}
     yield "adopted.html", "skuteczne-poprawki.html", {}
     yield "method.html", "metodologia.html", {}
     yield "search.html", "szukaj.html", {}

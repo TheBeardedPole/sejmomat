@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{# Two votes side by side, from the Sejm's API (static/compare.js):
+   porownaj-glosowania.html?a=67-48&b=67-50. Either side's meaning can be
+   flipped: in a motion to reject a bill "for" is against the bill. #}
+{% block title %}{{ _("Porównaj głosowania") }}{% endblock %}
+{% block description %}{{ _("Jak posłowie i kluby głosowali w dwóch głosowaniach: kto zagłosował tak samo, a kto inaczej, np. przy wniosku o odrzucenie projektu i głosowaniu nad całością.") }}{% endblock %}
+{% block content %}
+<style>
+  .cmp-pick { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .cmp-pick fieldset { border: 1px solid var(--line); border-radius: 10px; padding: 12px; margin: 0; background: var(--surface); }
+  .cmp-pick legend { font-weight: 700; padding: 0 4px; }
+  .cmp-pick label { display: block; font-size: .9rem; margin: 6px 0 2px; }
+  .cmp-pick input[type=number] { width: 6em; }
+  .cmp-pick select, .cmp-pick input { font: inherit; padding: 4px 6px; background: var(--surface); color: var(--text); border: 1px solid var(--line); border-radius: 6px; max-width: 100%; }
+  .cmp-pick select { width: 100%; }
+  .cmp-pick .flip { display: flex; gap: 6px; align-items: flex-start; margin-top: 10px; font-size: .9rem; }
+  .cmp-pick .meta { font-size: .88rem; margin: 8px 0 0; }
+  .cmp-diff td .raw { color: var(--muted); font-size: .85rem; }
+  #cmp-clubs td, #cmp-clubs th { text-align: right; }
+  #cmp-clubs td:first-child, #cmp-clubs th:first-child { text-align: left; }
+</style>
+<h1>{{ _("Porównaj głosowania") }}</h1>
+<p>{{ _("Wybierz dwa głosowania, aby zobaczyć, kto zagłosował w nich tak samo, a kto inaczej. Przy wniosku o odrzucenie projektu „za” oznacza głos przeciw projektowi — takie głosowanie można odwrócić, by porównać je np. z głosowaniem nad całością.") }}</p>
+<div id="compare" data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/votings" data-root="{{ root }}" data-latest="{{ latest_sitting }}"
+  data-labels="{{ {"a": _("Głosowanie A"), "b": _("Głosowanie B"), "sitting": _("Posiedzenie"), "vote": _("Głosowanie"),
+                   "flip": _("Odwróć znaczenie: „za” to głos przeciw projektowi (np. wniosek o odrzucenie)"),
+                   "Y": _("za"), "N": _("przeciw"), "A": _("wstrz."), "X": _("nie głosował(a)"),
+                   "forBill": _("za projektem"), "againstBill": _("przeciw projektowi"),
+                   "same": _("głosowali tak samo"), "different": _("głosowali inaczej"), "missing": _("nie głosowali w jednym z nich"),
+                   "clubs": _("Kluby"), "club": _("Klub / koło"), "mps": _("Posłowie, którzy zagłosowali inaczej"), "mp": _("Poseł"),
+                   "none": _("Wszyscy, którzy oddali głos w obu głosowaniach, zagłosowali tak samo."),
+                   "pick": _("Wybierz głosowanie"), "loading": _("Wczytywanie z API Sejmu…"), "error": _("Nie udało się wczytać głosowania."),
+                   "passed": _("Przyjęto"), "rejected": _("Odrzucono"), "page": _("strona głosowania"),
+                   "sameShare": _("zgodnie"), "note": _("Porównywani są posłowie, którzy głosowali (za, przeciw lub wstrzymali się) w obu głosowaniach; wstrzymanie się to osobny wybór. Klub według drugiego głosowania.")} | tojson | forceescape }}">
+  <div class="cmp-pick">
+    {% for side in ("a", "b") %}
+    <fieldset data-side="{{ side }}">
+      <legend>{{ _("Głosowanie A") if side == "a" else _("Głosowanie B") }}</legend>
+      <label for="cmp-{{ side }}-s">{{ _("Posiedzenie") }}</label>
+      <input type="number" min="1" id="cmp-{{ side }}-s" class="cmp-s">
+      <label for="cmp-{{ side }}-v">{{ _("Głosowanie") }}</label>
+      <select id="cmp-{{ side }}-v" class="cmp-v"></select>
+      <label class="flip"><input type="checkbox" class="cmp-flip"> <span>{{ _("Odwróć znaczenie: „za” to głos przeciw projektowi (np. wniosek o odrzucenie)") }}</span></label>
+      <p class="meta muted"></p>
+    </fieldset>
+    {% endfor %}
+  </div>
+  <div id="cmp-result" aria-live="polite"></div>
+</div>
+<script src="{{ site_root }}static/compare.js?v={{ static_version('compare.js') }}" defer></script>
+{% endblock %}

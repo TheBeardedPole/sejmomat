@@ -19,6 +19,10 @@
 {% endif %}
 {% endif %}
 <p class="muted">{{ _("Druki") }}: {% for p in b.prints %}{{ print_link(p, root, printed) }}{{ ", " if not loop.last }}{% endfor %}</p>
+{# the motion to reject and the vote on the whole bill, side by side (static/compare.js) #}
+{% set rejecting = b.votings | selectattr("motion") | selectattr("motion.0", "equalto", "reject_bill") | list %}
+{% set whole = b.votings | selectattr("motion") | selectattr("motion.0", "equalto", "final") | list %}
+{% if rejecting and whole %}<p><a href="{{ root }}porownaj-glosowania.html?a={{ rejecting[-1].sitting }}-{{ rejecting[-1].votingNumber }}&amp;b={{ whole[-1].sitting }}-{{ whole[-1].votingNumber }}">{{ _("Porównaj: wniosek o odrzucenie a głosowanie nad całością") }} →</a></p>{% endif %}
 {% if b.rcl %}
 <p class="muted">{{ _("Prace w rządzie, przed skierowaniem do Sejmu") }}: <a href="{{ b.rcl.link }}" target="_blank" rel="noopener">{{ _("Rządowe Centrum Legislacji") }}, {{ b.rcl.num }}</a>
   <span class="note">({{ _("pierwsze wersje projektu, uzgodnienia i konsultacje; RCL nie pozwala na automatyczne pobieranie danych, dlatego pokazujemy tylko odnośnik") }})</span></p>

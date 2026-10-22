@@ -103,6 +103,22 @@ EN = {
         "The latest votes load as they come from the Sejm's API; clubs and MPs are on their pages straight away, in the site's other summaries from the next update.",
     "Głosowanie wczytane z API Sejmu; pełna strona (z poprawkami i drukami) pojawi się przy następnej aktualizacji serwisu.":
         "Vote loaded from the Sejm's API; the full page (with amendments and prints) comes with the site's next update.",
+    "Porównaj głosowania": "Compare votes", "Porównaj z innym głosowaniem": "Compare with another vote",
+    "Porównaj: wniosek o odrzucenie a głosowanie nad całością": "Compare: the motion to reject and the vote on the whole bill",
+    "Jak posłowie i kluby głosowali w dwóch głosowaniach: kto zagłosował tak samo, a kto inaczej, np. przy wniosku o odrzucenie projektu i głosowaniu nad całością.":
+        "How MPs and clubs voted in two votes: who voted the same way and who did not, e.g. on a motion to reject a bill and on the whole bill.",
+    "Wybierz dwa głosowania, aby zobaczyć, kto zagłosował w nich tak samo, a kto inaczej. Przy wniosku o odrzucenie projektu „za” oznacza głos przeciw projektowi — takie głosowanie można odwrócić, by porównać je np. z głosowaniem nad całością.":
+        "Pick two votes to see who voted the same way in both and who did not. In a motion to reject a bill, “for” is a vote against the bill: such a vote can be flipped to compare it with, e.g., the vote on the whole bill.",
+    "Głosowanie A": "Vote A", "Głosowanie B": "Vote B",
+    "Odwróć znaczenie: „za” to głos przeciw projektowi (np. wniosek o odrzucenie)": "Flip the meaning: “for” is a vote against the bill (e.g. a motion to reject)",
+    "za projektem": "for the bill", "przeciw projektowi": "against the bill",
+    "głosowali tak samo": "voted the same way", "głosowali inaczej": "voted differently", "nie głosowali w jednym z nich": "did not vote in one of them",
+    "Posłowie, którzy zagłosowali inaczej": "MPs who voted differently",
+    "Wszyscy, którzy oddali głos w obu głosowaniach, zagłosowali tak samo.": "Everyone who voted in both votes voted the same way.",
+    "Wybierz głosowanie": "Pick a vote", "Wczytywanie z API Sejmu…": "Loading from the Sejm's API…", "Nie udało się wczytać głosowania.": "The vote could not be loaded.",
+    "strona głosowania": "voting page", "zgodnie": "the same",
+    "Porównywani są posłowie, którzy głosowali (za, przeciw lub wstrzymali się) w obu głosowaniach; wstrzymanie się to osobny wybór. Klub według drugiego głosowania.":
+        "Compared are the MPs who voted (for, against or abstaining) in both votes; abstaining is a choice of its own. Clubs as in the second vote.",
     "Nie znaleziono takiego głosowania.": "No such vote.", "Wczytywanie głosowania z API Sejmu…": "Loading the vote from the Sejm's API…", "Pełna strona głosowania": "Full voting page",
     "Głosowania na żywo": "Votes as they happen", "Głosowanie nr": "Vote no.", "Punkt": "Item", "Wcześniej": "Earlier",
     "Na tym posiedzeniu jeszcze nie głosowano.": "No votes at this sitting yet.",

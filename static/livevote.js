@@ -82,6 +82,7 @@
       el("h1", { lang: "pl" }, (v.topic || title).replace(/^./, (x) => x.toUpperCase())),
       el("p", { className: "muted", lang: "pl" }, title),
       el("p", { className: "note" }, L.note),
+      el("p", {}, el("a", { href: `${ROOT}porownaj-glosowania.html?a=${sitting}-${number}`, textContent: `${L.compare} →` })),
       el("div", { className: "card" },
         el("p", {}, el("span", { className: `badge ${passed(v) ? "adopted" : "rejected"}`, textContent: passed(v) ? L.passed : L.rejected })),
         el("div", { className: "grid" },
