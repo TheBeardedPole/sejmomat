@@ -216,3 +216,9 @@ ol.agenda .sp-playing { font-weight: 600; }
 .live-dot { width: 10px; height: 10px; border-radius: 50%; background: #d62828; animation: live-pulse 1.6s ease-in-out infinite; }
 @keyframes live-pulse { 50% { opacity: .35; } }
 @media (prefers-reduced-motion: reduce) { .live-dot { animation: none; } }
+/* tags (data/tags.json) */
+.tags { display: inline-flex; flex-wrap: wrap; gap: 4px 6px; vertical-align: middle; }
+.tag { display: inline-block; padding: 1px 9px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface);
+  font-size: .8rem; color: var(--text); text-decoration: none; white-space: nowrap; }
+.tag:hover { border-color: var(--accent); color: var(--accent); }
+.tags-line { margin: -2px 0 6px; }

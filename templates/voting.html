@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import result_badge, mp_link, print_link, law_changes, bill_diff %}
+{% from "_macros.html" import tag_chips, result_badge, mp_link, print_link, law_changes, bill_diff %}
 {% block title %}{{ (v.topic or v.agenda) | capitalize }} — {{ v.agenda | truncate(80) }}{% endblock %}
 {% block description %}{{ v.date | date_pl }}, {{ sitting_name(v.sitting) }}, {{ _("głosowanie nr") }} {{ v.votingNumber }}: {{ v.topic }} — {{ v.agenda }}. {{ _(v.outcome) }}: {{ v.yes }} {{ _("za") }}, {{ v.no }} {{ _("przeciw") }}, {{ v.abstain }} {{ _("wstrzymało się") }}.{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
@@ -9,6 +9,7 @@
   · {{ _("głosowanie nr") }} {{ v.votingNumber }} · {{ v.date | date_pl(true) }}
 </div>
 <h1>{{ (v.topic or v.agenda) | capitalize }}</h1>
+{% if v.tags %}<p>{{ tag_chips(v.tags, root) }}</p>{% endif %}
 <p class="muted">
   {% if v.bill and v.bill in bill_by_root %}<a href="{{ root }}ustawa/{{ v.bill }}.html">{{ v.agenda }}</a>{% if bill_by_root[v.bill].speeches %} · <a href="{{ root }}ustawa/{{ v.bill }}.html#wystapienia">{{ _("debata nad projektem") }} ({{ bill_by_root[v.bill].speeches.count }} {{ _("wystąpień") }})</a>{% endif %}{% else %}{{ v.agenda }}{% endif %}
   {% if v.prints %} · {{ _("druki") }}:

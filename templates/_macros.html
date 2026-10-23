@@ -1,3 +1,8 @@
+{# Tags (data/tags.json) as small labels linking to their topic pages. #}
+{% macro tag_chips(tags, root) -%}
+{% if tags %}<span class="tags">{% for t in tags %}<a class="tag" href="{{ root }}temat/{{ t | tag_slug }}.html" lang="pl">{{ t }}</a>{% endfor %}</span>{% endif %}
+{%- endmacro %}
+
 {% macro result_badge(v) -%}
 <span class="badge {{ v.outcome_class }}">{{ _(v.outcome) }}</span>
 {%- if v.against_rec %} <span class="badge warn" title="{{ _('Wynik niezgodny z rekomendacją komisji') }}">{{ _("wbrew komisji") }}</span>{% endif %}

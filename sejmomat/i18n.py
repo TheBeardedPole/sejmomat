@@ -103,6 +103,11 @@ EN = {
         "The latest votes load as they come from the Sejm's API; clubs and MPs are on their pages straight away, in the site's other summaries from the next update.",
     "Głosowanie wczytane z API Sejmu; pełna strona (z poprawkami i drukami) pojawi się przy następnej aktualizacji serwisu.":
         "Vote loaded from the Sejm's API; the full page (with amendments and prints) comes with the site's next update.",
+    "Tematy": "Topics", "temat": "topic", "Projekty i głosowania na temat": "Bills and votes on", "Nie ma jeszcze tematów.": "No topics yet.",
+    "Projekty i głosowania według tematów: o czym naprawdę są, w kilku słowach.": "Bills and votes by topic: what they are really about, in a few words.",
+    "Tytuły projektów rzadko mówią, o co w nich chodzi („o zmianie ustawy – Kodeks karny”). Tematy opisują to w kilku słowach. Nadaje je redakcja serwisu na podstawie tytułów i opisów projektów z API Sejmu.":
+        "Bill titles rarely say what a bill is about (“amending the Penal Code”). Topics say it in a few words. They are given by the site's editors, from the bills' titles and their descriptions in the Sejm's API.",
+    "Głosowanie nad całością": "Vote on the whole bill",
     "Porównaj głosowania": "Compare votes", "Porównaj z innym głosowaniem": "Compare with another vote",
     "Porównaj: wniosek o odrzucenie a głosowanie nad całością": "Compare: the motion to reject and the vote on the whole bill",
     "Jak posłowie i kluby głosowali w dwóch głosowaniach: kto zagłosował tak samo, a kto inaczej, np. przy wniosku o odrzucenie projektu i głosowaniu nad całością.":
@@ -120,7 +125,7 @@ EN = {
     "Porównywani są posłowie, którzy głosowali (za, przeciw lub wstrzymali się) w obu głosowaniach; wstrzymanie się to osobny wybór. Klub według drugiego głosowania.":
         "Compared are the MPs who voted (for, against or abstaining) in both votes; abstaining is a choice of its own. Clubs as in the second vote.",
     "Nie znaleziono takiego głosowania.": "No such vote.", "Wczytywanie głosowania z API Sejmu…": "Loading the vote from the Sejm's API…", "Pełna strona głosowania": "Full voting page",
-    "Głosowania na żywo": "Votes as they happen", "Głosowanie nr": "Vote no.", "Punkt": "Item", "Wcześniej": "Earlier",
+    "Głosowania na żywo": "Votes as they happen", "Ostatnie głosowania": "Latest votes", "Głosowanie nr": "Vote no.", "Punkt": "Item", "Wcześniej": "Earlier",
     "Na tym posiedzeniu jeszcze nie głosowano.": "No votes at this sitting yet.",
     "Wyniki z API Sejmu, z około minutowym opóźnieniem.": "Results from the Sejm's API, about a minute behind.",
     "Transmisja idzie z opóźnieniem, a wyniki pojawiają się wtedy, gdy na nagraniu kończy się głosowanie.":

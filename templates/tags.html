@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}{{ _("Tematy") }}{% endblock %}
+{% block description %}{{ _("Projekty i głosowania według tematów: o czym naprawdę są, w kilku słowach.") }}{% endblock %}
+{% block content %}
+<style>
+  .tag-index { columns: 3 16em; column-gap: 24px; padding: 0; list-style: none; }
+  .tag-index li { break-inside: avoid; padding: 3px 0; }
+</style>
+<h1>{{ _("Tematy") }}</h1>
+<p>{{ _("Tytuły projektów rzadko mówią, o co w nich chodzi („o zmianie ustawy – Kodeks karny”). Tematy opisują to w kilku słowach. Nadaje je redakcja serwisu na podstawie tytułów i opisów projektów z API Sejmu.") }}</p>
+{% if tag_index %}
+<ul class="tag-index">
+  {% for t in tag_index | sort(attribute="tag") %}
+  <li><a class="tag" href="{{ root }}temat/{{ t.slug }}.html" lang="pl">{{ t.tag }}</a> <span class="muted">{{ t.bills | length + t.votes | length }}</span></li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="muted">{{ _("Nie ma jeszcze tematów.") }}</p>
+{% endif %}
+{% endblock %}

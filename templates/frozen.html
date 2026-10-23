@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_macros.html" import tag_chips %}
 {% set bills = frozen.bills %}
 {% set club_pages = club_rows | map(attribute="id") | list %}
 {% set PLACES = [
@@ -112,6 +113,7 @@
   <tr data-place="{{ b.place }}" data-sponsor="{{ b.sponsor }}" data-type="{{ b.type }}" data-club="{{ b.club or '' }}">
     <td class="num" data-v="{{ b.days }}">{% if b.stalled %}<strong>{{ b.days }}</strong>{% else %}{{ b.days }}{% endif %}</td>
     <td lang="pl">{% if b.number in bill_by_root %}<a href="{{ root }}ustawa/{{ b.number }}.html">{{ b.title }}</a>{% else %}<a href="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/PrzebiegProc.xsp?nr={{ b.number }}">{{ b.title }}</a>{% endif %}
+      {% if bill_tags.get(b.number) %}<br>{{ tag_chips(bill_tags[b.number], root) }}{% endif %}
       {% if b.description %}<br><span class="desc" lang="pl">{{ b.description | replace("projekt dotyczy ", "") | truncate(220) }}</span>{% endif %}
       <br><span class="muted">{{ _("druk nr") }} {{ b.number }} · {{ _("ostatni krok") }}: {{ b.since | date_pl }}</span></td>
     <td>{% for place, holder, label in PLACES if place == b.place %}{{ label }}{% endfor %}</td>

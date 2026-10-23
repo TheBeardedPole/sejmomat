@@ -1,12 +1,13 @@
 {% extends "base.html" %}
 {% from "_speeches.html" import styles as speech_styles, list_box with context %}
-{% from "_macros.html" import vote_row, print_link, law_changes, author_label, mp_link %}
+{% from "_macros.html" import tag_chips, vote_row, print_link, law_changes, author_label, mp_link %}
 {% block title %}{{ b.title | truncate(110) }}{% endblock %}
 {% block description %}{{ b.title }} — {{ b.votings | length }} {{ _("głosowań") }}, {{ _("Nad poprawkami") | lower }}: {{ b.amend_count }}. {{ _("Ostatnie głosowanie") }}: {{ b.last | date_pl }}.{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
 <div class="crumbs"><a href="{{ root }}ustawy.html">{{ _("Ustawy") }}</a> · {{ _("druk nr") }} {{ b.root }}</div>
 <h1 lang="pl">{{ b.title }}</h1>
+{% if b.tags %}<p>{{ tag_chips(b.tags, root) }}</p>{% endif %}
 {% if b.author %}
 <p><strong>{{ _("Autor projektu") }}:</strong> {{ author_label(b.author) }}
 {% if b.author.clubs %}<span class="muted">— {{ b.author.mps | length }} {{ _("podpisów posłów") }}:
