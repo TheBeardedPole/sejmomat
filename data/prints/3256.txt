@@ -1,0 +1,366 @@
+                                                                    Druk nr 3256
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+             X kadencja
+
+
+
+                                    SPRAWOZDANIE
+                 KOMISJI ADMINISTRACJI I SPRAW WEWNĘTRZNYCH
+
+
+         o poselskim projekcie ustawy o zmianie
+         ustawy    o    Agencji    Bezpieczeństwa
+         Wewnętrznego oraz Agencji Wywiadu,
+         ustawy      o     Centralnym       Biurze
+         Antykorupcyjnym, ustawy o Służbie
+         Kontrwywiadu        Wojskowego       oraz
+         niektórych innych ustaw (druk nr 3035)
+
+            Marszałek Sejmu, zgodnie z art. 37 ust. 1 i art. 40 ust. 1 regulaminu Sejmu –
+    po zasięgnięciu opinii Prezydium Sejmu – skierował w dniu 1 września 2026 r. powyższy
+    projekt ustawy do Komisji Administracji i Spraw Wewnętrznych do pierwszego czytania.
+            Komisja Administracji i Spraw Wewnętrznych po przeprowadzeniu pierwszego
+    czytania oraz rozpatrzeniu tego projektu ustawy na posiedzeniach w dniach: 17 września oraz
+    21 października 2026 r.
+
+             wnosi:
+
+             W y s o k i S e j m uchwalić raczy załączony projekt ustawy.
+
+
+
+              Komisja,    zgodnie   z   art.   43   ust.   3   regulaminu    Sejmu,    przedstawia
+    na żądanie wnioskodawcy następujące wnioski mniejszości:
+     1) w art. 1 w pkt 1 ust. 1b nadać brzmienie:
+         „1b. W przypadku wystąpienia realnego i bezpośredniego zagrożenia życia lub zdrowia
+            wynikającego z wykonywanych czynności służbowych, Szef ABW oraz Szef AW
+            mogą zdecydować o objęciu ochroną, o której mowa w ust. 1a, funkcjonariusza lub
+            pracownika odpowiednio ABW oraz AW.”;
+     – poseł E. Leniart
+    Uwaga: Wniosek mniejszości nr 1 należy głosować łącznie z wnioskami mniejszości nr 3 i 5.
+ 2) w art. 1 w pkt 1 po ust. 1b dodać ust. 1c w brzmieniu:
+     „1c. Szef ABW oraz Szef AW składają Sejmowej Komisji do Spraw Służb Specjalnych
+        corocznie, w terminie do dnia 31 marca za rok poprzedni, niejawne sprawozdanie
+        zawierające informację o liczbie osób objętych ochroną, o której mowa w ust. 1a i
+        1b, oraz o wysokości poniesionych z tego tytułu kosztów.”;
+ – poseł E. Leniart
+Uwaga: Wniosek mniejszości nr 2 należy głosować łącznie z wnioskami mniejszości nr 4 i 6.
+
+ 3) w art. 6 w pkt 1 ust. 1b nadać brzmienie:
+     „1b. W przypadku wystąpienia realnego i bezpośredniego zagrożenia życia lub zdrowia
+        wynikającego z wykonywanych czynności służbowych, Szef CBA może zdecydować
+        o objęciu ochroną, o której mowa w ust. 1a, funkcjonariusza lub pracownika CBA.”;
+ – poseł E. Leniart
+
+
+ 4) w art. 6 w pkt 1 po ust. 1b dodać ust. 1c w brzmieniu:
+     „1c. Szef CBA składa Sejmowej Komisji do Spraw Służb Specjalnych corocznie, w
+        terminie do dnia 31 marca za rok poprzedni, niejawne sprawozdanie zawierające
+        informację o liczbie osób objętych ochroną, o której mowa w ust. 1a i 1b, oraz o
+        wysokości poniesionych z tego tytułu kosztów.”;
+ – poseł E. Leniart
+
+
+ 5) w art. 7 w pkt 1 ust. 1b nadać brzmienie:
+     „1b. W przypadku wystąpienia realnego i bezpośredniego zagrożenia życia lub zdrowia
+        wynikającego z wykonywanych czynności służbowych, Szef SKW oraz Szef SWW
+        mogą zdecydować o objęciu ochroną, o której mowa w ust. 1a, funkcjonariusza lub
+        pracownika odpowiednio SKW oraz SWW, a także żołnierza zawodowego
+        wyznaczonego na stanowisko służbowe odpowiednio w SKW albo SWW.”;
+ – poseł E. Leniart
+
+
+ 6) w art. 7 w pkt 1 po ust. 1b dodać ust. 1c w brzmieniu:
+     „1c. Szef SKW oraz Szef SWW składają Sejmowej Komisji do Spraw Służb
+        Specjalnych corocznie, w terminie do dnia 31 marca za rok poprzedni, niejawne
+        sprawozdanie zawierające informację o liczbie osób objętych ochroną, o której mowa
+        w ust. 1a i 1b, oraz o wysokości poniesionych z tego tytułu kosztów.”.
+ – poseł E. Leniart
+
+
+
+
+Warszawa, dnia 21 października 2026 r.
+
+
+
+        Sprawozdawca                                           Przewodnicząca Komisji
+
+
+     (-) Magdalena Sroka                                    (-) Maria Małgorzata Janyska
+
+
+             Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 7     Data : 2026-10-23       Nazwa pliku : V4_818-6.UN                                           1
+X kadencja/druk nr 3035
+
+                                                                                                          Projekt
+
+
+                                                  U S T AWA
+
+                                                z dnia … 2026 r.
+
+ o zmianie ustawy o Agencji Bezpieczeństwa Wewnętrznego oraz Agencji Wywiadu oraz
+                                         niektórych innych ustaw1)
+
+
+       Art. 1. W ustawie z dnia 24 maja 2002 r. o Agencji Bezpieczeństwa Wewnętrznego oraz
+Agencji Wywiadu (Dz. U. z 2026 r. poz. 937, 1003, 1123 i 1281) w art. 43:
+1)     po ust. 1 dodaje się ust. 1a i 1b w brzmieniu:
+              „1a. ABW i AW zapewniają także ochronę odpowiednio Szefa ABW oraz Szefa
+       AW.
+              1b. W uzasadnionych przypadkach Szef ABW oraz Szef AW mogą zdecydować o
+       objęciu ochroną, o której mowa w ust. 1a, funkcjonariusza lub pracownika odpowiednio
+       ABW oraz AW.”;
+2)     po ust. 3 dodaje się ust. 3a w brzmieniu:
+              „3a. Czynności, o których mowa w ust. 2 pkt 2, 4, 5 i 7, mogą być realizowane w
+       miejscu przebywania osoby ochranianej, o której mowa w ust. 1a lub 1b, jeśli jest to
+       niezbędne do zapewnienia jej bezpieczeństwa.”;
+3)     po ust. 4 dodaje się ust. 4a–4e w brzmieniu:
+              „4a. Funkcjonariusz, który przystępuje do czynności służbowych związanych z
+       wykonywaniem uprawnień określonych w ust. 2 pkt 2–7, podaje swój stopień, imię i
+       nazwisko w sposób umożliwiający odnotowanie tych danych, przyczynę podjęcia tych
+       czynności, a na żądanie osoby, wobec której są prowadzone te czynności, podaje podstawę
+       prawną ich podjęcia.
+
+
+
+
+1)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 6 kwietnia 1990 r. o Policji, ustawę z dnia 12 października
+     1990 r. o Straży Granicznej, ustawę z dnia 7 lipca 1994 r. – Prawo budowlane, ustawę z dnia 27 marca 2003 r.
+     o planowaniu i zagospodarowaniu przestrzennym, ustawę z dnia 9 czerwca 2006 r. o Centralnym Biurze
+     Antykorupcyjnym, ustawę z dnia 9 czerwca 2006 r. o Służbie Kontrwywiadu Wojskowego oraz Służbie
+     Wywiadu Wojskowego, ustawę z dnia 3 października 2008 r. o udostępnianiu informacji o środowisku i jego
+     ochronie, udziale społeczeństwa w ochronie środowiska oraz o ocenach oddziaływania na środowisko oraz
+     ustawę z dnia 7 lipca 2023 r. o zmianie ustawy o planowaniu i zagospodarowaniu przestrzennym oraz
+     niektórych innych ustaw.
+Liczba stron : 7     Data : 2026-10-23      Nazwa pliku : V4_818-6.UN                                       2
+X kadencja/druk nr 3035
+
+             4b. Funkcjonariusz nieumundurowany przy wykonywaniu uprawnień, o których
+       mowa w ust. 4a, dodatkowo okazuje legitymację służbową, a na żądanie osoby, wobec
+       której podjęto wykonywanie tych uprawnień, okazuje ją w sposób umożliwiający
+       odnotowanie danych w niej zawartych.
+             4c. Po przeprowadzeniu czynności, o których mowa w ust. 2 pkt 1–4, 6 i 7,
+       funkcjonariusz poucza osobę, wobec której dokonano tych czynności, o prawie złożenia
+       zażalenia, o którym mowa w ust. 4e.
+             4d. W przypadku przeprowadzania czynności, o których mowa w ust. 2 pkt 6 i 7, bez
+       obecności właściciela lub posiadacza pojazdu lub bezzałogowego statku powietrznego
+       przepisów ust. 4a–4c nie stosuje się.
+             4e. Na sposób prowadzenia czynności, o których mowa w ust. 2 pkt 1–4, 6 i 7,
+       przysługuje zażalenie do właściwego miejscowo prokuratora w terminie 7 dni od dnia
+       dokonania czynności. Do zażalenia stosuje się odpowiednio przepisy rozdziału 50
+       Kodeksu postępowania karnego.”;
+4)     w ust. 5 wyrazy „ust. 1” zastępuje się wyrazami „ust. 1–1b”.
+
+       Art. 2. W ustawie z dnia 6 kwietnia 1990 r. o Policji (Dz. U. z 2025 r. poz. 636, z późn.
+zm.2)) po art. 14a dodaje się art. 14aa w brzmieniu:
+             „Art. 14aa. 1. Policja zapewnia ochronę Komendanta Głównego Policji.
+             2. W uzasadnionych przypadkach Komendant Główny Policji może zdecydować o
+       objęciu ochroną, o której mowa w ust. 1, policjanta lub pracownika Policji.
+             3. Ochrona, o której mowa w ust. 1 i 2, może polegać na:
+       1)    stałej obecności policjantów w pobliżu osoby chronionej;
+       2)    czasowej obecności policjantów w pobliżu osoby chronionej;
+       3)    czasowej obserwacji osoby chronionej i otoczenia, w którym przebywa;
+       4)    wskazaniu osobie chronionej bezpiecznych miejsc przebywania oraz czasu i
+             bezpiecznego sposobu przemieszczania się;
+       5)    zastosowaniu środków techniki ochronnej.
+             4. Ochrona osób, o których mowa w ust. 1 i 2, może być realizowana w miejscu
+       przebywania osoby chronionej, jeśli jest to niezbędne do zapewnienia jej bezpieczeństwa.
+
+
+
+
+2)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2025 r. poz. 718 i 1366, z 2026
+     r. poz. 187, 421, 646, 760, 815, 821, 864, 1004, 1123 i 1281.
+Liczba stron : 7     Data : 2026-10-23      Nazwa pliku : V4_818-6.UN                                        3
+X kadencja/druk nr 3035
+
+             5. W przypadku wykonywania czynności związanych z zapewnieniem ochrony, o
+       której mowa w ust. 1 i 2, policjantom przysługują uprawnienia określone w art. 15 ust. 1
+       pkt 1, 2, 3, pkt 3a lit. b i d, pkt 4 i 5–10 oraz art. 16 wobec osób stwarzających zagrożenie
+       dla osób chronionych.”.
+
+       Art. 3. W ustawie z dnia 12 października 1990 r. o Straży Granicznej (Dz. U. z 2026 r.
+poz. 367, z późn. zm.3)) po art. 9a dodaje się art. 9aa w brzmieniu:
+             „Art. 9aa. 1. Straż Graniczna zapewnia ochronę Komendanta Głównego Straży
+       Granicznej.
+             2. W uzasadnionych przypadkach Komendant Główny Straży Granicznej może
+       zdecydować o objęciu ochroną, o której mowa w ust. 1, funkcjonariusza lub pracownika
+       Straży Granicznej.
+             3. Ochrona, o której mowa w ust. 1 i 2, może polegać na:
+       1)    stałej obecności funkcjonariuszy Straży Granicznej w pobliżu osoby chronionej;
+       2)    czasowej obecności funkcjonariuszy Straży Granicznej w pobliżu osoby chronionej;
+       3)    czasowej obserwacji osoby chronionej i otoczenia, w którym przebywa;
+       4)    wskazaniu osobie chronionej bezpiecznych miejsc przebywania oraz czasu i
+             bezpiecznego sposobu przemieszczania się;
+       5)    zastosowaniu środków techniki ochronnej.
+             4. Ochrona osób, o których mowa w ust. 1 i 2, może być realizowana w miejscu
+       przebywania osoby chronionej, jeśli jest to niezbędne do zapewnienia jej bezpieczeństwa.
+             5. W przypadku wykonywania zadań związanych z zapewnieniem ochrony, o której
+       mowa w ust. 1 i 2, funkcjonariuszom Straży Granicznej przysługują uprawnienia
+       określone w art. 11 ust. 1 pkt 2 lit. a–d, pkt 4–5a, 5c, 5e–7, 8 i 10–14 oraz art. 23 wobec
+       osób stwarzających zagrożenie dla osób chronionych.”.
+
+       Art. 4. W ustawie z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2026 r. poz. 524,
+605, 646, 1161 i 1347) wprowadza się następujące zmiany:
+1)     w art. 29 w ust. 1 w pkt 4 wyrazy „Ministra Obrony Narodowej lub ministra właściwego
+       do spraw wewnętrznych” zastępuje się wyrazami „Ministra Obrony Narodowej, ministra
+       właściwego do spraw wewnętrznych, Szefa Agencji Bezpieczeństwa Wewnętrznego,
+
+
+
+
+3)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2026 r. poz. 646, 815, 821, 864,
+     1123 i 1281.
+Liczba stron : 7   Data : 2026-10-23   Nazwa pliku : V4_818-6.UN                          4
+X kadencja/druk nr 3035
+
+     Szefa Agencji Wywiadu, Szefa Centralnego Biura Antykorupcyjnego, Szefa Służby
+     Kontrwywiadu Wojskowego albo Szefa Służby Wywiadu Wojskowego”;
+2)   w art. 30a we wprowadzeniu do wyliczenia po wyrazach „Ministra Obrony Narodowej”
+     dodaje się wyrazy „ , Szefa Agencji Bezpieczeństwa Wewnętrznego, Szefa Agencji
+     Wywiadu, Szefa Centralnego Biura Antykorupcyjnego, Szefa Służby Kontrwywiadu
+     Wojskowego albo Szefa Służby Wywiadu Wojskowego”;
+3)   w art. 31 w ust. 1a w pkt 2 po wyrazach „Ministra Obrony Narodowej” dodaje się wyrazy
+     „ , Szefa Agencji Bezpieczeństwa Wewnętrznego, Szefa Agencji Wywiadu, Szefa
+     Centralnego Biura Antykorupcyjnego, Szefa Służby Kontrwywiadu Wojskowego albo
+     Szefa Służby Wywiadu Wojskowego”;
+4)   w art. 35 w ust. 6 w pkt 3 w lit. a po wyrazach „służących bezpieczeństwu i obronności
+     państwa” dodaje się wyrazy „oraz na terenach zamkniętych ustalonych decyzją Szefa
+     Agencji Bezpieczeństwa Wewnętrznego, Szefa Agencji Wywiadu, Szefa Centralnego
+     Biura Antykorupcyjnego, Szefa Służby Kontrwywiadu Wojskowego albo Szefa Służby
+     Wywiadu Wojskowego”;
+5)   w art. 47c w ust. 2 po wyrazach „Ministra Obrony Narodowej” dodaje się wyrazy „ , Szefa
+     Agencji Bezpieczeństwa Wewnętrznego, Szefa Agencji Wywiadu, Szefa Centralnego
+     Biura Antykorupcyjnego, Szefa Służby Kontrwywiadu Wojskowego albo Szefa Służby
+     Wywiadu Wojskowego”;
+6)   w art. 47v wyrazy „Szefa Agencji Bezpieczeństwa Wewnętrznego albo Szefa Agencji
+     Wywiadu” zastępuje się wyrazami „Szefa Agencji Bezpieczeństwa Wewnętrznego, Szefa
+     Agencji Wywiadu, Szefa Centralnego Biura Antykorupcyjnego, Szefa Służby
+     Kontrwywiadu Wojskowego albo Szefa Służby Wywiadu Wojskowego”;
+7)   w art. 71 w ust. 9 po wyrazach „Ministra Obrony Narodowej” dodaje się wyrazy „ , Szefa
+     Agencji Bezpieczeństwa Wewnętrznego, Szefa Agencji Wywiadu, Szefa Centralnego
+     Biura Antykorupcyjnego, Szefa Służby Kontrwywiadu Wojskowego albo Szefa Służby
+     Wywiadu Wojskowego”.
+
+     Art. 5. W ustawie z dnia 27 marca 2003 r. o planowaniu i zagospodarowaniu
+przestrzennym (Dz. U. z 2026 r. poz. 538, 781, 864 i 912) w art. 53:
+1)   w ust. 1 po wyrazach „Ministra Obrony Narodowej” dodaje się wyrazy „ , Szefa Agencji
+     Bezpieczeństwa Wewnętrznego, Szefa Agencji Wywiadu, Szefa Centralnego Biura
+     Antykorupcyjnego, Szefa Służby Kontrwywiadu Wojskowego albo Szefa Służby
+     Wywiadu Wojskowego”;
+Liczba stron : 7   Data : 2026-10-23   Nazwa pliku : V4_818-6.UN                            5
+X kadencja/druk nr 3035
+
+2)   w ust. 4 po pkt 15 dodaje się pkt 15a–15e w brzmieniu:
+     „15a) Szefem Agencji Bezpieczeństwa Wewnętrznego – w odniesieniu do stref
+           ochronnych terenów zamkniętych ustalonych przez Szefa Agencji Bezpieczeństwa
+           Wewnętrznego;
+     15b) Szefem Agencji Wywiadu – w odniesieniu do stref ochronnych terenów
+           zamkniętych ustalonych przez Szefa Agencji Wywiadu;
+     15c) Szefem Centralnego Biura Antykorupcyjnego – w odniesieniu do stref ochronnych
+           terenów zamkniętych ustalonych przez Szefa Centralnego Biura Antykorupcyjnego;
+     15d) Szefem Służby Kontrwywiadu Wojskowego – w odniesieniu do stref ochronnych
+           terenów zamkniętych ustalonych przez Szefa Służby Kontrwywiadu Wojskowego;
+     15e) Szefem Służby Wywiadu Wojskowego – w odniesieniu do stref ochronnych terenów
+           zamkniętych ustalonych przez Szefa Służby Wywiadu Wojskowego;”.
+
+     Art. 6. W ustawie z dnia 9 czerwca 2006 r. o Centralnym Biurze Antykorupcyjnym
+(Dz. U. z 2025 r. poz. 712 i 718 oraz z 2026 r. poz. 1123 i 1281) w art. 30:
+1)   po ust. 1 dodaje się ust. 1a i 1b w brzmieniu:
+           „1a. CBA zapewnia także ochronę Szefa CBA.
+           1b. W uzasadnionych przypadkach Szef CBA może zdecydować o objęciu ochroną,
+     o której mowa w ust. 1a, funkcjonariusza lub pracownika CBA.”;
+2)   po ust. 2b dodaje się ust. 2c–2h w brzmieniu:
+           „2c. Legitymowanie, o którym mowa w ust. 2 pkt 1, oraz czynności, o których mowa
+     w ust. 2 pkt 2a–5, mogą być realizowane w miejscu przebywania osoby ochranianej, o
+     której mowa w ust. 1a lub 1b, jeśli jest to niezbędne do zapewnienia jej bezpieczeństwa.
+           2d. Czynności, o których mowa w ust. 2 pkt 2a, 3 i 5, wykonuje się z poszanowaniem
+     dóbr osobistych osoby, w stosunku do której zostały podjęte.
+           2e. Funkcjonariusz, który przystępuje do legitymowania, o którym mowa w ust. 2
+     pkt 1, lub czynności służbowych związanych z wykonywaniem uprawnień określonych w
+     ust. 2 pkt 2–5, podaje swoje imię i nazwisko w sposób umożliwiający odnotowanie tych
+     danych, przyczynę podjęcia tych czynności, a na żądanie osoby, wobec której są
+     prowadzone te czynności, podaje podstawę prawną ich podjęcia oraz okazuje legitymację
+     służbową w sposób umożliwiający odnotowanie danych w niej zawartych.
+           2f. Po przeprowadzeniu czynności, o których mowa w ust. 2 pkt 2–4, funkcjonariusz
+     poucza osobę, wobec której dokonano tych czynności, o prawie złożenia zażalenia, o
+     którym mowa w ust. 2h.
+Liczba stron : 7   Data : 2026-10-23   Nazwa pliku : V4_818-6.UN                           6
+X kadencja/druk nr 3035
+
+           2g. W przypadku przeprowadzania czynności, o których mowa w ust. 2 pkt 4, bez
+     obecności właściciela lub posiadacza pojazdu lub bezzałogowego statku powietrznego
+     przepisów ust. 2e i 2f nie stosuje się.
+           2h. Na sposób prowadzenia czynności, o których mowa w ust. 2 pkt 2–4, przysługuje
+     zażalenie do właściwego miejscowo prokuratora w terminie 7 dni od dnia dokonania
+     czynności. Do zażalenia stosuje się odpowiednio przepisy rozdziału 50 Kodeksu
+     postępowania karnego.”.
+
+     Art. 7. W ustawie z dnia 9 czerwca 2006 r. o Służbie Kontrwywiadu Wojskowego oraz
+Służbie Wywiadu Wojskowego (Dz. U. z 2026 r. poz. 157 i 1281) w art. 44:
+1)   po ust. 1 dodaje się ust. 1a i 1b w brzmieniu:
+           „1a. SKW i SWW zapewniają także ochronę odpowiednio Szefa SKW oraz Szefa
+     SWW.
+           1b. W uzasadnionych przypadkach Szef SKW oraz Szef SWW mogą zdecydować o
+     objęciu ochroną, o której mowa w ust. 1a, funkcjonariusza lub pracownika odpowiednio
+     SKW oraz SWW, a także żołnierza zawodowego wyznaczonego na stanowisko służbowe
+     odpowiednio w SKW albo SWW.”;
+2)   po ust. 3 dodaje się ust. 3a w brzmieniu:
+           „3a. Czynności, o których mowa w ust. 2 pkt 2, 4, 5 i 7, mogą być realizowane w
+     miejscu przebywania osoby ochranianej, o której mowa w ust. 1a lub 1b, jeśli jest to
+     niezbędne do zapewnienia jej bezpieczeństwa.”;
+3)   po ust. 4 dodaje się ust. 4a–4e w brzmieniu:
+           „4a. Funkcjonariusz, który przystępuje do czynności służbowych związanych z
+     wykonywaniem uprawnień określonych w ust. 2 pkt 2–7, podaje swój stopień, imię i
+     nazwisko w sposób umożliwiający odnotowanie tych danych, przyczynę podjęcia tych
+     czynności, a na żądanie osoby, wobec której są prowadzone te czynności, podaje podstawę
+     prawną ich podjęcia.
+           4b. Funkcjonariusz nieumundurowany przy wykonywaniu uprawnień, o których
+     mowa w ust. 4a, dodatkowo okazuje legitymację służbową, a na żądanie osoby, wobec
+     której podjęto wykonywanie tych uprawnień, okazuje ją w sposób umożliwiający
+     odnotowanie danych w niej zawartych.
+           4c. Po przeprowadzeniu czynności, o których mowa w ust. 2 pkt 1–4, 6 i 7,
+     funkcjonariusz poucza osobę, wobec której dokonano tych czynności, o prawie złożenia
+     zażalenia, o którym mowa w ust. 4e.
+Liczba stron : 7   Data : 2026-10-23   Nazwa pliku : V4_818-6.UN                              7
+X kadencja/druk nr 3035
+
+           4d. W przypadku przeprowadzania czynności, o których mowa w ust. 2 pkt 6 i 7, bez
+     obecności właściciela lub posiadacza pojazdu lub bezzałogowego statku powietrznego
+     przepisów ust. 4a–4c nie stosuje się.
+           4e. Na sposób prowadzenia czynności, o których mowa w ust. 2 pkt 1–4, 6 i 7,
+     przysługuje zażalenie do właściwego miejscowo prokuratora w terminie 7 dni od dnia
+     dokonania czynności. Do zażalenia stosuje się odpowiednio przepisy rozdziału 50
+     Kodeksu postępowania karnego.”;
+4)   w ust. 5 wyrazy „ust. 1” zastępuje się wyrazami „ust. 1–1b”.
+
+     Art. 8. W ustawie z dnia 3 października 2008 r. o udostępnianiu informacji o środowisku
+i jego ochronie, udziale społeczeństwa w ochronie środowiska oraz o ocenach oddziaływania
+na środowisko (Dz. U. z 2026 r. poz. 670, 875, 1097 i 1157) wprowadza się następujące zmiany:
+1) w art. 59a w ust. 4 po pkt 20 dodaje się pkt 20a w brzmieniu:
+     „20a) inwestycji realizowanych na terenach zamkniętych określonych przez Szefa
+           Agencji Bezpieczeństwa Wewnętrznego, Szefa Agencji Wywiadu, Szefa
+           Centralnego Biura Antykorupcyjnego, Szefa Służby Kontrwywiadu Wojskowego
+           albo Szefa Służby Wywiadu Wojskowego,”;
+2)   w art. 75 w ust. 1 w pkt 1 w lit. b i w ust. 6 po wyrazach „Ministra Obrony Narodowej”
+     dodaje się wyrazy „ , Szefa Agencji Bezpieczeństwa Wewnętrznego, Szefa Agencji
+     Wywiadu, Szefa Centralnego Biura Antykorupcyjnego, Szefa Służby Kontrwywiadu
+     Wojskowego albo Szefa Służby Wywiadu Wojskowego”.
+
+     Art. 9. W ustawie z dnia 7 lipca 2023 r. o zmianie ustawy o planowaniu i
+zagospodarowaniu przestrzennym oraz niektórych innych ustaw (Dz. U. z 2023 r. poz. 1688, z
+2024 r. poz. 1824, z 2025 r. poz. 527, 1543 i 1668 oraz z 2026 r. poz. 781) w art. 1 w pkt 64, w
+art. 67h w ust. 1 w pkt 9 i 10 po wyrazach „Ministra Obrony Narodowej” dodaje się wyrazy „ ,
+Szefa Agencji Bezpieczeństwa Wewnętrznego, Szefa Agencji Wywiadu, Szefa Centralnego
+Biura Antykorupcyjnego, Szefa Służby Kontrwywiadu Wojskowego albo Szefa Służby
+Wywiadu Wojskowego”.
+
+     Art. 10. Ustawa wchodzi w życie po upływie 30 dni od dnia ogłoszenia.
+
