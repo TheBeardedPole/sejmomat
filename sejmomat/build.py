@@ -11,6 +11,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import agenda, analysis, authors, committees, fillgaps, pending, processes, questions, social, speeches
 from .stamp import stamp
+from .stats import compute as compute_voting_stats
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
 from .i18n import LANGS, date_fmt, pct_fmt, translator, ORDINALS
 from .acts import bill_changes
@@ -417,6 +418,7 @@ def build_context():
         sitting_agendas[s] = a
 
     committee_rows = build_committees(mp_rows, bill_of_print, bill_by_root)
+    voting_stats = compute_voting_stats(sittings, mps, club_rows)
 
     # What is waiting: amendments no vote has dealt with yet, and bills held up
     # before the second reading (sejmomat/pending.py, from the processes' stages).
@@ -452,7 +454,7 @@ def build_context():
         "club_rows": club_rows, "club_slug": club_slug,
         "adopted": adopted, "proposers": proposers, "mp_proposers": mp_proposers,
         "by_proposer": by_proposer,
-        "all_amendments": all_amendments, "latest": latest, "latest_sitting": last_sitting, "tag_index": tag_index(bill_rows, by_id, tags), "bill_tags": tags["bills"],
+        "all_amendments": all_amendments, "latest": latest, "latest_sitting": last_sitting, "voting_stats": voting_stats, "tag_index": tag_index(bill_rows, by_id, tags), "bill_tags": tags["bills"],
         "transfers": [(pair, n, pair in renames) for pair, n in transfers.most_common()],
         "bills": bill_rows, "bill_by_root": bill_by_root, "speeches_by_mp": speeches_by_mp,
         "speeches_by_bill": speeches_by_bill,
@@ -943,6 +945,7 @@ def _pages(ctx):
     yield "frozen.html", "zamrazarka.html", {}
     yield "live_vote.html", "glosowanie-na-zywo.html", {}
     yield "compare.html", "porownaj-glosowania.html", {}
+    yield "stats.html", "statystyki.html", {}
     yield "tags.html", "tematy.html", {}
     for t in ctx["tag_index"]:
         yield "tag.html", f"temat/{t['slug']}.html", {"t": t}
@@ -1037,6 +1040,9 @@ def run():
         if getattr(t, "missing", None):
             print(f"[{lang}] untranslated strings: {sorted(t.missing)}")
 
+    # The maps on the stats page (static/stats.js).
+    (SITE / "dane").mkdir(exist_ok=True)
+    (SITE / "dane" / "statystyki.json").write_text(json.dumps(ctx["voting_stats"]["json"], ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     # Named votes, loaded by voting pages on demand: one file per sitting.
     (SITE / "dane" / "glosy").mkdir(parents=True)
     for s, votings in ctx["sittings"].items():

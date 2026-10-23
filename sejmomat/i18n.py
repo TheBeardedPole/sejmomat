@@ -103,6 +103,29 @@ EN = {
         "The latest votes load as they come from the Sejm's API; clubs and MPs are on their pages straight away, in the site's other summaries from the next update.",
     "Głosowanie wczytane z API Sejmu; pełna strona (z poprawkami i drukami) pojawi się przy następnej aktualizacji serwisu.":
         "Vote loaded from the Sejm's API; the full page (with amendments and prints) comes with the site's next update.",
+    # the stats page
+    "Statystyki głosowań": "Voting statistics", "Cała kadencja": "The whole term", "Pół roku po pół roku": "Half-year by half-year",
+    "Spójność klubów": "Club cohesion", "Jak często kluby głosują tak samo": "How often clubs vote alike", "Na włosku": "By a hair",
+    "Najbliższe rozstrzygnięcia": "The closest votes", "Wyróżnij klub": "Highlight a club", "Mapa posłów": "Map of MPs",
+    "Mapa posłów według podobieństwa głosowań w całej kadencji": "Map of MPs by how alike they voted over the whole term",
+    "inne / niezrzeszeni": "other / independent", "koalicja i opozycja głosowały tak samo": "coalition and opposition voted alike",
+    "koalicja z opozycją": "coalition with opposition", "przewaga": "margin",
+    "Mapa Sejmu według tego, jak głosują posłowie: kto z kim głosuje, jak spójne są kluby i które głosowania rozstrzygnęło kilka głosów.":
+        "The Sejm mapped by how MPs vote: who votes with whom, how united the clubs are, and which votes came down to a few votes.",
+    "Każda kropka to poseł, kolor to jego klub. Linie łączą każdego posła z pięcioma, z którymi najczęściej głosuje tak samo, i przyciągają ich do siebie, więc grupy, które głosują podobnie, zbijają się w skupiska. Najedź na kropkę, by zobaczyć posła, kliknij, by przejść do jego strony; kliknij klub w legendzie, by go wyróżnić na wszystkich mapach.":
+        "Each dot is an MP, coloured by club. Lines join every MP to the five they most often vote alike with and pull them together, so groups that vote alike gather into clusters. Hover over a dot to see the MP, click to open their page; click a club in the legend to highlight it on every map.",
+    "Te same mapy dla kolejnych półroczy, obrócone tak, by bloki zostawały na swoich miejscach. Na mapie są posłowie, którzy oddali głos w co najmniej czwartej części głosowań danego półrocza; liczba przy każdej mapie mówi, jak często poseł koalicji i poseł opozycji głosowali wtedy tak samo.":
+        "The same maps for each half-year, turned so that the blocs keep their places. A map shows the MPs who voted in at least a quarter of that half-year's votes; the figure by each map says how often a coalition MP and an opposition MP voted alike then.",
+    "tak często poseł koalicji i poseł opozycji głosowali tak samo (średnio, w głosowaniach, w których obaj oddali głos)":
+        "how often a coalition MP and an opposition MP voted alike (on average, in the votes both took part in)",
+    "Średni odsetek posłów klubu, którzy głosowali tak jak większość ich klubu (wśród głosujących). Im ciemniej, tym spójniej.":
+        "The average share of a club's MPs who voted as most of their club did (among those voting). The darker, the more united.",
+    "Odsetek głosowań w tej kadencji, w których linie dwóch klubów (to, jak głosowała większość ich posłów) były takie same. Obecne kluby i koła.":
+        "The share of this term's votes in which two clubs' lines (how most of their MPs voted) were the same. Current clubs and groups.",
+    "Ile głosów zabrakło albo zostało ponad to, co było potrzebne do przyjęcia, w głosowaniach kadencji (z udziałem większości Sejmu), od −40 do +40. Na prawo od przerywanej linii wniosek przeszedł, na lewo upadł.":
+        "How many votes short of, or beyond, what passing needed, in this term's votes (with most of the Sejm taking part), from −40 to +40. Right of the dashed line the motion passed, left of it it failed.",
+    "Poza wykresem: {a} głosowań przyjętych z zapasem ponad 40 głosów i {b} upadłych, którym zabrakło ponad 40.":
+        "Off the chart: {a} votes passed with more than 40 to spare and {b} failed by more than 40.",
     "Tematy": "Topics", "temat": "topic", "Projekty i głosowania na temat": "Bills and votes on", "Nie ma jeszcze tematów.": "No topics yet.",
     "Projekty i głosowania według tematów: o czym naprawdę są, w kilku słowach.": "Bills and votes by topic: what they are really about, in a few words.",
     "Tytuły projektów rzadko mówią, o co w nich chodzi („o zmianie ustawy – Kodeks karny”). Tematy opisują to w kilku słowach. Nadaje je redakcja serwisu na podstawie tytułów i opisów projektów z API Sejmu.":

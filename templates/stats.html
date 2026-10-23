@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% from "_macros.html" import result_badge, counts %}
+{% set S = voting_stats %}
+{% block title %}{{ _("Statystyki głosowań") }}{% endblock %}
+{% block description %}{{ _("Mapa Sejmu według tego, jak głosują posłowie: kto z kim głosuje, jak spójne są kluby i które głosowania rozstrzygnęło kilka głosów.") }}{% endblock %}
+{% block content %}
+<style>
+  /* club colours (static/stats.js reads them): light values, then dark */
+  .stats-page {
+    --c-KO: #eb6834; --c-PiS: #2a78d6; --c-RozwojPlus: #1baf7a; --c-Polska2050: #eda100; --c-PSL-TD: #008300; --c-Lewica: #c2185b;
+    --c-Konfederacja: #4a3aa7; --c-Centrum: #9e7bd8; --c-Razem: #b03a8a; --c-Demokracja: #4f8fb0; --c-Republikanie: #1f4fa0;
+    --c-Konfederacja_KP: #7f6fd1; --c-Kukiz15: #6e6e6e; --c-other: #a3a3a3; --heat: 29, 95, 196; --edge: 120, 120, 130;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .stats-page {
+    --c-KO: #f07a45; --c-PiS: #4a90e8; --c-RozwojPlus: #22c08a; --c-Polska2050: #f2b01c; --c-PSL-TD: #2aa52a; --c-Lewica: #e0457f;
+    --c-Konfederacja: #8f84ee; --c-Centrum: #b39af0; --c-Razem: #d063aa; --c-Demokracja: #79acc4; --c-Republikanie: #5a86d8;
+    --c-Konfederacja_KP: #a99cf0; --c-Kukiz15: #9a9a9a; --c-other: #7d7d7d; --heat: 125, 184, 255; --edge: 170, 170, 180; } }
+  :root[data-theme="dark"] .stats-page {
+    --c-KO: #f07a45; --c-PiS: #4a90e8; --c-RozwojPlus: #22c08a; --c-Polska2050: #f2b01c; --c-PSL-TD: #2aa52a; --c-Lewica: #e0457f;
+    --c-Konfederacja: #8f84ee; --c-Centrum: #b39af0; --c-Razem: #d063aa; --c-Demokracja: #79acc4; --c-Republikanie: #5a86d8;
+    --c-Konfederacja_KP: #a99cf0; --c-Kukiz15: #9a9a9a; --c-other: #7d7d7d; --heat: 125, 184, 255; --edge: 170, 170, 180; }
+  .stats-map { position: relative; }
+  .stats-map canvas { display: block; width: 100%; aspect-ratio: 16 / 10; max-width: 100%; touch-action: manipulation; }
+  .stats-legend { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+  .stats-legend button { font: inherit; font-size: .85rem; display: inline-flex; align-items: center; gap: 6px; padding: 2px 10px;
+    border: 1px solid var(--line); border-radius: 99px; background: var(--surface); color: var(--text); cursor: pointer; }
+  .stats-legend button[aria-pressed="true"] { border-color: var(--text); font-weight: 600; }
+  .stats-legend i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .stats-tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--line); border-radius: 6px;
+    padding: 4px 8px; font-size: .85rem; box-shadow: 0 2px 8px rgba(0,0,0,.12); white-space: nowrap; z-index: 2; }
+  .stats-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .stats-grid figure { margin: 0; min-width: 0; }
+  .stats-grid figcaption { font-size: .88rem; margin-bottom: 2px; }
+  .stats-grid figcaption span { display: block; }
+  .stats-grid canvas { display: block; width: 100%; aspect-ratio: 4 / 3; max-width: 100%; }
+  .heat td.v { text-align: center; font-variant-numeric: tabular-nums; min-width: 4.2em; }
+  .heat th { white-space: nowrap; }
+  .stats-hist svg { display: block; width: 100%; height: auto; max-width: 100%; }
+  .stats-hist rect.hbar { fill: var(--accent); }
+  .stats-hist rect.hit { fill: transparent; }
+  .stats-hist rect.hit:hover + rect.hbar, .stats-hist rect.hbar:hover { opacity: .75; }
+  .stats-hist text { fill: var(--muted); font-size: 11px; }
+  .stats-hist line { stroke: var(--line); }
+  .stats-hist line.zero { stroke: var(--text); stroke-dasharray: 3 3; }
+</style>
+<div class="stats-page" id="stats" data-src="{{ site_root }}dane/statystyki.json" data-root="{{ root }}"
+  data-labels="{{ {"other": _("inne / niezrzeszeni"), "votes": _("głosowań"), "all": _("Wszystkie kluby"),
+                   "between": _("koalicja i opozycja głosowały tak samo"), "margin": _("przewaga"), "count": _("głosowań"),
+                   "outside": _("Poza wykresem: {a} głosowań przyjętych z zapasem ponad 40 głosów i {b} upadłych, którym zabrakło ponad 40.")} | tojson | forceescape }}">
+<h1>{{ _("Statystyki głosowań") }}</h1>
+<p>{{ _("Każda kropka to poseł, kolor to jego klub. Linie łączą każdego posła z pięcioma, z którymi najczęściej głosuje tak samo, i przyciągają ich do siebie, więc grupy, które głosują podobnie, zbijają się w skupiska. Najedź na kropkę, by zobaczyć posła, kliknij, by przejść do jego strony; kliknij klub w legendzie, by go wyróżnić na wszystkich mapach.") }}</p>
+
+<h2>{{ _("Cała kadencja") }}</h2>
+<div class="stats-legend" id="stats-legend" role="group" aria-label="{{ _('Wyróżnij klub') }}"></div>
+<div class="stats-map"><canvas id="stats-term" role="img" aria-label="{{ _('Mapa posłów według podobieństwa głosowań w całej kadencji') }}"></canvas></div>
+<p class="note">{{ S.term_between | pct }} — {{ _("tak często poseł koalicji i poseł opozycji głosowali tak samo (średnio, w głosowaniach, w których obaj oddali głos)") }}.</p>
+
+<h2>{{ _("Pół roku po pół roku") }}</h2>
+<p class="muted">{{ _("Te same mapy dla kolejnych półroczy, obrócone tak, by bloki zostawały na swoich miejscach. Na mapie są posłowie, którzy oddali głos w co najmniej czwartej części głosowań danego półrocza; liczba przy każdej mapie mówi, jak często poseł koalicji i poseł opozycji głosowali wtedy tak samo.") }}</p>
+<div class="stats-grid" id="stats-panels">
+  {% for p in S.panels %}
+  <figure>
+    <figcaption><strong>{{ p.label[0] if lang == "pl" else p.label[1] }}</strong><span class="muted">{{ p.votes }} {{ _("głosowań") }} · {{ _("koalicja z opozycją") }}: {{ p.between | pct }}</span></figcaption>
+    <canvas data-panel="{{ loop.index0 }}" role="img" aria-label="{{ _('Mapa posłów') }}: {{ p.label[0] if lang == 'pl' else p.label[1] }}"></canvas>
+  </figure>
+  {% endfor %}
+</div>
+
+<h2>{{ _("Spójność klubów") }}</h2>
+<p class="muted">{{ _("Średni odsetek posłów klubu, którzy głosowali tak jak większość ich klubu (wśród głosujących). Im ciemniej, tym spójniej.") }}</p>
+{% set clubs_seen = [] %}{% for p in S.panels %}{% for c in p.cohesion %}{% if c not in clubs_seen %}{% set _x = clubs_seen.append(c) %}{% endif %}{% endfor %}{% endfor %}
+<div class="table-scroll"><table class="heat">
+  <thead><tr><th>{{ _("Klub") }}</th>{% for p in S.panels %}<th class="num">{{ p.label[0] if lang == "pl" else p.label[1] }}</th>{% endfor %}</tr></thead>
+  <tbody>
+  {% for c in clubs_seen | sort %}
+  <tr><th scope="row">{{ c }}</th>
+    {% for p in S.panels %}{% set v = p.cohesion.get(c) %}
+    <td class="v"{% if v is not none %} style="background: rgba(var(--heat), {{ '%.2f' | format([0, (v - 0.85) / 0.15] | max * 0.5) }})"{% endif %}>{% if v is not none %}{{ v | pct }}{% else %}<span class="muted">—</span>{% endif %}</td>
+    {% endfor %}</tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+
+<h2>{{ _("Jak często kluby głosują tak samo") }}</h2>
+<p class="muted">{{ _("Odsetek głosowań w tej kadencji, w których linie dwóch klubów (to, jak głosowała większość ich posłów) były takie same. Obecne kluby i koła.") }}</p>
+<div class="table-scroll"><table class="heat">
+  <thead><tr><th></th>{% for c in S.clubs %}<th class="num">{{ c }}</th>{% endfor %}</tr></thead>
+  <tbody>
+  {% for a in S.clubs %}
+  <tr><th scope="row">{{ a }}</th>
+    {% for b in S.clubs %}{% set v = 1 if a == b else S.agreement.get(a, {}).get(b) %}
+    <td class="v"{% if v is not none and a != b %} style="background: rgba(var(--heat), {{ '%.2f' | format(v * 0.5) }})"{% endif %}>{% if a == b %}<span class="muted">—</span>{% elif v is not none %}{{ v | pct }}{% else %}<span class="muted">·</span>{% endif %}</td>
+    {% endfor %}</tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+
+<h2>{{ _("Na włosku") }}</h2>
+<p class="muted">{{ _("Ile głosów zabrakło albo zostało ponad to, co było potrzebne do przyjęcia, w głosowaniach kadencji (z udziałem większości Sejmu), od −40 do +40. Na prawo od przerywanej linii wniosek przeszedł, na lewo upadł.") }}</p>
+<div class="stats-hist" id="stats-hist" data-margins="{{ S.margins | tojson | forceescape }}"></div>
+<h3>{{ _("Najbliższe rozstrzygnięcia") }}</h3>
+<div class="table-scroll"><table>
+  <tbody>
+  {% for v in S.close %}
+  <tr><td style="white-space:nowrap">{{ v.date | date_pl }}</td>
+    <td><a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a><br><span class="muted" lang="pl">{{ v.agenda | truncate(110) }}</span></td>
+    <td style="white-space:nowrap">{{ result_badge(v) }} {{ counts(v) }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+</div>
+<script src="{{ site_root }}static/stats.js?v={{ static_version('stats.js') }}" defer></script>
+{% endblock %}

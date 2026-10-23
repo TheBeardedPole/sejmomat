@@ -229,7 +229,7 @@ const COFFEE_URL = "https://buycoffee.to/adamkoscielak";
 const SITE_ROOT = LANG === "en" ? `${ROOT}../` : ROOT;
 const T = {
   pl: {
-    privacy: "Prywatność", consentSettings: "Ustawienia zgody", contents: "Spis treści", articles: "Artykuły",
+    privacy: "Prywatność", consentSettings: "Ustawienia zgody", stats: "Statystyki", contents: "Spis treści", articles: "Artykuły",
     consentText: "Ta strona Cię nie śledzi. Za Twoją zgodą zapisze w przeglądarce licznik odwiedzonych podstron, " +
       "używany wyłącznie po to, by od czasu do czasu przypomnieć o możliwości wsparcia projektu.",
     consentTextGa: "Za Twoją zgodą strona użyje Google Analytics, by liczyć odwiedziny (pliki cookie Google), i zapisze w przeglądarce " +
@@ -241,7 +241,7 @@ const T = {
     buy: "Postaw kawę", later: "Nie teraz",
   },
   en: {
-    privacy: "Privacy", consentSettings: "Consent settings", contents: "Contents", articles: "Articles",
+    privacy: "Privacy", consentSettings: "Consent settings", stats: "Statistics", contents: "Contents", articles: "Articles",
     consentText: "This site does not track you. With your consent it will keep a page-view counter in your browser, " +
       "used only to occasionally mention that you can support the project.",
     consentTextGa: "With your consent the site will use Google Analytics to count visits (Google cookies), and keep a page-view " +
@@ -448,7 +448,7 @@ if (foot) {
     e.preventDefault();
     consentBar.hidden = false;
   });
-  foot.append(" · ", privacyLink(), " · ", settings);
+  foot.append(" · ", h("a", { href: `${ROOT}statystyki.html`, textContent: T.stats }), " · ", privacyLink(), " · ", settings);
 }
 const consent = readConsent();
 if (consent) applyConsent(consent.optional);
