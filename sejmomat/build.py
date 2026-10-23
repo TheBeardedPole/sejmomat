@@ -247,6 +247,15 @@ def build_context():
     for b in bill_rows:
         b["rcl"] = rcl.get(b["root"])
 
+    # Tags (data/tags.json): what a bill is about in a few words, written by
+    # hand; a vote takes its bill's tags and any of its own ("67-50").
+    tags = load_tags()
+    for b in bill_rows:
+        b["tags"] = tags["bills"].get(b["root"], [])
+    for v in by_id.values():
+        v["tags"] = list(dict.fromkeys(tags["votes"].get(f"{v['sitting']}-{v['votingNumber']}", [])
+                                       + (bill_by_root[v["bill"]]["tags"] if v["bill"] in bill_by_root else [])))
+
     # Speeches in the chamber. Figures and word clouds go into the MP, club
     # and bill pages; the lists and texts into dane/wystapienia/ (per MP) and
     # dane/debaty/ (per bill), loaded when asked for. Each speech on a bill
@@ -443,7 +452,7 @@ def build_context():
         "club_rows": club_rows, "club_slug": club_slug,
         "adopted": adopted, "proposers": proposers, "mp_proposers": mp_proposers,
         "by_proposer": by_proposer,
-        "all_amendments": all_amendments, "latest": latest, "latest_sitting": last_sitting,
+        "all_amendments": all_amendments, "latest": latest, "latest_sitting": last_sitting, "tag_index": tag_index(bill_rows, by_id, tags), "bill_tags": tags["bills"],
         "transfers": [(pair, n, pair in renames) for pair, n in transfers.most_common()],
         "bills": bill_rows, "bill_by_root": bill_by_root, "speeches_by_mp": speeches_by_mp,
         "speeches_by_bill": speeches_by_bill,
@@ -559,6 +568,22 @@ def build_adopted(by_id):
     return adopted, rows(tally), rows(mp_tally)
 
 
+def tag_index(bill_rows, by_id, tags):
+    """[{"tag", "slug", "bills": [bill row], "votes": [vote tagged on its own]}]
+    by number of bills, then name."""
+    out = {}
+    for b in bill_rows:
+        for t in b["tags"]:
+            out.setdefault(t, {"tag": t, "slug": tag_slug(t), "bills": [], "votes": []})["bills"].append(b)
+    for key, ts in tags["votes"].items():
+        s, n = (int(x) for x in key.split("-"))
+        v = by_id.get((s, n))
+        for t in ts:
+            if v:
+                out.setdefault(t, {"tag": t, "slug": tag_slug(t), "bills": [], "votes": []})["votes"].append(v)
+    return sorted(out.values(), key=lambda x: (-len(x["bills"]) - len(x["votes"]), x["tag"]))
+
+
 def agenda_json(a, bill_by_root, printed):
     """A sitting's agenda for the live votes panel (static/live.js): {item
     number: [text, bill page root or "", [prints], committee report, additional
@@ -588,6 +613,21 @@ def groupby_consecutive(items, attr):
         else:
             out.append((key, [it]))
     return out
+
+
+TAGS = DATA / "tags.json"
+
+
+def load_tags():
+    """{"bills": {root print: [tag]}, "votes": {"sitting-number": [tag]}}."""
+    data = json.loads(TAGS.read_text(encoding="utf-8")) if TAGS.exists() else {}
+    return {"bills": data.get("bills") or {}, "votes": data.get("votes") or {}}
+
+
+def tag_slug(tag):
+    """A tag's page name: lower case, Polish letters plain, words joined by "-"."""
+    plain = tag.lower().translate(str.maketrans("ąćęłńóśźż", "acelnoszz"))
+    return re.sub(r"[^a-z0-9]+", "-", plain).strip("-") or "temat"
 
 
 def club_slug(club):
@@ -870,6 +910,7 @@ def _env(lang):
     env.filters["pct"] = pct_fmt(lang)
     env.filters["groupby_consecutive"] = groupby_consecutive
     env.filters["agenda_json"] = agenda_json
+    env.filters["tag_slug"] = tag_slug
     # Proposer labels are data, except these two.
     env.filters["roman"] = roman
     # "szósta kadencja" / "6th term"
@@ -902,6 +943,9 @@ def _pages(ctx):
     yield "frozen.html", "zamrazarka.html", {}
     yield "live_vote.html", "glosowanie-na-zywo.html", {}
     yield "compare.html", "porownaj-glosowania.html", {}
+    yield "tags.html", "tematy.html", {}
+    for t in ctx["tag_index"]:
+        yield "tag.html", f"temat/{t['slug']}.html", {"t": t}
     yield "adopted.html", "skuteczne-poprawki.html", {}
     yield "method.html", "metodologia.html", {}
     yield "search.html", "szukaj.html", {}

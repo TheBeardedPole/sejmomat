@@ -58,10 +58,10 @@ def fetch():
         if len(page) < PAGE:
             break
         offset += PAGE
-    # also open ones stored before descriptions were kept (closed ones need none)
+    # also those stored before descriptions were kept (used for frozen bills and for tagging)
     todo = [p for p in listed if p.get("documentTypeEnum") in KINDS
             and (p["number"] not in stored or stored[p["number"]]["changed"] != p.get("changeDate")
-                 or ("description" not in stored[p["number"]] and not p.get("closureDate")))]
+                 or "description" not in stored[p["number"]])]
 
     def save():
         _write_json(PATH, dict(sorted(stored.items(), key=lambda kv: (int(kv[0].split("-")[0]) if kv[0][:1].isdigit() else 0, kv[0]))))

@@ -1,0 +1,4622 @@
+{
+ "_about": "Tematy projektów (sejmomat/build.py, load_tags): \"bills\" — numer druku otwierającego projekt (jak w adresie ustawa/NNN.html albo w przebiegu prac na stronie Sejmu) i 1–2 tematy; \"votes\" — \"posiedzenie-numer głosowania\" i tematy samego głosowania (np. konkretnej poprawki), dodawane do tematów projektu. Krótko, zwykłym językiem, o co chodzi, nie który akt jest zmieniany; ten sam temat dla projektów w tej samej sprawie.",
+ "bills": {
+  "1": [
+   "Organy Sejmu"
+  ],
+  "3": [
+   "Wybory na stanowiska",
+   "Organy Sejmu"
+  ],
+  "9": [
+   "Organy Sejmu"
+  ],
+  "10": [
+   "Skład komisji",
+   "Służby specjalne"
+  ],
+  "11": [
+   "Skład komisji"
+  ],
+  "20": [
+   "Skład komisji"
+  ],
+  "21": [
+   "Skład komisji"
+  ],
+  "22": [
+   "Skład komisji"
+  ],
+  "23": [
+   "Skład komisji",
+   "Służby specjalne"
+  ],
+  "24": [
+   "Mienie bezdziedziczne"
+  ],
+  "25": [
+   "Konwencja stambulska"
+  ],
+  "26": [
+   "Zakaz promocji LGBT"
+  ],
+  "27": [
+   "Emerytury stażowe"
+  ],
+  "28": [
+   "Pensje nauczycieli",
+   "Karta Nauczyciela"
+  ],
+  "29": [
+   "Ochrona uczuć religijnych"
+  ],
+  "30": [
+   "Renta socjalna"
+  ],
+  "31": [
+   "Refundacja in vitro",
+   "Leczenie niepłodności"
+  ],
+  "32": [
+   "Renta wdowia"
+  ],
+  "33": [
+   "Wynagrodzenia w ochronie zdrowia"
+  ],
+  "34": [
+   "Wybory na stanowiska",
+   "Trybunał Stanu"
+  ],
+  "52": [
+   "Wybory na stanowiska",
+   "Prawa dziecka"
+  ],
+  "53": [
+   "Wybory na stanowiska",
+   "Ochrona dzieci przed przemocą"
+  ],
+  "55": [
+   "Zmiany traktatów UE",
+   "Unia Europejska"
+  ],
+  "56": [
+   "Komisja śledcza",
+   "Afera wizowa"
+  ],
+  "57": [
+   "Komisja śledcza",
+   "Pegasus"
+  ],
+  "58": [
+   "Komisja śledcza",
+   "Wybory kopertowe"
+  ],
+  "59": [
+   "Handel w Wigilię",
+   "Zakaz handlu w niedziele"
+  ],
+  "62": [
+   "Odwołania ze stanowisk"
+  ],
+  "63": [
+   "Handel w Wigilię",
+   "Zakaz handlu w niedziele"
+  ],
+  "64": [
+   "Skład komisji"
+  ],
+  "65": [
+   "Wakacje kredytowe"
+  ],
+  "70": [
+   "Skład komisji"
+  ],
+  "71": [
+   "Mrożenie cen energii"
+  ],
+  "72": [
+   "Mrożenie cen energii"
+  ],
+  "74": [
+   "Górnictwo węgla",
+   "Polska Grupa Górnicza"
+  ],
+  "75": [
+   "Wybory samorządowe"
+  ],
+  "76": [
+   "Skład komisji"
+  ],
+  "77": [
+   "Regulamin Sejmu"
+  ],
+  "82": [
+   "Sprawozdania i informacje",
+   "Ochrona zdrowia"
+  ],
+  "86": [
+   "Sprawozdania i informacje",
+   "Gospodarka wodna"
+  ],
+  "89": [
+   "Skład komisji"
+  ],
+  "90": [
+   "Wybory na stanowiska",
+   "Ochrona dzieci przed przemocą"
+  ],
+  "91": [
+   "Skład komisji"
+  ],
+  "92": [
+   "E-Doręczenia"
+  ],
+  "93": [
+   "Komisja śledcza",
+   "Wybory kopertowe"
+  ],
+  "95": [
+   "Wybór premiera",
+   "Rząd Donalda Tuska"
+  ],
+  "96": [
+   "Wybór rządu",
+   "Rząd Donalda Tuska"
+  ],
+  "97": [
+   "Wybory na stanowiska",
+   "Państwowa Komisja Wyborcza"
+  ],
+  "104": [
+   "Grzegorz Braun",
+   "Antysemityzm"
+  ],
+  "105": [
+   "Odwołania ze stanowisk",
+   "Organy Sejmu"
+  ],
+  "106": [
+   "Orzeczenia o niepełnosprawności"
+  ],
+  "117": [
+   "Media publiczne"
+  ],
+  "118": [
+   "Krajowa Rada Sądownictwa",
+   "Praworządność"
+  ],
+  "123": [
+   "Święta państwowe"
+  ],
+  "124": [
+   "Święta państwowe"
+  ],
+  "125": [
+   "Budżet państwa 2024"
+  ],
+  "126": [
+   "Skład komisji"
+  ],
+  "127": [
+   "Wynagrodzenia sędziów",
+   "Budżet państwa"
+  ],
+  "128": [
+   "Budżet państwa 2024"
+  ],
+  "129": [
+   "Komisja śledcza",
+   "Afera wizowa"
+  ],
+  "136": [
+   "Reparacje wojenne od Niemiec"
+  ],
+  "137": [
+   "Skład komisji"
+  ],
+  "139": [
+   "Budżet państwa 2024"
+  ],
+  "140": [
+   "Wotum nieufności",
+   "Media publiczne"
+  ],
+  "141": [
+   "Studia doktoranckie"
+  ],
+  "142": [
+   "Budżet państwa 2024"
+  ],
+  "155": [
+   "Oświadczenia majątkowe"
+  ],
+  "156": [
+   "Oświadczenia majątkowe"
+  ],
+  "157": [
+   "Upamiętnienie"
+  ],
+  "161": [
+   "Skład komisji"
+  ],
+  "162": [
+   "Dyplomacja parlamentarna"
+  ],
+  "167": [
+   "Sprawozdania i informacje",
+   "Bezpieczeństwo na drogach"
+  ],
+  "168": [
+   "Sprawozdania i informacje",
+   "Bon turystyczny"
+  ],
+  "170": [
+   "Skład komisji"
+  ],
+  "171": [
+   "Nadzór nad NCBR",
+   "Nauka"
+  ],
+  "174": [
+   "Skład komisji"
+  ],
+  "175": [
+   "Wotum nieufności",
+   "Praworządność"
+  ],
+  "176": [
+   "Dekryminalizacja aborcji",
+   "Aborcja"
+  ],
+  "177": [
+   "Aborcja",
+   "Aborcja do 12. tygodnia"
+  ],
+  "178": [
+   "Upamiętnienie"
+  ],
+  "184": [
+   "Komisja śledcza",
+   "Pegasus"
+  ],
+  "185": [
+   "Antykoncepcja awaryjna bez recepty"
+  ],
+  "187": [
+   "Emerytury stażowe"
+  ],
+  "188": [
+   "Pomoc dla Ukraińców"
+  ],
+  "190": [
+   "Praworządność"
+  ],
+  "191": [
+   "Praworządność",
+   "Prawa człowieka"
+  ],
+  "192": [
+   "Trybunał Konstytucyjny",
+   "Praworządność"
+  ],
+  "193": [
+   "Sprawozdania i informacje",
+   "Unia Europejska"
+  ],
+  "194": [
+   "Kwota wolna od podatku"
+  ],
+  "195": [
+   "Skład komisji"
+  ],
+  "198": [
+   "Skład komisji"
+  ],
+  "199": [
+   "Krajowa Sieć Onkologiczna"
+  ],
+  "201": [
+   "Poczta Polska"
+  ],
+  "204": [
+   "Traktat CFE",
+   "Obronność"
+  ],
+  "205": [
+   "Samorządowe kolegia odwoławcze"
+  ],
+  "206": [
+   "Przewaga kontraktowa w handlu żywnością",
+   "Rolnictwo"
+  ],
+  "207": [
+   "KRUS"
+  ],
+  "208": [
+   "Pożyczki lombardowe"
+  ],
+  "209": [
+   "Definicja zgwałcenia"
+  ],
+  "210": [
+   "Prace polowe nocą",
+   "Rolnictwo"
+  ],
+  "211": [
+   "Świadczenie dla sołtysów"
+  ],
+  "212": [
+   "Centralny Port Komunikacyjny"
+  ],
+  "215": [
+   "Upamiętnienie",
+   "Rosja"
+  ],
+  "216": [
+   "Trybunał Stanu"
+  ],
+  "219": [
+   "Krajowa Rada Sądownictwa",
+   "Praworządność"
+  ],
+  "220": [
+   "Komisja śledcza",
+   "Afera wizowa"
+  ],
+  "221": [
+   "Skład komisji"
+  ],
+  "223": [
+   "Aborcja",
+   "Przywrócenie kompromisu aborcyjnego"
+  ],
+  "224": [
+   "Aborcja",
+   "Aborcja do 12. tygodnia",
+   "Antykoncepcja"
+  ],
+  "226": [
+   "Trybunał Konstytucyjny",
+   "Praworządność"
+  ],
+  "228": [
+   "Sankcje na żywność z Rosji i Białorusi"
+  ],
+  "231": [
+   "Umowy międzynarodowe",
+   "Ukraina"
+  ],
+  "233": [
+   "Język śląski"
+  ],
+  "234": [
+   "Upamiętnienie"
+  ],
+  "240": [
+   "Skład komisji"
+  ],
+  "241": [
+   "Dostępność dla osób z niepełnosprawnościami"
+  ],
+  "242": [
+   "Jawność podatków korporacji"
+  ],
+  "244": [
+   "Darmowa antykoncepcja",
+   "Antykoncepcja"
+  ],
+  "245": [
+   "Organizacje rolników"
+  ],
+  "248": [
+   "Wakacje kredytowe"
+  ],
+  "253": [
+   "Trybunał Konstytucyjny",
+   "Praworządność"
+  ],
+  "254": [
+   "Trybunał Konstytucyjny",
+   "Praworządność"
+  ],
+  "255": [
+   "Wotum nieufności"
+  ],
+  "256": [
+   "Skład komisji"
+  ],
+  "257": [
+   "Poszukiwania zabytków"
+  ],
+  "258": [
+   "Szkody od ptaków",
+   "Rolnictwo"
+  ],
+  "259": [
+   "Spółdzielnie rolników"
+  ],
+  "260": [
+   "Lekarze weterynarii",
+   "Zdrowie zwierząt"
+  ],
+  "261": [
+   "Spółki Skarbu Państwa"
+  ],
+  "262": [
+   "Protest rolników",
+   "Rolnictwo"
+  ],
+  "263": [
+   "Protest rolników",
+   "Rolnictwo"
+  ],
+  "268": [
+   "Krajowa Administracja Skarbowa"
+  ],
+  "269": [
+   "Administracja rządowa",
+   "Energetyka"
+  ],
+  "270": [
+   "Odwołania ze stanowisk",
+   "Reprywatyzacja"
+  ],
+  "274": [
+   "Pomoc społeczna",
+   "Wynagrodzenia w pomocy społecznej"
+  ],
+  "275": [
+   "Wakacje od ZUS"
+  ],
+  "276": [
+   "Umowy międzynarodowe",
+   "ONZ"
+  ],
+  "277": [
+   "Wyroby tytoniowe"
+  ],
+  "293": [
+   "Piecza zastępcza"
+  ],
+  "294": [
+   "Umowy międzynarodowe"
+  ],
+  "296": [
+   "Głosowanie korespondencyjne"
+  ],
+  "303": [
+   "Umowy międzynarodowe",
+   "EBOR"
+  ],
+  "304": [
+   "Skład komisji"
+  ],
+  "306": [
+   "Skład komisji",
+   "Aborcja"
+  ],
+  "307": [
+   "Skład komisji"
+  ],
+  "311": [
+   "Oszustwa podatkowe",
+   "Wymiana informacji podatkowych"
+  ],
+  "315": [
+   "Upamiętnienie",
+   "Unia Europejska"
+  ],
+  "316": [
+   "Asystencja osobista",
+   "Osoby z niepełnosprawnościami"
+  ],
+  "317": [
+   "Ochrona sygnalistów"
+  ],
+  "318": [
+   "Ochrona pracowników przed rakotwórczymi"
+  ],
+  "319": [
+   "Babciowe",
+   "Aktywny rodzic"
+  ],
+  "320": [
+   "KPO"
+  ],
+  "321": [
+   "Język wilamowski"
+  ],
+  "322": [
+   "Kwota wolna od podatku"
+  ],
+  "323": [
+   "Zerowy VAT na żywność"
+  ],
+  "324": [
+   "Składka zdrowotna"
+  ],
+  "325": [
+   "Renta wdowia"
+  ],
+  "328": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "329": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "339": [
+   "Skład komisji"
+  ],
+  "341": [
+   "KSeF (e-faktury)"
+  ],
+  "342": [
+   "Pomoc dla Ukraińców"
+  ],
+  "343": [
+   "Odwołania ze stanowisk",
+   "Ochrona dzieci przed przemocą"
+  ],
+  "344": [
+   "Wotum nieufności",
+   "Klimat i środowisko"
+  ],
+  "345": [
+   "Skład komisji"
+  ],
+  "346": [
+   "Mrożenie cen energii",
+   "Bon energetyczny"
+  ],
+  "347": [
+   "Prezydencja Polski w UE"
+  ],
+  "348": [
+   "Umowy międzynarodowe"
+  ],
+  "349": [
+   "Sprzedaż bezpośrednia od rolników",
+   "Rolnictwo"
+  ],
+  "350": [
+   "Fajerwerki",
+   "Ochrona zwierząt"
+  ],
+  "351": [
+   "Komisja ds. wpływów rosyjskich"
+  ],
+  "352": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "353": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "354": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "355": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "356": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "357": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "358": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "359": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "360": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "361": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "362": [
+   "Upamiętnienie"
+  ],
+  "366": [
+   "Wybory na stanowiska",
+   "Reprywatyzacja"
+  ],
+  "382": [
+   "Dopłaty dla rolników",
+   "Wspólna Polityka Rolna"
+  ],
+  "384": [
+   "Zakaz handlu w niedziele"
+  ],
+  "385": [
+   "Ochrona środowiska"
+  ],
+  "389": [
+   "Regulamin Sejmu"
+  ],
+  "390": [
+   "Skład komisji"
+  ],
+  "402": [
+   "Skład komisji"
+  ],
+  "405": [
+   "Bezpieczeństwo państwa",
+   "Obronność"
+  ],
+  "406": [
+   "Prawo autorskie",
+   "Tantiemy dla twórców"
+  ],
+  "409": [
+   "Uzasadnienia wyroków"
+  ],
+  "410": [
+   "Owoce zatrutego drzewa"
+  ],
+  "415": [
+   "Krzyże w urzędach"
+  ],
+  "419": [
+   "Podatek od kolejnych mieszkań",
+   "Mieszkalnictwo"
+  ],
+  "420": [
+   "Umowy międzynarodowe",
+   "Handel z Chile"
+  ],
+  "421": [
+   "Nuclear Sharing",
+   "Obronność"
+  ],
+  "423": [
+   "Prawo komunikacji elektronicznej",
+   "Telekomunikacja"
+  ],
+  "424": [
+   "Prawo komunikacji elektronicznej",
+   "Telekomunikacja"
+  ],
+  "425": [
+   "Sprawozdania i informacje",
+   "Wykonanie budżetu"
+  ],
+  "430": [
+   "Dostępność dla osób z niepełnosprawnościami"
+  ],
+  "431": [
+   "Zapora na granicy z Białorusią",
+   "Ochrona granicy"
+  ],
+  "432": [
+   "5% PKB na obronność",
+   "Obronność"
+  ],
+  "433": [
+   "Unia Europejska"
+  ],
+  "435": [
+   "Ochrona środowiska",
+   "Finanse samorządów"
+  ],
+  "436": [
+   "Osoby z niepełnosprawnościami"
+  ],
+  "437": [
+   "Pozwy zbiorowe",
+   "Prawa konsumenta"
+  ],
+  "438": [
+   "Prawo budowlane"
+  ],
+  "439": [
+   "Związki zawodowe"
+  ],
+  "440": [
+   "Notariat"
+  ],
+  "441": [
+   "Kontrole firm",
+   "Deregulacja"
+  ],
+  "442": [
+   "Konie do Morskiego Oka",
+   "Ochrona zwierząt"
+  ],
+  "443": [
+   "Gospodarka nieruchomościami"
+  ],
+  "444": [
+   "Prawo budowlane",
+   "Deregulacja"
+  ],
+  "445": [
+   "Organizacje pożytku publicznego"
+  ],
+  "446": [
+   "Regulamin Sejmu"
+  ],
+  "451": [
+   "Sprawozdania i informacje",
+   "Media publiczne"
+  ],
+  "452": [
+   "Sprawozdania i informacje",
+   "Media publiczne"
+  ],
+  "454": [
+   "Upamiętnienie",
+   "Ochrona granicy"
+  ],
+  "457": [
+   "Komisja śledcza"
+  ],
+  "458": [
+   "Komisja śledcza"
+  ],
+  "459": [
+   "Komisja śledcza"
+  ],
+  "460": [
+   "Skład komisji"
+  ],
+  "463": [
+   "Media publiczne"
+  ],
+  "465": [
+   "Wybory na stanowiska",
+   "Krajowa Rada Sądownictwa"
+  ],
+  "471": [
+   "Użycie wojska w czasie pokoju",
+   "Ochrona granicy"
+  ],
+  "472": [
+   "Reguła wydatkowa",
+   "Finanse publiczne"
+  ],
+  "478": [
+   "Upamiętnienie"
+  ],
+  "479": [
+   "Migracja",
+   "Granica z Niemcami"
+  ],
+  "480": [
+   "Upamiętnienie"
+  ],
+  "481": [
+   "Kasowy VAT"
+  ],
+  "483": [
+   "Sprawozdania i informacje",
+   "Najwyższa Izba Kontroli"
+  ],
+  "488": [
+   "Skład komisji"
+  ],
+  "494": [
+   "Mrożenie cen energii"
+  ],
+  "496": [
+   "Rozwój lokalny"
+  ],
+  "497": [
+   "Ziemia rolna Skarbu Państwa"
+  ],
+  "498": [
+   "Upamiętnienie",
+   "Edukacja"
+  ],
+  "501": [
+   "Skład komisji"
+  ],
+  "502": [
+   "Komisja śledcza"
+  ],
+  "508": [
+   "Regulamin Sejmu"
+  ],
+  "523": [
+   "Handel emisjami CO2"
+  ],
+  "524": [
+   "Rzeź wołyńska",
+   "Upamiętnienie"
+  ],
+  "525": [
+   "Upamiętnienie"
+  ],
+  "526": [
+   "Składka zdrowotna"
+  ],
+  "528": [
+   "Diety dzieci w żłobkach i szkołach"
+  ],
+  "529": [
+   "Kontrola NIK",
+   "Media publiczne"
+  ],
+  "530": [
+   "Miny przeciwpiechotne",
+   "Obronność"
+  ],
+  "533": [
+   "Upamiętnienie",
+   "Rzeź wołyńska"
+  ],
+  "537": [
+   "Skład komisji"
+  ],
+  "545": [
+   "Stypendia sportowe",
+   "Sport"
+  ],
+  "546": [
+   "Orzeczenia o niepełnosprawności"
+  ],
+  "547": [
+   "Dowody osobiste i dokumenty"
+  ],
+  "548": [
+   "Krwiodawstwo"
+  ],
+  "552": [
+   "Przedawnienie podatków"
+  ],
+  "553": [
+   "Ubezpieczenia komunikacyjne"
+  ],
+  "554": [
+   "Biura informacji gospodarczej"
+  ],
+  "555": [
+   "Parki narodowe"
+  ],
+  "556": [
+   "Wybory",
+   "Podpisy elektroniczne pod listami"
+  ],
+  "558": [
+   "Deregulacja"
+  ],
+  "559": [
+   "Dobrowolny ZUS dla przedsiębiorców"
+  ],
+  "560": [
+   "Emerytury olimpijskie",
+   "Sport"
+  ],
+  "568": [
+   "Upamiętnienie"
+  ],
+  "570": [
+   "Skład komisji"
+  ],
+  "571": [
+   "Skład komisji"
+  ],
+  "573": [
+   "Zabudowa wokół lotnisk"
+  ],
+  "585": [
+   "Skład komisji"
+  ],
+  "589": [
+   "Umowy międzynarodowe",
+   "Prawa człowieka"
+  ],
+  "592": [
+   "Wybory na stanowiska",
+   "Ochrona dzieci przed przemocą"
+  ],
+  "599": [
+   "Podatek od zysków giełdowych",
+   "Inwestowanie"
+  ],
+  "600": [
+   "Pomoc de minimis"
+  ],
+  "601": [
+   "Kasowy PIT"
+  ],
+  "602": [
+   "Transport drogowy"
+  ],
+  "603": [
+   "Ochotnicze straże pożarne"
+  ],
+  "604": [
+   "Krajowa Administracja Skarbowa"
+  ],
+  "605": [
+   "Policja i Straż Graniczna",
+   "Klasy mundurowe"
+  ],
+  "606": [
+   "Pasze GMO"
+  ],
+  "607": [
+   "Świadczenie dla stulatków"
+  ],
+  "608": [
+   "Psy na łańcuchach",
+   "Ochrona zwierząt"
+  ],
+  "609": [
+   "E-Doręczenia"
+  ],
+  "610": [
+   "Fundusz sołecki"
+  ],
+  "611": [
+   "Dekryminalizacja aborcji",
+   "Aborcja"
+  ],
+  "612": [
+   "Miny przeciwpiechotne",
+   "Obronność"
+  ],
+  "613": [
+   "Umowy międzynarodowe"
+  ],
+  "614": [
+   "Upamiętnienie"
+  ],
+  "615": [
+   "Upamiętnienie"
+  ],
+  "616": [
+   "Sprawozdania i informacje",
+   "Unia Europejska"
+  ],
+  "622": [
+   "Finanse samorządów"
+  ],
+  "638": [
+   "Skład komisji"
+  ],
+  "644": [
+   "Finansowanie uczelni"
+  ],
+  "650": [
+   "Lobbing",
+   "KPO"
+  ],
+  "651": [
+   "Unia Europejska"
+  ],
+  "655": [
+   "Koła gospodyń wiejskich"
+  ],
+  "656": [
+   "VAT dla małych firm"
+  ],
+  "659": [
+   "Akcyza na cydr",
+   "Alkohol"
+  ],
+  "660": [
+   "Dobrowolny ZUS dla przedsiębiorców"
+  ],
+  "661": [
+   "Treści terrorystyczne w internecie"
+  ],
+  "662": [
+   "Upamiętnienie"
+  ],
+  "664": [
+   "Obrona cywilna",
+   "Bezpieczeństwo państwa"
+  ],
+  "665": [
+   "Orzeczenia o niepełnosprawności"
+  ],
+  "669": [
+   "Powódź 2024"
+  ],
+  "670": [
+   "Umowy międzynarodowe"
+  ],
+  "671": [
+   "Wychowanie patriotyczne",
+   "Edukacja"
+  ],
+  "672": [
+   "Powódź 2024"
+  ],
+  "673": [
+   "Wojska Obrony Terytorialnej",
+   "Obronność"
+  ],
+  "674": [
+   "Globalny podatek minimalny"
+  ],
+  "676": [
+   "Skład komisji"
+  ],
+  "677": [
+   "Komisja śledcza"
+  ],
+  "678": [
+   "Skład komisji",
+   "Powódź 2024"
+  ],
+  "680": [
+   "Skład komisji"
+  ],
+  "687": [
+   "Budżet państwa 2025"
+  ],
+  "689": [
+   "Skład komisji"
+  ],
+  "690": [
+   "Podatek Belki"
+  ],
+  "692": [
+   "Akcyza na papierosy",
+   "Wyroby tytoniowe"
+  ],
+  "693": [
+   "Budżet państwa 2025"
+  ],
+  "694": [
+   "Odwołania ze stanowisk",
+   "Media publiczne"
+  ],
+  "698": [
+   "Powódź 2024",
+   "Ulgi podatkowe"
+  ],
+  "699": [
+   "Centralny Port Komunikacyjny"
+  ],
+  "700": [
+   "Ochrona zwierząt",
+   "Psy na łańcuchach"
+  ],
+  "702": [
+   "Mieszkalnictwo"
+  ],
+  "703": [
+   "Zakaz ferm futerkowych",
+   "Ochrona zwierząt"
+  ],
+  "708": [
+   "Skład komisji"
+  ],
+  "722": [
+   "System wjazdu/wyjazdu UE",
+   "Ochrona granicy"
+  ],
+  "726": [
+   "Raportowanie ESG"
+  ],
+  "727": [
+   "Uczelnie"
+  ],
+  "728": [
+   "Ślepy pozew",
+   "Hejt w internecie"
+  ],
+  "729": [
+   "Fajerwerki",
+   "Ochrona zwierząt"
+  ],
+  "730": [
+   "Kamery na mundurach policjantów",
+   "Policja"
+  ],
+  "735": [
+   "Skład komisji"
+  ],
+  "737": [
+   "Skład komisji",
+   "Ochrona zwierząt"
+  ],
+  "741": [
+   "Podatki lokalne"
+  ],
+  "742": [
+   "Sport",
+   "Przemoc w sporcie"
+  ],
+  "743": [
+   "Wodór",
+   "Energetyka"
+  ],
+  "744": [
+   "Odnawialne źródła energii",
+   "Prosumenci"
+  ],
+  "745": [
+   "Wystąpienie z Intersputnika"
+  ],
+  "746": [
+   "Wystąpienie z Intersputnika"
+  ],
+  "747": [
+   "Umowy międzynarodowe",
+   "Stypendia"
+  ],
+  "748": [
+   "Zdrowie psychiczne dzieci"
+  ],
+  "750": [
+   "Rada Fiskalna",
+   "Finanse publiczne"
+  ],
+  "751": [
+   "Elektromobilność"
+  ],
+  "752": [
+   "Transport drogowy"
+  ],
+  "753": [
+   "Służba zagraniczna"
+  ],
+  "754": [
+   "Budżet państwa 2024",
+   "Finanse samorządów"
+  ],
+  "755": [
+   "Budżet państwa 2024",
+   "Finanse samorządów"
+  ],
+  "756": [
+   "Finanse samorządów"
+  ],
+  "757": [
+   "Kształcenie medyków"
+  ],
+  "759": [
+   "Matura i egzaminy"
+  ],
+  "760": [
+   "System kaucyjny"
+  ],
+  "761": [
+   "E-Doręczenia"
+  ],
+  "762": [
+   "Urlop macierzyński dla rodziców wcześniaków"
+  ],
+  "763": [
+   "Likwidacja instytucji"
+  ],
+  "764": [
+   "Składka zdrowotna"
+  ],
+  "765": [
+   "Obrót kredytami"
+  ],
+  "766": [
+   "Gospodarka odpadami"
+  ],
+  "772": [
+   "Strefy rolnicze",
+   "Rolnictwo"
+  ],
+  "773": [
+   "Kwota wolna od podatku"
+  ],
+  "774": [
+   "Przedawnienie podatków"
+  ],
+  "775": [
+   "Upamiętnienie"
+  ],
+  "777": [
+   "Wigilia dniem wolnym"
+  ],
+  "778": [
+   "Wybory na stanowiska",
+   "Media publiczne"
+  ],
+  "783": [
+   "Skład komisji"
+  ],
+  "784": [
+   "Skład komisji"
+  ],
+  "789": [
+   "Skład komisji"
+  ],
+  "800": [
+   "Fundusz alimentacyjny"
+  ],
+  "801": [
+   "Geodezja"
+  ],
+  "802": [
+   "Powódź 2024"
+  ],
+  "803": [
+   "Recepty"
+  ],
+  "804": [
+   "Ubezpieczenia upraw"
+  ],
+  "806": [
+   "Skład komisji"
+  ],
+  "808": [
+   "Wotum nieufności",
+   "Ochrona zdrowia"
+  ],
+  "810": [
+   "Drony"
+  ],
+  "811": [
+   "Morskie farmy wiatrowe"
+  ],
+  "812": [
+   "Gospodarka odpadami"
+  ],
+  "813": [
+   "Ochrona środowiska",
+   "Polityka miejska"
+  ],
+  "823": [
+   "Niższy VAT na paliwa"
+  ],
+  "824": [
+   "Zerowy PIT dla młodych"
+  ],
+  "825": [
+   "Zniesienie podatku od spadków"
+  ],
+  "826": [
+   "KOWR"
+  ],
+  "827": [
+   "Oświetlenie uliczne"
+  ],
+  "828": [
+   "Polski Związek Łowiecki",
+   "Łowiectwo"
+  ],
+  "829": [
+   "Instytut Witosa"
+  ],
+  "830": [
+   "Zabójstwo drogowe",
+   "Bezpieczeństwo na drogach"
+  ],
+  "831": [
+   "Umowa z Mercosur",
+   "Rolnictwo"
+  ],
+  "836": [
+   "Rejestr psów i kotów",
+   "Ochrona zwierząt"
+  ],
+  "837": [
+   "Hodowla psów i kotów"
+  ],
+  "838": [
+   "Składka zdrowotna"
+  ],
+  "839": [
+   "Produkcja amunicji",
+   "Obronność"
+  ],
+  "840": [
+   "Kultura",
+   "Prawo autorskie"
+  ],
+  "841": [
+   "Mrożenie cen energii"
+  ],
+  "842": [
+   "Fundusz Ochrony Rolnictwa"
+  ],
+  "852": [
+   "Praca osób z niepełnosprawnościami"
+  ],
+  "864": [
+   "Nielegalne treści w internecie"
+  ],
+  "866": [
+   "Podatek od nieruchomości"
+  ],
+  "867": [
+   "Broń myśliwska",
+   "Badania myśliwych"
+  ],
+  "868": [
+   "Stowarzyszenia",
+   "Deregulacja"
+  ],
+  "876": [
+   "Mowa nienawiści"
+  ],
+  "878": [
+   "Sankcje wobec Rosji"
+  ],
+  "879": [
+   "Służba Więzienna"
+  ],
+  "880": [
+   "Opłaty za parkowanie"
+  ],
+  "881": [
+   "Rzeź wołyńska",
+   "Upamiętnienie"
+  ],
+  "882": [
+   "Skład komisji"
+  ],
+  "895": [
+   "Gospodarka wodna"
+  ],
+  "896": [
+   "Podatki dla firm"
+  ],
+  "897": [
+   "Cła"
+  ],
+  "898": [
+   "Wybory na stanowiska",
+   "Trybunał Konstytucyjny"
+  ],
+  "906": [
+   "Prokuratura Europejska"
+  ],
+  "907": [
+   "Podatki dla firm",
+   "Deregulacja"
+  ],
+  "908": [
+   "Rzeź wołyńska",
+   "Banderyzm"
+  ],
+  "910": [
+   "Upamiętnienie"
+  ],
+  "911": [
+   "Upamiętnienie"
+  ],
+  "913": [
+   "Gruzja",
+   "Polityka zagraniczna"
+  ],
+  "922": [
+   "Upamiętnienie"
+  ],
+  "923": [
+   "Ważność wyborów prezydenckich",
+   "Sąd Najwyższy"
+  ],
+  "924": [
+   "Zawieszenie prawa do azylu",
+   "Migracja"
+  ],
+  "925": [
+   "Upamiętnienie",
+   "Święta państwowe"
+  ],
+  "926": [
+   "Areszt dla posłów"
+  ],
+  "927": [
+   "Rynek mocy",
+   "Energetyka"
+  ],
+  "932": [
+   "Wojsko"
+  ],
+  "933": [
+   "Gospodarka morska"
+  ],
+  "934": [
+   "Jawność wynagrodzeń"
+  ],
+  "937": [
+   "Upamiętnienie"
+  ],
+  "947": [
+   "Skład komisji"
+  ],
+  "948": [
+   "Rynek pracy",
+   "Urzędy pracy"
+  ],
+  "949": [
+   "Zatrudnianie cudzoziemców",
+   "Migracja"
+  ],
+  "950": [
+   "Cudzoziemcy",
+   "Migracja"
+  ],
+  "951": [
+   "Afera wizowa",
+   "Wizy dla studentów"
+  ],
+  "952": [
+   "Wojsko",
+   "Budownictwo"
+  ],
+  "953": [
+   "Promocja żywności"
+  ],
+  "954": [
+   "Mieszkania socjalne"
+  ],
+  "955": [
+   "Elektrownia jądrowa",
+   "Energetyka"
+  ],
+  "956": [
+   "Biopaliwa"
+  ],
+  "962": [
+   "Mrożenie cen energii"
+  ],
+  "964": [
+   "Ordynacja podatkowa"
+  ],
+  "965": [
+   "Przedawnienie podatków"
+  ],
+  "966": [
+   "VAT dla małych firm"
+  ],
+  "969": [
+   "Komisja śledcza",
+   "Praworządność"
+  ],
+  "970": [
+   "Komisja śledcza"
+  ],
+  "971": [
+   "Komisja śledcza",
+   "Praworządność"
+  ],
+  "972": [
+   "Skład komisji"
+  ],
+  "973": [
+   "Skład komisji"
+  ],
+  "981": [
+   "E-papierosy",
+   "Akcyza na papierosy"
+  ],
+  "982": [
+   "Wyroby tytoniowe"
+  ],
+  "983": [
+   "E-papierosy",
+   "Ochrona dzieci"
+  ],
+  "988": [
+   "Delegacje sędziów",
+   "Praworządność"
+  ],
+  "989": [
+   "Rolnictwo",
+   "Dane o gospodarstwach rolnych"
+  ],
+  "990": [
+   "Wotum nieufności",
+   "Równość"
+  ],
+  "992": [
+   "Instytucje rozwoju"
+  ],
+  "993": [
+   "Służba Więzienna"
+  ],
+  "994": [
+   "Umowy międzynarodowe",
+   "Praca na morzu"
+  ],
+  "995": [
+   "Wspólnoty gruntowe"
+  ],
+  "996": [
+   "Taksówki i przewóz osób"
+  ],
+  "997": [
+   "Opłaty za parkowanie"
+  ],
+  "998": [
+   "Ochrona rolników przed skargami sąsiadów",
+   "Rolnictwo"
+  ],
+  "999": [
+   "Biometan"
+  ],
+  "1000": [
+   "Obrót ziemią rolną"
+  ],
+  "1001": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "1002": [
+   "Upamiętnienie"
+  ],
+  "1003": [
+   "Białoruś",
+   "Polityka zagraniczna"
+  ],
+  "1006": [
+   "Pornografia a dzieci",
+   "Ochrona dzieci"
+  ],
+  "1008": [
+   "Rynek mocy",
+   "Energetyka"
+  ],
+  "1009": [
+   "Wspólna Polityka Rolna",
+   "Dopłaty dla rolników"
+  ],
+  "1013": [
+   "Skład komisji"
+  ],
+  "1034": [
+   "Bank Gospodarstwa Krajowego",
+   "Pomoc rozwojowa"
+  ],
+  "1035": [
+   "Niższy VAT na prąd"
+  ],
+  "1036": [
+   "Niższy VAT na gaz"
+  ],
+  "1037": [
+   "Zerowy VAT na żywność"
+  ],
+  "1038": [
+   "Lekarze weterynarii"
+  ],
+  "1039": [
+   "Pomoc dla Ukraińców",
+   "800 plus dla cudzoziemców"
+  ],
+  "1040": [
+   "800 plus dla cudzoziemców"
+  ],
+  "1042": [
+   "Regulamin Sejmu"
+  ],
+  "1043": [
+   "Pakt migracyjny",
+   "Migracja"
+  ],
+  "1045": [
+   "Upamiętnienie"
+  ],
+  "1046": [
+   "Upamiętnienie"
+  ],
+  "1050": [
+   "Regulamin Sejmu",
+   "Deregulacja"
+  ],
+  "1051": [
+   "Skład komisji",
+   "Deregulacja"
+  ],
+  "1052": [
+   "Upamiętnienie"
+  ],
+  "1053": [
+   "Wojsko za granicą",
+   "Ukraina"
+  ],
+  "1054": [
+   "Regulamin Sejmu"
+  ],
+  "1055": [
+   "Regulamin Sejmu"
+  ],
+  "1056": [
+   "Regulamin Sejmu"
+  ],
+  "1057": [
+   "Regulamin Sejmu"
+  ],
+  "1058": [
+   "Ratownictwo medyczne"
+  ],
+  "1059": [
+   "Administracja rządowa"
+  ],
+  "1072": [
+   "Skład komisji"
+  ],
+  "1074": [
+   "Agencja Mienia Wojskowego",
+   "Obronność"
+  ],
+  "1075": [
+   "Nauka"
+  ],
+  "1076": [
+   "Mniejszości narodowe"
+  ],
+  "1077": [
+   "Polexit"
+  ],
+  "1078": [
+   "Mieszkania socjalne"
+  ],
+  "1079": [
+   "Transport publiczny"
+  ],
+  "1080": [
+   "Kolejki do specjalistów",
+   "Ochrona zdrowia"
+  ],
+  "1081": [
+   "Podatki dla firm",
+   "Powódź 2024"
+  ],
+  "1082": [
+   "Upamiętnienie"
+  ],
+  "1083": [
+   "Upamiętnienie"
+  ],
+  "1085": [
+   "Sprawozdania i informacje",
+   "Unia Europejska"
+  ],
+  "1087": [
+   "Skład komisji"
+  ],
+  "1089": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "1090": [
+   "Krajowa Sieć Kardiologiczna"
+  ],
+  "1102": [
+   "Skład komisji",
+   "Deregulacja"
+  ],
+  "1105": [
+   "Obronność",
+   "Unia Europejska"
+  ],
+  "1106": [
+   "Zmiana Konstytucji",
+   "4% PKB na obronność"
+  ],
+  "1107": [
+   "Zdrowie publiczne"
+  ],
+  "1108": [
+   "Deregulacja"
+  ],
+  "1112": [
+   "Jawność cen mieszkań",
+   "Mieszkalnictwo"
+  ],
+  "1113": [
+   "Rzecznik Rolników"
+  ],
+  "1114": [
+   "Wystąpienie z WHO"
+  ],
+  "1115": [
+   "Banderyzm"
+  ],
+  "1116": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "1118": [
+   "Wybory na stanowiska",
+   "Trybunał Konstytucyjny"
+  ],
+  "1122": [
+   "Skład komisji"
+  ],
+  "1129": [
+   "Organizacje pozarządowe"
+  ],
+  "1130": [
+   "Odległość wiatraków od domów",
+   "Energetyka wiatrowa"
+  ],
+  "1132": [
+   "Poszukiwania zabytków"
+  ],
+  "1133": [
+   "Planowanie przestrzenne"
+  ],
+  "1138": [
+   "Upamiętnienie"
+  ],
+  "1141": [
+   "Emerytury tancerzy"
+  ],
+  "1142": [
+   "Ochotnicze straże pożarne"
+  ],
+  "1143": [
+   "Egzekucja komornicza"
+  ],
+  "1144": [
+   "Upamiętnienie"
+  ],
+  "1146": [
+   "Sprawozdania i informacje",
+   "Media publiczne"
+  ],
+  "1147": [
+   "Sprawozdania i informacje",
+   "Media publiczne"
+  ],
+  "1148": [
+   "Pozwy zbiorowe"
+  ],
+  "1150": [
+   "Regulamin Sejmu"
+  ],
+  "1156": [
+   "Skład komisji"
+  ],
+  "1158": [
+   "Wybory na stanowiska",
+   "Reprywatyzacja"
+  ],
+  "1163": [
+   "Sprawozdania i informacje",
+   "Nieruchomości kupowane przez cudzoziemców"
+  ],
+  "1171": [
+   "Ochrona przyrody"
+  ],
+  "1172": [
+   "Zasiłek pogrzebowy"
+  ],
+  "1173": [
+   "Umowy międzynarodowe",
+   "Zabezpieczenie społeczne"
+  ],
+  "1174": [
+   "Unia Europejska"
+  ],
+  "1175": [
+   "Ceny prądu"
+  ],
+  "1176": [
+   "Powódź 2024"
+  ],
+  "1181": [
+   "Upamiętnienie"
+  ],
+  "1184": [
+   "Zamówienia publiczne"
+  ],
+  "1185": [
+   "Prawa więźniów"
+  ],
+  "1186": [
+   "Spółki Skarbu Państwa"
+  ],
+  "1187": [
+   "Zakłady aktywności zawodowej",
+   "Praca osób z niepełnosprawnościami"
+  ],
+  "1188": [
+   "Użycie broni na granicy",
+   "Ochrona granicy"
+  ],
+  "1189": [
+   "Prywatyzacja ochrony zdrowia"
+  ],
+  "1190": [
+   "Upamiętnienie"
+  ],
+  "1191": [
+   "Wolność słowa",
+   "Media publiczne"
+  ],
+  "1196": [
+   "Ochotnicy w wojnie w Ukrainie"
+  ],
+  "1197": [
+   "Skład komisji"
+  ],
+  "1201": [
+   "Repatriacja"
+  ],
+  "1202": [
+   "Darmowa pomoc prawna"
+  ],
+  "1203": [
+   "Inwestycje obronne",
+   "Obronność"
+  ],
+  "1204": [
+   "Asystenci sędziów"
+  ],
+  "1205": [
+   "Prawa świadków"
+  ],
+  "1206": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "1207": [
+   "Upamiętnienie"
+  ],
+  "1208": [
+   "Górnictwo",
+   "Emisje metanu"
+  ],
+  "1209": [
+   "Rynek energii"
+  ],
+  "1216": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "1217": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "1218": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "1219": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "1220": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "1225": [
+   "Zawieszenie prawa do azylu",
+   "Migracja"
+  ],
+  "1230": [
+   "Skład komisji"
+  ],
+  "1231": [
+   "Kontrole skarbowe",
+   "Deregulacja"
+  ],
+  "1232": [
+   "VAT dla małych firm"
+  ],
+  "1233": [
+   "Jawność podatków korporacji"
+  ],
+  "1234": [
+   "Nazwisko po rozwodzie"
+  ],
+  "1235": [
+   "Stabilność prawa podatkowego"
+  ],
+  "1237": [
+   "Usługi społeczne"
+  ],
+  "1238": [
+   "Cyberbezpieczeństwo"
+  ],
+  "1239": [
+   "Rezerwy strategiczne",
+   "Bezpieczeństwo energetyczne"
+  ],
+  "1240": [
+   "Leki"
+  ],
+  "1241": [
+   "mObywatel"
+  ],
+  "1242": [
+   "Koszty sądowe",
+   "Deregulacja"
+  ],
+  "1243": [
+   "Służba Więzienna"
+  ],
+  "1244": [
+   "Komornicy"
+  ],
+  "1246": [
+   "Ubezpieczenia marynarzy"
+  ],
+  "1261": [
+   "Miny przeciwpiechotne",
+   "Obronność"
+  ],
+  "1262": [
+   "Cyberbezpieczeństwo",
+   "Rynek finansowy"
+  ],
+  "1263": [
+   "Upadłość i restrukturyzacja"
+  ],
+  "1264": [
+   "Sądy online",
+   "Postępowanie karne"
+  ],
+  "1265": [
+   "Prawa podatnika",
+   "Deregulacja"
+  ],
+  "1266": [
+   "Leki",
+   "Deregulacja"
+  ],
+  "1267": [
+   "Rynek finansowy",
+   "Deregulacja"
+  ],
+  "1268": [
+   "Weryfikacja tożsamości"
+  ],
+  "1269": [
+   "Rynek finansowy",
+   "Deregulacja"
+  ],
+  "1270": [
+   "Wojsko",
+   "Obronność"
+  ],
+  "1271": [
+   "Rzeź wołyńska",
+   "Święta państwowe"
+  ],
+  "1272": [
+   "Prawa nabywców mieszkań",
+   "Mieszkalnictwo"
+  ],
+  "1273": [
+   "Obywatelstwo",
+   "Migracja"
+  ],
+  "1279": [
+   "Skład komisji"
+  ],
+  "1280": [
+   "Weterani"
+  ],
+  "1281": [
+   "Podatki dla firm"
+  ],
+  "1282": [
+   "Podatek od spadków i darowizn"
+  ],
+  "1283": [
+   "Regulamin Sejmu",
+   "Służby specjalne"
+  ],
+  "1284": [
+   "Likwidacja instytucji",
+   "Akademia Kopernikańska"
+  ],
+  "1295": [
+   "Sprawozdania i informacje",
+   "Wykonanie budżetu"
+  ],
+  "1302": [
+   "Zamówienia publiczne"
+  ],
+  "1303": [
+   "Zamówienia publiczne",
+   "Deregulacja"
+  ],
+  "1304": [
+   "Sądy online",
+   "Postępowanie cywilne"
+  ],
+  "1305": [
+   "Rynek finansowy"
+  ],
+  "1306": [
+   "Tajemnica bankowa"
+  ],
+  "1307": [
+   "Emerytury",
+   "Likwidacja instytucji"
+  ],
+  "1308": [
+   "Uczelnie",
+   "Stypendia"
+  ],
+  "1309": [
+   "Uczelnie",
+   "Deregulacja"
+  ],
+  "1310": [
+   "Rachunki za prąd",
+   "Deregulacja"
+  ],
+  "1311": [
+   "Krajowy Rejestr Sądowy",
+   "Deregulacja"
+  ],
+  "1312": [
+   "Planowanie przestrzenne"
+  ],
+  "1313": [
+   "Kary za przestępstwa skarbowe",
+   "Deregulacja"
+  ],
+  "1314": [
+   "Dane pasażerów lotniczych"
+  ],
+  "1315": [
+   "Długi rolników"
+  ],
+  "1316": [
+   "Kamizelki kuloodporne",
+   "Broń"
+  ],
+  "1317": [
+   "Emerytury rocznika 1953"
+  ],
+  "1318": [
+   "Mieszkania komunalne"
+  ],
+  "1320": [
+   "Podatek bankowy"
+  ],
+  "1339": [
+   "Skład komisji"
+  ],
+  "1342": [
+   "Dokumenty podróży"
+  ],
+  "1343": [
+   "Ubezpieczenia komunikacyjne",
+   "Ochrona danych"
+  ],
+  "1344": [
+   "Zawód psychologa"
+  ],
+  "1345": [
+   "Zawód psychoterapeuty"
+  ],
+  "1346": [
+   "Język śląski"
+  ],
+  "1347": [
+   "Tereny zdegradowane",
+   "Ochrona środowiska"
+  ],
+  "1348": [
+   "Sport",
+   "Podatki"
+  ],
+  "1350": [
+   "Wotum zaufania",
+   "Rząd Donalda Tuska"
+  ],
+  "1374": [
+   "Cyfryzacja administracji"
+  ],
+  "1375": [
+   "Raportowanie ESG",
+   "Deregulacja"
+  ],
+  "1376": [
+   "Milczące załatwienie sprawy",
+   "Deregulacja"
+  ],
+  "1377": [
+   "Oszustwa bankowe"
+  ],
+  "1378": [
+   "Leki"
+  ],
+  "1379": [
+   "Prawo budowlane",
+   "Deregulacja"
+  ],
+  "1380": [
+   "Ubezpieczenia komunikacyjne"
+  ],
+  "1381": [
+   "Ochrona dzieci przed przemocą"
+  ],
+  "1382": [
+   "Mieszkalnictwo społeczne",
+   "Mieszkalnictwo"
+  ],
+  "1383": [
+   "Kontrola inwestycji zagranicznych"
+  ],
+  "1384": [
+   "Traktat z Francją",
+   "Obronność"
+  ],
+  "1388": [
+   "Podział spółek energetycznych"
+  ],
+  "1389": [
+   "Głosowanie korespondencyjne"
+  ],
+  "1390": [
+   "Ziemia rolna Skarbu Państwa"
+  ],
+  "1398": [
+   "Komisja śledcza"
+  ],
+  "1399": [
+   "Skład komisji"
+  ],
+  "1402": [
+   "Postępowanie karne"
+  ],
+  "1404": [
+   "Prawa pracownicze"
+  ],
+  "1405": [
+   "Sprawozdania i informacje",
+   "Najwyższa Izba Kontroli"
+  ],
+  "1407": [
+   "KSeF (e-faktury)"
+  ],
+  "1424": [
+   "Kryptowaluty"
+  ],
+  "1425": [
+   "Prawo budowlane"
+  ],
+  "1426": [
+   "Staż pracy z umów zlecenia"
+  ],
+  "1427": [
+   "Pojazdy autonomiczne"
+  ],
+  "1428": [
+   "Zwrot akcyzy za paliwo rolnicze"
+  ],
+  "1429": [
+   "Refundacja leków"
+  ],
+  "1430": [
+   "Środki ochrony roślin"
+  ],
+  "1431": [
+   "ZUS",
+   "Deregulacja"
+  ],
+  "1432": [
+   "Sądy administracyjne",
+   "Deregulacja"
+  ],
+  "1433": [
+   "Nawozy naturalne",
+   "Rolnictwo"
+  ],
+  "1434": [
+   "Reklamacje w bankach"
+  ],
+  "1435": [
+   "Bezpieczeństwo żywności"
+  ],
+  "1436": [
+   "Ubezpieczenia komunikacyjne"
+  ],
+  "1437": [
+   "Rejestracja pojazdów",
+   "Deregulacja"
+  ],
+  "1438": [
+   "Karta Nauczyciela"
+  ],
+  "1439": [
+   "Kontrole skarbowe",
+   "Deregulacja"
+  ],
+  "1440": [
+   "Prawo spółek",
+   "Deregulacja"
+  ],
+  "1441": [
+   "Podatki dla firm",
+   "Deregulacja"
+  ],
+  "1442": [
+   "Licytacje komornicze online"
+  ],
+  "1443": [
+   "Fundusze emerytalne"
+  ],
+  "1444": [
+   "Księgi wieczyste",
+   "Spadki"
+  ],
+  "1445": [
+   "Ochrona zabytków",
+   "Deregulacja"
+  ],
+  "1446": [
+   "Zasiłek pogrzebowy"
+  ],
+  "1447": [
+   "Wycinka drzew",
+   "Deregulacja"
+  ],
+  "1448": [
+   "Poczta Polska"
+  ],
+  "1449": [
+   "Rejestr firm (CEIDG)"
+  ],
+  "1450": [
+   "Rynek finansowy",
+   "Deregulacja"
+  ],
+  "1451": [
+   "Nielegalne wyścigi",
+   "Bezpieczeństwo na drogach"
+  ],
+  "1452": [
+   "Zawieszenie prawa do azylu",
+   "Migracja"
+  ],
+  "1454": [
+   "Wybory na stanowiska",
+   "Trybunał Konstytucyjny"
+  ],
+  "1456": [
+   "Piecza zastępcza"
+  ],
+  "1459": [
+   "Babciowe",
+   "Aktywny rodzic"
+  ],
+  "1460": [
+   "Dezinformacja"
+  ],
+  "1472": [
+   "Karta Nauczyciela"
+  ],
+  "1474": [
+   "Skład komisji"
+  ],
+  "1479": [
+   "Zdrowie zwierząt"
+  ],
+  "1481": [
+   "Karta Nauczyciela"
+  ],
+  "1482": [
+   "Obiekty sportowe"
+  ],
+  "1483": [
+   "Reforma szpitali",
+   "Ochrona zdrowia"
+  ],
+  "1484": [
+   "Umowy międzynarodowe"
+  ],
+  "1485": [
+   "Umowy międzynarodowe"
+  ],
+  "1486": [
+   "Umowy międzynarodowe"
+  ],
+  "1487": [
+   "Umowy międzynarodowe"
+  ],
+  "1488": [
+   "Likwidacja abonamentu RTV",
+   "Media publiczne"
+  ],
+  "1489": [
+   "Upamiętnienie"
+  ],
+  "1491": [
+   "Upamiętnienie"
+  ],
+  "1492": [
+   "Pomoc dla Ukraińców"
+  ],
+  "1521": [
+   "Skład komisji"
+  ],
+  "1522": [
+   "ZUS",
+   "Deregulacja"
+  ],
+  "1523": [
+   "Emerytury czerwcowe"
+  ],
+  "1524": [
+   "Umowy międzynarodowe"
+  ],
+  "1525": [
+   "Rejestr cen nieruchomości"
+  ],
+  "1526": [
+   "Zakaz telefonów w szkołach",
+   "Edukacja"
+  ],
+  "1527": [
+   "Rzecznik Rolników"
+  ],
+  "1528": [
+   "Transformacja Bełchatowa",
+   "Górnictwo węgla"
+  ],
+  "1529": [
+   "Zniesienie dwukadencyjności",
+   "Wybory samorządowe"
+  ],
+  "1530": [
+   "Regulamin Sejmu"
+  ],
+  "1532": [
+   "Holokaust"
+  ],
+  "1560": [
+   "Ochrona zdrowia",
+   "Obrona cywilna"
+  ],
+  "1561": [
+   "Środki ochrony roślin"
+  ],
+  "1562": [
+   "Upamiętnienie"
+  ],
+  "1575": [
+   "Wybory na stanowiska",
+   "Najwyższa Izba Kontroli"
+  ],
+  "1600": [
+   "Owoce zatrutego drzewa",
+   "Areszt tymczasowy"
+  ],
+  "1601": [
+   "Ekwiwalent za urlop"
+  ],
+  "1603": [
+   "Religia w szkołach",
+   "Edukacja"
+  ],
+  "1604": [
+   "Produkty biobójcze"
+  ],
+  "1605": [
+   "Współpraca policji w UE"
+  ],
+  "1606": [
+   "Jakość wody pitnej"
+  ],
+  "1607": [
+   "Ubezpieczenia",
+   "Deregulacja"
+  ],
+  "1608": [
+   "Planowanie przestrzenne"
+  ],
+  "1609": [
+   "Centralna rejestracja do lekarzy",
+   "Ochrona zdrowia"
+  ],
+  "1610": [
+   "Poczta Polska"
+  ],
+  "1611": [
+   "Wojsko",
+   "Język polski"
+  ],
+  "1612": [
+   "Rybołówstwo"
+  ],
+  "1614": [
+   "Upamiętnienie"
+  ],
+  "1623": [
+   "Mieszkania dla służb mundurowych"
+  ],
+  "1625": [
+   "Mrożenie cen energii"
+  ],
+  "1626": [
+   "Pomoc de minimis"
+  ],
+  "1627": [
+   "Układy zbiorowe pracy"
+  ],
+  "1628": [
+   "Ubezpieczenia komunikacyjne"
+  ],
+  "1629": [
+   "Rzeczy znalezione"
+  ],
+  "1630": [
+   "Cudzoziemcy",
+   "Migracja"
+  ],
+  "1631": [
+   "Centralny Port Komunikacyjny"
+  ],
+  "1633": [
+   "Mrożenie cen energii"
+  ],
+  "1634": [
+   "ARiMR",
+   "Rolnictwo"
+  ],
+  "1635": [
+   "Bezpieczeństwo pożarowe"
+  ],
+  "1636": [
+   "Ochrona funkcjonariuszy publicznych"
+  ],
+  "1637": [
+   "Centralny Port Komunikacyjny"
+  ],
+  "1638": [
+   "Portal cen mieszkań",
+   "Mieszkalnictwo"
+  ],
+  "1639": [
+   "Umowy międzynarodowe"
+  ],
+  "1649": [
+   "Rzecznicy patentowi"
+  ],
+  "1650": [
+   "Spółdzielnie uczniowskie"
+  ],
+  "1651": [
+   "Represjonowani w PRL"
+  ],
+  "1652": [
+   "Fundusz COVID-19"
+  ],
+  "1653": [
+   "Imprezy masowe"
+  ],
+  "1655": [
+   "Strefa Gazy",
+   "Polityka zagraniczna"
+  ],
+  "1656": [
+   "Upamiętnienie"
+  ],
+  "1664": [
+   "Skład komisji"
+  ],
+  "1674": [
+   "Zawieszenie prawa do azylu",
+   "Migracja"
+  ],
+  "1676": [
+   "Fundusz technologii przełomowych"
+  ],
+  "1677": [
+   "Bezpieczeństwo na drogach"
+  ],
+  "1678": [
+   "Asesorzy sądowi"
+  ],
+  "1679": [
+   "Międzynarodowy Trybunał Karny"
+  ],
+  "1680": [
+   "Wybory na stanowiska",
+   "Telekomunikacja"
+  ],
+  "1683": [
+   "Rezerwy strategiczne"
+  ],
+  "1684": [
+   "Bon ciepłowniczy",
+   "Mrożenie cen energii"
+  ],
+  "1685": [
+   "800 plus dla cudzoziemców",
+   "Pomoc dla Ukraińców"
+  ],
+  "1695": [
+   "Wybory na stanowiska",
+   "Ochrona dzieci przed przemocą"
+  ],
+  "1701": [
+   "Rosyjskie drony nad Polską",
+   "Obronność"
+  ],
+  "1706": [
+   "Skład komisji"
+  ],
+  "1707": [
+   "Regulamin Sejmu"
+  ],
+  "1708": [
+   "Ulga na robotyzację"
+  ],
+  "1709": [
+   "Upamiętnienie"
+  ],
+  "1710": [
+   "Upamiętnienie"
+  ],
+  "1711": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "1721": [
+   "Park Narodowy Doliny Dolnej Odry",
+   "Ochrona przyrody"
+  ],
+  "1724": [
+   "Obronność"
+  ],
+  "1726": [
+   "Pomoc dla Ukraińców"
+  ],
+  "1727": [
+   "Pielęgniarki i położne"
+  ],
+  "1728": [
+   "Podatki dla firm"
+  ],
+  "1729": [
+   "Doradcy podatkowi"
+  ],
+  "1730": [
+   "Święta państwowe",
+   "Weterani"
+  ],
+  "1731": [
+   "Ochotnicze straże pożarne"
+  ],
+  "1732": [
+   "Ziemia rolna Skarbu Państwa"
+  ],
+  "1740": [
+   "Skład komisji"
+  ],
+  "1746": [
+   "Morskie farmy wiatrowe",
+   "Odnawialne źródła energii"
+  ],
+  "1747": [
+   "Umowy międzynarodowe"
+  ],
+  "1748": [
+   "Sprawozdania i informacje",
+   "Unia Europejska"
+  ],
+  "1749": [
+   "Budżet państwa 2026"
+  ],
+  "1750": [
+   "Budżet państwa 2026"
+  ],
+  "1752": [
+   "Podatek CIT dla banków"
+  ],
+  "1753": [
+   "Fundacje rodzinne"
+  ],
+  "1757": [
+   "Akt o usługach cyfrowych (DSA)"
+  ],
+  "1758": [
+   "Frankowicze"
+  ],
+  "1759": [
+   "Obywatelstwo",
+   "Migracja"
+  ],
+  "1760": [
+   "Banderyzm",
+   "Rzeź wołyńska"
+  ],
+  "1761": [
+   "Bezpieczeństwo produktów"
+  ],
+  "1762": [
+   "Turystyka"
+  ],
+  "1763": [
+   "Rzecznik Praw Dziecka"
+  ],
+  "1764": [
+   "Finansowanie szkół"
+  ],
+  "1765": [
+   "Ochrona zwierząt"
+  ],
+  "1766": [
+   "Prawa studentów"
+  ],
+  "1767": [
+   "Prawa nabywców mieszkań",
+   "Mieszkalnictwo"
+  ],
+  "1768": [
+   "Ordynacja podatkowa"
+  ],
+  "1784": [
+   "Wybory na stanowiska",
+   "Rada Fiskalna"
+  ],
+  "1792": [
+   "Bliski Wschód",
+   "Polityka zagraniczna"
+  ],
+  "1795": [
+   "Skład komisji"
+  ],
+  "1796": [
+   "Wojska USA w Polsce",
+   "Obronność"
+  ],
+  "1797": [
+   "Ubezpieczenia"
+  ],
+  "1798": [
+   "Amortyzacja",
+   "Podatki dla firm"
+  ],
+  "1804": [
+   "Gospodarka odpadami"
+  ],
+  "1805": [
+   "E-dyplomy"
+  ],
+  "1806": [
+   "Statystyka publiczna"
+  ],
+  "1807": [
+   "Nauka"
+  ],
+  "1808": [
+   "Stowarzyszenia i fundacje"
+  ],
+  "1809": [
+   "Ostrzeżenia na alkoholu",
+   "Alkohol"
+  ],
+  "1810": [
+   "Badanie trzeźwości posłów"
+  ],
+  "1811": [
+   "Płaca minimalna"
+  ],
+  "1812": [
+   "Zakaz wjazdu dla cudzoziemców",
+   "Migracja"
+  ],
+  "1813": [
+   "Transmisje sportowe w telewizji"
+  ],
+  "1814": [
+   "Polska Agencja Żeglugi Powietrznej"
+  ],
+  "1815": [
+   "Zmiana czasu"
+  ],
+  "1816": [
+   "Ochrona przeciwpowodziowa"
+  ],
+  "1817": [
+   "Pomoc dla rolników",
+   "Rolnictwo"
+  ],
+  "1818": [
+   "Upamiętnienie"
+  ],
+  "1824": [
+   "Finanse samorządów"
+  ],
+  "1825": [
+   "Akcyza na alkohol"
+  ],
+  "1826": [
+   "Podatki dla firm"
+  ],
+  "1832": [
+   "Skład komisji"
+  ],
+  "1835": [
+   "Podatki",
+   "Inwestowanie"
+  ],
+  "1836": [
+   "Podatek cukrowy"
+  ],
+  "1837": [
+   "Podatek od spadków i darowizn"
+  ],
+  "1838": [
+   "Kasowy PIT"
+  ],
+  "1839": [
+   "Planowanie przestrzenne"
+  ],
+  "1849": [
+   "Darmowe obiady w szkołach",
+   "Edukacja"
+  ],
+  "1850": [
+   "Darmowa antykoncepcja",
+   "Antykoncepcja"
+  ],
+  "1851": [
+   "Upamiętnienie"
+  ],
+  "1855": [
+   "Cło węglowe (CBAM)"
+  ],
+  "1856": [
+   "Lekarze orzecznicy ZUS"
+  ],
+  "1857": [
+   "Podstawa programowa",
+   "Edukacja"
+  ],
+  "1858": [
+   "Emerytury mundurowe"
+  ],
+  "1859": [
+   "Administracja rządowa"
+  ],
+  "1860": [
+   "Modernizacja służb mundurowych"
+  ],
+  "1861": [
+   "Ochrona zwierząt"
+  ],
+  "1862": [
+   "Użycie wojska w czasie pokoju",
+   "Obronność"
+  ],
+  "1863": [
+   "Jawność umów publicznych"
+  ],
+  "1880": [
+   "Likwidacja kopalń",
+   "Górnictwo węgla"
+  ],
+  "1881": [
+   "Podatek od miedzi i srebra",
+   "KGHM"
+  ],
+  "1882": [
+   "Zawieszenie prawa do azylu",
+   "Migracja"
+  ],
+  "1883": [
+   "Skład komisji"
+  ],
+  "1884": [
+   "Likwidacja CBA",
+   "Korupcja"
+  ],
+  "1885": [
+   "Inwestycje obronne",
+   "KPO"
+  ],
+  "1886": [
+   "Praca osób z niepełnosprawnościami"
+  ],
+  "1887": [
+   "Umowy międzynarodowe"
+  ],
+  "1888": [
+   "Obywatelstwo"
+  ],
+  "1889": [
+   "Represjonowani w PRL"
+  ],
+  "1890": [
+   "Mieszkalnictwo społeczne",
+   "Czynsze"
+  ],
+  "1891": [
+   "Finansowanie obronności",
+   "Obronność"
+  ],
+  "1892": [
+   "Odbieranie dzieci rodzicom"
+  ],
+  "1893": [
+   "Broń"
+  ],
+  "1894": [
+   "Straż Marszałkowska"
+  ],
+  "1895": [
+   "Upamiętnienie"
+  ],
+  "1896": [
+   "ETS2",
+   "Klimat i środowisko"
+  ],
+  "1898": [
+   "Zerowy PIT dla rodzin",
+   "Podatek PIT"
+  ],
+  "1899": [
+   "Podatek od sprzedaży rzeczy używanych"
+  ],
+  "1900": [
+   "Wybory na stanowiska",
+   "IPN"
+  ],
+  "1918": [
+   "Skład komisji"
+  ],
+  "1930": [
+   "Akcyza"
+  ],
+  "1931": [
+   "Badania posiadaczy broni"
+  ],
+  "1937": [
+   "Banki spółdzielcze",
+   "Deregulacja"
+  ],
+  "1938": [
+   "Spółdzielnie mieszkaniowe"
+  ],
+  "1939": [
+   "Ochotnicze straże pożarne"
+  ],
+  "1940": [
+   "Mały ZUS"
+  ],
+  "1941": [
+   "Prawo wodne"
+  ],
+  "1942": [
+   "Kościół katolicki",
+   "Mienie kościelne"
+  ],
+  "1944": [
+   "Wybory na stanowiska",
+   "Trybunał Konstytucyjny"
+  ],
+  "1945": [
+   "Karta Nauczyciela"
+  ],
+  "1950": [
+   "Środki ochrony roślin"
+  ],
+  "1951": [
+   "Służba Więzienna"
+  ],
+  "1955": [
+   "Cyberbezpieczeństwo"
+  ],
+  "1956": [
+   "Waloryzacja emerytur",
+   "Emerytury"
+  ],
+  "1962": [
+   "Adwokatura"
+  ],
+  "1963": [
+   "Radcy prawni"
+  ],
+  "1964": [
+   "Karta Rodziny Mundurowej"
+  ],
+  "1965": [
+   "Upamiętnienie"
+  ],
+  "1966": [
+   "Sprawozdania i informacje",
+   "Pomoc dla Ukraińców"
+  ],
+  "1968": [
+   "Wybory na stanowiska",
+   "Organy Sejmu"
+  ],
+  "1972": [
+   "Wybory na stanowiska",
+   "Organy Sejmu"
+  ],
+  "1985": [
+   "Pojazdy autonomiczne"
+  ],
+  "1994": [
+   "Organy Sejmu"
+  ],
+  "1995": [
+   "Fundusz Medyczny",
+   "Ochrona zdrowia"
+  ],
+  "1996": [
+   "Dowody osobiste i dokumenty"
+  ],
+  "2001": [
+   "Skład komisji"
+  ],
+  "2002": [
+   "Język polski",
+   "Nauka"
+  ],
+  "2003": [
+   "Obronność"
+  ],
+  "2004": [
+   "KOWR"
+  ],
+  "2005": [
+   "Finansowanie szkół"
+  ],
+  "2006": [
+   "Komisje wyborcze",
+   "Wybory"
+  ],
+  "2007": [
+   "Zakaz reklamy alkoholu",
+   "Alkohol"
+  ],
+  "2008": [
+   "Upamiętnienie"
+  ],
+  "2011": [
+   "Upamiętnienie"
+  ],
+  "2012": [
+   "Upamiętnienie"
+  ],
+  "2026": [
+   "Ceny energii dla firm"
+  ],
+  "2027": [
+   "Prawo spółek"
+  ],
+  "2028": [
+   "Zasoby genetyczne"
+  ],
+  "2029": [
+   "Zespoły parlamentarne"
+  ],
+  "2030": [
+   "Zadośćuczynienie dla ofiar z lat 1945–46"
+  ],
+  "2031": [
+   "Emerytury górnicze",
+   "Krwiodawstwo"
+  ],
+  "2032": [
+   "Trzynastki w instytucjach kultury",
+   "Kultura"
+  ],
+  "2033": [
+   "Opłata turystyczna"
+  ],
+  "2034": [
+   "Prezydent elekt"
+  ],
+  "2035": [
+   "Pomoc dla Ukrainy"
+  ],
+  "2037": [
+   "Umowy międzynarodowe"
+  ],
+  "2038": [
+   "Umowa z Mercosur",
+   "Rolnictwo"
+  ],
+  "2045": [
+   "Skład komisji"
+  ],
+  "2060": [
+   "Zarządzanie danymi"
+  ],
+  "2061": [
+   "Niż demograficzny w szkołach",
+   "Edukacja"
+  ],
+  "2063": [
+   "Kolej",
+   "Wywłaszczenia pod inwestycje"
+  ],
+  "2064": [
+   "Kryptowaluty"
+  ],
+  "2066": [
+   "Upamiętnienie"
+  ],
+  "2072": [
+   "Górnictwo"
+  ],
+  "2075": [
+   "Rejestr karny"
+  ],
+  "2076": [
+   "Rejestr firm (CEIDG)",
+   "mObywatel"
+  ],
+  "2077": [
+   "Studia doktoranckie"
+  ],
+  "2078": [
+   "Działalność kosmiczna"
+  ],
+  "2080": [
+   "Zniesienie dwukadencyjności",
+   "Wybory samorządowe"
+  ],
+  "2081": [
+   "Przemyt ludzi",
+   "Migracja"
+  ],
+  "2082": [
+   "Osobowość prawna Odry",
+   "Ochrona przyrody"
+  ],
+  "2096": [
+   "Skład komisji"
+  ],
+  "2101": [
+   "Rynek finansowy"
+  ],
+  "2102": [
+   "Granice gmin"
+  ],
+  "2105": [
+   "Księgi wieczyste",
+   "mObywatel"
+  ],
+  "2106": [
+   "Kryptowaluty",
+   "Wymiana informacji podatkowych"
+  ],
+  "2107": [
+   "Neosędziowie",
+   "Praworządność"
+  ],
+  "2108": [
+   "Krajowa Rada Sądownictwa",
+   "Praworządność"
+  ],
+  "2109": [
+   "Uczelnie",
+   "Obronność"
+  ],
+  "2110": [
+   "Status osoby najbliższej",
+   "Związki partnerskie"
+  ],
+  "2111": [
+   "Status osoby najbliższej",
+   "Związki partnerskie"
+  ],
+  "2112": [
+   "System kaucyjny"
+  ],
+  "2118": [
+   "Zawieszenie prawa do azylu",
+   "Migracja"
+  ],
+  "2119": [
+   "Handel bronią"
+  ],
+  "2120": [
+   "Aktywni rolnicy",
+   "Dopłaty dla rolników"
+  ],
+  "2121": [
+   "Rozwody u urzędnika"
+  ],
+  "2122": [
+   "Zasiłek opiekuńczy"
+  ],
+  "2126": [
+   "Referendum lokalne"
+  ],
+  "2127": [
+   "Opłata turystyczna"
+  ],
+  "2128": [
+   "Gatunki inwazyjne",
+   "Ochrona przyrody"
+  ],
+  "2129": [
+   "Kluby seniora",
+   "Seniorzy"
+  ],
+  "2130": [
+   "Warsztaty terapii zajęciowej",
+   "Osoby z niepełnosprawnościami"
+  ],
+  "2131": [
+   "Polacy na Litwie",
+   "Polityka zagraniczna"
+  ],
+  "2136": [
+   "Skład komisji"
+  ],
+  "2144": [
+   "Dzieci na polowaniach",
+   "Łowiectwo"
+  ],
+  "2145": [
+   "Ochrona uczuć religijnych"
+  ],
+  "2150": [
+   "Bezpieczeństwo energetyczne",
+   "Blackout"
+  ],
+  "2159": [
+   "Unia Europejska"
+  ],
+  "2160": [
+   "Ochrona zabytków"
+  ],
+  "2161": [
+   "Umowy międzynarodowe"
+  ],
+  "2162": [
+   "Kobiety w sporcie",
+   "Sport"
+  ],
+  "2163": [
+   "Rynek finansowy",
+   "Deregulacja"
+  ],
+  "2164": [
+   "Międzynarodowy Trybunał Karny"
+  ],
+  "2165": [
+   "Jakość wody pitnej"
+  ],
+  "2166": [
+   "Unia Europejska",
+   "Klimat i środowisko"
+  ],
+  "2168": [
+   "Biogazownie"
+  ],
+  "2172": [
+   "Pomoc dla Ukraińców"
+  ],
+  "2178": [
+   "Podręczniki szkolne"
+  ],
+  "2179": [
+   "Skład komisji"
+  ],
+  "2180": [
+   "Wspólna Polityka Rolna",
+   "Dopłaty dla rolników"
+  ],
+  "2196": [
+   "Odpowiedzialność za wypadki w lesie"
+  ],
+  "2197": [
+   "Likwidacja opłaty od psów"
+  ],
+  "2198": [
+   "Finanse samorządów",
+   "Ochrona przyrody"
+  ],
+  "2200": [
+   "Korupcja"
+  ],
+  "2201": [
+   "Kształcenie sędziów i prokuratorów"
+  ],
+  "2202": [
+   "Skład komisji",
+   "Związki partnerskie"
+  ],
+  "2206": [
+   "Finanse publiczne"
+  ],
+  "2207": [
+   "Upamiętnienie"
+  ],
+  "2208": [
+   "Patostreaming"
+  ],
+  "2209": [
+   "Fundusz Medyczny"
+  ],
+  "2210": [
+   "Molestowanie seksualne"
+  ],
+  "2211": [
+   "Dwukadencyjność w Konstytucji",
+   "Zmiana Konstytucji"
+  ],
+  "2212": [
+   "Uporczywe nękanie"
+  ],
+  "2213": [
+   "Pomoc dla Ukrainy",
+   "Unia Europejska"
+  ],
+  "2214": [
+   "Wotum nieufności",
+   "Rolnictwo"
+  ],
+  "2215": [
+   "Upamiętnienie"
+  ],
+  "2217": [
+   "Regulamin Sejmu"
+  ],
+  "2220": [
+   "Upamiętnienie"
+  ],
+  "2223": [
+   "Powódź 2024"
+  ],
+  "2225": [
+   "Skład komisji"
+  ],
+  "2227": [
+   "Pożyczki SAFE na obronność",
+   "Obronność"
+  ],
+  "2236": [
+   "Lotnictwo"
+  ],
+  "2237": [
+   "Święta państwowe",
+   "Bezpieczeństwo pracy"
+  ],
+  "2238": [
+   "Regulamin Sejmu",
+   "Służby specjalne"
+  ],
+  "2240": [
+   "Rynek pracy"
+  ],
+  "2244": [
+   "Upamiętnienie"
+  ],
+  "2245": [
+   "Transport publiczny"
+  ],
+  "2250": [
+   "Inspekcja pracy",
+   "Umowy śmieciowe"
+  ],
+  "2256": [
+   "Ukraina",
+   "Polityka zagraniczna"
+  ],
+  "2258": [
+   "Krajowa Rada Sądownictwa",
+   "Praworządność"
+  ],
+  "2270": [
+   "Psy na łańcuchach",
+   "Ochrona zwierząt"
+  ],
+  "2271": [
+   "Wyroki ETPC"
+  ],
+  "2272": [
+   "System SENT",
+   "Oszustwa podatkowe"
+  ],
+  "2273": [
+   "Obrót ziemią rolną"
+  ],
+  "2275": [
+   "Upamiętnienie"
+  ],
+  "2276": [
+   "Umowy międzynarodowe",
+   "Ukraina"
+  ],
+  "2277": [
+   "Raportowanie ESG",
+   "Deregulacja"
+  ],
+  "2282": [
+   "Skład komisji"
+  ],
+  "2283": [
+   "Skład komisji"
+  ],
+  "2284": [
+   "Skład komisji"
+  ],
+  "2285": [
+   "Skład komisji"
+  ],
+  "2287": [
+   "Ordynacja podatkowa",
+   "Deregulacja"
+  ],
+  "2288": [
+   "Przedawnienie podatków"
+  ],
+  "2289": [
+   "Mobbing"
+  ],
+  "2290": [
+   "Umowy online"
+  ],
+  "2291": [
+   "Studenci z niepełnosprawnościami"
+  ],
+  "2292": [
+   "Audyt firm",
+   "Deregulacja"
+  ],
+  "2293": [
+   "Rejestr psów i kotów",
+   "Ochrona zwierząt"
+  ],
+  "2294": [
+   "Kuratorzy sądowi"
+  ],
+  "2295": [
+   "Fundusz Ochrony Rolnictwa"
+  ],
+  "2305": [
+   "Upamiętnienie"
+  ],
+  "2307": [
+   "Obrona cywilna"
+  ],
+  "2308": [
+   "Zawieszenie prawa do azylu",
+   "Migracja"
+  ],
+  "2316": [
+   "Trybunał Konstytucyjny",
+   "Praworządność"
+  ],
+  "2317": [
+   "Transport morski",
+   "Emisje"
+  ],
+  "2318": [
+   "Milczące załatwienie sprawy",
+   "Deregulacja"
+  ],
+  "2319": [
+   "Licytacje komornicze online"
+  ],
+  "2320": [
+   "Ubezpieczenia komunikacyjne"
+  ],
+  "2321": [
+   "KSeF (e-faktury)"
+  ],
+  "2322": [
+   "Obiekty sportowe"
+  ],
+  "2331": [
+   "Wybory na stanowiska",
+   "Trybunał Konstytucyjny"
+  ],
+  "2352": [
+   "Interpretacje podatkowe"
+  ],
+  "2353": [
+   "Najem krótkoterminowy",
+   "Mieszkalnictwo"
+  ],
+  "2355": [
+   "Zarządzanie kryzysowe"
+  ],
+  "2356": [
+   "Loot boxy w grach",
+   "Hazard"
+  ],
+  "2357": [
+   "Oznaczanie żywności"
+  ],
+  "2358": [
+   "Reklama alkoholu",
+   "Alkohol"
+  ],
+  "2359": [
+   "KSeF (e-faktury)"
+  ],
+  "2360": [
+   "Mniejszości narodowe"
+  ],
+  "2361": [
+   "Język polski"
+  ],
+  "2362": [
+   "E-papierosy",
+   "Ochrona dzieci"
+  ],
+  "2363": [
+   "Kryptowaluty"
+  ],
+  "2365": [
+   "Upamiętnienie"
+  ],
+  "2370": [
+   "Regulamin Sejmu"
+  ],
+  "2371": [
+   "Kredyty dla rolników"
+  ],
+  "2372": [
+   "Prokuratura",
+   "Postępowanie karne"
+  ],
+  "2373": [
+   "Komisja śledcza"
+  ],
+  "2374": [
+   "Ochrona przyrody"
+  ],
+  "2375": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2376": [
+   "ETS2",
+   "Klimat i środowisko"
+  ],
+  "2387": [
+   "Europejski nakaz aresztowania"
+  ],
+  "2388": [
+   "Finanse publiczne"
+  ],
+  "2389": [
+   "Maksymalne ceny paliw"
+  ],
+  "2390": [
+   "Niższa akcyza na paliwa"
+  ],
+  "2393": [
+   "Ceny prądu",
+   "Opłaty dystrybucyjne"
+  ],
+  "2394": [
+   "Porty morskie"
+  ],
+  "2395": [
+   "Lotnictwo policyjne"
+  ],
+  "2396": [
+   "Akcyza na alkohol"
+  ],
+  "2398": [
+   "Cyberprzestępczość"
+  ],
+  "2404": [
+   "Uczelnie"
+  ],
+  "2407": [
+   "Skład komisji"
+  ],
+  "2409": [
+   "Wotum nieufności",
+   "Klimat i środowisko"
+  ],
+  "2410": [
+   "Elektrownia jądrowa"
+  ],
+  "2411": [
+   "Kontrola operacyjna służb",
+   "Pegasus"
+  ],
+  "2412": [
+   "Turystyka"
+  ],
+  "2413": [
+   "Zerowy VAT na żywność"
+  ],
+  "2414": [
+   "Informacje niejawne"
+  ],
+  "2415": [
+   "Domy pomocy społecznej"
+  ],
+  "2416": [
+   "Zasiłek chorobowy w ciąży"
+  ],
+  "2417": [
+   "Upamiętnienie"
+  ],
+  "2418": [
+   "Upamiętnienie"
+  ],
+  "2419": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2420": [
+   "Sprawozdania i informacje",
+   "Nieruchomości kupowane przez cudzoziemców"
+  ],
+  "2422": [
+   "Sprawozdania i informacje",
+   "Unia Europejska"
+  ],
+  "2439": [
+   "Skład komisji"
+  ],
+  "2440": [
+   "Instytucje rozwoju"
+  ],
+  "2443": [
+   "Sztuczna inteligencja"
+  ],
+  "2444": [
+   "VAT"
+  ],
+  "2445": [
+   "JPK",
+   "Deregulacja"
+  ],
+  "2446": [
+   "Metropolia pomorska"
+  ],
+  "2447": [
+   "Prawa lokatorów",
+   "Mieszkalnictwo"
+  ],
+  "2449": [
+   "Rzecznicy praw uczniowskich",
+   "Edukacja"
+  ],
+  "2450": [
+   "Wotum nieufności",
+   "Ochrona zdrowia"
+  ],
+  "2451": [
+   "PKP",
+   "Kolej"
+  ],
+  "2452": [
+   "Inicjatywa ustawodawcza obywateli"
+  ],
+  "2453": [
+   "VAT"
+  ],
+  "2455": [
+   "Wybory na stanowiska",
+   "IPN"
+  ],
+  "2456": [
+   "Leczenie HIV"
+  ],
+  "2457": [
+   "E-papierosy",
+   "Akcyza na papierosy"
+  ],
+  "2458": [
+   "Wojskowa Akademia Medyczna"
+  ],
+  "2459": [
+   "Planowanie przestrzenne"
+  ],
+  "2460": [
+   "E-zdrowie"
+  ],
+  "2465": [
+   "Skład komisji"
+  ],
+  "2468": [
+   "Jawność cen mieszkań",
+   "Mieszkalnictwo"
+  ],
+  "2469": [
+   "Upamiętnienie"
+  ],
+  "2470": [
+   "Upamiętnienie"
+  ],
+  "2471": [
+   "Ochrona gotówki"
+  ],
+  "2484": [
+   "Skład komisji"
+  ],
+  "2488": [
+   "SLAPP",
+   "Wolność słowa"
+  ],
+  "2489": [
+   "Powódź 2024",
+   "Podatek od spadków i darowizn"
+  ],
+  "2490": [
+   "Ratownictwo górskie"
+  ],
+  "2491": [
+   "Upamiętnienie",
+   "USA"
+  ],
+  "2492": [
+   "Upamiętnienie"
+  ],
+  "2493": [
+   "Upamiętnienie"
+  ],
+  "2497": [
+   "PPK",
+   "Deregulacja"
+  ],
+  "2498": [
+   "Zastaw rejestrowy"
+  ],
+  "2499": [
+   "Narkomania"
+  ],
+  "2500": [
+   "Nauka",
+   "Studia doktoranckie"
+  ],
+  "2501": [
+   "Zawieszenie prawa do azylu",
+   "Migracja"
+  ],
+  "2502": [
+   "Upamiętnienie"
+  ],
+  "2503": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2504": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2505": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2506": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2507": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2508": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2509": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2510": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2511": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2512": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2513": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2514": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2515": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2516": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2517": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2518": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2519": [
+   "Upamiętnienie"
+  ],
+  "2526": [
+   "Krajowa Rada Sądownictwa",
+   "Wybory na stanowiska"
+  ],
+  "2528": [
+   "Kryptowaluty"
+  ],
+  "2529": [
+   "Kryptowaluty"
+  ],
+  "2530": [
+   "Kryptowaluty"
+  ],
+  "2533": [
+   "Eurodac",
+   "Migracja"
+  ],
+  "2549": [
+   "Żegluga",
+   "Podatek tonażowy"
+  ],
+  "2550": [
+   "Usługi opiekuńcze",
+   "Pomoc społeczna"
+  ],
+  "2552": [
+   "Opłaty za przejazd drogami"
+  ],
+  "2553": [
+   "Dowody osobiste i dokumenty"
+  ],
+  "2554": [
+   "Upamiętnienie"
+  ],
+  "2555": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2556": [
+   "Upamiętnienie",
+   "Patroni roku"
+  ],
+  "2575": [
+   "Skład komisji"
+  ],
+  "2578": [
+   "Ciepłownictwo",
+   "Deregulacja"
+  ],
+  "2579": [
+   "Bon senioralny",
+   "Seniorzy"
+  ],
+  "2580": [
+   "Osobiste konta inwestycyjne (OKI)",
+   "Inwestowanie"
+  ],
+  "2581": [
+   "Ubezpieczenia upraw"
+  ],
+  "2596": [
+   "Skład komisji"
+  ],
+  "2597": [
+   "Organizacje pozarządowe",
+   "Deregulacja"
+  ],
+  "2598": [
+   "Pseudomedycyna",
+   "Prawa pacjenta"
+  ],
+  "2599": [
+   "Odszkodowania od Rosji dla Ukrainy",
+   "Umowy międzynarodowe"
+  ],
+  "2600": [
+   "Ochotnicze straże pożarne"
+  ],
+  "2601": [
+   "Oświadczenia majątkowe"
+  ],
+  "2602": [
+   "Pakt migracyjny",
+   "Migracja"
+  ],
+  "2603": [
+   "Zespoły ludowe",
+   "Kultura"
+  ],
+  "2617": [
+   "Skład komisji"
+  ],
+  "2618": [
+   "Wybory na stanowiska",
+   "Trybunał Konstytucyjny"
+  ],
+  "2620": [
+   "Nadzór finansowy"
+  ],
+  "2621": [
+   "Hospicja",
+   "Prawa pacjenta"
+  ],
+  "2622": [
+   "Rachunki za prąd"
+  ],
+  "2623": [
+   "Feminatywy w ogłoszeniach o pracę"
+  ],
+  "2624": [
+   "Upamiętnienie",
+   "Sport"
+  ],
+  "2629": [
+   "Sprawozdania i informacje",
+   "Wykonanie budżetu"
+  ],
+  "2632": [
+   "Wotum nieufności"
+  ],
+  "2642": [
+   "Zarządy banków"
+  ],
+  "2643": [
+   "Karta DiLO",
+   "Krajowa Sieć Onkologiczna"
+  ],
+  "2644": [
+   "Zabezpieczenie socjalne artystów"
+  ],
+  "2645": [
+   "Zniesienie ubezwłasnowolnienia"
+  ],
+  "2646": [
+   "Rzeź wołyńska",
+   "Upamiętnienie"
+  ],
+  "2647": [
+   "Sport"
+  ],
+  "2648": [
+   "Gospodarka wodna"
+  ],
+  "2649": [
+   "Wybory samorządowe"
+  ],
+  "2667": [
+   "Umowy międzynarodowe",
+   "Zabezpieczenie społeczne"
+  ],
+  "2669": [
+   "Samorządy zawodowe"
+  ],
+  "2670": [
+   "Wybory",
+   "Referendum lokalne"
+  ],
+  "2671": [
+   "Obiekty sportowe"
+  ],
+  "2672": [
+   "Depenalizacja marihuany"
+  ],
+  "2673": [
+   "Reforma szpitali",
+   "Ochrona zdrowia"
+  ],
+  "2674": [
+   "Finansowanie nauki",
+   "Nauka"
+  ],
+  "2675": [
+   "Powódź 2024",
+   "Rolnictwo"
+  ],
+  "2676": [
+   "Regulamin Sejmu",
+   "Służby specjalne"
+  ],
+  "2677": [
+   "VAT",
+   "Deregulacja"
+  ],
+  "2683": [
+   "Skład komisji"
+  ],
+  "2684": [
+   "Podatek od nadzwyczajnych zysków paliwowych"
+  ],
+  "2685": [
+   "NFZ",
+   "Ochrona zdrowia"
+  ],
+  "2693": [
+   "Nielegalne treści w internecie"
+  ],
+  "2694": [
+   "Akt o usługach cyfrowych (DSA)"
+  ],
+  "2695": [
+   "Jakość żywności"
+  ],
+  "2696": [
+   "Kobiety w zarządach spółek"
+  ],
+  "2697": [
+   "Pornografia a dzieci",
+   "Ochrona dzieci"
+  ],
+  "2698": [
+   "Żłobki",
+   "Opieka nad dziećmi"
+  ],
+  "2699": [
+   "Nieruchomości kupowane przez cudzoziemców"
+  ],
+  "2700": [
+   "Transport publiczny",
+   "Wykluczenie komunikacyjne"
+  ],
+  "2701": [
+   "PFRON"
+  ],
+  "2702": [
+   "Młodociani pracownicy"
+  ],
+  "2703": [
+   "Pouczenie zamiast kary",
+   "Deregulacja"
+  ],
+  "2704": [
+   "Liczba posłów w okręgach",
+   "Wybory"
+  ],
+  "2705": [
+   "Komisje wyborcze",
+   "Wybory"
+  ],
+  "2706": [
+   "Adopcja"
+  ],
+  "2707": [
+   "Święta państwowe",
+   "Sport"
+  ],
+  "2708": [
+   "Rzeź wołyńska",
+   "Upamiętnienie"
+  ],
+  "2709": [
+   "Odwołania ze stanowisk",
+   "Państwowa Komisja Wyborcza"
+  ],
+  "2713": [
+   "Upamiętnienie"
+  ],
+  "2721": [
+   "Dostępność dla osób z niepełnosprawnościami"
+  ],
+  "2722": [
+   "Dostępność dla osób z niepełnosprawnościami",
+   "Wybory"
+  ],
+  "2723": [
+   "Ochrona konkurencji"
+  ],
+  "2724": [
+   "Niższy VAT"
+  ],
+  "2725": [
+   "Sprawozdania i informacje",
+   "Media publiczne"
+  ],
+  "2726": [
+   "Sprawozdania i informacje",
+   "Media publiczne"
+  ],
+  "2734": [
+   "Wybory na stanowiska",
+   "Rzecznik Praw Obywatelskich"
+  ],
+  "2737": [
+   "Prawo spółek",
+   "Deregulacja"
+  ],
+  "2738": [
+   "Umowy międzynarodowe",
+   "Recykling statków"
+  ],
+  "2739": [
+   "Zawieszenie prawa do azylu",
+   "Migracja"
+  ],
+  "2745": [
+   "Wybory samorządowe"
+  ],
+  "2746": [
+   "Areszt tymczasowy"
+  ],
+  "2747": [
+   "Lasy"
+  ],
+  "2748": [
+   "Schroniska dla zwierząt",
+   "Ochrona zwierząt"
+  ],
+  "2749": [
+   "Język śląski"
+  ],
+  "2750": [
+   "Przyłączenia do sieci",
+   "Energetyka"
+  ],
+  "2767": [
+   "Skład komisji"
+  ],
+  "2768": [
+   "Skład komisji"
+  ],
+  "2769": [
+   "Reklama polityczna"
+  ],
+  "2771": [
+   "Poczta Polska"
+  ],
+  "2772": [
+   "Mniejszości narodowe w wyborach",
+   "Wybory"
+  ],
+  "2778": [
+   "Czyste powietrze"
+  ],
+  "2779": [
+   "Lasy"
+  ],
+  "2799": [
+   "Prawa konsumenta"
+  ],
+  "2800": [
+   "Ochrona świadków"
+  ],
+  "2801": [
+   "Związki zawodowe"
+  ],
+  "2802": [
+   "Postępowanie karne"
+  ],
+  "2803": [
+   "Przedszkola",
+   "Finansowanie szkół"
+  ],
+  "2804": [
+   "Odszkodowania za grunty pod drogi"
+  ],
+  "2805": [
+   "Drogi"
+  ],
+  "2806": [
+   "Limit płatności gotówką"
+  ],
+  "2807": [
+   "Ukraina w UE",
+   "Banderyzm"
+  ],
+  "2810": [
+   "Umowy międzynarodowe",
+   "Zabezpieczenie społeczne"
+  ],
+  "2811": [
+   "Skład komisji",
+   "Służby specjalne"
+  ],
+  "2819": [
+   "Skład komisji"
+  ],
+  "2821": [
+   "Biometan",
+   "Odnawialne źródła energii"
+  ],
+  "2822": [
+   "Lotnictwo",
+   "Emisje"
+  ],
+  "2823": [
+   "Lasy Państwowe",
+   "Ochrona przyrody"
+  ],
+  "2824": [
+   "Trybunał Stanu"
+  ],
+  "2825": [
+   "Gospodarka wodna"
+  ],
+  "2826": [
+   "Organizacje pozarządowe"
+  ],
+  "2827": [
+   "Wynagrodzenia naukowców",
+   "Nauka"
+  ],
+  "2828": [
+   "Bezpieczeństwo na uczelniach"
+  ],
+  "2837": [
+   "Ceny transferowe",
+   "Deregulacja"
+  ],
+  "2838": [
+   "VAT"
+  ],
+  "2839": [
+   "E-papierosy",
+   "Akcyza na papierosy"
+  ],
+  "2840": [
+   "Traktat z Wielką Brytanią",
+   "Obronność"
+  ],
+  "2841": [
+   "Umowy międzynarodowe",
+   "Produkcja filmowa"
+  ],
+  "2842": [
+   "E-dziennik"
+  ],
+  "2846": [
+   "Jamboree 2027"
+  ],
+  "2848": [
+   "Podatek od nieruchomości"
+  ],
+  "2865": [
+   "Najem krótkoterminowy",
+   "Turystyka"
+  ],
+  "2866": [
+   "Kąpieliska"
+  ],
+  "2867": [
+   "Sądy"
+  ],
+  "2868": [
+   "Język migowy w sądach"
+  ],
+  "2869": [
+   "Żandarmeria Wojskowa"
+  ],
+  "2870": [
+   "Terroryzm",
+   "Bezpieczeństwo państwa"
+  ],
+  "2871": [
+   "Biura poselskie"
+  ],
+  "2873": [
+   "Dopłaty do nawozów",
+   "Rolnictwo"
+  ],
+  "2874": [
+   "Święta państwowe",
+   "Represjonowani w PRL"
+  ],
+  "2875": [
+   "Wybory na stanowiska",
+   "Organy Sejmu"
+  ],
+  "2876": [
+   "Regulamin Sejmu"
+  ],
+  "2883": [
+   "Planowanie przestrzenne"
+  ],
+  "2884": [
+   "Wojsko"
+  ],
+  "2885": [
+   "Jawność w ochronie zdrowia"
+  ],
+  "2886": [
+   "Ochrona zabytków"
+  ],
+  "2887": [
+   "Kolej",
+   "Transport publiczny"
+  ],
+  "2889": [
+   "Upamiętnienie"
+  ],
+  "2995": [
+   "Rejestracja jachtów"
+  ],
+  "2996": [
+   "PESEL"
+  ],
+  "2997": [
+   "Postępowanie karne"
+  ],
+  "2998": [
+   "Produkcja filmowa"
+  ],
+  "2999": [
+   "Rybołówstwo"
+  ],
+  "3000": [
+   "Archiwa"
+  ],
+  "3001": [
+   "Pozwolenia środowiskowe",
+   "Deregulacja"
+  ],
+  "3002": [
+   "Reklama aptek"
+  ],
+  "3003": [
+   "Sankcje"
+  ],
+  "3004": [
+   "Krajowy Rejestr Sądowy",
+   "Deregulacja"
+  ],
+  "3005": [
+   "Wybory na stanowiska",
+   "Trybunał Konstytucyjny"
+  ],
+  "3007": [
+   "Czyste Powietrze",
+   "Oszukani beneficjenci"
+  ],
+  "3008": [
+   "Mediacje"
+  ],
+  "3009": [
+   "Dozór elektroniczny"
+  ],
+  "3010": [
+   "Umorzenie długów w ZUS"
+  ],
+  "3011": [
+   "Sądy",
+   "ZUS"
+  ],
+  "3012": [
+   "Tantiemy dla twórców",
+   "Biblioteki"
+  ],
+  "3013": [
+   "Umowy międzynarodowe"
+  ],
+  "3015": [
+   "Uczelnie"
+  ],
+  "3027": [
+   "Zawieszenie prawa do azylu",
+   "Migracja"
+  ],
+  "3028": [
+   "Budżet państwa 2026"
+  ],
+  "3029": [
+   "Ochrona rolników przed skargami sąsiadów",
+   "Rolnictwo"
+  ],
+  "3030": [
+   "Inwestycje infrastrukturalne"
+  ],
+  "3032": [
+   "Ochrona rolników przed skargami sąsiadów",
+   "Rolnictwo"
+  ],
+  "3033": [
+   "Kolej"
+  ],
+  "3034": [
+   "Opieka naprzemienna",
+   "Rodzina"
+  ],
+  "3035": [
+   "Służby specjalne"
+  ],
+  "3036": [
+   "Elektromobilność"
+  ],
+  "3037": [
+   "Bezpieczeństwo na drogach"
+  ],
+  "3038": [
+   "Ochrona środowiska"
+  ],
+  "3039": [
+   "Cudzoziemcy",
+   "Migracja"
+  ],
+  "3040": [
+   "Środki ochrony roślin"
+  ],
+  "3060": [
+   "Skład komisji",
+   "Służby specjalne"
+  ],
+  "3061": [
+   "Skład komisji"
+  ],
+  "3066": [
+   "Areszt tymczasowy",
+   "Postępowanie karne"
+  ],
+  "3071": [
+   "Regulamin Sejmu",
+   "Służby specjalne"
+  ],
+  "3072": [
+   "Upamiętnienie"
+  ],
+  "3074": [
+   "VAT",
+   "Handel internetowy"
+  ],
+  "3078": [
+   "Wybory na stanowiska",
+   "Sztuczna inteligencja"
+  ],
+  "3085": [
+   "Upadłość konsumencka"
+  ],
+  "3086": [
+   "Służba zagraniczna"
+  ],
+  "3087": [
+   "Postępowanie karne"
+  ],
+  "3088": [
+   "Pomoc de minimis",
+   "Deregulacja"
+  ],
+  "3089": [
+   "Niższy VAT"
+  ],
+  "3090": [
+   "Zakaz kryptowalut",
+   "Kryptowaluty"
+  ],
+  "3091": [
+   "Upamiętnienie"
+  ],
+  "3094": [
+   "KUKE",
+   "Eksport"
+  ],
+  "3099": [
+   "Podatek od sprzedaży rzeczy używanych"
+  ],
+  "3100": [
+   "Podatek od nadzwyczajnych zysków paliwowych"
+  ],
+  "3101": [
+   "Przejazdy kolejowe",
+   "Bezpieczeństwo na drogach"
+  ],
+  "3102": [
+   "Rynek energii"
+  ],
+  "3106": [
+   "Skład komisji"
+  ],
+  "3120": [
+   "Poręczenia Skarbu Państwa"
+  ],
+  "3121": [
+   "Mieszkalnictwo"
+  ],
+  "3122": [
+   "Próg podatkowy",
+   "Podatek PIT"
+  ],
+  "3123": [
+   "Ochrona zwierząt"
+  ],
+  "3124": [
+   "Katastrofa ekologiczna na Bobrze"
+  ],
+  "3125": [
+   "Spółki Skarbu Państwa"
+  ],
+  "3126": [
+   "Zawód dietetyka"
+  ],
+  "3127": [
+   "Regulamin Sejmu",
+   "Służby specjalne"
+  ],
+  "3128": [
+   "Upamiętnienie"
+  ],
+  "3134": [
+   "Jakość paliw"
+  ],
+  "3135": [
+   "VAT",
+   "Napoje bezalkoholowe"
+  ],
+  "3136": [
+   "Akcyza na alkohol"
+  ],
+  "3137": [
+   "Podatek PIT"
+  ],
+  "3138": [
+   "Porty morskie",
+   "Podatki dla firm"
+  ],
+  "3139": [
+   "Umowy międzynarodowe"
+  ],
+  "3140": [
+   "Umowy międzynarodowe"
+  ],
+  "3141": [
+   "Choroby rzadkie",
+   "Ochrona zdrowia"
+  ],
+  "3142": [
+   "Szpitale"
+  ],
+  "3143": [
+   "Ochrona zdrowia"
+  ],
+  "3144": [
+   "Jawność w ochronie zdrowia"
+  ],
+  "3145": [
+   "Podatek cukrowy"
+  ],
+  "3146": [
+   "Straż Graniczna",
+   "Ochrona granicy"
+  ],
+  "3147": [
+   "Próg podatkowy",
+   "Podatek PIT"
+  ],
+  "3148": [
+   "Fundacje rodzinne"
+  ],
+  "3149": [
+   "Ulgi podatkowe"
+  ],
+  "3150": [
+   "Budżet państwa 2027"
+  ],
+  "3153": [
+   "Ochrona zdrowia",
+   "Obronność"
+  ],
+  "3154": [
+   "Budżet państwa 2027"
+  ],
+  "3155": [
+   "Podatek cukrowy"
+  ],
+  "3156": [
+   "Próg podatkowy",
+   "Podatek PIT"
+  ],
+  "3157": [
+   "Wynagrodzenia lekarzy",
+   "Ochrona zdrowia"
+  ],
+  "3159": [
+   "Ceny energii dla firm"
+  ],
+  "3160": [
+   "Polska Strefa Inwestycji"
+  ],
+  "3161": [
+   "Upamiętnienie"
+  ],
+  "3162": [
+   "Skład komisji"
+  ],
+  "3163": [
+   "Pranie pieniędzy"
+  ],
+  "3172": [
+   "Dzwony kościelne"
+  ],
+  "3173": [
+   "Kryptowaluty"
+  ],
+  "3174": [
+   "Ochrona przyrody",
+   "Odszkodowania od Skarbu Państwa"
+  ],
+  "3175": [
+   "Planowanie przestrzenne"
+  ],
+  "3176": [
+   "Oszustwa telefoniczne"
+  ],
+  "3177": [
+   "Składki emerytów"
+  ],
+  "3178": [
+   "Upamiętnienie"
+  ],
+  "3182": [
+   "Skład komisji"
+  ],
+  "3184": [
+   "Łowiectwo"
+  ],
+  "3186": [
+   "Centralny Port Komunikacyjny"
+  ],
+  "3197": [
+   "Wotum nieufności"
+  ],
+  "3204": [
+   "Górnictwo węgla"
+  ],
+  "3205": [
+   "Emerytura minimalna"
+  ],
+  "3206": [
+   "Finansowanie szkół"
+  ],
+  "3207": [
+   "Upamiętnienie"
+  ],
+  "3221": [
+   "Skład komisji"
+  ],
+  "3231": [
+   "Studia doktoranckie"
+  ],
+  "3232": [
+   "E-dyplomy"
+  ],
+  "3233": [
+   "Spółdzielnie mieszkaniowe"
+  ],
+  "3234": [
+   "Prawa lokatorów",
+   "Mieszkalnictwo"
+  ],
+  "3235": [
+   "Uczelnie"
+  ],
+  "3239": [
+   "Regulamin Sejmu"
+  ],
+  "3241": [
+   "Unia Europejska",
+   "Podatki"
+  ],
+  "3245": [
+   "KSeF (e-faktury)"
+  ],
+  "3258": [
+   "Skład komisji"
+  ],
+  "3261": [
+   "Raportowanie ESG",
+   "Deregulacja"
+  ],
+  "3262": [
+   "Elektroodpady",
+   "Gospodarka odpadami"
+  ],
+  "3263": [
+   "Pensje nauczycieli",
+   "Karta Nauczyciela"
+  ],
+  "3264": [
+   "Uczelnie"
+  ]
+ },
+ "votes": {}
+}

@@ -1,10 +1,11 @@
 {% extends "base.html" %}
 {% block title %}{{ _("Ustawy i uchwały") }}{% endblock %}
-{% from "_macros.html" import author_label %}
+{% from "_macros.html" import author_label, tag_chips %}
 {% block content %}
 <h1>{{ _("Ustawy i uchwały") }}</h1>
 <p class="muted">{{ _("Projekty, nad którymi Sejm głosował w tej kadencji, od ostatnio głosowanych.") }}</p>
-<p><a href="{{ root }}zamrazarka.html">{{ _("Zamrażarka: projekty, które utknęły u Marszałka lub w komisjach") }} →</a> ·
+<p><a href="{{ root }}tematy.html">{{ _("Tematy") }} →</a> ·
+  <a href="{{ root }}zamrazarka.html">{{ _("Zamrażarka: projekty, które utknęły u Marszałka lub w komisjach") }} →</a> ·
   <a href="{{ root }}poprawki-oczekujace.html">{{ _("Poprawki czekające na głosowanie") }} →</a></p>
 <div class="table-scroll">
 <table>
@@ -12,7 +13,7 @@
   <tbody>
   {% for b in bills %}
   <tr>
-    <td lang="pl"><a href="{{ root }}ustawa/{{ b.root }}.html">{{ b.title }}</a></td>
+    <td lang="pl"><a href="{{ root }}ustawa/{{ b.root }}.html">{{ b.title }}</a>{% if b.tags %}<br>{{ tag_chips(b.tags, root) }}{% endif %}</td>
     <td style="white-space:nowrap">{{ author_label(b.author) }}</td>
     <td data-v="{{ b.last }}" style="white-space:nowrap">{{ b.last | date_pl }}</td>
     <td class="num" data-v="{{ b.votings | length }}">{{ b.votings | length }}</td>

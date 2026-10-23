@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% from "_macros.html" import result_badge, counts, author_label %}
+{% block title %}{{ t.tag }} — {{ _("temat") }}{% endblock %}
+{% block description %}{{ _("Projekty i głosowania na temat") }}: {{ t.tag }}.{% endblock %}
+{% block content %}
+<div class="crumbs"><a href="{{ root }}tematy.html">{{ _("Tematy") }}</a></div>
+<h1 lang="pl">{{ t.tag }}</h1>
+{% if t.bills %}
+<h2>{{ _("Projekty") }} ({{ t.bills | length }})</h2>
+<div class="table-scroll"><table>
+  <thead><tr><th>{{ _("Projekt") }}</th><th>{{ _("Autor") }}</th><th>{{ _("Głosowanie nad całością") }}</th></tr></thead>
+  <tbody>
+  {% for b in t.bills | sort(attribute="last", reverse=true) %}
+  {% set whole = b.votings | selectattr("motion") | selectattr("motion.0", "in", ["final", "reject_bill"]) | list %}
+  {% set v = whole[-1] if whole else none %}
+  <tr>
+    <td lang="pl"><a href="{{ root }}ustawa/{{ b.root }}.html">{{ b.title }}</a><br><span class="muted">{{ b.last | date_pl }}</span></td>
+    <td style="white-space:nowrap">{{ author_label(b.author) }}</td>
+    <td>{% if v %}<a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a><br>{{ result_badge(v) }} {{ counts(v) }}{% else %}<span class="muted">—</span>{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% endif %}
+{% if t.votes %}
+<h2>{{ _("Głosowania") }} ({{ t.votes | length }})</h2>
+<div class="table-scroll"><table><tbody>
+  {% for v in t.votes | sort(attribute="date", reverse=true) %}
+  <tr><td style="white-space:nowrap">{{ v.date | date_pl }}</td>
+    <td><a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a><br><span class="muted" lang="pl">{{ v.agenda }}</span></td>
+    <td>{{ result_badge(v) }} {{ counts(v) }}</td></tr>
+  {% endfor %}
+</tbody></table></div>
+{% endif %}
+{% endblock %}
