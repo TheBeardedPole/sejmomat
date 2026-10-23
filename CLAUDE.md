@@ -183,6 +183,14 @@ Live on sejmomat.pl:
 - **Upload retries:** the deploy step tries rsync three times, a minute
   apart (the host's SSH times out now and then).
 
+- **Own stream with captions** (`tools/livestream.py`, run locally, not part of
+  the site): the Sejm's plenary stream through ffmpeg, ~100 s behind live (or a
+  replay from `--at "YYYY-MM-DD HH:MM"`), with a caption bar for the agenda item,
+  its tags and the latest vote with its result, each shown when the picture
+  reaches it (the clock is ffmpeg's position, not the wall clock). Out to a
+  preview window, a file, or RTMP (`SEJMOMAT_RTMP`, `--out rtmp`). The live DVR
+  playlists respect `start`; with `stop` the archive answers and ignores it.
+
 Waiting on the owner:
 
 - **Posting day summaries** (no social media accounts yet) (`.github/workflows/social.yml`): to X
