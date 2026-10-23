@@ -11,8 +11,11 @@ How it keeps in step: ffmpeg reads the stream from a start moment (live: now
 minus --delay; replay: --at) at normal speed, so the picture shows start +
 time elapsed. The captions follow that clock: a vote (from the Sejm's API,
 about a minute after it is taken; hence the delay live) appears when the
-picture reaches the moment it was taken. ffmpeg re-reads the two caption
-files every frame; this script rewrites them.
+picture reaches the moment it was taken, and for a vote on an amendment or a
+minority motion a panel on the right shows what it changes in the bill (red
+removed, green added; from the report prints in data/prints, as on the site's
+vote pages). ffmpeg re-reads the caption files every frame; this script
+rewrites them.
 
 The Sejm's broadcast is public; before streaming it to a platform, check the
 Sejm's terms for rebroadcasting its feed.
@@ -35,6 +38,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from sejmomat import agenda as agenda_mod  # noqa: E402  (the site's agenda parser)
+from sejmomat.model import link_amendments  # noqa: E402  (what an amendment changes, as on vote pages)
 
 API = "https://api.sejm.gov.pl/sejm/term10"
 WARSAW = ZoneInfo("Europe/Warsaw")
@@ -146,7 +150,64 @@ def captions(shown, items, tags, title):
     return "\n".join(lines), (f"Temat: {topic}" if topic else " "), textwrap.shorten(vote, 110, placeholder="…")
 
 
-def ffmpeg_command(src, files, out, fonts, logo):
+DIFF_LINES = 12                                         # lines of the panel with what an amendment changes
+PAGE_SECONDS = 8                                        # a longer change is shown in pages, in turn
+MAX_PAGES = 6
+DIFF_COLOURS = {"w": "white", "r": "0xff9a9a", "g": "0x9be8ab"}  # text, removed, added
+_diffs = {}
+
+
+def _plain(html):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", html)).strip()
+
+
+def diff_panel(v):
+    """(heading, [page of (colour, line)]) for a vote on amendments or minority motions:
+    what the first of them changes in the bill (removed lines red, added green), or its
+    text, in pages of DIFF_LINES - 1 lines; ("", []) otherwise. Needs the report prints
+    in data/prints (git pull)."""
+    key = (v["sitting"], v["votingNumber"])
+    if key in _diffs:
+        return _diffs[key]
+    out = ("", [])
+    try:
+        linked = [a for a in link_amendments({**v, "prints": None}) if a["item"]]
+    except Exception:
+        linked = []
+    if linked:
+        a = linked[0]
+        it = a["item"]
+        what = {"minority": "wniosek mniejszości", "amendment": "poprawka", "senate": "poprawka Senatu"}[a["kind"]]
+        rows = []
+        def wrap(text, mark):
+            return textwrap.wrap(f"{mark} {text}", 46, subsequent_indent="   ") or [mark]
+        changes = (it.get("bill_diff") or {}).get("changes") or []
+        for ch in changes:
+            if ch.get("where"):
+                rows += [("w", line) for line in textwrap.wrap(ch["where"], 46)]
+            for r in ch.get("rows", []):
+                html = r["html"]
+                if r["state"] == "removed":
+                    rows += [("r", line) for line in wrap(_plain(html), "−")]
+                elif r["state"] == "added":
+                    rows += [("g", line) for line in wrap(_plain(html), "+")]
+                elif r["state"] == "changed":
+                    rows += [("r", line) for line in wrap(_plain(re.sub(r"<ins>.*?</ins>", "", html)), "−")]
+                    rows += [("g", line) for line in wrap(_plain(re.sub(r"<del>.*?</del>", "", html)), "+")]
+        if not rows:
+            # no comparison with the bill: the amendment's own words
+            rows = [("w", line) for line in textwrap.wrap(_plain(it.get("text") or ""), 46)]
+        per = DIFF_LINES - 1
+        pages = [rows[i:i + per] for i in range(0, len(rows), per)]
+        if len(pages) > MAX_PAGES:
+            pages = pages[:MAX_PAGES]
+            pages[-1] = pages[-1][:per - 1] + [("w", f"… dalej w druku nr {a['source']}")]
+        out = (f"Co zmienia {what} {a['number']}" + (f" (druk {a['source']})" if a["source"] else ""), pages)
+    _diffs[key] = out
+    return out
+
+
+def ffmpeg_command(src, files, out, fonts, logo, diff_files):
     """The ffmpeg command: the stream read at normal speed, scaled to 1280x720,
     with a bar along the bottom carrying the two caption files and a label at
     the top left."""
@@ -160,6 +221,15 @@ def ffmpeg_command(src, files, out, fonts, logo):
          f"drawtext=fontfile='{regular}':textfile='{topic}':reload=1:fontsize=20:fontcolor=0x9cc3ff:x=28:y={H - bar_h + 88},"
          f"drawtext=fontfile='{regular}':textfile='{vote}':reload=1:fontsize=22:fontcolor=0xffd479:x=28:y={H - 38},"
          f"drawtext=fontfile='{regular}':textfile='{label}':reload=1:fontsize=18:fontcolor=white:x=28:y=24:box=1:boxcolor=black@0.6:boxborderw=8")
+    # the panel on the right: what the amendment being voted on changes, outlined like subtitles;
+    # a line comes in three colours, each its own file, and only one of them holds text
+    head, slots = (str(f).replace(":", r"\:") for f in diff_files[:1]), diff_files[1]
+    x0, y0, step = W - 540, 76, 25
+    v += (f",drawtext=fontfile='{bold}':textfile='{next(head)}':reload=1:fontsize=20:fontcolor=0xffd479:"
+          f"borderw=2:bordercolor=black@0.85:x={x0}:y={y0}")
+    for (i, colour), path in slots.items():
+        v += (f",drawtext=fontfile='{regular}':textfile='{str(path).replace(':', chr(92) + ':')}':reload=1:fontsize=19:"
+              f"fontcolor={DIFF_COLOURS[colour]}:borderw=2:bordercolor=black@0.85:x={x0}:y={y0 + 32 + i * step}")
     inputs = ["-re", "-i", src]
     if logo:
         inputs += ["-i", str(logo)]
@@ -209,6 +279,8 @@ def main():
     work = Path(tempfile.mkdtemp(prefix="sejmomat-live-"))
     files = (work / "item.txt", work / "topic.txt", work / "vote.txt", work / "label.txt")
     write(files[3], f"SEJMOMAT · {mode} · {title}")
+    diff_head = work / "diff-head.txt"
+    diff_slots = {(i, c): work / f"diff-{i}-{c}.txt" for i in range(DIFF_LINES) for c in DIFF_COLOURS}
     votes = []
 
     def refresh(clock):
@@ -220,13 +292,26 @@ def main():
         show(clock)
 
     def show(clock):
-        for f, text in zip(files, captions([v for v in votes if warsaw(v["date"]) <= clock], items, tags, title)):
+        shown = [v for v in votes if warsaw(v["date"]) <= clock]
+        for f, text in zip(files, captions(shown, items, tags, title)):
             write(f, text)
+        # drawtext refuses an empty file, so a blank line is a space
+        head, pages = diff_panel(shown[-1]) if shown else ("", [])
+        rows = []
+        if pages:
+            # the pages in turn, from the moment the vote came up on screen
+            page = int((clock - warsaw(shown[-1]["date"])).total_seconds() // PAGE_SECONDS) % len(pages)
+            rows = pages[page]
+            if len(pages) > 1:
+                head = f"{head} · {page + 1}/{len(pages)}"
+        write(diff_head, head or " ")
+        for (i, c), path in diff_slots.items():
+            write(path, rows[i][1] if i < len(rows) and rows[i][0] == c else " ")
 
     refresh(start)
     fonts = (args.font_bold or font(True), args.font or font(False))
     logo = ROOT / "static" / "logo-white.png"
-    cmd, preview = ffmpeg_command(src, files, args.out, fonts, logo if logo.exists() else None)
+    cmd, preview = ffmpeg_command(src, files, args.out, fonts, logo if logo.exists() else None, (diff_head, diff_slots))
     # ffmpeg reports how far into the stream it is: the captions follow that, not the wall clock,
     # so they stay with the picture even when the download is slower than real time
     progress = work / "progress.txt"
@@ -252,7 +337,7 @@ def main():
                 break
             pos = position()
             clock = start + timedelta(seconds=pos)
-            if elapsed - pos > 20 and time.monotonic() - last_warning > 60:
+            if elapsed > 30 and elapsed - pos > 20 and time.monotonic() - last_warning > 60:
                 last_warning = time.monotonic()
                 print(f"the stream arrives slower than real time ({pos:.0f} s of video in {elapsed:.0f} s): "
                       f"try --quality 384", file=sys.stderr)
