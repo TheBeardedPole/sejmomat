@@ -27,8 +27,8 @@ import re
 import shutil
 import subprocess
 import sys
-import tempfile
 import textwrap
+import threading
 import time
 import urllib.request
 from datetime import datetime, timedelta
@@ -39,10 +39,10 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from sejmomat import agenda as agenda_mod  # noqa: E402  (the site's agenda parser)
 from sejmomat.model import link_amendments  # noqa: E402  (what an amendment changes, as on vote pages)
+from live_overlay import H, W, Overlay  # noqa: E402
 
 API = "https://api.sejm.gov.pl/sejm/term10"
 WARSAW = ZoneInfo("Europe/Warsaw")
-W, H = 1280, 720
 
 
 def get(path):
@@ -125,13 +125,6 @@ def passed(v):
     return v["yes"] > v["no"] if v.get("majorityType") == "SIMPLE_MAJORITY" else v["yes"] >= (v.get("majorityVotes") or 0)
 
 
-def write(path, text):
-    """Replace a caption file in one step, so ffmpeg never reads half of it."""
-    tmp = path.with_suffix(".tmp")
-    tmp.write_text(text, encoding="utf-8")
-    os.replace(tmp, path)
-
-
 def captions(shown, items, tags, title):
     """(item lines, topic line, vote line) for the latest vote the picture has reached."""
     if not shown:
@@ -151,9 +144,29 @@ def captions(shown, items, tags, title):
 
 
 DIFF_LINES = 12                                         # lines of the panel with what an amendment changes
+DIFF_SLOTS = DIFF_LINES + 4                             # with PAGE_STRETCH below: lines the panel can hold
 PAGE_SECONDS = 8                                        # a longer change is shown in pages, in turn
 MAX_PAGES = 6
-DIFF_COLOURS = {"w": "white", "r": "0xff9a9a", "g": "0x9be8ab"}  # text, removed, added
+PAGE_STRETCH = 4                                        # a page may run this many lines over to keep a passage whole
+QUIET = 300                                             # seconds without a vote: the panel shows fun facts
+FACT_SECONDS = 15
+FACTS_URL = "https://sejmomat.pl/api/v1/ciekawostki.json"
+
+
+def load_facts():
+    """The site's fun facts (sejmomat/facts.py): from a local build if there is one, else the site."""
+    local = ROOT / "site" / "api" / "v1" / "ciekawostki.json"
+    try:
+        if local.exists():
+            found = json.loads(local.read_text(encoding="utf-8"))
+        else:
+            with urllib.request.urlopen(FACTS_URL, timeout=30) as r:
+                found = json.load(r)
+    except Exception:
+        return []
+    # the site's first version had plain sentences
+    return [f if isinstance(f, dict) else {"kind": "fact", "title": "Czy wiesz, że…", "value": "", "unit": "", "text": f}
+            for f in found]
 _diffs = {}
 
 
@@ -178,27 +191,51 @@ def diff_panel(v):
         a = linked[0]
         it = a["item"]
         what = {"minority": "wniosek mniejszości", "amendment": "poprawka", "senate": "poprawka Senatu"}[a["kind"]]
-        rows = []
-        def wrap(text, mark):
-            return textwrap.wrap(f"{mark} {text}", 46, subsequent_indent="   ") or [mark]
+        passages = []   # each a list of (colour, line), kept on one page where it fits
+
+        def wrap(text, mark, colour):
+            return [(colour, line) for line in textwrap.wrap(f"{mark} {text}", 46, subsequent_indent="   ") or [mark]]
         changes = (it.get("bill_diff") or {}).get("changes") or []
         for ch in changes:
-            if ch.get("where"):
-                rows += [("w", line) for line in textwrap.wrap(ch["where"], 46)]
+            where = [("w", line) for line in textwrap.wrap(ch.get("where") or "", 46)]
             for r in ch.get("rows", []):
                 html = r["html"]
                 if r["state"] == "removed":
-                    rows += [("r", line) for line in wrap(_plain(html), "−")]
+                    passages.append(wrap(_plain(html), "−", "r"))
                 elif r["state"] == "added":
-                    rows += [("g", line) for line in wrap(_plain(html), "+")]
+                    passages.append(wrap(_plain(html), "+", "g"))
                 elif r["state"] == "changed":
-                    rows += [("r", line) for line in wrap(_plain(re.sub(r"<ins>.*?</ins>", "", html)), "−")]
-                    rows += [("g", line) for line in wrap(_plain(re.sub(r"<del>.*?</del>", "", html)), "+")]
-        if not rows:
+                    passages.append(wrap(_plain(re.sub(r"<ins>.*?</ins>", "", html)), "−", "r")
+                                    + wrap(_plain(re.sub(r"<del>.*?</del>", "", html)), "+", "g"))
+                else:
+                    continue
+                if where:   # the place in the bill goes with its first passage
+                    passages[-1] = where + passages[-1]
+                    where = []
+        if not passages:
             # no comparison with the bill: the amendment's own words
-            rows = [("w", line) for line in textwrap.wrap(_plain(it.get("text") or ""), 46)]
+            passages = [[("w", line)] for line in textwrap.wrap(_plain(it.get("text") or ""), 46)]
         per = DIFF_LINES - 1
-        pages = [rows[i:i + per] for i in range(0, len(rows), per)]
+        pages, page = [], []
+        for passage in passages:
+            # a passage that fits on a page (stretched a little) is not split across pages
+            if page and len(page) + len(passage) > per + PAGE_STRETCH and len(passage) <= per + PAGE_STRETCH:
+                pages.append(page)
+                page = []
+            for row in passage:
+                if len(page) >= per + PAGE_STRETCH:
+                    pages.append(page)
+                    page = []
+                page.append(row)
+            if len(page) >= per:
+                pages.append(page)
+                page = []
+        if page:
+            # a short last page joins the one before when they fit together
+            if pages and len(page) <= 3 and len(pages[-1]) + len(page) <= per + PAGE_STRETCH:
+                pages[-1] += page
+            else:
+                pages.append(page)
         if len(pages) > MAX_PAGES:
             pages = pages[:MAX_PAGES]
             pages[-1] = pages[-1][:per - 1] + [("w", f"… dalej w druku nr {a['source']}")]
@@ -207,34 +244,16 @@ def diff_panel(v):
     return out
 
 
-def ffmpeg_command(src, files, out, fonts, logo, diff_files):
-    """The ffmpeg command: the stream read at normal speed, scaled to 1280x720,
-    with a bar along the bottom carrying the two caption files and a label at
-    the top left."""
-    item, topic, vote, label = (str(f).replace(":", r"\:") for f in files)
-    bold, regular = (f.replace(":", r"\:") for f in fonts)
-    bar_h = 172
-    v = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,"
-         f"drawbox=x=0:y={H - bar_h}:w={W}:h={bar_h}:color=black@0.72:t=fill,"
-         f"drawbox=x=0:y={H - bar_h}:w=6:h={bar_h}:color=0x1d5fc4@1:t=fill,"
-         f"drawtext=fontfile='{bold}':textfile='{item}':reload=1:fontsize=25:fontcolor=white:line_spacing=6:x=28:y={H - bar_h + 14},"
-         f"drawtext=fontfile='{regular}':textfile='{topic}':reload=1:fontsize=20:fontcolor=0x9cc3ff:x=28:y={H - bar_h + 88},"
-         f"drawtext=fontfile='{regular}':textfile='{vote}':reload=1:fontsize=22:fontcolor=0xffd479:x=28:y={H - 38},"
-         f"drawtext=fontfile='{regular}':textfile='{label}':reload=1:fontsize=18:fontcolor=white:x=28:y=24:box=1:boxcolor=black@0.6:boxborderw=8")
-    # the panel on the right: what the amendment being voted on changes, outlined like subtitles;
-    # a line comes in three colours, each its own file, and only one of them holds text
-    head, slots = (str(f).replace(":", r"\:") for f in diff_files[:1]), diff_files[1]
-    x0, y0, step = W - 540, 76, 25
-    v += (f",drawtext=fontfile='{bold}':textfile='{next(head)}':reload=1:fontsize=20:fontcolor=0xffd479:"
-          f"borderw=2:bordercolor=black@0.85:x={x0}:y={y0}")
-    for (i, colour), path in slots.items():
-        v += (f",drawtext=fontfile='{regular}':textfile='{str(path).replace(':', chr(92) + ':')}':reload=1:fontsize=19:"
-              f"fontcolor={DIFF_COLOURS[colour]}:borderw=2:bordercolor=black@0.85:x={x0}:y={y0 + 32 + i * step}")
-    inputs = ["-re", "-i", src]
-    if logo:
-        inputs += ["-i", str(logo)]
-        v += f"[v0];[1:v]scale=-1:30[logo];[v0][logo]overlay=W-w-24:22"
-    v += "[v]"
+FPS = 25
+
+
+def ffmpeg_command(src, out):
+    """The ffmpeg command: the stream read at normal speed and scaled to 1280x720,
+    with the overlay (RGBA frames from this script, on stdin) laid over it."""
+    inputs = ["-re", "-i", src,
+              "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-framerate", str(FPS), "-thread_queue_size", "64", "-i", "pipe:0"]
+    v = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS}[base];"
+         f"[base][1:v]overlay=0:0:format=auto[v]")
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *inputs, "-filter_complex", v, "-map", "[v]", "-map", "0:a?"]
     enc = ["-c:v", "libx264", "-preset", "veryfast", "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
            "-pix_fmt", "yuv420p", "-g", "50", "-c:a", "aac", "-b:a", "128k", "-ar", "44100"]
@@ -273,96 +292,77 @@ def main():
     # day's beginning whatever "start" says; this way the picture starts where asked
     src = variant(f"{base}?start={ms(start)}", args.quality)
     n = sitting_number(title)
-    items, tags = agenda_items(n) if n else {}, load_tags()
+    items, tags, facts = agenda_items(n) if n else {}, load_tags(), load_facts()
     print(f"{title} · from {start:%H:%M:%S} · sitting {n}, {len(items)} agenda items")
 
-    work = Path(tempfile.mkdtemp(prefix="sejmomat-live-"))
-    files = (work / "item.txt", work / "topic.txt", work / "vote.txt", work / "label.txt")
-    write(files[3], f"SEJMOMAT · {mode} · {title}")
-    diff_head = work / "diff-head.txt"
-    diff_slots = {(i, c): work / f"diff-{i}-{c}.txt" for i in range(DIFF_LINES) for c in DIFF_COLOURS}
+    overlay = Overlay(args.font_bold or font(True), args.font or font(False), ROOT / "static" / "logo-white.png",
+                      f"SEJMOMAT · {mode} · {title}")
+    for card in facts:   # the photos, before the first frame needs them
+        if card.get("kind") == "mp":
+            overlay.photo(card["mp"])
     votes = []
+    lock = threading.Lock()
 
-    def refresh(clock):
-        nonlocal votes
-        if n:
-            got = get_or_none(f"votings/{n}") or []
-            if len(got) >= len(votes):
-                votes = sorted(got, key=lambda v: v["votingNumber"])
-        show(clock)
+    def poll():
+        # new votes every 20 s, in the background
+        while True:
+            got = get_or_none(f"votings/{n}") if n else None
+            if got:
+                with lock:
+                    votes[:] = sorted(got, key=lambda v: v["votingNumber"])
+            time.sleep(20)
+    threading.Thread(target=poll, daemon=True).start()
+    time.sleep(1)
 
-    def show(clock):
-        shown = [v for v in votes if warsaw(v["date"]) <= clock]
-        for f, text in zip(files, captions(shown, items, tags, title)):
-            write(f, text)
-        # drawtext refuses an empty file, so a blank line is a space
-        head, pages = diff_panel(shown[-1]) if shown else ("", [])
-        rows = []
-        if pages:
-            # the pages in turn, from the moment the vote came up on screen
-            page = int((clock - warsaw(shown[-1]["date"])).total_seconds() // PAGE_SECONDS) % len(pages)
-            rows = pages[page]
-            if len(pages) > 1:
-                head = f"{head} · {page + 1}/{len(pages)}"
-        write(diff_head, head or " ")
-        for (i, c), path in diff_slots.items():
-            write(path, rows[i][1] if i < len(rows) and rows[i][0] == c else " ")
+    def frame(clock):
+        """The overlay for the picture at `clock`."""
+        with lock:
+            shown = [v for v in votes if warsaw(v["date"]) <= clock]
+        item, topic, vote = captions(shown, items, tags, title)
+        recent = shown and (clock - warsaw(shown[-1]["date"])).total_seconds() < QUIET
+        panel = card = None
+        if recent:
+            head, pages = diff_panel(shown[-1])
+            if pages:
+                page = int((clock - warsaw(shown[-1]["date"])).total_seconds() // PAGE_SECONDS) % len(pages)
+                panel = (f"{head} · {page + 1}/{len(pages)}" if len(pages) > 1 else head, pages[page])
+        elif facts:
+            # no vote for a while (a debate, a break): a fun-fact card, a new one every FACT_SECONDS
+            ts = clock.timestamp()
+            c = facts[int(ts // FACT_SECONDS) % len(facts)]
+            card = overlay.card(c, ts % FACT_SECONDS, FACT_SECONDS)
+        return overlay.frame(item, topic, vote, panel, card)
 
-    refresh(start)
-    fonts = (args.font_bold or font(True), args.font or font(False))
-    logo = ROOT / "static" / "logo-white.png"
-    cmd, preview = ffmpeg_command(src, files, args.out, fonts, logo if logo.exists() else None, (diff_head, diff_slots))
-    # ffmpeg reports how far into the stream it is: the captions follow that, not the wall clock,
-    # so they stay with the picture even when the download is slower than real time
-    progress = work / "progress.txt"
-    cmd[1:1] = ["-progress", str(progress), "-stats_period", "1"]
-    began = time.monotonic()
-    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE if preview else None)
+    cmd, preview = ffmpeg_command(src, args.out)
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE if preview else None)
     viewer = subprocess.Popen(["ffplay", "-hide_banner", "-loglevel", "warning", "-window_title", "Sejmomat", "-"],
                               stdin=proc.stdout) if preview else None
-    last_poll = last_warning = 0
-
-    def position():
-        """Seconds of stream ffmpeg has put out so far."""
-        try:
-            found = re.findall(r"out_time_us=(\d+)", progress.read_text())
-            return int(found[-1]) / 1e6 if found else 0.0
-        except (OSError, ValueError):
-            return 0.0
-
     try:
+        # one overlay frame per video frame, each drawn for the moment of the picture it goes on;
+        # ffmpeg takes them as it needs them, so this loop keeps pace with the stream by itself
+        i = 0
         while proc.poll() is None:
-            elapsed = time.monotonic() - began
-            if args.seconds and elapsed > args.seconds:
+            t = i / FPS
+            if args.seconds and t > args.seconds:
                 break
-            pos = position()
-            clock = start + timedelta(seconds=pos)
-            if elapsed > 30 and elapsed - pos > 20 and time.monotonic() - last_warning > 60:
-                last_warning = time.monotonic()
-                print(f"the stream arrives slower than real time ({pos:.0f} s of video in {elapsed:.0f} s): "
-                      f"try --quality 384", file=sys.stderr)
-            # the API every 20 s; the captions follow the clock every second
-            if time.monotonic() - last_poll > 20:
-                last_poll = time.monotonic()
-                refresh(clock)
-            else:
-                show(clock)
-            time.sleep(1)
-    except KeyboardInterrupt:
+            proc.stdin.write(frame(start + timedelta(seconds=t)))
+            i += 1
+    except (KeyboardInterrupt, BrokenPipeError):
         pass
     finally:
+        try:
+            proc.stdin.close()
+        except Exception:
+            pass
         for p in (viewer, proc):
             if p and p.poll() is None:
                 p.terminate()
-        # ffmpeg reads the caption files until it has finished writing
         for p in (viewer, proc):
             if p:
                 try:
                     p.wait(timeout=10)
                 except subprocess.TimeoutExpired:
                     p.kill()
-        shutil.rmtree(work, ignore_errors=True)
-
 
 if __name__ == "__main__":
     main()
