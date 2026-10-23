@@ -70,6 +70,8 @@
   const passed = (v) => v.majorityType === "SIMPLE_MAJORITY" ? v.yes > v.no : v.yes >= (v.majorityVotes || 0);
   const pointOf = (v) => (v.title || "").match(/^\s*Pkt\.?\s*(\d+)/)?.[1];
   const hhmm = (iso) => iso.slice(11, 16);
+  // a vote's page here (glosowanie-na-zywo.html goes on to the regular page once the site has it)
+  const votePage = (v) => `${ROOT}glosowanie-na-zywo.html?posiedzenie=${v.sitting}&nr=${v.votingNumber}`;
   const badge = (v) => el("span", { className: `badge ${passed(v) ? "adopted" : "rejected"}`, textContent: passed(v) ? L.passed : L.rejected });
 
   // a time from the API (Warsaw time, no zone) as a moment
@@ -95,7 +97,9 @@
     const shown = votes.filter((v) => warsawMs(v.date) <= clock());
     if (shown.length === shownCount) return;   // called on every tick of the video
     shownCount = shown.length;
-    panel.replaceChildren(el("h3", {}, L.votes));
+    // "as they happen" only while today's votes are coming in; otherwise the latest ones
+    const today = new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Warsaw" }).format(new Date());
+    panel.replaceChildren(el("h3", {}, shown.at(-1)?.date.startsWith(today) ? L.votes : (L.latest || L.votes)));
     if (!shown.length) {
       panel.append(el("p", { className: "muted" }, L.none));
       return;
@@ -112,7 +116,7 @@
       item[2].forEach((p, i) => links.append(i ? ", " : "", el("a", { href: PRINT(p), textContent: p })));
     }
     panel.append(el("div", { className: "live-now" },
-      el("div", { className: "muted" }, `${L.vote} ${v.votingNumber} · ${hhmm(v.date)}`),
+      el("div", { className: "muted" }, el("a", { href: votePage(v), textContent: `${L.vote} ${v.votingNumber}` }), ` · ${hhmm(v.date)}`),
       el("div", { className: "item", lang: "pl" }, title),
       el("div", { className: "topic", lang: "pl" }, topicNode(v, item)),
       el("p", { className: "counts" }, badge(v), ` ${v.yes} ${L.yes} · ${v.no} ${L.no} · ${v.abstain} ${L.abstain}`),
@@ -120,7 +124,8 @@
     const earlier = shown.slice(-7, -1).reverse();
     if (earlier.length) {
       panel.append(el("h3", {}, L.earlier), el("ul", { className: "live-earlier" }, ...earlier.map((x) => el("li", { lang: "pl" },
-        `${hhmm(x.date)} · ${pointOf(x) ? `${L.item} ${pointOf(x)} · ` : ""}`, topicNode(x, agenda[pointOf(x)]), " ", badge(x)))));
+        el("a", { href: votePage(x), textContent: `${L.no_ || "nr"} ${x.votingNumber}` }),
+        ` · ${hhmm(x.date)} · ${pointOf(x) ? `${L.item} ${pointOf(x)} · ` : ""}`, topicNode(x, agenda[pointOf(x)]), " ", badge(x)))));
     }
     panel.append(el("p", { className: "live-note" }, synced ? L.synced : L.delay));
   };
