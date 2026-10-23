@@ -27,6 +27,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 import textwrap
 import threading
 import time
@@ -40,6 +41,7 @@ sys.path.insert(0, str(ROOT))
 from sejmomat import agenda as agenda_mod  # noqa: E402  (the site's agenda parser)
 from sejmomat.model import link_amendments  # noqa: E402  (what an amendment changes, as on vote pages)
 from live_overlay import H, W, Overlay  # noqa: E402
+from live_speaker import BAND, Recogniser, load_mps, read  # noqa: E402
 
 API = "https://api.sejm.gov.pl/sejm/term10"
 WARSAW = ZoneInfo("Europe/Warsaw")
@@ -149,6 +151,7 @@ PAGE_SECONDS = 8                                        # a longer change is sho
 MAX_PAGES = 6
 PAGE_STRETCH = 4                                        # a page may run this many lines over to keep a passage whole
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
+SPEAKER_SECONDS = 20                                    # how long the card of a speaker who has just begun stays
 FACT_SECONDS = 15
 FACTS_URL = "https://sejmomat.pl/api/v1/ciekawostki.json"
 
@@ -247,24 +250,28 @@ def diff_panel(v):
 FPS = 25
 
 
-def ffmpeg_command(src, out):
+def ffmpeg_command(src, out, snapshot):
     """The ffmpeg command: the stream read at normal speed and scaled to 1280x720,
-    with the overlay (RGBA frames from this script, on stdin) laid over it."""
+    with the overlay (RGBA frames from this script, on stdin) laid over it; and,
+    every 2 seconds, the band where the broadcast names a speaker, saved to
+    `snapshot` for the speaker recognition (tools/live_speaker.py)."""
     inputs = ["-re", "-i", src,
               "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-framerate", str(FPS), "-thread_queue_size", "64", "-i", "pipe:0"]
-    v = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS}[base];"
-         f"[base][1:v]overlay=0:0:format=auto[v]")
+    bx, by, bw, bh = BAND
+    v = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS},split=2[base][cap];"
+         f"[base][1:v]overlay=0:0:format=auto[v];[cap]fps=1/2,crop={bw}:{bh}:{bx}:{by}[band]")
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *inputs, "-filter_complex", v, "-map", "[v]", "-map", "0:a?"]
     enc = ["-c:v", "libx264", "-preset", "veryfast", "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
            "-pix_fmt", "yuv420p", "-g", "50", "-c:a", "aac", "-b:a", "128k", "-ar", "44100"]
+    snap = ["-map", "[band]", "-f", "image2", "-update", "1", "-y", str(snapshot)]
     if out == "preview":
-        return cmd + enc + ["-f", "matroska", "-"], True
+        return cmd + enc + ["-f", "matroska", "-"] + snap, True
     if out == "rtmp":
         url = os.environ.get("SEJMOMAT_RTMP")
         if not url:
             sys.exit("Set SEJMOMAT_RTMP to the platform's address with your stream key.")
-        return cmd + enc + ["-f", "flv", url], False
-    return cmd + enc + ["-y", out], False
+        return cmd + enc + ["-f", "flv", url] + snap, False
+    return cmd + enc + ["-y", out] + snap, False
 
 
 def main():
@@ -274,6 +281,7 @@ def main():
     ap.add_argument("--out", default="preview", help='"preview" (window), "rtmp" (SEJMOMAT_RTMP), or a file name')
     ap.add_argument("--seconds", type=int, help="stop after this many seconds")
     ap.add_argument("--quality", type=int, default=720, help="stream quality to read: picture height, e.g. 1080, 720, 384 (default 720)")
+    ap.add_argument("--no-speakers", action="store_true", help="no speaker recognition (needs tesseract with Polish)")
     ap.add_argument("--font", help="regular font file")
     ap.add_argument("--font-bold", help="bold font file")
     args = ap.parse_args()
@@ -312,6 +320,43 @@ def main():
                     votes[:] = sorted(got, key=lambda v: v["votingNumber"])
             time.sleep(20)
     threading.Thread(target=poll, daemon=True).start()
+
+    # who is speaking: the broadcast's name caption, read every 2 seconds
+    work = Path(tempfile.mkdtemp(prefix="sejmomat-live-"))
+    snapshot = work / "band.png"
+    recogniser = Recogniser(load_mps(ROOT)) if shutil.which("tesseract") and not args.no_speakers else None
+    if not recogniser and not args.no_speakers:
+        print("tesseract not found: no speaker recognition", file=sys.stderr)
+    speaker = {"card": None, "at": None, "mp": None}
+    now = {"clock": start}
+
+    def watch():
+        seen = 0
+        while recogniser:
+            time.sleep(1)
+            try:
+                mtime = snapshot.stat().st_mtime
+            except OSError:
+                continue
+            if mtime == seen:
+                continue
+            seen = mtime
+            m = recogniser.match(read(snapshot))
+            if not m:
+                continue
+            clock = now["clock"]
+            # the caption stays a few seconds: one card per speaker, not one per snapshot
+            if speaker["mp"] == m["id"] and speaker["at"] and (clock - speaker["at"]).total_seconds() < 60:
+                continue
+            print(f"{clock:%H:%M:%S} na mównicy: {m['name']} ({m.get('club')})", flush=True)
+            overlay.photo(m["id"])
+            speaker.update(mp=m["id"], at=clock, card={
+                "kind": "mp", "mp": m["id"], "name": m["name"], "club": m.get("club") or "niez.", "title": "Na mównicy",
+                "value": m.get("speeches") or 0, "unit": "wystąpień w kadencji",
+                "stats": [["frekwencja", f"{m.get('turnout', 0) * 100:.1f}%".replace(".", ",")],
+                          ["wyłamania", str(m.get("brokeLine", 0))], ["interpelacje", str(m.get("questions", 0))],
+                          ["zmiany klubu", str(m.get("clubSwitches", 0))]]})
+    threading.Thread(target=watch, daemon=True).start()
     time.sleep(1)
 
     def frame(clock):
@@ -320,12 +365,18 @@ def main():
             shown = [v for v in votes if warsaw(v["date"]) <= clock]
         item, topic, vote = captions(shown, items, tags, title)
         recent = shown and (clock - warsaw(shown[-1]["date"])).total_seconds() < QUIET
+        if shown and not recent:
+            # a debate or a break: the vote below is an earlier one
+            vote = textwrap.shorten(f"Ostatnie głosowanie ({shown[-1]['date'][11:16]}): {vote.replace('Głosowanie ', '')}", 112, placeholder="…")
         panel = card = None
         if recent:
             head, pages = diff_panel(shown[-1])
             if pages:
                 page = int((clock - warsaw(shown[-1]["date"])).total_seconds() // PAGE_SECONDS) % len(pages)
                 panel = (f"{head} · {page + 1}/{len(pages)}" if len(pages) > 1 else head, pages[page])
+        elif speaker["card"] and 0 <= (clock - speaker["at"]).total_seconds() < SPEAKER_SECONDS:
+            # who has just come to the rostrum
+            card = overlay.card(speaker["card"], (clock - speaker["at"]).total_seconds(), SPEAKER_SECONDS)
         elif facts:
             # no vote for a while (a debate, a break): a fun-fact card, a new one every FACT_SECONDS
             ts = clock.timestamp()
@@ -333,7 +384,7 @@ def main():
             card = overlay.card(c, ts % FACT_SECONDS, FACT_SECONDS)
         return overlay.frame(item, topic, vote, panel, card)
 
-    cmd, preview = ffmpeg_command(src, args.out)
+    cmd, preview = ffmpeg_command(src, args.out, snapshot)
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE if preview else None)
     viewer = subprocess.Popen(["ffplay", "-hide_banner", "-loglevel", "warning", "-window_title", "Sejmomat", "-"],
                               stdin=proc.stdout) if preview else None
@@ -345,7 +396,8 @@ def main():
             t = i / FPS
             if args.seconds and t > args.seconds:
                 break
-            proc.stdin.write(frame(start + timedelta(seconds=t)))
+            now["clock"] = start + timedelta(seconds=t)
+            proc.stdin.write(frame(now["clock"]))
             i += 1
     except (KeyboardInterrupt, BrokenPipeError):
         pass
@@ -363,6 +415,7 @@ def main():
                     p.wait(timeout=10)
                 except subprocess.TimeoutExpired:
                     p.kill()
+        shutil.rmtree(work, ignore_errors=True)
 
 if __name__ == "__main__":
     main()
