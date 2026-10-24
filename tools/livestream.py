@@ -166,6 +166,24 @@ def fetch_playlist(url):
     raise RuntimeError(f"too many redirects: {url}")
 
 
+def source(base, start, end, quality):
+    """The playlist to read from `start`. The server keeps two stores: a recent one (about
+    two days, asked with "start" alone; also the live day) and the archive (asked with
+    "start" and "stop"; a day is there some time after it ends). An older day asked with
+    "start" alone gets a placeholder picture, so a finished day is asked of the archive
+    first, and kept if its playlist covers the time asked for."""
+    if end and end < datetime.now(WARSAW):
+        try:
+            url = variant(f"{base}?start={ms(start)}&stop={ms(end)}", quality)
+            text = fetch_playlist(url)[1]
+            covered = sum(float(x) for x in re.findall(r"#EXTINF:([\d.]+)", text))
+            if covered >= (end - start).total_seconds() - 600:
+                return url
+        except Exception as e:
+            print(f"archive: {e}", file=sys.stderr)
+    return variant(f"{base}?start={ms(start)}", quality)
+
+
 def variant(url, quality):
     """The address of one quality of the stream: the largest picture no taller than
     `quality`, else the smallest. (Live playlists list 1080p, 720p and 384p, archived
@@ -407,9 +425,7 @@ def main():
         title, base, _, end = wait_for_plenary(args.delay) if args.wait else plenary("today")
         start = datetime.now(WARSAW).replace(microsecond=0) - timedelta(seconds=args.delay)
         mode = f"Na żywo, ~{round(args.delay / 60)} min opóźnienia"
-    # without "stop": with it the server answers from its archive, whose playlists start at the
-    # day's beginning whatever "start" says; this way the picture starts where asked
-    src = variant(f"{base}?start={ms(start)}", args.quality)
+    src = source(base, start, end, args.quality)
     n = sitting_number(title)
     tags, facts = load_tags(), load_facts()
     # the general turn, and for each club its own cards (its Top 5s, its card), for while one of its MPs speaks

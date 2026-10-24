@@ -139,23 +139,16 @@ def render(at, seconds, out):
 
 
 def join(parts, out):
-    """The parts one after another, with a one-second crossfade, as an MP4 for upload."""
-    if len(parts) == 1:
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(parts[0]), "-c", "copy", "-movflags", "+faststart", str(out)], check=True)
-        return
-    durations = [float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(p)],
-                                      capture_output=True, text=True, check=True).stdout) for p in parts]
-    inputs, vf, af, offset, last_v, last_a = [], [], [], 0.0, "0:v", "0:a"
-    for i, p in enumerate(parts):
-        inputs += ["-i", str(p)]
-    for i in range(1, len(parts)):
-        offset += durations[i - 1] - 1
-        vf.append(f"[{last_v}][{i}:v]xfade=transition=fade:duration=1:offset={offset:.2f}[v{i}]")
-        af.append(f"[{last_a}][{i}:a]acrossfade=d=1[a{i}]")
-        last_v, last_a = f"v{i}", f"a{i}"
-    subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(vf + af),
-                    "-map", f"[{last_v}]", "-map", f"[{last_a}]", "-c:v", "libx264", "-preset", "medium", "-crf", "21",
-                    "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(out)], check=True)
+    """The parts one after another as an MP4 for upload. They come from the same encoder
+    with the same settings, so they are joined as they are (a cut, not a crossfade:
+    blending would mean encoding hours of video again for one second)."""
+    listing = out.with_suffix(".txt")
+    listing.write_text("".join(f"file '{p.resolve()}'\n" for p in parts), encoding="utf-8")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(listing),
+                    "-c", "copy", "-movflags", "+faststart", str(out)], check=True)
+    listing.unlink()
+    for p in parts:   # the joined file has them all
+        p.unlink()
 
 
 def agenda_title(final):
