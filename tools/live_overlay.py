@@ -7,8 +7,10 @@ across, and it slides out again.
 
 Static parts are drawn once and cached; a frame only redraws what moves.
 """
+import io
 import math
 import re
+import sys
 import textwrap
 import urllib.request
 from pathlib import Path
@@ -209,14 +211,20 @@ class Overlay:
         path = CACHE / "photos" / f"{mp}.jpg"
         im = None
         try:
-            if not path.exists():
-                path.parent.mkdir(parents=True, exist_ok=True)
+            if path.exists():
+                im = Image.open(path).convert("RGB")
+            else:
                 req = urllib.request.Request(PHOTO.format(mp), headers={"User-Agent": "sejmomat-live"})
                 with urllib.request.urlopen(req, timeout=20) as r:
-                    path.write_bytes(r.read())
-            im = Image.open(path).convert("RGB")
-        except Exception:
-            im = None
+                    data = r.read()
+                im = Image.open(io.BytesIO(data)).convert("RGB")
+                try:   # kept for the next run; without the cache the photo is still used
+                    path.parent.mkdir(parents=True, exist_ok=True)
+                    path.write_bytes(data)
+                except OSError:
+                    pass
+        except Exception as e:
+            print(f"no photo for MP {mp}: {e}", file=sys.stderr)
         self._photos[mp] = im
         return im
 
