@@ -11,6 +11,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import agenda, analysis, authors, committees, fillgaps, pending, processes, questions, social, speeches
 from .stamp import stamp
+from .facts import facts
 from .stats import compute as compute_voting_stats
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
 from .i18n import LANGS, date_fmt, pct_fmt, translator, ORDINALS
@@ -1040,6 +1041,9 @@ def run():
         if getattr(t, "missing", None):
             print(f"[{lang}] untranslated strings: {sorted(t.missing)}")
 
+    # Fun facts for the stream's quiet moments (tools/livestream.py).
+    (SITE / "api" / "v1").mkdir(parents=True, exist_ok=True)
+    (SITE / "api" / "v1" / "ciekawostki.json").write_text(json.dumps(facts(ctx), ensure_ascii=False, indent=1), encoding="utf-8")
     # The maps on the stats page (static/stats.js).
     (SITE / "dane").mkdir(exist_ok=True)
     (SITE / "dane" / "statystyki.json").write_text(json.dumps(ctx["voting_stats"]["json"], ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

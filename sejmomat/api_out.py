@@ -240,6 +240,8 @@ def _mp(r, full):
         "active": r["mp"].get("active"), "turnout": round(r["turnout"], 4),
         "brokeLine": r["rebel_count"], "brokeLineRate": round(r["rebel_rate"], 4),
         "signedMotions": len(r["signed"]), "signedAdopted": r["signed_adopted"], "clubSwitches": r["switches"],
+        "speeches": (r.get("speeches") or {}).get("spoken", 0) + (r.get("speeches") or {}).get("written", 0),
+        "questions": len(r.get("questions") or []),
     }
     if full:
         out["clubHistory"] = [{"club": h["club"], "from": h["from"], "to": h["to"], "votes": h["votes"],
