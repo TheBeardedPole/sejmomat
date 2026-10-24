@@ -34,6 +34,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -412,10 +413,23 @@ def main():
 
     overlay = Overlay(args.font_bold or font(True), args.font or font(False), ROOT / "static" / "logo-white.png",
                       f"SEJMOMAT · {mode} · {title}")
-    for card in facts + [f for fs in by_club.values() for f in fs]:   # the photos, before the first frame needs them
-        for mp in [card.get("mp")] + [r["mp"] for r in card.get("rows") or []]:
-            if mp:
-                overlay.photo(mp)
+    # the photos, before the first frame needs them: 8 at a time (the Sejm's API takes a
+    # second or two each; afterwards they come from the cache on disk)
+    mps = {mp for card in facts + [f for fs in by_club.values() for f in fs]
+           for mp in [card.get("mp")] + [r["mp"] for r in card.get("rows") or []] if mp}
+    began = time.monotonic()
+    print(f"MP photos for the cards: {len(mps)}", flush=True)
+    with ThreadPoolExecutor(8) as pool:
+        for i, _ in enumerate(pool.map(overlay.photo, sorted(mps)), 1):
+            if i % 20 == 0 and i < len(mps):
+                print(f"  photos {i}/{len(mps)}…", flush=True)
+        # those that failed (the API is slow now and then), once more
+        again = [mp for mp in mps if overlay.photo(mp) is None]
+        for mp in again:
+            overlay._photos.pop(mp, None)
+        list(pool.map(overlay.photo, again))
+    got = sum(1 for mp in mps if overlay.photo(mp))
+    print(f"MP photos: {got} of {len(mps)} in {time.monotonic() - began:.0f} s", flush=True)
     votes = []
     lock = threading.Lock()
 

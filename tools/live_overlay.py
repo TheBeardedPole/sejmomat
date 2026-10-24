@@ -215,7 +215,7 @@ class Overlay:
                 im = Image.open(path).convert("RGB")
             else:
                 req = urllib.request.Request(PHOTO.format(mp), headers={"User-Agent": "sejmomat-live"})
-                with urllib.request.urlopen(req, timeout=20) as r:
+                with urllib.request.urlopen(req, timeout=10) as r:
                     data = r.read()
                 im = Image.open(io.BytesIO(data)).convert("RGB")
                 try:   # kept for the next run; without the cache the photo is still used
