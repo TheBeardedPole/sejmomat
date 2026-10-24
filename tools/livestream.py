@@ -89,6 +89,26 @@ def plenary(day):
     return v["title"], v["videoLink"].split("?")[0], warsaw(v["startDateTime"]), v.get("endDateTime") and warsaw(v["endDateTime"])
 
 
+def wait_for_plenary(delay):
+    """Unattended (--wait): today's plenary stream once it has been on for `delay` seconds,
+    checking every few minutes until then; on a day without one, or once it has ended,
+    it waits for the next day's."""
+    while True:
+        videos = get_or_none("videos/today") or []
+        v = next((v for v in videos if v.get("type") == "posiedzenie" and v.get("videoLink")), None)
+        now = datetime.now(WARSAW)
+        if v:
+            start, end = warsaw(v["startDateTime"]), v.get("endDateTime") and warsaw(v["endDateTime"])
+            if not (end and end < now):
+                ready = start + timedelta(seconds=delay)
+                if ready <= now:
+                    return v["title"], v["videoLink"].split("?")[0], start, end
+                print(f"{now:%H:%M} {v['title']}: starts {start:%H:%M}", flush=True)
+                time.sleep(min(300, max(10, (ready - now).total_seconds())))
+                continue
+        time.sleep(300)
+
+
 def variant(url, quality):
     """The address of one quality of the stream: the largest picture no taller than
     `quality`, else the smallest. (Live playlists list 1080p, 720p and 384p, archived
@@ -274,7 +294,9 @@ def ffmpeg_command(src, out, snapshot):
     bx, by, bw, bh = BAND
     v = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS},split=2[base][cap];"
          f"[base][1:v]overlay=0:0:format=auto[v];[cap]fps=1/2,crop={bw}:{bh}:{bx}:{by}[band]")
-    cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *inputs, "-filter_complex", v, "-map", "[v]", "-map", "0:a?"]
+    # on a server (no terminal) the progress line once a minute, for the log
+    quiet = [] if sys.stderr.isatty() else ["-stats_period", "60"]
+    cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *quiet, *inputs, "-filter_complex", v, "-map", "[v]", "-map", "0:a?"]
     enc = ["-c:v", "libx264", "-preset", "veryfast", "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
            "-pix_fmt", "yuv420p", "-g", "50", "-c:a", "aac", "-b:a", "128k", "-ar", "44100"]
     snap = ["-map", "[band]", "-f", "image2", "-update", "1", "-y", str(snapshot)]
@@ -297,6 +319,7 @@ def main():
     ap.add_argument("--quality", type=int, default=720, help="stream quality to read: picture height, e.g. 1080, 720, 384 (default 720)")
     ap.add_argument("--demo", action="store_true", help="for a demo recording: a card every 13 s, the liveliest ones first, no cards about the site")
     ap.add_argument("--no-speakers", action="store_true", help="no speaker recognition (needs tesseract with Polish)")
+    ap.add_argument("--wait", action="store_true", help="live, unattended: wait for the day's sitting instead of stopping when there is none")
     ap.add_argument("--font", help="regular font file")
     ap.add_argument("--font-bold", help="bold font file")
     args = ap.parse_args()
@@ -308,7 +331,7 @@ def main():
         title, base, _, end = plenary(start.date().isoformat())
         mode = "Retransmisja"
     else:
-        title, base, _, end = plenary("today")
+        title, base, _, end = wait_for_plenary(args.delay) if args.wait else plenary("today")
         start = datetime.now(WARSAW).replace(microsecond=0) - timedelta(seconds=args.delay)
         mode = f"Na żywo, ~{round(args.delay / 60)} min opóźnienia"
     # without "stop": with it the server answers from its archive, whose playlists start at the
