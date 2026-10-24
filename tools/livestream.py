@@ -248,8 +248,14 @@ def captions(shown, tags, title):
     topic = next((", ".join(tags[p]) for p in prints if p in tags), "")
     head = f"Punkt {n} · {text}" if n else text
     lines = [textwrap.shorten(head, 220, placeholder="…")]   # the caption box fits it to two lines
-    result = "PRZYJĘTO" if passed(v) else "ODRZUCONO"
-    vote = f"Głosowanie nr {v['votingNumber']} · {v.get('topic') or ''} · {result}: {v['yes']} za / {v['no']} przeciw / {v['abstain']} wstrz."
+    if not (v.get("yes") or v.get("no") or v.get("abstain")):
+        # a quorum check ("Głosowanie kworum"): MPs only register as present, nothing
+        # passes or fails, so no result (it used to read "ODRZUCONO: 0 za / 0 przeciw")
+        present = v.get("present") or v.get("totalVoted")
+        vote = f"Głosowanie nr {v['votingNumber']} · sprawdzenie kworum" + (f": obecnych {present} posłów" if present else "")
+    else:
+        result = "PRZYJĘTO" if passed(v) else "ODRZUCONO"
+        vote = f"Głosowanie nr {v['votingNumber']} · {v.get('topic') or ''} · {result}: {v['yes']} za / {v['no']} przeciw / {v['abstain']} wstrz."
     return "\n".join(lines), (f"Temat: {topic}" if topic else " "), textwrap.shorten(vote, 110, placeholder="…")
 
 
