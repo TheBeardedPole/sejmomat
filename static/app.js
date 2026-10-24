@@ -1,11 +1,18 @@
-// Click a <th data-sort> to sort its table; numeric cells use data-v.
+// Click a <th data-sort> to sort its table; numeric cells use data-v. The
+// header's text goes into a button so the keyboard can sort too, and
+// aria-sort tells screen readers which column the rows follow.
 document.querySelectorAll("th[data-sort]").forEach((th) => {
-  th.addEventListener("click", () => {
+  const btn = Object.assign(document.createElement("button"), { type: "button", className: "sort-btn" });
+  btn.append(...th.childNodes);
+  th.append(btn);
+  btn.addEventListener("click", () => {
     const table = th.closest("table");
     const idx = [...th.parentNode.children].indexOf(th);
     const body = table.tBodies[0];
     const asc = th.dataset.dir !== "asc";
     th.dataset.dir = asc ? "asc" : "desc";
+    for (const other of th.parentNode.querySelectorAll("th[aria-sort]")) other.removeAttribute("aria-sort");
+    th.setAttribute("aria-sort", asc ? "ascending" : "descending");
     const key = (tr) => {
       const td = tr.children[idx];
       const v = td.dataset.v ?? td.textContent.trim();
@@ -27,8 +34,13 @@ if (clubsTable) {
   const { ballots, mps, vote, root } = clubsTable.dataset;
   const labels = JSON.parse(clubsTable.dataset.labels);
   let data = null;
+  const json = (url) => fetch(url).then((r) => {
+    if (!r.ok) throw new Error(r.status);
+    return r.json();
+  });
+  // a failed load is forgotten, so the next try fetches again
   const load = () =>
-    data ??= Promise.all([fetch(ballots).then((r) => r.json()), fetch(mps).then((r) => r.json())]);
+    data ??= Promise.all([json(ballots), json(mps)]).catch((e) => { data = null; throw e; });
 
   const el = (tag, props = {}, children = []) => {
     const node = Object.assign(document.createElement(tag), props);
@@ -53,6 +65,18 @@ if (clubsTable) {
     }
   };
 
+  // Fill a club's names once; while loading the cell holds a note, so a
+  // quick close and reopen does not start a second fill. On failure the note
+  // says so and offers another try.
+  const show = (tr, cell) => {
+    cell.replaceChildren(el("p", { className: "muted", textContent: T.loading }));
+    fill(tr, cell).then(() => cell.firstChild.remove(), () => {
+      const retry = el("button", { type: "button", className: "link-btn", textContent: T.retry });
+      retry.addEventListener("click", () => show(tr, cell));
+      cell.replaceChildren(el("p", { className: "muted", role: "alert" }, [`${T.namesFailed} `, retry]));
+    });
+  };
+
   clubsTable.querySelectorAll(".club-row").forEach((tr) => {
     const btn = tr.querySelector(".club-toggle");
     const row = document.getElementById(btn.getAttribute("aria-controls"));
@@ -62,7 +86,7 @@ if (clubsTable) {
       const open = btn.getAttribute("aria-expanded") !== "true";
       btn.setAttribute("aria-expanded", String(open));
       row.hidden = !open;
-      if (open && !cell.childElementCount) fill(tr, cell);
+      if (open && !cell.childElementCount) show(tr, cell);
     });
   });
 }
@@ -239,6 +263,7 @@ const T = {
     support: "Wesprzyj", close: "Zamknij", useful: "Sejmomat się przydaje?",
     pitch: "Projekt jest darmowy, bez reklam i śledzenia. Jeśli chcesz, możesz postawić autorowi kawę.",
     buy: "Postaw kawę", later: "Nie teraz",
+    skip: "Przejdź do treści", loading: "Wczytywanie…", namesFailed: "Nie udało się wczytać listy posłów.", retry: "Spróbuj ponownie",
   },
   en: {
     privacy: "Privacy", consentSettings: "Consent settings", stats: "Statistics", contents: "Contents", articles: "Articles",
@@ -251,6 +276,7 @@ const T = {
     support: "Support", close: "Close", useful: "Finding Sejmomat useful?",
     pitch: "The project is free, with no ads or tracking. If you like, you can buy the author a coffee.",
     buy: "Buy a coffee", later: "Not now",
+    skip: "Skip to content", loading: "Loading…", namesFailed: "Could not load the list of MPs.", retry: "Try again",
   },
 }[LANG];
 const h = (tag, props = {}, children = []) => {
@@ -258,6 +284,13 @@ const h = (tag, props = {}, children = []) => {
   node.append(...children);
   return node;
 };
+// "Skip to content", the first stop for the keyboard; shown only when focused.
+const mainEl = document.querySelector("main");
+if (mainEl) {
+  mainEl.id ||= "tresc";
+  mainEl.tabIndex = -1;
+  document.body.prepend(h("a", { className: "skip-link", href: `#${mainEl.id}`, textContent: T.skip }));
+}
 const privacyLink = () => h("a", { href: `${ROOT}prywatnosc.html`, textContent: T.privacy });
 
 // Consent for optional browser storage and, when the site has a Google
@@ -461,8 +494,20 @@ else consentBar.hidden = false;
 const THEME_KEY = "sejmomat-theme";
 const systemDark = matchMedia("(prefers-color-scheme: dark)");
 const isDark = () => (document.documentElement.dataset.theme || (systemDark.matches ? "dark" : "light")) === "dark";
+// The browser's bar follows the theme: the accent in light mode, the header's
+// surface in dark mode (a bright blue bar above a dark page glares).
+const themeColor = document.querySelector('meta[name="theme-color"]');
+const lightBar = themeColor?.content;
+const syncBar = () => {
+  if (themeColor) themeColor.content = isDark() ? getComputedStyle(document.documentElement).getPropertyValue("--surface").trim() : lightBar;
+};
+syncBar();
+systemDark.addEventListener("change", syncBar);
 document.querySelectorAll(".theme-switch").forEach((btn) => {
-  const sync = () => btn.setAttribute("aria-pressed", String(isDark()));
+  const sync = () => {
+    btn.setAttribute("aria-pressed", String(isDark()));
+    syncBar();
+  };
   sync();
   systemDark.addEventListener("change", sync);
   btn.addEventListener("click", () => {

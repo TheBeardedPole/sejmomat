@@ -12,7 +12,7 @@
 <div class="mp-head">
   {# photo served by the Sejm's API, not copied to this site #}
   <img class="mp-photo" src="https://api.sejm.gov.pl/sejm/term{{ TERM }}/MP/{{ r.mp.id }}/photo" alt="{{ r.mp.firstLastName }}"
-       width="96" height="120" loading="lazy" referrerpolicy="no-referrer">
+       width="96" height="120" fetchpriority="high" referrerpolicy="no-referrer">
   <div>
 <h1>{{ r.mp.firstLastName }}</h1>
 <p class="muted"><a href="{{ root }}klub/{{ club_slug(r.mp.club) }}.html">{{ clubs.get(r.mp.club, r.mp.club) }}</a>{% if r.mp.districtName %} · {{ _("okręg") }} {{ r.mp.districtName }}{% endif %}

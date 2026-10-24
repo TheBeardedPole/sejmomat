@@ -1,14 +1,17 @@
 :root { --bg: #f6f5f1; --surface: #fff; --text: #1d1d1f; --muted: #6b6b70; --line: #e2dfd8; --accent: #1d5fc4;
-  --green: #2e8b57; --blue: #2779b8; --yellow: #c9930a; --orange: #cc5f1c; --grey: #85858c; --red: #b3261e;
+  --green: #277a4c; --blue: #2779b8; --yellow: #c9930a; --orange: #b8541a; --grey: #6b6b70; --red: #b3261e;
+  --on-fill: #fff; --yellow-ink: #8a5f00;
   --ok-bg: #e3f3e9; --bad-bg: #fbe4e2; --shadow: 0 1px 2px rgb(0 0 0 / .06), 0 4px 14px rgb(0 0 0 / .05); }
 /* dark: the Sejmomat theme switch's choice, or the system's when none is made */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) { --bg: #121214; --surface: #1c1c20; --text: #ececee; --muted: #9a9aa2; --line: #2f2f35; --accent: #7db8ff;
     --green: #3aa56c; --blue: #3b8fd0; --yellow: #d6a51f; --orange: #e0752f; --grey: #5e5e66; --red: #ff6b60;
+    --on-fill: #121214; --yellow-ink: var(--yellow);
     --ok-bg: #173a28; --bad-bg: #462220; --shadow: 0 1px 2px rgb(0 0 0 / .4); }
 }
 :root[data-theme="dark"] { --bg: #121214; --surface: #1c1c20; --text: #ececee; --muted: #9a9aa2; --line: #2f2f35; --accent: #7db8ff;
     --green: #3aa56c; --blue: #3b8fd0; --yellow: #d6a51f; --orange: #e0752f; --grey: #5e5e66; --red: #ff6b60;
+    --on-fill: #121214; --yellow-ink: var(--yellow);
     --ok-bg: #173a28; --bad-bg: #462220; --shadow: 0 1px 2px rgb(0 0 0 / .4); }
 /* native controls and scrollbars follow the light or dark theme */
 :root { color-scheme: light dark; }
@@ -36,7 +39,7 @@ header { text-align: center; }
 .tabs button { font: inherit; font-weight: 600; padding: 8px 16px; border: 0; border-radius: 9px;
   background: none; color: var(--muted); cursor: pointer; }
 .tabs button:hover { color: var(--text); }
-.tabs button[aria-selected="true"] { background: var(--accent); color: #fff; }
+.tabs button[aria-selected="true"] { background: var(--accent); color: var(--on-fill); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tabs button[aria-selected="true"] { color: #0d1b2e; } }
 :root[data-theme="dark"] .tabs button[aria-selected="true"] { color: #0d1b2e; }
 
@@ -75,9 +78,9 @@ dialog.help li { margin: 8px 0; }
 .btn { font: inherit; font-weight: 600; padding: 9px 18px; border-radius: 10px; border: 1px solid var(--line);
   background: var(--surface); color: var(--text); cursor: pointer; box-shadow: var(--shadow); }
 .btn:hover { border-color: var(--accent); }
-.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-.btn.yes { background: var(--green); border-color: var(--green); color: #fff; }
-.btn.no { background: var(--red); border-color: var(--red); color: #fff; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-fill); }
+.btn.yes { background: var(--green); border-color: var(--green); color: var(--on-fill); }
+.btn.no { background: var(--red); border-color: var(--red); color: var(--on-fill); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn.primary { color: #0d1b2e; } :root:not([data-theme="light"]) .btn.no { color: #2a0d0b; } }
 :root[data-theme="dark"] .btn.primary { color: #0d1b2e; } :root[data-theme="dark"] .btn.no { color: #2a0d0b; }
 .btn:disabled { opacity: .5; cursor: default; }
@@ -96,15 +99,16 @@ dialog.help li { margin: 8px 0; }
 table.grid { border-collapse: separate; border-spacing: 5px; width: 100%; font-size: .85rem; }
 table.grid th { font-weight: 600; color: var(--muted); text-align: center; font-size: .74rem;
   text-transform: uppercase; letter-spacing: .03em; padding: 0 2px 2px; }
-table.grid td { padding: 9px 6px; border-radius: 8px; text-align: center; color: #fff; min-width: 86px;
+table.grid td { padding: 9px 6px; border-radius: 8px; text-align: center; color: var(--on-fill); min-width: 86px;
   font-weight: 600; box-shadow: var(--shadow); }
 table.grid td.name { background: var(--surface); color: var(--text); border: 1px solid var(--line); text-align: left; }
 td.green, .pill.green { background: var(--green); }
 td.blue, .pill.blue { background: var(--blue); }
-td.yellow, .pill.yellow { background: var(--yellow); }
+table.grid td.yellow, .pill.yellow, .pts.yellow { background: var(--yellow); color: #1d1d1f; } /* white on yellow is too faint */
+table.grid td.grey, .pill.grey, .pts.none { color: #fff; } /* grey stays dark in both themes */
 .pill.orange { background: var(--orange); }
 td.grey, .pill.grey { background: var(--grey); }
-.pill { display: inline-block; padding: 1px 9px; border-radius: 99px; color: #fff; font-size: .8rem; font-weight: 600; }
+.pill { display: inline-block; padding: 1px 9px; border-radius: 99px; color: var(--on-fill); font-size: .8rem; font-weight: 600; }
 /* The newest guess turns over, one tile after another. */
 @media (prefers-reduced-motion: no-preference) {
   tr.latest td { animation: flip .45s ease both; }
@@ -127,7 +131,7 @@ ul.votes { list-style: none; padding: 0; margin: 6px 0 0; }
 ul.votes li { margin: 0; padding: 7px 0; border-top: 1px solid var(--line); }
 ul.votes li:first-child { border-top: 0; }
 .v-yes { color: var(--green); font-weight: 700; } .v-no { color: var(--red); font-weight: 700; }
-.v-abstain { color: var(--yellow); font-weight: 700; } .v-absent { color: var(--grey); font-weight: 700; }
+.v-abstain { color: var(--yellow-ink); font-weight: 700; } .v-absent { color: var(--grey); font-weight: 700; }
 footer { margin-top: 36px; border-top: 1px solid var(--line); padding-top: 12px; text-align: center; }
 
 /* What an amendment changes in the bill. */
@@ -180,7 +184,7 @@ ul.committees li { margin: 3px 0; }
 .level { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 14px 0 0; flex-wrap: wrap; }
 .segs { display: inline-flex; border: 1px solid var(--line); border-radius: 99px; overflow: hidden; background: var(--surface); }
 .seg { font: inherit; font-size: .88rem; font-weight: 600; padding: 5px 14px; border: 0; background: none; color: var(--muted); cursor: pointer; }
-.seg[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.seg[aria-pressed="true"] { background: var(--accent); color: var(--on-fill); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .seg[aria-pressed="true"] { color: #0d1b2e; } }
 :root[data-theme="dark"] .seg[aria-pressed="true"] { color: #0d1b2e; }
 .chips { display: flex; flex-wrap: wrap; gap: 5px; }
@@ -232,8 +236,8 @@ button.slot.active { border-style: solid; border-color: var(--accent); outline: 
 .slot-plus { font-size: 1.7rem; font-weight: 300; line-height: 1; color: var(--muted); }
 .slot .thumb { width: 44px; height: 55px; margin-top: 4px; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); }
 .slot-name { font-size: .86rem; font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }
-.pts { min-width: 2.4em; padding: 1px 8px; border-radius: 99px; color: #fff; font-size: .8rem; font-weight: 700; }
-.pts.green { background: var(--green); } .pts.yellow { background: var(--yellow); }
+.pts { min-width: 2.4em; padding: 1px 8px; border-radius: 99px; color: var(--on-fill); font-size: .8rem; font-weight: 700; }
+.pts.green { background: var(--green); }
 .pts.orange { background: var(--orange); } .pts.none { background: var(--grey); }
 .picking { text-align: center; margin: 12px 0 0; }
 ul.answers { margin: 8px 0 0; padding-left: 20px; }
@@ -296,7 +300,7 @@ body { padding-bottom: 84px; } /* so the pill never covers the last line */
   background: var(--bg); color: var(--text); width: auto; }
 .gap { font-weight: 700; padding: 1px 5px; border-radius: 5px; }
 .gap.exact { background: var(--ok-bg); color: var(--green); }
-.gap.form { background: color-mix(in srgb, var(--yellow) 18%, transparent); color: var(--yellow); }
+.gap.form { background: color-mix(in srgb, var(--yellow) 18%, transparent); color: var(--yellow-ink); }
 .gap.fail { background: var(--bad-bg); color: var(--red); text-decoration: line-through; text-decoration-thickness: 1px; }
 .gap-hints { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 6px; }
 .gap-hints li { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
