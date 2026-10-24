@@ -23,6 +23,8 @@ YELLOW = (255, 212, 121)
 LIGHT_BLUE = (156, 195, 255)
 RED, GREEN = (255, 154, 154), (155, 232, 171)
 PANEL = (10, 16, 28, 214)
+BAR = 124            # the caption bar along the bottom
+CARD_SCALE = 0.7     # cards are drawn at full size, then shrunk, so they stay out of the way
 # club colours as on the stats page (the brighter, dark-background set)
 CLUBS = {"KO": "#f07a45", "PiS": "#4a90e8", "RozwojPlus": "#22c08a", "Polska2050": "#f2b01c", "Polska2050-TD": "#f2b01c",
          "PSL-TD": "#2aa52a", "Lewica": "#e0457f", "Konfederacja": "#8f84ee", "Centrum": "#b39af0", "Razem": "#d063aa",
@@ -74,16 +76,13 @@ class Overlay:
             return self._base[1]
         im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         d = ImageDraw.Draw(im)
-        bar = 172
-        d.rectangle((0, H - bar, W, H), fill=(0, 0, 0, 184))
-        d.rectangle((0, H - bar, 6, H), fill=ACCENT + (255,))
-        y = H - bar + 14
-        for line in item.split("\n"):
-            d.text((28, y), line, font=self.font(25, True), fill="white")
-            y += 34
+        bar = BAR
+        d.rectangle((0, H - bar, W, H), fill=(0, 0, 0, 170))
+        d.rectangle((0, H - bar, 5, H), fill=ACCENT + (255,))
+        d.text((24, H - bar + 12), item.split("\n")[0], font=self.font(22, True), fill="white")
         if topic.strip():
-            d.text((28, H - bar + 88), topic, font=self.font(20), fill=LIGHT_BLUE)
-        d.text((28, H - 40), vote, font=self.font(22), fill=YELLOW)
+            d.text((24, H - bar + 48), topic, font=self.font(17), fill=LIGHT_BLUE)
+        d.text((24, H - 36), vote, font=self.font(19), fill=YELLOW)
         f = self.font(18)
         box = d.textbbox((28, 24), self.label, font=f)
         d.rounded_rectangle((box[0] - 8, box[1] - 7, box[2] + 8, box[3] + 7), 6, fill=(0, 0, 0, 153))
@@ -206,8 +205,11 @@ class Overlay:
             alpha = base.getchannel("A")
             shine.putalpha(Image.composite(shine.getchannel("A"), Image.new("L", base.size, 0), alpha))
             base.alpha_composite(shine)
+        # shrunk, in the bottom right corner just above the bar
+        base = base.resize((round(width * CARD_SCALE), round(h * CARD_SCALE)), Image.LANCZOS)
+        width, h = base.size
         # slide in from the right with an overshoot, slide out at the end
-        x_end, y = W - width - 24, 86
+        x_end, y = W - width - 20, H - BAR - h - 12
         if t < 0.6:
             x = W + 10 - (W + 10 - x_end) * ease_out_back(clamp(t / 0.6))
         elif t > length - 0.5:

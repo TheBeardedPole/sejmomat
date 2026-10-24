@@ -137,9 +137,7 @@ def captions(shown, items, tags, title):
     text, prints = items.get(n, (re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("title") or ""), []))
     topic = next((", ".join(tags[p]) for p in prints if p in tags), "")
     head = f"Punkt {n} · {text}" if n else text
-    lines = textwrap.wrap(head, 78)[:2]
-    if len(textwrap.wrap(head, 78)) > 2:
-        lines[-1] = lines[-1][:75].rstrip() + "…"
+    lines = [textwrap.shorten(head, 104, placeholder="…")]   # one line, the bar is slim
     result = "PRZYJĘTO" if passed(v) else "ODRZUCONO"
     vote = f"Głosowanie nr {v['votingNumber']} · {v.get('topic') or ''} · {result}: {v['yes']} za / {v['no']} przeciw / {v['abstain']} wstrz."
     return "\n".join(lines), (f"Temat: {topic}" if topic else " "), textwrap.shorten(vote, 110, placeholder="…")
@@ -152,7 +150,8 @@ MAX_PAGES = 6
 PAGE_STRETCH = 4                                        # a page may run this many lines over to keep a passage whole
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
 SPEAKER_SECONDS = 20                                    # how long the card of a speaker who has just begun stays
-FACT_SECONDS = 15
+FACT_SECONDS = 12                                       # a fact card is on screen this long…
+FACT_EVERY = 45                                         # …once in this many seconds
 FACTS_URL = "https://sejmomat.pl/api/v1/ciekawostki.json"
 
 
@@ -378,10 +377,11 @@ def main():
             # who has just come to the rostrum
             card = overlay.card(speaker["card"], (clock - speaker["at"]).total_seconds(), SPEAKER_SECONDS)
         elif facts:
-            # no vote for a while (a debate, a break): a fun-fact card, a new one every FACT_SECONDS
+            # no vote for a while (a debate, a break): a fun-fact card, one every FACT_EVERY seconds for FACT_SECONDS
             ts = clock.timestamp()
-            c = facts[int(ts // FACT_SECONDS) % len(facts)]
-            card = overlay.card(c, ts % FACT_SECONDS, FACT_SECONDS)
+            if ts % FACT_EVERY < FACT_SECONDS:
+                c = facts[int(ts // FACT_EVERY) % len(facts)]
+                card = overlay.card(c, ts % FACT_EVERY, FACT_SECONDS)
         return overlay.frame(item, topic, vote, panel, card)
 
     cmd, preview = ffmpeg_command(src, args.out, snapshot)
