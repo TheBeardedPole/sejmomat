@@ -96,6 +96,8 @@ EN = {
     "Przebieg prac nad projektem": "How the bill has progressed",
     "Porządek obrad opublikowany przez Sejm, z debatą i głosowaniami nad każdym punktem. „Nagranie” odtwarza debatę nad punktem z transmisji Sejmu; wystąpienia prowadzą do stenogramu na stronie Sejmu.":
         "The agenda as published by the Sejm, with the debate and votes on each item. “Recording” plays the debate on the item from the Sejm's stream; speeches link to the transcript on the Sejm's website.",
+    "Sejm opublikował dotąd porządek planowany; punkty są tu ponumerowane i ułożone tak, jak na posiedzeniu (według głosowań i stenogramów), a punkty dodane w trakcie opisane tak, jak w głosowaniach.":
+        "So far the Sejm has published the planned agenda; here the items are numbered and ordered as at the sitting (from the votes and transcripts), and items added during it are described as in the votes.",
     "Debata z nagraniami": "Debate with video", "bez debaty i głosowań na tym posiedzeniu": "no debate or votes at this sitting",
     "na piśmie": "in writing",
     "Wszystkie głosowania na tym posiedzeniu": "All votes at this sitting",

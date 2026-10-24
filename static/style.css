@@ -1,6 +1,6 @@
 :root {
   --bg: #fbfaf8; --surface: #ffffff; --text: #1d1d1f; --muted: #6b6b70; --line: #e4e2dd;
-  --accent: #1d5fc4; --y: #1f7a4d; --n: #b3261e; --a: #9a6b00; --x: #8a8a8f;
+  --accent: #1d5fc4; --y: #1f7a4d; --n: #b3261e; --a: #8a5f00; --x: #737378;
   --ins-bg: #dff3e6; --del-bg: #fbe1df; --warn-bg: #fff1cc;
 }
 /* dark: chosen with the switch in the header, or the system's choice when none is made */
@@ -8,13 +8,13 @@
   :root:not([data-theme="light"]) {
     --bg: #141416; --surface: #1c1c1f; --text: #ececee; --muted: #9a9aa2; --line: #2e2e33;
     --accent: #7db8ff; --y: #4cc48a; --n: #ff6b60; --a: #e0b240; --x: #8a8a8f;
-    --ins-bg: #16402a; --del-bg: #4a1d1b; --warn-bg: #4a3a10;
+    --ins-bg: #16402a; --del-bg: #4a1d1b; --warn-bg: #3a2d0c;
   }
 }
 :root[data-theme="dark"] {
   --bg: #141416; --surface: #1c1c1f; --text: #ececee; --muted: #9a9aa2; --line: #2e2e33;
   --accent: #7db8ff; --y: #4cc48a; --n: #ff6b60; --a: #e0b240; --x: #8a8a8f;
-  --ins-bg: #16402a; --del-bg: #4a1d1b; --warn-bg: #4a3a10;
+  --ins-bg: #16402a; --del-bg: #4a1d1b; --warn-bg: #3a2d0c;
 }
 :root { color-scheme: light dark; }
 :root[data-theme="light"] { color-scheme: light; }
@@ -64,7 +64,18 @@ h3 { font-size: 1rem; margin: 20px 0 8px; }
 table { width: 100%; border-collapse: collapse; font-size: .93rem; }
 th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { font-weight: 600; color: var(--muted); white-space: nowrap; }
-th[data-sort] { cursor: pointer; }
+/* sortable columns: static/app.js puts a button in each header */
+.sort-btn { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-align: inherit; }
+.sort-btn::after { content: "▴▾"; display: inline-block; margin-left: 4px; font-size: .75em; letter-spacing: -.1em; opacity: .45; }
+th[aria-sort="ascending"] .sort-btn::after { content: "▴"; opacity: 1; }
+th[aria-sort="descending"] .sort-btn::after { content: "▾"; opacity: 1; }
+th[aria-sort] { color: var(--text); }
+/* keyboard focus, and the skip link added by static/app.js */
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+.skip-link { position: absolute; left: 16px; top: 8px; z-index: 20; padding: 6px 12px; border-radius: 6px;
+  background: var(--surface); border: 1px solid var(--accent); font-weight: 600; transform: translateY(-200%); }
+.skip-link:focus { transform: none; }
+main:focus { outline: none; }
 td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .table-scroll { overflow-x: auto; }
 #mp-table th { white-space: normal; vertical-align: bottom; }
@@ -196,6 +207,7 @@ h2, .amendment, .print-text p { scroll-margin-top: 12px; }
 ol.agenda { padding-left: 2.2em; margin: 0; }
 ol.agenda > li { padding: 10px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 12px; }
 ol.agenda > li::marker { color: var(--muted); font-weight: 600; }
+ol.agenda.unnumbered { list-style: none; padding-left: 0; }
 ol.agenda .notes { margin: 4px 0 0; font-size: .9rem; color: var(--muted); }
 ol.agenda .links { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin: 6px 0 0; font-size: .88rem; }
 ol.agenda .links:empty { display: none; }
@@ -205,8 +217,8 @@ ol.agenda .speakers { margin: 6px 0 0; font-size: .88rem; }
 ol.agenda .speakers summary { cursor: pointer; color: var(--muted); }
 ol.agenda .speakers ol { columns: 2 18em; column-gap: 24px; margin: 6px 0 0; padding-left: 2.4em; }
 ol.agenda .speakers li { break-inside: avoid; }
-ol.agenda .link-btn { font: inherit; padding: 0; border: 0; background: none; color: var(--accent, #1d5fc4); cursor: pointer; }
-ol.agenda .link-btn:hover { text-decoration: underline; }
+.link-btn { font: inherit; padding: 0; border: 0; background: none; color: var(--accent); cursor: pointer; }
+.link-btn:hover { text-decoration: underline; }
 ol.agenda .clip-video { display: block; width: 100%; max-width: 720px; aspect-ratio: 16 / 9; background: #000; border-radius: 8px; margin: 8px 0; }
 ol.agenda .sp-play { font: inherit; font-size: .8em; padding: 0 2px; border: 0; background: none; color: var(--accent); cursor: pointer; }
 ol.agenda .sp-playing { font-weight: 600; }

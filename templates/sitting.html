@@ -36,11 +36,12 @@
 <section class="tab-panel" id="porzadek">
 <h2 class="tab-title">{{ _("Porządek obrad") }}</h2>
 <p class="muted">{{ _("Porządek obrad opublikowany przez Sejm, z debatą i głosowaniami nad każdym punktem. „Nagranie” odtwarza debatę nad punktem z transmisji Sejmu; wystąpienia prowadzą do stenogramu na stronie Sejmu.") }}</p>
+{% if agenda.renumbered %}<p class="muted">{{ _("Sejm opublikował dotąd porządek planowany; punkty są tu ponumerowane i ułożone tak, jak na posiedzeniu (według głosowań i stenogramów), a punkty dodane w trakcie opisane tak, jak w głosowaniach.") }}</p>{% endif %}
 {% for g in agenda.groups %}
 {% if g.heading %}<h3 lang="pl">{{ g.heading }}</h3>{% endif %}
-<ol class="agenda" lang="pl"{% if g.start %} start="{{ g.start }}"{% endif %}>
+<ol class="agenda{% if g.unnumbered %} unnumbered{% endif %}" lang="pl"{% if g.start %} start="{{ g.start }}"{% endif %}>
   {% for item in g["items"] %}
-  <li value="{{ item.n }}" id="punkt-{{ item.n }}">
+  <li{% if item.n %} value="{{ item.n }}" id="punkt-{{ item.n }}"{% endif %}>
     <div><strong>{{ item.kind }}</strong> {{ item.rest }}{% if item.eu %} <span class="eu" title="{{ _('Projekt mający na celu wykonanie prawa Unii Europejskiej') }}">UE</span>{% endif %}</div>
     {% for note in item.notes %}
     <p class="notes">{% for text, mp in note %}{% if mp %}<a href="{{ root }}posel/{{ mp }}.html">{{ text }}</a>{% else %}{{ text }}{% endif %}{% endfor %}</p>

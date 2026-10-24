@@ -99,6 +99,12 @@ Live on sejmomat.pl:
   from `<ol start>`). Item numbers are the speeches' "point" and the votes'
   "Pkt. N", which link each item to its speakers (transcript links), votes,
   and a recording per day (`speeches.item_clips`, played by `static/clips.js`).
+  Right after a sitting the API's agenda is still the planned one (several lists,
+  each numbered from 1; items renumbered and added at the sitting); then
+  `agenda.renumber` numbers the items from the votes' "Pkt. N" and the speeches'
+  points (by prints, else wording), adds items named only in votes, and lists the
+  planned items never taken up last. Once the Sejm publishes the final agenda it
+  fits and nothing changes.
 
 - **Committees** (`komisje.html`, `komisja/<code>.html`, "Komisje" in the
   nav): members, meetings with agenda, joint committees, recording and

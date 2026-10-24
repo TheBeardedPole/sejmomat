@@ -296,6 +296,11 @@ def build_context():
     # Uzupełnij słowo (Sejmdle): passages of speeches with words to fill in, one set a day
     fill_gaps = fillgaps.puzzles(days, vocabulary, club_rows, club_at,
                                  {r["mp"]["id"]: r["mp"]["firstLastName"] for r in mp_rows}, date.today())
+    # what each speech was under, for numbering agendas published only as planned (agenda.renumber)
+    statements_of = defaultdict(list)
+    for d in days:
+        statements_of[d["sitting"]] += [{"point": st.get("point"), "prints": st.get("prints"), "agenda": st.get("agenda")}
+                                         for st in d["statements"]]
     del days
 
     def speech_figures(items):
@@ -393,6 +398,8 @@ def build_context():
     for s, a in agenda.by_sitting().items():
         if s not in sittings:
             continue   # no votes yet: the sitting has no page
+        # numbered as the votes and speeches were, when the published agenda is the planned one
+        a = agenda.renumber(a, sittings[s], statements_of[s])
         link_items(a)
         votes_at = defaultdict(list)
         for v in sittings[s]:
