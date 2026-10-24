@@ -205,6 +205,14 @@ Live on sejmomat.pl:
   elsewhere in Poland): a server abroad fetches the video through a proxy in Poland,
   `SEJMOMAT_VIDEO_PROXY` (tinyproxy, `tools/vps/proxy-setup.sh`, limited to the
   stream server and *.blueonline.tv).
+  Captions name the item from the vote's own title: the API's agenda is the planned
+  one (several lists, each from 1) and items are renumbered at the sitting.
+- **Clips of past sittings** (`tools/clips.py`, run on a Polish address, writes
+  `clips/`, not in git): `list` (closest decisive votes, one per bill), `bill
+  S:N` (the debate that led to the vote, the latest day up to it with 8+ speeches
+  on the bill's prints, then its votes), `votes DAY`; a title and description
+  per video. Uses `livestream.py --fast --transcript` (speakers from
+  data/speeches, no OCR; file output at constant quality, finished properly).
 
 Waiting on the owner:
 

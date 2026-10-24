@@ -41,7 +41,6 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from sejmomat import agenda as agenda_mod  # noqa: E402  (the site's agenda parser)
 from sejmomat import model  # noqa: E402
 from sejmomat.model import link_amendments  # noqa: E402  (what an amendment changes, as on vote pages)
 from live_overlay import H, W, Overlay  # noqa: E402
@@ -91,6 +90,20 @@ def plenary(day):
     if not v:
         sys.exit("No plenary stream for that day.")
     return v["title"], v["videoLink"].split("?")[0], warsaw(v["startDateTime"]), v.get("endDateTime") and warsaw(v["endDateTime"])
+
+
+def load_transcript(day):
+    """[{start, end, mp}] of the MPs' spoken speeches that day (data/speeches), longer than 15 s."""
+    path = ROOT / "data" / "speeches" / f"{day}.json"
+    if not path.exists():
+        sys.exit(f"No transcript for {day} in data/speeches.")
+    out = []
+    for x in json.loads(path.read_text(encoding="utf-8"))["statements"]:
+        if x.get("mp") and x.get("function") == "Poseł" and not x.get("unspoken") and x.get("start") and x.get("end"):
+            start, end = (datetime.fromisoformat(x[k]).replace(tzinfo=WARSAW) for k in ("start", "end"))
+            if (end - start).total_seconds() >= 15:
+                out.append({"start": start, "end": end, "mp": x["mp"]})
+    return sorted(out, key=lambda x: x["start"])
 
 
 def wait_for_plenary(delay):
@@ -176,13 +189,6 @@ def sitting_number(title):
     return int(m[1]) if m else None
 
 
-def agenda_items(n):
-    """{item number: (text, [prints])} of a sitting, numbered as votes number them ("Pkt. 17")."""
-    p = get_or_none(f"proceedings/{n}") or {}
-    a = agenda_mod.number(agenda_mod.parse(p.get("agenda") or ""))
-    return {i["n"]: (f"{i['kind']} {i['rest']}".strip(), i["prints"]) for g in a["groups"] for i in g["items"]}
-
-
 def load_tags():
     path = ROOT / "data" / "tags.json"
     return json.loads(path.read_text(encoding="utf-8")).get("bills", {}) if path.exists() else {}
@@ -192,14 +198,20 @@ def passed(v):
     return v["yes"] > v["no"] if v.get("majorityType") == "SIMPLE_MAJORITY" else v["yes"] >= (v.get("majorityVotes") or 0)
 
 
-def captions(shown, items, tags, title):
+def captions(shown, tags, title):
     """(item lines, topic line, vote line) for the latest vote the picture has reached."""
     if not shown:
         return f"{title}", " ", "Głosowania pojawią się tutaj, gdy zaczną się na sali."
     v = shown[-1]
+    # the vote's own title names its item ("Pkt. 2 Sprawozdanie … (druki nr 611, 3202 i 3202-A)");
+    # the published agenda is the planned one, in lists each numbered from 1, and the
+    # items are renumbered at the sitting, so its numbers cannot be trusted
     m = re.match(r"\s*Pkt\.?\s*(\d+)", v.get("title") or "")
     n = m[1] if m else None
-    text, prints = items.get(n, (re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("title") or ""), []))
+    text = re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("title") or "")
+    text = re.sub(r"\s*-\s*(pierwsze|drugie|trzecie) czytanie\s*$", "", text)
+    prints = [p for m in re.finditer(r"druk(?:i|ów)?\s+nr\s+([\d\-A-Za-z ,i]+)", text)
+              for p in re.findall(r"\d+(?:-[A-Za-z0-9]+)?", m[1])]
     topic = next((", ".join(tags[p]) for p in prints if p in tags), "")
     head = f"Punkt {n} · {text}" if n else text
     lines = [textwrap.shorten(head, 220, placeholder="…")]   # the caption box fits it to two lines
@@ -334,23 +346,29 @@ def diff_panel(v):
 FPS = 25
 
 
-def ffmpeg_command(src, out, snapshot):
+def ffmpeg_command(src, out, snapshot, fast=False):
     """The ffmpeg command: the stream read at normal speed and scaled to 1280x720,
     with the overlay (RGBA frames from this script, on stdin) laid over it; and,
     every 2 seconds, the band where the broadcast names a speaker, saved to
-    `snapshot` for the speaker recognition (tools/live_speaker.py)."""
+    `snapshot` for the speaker recognition (tools/live_speaker.py; snapshot None:
+    not needed). The picture ends when the overlay does (stdin closed), so a file
+    is finished properly."""
     proxy = ["-http_proxy", VIDEO_PROXY] if VIDEO_PROXY else []
-    inputs = ["-re", *proxy, "-i", src,
+    inputs = [*([] if fast else ["-re"]), *proxy, "-i", src,
               "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-framerate", str(FPS), "-thread_queue_size", "64", "-i", "pipe:0"]
     bx, by, bw, bh = BAND
-    v = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS},split=2[base][cap];"
-         f"[base][1:v]overlay=0:0:format=auto[v];[cap]fps=1/2,crop={bw}:{bh}:{bx}:{by}[band]")
+    scaled = f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS}"
+    if snapshot:
+        v = (f"{scaled},split=2[base][cap];[base][1:v]overlay=0:0:format=auto:eof_action=endall[v];"
+             f"[cap]fps=1/2,crop={bw}:{bh}:{bx}:{by}[band]")
+    else:
+        v = f"{scaled}[base];[base][1:v]overlay=0:0:format=auto:eof_action=endall[v]"
     # on a server (no terminal) the progress line once a minute, for the log
     quiet = [] if sys.stderr.isatty() else ["-stats_period", "60"]
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *quiet, *inputs, "-filter_complex", v, "-map", "[v]", "-map", "0:a?"]
     enc = ["-c:v", "libx264", "-preset", "veryfast", "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
            "-pix_fmt", "yuv420p", "-g", "50", "-c:a", "aac", "-b:a", "128k", "-ar", "44100"]
-    snap = ["-map", "[band]", "-f", "image2", "-update", "1", "-y", str(snapshot)]
+    snap = ["-map", "[band]", "-f", "image2", "-update", "1", "-y", str(snapshot)] if snapshot else []
     if out == "preview":
         return cmd + enc + ["-f", "matroska", "-"] + snap, True
     if out == "rtmp":
@@ -358,7 +376,9 @@ def ffmpeg_command(src, out, snapshot):
         if not url:
             sys.exit("Set SEJMOMAT_RTMP to the platform's address with your stream key.")
         return cmd + enc + ["-f", "flv", url] + snap, False
-    return cmd + enc + ["-y", out] + snap, False
+    # a file: compressed for upload (constant quality) rather than for a live link (constant rate)
+    enc = [*enc[:4], "-crf", "23", *enc[6:]]
+    return cmd + enc + ["-shortest", "-y", out] + snap, False
 
 
 def main():
@@ -370,6 +390,8 @@ def main():
     ap.add_argument("--quality", type=int, default=720, help="stream quality to read: picture height, e.g. 1080, 720, 384 (default 720)")
     ap.add_argument("--demo", action="store_true", help="for a demo recording: a card every 13 s, the liveliest ones first, no cards about the site")
     ap.add_argument("--no-speakers", action="store_true", help="no speaker recognition (needs tesseract with Polish)")
+    ap.add_argument("--transcript", action="store_true", help="replay: who speaks from the day's transcript (data/speeches), not the screen")
+    ap.add_argument("--fast", action="store_true", help="to a file: as fast as the computer can, not in real time")
     ap.add_argument("--wait", action="store_true", help="live, unattended: wait for the day's sitting instead of stopping when there is none")
     ap.add_argument("--font", help="regular font file")
     ap.add_argument("--font-bold", help="bold font file")
@@ -389,7 +411,7 @@ def main():
     # day's beginning whatever "start" says; this way the picture starts where asked
     src = variant(f"{base}?start={ms(start)}", args.quality)
     n = sitting_number(title)
-    items, tags, facts = agenda_items(n) if n else {}, load_tags(), load_facts()
+    tags, facts = load_tags(), load_facts()
     # the general turn, and for each club its own cards (its Top 5s, its card), for while one of its MPs speaks
     by_club = {}
     for f in facts:
@@ -409,7 +431,7 @@ def main():
                         [f for group in lively for f in group if f.get("kind") == "top5"])
         facts = picked + [f for f in facts if f not in picked]
         every, first, club_after, promos = 13, start.timestamp(), SPEAKER_SECONDS, []
-    print(f"{title} · from {start:%H:%M:%S} · sitting {n}, {len(items)} agenda items")
+    print(f"{title} · from {start:%H:%M:%S} · sitting {n}")
 
     overlay = Overlay(args.font_bold or font(True), args.font or font(False), ROOT / "static" / "logo-white.png",
                       f"SEJMOMAT · {mode} · {title}")
@@ -446,11 +468,29 @@ def main():
     # who is speaking: the broadcast's name caption, read every 2 seconds
     work = Path(tempfile.mkdtemp(prefix="sejmomat-live-"))
     snapshot = work / "band.png"
-    recogniser = Recogniser(load_mps(ROOT)) if shutil.which("tesseract") and not args.no_speakers else None
-    if not recogniser and not args.no_speakers:
+    recogniser = Recogniser(load_mps(ROOT)) if shutil.which("tesseract") and not (args.no_speakers or args.transcript) else None
+    if not recogniser and not (args.no_speakers or args.transcript):
         print("tesseract not found: no speaker recognition", file=sys.stderr)
-    speaker = {"card": None, "at": None, "mp": None}
+    speaker = {"card": None, "at": None, "mp": None, "until": None}
     now = {"clock": start}
+
+    def speaker_card(m):
+        return {"kind": "mp", "mp": m["id"], "name": m["name"], "club": m.get("club") or "niez.", "title": "Na mównicy",
+                "value": m.get("speeches") or 0, "unit": "wystąpień w kadencji",
+                "stats": [["frekwencja", f"{m.get('turnout', 0) * 100:.1f}%".replace(".", ",")],
+                          ["wyłamania", str(m.get("brokeLine", 0))], ["interpelacje", str(m.get("questions", 0))],
+                          ["zmiany klubu", str(m.get("clubSwitches", 0))]]}
+
+    # a past day (--transcript): who spoke when, from the transcript, instead of reading the screen
+    transcript = load_transcript(start.date().isoformat()) if args.transcript else []
+    mp_by_id = {m["id"]: m for m in load_mps(ROOT)} if transcript else {}
+
+    def follow_transcript(clock):
+        on = next((x for x in transcript if x["start"] <= clock < x["end"]), None)
+        if on and speaker["mp"] != on["mp"] and on["mp"] in mp_by_id:
+            m = mp_by_id[on["mp"]]
+            overlay.photo(m["id"])
+            speaker.update(mp=m["id"], at=on["start"], until=on["end"], card=speaker_card(m))
 
     def watch():
         seen = 0
@@ -472,13 +512,9 @@ def main():
                 continue
             print(f"{clock:%H:%M:%S} na mównicy: {m['name']} ({m.get('club')})", flush=True)
             overlay.photo(m["id"])
-            speaker.update(mp=m["id"], at=clock, card={
-                "kind": "mp", "mp": m["id"], "name": m["name"], "club": m.get("club") or "niez.", "title": "Na mównicy",
-                "value": m.get("speeches") or 0, "unit": "wystąpień w kadencji",
-                "stats": [["frekwencja", f"{m.get('turnout', 0) * 100:.1f}%".replace(".", ",")],
-                          ["wyłamania", str(m.get("brokeLine", 0))], ["interpelacje", str(m.get("questions", 0))],
-                          ["zmiany klubu", str(m.get("clubSwitches", 0))]]})
-    threading.Thread(target=watch, daemon=True).start()
+            speaker.update(mp=m["id"], at=clock, until=None, card=speaker_card(m))
+    if not transcript:
+        threading.Thread(target=watch, daemon=True).start()
     time.sleep(1)
 
     picks, turns = {}, {}
@@ -490,7 +526,7 @@ def main():
         if slot not in picks:
             sp, at = speaker["card"], speaker["at"]
             pool = by_club.get(sp["club"]) if sp else None
-            if pool and club_after <= (clock - at).total_seconds() < SPEAKER_BAR:
+            if pool and club_after <= (clock - at).total_seconds() < SPEAKER_BAR and not (speaker["until"] and clock > speaker["until"]):
                 i = turns[sp["club"]] = turns.get(sp["club"], -1) + 1
                 picks[slot] = pool[i % len(pool)]
             else:
@@ -504,9 +540,11 @@ def main():
 
     def frame(clock):
         """The overlay for the picture at `clock`."""
+        if transcript:
+            follow_transcript(clock)
         with lock:
             shown = [v for v in votes if warsaw(v["date"]) <= clock]
-        item, topic, vote = captions(shown, items, tags, title)
+        item, topic, vote = captions(shown, tags, title)
         recent = shown and (clock - warsaw(shown[-1]["date"])).total_seconds() < QUIET
         chip = None
         if shown and not recent:
@@ -515,7 +553,7 @@ def main():
         if not recent:
             # no votes going on: the bar names who is speaking (the agenda item is hard to tell then)
             sp = speaker["card"]
-            if sp and 0 <= (clock - speaker["at"]).total_seconds() < SPEAKER_BAR:
+            if sp and 0 <= (clock - speaker["at"]).total_seconds() < SPEAKER_BAR and not (speaker["until"] and clock > speaker["until"]):
                 stats = dict(sp["stats"])
                 item, chip = sp["name"], sp["club"]
                 topic = (f"Na mównicy od {speaker['at']:%H:%M} · {sp['value']} wystąpień w kadencji · "
@@ -551,7 +589,9 @@ def main():
                         showing["until"] = begun + length
         return overlay.frame(item, topic, vote, panel, card, chip)
 
-    cmd, preview = ffmpeg_command(src, args.out, snapshot)
+    if args.fast and args.out in ("preview", "rtmp"):
+        sys.exit("--fast is for a file.")
+    cmd, preview = ffmpeg_command(src, args.out, snapshot if recogniser else None, args.fast)
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE if preview else None)
     viewer = subprocess.Popen(["ffplay", "-hide_banner", "-loglevel", "warning", "-window_title", "Sejmomat", "-"],
                               stdin=proc.stdout) if preview else None
@@ -583,6 +623,12 @@ def main():
         try:
             proc.stdin.close()
         except Exception:
+            pass
+        # the overlay has ended: ffmpeg finishes the file by itself (given time) unless it
+        # also keeps the speaker snapshots going
+        try:
+            proc.wait(timeout=30 if not recogniser else 1)
+        except subprocess.TimeoutExpired:
             pass
         for p in (viewer, proc):
             if p and p.poll() is None:
