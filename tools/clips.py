@@ -108,19 +108,19 @@ def debate(prints, before):
 
 
 def bill_votes(votes, final):
-    """The votes on the same bill in the final vote's sitting, up to the final one."""
+    """The run of votes on the same bill around the chosen one, that day: back to the first
+    and on to the last with no more than BLOCK_GAP between them (a motion to reject comes
+    before the vote on the whole bill, amendments before both)."""
     prints = prints_of(final["title"])
-    same = [v for v in votes if v["sitting"] == final["sitting"] and v["date"][:10] == final["date"][:10]
-            and prints_of(v["title"]) & prints and v["votingNumber"] <= final["votingNumber"]]
-    # only the run that ends with the final vote
-    run = [final]
-    for v in sorted(same, key=lambda v: -v["votingNumber"]):
-        if v is final:
-            continue
-        if when(run[-1]["date"]) - when(v["date"]) > BLOCK_GAP:
-            break
-        run.append(v)
-    return sorted(run, key=lambda v: v["votingNumber"])
+    same = sorted((v for v in votes if v["sitting"] == final["sitting"] and v["date"][:10] == final["date"][:10]
+                   and prints_of(v["title"]) & prints), key=lambda v: v["votingNumber"])
+    i = next(k for k, v in enumerate(same) if v is final)
+    lo = hi = i
+    while lo > 0 and when(same[lo]["date"]) - when(same[lo - 1]["date"]) <= BLOCK_GAP:
+        lo -= 1
+    while hi < len(same) - 1 and when(same[hi + 1]["date"]) - when(same[hi]["date"]) <= BLOCK_GAP:
+        hi += 1
+    return same[lo:hi + 1]
 
 
 def describe(v):
@@ -222,7 +222,8 @@ def main():
         join(parts, folder / f"{name}.mp4")
         title = youtube_title(subject(final), f" – {'debata i głosowanie' if deb else 'głosowanie'} ({when(final['date']):%d.%m.%Y})")
         text = [title, "", agenda_title(final), "",
-                f"Wynik: {'przyjęto' if final['yes'] > final['no'] else 'odrzucono'} – {describe(final)}.",
+                *[f"{v['topic'][:1].upper() + v['topic'][1:].rstrip('.')}: {'przyjęto' if v['yes'] > v['no'] else 'odrzucono'} – {describe(v)}."
+                  for v in run if FINAL.search(v.get("topic") or "")],
                 f"Głosowań nad projektem tego dnia: {len(run)}.",
                 *([f"Debata: {deb[0]:%d.%m.%Y, %H:%M}–{deb[1]:%H:%M}, {deb[2]} wystąpień."] if deb else []),
                 "", "Transmisja Sejmu RP z napisami Sejmomatu: wyniki głosowań, co zmieniają poprawki, kto mówi.",
