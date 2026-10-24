@@ -185,11 +185,21 @@ Live on sejmomat.pl:
 
 - **Own stream with captions** (`tools/livestream.py`, run locally, not part of
   the site): the Sejm's plenary stream through ffmpeg, ~100 s behind live (or a
-  replay from `--at "YYYY-MM-DD HH:MM"`), with a caption bar for the agenda item,
+  replay from `--at "YYYY-MM-DD HH:MM"`), with a caption box in the bottom left (the cards' style) for the agenda item,
   its tags and the latest vote with its result, each shown when the picture
   reaches it (the clock is ffmpeg's position, not the wall clock). Out to a
   preview window, a file, or RTMP (`SEJMOMAT_RTMP`, `--out rtmp`). The live DVR
   playlists respect `start`; with `stop` the archive answers and ignores it.
+  Between votes: the speaker read from the broadcast's caption (with a
+  Koalicja/Opozycja tag) and fact cards from `api/v1/ciekawostki.json`
+  (`sejmomat/facts.py`), one every 90 s, related cards kept apart; during a
+  longer speech the speaker's club's Top 5s; one card in 8 points to Sejmdle
+  or buycoffee (not with `--demo`).
+  On a server: `tools/vps/setup.sh` (Debian/Ubuntu, clones to `/opt/sejmomat`)
+  installs the `sejmomat-live` systemd service (`--wait`: waits for the day's
+  sitting; key in `/etc/sejmomat-live.env`) and `sejmomat-pull.timer` (git pull
+  every 10 min, for the amendment prints CI commits on sitting days);
+  `tools/vps/test-stream.sh` sends a replay to the same address as a test.
 
 Waiting on the owner:
 

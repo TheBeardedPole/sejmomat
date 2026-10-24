@@ -152,6 +152,9 @@ IMAGES = {
     "header-x-1500x500.svg": banner(1500, 500, BLUE, "#ffffff", "#dbe7fa", logo_share=0.55),
     "header-bluesky-3000x1000.svg": banner(3000, 1000, BLUE, "#ffffff", "#dbe7fa", logo_share=0.55),
     "cover-facebook-1640x624.svg": banner(1640, 624, BLUE, "#ffffff", "#dbe7fa", logo_share=0.55),
+    # YouTube shows the whole 2560×1440 only on TVs; phones and computers show the
+    # middle 1546×423, so everything stays inside that
+    "header-youtube-2560x1440.svg": banner(2560, 1440, BLUE, "#ffffff", "#dbe7fa", logo_share=0.62, safe=1546 / 2560),
     # link preview (og:image)
     "og-1200x630.svg": banner(1200, 630, PAPER, BLUE, INK, logo_share=0.74),
 }

@@ -1,0 +1,21 @@
+# The stream on a server (tools/vps/setup.sh installs it): waits for the day's
+# sitting, streams it with the captions to SEJMOMAT_RTMP (/etc/sejmomat-live.env),
+# and starts again after a dropped connection or the end of a day. Each start
+# first pulls the repository, for the latest code and prints.
+[Unit]
+Description=Sejmomat: the Sejm's stream with captions
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=sejmomat
+WorkingDirectory=/opt/sejmomat
+EnvironmentFile=/etc/sejmomat-live.env
+ExecStartPre=-/usr/bin/git -C /opt/sejmomat pull --ff-only -q
+ExecStart=/opt/sejmomat/.venv/bin/python tools/livestream.py --wait --out rtmp
+Restart=always
+RestartSec=30
+Nice=-5
+
+[Install]
+WantedBy=multi-user.target

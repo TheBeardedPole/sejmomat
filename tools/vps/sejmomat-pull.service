@@ -1,0 +1,9 @@
+# Pulls the repository (tools/vps/sejmomat-pull.timer): on sitting days the site's
+# updates commit the report prints with the amendments, which the stream reads.
+[Unit]
+Description=Sejmomat: pull the repository
+
+[Service]
+Type=oneshot
+User=sejmomat
+ExecStart=/usr/bin/git -C /opt/sejmomat pull --ff-only -q
