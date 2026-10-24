@@ -45,8 +45,9 @@ def side(club):
     return "Koalicja" if club in COALITION else "Opozycja"
 
 
-def club_chip(d, x, y, club, font, tag_font):
-    """A club's chip in its colour, then a "Koalicja"/"Opozycja" tag; returns where they end."""
+def club_chip(d, x, y, club, font, tag_font, now=None):
+    """A club's chip in its colour, then a "Koalicja"/"Opozycja" tag, then, for a past day
+    when the MP has since moved, "(obecnie: <club>)"; returns where they end."""
     cb = d.textbbox((x, y), club, font=font)
     d.rounded_rectangle((cb[0] - 8, cb[1] - 4, cb[2] + 8, cb[3] + 5), 10, fill=club_colour(club) + (255,))
     d.text((x, y), club, font=font, fill="white")
@@ -60,6 +61,11 @@ def club_chip(d, x, y, club, font, tag_font):
                             fill=(255, 255, 255, 235) if coalition else (0, 0, 0, 0), outline=(255, 255, 255, 235), width=2)
         d.text((tx, mid), s.upper(), font=tag_font, fill=(12, 20, 36) if coalition else "white", anchor="lm")
         end = tb[2] + 7
+    if now:
+        mid = (cb[1] + cb[3]) / 2 + 0.5
+        note = f"(obecnie: {now})"
+        d.text((end + 10, mid), note, font=font, fill=LIGHT_BLUE, anchor="lm")
+        end = d.textbbox((end + 10, mid), note, font=font, anchor="lm")[2]
     return end
 
 
@@ -125,11 +131,11 @@ class Overlay:
             out.append(self.fit(" ".join(words), font, width))
         return out
 
-    def base(self, item, topic, vote, chip=None):
+    def base(self, item, topic, vote, chip=None, note=None):
         """A lower third in the bottom left, in the cards' style: a strip with what is on
         ("Punkt 17", "Na mównicy"), then the headline (the item, or the speaker with their
         club's chip), the topic and the vote. chip: the speaker's club."""
-        key = (item, topic, vote, chip)
+        key = (item, topic, vote, chip, note)
         if self._base[0] == key:
             return self._base[1]
         im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -147,7 +153,7 @@ class Overlay:
         tags = 0
         if chip:
             # the chip and tag, drawn off-image first to measure them
-            tags = club_chip(ImageDraw.Draw(Image.new("RGBA", (400, 40))), 0, 8, chip, self.font(16, True), self.font(13, True)) + 14
+            tags = club_chip(ImageDraw.Draw(Image.new("RGBA", (600, 40))), 0, 8, chip, self.font(16, True), self.font(13, True), note) + 14
         want = max([f_head.getlength(headline) + tags] + [f.getlength(t) for t, f, _ in lines])
         width = round(min(BOX_MAX, max(BOX_MIN, want + 2 * pad + 2)))
         inner = width - 2 * pad
@@ -170,7 +176,7 @@ class Overlay:
             b.text((pad, y), line, font=f_head, fill="white")
             y += 30
         if chip:
-            club_chip(b, pad + round(f_head.getlength(heads[0])) + 14, top + 4, chip, self.font(16, True), self.font(13, True))
+            club_chip(b, pad + round(f_head.getlength(heads[0])) + 14, top + 4, chip, self.font(16, True), self.font(13, True), note)
         y += 2
         for text, f, c in lines:
             b.text((pad, y), self.fit(text, f, inner), font=f, fill=c)
@@ -252,7 +258,7 @@ class Overlay:
         elif card["kind"] == "mp":
             x0 = 176
             d.text((x0, 58), card["name"], font=self.font(27, True), fill="white")
-            club_chip(d, x0, 98, card["club"], self.font(16, True), self.font(13, True))
+            club_chip(d, x0, 98, card["club"], self.font(16, True), self.font(13, True), card.get("now"))
             # small stats along the bottom
             stats = card.get("stats") or []
             sx = x0
@@ -416,14 +422,14 @@ class Overlay:
             base.alpha_composite(shine)
         return self._place(base, t, length)
 
-    def frame(self, item, topic, vote, panel=None, card=None, chip=None):
+    def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None):
         """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes.
         Most frames are the same as the one before (nothing moves): those are not redrawn."""
         which = None if card is None else next((k for k, c in self._stills.items() if c is card), False)
-        key = ((item, topic, vote, chip), panel and (panel[0], tuple(panel[1])), which) if which is not False else None
+        key = ((item, topic, vote, chip, note), panel and (panel[0], tuple(panel[1])), which) if which is not False else None
         if key is not None and self._last[0] == key:
             return self._last[1]
-        im = self.base(item, topic, vote, chip).copy()
+        im = self.base(item, topic, vote, chip, note).copy()
         if panel:
             p = self.panel(*panel)
             im.alpha_composite(p, (W - p.width - 24, 70))

@@ -106,6 +106,21 @@ def load_transcript(day):
     return sorted(out, key=lambda x: x["start"])
 
 
+def clubs_on(day):
+    """{MP id: club} on a day: as in that day's last vote (or the last one before it); every
+    vote lists every MP under their club, absent ones too."""
+    last = None
+    for f in sorted((ROOT / "data" / "votings").glob("*.json"), key=lambda f: int(f.stem)):
+        for v in json.loads(f.read_text(encoding="utf-8"))["votings"]:
+            if v["date"][:10] <= day and (not last or v["date"] > last["date"]):
+                last = v
+    if not last:
+        return {}
+    # the first day's provisional club ids, as the site counts them (model.merge_opening_ids)
+    lasting = {"PSL": "PSL-TD", "Nowa_Lewica": "Lewica", "Polska2050": "Polska2050-TD"} if last["date"][:10] == "2023-11-13" else {}
+    return {mp: lasting.get(club, club) for club, b in (last.get("ballots") or {}).items() for ids in b.values() for mp in ids}
+
+
 def wait_for_plenary(delay):
     """Unattended (--wait): today's plenary stream once it has been on for `delay` seconds,
     checking every few minutes until then; on a day without one, or once it has ended,
@@ -500,13 +515,19 @@ def main():
     # a past day (--transcript): who spoke when, from the transcript, instead of reading the screen
     transcript = load_transcript(start.date().isoformat()) if args.transcript else []
     mp_by_id = {m["id"]: m for m in load_mps(ROOT)} if transcript else {}
+    # a past day: the club each MP had then, with today's as a note where it has changed
+    clubs_then = clubs_on(start.date().isoformat()) if transcript else {}
 
     def follow_transcript(clock):
         on = next((x for x in transcript if x["start"] <= clock < x["end"]), None)
         if on and speaker["mp"] != on["mp"] and on["mp"] in mp_by_id:
             m = mp_by_id[on["mp"]]
             overlay.photo(m["id"])
-            speaker.update(mp=m["id"], at=on["start"], until=on["end"], card=speaker_card(m))
+            card = speaker_card(m)
+            then = clubs_then.get(m["id"])
+            if then and then != card["club"]:
+                card.update(club=then, now=card["club"])
+            speaker.update(mp=m["id"], at=on["start"], until=on["end"], card=card)
 
     def watch():
         seen = 0
@@ -562,7 +583,7 @@ def main():
             shown = [v for v in votes if warsaw(v["date"]) <= clock]
         item, topic, vote = captions(shown, tags, title)
         recent = shown and (clock - warsaw(shown[-1]["date"])).total_seconds() < QUIET
-        chip = None
+        chip = note = None
         if shown and not recent:
             # a debate or a break: the vote below is an earlier one
             vote = textwrap.shorten(f"Ostatnie głosowanie ({shown[-1]['date'][11:16]}): {vote.replace('Głosowanie ', '')}", 112, placeholder="…")
@@ -571,7 +592,7 @@ def main():
             sp = speaker["card"]
             if sp and 0 <= (clock - speaker["at"]).total_seconds() < SPEAKER_BAR and not (speaker["until"] and clock > speaker["until"]):
                 stats = dict(sp["stats"])
-                item, chip = sp["name"], sp["club"]
+                item, chip, note = sp["name"], sp["club"], sp.get("now")
                 topic = (f"Na mównicy od {speaker['at']:%H:%M} · {sp['value']} wystąpień w kadencji · "
                          f"frekwencja {stats.get('frekwencja')} · wyłamania z linii klubu: {stats.get('wyłamania')}")
             else:
@@ -603,7 +624,7 @@ def main():
                     if into < length:
                         card = overlay.card(c, into, length)
                         showing["until"] = begun + length
-        return overlay.frame(item, topic, vote, panel, card, chip)
+        return overlay.frame(item, topic, vote, panel, card, chip, note)
 
     if args.fast and args.out in ("preview", "rtmp"):
         sys.exit("--fast is for a file.")
