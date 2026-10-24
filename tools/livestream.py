@@ -31,6 +31,8 @@ import tempfile
 import textwrap
 import threading
 import time
+import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -110,19 +112,55 @@ def wait_for_plenary(delay):
         time.sleep(300)
 
 
+# The Sejm's video CDN sends viewers to an edge server; some of its edges sit inside
+# Polish home providers' networks (Vectra's tvo-18-*) and do not answer servers in a
+# data centre. If the edge given does not answer, the same path is asked of these.
+FALLBACK_EDGES = ("tvo-1-1.e.blueonline.tv",)
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *args):
+        return None
+
+
+def fetch_playlist(url):
+    """(final address, text) of a playlist, following the CDN's redirects one by one so
+    that an edge that does not answer can be swapped for one that does."""
+    opener = urllib.request.build_opener(_NoRedirect)
+    for _ in range(6):
+        host = urllib.parse.urlsplit(url).hostname or ""
+        edge = host.endswith(".e.blueonline.tv") and host != "r.e.blueonline.tv"
+        tries = [url] + ([urllib.parse.urlsplit(url)._replace(netloc=h).geturl() for h in FALLBACK_EDGES if h != host] if edge else [])
+        for i, u in enumerate(tries):
+            try:
+                with opener.open(u, timeout=8 if edge and i < len(tries) - 1 else 60) as r:
+                    if i:
+                        print(f"video edge {host} does not answer; using {urllib.parse.urlsplit(u).hostname}", file=sys.stderr)
+                    return r.geturl(), r.read().decode()
+            except urllib.error.HTTPError as e:
+                if e.code in (301, 302, 303, 307, 308) and e.headers.get("Location"):
+                    url = urllib.parse.urljoin(u, e.headers["Location"])
+                    break
+                raise
+            except (urllib.error.URLError, TimeoutError, OSError):
+                if i == len(tries) - 1:
+                    raise
+    raise RuntimeError(f"too many redirects: {url}")
+
+
 def variant(url, quality):
     """The address of one quality of the stream: the largest picture no taller than
     `quality`, else the smallest. (Live playlists list 1080p, 720p and 384p, archived
     ones 720p to 360p; the best is more than a 720p picture needs and heavy on slow links.)"""
-    with urllib.request.urlopen(url, timeout=60) as r:
-        base, lines = r.geturl().rsplit("/", 1)[0], r.read().decode().splitlines()
+    final, text = fetch_playlist(url)
+    base, lines = final.rsplit("/", 1)[0], text.splitlines()
     found = []
     for i, line in enumerate(lines):
         m = re.search(r"RESOLUTION=\d+x(\d+)", line)
         if line.startswith("#EXT-X-STREAM-INF") and m and i + 1 < len(lines):
             found.append((int(m[1]), lines[i + 1].strip()))
     if not found:
-        return url
+        return final
     fit = [f for f in found if f[0] <= quality]
     height, path = max(fit) if fit else min(found)
     return path if path.startswith("http") else f"{base}/{path}"
