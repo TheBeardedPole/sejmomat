@@ -116,6 +116,9 @@ def wait_for_plenary(delay):
 # Polish home providers' networks (Vectra's tvo-18-*) and do not answer servers in a
 # data centre. If the edge given does not answer, the same path is asked of these.
 FALLBACK_EDGES = ("tvo-1-1.e.blueonline.tv",)
+# The CDN answers only Polish addresses: a server elsewhere fetches the video through
+# an HTTP proxy in Poland (tools/vps/proxy-setup.sh), e.g. http://203.0.113.5:8888
+VIDEO_PROXY = os.environ.get("SEJMOMAT_VIDEO_PROXY", "").strip()
 
 
 class _NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -126,7 +129,8 @@ class _NoRedirect(urllib.request.HTTPRedirectHandler):
 def fetch_playlist(url):
     """(final address, text) of a playlist, following the CDN's redirects one by one so
     that an edge that does not answer can be swapped for one that does."""
-    opener = urllib.request.build_opener(_NoRedirect)
+    proxy = [urllib.request.ProxyHandler({"http": VIDEO_PROXY, "https": VIDEO_PROXY})] if VIDEO_PROXY else []
+    opener = urllib.request.build_opener(_NoRedirect, *proxy)
     for _ in range(6):
         host = urllib.parse.urlsplit(url).hostname or ""
         edge = host.endswith(".e.blueonline.tv") and host != "r.e.blueonline.tv"
@@ -334,7 +338,8 @@ def ffmpeg_command(src, out, snapshot):
     with the overlay (RGBA frames from this script, on stdin) laid over it; and,
     every 2 seconds, the band where the broadcast names a speaker, saved to
     `snapshot` for the speaker recognition (tools/live_speaker.py)."""
-    inputs = ["-re", "-i", src,
+    proxy = ["-http_proxy", VIDEO_PROXY] if VIDEO_PROXY else []
+    inputs = ["-re", *proxy, "-i", src,
               "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-framerate", str(FPS), "-thread_queue_size", "64", "-i", "pipe:0"]
     bx, by, bw, bh = BAND
     v = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS},split=2[base][cap];"

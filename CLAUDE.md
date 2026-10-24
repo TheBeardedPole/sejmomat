@@ -200,6 +200,11 @@ Live on sejmomat.pl:
   sitting; key in `/etc/sejmomat-live.env`) and `sejmomat-pull.timer` (git pull
   every 10 min, for the amendment prints CI commits on sitting days);
   `tools/vps/test-stream.sh` sends a replay to the same address as a test.
+  The video CDN (blueonline) answers only Polish addresses (its picker also hands
+  out edges inside Vectra's network; `FALLBACK_EDGES` lists one that answers
+  elsewhere in Poland): a server abroad fetches the video through a proxy in Poland,
+  `SEJMOMAT_VIDEO_PROXY` (tinyproxy, `tools/vps/proxy-setup.sh`, limited to the
+  stream server and *.blueonline.tv).
 
 Waiting on the owner:
 

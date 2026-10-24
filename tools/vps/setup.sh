@@ -20,7 +20,9 @@ runuser -u sejmomat -- /opt/sejmomat/.venv/bin/pip install -q -r /opt/sejmomat/r
 if [ ! -f /etc/sejmomat-live.env ]; then
     printf '%s\n' '# the platform address with the stream key, e.g.' \
         '# SEJMOMAT_RTMP=rtmp://a.rtmp.youtube.com/live2/xxxx-xxxx-xxxx-xxxx-xxxx' \
-        'SEJMOMAT_RTMP=' > /etc/sejmomat-live.env
+        'SEJMOMAT_RTMP=' \
+        '# outside Poland the video CDN does not answer: a proxy in Poland (tools/vps/proxy-setup.sh), e.g.' \
+        '# SEJMOMAT_VIDEO_PROXY=http://203.0.113.5:8888' > /etc/sejmomat-live.env
 fi
 chown root:sejmomat /etc/sejmomat-live.env
 chmod 640 /etc/sejmomat-live.env
