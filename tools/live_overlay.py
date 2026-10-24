@@ -70,8 +70,9 @@ class Overlay:
         return self._fonts[key]
 
     # ---- the caption bar, the label and the logo: redrawn only when the text changes
-    def base(self, item, topic, vote):
-        key = (item, topic, vote)
+    def base(self, item, topic, vote, chip=None):
+        """chip: a club, drawn as a coloured chip after the first line (the speaker's name)."""
+        key = (item, topic, vote, chip)
         if self._base[0] == key:
             return self._base[1]
         im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -79,7 +80,13 @@ class Overlay:
         bar = BAR
         d.rectangle((0, H - bar, W, H), fill=(0, 0, 0, 170))
         d.rectangle((0, H - bar, 5, H), fill=ACCENT + (255,))
-        d.text((24, H - bar + 12), item.split("\n")[0], font=self.font(22, True), fill="white")
+        first = item.split("\n")[0]
+        d.text((24, H - bar + 12), first, font=self.font(22, True), fill="white")
+        if chip:
+            x = d.textbbox((24, H - bar + 12), first, font=self.font(22, True))[2] + 14
+            cb = d.textbbox((x, H - bar + 16), chip, font=self.font(16, True))
+            d.rounded_rectangle((cb[0] - 8, cb[1] - 4, cb[2] + 8, cb[3] + 5), 10, fill=club_colour(chip) + (255,))
+            d.text((x, H - bar + 16), chip, font=self.font(16, True), fill="white")
         if topic.strip():
             d.text((24, H - bar + 48), topic, font=self.font(17), fill=LIGHT_BLUE)
         d.text((24, H - 36), vote, font=self.font(19), fill=YELLOW)
@@ -158,6 +165,13 @@ class Overlay:
                 d.text((sx, h - 50), value, font=self.font(19, True), fill="white")
                 d.text((sx, h - 26), label, font=self.font(13), fill=(170, 180, 196))
                 sx += 92
+        elif card.get("stats"):
+            # a club card: small stats along the bottom
+            sx = 24
+            for label, value in card["stats"][:4]:
+                d.text((sx, h - 50), value, font=self.font(19, True), fill="white")
+                d.text((sx, h - 26), label, font=self.font(13), fill=(170, 180, 196))
+                sx += 128
         else:
             for i, line in enumerate(textwrap.wrap(card.get("text") or "", 52)[:3]):
                 d.text((24, h - 84 + i * 24), line, font=self.font(17), fill=(205, 212, 225))
@@ -177,8 +191,12 @@ class Overlay:
             shown = str(round(value * (1 - (1 - k) ** 3)))
         mp = card["kind"] == "mp"
         nx, ny = (176, 128) if mp else (24, 56)
-        d.text((nx, ny), shown, font=self.font(58 if mp else 66, True), fill=YELLOW)
-        nb = d.textbbox((nx, ny), shown, font=self.font(58 if mp else 66, True))
+        size = 58 if mp else 66
+        # a long value (a club's name) is set smaller, leaving room for the unit
+        while size > 30 and self.font(size, True).getlength(shown) > width - nx - 190:
+            size -= 4
+        d.text((nx, ny), shown, font=self.font(size, True), fill=YELLOW)
+        nb = d.textbbox((nx, ny), shown, font=self.font(size, True))
         unit_lines = textwrap.wrap(card.get("unit") or "", 26)[:2]
         for i, line in enumerate(unit_lines):
             d.text((nb[2] + 14, ny + 14 + i * 22), line, font=self.font(18), fill=(205, 212, 225))
@@ -218,9 +236,9 @@ class Overlay:
             x = x_end
         return base, round(x), y
 
-    def frame(self, item, topic, vote, panel=None, card=None):
+    def frame(self, item, topic, vote, panel=None, card=None, chip=None):
         """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes."""
-        im = self.base(item, topic, vote).copy()
+        im = self.base(item, topic, vote, chip).copy()
         if panel:
             p = self.panel(*panel)
             im.alpha_composite(p, (W - p.width - 24, 70))

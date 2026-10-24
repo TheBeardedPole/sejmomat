@@ -150,6 +150,7 @@ MAX_PAGES = 6
 PAGE_STRETCH = 4                                        # a page may run this many lines over to keep a passage whole
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
 SPEAKER_SECONDS = 20                                    # how long the card of a speaker who has just begun stays
+SPEAKER_BAR = 600                                       # how long the bar names a speaker (until the next one)
 FACT_SECONDS = 12                                       # a fact card is on screen this long…
 FACT_EVERY = 45                                         # …once in this many seconds
 FACTS_URL = "https://sejmomat.pl/api/v1/ciekawostki.json"
@@ -364,9 +365,20 @@ def main():
             shown = [v for v in votes if warsaw(v["date"]) <= clock]
         item, topic, vote = captions(shown, items, tags, title)
         recent = shown and (clock - warsaw(shown[-1]["date"])).total_seconds() < QUIET
+        chip = None
         if shown and not recent:
             # a debate or a break: the vote below is an earlier one
             vote = textwrap.shorten(f"Ostatnie głosowanie ({shown[-1]['date'][11:16]}): {vote.replace('Głosowanie ', '')}", 112, placeholder="…")
+        if not recent:
+            # no votes going on: the bar names who is speaking (the agenda item is hard to tell then)
+            sp = speaker["card"]
+            if sp and 0 <= (clock - speaker["at"]).total_seconds() < SPEAKER_BAR:
+                stats = dict(sp["stats"])
+                item, chip = sp["name"], sp["club"]
+                topic = (f"Na mównicy od {speaker['at']:%H:%M} · {sp['value']} wystąpień w kadencji · "
+                         f"frekwencja {stats.get('frekwencja')} · wyłamania z linii klubu: {stats.get('wyłamania')}")
+            else:
+                item, topic = title, "Debata · mówca pojawi się tu, gdy transmisja go przedstawi"
         panel = card = None
         if recent:
             head, pages = diff_panel(shown[-1])
@@ -382,7 +394,7 @@ def main():
             if ts % FACT_EVERY < FACT_SECONDS:
                 c = facts[int(ts // FACT_EVERY) % len(facts)]
                 card = overlay.card(c, ts % FACT_EVERY, FACT_SECONDS)
-        return overlay.frame(item, topic, vote, panel, card)
+        return overlay.frame(item, topic, vote, panel, card, chip)
 
     cmd, preview = ffmpeg_command(src, args.out, snapshot)
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE if preview else None)

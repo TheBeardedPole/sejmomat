@@ -7,8 +7,10 @@ comes from the data, as elsewhere.
 A card: {"kind": "mp" | "fact", "title": what it is about, "value": the big
 number (or text), "unit": what the number counts, "text": the same as one
 sentence; for "mp" also "mp" (id), "name", "club" and "stats": [[label,
-value], ...]; for "fact" an optional "club" for its colour}.
+value], ...]; for "fact" an optional "club" for its colour and optional
+"stats" (club cards)}.
 """
+import re
 from datetime import date
 
 from .card import pct
@@ -98,6 +100,57 @@ def facts(ctx, today=None):
     passed = sum(1 for v in votes if v.get("motion") and v["motion"][0] == "final" and v["passed"])
     if passed:
         fact("Uchwalone", passed, "projektów przyjętych w całości", f"Sejm tej kadencji uchwalił w głosowaniu nad całością {passed} projektów.")
+
+    # ---- votes
+    big = [v for v in votes if v["yes"] + v["no"] >= 100]
+    # procedural votes (quorum, breaks, adjourning) say little about politics
+    political = [v for v in big if not re.search(r"kworum|przerw|odrocz|zamknięcie posiedzenia", (v.get("topic") or "").lower())]
+    rebels = lambda v: sum(len(c.get("rebels") or []) for c in (v.get("clubs") or {}).values())
+    v = max(political, key=rebels, default=None)
+    if v and rebels(v):
+        fact("Największy bunt", rebels(v), "posłów wbrew swoim klubom w jednym głosowaniu",
+             f"Najwięcej posłów głosowało wbrew swoim klubom ({rebels(v)}) w głosowaniu: {v['topic']} — {v['agenda'][:80]}.")
+    for v in (st.get("close") or [])[1:3]:
+        fact("Rozstrzygnięte o włos", f"{v['yes']}:{v['no']}", v["topic"][:60],
+             f"Jedno z najbliższych rozstrzygnięć: {v['topic']} ({v['yes']} za, {v['no']} przeciw).")
+    unanimous = sum(1 for v in big if v["no"] == 0 and v["abstain"] == 0)
+    fact("Jednomyślnie", unanimous, "głosowań bez głosu przeciw i wstrzymań",
+         f"{unanimous} głosowań tej kadencji odbyło się bez ani jednego głosu przeciw czy wstrzymującego się.")
+    against = sum(1 for v in votes if v.get("against_rec"))
+    if against:
+        fact("Wbrew komisji", against, "rozstrzygnięć niezgodnych z rekomendacją komisji",
+             f"{against} razy Sejm rozstrzygnął poprawkę lub wniosek wbrew rekomendacji komisji.")
+    days = {}
+    for v in votes:
+        days[v["date"][:10]] = days.get(v["date"][:10], 0) + 1
+    if days:
+        day, n = max(days.items(), key=lambda kv: kv[1])
+        fact("Maraton głosowań", n, f"głosowań w jeden dzień ({day[8:10]}.{day[5:7]}.{day[:4]})",
+             f"Najwięcej głosowań w jeden dzień: {n}, {day}.")
+
+    # ---- clubs: one card each, and pairs
+    for c in sorted(clubs, key=lambda c: -len(c["members"])):
+        sp = c.get("speeches") or {}
+        out.append({"kind": "fact", "title": "Klub w liczbach", "value": c["id"],
+                    "unit": c["name"] if c["name"] != c["id"] else "",
+                    "club": c["id"], "text": f"{c['name']}: spójność {pct(c['cohesion'])}, wygrane głosowania {pct(c['effectiveness'])}.",
+                    "stats": [["posłów", str(len(c["members"]))], ["spójność", pct(c["cohesion"])],
+                              ["wygrane", pct(c["effectiveness"])], ["wystąpienia", str((sp.get("spoken") or 0) + (sp.get("written") or 0))]]})
+    pairs = [(c["id"], o["club"], o["rate"]) for c in clubs for o in c["agreement"]
+             if o["club"] in {x["id"] for x in clubs} and c["id"] < o["club"]]
+    if pairs:
+        a_, b_, r = max(pairs, key=lambda p: p[2])
+        fact("Najbliżsi sojusznicy", pct(r), f"zgodnych linii {a_} i {b_}", f"Najczęściej tak samo głosują {a_} i {b_}: {pct(r)} głosowań.", a_)
+        a_, b_, r = min(pairs, key=lambda p: p[2])
+        fact("Ogień i woda", pct(r), f"zgodnych linii {a_} i {b_}", f"Najrzadziej tak samo głosują {a_} i {b_}: tylko {pct(r)} głosowań.", a_)
+    proposed = ctx.get("by_proposer") or {}
+    rates = [(club, sum(1 for v in vs if v["outcome_class"] == "adopted"), len(vs)) for club, vs in proposed.items()
+             if len(vs) >= 20 and club in {x["id"] for x in clubs}]
+    if rates:
+        club, ok, n = max(rates, key=lambda r: r[1] / r[2])
+        fact("Skuteczne poprawki", pct(ok / n), f"poprawek i wniosków {club} przechodzi", f"Poprawki i wnioski {club} przechodzą najczęściej: {ok} z {n}.", club)
+        club, ok, n = min(rates, key=lambda r: r[1] / r[2])
+        fact("Poprawki do kosza", pct(ok / n), f"poprawek i wniosków {club} przechodzi", f"Poprawki i wnioski {club} przechodzą najrzadziej: {ok} z {n}.", club)
 
     frozen = (ctx.get("frozen") or {}).get("bills") or []
     if frozen:
