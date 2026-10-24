@@ -431,7 +431,7 @@ if (typeof document !== "undefined") (() => {
             return el("li", {}, link(`${ROOT}posel/${r.id}.html#interpelacje`,
               L.questions.replace("{n}", w.n).replace("{recent}", w.recent)), ` (${w.to.join(", ")})`);
           }
-          return el("li", {}, `${L.bills.replace("{n}", w.n)}: `,
+          return el("li", {}, `${L.bills.replace("{n}", w.n).replace("{topic}", nameOf(w.topic))}: `,
             link(`${ROOT}ustawa/${w.root}.html`, data.bills[w.root] || w.root));
         });
         return el("li", { className: "card mp-card" },

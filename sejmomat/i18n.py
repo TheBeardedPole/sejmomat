@@ -586,7 +586,7 @@ EN = {
         "Pick your interests and we will suggest MPs who work on those topics.",
     "Powiązane tematy": "Related topics", "Dlaczego może Cię zainteresować:": "Why you may want to follow them:", "członek": "member",
     "{n} interpelacji i zapytań, w tym {recent} w ostatnich 90 dniach": "{n} interpellations and questions, {recent} of them in the last 90 days",
-    "Wśród autorów projektów w tym temacie ({n}), ostatnio": "Among the authors of bills on this topic ({n}), most recently",
+    "Wśród autorów projektów w temacie {topic} ({n}), ostatnio": "Among the authors of bills on {topic} ({n}), most recently",
     "Zobacz profil posła": "See the MP's profile", "i {n} więcej na profilu posła": "and {n} more on the MP's profile", "Wszystkie posiedzenia": "All sittings", "Wszystkie ustawy": "All bills",
     "Statystyki": "Statistics",
     # stages of a bill (the Sejm's names), shown on the home page
