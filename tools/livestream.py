@@ -138,7 +138,7 @@ def captions(shown, items, tags, title):
     text, prints = items.get(n, (re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("title") or ""), []))
     topic = next((", ".join(tags[p]) for p in prints if p in tags), "")
     head = f"Punkt {n} · {text}" if n else text
-    lines = [textwrap.shorten(head, 104, placeholder="…")]   # one line, the bar is slim
+    lines = [textwrap.shorten(head, 220, placeholder="…")]   # the caption box fits it to two lines
     result = "PRZYJĘTO" if passed(v) else "ODRZUCONO"
     vote = f"Głosowanie nr {v['votingNumber']} · {v.get('topic') or ''} · {result}: {v['yes']} za / {v['no']} przeciw / {v['abstain']} wstrz."
     return "\n".join(lines), (f"Temat: {topic}" if topic else " "), textwrap.shorten(vote, 110, placeholder="…")
@@ -434,7 +434,7 @@ def main():
                 topic = (f"Na mównicy od {speaker['at']:%H:%M} · {sp['value']} wystąpień w kadencji · "
                          f"frekwencja {stats.get('frekwencja')} · wyłamania z linii klubu: {stats.get('wyłamania')}")
             else:
-                item, topic = title, "Debata · mówca pojawi się tu, gdy transmisja go przedstawi"
+                item, topic = title, "Mówca pojawi się tu, gdy transmisja go przedstawi"
         panel = card = None
         if recent:
             head, pages = diff_panel(shown[-1])

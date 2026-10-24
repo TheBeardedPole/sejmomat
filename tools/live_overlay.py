@@ -23,7 +23,7 @@ YELLOW = (255, 212, 121)
 LIGHT_BLUE = (156, 195, 255)
 RED, GREEN = (255, 154, 154), (155, 232, 171)
 PANEL = (10, 16, 28, 214)
-BAR = 124            # the caption bar along the bottom
+BOX_MIN, BOX_MAX = 460, 820   # the caption box in the bottom left: its width, as its text needs
 CARD_SCALE = 0.7     # cards are drawn at full size, then shrunk, so they stay out of the way
 # club colours as on the stats page (the brighter, dark-background set)
 CLUBS = {"KO": "#f07a45", "PiS": "#4a90e8", "RozwojPlus": "#22c08a", "Polska2050": "#f2b01c", "Polska2050-TD": "#f2b01c",
@@ -98,25 +98,79 @@ class Overlay:
             self._fonts[key] = ImageFont.truetype(self.bold_path if bold else self.regular_path, size)
         return self._fonts[key]
 
-    # ---- the caption bar, the label and the logo: redrawn only when the text changes
+    # ---- the caption box, the label and the logo: redrawn only when the text changes
+    def fit(self, text, font, width):
+        """The text, cut short with "…" to fit the width."""
+        if font.getlength(text) <= width:
+            return text
+        while text and font.getlength(text + "…") > width:
+            text = text[:-1]
+        return text.rstrip(" ·,:") + "…"
+
+    def wrap(self, text, font, width, lines=2):
+        """The text in at most `lines` lines of the width, the last cut short if need be."""
+        out, words = [], text.split()
+        while words and len(out) < lines - 1:
+            n = len(words)
+            while n > 1 and font.getlength(" ".join(words[:n])) > width:
+                n -= 1
+            out.append(" ".join(words[:n]))
+            words = words[n:]
+        if words:
+            out.append(self.fit(" ".join(words), font, width))
+        return out
+
     def base(self, item, topic, vote, chip=None):
-        """chip: a club, drawn as a coloured chip after the first line (the speaker's name)."""
+        """A lower third in the bottom left, in the cards' style: a strip with what is on
+        ("Punkt 17", "Na mównicy"), then the headline (the item, or the speaker with their
+        club's chip), the topic and the vote. chip: the speaker's club."""
         key = (item, topic, vote, chip)
         if self._base[0] == key:
             return self._base[1]
         im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         d = ImageDraw.Draw(im)
-        bar = BAR
-        d.rectangle((0, H - bar, W, H), fill=(0, 0, 0, 170))
-        d.rectangle((0, H - bar, 5, H), fill=ACCENT + (255,))
         first = item.split("\n")[0]
-        d.text((24, H - bar + 12), first, font=self.font(22, True), fill="white")
         if chip:
-            x = d.textbbox((24, H - bar + 12), first, font=self.font(22, True))[2] + 14
-            club_chip(d, x, H - bar + 16, chip, self.font(16, True), self.font(13, True))
-        if topic.strip():
-            d.text((24, H - bar + 48), topic, font=self.font(17), fill=LIGHT_BLUE)
-        d.text((24, H - 36), vote, font=self.font(19), fill=YELLOW)
+            kicker, headline = "Na mównicy", first
+        elif " · " in first:
+            kicker, headline = first.split(" · ", 1)
+        else:
+            kicker, headline = "Debata", first
+        f_head, f_line, f_kick = self.font(21, True), self.font(16), self.font(15, True)
+        pad, top = 20, 44
+        lines = [(t, f_line, c) for t, c in ((topic, LIGHT_BLUE), (vote, YELLOW)) if t and t.strip()]
+        tags = 0
+        if chip:
+            # the chip and tag, drawn off-image first to measure them
+            tags = club_chip(ImageDraw.Draw(Image.new("RGBA", (400, 40))), 0, 8, chip, self.font(16, True), self.font(13, True)) + 14
+        want = max([f_head.getlength(headline) + tags] + [f.getlength(t) for t, f, _ in lines])
+        width = round(min(BOX_MAX, max(BOX_MIN, want + 2 * pad + 2)))
+        inner = width - 2 * pad
+        # a long agenda item takes two lines; a speaker's name one, with the chip after it
+        heads = [self.fit(headline, f_head, inner - tags)] if chip else self.wrap(headline, f_head, inner)
+        height = top + 30 * len(heads) + 2 + 24 * len(lines) + 12
+        x0, y0 = 20, H - height - 18
+        box = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+        b = ImageDraw.Draw(box)
+        colour = club_colour(chip) if chip else ACCENT
+        b.rounded_rectangle((0, 0, width - 1, height - 1), 16, fill=(12, 20, 36, 230))
+        kick = kicker.upper()
+        sw = round(f_kick.getlength(kick)) + 70
+        b.polygon([(0, 0), (sw, 0), (sw - 22, 32), (0, 32)], fill=colour + (255,))
+        b.rounded_rectangle((0, 0, 40, 32), 16, fill=colour + (255,))
+        b.rectangle((0, 16, 40, 32), fill=colour + (255,))
+        b.text((pad, 16), kick, font=f_kick, fill="white", anchor="lm")
+        y = top
+        for line in heads:
+            b.text((pad, y), line, font=f_head, fill="white")
+            y += 30
+        if chip:
+            club_chip(b, pad + round(f_head.getlength(heads[0])) + 14, top + 4, chip, self.font(16, True), self.font(13, True))
+        y += 2
+        for text, f, c in lines:
+            b.text((pad, y), self.fit(text, f, inner), font=f, fill=c)
+            y += 24
+        im.alpha_composite(box, (x0, y0))
         f = self.font(18)
         box = d.textbbox((28, 24), self.label, font=f)
         d.rounded_rectangle((box[0] - 8, box[1] - 7, box[2] + 8, box[3] + 7), 6, fill=(0, 0, 0, 153))
@@ -270,10 +324,10 @@ class Overlay:
         return self._place(base, t, length)
 
     def _place(self, base, t, length):
-        """Shrunk, in the bottom right corner above the bar, sliding in and out."""
+        """Shrunk, in the bottom right corner, beside the caption box, sliding in and out."""
         base = base.resize((round(base.width * CARD_SCALE), round(base.height * CARD_SCALE)), Image.LANCZOS)
         width, h = base.size
-        x_end, y = W - width - 20, H - BAR - h - 12
+        x_end, y = W - width - 20, H - h - 18
         if t < 0.6:
             x = W + 10 - (W + 10 - x_end) * ease_out_back(clamp(t / 0.6))
         elif t > length - 0.5:

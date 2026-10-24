@@ -185,7 +185,7 @@ Live on sejmomat.pl:
 
 - **Own stream with captions** (`tools/livestream.py`, run locally, not part of
   the site): the Sejm's plenary stream through ffmpeg, ~100 s behind live (or a
-  replay from `--at "YYYY-MM-DD HH:MM"`), with a caption bar for the agenda item,
+  replay from `--at "YYYY-MM-DD HH:MM"`), with a caption box in the bottom left (the cards' style) for the agenda item,
   its tags and the latest vote with its result, each shown when the picture
   reaches it (the clock is ffmpeg's position, not the wall clock). Out to a
   preview window, a file, or RTMP (`SEJMOMAT_RTMP`, `--out rtmp`). The live DVR
