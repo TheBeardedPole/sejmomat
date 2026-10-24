@@ -25,8 +25,10 @@ fi
 chown root:sejmomat /etc/sejmomat-live.env
 chmod 640 /etc/sejmomat-live.env
 
-cp /opt/sejmomat/tools/vps/sejmomat-live.service /etc/systemd/system/
+cp /opt/sejmomat/tools/vps/sejmomat-live.service /opt/sejmomat/tools/vps/sejmomat-pull.service \
+   /opt/sejmomat/tools/vps/sejmomat-pull.timer /etc/systemd/system/
 systemctl daemon-reload
+systemctl enable --now sejmomat-pull.timer
 
 echo
 echo "Done. Next:"

@@ -39,6 +39,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from sejmomat import agenda as agenda_mod  # noqa: E402  (the site's agenda parser)
+from sejmomat import model  # noqa: E402
 from sejmomat.model import link_amendments  # noqa: E402  (what an amendment changes, as on vote pages)
 from live_overlay import H, W, Overlay  # noqa: E402
 from live_speaker import BAND, Recogniser, load_mps, read  # noqa: E402
@@ -217,8 +218,13 @@ def diff_panel(v):
     text, in pages of DIFF_LINES - 1 lines; ("", []) otherwise. Needs the report prints
     in data/prints (git pull)."""
     key = (v["sitting"], v["votingNumber"])
+    if key in _diffs and (_diffs[key][1][1] or time.time() - _diffs[key][0] < 60):
+        return _diffs[key][1]
     if key in _diffs:
-        return _diffs[key]
+        # tried before, without the print: forget what the site's code remembers of missing prints
+        for f in vars(model).values():
+            if hasattr(f, "cache_clear"):
+                f.cache_clear()
     out = ("", [])
     try:
         linked = [a for a in link_amendments({**v, "prints": None}) if a["item"]]
@@ -277,7 +283,8 @@ def diff_panel(v):
             pages = pages[:MAX_PAGES]
             pages[-1] = pages[-1][:per - 1] + [("w", f"… dalej w druku nr {a['source']}")]
         out = (f"Co zmienia {what} {a['number']}" + (f" (druk {a['source']})" if a["source"] else ""), pages)
-    _diffs[key] = out
+    # nothing found is tried again a minute later: the report print may not be pulled yet
+    _diffs[key] = (time.time(), out)
     return out
 
 

@@ -197,7 +197,8 @@ Live on sejmomat.pl:
   or buycoffee (not with `--demo`).
   On a server: `tools/vps/setup.sh` (Debian/Ubuntu, clones to `/opt/sejmomat`)
   installs the `sejmomat-live` systemd service (`--wait`: waits for the day's
-  sitting; pulls the repository on each start; key in `/etc/sejmomat-live.env`);
+  sitting; key in `/etc/sejmomat-live.env`) and `sejmomat-pull.timer` (git pull
+  every 10 min, for the amendment prints CI commits on sitting days);
   `tools/vps/test-stream.sh` sends a replay to the same address as a test.
 
 Waiting on the owner:
