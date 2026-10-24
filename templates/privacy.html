@@ -27,6 +27,8 @@ przetwarzanych w związku z działaniem strony.</p>
       i są przechowywane przez okres stosowany przez dostawcę hostingu. Nie łączymy ich z innymi danymi.</li>
   <li><strong>Pamięć przeglądarki.</strong> W pamięci lokalnej przeglądarki (localStorage) zapisujemy Twój wybór z paska zgody.
       Jeśli użyjesz przełącznika trybu jasnego i ciemnego, zapisujemy tam też ten wybór — to ustawienie, o które prosisz, więc nie wymaga zgody.
+      Tak samo z zainteresowaniami wybranymi na stronie głównej (lub informacją, że pominięto ten krok) i datą ich ostatniego
+      potwierdzenia: służą tylko do pokazania wydarzeń w tych tematach, nie są nigdzie wysyłane i nie trafiają do żadnych statystyk.
       Tylko jeśli się zgodzisz, zapisujemy tam także licznik odwiedzonych podstron i datę zamknięcia informacji o możliwości
       wsparcia projektu — po to, by pojawiała się rzadko i nie wracała po zamknięciu. Dane te nie opuszczają Twojego urządzenia.
       Wybór możesz zmienić w każdej chwili linkiem „Ustawienia zgody” w stopce.</li>
@@ -35,9 +37,10 @@ przetwarzanych w związku z działaniem strony.</p>
   <li><strong>Nagrania wystąpień i posiedzeń komisji.</strong> Wideo z wystąpień posłów i z posiedzeń komisji jest odtwarzane
       bezpośrednio z serwera transmisji Sejmu (sejm.c.blueonline.tv) i dopiero po kliknięciu „Wideo” lub „Nagranie”; ten serwer
       otrzymuje wtedy Twój adres IP.</li>
-  <li><strong>Transmisja obrad.</strong> W dni posiedzeń Sejmu strona główna i strona trwającego posiedzenia pytają API Sejmu
-      (api.sejm.gov.pl) o dzisiejszą transmisję, a w czasie obrad odtwarzają ją (bez dźwięku) z serwera transmisji Sejmu;
-      serwery Sejmu otrzymują wtedy Twój adres IP.</li>
+  <li><strong>Transmisje.</strong> Strona główna pyta API Sejmu (api.sejm.gov.pl) o bieżące i najbliższe transmisje, a gdy
+      według planu któraś powinna trwać, sprawdza na serwerze transmisji Sejmu, czy rzeczywiście się rozpoczęła. W dni posiedzeń
+      strona główna i strona trwającego posiedzenia odtwarzają obrady (bez dźwięku) z serwera transmisji Sejmu. Serwery Sejmu
+      otrzymują wtedy Twój adres IP; nie wysyłamy im niczego więcej.</li>
   <li><strong>Gry (Sejmdle).</strong> Postęp w codziennych grach jest zapisywany wyłącznie w pamięci Twojej przeglądarki,
       bo bez tego gra nie mogłaby pamiętać dzisiejszego wyniku.</li>
   <li><strong>Ranking „Twarze w minutę”.</strong> Jeśli po rundzie zapiszesz wynik, na serwerze Sejmomatu zapisujemy wpisany przez
@@ -83,6 +86,8 @@ the data processed in connection with the site.</p>
       applied by the hosting provider. We do not combine them with other data.</li>
   <li><strong>Browser storage.</strong> The browser's local storage (localStorage) holds your choice from the consent bar.
       If you use the light/dark switch, it also holds that choice — a setting you asked for, so it needs no consent.
+      The same goes for the interests you pick on the home page (or the note that you skipped that step) and the date you last
+      confirmed them: they are used only to show events in those topics, are never sent anywhere and never go into any statistics.
       Only if you agree, it also holds a count of pages you have viewed and the date you closed the note about supporting the
       project — so that the note appears rarely and does not come back after you close it. This never leaves your device.
       You can change your choice at any time with the “Consent settings” link in the footer.</li>
@@ -91,9 +96,10 @@ the data processed in connection with the site.</p>
   <li><strong>Speech and committee videos.</strong> Videos of MPs' speeches and of committee meetings play directly from the
       Sejm's streaming server (sejm.c.blueonline.tv), and only after you click “Video” or “Recording”; that server then receives
       your IP address.</li>
-  <li><strong>Live stream of sittings.</strong> On the Sejm's sitting days the home page and the current sitting's page ask
-      the Sejm's API (api.sejm.gov.pl) for today's stream, and while the Sejm sits they play it (muted) from the Sejm's
-      streaming server; the Sejm's servers then receive your IP address.</li>
+  <li><strong>Broadcasts.</strong> The home page asks the Sejm's API (api.sejm.gov.pl) for current and upcoming broadcasts, and
+      when one should be on air according to the schedule, it checks with the Sejm's streaming server whether it has actually
+      started. On sitting days the home page and the current sitting's page play the sitting (muted) from the Sejm's streaming
+      server. The Sejm's servers then receive your IP address; nothing else is sent to them.</li>
   <li><strong>Games (Sejmdle).</strong> Progress in the daily games is kept only in your browser's storage, because
       otherwise the game could not remember today's result.</li>
   <li><strong>"Twarze w minutę" leaderboard.</strong> If you save a result after a round, Sejmomat's server stores the nickname

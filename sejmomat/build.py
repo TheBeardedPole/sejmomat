@@ -9,7 +9,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import agenda, analysis, authors, committees, fillgaps, pending, processes, questions, social, speeches
+from . import agenda, analysis, authors, committees, fillgaps, interests, pending, processes, questions, social, speeches
 from .stamp import stamp
 from .facts import facts
 from .stats import compute as compute_voting_stats
@@ -387,6 +387,8 @@ def build_context():
         for g in a["groups"]:
             for item in g["items"]:
                 item["bill"] = next((b for b in map(bill_of_print, item["prints"]) if b), None)
+                # the process the item's prints belong to, voted on yet or not (sejmomat/interests.py)
+                item["root"] = next((((print_meta(p) or {}).get("processPrint") or [p])[0] for p in item["prints"]), None)
                 # each note as pieces: (text, MP id when the text is an MP's name)
                 item["notes"] = [[(part, mp_ids.get(part)) for part in re.split(f"({name_re.pattern})", note) if part]
                                  for note in item["notes"]]
@@ -472,6 +474,7 @@ def build_context():
         "committee_rows": committee_rows, "pending_amendments": pending_amendments, "pending_by_root": pending_by_root,
         "pending_prints": {g["print"] for g in pending_amendments}, "frozen": frozen, "questions_summary": questions_summary, "fill_gaps": fill_gaps, "committee_names": {c["code"]: c["name"] for c in committee_rows},
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
+        "interest_list": [{"id": i["id"], "pl": i["pl"], "en": i["en"]} for i in interests.load()],
         "generated": datetime.now(),
     }
 
@@ -1096,6 +1099,12 @@ def run():
             json.dumps(items, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (SITE / "dane" / "poslowie.json").write_text(json.dumps(
         {m["id"]: m["firstLastName"] for m in ctx["mps"].values()}, ensure_ascii=False, separators=(",", ":")))
+
+    # Interests on the home page: recent events and suggested MPs per topic (sejmomat/interests.py, static/home.js).
+    committee_list = json.loads((DATA / "committees.json").read_text(encoding="utf-8")) if (DATA / "committees.json").exists() else []
+    (SITE / "dane" / "zainteresowania.json").write_text(json.dumps(
+        interests.build(ctx, processes.load(), committee_list, today=ctx["generated"].date(), en=translator("en")),
+        ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     write_api({**ctx, "print_meta": print_meta, "source_items": source_items}, ctx["generated"])
 

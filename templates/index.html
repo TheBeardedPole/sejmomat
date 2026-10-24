@@ -4,15 +4,69 @@
 {% block generated %}{{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.{% endblock %}
 {% block description %}{{ _("Głosowania w Sejmie: pokazane jak należy.") }} {{ _("Poprawki w odpowiednim kontekście, lepsze statystyki, podsumowania danych.") }}{% endblock %}
 {% block content %}
+{# The broadcast: live, scheduled, next or none (static/home.js, from the Sejm's API). Without
+   scripts it stays a link to the Sejm's broadcasts. #}
+<section class="broadcast" id="transmisja" aria-live="polite"
+  data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/videos"
+  data-itv="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/transmisje.xsp"
+  data-upcoming="{{ root }}nadchodzace-posiedzenie.html"
+  data-sitting-dates="{{ upcoming.dates | join(',') if upcoming else '' }}"
+  data-labels="{{ {"title": _("Transmisje Sejmu"), "live": _("Na żywo — trwa transmisja z Sejmu"),
+                   "watch": _("Oglądaj transmisję"), "others": _("Inne trwające transmisje"),
+                   "scheduled": _("Transmisja zaplanowana na teraz"), "from": _("od"),
+                   "unconfirmed": _("Nie potwierdziliśmy jeszcze, że transmisja się rozpoczęła."),
+                   "next": _("Następna transmisja z Sejmu"), "nextPlenary": _("Najbliższe posiedzenie Sejmu"),
+                   "details": _("Zobacz szczegóły"), "check": _("Sprawdź transmisje Sejmu"),
+                   "none": _("Nie mamy obecnie potwierdzonego terminu następnej transmisji."),
+                   "error": _("Nie udało się pobrać danych o transmisjach z API Sejmu.")} | tojson | forceescape }}">
+  <p class="broadcast-head"><strong>{{ _("Transmisje Sejmu") }}</strong></p>
+  <p class="broadcast-actions"><a href="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/transmisje.xsp" target="_blank" rel="noopener">{{ _("Sprawdź transmisje Sejmu") }} ↗</a></p>
+</section>
+
 <h1>{{ _("Głosowania w Sejmie: pokazane jak należy.") }}</h1>
 <p class="tagline">{{ _("Poprawki w odpowiednim kontekście, lepsze statystyki, podsumowania danych.") }}</p>
 
+{# The reader's interests and what happened in them (static/home.js, dane/zainteresowania.json).
+   Shown only with scripts; the choice stays in the browser. #}
+<div id="dla-ciebie" class="for-you" hidden data-root="{{ root }}" data-src="{{ site_root }}dane/zainteresowania.json"
+  data-interests="{{ interest_list | tojson | forceescape }}"
+  data-labels="{{ {"askTitle": _("Co Cię interesuje?"),
+                   "askText": _("Wybierz tematy, które chcesz śledzić. Pokażemy Ci najważniejsze wydarzenia i głosowania z tych obszarów."),
+                   "save": _("Zapisz moje zainteresowania"), "skip": _("Pomiń"), "cancel": _("Anuluj"),
+                   "pickOne": _("Wybierz co najmniej jeden temat albo pomiń ten krok."),
+                   "privacy": _("Wybór zostaje w tej przeglądarce. Nie wysyłamy go nigdzie."),
+                   "pick": _("Wybierz zainteresowania"),
+                   "inviteText": _("Możesz wybrać tematy, które Cię interesują — pokażemy wtedy, co się w nich wydarzyło."),
+                   "edit": _("Zmień zainteresowania"),
+                   "remindTitle": _("Czy Twoje zainteresowania się zmieniły?"), "remindLast": _("Ostatnio interesowały Cię"),
+                   "remindYes": _("Tak, chcę je zmienić"), "remindNo": _("Nie, bez zmian"),
+                   "forYou": _("Ważne dla Ciebie"), "forYouText": _("Zobacz, co wydarzyło się w Sejmie w sprawach, które obserwujesz."),
+                   "following": _("Obserwujesz"),
+                   "feedTitle": _("Ostatnie wydarzenia w Twoich tematach"),
+                   "feedText": _("Głosowania, etapy prac nad projektami i punkty porządku obrad z ostatnich {n} dni, od najnowszych."),
+                   "more": _("Pokaż więcej"), "because": _("Widzisz to, bo obserwujesz"), "committee": _("komisja:"),
+                   "empty": _("Nie znaleźliśmy nowych wydarzeń w wybranych przez Ciebie tematach."),
+                   "general": _("Co dzieje się w Sejmie"),
+                   "failed": _("Nie udało się wczytać wydarzeń."), "retry": _("Spróbuj ponownie"),
+                   "kinds": {"vote": _("Głosowanie"), "stage": _("Etap prac"), "agenda": _("W porządku obrad")},
+                   "mpsTitle": _("Posłowie, którzy mogą Cię zainteresować"),
+                   "mpsText": _("Dobór według udokumentowanej pracy w wybranych tematach: funkcji w komisjach, interpelacji i zapytań oraz podpisanych projektów — nie według poglądów ani klubu."),
+                   "mpsNone": _("Za mało danych o pracy posłów w tych tematach, by kogoś zaproponować."),
+                   "mpsStart": _("Wybierz zainteresowania, a zaproponujemy posłów, którzy zajmują się tymi tematami."),
+                   "topics": _("Powiązane tematy"), "whyMp": _("Dlaczego może Cię zainteresować:"), "member": _("członek"),
+                   "questions": _("{n} interpelacji i zapytań, w tym {recent} w ostatnich 90 dniach"),
+                   "bills": _("Wśród autorów projektów w tym temacie ({n}), ostatnio"),
+                   "moreReasons": _("i {n} więcej na profilu posła"),
+                   "profile": _("Zobacz profil posła")} | tojson | forceescape }}"></div>
+
+<section id="w-sejmie" aria-labelledby="w-sejmie-h">
+<h2 id="w-sejmie-h">{{ _("Co dzieje się w Sejmie") }}</h2>
 {{ live_box() }}
 {{ upcoming_card() }}
 
 {% set L = latest %}
-<h2>{{ _("Ostatnie posiedzenie") }}: <a href="{{ root }}posiedzenie/{{ L.sitting }}.html">{{ sitting_name(L.sitting) }}</a>
-  <span class="muted" style="font-weight:400">· {{ L.votes[0].date | date_pl }}{% if L.votes[-1].date[:10] != L.votes[0].date[:10] %} – {{ L.votes[-1].date | date_pl }}{% endif %}</span></h2>
+<h3>{{ _("Ostatnie posiedzenie") }}: <a href="{{ root }}posiedzenie/{{ L.sitting }}.html">{{ sitting_name(L.sitting) }}</a>
+  <span class="muted" style="font-weight:400">· {{ L.votes[0].date | date_pl }}{% if L.votes[-1].date[:10] != L.votes[0].date[:10] %} – {{ L.votes[-1].date | date_pl }}{% endif %}</span></h3>
 <div class="grid">
   <div class="card stat"><b>{{ L.votes | length }}</b>{{ _("głosowań") }}</div>
   <div class="card stat"><b>{{ L.bills | length }}</b>{{ _("projektów rozstrzygniętych w całości") }}</div>
@@ -37,4 +91,9 @@
 {% endfor %}
 </tbody></table></div>
 {% endif %}
+<p class="more-links"><a href="{{ root }}posiedzenia.html">{{ _("Wszystkie posiedzenia") }} →</a> · <a href="{{ root }}ustawy.html">{{ _("Wszystkie ustawy") }} →</a> · <a href="{{ root }}statystyki.html">{{ _("Statystyki") }} →</a></p>
+</section>
+
+<section id="poslowie-dla-ciebie" class="for-you-mps" hidden></section>
+<script src="{{ site_root }}static/home.js?v={{ static_version('home.js') }}" defer></script>
 {% endblock %}

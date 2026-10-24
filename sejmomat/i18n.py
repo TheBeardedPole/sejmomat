@@ -548,6 +548,54 @@ EN = {
     "Wyszukiwarka wymaga JavaScriptu.": "Search requires JavaScript.",
     "Szukaj ustaw, poprawek, posłów…": "Search bills, amendments, MPs…",
     "Indeks wyszukiwania nie jest jeszcze zbudowany.": "The search index has not been built yet.",
+    # home page: broadcasts, interests, events in the reader's topics, suggested MPs (static/home.js)
+    "Transmisje Sejmu": "Sejm broadcasts", "Na żywo — trwa transmisja z Sejmu": "Live — the Sejm is on air now",
+    "Oglądaj transmisję": "Watch the broadcast", "Inne trwające transmisje": "Other broadcasts under way",
+    "Transmisja zaplanowana na teraz": "Broadcast scheduled for now", "od": "from",
+    "Nie potwierdziliśmy jeszcze, że transmisja się rozpoczęła.": "We have not yet confirmed that the broadcast has started.",
+    "Następna transmisja z Sejmu": "Next broadcast from the Sejm", "Najbliższe posiedzenie Sejmu": "Next sitting of the Sejm",
+    "Zobacz szczegóły": "See the details", "Sprawdź transmisje Sejmu": "See the Sejm's broadcasts",
+    "Nie mamy obecnie potwierdzonego terminu następnej transmisji.": "There is no confirmed date for the next broadcast at the moment.",
+    "Nie udało się pobrać danych o transmisjach z API Sejmu.": "Could not get broadcast information from the Sejm's API.",
+    "Co Cię interesuje?": "What are you interested in?",
+    "Wybierz tematy, które chcesz śledzić. Pokażemy Ci najważniejsze wydarzenia i głosowania z tych obszarów.":
+        "Pick the topics you want to follow. We will show you the main events and votes in them.",
+    "Zapisz moje zainteresowania": "Save my interests", "Pomiń": "Skip", "Anuluj": "Cancel",
+    "Wybierz co najmniej jeden temat albo pomiń ten krok.": "Pick at least one topic, or skip this step.",
+    "Wybór zostaje w tej przeglądarce. Nie wysyłamy go nigdzie.": "Your choice stays in this browser. We do not send it anywhere.",
+    "Wybierz zainteresowania": "Pick your interests",
+    "Możesz wybrać tematy, które Cię interesują — pokażemy wtedy, co się w nich wydarzyło.":
+        "You can pick the topics you are interested in, and we will show what happened in them.",
+    "Zmień zainteresowania": "Change interests",
+    "Czy Twoje zainteresowania się zmieniły?": "Have your interests changed?", "Ostatnio interesowały Cię": "Lately you followed",
+    "Tak, chcę je zmienić": "Yes, change them", "Nie, bez zmian": "No, keep them",
+    "Ważne dla Ciebie": "For you", "Zobacz, co wydarzyło się w Sejmie w sprawach, które obserwujesz.":
+        "What happened in the Sejm in the matters you follow.", "Obserwujesz": "You follow",
+    "Ostatnie wydarzenia w Twoich tematach": "Latest in your topics",
+    "Głosowania, etapy prac nad projektami i punkty porządku obrad z ostatnich {n} dni, od najnowszych.":
+        "Votes, stages of bills and agenda items from the last {n} days, newest first.",
+    "Widzisz to, bo obserwujesz": "You see this because you follow", "komisja:": "committee:",
+    "Nie znaleźliśmy nowych wydarzeń w wybranych przez Ciebie tematach.": "We found no new events in the topics you picked.",
+    "Co dzieje się w Sejmie": "What is happening in the Sejm", "Nie udało się wczytać wydarzeń.": "Could not load the events.",
+    "Etap prac": "Stage", "W porządku obrad": "On the agenda",
+    "Posłowie, którzy mogą Cię zainteresować": "MPs you may want to follow",
+    "Dobór według udokumentowanej pracy w wybranych tematach: funkcji w komisjach, interpelacji i zapytań oraz podpisanych projektów — nie według poglądów ani klubu.":
+        "Picked by documented work in your topics: committee roles, interpellations and questions, and bills signed — not by views or club.",
+    "Za mało danych o pracy posłów w tych tematach, by kogoś zaproponować.": "Too little data on MPs' work in these topics to suggest anyone.",
+    "Wybierz zainteresowania, a zaproponujemy posłów, którzy zajmują się tymi tematami.":
+        "Pick your interests and we will suggest MPs who work on those topics.",
+    "Powiązane tematy": "Related topics", "Dlaczego może Cię zainteresować:": "Why you may want to follow them:", "członek": "member",
+    "{n} interpelacji i zapytań, w tym {recent} w ostatnich 90 dniach": "{n} interpellations and questions, {recent} of them in the last 90 days",
+    "Wśród autorów projektów w tym temacie ({n}), ostatnio": "Among the authors of bills on this topic ({n}), most recently",
+    "Zobacz profil posła": "See the MP's profile", "i {n} więcej na profilu posła": "and {n} more on the MP's profile", "Wszystkie posiedzenia": "All sittings", "Wszystkie ustawy": "All bills",
+    "Statystyki": "Statistics",
+    # stages of a bill (the Sejm's names), shown on the home page
+    "Projekt wpłynął do Sejmu": "Bill submitted to the Sejm", "I czytanie na posiedzeniu Sejmu": "First reading in the chamber",
+    "I czytanie w komisjach": "First reading in committee", "II czytanie na posiedzeniu Sejmu": "Second reading",
+    "III czytanie na posiedzeniu Sejmu": "Third reading", "Uchwalono": "Passed", "Stanowisko Senatu": "Senate's position",
+    "Prezydent podpisał ustawę": "Signed by the President", "Wniosek Prezydenta (weto)": "President's veto",
+    "Wycofano": "Withdrawn", "Prezydent skierował ustawę do Trybunału Konstytucyjnego": "Referred by the President to the Constitutional Tribunal",
+    "nie uchwalona ponownie po wecie Prezydenta": "Not passed again after the President's veto",
 }
 
 
