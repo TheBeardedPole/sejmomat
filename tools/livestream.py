@@ -395,6 +395,7 @@ def main():
     time.sleep(1)
 
     picks, turns = {}, {}
+    showing = {"until": 0.0, "speaker": None, "start": 0.0}   # when the card on screen goes; the speaker card's turn
 
     def pick(slot, clock):
         """The card for a slot, chosen once: while an MP has been speaking a while (a longer
@@ -441,16 +442,26 @@ def main():
                 each = max(PAGE_MIN, min(PAGE_SECONDS, PAGE_CYCLE / len(pages)))
                 page = int((clock - warsaw(shown[-1]["date"])).total_seconds() // each) % len(pages)
                 panel = (f"{head} · {page + 1}/{len(pages)}" if len(pages) > 1 else head, pages[page])
-        elif speaker["card"] and 0 <= (clock - speaker["at"]).total_seconds() < SPEAKER_SECONDS:
-            # who has just come to the rostrum
-            card = overlay.card(speaker["card"], (clock - speaker["at"]).total_seconds(), SPEAKER_SECONDS)
-        elif facts:
-            # no vote for a while (a debate, a break): a fun-fact card, one every FACT_EVERY seconds for FACT_SECONDS
+        else:
             ts = clock.timestamp()
-            c = pick(int((ts - first) // every), clock)
-            length = min(TOP_SECONDS if c.get("kind") == "top5" else FACT_SECONDS, every - 1)
-            if (ts - first) % every < length:
-                card = overlay.card(c, (ts - first) % every, length)
+            # a speaker who has just come to the rostrum: their card, but only once the card on
+            # screen has gone (the bar names them at once)
+            if speaker["card"] and showing["speaker"] != speaker["at"]:
+                showing.update(speaker=speaker["at"], start=max(speaker["at"].timestamp(), showing["until"]))
+            since = ts - showing["start"] if showing["speaker"] else -1
+            if speaker["card"] and 0 <= since < SPEAKER_SECONDS:
+                card = overlay.card(speaker["card"], since, SPEAKER_SECONDS)
+            elif facts:
+                # a debate, a break: a fun-fact card, one every FACT_EVERY seconds for FACT_SECONDS;
+                # one whose turn comes while the speaker's card is up is left out, not cut short
+                slot, into = int((ts - first) // every), (ts - first) % every
+                begun = ts - into
+                if not (showing["speaker"] and showing["start"] <= begun < showing["start"] + SPEAKER_SECONDS):
+                    c = pick(slot, clock)
+                    length = min(TOP_SECONDS if c.get("kind") == "top5" else FACT_SECONDS, every - 1)
+                    if into < length:
+                        card = overlay.card(c, into, length)
+                        showing["until"] = begun + length
         return overlay.frame(item, topic, vote, panel, card, chip)
 
     cmd, preview = ffmpeg_command(src, args.out, snapshot)
