@@ -24,6 +24,7 @@ LIGHT_BLUE = (156, 195, 255)
 RED, GREEN = (255, 154, 154), (155, 232, 171)
 PANEL = (10, 16, 28, 214)
 BOX_MIN, BOX_MAX = 460, 820   # the caption box in the bottom left: its width, as its text needs
+STILL = 1.7          # seconds into its turn after which a card stops moving
 CARD_SCALE = 0.7     # cards are drawn at full size, then shrunk, so they stay out of the way
 # club colours as on the stats page (the brighter, dark-background set)
 CLUBS = {"KO": "#f07a45", "PiS": "#4a90e8", "RozwojPlus": "#22c08a", "Polska2050": "#f2b01c", "Polska2050-TD": "#f2b01c",
@@ -91,6 +92,8 @@ class Overlay:
         self._panels = {}
         self._cards = {}
         self._photos = {}
+        self._stills = {}       # cards in their still middle part, drawn once
+        self._last = (None, None)   # (what the last frame showed, its bytes)
 
     def font(self, size, bold=False):
         key = (size, bold)
@@ -337,7 +340,21 @@ class Overlay:
         return base, round(x), y
 
     def card(self, card, t, length):
-        """The card at time t (seconds) of its turn on screen: (image, x, y), or None."""
+        """The card at time t (seconds) of its turn on screen: (image, x, y), or None.
+        Between its entrance (number counted, photo in, shine gone, rows in: STILL s)
+        and its exit a card does not move, so that part is drawn once."""
+        still = STILL <= t <= length - 0.6
+        key = (id(card), length)
+        if still and key in self._stills:
+            return self._stills[key]
+        out = self._card(card, t, length)
+        if still:
+            if len(self._stills) > 20:
+                self._stills.clear()
+            self._stills[key] = out
+        return out
+
+    def _card(self, card, t, length):
         if card.get("kind") == "top5":
             return self.top5(card, t, length)
         base = self.card_base(card).copy()
@@ -392,7 +409,12 @@ class Overlay:
         return self._place(base, t, length)
 
     def frame(self, item, topic, vote, panel=None, card=None, chip=None):
-        """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes."""
+        """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes.
+        Most frames are the same as the one before (nothing moves): those are not redrawn."""
+        which = None if card is None else next((k for k, c in self._stills.items() if c is card), False)
+        key = ((item, topic, vote, chip), panel and (panel[0], tuple(panel[1])), which) if which is not False else None
+        if key is not None and self._last[0] == key:
+            return self._last[1]
         im = self.base(item, topic, vote, chip).copy()
         if panel:
             p = self.panel(*panel)
@@ -402,4 +424,6 @@ class Overlay:
             if x < W:
                 # the part of the card already on screen
                 im.alpha_composite(c.crop((0, 0, min(c.width, W - x), c.height)), (x, y))
-        return im.tobytes()
+        out = im.tobytes()
+        self._last = (key, out)
+        return out

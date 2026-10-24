@@ -544,14 +544,25 @@ def main():
     try:
         # one overlay frame per video frame, each drawn for the moment of the picture it goes on;
         # ffmpeg takes them as it needs them, so this loop keeps pace with the stream by itself
-        i = 0
+        i, drawn, worst, began = 0, 0.0, 0.0, time.monotonic()
         while proc.poll() is None:
             t = i / FPS
             if args.seconds and t > args.seconds:
                 break
             now["clock"] = start + timedelta(seconds=t)
-            proc.stdin.write(frame(now["clock"]))
+            a = time.perf_counter()
+            image = frame(now["clock"])
+            took = time.perf_counter() - a
+            drawn, worst = drawn + took, max(worst, took)
+            proc.stdin.write(image)
             i += 1
+            if i % (60 * FPS) == 0:
+                # once a minute: how long the overlay takes, and whether the picture keeps up
+                # with the clock (behind > 0: the stream is falling behind, video or CPU)
+                behind = time.monotonic() - began - t
+                print(f"{now['clock']:%H:%M:%S} overlay {drawn / (60 * FPS) * 1000:.1f} ms/frame (max {worst * 1000:.0f}),"
+                      f" behind real time {behind:.0f} s", file=sys.stderr, flush=True)
+                drawn = worst = 0.0
     except (KeyboardInterrupt, BrokenPipeError):
         pass
     finally:
