@@ -195,6 +195,10 @@ Live on sejmomat.pl:
   (`sejmomat/facts.py`), one every 90 s, related cards kept apart; during a
   longer speech the speaker's club's Top 5s; one card in 8 points to Sejmdle
   or buycoffee (not with `--demo`).
+  On a server: `tools/vps/setup.sh` (Debian/Ubuntu, clones to `/opt/sejmomat`)
+  installs the `sejmomat-live` systemd service (`--wait`: waits for the day's
+  sitting; pulls the repository on each start; key in `/etc/sejmomat-live.env`);
+  `tools/vps/test-stream.sh` sends a replay to the same address as a test.
 
 Waiting on the owner:
 
