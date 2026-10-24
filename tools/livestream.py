@@ -153,6 +153,7 @@ SPEAKER_SECONDS = 20                                    # how long the card of a
 SPEAKER_BAR = 600                                       # how long the bar names a speaker (until the next one)
 FACT_SECONDS = 12                                       # a fact card is on screen this long…
 FACT_EVERY = 45                                         # …once in this many seconds
+TOP_SECONDS = 16                                        # a Top 5 card, longer to read
 FACTS_URL = "https://sejmomat.pl/api/v1/ciekawostki.json"
 
 
@@ -281,6 +282,7 @@ def main():
     ap.add_argument("--out", default="preview", help='"preview" (window), "rtmp" (SEJMOMAT_RTMP), or a file name')
     ap.add_argument("--seconds", type=int, help="stop after this many seconds")
     ap.add_argument("--quality", type=int, default=720, help="stream quality to read: picture height, e.g. 1080, 720, 384 (default 720)")
+    ap.add_argument("--demo", action="store_true", help="for a demo recording: a card every 13 s, the liveliest ones first")
     ap.add_argument("--no-speakers", action="store_true", help="no speaker recognition (needs tesseract with Polish)")
     ap.add_argument("--font", help="regular font file")
     ap.add_argument("--font-bold", help="bold font file")
@@ -301,13 +303,24 @@ def main():
     src = variant(f"{base}?start={ms(start)}", args.quality)
     n = sitting_number(title)
     items, tags, facts = agenda_items(n) if n else {}, load_tags(), load_facts()
+    every, first = FACT_EVERY, 0
+    if args.demo:
+        # the liveliest cards first, one after another, from the start of the recording
+        kinds = {k: [f for f in facts if f.get("kind") == k] for k in ("top5", "mp", "fact")}
+        club = [f for f in kinds["fact"] if f.get("stats")]
+        lively = [kinds["top5"][:1], kinds["mp"][:1], club[:1], [f for f in kinds["fact"] if "bunt" in f["title"].lower()],
+                  kinds["top5"][1:2], kinds["mp"][1:2]]
+        picked = [f for group in lively for f in group]
+        facts = picked + [f for f in facts if f not in picked]
+        every, first = 13, start.timestamp()
     print(f"{title} · from {start:%H:%M:%S} · sitting {n}, {len(items)} agenda items")
 
     overlay = Overlay(args.font_bold or font(True), args.font or font(False), ROOT / "static" / "logo-white.png",
                       f"SEJMOMAT · {mode} · {title}")
     for card in facts:   # the photos, before the first frame needs them
-        if card.get("kind") == "mp":
-            overlay.photo(card["mp"])
+        for mp in [card.get("mp")] + [r["mp"] for r in card.get("rows") or []]:
+            if mp:
+                overlay.photo(mp)
     votes = []
     lock = threading.Lock()
 
@@ -391,9 +404,10 @@ def main():
         elif facts:
             # no vote for a while (a debate, a break): a fun-fact card, one every FACT_EVERY seconds for FACT_SECONDS
             ts = clock.timestamp()
-            if ts % FACT_EVERY < FACT_SECONDS:
-                c = facts[int(ts // FACT_EVERY) % len(facts)]
-                card = overlay.card(c, ts % FACT_EVERY, FACT_SECONDS)
+            c = facts[int((ts - first) // every) % len(facts)]
+            length = min(TOP_SECONDS if c.get("kind") == "top5" else FACT_SECONDS, every - 1)
+            if (ts - first) % every < length:
+                card = overlay.card(c, (ts - first) % every, length)
         return overlay.frame(item, topic, vote, panel, card, chip)
 
     cmd, preview = ffmpeg_command(src, args.out, snapshot)

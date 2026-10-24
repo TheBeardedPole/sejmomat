@@ -8,12 +8,15 @@ A card: {"kind": "mp" | "fact", "title": what it is about, "value": the big
 number (or text), "unit": what the number counts, "text": the same as one
 sentence; for "mp" also "mp" (id), "name", "club" and "stats": [[label,
 value], ...]; for "fact" an optional "club" for its colour and optional
-"stats" (club cards)}.
+"stats" (club cards); "top5": "title", "text" and "rows": [{"mp", "name",
+"club", "value"}] of five MPs}.
 """
 import re
 from datetime import date
 
 from .card import pct
+
+TOP_EVERY = 4   # a Top 5 after this many other cards
 
 
 def _speeches(r):
@@ -165,4 +168,31 @@ def facts(ctx, today=None):
     q = ctx.get("questions_summary") or {}
     if q.get("mp_median") is not None:
         fact("Typowy poseł", q["mp_median"], "interpelacji i zapytań", f"Typowy poseł złożył w tej kadencji {q['mp_median']} interpelacji i zapytań.")
-    return out
+
+    # ---- Top 5s, one after every TOP_EVERY other cards
+    def top5(title, rows, key, show, text):
+        best = sorted(rows, key=key, reverse=True)[:5]
+        return {"kind": "top5", "title": f"Top 5: {title}", "text": text,
+                "rows": [{"mp": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club") or "niez.",
+                          "value": show(r)} for r in best]}
+    tops = [
+        top5("najwięcej wystąpień", mps, _speeches, lambda r: str(_speeches(r)), "Najwięcej wystąpień na sali w tej kadencji."),
+        top5("interpelacje i zapytania", mps, lambda r: len(r["questions"]), lambda r: str(len(r["questions"])),
+             "Najwięcej interpelacji i zapytań poselskich."),
+        top5("głosy w wyborach", mps, lambda r: r["mp"].get("numberOfVotes") or 0,
+             lambda r: f"{r['mp'].get('numberOfVotes') or 0:,}".replace(",", " "), "Najwięcej głosów w wyborach do Sejmu."),
+        top5("frekwencja", steady, lambda r: (r["turnout"], r["eligible"]), lambda r: pct(r["turnout"]),
+             "Najwyższa frekwencja w głosowaniach (posłowie z co najmniej 1000 głosowań)."),
+        top5("wbrew klubowi", steady, lambda r: r["rebel_count"], lambda r: str(r["rebel_count"]),
+             "Najwięcej wyłamań z linii własnego klubu."),
+        top5("skuteczne poprawki", mps, lambda r: r["signed_adopted"], lambda r: str(r["signed_adopted"]),
+             "Najwięcej przyjętych poprawek i wniosków, pod którymi się podpisali."),
+        top5("zmiany klubu", mps, lambda r: (r["switches"], -len(r["mp"]["firstLastName"])), lambda r: str(r["switches"]),
+             "Najwięcej zmian klubu w tej kadencji."),
+    ]
+    mixed = []
+    for i, card in enumerate(out):
+        mixed.append(card)
+        if (i + 1) % TOP_EVERY == 0 and tops:
+            mixed.append(tops.pop(0))
+    return mixed + tops

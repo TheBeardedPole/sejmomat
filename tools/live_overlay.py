@@ -178,8 +178,80 @@ class Overlay:
         self._cards[key] = im
         return im
 
+    # ---- Top 5 cards: five MPs, the rows coming in one after another
+    def top5_rows(self, card):
+        key = ("rows", id(card))
+        if key in self._cards:
+            return self._cards[key]
+        rows = []
+        medals = [(240, 196, 64), (196, 204, 214), (205, 127, 50)]
+        for i, r in enumerate(card["rows"]):
+            im = Image.new("RGBA", (528, 50), (0, 0, 0, 0))
+            d = ImageDraw.Draw(im)
+            d.rounded_rectangle((0, 0, 527, 49), 10, fill=(255, 255, 255, 18 if i % 2 else 30))
+            badge = medals[i] if i < 3 else (90, 104, 128)
+            d.ellipse((8, 9, 40, 41), fill=badge + (255,))
+            d.text((24, 25), str(i + 1), font=self.font(18, True), fill=(12, 20, 36) if i < 3 else "white", anchor="mm")
+            photo = self.photo(r["mp"])
+            if photo:
+                pw, ph = 34, 42
+                scale = max(pw / photo.width, ph / photo.height)
+                p = photo.resize((max(1, round(photo.width * scale)), max(1, round(photo.height * scale))), Image.LANCZOS)
+                p = p.crop(((p.width - pw) // 2, 0, (p.width - pw) // 2 + pw, ph))
+                mask = Image.new("L", (pw, ph), 0)
+                ImageDraw.Draw(mask).rounded_rectangle((0, 0, pw - 1, ph - 1), 7, fill=255)
+                im.paste(p, (50, 4), mask)
+            d.text((96, 7), r["name"], font=self.font(19, True), fill="white")
+            cb = d.textbbox((96, 30), r["club"], font=self.font(12, True))
+            d.rounded_rectangle((cb[0] - 6, cb[1] - 2, cb[2] + 6, cb[3] + 3), 7, fill=club_colour(r["club"]) + (255,))
+            d.text((96, 30), r["club"], font=self.font(12, True), fill="white")
+            d.text((514, 25), r["value"], font=self.font(24, True), fill=YELLOW, anchor="rm")
+            rows.append(im)
+        self._cards[key] = rows
+        return rows
+
+    def top5(self, card, t, length):
+        key = ("top5", id(card))
+        if key not in self._cards:
+            width, h = 560, 44 + 12 + 5 * 54 + 8
+            im = Image.new("RGBA", (width, h), (0, 0, 0, 0))
+            d = ImageDraw.Draw(im)
+            d.rounded_rectangle((0, 0, width - 1, h - 1), 16, fill=(12, 20, 36, 236))
+            d.polygon([(0, 0), (width - 60, 0), (width - 90, 44), (0, 44)], fill=ACCENT + (255,))
+            d.rounded_rectangle((0, 0, 40, 44), 16, fill=ACCENT + (255,))
+            d.text((20, 9), card["title"].upper(), font=self.font(21, True), fill="white")
+            d.text((width - 50, 12), "TOP", font=self.font(18, True), fill=YELLOW)
+            self._cards[key] = im
+        base = self._cards[key].copy()
+        # each row slides in from the right, one after another
+        for i, row in enumerate(self.top5_rows(card)):
+            k = clamp((t - 0.5 - i * 0.18) / 0.35)
+            if k <= 0:
+                continue
+            x = 16 + round((1 - ease_out_back(k)) * 300)
+            piece = row.copy()
+            if k < 1:
+                piece.putalpha(piece.getchannel("A").point(lambda a, k=k: round(a * min(1, k * 1.6))))
+            base.alpha_composite(piece.crop((0, 0, min(piece.width, base.width - x), piece.height)), (x, 56 + i * 54))
+        return self._place(base, t, length)
+
+    def _place(self, base, t, length):
+        """Shrunk, in the bottom right corner above the bar, sliding in and out."""
+        base = base.resize((round(base.width * CARD_SCALE), round(base.height * CARD_SCALE)), Image.LANCZOS)
+        width, h = base.size
+        x_end, y = W - width - 20, H - BAR - h - 12
+        if t < 0.6:
+            x = W + 10 - (W + 10 - x_end) * ease_out_back(clamp(t / 0.6))
+        elif t > length - 0.5:
+            x = x_end + (W + 10 - x_end) * ease_in(clamp((t - (length - 0.5)) / 0.5))
+        else:
+            x = x_end
+        return base, round(x), y
+
     def card(self, card, t, length):
         """The card at time t (seconds) of its turn on screen: (image, x, y), or None."""
+        if card.get("kind") == "top5":
+            return self.top5(card, t, length)
         base = self.card_base(card).copy()
         d = ImageDraw.Draw(base)
         width, h = base.size
@@ -223,18 +295,7 @@ class Overlay:
             alpha = base.getchannel("A")
             shine.putalpha(Image.composite(shine.getchannel("A"), Image.new("L", base.size, 0), alpha))
             base.alpha_composite(shine)
-        # shrunk, in the bottom right corner just above the bar
-        base = base.resize((round(width * CARD_SCALE), round(h * CARD_SCALE)), Image.LANCZOS)
-        width, h = base.size
-        # slide in from the right with an overshoot, slide out at the end
-        x_end, y = W - width - 20, H - BAR - h - 12
-        if t < 0.6:
-            x = W + 10 - (W + 10 - x_end) * ease_out_back(clamp(t / 0.6))
-        elif t > length - 0.5:
-            x = x_end + (W + 10 - x_end) * ease_in(clamp((t - (length - 0.5)) / 0.5))
-        else:
-            x = x_end
-        return base, round(x), y
+        return self._place(base, t, length)
 
     def frame(self, item, topic, vote, panel=None, card=None, chip=None):
         """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes."""
