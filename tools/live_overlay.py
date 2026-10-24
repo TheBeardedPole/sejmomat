@@ -31,6 +31,35 @@ CLUBS = {"KO": "#f07a45", "PiS": "#4a90e8", "RozwojPlus": "#22c08a", "Polska2050
          "Demokracja": "#79acc4", "Republikanie": "#5a86d8", "Konfederacja_KP": "#a99cf0", "Kukiz15": "#9a9a9a"}
 
 
+# the governing coalition (as in sejmomat/stats.py); every other club is in opposition,
+# independents are neither
+COALITION = {"KO", "Lewica", "Polska2050", "Polska2050-TD", "Centrum", "PSL-TD"}
+
+
+def side(club):
+    if not club or club.startswith("niez"):
+        return None
+    return "Koalicja" if club in COALITION else "Opozycja"
+
+
+def club_chip(d, x, y, club, font, tag_font):
+    """A club's chip in its colour, then a "Koalicja"/"Opozycja" tag; returns where they end."""
+    cb = d.textbbox((x, y), club, font=font)
+    d.rounded_rectangle((cb[0] - 8, cb[1] - 4, cb[2] + 8, cb[3] + 5), 10, fill=club_colour(club) + (255,))
+    d.text((x, y), club, font=font, fill="white")
+    end = cb[2] + 8
+    s = side(club)
+    if s:
+        tx, mid = end + 14, (cb[1] + cb[3]) / 2 + 0.5
+        tb = d.textbbox((tx, mid), s.upper(), font=tag_font, anchor="lm")
+        coalition = s == "Koalicja"
+        d.rounded_rectangle((tb[0] - 7, cb[1] - 4, tb[2] + 7, cb[3] + 5), 10,
+                            fill=(255, 255, 255, 235) if coalition else (0, 0, 0, 0), outline=(255, 255, 255, 235), width=2)
+        d.text((tx, mid), s.upper(), font=tag_font, fill=(12, 20, 36) if coalition else "white", anchor="lm")
+        end = tb[2] + 7
+    return end
+
+
 def club_colour(club):
     h = CLUBS.get(club, "#7d8794").lstrip("#")
     return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
@@ -84,9 +113,7 @@ class Overlay:
         d.text((24, H - bar + 12), first, font=self.font(22, True), fill="white")
         if chip:
             x = d.textbbox((24, H - bar + 12), first, font=self.font(22, True))[2] + 14
-            cb = d.textbbox((x, H - bar + 16), chip, font=self.font(16, True))
-            d.rounded_rectangle((cb[0] - 8, cb[1] - 4, cb[2] + 8, cb[3] + 5), 10, fill=club_colour(chip) + (255,))
-            d.text((x, H - bar + 16), chip, font=self.font(16, True), fill="white")
+            club_chip(d, x, H - bar + 16, chip, self.font(16, True), self.font(13, True))
         if topic.strip():
             d.text((24, H - bar + 48), topic, font=self.font(17), fill=LIGHT_BLUE)
         d.text((24, H - 36), vote, font=self.font(19), fill=YELLOW)
@@ -151,13 +178,16 @@ class Overlay:
         d.rounded_rectangle((0, 0, 40, 44), 16, fill=colour + (255,))
         d.text((20, 9), card["title"].upper(), font=self.font(21, True), fill="white")
         d.text((width - 50, 12), "?!", font=self.font(20, True), fill=YELLOW)
-        if card["kind"] == "mp":
+        if card["kind"] == "promo":
+            # a word about the site: a headline, a line or two, the address in yellow
+            d.text((24, 60), card["headline"], font=self.font(28, True), fill="white")
+            for i, line in enumerate(textwrap.wrap(card.get("text") or "", 54)[:3]):
+                d.text((24, 104 + i * 24), line, font=self.font(18), fill=(205, 212, 225))
+            d.text((24, h - 58), card["url"], font=self.font(30, True), fill=YELLOW)
+        elif card["kind"] == "mp":
             x0 = 176
             d.text((x0, 58), card["name"], font=self.font(27, True), fill="white")
-            chip = card["club"]
-            cb = d.textbbox((x0, 98), chip, font=self.font(16, True))
-            d.rounded_rectangle((cb[0] - 8, cb[1] - 4, cb[2] + 8, cb[3] + 5), 10, fill=colour + (255,))
-            d.text((x0, 98), chip, font=self.font(16, True), fill="white")
+            club_chip(d, x0, 98, card["club"], self.font(16, True), self.font(13, True))
             # small stats along the bottom
             stats = card.get("stats") or []
             sx = x0
@@ -217,9 +247,13 @@ class Overlay:
             im = Image.new("RGBA", (width, h), (0, 0, 0, 0))
             d = ImageDraw.Draw(im)
             d.rounded_rectangle((0, 0, width - 1, h - 1), 16, fill=(12, 20, 36, 236))
-            d.polygon([(0, 0), (width - 60, 0), (width - 90, 44), (0, 44)], fill=ACCENT + (255,))
-            d.rounded_rectangle((0, 0, 40, 44), 16, fill=ACCENT + (255,))
-            d.text((20, 9), card["title"].upper(), font=self.font(21, True), fill="white")
+            colour = club_colour(card["for_club"]) if card.get("for_club") else ACCENT
+            d.polygon([(0, 0), (width - 60, 0), (width - 90, 44), (0, 44)], fill=colour + (255,))
+            d.rounded_rectangle((0, 0, 40, 44), 16, fill=colour + (255,))
+            title, size = card["title"].upper(), 21
+            while size > 14 and self.font(size, True).getlength(title) > width - 120:
+                size -= 1
+            d.text((20, 22), title, font=self.font(size, True), fill="white", anchor="lm")
             d.text((width - 50, 12), "TOP", font=self.font(18, True), fill=YELLOW)
             self._cards[key] = im
         base = self._cards[key].copy()
@@ -255,6 +289,8 @@ class Overlay:
         base = self.card_base(card).copy()
         d = ImageDraw.Draw(base)
         width, h = base.size
+        if card["kind"] == "promo":
+            return self._shine(base, t, length)
         # the number counts up (numbers only; "99,1%" or "261:172" are shown as they are)
         value = card["value"]
         shown = str(value)
@@ -285,7 +321,11 @@ class Overlay:
                 ImageDraw.Draw(mask).rounded_rectangle((0, 0, pw - 1, ph - 1), 12, fill=255)
                 cx, cy = 22 + 66, 58 + 83
                 base.paste(p, (cx - pw // 2, cy - ph // 2), mask)
-        # a shine sweeps across once
+        return self._shine(base, t, length)
+
+    def _shine(self, base, t, length):
+        """A shine sweeps across once, then the card is placed."""
+        width, h = base.size
         k = (t - 0.9) / 0.6
         if 0 <= k <= 1:
             shine = Image.new("RGBA", base.size, (0, 0, 0, 0))

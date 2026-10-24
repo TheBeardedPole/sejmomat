@@ -190,6 +190,11 @@ Live on sejmomat.pl:
   reaches it (the clock is ffmpeg's position, not the wall clock). Out to a
   preview window, a file, or RTMP (`SEJMOMAT_RTMP`, `--out rtmp`). The live DVR
   playlists respect `start`; with `stop` the archive answers and ignores it.
+  Between votes: the speaker read from the broadcast's caption (with a
+  Koalicja/Opozycja tag) and fact cards from `api/v1/ciekawostki.json`
+  (`sejmomat/facts.py`), one every 90 s, related cards kept apart; during a
+  longer speech the speaker's club's Top 5s; one card in 8 points to Sejmdle
+  or buycoffee (not with `--demo`).
 
 Waiting on the owner:
 

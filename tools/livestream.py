@@ -42,6 +42,7 @@ from sejmomat import agenda as agenda_mod  # noqa: E402  (the site's agenda pars
 from sejmomat.model import link_amendments  # noqa: E402  (what an amendment changes, as on vote pages)
 from live_overlay import H, W, Overlay  # noqa: E402
 from live_speaker import BAND, Recogniser, load_mps, read  # noqa: E402
+from sejmomat.facts import spread  # noqa: E402
 
 API = "https://api.sejm.gov.pl/sejm/term10"
 WARSAW = ZoneInfo("Europe/Warsaw")
@@ -145,16 +146,28 @@ def captions(shown, items, tags, title):
 
 DIFF_LINES = 12                                         # lines of the panel with what an amendment changes
 DIFF_SLOTS = DIFF_LINES + 4                             # with PAGE_STRETCH below: lines the panel can hold
-PAGE_SECONDS = 8                                        # a longer change is shown in pages, in turn
+PAGE_SECONDS = 8                                        # a longer change is shown in pages, in turn, at most this long each…
+PAGE_CYCLE = 30                                         # …and faster when there are many, so all pass while the next vote is
+PAGE_MIN = 5                                            # called and held (about half a minute), but no faster than this
 MAX_PAGES = 6
 PAGE_STRETCH = 4                                        # a page may run this many lines over to keep a passage whole
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
 SPEAKER_SECONDS = 20                                    # how long the card of a speaker who has just begun stays
 SPEAKER_BAR = 600                                       # how long the bar names a speaker (until the next one)
 FACT_SECONDS = 12                                       # a fact card is on screen this long…
-FACT_EVERY = 45                                         # …once in this many seconds
+FACT_EVERY = 90                                         # …once in this many seconds, so a long day does not run through them
+CLUB_AFTER = 40                                         # a speech this far in: the cards are the speaker's club's Top 5s
 TOP_SECONDS = 16                                        # a Top 5 card, longer to read
 FACTS_URL = "https://sejmomat.pl/api/v1/ciekawostki.json"
+PROMO_EVERY = 8                                         # one card in this many (of the general turn) is about the site
+PROMOS = [
+    {"kind": "promo", "title": "Zagraj w Sejmdle", "headline": "Codzienne gry o Sejmie",
+     "text": "Zgadnij posła, uzupełnij słowo z mównicy, rozpoznaj jak najwięcej twarzy w minutę.",
+     "url": "sejmomat.pl/sejmdle"},
+    {"kind": "promo", "title": "Wesprzyj Sejmomat", "headline": "Sejmomat jest darmowy i niezależny",
+     "text": "Jeśli Ci się przydaje, możesz postawić twórcy kawę.",
+     "url": "buycoffee.to/adamkoscielak"},
+]
 
 
 def load_facts():
@@ -282,7 +295,7 @@ def main():
     ap.add_argument("--out", default="preview", help='"preview" (window), "rtmp" (SEJMOMAT_RTMP), or a file name')
     ap.add_argument("--seconds", type=int, help="stop after this many seconds")
     ap.add_argument("--quality", type=int, default=720, help="stream quality to read: picture height, e.g. 1080, 720, 384 (default 720)")
-    ap.add_argument("--demo", action="store_true", help="for a demo recording: a card every 13 s, the liveliest ones first")
+    ap.add_argument("--demo", action="store_true", help="for a demo recording: a card every 13 s, the liveliest ones first, no cards about the site")
     ap.add_argument("--no-speakers", action="store_true", help="no speaker recognition (needs tesseract with Polish)")
     ap.add_argument("--font", help="regular font file")
     ap.add_argument("--font-bold", help="bold font file")
@@ -303,21 +316,30 @@ def main():
     src = variant(f"{base}?start={ms(start)}", args.quality)
     n = sitting_number(title)
     items, tags, facts = agenda_items(n) if n else {}, load_tags(), load_facts()
-    every, first = FACT_EVERY, 0
+    # the general turn, and for each club its own cards (its Top 5s, its card), for while one of its MPs speaks
+    by_club = {}
+    for f in facts:
+        if f.get("for_club") or (f.get("stats") and f.get("kind") == "fact" and f.get("club")):
+            by_club.setdefault(f.get("for_club") or f["club"], []).append(f)
+    for pool in by_club.values():
+        pool.sort(key=lambda f: f.get("kind") != "top5")   # its Top 5s first, then the club's card
+    facts = [f for f in facts if not f.get("for_club")]
+    every, first, club_after, promos = FACT_EVERY, 0, CLUB_AFTER, PROMOS
     if args.demo:
         # the liveliest cards first, one after another, from the start of the recording
         kinds = {k: [f for f in facts if f.get("kind") == k] for k in ("top5", "mp", "fact")}
         club = [f for f in kinds["fact"] if f.get("stats")]
-        lively = [kinds["top5"][:1], kinds["mp"][:1], club[:1], [f for f in kinds["fact"] if "bunt" in f["title"].lower()],
+        lively = [kinds["top5"][:1], club[:1], kinds["mp"][:1], [f for f in kinds["fact"] if "bunt" in f["title"].lower()],
                   kinds["top5"][1:2], kinds["mp"][1:2]]
-        picked = [f for group in lively for f in group]
+        picked = spread([f for group in lively for f in group if f.get("kind") != "top5"],
+                        [f for group in lively for f in group if f.get("kind") == "top5"])
         facts = picked + [f for f in facts if f not in picked]
-        every, first = 13, start.timestamp()
+        every, first, club_after, promos = 13, start.timestamp(), SPEAKER_SECONDS, []
     print(f"{title} · from {start:%H:%M:%S} · sitting {n}, {len(items)} agenda items")
 
     overlay = Overlay(args.font_bold or font(True), args.font or font(False), ROOT / "static" / "logo-white.png",
                       f"SEJMOMAT · {mode} · {title}")
-    for card in facts:   # the photos, before the first frame needs them
+    for card in facts + [f for fs in by_club.values() for f in fs]:   # the photos, before the first frame needs them
         for mp in [card.get("mp")] + [r["mp"] for r in card.get("rows") or []]:
             if mp:
                 overlay.photo(mp)
@@ -372,6 +394,26 @@ def main():
     threading.Thread(target=watch, daemon=True).start()
     time.sleep(1)
 
+    picks, turns = {}, {}
+
+    def pick(slot, clock):
+        """The card for a slot, chosen once: while an MP has been speaking a while (a longer
+        speech), the next of their club's cards; otherwise the next of the general turn."""
+        if slot not in picks:
+            sp, at = speaker["card"], speaker["at"]
+            pool = by_club.get(sp["club"]) if sp else None
+            if pool and club_after <= (clock - at).total_seconds() < SPEAKER_BAR:
+                i = turns[sp["club"]] = turns.get(sp["club"], -1) + 1
+                picks[slot] = pool[i % len(pool)]
+            else:
+                i = turns["*"] = turns.get("*", -1) + 1
+                if promos and i % PROMO_EVERY == PROMO_EVERY - 1:
+                    picks[slot] = promos[(i // PROMO_EVERY) % len(promos)]
+                else:
+                    j = turns["facts"] = turns.get("facts", -1) + 1
+                    picks[slot] = facts[j % len(facts)]
+        return picks[slot]
+
     def frame(clock):
         """The overlay for the picture at `clock`."""
         with lock:
@@ -396,7 +438,8 @@ def main():
         if recent:
             head, pages = diff_panel(shown[-1])
             if pages:
-                page = int((clock - warsaw(shown[-1]["date"])).total_seconds() // PAGE_SECONDS) % len(pages)
+                each = max(PAGE_MIN, min(PAGE_SECONDS, PAGE_CYCLE / len(pages)))
+                page = int((clock - warsaw(shown[-1]["date"])).total_seconds() // each) % len(pages)
                 panel = (f"{head} · {page + 1}/{len(pages)}" if len(pages) > 1 else head, pages[page])
         elif speaker["card"] and 0 <= (clock - speaker["at"]).total_seconds() < SPEAKER_SECONDS:
             # who has just come to the rostrum
@@ -404,7 +447,7 @@ def main():
         elif facts:
             # no vote for a while (a debate, a break): a fun-fact card, one every FACT_EVERY seconds for FACT_SECONDS
             ts = clock.timestamp()
-            c = facts[int((ts - first) // every) % len(facts)]
+            c = pick(int((ts - first) // every), clock)
             length = min(TOP_SECONDS if c.get("kind") == "top5" else FACT_SECONDS, every - 1)
             if (ts - first) % every < length:
                 card = overlay.card(c, (ts - first) % every, length)
