@@ -1,6 +1,8 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {% block title %}{{ _("Posiedzenia Sejmu") }} — {{ term_name }}{% endblock %}
 {% block content %}
+{{ crumbs(root, [], _("Posiedzenia")) }}
 {% from "_cards.html" import upcoming_card with context %}
 <h1>{{ _("Posiedzenia Sejmu") }} ({{ term_name }})</h1>
 {{ upcoming_card() }}

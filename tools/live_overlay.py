@@ -385,14 +385,25 @@ class Overlay:
         mp = card["kind"] == "mp"
         nx, ny = (176, 128) if mp else (24, 56)
         size = 58 if mp else 66
-        # a long value (a club's name) is set smaller, leaving room for the unit
-        while size > 30 and self.font(size, True).getlength(shown) > width - nx - 190:
+        # the unit sits right of the value, in at most two lines measured in pixels (a
+        # count of characters let "Klub Parlamentarny Centrum" run off the card); a long
+        # value (a club's name) is set smaller until the unit fits whole
+        unit, f_unit = card.get("unit") or "", self.font(18)
+
+        def unit_lines(size):
+            room = width - 24 - (nx + self.font(size, True).getlength(shown) + 14)
+            lines = self.wrap(unit, f_unit, room) if unit and room > 0 else []
+            whole = room >= 90 and not (lines and lines[-1].endswith("…") and not unit.endswith("…"))
+            return lines, whole
+
+        lines, whole = unit_lines(size)
+        while size > 30 and (not whole or self.font(size, True).getlength(shown) > width - nx - 24):
             size -= 4
+            lines, whole = unit_lines(size)
         d.text((nx, ny), shown, font=self.font(size, True), fill=YELLOW)
         nb = d.textbbox((nx, ny), shown, font=self.font(size, True))
-        unit_lines = textwrap.wrap(card.get("unit") or "", 26)[:2]
-        for i, line in enumerate(unit_lines):
-            d.text((nb[2] + 14, ny + 14 + i * 22), line, font=self.font(18), fill=(205, 212, 225))
+        for i, line in enumerate(lines):
+            d.text((nb[2] + 14, ny + 14 + i * 22), line, font=f_unit, fill=(205, 212, 225))
         # the photo pops in with a little overshoot
         if mp:
             photo = self.photo(card["mp"])

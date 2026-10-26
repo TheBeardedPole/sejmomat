@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import tag_chips %}
+{% from "_macros.html" import tag_chips, crumbs %}
 {% set bills = frozen.bills %}
 {% set club_pages = club_rows | map(attribute="id") | list %}
 {% set PLACES = [
@@ -14,6 +14,7 @@
 {% block title %}{{ _("Zamrażarka: projekty, które utknęły") }}{% endblock %}
 {% block description %}{{ bills | length }} {{ _("projektów ustaw i uchwał czeka u Marszałka Sejmu albo w komisjach; ile dni i na co.") }}{% endblock %}
 {% block content %}
+{{ crumbs(root, [(root ~ "ustawy.html", _("Ustawy"))], _("Zamrażarka")) }}
 <style>
   .frozen-stats td, .frozen-stats th { text-align: right; }
   .frozen-stats td:first-child, .frozen-stats th:first-child { text-align: left; }

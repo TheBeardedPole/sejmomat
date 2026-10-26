@@ -1,7 +1,9 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {% block title %}{{ _("Prywatność") }}{% endblock %}
 {% block description %}{{ _("Prywatność — opis") }}{% endblock %}
 {% block content %}
+{{ crumbs(root, [], _("Prywatność")) }}
 <h1>{{ _("Prywatność") }}</h1>
 {% if lang == "pl" %}
 <h2>Kto prowadzi stronę</h2>

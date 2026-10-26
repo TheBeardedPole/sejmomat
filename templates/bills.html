@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 {% block title %}{{ _("Ustawy i uchwały") }}{% endblock %}
-{% from "_macros.html" import author_label, tag_chips %}
+{% from "_macros.html" import author_label, tag_chips, crumbs %}
 {% block content %}
+{{ crumbs(root, [], _("Ustawy")) }}
 <h1>{{ _("Ustawy i uchwały") }}</h1>
 <p class="muted">{{ _("Projekty, nad którymi Sejm głosował w tej kadencji, od ostatnio głosowanych.") }}</p>
 <p><a href="{{ root }}tematy.html">{{ _("Tematy") }} →</a> · <a href="{{ root }}statystyki.html">{{ _("Statystyki głosowań") }} →</a> ·

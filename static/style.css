@@ -32,11 +32,11 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
 .top { border-bottom: 1px solid var(--line); background: var(--surface); }
-.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; padding-top: 12px; padding-bottom: 12px; }
+.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding-top: 8px; padding-bottom: 8px; }
 .brand { display: block; line-height: 0; }
-.brand .logo { display: block; height: 26px; aspect-ratio: 1267 / 190; background: var(--accent);
+.brand .logo { display: block; height: 22px; aspect-ratio: 1267 / 190; background: var(--accent);
   -webkit-mask: url(logo.svg) center / contain no-repeat; mask: url(logo.svg) center / contain no-repeat; }
-.top .tools { display: flex; align-items: center; gap: 12px; margin-left: auto; }
+.top .tools { display: flex; align-items: center; gap: 12px; flex: none; white-space: nowrap; }
 .theme-switch { display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 1px solid var(--line);
   border-radius: 99px; background: var(--bg); color: var(--muted); cursor: pointer; }
 .theme-switch:hover { color: var(--text); }
@@ -51,6 +51,36 @@ a:hover { text-decoration: underline; }
 :root[data-theme="dark"] .theme-switch .moon { display: none; }
 nav { display: flex; flex-wrap: wrap; gap: 4px 13px; }
 nav a { color: var(--muted); }
+/* the header: one compact row (logo, sections, search, language and theme); below
+   1060px the sections fold behind the "Menu" button (static/app.js), and without
+   scripts they simply wrap */
+.top nav { font-size: .92rem; gap: 2px 14px; }
+.top nav a[aria-current="page"] { color: var(--text); font-weight: 600; }
+.site-search { flex: 0 1 190px; min-width: 120px; margin-left: auto; }
+@media (min-width: 1060px) { .top .wrap { flex-wrap: nowrap; } .top nav { flex-wrap: nowrap; white-space: nowrap; } }
+.site-search input { width: 100%; font: inherit; font-size: .9rem; padding: 5px 12px 5px 32px; border: 1px solid var(--line); border-radius: 99px;
+  color: var(--text); background: var(--bg) no-repeat 11px 50% / 14px; appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a8a8f' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='M15.5 15.5 21 21'/%3E%3C/svg%3E"); }
+.site-search input::placeholder { color: var(--muted); }
+.site-search input:focus { border-color: var(--accent); }
+.nav-toggle { display: none; align-items: center; gap: 6px; font: inherit; font-size: .9rem; font-weight: 600; min-height: 36px; padding: 4px 12px;
+  border: 1px solid var(--line); border-radius: 99px; background: var(--bg); color: var(--text); cursor: pointer; }
+.nav-toggle svg { width: 18px; height: 18px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 1059px) {
+  .js .nav-toggle { display: inline-flex; }
+  .js .top nav { display: none; order: 10; flex-basis: 100%; flex-direction: column; gap: 0; padding: 4px 0 6px; border-top: 1px solid var(--line); font-size: 1rem; }
+  .js .top.nav-open nav { display: flex; }
+  .js .top nav a { padding: 10px 2px; border-bottom: 1px solid var(--line); }
+  .js .top nav a:last-child { border-bottom: 0; }
+}
+@media (max-width: 640px) {
+  .site-search { order: 9; flex: 1 1 100%; margin-left: 0; }
+  .js .top .tools { margin-left: auto; }
+  /* icon only, so logo, language, theme and menu share one line; the word stays for screen readers */
+  .nav-toggle { padding: 4px 9px; }
+  .nav-toggle span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}
 main { padding-top: 24px; padding-bottom: 48px; }
 h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 8px; }
 h2 { font-size: 1.2rem; margin: 32px 0 12px; }
@@ -61,6 +91,9 @@ p, li { text-wrap: pretty; }
 main p, main ul:not([class]) > li, main ol:not([class]) > li, ol.agenda > li > div:first-child { max-width: 65ch; }
 .muted { color: var(--muted); }
 .crumbs { color: var(--muted); font-size: .9rem; margin-bottom: 8px; }
+.crumbs ol { display: flex; flex-wrap: wrap; gap: 0 6px; list-style: none; margin: 0; padding: 0; }
+.crumbs li + li::before { content: "›"; margin-right: 6px; color: var(--muted); }
+.crumbs [aria-current="page"] { color: var(--text); }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; margin: 12px 0; }
 .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
 .stat b { display: block; font-size: 1.5rem; }
@@ -123,7 +156,7 @@ del { background: var(--del-bg); padding: 0 2px; border-radius: 2px; }
 .print-text { font-family: Georgia, "Times New Roman", serif; max-width: 54ch; }
 .print-text p { margin: 0 0 .6em; }
 .amendment:target { outline: 2px solid var(--accent); outline-offset: 2px; }
-.lang { margin-left: auto; font-size: .9rem; color: var(--muted); }
+.lang { font-size: .9rem; color: var(--muted); }
 h2.h3 { font-size: 1rem; margin-bottom: 4px; }
 .filters { display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center; margin: 8px 0 12px; }
 .filters select { font: inherit; padding: 4px 8px; background: var(--surface); color: var(--text); border: 1px solid var(--line); border-radius: 6px; max-width: 100%; }
@@ -247,15 +280,11 @@ ol.agenda .sp-playing { font-weight: 600; }
   font-size: .8rem; color: var(--text); text-decoration: none; white-space: nowrap; }
 .tag:hover { border-color: var(--accent); color: var(--accent); }
 .tags-line { margin: -2px 0 6px; }
-/* Phones. The header keeps the theme switch and language on the logo's
-   line; rows of votes (sittings, bills, the home page) put the badge and
+/* Phones (the header is above). Rows of votes (sittings, bills, the home page) put the badge and
    counts under the title instead of squeezing the title into a narrow
    column; the club table and the per-sitting table drop their bars (the
    figures say the same) so the figures fit without sideways scrolling. */
 @media (max-width: 600px) {
-  .top .wrap { row-gap: 6px; }
-  .top .tools { order: 1; }
-  .top nav { order: 2; flex-basis: 100%; gap: 2px 14px; }
   tr:has(> td.num > .counts) { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 4px 10px;
     padding: 8px 0; border-bottom: 1px solid var(--line); }
   tr:has(> td.num > .counts) > td { padding: 0; border: 0; width: auto !important; }
@@ -275,8 +304,7 @@ ol.agenda .sp-playing { font-weight: 600; }
 }
 /* Shared pieces from the design reference: a small uppercase label, buttons,
    toggle chips, topic tags (.tag.on: a topic the reader follows; .tag.inh:
-   taken from the bill, not the item itself), hidden headings. */
-.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+   taken from the bill, not the item itself). */
 .k { margin: 0; font-size: .75rem; line-height: 1.4; letter-spacing: .06em; text-transform: uppercase; font-weight: 600; color: var(--muted); }
 .btn, .btn2 { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 0 18px;
   border-radius: 8px; font: inherit; font-weight: 600; cursor: pointer; white-space: nowrap; text-decoration: none; }
@@ -421,7 +449,6 @@ a.btn2:hover { text-decoration: none; }
 .mp-card .why-h { margin: 0 0 4px; font-size: .88rem; font-weight: 600; }
 .mp-why { margin: 0; padding-left: 18px; font-size: .88rem; display: flex; flex-direction: column; gap: 4px; }
 .mp-card .btn2 { margin-top: auto; align-self: flex-start; }
-.more-links { margin-top: 16px; }
 
 @media (max-width: 600px) {
   .wg > div { flex: 1 1 100%; padding: 14px; }
@@ -449,3 +476,17 @@ a.btn2:hover { text-decoration: none; }
   .mp-card .btn2 { align-self: stretch; }
 }
 @media print { .broadcast, .for-you, .live-box { display: none; } }
+
+/* home page (templates/index.html): the latest sitting's figures in three columns, so their
+   labels keep to a line or two; the bills list opens in full on request */
+.home-stats { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+@media (min-width: 720px) { .home-stats { grid-template-columns: repeat(3, 1fr); } }
+.home-stats .stat b { font-size: 1.6rem; }
+.js .home-bills:not(.show-all) tr.extra { display: none; }
+.more-links { margin-top: 16px; }
+
+/* Pagefind's search UI (szukaj.html) in the site's colours, so it follows the light/dark switch;
+   its own stylesheet knows only a light theme */
+#search { --pagefind-ui-primary: var(--accent); --pagefind-ui-text: var(--text); --pagefind-ui-background: var(--surface);
+  --pagefind-ui-border: var(--line); --pagefind-ui-tag: var(--bg); --pagefind-ui-font: inherit; }
+#search mark { background: var(--warn-bg); color: var(--text); }

@@ -1,11 +1,11 @@
 {% extends "base.html" %}
-{% from "_macros.html" import vote_row, print_link, tag_chips %}
+{% from "_macros.html" import vote_row, print_link, tag_chips, crumbs %}
 {% from "_tabs.html" import bar as tab_bar with context %}
 {% from "_cards.html" import new_votes with context %}
 {% block title %}{{ sitting_name(sitting, true) }} — {{ votings[0].date | date_pl }}{% endblock %}
 {% block description %}{{ sitting_name(sitting, true) }}, {{ votings[0].date | date_pl }}: {{ votings | length }} {{ _("głosowań") }}. {% for agenda, g in votings | groupby_consecutive("agenda") %}{% if agenda and loop.index <= 4 %}{{ agenda | truncate(70) }}; {% endif %}{% endfor %}{% endblock %}
 {% block content %}
-<div class="crumbs"><a href="{{ root }}posiedzenia.html">{{ _("Posiedzenia") }}</a></div>
+{{ crumbs(root, [(root ~ "posiedzenia.html", _("Posiedzenia"))], sitting_name(sitting)) }}
 <h1>{{ sitting_name(sitting, true) }}</h1>
 {% set live = sitting == latest_sitting %}
 {% if live %}{{ new_votes(sitting, votings[-1].votingNumber, upcoming.dates if upcoming and upcoming.number == sitting else []) }}{% endif %}

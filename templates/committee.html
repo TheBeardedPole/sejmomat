@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {% from "_tabs.html" import bar as tab_bar with context %}
 {% from "_committees.html" import styles, meeting with context %}
 {% block title %}{{ c.name }}{% endblock %}
@@ -6,7 +7,7 @@
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
 {{ styles() }}
-<div class="crumbs"><a href="{{ root }}komisje.html">{{ _("Komisje sejmowe") }}</a></div>
+{{ crumbs(root, [(root ~ "komisje.html", _("Komisje"))], c.name | truncate(70), "pl") }}
 <h1 lang="pl">{{ c.name }}</h1>
 <p class="muted">{{ _("Komisja " ~ c.type) }} · {{ c.code }}</p>
 <div class="grid">

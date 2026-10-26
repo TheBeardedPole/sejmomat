@@ -1,7 +1,9 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {% block title %}{{ _("Podsumowania dni") }}{% endblock %}
 {% block description %}{{ _("Podsumowania dni — opis") }}{% endblock %}
 {% block content %}
+{{ crumbs(root, [], _("Podsumowania dni")) }}
 <style>
   .day h2 { margin-top: 0; }
   .day-body { display: grid; grid-template-columns: minmax(0, 420px) minmax(0, 1fr); gap: 20px; align-items: start; }

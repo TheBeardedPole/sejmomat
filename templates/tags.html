@@ -1,7 +1,9 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {% block title %}{{ _("Tematy") }}{% endblock %}
 {% block description %}{{ _("Projekty i głosowania według tematów: o czym naprawdę są, w kilku słowach.") }}{% endblock %}
 {% block content %}
+{{ crumbs(root, [], _("Tematy")) }}
 <style>
   .tag-index { columns: 3 16em; column-gap: 24px; padding: 0; list-style: none; }
   .tag-index li { break-inside: avoid; padding: 3px 0; }

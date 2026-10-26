@@ -587,8 +587,7 @@ EN = {
     "Powiązane tematy": "Related topics", "Dlaczego może Cię zainteresować:": "Why you may want to follow them:", "członek": "member",
     "{n} interpelacji i zapytań, w tym {recent} w ostatnich 90 dniach": "{n} interpellations and questions, {recent} of them in the last 90 days",
     "Wśród autorów projektów w temacie {topic} ({n}), ostatnio": "Among the authors of bills on {topic} ({n}), most recently",
-    "Zobacz profil posła": "See the MP's profile", "i {n} więcej na profilu posła": "and {n} more on the MP's profile", "Wszystkie posiedzenia": "All sittings", "Wszystkie ustawy": "All bills",
-    "Statystyki": "Statistics",
+    "Zobacz profil posła": "See the MP's profile", "i {n} więcej na profilu posła": "and {n} more on the MP's profile",
     # home page, was / now / next and the interests flow (design of October 2026)
     "Transmisja": "Broadcast", "Na żywo": "Live", "Trwa transmisja z Sejmu": "The Sejm is on air",
     "{n}. dzień obrad": "day {n}", "otwiera się w nowej karcie": "opens in a new tab",
@@ -641,6 +640,11 @@ EN = {
     "Prezydent podpisał ustawę": "Signed by the President", "Wniosek Prezydenta (weto)": "President's veto",
     "Wycofano": "Withdrawn", "Prezydent skierował ustawę do Trybunału Konstytucyjnego": "Referred by the President to the Constitutional Tribunal",
     "nie uchwalona ponownie po wecie Prezydenta": "Not passed again after the President's veto",
+    # header, breadcrumbs, home page links
+    "Główna nawigacja": "Main navigation", "Ścieżka nawigacji": "Breadcrumb", "Menu": "Menu", "Szukaj…": "Search…",
+    "Głosowanie na żywo": "Live vote", "Przyjęte poprawki": "Adopted amendments", "Zgłoszone poprawki": "Amendments proposed",
+    "Statystyki": "Statistics", "Wszystkie głosowania tego posiedzenia": "All votes of this sitting",
+    "Wszystkie posiedzenia": "All sittings", "Wszystkie ustawy": "All bills",
 }
 
 

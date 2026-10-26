@@ -474,6 +474,39 @@ document.body.append(
 
 // Link to the games (kept out of the page template for the same reason).
 document.querySelector("header.top nav")?.append(h("a", { href: `${SITE_ROOT}sejmdle/`, textContent: "Sejmdle" }));
+
+// "Show all" under a list cut short (the home page's bills): without scripts the whole list shows.
+document.querySelectorAll("[data-show-all]").forEach((btn) => {
+  const list = document.getElementById(btn.dataset.showAll);
+  if (!list) return;
+  btn.hidden = false;
+  btn.addEventListener("click", () => {
+    list.classList.add("show-all");
+    btn.closest("p")?.remove();
+    list.querySelector("tr.extra a")?.focus();
+  });
+});
+
+// On narrow screens the sections fold behind "Menu" (static/style.css); Escape or a
+// click outside the header closes them again.
+const topBar = document.querySelector("header.top");
+const navToggle = topBar?.querySelector(".nav-toggle");
+if (navToggle) {
+  const setOpen = (open) => {
+    navToggle.setAttribute("aria-expanded", String(open));
+    topBar.classList.toggle("nav-open", open);
+  };
+  navToggle.addEventListener("click", () => setOpen(navToggle.getAttribute("aria-expanded") !== "true"));
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && topBar.classList.contains("nav-open")) {
+      setOpen(false);
+      navToggle.focus();
+    }
+  });
+  document.addEventListener("click", (e) => {
+    if (topBar.classList.contains("nav-open") && !topBar.contains(e.target)) setOpen(false);
+  });
+}
 const foot = document.querySelector("footer.foot");
 if (foot) {
   const settings = h("a", { href: "#", textContent: T.consentSettings });

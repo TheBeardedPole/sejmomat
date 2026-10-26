@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import result_badge, counts %}
+{% from "_macros.html" import result_badge, counts, crumbs %}
 {% from "_breakdown.html" import assets, attrs, sitting_cell with context %}
 {% from "_speeches.html" import summary as speech_summary, cloud, styles as speech_styles with context %}
 {% from "_tabs.html" import bar as tab_bar with context %}
@@ -8,7 +8,7 @@
 {% block description %}{{ c.name }}: {{ c.members | length }} {{ _("obecnych członków") }}, {{ _("spójność") }} {{ c.cohesion | pct }}, {{ _("skuteczność") }} {{ c.effectiveness | pct }}.{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
-<div class="crumbs"><a href="{{ root }}kluby.html">{{ _("Kluby i koła") }}</a></div>
+{{ crumbs(root, [(root ~ "kluby.html", _("Kluby"))], c.id) }}
 <h1>{{ c.name }}</h1>
 <p class="muted">{{ c.id }} · {{ _("głosowania od") }} {{ c.first | date_pl }} {{ _("do") }} {{ c.last | date_pl }}{% if not c.current %} · {{ _("klub/koło już nie istnieje") }}{% endif %}</p>
 

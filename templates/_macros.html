@@ -89,3 +89,17 @@
 {% macro author_label(a) -%}
 {% if a %}{% set parts = a.label.split(": ", 1) %}{{ _(parts[0]) }}{% if parts | length > 1 %}: {{ parts[1] }}{% endif %}{% endif %}
 {%- endmacro %}
+
+{# Where a page sits: Sejmomat › section › … › this page. trail: [(href, label)] or
+   [(href, label, lang)] for text in Polish whatever the edition (a bill's title). #}
+{% macro crumbs(root, trail=[], current=none, current_lang=none) -%}
+<nav class="crumbs" aria-label="{{ _("Ścieżka nawigacji") }}"><ol>
+  <li><a href="{{ root }}index.html">Sejmomat</a></li>
+  {%- for step in trail %}
+  <li><a href="{{ step[0] }}"{% if step | length > 2 %} lang="{{ step[2] }}"{% endif %}>{{ step[1] }}</a></li>
+  {%- endfor %}
+  {%- if current %}
+  <li aria-current="page"{% if current_lang %} lang="{{ current_lang }}"{% endif %}>{{ current }}</li>
+  {%- endif %}
+</ol></nav>
+{%- endmacro %}

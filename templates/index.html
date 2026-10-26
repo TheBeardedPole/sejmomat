@@ -10,12 +10,12 @@
 {# the sitting after the one under way, or the first planned one when no agenda is out yet #}
 {% set later = planned[0] if planned else None %}
 {% set next_sitting = later if (u and u.under_way) or not u else u %}
-<h1 class="sr-only">{{ _("Głosowania w Sejmie: pokazane jak należy.") }}</h1>
+<h1 class="visually-hidden">{{ _("Głosowania w Sejmie: pokazane jak należy.") }}</h1>
 
 {# Was / now / next. The middle column is the broadcast (static/home.js, from
    the Sejm's API); without scripts it stays a link to the Sejm's broadcasts. #}
 <section class="now-block" aria-labelledby="w-sejmie-h">
-<h2 id="w-sejmie-h" class="sr-only">{{ _("Co dzieje się w Sejmie") }}</h2>
+<h2 id="w-sejmie-h" class="visually-hidden">{{ _("Co dzieje się w Sejmie") }}</h2>
 <div class="wg" id="w-sejmie">
   <div class="wg-was">
     <p class="k">{{ _("Ostatnie posiedzenie") }}</p>
@@ -143,9 +143,11 @@
 <h2 id="ostatnie-posiedzenie-h">{{ _("Ostatnie posiedzenie") }}: <a href="{{ root }}posiedzenie/{{ L.sitting }}.html">{{ sitting_name(L.sitting) }}</a></h2>
 <p class="muted">{{ L.bills | length }} {{ _("projektów rozstrzygniętych w całości") }} · {{ L.amendment_votes | length }} {{ _("głosowań nad poprawkami i wnioskami") }} · {{ L.against_rec | length }} {{ _("rozstrzygnięć wbrew rekomendacji komisji") }}</p>
 {% if L.bills %}
-<div class="card table-card"><div class="table-scroll"><table><tbody>
+{#- the first few; the rest open with a button (static/app.js), all shown without scripts #}
+{%- set SHOWN = 8 %}
+<div class="card table-card"><div class="table-scroll"><table id="home-bills" class="home-bills"><tbody>
 {% for row in L.bills %}{% set v = row.v %}
-<tr>
+<tr{% if loop.index > SHOWN %} class="extra"{% endif %}>
   <td lang="pl">{% if row.bill %}<a href="{{ root }}ustawa/{{ row.bill.root }}.html">{{ row.bill.title }}</a>{% else %}{{ v.agenda }}{% endif %}
     <div class="snippet">{% if row.bill and row.bill.author %}{{ author_label(row.bill.author) }} · {% endif %}<a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a>{% if row.amendment_votes %} · {{ row.amendment_votes }} {{ _("głosowań nad poprawkami i wnioskami") }}{% endif %}</div></td>
   <td>{{ result_badge(v) }}</td>
@@ -153,8 +155,9 @@
 </tr>
 {% endfor %}
 </tbody></table></div></div>
+{% if L.bills | length > SHOWN %}<p><button type="button" class="link-btn" data-show-all="home-bills" hidden>{{ _("Pokaż wszystkie") }} ({{ L.bills | length }})</button></p>{% endif %}
 {% endif %}
-<p class="more-links"><a href="{{ root }}posiedzenia.html">{{ _("Wszystkie posiedzenia") }} →</a> · <a href="{{ root }}ustawy.html">{{ _("Wszystkie ustawy") }} →</a> · <a href="{{ root }}statystyki.html">{{ _("Statystyki") }} →</a></p>
+<p class="more-links"><a href="{{ root }}posiedzenie/{{ L.sitting }}.html">{{ _("Wszystkie głosowania tego posiedzenia") }} →</a> · <a href="{{ root }}posiedzenia.html">{{ _("Wszystkie posiedzenia") }} →</a> · <a href="{{ root }}ustawy.html">{{ _("Wszystkie ustawy") }} →</a></p>
 </section>
 
 {{ share_teaser() }}
