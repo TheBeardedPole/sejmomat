@@ -208,7 +208,8 @@ Live on sejmomat.pl:
   `tools/vps/test-stream.sh` sends a replay to the same address as a test.
   The video CDN (blueonline) answers only Polish addresses (its picker also hands
   out edges inside Vectra's network; `FALLBACK_EDGES` lists one that answers
-  elsewhere in Poland): a server abroad fetches the video through a proxy in Poland,
+  elsewhere in Poland), so the stream server needs a Polish IP address. A server
+  abroad would have to fetch the video through a proxy in Poland,
   `SEJMOMAT_VIDEO_PROXY` (tinyproxy, `tools/vps/proxy-setup.sh`, limited to the
   stream server and *.blueonline.tv).
   Captions name the item from the vote's own title: the API's agenda is the planned
