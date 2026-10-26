@@ -65,6 +65,28 @@ class Matching(unittest.TestCase):
         self.assertEqual(off_site["m"], {"rolnictwo": [("committee", "RRW")]})
         self.assertEqual([e["d"] for e in ev], sorted((e["d"] for e in ev), reverse=True))
 
+    def test_amendments_counted_together_and_sittings_named(self):
+        bills = {"10": {"title": "Ustawa o szpitalach", "tags": ["Szpitale"]}}
+        vote = {"sitting": 67, "bill": "10", "yes": 0, "no": 0, "abstain": 0}
+        by_id = {
+            1: {**vote, "date": "2026-10-21T10:00:00", "votingNumber": 1, "amendments": [{}], "motion": None,
+                "outcome_class": "adopted"},
+            2: {**vote, "date": "2026-10-22T10:00:00", "votingNumber": 2, "amendments": [{}], "motion": None,
+                "outcome_class": "rejected"},
+            3: {**vote, "date": "2026-10-22T11:00:00", "votingNumber": 3, "motion": ("final",), "yes": 300, "no": 100,
+                "abstain": 5, "outcome": "Projekt przyjęty", "outcome_class": "adopted"},
+        }
+        procs = {"10": proc("Ustawa o szpitalach", [("2026-10-22", "Uchwalono", ""), ("2026-10-24", "Stanowisko Senatu", "")])}
+        ev = interests.events(SPEC, bills, by_id, procs, None, TODAY)
+        amend = [e for e in ev if e["k"] == "amend"]
+        self.assertEqual(len(amend), 1)
+        self.assertEqual((amend[0]["a"], amend[0]["d"], amend[0]["p"]), ([2, 1], "2026-10-22", 67))
+        self.assertEqual(amend[0]["url"], "ustawa/10.html#poprawki")
+        v = next(e for e in ev if e["k"] == "vote")
+        self.assertEqual((v["c"], v["a"], v["p"], v["n"], v["mo"]), ([300, 100, 5], [2, 1], 67, 3, "final"))
+        stages = {e["d"]: e.get("p") for e in ev if e["k"] == "stage"}
+        self.assertEqual(stages, {"2026-10-22": 67, "2026-10-24": None})   # a stage off a sitting day names none
+
 
 class Mps(unittest.TestCase):
     def rows(self):

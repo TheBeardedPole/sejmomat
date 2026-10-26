@@ -14,7 +14,7 @@ from .stamp import stamp
 from .facts import facts
 from .stats import compute as compute_voting_stats
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
-from .i18n import LANGS, date_fmt, pct_fmt, translator, ORDINALS
+from .i18n import LANGS, date_fmt, date_range_fmt, pct_fmt, plural_fmt, translator, ORDINALS
 from .acts import bill_changes
 from .api_out import write_api
 from .model import anchor, law_source, load, print_meta, print_paragraphs, print_text, print_too_big, source_items
@@ -921,6 +921,8 @@ def _env(lang):
     t = translator(lang)
     env.filters["date_pl"] = date_fmt(lang)
     env.filters["pct"] = pct_fmt(lang)
+    env.filters["date_range"] = date_range_fmt(lang)
+    env.filters["plural"] = plural_fmt(lang)
     env.filters["groupby_consecutive"] = groupby_consecutive
     env.filters["agenda_json"] = agenda_json
     env.filters["tag_slug"] = tag_slug

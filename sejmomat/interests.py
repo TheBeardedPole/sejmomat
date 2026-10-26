@@ -8,8 +8,10 @@ file, so finer tagging later changes the data, not the page:
 
 - a bill matches an interest when it has one of its tags or was sent to one
   of its committees (the processes' stages); its votes, stages and agenda
-  items match with it. Amendment votes are left out: their descriptions do
-  not say what an amendment is about.
+  items match with it. Amendment votes are not matched one by one (their
+  descriptions do not say what an amendment is about): a bill's amendment
+  votes at a sitting are counted together and shown as such, the topic taken
+  from the bill and marked as taken from it.
 - an MP matches through a role in one of its committees, interpellations and
   written questions to its ministers, and bills with its tags that the MP
   signed or presents.
@@ -64,7 +66,9 @@ def _stage_committees(proc):
 
 def events(spec, bills, by_id, procs, upcoming, today):
     """The last DAYS days' events that match an interest, newest first:
-    whole-bill votes, a bill's stages, and items on the next sitting's agenda.
+    whole-bill votes, a bill's amendment votes at a sitting (counted together),
+    a bill's stages, and items on the next sitting's agenda. Each names the
+    sitting ("p") when it happened on a sitting's day.
 
     bills: {root: {"title", "tags"}}; by_id: votes with "date", "sitting",
     "votingNumber", "bill", "motion", "outcome", "outcome_class"; procs: the
@@ -83,15 +87,36 @@ def events(spec, bills, by_id, procs, upcoming, today):
     def title(root):
         return (bills.get(root) or {}).get("title") or (procs.get(root) or {}).get("title") or ""
 
+    recent = [v for v in by_id.values() if (v.get("date") or "")[:10] >= since]
+    day_sitting = {v["date"][:10]: v["sitting"] for v in recent}
+    if upcoming and upcoming.get("number"):
+        day_sitting.update({d: upcoming["number"] for d in upcoming["dates"]})
+    # a bill's amendment votes per sitting: [count, adopted, last day, first vote]
+    amended = {}
+    for v in sorted(recent, key=lambda v: (v["date"], v["votingNumber"])):
+        if v.get("amendments") and v.get("bill"):
+            a = amended.setdefault((v["bill"], v["sitting"]), [0, 0, "", v])
+            a[0] += 1
+            a[1] += v.get("outcome_class") == "adopted"
+            a[2] = v["date"][:10]
+
     out = []
-    for v in by_id.values():
+    for v in recent:
         root = v.get("bill")
-        if not root or (v.get("date") or "")[:10] < since or not v.get("motion") or v["motion"][0] not in WHOLE:
+        if not root or not v.get("motion") or v["motion"][0] not in WHOLE:
             continue
         if m := matches(root):
+            n, adopted, _, _ = amended.get((root, v["sitting"]), (0, 0, "", None))
             out.append({"k": "vote", "d": v["date"][:10], "t": title(root), "root": root,
                         "url": f"glosowanie/{v['sitting']}-{v['votingNumber']}.html", "bill": root in bills,
-                        "s": v.get("outcome") or "", "o": v.get("outcome_class") or "", "m": m})
+                        "s": v.get("outcome") or "", "o": v.get("outcome_class") or "", "m": m,
+                        "p": v["sitting"], "n": v["votingNumber"], "mo": v["motion"][0],
+                        "c": [v.get("yes", 0), v.get("no", 0), v.get("abstain", 0)], "a": [n, adopted]})
+    for (root, sitting), (n, adopted, day, first) in amended.items():
+        if m := matches(root):
+            url = f"ustawa/{root}.html#poprawki" if root in bills else f"glosowanie/{sitting}-{first['votingNumber']}.html"
+            out.append({"k": "amend", "d": day, "t": title(root), "root": root, "url": url, "bill": root in bills,
+                        "s": "", "o": "", "m": m, "p": sitting, "a": [n, adopted]})
     for root, p in procs.items():
         stages = [s for s in p.get("stages", [])
                   if s.get("depth") == 0 and s.get("name") in STAGES and (s.get("date") or "") >= since]
@@ -100,7 +125,8 @@ def events(spec, bills, by_id, procs, upcoming, today):
             url = f"ustawa/{root}.html" if root in bills else f"https://www.sejm.gov.pl/Sejm{TERM}.nsf/PrzebiegProc.xsp?nr={root}"
             for s in stages:
                 out.append({"k": "stage", "d": s["date"], "t": p.get("title") or title(root), "root": root,
-                            "url": url, "bill": root in bills, "s": s["name"], "o": "", "m": m})
+                            "url": url, "bill": root in bills, "s": s["name"], "o": "", "m": m,
+                            **({"p": day_sitting[s["date"]]} if s["date"] in day_sitting else {})})
     if upcoming:
         day = upcoming["dates"][0]
         for g in upcoming.get("groups", []):
@@ -109,7 +135,8 @@ def events(spec, bills, by_id, procs, upcoming, today):
                 if root and (m := matches(root)):
                     out.append({"k": "agenda", "d": day, "t": f"{item.get('kind', '')} {item.get('rest', '')}".strip(),
                                 "root": root, "url": f"nadchodzace-posiedzenie.html#punkt-{item['n']}", "bill": root in bills,
-                                "s": "", "o": "", "m": m})
+                                "s": "", "o": "", "m": m, "n": item["n"],
+                                **({"p": upcoming["number"]} if upcoming.get("number") else {})})
     # one stage per bill and day (several on a day: the last is the furthest along)
     seen, kept = set(), []
     for e in sorted(out, key=lambda e: (e["d"], e["k"] != "stage"), reverse=True):
@@ -184,12 +211,21 @@ def build(ctx, procs, committees, spec=None, today=None, en=None):
     found = events(spec, bills, ctx["by_id"], procs, ctx.get("upcoming"), today)
     for e in found:
         e["se"] = en(e["s"]) if en and e["s"] else e["s"]
+    # the days of the sittings events name, for the page's headings
+    days = defaultdict(set)
+    for v in ctx["by_id"].values():
+        days[v["sitting"]].add(v["date"][:10])
+    if (u := ctx.get("upcoming")) and u.get("number"):
+        days[u["number"]].update(u["dates"])
     return {
         "generated": today.isoformat(), "days": DAYS,
         "interests": [{"id": i["id"], "pl": i["pl"], "en": i["en"]} for i in spec],
         "committees": {c: names.get(c, c) for i in spec for c in i["committees"]},
         "events": found,
-        "mps": {mid: {"name": mps[mid]["firstLastName"], "club": mps[mid].get("club") or ""}
+        "sittings": {p: [min(days[p]), max(days[p])] for p in sorted({e["p"] for e in found if "p" in e})},
+        "upcoming": u["number"] if (u := ctx.get("upcoming")) and not u.get("under_way") else None,
+        "mps": {mid: {"name": mps[mid]["firstLastName"], "club": mps[mid].get("club") or "",
+                      "district": mps[mid].get("districtName") or "", "districtNum": mps[mid].get("districtNum")}
                 for rows in suggested.values() for mid in (x["id"] for x in rows)},
         "bills": {x["root"]: bills[x["root"]]["title"] for rows in suggested.values() for y in rows
                   for x in y["why"] if x["k"] == "bills" and x["root"] in bills},

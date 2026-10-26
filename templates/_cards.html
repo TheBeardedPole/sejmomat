@@ -112,7 +112,7 @@
    (static/live.js asks the Sejm's API for today's plenary stream). #}
 {% macro live_box() %}
 {% if upcoming %}
-<section class="card live-box" hidden data-dates="{{ upcoming.dates | join(',') }}"
+<section class="card live-box" id="na-zywo" hidden data-dates="{{ upcoming.dates | join(',') }}"
   data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/videos/today"
   data-hls="{{ site_root }}static/vendor/hls.light.min.js"
   data-sitting="{{ upcoming.number }}" data-votes="https://api.sejm.gov.pl/sejm/term{{ TERM }}/votings/{{ upcoming.number }}"

@@ -120,3 +120,27 @@ test("suggested MPs: scores added across topics, reasons kept once", () => {
   assert.equal(rows[0].why.length, 2);
   assert.deepEqual(H.suggestMps(data, ["rolnictwo"]), []);
 });
+
+test("days and ranges as the build writes them; Polish plurals", () => {
+  assert.equal(H.formatDay("2026-11-05"), "czwartek, 5 listopada 2026");
+  assert.equal(H.dateRange("2026-10-20", "2026-10-22"), "20–22 października 2026");
+  assert.equal(H.dateRange("2026-10-30T10:00:00", "2026-11-02"), "30 października 2026 – 2 listopada 2026");
+  assert.equal(H.dateRange("2026-10-20", "2026-10-20T18:00:00"), "20 października 2026");
+  const forms = ["temat", "tematy", "tematów"];
+  assert.deepEqual([1, 2, 4, 5, 12, 14, 22, 25, 112].map((n) => H.plural(n, forms)),
+    ["temat", "tematy", "tematy", "tematów", "tematów", "tematów", "tematy", "tematów", "tematów"]);
+});
+
+test("the feed in runs by sitting; amendment rollups are never highlights", () => {
+  const ev = [{ d: "2026-11-05", p: 68 }, { d: "2026-10-24" }, { d: "2026-10-23" }, { d: "2026-10-22", p: 67 }, { d: "2026-10-21", p: 67 }];
+  assert.deepEqual(H.feedGroups(ev).map((g) => [g.p, g.events.length]), [[68, 1], [null, 2], [67, 2]]);
+  const mine = [{ k: "amend", d: "2026-10-22", root: "1" }, { k: "vote", d: "2026-10-22", root: "1" }];
+  assert.deepEqual(H.highlights(mine, "2026-10-26").map((e) => e.k), ["vote"]);
+});
+
+test("highlights take the reader's topics in turn, a bill passed before a motion to reject", () => {
+  const ev = (root, id, k = "vote", mo = "final", d = "2026-10-22") => ({ k, mo, d, root, mine: { [id]: [] } });
+  const mine = [ev("1", "tax", "vote", "reject_bill"), ev("2", "tax"), ev("3", "tax"), ev("4", "tax"), ev("5", "health", "stage")];
+  const out = H.highlights(mine, "2026-10-26", 4, ["tax", "health"]);
+  assert.deepEqual(out.map((e) => e.root), ["2", "5", "3", "4"]);
+});

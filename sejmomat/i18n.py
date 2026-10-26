@@ -589,6 +589,51 @@ EN = {
     "Wśród autorów projektów w temacie {topic} ({n}), ostatnio": "Among the authors of bills on {topic} ({n}), most recently",
     "Zobacz profil posła": "See the MP's profile", "i {n} więcej na profilu posła": "and {n} more on the MP's profile", "Wszystkie posiedzenia": "All sittings", "Wszystkie ustawy": "All bills",
     "Statystyki": "Statistics",
+    # home page, was / now / next and the interests flow (design of October 2026)
+    "Transmisja": "Broadcast", "Na żywo": "Live", "Trwa transmisja z Sejmu": "The Sejm is on air",
+    "{n}. dzień obrad": "day {n}", "otwiera się w nowej karcie": "opens in a new tab",
+    "+1 inna transmisja": "+1 other broadcast", "+{n} inne transmisje": "+{n} other broadcasts", "+{n} innych transmisji": "+{n} other broadcasts",
+    "Teraz nie ma transmisji": "Nothing on air now", "Następna": "Next",
+    "Posiedzenie Sejmu": "Sejm sitting", "Godzinę pokażemy, gdy pojawi się w harmonogramie.": "We will show the time once it is in the schedule.",
+    "Harmonogram transmisji": "Broadcast schedule",
+    "Nie udało się sprawdzić statusu transmisji.": "Could not check whether anything is on air.",
+    "Nie pokazujemy statusu, którego nie możemy potwierdzić.": "We do not show a status we cannot confirm.",
+    "Transmisja: iTV Sejm, status potwierdzony przed chwilą · posiedzenia: API Sejmu RP · czas polski":
+        "Broadcast: iTV Sejm, confirmed a moment ago · sittings: the Sejm's API · Polish time",
+    "Transmisje: iTV Sejm, sprawdzono {when} · posiedzenia: API Sejmu RP · czas polski":
+        "Broadcasts: iTV Sejm, checked {when} · sittings: the Sejm's API · Polish time",
+    "Transmisje: brak odpowiedzi iTV Sejm · posiedzenia: API Sejmu RP, stan z {when}":
+        "Broadcasts: no answer from iTV Sejm · sittings: the Sejm's API, as of {when}",
+    "Posiedzenia: API Sejmu RP, stan z": "Sittings: the Sejm's API, as of", "czas polski": "Polish time",
+    "Sprawdzamy, czy trwa transmisja…": "Checking whether the Sejm is on air…",
+    "Wyniki posiedzenia": "Results of the sitting", "głosowanie": "vote", "głosowania": "votes",
+    "punkt w porządku obrad": "item on the agenda", "punkty w porządku obrad": "items on the agenda",
+    "Wybierz tematy, które chcesz śledzić. Pokażemy Ci wydarzenia i głosowania z tych obszarów.":
+        "Pick the topics you want to follow. We will show you the events and votes in them.",
+    "Możesz wybrać kilka tematów": "You can pick several topics", "Pomiń na razie": "Skip for now",
+    "Nie wybrano jeszcze tematów": "No topics picked yet", "Wybrano 1 temat": "1 topic picked",
+    "Wybrano {n} tematy": "{n} topics picked", "Wybrano {n} tematów": "{n} topics picked",
+    "Zapisano Twoje zainteresowania": "Your interests are saved", "Tematy możesz wybrać w każdej chwili.": "You can pick topics at any time.",
+    "Wybierz tematy": "Pick topics", "Zmień tematy": "Change topics", "Zamknij przypomnienie": "Close the reminder",
+    "Wszystkie wydarzenia w Twoich tematach z ostatnich {n} dni": "Everything in your topics from the last {n} days",
+    "Pojawią się tu, gdy wybierzesz tematy.": "They will appear here once you pick topics.",
+    "Widzisz to, ponieważ obserwujesz": "You see this because you follow",
+    "Wniosek o odrzucenie projektu": "Motion to reject the bill", "Wniosek Senatu o odrzucenie ustawy": "Senate's motion to reject the act",
+    "Głos. nr {n}": "Vote {n}", "całość": "as a whole", "Punkt {n}": "Item {n}",
+    "Zdarzenie": "Event", "Sprawa": "Matter", "Temat": "Topic",
+    "Nie było głosowań nad poprawkami.": "There were no votes on amendments.",
+    "Wcześniej: {n} nad poprawkami i wnioskami, przyjęto {k}.": "Before it: {n} on amendments and motions, {k} adopted.",
+    "1 głosowanie": "1 vote", "{n} głosowania": "{n} votes", "{n} głosowań": "{n} votes",
+    "Poprawki i wnioski do projektu": "Amendments and motions to the bill",
+    "Temat przypisany na podstawie projektu, którego dotyczą poprawki": "Topic taken from the bill the amendments are to",
+    "Szczegóły głosowania": "Vote details", "Przebieg prac": "Progress of the bill", "Zobacz poprawki": "See the amendments",
+    "nadchodzące": "upcoming", "Między posiedzeniami": "Between sittings",
+    "Gdy wybierzesz tematy, zaproponujemy posłów aktywnych w tych obszarach.": "Once you pick topics, we will suggest MPs active in them.",
+    "Dlaczego może Cię zainteresować?": "Why you may want to follow them", "Pokaż kolejnych: {n}": "Show {n} more",
+    "Następne posiedzenie": "Next sitting",
+    "Kalendarz posiedzeń": "Calendar of sittings",
+    "Porządek obrad nie został jeszcze opublikowany.": "The agenda has not been published yet.",
+    "Nie znamy jeszcze terminu następnego posiedzenia.": "The date of the next sitting is not known yet.",
     # stages of a bill (the Sejm's names), shown on the home page
     "Projekt wpłynął do Sejmu": "Bill submitted to the Sejm", "I czytanie na posiedzeniu Sejmu": "First reading in the chamber",
     "I czytanie w komisjach": "First reading in committee", "II czytanie na posiedzeniu Sejmu": "Second reading",
@@ -634,6 +679,33 @@ def date_fmt(lang):
         month = MONTHS[lang][d.month - 1]
         out = f"{d.day} {month} {d.year}" if lang == "pl" else f"{month} {d.day}, {d.year}"
         return f"{out}, {d:%H:%M}" if with_time else out
+    return fmt
+
+
+def date_range_fmt(lang):
+    """"20–22 października 2026" / "October 20–22, 2026"; a day alone as date_fmt has it."""
+    one = date_fmt(lang)
+
+    def fmt(first, last):
+        a = datetime.fromisoformat(first) if isinstance(first, str) else first
+        b = datetime.fromisoformat(last) if isinstance(last, str) else last
+        if a.date() == b.date():
+            return one(a)
+        if (a.year, a.month) != (b.year, b.month):
+            return f"{one(a)} – {one(b)}"
+        return f"{a.day}–{one(b)}" if lang == "pl" else f"{MONTHS[lang][a.month - 1]} {a.day}–{b.day}, {a.year}"
+    return fmt
+
+
+def plural_fmt(lang):
+    """n | plural("punkt", "punkty", "punktów"): the Polish form for n; in
+    English the first form for 1, else the second (each passed through _())."""
+    def fmt(n, one, few, many):
+        if lang != "pl":
+            return one if n == 1 else few
+        if n == 1:
+            return one
+        return few if n % 10 in (2, 3, 4) and n % 100 not in (12, 13, 14) else many
     return fmt
 
 
