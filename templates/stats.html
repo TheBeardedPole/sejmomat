@@ -1,9 +1,10 @@
 {% extends "base.html" %}
-{% from "_macros.html" import result_badge, counts %}
+{% from "_macros.html" import result_badge, counts, crumbs %}
 {% set S = voting_stats %}
 {% block title %}{{ _("Statystyki głosowań") }}{% endblock %}
 {% block description %}{{ _("Mapa Sejmu według tego, jak głosują posłowie: kto z kim głosuje, jak spójne są kluby i które głosowania rozstrzygnęło kilka głosów.") }}{% endblock %}
 {% block content %}
+{{ crumbs(root, [], _("Statystyki")) }}
 <style>
   /* club colours (static/stats.js reads them): light values, then dark */
   .stats-page {

@@ -548,6 +548,11 @@ EN = {
     "Wyszukiwarka wymaga JavaScriptu.": "Search requires JavaScript.",
     "Szukaj ustaw, poprawek, posłów…": "Search bills, amendments, MPs…",
     "Indeks wyszukiwania nie jest jeszcze zbudowany.": "The search index has not been built yet.",
+    # header, breadcrumbs, home page links
+    "Główna nawigacja": "Main navigation", "Ścieżka nawigacji": "Breadcrumb", "Menu": "Menu", "Szukaj…": "Search…",
+    "Głosowanie na żywo": "Live vote", "Przyjęte poprawki": "Adopted amendments", "Zgłoszone poprawki": "Amendments proposed",
+    "Statystyki": "Statistics", "Wszystkie głosowania tego posiedzenia": "All votes of this sitting",
+    "Wszystkie posiedzenia": "All sittings", "Wszystkie ustawy": "All bills",
 }
 
 

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {% block title %}{{ r.mp.firstLastName }} ({{ r.mp.club }}){% endblock %}
 {% block description %}{{ r.mp.firstLastName }}, {{ clubs.get(r.mp.club, r.mp.club) }}{% if r.mp.districtName %}, {{ _("okręg") }} {{ r.mp.districtName }}{% endif %}: {{ _("udział w głosowaniach") }} {{ r.turnout | pct }}, {{ r.rebel_count }} {{ _("wyłamań z linii klubu") }}.{% endblock %}
 {% from "_breakdown.html" import assets, attrs, sitting_cell, bar with context %}
@@ -8,7 +9,7 @@
 {% from "_questions.html" import list as question_list, styles as question_styles with context %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
-<div class="crumbs"><a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a></div>
+{{ crumbs(root, [(root ~ "poslowie.html", _("Posłowie"))], r.mp.firstLastName) }}
 <div class="mp-head">
   {# photo served by the Sejm's API, not copied to this site #}
   <img class="mp-photo" src="https://api.sejm.gov.pl/sejm/term{{ TERM }}/MP/{{ r.mp.id }}/photo" alt="{{ r.mp.firstLastName }}"

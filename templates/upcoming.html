@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import print_link %}
+{% from "_macros.html" import print_link, crumbs %}
 {% from "_cards.html" import live_box, new_votes with context %}
 {% set u = upcoming %}
 {% macro when(dates) %}{{ dates[0] | date_pl }}{% if dates[-1] != dates[0] %} – {{ dates[-1] | date_pl }}{% endif %}{% endmacro %}
@@ -9,7 +9,7 @@
 <style>
   .planned { columns: 2 16em; padding-left: 1.2em; }
 </style>
-<div class="crumbs"><a href="{{ root }}posiedzenia.html">{{ _("Posiedzenia") }}</a></div>
+{{ crumbs(root, [(root ~ "posiedzenia.html", _("Posiedzenia"))], _("Nadchodzące posiedzenie")) }}
 {% if u %}
 {% set items = u.groups | sum(attribute="items", start=[]) %}
 <h1>{% if u.under_way %}{{ _("Trwające posiedzenie") }}{% else %}{{ _("Nadchodzące posiedzenie") }}{% endif %}: {{ sitting_name(u.number) }}</h1>

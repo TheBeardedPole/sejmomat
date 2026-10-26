@@ -1,14 +1,21 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {% block title %}{{ _("Szukaj") }}{% endblock %}
 {% block head %}<meta name="robots" content="noindex"><link href="{{ site_root }}pagefind/pagefind-ui.css" rel="stylesheet">{% endblock %}
 {% block content %}
+{{ crumbs(root, [], _("Szukaj")) }}
 <h1>{{ _("Szukaj") }}</h1>
 <div id="search"></div>
 <noscript>{{ _("Wyszukiwarka wymaga JavaScriptu.") }}</noscript>
 <script src="{{ site_root }}pagefind/pagefind-ui.js"></script>
 <script>
   window.addEventListener("DOMContentLoaded", () => {
-    if (window.PagefindUI) new PagefindUI({ element: "#search", showSubResults: true, translations: { placeholder: {{ _("Szukaj ustaw, poprawek, posłów…") | tojson }} } });
+    if (window.PagefindUI) {
+      const ui = new PagefindUI({ element: "#search", showSubResults: true, translations: { placeholder: {{ _("Szukaj ustaw, poprawek, posłów…") | tojson }} } });
+      // the header's search box sends its words here as ?q=
+      const q = new URLSearchParams(location.search).get("q");
+      if (q && q.trim()) ui.triggerSearch(q.trim());
+    }
     else document.getElementById("search").textContent = {{ _("Indeks wyszukiwania nie jest jeszcze zbudowany.") | tojson }};
   });
 </script>

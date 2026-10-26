@@ -1,7 +1,9 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {% block title %}{{ _("Metodologia") }}{% endblock %}
 {% block generated %}{{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.{% endblock %}
 {% block content %}
+{{ crumbs(root, [], _("Metodologia")) }}
 <h1>{{ _("Metodologia") }}</h1>
 {% if lang == "pl" %}
 <h2>Skąd pochodzą dane</h2>

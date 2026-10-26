@@ -1,13 +1,11 @@
 {% extends "base.html" %}
-{% from "_macros.html" import result_badge, counts, law_changes, bill_diff %}
+{% from "_macros.html" import result_badge, counts, law_changes, bill_diff, crumbs %}
 {% block title %}{{ _("Druk nr") }} {{ num }}: {{ (meta.title or "") | truncate(90) }}{% endblock %}
 {% block description %}{{ _("Druk nr") }} {{ num }}{% if meta.documentDate %} ({{ meta.documentDate | date_pl }}){% endif %}: {{ meta.title }}{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
 {% set root_print = (meta.processPrint or [none])[0] %}
-<div class="crumbs">
-  {% if root_print and root_print in bill_by_root and root_print != num %}<a href="{{ root }}ustawa/{{ root_print }}.html" lang="pl">{{ bill_by_root[root_print].title | truncate(90) }}</a> · {% endif %}{{ _("druk nr") }} {{ num }}{% if meta.documentDate %} · {{ meta.documentDate | date_pl }}{% endif %}
-</div>
+{{ crumbs(root, [(root ~ "ustawy.html", _("Ustawy"))] + ([(root ~ "ustawa/" ~ root_print ~ ".html", bill_by_root[root_print].title | truncate(70), "pl")] if root_print and root_print in bill_by_root and root_print != num else []), _("druk nr") ~ " " ~ num) }}
 <h1 lang="pl">{{ meta.title }}</h1>
 <p class="muted">{{ _("Druk nr") }} {{ num }} ·
   {% if root_print == num and num in bill_by_root %}<a href="{{ root }}ustawa/{{ num }}.html">{{ _("Wszystkie głosowania") }}</a> · {% endif %}

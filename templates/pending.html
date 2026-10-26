@@ -1,9 +1,11 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {% set groups = pending_amendments %}
 {% set n_items = groups | sum(attribute="items", start=[]) | length %}
 {% block title %}{{ _("Poprawki czekające na głosowanie") }}{% endblock %}
 {% block description %}{{ n_items }} {{ _("poprawek, wniosków mniejszości i poprawek Senatu, nad którymi Sejm jeszcze nie głosował.") }}{% endblock %}
 {% block content %}
+{{ crumbs(root, [(root ~ "poprawki.html", _("Poprawki"))], _("Czekające na głosowanie")) }}
 <style>
   .pending-group h2 { font-size: 1.05rem; margin: 0 0 4px; }
   .pending-group .meta { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; margin: 0 0 8px; font-size: .9rem; }

@@ -1,13 +1,10 @@
 {% extends "base.html" %}
-{% from "_macros.html" import tag_chips, result_badge, mp_link, print_link, law_changes, bill_diff %}
+{% from "_macros.html" import tag_chips, result_badge, mp_link, print_link, law_changes, bill_diff, crumbs %}
 {% block title %}{{ (v.topic or v.agenda) | capitalize }} — {{ v.agenda | truncate(80) }}{% endblock %}
 {% block description %}{{ v.date | date_pl }}, {{ sitting_name(v.sitting) }}, {{ _("głosowanie nr") }} {{ v.votingNumber }}: {{ v.topic }} — {{ v.agenda }}. {{ _(v.outcome) }}: {{ v.yes }} {{ _("za") }}, {{ v.no }} {{ _("przeciw") }}, {{ v.abstain }} {{ _("wstrzymało się") }}.{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
-<div class="crumbs">
-  <a href="{{ root }}posiedzenie/{{ v.sitting }}.html">{{ sitting_name(v.sitting) }}</a>
-  · {{ _("głosowanie nr") }} {{ v.votingNumber }} · {{ v.date | date_pl(true) }}
-</div>
+{{ crumbs(root, [(root ~ "posiedzenia.html", _("Posiedzenia")), (root ~ "posiedzenie/" ~ v.sitting ~ ".html", sitting_name(v.sitting))], _("głosowanie nr") ~ " " ~ v.votingNumber ~ " · " ~ (v.date | date_pl(true))) }}
 <h1>{{ (v.topic or v.agenda) | capitalize }}</h1>
 {% if v.tags %}<p>{{ tag_chips(v.tags, root) }}</p>{% endif %}
 <p class="muted">

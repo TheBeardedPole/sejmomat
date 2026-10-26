@@ -1,10 +1,12 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {# Two votes side by side, from the Sejm's API (static/compare.js):
    porownaj-glosowania.html?a=67-48&b=67-50. Either side's meaning can be
    flipped: in a motion to reject a bill "for" is against the bill. #}
 {% block title %}{{ _("Porównaj głosowania") }}{% endblock %}
 {% block description %}{{ _("Jak posłowie i kluby głosowali w dwóch głosowaniach: kto zagłosował tak samo, a kto inaczej, np. przy wniosku o odrzucenie projektu i głosowaniu nad całością.") }}{% endblock %}
 {% block content %}
+{{ crumbs(root, [], _("Porównaj głosowania")) }}
 <style>
   .cmp-pick { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
   .cmp-pick fieldset { border: 1px solid var(--line); border-radius: 10px; padding: 12px; margin: 0; background: var(--surface); }

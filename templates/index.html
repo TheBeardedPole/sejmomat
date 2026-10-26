@@ -13,7 +13,7 @@
 {% set L = latest %}
 <h2>{{ _("Ostatnie posiedzenie") }}: <a href="{{ root }}posiedzenie/{{ L.sitting }}.html">{{ sitting_name(L.sitting) }}</a>
   <span class="muted" style="font-weight:400">· {{ L.votes[0].date | date_pl }}{% if L.votes[-1].date[:10] != L.votes[0].date[:10] %} – {{ L.votes[-1].date | date_pl }}{% endif %}</span></h2>
-<div class="grid">
+<div class="grid home-stats">
   <div class="card stat"><b>{{ L.votes | length }}</b>{{ _("głosowań") }}</div>
   <div class="card stat"><b>{{ L.bills | length }}</b>{{ _("projektów rozstrzygniętych w całości") }}</div>
   <div class="card stat"><b class="v-Y">{{ L.passed }}</b>{{ _("uchwalonych ustaw i uchwał") }}</div>
@@ -22,13 +22,13 @@
   <div class="card stat"><b>{{ L.against_rec | length }}</b>{{ _("rozstrzygnięć wbrew rekomendacji komisji") }}</div>
 </div>
 
-{{ share_teaser() }}
-
 {% if L.bills %}
 <h3>{{ _("Projekty, nad którymi głosowano w całości") }}</h3>
-<div class="table-scroll"><table><tbody>
+{#- the first few; the rest open with a button (static/app.js), all shown without scripts #}
+{%- set SHOWN = 8 %}
+<div class="table-scroll"><table id="home-bills" class="home-bills"><tbody>
 {% for row in L.bills %}{% set v = row.v %}
-<tr>
+<tr{% if loop.index > SHOWN %} class="extra"{% endif %}>
   <td lang="pl">{% if row.bill %}<a href="{{ root }}ustawa/{{ row.bill.root }}.html">{{ row.bill.title }}</a>{% else %}{{ v.agenda }}{% endif %}
     <div class="snippet">{% if row.bill and row.bill.author %}{{ author_label(row.bill.author) }} · {% endif %}<a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a>{% if row.amendment_votes %} · {{ row.amendment_votes }} {{ _("głosowań nad poprawkami i wnioskami") }}{% endif %}</div></td>
   <td>{{ result_badge(v) }}</td>
@@ -36,5 +36,9 @@
 </tr>
 {% endfor %}
 </tbody></table></div>
+{% if L.bills | length > SHOWN %}<p><button type="button" class="link-btn" data-show-all="home-bills" hidden>{{ _("Pokaż wszystkie") }} ({{ L.bills | length }})</button></p>{% endif %}
 {% endif %}
+<p class="more-links"><a href="{{ root }}posiedzenie/{{ L.sitting }}.html">{{ _("Wszystkie głosowania tego posiedzenia") }} →</a> · <a href="{{ root }}posiedzenia.html">{{ _("Wszystkie posiedzenia") }} →</a> · <a href="{{ root }}ustawy.html">{{ _("Wszystkie ustawy") }} →</a></p>
+
+{{ share_teaser() }}
 {% endblock %}

@@ -1,8 +1,9 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {% block title %}{{ _("Skuteczne poprawki") }} — {{ _("Poprawki przyjęte przez Sejm") }}{% endblock %}
 {% block description %}{{ _("Skuteczne poprawki — opis") }}{% endblock %}
 {% block content %}
-<div class="crumbs"><a href="{{ root }}poprawki.html">{{ _("Poprawki") }}</a></div>
+{{ crumbs(root, [(root ~ "poprawki.html", _("Poprawki"))], _("Przyjęte poprawki")) }}
 <h1>{{ _("Poprawki przyjęte przez Sejm") }}</h1>
 {% set here = "adopted" %}{% include "_amend_nav.html" %}
 <p>{{ _("Skuteczne poprawki — opis") }}</p>

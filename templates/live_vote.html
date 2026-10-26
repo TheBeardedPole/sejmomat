@@ -1,9 +1,11 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {# A vote taken since the last rebuild, drawn in the browser from the Sejm's
    API (static/livevote.js): glosowanie-na-zywo.html?posiedzenie=N&nr=M. The
    regular page (glosowanie/N-M.html) comes with the next rebuild. #}
 {% block title %}{{ _("Głosowanie") }}{% endblock %}
 {% block content %}
+{{ crumbs(root, [(root ~ "posiedzenia.html", _("Posiedzenia"))], _("Głosowanie na żywo")) }}
 {% set majorities = {} %}{% for k, l in MAJORITY_LABEL.items() %}{% set _x = majorities.update({k: _(l)}) %}{% endfor %}
 {% set slugs = {} %}{% for c in club_rows %}{% set _x = slugs.update({c.id: c.slug}) %}{% endfor %}
 <div id="live-vote" data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/votings" data-root="{{ root }}"

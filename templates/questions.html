@@ -1,9 +1,11 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {% from "_questions.html" import styles %}
 {% set Q = questions_summary %}
 {% block title %}{{ _("Interpelacje i zapytania poselskie") }}{% endblock %}
 {% block description %}{{ _("Interpelacje i zapytania poselskie w tej kadencji: kto pyta najczęściej i jak szybko odpowiadają ministrowie.") }}{% endblock %}
 {% block content %}
+{{ crumbs(root, [], _("Interpelacje")) }}
 {{ styles() }}
 <h1>{{ _("Interpelacje i zapytania poselskie") }}</h1>
 <p class="tagline">{{ _("Pytania posłów do rządu i to, jak szybko ministrowie na nie odpowiadają. Na odpowiedź mają") }} {{ Q.deadline }} {{ _("dni.") }}</p>

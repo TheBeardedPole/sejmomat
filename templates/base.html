@@ -33,16 +33,27 @@
 <header class="top">
   <div class="wrap">
     <a class="brand" href="{{ root }}index.html"><span class="logo" role="img" aria-label="Sejmomat"></span></a>
-    <nav>
-      <a href="{{ root }}posiedzenia.html">{{ _("Posiedzenia") }}</a>
-      <a href="{{ root }}ustawy.html">{{ _("Ustawy") }}</a>
-      <a href="{{ root }}poprawki.html">{{ _("Poprawki") }}</a>
-      <a href="{{ root }}kluby.html">{{ _("Kluby") }}</a>
-      <a href="{{ root }}komisje.html">{{ _("Komisje") }}</a>
-      <a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a>
-      <a href="{{ root }}interpelacje.html">{{ _("Interpelacje") }}</a>
-      <a href="{{ root }}szukaj.html">{{ _("Szukaj") }}</a>
+    {#- the section a page belongs to, marked in the nav: (link, label, path prefixes) #}
+    {%- set sections = [
+      ("posiedzenia.html", _("Posiedzenia"), ("posiedzeni", "glosowanie", "nadchodzace", "porownaj")),
+      ("ustawy.html", _("Ustawy"), ("ustaw", "druk", "zamrazarka", "temat")),
+      ("poprawki.html", _("Poprawki"), ("poprawki", "skuteczne-poprawki")),
+      ("kluby.html", _("Kluby"), ("klub",)),
+      ("komisje.html", _("Komisje"), ("komisj",)),
+      ("poslowie.html", _("Posłowie"), ("posel", "poslowie")),
+      ("interpelacje.html", _("Interpelacje"), ("interpelacje",)),
+    ] %}
+    <nav id="site-nav" aria-label="{{ _("Główna nawigacja") }}">
+      {%- for href, label, prefixes in sections %}
+      <a href="{{ root }}{{ href }}"{% if path.startswith(prefixes) %} aria-current="page"{% endif %}>{{ label }}</a>
+      {%- endfor %}
     </nav>
+    {%- if path != "szukaj.html" %}
+    <form class="site-search" role="search" action="{{ root }}szukaj.html">
+      <label class="visually-hidden" for="site-q">{{ _("Szukaj") }}</label>
+      <input id="site-q" type="search" name="q" placeholder="{{ _("Szukaj…") }}" autocomplete="off" enterkeyhint="search">
+    </form>
+    {%- endif %}
     <div class="tools">
       <div class="lang">
         {% if lang == "pl" %}<strong>PL</strong> · <a href="{{ alternates.en }}" hreflang="en" lang="en">EN</a>
@@ -53,6 +64,11 @@
         <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor" stroke="none"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
       </button>
     </div>
+    {#- shown only on narrow screens (with scripts): the nav folds away behind it #}
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <span>{{ _("Menu") }}</span>
+    </button>
   </div>
 </header>
 <main class="wrap"{% block main_attrs %}{% endblock %}>

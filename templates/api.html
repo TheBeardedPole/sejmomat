@@ -1,7 +1,9 @@
 {% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
 {% block title %}API{% endblock %}
 {% block description %}{{ _("Otwarte API w formacie JSON: głosowania Sejmu powiązane z treścią poprawek, wyniki klubów, głosy imienne, posłowie i zmiany w prawie.") }}{% endblock %}
 {% block content %}
+{{ crumbs(root, [], "API") }}
 <h1>API</h1>
 <p>{{ _("Otwarte API w formacie JSON: głosowania Sejmu powiązane z treścią poprawek, wyniki klubów, głosy imienne, posłowie i zmiany w prawie.") }}
 {{ _("Pliki są statyczne i odświeżane razem ze stroną; można je pobierać z dowolnej strony WWW (CORS).") }}</p>
