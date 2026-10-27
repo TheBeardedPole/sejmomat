@@ -45,7 +45,9 @@ def read(path):
         im = Image.open(path).convert("L")
     except Exception:
         return ""
-    bw = im.point(lambda p: 0 if p > 190 else 255).resize((im.width * 2, im.height * 2), Image.LANCZOS)
+    # only near-white kept: the caption's letters; at 190 a white shirt or papers behind the
+    # chair's caption (the Marshal at the desk) came through too and buried it
+    bw = im.point(lambda p: 0 if p > 245 else 255).resize((im.width * 2, im.height * 2), Image.LANCZOS)
     out = Path(path).with_suffix(".ocr.png")
     bw.save(out)
     try:

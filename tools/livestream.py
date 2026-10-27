@@ -560,7 +560,9 @@ def main():
     def mp_pair(slot):
         if slot not in mp_pairs:
             from sejmomat.facts import mp_compare
-            spoke = [m for m in mp_pool if m["speeches"]]
+            # only MPs whose photos are in already (one fetched while drawing stalled the picture
+            # for seconds); until enough are, a club comparison instead
+            spoke = [m for m in mp_pool if m["speeches"] and overlay._photos.get(m["id"]) is not None]
             towns = sorted({m["num"] for m in spoke if any(x["num"] == m["num"] and x["tag"] != m["tag"] for x in spoke)})
             if not towns:
                 return None
@@ -740,9 +742,10 @@ def main():
                 thumb.unlink(missing_ok=True)
                 if not m:
                     continue
-                # the chair: their caption says "Marszałek / Wicemarszałek Sejmu"; who runs the sitting, not a speaker
-                if m and re.search(r"marsza[łl]ek", text, re.I):
-                    role = "wicemarszałek" if re.search(r"wicemarsza", text, re.I) else "marszałek"
+                # the chair: their caption says "Marszałek / Wicemarszałek Sejmu (RP)" where a speaker's
+                # names their club; who runs the sitting, not a speaker ("Sejmu" survives the OCR, "Marszałek" often not)
+                if m and re.search(r"sejmu", text, re.I):
+                    role = "wicemarszałek" if re.search(r"wice", text, re.I) else "marszałek"
                     seen_chair = start + timedelta(seconds=lead + SNAP_EVERY * i) if ahead else now["clock"]
                     if chair.get("mp") != m["id"]:
                         club = CHAIR_CLUB.get(m.get("club"), club_short(m.get("club") or ""))
