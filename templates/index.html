@@ -54,13 +54,10 @@
                      "none": _("Nie mamy obecnie potwierdzonego terminu następnej transmisji."),
                      "error": _("Nie udało się sprawdzić statusu transmisji."),
                      "errorNote": _("Nie pokazujemy statusu, którego nie możemy potwierdzić."),
-                     "retry": _("Spróbuj ponownie"),
-                     "srcLive": _("Transmisja: iTV Sejm, status potwierdzony przed chwilą · posiedzenia: API Sejmu RP · czas polski"),
-                     "srcChecked": _("Transmisje: iTV Sejm, sprawdzono {when} · posiedzenia: API Sejmu RP · czas polski"),
-                     "srcError": _("Transmisje: brak odpowiedzi iTV Sejm · posiedzenia: API Sejmu RP, stan z {when}")} | tojson | forceescape }}">
+                     "retry": _("Spróbuj ponownie")} | tojson | forceescape }}">
     <p class="k wg-kicker">{{ icon_tv() }}{{ _("Transmisja") }}</p>
     <p class="wg-sub js-only">{{ _("Sprawdzamy, czy trwa transmisja…") }}</p>
-    <p class="wg-actions"><a class="btn2" href="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/transmisje.xsp" target="_blank" rel="noopener">{{ _("Sprawdź transmisje Sejmu") }} ↗</a></p>
+    <p class="wg-actions"><a class="btn2" href="{{ root }}transmisje.html">{{ _("Harmonogram transmisji") }} →</a></p>
   </div>
   <div class="wg-next">
     {% if next_sitting and next_sitting is sameas u %}
@@ -83,7 +80,6 @@
     {% endif %}
   </div>
 </div>
-<p class="wg-src" id="transmisja-zrodlo">{{ _("Posiedzenia: API Sejmu RP, stan z") }} {{ generated | date_pl(true) }} · {{ _("czas polski") }}</p>
 </section>
 
 {# the Sejm's stream, played here on the sitting's days (static/live.js) #}

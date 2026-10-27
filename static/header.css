@@ -43,8 +43,10 @@
 .top nav a[aria-current="page"] { color: var(--text); font-weight: 600; }
 /* sections with their pages folded under them (templates/_header.html, static/header.js): a
    dropdown on hover or with the ▾ button from 1060px; below, listed open in the menu */
-.nav-list { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 14px; margin: 0; padding: 0; list-style: none; }
-.nav-item { position: relative; display: flex; align-items: center; gap: 0; }
+.nav-list { display: flex; flex-wrap: wrap; align-items: stretch; gap: 2px 14px; margin: 0; padding: 0; list-style: none; }
+/* every section the same box, its label centred in it, ▾ or not, so the labels line up in every browser */
+.nav-item { position: relative; display: flex; align-items: center; gap: 0; height: 28px; }
+.nav-item > a { display: flex; align-items: center; height: 100%; line-height: 1; }
 .nav-item.current > a { color: var(--text); font-weight: 600; }
 /* the ▾ hugs its label, so the gap after it looks like the gap after any other section */
 .sub-toggle { display: inline-grid; place-items: center; width: 16px; height: 24px; padding: 0; margin: 0 -2px 0 2px; border: 0; border-radius: 4px;
@@ -87,7 +89,8 @@
   /* the menu: every section with its pages under it, no dropdowns */
   .js .top nav { align-items: stretch; }
   .js .top .nav-list { flex-direction: column; align-items: stretch; gap: 0; }
-  .js .top .nav-item { flex-direction: column; align-items: stretch; }
+  .js .top .nav-item { flex-direction: column; align-items: stretch; height: auto; }
+  .js .top .nav-item > a { height: auto; line-height: inherit; }
   .js .top .sub-toggle { display: none; }
   .js .top .sub { display: block; position: static; min-width: 0; padding: 0 0 0 16px; border: 0; border-radius: 0; box-shadow: none; background: none; }
   .js .top .sub::before { display: none; }
@@ -101,24 +104,30 @@
   .nav-toggle span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 }
 
-/* Search folds into a magnifier button (with scripts): opened, the field takes the place
-   of the sections (and, on phones, of the logo and Sejmdle), so the header stays one row */
+/* Search folds into a magnifier button (with scripts). Opened, the field grows out of it
+   to the left, over the sections (on phones, over the logo), which fade meanwhile; the
+   rest of the header stays put. --search-w: how far it may grow (static/header.js). */
 .search-toggle { display: none; place-items: center; width: 32px; height: 32px; padding: 0; border: 1px solid var(--line);
   border-radius: 99px; background: var(--bg); color: var(--muted); cursor: pointer; }
-.search-toggle:hover { color: var(--text); }
+.search-toggle:hover { color: var(--text); border-color: var(--accent); }
 .search-toggle svg { width: 16px; height: 16px; }
-.js .site-search { display: flex; flex: none; min-width: 0; margin-left: auto; }
-.js .site-search input { display: none; }
-.js .site-search .search-toggle { display: grid; }
-.js .top.search-open .site-search { flex: 1 1 auto; max-width: 460px; }
-.js .top.search-open .site-search input { display: block; }
-.js .top.search-open .site-search .search-toggle { display: none; }
-.js .top.search-open nav { display: none !important; }
+.js .site-search { position: relative; display: block; flex: none; width: 32px; height: 32px; min-width: 0; margin-left: auto; }
+.js .site-search input { position: absolute; top: 0; right: 0; z-index: 5; width: 32px; height: 32px; opacity: 0; pointer-events: none;
+  box-shadow: 0 0 0 0 transparent;
+  transition: width .34s cubic-bezier(.2, .8, .2, 1), opacity .18s ease, box-shadow .34s ease, border-color .2s ease; }
+.js .site-search .search-toggle { display: grid; position: relative; z-index: 6; transition: opacity .15s ease, transform .3s ease; }
+.js .top.search-open .site-search input { width: var(--search-w, 320px); opacity: 1; pointer-events: auto; border-color: var(--accent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 18%, transparent); }
+.js .top.search-open .site-search .search-toggle { opacity: 0; transform: rotate(-90deg) scale(.6); pointer-events: none; }
+.js .top nav, .js .top .brand { transition: opacity .2s ease; }
+.js .top.search-open nav { opacity: 0; visibility: hidden; transition: opacity .15s ease, visibility 0s .15s; }
 @media (max-width: 640px) {
-  .js .site-search { order: 0; flex: none; margin-left: auto; }
-  .js .top.search-open .site-search { flex: 1 1 auto; max-width: none; }
-  .js .top.search-open .brand, .js .top.search-open .nav-game { display: none; }
-  .js .top .tools { margin-left: 0; }
+  .js .site-search { order: 0; margin-left: auto; }
+  .js .top .tools { margin-left: 0; }   /* only search pushes right; the rest follows it */
+  .js .top.search-open .brand { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .js .site-search input, .js .site-search .search-toggle, .js .top nav, .js .top .brand { transition: none; }
 }
 /* Phones: one row of logo, search, Sejmdle, theme and Menu; the language switch is in
    the menu, and on the narrowest screens Sejmdle is its icon (its name stays for screen

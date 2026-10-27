@@ -275,7 +275,6 @@ if (typeof document !== "undefined") (() => {
   if (box) {
     const L = JSON.parse(box.dataset.labels);
     const wg = box.closest(".wg");
-    const src = document.getElementById("transmisja-zrodlo");
     const plenaryDates = (box.dataset.sittingDates || "").split(",").filter(Boolean);
     const sitting = box.dataset.sitting;
     const nextDay = box.dataset.nextDay;
@@ -304,7 +303,6 @@ if (typeof document !== "undefined") (() => {
         parts.push(el("div", { className: "wg-actions" }, here
           ? link("#na-zywo", L.watch, false, { className: "btn" })
           : link(`${box.dataset.schedule}#teraz`, L.watch, false, { className: "btn" })));
-        if (src) src.textContent = L.srcChecked.replace("{when}", formatWhen(checkedAt, LANG));
         box.replaceChildren(...parts);
         return;
       }
@@ -333,7 +331,6 @@ if (typeof document !== "undefined") (() => {
               el("a", { href: `${box.dataset.schedule}#teraz`, lang: "pl", textContent: o.title }))))));
         }
         parts.push(actions);
-        if (src) src.textContent = L.srcLive;
       } else {
         if (s.state === "error") {
           parts.push(kicker(ICON.warn, L.kicker));
@@ -371,12 +368,6 @@ if (typeof document !== "undefined") (() => {
           parts.push(kicker(ICON.tv, L.kicker));
           parts.push(el("p", { className: "wg-title plain", textContent: L.none }));
           parts.push(el("div", { className: "wg-actions" }, link(box.dataset.schedule, `${L.schedule} →`, false, { className: "btn2" })));
-        }
-        if (src) {
-          const when = s.state === "error"
-            ? formatWhen(box.dataset.generated, LANG)
-            : formatWhen(checkedAt, LANG);
-          src.textContent = (s.state === "error" ? L.srcError : L.srcChecked).replace("{when}", when);
         }
       }
       box.replaceChildren(...parts);

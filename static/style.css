@@ -315,7 +315,6 @@ a.btn2:hover { text-decoration: none; }
 .wg-others ul { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
 .wg-others li { display: flex; align-items: center; gap: 8px; }
 .wg-others .live-dot { flex: none; width: 8px; height: 8px; }
-.wg-src { margin: 6px 4px 0; font-size: .82rem; color: var(--muted); }
 .live-box { margin-top: 16px; }
 
 .home-section { margin: 0; }

@@ -63,7 +63,18 @@
   const searchToggle = search?.querySelector(".search-toggle");
   if (searchToggle) {
     const field = search.querySelector("input");
+    const phone = matchMedia("(max-width: 640px)");
+    // how far the field may grow to the left: over the sections up to the logo, on phones over the logo too
+    const room = () => {
+      const right = search.getBoundingClientRect().right;
+      const wrap = topBar.querySelector(".wrap");
+      const left = phone.matches
+        ? wrap.getBoundingClientRect().left + parseFloat(getComputedStyle(wrap).paddingLeft)
+        : topBar.querySelector(".brand").getBoundingClientRect().right + 16;
+      return Math.max(160, Math.min(460, right - left));
+    };
     const setSearch = (open) => {
+      if (open) search.style.setProperty("--search-w", `${room()}px`);
       topBar.classList.toggle("search-open", open);
       searchToggle.setAttribute("aria-expanded", String(open));
       if (open) {
