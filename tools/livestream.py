@@ -539,13 +539,13 @@ def main():
     # the comparisons, for breaks only: clubs and MPs taking turns
     # clubs from the list; MPs drawn at random each time from the pool (sejmomat/facts.py, mp_compare)
     compares = [f for f in facts if f.get("kind") == "compare" and f.get("topic") == "clubs"]
-    pool = next((f["mps"] for f in facts if f.get("kind") == "mp_pool"), [])
+    mp_pool = next((f["mps"] for f in facts if f.get("kind") == "mp_pool"), [])
     mp_pairs = {}   # the pair drawn for a slot, kept for that slot (and its drawing cached by the overlay)
 
     def mp_pair(slot):
         if slot not in mp_pairs:
             from sejmomat.facts import mp_compare
-            spoke = [m for m in pool if m["speeches"]]
+            spoke = [m for m in mp_pool if m["speeches"]]
             towns = sorted({m["num"] for m in spoke if any(x["num"] == m["num"] and x["tag"] != m["tag"] for x in spoke)})
             if not towns:
                 return None
@@ -593,6 +593,12 @@ def main():
         list(pool.map(overlay.photo, again))
     got = sum(1 for mp in mps if overlay.photo(mp))
     print(f"MP photos: {got} of {len(mps)} in {time.monotonic() - began:.0f} s", flush=True)
+    # the photos of every MP a break's comparison may draw, in the background (fetched while a
+    # frame was being drawn, one stalled the picture for a second)
+    def fetch_pool_photos():
+        with ThreadPoolExecutor(4) as fetcher:
+            list(fetcher.map(overlay.photo, sorted({m["id"] for m in mp_pool})))
+    threading.Thread(target=fetch_pool_photos, daemon=True).start()
     votes = []
     lock = threading.Lock()
 
@@ -840,7 +846,7 @@ def main():
             on_break = next((b for b in breaks if b[0] <= clock and (b[1] is None or clock < b[1])), None)
         # a break: comparisons over the hall, nothing else (not within BREAK_NO_VOTE of a vote)
         since_vote = (clock - warsaw(shown[-1]["date"])).total_seconds() if shown else 1e9
-        if on_break and (compares or pool) and since_vote > BREAK_NO_VOTE:
+        if on_break and (compares or mp_pool) and since_vote > BREAK_NO_VOTE:
             since = (clock - on_break[0]).total_seconds()
             slot, into = int(since // CMP_SECONDS), since % CMP_SECONDS
             length = CMP_SECONDS
@@ -857,7 +863,7 @@ def main():
                 return overlay.frame_scene(votes_scene(shown, into, length), hhmm)
             k = (slot // 7) * 4 + {1: 0, 2: 1, 4: 2, 5: 3}.get(kind, 0)   # the comparisons' own count in the turns of seven
             # clubs and a random pair of MPs taking turns
-            c = mp_pair((on_break[0], slot)) if (k % 2 or not compares) and pool else None   # a new pair each break
+            c = mp_pair((on_break[0], slot)) if (k % 2 or not compares) and mp_pool else None   # a new pair each break
             c = c or (compares[(k // 2) % len(compares)] if compares else None)
             if c:
                 return overlay.frame_scene(overlay.compare(c, into, length), hhmm)
