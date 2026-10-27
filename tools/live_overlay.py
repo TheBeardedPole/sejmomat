@@ -458,8 +458,8 @@ class Overlay:
                 im.alpha_composite(badge, (width - 50, 4))
             elif card.get("kind") == "region":
                 d.text((width - 24, 22), card.get("_page") or "", font=self.font(17, True), fill=YELLOW, anchor="rm")
-            else:
-                d.text((width - 50, 12), "TOP", font=self.font(18, True), fill=YELLOW)
+            else:   # a bottom five says so: it is no Top 5
+                d.text((width - 50, 12), "MIN" if card.get("bottom") else "TOP", font=self.font(18, True), fill=YELLOW)
             self._cards[key] = im
         base = self._cards[key].copy()
         # each row slides in from the right, one after another
@@ -780,12 +780,14 @@ class Overlay:
             return
         d = ImageDraw.Draw(im)
         f = self.font(18)
-        right = d.textbbox((28, 24), self.label, font=f)[2] + 8
+        lb = d.textbbox((28, 24), self.label, font=f)
+        top, bottom = lb[1] - 7, lb[3] + 7   # the label's own box (base), so the two sit in one line
+        right = lb[2] + 8
         fb = self.font(18, True)
         cap = fb.getbbox("0")
         w = fb.getlength(clock)
-        d.rounded_rectangle((right + 8, 17, right + 8 + w + 22, 47), 6, fill=(255, 212, 121, 255))
-        d.text((right + 19, 32 + (cap[3] - cap[1]) / 2), clock, font=fb, fill=(12, 20, 36), anchor="ls")
+        d.rounded_rectangle((right + 8, top, right + 8 + w + 22, bottom), 6, fill=(255, 212, 121, 255))
+        d.text((right + 19, (top + bottom) / 2 + (cap[3] - cap[1]) / 2), clock, font=fb, fill=(12, 20, 36), anchor="ls")
 
     def promo_scene(self, card, t, length):
         """A full-screen word about the site in a break (Sejmdle, buycoffee), in the panel over

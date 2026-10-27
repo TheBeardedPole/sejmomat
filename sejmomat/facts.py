@@ -41,6 +41,9 @@ def _age(birth, today):
     return today.year - b.year - ((today.month, today.day) < (b.month, b.day))
 
 
+BOTTOM_CLUB = 10   # a club this big or bigger has its own "Ostatnia piątka" cards
+
+
 def facts(ctx, today=None):
     today = today or date.today()
     out = []
@@ -215,6 +218,44 @@ def facts(ctx, today=None):
             # a ranking only where at least two of them have something to count (not "1 · 0 · 0 · 0")
             if len(pool) >= 2 and sum(1 for r in pool if key(r) not in (0, (0, 0))) >= 2:
                 per_club.append(top5(title, pool, key, show, f"{text} Klub {c['id']}.", topic, c["id"]))
+    # The other end: the five lowest, among MPs who served (near enough) the whole term, else a
+    # newcomer of the spring would always come last; in the general turn and, for clubs of
+    # BOTTOM_CLUB or more MPs, among the club's own (a club of four has no "bottom five")
+    most = max((r["eligible"] for r in mps), default=0)
+    whole = [r for r in mps if r["eligible"] >= 0.9 * most]
+
+    def bottom5(title, rows, key, show, text, topic, club=None):
+        low = sorted(rows, key=key)[:5]
+        card = {"kind": "top5", "bottom": True, "topic": f"{topic}-low", "title": f"Ostatnia piątka: {title}", "text": text,
+                "rows": [{"mp": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club") or "niez.",
+                          "value": show(r)} for r in low]}
+        if club:
+            card.update(title=f"Ostatnia piątka w {club}: {title}", club=club, for_club=club)
+        return card
+
+    def lows(rows):
+        return [("najmniej wystąpień", rows, _speeches, lambda r: str(_speeches(r)),
+                 "Najmniej wystąpień na sali (posłowie obecni przez całą kadencję).", "speeches"),
+                ("najmniej interpelacji i zapytań", rows, lambda r: len(r["questions"]), lambda r: str(len(r["questions"])),
+                 "Najmniej interpelacji i zapytań poselskich (posłowie obecni przez całą kadencję).", "questions"),
+                ("najniższa frekwencja", rows, lambda r: r["turnout"], lambda r: pct(r["turnout"]),
+                 "Najniższa frekwencja w głosowaniach (posłowie obecni przez całą kadencję).", "turnout"),
+                ("najmniej głosów w wyborach", rows, lambda r: r["mp"].get("numberOfVotes") or 0,
+                 lambda r: f"{r['mp'].get('numberOfVotes') or 0:,}".replace(",", " "),
+                 "Najmniej głosów w wyborach do Sejmu (posłowie obecni przez całą kadencję).", "election")]
+    def clear_cut(rows, key):
+        """A bottom five means something only when no more than five share its last value (dozens
+        of ministers on 0 interpellations — the government cannot file them — would be an
+        alphabetical pick)."""
+        low = sorted(rows, key=key)[:5]
+        return len(low) == 5 and sum(1 for r in rows if key(r) <= key(low[-1])) <= 5
+    tops += [bottom5(*c) for c in lows(whole) if clear_cut(c[1], c[2])]
+    for c in ctx["club_rows"]:
+        if c["current"] and len(c["members"]) >= BOTTOM_CLUB:
+            mine = [r for r in whole if r["mp"].get("club") == c["id"]]
+            if len(mine) >= 6:   # more than the five to show, or "the lowest" is simply the club
+                per_club += [bottom5(t, rows, key, show, f"{text} Klub {c['id']}.", topic, c["id"])
+                             for t, rows, key, show, text, topic in lows(mine) if clear_cut(rows, key)]
     # MPs, figures and clubs taking turns, rather than each in a run
     groups = [[c for c in out if c["kind"] == "mp"], [c for c in out if c["kind"] == "fact" and not c.get("stats")],
               [c for c in out if c["kind"] == "fact" and c.get("stats")]]
