@@ -14,7 +14,7 @@ const TTL = 60;   // seconds a check is reused
 // YouTube shows this host a bot check instead of the channel, so its word comes first. It
 // proves itself with a key kept on the stream server (/etc/sejmomat-live.env,
 // SEJMOMAT_LIVE_KEY); here only the key's SHA-256 (empty: no reports taken).
-const LIVE_KEY_SHA256 = '';
+const LIVE_KEY_SHA256 = 'ba81562b0e76ec5bdc80d9f638495e8330c8991ebb5b2d1ac4ac3280af2393fb';
 const PING_TTL = 90;   // a report this old or newer counts
 
 header('Content-Type: application/json; charset=utf-8');
