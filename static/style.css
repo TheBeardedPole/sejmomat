@@ -487,3 +487,7 @@ a.btn2:hover { text-decoration: none; }
   .sched-act { align-items: stretch; }
   .sched-act .btn, .sched-act .btn2 { width: 100%; }
 }
+
+/* "Porównaj z innym głosowaniem" on vote pages (templates/voting.html, static/livevote.js) */
+.compare-link { margin: 12px 0 16px; }
+.compare-link .btn2 svg { flex: none; }

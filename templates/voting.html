@@ -14,7 +14,7 @@
   {% endif %}
 </p>
 
-<p><a href="{{ root }}porownaj-glosowania.html?a={{ v.sitting }}-{{ v.votingNumber }}">{{ _("Porównaj z innym głosowaniem") }} →</a></p>
+<p class="compare-link"><a class="btn2" href="{{ root }}porownaj-glosowania.html?a={{ v.sitting }}-{{ v.votingNumber }}"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h14l-4-4"/><path d="M20 16H6l4 4"/></svg>{{ _("Porównaj z innym głosowaniem") }}</a></p>
 <div class="card">
   <p>{{ result_badge(v) }}</p>
   <div class="grid">

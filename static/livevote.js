@@ -82,7 +82,12 @@
       el("h1", { lang: "pl" }, (v.topic || title).replace(/^./, (x) => x.toUpperCase())),
       el("p", { className: "muted", lang: "pl" }, title),
       el("p", { className: "note" }, L.note),
-      el("p", {}, el("a", { href: `${ROOT}porownaj-glosowania.html?a=${sitting}-${number}`, textContent: `${L.compare} →` })),
+      el("p", { className: "compare-link" }, (() => {
+        const a = el("a", { className: "btn2", href: `${ROOT}porownaj-glosowania.html?a=${sitting}-${number}` });
+        a.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h14l-4-4"/><path d="M20 16H6l4 4"/></svg>';   // fixed markup: the icon
+        a.append(L.compare);
+        return a;
+      })()),
       el("div", { className: "card" },
         el("p", {}, el("span", { className: `badge ${passed(v) ? "adopted" : "rejected"}`, textContent: passed(v) ? L.passed : L.rejected })),
         el("div", { className: "grid" },
