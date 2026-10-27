@@ -303,7 +303,7 @@ if (typeof document !== "undefined") (() => {
         const here = document.getElementById("na-zywo");
         parts.push(el("div", { className: "wg-actions" }, here
           ? link("#na-zywo", L.watch, false, { className: "btn" })
-          : el("a", { className: "btn", href: window.SejmomatYT.watchUrl(s.yt), target: "_blank", rel: "noopener", ...newTab(L.watch) }, `${L.watch} ↗`)));
+          : link(`${box.dataset.schedule}#teraz`, L.watch, false, { className: "btn" })));
         if (src) src.textContent = L.srcChecked.replace("{when}", formatWhen(checkedAt, LANG));
         box.replaceChildren(...parts);
         return;
@@ -324,13 +324,13 @@ if (typeof document !== "undefined") (() => {
         const ours = v.type === PLENARY && document.getElementById("na-zywo");
         const actions = el("div", { className: "wg-actions" }, ours
           ? link("#na-zywo", L.watch, false, { className: "btn" })
-          : el("a", { className: "btn", href: official, target: "_blank", rel: "noopener", ...newTab(L.watch) }, `${L.watch} ↗`));
+          : link(`${box.dataset.schedule}#teraz`, L.watch, false, { className: "btn" }));
         if (s.others.length) {
           const n = s.others.length;
           const label = n === 1 ? L.othersOne : plural(n, ["", L.others, L.othersMany]).replace("{n}", n);
           actions.append(el("details", { className: "wg-others" }, el("summary", { textContent: label }),
             el("ul", {}, s.others.map((o) => el("li", {}, el("span", { className: "live-dot", ariaHidden: "true" }),
-              el("a", { href: o.playerLink || box.dataset.itv, target: "_blank", rel: "noopener", lang: "pl", ...newTab(o.title) }, `${o.title} ↗`))))));
+              el("a", { href: `${box.dataset.schedule}#teraz`, lang: "pl", textContent: o.title }))))));
         }
         parts.push(actions);
         if (src) src.textContent = L.srcLive;
@@ -370,8 +370,7 @@ if (typeof document !== "undefined") (() => {
         } else {
           parts.push(kicker(ICON.tv, L.kicker));
           parts.push(el("p", { className: "wg-title plain", textContent: L.none }));
-          parts.push(el("div", { className: "wg-actions" },
-            el("a", { className: "btn2", href: box.dataset.itv, target: "_blank", rel: "noopener", ...newTab(L.check) }, `${L.check} ↗`)));
+          parts.push(el("div", { className: "wg-actions" }, link(box.dataset.schedule, `${L.schedule} →`, false, { className: "btn2" })));
         }
         if (src) {
           const when = s.state === "error"

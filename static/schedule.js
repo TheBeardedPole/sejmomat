@@ -31,8 +31,8 @@
     playing.wrap.remove();
     playing = null;
   };
-  const play = async (v) => {
-    const video = Object.assign(document.createElement("video"), { controls: true, playsInline: true, autoplay: true, className: "sched-video" });
+  const play = async (v, muted = false) => {
+    const video = Object.assign(document.createElement("video"), { controls: true, playsInline: true, autoplay: true, muted, className: "sched-video" });
     const wrap = Object.assign(document.createElement("div"), { className: "sched-player-box" });
     wrap.append(video);
     const failed = () => {
@@ -169,6 +169,7 @@
   };
 
   let data = null;
+  let arriving = location.hash === "#teraz";   // the content comes later than the browser's own jump to it
   let ours = null;      // Sejmomat live on YouTube (static/yt.js): {id, title, box}
   let live = new Set();
   let checkedAt = null;
@@ -211,7 +212,7 @@
       el("div", { className: "sched-act" }, external(window.SejmomatYT.watchUrl(ours), "YouTube", "sched-player small")),
       ours.box) : null;
     if (current.length || oursRow) {
-      parts.push(el("section", { className: "sched-day sched-now" }, el("h2", { textContent: L.now }),
+      parts.push(el("section", { className: "sched-day sched-now", id: "teraz" }, el("h2", { textContent: L.now }),
         el("ul", { className: "sched-list" }, oursRow, current.sort((a, b) => live.has(b.unid) - live.has(a.unid)).map((v) => row(v, now, live)))));
     }
     const days = new Map();
@@ -267,7 +268,17 @@
     const due = data.filter((v) => v.videoLink && v.startDateTime <= now && (!v.endDateTime || now < v.endDateTime));
     const on = await Promise.all(due.map((v) => streamIsOn(v.videoLink)));
     live = new Set(due.filter((_, i) => on[i]).map((v) => v.unid));
-    if (live.size) render();
+    // come from "Oglądaj transmisję" (#teraz): the live broadcast starts at once, muted (as
+    // browsers allow without a click here), the plenary first; ours, when on, is open already
+    if (arriving && !ours && !playing && live.size) {
+      const first = data.filter((v) => live.has(v.unid)).sort((a, b) => (b.type === "posiedzenie") - (a.type === "posiedzenie"))[0];
+      if (first) playing = await play(first, true);
+    }
+    if (live.size || arriving) render();
+    if (arriving) {
+      arriving = false;
+      document.getElementById("teraz")?.scrollIntoView({ block: "start" });
+    }
   }
   load();
   setInterval(() => document.visibilityState === "visible" && load(), 2 * 60 * 1000);

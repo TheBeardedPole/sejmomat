@@ -46,9 +46,10 @@
 .nav-list { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 14px; margin: 0; padding: 0; list-style: none; }
 .nav-item { position: relative; display: flex; align-items: center; gap: 0; }
 .nav-item.current > a { color: var(--text); font-weight: 600; }
-.sub-toggle { display: inline-grid; place-items: center; width: 22px; height: 26px; padding: 0; margin-left: 1px; border: 0; border-radius: 4px;
+/* the ▾ hugs its label, so the gap after it looks like the gap after any other section */
+.sub-toggle { display: inline-grid; place-items: center; width: 16px; height: 24px; padding: 0; margin: 0 -2px 0 2px; border: 0; border-radius: 4px;
   background: none; color: var(--muted); cursor: pointer; }
-.sub-toggle svg { width: 14px; height: 14px; transition: transform .15s; }
+.sub-toggle svg { width: 13px; height: 13px; transition: transform .15s; }
 .sub-toggle:hover { color: var(--text); }
 .nav-item.open > .sub-toggle svg { transform: rotate(180deg); }
 .sub { display: none; position: absolute; top: calc(100% + 8px); left: -12px; z-index: 30; min-width: 15rem; margin: 0; padding: 6px;
