@@ -12,6 +12,7 @@ import math
 import re
 import sys
 import textwrap
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -20,6 +21,7 @@ from PIL import Image, ImageDraw, ImageFont
 W, H = 1280, 720
 CACHE = Path.home() / ".cache" / "sejmomat-live"
 PHOTO = "https://api.sejm.gov.pl/sejm/term10/MP/{}/photo"
+LOGO = "https://api.sejm.gov.pl/sejm/term10/clubs/{}/logo"   # a club's logo, small, often on white
 ACCENT = (29, 95, 196)
 YELLOW = (255, 212, 121)
 LIGHT_BLUE = (156, 195, 255)
@@ -234,6 +236,44 @@ class Overlay:
         self._photos[mp] = im
         return im
 
+    def club_logo(self, club):
+        """The club's logo from the Sejm's API (kept on disk, as the photos are), or None."""
+        key = ("logo", club)
+        if key in self._photos:
+            return self._photos[key]
+        path = CACHE / "logos" / f"{club}.jpg"
+        im = None
+        try:
+            if path.exists():
+                im = Image.open(path).convert("RGB")
+            else:
+                req = urllib.request.Request(LOGO.format(urllib.parse.quote(club)), headers={"User-Agent": "sejmomat-live"})
+                with urllib.request.urlopen(req, timeout=10) as r:
+                    data = r.read()
+                im = Image.open(io.BytesIO(data)).convert("RGB")
+                try:
+                    path.parent.mkdir(parents=True, exist_ok=True)
+                    path.write_bytes(data)
+                except OSError:
+                    pass
+        except Exception as e:
+            print(f"no logo for {club}: {e}", file=sys.stderr)
+        self._photos[key] = im
+        return im
+
+    def logo_badge(self, club, size):
+        """The logo on a white rounded tile `size` px square (logos come on white), or None."""
+        logo = self.club_logo(club) if club else None
+        if not logo:
+            return None
+        tile = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+        ImageDraw.Draw(tile).rounded_rectangle((0, 0, size - 1, size - 1), round(size * 0.2), fill=(255, 255, 255, 255))
+        inner = size - round(size * 0.16)
+        scale = min(inner / logo.width, inner / logo.height)
+        lg = logo.resize((max(1, round(logo.width * scale)), max(1, round(logo.height * scale))), Image.LANCZOS)
+        tile.paste(lg, ((size - lg.width) // 2, (size - lg.height) // 2))
+        return tile
+
     def card_base(self, card):
         """The card without what moves (the number), drawn once."""
         key = id(card)
@@ -267,12 +307,23 @@ class Overlay:
                 d.text((sx, h - 26), label, font=self.font(13), fill=(170, 180, 196))
                 sx += 92
         elif card.get("stats"):
-            # a club card: small stats along the bottom
-            sx = 24
-            for label, value in card["stats"][:4]:
-                d.text((sx, h - 50), value, font=self.font(19, True), fill="white")
-                d.text((sx, h - 26), label, font=self.font(13), fill=(170, 180, 196))
-                sx += 128
+            # a club card: its logo beside the name (drawn with the name, _card), and its
+            # figures as four tiles across the card, a large number over its label
+            badge = self.logo_badge(card.get("club"), 64)
+            if badge:
+                im.alpha_composite(badge, (24, 54))
+            stats = card["stats"][:4]
+            gap, top, bottom = 10, 128, h - 18
+            tile = (width - 48 - gap * (len(stats) - 1)) / max(1, len(stats))
+            for i, (label, value) in enumerate(stats):
+                x = 24 + i * (tile + gap)
+                d.rounded_rectangle((x, top, x + tile, bottom), 12, fill=(255, 255, 255, 16))
+                size = 34
+                while size > 20 and self.font(size, True).getlength(value) > tile - 16:
+                    size -= 2
+                cx = x + tile / 2
+                d.text((cx, top + (bottom - top) * 0.42), value, font=self.font(size, True), fill="white", anchor="mm")
+                d.text((cx, top + (bottom - top) * 0.78), label.upper(), font=self.font(13, True), fill=(170, 180, 196), anchor="mm")
         else:
             for i, line in enumerate(textwrap.wrap(card.get("text") or "", 52)[:3]):
                 d.text((24, h - 84 + i * 24), line, font=self.font(17), fill=(205, 212, 225))
@@ -325,7 +376,11 @@ class Overlay:
             while size > 14 and self.font(size, True).getlength(title) > width - 120:
                 size -= 1
             d.text((20, 22), title, font=self.font(size, True), fill="white", anchor="lm")
-            d.text((width - 50, 12), "TOP", font=self.font(18, True), fill=YELLOW)
+            badge = self.logo_badge(card.get("for_club"), 36) if card.get("for_club") else None
+            if badge:
+                im.alpha_composite(badge, (width - 50, 4))
+            else:
+                d.text((width - 50, 12), "TOP", font=self.font(18, True), fill=YELLOW)
             self._cards[key] = im
         base = self._cards[key].copy()
         # each row slides in from the right, one after another
@@ -384,7 +439,10 @@ class Overlay:
             shown = str(round(value * (1 - (1 - k) ** 3)))
         mp = card["kind"] == "mp"
         nx, ny = (176, 128) if mp else (24, 56)
-        size = 58 if mp else 66
+        if card.get("stats") and not mp and self.club_logo(card.get("club")):
+            nx, ny = 102, 58   # right of the club's logo
+        # a club card's name, above its tiles, is a heading rather than a figure
+        size = 58 if mp else 44 if card.get("stats") else 66
         # the unit sits right of the value, in at most two lines measured in pixels (a
         # count of characters let "Klub Parlamentarny Centrum" run off the card); a long
         # value (a club's name) is set smaller until the unit fits whole

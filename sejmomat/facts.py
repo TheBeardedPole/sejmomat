@@ -140,10 +140,12 @@ def facts(ctx, today=None):
     for c in sorted(clubs, key=lambda c: -len(c["members"])):
         sp = c.get("speeches") or {}
         out.append({"kind": "fact", "title": "Klub w liczbach", "value": c["id"],
-                    "unit": c["name"] if c["name"] != c["id"] else "",
+                    # the name without "Klub Parlamentarny" and the like: the card says it is a club
+                    "unit": re.sub(r"^(Klub Parlamentarny|Klub Poselski|Koło Poselskie|Koło Parlamentarne)\s+", "", c["name"])
+                    if c["name"] != c["id"] else "",
                     "club": c["id"], "text": f"{c['name']}: spójność {pct(c['cohesion'])}, wygrane głosowania {pct(c['effectiveness'])}.",
                     "stats": [["posłów", str(len(c["members"]))], ["spójność", pct(c["cohesion"])],
-                              ["wygrane", pct(c["effectiveness"])], ["wystąpienia", str((sp.get("spoken") or 0) + (sp.get("written") or 0))]]})
+                              ["wygrane", pct(c["effectiveness"])], ["wystąpienia", f"{(sp.get('spoken') or 0) + (sp.get('written') or 0):,}".replace(",", " ")]]})
     pairs = [(c["id"], o["club"], o["rate"]) for c in clubs for o in c["agreement"]
              if o["club"] in {x["id"] for x in clubs} and c["id"] < o["club"]]
     if pairs:
