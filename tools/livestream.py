@@ -38,9 +38,12 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
+from itertools import zip_longest
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
@@ -270,6 +273,17 @@ PAGE_MIN = 5                                            # called and held (about
 MAX_PAGES = 6
 PAGE_STRETCH = 4                                        # a page may run this many lines over to keep a passage whole
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
+# A break in the sitting: the broadcast holds its wide shot of the hall (tools/break/*.png,
+# thumbnails of it), with nobody named and no votes. Then the screen shows comparisons
+# (sejmomat/facts.py, "compare"), one after another, until the picture changes.
+BREAK_REFS = sorted((Path(__file__).resolve().parent / "break").glob("*.png"))
+BREAK_MATCH = 18                                        # a thumbnail this close to a reference (mean difference, 0-255) is the wide shot
+BREAK_AFTER = 60                                        # the wide shot held this long: a break
+BREAK_ENDS = 2                                          # this many snapshots in a row of something else end it
+BREAK_NO_VOTE = 120                                     # …and none within this long of a vote (results are read out over wide shots too)
+BREAK_NO_SPEAKER = 180                                  # …or of a speaker being named: a motion from the floor can be on the wide shot
+CMP_SECONDS = 20                                        # each comparison on screen this long
+THUMB = (64, 36)
 SPEAKER_SECONDS = 20                                    # how long the card of a speaker who has just begun stays
 SPEAKER_BAR = 600                                       # how long the bar names a speaker (until the next one)
 CAPTION_LAG = 8                                         # the broadcast names a speaker this long after they begin, or later (10th percentile of 73 speeches, October 2026: median 12 s; tools/caption_lag.py)
@@ -402,8 +416,14 @@ def snapshot_command(ahead, snapshot):
     snapshots need), the caption band saved every SNAP_EVERY seconds as numbered files."""
     proxy = ["-http_proxy", VIDEO_PROXY] if VIDEO_PROXY else []
     bx, by, bw, bh = BAND
+    # and, numbered alike, a tiny grey thumbnail of the whole picture, to tell a break by
+    thumbs = str(snapshot).replace("band-", "thumb-")
+    graph = (f"[0:v]fps=1/{SNAP_EVERY},split=2[a][b];[a]{FIT},crop={bw}:{bh}:{bx}:{by}[band];"
+             f"[b]scale={THUMB[0]}:{THUMB[1]},format=gray[thumb]")
     return ["ffmpeg", "-hide_banner", "-loglevel", "error", "-re", *proxy, "-skip_frame", "nokey", "-i", ahead, "-an",
-            "-vf", f"fps=1/{SNAP_EVERY},{FIT},crop={bw}:{bh}:{bx}:{by}", "-f", "image2", "-start_number", "0", "-y", str(snapshot)]
+            "-filter_complex", graph,
+            "-map", "[band]", "-f", "image2", "-start_number", "0", "-y", str(snapshot),
+            "-map", "[thumb]", "-f", "image2", "-start_number", "0", "-y", thumbs]
 
 
 def ffmpeg_command(src, out, snapshot, fast=False):
@@ -479,7 +499,11 @@ def main():
             by_club.setdefault(f.get("for_club") or f["club"], []).append(f)
     for pool in by_club.values():
         pool.sort(key=lambda f: f.get("kind") != "top5")   # its Top 5s first, then the club's card
-    facts = [f for f in facts if not f.get("for_club")]
+    # the comparisons, for breaks only: clubs and MPs taking turns
+    compares = [f for f in facts if f.get("kind") == "compare"]
+    compares = [c for pair in zip_longest([c for c in compares if c.get("topic") == "clubs"],
+                                          [c for c in compares if c.get("topic") != "clubs"]) for c in pair if c]
+    facts = [f for f in facts if not f.get("for_club") and f.get("kind") != "compare"]
     every, first, club_after, promos = FACT_EVERY, 0, CLUB_AFTER, PROMOS
     if args.demo:
         # the liveliest cards first, one after another, from the start of the recording
@@ -545,6 +569,46 @@ def main():
               "speakers: captions read level with the picture (cards start when the caption does)", flush=True)
     speaker = {"card": None, "at": None, "mp": None, "until": None}
     pending = []   # speakers recognised ahead of the picture: (moment they begin, update), applied when it gets there
+    breaks = []    # [start, end or None] by the picture's clock: the comparisons' time (read ahead, so known in time)
+    refs = []
+    for path in BREAK_REFS:
+        try:
+            refs.append(Image.open(path).convert("L").resize(THUMB).tobytes())
+        except OSError:
+            pass
+    brk = {"run": None, "misses": 0, "on": False, "first_miss": None, "quiet_from": None}
+
+    def wide_shot(path):
+        """How close the picture is to the break's wide shot: the least mean difference to a reference."""
+        try:
+            px = Image.open(path).convert("L").resize(THUMB).tobytes()
+        except OSError:
+            return None
+        return min(sum(abs(a - b) for a, b in zip(px, r)) / len(px) for r in refs) if refs else None
+
+    def follow_break(seen, score):
+        if score is None:
+            return
+        if score <= BREAK_MATCH:
+            brk["misses"], brk["first_miss"] = 0, None
+            brk["run"] = brk["run"] or seen
+            # the wide shot from the stream's first picture: the sitting has not begun, so at once
+            opening = (brk["run"] - start).total_seconds() <= lead + 2 * SNAP_EVERY
+            spoken = brk["quiet_from"] and seen < brk["quiet_from"]
+            if not brk["on"] and not spoken and (opening or (seen - max(brk["run"], brk["quiet_from"] or brk["run"])).total_seconds() >= BREAK_AFTER):
+                brk["on"] = True
+                with lock:
+                    breaks.append([brk["run"] if opening else max(brk["run"], brk["quiet_from"] or brk["run"]) + timedelta(seconds=BREAK_AFTER), None])
+                print(f"{breaks[-1][0]:%H:%M:%S} przerwa: porównania na ekranie", flush=True)
+        else:
+            brk["misses"] += 1
+            brk["first_miss"] = brk["first_miss"] or seen
+            if brk["misses"] >= BREAK_ENDS:
+                if brk["on"]:
+                    with lock:
+                        breaks[-1][1] = brk["first_miss"]
+                    print(f"{brk['first_miss']:%H:%M:%S} koniec przerwy", flush=True)
+                brk.update(run=None, on=False)
     now = {"clock": start}
 
     def speaker_card(m):
@@ -590,6 +654,10 @@ def main():
                 m = recogniser.match(read(path))
                 path.unlink(missing_ok=True)
                 path.with_suffix(".ocr.png").unlink(missing_ok=True)
+                thumb = work / f"thumb-{i}.png"
+                if ahead and refs:
+                    follow_break(start + timedelta(seconds=lead + SNAP_EVERY * i), wide_shot(thumb))
+                thumb.unlink(missing_ok=True)
                 if not m:
                     continue
                 # the moment of that picture: read ahead, from its number (that ffmpeg writes one
@@ -607,6 +675,11 @@ def main():
                 overlay.photo(m["id"])
                 with lock:
                     pending.append((began, {"mp": m["id"], "at": began, "until": None, "card": speaker_card(m)}))
+                    # someone has the floor: a break on screen ends when they began, and none starts for a while
+                    if brk["on"] and breaks and breaks[-1][1] is None:
+                        breaks[-1][1] = max(began, breaks[-1][0])
+                        print(f"{breaks[-1][1]:%H:%M:%S} koniec przerwy (mówca)", flush=True)
+                    brk.update(on=False, run=None, misses=0, quiet_from=seen + timedelta(seconds=BREAK_NO_SPEAKER))
     if not transcript:
         threading.Thread(target=watch, daemon=True).start()
     time.sleep(1)
@@ -632,6 +705,45 @@ def main():
                     picks[slot] = facts[j % len(facts)]
         return picks[slot]
 
+    # the sitting's agenda (data/proceedings.json, kept up to date by git pull), for the breaks' list
+    try:
+        from sejmomat import agenda as _agenda
+        planned = [it for g in (_agenda.by_sitting().get(n) or {}).get("groups", []) for it in g["items"]]
+    except Exception as e:
+        print(f"no agenda: {e}", file=sys.stderr)
+        planned = []
+
+    def vote_prints(v):
+        return set(re.findall(r"\d+(?:-[A-Za-z0-9]+)?", " ".join(m[1] for m in re.finditer(
+            r"druk(?:i|ów)?\s+nr\s+([\d\-A-Za-z ,i]+)", v.get("title") or ""))))
+
+    def agenda_scene(shown, t, length):
+        """Porządek obrad: the items, those voted on today marked, the next one lit; the nine around it."""
+        done = set().union(*[vote_prints(v) for v in shown]) if shown else set()
+        rows, nxt = [], None
+        for it in planned:
+            voted = bool(done & set(it.get("prints") or []))
+            if not voted and nxt is None:
+                nxt = len(rows)
+            rows.append((it["n"], f"{it.get('kind', '')} {it.get('rest', '')}".strip(), "głosowano" if voted else "", "done" if voted else "todo"))
+        if nxt is not None:
+            rows[nxt] = (rows[nxt][0], rows[nxt][1], "następny", "next")
+        first = max(0, min((nxt or 0) - 3, len(rows) - 9))
+        sub = f"{len(planned)} punktów · {sum(1 for r in rows if r[3] == 'done')} z głosowaniami"
+        return overlay.list_scene("Porządek obrad", sub, rows[first:first + 9], t, length)
+
+    def votes_scene(shown, t, length):
+        """Głosowania: today's latest, with what was decided, and the day's count."""
+        today = [v for v in shown if v["date"][:10] == shown[-1]["date"][:10]]
+        rows = []
+        for v in reversed(today[-9:]):
+            text = re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or "")
+            ok = passed(v)
+            rows.append((f"nr {v['votingNumber']}", text, f"{'PRZYJĘTO' if ok else 'ODRZUCONO'} {v['yes']}/{v['no']}/{v['abstain']}",
+                         "adopted" if ok else "rejected"))
+        n_ok = sum(1 for v in today if passed(v))
+        return overlay.list_scene("Głosowania", f"dziś {len(today)} · przyjęto {n_ok}, odrzucono {len(today) - n_ok}", rows, t, length)
+
     def frame(clock):
         """The overlay for the picture at `clock`."""
         if transcript:
@@ -641,6 +753,23 @@ def main():
             # a speaker recognised ahead: theirs once the picture reaches the moment they began
             while pending and pending[0][0] <= clock:
                 speaker.update(pending.pop(0)[1])
+            on_break = next((b for b in breaks if b[0] <= clock and (b[1] is None or clock < b[1])), None)
+        # a break: comparisons over the hall, nothing else (not within BREAK_NO_VOTE of a vote)
+        since_vote = (clock - warsaw(shown[-1]["date"])).total_seconds() if shown else 1e9
+        if on_break and compares and since_vote > BREAK_NO_VOTE:
+            since = (clock - on_break[0]).total_seconds()
+            slot, into = int(since // CMP_SECONDS), since % CMP_SECONDS
+            length = CMP_SECONDS
+            if on_break[1]:   # the break's end is known ahead: the last one leaves in time
+                length = min(CMP_SECONDS, (on_break[1] - on_break[0]).total_seconds() - slot * CMP_SECONDS)
+            # in turn: the agenda, two comparisons, today's votes, two comparisons
+            kind = slot % 6
+            if kind == 0 and planned:
+                return overlay.frame_scene(agenda_scene(shown, into, length))
+            if kind == 3 and shown:
+                return overlay.frame_scene(votes_scene(shown, into, length))
+            k = slot - slot // 3 - 1   # the comparisons' own count, skipping the lists' turns
+            return overlay.frame_scene(overlay.compare(compares[k % len(compares)], into, length))
         item, topic, vote = captions(shown, tags, title)
         recent = shown and (clock - warsaw(shown[-1]["date"])).total_seconds() < QUIET
         chip = note = None

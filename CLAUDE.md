@@ -241,6 +241,15 @@ Live on sejmomat.pl:
   second ffmpeg `LOOKAHEAD` (25 s) ahead of the picture and backdated by `CAPTION_LAG` (8 s,
   measured with `tools/caption_lag.py`: median 12 s over 73 speeches). Reading the caption
   inside the picture's ffmpeg did not find speakers; `--no-lookahead` reads level with it.
+- **Breaks in the stream:** the caption reader also saves a 64x36 thumbnail; held on the
+  wide shot of the hall (`tools/break/*.png`, mean difference ≤ 18) for 60 s, with no vote
+  for 2 min and no speaker named for 3 min, it is a break (from the stream's first picture,
+  at once: before the sitting opens). Then, over the hall, in turn every 20 s: the agenda
+  (items voted on today marked by their prints), two comparisons (`facts.comparisons`:
+  coalition vs opposition clubs by size, closest allies and furthest apart, and per
+  constituency its most active coalition and opposition speakers), today's votes, two more.
+  It ends when the shot changes or a speaker is named. Tested on 22 October 2026
+  (16:29:45–17:05:27). `python tools/cards_pdf.py` prints every card and comparison.
 
 Waiting on the owner:
 

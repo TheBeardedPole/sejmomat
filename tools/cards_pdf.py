@@ -22,7 +22,7 @@ from PIL import Image, ImageDraw
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import live_overlay  # noqa: E402
 from live_overlay import H, W, Overlay  # noqa: E402
-from livestream import (CLUB_AFTER, FACT_EVERY, FACT_SECONDS, PROMO_EVERY, PROMOS, ROOT, SPEAKER_SECONDS,  # noqa: E402
+from livestream import (CLUB_AFTER, CMP_SECONDS, FACT_EVERY, FACT_SECONDS, PROMO_EVERY, PROMOS, ROOT, SPEAKER_SECONDS,  # noqa: E402
                         TOP_SECONDS, WARSAW, font, load_mps, plenary, source)
 
 from sejmomat.build import build_context  # noqa: E402
@@ -48,6 +48,9 @@ def still(at):
 
 def when_shown(c):
     """What the card is and when the stream shows it, in a line or two (Polish, like the cards)."""
+    if c.get("kind") == "compare":
+        return ("Porównanie (przerwa)",
+                f"W przerwie obrad, na zmianę z porządkiem obrad i głosowaniami dnia: {CMP_SECONDS} s każde.")
     if c.get("kind") == "speaker":
         return "Na mównicy", f"Gdy poseł staje na mównicy: przez {SPEAKER_SECONDS} s od początku wystąpienia."
     if c.get("kind") == "promo":
@@ -96,12 +99,17 @@ def main():
     bold, regular = overlay.font(30, True), overlay.font(22, False)
     out = []
     for i, (c, special) in enumerate(pages, 1):
-        drawn = overlay.card(c, 10.0, 20.0)   # the still part of its turn: counted in, rows in
         page = Image.new("RGB", (PAGE_W, H + CAPTION), (250, 250, 248))
         frame = back.copy()
-        if drawn:
-            img, _, _ = drawn
-            frame.alpha_composite(img, ((W - img.width) // 2, (H - img.height) // 2))
+        if c.get("kind") == "compare":
+            # a break's comparison: over the whole hall, as the stream shows it
+            scene = Image.frombytes("RGBA", (W, H), overlay.frame_scene(overlay.compare(c, 10.0, 20.0)))
+            frame.alpha_composite(scene)
+        else:
+            drawn = overlay.card(c, 10.0, 20.0)   # the still part of its turn: counted in, rows in
+            if drawn:
+                img, _, _ = drawn
+                frame.alpha_composite(img, ((W - img.width) // 2, (H - img.height) // 2))
         page.paste(frame.convert("RGB"), (0, 0))
         d = ImageDraw.Draw(page)
         kind, rule = when_shown({**c, "kind": special} if special else c)

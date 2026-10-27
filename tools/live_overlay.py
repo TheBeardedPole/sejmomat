@@ -27,6 +27,8 @@ YELLOW = (255, 212, 121)
 LIGHT_BLUE = (156, 195, 255)
 RED, GREEN = (255, 154, 154), (155, 232, 171)
 PANEL = (10, 16, 28, 214)
+CMP_BOX = (80, 72, W - 80, H - 36)   # a break's comparison: the hall stays visible around it
+CMP_ROWS, CMP_STEP = 214, 50          # its rows: the first label's height in the panel, and the step
 BOX_MIN, BOX_MAX = 460, 820   # the caption box in the bottom left: its width, as its text needs
 STILL = 1.7          # seconds into its turn after which a card stops moving
 CARD_SCALE = 0.7     # cards are drawn at full size, then shrunk, so they stay out of the way
@@ -69,6 +71,11 @@ def club_chip(d, x, y, club, font, tag_font, now=None):
         d.text((end + 10, mid), note, font=font, fill=LIGHT_BLUE, anchor="lm")
         end = d.textbbox((end + 10, mid), note, font=font, anchor="lm")[2]
     return end
+
+
+def mix(a, b, k):
+    """Colour a moved k of the way towards b (solid, so it can be drawn without holes)."""
+    return tuple(round(x + (y - x) * k) for x, y in zip(a, b))
 
 
 def club_colour(club):
@@ -496,6 +503,199 @@ class Overlay:
             shine.putalpha(Image.composite(shine.getchannel("A"), Image.new("L", base.size, 0), alpha))
             base.alpha_composite(shine)
         return self._place(base, t, length)
+
+    # ---- a break in the sitting: a comparison over the hall, as a football line-up
+    def compare_base(self, card):
+        """The still part of a comparison: the panel, both sides, labels and headline (rows apart)."""
+        key = ("compare", id(card))
+        if key in self._cards:
+            return self._cards[key]
+        x0, y0, x1, y1 = CMP_BOX
+        pw, ph = x1 - x0, y1 - y0
+        im = Image.new("RGBA", (pw, ph), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        bg = (12, 20, 36)
+        d.rounded_rectangle((0, 0, pw - 1, ph - 1), 24, fill=bg + (236,))
+        cx, head = pw // 2, 172
+        a, b = card["sides"]
+        # the two halves of the header in the sides' colours, fading towards the middle
+        for side_, sign in ((a, -1), (b, 1)):
+            colour = club_colour(side_["club"])
+            for i in range(cx - 40):
+                k = 1 - i / (cx - 40)
+                c = mix(bg, colour, 0.85 * k ** 0.8)
+                x = cx - 40 - i if sign < 0 else cx + 40 + i
+                d.line((x, 0, x, head), fill=c + (236,))
+        d.rectangle((0, head, pw, head + 3), fill=(255, 212, 121, 255))
+        for side_, sign in ((a, -1), (b, 1)):
+            outer = 36 if sign < 0 else pw - 36
+            anchor = "la" if sign < 0 else "ra"
+            # the face or the logo, at the outer edge
+            pic = None
+            if side_.get("mp"):
+                face = self.photo(side_["mp"])
+                if face:
+                    fw, fh = 104, 130
+                    sc = max(fw / face.width, fh / face.height)
+                    f = face.resize((max(1, round(face.width * sc)), max(1, round(face.height * sc))), Image.LANCZOS)
+                    f = f.crop(((f.width - fw) // 2, 0, (f.width - fw) // 2 + fw, fh)).convert("RGBA")
+                    mask = Image.new("L", (fw, fh), 0)
+                    ImageDraw.Draw(mask).rounded_rectangle((0, 0, fw - 1, fh - 1), 14, fill=255)
+                    pic = Image.new("RGBA", (fw, fh), (0, 0, 0, 0))
+                    pic.paste(f, (0, 0), mask)
+            else:
+                pic = self.logo_badge(side_["club"], 112)
+            px = outer if sign < 0 else outer - (pic.width if pic else 0)
+            if pic:
+                im.alpha_composite(pic, (px, (head - pic.height) // 2 + 4))
+            tx = (outer + (pic.width + 22 if pic else 0)) if sign < 0 else (outer - (pic.width + 22 if pic else 0))
+            name, size = side_["name"], 40
+            while size > 24 and self.font(size, True).getlength(name) > cx - 120 - (pic.width if pic else 0):
+                size -= 2
+            d.text((tx, 34), name, font=self.font(size, True), fill="white", anchor=anchor)
+            chip = f"{side_['club']} · {side_['tag'].upper()}" if side_.get("mp") else side_["tag"].upper()
+            f_chip = self.font(15, True)
+            wdt = f_chip.getlength(chip)
+            cx0 = tx if sign < 0 else tx - wdt
+            d.rounded_rectangle((cx0 - 9, 92, cx0 + wdt + 9, 116), 9, fill=club_colour(side_["club"]) + (255,))
+            d.text((cx0, 104), chip, font=f_chip, fill="white", anchor="lm")
+            d.text((tx, 128), side_.get("sub") or "", font=self.font(17), fill=(205, 212, 225), anchor=anchor)
+        # VS in a ring in the middle
+        d.ellipse((cx - 40, head // 2 - 40, cx + 40, head // 2 + 40), fill=bg + (255,), outline=(255, 212, 121, 255), width=3)
+        d.text((cx, head // 2), "VS", font=self.font(32, True), fill=(255, 212, 121), anchor="mm")
+        for i, row in enumerate(card["rows"]):
+            y = CMP_ROWS + i * CMP_STEP
+            d.text((cx, y), row["label"].upper(), font=self.font(14, True), fill=(170, 180, 196), anchor="mm")
+        d.text((cx, ph - 74), card.get("headline") or "", font=self.font(26, True), fill="white", anchor="mm")
+        d.text((cx, ph - 40), card.get("sub") or "", font=self.font(15), fill=(170, 180, 196), anchor="mm")
+        self._cards[key] = im
+        return im
+
+    def compare(self, card, t, length):
+        """The comparison at time t of its turn: (image, x, y). The panel rises in, the rows
+        come in one after another from the middle, and it all fades at the end; in between it
+        does not move, so that part is drawn once."""
+        still = 2.4 <= t <= length - 0.6
+        key = ("compare-still", id(card))
+        if still and key in self._stills:
+            return self._stills[key]
+        out = self._compare(card, t, length)
+        if still:
+            self._stills[key] = out
+        return out
+
+    def _compare(self, card, t, length):
+        base = self.compare_base(card).copy()
+        d = ImageDraw.Draw(base)
+        pw = base.width
+        cx, half = pw // 2, 330
+        bg = (12, 20, 36)
+        a, b = card["sides"]
+        ca, cb = club_colour(a["club"]), club_colour(b["club"])
+        if ca == cb or sum(abs(p - q) for p, q in zip(ca, cb)) < 60:
+            cb = mix(cb, (255, 255, 255), 0.45)   # two sides of one colour: the right one lighter
+        for i, row in enumerate(card["rows"]):
+            k = ease_out_back(clamp((t - 0.45 - i * 0.12) / 0.5), 1.2)
+            if k <= 0:
+                continue
+            y = CMP_ROWS + i * CMP_STEP + 22
+            va, vb = row["a"], row["b"]
+            tot = (va + vb) or 1
+            la, lb = max(4, round(half * va / tot * min(1, k))), max(4, round(half * vb / tot * min(1, k)))
+            win_a = va > vb if row["better"] == "more" else va < vb
+            win_b = vb > va if row["better"] == "more" else vb < va
+            d.rounded_rectangle((cx - 10 - la, y - 7, cx - 10, y + 7), 6, fill=(ca if win_a else mix(bg, ca, 0.45)) + (255,))
+            d.rounded_rectangle((cx + 10, y - 7, cx + 10 + lb, y + 7), 6, fill=(cb if win_b else mix(bg, cb, 0.45)) + (255,))
+            fa, fb = self.font(30, True), self.font(30, True)
+            d.text((cx - half - 34, y), row["show"][0], font=fa, fill=YELLOW if win_a else (236, 238, 245), anchor="rm")
+            d.text((cx + half + 34, y), row["show"][1], font=fb, fill=YELLOW if win_b else (236, 238, 245), anchor="lm")
+        # in: rising and fading in; out: fading
+        x0, y0, _, _ = CMP_BOX
+        if t < 0.5:
+            k = ease_out_back(clamp(t / 0.5), 1.0)
+            y0 += round((1 - k) * 40)
+            base.putalpha(base.getchannel("A").point(lambda v, k=clamp(t / 0.35): round(v * k)))
+        elif t > length - 0.6:
+            k = clamp((length - t) / 0.6)
+            base.putalpha(base.getchannel("A").point(lambda v, k=k: round(v * k)))
+        return base, x0, y0
+
+    def list_scene(self, title, subtitle, rows, t, length):
+        """A list over the hall in a break (the agenda, today's votes): a heading strip and up to
+        nine rows of (number, text, badge, state); state "done" is dimmed, "next" lit, "adopted" /
+        "rejected" colour the badge. Rows come in one after another; it fades at the end."""
+        x0, y0, x1, y1 = CMP_BOX
+        pw, ph = x1 - x0, y1 - y0
+        key = ("list", title, subtitle, tuple(tuple(r) for r in rows))
+        if key not in self._cards:
+            lists = [k for k in self._cards if isinstance(k, tuple) and k[0] == "list"]
+            if len(lists) > 8:   # the agenda and the votes change as the day goes: drop the old ones
+                for k in lists:
+                    del self._cards[k]
+            im = Image.new("RGBA", (pw, ph), (0, 0, 0, 0))
+            d = ImageDraw.Draw(im)
+            bg = (12, 20, 36)
+            d.rounded_rectangle((0, 0, pw - 1, ph - 1), 24, fill=bg + (236,))
+            for i in range(pw):   # the heading strip, the accent fading to the right
+                d.line((i, 0, i, 96), fill=mix(bg, ACCENT, 0.9 * (1 - i / pw) ** 0.7) + (236,))
+            d.rectangle((0, 96, pw, 99), fill=YELLOW + (255,))
+            d.text((36, 30), title.upper(), font=self.font(34, True), fill="white")
+            d.text((pw - 36, 48), subtitle, font=self.font(18), fill=(215, 222, 235), anchor="rm")
+            rows_im = []
+            for number, text, badge, state in rows[:9]:
+                r = Image.new("RGBA", (pw - 48, 50), (0, 0, 0, 0))
+                rd = ImageDraw.Draw(r)
+                lit = state == "next"
+                rd.rounded_rectangle((0, 0, r.width - 1, 49), 12, fill=(mix(bg, ACCENT, 0.55) if lit else mix(bg, (255, 255, 255), 0.06)) + (255,))
+                dim = state == "done"
+                rd.text((18, 25), number, font=self.font(20, True), fill=(140, 150, 168) if dim else YELLOW, anchor="lm")
+                f = self.font(19, lit)
+                room = r.width - 110 - (f.getlength(badge) + 40 if badge else 0)
+                rd.text((96, 25), self.fit(text, f, room), font=f, fill=(150, 160, 178) if dim else (240, 242, 248), anchor="lm")
+                if badge:
+                    fb = self.font(15, True)
+                    bw = fb.getlength(badge)
+                    colour = {"adopted": (40, 150, 90), "rejected": (190, 60, 60), "next": (255, 212, 121), "done": (70, 80, 98)}.get(state, (70, 80, 98))
+                    bx = r.width - 18 - bw
+                    rd.rounded_rectangle((bx - 10, 12, r.width - 8, 38), 9, fill=colour + (255,))
+                    rd.text((bx, 25), badge, font=fb, fill=(12, 20, 36) if state == "next" else "white", anchor="lm")
+                rows_im.append(r)
+            self._cards[key] = (im, rows_im)
+        im, rows_im = self._cards[key]
+        base = im.copy()
+        for i, r in enumerate(rows_im):
+            k = clamp((t - 0.4 - i * 0.08) / 0.35)
+            if k <= 0:
+                continue
+            piece = r.copy()
+            if k < 1:
+                piece.putalpha(piece.getchannel("A").point(lambda a, k=k: round(a * k)))
+            base.alpha_composite(piece, (24 + round((1 - ease_out_back(k)) * 60), 118 + i * 56))
+        if t < 0.5:
+            y0 += round((1 - ease_out_back(clamp(t / 0.5), 1.0)) * 40)
+            base.putalpha(base.getchannel("A").point(lambda v, k=clamp(t / 0.35): round(v * k)))
+        elif t > length - 0.6:
+            base.putalpha(base.getchannel("A").point(lambda v, k=clamp((length - t) / 0.6): round(v * k)))
+        return base, x0, y0
+
+    def frame_scene(self, scene):
+        """A frame of a break: the comparison over the hall, the Sejmomat logo top right."""
+        im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        if self.logo:
+            im.alpha_composite(self.logo, (W - self.logo.width - 24, 22))
+        pill = self._cards.get("break-pill")
+        if pill is None:
+            f = self.font(17, True)
+            text = "PRZERWA W OBRADACH"
+            pill = Image.new("RGBA", (round(f.getlength(text)) + 40, 36), (0, 0, 0, 0))
+            pd = ImageDraw.Draw(pill)
+            pd.rounded_rectangle((0, 0, pill.width - 1, 35), 12, fill=(255, 212, 121, 255))
+            pd.text((20, 18), text, font=f, fill=(12, 20, 36), anchor="lm")
+            self._cards["break-pill"] = pill
+        im.alpha_composite(pill, (CMP_BOX[0], 22))
+        img, x, y = scene
+        im.alpha_composite(img, (x, y))
+        return im.tobytes()
 
     def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None):
         """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes.

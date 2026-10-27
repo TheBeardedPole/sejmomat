@@ -219,7 +219,82 @@ def facts(ctx, today=None):
     groups = [[c for c in out if c["kind"] == "mp"], [c for c in out if c["kind"] == "fact" and not c.get("stats")],
               [c for c in out if c["kind"] == "fact" and c.get("stats")]]
     mixed = [c for row in zip_longest(*groups) for c in row if c]
-    return spread(mixed, tops) + per_club
+    return spread(mixed, tops) + per_club + comparisons(ctx, mps)
+
+
+def _num(n):
+    return f"{n:,}".replace(",", " ")
+
+
+def _row(label, a, b, show, better="more"):
+    return {"label": label, "a": a, "b": b, "show": [show(a), show(b)], "better": better}
+
+
+def comparisons(ctx, mps):
+    """Full-screen comparisons for a break in the sitting (tools/livestream.py): club against
+    club (the coalition's and the opposition's clubs paired by size, the closest allies and the
+    furthest apart) and, per constituency, its most active coalition and opposition speakers.
+    A card: {"kind": "compare", "sides": [{"name", "club", "tag", "mp"?, "sub"}] * 2,
+    "rows": [{"label", "a", "b", "show": [a, b], "better": "more" | "less"}], "headline", "sub"}."""
+    from .stats import COALITION
+    tag = lambda club: "Koalicja" if club in COALITION else "Opozycja"   # noqa: E731
+    out = []
+    clubs = {c["id"]: c for c in ctx["club_rows"] if c["current"] and len(c["members"]) >= 5}
+
+    def questions(c):
+        q = c.get("questions") or {}
+        return (q.get("int") or 0) + (q.get("zap") or 0)
+
+    def club_card(a, b, headline, sub):
+        rate = next((x["rate"] for x in a["agreement"] if x["club"] == b["id"]), None)
+        out.append({"kind": "compare", "topic": "clubs", "title": f"{a['id']} kontra {b['id']}",
+                    "sides": [{"name": c["id"], "club": c["id"], "tag": tag(c["id"]), "sub": f"{len(c['members'])} posłów"} for c in (a, b)],
+                    "rows": [_row("posłów", len(a["members"]), len(b["members"]), str),
+                             _row("spójność głosowania", a["cohesion"], b["cohesion"], pct),
+                             _row("po stronie zwycięskiej", a["effectiveness"], b["effectiveness"], pct),
+                             _row("wystąpienia", _speeches(a), _speeches(b), _num),
+                             _row("interpelacje i zapytania", questions(a), questions(b), _num),
+                             _row("wyłamania z linii klubu", a["rebellions"], b["rebellions"], _num, "less")],
+                    "headline": headline or (f"Głosują tak samo w {pct(rate)} głosowań" if rate is not None else ""),
+                    "sub": sub})
+
+    ours = sorted((c for c in clubs.values() if c["id"] in COALITION), key=lambda c: -len(c["members"]))
+    theirs = sorted((c for c in clubs.values() if c["id"] not in COALITION), key=lambda c: -len(c["members"]))
+    seen = set()
+    for a, b in zip(ours, theirs):
+        seen.add(frozenset((a["id"], b["id"])))
+        club_card(a, b, None, "Koalicja i opozycja · linia klubu: jak głosowała większość jego posłów · cała kadencja")
+    pairs = [(a, b, r) for a in clubs.values() for b in clubs.values() if a["id"] < b["id"]
+             for r in [next((x["rate"] for x in a["agreement"] if x["club"] == b["id"]), None)] if r is not None]
+    if pairs:
+        for (a, b, r), what in ((max(pairs, key=lambda p: p[2]), "Najbliżsi sojusznicy"), (min(pairs, key=lambda p: p[2]), "Ogień i woda")):
+            if frozenset((a["id"], b["id"])) not in seen:
+                seen.add(frozenset((a["id"], b["id"])))
+                club_card(a, b, f"{what}: tak samo w {pct(r)} głosowań", "Linia klubu: jak głosowała większość jego posłów · cała kadencja")
+
+    # MPs: per constituency, the most active coalition and opposition speakers; the busiest first
+    pairs = []
+    for dn in sorted({r["mp"].get("districtNum") for r in mps if r["mp"].get("districtNum")}):
+        here = [r for r in mps if r["mp"].get("districtNum") == dn]
+        k = max((r for r in here if r["mp"].get("club") in COALITION), key=_speeches, default=None)
+        o = max((r for r in here if r["mp"].get("club") not in COALITION and r["mp"].get("club")), key=_speeches, default=None)
+        if k and o and _speeches(k) and _speeches(o):
+            pairs.append((k, o))
+    pairs.sort(key=lambda p: -(_speeches(p[0]) + _speeches(p[1])))
+    for k, o in pairs[:12]:
+        district = k["mp"].get("districtName") or ""
+        out.append({"kind": "compare", "topic": "mps", "title": f"{k['mp']['firstLastName']} kontra {o['mp']['firstLastName']}",
+                    "sides": [{"name": r["mp"]["firstLastName"], "club": r["mp"].get("club") or "niez.", "tag": tag(r["mp"].get("club")),
+                               "mp": r["mp"]["id"], "sub": f"okręg {r['mp'].get('districtNum')} · {district}"} for r in (k, o)],
+                    "rows": [_row("wystąpienia na sali", _speeches(k), _speeches(o), str),
+                             _row("interpelacje i zapytania", len(k["questions"]), len(o["questions"]), str),
+                             _row("frekwencja", k["turnout"], o["turnout"], pct),
+                             _row("głosy w wyborach", k["mp"].get("numberOfVotes") or 0, o["mp"].get("numberOfVotes") or 0, _num),
+                             _row("przyjęte poprawki (podpisane)", k["signed_adopted"], o["signed_adopted"], str),
+                             _row("wyłamania z linii klubu", k["rebel_count"], o["rebel_count"], str, "less")],
+                    "headline": f"Ten sam okręg: {district}",
+                    "sub": "Najaktywniejsi na mównicy z koalicji i z opozycji · cała kadencja"})
+    return out
 
 
 def _keys(card):
