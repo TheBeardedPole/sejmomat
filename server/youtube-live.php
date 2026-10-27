@@ -28,16 +28,39 @@ function data_dir(): ?string {
 
 // The channel's live page: when a stream is on, it is that video's page (its canonical
 // address is watch?v=..., and it says "isLiveNow":true); otherwise the channel's own.
-function check(): array {
+// what YouTube answered, for ?why=1: so a "not live" can be told from a page that stood in
+// for the channel's (the consent page, "confirm you are not a bot")
+$why = [];
+
+function fetch(string $url): array {
     $context = stream_context_create(['http' => [
-        'timeout' => 6,
-        'header' => "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36\r\n"
+        'timeout' => 8,
+        'follow_location' => 1,
+        'header' => "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36\r\n"
+                  . "Accept: text/html,application/xhtml+xml\r\n"
                   . "Accept-Language: pl,en;q=0.8\r\n"
-                  // past the EU consent page, which would stand in for the channel
-                  . "Cookie: SOCS=CAI; CONSENT=YES+\r\n",
+                  // past the EU consent page, which would stand in for the channel: the cookie
+                  // YouTube itself sets after "Reject all", and the older one
+                  . "Cookie: SOCS=CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg; CONSENT=PENDING+987\r\n",
     ]]);
-    $html = @file_get_contents(CHANNEL_LIVE, false, $context);
-    if ($html === false || $html === '') return ['live' => false, 'error' => true, 'checked' => time()];
+    $html = @file_get_contents($url, false, $context);
+    $status = 0;
+    foreach ($http_response_header ?? [] as $h) {
+        if (preg_match('#^HTTP/\S+\s+(\d+)#', $h, $m)) $status = (int) $m[1];   // the last one, after redirects
+    }
+    return [$html === false ? '' : $html, $status];
+}
+
+function check(): array {
+    global $why;
+    [$html, $status] = fetch(CHANNEL_LIVE);
+    $title = preg_match('#<title>([^<]*)</title>#', $html, $t) ? mb_substr(html_entity_decode($t[1]), 0, 120) : '';
+    $why = ['status' => $status, 'bytes' => strlen($html), 'title' => $title,
+            'consent_page' => str_contains($html, 'consent.youtube.com') && !str_contains($html, 'ytInitialData'),
+            'bot_check' => (bool) preg_match('/not a bot|nie jesteś botem|unusual traffic/i', $html),
+            'isLiveNow' => (bool) preg_match('/"isLiveNow"\s*:\s*true/', $html),
+            'canonical' => preg_match('#<link rel="canonical" href="([^"]+)"#', $html, $c) ? $c[1] : null];
+    if ($html === '') return ['live' => false, 'error' => true, 'checked' => time()];
     $live = (bool) preg_match('/"isLiveNow"\s*:\s*true/', $html);
     $id = preg_match('#<link rel="canonical" href="https://www\.youtube\.com/watch\?v=([A-Za-z0-9_-]{11})"#', $html, $m) ? $m[1] : null;
     if (!$live || !$id) return ['live' => false, 'checked' => time()];
@@ -48,6 +71,12 @@ function check(): array {
 
 $dir = data_dir();
 $cache = $dir ? "$dir/youtube-live.json" : null;
+if (isset($_GET['why'])) {
+    // a fresh check, and what YouTube answered (no page content is passed on)
+    $answer = check();
+    echo json_encode(['answer' => $answer, 'youtube' => $why], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
+    exit;
+}
 if ($cache && is_file($cache) && time() - filemtime($cache) < TTL) {
     readfile($cache);
     exit;
