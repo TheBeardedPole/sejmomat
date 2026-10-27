@@ -127,6 +127,26 @@ class Overlay:
             text = text[:-1]
         return text.rstrip(" ·,:") + "…"
 
+    def name_fit(self, name, size, width, smallest=None):
+        """An MP's name that fits the width: in full; else without middle names ("Magdalena
+        Małgorzata Kołodziejczak" -> "Magdalena Kołodziejczak"); else smaller, down to
+        `smallest`; else cut short. Returns (text, font)."""
+        parts = name.split()
+        tries = [name] + ([f"{parts[0]} {' '.join(parts[2:])}" if parts[1].lower() == "vel" else f"{parts[0]} {parts[-1]}"]
+                          if len(parts) > 2 else [])
+        # "Szymon Szynkowski vel Sęk": the double surname is kept whole
+        if len(parts) > 3 and "vel" in [p.lower() for p in parts]:
+            i = [p.lower() for p in parts].index("vel")
+            tries = [name, f"{parts[0]} {' '.join(parts[i - 1:])}"]
+        smallest = smallest or round(size * 0.8)
+        for s_ in range(size, smallest - 1, -1):
+            f = self.font(s_, True)
+            for t in tries:
+                if f.getlength(t) <= width:
+                    return t, f
+        f = self.font(smallest, True)
+        return self.fit(tries[-1], f, width), f
+
     def wrap(self, text, font, width, lines=2):
         """The text in at most `lines` lines of the width, the last cut short if need be."""
         out, words = [], text.split()
@@ -308,7 +328,8 @@ class Overlay:
             d.text((24, h - 58), card["url"], font=self.font(30, True), fill=YELLOW)
         elif card["kind"] == "mp":
             x0 = 176
-            d.text((x0, 58), card["name"], font=self.font(27, True), fill="white")
+            name, f_name = self.name_fit(card["name"], 27, width - x0 - 24, 22)
+            d.text((x0, 58), name, font=f_name, fill="white")
             club_chip(d, x0, 98, card["club"], self.font(16, True), self.font(13, True), card.get("now"))
             # small stats along the bottom
             stats = card.get("stats") or []
@@ -366,7 +387,9 @@ class Overlay:
                 mask = Image.new("L", (pw, ph), 0)
                 ImageDraw.Draw(mask).rounded_rectangle((0, 0, pw - 1, ph - 1), 7, fill=255)
                 im.paste(p, (50, 4), mask)
-            d.text((96, 7), r["name"], font=self.font(19, True), fill="white")
+            # the name, up to the number on the right
+            name, f_name = self.name_fit(r["name"], 19, 514 - 96 - 16 - self.font(24, True).getlength(r["value"]), 16)
+            d.text((96, 7), name, font=f_name, fill="white")
             cb = d.textbbox((96, 30), r["club"], font=self.font(12, True))
             d.rounded_rectangle((cb[0] - 6, cb[1] - 2, cb[2] + 6, cb[3] + 3), 7, fill=club_colour(r["club"]) + (255,))
             d.text((96, 30), r["club"], font=self.font(12, True), fill="white")
@@ -549,10 +572,8 @@ class Overlay:
             if pic:
                 im.alpha_composite(pic, (px, (head - pic.height) // 2 + 4))
             tx = (outer + (pic.width + 22 if pic else 0)) if sign < 0 else (outer - (pic.width + 22 if pic else 0))
-            name, size = side_["name"], 40
-            while size > 24 and self.font(size, True).getlength(name) > cx - 120 - (pic.width if pic else 0):
-                size -= 2
-            d.text((tx, 34), name, font=self.font(size, True), fill="white", anchor=anchor)
+            name, f_name = self.name_fit(side_["name"], 40, cx - 120 - (pic.width if pic else 0), 26)
+            d.text((tx, 34), name, font=f_name, fill="white", anchor=anchor)
             chip = f"{side_['club']} · {side_['tag'].upper()}" if side_.get("mp") else side_["tag"].upper()
             f_chip = self.font(15, True)
             wdt = f_chip.getlength(chip)
