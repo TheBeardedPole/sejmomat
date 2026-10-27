@@ -49,27 +49,37 @@ def side(club):
     return "Koalicja" if club in COALITION else "Opozycja"
 
 
-def club_chip(d, x, y, club, font, tag_font, now=None):
-    """A club's chip in its colour, then a "Koalicja"/"Opozycja" tag, then, for a past day
-    when the MP has since moved, "(obecnie: <club>)"; returns where they end."""
-    cb = d.textbbox((x, y), club, font=font)
-    d.rounded_rectangle((cb[0] - 8, cb[1] - 4, cb[2] + 8, cb[3] + 5), 10, fill=club_colour(club) + (255,))
-    d.text((x, y), club, font=font, fill="white")
-    end = cb[2] + 8
-    s = side(club)
-    if s:
-        tx, mid = end + 14, (cb[1] + cb[3]) / 2 + 0.5
-        tb = d.textbbox((tx, mid), s.upper(), font=tag_font, anchor="lm")
-        coalition = s == "Koalicja"
-        d.rounded_rectangle((tb[0] - 7, cb[1] - 4, tb[2] + 7, cb[3] + 5), 10,
-                            fill=(255, 255, 255, 235) if coalition else (0, 0, 0, 0), outline=(255, 255, 255, 235), width=2)
-        d.text((tx, mid), s.upper(), font=tag_font, fill=(12, 20, 36) if coalition else "white", anchor="lm")
-        end = tb[2] + 7
+OPPOSITION_PILL = (54, 64, 86)   # solid: the tag must not show the video through it
+
+
+def pill(d, x, cy, text, font, fill, fg="white", h=None, outline=None):
+    """A pill of fixed height centred on cy, its text's capitals centred in it whatever the
+    letters (a box drawn round the ink sat "KO" and "PSL-TD" differently); returns its right edge."""
+    h = h or round(font.size * 1.6)
+    pad = round(h * 0.38)
+    w = font.getlength(text)
+    top, bottom = round(cy - h / 2), round(cy - h / 2) + h
+    d.rounded_rectangle((x, top, x + w + 2 * pad, bottom), h // 2, fill=fill, outline=outline, width=2 if outline else 0)
+    cap = font.getbbox("H")
+    d.text((x + pad, cy + (cap[3] - cap[1]) / 2), text, font=font, fill=fg, anchor="ls")
+    return x + w + 2 * pad
+
+
+def club_chip(d, x, cy, club, font, tag_font, now=None):
+    """A club's pill in its colour, then a "Koalicja"/"Opozycja" one, then, for a past day when
+    the MP has since moved, "(obecnie: <club>)", all centred on cy; returns where they end."""
+    h = round(font.size * 1.6)
+    end = pill(d, x, cy, club, font, club_colour(club) + (255,), h=h)
+    s_ = side(club)
+    if s_:
+        coalition = s_ == "Koalicja"
+        end = pill(d, end + 8, cy, s_.upper(), tag_font, (255, 255, 255, 255) if coalition else OPPOSITION_PILL + (255,),
+                   fg=(12, 20, 36) if coalition else "white", h=h,
+                   outline=None if coalition else (150, 162, 186, 255))
     if now:
-        mid = (cb[1] + cb[3]) / 2 + 0.5
         note = f"(obecnie: {now})"
-        d.text((end + 10, mid), note, font=font, fill=LIGHT_BLUE, anchor="lm")
-        end = d.textbbox((end + 10, mid), note, font=font, anchor="lm")[2]
+        d.text((end + 10, cy), note, font=font, fill=LIGHT_BLUE, anchor="lm")
+        end = d.textbbox((end + 10, cy), note, font=font, anchor="lm")[2]
     return end
 
 
@@ -182,7 +192,7 @@ class Overlay:
         tags = 0
         if chip:
             # the chip and tag, drawn off-image first to measure them
-            tags = club_chip(ImageDraw.Draw(Image.new("RGBA", (600, 40))), 0, 8, chip, self.font(16, True), self.font(13, True), note) + 14
+            tags = club_chip(ImageDraw.Draw(Image.new("RGBA", (600, 40))), 0, 20, chip, self.font(16, True), self.font(13, True), note) + 16
         want = max([f_head.getlength(headline) + tags] + [f.getlength(t) for t, f, _ in lines])
         width = round(min(BOX_MAX, max(BOX_MIN, want + 2 * pad + 2)))
         inner = width - 2 * pad
@@ -205,7 +215,10 @@ class Overlay:
             b.text((pad, y), line, font=f_head, fill="white")
             y += 30
         if chip:
-            club_chip(b, pad + round(f_head.getlength(heads[0])) + 14, top + 4, chip, self.font(16, True), self.font(13, True), note)
+            # on the name's line, centred on its capitals, a little apart from it
+            cap = f_head.getbbox("H")
+            club_chip(b, pad + round(f_head.getlength(heads[0])) + 16, top + (cap[1] + cap[3]) / 2, chip,
+                      self.font(16, True), self.font(13, True), note)
         y += 2
         for text, f, c in lines:
             b.text((pad, y), self.fit(text, f, inner), font=f, fill=c)
@@ -306,10 +319,12 @@ class Overlay:
         return tile
 
     def card_base(self, card):
-        """The card without what moves (the number), drawn once."""
+        """The card without what moves (the number), drawn once. Kept with the card itself: an
+        id is reused once its object is gone, and a new speaker's card got the last one's picture."""
         key = id(card)
-        if key in self._cards:
-            return self._cards[key]
+        hit = self._cards.get(key)
+        if hit and hit[0] is card:
+            return hit[1]
         width, h = 560, 268
         im = Image.new("RGBA", (width, h), (0, 0, 0, 0))
         d = ImageDraw.Draw(im)
@@ -330,7 +345,8 @@ class Overlay:
             x0 = 176
             name, f_name = self.name_fit(card["name"], 27, width - x0 - 24, 22)
             d.text((x0, 58), name, font=f_name, fill="white")
-            club_chip(d, x0, 98, card["club"], self.font(16, True), self.font(13, True), card.get("now"))
+            low = f_name.getbbox("gjpyŁ")[3]   # the name's lowest ink
+            club_chip(d, x0, 58 + low + 12 + 13, card["club"], self.font(16, True), self.font(13, True), card.get("now"))
             # small stats along the bottom
             stats = card.get("stats") or []
             sx = x0
@@ -361,7 +377,7 @@ class Overlay:
         else:
             for i, line in enumerate(textwrap.wrap(card.get("text") or "", 52)[:3]):
                 d.text((24, h - 84 + i * 24), line, font=self.font(17), fill=(205, 212, 225))
-        self._cards[key] = im
+        self._cards[key] = (card, im)
         return im
 
     # ---- Top 5 cards: five MPs, the rows coming in one after another
@@ -393,11 +409,13 @@ class Overlay:
                 ImageDraw.Draw(mask).rounded_rectangle((0, 0, pw - 1, ph - 1), 7, fill=255)
                 im.paste(p, (50, 4), mask)
             # the name, up to the number on the right
-            name, f_name = self.name_fit(r["name"], 19, 514 - 96 - 16 - self.font(24, True).getlength(r["value"]), 16)
-            d.text((96, 7), name, font=f_name, fill="white")
-            cb = d.textbbox((96, 30), r["club"], font=self.font(12, True))
-            d.rounded_rectangle((cb[0] - 6, cb[1] - 2, cb[2] + 6, cb[3] + 3), 7, fill=club_colour(r["club"]) + (255,))
-            d.text((96, 30), r["club"], font=self.font(12, True), fill="white")
+            # the name, then its club's pill on the same line, both up to the number on the right
+            f_club = self.font(13, True)
+            club_w = f_club.getlength(r["club"]) + 2 * round(21 * 0.38) + 12
+            name, f_name = self.name_fit(r["name"], 19, 514 - 96 - 16 - club_w - self.font(24, True).getlength(r["value"]), 15)
+            cap = f_name.getbbox("H")
+            d.text((96, 25 + (cap[3] - cap[1]) / 2), name, font=f_name, fill="white", anchor="ls")
+            pill(d, 96 + f_name.getlength(name) + 12, 25, r["club"], f_club, club_colour(r["club"]) + (255,), h=21)
             d.text((514, 25), r["value"], font=self.font(24, True), fill=YELLOW, anchor="rm")
             rows.append(im)
         self._cards[key] = rows
@@ -470,13 +488,14 @@ class Overlay:
         # still between its entrance and its exit, except a card in pages (Posłowie z regionu)
         still = STILL <= t <= length - 0.6 and card.get("kind") != "region"
         key = (id(card), length)
-        if still and key in self._stills:
-            return self._stills[key]
+        hit = self._stills.get(key)
+        if still and hit and hit[0] is card:   # the very card, not one that came to have its id
+            return hit[1]
         out = self._card(card, t, length)
         if still:
             if len(self._stills) > 20:
                 self._stills.clear()
-            self._stills[key] = out
+            self._stills[key] = (card, out)
         return out
 
     def _card(self, card, t, length):
@@ -598,10 +617,8 @@ class Overlay:
             d.text((tx, 34), name, font=f_name, fill="white", anchor=anchor)
             chip = f"{side_['club']} · {side_['tag'].upper()}" if side_.get("mp") else side_["tag"].upper()
             f_chip = self.font(15, True)
-            wdt = f_chip.getlength(chip)
-            cx0 = tx if sign < 0 else tx - wdt
-            d.rounded_rectangle((cx0 - 9, 92, cx0 + wdt + 9, 116), 9, fill=club_colour(side_["club"]) + (255,))
-            d.text((cx0, 104), chip, font=f_chip, fill="white", anchor="lm")
+            wdt = f_chip.getlength(chip) + 2 * round(26 * 0.38)
+            pill(d, tx if sign < 0 else tx - wdt, 104, chip, f_chip, club_colour(side_["club"]) + (255,), h=26)
             d.text((tx, 128), side_.get("sub") or "", font=self.font(17), fill=(205, 212, 225), anchor=anchor)
         # VS in a ring in the middle
         d.ellipse((cx - 40, head // 2 - 40, cx + 40, head // 2 + 40), fill=bg + (255,), outline=(255, 212, 121, 255), width=3)
@@ -620,11 +637,12 @@ class Overlay:
         does not move, so that part is drawn once."""
         still = 2.4 <= t <= length - 0.6
         key = ("compare-still", id(card))
-        if still and key in self._stills:
-            return self._stills[key]
+        hit = self._stills.get(key)
+        if still and hit and hit[0] is card:
+            return hit[1]
         out = self._compare(card, t, length)
         if still:
-            self._stills[key] = out
+            self._stills[key] = (card, out)
         return out
 
     def _compare(self, card, t, length):
@@ -743,7 +761,7 @@ class Overlay:
     def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None):
         """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes.
         Most frames are the same as the one before (nothing moves): those are not redrawn."""
-        which = None if card is None else next((k for k, c in self._stills.items() if c is card), False)
+        which = None if card is None else next((k for k, c in self._stills.items() if c[1] is card), False)
         key = ((item, topic, vote, chip, note), panel and (panel[0], tuple(panel[1])), which) if which is not False else None
         if key is not None and self._last[0] == key:
             return self._last[1]
