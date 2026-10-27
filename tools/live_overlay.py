@@ -696,7 +696,7 @@ class Overlay:
         pw, ph = x1 - x0, y1 - y0
         key = ("list", title, subtitle, tuple(tuple(r) for r in rows))
         if key not in self._cards:
-            lists = [k for k in self._cards if isinstance(k, tuple) and k[0] == "list"]
+            lists = [k for k in self._cards if isinstance(k, tuple) and k[0] in ("list", "list-still")]
             if len(lists) > 8:   # the agenda and the votes change as the day goes: drop the old ones
                 for k in lists:
                     del self._cards[k]
@@ -730,6 +730,11 @@ class Overlay:
                 rows_im.append(r)
             self._cards[key] = (im, rows_im)
         im, rows_im = self._cards[key]
+        rt0 = t if rows_t is None else rows_t
+        settled = rt0 > 0.4 + len(rows_im) * 0.08 + 0.4 and 0.5 <= t <= length - 0.6
+        skey = ("list-still", key)
+        if settled and skey in self._cards:
+            return self._cards[skey]
         base = im.copy()
         rt = t if rows_t is None else rows_t   # a new page: its rows come in again
         for i, r in enumerate(rows_im):
@@ -745,10 +750,16 @@ class Overlay:
             base.putalpha(base.getchannel("A").point(lambda v, k=clamp(t / 0.35): round(v * k)))
         elif t > length - 0.6:
             base.putalpha(base.getchannel("A").point(lambda v, k=clamp((length - t) / 0.6): round(v * k)))
+        if settled:
+            self._cards[skey] = (base, x0, y0)
         return base, x0, y0
 
     def frame_scene(self, scene, clock=None):
-        """A frame of a break: the comparison over the hall, the Sejmomat logo top right."""
+        """A frame of a break: the comparison over the hall, the Sejmomat logo top right. A scene
+        standing still (the same image, from a cache) gives the same frame, not one composed anew."""
+        key = ("scene", id(scene[0]), scene[1], scene[2], clock)
+        if self._last[0] == key:
+            return self._last[1]
         im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         if self.logo:
             im.alpha_composite(self.logo, (W - self.logo.width - 24, 22))
@@ -771,7 +782,9 @@ class Overlay:
             d.text((x + 12, 40 + (cap[3] - cap[1]) / 2), clock, font=fb, fill=YELLOW, anchor="ls")
         img, x, y = scene
         im.alpha_composite(img, (x, y))
-        return im.tobytes()
+        out = im.tobytes()
+        self._last = (key, out, scene)   # the scene kept, so its id stays its own
+        return out
 
     def clock_pill(self, im, clock):
         """The picture's time, HH:MM, beside the label top left (that is the time "Na mównicy
@@ -830,6 +843,8 @@ class Overlay:
                 d.text((tx, 290 + i * 32), line, font=self.font(22), fill=(205, 212, 225))
             d.text((tx, ph - 120), card["url"], font=self.font(40, True), fill=YELLOW)
             self._cards[key] = im
+        if 0.5 <= t <= length - 0.6:   # standing: the image as it is, not a copy each frame
+            return self._cards[key], x0, y0
         base = self._cards[key].copy()
         if t < 0.5:
             y0 += round((1 - ease_out_back(clamp(t / 0.5), 1.0)) * 40)
