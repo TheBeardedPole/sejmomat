@@ -241,16 +241,20 @@ class Overlay:
         key = ("logo", club)
         if key in self._photos:
             return self._photos[key]
+        # a better logo kept in the repository (tools/logos/README.md) comes first
+        local = Path(__file__).resolve().parent / "logos" / f"{club}.png"
         path = CACHE / "logos" / f"{club}.jpg"
         im = None
         try:
-            if path.exists():
-                im = Image.open(path).convert("RGB")
+            if local.exists():
+                im = Image.open(local).convert("RGBA")
+            elif path.exists():
+                im = Image.open(path).convert("RGBA")
             else:
                 req = urllib.request.Request(LOGO.format(urllib.parse.quote(club)), headers={"User-Agent": "sejmomat-live"})
                 with urllib.request.urlopen(req, timeout=10) as r:
                     data = r.read()
-                im = Image.open(io.BytesIO(data)).convert("RGB")
+                im = Image.open(io.BytesIO(data)).convert("RGBA")
                 try:
                     path.parent.mkdir(parents=True, exist_ok=True)
                     path.write_bytes(data)
@@ -271,7 +275,7 @@ class Overlay:
         inner = size - round(size * 0.16)
         scale = min(inner / logo.width, inner / logo.height)
         lg = logo.resize((max(1, round(logo.width * scale)), max(1, round(logo.height * scale))), Image.LANCZOS)
-        tile.paste(lg, ((size - lg.width) // 2, (size - lg.height) // 2))
+        tile.alpha_composite(lg, ((size - lg.width) // 2, (size - lg.height) // 2))   # a transparent PNG too
         return tile
 
     def card_base(self, card):
@@ -317,7 +321,9 @@ class Overlay:
             tile = (width - 48 - gap * (len(stats) - 1)) / max(1, len(stats))
             for i, (label, value) in enumerate(stats):
                 x = 24 + i * (tile + gap)
-                d.rounded_rectangle((x, top, x + tile, bottom), 12, fill=(255, 255, 255, 16))
+                # solid: drawing replaces pixels rather than blending, so a see-through white would
+                # punch a hole in the card down to the video; this is the card's colour lightened
+                d.rounded_rectangle((x, top, x + tile, bottom), 12, fill=(30, 38, 54, 236))
                 size = 34
                 while size > 20 and self.font(size, True).getlength(value) > tile - 16:
                     size -= 2
