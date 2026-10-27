@@ -198,7 +198,7 @@ Live on sejmomat.pl:
   playlists respect `start`; with `stop` the archive answers and ignores it.
   Between votes: the speaker read from the broadcast's caption (with a
   Koalicja/Opozycja tag) and fact cards from `api/v1/ciekawostki.json`
-  (`sejmomat/facts.py`), one every 90 s, related cards kept apart; during a
+  (`sejmomat/facts.py`), one every 60 s, related cards kept apart; during a
   longer speech the speaker's club's Top 5s; one card in 8 points to Sejmdle
   or buycoffee (not with `--demo`).
   On a server: `tools/vps/setup.sh` (Debian/Ubuntu, clones to `/opt/sejmomat`)

@@ -177,11 +177,12 @@ def facts(ctx, today=None):
     # ---- Top 5s, one after every TOP_EVERY other cards
     def top5(title, rows, key, show, text, topic, club=None):
         best = [r for r in sorted(rows, key=key, reverse=True)[:5]]
-        card = {"kind": "top5", "topic": topic, "title": f"Top 5: {title}", "text": text,
+        top = "Top 5" if len(best) == 5 else f"Top {len(best)}"   # a club of fewer than five: all of them
+        card = {"kind": "top5", "topic": topic, "title": f"{top}: {title}", "text": text,
                 "rows": [{"mp": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club") or "niez.",
                           "value": show(r)} for r in best]}
         if club:
-            card.update(title=f"Top 5 w {club}: {title}", club=club, for_club=club)
+            card.update(title=f"{top} w {club}: {title}", club=club, for_club=club)
         return card
 
     def categories(rows, steady_rows):
@@ -202,12 +203,15 @@ def facts(ctx, today=None):
     tops.append(top5("zmiany klubu", mps, lambda r: (r["switches"], -len(r["mp"]["firstLastName"])), lambda r: str(r["switches"]),
                      "Najwięcej zmian klubu w tej kadencji.", "switches"))
 
-    # the same for each club, shown while one of its MPs speaks (tools/livestream.py)
+    # the same for each club, shown while one of its MPs speaks (tools/livestream.py); a club or
+    # circle of two to four MPs (Razem, Demokracja, ...) ranks all of them
     per_club = []
-    for c in sorted(clubs, key=lambda c: -len(c["members"])):
+    ranked = [c for c in ctx["club_rows"] if c["current"] and len(c["members"]) >= 2]
+    for c in sorted(ranked, key=lambda c: -len(c["members"])):
         rows = [r for r in mps if r["mp"].get("club") == c["id"]]
         for title, pool, key, show, text, topic in categories(rows, [r for r in steady if r["mp"].get("club") == c["id"]]):
-            if len(pool) >= 5 and key(sorted(pool, key=key, reverse=True)[0]) not in (0, (0, 0)):
+            # a ranking only where at least two of them have something to count (not "1 · 0 · 0 · 0")
+            if len(pool) >= 2 and sum(1 for r in pool if key(r) not in (0, (0, 0))) >= 2:
                 per_club.append(top5(title, pool, key, show, f"{text} Klub {c['id']}.", topic, c["id"]))
     # MPs, figures and clubs taking turns, rather than each in a run
     groups = [[c for c in out if c["kind"] == "mp"], [c for c in out if c["kind"] == "fact" and not c.get("stats")],

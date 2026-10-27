@@ -314,7 +314,7 @@ class Overlay:
     def top5(self, card, t, length):
         key = ("top5", id(card))
         if key not in self._cards:
-            width, h = 560, 44 + 12 + 5 * 54 + 8
+            width, h = 560, 44 + 12 + len(card["rows"]) * 54 + 8   # a small club's has fewer rows
             im = Image.new("RGBA", (width, h), (0, 0, 0, 0))
             d = ImageDraw.Draw(im)
             d.rounded_rectangle((0, 0, width - 1, h - 1), 16, fill=(12, 20, 36, 236))
