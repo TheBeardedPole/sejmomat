@@ -8,7 +8,14 @@
 // Nothing about the visitor is sent to YouTube: the request is the server's own.
 
 const CHANNEL_LIVE = 'https://www.youtube.com/@Sejmomat/live';
+const CHANNEL_ID = 'UCUw5zMSUqF8LZqOn6uID-wA';
 const TTL = 60;   // seconds a check is reused
+// The stream server says when it is on air (tools/livestream.py, every 30 s while it streams):
+// YouTube shows this host a bot check instead of the channel, so its word comes first. It
+// proves itself with a key kept on the stream server (/etc/sejmomat-live.env,
+// SEJMOMAT_LIVE_KEY); here only the key's SHA-256 (empty: no reports taken).
+const LIVE_KEY_SHA256 = '';
+const PING_TTL = 90;   // a report this old or newer counts
 
 header('Content-Type: application/json; charset=utf-8');
 header('Cache-Control: public, max-age=30');
@@ -71,6 +78,34 @@ function check(): array {
 
 $dir = data_dir();
 $cache = $dir ? "$dir/youtube-live.json" : null;
+$ping = $dir ? "$dir/stream-ping.json" : null;
+
+// a report from the stream server: {"live": true|false, "title": "..."}
+if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST') {
+    header('Cache-Control: no-store');
+    $key = $_SERVER['HTTP_X_SEJMOMAT_KEY'] ?? '';
+    if (LIVE_KEY_SHA256 === '' || !hash_equals(LIVE_KEY_SHA256, hash('sha256', $key))) {
+        http_response_code(403);
+        echo json_encode(['ok' => false]);
+        exit;
+    }
+    $body = json_decode(file_get_contents('php://input') ?: '', true) ?: [];
+    $report = ['live' => !empty($body['live']), 'title' => mb_substr((string) ($body['title'] ?? ''), 0, 200), 'at' => time()];
+    if ($ping) file_put_contents($ping, json_encode($report, JSON_UNESCAPED_UNICODE), LOCK_EX);
+    if ($cache) @unlink($cache);   // the next visitor gets the news at once
+    echo json_encode(['ok' => true]);
+    exit;
+}
+// the stream server says it is on air: that, with the channel's live embed (no video id needed)
+if ($ping && is_file($ping)) {
+    $r = json_decode((string) file_get_contents($ping), true) ?: [];
+    if (!empty($r['live']) && time() - (int) ($r['at'] ?? 0) <= PING_TTL) {
+        header('Cache-Control: public, max-age=20');
+        echo json_encode(['live' => true, 'channel' => CHANNEL_ID, 'title' => $r['title'] ?? '', 'via' => 'stream', 'checked' => time()],
+                         JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+        exit;
+    }
+}
 if (isset($_GET['why'])) {
     // a fresh check, and what YouTube answered (no page content is passed on)
     $answer = check();

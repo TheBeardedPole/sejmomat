@@ -20,7 +20,8 @@ window.SejmomatYT = (() => {
     if (fresh || !asked) {
       asked = fetch(url, { cache: fresh ? "no-store" : "default" })
         .then((r) => (r.ok ? r.json() : null))
-        .then((a) => (a?.live && /^[A-Za-z0-9_-]{11}$/.test(a.id || "") ? a : null))
+        // a video's id (YouTube's own page said so), or the channel's (the stream server said so)
+        .then((a) => (a?.live && (/^[A-Za-z0-9_-]{11}$/.test(a.id || "") || /^UC[A-Za-z0-9_-]{22}$/.test(a.channel || "")) ? a : null))
         .catch(() => null);
     }
     return asked;
@@ -31,9 +32,11 @@ window.SejmomatYT = (() => {
     ? { title: "Sejmomat live", play: "Play the broadcast", note: "The YouTube player loads only when you press Play.", open: "On YouTube" }
     : { title: "Sejmomat na żywo", play: "Odtwórz transmisję", note: "Odtwarzacz YouTube wczytamy dopiero po kliknięciu.", open: "Na YouTube" };
 
-  const iframe = (id, muted) => Object.assign(document.createElement("iframe"), {
+  // the video, or whatever the channel has live now
+  const embedPath = (info) => (info.id ? info.id : `live_stream?channel=${info.channel}`);
+  const iframe = (info, muted) => Object.assign(document.createElement("iframe"), {
     className: "yt-frame", title: T.title, allowFullscreen: true, loading: "eager",
-    src: `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&mute=${muted ? 1 : 0}&playsinline=1&rel=0`,
+    src: `https://www.youtube-nocookie.com/embed/${embedPath(info)}${info.id ? "?" : "&"}autoplay=1&mute=${muted ? 1 : 0}&playsinline=1&rel=0`,
     allow: "autoplay; encrypted-media; picture-in-picture; fullscreen",
   });
 
@@ -42,7 +45,7 @@ window.SejmomatYT = (() => {
     const box = document.createElement("div");
     box.className = "yt-box";
     if (auto && consented()) {
-      box.append(iframe(info.id, true));
+      box.append(iframe(info, true));
       return box;
     }
     const play = Object.assign(document.createElement("button"), { type: "button", className: "yt-play" });
@@ -52,11 +55,13 @@ window.SejmomatYT = (() => {
     face.className = "yt-face";
     face.append(Object.assign(document.createElement("p"), { className: "yt-face-title", textContent: info.title || T.title }),
       play, Object.assign(document.createElement("p"), { className: "yt-face-note", textContent: T.note }));
-    play.addEventListener("click", () => box.replaceChildren(iframe(info.id, false)));
+    play.addEventListener("click", () => box.replaceChildren(iframe(info, false)));
     box.append(face);
     return box;
   };
 
-  const watchUrl = (info) => `https://www.youtube.com/watch?v=${info.id}`;
-  return { check, player, watchUrl, consented, T };
+  const watchUrl = (info) => (info.id ? `https://www.youtube.com/watch?v=${info.id}` : `https://www.youtube.com/channel/${info.channel}/live`);
+  // what tells one stream from another: the video, or the channel's live slot
+  const key = (info) => (info ? info.id || info.channel : null);
+  return { check, player, watchUrl, consented, key, T };
 })();

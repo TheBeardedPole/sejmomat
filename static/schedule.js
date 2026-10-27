@@ -259,7 +259,7 @@
     }
     checkedAt = now;
     const yt = await window.SejmomatYT?.check(box.dataset.yt, true);
-    if (yt?.id !== ours?.id) {
+    if (window.SejmomatYT?.key(yt) !== window.SejmomatYT?.key(ours)) {
       ours = yt ? { ...yt, box: window.SejmomatYT.player(yt) } : null;
       ours?.box.classList.add("sched-player-box");
     }

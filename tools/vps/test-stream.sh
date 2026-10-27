@@ -17,4 +17,7 @@ fi
 set -a; . /etc/sejmomat-live.env; set +a
 [ -n "${SEJMOMAT_RTMP:-}" ] || { echo "Put the stream key in /etc/sejmomat-live.env first." >&2; exit 1; }
 cd /opt/sejmomat
-exec runuser -u sejmomat --preserve-environment -- env HOME=/var/lib/sejmomat .venv/bin/python tools/livestream.py --at "$AT" --seconds $((MINUTES * 60)) --out rtmp
+# a third argument "announce": the site shows the test as Sejmomat's live stream too
+EXTRA=""
+[ "${3:-}" = "announce" ] && EXTRA="--announce"
+exec runuser -u sejmomat --preserve-environment -- env HOME=/var/lib/sejmomat .venv/bin/python tools/livestream.py --at "$AT" --seconds $((MINUTES * 60)) --out rtmp $EXTRA

@@ -22,7 +22,9 @@ if [ ! -f /etc/sejmomat-live.env ]; then
         '# SEJMOMAT_RTMP=rtmp://a.rtmp.youtube.com/live2/xxxx-xxxx-xxxx-xxxx-xxxx' \
         'SEJMOMAT_RTMP=' \
         '# outside Poland the video CDN does not answer: a proxy in Poland (tools/vps/proxy-setup.sh), e.g.' \
-        '# SEJMOMAT_VIDEO_PROXY=http://203.0.113.5:8888' > /etc/sejmomat-live.env
+        '# SEJMOMAT_VIDEO_PROXY=http://203.0.113.5:8888' \
+        '# the key the stream tells the site it is on air with (its SHA-256 in server/youtube-live.php):' \
+        '# SEJMOMAT_LIVE_KEY=' > /etc/sejmomat-live.env
 fi
 chown root:sejmomat /etc/sejmomat-live.env
 chmod 640 /etc/sejmomat-live.env

@@ -156,6 +156,20 @@ FALLBACK_EDGES = ("tvo-1-1.e.blueonline.tv",)
 # The CDN answers only Polish addresses: a server elsewhere fetches the video through
 # an HTTP proxy in Poland (tools/vps/proxy-setup.sh), e.g. http://203.0.113.5:8888
 VIDEO_PROXY = os.environ.get("SEJMOMAT_VIDEO_PROXY", "").strip()
+# Telling the site we are on air (server/youtube-live.php), as YouTube will not tell it: every
+# LIVE_EVERY seconds while streaming to the platform, with the key from /etc/sejmomat-live.env
+LIVE_PING = os.environ.get("SEJMOMAT_LIVE_PING", "https://sejmomat.pl/srv/youtube-live.php").strip()
+LIVE_KEY = os.environ.get("SEJMOMAT_LIVE_KEY", "").strip()
+LIVE_EVERY = 30
+
+
+def announce(live, title):
+    """One report to the site: on air (with the title) or not. True if it was taken."""
+    req = urllib.request.Request(LIVE_PING, data=json.dumps({"live": live, "title": title}).encode(), method="POST",
+                                 headers={"Content-Type": "application/json", "X-Sejmomat-Key": LIVE_KEY,
+                                          "User-Agent": "sejmomat-live"})
+    with urllib.request.urlopen(req, timeout=10) as r:
+        return r.status == 200
 
 
 class _NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -511,6 +525,7 @@ def main():
     ap.add_argument("--no-lookahead", action="store_true", help="read the name caption from the picture itself, not a second reading of the stream ahead of it")
     ap.add_argument("--transcript", action="store_true", help="replay: who speaks from the day's transcript (data/speeches), not the screen")
     ap.add_argument("--fast", action="store_true", help="to a file: as fast as the computer can, not in real time")
+    ap.add_argument("--announce", action="store_true", help="a replay to the platform: tell the site it is on air too (live streams always do, with SEJMOMAT_LIVE_KEY set)")
     ap.add_argument("--wait", action="store_true", help="live, unattended: wait for the day's sitting instead of stopping when there is none")
     ap.add_argument("--font", help="regular font file")
     ap.add_argument("--font-bold", help="bold font file")
@@ -924,6 +939,25 @@ def main():
     cmd, preview = ffmpeg_command(src, args.out, snapshot if recogniser and not ahead else None, args.fast)
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE if preview else None)
     reader = subprocess.Popen(snapshot_command(ahead, snapshot), stdin=subprocess.DEVNULL) if ahead else None
+    # on air: the site hears of it every LIVE_EVERY seconds (a live sitting always; a replay with --announce)
+    stopped = threading.Event()
+    on_air = args.out == "rtmp" and bool(LIVE_KEY) and (not args.at or args.announce)
+    shown_title = f"Retransmisja: {title}" if args.at else title
+
+    def keep_announcing():
+        told = False
+        while not stopped.wait(0 if not told else LIVE_EVERY):
+            try:
+                ok = announce(True, shown_title)
+                if not told:
+                    print(f"strona: transmisja zgłoszona ({'przyjęta' if ok else 'odrzucona'})", flush=True)
+                told = True
+            except Exception as e:
+                if not told:
+                    print(f"strona: nie udało się zgłosić transmisji: {e}", file=sys.stderr, flush=True)
+                told = True
+    if on_air:
+        threading.Thread(target=keep_announcing, daemon=True).start()
     viewer = subprocess.Popen(["ffplay", "-hide_banner", "-loglevel", "warning", "-window_title", "Sejmomat", "-"],
                               stdin=proc.stdout) if preview else None
     try:
@@ -951,6 +985,12 @@ def main():
     except (KeyboardInterrupt, BrokenPipeError):
         pass
     finally:
+        stopped.set()
+        if on_air:
+            try:   # off air: at once, not when the last report runs out
+                announce(False, shown_title)
+            except Exception:
+                pass
         try:
             proc.stdin.close()
         except Exception:

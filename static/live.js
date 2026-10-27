@@ -184,7 +184,7 @@
     hlsNow?.destroy();
     hlsNow = null;
     playing = false;
-    ours = yt.id;
+    ours = window.SejmomatYT.key(yt);
     const main = el("div", { className: "live-main" }, window.SejmomatYT.player(yt),
       el("p", { className: "live-links" },
         el("a", { href: window.SejmomatYT.watchUrl(yt), target: "_blank", rel: "noopener", textContent: `${window.SejmomatYT.T.open} ↗` })));
@@ -200,7 +200,7 @@
   const check = async () => {
     const yt = await window.SejmomatYT?.check(box.dataset.yt, ours !== null);
     if (yt) {
-      if (yt.id !== ours) showOurs(yt);
+      if (window.SejmomatYT.key(yt) !== ours) showOurs(yt);
       return;
     }
     if (ours) {
