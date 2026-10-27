@@ -681,7 +681,7 @@ class Overlay:
             base.putalpha(base.getchannel("A").point(lambda v, k=k: round(v * k)))
         return base, x0, y0
 
-    def list_scene(self, title, subtitle, rows, t, length):
+    def list_scene(self, title, subtitle, rows, t, length, rows_t=None):
         """A list over the hall in a break (the agenda, today's votes): a heading strip and up to
         nine rows of (number, text, badge, state); state "done" is dimmed, "next" lit, "adopted" /
         "rejected" colour the badge. Rows come in one after another; it fades at the end."""
@@ -724,8 +724,9 @@ class Overlay:
             self._cards[key] = (im, rows_im)
         im, rows_im = self._cards[key]
         base = im.copy()
+        rt = t if rows_t is None else rows_t   # a new page: its rows come in again
         for i, r in enumerate(rows_im):
-            k = clamp((t - 0.4 - i * 0.08) / 0.35)
+            k = clamp((rt - 0.4 - i * 0.08) / 0.35)
             if k <= 0:
                 continue
             piece = r.copy()
@@ -739,7 +740,7 @@ class Overlay:
             base.putalpha(base.getchannel("A").point(lambda v, k=clamp((length - t) / 0.6): round(v * k)))
         return base, x0, y0
 
-    def frame_scene(self, scene):
+    def frame_scene(self, scene, clock=None):
         """A frame of a break: the comparison over the hall, the Sejmomat logo top right."""
         im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         if self.logo:
@@ -754,18 +755,89 @@ class Overlay:
             pd.text((20, 18), text, font=f, fill=(12, 20, 36), anchor="lm")
             self._cards["break-pill"] = pill
         im.alpha_composite(pill, (CMP_BOX[0], 22))
+        if clock:   # beside the break's pill
+            d = ImageDraw.Draw(im)
+            fb = self.font(18, True)
+            cap = fb.getbbox("0")
+            x = CMP_BOX[0] + pill.width + 10
+            d.rounded_rectangle((x, 22, x + fb.getlength(clock) + 24, 58), 12, fill=(12, 20, 36, 230))
+            d.text((x + 12, 40 + (cap[3] - cap[1]) / 2), clock, font=fb, fill=YELLOW, anchor="ls")
         img, x, y = scene
         im.alpha_composite(img, (x, y))
         return im.tobytes()
 
-    def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None):
+    def clock_pill(self, im, clock):
+        """The picture's time, HH:MM, beside the label top left (that is the time "Na mównicy
+        od" and the votes are given in; live it is the picture's, ~100 s behind the wall)."""
+        if not clock:
+            return
+        d = ImageDraw.Draw(im)
+        f = self.font(18)
+        right = d.textbbox((28, 24), self.label, font=f)[2] + 8
+        fb = self.font(18, True)
+        cap = fb.getbbox("0")
+        w = fb.getlength(clock)
+        d.rounded_rectangle((right + 8, 17, right + 8 + w + 22, 47), 6, fill=(255, 212, 121, 255))
+        d.text((right + 19, 32 + (cap[3] - cap[1]) / 2), clock, font=fb, fill=(12, 20, 36), anchor="ls")
+
+    def promo_scene(self, card, t, length):
+        """A full-screen word about the site in a break (Sejmdle, buycoffee), in the panel over
+        the hall: a picture on the left, the headline, a line or two, the address."""
+        x0, y0, x1, y1 = CMP_BOX
+        pw, ph = x1 - x0, y1 - y0
+        key = ("promo-scene", card["url"])
+        if key not in self._cards:
+            im = Image.new("RGBA", (pw, ph), (0, 0, 0, 0))
+            d = ImageDraw.Draw(im)
+            bg = (12, 20, 36)
+            d.rounded_rectangle((0, 0, pw - 1, ph - 1), 24, fill=bg + (236,))
+            game = "sejmdle" in card["url"]
+            accent = (39, 122, 76) if game else (201, 147, 10)
+            for i in range(28, pw - 28):   # inside the rounded corners
+                d.line((i, 0, i, 6), fill=mix(bg, accent, 0.9 * (1 - i / pw) ** 0.6) + (255,))
+            cx, cy = 250, ph // 2
+            if game:
+                # the game's name as its tiles, in the clues' colours
+                colours = [(39, 122, 76), (201, 147, 10), (107, 107, 112), (39, 122, 76), (184, 84, 26), (39, 121, 184), (39, 122, 76)]
+                size, gap = 54, 8
+                for i, (ch, c) in enumerate(zip("SEJMDLE", colours)):
+                    row, col = divmod(i, 4) if i < 4 else (1, i - 4)
+                    x = cx - (4 * size + 3 * gap) // 2 + col * (size + gap) + (0 if row == 0 else (size + gap) // 2)
+                    y = cy - size - gap // 2 + row * (size + gap)
+                    d.rounded_rectangle((x, y, x + size, y + size), 10, fill=c + (255,))
+                    d.text((x + size // 2, y + size // 2), ch, font=self.font(30, True), fill="white", anchor="mm")
+            else:
+                # a cup of coffee, drawn
+                d.rounded_rectangle((cx - 80, cy - 40, cx + 60, cy + 90), 26, fill=(236, 238, 245, 255))
+                d.rounded_rectangle((cx + 40, cy - 10, cx + 110, cy + 55), 28, outline=(236, 238, 245, 255), width=14)
+                d.ellipse((cx - 76, cy - 52, cx + 56, cy - 26), fill=(120, 72, 40, 255))
+                for k in (-40, 0, 40):
+                    d.arc((cx - 30 + k - 12, cy - 140, cx - 30 + k + 12, cy - 70), 250, 110, fill=(200, 206, 220, 255), width=5)
+            tx = 470
+            d.text((tx, 120), card["title"].upper(), font=self.font(18, True), fill=accent if not game else (155, 232, 171))
+            for i, line in enumerate(self.wrap(card["headline"], self.font(42, True), pw - tx - 40, 2)):
+                d.text((tx, 160 + i * 52), line, font=self.font(42, True), fill="white")
+            for i, line in enumerate(self.wrap(card.get("text") or "", self.font(22), pw - tx - 40, 3)):
+                d.text((tx, 290 + i * 32), line, font=self.font(22), fill=(205, 212, 225))
+            d.text((tx, ph - 120), card["url"], font=self.font(40, True), fill=YELLOW)
+            self._cards[key] = im
+        base = self._cards[key].copy()
+        if t < 0.5:
+            y0 += round((1 - ease_out_back(clamp(t / 0.5), 1.0)) * 40)
+            base.putalpha(base.getchannel("A").point(lambda v, k=clamp(t / 0.35): round(v * k)))
+        elif t > length - 0.6:
+            base.putalpha(base.getchannel("A").point(lambda v, k=clamp((length - t) / 0.6): round(v * k)))
+        return base, x0, y0
+
+    def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None, clock=None):
         """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes.
         Most frames are the same as the one before (nothing moves): those are not redrawn."""
         which = None if card is None else next((k for k, c in self._stills.items() if c[1] is card), False)
-        key = ((item, topic, vote, chip, note), panel and (panel[0], tuple(panel[1])), which) if which is not False else None
+        key = ((item, topic, vote, chip, note, clock), panel and (panel[0], tuple(panel[1])), which) if which is not False else None
         if key is not None and self._last[0] == key:
             return self._last[1]
         im = self.base(item, topic, vote, chip, note).copy()
+        self.clock_pill(im, clock)
         if panel:
             p = self.panel(*panel)
             im.alpha_composite(p, (W - p.width - 24, 70))

@@ -26,6 +26,7 @@ Sejm's terms for rebroadcasting its feed.
 import argparse
 import json
 import os
+import random
 import re
 import shutil
 import subprocess
@@ -237,6 +238,37 @@ def passed(v):
     return v["yes"] > v["no"] if v.get("majorityType") == "SIMPLE_MAJORITY" else v["yes"] >= (v.get("majorityVotes") or 0)
 
 
+# Procedural votes under a name that says what they do (the Sejm's own is the motion's legal
+# wording: "wniosek o skrócenie terminu, o którym mowa w art. 44 ust. 3 regulaminu Sejmu")
+SHORT_TOPICS = [
+    (r"skrócenie terminu", "przyśpieszenie ustawy"),
+    (r"^wniosek o przerwę", "przerwa w obradach"),
+    (r"odrzucenie projektu w pierwszym czytaniu", "odrzucenie projektu w I czytaniu"),
+    (r"odrzucenie w całości projektu", "odrzucenie projektu w całości"),
+    (r"odroczenie posiedzenia", "odroczenie posiedzenia"),
+    (r"zamknięcie posiedzenia", "zamknięcie posiedzenia"),
+    (r"kworum", "sprawdzenie kworum"),
+    (r"(niezwłoczne )?przystąpienie do drugiego czytania", "od razu do II czytania, bez komisji"),
+    (r"przystąpienie do trzeciego czytania", "od razu do III czytania, bez komisji"),
+    (r"przystąpienie do głosowania bez kierowania", "głosowanie od razu, bez komisji"),
+    (r"art\. 39 ust\. 3", "bez odsyłania do komisji"),
+    (r"uzupełnienie porządku dziennego", "nowy punkt w porządku obrad"),
+    (r"zmian\w* porządku dziennego", "zmiana porządku obrad"),
+    (r"dodatkowe skierowanie projektu", "projekt także do innej komisji"),
+    (r"odesłanie .*do komisji", "projekt z powrotem do komisji"),
+    (r"reasumpcj", "powtórzenie głosowania"),
+    (r"odrzucenie informacji", "odrzucenie informacji"),
+]
+
+
+def short_topic(topic):
+    """A procedural vote's plain name, or the topic as it is."""
+    for pattern, short in SHORT_TOPICS:
+        if re.search(pattern, topic or "", re.I):
+            return short
+    return (topic or "").rstrip(".")
+
+
 def captions(shown, tags, title):
     """(item lines, topic line, vote line) for the latest vote the picture has reached."""
     if not shown:
@@ -261,7 +293,7 @@ def captions(shown, tags, title):
         vote = f"Głosowanie nr {v['votingNumber']} · sprawdzenie kworum" + (f": obecnych {present} posłów" if present else "")
     else:
         result = "PRZYJĘTO" if passed(v) else "ODRZUCONO"
-        vote = f"Głosowanie nr {v['votingNumber']} · {v.get('topic') or ''} · {result}: {v['yes']} za / {v['no']} przeciw / {v['abstain']} wstrz."
+        vote = f"Głosowanie nr {v['votingNumber']} · {short_topic(v.get('topic'))} · {result}: {v['yes']} za / {v['no']} przeciw / {v['abstain']} wstrz."
     return "\n".join(lines), (f"Temat: {topic}" if topic else " "), textwrap.shorten(vote, 110, placeholder="…")
 
 
@@ -500,12 +532,30 @@ def main():
     for pool in by_club.values():
         pool.sort(key=lambda f: f.get("kind") != "top5")   # its Top 5s first, then the club's card
     # the comparisons, for breaks only: clubs and MPs taking turns
-    compares = [f for f in facts if f.get("kind") == "compare"]
-    compares = [c for pair in zip_longest([c for c in compares if c.get("topic") == "clubs"],
-                                          [c for c in compares if c.get("topic") != "clubs"]) for c in pair if c]
+    # clubs from the list; MPs drawn at random each time from the pool (sejmomat/facts.py, mp_compare)
+    compares = [f for f in facts if f.get("kind") == "compare" and f.get("topic") == "clubs"]
+    pool = next((f["mps"] for f in facts if f.get("kind") == "mp_pool"), [])
+    drawn = {}   # the pair drawn for a slot, kept for that slot (and its drawing cached by the overlay)
+
+    def mp_pair(slot):
+        if slot not in drawn:
+            from sejmomat.facts import mp_compare
+            spoke = [m for m in pool if m["speeches"]]
+            towns = sorted({m["num"] for m in spoke if any(x["num"] == m["num"] and x["tag"] != m["tag"] for x in spoke)})
+            if not towns:
+                return None
+            num = random.choice(towns)
+            k = random.choice([m for m in spoke if m["num"] == num and m["tag"] == "Koalicja"])
+            o = random.choice([m for m in spoke if m["num"] == num and m["tag"] == "Opozycja"])
+            for mp in (k["id"], o["id"]):
+                overlay.photo(mp)
+            if len(drawn) > 20:
+                drawn.clear()
+            drawn[slot] = mp_compare(k, o)
+        return drawn[slot]
     # Posłowie z regionu: each MP's constituency, shown while they speak (with their club's cards)
     region_of = {mp: f for f in facts if f.get("kind") == "region" for mp in f.get("mps", [])}
-    facts = [f for f in facts if not f.get("for_club") and f.get("kind") not in ("compare", "region")]
+    facts = [f for f in facts if not f.get("for_club") and f.get("kind") not in ("compare", "region", "mp_pool")]
     every, first, club_after, promos = FACT_EVERY, 0, CLUB_AFTER, PROMOS
     if args.demo:
         # the liveliest cards first, one after another, from the start of the recording
@@ -725,27 +775,33 @@ def main():
         return set(re.findall(r"\d+(?:-[A-Za-z0-9]+)?", " ".join(m[1] for m in re.finditer(
             r"druk(?:i|ów)?\s+nr\s+([\d\-A-Za-z ,i]+)", v.get("title") or ""))))
 
-    def agenda_scene(shown, t, length):
-        """Porządek obrad: the items, those voted on today marked, the next one lit; the nine around it."""
+    agenda_turn = {"n": 0, "slot": None}
+
+    def agenda_scene(shown, t, length, slot):
+        """Porządek obrad: the whole agenda, nine items a page, a page every 10 s, going on from
+        where it stopped the time before; items voted on today marked (nobody can tell from the
+        data which item is on now, so none is marked as current)."""
         done = set().union(*[vote_prints(v) for v in shown]) if shown else set()
-        rows, nxt = [], None
-        for it in planned:
-            voted = bool(done & set(it.get("prints") or []))
-            if not voted and nxt is None:
-                nxt = len(rows)
-            rows.append((it["n"], f"{it.get('kind', '')} {it.get('rest', '')}".strip(), "głosowano" if voted else "", "done" if voted else "todo"))
-        if nxt is not None:
-            rows[nxt] = (rows[nxt][0], rows[nxt][1], "następny", "next")
-        first = max(0, min((nxt or 0) - 3, len(rows) - 9))
-        sub = f"{len(planned)} punktów · {sum(1 for r in rows if r[3] == 'done')} z głosowaniami"
-        return overlay.list_scene("Porządek obrad", sub, rows[first:first + 9], t, length)
+        rows = [(it["n"], f"{it.get('kind', '')} {it.get('rest', '')}".strip(),
+                 "głosowano" if done & set(it.get("prints") or []) else "",
+                 "done" if done & set(it.get("prints") or []) else "todo") for it in planned]
+        pages = [rows[i:i + 9] for i in range(0, len(rows), 9)] or [[]]
+        if agenda_turn["slot"] != slot:   # a new turn on screen: the page after the last one shown
+            agenda_turn.update(slot=slot, start=agenda_turn.get("next", 0))
+        per = 10
+        page = (agenda_turn["start"] + int(t // per)) % len(pages)
+        agenda_turn["next"] = page + 1
+        sub = f"{len(planned)} punktów · {sum(1 for r in rows if r[3] == 'done')} z głosowaniami dziś"
+        if len(pages) > 1:
+            sub += f" · strona {page + 1}/{len(pages)}"
+        return overlay.list_scene("Porządek obrad", sub, pages[page], t, length, rows_t=t % per if len(pages) > 1 else t)
 
     def votes_scene(shown, t, length):
         """Głosowania: today's latest, with what was decided, and the day's count."""
         today = [v for v in shown if v["date"][:10] == shown[-1]["date"][:10]]
         rows = []
         for v in reversed(today[-9:]):
-            text = re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or "")
+            text = short_topic(re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or ""))
             ok = passed(v)
             rows.append((f"nr {v['votingNumber']}", text, f"{'PRZYJĘTO' if ok else 'ODRZUCONO'} {v['yes']}/{v['no']}/{v['abstain']}",
                          "adopted" if ok else "rejected"))
@@ -764,20 +820,27 @@ def main():
             on_break = next((b for b in breaks if b[0] <= clock and (b[1] is None or clock < b[1])), None)
         # a break: comparisons over the hall, nothing else (not within BREAK_NO_VOTE of a vote)
         since_vote = (clock - warsaw(shown[-1]["date"])).total_seconds() if shown else 1e9
-        if on_break and compares and since_vote > BREAK_NO_VOTE:
+        if on_break and (compares or pool) and since_vote > BREAK_NO_VOTE:
             since = (clock - on_break[0]).total_seconds()
             slot, into = int(since // CMP_SECONDS), since % CMP_SECONDS
             length = CMP_SECONDS
             if on_break[1]:   # the break's end is known ahead: the last one leaves in time
                 length = min(CMP_SECONDS, (on_break[1] - on_break[0]).total_seconds() - slot * CMP_SECONDS)
-            # in turn: the agenda, two comparisons, today's votes, two comparisons
-            kind = slot % 6
+            # in turn: the agenda, two comparisons, today's votes, two comparisons, a word about the site
+            hhmm = f"{clock:%H:%M}"
+            kind = slot % 7
+            if kind == 6 and promos:
+                return overlay.frame_scene(overlay.promo_scene(promos[(slot // 7) % len(promos)], into, length), hhmm)
             if kind == 0 and planned:
-                return overlay.frame_scene(agenda_scene(shown, into, length))
+                return overlay.frame_scene(agenda_scene(shown, into, length, slot), hhmm)
             if kind == 3 and shown:
-                return overlay.frame_scene(votes_scene(shown, into, length))
-            k = slot - slot // 3 - 1   # the comparisons' own count, skipping the lists' turns
-            return overlay.frame_scene(overlay.compare(compares[k % len(compares)], into, length))
+                return overlay.frame_scene(votes_scene(shown, into, length), hhmm)
+            k = (slot // 7) * 4 + {1: 0, 2: 1, 4: 2, 5: 3}.get(kind, 0)   # the comparisons' own count in the turns of seven
+            # clubs and a random pair of MPs taking turns
+            c = mp_pair((on_break[0], slot)) if (k % 2 or not compares) and pool else None   # a new pair each break
+            c = c or (compares[(k // 2) % len(compares)] if compares else None)
+            if c:
+                return overlay.frame_scene(overlay.compare(c, into, length), hhmm)
         item, topic, vote = captions(shown, tags, title)
         recent = shown and (clock - warsaw(shown[-1]["date"])).total_seconds() < QUIET
         chip = note = None
@@ -824,7 +887,7 @@ def main():
                     if into < length:
                         card = overlay.card(c, into, length)
                         showing["until"] = begun + length
-        return overlay.frame(item, topic, vote, panel, card, chip, note)
+        return overlay.frame(item, topic, vote, panel, card, chip, note, clock=f"{clock:%H:%M}")
 
     if args.fast and args.out in ("preview", "rtmp"):
         sys.exit("--fast is for a file.")

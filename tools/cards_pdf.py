@@ -88,6 +88,17 @@ def main():
                "stats": [["frekwencja", f"{m.get('turnout', 0) * 100:.1f}%".replace(".", ",")],
                          ["wyłamania", str(m.get("brokeLine", 0))], ["interpelacje", str(m.get("questions", 0))],
                          ["zmiany klubu", str(m.get("clubSwitches", 0))]]}
+    # the pool of MPs is not a card: three pairs drawn from it, as the stream draws them
+    import random
+    from sejmomat.facts import mp_compare
+    pool = next((c["mps"] for c in cards if c.get("kind") == "mp_pool"), [])
+    spoke = [m for m in pool if m["speeches"]]
+    for num in random.sample(sorted({m["num"] for m in spoke}), min(3, len({m["num"] for m in spoke}))):
+        k = [m for m in spoke if m["num"] == num and m["tag"] == "Koalicja"]
+        o = [m for m in spoke if m["num"] == num and m["tag"] == "Opozycja"]
+        if k and o:
+            cards.append(mp_compare(random.choice(k), random.choice(o)))
+    cards = [c for c in cards if c.get("kind") != "mp_pool"]
     pages = [({**speaker, "_as": "speaker"}, "speaker")] + [(p, "promo") for p in PROMOS] + [(c, None) for c in cards]
 
     live_overlay.CARD_SCALE = 1.0   # drawn at full size, to be read on paper

@@ -242,6 +242,23 @@ def regions(mps):
     return out
 
 
+def mp_compare(k, o):
+    """A comparison of two MPs from the pool (comparisons, "mp_pool"): k from the coalition, o
+    from the opposition, usually of one constituency."""
+    same = k["num"] == o["num"]
+    return {"kind": "compare", "topic": "mps", "title": f"{k['name']} kontra {o['name']}",
+            "sides": [{"name": m["name"], "club": m["club"], "tag": m["tag"], "mp": m["id"],
+                       "sub": f"okręg {m['num']} · {m['district']}"} for m in (k, o)],
+            "rows": [_row("wystąpienia na sali", k["speeches"], o["speeches"], str),
+                     _row("interpelacje i zapytania", k["questions"], o["questions"], str),
+                     _row("frekwencja", k["turnout"], o["turnout"], pct),
+                     _row("głosy w wyborach", k["votes"], o["votes"], _num),
+                     _row("przyjęte poprawki (podpisane)", k["adopted"], o["adopted"], str),
+                     _row("wyłamania z linii klubu", k["rebels"], o["rebels"], str, "less")],
+            "headline": f"Ten sam okręg: {k['district']}" if same else "Koalicja kontra opozycja",
+            "sub": "Poseł koalicji i poseł opozycji · cała kadencja"}
+
+
 def _num(n):
     return f"{n:,}".replace(",", " ")
 
@@ -292,28 +309,14 @@ def comparisons(ctx, mps):
                 seen.add(frozenset((a["id"], b["id"])))
                 club_card(a, b, f"{what}: tak samo w {pct(r)} głosowań", "Linia klubu: jak głosowała większość jego posłów · cała kadencja")
 
-    # MPs: per constituency, the most active coalition and opposition speakers; the busiest first
-    pairs = []
-    for dn in sorted({r["mp"].get("districtNum") for r in mps if r["mp"].get("districtNum")}):
-        here = [r for r in mps if r["mp"].get("districtNum") == dn]
-        k = max((r for r in here if r["mp"].get("club") in COALITION), key=_speeches, default=None)
-        o = max((r for r in here if r["mp"].get("club") not in COALITION and r["mp"].get("club")), key=_speeches, default=None)
-        if k and o and _speeches(k) and _speeches(o):
-            pairs.append((k, o))
-    pairs.sort(key=lambda p: -(_speeches(p[0]) + _speeches(p[1])))
-    for k, o in pairs[:12]:
-        district = k["mp"].get("districtName") or ""
-        out.append({"kind": "compare", "topic": "mps", "title": f"{k['mp']['firstLastName']} kontra {o['mp']['firstLastName']}",
-                    "sides": [{"name": r["mp"]["firstLastName"], "club": r["mp"].get("club") or "niez.", "tag": tag(r["mp"].get("club")),
-                               "mp": r["mp"]["id"], "sub": f"okręg {r['mp'].get('districtNum')} · {district}"} for r in (k, o)],
-                    "rows": [_row("wystąpienia na sali", _speeches(k), _speeches(o), str),
-                             _row("interpelacje i zapytania", len(k["questions"]), len(o["questions"]), str),
-                             _row("frekwencja", k["turnout"], o["turnout"], pct),
-                             _row("głosy w wyborach", k["mp"].get("numberOfVotes") or 0, o["mp"].get("numberOfVotes") or 0, _num),
-                             _row("przyjęte poprawki (podpisane)", k["signed_adopted"], o["signed_adopted"], str),
-                             _row("wyłamania z linii klubu", k["rebel_count"], o["rebel_count"], str, "less")],
-                    "headline": f"Ten sam okręg: {district}",
-                    "sub": "Najaktywniejsi na mównicy z koalicji i z opozycji · cała kadencja"})
+    # MPs: not a fixed few (the busiest ran out soon) but a pool of every MP's figures, from which
+    # the stream draws a pair each time (mp_compare): a constituency's coalition and opposition MP
+    out.append({"kind": "mp_pool", "topic": "mps", "title": "Posłowie do porównań",
+                "mps": [{"id": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club") or "niez.",
+                         "tag": tag(r["mp"].get("club")), "num": r["mp"].get("districtNum"), "district": r["mp"].get("districtName") or "",
+                         "speeches": _speeches(r), "questions": len(r["questions"]), "turnout": r["turnout"],
+                         "votes": r["mp"].get("numberOfVotes") or 0, "adopted": r["signed_adopted"], "rebels": r["rebel_count"]}
+                        for r in mps if r["mp"].get("districtNum")]})
     return out
 
 
