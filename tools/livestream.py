@@ -272,7 +272,7 @@ PAGE_STRETCH = 4                                        # a page may run this ma
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
 SPEAKER_SECONDS = 20                                    # how long the card of a speaker who has just begun stays
 SPEAKER_BAR = 600                                       # how long the bar names a speaker (until the next one)
-CAPTION_LAG = 12                                        # the broadcast names a speaker about this long after they begin (tools/caption_lag.py)
+CAPTION_LAG = 8                                         # the broadcast names a speaker this long after they begin, or later (10th percentile of 73 speeches, October 2026: median 12 s; tools/caption_lag.py)
 LOOKAHEAD = 25                                          # the captions are read this far ahead of the picture, so a speaker's card can start when they do
 SNAP_EVERY = 2                                          # a snapshot of the caption band every this many seconds
 FACT_SECONDS = 12                                       # a fact card is on screen this long…
@@ -391,34 +391,39 @@ def diff_panel(v):
 FPS = 25
 
 
-def ffmpeg_command(src, out, snapshot, fast=False, ahead=None):
+# the picture fitted to 1280x720
+FIT = f"scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2"
+
+
+def snapshot_command(ahead, snapshot):
+    """A second ffmpeg, apart from the picture's (in the same process the two readings
+    held each other back): the stream from LOOKAHEAD seconds further on, read at
+    normal speed, its keyframes alone (one a second in the Sejm's stream, all the
+    snapshots need), the caption band saved every SNAP_EVERY seconds as numbered files."""
+    proxy = ["-http_proxy", VIDEO_PROXY] if VIDEO_PROXY else []
+    bx, by, bw, bh = BAND
+    return ["ffmpeg", "-hide_banner", "-loglevel", "error", "-re", *proxy, "-skip_frame", "nokey", "-i", ahead, "-an",
+            "-vf", f"fps=1/{SNAP_EVERY},{FIT},crop={bw}:{bh}:{bx}:{by}", "-f", "image2", "-start_number", "0", "-y", str(snapshot)]
+
+
+def ffmpeg_command(src, out, snapshot, fast=False):
     """The ffmpeg command: the stream read at normal speed and scaled to 1280x720,
     with the overlay (RGBA frames from this script, on stdin) laid over it; and,
     every SNAP_EVERY seconds, the band where the broadcast names a speaker, saved
     as numbered files (`snapshot`, a pattern with %d: file n is the picture SNAP_EVERY * n
     seconds in) for the speaker recognition (tools/live_speaker.py; snapshot None: not
-    needed). With `ahead` the band comes from a second reading of the stream, from
-    LOOKAHEAD seconds further on, so a speaker is known before the picture reaches them.
-    The picture ends when the overlay does (stdin closed), so a file is finished properly."""
+    needed here, as when snapshot_command reads them ahead). The picture ends when the
+    overlay does (stdin closed), so a file is finished properly."""
     proxy = ["-http_proxy", VIDEO_PROXY] if VIDEO_PROXY else []
-    rate = [] if fast else ["-re"]
-    # the second reading: its keyframes alone (one a second in the Sejm's stream), all the
-    # snapshots need, so decoding it costs a 25th of decoding the picture
-    second = [*rate, *proxy, "-skip_frame", "nokey", "-i", ahead] if snapshot and ahead else []
-    pipe = 2 if second else 1
-    inputs = [*rate, *proxy, "-i", src, *second,
+    inputs = [*([] if fast else ["-re"]), *proxy, "-i", src,
               "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-framerate", str(FPS), "-thread_queue_size", "64", "-i", "pipe:0"]
     bx, by, bw, bh = BAND
-    fit = f"scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2"
-    scaled = f"[0:v]{fit},fps={FPS}"
-    band = f"crop={bw}:{bh}:{bx}:{by}[band]"
-    if snapshot and second:
-        # one picture in SNAP_EVERY seconds first, then scaled: the rest is never touched
-        v = f"{scaled}[base];[base][{pipe}:v]overlay=0:0:format=auto:eof_action=endall[v];[1:v]fps=1/{SNAP_EVERY},{fit},{band}"
-    elif snapshot:
-        v = f"{scaled},split=2[base][cap];[base][{pipe}:v]overlay=0:0:format=auto:eof_action=endall[v];[cap]fps=1/{SNAP_EVERY},{band}"
+    scaled = f"[0:v]{FIT},fps={FPS}"
+    if snapshot:
+        v = (f"{scaled},split=2[base][cap];[base][1:v]overlay=0:0:format=auto:eof_action=endall[v];"
+             f"[cap]fps=1/{SNAP_EVERY},crop={bw}:{bh}:{bx}:{by}[band]")
     else:
-        v = f"{scaled}[base];[base][{pipe}:v]overlay=0:0:format=auto:eof_action=endall[v]"
+        v = f"{scaled}[base];[base][1:v]overlay=0:0:format=auto:eof_action=endall[v]"
     # on a server (no terminal) the progress line once a minute, for the log
     quiet = [] if sys.stderr.isatty() else ["-stats_period", "60"]
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *quiet, *inputs, "-filter_complex", v, "-map", "[v]", "-map", "0:a?"]
@@ -446,6 +451,7 @@ def main():
     ap.add_argument("--quality", type=int, default=720, help="stream quality to read: picture height, e.g. 1080, 720, 384 (default 720)")
     ap.add_argument("--demo", action="store_true", help="for a demo recording: a card every 13 s, the liveliest ones first, no cards about the site")
     ap.add_argument("--no-speakers", action="store_true", help="no speaker recognition (needs tesseract with Polish)")
+    ap.add_argument("--no-lookahead", action="store_true", help="read the name caption from the picture itself, not a second reading of the stream ahead of it")
     ap.add_argument("--transcript", action="store_true", help="replay: who speaks from the day's transcript (data/speeches), not the screen")
     ap.add_argument("--fast", action="store_true", help="to a file: as fast as the computer can, not in real time")
     ap.add_argument("--wait", action="store_true", help="live, unattended: wait for the day's sitting instead of stopping when there is none")
@@ -529,11 +535,14 @@ def main():
     # second reading of the stream), a speaker is known before the picture gets to them and
     # their card starts when they do; live, only when the delay leaves room for it, and not
     # with --fast (the two readings would not keep their distance).
-    lead = LOOKAHEAD if recogniser and not args.fast and (args.at or args.delay >= LOOKAHEAD + 30) else 0
-    ahead = source(base, start + timedelta(seconds=lead), end, args.quality) if lead else None
+    lead = LOOKAHEAD if recogniser and not (args.fast or args.no_lookahead) and (args.at or args.delay >= LOOKAHEAD + 30) else 0
+    # the captions come from a reading of their own (at `lead` ahead, or level with the picture):
+    # snapshots taken inside the picture's ffmpeg came too seldom to catch a caption; only with
+    # --fast, where a reading at normal speed could not keep up, are they taken there
+    ahead = source(base, start + timedelta(seconds=lead), end, args.quality) if recogniser and not args.fast else None
     if recogniser:
         print(f"speakers: captions read {lead} s ahead of the picture" if lead else
-              "speakers: captions read from the picture itself (cards start when the caption does)", flush=True)
+              "speakers: captions read level with the picture (cards start when the caption does)", flush=True)
     speaker = {"card": None, "at": None, "mp": None, "until": None}
     pending = []   # speakers recognised ahead of the picture: (moment they begin, update), applied when it gets there
     now = {"clock": start}
@@ -567,8 +576,15 @@ def main():
         while recogniser:
             time.sleep(0.5)
             # the newest file may still be being written: the ones before it, in order
-            numbers = sorted(int(f.stem.split("-")[1]) for f in work.glob("band-*.png"))
-            for i in [x for x in numbers[:-1] if x > done]:
+            numbers = sorted(int(f.stem.split("-")[1]) for f in work.glob("band-*.png") if f.stem.count("-") == 1 and "." not in f.stem)
+            todo = [x for x in numbers[:-1] if x > done]
+            if not ahead:
+                # from the picture itself only the latest counts (as it is on screen now); the rest
+                # would be a backlog that makes every name come later
+                for x in todo[:-1]:
+                    (work / f"band-{x}.png").unlink(missing_ok=True)
+                todo = todo[-1:]
+            for i in todo:
                 path = work / f"band-{i}.png"
                 done = i
                 m = recogniser.match(read(path))
@@ -576,8 +592,10 @@ def main():
                 path.with_suffix(".ocr.png").unlink(missing_ok=True)
                 if not m:
                     continue
-                # the moment of that picture, by the picture's clock
-                seen = start + timedelta(seconds=lead + SNAP_EVERY * i)
+                # the moment of that picture: read ahead, from its number (that ffmpeg writes one
+                # every SNAP_EVERY seconds of the stream); from the picture itself, the picture's
+                # clock now (its file numbers run ahead at the start and do not keep time)
+                seen = start + timedelta(seconds=lead + SNAP_EVERY * i) if ahead else now["clock"]
                 # the caption stays a few seconds: one card per speaker, not one per snapshot
                 if last["mp"] == m["id"] and (seen - last["seen"]).total_seconds() < 60:
                     continue
@@ -670,8 +688,9 @@ def main():
 
     if args.fast and args.out in ("preview", "rtmp"):
         sys.exit("--fast is for a file.")
-    cmd, preview = ffmpeg_command(src, args.out, snapshot if recogniser else None, args.fast, ahead)
+    cmd, preview = ffmpeg_command(src, args.out, snapshot if recogniser and not ahead else None, args.fast)
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE if preview else None)
+    reader = subprocess.Popen(snapshot_command(ahead, snapshot), stdin=subprocess.DEVNULL) if ahead else None
     viewer = subprocess.Popen(["ffplay", "-hide_banner", "-loglevel", "warning", "-window_title", "Sejmomat", "-"],
                               stdin=proc.stdout) if preview else None
     try:
@@ -709,10 +728,10 @@ def main():
             proc.wait(timeout=30 if not recogniser else 1)
         except subprocess.TimeoutExpired:
             pass
-        for p in (viewer, proc):
+        for p in (viewer, proc, reader):
             if p and p.poll() is None:
                 p.terminate()
-        for p in (viewer, proc):
+        for p in (viewer, proc, reader):
             if p:
                 try:
                     p.wait(timeout=10)
