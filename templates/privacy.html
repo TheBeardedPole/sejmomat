@@ -3,6 +3,7 @@
 {% block title %}{{ _("Prywatność") }}{% endblock %}
 {% block description %}{{ _("Prywatność — opis") }}{% endblock %}
 {% block content %}
+<div class="prose">
 {{ crumbs(root, [], _("Prywatność")) }}
 <h1>{{ _("Prywatność") }}</h1>
 {% if lang == "pl" %}
@@ -39,10 +40,14 @@ przetwarzanych w związku z działaniem strony.</p>
   <li><strong>Nagrania wystąpień i posiedzeń komisji.</strong> Wideo z wystąpień posłów i z posiedzeń komisji jest odtwarzane
       bezpośrednio z serwera transmisji Sejmu (sejm.c.blueonline.tv) i dopiero po kliknięciu „Wideo” lub „Nagranie”; ten serwer
       otrzymuje wtedy Twój adres IP.</li>
-  <li><strong>Transmisje.</strong> Strona główna pyta API Sejmu (api.sejm.gov.pl) o bieżące i najbliższe transmisje, a gdy
-      według planu któraś powinna trwać, sprawdza na serwerze transmisji Sejmu, czy rzeczywiście się rozpoczęła. W dni posiedzeń
+  <li><strong>Transmisje.</strong> Strona główna i harmonogram transmisji pytają API Sejmu (api.sejm.gov.pl) o bieżące
+      i najbliższe transmisje, a gdy według planu któraś powinna trwać, sprawdzają na serwerze transmisji Sejmu, czy rzeczywiście się rozpoczęła. W dni posiedzeń
       strona główna i strona trwającego posiedzenia odtwarzają obrady (bez dźwięku) z serwera transmisji Sejmu. Serwery Sejmu
-      otrzymują wtedy Twój adres IP; nie wysyłamy im niczego więcej.</li>
+      otrzymują wtedy Twój adres IP; nie wysyłamy im niczego więcej.
+      Gdy trwa nasza własna transmisja na YouTube, pytamy o to serwer Sejmomatu (on sam sprawdza kanał, Twoja przeglądarka nie
+      kontaktuje się wtedy z YouTube). Odtwarzacz YouTube (youtube-nocookie.com) wczytujemy sam tylko wtedy, gdy zgodziłeś się
+      na usługi dodatkowe na pasku zgody; w przeciwnym razie dopiero po kliknięciu „Odtwórz”. Od tej chwili Google otrzymuje Twój
+      adres IP i dane o przeglądarce.</li>
   <li><strong>Gry (Sejmdle).</strong> Postęp w codziennych grach jest zapisywany wyłącznie w pamięci Twojej przeglądarki,
       bo bez tego gra nie mogłaby pamiętać dzisiejszego wyniku.</li>
   <li><strong>Ranking „Twarze w minutę”.</strong> Jeśli po rundzie zapiszesz wynik, na serwerze Sejmomatu zapisujemy wpisany przez
@@ -98,10 +103,14 @@ the data processed in connection with the site.</p>
   <li><strong>Speech and committee videos.</strong> Videos of MPs' speeches and of committee meetings play directly from the
       Sejm's streaming server (sejm.c.blueonline.tv), and only after you click “Video” or “Recording”; that server then receives
       your IP address.</li>
-  <li><strong>Broadcasts.</strong> The home page asks the Sejm's API (api.sejm.gov.pl) for current and upcoming broadcasts, and
-      when one should be on air according to the schedule, it checks with the Sejm's streaming server whether it has actually
+  <li><strong>Broadcasts.</strong> The home page and the broadcast schedule ask the Sejm's API (api.sejm.gov.pl) for current and
+      upcoming broadcasts, and when one should be on air according to the schedule, they check with the Sejm's streaming server whether it has actually
       started. On sitting days the home page and the current sitting's page play the sitting (muted) from the Sejm's streaming
-      server. The Sejm's servers then receive your IP address; nothing else is sent to them.</li>
+      server. The Sejm's servers then receive your IP address; nothing else is sent to them.
+      Whether our own YouTube broadcast is on, your browser asks Sejmomat's server (which checks the channel itself; your browser
+      does not contact YouTube for that). The YouTube player (youtube-nocookie.com) loads by itself only if you accepted the
+      additional services in the consent bar; otherwise only when you click “Play”. From then on Google receives your IP address
+      and details of your browser.</li>
   <li><strong>Games (Sejmdle).</strong> Progress in the daily games is kept only in your browser's storage, because
       otherwise the game could not remember today's result.</li>
   <li><strong>"Twarze w minutę" leaderboard.</strong> If you save a result after a round, Sejmomat's server stores the nickname
@@ -125,4 +134,5 @@ If you spot an error, write to the address above.</p>
 to the address above. You can also lodge a complaint with the Polish data protection authority, UODO
 (<a href="https://uodo.gov.pl">uodo.gov.pl</a>).</p>
 {% endif %}
+</div>
 {% endblock %}

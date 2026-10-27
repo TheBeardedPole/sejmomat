@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_section_nav.html" import section_nav with context %}
 {% from "_macros.html" import crumbs %}
 {% from "_questions.html" import styles %}
 {% set Q = questions_summary %}
@@ -8,6 +9,7 @@
 {{ crumbs(root, [], _("Interpelacje")) }}
 {{ styles() }}
 <h1>{{ _("Interpelacje i zapytania poselskie") }}</h1>
+{{ section_nav("mps", "interpelacje.html") }}
 <p class="tagline">{{ _("Pytania posłów do rządu i to, jak szybko ministrowie na nie odpowiadają. Na odpowiedź mają") }} {{ Q.deadline }} {{ _("dni.") }}</p>
 <div class="grid">
   <div class="card stat"><b>{{ Q.int }}</b>{{ _("interpelacji") }}</div>

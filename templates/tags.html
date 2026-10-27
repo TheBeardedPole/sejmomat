@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_section_nav.html" import section_nav with context %}
 {% from "_macros.html" import crumbs %}
 {% block title %}{{ _("Tematy") }}{% endblock %}
 {% block description %}{{ _("Projekty i głosowania według tematów: o czym naprawdę są, w kilku słowach.") }}{% endblock %}
@@ -9,6 +10,7 @@
   .tag-index li { break-inside: avoid; padding: 3px 0; }
 </style>
 <h1>{{ _("Tematy") }}</h1>
+{{ section_nav("bills", "tematy.html") }}
 <p>{{ _("Tytuły projektów rzadko mówią, o co w nich chodzi („o zmianie ustawy – Kodeks karny”). Tematy opisują to w kilku słowach. Nadaje je redakcja serwisu na podstawie tytułów i opisów projektów z API Sejmu.") }}</p>
 {% if tag_index %}
 <ul class="tag-index">

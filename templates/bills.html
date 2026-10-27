@@ -1,13 +1,12 @@
 {% extends "base.html" %}
+{% from "_section_nav.html" import section_nav with context %}
 {% block title %}{{ _("Ustawy i uchwały") }}{% endblock %}
 {% from "_macros.html" import author_label, tag_chips, crumbs %}
 {% block content %}
 {{ crumbs(root, [], _("Ustawy")) }}
 <h1>{{ _("Ustawy i uchwały") }}</h1>
+{{ section_nav("bills", "ustawy.html") }}
 <p class="muted">{{ _("Projekty, nad którymi Sejm głosował w tej kadencji, od ostatnio głosowanych.") }}</p>
-<p><a href="{{ root }}tematy.html">{{ _("Tematy") }} →</a> · <a href="{{ root }}statystyki.html">{{ _("Statystyki głosowań") }} →</a> ·
-  <a href="{{ root }}zamrazarka.html">{{ _("Zamrażarka: projekty, które utknęły u Marszałka lub w komisjach") }} →</a> ·
-  <a href="{{ root }}poprawki-oczekujace.html">{{ _("Poprawki czekające na głosowanie") }} →</a></p>
 <div class="table-scroll">
 <table>
   <thead><tr><th data-sort="text">{{ _("Projekt") }}</th><th data-sort="text">{{ _("Autor") }}</th><th data-sort="text">{{ _("Ostatnie głosowanie") }}</th><th class="num" data-sort="num">{{ _("Głosowania") }}</th><th class="num" data-sort="num">{{ _("Nad poprawkami") }}</th></tr></thead>

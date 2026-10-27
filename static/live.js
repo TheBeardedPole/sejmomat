@@ -6,6 +6,8 @@
 // player's size needs). Nothing to add by
 // hand: the API lists each day's plenary stream ("posiedzenie") with its
 // scheduled times. Next to the stream, the votes as they come in (below).
+// Sejmomat's own coverage on YouTube, when it is on, takes the stream's place,
+// on any day (static/yt.js; the votes panel stays on the sitting's days).
 (() => {
   const box = document.querySelector(".live-box");
   if (!box) return;
@@ -15,7 +17,8 @@
     timeZone: "Europe/Warsaw", year: "numeric", month: "2-digit", day: "2-digit",
     hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23",
   }).format(new Date()).replace(" ", "T");
-  if (!box.dataset.dates.split(",").includes(warsaw().slice(0, 10))) return;
+  const sittingDay = box.dataset.dates.split(",").includes(warsaw().slice(0, 10));
+  if (!sittingDay && !(box.dataset.yt && window.SejmomatYT)) return;
 
   const el = (tag, props = {}, ...children) => {
     const e = Object.assign(document.createElement(tag), props);
@@ -23,6 +26,8 @@
     return e;
   };
   let playing = false;
+  let ours = null;     // the YouTube video on show, when it is ours
+  let hlsNow = null;   // the Sejm's stream's player, stopped when ours takes over
   const LAG = 100;
   let synced = null;   // {video, start (ms)}: the panel follows the video's clock
 
@@ -44,7 +49,7 @@
       }
       // LAG seconds behind live: the votes reach the API about a minute late, and
       // the panel shows each one when the video gets to it
-      const hls = new window.Hls({ liveSyncDuration: LAG, liveMaxLatencyDuration: LAG + 90, startLevel: 0, capLevelToPlayerSize: true });
+      const hls = hlsNow = new window.Hls({ liveSyncDuration: LAG, liveMaxLatencyDuration: LAG + 90, startLevel: 0, capLevelToPlayerSize: true });
       synced = { video, start: Number(new URL(stream).searchParams.get("start")) || null };
       video.addEventListener("timeupdate", () => votes && renderVotes());
       hls.on(window.Hls.Events.ERROR, (_, d) => {
@@ -174,8 +179,36 @@
     }
   };
 
+  // Sejmomat on YouTube: its player in the stream's place
+  const showOurs = (yt) => {
+    hlsNow?.destroy();
+    hlsNow = null;
+    playing = false;
+    ours = yt.id;
+    const main = el("div", { className: "live-main" }, window.SejmomatYT.player(yt),
+      el("p", { className: "live-links" },
+        el("a", { href: window.SejmomatYT.watchUrl(yt), target: "_blank", rel: "noopener", textContent: `${window.SejmomatYT.T.open} ↗` })));
+    box.replaceChildren(
+      el("h2", {}, el("span", { className: "live-dot", ariaHidden: "true" }), L.ours),
+      el("p", { className: "muted", lang: "pl", textContent: yt.title || "" }),
+      el("div", { className: `live-grid${sittingDay ? " with-votes" : ""}` }, main, sittingDay ? panel : null),
+    );
+    box.hidden = false;
+    if (sittingDay) startVotes();
+  };
+
   const check = async () => {
-    if (playing) return;
+    const yt = await window.SejmomatYT?.check(box.dataset.yt, ours !== null);
+    if (yt) {
+      if (yt.id !== ours) showOurs(yt);
+      return;
+    }
+    if (ours) {
+      // ours has ended: the Sejm's stream again, if there is one
+      ours = null;
+      box.hidden = true;
+    }
+    if (playing || !sittingDay) return;
     let videos;
     try {
       videos = await (await fetch(box.dataset.api)).json();

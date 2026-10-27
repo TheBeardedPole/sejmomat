@@ -1,9 +1,11 @@
 {% extends "base.html" %}
+{% from "_section_nav.html" import section_nav with context %}
 {% from "_macros.html" import crumbs %}
 {% block title %}{{ _("Posłowie") }}{% endblock %}
 {% block content %}
 {{ crumbs(root, [], _("Posłowie")) }}
 <h1>{{ _("Posłowie") }}</h1>
+{{ section_nav("mps", "poslowie.html") }}
 <p class="muted">{{ _("Kliknij nagłówek kolumny, aby posortować.") }} <a href="{{ root }}metodologia.html">{{ _("Definicje wskaźników") }}</a>.
   {{ _("Na stronie każdego posła: grafiki do udostępnienia z podsumowaniem kadencji i ostatniego posiedzenia.") }}</p>
 {% set club_pages = club_rows | map(attribute="id") | list %}

@@ -255,9 +255,11 @@ const T = {
   pl: {
     privacy: "Prywatność", consentSettings: "Ustawienia zgody", stats: "Statystyki", contents: "Spis treści", articles: "Artykuły",
     consentText: "Ta strona Cię nie śledzi. Za Twoją zgodą zapisze w przeglądarce licznik odwiedzonych podstron, " +
-      "używany wyłącznie po to, by od czasu do czasu przypomnieć o możliwości wsparcia projektu.",
+      "używany wyłącznie po to, by od czasu do czasu przypomnieć o możliwości wsparcia projektu, i sama włączy odtwarzacz " +
+      "YouTube, gdy nadajemy na żywo (Google otrzymuje wtedy Twój adres IP).",
     consentTextGa: "Za Twoją zgodą strona użyje Google Analytics, by liczyć odwiedziny (pliki cookie Google), i zapisze w przeglądarce " +
-      "licznik odwiedzonych podstron, używany do przypominania o możliwości wsparcia projektu. Bez zgody nic z tego się nie dzieje.",
+      "licznik odwiedzonych podstron, używany do przypominania o możliwości wsparcia projektu, oraz sama włączy odtwarzacz YouTube, " +
+      "gdy nadajemy na żywo. Bez zgody nic z tego się nie dzieje.",
     pitchGa: "Projekt jest darmowy i bez reklam. Jeśli chcesz, możesz postawić autorowi kawę.",
     essential: "Tylko niezbędne", agree: "Zgadzam się",
     support: "Wesprzyj", close: "Zamknij", useful: "Sejmomat się przydaje?",
@@ -268,9 +270,11 @@ const T = {
   en: {
     privacy: "Privacy", consentSettings: "Consent settings", stats: "Statistics", contents: "Contents", articles: "Articles",
     consentText: "This site does not track you. With your consent it will keep a page-view counter in your browser, " +
-      "used only to occasionally mention that you can support the project.",
+      "used only to occasionally mention that you can support the project, and start the YouTube player by itself when we are " +
+      "live (Google then receives your IP address).",
     consentTextGa: "With your consent the site will use Google Analytics to count visits (Google cookies), and keep a page-view " +
-      "counter in your browser, used to mention that you can support the project. Without consent none of this happens.",
+      "counter in your browser, used to mention that you can support the project, and start the YouTube player by itself when we " +
+      "are live. Without consent none of this happens.",
     pitchGa: "The project is free, with no ads. If you like, you can buy the author a coffee.",
     essential: "Only essential", agree: "I agree",
     support: "Support", close: "Close", useful: "Finding Sejmomat useful?",
@@ -300,7 +304,8 @@ const privacyLink = () => h("a", { href: `${ROOT}prywatnosc.html`, textContent: 
 // "agree". With analytics the text and the privacy page say so, and the
 // consent version is new, so everyone is asked again.
 const GA_ID = document.querySelector('meta[name="sejmomat-ga"]')?.content || "";
-const CONSENT_VERSION = GA_ID ? 2 : 1;
+// 3 and 4 (were 1 and 2): consent also starts Sejmomat's YouTube player (static/yt.js), so it is asked again
+const CONSENT_VERSION = GA_ID ? 4 : 3;
 if (GA_ID) Object.assign(T, { consentText: T.consentTextGa, pitch: T.pitchGa });
 const CONSENT_KEY = "sejmomat-consent";
 const SUPPORT_KEY = "sejmomat-support";
@@ -473,7 +478,6 @@ document.body.append(
 })();
 
 // Link to the games (kept out of the page template for the same reason).
-document.querySelector("header.top nav")?.append(h("a", { href: `${SITE_ROOT}sejmdle/`, textContent: "Sejmdle" }));
 
 // "Show all" under a list cut short (the home page's bills): without scripts the whole list shows.
 document.querySelectorAll("[data-show-all]").forEach((btn) => {
@@ -487,26 +491,6 @@ document.querySelectorAll("[data-show-all]").forEach((btn) => {
   });
 });
 
-// On narrow screens the sections fold behind "Menu" (static/style.css); Escape or a
-// click outside the header closes them again.
-const topBar = document.querySelector("header.top");
-const navToggle = topBar?.querySelector(".nav-toggle");
-if (navToggle) {
-  const setOpen = (open) => {
-    navToggle.setAttribute("aria-expanded", String(open));
-    topBar.classList.toggle("nav-open", open);
-  };
-  navToggle.addEventListener("click", () => setOpen(navToggle.getAttribute("aria-expanded") !== "true"));
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && topBar.classList.contains("nav-open")) {
-      setOpen(false);
-      navToggle.focus();
-    }
-  });
-  document.addEventListener("click", (e) => {
-    if (topBar.classList.contains("nav-open") && !topBar.contains(e.target)) setOpen(false);
-  });
-}
 const foot = document.querySelector("footer.foot");
 if (foot) {
   const settings = h("a", { href: "#", textContent: T.consentSettings });
@@ -517,46 +501,7 @@ if (foot) {
   foot.append(" · ", h("a", { href: `${ROOT}statystyki.html`, textContent: T.stats }), " · ", privacyLink(), " · ", settings);
 }
 const consent = readConsent();
+// for static/yt.js: the reader's current consent (of this version) to the optional services
+window.sejmomatConsented = () => readConsent()?.optional === true;
 if (consent) applyConsent(consent.optional);
 else consentBar.hidden = false;
-
-// Light/dark switch in the header. The choice is kept in localStorage (a
-// setting the reader asked for, so no consent needed) and applied by the
-// inline script in <head> before the page is drawn; with no choice made the
-// page follows the system setting.
-const THEME_KEY = "sejmomat-theme";
-const systemDark = matchMedia("(prefers-color-scheme: dark)");
-const isDark = () => (document.documentElement.dataset.theme || (systemDark.matches ? "dark" : "light")) === "dark";
-// The browser's bar follows the theme: the accent in light mode, the header's
-// surface in dark mode (a bright blue bar above a dark page glares).
-const themeColor = document.querySelector('meta[name="theme-color"]');
-const lightBar = themeColor?.content;
-const syncBar = () => {
-  if (themeColor) themeColor.content = isDark() ? getComputedStyle(document.documentElement).getPropertyValue("--surface").trim() : lightBar;
-};
-syncBar();
-systemDark.addEventListener("change", syncBar);
-document.querySelectorAll(".theme-switch").forEach((btn) => {
-  const sync = () => {
-    btn.setAttribute("aria-pressed", String(isDark()));
-    syncBar();
-  };
-  sync();
-  systemDark.addEventListener("change", sync);
-  btn.addEventListener("click", () => {
-    const theme = isDark() ? "light" : "dark";
-    document.documentElement.dataset.theme = theme;
-    try {
-      // picking what the system already shows means "follow the system"
-      if (theme === (systemDark.matches ? "dark" : "light")) {
-        delete document.documentElement.dataset.theme;
-        localStorage.removeItem(THEME_KEY);
-      } else {
-        localStorage.setItem(THEME_KEY, theme);
-      }
-    } catch {
-      // storage unavailable: the choice lasts for this page only
-    }
-    sync();
-  });
-});

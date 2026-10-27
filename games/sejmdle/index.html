@@ -19,13 +19,18 @@
      e.g. content="https://sejmomat.pl/api/v1/" and content="https://sejmomat.pl/". -->
 <meta name="sejmomat-api" content="../api/v1/">
 <meta name="sejmomat-site" content="../">
-<script>try{var t=localStorage.getItem("sejmomat-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("sejmomat-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="../favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="apple-touch-icon" href="../static/apple-touch-icon.png">
+<!-- Sejmomat's header: its stylesheet and script; the build puts the header itself in place of
+     the marker below (sejmomat/build.py). Served elsewhere, the page simply has no header. -->
+<link rel="stylesheet" href="../static/header.css">
 <link rel="stylesheet" href="sejmdle.css">
 </head>
 <body>
+<!-- sejmomat-header -->
+<div class="page">
 <header>
   <h1 class="wordmark" aria-label="Sejmdle"><span>S</span><span>E</span><span>J</span><span>M</span><span>D</span><span>L</span><span>E</span></h1>
   <p class="muted tagline">Codzienne gry o Sejmie · <a id="site-link" href="../">Sejmomat</a> · <span id="today"></span></p>
@@ -47,8 +52,10 @@
   Postęp gry zapisywany jest tylko w Twojej przeglądarce; w grze „Twarze w minutę” wynik z nickiem trafia do rankingu na serwerze Sejmomatu, jeśli go zapiszesz.
   <br>Podoba Ci się Sejmdle? <a href="https://buycoffee.to/adamkoscielak" target="_blank" rel="noopener">Postaw autorowi kawę</a>.
 </footer>
+</div>
 <!-- Always-visible support link, as on the main site. -->
 <a class="support-pill" href="https://buycoffee.to/adamkoscielak" target="_blank" rel="noopener">☕ Wesprzyj</a>
+<script src="../static/header.js" defer></script>
 <script src="sejmdle.js"></script>
 </body>
 </html>

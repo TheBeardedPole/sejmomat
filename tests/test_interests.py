@@ -119,6 +119,17 @@ class Mps(unittest.TestCase):
         self.assertEqual(out["rolnictwo"], [])   # too little to suggest anyone
         self.assertEqual([r["id"] for r in out["zdrowie"]], sorted(zdrowie, key=lambda i: (-zdrowie[i]["score"], i)))
 
+    def test_the_best_of_each_club_is_kept_past_the_cut(self):
+        committees = [{"code": "ZDR", "members": [{"id": i, "function": "przewodniczący"} for i in (1, 2, 3)]}]
+        rows = [{"mp": {"id": i, "firstLastName": f"Poseł {i}", "club": c, "active": True}, "questions": []}
+                for i, c in ((1, "X"), (2, "X"), (3, "Y"))]
+        old, interests.MP_PER_INTEREST = interests.MP_PER_INTEREST, 1
+        try:
+            out = interests.suggested_mps(SPEC, rows, committees, {}, TODAY)
+        finally:
+            interests.MP_PER_INTEREST = old
+        self.assertEqual([r["id"] for r in out["zdrowie"]], [1, 3])   # 2 is cut, 3 kept as Y's best
+
     def test_below_threshold_is_left_out(self):
         committees = [{"code": "ZDR", "members": [{"id": 1, "function": None}]}]   # a member: 2 points
         out = interests.suggested_mps(SPEC, self.rows()[:1], committees, {}, TODAY)

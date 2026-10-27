@@ -630,6 +630,45 @@
    ]
   },
   {
+   "id": "cyfryzacja-technologie",
+   "pl": "Cyfryzacja i nowe technologie",
+   "en": "Digitalisation and new technologies",
+   "committees": [
+    "CNT"
+   ],
+   "ministers": [
+    "minister cyfryzacji",
+    "minister cyfryzacji - Krzysztof Gawkowski"
+   ],
+   "tags": [
+    "Akt o usługach cyfrowych (DSA)",
+    "Cyberbezpieczeństwo",
+    "Cyberprzestępczość",
+    "Cyfryzacja administracji",
+    "Dezinformacja",
+    "Działalność kosmiczna",
+    "E-Doręczenia",
+    "E-dyplomy",
+    "E-dziennik",
+    "E-zdrowie",
+    "Fundusz technologii przełomowych",
+    "Handel internetowy",
+    "Kryptowaluty",
+    "KSeF (e-faktury)",
+    "Licytacje komornicze online",
+    "mObywatel",
+    "Ochrona danych",
+    "Podpisy elektroniczne pod listami",
+    "Prawo autorskie",
+    "Prawo komunikacji elektronicznej",
+    "Sztuczna inteligencja",
+    "Sądy online",
+    "Telekomunikacja",
+    "Umowy online",
+    "Zakaz kryptowalut"
+   ]
+  },
+  {
    "id": "rolnictwo",
    "pl": "Rolnictwo",
    "en": "Agriculture",

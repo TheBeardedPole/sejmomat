@@ -155,7 +155,7 @@ def question_points(recent, older):
 
 def suggested_mps(spec, mp_rows, committees, bills, today):
     """{interest id: [{"id", "score", "why": [reason]}]}, best first, for MPs in
-    office; a reason is {"k": "committee", "code", "fn"}, {"k": "questions",
+    office: the best MP_PER_INTEREST and the best of each club not among them; a reason is {"k": "committee", "code", "fn"}, {"k": "questions",
     "n", "recent", "to"} or {"k": "bills", "n", "root"} (the latest bill)."""
     recent = (today - timedelta(days=MP_DAYS)).isoformat()
     roles = defaultdict(dict)   # mp -> {committee code: function}
@@ -194,7 +194,14 @@ def suggested_mps(spec, mp_rows, committees, bills, today):
             if score >= MP_MIN_SCORE:
                 rows.append({"id": mp["id"], "score": round(score, 2), "why": why})
         rows.sort(key=lambda x: (-x["score"], x["id"]))
-        out[i["id"]] = rows[:MP_PER_INTEREST]
+        # the best of every club too, so that the page can suggest one MP from each
+        club = {r["mp"]["id"]: r["mp"].get("club") or "" for r in mp_rows}
+        kept, clubs = rows[:MP_PER_INTEREST], {club[x["id"]] for x in rows[:MP_PER_INTEREST]}
+        for x in rows[MP_PER_INTEREST:]:
+            if club[x["id"]] not in clubs:
+                clubs.add(club[x["id"]])
+                kept.append(x)
+        out[i["id"]] = kept
     return out
 
 

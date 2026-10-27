@@ -3,6 +3,7 @@
 {% block title %}{{ _("Metodologia") }}{% endblock %}
 {% block generated %}{{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.{% endblock %}
 {% block content %}
+<div class="prose">
 {{ crumbs(root, [], _("Metodologia")) }}
 <h1>{{ _("Metodologia") }}</h1>
 {% if lang == "pl" %}
@@ -90,4 +91,5 @@ is relative to votes in which the MP's club had a clear line and the MP voted.</
 which the club line (for or against) matched the outcome.</p>
 <p>Note: a line derived from the majority is not the same as formal party discipline — clubs do not publish their whips.</p>
 {% endif %}
+</div>
 {% endblock %}

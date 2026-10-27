@@ -18,14 +18,16 @@
 :root[data-theme="light"] { color-scheme: light; }
 :root[data-theme="dark"] { color-scheme: dark; }
 * { box-sizing: border-box; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
-body { margin: 0 auto; max-width: 880px; padding: 20px 16px 40px; background: var(--bg); color: var(--text);
+body { margin: 0; background: var(--bg); color: var(--text);
   font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+/* the games' column, below Sejmomat's header (static/header.css, put in by the build) */
+.page { margin: 0 auto; max-width: 880px; padding: 20px 16px 40px; }
 a { color: var(--accent); }
 h2 { font-size: 1.1rem; margin: 0 0 8px; }
 .muted { color: var(--muted); font-size: .9rem; }
 
 /* Header: the name as a row of tiles, coloured like the clues. */
-header { text-align: center; }
+.page > header { text-align: center; }
 .wordmark { display: flex; justify-content: center; gap: 6px; margin: 4px 0 8px; font-size: 1.5rem; }
 .wordmark span { display: grid; place-items: center; width: 1.9em; height: 1.9em; border-radius: 8px;
   font-weight: 800; color: #fff; background: var(--grey); box-shadow: var(--shadow); }
@@ -46,7 +48,7 @@ header { text-align: center; }
 /* The archive: a day to play instead of today's. */
 .archive { font-size: .9rem; color: var(--muted); }
 .archive select { font: inherit; padding: 4px 8px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--text); }
-header p { margin: 0 0 14px; }
+.page > header p { margin: 0 0 14px; }
 
 .lead { font-size: 1.35rem; font-weight: 700; margin: 0 0 10px; text-align: center; }
 

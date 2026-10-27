@@ -144,3 +144,10 @@ test("highlights take the reader's topics in turn, a bill passed before a motion
   const out = H.highlights(mine, "2026-10-26", 4, ["tax", "health"]);
   assert.deepEqual(out.map((e) => e.root), ["2", "5", "3", "4"]);
 });
+
+test("suggested MPs: the best of each club, independents as one", () => {
+  const row = (id, score) => ({ id, score, why: [] });
+  const data = { suggested: { z: [row(1, 9), row(2, 8), row(3, 7), row(4, 6), row(5, 5)] },
+    mps: { 1: { club: "A" }, 2: { club: "A" }, 3: { club: "B" }, 4: { club: "" }, 5: { club: "niez." } } };
+  assert.deepEqual(H.suggestMps(data, ["z"]).map((r) => r.id), [1, 3, 4]);
+});

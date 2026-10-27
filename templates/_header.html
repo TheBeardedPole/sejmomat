@@ -1,0 +1,68 @@
+{# The site's header: logo, sections with their submenus, search, language and theme
+   (static/header.css, static/header.js). Part of every page (templates/base.html), and
+   put into Sejmdle's page by the build (sejmomat/build.py). Needs: root, site_root,
+   path, lang, alternates. #}
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="{{ root }}index.html"><span class="logo" role="img" aria-label="Sejmomat"></span></a>
+    {#- the sections, each with the pages folded under it: (link, label, path prefixes, [(link, label, prefixes)]);
+        a page's section is marked in the nav #}
+    {%- set sections = [
+      ("posiedzenia.html", _("Posiedzenia"), ("posiedzeni", "glosowanie", "porownaj"), [
+        ("nadchodzace-posiedzenie.html", _("Nadchodzące posiedzenie"), ("nadchodzace",)),
+        ("transmisje.html", _("Harmonogram transmisji"), ("transmisje",))]),
+      ("ustawy.html", _("Ustawy"), ("ustaw", "druk", "zamrazarka", "temat"), []),
+      ("poprawki.html", _("Poprawki"), ("poprawki", "skuteczne-poprawki"), []),
+      ("poslowie.html", _("Posłowie"), ("posel", "poslowie"), [
+        ("kluby.html", _("Kluby"), ("klub",)),
+        ("interpelacje.html", _("Interpelacje"), ("interpelacje",))]),
+      ("komisje.html", _("Komisje"), ("komisj",), []),
+      ("statystyki.html", _("Statystyki"), ("statystyki",), []),
+    ] %}
+    <nav id="site-nav" aria-label="{{ _("Główna nawigacja") }}">
+      <ul class="nav-list">
+      {%- for href, label, prefixes, sub in sections %}
+        {%- set sub_here = [] %}{% for s in sub %}{% if path.startswith(s[2]) %}{% set _x = sub_here.append(s) %}{% endif %}{% endfor %}
+        <li class="nav-item{% if sub %} has-sub{% endif %}{% if sub_here %} current{% endif %}">
+          <a href="{{ root }}{{ href }}"{% if path.startswith(prefixes) %} aria-current="page"{% endif %}>{{ label }}</a>
+          {%- if sub %}
+          <button type="button" class="sub-toggle" aria-expanded="false" aria-controls="sub-{{ loop.index }}"><span class="visually-hidden">{{ label }}: {{ _("więcej") }}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <ul class="sub" id="sub-{{ loop.index }}">
+            {%- for s_href, s_label, s_prefixes in sub %}
+            <li><a href="{{ root }}{{ s_href }}"{% if path.startswith(s_prefixes) %} aria-current="page"{% endif %}>{{ s_label }}</a></li>
+            {%- endfor %}
+          </ul>
+          {%- endif %}
+        </li>
+      {%- endfor %}
+        {#- on phones the language switch moves here, into the menu, so the header keeps to one row #}
+        <li class="nav-item nav-lang">{% if lang == "pl" %}<a href="{{ alternates.en }}" hreflang="en" lang="en">English</a>{% else %}<a href="{{ alternates.pl }}" hreflang="pl" lang="pl">Polski</a>{% endif %}</li>
+      </ul>
+    </nav>
+    {%- if path != "szukaj.html" %}
+    <form class="site-search" role="search" action="{{ root }}szukaj.html">
+      <label class="visually-hidden" for="site-q">{{ _("Szukaj") }}</label>
+      <input id="site-q" type="search" name="q" placeholder="{{ _("Szukaj…") }}" autocomplete="off" enterkeyhint="search">
+      {#- with scripts the field folds into this button until it is wanted (static/header.js) #}
+      <button type="button" class="search-toggle" aria-expanded="false" aria-controls="site-q" title="{{ _("Szukaj") }}"><span class="visually-hidden">{{ _("Szukaj") }}</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+    </form>
+    {%- endif %}
+    {#- the daily games, apart from the sections, next to search #}
+    <a class="nav-game" href="{{ site_root }}sejmdle/"{% if path.startswith("sejmdle") %} aria-current="page"{% endif %}><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1" y="1" width="6" height="6" rx="1.5"/><rect x="9" y="1" width="6" height="6" rx="1.5" opacity=".55"/><rect x="1" y="9" width="6" height="6" rx="1.5" opacity=".55"/><rect x="9" y="9" width="6" height="6" rx="1.5"/></svg><span class="nav-game-text">Sejmdle</span></a>
+    <div class="tools">
+      <div class="lang">
+        {% if lang == "pl" %}<strong>PL</strong> · <a href="{{ alternates.en }}" hreflang="en" lang="en">EN</a>
+        {% else %}<a href="{{ alternates.pl }}" hreflang="pl" lang="pl">PL</a> · <strong>EN</strong>{% endif %}
+      </div>
+      <button type="button" class="theme-switch" aria-label="{{ _("Tryb ciemny") }}" title="{{ _("Tryb ciemny") }}">
+        <svg class="moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor" stroke="none"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+      </button>
+    </div>
+    {#- shown only on narrow screens (with scripts): the nav folds away behind it #}
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <span>{{ _("Menu") }}</span>
+    </button>
+  </div>
+</header>

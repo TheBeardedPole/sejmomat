@@ -475,6 +475,10 @@ def build_context():
         "pending_prints": {g["print"] for g in pending_amendments}, "frozen": frozen, "questions_summary": questions_summary, "fill_gaps": fill_gaps, "committee_names": {c["code"]: c["name"] for c in committee_rows},
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
         "interest_list": [{"id": i["id"], "pl": i["pl"], "en": i["en"]} for i in interests.load()],
+        # the prints with a page here as [first, last] runs, for the schedule's links (static/schedule.js)
+        "printed_ranges": number_runs(int(p) for p in printed if str(p).isdigit()),
+        # the committees of each interest, for the schedule's "my topics" filter (static/schedule.js)
+        "interest_committees": {i["id"]: i["committees"] for i in interests.load()},
         "generated": datetime.now(),
     }
 
@@ -882,6 +886,17 @@ def build_clubs(clubs, mps, by_id, mp_rows):
     return rows
 
 
+def number_runs(numbers):
+    """[[first, last], ...] for the numbers' consecutive runs: [1, 2, 3, 7] -> [[1, 3], [7, 7]]."""
+    runs = []
+    for n in sorted(set(numbers)):
+        if runs and runs[-1][1] + 1 == n:
+            runs[-1][1] = n
+        else:
+            runs.append([n, n])
+    return runs
+
+
 def sitting_name(lang):
     def name(n, long=False):
         if lang == "pl":
@@ -969,6 +984,7 @@ def _pages(ctx):
     yield "privacy.html", "prywatnosc.html", {}
     yield "summaries.html", "podsumowania.html", {}
     yield "upcoming.html", "nadchodzace-posiedzenie.html", {}
+    yield "schedule.html", "transmisje.html", {}
     yield "questions.html", "interpelacje.html", {}
     yield "committees.html", "komisje.html", {}
     for c in ctx["committee_rows"]:
@@ -1052,6 +1068,18 @@ def run():
             ), encoding="utf-8")
         if getattr(t, "missing", None):
             print(f"[{lang}] untranslated strings: {sorted(t.missing)}")
+
+    # Sejmdle under the site's header: the same partial as every page, for its folder
+    # (games/sejmdle/index.html marks the place)
+    env, _t = _env("pl")
+    game = SITE / "sejmdle" / "index.html"
+    header = env.get_template("_header.html").render(
+        root="../", site_root="../", path="sejmdle/", full_path="sejmdle/", lang="pl",
+        alternates={"pl": "../index.html", "en": "../en/index.html"}, **ctx)
+    text = game.read_text(encoding="utf-8").replace("<!-- sejmomat-header -->", header.strip(), 1)
+    for name in ("header.css", "header.js"):   # versioned, as on the site's pages
+        text = text.replace(f'"../static/{name}"', f'"../static/{name}?v={static_version(name)}"')
+    game.write_text(text, encoding="utf-8")
 
     # Fun facts for the stream's quiet moments (tools/livestream.py).
     (SITE / "api" / "v1").mkdir(parents=True, exist_ok=True)

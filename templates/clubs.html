@@ -1,9 +1,11 @@
 {% extends "base.html" %}
+{% from "_section_nav.html" import section_nav with context %}
 {% from "_macros.html" import crumbs %}
 {% block title %}{{ _("Kluby i koła poselskie") }}{% endblock %}
 {% block content %}
 {{ crumbs(root, [], _("Kluby")) }}
 <h1>{{ _("Kluby i koła poselskie") }}</h1>
+{{ section_nav("mps", "kluby.html") }}
 <p class="muted">{{ _("Spójność to średni odsetek głosujących członków klubu, którzy wybrali tę samą opcję co większość klubu. Skuteczność — jak często linia klubu (za/przeciw) pokrywała się z wynikiem głosowania.") }} <a href="{{ root }}metodologia.html">{{ _("Metodologia") }}</a>.</p>
 <p class="muted">{{ _("Na stronie każdego klubu: grafiki do udostępnienia z podsumowaniem kadencji i ostatniego posiedzenia.") }}</p>
 <div class="table-scroll">

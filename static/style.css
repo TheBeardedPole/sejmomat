@@ -31,56 +31,8 @@ body { margin: 0; background: var(--bg); color: var(--text);
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
-.top { border-bottom: 1px solid var(--line); background: var(--surface); }
-.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding-top: 8px; padding-bottom: 8px; }
-.brand { display: block; line-height: 0; }
-.brand .logo { display: block; height: 22px; aspect-ratio: 1267 / 190; background: var(--accent);
-  -webkit-mask: url(logo.svg) center / contain no-repeat; mask: url(logo.svg) center / contain no-repeat; }
-.top .tools { display: flex; align-items: center; gap: 12px; flex: none; white-space: nowrap; }
-.theme-switch { display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 1px solid var(--line);
-  border-radius: 99px; background: var(--bg); color: var(--muted); cursor: pointer; }
-.theme-switch:hover { color: var(--text); }
-.theme-switch svg { width: 18px; height: 18px; }
-/* show the moon in light mode (switch to dark) and the sun in dark mode */
-.theme-switch .sun { display: none; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .theme-switch .sun { display: block; }
-  :root:not([data-theme="light"]) .theme-switch .moon { display: none; }
-}
-:root[data-theme="dark"] .theme-switch .sun { display: block; }
-:root[data-theme="dark"] .theme-switch .moon { display: none; }
 nav { display: flex; flex-wrap: wrap; gap: 4px 13px; }
 nav a { color: var(--muted); }
-/* the header: one compact row (logo, sections, search, language and theme); below
-   1060px the sections fold behind the "Menu" button (static/app.js), and without
-   scripts they simply wrap */
-.top nav { font-size: .92rem; gap: 2px 14px; }
-.top nav a[aria-current="page"] { color: var(--text); font-weight: 600; }
-.site-search { flex: 0 1 190px; min-width: 120px; margin-left: auto; }
-@media (min-width: 1060px) { .top .wrap { flex-wrap: nowrap; } .top nav { flex-wrap: nowrap; white-space: nowrap; } }
-.site-search input { width: 100%; font: inherit; font-size: .9rem; padding: 5px 12px 5px 32px; border: 1px solid var(--line); border-radius: 99px;
-  color: var(--text); background: var(--bg) no-repeat 11px 50% / 14px; appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a8a8f' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='M15.5 15.5 21 21'/%3E%3C/svg%3E"); }
-.site-search input::placeholder { color: var(--muted); }
-.site-search input:focus { border-color: var(--accent); }
-.nav-toggle { display: none; align-items: center; gap: 6px; font: inherit; font-size: .9rem; font-weight: 600; min-height: 36px; padding: 4px 12px;
-  border: 1px solid var(--line); border-radius: 99px; background: var(--bg); color: var(--text); cursor: pointer; }
-.nav-toggle svg { width: 18px; height: 18px; }
-.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
-@media (max-width: 1059px) {
-  .js .nav-toggle { display: inline-flex; }
-  .js .top nav { display: none; order: 10; flex-basis: 100%; flex-direction: column; gap: 0; padding: 4px 0 6px; border-top: 1px solid var(--line); font-size: 1rem; }
-  .js .top.nav-open nav { display: flex; }
-  .js .top nav a { padding: 10px 2px; border-bottom: 1px solid var(--line); }
-  .js .top nav a:last-child { border-bottom: 0; }
-}
-@media (max-width: 640px) {
-  .site-search { order: 9; flex: 1 1 100%; margin-left: 0; }
-  .js .top .tools { margin-left: auto; }
-  /* icon only, so logo, language, theme and menu share one line; the word stays for screen readers */
-  .nav-toggle { padding: 4px 9px; }
-  .nav-toggle span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
-}
 main { padding-top: 24px; padding-bottom: 48px; }
 h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 8px; }
 h2 { font-size: 1.2rem; margin: 32px 0 12px; }
@@ -88,7 +40,9 @@ h3 { font-size: 1rem; margin: 20px 0 8px; }
 /* reading measure: prose stops near 75 characters; headings break evenly, paragraphs avoid a lone last word */
 h1, h2, h3 { text-wrap: balance; }
 p, li { text-wrap: pretty; }
-main p, main ul:not([class]) > li, main ol:not([class]) > li, ol.agenda > li > div:first-child { max-width: 65ch; }
+/* long-form pages (method, privacy, API: <div class="prose">) keep near 75 characters a line; elsewhere text
+   runs the width of what it sits with (tables, cards), or it ends short of them and looks broken */
+.prose p, .prose ul:not([class]) > li, .prose ol:not([class]) > li { max-width: 75ch; }
 .muted { color: var(--muted); }
 .crumbs { color: var(--muted); font-size: .9rem; margin-bottom: 8px; }
 .crumbs ol { display: flex; flex-wrap: wrap; gap: 0 6px; list-style: none; margin: 0; padding: 0; }
@@ -333,7 +287,7 @@ a.btn2:hover { text-decoration: none; }
 .now-block { margin: 0; }
 .wg { display: flex; flex-wrap: wrap; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
 .wg > div { display: flex; flex-direction: column; gap: 3px; min-width: 0; padding: 14px 18px; background: var(--surface); }
-.wg p { margin: 0; max-width: none; }
+.wg p { margin: 0; }
 .wg-was, .wg-next { flex: 1 1 250px; }
 .wg-now { flex: 1.35 1 330px; }
 .wg.live { border-color: var(--live); }
@@ -361,7 +315,7 @@ a.btn2:hover { text-decoration: none; }
 .wg-others ul { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
 .wg-others li { display: flex; align-items: center; gap: 8px; }
 .wg-others .live-dot { flex: none; width: 8px; height: 8px; }
-.wg-src { max-width: none !important; margin: 6px 4px 0; font-size: .82rem; color: var(--muted); }
+.wg-src { margin: 6px 4px 0; font-size: .82rem; color: var(--muted); }
 .live-box { margin-top: 16px; }
 
 .home-section { margin: 0; }
@@ -380,7 +334,7 @@ a.btn2:hover { text-decoration: none; }
 .interests-form fieldset { border: 0; margin: 20px 0 0; padding: 0; min-width: 0; }
 .interests-form legend { padding: 0; margin-bottom: 10px; font-size: .88rem; color: var(--muted); }
 .interest-chips { display: flex; flex-wrap: wrap; gap: 10px; }
-.interests-actions { max-width: none !important; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 22px 0 0 !important; }
+.interests-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 22px 0 0 !important; }
 .interests-count { font-size: .88rem; color: var(--muted); }
 .interests-form .small { margin-top: 14px; }
 .interests-note { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 0; padding: 18px 20px; }
@@ -404,7 +358,7 @@ a.btn2:hover { text-decoration: none; }
 /* "Ważne dla Ciebie": one card per bill */
 .vcards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; }
 .vcard { display: flex; flex-direction: column; gap: 10px; margin: 0; padding: 16px; }
-.vcard p { margin: 0; max-width: none; }
+.vcard p { margin: 0; }
 .vcard-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 12px; }
 .vcard h3 { margin: 0; font-size: 1.06rem; line-height: 1.35; font-weight: 650; }
 .vcard-sum { font-size: .94rem; color: var(--muted); }
@@ -490,3 +444,47 @@ a.btn2:hover { text-decoration: none; }
 #search { --pagefind-ui-primary: var(--accent); --pagefind-ui-text: var(--text); --pagefind-ui-background: var(--surface);
   --pagefind-ui-border: var(--line); --pagefind-ui-tag: var(--bg); --pagefind-ui-font: inherit; }
 #search mark { background: var(--warn-bg); color: var(--text); }
+
+/* broadcast schedule (templates/schedule.html, static/schedule.js) */
+.sched-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 4px; }
+.sched-day > h2 { margin: 28px 0 8px; font-size: 1.12rem; }
+.sched-rel { text-transform: capitalize; color: var(--accent); }
+.sched-count { font-weight: 400; font-size: .9rem; }
+.sched-list { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+.sched-row { display: grid; grid-template-columns: 7.5em minmax(0, 1fr) auto; gap: 4px 16px; padding: 12px 16px; border-top: 1px solid var(--line); }
+.sched-row:first-child { border-top: 0; }
+.sched-row p { margin: 0; }
+.sched-row.is-over { opacity: .62; }
+.sched-row.is-live { box-shadow: inset 3px 0 0 var(--live); }
+.sched-time { font-variant-numeric: tabular-nums; font-weight: 600; }
+.sched-main { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.sched-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.sched-type { background: var(--bg); border: 1px solid var(--line); color: var(--muted); font-weight: 600; }
+.sched-type.t-plenary { background: var(--accent-bg); border-color: var(--accent-bg); color: var(--accent); }
+.sched-title { margin: 0; font-size: 1rem; line-height: 1.4; font-weight: 600; }
+.sched-desc, .sched-agenda { font-size: .9rem; }
+.sched-agenda summary { cursor: pointer; }
+.sched-agenda ul { margin: 4px 0 0; padding-left: 1.2em; }
+.sched-act { align-self: center; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.sched-player-box { grid-column: 1 / -1; margin-top: 8px; }
+.sched-video { display: block; width: 100%; max-width: 960px; aspect-ratio: 16 / 9; margin: 0 auto; background: #000; border-radius: 8px; }
+.sched-row.is-playing { background: var(--bg); }
+/* Sejmomat's own stream (static/yt.js): YouTube's player, or a box with Play until it is wanted */
+.yt-box { width: 100%; max-width: 960px; aspect-ratio: 16 / 9; margin: 8px auto 0; border-radius: 8px; overflow: hidden; background: #000; }
+.yt-frame { display: block; width: 100%; height: 100%; border: 0; }
+.yt-face { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; height: 100%; padding: 16px;
+  text-align: center; color: #fff; background: radial-gradient(circle at 50% 40%, #1d3a6b, #0b1220 70%); }
+.yt-face-title { margin: 0; font-weight: 700; font-size: 1.1rem; max-width: 40ch; }
+.yt-face-note { margin: 0; font-size: .82rem; color: #c6cbd6; }
+.yt-play { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 22px 0 16px; border: 0; border-radius: 99px;
+  background: #fff; color: #0b1220; font: inherit; font-weight: 700; cursor: pointer; }
+.yt-play svg { width: 22px; height: 22px; }
+.yt-play:hover { filter: brightness(.94); }
+.sched-player { white-space: nowrap; }
+.sched-src { margin-top: 20px; }
+.callout-warn { background: var(--warn-bg); border-color: var(--warn-bg); }
+@media (max-width: 600px) {
+  .sched-row { grid-template-columns: 1fr; padding: 12px; }
+  .sched-act { align-items: stretch; }
+  .sched-act .btn, .sched-act .btn2 { width: 100%; }
+}

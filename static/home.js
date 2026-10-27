@@ -201,8 +201,9 @@ const feedGroups = (events) => {
   return groups;
 };
 
-// ---- MPs: their scores in the chosen topics added up, reasons merged
-const suggestMps = (data, ids, n = 6) => {
+// ---- MPs: their scores in the chosen topics added up, reasons merged; then the
+// best of each club (independents together), so the suggestions are not one side's
+const suggestMps = (data, ids, n = Infinity) => {
   const total = new Map();
   for (const id of ids) {
     for (const row of data.suggested?.[id] || []) {
@@ -216,7 +217,15 @@ const suggestMps = (data, ids, n = 6) => {
       total.set(row.id, t);
     }
   }
-  return [...total.values()].sort((a, b) => b.score - a.score || a.id - b.id).slice(0, n);
+  const clubs = new Set();
+  return [...total.values()].sort((a, b) => b.score - a.score || a.id - b.id)
+    .filter((r) => {
+      const club = data.mps?.[r.id] ? data.mps[r.id].club || "niez." : `#${r.id}`;
+      if (clubs.has(club)) return false;
+      clubs.add(club);
+      return true;
+    })
+    .slice(0, n);
 };
 
 if (typeof module !== "undefined") {
@@ -282,7 +291,23 @@ if (typeof document !== "undefined") (() => {
       const official = v?.playerLink || box.dataset.itv;
       const parts = [];
       box.className = `wg-now broadcast ${s.state === "error" ? "error" : s.state === "none" && !nextDay ? "none" : ""}`.trim();
-      wg?.classList.toggle("live", s.state === "live");
+      wg?.classList.toggle("live", s.state === "live" || s.state === "ours");
+      if (s.state === "ours") {
+        // Sejmomat's own coverage on YouTube (static/yt.js): played in the live box when the page has one
+        box.classList.add("live");
+        parts.push(el("p", { className: "wg-kicker wg-livehead" },
+          el("span", { className: "live-badge" }, el("span", { className: "live-dot", ariaHidden: "true" }), L.liveBadge),
+          el("span", { className: "k", textContent: L.ours })));
+        parts.push(el("p", { className: "wg-title", lang: "pl", textContent: s.yt.title || L.ours }));
+        parts.push(el("p", { className: "wg-sub", textContent: L.oursSub }));
+        const here = document.getElementById("na-zywo");
+        parts.push(el("div", { className: "wg-actions" }, here
+          ? link("#na-zywo", L.watch, false, { className: "btn" })
+          : el("a", { className: "btn", href: window.SejmomatYT.watchUrl(s.yt), target: "_blank", rel: "noopener", ...newTab(L.watch) }, `${L.watch} ↗`)));
+        if (src) src.textContent = L.srcChecked.replace("{when}", formatWhen(checkedAt, LANG));
+        box.replaceChildren(...parts);
+        return;
+      }
       if (s.state === "live") {
         box.classList.add("live");
         parts.push(el("p", { className: "wg-kicker wg-livehead" },
@@ -323,8 +348,7 @@ if (typeof document !== "undefined") (() => {
           parts.push(el("p", { className: "wg-title", textContent: L.scheduled }));
           parts.push(el("p", { className: "wg-sub" }, el("span", { lang: "pl", textContent: v.title }),
             ` · ${L.from} ${hour(v.startDateTime)}. ${L.unconfirmed}`));
-          parts.push(el("div", { className: "wg-actions" },
-            el("a", { className: "btn2", href: official, target: "_blank", rel: "noopener", ...newTab(L.check) }, `${L.check} ↗`)));
+          parts.push(el("div", { className: "wg-actions" }, link(box.dataset.schedule, `${L.schedule} →`, false, { className: "btn2" })));
         } else if (s.state === "next" || nextDay) {
           parts.push(kicker(ICON.tv, L.kicker));
           parts.push(el("p", { className: "wg-title", textContent: L.noneNow }));
@@ -342,8 +366,7 @@ if (typeof document !== "undefined") (() => {
             const name = nextNumber ? (LANG === "en" ? `Sejm sitting ${nextNumber}` : `${nextNumber}. posiedzenie Sejmu`) : L.sittingPlain;
             parts.push(el("p", { className: "wg-sub", textContent: `${L.nextIs}: ${formatDay(nextDay, LANG)} — ${name}. ${L.hourLater}` }));
           }
-          parts.push(el("div", { className: "wg-actions" },
-            el("a", { className: "btn2", href: box.dataset.itv, target: "_blank", rel: "noopener", ...newTab(L.schedule) }, `${L.schedule} ↗`)));
+          parts.push(el("div", { className: "wg-actions" }, link(box.dataset.schedule, `${L.schedule} →`, false, { className: "btn2" })));
         } else {
           parts.push(kicker(ICON.tv, L.kicker));
           parts.push(el("p", { className: "wg-title plain", textContent: L.none }));
@@ -382,7 +405,9 @@ if (typeof document !== "undefined") (() => {
             }
           }
         }
-        render(broadcastState(picked, liveIndex), now);
+        // ours first: when Sejmomat is live on YouTube, that is what the box offers
+        const yt = await window.SejmomatYT?.check(box.dataset.yt, true);
+        render(yt ? { state: "ours", yt } : broadcastState(picked, liveIndex), now);
       } finally {
         checking = false;
       }
@@ -703,9 +728,9 @@ if (typeof document !== "undefined") (() => {
     });
     const list = el("ul", { className: "mp-cards" }, cards);
     body.push(list);
-    // on a phone three to start with, the rest on request
-    const FIRST = 3;
-    if (matchMedia("(max-width: 600px)").matches && cards.length > FIRST) {
+    // one from each club: six to start with (three on a phone), the rest on request
+    const FIRST = matchMedia("(max-width: 600px)").matches ? 3 : 6;
+    if (cards.length > FIRST) {
       cards.slice(FIRST).forEach((c) => { c.hidden = true; });
       const more = el("button", { type: "button", className: "lnk", textContent: L.moreMps.replace("{n}", cards.length - FIRST) });
       more.addEventListener("click", () => {

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_section_nav.html" import section_nav with context %}
 {% from "_macros.html" import print_link, crumbs %}
 {% from "_cards.html" import live_box, new_votes with context %}
 {% set u = upcoming %}
@@ -13,6 +14,7 @@
 {% if u %}
 {% set items = u.groups | sum(attribute="items", start=[]) %}
 <h1>{% if u.under_way %}{{ _("Trwające posiedzenie") }}{% else %}{{ _("Nadchodzące posiedzenie") }}{% endif %}: {{ sitting_name(u.number) }}</h1>
+{{ section_nav("sittings", "nadchodzace-posiedzenie.html") }}
 <p class="tagline">{{ when(u.dates) }} · {{ u.dates | length }} {{ _("dni obrad") }}</p>
 {{ live_box() }}
 {% if u.under_way %}
@@ -50,6 +52,7 @@
 {% if u.note %}<p class="note" lang="pl">{{ u.note }}</p>{% endif %}
 {% else %}
 <h1>{{ _("Nadchodzące posiedzenie") }}</h1>
+{{ section_nav("sittings", "nadchodzace-posiedzenie.html") }}
 <p>{{ _("Porządek obrad następnego posiedzenia nie został jeszcze opublikowany. Sejm ogłasza go zwykle około tygodnia przed posiedzeniem.") }}</p>
 {% endif %}
 

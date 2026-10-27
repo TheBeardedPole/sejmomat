@@ -1,0 +1,17 @@
+{# The pages of a section that the header folds into a submenu (templates/base.html),
+   as a row of links on each of them, so that none is reachable only through the menu.
+   group: "sittings", "mps" or "bills"; here: the page's own link. #}
+{% macro section_nav(group, here) -%}
+{%- set groups = {
+  "sittings": [("posiedzenia.html", _("Wszystkie posiedzenia")), ("nadchodzace-posiedzenie.html", _("Nadchodzące posiedzenie")),
+               ("transmisje.html", _("Harmonogram transmisji"))],
+  "mps": [("poslowie.html", _("Wszyscy posłowie")), ("kluby.html", _("Kluby")), ("interpelacje.html", _("Interpelacje"))],
+  "bills": [("ustawy.html", _("Wszystkie ustawy")), ("tematy.html", _("Tematy")), ("zamrazarka.html", _("Zamrażarka")),
+            ("poprawki-oczekujace.html", _("Poprawki czekające na głosowanie")), ("statystyki.html", _("Statystyki głosowań"))],
+} %}
+<nav class="subnav" aria-label="{{ _("W tej sekcji") }}">
+  {%- for href, label in groups[group] %}
+  <a href="{{ root }}{{ href }}"{% if href == here %} class="current" aria-current="page"{% endif %}>{{ label }}</a>
+  {%- endfor %}
+</nav>
+{%- endmacro %}

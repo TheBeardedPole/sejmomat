@@ -113,13 +113,14 @@
 {% macro live_box() %}
 {% if upcoming %}
 <section class="card live-box" id="na-zywo" hidden data-dates="{{ upcoming.dates | join(',') }}"
+  data-yt="{{ site_root }}srv/youtube-live.php"
   data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/videos/today"
   data-hls="{{ site_root }}static/vendor/hls.light.min.js"
   data-sitting="{{ upcoming.number }}" data-votes="https://api.sejm.gov.pl/sejm/term{{ TERM }}/votings/{{ upcoming.number }}"
   data-root="{{ root }}"
   {#- the agenda, for the item a vote is on: {number: [text, bill page root or "", [prints]]} #}
   data-agenda="{{ upcoming | agenda_json(bill_by_root, printed) | tojson | forceescape }}"
-  data-labels="{{ {"live": _("Obrady Sejmu na żywo"), "today": _("Transmisja obrad dziś od"),
+  data-labels="{{ {"live": _("Obrady Sejmu na żywo"), "ours": _("Sejmomat na żywo"), "today": _("Transmisja obrad dziś od"),
                    "sejm": _("Transmisja na stronie Sejmu"), "failed": _("Nie udało się odtworzyć transmisji. Spróbuj na stronie Sejmu."),
                    "votes": _("Głosowania na żywo"), "latest": _("Ostatnie głosowania"), "no_": _("nr"), "vote": _("Głosowanie nr"), "item": _("Punkt"), "bill": _("Przebieg prac nad projektem"),
                    "prints": _("Druki"), "yes": _("za"), "no": _("przeciw"), "abstain": _("wstrz."), "passed": _("Przyjęto"),
@@ -145,6 +146,7 @@
   .live-earlier li { padding: 4px 0; border-top: 1px solid var(--line); }
   .live-note { font-size: .8rem; color: var(--muted); }
 </style>
+<script src="{{ site_root }}static/yt.js?v={{ static_version('yt.js') }}" defer></script>
 <script src="{{ site_root }}static/live.js?v={{ static_version('live.js') }}" defer></script>
 {% endif %}
 {% endmacro %}

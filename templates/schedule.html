@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% from "_section_nav.html" import section_nav with context %}
+{% from "_macros.html" import crumbs %}
+{% block title %}{{ _("Harmonogram transmisji") }}{% endblock %}
+{% block description %}{{ _("Transmisje z Sejmu: obrady, komisje, podkomisje, zespoły parlamentarne i konferencje — dziś i w najbliższych dniach, z porządkiem i salą.") }}{% endblock %}
+{% block content %}
+{# The schedule comes from the Sejm's API in the reader's browser (static/schedule.js):
+   it changes every day, the site is not rebuilt every day. #}
+{{ crumbs(root, [(root ~ "posiedzenia.html", _("Posiedzenia"))], _("Harmonogram transmisji")) }}
+<h1>{{ _("Harmonogram transmisji") }}</h1>
+{{ section_nav("sittings", "transmisje.html") }}
+<p class="tagline">{{ _("Obrady Sejmu, komisje, podkomisje, zespoły parlamentarne i konferencje — dziś i w najbliższych dniach.") }}</p>
+
+<section id="harmonogram" class="schedule" aria-live="polite"
+  data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/videos"
+  data-root="{{ root }}"
+  data-hls="{{ site_root }}static/vendor/hls.light.min.js"
+  data-yt="{{ site_root }}srv/youtube-live.php"
+  data-days="21"
+  data-committees="{{ committee_names | list | tojson | forceescape }}"
+  data-prints="{{ printed_ranges | tojson | forceescape }}"
+  data-upcoming="{{ upcoming.dates | join(',') if upcoming else '' }}"
+  data-interests="{{ interest_committees | tojson | forceescape }}"
+  data-labels="{{ {"types": {"posiedzenie": _("Obrady Sejmu"), "komisja": _("Komisja"), "podkomisja": _("Podkomisja"),
+                             "konferencja": _("Konferencja"), "inne": _("Zespół i inne")},
+                   "filters": {"all": _("Wszystkie"), "plenary": _("Obrady Sejmu"), "committees": _("Komisje i podkomisje"),
+                               "other": _("Zespoły, konferencje i inne"), "mine": _("Komisje z moich tematów")},
+                   "filterLegend": _("Pokaż"), "today": _("dziś"), "tomorrow": _("jutro"),
+                   "live": _("Na żywo"), "now": _("Teraz"), "nowNone": _("Teraz nic nie jest transmitowane."),
+                   "scheduledNow": _("w planie na teraz, bez potwierdzonego obrazu"),
+                   "ours": _("Sejmomat na żywo"), "oursSub": _("Relacja na żywo z komentarzem i wynikami głosowań"), "oursType": _("Sejmomat"),
+                   "watchHere": _("Oglądaj tutaj"), "playRecording": _("Odtwórz nagranie"), "closePlayer": _("Zamknij odtwarzacz"),
+                   "playFailed": _("Nie udało się odtworzyć tutaj."), "player": _("Odtwarzacz Sejmu"),
+                   "newTab": _("otwiera się w nowej karcie"), "agenda": _("Porządek"), "sittingAgenda": _("Porządek obrad"),
+                   "room": _("Sala"), "none": _("W harmonogramie nie ma transmisji w najbliższych dniach."),
+                   "noneFiltered": _("Nic w wybranym rodzaju transmisji. Zmień filtr powyżej."),
+                   "error": _("Nie udało się pobrać harmonogramu z API Sejmu."), "retry": _("Spróbuj ponownie"),
+                   "src": _("Źródło: API Sejmu RP (transmisje), sprawdzono {when} · czas polski. Harmonogram może się zmieniać."),
+                   "count1": _("1 transmisja"), "countFew": _("{n} transmisje"), "countMany": _("{n} transmisji"),
+                   "loading": _("Wczytujemy harmonogram…")} | tojson | forceescape }}">
+  <p class="muted js-only">{{ _("Wczytujemy harmonogram…") }}</p>
+  <noscript><p>{{ _("Harmonogram wczytuje się z API Sejmu i wymaga JavaScriptu.") }}
+    <a href="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/transmisje.xsp" target="_blank" rel="noopener">{{ _("Transmisje na stronie Sejmu") }} ↗</a></p></noscript>
+</section>
+<p class="muted small"><a href="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/transmisje.xsp" target="_blank" rel="noopener">{{ _("Transmisje na stronie Sejmu") }} ↗</a></p>
+{# home.js has the shared rules (dates, the stream check); its page code does nothing here #}
+<script src="{{ site_root }}static/home.js?v={{ static_version('home.js') }}" defer></script>
+<script src="{{ site_root }}static/yt.js?v={{ static_version('yt.js') }}" defer></script>
+<script src="{{ site_root }}static/schedule.js?v={{ static_version('schedule.js') }}" defer></script>
+{% endblock %}

@@ -3,6 +3,7 @@
 {% block title %}API{% endblock %}
 {% block description %}{{ _("Otwarte API w formacie JSON: głosowania Sejmu powiązane z treścią poprawek, wyniki klubów, głosy imienne, posłowie i zmiany w prawie.") }}{% endblock %}
 {% block content %}
+<div class="prose">
 {{ crumbs(root, [], "API") }}
 <h1>API</h1>
 <p>{{ _("Otwarte API w formacie JSON: głosowania Sejmu powiązane z treścią poprawek, wyniki klubów, głosy imienne, posłowie i zmiany w prawie.") }}
@@ -39,4 +40,5 @@
   <li>{{ _("Treść poprawek i porównania z prawem są wyodrębniane automatycznie; pole linked mówi, czy treść udało się powiązać. Wiążący jest oficjalny druk.") }}</li>
   <li>{{ _("Wersja v1 jest stabilna: pola mogą być dodawane, ale nie usuwane ani zmieniane.") }}</li>
 </ul>
+</div>
 {% endblock %}

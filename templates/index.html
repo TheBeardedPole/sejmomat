@@ -32,12 +32,15 @@
     data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/videos"
     data-itv="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/transmisje.xsp"
     data-upcoming="{{ root }}nadchodzace-posiedzenie.html"
+    data-schedule="{{ root }}transmisje.html"
+    data-yt="{{ site_root }}srv/youtube-live.php"
     data-sitting="{{ u.number if u else '' }}"
     data-sitting-dates="{{ u.dates | join(',') if u else '' }}"
     data-next-day="{{ (u.dates[0] if u and not u.under_way else later.dates[0] if later else '') }}"
     data-next-number="{{ (u.number if u and not u.under_way else later.number if later and later.number else '') }}"
     data-generated="{{ generated.isoformat()[:16] }}"
     data-labels="{{ {"kicker": _("Transmisja"), "liveBadge": _("Na żywo"), "live": _("Trwa transmisja z Sejmu"),
+                     "ours": _("Sejmomat na żywo"), "oursSub": _("Relacja na żywo z komentarzem i wynikami głosowań"),
                      "day": _("{n}. dzień obrad"), "agenda": _("porządek obrad"),
                      "watch": _("Oglądaj transmisję"), "newTab": _("otwiera się w nowej karcie"),
                      "others": _("+{n} inne transmisje"), "othersMany": _("+{n} innych transmisji"), "othersOne": _("+1 inna transmisja"),
@@ -128,7 +131,7 @@
                    "amendDetails": _("Zobacz poprawki"),
                    "sittingUpcoming": _("nadchodzące"), "between": _("Między posiedzeniami"),
                    "mpsTitle": _("Posłowie, którzy mogą Cię zainteresować"),
-                   "mpsText": _("Dobór według udokumentowanej pracy w wybranych tematach: funkcji w komisjach, interpelacji i zapytań oraz podpisanych projektów — nie według poglądów ani klubu."),
+                   "mpsText": _("Po jednym z każdego klubu i koła: kto najwięcej pracuje nad Twoimi tematami — w komisjach, interpelacjach i projektach ustaw."),
                    "mpsNone": _("Za mało danych o pracy posłów w tych tematach, by kogoś zaproponować."),
                    "mpsStart": _("Gdy wybierzesz tematy, zaproponujemy posłów aktywnych w tych obszarach."),
                    "club": _("Klub"), "district": _("okręg"),
@@ -161,6 +164,7 @@
 </section>
 
 {{ share_teaser() }}
+{% if not upcoming %}<script src="{{ site_root }}static/yt.js?v={{ static_version('yt.js') }}" defer></script>{% endif %}{# else with the live box #}
 <script src="{{ site_root }}static/home.js?v={{ static_version('home.js') }}" defer></script>
 {% endblock %}
 

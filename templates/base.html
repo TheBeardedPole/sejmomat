@@ -26,51 +26,12 @@
 <link rel="icon" href="{{ site_root }}static/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="{{ site_root }}favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="apple-touch-icon" href="{{ site_root }}static/apple-touch-icon.png">
+<link rel="stylesheet" href="{{ site_root }}static/header.css?v={{ static_version('header.css') }}">
 <link rel="stylesheet" href="{{ site_root }}static/style.css?v={{ asset_version }}">
 {% block head %}{% endblock %}
 </head>
 <body>
-<header class="top">
-  <div class="wrap">
-    <a class="brand" href="{{ root }}index.html"><span class="logo" role="img" aria-label="Sejmomat"></span></a>
-    {#- the section a page belongs to, marked in the nav: (link, label, path prefixes) #}
-    {%- set sections = [
-      ("posiedzenia.html", _("Posiedzenia"), ("posiedzeni", "glosowanie", "nadchodzace", "porownaj")),
-      ("ustawy.html", _("Ustawy"), ("ustaw", "druk", "zamrazarka", "temat")),
-      ("poprawki.html", _("Poprawki"), ("poprawki", "skuteczne-poprawki")),
-      ("kluby.html", _("Kluby"), ("klub",)),
-      ("komisje.html", _("Komisje"), ("komisj",)),
-      ("poslowie.html", _("Posłowie"), ("posel", "poslowie")),
-      ("interpelacje.html", _("Interpelacje"), ("interpelacje",)),
-    ] %}
-    <nav id="site-nav" aria-label="{{ _("Główna nawigacja") }}">
-      {%- for href, label, prefixes in sections %}
-      <a href="{{ root }}{{ href }}"{% if path.startswith(prefixes) %} aria-current="page"{% endif %}>{{ label }}</a>
-      {%- endfor %}
-    </nav>
-    {%- if path != "szukaj.html" %}
-    <form class="site-search" role="search" action="{{ root }}szukaj.html">
-      <label class="visually-hidden" for="site-q">{{ _("Szukaj") }}</label>
-      <input id="site-q" type="search" name="q" placeholder="{{ _("Szukaj…") }}" autocomplete="off" enterkeyhint="search">
-    </form>
-    {%- endif %}
-    <div class="tools">
-      <div class="lang">
-        {% if lang == "pl" %}<strong>PL</strong> · <a href="{{ alternates.en }}" hreflang="en" lang="en">EN</a>
-        {% else %}<a href="{{ alternates.pl }}" hreflang="pl" lang="pl">PL</a> · <strong>EN</strong>{% endif %}
-      </div>
-      <button type="button" class="theme-switch" aria-label="{{ _("Tryb ciemny") }}" title="{{ _("Tryb ciemny") }}">
-        <svg class="moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1z"/></svg>
-        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor" stroke="none"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
-      </button>
-    </div>
-    {#- shown only on narrow screens (with scripts): the nav folds away behind it #}
-    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      <span>{{ _("Menu") }}</span>
-    </button>
-  </div>
-</header>
+{% include "_header.html" %}
 <main class="wrap"{% block main_attrs %}{% endblock %}>
 {% block content %}{% endblock %}
 </main>
@@ -82,6 +43,7 @@
   <a href="https://github.com/TheBeardedPole/sejmomat">{{ _("Kod źródłowy") }}</a> (GNU GPL v3) ·
   ☕ {{ _("Wesprzyj projekt") }}: <a href="https://buycoffee.to/adamkoscielak">buycoffee.to/adamkoscielak</a>
 </footer>
+<script src="{{ site_root }}static/header.js?v={{ static_version('header.js') }}" defer></script>
 <script src="{{ site_root }}static/app.js?v={{ asset_version }}" defer></script>
 </body>
 </html>

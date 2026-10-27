@@ -1,0 +1,135 @@
+/* The site's header (templates/_header.html): logo, sections with their submenus,
+   search, language and theme, and the Menu fold on narrow screens (static/header.js).
+   Loaded by every page of the site and by Sejmdle (games/sejmdle), which has its own
+   stylesheet otherwise: so the rules here stay inside .top and carry what they need. */
+.top, .top * { box-sizing: border-box; }
+.top { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.55; }
+.top .wrap { max-width: 1080px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+.top a { color: var(--accent); text-decoration: none; }
+.top a:hover { text-decoration: underline; }
+.top nav { display: flex; flex-wrap: wrap; }
+.top nav a { color: var(--muted); }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.top { border-bottom: 1px solid var(--line); background: var(--surface); }
+/* From 1060px, where the header is one row, it stays at the top while the page scrolls
+   (long bill and vote pages keep search and the sections at hand); links to a place on
+   the page stop below it. On narrower screens it is two rows and scrolls away. */
+@media (min-width: 1060px) {
+  .top { position: sticky; top: 0; z-index: 20; }
+  html { scroll-padding-top: 76px; }
+}
+@media print { .top { position: static; } }
+.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding-top: 8px; padding-bottom: 8px; }
+.brand { display: block; line-height: 0; }
+.brand .logo { display: block; height: 22px; aspect-ratio: 1267 / 190; background: var(--accent);
+  -webkit-mask: url(logo.svg) center / contain no-repeat; mask: url(logo.svg) center / contain no-repeat; }
+.top .tools { display: flex; align-items: center; gap: 12px; flex: none; white-space: nowrap; }
+.theme-switch { display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 1px solid var(--line);
+  border-radius: 99px; background: var(--bg); color: var(--muted); cursor: pointer; }
+.theme-switch:hover { color: var(--text); }
+.theme-switch svg { width: 18px; height: 18px; }
+/* show the moon in light mode (switch to dark) and the sun in dark mode */
+.theme-switch .sun { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-switch .sun { display: block; }
+  :root:not([data-theme="light"]) .theme-switch .moon { display: none; }
+}
+:root[data-theme="dark"] .theme-switch .sun { display: block; }
+:root[data-theme="dark"] .theme-switch .moon { display: none; }
+/* the header: one compact row (logo, sections, search, language and theme); below
+   1060px the sections fold behind the "Menu" button (static/header.js), and without
+   scripts they simply wrap */
+.top nav { font-size: .92rem; gap: 2px 14px; }
+.top nav a[aria-current="page"] { color: var(--text); font-weight: 600; }
+/* sections with their pages folded under them (templates/_header.html, static/header.js): a
+   dropdown on hover or with the ▾ button from 1060px; below, listed open in the menu */
+.nav-list { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 14px; margin: 0; padding: 0; list-style: none; }
+.nav-item { position: relative; display: flex; align-items: center; gap: 0; }
+.nav-item.current > a { color: var(--text); font-weight: 600; }
+.sub-toggle { display: inline-grid; place-items: center; width: 22px; height: 26px; padding: 0; margin-left: 1px; border: 0; border-radius: 4px;
+  background: none; color: var(--muted); cursor: pointer; }
+.sub-toggle svg { width: 14px; height: 14px; transition: transform .15s; }
+.sub-toggle:hover { color: var(--text); }
+.nav-item.open > .sub-toggle svg { transform: rotate(180deg); }
+.sub { display: none; position: absolute; top: calc(100% + 8px); left: -12px; z-index: 30; min-width: 15rem; margin: 0; padding: 6px;
+  list-style: none; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--float-shadow, 0 6px 24px rgb(0 0 0 / .2)); }
+.sub::before { content: ""; position: absolute; left: 0; right: 0; top: -10px; height: 10px; }   /* the gap the pointer crosses */
+.sub a { display: block; padding: 8px 12px; border-radius: 6px; color: var(--text); white-space: nowrap; }
+.sub a:hover { background: var(--bg); text-decoration: none; }
+.sub a[aria-current="page"] { font-weight: 600; color: var(--accent); }
+.nav-item.open > .sub { display: block; }
+@media (hover: hover) and (min-width: 1060px) { .nav-item:hover > .sub { display: block; } }
+@media (prefers-reduced-motion: reduce) { .sub-toggle svg { transition: none; } }
+/* Sejmdle: the daily games, set apart from the sections */
+.nav-game { display: inline-flex; align-items: center; gap: 6px; flex: none; height: 32px; padding: 0 14px 0 12px; border-radius: 99px;
+  background: var(--accent); color: var(--on-accent, var(--on-fill, #fff)) !important; font-size: .92rem; font-weight: 700; white-space: nowrap; }
+.nav-game:hover { text-decoration: none; filter: brightness(1.08); }
+.nav-game svg { width: 13px; height: 13px; fill: currentColor; }
+.nav-lang { display: none !important; }
+.top nav { align-items: center; }
+.site-search { flex: 0 1 190px; min-width: 120px; margin-left: auto; }
+@media (min-width: 1060px) { .top .wrap { flex-wrap: nowrap; } .top nav, .top .nav-list { flex-wrap: nowrap; white-space: nowrap; } }
+.site-search input { width: 100%; font: inherit; font-size: .9rem; padding: 5px 12px 5px 32px; border: 1px solid var(--line); border-radius: 99px;
+  color: var(--text); background: var(--bg) no-repeat 11px 50% / 14px; appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a8a8f' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='M15.5 15.5 21 21'/%3E%3C/svg%3E"); }
+.site-search input::placeholder { color: var(--muted); }
+.site-search input:focus { border-color: var(--accent); }
+.nav-toggle { display: none; align-items: center; gap: 6px; font: inherit; font-size: .9rem; font-weight: 600; min-height: 36px; padding: 4px 12px;
+  border: 1px solid var(--line); border-radius: 99px; background: var(--bg); color: var(--text); cursor: pointer; }
+.nav-toggle svg { width: 18px; height: 18px; }
+@media (max-width: 1059px) {
+  .js .nav-toggle { display: inline-flex; }
+  .js .top nav { display: none; order: 10; flex-basis: 100%; flex-direction: column; gap: 0; padding: 4px 0 6px; border-top: 1px solid var(--line); font-size: 1rem; }
+  .js .top.nav-open nav { display: flex; }
+  .js .top nav a { padding: 10px 2px; border-bottom: 1px solid var(--line); }
+  .js .top nav a:last-child { border-bottom: 0; }
+  /* the menu: every section with its pages under it, no dropdowns */
+  .js .top nav { align-items: stretch; }
+  .js .top .nav-list { flex-direction: column; align-items: stretch; gap: 0; }
+  .js .top .nav-item { flex-direction: column; align-items: stretch; }
+  .js .top .sub-toggle { display: none; }
+  .js .top .sub { display: block; position: static; min-width: 0; padding: 0 0 0 16px; border: 0; border-radius: 0; box-shadow: none; background: none; }
+  .js .top .sub::before { display: none; }
+  .js .top .sub a { padding: 10px 2px; border-radius: 0; border-bottom: 1px solid var(--line); color: var(--muted); }
+}
+@media (max-width: 640px) {
+  .site-search { order: 9; flex: 1 1 100%; margin-left: 0; }
+  .js .top .tools { margin-left: auto; }
+  /* icon only, so logo, language, theme and menu share one line; the word stays for screen readers */
+  .nav-toggle { padding: 4px 9px; }
+  .nav-toggle span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}
+
+/* Search folds into a magnifier button (with scripts): opened, the field takes the place
+   of the sections (and, on phones, of the logo and Sejmdle), so the header stays one row */
+.search-toggle { display: none; place-items: center; width: 32px; height: 32px; padding: 0; border: 1px solid var(--line);
+  border-radius: 99px; background: var(--bg); color: var(--muted); cursor: pointer; }
+.search-toggle:hover { color: var(--text); }
+.search-toggle svg { width: 16px; height: 16px; }
+.js .site-search { display: flex; flex: none; min-width: 0; margin-left: auto; }
+.js .site-search input { display: none; }
+.js .site-search .search-toggle { display: grid; }
+.js .top.search-open .site-search { flex: 1 1 auto; max-width: 460px; }
+.js .top.search-open .site-search input { display: block; }
+.js .top.search-open .site-search .search-toggle { display: none; }
+.js .top.search-open nav { display: none !important; }
+@media (max-width: 640px) {
+  .js .site-search { order: 0; flex: none; margin-left: auto; }
+  .js .top.search-open .site-search { flex: 1 1 auto; max-width: none; }
+  .js .top.search-open .brand, .js .top.search-open .nav-game { display: none; }
+  .js .top .tools { margin-left: 0; }
+}
+/* Phones: one row of logo, search, Sejmdle, theme and Menu; the language switch is in
+   the menu, and on the narrowest screens Sejmdle is its icon (its name stays for screen
+   readers) */
+@media (max-width: 640px) {
+  .js .top .wrap { gap: 8px; }
+  .js .brand .logo { height: 18px; }
+  .js .top .lang { display: none; }
+  .js .top .nav-lang { display: flex !important; }
+  .js .nav-game { padding: 0 11px 0 9px; font-size: .85rem; }
+}
+@media (max-width: 380px) {
+  .js .nav-game { width: 32px; padding: 0; justify-content: center; }
+  .js .nav-game-text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}

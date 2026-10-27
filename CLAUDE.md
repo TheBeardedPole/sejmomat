@@ -221,6 +221,27 @@ Live on sejmomat.pl:
   per video. Uses `livestream.py --fast --transcript` (speakers from
   data/speeches, no OCR; file output at constant quality, finished properly).
 
+- **Header** (`templates/_header.html`, `static/header.css`, `static/header.js`): one row
+  at every width; Posiedzenia and Posłowie with submenus (hover, or their ▾ button), search
+  folded into a button, Sejmdle as a pill beside it; sticky from 1060px; on phones the
+  language switch is in the menu. The same partial is put into Sejmdle's page by the build
+  (marker `<!-- sejmomat-header -->` in `games/sejmdle/index.html`). Pages of a section carry
+  a row of links to the others (`templates/_section_nav.html`). Paragraphs are capped at 75
+  characters only inside `.prose` (method, privacy, API).
+- **Personalised home page** (`static/home.js`, `dane/zainteresowania.json` from
+  `sejmomat/interests.py`, interests in `data/interests.json`, 11 of them): was / now / next,
+  the topic survey (kept in the browser), cards, the feed by sitting, one suggested MP per club.
+- **Broadcast schedule** (`transmisje.html`, `static/schedule.js`): the Sejm's API in the
+  browser, three weeks ahead, filters, live and recorded broadcasts played on the page.
+- **Sejmomat's own YouTube stream** (`server/youtube-live.php`, copied to `/srv/`, checks
+  youtube.com/@Sejmomat/live at most once a minute; `static/yt.js`): when it is live it takes
+  the Sejm stream's place on the home page, the upcoming sitting page and the schedule. It
+  starts by itself only with consent ("Zgadzam się", consent version 3/4), else a Play box.
+- **Speaker cards in the stream** start when the speaker begins: the name caption is read by a
+  second ffmpeg `LOOKAHEAD` (25 s) ahead of the picture and backdated by `CAPTION_LAG` (8 s,
+  measured with `tools/caption_lag.py`: median 12 s over 73 speeches). Reading the caption
+  inside the picture's ffmpeg did not find speakers; `--no-lookahead` reads level with it.
+
 Waiting on the owner:
 
 - **Posting day summaries** (no social media accounts yet) (`.github/workflows/social.yml`): to X

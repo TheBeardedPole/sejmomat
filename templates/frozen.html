@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_section_nav.html" import section_nav with context %}
 {% from "_macros.html" import tag_chips, crumbs %}
 {% set bills = frozen.bills %}
 {% set club_pages = club_rows | map(attribute="id") | list %}
@@ -22,6 +23,7 @@
   #frozen-table .desc { font-size: .88rem; }
 </style>
 <h1>{{ _("Zamrażarka") }}</h1>
+{{ section_nav("bills", "zamrazarka.html") }}
 <p>{{ _("Projekty ustaw i uchwał, które utknęły przed drugim czytaniem: czekają, aż Marszałek Sejmu skieruje je do pierwszego czytania albo wpisze pierwsze lub drugie czytanie do porządku obrad, albo aż komisja się nimi zajmie lub przygotuje sprawozdanie. Liczy się czas od ostatniego kroku w przebiegu prac.") }}</p>
 
 <div class="grid">

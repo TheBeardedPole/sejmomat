@@ -629,6 +629,33 @@ EN = {
     "nadchodzące": "upcoming", "Między posiedzeniami": "Between sittings",
     "Gdy wybierzesz tematy, zaproponujemy posłów aktywnych w tych obszarach.": "Once you pick topics, we will suggest MPs active in them.",
     "Dlaczego może Cię zainteresować?": "Why you may want to follow them", "Pokaż kolejnych: {n}": "Show {n} more",
+    "Po jednym z każdego klubu i koła: kto najwięcej pracuje nad Twoimi tematami — w komisjach, interpelacjach i projektach ustaw.":
+        "One from each club and group: whoever works most on your topics — in committees, interpellations and bills.",
+    # broadcast schedule (transmisje.html, static/schedule.js)
+    "Transmisje z Sejmu: obrady, komisje, podkomisje, zespoły parlamentarne i konferencje — dziś i w najbliższych dniach, z porządkiem i salą.":
+        "Broadcasts from the Sejm: sittings, committees, subcommittees, parliamentary groups and conferences — today and in the coming days, with the agenda and room.",
+    "Obrady Sejmu, komisje, podkomisje, zespoły parlamentarne i konferencje — dziś i w najbliższych dniach.":
+        "Sittings of the Sejm, committees, subcommittees, parliamentary groups and conferences — today and in the coming days.",
+    "Obrady Sejmu": "Sejm sittings", "Podkomisja": "Subcommittee", "Konferencja": "Conference", "Zespół i inne": "Group and other",
+    "Komisje i podkomisje": "Committees and subcommittees", "Zespoły, konferencje i inne": "Groups, conferences and other",
+    "Komisje z moich tematów": "Committees in my topics", "dziś": "today", "jutro": "tomorrow", "Teraz": "Now",
+    "Teraz nic nie jest transmitowane.": "Nothing is on air now.",
+    "w planie na teraz, bez potwierdzonego obrazu": "scheduled for now, no picture confirmed",
+    "Oglądaj tutaj": "Watch here", "Odtwórz nagranie": "Play the recording", "Zamknij odtwarzacz": "Close the player",
+    "Nie udało się odtworzyć tutaj.": "Could not play it here.", "Odtwarzacz Sejmu": "Sejm's player", "Porządek": "Agenda", "Sala": "Room",
+    "W harmonogramie nie ma transmisji w najbliższych dniach.": "No broadcasts are scheduled for the coming days.",
+    "Nic w wybranym rodzaju transmisji. Zmień filtr powyżej.": "Nothing of that kind. Change the filter above.",
+    "Nie udało się pobrać harmonogramu z API Sejmu.": "Could not get the schedule from the Sejm's API.",
+    "Źródło: API Sejmu RP (transmisje), sprawdzono {when} · czas polski. Harmonogram może się zmieniać.":
+        "Source: the Sejm's API (broadcasts), checked {when} · Polish time. The schedule may change.",
+    "1 transmisja": "1 broadcast", "{n} transmisje": "{n} broadcasts", "{n} transmisji": "{n} broadcasts",
+    "Wczytujemy harmonogram…": "Loading the schedule…",
+    "Harmonogram wczytuje się z API Sejmu i wymaga JavaScriptu.": "The schedule loads from the Sejm's API and needs JavaScript.",
+    "Transmisje na stronie Sejmu": "Broadcasts on the Sejm's website",
+    "więcej": "more",
+    "Sejmomat na żywo": "Sejmomat live", "Relacja na żywo z komentarzem i wynikami głosowań": "Live coverage with commentary and vote results",
+    "Sejmomat": "Sejmomat",
+    "Wszyscy posłowie": "All MPs", "W tej sekcji": "In this section",
     "Następne posiedzenie": "Next sitting",
     "Kalendarz posiedzeń": "Calendar of sittings",
     "Porządek obrad nie został jeszcze opublikowany.": "The agenda has not been published yet.",
