@@ -250,6 +250,9 @@ Live on sejmomat.pl:
   constituency its most active coalition and opposition speakers), today's votes, two more.
   It ends when the shot changes or a speaker is named. Tested on 22 October 2026
   (16:29:45–17:05:27). `python tools/cards_pdf.py` prints every card and comparison.
+- **Posłowie z regionu** (`facts.regions`): a card per constituency with its MPs and their
+  speeches, five a page; shown once per speech while one of them speaks, before their club's
+  cards. Captions are snapshotted every second (some are readable for little more than one).
 
 Waiting on the owner:
 

@@ -219,7 +219,27 @@ def facts(ctx, today=None):
     groups = [[c for c in out if c["kind"] == "mp"], [c for c in out if c["kind"] == "fact" and not c.get("stats")],
               [c for c in out if c["kind"] == "fact" and c.get("stats")]]
     mixed = [c for row in zip_longest(*groups) for c in row if c]
-    return spread(mixed, tops) + per_club + comparisons(ctx, mps)
+    return spread(mixed, tops) + per_club + comparisons(ctx, mps) + regions(mps)
+
+
+def regions(mps):
+    """Posłowie z regionu: for each constituency its MPs, club by club, the most active first;
+    shown while one of them speaks (tools/livestream.py), in pages when there are many.
+    A card: {"kind": "region", "title", "district", "num", "mps": [ids], "rows": [{"mp", "name",
+    "club", "value"}], "unit"}."""
+    out = []
+    for num in sorted({r["mp"].get("districtNum") for r in mps if r["mp"].get("districtNum")}):
+        here = [r for r in mps if r["mp"].get("districtNum") == num]
+        sizes = {}
+        for r in here:
+            sizes[r["mp"].get("club") or "niez."] = sizes.get(r["mp"].get("club") or "niez.", 0) + 1
+        here.sort(key=lambda r: (-sizes[r["mp"].get("club") or "niez."], r["mp"].get("club") or "", -_speeches(r)))
+        name = here[0]["mp"].get("districtName") or ""
+        out.append({"kind": "region", "topic": "region", "title": f"Posłowie z okręgu {num} · {name}", "district": name, "num": num,
+                    "mps": [r["mp"]["id"] for r in here], "unit": "wystąpień",
+                    "rows": [{"mp": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club") or "niez.",
+                              "value": f"{_speeches(r)} wyst."} for r in here]})
+    return out
 
 
 def _num(n):

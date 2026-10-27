@@ -366,6 +366,8 @@ class Overlay:
 
     # ---- Top 5 cards: five MPs, the rows coming in one after another
     def top5_rows(self, card):
+        """A Top 5's rows, or a region card's (no ranking there: a dot in the club's colour)."""
+        ranked = card.get("kind") != "region"
         key = ("rows", id(card))
         if key in self._cards:
             return self._cards[key]
@@ -375,9 +377,12 @@ class Overlay:
             im = Image.new("RGBA", (528, 50), (0, 0, 0, 0))
             d = ImageDraw.Draw(im)
             d.rounded_rectangle((0, 0, 527, 49), 10, fill=(255, 255, 255, 18 if i % 2 else 30))
-            badge = medals[i] if i < 3 else (90, 104, 128)
-            d.ellipse((8, 9, 40, 41), fill=badge + (255,))
-            d.text((24, 25), str(i + 1), font=self.font(18, True), fill=(12, 20, 36) if i < 3 else "white", anchor="mm")
+            if ranked:
+                badge = medals[i] if i < 3 else (90, 104, 128)
+                d.ellipse((8, 9, 40, 41), fill=badge + (255,))
+                d.text((24, 25), str(i + 1), font=self.font(18, True), fill=(12, 20, 36) if i < 3 else "white", anchor="mm")
+            else:
+                d.ellipse((14, 15, 34, 35), fill=club_colour(r["club"]) + (255,))
             photo = self.photo(r["mp"])
             if photo:
                 pw, ph = 34, 42
@@ -398,10 +403,21 @@ class Overlay:
         self._cards[key] = rows
         return rows
 
-    def top5(self, card, t, length):
+    def region(self, card, t, length):
+        """Posłowie z regionu: a Top 5's look, its MPs five at a time, the pages in turn (the
+        card slides in and out once; each page's rows come in as a Top 5's do)."""
+        pages = [card["rows"][i:i + 5] for i in range(0, len(card["rows"]), 5)] or [[]]
+        per = length / len(pages)
+        page = min(len(pages) - 1, int(t // per))
+        key = ("region-page", id(card), page)
+        if key not in self._cards:
+            self._cards[key] = {**card, "rows": pages[page], "_page": f"{page + 1}/{len(pages)}" if len(pages) > 1 else ""}
+        return self.top5(self._cards[key], t, length, rows_t=t - page * per if page else t)
+
+    def top5(self, card, t, length, rows_t=None):
         key = ("top5", id(card))
         if key not in self._cards:
-            width, h = 560, 44 + 12 + len(card["rows"]) * 54 + 8   # a small club's has fewer rows
+            width, h = 560, 44 + 12 + max(len(card["rows"]), 5 if card.get("kind") == "region" else 0) * 54 + 8   # a small club's has fewer rows
             im = Image.new("RGBA", (width, h), (0, 0, 0, 0))
             d = ImageDraw.Draw(im)
             d.rounded_rectangle((0, 0, width - 1, h - 1), 16, fill=(12, 20, 36, 236))
@@ -415,13 +431,16 @@ class Overlay:
             badge = self.logo_badge(card.get("for_club"), 36) if card.get("for_club") else None
             if badge:
                 im.alpha_composite(badge, (width - 50, 4))
+            elif card.get("kind") == "region":
+                d.text((width - 24, 22), card.get("_page") or "", font=self.font(17, True), fill=YELLOW, anchor="rm")
             else:
                 d.text((width - 50, 12), "TOP", font=self.font(18, True), fill=YELLOW)
             self._cards[key] = im
         base = self._cards[key].copy()
         # each row slides in from the right, one after another
+        rt = t if rows_t is None else rows_t
         for i, row in enumerate(self.top5_rows(card)):
-            k = clamp((t - 0.5 - i * 0.18) / 0.35)
+            k = clamp((rt - 0.5 - i * 0.18) / 0.35)
             if k <= 0:
                 continue
             x = 16 + round((1 - ease_out_back(k)) * 300)
@@ -448,7 +467,8 @@ class Overlay:
         """The card at time t (seconds) of its turn on screen: (image, x, y), or None.
         Between its entrance (number counted, photo in, shine gone, rows in: STILL s)
         and its exit a card does not move, so that part is drawn once."""
-        still = STILL <= t <= length - 0.6
+        # still between its entrance and its exit, except a card in pages (Posłowie z regionu)
+        still = STILL <= t <= length - 0.6 and card.get("kind") != "region"
         key = (id(card), length)
         if still and key in self._stills:
             return self._stills[key]
@@ -460,6 +480,8 @@ class Overlay:
         return out
 
     def _card(self, card, t, length):
+        if card.get("kind") == "region":
+            return self.region(card, t, length)
         if card.get("kind") == "top5":
             return self.top5(card, t, length)
         base = self.card_base(card).copy()

@@ -503,7 +503,9 @@ def main():
     compares = [f for f in facts if f.get("kind") == "compare"]
     compares = [c for pair in zip_longest([c for c in compares if c.get("topic") == "clubs"],
                                           [c for c in compares if c.get("topic") != "clubs"]) for c in pair if c]
-    facts = [f for f in facts if not f.get("for_club") and f.get("kind") != "compare"]
+    # Posłowie z regionu: each MP's constituency, shown while they speak (with their club's cards)
+    region_of = {mp: f for f in facts if f.get("kind") == "region" for mp in f.get("mps", [])}
+    facts = [f for f in facts if not f.get("for_club") and f.get("kind") not in ("compare", "region")]
     every, first, club_after, promos = FACT_EVERY, 0, CLUB_AFTER, PROMOS
     if args.demo:
         # the liveliest cards first, one after another, from the start of the recording
@@ -692,8 +694,14 @@ def main():
         speech), the next of their club's cards; otherwise the next of the general turn."""
         if slot not in picks:
             sp, at = speaker["card"], speaker["at"]
+            # their constituency's MPs first (once a speech), then their club's cards in the club's turn
+            region = region_of.get(sp.get("mp")) if sp else None
             pool = by_club.get(sp["club"]) if sp else None
-            if pool and club_after <= (clock - at).total_seconds() < SPEAKER_BAR and not (speaker["until"] and clock > speaker["until"]):
+            speaking = sp and club_after <= (clock - at).total_seconds() < SPEAKER_BAR and not (speaker["until"] and clock > speaker["until"])
+            if speaking and region and ("region", at) not in turns:
+                turns[("region", at)] = True
+                picks[slot] = region
+            elif speaking and pool:
                 i = turns[sp["club"]] = turns.get(sp["club"], -1) + 1
                 picks[slot] = pool[i % len(pool)]
             else:
@@ -809,7 +817,10 @@ def main():
                 begun = ts - into
                 if not (showing["speaker"] and showing["start"] <= begun < showing["start"] + SPEAKER_SECONDS):
                     c = pick(slot, clock)
-                    length = min(TOP_SECONDS if c.get("kind") == "top5" else FACT_SECONDS, every - 1)
+                    if c.get("kind") == "region":   # five MPs a page, five seconds a page
+                        length = min(max(10, 5 * -(-len(c["rows"]) // 5)), 30, every - 1)
+                    else:
+                        length = min(TOP_SECONDS if c.get("kind") == "top5" else FACT_SECONDS, every - 1)
                     if into < length:
                         card = overlay.card(c, into, length)
                         showing["until"] = begun + length

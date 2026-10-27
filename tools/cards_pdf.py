@@ -48,6 +48,9 @@ def still(at):
 
 def when_shown(c):
     """What the card is and when the stream shows it, in a line or two (Polish, like the cards)."""
+    if c.get("kind") == "region":
+        return ("Posłowie z regionu",
+                f"Gdy mówi poseł z tego okręgu, raz na wystąpienie, od {CLUB_AFTER}. sekundy; po pięciu posłów, 5 s na stronę.")
     if c.get("kind") == "compare":
         return ("Porównanie (przerwa)",
                 f"W przerwie obrad, na zmianę z porządkiem obrad i głosowaniami dnia: {CMP_SECONDS} s każde.")
