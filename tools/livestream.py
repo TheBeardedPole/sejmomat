@@ -53,6 +53,7 @@ from sejmomat.model import link_amendments  # noqa: E402  (what an amendment cha
 from live_overlay import H, W, Overlay  # noqa: E402
 from live_speaker import BAND, Recogniser, load_mps, read  # noqa: E402
 from sejmomat.facts import spread  # noqa: E402
+from sejmomat.social import club_short  # noqa: E402
 
 API = "https://api.sejm.gov.pl/sejm/term10"
 WARSAW = ZoneInfo("Europe/Warsaw")
@@ -259,6 +260,10 @@ SHORT_TOPICS = [
     (r"reasumpcj", "powtórzenie głosowania"),
     (r"odrzucenie informacji", "odrzucenie informacji"),
 ]
+
+
+# the chair's club, short, for the bar's strip
+CHAIR_CLUB = {"Konfederacja": "Konf.", "Konfederacja_KP": "Konf. KP", "Polska2050": "Polska 2050", "RozwojPlus": "Rozwój Plus"}
 
 
 def short_topic(topic):
@@ -535,10 +540,10 @@ def main():
     # clubs from the list; MPs drawn at random each time from the pool (sejmomat/facts.py, mp_compare)
     compares = [f for f in facts if f.get("kind") == "compare" and f.get("topic") == "clubs"]
     pool = next((f["mps"] for f in facts if f.get("kind") == "mp_pool"), [])
-    drawn = {}   # the pair drawn for a slot, kept for that slot (and its drawing cached by the overlay)
+    mp_pairs = {}   # the pair drawn for a slot, kept for that slot (and its drawing cached by the overlay)
 
     def mp_pair(slot):
-        if slot not in drawn:
+        if slot not in mp_pairs:
             from sejmomat.facts import mp_compare
             spoke = [m for m in pool if m["speeches"]]
             towns = sorted({m["num"] for m in spoke if any(x["num"] == m["num"] and x["tag"] != m["tag"] for x in spoke)})
@@ -549,10 +554,10 @@ def main():
             o = random.choice([m for m in spoke if m["num"] == num and m["tag"] == "Opozycja"])
             for mp in (k["id"], o["id"]):
                 overlay.photo(mp)
-            if len(drawn) > 20:
-                drawn.clear()
-            drawn[slot] = mp_compare(k, o)
-        return drawn[slot]
+            if len(mp_pairs) > 20:
+                mp_pairs.clear()
+            mp_pairs[slot] = mp_compare(k, o)
+        return mp_pairs[slot]
     # Posłowie z regionu: each MP's constituency, shown while they speak (with their club's cards)
     region_of = {mp: f for f in facts if f.get("kind") == "region" for mp in f.get("mps", [])}
     facts = [f for f in facts if not f.get("for_club") and f.get("kind") not in ("compare", "region", "mp_pool")]
@@ -621,6 +626,7 @@ def main():
               "speakers: captions read level with the picture (cards start when the caption does)", flush=True)
     speaker = {"card": None, "at": None, "mp": None, "until": None}
     pending = []   # speakers recognised ahead of the picture: (moment they begin, update), applied when it gets there
+    pending_chair, chair, chair_now = [], {}, {"text": None}   # who runs the sitting, as the picture shows it
     breaks = []    # [start, end or None] by the picture's clock: the comparisons' time (read ahead, so known in time)
     refs = []
     for path in BREAK_REFS:
@@ -703,7 +709,8 @@ def main():
             for i in todo:
                 path = work / f"band-{i}.png"
                 done = i
-                m = recogniser.match(read(path))
+                text = read(path)
+                m = recogniser.match(text)
                 path.unlink(missing_ok=True)
                 path.with_suffix(".ocr.png").unlink(missing_ok=True)
                 thumb = work / f"thumb-{i}.png"
@@ -711,6 +718,17 @@ def main():
                     follow_break(start + timedelta(seconds=lead + SNAP_EVERY * i), wide_shot(thumb))
                 thumb.unlink(missing_ok=True)
                 if not m:
+                    continue
+                # the chair: their caption says "Marszałek / Wicemarszałek Sejmu"; who runs the sitting, not a speaker
+                if m and re.search(r"marsza[łl]ek", text, re.I):
+                    role = "wicemarszałek" if re.search(r"wicemarsza", text, re.I) else "marszałek"
+                    seen_chair = start + timedelta(seconds=lead + SNAP_EVERY * i) if ahead else now["clock"]
+                    if chair.get("mp") != m["id"]:
+                        club = CHAIR_CLUB.get(m.get("club"), club_short(m.get("club") or ""))
+                        print(f"{seen_chair:%H:%M:%S} obrady prowadzi: {role} {m['name']} ({club})", flush=True)
+                        with lock:
+                            pending_chair.append((seen_chair, {"mp": m["id"], "text": f"Obrady prowadzi: {role} {m['name']} · {club}"}))
+                        chair["mp"] = m["id"]
                     continue
                 # the moment of that picture: read ahead, from its number (that ffmpeg writes one
                 # every SNAP_EVERY seconds of the stream); from the picture itself, the picture's
@@ -817,6 +835,8 @@ def main():
             # a speaker recognised ahead: theirs once the picture reaches the moment they began
             while pending and pending[0][0] <= clock:
                 speaker.update(pending.pop(0)[1])
+            while pending_chair and pending_chair[0][0] <= clock:
+                chair_now["text"] = pending_chair.pop(0)[1]["text"]
             on_break = next((b for b in breaks if b[0] <= clock and (b[1] is None or clock < b[1])), None)
         # a break: comparisons over the hall, nothing else (not within BREAK_NO_VOTE of a vote)
         since_vote = (clock - warsaw(shown[-1]["date"])).total_seconds() if shown else 1e9
@@ -847,10 +867,14 @@ def main():
         if shown and not recent:
             # a debate or a break: the vote below is an earlier one
             vote = textwrap.shorten(f"Ostatnie głosowanie ({shown[-1]['date'][11:16]}): {vote.replace('Głosowanie ', '')}", 112, placeholder="…")
-        if not recent:
-            # no votes going on: the bar names who is speaking (the agenda item is hard to tell then)
-            sp = speaker["card"]
-            if sp and 0 <= (clock - speaker["at"]).total_seconds() < SPEAKER_BAR and not (speaker["until"] and clock > speaker["until"]):
+        sp = speaker["card"]
+        speaking = bool(sp) and 0 <= (clock - speaker["at"]).total_seconds() < SPEAKER_BAR and not (speaker["until"] and clock > speaker["until"])
+        # in a block of votes, someone named after the latest one has the floor (a formal motion,
+        # a question before the vote): they are shown, until the next vote
+        floor = bool(recent) and speaking and speaker["at"] > warsaw(shown[-1]["date"])
+        if not recent or floor:
+            # no votes going on, or a speaker between them: the bar names who is speaking
+            if speaking:
                 stats = dict(sp["stats"])
                 item, chip, note = sp["name"], sp["club"], sp.get("now")
                 topic = (f"Na mównicy od {speaker['at']:%H:%M} · {sp['value']} wystąpień w kadencji · "
@@ -858,7 +882,7 @@ def main():
             else:
                 item, topic = title, "Mówca pojawi się tu, gdy transmisja go przedstawi"
         panel = card = None
-        if recent:
+        if recent and not floor:
             head, pages = diff_panel(shown[-1])
             if pages:
                 each = max(PAGE_MIN, min(PAGE_SECONDS, PAGE_CYCLE / len(pages)))
@@ -873,7 +897,7 @@ def main():
             since = ts - showing["start"] if showing["speaker"] else -1
             if speaker["card"] and 0 <= since < SPEAKER_SECONDS:
                 card = overlay.card(speaker["card"], since, SPEAKER_SECONDS)
-            elif facts:
+            elif facts and not floor:
                 # a debate, a break: a fun-fact card, one every FACT_EVERY seconds for FACT_SECONDS;
                 # one whose turn comes while the speaker's card is up is left out, not cut short
                 slot, into = int((ts - first) // every), (ts - first) % every
@@ -887,7 +911,7 @@ def main():
                     if into < length:
                         card = overlay.card(c, into, length)
                         showing["until"] = begun + length
-        return overlay.frame(item, topic, vote, panel, card, chip, note, clock=f"{clock:%H:%M}")
+        return overlay.frame(item, topic, vote, panel, card, chip, note, clock=f"{clock:%H:%M}", chair=chair_now["text"])
 
     if args.fast and args.out in ("preview", "rtmp"):
         sys.exit("--fast is for a file.")

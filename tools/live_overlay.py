@@ -170,11 +170,11 @@ class Overlay:
             out.append(self.fit(" ".join(words), font, width))
         return out
 
-    def base(self, item, topic, vote, chip=None, note=None):
+    def base(self, item, topic, vote, chip=None, note=None, chair=None):
         """A lower third in the bottom left, in the cards' style: a strip with what is on
         ("Punkt 17", "Na mównicy"), then the headline (the item, or the speaker with their
         club's chip), the topic and the vote. chip: the speaker's club."""
-        key = (item, topic, vote, chip, note)
+        key = (item, topic, vote, chip, note, chair)
         if self._base[0] == key:
             return self._base[1]
         im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -194,6 +194,9 @@ class Overlay:
             # the chip and tag, drawn off-image first to measure them
             tags = club_chip(ImageDraw.Draw(Image.new("RGBA", (600, 40))), 0, 20, chip, self.font(16, True), self.font(13, True), note) + 16
         want = max([f_head.getlength(headline) + tags] + [f.getlength(t) for t, f, _ in lines])
+        f_chair = self.font(13, True)
+        if chair:   # the strip holds the kicker and, at its right end, who runs the sitting
+            want = max(want, f_kick.getlength(kicker.upper()) + 70 + 24 + f_chair.getlength(chair.upper()))
         width = round(min(BOX_MAX, max(BOX_MIN, want + 2 * pad + 2)))
         inner = width - 2 * pad
         # a long agenda item takes two lines; a speaker's name one, with the chip after it
@@ -210,6 +213,10 @@ class Overlay:
         b.rounded_rectangle((0, 0, 40, 32), 16, fill=colour + (255,))
         b.rectangle((0, 16, 40, 32), fill=colour + (255,))
         b.text((pad, 16), kick, font=f_kick, fill="white", anchor="lm")
+        if chair:
+            cap = f_chair.getbbox("H")
+            b.text((width - pad, 16 + (cap[3] - cap[1]) / 2), self.fit(chair.upper(), f_chair, width - sw - 2 * pad),
+                   font=f_chair, fill=(170, 180, 196), anchor="rs")
         y = top
         for line in heads:
             b.text((pad, y), line, font=f_head, fill="white")
@@ -829,14 +836,14 @@ class Overlay:
             base.putalpha(base.getchannel("A").point(lambda v, k=clamp((length - t) / 0.6): round(v * k)))
         return base, x0, y0
 
-    def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None, clock=None):
+    def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None, clock=None, chair=None):
         """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes.
         Most frames are the same as the one before (nothing moves): those are not redrawn."""
         which = None if card is None else next((k for k, c in self._stills.items() if c[1] is card), False)
-        key = ((item, topic, vote, chip, note, clock), panel and (panel[0], tuple(panel[1])), which) if which is not False else None
+        key = ((item, topic, vote, chip, note, clock, chair), panel and (panel[0], tuple(panel[1])), which) if which is not False else None
         if key is not None and self._last[0] == key:
             return self._last[1]
-        im = self.base(item, topic, vote, chip, note).copy()
+        im = self.base(item, topic, vote, chip, note, chair).copy()
         self.clock_pill(im, clock)
         if panel:
             p = self.panel(*panel)
