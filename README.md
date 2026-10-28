@@ -54,6 +54,14 @@ npx pagefind --site site                 # optional: search index
 python -m http.server -d site 8000
 ```
 
+## Architecture and checks
+
+- `tools/live_photos.py` owns MP photo preparation and retry. Drawing reads ready photos without disk or network access; the stream and PDF generator share preparation.
+- `tools/live_timeline.py` interprets observations by picture time: caption delay, speaker/chair changes, breaks and vote precedence. OCR and ffmpeg remain outside it.
+- `static/broadcasts.js` decides broadcast availability for the home page and schedule. `static/interests-state.js` shares reader choices without loading home-page rendering.
+
+Run `node --test tests/*.test.js` and `.venv/bin/python -m unittest discover -s tests`. The broadcast checks use deterministic fetch responses and picture-time replays; they do not publish a stream.
+
 ## Deploying
 
 The workflow builds the site and copies it to the web host (Hostinger
@@ -184,9 +192,8 @@ whose amendments passed. Everything is a filled-in template — every number
 and name comes from the data, no language model is involved.
 
 - `sejmomat/card.py` draws the summary as an image with the site's address
-  in its footer (`dane/podsumowania/<day>.png`). It needs Pillow and Noto
-  Sans or DejaVu Sans; without them the build goes on and the summaries
-  are text only.
+  in its footer (`dane/podsumowania/<day>.png`). It uses Pillow and the bundled Source Sans 3 / Source Serif 4 webfonts,
+  matching the interactive share-card generator.
 - The build lists the days in `api/v1/summaries.json` and on the page
   `podsumowania.html`: the image, a caption to post with it, and a text
   version (one post or a thread), with copy and download buttons and links

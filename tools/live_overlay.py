@@ -18,9 +18,10 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
+from live_photos import Photos
+
 W, H = 1280, 720
 CACHE = Path.home() / ".cache" / "sejmomat-live"
-PHOTO = "https://api.sejm.gov.pl/sejm/term10/MP/{}/photo"
 LOGO = "https://api.sejm.gov.pl/sejm/term10/clubs/{}/logo"   # a club's logo, small, often on white
 ACCENT = (29, 95, 196)
 YELLOW = (255, 212, 121)
@@ -107,7 +108,7 @@ def clamp(x):
 
 
 class Overlay:
-    def __init__(self, bold, regular, logo, label):
+    def __init__(self, bold, regular, logo, label, photos=None):
         self._fonts = {}
         self.bold_path, self.regular_path = bold, regular
         self.logo = None
@@ -118,7 +119,8 @@ class Overlay:
         self._base = (None, None)
         self._panels = {}
         self._cards = {}
-        self._photos = {}
+        self.photos = photos if photos is not None else Photos()
+        self._logos = {}
         self._stills = {}       # cards in their still middle part, drawn once
         self._last = (None, None)   # (what the last frame showed, its bytes)
 
@@ -260,34 +262,11 @@ class Overlay:
         return self._panels[key]
 
     # ---- fun-fact cards
-    def photo(self, mp):
-        if mp in self._photos:
-            return self._photos[mp]
-        path = CACHE / "photos" / f"{mp}.jpg"
-        im = None
-        try:
-            if path.exists():
-                im = Image.open(path).convert("RGB")
-            else:
-                req = urllib.request.Request(PHOTO.format(mp), headers={"User-Agent": "sejmomat-live"})
-                with urllib.request.urlopen(req, timeout=10) as r:
-                    data = r.read()
-                im = Image.open(io.BytesIO(data)).convert("RGB")
-                try:   # kept for the next run; without the cache the photo is still used
-                    path.parent.mkdir(parents=True, exist_ok=True)
-                    path.write_bytes(data)
-                except OSError:
-                    pass
-        except Exception as e:
-            print(f"no photo for MP {mp}: {e}", file=sys.stderr)
-        self._photos[mp] = im
-        return im
-
     def club_logo(self, club):
         """The club's logo from the Sejm's API (kept on disk, as the photos are), or None."""
         key = ("logo", club)
-        if key in self._photos:
-            return self._photos[key]
+        if key in self._logos:
+            return self._logos[key]
         # a better logo kept in the repository (tools/logos/README.md) comes first
         local = Path(__file__).resolve().parent / "logos" / f"{club}.png"
         path = CACHE / "logos" / f"{club}.jpg"
@@ -309,7 +288,7 @@ class Overlay:
                     pass
         except Exception as e:
             print(f"no logo for {club}: {e}", file=sys.stderr)
-        self._photos[key] = im
+        self._logos[key] = im
         return im
 
     def logo_badge(self, club, size):
@@ -406,7 +385,7 @@ class Overlay:
                 d.text((24, 25), str(i + 1), font=self.font(18, True), fill=(12, 20, 36) if i < 3 else "white", anchor="mm")
             else:
                 d.ellipse((14, 15, 34, 35), fill=club_colour(r["club"]) + (255,))
-            photo = self.photo(r["mp"])
+            photo = self.photos.get(r["mp"])
             if photo:
                 pw, ph = 34, 42
                 scale = max(pw / photo.width, ph / photo.height)
@@ -548,7 +527,7 @@ class Overlay:
             d.text((nb[2] + 14, ny + 14 + i * 22), line, font=f_unit, fill=(205, 212, 225))
         # the photo pops in with a little overshoot
         if mp:
-            photo = self.photo(card["mp"])
+            photo = self.photos.get(card["mp"])
             if photo:
                 s = 0.6 + 0.4 * ease_out_back(clamp((t - 0.25) / 0.45), 2.4) if t < 0.7 else 1.0
                 pw, ph = max(1, round(132 * s)), max(1, round(166 * s))
@@ -604,7 +583,7 @@ class Overlay:
             # the face or the logo, at the outer edge
             pic = None
             if side_.get("mp"):
-                face = self.photo(side_["mp"])
+                face = self.photos.get(side_["mp"])
                 if face:
                     fw, fh = 104, 130
                     sc = max(fw / face.width, fh / face.height)

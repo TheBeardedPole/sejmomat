@@ -4,23 +4,30 @@
 {% from "_for_you.html" import for_you with context %}
 {% macro icon_tv() %}<svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="13" rx="2"/><path d="M17 2l-5 5-5-5"/></svg>{% endmacro %}
 {% block generated %}{{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.{% endblock %}
-{% block description %}{{ _("Głosowania w Sejmie: pokazane jak należy.") }} {{ _("Poprawki w odpowiednim kontekście, lepsze statystyki, podsumowania danych.") }}{% endblock %}
+{% block title %}{{ _("Sprawdź, nad czym pracuje Sejm") }}{% endblock %}
+{% block description %}{{ _("Projekty ustaw, głosowania, poprawki i działalność posłów w jednym miejscu.") }}{% endblock %}
 {% block content %}
 {% set L = latest %}
 {% set u = upcoming %}
 {# the sitting after the one under way, or the first planned one when no agenda is out yet #}
 {% set later = planned[0] if planned else None %}
 {% set next_sitting = later if (u and u.under_way) or not u else u %}
-<h1 class="visually-hidden">{{ _("Głosowania w Sejmie: pokazane jak należy.") }}</h1>
+<header class="catalog-intro">
+<h1>{{ _("Sprawdź, nad czym pracuje Sejm") }}</h1>
+</header>
+<nav class="catalog-index" aria-label="{{ _("Główna nawigacja") }}">
+{% for href, label in [("posiedzenia.html", "Posiedzenia"), ("ustawy.html", "Ustawy"), ("poprawki.html", "Poprawki"), ("poslowie.html", "Posłowie"), ("komisje.html", "Komisje"), ("statystyki.html", "Statystyki")] %}
+<a href="{{ root }}{{ href }}"><span>{{ _(label) }}</span><svg class="catalog-arrow" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+{% endfor %}
+</nav>
 
-{# Was / now / next. The middle column is the broadcast (static/home.js, from
-   the Sejm's API); without scripts it stays a link to the Sejm's broadcasts. #}
+{# Completed and upcoming sittings, then the live broadcast (static/home.js). #}
 <section class="now-block" aria-labelledby="w-sejmie-h">
-<h2 id="w-sejmie-h" class="visually-hidden">{{ _("Co dzieje się w Sejmie") }}</h2>
+<h2 id="w-sejmie-h">{{ _("Co dzieje się w Sejmie") }}</h2>
 <div class="wg" id="w-sejmie">
   <div class="wg-was">
-    <p class="k">{{ _("Ostatnie posiedzenie") }}</p>
     <p class="wg-title"><a href="{{ root }}posiedzenie/{{ L.sitting }}.html">{{ sitting_name(L.sitting) }}</a></p>
+    <p class="k">{{ _("Ostatnie posiedzenie") }}</p>
     <p class="wg-sub">{{ L.votes[0].date | date_range(L.votes[-1].date) }}</p>
     <div class="wg-stats">
       <p class="st"><b>{{ L.votes | length }}</b><span>{{ L.votes | length | plural(_("głosowanie"), _("głosowania"), _("głosowań")) }}</span></p>
@@ -28,6 +35,26 @@
       <p class="st"><b>{{ L.adopted_amendments }}</b><span>{{ _("przyjętych poprawek i wniosków") }}</span></p>
     </div>
     <a class="wg-more" href="{{ root }}posiedzenie/{{ L.sitting }}.html">{{ _("Wyniki posiedzenia") }} →</a>
+  </div>
+  <div class="wg-next">
+    {% if next_sitting and next_sitting is sameas u %}
+    <p class="wg-title"><a href="{{ root }}nadchodzace-posiedzenie.html">{{ sitting_name(u.number) }}</a></p>
+    <p class="k">{{ _("Nadchodzące posiedzenie") }}</p>
+    <p class="wg-sub">{{ u.dates[0] | date_range(u.dates[-1]) }}</p>
+    {% set n_items = u.groups[0]["items"] | length %}
+    <p class="wg-line"><b>{{ n_items }}</b> {{ n_items | plural(_("punkt w porządku obrad"), _("punkty w porządku obrad"), _("punktów w porządku obrad")) }}{% if u.groups | length > 1 %}, {{ _("kolejne mogą zostać dodane") }}{% endif %}</p>
+    <a class="wg-more" href="{{ root }}nadchodzace-posiedzenie.html">{{ _("Porządek obrad") }} →</a>
+    {% elif next_sitting %}
+    <p class="wg-title">{% if next_sitting.number %}{{ sitting_name(next_sitting.number) }}{% else %}{{ _("Posiedzenie Sejmu") }}{% endif %}</p>
+    <p class="k">{{ _("Następne posiedzenie") if u and u.under_way else _("Nadchodzące posiedzenie") }}</p>
+    <p class="wg-sub">{{ next_sitting.dates[0] | date_range(next_sitting.dates[-1]) }}</p>
+    {% if not u %}<p class="wg-line muted">{{ _("Porządek obrad nie został jeszcze opublikowany.") }}</p>{% endif %}
+    <a class="wg-more" href="{{ root }}posiedzenia.html">{{ _("Kalendarz posiedzeń") }} →</a>
+    {% else %}
+    <p class="k">{{ _("Nadchodzące posiedzenie") }}</p>
+    <p class="wg-line muted">{{ _("Nie znamy jeszcze terminu następnego posiedzenia.") }}</p>
+    <a class="wg-more" href="{{ root }}posiedzenia.html">{{ _("Kalendarz posiedzeń") }} →</a>
+    {% endif %}
   </div>
   <div class="wg-now broadcast" id="transmisja" aria-live="polite"
     data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/videos"
@@ -60,26 +87,6 @@
     <p class="wg-sub js-only">{{ _("Sprawdzamy, czy trwa transmisja…") }}</p>
     <p class="wg-actions"><a class="btn2" href="{{ root }}transmisje.html">{{ _("Harmonogram transmisji") }} →</a></p>
   </div>
-  <div class="wg-next">
-    {% if next_sitting and next_sitting is sameas u %}
-    <p class="k">{{ _("Nadchodzące posiedzenie") }}</p>
-    <p class="wg-title"><a href="{{ root }}nadchodzace-posiedzenie.html">{{ sitting_name(u.number) }}</a></p>
-    <p class="wg-sub">{{ u.dates[0] | date_range(u.dates[-1]) }}</p>
-    {% set n_items = u.groups[0]["items"] | length %}
-    <p class="wg-line"><b>{{ n_items }}</b> {{ n_items | plural(_("punkt w porządku obrad"), _("punkty w porządku obrad"), _("punktów w porządku obrad")) }}{% if u.groups | length > 1 %}, {{ _("kolejne mogą zostać dodane") }}{% endif %}</p>
-    <a class="wg-more" href="{{ root }}nadchodzace-posiedzenie.html">{{ _("Porządek obrad") }} →</a>
-    {% elif next_sitting %}
-    <p class="k">{{ _("Następne posiedzenie") if u and u.under_way else _("Nadchodzące posiedzenie") }}</p>
-    <p class="wg-title">{% if next_sitting.number %}{{ sitting_name(next_sitting.number) }}{% else %}{{ _("Posiedzenie Sejmu") }}{% endif %}</p>
-    <p class="wg-sub">{{ next_sitting.dates[0] | date_range(next_sitting.dates[-1]) }}</p>
-    {% if not u %}<p class="wg-line muted">{{ _("Porządek obrad nie został jeszcze opublikowany.") }}</p>{% endif %}
-    <a class="wg-more" href="{{ root }}posiedzenia.html">{{ _("Kalendarz posiedzeń") }} →</a>
-    {% else %}
-    <p class="k">{{ _("Nadchodzące posiedzenie") }}</p>
-    <p class="wg-line muted">{{ _("Nie znamy jeszcze terminu następnego posiedzenia.") }}</p>
-    <a class="wg-more" href="{{ root }}posiedzenia.html">{{ _("Kalendarz posiedzeń") }} →</a>
-    {% endif %}
-  </div>
 </div>
 </section>
 
@@ -88,7 +95,24 @@
 
 {{ for_you("home") }}
 
+<section class="project-info" aria-label="{{ _("O projekcie") }}">
+  <div class="project-about">
+    <h2>{{ _("Po co powstał Sejmomat") }}</h2>
+    <p>{{ _("Żeby sprawdzić, co zmienia się w prawie, nie trzeba było przeklikiwać dziesiątek dokumentów. Sejmomat łączy projekty ustaw, poprawki i wyniki głosowań, pokazując je we wspólnym kontekście.") }}</p>
+    <p>{{ _("To niezależny projekt Adama Kościelaka. Korzysta z danych Sejmu i udostępnia kod na licencji GNU GPL v3 — możesz go przeglądać, zmieniać i tworzyć własne aplikacje.") }}</p>
+    <p class="project-links"><a href="{{ root }}metodologia.html">{{ _("Jak opracowujemy dane") }}</a><a href="https://github.com/TheBeardedPole/sejmomat">{{ _("Kod źródłowy") }}</a></p>
+  </div>
+  <div class="project-support">
+    <h2>{{ _("Pomóż rozwijać Sejmomat") }}</h2>
+    <p>{{ _("Sejmomat jest bezpłatny, bez reklam i sprzedaży danych. Wsparcie pomaga autorowi pokrywać koszty serwera, transmisji i dalszego rozwoju.") }}</p>
+    <p>{{ _("Na stronie zbiórki znajdziesz aktualne koszty i plany autora. Możesz wesprzeć projekt jednorazowo lub co miesiąc.") }}</p>
+    <a class="btn" href="https://buycoffee.to/sejmomat?tab=subs">{{ _("Wesprzyj na BuyCoffee") }}</a>
+  </div>
+</section>
+
 {% if not upcoming %}<script src="{{ site_root }}static/yt.js?v={{ static_version('yt.js') }}" defer></script>{% endif %}{# else with the live box #}
+<script src="{{ site_root }}static/broadcasts.js?v={{ static_version('broadcasts.js') }}" defer></script>
+<script src="{{ site_root }}static/interests-state.js?v={{ static_version('interests-state.js') }}" defer></script>
 <script src="{{ site_root }}static/home.js?v={{ static_version('home.js') }}" defer></script>
 {% endblock %}
 

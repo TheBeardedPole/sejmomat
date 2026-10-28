@@ -1,63 +1,48 @@
-:root { --bg: #f6f5f1; --surface: #fff; --text: #1d1d1f; --muted: #6b6b70; --line: #e2dfd8; --accent: #1d5fc4;
-  --green: #277a4c; --blue: #2779b8; --yellow: #c9930a; --orange: #b8541a; --grey: #6b6b70; --red: #b3261e;
-  --on-fill: #fff; --yellow-ink: #8a5f00;
-  --ok-bg: #e3f3e9; --bad-bg: #fbe4e2; --shadow: 0 1px 2px rgb(0 0 0 / .06), 0 4px 14px rgb(0 0 0 / .05); }
-/* dark: the Sejmomat theme switch's choice, or the system's when none is made */
+/* Shared surfaces and fonts live in static/catalog.css. These colours encode game clues. */
+:root { --green: #277a4c; --blue: #2779b8; --yellow: #c9930a; --orange: #b8541a; --grey: #6b6b70; --red: #b3261e;
+  --on-fill: #fff; --yellow-ink: #8a5f00; --ok-bg: #e3f3e9; --bad-bg: #fbe4e2; --shadow: none; }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) { --bg: #121214; --surface: #1c1c20; --text: #ececee; --muted: #9a9aa2; --line: #2f2f35; --accent: #7db8ff;
-    --green: #3aa56c; --blue: #3b8fd0; --yellow: #d6a51f; --orange: #e0752f; --grey: #5e5e66; --red: #ff6b60;
-    --on-fill: #121214; --yellow-ink: var(--yellow);
-    --ok-bg: #173a28; --bad-bg: #462220; --shadow: 0 1px 2px rgb(0 0 0 / .4); }
+  :root:not([data-theme="light"]) { --green: #3aa56c; --blue: #3b8fd0; --yellow: #d6a51f; --orange: #e0752f; --grey: #5e5e66; --red: #ff6b60;
+    --on-fill: #121214; --yellow-ink: var(--yellow); --ok-bg: #173a28; --bad-bg: #462220; }
 }
-:root[data-theme="dark"] { --bg: #121214; --surface: #1c1c20; --text: #ececee; --muted: #9a9aa2; --line: #2f2f35; --accent: #7db8ff;
-    --green: #3aa56c; --blue: #3b8fd0; --yellow: #d6a51f; --orange: #e0752f; --grey: #5e5e66; --red: #ff6b60;
-    --on-fill: #121214; --yellow-ink: var(--yellow);
-    --ok-bg: #173a28; --bad-bg: #462220; --shadow: 0 1px 2px rgb(0 0 0 / .4); }
+:root[data-theme="dark"] { --green: #3aa56c; --blue: #3b8fd0; --yellow: #d6a51f; --orange: #e0752f; --grey: #5e5e66; --red: #ff6b60;
+  --on-fill: #121214; --yellow-ink: var(--yellow); --ok-bg: #173a28; --bad-bg: #462220; }
 /* native controls and scrollbars follow the light or dark theme */
 :root { color-scheme: light dark; }
 :root[data-theme="light"] { color-scheme: light; }
 :root[data-theme="dark"] { color-scheme: dark; }
 * { box-sizing: border-box; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
 body { margin: 0; background: var(--bg); color: var(--text);
-  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  font: 1.0625rem/1.55 "Source Sans 3", system-ui, sans-serif; }
 /* the games' column, below Sejmomat's header (static/header.css, put in by the build) */
-.page { margin: 0 auto; max-width: 880px; padding: 20px 16px 40px; }
+.page { margin: 0 auto; max-width: 1200px; padding: 40px 32px 64px; }
 a { color: var(--accent); }
-h2 { font-size: 1.1rem; margin: 0 0 8px; }
+h2 { font-size: 1.65rem; margin: 0 0 8px; }
 .muted { color: var(--muted); font-size: .9rem; }
 
-/* Header: the name as a row of tiles, coloured like the clues. */
-.page > header { text-align: center; }
-.wordmark { display: flex; justify-content: center; gap: 6px; margin: 4px 0 8px; font-size: 1.5rem; }
-.wordmark span { display: grid; place-items: center; width: 1.9em; height: 1.9em; border-radius: 8px;
-  font-weight: 800; color: #fff; background: var(--grey); box-shadow: var(--shadow); }
-.wordmark span:nth-child(1), .wordmark span:nth-child(4) { background: var(--green); }
-.wordmark span:nth-child(2), .wordmark span:nth-child(6) { background: var(--yellow); }
-.tagline { margin: 0 0 14px; }
-
-/* Game switcher. */
-.tabs { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 4px; margin: 0 0 18px;
-  background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); }
-.tabs button { font: inherit; font-weight: 600; padding: 8px 16px; border: 0; border-radius: 9px;
-  background: none; color: var(--muted); cursor: pointer; }
-.tabs button:hover { color: var(--text); }
-.tabs button[aria-selected="true"] { background: var(--accent); color: var(--on-fill); }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tabs button[aria-selected="true"] { color: #0d1b2e; } }
-:root[data-theme="dark"] .tabs button[aria-selected="true"] { color: #0d1b2e; }
+/* The game title shares the site's reading typography. */
+.page > header { text-align: left; }
+.wordmark { display: flex; margin: 0 0 12px; font-family: var(--font-heading); font-size: clamp(2.5rem, 4.8vw, 3.5rem); line-height: 1.2; letter-spacing: -.02em; }
+.wordmark span { font-weight: 700; }
+.tagline { margin: 0 0 24px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 0 12px; padding: 0; margin: 24px 0; border-bottom: 1px solid var(--line); }
+.tabs button { font: inherit; font-weight: 600; min-height: 48px; padding: 12px 14px; border: 0; border-bottom: 3px solid transparent; background: none; color: var(--text); cursor: pointer; }
+.tabs button:hover { color: var(--accent-hover); border-bottom-color: var(--muted); }
+.tabs button[aria-selected="true"] { background: var(--accent-bg); border-bottom-color: var(--accent); color: var(--accent); }
 
 /* The archive: a day to play instead of today's. */
 .archive { font-size: .9rem; color: var(--muted); }
-.archive select { font: inherit; padding: 4px 8px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--text); }
+.archive select { font: inherit; min-height: 44px; padding: 8px 12px; border-radius: 0; border: 1px solid var(--line); background: var(--surface); color: var(--text); }
 .page > header p { margin: 0 0 14px; }
 
-.lead { font-size: 1.35rem; font-weight: 700; margin: 0 0 10px; text-align: center; }
+.lead { font-family: var(--font-heading); font-size: 1.7rem; font-weight: 700; margin: 0 0 10px; text-align: center; }
 
 /* Instructions: a "?" button next to the title and a popup. */
 .help-btn { font: inherit; font-size: .95rem; font-weight: 800; width: 1.7em; height: 1.7em; padding: 0; margin-left: 4px;
   vertical-align: middle; border-radius: 50%; border: 2px solid var(--accent); background: none; color: var(--accent); cursor: pointer; }
 .help-btn:hover { background: var(--accent); color: var(--surface); }
 dialog.help { width: min(560px, calc(100vw - 32px)); max-height: calc(100vh - 48px); overflow-y: auto; padding: 20px 22px 16px;
-  border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--text);
+  border: 1px solid var(--line); border-radius: 0; background: var(--surface); color: var(--text);
   box-shadow: 0 12px 48px rgb(0 0 0 / .3); }
 dialog.help::backdrop { background: rgb(0 0 0 / .5); }
 dialog.help h2 { font-size: 1.25rem; margin: 0 32px 10px 0; }
@@ -70,30 +55,31 @@ dialog.help li { margin: 8px 0; }
 /* Progress markers. */
 .marks { display: flex; align-items: center; justify-content: center; gap: 6px; margin: 0 0 12px; }
 .marks .muted { margin-right: 4px; }
-.mark { width: 16px; height: 16px; border-radius: 5px; border: 2px solid var(--line); background: none; }
+.mark { width: 16px; height: 16px; border-radius: 0; border: 2px solid var(--line); background: none; }
 .mark.used { background: var(--grey); border-color: var(--grey); }
 .mark.ok { background: var(--green); border-color: var(--green); }
 .mark.bad { background: var(--red); border-color: var(--red); }
 .mark.now { border-color: var(--accent); }
 
 /* Buttons and the guess box. */
-.btn { font: inherit; font-weight: 600; padding: 9px 18px; border-radius: 10px; border: 1px solid var(--line);
+.btn { font: inherit; font-weight: 600; min-height: 48px; padding: 12px 20px; border-radius: 0; border: 1px solid var(--line);
   background: var(--surface); color: var(--text); cursor: pointer; box-shadow: var(--shadow); }
 .btn:hover { border-color: var(--accent); }
-.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-fill); }
+.btn.primary { background: var(--button-bg); border-color: var(--button-bg); color: var(--button-text); }
+.btn.primary:hover { background: var(--button-hover); border-color: var(--button-hover); }
 .btn.yes { background: var(--green); border-color: var(--green); color: var(--on-fill); }
 .btn.no { background: var(--red); border-color: var(--red); color: var(--on-fill); }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn.primary { color: #0d1b2e; } :root:not([data-theme="light"]) .btn.no { color: #2a0d0b; } }
-:root[data-theme="dark"] .btn.primary { color: #0d1b2e; } :root[data-theme="dark"] .btn.no { color: #2a0d0b; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn.no { color: #2a0d0b; } }
+:root[data-theme="dark"] .btn.no { color: #2a0d0b; }
 .btn:disabled { opacity: .5; cursor: default; }
 .guess { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 12px 0; }
-.guess input { flex: 1 1 220px; font: inherit; padding: 9px 12px; border-radius: 10px; border: 2px solid var(--line);
+.guess input { min-height: 48px; min-width: 0; flex: 1 1 220px; font: inherit; padding: 9px 12px; border-radius: 0; border: 2px solid var(--line);
   background: var(--surface); color: var(--text); }
 .guess input:focus { outline: none; border-color: var(--accent); }
 .guess.choice { justify-content: center; }
 .guess.choice .btn { flex: 1 1 140px; max-width: 220px; padding: 12px 18px; font-size: 1.05rem; }
 
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px;
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 0; padding: 14px 16px;
   margin: 12px 0; box-shadow: var(--shadow); }
 
 /* Clue grid. */
@@ -101,7 +87,7 @@ dialog.help li { margin: 8px 0; }
 table.grid { border-collapse: separate; border-spacing: 5px; width: 100%; font-size: .85rem; }
 table.grid th { font-weight: 600; color: var(--muted); text-align: center; font-size: .74rem;
   text-transform: uppercase; letter-spacing: .03em; padding: 0 2px 2px; }
-table.grid td { padding: 9px 6px; border-radius: 8px; text-align: center; color: var(--on-fill); min-width: 86px;
+table.grid td { padding: 9px 6px; border-radius: 0; text-align: center; color: var(--on-fill); min-width: 86px;
   font-weight: 600; box-shadow: var(--shadow); }
 table.grid td.name { background: var(--surface); color: var(--text); border: 1px solid var(--line); text-align: left; }
 td.green, .pill.green { background: var(--green); }
@@ -110,7 +96,7 @@ table.grid td.yellow, .pill.yellow, .pts.yellow { background: var(--yellow); col
 table.grid td.grey, .pill.grey, .pts.none { color: #fff; } /* grey stays dark in both themes */
 .pill.orange { background: var(--orange); }
 td.grey, .pill.grey { background: var(--grey); }
-.pill { display: inline-block; padding: 1px 9px; border-radius: 99px; color: var(--on-fill); font-size: .8rem; font-weight: 600; }
+.pill { display: inline-block; padding: 1px 9px; border-radius: 0; color: var(--on-fill); font-size: .8rem; font-weight: 600; }
 /* The newest guess turns over, one tile after another. */
 @media (prefers-reduced-motion: no-preference) {
   tr.latest td { animation: flip .45s ease both; }
@@ -121,12 +107,12 @@ td.grey, .pill.grey { background: var(--grey); }
   @keyframes flip { from { transform: rotateX(90deg); opacity: 0; } to { transform: none; opacity: 1; } }
 }
 
-.amend { white-space: pre-wrap; font-family: Georgia, "Times New Roman", serif; }
-.result { font-weight: 700; padding: 10px 14px; border-radius: 10px; text-align: center; margin: 12px 0; }
+.amend { white-space: pre-wrap; font-family: var(--font-heading); }
+.result { font-weight: 700; padding: 10px 14px; border-radius: 0; text-align: center; margin: 12px 0; }
 .result.ok { color: var(--green); background: var(--ok-bg); }
 .result.bad { color: var(--red); background: var(--bad-bg); }
 .card > .result { text-align: left; margin-top: 0; }
-.photo { width: 120px; height: 150px; object-fit: cover; border-radius: 10px; border: 1px solid var(--line); }
+.photo { width: 120px; height: 150px; object-fit: cover; border-radius: 0; border: 1px solid var(--line); }
 .reveal { display: flex; gap: 14px; align-items: flex-start; }
 .reveal p { margin: 0 0 4px; }
 ul.votes { list-style: none; padding: 0; margin: 6px 0 0; }
@@ -139,14 +125,15 @@ footer { margin-top: 36px; border-top: 1px solid var(--line); padding-top: 12px;
 /* What an amendment changes in the bill. */
 details.context { margin: 12px 0; border-top: 1px solid var(--line); padding-top: 10px; font-size: .92rem; }
 details.context summary { cursor: pointer; color: var(--muted); }
-.rows .r { padding: 2px 6px 2px calc(6px + var(--d, 0) * 1.2em); border-radius: 3px; font-family: Georgia, serif; }
+.rows .r { padding: 2px 6px 2px calc(6px + var(--d, 0) * 1.2em); border-radius: 0; font-family: var(--font-heading); }
 .rows .r-context, .rows .r-parent, .rows .r-gap { color: var(--muted); font-size: .9em; }
 .rows .r-added, .rows ins { background: var(--ok-bg); text-decoration: none; }
 .rows .r-removed, .rows del { background: var(--bad-bg); }
 .rows .r-removed { text-decoration: line-through; }
 
 @media (max-width: 520px) {
-  .wordmark { font-size: 1.2rem; gap: 4px; }
+  .wordmark { font-size: 2.5rem; }
+  .page { padding: 28px 20px 40px; }
   .tabs { display: flex; }
   .tabs button { flex: 1 1 auto; padding: 8px 10px; }
   .reveal { flex-direction: column; }
@@ -184,26 +171,26 @@ ul.committees li { margin: 3px 0; }
 
 /* Level switch and the easy-mode grid of MPs grouped by club. */
 .level { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 14px 0 0; flex-wrap: wrap; }
-.segs { display: inline-flex; border: 1px solid var(--line); border-radius: 99px; overflow: hidden; background: var(--surface); }
+.segs { display: inline-flex; border: 1px solid var(--line); border-radius: 0; overflow: hidden; background: var(--surface); }
 .seg { font: inherit; font-size: .88rem; font-weight: 600; padding: 5px 14px; border: 0; background: none; color: var(--muted); cursor: pointer; }
 .seg[aria-pressed="true"] { background: var(--accent); color: var(--on-fill); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .seg[aria-pressed="true"] { color: #0d1b2e; } }
 :root[data-theme="dark"] .seg[aria-pressed="true"] { color: #0d1b2e; }
 .chips { display: flex; flex-wrap: wrap; gap: 5px; }
-.chip { font: inherit; font-size: .82rem; padding: 3px 9px; border-radius: 99px; border: 1px solid var(--line);
+.chip { font: inherit; font-size: .82rem; padding: 3px 9px; border-radius: 0; border: 1px solid var(--line);
   background: var(--bg); color: var(--text); cursor: pointer; }
 .chip:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
 .chip:disabled { opacity: .4; text-decoration: line-through; cursor: default; }
 
 /* The list of MPs: a popup with one column per club, scrolled sideways. */
 dialog.picker { width: min(1040px, calc(100vw - 16px)); max-height: calc(100vh - 24px); padding: 18px 18px 14px;
-  border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--text);
+  border: 1px solid var(--line); border-radius: 0; background: var(--surface); color: var(--text);
   box-shadow: 0 12px 48px rgb(0 0 0 / .3); overflow: hidden; }
 dialog.picker[open] { display: flex; flex-direction: column; }
 dialog.picker::backdrop { background: rgb(0 0 0 / .5); }
 dialog.picker h2 { font-size: 1.25rem; margin: 0 32px 2px 0; }
 .picker-hint { margin: 0 0 10px; }
-dialog.picker input[type="search"] { font: inherit; width: 100%; padding: 9px 12px; border-radius: 10px;
+dialog.picker input[type="search"] { font: inherit; width: 100%; padding: 9px 12px; border-radius: 0;
   border: 2px solid var(--line); background: var(--bg); color: var(--text); }
 dialog.picker input[type="search"]:focus { outline: none; border-color: var(--accent); }
 .club-jump { display: flex; gap: 5px; margin: 10px 0; overflow-x: auto; padding-bottom: 2px; }
@@ -211,13 +198,13 @@ dialog.picker input[type="search"]:focus { outline: none; border-color: var(--ac
 .club-cols { display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x proximity; flex: 1 1 auto; min-height: 0;
   padding-bottom: 8px; overscroll-behavior: contain; }
 .club-col { flex: 0 0 230px; display: flex; flex-direction: column; min-height: 0; max-height: 58vh; scroll-snap-align: start;
-  border: 1px solid var(--line); border-radius: 12px; background: var(--bg); overflow: hidden; }
+  border: 1px solid var(--line); border-radius: 0; background: var(--bg); overflow: hidden; }
 .club-col[hidden] { display: none; }
 .club-col h3 { margin: 0; padding: 9px 12px; font-size: .92rem; border-bottom: 1px solid var(--line); background: var(--surface); }
 .club-col ul { list-style: none; margin: 0; padding: 4px; overflow-y: auto; overscroll-behavior: contain; }
 .club-col li[hidden] { display: none; }
 .club-col .name { display: block; width: 100%; text-align: left; font: inherit; font-size: .9rem; padding: 6px 9px;
-  border: 0; border-radius: 7px; background: none; color: var(--text); cursor: pointer; }
+  border: 0; border-radius: 0; background: none; color: var(--text); cursor: pointer; }
 .club-col .name:hover:not(:disabled) { background: var(--surface); color: var(--accent); }
 .club-col .name:disabled { opacity: .4; text-decoration: line-through; cursor: default; }
 @media (max-width: 520px) { .club-col { flex-basis: 76vw; max-height: 52vh; } }
@@ -227,7 +214,7 @@ dialog.picker input[type="search"]:focus { outline: none; border-color: var(--ac
 .points-source { text-align: center; margin: 0 0 10px; font-size: .82rem; }
 .slot { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; width: 100%; min-height: 124px;
   padding: 10px 8px; text-align: center; font: inherit; color: var(--text); background: var(--surface);
-  border: 2px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); }
+  border: 2px solid var(--line); border-radius: 0; box-shadow: var(--shadow); }
 button.slot { border-style: dashed; cursor: pointer; }
 button.slot:hover { border-color: var(--accent); }
 button.slot.active { border-style: solid; border-color: var(--accent); outline: 3px solid color-mix(in srgb, var(--accent) 30%, transparent); }
@@ -236,9 +223,9 @@ button.slot.active { border-style: solid; border-color: var(--accent); outline: 
 .slot-cond { font-size: .9rem; font-weight: 600; line-height: 1.25; }
 .slot-cond small { display: block; font-size: .74rem; font-weight: 400; color: var(--muted); }
 .slot-plus { font-size: 1.7rem; font-weight: 300; line-height: 1; color: var(--muted); }
-.slot .thumb { width: 44px; height: 55px; margin-top: 4px; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); }
+.slot .thumb { width: 44px; height: 55px; margin-top: 4px; object-fit: cover; border-radius: 0; border: 1px solid var(--line); }
 .slot-name { font-size: .86rem; font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }
-.pts { min-width: 2.4em; padding: 1px 8px; border-radius: 99px; color: var(--on-fill); font-size: .8rem; font-weight: 700; }
+.pts { min-width: 2.4em; padding: 1px 8px; border-radius: 0; color: var(--on-fill); font-size: .8rem; font-weight: 700; }
 .pts.green { background: var(--green); }
 .pts.orange { background: var(--orange); } .pts.none { background: var(--grey); }
 .picking { text-align: center; margin: 12px 0 0; }
@@ -263,7 +250,7 @@ table.siatka .slot { min-height: 112px; padding: 6px 4px; }
 }
 
 /* "Wesprzyj": a pill fixed in the corner, as on the main site. Dialogs open above it. */
-.support-pill { position: fixed; right: 16px; bottom: 16px; z-index: 5; padding: 9px 18px; border-radius: 99px;
+.support-pill { position: fixed; right: 16px; bottom: 16px; z-index: 5; padding: 9px 18px; border-radius: 0;
   background: var(--surface); border: 2px solid var(--accent); color: var(--text); font-size: .92rem; font-weight: 700;
   text-decoration: none; box-shadow: var(--shadow); opacity: .9; }
 .support-pill:hover { opacity: 1; background: var(--accent); color: var(--surface); }
@@ -274,7 +261,7 @@ body { padding-bottom: 84px; } /* so the pill never covers the last line */
 /* Twarze w minutę: the photo, the four names, the countdown and the leaderboards. */
 .speed { text-align: center; }
 .speed .face { display: block; width: 220px; max-width: 70vw; height: auto; aspect-ratio: 4 / 5; object-fit: cover;
-  margin: 0 auto 14px; border-radius: 14px; background: var(--line); }
+  margin: 0 auto 14px; border-radius: 0; background: var(--line); }
 .speed-clock { font-size: 1.6rem; font-weight: 700; font-variant-numeric: tabular-nums; margin: 0 0 4px; }
 .speed-clock.ending { color: var(--red); }
 .speed-tally { margin: 0 0 10px; }
@@ -285,7 +272,7 @@ body { padding-bottom: 84px; } /* so the pill never covers the last line */
 @media (max-width: 480px) { .speed-options { grid-template-columns: minmax(0, 1fr); } }
 .speed-review { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 10px; margin: 12px 0; }
 .speed-review figure { margin: 0; text-align: center; font-size: .78rem; }
-.speed-review .face { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 10px; border: 3px solid var(--line); }
+.speed-review .face { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 0; border: 3px solid var(--line); }
 .speed-review .ok .face { border-color: var(--green); }
 .speed-review .bad .face { border-color: var(--red); }
 .lb-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
@@ -298,9 +285,9 @@ body { padding-bottom: 84px; } /* so the pill never covers the last line */
 
 /* Uzupełnij słowo: the passage with its blanks, and the hints under it. */
 .gaps { font-size: 1.12rem; line-height: 2.1; }
-.gap-input { font: inherit; padding: 0 6px; border: 0; border-bottom: 2px solid var(--accent); border-radius: 4px 4px 0 0;
+.gap-input { font: inherit; padding: 0 6px; border: 0; border-bottom: 2px solid var(--accent); border-radius: 0;
   background: var(--bg); color: var(--text); width: auto; }
-.gap { font-weight: 700; padding: 1px 5px; border-radius: 5px; }
+.gap { font-weight: 700; padding: 1px 5px; border-radius: 0; }
 .gap.exact { background: var(--ok-bg); color: var(--green); }
 .gap.form { background: color-mix(in srgb, var(--yellow) 18%, transparent); color: var(--yellow-ink); }
 .gap.fail { background: var(--bad-bg); color: var(--red); text-decoration: line-through; text-decoration-thickness: 1px; }
@@ -309,3 +296,8 @@ body { padding-bottom: 84px; } /* so the pill never covers the last line */
 .gap-hints code { font-size: 1rem; letter-spacing: .05em; }
 .btn.small { font-size: .82rem; padding: 4px 10px; }
 .who a { font-weight: 600; }
+
+#game { max-width: 960px; margin-inline: auto; padding-top: 24px; }
+.page > footer { text-align: left; margin-top: 48px; padding-top: 24px; max-width: 75ch; }
+.segs .seg, .help-btn, .help-close { min-height: 44px; min-width: 44px; }
+.guess input::placeholder { color: var(--muted); opacity: 1; }

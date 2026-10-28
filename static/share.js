@@ -221,6 +221,7 @@
   const choose = async (kind, preset) => {
     if (kind === current) return;
     current = kind;
+    img.alt = L[kind];
     turn++;
     kinds.querySelectorAll("button").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.kind === kind)));
     fields.replaceChildren();

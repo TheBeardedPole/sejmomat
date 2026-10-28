@@ -43,8 +43,9 @@
     <a href="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/transmisje.xsp" target="_blank" rel="noopener">{{ _("Transmisje na stronie Sejmu") }} ↗</a></p></noscript>
 </section>
 <p class="muted small"><a href="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/transmisje.xsp" target="_blank" rel="noopener">{{ _("Transmisje na stronie Sejmu") }} ↗</a></p>
-{# home.js has the shared rules (dates, the stream check); its page code does nothing here #}
-<script src="{{ site_root }}static/home.js?v={{ static_version('home.js') }}" defer></script>
+{# Shared availability and reader choices; no home-page UI dependency. #}
+<script src="{{ site_root }}static/broadcasts.js?v={{ static_version('broadcasts.js') }}" defer></script>
+<script src="{{ site_root }}static/interests-state.js?v={{ static_version('interests-state.js') }}" defer></script>
 <script src="{{ site_root }}static/yt.js?v={{ static_version('yt.js') }}" defer></script>
 <script src="{{ site_root }}static/schedule.js?v={{ static_version('schedule.js') }}" defer></script>
 {% endblock %}

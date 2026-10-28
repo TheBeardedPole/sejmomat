@@ -13,7 +13,6 @@ import argparse
 import subprocess
 import sys
 import tempfile
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
 
@@ -103,10 +102,8 @@ def main():
 
     live_overlay.CARD_SCALE = 1.0   # drawn at full size, to be read on paper
     overlay = Overlay(font(True), font(False), ROOT / "static" / "logo-white.png", "SEJMOMAT · karty transmisji")
-    ids = {x for c, _ in pages for x in [c.get("mp")] + [r["mp"] for r in c.get("rows") or []] if x}
-    print(f"photos: {len(ids)} …", flush=True)
-    with ThreadPoolExecutor(8) as pool:
-        list(pool.map(overlay.photo, sorted(ids)))
+    print("photos …", flush=True)
+    overlay.photos.prepare_cards(c for c, _ in pages)
 
     back = still(args.frame) or Image.new("RGBA", (W, H), (40, 44, 52, 255))
     back = Image.alpha_composite(back, Image.new("RGBA", (W, H), (0, 0, 0, 90)))   # darker, so the card stands out

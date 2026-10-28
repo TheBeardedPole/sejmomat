@@ -10,5 +10,7 @@
 <h1>{{ _("Wydarzenia w Twoich tematach") }}</h1>
 <noscript><p>{{ _("Ta strona działa w przeglądarce: tematy, które obserwujesz, zostają tylko u Ciebie. Włącz JavaScript, by ją zobaczyć.") }}</p></noscript>
 {{ for_you("feed") }}
+<script src="{{ site_root }}static/broadcasts.js?v={{ static_version('broadcasts.js') }}" defer></script>
+<script src="{{ site_root }}static/interests-state.js?v={{ static_version('interests-state.js') }}" defer></script>
 <script src="{{ site_root }}static/home.js?v={{ static_version('home.js') }}" defer></script>
 {% endblock %}
