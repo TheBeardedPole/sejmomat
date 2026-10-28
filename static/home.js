@@ -1041,15 +1041,19 @@ if (typeof document !== "undefined") (() => {
       tip.hidden = true;
       rects.forEach((x) => x.classList.remove("hover"));
     };
-    svg.addEventListener("pointerover", (e) => {
-      if (e.pointerType !== "mouse") return;
-      if (e.target.dataset?.mp) show(e.target, false);
+    // the whole page watches the pointer (not only the plan, whose leave events some browsers
+    // and touchpads do not send reliably): over a seat its card, over anything else none
+    let over = null;
+    document.addEventListener("pointermove", (e) => {
+      if (e.pointerType === "touch") return;
+      const seat = e.target?.closest?.(".sala-plan rect[data-mp]") || null;
+      if (seat === over) return;
+      over = seat;
+      if (seat) show(seat, false);
       else hide();
-    });
-    svg.addEventListener("pointerout", (e) => {
-      if (e.pointerType === "mouse" && !e.relatedTarget?.dataset?.mp) hide();
-    });
-    svg.addEventListener("pointerleave", (e) => { if (e.pointerType === "mouse") hide(); });
+    }, { passive: true });
+    document.addEventListener("mouseleave", () => { over = null; hide(); });
+    window.addEventListener("scroll", () => { over = null; hide(); }, { passive: true });
     svg.addEventListener("pointerdown", (e) => { touch = e.pointerType !== "mouse"; });
     svg.addEventListener("click", (e) => {
       const mp = e.target.dataset?.mp;
