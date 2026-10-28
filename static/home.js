@@ -1034,8 +1034,22 @@ if (typeof document !== "undefined") (() => {
       pinned = pin;
     };
     let touch = false;
-    svg.addEventListener("pointerover", (e) => { if (e.pointerType === "mouse" && e.target.dataset?.mp) show(e.target, false); });
-    svg.addEventListener("pointerleave", (e) => { if (e.pointerType === "mouse" && !pinned) { tip.hidden = true; rects.forEach((x) => x.classList.remove("hover")); } });
+    // with a mouse the card follows the pointer: on a seat it shows, anywhere else (between the
+    // seats, off the plan) it goes; a card opened by a tap or the search stays until dismissed
+    const hide = () => {
+      if (pinned) return;
+      tip.hidden = true;
+      rects.forEach((x) => x.classList.remove("hover"));
+    };
+    svg.addEventListener("pointerover", (e) => {
+      if (e.pointerType !== "mouse") return;
+      if (e.target.dataset?.mp) show(e.target, false);
+      else hide();
+    });
+    svg.addEventListener("pointerout", (e) => {
+      if (e.pointerType === "mouse" && !e.relatedTarget?.dataset?.mp) hide();
+    });
+    svg.addEventListener("pointerleave", (e) => { if (e.pointerType === "mouse") hide(); });
     svg.addEventListener("pointerdown", (e) => { touch = e.pointerType !== "mouse"; });
     svg.addEventListener("click", (e) => {
       const mp = e.target.dataset?.mp;
