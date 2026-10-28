@@ -248,7 +248,7 @@ revealTarget();
 // every one of them to be re-uploaded. Changing this file uploads one file.
 const LANG = document.documentElement.lang === "en" ? "en" : "pl";
 const ROOT = (document.querySelector(".brand")?.getAttribute("href") || "index.html").replace(/index\.html$/, "");
-const COFFEE_URL = "https://buycoffee.to/sejmomat";
+const COFFEE_URL = "https://buycoffee.to/sejmomat?tab=subs";
 // ROOT is the language root ("" or "en/" level); the games live at the site root.
 const SITE_ROOT = LANG === "en" ? `${ROOT}../` : ROOT;
 const T = {

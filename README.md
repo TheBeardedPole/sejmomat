@@ -225,4 +225,4 @@ without warranty — the official prints are authoritative.
 ## Support
 
 If you find this useful, you can support the project at
-[buycoffee.to/sejmomat](https://buycoffee.to/sejmomat).
+[buycoffee.to/sejmomat](https://buycoffee.to/sejmomat?tab=subs).
