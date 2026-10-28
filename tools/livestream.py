@@ -352,7 +352,7 @@ PROMOS = [
      "url": "sejmomat.pl/sejmdle"},
     {"kind": "promo", "title": "Wesprzyj Sejmomat", "headline": "Sejmomat jest darmowy i niezależny",
      "text": "Jeśli Ci się przydaje, możesz postawić twórcy kawę.",
-     "url": "buycoffee.to/adamkoscielak"},
+     "url": "buycoffee.to/sejmomat"},
 ]
 
 
