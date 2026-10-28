@@ -521,40 +521,46 @@ a.btn2:hover { text-decoration: none; }
 .share-open-row { margin: 40px 0 0; }
 .share-open { display: inline-flex; align-items: center; gap: 8px; }
 .share-open svg { width: 18px; height: 18px; }
-.share-dialog { width: min(980px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); padding: 0; border: 1px solid var(--line);
-  border-radius: 14px; background: var(--surface); color: var(--text); box-shadow: 0 24px 64px rgb(0 0 0 / .28); overflow: auto; }
-.share-dialog::backdrop { background: rgb(10 14 24 / .55); }
-.share-dialog > * { padding-left: 24px; padding-right: 24px; }
-.share-dialog-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 18px; }
-.share-dialog-head h2 { margin: 0; font-size: 1.25rem; }
+.share-dialog { width: min(1160px, calc(100vw - 48px)); max-height: calc(100dvh - 48px); padding: 0; border: 0;
+  border-radius: 0; background: var(--surface); color: var(--text); box-shadow: var(--float-shadow); overflow: auto; }
+.share-dialog::backdrop { background: rgb(11 12 12 / .65); }
+.share-dialog > * { padding-left: 32px; padding-right: 32px; }
+.share-dialog-head { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-top: 24px; padding-bottom: 24px;
+  position: sticky; top: 0; z-index: 1; background: #0b0c0c; color: #ffffff; border-bottom: 4px solid #1d70b8; }
+.share-dialog-head h2 { margin: 0; font-size: 1.9rem; line-height: 1.2; }
 .share-dialog-head form { margin: 0; }
-.share-kinds { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 0; }
-.share-kind { min-height: 40px; padding: 0 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface);
-  color: var(--text); font: inherit; font-size: .94rem; cursor: pointer; }
-.share-kind:hover { border-color: var(--accent); }
-.share-kind[aria-checked="true"] { border-color: var(--accent); background: var(--accent-bg); color: var(--accent); font-weight: 600;
-  box-shadow: inset 0 0 0 1px var(--accent); }
-.share-body { display: grid; grid-template-columns: minmax(220px, 300px) minmax(0, 1fr); gap: 20px; margin-top: 18px; }
-.share-fields { display: flex; flex-direction: column; gap: 14px; }
-.share-field { display: flex; flex-direction: column; gap: 6px; font-size: .9rem; font-weight: 600; }
-.share-field select, .share-field input { min-height: 42px; padding: 0 12px; border: 1px solid var(--line); border-radius: 8px;
-  background: var(--bg); color: var(--text); font: inherit; font-weight: 400; }
-.share-field select:focus, .share-field input:focus { outline: none; border-color: var(--accent);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); }
-.share-preview { display: grid; place-items: center; min-height: 260px; margin: 0; padding: 12px; border-radius: 10px;
-  background: var(--bg); border: 1px solid var(--line); }
-.share-preview img { display: block; max-width: 100%; max-height: 58dvh; height: auto; border-radius: 6px;
-  box-shadow: 0 2px 10px rgb(0 0 0 / .12); }
-.share-preview .share-status { margin: 0; text-align: center; }
-.share-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; padding-top: 16px; padding-bottom: 20px; }
-.share-actions .btn { display: inline-flex; align-items: center; gap: 8px; }
-.share-actions .btn svg { width: 16px; height: 16px; }
-.share-actions .small { margin-left: auto; }
+.share-dialog-head .icon-btn { min-width: 44px; min-height: 44px; border: 1px solid #6f777b; border-radius: 0; background: transparent; color: #ffffff; }
+.share-dialog-head .icon-btn:hover { background: #303536; }
+.share-kinds { display: flex; flex-wrap: wrap; gap: 0 8px; margin: 24px 0 0; border-bottom: 1px solid var(--line); }
+.share-kind { min-height: 48px; padding: 10px 16px; border: 0; border-bottom: 3px solid transparent; border-radius: 0; background: transparent;
+  color: var(--text); font: inherit; font-size: 1rem; cursor: pointer; }
+.share-kind:hover { color: var(--accent-hover); border-bottom-color: var(--muted); }
+.share-kind[aria-checked="true"] { border-bottom-color: var(--accent); background: var(--accent-bg); color: var(--accent); font-weight: 600; }
+.share-body { display: grid; grid-template-columns: minmax(220px, 280px) minmax(0, 1fr); gap: 32px; margin-top: 28px; }
+.share-fields { display: flex; flex-direction: column; gap: 24px; }
+.share-field { display: flex; flex-direction: column; gap: 8px; font-size: 1.0625rem; font-weight: 600; }
+.share-field select, .share-field input { min-height: 48px; width: 100%; min-width: 0; padding: 8px 12px; border: 2px solid var(--muted); border-radius: 0;
+  background: var(--surface); color: var(--text); font: inherit; font-weight: 400; }
+.share-preview { display: grid; place-items: center; min-width: 0; min-height: 360px; margin: 0; padding: 24px;
+  background: var(--section); }
+.share-preview img { display: block; max-width: 100%; max-height: 62dvh; height: auto; border-radius: 0; }
+.share-preview img[hidden], .share-actions [hidden] { display: none; }
+.share-preview .share-status { margin: 0; max-width: 32ch; text-align: center; }
+.share-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; padding-top: 24px; padding-bottom: 28px; }
+.share-actions .btn svg { width: 18px; height: 18px; }
+.share-actions .small { margin-left: auto; max-width: 42ch; }
 @media (max-width: 700px) {
-  .share-dialog > * { padding-left: 16px; padding-right: 16px; }
-  .share-body { grid-template-columns: 1fr; }
+  .share-dialog { width: calc(100vw - 24px); max-height: calc(100dvh - 24px); }
+  .share-dialog > * { padding-left: 20px; padding-right: 20px; }
+  .share-dialog-head { padding-block: 20px; gap: 16px; }
+  .share-dialog-head h2 { font-size: 1.5rem; }
+  .share-kind { padding-inline: 10px; }
+  .share-body { grid-template-columns: minmax(0, 1fr); gap: 24px; margin-top: 24px; }
+  .share-preview { min-height: 240px; padding: 12px; }
+  .share-preview img { max-height: none; }
   .share-actions .small { margin-left: 0; flex-basis: 100%; }
 }
+
 
 /* the latest sitting's page (templates/latest.html): its figures in a row */
 .latest-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 18px 0 28px; }

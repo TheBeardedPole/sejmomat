@@ -8,12 +8,18 @@
 // window.SejmomatCards: mp(data, kind), compareMps(a, b), compareClubs(a, b) give a
 // canvas; save(canvas, file) hands it over.
 window.SejmomatCards = (() => {
-  const W = 1200, MIN_H = 675, PAD = 64, GAP = 20, FOOT = 132;
-  const BG = "#fbfaf8", SURFACE = "#ffffff", TEXT = "#1d1d1f", MUTED = "#6b6b70", LINE = "#e4e2dd";
-  const YES = "#1f7a4d", NO = "#b3261e", ABSTAIN = "#9a6b00", NOT_CAST = "#8a8a8f";
-  const FOOT_BG = "#1d5fc4", FOOT_TEXT = "#ffffff", FOOT_MUTED = "#d3e2f8";
-  const FAMILY = '"Noto Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif';
-  const font = (weight, size) => `${weight === "bold" ? 700 : 400} ${size}px ${FAMILY}`;
+  const W = 1200, MIN_H = 675, PAD = 64, GAP = 24, FOOT = 96;
+  const BG = "#ffffff", SURFACE = "#f3f3f3", TEXT = "#0b0c0c", MUTED = "#484949", LINE = "#cecece";
+  const YES = "#1f7a4d", NO = "#b3261e", ABSTAIN = "#9a6b00", NOT_CAST = "#6b6b70";
+  const BRAND = "#1d70b8", LINK = "#1a65a6", FOOT_BG = "#0b0c0c", FOOT_TEXT = "#ffffff";
+  const FAMILY = '"Source Sans 3", sans-serif', HEADING = '"Source Serif 4", serif';
+  const font = (weight, size) => `${weight === "bold" || weight === "heading" ? 700 : 400} ${size}px ${weight === "heading" ? HEADING : FAMILY}`;
+  let fontsReady;
+  const loadFonts = () => fontsReady ??= Promise.all([
+    document.fonts.load('400 28px "Source Sans 3"'),
+    document.fonts.load('700 28px "Source Sans 3"'),
+    document.fonts.load('700 64px "Source Serif 4"'),
+  ]).catch((error) => { fontsReady = null; throw error; });
   const pct = (x) => `${(x * 100).toFixed(1).replace(".", ",")}%`;
   const day = new Intl.DateTimeFormat("pl", { day: "numeric", month: "long", year: "numeric" });
   const date = (iso) => day.format(new Date(`${iso.slice(0, 10)}T12:00:00`));
@@ -69,8 +75,8 @@ window.SejmomatCards = (() => {
     setTimeout(() => resolve(null), 8000);   // a slow photo server should not hold up the image
     img.src = src;
   });
-  // a photo into a rounded box, covering it and keeping its proportions
-  const photoBox = (d, photo, x, top, w, h, r = 18) => {
+  // A photo covers its rectangular slot, keeping its proportions.
+  const photoBox = (d, photo, x, top, w, h, r = 0) => {
     d.save();
     d.beginPath();
     d.roundRect(x, top, w, h, r);
@@ -85,65 +91,63 @@ window.SejmomatCards = (() => {
     d.restore();
   };
 
-  // header with the photo on the right; returns where the content starts
-  const header = (d, data, kicker, subtitle, photo) => {
-    const photoW = photo ? 150 : 0, room = W - 2 * PAD - (photo ? photoW + 32 : 0);
-    let y = PAD - 8;
-    d.textBaseline = "top";
-    text(d, kicker, PAD, y, font("bold", 24), MUTED);
-    y += 40;
-    d.font = font("bold", 68);
-    for (const line of wrap(d, data.name, room, 2)) {
-      text(d, line, PAD, y, font("bold", 68), TEXT);
-      y += 92;
+  const masthead = (d, logo) => {
+    d.fillStyle = FOOT_BG;
+    d.fillRect(0, 0, W, 88);
+    d.fillStyle = BRAND;
+    d.fillRect(0, 82, W, 6);
+    if (logo) {
+      const h = 30, w = logo.width * h / logo.height;
+      d.drawImage(logo, PAD, 26, w, h);
     }
-    d.font = font("regular", 30);
-    for (const line of wrap(d, subtitle, room, 2)) {
-      text(d, line, PAD, y, font("regular", 30), MUTED);
-      y += 42;
+    d.textBaseline = "middle";
+    text(d, "sejmomat.pl", W - PAD, 42, font("bold", 26), FOOT_TEXT, "right");
+    d.textBaseline = "top";
+  };
+  const header = (d, data, context, subtitle, photo) => {
+    const photoW = photo ? 150 : 0, room = W - 2 * PAD - (photo ? photoW + 32 : 0);
+    let y = 128;
+    d.textBaseline = "top";
+    d.font = font("heading", 64);
+    for (const line of wrap(d, data.name, room, 2)) {
+      text(d, line, PAD, y, font("heading", 64), TEXT);
+      y += 84;
+    }
+    d.font = font("regular", 26);
+    for (const line of wrap(d, `${context} · ${subtitle}`, room, 3)) {
+      text(d, line, PAD, y + 8, font("regular", 26), MUTED);
+      y += 36;
     }
     if (photo) {
-      const h = Math.round(photoW * 1.25), top = PAD;
-      photoBox(d, photo, W - PAD - photoW, top, photoW, h);
-      y = Math.max(y, top + h + 8);
+      const h = Math.round(photoW * 1.25);
+      photoBox(d, photo, W - PAD - photoW, 132, photoW, h);
+      y = Math.max(y, 132 + h);
     }
-    return y + 22;
+    return y + 40;
   };
-  const tiles = (d, y, rows) => {
-    const tileW = Math.floor((W - 2 * PAD - 2 * GAP) / 3), tileH = 172;
+  const summaryRows = (d, y, rows) => {
+    const width = W - 2 * PAD, rowH = 104;
     rows.forEach(([number, label, color, badge], i) => {
-      const x = PAD + (i % 3) * (tileW + GAP), ty = y + Math.floor(i / 3) * (tileH + GAP);
-      rounded(d, x, ty, tileW, tileH, 18, SURFACE, LINE);
-      let size = 60;
-      if (badge) {
-        // "TOP N%" as a pill in the top right corner, in the site's blue; a
-        // number too wide to sit beside it ("100,0%") is set smaller
-        d.font = font("bold", 22);
-        const label = `TOP ${badge}%`, bw = Math.round(d.measureText(label).width) + 28;
-        for (; size > 40; size -= 2) {
-          d.font = font("bold", size);
-          if (d.measureText(String(number)).width <= tileW - 24 - 20 - bw - 12) break;
-        }
-        rounded(d, x + tileW - 20 - bw, ty + 22, bw, 36, 18, FOOT_BG);
-        d.textBaseline = "middle";
-        text(d, label, x + tileW - 20 - bw / 2, ty + 41, font("bold", 22), FOOT_TEXT, "center");
-        d.textBaseline = "top";
-      }
-      // the number's baseline stays where a 60-pixel one has it
-      d.textBaseline = "alphabetic";
-      d.font = font("bold", 60);
-      text(d, String(number), x + 24, ty + 12 + d.measureText(String(number)).fontBoundingBoxAscent, font("bold", size), color);
-      d.textBaseline = "top";
-      d.font = font("regular", 24);
-      wrap(d, label, tileW - 48, 2).forEach((line, k) => text(d, line, x + 24, ty + 94 + k * 31, font("regular", 24), MUTED));
+      const ty = y + i * rowH;
+      d.fillStyle = i % 2 === 0 ? SURFACE : BG;
+      d.fillRect(PAD, ty, width, rowH);
+      d.fillStyle = LINE;
+      d.fillRect(PAD, ty, width, 1);
+      d.font = font("regular", 28);
+      wrap(d, label, width - 360, 2).forEach((line, j) =>
+        text(d, line, PAD + 24, ty + 22 + j * 34, font("regular", 28), TEXT));
+      text(d, String(number), W - PAD - 24, ty + 16, font("heading", 54), color, "right");
+      if (badge) text(d, `TOP ${badge}%`, W - PAD - 24, ty + 76, font("bold", 20), LINK, "right");
     });
-    return y + Math.ceil(rows.length / 3) * (tileH + GAP) + GAP;
+    d.fillStyle = LINE;
+    d.fillRect(PAD, y + rows.length * rowH, width, 1);
+    return y + rows.length * rowH + 32;
   };
   const bar = (d, x, y, width, parts, height = 26) => {
     const total = parts.reduce((t, [n]) => t + n, 0) || 1;
     d.save();
     d.beginPath();
-    d.roundRect(x, y, width, height, height / 2);
+    d.rect(x, y, width, height);
     d.clip();
     d.fillStyle = LINE;
     d.fillRect(x, y, width, height);
@@ -156,34 +160,34 @@ window.SejmomatCards = (() => {
     }
     d.restore();
   };
-  const footer = (canvas, y, logo) => {
-    const height = Math.max(MIN_H, y + PAD - GAP + FOOT);
+  const footer = (canvas, y) => {
+    const height = Math.max(MIN_H, y + 32 + FOOT);
     const out = Object.assign(document.createElement("canvas"), { width: W, height });
     const d = out.getContext("2d");
+    d.fillStyle = BG;
+    d.fillRect(0, 0, W, height);
     d.drawImage(canvas, 0, 0);
-    d.fillStyle = FOOT_BG;
+    d.fillStyle = BG;
     d.fillRect(0, height - FOOT, W, FOOT);
-    const mid = height - FOOT / 2 + 16, lead = "Zobacz więcej na ";
-    d.textBaseline = "alphabetic";
-    text(d, lead, PAD, mid, font("regular", 36), FOOT_TEXT);
-    d.font = font("regular", 36);
-    text(d, "sejmomat.pl", PAD + d.measureText(lead).width, mid, font("bold", 50), FOOT_TEXT);
-    if (logo) {
-      // the site's wordmark over the data credit, as on the site's own images (sejmomat/card.py)
-      const lh = 40, lw = Math.round(logo.width * lh / logo.height);
-      d.drawImage(logo, W - PAD - lw, height - FOOT + 30, lw, lh);
-      text(d, "Dane: API Sejmu RP", W - PAD, height - 30, font("regular", 22), FOOT_MUTED, "right");
-    } else {
-      text(d, "Dane: API Sejmu RP", W - PAD, mid, font("regular", 24), FOOT_MUTED, "right");
-    }
+    d.fillStyle = LINE;
+    d.fillRect(PAD, height - FOOT, W - 2 * PAD, 2);
+    d.textBaseline = "middle";
+    const lead = "Zobacz więcej na ";
+    text(d, lead, PAD, height - 44, font("regular", 25), MUTED);
+    d.font = font("regular", 25);
+    text(d, "sejmomat.pl", PAD + d.measureText(lead).width, height - 44, font("bold", 28), LINK);
+    text(d, "Dane: API Sejmu RP", W - PAD, height - 44, font("regular", 24), MUTED, "right");
     return out;
   };
-  const panel = (d, y, height) => rounded(d, PAD, y, W - 2 * PAD, height, 18, SURFACE, LINE);
+  const panel = (d, y, height) => {
+    d.fillStyle = SURFACE;
+    d.fillRect(PAD, y, W - 2 * PAD, height);
+  };
 
   const term = (d, data, photo) => {
     const t = data.term, top = t.top || {};
-    let y = header(d, data, "PODSUMOWANIE KADENCJI · POSEŁ NA SEJM", data.subtitle, photo);
-    y = tiles(d, y, [
+    let y = header(d, data, "Podsumowanie kadencji · poseł na Sejm", data.subtitle, photo);
+    y = summaryRows(d, y, [
       [pct(t.turnout), `udział w głosowaniach (${t.cast} z ${t.eligible})`, TEXT, top.turnout],
       [t.missed, "opuszczonych głosowań", t.missed ? ABSTAIN : TEXT],
       [t.rebels, `wyłamań z linii klubu (${pct(t.rebelRate)})`, TEXT],
@@ -213,11 +217,11 @@ window.SejmomatCards = (() => {
       }
       panel(d, y, 28 + 44 + rows.length * 58 + 14);
       let ty = y + 28;
-      text(d, "CHARAKTERYSTYCZNE SŁOWA W WYSTĄPIENIACH", x0, ty, font("bold", 22), MUTED);
+      text(d, "Charakterystyczne słowa w wystąpieniach", x0, ty, font("bold", 22), MUTED);
       ty += 44;
       for (const row of rows) {
         for (const [w, rx2, cw] of row) {
-          rounded(d, x0 + rx2, ty, cw, 46, 23, BG, LINE);
+          rounded(d, x0 + rx2, ty, cw, 46, 0, BG, LINE);
           text(d, w, x0 + rx2 + 18, ty + 7, font("regular", 28), TEXT);
         }
         ty += 58;
@@ -230,8 +234,8 @@ window.SejmomatCards = (() => {
   const sitting = (d, data, photo) => {
     const s = data.sitting;
     const when = s.first.slice(0, 10) === s.last.slice(0, 10) ? date(s.first) : `${date(s.first)} – ${date(s.last)}`;
-    let y = header(d, data, "OSTATNIE POSIEDZENIE SEJMU", [data.club, `${s.sitting}. posiedzenie`, when].filter(Boolean).join(" · "), photo);
-    y = tiles(d, y, [
+    let y = header(d, data, "Ostatnie posiedzenie Sejmu", [data.club, `${s.sitting}. posiedzenie`, when].filter(Boolean).join(" · "), photo);
+    y = summaryRows(d, y, [
       [s.total, "głosowań", TEXT], [s.Y, "razy za", YES], [s.N, "razy przeciw", NO],
       [s.A, "razy wstrzymał(a) się", ABSTAIN], [s.X, s.X === s.total ? "opuszczone: wszystkie" : "opuszczonych głosowań", s.X ? ABSTAIN : TEXT],
       [s.rebel, "razy wbrew linii klubu", TEXT],
@@ -239,7 +243,7 @@ window.SejmomatCards = (() => {
     const x = PAD + 28, width = W - 2 * PAD - 56;
     panel(d, y, 28 + 38 + 26 + 16 + 40 + 18);
     let ty = y + 28;
-    text(d, "GŁOSY POSŁA NA TYM POSIEDZENIU", x, ty, font("bold", 22), MUTED);
+    text(d, "Głosy posła na tym posiedzeniu", x, ty, font("bold", 22), MUTED);
     ty += 38;
     const parts = [[s.Y, YES, "za"], [s.N, NO, "przeciw"], [s.A, ABSTAIN, "wstrz."], [s.X, NOT_CAST, "nie głosował(a)"]];
     bar(d, x, ty, width, parts.map(([n, c]) => [n, c]));
@@ -268,82 +272,75 @@ window.SejmomatCards = (() => {
   };
 
   const mp = async (data, kind) => {
+    await loadFonts();
     const [canvas, d] = blank();
     const [photo, logo] = await Promise.all([loadPhoto(data.photo), loadLogo(data.logo)]);
+    masthead(d, logo);
     const y = (kind === "sitting" ? sitting : term)(d, data, photo);
-    return footer(canvas, y, logo);
+    return footer(canvas, y);
   };
 
-  // ---- two side by side: each figure a row, the two values at the ends with bars
-  // growing from the middle towards them, in one colour for both (no side favoured);
-  // the higher value in bold, except in a neutral row (breaks of the club line: more is
-  // neither better nor worse), where both are drawn alike
+  // Equal value columns use one table grammar; colour never favours a club or MP.
   const versus = (d, y, rows) => {
-    const x = PAD, width = W - 2 * PAD, rowH = 86, mid = W / 2, half = width / 2 - 150;
-    panel(d, y, rows.length * rowH + 24);
-    let ry = y + 12;
-    rows.forEach(([label, a, b, show = (v) => String(v), neutral = false], i) => {
-      if (i) {
-        d.fillStyle = LINE;
-        d.fillRect(x + 24, ry, width - 48, 1);
-      }
-      const max = Math.max(a, b) || 1, cy = ry + rowH / 2;
-      d.textBaseline = "middle";
-      text(d, label, mid, cy - 22, font("regular", 22), MUTED, "center");
-      for (const [v, side] of [[a, -1], [b, 1]]) {
-        const len = Math.round((half - 100) * (v / max));   // room left for a value as wide as "100,0%"
-        d.fillStyle = FOOT_BG;
-        d.globalAlpha = neutral ? 0.55 : v >= max ? 0.9 : 0.35;
-        d.beginPath();
-        d.roundRect(side < 0 ? mid - 24 - len : mid + 24, cy + 4, Math.max(len, 4), 14, 7);
-        d.fill();
-        d.globalAlpha = 1;
-        text(d, show(v), side < 0 ? x + 28 : x + width - 28, cy + 8, font(!neutral && v >= max && a !== b ? "bold" : "regular", 40), TEXT, side < 0 ? "left" : "right");
-      }
-      ry += rowH;
-    });
-    d.textBaseline = "top";
-    return ry + 12 + GAP;
-  };
-  // the two names at the top, each over its side, "vs" between them
-  const pair = (d, kicker, left, right, photos) => {
-    let y = PAD - 8;
-    d.textBaseline = "top";
-    text(d, kicker, W / 2, y, font("bold", 24), MUTED, "center");
-    y += 52;
-    const colW = (W - 2 * PAD - 120) / 2, ph = photos ? 150 : 0, pw = Math.round(ph * 0.8);
-    const sides = [[left, PAD, "left"], [right, W - PAD, "right"]];
-    let bottom = y;
-    sides.forEach(([who, edge, align], i) => {
-      let ty = y;
-      if (photos) {
-        photoBox(d, photos[i], align === "left" ? edge : edge - pw, ty, pw, ph, 16);
-        ty += ph + 18;
-      }
-      d.font = font("bold", 46);
-      for (const line of wrap(d, who.name, colW, 2)) {
-        text(d, line, edge, ty, font("bold", 46), TEXT, align);
-        ty += 58;
-      }
+    const labelW = 450, valueW = (W - 2 * PAD - labelW) / 2, rowH = 96;
+    rows.forEach(([label, a, b, show = String, neutral = false], i) => {
+      const ty = y + i * rowH;
+      d.fillStyle = i % 2 === 0 ? SURFACE : BG;
+      d.fillRect(PAD, ty, W - 2 * PAD, rowH);
+      d.fillStyle = LINE;
+      d.fillRect(PAD, ty, W - 2 * PAD, 1);
+      d.textBaseline = "top";
       d.font = font("regular", 26);
-      for (const line of wrap(d, who.sub || "", colW, 2)) {
-        text(d, line, edge, ty, font("regular", 26), MUTED, align);
-        ty += 36;
+      wrap(d, label, labelW - 40, 2).forEach((line, j) => text(d, line, PAD + 20, ty + 18 + 32 * j, font("regular", 26), TEXT));
+      for (const [value, col] of [[a, 0], [b, 1]]) {
+        const x = PAD + labelW + valueW * (col + 1) - 20;
+        text(d, show(value), x, ty + 22, font(!neutral && a !== b && value === Math.max(a, b) ? "heading" : "regular", 42), TEXT, "right");
       }
-      bottom = Math.max(bottom, ty);
     });
-    d.textBaseline = "middle";
-    rounded(d, W / 2 - 40, y + (photos ? ph / 2 : 30) - 30, 80, 60, 30, FOOT_BG);
-    text(d, "vs", W / 2, y + (photos ? ph / 2 : 30), font("bold", 30), FOOT_TEXT, "center");
+    d.fillStyle = LINE;
+    d.fillRect(PAD, y + rows.length * rowH, W - 2 * PAD, 1);
+    return y + rows.length * rowH + GAP;
+  };
+  const pair = (d, context, left, right, photos) => {
+    const [title, period] = context.split(" · ");
     d.textBaseline = "top";
-    return bottom + 24;
+    text(d, title, PAD, 128, font("heading", 58), TEXT);
+    text(d, period || "", PAD, 208, font("regular", 26), MUTED);
+    const labelW = 450, colW = (W - 2 * PAD - labelW) / 2;
+    let bottom = 260;
+    [left, right].forEach((who, i) => {
+      const x = PAD + labelW + i * colW + 12;
+      let y = 260;
+      if (photos) {
+        photoBox(d, photos[i], x, y, 80, 100);
+        y += 120;
+      }
+      let nameSize = 32;
+      d.font = font("heading", nameSize);
+      while (nameSize > 24 && who.name.split(/\s+/).some((word) => d.measureText(word).width > colW - 32)) {
+        d.font = font("heading", --nameSize);
+      }
+      for (const line of wrap(d, who.name, colW - 32, 4)) {
+        text(d, line, x, y, font("heading", nameSize), TEXT);
+        y += nameSize + 10;
+      }
+      d.font = font("regular", 24);
+      for (const line of wrap(d, who.sub || "", colW - 32, 2)) {
+        text(d, line, x, y + 4, font("regular", 24), MUTED);
+        y += 32;
+      }
+      bottom = Math.max(bottom, y);
+    });
+    return bottom + 32;
   };
 
   // a, b: {name, sub, photo, turnout, brokeLine, speeches, questions, signedMotions, clubSwitches}
   const compareMps = async (a, b, logoSrc) => {
+    await loadFonts();
     const [canvas, d] = blank();
     const [pa, pb, logo] = await Promise.all([loadPhoto(a.photo), loadPhoto(b.photo), loadLogo(logoSrc)]);
-    let y = pair(d, "PORÓWNANIE POSŁÓW · X KADENCJA", a, b, [pa, pb]);
+    masthead(d, logo);
+    let y = pair(d, "Porównanie posłów · X kadencja", a, b, [pa, pb]);
     y = versus(d, y, [
       ["udział w głosowaniach", a.turnout, b.turnout, pct],
       ["wystąpienia na sali plenarnej", a.speeches, b.speeches],
@@ -351,14 +348,16 @@ window.SejmomatCards = (() => {
       ["wyłamania z linii klubu", a.brokeLine, b.brokeLine, String, true],
       ["podpisane poprawki i wnioski", a.signedMotions, b.signedMotions],
     ]);
-    return footer(canvas, y, logo);
+    return footer(canvas, y);
   };
 
   // a, b: {name, sub, members, cohesion, effectiveness, turnout, speeches, questions}; agreement: {rate, votes} or null
   const compareClubs = async (a, b, agreement, logoSrc) => {
+    await loadFonts();
     const [canvas, d] = blank();
     const logo = await loadLogo(logoSrc);
-    let y = pair(d, "PORÓWNANIE KLUBÓW · X KADENCJA", a, b, null);
+    masthead(d, logo);
+    let y = pair(d, "Porównanie klubów · X kadencja", a, b, null);
     const one = (v) => v.toFixed(1).replace(".", ",");
     y = versus(d, y, [
       ["posłów w klubie", a.members, b.members],
@@ -379,7 +378,7 @@ window.SejmomatCards = (() => {
       d.textBaseline = "top";
       y += 120 + GAP;
     }
-    return footer(canvas, y, logo);
+    return footer(canvas, y);
   };
 
   const save = async (canvas, file) => {

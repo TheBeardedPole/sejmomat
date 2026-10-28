@@ -3,10 +3,11 @@
 // subcommittees, parliamentary groups, conferences — by day, with the room,
 // the agenda and links to our committee and print pages. Read in the browser,
 // as the schedule changes every day and the site is not rebuilt every day.
-// "Na żywo" only when the stream has video in it (streamIsOn, static/home.js,
-// which this page loads first for its shared rules: dates, the stream check).
+// Shared availability rules live in static/broadcasts.js; home.js is not needed.
 
 (() => {
+  const { warsawNow, formatWhen, formatDay, plural, load: loadBroadcasts } = window.SejmomatBroadcasts;
+  const { readInterests, daysBetween } = window.SejmomatInterests;
   const box = document.getElementById("harmonogram");
   if (!box) return;
   const L = JSON.parse(box.dataset.labels);
@@ -245,29 +246,20 @@
   };
 
   async function load() {
-    const now = warsawNow();
-    const today = now.slice(0, 10);
-    const till = new Date(Date.parse(`${today}T12:00:00Z`) + Number(box.dataset.days || 21) * 86400000).toISOString().slice(0, 10);
-    try {
-      const r = await fetch(`${box.dataset.api}?since=${today}&till=${till}&limit=500`, { cache: "no-store" });
-      if (!r.ok) throw new Error(r.status);
-      data = (await r.json()).filter((v) => v.startDateTime && v.startDateTime.slice(0, 10) >= today)
-        .sort((a, b) => a.startDateTime.localeCompare(b.startDateTime) || a.title.localeCompare(b.title));
-    } catch {
+    const result = await loadBroadcasts({ api: box.dataset.api, yt: box.dataset.yt, days: Number(box.dataset.days || 21) });
+    if (result.videos === null && !result.ours) {
       if (!data) fail();
       return;
     }
-    checkedAt = now;
-    const yt = await window.SejmomatYT?.check(box.dataset.yt, true);
+    data = result.videos ?? data ?? [];
+    checkedAt = result.checkedAt;
+    const yt = result.ours;
     if (window.SejmomatYT?.key(yt) !== window.SejmomatYT?.key(ours)) {
       ours = yt ? { ...yt, box: window.SejmomatYT.player(yt) } : null;
       ours?.box.classList.add("sched-player-box");
     }
+    live = result.live;
     render();
-    // what should be on air: is it? (video in its stream)
-    const due = data.filter((v) => v.videoLink && v.startDateTime <= now && (!v.endDateTime || now < v.endDateTime));
-    const on = await Promise.all(due.map((v) => streamIsOn(v.videoLink)));
-    live = new Set(due.filter((_, i) => on[i]).map((v) => v.unid));
     // come from "Oglądaj transmisję" (#teraz): the live broadcast starts at once, muted (as
     // browsers allow without a click here), the plenary first; ours, when on, is open already
     if (arriving && !ours && !playing && live.size) {

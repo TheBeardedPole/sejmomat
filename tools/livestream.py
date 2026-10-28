@@ -38,7 +38,6 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from concurrent.futures import ThreadPoolExecutor
 from itertools import zip_longest
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -52,6 +51,7 @@ from sejmomat import model  # noqa: E402
 from sejmomat.model import link_amendments  # noqa: E402  (what an amendment changes, as on vote pages)
 from live_overlay import H, W, Overlay  # noqa: E402
 from live_speaker import BAND, Recogniser, load_mps, read  # noqa: E402
+from live_timeline import PictureTime, SNAP_EVERY  # noqa: E402
 from sejmomat.facts import spread  # noqa: E402
 from sejmomat.social import club_short  # noqa: E402
 
@@ -323,23 +323,14 @@ PAGE_CYCLE = 30                                         # …and faster when the
 PAGE_MIN = 5                                            # called and held (about half a minute), but no faster than this
 MAX_PAGES = 6
 PAGE_STRETCH = 4                                        # a page may run this many lines over to keep a passage whole
-QUIET = 300                                             # seconds without a vote: the panel shows fun facts
 # A break in the sitting: the broadcast holds its wide shot of the hall (tools/break/*.png,
 # thumbnails of it), with nobody named and no votes. Then the screen shows comparisons
 # (sejmomat/facts.py, "compare"), one after another, until the picture changes.
 BREAK_REFS = sorted((Path(__file__).resolve().parent / "break").glob("*.png"))
-BREAK_MATCH = 18                                        # a thumbnail this close to a reference (mean difference, 0-255) is the wide shot
-BREAK_AFTER = 60                                        # the wide shot held this long: a break
-BREAK_ENDS = 2                                          # this many snapshots in a row of something else end it
-BREAK_NO_VOTE = 120                                     # …and none within this long of a vote (results are read out over wide shots too)
-BREAK_NO_SPEAKER = 180                                  # …or of a speaker being named: a motion from the floor can be on the wide shot
 CMP_SECONDS = 20                                        # each comparison on screen this long
 THUMB = (64, 36)
 SPEAKER_SECONDS = 20                                    # how long the card of a speaker who has just begun stays
-SPEAKER_BAR = 600                                       # how long the bar names a speaker (until the next one)
-CAPTION_LAG = 8                                         # the broadcast names a speaker this long after they begin, or later (10th percentile of 73 speeches, October 2026: median 12 s; tools/caption_lag.py)
 LOOKAHEAD = 25                                          # the captions are read this far ahead of the picture, so a speaker's card can start when they do
-SNAP_EVERY = 1                                          # a snapshot of the caption band every this many seconds (a name may be up for little more than a second)
 FACT_SECONDS = 12                                       # a fact card is on screen this long…
 FACT_EVERY = 60                                         # …once in this many seconds, so a long day does not run through them
 CLUB_AFTER = 40                                         # a speech this far in: the cards are the speaker's club's Top 5s
@@ -562,15 +553,13 @@ def main():
             from sejmomat.facts import mp_compare
             # only MPs whose photos are in already (one fetched while drawing stalled the picture
             # for seconds); until enough are, a club comparison instead
-            spoke = [m for m in mp_pool if m["speeches"] and overlay._photos.get(m["id"]) is not None]
+            spoke = [m for m in mp_pool if m["speeches"] and overlay.photos.get(m["id"]) is not None]
             towns = sorted({m["num"] for m in spoke if any(x["num"] == m["num"] and x["tag"] != m["tag"] for x in spoke)})
             if not towns:
                 return None
             num = random.choice(towns)
             k = random.choice([m for m in spoke if m["num"] == num and m["tag"] == "Koalicja"])
             o = random.choice([m for m in spoke if m["num"] == num and m["tag"] == "Opozycja"])
-            for mp in (k["id"], o["id"]):
-                overlay.photo(mp)
             if len(mp_pairs) > 20:
                 mp_pairs.clear()
             mp_pairs[slot] = mp_compare(k, o)
@@ -595,27 +584,15 @@ def main():
                       f"SEJMOMAT · {mode} · {title}")
     # the photos, before the first frame needs them: 8 at a time (the Sejm's API takes a
     # second or two each; afterwards they come from the cache on disk)
-    mps = {mp for card in facts + [f for fs in by_club.values() for f in fs]
-           for mp in [card.get("mp")] + [r["mp"] for r in card.get("rows") or []] if mp}
+    cards = facts + [f for fs in by_club.values() for f in fs] + list(region_of.values())
     began = time.monotonic()
-    print(f"MP photos for the cards: {len(mps)}", flush=True)
-    with ThreadPoolExecutor(8) as pool:
-        for i, _ in enumerate(pool.map(overlay.photo, sorted(mps)), 1):
-            if i % 20 == 0 and i < len(mps):
-                print(f"  photos {i}/{len(mps)}…", flush=True)
-        # those that failed (the API is slow now and then), once more
-        again = [mp for mp in mps if overlay.photo(mp) is None]
-        for mp in again:
-            overlay._photos.pop(mp, None)
-        list(pool.map(overlay.photo, again))
-    got = sum(1 for mp in mps if overlay.photo(mp))
-    print(f"MP photos: {got} of {len(mps)} in {time.monotonic() - began:.0f} s", flush=True)
-    # the photos of every MP a break's comparison may draw, in the background (fetched while a
-    # frame was being drawn, one stalled the picture for a second)
-    def fetch_pool_photos():
-        with ThreadPoolExecutor(4) as fetcher:
-            list(fetcher.map(overlay.photo, sorted({m["id"] for m in mp_pool})))
-    threading.Thread(target=fetch_pool_photos, daemon=True).start()
+    print("MP photos for the cards …", flush=True)
+    def photo_progress(i, total):
+        if i % 20 == 0 and i < total:
+            print(f"  photos {i}/{total}…", flush=True)
+    got = overlay.photos.prepare_cards(cards, progress=photo_progress)
+    print(f"MP photos ready: {got} in {time.monotonic() - began:.0f} s", flush=True)
+    overlay.photos.prefetch(m["id"] for m in mp_pool)
     votes = []
     lock = threading.Lock()
 
@@ -647,17 +624,12 @@ def main():
     if recogniser:
         print(f"speakers: captions read {lead} s ahead of the picture" if lead else
               "speakers: captions read level with the picture (cards start when the caption does)", flush=True)
-    speaker = {"card": None, "at": None, "mp": None, "until": None}
-    pending = []   # speakers recognised ahead of the picture: (moment they begin, update), applied when it gets there
-    pending_chair, chair, chair_now = [], {}, {"text": None}   # who runs the sitting, as the picture shows it
-    breaks = []    # [start, end or None] by the picture's clock: the comparisons' time (read ahead, so known in time)
     refs = []
     for path in BREAK_REFS:
         try:
             refs.append(Image.open(path).convert("L").resize(THUMB).tobytes())
         except OSError:
             pass
-    brk = {"run": None, "misses": 0, "on": False, "first_miss": None, "quiet_from": None}
 
     def wide_shot(path):
         """How close the picture is to the break's wide shot: the least mean difference to a reference."""
@@ -667,29 +639,6 @@ def main():
             return None
         return min(sum(abs(a - b) for a, b in zip(px, r)) / len(px) for r in refs) if refs else None
 
-    def follow_break(seen, score):
-        if score is None:
-            return
-        if score <= BREAK_MATCH:
-            brk["misses"], brk["first_miss"] = 0, None
-            brk["run"] = brk["run"] or seen
-            # the wide shot from the stream's first picture: the sitting has not begun, so at once
-            opening = (brk["run"] - start).total_seconds() <= lead + 2 * SNAP_EVERY
-            spoken = brk["quiet_from"] and seen < brk["quiet_from"]
-            if not brk["on"] and not spoken and (opening or (seen - max(brk["run"], brk["quiet_from"] or brk["run"])).total_seconds() >= BREAK_AFTER):
-                brk["on"] = True
-                with lock:
-                    breaks.append([brk["run"] if opening else max(brk["run"], brk["quiet_from"] or brk["run"]) + timedelta(seconds=BREAK_AFTER), None])
-                print(f"{breaks[-1][0]:%H:%M:%S} przerwa: porównania na ekranie", flush=True)
-        else:
-            brk["misses"] += 1
-            brk["first_miss"] = brk["first_miss"] or seen
-            if brk["misses"] >= BREAK_ENDS:
-                if brk["on"]:
-                    with lock:
-                        breaks[-1][1] = brk["first_miss"]
-                    print(f"{brk['first_miss']:%H:%M:%S} koniec przerwy", flush=True)
-                brk.update(run=None, on=False)
     now = {"clock": start}
 
     def speaker_card(m):
@@ -705,19 +654,20 @@ def main():
     # a past day: the club each MP had then, with today's as a note where it has changed
     clubs_then = clubs_on(start.date().isoformat()) if transcript else {}
 
-    def follow_transcript(clock):
-        on = next((x for x in transcript if x["start"] <= clock < x["end"]), None)
-        if on and speaker["mp"] != on["mp"] and on["mp"] in mp_by_id:
-            m = mp_by_id[on["mp"]]
-            overlay.photo(m["id"])
-            card = speaker_card(m)
-            then = clubs_then.get(m["id"])
-            if then and then != card["club"]:
-                card.update(club=then, now=card["club"])
-            speaker.update(mp=m["id"], at=on["start"], until=on["end"], card=card)
+    intervals = []
+    for entry in transcript:
+        if entry["mp"] not in mp_by_id:
+            continue
+        card = speaker_card(mp_by_id[entry["mp"]])
+        then = clubs_then.get(entry["mp"])
+        if then and then != card["club"]:
+            card.update(club=then, now=card["club"])
+        intervals.append({**entry, "card": card})
+    overlay.photos.prepare(entry["mp"] for entry in intervals)
+    picture_time = PictureTime(start, lead, intervals)
 
     def watch():
-        done, last = -1, {"mp": None, "seen": None}
+        done = -1
         while recogniser:
             time.sleep(0.5)
             # the newest file may still be being written: the ones before it, in order
@@ -738,7 +688,7 @@ def main():
                 path.with_suffix(".ocr.png").unlink(missing_ok=True)
                 thumb = work / f"thumb-{i}.png"
                 if ahead and refs:
-                    follow_break(start + timedelta(seconds=lead + SNAP_EVERY * i), wide_shot(thumb))
+                    picture_time.observe_shot(start + timedelta(seconds=lead + SNAP_EVERY * i), wide_shot(thumb))
                 thumb.unlink(missing_ok=True)
                 if not m:
                     continue
@@ -747,33 +697,20 @@ def main():
                 if m and re.search(r"sejmu", text, re.I):
                     role = "wicemarszałek" if re.search(r"wice", text, re.I) else "marszałek"
                     seen_chair = start + timedelta(seconds=lead + SNAP_EVERY * i) if ahead else now["clock"]
-                    if chair.get("mp") != m["id"]:
-                        club = CHAIR_CLUB.get(m.get("club"), club_short(m.get("club") or ""))
+                    club = CHAIR_CLUB.get(m.get("club"), club_short(m.get("club") or ""))
+                    label = f"Obrady prowadzi: {role} {m['name']} · {club}"
+                    if picture_time.observe_chair(seen_chair, m["id"], label):
                         print(f"{seen_chair:%H:%M:%S} obrady prowadzi: {role} {m['name']} ({club})", flush=True)
-                        with lock:
-                            pending_chair.append((seen_chair, {"mp": m["id"], "text": f"Obrady prowadzi: {role} {m['name']} · {club}"}))
-                        chair["mp"] = m["id"]
                     continue
                 # the moment of that picture: read ahead, from its number (that ffmpeg writes one
                 # every SNAP_EVERY seconds of the stream); from the picture itself, the picture's
                 # clock now (its file numbers run ahead at the start and do not keep time)
                 seen = start + timedelta(seconds=lead + SNAP_EVERY * i) if ahead else now["clock"]
-                # the caption stays a few seconds: one card per speaker, not one per snapshot
-                if last["mp"] == m["id"] and (seen - last["seen"]).total_seconds() < 60:
-                    continue
-                last.update(mp=m["id"], seen=seen)
-                # when they began; never before the picture, where a card would start halfway through
-                began = max(seen - timedelta(seconds=CAPTION_LAG if lead else 0), now["clock"])
-                print(f"{began:%H:%M:%S} na mównicy: {m['name']} ({m.get('club')})"
-                      f"{f', napis o {seen:%H:%M:%S}' if lead else ''}", flush=True)
-                overlay.photo(m["id"])
-                with lock:
-                    pending.append((began, {"mp": m["id"], "at": began, "until": None, "card": speaker_card(m)}))
-                    # someone has the floor: a break on screen ends when they began, and none starts for a while
-                    if brk["on"] and breaks and breaks[-1][1] is None:
-                        breaks[-1][1] = max(began, breaks[-1][0])
-                        print(f"{breaks[-1][1]:%H:%M:%S} koniec przerwy (mówca)", flush=True)
-                    brk.update(on=False, run=None, misses=0, quiet_from=seen + timedelta(seconds=BREAK_NO_SPEAKER))
+                overlay.photos.prepare([m["id"]])
+                began = picture_time.observe_speaker(seen, speaker_card(m), now["clock"])
+                if began is not None:
+                    print(f"{began:%H:%M:%S} na mównicy: {m['name']} ({m.get('club')})"
+                          f"{f', napis o {seen:%H:%M:%S}' if lead else ''}", flush=True)
     if not transcript:
         threading.Thread(target=watch, daemon=True).start()
     time.sleep(1)
@@ -781,15 +718,16 @@ def main():
     picks, turns = {}, {}
     showing = {"until": 0.0, "speaker": None, "start": 0.0}   # when the card on screen goes; the speaker card's turn
 
-    def pick(slot, clock):
+    def pick(slot, clock, picture):
         """The card for a slot, chosen once: while an MP has been speaking a while (a longer
         speech), the next of their club's cards; otherwise the next of the general turn."""
+        speaker = picture.speaker
         if slot not in picks:
             sp, at = speaker["card"], speaker["at"]
             # their constituency's MPs first (once a speech), then their club's cards in the club's turn
             region = region_of.get(sp.get("mp")) if sp else None
             pool = by_club.get(sp["club"]) if sp else None
-            speaking = sp and club_after <= (clock - at).total_seconds() < SPEAKER_BAR and not (speaker["until"] and clock > speaker["until"])
+            speaking = picture.speaking and club_after <= (clock - at).total_seconds()
             if speaking and region and ("region", at) not in turns:
                 turns[("region", at)] = True
                 picks[slot] = region
@@ -852,19 +790,11 @@ def main():
 
     def frame(clock):
         """The overlay for the picture at `clock`."""
-        if transcript:
-            follow_transcript(clock)
         with lock:
             shown = [v for v in votes if warsaw(v["date"]) <= clock]
-            # a speaker recognised ahead: theirs once the picture reaches the moment they began
-            while pending and pending[0][0] <= clock:
-                speaker.update(pending.pop(0)[1])
-            while pending_chair and pending_chair[0][0] <= clock:
-                chair_now["text"] = pending_chair.pop(0)[1]["text"]
-            on_break = next((b for b in breaks if b[0] <= clock and (b[1] is None or clock < b[1])), None)
-        # a break: comparisons over the hall, nothing else (not within BREAK_NO_VOTE of a vote)
-        since_vote = (clock - warsaw(shown[-1]["date"])).total_seconds() if shown else 1e9
-        if on_break and (compares or mp_pool) and since_vote > BREAK_NO_VOTE:
+        picture = picture_time.frame(clock, warsaw(shown[-1]["date"]) if shown else None)
+        speaker, on_break = picture.speaker, picture.on_break
+        if on_break and (compares or mp_pool):
             since = (clock - on_break[0]).total_seconds()
             slot, into = int(since // CMP_SECONDS), since % CMP_SECONDS
             length = CMP_SECONDS
@@ -886,16 +816,16 @@ def main():
             if c:
                 return overlay.frame_scene(overlay.compare(c, into, length), hhmm)
         item, topic, vote = captions(shown, tags, title)
-        recent = shown and (clock - warsaw(shown[-1]["date"])).total_seconds() < QUIET
+        recent = picture.recent_vote
         chip = note = None
         if shown and not recent:
             # a debate or a break: the vote below is an earlier one
             vote = textwrap.shorten(f"Ostatnie głosowanie ({shown[-1]['date'][11:16]}): {vote.replace('Głosowanie ', '')}", 112, placeholder="…")
         sp = speaker["card"]
-        speaking = bool(sp) and 0 <= (clock - speaker["at"]).total_seconds() < SPEAKER_BAR and not (speaker["until"] and clock > speaker["until"])
+        speaking = picture.speaking
         # in a block of votes, someone named after the latest one has the floor (a formal motion,
         # a question before the vote): they are shown, until the next vote
-        floor = bool(recent) and speaking and speaker["at"] > warsaw(shown[-1]["date"])
+        floor = picture.floor
         if not recent or floor:
             # no votes going on, or a speaker between them: the bar names who is speaking
             if speaking:
@@ -927,7 +857,7 @@ def main():
                 slot, into = int((ts - first) // every), (ts - first) % every
                 begun = ts - into
                 if not (showing["speaker"] and showing["start"] <= begun < showing["start"] + SPEAKER_SECONDS):
-                    c = pick(slot, clock)
+                    c = pick(slot, clock, picture)
                     if c.get("kind") == "region":   # five MPs a page, five seconds a page
                         length = min(max(10, 5 * -(-len(c["rows"]) // 5)), 30, every - 1)
                     else:
@@ -935,7 +865,7 @@ def main():
                     if into < length:
                         card = overlay.card(c, into, length)
                         showing["until"] = begun + length
-        return overlay.frame(item, topic, vote, panel, card, chip, note, clock=f"{clock:%H:%M}", chair=chair_now["text"])
+        return overlay.frame(item, topic, vote, panel, card, chip, note, clock=f"{clock:%H:%M}", chair=picture.chair)
 
     if args.fast and args.out in ("preview", "rtmp"):
         sys.exit("--fast is for a file.")

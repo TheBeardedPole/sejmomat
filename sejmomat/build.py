@@ -1080,8 +1080,9 @@ def run():
         root="../", site_root="../", path="sejmdle/", full_path="sejmdle/", lang="pl",
         alternates={"pl": "../index.html", "en": "../en/index.html"}, **ctx)
     text = game.read_text(encoding="utf-8").replace("<!-- sejmomat-header -->", header.strip(), 1)
-    for name in ("header.css", "header.js"):   # versioned, as on the site's pages
+    for name in ("header.css", "header.js", "catalog.css"):   # versioned, as on the site's pages
         text = text.replace(f'"../static/{name}"', f'"../static/{name}?v={static_version(name)}"')
+    text = text.replace('"sejmdle.css"', f'"sejmdle.css?v={hashlib.sha256((game.parent / "sejmdle.css").read_bytes()).hexdigest()[:10]}"')
     game.write_text(text, encoding="utf-8")
 
     # Fun facts for the stream's quiet moments (tools/livestream.py).
