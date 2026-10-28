@@ -4,7 +4,7 @@
 {% macro for_you(page) %}
 {# The reader's interests and what happened in them (static/home.js, dane/zainteresowania.json).
    Shown only with scripts; the choice stays in the browser. #}
-<div id="dla-ciebie" class="for-you" hidden data-page="{{ page }}" data-root="{{ root }}" data-src="{{ site_root }}dane/zainteresowania.json"
+<div id="dla-ciebie" class="for-you" hidden data-page="{{ page }}" data-root="{{ root }}" data-src="{{ site_root }}dane/zainteresowania.json" data-sala="{{ site_root }}dane/sala.json"
   data-photo="https://api.sejm.gov.pl/sejm/term{{ TERM }}/MP/{id}/photo-mini"
   data-interests="{{ interest_list | tojson | forceescape }}"
   data-labels="{{ {"askTitle": _("Co Cię interesuje?"),
@@ -55,6 +55,12 @@
                    "questions": _("{n} interpelacji i zapytań, w tym {recent} w ostatnich 90 dniach"),
                    "bills": _("Wśród autorów projektów w temacie {topic} ({n}), ostatnio"),
                    "moreReasons": _("i {n} więcej na profilu posła"),
+                   "salaTitle": _("Sala posiedzeń"),
+                   "salaLabel": _("Sala posiedzeń Sejmu: posłowie pracujący nad Twoimi tematami zaznaczeni"), "rostrum": _("Mównica"),
+                   "salaCount": [_("Nad Twoimi tematami pracuje {n} poseł"), _("Nad Twoimi tematami pracuje {n} posłów"), _("Nad Twoimi tematami pracuje {n} posłów")],
+                   "salaNone": _("Nikt nie pracuje nad tymi tematami."), "salaWorks": _("pracuje nad"),
+                   "salaOn": _("pracuje nad Twoimi tematami (im ciemniej, tym więcej)"), "salaOff": _("pozostali: najedź, by zobaczyć"),
+                   "salaSource": _("układ miejsc według planu sali Kancelarii Sejmu"),
                    "allMps": _("Pokaż wszystkich"), "prev": _("Poprzedni"), "next": _("Następni"),
                    "mpsAllText": _("Z każdego klubu i koła do trzech posłów, którzy najwięcej pracują nad Twoimi tematami. Kolejność zmienia się przy każdej wizycie."),
                    "profile": _("Zobacz więcej")} | tojson | forceescape }}"></div>

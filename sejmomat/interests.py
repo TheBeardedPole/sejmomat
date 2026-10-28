@@ -158,6 +158,23 @@ def suggested_mps(spec, mp_rows, committees, bills, today):
     """{interest id: [{"id", "score", "why": [reason]}]}, best first, for MPs in
     office: the best MP_PER_INTEREST and the best of each club not among them; a reason is {"k": "committee", "code", "fn"}, {"k": "questions",
     "n", "recent", "to"} or {"k": "bills", "n", "root"} (the latest bill)."""
+    club = {r["mp"]["id"]: r["mp"].get("club") or "" for r in mp_rows}
+    out = {}
+    for iid, rows in scored_mps(spec, mp_rows, committees, bills, today).items():
+        # the best of every club too, so that the page can suggest one MP from each
+        kept, clubs = rows[:MP_PER_INTEREST], {club[x["id"]] for x in rows[:MP_PER_INTEREST]}
+        for x in rows[MP_PER_INTEREST:]:
+            if club[x["id"]] not in clubs:
+                clubs.add(club[x["id"]])
+                kept.append(x)
+        out[iid] = kept
+    return out
+
+
+def scored_mps(spec, mp_rows, committees, bills, today):
+    """{interest id: [{"id", "score", "why"}]}: every MP in office who works on the interest
+    (score of MP_MIN_SCORE or more), best first; suggested_mps keeps the best of them, the
+    seating plan on the home page (dane/sala.json) marks them all."""
     recent = (today - timedelta(days=MP_DAYS)).isoformat()
     roles = defaultdict(dict)   # mp -> {committee code: function}
     for c in committees:
@@ -195,14 +212,7 @@ def suggested_mps(spec, mp_rows, committees, bills, today):
             if score >= MP_MIN_SCORE:
                 rows.append({"id": mp["id"], "score": round(score, 2), "why": why})
         rows.sort(key=lambda x: (-x["score"], x["id"]))
-        # the best of every club too, so that the page can suggest one MP from each
-        club = {r["mp"]["id"]: r["mp"].get("club") or "" for r in mp_rows}
-        kept, clubs = rows[:MP_PER_INTEREST], {club[x["id"]] for x in rows[:MP_PER_INTEREST]}
-        for x in rows[MP_PER_INTEREST:]:
-            if club[x["id"]] not in clubs:
-                clubs.add(club[x["id"]])
-                kept.append(x)
-        out[i["id"]] = kept
+        out[i["id"]] = rows
     return out
 
 
@@ -240,4 +250,28 @@ def build(ctx, procs, committees, spec=None, today=None, en=None):
         "bills": {x["root"]: bills[x["root"]]["title"] for rows in suggested.values() for y in rows
                   for x in y["why"] if x["k"] == "bills" and x["root"] in bills},
         "suggested": suggested,
+    }
+
+
+def hall(ctx, committees, spec=None, today=None):
+    """dane/sala.json for the seating plan on the home page (static/home.js): every seat
+    with its MP (data/seating.json, read from the Chancellery's plan by tools/seating.py),
+    every MP's name and club, and per interest the MPs who work on it, with their score
+    (scored_mps). None without a seating plan."""
+    path = DATA / "seating.json"
+    if not path.exists():
+        return None
+    plan = json.loads(path.read_text(encoding="utf-8"))
+    spec = load() if spec is None else spec
+    today = today or date.today()
+    bills = {b["root"]: {"title": b["title"], "tags": b.get("tags", []), "date": b.get("last") or "",
+                         "mps": ((b.get("author") or {}).get("mps") or [])} for b in ctx["bills"]}
+    mps = {r["mp"]["id"]: r["mp"] for r in ctx["mp_rows"] if r["mp"].get("active", True)}
+    seats = [[s["x"], s["y"], s["mp"] if s["mp"] in mps else None] for _, s in sorted(plan["seats"].items(), key=lambda kv: int(kv[0]))]
+    scored = scored_mps(spec, ctx["mp_rows"], committees, bills, today)
+    return {
+        "aspect": plan["aspect"], "source": plan.get("source"),
+        "seats": seats,
+        "mps": {m["id"]: [m["firstLastName"], club_short(m.get("club") or ""), m.get("districtName") or ""] for m in mps.values()},
+        "active": {iid: {x["id"]: x["score"] for x in rows} for iid, rows in scored.items()},
     }

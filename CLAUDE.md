@@ -279,6 +279,16 @@ Live on sejmomat.pl:
   sections behind Menu below 1280px. Breaks of the club line are neutral everywhere (no red, no
   side lit as a winner in comparisons; overlay rows `"better": "none"`).
 
+- **Seating plan on the home page** (`dane/sala.json`, `static/home.js` drawHall): every seat as in the
+  Chancellery's plan (`data/seating.json`, read by `python tools/seating.py <plan.pdf>`, which prints
+  anything it could not place; redo it when the Sejm publishes a new plan), MPs with a score of 4 or more
+  in the reader's topics marked in three strengths (`interests.scored_mps`), the rest named on hover;
+  foldable, the choice kept in localStorage (`sejmomat-sala`).
+- **Support window** (`static/app.js` showSupport): once a day after 3 minutes on the site with consent
+  (time counted in `sejmomat-support`), after 3 minutes on one page without it (nothing stored); the
+  monthly support against the tiers (150, 200, 550 zł) from `static/wsparcie.json`, edited by hand
+  (a push publishes it in a minute).
+
 Waiting on the owner:
 
 - **Posting day summaries** (no social media accounts yet) (`.github/workflows/social.yml`): to X

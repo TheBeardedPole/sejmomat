@@ -699,6 +699,13 @@ EN = {
     "Nie znaleźliśmy pracy tego posła w wybranych tematach.": "We found no work by this MP in the chosen topics.",
     "Wszystkie interpelacje": "All interpellations", "Wszystkie komisje": "All committees",
     "Nie udało się wczytać danych o tematach.": "Could not load the topic data.",
+    # the seating plan on the home page
+    "Mównica": "Rostrum", "Nad Twoimi tematami pracuje {n} poseł": "{n} MP works on your topics",
+    "Nad Twoimi tematami pracuje {n} posłów": "{n} MPs work on your topics", "Nikt nie pracuje nad tymi tematami.": "Nobody works on these topics.",
+    "Sala posiedzeń": "The chamber", "Sala posiedzeń Sejmu: posłowie pracujący nad Twoimi tematami zaznaczeni": "The Sejm's chamber: MPs who work on your topics marked",
+    "pozostali: najedź, by zobaczyć": "others: hover to see", "pracuje nad": "works on",
+    "pracuje nad Twoimi tematami (im ciemniej, tym więcej)": "works on your topics (the darker, the more)",
+    "układ miejsc według planu sali Kancelarii Sejmu": "seating from the Chancellery of the Sejm's plan",
     "Grafiki": "Images", "Następni": "Next", "Pokaż wszystkich": "Show all", "Poprzedni": "Previous",
     "Posłowie każdego klubu, którzy najwięcej pracują nad tematami, które obserwujesz: w komisjach, interpelacjach i projektach ustaw.":
         "MPs from every club who work most on the topics you follow: in committees, interpellations and bills.",

@@ -591,3 +591,62 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .toc { margin: 8px 0 24px; padding: 12px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
 .toc ol { margin: 0; padding-left: 1.3em; columns: 2 16em; column-gap: 28px; }
 .toc li { margin: 3px 0; break-inside: avoid; }
+
+/* the Sejm's seating plan in the suggested MPs section (static/home.js drawHall): grey seats,
+   the MPs working on the reader's topics in the accent, three strengths; a card on hover */
+.sala { margin: 8px 0 22px; }
+.sala-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin-bottom: 8px; }
+.sala-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.sala-chip { min-height: 34px; padding: 0 12px; font-size: .9rem; }
+.sala-count { margin: 0; font-weight: 600; }
+.sala-wrap { position: relative; }
+.sala-plan { display: block; width: 100%; height: auto; touch-action: manipulation; }
+.sala-plan rect { fill: var(--line); stroke: color-mix(in srgb, var(--text) 10%, transparent); stroke-width: .6; cursor: pointer;
+  transition: fill .2s ease, transform .15s ease; transform-box: fill-box; transform-origin: center; }
+.sala-plan rect.free { fill: none; stroke-dasharray: 2 2; cursor: default; }
+.sala-plan rect.on.t1 { fill: color-mix(in srgb, var(--accent) 40%, var(--surface)); }
+.sala-plan rect.on.t2 { fill: color-mix(in srgb, var(--accent) 70%, var(--surface)); }
+.sala-plan rect.on.t3 { fill: var(--accent); }
+.sala-plan rect.hover { stroke: var(--text); stroke-width: 2; transform: scale(1.35); }
+.sala-rostrum { fill: none; stroke: var(--muted); stroke-width: 3; stroke-linecap: round; }
+.sala-rostrum-label { fill: var(--muted); font-size: 15px; font-weight: 600; text-anchor: middle; letter-spacing: .06em; text-transform: uppercase; }
+.sala-tip { position: absolute; z-index: 5; display: flex; flex-direction: column; gap: 2px; max-width: 260px; padding: 9px 12px; border-radius: 10px;
+  background: var(--surface); border: 1px solid var(--line); box-shadow: var(--float-shadow); font-size: .88rem; pointer-events: none; }
+.sala-tip a { pointer-events: auto; font-weight: 600; margin-top: 2px; }
+.sala-tip-topics { color: var(--accent); }
+.sala-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; margin: 6px 0 0; }
+.sala-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; background: var(--line); vertical-align: -1px; }
+.sala-legend .sw.on { background: var(--accent); }
+@media (prefers-reduced-motion: reduce) { .sala-plan rect { transition: none; } }
+
+/* the support window (static/app.js showSupport): the line about funding, a meter of the
+   monthly support with a tick at each tier, what each tier makes possible */
+.fund-dialog { width: min(520px, calc(100vw - 32px)); padding: 26px 26px 22px; border: 1px solid var(--line); border-radius: 16px;
+  background: var(--surface); color: var(--text); box-shadow: 0 24px 64px rgb(0 0 0 / .3); }
+.fund-dialog::backdrop { background: rgb(10 14 24 / .55); }
+.fund-dialog h2 { margin: 0 0 6px; font-size: 1.35rem; padding-right: 32px; }
+.fund-dialog .support-close { position: absolute; top: 10px; right: 10px; width: 36px; height: 36px; border: 0; border-radius: 50%;
+  background: none; color: var(--muted); font-size: 1.4rem; cursor: pointer; }
+.fund-dialog .support-close:hover { color: var(--text); background: var(--bg); }
+.fund-lead { margin: 0 0 18px; font-size: 1.05rem; line-height: 1.45; }
+.fund-meter { padding: 6px 0 2px; }
+.fund-track { position: relative; display: block; height: 14px; border-radius: 99px; background: var(--bg); border: 1px solid var(--line); overflow: visible; }
+.fund-fill { position: absolute; inset: 0 auto 0 0; border-radius: 99px; background: var(--accent); min-width: 0; transition: width .8s cubic-bezier(.2,.8,.2,1); }
+.fund-tick { position: absolute; top: -5px; width: 3px; height: 22px; margin-left: -1.5px; border-radius: 2px; background: var(--muted); }
+.fund-tick.done { background: var(--y); }
+.fund-now { margin: 8px 0 14px; font-size: .9rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.fund-tiers { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.fund-tier { display: grid; grid-template-columns: 4.5em 1fr; gap: 10px; align-items: baseline; padding: 8px 12px; border-radius: 10px; background: var(--bg); }
+.fund-tier strong { font-variant-numeric: tabular-nums; color: var(--accent); }
+.fund-tier.done strong { color: var(--y); }
+.fund-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: 0; }
+.fund-go { min-height: 46px; padding: 0 22px; font-size: 1rem; }
+@media (prefers-reduced-motion: reduce) { .fund-fill { transition: none; } }
+.sala-toggle { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 40px; padding: 4px 0; border: 0; border-bottom: 1px solid var(--line);
+  background: none; color: var(--text); font: inherit; font-weight: 700; text-align: left; cursor: pointer; }
+.sala-toggle::before { content: ""; width: 8px; height: 8px; border-right: 2px solid var(--accent); border-bottom: 2px solid var(--accent);
+  transform: rotate(-45deg); transition: transform .15s; margin: 0 2px; }
+.sala-toggle[aria-expanded="true"]::before { transform: rotate(45deg); }
+.sala-toggle-count { margin-left: auto; font-weight: 400; font-size: .9rem; color: var(--muted); }
+.sala-body { padding-top: 10px; }
+@media (prefers-reduced-motion: reduce) { .sala-toggle::before { transition: none; } }

@@ -1139,6 +1139,10 @@ def run():
         interests.build(ctx, processes.load(), committee_list, today=ctx["generated"].date(), en=translator("en")),
         ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
+    sala = interests.hall(ctx, committee_list, today=ctx["generated"].date())
+    if sala:
+        (SITE / "dane" / "sala.json").write_text(json.dumps(sala, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
     write_api({**ctx, "print_meta": print_meta, "source_items": source_items}, ctx["generated"])
 
     # Apache/LiteSpeed hosting (e.g. Hostinger): let other sites use the API,

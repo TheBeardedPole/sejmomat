@@ -778,11 +778,148 @@ if (typeof document !== "undefined") (() => {
       link(page, `${L.profile} →`, false, { className: "mp-more" }));
   };
 
+  // ---- the Sejm's seating plan (dane/sala.json, from the Chancellery's plan): every seat, the
+  // MPs who work on the reader's topics marked (stronger, the more they do), the others named
+  // on hover; a click on a seat opens the MP's page (on a touch screen a tap shows who sits
+  // there, with the link). The followed topics are switches above it.
+  let sala = null;
+  const loadSala = () => sala ??= fetch(home.dataset.sala).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const hallBox = () => {
+    const box = el("div", { className: "sala" });
+    loadSala().then((plan) => { if (plan) drawHall(box, plan); else box.remove(); });
+    return box;
+  };
+  const drawHall = (box, plan) => {
+    const on = new Set(state.ids);
+    const xs = plan.seats.map((s) => s[0]), ys = plan.seats.map((s) => s[1]);
+    const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+    const W = 1000, pad = 16, unit = (W - 2 * pad) / (x1 - x0);
+    const H = Math.round((y1 - y0) * unit / plan.aspect + 2 * pad + 34);
+    const X = (x) => pad + (x - x0) * unit, Y = (y) => pad + (y - y0) * unit / plan.aspect;
+    const NS = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    svg.setAttribute("class", "sala-plan");
+    svg.setAttribute("role", "img");
+    svg.setAttribute("aria-label", L.salaLabel);
+    const size = 13;
+    const rects = plan.seats.map(([x, y, mp]) => {
+      const r = document.createElementNS(NS, "rect");
+      r.setAttribute("x", (X(x) - size / 2).toFixed(1));
+      r.setAttribute("y", (Y(y) - size / 2).toFixed(1));
+      r.setAttribute("width", size);
+      r.setAttribute("height", size);
+      r.setAttribute("rx", 3);
+      if (mp) r.dataset.mp = mp;
+      else r.setAttribute("class", "free");
+      svg.append(r);
+      return r;
+    });
+    // the rostrum, where the plan has it: in front of the front rows' middle
+    const front = Math.max(...plan.seats.filter((s) => Math.abs(s[0] - (x0 + x1) / 2) < (x1 - x0) * 0.08).map((s) => s[1]));
+    const rost = document.createElementNS(NS, "path");
+    const cx = W / 2, cy = Y(front) + 26;
+    rost.setAttribute("d", `M ${cx - 70} ${cy + 8} Q ${cx} ${cy - 22} ${cx + 70} ${cy + 8}`);
+    rost.setAttribute("class", "sala-rostrum");
+    svg.append(rost);
+    const rl = document.createElementNS(NS, "text");
+    rl.setAttribute("x", cx);
+    rl.setAttribute("y", cy + 26);
+    rl.setAttribute("class", "sala-rostrum-label");
+    rl.textContent = L.rostrum;
+    svg.append(rl);
+
+    const count = el("p", { className: "sala-count", ariaLive: "polite" });
+    const tip = el("div", { className: "sala-tip", hidden: true, role: "status" });
+    // an MP's best score in any topic switched on (sums would make two light topics look like one
+    // strong); marked from MARK up, in three strengths. Lower scores are named on hover only.
+    const MARK = 4;
+    const scoreOf = (mp) => Math.max(0, ...state.ids.filter((id) => on.has(id)).map((id) => plan.active[id]?.[mp] || 0));
+    const paint = () => {
+      let n = 0;
+      rects.forEach((r) => {
+        if (!r.dataset.mp) return;
+        const sc = scoreOf(r.dataset.mp);
+        r.setAttribute("class", sc >= MARK ? `on t${sc >= MARK + 2 ? 3 : sc >= MARK + 1 ? 2 : 1}` : "");
+        if (sc >= MARK) n++;
+      });
+      count.textContent = n ? plural(n, L.salaCount).replace("{n}", n) : L.salaNone;
+    };
+    const chips = state.ids.map((id) => {
+      const b = el("button", { type: "button", className: "toggle-chip sala-chip", textContent: nameOf(id) });
+      b.setAttribute("aria-pressed", "true");
+      b.addEventListener("click", () => {
+        if (on.has(id) && on.size === 1) return;   // at least one topic stays on
+        if (on.has(id)) on.delete(id); else on.add(id);
+        b.setAttribute("aria-pressed", String(on.has(id)));
+        paint();
+      });
+      return b;
+    });
+    const pageOf = (mp) => {
+      const mine = state.ids.filter((id) => plan.active[id]?.[mp]);
+      return `${ROOT}posel/${mp}.html${mine.length ? `?tematy=${mine.join(",")}#w-twoich-tematach` : ""}`;
+    };
+    const show = (r, pinned) => {
+      const mp = r.dataset.mp;
+      if (!mp) { tip.hidden = true; return; }
+      const [name, club, district] = plan.mps[mp] || [`#${mp}`, "", ""];
+      const mine = state.ids.filter((id) => plan.active[id]?.[mp]);
+      tip.replaceChildren(...[el("strong", { textContent: name }),
+        el("span", { className: "muted", textContent: [club === "niezrzeszeni" ? L.independent : club, district && `${L.district} ${district}`].filter(Boolean).join(" · ") }),
+        mine.length ? el("span", { className: "sala-tip-topics", textContent: `${L.salaWorks}: ${mine.map(nameOf).join(", ")}` }) : null,
+        pinned ? link(pageOf(mp), `${L.profile} →`) : null].filter(Boolean));
+      const b = r.getBoundingClientRect(), host = box.getBoundingClientRect();
+      tip.hidden = false;
+      const left = Math.min(Math.max(8, b.left - host.left + b.width / 2 - tip.offsetWidth / 2), host.width - tip.offsetWidth - 8);
+      tip.style.left = `${left}px`;
+      tip.style.top = `${b.top - host.top - tip.offsetHeight - 10}px`;
+      rects.forEach((x) => x.classList.toggle("hover", x === r));
+    };
+    let touch = false;
+    svg.addEventListener("pointerover", (e) => { if (e.pointerType === "mouse" && e.target.dataset?.mp) show(e.target, false); });
+    svg.addEventListener("pointerleave", (e) => { if (e.pointerType === "mouse") { tip.hidden = true; rects.forEach((x) => x.classList.remove("hover")); } });
+    svg.addEventListener("pointerdown", (e) => { touch = e.pointerType !== "mouse"; });
+    svg.addEventListener("click", (e) => {
+      const mp = e.target.dataset?.mp;
+      if (!mp) return;
+      if (touch) show(e.target, true);
+      else location.href = pageOf(mp);
+    });
+    document.addEventListener("click", (e) => { if (touch && !box.contains(e.target)) tip.hidden = true; });
+    paint();
+    // folded or open, as the reader last left it (a setting they asked for, kept like the theme)
+    const KEY = "sejmomat-sala";
+    let open = true;
+    try { open = localStorage.getItem(KEY) !== "closed"; } catch { /* default: open */ }
+    const body = el("div", { className: "sala-body", id: "sala-body" },
+      el("div", { className: "sala-head" }, el("div", { className: "sala-chips" }, chips), count),
+      el("div", { className: "sala-wrap" }, svg, tip),
+      el("p", { className: "sala-legend muted small" },
+        el("span", { className: "sw on" }), ` ${L.salaOn} `, el("span", { className: "sw" }), ` ${L.salaOff}`,
+        el("span", { className: "sala-src" }, ` · ${L.salaSource}`)));
+    const toggle = el("button", { type: "button", className: "sala-toggle" },
+      el("span", { textContent: L.salaTitle }), el("span", { className: "sala-toggle-count" }));
+    toggle.setAttribute("aria-controls", "sala-body");
+    const set = (v) => {
+      open = v;
+      body.hidden = !open;
+      toggle.setAttribute("aria-expanded", String(open));
+      toggle.lastChild.textContent = open ? "" : count.textContent;
+    };
+    toggle.addEventListener("click", () => {
+      set(!open);
+      try { localStorage.setItem(KEY, open ? "open" : "closed"); } catch { /* lasts for this page */ }
+    });
+    set(open);
+    box.replaceChildren(toggle, body);
+  };
+
   // the home page: one MP from each club (a different one on each visit, clubs in a new
   // order), three at a time in a row that scrolls, and a link to all of them
   const mps = () => {
     const picked = rotate(mpPools(data, state.ids));
-    const body = [el("p", { className: "muted", textContent: L.mpsText })];
+    const body = [el("p", { className: "muted", textContent: L.mpsText }), hallBox()];
     if (!picked.length) {
       body.push(el("p", { textContent: L.mpsNone }));
       return section("poslowie-tematy", L.mpsTitle, body);

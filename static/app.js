@@ -254,32 +254,42 @@ const SITE_ROOT = LANG === "en" ? `${ROOT}../` : ROOT;
 const T = {
   pl: {
     privacy: "Prywatność", consentSettings: "Ustawienia zgody", stats: "Statystyki", contents: "Spis treści", articles: "Artykuły",
-    consentText: "Ta strona Cię nie śledzi. Za Twoją zgodą zapisze w przeglądarce licznik odwiedzonych podstron, " +
-      "używany wyłącznie po to, by od czasu do czasu przypomnieć o możliwości wsparcia projektu, i sama włączy odtwarzacz " +
+    consentText: "Ta strona Cię nie śledzi. Za Twoją zgodą zapisze w przeglądarce, ile czasu dziś tu spędzasz, " +
+      "wyłącznie po to, by najwyżej raz dziennie przypomnieć o możliwości wsparcia projektu, i sama włączy odtwarzacz " +
       "YouTube, gdy nadajemy na żywo (Google otrzymuje wtedy Twój adres IP).",
     consentTextGa: "Za Twoją zgodą strona użyje Google Analytics, by liczyć odwiedziny (pliki cookie Google), i zapisze w przeglądarce " +
-      "licznik odwiedzonych podstron, używany do przypominania o możliwości wsparcia projektu, oraz sama włączy odtwarzacz YouTube, " +
+      "czas spędzony dziś na stronie, używany do przypominania o możliwości wsparcia projektu, oraz sama włączy odtwarzacz YouTube, " +
       "gdy nadajemy na żywo. Bez zgody nic z tego się nie dzieje.",
     pitchGa: "Projekt jest darmowy i bez reklam. Jeśli chcesz, możesz postawić autorowi kawę.",
     essential: "Tylko niezbędne", agree: "Zgadzam się",
     support: "Wesprzyj", close: "Zamknij", useful: "Sejmomat się przydaje?",
     pitch: "Projekt jest darmowy, bez reklam i śledzenia. Jeśli chcesz, możesz postawić autorowi kawę.",
     buy: "Postaw kawę", later: "Nie teraz",
+    fundTitle: "Wesprzyj Sejmomat",
+    fundText: "Sejmomat jest i będzie darmowy, ale żeby się rozwijać potrzebuje funduszy.",
+    fundNow: "Teraz: {x} zł miesięcznie", fundMonthly: "zł miesięcznie", fundGo: "Wesprzyj na buycoffee.to", fundLater: "Może później",
+    fundTiers: [[150, "pełne samodzielne finansowanie serwisu"], [200, "lepszy serwer: wyższa jakość transmisji"],
+      [550, "fact-checking na żywo i nakładki z posiedzeń komisji"]],
     skip: "Przejdź do treści", loading: "Wczytywanie…", namesFailed: "Nie udało się wczytać listy posłów.", retry: "Spróbuj ponownie",
   },
   en: {
     privacy: "Privacy", consentSettings: "Consent settings", stats: "Statistics", contents: "Contents", articles: "Articles",
-    consentText: "This site does not track you. With your consent it will keep a page-view counter in your browser, " +
-      "used only to occasionally mention that you can support the project, and start the YouTube player by itself when we are " +
+    consentText: "This site does not track you. With your consent it will keep in your browser how long you spend here each day, " +
+      "used only to mention at most once a day that you can support the project, and start the YouTube player by itself when we are " +
       "live (Google then receives your IP address).",
-    consentTextGa: "With your consent the site will use Google Analytics to count visits (Google cookies), and keep a page-view " +
-      "counter in your browser, used to mention that you can support the project, and start the YouTube player by itself when we " +
+    consentTextGa: "With your consent the site will use Google Analytics to count visits (Google cookies), and keep in your browser " +
+      "the time spent on the site today, used to mention that you can support the project, and start the YouTube player by itself when we " +
       "are live. Without consent none of this happens.",
     pitchGa: "The project is free, with no ads. If you like, you can buy the author a coffee.",
     essential: "Only essential", agree: "I agree",
     support: "Support", close: "Close", useful: "Finding Sejmomat useful?",
     pitch: "The project is free, with no ads or tracking. If you like, you can buy the author a coffee.",
     buy: "Buy a coffee", later: "Not now",
+    fundTitle: "Support Sejmomat",
+    fundText: "Sejmomat is and will stay free, but to grow it needs funding.",
+    fundNow: "Now: {x} zł a month", fundMonthly: "zł a month", fundGo: "Support on buycoffee.to", fundLater: "Maybe later",
+    fundTiers: [[150, "the site funds itself in full"], [200, "a better server: higher-quality streaming"],
+      [550, "live fact-checking and committee overlays"]],
     skip: "Skip to content", loading: "Loading…", namesFailed: "Could not load the list of MPs.", retry: "Try again",
   },
 }[LANG];
@@ -369,47 +379,93 @@ if (GA_ID) {
   });
 }
 
-// Support note: a corner card for really dedicated readers only, and only
-// with consent (it counts page views in localStorage). It needs at least
-// SUPPORT_MIN_VIEWS page views, waits before appearing, never blocks the
-// page, and stays away for months once shown, closed or clicked.
-const SUPPORT_MIN_VIEWS = 40;
-const SUPPORT_DELAY_MS = 30000;
-const DAY_MS = 86400000;
+// Support window: once a day for readers who spend a while on the site. With consent the time
+// is added up across pages in localStorage (the counter the consent text names), and the window
+// comes once a day after SUPPORT_AFTER_S seconds on the site that day; without consent nothing is
+// stored, and it comes after that long on one page, once a page view. It shows the monthly
+// support so far against what each tier makes possible (static/wsparcie.json, edited by hand).
+const SUPPORT_AFTER_S = 180;
+const today = () => new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Warsaw" });
+let supportShown = false;
+const showSupport = async () => {
+  if (supportShown || document.querySelector("dialog[open]")) return false;
+  supportShown = true;
+  let fund = { monthly: 0 };
+  try {
+    fund = await (await fetch(`${SITE_ROOT}static/wsparcie.json`, { cache: "no-cache" })).json();
+  } catch {
+    // no figure: the tiers alone
+  }
+  const now = Math.max(0, Number(fund.monthly) || 0);
+  const top = T.fundTiers[T.fundTiers.length - 1][0];
+  const pct = (x) => `${Math.min(100, (x / top) * 100).toFixed(2)}%`;
+  const fill = h("span", { className: "fund-fill" });
+  fill.style.width = pct(now);
+  const marks = T.fundTiers.map(([amount, what]) => {
+    const m = h("li", { className: `fund-tier${now >= amount ? " done" : ""}` }, [
+      h("strong", { textContent: `${amount} zł` }), h("span", { textContent: what })]);
+    return m;
+  });
+  const ticks = T.fundTiers.map(([amount]) => {
+    const t = h("span", { className: `fund-tick${now >= amount ? " done" : ""}` });
+    t.style.left = pct(amount);
+    return t;
+  });
+  const dlg = h("dialog", { className: "fund-dialog" }, [
+    h("button", { type: "button", className: "support-close", textContent: "×", ariaLabel: T.close, onclick: () => dlg.close() }),
+    h("h2", { textContent: T.fundTitle }),
+    h("p", { className: "fund-lead", textContent: T.fundText }),
+    h("div", { className: "fund-meter", role: "meter" }, [h("span", { className: "fund-track" }, [fill, ...ticks])]),
+    h("p", { className: "fund-now", textContent: T.fundNow.replace("{x}", now) }),
+    h("ol", { className: "fund-tiers" }, marks),
+    h("p", { className: "fund-actions" }, [
+      h("a", { className: "btn fund-go", href: COFFEE_URL, target: "_blank", rel: "noopener", textContent: T.fundGo, onclick: () => dlg.close() }),
+      h("button", { type: "button", className: "lnk", textContent: T.fundLater, onclick: () => dlg.close() }),
+    ]),
+  ]);
+  const meter = dlg.querySelector(".fund-meter");
+  meter.setAttribute("aria-valuemin", "0");
+  meter.setAttribute("aria-valuemax", String(top));
+  meter.setAttribute("aria-valuenow", String(now));
+  meter.setAttribute("aria-label", T.fundNow.replace("{x}", now));
+  dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+  dlg.addEventListener("close", () => dlg.remove());
+  document.body.append(dlg);
+  dlg.showModal();
+  return true;
+};
+// time on the page while it is in view, a tick every 5 seconds
+const watchTime = (onTick) => {
+  let last = Date.now();
+  setInterval(() => {
+    const t = Date.now();
+    if (document.visibilityState === "visible") onTick((t - last) / 1000);
+    last = t;
+  }, 5000);
+};
 onConsent.push(() => {
   try {
-    const state = JSON.parse(localStorage.getItem(SUPPORT_KEY) || "{}");
-    const save = () => localStorage.setItem(SUPPORT_KEY, JSON.stringify(state));
-    state.views = (state.views || 0) + 1;
-    save();
-    if (state.views < SUPPORT_MIN_VIEWS || state.until > Date.now()) return;
-    const snooze = (days) => {
-      state.until = Date.now() + days * DAY_MS;
-      save();
-    };
-    const close = (days) => () => {
-      note.hidden = true;
-      snooze(days);
-    };
-    const note = h("aside", { className: "support-note", hidden: true }, [
-      h("button", { type: "button", className: "support-close", textContent: "×", ariaLabel: T.close, onclick: close(180) }),
-      h("p", {}, [h("strong", { textContent: `☕ ${T.useful}` })]),
-      h("p", { textContent: T.pitch }),
-      h("p", {}, [
-        h("a", { className: "support-link", href: COFFEE_URL, target: "_blank", rel: "noopener", textContent: T.buy, onclick: close(365) }),
-        h("button", { type: "button", className: "support-later", textContent: T.later, onclick: close(180) }),
-      ]),
-    ]);
-    note.setAttribute("aria-label", T.support);
-    document.body.append(note);
-    setTimeout(() => {
-      note.hidden = false;
-      snooze(30); // ignored: not again for a month
-    }, SUPPORT_DELAY_MS);
+    const read = () => JSON.parse(localStorage.getItem(SUPPORT_KEY) || "{}");
+    watchTime(async (dt) => {
+      const state = read();
+      if (state.day !== today()) Object.assign(state, { day: today(), seconds: 0, shown: false });
+      state.seconds = (state.seconds || 0) + dt;
+      if (!state.shown && state.seconds >= SUPPORT_AFTER_S && await showSupport()) state.shown = true;
+      localStorage.setItem(SUPPORT_KEY, JSON.stringify(state));
+    });
   } catch {
-    // storage unavailable (private mode, blocked): never show the note
+    // storage unavailable: as without consent
   }
 });
+// without consent: this page's own time only, nothing kept
+setTimeout(() => {
+  if (readConsent()?.optional === true) return;
+  let seconds = 0;
+  watchTime((dt) => {
+    seconds += dt;
+    if (seconds >= SUPPORT_AFTER_S && !supportShown && readConsent()?.optional !== true) showSupport();
+  });
+}, 0);
 
 // Always-visible support pill (no storage involved), footer links, consent bar.
 document.body.append(
