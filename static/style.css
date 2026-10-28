@@ -614,9 +614,14 @@ details.how .how-body p:last-child { margin-bottom: 0; }
   background: var(--surface); border: 1px solid var(--line); box-shadow: var(--float-shadow); font-size: .88rem; pointer-events: none; }
 .sala-tip a { pointer-events: auto; font-weight: 600; margin-top: 2px; }
 .sala-tip-topics { color: var(--accent); }
-.sala-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; margin: 6px 0 0; }
-.sala-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; background: var(--line); vertical-align: -1px; }
-.sala-legend .sw.on { background: var(--accent); }
+.sala-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; margin: 6px 0 0; }
+.sala-key { display: inline-flex; align-items: center; gap: 6px; }
+.sala-sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; background: var(--line); vertical-align: -1px; }
+.sala-sw-on { background: var(--accent); }
+@media (max-width: 640px) {
+  .sala-wrap { overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: thin; }
+  .sala-plan { width: 620px; max-width: none; }
+}
 @media (prefers-reduced-motion: reduce) { .sala-plan rect { transition: none; } }
 
 /* the support window (static/app.js showSupport): the line about funding, then the tiers as steps
@@ -683,3 +688,65 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .sala-toggle-count { margin-left: auto; font-weight: 400; font-size: .9rem; color: var(--muted); }
 .sala-body { padding-top: 10px; }
 @media (prefers-reduced-motion: reduce) { .sala-toggle::before { transition: none; } }
+
+/* the seating plan's views (static/home.js drawHall): club colours as on the Statystyki page
+   (templates/stats.html), five steps of a figure in the accent, tabs with arrows, the search */
+.sala {
+  --c-KO: #eb6834; --c-PiS: #2a78d6; --c-RozwojPlus: #1baf7a; --c-Polska2050: #eda100; --c-PSL-TD: #008300; --c-Lewica: #c2185b;
+  --c-Konfederacja: #4a3aa7; --c-Centrum: #9e7bd8; --c-Razem: #b03a8a; --c-Demokracja: #4f8fb0; --c-Republikanie: #1f4fa0;
+  --c-Konfederacja_KP: #7f6fd1; --c-Kukiz15: #6e6e6e; --c-other: #a3a3a3;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .sala {
+  --c-KO: #f07a45; --c-PiS: #4a90e8; --c-RozwojPlus: #22c08a; --c-Polska2050: #f2b01c; --c-PSL-TD: #2aa52a; --c-Lewica: #e0457f;
+  --c-Konfederacja: #8f84ee; --c-Centrum: #b39af0; --c-Razem: #d063aa; --c-Demokracja: #79acc4; --c-Republikanie: #5a86d8;
+  --c-Konfederacja_KP: #a99cf0; --c-Kukiz15: #9a9a9a; --c-other: #7d7d7d; } }
+:root[data-theme="dark"] .sala {
+  --c-KO: #f07a45; --c-PiS: #4a90e8; --c-RozwojPlus: #22c08a; --c-Polska2050: #f2b01c; --c-PSL-TD: #2aa52a; --c-Lewica: #e0457f;
+  --c-Konfederacja: #8f84ee; --c-Centrum: #b39af0; --c-Razem: #d063aa; --c-Demokracja: #79acc4; --c-Republikanie: #5a86d8;
+  --c-Konfederacja_KP: #a99cf0; --c-Kukiz15: #9a9a9a; --c-other: #7d7d7d; }
+.sala-tabs { display: flex; align-items: center; gap: 6px; margin-bottom: 10px; }
+.sala-tab-list { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; flex: 1; padding: 2px; }
+.sala-tab-list::-webkit-scrollbar { display: none; }
+.sala-tab { flex: none; min-height: 36px; padding: 0 14px; border: 1px solid var(--line); border-radius: 99px; background: var(--surface); color: var(--text);
+  font: inherit; font-size: .92rem; cursor: pointer; white-space: nowrap; }
+.sala-tab:hover { border-color: var(--accent); }
+.sala-tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 600; }
+.sala-cycle { flex: none; width: 36px; height: 36px; }
+.sala-chips[hidden] { display: none; }
+.sala-find { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin: 0 0 6px; }
+.sala-search { flex: 0 1 300px; min-width: 180px; min-height: 38px; padding: 0 14px; border: 1px solid var(--line); border-radius: 99px;
+  background: var(--bg); color: var(--text); font: inherit; font-size: .92rem; }
+.sala-search:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); }
+.sala-plan rect.q1 { fill: color-mix(in srgb, var(--accent) 12%, var(--surface)); }
+.sala-plan rect.q2 { fill: color-mix(in srgb, var(--accent) 32%, var(--surface)); }
+.sala-plan rect.q3 { fill: color-mix(in srgb, var(--accent) 52%, var(--surface)); }
+.sala-plan rect.q4 { fill: color-mix(in srgb, var(--accent) 74%, var(--surface)); }
+.sala-plan rect.q5 { fill: var(--accent); }
+.sala-sw.q1 { background: color-mix(in srgb, var(--accent) 12%, var(--surface)); border: 1px solid var(--line); }
+.sala-sw.q2 { background: color-mix(in srgb, var(--accent) 32%, var(--surface)); }
+.sala-sw.q3 { background: color-mix(in srgb, var(--accent) 52%, var(--surface)); }
+.sala-sw.q4 { background: color-mix(in srgb, var(--accent) 74%, var(--surface)); }
+.sala-sw.q5 { background: var(--accent); }
+.sala-legend .sala-key { gap: 4px; }
+.sala-plan.searching rect:not(.match) { opacity: .22; }
+.sala-plan rect.match { stroke: var(--text); stroke-width: 2.5; }
+.sala-tip { flex-direction: row; gap: 10px; align-items: flex-start; max-width: 300px; }
+.sala-tip-photo { width: 55px; height: 68px; flex: none; border-radius: 6px; object-fit: cover; background: var(--bg); }
+.sala-tip-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.sala-tip-fig { font-weight: 600; }
+
+/* the broadcast column folded (static/home.js): a slim bar across the top of the strip, the
+   last and next sittings side by side under it; unfolded, the column as before */
+.wg-now-bar { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.wg-now-icon { display: inline-grid; color: var(--accent); flex: none; }
+.wg-now-line { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: .95rem; }
+.wg-now-toggle { flex: none; min-height: 32px; font-size: .9rem; font-weight: 600; }
+.wg-now-body { display: flex; flex-direction: column; gap: 3px; flex: 1; }
+.wg-now-body[hidden] { display: none; }
+.wg-now:not(.folded) .wg-now-bar { margin-bottom: 6px; }
+.wg-now:not(.folded) .wg-now-line { visibility: hidden; }   /* unfolded: the column says it in full */
+.wg.now-folded > .wg-now { flex: 1 1 100%; order: -1; padding-top: 9px; padding-bottom: 9px; }
+@media (max-width: 600px) {
+  .wg.now-folded > .wg-now { padding: 9px 14px; }
+  .wg-now-line { white-space: normal; }
+}

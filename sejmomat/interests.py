@@ -256,8 +256,8 @@ def build(ctx, procs, committees, spec=None, today=None, en=None):
 def hall(ctx, committees, spec=None, today=None):
     """dane/sala.json for the seating plan on the home page (static/home.js): every seat
     with its MP (data/seating.json, read from the Chancellery's plan by tools/seating.py),
-    every MP's name and club, and per interest the MPs who work on it, with their score
-    (scored_mps). None without a seating plan."""
+    every MP's name, club and figures (the plan's other views), and per interest the MPs who
+    work on it, with their score (scored_mps). None without a seating plan."""
     path = DATA / "seating.json"
     if not path.exists():
         return None
@@ -272,6 +272,12 @@ def hall(ctx, committees, spec=None, today=None):
     return {
         "aspect": plan["aspect"], "source": plan.get("source"),
         "seats": seats,
-        "mps": {m["id"]: [m["firstLastName"], club_short(m.get("club") or ""), m.get("districtName") or ""] for m in mps.values()},
+        # [name, club id, club as readers know it, constituency, turnout, speeches, questions,
+        #  breaks of the club line, terms served (since 1997)]
+        "mps": {r["mp"]["id"]: [r["mp"]["firstLastName"], r["mp"].get("club") or "niez.", club_short(r["mp"].get("club") or ""),
+                                r["mp"].get("districtName") or "", round(r["turnout"], 4),
+                                (r.get("speeches") or {}).get("spoken", 0) + (r.get("speeches") or {}).get("written", 0),
+                                len(r.get("questions") or []), r["rebel_count"], len(r.get("terms") or [1])]
+                for r in ctx["mp_rows"] if r["mp"]["id"] in mps},
         "active": {iid: {x["id"]: x["score"] for x in rows} for iid, rows in scored.items()},
     }
