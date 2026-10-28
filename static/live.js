@@ -8,6 +8,9 @@
 // scheduled times. Next to the stream, the votes as they come in (below).
 // Sejmomat's own coverage on YouTube, when it is on, takes the stream's place,
 // on any day (static/yt.js; the votes panel stays on the sitting's days).
+// With data-on-request (the home page) nothing plays by itself: the box stays shut
+// until the reader asks for the stream ("sejmomat:watch", sent by the broadcast
+// column's "Oglądaj transmisję", static/home.js), and then plays with sound.
 (() => {
   const box = document.querySelector(".live-box");
   if (!box) return;
@@ -25,6 +28,21 @@
     e.append(...children.filter(Boolean));
     return e;
   };
+  const onRequest = box.dataset.onRequest === "1";
+  let asked = !onRequest;   // has the reader asked for the stream (always, without data-on-request)
+  let start = null;         // what starts the player once asked
+  let ready = false;        // the box has something to show
+  const reveal = () => {
+    if (!ready || !asked) return;
+    box.hidden = false;
+    const go = start;
+    start = null;
+    go?.();
+  };
+  document.addEventListener("sejmomat:watch", () => {
+    asked = true;
+    reveal();
+  });
   let playing = false;
   let ours = null;     // the YouTube video on show, when it is ours
   let hlsNow = null;   // the Sejm's stream's player, stopped when ours takes over
@@ -34,7 +52,8 @@
   // the player, playing muted from the start (browsers allow that without a click)
   const player = async (stream) => {
     playing = true;
-    const video = el("video", { controls: true, playsInline: true, muted: true, autoplay: true, className: "live-video" });
+    // asked for with a click, it may start with sound
+    const video = el("video", { controls: true, playsInline: true, muted: !onRequest, autoplay: true, className: "live-video" });
     // hls.js wherever it can run (it starts at the live edge and keeps the quality down);
     // the browser's own HLS where it cannot (iPhone)
     if (!window.MediaSource && video.canPlayType("application/vnd.apple.mpegurl")) {
@@ -166,17 +185,21 @@
       el("p", { className: "muted" }, `${v.title}${v.room ? ` · ${v.room}` : ""}`),
       el("div", { className: "live-grid with-votes" }, main, panel),
     );
-    box.hidden = false;
-    startVotes();
-    if (live && v.videoLink) {
-      const video = await player(v.videoLink);
-      main.append(video);
-      video.play?.().catch(() => {});
-    }
-    if (v.playerLink) {
-      main.append(el("p", { className: "live-links" },
-        el("a", { href: v.playerLink, target: "_blank", rel: "noopener", textContent: `${L.sejm} ↗` })));
-    }
+    const links = v.playerLink ? el("p", { className: "live-links" },
+      el("a", { href: v.playerLink, target: "_blank", rel: "noopener", textContent: `${L.sejm} ↗` })) : null;
+    if (links) main.append(links);
+    start = () => {
+      startVotes();
+      if (live && v.videoLink) {
+        playing = true;
+        player(v.videoLink).then((video) => {
+          main.prepend(video);
+          video.play?.().catch(() => {});
+        });
+      }
+    };
+    ready = true;
+    if (asked) reveal();
   };
 
   // Sejmomat on YouTube: its player in the stream's place
@@ -185,7 +208,8 @@
     hlsNow = null;
     playing = false;
     ours = window.SejmomatYT.key(yt);
-    const main = el("div", { className: "live-main" }, window.SejmomatYT.player(yt),
+    // asked for with a click: YouTube's player made only then (loading it reaches Google), with sound
+    const main = el("div", { className: "live-main" }, onRequest ? null : window.SejmomatYT.player(yt),
       el("p", { className: "live-links" },
         el("a", { href: window.SejmomatYT.watchUrl(yt), target: "_blank", rel: "noopener", textContent: `${window.SejmomatYT.T.open} ↗` })));
     box.replaceChildren(
@@ -193,8 +217,12 @@
       el("p", { className: "muted", lang: "pl", textContent: yt.title || "" }),
       el("div", { className: `live-grid${sittingDay ? " with-votes" : ""}` }, main, sittingDay ? panel : null),
     );
-    box.hidden = false;
-    if (sittingDay) startVotes();
+    start = () => {
+      if (onRequest) main.prepend(window.SejmomatYT.player(yt, { start: true }));
+      if (sittingDay) startVotes();
+    };
+    ready = true;
+    if (asked) reveal();
   };
 
   const check = async () => {
@@ -206,6 +234,7 @@
     if (ours) {
       // ours has ended: the Sejm's stream again, if there is one
       ours = null;
+      ready = false;
       box.hidden = true;
     }
     if (playing || !sittingDay) return;
@@ -222,7 +251,10 @@
     const v = plenary.find((x) => x.startDateTime <= now && (!x.endDateTime || now < x.endDateTime))
       || plenary.find((x) => x.startDateTime > now);
     if (v) show(v, now);
-    else box.hidden = true;
+    else {
+      ready = false;
+      box.hidden = true;
+    }
   };
   check();
   // a stream that starts or ends while the page is open

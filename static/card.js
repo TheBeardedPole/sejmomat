@@ -1,13 +1,13 @@
-// An MP's image for social media, drawn in the reader's browser when asked
-// for: the term (turnout, missed votes, breaks of the club line, speeches,
-// characteristic words) or the latest sitting. Same layout as the server's
-// cards (sejmomat/card.py). The PNG is handed over as a download and nothing
-// is kept: the canvas and the file's address are dropped right after.
-(() => {
-  const box = document.querySelector(".card-downloads[data-mp]");
-  if (!box) return;
-  const data = JSON.parse(document.getElementById("mp-card").textContent);
-
+// Images for social media, drawn in the reader's browser when asked for, in the
+// layout of the server's cards (sejmomat/card.py): an MP's term (turnout, missed
+// votes, breaks of the club line, speeches, characteristic words) or latest sitting,
+// and two side by side: MP with MP, club with club (the "Grafiki do udostępnienia"
+// window, static/share.js). The PNG is handed over as a download and nothing is
+// kept: the canvas and the file's address are dropped right after.
+//
+// window.SejmomatCards: mp(data, kind), compareMps(a, b), compareClubs(a, b) give a
+// canvas; save(canvas, file) hands it over. The MP page's own buttons are wired below.
+window.SejmomatCards = (() => {
   const W = 1200, MIN_H = 675, PAD = 64, GAP = 20, FOOT = 132;
   const BG = "#fbfaf8", SURFACE = "#ffffff", TEXT = "#1d1d1f", MUTED = "#6b6b70", LINE = "#e4e2dd";
   const YES = "#1f7a4d", NO = "#b3261e", ABSTAIN = "#9a6b00", NOT_CAST = "#8a8a8f";
@@ -53,23 +53,40 @@
       d.stroke();
     }
   };
-  const loadLogo = () => new Promise((resolve) => {
+  const loadLogo = (src) => new Promise((resolve) => {
+    if (!src) return resolve(null);
     const img = new Image();
     img.onload = () => resolve(img);
     img.onerror = () => resolve(null);
-    img.src = data.logo;
+    img.src = src;
   });
-  const loadPhoto = () => new Promise((resolve) => {
+  const loadPhoto = (src) => new Promise((resolve) => {
+    if (!src) return resolve(null);
     const img = new Image();
     img.crossOrigin = "anonymous";   // the Sejm's API allows it; without it the canvas could not be saved
     img.onload = () => resolve(img);
     img.onerror = () => resolve(null);
     setTimeout(() => resolve(null), 8000);   // a slow photo server should not hold up the image
-    img.src = data.photo;
+    img.src = src;
   });
+  // a photo into a rounded box, covering it and keeping its proportions
+  const photoBox = (d, photo, x, top, w, h, r = 18) => {
+    d.save();
+    d.beginPath();
+    d.roundRect(x, top, w, h, r);
+    d.clip();
+    if (photo) {
+      const scale = Math.max(w / photo.width, h / photo.height);
+      d.drawImage(photo, x + (w - photo.width * scale) / 2, top, photo.width * scale, photo.height * scale);
+    } else {
+      d.fillStyle = LINE;
+      d.fillRect(x, top, w, h);
+    }
+    d.restore();
+  };
 
   // header with the photo on the right; returns where the content starts
-  const header = (d, kicker, subtitle, photo) => {
+  const header = (d, data, kicker, subtitle, photo) => {
     const photoW = photo ? 150 : 0, room = W - 2 * PAD - (photo ? photoW + 32 : 0);
     let y = PAD - 8;
     d.textBaseline = "top";
@@ -86,15 +103,8 @@
       y += 42;
     }
     if (photo) {
-      const h = Math.round(photoW * 1.25), x = W - PAD - photoW, top = PAD;
-      d.save();
-      d.beginPath();
-      d.roundRect(x, top, photoW, h, 18);
-      d.clip();
-      // cover the box, keeping the photo's proportions
-      const scale = Math.max(photoW / photo.width, h / photo.height);
-      d.drawImage(photo, x + (photoW - photo.width * scale) / 2, top, photo.width * scale, photo.height * scale);
-      d.restore();
+      const h = Math.round(photoW * 1.25), top = PAD;
+      photoBox(d, photo, W - PAD - photoW, top, photoW, h);
       y = Math.max(y, top + h + 8);
     }
     return y + 22;
@@ -170,9 +180,9 @@
   };
   const panel = (d, y, height) => rounded(d, PAD, y, W - 2 * PAD, height, 18, SURFACE, LINE);
 
-  const term = (d, photo) => {
+  const term = (d, data, photo) => {
     const t = data.term, top = t.top || {};
-    let y = header(d, "PODSUMOWANIE KADENCJI · POSEŁ NA SEJM", data.subtitle, photo);
+    let y = header(d, data, "PODSUMOWANIE KADENCJI · POSEŁ NA SEJM", data.subtitle, photo);
     y = tiles(d, y, [
       [pct(t.turnout), `udział w głosowaniach (${t.cast} z ${t.eligible})`, TEXT, top.turnout],
       [t.missed, "opuszczonych głosowań", t.missed ? ABSTAIN : TEXT],
@@ -217,10 +227,10 @@
     return y;
   };
 
-  const sitting = (d, photo) => {
+  const sitting = (d, data, photo) => {
     const s = data.sitting;
     const when = s.first.slice(0, 10) === s.last.slice(0, 10) ? date(s.first) : `${date(s.first)} – ${date(s.last)}`;
-    let y = header(d, "OSTATNIE POSIEDZENIE SEJMU", [data.club, `${s.sitting}. posiedzenie`, when].filter(Boolean).join(" · "), photo);
+    let y = header(d, data, "OSTATNIE POSIEDZENIE SEJMU", [data.club, `${s.sitting}. posiedzenie`, when].filter(Boolean).join(" · "), photo);
     y = tiles(d, y, [
       [s.total, "głosowań", TEXT], [s.Y, "razy za", YES], [s.N, "razy przeciw", NO],
       [s.A, "razy wstrzymał(a) się", ABSTAIN], [s.X, s.X === s.total ? "opuszczone: wszystkie" : "opuszczonych głosowań", s.X ? ABSTAIN : TEXT],
@@ -249,16 +259,149 @@
     return ty + 40 + 18 + GAP;
   };
 
-  const draw = async (kind) => {
-    const canvas = Object.assign(document.createElement("canvas"), { width: W, height: 3000 });
+  const blank = (height = 3000) => {
+    const canvas = Object.assign(document.createElement("canvas"), { width: W, height });
     const d = canvas.getContext("2d");
     d.fillStyle = BG;
-    d.fillRect(0, 0, W, 3000);
-    const [photo, logo] = await Promise.all([data.photo ? loadPhoto() : null, data.logo ? loadLogo() : null]);
-    const y = (kind === "sitting" ? sitting : term)(d, photo);
+    d.fillRect(0, 0, W, height);
+    return [canvas, d];
+  };
+
+  const mp = async (data, kind) => {
+    const [canvas, d] = blank();
+    const [photo, logo] = await Promise.all([loadPhoto(data.photo), loadLogo(data.logo)]);
+    const y = (kind === "sitting" ? sitting : term)(d, data, photo);
     return footer(canvas, y, logo);
   };
 
+  // ---- two side by side: each figure a row, the two values at the ends with bars
+  // growing from the middle towards them, in one colour for both (no side favoured);
+  // the higher value in bold, except in a neutral row (breaks of the club line: more is
+  // neither better nor worse), where both are drawn alike
+  const versus = (d, y, rows) => {
+    const x = PAD, width = W - 2 * PAD, rowH = 86, mid = W / 2, half = width / 2 - 150;
+    panel(d, y, rows.length * rowH + 24);
+    let ry = y + 12;
+    rows.forEach(([label, a, b, show = (v) => String(v), neutral = false], i) => {
+      if (i) {
+        d.fillStyle = LINE;
+        d.fillRect(x + 24, ry, width - 48, 1);
+      }
+      const max = Math.max(a, b) || 1, cy = ry + rowH / 2;
+      d.textBaseline = "middle";
+      text(d, label, mid, cy - 22, font("regular", 22), MUTED, "center");
+      for (const [v, side] of [[a, -1], [b, 1]]) {
+        const len = Math.round((half - 100) * (v / max));   // room left for a value as wide as "100,0%"
+        d.fillStyle = FOOT_BG;
+        d.globalAlpha = neutral ? 0.55 : v >= max ? 0.9 : 0.35;
+        d.beginPath();
+        d.roundRect(side < 0 ? mid - 24 - len : mid + 24, cy + 4, Math.max(len, 4), 14, 7);
+        d.fill();
+        d.globalAlpha = 1;
+        text(d, show(v), side < 0 ? x + 28 : x + width - 28, cy + 8, font(!neutral && v >= max && a !== b ? "bold" : "regular", 40), TEXT, side < 0 ? "left" : "right");
+      }
+      ry += rowH;
+    });
+    d.textBaseline = "top";
+    return ry + 12 + GAP;
+  };
+  // the two names at the top, each over its side, "vs" between them
+  const pair = (d, kicker, left, right, photos) => {
+    let y = PAD - 8;
+    d.textBaseline = "top";
+    text(d, kicker, W / 2, y, font("bold", 24), MUTED, "center");
+    y += 52;
+    const colW = (W - 2 * PAD - 120) / 2, ph = photos ? 150 : 0, pw = Math.round(ph * 0.8);
+    const sides = [[left, PAD, "left"], [right, W - PAD, "right"]];
+    let bottom = y;
+    sides.forEach(([who, edge, align], i) => {
+      let ty = y;
+      if (photos) {
+        photoBox(d, photos[i], align === "left" ? edge : edge - pw, ty, pw, ph, 16);
+        ty += ph + 18;
+      }
+      d.font = font("bold", 46);
+      for (const line of wrap(d, who.name, colW, 2)) {
+        text(d, line, edge, ty, font("bold", 46), TEXT, align);
+        ty += 58;
+      }
+      d.font = font("regular", 26);
+      for (const line of wrap(d, who.sub || "", colW, 2)) {
+        text(d, line, edge, ty, font("regular", 26), MUTED, align);
+        ty += 36;
+      }
+      bottom = Math.max(bottom, ty);
+    });
+    d.textBaseline = "middle";
+    rounded(d, W / 2 - 40, y + (photos ? ph / 2 : 30) - 30, 80, 60, 30, FOOT_BG);
+    text(d, "vs", W / 2, y + (photos ? ph / 2 : 30), font("bold", 30), FOOT_TEXT, "center");
+    d.textBaseline = "top";
+    return bottom + 24;
+  };
+
+  // a, b: {name, sub, photo, turnout, brokeLine, speeches, questions, signedMotions, clubSwitches}
+  const compareMps = async (a, b, logoSrc) => {
+    const [canvas, d] = blank();
+    const [pa, pb, logo] = await Promise.all([loadPhoto(a.photo), loadPhoto(b.photo), loadLogo(logoSrc)]);
+    let y = pair(d, "PORÓWNANIE POSŁÓW · X KADENCJA", a, b, [pa, pb]);
+    y = versus(d, y, [
+      ["udział w głosowaniach", a.turnout, b.turnout, pct],
+      ["wystąpienia na sali plenarnej", a.speeches, b.speeches],
+      ["interpelacje i zapytania", a.questions, b.questions],
+      ["wyłamania z linii klubu", a.brokeLine, b.brokeLine, String, true],
+      ["podpisane poprawki i wnioski", a.signedMotions, b.signedMotions],
+    ]);
+    return footer(canvas, y, logo);
+  };
+
+  // a, b: {name, sub, members, cohesion, effectiveness, turnout, speeches, questions}; agreement: {rate, votes} or null
+  const compareClubs = async (a, b, agreement, logoSrc) => {
+    const [canvas, d] = blank();
+    const logo = await loadLogo(logoSrc);
+    let y = pair(d, "PORÓWNANIE KLUBÓW · X KADENCJA", a, b, null);
+    const one = (v) => v.toFixed(1).replace(".", ",");
+    y = versus(d, y, [
+      ["posłów w klubie", a.members, b.members],
+      ["spójność głosowań", a.cohesion, b.cohesion, pct],
+      ["głosowania wygrane (skuteczność)", a.effectiveness, b.effectiveness, pct],
+      ["średni udział posłów w głosowaniach", a.turnout, b.turnout, pct],
+      ["wystąpienia na posła", a.speeches, b.speeches, one],
+      ["interpelacje na posła", a.questions, b.questions, one],
+    ]);
+    if (agreement) {
+      panel(d, y, 120);
+      d.textBaseline = "middle";
+      text(d, pct(agreement.rate), PAD + 32, y + 60, font("bold", 56), TEXT);
+      d.font = font("bold", 56);
+      const lx = PAD + 32 + d.measureText(pct(agreement.rate)).width + 24;
+      text(d, "głosowań, w których oba kluby głosowały tak samo", lx, y + 44, font("regular", 26), TEXT);
+      text(d, `spośród ${agreement.votes} głosowań, w których brały udział oba`, lx, y + 78, font("regular", 22), MUTED);
+      d.textBaseline = "top";
+      y += 120 + GAP;
+    }
+    return footer(canvas, y, logo);
+  };
+
+  const save = async (canvas, file) => {
+    const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/png"));
+    const url = URL.createObjectURL(blob);
+    const a = Object.assign(document.createElement("a"), { href: url, download: `${file}.png` });
+    document.body.append(a);
+    a.click();
+    a.remove();
+    // the copy lives only until the download has started
+    setTimeout(() => URL.revokeObjectURL(url), 10000);
+  };
+  const toBlob = (canvas) => new Promise((resolve) => canvas.toBlob(resolve, "image/png"));
+
+  return { mp, compareMps, compareClubs, save, toBlob };
+})();
+
+// the MP page's own buttons (templates/_cards.html, mp)
+(() => {
+  const box = document.querySelector(".card-downloads[data-mp]");
+  if (!box) return;
+  const data = JSON.parse(document.getElementById("mp-card").textContent);
   box.addEventListener("click", async (e) => {
     const button = e.target.closest("button[data-card]");
     if (!button || button.disabled) return;
@@ -267,15 +410,8 @@
     caption.textContent = box.dataset.busy;
     try {
       await document.fonts?.ready;
-      const canvas = await draw(button.dataset.card);
-      const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/png"));
-      const url = URL.createObjectURL(blob);
-      const a = Object.assign(document.createElement("a"), { href: url, download: `${box.dataset.file}-${button.dataset.file}.png` });
-      document.body.append(a);
-      a.click();
-      a.remove();
-      // the copy lives only until the download has started
-      setTimeout(() => URL.revokeObjectURL(url), 10000);
+      const canvas = await window.SejmomatCards.mp(data, button.dataset.card);
+      await window.SejmomatCards.save(canvas, `${box.dataset.file}-${button.dataset.file}`);
       canvas.width = canvas.height = 0;
     } catch {
       box.querySelector(".card-error").hidden = false;

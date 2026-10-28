@@ -295,7 +295,7 @@ def mp_compare(k, o):
                      _row("frekwencja", k["turnout"], o["turnout"], pct),
                      _row("głosy w wyborach", k["votes"], o["votes"], _num),
                      _row("przyjęte poprawki (podpisane)", k["adopted"], o["adopted"], str),
-                     _row("wyłamania z linii klubu", k["rebels"], o["rebels"], str, "less")],
+                     _row("wyłamania z linii klubu", k["rebels"], o["rebels"], str, "none")],
             "headline": f"Ten sam okręg: {k['district']}" if same else "Koalicja kontra opozycja",
             "sub": "Poseł koalicji i poseł opozycji · cała kadencja"}
 
@@ -313,7 +313,8 @@ def comparisons(ctx, mps):
     club (the coalition's and the opposition's clubs paired by size, the closest allies and the
     furthest apart) and, per constituency, its most active coalition and opposition speakers.
     A card: {"kind": "compare", "sides": [{"name", "club", "tag", "mp"?, "sub"}] * 2,
-    "rows": [{"label", "a", "b", "show": [a, b], "better": "more" | "less"}], "headline", "sub"}."""
+    "rows": [{"label", "a", "b", "show": [a, b], "better": "more" | "less" | "none"}], "headline", "sub"}.
+    Breaks of the club line are "none": more of them is neither better nor worse."""
     from .stats import COALITION
     tag = lambda club: "Koalicja" if club in COALITION else "Opozycja"   # noqa: E731
     out = []
@@ -332,7 +333,7 @@ def comparisons(ctx, mps):
                              _row("po stronie zwycięskiej", a["effectiveness"], b["effectiveness"], pct),
                              _row("wystąpienia", _speeches(a), _speeches(b), _num),
                              _row("interpelacje i zapytania", questions(a), questions(b), _num),
-                             _row("wyłamania z linii klubu", a["rebellions"], b["rebellions"], _num, "less")],
+                             _row("wyłamania z linii klubu", a["rebellions"], b["rebellions"], _num, "none")],
                     "headline": headline or (f"Głosują tak samo w {pct(rate)} głosowań" if rate is not None else ""),
                     "sub": sub})
 

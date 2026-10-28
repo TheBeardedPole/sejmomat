@@ -672,6 +672,33 @@ EN = {
     "Głosowanie na żywo": "Live vote", "Przyjęte poprawki": "Adopted amendments", "Zgłoszone poprawki": "Amendments proposed",
     "Statystyki": "Statistics", "Wszystkie głosowania tego posiedzenia": "All votes of this sitting",
     "Wszystkie posiedzenia": "All sittings", "Wszystkie ustawy": "All bills",
+    # home page, events page, latest sitting page, share window, MP topic panel (October 2026)
+    "Lista posłów": "List of MPs", "Wydarzenia w Twoich tematach": "Events in your topics",
+    "Głosowania, etapy prac nad projektami i punkty porządku obrad w tematach, które obserwujesz.":
+        "Votes, stages of work on bills and agenda items in the topics you follow.",
+    "Ta strona działa w przeglądarce: tematy, które obserwujesz, zostają tylko u Ciebie. Włącz JavaScript, by ją zobaczyć.":
+        "This page works in your browser: the topics you follow stay with you. Turn on JavaScript to see it.",
+    "Po jednym z każdego klubu i koła: kto najwięcej pracuje nad Twoimi tematami.":
+        "One from each club and group: who works most on your topics.",
+    "{n} interpelacja lub zapytanie": "{n} interpellation or question", "{n} interpelacje i zapytania": "{n} interpellations and questions",
+    "{n} interpelacji i zapytań": "{n} interpellations and questions",
+    "{n} projekt ustawy": "{n} bill", "{n} projekty ustaw": "{n} bills", "{n} projektów ustaw": "{n} bills",
+    "niezrzeszony": "independent", "Zobacz więcej": "See more",
+    "Projekty rozstrzygnięte w całości": "Bills decided in full",
+    "Na tym posiedzeniu nie rozstrzygnięto żadnego projektu w całości.": "No bill was decided in full at this sitting.",
+    "Dzień głosowań": "Voting day", "Dwóch posłów": "Two MPs", "Dwa kluby": "Two clubs", "Dzień": "Day",
+    "Poseł lub posłanka": "MP", "Pierwszy": "First", "Drugi": "Second", "Co pokazać": "What to show",
+    "Zacznij pisać imię lub nazwisko": "Start typing a name", "Nie znaleźliśmy takiego posła. Wybierz z listy.": "No such MP. Pick one from the list.",
+    "Wybierz dwie różne osoby.": "Pick two different people.", "Wybierz dwa różne kluby.": "Pick two different clubs.",
+    "Przygotowujemy grafikę…": "Preparing the image…", "Pobierz PNG": "Download PNG", "dawny klub": "former club",
+    "Wybierz obie strony, a pokażemy porównanie.": "Pick both sides to see the comparison.", "Grafiki są po polsku.": "The images are in Polish.",
+    "Grafiki powstają z danych Sejmu i są po polsku.": "The images are made from the Sejm's data and are in Polish.",
+    "Rodzaj grafiki": "Kind of image", "Zamknij": "Close",
+    "W Twoich tematach": "In your topics", "Praca posła w tematach, które obserwujesz. Odznacz temat, by go ukryć.":
+        "This MP's work in the topics you follow. Switch a topic off to hide it.",
+    "Nie znaleźliśmy pracy tego posła w wybranych tematach.": "We found no work by this MP in the chosen topics.",
+    "Wszystkie interpelacje": "All interpellations", "Wszystkie komisje": "All committees",
+    "Nie udało się wczytać danych o tematach.": "Could not load the topic data.",
 }
 
 

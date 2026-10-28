@@ -40,10 +40,15 @@ window.SejmomatYT = (() => {
     allow: "autoplay; encrypted-media; picture-in-picture; fullscreen",
   });
 
-  // the player for a live stream: at once (muted) with consent, else a box with Play
-  const player = (info, { auto = true } = {}) => {
+  // the player for a live stream: at once (muted) with consent, else a box with Play;
+  // start: the reader has just asked for it with a click, so at once and with sound
+  const player = (info, { auto = true, start = false } = {}) => {
     const box = document.createElement("div");
     box.className = "yt-box";
+    if (start) {
+      box.append(iframe(info, false));
+      return box;
+    }
     if (auto && consented()) {
       box.append(iframe(info, true));
       return box;

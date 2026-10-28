@@ -82,19 +82,45 @@
 {% endmacro %}
 
 {# Where to find the images, for the home page and the lists of clubs and MPs. #}
-{% macro teaser(heading=true) %}
-{{ styles() }}
-<section class="card share-panel">
-  <div>
-    <h2>{{ icon_image() }}{{ _("Grafiki do udostępnienia") }}</h2>
-    <p class="muted">{{ _("Podsumowanie każdego dnia głosowań, a dla każdego klubu i posła — kadencji albo ostatniego posiedzenia. Gotowe do wrzucenia w media społecznościowe.") }}</p>
+{#- "Grafiki do udostępnienia": a button opening a window where the reader picks an image
+    (a voting day, a club, an MP) or puts two MPs or two clubs side by side (static/share.js,
+    drawn by static/card.js); the ready-made images come with the site. #}
+{% macro share_dialog() %}
+{%- set club_list = [] %}
+{%- for c in club_rows %}{% set _x = club_list.append({"id": c.id, "short": club_short(c.id), "current": c.current,
+    "cards": c.cards | default([])}) %}{% endfor %}
+<p class="share-open-row"><button type="button" class="btn2 share-open" data-share-open aria-haspopup="dialog" aria-controls="grafiki">{{ icon_image() }}<span>{{ _("Grafiki do udostępnienia") }}</span></button></p>
+<dialog id="grafiki" class="share-dialog" aria-labelledby="grafiki-h"
+  data-root="{{ root }}" data-site-root="{{ site_root }}"
+  data-mps="{{ site_root }}api/v1/mps.json" data-clubs-api="{{ site_root }}api/v1/clubs.json" data-days="{{ site_root }}api/v1/summaries.json"
+  data-photo="https://api.sejm.gov.pl/sejm/term{{ TERM }}/MP/{id}/photo" data-logo="{{ site_root }}static/logo-white.png"
+  data-clubs="{{ club_list | tojson | forceescape }}"
+  data-labels="{{ {"day": _("Dzień głosowań"), "club": _("Klub"), "mp": _("Poseł"), "mps": _("Dwóch posłów"), "clubs": _("Dwa kluby"),
+                   "pickDay": _("Dzień"), "pickClub": _("Klub"), "pickMp": _("Poseł lub posłanka"), "first": _("Pierwszy"), "second": _("Drugi"),
+                   "term": _("Kadencja"), "sitting": _("Ostatnie posiedzenie"), "variant": _("Co pokazać"),
+                   "typeName": _("Zacznij pisać imię lub nazwisko"), "noMp": _("Nie znaleźliśmy takiego posła. Wybierz z listy."),
+                   "same": _("Wybierz dwie różne osoby."), "sameClub": _("Wybierz dwa różne kluby."),
+                   "loading": _("Przygotowujemy grafikę…"), "failed": _("Nie udało się przygotować grafiki."),
+                   "download": _("Pobierz PNG"), "share": _("Udostępnij"), "former": _("dawny klub"),
+                   "pickBoth": _("Wybierz obie strony, a pokażemy porównanie."), "polish": _("Grafiki są po polsku."),
+                   "independent": _("niezrzeszony")} | tojson | forceescape }}">
+  <div class="share-dialog-head">
+    <h2 id="grafiki-h">{{ _("Grafiki do udostępnienia") }}</h2>
+    <form method="dialog"><button class="icon-btn" value="close" aria-label="{{ _("Zamknij") }}" title="{{ _("Zamknij") }}"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></form>
   </div>
-  <div class="share-options">
-    <a class="share-btn" href="{{ root }}podsumowania.html">{{ _("Dni głosowań") }}</a>
-    <a class="share-btn" href="{{ root }}kluby.html">{{ _("Kluby") }}</a>
-    <a class="share-btn" href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a>
+  <div class="share-kinds" role="radiogroup" aria-label="{{ _("Rodzaj grafiki") }}"></div>
+  <div class="share-body">
+    <div class="share-fields"></div>
+    <figure class="share-preview" aria-live="polite"><p class="muted share-status"></p></figure>
   </div>
-</section>
+  <div class="share-actions">
+    <a class="btn share-download" hidden>{{ icon_download() }}<span>{{ _("Pobierz PNG") }}</span></a>
+    <button type="button" class="btn2 share-native" hidden>{{ _("Udostępnij") }}</button>
+    <span class="muted small">{{ _("Grafiki powstają z danych Sejmu i są po polsku.") }}</span>
+  </div>
+</dialog>
+<script src="{{ site_root }}static/card.js?v={{ static_version('card.js') }}" defer></script>
+<script src="{{ site_root }}static/share.js?v={{ static_version('share.js') }}" defer></script>
 {% endmacro %}
 
 {# The next sitting, for the home page and the list of sittings. #}
@@ -110,9 +136,11 @@
 
 {# The Sejm's live stream on the days of the next or current sitting
    (static/live.js asks the Sejm's API for today's plenary stream). #}
-{% macro live_box() %}
+{#- on_request: nothing plays by itself; the box opens when the reader asks for the stream
+    (the broadcast column's "Oglądaj transmisję" on the home page) #}
+{% macro live_box(on_request=false) %}
 {% if upcoming %}
-<section class="card live-box" id="na-zywo" hidden data-dates="{{ upcoming.dates | join(',') }}"
+<section class="card live-box" id="na-zywo" hidden data-dates="{{ upcoming.dates | join(',') }}"{% if on_request %} data-on-request="1"{% endif %}
   data-yt="{{ site_root }}srv/youtube-live.php"
   data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/videos/today"
   data-hls="{{ site_root }}static/vendor/hls.light.min.js"

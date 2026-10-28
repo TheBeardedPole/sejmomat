@@ -3,7 +3,8 @@
    group: "sittings", "mps" or "bills"; here: the page's own link. #}
 {% macro section_nav(group, here) -%}
 {%- set groups = {
-  "sittings": [("posiedzenia.html", _("Wszystkie posiedzenia")), ("nadchodzace-posiedzenie.html", _("Nadchodzące posiedzenie")),
+  "sittings": [("posiedzenia.html", _("Wszystkie posiedzenia")), ("ostatnie-posiedzenie.html", _("Ostatnie posiedzenie")),
+               ("nadchodzace-posiedzenie.html", _("Nadchodzące posiedzenie")),
                ("transmisje.html", _("Harmonogram transmisji"))],
   "mps": [("poslowie.html", _("Wszyscy posłowie")), ("kluby.html", _("Kluby")), ("interpelacje.html", _("Interpelacje"))],
   "bills": [("ustawy.html", _("Wszystkie ustawy")), ("tematy.html", _("Tematy")), ("zamrazarka.html", _("Zamrażarka")),

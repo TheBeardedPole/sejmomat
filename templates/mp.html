@@ -25,6 +25,18 @@
   </div>
 </div>
 
+{#- opened from the home page's suggested MPs (posel/N.html?tematy=zdrowie,edukacja): this MP's
+    work in the reader's topics (static/mp-topics.js, dane/zainteresowania.json); hidden otherwise #}
+<section id="w-twoich-tematach" class="card topic-panel" hidden aria-labelledby="w-twoich-tematach-h"
+  data-mp="{{ r.mp.id }}" data-root="{{ root }}" data-src="{{ site_root }}dane/zainteresowania.json"
+  data-labels="{{ {"title": _("W Twoich tematach"), "text": _("Praca posła w tematach, które obserwujesz. Odznacz temat, by go ukryć."),
+                   "none": _("Nie znaleźliśmy pracy tego posła w wybranych tematach."), "member": _("członek"), "committee": _("Komisja"),
+                   "questions": _("{n} interpelacji i zapytań, w tym {recent} w ostatnich 90 dniach"),
+                   "bills": _("Wśród autorów projektów w temacie {topic} ({n}), ostatnio"),
+                   "allQuestions": _("Wszystkie interpelacje"), "allCommittees": _("Wszystkie komisje"),
+                   "failed": _("Nie udało się wczytać danych o tematach."), "close": _("Zamknij")} | tojson | forceescape }}"></section>
+<script src="{{ site_root }}static/mp-topics.js?v={{ static_version('mp-topics.js') }}" defer></script>
+
 <div class="grid">
   <div class="card stat"><b><a href="#posiedzenia">{{ r.turnout | pct }}</a></b>{{ _("udział w głosowaniach") }} ({{ r.cast }} {{ _("z") }} {{ r.eligible }})</div>
   <div class="card stat"><b{% if r.eligible > r.cast %} class="v-A"{% endif %}><a href="#posiedzenia">{{ r.eligible - r.cast }}</a></b>{{ _("opuszczonych głosowań") }}</div>

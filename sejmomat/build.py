@@ -984,6 +984,8 @@ def _pages(ctx):
     yield "privacy.html", "prywatnosc.html", {}
     yield "summaries.html", "podsumowania.html", {}
     yield "upcoming.html", "nadchodzace-posiedzenie.html", {}
+    yield "latest.html", "ostatnie-posiedzenie.html", {}
+    yield "events.html", "wydarzenia.html", {}
     yield "schedule.html", "transmisje.html", {}
     yield "questions.html", "interpelacje.html", {}
     yield "committees.html", "komisje.html", {}

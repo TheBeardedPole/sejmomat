@@ -9,11 +9,13 @@
         a page's section is marked in the nav #}
     {%- set sections = [
       ("posiedzenia.html", _("Posiedzenia"), ("posiedzeni", "glosowanie", "porownaj"), [
+        ("ostatnie-posiedzenie.html", _("Ostatnie posiedzenie"), ("ostatnie-posiedzenie",)),
         ("nadchodzace-posiedzenie.html", _("Nadchodzące posiedzenie"), ("nadchodzace",)),
         ("transmisje.html", _("Harmonogram transmisji"), ("transmisje",))]),
       ("ustawy.html", _("Ustawy"), ("ustaw", "druk", "zamrazarka", "temat"), []),
       ("poprawki.html", _("Poprawki"), ("poprawki", "skuteczne-poprawki"), []),
       ("poslowie.html", _("Posłowie"), ("posel", "poslowie"), [
+        ("poslowie.html", _("Lista posłów"), ("poslowie",)),
         ("kluby.html", _("Kluby"), ("klub",)),
         ("interpelacje.html", _("Interpelacje"), ("interpelacje",))]),
       ("komisje.html", _("Komisje"), ("komisj",), []),
@@ -43,8 +45,6 @@
     <form class="site-search" role="search" action="{{ root }}szukaj.html">
       <label class="visually-hidden" for="site-q">{{ _("Szukaj") }}</label>
       <input id="site-q" type="search" name="q" placeholder="{{ _("Szukaj…") }}" autocomplete="off" enterkeyhint="search">
-      {#- with scripts the field folds into this button until it is wanted (static/header.js) #}
-      <button type="button" class="search-toggle" aria-expanded="false" aria-controls="site-q" title="{{ _("Szukaj") }}"><span class="visually-hidden">{{ _("Szukaj") }}</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
     </form>
     {%- endif %}
     {#- the daily games, apart from the sections, next to search #}

@@ -670,10 +670,13 @@ class Overlay:
             va, vb = row["a"], row["b"]
             tot = (va + vb) or 1
             la, lb = max(4, round(half * va / tot * min(1, k))), max(4, round(half * vb / tot * min(1, k)))
-            win_a = va > vb if row["better"] == "more" else va < vb
-            win_b = vb > va if row["better"] == "more" else vb < va
-            d.rounded_rectangle((cx - 10 - la, y - 7, cx - 10, y + 7), 6, fill=(ca if win_a else mix(bg, ca, 0.45)) + (255,))
-            d.rounded_rectangle((cx + 10, y - 7, cx + 10 + lb, y + 7), 6, fill=(cb if win_b else mix(bg, cb, 0.45)) + (255,))
+            # "none" (breaks of the club line): more is neither better nor worse, so no side is lit
+            better = row["better"]
+            win_a = better != "none" and (va > vb if better == "more" else va < vb)
+            win_b = better != "none" and (vb > va if better == "more" else vb < va)
+            even = 0.7 if better == "none" else 0.45
+            d.rounded_rectangle((cx - 10 - la, y - 7, cx - 10, y + 7), 6, fill=(ca if win_a else mix(bg, ca, even)) + (255,))
+            d.rounded_rectangle((cx + 10, y - 7, cx + 10 + lb, y + 7), 6, fill=(cb if win_b else mix(bg, cb, even)) + (255,))
             fa, fb = self.font(30, True), self.font(30, True)
             d.text((cx - half - 34, y), row["show"][0], font=fa, fill=YELLOW if win_a else (236, 238, 245), anchor="rm")
             d.text((cx + half + 34, y), row["show"][1], font=fb, fill=YELLOW if win_b else (236, 238, 245), anchor="lm")

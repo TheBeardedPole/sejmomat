@@ -268,6 +268,10 @@ if (typeof document !== "undefined") (() => {
     check: '<path d="M20 6L9 17l-5-5"/>',
     info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/>',
     close: '<path d="M18 6L6 18M6 6l12 12"/>',
+    edit: '<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/>',
+    committee: '<path d="M3 21h18"/><path d="M5 21V10M19 21V10M9 21V10M15 21V10"/><path d="M2 10 12 3l10 7z"/>',
+    question: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>',
+    bill: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h5"/>',
   };
 
   // ---- was / now / next: the broadcast in the middle column
@@ -285,6 +289,13 @@ if (typeof document !== "undefined") (() => {
     const hour = (iso) => iso.slice(11, 16);
     let checking = false;
 
+    // the player below opens only when asked for (static/live.js, data-on-request): this
+    // button asks, and the link then scrolls to it
+    const watchHere = () => {
+      const a = link("#na-zywo", L.watch, false, { className: "btn" });
+      a.addEventListener("click", () => document.dispatchEvent(new CustomEvent("sejmomat:watch")));
+      return a;
+    };
     const render = (s, checkedAt) => {
       const v = s.video;
       const official = v?.playerLink || box.dataset.itv;
@@ -301,7 +312,7 @@ if (typeof document !== "undefined") (() => {
         parts.push(el("p", { className: "wg-sub", textContent: L.oursSub }));
         const here = document.getElementById("na-zywo");
         parts.push(el("div", { className: "wg-actions" }, here
-          ? link("#na-zywo", L.watch, false, { className: "btn" })
+          ? watchHere()
           : link(`${box.dataset.schedule}#teraz`, L.watch, false, { className: "btn" })));
         box.replaceChildren(...parts);
         return;
@@ -321,7 +332,7 @@ if (typeof document !== "undefined") (() => {
         // our own player, when the page has it (static/live.js), else the Sejm's
         const ours = v.type === PLENARY && document.getElementById("na-zywo");
         const actions = el("div", { className: "wg-actions" }, ours
-          ? link("#na-zywo", L.watch, false, { className: "btn" })
+          ? watchHere()
           : link(`${box.dataset.schedule}#teraz`, L.watch, false, { className: "btn" }));
         if (s.others.length) {
           const n = s.others.length;
@@ -410,6 +421,9 @@ if (typeof document !== "undefined") (() => {
   // ---- interests
   const home = document.getElementById("dla-ciebie");
   if (!home) return;
+  // "home": what matters to the reader and MPs to know (the home page); "feed": every
+  // event in their topics (wydarzenia.html)
+  const PAGE = home.dataset.page || "home";
   const L = JSON.parse(home.dataset.labels);
   const ROOT = home.dataset.root || "";
   const today = warsawNow().slice(0, 10);
@@ -452,7 +466,9 @@ if (typeof document !== "undefined") (() => {
     });
     return section(id, title, el("div", { className: "placeholder" }, el("p", { textContent: text }), a));
   };
-  const placeholders = () => [placeholder("twoje-tematy", L.feedTitle, L.feedEmpty), placeholder("poslowie-tematy", L.mpsTitle, L.mpsStart)];
+  const placeholders = () => (PAGE === "feed"
+    ? [placeholder("twoje-tematy", L.feedTitle, L.feedEmpty)]
+    : [placeholder("poslowie-tematy", L.mpsTitle, L.mpsStart)]);
 
   // the survey: first visit, "Zmień tematy", or "Tak, chcę je zmienić"
   function showForm(selected, focus = true) {
@@ -466,8 +482,7 @@ if (typeof document !== "undefined") (() => {
       count.textContent = n === 0 ? L.count0 : n === 1 ? L.count1 : plural(n, ["", L.countFew, L.countMany]).replace("{n}", n);
     };
     const chips = names.map((i) => {
-      const b = el("button", { type: "button", className: "toggle-chip" },
-        el("span", { className: "ck", ariaHidden: "true" }, svg(ICON.check, 12, 3)), el("span", { textContent: i[LANG] }));
+      const b = el("button", { type: "button", className: "toggle-chip" }, el("span", { textContent: i[LANG] }));
       b.setAttribute("aria-pressed", String(picked.has(i.id)));
       b.addEventListener("click", () => {
         if (picked.has(i.id)) picked.delete(i.id);
@@ -522,6 +537,12 @@ if (typeof document !== "undefined") (() => {
 
   const editButton = (cls = "lnk") => {
     const b = el("button", { type: "button", className: cls, textContent: L.edit });
+    b.addEventListener("click", () => showForm(state?.ids || []));
+    return b;
+  };
+  // the same, as a pencil beside the topics followed
+  const editIcon = () => {
+    const b = el("button", { type: "button", className: "icon-btn", title: L.edit, ariaLabel: L.edit }, svg(ICON.edit, 16));
     b.addEventListener("click", () => showForm(state?.ids || []));
     return b;
   };
@@ -636,7 +657,7 @@ if (typeof document !== "undefined") (() => {
         editButton("btn2"));
     } else {
       note = el("div", { className: "following" }, el("span", { textContent: `${L.following}:` }),
-        topicTags(state.ids), editButton());
+        topicTags(state.ids), editIcon());
     }
     parts.push(note);
     const lead = el("div", { className: "home-lead" }, el("h2", { id: "wazne-dla-ciebie", textContent: L.forYou }),
@@ -656,11 +677,12 @@ if (typeof document !== "undefined") (() => {
       return;
     }
     const mine = eventsFor(data.events, state.ids);
-    if (!mine.length) {
-      top.append(el("p", { textContent: L.empty }), el("p", {}, editButton(), " · ", link("#ostatnie-posiedzenie", `${L.general} ↓`)));
-    } else {
-      top.append(el("ul", { className: "vcards" }, highlights(mine, today, 4, state.ids).map(card)),
-        el("p", { className: "vcards-all" }, link("#twoje-tematy", `${L.feedAll.replace("{n}", data.days)} →`)));
+    if (PAGE === "feed") {
+      top.remove();
+      if (!mine.length) {
+        home.append(el("p", { textContent: L.empty }), el("p", {}, editButton()));
+        return;
+      }
       const groups = el("div");
       const more = el("button", { type: "button", className: "lnk feed-more", textContent: L.more });
       const step = 15;
@@ -671,8 +693,17 @@ if (typeof document !== "undefined") (() => {
         if (shown >= mine.length) more.remove();
       };
       more.addEventListener("click", page);
-      home.append(section("twoje-tematy", L.feedTitle, el("p", { className: "muted", textContent: L.feedText.replace("{n}", data.days) }), groups, more));
+      home.append(el("p", { className: "muted", textContent: L.feedText.replace("{n}", data.days) }), groups, more);
       page();
+      return;
+    }
+    if (!mine.length) {
+      top.append(el("p", { textContent: L.empty }),
+        el("p", {}, editButton(), " · ", link(`${ROOT}ostatnie-posiedzenie.html`, `${L.general} →`)));
+    } else {
+      top.append(el("ul", { className: "vcards" }, highlights(mine, today, 4, state.ids).map(card)),
+        el("p", { className: "vcards-all" }, link(`${ROOT}wydarzenia.html`,
+          `${L.feedAll.replace("{n}", data.days)} (${mine.length}) →`, false, { className: "btn2" })));
     }
     home.append(mps());
   };
@@ -684,42 +715,47 @@ if (typeof document !== "undefined") (() => {
       body.push(el("p", { textContent: L.mpsNone }));
       return section("poslowie-tematy", L.mpsTitle, body);
     }
-    const order = { committee: 0, bills: 1, questions: 2 };
+    // a short card each, all the same size: who, the topics, up to three lines on their
+    // work (the weightiest of each kind), and a link to their page opened on these topics
+    const roleRank = (fn) => (/^przewodnicz/.test(fn) ? 0 : /przewodnicz/.test(fn) ? 1 : 2);
     const cards = rows.map((r) => {
       const m = data.mps[r.id] || { name: `#${r.id}`, club: "" };
-      const why = [...r.why].sort((a, b) => order[a.k] - order[b.k]);
-      const reasons = why.slice(0, 4).map((w) => {
-        if (w.k === "committee") {
-          const role = w.fn || L.member;
-          return el("li", {}, `${role[0].toUpperCase()}${role.slice(1)} · `,
-            link(`${ROOT}komisja/${w.code}.html`, data.committees[w.code] || w.code));
-        }
-        if (w.k === "questions") {
-          return el("li", {}, link(`${ROOT}posel/${r.id}.html#interpelacje`,
-            L.questions.replace("{n}", w.n).replace("{recent}", w.recent)), ` (${w.to.join(", ")})`);
-        }
-        return el("li", {}, `${L.bills.replace("{n}", w.n).replace("{topic}", nameOf(w.topic))} · `,
-          link(`${ROOT}ustawa/${w.root}.html`, data.bills[w.root] || w.root));
-      });
-      const where = [m.club && `${L.club}: ${m.club}`,
-        m.districtNum && `${L.district} ${m.districtNum}${m.district ? ` (${m.district})` : ""}`].filter(Boolean).join(" · ");
+      const lines = [];
+      const comms = r.why.filter((w) => w.k === "committee").sort((x, y) => roleRank(x.fn || "") - roleRank(y.fn || ""));
+      // [icon, the line, its full text on hover]
+      if (comms.length) {
+        const c = comms[0], name = data.committees[c.code] || c.code;
+        const more = comms.length > 1 ? ` +${comms.length - 1}` : "";
+        lines.push([ICON.committee, `${name}${more}`, `${c.fn ? `${c.fn[0].toUpperCase()}${c.fn.slice(1)} · ` : ""}${name}${more}`]);
+      }
+      const qs = r.why.filter((w) => w.k === "questions").sort((x, y) => y.n - x.n);
+      if (qs.length) {
+        const line = plural(qs[0].n, L.questionsShort).replace("{n}", qs[0].n);
+        lines.push([ICON.question, line, `${line} (${qs[0].to.join(", ")})`]);
+      }
+      const bills = r.why.filter((w) => w.k === "bills").sort((x, y) => y.n - x.n);
+      if (bills.length) {
+        const line = `${plural(bills[0].n, L.billsShort).replace("{n}", bills[0].n)} · ${nameOf(bills[0].topic)}`;
+        lines.push([ICON.bill, line, line]);
+      }
+      const where = [m.club || L.independent, m.districtNum && `${L.district} ${m.districtNum}`].filter(Boolean).join(" · ");
       const photo = el("img", { className: "mp-thumb", src: home.dataset.photo.replace("{id}", r.id), alt: "", loading: "lazy",
-        width: 48, height: 60, decoding: "async" });
+        width: 44, height: 55, decoding: "async" });
       photo.addEventListener("error", () => photo.remove(), { once: true });
+      const page = `${ROOT}posel/${r.id}.html?tematy=${state.ids.filter((id) => r.topics.includes(id)).join(",")}#w-twoich-tematach`;
       return el("li", { className: "card mp-card" },
         el("div", { className: "mp-card-head" }, photo, el("div", {},
           el("h3", {}, link(`${ROOT}posel/${r.id}.html`, m.name)),
-          where ? el("p", { className: "muted small", textContent: where }) : null)),
-        el("p", { className: "tags-row" }, `${L.topics}:`, topicTags(r.topics)),
-        el("div", {}, el("p", { className: "why-h", textContent: L.whyMp }),
-          el("ul", { className: "mp-why" }, reasons,
-            why.length > 4 ? el("li", { className: "muted", textContent: L.moreReasons.replace("{n}", why.length - 4) }) : null)),
-        link(`${ROOT}posel/${r.id}.html`, `${L.profile} →`, false, { className: "btn2" }));
+          el("p", { className: "muted small", textContent: where }))),
+        topicTags(r.topics),
+        el("ul", { className: "mp-facts" }, lines.map(([icon, text, full]) =>
+          el("li", { title: full }, svg(icon, 15), el("span", { textContent: text })))),
+        link(page, `${L.profile} →`, false, { className: "mp-more" }));
     });
     const list = el("ul", { className: "mp-cards" }, cards);
     body.push(list);
-    // one from each club: six to start with (three on a phone), the rest on request
-    const FIRST = matchMedia("(max-width: 600px)").matches ? 3 : 6;
+    // one from each club: a row of four to start with (three on a phone), the rest on request
+    const FIRST = matchMedia("(max-width: 600px)").matches ? 3 : 4;
     if (cards.length > FIRST) {
       cards.slice(FIRST).forEach((c) => { c.hidden = true; });
       const more = el("button", { type: "button", className: "lnk", textContent: L.moreMps.replace("{n}", cards.length - FIRST) });
