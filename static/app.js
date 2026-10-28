@@ -457,6 +457,8 @@ onConsent.push(() => {
     // storage unavailable: as without consent
   }
 });
+// #wesprzyj in the address opens it at once (a link to it, or a look at it)
+if (location.hash === "#wesprzyj") showSupport();
 // without consent: this page's own time only, nothing kept
 setTimeout(() => {
   if (readConsent()?.optional === true) return;
