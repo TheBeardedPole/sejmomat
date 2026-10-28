@@ -398,26 +398,27 @@ const showSupport = async () => {
   }
   const now = Math.max(0, Number(fund.monthly) || 0);
   const top = T.fundTiers[T.fundTiers.length - 1][0];
-  const pct = (x) => `${Math.min(100, (x / top) * 100).toFixed(2)}%`;
-  const fill = h("span", { className: "fund-fill" });
-  fill.style.width = pct(now);
-  const marks = T.fundTiers.map(([amount, what]) => {
-    const m = h("li", { className: `fund-tier${now >= amount ? " done" : ""}` }, [
-      h("strong", { textContent: `${amount} zł` }), h("span", { textContent: what })]);
-    return m;
-  });
-  const ticks = T.fundTiers.map(([amount]) => {
-    const t = h("span", { className: `fund-tick${now >= amount ? " done" : ""}` });
-    t.style.left = pct(amount);
-    return t;
+  // the tiers as steps of one width (a milestone track, not a scale: 150 and 200 would sit too
+  // close for their bubbles); each step's bar fills from the tier before it to its own amount,
+  // the amount at its end and, under it, what it makes possible
+  let from = 0;
+  const steps = T.fundTiers.map(([amount, what]) => {
+    const part = Math.max(0, Math.min(1, (now - from) / (amount - from)));
+    from = amount;
+    const fill = h("span", { className: "fund-seg-fill" });
+    fill.style.width = `${(part * 100).toFixed(1)}%`;
+    return h("li", { className: `fund-step${part >= 1 ? " done" : part > 0 ? " current" : ""}` }, [
+      h("span", { className: "fund-seg" }, [fill]),
+      h("strong", { className: "fund-amount", textContent: `${amount} zł` }),
+      h("p", { className: "fund-bubble", textContent: what }),
+    ]);
   });
   const dlg = h("dialog", { className: "fund-dialog" }, [
     h("button", { type: "button", className: "support-close", textContent: "×", ariaLabel: T.close, onclick: () => dlg.close() }),
     h("h2", { textContent: T.fundTitle }),
     h("p", { className: "fund-lead", textContent: T.fundText }),
-    h("div", { className: "fund-meter", role: "meter" }, [h("span", { className: "fund-track" }, [fill, ...ticks])]),
     h("p", { className: "fund-now", textContent: T.fundNow.replace("{x}", now) }),
-    h("ol", { className: "fund-tiers" }, marks),
+    h("ol", { className: "fund-meter", role: "meter" }, steps),
     h("p", { className: "fund-actions" }, [
       h("a", { className: "btn fund-go", href: COFFEE_URL, target: "_blank", rel: "noopener", textContent: T.fundGo, onclick: () => dlg.close() }),
       h("button", { type: "button", className: "lnk", textContent: T.fundLater, onclick: () => dlg.close() }),

@@ -619,29 +619,41 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .sala-legend .sw.on { background: var(--accent); }
 @media (prefers-reduced-motion: reduce) { .sala-plan rect { transition: none; } }
 
-/* the support window (static/app.js showSupport): the line about funding, a meter of the
-   monthly support with a tick at each tier, what each tier makes possible */
-.fund-dialog { width: min(520px, calc(100vw - 32px)); padding: 26px 26px 22px; border: 1px solid var(--line); border-radius: 16px;
+/* the support window (static/app.js showSupport): the line about funding, then the tiers as three
+   steps of a track: each step's stretch of bar filled as far as the support goes, the tier's
+   amount at its end and, in a bubble under it, what it makes possible (a column on phones) */
+.fund-dialog { width: min(760px, calc(100vw - 32px)); padding: 28px 30px 24px; border: 1px solid var(--line); border-radius: 18px;
   background: var(--surface); color: var(--text); box-shadow: 0 24px 64px rgb(0 0 0 / .3); }
 .fund-dialog::backdrop { background: rgb(10 14 24 / .55); }
-.fund-dialog h2 { margin: 0 0 6px; font-size: 1.35rem; padding-right: 32px; }
-.fund-dialog .support-close { position: absolute; top: 10px; right: 10px; width: 36px; height: 36px; border: 0; border-radius: 50%;
-  background: none; color: var(--muted); font-size: 1.4rem; cursor: pointer; }
+.fund-dialog h2 { margin: 0 0 6px; font-size: 1.45rem; padding-right: 36px; }
+.fund-dialog .support-close { position: absolute; top: 12px; right: 12px; width: 38px; height: 38px; border: 0; border-radius: 50%;
+  background: none; color: var(--muted); font-size: 1.5rem; cursor: pointer; }
 .fund-dialog .support-close:hover { color: var(--text); background: var(--bg); }
-.fund-lead { margin: 0 0 18px; font-size: 1.05rem; line-height: 1.45; }
-.fund-meter { padding: 6px 0 2px; }
-.fund-track { position: relative; display: block; height: 14px; border-radius: 99px; background: var(--bg); border: 1px solid var(--line); overflow: visible; }
-.fund-fill { position: absolute; inset: 0 auto 0 0; border-radius: 99px; background: var(--accent); min-width: 0; transition: width .8s cubic-bezier(.2,.8,.2,1); }
-.fund-tick { position: absolute; top: -5px; width: 3px; height: 22px; margin-left: -1.5px; border-radius: 2px; background: var(--muted); }
-.fund-tick.done { background: var(--y); }
-.fund-now { margin: 8px 0 14px; font-size: .9rem; color: var(--muted); font-variant-numeric: tabular-nums; }
-.fund-tiers { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-direction: column; gap: 8px; }
-.fund-tier { display: grid; grid-template-columns: 4.5em 1fr; gap: 10px; align-items: baseline; padding: 8px 12px; border-radius: 10px; background: var(--bg); }
-.fund-tier strong { font-variant-numeric: tabular-nums; color: var(--accent); }
-.fund-tier.done strong { color: var(--y); }
+.fund-lead { margin: 0 0 4px; font-size: 1.1rem; line-height: 1.45; max-width: 60ch; }
+.fund-now { margin: 0 0 18px; font-size: .92rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.fund-meter { list-style: none; margin: 0 0 22px; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 6px; }
+.fund-step { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; min-width: 0; }
+.fund-seg { position: relative; display: block; align-self: stretch; height: 14px; background: var(--bg); border: 1px solid var(--line); overflow: hidden; }
+.fund-step:first-child .fund-seg { border-radius: 99px 0 0 99px; }
+.fund-step:last-child .fund-seg { border-radius: 0 99px 99px 0; }
+.fund-seg-fill { position: absolute; inset: 0 auto 0 0; background: var(--accent); transition: width .8s cubic-bezier(.2,.8,.2,1); }
+.fund-step.done .fund-seg-fill { background: var(--y); }
+.fund-amount { font-size: 1.05rem; font-variant-numeric: tabular-nums; color: var(--accent); }
+.fund-step.done .fund-amount { color: var(--y); }
+.fund-bubble { position: relative; align-self: stretch; margin: 4px 0 0; padding: 10px 12px; border-radius: 12px; background: var(--accent-bg);
+  font-size: .92rem; line-height: 1.35; text-align: left; }
+/* the bubble's point, under the amount at the step's end */
+.fund-bubble::before { content: ""; position: absolute; top: -7px; right: 18px; width: 14px; height: 14px; background: var(--accent-bg);
+  transform: rotate(45deg); border-radius: 2px; }
+.fund-step.done .fund-bubble, .fund-step.done .fund-bubble::before { background: color-mix(in srgb, var(--y) 14%, var(--surface)); }
 .fund-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: 0; }
-.fund-go { min-height: 46px; padding: 0 22px; font-size: 1rem; }
-@media (prefers-reduced-motion: reduce) { .fund-fill { transition: none; } }
+.fund-go { min-height: 48px; padding: 0 24px; font-size: 1.02rem; }
+@media (max-width: 620px) {
+  .fund-dialog { padding: 24px 18px 20px; }
+  .fund-meter { grid-template-columns: 1fr; gap: 14px; }
+  .fund-step .fund-seg { border-radius: 99px !important; }
+}
+@media (prefers-reduced-motion: reduce) { .fund-seg-fill { transition: none; } }
 .sala-toggle { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 40px; padding: 4px 0; border: 0; border-bottom: 1px solid var(--line);
   background: none; color: var(--text); font: inherit; font-weight: 700; text-align: left; cursor: pointer; }
 .sala-toggle::before { content: ""; width: 8px; height: 8px; border-right: 2px solid var(--accent); border-bottom: 2px solid var(--accent);
