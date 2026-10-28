@@ -29,7 +29,7 @@
 {% macro icon_download() %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m-5-5 5 5 5-5M5 20h14"/></svg>{% endmacro %}
 
 {% macro club(c) %}
-{% if c.cards %}{{ share_dialog("club", c.id) }}{% endif %}
+{% if c.cards %}{{ share_button(true) }}{% endif %}
 {% endmacro %}
 
 {% macro mp(r) %}
@@ -49,22 +49,27 @@
   "sitting": {"sitting": x.sitting, "first": sittings[x.sitting][0].date, "last": sittings[x.sitting][-1].date,
               "total": x.total, "Y": x.Y, "N": x.N, "A": x.A, "X": x.X, "rebel": x.rebel} if x else none,
 } %}
-{{ share_dialog("mp", r.mp.firstLastName) }}
+{{ share_button(true) }}
 {#- the card's data, so the window draws this MP's image without asking for the page again #}
 <script type="application/json" id="mp-card">{{ data | tojson }}</script>
 {% endmacro %}
 
 {# Where to find the images, for the home page and the lists of clubs and MPs. #}
-{#- "Grafiki do udostępnienia": a button opening a window where the reader picks an image
-    (a voting day, a club, an MP) or puts two MPs or two clubs side by side (static/share.js,
-    drawn by static/card.js); the ready-made images come with the site. #}
-{#- preset: the kind and subject it opens on (an MP's or a club's page): ("mp", name), ("club", id) #}
+{#- "Grafiki do udostępnienia": a window where the reader picks an image (a voting day, a
+    club, an MP) or puts two MPs or two clubs side by side (static/share.js, drawn by
+    static/card.js; both loaded on the first click by static/header.js). The window is part
+    of every page (templates/base.html); the header's "Grafiki" opens it, and so does
+    share_button on an MP's or a club's page. #}
+{% macro share_button(here=false) %}
+<p class="share-open-row{% if here %} here{% endif %}"><button type="button" class="btn2 share-open" data-share-open aria-haspopup="dialog" aria-controls="grafiki">{{ icon_image() }}<span>{{ _("Grafiki do udostępnienia") }}</span></button></p>
+{% endmacro %}
+
 {% macro share_dialog(preset_kind=none, preset=none) %}
 {%- set club_list = [] %}
 {%- for c in club_rows %}{% set _x = club_list.append({"id": c.id, "short": club_short(c.id), "current": c.current,
     "cards": c.cards | default([])}) %}{% endfor %}
-<p class="share-open-row{% if preset_kind %} here{% endif %}"><button type="button" class="btn2 share-open" data-share-open aria-haspopup="dialog" aria-controls="grafiki">{{ icon_image() }}<span>{{ _("Grafiki do udostępnienia") }}</span></button></p>
-<dialog id="grafiki" class="share-dialog" aria-labelledby="grafiki-h"{% if preset_kind %} data-preset-kind="{{ preset_kind }}" data-preset="{{ preset }}"{% endif %}
+<dialog id="grafiki" class="share-dialog" aria-labelledby="grafiki-h"
+  data-scripts="{{ site_root }}static/card.js?v={{ static_version('card.js') }} {{ site_root }}static/share.js?v={{ static_version('share.js') }}"{% if preset_kind %} data-preset-kind="{{ preset_kind }}" data-preset="{{ preset }}"{% endif %}
   data-root="{{ root }}" data-site-root="{{ site_root }}"
   data-mps="{{ site_root }}api/v1/mps.json" data-clubs-api="{{ site_root }}api/v1/clubs.json" data-days="{{ site_root }}api/v1/summaries.json"
   data-photo="https://api.sejm.gov.pl/sejm/term{{ TERM }}/MP/{id}/photo" data-logo="{{ site_root }}static/logo-white.png"
@@ -93,8 +98,6 @@
     <span class="muted small">{{ _("Grafiki powstają z danych Sejmu i są po polsku.") }}</span>
   </div>
 </dialog>
-<script src="{{ site_root }}static/card.js?v={{ static_version('card.js') }}" defer></script>
-<script src="{{ site_root }}static/share.js?v={{ static_version('share.js') }}" defer></script>
 {% endmacro %}
 
 {# The next sitting, for the home page and the list of sittings. #}

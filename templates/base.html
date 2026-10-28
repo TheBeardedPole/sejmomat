@@ -43,6 +43,9 @@
   <a href="https://github.com/TheBeardedPole/sejmomat">{{ _("Kod źródłowy") }}</a> (GNU GPL v3) ·
   ☕ {{ _("Wesprzyj projekt") }}: <a href="https://buycoffee.to/adamkoscielak">buycoffee.to/adamkoscielak</a>
 </footer>
+{#- the "Grafiki do udostępnienia" window (templates/_cards.html); on an MP's or a club's page it opens on them (share_preset) #}
+{% from "_cards.html" import share_dialog with context %}
+{{ share_dialog(share_preset[0] if share_preset else none, share_preset[1] if share_preset else none) }}
 <script src="{{ site_root }}static/header.js?v={{ static_version('header.js') }}" defer></script>
 <script src="{{ site_root }}static/app.js?v={{ asset_version }}" defer></script>
 </body>

@@ -986,6 +986,7 @@ def _pages(ctx):
     yield "upcoming.html", "nadchodzace-posiedzenie.html", {}
     yield "latest.html", "ostatnie-posiedzenie.html", {}
     yield "events.html", "wydarzenia.html", {}
+    yield "mps_for_you.html", "poslowie-dla-ciebie.html", {}
     yield "schedule.html", "transmisje.html", {}
     yield "questions.html", "interpelacje.html", {}
     yield "committees.html", "komisje.html", {}

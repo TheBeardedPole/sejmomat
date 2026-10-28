@@ -699,6 +699,11 @@ EN = {
     "Nie znaleźliśmy pracy tego posła w wybranych tematach.": "We found no work by this MP in the chosen topics.",
     "Wszystkie interpelacje": "All interpellations", "Wszystkie komisje": "All committees",
     "Nie udało się wczytać danych o tematach.": "Could not load the topic data.",
+    "Grafiki": "Images", "Następni": "Next", "Pokaż wszystkich": "Show all", "Poprzedni": "Previous",
+    "Posłowie każdego klubu, którzy najwięcej pracują nad tematami, które obserwujesz: w komisjach, interpelacjach i projektach ustaw.":
+        "MPs from every club who work most on the topics you follow: in committees, interpellations and bills.",
+    "Z każdego klubu i koła do trzech posłów, którzy najwięcej pracują nad Twoimi tematami. Kolejność zmienia się przy każdej wizycie.":
+        "Up to three MPs from each club and group who work most on your topics. The order changes on every visit.",
     # "Jak liczymy?" and shorter copy (audit, 28 October 2026)
     "Każda kropka to poseł, kolor to jego klub; im bliżej siebie, tym podobniej głosują.": "Each dot is an MP, coloured by club; the closer two dots, the more alike they vote.",
     "Jak powstaje mapa?": "How is the map made?",

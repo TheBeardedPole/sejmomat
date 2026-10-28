@@ -25,6 +25,7 @@ from collections import defaultdict
 from datetime import date, timedelta
 
 from .config import DATA, TERM
+from .social import club_short
 
 PATH = DATA / "interests.json"
 DAYS = 30            # events shown: the last 30 days
@@ -231,7 +232,9 @@ def build(ctx, procs, committees, spec=None, today=None, en=None):
         "events": found,
         "sittings": {p: [min(days[p]), max(days[p])] for p in sorted({e["p"] for e in found if "p" in e})},
         "upcoming": u["number"] if (u := ctx.get("upcoming")) and not u.get("under_way") else None,
+        # club: the id (suggestions are one per club); clubName: as readers know it ("Rozwój Plus")
         "mps": {mid: {"name": mps[mid]["firstLastName"], "club": mps[mid].get("club") or "",
+                      "clubName": club_short(mps[mid].get("club") or ""),
                       "district": mps[mid].get("districtName") or "", "districtNum": mps[mid].get("districtNum")}
                 for rows in suggested.values() for mid in (x["id"] for x in rows)},
         "bills": {x["root"]: bills[x["root"]]["title"] for rows in suggested.values() for y in rows

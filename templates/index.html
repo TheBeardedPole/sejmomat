@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "_macros.html" import result_badge, counts, author_label %}
-{% from "_cards.html" import share_dialog, live_box with context %}
+{% from "_cards.html" import live_box with context %}
 {% from "_for_you.html" import for_you with context %}
 {% macro icon_tv() %}<svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="13" rx="2"/><path d="M17 2l-5 5-5-5"/></svg>{% endmacro %}
 {% block generated %}{{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.{% endblock %}
@@ -88,7 +88,6 @@
 
 {{ for_you("home") }}
 
-{{ share_dialog() }}
 {% if not upcoming %}<script src="{{ site_root }}static/yt.js?v={{ static_version('yt.js') }}" defer></script>{% endif %}{# else with the live box #}
 <script src="{{ site_root }}static/home.js?v={{ static_version('home.js') }}" defer></script>
 {% endblock %}

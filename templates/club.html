@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% set share_preset = ("club", c.id) if c.cards else none %}
 {% from "_macros.html" import how %}
 {% from "_macros.html" import result_badge, counts, crumbs %}
 {% from "_breakdown.html" import assets, attrs, sitting_cell with context %}

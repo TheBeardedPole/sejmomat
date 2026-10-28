@@ -228,11 +228,48 @@ const suggestMps = (data, ids, n = Infinity) => {
     .slice(0, n);
 };
 
+// The same, every club's best few (up to `k`), for a pick that changes on each visit:
+// {club: [rows best first]}, clubs in no particular order.
+const mpPools = (data, ids, k = 3) => {
+  const total = new Map();
+  for (const id of ids) {
+    for (const row of data.suggested?.[id] || []) {
+      const t = total.get(row.id) || { id: row.id, score: 0, topics: [], why: [] };
+      t.score += row.score;
+      t.topics.push(id);
+      for (const w of row.why) {
+        const key = w.k === "committee" ? `c:${w.code}` : w.k === "questions" ? `q:${w.to.join("|")}` : `b:${w.root}:${id}`;
+        if (!t.why.some((x) => x.key === key)) t.why.push({ ...w, key, topic: id });
+      }
+      total.set(row.id, t);
+    }
+  }
+  const pools = {};
+  for (const r of [...total.values()].sort((a, b) => b.score - a.score || a.id - b.id)) {
+    const club = data.mps?.[r.id] ? data.mps[r.id].club || "niez." : `#${r.id}`;
+    (pools[club] ||= []);
+    if (pools[club].length < k) pools[club].push(r);
+  }
+  return pools;
+};
+// One MP from each club's pool, at random, and the clubs in a random order (no side
+// first): a different set on every visit. rand: () => [0, 1), Math.random by default.
+const shuffle = (list, rand = Math.random) => {
+  const out = [...list];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+};
+const rotate = (pools, rand = Math.random) =>
+  shuffle(Object.values(pools).filter((p) => p.length).map((p) => p[Math.floor(rand() * p.length)]), rand);
+
 if (typeof module !== "undefined") {
   module.exports = {
     warsawNow, formatWhen, formatDay, dateRange, plural, daysBetween, pickBroadcasts, hasSegments, firstVariant, streamIsOn, broadcastState,
     readInterests, writeInterests, saveInterests, confirmInterests, skipInterests, reminderDue,
-    eventsFor, highlights, feedGroups, suggestMps, INTERESTS_KEY, REMIND_DAYS,
+    eventsFor, highlights, feedGroups, suggestMps, mpPools, rotate, shuffle, INTERESTS_KEY, REMIND_DAYS,
   };
 }
 
@@ -268,6 +305,8 @@ if (typeof document !== "undefined") (() => {
     check: '<path d="M20 6L9 17l-5-5"/>',
     info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/>',
     close: '<path d="M18 6L6 18M6 6l12 12"/>',
+    left: '<path d="M15 18l-6-6 6-6"/>',
+    right: '<path d="M9 18l6-6-6-6"/>',
     edit: '<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/>',
     committee: '<path d="M3 21h18"/><path d="M5 21V10M19 21V10M9 21V10M15 21V10"/><path d="M2 10 12 3l10 7z"/>',
     question: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>',
@@ -422,7 +461,7 @@ if (typeof document !== "undefined") (() => {
   const home = document.getElementById("dla-ciebie");
   if (!home) return;
   // "home": what matters to the reader and MPs to know (the home page); "feed": every
-  // event in their topics (wydarzenia.html)
+  // event in their topics (wydarzenia.html); "mps": every suggested MP (poslowie-dla-ciebie.html)
   const PAGE = home.dataset.page || "home";
   const L = JSON.parse(home.dataset.labels);
   const ROOT = home.dataset.root || "";
@@ -468,7 +507,7 @@ if (typeof document !== "undefined") (() => {
   };
   const placeholders = () => (PAGE === "feed"
     ? [placeholder("twoje-tematy", L.feedTitle, L.feedEmpty)]
-    : [placeholder("poslowie-tematy", L.mpsTitle, L.mpsStart)]);
+    : PAGE === "mps" ? [] : [placeholder("poslowie-tematy", L.mpsTitle, L.mpsStart)]);
 
   // the survey: first visit, "Zmień tematy", or "Tak, chcę je zmienić"
   function showForm(selected, focus = true) {
@@ -547,15 +586,6 @@ if (typeof document !== "undefined") (() => {
     return b;
   };
 
-  // why an event is here: the topics and what tied it to them
-  const whyText = (e) => Object.entries(e.mine).map(([id, reasons]) => {
-    const how = reasons.map(([k, v]) => {
-      if (k === "tag") return v;
-      const name = data.committees[v] || v;
-      return /^(Komisja|Committee)/.test(name) ? name : `${L.committee} ${name}`;
-    });
-    return `${nameOf(id)} (${how.join(", ")})`;
-  }).join("; ");
   const statusOf = (e) => (LANG === "en" ? e.se : e.s);
   const badgeOf = (e, text = statusOf(e)) => (text
     ? el("span", { className: `badge ${e.o === "adopted" ? "adopted" : e.o === "rejected" ? "rejected" : "neutral"}`, textContent: text })
@@ -575,33 +605,30 @@ if (typeof document !== "undefined") (() => {
 
   // "Ważne dla Ciebie": a card per bill
   const card = (e) => {
+    // a wide, low tile: what happened on the left; the result, its numbers and the link on the right
     const ids = Object.keys(e.mine);
     const kind = e.k === "vote" ? L.motions[e.mo] || L.kinds.vote : L.kinds[e.k];
-    const head = el("div", { className: "vcard-head" }, el("span", { className: "k", textContent: kind }),
-      e.k === "agenda" && e.p ? badgeOf(e, sittingN(e.p)) : badgeOf(e));
-    const body = [head, el("h3", { lang: "pl" }, titleLink(e))];
-    let more = null;
+    const main = el("div", { className: "vcard-main" }, el("span", { className: "k", textContent: kind }),
+      el("h3", { lang: "pl" }, titleLink(e)),
+      el("div", { className: "vcard-meta" }, topicTags(ids), el("span", { textContent: whenOf(e) })));
+    const side = el("div", { className: "vcard-side" }, e.k === "agenda" && e.p ? badgeOf(e, sittingN(e.p)) : badgeOf(e));
     if (e.k === "vote") {
-      const [n, k] = e.a || [0, 0];
-      if (n) body.push(el("p", { className: "vcard-sum", textContent: L.amendBefore.replace("{n}", votesN(n)).replace("{k}", k) }));
-      else if (e.mo === "final") body.push(el("p", { className: "vcard-sum", textContent: L.amendNone }));
       const total = e.c.reduce((x, y) => x + y, 0) || 1;
       const bar = el("div", { className: "bar", ariaHidden: "true" }, ["Y", "N", "A"].map((c, i) => {
-        const s = el("span", { className: c });
-        s.style.width = `${(e.c[i] / total) * 100}%`;
-        return s;
+        const sp = el("span", { className: c });
+        sp.style.width = `${(e.c[i] / total) * 100}%`;
+        return sp;
       }));
-      body.push(el("div", { className: "vcard-bar" }, bar, countsOf(e)));
-      more = link(href(e.url), `${L.voteDetails} →`);
+      side.append(el("div", { className: "vcard-bar" }, bar, countsOf(e)));
+      const [n, k] = e.a || [0, 0];
+      if (n) side.append(el("p", { className: "vcard-sum", textContent: L.amendBefore.replace("{n}", votesN(n)).replace("{k}", k) }));
+      side.append(link(href(e.url), `${L.voteDetails} →`));
     } else if (e.k === "agenda") {
-      more = link(href(e.url), `${L.agendaDetails} →`);
+      side.append(link(href(e.url), `${L.agendaDetails} →`));
     } else if (e.k === "stage" && e.bill) {
-      more = link(href(`ustawa/${e.root}.html`), `${L.billDetails} →`);
+      side.append(link(href(`ustawa/${e.root}.html`), `${L.billDetails} →`));
     }
-    body.push(el("div", { className: "vcard-meta" }, topicTags(ids), el("span", { textContent: whenOf(e) })));
-    body.push(el("div", { className: "vcard-foot" },
-      el("span", { className: "vcard-why" }, svg(ICON.info, 15), el("span", { textContent: `${L.because}: ${whyText(e)}` })), more));
-    return el("li", { className: "card vcard" }, body);
+    return el("li", { className: "card vcard" }, main, side);
   };
 
   // the latest events: a table per sitting (a list on phones, by the stylesheet)
@@ -677,6 +704,11 @@ if (typeof document !== "undefined") (() => {
       return;
     }
     const mine = eventsFor(data.events, state.ids);
+    if (PAGE === "mps") {
+      top.remove();
+      home.append(...mpsAll());
+      return;
+    }
     if (PAGE === "feed") {
       top.remove();
       if (!mine.length) {
@@ -708,65 +740,81 @@ if (typeof document !== "undefined") (() => {
     home.append(mps());
   };
 
+  // ---- suggested MPs: a card each, all the same size: who, the topics, up to three lines
+  // on their work (the weightiest of each kind), and a link to their page on these topics
+  const roleRank = (fn) => (/^przewodnicz/.test(fn) ? 0 : /przewodnicz/.test(fn) ? 1 : 2);
+  const mpCard = (r) => {
+    const m = data.mps[r.id] || { name: `#${r.id}`, club: "" };
+    const lines = [];
+    const comms = r.why.filter((w) => w.k === "committee").sort((x, y) => roleRank(x.fn || "") - roleRank(y.fn || ""));
+    // [icon, the line, its full text on hover]
+    if (comms.length) {
+      const c = comms[0], name = data.committees[c.code] || c.code;
+      const more = comms.length > 1 ? ` +${comms.length - 1}` : "";
+      lines.push([ICON.committee, `${name}${more}`, `${c.fn ? `${c.fn[0].toUpperCase()}${c.fn.slice(1)} · ` : ""}${name}${more}`]);
+    }
+    const qs = r.why.filter((w) => w.k === "questions").sort((x, y) => y.n - x.n);
+    if (qs.length) {
+      const line = plural(qs[0].n, L.questionsShort).replace("{n}", qs[0].n);
+      lines.push([ICON.question, line, `${line} (${qs[0].to.join(", ")})`]);
+    }
+    const bills = r.why.filter((w) => w.k === "bills").sort((x, y) => y.n - x.n);
+    if (bills.length) {
+      const line = `${plural(bills[0].n, L.billsShort).replace("{n}", bills[0].n)} · ${nameOf(bills[0].topic)}`;
+      lines.push([ICON.bill, line, line]);
+    }
+    const where = [m.club && m.club !== "niez." ? m.clubName || m.club : L.independent, m.districtNum && `${L.district} ${m.districtNum}`].filter(Boolean).join(" · ");
+    const photo = el("img", { className: "mp-thumb", src: home.dataset.photo.replace("{id}", r.id), alt: "", loading: "lazy",
+      width: 56, height: 70, decoding: "async" });
+    photo.addEventListener("error", () => photo.remove(), { once: true });
+    const page = `${ROOT}posel/${r.id}.html?tematy=${state.ids.filter((id) => r.topics.includes(id)).join(",")}#w-twoich-tematach`;
+    return el("li", { className: "card mp-card" },
+      el("div", { className: "mp-card-head" }, photo, el("div", {},
+        el("h3", {}, link(`${ROOT}posel/${r.id}.html`, m.name)),
+        el("p", { className: "muted small", textContent: where }))),
+      topicTags(r.topics),
+      el("ul", { className: "mp-facts" }, lines.map(([icon, text, full]) =>
+        el("li", { title: full }, svg(icon, 15), el("span", { textContent: text })))),
+      link(page, `${L.profile} →`, false, { className: "mp-more" }));
+  };
+
+  // the home page: one MP from each club (a different one on each visit, clubs in a new
+  // order), three at a time in a row that scrolls, and a link to all of them
   const mps = () => {
-    const rows = suggestMps(data, state.ids);
+    const picked = rotate(mpPools(data, state.ids));
     const body = [el("p", { className: "muted", textContent: L.mpsText })];
-    if (!rows.length) {
+    if (!picked.length) {
       body.push(el("p", { textContent: L.mpsNone }));
       return section("poslowie-tematy", L.mpsTitle, body);
     }
-    // a short card each, all the same size: who, the topics, up to three lines on their
-    // work (the weightiest of each kind), and a link to their page opened on these topics
-    const roleRank = (fn) => (/^przewodnicz/.test(fn) ? 0 : /przewodnicz/.test(fn) ? 1 : 2);
-    const cards = rows.map((r) => {
-      const m = data.mps[r.id] || { name: `#${r.id}`, club: "" };
-      const lines = [];
-      const comms = r.why.filter((w) => w.k === "committee").sort((x, y) => roleRank(x.fn || "") - roleRank(y.fn || ""));
-      // [icon, the line, its full text on hover]
-      if (comms.length) {
-        const c = comms[0], name = data.committees[c.code] || c.code;
-        const more = comms.length > 1 ? ` +${comms.length - 1}` : "";
-        lines.push([ICON.committee, `${name}${more}`, `${c.fn ? `${c.fn[0].toUpperCase()}${c.fn.slice(1)} · ` : ""}${name}${more}`]);
-      }
-      const qs = r.why.filter((w) => w.k === "questions").sort((x, y) => y.n - x.n);
-      if (qs.length) {
-        const line = plural(qs[0].n, L.questionsShort).replace("{n}", qs[0].n);
-        lines.push([ICON.question, line, `${line} (${qs[0].to.join(", ")})`]);
-      }
-      const bills = r.why.filter((w) => w.k === "bills").sort((x, y) => y.n - x.n);
-      if (bills.length) {
-        const line = `${plural(bills[0].n, L.billsShort).replace("{n}", bills[0].n)} · ${nameOf(bills[0].topic)}`;
-        lines.push([ICON.bill, line, line]);
-      }
-      const where = [m.club && m.club !== "niez." ? m.club : L.independent, m.districtNum && `${L.district} ${m.districtNum}`].filter(Boolean).join(" · ");
-      const photo = el("img", { className: "mp-thumb", src: home.dataset.photo.replace("{id}", r.id), alt: "", loading: "lazy",
-        width: 44, height: 55, decoding: "async" });
-      photo.addEventListener("error", () => photo.remove(), { once: true });
-      const page = `${ROOT}posel/${r.id}.html?tematy=${state.ids.filter((id) => r.topics.includes(id)).join(",")}#w-twoich-tematach`;
-      return el("li", { className: "card mp-card" },
-        el("div", { className: "mp-card-head" }, photo, el("div", {},
-          el("h3", {}, link(`${ROOT}posel/${r.id}.html`, m.name)),
-          el("p", { className: "muted small", textContent: where }))),
-        topicTags(r.topics),
-        el("ul", { className: "mp-facts" }, lines.map(([icon, text, full]) =>
-          el("li", { title: full }, svg(icon, 15), el("span", { textContent: text })))),
-        link(page, `${L.profile} →`, false, { className: "mp-more" }));
-    });
-    const list = el("ul", { className: "mp-cards" }, cards);
-    body.push(list);
-    // one from each club: a row of four to start with (three on a phone), the rest on request
-    const FIRST = matchMedia("(max-width: 600px)").matches ? 3 : 4;
-    if (cards.length > FIRST) {
-      cards.slice(FIRST).forEach((c) => { c.hidden = true; });
-      const more = el("button", { type: "button", className: "lnk", textContent: L.moreMps.replace("{n}", cards.length - FIRST) });
-      more.addEventListener("click", () => {
-        cards.forEach((c) => { c.hidden = false; });
-        more.remove();
-        focusSoon(cards[FIRST].querySelector("a"));
-      });
-      body.push(more);
-    }
+    const track = el("ul", { className: "mp-cards mp-track", tabIndex: 0 }, picked.map(mpCard));
+    track.setAttribute("aria-label", L.mpsTitle);
+    const prev = el("button", { type: "button", className: "icon-btn mp-nav", ariaLabel: L.prev, title: L.prev }, svg(ICON.left, 18));
+    const next = el("button", { type: "button", className: "icon-btn mp-nav", ariaLabel: L.next, title: L.next }, svg(ICON.right, 18));
+    const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const step = (dir) => track.scrollBy({ left: dir * track.clientWidth, behavior: reduced ? "auto" : "smooth" });
+    prev.addEventListener("click", () => step(-1));
+    next.addEventListener("click", () => step(1));
+    const ends = () => {
+      prev.disabled = track.scrollLeft <= 2;
+      next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
+    };
+    track.addEventListener("scroll", ends, { passive: true });
+    new ResizeObserver(ends).observe(track);
+    body.push(el("div", { className: "mp-carousel" }, track),
+      el("div", { className: "mp-carousel-foot" }, el("span", { className: "mp-navs" }, prev, next),
+        link(`${ROOT}poslowie-dla-ciebie.html`, `${L.allMps} (${Object.values(mpPools(data, state.ids)).flat().length}) →`, false, { className: "btn2" })));
+    requestAnimationFrame(ends);
     return section("poslowie-tematy", L.mpsTitle, body);
+  };
+
+  // poslowie-dla-ciebie.html: every club's best three in the reader's topics, three to a row,
+  // the clubs and each club's three in a new order on every visit
+  const mpsAll = () => {
+    const pools = mpPools(data, state.ids);
+    const rows = shuffle(Object.values(pools)).flatMap((p) => shuffle(p));
+    if (!rows.length) return [el("p", { textContent: L.mpsNone })];
+    return [el("p", { className: "muted", textContent: L.mpsAllText }), el("ul", { className: "mp-cards mp-grid" }, rows.map(mpCard))];
   };
 
   const skipped = (focus) => {

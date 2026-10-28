@@ -20,7 +20,7 @@
   html { scroll-padding-top: 92px; }
 }
 @media print { .top { position: static; } }
-.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; min-height: 72px; padding-top: 12px; padding-bottom: 12px; }
+.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; min-height: 72px; padding-top: 12px; padding-bottom: 12px; }
 .brand { display: block; line-height: 0; }
 .brand { flex: none; margin-right: 8px; }
 .brand .logo { display: block; height: 34px; aspect-ratio: 1267 / 190; background: var(--accent);
@@ -39,13 +39,13 @@
 :root[data-theme="dark"] .theme-switch .sun { display: block; }
 :root[data-theme="dark"] .theme-switch .moon { display: none; }
 /* the header: one compact row (logo, sections, search, language and theme); below
-   1280px the sections fold behind the "Menu" button (static/header.js), and without
+   1360px the sections fold behind the "Menu" button (static/header.js), and without
    scripts they simply wrap */
 .top nav { font-size: 1rem; gap: 2px 18px; }
 .top nav a[aria-current="page"] { color: var(--text); font-weight: 600; }
 /* sections with their pages folded under them (templates/_header.html, static/header.js): a
-   dropdown on hover or with the ▾ button from 1280px; below, listed open in the menu */
-.nav-list { display: flex; flex-wrap: wrap; align-items: stretch; gap: 2px 20px; margin: 0; padding: 0; list-style: none; }
+   dropdown on hover or with the ▾ button from 1360px; below, listed open in the menu */
+.nav-list { display: flex; flex-wrap: wrap; align-items: stretch; gap: 2px 18px; margin: 0; padding: 0; list-style: none; }
 /* every section the same box, its label centred in it, ▾ or not, so the labels line up in every browser */
 .nav-item { position: relative; display: flex; align-items: center; gap: 0; height: 32px; }
 .nav-item > a { display: flex; align-items: center; height: 100%; line-height: 1; }
@@ -63,19 +63,27 @@
 .sub a:hover { background: var(--bg); text-decoration: none; }
 .sub a[aria-current="page"] { font-weight: 600; color: var(--accent); }
 .nav-item.open > .sub { display: block; }
-@media (hover: hover) and (min-width: 1280px) { .nav-item:hover > .sub { display: block; } }
+@media (hover: hover) and (min-width: 1360px) { .nav-item:hover > .sub { display: block; } }
 @media (prefers-reduced-motion: reduce) { .sub-toggle svg { transition: none; } }
 /* Sejmdle: the daily games, set apart from the sections */
 .nav-game { display: inline-flex; align-items: center; gap: 7px; flex: none; height: 38px; padding: 0 16px 0 14px; border-radius: 99px;
   background: var(--accent); color: var(--on-accent, var(--on-fill, #fff)) !important; font-size: .95rem; font-weight: 700; white-space: nowrap; }
 .nav-game:hover { text-decoration: none; filter: brightness(1.08); }
 .nav-game svg { width: 14px; height: 14px; fill: currentColor; }
-.nav-lang { display: none !important; }
+.nav-lang, .nav-phone { display: none !important; }
+/* "Grafiki": images to share, a pill like Sejmdle's, in the accent's light tint so the two
+   read as a pair without competing */
+.nav-share { display: inline-flex; align-items: center; gap: 7px; flex: none; height: 38px; padding: 0 16px 0 14px; border-radius: 99px;
+  border: 1px solid var(--accent); background: var(--accent-bg, color-mix(in srgb, var(--accent) 12%, transparent)); color: var(--accent) !important;
+  font: inherit; font-size: .95rem; font-weight: 700; white-space: nowrap; cursor: pointer; text-decoration: none; }
+.nav-share:hover { text-decoration: none; background: color-mix(in srgb, var(--accent) 20%, transparent); }
+.nav-share svg { width: 16px; height: 16px; }
+.nav-menu-btn { font: inherit; padding: 10px 2px; border: 0; border-bottom: 1px solid var(--line); background: none; color: var(--muted); text-align: left; cursor: pointer; width: 100%; }
 .top nav { align-items: center; }
 .site-search { flex: 0 1 300px; min-width: 150px; margin-left: auto; }
-/* below 1280px the sections are behind Menu, and search takes their room */
-@media (max-width: 1279px) and (min-width: 641px) { .site-search { flex: 1 1 360px; max-width: 520px; } }
-@media (min-width: 1280px) { .top .wrap { flex-wrap: nowrap; } .top nav, .top .nav-list { flex-wrap: nowrap; white-space: nowrap; } }
+/* below 1360px the sections are behind Menu, and search takes their room */
+@media (max-width: 1359px) and (min-width: 641px) { .site-search { flex: 1 1 360px; max-width: 520px; } }
+@media (min-width: 1360px) { .top .wrap { flex-wrap: nowrap; } .top nav, .top .nav-list { flex-wrap: nowrap; white-space: nowrap; } }
 .site-search input { width: 100%; height: 38px; font: inherit; font-size: .95rem; padding: 0 14px 0 36px; border: 1px solid var(--line); border-radius: 99px;
   color: var(--text); background: var(--bg) no-repeat 13px 50% / 15px; appearance: none; transition: border-color .15s, box-shadow .15s;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a8a8f' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='M15.5 15.5 21 21'/%3E%3C/svg%3E"); }
@@ -86,7 +94,7 @@
 .nav-toggle { display: none; align-items: center; gap: 6px; font: inherit; font-size: .9rem; font-weight: 600; min-height: 38px; padding: 4px 12px;
   border: 1px solid var(--line); border-radius: 99px; background: var(--bg); color: var(--text); cursor: pointer; }
 .nav-toggle svg { width: 18px; height: 18px; }
-@media (max-width: 1279px) {
+@media (max-width: 1359px) {
   .js .nav-toggle { display: inline-flex; }
   .js .top nav { display: none; order: 10; flex-basis: 100%; flex-direction: column; gap: 0; padding: 4px 0 6px; border-top: 1px solid var(--line); font-size: 1rem; }
   .js .top.nav-open nav { display: flex; }
@@ -120,7 +128,8 @@
   .brand { margin-right: 0; }
   .brand .logo { height: 21px; }
   .js .top .lang { display: none; }
-  .js .top .nav-lang { display: flex !important; }
+  .js .top .nav-lang, .js .top .nav-phone { display: flex !important; }
+  .js .nav-share { display: none; }
   .js .nav-game { padding: 0 11px 0 9px; font-size: .85rem; }
 }
 @media (max-width: 380px) {

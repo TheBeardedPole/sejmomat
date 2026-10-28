@@ -1,4 +1,4 @@
-// "Grafiki do udostępnienia" (templates/_cards.html, share_dialog): a window where the
+// "Grafiki do udostępnienia" (templates/_cards.html, share_dialog; opened by static/header.js): a window where the
 // reader picks what to share — a voting day's summary, a club's or an MP's term or
 // latest sitting — or puts two MPs or two clubs side by side. The day and club images
 // come ready with the site (sejmomat/card.py); an MP's and the comparisons are drawn
@@ -7,8 +7,7 @@
 // system's share sheet.
 (() => {
   const dialog = document.getElementById("grafiki");
-  const opener = document.querySelector("[data-share-open]");
-  if (!dialog || !opener || !dialog.showModal) return;
+  if (!dialog || !dialog.showModal) return;
   const L = JSON.parse(dialog.dataset.labels);
   const CLUBS = JSON.parse(dialog.dataset.clubs);
   const ROOT = dialog.dataset.root, SITE = dialog.dataset.siteRoot;
@@ -250,11 +249,14 @@
     kinds.querySelector(`[data-kind="${k}"]`).focus();
   });
 
-  opener.addEventListener("click", () => {
-    dialog.showModal();
-    // on an MP's or a club's page it opens on them
-    if (!current) choose(dialog.dataset.presetKind || "day", dialog.dataset.preset);
-  });
+  // opened by static/header.js (the header's "Grafiki", the button on MP and club pages)
+  window.SejmomatShare = {
+    open() {
+      if (!dialog.open) dialog.showModal();
+      // on an MP's or a club's page it opens on them
+      if (!current) choose(dialog.dataset.presetKind || "day", dialog.dataset.preset);
+    },
+  };
   // a click on the backdrop closes it, as Escape does
   dialog.addEventListener("click", (e) => {
     if (e.target === dialog) dialog.close();
