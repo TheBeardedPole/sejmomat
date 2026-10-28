@@ -594,7 +594,7 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 
 /* the Sejm's seating plan in the suggested MPs section (static/home.js drawHall): grey seats,
    the MPs working on the reader's topics in the accent, three strengths; a card on hover */
-.sala { margin: 8px 0 22px; }
+.sala { margin: 18px 0 8px; }
 .sala-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin-bottom: 8px; }
 .sala-chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .sala-chip { min-height: 34px; padding: 0 12px; font-size: .9rem; }

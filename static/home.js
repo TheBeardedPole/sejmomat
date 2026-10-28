@@ -687,6 +687,8 @@ if (typeof document !== "undefined") (() => {
         topicTags(state.ids), editIcon());
     }
     parts.push(note);
+    // the seating plan first, where the reader lands (the home page only)
+    if (PAGE === "home") parts.push(hallBox());
     const lead = el("div", { className: "home-lead" }, el("h2", { id: "wazne-dla-ciebie", textContent: L.forYou }),
       el("p", { textContent: L.forYouText }));
     const top = el("section", {}, lead);
@@ -919,7 +921,7 @@ if (typeof document !== "undefined") (() => {
   // order), three at a time in a row that scrolls, and a link to all of them
   const mps = () => {
     const picked = rotate(mpPools(data, state.ids));
-    const body = [el("p", { className: "muted", textContent: L.mpsText }), hallBox()];
+    const body = [el("p", { className: "muted", textContent: L.mpsText })];
     if (!picked.length) {
       body.push(el("p", { textContent: L.mpsNone }));
       return section("poslowie-tematy", L.mpsTitle, body);
