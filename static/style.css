@@ -673,3 +673,44 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .liga-account-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; padding-top: 8px; border-top: 1px solid var(--line); }
 .liga-sure { padding: 10px 14px; border-radius: 8px; background: var(--del-bg, var(--bg)); }
 @media (max-width: 560px) { .liga-slots { grid-template-columns: 1fr; } }
+
+/* Sejmowa liga, the squad in the plenary hall (static/league.js hall): the benches as rows of
+   seats in a semicircle around the rostrum, the ten MPs as cards on their seats; the hall is
+   the Sejm's dark blue in both themes, the captain in gold. Below 700px it scrolls sideways
+   (the list view is the default there). */
+.liga-squad-head { flex-wrap: wrap; }
+.liga-view { display: inline-flex; margin-left: auto; padding: 3px; border: 1px solid var(--line); border-radius: 99px; background: var(--surface); }
+.liga-view-btn { min-height: 32px; padding: 0 14px; border: 0; border-radius: 99px; background: none; color: var(--muted); font: inherit; font-size: .9rem; cursor: pointer; }
+.liga-view-btn[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); font-weight: 600; }
+.liga-hall-wrap { overflow-x: auto; border-radius: 16px; }
+.liga-hall { --hall: #12223d; --hall-2: #1b335a; --bench: #3a5b8c; --gold: #e0b75a;
+  position: relative; min-width: 760px; aspect-ratio: 16 / 9; border-radius: 16px; overflow: hidden;
+  background: radial-gradient(120% 95% at 50% 100%, var(--hall-2), var(--hall) 70%); }
+.liga-benches { position: absolute; inset: 0; width: 100%; height: 100%; }
+.liga-benches .seat-dots rect { fill: var(--bench); opacity: .55; }
+.liga-benches .rostrum { fill: #c9a86a; opacity: .9; }
+.liga-rostrum-label { position: absolute; left: 50%; bottom: 3.2%; transform: translateX(-50%); color: #1b2a44; font-size: .72rem;
+  font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.liga-seat { position: absolute; transform: translate(-50%, -50%); width: 12.5%; min-width: 96px; }
+.liga-seat-main { display: flex; flex-direction: column; align-items: center; gap: 2px; width: 100%; padding: 8px 6px 7px; border: 1px solid rgb(255 255 255 / .14);
+  border-radius: 12px; background: #f8f9fb; color: #1d1d1f; font: inherit; text-align: center; cursor: pointer;
+  box-shadow: 0 6px 16px rgb(0 0 0 / .28); transition: transform .12s ease, box-shadow .12s ease; }
+.liga-seat-main:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 10px 22px rgb(0 0 0 / .34); }
+.liga-seat-main:disabled { cursor: default; }
+.liga-seat-main strong { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: .9rem; line-height: 1.2; }
+.liga-seat-photo { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; object-position: 50% 20%; background: #dfe3ea; border: 2px solid #fff; }
+.liga-seat-photo.none { display: block; }
+.liga-seat-meta { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: .74rem; color: #5d6573; }
+.liga-seat-pos { margin-top: 2px; padding: 1px 7px; border-radius: 99px; background: #e7effb; color: #1d5fc4; font-size: .64rem; font-weight: 700;
+  letter-spacing: .05em; text-transform: uppercase; white-space: nowrap; }
+.liga-seat.empty .liga-seat-main { background: rgb(255 255 255 / .06); border: 1.5px dashed rgb(255 255 255 / .45); color: #fff; box-shadow: none; min-height: 92px;
+  justify-content: center; }
+.liga-seat.empty .liga-seat-pos { background: rgb(255 255 255 / .14); color: #fff; }
+.liga-seat-plus { font-size: 1.5rem; line-height: 1; font-weight: 300; }
+.liga-seat.captain .liga-seat-main { border: 2px solid var(--gold); box-shadow: 0 0 0 3px rgb(224 183 90 / .3), 0 8px 18px rgb(0 0 0 / .32); }
+.liga-seat-cap { position: absolute; top: -8px; right: -8px; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%;
+  border: 2px solid #12223d; background: #f8f9fb; color: #5d6573; font: 800 .78rem/1 inherit; cursor: pointer; }
+.liga-seat-cap.on { background: var(--gold); color: #12223d; }
+.liga-seat-cap:disabled { cursor: default; }
+.liga-seat-main:focus-visible, .liga-seat-cap:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { .liga-seat-main { transition: none; } }

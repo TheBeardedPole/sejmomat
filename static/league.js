@@ -158,13 +158,92 @@
       el("div", { className: "liga-slot-acts" }, cap, change));
   };
 
+  // ---- the squad in the plenary hall, as a football game shows a team on the pitch: the
+  // Mówcy at the rostrum, Lojaliści and Klikacze in the middle benches, Buntownicy on the
+  // back benches, Zwycięzca and Opozycjonista at the two ends of the back row. Seats are by
+  // position, never by club. [radius (0 rostrum, 1 back row), angle (180 left, 0 right)]
+  const SEATS = { "Mówca": [[0.28, 135], [0.28, 45]], "Lojalista": [[0.62, 150], [0.62, 115]], "Klikacz": [[0.62, 65], [0.62, 30]],
+    "Buntownik": [[1, 122], [1, 58]], "Zwycięzca": [[1, 166]], "Opozycjonista": [[1, 14]] };
+  const CX = 50, CY = 92, RX = 44, RY = 80;   // % of the hall's width and height
+  const VIEW_KEY = "sejmomat-liga-view";
+  let view = (() => {
+    try { return localStorage.getItem(VIEW_KEY) || (matchMedia("(max-width: 700px)").matches ? "list" : "hall"); } catch { return "hall"; }
+  })();
+  const surname = (name) => name.split(" ").slice(-1)[0];
+  const seat = (i, posIndex, open) => {
+    const s = draft.slots[i];
+    const pos = POS()[posIndex];
+    const captain = s && draft.captain === i;
+    const node = el("div", { className: `liga-seat${s ? "" : " empty"}${captain ? " captain" : ""}` });
+    const label = el("span", { className: "liga-seat-pos", textContent: L.posNames[pos] });
+    if (!s) {
+      const add = el("button", { type: "button", className: "liga-seat-main", disabled: !open, title: `${L.pick}: ${L.posNames[pos]}` },
+        el("span", { className: "liga-seat-plus", ariaHidden: "true", textContent: "+" }), label);
+      add.addEventListener("click", () => picker(i, posIndex));
+      node.append(add);
+      return node;
+    }
+    const photo = el("img", { className: "liga-seat-photo", src: PHOTO.replace("{id}", s.mp), alt: "", loading: "lazy", width: 44, height: 44 });
+    photo.addEventListener("error", () => photo.replaceWith(el("span", { className: "liga-seat-photo none", ariaHidden: "true" })), { once: true });
+    const main = el("button", { type: "button", className: "liga-seat-main", disabled: !open, title: `${nameOf(s.mp)} · ${clubName(clubOf(s.mp))} · ${L.change}` },
+      photo, el("strong", { textContent: surname(nameOf(s.mp)) }),
+      el("span", { className: "liga-seat-meta", textContent: `${clubName(clubOf(s.mp))} · ${fmt(price(s.mp, posIndex))}` }), label);
+    main.addEventListener("click", () => picker(i, posIndex));
+    const cap = el("button", { type: "button", className: `liga-seat-cap${captain ? " on" : ""}`, textContent: "C", disabled: !open,
+      title: captain ? L.isCaptain : L.makeCaptain, ariaLabel: `${captain ? L.isCaptain : L.makeCaptain}: ${nameOf(s.mp)}` });
+    cap.setAttribute("aria-pressed", String(captain));
+    cap.addEventListener("click", () => { draft.captain = i; drawSquad(); });
+    node.append(main, cap);
+    return node;
+  };
+  const hall = (open) => {
+    const lay = layout();
+    const used = {};
+    const seats = lay.map((pi, i) => {
+      const pos = POS()[pi];
+      const k = used[pos] = (used[pos] ?? -1) + 1;
+      const [r, a] = (SEATS[pos] || [])[k] || [0.92, 90];
+      const node = seat(i, pi, open);
+      node.style.left = `${CX + Math.cos((a * Math.PI) / 180) * r * RX}%`;
+      node.style.top = `${CY - Math.sin((a * Math.PI) / 180) * r * RY}%`;
+      return node;
+    });
+    // the benches: rows of seats around the rostrum, drawn once (no data in them)
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("viewBox", "0 0 160 90");
+    svg.setAttribute("aria-hidden", "true");
+    svg.classList.add("liga-benches");
+    let marks = "";
+    for (const r of [0.2, 0.32, 0.44, 0.56, 0.68, 0.8, 0.92, 1.04, 1.14]) {
+      const n = Math.round(14 + r * 46);
+      for (let j = 0; j <= n; j++) {
+        const a = Math.PI * (0.02 + 0.96 * (j / n));
+        const x = 80 + Math.cos(a) * r * 70.4, y = 82.8 - Math.sin(a) * r * 72;
+        marks += `<rect x="${(x - 0.9).toFixed(2)}" y="${(y - 0.7).toFixed(2)}" width="1.8" height="1.4" rx="0.4"/>`;
+      }
+    }
+    svg.innerHTML = `<g class="seat-dots">${marks}</g><rect class="rostrum" x="72" y="82" width="16" height="6" rx="1.2"/>`;
+    return el("div", { className: "liga-hall-wrap" }, el("div", { className: "liga-hall", role: "group", ariaLabel: L.hall },
+      svg, el("span", { className: "liga-rostrum-label", textContent: L.rostrum }), seats));
+  };
+
   const squadBox = el("section", { className: "liga-squad", ariaLabelledby: "liga-squad-h" });
   const drawSquad = () => {
     const open = !!me.game.open;
     const lay = layout();
-    const groups = POS().map((pos, pi) => el("div", { className: "liga-group" },
+    const groups = view === "hall" ? [hall(open)] : POS().map((pos, pi) => el("div", { className: "liga-group" },
       el("h3", {}, L.posNames[pos], el("span", { className: "muted small", textContent: ` · ${L.posRules[pos]}` })),
       el("div", { className: "liga-slots" }, lay.map((p, i) => (p === pi ? slotCard(i, pi, open) : null)))));
+    const switcher = el("div", { className: "liga-view", role: "group", ariaLabel: L.viewLabel }, [["hall", L.viewHall], ["list", L.viewList]].map(([v, t]) => {
+      const b = el("button", { type: "button", className: "liga-view-btn", textContent: t });
+      b.setAttribute("aria-pressed", String(view === v));
+      b.addEventListener("click", () => {
+        view = v;
+        try { localStorage.setItem(VIEW_KEY, v); } catch { /* the choice lasts for this page */ }
+        drawSquad();
+      });
+      return b;
+    }));
     const bank = bankAfter();
     const full = draft.slots.every(Boolean);
     const made = transfersInDraft();
@@ -199,7 +278,7 @@
       draft.captain === null && full ? el("p", { className: "muted", textContent: L.pickCaptain }) : null);
     squadBox.replaceChildren(
       el("div", { className: "liga-squad-head" }, el("h2", { id: "liga-squad-h", textContent: L.squad }),
-        open ? null : el("span", { className: "badge neutral", textContent: L.closed })),
+        open ? null : el("span", { className: "badge neutral", textContent: L.closed }), switcher),
       facts, ...groups,
       el("div", { className: "liga-save" }, save, reset, msg));
   };

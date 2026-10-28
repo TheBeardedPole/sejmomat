@@ -700,6 +700,8 @@ EN = {
     "Wszystkie interpelacje": "All interpellations", "Wszystkie komisje": "All committees",
     "Nie udało się wczytać danych o tematach.": "Could not load the topic data.",
     # Sejmowa liga (templates/league.html)
+    "Sala plenarna: Twój skład": "The plenary hall: your squad", "Mównica": "Rostrum", "Widok składu": "Squad view",
+    "Sala": "Hall", "Lista": "List",
     "Sejmowa liga": "Sejmowa liga",
     "Gra na danych Sejmu: wybierz dziesięciu posłów na sześć pozycji, a punkty zdobywają za to, co robią na posiedzeniu.": "A game on the Sejm's data: pick ten MPs in six positions; they score for what they do at the sitting.",
     "Wybierz dziesięciu posłów na sześć pozycji. Na każdym posiedzeniu zdobywają punkty za to, co robią na sali.": "Pick ten MPs in six positions. At every sitting they score for what they do in the chamber.",

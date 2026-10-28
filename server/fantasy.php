@@ -352,6 +352,18 @@ if ($action === '' && (isset($_GET['code']) || isset($_GET['error']))) $action =
 switch ($action) {
 case 'login': {
     $c = config();
+    // on a test machine (config "dev_login", Google client "dev"): straight in as a test player,
+    // ?sub=name for another one
+    if (!empty($c['dev_login']) && ($c['google_id'] ?? '') === 'dev' && in_array($_SERVER['REMOTE_ADDR'] ?? '', ['127.0.0.1', '::1'], true)) {
+        $uid = uid_for('dev|' . preg_replace('/[^a-z0-9]/', '', (string)($_GET['sub'] ?? 'tester')));
+        locked_update('users', function ($users) use ($uid) {
+            $users[$uid] ??= ['created' => now(), 'nick' => null, 'free' => 1, 'history' => new stdClass()];
+            return [$users, null];
+        });
+        start_session($uid);
+        header('Location: ' . league_link(), true, 302);
+        exit;
+    }
     if (empty($c['google_id'])) fail(503, 'Logowanie nie jest jeszcze skonfigurowane.');
     $state = b64url(random_bytes(16));
     $verifier = b64url(random_bytes(32));
