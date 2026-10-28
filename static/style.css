@@ -621,7 +621,7 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 
 /* the support window (static/app.js showSupport): the line about funding, then the tiers as steps
    of a bar that grows upwards, each step filled as far as the support goes, the tier's amount and
-   what it makes possible in a bubble at its top; the goal (550 zł) on top, in the hall's dark blue */
+   what it makes possible in a bubble at its top; the goal (550 zł) on top, in a light gold */
 .fund-dialog { width: min(560px, calc(100vw - 32px)); padding: 28px 30px 24px; border: 1px solid var(--line); border-radius: 18px;
   background: var(--surface); color: var(--text); box-shadow: 0 24px 64px rgb(0 0 0 / .3); }
 .fund-dialog::backdrop { background: rgb(10 14 24 / .55); }
@@ -652,14 +652,15 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .fund-what { flex-basis: 100%; }
 .fund-step.done .fund-bubble { background: color-mix(in srgb, var(--y) 14%, var(--surface)); }
 .fund-step.done .fund-amount { color: var(--y); }
-/* the goal: the one that should catch the eye */
-.fund-step.goal { min-height: 132px; padding-bottom: 24px; }
-.fund-step.goal .fund-bubble { margin-top: 0; padding: 14px 18px; background: #12223d; color: #fff;
-  box-shadow: 0 10px 28px rgb(29 95 196 / .35), 0 0 0 3px rgb(224 183 90 / .55); }
-.fund-step.goal .fund-amount { font-size: 1.6rem; color: #e0b75a; }
-.fund-step.goal .fund-what { font-size: 1.02rem; font-weight: 600; }
-.fund-goal { order: -1; flex-basis: 100%; font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #e0b75a; }
-.fund-step.goal .fund-seg { background: color-mix(in srgb, #e0b75a 18%, var(--bg)); }
+/* the goal: the one that should catch the eye, in a light gold (the site's amber, both themes) */
+.fund-step.goal { min-height: 124px; padding-bottom: 22px; }
+.fund-step.goal .fund-bubble { margin-top: 0; padding: 13px 16px; background: color-mix(in srgb, var(--a) 12%, var(--surface));
+  box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--a) 55%, var(--surface)), 0 6px 18px color-mix(in srgb, var(--a) 18%, transparent); }
+.fund-step.goal .fund-bubble::before { box-shadow: -1.5px 1.5px 0 0 color-mix(in srgb, var(--a) 55%, var(--surface)); }
+.fund-step.goal .fund-amount { font-size: 1.45rem; color: var(--a); }
+.fund-step.goal .fund-what { font-weight: 600; }
+.fund-goal { order: -1; flex-basis: 100%; font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--a); }
+.fund-step.goal .fund-seg { background: color-mix(in srgb, var(--a) 12%, var(--bg)); }
 .fund-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: 0; }
 .fund-go { min-height: 48px; padding: 0 24px; font-size: 1.02rem; }
 @media (max-width: 620px) {
