@@ -617,16 +617,30 @@ def main():
             list(fetcher.map(overlay.photo, sorted({m["id"] for m in mp_pool})))
     threading.Thread(target=fetch_pool_photos, daemon=True).start()
     votes = []
+    ballots = {}   # vote number -> {MP id: "Y" | "N" | "A" | "X"}, for the break's chamber scene
+    want_ballots = set()   # votes the break would show seat by seat (a replay's latest is not the day's)
     lock = threading.Lock()
+    VOTE_CODE = {"YES": "Y", "NO": "N", "ABSTAIN": "A", "ABSENT": "X"}
 
     def poll():
-        # new votes every 20 s, in the background
+        # new votes every 20 s, in the background; the ballots MP by MP (the list has only totals)
+        # of the latest votes and of those a break asked for, once per vote
         while True:
             got = get_or_none(f"votings/{n}") if n else None
             if got:
                 with lock:
                     votes[:] = sorted(got, key=lambda v: v["votingNumber"])
-            time.sleep(20)
+                latest = [v["votingNumber"] for v in sorted(got, key=lambda v: v["votingNumber"])[-3:]]
+                for num in latest + sorted(want_ballots):
+                    if num not in ballots:
+                        one = get_or_none(f"votings/{n}/{num}")
+                        if one and one.get("votes"):
+                            ballots[num] = {x["MP"]: VOTE_CODE.get(x.get("vote"), "X") for x in one["votes"]}
+            time.sleep(3)
+            for _ in range(17):   # sooner when a break asks for a vote
+                if want_ballots - set(ballots):
+                    break
+                time.sleep(1)
     threading.Thread(target=poll, daemon=True).start()
 
     # who is speaking: the broadcast's name caption, read every SNAP_EVERY seconds
@@ -819,6 +833,72 @@ def main():
 
     agenda_turn = {"n": 0, "slot": None}
 
+    # ---- the chamber in a break (data/seating.json, from the Chancellery's seating plan): every
+    # MP's seat, coloured by club or by how they voted, lit one after another
+    import math
+    import live_overlay
+    hall = None
+    seating_path = ROOT / "data" / "seating.json"
+    if seating_path.exists():
+        plan = json.loads(seating_path.read_text(encoding="utf-8"))
+        rows = [(s["x"], s["y"] / plan["aspect"], s["mp"]) for _, s in sorted(plan["seats"].items(), key=lambda kv: int(kv[0]))]
+        club_by_mp = {m["id"]: m.get("club") or "niez." for m in load_mps(ROOT)}
+        cx = sum(r[0] for r in rows) / len(rows)
+        cy = max(r[1] for r in rows) + 0.04   # the rostrum, in front of the front rows
+        # a sweep from the left wing to the right, and a wave from the rostrum outwards
+        sweep = sorted(range(len(rows)), key=lambda i: -math.atan2(cy - rows[i][1], rows[i][0] - cx))
+        wave = sorted(range(len(rows)), key=lambda i: math.hypot(rows[i][0] - cx, rows[i][1] - cy))
+        hall = {"rows": rows, "club": club_by_mp, "sweep": sweep, "wave": wave}
+
+    def clubs_hall(t, length):
+        """Kluby na sali: the chamber filling club by club, from the left wing to the right, the
+        clubs counted as their seats come in (the largest first in the legend, every club alike)."""
+        rows, club = hall["rows"], hall["club"]
+        colour = [live_overlay.club_colour(club.get(mp)) if mp in club else None for _, _, mp in rows]
+        seats = [(x, y, c) for (x, y, _), c in zip(rows, colour)]
+        total = {}
+        for _, _, mp in rows:
+            if mp in club:
+                total[club[mp]] = total.get(club[mp], 0) + 1
+        top = sorted(total, key=lambda c: -total[c])[:6]
+
+        def legend(p):
+            lit = hall["sweep"][:round(p * len(rows))]
+            n = {}
+            for i in lit:
+                mp = rows[i][2]
+                if mp in club:
+                    n[club[mp]] = n.get(club[mp], 0) + 1
+            out = [(live_overlay.club_colour(c), f"{'niezrzeszeni' if c.startswith('niez') else club_short(c)} {n.get(c, 0)}") for c in top]
+            rest = sum(v for c, v in n.items() if c not in top)
+            return out + ([((125, 135, 148), f"inni {rest}")] if len(total) > len(top) else [])
+
+        return overlay.hall_scene(("clubs",), "Kluby na sali", f"{sum(total.values())} posłów · miejsca według planu sali Kancelarii Sejmu",
+                                  seats, hall["sweep"], legend, t, length)
+
+    VOTE_COLOUR = {"Y": (52, 168, 96), "N": (206, 72, 72), "A": (222, 170, 58), "X": (88, 98, 116)}
+
+    def vote_hall(v, code, t, length):
+        """Jak głosował Sejm: a vote seat by seat ({MP id: Y/N/A/X}), in a wave from the rostrum
+        outwards, the four counts rising as the seats come in."""
+        rows = hall["rows"]
+        seats = [(x, y, VOTE_COLOUR.get(code.get(mp, ""), None) if mp else None) for x, y, mp in rows]
+        names = {"Y": "za", "N": "przeciw", "A": "wstrzymało się", "X": "nie głosowało"}
+
+        def legend(p):
+            n = {}
+            for i in hall["wave"][:round(p * len(rows))]:
+                c = code.get(rows[i][2])
+                if c:
+                    n[c] = n.get(c, 0) + 1
+            return [(VOTE_COLOUR[c], f"{n.get(c, 0)} {names[c]}") for c in ("Y", "N", "A", "X")]
+
+        ok = passed(v)
+        topic = short_topic(re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or ""))
+        return overlay.hall_scene(("vote", v["sitting"], v["votingNumber"]), "Jak głosował Sejm",
+                                  f"Głosowanie nr {v['votingNumber']}, {v['date'][11:16]} · {topic}", seats, hall["wave"], legend, t, length,
+                                  badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)))
+
     def agenda_scene(shown, t, length, slot):
         """Porządek obrad: the whole agenda, nine items a page, a page every 10 s, going on from
         where it stopped the time before; items voted on today marked (nobody can tell from the
@@ -870,16 +950,23 @@ def main():
             length = CMP_SECONDS
             if on_break[1]:   # the break's end is known ahead: the last one leaves in time
                 length = min(CMP_SECONDS, (on_break[1] - on_break[0]).total_seconds() - slot * CMP_SECONDS)
-            # in turn: the agenda, two comparisons, today's votes, two comparisons, a word about the site
+            # in turn: the agenda, a comparison, the clubs in the chamber, today's votes, a comparison,
+            # the latest vote seat by seat, two comparisons, a word about the site
             hhmm = f"{clock:%H:%M}"
-            kind = slot % 7
-            if kind == 6 and promos:
-                return overlay.frame_scene(overlay.promo_scene(promos[(slot // 7) % len(promos)], into, length), hhmm)
+            kind = slot % 9
+            if hall and shown:
+                want_ballots.add(shown[-1]["votingNumber"])
+            if kind == 8 and promos:
+                return overlay.frame_scene(overlay.promo_scene(promos[(slot // 9) % len(promos)], into, length), hhmm)
             if kind == 0 and planned:
                 return overlay.frame_scene(agenda_scene(shown, into, length, slot), hhmm)
+            if kind == 2 and hall:
+                return overlay.frame_scene(clubs_hall(into, length), hhmm)
             if kind == 3 and shown:
                 return overlay.frame_scene(votes_scene(shown, into, length), hhmm)
-            k = (slot // 7) * 4 + {1: 0, 2: 1, 4: 2, 5: 3}.get(kind, 0)   # the comparisons' own count in the turns of seven
+            if kind == 5 and hall and shown and ballots.get(shown[-1]["votingNumber"]):
+                return overlay.frame_scene(vote_hall(shown[-1], ballots[shown[-1]["votingNumber"]], into, length), hhmm)
+            k = (slot // 9) * 4 + {1: 0, 4: 1, 6: 2, 7: 3}.get(kind, 0)   # the comparisons' own count in the turns of nine
             # clubs and a random pair of MPs taking turns
             c = mp_pair((on_break[0], slot)) if (k % 2 or not compares) and mp_pool else None   # a new pair each break
             c = c or (compares[(k // 2) % len(compares)] if compares else None)
