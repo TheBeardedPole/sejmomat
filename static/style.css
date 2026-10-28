@@ -619,10 +619,10 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .sala-legend .sw.on { background: var(--accent); }
 @media (prefers-reduced-motion: reduce) { .sala-plan rect { transition: none; } }
 
-/* the support window (static/app.js showSupport): the line about funding, then the tiers as three
-   steps of a track: each step's stretch of bar filled as far as the support goes, the tier's
-   amount at its end and, in a bubble under it, what it makes possible (a column on phones) */
-.fund-dialog { width: min(760px, calc(100vw - 32px)); padding: 28px 30px 24px; border: 1px solid var(--line); border-radius: 18px;
+/* the support window (static/app.js showSupport): the line about funding, then the tiers as steps
+   of a bar that grows upwards, each step filled as far as the support goes, the tier's amount and
+   what it makes possible in a bubble at its top; the goal (550 zł) on top, in the hall's dark blue */
+.fund-dialog { width: min(560px, calc(100vw - 32px)); padding: 28px 30px 24px; border: 1px solid var(--line); border-radius: 18px;
   background: var(--surface); color: var(--text); box-shadow: 0 24px 64px rgb(0 0 0 / .3); }
 .fund-dialog::backdrop { background: rgb(10 14 24 / .55); }
 .fund-dialog h2 { margin: 0 0 6px; font-size: 1.45rem; padding-right: 36px; }
@@ -631,27 +631,40 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .fund-dialog .support-close:hover { color: var(--text); background: var(--bg); }
 .fund-lead { margin: 0 0 4px; font-size: 1.1rem; line-height: 1.45; max-width: 60ch; }
 .fund-now { margin: 0 0 18px; font-size: .92rem; color: var(--muted); font-variant-numeric: tabular-nums; }
-.fund-meter { list-style: none; margin: 0 0 22px; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 6px; }
-.fund-step { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; min-width: 0; }
-.fund-seg { position: relative; display: block; align-self: stretch; height: 14px; background: var(--bg); border: 1px solid var(--line); overflow: hidden; }
-.fund-step:first-child .fund-seg { border-radius: 99px 0 0 99px; }
-.fund-step:last-child .fund-seg { border-radius: 0 99px 99px 0; }
-.fund-seg-fill { position: absolute; inset: 0 auto 0 0; background: var(--accent); transition: width .8s cubic-bezier(.2,.8,.2,1); }
+/* the bar stands on the left and fills upwards; each step is a row, the goal on top */
+.fund-meter { list-style: none; margin: 0 0 22px; padding: 0; display: flex; flex-direction: column-reverse; gap: 0; }
+.fund-step { display: grid; grid-template-columns: 22px minmax(0, 1fr); column-gap: 18px; align-items: start; min-height: 96px; }
+.fund-seg { position: relative; display: block; align-self: stretch; width: 22px; background: var(--bg); border: 1px solid var(--line);
+  border-top: 0; overflow: hidden; }
+.fund-step:first-child .fund-seg { border-radius: 0 0 99px 99px; }
+.fund-step.goal .fund-seg { border-top: 1px solid var(--line); border-radius: 99px 99px 0 0; }
+/* the tier's line across the bar, at the step's top */
+.fund-seg::after { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--muted); opacity: .5; }
+.fund-step.goal .fund-seg::after { display: none; }
+.fund-seg-fill { position: absolute; left: 0; right: 0; bottom: 0; height: 0; background: var(--accent); transition: height 1.1s cubic-bezier(.2,.8,.2,1); }
 .fund-step.done .fund-seg-fill { background: var(--y); }
-.fund-amount { font-size: 1.05rem; font-variant-numeric: tabular-nums; color: var(--accent); }
-.fund-step.done .fund-amount { color: var(--y); }
-.fund-bubble { position: relative; align-self: stretch; margin: 4px 0 0; padding: 10px 12px; border-radius: 12px; background: var(--accent-bg);
-  font-size: .92rem; line-height: 1.35; text-align: left; }
-/* the bubble's point, under the amount at the step's end */
-.fund-bubble::before { content: ""; position: absolute; top: -7px; right: 18px; width: 14px; height: 14px; background: var(--accent-bg);
+.fund-bubble { position: relative; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; margin: -14px 0 12px; padding: 10px 14px;
+  border-radius: 12px; background: var(--accent-bg); font-size: .95rem; line-height: 1.35; }
+/* the bubble's point, at the tier's line on the bar */
+.fund-bubble::before { content: ""; position: absolute; left: -6px; top: 14px; width: 12px; height: 12px; background: inherit;
   transform: rotate(45deg); border-radius: 2px; }
-.fund-step.done .fund-bubble, .fund-step.done .fund-bubble::before { background: color-mix(in srgb, var(--y) 14%, var(--surface)); }
+.fund-amount { font-size: 1.1rem; font-variant-numeric: tabular-nums; color: var(--accent); }
+.fund-what { flex-basis: 100%; }
+.fund-step.done .fund-bubble { background: color-mix(in srgb, var(--y) 14%, var(--surface)); }
+.fund-step.done .fund-amount { color: var(--y); }
+/* the goal: the one that should catch the eye */
+.fund-step.goal { min-height: 132px; padding-bottom: 24px; }
+.fund-step.goal .fund-bubble { margin-top: 0; padding: 14px 18px; background: #12223d; color: #fff;
+  box-shadow: 0 10px 28px rgb(29 95 196 / .35), 0 0 0 3px rgb(224 183 90 / .55); }
+.fund-step.goal .fund-amount { font-size: 1.6rem; color: #e0b75a; }
+.fund-step.goal .fund-what { font-size: 1.02rem; font-weight: 600; }
+.fund-goal { order: -1; flex-basis: 100%; font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #e0b75a; }
+.fund-step.goal .fund-seg { background: color-mix(in srgb, #e0b75a 18%, var(--bg)); }
 .fund-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: 0; }
 .fund-go { min-height: 48px; padding: 0 24px; font-size: 1.02rem; }
 @media (max-width: 620px) {
   .fund-dialog { padding: 24px 18px 20px; }
-  .fund-meter { grid-template-columns: 1fr; gap: 14px; }
-  .fund-step .fund-seg { border-radius: 99px !important; }
+  .fund-step { column-gap: 14px; }
 }
 @media (prefers-reduced-motion: reduce) { .fund-seg-fill { transition: none; } }
 .sala-toggle { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 40px; padding: 4px 0; border: 0; border-bottom: 1px solid var(--line);

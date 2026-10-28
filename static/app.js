@@ -265,7 +265,7 @@ const T = {
     support: "Wesprzyj", close: "Zamknij", useful: "Sejmomat się przydaje?",
     pitch: "Projekt jest darmowy, bez reklam i śledzenia. Jeśli chcesz, możesz postawić autorowi kawę.",
     buy: "Postaw kawę", later: "Nie teraz",
-    fundTitle: "Wesprzyj Sejmomat",
+    fundTitle: "Wesprzyj Sejmomat", fundGoal: "Cel",
     fundText: "Sejmomat jest i będzie darmowy, ale żeby się rozwijać potrzebuje funduszy.",
     fundNow: "Teraz: {x} zł miesięcznie", fundMonthly: "zł miesięcznie", fundGo: "Wesprzyj na buycoffee.to", fundLater: "Może później",
     fundTiers: [[150, "pełne samodzielne finansowanie serwisu"], [200, "lepszy serwer: wyższa jakość transmisji"],
@@ -285,7 +285,7 @@ const T = {
     support: "Support", close: "Close", useful: "Finding Sejmomat useful?",
     pitch: "The project is free, with no ads or tracking. If you like, you can buy the author a coffee.",
     buy: "Buy a coffee", later: "Not now",
-    fundTitle: "Support Sejmomat",
+    fundTitle: "Support Sejmomat", fundGoal: "Goal",
     fundText: "Sejmomat is and will stay free, but to grow it needs funding.",
     fundNow: "Now: {x} zł a month", fundMonthly: "zł a month", fundGo: "Support on buycoffee.to", fundLater: "Maybe later",
     fundTiers: [[150, "the site funds itself in full"], [200, "a better server: higher-quality streaming"],
@@ -398,19 +398,25 @@ const showSupport = async () => {
   }
   const now = Math.max(0, Number(fund.monthly) || 0);
   const top = T.fundTiers[T.fundTiers.length - 1][0];
-  // the tiers as steps of one width (a milestone track, not a scale: 150 and 200 would sit too
-  // close for their bubbles); each step's bar fills from the tier before it to its own amount,
-  // the amount at its end and, under it, what it makes possible
+  // the tiers as steps of a bar that grows upwards (steps of one height, a milestone track, not
+  // a scale: 150 and 200 would sit too close); each step fills from the tier before it to its own
+  // amount, which is at the step's top with, beside it, what it makes possible. The last tier,
+  // the goal, stands out. Listed bottom to top in the page's order, shown top down.
   let from = 0;
-  const steps = T.fundTiers.map(([amount, what]) => {
+  const fills = [];
+  const steps = T.fundTiers.map(([amount, what], i) => {
     const part = Math.max(0, Math.min(1, (now - from) / (amount - from)));
     from = amount;
     const fill = h("span", { className: "fund-seg-fill" });
-    fill.style.width = `${(part * 100).toFixed(1)}%`;
-    return h("li", { className: `fund-step${part >= 1 ? " done" : part > 0 ? " current" : ""}` }, [
+    fills.push([fill, part]);
+    const goal = i === T.fundTiers.length - 1;
+    return h("li", { className: `fund-step${part >= 1 ? " done" : part > 0 ? " current" : ""}${goal ? " goal" : ""}` }, [
       h("span", { className: "fund-seg" }, [fill]),
-      h("strong", { className: "fund-amount", textContent: `${amount} zł` }),
-      h("p", { className: "fund-bubble", textContent: what }),
+      h("div", { className: "fund-bubble" }, [
+        goal ? h("span", { className: "fund-goal", textContent: T.fundGoal }) : "",
+        h("strong", { className: "fund-amount", textContent: `${amount} zł` }),
+        h("span", { className: "fund-what", textContent: what }),
+      ]),
     ]);
   });
   const dlg = h("dialog", { className: "fund-dialog" }, [
@@ -433,6 +439,8 @@ const showSupport = async () => {
   dlg.addEventListener("close", () => dlg.remove());
   document.body.append(dlg);
   dlg.showModal();
+  // the bar rises once the window is up
+  requestAnimationFrame(() => requestAnimationFrame(() => fills.forEach(([f, part]) => { f.style.height = `${(part * 100).toFixed(1)}%`; })));
   return true;
 };
 // time on the page while it is in view, a tick every 5 seconds
