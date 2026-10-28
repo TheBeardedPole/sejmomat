@@ -186,7 +186,7 @@ window.SejmomatCards = (() => {
     y = tiles(d, y, [
       [pct(t.turnout), `udział w głosowaniach (${t.cast} z ${t.eligible})`, TEXT, top.turnout],
       [t.missed, "opuszczonych głosowań", t.missed ? ABSTAIN : TEXT],
-      [t.rebels, `wyłamań z linii klubu (${pct(t.rebelRate)})`, t.rebels ? NO : TEXT],
+      [t.rebels, `wyłamań z linii klubu (${pct(t.rebelRate)})`, TEXT],
       [t.speeches, "wystąpień na sali plenarnej", TEXT, top.speeches],
       [t.questions, "interpelacji i zapytań poselskich", TEXT, top.questions],
       // how many of the amendments and motions the MP signed passed; neutral colour: few pass for the opposition
@@ -234,7 +234,7 @@ window.SejmomatCards = (() => {
     y = tiles(d, y, [
       [s.total, "głosowań", TEXT], [s.Y, "razy za", YES], [s.N, "razy przeciw", NO],
       [s.A, "razy wstrzymał(a) się", ABSTAIN], [s.X, s.X === s.total ? "opuszczone: wszystkie" : "opuszczonych głosowań", s.X ? ABSTAIN : TEXT],
-      [s.rebel, "razy wbrew linii klubu", s.rebel ? NO : TEXT],
+      [s.rebel, "razy wbrew linii klubu", TEXT],
     ]);
     const x = PAD + 28, width = W - 2 * PAD - 56;
     panel(d, y, 28 + 38 + 26 + 16 + 40 + 18);

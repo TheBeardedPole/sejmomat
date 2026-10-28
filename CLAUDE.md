@@ -254,6 +254,16 @@ Live on sejmomat.pl:
   speeches, five a page; shown once per speech while one of them speaks, before their club's
   cards. Captions are snapshotted every second (some are readable for little more than one).
 
+- **Home page as a dashboard** (28 October 2026): was/now/next, "Ważne dla Ciebie" (link to
+  `wydarzenia.html`, every event in the reader's topics), suggested MPs (short cards of one size;
+  "Zobacz więcej" opens `posel/N.html?tematy=…` with a "W Twoich tematach" panel,
+  `static/mp-topics.js`), and a "Grafiki do udostępnienia" window (`static/share.js`: a voting
+  day, club or MP, or two MPs / two clubs side by side, drawn by `static/card.js`, now a module).
+  The latest sitting moved to `ostatnie-posiedzenie.html`. The home page's player opens only on
+  "Oglądaj transmisję" (`live_box(on_request=true)`). Header: full width, search always a field,
+  sections behind Menu below 1280px. Breaks of the club line are neutral everywhere (no red, no
+  side lit as a winner in comparisons; overlay rows `"better": "none"`).
+
 Waiting on the owner:
 
 - **Posting day summaries** (no social media accounts yet) (`.github/workflows/social.yml`): to X
