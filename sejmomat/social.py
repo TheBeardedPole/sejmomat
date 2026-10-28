@@ -171,10 +171,11 @@ def summarize(ctx, day, votes):
                 kv[0] == "(nieustalony)", -kv[1]["adopted"], -kv[1]["voted"], kv[0]))],
     }
     out["posts"] = thread(out)
-    out["single"] = f"{summary_post(out)}\n\n{out['url']}"
+    # no link in any post (links cut a post's reach); the image names sejmomat.pl in its footer
+    out["single"] = summary_post(out)
     # for the post that carries the image (card.py): what to write next to
     # it, and the image's description for people who cannot see it
-    out["caption"] = f"{headline(out)}\n\nWszystkie głosowania, treść poprawek i wyniki klubów:\n{out['url']}"
+    out["caption"] = headline(out)
     out["alt"] = alt_text(out)
     return out
 
@@ -193,7 +194,7 @@ def figures(s):
 
 
 def headline(s):
-    return f"🏛️ #Sejm, {day_label(s['day'])} — podsumowanie dnia"
+    return f"🏛️ #Sejm, {day_label(s['day'])}: podsumowanie dnia"
 
 
 def summary_post(s):
@@ -206,7 +207,7 @@ def alt_text(s):
              *(text for _, text in figures(s))]
     law = s["mostContestedLaw"]
     if law:
-        parts.append(f"Najbardziej sporne głosowanie nad ustawą: {short_title(law['title'])} — {law['yes']} za, "
+        parts.append(f"Najbardziej sporne głosowanie nad ustawą: {short_title(law['title'])}: {law['yes']} za, "
                      f"{law['no']} przeciw, {law['abstain']} wstrzymujących się"
                      + ("" if law["passed"] else ", projekt odrzucony"))
         parts += [f"{label}: {', '.join(law['lines'][k])}" for k, label in LINE_LABELS if law["lines"].get(k)]
@@ -219,8 +220,9 @@ def alt_text(s):
 
 
 def contested_post(law):
-    tail = (f"\n\n{law['yes']} za · {law['no']} przeciw · {law['abstain']} wstrz."
-            f"{'' if law['passed'] else ' — projekt odrzucony'}\n"
+    abstained = "wstrzymał się" if law["abstain"] == 1 else "wstrzymało się"
+    tail = (f"\n\n{law['yes']} za, {law['no']} przeciw, {law['abstain']} {abstained}."
+            f"{'' if law['passed'] else ' Projekt odrzucony.'}\n"
             + "\n".join(f"{label}: {', '.join(law['lines'][k])}" for k, label in LINE_LABELS if law["lines"].get(k)))
     head = "Najbardziej sporne głosowanie nad ustawą:\n"
     return head + shorten(short_title(law["title"]), LIMIT - weight(head) - weight(tail)) + tail
@@ -240,17 +242,14 @@ def proposers_post(rows):
 
 def thread(s):
     """The day as a thread: summary, the most contested law, whose amendments
-    passed, and the link (alone in the last post). A day with nothing to add
-    to the summary is one post, link included."""
+    passed. No links (the image carries the address)."""
     posts = [summary_post(s)]
     if s["mostContestedLaw"]:
         posts.append(contested_post(s["mostContestedLaw"]))
     # worth a post only if at least one proposer is known
     if any(r["proposer"] != "(nieustalony)" for r in s["amendmentProposers"]):
         posts.append(proposers_post(s["amendmentProposers"]))
-    if len(posts) == 1:
-        return [f"{posts[0]}\n\n{s['url']}"]
-    return [*posts, f"Wszystkie głosowania, treść poprawek i wyniki klubów:\n{s['url']}"]
+    return posts
 
 
 def summaries(ctx, limit=RECENT_DAYS):

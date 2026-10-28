@@ -35,11 +35,11 @@ KIND_LABEL = {"amendment": "Poprawka", "minority": "Wniosek mniejszości", "sena
 # and outcome wording per kind. Patterns are matched against the lowercased topic.
 MOTIONS = [
     ("reject_info", r"odrzuceni\w* (informacji|sprawozdania|dokumentu)",
-     "Głosowanie nad wnioskiem o odrzucenie informacji lub sprawozdania: „za” oznacza odrzucenie dokumentu, „przeciw” — jego przyjęcie do wiadomości.",
-     ("Wniosek przyjęty — dokument odrzucony", "Wniosek odrzucony — dokument nie został odrzucony")),
+     "Głosowanie nad wnioskiem o odrzucenie informacji lub sprawozdania: „za” oznacza odrzucenie dokumentu, „przeciw” jego przyjęcie do wiadomości.",
+     ("Wniosek przyjęty: dokument odrzucony", "Wniosek odrzucony: dokument nie został odrzucony")),
     ("reject_bill", r"odrzuceni\w*|wniosek o odrzucenie",
-     "Głosowanie nad wnioskiem o odrzucenie projektu: „za” oznacza odrzucenie projektu i koniec prac nad nim, „przeciw” — że projekt trafia do dalszych prac.",
-     ("Wniosek przyjęty — projekt odrzucony", "Wniosek odrzucony — projekt trafia do dalszych prac")),
+     "Głosowanie nad wnioskiem o odrzucenie projektu: „za” oznacza odrzucenie projektu i koniec prac nad nim, „przeciw”, że projekt trafia do dalszych prac.",
+     ("Wniosek przyjęty: projekt odrzucony", "Wniosek odrzucony: projekt trafia do dalszych prac")),
     ("no_confidence", r"wotum nieufności",
      "Głosowanie nad wotum nieufności: „za” oznacza poparcie dla odwołania. Konstruktywne wotum nieufności wobec rządu wymaga większości ustawowej liczby posłów (231 głosów).",
      ("Wotum nieufności uchwalone", "Wotum nieufności nieuchwalone")),
@@ -48,7 +48,7 @@ MOTIONS = [
      ("Wotum zaufania udzielone", "Wotum zaufania nieudzielone")),
     ("skip_committee", r"bez (kierowania|odsyłania)|niezwłoczne przystąpienie|przejście do drugiego czytania",
      "Głosowanie nad wnioskiem o przyspieszenie prac: „za” oznacza, że projekt od razu przechodzi do kolejnego etapu bez prac w komisji.",
-     ("Wniosek przyjęty — bez kierowania do komisji", "Wniosek odrzucony")),
+     ("Wniosek przyjęty: bez kierowania do komisji", "Wniosek odrzucony")),
     ("adjourn", r"wniosek o (przerwę|odroczenie posiedzenia|zamknięcie posiedzenia)",
      "Wniosek formalny o przerwę, odroczenie lub zamknięcie posiedzenia: „za” oznacza przerwanie obrad.",
      ("Wniosek przyjęty", "Wniosek odrzucony")),
@@ -65,9 +65,9 @@ def motion(v):
     topic = (v.get("topic") or "").lower()
     if v["senate"] and "odrzuc" in topic:
         return ("reject_senate",
-                "Senat zaproponował odrzucenie ustawy. „Za” oznacza odrzucenie uchwały Senatu — ustawa zostaje przyjęta; "
+                "Senat zaproponował odrzucenie ustawy. „Za” oznacza odrzucenie uchwały Senatu, a więc przyjęcie ustawy; "
                 "potrzebna jest bezwzględna większość. W przeciwnym razie ustawa upada.",
-                ("Uchwała Senatu odrzucona — ustawa przyjęta", "Uchwała Senatu utrzymana — ustawa odrzucona"))
+                ("Uchwała Senatu odrzucona: ustawa przyjęta", "Uchwała Senatu utrzymana: ustawa odrzucona"))
     for kind, pattern, note, outcomes in MOTIONS:
         if re.search(pattern, topic):
             return kind, note, outcomes

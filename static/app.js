@@ -505,3 +505,17 @@ const consent = readConsent();
 window.sejmomatConsented = () => readConsent()?.optional === true;
 if (consent) applyConsent(consent.optional);
 else consentBar.hidden = false;
+
+// Folded explanations ("Jak liczymy?", templates/_macros.html how) print opened.
+window.addEventListener("beforeprint", () => {
+  document.querySelectorAll("details.how:not([open])").forEach((d) => {
+    d.open = true;
+    d.dataset.printOpened = "1";
+  });
+});
+window.addEventListener("afterprint", () => {
+  document.querySelectorAll("details.how[data-print-opened]").forEach((d) => {
+    d.open = false;
+    delete d.dataset.printOpened;
+  });
+});

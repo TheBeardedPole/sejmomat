@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "_macros.html" import crumbs %}
-{% block title %}{{ _("Skuteczne poprawki") }} — {{ _("Poprawki przyjęte przez Sejm") }}{% endblock %}
+{% block title %}{{ _("Skuteczne poprawki") }}: {{ _("Poprawki przyjęte przez Sejm") }}{% endblock %}
 {% block description %}{{ _("Skuteczne poprawki — opis") }}{% endblock %}
 {% block content %}
 {{ crumbs(root, [(root ~ "poprawki.html", _("Poprawki"))], _("Przyjęte poprawki")) }}
@@ -25,7 +25,7 @@
   </tbody>
 </table>
 </div>
-<p class="note">{{ _("Liczone są głosowania; jedno głosowanie może obejmować kilka łącznie głosowanych poprawek.") }} {{ _("Kliknij zgłaszającego, aby przejrzeć wszystkie jego poprawki — także odrzucone.") }}</p>
+<p class="note">{{ _("Liczone są głosowania; jedno głosowanie może obejmować kilka łącznie głosowanych poprawek.") }} {{ _("Zgłaszający prowadzi do wszystkich jego poprawek, także odrzuconych.") }}</p>
 
 <h2>{{ _("Posłowie podpisani pod poprawkami i wnioskami") }}</h2>
 <p class="muted">{{ _("Wnioski mniejszości i poprawki zgłaszane imiennie; poprawki zgłaszane przez kluby liczone są wyżej.") }}</p>

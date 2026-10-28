@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_macros.html" import how %}
 {% from "_section_nav.html" import section_nav with context %}
 {% from "_macros.html" import tag_chips, crumbs %}
 {% set bills = frozen.bills %}
@@ -24,7 +25,8 @@
 </style>
 <h1>{{ _("Zamrażarka") }}</h1>
 {{ section_nav("bills", "zamrazarka.html") }}
-<p>{{ _("Projekty ustaw i uchwał, które utknęły przed drugim czytaniem: czekają, aż Marszałek Sejmu skieruje je do pierwszego czytania albo wpisze pierwsze lub drugie czytanie do porządku obrad, albo aż komisja się nimi zajmie lub przygotuje sprawozdanie. Liczy się czas od ostatniego kroku w przebiegu prac.") }}</p>
+<p>{{ _("Projekty ustaw i uchwał, które utknęły przed drugim czytaniem: u Marszałka Sejmu albo w komisji.") }}</p>
+{% call how(_("Jak liczymy?")) %}<p>{{ _("Projekt czeka, aż Marszałek skieruje go do pierwszego czytania albo wpisze pierwsze lub drugie czytanie do porządku obrad, albo aż komisja się nim zajmie lub przygotuje sprawozdanie. Liczy się czas od ostatniego kroku w przebiegu prac.") }}</p>{% endcall %}
 
 <div class="grid">
   <div class="card stat"><b>{{ bills | selectattr("holder", "equalto", "marshal") | list | length }}</b>{{ _("czeka u Marszałka Sejmu") }}</div>
@@ -66,7 +68,7 @@
 {% endif %}
 
 <h2>{{ _("Komisje") }}</h2>
-<p class="muted">{{ _("Projekty czekające w komisji (na pierwsze czytanie albo sprawozdanie) i przerwy między posiedzeniami komisji w tej kadencji; dni od ostatniego posiedzenia pogrubione, gdy to ponad dwa miesiące.") }}</p>
+<p class="muted">{{ _("Projekty czekające w komisjach i przerwy między ich posiedzeniami w tej kadencji.") }}</p>
 <div class="table-scroll"><table class="frozen-stats" id="committee-breaks">
   <thead><tr><th data-sort="text">{{ _("Komisja") }}</th><th data-sort="num">{{ _("Czeka") }}</th><th data-sort="num">{{ _("ponad pół roku") }}</th>
     <th data-sort="num">{{ _("Najdłużej (dni)") }}</th><th data-sort="num">{{ _("Posiedzenia") }}</th><th data-sort="num">{{ _("Od ostatniego (dni)") }}</th>
@@ -81,6 +83,7 @@
   {% endfor %}
   </tbody>
 </table></div>
+<p class="note">{{ _("Pogrubione: ponad dwa miesiące od ostatniego posiedzenia komisji.") }}</p>
 
 <h2>{{ _("Projekty") }}</h2>
 <div class="filters">
@@ -128,7 +131,7 @@
   </tbody>
 </table>
 </div>
-<p class="note">{{ _("Z przebiegu prac nad projektami w API Sejmu. Projekty odrzucone, wycofane lub zamknięte z innego powodu nie są liczone. Linki prowadzą do przebiegu prac na stronie Sejmu albo, jeśli Sejm już nad projektem głosował, do jego strony tutaj.") }}</p>
+{% call how(_("Skąd są dane?")) %}<p>{{ _("Z przebiegu prac nad projektami w API Sejmu. Projekty odrzucone, wycofane lub zamknięte z innego powodu nie są liczone. Linki prowadzą do przebiegu prac na stronie Sejmu albo, jeśli Sejm już nad projektem głosował, do jego strony tutaj.") }}</p>{% endcall %}
 <script>
 (() => {
   const rows = [...document.querySelectorAll("#frozen-table tbody tr")];

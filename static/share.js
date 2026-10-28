@@ -125,9 +125,10 @@
       fields.replaceChildren(field(L.pickDay, pick));
       go();
     },
-    club: async () => {
+    club: async (preset) => {
       const list = CLUBS.filter((c) => c.cards.length);
-      const pick = select(list.map((c) => [c.id, c.current ? c.short : `${c.short} (${L.former})`]));
+      const pick = select(list.map((c) => [c.id, c.current ? c.short : `${c.short} (${L.former})`]),
+        list.some((c) => c.id === preset) ? preset : undefined);
       const which = variant();
       const go = () => {
         const c = list.find((x) => x.id === pick.value);
@@ -139,9 +140,12 @@
       fields.replaceChildren(field(L.pickClub, pick), which);
       go();
     },
-    mp: async () => {
+    mp: async (preset) => {
       const rows = await mpsReady();
       const [f, input] = mpField(L.pickMp);
+      // on an MP's page its card's data is already there (templates/_cards.html, mp)
+      const here = document.getElementById("mp-card");
+      const own = here && JSON.parse(here.textContent);
       const which = variant();
       const go = async () => {
         if (!input.value.trim()) return clear();
@@ -150,8 +154,11 @@
         const kind = which.querySelector("select").value === "posiedzenie" ? "sitting" : "term";
         showDrawn(async () => {
           // the MP page carries the card's data (templates/_cards.html, mp)
-          const page = await (await fetch(`${ROOT}posel/${m.id}.html`)).text();
-          const data = JSON.parse(new DOMParser().parseFromString(page, "text/html").getElementById("mp-card").textContent);
+          let data = own?.name === m.name ? own : null;
+          if (!data) {
+            const page = await (await fetch(`${ROOT}posel/${m.id}.html`)).text();
+            data = JSON.parse(new DOMParser().parseFromString(page, "text/html").getElementById("mp-card").textContent);
+          }
           if (kind === "sitting" && !data.sitting) throw new Error("no sitting");
           return window.SejmomatCards.mp(data, kind);
         }, `sejmomat-${slug(m.name)}-${kind === "sitting" ? "posiedzenie" : "kadencja"}`);
@@ -160,7 +167,10 @@
       which.addEventListener("change", go);
       fields.replaceChildren(f, which);
       clear();
-      input.focus();
+      if (preset) {
+        input.value = preset;
+        go();
+      } else input.focus();
     },
     mps: async () => {
       const rows = await mpsReady();
@@ -209,7 +219,7 @@
   // ---- the kinds as a row of choices
   const order = ["day", "club", "mp", "mps", "clubs"];
   let current = null;
-  const choose = async (kind) => {
+  const choose = async (kind, preset) => {
     if (kind === current) return;
     current = kind;
     turn++;
@@ -217,7 +227,7 @@
     fields.replaceChildren();
     clear(L.loading);
     try {
-      await KINDS[kind]();
+      await KINDS[kind](preset);
     } catch {
       if (current === kind) clear(L.failed);
     }
@@ -242,7 +252,8 @@
 
   opener.addEventListener("click", () => {
     dialog.showModal();
-    if (!current) choose("day");
+    // on an MP's or a club's page it opens on them
+    if (!current) choose(dialog.dataset.presetKind || "day", dialog.dataset.preset);
   });
   // a click on the backdrop closes it, as Escape does
   dialog.addEventListener("click", (e) => {

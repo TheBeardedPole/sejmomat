@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% from "_macros.html" import tag_chips, result_badge, mp_link, print_link, law_changes, bill_diff, crumbs %}
-{% block title %}{{ (v.topic or v.agenda) | capitalize }} — {{ v.agenda | truncate(80) }}{% endblock %}
-{% block description %}{{ v.date | date_pl }}, {{ sitting_name(v.sitting) }}, {{ _("głosowanie nr") }} {{ v.votingNumber }}: {{ v.topic }} — {{ v.agenda }}. {{ _(v.outcome) }}: {{ v.yes }} {{ _("za") }}, {{ v.no }} {{ _("przeciw") }}, {{ v.abstain }} {{ _("wstrzymało się") }}.{% endblock %}
+{% block title %}{{ (v.topic or v.agenda) | capitalize }}: {{ v.agenda | truncate(80) }}{% endblock %}
+{% block description %}{{ v.date | date_pl }}, {{ sitting_name(v.sitting) }}, {{ _("głosowanie nr") }} {{ v.votingNumber }}: {{ v.topic }}: {{ v.agenda }}. {{ _(v.outcome) }}: {{ v.yes }} {{ _("za") }}, {{ v.no }} {{ _("przeciw") }}, {{ v.abstain }} {{ _("wstrzymało się") }}.{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
 {{ crumbs(root, [(root ~ "posiedzenia.html", _("Posiedzenia")), (root ~ "posiedzenie/" ~ v.sitting ~ ".html", sitting_name(v.sitting))], _("głosowanie nr") ~ " " ~ v.votingNumber ~ " · " ~ (v.date | date_pl(true))) }}
@@ -67,7 +67,7 @@
   {% for club, c in v.clubs.items() %}{% set _x = rows.append((c.Y + c.N + c.A + c.X, club, c)) %}{% endfor %}
   {% for total, club, c in rows | sort(reverse=true) %}
     <tr class="club-row" data-club="{{ club }}" data-rebels="{{ c.rebels | map(attribute='0') | join(',') }}">
-      <td><button type="button" class="club-toggle" aria-expanded="false" aria-controls="names-{{ loop.index }}" title="{{ clubs.get(club, club) }}">{{ club }}</button></td>
+      <td><button type="button" class="club-toggle" aria-expanded="false" aria-controls="names-{{ loop.index }}" title="{{ clubs.get(club, club) if club != "niez." else _("posłowie niezrzeszeni") }}">{{ _("niezrzeszeni") if club == "niez." else club }}</button></td>
       <td class="num v-Y">{{ c.Y }}</td><td class="num v-N">{{ c.N }}</td><td class="num v-A">{{ c.A }}</td><td class="num v-X">{{ c.X }}</td>
       <td>{% if c.line %}{{ _(LINE_LABEL[c.line]) }} <span class="muted">({{ c.share | pct }})</span>{% elif club in ("niez.",) %}<span class="muted">—</span>{% else %}<span class="muted">{{ _("podzielony") }}</span>{% endif %}</td>
       <td><div class="bar">{% for k in ("Y","N","A","X") %}<span class="{{ k }}" style="width:{{ (c[k] / total * 100) if total else 0 }}%"></span>{% endfor %}</div></td>

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_macros.html" import how %}
 {% from "_macros.html" import result_badge, counts, crumbs %}
 {% from "_breakdown.html" import assets, attrs, sitting_cell with context %}
 {% from "_speeches.html" import summary as speech_summary, cloud, styles as speech_styles with context %}
@@ -39,7 +40,6 @@
 {% if c.sittings %}
 <section class="tab-panel" id="posiedzenia">
 <h2 class="tab-title">{{ _("Głosowania według posiedzeń") }}</h2>
-<p class="muted">{{ _("Kliknij posiedzenie, aby zobaczyć każde głosowanie i posłów klubu: kto nie głosował, kto wyłamał się z linii.") }}</p>
 {{ assets() }}
 <div class="table-scroll">
 <table {{ attrs("club", c.id) }} data-current="{{ c.members | map(attribute="mp.id") | join(",") }}">
@@ -57,7 +57,7 @@
   </tbody>
 </table>
 </div>
-<p class="note">{{ _("Nieoddane głosy: odsetek głosów, których posłowie klubu nie oddali, choć byli uprawnieni (nieobecność lub brak udziału w głosowaniu).") }}</p>
+{% call how(_("Jak liczymy?")) %}<p>{{ _("Nieoddane głosy: odsetek głosów, których posłowie klubu nie oddali, choć byli uprawnieni (nieobecność lub brak udziału w głosowaniu).") }}</p>{% endcall %}
 </section>
 {% endif %}
 
@@ -78,7 +78,8 @@
 
 <section class="tab-panel" id="zgodnosc">
 <h2 class="tab-title">{{ _("Zgodność z innymi klubami") }}</h2>
-<p class="muted">{{ _("Odsetek głosowań, w których oba kluby miały wyraźną linię i była ona taka sama (min. 20 wspólnych głosowań).") }}</p>
+<p class="muted">{{ _("Jak często oba kluby głosowały tak samo.") }}</p>
+{% call how(_("Jak liczymy?")) %}<p>{{ _("Odsetek głosowań, w których oba kluby miały wyraźną linię i była ona taka sama. Pokazujemy pary z co najmniej 20 wspólnymi głosowaniami.") }}</p>{% endcall %}
 {% if c.agreement %}
 <div class="table-scroll"><table>
   <tbody>

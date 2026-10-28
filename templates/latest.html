@@ -5,7 +5,7 @@
    home page; now in the Posiedzenia menu). #}
 {% set L = latest %}
 {% block title %}{{ _("Ostatnie posiedzenie") }}: {{ sitting_name(L.sitting) }}{% endblock %}
-{% block description %}{{ sitting_name(L.sitting) }}, {{ L.votes[0].date | date_range(L.votes[-1].date) }}: {{ L.bills | length }} {{ _("projektów rozstrzygniętych w całości") }}, {{ L.votes | length }} {{ L.votes | length | plural(_("głosowanie"), _("głosowania"), _("głosowań")) }}.{% endblock %}
+{% block description %}{{ sitting_name(L.sitting) }}, {{ L.votes[0].date | date_range(L.votes[-1].date) }}: {{ L.bills | length }} {{ L.bills | length | plural(_("projekt rozstrzygnięty w całości"), _("projekty rozstrzygnięte w całości"), _("projektów rozstrzygniętych w całości")) }}, {{ L.votes | length }} {{ L.votes | length | plural(_("głosowanie"), _("głosowania"), _("głosowań")) }}.{% endblock %}
 {% block content %}
 {{ crumbs(root, [(root ~ "posiedzenia.html", _("Posiedzenia"))], _("Ostatnie posiedzenie")) }}
 <h1>{{ _("Ostatnie posiedzenie") }}: {{ sitting_name(L.sitting) }}</h1>
@@ -27,7 +27,7 @@
 {% for row in L.bills %}{% set v = row.v %}
 <tr{% if loop.index > SHOWN %} class="extra"{% endif %}>
   <td lang="pl">{% if row.bill %}<a href="{{ root }}ustawa/{{ row.bill.root }}.html">{{ row.bill.title }}</a>{% else %}{{ v.agenda }}{% endif %}
-    <div class="snippet">{% if row.bill and row.bill.author %}{{ author_label(row.bill.author) }} · {% endif %}<a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a>{% if row.amendment_votes %} · {{ row.amendment_votes }} {{ _("głosowań nad poprawkami i wnioskami") }}{% endif %}</div></td>
+    <div class="snippet">{% if row.bill and row.bill.author %}{{ author_label(row.bill.author) }} · {% endif %}<a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a>{% if row.amendment_votes %} · {{ row.amendment_votes }} {{ row.amendment_votes | plural(_("głosowanie nad poprawkami i wnioskami"), _("głosowania nad poprawkami i wnioskami"), _("głosowań nad poprawkami i wnioskami")) }}{% endif %}</div></td>
   <td>{{ result_badge(v) }}</td>
   <td class="num" style="white-space:nowrap">{{ counts(v) }}</td>
 </tr>

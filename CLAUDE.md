@@ -28,6 +28,21 @@ it and where things stand. Keep it free of personal data.
   days). Large one-off downloads are run locally, not in CI, and the
   resulting `data/` is committed.
 
+## Writing copy for the site
+
+From the content audit of 28 October 2026 (Clear Writing): keep what a reader sees at once short.
+
+- A section opens with one sentence on what its table or chart shows, with a figure if there is one.
+- Definitions, thresholds, exceptions and sources go under the shared expander:
+  `{% call how(_("Jak liczymy?")) %}<p>…</p>{% endcall %}` (`templates/_macros.html`; also
+  "Skąd są dane?", "Co oznaczają kolumny?"), one per section. What changes how a result reads
+  (e.g. "za" meaning rejection of a Senate amendment) stays visible.
+- No "Kliknij…" / "Najedź…" instructions; no em dashes in new copy (colon, comma or full stop);
+  numbers in sentences through `plural`; "niezrzeszony" rather than "niez." where there is room.
+- Card and ranking titles state the fact ("Najwięcej…", "Najmniej…"), the same way for every club.
+- Changing a Polish string changes its English key in `sejmomat/i18n.py` too (the build lists
+  untranslated strings).
+
 ## State (14 October 2026)
 
 Live on sejmomat.pl:

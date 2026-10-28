@@ -11,7 +11,7 @@
 </style>
 <h1>{{ _("Tematy") }}</h1>
 {{ section_nav("bills", "tematy.html") }}
-<p>{{ _("Tytuły projektów rzadko mówią, o co w nich chodzi („o zmianie ustawy – Kodeks karny”). Tematy opisują to w kilku słowach. Nadaje je redakcja serwisu na podstawie tytułów i opisów projektów z API Sejmu.") }}</p>
+<p>{{ _("Tematy opisują w kilku słowach, czego dotyczy projekt. Nadaje je redakcja serwisu na podstawie tytułów i opisów projektów z API Sejmu.") }}</p>
 {% if tag_index %}
 <ul class="tag-index">
   {% for t in tag_index | sort(attribute="tag") %}

@@ -361,7 +361,7 @@ if (typeof document !== "undefined") (() => {
           parts.push(kicker(ICON.tv, L.kicker));
           parts.push(el("p", { className: "wg-title", textContent: L.noneNow }));
           if (s.state === "next") {
-            parts.push(el("p", { className: "wg-sub" }, `${L.nextIs}: ${formatDay(v.startDateTime, LANG)}, ${L.at} ${hour(v.startDateTime)} — `,
+            parts.push(el("p", { className: "wg-sub" }, `${L.nextIs}: ${formatDay(v.startDateTime, LANG)}, ${L.at} ${hour(v.startDateTime)}: `,
               el("span", { lang: "pl", textContent: v.title }), "."));
             const np = s.nextPlenary;
             if (np) {
@@ -372,7 +372,7 @@ if (typeof document !== "undefined") (() => {
           } else {
             // known only from the calendar of sittings, which gives no hour
             const name = nextNumber ? (LANG === "en" ? `Sejm sitting ${nextNumber}` : `${nextNumber}. posiedzenie Sejmu`) : L.sittingPlain;
-            parts.push(el("p", { className: "wg-sub", textContent: `${L.nextIs}: ${formatDay(nextDay, LANG)} — ${name}. ${L.hourLater}` }));
+            parts.push(el("p", { className: "wg-sub", textContent: `${L.nextIs}: ${formatDay(nextDay, LANG)}: ${name}. ${L.hourLater}` }));
           }
           parts.push(el("div", { className: "wg-actions" }, link(box.dataset.schedule, `${L.schedule} →`, false, { className: "btn2" })));
         } else {
@@ -738,7 +738,7 @@ if (typeof document !== "undefined") (() => {
         const line = `${plural(bills[0].n, L.billsShort).replace("{n}", bills[0].n)} · ${nameOf(bills[0].topic)}`;
         lines.push([ICON.bill, line, line]);
       }
-      const where = [m.club || L.independent, m.districtNum && `${L.district} ${m.districtNum}`].filter(Boolean).join(" · ");
+      const where = [m.club && m.club !== "niez." ? m.club : L.independent, m.districtNum && `${L.district} ${m.districtNum}`].filter(Boolean).join(" · ");
       const photo = el("img", { className: "mp-thumb", src: home.dataset.photo.replace("{id}", r.id), alt: "", loading: "lazy",
         width: 44, height: 55, decoding: "async" });
       photo.addEventListener("error", () => photo.remove(), { once: true });

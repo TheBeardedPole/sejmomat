@@ -7,89 +7,92 @@
 {{ crumbs(root, [], _("Metodologia")) }}
 <h1>{{ _("Metodologia") }}</h1>
 {% if lang == "pl" %}
-<h2>Skąd pochodzą dane</h2>
+<nav class="toc" aria-label="Na tej stronie"><ol><li><a href="#skad-pochodza-dane">Skąd pochodzą dane</a></li><li><a href="#powiazanie-glosowania-z-poprawka">Powiązanie głosowania z poprawką</a></li><li><a href="#podswietlanie-zmian">Podświetlanie zmian</a></li><li><a href="#poprawki-senatu">Poprawki Senatu</a></li><li><a href="#skuteczne-poprawki">Skuteczne poprawki</a></li><li><a href="#linia-klubu-i-wylamania">Linia klubu i wyłamania</a></li></ol></nav>
+<h2 id="skad-pochodza-dane">Skąd pochodzą dane</h2>
 <p>Wszystkie dane pochodzą z oficjalnego <a href="https://api.sejm.gov.pl">API Sejmu RP</a>: wyniki głosowań, głosy imienne
 oraz druki sejmowe. Strona jest odświeżana automatycznie dwa razy dziennie.</p>
 <p>Przy projektach rządowych podajemy odnośnik do ich strony w <a href="https://legislacja.rcl.gov.pl">Rządowym Centrum Legislacji</a>,
 gdzie widać pierwsze wersje projektu, uzgodnienia międzyresortowe i konsultacje. Danych z RCL nie pobieramy ani nie pokazujemy u nas:
 serwis RCL nie zezwala na automatyczne pobieranie (plik robots.txt), a nie udostępnia ich w otwartym API.</p>
 
-<h2>Powiązanie głosowania z poprawką</h2>
+<h2 id="powiazanie-glosowania-z-poprawka">Powiązanie głosowania z poprawką</h2>
 <p>API podaje dla głosowania jedynie opis, np. „poprawka 5”, oraz numery druków, np. „druki nr 3030, 3080 i 3080-A”.
 Treść poprawki wyodrębniamy automatycznie z druku:</p>
 <ul>
-  <li><strong>poprawki z drugiego czytania</strong> — z dodatkowego sprawozdania komisji (np. druk 3080-A),
+  <li><strong>poprawki z drugiego czytania</strong>: z dodatkowego sprawozdania komisji (np. druk 3080-A),
       wraz z autorem, rekomendacją komisji i uwagami o łącznym głosowaniu; jeśli głosowanie nie cytuje tego druku, szukamy go po numerze;</li>
-  <li><strong>wnioski mniejszości</strong> — ze sprawozdania komisji (np. druk 3080);</li>
-  <li><strong>poprawki Senatu</strong> — z uchwały Senatu, a rekomendacje ze sprawozdania komisji o tej uchwale.</li>
+  <li><strong>wnioski mniejszości</strong>: ze sprawozdania komisji (np. druk 3080);</li>
+  <li><strong>poprawki Senatu</strong>: z uchwały Senatu, a rekomendacje ze sprawozdania komisji o tej uchwale.</li>
 </ul>
 <p>Poprawki zgłaszane bezpośrednio na sali (bez druku) nie mogą zostać powiązane. Ekstrakcja tekstu z PDF bywa niedoskonała
 (np. zamiana litery „l” na cyfrę „1”). Wiążący jest zawsze oficjalny druk, do którego link znajduje się przy każdej poprawce.
 Obecnie automatycznie powiązano <strong>{{ coverage[0] }} z {{ coverage[1] }}</strong> odwołań do poprawek.</p>
 
-<h2>Podświetlanie zmian</h2>
+<h2 id="podswietlanie-zmian">Podświetlanie zmian</h2>
 <p>Gdy poprawka sama podaje stare i nowe brzmienie (np. „wyrazy „X” zastąpić wyrazami „Y””), pokazujemy różnicę na poziomie słów:
 <del>usunięte</del> i <ins>dodane</ins>. Poprawki nadające nowe brzmienie całej jednostce pokazujemy w całości.</p>
 
-<h2>Poprawki Senatu</h2>
+<h2 id="poprawki-senatu">Poprawki Senatu</h2>
 <p>Sejm głosuje nad <em>odrzuceniem</em> poprawki Senatu, a do odrzucenia potrzebna jest bezwzględna większość.
 Dlatego głos „za” oznacza głos przeciwko poprawce Senatu.</p>
 
-<h2>Skuteczne poprawki</h2>
-<p>Poprawkę uznajemy za skuteczną, gdy Sejm ją przyjął (w przypadku poprawek Senatu — gdy nie została odrzucona).
+<h2 id="skuteczne-poprawki">Skuteczne poprawki</h2>
+<p>Poprawkę uznajemy za skuteczną, gdy Sejm ją przyjął (a poprawkę Senatu, gdy nie została odrzucona).
 Zgłaszającego bierzemy z druku (np. „KP PiS”, nazwiska posłów przy wnioskach mniejszości, „Senat”).
 Liczymy głosowania, a nie pojedyncze poprawki, bo kilka poprawek bywa głosowanych łącznie.</p>
 
-<h2>Linia klubu i wyłamania</h2>
+<h2 id="linia-klubu-i-wylamania">Linia klubu i wyłamania</h2>
 <p>Linia klubu w danym głosowaniu to opcja (za / przeciw / wstrzymanie się) wybrana przez większość (ponad połowę)
 głosujących członków klubu lub koła, o ile głosowało co najmniej 3 członków. Gdy żadna opcja nie ma większości, klub uznajemy
 za podzielony i nikt się nie „wyłamuje”. Posłowie niezrzeszeni nie mają linii klubu. Przynależność klubowa jest brana
 z chwili danego głosowania. Odsetek wyłamań liczymy względem głosowań, w których klub posła miał wyraźną linię, a poseł głosował.</p>
 <p>Spójność klubu to średni udział głosujących członków, którzy wybrali opcję większości. Skuteczność to odsetek głosowań,
 w których linia klubu (za lub przeciw) zgodziła się z wynikiem.</p>
-<p>Uwaga: linia wyznaczona z większości nie jest tym samym co formalna dyscyplina klubowa — kluby nie publikują swoich decyzji.</p>
+<p>Uwaga: linia wyznaczona z większości nie jest tym samym co formalna dyscyplina klubowa: kluby nie publikują swoich decyzji.</p>
 {% else %}
-<h2>Where the data comes from</h2>
+
+<nav class="toc" aria-label="On this page"><ol><li><a href="#where-the-data-comes-from">Where the data comes from</a></li><li><a href="#linking-a-vote-to-its-amendment">Linking a vote to its amendment</a></li><li><a href="#highlighted-changes">Highlighted changes</a></li><li><a href="#senate-amendments">Senate amendments</a></li><li><a href="#adopted-amendments">Adopted amendments</a></li><li><a href="#club-line-and-breaking-it">Club line and breaking it</a></li></ol></nav>
+<h2 id="where-the-data-comes-from">Where the data comes from</h2>
 <p>All data comes from the official <a href="https://api.sejm.gov.pl">Sejm API</a>: vote results, individual votes and
 parliamentary prints (druki). The site is refreshed automatically twice a day. Legal texts are shown in the original Polish.</p>
 <p>Government bills link to their page at the <a href="https://legislacja.rcl.gov.pl">Government Legislation Centre (RCL)</a>,
 which shows the bill's first drafts, inter-ministerial agreement and consultations. We do not fetch or show RCL's data here:
 its site does not allow automated downloads (robots.txt), and it offers no open API.</p>
 
-<h2>Linking a vote to its amendment</h2>
+<h2 id="linking-a-vote-to-its-amendment">Linking a vote to its amendment</h2>
 <p>For each vote the API only gives a short description, such as “poprawka 5” (amendment 5), and print numbers, such as
 “druki nr 3030, 3080 i 3080-A”. We extract the amendment text automatically from the print:</p>
 <ul>
-  <li><strong>second-reading amendments</strong> — from the committee's additional report (e.g. print 3080-A),
+  <li><strong>second-reading amendments</strong>: from the committee's additional report (e.g. print 3080-A),
       with the proposer, the committee's recommendation and notes on joint voting; if the vote does not cite that print, we look it up by number;</li>
-  <li><strong>minority motions</strong> — from the committee report (e.g. print 3080);</li>
-  <li><strong>Senate amendments</strong> — from the Senate resolution, with recommendations from the committee report on it.</li>
+  <li><strong>minority motions</strong>: from the committee report (e.g. print 3080);</li>
+  <li><strong>Senate amendments</strong>: from the Senate resolution, with recommendations from the committee report on it.</li>
 </ul>
 <p>Amendments moved directly in the chamber (without a print) cannot be linked. PDF text extraction is imperfect
 (e.g. the letter “l” read as the digit “1”). The official print, linked next to every amendment, is always authoritative.
 Currently <strong>{{ coverage[0] }} of {{ coverage[1] }}</strong> amendment references are linked automatically.</p>
 
-<h2>Highlighted changes</h2>
+<h2 id="highlighted-changes">Highlighted changes</h2>
 <p>When an amendment states both the old and the new wording (“wyrazy „X” zastąpić wyrazami „Y””, i.e. replace the words X with Y),
 we show a word-level diff: <del>removed</del> and <ins>added</ins>. Amendments that replace a whole provision are shown in full.</p>
 
-<h2>Senate amendments</h2>
+<h2 id="senate-amendments">Senate amendments</h2>
 <p>The Sejm votes on <em>rejecting</em> a Senate amendment, which requires an absolute majority. A vote “for” is therefore a vote
 against the Senate amendment.</p>
 
-<h2>Adopted amendments</h2>
+<h2 id="adopted-amendments">Adopted amendments</h2>
 <p>An amendment counts as adopted when the Sejm passed it (for Senate amendments: when it was not rejected).
-The proposer comes from the print (e.g. “KP PiS” — a parliamentary club, MPs' names for minority motions, “Senate”).
+The proposer comes from the print (e.g. “KP PiS”, a parliamentary club; MPs' names for minority motions, “Senate”).
 We count votes rather than individual amendments, as several amendments are often voted together.</p>
 
-<h2>Club line and breaking it</h2>
+<h2 id="club-line-and-breaking-it">Club line and breaking it</h2>
 <p>A club's line in a vote is the option (for / against / abstain) chosen by a majority (more than half) of the club's
 voting members, provided at least 3 voted. If no option has a majority, the club is counted as split and nobody “breaks the line”.
 Independent MPs have no club line. Club membership is taken at the time of each vote. The share of votes against the line
 is relative to votes in which the MP's club had a clear line and the MP voted.</p>
 <p>Club cohesion is the average share of voting members who chose the majority option. Effectiveness is the share of votes in
 which the club line (for or against) matched the outcome.</p>
-<p>Note: a line derived from the majority is not the same as formal party discipline — clubs do not publish their whips.</p>
+<p>Note: a line derived from the majority is not the same as formal party discipline: clubs do not publish their whips.</p>
 {% endif %}
 </div>
 {% endblock %}

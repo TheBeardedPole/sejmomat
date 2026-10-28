@@ -1,8 +1,9 @@
 {% extends "base.html" %}
+{% from "_macros.html" import how %}
 {% from "_macros.html" import vote_row, print_link, tag_chips, crumbs %}
 {% from "_tabs.html" import bar as tab_bar with context %}
 {% from "_cards.html" import new_votes with context %}
-{% block title %}{{ sitting_name(sitting, true) }} — {{ votings[0].date | date_pl }}{% endblock %}
+{% block title %}{{ sitting_name(sitting, true) }}, {{ votings[0].date | date_pl }}{% endblock %}
 {% block description %}{{ sitting_name(sitting, true) }}, {{ votings[0].date | date_pl }}: {{ votings | length }} {{ _("głosowań") }}. {% for agenda, g in votings | groupby_consecutive("agenda") %}{% if agenda and loop.index <= 4 %}{{ agenda | truncate(70) }}; {% endif %}{% endfor %}{% endblock %}
 {% block content %}
 {{ crumbs(root, [(root ~ "posiedzenia.html", _("Posiedzenia"))], sitting_name(sitting)) }}
@@ -35,8 +36,9 @@
 
 <section class="tab-panel" id="porzadek">
 <h2 class="tab-title">{{ _("Porządek obrad") }}</h2>
-<p class="muted">{{ _("Porządek obrad opublikowany przez Sejm, z debatą i głosowaniami nad każdym punktem. „Nagranie” odtwarza debatę nad punktem z transmisji Sejmu; wystąpienia prowadzą do stenogramu na stronie Sejmu.") }}</p>
-{% if agenda.renumbered %}<p class="muted">{{ _("Sejm opublikował dotąd porządek planowany; punkty są tu ponumerowane i ułożone tak, jak na posiedzeniu (według głosowań i stenogramów), a punkty dodane w trakcie opisane tak, jak w głosowaniach.") }}</p>{% endif %}
+<p class="muted">{{ _("Porządek obrad z debatą i głosowaniami nad każdym punktem.") }}</p>
+{% call how(_("Skąd są dane?")) %}<p>{{ _("Porządek obrad publikuje Sejm. „Nagranie” odtwarza debatę nad punktem z transmisji Sejmu; wystąpienia prowadzą do stenogramu na stronie Sejmu.") }}</p>
+{% if agenda.renumbered %}<p>{{ _("Sejm opublikował dotąd porządek planowany; punkty są tu ponumerowane i ułożone tak, jak na posiedzeniu (według głosowań i stenogramów), a punkty dodane w trakcie opisane tak, jak w głosowaniach.") }}</p>{% endif %}{% endcall %}
 {% for g in agenda.groups %}
 {% if g.heading %}<h3 lang="pl">{{ g.heading }}</h3>{% endif %}
 <ol class="agenda{% if g.unnumbered %} unnumbered{% endif %}" lang="pl"{% if g.start %} start="{{ g.start }}"{% endif %}>

@@ -1,9 +1,10 @@
 {% extends "base.html" %}
+{% from "_macros.html" import how %}
 {% from "_macros.html" import crumbs %}
 {% from "_tabs.html" import bar as tab_bar with context %}
 {% from "_committees.html" import styles, meeting with context %}
 {% block title %}{{ c.name }}{% endblock %}
-{% block description %}{{ c.name }}: {{ c.members | length }} {{ _("członków") }}, {{ c.held | length }} {{ _("posiedzeń w tej kadencji") }}.{% endblock %}
+{% block description %}{{ c.name }}: {{ c.members | length }} {{ c.members | length | plural(_("członek"), _("członkowie"), _("członków")) }}, {{ c.held | length }} {{ c.held | length | plural(_("posiedzenie w tej kadencji"), _("posiedzenia w tej kadencji"), _("posiedzeń w tej kadencji")) }}.{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
 {{ styles() }}
@@ -33,7 +34,7 @@
 <div class="meetings">
 {% for m in c.held %}{{ meeting(m, c.code) }}{% endfor %}
 </div>
-<p class="note">{{ _("Nagrania i stenogramy pochodzą z serwisu Sejmu. Stenogram pojawia się zwykle kilka dni lub tygodni po posiedzeniu; posiedzenia zamknięte często go nie mają.") }}</p>
+{% call how(_("Skąd są dane?")) %}<p>{{ _("Nagrania i stenogramy pochodzą z serwisu Sejmu. Stenogram pojawia się zwykle kilka dni lub tygodni po posiedzeniu; posiedzenia zamknięte często go nie mają.") }}</p>{% endcall %}
 </section>
 
 <section class="tab-panel" id="czlonkowie">

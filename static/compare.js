@@ -52,7 +52,7 @@
       return;
     }
     x.v.replaceChildren(el("option", { value: "", textContent: L.pick }), ...votes.map((v) => el("option", {
-      value: v.votingNumber, textContent: `${v.votingNumber}. ${v.topic || ""} — ${agenda(v).slice(0, 90)}`,
+      value: v.votingNumber, textContent: `${v.votingNumber}. ${v.topic || ""}: ${agenda(v).slice(0, 90)}`,
     })));
     if (keep && votes.some((v) => v.votingNumber === keep)) x.v.value = keep;
   };

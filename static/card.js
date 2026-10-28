@@ -6,7 +6,7 @@
 // kept: the canvas and the file's address are dropped right after.
 //
 // window.SejmomatCards: mp(data, kind), compareMps(a, b), compareClubs(a, b) give a
-// canvas; save(canvas, file) hands it over. The MP page's own buttons are wired below.
+// canvas; save(canvas, file) hands it over.
 window.SejmomatCards = (() => {
   const W = 1200, MIN_H = 675, PAD = 64, GAP = 20, FOOT = 132;
   const BG = "#fbfaf8", SURFACE = "#ffffff", TEXT = "#1d1d1f", MUTED = "#6b6b70", LINE = "#e4e2dd";
@@ -395,29 +395,4 @@ window.SejmomatCards = (() => {
   const toBlob = (canvas) => new Promise((resolve) => canvas.toBlob(resolve, "image/png"));
 
   return { mp, compareMps, compareClubs, save, toBlob };
-})();
-
-// the MP page's own buttons (templates/_cards.html, mp)
-(() => {
-  const box = document.querySelector(".card-downloads[data-mp]");
-  if (!box) return;
-  const data = JSON.parse(document.getElementById("mp-card").textContent);
-  box.addEventListener("click", async (e) => {
-    const button = e.target.closest("button[data-card]");
-    if (!button || button.disabled) return;
-    const caption = button.querySelector("span") || button, label = caption.textContent;
-    button.disabled = true;
-    caption.textContent = box.dataset.busy;
-    try {
-      await document.fonts?.ready;
-      const canvas = await window.SejmomatCards.mp(data, button.dataset.card);
-      await window.SejmomatCards.save(canvas, `${box.dataset.file}-${button.dataset.file}`);
-      canvas.width = canvas.height = 0;
-    } catch {
-      box.querySelector(".card-error").hidden = false;
-    } finally {
-      button.disabled = false;
-      caption.textContent = label;
-    }
-  });
 })();

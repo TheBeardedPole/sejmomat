@@ -19,6 +19,7 @@ from itertools import zip_longest
 from datetime import date
 
 from .card import pct
+from .social import club_short
 
 TOP_EVERY = 4   # a Top 5 after this many other cards
 SPREAD = 3      # no two cards about the same thing within this many of each other
@@ -41,7 +42,7 @@ def _age(birth, today):
     return today.year - b.year - ((today.month, today.day) < (b.month, b.day))
 
 
-BOTTOM_CLUB = 10   # a club this big or bigger has its own "Ostatnia piątka" cards
+BOTTOM_CLUB = 10   # a club this big or bigger has its own bottom-five cards ("Najmniej …")
 
 
 def facts(ctx, today=None):
@@ -55,7 +56,7 @@ def facts(ctx, today=None):
     out.append(_mp(r, "Najwięcej wystąpień na sali", _speeches(r), "wystąpień",
                    f"Najwięcej wystąpień na sali w tej kadencji: {who(r)}, {_speeches(r)}.", "speeches"))
     r = max(mps, key=lambda r: len(r["questions"]))
-    out.append(_mp(r, "Mistrz interpelacji", len(r["questions"]), "interpelacji i zapytań",
+    out.append(_mp(r, "Najwięcej interpelacji i zapytań", len(r["questions"]), "interpelacji i zapytań",
                    f"Najwięcej interpelacji i zapytań: {who(r)}, {len(r['questions'])}.", "questions"))
     r = max(steady, key=lambda r: (r["turnout"], r["eligible"]))
     out.append(_mp(r, "Żelazna frekwencja", pct(r["turnout"]), f"z {r['eligible']} głosowań",
@@ -84,7 +85,7 @@ def facts(ctx, today=None):
 
     silent = [r for r in mps if _speeches(r) == 0]
     if silent:
-        fact("Milczący", len(silent), "posłów nie przemówiło ani razu", f"{len(silent)} posłów nie zabrało w tej kadencji głosu na sali ani razu.")
+        fact("Bez wystąpień na sali", len(silent), "posłów nie przemówiło ani razu", f"{len(silent)} posłów nie zabrało w tej kadencji głosu na sali ani razu.")
     moved = [r for r in mps if r["switches"]]
     fact("Transfery", len(moved), "posłów zmieniło klub", f"{len(moved)} obecnych posłów zmieniło w tej kadencji klub przynajmniej raz.")
 
@@ -120,7 +121,7 @@ def facts(ctx, today=None):
     v = max(political, key=rebels, default=None)
     if v and rebels(v):
         fact("Największy bunt", rebels(v), "posłów wbrew swoim klubom w jednym głosowaniu",
-             f"Najwięcej posłów głosowało wbrew swoim klubom ({rebels(v)}) w głosowaniu: {v['topic']} — {v['agenda'][:80]}.")
+             f"Najwięcej posłów głosowało wbrew swoim klubom ({rebels(v)}) w głosowaniu: {v['topic']}, {v['agenda'][:80]}.")
     for v in (st.get("close") or [])[1:3]:
         fact("Rozstrzygnięte o włos", f"{v['yes']}:{v['no']}", v["topic"][:60],
              f"Jedno z najbliższych rozstrzygnięć: {v['topic']} ({v['yes']} za, {v['no']} przeciw).", topic="close")
@@ -143,9 +144,8 @@ def facts(ctx, today=None):
     for c in sorted(clubs, key=lambda c: -len(c["members"])):
         sp = c.get("speeches") or {}
         out.append({"kind": "fact", "title": "Klub w liczbach", "value": c["id"],
-                    # the name without "Klub Parlamentarny" and the like: the card says it is a club
-                    "unit": re.sub(r"^(Klub Parlamentarny|Klub Poselski|Koło Poselskie|Koło Parlamentarne)\s+", "", c["name"])
-                    if c["name"] != c["id"] else "",
+                    # the short name only (the full one, two lines on screen, stays in "text")
+                    "unit": club_short(c["id"]) if club_short(c["id"]) != c["id"] else "",
                     "club": c["id"], "text": f"{c['name']}: spójność {pct(c['cohesion'])}, wygrane głosowania {pct(c['effectiveness'])}.",
                     "stats": [["posłów", str(len(c["members"]))], ["spójność", pct(c["cohesion"])],
                               ["wygrane", pct(c["effectiveness"])], ["wystąpienia", f"{(sp.get('spoken') or 0) + (sp.get('written') or 0):,}".replace(",", " ")]]})
@@ -170,7 +170,7 @@ def facts(ctx, today=None):
         fact("Zamrażarka", len(frozen), "projektów czeka u Marszałka lub w komisjach",
              f"{len(frozen)} projektów ustaw i uchwał czeka u Marszałka Sejmu albo w komisjach.")
         b = frozen[0]
-        fact("Rekord zamrażarki", b["days"], "dni bez ruchu", f"Najdłużej czekający projekt: {b['title'][:110]} — {b['days']} dni.")
+        fact("Rekord zamrażarki", b["days"], "dni bez ruchu", f"Najdłużej czekający projekt: {b['title'][:110]}, {b['days']} dni.")
     pending = ctx.get("pending_amendments") or []
     if pending:
         n = sum(len(g["items"]) for g in pending)
@@ -226,21 +226,21 @@ def facts(ctx, today=None):
 
     def bottom5(title, rows, key, show, text, topic, club=None):
         low = sorted(rows, key=key)[:5]
-        card = {"kind": "top5", "bottom": True, "topic": f"{topic}-low", "title": f"Ostatnia piątka: {title}", "text": text,
+        card = {"kind": "top5", "bottom": True, "topic": f"{topic}-low", "title": title, "text": text,
                 "rows": [{"mp": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club") or "niez.",
                           "value": show(r)} for r in low]}
         if club:
-            card.update(title=f"Ostatnia piątka w {club}: {title}", club=club, for_club=club)
+            card.update(title=f"{title} · {club}", club=club, for_club=club)
         return card
 
     def lows(rows):
-        return [("najmniej wystąpień", rows, _speeches, lambda r: str(_speeches(r)),
+        return [("Najmniej wystąpień na sali", rows, _speeches, lambda r: str(_speeches(r)),
                  "Najmniej wystąpień na sali (posłowie obecni przez całą kadencję).", "speeches"),
-                ("najmniej interpelacji i zapytań", rows, lambda r: len(r["questions"]), lambda r: str(len(r["questions"])),
+                ("Najmniej interpelacji i zapytań", rows, lambda r: len(r["questions"]), lambda r: str(len(r["questions"])),
                  "Najmniej interpelacji i zapytań poselskich (posłowie obecni przez całą kadencję).", "questions"),
-                ("najniższa frekwencja", rows, lambda r: r["turnout"], lambda r: pct(r["turnout"]),
+                ("Najniższa frekwencja w głosowaniach", rows, lambda r: r["turnout"], lambda r: pct(r["turnout"]),
                  "Najniższa frekwencja w głosowaniach (posłowie obecni przez całą kadencję).", "turnout"),
-                ("najmniej głosów w wyborach", rows, lambda r: r["mp"].get("numberOfVotes") or 0,
+                ("Najmniej głosów w wyborach do Sejmu", rows, lambda r: r["mp"].get("numberOfVotes") or 0,
                  lambda r: f"{r['mp'].get('numberOfVotes') or 0:,}".replace(",", " "),
                  "Najmniej głosów w wyborach do Sejmu (posłowie obecni przez całą kadencję).", "election")]
     def clear_cut(rows, key):

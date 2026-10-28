@@ -22,7 +22,7 @@
   #cmp-clubs td:first-child, #cmp-clubs th:first-child { text-align: left; }
 </style>
 <h1>{{ _("Porównaj głosowania") }}</h1>
-<p>{{ _("Wybierz dwa głosowania, aby zobaczyć, kto zagłosował w nich tak samo, a kto inaczej. Przy wniosku o odrzucenie projektu „za” oznacza głos przeciw projektowi — takie głosowanie można odwrócić, by porównać je np. z głosowaniem nad całością.") }}</p>
+<p>{{ _("Wybierz dwa głosowania: zobaczysz, kto głosował w nich tak samo, a kto inaczej.") }}</p>
 <div id="compare" data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/votings" data-root="{{ root }}" data-latest="{{ latest_sitting }}"
   data-labels="{{ {"a": _("Głosowanie A"), "b": _("Głosowanie B"), "sitting": _("Posiedzenie"), "vote": _("Głosowanie"),
                    "flip": _("Odwróć znaczenie: „za” to głos przeciw projektowi (np. wniosek o odrzucenie)"),

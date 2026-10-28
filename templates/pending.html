@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_macros.html" import how %}
 {% from "_macros.html" import crumbs %}
 {% set groups = pending_amendments %}
 {% set n_items = groups | sum(attribute="items", start=[]) | length %}
@@ -15,7 +16,9 @@
   .pending-group li .text { margin: 2px 0 0; font-family: Georgia, "Times New Roman", serif; }
 </style>
 <h1>{{ _("Poprawki czekające na głosowanie") }}</h1>
-<p>{{ _("Poprawki zgłoszone w drugim czytaniu, wnioski mniejszości z komisji i poprawki Senatu, nad którymi Sejm jeszcze nie głosował. Wnioski mniejszości i poprawki z drugiego czytania Sejm rozstrzyga w trzecim czytaniu; poprawki Senatu — głosując nad stanowiskiem Senatu.") }}</p>
+<p>{{ _("Poprawki i wnioski, nad którymi Sejm jeszcze nie głosował.") }}</p>
+{% call how(_("Jakie poprawki i kiedy Sejm je rozstrzyga?")) %}<p>{{ _("Poprawki zgłoszone w drugim czytaniu, wnioski mniejszości z komisji i poprawki Senatu. Wnioski mniejszości i poprawki z drugiego czytania Sejm rozstrzyga w trzecim czytaniu, a poprawki Senatu, głosując nad stanowiskiem Senatu.") }}</p>
+<p>{{ _("Dane: druki Sejmu, których nie przywołało jeszcze żadne głosowanie, o ile przebieg prac nad projektem nie pokazuje, że sprawa jest już zamknięta (trzecie czytanie, głosowanie nad stanowiskiem Senatu, odrzucenie, wycofanie).") }}</p>{% endcall %}
 {% set here = "pending" %}{% include "_amend_nav.html" %}
 <div class="grid">
   <div class="card stat"><b>{{ n_items }}</b>{{ _("poprawek i wniosków czeka") }}</div>
@@ -23,7 +26,6 @@
   <div class="card stat"><b>{{ groups | selectattr("on_agenda") | list | length }}</b>{{ _("w porządku obrad najbliższego posiedzenia") }}</div>
   <div class="card stat"><b>{{ groups | selectattr("stalled") | list | length }}</b>{{ _("czeka ponad pół roku") }}</div>
 </div>
-<p class="note">{{ _("Z druków Sejmu, których nie przywołało jeszcze żadne głosowanie, o ile przebieg prac nad projektem nie pokazuje, że sprawa jest już zamknięta (trzecie czytanie, głosowanie nad stanowiskiem Senatu, odrzucenie, wycofanie).") }}</p>
 
 {% for g in groups %}
 {% set heading = {"amendment": _("Poprawki z drugiego czytania"), "minority": _("Wnioski mniejszości"), "senate": _("Poprawki Senatu")}[g.kind] %}

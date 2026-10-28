@@ -29,23 +29,7 @@
 {% macro icon_download() %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m-5-5 5 5 5-5M5 20h14"/></svg>{% endmacro %}
 
 {% macro club(c) %}
-{% if c.cards %}
-{{ styles() }}
-<section class="card share-panel">
-  <div>
-    <h2>{{ icon_image() }}{{ _("Grafiki do udostępnienia") }}</h2>
-    <p class="muted">{{ _("Podsumowanie kadencji albo ostatniego posiedzenia — gotowe do wrzucenia w media społecznościowe. Grafiki są po polsku.") }}</p>
-  </div>
-  <div class="share-options">
-    {% for label, path in c.cards %}
-    <a class="share-thumb" href="{{ site_root }}{{ path }}" download="sejmomat-{{ c.slug }}-{{ path.rsplit('-', 1)[1] }}">
-      <img src="{{ site_root }}{{ path }}" alt="" loading="lazy" width="1200" height="750">
-      <span class="share-btn">{{ icon_download() }}{{ _(label) }}</span>
-    </a>
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
+{% if c.cards %}{{ share_dialog("club", c.id) }}{% endif %}
 {% endmacro %}
 
 {% macro mp(r) %}
@@ -65,32 +49,22 @@
   "sitting": {"sitting": x.sitting, "first": sittings[x.sitting][0].date, "last": sittings[x.sitting][-1].date,
               "total": x.total, "Y": x.Y, "N": x.N, "A": x.A, "X": x.X, "rebel": x.rebel} if x else none,
 } %}
-{{ styles() }}
-<section class="card share-panel card-downloads" data-mp data-file="sejmomat-{{ r.mp.firstLastName | lower | replace(' ', '-') }}" data-busy="{{ _("Przygotowywanie…") }}">
-  <div>
-    <h2>{{ icon_image() }}{{ _("Grafiki do udostępnienia") }}</h2>
-    <p class="muted">{{ _("Podsumowanie kadencji albo ostatniego posiedzenia tego posła — gotowe do wrzucenia w media społecznościowe. Grafika powstaje w Twojej przeglądarce. Grafiki są po polsku.") }}</p>
-    <p class="card-error v-N" hidden>{{ _("Nie udało się przygotować grafiki.") }}</p>
-  </div>
-  <div class="share-options">
-    <button type="button" class="share-btn" data-card="term" data-file="kadencja">{{ icon_download() }}<span>{{ _("Kadencja") }}</span></button>
-    {% if x %}<button type="button" class="share-btn" data-card="sitting" data-file="posiedzenie">{{ icon_download() }}<span>{{ _("Ostatnie posiedzenie") }}</span></button>{% endif %}
-  </div>
-</section>
+{{ share_dialog("mp", r.mp.firstLastName) }}
+{#- the card's data, so the window draws this MP's image without asking for the page again #}
 <script type="application/json" id="mp-card">{{ data | tojson }}</script>
-<script src="{{ site_root }}static/card.js?v={{ static_version('card.js') }}" defer></script>
 {% endmacro %}
 
 {# Where to find the images, for the home page and the lists of clubs and MPs. #}
 {#- "Grafiki do udostępnienia": a button opening a window where the reader picks an image
     (a voting day, a club, an MP) or puts two MPs or two clubs side by side (static/share.js,
     drawn by static/card.js); the ready-made images come with the site. #}
-{% macro share_dialog() %}
+{#- preset: the kind and subject it opens on (an MP's or a club's page): ("mp", name), ("club", id) #}
+{% macro share_dialog(preset_kind=none, preset=none) %}
 {%- set club_list = [] %}
 {%- for c in club_rows %}{% set _x = club_list.append({"id": c.id, "short": club_short(c.id), "current": c.current,
     "cards": c.cards | default([])}) %}{% endfor %}
-<p class="share-open-row"><button type="button" class="btn2 share-open" data-share-open aria-haspopup="dialog" aria-controls="grafiki">{{ icon_image() }}<span>{{ _("Grafiki do udostępnienia") }}</span></button></p>
-<dialog id="grafiki" class="share-dialog" aria-labelledby="grafiki-h"
+<p class="share-open-row{% if preset_kind %} here{% endif %}"><button type="button" class="btn2 share-open" data-share-open aria-haspopup="dialog" aria-controls="grafiki">{{ icon_image() }}<span>{{ _("Grafiki do udostępnienia") }}</span></button></p>
+<dialog id="grafiki" class="share-dialog" aria-labelledby="grafiki-h"{% if preset_kind %} data-preset-kind="{{ preset_kind }}" data-preset="{{ preset }}"{% endif %}
   data-root="{{ root }}" data-site-root="{{ site_root }}"
   data-mps="{{ site_root }}api/v1/mps.json" data-clubs-api="{{ site_root }}api/v1/clubs.json" data-days="{{ site_root }}api/v1/summaries.json"
   data-photo="https://api.sejm.gov.pl/sejm/term{{ TERM }}/MP/{id}/photo" data-logo="{{ site_root }}static/logo-white.png"
@@ -130,7 +104,7 @@
 <section class="new-votes" hidden data-live-votes="https://api.sejm.gov.pl/sejm/term{{ TERM }}/votings/{{ sitting }}"
   data-term="{{ TERM }}" data-after="{{ after }}" data-dates="{{ dates | join(',') }}" data-root="{{ root }}"
   data-labels="{{ {"passed": _("Przyjęto"), "rejected": _("Odrzucono"), "procedural": _("Sprawy proceduralne"), "heading": _("Głosowania"),
-                   "note": _("Najnowsze głosowania wczytują się na bieżąco z API Sejmu; kluby, posłowie i poprawki są na ich stronach od razu, a w pozostałych zestawieniach serwisu — od następnej aktualizacji.")} | tojson | forceescape }}"></section>
+                   "note": _("Głosowania wczytujemy na bieżąco z API Sejmu. Na stronach klubów, posłów i poprawek są od razu, w pozostałych zestawieniach po następnej aktualizacji.")} | tojson | forceescape }}"></section>
 <script src="{{ site_root }}static/newvotes.js?v={{ static_version('newvotes.js') }}" defer></script>
 {% endmacro %}
 

@@ -2,14 +2,14 @@
 {% from "_section_nav.html" import section_nav with context %}
 {% from "_macros.html" import crumbs %}
 {% block title %}{{ _("Harmonogram transmisji") }}{% endblock %}
-{% block description %}{{ _("Transmisje z Sejmu: obrady, komisje, podkomisje, zespoły parlamentarne i konferencje — dziś i w najbliższych dniach, z porządkiem i salą.") }}{% endblock %}
+{% block description %}{{ _("Transmisje z Sejmu dziś i w najbliższych dniach: obrady, komisje, podkomisje, zespoły parlamentarne i konferencje, z porządkiem i salą.") }}{% endblock %}
 {% block content %}
 {# The schedule comes from the Sejm's API in the reader's browser (static/schedule.js):
    it changes every day, the site is not rebuilt every day. #}
 {{ crumbs(root, [(root ~ "posiedzenia.html", _("Posiedzenia"))], _("Harmonogram transmisji")) }}
 <h1>{{ _("Harmonogram transmisji") }}</h1>
 {{ section_nav("sittings", "transmisje.html") }}
-<p class="tagline">{{ _("Obrady Sejmu, komisje, podkomisje, zespoły parlamentarne i konferencje — dziś i w najbliższych dniach.") }}</p>
+<p class="tagline">{{ _("Dziś i w najbliższych dniach: obrady Sejmu, komisje, podkomisje, zespoły parlamentarne i konferencje.") }}</p>
 
 <section id="harmonogram" class="schedule" aria-live="polite"
   data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/videos"
