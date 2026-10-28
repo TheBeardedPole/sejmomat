@@ -752,3 +752,7 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 }
 /* the card's display: flex would otherwise outrank [hidden] and keep it on screen */
 .sala-tip[hidden] { display: none; }
+
+/* hidden means hidden, whatever display a component's own rule sets (a card with display: flex
+   once stayed on screen though marked hidden) */
+[hidden] { display: none !important; }
