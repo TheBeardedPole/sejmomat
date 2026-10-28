@@ -1140,6 +1140,9 @@ def run():
         ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     write_api({**ctx, "print_meta": print_meta, "source_items": source_items}, ctx["generated"])
+    # Sejmowa liga: the kolejka, prices and points the game's server reads (server/fantasy.php)
+    from . import fantasy
+    fantasy.write(ctx, SITE)
 
     # Apache/LiteSpeed hosting (e.g. Hostinger): let other sites use the API,
     # serve JSON with the right type, compress text.
