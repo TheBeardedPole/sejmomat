@@ -21,10 +21,10 @@ przetwarzanych w związku z działaniem strony.</p>
       Twój adres IP, informacje o przeglądarce i odwiedzanych podstronach; dane mogą być przekazywane do USA (na podstawie
       EU-U.S. Data Privacy Framework). Podstawą jest Twoja zgoda (art. 6 ust. 1 lit. a RODO), którą możesz w każdej chwili wycofać
       linkiem „Ustawienia zgody” w stopce; strona usuwa wtedy pliki cookie Google. Bez zgody Google Analytics się nie wczytuje.
-      Poza tym strona nie ma reklam, kont, formularzy ani newslettera, a wyszukiwarka działa w Twojej przeglądarce.</li>
+      Poza tym strona nie ma reklam, a kont i newslettera poza Sejmową ligą (o czym niżej); wyszukiwarka działa w Twojej przeglądarce.</li>
   {% else %}
-  <li><strong>Brak plików cookie, śledzenia i reklam.</strong> Strona nie używa cookies, narzędzi analitycznych ani skryptów
-      zewnętrznych firm (poza zdjęciami posłów i nagraniami wystąpień i posiedzeń komisji, o czym niżej). Nie ma kont, formularzy ani newslettera. Wyszukiwarka działa w Twojej przeglądarce: zapytania nie są nigdzie wysyłane.</li>
+  <li><strong>Brak plików cookie, śledzenia i reklam.</strong> Strona nie używa cookies (poza sesją zalogowanego gracza Sejmowej ligi, o czym niżej), narzędzi analitycznych ani skryptów
+      zewnętrznych firm (poza zdjęciami posłów i nagraniami wystąpień i posiedzeń komisji, o czym niżej). Poza Sejmową ligą nie ma kont ani newslettera. Wyszukiwarka działa w Twojej przeglądarce: zapytania nie są nigdzie wysyłane.</li>
   {% endif %}
   <li><strong>Logi serwera.</strong> Dostawca hostingu (Hostinger) zapisuje standardowe logi: adres IP, datę i godzinę, adres
       żądanej strony oraz informację o przeglądarce. Służą one bezpieczeństwu i utrzymaniu serwisu (art. 6 ust. 1 lit. f RODO)
@@ -56,6 +56,13 @@ przetwarzanych w związku z działaniem strony.</p>
       zapisy z jednego adresu IP w danym dniu; zapisujemy przy tym tylko skrót (hash) adresu połączony z datą, nie sam adres, i
       usuwamy go po kilku dniach. Podstawą jest Twoje działanie (zapisanie wyniku) i nasz uzasadniony interes w prowadzeniu rankingu
       (art. 6 ust. 1 lit. f RODO). Nie podawaj w nicku imienia i nazwiska, jeśli nie chcesz; aby usunąć wpis, napisz na adres podany wyżej.</li>
+  <li><strong>Sejmowa liga (gra).</strong> Logujesz się kontem Google. Prosimy Google wyłącznie o identyfikator konta (zakres „openid”):
+      bez imienia, adresu e-mail i zdjęcia. Na serwerze Sejmomatu zapisujemy skrót (hash) tego identyfikatora, wybrany przez Ciebie nick
+      (widoczny w rankingu), Twoje składy i punkty, a w przeglądarce plik cookie z losowym tokenem sesji (niezbędny do gry, ważny 90 dni).
+      Adres e-mail zapisujemy tylko wtedy, gdy go podasz, by dostawać przypomnienie przed zamknięciem składu albo newsletter gry: potwierdzasz
+      go linkiem, a w każdej wiadomości jest link do wypisania. Wiadomości wysyłamy ze skrzynki na serwerze Hostinger. Podstawą jest umowa
+      o udział w grze (art. 6 ust. 1 lit. b RODO), a dla wiadomości e-mail Twoja zgoda (lit. a), którą możesz wycofać w każdej chwili.
+      Konto ze składami, punktami i adresem usuniesz przyciskiem „Usuń konto” na stronie gry.</li>
   <li><strong>Linki zewnętrzne.</strong> Strona zawiera linki do serwisów Sejmu, GitHuba i buycoffee.to. Po kliknięciu obowiązują
       zasady prywatności tych serwisów.</li>
 </ul>
@@ -86,10 +93,10 @@ the data processed in connection with the site.</p>
       browser information and the pages you visit; the data may be transferred to the USA (under the EU-U.S. Data Privacy Framework).
       The legal basis is your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time with “Consent settings” in the footer;
       the site then removes Google's cookies. Without consent Google Analytics is not loaded. Otherwise the site has no ads,
-      accounts, forms or newsletters, and search runs in your browser.</li>
+      accounts or newsletters outside Sejmowa liga (see below), and search runs in your browser.</li>
   {% else %}
-  <li><strong>No cookies, tracking or ads.</strong> The site uses no cookies, analytics or third-party scripts (apart from MPs' photos and speech and committee videos, see below). There are no
-      accounts, forms or newsletters. Search runs in your browser: queries are not sent anywhere.</li>
+  <li><strong>No cookies, tracking or ads.</strong> The site uses no cookies (apart from a signed-in Sejmowa liga player's session, see below), analytics or third-party scripts (apart from MPs' photos and speech and committee videos, see below). Apart from Sejmowa liga there are no
+      accounts or newsletters. Search runs in your browser: queries are not sent anywhere.</li>
   {% endif %}
   <li><strong>Server logs.</strong> The hosting provider (Hostinger) keeps standard logs: IP address, date and time, the page
       requested and browser information. They serve security and maintenance (Art. 6(1)(f) GDPR) and are kept for the period
@@ -122,6 +129,13 @@ the data processed in connection with the site.</p>
       address itself, and deleting it after a few days. The basis is your action (saving the result) and our legitimate interest in
       running the leaderboard (Art. 6(1)(f) GDPR). Don't use your real name as a nickname unless you want to; to remove an entry,
       write to the address above.</li>
+  <li><strong>Sejmowa liga (the game).</strong> You sign in with a Google account. We ask Google only for the account's ID (the "openid"
+      scope): no name, email address or photo. Sejmomat's server stores a hash of that ID, the nickname you choose (shown on the
+      leaderboard), your squads and points, and your browser keeps a cookie with a random session token (needed to play, valid for 90 days).
+      An email address is stored only if you give one to get a reminder before the squad locks or the game's newsletter: you confirm it with
+      a link, and every message carries a link to unsubscribe. Messages are sent from a mailbox on Hostinger's server. The legal basis is
+      the agreement to take part in the game (Art. 6(1)(b) GDPR) and, for email, your consent (Art. 6(1)(a)), which you can withdraw at any
+      time. The "Delete account" button on the game's page removes the account with its squads, points and address.</li>
   <li><strong>External links.</strong> The site links to the Sejm's websites, GitHub and buycoffee.to. Once you click, those
       services' privacy rules apply.</li>
 </ul>

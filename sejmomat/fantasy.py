@@ -27,7 +27,9 @@ WARSAW = ZoneInfo("Europe/Warsaw")
 SEASON_START = "2026-11-05"   # the first kolejka: sitting 68
 
 RULES = {
-    "base": {"played": 2, "missed_day": -2, "missed_per_10": -1},   # every position
+    # every position: +2 for voting at all, -2 a missed day, -1 per 10 missed votes, but absence
+    # costs at most 8 a sitting (an MP away for good is a bad pick, not a disaster)
+    "base": {"played": 2, "missed_day": -2, "missed_per_10": -1, "absent_floor": -8},
     # 2 for each of the first 3 speeches, then 1 up to 10; +1 for a speech of 5 minutes or more (up to 3)
     "Mówca": {"first": 2, "first_n": 3, "more": 1, "max_n": 10, "long": 1, "long_max": 3},
     # 3 per break of the club line, +3 when the vote was close; at most 24 a sitting
@@ -111,7 +113,7 @@ def counters(votings, speeches):
 def points(c, position):
     """An MP's points in one kolejka, in one position."""
     b = RULES["base"]
-    p = (b["played"] if c["cast"] else 0) + b["missed_day"] * c["missed_day"] + b["missed_per_10"] * (c["missed"] // 10)
+    p = (b["played"] if c["cast"] else 0) + max(b["absent_floor"], b["missed_day"] * c["missed_day"] + b["missed_per_10"] * (c["missed"] // 10))
     r = RULES[position]
     if position == "Klikacz":
         if c["eligible"] and c["missed"] == 0:
@@ -246,6 +248,7 @@ def write(ctx, site, now=None):
     # prices: while a kolejka is under way, the ones it started with (transfers are shut);
     # otherwise one more step of the chain, over every sitting played
     active = {m["id"] for m in mps.values() if m.get("active")}
+    recent = sorted(past_pts)[-PRICE_WINDOW:]
     live_number = live and live["number"]
     if live_number and live_number in chain:
         prices = chain[live_number]
@@ -260,6 +263,9 @@ def write(ctx, site, now=None):
         "transfers": TRANSFERS, "close": CLOSE,
         "mps": {str(m["id"]): [m["firstLastName"], m.get("club") or "niez."] for m in mps.values() if m.get("active")},
         "prices": {str(mp): [p[pos] for pos in POSITIONS] for mp, p in prices.items() if mp in active},
+        # form: mean points a sitting per position over the last PRICE_WINDOW sittings played (what the price follows)
+        "form": {str(mp): [round(sum(past_pts[x][mp][i] for x in recent if mp in past_pts[x]) / max(1, sum(1 for x in recent if mp in past_pts[x])), 1)
+                           for i in POSITIONS] for mp in active if any(mp in past_pts[x] for x in recent)},
     }
     (out / "game.json").write_text(json.dumps(game, ensure_ascii=False, separators=(",", ":")))
     return game

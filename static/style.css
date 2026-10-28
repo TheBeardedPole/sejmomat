@@ -591,3 +591,85 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .toc { margin: 8px 0 24px; padding: 12px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
 .toc ol { margin: 0; padding-left: 1.3em; columns: 2 16em; column-gap: 28px; }
 .toc li { margin: 3px 0; break-inside: avoid; }
+
+/* Sejmowa liga (templates/league.html, static/league.js): the kolejka's status, the squad by
+   position (places as cards, the captain marked), the picker, past kolejki and the ranking */
+.liga { display: flex; flex-direction: column; gap: 24px; margin-top: 8px; }
+.liga-status { display: flex; flex-direction: column; gap: 2px; padding: 14px 18px; border-radius: 10px; background: var(--accent-bg); }
+.liga-status p { margin: 0; }
+.liga-state.live { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; }
+.liga-lock { font-size: .94rem; }
+.liga-login, .liga-nick, .liga-account { display: flex; flex-direction: column; gap: 10px; padding: 20px; }
+.liga-login h2, .liga-nick h2, .liga-account h2 { margin: 0; font-size: 1.2rem; }
+.liga-login p, .liga-nick p, .liga-account p { margin: 0; }
+.liga-google { display: inline-flex; align-items: center; gap: 10px; }
+.liga-google svg { width: 18px; height: 18px; }
+.liga-nick input, .liga-email input { min-height: 42px; max-width: 320px; padding: 0 12px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--bg); color: var(--text); font: inherit; }
+.liga-msg { min-height: 1.4em; margin: 0; font-size: .92rem; }
+.liga-note { padding: 12px 16px; }
+.liga-total { margin: 0; font-size: 1.05rem; }
+.liga-squad { display: flex; flex-direction: column; gap: 14px; }
+.liga-squad-head { display: flex; align-items: center; gap: 12px; }
+.liga-squad-head h2 { margin: 0; }
+.liga-facts { display: flex; flex-wrap: wrap; gap: 6px 24px; }
+.liga-facts p { margin: 0; }
+.liga-group h3 { margin: 0 0 8px; font-size: 1rem; }
+.liga-slots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.liga-slot { display: flex; flex-direction: column; gap: 8px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px;
+  background: var(--surface); min-width: 0; text-align: left; font: inherit; color: var(--text); }
+.liga-slot.captain { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.liga-slot.empty { align-items: flex-start; justify-content: center; min-height: 104px; border-style: dashed; cursor: pointer; }
+.liga-slot.empty:hover:not(:disabled) { border-color: var(--accent); }
+.liga-slot.empty:disabled { cursor: default; opacity: .6; }
+.liga-pos { font-size: .74rem; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.liga-add { color: var(--accent); font-weight: 600; }
+.liga-who { display: flex; gap: 10px; align-items: center; min-width: 0; }
+.liga-who > div { display: flex; flex-direction: column; min-width: 0; }
+.liga-who a { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.liga-photo { width: 40px; height: 50px; flex: none; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); }
+.liga-slot-acts { display: flex; align-items: center; gap: 10px; }
+.liga-slot-acts .lnk { min-height: 32px; font-size: .92rem; }
+.liga-cap { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line);
+  background: var(--surface); color: var(--muted); font: 700 .85rem/1 inherit; cursor: pointer; }
+.liga-cap.on { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.liga-cap:disabled { cursor: default; }
+.liga-save { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+.liga-picker { width: min(640px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); padding: 0; border: 1px solid var(--line); border-radius: 14px;
+  background: var(--surface); color: var(--text); box-shadow: 0 24px 64px rgb(0 0 0 / .28); }
+.liga-picker::backdrop { background: rgb(10 14 24 / .55); }
+.liga-picker > * { padding-left: 20px; padding-right: 20px; }
+.liga-picker-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding-top: 16px; }
+.liga-picker-head h2 { margin: 0; font-size: 1.15rem; }
+.liga-picker > p { margin: 4px 0 10px; }
+.liga-picker-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.liga-picker-tools input { flex: 1 1 220px; min-height: 40px; padding: 0 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; }
+.liga-picker-tools select { min-height: 40px; padding: 0 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; }
+.liga-list-head, .liga-row { display: grid; grid-template-columns: minmax(0, 1fr) 4.5em 6.5em; gap: 10px; align-items: center; }
+.liga-list-head { padding-top: 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+.liga-list-head span:not(:first-child) { text-align: right; }
+.liga-list { list-style: none; margin: 0; padding: 0 20px 16px; max-height: 55dvh; overflow-y: auto; }
+.liga-row { width: 100%; padding: 9px 0; border: 0; border-bottom: 1px solid var(--line); background: none; color: var(--text); font: inherit;
+  text-align: left; cursor: pointer; }
+.liga-row:hover:not(:disabled) { background: var(--accent-bg); }
+.liga-row:disabled { cursor: default; opacity: .55; }
+.liga-row-name { display: flex; flex-direction: column; min-width: 0; }
+.liga-row-name strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
+.liga-why { grid-column: 1 / -1; color: var(--muted); }
+.liga-history { display: flex; flex-direction: column; gap: 8px; }
+.liga-history h2 { margin: 0 0 4px; }
+.liga-k { padding: 0; }
+.liga-k summary { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 12px 16px; cursor: pointer; }
+.liga-k-pts { font-weight: 700; font-variant-numeric: tabular-nums; }
+.liga-k-table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.liga-k-table td { padding: 8px 16px; border-top: 1px solid var(--line); vertical-align: top; }
+.liga-board h2 { margin: 0 0 8px; }
+.liga-table { width: 100%; border-collapse: collapse; }
+.liga-table th, .liga-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; }
+.liga-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+.liga-table tr.me td { background: var(--accent-bg); font-weight: 600; }
+.liga-email { display: flex; flex-direction: column; gap: 4px; }
+.liga-checks { display: flex; flex-direction: column; gap: 6px; }
+.liga-account-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; padding-top: 8px; border-top: 1px solid var(--line); }
+.liga-sure { padding: 10px 14px; border-radius: 8px; background: var(--del-bg, var(--bg)); }
+@media (max-width: 560px) { .liga-slots { grid-template-columns: 1fr; } }

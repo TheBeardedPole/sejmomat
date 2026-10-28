@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% from "_macros.html" import crumbs, how %}
+{# Sejmowa liga: the fantasy game (static/league.js; the server is server/fantasy.php, the
+   data api/v1/fantasy/ from sejmomat/fantasy.py). Without scripts: the rules only. #}
+{% block title %}{{ _("Sejmowa liga") }}{% endblock %}
+{% block description %}{{ _("Gra na danych Sejmu: wybierz dziesięciu posłów na sześć pozycji, a punkty zdobywają za to, co robią na posiedzeniu.") }}{% endblock %}
+{% block content %}
+{{ crumbs(root, [], _("Sejmowa liga")) }}
+<h1>{{ _("Sejmowa liga") }}</h1>
+<p class="tagline">{{ _("Wybierz dziesięciu posłów na sześć pozycji. Na każdym posiedzeniu zdobywają punkty za to, co robią na sali.") }}</p>
+{% call how(_("Jak grać?")) %}
+<p>{{ _("Skład: 2 mówców, 2 buntowników, 2 lojalistów, 2 klikaczy, zwycięzca i opozycjonista; budżet 80,5 mln, najwyżej 2 posłów z jednego klubu. Kapitan zdobywa podwójne punkty.") }}</p>
+<p>{{ _("Każde posiedzenie to kolejka. Skład zamyka się o północy przed pierwszym dniem posiedzenia; do końca kolejki nie można go zmienić. Punkty liczymy z głosowań i wystąpień tego posiedzenia; ostateczne są dwa dni po jego końcu, gdy Sejm opublikuje stenogramy.") }}</p>
+<p>{{ _("Transfery: pierwszy skład jest za darmo, potem jeden darmowy transfer na kolejkę (niewykorzystane się sumują, najwyżej do dwóch), każdy kolejny kosztuje 4 punkty. Ceny zmieniają się po każdej kolejce, najwyżej o 0,5 mln, za formą posła. Sprzedajesz po aktualnej cenie, jeśli spadła; jeśli wzrosła, zatrzymujesz połowę wzrostu.") }}</p>
+<p>{{ _("Każdy poseł dostaje 2 punkty za udział w głosowaniach posiedzenia i traci za opuszczone dni i głosowania (najwyżej 8 punktów). Pozycje:") }}</p>
+<ul>
+  <li><strong>Mówca</strong>: {{ _("2 punkty za każde z pierwszych trzech wystąpień, potem 1 (do dziesięciu); +1 za wystąpienie dłuższe niż 5 minut.") }}</li>
+  <li><strong>Buntownik</strong>: {{ _("3 punkty za każde głosowanie wbrew linii klubu, +3 gdy głosowanie było rozstrzygnięte niewielką różnicą (do 15 głosów); najwyżej 24.") }}</li>
+  <li><strong>Lojalista</strong>: {{ _("1 punkt za głosowanie z linią klubu, gdy klub był podzielony; −3 za głosowanie wbrew niej; +4, gdy nie złamał linii i oddał co najmniej 90% głosów.") }}</li>
+  <li><strong>Klikacz</strong>: {{ _("+4 za udział w każdym głosowaniu posiedzenia, +1 za każdy pełny dzień, −1 za każde opuszczone głosowanie (najwyżej −10).") }}</li>
+  <li><strong>Zwycięzca</strong>: {{ _("2 punkty za każde wygrane głosowanie rozstrzygnięte niewielką różnicą.") }}</li>
+  <li><strong>Opozycjonista</strong>: {{ _("2 punkty za każde przegrane głosowanie rozstrzygnięte niewielką różnicą.") }}</li>
+</ul>
+<p>{{ _("Tak samo dla każdego klubu: punkty wynikają wyłącznie z głosowań i stenogramów Sejmu.") }}</p>
+{% endcall %}
+{%- set club_names = {} %}{% for c in club_rows %}{% set _x = club_names.update({c.id: club_short(c.id)}) %}{% endfor %}
+<noscript><p>{{ _("Gra działa w przeglądarce. Włącz JavaScript, by w nią zagrać.") }}</p></noscript>
+<div id="liga" class="liga" data-api="{{ site_root }}srv/fantasy.php" data-game="{{ site_root }}api/v1/fantasy/game.json"
+  data-site-root="{{ root }}" data-photo="https://api.sejm.gov.pl/sejm/term{{ TERM }}/MP/{id}/photo-mini"
+  data-labels="{{ {
+    "decimal": "," if lang == "pl" else ".", "mln": _("mln"), "locale": "pl-PL" if lang == "pl" else "en-GB", "pts": _("pkt"),
+    "failed": _("Nie udało się wczytać gry. Spróbuj za chwilę."), "loading": _("Wczytywanie…"), "independent": _("niezrzeszony"),
+    "clubs": club_names,
+    "live": _("Kolejka trwa: {n}. posiedzenie"), "liveNote": _("Składy są zamknięte do końca kolejki. Punkty przybywają w miarę głosowań; wystąpienia doliczamy, gdy Sejm opublikuje stenogramy."),
+    "kolejkaN": _("{n}. posiedzenie"), "kolejkaNext": _("Następne posiedzenie"), "dates": _("dni obrad"),
+    "locks": _("Skład zamyka się"), "lockAt": _("{d} o 23:59"), "inTime": _("za {d} dni {h} godz."),
+    "off": _("Na razie nie ma zaplanowanej kolejki."), "notReady": _("Gra rusza wkrótce: logowanie nie jest jeszcze włączone."),
+    "joinTitle": _("Dołącz do gry"), "joinText": _("Zaloguj się, by ułożyć skład i trafić do rankingu."),
+    "login": _("Zaloguj przez Google"),
+    "loginPrivacy": _("Google przekaże nam tylko identyfikator konta: bez imienia, adresu e-mail i zdjęcia. Adres e-mail podajesz osobno, jeśli chcesz przypomnienia albo newsletter."),
+    "loginFailed": _("Logowanie się nie udało. Spróbuj jeszcze raz."),
+    "nickTitle": _("Wybierz nick"), "nickText": _("Pod nim będziesz w rankingu. Nie musi to być imię i nazwisko."), "nick": _("Nick"), "nickSave": _("Zapisz"),
+    "posNames": {"Mówca": "Mówca", "Buntownik": "Buntownik", "Lojalista": "Lojalista", "Klikacz": "Klikacz", "Zwycięzca": "Zwycięzca", "Opozycjonista": "Opozycjonista"},
+    "posRules": {"Mówca": _("punkty za wystąpienia"), "Buntownik": _("punkty za głosy wbrew klubowi"), "Lojalista": _("punkty za głosy z klubem, gdy jest podzielony"),
+                 "Klikacz": _("punkty za udział w każdym głosowaniu"), "Zwycięzca": _("punkty za wygrane wyrównane głosowania"), "Opozycjonista": _("punkty za przegrane wyrównane głosowania")},
+    "pick": _("Wybierz posła"), "pickTitle": _("wybierz posła"), "change": _("Zmień"), "remove": _("Usuń z tego miejsca"),
+    "isCaptain": _("Kapitan: podwójne punkty"), "makeCaptain": _("Zrób kapitanem"), "pickCaptain": _("Wybierz kapitana (C)."),
+    "form": _("forma"), "price": _("cena"), "mp": _("poseł"),
+    "squad": _("Twój skład"), "closed": _("zamknięty do końca kolejki"), "save": _("Zapisz skład"), "saved": _("Skład zapisany."), "undo": _("Cofnij zmiany"),
+    "bank": _("W budżecie"), "transfers": _("Transfery"), "firstFree": _("pierwszy skład za darmo"), "transfersMade": _("{m} z {f} darmowych"),
+    "clubOver": _("Najwyżej {n} posłów z jednego klubu: {c}."),
+    "search": _("Szukaj posła lub klubu"), "sortBy": _("Sortuj"), "byForm": _("najlepsza forma"), "byPriceDown": _("najdrożsi"), "byPriceUp": _("najtańsi"), "byName": _("nazwisko"),
+    "clubFull": _("klub w komplecie"), "tooDear": _("za drogi"), "close": _("Zamknij"),
+    "history": _("Twoje kolejki"), "notFinal": _("wstępnie"), "hit": _("w tym −{n} pkt za transfery"),
+    "factNames": {"cast": _("głosy"), "missed": _("opuszczone"), "speech": _("wystąpienia"), "rebel": _("wbrew klubowi"), "loyal_split": _("z klubem przy podziale"),
+                  "won_close": _("wygrane wyrównane"), "lost_close": _("przegrane wyrównane")},
+    "board": _("Ranking"), "boardEmpty": _("Ranking ruszy po pierwszej kolejce."), "yourRank": _("Jesteś na {r}. miejscu z {n} ({t} pkt)."),
+    "player": _("Gracz"), "lastK": _("ostatnia kolejka"), "total": _("razem"), "yourTotal": _("Twoje punkty w sezonie"),
+    "account": _("Przypomnienia i konto"),
+    "emailText": _("Adres podajesz tylko, jeśli chcesz przypomnienie przed zamknięciem składu albo newsletter gry. Potwierdzisz go linkiem; w każdej wiadomości jest link do wypisania."),
+    "email": _("Adres e-mail"), "emailPh": _("adres@przyklad.pl"), "reminders": _("Przypomnij mi dzień przed zamknięciem składu"),
+    "newsletter": _("Newsletter Sejmowej ligi"), "emailSave": _("Zapisz"),
+    "emailSent": _("Wysłaliśmy link potwierdzający. Sprawdź skrzynkę."), "emailPending": _("Adres czeka na potwierdzenie linkiem z wiadomości."),
+    "emailOk": _("Adres potwierdzony."), "emailRemoved": _("Adres usunięty."), "linkFailed": _("Ten link już nie działa."),
+    "signedAs": _("Grasz jako"), "logout": _("Wyloguj"), "deleteAccount": _("Usuń konto"),
+    "deleteSure": _("Usuniemy konto, składy, punkty i adres e-mail. Tego nie da się cofnąć."), "deleteYes": _("Tak, usuń"), "cancel": _("Anuluj"),
+  } | tojson | forceescape }}"></div>
+<script src="{{ site_root }}static/league.js?v={{ static_version('league.js') }}" defer></script>
+{% endblock %}

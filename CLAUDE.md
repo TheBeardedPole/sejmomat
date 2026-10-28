@@ -279,7 +279,28 @@ Live on sejmomat.pl:
   sections behind Menu below 1280px. Breaks of the club line are neutral everywhere (no red, no
   side lit as a winner in comparisons; overlay rows `"better": "none"`).
 
+- **Sejmowa liga** (fantasy game, `liga.html`; branch `fantasy` until launch): ten MPs in six positions
+  (Mówca, Buntownik, Lojalista, Klikacz, Zwycięzca, Opozycjonista), budget 80.5, at most 2 a club, a
+  captain; each sitting a kolejka (keyed by its first day), locked at 00:00 Warsaw on that day; FPL-style
+  transfers (1 free, saved up to 2, −4 each extra; sell at the current price if it fell, half of a rise).
+  `sejmomat/fantasy.py` (rules in one table) writes `api/v1/fantasy/game.json` (state open/live/off,
+  prices by rank in form, ±0.5 a sitting) and `points/<day>.json` (final 2 days after the sitting);
+  `tools/fantasy/simulate.py` replays the term with the same rules. `server/fantasy.php`: Google sign-in
+  with the `openid` scope only (a keyed hash of the ID, a nickname), squads frozen at each lock, the
+  leaderboard, optional email (double opt-in) for a reminder and a newsletter over the hosting's SMTP;
+  data in `domains/sejmomat.pl/fantasy-data/` (or `srv/data/fantasy/`). Test locally with
+  `dev_login` in the config (localhost only). Page: `templates/league.html`, `static/league.js`.
+
 Waiting on the owner:
+
+- **Sejmowa liga setup** before launch: (1) Google Cloud Console → a project → OAuth consent screen
+  (External, app name, support email, no scopes beyond openid) → Credentials → OAuth client ID (Web
+  application), authorised redirect URI exactly `https://sejmomat.pl/srv/fantasy.php`; (2) hPanel → Emails →
+  a mailbox such as `gra@sejmomat.pl`; (3) `domains/sejmomat.pl/fantasy-data/config.php` on the host:
+  `<?php return ['google_id' => '…', 'google_secret' => '…', 'smtp_user' => 'gra@sejmomat.pl',
+  'smtp_pass' => '…', 'from' => 'gra@sejmomat.pl', 'cron_key' => '<random>'];` (4) hPanel → Cron Jobs,
+  hourly: `curl -s "https://sejmomat.pl/srv/fantasy.php?a=remind&key=<cron_key>"`. A newsletter:
+  `curl -s -H 'Content-Type: application/json' -d '{"key":"…","subject":"…","text":"…"}' https://sejmomat.pl/srv/fantasy.php?a=newsletter`.
 
 - **Posting day summaries** (no social media accounts yet) (`.github/workflows/social.yml`): to X
   and/or Bluesky, off until the repository variable `SOCIAL_AUTOPOST` is
