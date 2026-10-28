@@ -404,14 +404,22 @@ const showSupport = async () => {
   // the goal, stands out. Listed bottom to top in the page's order, shown top down.
   let from = 0;
   const fills = [];
+  // where the support stands: in the step it is filling (or at the top once the goal is reached)
+  const at = T.fundTiers.findIndex(([amount]) => now < amount);
+  const here = at === -1 ? T.fundTiers.length - 1 : at;
   const steps = T.fundTiers.map(([amount, what], i) => {
     const part = Math.max(0, Math.min(1, (now - from) / (amount - from)));
     from = amount;
     const fill = h("span", { className: "fund-seg-fill" });
     fills.push([fill, part]);
     const goal = i === T.fundTiers.length - 1;
+    let mark = "";
+    if (i === here) {
+      mark = h("span", { className: "fund-now-mark", textContent: `${now} zł` });
+      mark.style.bottom = `${(part * 100).toFixed(1)}%`;
+    }
     return h("li", { className: `fund-step${part >= 1 ? " done" : part > 0 ? " current" : ""}${goal ? " goal" : ""}` }, [
-      h("span", { className: "fund-seg" }, [fill]),
+      h("span", { className: "fund-rail" }, [h("span", { className: "fund-seg" }, [fill]), mark]),
       h("div", { className: "fund-bubble" }, [
         goal ? h("span", { className: "fund-goal", textContent: T.fundGoal }) : "",
         h("strong", { className: "fund-amount", textContent: `${amount} zł` }),
