@@ -748,5 +748,5 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .wg.now-folded > .wg-now { flex: 1 1 100%; order: -1; padding-top: 9px; padding-bottom: 9px; }
 @media (max-width: 600px) {
   .wg.now-folded > .wg-now { padding: 9px 14px; }
-  .wg-now-line { white-space: normal; }
+  .wg-now-line .muted { display: none; }   /* on a phone the headline only; the rest unfolds */
 }

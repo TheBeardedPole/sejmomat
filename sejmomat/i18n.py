@@ -700,7 +700,7 @@ EN = {
     "Wszystkie interpelacje": "All interpellations", "Wszystkie komisje": "All committees",
     "Nie udało się wczytać danych o tematach.": "Could not load the topic data.",
     # the seating plan on the home page
-    "Pokaż szczegóły": "Show details", "Zwiń": "Fold",
+    "Szczegóły": "Details", "Zwiń": "Fold",
     "Widok sali": "Chamber view", "Twoje tematy": "Your topics", "Frekwencja": "Turnout", "Wyłamania": "Breaks of the line",
     "Kadencje": "Terms", "{n} posłów na sali": "{n} MPs in the chamber", "Od {min} do {max}; mediana {med}": "From {min} to {max}; median {med}",
     "mniej": "fewer", "więcej": "more", "Znajdź posła na sali": "Find an MP in the chamber", "{n} poseł": "{n} MP", "{n} posłów": "{n} MPs",
