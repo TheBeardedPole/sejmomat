@@ -324,6 +324,7 @@ PAGE_MIN = 5                                            # called and held (about
 MAX_PAGES = 6
 PAGE_STRETCH = 4                                        # a page may run this many lines over to keep a passage whole
 RESULT_SECONDS = 14                                     # after each vote: its result full screen, seat by seat and club by club
+REACTION = 8                                            # after a vote on a whole bill: the hall's reaction, the result small, before the next amendment
 SHRINK = 0.7                                            # …in its last seconds (no amendment after it) it shrinks into a small window, bottom right
 FULL_WIDTH, FULL_LINES = 84, 10                         # then what an amendment changes, full screen: characters a line, lines a page
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
@@ -628,24 +629,25 @@ def main():
 
     def poll():
         # new votes every 20 s, in the background; the ballots MP by MP (the list has only totals)
-        # of the latest votes and of those a break asked for, once per vote
+        # of the latest votes and of those the screen asked for, once per vote, checked every second
+        last, tried = 0, {}
         while True:
-            got = get_or_none(f"votings/{n}") if n else None
-            if got:
-                with lock:
-                    votes[:] = sorted(got, key=lambda v: v["votingNumber"])
-                latest = [v["votingNumber"] for v in sorted(got, key=lambda v: v["votingNumber"])[-3:]]
-                for num in latest + sorted(want_ballots):
-                    if num not in ballots:
-                        one = get_or_none(f"votings/{n}/{num}")
-                        if one and one.get("votes"):
-                            ballot_clubs[num] = {x["MP"]: x.get("club") or "niez." for x in one["votes"]}
-                            ballots[num] = {x["MP"]: VOTE_CODE.get(x.get("vote"), "X") for x in one["votes"]}
-            time.sleep(3)
-            for _ in range(17):   # sooner when a break asks for a vote
-                if want_ballots - set(ballots):
-                    break
-                time.sleep(1)
+            if time.time() - last >= 20:
+                last = time.time()
+                got = get_or_none(f"votings/{n}") if n else None
+                if got:
+                    with lock:
+                        votes[:] = sorted(got, key=lambda v: v["votingNumber"])
+                    want_ballots.update(v["votingNumber"] for v in votes[-3:])
+            for num in sorted(want_ballots - set(ballots)):
+                if time.time() - tried.get(num, 0) < 10:   # not there yet: again in a while
+                    continue
+                tried[num] = time.time()
+                one = get_or_none(f"votings/{n}/{num}")
+                if one and one.get("votes"):
+                    ballot_clubs[num] = {x["MP"]: x.get("club") or "niez." for x in one["votes"]}
+                    ballots[num] = {x["MP"]: VOTE_CODE.get(x.get("vote"), "X") for x in one["votes"]}
+            time.sleep(1)
     threading.Thread(target=poll, daemon=True).start()
 
     # who is speaking: the broadcast's name caption, read every SNAP_EVERY seconds
@@ -1058,22 +1060,23 @@ def main():
         # then; live the vote is known some 40 s before the picture reaches it), then every vote's
         # result, then that result in a small window (below)
         decisive = lambda v: bool(v.get("yes") or v.get("no"))   # noqa: E731 - not a quorum check
+        whole = lambda v: "nad całością" in (v.get("topic") or "").lower()   # noqa: E731 - the vote on the whole bill
         hhmm = f"{clock:%H:%M}"
         if shown and hall and decisive(shown[-1]):
             want_ballots.add(shown[-1]["votingNumber"])
         if nxt and hall:
             want_ballots.add(nxt["votingNumber"])
-        if shown and hall and decisive(shown[-1]) and since_vote < RESULT_SECONDS + 8:
+        if shown and hall and decisive(shown[-1]) and since_vote < 2 * RESULT_SECONDS:
             v = shown[-1]
             num = v["votingNumber"]
             # the result from when its ballots are in (a few seconds after the vote at most)
-            if num in ballot_clubs and since_vote < 8:
+            if num in ballot_clubs and since_vote < RESULT_SECONDS:
                 result_from.setdefault(num, since_vote)
             start = result_from.get(num)
             if start is not None and since_vote - start < RESULT_SECONDS:
                 t = since_vote - start
                 to_next = (warsaw(nxt["date"]) - clock).total_seconds() if nxt else 1e9
-                amend_next = nxt and decisive(nxt) and diff_panel(nxt, FULL_WIDTH, FULL_LINES)[1] and to_next < RESULT_SECONDS - t + PAGE_CYCLE
+                amend_next = not whole(v) and nxt and decisive(nxt) and diff_panel(nxt, FULL_WIDTH, FULL_LINES)[1] and to_next < RESULT_SECONDS - t + PAGE_CYCLE
                 if not amend_next and t > RESULT_SECONDS - SHRINK:
                     # nothing more full screen: the result shrinks into its small window
                     img, _, _ = vote_result(v, RESULT_SECONDS - SHRINK - 0.01, RESULT_SECONDS + 1)
@@ -1092,6 +1095,8 @@ def main():
                 prev_end = 0
                 if shown and decisive(shown[-1]) and shown[-1]["votingNumber"] in result_from:
                     prev_end = RESULT_SECONDS + result_from[shown[-1]["votingNumber"]] - since_vote   # seconds from now
+                    if whole(shown[-1]):   # the hall reacting to a bill passed or not: a moment on the picture
+                        prev_end += REACTION
                 window = diff_from.setdefault(num, min(PAGE_CYCLE, to_go - max(0, prev_end)))
                 begun = window - to_go
                 if window >= PAGE_MIN - 1 and 0 <= begun < window:
