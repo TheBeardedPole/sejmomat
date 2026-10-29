@@ -323,9 +323,9 @@ PAGE_CYCLE = 30                                         # …and faster when the
 PAGE_MIN = 5                                            # called and held (about half a minute), but no faster than this
 MAX_PAGES = 6
 PAGE_STRETCH = 4                                        # a page may run this many lines over to keep a passage whole
-RESULT_SECONDS = 14                                     # after each vote: its result full screen, seat by seat and club by club
+RESULT_SECONDS = 12                                     # after each vote: its result full screen, seat by seat and club by club
 REACTION = 8                                            # after a vote on a whole bill: the hall's reaction, the result small, before the next amendment
-SHRINK = 0.7                                            # …in its last seconds (no amendment after it) it shrinks into a small window, bottom right
+SHRINK = 0.5                                            # …in its last seconds (no amendment after it) it shrinks into a small window, bottom right
 FULL_WIDTH, FULL_LINES = 84, 10                         # then what an amendment changes, full screen: characters a line, lines a page
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
 # A break in the sitting: the broadcast holds its wide shot of the hall (tools/break/*.png,
