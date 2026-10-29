@@ -717,15 +717,20 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .sala-search { flex: 0 1 300px; min-width: 180px; min-height: 38px; padding: 0 14px; border: 1px solid var(--line); border-radius: 99px;
   background: var(--bg); color: var(--text); font: inherit; font-size: .92rem; }
 .sala-search:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); }
-.sala-plan rect.q1 { fill: color-mix(in srgb, var(--accent) 12%, var(--surface)); }
-.sala-plan rect.q2 { fill: color-mix(in srgb, var(--accent) 32%, var(--surface)); }
-.sala-plan rect.q3 { fill: color-mix(in srgb, var(--accent) 52%, var(--surface)); }
-.sala-plan rect.q4 { fill: color-mix(in srgb, var(--accent) 62%, var(--surface)); }
+/* the five steps of a figure: the accent mixed into the surface. On white the faint end
+   disappears, so light mode starts higher; dark mode keeps its own steps */
+.sala { --q1: 28%; --q2: 46%; --q3: 64%; --q4: 82%; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .sala { --q1: 12%; --q2: 32%; --q3: 52%; --q4: 62%; } }
+:root[data-theme="dark"] .sala { --q1: 12%; --q2: 32%; --q3: 52%; --q4: 62%; }
+.sala-plan rect.q1 { fill: color-mix(in srgb, var(--accent) var(--q1), var(--surface)); }
+.sala-plan rect.q2 { fill: color-mix(in srgb, var(--accent) var(--q2), var(--surface)); }
+.sala-plan rect.q3 { fill: color-mix(in srgb, var(--accent) var(--q3), var(--surface)); }
+.sala-plan rect.q4 { fill: color-mix(in srgb, var(--accent) var(--q4), var(--surface)); }
 .sala-plan rect.q5 { fill: var(--accent); }
-.sala-sw.q1 { background: color-mix(in srgb, var(--accent) 12%, var(--surface)); border: 1px solid var(--line); }
-.sala-sw.q2 { background: color-mix(in srgb, var(--accent) 32%, var(--surface)); }
-.sala-sw.q3 { background: color-mix(in srgb, var(--accent) 52%, var(--surface)); }
-.sala-sw.q4 { background: color-mix(in srgb, var(--accent) 62%, var(--surface)); }
+.sala-sw.q1 { background: color-mix(in srgb, var(--accent) var(--q1), var(--surface)); border: 1px solid var(--line); }
+.sala-sw.q2 { background: color-mix(in srgb, var(--accent) var(--q2), var(--surface)); }
+.sala-sw.q3 { background: color-mix(in srgb, var(--accent) var(--q3), var(--surface)); }
+.sala-sw.q4 { background: color-mix(in srgb, var(--accent) var(--q4), var(--surface)); }
 .sala-sw.q5 { background: var(--accent); }
 .sala-legend .sala-key { flex-wrap: wrap; }
 .sala-step { display: inline-flex; align-items: center; gap: 4px; margin-right: 8px; }

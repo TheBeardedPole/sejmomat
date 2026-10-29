@@ -836,7 +836,7 @@ if (typeof document !== "undefined") (() => {
     loadSala().then((plan) => { if (plan) drawHall(box, plan); else box.remove(); });
     return box;
   };
-  const SAME_CLUB = { "Polska2050-TD": "Polska2050" };
+  const SAME_CLUB = { "Polska2050-TD": "Polska2050", "niez.": "other" };  // "niez." is no valid property name
   const iconSvg = svg;   // the icon helper, by a name the plan's own svg does not hide
   const fold = (t) => t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ł/g, "l");
   const drawHall = (box, plan) => {
