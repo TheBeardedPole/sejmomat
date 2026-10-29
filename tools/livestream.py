@@ -1131,7 +1131,8 @@ def main():
             x, y = live_overlay.MINI_BOX[:2]
             mini = (img, x, y)
         elif recent and not floor:
-            head, pages = diff_panel(shown[-1])
+            # votes going on: no cards; with the chamber, amendments are full screen before their vote
+            head, pages = diff_panel(shown[-1]) if not hall else ("", [])
             if pages:
                 each = max(PAGE_MIN, min(PAGE_SECONDS, PAGE_CYCLE / len(pages)))
                 page = int((clock - warsaw(shown[-1]["date"])).total_seconds() // each) % len(pages)
