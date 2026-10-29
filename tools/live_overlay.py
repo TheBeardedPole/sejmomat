@@ -29,6 +29,8 @@ RED, GREEN = (255, 154, 154), (155, 232, 171)
 PANEL = (10, 16, 28, 214)
 CMP_BOX = (80, 72, W - 80, H - 36)   # a break's comparison: the hall stays visible around it
 TEXT_SIZE, TEXT_STEP = 24, 34          # the full-screen amendment: its lines' font size and step
+MINI_W, MINI_H = 360, 236              # a vote's result, small, bottom right, once the picture is back
+MINI_BOX = (W - 20 - MINI_W, H - 18 - MINI_H, W - 20, H - 18)
 CMP_ROWS, CMP_STEP = 214, 50          # its rows: the first label's height in the panel, and the step
 BOX_MIN, BOX_MAX = 460, 820   # the caption box in the bottom left: its width, as its text needs
 STILL = 1.7          # seconds into its turn after which a card stops moving
@@ -881,6 +883,45 @@ class Overlay:
             return base, x0, y0
         return im, x0, y0
 
+    def mini_vote(self, key, title, subtitle, seats, totals, badge):
+        """A vote's result in a small window (MINI_BOX): its number and result, the chamber seat by
+        seat, the four totals. seats as for hall_scene; totals [(colour, label)]."""
+        ck = ("mini", key)
+        im = self._cards.get(ck)
+        if im is not None:
+            return im
+        for k in [k for k in self._cards if isinstance(k, tuple) and k[0] == "mini"]:
+            del self._cards[k]
+        im = Image.new("RGBA", (MINI_W, MINI_H), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        bg = (12, 20, 36)
+        d.rounded_rectangle((0, 0, MINI_W - 1, MINI_H - 1), 16, fill=bg + (230,))
+        for i in range(MINI_W):
+            d.line((i, 0, i, 50), fill=mix(bg, ACCENT, 0.9 * (1 - i / MINI_W) ** 0.7) + (230,))
+        d.rectangle((0, 50, MINI_W, 52), fill=YELLOW + (255,))
+        text, colour = badge
+        fb = self.font(14, True)
+        bw = fb.getlength(text)
+        d.rounded_rectangle((MINI_W - 14 - bw - 16, 10, MINI_W - 14, 34), 8, fill=colour + (255,))
+        d.text((MINI_W - 14 - bw - 8, 22), text, font=fb, fill="white", anchor="lm")
+        d.text((16, 8), self.fit(title.upper(), self.font(18, True), MINI_W - 50 - bw), font=self.font(18, True), fill="white")
+        d.text((16, 40), self.fit(subtitle, self.font(13), MINI_W - 32), font=self.font(13), fill=(215, 222, 235), anchor="lm")
+        xs, ys = [q[0] for q in seats], [q[1] for q in seats]
+        ax0, ay0, ax1, ay1 = 20, 62, MINI_W - 20, MINI_H - 52
+        k = min((ax1 - ax0) / (max(xs) - min(xs)), (ay1 - ay0) / (max(ys) - min(ys)))
+        ox = ax0 + ((ax1 - ax0) - (max(xs) - min(xs)) * k) / 2
+        oy = ay0 + ((ay1 - ay0) - (max(ys) - min(ys)) * k) / 2
+        for x, y, c in seats:
+            bx, by = round(ox + (x - min(xs)) * k), round(oy + (y - min(ys)) * k)
+            d.rectangle((bx - 1, by - 1, bx + 2, by + 2), fill=(c or (36, 48, 70)) + (255,))
+        f = self.font(14, True)
+        for i, (c, label) in enumerate(totals):   # two by two
+            x, y = 18 + (i % 2) * 168, MINI_H - 42 + (i // 2) * 20
+            d.rounded_rectangle((x, y - 5, x + 10, y + 5), 3, fill=c + (255,))
+            d.text((x + 16, y), label, font=f, fill=(236, 238, 245), anchor="lm")
+        self._cards[ck] = im
+        return im
+
     def frame_scene(self, scene, clock=None, label="PRZERWA W OBRADACH"):
         """A frame of a break: the comparison over the hall, the Sejmomat logo top right. A scene
         standing still (the same image, from a cache) gives the same frame, not one composed anew."""
@@ -980,11 +1021,12 @@ class Overlay:
             base.putalpha(base.getchannel("A").point(lambda v, k=clamp((length - t) / 0.6): round(v * k)))
         return base, x0, y0
 
-    def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None, clock=None, chair=None):
+    def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None, clock=None, chair=None, mini=None):
         """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes.
         Most frames are the same as the one before (nothing moves): those are not redrawn."""
         which = None if card is None else next((k for k, c in self._stills.items() if c[1] is card), False)
-        key = ((item, topic, vote, chip, note, clock, chair), panel and (panel[0], tuple(panel[1])), which) if which is not False else None
+        key = ((item, topic, vote, chip, note, clock, chair), panel and (panel[0], tuple(panel[1])), which,
+               mini and (id(mini[0]), mini[1], mini[2])) if which is not False else None
         if key is not None and self._last[0] == key:
             return self._last[1]
         im = self.base(item, topic, vote, chip, note, chair).copy()
@@ -992,6 +1034,9 @@ class Overlay:
         if panel:
             p = self.panel(*panel)
             im.alpha_composite(p, (W - p.width - 24, 70))
+        if mini:
+            m, x, y = mini
+            im.alpha_composite(m, (x, y))
         if card:
             c, x, y = card
             if x < W:

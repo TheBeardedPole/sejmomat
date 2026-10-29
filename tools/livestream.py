@@ -324,6 +324,7 @@ PAGE_MIN = 5                                            # called and held (about
 MAX_PAGES = 6
 PAGE_STRETCH = 4                                        # a page may run this many lines over to keep a passage whole
 RESULT_SECONDS = 14                                     # after each vote: its result full screen, seat by seat and club by club
+SHRINK = 0.7                                            # …in its last seconds (no amendment after it) it shrinks into a small window, bottom right
 FULL_WIDTH, FULL_LINES = 84, 10                         # then what an amendment changes, full screen: characters a line, lines a page
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
 # A break in the sitting: the broadcast holds its wide shot of the hall (tools/break/*.png,
@@ -854,6 +855,10 @@ def main():
         wave = sorted(range(len(rows)), key=lambda i: math.hypot(rows[i][0] - cx, rows[i][1] - cy))
         hall = {"rows": rows, "club": club_by_mp, "sweep": sweep, "wave": wave}
 
+    def stream_short(club):
+        """A club's name on the stream's chamber scenes: as on the site, a few shorter still."""
+        return {"Konfederacja_KP": "KKP"}.get(club) or club_short(club)
+
     def clubs_hall(t, length):
         """Kluby na sali: the chamber filling club by club, from the left wing to the right, the
         clubs counted as their seats come in (the largest first in the legend, every club alike)."""
@@ -873,7 +878,7 @@ def main():
                 mp = rows[i][2]
                 if mp in club:
                     n[club[mp]] = n.get(club[mp], 0) + 1
-            out = [(live_overlay.club_colour(c), f"{'niezrzeszeni' if c.startswith('niez') else club_short(c)} {n.get(c, 0)}") for c in top]
+            out = [(live_overlay.club_colour(c), f"{'niezrzeszeni' if c.startswith('niez') else stream_short(c)} {n.get(c, 0)}") for c in top]
             rest = sum(v for c, v in n.items() if c not in top)
             return out + ([((125, 135, 148), f"inni {rest}")] if len(total) > len(top) else [])
 
@@ -904,6 +909,7 @@ def main():
                                   badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)))
 
     result_from = {}   # vote number -> seconds after the vote its result came on screen
+    diff_from = {}     # vote number -> seconds its amendment had on screen before it
 
     def vote_result(v, t, length):
         """A vote just taken, full screen: the chamber seat by seat on the left (as in a break),
@@ -916,14 +922,8 @@ def main():
         per = {}
         for mp, c in code.items():
             per.setdefault(clubs.get(mp, "niez."), {"Y": 0, "N": 0, "A": 0, "X": 0})[c] += 1
-        order = sorted(per, key=lambda c: (-sum(per[c].values()), c))
-        if len(order) > 10:   # the smallest together
-            rest = {"Y": 0, "N": 0, "A": 0, "X": 0}
-            for c in order[9:]:
-                for k in rest:
-                    rest[k] += per[c][k]
-            order = order[:9] + ["inni"]
-            per["inni"] = rest
+        # every club, the largest first; the independents last
+        order = sorted(per, key=lambda c: (c.startswith("niez"), -sum(per[c].values()), c))
         biggest = max(sum(per[c].values()) for c in order)
 
         def legend(p):
@@ -937,21 +937,22 @@ def main():
         def side(d, t):
             q = live_overlay.clamp((t - 1.0) / 2.0)
             fb, fn = overlay.font(18, True), overlay.font(18)
-            x0, xb, bw = 612, 760, 150
-            cols = [935, 980, 1025, 1070]   # the four counts, right-aligned
-            top, bottom = 122, (live_overlay.CMP_BOX[3] - live_overlay.CMP_BOX[1]) - 80
+            x0, xb, bw = 612, 790, 126
+            cols = [962, 1003, 1044, 1084]   # the four counts, right-aligned
+            top, bottom = 118, (live_overlay.CMP_BOX[3] - live_overlay.CMP_BOX[1]) - 62
             step = min(44, (bottom - top - 30) / len(order))
+            half = 9 if step >= 34 else 7   # the bars a little thinner when there are many clubs
             for colour, x in zip(("Y", "N", "A", "X"), cols):
                 d.rounded_rectangle((x - 14, top + 2, x - 2, top + 14), 3, fill=VOTE_COLOUR[colour] + (255,))
             for i, c in enumerate(order):
                 y = top + 30 + i * step + step / 2
-                label = "niezrzeszeni" if c.startswith("niez") else club_short(c)
-                d.text((x0, y), overlay.fit(label, fb, xb - x0 - 10), font=fb, fill=live_overlay.club_colour(c) if c != "inni" else (190, 198, 210), anchor="lm")
+                label = "niezrzeszeni" if c.startswith("niez") else stream_short(c)
+                d.text((x0, y), overlay.fit(label, fb, xb - x0 - 10), font=fb, fill=live_overlay.club_colour(c), anchor="lm")
                 x = xb
                 for k in ("Y", "N", "A", "X"):
                     w = per[c][k] / biggest * bw * q
                     if w >= 1:
-                        d.rectangle((round(x), round(y - 9), round(x + w), round(y + 9)), fill=VOTE_COLOUR[k] + (255,))
+                        d.rectangle((round(x), round(y - half), round(x + w), round(y + half)), fill=VOTE_COLOUR[k] + (255,))
                     x += w
                 for k, cx in zip(("Y", "N", "A", "X"), cols):
                     d.text((cx, y), str(round(per[c][k] * q)), font=fn if per[c][k] else fn,
@@ -964,6 +965,20 @@ def main():
                                   f"{v['date'][11:16]} · {topic}", seats, hall["wave"], legend, t, length,
                                   badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)),
                                   area=(30, 118, 580, (live_overlay.CMP_BOX[3] - live_overlay.CMP_BOX[1]) - 70), side=side)
+
+    def vote_mini(v):
+        """The small window of a vote's result (live_overlay.mini_vote)."""
+        code = ballots[v["votingNumber"]]
+        seats = [(x, y, VOTE_COLOUR.get(code.get(mp, ""), None) if mp else None) for x, y, mp in hall["rows"]]
+        n = {}
+        for c in code.values():
+            n[c] = n.get(c, 0) + 1
+        names = {"Y": "za", "N": "przeciw", "A": "wstrzymało się", "X": "nie głosowało"}
+        topic = short_topic(re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or ""))
+        return overlay.mini_vote((v["sitting"], v["votingNumber"]), f"Głosowanie nr {v['votingNumber']}",
+                                 f"{v['date'][11:16]} · {topic}", seats,
+                                 [(VOTE_COLOUR[c], f"{n.get(c, 0)} {names[c]}") for c in ("Y", "N", "A", "X")],
+                                 ("PRZYJĘTO", (40, 150, 90)) if passed(v) else ("ODRZUCONO", (190, 60, 60)))
 
     def agenda_scene(shown, t, length, slot):
         """Porządek obrad: the whole agenda, nine items a page, a page every 10 s, going on from
@@ -1002,6 +1017,7 @@ def main():
             follow_transcript(clock)
         with lock:
             shown = [v for v in votes if warsaw(v["date"]) <= clock]
+            nxt = next((v for v in votes if warsaw(v["date"]) > clock), None)
             # a speaker recognised ahead: theirs once the picture reaches the moment they began
             while pending and pending[0][0] <= clock:
                 speaker.update(pending.pop(0)[1])
@@ -1038,33 +1054,54 @@ def main():
             c = c or (compares[(k // 2) % len(compares)] if compares else None)
             if c:
                 return overlay.frame_scene(overlay.compare(c, into, length), hhmm)
-        # a vote just taken: its result full screen, then (an amendment) what it changes, full screen
-        if shown and hall and since_vote < RESULT_SECONDS + PAGE_CYCLE + 8 and (shown[-1].get("yes") or shown[-1].get("no")) \
-                and not (speaker["card"] and speaker["at"] > warsaw(shown[-1]["date"])):
+        # votes full screen: what an amendment changes, before its vote (the Marshal reads it out
+        # then; live the vote is known some 40 s before the picture reaches it), then every vote's
+        # result, then that result in a small window (below)
+        decisive = lambda v: bool(v.get("yes") or v.get("no"))   # noqa: E731 - not a quorum check
+        hhmm = f"{clock:%H:%M}"
+        if shown and hall and decisive(shown[-1]):
+            want_ballots.add(shown[-1]["votingNumber"])
+        if nxt and hall:
+            want_ballots.add(nxt["votingNumber"])
+        if shown and hall and decisive(shown[-1]) and since_vote < RESULT_SECONDS + 8:
             v = shown[-1]
-            want_ballots.add(v["votingNumber"])
-            hhmm = f"{clock:%H:%M}"
             num = v["votingNumber"]
             # the result from when its ballots are in (a few seconds after the vote at most)
-            if num in ballot_clubs and since_vote < RESULT_SECONDS:
+            if num in ballot_clubs and since_vote < 8:
                 result_from.setdefault(num, since_vote)
-            start = result_from.get(num, 0 if since_vote >= RESULT_SECONDS else None)
-            if start is None:   # the ballots not in yet: the picture, a moment
-                pass
-            elif since_vote - start < RESULT_SECONDS and num in ballot_clubs:
-                return overlay.frame_scene(vote_result(v, since_vote - start, RESULT_SECONDS), hhmm, "GŁOSOWANIE")
-            head, pages = diff_panel(v, FULL_WIDTH, FULL_LINES) if start is not None else ("", [])
-            into = since_vote - start - (RESULT_SECONDS if num in result_from else 0) if start is not None else -1
-            if pages and 0 <= into:
-                each = max(PAGE_MIN, min(PAGE_SECONDS, PAGE_CYCLE / len(pages)))
-                page = int(into // each)
-                if page < len(pages):
-                    ok = passed(v)
-                    sub = f"Głosowanie nr {v['votingNumber']}, {v['date'][11:16]}" + (f" · strona {page + 1}/{len(pages)}" if len(pages) > 1 else "")
-                    return overlay.frame_scene(overlay.text_scene(("diff", v["votingNumber"], page), head, sub, pages[page],
-                                                                  into - page * each, each,
-                                                                  badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)),
-                                                                  fade=(page == 0, page == len(pages) - 1)), hhmm, "GŁOSOWANIE")
+            start = result_from.get(num)
+            if start is not None and since_vote - start < RESULT_SECONDS:
+                t = since_vote - start
+                to_next = (warsaw(nxt["date"]) - clock).total_seconds() if nxt else 1e9
+                amend_next = nxt and decisive(nxt) and diff_panel(nxt, FULL_WIDTH, FULL_LINES)[1] and to_next < RESULT_SECONDS - t + PAGE_CYCLE
+                if not amend_next and t > RESULT_SECONDS - SHRINK:
+                    # nothing more full screen: the result shrinks into its small window
+                    img, _, _ = vote_result(v, RESULT_SECONDS - SHRINK - 0.01, RESULT_SECONDS + 1)
+                    k = live_overlay.ease_in(live_overlay.clamp((t - (RESULT_SECONDS - SHRINK)) / SHRINK))
+                    box = [a + (b - a) * k for a, b in zip(live_overlay.CMP_BOX, live_overlay.MINI_BOX)]
+                    small = img.resize((round(box[2] - box[0]), round(box[3] - box[1])), Image.BILINEAR)
+                    return overlay.frame_scene((small, round(box[0]), round(box[1])), hhmm, "GŁOSOWANIE")
+                return overlay.frame_scene(vote_result(v, t, RESULT_SECONDS), hhmm, "GŁOSOWANIE")
+        if nxt and hall and decisive(nxt):
+            # the next vote on an amendment: its pages full screen, ending as the vote is taken
+            to_go = (warsaw(nxt["date"]) - clock).total_seconds()
+            head, pages = diff_panel(nxt, FULL_WIDTH, FULL_LINES) if to_go < PAGE_CYCLE + RESULT_SECONDS else ("", [])
+            if pages:
+                num = nxt["votingNumber"]
+                # the time it has: from the latest result's end (or when the vote is first known) to the vote
+                prev_end = 0
+                if shown and decisive(shown[-1]) and shown[-1]["votingNumber"] in result_from:
+                    prev_end = RESULT_SECONDS + result_from[shown[-1]["votingNumber"]] - since_vote   # seconds from now
+                window = diff_from.setdefault(num, min(PAGE_CYCLE, to_go - max(0, prev_end)))
+                begun = window - to_go
+                if window >= PAGE_MIN - 1 and 0 <= begun < window:
+                    each = window / min(len(pages), max(1, int(window // PAGE_MIN)))
+                    shown_pages = pages[:max(1, int(window // each))]
+                    page = min(int(begun // each), len(shown_pages) - 1)
+                    sub = f"Głosowanie nr {num} za chwilę" + (f" · strona {page + 1}/{len(pages)}" if len(pages) > 1 else "")
+                    return overlay.frame_scene(overlay.text_scene(("diff", num, page), head, sub, shown_pages[page],
+                                                                  begun - page * each, each,
+                                                                  fade=(page == 0, False)), hhmm, "GŁOSOWANIE")
         item, topic, vote = captions(shown, tags, title)
         recent = shown and (clock - warsaw(shown[-1]["date"])).total_seconds() < QUIET
         chip = note = None
@@ -1085,8 +1122,15 @@ def main():
                          f"frekwencja {stats.get('frekwencja')} · wyłamania z linii klubu: {stats.get('wyłamania')}")
             else:
                 item, topic = title, "Mówca pojawi się tu, gdy transmisja go przedstawi"
-        panel = card = None
-        if recent and not floor:
+        panel = card = mini = None
+        if recent and not floor and hall and shown[-1]["votingNumber"] in ballot_clubs and decisive(shown[-1]):
+            # the picture back after the vote's full screen: its result in a small window, bottom right
+            v = shown[-1]
+            num = v["votingNumber"]
+            img = vote_mini(v)
+            x, y = live_overlay.MINI_BOX[:2]
+            mini = (img, x, y)
+        elif recent and not floor:
             head, pages = diff_panel(shown[-1])
             if pages:
                 each = max(PAGE_MIN, min(PAGE_SECONDS, PAGE_CYCLE / len(pages)))
@@ -1115,7 +1159,7 @@ def main():
                     if into < length:
                         card = overlay.card(c, into, length)
                         showing["until"] = begun + length
-        return overlay.frame(item, topic, vote, panel, card, chip, note, clock=f"{clock:%H:%M}", chair=chair_now["text"])
+        return overlay.frame(item, topic, vote, panel, card, chip, note, clock=f"{clock:%H:%M}", chair=chair_now["text"], mini=mini)
 
     if args.fast and args.out in ("preview", "rtmp"):
         sys.exit("--fast is for a file.")
