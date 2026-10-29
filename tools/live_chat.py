@@ -25,6 +25,7 @@ are not held back.
 
 Quota: a message costs 20 units, finding the stream's chat 1, of 10,000 a day.
 """
+import getpass
 import http.server
 import json
 import os
@@ -324,8 +325,14 @@ class VoteChat:
 
 def auth():
     """Sign in as the channel in the browser; prints the lines for /etc/sejmomat-live.env."""
+    global CLIENT_ID, CLIENT_SECRET
     if not (CLIENT_ID and CLIENT_SECRET):
-        sys.exit("Set SEJMOMAT_YT_CLIENT_ID and SEJMOMAT_YT_CLIENT_SECRET (the OAuth client, Desktop app) first.")
+        # asked for here when not in the environment (the secret not echoed, nor kept in the shell's history)
+        print("The OAuth client (Google Cloud > APIs & Services > Credentials, the Desktop app one):")
+        CLIENT_ID = CLIENT_ID or input("Client ID: ").strip()
+        CLIENT_SECRET = CLIENT_SECRET or getpass.getpass("Client secret (not shown as you type): ").strip()
+        if not (CLIENT_ID and CLIENT_SECRET):
+            sys.exit("Both are needed.")
     got = {}
 
     class Back(http.server.BaseHTTPRequestHandler):
