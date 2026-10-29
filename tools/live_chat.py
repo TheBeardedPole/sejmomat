@@ -66,7 +66,8 @@ MAX_LEN = 200            # YouTube's chat box takes 200 characters
 POST_AFTER = 6           # seconds after the vote's moment: its result is on screen by then
 AMEND_RUN_END = 180      # a run of votes (amendments, motions) this long after its last: posted, the run over
 GAP = 4                  # seconds between two messages at least
-FIND_EVERY = 60          # seconds between looks for the stream's chat while there is none
+FIND_EVERY = 15          # seconds between looks for the stream's chat while there is none
+KEEP_FOR = 300           # a message waits this long for the chat (a broadcast takes a while to go live)
 
 CLIENT_ID = os.environ.get("SEJMOMAT_YT_CLIENT_ID", "").strip()
 CLIENT_SECRET = os.environ.get("SEJMOMAT_YT_CLIENT_SECRET", "").strip()
@@ -251,9 +252,12 @@ class Chat:
 
     def find(self):
         """The chat of the broadcast live now, or None."""
-        got = self._call("GET", "liveBroadcasts", {"part": "snippet", "broadcastStatus": "active", "broadcastType": "all"})
-        ids = [b["snippet"].get("liveChatId") for b in got.get("items", [])]
-        self.chat_id = next((i for i in ids if i), None)
+        got = self._call("GET", "liveBroadcasts", {"part": "snippet,status", "broadcastStatus": "active", "broadcastType": "all"})
+        # only one on air ("live", or "testing" before it goes public): the channel's default
+        # broadcast can be listed while idle, and its chat is not the stream's
+        items = sorted((b for b in got.get("items", []) if b.get("status", {}).get("lifeCycleStatus") in ("live", "testing")),
+                       key=lambda b: b["status"]["lifeCycleStatus"] != "live")
+        self.chat_id = next((b["snippet"]["liveChatId"] for b in items if b["snippet"].get("liveChatId")), None)
         return self.chat_id
 
     def send(self, text):
@@ -299,16 +303,26 @@ class VoteChat:
             time.sleep(1)
 
     def _send(self):
+        waiting = []   # (since, text): messages kept while the broadcast is not live yet
         while True:
-            text = self.out.get()
+            if not waiting:
+                waiting.append((time.time(), self.out.get()))
+            while not self.out.empty():
+                waiting.append((time.time(), self.out.get()))
+            since, text = waiting[0]
             try:
                 if not self.chat.chat_id and time.time() - self.looked >= FIND_EVERY:
                     self.looked = time.time()
                     if self.chat.find():
                         print("czat: transmisja znaleziona", flush=True)
                 if not self.chat.chat_id:
-                    print(f"czat: brak transmisji na żywo, pominięte: {text}", file=sys.stderr, flush=True)
+                    if time.time() - since > KEEP_FOR:
+                        waiting.pop(0)
+                        print(f"czat: brak transmisji na żywo, pominięte: {text}", file=sys.stderr, flush=True)
+                    else:
+                        time.sleep(1)
                     continue
+                waiting.pop(0)
                 self.chat.send(text)
                 print(f"czat: {text}", flush=True)
             except urllib.error.HTTPError as e:
