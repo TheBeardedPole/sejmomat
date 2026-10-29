@@ -6,6 +6,8 @@ by itself when it streams to the platform and the YouTube login is set:
     python tools/live_chat.py auth             # once, on a computer with a browser: the login
     python tools/live_chat.py preview 67       # what a sitting's votes would put in the chat, nothing sent
     python tools/live_chat.py test "Dzień dobry"   # one message to the stream live now
+    python tools/live_chat.py broadcast "Test"     # a new unlisted broadcast with its own stream key
+    python tools/live_chat.py title "Nowy tytuł"   # the title of the broadcast live now
 
 Which votes: every vote but a quorum check, its result worded as on the vote's
 page (sejmomat/build.py: a motion to reject passed is a bill rejected, a Senate
@@ -23,7 +25,13 @@ signs in as the channel (@Sejmomat) and prints three lines for
 SEJMOMAT_YT_REFRESH_TOKEN. Messages come from the channel itself, so its links
 are not held back.
 
-Quota: a message costs 20 units, finding the stream's chat 1, of 10,000 a day.
+Quota: a message costs 20 units, finding the stream's chat 1, of 10,000 a day; a new
+broadcast with its stream some 150, a new title 50.
+
+`broadcast` is for a test: an unlisted broadcast that starts when video comes to its
+own key and ends when it stops; tools/vps/test-stream.sh sends a replay there with
+the key it prints (TEST_RTMP=...). The sittings themselves go to the channel's
+default key (SEJMOMAT_RTMP), whose title is set in YouTube Studio or with `title`.
 """
 import getpass
 import http.server
@@ -235,7 +243,8 @@ class Chat:
 
     def _call(self, method, path, params, body=None):
         url = f"{YT}/{path}?{urllib.parse.urlencode(params)}"
-        req = urllib.request.Request(url, method=method, data=json.dumps(body).encode() if body else None,
+        data = json.dumps(body).encode() if body is not None else (b"" if method != "GET" else None)
+        req = urllib.request.Request(url, method=method, data=data,
                                      headers={"Authorization": f"Bearer {self._access()}", "Content-Type": "application/json"})
         with urllib.request.urlopen(req, timeout=20) as r:
             return json.load(r)
@@ -377,6 +386,43 @@ def preview(sitting):
     print(f"\n{len(msgs)} messages for {len(votes)} votes; {20 * len(msgs)} quota units", file=sys.stderr)
 
 
+def broadcast(title, privacy="unlisted"):
+    """A new broadcast (unlisted) bound to a new stream key: prints where to send the video."""
+    if not configured():
+        sys.exit("The YouTube login is not set (python tools/live_chat.py auth).")
+    yt = Chat()
+    now = datetime.now(WARSAW).isoformat(timespec="seconds")
+    b = yt._call("POST", "liveBroadcasts", {"part": "snippet,status,contentDetails"}, {
+        "snippet": {"title": title[:100], "scheduledStartTime": now},
+        "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False},
+        "contentDetails": {"enableAutoStart": True, "enableAutoStop": True,
+                           "monitorStream": {"enableMonitorStream": False}}})
+    st = yt._call("POST", "liveStreams", {"part": "snippet,cdn,contentDetails"}, {
+        "snippet": {"title": f"Sejmomat: {title}"[:128]},
+        "cdn": {"ingestionType": "rtmp", "resolution": "variable", "frameRate": "variable"},
+        "contentDetails": {"isReusable": False}})
+    yt._call("POST", "liveBroadcasts/bind", {"id": b["id"], "part": "id,contentDetails", "streamId": st["id"]})
+    ing = st["cdn"]["ingestionInfo"]
+    print(f"broadcast ({privacy}): https://youtu.be/{b['id']}")
+    print(f"studio: https://studio.youtube.com/video/{b['id']}/livestreaming")
+    print(f"\nTEST_RTMP={ing['ingestionAddress']}/{ing['streamName']}")
+
+
+def set_title(title):
+    """The title of the broadcast live now (its description and start kept)."""
+    if not configured():
+        sys.exit("The YouTube login is not set (python tools/live_chat.py auth).")
+    yt = Chat()
+    got = yt._call("GET", "liveBroadcasts", {"part": "snippet", "broadcastStatus": "active", "broadcastType": "all"})
+    if not got.get("items"):
+        sys.exit("No broadcast live on the channel now.")
+    b = got["items"][0]
+    sn = b["snippet"]
+    yt._call("PUT", "liveBroadcasts", {"part": "snippet"}, {"id": b["id"], "snippet": {
+        "title": title[:100], "description": sn.get("description", ""), "scheduledStartTime": sn["scheduledStartTime"]}})
+    print(f"{sn['title']!r} -> {title[:100]!r}")
+
+
 def test(text):
     if not configured():
         sys.exit("The YouTube login is not set (python tools/live_chat.py auth).")
@@ -395,5 +441,9 @@ if __name__ == "__main__":
         preview(int(sys.argv[2]))
     elif cmd == "test" and len(sys.argv) > 2:
         test(" ".join(sys.argv[2:]))
+    elif cmd == "broadcast" and len(sys.argv) > 2:
+        broadcast(" ".join(sys.argv[2:]))
+    elif cmd == "title" and len(sys.argv) > 2:
+        set_title(" ".join(sys.argv[2:]))
     else:
         sys.exit(__doc__)

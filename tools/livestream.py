@@ -545,6 +545,7 @@ def main():
     ap.add_argument("--fast", action="store_true", help="to a file: as fast as the computer can, not in real time")
     ap.add_argument("--announce", action="store_true", help="a replay to the platform: tell the site it is on air too (live streams always do, with SEJMOMAT_LIVE_KEY set)")
     ap.add_argument("--no-chat", action="store_true", help="no vote links in the YouTube chat (tools/live_chat.py)")
+    ap.add_argument("--chat", action="store_true", help="a replay to the platform: vote links in its chat too (live streams always have them)")
     ap.add_argument("--wait", action="store_true", help="live, unattended: wait for the day's sitting instead of stopping when there is none")
     ap.add_argument("--font", help="regular font file")
     ap.add_argument("--font-bold", help="bold font file")
@@ -1220,7 +1221,7 @@ def main():
         threading.Thread(target=keep_announcing, daemon=True).start()
     # the votes into the stream's chat as the picture reaches them (live_chat.py), when on air
     # with the channel's YouTube login set
-    if args.out == "rtmp" and (not args.at or args.announce) and live_chat.configured() and not args.no_chat:
+    if args.out == "rtmp" and (not args.at or args.announce or args.chat) and live_chat.configured() and not args.no_chat:
         def votes_now():
             with lock:
                 return list(votes)
