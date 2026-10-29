@@ -750,8 +750,13 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .wg-now-toggle { flex: none; min-height: 32px; font-size: .9rem; font-weight: 600; }
 .wg-now-body { display: flex; flex-direction: column; gap: 3px; flex: 1; }
 .wg-now-body[hidden] { display: none; }
-.wg-now:not(.folded) .wg-now-bar { margin-bottom: 6px; }
-.wg-now:not(.folded) .wg-now-line { visibility: hidden; }   /* unfolded: the column says it in full */
+/* unfolded: the column says it all, with its own badge and heading; of the bar only the button
+   stays, in the corner beside that heading (the bar's badge doubled the heading's) */
+.wg-now:not(.folded) { position: relative; }
+.wg-now:not(.folded) .wg-now-bar { position: absolute; top: 9px; right: 18px; }
+.wg-now:not(.folded) .wg-now-bar > :not(.wg-now-toggle) { display: none; }
+.wg-now:not(.folded) .wg-now-body > :first-child { padding-right: 56px; }
+.wg-livehead .live-badge { flex: none; white-space: nowrap; }   /* the text beside it wraps, not the badge */
 .wg.now-folded > .wg-now { flex: 1 1 100%; order: -1; padding-top: 9px; padding-bottom: 9px; }
 @media (max-width: 600px) {
   .wg.now-folded > .wg-now { padding: 9px 14px; }
