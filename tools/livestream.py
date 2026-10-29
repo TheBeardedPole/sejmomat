@@ -908,7 +908,15 @@ def main():
         topic = short_topic(re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or ""))
         return overlay.hall_scene(("vote", v["sitting"], v["votingNumber"]), "Jak głosował Sejm",
                                   f"Głosowanie nr {v['votingNumber']}, {v['date'][11:16]} · {topic}", seats, hall["wave"], legend, t, length,
-                                  badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)))
+                                  badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)), note=reject_note(v))
+
+    def reject_note(v, short=False):
+        """A motion to reject a bill reads the other way round: rejecting it keeps the bill going."""
+        if "wniosek o odrzucenie" not in (v.get("topic") or "").lower():
+            return None
+        if passed(v):
+            return "Wniosek przyjęty: projekt odrzucony"
+        return "Wniosek odrzucony: projekt idzie dalej" if short else "Wniosek odrzucony: prace nad projektem trwają dalej"
 
     result_from = {}   # vote number -> seconds after the vote its result came on screen
     diff_from = {}     # vote number -> seconds its amendment had on screen before it
@@ -966,7 +974,8 @@ def main():
         return overlay.hall_scene(("result", v["sitting"], v["votingNumber"]), f"Głosowanie nr {v['votingNumber']}",
                                   f"{v['date'][11:16]} · {topic}", seats, hall["wave"], legend, t, length,
                                   badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)),
-                                  area=(30, 118, 580, (live_overlay.CMP_BOX[3] - live_overlay.CMP_BOX[1]) - 70), side=side)
+                                  area=(30, 118, 580, (live_overlay.CMP_BOX[3] - live_overlay.CMP_BOX[1]) - 70), side=side,
+                                  note=reject_note(v))
 
     def vote_mini(v):
         """The small window of a vote's result (live_overlay.mini_vote)."""
@@ -980,7 +989,7 @@ def main():
         return overlay.mini_vote((v["sitting"], v["votingNumber"]), f"Głosowanie nr {v['votingNumber']}",
                                  f"{v['date'][11:16]} · {topic}", seats,
                                  [(VOTE_COLOUR[c], f"{n.get(c, 0)} {names[c]}") for c in ("Y", "N", "A", "X")],
-                                 ("PRZYJĘTO", (40, 150, 90)) if passed(v) else ("ODRZUCONO", (190, 60, 60)))
+                                 ("PRZYJĘTO", (40, 150, 90)) if passed(v) else ("ODRZUCONO", (190, 60, 60)), note=reject_note(v, True))
 
     def agenda_scene(shown, t, length, slot):
         """Porządek obrad: the whole agenda, nine items a page, a page every 10 s, going on from

@@ -760,7 +760,7 @@ class Overlay:
             self._cards[skey] = (base, x0, y0)
         return base, x0, y0
 
-    def hall_scene(self, key, title, subtitle, seats, order, legend, t, length, badge=None, area=None, side=None):
+    def hall_scene(self, key, title, subtitle, seats, order, legend, t, length, badge=None, area=None, side=None, note=None):
         """The Sejm's chamber over the hall in a break: every seat (seats: [(x, y, colour)], x and
         y from 0 to 1 as on the Chancellery's plan, colour None for an empty seat), lit one after
         another in `order` (seat indices) over the scene's first seconds, and under it a legend
@@ -786,14 +786,18 @@ class Overlay:
                 d.line((i, 0, i, 96), fill=mix(bg, ACCENT, 0.9 * (1 - i / pw) ** 0.7) + (236,))
             d.rectangle((0, 96, pw, 99), fill=YELLOW + (255,))
             d.text((36, 12), title.upper(), font=self.font(32, True), fill="white")
-            d.text((36, 76), self.fit(subtitle, self.font(18), pw - 72 - (240 if badge else 0)), font=self.font(18),
+            nw = round(self.font(18, True).getlength(note)) + 24 if note else 0
+            d.text((36, 76), self.fit(subtitle, self.font(18), pw - 72 - max(nw, 240 if badge else 0)), font=self.font(18),
                    fill=(215, 222, 235), anchor="lm")
+            if note:   # what the result means, where it reads the other way round (a motion to reject)
+                d.text((pw - 36, 78), note, font=self.font(18, True), fill=YELLOW, anchor="rm")
             if badge:
                 text, colour = badge
                 fb = self.font(20, True)
                 bw = fb.getlength(text)
-                d.rounded_rectangle((pw - 36 - bw - 24, 32, pw - 36, 68), 12, fill=colour + (255,))
-                d.text((pw - 36 - bw - 12, 50), text, font=fb, fill="white", anchor="lm")
+                by = 14 if note else 32   # above the note, when there is one
+                d.rounded_rectangle((pw - 36 - bw - 24, by, pw - 36, by + 36), 12, fill=colour + (255,))
+                d.text((pw - 36 - bw - 12, by + 18), text, font=fb, fill="white", anchor="lm")
             # the seats' places: the plan fitted into the panel under the heading, above the legend
             xs, ys = [q[0] for q in seats], [q[1] for q in seats]
             ax0, ay0, ax1, ay1 = area or (40, 118, pw - 40, ph - 70)
@@ -883,7 +887,7 @@ class Overlay:
             return base, x0, y0
         return im, x0, y0
 
-    def mini_vote(self, key, title, subtitle, seats, totals, badge):
+    def mini_vote(self, key, title, subtitle, seats, totals, badge, note=None):
         """A vote's result in a small window (MINI_BOX): its number and result, the chamber seat by
         seat, the four totals. seats as for hall_scene; totals [(colour, label)]."""
         ck = ("mini", key)
@@ -905,7 +909,8 @@ class Overlay:
         d.rounded_rectangle((MINI_W - 14 - bw - 16, 10, MINI_W - 14, 34), 8, fill=colour + (255,))
         d.text((MINI_W - 14 - bw - 8, 22), text, font=fb, fill="white", anchor="lm")
         d.text((16, 8), self.fit(title.upper(), self.font(18, True), MINI_W - 50 - bw), font=self.font(18, True), fill="white")
-        d.text((16, 40), self.fit(subtitle, self.font(13), MINI_W - 32), font=self.font(13), fill=(215, 222, 235), anchor="lm")
+        d.text((16, 40), self.fit(note or subtitle, self.font(13, bool(note)), MINI_W - 32), font=self.font(13, bool(note)),
+               fill=YELLOW if note else (215, 222, 235), anchor="lm")
         xs, ys = [q[0] for q in seats], [q[1] for q in seats]
         ax0, ay0, ax1, ay1 = 20, 62, MINI_W - 20, MINI_H - 52
         k = min((ax1 - ax0) / (max(xs) - min(xs)), (ay1 - ay0) / (max(ys) - min(ys)))
