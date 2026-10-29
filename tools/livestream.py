@@ -52,6 +52,7 @@ from sejmomat import model  # noqa: E402
 from sejmomat.model import link_amendments  # noqa: E402  (what an amendment changes, as on vote pages)
 from live_overlay import H, W, Overlay  # noqa: E402
 from live_speaker import BAND, Recogniser, load_mps, read  # noqa: E402
+import live_chat  # noqa: E402
 from sejmomat.facts import spread  # noqa: E402
 from sejmomat.social import club_short  # noqa: E402
 
@@ -530,6 +531,7 @@ def main():
     ap.add_argument("--transcript", action="store_true", help="replay: who speaks from the day's transcript (data/speeches), not the screen")
     ap.add_argument("--fast", action="store_true", help="to a file: as fast as the computer can, not in real time")
     ap.add_argument("--announce", action="store_true", help="a replay to the platform: tell the site it is on air too (live streams always do, with SEJMOMAT_LIVE_KEY set)")
+    ap.add_argument("--no-chat", action="store_true", help="no vote links in the YouTube chat (tools/live_chat.py)")
     ap.add_argument("--wait", action="store_true", help="live, unattended: wait for the day's sitting instead of stopping when there is none")
     ap.add_argument("--font", help="regular font file")
     ap.add_argument("--font-bold", help="bold font file")
@@ -1200,6 +1202,14 @@ def main():
                 told = True
     if on_air:
         threading.Thread(target=keep_announcing, daemon=True).start()
+    # the votes into the stream's chat as the picture reaches them (live_chat.py), when on air
+    # with the channel's YouTube login set
+    if args.out == "rtmp" and (not args.at or args.announce) and live_chat.configured() and not args.no_chat:
+        def votes_now():
+            with lock:
+                return list(votes)
+        live_chat.VoteChat(lambda: now["clock"], votes_now, start, short_topic).start()
+        print("czat: linki do głosowań włączone", flush=True)
     viewer = subprocess.Popen(["ffplay", "-hide_banner", "-loglevel", "warning", "-window_title", "Sejmomat", "-"],
                               stdin=proc.stdout) if preview else None
     try:

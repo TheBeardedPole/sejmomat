@@ -229,6 +229,17 @@ Live on sejmomat.pl:
   stream server and *.blueonline.tv).
   Captions name the item from the vote's own title: the API's agenda is the planned
   one (several lists, each from 1) and items are renumbered at the sitting.
+- **Vote links in the stream's chat** (`tools/live_chat.py`, started by `livestream.py` when it
+  streams to RTMP live, or a replay with `--announce`, and the YouTube login is in
+  `/etc/sejmomat-live.env`; `--no-chat` turns it off): a message per vote as the picture reaches it
+  (`POST_AFTER` 6 s), worded by `build.motion`/`build.outcome` (a passed Senate-amendment vote is the
+  amendment rejected), linking `glosowanie-na-zywo.html`. Amendments go into their bill's final-vote
+  line; a run with no final vote (the Senate's) and a run of "skrócenie terminu" motions get one
+  message each. 22 October 2026: 260 votes, 56 messages, about 1,100 of the 10,000 daily quota units
+  (20 a message). `preview <sitting>` shows the messages, nothing sent; `test "text"` sends one.
+  Login: a Google Cloud project with the YouTube Data API v3, an OAuth client "Desktop app", its
+  consent screen "In production" (in "Testing" the refresh token lapses after 7 days); `auth` signs in
+  as @Sejmomat and prints the three `SEJMOMAT_YT_*` lines. Tests: `tests/test_live_chat.py`.
 - **Clips of past sittings** (`tools/clips.py`, run on a Polish address, writes
   `clips/`, not in git): `list` (closest decisive votes, one per bill), `bill
   S:N` (the debate that led to the vote, the latest day up to it with 8+ speeches
