@@ -289,7 +289,7 @@ def short_topic(topic):
     return (topic or "").rstrip(".")
 
 
-SUB_CHARS = 125   # about what a scene's subtitle line holds (18 px, the panel's width)
+SUB_CHARS = 112   # about what a scene's subtitle line holds (18 px, the panel's width)
 
 
 def vote_topic(v):
@@ -495,6 +495,13 @@ def snapshot_command(ahead, snapshot):
             "-map", "[thumb]", "-f", "image2", "-start_number", "0", "-y", thumbs]
 
 
+# x264's speed for a stream (SEJMOMAT_PRESET): superfast takes a third less of the CPU than
+# veryfast, ultrafast two thirds, at some cost in picture at the same bitrate. The overlay is laid
+# on in yuv420 after converting it once a frame (format=auto took a fifth more). Measured on 60 s
+# of a sitting, 4 cores: x264 veryfast 7.9 s, superfast 5.0 s, ultrafast 2.8 s; the overlay 4.3 s.
+PRESET = os.environ.get("SEJMOMAT_PRESET", "superfast").strip() or "superfast"
+
+
 def ffmpeg_command(src, out, snapshot, fast=False):
     """The ffmpeg command: the stream read at normal speed and scaled to 1280x720,
     with the overlay (RGBA frames from this script, on stdin) laid over it; and,
@@ -509,14 +516,14 @@ def ffmpeg_command(src, out, snapshot, fast=False):
     bx, by, bw, bh = BAND
     scaled = f"[0:v]{FIT},fps={FPS}"
     if snapshot:
-        v = (f"{scaled},split=2[base][cap];[base][1:v]overlay=0:0:format=auto:eof_action=endall[v];"
+        v = (f"{scaled},split=2[base][cap];[1:v]format=yuva420p[ovl];[base][ovl]overlay=0:0:format=yuv420:eof_action=endall[v];"
              f"[cap]fps=1/{SNAP_EVERY},crop={bw}:{bh}:{bx}:{by}[band]")
     else:
-        v = f"{scaled}[base];[base][1:v]overlay=0:0:format=auto:eof_action=endall[v]"
+        v = f"{scaled}[base];[1:v]format=yuva420p[ovl];[base][ovl]overlay=0:0:format=yuv420:eof_action=endall[v]"
     # on a server (no terminal) the progress line once a minute, for the log
     quiet = [] if sys.stderr.isatty() else ["-stats_period", "60"]
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *quiet, *inputs, "-filter_complex", v, "-map", "[v]", "-map", "0:a?"]
-    enc = ["-c:v", "libx264", "-preset", "veryfast", "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
+    enc = ["-c:v", "libx264", "-preset", PRESET, "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
            "-pix_fmt", "yuv420p", "-g", "50", "-c:a", "aac", "-b:a", "128k", "-ar", "44100"]
     snap = ["-map", "[band]", "-f", "image2", "-start_number", "0", "-y", str(snapshot)] if snapshot else []
     if out == "preview":

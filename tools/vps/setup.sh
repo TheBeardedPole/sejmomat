@@ -25,6 +25,8 @@ if [ ! -f /etc/sejmomat-live.env ]; then
         '# SEJMOMAT_VIDEO_PROXY=http://203.0.113.5:8888' \
         '# the key the stream tells the site it is on air with (its SHA-256 in server/youtube-live.php):' \
         '# SEJMOMAT_LIVE_KEY=' \
+        '# x264 speed if the server cannot keep up ("behind real time" growing in the log): ultrafast' \
+        '# SEJMOMAT_PRESET=superfast' \
         '# vote links in the stream'"'"'s chat: the lines `python tools/live_chat.py auth` prints' \
         '# SEJMOMAT_YT_CLIENT_ID=' \
         '# SEJMOMAT_YT_CLIENT_SECRET=' \
