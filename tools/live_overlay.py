@@ -28,6 +28,9 @@ LIGHT_BLUE = (156, 195, 255)
 RED, GREEN = (255, 154, 154), (155, 232, 171)
 PANEL = (10, 16, 28, 214)
 CMP_BOX = (80, 72, W - 80, H - 36)   # a break's comparison: the hall stays visible around it
+TEXT_SIZE, TEXT_STEP = 24, 34          # the full-screen amendment: its lines' font size and step
+MINI_W, MINI_H = 360, 236              # a vote's result, small, bottom right, once the picture is back
+MINI_BOX = (W - 20 - MINI_W, H - 18 - MINI_H, W - 20, H - 18)
 CMP_ROWS, CMP_STEP = 214, 50          # its rows: the first label's height in the panel, and the step
 BOX_MIN, BOX_MAX = 460, 820   # the caption box in the bottom left: its width, as its text needs
 STILL = 1.7          # seconds into its turn after which a card stops moving
@@ -757,24 +760,186 @@ class Overlay:
             self._cards[skey] = (base, x0, y0)
         return base, x0, y0
 
-    def frame_scene(self, scene, clock=None):
+    def hall_scene(self, key, title, subtitle, seats, order, legend, t, length, badge=None, area=None, side=None):
+        """The Sejm's chamber over the hall in a break: every seat (seats: [(x, y, colour)], x and
+        y from 0 to 1 as on the Chancellery's plan, colour None for an empty seat), lit one after
+        another in `order` (seat indices) over the scene's first seconds, and under it a legend
+        whose figures rise with them: legend(p) -> [(colour, label)] for p from 0 to 1. A frame
+        draws only the seats new since the last (the panel kept between frames), and once all
+        are in the same frame stands still. area: where in the panel the seats go (x0, y0, x1, y1);
+        side(draw, t) draws more on each frame (the clubs beside a vote) and returns True once it
+        stands still."""
+        x0, y0, x1, y1 = CMP_BOX
+        pw, ph = x1 - x0, y1 - y0
+        GROW = 2.6   # seconds for all the seats to come in
+        p = clamp((t - 0.5) / GROW)
+        n = round(p * len(order))
+        st = self._cards.get(("hall", key))
+        if st is None:
+            for k in [k for k in self._cards if isinstance(k, tuple) and k[0] in ("hall", "hall-still")]:
+                del self._cards[k]
+            im = Image.new("RGBA", (pw, ph), (0, 0, 0, 0))
+            d = ImageDraw.Draw(im)
+            bg = (12, 20, 36)
+            d.rounded_rectangle((0, 0, pw - 1, ph - 1), 24, fill=bg + (236,))
+            for i in range(pw):   # the heading strip, as the lists have it
+                d.line((i, 0, i, 96), fill=mix(bg, ACCENT, 0.9 * (1 - i / pw) ** 0.7) + (236,))
+            d.rectangle((0, 96, pw, 99), fill=YELLOW + (255,))
+            d.text((36, 12), title.upper(), font=self.font(32, True), fill="white")
+            d.text((36, 76), self.fit(subtitle, self.font(18), pw - 72 - (240 if badge else 0)), font=self.font(18),
+                   fill=(215, 222, 235), anchor="lm")
+            if badge:
+                text, colour = badge
+                fb = self.font(20, True)
+                bw = fb.getlength(text)
+                d.rounded_rectangle((pw - 36 - bw - 24, 32, pw - 36, 68), 12, fill=colour + (255,))
+                d.text((pw - 36 - bw - 12, 50), text, font=fb, fill="white", anchor="lm")
+            # the seats' places: the plan fitted into the panel under the heading, above the legend
+            xs, ys = [q[0] for q in seats], [q[1] for q in seats]
+            ax0, ay0, ax1, ay1 = area or (40, 118, pw - 40, ph - 70)
+            sx = (ax1 - ax0) / (max(xs) - min(xs))
+            sy = (ay1 - ay0) / (max(ys) - min(ys))
+            k = min(sx, sy * 1.0)
+            ox = ax0 + ((ax1 - ax0) - (max(xs) - min(xs)) * k) / 2
+            oy = ay0 + ((ay1 - ay0) - (max(ys) - min(ys)) * k) / 2
+            size = max(6, round(k * 0.0095))
+            boxes = [(round(ox + (x - min(xs)) * k), round(oy + (y - min(ys)) * k)) for x, y, _ in seats]
+            for (bx, by), (_, _, c) in zip(boxes, seats):   # the empty plan, faint
+                d.rounded_rectangle((bx - size // 2, by - size // 2, bx + size // 2, by + size // 2), 2, fill=(36, 48, 70, 255))
+            st = {"im": im, "drawn": 0, "boxes": boxes, "size": size}
+            self._cards[("hall", key)] = st
+        if n >= len(order) and ("hall-still", key) in self._cards and 0.5 <= t <= length - 0.6:
+            return self._cards[("hall-still", key)]
+        d = ImageDraw.Draw(st["im"])
+        half = st["size"] // 2
+        for i in order[st["drawn"]:n]:   # only the seats new since the last frame
+            c = seats[i][2]
+            if c is None:
+                continue
+            bx, by = st["boxes"][i]
+            d.rounded_rectangle((bx - half, by - half, bx + half, by + half), 2, fill=c + (255,))
+        st["drawn"] = max(st["drawn"], n)
+        base = st["im"].copy()
+        bd = ImageDraw.Draw(base)
+        # the legend, its figures rising with the seats
+        f = self.font(19, True)
+        x = 40
+        for colour, label in legend(p):
+            bd.rounded_rectangle((x, ph - 46, x + 16, ph - 30), 4, fill=colour + (255,))
+            bd.text((x + 24, ph - 38), label, font=f, fill=(236, 238, 245), anchor="lm")
+            x += 24 + round(f.getlength(label)) + 28
+        done = side(bd, t) if side else True
+        if t < 0.5:
+            y0 += round((1 - ease_out_back(clamp(t / 0.5), 1.0)) * 40)
+            base.putalpha(base.getchannel("A").point(lambda v, k=clamp(t / 0.35): round(v * k)))
+        elif t > length - 0.6:
+            base.putalpha(base.getchannel("A").point(lambda v, k=clamp((length - t) / 0.6): round(v * k)))
+        elif n >= len(order) and done:
+            self._cards[("hall-still", key)] = (base, x0, y0)
+        return base, x0, y0
+
+    def text_scene(self, key, title, subtitle, rows, t, length, badge=None, fade=(True, True)):
+        """Lines of text over the hall, large (what an amendment changes, full screen): rows of
+        (colour, line), "w" white, "r" removed, "g" added. fade: (in, out), so pages in a row do not
+        each fade."""
+        x0, y0, x1, y1 = CMP_BOX
+        pw, ph = x1 - x0, y1 - y0
+        ck = ("text", key, title, subtitle, tuple(rows), badge)
+        im = self._cards.get(ck)
+        if im is None:
+            for k in [k for k in self._cards if isinstance(k, tuple) and k[0] == "text"]:
+                del self._cards[k]
+            im = Image.new("RGBA", (pw, ph), (0, 0, 0, 0))
+            d = ImageDraw.Draw(im)
+            bg = (12, 20, 36)
+            d.rounded_rectangle((0, 0, pw - 1, ph - 1), 24, fill=bg + (236,))
+            for i in range(pw):
+                d.line((i, 0, i, 96), fill=mix(bg, ACCENT, 0.9 * (1 - i / pw) ** 0.7) + (236,))
+            d.rectangle((0, 96, pw, 99), fill=YELLOW + (255,))
+            d.text((36, 12), self.fit(title.upper(), self.font(32, True), pw - 72 - (240 if badge else 0)),
+                   font=self.font(32, True), fill="white")
+            d.text((36, 76), self.fit(subtitle, self.font(18), pw - 72), font=self.font(18), fill=(215, 222, 235), anchor="lm")
+            if badge:
+                text, colour = badge
+                fb = self.font(20, True)
+                bw = fb.getlength(text)
+                d.rounded_rectangle((pw - 36 - bw - 24, 32, pw - 36, 68), 12, fill=colour + (255,))
+                d.text((pw - 36 - bw - 12, 50), text, font=fb, fill="white", anchor="lm")
+            colours = {"w": (235, 238, 245), "r": RED, "g": GREEN}
+            f = self.font(TEXT_SIZE)
+            for i, (c, line) in enumerate(rows):
+                if c in "rg":   # a faint band behind removed and added lines, as on the site
+                    d.rectangle((24, 124 + i * TEXT_STEP - 4, pw - 24, 124 + (i + 1) * TEXT_STEP - 6),
+                                fill=mix(bg, (200, 60, 60) if c == "r" else (50, 160, 80), 0.22) + (255,))
+                d.text((36, 124 + i * TEXT_STEP), line, font=f, fill=colours[c])
+            self._cards[ck] = im
+        if fade[0] and t < 0.4:
+            base = im.copy()
+            base.putalpha(base.getchannel("A").point(lambda v, k=clamp(t / 0.35): round(v * k)))
+            return base, x0, y0 + round((1 - ease_out_back(clamp(t / 0.4), 1.0)) * 30)
+        if fade[1] and t > length - 0.6:
+            base = im.copy()
+            base.putalpha(base.getchannel("A").point(lambda v, k=clamp((length - t) / 0.6): round(v * k)))
+            return base, x0, y0
+        return im, x0, y0
+
+    def mini_vote(self, key, title, subtitle, seats, totals, badge):
+        """A vote's result in a small window (MINI_BOX): its number and result, the chamber seat by
+        seat, the four totals. seats as for hall_scene; totals [(colour, label)]."""
+        ck = ("mini", key)
+        im = self._cards.get(ck)
+        if im is not None:
+            return im
+        for k in [k for k in self._cards if isinstance(k, tuple) and k[0] == "mini"]:
+            del self._cards[k]
+        im = Image.new("RGBA", (MINI_W, MINI_H), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        bg = (12, 20, 36)
+        d.rounded_rectangle((0, 0, MINI_W - 1, MINI_H - 1), 16, fill=bg + (230,))
+        for i in range(MINI_W):
+            d.line((i, 0, i, 50), fill=mix(bg, ACCENT, 0.9 * (1 - i / MINI_W) ** 0.7) + (230,))
+        d.rectangle((0, 50, MINI_W, 52), fill=YELLOW + (255,))
+        text, colour = badge
+        fb = self.font(14, True)
+        bw = fb.getlength(text)
+        d.rounded_rectangle((MINI_W - 14 - bw - 16, 10, MINI_W - 14, 34), 8, fill=colour + (255,))
+        d.text((MINI_W - 14 - bw - 8, 22), text, font=fb, fill="white", anchor="lm")
+        d.text((16, 8), self.fit(title.upper(), self.font(18, True), MINI_W - 50 - bw), font=self.font(18, True), fill="white")
+        d.text((16, 40), self.fit(subtitle, self.font(13), MINI_W - 32), font=self.font(13), fill=(215, 222, 235), anchor="lm")
+        xs, ys = [q[0] for q in seats], [q[1] for q in seats]
+        ax0, ay0, ax1, ay1 = 20, 62, MINI_W - 20, MINI_H - 52
+        k = min((ax1 - ax0) / (max(xs) - min(xs)), (ay1 - ay0) / (max(ys) - min(ys)))
+        ox = ax0 + ((ax1 - ax0) - (max(xs) - min(xs)) * k) / 2
+        oy = ay0 + ((ay1 - ay0) - (max(ys) - min(ys)) * k) / 2
+        for x, y, c in seats:
+            bx, by = round(ox + (x - min(xs)) * k), round(oy + (y - min(ys)) * k)
+            d.rectangle((bx - 1, by - 1, bx + 2, by + 2), fill=(c or (36, 48, 70)) + (255,))
+        f = self.font(14, True)
+        for i, (c, label) in enumerate(totals):   # two by two
+            x, y = 18 + (i % 2) * 168, MINI_H - 42 + (i // 2) * 20
+            d.rounded_rectangle((x, y - 5, x + 10, y + 5), 3, fill=c + (255,))
+            d.text((x + 16, y), label, font=f, fill=(236, 238, 245), anchor="lm")
+        self._cards[ck] = im
+        return im
+
+    def frame_scene(self, scene, clock=None, label="PRZERWA W OBRADACH"):
         """A frame of a break: the comparison over the hall, the Sejmomat logo top right. A scene
         standing still (the same image, from a cache) gives the same frame, not one composed anew."""
-        key = ("scene", id(scene[0]), scene[1], scene[2], clock)
+        key = ("scene", id(scene[0]), scene[1], scene[2], clock, label)
         if self._last[0] == key:
             return self._last[1]
         im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         if self.logo:
             im.alpha_composite(self.logo, (W - self.logo.width - 24, 22))
-        pill = self._cards.get("break-pill")
+        pill = self._cards.get(("pill", label))
         if pill is None:
             f = self.font(17, True)
-            text = "PRZERWA W OBRADACH"
+            text = label
             pill = Image.new("RGBA", (round(f.getlength(text)) + 40, 36), (0, 0, 0, 0))
             pd = ImageDraw.Draw(pill)
             pd.rounded_rectangle((0, 0, pill.width - 1, 35), 12, fill=(255, 212, 121, 255))
             pd.text((20, 18), text, font=f, fill=(12, 20, 36), anchor="lm")
-            self._cards["break-pill"] = pill
+            self._cards[("pill", label)] = pill
         im.alpha_composite(pill, (CMP_BOX[0], 22))
         if clock:   # beside the break's pill
             d = ImageDraw.Draw(im)
@@ -856,11 +1021,12 @@ class Overlay:
             base.putalpha(base.getchannel("A").point(lambda v, k=clamp((length - t) / 0.6): round(v * k)))
         return base, x0, y0
 
-    def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None, clock=None, chair=None):
+    def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None, clock=None, chair=None, mini=None):
         """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes.
         Most frames are the same as the one before (nothing moves): those are not redrawn."""
         which = None if card is None else next((k for k, c in self._stills.items() if c[1] is card), False)
-        key = ((item, topic, vote, chip, note, clock, chair), panel and (panel[0], tuple(panel[1])), which) if which is not False else None
+        key = ((item, topic, vote, chip, note, clock, chair), panel and (panel[0], tuple(panel[1])), which,
+               mini and (id(mini[0]), mini[1], mini[2])) if which is not False else None
         if key is not None and self._last[0] == key:
             return self._last[1]
         im = self.base(item, topic, vote, chip, note, chair).copy()
@@ -868,6 +1034,9 @@ class Overlay:
         if panel:
             p = self.panel(*panel)
             im.alpha_composite(p, (W - p.width - 24, 70))
+        if mini:
+            m, x, y = mini
+            im.alpha_composite(m, (x, y))
         if card:
             c, x, y = card
             if x < W:

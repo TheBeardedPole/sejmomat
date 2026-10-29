@@ -720,13 +720,15 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .sala-plan rect.q1 { fill: color-mix(in srgb, var(--accent) 12%, var(--surface)); }
 .sala-plan rect.q2 { fill: color-mix(in srgb, var(--accent) 32%, var(--surface)); }
 .sala-plan rect.q3 { fill: color-mix(in srgb, var(--accent) 52%, var(--surface)); }
-.sala-plan rect.q4 { fill: color-mix(in srgb, var(--accent) 74%, var(--surface)); }
+.sala-plan rect.q4 { fill: color-mix(in srgb, var(--accent) 62%, var(--surface)); }
 .sala-plan rect.q5 { fill: var(--accent); }
 .sala-sw.q1 { background: color-mix(in srgb, var(--accent) 12%, var(--surface)); border: 1px solid var(--line); }
 .sala-sw.q2 { background: color-mix(in srgb, var(--accent) 32%, var(--surface)); }
 .sala-sw.q3 { background: color-mix(in srgb, var(--accent) 52%, var(--surface)); }
-.sala-sw.q4 { background: color-mix(in srgb, var(--accent) 74%, var(--surface)); }
+.sala-sw.q4 { background: color-mix(in srgb, var(--accent) 62%, var(--surface)); }
 .sala-sw.q5 { background: var(--accent); }
+.sala-legend .sala-key { flex-wrap: wrap; }
+.sala-step { display: inline-flex; align-items: center; gap: 4px; margin-right: 8px; }
 .sala-legend .sala-key { gap: 4px; }
 .sala-plan.searching rect:not(.match) { opacity: .22; }
 .sala-plan rect.match { stroke: var(--text); stroke-width: 2.5; }
