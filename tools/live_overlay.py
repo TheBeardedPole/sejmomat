@@ -783,8 +783,8 @@ class Overlay:
             for i in range(pw):   # the heading strip, as the lists have it
                 d.line((i, 0, i, 96), fill=mix(bg, ACCENT, 0.9 * (1 - i / pw) ** 0.7) + (236,))
             d.rectangle((0, 96, pw, 99), fill=YELLOW + (255,))
-            d.text((36, 18), title.upper(), font=self.font(32, True), fill="white")
-            d.text((36, 74), self.fit(subtitle, self.font(18), pw - 72 - (240 if badge else 0)), font=self.font(18),
+            d.text((36, 12), title.upper(), font=self.font(32, True), fill="white")
+            d.text((36, 76), self.fit(subtitle, self.font(18), pw - 72 - (240 if badge else 0)), font=self.font(18),
                    fill=(215, 222, 235), anchor="lm")
             if badge:
                 text, colour = badge
@@ -854,9 +854,9 @@ class Overlay:
             for i in range(pw):
                 d.line((i, 0, i, 96), fill=mix(bg, ACCENT, 0.9 * (1 - i / pw) ** 0.7) + (236,))
             d.rectangle((0, 96, pw, 99), fill=YELLOW + (255,))
-            d.text((36, 18), self.fit(title.upper(), self.font(32, True), pw - 72 - (240 if badge else 0)),
+            d.text((36, 12), self.fit(title.upper(), self.font(32, True), pw - 72 - (240 if badge else 0)),
                    font=self.font(32, True), fill="white")
-            d.text((36, 74), self.fit(subtitle, self.font(18), pw - 72), font=self.font(18), fill=(215, 222, 235), anchor="lm")
+            d.text((36, 76), self.fit(subtitle, self.font(18), pw - 72), font=self.font(18), fill=(215, 222, 235), anchor="lm")
             if badge:
                 text, colour = badge
                 fb = self.font(20, True)
