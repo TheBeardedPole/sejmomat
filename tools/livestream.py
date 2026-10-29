@@ -54,7 +54,7 @@ from live_overlay import H, W, Overlay  # noqa: E402
 from live_speaker import BAND, Recogniser, load_mps, read  # noqa: E402
 import live_chat  # noqa: E402
 from sejmomat.facts import spread  # noqa: E402
-from sejmomat.social import club_short  # noqa: E402
+from sejmomat.social import club_short, shorten  # noqa: E402
 
 API = "https://api.sejm.gov.pl/sejm/term10"
 WARSAW = ZoneInfo("Europe/Warsaw")
@@ -289,6 +289,18 @@ def short_topic(topic):
     return (topic or "").rstrip(".")
 
 
+SUB_CHARS = 125   # about what a scene's subtitle line holds (18 px, the panel's width)
+
+
+def vote_topic(v):
+    """What a vote was on, for the scenes' subtitle: "poprawka 3 · ustawa o X", the
+    procedural ones by their plain name; the bill after it unless the topic is the bill."""
+    topic = short_topic(re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or ""))
+    # only an item that is a bill (a sitting's own votes, a break or the agenda, have the sitting as their item)
+    bill = live_chat.item(v) if re.search(r"projek|ustaw|uchwał", v.get("title") or "", re.I) else ""
+    return f"{topic} · {bill}" if bill and bill.lower() != topic.lower() else topic
+
+
 def captions(shown, tags, title):
     """(item lines, topic line, vote line) for the latest vote the picture has reached."""
     if not shown:
@@ -383,10 +395,11 @@ def _plain(html):
 
 
 def diff_panel(v, width=46, lines=None):
-    """(heading, [page of (colour, line)]) for a vote on amendments or minority motions:
-    what the first of them changes in the bill (removed lines red, added green), or its
-    text, in pages of DIFF_LINES - 1 lines; ("", []) otherwise. Needs the report prints
-    in data/prints (git pull)."""
+    """(heading, [page of (colour, line)], print number) for a vote on amendments or minority
+    motions: what the first of them changes in the bill (removed lines red, added green), or
+    its text, in pages of DIFF_LINES - 1 lines; ("", [], None) otherwise. The print holds
+    them all (sejmomat.pl/<print> opens its page). Needs the report prints in data/prints
+    (git pull)."""
     key = (v["sitting"], v["votingNumber"], width, lines)
     if key in _diffs and (_diffs[key][1][1] or time.time() - _diffs[key][0] < 60):
         return _diffs[key][1]
@@ -395,7 +408,7 @@ def diff_panel(v, width=46, lines=None):
         for f in vars(model).values():
             if hasattr(f, "cache_clear"):
                 f.cache_clear()
-    out = ("", [])
+    out = ("", [], None)
     try:
         linked = [a for a in link_amendments({**v, "prints": None}) if a["item"]]
     except Exception:
@@ -452,7 +465,7 @@ def diff_panel(v, width=46, lines=None):
         if len(pages) > MAX_PAGES:
             pages = pages[:MAX_PAGES]
             pages[-1] = pages[-1][:per - 1] + [("w", f"… dalej w druku nr {a['source']}")]
-        out = (f"Co zmienia {what} {a['number']}" + (f" (druk {a['source']})" if a["source"] else ""), pages)
+        out = (f"Co zmienia {what} {a['number']}" + (f" (druk {a['source']})" if a["source"] else ""), pages, a["source"])
     # nothing found is tried again a minute later: the report print may not be pulled yet
     _diffs[key] = (time.time(), out)
     return out
@@ -907,7 +920,7 @@ def main():
             return [(VOTE_COLOUR[c], f"{n.get(c, 0)} {names[c]}") for c in ("Y", "N", "A", "X")]
 
         ok = passed(v)
-        topic = short_topic(re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or ""))
+        topic = vote_topic(v)
         return overlay.hall_scene(("vote", v["sitting"], v["votingNumber"]), "Jak głosował Sejm",
                                   f"Głosowanie nr {v['votingNumber']}, {v['date'][11:16]} · {topic}", seats, hall["wave"], legend, t, length,
                                   badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)), note=reject_note(v))
@@ -972,7 +985,7 @@ def main():
             return q >= 1
 
         ok = passed(v)
-        topic = short_topic(re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or ""))
+        topic = vote_topic(v)
         return overlay.hall_scene(("result", v["sitting"], v["votingNumber"]), f"Głosowanie nr {v['votingNumber']}",
                                   f"{v['date'][11:16]} · {topic}", seats, hall["wave"], legend, t, length,
                                   badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)),
@@ -987,7 +1000,7 @@ def main():
         for c in code.values():
             n[c] = n.get(c, 0) + 1
         names = {"Y": "za", "N": "przeciw", "A": "wstrzymało się", "X": "nie głosowało"}
-        topic = short_topic(re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or ""))
+        topic = vote_topic(v)
         return overlay.mini_vote((v["sitting"], v["votingNumber"]), f"Głosowanie nr {v['votingNumber']}",
                                  f"{v['date'][11:16]} · {topic}", seats,
                                  [(VOTE_COLOUR[c], f"{n.get(c, 0)} {names[c]}") for c in ("Y", "N", "A", "X")],
@@ -1099,7 +1112,7 @@ def main():
         if nxt and hall and decisive(nxt):
             # the next vote on an amendment: its pages full screen, ending as the vote is taken
             to_go = (warsaw(nxt["date"]) - clock).total_seconds()
-            head, pages = diff_panel(nxt, FULL_WIDTH, FULL_LINES) if to_go < PAGE_CYCLE + RESULT_SECONDS else ("", [])
+            head, pages, src = diff_panel(nxt, FULL_WIDTH, FULL_LINES) if to_go < PAGE_CYCLE + RESULT_SECONDS else ("", [], None)
             if pages:
                 num = nxt["votingNumber"]
                 # the time it has: from the latest result's end (or when the vote is first known) to the vote
@@ -1114,7 +1127,10 @@ def main():
                     each = window / min(len(pages), max(1, int(window // PAGE_MIN)))
                     shown_pages = pages[:max(1, int(window // each))]
                     page = min(int(begun // each), len(shown_pages) - 1)
-                    sub = f"Głosowanie nr {num} za chwilę" + (f" · strona {page + 1}/{len(pages)}" if len(pages) > 1 else "")
+                    # which bill, where to read it all, then the vote: the bill's name cut to leave the rest whole
+                    rest = (f" · całość: sejmomat.pl/{src}" if src else "") + f" · głosowanie nr {num} za chwilę" \
+                        + (f" · strona {page + 1}/{len(pages)}" if len(pages) > 1 else "")
+                    sub = shorten(live_chat.item(nxt), SUB_CHARS - len(rest)) + rest
                     return overlay.frame_scene(overlay.text_scene(("diff", num, page), head, sub, shown_pages[page],
                                                                   begun - page * each, each,
                                                                   fade=(page == 0, False)), hhmm, "GŁOSOWANIE")
@@ -1148,7 +1164,7 @@ def main():
             mini = (img, x, y)
         elif recent and not floor:
             # votes going on: no cards; with the chamber, amendments are full screen before their vote
-            head, pages = diff_panel(shown[-1]) if not hall else ("", [])
+            head, pages, _ = diff_panel(shown[-1]) if not hall else ("", [], None)
             if pages:
                 each = max(PAGE_MIN, min(PAGE_SECONDS, PAGE_CYCLE / len(pages)))
                 page = int((clock - warsaw(shown[-1]["date"])).total_seconds() // each) % len(pages)

@@ -1152,6 +1152,11 @@ def run():
         "AddType application/json .json\n")
     (SITE / ".htaccess").write_text(
         "AddDefaultCharset UTF-8\n"
+        # short links to a print, said on the stream: sejmomat.pl/3242 -> druk/3242.html, also
+        # an additional report, sejmomat.pl/3242-A (a #poprawka-5 after it is kept by the browser
+        # through the redirect)
+        "<IfModule mod_rewrite.c>\n  RewriteEngine On\n"
+        "  RewriteRule ^([0-9]{1,5}(-[A-Z])?)/?$ /druk/$1.html [R=302,L]\n</IfModule>\n"
         "<IfModule mod_deflate.c>\n"
         "  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json application/xml\n"
         "</IfModule>\n"
