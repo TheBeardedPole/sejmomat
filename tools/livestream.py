@@ -323,6 +323,8 @@ PAGE_CYCLE = 30                                         # …and faster when the
 PAGE_MIN = 5                                            # called and held (about half a minute), but no faster than this
 MAX_PAGES = 6
 PAGE_STRETCH = 4                                        # a page may run this many lines over to keep a passage whole
+RESULT_SECONDS = 14                                     # after each vote: its result full screen, seat by seat and club by club
+FULL_WIDTH, FULL_LINES = 84, 10                         # then what an amendment changes, full screen: characters a line, lines a page
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
 # A break in the sitting: the broadcast holds its wide shot of the hall (tools/break/*.png,
 # thumbnails of it), with nobody named and no votes. Then the screen shows comparisons
@@ -377,12 +379,12 @@ def _plain(html):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", html)).strip()
 
 
-def diff_panel(v):
+def diff_panel(v, width=46, lines=None):
     """(heading, [page of (colour, line)]) for a vote on amendments or minority motions:
     what the first of them changes in the bill (removed lines red, added green), or its
     text, in pages of DIFF_LINES - 1 lines; ("", []) otherwise. Needs the report prints
     in data/prints (git pull)."""
-    key = (v["sitting"], v["votingNumber"])
+    key = (v["sitting"], v["votingNumber"], width, lines)
     if key in _diffs and (_diffs[key][1][1] or time.time() - _diffs[key][0] < 60):
         return _diffs[key][1]
     if key in _diffs:
@@ -402,10 +404,10 @@ def diff_panel(v):
         passages = []   # each a list of (colour, line), kept on one page where it fits
 
         def wrap(text, mark, colour):
-            return [(colour, line) for line in textwrap.wrap(f"{mark} {text}", 46, subsequent_indent="   ") or [mark]]
+            return [(colour, line) for line in textwrap.wrap(f"{mark} {text}", width, subsequent_indent="   ") or [mark]]
         changes = (it.get("bill_diff") or {}).get("changes") or []
         for ch in changes:
-            where = [("w", line) for line in textwrap.wrap(ch.get("where") or "", 46)]
+            where = [("w", line) for line in textwrap.wrap(ch.get("where") or "", width)]
             for r in ch.get("rows", []):
                 html = r["html"]
                 if r["state"] == "removed":
@@ -422,8 +424,8 @@ def diff_panel(v):
                     where = []
         if not passages:
             # no comparison with the bill: the amendment's own words
-            passages = [[("w", line)] for line in textwrap.wrap(_plain(it.get("text") or ""), 46)]
-        per = DIFF_LINES - 1
+            passages = [[("w", line)] for line in textwrap.wrap(_plain(it.get("text") or ""), width)]
+        per = (lines or DIFF_LINES) - 1
         pages, page = [], []
         for passage in passages:
             # a passage that fits on a page (stretched a little) is not split across pages
@@ -618,6 +620,7 @@ def main():
     threading.Thread(target=fetch_pool_photos, daemon=True).start()
     votes = []
     ballots = {}   # vote number -> {MP id: "Y" | "N" | "A" | "X"}, for the break's chamber scene
+    ballot_clubs = {}   # vote number -> {MP id: club}, as the vote records it
     want_ballots = set()   # votes the break would show seat by seat (a replay's latest is not the day's)
     lock = threading.Lock()
     VOTE_CODE = {"YES": "Y", "NO": "N", "ABSTAIN": "A", "ABSENT": "X"}
@@ -635,6 +638,7 @@ def main():
                     if num not in ballots:
                         one = get_or_none(f"votings/{n}/{num}")
                         if one and one.get("votes"):
+                            ballot_clubs[num] = {x["MP"]: x.get("club") or "niez." for x in one["votes"]}
                             ballots[num] = {x["MP"]: VOTE_CODE.get(x.get("vote"), "X") for x in one["votes"]}
             time.sleep(3)
             for _ in range(17):   # sooner when a break asks for a vote
@@ -899,6 +903,68 @@ def main():
                                   f"Głosowanie nr {v['votingNumber']}, {v['date'][11:16]} · {topic}", seats, hall["wave"], legend, t, length,
                                   badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)))
 
+    result_from = {}   # vote number -> seconds after the vote its result came on screen
+
+    def vote_result(v, t, length):
+        """A vote just taken, full screen: the chamber seat by seat on the left (as in a break),
+        on the right every club's votes (the largest club first, every club alike), the bars
+        growing once the seats are in."""
+        code, clubs = ballots[v["votingNumber"]], ballot_clubs[v["votingNumber"]]
+        rows = hall["rows"]
+        seats = [(x, y, VOTE_COLOUR.get(code.get(mp, ""), None) if mp else None) for x, y, mp in rows]
+        names = {"Y": "za", "N": "przeciw", "A": "wstrzymało się", "X": "nie głosowało"}
+        per = {}
+        for mp, c in code.items():
+            per.setdefault(clubs.get(mp, "niez."), {"Y": 0, "N": 0, "A": 0, "X": 0})[c] += 1
+        order = sorted(per, key=lambda c: (-sum(per[c].values()), c))
+        if len(order) > 10:   # the smallest together
+            rest = {"Y": 0, "N": 0, "A": 0, "X": 0}
+            for c in order[9:]:
+                for k in rest:
+                    rest[k] += per[c][k]
+            order = order[:9] + ["inni"]
+            per["inni"] = rest
+        biggest = max(sum(per[c].values()) for c in order)
+
+        def legend(p):
+            n = {}
+            for i in hall["wave"][:round(p * len(rows))]:
+                c = code.get(rows[i][2])
+                if c:
+                    n[c] = n.get(c, 0) + 1
+            return [(VOTE_COLOUR[c], f"{n.get(c, 0)} {names[c]}") for c in ("Y", "N", "A", "X")]
+
+        def side(d, t):
+            q = live_overlay.clamp((t - 1.0) / 2.0)
+            fb, fn = overlay.font(18, True), overlay.font(18)
+            x0, xb, bw = 612, 760, 150
+            cols = [935, 980, 1025, 1070]   # the four counts, right-aligned
+            top, bottom = 122, (live_overlay.CMP_BOX[3] - live_overlay.CMP_BOX[1]) - 80
+            step = min(44, (bottom - top - 30) / len(order))
+            for colour, x in zip(("Y", "N", "A", "X"), cols):
+                d.rounded_rectangle((x - 14, top + 2, x - 2, top + 14), 3, fill=VOTE_COLOUR[colour] + (255,))
+            for i, c in enumerate(order):
+                y = top + 30 + i * step + step / 2
+                label = "niezrzeszeni" if c.startswith("niez") else club_short(c)
+                d.text((x0, y), overlay.fit(label, fb, xb - x0 - 10), font=fb, fill=live_overlay.club_colour(c) if c != "inni" else (190, 198, 210), anchor="lm")
+                x = xb
+                for k in ("Y", "N", "A", "X"):
+                    w = per[c][k] / biggest * bw * q
+                    if w >= 1:
+                        d.rectangle((round(x), round(y - 9), round(x + w), round(y + 9)), fill=VOTE_COLOUR[k] + (255,))
+                    x += w
+                for k, cx in zip(("Y", "N", "A", "X"), cols):
+                    d.text((cx, y), str(round(per[c][k] * q)), font=fn if per[c][k] else fn,
+                           fill=(236, 238, 245) if per[c][k] else (110, 120, 138), anchor="rm")
+            return q >= 1
+
+        ok = passed(v)
+        topic = short_topic(re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or ""))
+        return overlay.hall_scene(("result", v["sitting"], v["votingNumber"]), f"Głosowanie nr {v['votingNumber']}",
+                                  f"{v['date'][11:16]} · {topic}", seats, hall["wave"], legend, t, length,
+                                  badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)),
+                                  area=(30, 118, 580, (live_overlay.CMP_BOX[3] - live_overlay.CMP_BOX[1]) - 70), side=side)
+
     def agenda_scene(shown, t, length, slot):
         """Porządek obrad: the whole agenda, nine items a page, a page every 10 s, going on from
         where it stopped the time before; items voted on today marked (nobody can tell from the
@@ -972,6 +1038,33 @@ def main():
             c = c or (compares[(k // 2) % len(compares)] if compares else None)
             if c:
                 return overlay.frame_scene(overlay.compare(c, into, length), hhmm)
+        # a vote just taken: its result full screen, then (an amendment) what it changes, full screen
+        if shown and hall and since_vote < RESULT_SECONDS + PAGE_CYCLE + 8 and (shown[-1].get("yes") or shown[-1].get("no")) \
+                and not (speaker["card"] and speaker["at"] > warsaw(shown[-1]["date"])):
+            v = shown[-1]
+            want_ballots.add(v["votingNumber"])
+            hhmm = f"{clock:%H:%M}"
+            num = v["votingNumber"]
+            # the result from when its ballots are in (a few seconds after the vote at most)
+            if num in ballot_clubs and since_vote < RESULT_SECONDS:
+                result_from.setdefault(num, since_vote)
+            start = result_from.get(num, 0 if since_vote >= RESULT_SECONDS else None)
+            if start is None:   # the ballots not in yet: the picture, a moment
+                pass
+            elif since_vote - start < RESULT_SECONDS and num in ballot_clubs:
+                return overlay.frame_scene(vote_result(v, since_vote - start, RESULT_SECONDS), hhmm, "GŁOSOWANIE")
+            head, pages = diff_panel(v, FULL_WIDTH, FULL_LINES) if start is not None else ("", [])
+            into = since_vote - start - (RESULT_SECONDS if num in result_from else 0) if start is not None else -1
+            if pages and 0 <= into:
+                each = max(PAGE_MIN, min(PAGE_SECONDS, PAGE_CYCLE / len(pages)))
+                page = int(into // each)
+                if page < len(pages):
+                    ok = passed(v)
+                    sub = f"Głosowanie nr {v['votingNumber']}, {v['date'][11:16]}" + (f" · strona {page + 1}/{len(pages)}" if len(pages) > 1 else "")
+                    return overlay.frame_scene(overlay.text_scene(("diff", v["votingNumber"], page), head, sub, pages[page],
+                                                                  into - page * each, each,
+                                                                  badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)),
+                                                                  fade=(page == 0, page == len(pages) - 1)), hhmm, "GŁOSOWANIE")
         item, topic, vote = captions(shown, tags, title)
         recent = shown and (clock - warsaw(shown[-1]["date"])).total_seconds() < QUIET
         chip = note = None
