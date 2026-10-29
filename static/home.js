@@ -903,6 +903,9 @@ if (typeof document !== "undefined") (() => {
       const cut = [0.2, 0.4, 0.6, 0.8].map((q) => vals[Math.floor(q * (vals.length - 1))]);
       steps[id] = { cut, min: vals[0], max: vals[vals.length - 1], median: vals[Math.floor(vals.length / 2)] };
     }
+    // turnout: most MPs are above 95%, so fifths would put 50% and 80% in one step; fixed steps instead
+    steps.turnout.cut = [0.6, 0.75, 0.9, 0.95];
+    steps.turnout.labels = ["< 60%", "60–75%", "75–90%", "90–95%", "> 95%"];
     const stepOf = (id, v) => 1 + steps[id].cut.filter((c) => v > c).length;
 
     const count = el("p", { className: "sala-count", ariaLive: "polite" });
@@ -949,8 +952,11 @@ if (typeof document !== "undefined") (() => {
       } else {
         const st = steps[view], show = v[3];
         count.textContent = L.salaRange.replace("{min}", show(st.min)).replace("{max}", show(st.max)).replace("{med}", show(st.median));
-        legend.replaceChildren(el("span", { className: "sala-key" }, L.salaLess,
-          ...[1, 2, 3, 4, 5].map((k) => el("span", { className: `sala-sw q q${k}` })), L.salaMore));
+        legend.replaceChildren(st.labels
+          ? el("span", { className: "sala-key" }, ...st.labels.map((t, k) => el("span", { className: "sala-step" },
+            el("span", { className: `sala-sw q q${k + 1}` }), t)))
+          : el("span", { className: "sala-key" }, L.salaLess,
+            ...[1, 2, 3, 4, 5].map((k) => el("span", { className: `sala-sw q q${k}` })), L.salaMore));
       }
       legend.append(el("span", { className: "sala-src", textContent: L.salaSource }));
       tabs.forEach((t) => t.setAttribute("aria-selected", String(t.dataset.view === view)));
