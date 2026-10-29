@@ -30,7 +30,9 @@ if [ ! -f /etc/sejmomat-live.env ]; then
         '# vote links in the stream'"'"'s chat: the lines `python tools/live_chat.py auth` prints' \
         '# SEJMOMAT_YT_CLIENT_ID=' \
         '# SEJMOMAT_YT_CLIENT_SECRET=' \
-        '# SEJMOMAT_YT_REFRESH_TOKEN=' > /etc/sejmomat-live.env
+        '# SEJMOMAT_YT_REFRESH_TOKEN=' \
+        '# seconds a vote message waits beyond the picture (YouTube shows the video later than chat):' \
+        '# SEJMOMAT_CHAT_LAG=12' > /etc/sejmomat-live.env
 fi
 chown root:sejmomat /etc/sejmomat-live.env
 chmod 640 /etc/sejmomat-live.env

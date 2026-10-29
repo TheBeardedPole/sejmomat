@@ -64,6 +64,9 @@ TOKEN_URL = "https://oauth2.googleapis.com/token"
 
 MAX_LEN = 200            # YouTube's chat box takes 200 characters
 POST_AFTER = 6           # seconds after the vote's moment: its result is on screen by then
+# and this much more on a stream (SEJMOMAT_CHAT_LAG): a frame drawn here reaches viewers after
+# ffmpeg's buffer, the encoder and YouTube's own delay, while a message shows at once
+CHAT_LAG = float(os.environ.get("SEJMOMAT_CHAT_LAG", "") or 12)
 AMEND_RUN_END = 180      # a run of votes (amendments, motions) this long after its last: posted, the run over
 GAP = 4                  # seconds between two messages at least
 FIND_EVERY = 15          # seconds between looks for the stream's chat while there is none
@@ -191,8 +194,8 @@ class Planner:
     at `clock` has reached and that were not given before. Votes before `start` are
     left out (the stream began after them)."""
 
-    def __init__(self, start, name=lambda t: t):
-        self.start, self.name = start, name
+    def __init__(self, start, name=lambda t: t, lag=0):
+        self.start, self.name, self.lag = start, name, lag
         self.done = set()   # vote numbers handled
         self.run = []       # votes going into one message: amendments waiting for their bill's final vote, or a run of motions
 
@@ -200,7 +203,7 @@ class Planner:
         out = []
         for v in sorted(votes, key=lambda v: v["votingNumber"]):
             num, at = v["votingNumber"], datetime.fromisoformat(v["date"]).replace(tzinfo=WARSAW)
-            if num in self.done or at + timedelta(seconds=POST_AFTER) > clock:
+            if num in self.done or at + timedelta(seconds=POST_AFTER + self.lag) > clock:
                 continue
             self.done.add(num)
             if at < self.start or not decisive(v):
@@ -221,7 +224,7 @@ class Planner:
                 out.append(message(v, (), self.name))
         if self.run:
             last = datetime.fromisoformat(self.run[-1]["date"]).replace(tzinfo=WARSAW)
-            if (clock - last).total_seconds() > AMEND_RUN_END:
+            if (clock - last).total_seconds() > AMEND_RUN_END + self.lag:
                 out.append(run_message(self.run))
                 self.run = []
         return out
@@ -286,7 +289,7 @@ class VoteChat:
 
     def __init__(self, clock, votes, start, name=lambda t: t):
         self.clock, self.votes = clock, votes
-        self.planner, self.chat, self.out = Planner(start, name), Chat(), queue.Queue()
+        self.planner, self.chat, self.out = Planner(start, name, CHAT_LAG), Chat(), queue.Queue()
         self.looked = 0
 
     def start(self):

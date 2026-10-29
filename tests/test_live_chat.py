@@ -66,6 +66,12 @@ class Messages(unittest.TestCase):
         self.assertEqual([m.rsplit("nr=", 1)[1] for m in out], ["3"])
         self.assertEqual(planner.due(votes, after(10)), [])                    # each vote once
 
+    def test_lag_holds_a_message_back(self):
+        votes = [vote(1, 1, "głosowanie nad całością projektu.")]
+        planner = live_chat.Planner(START, lag=12)
+        self.assertEqual(planner.due(votes, after(1)), [])                     # on screen, not yet in the chat
+        self.assertEqual(len(planner.due(votes, after(1, live_chat.POST_AFTER + 13))), 1)
+
     def test_fits_the_chat_box(self):
         long = "Pkt. 2 " + "Sprawozdanie Komisji o rządowym projekcie ustawy o zmianie ustawy " * 6
         topic = "głosowanie nad przyjęciem wniosku o wyrażenie zgody na pociągnięcie do odpowiedzialności karnej posła " * 2

@@ -286,6 +286,15 @@ class Overlay:
         self._photos[mp] = im
         return im
 
+    def card_photo(self, mp, photo):
+        """`photo` cut to the card's 132x166 (the top kept), drawn once per MP."""
+        key = ("card", mp)
+        if key not in self._photos:
+            scale = max(132 / photo.width, 166 / photo.height)
+            p = photo.resize((max(1, round(photo.width * scale)), max(1, round(photo.height * scale))), Image.LANCZOS)
+            self._photos[key] = p.crop(((p.width - 132) // 2, 0, (p.width - 132) // 2 + 132, 166))
+        return self._photos[key]
+
     def club_logo(self, club):
         """The club's logo from the Sejm's API (kept on disk, as the photos are), or None."""
         key = ("logo", club)
@@ -479,8 +488,11 @@ class Overlay:
         return self._place(base, t, length)
 
     def _place(self, base, t, length):
-        """Shrunk, in the bottom right corner, beside the caption box, sliding in and out."""
-        base = base.resize((round(base.width * CARD_SCALE), round(base.height * CARD_SCALE)), Image.LANCZOS)
+        """Shrunk, in the bottom right corner, beside the caption box, sliding in and out
+        (while it slides, shrunk the cheap way: it moves too fast for the difference to show)."""
+        moving = t < 0.6 or t > length - 0.5
+        base = base.resize((round(base.width * CARD_SCALE), round(base.height * CARD_SCALE)),
+                           Image.BILINEAR if moving else Image.LANCZOS)
         width, h = base.size
         x_end, y = W - width - 20, H - h - 18
         if t < 0.6:
@@ -555,9 +567,10 @@ class Overlay:
             if photo:
                 s = 0.6 + 0.4 * ease_out_back(clamp((t - 0.25) / 0.45), 2.4) if t < 0.7 else 1.0
                 pw, ph = max(1, round(132 * s)), max(1, round(166 * s))
-                scale = max(pw / photo.width, ph / photo.height)
-                p = photo.resize((max(1, round(photo.width * scale)), max(1, round(photo.height * scale))), Image.LANCZOS)
-                p = p.crop(((p.width - pw) // 2, 0, (p.width - pw) // 2 + pw, ph))
+                # the photo at the card's size once (LANCZOS from the full photo took the most
+                # of a frame, every frame of the entrance); the pop-in scales from that
+                full = self.card_photo(card["mp"], photo)
+                p = full if (pw, ph) == full.size else full.resize((pw, ph), Image.BILINEAR)
                 mask = Image.new("L", (pw, ph), 0)
                 ImageDraw.Draw(mask).rounded_rectangle((0, 0, pw - 1, ph - 1), 12, fill=255)
                 cx, cy = 22 + 66, 58 + 83
