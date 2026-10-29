@@ -240,6 +240,13 @@ Live on sejmomat.pl:
   Login: a Google Cloud project with the YouTube Data API v3, an OAuth client "Desktop app", its
   consent screen "In production" (in "Testing" the refresh token lapses after 7 days); `auth` signs in
   as @Sejmomat and prints the three `SEJMOMAT_YT_*` lines. Tests: `tests/test_live_chat.py`.
+  Messages wait `SEJMOMAT_CHAT_LAG` (12 s) more, as viewers see the video after the chat. With the
+  login, a live sitting's broadcast is also titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on
+  air (`keep_title`, `SEJMOMAT_YT_TITLE`). `broadcast "title"` makes an unlisted test broadcast with its
+  own key (`TEST_RTMP=… test-stream.sh "…" 8 chat`); `title "…"` renames the one live now.
+  On the 4-vCPU VPS the stream fell ~10 s a minute behind with x264 veryfast: now superfast
+  (`SEJMOMAT_PRESET`, ultrafast if still behind), overlay blended in yuv420, Tesseract on one thread at
+  nice 10. A steady "behind real time" is fine; a growing one is not.
 - **Clips of past sittings** (`tools/clips.py`, run on a Polish address, writes
   `clips/`, not in git): `list` (closest decisive votes, one per bill), `bill
   S:N` (the debate that led to the vote, the latest day up to it with 8+ speeches

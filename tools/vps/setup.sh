@@ -32,7 +32,9 @@ if [ ! -f /etc/sejmomat-live.env ]; then
         '# SEJMOMAT_YT_CLIENT_SECRET=' \
         '# SEJMOMAT_YT_REFRESH_TOKEN=' \
         '# seconds a vote message waits beyond the picture (YouTube shows the video later than chat):' \
-        '# SEJMOMAT_CHAT_LAG=12' > /etc/sejmomat-live.env
+        '# SEJMOMAT_CHAT_LAG=12' \
+        '# a sitting'"'"'s broadcast title once live ({n}: the sitting):' \
+        '# SEJMOMAT_YT_TITLE={n}. Posiedzenie Sejmu | Lepsza Transmisja' > /etc/sejmomat-live.env
 fi
 chown root:sejmomat /etc/sejmomat-live.env
 chmod 640 /etc/sejmomat-live.env

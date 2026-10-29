@@ -1234,6 +1234,9 @@ def main():
                 return list(votes)
         live_chat.VoteChat(lambda: now["clock"], votes_now, start, short_topic).start()
         print("czat: linki do głosowań włączone", flush=True)
+    # a live sitting: its broadcast titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on air
+    if args.out == "rtmp" and not args.at and n and live_chat.configured():
+        live_chat.keep_title(n)
     viewer = subprocess.Popen(["ffplay", "-hide_banner", "-loglevel", "warning", "-window_title", "Sejmomat", "-"],
                               stdin=proc.stdout) if preview else None
     try:

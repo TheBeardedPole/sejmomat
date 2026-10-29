@@ -9,6 +9,9 @@ by itself when it streams to the platform and the YouTube login is set:
     python tools/live_chat.py broadcast "Test"     # a new unlisted broadcast with its own stream key
     python tools/live_chat.py title "Nowy tytuł"   # the title of the broadcast live now
 
+A live sitting's broadcast is also titled by itself once on air: TITLE, "67. Posiedzenie
+Sejmu | Lepsza Transmisja" (SEJMOMAT_YT_TITLE to change it; replays and tests are left alone).
+
 Which votes: every vote but a quorum check, its result worded as on the vote's
 page (sejmomat/build.py: a motion to reject passed is a bill rejected, a Senate
 amendment stands unless the Sejm rejects it). Amendments and minority motions
@@ -71,6 +74,10 @@ AMEND_RUN_END = 180      # a run of votes (amendments, motions) this long after 
 GAP = 4                  # seconds between two messages at least
 FIND_EVERY = 15          # seconds between looks for the stream's chat while there is none
 KEEP_FOR = 300           # a message waits this long for the chat (a broadcast takes a while to go live)
+
+# a sitting's broadcast is given this title once it is live (SEJMOMAT_YT_TITLE, {n}: the sitting)
+TITLE = os.environ.get("SEJMOMAT_YT_TITLE", "").strip() or "{n}. Posiedzenie Sejmu | Lepsza Transmisja"
+TITLE_FOR = 900          # seconds the stream keeps looking for its broadcast to give it the title
 
 CLIENT_ID = os.environ.get("SEJMOMAT_YT_CLIENT_ID", "").strip()
 CLIENT_SECRET = os.environ.get("SEJMOMAT_YT_CLIENT_SECRET", "").strip()
@@ -255,12 +262,9 @@ class Chat:
 
     def find(self):
         """The chat of the broadcast live now, or None."""
-        got = self._call("GET", "liveBroadcasts", {"part": "snippet,status", "broadcastStatus": "active", "broadcastType": "all"})
-        # only one on air ("live", or "testing" before it goes public): the channel's default
-        # broadcast can be listed while idle, and its chat is not the stream's
-        items = sorted((b for b in got.get("items", []) if b.get("status", {}).get("lifeCycleStatus") in ("live", "testing")),
-                       key=lambda b: b["status"]["lifeCycleStatus"] != "live")
-        self.chat_id = next((b["snippet"]["liveChatId"] for b in items if b["snippet"].get("liveChatId")), None)
+        # only one on air: the channel's default broadcast can be listed while idle, and its chat is not the stream's
+        b = on_air(self)
+        self.chat_id = (b or {}).get("snippet", {}).get("liveChatId")
         return self.chat_id
 
     def send(self, text):
@@ -425,19 +429,56 @@ def broadcast(title, privacy="unlisted"):
     print(f"\nTEST_RTMP={ing['ingestionAddress']}/{ing['streamName']}")
 
 
+def on_air(yt):
+    """The channel's broadcast on air now (live, or testing before it goes public), or None."""
+    got = yt._call("GET", "liveBroadcasts", {"part": "snippet,status", "broadcastStatus": "active", "broadcastType": "all"})
+    items = sorted((b for b in got.get("items", []) if b.get("status", {}).get("lifeCycleStatus") in ("live", "testing")),
+                   key=lambda b: b["status"]["lifeCycleStatus"] != "live")
+    return items[0] if items else None
+
+
+def retitle(yt, b, title):
+    """Broadcast `b` under `title` (its description and start kept); the old title, or None if it had it."""
+    sn = b["snippet"]
+    if sn.get("title") == title[:100]:
+        return None
+    yt._call("PUT", "liveBroadcasts", {"part": "snippet"}, {"id": b["id"], "snippet": {
+        "title": title[:100], "description": sn.get("description", ""), "scheduledStartTime": sn["scheduledStartTime"]}})
+    return sn.get("title")
+
+
 def set_title(title):
-    """The title of the broadcast live now (its description and start kept)."""
+    """The title of the broadcast live now."""
     if not configured():
         sys.exit("The YouTube login is not set (python tools/live_chat.py auth).")
     yt = Chat()
-    got = yt._call("GET", "liveBroadcasts", {"part": "snippet", "broadcastStatus": "active", "broadcastType": "all"})
-    if not got.get("items"):
+    b = on_air(yt)
+    if not b:
         sys.exit("No broadcast live on the channel now.")
-    b = got["items"][0]
-    sn = b["snippet"]
-    yt._call("PUT", "liveBroadcasts", {"part": "snippet"}, {"id": b["id"], "snippet": {
-        "title": title[:100], "description": sn.get("description", ""), "scheduledStartTime": sn["scheduledStartTime"]}})
-    print(f"{sn['title']!r} -> {title[:100]!r}")
+    old = retitle(yt, b, title)
+    print(f"{old!r} -> {title[:100]!r}" if old is not None else f"already {title[:100]!r}")
+
+
+def keep_title(sitting):
+    """In the background, for livestream.py: once the sitting's broadcast is on air (the channel's
+    default key starts a new one under Studio's default title), the title TITLE, once. Looked for
+    every FIND_EVERY seconds for TITLE_FOR seconds; a failure costs the title, not the stream."""
+    title = TITLE.format(n=sitting)
+
+    def run():
+        yt, until = Chat(), time.time() + TITLE_FOR
+        while time.time() < until:
+            try:
+                b = on_air(yt)
+                if b:
+                    old = retitle(yt, b, title)
+                    print(f"tytuł: {title}" + (f" (był: {old})" if old else ""), flush=True)
+                    return
+            except Exception as e:
+                print(f"tytuł: nie ustawiono ({e})", file=sys.stderr, flush=True)
+            time.sleep(FIND_EVERY)
+        print("tytuł: transmisja się nie pojawiła, tytuł bez zmian", file=sys.stderr, flush=True)
+    threading.Thread(target=run, daemon=True).start()
 
 
 def test(text):
