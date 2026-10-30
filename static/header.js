@@ -129,6 +129,20 @@
       // as for the theme
     }
   };
+  // pages built before the "Wygląd" menu: the button switches light and dark, as it did
+  document.querySelectorAll(".theme-switch").forEach((btn) => {
+    if (btn.closest(".look")) return;
+    const sync = () => {
+      btn.setAttribute("aria-pressed", String(isDark()));
+      syncBar();
+    };
+    sync();
+    systemDark.addEventListener("change", sync);
+    btn.addEventListener("click", () => {
+      setTheme(isDark() ? "light" : "dark");
+      sync();
+    });
+  });
   // the "Wygląd" button opens a small menu with both choices
   document.querySelectorAll(".look").forEach((look) => {
     const btn = look.querySelector(".theme-switch"), menu = look.querySelector(".look-menu");
