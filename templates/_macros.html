@@ -1,3 +1,11 @@
+{# "Jak liczymy?", "Skąd są dane?": the explanation under a section's one visible sentence,
+   folded (static/style.css .how). Definitions, thresholds, exceptions and sources go in;
+   what changes how a result reads stays outside. One per section.
+   {% call how(_("Jak liczymy?")) %}<p>…</p>{% endcall %} #}
+{% macro how(label) -%}
+<details class="how"><summary>{{ label }}</summary><div class="how-body">{{ caller() }}</div></details>
+{%- endmacro %}
+
 {# Tags (data/tags.json) as small labels linking to their topic pages. #}
 {% macro tag_chips(tags, root) -%}
 {% if tags %}<span class="tags">{% for t in tags %}<a class="tag" href="{{ root }}temat/{{ t | tag_slug }}.html" lang="pl">{{ t }}</a>{% endfor %}</span>{% endif %}
@@ -55,13 +63,13 @@
 {% for b in blocks %}{% set bi = loop.index %}
 <details class="law"{% if nav %} id="{{ nav }}-{{ bi }}"{% endif %}{% if open_first and loop.first %} open{% endif %}>
   <summary><strong lang="pl">{% if b.cite.name %}{{ "ustawa " if b.cite.name.startswith("o ") else "" }}{{ b.cite.name }}{% else %}Dz. U. {{ b.cite.year or b.cite.ayear }} poz. {{ b.cite.pos }}{% endif %}</strong>
-    <span class="muted">— {{ b.changes | length }} {{ _("zmian") }}</span></summary>
+    <span class="muted">· {{ b.changes | length }} {{ b.changes | length | plural(_("zmiana"), _("zmiany"), _("zmian")) }}</span></summary>
   <p class="note">
     <a href="{{ act_url(b.eli) }}">Dz. U. {{ b.cite.year or b.cite.ayear }} poz. {{ b.cite.pos }}</a>
     {% if b.meta and b.meta.title and b.meta.type == "Obwieszczenie" %} · {{ _("tekst jednolity") }}{% if b.meta.announcementDate %} {{ b.meta.announcementDate | date_pl }}{% endif %}{% endif %}
     {% set later = ((b.meta or {}).get("references") or {}).get("Nowelizacje po tekście jednolitym") or [] %}
     {% if later %}<br><span class="warn-text">{{ _("Uwaga: późniejsze nowelizacje mogą nie być uwzględnione") }}: {% for r in later %}{{ r.id | replace("DU/", "") | replace("/", " poz. ") }}{{ ", " if not loop.last }}{% endfor %}.</span>{% endif %}
-    {% if not b.loaded %}<br><span class="muted">{{ _("Tekst ustawy nie został jeszcze pobrany — pokazujemy tylko nowe brzmienie.") }}</span>{% endif %}
+    {% if not b.loaded %}<br><span class="muted">{{ _("Tekst ustawy nie został jeszcze pobrany; pokazujemy tylko nowe brzmienie.") }}</span>{% endif %}
   </p>
   {% for c in b.changes %}
   <div class="diff law-change" lang="pl"{% if nav %} id="{{ nav }}-{{ bi }}-{{ loop.index }}"{% endif %}>
@@ -76,10 +84,10 @@
 {% macro bill_diff(bd, root, printed) -%}
 <div class="bill-diff">
   <p class="note">{{ _("Porównanie z projektem według") }} {{ print_link(bd.base, root, printed, none, _("druku nr") ~ " " ~ bd.base) }}:
-    <span class="r-legend"><del>{{ _("usunięte") }}</del> <ins>{{ _("dodane") }}</ins> <span class="muted">{{ _("szare — sąsiednie przepisy") }}</span></span></p>
+    <span class="r-legend"><del>{{ _("usunięte") }}</del> <ins>{{ _("dodane") }}</ins> <span class="muted">{{ _("szare: sąsiednie przepisy") }}</span></span></p>
   {% for c in bd.changes %}
   <div class="diff law-change" lang="pl">
-    <span class="where">{{ c.where }}{% if not c.found %} · <span class="warn-text">{% if c.pending %}{{ _("przepis dodawany inną zmianą — brak w projekcie") }}{% else %}{{ _("nie odnaleziono przepisu w projekcie") }}{% endif %}</span>{% endif %}</span>
+    <span class="where">{{ c.where }}{% if not c.found %} · <span class="warn-text">{% if c.pending %}{{ _("przepis dodawany inną zmianą, brak go w projekcie") }}{% else %}{{ _("nie odnaleziono przepisu w projekcie") }}{% endif %}</span>{% endif %}</span>
     <div class="rows">{{ c.html | safe }}</div>
   </div>
   {% endfor %}

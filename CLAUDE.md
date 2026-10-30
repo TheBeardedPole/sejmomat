@@ -28,6 +28,21 @@ it and where things stand. Keep it free of personal data.
   days). Large one-off downloads are run locally, not in CI, and the
   resulting `data/` is committed.
 
+## Writing copy for the site
+
+From the content audit of 28 October 2026 (Clear Writing): keep what a reader sees at once short.
+
+- A section opens with one sentence on what its table or chart shows, with a figure if there is one.
+- Definitions, thresholds, exceptions and sources go under the shared expander:
+  `{% call how(_("Jak liczymy?")) %}<p>…</p>{% endcall %}` (`templates/_macros.html`; also
+  "Skąd są dane?", "Co oznaczają kolumny?"), one per section. What changes how a result reads
+  (e.g. "za" meaning rejection of a Senate amendment) stays visible.
+- No "Kliknij…" / "Najedź…" instructions; no em dashes in new copy (colon, comma or full stop);
+  numbers in sentences through `plural`; "niezrzeszony" rather than "niez." where there is room.
+- Card and ranking titles state the fact ("Najwięcej…", "Najmniej…"), the same way for every club.
+- Changing a Polish string changes its English key in `sejmomat/i18n.py` too (the build lists
+  untranslated strings).
+
 ## State (14 October 2026)
 
 Live on sejmomat.pl:
@@ -214,6 +229,24 @@ Live on sejmomat.pl:
   stream server and *.blueonline.tv).
   Captions name the item from the vote's own title: the API's agenda is the planned
   one (several lists, each from 1) and items are renumbered at the sitting.
+- **Vote links in the stream's chat** (`tools/live_chat.py`, started by `livestream.py` when it
+  streams to RTMP live, or a replay with `--announce`, and the YouTube login is in
+  `/etc/sejmomat-live.env`; `--no-chat` turns it off): a message per vote as the picture reaches it
+  (`POST_AFTER` 6 s), worded by `build.motion`/`build.outcome` (a passed Senate-amendment vote is the
+  amendment rejected), linking `glosowanie-na-zywo.html`. Amendments go into their bill's final-vote
+  line; a run with no final vote (the Senate's) and a run of "skrócenie terminu" motions get one
+  message each. 22 October 2026: 260 votes, 56 messages, about 1,100 of the 10,000 daily quota units
+  (20 a message). `preview <sitting>` shows the messages, nothing sent; `test "text"` sends one.
+  Login: a Google Cloud project with the YouTube Data API v3, an OAuth client "Desktop app", its
+  consent screen "In production" (in "Testing" the refresh token lapses after 7 days); `auth` signs in
+  as @Sejmomat and prints the three `SEJMOMAT_YT_*` lines. Tests: `tests/test_live_chat.py`.
+  Messages wait `SEJMOMAT_CHAT_LAG` (12 s) more, as viewers see the video after the chat. With the
+  login, a live sitting's broadcast is also titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on
+  air (`keep_title`, `SEJMOMAT_YT_TITLE`). `broadcast "title"` makes an unlisted test broadcast with its
+  own key (`TEST_RTMP=… test-stream.sh "…" 8 chat`); `title "…"` renames the one live now.
+  On the 4-vCPU VPS the stream fell ~10 s a minute behind with x264 veryfast: now superfast
+  (`SEJMOMAT_PRESET`, ultrafast if still behind), overlay blended in yuv420, Tesseract on one thread at
+  nice 10. A steady "behind real time" is fine; a growing one is not.
 - **Clips of past sittings** (`tools/clips.py`, run on a Polish address, writes
   `clips/`, not in git): `list` (closest decisive votes, one per bill), `bill
   S:N` (the debate that led to the vote, the latest day up to it with 8+ speeches
@@ -253,6 +286,26 @@ Live on sejmomat.pl:
 - **Posłowie z regionu** (`facts.regions`): a card per constituency with its MPs and their
   speeches, five a page; shown once per speech while one of them speaks, before their club's
   cards. Captions are snapshotted every second (some are readable for little more than one).
+
+- **Home page as a dashboard** (28 October 2026): was/now/next, "Ważne dla Ciebie" (link to
+  `wydarzenia.html`, every event in the reader's topics), suggested MPs (short cards of one size;
+  "Zobacz więcej" opens `posel/N.html?tematy=…` with a "W Twoich tematach" panel,
+  `static/mp-topics.js`), and a "Grafiki do udostępnienia" window (`static/share.js`: a voting
+  day, club or MP, or two MPs / two clubs side by side, drawn by `static/card.js`, now a module).
+  The latest sitting moved to `ostatnie-posiedzenie.html`. The home page's player opens only on
+  "Oglądaj transmisję" (`live_box(on_request=true)`). Header: full width, search always a field,
+  sections behind Menu below 1280px. Breaks of the club line are neutral everywhere (no red, no
+  side lit as a winner in comparisons; overlay rows `"better": "none"`).
+
+- **Seating plan on the home page** (`dane/sala.json`, `static/home.js` drawHall): every seat as in the
+  Chancellery's plan (`data/seating.json`, read by `python tools/seating.py <plan.pdf>`, which prints
+  anything it could not place; redo it when the Sejm publishes a new plan), MPs with a score of 4 or more
+  in the reader's topics marked in three strengths (`interests.scored_mps`), the rest named on hover;
+  foldable, the choice kept in localStorage (`sejmomat-sala`).
+- **Support window** (`static/app.js` showSupport): once a day after 3 minutes on the site with consent
+  (time counted in `sejmomat-support`), after 3 minutes on one page without it (nothing stored); the
+  monthly support against the tiers (150, 200, 550 zł) from `static/wsparcie.json`, edited by hand
+  (a push publishes it in a minute).
 
 Waiting on the owner:
 

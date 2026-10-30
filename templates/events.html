@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
+{% from "_for_you.html" import for_you with context %}
+{# Every event in the reader's topics from the last days, by sitting (static/home.js,
+   page "feed"); the home page shows only the weightiest few. #}
+{% block title %}{{ _("Wydarzenia w Twoich tematach") }}{% endblock %}
+{% block description %}{{ _("Głosowania, etapy prac nad projektami i punkty porządku obrad w tematach, które obserwujesz.") }}{% endblock %}
+{% block content %}
+{{ crumbs(root, [], _("Wydarzenia w Twoich tematach")) }}
+<h1>{{ _("Wydarzenia w Twoich tematach") }}</h1>
+<noscript><p>{{ _("Ta strona działa w przeglądarce: tematy, które obserwujesz, zostają tylko u Ciebie. Włącz JavaScript, by ją zobaczyć.") }}</p></noscript>
+{{ for_you("feed") }}
+<script src="{{ site_root }}static/home.js?v={{ static_version('home.js') }}" defer></script>
+{% endblock %}

@@ -151,3 +151,23 @@ test("suggested MPs: the best of each club, independents as one", () => {
     mps: { 1: { club: "A" }, 2: { club: "A" }, 3: { club: "B" }, 4: { club: "" }, 5: { club: "niez." } } };
   assert.deepEqual(H.suggestMps(data, ["z"]).map((r) => r.id), [1, 3, 4]);
 });
+
+test("suggested MPs rotate: one of each club's best three, clubs shuffled", () => {
+  const row = (id, score) => ({ id, score, why: [] });
+  const data = {
+    mps: { 1: { club: "A" }, 2: { club: "A" }, 3: { club: "A" }, 4: { club: "A" }, 5: { club: "B" }, 6: { club: "C" } },
+    suggested: { z: [row(1, 9), row(2, 8), row(3, 7), row(4, 6), row(5, 5), row(6, 1)] },
+  };
+  const pools = H.mpPools(data, ["z"]);
+  assert.deepEqual(pools.A.map((r) => r.id), [1, 2, 3]);   // the fourth of club A is left out
+  assert.deepEqual(pools.B.map((r) => r.id), [5]);
+  // a fixed sequence of "random" numbers: always the last of each pool, order reversed
+  const seq = (xs) => { let i = 0; return () => xs[i++ % xs.length]; };
+  const picked = H.rotate(pools, seq([0.99]));
+  assert.equal(picked.length, 3);
+  assert.deepEqual(new Set(picked.map((r) => r.id)), new Set([3, 5, 6]));
+  // over many visits every one of club A's three comes up
+  const seen = new Set();
+  for (let i = 0; i < 200; i++) seen.add(H.rotate(pools).find((r) => data.mps[r.id].club === "A").id);
+  assert.deepEqual([...seen].sort(), [1, 2, 3]);
+});

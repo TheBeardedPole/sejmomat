@@ -228,11 +228,48 @@ const suggestMps = (data, ids, n = Infinity) => {
     .slice(0, n);
 };
 
+// The same, every club's best few (up to `k`), for a pick that changes on each visit:
+// {club: [rows best first]}, clubs in no particular order.
+const mpPools = (data, ids, k = 3) => {
+  const total = new Map();
+  for (const id of ids) {
+    for (const row of data.suggested?.[id] || []) {
+      const t = total.get(row.id) || { id: row.id, score: 0, topics: [], why: [] };
+      t.score += row.score;
+      t.topics.push(id);
+      for (const w of row.why) {
+        const key = w.k === "committee" ? `c:${w.code}` : w.k === "questions" ? `q:${w.to.join("|")}` : `b:${w.root}:${id}`;
+        if (!t.why.some((x) => x.key === key)) t.why.push({ ...w, key, topic: id });
+      }
+      total.set(row.id, t);
+    }
+  }
+  const pools = {};
+  for (const r of [...total.values()].sort((a, b) => b.score - a.score || a.id - b.id)) {
+    const club = data.mps?.[r.id] ? data.mps[r.id].club || "niez." : `#${r.id}`;
+    (pools[club] ||= []);
+    if (pools[club].length < k) pools[club].push(r);
+  }
+  return pools;
+};
+// One MP from each club's pool, at random, and the clubs in a random order (no side
+// first): a different set on every visit. rand: () => [0, 1), Math.random by default.
+const shuffle = (list, rand = Math.random) => {
+  const out = [...list];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+};
+const rotate = (pools, rand = Math.random) =>
+  shuffle(Object.values(pools).filter((p) => p.length).map((p) => p[Math.floor(rand() * p.length)]), rand);
+
 if (typeof module !== "undefined") {
   module.exports = {
     warsawNow, formatWhen, formatDay, dateRange, plural, daysBetween, pickBroadcasts, hasSegments, firstVariant, streamIsOn, broadcastState,
     readInterests, writeInterests, saveInterests, confirmInterests, skipInterests, reminderDue,
-    eventsFor, highlights, feedGroups, suggestMps, INTERESTS_KEY, REMIND_DAYS,
+    eventsFor, highlights, feedGroups, suggestMps, mpPools, rotate, shuffle, INTERESTS_KEY, REMIND_DAYS,
   };
 }
 
@@ -268,6 +305,12 @@ if (typeof document !== "undefined") (() => {
     check: '<path d="M20 6L9 17l-5-5"/>',
     info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/>',
     close: '<path d="M18 6L6 18M6 6l12 12"/>',
+    left: '<path d="M15 18l-6-6 6-6"/>',
+    right: '<path d="M9 18l6-6-6-6"/>',
+    edit: '<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/>',
+    committee: '<path d="M3 21h18"/><path d="M5 21V10M19 21V10M9 21V10M15 21V10"/><path d="M2 10 12 3l10 7z"/>',
+    question: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>',
+    bill: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h5"/>',
   };
 
   // ---- was / now / next: the broadcast in the middle column
@@ -285,7 +328,47 @@ if (typeof document !== "undefined") (() => {
     const hour = (iso) => iso.slice(11, 16);
     let checking = false;
 
+    // the player below opens only when asked for (static/live.js, data-on-request): this
+    // button asks, and the link then scrolls to it
+    const watchHere = () => {
+      const a = link("#na-zywo", L.watch, false, { className: "btn" });
+      a.addEventListener("click", () => document.dispatchEvent(new CustomEvent("sejmomat:watch")));
+      return a;
+    };
+    // Folded by default to a slim bar across the strip: what is on (or when the next broadcast
+    // is) in one line, a button to unfold the column; the choice is kept like the theme.
+    const NOW_KEY = "sejmomat-transmisja";
+    let nowOpen = false;
+    try { nowOpen = localStorage.getItem(NOW_KEY) === "open"; } catch { /* folded */ }
     const render = (s, checkedAt) => {
+      renderFull(s, checkedAt);
+      const live = s.state === "live" || s.state === "ours";
+      const title = box.querySelector(".wg-title")?.textContent || box.querySelector(".wg-sub")?.textContent || "";
+      const sub = box.querySelector(".wg-title") ? box.querySelector(".wg-sub")?.textContent : "";
+      const full = el("div", { className: "wg-now-body", id: "wg-now-body" }, [...box.childNodes]);
+      const btn = el("button", { type: "button", className: "lnk wg-now-toggle" });
+      btn.setAttribute("aria-controls", "wg-now-body");
+      const bar = el("div", { className: "wg-now-bar" },
+        live ? el("span", { className: "live-badge" }, el("span", { className: "live-dot", ariaHidden: "true" }), L.liveBadge)
+          : el("span", { className: "wg-now-icon", ariaHidden: "true" }, svg(ICON.tv, 16)),
+        el("span", { className: "wg-now-line" }, el("strong", { textContent: title }), sub ? el("span", { className: "muted", textContent: ` · ${sub}` }) : null),
+        btn);
+      const set = (open) => {
+        nowOpen = open;
+        full.hidden = !open;
+        box.classList.toggle("folded", !open);
+        wg?.classList.toggle("now-folded", !open);
+        btn.setAttribute("aria-expanded", String(open));
+        btn.textContent = open ? L.fold : L.unfold;
+      };
+      btn.addEventListener("click", () => {
+        set(!nowOpen);
+        try { localStorage.setItem(NOW_KEY, nowOpen ? "open" : "closed"); } catch { /* lasts for this page */ }
+      });
+      box.replaceChildren(bar, full);
+      set(nowOpen);
+    };
+    const renderFull = (s, checkedAt) => {
       const v = s.video;
       const official = v?.playerLink || box.dataset.itv;
       const parts = [];
@@ -301,7 +384,7 @@ if (typeof document !== "undefined") (() => {
         parts.push(el("p", { className: "wg-sub", textContent: L.oursSub }));
         const here = document.getElementById("na-zywo");
         parts.push(el("div", { className: "wg-actions" }, here
-          ? link("#na-zywo", L.watch, false, { className: "btn" })
+          ? watchHere()
           : link(`${box.dataset.schedule}#teraz`, L.watch, false, { className: "btn" })));
         box.replaceChildren(...parts);
         return;
@@ -321,7 +404,7 @@ if (typeof document !== "undefined") (() => {
         // our own player, when the page has it (static/live.js), else the Sejm's
         const ours = v.type === PLENARY && document.getElementById("na-zywo");
         const actions = el("div", { className: "wg-actions" }, ours
-          ? link("#na-zywo", L.watch, false, { className: "btn" })
+          ? watchHere()
           : link(`${box.dataset.schedule}#teraz`, L.watch, false, { className: "btn" }));
         if (s.others.length) {
           const n = s.others.length;
@@ -350,7 +433,7 @@ if (typeof document !== "undefined") (() => {
           parts.push(kicker(ICON.tv, L.kicker));
           parts.push(el("p", { className: "wg-title", textContent: L.noneNow }));
           if (s.state === "next") {
-            parts.push(el("p", { className: "wg-sub" }, `${L.nextIs}: ${formatDay(v.startDateTime, LANG)}, ${L.at} ${hour(v.startDateTime)} — `,
+            parts.push(el("p", { className: "wg-sub" }, `${L.nextIs}: ${formatDay(v.startDateTime, LANG)}, ${L.at} ${hour(v.startDateTime)}: `,
               el("span", { lang: "pl", textContent: v.title }), "."));
             const np = s.nextPlenary;
             if (np) {
@@ -361,7 +444,7 @@ if (typeof document !== "undefined") (() => {
           } else {
             // known only from the calendar of sittings, which gives no hour
             const name = nextNumber ? (LANG === "en" ? `Sejm sitting ${nextNumber}` : `${nextNumber}. posiedzenie Sejmu`) : L.sittingPlain;
-            parts.push(el("p", { className: "wg-sub", textContent: `${L.nextIs}: ${formatDay(nextDay, LANG)} — ${name}. ${L.hourLater}` }));
+            parts.push(el("p", { className: "wg-sub", textContent: `${L.nextIs}: ${formatDay(nextDay, LANG)}: ${name}. ${L.hourLater}` }));
           }
           parts.push(el("div", { className: "wg-actions" }, link(box.dataset.schedule, `${L.schedule} →`, false, { className: "btn2" })));
         } else {
@@ -410,6 +493,9 @@ if (typeof document !== "undefined") (() => {
   // ---- interests
   const home = document.getElementById("dla-ciebie");
   if (!home) return;
+  // "home": what matters to the reader and MPs to know (the home page); "feed": every
+  // event in their topics (wydarzenia.html); "mps": every suggested MP (poslowie-dla-ciebie.html)
+  const PAGE = home.dataset.page || "home";
   const L = JSON.parse(home.dataset.labels);
   const ROOT = home.dataset.root || "";
   const today = warsawNow().slice(0, 10);
@@ -452,7 +538,9 @@ if (typeof document !== "undefined") (() => {
     });
     return section(id, title, el("div", { className: "placeholder" }, el("p", { textContent: text }), a));
   };
-  const placeholders = () => [placeholder("twoje-tematy", L.feedTitle, L.feedEmpty), placeholder("poslowie-tematy", L.mpsTitle, L.mpsStart)];
+  const placeholders = () => (PAGE === "feed"
+    ? [placeholder("twoje-tematy", L.feedTitle, L.feedEmpty)]
+    : PAGE === "mps" ? [] : [placeholder("poslowie-tematy", L.mpsTitle, L.mpsStart)]);
 
   // the survey: first visit, "Zmień tematy", or "Tak, chcę je zmienić"
   function showForm(selected, focus = true) {
@@ -466,8 +554,7 @@ if (typeof document !== "undefined") (() => {
       count.textContent = n === 0 ? L.count0 : n === 1 ? L.count1 : plural(n, ["", L.countFew, L.countMany]).replace("{n}", n);
     };
     const chips = names.map((i) => {
-      const b = el("button", { type: "button", className: "toggle-chip" },
-        el("span", { className: "ck", ariaHidden: "true" }, svg(ICON.check, 12, 3)), el("span", { textContent: i[LANG] }));
+      const b = el("button", { type: "button", className: "toggle-chip" }, el("span", { textContent: i[LANG] }));
       b.setAttribute("aria-pressed", String(picked.has(i.id)));
       b.addEventListener("click", () => {
         if (picked.has(i.id)) picked.delete(i.id);
@@ -496,7 +583,7 @@ if (typeof document !== "undefined") (() => {
       show({ focus: true });
     });
     update();
-    home.replaceChildren(form, ...(editing ? [] : placeholders()));
+    home.replaceChildren(form, ...(editing ? [] : [...(PAGE === "home" ? [hallBox()] : []), ...placeholders()]));
     home.hidden = false;
     if (focus) focusSoon(chips[0]);
   }
@@ -525,16 +612,13 @@ if (typeof document !== "undefined") (() => {
     b.addEventListener("click", () => showForm(state?.ids || []));
     return b;
   };
+  // the same, as a pencil beside the topics followed
+  const editIcon = () => {
+    const b = el("button", { type: "button", className: "icon-btn", title: L.edit, ariaLabel: L.edit }, svg(ICON.edit, 16));
+    b.addEventListener("click", () => showForm(state?.ids || []));
+    return b;
+  };
 
-  // why an event is here: the topics and what tied it to them
-  const whyText = (e) => Object.entries(e.mine).map(([id, reasons]) => {
-    const how = reasons.map(([k, v]) => {
-      if (k === "tag") return v;
-      const name = data.committees[v] || v;
-      return /^(Komisja|Committee)/.test(name) ? name : `${L.committee} ${name}`;
-    });
-    return `${nameOf(id)} (${how.join(", ")})`;
-  }).join("; ");
   const statusOf = (e) => (LANG === "en" ? e.se : e.s);
   const badgeOf = (e, text = statusOf(e)) => (text
     ? el("span", { className: `badge ${e.o === "adopted" ? "adopted" : e.o === "rejected" ? "rejected" : "neutral"}`, textContent: text })
@@ -554,33 +638,30 @@ if (typeof document !== "undefined") (() => {
 
   // "Ważne dla Ciebie": a card per bill
   const card = (e) => {
+    // a wide, low tile: what happened on the left; the result, its numbers and the link on the right
     const ids = Object.keys(e.mine);
     const kind = e.k === "vote" ? L.motions[e.mo] || L.kinds.vote : L.kinds[e.k];
-    const head = el("div", { className: "vcard-head" }, el("span", { className: "k", textContent: kind }),
-      e.k === "agenda" && e.p ? badgeOf(e, sittingN(e.p)) : badgeOf(e));
-    const body = [head, el("h3", { lang: "pl" }, titleLink(e))];
-    let more = null;
+    const main = el("div", { className: "vcard-main" }, el("span", { className: "k", textContent: kind }),
+      el("h3", { lang: "pl" }, titleLink(e)),
+      el("div", { className: "vcard-meta" }, topicTags(ids), el("span", { textContent: whenOf(e) })));
+    const side = el("div", { className: "vcard-side" }, e.k === "agenda" && e.p ? badgeOf(e, sittingN(e.p)) : badgeOf(e));
     if (e.k === "vote") {
-      const [n, k] = e.a || [0, 0];
-      if (n) body.push(el("p", { className: "vcard-sum", textContent: L.amendBefore.replace("{n}", votesN(n)).replace("{k}", k) }));
-      else if (e.mo === "final") body.push(el("p", { className: "vcard-sum", textContent: L.amendNone }));
       const total = e.c.reduce((x, y) => x + y, 0) || 1;
       const bar = el("div", { className: "bar", ariaHidden: "true" }, ["Y", "N", "A"].map((c, i) => {
-        const s = el("span", { className: c });
-        s.style.width = `${(e.c[i] / total) * 100}%`;
-        return s;
+        const sp = el("span", { className: c });
+        sp.style.width = `${(e.c[i] / total) * 100}%`;
+        return sp;
       }));
-      body.push(el("div", { className: "vcard-bar" }, bar, countsOf(e)));
-      more = link(href(e.url), `${L.voteDetails} →`);
+      side.append(el("div", { className: "vcard-bar" }, bar, countsOf(e)));
+      const [n, k] = e.a || [0, 0];
+      if (n) side.append(el("p", { className: "vcard-sum", textContent: L.amendBefore.replace("{n}", votesN(n)).replace("{k}", k) }));
+      side.append(link(href(e.url), `${L.voteDetails} →`));
     } else if (e.k === "agenda") {
-      more = link(href(e.url), `${L.agendaDetails} →`);
+      side.append(link(href(e.url), `${L.agendaDetails} →`));
     } else if (e.k === "stage" && e.bill) {
-      more = link(href(`ustawa/${e.root}.html`), `${L.billDetails} →`);
+      side.append(link(href(`ustawa/${e.root}.html`), `${L.billDetails} →`));
     }
-    body.push(el("div", { className: "vcard-meta" }, topicTags(ids), el("span", { textContent: whenOf(e) })));
-    body.push(el("div", { className: "vcard-foot" },
-      el("span", { className: "vcard-why" }, svg(ICON.info, 15), el("span", { textContent: `${L.because}: ${whyText(e)}` })), more));
-    return el("li", { className: "card vcard" }, body);
+    return el("li", { className: "card vcard" }, main, side);
   };
 
   // the latest events: a table per sitting (a list on phones, by the stylesheet)
@@ -636,9 +717,11 @@ if (typeof document !== "undefined") (() => {
         editButton("btn2"));
     } else {
       note = el("div", { className: "following" }, el("span", { textContent: `${L.following}:` }),
-        topicTags(state.ids), editButton());
+        topicTags(state.ids), editIcon());
     }
     parts.push(note);
+    // the seating plan first, where the reader lands (the home page only)
+    if (PAGE === "home") parts.push(hallBox());
     const lead = el("div", { className: "home-lead" }, el("h2", { id: "wazne-dla-ciebie", textContent: L.forYou }),
       el("p", { textContent: L.forYouText }));
     const top = el("section", {}, lead);
@@ -656,11 +739,17 @@ if (typeof document !== "undefined") (() => {
       return;
     }
     const mine = eventsFor(data.events, state.ids);
-    if (!mine.length) {
-      top.append(el("p", { textContent: L.empty }), el("p", {}, editButton(), " · ", link("#ostatnie-posiedzenie", `${L.general} ↓`)));
-    } else {
-      top.append(el("ul", { className: "vcards" }, highlights(mine, today, 4, state.ids).map(card)),
-        el("p", { className: "vcards-all" }, link("#twoje-tematy", `${L.feedAll.replace("{n}", data.days)} →`)));
+    if (PAGE === "mps") {
+      top.remove();
+      home.append(...mpsAll());
+      return;
+    }
+    if (PAGE === "feed") {
+      top.remove();
+      if (!mine.length) {
+        home.append(el("p", { textContent: L.empty }), el("p", {}, editButton()));
+        return;
+      }
       const groups = el("div");
       const more = el("button", { type: "button", className: "lnk feed-more", textContent: L.more });
       const step = 15;
@@ -671,73 +760,386 @@ if (typeof document !== "undefined") (() => {
         if (shown >= mine.length) more.remove();
       };
       more.addEventListener("click", page);
-      home.append(section("twoje-tematy", L.feedTitle, el("p", { className: "muted", textContent: L.feedText.replace("{n}", data.days) }), groups, more));
+      home.append(el("p", { className: "muted", textContent: L.feedText.replace("{n}", data.days) }), groups, more);
       page();
+      return;
+    }
+    if (!mine.length) {
+      top.append(el("p", { textContent: L.empty }),
+        el("p", {}, editButton(), " · ", link(`${ROOT}ostatnie-posiedzenie.html`, `${L.general} →`)));
+    } else {
+      top.append(el("ul", { className: "vcards" }, highlights(mine, today, 4, state.ids).map(card)),
+        el("p", { className: "vcards-all" }, link(`${ROOT}wydarzenia.html`,
+          `${L.feedAll.replace("{n}", data.days)} (${mine.length}) →`, false, { className: "btn2" })));
     }
     home.append(mps());
   };
 
+  // ---- suggested MPs: a card each, all the same size: who, the topics, up to three lines
+  // on their work (the weightiest of each kind), and a link to their page on these topics
+  const roleRank = (fn) => (/^przewodnicz/.test(fn) ? 0 : /przewodnicz/.test(fn) ? 1 : 2);
+  const mpCard = (r) => {
+    const m = data.mps[r.id] || { name: `#${r.id}`, club: "" };
+    const lines = [];
+    const comms = r.why.filter((w) => w.k === "committee").sort((x, y) => roleRank(x.fn || "") - roleRank(y.fn || ""));
+    // [icon, the line, its full text on hover]
+    if (comms.length) {
+      const c = comms[0], name = data.committees[c.code] || c.code;
+      const more = comms.length > 1 ? ` +${comms.length - 1}` : "";
+      lines.push([ICON.committee, `${name}${more}`, `${c.fn ? `${c.fn[0].toUpperCase()}${c.fn.slice(1)} · ` : ""}${name}${more}`]);
+    }
+    const qs = r.why.filter((w) => w.k === "questions").sort((x, y) => y.n - x.n);
+    if (qs.length) {
+      const line = plural(qs[0].n, L.questionsShort).replace("{n}", qs[0].n);
+      lines.push([ICON.question, line, `${line} (${qs[0].to.join(", ")})`]);
+    }
+    const bills = r.why.filter((w) => w.k === "bills").sort((x, y) => y.n - x.n);
+    if (bills.length) {
+      const line = `${plural(bills[0].n, L.billsShort).replace("{n}", bills[0].n)} · ${nameOf(bills[0].topic)}`;
+      lines.push([ICON.bill, line, line]);
+    }
+    const where = [m.club && m.club !== "niez." ? m.clubName || m.club : L.independent, m.districtNum && `${L.district} ${m.districtNum}`].filter(Boolean).join(" · ");
+    const photo = el("img", { className: "mp-thumb", src: home.dataset.photo.replace("{id}", r.id), alt: "", loading: "lazy",
+      width: 56, height: 70, decoding: "async" });
+    photo.addEventListener("error", () => photo.remove(), { once: true });
+    const page = `${ROOT}posel/${r.id}.html?tematy=${state.ids.filter((id) => r.topics.includes(id)).join(",")}#w-twoich-tematach`;
+    return el("li", { className: "card mp-card" },
+      el("div", { className: "mp-card-head" }, photo, el("div", {},
+        el("h3", {}, link(`${ROOT}posel/${r.id}.html`, m.name)),
+        el("p", { className: "muted small", textContent: where }))),
+      topicTags(r.topics),
+      el("ul", { className: "mp-facts" }, lines.map(([icon, text, full]) =>
+        el("li", { title: full }, svg(icon, 15), el("span", { textContent: text })))),
+      link(page, `${L.profile} →`, false, { className: "mp-more" }));
+  };
+
+  // ---- the Sejm's seating plan (dane/sala.json, from the Chancellery's plan): every seat, in
+  // views to cycle through: the reader's topics (MPs who work on them marked, stronger the more
+  // they do), the clubs, and the MPs' figures (turnout, speeches, questions, breaks of the club
+  // line, terms) in five steps from the lowest fifth to the highest, the same colour for all.
+  // A search marks the seats of the MPs it finds. A card with the MP's photo on hover (on a
+  // touch screen a tap, with the link); a click opens the MP's page. Folding and the view are
+  // kept in this browser (a setting, like the theme).
+  let sala = null;
+  const loadSala = () => sala ??= fetch(home.dataset.sala).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const FOTO = (home.dataset.sala || "").replace(/dane\/sala\.json$/, "static/foto/");
+  const SALA_KEY = "sejmomat-sala";
+  const readSala = () => {
+    try {
+      const v = localStorage.getItem(SALA_KEY);
+      return v && v.startsWith("{") ? JSON.parse(v) : { open: v !== "closed" };
+    } catch { return { open: true }; }
+  };
+  const saveSala = (x) => { try { localStorage.setItem(SALA_KEY, JSON.stringify(x)); } catch { /* lasts for this page */ } };
+  const hallBox = () => {
+    const box = el("div", { className: "sala" });
+    loadSala().then((plan) => { if (plan) drawHall(box, plan); else box.remove(); });
+    return box;
+  };
+  const SAME_CLUB = { "Polska2050-TD": "Polska2050", "niez.": "other" };  // "niez." is no valid property name
+  const iconSvg = svg;   // the icon helper, by a name the plan's own svg does not hide
+  const fold = (t) => t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ł/g, "l");
+  const drawHall = (box, plan) => {
+    const mine = state?.ids?.length ? state.ids : [];
+    const on = new Set(mine);
+    const fmtPct = (x) => `${(x * 100).toFixed(1).replace(".", LANG === "pl" ? "," : ".")}%`;
+    // [id, tab label, the MP's figure (index in plan.mps), how to show it]
+    const VIEWS = [
+      ...(mine.length ? [["topics", L.salaTopics]] : []),
+      ["clubs", L.salaClubs],
+      ["turnout", L.salaTurnout, 4, fmtPct],
+      ["speeches", L.salaSpeeches, 5, String],
+      ["questions", L.salaQuestions, 6, String],
+      ["rebels", L.salaRebels, 7, String],
+      ["terms", L.salaTerms, 8, String],
+    ];
+    const saved = readSala();
+    let view = VIEWS.some((v) => v[0] === saved.view) ? saved.view : VIEWS[0][0];
+
+    const xs = plan.seats.map((p) => p[0]), ys = plan.seats.map((p) => p[1]);
+    const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+    const W = 1000, pad = 16, unit = (W - 2 * pad) / (x1 - x0);
+    const H = Math.round((y1 - y0) * unit / plan.aspect + 2 * pad + 34);
+    const X = (x) => pad + (x - x0) * unit, Y = (y) => pad + (y - y0) * unit / plan.aspect;
+    const NS = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    svg.setAttribute("class", "sala-plan");
+    svg.setAttribute("role", "img");
+    svg.setAttribute("aria-label", L.salaLabel);
+    const size = 13;
+    const rects = plan.seats.map(([x, y, mp]) => {
+      const r = document.createElementNS(NS, "rect");
+      r.setAttribute("x", (X(x) - size / 2).toFixed(1));
+      r.setAttribute("y", (Y(y) - size / 2).toFixed(1));
+      r.setAttribute("width", size);
+      r.setAttribute("height", size);
+      r.setAttribute("rx", 3);
+      if (mp && plan.mps[mp]) r.dataset.mp = mp;
+      svg.append(r);
+      return r;
+    });
+    // the rostrum, in front of the front rows' middle
+    const front = Math.max(...plan.seats.filter((p) => Math.abs(p[0] - (x0 + x1) / 2) < (x1 - x0) * 0.08).map((p) => p[1]));
+    const cx = W / 2, cy = Y(front) + 26;
+    const rost = document.createElementNS(NS, "path");
+    rost.setAttribute("d", `M ${cx - 70} ${cy + 8} Q ${cx} ${cy - 22} ${cx + 70} ${cy + 8}`);
+    rost.setAttribute("class", "sala-rostrum");
+    const rl = document.createElementNS(NS, "text");
+    rl.setAttribute("x", cx);
+    rl.setAttribute("y", cy + 26);
+    rl.setAttribute("class", "sala-rostrum-label");
+    rl.textContent = L.rostrum;
+    svg.append(rost, rl);
+
+    const MARK = 4;   // a topic score this high or more is marked (lower ones named on hover only)
+    const topicScore = (mp) => Math.max(0, ...[...on].map((id) => plan.active[id]?.[mp] || 0));
+    const figure = (mp, i) => plan.mps[mp][i];
+    // the five steps of a figure: by rank among the MPs in office (fifths)
+    const steps = {};
+    for (const [id, , i] of VIEWS) {
+      if (i === undefined) continue;
+      const vals = Object.keys(plan.mps).map((mp) => figure(mp, i)).sort((a, b) => a - b);
+      const cut = [0.2, 0.4, 0.6, 0.8].map((q) => vals[Math.floor(q * (vals.length - 1))]);
+      steps[id] = { cut, min: vals[0], max: vals[vals.length - 1], median: vals[Math.floor(vals.length / 2)] };
+    }
+    // turnout: most MPs are above 95%, so fifths would put 50% and 80% in one step; fixed steps instead
+    steps.turnout.cut = [0.6, 0.75, 0.9, 0.95];
+    steps.turnout.labels = ["< 60%", "60–75%", "75–90%", "90–95%", "> 95%"];
+    const stepOf = (id, v) => 1 + steps[id].cut.filter((c) => v > c).length;
+
+    const count = el("p", { className: "sala-count", ariaLive: "polite" });
+    const legend = el("div", { className: "sala-legend muted small" });
+    const chipsRow = el("div", { className: "sala-chips" });
+    const tip = el("div", { className: "sala-tip", hidden: true, role: "status" });
+
+    const paint = () => {
+      svg.dataset.view = view;
+      const v = VIEWS.find((x) => x[0] === view);
+      let n = 0;
+      rects.forEach((r) => {
+        const mp = r.dataset.mp;
+        r.removeAttribute("style");
+        if (!mp) { r.setAttribute("class", "free"); return; }
+        if (view === "topics") {
+          const sc = topicScore(mp);
+          r.setAttribute("class", sc >= MARK ? `on t${sc >= MARK + 2 ? 3 : sc >= MARK + 1 ? 2 : 1}` : "");
+          if (sc >= MARK) n++;
+        } else if (view === "clubs") {
+          const c = figure(mp, 1);
+          r.setAttribute("class", "club");
+          r.style.fill = `var(--c-${SAME_CLUB[c] || c}, var(--c-other))`;
+        } else {
+          r.setAttribute("class", `q q${stepOf(view, figure(mp, v[2]))}`);
+        }
+      });
+      chipsRow.hidden = view !== "topics";
+      if (view === "topics") {
+        count.textContent = n ? plural(n, L.salaCount).replace("{n}", n) : L.salaNone;
+        legend.replaceChildren(
+          el("span", { className: "sala-key" }, el("span", { className: "sala-sw sala-sw-on" }), L.salaOn),
+          el("span", { className: "sala-key" }, el("span", { className: "sala-sw" }), L.salaOff));
+      } else if (view === "clubs") {
+        const sizes = {};
+        for (const r of rects) if (r.dataset.mp) { const c = figure(r.dataset.mp, 1); sizes[c] = (sizes[c] || 0) + 1; }
+        count.textContent = L.salaSeats.replace("{n}", rects.filter((r) => r.dataset.mp).length);
+        // by size, largest first: the same order for every club, whoever they are
+        legend.replaceChildren(...Object.entries(sizes).sort((a, b) => b[1] - a[1]).map(([c, k]) => {
+          const sw = el("span", { className: "sala-sw" });
+          sw.style.background = `var(--c-${SAME_CLUB[c] || c}, var(--c-other))`;
+          return el("span", { className: "sala-key" }, sw, `${c === "niez." ? L.independents : plan.mps[Object.keys(plan.mps).find((m) => plan.mps[m][1] === c)][2]} ${k}`);
+        }));
+      } else {
+        const st = steps[view], show = v[3];
+        count.textContent = L.salaRange.replace("{min}", show(st.min)).replace("{max}", show(st.max)).replace("{med}", show(st.median));
+        legend.replaceChildren(st.labels
+          ? el("span", { className: "sala-key" }, ...st.labels.map((t, k) => el("span", { className: "sala-step" },
+            el("span", { className: `sala-sw q q${k + 1}` }), t)))
+          : el("span", { className: "sala-key" }, L.salaLess,
+            ...[1, 2, 3, 4, 5].map((k) => el("span", { className: `sala-sw q q${k}` })), L.salaMore));
+      }
+      legend.append(el("span", { className: "sala-src", textContent: L.salaSource }));
+      tabs.forEach((t) => t.setAttribute("aria-selected", String(t.dataset.view === view)));
+      search.dispatchEvent(new Event("input"));
+    };
+    const setView = (id) => {
+      view = id;
+      saveSala({ ...readSala(), view });
+      paint();
+    };
+
+    // the views as tabs, with arrows to go round them
+    const tabs = VIEWS.map(([id, label]) => {
+      const t = el("button", { type: "button", className: "sala-tab", role: "tab", textContent: label });
+      t.dataset.view = id;
+      t.addEventListener("click", () => setView(id));
+      return t;
+    });
+    const turn = (d) => {
+      const i = VIEWS.findIndex((x) => x[0] === view);
+      setView(VIEWS[(i + d + VIEWS.length) % VIEWS.length][0]);
+    };
+    const prev = el("button", { type: "button", className: "icon-btn sala-cycle", ariaLabel: L.prev, title: L.prev }, iconSvg(ICON.left, 18));
+    const next = el("button", { type: "button", className: "icon-btn sala-cycle", ariaLabel: L.next, title: L.next }, iconSvg(ICON.right, 18));
+    prev.addEventListener("click", () => turn(-1));
+    next.addEventListener("click", () => turn(1));
+    const tabRow = el("div", { className: "sala-tabs", role: "tablist", ariaLabel: L.salaViews }, prev, el("div", { className: "sala-tab-list" }, tabs), next);
+
+    // the reader's topics as switches, in the topics view
+    chipsRow.append(...mine.map((id) => {
+      const b = el("button", { type: "button", className: "toggle-chip sala-chip", textContent: nameOf(id) });
+      b.setAttribute("aria-pressed", "true");
+      b.addEventListener("click", () => {
+        if (on.has(id) && on.size === 1) return;   // at least one topic stays on
+        if (on.has(id)) on.delete(id); else on.add(id);
+        b.setAttribute("aria-pressed", String(on.has(id)));
+        paint();
+      });
+      return b;
+    }));
+
+    // search: the seats of the MPs whose name matches, marked; one found: their card
+    const search = el("input", { type: "search", className: "sala-search", placeholder: L.salaSearch, ariaLabel: L.salaSearch, autocomplete: "off" });
+    const found = el("span", { className: "muted small", ariaLive: "polite" });
+    search.addEventListener("input", () => {
+      const q = fold(search.value.trim());
+      const hits = q.length >= 2 ? rects.filter((r) => r.dataset.mp && fold(plan.mps[r.dataset.mp][0]).includes(q)) : [];
+      svg.classList.toggle("searching", hits.length > 0);
+      rects.forEach((r) => r.classList.toggle("match", hits.includes(r)));
+      found.textContent = q.length >= 2 ? (hits.length ? plural(hits.length, L.salaFound).replace("{n}", hits.length) : L.salaNotFound) : "";
+      if (hits.length === 1) show(hits[0], true);
+      else if (pinned) { tip.hidden = true; pinned = false; }
+    });
+
+    const pageOf = (mp) => {
+      const tm = mine.filter((id) => plan.active[id]?.[mp]);
+      return `${ROOT}posel/${mp}.html${tm.length ? `?tematy=${tm.join(",")}#w-twoich-tematach` : ""}`;
+    };
+    let pinned = false;
+    const show = (r, pin) => {
+      const mp = r.dataset.mp;
+      if (!mp) { tip.hidden = true; return; }
+      const m = plan.mps[mp];
+      const tm = mine.filter((id) => plan.active[id]?.[mp]);
+      const v = VIEWS.find((x) => x[0] === view);
+      const photo = el("img", { className: "sala-tip-photo", src: `${FOTO}${mp}.jpg`, alt: "", width: 55, height: 68 });
+      photo.addEventListener("error", () => { if (!photo.dataset.api) { photo.dataset.api = "1"; photo.src = home.dataset.photo.replace("{id}", mp); } else photo.remove(); });
+      const lines = [el("strong", { textContent: m[0] }),
+        el("span", { className: "muted", textContent: [m[1] === "niez." ? L.independent : m[2], m[3] && `${L.district} ${m[3]}`].filter(Boolean).join(" · ") })];
+      if (v[2] !== undefined) lines.push(el("span", { className: "sala-tip-fig", textContent: `${v[1]}: ${v[3](m[v[2]])}` }));
+      if (tm.length) lines.push(el("span", { className: "sala-tip-topics", textContent: `${L.salaWorks}: ${tm.map(nameOf).join(", ")}` }));
+      if (pin) lines.push(link(pageOf(mp), `${L.profile} →`));
+      tip.replaceChildren(photo, el("div", { className: "sala-tip-text" }, lines));
+      const b = r.getBoundingClientRect(), host = wrap.getBoundingClientRect();
+      tip.hidden = false;
+      const left = Math.min(Math.max(8 + wrap.scrollLeft, b.left - host.left + wrap.scrollLeft + b.width / 2 - tip.offsetWidth / 2),
+        wrap.scrollLeft + host.width - tip.offsetWidth - 8);
+      tip.style.left = `${left}px`;
+      tip.style.top = `${b.top - host.top - tip.offsetHeight - 10}px`;
+      rects.forEach((x) => x.classList.toggle("hover", x === r));
+      pinned = pin;
+    };
+    let touch = false;
+    // with a mouse the card follows the pointer: on a seat it shows, anywhere else (between the
+    // seats, off the plan) it goes; a card opened by a tap or the search stays until dismissed
+    const hide = () => {
+      if (pinned) return;
+      tip.hidden = true;
+      rects.forEach((x) => x.classList.remove("hover"));
+    };
+    // the whole page watches the pointer (not only the plan, whose leave events some browsers
+    // and touchpads do not send reliably): over a seat its card, over anything else none
+    let over = null;
+    document.addEventListener("pointermove", (e) => {
+      if (e.pointerType === "touch") return;
+      const seat = e.target?.closest?.(".sala-plan rect[data-mp]") || null;
+      if (seat === over) return;
+      over = seat;
+      if (seat) show(seat, false);
+      else hide();
+    }, { passive: true });
+    document.addEventListener("mouseleave", () => { over = null; hide(); });
+    window.addEventListener("scroll", () => { over = null; hide(); }, { passive: true });
+    svg.addEventListener("pointerdown", (e) => { touch = e.pointerType !== "mouse"; });
+    svg.addEventListener("click", (e) => {
+      const mp = e.target.dataset?.mp;
+      if (!mp) return;
+      if (touch) show(e.target, true);
+      else location.href = pageOf(mp);
+    });
+    document.addEventListener("click", (e) => { if (pinned && !box.contains(e.target)) { tip.hidden = true; pinned = false; } });
+
+    const wrap = el("div", { className: "sala-wrap" }, svg, tip);
+    const body = el("div", { className: "sala-body", id: "sala-body" }, tabRow,
+      el("div", { className: "sala-head" }, chipsRow, count),
+      el("div", { className: "sala-find" }, search, found),
+      wrap, legend);
+    const toggle = el("button", { type: "button", className: "sala-toggle" },
+      el("span", { textContent: L.salaTitle }), el("span", { className: "sala-toggle-count" }));
+    toggle.setAttribute("aria-controls", "sala-body");
+    let open = saved.open !== false;
+    const set = (vOpen) => {
+      open = vOpen;
+      body.hidden = !open;
+      toggle.setAttribute("aria-expanded", String(open));
+      toggle.lastChild.textContent = open ? "" : count.textContent;
+    };
+    toggle.addEventListener("click", () => {
+      set(!open);
+      saveSala({ ...readSala(), open });
+      if (open) requestAnimationFrame(() => { wrap.scrollLeft = (wrap.scrollWidth - wrap.clientWidth) / 2; });
+    });
+    paint();
+    set(open);
+    box.replaceChildren(toggle, body);
+    // on a phone the plan is wider than the screen (seats big enough to tap): start at the middle
+    requestAnimationFrame(() => { wrap.scrollLeft = (wrap.scrollWidth - wrap.clientWidth) / 2; });
+  };
+
+  // the home page: one MP from each club (a different one on each visit, clubs in a new
+  // order), three at a time in a row that scrolls, and a link to all of them
   const mps = () => {
-    const rows = suggestMps(data, state.ids);
+    const picked = rotate(mpPools(data, state.ids));
     const body = [el("p", { className: "muted", textContent: L.mpsText })];
-    if (!rows.length) {
+    if (!picked.length) {
       body.push(el("p", { textContent: L.mpsNone }));
       return section("poslowie-tematy", L.mpsTitle, body);
     }
-    const order = { committee: 0, bills: 1, questions: 2 };
-    const cards = rows.map((r) => {
-      const m = data.mps[r.id] || { name: `#${r.id}`, club: "" };
-      const why = [...r.why].sort((a, b) => order[a.k] - order[b.k]);
-      const reasons = why.slice(0, 4).map((w) => {
-        if (w.k === "committee") {
-          const role = w.fn || L.member;
-          return el("li", {}, `${role[0].toUpperCase()}${role.slice(1)} · `,
-            link(`${ROOT}komisja/${w.code}.html`, data.committees[w.code] || w.code));
-        }
-        if (w.k === "questions") {
-          return el("li", {}, link(`${ROOT}posel/${r.id}.html#interpelacje`,
-            L.questions.replace("{n}", w.n).replace("{recent}", w.recent)), ` (${w.to.join(", ")})`);
-        }
-        return el("li", {}, `${L.bills.replace("{n}", w.n).replace("{topic}", nameOf(w.topic))} · `,
-          link(`${ROOT}ustawa/${w.root}.html`, data.bills[w.root] || w.root));
-      });
-      const where = [m.club && `${L.club}: ${m.club}`,
-        m.districtNum && `${L.district} ${m.districtNum}${m.district ? ` (${m.district})` : ""}`].filter(Boolean).join(" · ");
-      const photo = el("img", { className: "mp-thumb", src: home.dataset.photo.replace("{id}", r.id), alt: "", loading: "lazy",
-        width: 48, height: 60, decoding: "async" });
-      photo.addEventListener("error", () => photo.remove(), { once: true });
-      return el("li", { className: "card mp-card" },
-        el("div", { className: "mp-card-head" }, photo, el("div", {},
-          el("h3", {}, link(`${ROOT}posel/${r.id}.html`, m.name)),
-          where ? el("p", { className: "muted small", textContent: where }) : null)),
-        el("p", { className: "tags-row" }, `${L.topics}:`, topicTags(r.topics)),
-        el("div", {}, el("p", { className: "why-h", textContent: L.whyMp }),
-          el("ul", { className: "mp-why" }, reasons,
-            why.length > 4 ? el("li", { className: "muted", textContent: L.moreReasons.replace("{n}", why.length - 4) }) : null)),
-        link(`${ROOT}posel/${r.id}.html`, `${L.profile} →`, false, { className: "btn2" }));
-    });
-    const list = el("ul", { className: "mp-cards" }, cards);
-    body.push(list);
-    // one from each club: six to start with (three on a phone), the rest on request
-    const FIRST = matchMedia("(max-width: 600px)").matches ? 3 : 6;
-    if (cards.length > FIRST) {
-      cards.slice(FIRST).forEach((c) => { c.hidden = true; });
-      const more = el("button", { type: "button", className: "lnk", textContent: L.moreMps.replace("{n}", cards.length - FIRST) });
-      more.addEventListener("click", () => {
-        cards.forEach((c) => { c.hidden = false; });
-        more.remove();
-        focusSoon(cards[FIRST].querySelector("a"));
-      });
-      body.push(more);
-    }
+    const track = el("ul", { className: "mp-cards mp-track", tabIndex: 0 }, picked.map(mpCard));
+    track.setAttribute("aria-label", L.mpsTitle);
+    const prev = el("button", { type: "button", className: "icon-btn mp-nav", ariaLabel: L.prev, title: L.prev }, svg(ICON.left, 18));
+    const next = el("button", { type: "button", className: "icon-btn mp-nav", ariaLabel: L.next, title: L.next }, svg(ICON.right, 18));
+    const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const step = (dir) => track.scrollBy({ left: dir * track.clientWidth, behavior: reduced ? "auto" : "smooth" });
+    prev.addEventListener("click", () => step(-1));
+    next.addEventListener("click", () => step(1));
+    const ends = () => {
+      prev.disabled = track.scrollLeft <= 2;
+      next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
+    };
+    track.addEventListener("scroll", ends, { passive: true });
+    new ResizeObserver(ends).observe(track);
+    body.push(el("div", { className: "mp-carousel" }, track),
+      el("div", { className: "mp-carousel-foot" }, el("span", { className: "mp-navs" }, prev, next),
+        link(`${ROOT}poslowie-dla-ciebie.html`, `${L.allMps} (${Object.values(mpPools(data, state.ids)).flat().length}) →`, false, { className: "btn2" })));
+    requestAnimationFrame(ends);
     return section("poslowie-tematy", L.mpsTitle, body);
+  };
+
+  // poslowie-dla-ciebie.html: every club's best three in the reader's topics, three to a row,
+  // the clubs and each club's three in a new order on every visit
+  const mpsAll = () => {
+    const pools = mpPools(data, state.ids);
+    const rows = shuffle(Object.values(pools)).flatMap((p) => shuffle(p));
+    if (!rows.length) return [el("p", { textContent: L.mpsNone })];
+    return [el("p", { className: "muted", textContent: L.mpsAllText }), el("ul", { className: "mp-cards mp-grid" }, rows.map(mpCard))];
   };
 
   const skipped = (focus) => {
     const b = el("button", { type: "button", className: "btn2", textContent: L.pick });
     b.addEventListener("click", () => showForm([]));
     const note = el("div", { className: "card interests-note skipped" }, el("p", { textContent: L.skippedText }), b);
-    home.replaceChildren(note, ...placeholders());
+    home.replaceChildren(note, ...(PAGE === "home" ? [hallBox()] : []), ...placeholders());
     home.hidden = false;
     if (focus) focusSoon(note);
   };

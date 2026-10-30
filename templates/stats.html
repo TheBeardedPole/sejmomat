@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_macros.html" import how %}
 {% from "_macros.html" import result_badge, counts, crumbs %}
 {% set S = voting_stats %}
 {% block title %}{{ _("Statystyki głosowań") }}{% endblock %}
@@ -49,15 +50,17 @@
                    "between": _("koalicja i opozycja głosowały tak samo"), "margin": _("przewaga"), "count": _("głosowań"),
                    "outside": _("Poza wykresem: {a} głosowań przyjętych z zapasem ponad 40 głosów i {b} upadłych, którym zabrakło ponad 40.")} | tojson | forceescape }}">
 <h1>{{ _("Statystyki głosowań") }}</h1>
-<p>{{ _("Każda kropka to poseł, kolor to jego klub. Linie łączą każdego posła z pięcioma, z którymi najczęściej głosuje tak samo, i przyciągają ich do siebie, więc grupy, które głosują podobnie, zbijają się w skupiska. Najedź na kropkę, by zobaczyć posła, kliknij, by przejść do jego strony; kliknij klub w legendzie, by go wyróżnić na wszystkich mapach.") }}</p>
+<p>{{ _("Każda kropka to poseł, kolor to jego klub; im bliżej siebie, tym podobniej głosują.") }}</p>
+{% call how(_("Jak powstaje mapa?")) %}<p>{{ _("Linie łączą każdego posła z pięcioma, z którymi najczęściej głosuje tak samo, i przyciągają ich do siebie, więc grupy, które głosują podobnie, zbijają się w skupiska. Kliknięcie klubu w legendzie wyróżnia go na wszystkich mapach.") }}</p>{% endcall %}
 
 <h2>{{ _("Cała kadencja") }}</h2>
 <div class="stats-legend" id="stats-legend" role="group" aria-label="{{ _('Wyróżnij klub') }}"></div>
 <div class="stats-map"><canvas id="stats-term" role="img" aria-label="{{ _('Mapa posłów według podobieństwa głosowań w całej kadencji') }}"></canvas></div>
-<p class="note">{{ S.term_between | pct }} — {{ _("tak często poseł koalicji i poseł opozycji głosowali tak samo (średnio, w głosowaniach, w których obaj oddali głos)") }}.</p>
+<p class="note">{{ S.term_between | pct }}: {{ _("tak często poseł koalicji i poseł opozycji głosowali tak samo (średnio, w głosowaniach, w których obaj oddali głos)") }}.</p>
 
 <h2>{{ _("Pół roku po pół roku") }}</h2>
-<p class="muted">{{ _("Te same mapy dla kolejnych półroczy, obrócone tak, by bloki zostawały na swoich miejscach. Na mapie są posłowie, którzy oddali głos w co najmniej czwartej części głosowań danego półrocza; liczba przy każdej mapie mówi, jak często poseł koalicji i poseł opozycji głosowali wtedy tak samo.") }}</p>
+<p class="muted">{{ _("Te same mapy dla kolejnych półroczy.") }}</p>
+{% call how(_("Jak czytać te mapy?")) %}<p>{{ _("Mapy są obrócone tak, by bloki zostawały na swoich miejscach. Są na nich posłowie, którzy oddali głos w co najmniej czwartej części głosowań danego półrocza. Liczba przy mapie mówi, jak często poseł koalicji i poseł opozycji głosowali wtedy tak samo.") }}</p>{% endcall %}
 <div class="stats-grid" id="stats-panels">
   {% for p in S.panels %}
   <figure>
@@ -83,7 +86,8 @@
 </table></div>
 
 <h2>{{ _("Jak często kluby głosują tak samo") }}</h2>
-<p class="muted">{{ _("Odsetek głosowań w tej kadencji, w których linie dwóch klubów (to, jak głosowała większość ich posłów) były takie same. Obecne kluby i koła.") }}</p>
+<p class="muted">{{ _("Odsetek głosowań kadencji, w których dwa kluby głosowały tak samo. Obecne kluby i koła.") }}</p>
+{% call how(_("Jak liczymy?")) %}<p>{{ _("Klub głosuje tak, jak większość jego posłów (to jego linia). Liczą się głosowania, w których linie obu klubów były takie same.") }}</p>{% endcall %}
 <div class="table-scroll"><table class="heat">
   <thead><tr><th></th>{% for c in S.clubs %}<th class="num">{{ c }}</th>{% endfor %}</tr></thead>
   <tbody>
@@ -97,7 +101,8 @@
 </table></div>
 
 <h2>{{ _("Na włosku") }}</h2>
-<p class="muted">{{ _("Ile głosów zabrakło albo zostało ponad to, co było potrzebne do przyjęcia, w głosowaniach kadencji (z udziałem większości Sejmu), od −40 do +40. Na prawo od przerywanej linii wniosek przeszedł, na lewo upadł.") }}</p>
+<p class="muted">{{ _("Ile głosów dzieliło wynik od progu przyjęcia, od −40 do +40. Na prawo od przerywanej linii wniosek przeszedł, na lewo upadł.") }}</p>
+{% call how(_("Jak liczymy?")) %}<p>{{ _("Liczba to głosy, których zabrakło do przyjęcia, albo te, które zostały ponad potrzebne. Liczą się głosowania kadencji, w których głosowała większość Sejmu.") }}</p>{% endcall %}
 <div class="stats-hist" id="stats-hist" data-margins="{{ S.margins | tojson | forceescape }}"></div>
 <h3>{{ _("Najbliższe rozstrzygnięcia") }}</h3>
 <div class="table-scroll"><table>

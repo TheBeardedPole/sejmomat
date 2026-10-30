@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% from "_macros.html" import crumbs %}
 {% set n_adopted = all_amendments | selectattr("outcome_class", "equalto", "adopted") | list | length %}
-{% block title %}{{ _("Poprawki") }} — {{ _("wszystkie głosowane poprawki i wnioski") }}{% endblock %}
+{% block title %}{{ _("Poprawki") }}: {{ _("wszystkie głosowane poprawki i wnioski") }}{% endblock %}
 {% block description %}{{ _("Poprawki — opis") }}{% endblock %}
 {% block content %}
 {{ crumbs(root, [], _("Poprawki")) }}

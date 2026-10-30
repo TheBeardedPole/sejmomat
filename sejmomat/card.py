@@ -313,7 +313,7 @@ def club_sitting(c, votes, label):
     # abstaining as the club's line is rare; it shows in the bar below
     y = tiles(d, y, [(x["votes"], "głosowań", TEXT), (x["Y"], "razy linia klubu: za", YES),
                      (x["N"], "razy linia klubu: przeciw", NO), (x["split"], "razy klub podzielony", SPLIT),
-                     (pct(missed), "głosów nieoddanych przez posłów klubu", TEXT), (x["rebels"], "wyłamań z linii klubu", NO)])
+                     (pct(missed), "głosów nieoddanych przez posłów klubu", TEXT), (x["rebels"], "wyłamań z linii klubu", TEXT)])
     width = W - 2 * PAD - 56
     d.rounded_rectangle((PAD, y, W - PAD, y + 28 + 38 + 26 + 16 + 40 + 18), 18, fill=SURFACE, outline=LINE, width=2)
     ty = y + 28
@@ -413,7 +413,7 @@ def mp_term(r, photo=None, tag=None):
     missed, top = r["eligible"] - r["cast"], r.get("standing") or {}
     rows = [(pct(r["turnout"]), f"udział w głosowaniach ({r['cast']} z {r['eligible']})", TEXT, top.get("turnout")),
             (missed, "opuszczonych głosowań", ABSTAIN if missed else TEXT),
-            (r["rebel_count"], f"wyłamań z linii klubu ({pct(r['rebel_rate'])})", NO if r["rebel_count"] else TEXT),
+            (r["rebel_count"], f"wyłamań z linii klubu ({pct(r['rebel_rate'])})", TEXT),
             ((sp.get("spoken") or 0) + (sp.get("written") or 0), "wystąpień na sali plenarnej", TEXT, top.get("speeches")),
             (q.get("int", 0) + q.get("zap", 0), "interpelacji i zapytań poselskich", TEXT, top.get("questions"))]
     if r["signed"]:

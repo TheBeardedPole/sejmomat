@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_macros.html" import how %}
 {% from "_section_nav.html" import section_nav with context %}
 {% from "_macros.html" import crumbs %}
 {% from "_questions.html" import styles %}
@@ -21,16 +22,16 @@
 </div>
 
 <h2>{{ _("Jak odpowiadają ministrowie") }}</h2>
-<p class="muted">{{ _("Kliknij nagłówek kolumny, aby posortować. „Po terminie” to odpowiedzi, które przyszły później niż przewiduje regulamin; „bez odpowiedzi” — pytania, na które termin minął, a odpowiedzi nie ma.") }}</p>
+{% call how(_("Co oznaczają kolumny?")) %}<p>{{ _("„Po terminie”: odpowiedzi, które przyszły później, niż przewiduje regulamin. „Bez odpowiedzi”: pytania, na które termin minął, a odpowiedzi nie ma. Mediana liczy dni do pierwszej odpowiedzi; przedłużenie terminu nie jest odpowiedzią.") }}</p>{% endcall %}
 <div class="table-scroll"><table>
   <thead><tr>
     <th data-sort="text">{{ _("Adresat") }}</th>
     <th class="num" data-sort="num">{{ _("Pytania") }}</th>
     <th class="num" data-sort="num">{{ _("Z odpowiedzią") }}</th>
     <th class="num" data-sort="num">{{ _("Mediana dni") }}</th>
-    <th class="num" data-sort="num">{{ _("Po terminie") }}</th>
+    <th class="num" data-sort="num" title="{{ _("Odpowiedzi, które przyszły później, niż przewiduje regulamin") }}">{{ _("Po terminie") }}</th>
     <th class="num" data-sort="num">{{ _("Przedłużenia") }}</th>
-    <th class="num" data-sort="num">{{ _("Bez odpowiedzi") }}</th>
+    <th class="num" data-sort="num" title="{{ _("Pytania, na które termin minął, a odpowiedzi nie ma") }}">{{ _("Bez odpowiedzi") }}</th>
   </tr></thead>
   <tbody>
   {% for t in Q.recipients %}
@@ -48,7 +49,7 @@
 </table></div>
 
 <h2>{{ _("Kluby") }}</h2>
-<p class="muted">{{ _("Pytania liczone według klubu posła w dniu ich złożenia; pytanie podpisane przez posłów kilku klubów liczy się dla każdego z nich.") }}</p>
+{% call how(_("Jak liczymy?")) %}<p>{{ _("Pytania liczone według klubu posła w dniu ich złożenia; pytanie podpisane przez posłów kilku klubów liczy się dla każdego z nich.") }}</p>{% endcall %}
 <div class="table-scroll"><table>
   <thead><tr><th data-sort="text">{{ _("Klub") }}</th><th class="num" data-sort="num">{{ _("Interpelacje") }}</th><th class="num" data-sort="num">{{ _("Zapytania") }}</th></tr></thead>
   <tbody>

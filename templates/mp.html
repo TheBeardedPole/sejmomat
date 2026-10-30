@@ -1,7 +1,9 @@
 {% extends "base.html" %}
+{% set share_preset = ("mp", r.mp.firstLastName) %}
+{% from "_macros.html" import how %}
 {% from "_macros.html" import crumbs %}
 {% block title %}{{ r.mp.firstLastName }} ({{ r.mp.club }}){% endblock %}
-{% block description %}{{ r.mp.firstLastName }}, {{ clubs.get(r.mp.club, r.mp.club) }}{% if r.mp.districtName %}, {{ _("okręg") }} {{ r.mp.districtName }}{% endif %}: {{ _("udział w głosowaniach") }} {{ r.turnout | pct }}, {{ r.rebel_count }} {{ _("wyłamań z linii klubu") }}.{% endblock %}
+{% block description %}{{ r.mp.firstLastName }}, {{ clubs.get(r.mp.club, r.mp.club) }}{% if r.mp.districtName %}, {{ _("okręg") }} {{ r.mp.districtName }}{% endif %}: {{ _("udział w głosowaniach") }} {{ r.turnout | pct }}, {{ r.rebel_count }} {{ r.rebel_count | plural(_("wyłamanie z linii klubu"), _("wyłamania z linii klubu"), _("wyłamań z linii klubu")) }}.{% endblock %}
 {% from "_breakdown.html" import assets, attrs, sitting_cell, bar with context %}
 {% from "_speeches.html" import summary as speech_summary, cloud, styles as speech_styles, list_box with context %}
 {% from "_tabs.html" import bar as tab_bar with context %}
@@ -24,6 +26,18 @@
   <span class="note">· {{ _("liczone od III kadencji (1997); API Sejmu nie ma danych o wcześniejszych") }}</span></p>
   </div>
 </div>
+
+{#- opened from the home page's suggested MPs (posel/N.html?tematy=zdrowie,edukacja): this MP's
+    work in the reader's topics (static/mp-topics.js, dane/zainteresowania.json); hidden otherwise #}
+<section id="w-twoich-tematach" class="card topic-panel" hidden aria-labelledby="w-twoich-tematach-h"
+  data-mp="{{ r.mp.id }}" data-root="{{ root }}" data-src="{{ site_root }}dane/zainteresowania.json"
+  data-labels="{{ {"title": _("W Twoich tematach"), "text": _("Praca posła w tematach, które obserwujesz. Odznacz temat, by go ukryć."),
+                   "none": _("Nie znaleźliśmy pracy tego posła w wybranych tematach."), "member": _("członek"), "committee": _("Komisja"),
+                   "questions": _("{n} interpelacji i zapytań, w tym {recent} w ostatnich 90 dniach"),
+                   "bills": _("Wśród autorów projektów w temacie {topic} ({n}), ostatnio"),
+                   "allQuestions": _("Wszystkie interpelacje"), "allCommittees": _("Wszystkie komisje"),
+                   "failed": _("Nie udało się wczytać danych o tematach."), "close": _("Zamknij")} | tojson | forceescape }}"></section>
+<script src="{{ site_root }}static/mp-topics.js?v={{ static_version('mp-topics.js') }}" defer></script>
 
 <div class="grid">
   <div class="card stat"><b><a href="#posiedzenia">{{ r.turnout | pct }}</a></b>{{ _("udział w głosowaniach") }} ({{ r.cast }} {{ _("z") }} {{ r.eligible }})</div>
@@ -49,7 +63,6 @@
 {% if r.sittings %}
 <section class="tab-panel" id="posiedzenia">
 <h2 class="tab-title">{{ _("Głosowania według posiedzeń") }}</h2>
-<p class="muted">{{ _("Kliknij posiedzenie, aby zobaczyć każde głosowanie: głos posła, linię klubu i opuszczone głosowania.") }}</p>
 {{ assets() }}
 <div class="table-scroll">
 <table {{ attrs("mp", r.mp.id) }}>
@@ -67,7 +80,7 @@
   </tbody>
 </table>
 </div>
-<p class="note">{{ _("Opuszczone głosowanie to takie, w którym poseł był uprawniony do udziału, ale nie oddał głosu.") }}</p>
+{% call how(_("Jak liczymy?")) %}<p>{{ _("Opuszczone głosowanie to takie, w którym poseł był uprawniony do udziału, ale nie oddał głosu.") }}</p>{% endcall %}
 </section>
 {% endif %}
 
@@ -94,7 +107,7 @@
   {% endfor %}
   </tbody>
 </table></div>
-<p class="note">{{ _("Na podstawie przynależności zapisanej przy każdym głosowaniu; daty to pierwsze i ostatnie głosowanie w danym klubie.") }}</p>
+{% call how(_("Jak liczymy?")) %}<p>{{ _("Na podstawie przynależności zapisanej przy każdym głosowaniu; daty to pierwsze i ostatnie głosowanie w danym klubie.") }}</p>{% endcall %}
 </section>
 {% endif %}
 
@@ -144,10 +157,11 @@
   <div class="card stat"><b>{{ qs.sole }} / {{ r.questions | length - qs.sole }}</b>{{ _("złożonych samodzielnie / podpisanych z innymi posłami") }}</div>
   <div class="card stat"><b class="v-Y">{{ (qs.answered / r.questions | length) | pct }}</b>{{ _("z odpowiedzią") }}</div>
   {% if qs.median is not none %}<div class="card stat"><b>{{ qs.median }} {{ _("dni") }}</b>{{ _("typowy czas odpowiedzi (mediana)") }}</div>{% endif %}
-  <div class="card stat"><b>{{ qs.rank }}. <span class="muted" style="font-size:.6em;font-weight:400">{{ _("z") }} {{ Q.mps }}</span></b>{{ _("miejsce w Sejmie pod względem liczby pytań (mediana posła") }}: {{ Q.mp_median }})</div>
+  <div class="card stat"><b>{{ qs.rank }}. <span class="muted" style="font-size:.75em;font-weight:400">{{ _("z") }} {{ Q.mps }}</span></b>{{ _("miejsce w Sejmie pod względem liczby pytań (mediana posła") }}: {{ Q.mp_median }})</div>
 </div>
 {% if qs.late or qs.overdue %}<p>{% if qs.late %}<span class="v-A">{{ qs.late }} {{ _("odpowiedzi po terminie") }}</span>{% endif %}{% if qs.late and qs.overdue %} · {% endif %}{% if qs.overdue %}<span class="v-N">{{ qs.overdue }} {{ _("bez odpowiedzi po terminie") }}</span>{% endif %}</p>{% endif %}
-<p class="muted">{{ _("Łącznie z pytaniami podpisanymi wspólnie z innymi posłami. Tytuł prowadzi do treści pytania i odpowiedzi w serwisie Sejmu.") }} <a href="{{ root }}interpelacje.html">{{ _("Jak odpowiadają ministrowie") }} →</a></p>
+<p class="muted"><a href="{{ root }}interpelacje.html">{{ _("Jak odpowiadają ministrowie") }} →</a></p>
+{% call how(_("Jak liczymy?")) %}<p>{{ _("Łącznie z pytaniami podpisanymi wspólnie z innymi posłami. Tytuł prowadzi do treści pytania i odpowiedzi w serwisie Sejmu.") }}</p>{% endcall %}
 {{ question_list(r.questions, site_root ~ "dane/pytania/" ~ r.mp.id ~ ".json") }}
 {% else %}
 <div class="card">

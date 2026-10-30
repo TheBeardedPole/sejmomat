@@ -52,8 +52,9 @@ from sejmomat import model  # noqa: E402
 from sejmomat.model import link_amendments  # noqa: E402  (what an amendment changes, as on vote pages)
 from live_overlay import H, W, Overlay  # noqa: E402
 from live_speaker import BAND, Recogniser, load_mps, read  # noqa: E402
+import live_chat  # noqa: E402
 from sejmomat.facts import spread  # noqa: E402
-from sejmomat.social import club_short  # noqa: E402
+from sejmomat.social import club_short, shorten  # noqa: E402
 
 API = "https://api.sejm.gov.pl/sejm/term10"
 WARSAW = ZoneInfo("Europe/Warsaw")
@@ -288,6 +289,18 @@ def short_topic(topic):
     return (topic or "").rstrip(".")
 
 
+SUB_CHARS = 112   # about what a scene's subtitle line holds (18 px, the panel's width)
+
+
+def vote_topic(v):
+    """What a vote was on, for the scenes' subtitle: "poprawka 3 · ustawa o X", the
+    procedural ones by their plain name; the bill after it unless the topic is the bill."""
+    topic = short_topic(re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or ""))
+    # only an item that is a bill (a sitting's own votes, a break or the agenda, have the sitting as their item)
+    bill = live_chat.item(v) if re.search(r"projek|ustaw|uchwał", v.get("title") or "", re.I) else ""
+    return f"{topic} · {bill}" if bill and bill.lower() != topic.lower() else topic
+
+
 def captions(shown, tags, title):
     """(item lines, topic line, vote line) for the latest vote the picture has reached."""
     if not shown:
@@ -323,6 +336,10 @@ PAGE_CYCLE = 30                                         # …and faster when the
 PAGE_MIN = 5                                            # called and held (about half a minute), but no faster than this
 MAX_PAGES = 6
 PAGE_STRETCH = 4                                        # a page may run this many lines over to keep a passage whole
+RESULT_SECONDS = 12                                     # after each vote: its result full screen, seat by seat and club by club
+REACTION = 8                                            # after a vote on a whole bill: the hall's reaction, the result small, before the next amendment
+SHRINK = 0.5                                            # …in its last seconds (no amendment after it) it shrinks into a small window, bottom right
+FULL_WIDTH, FULL_LINES = 84, 10                         # then what an amendment changes, full screen: characters a line, lines a page
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
 # A break in the sitting: the broadcast holds its wide shot of the hall (tools/break/*.png,
 # thumbnails of it), with nobody named and no votes. Then the screen shows comparisons
@@ -352,7 +369,7 @@ PROMOS = [
      "url": "sejmomat.pl/sejmdle"},
     {"kind": "promo", "title": "Wesprzyj Sejmomat", "headline": "Sejmomat jest darmowy i niezależny",
      "text": "Jeśli Ci się przydaje, możesz postawić twórcy kawę.",
-     "url": "buycoffee.to/adamkoscielak"},
+     "url": "buycoffee.to/sejmomat"},
 ]
 
 
@@ -377,12 +394,13 @@ def _plain(html):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", html)).strip()
 
 
-def diff_panel(v):
-    """(heading, [page of (colour, line)]) for a vote on amendments or minority motions:
-    what the first of them changes in the bill (removed lines red, added green), or its
-    text, in pages of DIFF_LINES - 1 lines; ("", []) otherwise. Needs the report prints
-    in data/prints (git pull)."""
-    key = (v["sitting"], v["votingNumber"])
+def diff_panel(v, width=46, lines=None):
+    """(heading, [page of (colour, line)], print number) for a vote on amendments or minority
+    motions: what the first of them changes in the bill (removed lines red, added green), or
+    its text, in pages of DIFF_LINES - 1 lines; ("", [], None) otherwise. The print holds
+    them all (sejmomat.pl/<print> opens its page). Needs the report prints in data/prints
+    (git pull)."""
+    key = (v["sitting"], v["votingNumber"], width, lines)
     if key in _diffs and (_diffs[key][1][1] or time.time() - _diffs[key][0] < 60):
         return _diffs[key][1]
     if key in _diffs:
@@ -390,7 +408,7 @@ def diff_panel(v):
         for f in vars(model).values():
             if hasattr(f, "cache_clear"):
                 f.cache_clear()
-    out = ("", [])
+    out = ("", [], None)
     try:
         linked = [a for a in link_amendments({**v, "prints": None}) if a["item"]]
     except Exception:
@@ -402,10 +420,10 @@ def diff_panel(v):
         passages = []   # each a list of (colour, line), kept on one page where it fits
 
         def wrap(text, mark, colour):
-            return [(colour, line) for line in textwrap.wrap(f"{mark} {text}", 46, subsequent_indent="   ") or [mark]]
+            return [(colour, line) for line in textwrap.wrap(f"{mark} {text}", width, subsequent_indent="   ") or [mark]]
         changes = (it.get("bill_diff") or {}).get("changes") or []
         for ch in changes:
-            where = [("w", line) for line in textwrap.wrap(ch.get("where") or "", 46)]
+            where = [("w", line) for line in textwrap.wrap(ch.get("where") or "", width)]
             for r in ch.get("rows", []):
                 html = r["html"]
                 if r["state"] == "removed":
@@ -422,8 +440,8 @@ def diff_panel(v):
                     where = []
         if not passages:
             # no comparison with the bill: the amendment's own words
-            passages = [[("w", line)] for line in textwrap.wrap(_plain(it.get("text") or ""), 46)]
-        per = DIFF_LINES - 1
+            passages = [[("w", line)] for line in textwrap.wrap(_plain(it.get("text") or ""), width)]
+        per = (lines or DIFF_LINES) - 1
         pages, page = [], []
         for passage in passages:
             # a passage that fits on a page (stretched a little) is not split across pages
@@ -447,7 +465,7 @@ def diff_panel(v):
         if len(pages) > MAX_PAGES:
             pages = pages[:MAX_PAGES]
             pages[-1] = pages[-1][:per - 1] + [("w", f"… dalej w druku nr {a['source']}")]
-        out = (f"Co zmienia {what} {a['number']}" + (f" (druk {a['source']})" if a["source"] else ""), pages)
+        out = (f"Co zmienia {what} {a['number']}" + (f" (druk {a['source']})" if a["source"] else ""), pages, a["source"])
     # nothing found is tried again a minute later: the report print may not be pulled yet
     _diffs[key] = (time.time(), out)
     return out
@@ -477,6 +495,13 @@ def snapshot_command(ahead, snapshot):
             "-map", "[thumb]", "-f", "image2", "-start_number", "0", "-y", thumbs]
 
 
+# x264's speed for a stream (SEJMOMAT_PRESET): superfast takes a third less of the CPU than
+# veryfast, ultrafast two thirds, at some cost in picture at the same bitrate. The overlay is laid
+# on in yuv420 after converting it once a frame (format=auto took a fifth more). Measured on 60 s
+# of a sitting, 4 cores: x264 veryfast 7.9 s, superfast 5.0 s, ultrafast 2.8 s; the overlay 4.3 s.
+PRESET = os.environ.get("SEJMOMAT_PRESET", "superfast").strip() or "superfast"
+
+
 def ffmpeg_command(src, out, snapshot, fast=False):
     """The ffmpeg command: the stream read at normal speed and scaled to 1280x720,
     with the overlay (RGBA frames from this script, on stdin) laid over it; and,
@@ -491,14 +516,14 @@ def ffmpeg_command(src, out, snapshot, fast=False):
     bx, by, bw, bh = BAND
     scaled = f"[0:v]{FIT},fps={FPS}"
     if snapshot:
-        v = (f"{scaled},split=2[base][cap];[base][1:v]overlay=0:0:format=auto:eof_action=endall[v];"
+        v = (f"{scaled},split=2[base][cap];[1:v]format=yuva420p[ovl];[base][ovl]overlay=0:0:format=yuv420:eof_action=endall[v];"
              f"[cap]fps=1/{SNAP_EVERY},crop={bw}:{bh}:{bx}:{by}[band]")
     else:
-        v = f"{scaled}[base];[base][1:v]overlay=0:0:format=auto:eof_action=endall[v]"
+        v = f"{scaled}[base];[1:v]format=yuva420p[ovl];[base][ovl]overlay=0:0:format=yuv420:eof_action=endall[v]"
     # on a server (no terminal) the progress line once a minute, for the log
     quiet = [] if sys.stderr.isatty() else ["-stats_period", "60"]
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *quiet, *inputs, "-filter_complex", v, "-map", "[v]", "-map", "0:a?"]
-    enc = ["-c:v", "libx264", "-preset", "veryfast", "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
+    enc = ["-c:v", "libx264", "-preset", PRESET, "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
            "-pix_fmt", "yuv420p", "-g", "50", "-c:a", "aac", "-b:a", "128k", "-ar", "44100"]
     snap = ["-map", "[band]", "-f", "image2", "-start_number", "0", "-y", str(snapshot)] if snapshot else []
     if out == "preview":
@@ -526,6 +551,8 @@ def main():
     ap.add_argument("--transcript", action="store_true", help="replay: who speaks from the day's transcript (data/speeches), not the screen")
     ap.add_argument("--fast", action="store_true", help="to a file: as fast as the computer can, not in real time")
     ap.add_argument("--announce", action="store_true", help="a replay to the platform: tell the site it is on air too (live streams always do, with SEJMOMAT_LIVE_KEY set)")
+    ap.add_argument("--no-chat", action="store_true", help="no vote links in the YouTube chat (tools/live_chat.py)")
+    ap.add_argument("--chat", action="store_true", help="a replay to the platform: vote links in its chat too (live streams always have them)")
     ap.add_argument("--wait", action="store_true", help="live, unattended: wait for the day's sitting instead of stopping when there is none")
     ap.add_argument("--font", help="regular font file")
     ap.add_argument("--font-bold", help="bold font file")
@@ -617,16 +644,33 @@ def main():
             list(fetcher.map(overlay.photo, sorted({m["id"] for m in mp_pool})))
     threading.Thread(target=fetch_pool_photos, daemon=True).start()
     votes = []
+    ballots = {}   # vote number -> {MP id: "Y" | "N" | "A" | "X"}, for the break's chamber scene
+    ballot_clubs = {}   # vote number -> {MP id: club}, as the vote records it
+    want_ballots = set()   # votes the break would show seat by seat (a replay's latest is not the day's)
     lock = threading.Lock()
+    VOTE_CODE = {"YES": "Y", "NO": "N", "ABSTAIN": "A", "ABSENT": "X"}
 
     def poll():
-        # new votes every 20 s, in the background
+        # new votes every 20 s, in the background; the ballots MP by MP (the list has only totals)
+        # of the latest votes and of those the screen asked for, once per vote, checked every second
+        last, tried = 0, {}
         while True:
-            got = get_or_none(f"votings/{n}") if n else None
-            if got:
-                with lock:
-                    votes[:] = sorted(got, key=lambda v: v["votingNumber"])
-            time.sleep(20)
+            if time.time() - last >= 20:
+                last = time.time()
+                got = get_or_none(f"votings/{n}") if n else None
+                if got:
+                    with lock:
+                        votes[:] = sorted(got, key=lambda v: v["votingNumber"])
+                    want_ballots.update(v["votingNumber"] for v in votes[-3:])
+            for num in sorted(want_ballots - set(ballots)):
+                if time.time() - tried.get(num, 0) < 10:   # not there yet: again in a while
+                    continue
+                tried[num] = time.time()
+                one = get_or_none(f"votings/{n}/{num}")
+                if one and one.get("votes"):
+                    ballot_clubs[num] = {x["MP"]: x.get("club") or "niez." for x in one["votes"]}
+                    ballots[num] = {x["MP"]: VOTE_CODE.get(x.get("vote"), "X") for x in one["votes"]}
+            time.sleep(1)
     threading.Thread(target=poll, daemon=True).start()
 
     # who is speaking: the broadcast's name caption, read every SNAP_EVERY seconds
@@ -819,6 +863,157 @@ def main():
 
     agenda_turn = {"n": 0, "slot": None}
 
+    # ---- the chamber in a break (data/seating.json, from the Chancellery's seating plan): every
+    # MP's seat, coloured by club or by how they voted, lit one after another
+    import math
+    import live_overlay
+    hall = None
+    seating_path = ROOT / "data" / "seating.json"
+    if seating_path.exists():
+        plan = json.loads(seating_path.read_text(encoding="utf-8"))
+        rows = [(s["x"], s["y"] / plan["aspect"], s["mp"]) for _, s in sorted(plan["seats"].items(), key=lambda kv: int(kv[0]))]
+        club_by_mp = {m["id"]: m.get("club") or "niez." for m in load_mps(ROOT)}
+        cx = sum(r[0] for r in rows) / len(rows)
+        cy = max(r[1] for r in rows) + 0.04   # the rostrum, in front of the front rows
+        # a sweep from the left wing to the right, and a wave from the rostrum outwards
+        sweep = sorted(range(len(rows)), key=lambda i: -math.atan2(cy - rows[i][1], rows[i][0] - cx))
+        wave = sorted(range(len(rows)), key=lambda i: math.hypot(rows[i][0] - cx, rows[i][1] - cy))
+        hall = {"rows": rows, "club": club_by_mp, "sweep": sweep, "wave": wave}
+
+    def stream_short(club):
+        """A club's name on the stream's chamber scenes: as on the site, a few shorter still."""
+        return {"Konfederacja_KP": "KKP"}.get(club) or club_short(club)
+
+    def clubs_hall(t, length):
+        """Kluby na sali: the chamber filling club by club, from the left wing to the right, the
+        clubs counted as their seats come in (the largest first in the legend, every club alike)."""
+        rows, club = hall["rows"], hall["club"]
+        colour = [live_overlay.club_colour(club.get(mp)) if mp in club else None for _, _, mp in rows]
+        seats = [(x, y, c) for (x, y, _), c in zip(rows, colour)]
+        total = {}
+        for _, _, mp in rows:
+            if mp in club:
+                total[club[mp]] = total.get(club[mp], 0) + 1
+        top = sorted(total, key=lambda c: -total[c])[:6]
+
+        def legend(p):
+            lit = hall["sweep"][:round(p * len(rows))]
+            n = {}
+            for i in lit:
+                mp = rows[i][2]
+                if mp in club:
+                    n[club[mp]] = n.get(club[mp], 0) + 1
+            out = [(live_overlay.club_colour(c), f"{'niezrzeszeni' if c.startswith('niez') else stream_short(c)} {n.get(c, 0)}") for c in top]
+            rest = sum(v for c, v in n.items() if c not in top)
+            return out + ([((125, 135, 148), f"inni {rest}")] if len(total) > len(top) else [])
+
+        return overlay.hall_scene(("clubs",), "Kluby na sali", f"{sum(total.values())} posłów · miejsca według planu sali Kancelarii Sejmu",
+                                  seats, hall["sweep"], legend, t, length)
+
+    VOTE_COLOUR = {"Y": (52, 168, 96), "N": (206, 72, 72), "A": (222, 170, 58), "X": (88, 98, 116)}
+
+    def vote_hall(v, code, t, length):
+        """Jak głosował Sejm: a vote seat by seat ({MP id: Y/N/A/X}), in a wave from the rostrum
+        outwards, the four counts rising as the seats come in."""
+        rows = hall["rows"]
+        seats = [(x, y, VOTE_COLOUR.get(code.get(mp, ""), None) if mp else None) for x, y, mp in rows]
+        names = {"Y": "za", "N": "przeciw", "A": "wstrzymało się", "X": "nie głosowało"}
+
+        def legend(p):
+            n = {}
+            for i in hall["wave"][:round(p * len(rows))]:
+                c = code.get(rows[i][2])
+                if c:
+                    n[c] = n.get(c, 0) + 1
+            return [(VOTE_COLOUR[c], f"{n.get(c, 0)} {names[c]}") for c in ("Y", "N", "A", "X")]
+
+        ok = passed(v)
+        topic = vote_topic(v)
+        return overlay.hall_scene(("vote", v["sitting"], v["votingNumber"]), "Jak głosował Sejm",
+                                  f"Głosowanie nr {v['votingNumber']}, {v['date'][11:16]} · {topic}", seats, hall["wave"], legend, t, length,
+                                  badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)), note=reject_note(v))
+
+    def reject_note(v, short=False):
+        """A motion to reject a bill reads the other way round: rejecting it keeps the bill going."""
+        if "wniosek o odrzucenie" not in (v.get("topic") or "").lower():
+            return None
+        if passed(v):
+            return "Wniosek przyjęty: projekt odrzucony"
+        return "Wniosek odrzucony: projekt idzie dalej" if short else "Wniosek odrzucony: prace nad projektem trwają dalej"
+
+    result_from = {}   # vote number -> seconds after the vote its result came on screen
+    diff_from = {}     # vote number -> seconds its amendment had on screen before it
+
+    def vote_result(v, t, length):
+        """A vote just taken, full screen: the chamber seat by seat on the left (as in a break),
+        on the right every club's votes (the largest club first, every club alike), the bars
+        growing once the seats are in."""
+        code, clubs = ballots[v["votingNumber"]], ballot_clubs[v["votingNumber"]]
+        rows = hall["rows"]
+        seats = [(x, y, VOTE_COLOUR.get(code.get(mp, ""), None) if mp else None) for x, y, mp in rows]
+        names = {"Y": "za", "N": "przeciw", "A": "wstrzymało się", "X": "nie głosowało"}
+        per = {}
+        for mp, c in code.items():
+            per.setdefault(clubs.get(mp, "niez."), {"Y": 0, "N": 0, "A": 0, "X": 0})[c] += 1
+        # every club, the largest first; the independents last
+        order = sorted(per, key=lambda c: (c.startswith("niez"), -sum(per[c].values()), c))
+        biggest = max(sum(per[c].values()) for c in order)
+
+        def legend(p):
+            n = {}
+            for i in hall["wave"][:round(p * len(rows))]:
+                c = code.get(rows[i][2])
+                if c:
+                    n[c] = n.get(c, 0) + 1
+            return [(VOTE_COLOUR[c], f"{n.get(c, 0)} {names[c]}") for c in ("Y", "N", "A", "X")]
+
+        def side(d, t):
+            q = live_overlay.clamp((t - 1.0) / 2.0)
+            fb, fn = overlay.font(18, True), overlay.font(18)
+            x0, xb, bw = 612, 790, 126
+            cols = [962, 1003, 1044, 1084]   # the four counts, right-aligned
+            top, bottom = 118, (live_overlay.CMP_BOX[3] - live_overlay.CMP_BOX[1]) - 62
+            step = min(44, (bottom - top - 30) / len(order))
+            half = 9 if step >= 34 else 7   # the bars a little thinner when there are many clubs
+            for colour, x in zip(("Y", "N", "A", "X"), cols):
+                d.rounded_rectangle((x - 14, top + 2, x - 2, top + 14), 3, fill=VOTE_COLOUR[colour] + (255,))
+            for i, c in enumerate(order):
+                y = top + 30 + i * step + step / 2
+                label = "niezrzeszeni" if c.startswith("niez") else stream_short(c)
+                d.text((x0, y), overlay.fit(label, fb, xb - x0 - 10), font=fb, fill=live_overlay.club_colour(c), anchor="lm")
+                x = xb
+                for k in ("Y", "N", "A", "X"):
+                    w = per[c][k] / biggest * bw * q
+                    if w >= 1:
+                        d.rectangle((round(x), round(y - half), round(x + w), round(y + half)), fill=VOTE_COLOUR[k] + (255,))
+                    x += w
+                for k, cx in zip(("Y", "N", "A", "X"), cols):
+                    d.text((cx, y), str(round(per[c][k] * q)), font=fn if per[c][k] else fn,
+                           fill=(236, 238, 245) if per[c][k] else (110, 120, 138), anchor="rm")
+            return q >= 1
+
+        ok = passed(v)
+        topic = vote_topic(v)
+        return overlay.hall_scene(("result", v["sitting"], v["votingNumber"]), f"Głosowanie nr {v['votingNumber']}",
+                                  f"{v['date'][11:16]} · {topic}", seats, hall["wave"], legend, t, length,
+                                  badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)),
+                                  area=(30, 118, 580, (live_overlay.CMP_BOX[3] - live_overlay.CMP_BOX[1]) - 70), side=side,
+                                  note=reject_note(v))
+
+    def vote_mini(v):
+        """The small window of a vote's result (live_overlay.mini_vote)."""
+        code = ballots[v["votingNumber"]]
+        seats = [(x, y, VOTE_COLOUR.get(code.get(mp, ""), None) if mp else None) for x, y, mp in hall["rows"]]
+        n = {}
+        for c in code.values():
+            n[c] = n.get(c, 0) + 1
+        names = {"Y": "za", "N": "przeciw", "A": "wstrzymało się", "X": "nie głosowało"}
+        topic = vote_topic(v)
+        return overlay.mini_vote((v["sitting"], v["votingNumber"]), f"Głosowanie nr {v['votingNumber']}",
+                                 f"{v['date'][11:16]} · {topic}", seats,
+                                 [(VOTE_COLOUR[c], f"{n.get(c, 0)} {names[c]}") for c in ("Y", "N", "A", "X")],
+                                 ("PRZYJĘTO", (40, 150, 90)) if passed(v) else ("ODRZUCONO", (190, 60, 60)), note=reject_note(v, True))
+
     def agenda_scene(shown, t, length, slot):
         """Porządek obrad: the whole agenda, nine items a page, a page every 10 s, going on from
         where it stopped the time before; items voted on today marked (nobody can tell from the
@@ -856,6 +1051,7 @@ def main():
             follow_transcript(clock)
         with lock:
             shown = [v for v in votes if warsaw(v["date"]) <= clock]
+            nxt = next((v for v in votes if warsaw(v["date"]) > clock), None)
             # a speaker recognised ahead: theirs once the picture reaches the moment they began
             while pending and pending[0][0] <= clock:
                 speaker.update(pending.pop(0)[1])
@@ -870,21 +1066,82 @@ def main():
             length = CMP_SECONDS
             if on_break[1]:   # the break's end is known ahead: the last one leaves in time
                 length = min(CMP_SECONDS, (on_break[1] - on_break[0]).total_seconds() - slot * CMP_SECONDS)
-            # in turn: the agenda, two comparisons, today's votes, two comparisons, a word about the site
+            # in turn: the agenda, a comparison, the clubs in the chamber, today's votes, a comparison,
+            # the latest vote seat by seat, two comparisons, a word about the site
             hhmm = f"{clock:%H:%M}"
-            kind = slot % 7
-            if kind == 6 and promos:
-                return overlay.frame_scene(overlay.promo_scene(promos[(slot // 7) % len(promos)], into, length), hhmm)
+            kind = slot % 9
+            if hall and shown:
+                want_ballots.add(shown[-1]["votingNumber"])
+            if kind == 8 and promos:
+                return overlay.frame_scene(overlay.promo_scene(promos[(slot // 9) % len(promos)], into, length), hhmm)
             if kind == 0 and planned:
                 return overlay.frame_scene(agenda_scene(shown, into, length, slot), hhmm)
+            if kind == 2 and hall:
+                return overlay.frame_scene(clubs_hall(into, length), hhmm)
             if kind == 3 and shown:
                 return overlay.frame_scene(votes_scene(shown, into, length), hhmm)
-            k = (slot // 7) * 4 + {1: 0, 2: 1, 4: 2, 5: 3}.get(kind, 0)   # the comparisons' own count in the turns of seven
+            if kind == 5 and hall and shown and ballots.get(shown[-1]["votingNumber"]):
+                return overlay.frame_scene(vote_hall(shown[-1], ballots[shown[-1]["votingNumber"]], into, length), hhmm)
+            k = (slot // 9) * 4 + {1: 0, 4: 1, 6: 2, 7: 3}.get(kind, 0)   # the comparisons' own count in the turns of nine
             # clubs and a random pair of MPs taking turns
             c = mp_pair((on_break[0], slot)) if (k % 2 or not compares) and mp_pool else None   # a new pair each break
             c = c or (compares[(k // 2) % len(compares)] if compares else None)
             if c:
                 return overlay.frame_scene(overlay.compare(c, into, length), hhmm)
+        # votes full screen: what an amendment changes, before its vote (the Marshal reads it out
+        # then; live the vote is known some 40 s before the picture reaches it), then every vote's
+        # result, then that result in a small window (below)
+        decisive = lambda v: bool(v.get("yes") or v.get("no"))   # noqa: E731 - not a quorum check
+        whole = lambda v: "nad całością" in (v.get("topic") or "").lower()   # noqa: E731 - the vote on the whole bill
+        hhmm = f"{clock:%H:%M}"
+        if shown and hall and decisive(shown[-1]):
+            want_ballots.add(shown[-1]["votingNumber"])
+        if nxt and hall:
+            want_ballots.add(nxt["votingNumber"])
+        if shown and hall and decisive(shown[-1]) and since_vote < 2 * RESULT_SECONDS:
+            v = shown[-1]
+            num = v["votingNumber"]
+            # the result from when its ballots are in (a few seconds after the vote at most)
+            if num in ballot_clubs and since_vote < RESULT_SECONDS:
+                result_from.setdefault(num, since_vote)
+            start = result_from.get(num)
+            if start is not None and since_vote - start < RESULT_SECONDS:
+                t = since_vote - start
+                to_next = (warsaw(nxt["date"]) - clock).total_seconds() if nxt else 1e9
+                amend_next = not whole(v) and nxt and decisive(nxt) and diff_panel(nxt, FULL_WIDTH, FULL_LINES)[1] and to_next < RESULT_SECONDS - t + PAGE_CYCLE
+                if not amend_next and t > RESULT_SECONDS - SHRINK:
+                    # nothing more full screen: the result shrinks into its small window
+                    img, _, _ = vote_result(v, RESULT_SECONDS - SHRINK - 0.01, RESULT_SECONDS + 1)
+                    k = live_overlay.ease_in(live_overlay.clamp((t - (RESULT_SECONDS - SHRINK)) / SHRINK))
+                    box = [a + (b - a) * k for a, b in zip(live_overlay.CMP_BOX, live_overlay.MINI_BOX)]
+                    small = img.resize((round(box[2] - box[0]), round(box[3] - box[1])), Image.BILINEAR)
+                    return overlay.frame_scene((small, round(box[0]), round(box[1])), hhmm, "GŁOSOWANIE")
+                return overlay.frame_scene(vote_result(v, t, RESULT_SECONDS), hhmm, "GŁOSOWANIE")
+        if nxt and hall and decisive(nxt):
+            # the next vote on an amendment: its pages full screen, ending as the vote is taken
+            to_go = (warsaw(nxt["date"]) - clock).total_seconds()
+            head, pages, src = diff_panel(nxt, FULL_WIDTH, FULL_LINES) if to_go < PAGE_CYCLE + RESULT_SECONDS else ("", [], None)
+            if pages:
+                num = nxt["votingNumber"]
+                # the time it has: from the latest result's end (or when the vote is first known) to the vote
+                prev_end = 0
+                if shown and decisive(shown[-1]) and shown[-1]["votingNumber"] in result_from:
+                    prev_end = RESULT_SECONDS + result_from[shown[-1]["votingNumber"]] - since_vote   # seconds from now
+                    if whole(shown[-1]):   # the hall reacting to a bill passed or not: a moment on the picture
+                        prev_end += REACTION
+                window = diff_from.setdefault(num, min(PAGE_CYCLE, to_go - max(0, prev_end)))
+                begun = window - to_go
+                if window >= PAGE_MIN - 1 and 0 <= begun < window:
+                    each = window / min(len(pages), max(1, int(window // PAGE_MIN)))
+                    shown_pages = pages[:max(1, int(window // each))]
+                    page = min(int(begun // each), len(shown_pages) - 1)
+                    # which bill, where to read it all, then the vote: the bill's name cut to leave the rest whole
+                    rest = (f" · całość: sejmomat.pl/{src}" if src else "") + f" · głosowanie nr {num} za chwilę" \
+                        + (f" · strona {page + 1}/{len(pages)}" if len(pages) > 1 else "")
+                    sub = shorten(live_chat.item(nxt), SUB_CHARS - len(rest)) + rest
+                    return overlay.frame_scene(overlay.text_scene(("diff", num, page), head, sub, shown_pages[page],
+                                                                  begun - page * each, each,
+                                                                  fade=(page == 0, False)), hhmm, "GŁOSOWANIE")
         item, topic, vote = captions(shown, tags, title)
         recent = shown and (clock - warsaw(shown[-1]["date"])).total_seconds() < QUIET
         chip = note = None
@@ -905,9 +1162,17 @@ def main():
                          f"frekwencja {stats.get('frekwencja')} · wyłamania z linii klubu: {stats.get('wyłamania')}")
             else:
                 item, topic = title, "Mówca pojawi się tu, gdy transmisja go przedstawi"
-        panel = card = None
-        if recent and not floor:
-            head, pages = diff_panel(shown[-1])
+        panel = card = mini = None
+        if recent and not floor and hall and shown[-1]["votingNumber"] in ballot_clubs and decisive(shown[-1]):
+            # the picture back after the vote's full screen: its result in a small window, bottom right
+            v = shown[-1]
+            num = v["votingNumber"]
+            img = vote_mini(v)
+            x, y = live_overlay.MINI_BOX[:2]
+            mini = (img, x, y)
+        elif recent and not floor:
+            # votes going on: no cards; with the chamber, amendments are full screen before their vote
+            head, pages, _ = diff_panel(shown[-1]) if not hall else ("", [], None)
             if pages:
                 each = max(PAGE_MIN, min(PAGE_SECONDS, PAGE_CYCLE / len(pages)))
                 page = int((clock - warsaw(shown[-1]["date"])).total_seconds() // each) % len(pages)
@@ -935,7 +1200,7 @@ def main():
                     if into < length:
                         card = overlay.card(c, into, length)
                         showing["until"] = begun + length
-        return overlay.frame(item, topic, vote, panel, card, chip, note, clock=f"{clock:%H:%M}", chair=chair_now["text"])
+        return overlay.frame(item, topic, vote, panel, card, chip, note, clock=f"{clock:%H:%M}", chair=chair_now["text"], mini=mini)
 
     if args.fast and args.out in ("preview", "rtmp"):
         sys.exit("--fast is for a file.")
@@ -961,6 +1226,17 @@ def main():
                 told = True
     if on_air:
         threading.Thread(target=keep_announcing, daemon=True).start()
+    # the votes into the stream's chat as the picture reaches them (live_chat.py), when on air
+    # with the channel's YouTube login set
+    if args.out == "rtmp" and (not args.at or args.announce or args.chat) and live_chat.configured() and not args.no_chat:
+        def votes_now():
+            with lock:
+                return list(votes)
+        live_chat.VoteChat(lambda: now["clock"], votes_now, start, short_topic).start()
+        print("czat: linki do głosowań włączone", flush=True)
+    # a live sitting: its broadcast titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on air
+    if args.out == "rtmp" and not args.at and n and live_chat.configured():
+        live_chat.keep_title(n)
     viewer = subprocess.Popen(["ffplay", "-hide_banner", "-loglevel", "warning", "-window_title", "Sejmomat", "-"],
                               stdin=proc.stdout) if preview else None
     try:

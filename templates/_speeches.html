@@ -1,3 +1,4 @@
+{% from "_macros.html" import how %}
 {# Speeches in the chamber on MP, club and bill pages: figures, a word
    cloud, and the list loaded on request (static/speeches.js). Import
    "with context". #}
@@ -15,7 +16,8 @@
 {% if words %}
 <h3>{{ _("Charakterystyczne słowa") }}</h3>
 <p class="cloud" lang="pl">{% for w, x, forms in words %}{% if search %}<button type="button" class="w" data-q="{{ forms | join('|') }}" title="{{ _('Szukaj w wystąpieniach') }}" style="font-size:{{ (0.85 + 1.25 * x) | round(2) }}rem">{{ w }}</button>{% else %}<span class="w" style="font-size:{{ (0.85 + 1.25 * x) | round(2) }}rem">{{ w }}</span>{% endif %} {% endfor %}</p>
-<p class="note">{{ _("Słowa używane w wystąpieniach znacznie częściej niż średnio na sali plenarnej, w formie słownikowej: odmiany i słowa pochodne liczone są razem (słownik Morfeusz 2 / SGJP). Im większe, tym częstsze i bardziej charakterystyczne.") }}</p>
+<p class="note">{{ _("Słowa używane w tych wystąpieniach znacznie częściej niż średnio na sali. Im większe, tym bardziej charakterystyczne.") }}</p>
+{% call how(_("Jak liczymy?")) %}<p>{{ _("Słowa w formie słownikowej: odmiany i słowa pochodne liczone są razem (słownik Morfeusz 2 / SGJP). Porównujemy, jak często padają w tych wystąpieniach i średnio na sali plenarnej.") }}</p>{% endcall %}
 {% endif %}
 {%- endmacro %}
 

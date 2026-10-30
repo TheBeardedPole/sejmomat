@@ -5,7 +5,7 @@
 {% set u = upcoming %}
 {% macro when(dates) %}{{ dates[0] | date_pl }}{% if dates[-1] != dates[0] %} – {{ dates[-1] | date_pl }}{% endif %}{% endmacro %}
 {% block title %}{% if u and u.under_way %}{{ _("Trwające posiedzenie") }}{% else %}{{ _("Nadchodzące posiedzenie") }}{% endif %}{% if u %}: {{ sitting_name(u.number) }}{% endif %}{% endblock %}
-{% block description %}{% if u %}{{ sitting_name(u.number) }}, {{ when(u.dates) | trim }}: {{ _("porządek obrad") }} — {{ u.groups | sum(attribute="items", start=[]) | length }} {{ _("punktów") }}.{% else %}{{ _("Porządek obrad następnego posiedzenia Sejmu.") }}{% endif %}{% endblock %}
+{% block description %}{% if u %}{{ sitting_name(u.number) }}, {{ when(u.dates) | trim }}: {{ _("porządek obrad") }}, {{ u.groups | sum(attribute="items", start=[]) | length }} {{ _("punktów") }}.{% else %}{{ _("Porządek obrad następnego posiedzenia Sejmu.") }}{% endif %}{% endblock %}
 {% block content %}
 <style>
   .planned { columns: 2 16em; padding-left: 1.2em; }
@@ -28,7 +28,7 @@
   <div class="card stat"><b>{{ items | selectattr("kind", "equalto", "Pierwsze czytanie") | list | length }}</b>{{ _("pierwszych czytań projektów") }}</div>
   <div class="card stat"><b>{{ items | selectattr("eu") | list | length }}</b>{{ _("projektów wykonujących prawo UE") }}</div>
 </div>
-<p class="muted">{{ _("Porządek obrad opublikowany przez Sejm. Może się jeszcze zmienić, a kolejność punktów ustala Marszałek Sejmu bezpośrednio przed posiedzeniem. Po posiedzeniu znajdziesz tu wyniki głosowań.") }}</p>
+<p class="muted">{{ _("Porządek obrad może się jeszcze zmienić; kolejność punktów ustala Marszałek Sejmu tuż przed posiedzeniem.") }}</p>
 
 {% for g in u.groups %}
 <h2{% if g.heading %} lang="pl"{% endif %}>{% if g.heading %}{{ g.heading }}{% else %}{{ _("Porządek obrad") }}{% endif %}</h2>

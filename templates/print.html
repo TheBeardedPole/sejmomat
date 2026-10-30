@@ -29,7 +29,7 @@
   {% if it.law %}<p class="note"><strong>{{ _("Zmiany w obowiązującym prawie") }}</strong></p>{{ law_changes(it.law) }}{% endif %}
     {% for n in it.notes %}<p class="note">{{ _("Uwaga") }}: <span lang="pl">{{ n }}</span></p>{% endfor %}
   {% for v in decided.get((num, id), []) %}
-  <p class="note">{{ _("Głosowanie") }}: <a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ sitting_name(v.sitting) }}, {{ _("nr") }} {{ v.votingNumber }}</a> — {{ result_badge(v) }} {{ counts(v) }}</p>
+  <p class="note">{{ _("Głosowanie") }}: <a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ sitting_name(v.sitting) }}, {{ _("nr") }} {{ v.votingNumber }}</a> · {{ result_badge(v) }} {{ counts(v) }}</p>
   {% else %}
   {% if num in pending_prints %}<p class="note"><span class="badge warn">{{ _("Czeka na głosowanie") }}</span></p>
   {% else %}<p class="note">{{ _("Nie głosowano osobno (np. głosowana łącznie z inną poprawką lub bezprzedmiotowa).") }}</p>{% endif %}
@@ -63,8 +63,8 @@
 {% endfor %}
 </div>
 {% elif print_too_big(num) %}
-<p class="muted">{{ _("Dokument jest zbyt obszerny, by wyświetlić go w całości — zobacz") }} <a href="{{ print_url(num) }}">{{ _("oficjalny druk") }}</a>.</p>
+<p class="muted">{{ _("Dokument jest zbyt obszerny, by wyświetlić go w całości. Zobacz") }} <a href="{{ print_url(num) }}">{{ _("oficjalny druk") }}</a>.</p>
 {% else %}
-<p class="muted">{{ _("Tekst tego druku nie został jeszcze pobrany — zobacz") }} <a href="{{ print_url(num) }}">{{ _("oficjalny druk") }}</a>.</p>
+<p class="muted">{{ _("Tekst tego druku nie został jeszcze pobrany. Zobacz") }} <a href="{{ print_url(num) }}">{{ _("oficjalny druk") }}</a>.</p>
 {% endif %}
 {% endblock %}

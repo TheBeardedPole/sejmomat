@@ -7,36 +7,39 @@
 {{ crumbs(root, [], _("Prywatność")) }}
 <h1>{{ _("Prywatność") }}</h1>
 {% if lang == "pl" %}
-<h2>Kto prowadzi stronę</h2>
+<nav class="toc" aria-label="Na tej stronie"><ol><li><a href="#kto-prowadzi-strone">Kto prowadzi stronę</a></li><li><a href="#co-dzieje-sie-gdy-odwiedzasz-strone">Co dzieje się, gdy odwiedzasz stronę</a></li><li><a href="#dane-poslow">Dane posłów</a></li><li><a href="#twoje-prawa">Twoje prawa</a></li></ol></nav>
+<h2 id="kto-prowadzi-strone">Kto prowadzi stronę</h2>
 <p>Sejmomat jest niekomercyjnym projektem prowadzonym przez osobę prywatną: Adam Koscielak,
 kontakt: <a href="mailto:adam.s.koscielak@gmail.com">adam.s.koscielak@gmail.com</a>. W rozumieniu RODO jest on administratorem danych
 przetwarzanych w związku z działaniem strony.</p>
 
-<h2>Co dzieje się, gdy odwiedzasz stronę</h2>
+<h2 id="co-dzieje-sie-gdy-odwiedzasz-strone">Co dzieje się, gdy odwiedzasz stronę</h2>
 <ul>
   {% if GA_ID %}
-  <li><strong>Google Analytics — tylko za zgodą.</strong> Jeśli klikniesz „Zgadzam się”, strona wczyta Google Analytics (Google Ireland
+  <li><strong>Google Analytics: tylko za zgodą.</strong> Jeśli klikniesz „Zgadzam się”, strona wczyta Google Analytics (Google Ireland
       Limited), by liczyć odwiedziny i sprawdzać, które strony są czytane. Google zapisuje wtedy swoje pliki cookie (_ga) i otrzymuje
       Twój adres IP, informacje o przeglądarce i odwiedzanych podstronach; dane mogą być przekazywane do USA (na podstawie
       EU-U.S. Data Privacy Framework). Podstawą jest Twoja zgoda (art. 6 ust. 1 lit. a RODO), którą możesz w każdej chwili wycofać
-      linkiem „Ustawienia zgody” w stopce — strona usuwa wtedy pliki cookie Google. Bez zgody Google Analytics się nie wczytuje.
+      linkiem „Ustawienia zgody” w stopce; strona usuwa wtedy pliki cookie Google. Bez zgody Google Analytics się nie wczytuje.
       Poza tym strona nie ma reklam, kont, formularzy ani newslettera, a wyszukiwarka działa w Twojej przeglądarce.</li>
   {% else %}
   <li><strong>Brak plików cookie, śledzenia i reklam.</strong> Strona nie używa cookies, narzędzi analitycznych ani skryptów
-      zewnętrznych firm (poza zdjęciami posłów i nagraniami wystąpień i posiedzeń komisji, o czym niżej). Nie ma kont, formularzy ani newslettera. Wyszukiwarka działa w Twojej przeglądarce — zapytania nie są nigdzie wysyłane.</li>
+      zewnętrznych firm (poza zdjęciami posłów i nagraniami wystąpień i posiedzeń komisji, o czym niżej). Nie ma kont, formularzy ani newslettera. Wyszukiwarka działa w Twojej przeglądarce: zapytania nie są nigdzie wysyłane.</li>
   {% endif %}
   <li><strong>Logi serwera.</strong> Dostawca hostingu (Hostinger) zapisuje standardowe logi: adres IP, datę i godzinę, adres
       żądanej strony oraz informację o przeglądarce. Służą one bezpieczeństwu i utrzymaniu serwisu (art. 6 ust. 1 lit. f RODO)
       i są przechowywane przez okres stosowany przez dostawcę hostingu. Nie łączymy ich z innymi danymi.</li>
   <li><strong>Pamięć przeglądarki.</strong> W pamięci lokalnej przeglądarki (localStorage) zapisujemy Twój wybór z paska zgody.
-      Jeśli użyjesz przełącznika trybu jasnego i ciemnego, zapisujemy tam też ten wybór — to ustawienie, o które prosisz, więc nie wymaga zgody.
+      Jeśli użyjesz przełącznika trybu jasnego i ciemnego, zapisujemy tam też ten wybór. To ustawienie, o które prosisz, więc nie wymaga zgody.
       Tak samo z zainteresowaniami wybranymi na stronie głównej (lub informacją, że pominięto ten krok) i datą ich ostatniego
-      potwierdzenia: służą tylko do pokazania wydarzeń w tych tematach, nie są nigdzie wysyłane i nie trafiają do żadnych statystyk.
-      Tylko jeśli się zgodzisz, zapisujemy tam także licznik odwiedzonych podstron i datę zamknięcia informacji o możliwości
-      wsparcia projektu — po to, by pojawiała się rzadko i nie wracała po zamknięciu. Dane te nie opuszczają Twojego urządzenia.
+      potwierdzenia: służą tylko do pokazania wydarzeń w tych tematach, nie są nigdzie wysyłane i nie trafiają do żadnych statystyk;
+      podobnie to, czy zwinąłeś plan sali posiedzeń na stronie głównej.
+      Tylko jeśli się zgodzisz, zapisujemy tam także, ile czasu spędziłeś dziś na stronie i czy widziałeś już dziś okienko
+      o wsparciu projektu, po to, by pokazywało się najwyżej raz dziennie. Bez zgody nic z tego nie zapisujemy: okienko
+      może się wtedy pojawić po kilku minutach na jednej podstronie. Dane te nie opuszczają Twojego urządzenia.
       Wybór możesz zmienić w każdej chwili linkiem „Ustawienia zgody” w stopce.</li>
   <li><strong>Zdjęcia posłów.</strong> Zdjęcia na stronach posłów i w grach są wczytywane bezpośrednio z serwerów Sejmu
-      (api.sejm.gov.pl), więc serwer Sejmu otrzymuje wtedy Twój adres IP — tak jak przy wizycie na stronie Sejmu.</li>
+      (api.sejm.gov.pl), więc serwer Sejmu otrzymuje wtedy Twój adres IP, tak jak przy wizycie na stronie Sejmu.</li>
   <li><strong>Nagrania wystąpień i posiedzeń komisji.</strong> Wideo z wystąpień posłów i z posiedzeń komisji jest odtwarzane
       bezpośrednio z serwera transmisji Sejmu (sejm.c.blueonline.tv) i dopiero po kliknięciu „Wideo” lub „Nagranie”; ten serwer
       otrzymuje wtedy Twój adres IP.</li>
@@ -52,54 +55,58 @@ przetwarzanych w związku z działaniem strony.</p>
       bo bez tego gra nie mogłaby pamiętać dzisiejszego wyniku.</li>
   <li><strong>Ranking „Twarze w minutę”.</strong> Jeśli po rundzie zapiszesz wynik, na serwerze Sejmomatu zapisujemy wpisany przez
       Ciebie nick, wynik (punkty, trafienia, pomyłki) i datę; nick i wynik są publicznie widoczne w rankingu. Żeby ograniczyć nadużycia, liczymy
-      zapisy z jednego adresu IP w danym dniu — zapisujemy przy tym tylko skrót (hash) adresu połączony z datą, nie sam adres, i
+      zapisy z jednego adresu IP w danym dniu; zapisujemy przy tym tylko skrót (hash) adresu połączony z datą, nie sam adres, i
       usuwamy go po kilku dniach. Podstawą jest Twoje działanie (zapisanie wyniku) i nasz uzasadniony interes w prowadzeniu rankingu
       (art. 6 ust. 1 lit. f RODO). Nie podawaj w nicku imienia i nazwiska, jeśli nie chcesz; aby usunąć wpis, napisz na adres podany wyżej.</li>
   <li><strong>Linki zewnętrzne.</strong> Strona zawiera linki do serwisów Sejmu, GitHuba i buycoffee.to. Po kliknięciu obowiązują
       zasady prywatności tych serwisów.</li>
 </ul>
 
-<h2>Dane posłów</h2>
+<h2 id="dane-poslow">Dane posłów</h2>
 <p>Strona publikuje imiona i nazwiska posłów, ich przynależność klubową oraz sposób głosowania. Są to jawne informacje o działalności
 publicznej osób pełniących funkcje publiczne, pochodzące z oficjalnego <a href="https://api.sejm.gov.pl">API Sejmu RP</a>.
 Statystyki (np. „wyłamania z linii klubu”) są wyliczane automatycznie według zasad opisanych w
 <a href="{{ root }}metodologia.html">metodologii</a>. Jeśli zauważysz błąd, napisz na adres podany wyżej.</p>
 
-<h2>Twoje prawa</h2>
-<p>Masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania oraz wniesienia sprzeciwu —
+<h2 id="twoje-prawa">Twoje prawa</h2>
+<p>Masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania oraz wniesienia sprzeciwu:
 wystarczy napisać na adres podany wyżej. Możesz też wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych
 (<a href="https://uodo.gov.pl">uodo.gov.pl</a>).</p>
 {% else %}
-<h2>Who runs this site</h2>
+
+<nav class="toc" aria-label="On this page"><ol><li><a href="#who-runs-this-site">Who runs this site</a></li><li><a href="#what-happens-when-you-visit">What happens when you visit</a></li><li><a href="#data-about-mps">Data about MPs</a></li><li><a href="#your-rights">Your rights</a></li></ol></nav>
+<h2 id="who-runs-this-site">Who runs this site</h2>
 <p>Sejmomat is a non-commercial project run by a private individual: Adam Koscielak,
 contact: <a href="mailto:adam.s.koscielak@gmail.com">adam.s.koscielak@gmail.com</a>. Under the GDPR he is the controller of
 the data processed in connection with the site.</p>
 
-<h2>What happens when you visit</h2>
+<h2 id="what-happens-when-you-visit">What happens when you visit</h2>
 <ul>
   {% if GA_ID %}
-  <li><strong>Google Analytics — only with your consent.</strong> If you click “I agree”, the site loads Google Analytics (Google
+  <li><strong>Google Analytics: only with your consent.</strong> If you click “I agree”, the site loads Google Analytics (Google
       Ireland Limited) to count visits and see which pages are read. Google then sets its cookies (_ga) and receives your IP address,
       browser information and the pages you visit; the data may be transferred to the USA (under the EU-U.S. Data Privacy Framework).
-      The legal basis is your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time with “Consent settings” in the footer —
+      The legal basis is your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time with “Consent settings” in the footer;
       the site then removes Google's cookies. Without consent Google Analytics is not loaded. Otherwise the site has no ads,
       accounts, forms or newsletters, and search runs in your browser.</li>
   {% else %}
   <li><strong>No cookies, tracking or ads.</strong> The site uses no cookies, analytics or third-party scripts (apart from MPs' photos and speech and committee videos, see below). There are no
-      accounts, forms or newsletters. Search runs in your browser — queries are not sent anywhere.</li>
+      accounts, forms or newsletters. Search runs in your browser: queries are not sent anywhere.</li>
   {% endif %}
   <li><strong>Server logs.</strong> The hosting provider (Hostinger) keeps standard logs: IP address, date and time, the page
       requested and browser information. They serve security and maintenance (Art. 6(1)(f) GDPR) and are kept for the period
       applied by the hosting provider. We do not combine them with other data.</li>
   <li><strong>Browser storage.</strong> The browser's local storage (localStorage) holds your choice from the consent bar.
-      If you use the light/dark switch, it also holds that choice — a setting you asked for, so it needs no consent.
+      If you use the light/dark switch, it also holds that choice, a setting you asked for, so it needs no consent.
       The same goes for the interests you pick on the home page (or the note that you skipped that step) and the date you last
-      confirmed them: they are used only to show events in those topics, are never sent anywhere and never go into any statistics.
-      Only if you agree, it also holds a count of pages you have viewed and the date you closed the note about supporting the
-      project — so that the note appears rarely and does not come back after you close it. This never leaves your device.
+      confirmed them: they are used only to show events in those topics, are never sent anywhere and never go into any statistics;
+      likewise whether you folded the seating plan on the home page.
+      Only if you agree, it also holds how long you have spent on the site today and whether you have seen the window about
+      supporting the project today, so that it appears at most once a day. Without consent none of this is stored: the window
+      may then appear after a few minutes on one page. This never leaves your device.
       You can change your choice at any time with the “Consent settings” link in the footer.</li>
   <li><strong>Photos of MPs.</strong> Photos on MP pages and in the games are loaded directly from the Sejm's servers
-      (api.sejm.gov.pl), so the Sejm's server receives your IP address — as it would if you visited the Sejm's website.</li>
+      (api.sejm.gov.pl), so the Sejm's server receives your IP address, as it would if you visited the Sejm's website.</li>
   <li><strong>Speech and committee videos.</strong> Videos of MPs' speeches and of committee meetings play directly from the
       Sejm's streaming server (sejm.c.blueonline.tv), and only after you click “Video” or “Recording”; that server then receives
       your IP address.</li>
@@ -115,7 +122,7 @@ the data processed in connection with the site.</p>
       otherwise the game could not remember today's result.</li>
   <li><strong>"Twarze w minutę" leaderboard.</strong> If you save a result after a round, Sejmomat's server stores the nickname
       you typed, your result (points, hits, misses) and the date; nickname and result are shown publicly on the leaderboard. To
-      limit abuse we count saves from one IP address per day — storing only a hash of the address combined with the date, not the
+      limit abuse we count saves from one IP address per day, storing only a hash of the address combined with the date, not the
       address itself, and deleting it after a few days. The basis is your action (saving the result) and our legitimate interest in
       running the leaderboard (Art. 6(1)(f) GDPR). Don't use your real name as a nickname unless you want to; to remove an entry,
       write to the address above.</li>
@@ -123,14 +130,14 @@ the data processed in connection with the site.</p>
       services' privacy rules apply.</li>
 </ul>
 
-<h2>Data about MPs</h2>
+<h2 id="data-about-mps">Data about MPs</h2>
 <p>The site publishes MPs' names, club membership and votes. This is public information about the public activity of people
 holding public office, taken from the official <a href="https://api.sejm.gov.pl">Sejm API</a>. Statistics (such as “votes against
 the club line”) are computed automatically as described in the <a href="{{ root }}metodologia.html">methodology</a>.
 If you spot an error, write to the address above.</p>
 
-<h2>Your rights</h2>
-<p>You have the right to access your data, have it corrected or erased, restrict its processing and object to it — just write
+<h2 id="your-rights">Your rights</h2>
+<p>You have the right to access your data, have it corrected or erased, restrict its processing and object to it: just write
 to the address above. You can also lodge a complaint with the Polish data protection authority, UODO
 (<a href="https://uodo.gov.pl">uodo.gov.pl</a>).</p>
 {% endif %}

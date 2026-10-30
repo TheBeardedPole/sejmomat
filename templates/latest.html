@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% from "_section_nav.html" import section_nav with context %}
+{% from "_macros.html" import result_badge, counts, author_label, crumbs %}
+{# The latest sitting at a glance: what was decided, with links to every vote (was on the
+   home page; now in the Posiedzenia menu). #}
+{% set L = latest %}
+{% block title %}{{ _("Ostatnie posiedzenie") }}: {{ sitting_name(L.sitting) }}{% endblock %}
+{% block description %}{{ sitting_name(L.sitting) }}, {{ L.votes[0].date | date_range(L.votes[-1].date) }}: {{ L.bills | length }} {{ L.bills | length | plural(_("projekt rozstrzygnięty w całości"), _("projekty rozstrzygnięte w całości"), _("projektów rozstrzygniętych w całości")) }}, {{ L.votes | length }} {{ L.votes | length | plural(_("głosowanie"), _("głosowania"), _("głosowań")) }}.{% endblock %}
+{% block content %}
+{{ crumbs(root, [(root ~ "posiedzenia.html", _("Posiedzenia"))], _("Ostatnie posiedzenie")) }}
+<h1>{{ _("Ostatnie posiedzenie") }}: {{ sitting_name(L.sitting) }}</h1>
+{{ section_nav("sittings", "ostatnie-posiedzenie.html") }}
+<p class="tagline">{{ L.votes[0].date | date_range(L.votes[-1].date) }}</p>
+<div class="latest-stats">
+  <p class="st"><b>{{ L.votes | length }}</b><span>{{ L.votes | length | plural(_("głosowanie"), _("głosowania"), _("głosowań")) }}</span></p>
+  <p class="st"><b>{{ L.passed }}</b><span>{{ _("uchwalonych ustaw i uchwał") }}</span></p>
+  <p class="st"><b>{{ L.adopted_amendments }}</b><span>{{ _("przyjętych poprawek i wniosków") }}</span></p>
+  <p class="st"><b>{{ L.against_rec | length }}</b><span>{{ _("rozstrzygnięć wbrew rekomendacji komisji") }}</span></p>
+</div>
+
+<section aria-labelledby="rozstrzygniete-h">
+<h2 id="rozstrzygniete-h">{{ _("Projekty rozstrzygnięte w całości") }} ({{ L.bills | length }})</h2>
+{% if L.bills %}
+{#- the first few; the rest open with a button (static/app.js), all shown without scripts #}
+{%- set SHOWN = 15 %}
+<div class="card table-card"><div class="table-scroll"><table id="latest-bills" class="home-bills"><tbody>
+{% for row in L.bills %}{% set v = row.v %}
+<tr{% if loop.index > SHOWN %} class="extra"{% endif %}>
+  <td lang="pl">{% if row.bill %}<a href="{{ root }}ustawa/{{ row.bill.root }}.html">{{ row.bill.title }}</a>{% else %}{{ v.agenda }}{% endif %}
+    <div class="snippet">{% if row.bill and row.bill.author %}{{ author_label(row.bill.author) }} · {% endif %}<a href="{{ root }}glosowanie/{{ v.sitting }}-{{ v.votingNumber }}.html">{{ v.topic }}</a>{% if row.amendment_votes %} · {{ row.amendment_votes }} {{ row.amendment_votes | plural(_("głosowanie nad poprawkami i wnioskami"), _("głosowania nad poprawkami i wnioskami"), _("głosowań nad poprawkami i wnioskami")) }}{% endif %}</div></td>
+  <td>{{ result_badge(v) }}</td>
+  <td class="num" style="white-space:nowrap">{{ counts(v) }}</td>
+</tr>
+{% endfor %}
+</tbody></table></div></div>
+{% if L.bills | length > SHOWN %}<p><button type="button" class="link-btn" data-show-all="latest-bills" hidden>{{ _("Pokaż wszystkie") }} ({{ L.bills | length }})</button></p>{% endif %}
+{% else %}
+<p class="muted">{{ _("Na tym posiedzeniu nie rozstrzygnięto żadnego projektu w całości.") }}</p>
+{% endif %}
+</section>
+<p class="more-links"><a href="{{ root }}posiedzenie/{{ L.sitting }}.html">{{ _("Wszystkie głosowania tego posiedzenia") }} →</a> · <a href="{{ root }}posiedzenia.html">{{ _("Wszystkie posiedzenia") }} →</a> · <a href="{{ root }}ustawy.html">{{ _("Wszystkie ustawy") }} →</a></p>
+{% endblock %}

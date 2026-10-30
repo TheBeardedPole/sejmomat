@@ -9,11 +9,13 @@
         a page's section is marked in the nav #}
     {%- set sections = [
       ("posiedzenia.html", _("Posiedzenia"), ("posiedzeni", "glosowanie", "porownaj"), [
+        ("ostatnie-posiedzenie.html", _("Ostatnie posiedzenie"), ("ostatnie-posiedzenie",)),
         ("nadchodzace-posiedzenie.html", _("Nadchodzące posiedzenie"), ("nadchodzace",)),
         ("transmisje.html", _("Harmonogram transmisji"), ("transmisje",))]),
       ("ustawy.html", _("Ustawy"), ("ustaw", "druk", "zamrazarka", "temat"), []),
       ("poprawki.html", _("Poprawki"), ("poprawki", "skuteczne-poprawki"), []),
       ("poslowie.html", _("Posłowie"), ("posel", "poslowie"), [
+        ("poslowie.html", _("Lista posłów"), ("poslowie",)),
         ("kluby.html", _("Kluby"), ("klub",)),
         ("interpelacje.html", _("Interpelacje"), ("interpelacje",))]),
       ("komisje.html", _("Komisje"), ("komisj",), []),
@@ -35,7 +37,8 @@
           {%- endif %}
         </li>
       {%- endfor %}
-        {#- on phones the language switch moves here, into the menu, so the header keeps to one row #}
+        {#- on phones the images to share and the language switch move here, into the menu, so the header keeps to one row #}
+        <li class="nav-item nav-phone">{% if path.startswith("sejmdle") %}<a href="{{ root }}index.html#grafiki">{{ _("Grafiki do udostępnienia") }}</a>{% else %}<button type="button" class="nav-menu-btn" data-share-open aria-haspopup="dialog" aria-controls="grafiki">{{ _("Grafiki do udostępnienia") }}</button>{% endif %}</li>
         <li class="nav-item nav-lang">{% if lang == "pl" %}<a href="{{ alternates.en }}" hreflang="en" lang="en">English</a>{% else %}<a href="{{ alternates.pl }}" hreflang="pl" lang="pl">Polski</a>{% endif %}</li>
       </ul>
     </nav>
@@ -43,11 +46,16 @@
     <form class="site-search" role="search" action="{{ root }}szukaj.html">
       <label class="visually-hidden" for="site-q">{{ _("Szukaj") }}</label>
       <input id="site-q" type="search" name="q" placeholder="{{ _("Szukaj…") }}" autocomplete="off" enterkeyhint="search">
-      {#- with scripts the field folds into this button until it is wanted (static/header.js) #}
-      <button type="button" class="search-toggle" aria-expanded="false" aria-controls="site-q" title="{{ _("Szukaj") }}"><span class="visually-hidden">{{ _("Szukaj") }}</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
     </form>
     {%- endif %}
-    {#- the daily games, apart from the sections, next to search #}
+    {#- images to share (the window in templates/base.html; Sejmdle's page has none, so there it
+        leads to the home page's) and the daily games, apart from the sections, next to search #}
+    {%- set share_icon %}<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2.5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="9" cy="10" r="2" fill="currentColor"/><path d="m21 16-5-5-9 9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>{% endset %}
+    {%- if path.startswith("sejmdle") %}
+    <a class="nav-share" href="{{ root }}index.html#grafiki" title="{{ _("Grafiki do udostępnienia") }}">{{ share_icon }}<span class="nav-share-text">{{ _("Grafiki") }}</span></a>
+    {%- else %}
+    <button type="button" class="nav-share" data-share-open aria-haspopup="dialog" aria-controls="grafiki" title="{{ _("Grafiki do udostępnienia") }}">{{ share_icon }}<span class="nav-share-text">{{ _("Grafiki") }}</span></button>
+    {%- endif %}
     <a class="nav-game" href="{{ site_root }}sejmdle/"{% if path.startswith("sejmdle") %} aria-current="page"{% endif %}><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1" y="1" width="6" height="6" rx="1.5"/><rect x="9" y="1" width="6" height="6" rx="1.5" opacity=".55"/><rect x="1" y="9" width="6" height="6" rx="1.5" opacity=".55"/><rect x="9" y="9" width="6" height="6" rx="1.5"/></svg><span class="nav-game-text">Sejmdle</span></a>
     <div class="tools">
       <div class="lang">

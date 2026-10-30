@@ -24,7 +24,17 @@ if [ ! -f /etc/sejmomat-live.env ]; then
         '# outside Poland the video CDN does not answer: a proxy in Poland (tools/vps/proxy-setup.sh), e.g.' \
         '# SEJMOMAT_VIDEO_PROXY=http://203.0.113.5:8888' \
         '# the key the stream tells the site it is on air with (its SHA-256 in server/youtube-live.php):' \
-        '# SEJMOMAT_LIVE_KEY=' > /etc/sejmomat-live.env
+        '# SEJMOMAT_LIVE_KEY=' \
+        '# x264 speed if the server cannot keep up ("behind real time" growing in the log): ultrafast' \
+        '# SEJMOMAT_PRESET=superfast' \
+        '# vote links in the stream'"'"'s chat: the lines `python tools/live_chat.py auth` prints' \
+        '# SEJMOMAT_YT_CLIENT_ID=' \
+        '# SEJMOMAT_YT_CLIENT_SECRET=' \
+        '# SEJMOMAT_YT_REFRESH_TOKEN=' \
+        '# seconds a vote message waits beyond the picture (YouTube shows the video later than chat):' \
+        '# SEJMOMAT_CHAT_LAG=12' \
+        '# a sitting'"'"'s broadcast title once live ({n}: the sitting):' \
+        '# SEJMOMAT_YT_TITLE={n}. Posiedzenie Sejmu | Lepsza Transmisja' > /etc/sejmomat-live.env
 fi
 chown root:sejmomat /etc/sejmomat-live.env
 chmod 640 /etc/sejmomat-live.env

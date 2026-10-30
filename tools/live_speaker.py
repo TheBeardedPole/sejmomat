@@ -9,6 +9,7 @@ guests) are not shown.
 """
 import difflib
 import json
+import os
 import re
 import subprocess
 import unicodedata
@@ -51,8 +52,11 @@ def read(path):
     out = Path(path).with_suffix(".ocr.png")
     bw.save(out)
     try:
-        return subprocess.run(["tesseract", str(out), "-", "-l", "pol", "--psm", "6"],
-                              capture_output=True, text=True, timeout=20).stdout
+        # one thread, below the stream: by itself Tesseract spreads one small picture over every
+        # core, at the stream's priority, taking turns from the encoder once a second
+        return subprocess.run(["nice", "-n", "10", "tesseract", str(out), "-", "-l", "pol", "--psm", "6"],
+                              capture_output=True, text=True, timeout=20,
+                              env={**os.environ, "OMP_THREAD_LIMIT": "1"}).stdout
     except (FileNotFoundError, subprocess.TimeoutExpired):
         return ""
 

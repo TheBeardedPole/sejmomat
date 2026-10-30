@@ -24,7 +24,7 @@
   }
   // Submenus in the header (Posiedzenia, Ustawy, Posłowie): open on hover with a mouse
   // (static/header.css) and with their ▾ button from the keyboard or a touch screen;
-  // Escape, a click elsewhere or focus leaving one closes it. Below 1060px they are
+  // Escape, a click elsewhere or focus leaving one closes it. Below 1360px they are
   // listed open under their section in the folded menu, and the buttons are hidden.
   const subToggles = [...document.querySelectorAll("header.top .sub-toggle")];
   const closeSubs = (except) => subToggles.forEach((b) => {
@@ -57,42 +57,26 @@
       if (!e.target.closest?.("header.top .nav-item")) closeSubs();
     });
   }
-  // Search folds into its button (static/header.css): opened, the field takes the
-  // sections' place; Escape, or leaving it empty, folds it again.
-  const search = topBar?.querySelector(".site-search");
-  const searchToggle = search?.querySelector(".search-toggle");
-  if (searchToggle) {
-    const field = search.querySelector("input");
-    const phone = matchMedia("(max-width: 640px)");
-    // how far the field may grow to the left: over the sections up to the logo, on phones over the logo too
-    const room = () => {
-      const right = search.getBoundingClientRect().right;
-      const wrap = topBar.querySelector(".wrap");
-      const left = phone.matches
-        ? wrap.getBoundingClientRect().left + parseFloat(getComputedStyle(wrap).paddingLeft)
-        : topBar.querySelector(".brand").getBoundingClientRect().right + 16;
-      return Math.max(160, Math.min(460, right - left));
+  // "Grafiki do udostępnienia": the window is on every page (templates/base.html), its
+  // scripts (static/card.js, static/share.js) load on the first click; #grafiki in the
+  // address opens it (the header's link on Sejmdle's page leads there).
+  const shareBox = document.getElementById("grafiki");
+  if (shareBox) {
+    let loading = null;
+    const openShare = () => {
+      loading ??= Promise.all((shareBox.dataset.scripts || "").split(" ").filter(Boolean).map((src) => new Promise((resolve, reject) => {
+        const tag = Object.assign(document.createElement("script"), { src, async: false });
+        tag.onload = resolve;
+        tag.onerror = reject;
+        document.head.append(tag);
+      }))).catch((e) => { loading = null; throw e; });
+      loading.then(() => window.SejmomatShare?.open()).catch(() => {});
+      if (topBar?.classList.contains("nav-open") && navToggle) navToggle.click();
     };
-    const setSearch = (open) => {
-      if (open) search.style.setProperty("--search-w", `${room()}px`);
-      topBar.classList.toggle("search-open", open);
-      searchToggle.setAttribute("aria-expanded", String(open));
-      if (open) {
-        if (topBar.classList.contains("nav-open") && navToggle) navToggle.click();
-        field.focus();
-      }
-    };
-    searchToggle.addEventListener("click", () => setSearch(true));
-    field.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") {
-        field.value = "";
-        setSearch(false);
-        searchToggle.focus();
-      }
+    document.addEventListener("click", (e) => {
+      if (e.target.closest?.("[data-share-open]")) openShare();
     });
-    field.addEventListener("blur", () => {
-      if (!field.value.trim()) setSearch(false);
-    });
+    if (location.hash === "#grafiki") openShare();
   }
   // Light/dark switch in the header. The choice is kept in localStorage (a
   // setting the reader asked for, so no consent needed) and applied by the

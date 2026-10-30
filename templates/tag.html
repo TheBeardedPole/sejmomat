@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "_macros.html" import result_badge, counts, author_label, crumbs %}
-{% block title %}{{ t.tag }} — {{ _("temat") }}{% endblock %}
+{% block title %}{{ t.tag }} · {{ _("temat") }}{% endblock %}
 {% block description %}{{ _("Projekty i głosowania na temat") }}: {{ t.tag }}.{% endblock %}
 {% block content %}
 {{ crumbs(root, [(root ~ "tematy.html", _("Tematy"))], t.tag, "pl") }}

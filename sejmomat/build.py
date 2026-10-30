@@ -35,11 +35,11 @@ KIND_LABEL = {"amendment": "Poprawka", "minority": "Wniosek mniejszości", "sena
 # and outcome wording per kind. Patterns are matched against the lowercased topic.
 MOTIONS = [
     ("reject_info", r"odrzuceni\w* (informacji|sprawozdania|dokumentu)",
-     "Głosowanie nad wnioskiem o odrzucenie informacji lub sprawozdania: „za” oznacza odrzucenie dokumentu, „przeciw” — jego przyjęcie do wiadomości.",
-     ("Wniosek przyjęty — dokument odrzucony", "Wniosek odrzucony — dokument nie został odrzucony")),
+     "Głosowanie nad wnioskiem o odrzucenie informacji lub sprawozdania: „za” oznacza odrzucenie dokumentu, „przeciw” jego przyjęcie do wiadomości.",
+     ("Wniosek przyjęty: dokument odrzucony", "Wniosek odrzucony: dokument nie został odrzucony")),
     ("reject_bill", r"odrzuceni\w*|wniosek o odrzucenie",
-     "Głosowanie nad wnioskiem o odrzucenie projektu: „za” oznacza odrzucenie projektu i koniec prac nad nim, „przeciw” — że projekt trafia do dalszych prac.",
-     ("Wniosek przyjęty — projekt odrzucony", "Wniosek odrzucony — projekt trafia do dalszych prac")),
+     "Głosowanie nad wnioskiem o odrzucenie projektu: „za” oznacza odrzucenie projektu i koniec prac nad nim, „przeciw”, że projekt trafia do dalszych prac.",
+     ("Wniosek przyjęty: projekt odrzucony", "Wniosek odrzucony: projekt trafia do dalszych prac")),
     ("no_confidence", r"wotum nieufności",
      "Głosowanie nad wotum nieufności: „za” oznacza poparcie dla odwołania. Konstruktywne wotum nieufności wobec rządu wymaga większości ustawowej liczby posłów (231 głosów).",
      ("Wotum nieufności uchwalone", "Wotum nieufności nieuchwalone")),
@@ -48,7 +48,7 @@ MOTIONS = [
      ("Wotum zaufania udzielone", "Wotum zaufania nieudzielone")),
     ("skip_committee", r"bez (kierowania|odsyłania)|niezwłoczne przystąpienie|przejście do drugiego czytania",
      "Głosowanie nad wnioskiem o przyspieszenie prac: „za” oznacza, że projekt od razu przechodzi do kolejnego etapu bez prac w komisji.",
-     ("Wniosek przyjęty — bez kierowania do komisji", "Wniosek odrzucony")),
+     ("Wniosek przyjęty: bez kierowania do komisji", "Wniosek odrzucony")),
     ("adjourn", r"wniosek o (przerwę|odroczenie posiedzenia|zamknięcie posiedzenia)",
      "Wniosek formalny o przerwę, odroczenie lub zamknięcie posiedzenia: „za” oznacza przerwanie obrad.",
      ("Wniosek przyjęty", "Wniosek odrzucony")),
@@ -65,9 +65,9 @@ def motion(v):
     topic = (v.get("topic") or "").lower()
     if v["senate"] and "odrzuc" in topic:
         return ("reject_senate",
-                "Senat zaproponował odrzucenie ustawy. „Za” oznacza odrzucenie uchwały Senatu — ustawa zostaje przyjęta; "
+                "Senat zaproponował odrzucenie ustawy. „Za” oznacza odrzucenie uchwały Senatu, a więc przyjęcie ustawy; "
                 "potrzebna jest bezwzględna większość. W przeciwnym razie ustawa upada.",
-                ("Uchwała Senatu odrzucona — ustawa przyjęta", "Uchwała Senatu utrzymana — ustawa odrzucona"))
+                ("Uchwała Senatu odrzucona: ustawa przyjęta", "Uchwała Senatu utrzymana: ustawa odrzucona"))
     for kind, pattern, note, outcomes in MOTIONS:
         if re.search(pattern, topic):
             return kind, note, outcomes
@@ -984,6 +984,9 @@ def _pages(ctx):
     yield "privacy.html", "prywatnosc.html", {}
     yield "summaries.html", "podsumowania.html", {}
     yield "upcoming.html", "nadchodzace-posiedzenie.html", {}
+    yield "latest.html", "ostatnie-posiedzenie.html", {}
+    yield "events.html", "wydarzenia.html", {}
+    yield "mps_for_you.html", "poslowie-dla-ciebie.html", {}
     yield "schedule.html", "transmisje.html", {}
     yield "questions.html", "interpelacje.html", {}
     yield "committees.html", "komisje.html", {}
@@ -1136,6 +1139,10 @@ def run():
         interests.build(ctx, processes.load(), committee_list, today=ctx["generated"].date(), en=translator("en")),
         ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
+    sala = interests.hall(ctx, committee_list, today=ctx["generated"].date())
+    if sala:
+        (SITE / "dane" / "sala.json").write_text(json.dumps(sala, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
     write_api({**ctx, "print_meta": print_meta, "source_items": source_items}, ctx["generated"])
 
     # Apache/LiteSpeed hosting (e.g. Hostinger): let other sites use the API,
@@ -1145,6 +1152,11 @@ def run():
         "AddType application/json .json\n")
     (SITE / ".htaccess").write_text(
         "AddDefaultCharset UTF-8\n"
+        # short links to a print, said on the stream: sejmomat.pl/3242 -> druk/3242.html, also
+        # an additional report, sejmomat.pl/3242-A (a #poprawka-5 after it is kept by the browser
+        # through the redirect)
+        "<IfModule mod_rewrite.c>\n  RewriteEngine On\n"
+        "  RewriteRule ^([0-9]{1,5}(-[A-Z])?)/?$ /druk/$1.html [R=302,L]\n</IfModule>\n"
         "<IfModule mod_deflate.c>\n"
         "  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json application/xml\n"
         "</IfModule>\n"

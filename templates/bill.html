@@ -2,7 +2,7 @@
 {% from "_speeches.html" import styles as speech_styles, list_box with context %}
 {% from "_macros.html" import tag_chips, vote_row, print_link, law_changes, author_label, mp_link, crumbs %}
 {% block title %}{{ b.title | truncate(110) }}{% endblock %}
-{% block description %}{{ b.title }} — {{ b.votings | length }} {{ _("głosowań") }}, {{ _("Nad poprawkami") | lower }}: {{ b.amend_count }}. {{ _("Ostatnie głosowanie") }}: {{ b.last | date_pl }}.{% endblock %}
+{% block description %}{{ b.title }}: {{ b.votings | length }} {{ b.votings | length | plural(_("głosowanie"), _("głosowania"), _("głosowań")) }}, {{ _("Nad poprawkami") | lower }}: {{ b.amend_count }}. {{ _("Ostatnie głosowanie") }}: {{ b.last | date_pl }}.{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
 {{ crumbs(root, [(root ~ "ustawy.html", _("Ustawy"))], _("druk nr") ~ " " ~ b.root) }}
@@ -10,7 +10,7 @@
 {% if b.tags %}<p>{{ tag_chips(b.tags, root) }}</p>{% endif %}
 {% if b.author %}
 <p><strong>{{ _("Autor projektu") }}:</strong> {{ author_label(b.author) }}
-{% if b.author.clubs %}<span class="muted">— {{ b.author.mps | length }} {{ _("podpisów posłów") }}:
+{% if b.author.clubs %}<span class="muted">· {{ b.author.mps | length }} {{ b.author.mps | length | plural(_("podpis posła"), _("podpisy posłów"), _("podpisów posłów")) }}:
   {% for club, n in b.author.clubs %}<a href="{{ root }}klub/{{ club_slug(club) }}.html">{{ club }}</a> {{ n }}{{ ", " if not loop.last }}{% endfor %}</span>{% endif %}</p>
 {% if b.author.mps %}
 <details class="signers"><summary>{{ _("Posłowie podpisani pod projektem") }} ({{ b.author.mps | length }})</summary>

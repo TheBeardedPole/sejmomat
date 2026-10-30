@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% from "_macros.html" import crumbs %}
+{% from "_section_nav.html" import section_nav with context %}
+{% from "_for_you.html" import for_you with context %}
+{# Every suggested MP in the reader's topics, three to a row (static/home.js, page "mps");
+   the home page shows one per club in a row that scrolls. #}
+{% block title %}{{ _("Posłowie, którzy mogą Cię zainteresować") }}{% endblock %}
+{% block description %}{{ _("Posłowie każdego klubu, którzy najwięcej pracują nad tematami, które obserwujesz: w komisjach, interpelacjach i projektach ustaw.") }}{% endblock %}
+{% block content %}
+{{ crumbs(root, [(root ~ "poslowie.html", _("Posłowie"))], _("Posłowie, którzy mogą Cię zainteresować")) }}
+<h1>{{ _("Posłowie, którzy mogą Cię zainteresować") }}</h1>
+{{ section_nav("mps", "poslowie-dla-ciebie.html") }}
+<noscript><p>{{ _("Ta strona działa w przeglądarce: tematy, które obserwujesz, zostają tylko u Ciebie. Włącz JavaScript, by ją zobaczyć.") }}</p></noscript>
+{{ for_you("mps") }}
+<script src="{{ site_root }}static/home.js?v={{ static_version('home.js') }}" defer></script>
+{% endblock %}
