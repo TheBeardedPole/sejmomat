@@ -18,6 +18,10 @@
   };
   const link = (href, text) => el("a", { href, textContent: text });
   const cap = (s) => s && `${s[0].toUpperCase()}${s.slice(1)}`;
+  const plural = (n, [one, few, many]) => {   // as in static/home.js
+    if (n === 1) return one;
+    return n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? few : many;
+  };
 
   fetch(box.dataset.src).then((r) => {
     if (!r.ok) throw new Error(r.status);
@@ -41,7 +45,10 @@
           if (w.k === "committee") {
             items.push([0, el("li", {}, `${cap(w.fn || L.member)} · `, link(`${ROOT}komisja/${w.code}.html`, data.committees[w.code] || w.code))]);
           } else if (w.k === "questions") {
-            items.push([2, el("li", {}, link("#interpelacje", L.questions.replace("{n}", w.n).replace("{recent}", w.recent)), ` (${w.to.join(", ")})`)]);
+            // (pages built before the plural forms have one string with both counts)
+            const text = typeof L.questions === "string" ? L.questions.replace("{n}", w.n).replace("{recent}", w.recent)
+              : plural(w.n, L.questions).replace("{n}", w.n) + (w.recent ? L.recent.replace("{recent}", w.recent) : "");
+            items.push([2, el("li", {}, link("#interpelacje", text), ` (${w.to.join(", ")})`)]);
           } else {
             items.push([1, el("li", {}, `${L.bills.replace("{n}", w.n).replace("{topic}", nameOf(id))} · `,
               link(`${ROOT}ustawa/${w.root}.html`, data.bills[w.root] || w.root))]);
@@ -69,11 +76,12 @@
       box.hidden = true;
       history.replaceState(null, "", location.pathname);
     });
-    box.replaceChildren(
+    // (replaceChildren would print a null as "null")
+    box.replaceChildren(...[
       el("div", { className: "topic-panel-head" }, el("h2", { id: "w-twoich-tematach-h", textContent: L.title }), close),
       el("p", { className: "muted", textContent: topics.length ? L.text : L.none }),
       topics.length ? el("div", { className: "interest-chips" }, chips) : null,
-      topics.length ? list : null, topics.length ? empty : null);
+      topics.length ? list : null, topics.length ? empty : null].filter(Boolean));
     render();
     box.hidden = false;
     if (location.hash === "#w-twoich-tematach") box.scrollIntoView({ block: "start" });
