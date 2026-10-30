@@ -33,7 +33,8 @@
   data-mp="{{ r.mp.id }}" data-root="{{ root }}" data-src="{{ site_root }}dane/zainteresowania.json"
   data-labels="{{ {"title": _("W Twoich tematach"), "text": _("Praca posła w tematach, które obserwujesz. Odznacz temat, by go ukryć."),
                    "none": _("Nie znaleźliśmy pracy tego posła w wybranych tematach."), "member": _("członek"), "committee": _("Komisja"),
-                   "questions": _("{n} interpelacji i zapytań, w tym {recent} w ostatnich 90 dniach"),
+                   "questions": [_("{n} interpelacja lub zapytanie"), _("{n} interpelacje i zapytania"), _("{n} interpelacji i zapytań")],
+                   "recent": _(", w tym {recent} w ostatnich 90 dniach"),
                    "bills": _("Wśród autorów projektów w temacie {topic} ({n}), ostatnio"),
                    "allQuestions": _("Wszystkie interpelacje"), "allCommittees": _("Wszystkie komisje"),
                    "failed": _("Nie udało się wczytać danych o tematach."), "close": _("Zamknij")} | tojson | forceescape }}"></section>
