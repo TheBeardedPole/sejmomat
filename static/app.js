@@ -573,7 +573,11 @@ if (foot) {
     e.preventDefault();
     consentBar.hidden = false;
   });
-  foot.append(" · ", h("a", { href: `${ROOT}statystyki.html`, textContent: T.stats }), " · ", privacyLink(), " · ", settings);
+  // after the site's links, before the credit line at the end
+  const links = [" · ", h("a", { href: `${ROOT}statystyki.html`, textContent: T.stats }), " · ", privacyLink(), " · ", settings];
+  const credit = foot.querySelector(".foot-credit");
+  if (credit) credit.before(...links);
+  else foot.append(...links);
 }
 const consent = readConsent();
 // for static/yt.js: the reader's current consent (of this version) to the optional services

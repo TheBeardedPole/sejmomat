@@ -28,6 +28,10 @@
 <link rel="apple-touch-icon" href="{{ site_root }}static/apple-touch-icon.png">
 <link rel="stylesheet" href="{{ site_root }}static/header.css?v={{ static_version('header.css') }}">
 <link rel="stylesheet" href="{{ site_root }}static/style.css?v={{ asset_version }}">
+{#- the "Klasyczny" look (static/klasyczny.css), for readers who chose it in the header's "Wygląd" menu:
+    written in here, after style.css, so the page is drawn in it from the start #}
+<meta name="sejmomat-style" content="{{ site_root }}static/klasyczny.css?v={{ static_version('klasyczny.css') }}">
+<script>try{if(localStorage.getItem("sejmomat-style")==="klasyczny"){document.documentElement.dataset.style="klasyczny";document.write('<link rel="stylesheet" id="style-klasyczny" href="'+document.querySelector('meta[name="sejmomat-style"]').content+'">')}}catch(e){}</script>
 {% block head %}{% endblock %}
 </head>
 <body>
@@ -42,6 +46,7 @@
   <br><a href="{{ root }}metodologia.html">{{ _("Metodologia") }}</a> · <a href="{{ root }}api.html">API</a> ·
   <a href="https://github.com/TheBeardedPole/sejmomat">{{ _("Kod źródłowy") }}</a> (GNU GPL v3) ·
   ☕ {{ _("Wesprzyj projekt") }}: <a href="https://buycoffee.to/sejmomat?tab=subs">buycoffee.to/sejmomat</a>
+  <span class="foot-credit">{{ _("Styl klasyczny") }}: <a href="https://github.com/mikolajhere">Mikołaj Dutkiewicz</a></span>
 </footer>
 {#- the "Grafiki do udostępnienia" window (templates/_cards.html); on an MP's or a club's page it opens on them (share_preset) #}
 {% from "_cards.html" import share_dialog with context %}

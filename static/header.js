@@ -94,28 +94,74 @@
   };
   syncBar();
   systemDark.addEventListener("change", syncBar);
-  document.querySelectorAll(".theme-switch").forEach((btn) => {
+  const setTheme = (theme) => {
+    document.documentElement.dataset.theme = theme;
+    try {
+      // picking what the system already shows means "follow the system"
+      if (theme === (systemDark.matches ? "dark" : "light")) {
+        delete document.documentElement.dataset.theme;
+        localStorage.removeItem(THEME_KEY);
+      } else {
+        localStorage.setItem(THEME_KEY, theme);
+      }
+    } catch {
+      // storage unavailable: the choice lasts for this page only
+    }
+  };
+  // The style: Sejmomat's own, or "Klasyczny" (static/klasyczny.css on top of style.css), kept
+  // like the theme and written into the page by the inline script in <head> (templates/base.html).
+  // Pages without it (Sejmdle) leave the style out of the menu.
+  const STYLE_KEY = "sejmomat-style";
+  const styleHref = document.querySelector('meta[name="sejmomat-style"]')?.content;
+  const setStyle = (style) => {
+    document.getElementById("style-klasyczny")?.remove();
+    if (style === "klasyczny" && styleHref) {
+      const link = Object.assign(document.createElement("link"), { rel: "stylesheet", id: "style-klasyczny", href: styleHref });
+      document.querySelector('link[rel="stylesheet"][href*="style.css"]')?.after(link);
+      document.documentElement.dataset.style = style;
+    } else {
+      delete document.documentElement.dataset.style;
+    }
+    try {
+      if (style) localStorage.setItem(STYLE_KEY, style);
+      else localStorage.removeItem(STYLE_KEY);
+    } catch {
+      // as for the theme
+    }
+  };
+  // the "Wygląd" button opens a small menu with both choices
+  document.querySelectorAll(".look").forEach((look) => {
+    const btn = look.querySelector(".theme-switch"), menu = look.querySelector(".look-menu");
+    if (!btn || !menu) return;
+    const styleGroup = menu.querySelector(".look-style");
+    if (styleGroup && !styleHref) styleGroup.hidden = true;
     const sync = () => {
-      btn.setAttribute("aria-pressed", String(isDark()));
+      menu.querySelectorAll("[data-theme-pick]").forEach((b) => b.setAttribute("aria-checked", String((b.dataset.themePick === "dark") === isDark())));
+      const style = document.documentElement.dataset.style || "";
+      menu.querySelectorAll("[data-style-pick]").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.stylePick === style)));
       syncBar();
+    };
+    const open = (yes) => {
+      menu.hidden = !yes;
+      btn.setAttribute("aria-expanded", String(yes));
+      if (yes) sync();
     };
     sync();
     systemDark.addEventListener("change", sync);
-    btn.addEventListener("click", () => {
-      const theme = isDark() ? "light" : "dark";
-      document.documentElement.dataset.theme = theme;
-      try {
-        // picking what the system already shows means "follow the system"
-        if (theme === (systemDark.matches ? "dark" : "light")) {
-          delete document.documentElement.dataset.theme;
-          localStorage.removeItem(THEME_KEY);
-        } else {
-          localStorage.setItem(THEME_KEY, theme);
-        }
-      } catch {
-        // storage unavailable: the choice lasts for this page only
-      }
+    btn.addEventListener("click", () => open(menu.hidden));
+    menu.addEventListener("click", (e) => {
+      const pick = e.target.closest("[data-theme-pick], [data-style-pick]");
+      if (!pick) return;
+      if (pick.dataset.themePick) setTheme(pick.dataset.themePick);
+      else setStyle(pick.dataset.stylePick);
       sync();
+    });
+    document.addEventListener("click", (e) => { if (!menu.hidden && !look.contains(e.target)) open(false); });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && !menu.hidden) {
+        open(false);
+        btn.focus();
+      }
     });
   });
 })();

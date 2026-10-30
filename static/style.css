@@ -768,3 +768,6 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 /* hidden means hidden, whatever display a component's own rule sets (a card with display: flex
    once stayed on screen though marked hidden) */
 [hidden] { display: none !important; }
+
+/* the footer's last line: who designed the "Klasyczny" style (static/klasyczny.css) */
+.foot-credit { display: block; margin-top: 4px; }

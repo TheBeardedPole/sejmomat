@@ -304,6 +304,8 @@ EN = {
     "Wygenerowano": "Generated",
     "Kod źródłowy": "Source code",
     "Tryb ciemny": "Dark mode",
+    "Wygląd": "Appearance", "Tryb": "Mode", "Jasny": "Light", "Ciemny": "Dark", "Styl": "Style",
+    "Klasyczny": "Classic", "Styl klasyczny": "Classic style",
     "były członek": "former member", "Byli członkowie": "Former members", "W klubie": "In the club", "Obecnie": "Now",
     "Posłowie, którzy głosowali jako członkowie tego klubu lub koła, a dziś do niego nie należą.":
         "MPs who voted as members of this club or group and no longer belong to it.",
