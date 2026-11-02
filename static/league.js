@@ -309,7 +309,7 @@
     const pos = POS()[posIndex];
     const q = el("input", { type: "search", placeholder: L.search, ariaLabel: L.search, id: "liga-q" });
     const sort = el("select", { ariaLabel: L.sortBy, id: "liga-sort" },
-      [["form", L.byForm], ["price", L.byPriceDown], ["cheap", L.byPriceUp], ["name", L.byName]].map(([v, t]) => el("option", { value: v, textContent: t })));
+      [["form", L.byForm], ["afford", L.byAfford], ["price", L.byPriceDown], ["cheap", L.byPriceUp], ["name", L.byName]].map(([v, t]) => el("option", { value: v, textContent: t })));
     const list = el("ul", { className: "liga-list" });
     const inSquad = new Set(draft.slots.filter((s, i) => s && i !== slot).map((s) => s.mp));
     const current = draft.slots[slot];
@@ -320,14 +320,22 @@
       const bank = bankAfter() + (current ? (sellOrPrice(current)) : 0);
       let rows = Object.keys(game.prices).map(Number).filter((mp) => !inSquad.has(mp))
         .filter((mp) => words.every((w) => `${nameOf(mp)} ${clubName(clubOf(mp))}`.toLowerCase().includes(w)));
-      const by = { form: (a, b) => (formOf(b, posIndex) ?? -99) - (formOf(a, posIndex) ?? -99),
+      // why an MP cannot be picked now: the club already has its places, or the budget is short
+      const whyNot = (mp) => {
+        const club = clubOf(mp);
+        return club !== "niez." && (clubs[club] || 0) >= game.clubCap ? L.clubFull : price(mp, posIndex) > bank ? L.tooDear : "";
+      };
+      const byForm = (a, b) => (formOf(b, posIndex) ?? -99) - (formOf(a, posIndex) ?? -99);
+      const by = { form: byForm,
+        // "stać mnie": the ones that can be picked now first, best form first, then the rest
+        afford: (a, b) => (whyNot(a) ? 1 : 0) - (whyNot(b) ? 1 : 0) || byForm(a, b),
         price: (a, b) => price(b, posIndex) - price(a, posIndex), cheap: (a, b) => price(a, posIndex) - price(b, posIndex),
         name: (a, b) => nameOf(a).localeCompare(nameOf(b), "pl") }[sort.value];
       rows = rows.sort(by).slice(0, 120);
       list.replaceChildren(...rows.map((mp) => {
         const cost = price(mp, posIndex);
         const club = clubOf(mp);
-        const why = club !== "niez." && (clubs[club] || 0) >= game.clubCap ? L.clubFull : cost > bank ? L.tooDear : "";
+        const why = whyNot(mp);
         const f = formOf(mp, posIndex);
         const b = el("button", { type: "button", className: "liga-row", disabled: !!why },
           el("span", { className: "liga-row-name" }, el("strong", { textContent: nameOf(mp) }), el("span", { className: "muted small", textContent: clubName(club) })),

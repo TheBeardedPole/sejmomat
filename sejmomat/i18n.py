@@ -777,6 +777,7 @@ EN = {
     "najlepsza forma": "best form",
     "najdrożsi": "most expensive",
     "najtańsi": "cheapest",
+    "stać mnie": "within my budget",
     "nazwisko": "surname",
     "klub w komplecie": "club full",
     "za drogi": "too expensive",
