@@ -1,0 +1,32 @@
+{# The page for an address that does not exist (404.html, en/404.html; .htaccess ErrorDocument).
+   Served at whatever address was asked for, so its links start from the domain's root. #}
+{% extends "base.html" %}
+{% block title %}{{ _("Nie ma takiej strony") }}{% endblock %}
+{% block head %}<meta name="robots" content="noindex">{% endblock %}
+{% block content %}
+<section class="not-found" data-pagefind-ignore="all">
+  <p class="not-found-code" aria-hidden="true">404</p>
+  <h1>{{ _("Tej strony nie ma w porządku obrad") }}</h1>
+  <p class="muted">{{ _("Adres mógł się zmienić albo ma literówkę. Poszukaj tego, czego potrzebujesz:") }}</p>
+  <form class="not-found-search" role="search" action="{{ root }}szukaj.html">
+    <label class="visually-hidden" for="nf-q">{{ _("Szukaj") }}</label>
+    <input id="nf-q" type="search" name="q" placeholder="{{ _("Szukaj ustaw, poprawek, posłów…") }}" autocomplete="off" enterkeyhint="search">
+    <button class="btn" type="submit">{{ _("Szukaj") }}</button>
+  </form>
+  <ul class="not-found-links">
+    <li><a href="{{ root }}index.html">{{ _("Strona główna") }}</a></li>
+    <li><a href="{{ root }}ostatnie-posiedzenie.html">{{ _("Ostatnie posiedzenie") }}</a></li>
+    <li><a href="{{ root }}ustawy.html">{{ _("Ustawy") }}</a></li>
+    <li><a href="{{ root }}poslowie.html">{{ _("Posłowie") }}</a></li>
+    <li><a href="{{ site_root }}sejmdle/">Sejmdle</a></li>
+  </ul>
+</section>
+<script>
+  // the words of the address asked for, as a start for the search ("/posel/jan-kowalski" -> "jan kowalski")
+  (() => {
+    const last = decodeURIComponent(location.pathname).split("/").filter(Boolean).pop() || "";
+    const words = last.replace(/\.html?$/, "").replace(/[-_+]+/g, " ").trim();
+    if (words && !/^\d+$/.test(words) && words !== "404") document.getElementById("nf-q").value = words;
+  })();
+</script>
+{% endblock %}

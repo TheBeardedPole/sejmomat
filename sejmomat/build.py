@@ -1069,6 +1069,11 @@ def run():
                 alternates={l: site_root + _lang_path(l, path) for l in LANGS},
                 **ctx, **extra,
             ), encoding="utf-8")
+        # the page for an address that does not exist (.htaccess below): served at any address,
+        # so its links start from the domain's root
+        (SITE / _lang_path(lang, "404.html")).write_text(env.get_template("not_found.html").render(
+            root="/" + ("" if lang == "pl" else f"{lang}/"), site_root="/", path="404.html", full_path=_lang_path(lang, "404.html"),
+            alternates={l: "/" + ("" if l == "pl" else f"{l}/") for l in LANGS}, **ctx), encoding="utf-8")
         if getattr(t, "missing", None):
             print(f"[{lang}] untranslated strings: {sorted(t.missing)}")
 
@@ -1145,8 +1150,11 @@ def run():
     (SITE / "api" / ".htaccess").write_text(
         '<IfModule mod_headers.c>\n  Header set Access-Control-Allow-Origin "*"\n</IfModule>\n'
         "AddType application/json .json\n")
+    for lang in LANGS[1:]:   # an English address that does not exist gets the English page
+        (SITE / lang / ".htaccess").write_text(f"ErrorDocument 404 /{lang}/404.html\n")
     (SITE / ".htaccess").write_text(
         "AddDefaultCharset UTF-8\n"
+        "ErrorDocument 404 /404.html\n"
         # short links to a print, said on the stream: sejmomat.pl/3242 -> druk/3242.html, also
         # an additional report, sejmomat.pl/3242-A (a #poprawka-5 after it is kept by the browser
         # through the redirect)

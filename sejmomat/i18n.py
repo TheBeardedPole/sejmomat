@@ -672,6 +672,11 @@ EN = {
     "Wycofano": "Withdrawn", "Prezydent skierował ustawę do Trybunału Konstytucyjnego": "Referred by the President to the Constitutional Tribunal",
     "nie uchwalona ponownie po wecie Prezydenta": "Not passed again after the President's veto",
     # header, breadcrumbs, home page links
+    # the 404 page (templates/not_found.html)
+    "Nie ma takiej strony": "Page not found", "Tej strony nie ma w porządku obrad": "This page is not on the agenda",
+    "Adres mógł się zmienić albo ma literówkę. Poszukaj tego, czego potrzebujesz:":
+        "The address may have changed or have a typo. Search for what you need:",
+    "Strona główna": "Home page",
     "Główna nawigacja": "Main navigation", "Zamknij menu": "Close the menu", "Ścieżka nawigacji": "Breadcrumb", "Menu": "Menu", "Szukaj…": "Search…",
     "Głosowanie na żywo": "Live vote", "Przyjęte poprawki": "Adopted amendments", "Zgłoszone poprawki": "Amendments proposed",
     "Statystyki": "Statistics", "Wszystkie głosowania tego posiedzenia": "All votes of this sitting",

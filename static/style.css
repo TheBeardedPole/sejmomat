@@ -906,3 +906,15 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 
 /* the footer's last line: who designed the "Klasyczny" style (static/klasyczny.css) */
 .foot-credit { display: block; margin-top: 4px; }
+
+/* the page for an address that does not exist (templates/not_found.html) */
+.not-found { max-width: 640px; margin: 24px auto 48px; text-align: center; }
+.not-found-code { margin: 0; font-size: clamp(5rem, 22vw, 9rem); font-weight: 800; line-height: 1; letter-spacing: -.04em;
+  color: color-mix(in srgb, var(--accent) 22%, var(--surface)); }
+.not-found h1 { margin: 8px 0 10px; }
+.not-found-search { display: flex; gap: 8px; margin: 20px auto 24px; max-width: 520px; }
+.not-found-search input { flex: 1; min-width: 0; min-height: 44px; padding: 0 16px; border: 1px solid var(--line); border-radius: 99px;
+  background: var(--surface); color: var(--text); font: inherit; }
+.not-found-search input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); }
+.not-found-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 20px; margin: 0; padding: 0; list-style: none; }
+.not-found-links a { font-weight: 600; }
