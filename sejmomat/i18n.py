@@ -82,7 +82,8 @@ EN = {
         "On every club's page: images to share, summing up the term and the latest sitting.",
     "Na stronie każdego posła: grafiki do udostępnienia z podsumowaniem kadencji i ostatniego posiedzenia.":
         "On every MP's page: images to share, summing up the term and the latest sitting.",
-    "Szukaj posła, okręgu, klubu…": "Search for an MP, constituency, club…", "Wszystkie kluby": "All clubs",
+    "Szukaj posła, miejscowości, klubu…": "Search for an MP, town, club…",
+    "{place}: okręg nr {n} ({name})": "{place}: constituency no. {n} ({name})", "Wszystkie kluby": "All clubs",
     "Wszystkie okręgi": "All constituencies", "Mandat": "Mandate", "Obecni i byli posłowie": "Current and former MPs",
     "Obecni posłowie": "Current MPs", "Wygasłe mandaty": "Former MPs", "Tylko ci, którzy zmienili klub": "Only those who switched clubs",
     "Nadchodzące posiedzenie": "Upcoming sitting", "Trwające posiedzenie": "Sitting under way", "porządek obrad": "agenda",
@@ -671,7 +672,7 @@ EN = {
     "Wycofano": "Withdrawn", "Prezydent skierował ustawę do Trybunału Konstytucyjnego": "Referred by the President to the Constitutional Tribunal",
     "nie uchwalona ponownie po wecie Prezydenta": "Not passed again after the President's veto",
     # header, breadcrumbs, home page links
-    "Główna nawigacja": "Main navigation", "Ścieżka nawigacji": "Breadcrumb", "Menu": "Menu", "Szukaj…": "Search…",
+    "Główna nawigacja": "Main navigation", "Zamknij menu": "Close the menu", "Ścieżka nawigacji": "Breadcrumb", "Menu": "Menu", "Szukaj…": "Search…",
     "Głosowanie na żywo": "Live vote", "Przyjęte poprawki": "Adopted amendments", "Zgłoszone poprawki": "Amendments proposed",
     "Statystyki": "Statistics", "Wszystkie głosowania tego posiedzenia": "All votes of this sitting",
     "Wszystkie posiedzenia": "All sittings", "Wszystkie ustawy": "All bills",
@@ -695,7 +696,6 @@ EN = {
     "Wybierz dwie różne osoby.": "Pick two different people.", "Wybierz dwa różne kluby.": "Pick two different clubs.",
     "Przygotowujemy grafikę…": "Preparing the image…", "Pobierz PNG": "Download PNG", "dawny klub": "former club",
     "Wybierz obie strony, a pokażemy porównanie.": "Pick both sides to see the comparison.", "Grafiki są po polsku.": "The images are in Polish.",
-    "Grafiki powstają z danych Sejmu i są po polsku.": "The images are made from the Sejm's data and are in Polish.",
     "Rodzaj grafiki": "Kind of image", "Zamknij": "Close",
     "W Twoich tematach": "In your topics", "Praca posła w tematach, które obserwujesz. Odznacz temat, by go ukryć.":
         "This MP's work in the topics you follow. Switch a topic off to hide it.",
@@ -706,7 +706,7 @@ EN = {
     "Szczegóły": "Details", "Zwiń": "Fold",
     "Widok sali": "Chamber view", "Twoje tematy": "Your topics", "Frekwencja": "Turnout", "Wyłamania": "Breaks of the line",
     "Kadencje": "Terms", "{n} posłów na sali": "{n} MPs in the chamber", "Od {min} do {max}; mediana {med}": "From {min} to {max}; median {med}",
-    "mniej": "fewer", "więcej": "more", "Znajdź posła na sali": "Find an MP in the chamber", "{n} poseł": "{n} MP", "{n} posłów": "{n} MPs",
+    "mniej": "fewer", "więcej": "more", "Znajdź posła lub miejscowość": "Find an MP or a town", "{n} poseł": "{n} MP", "{n} posłów": "{n} MPs",
     "Nikogo takiego nie ma na sali.": "No one by that name in the chamber.",
     "Mównica": "Rostrum", "Nad Twoimi tematami pracuje {n} poseł": "{n} MP works on your topics",
     "Nad Twoimi tematami pracuje {n} posłów": "{n} MPs work on your topics", "Nikt nie pracuje nad tymi tematami.": "Nobody works on these topics.",

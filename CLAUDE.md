@@ -307,6 +307,19 @@ Live on sejmomat.pl:
   monthly support against the tiers (150, 200, 550 zł) from `static/wsparcie.json`, edited by hand
   (a push publishes it in a minute).
 
+- **Feedback round of 2 November 2026:** header sticky at every width; below 1360px the
+  sections are a drawer from the right over the page (`.nav-backdrop`, `html.nav-locked`), each
+  section's pages folded under its ▾; on phones the "Grafiki" pill replaces Sejmdle, which is in
+  the menu. The seat card on the plan, opened by a tap, closes with its ×, a tap on the same seat,
+  between seats or elsewhere, or Escape. **Towns:** `data/districts.json` (cities with powiat
+  rights and powiat seats per constituency, from Polish Wikipedia by `tools/districts.py`, all
+  314 powiats) through `sejmomat/places.py`: the MP list's search and the plan's search find a
+  constituency's MPs by any of its towns (from 4 letters) and name it ("Grudziądz: okręg nr 5
+  (Toruń)"). **Sejmdle:** `sejmdle/` is a catalog of the games (pictures are inline SVG in
+  `games/sejmdle/index.html`); each game has its own page `sejmdle/<page>.html`, written by the
+  build from `games/sejmdle/game.html` (`build.SEJMDLE_GAMES`), with "Wróć do listy gier" and its
+  archive. Old links (`sejmdle/#kim`, `?dzien=…#game`) redirect; shared results link the game's page.
+
 Waiting on the owner:
 
 - **Posting day summaries** (no social media accounts yet) (`.github/workflows/social.yml`): to X

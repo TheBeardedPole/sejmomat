@@ -12,13 +12,12 @@
 .top nav a { color: var(--muted); }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .top { border-bottom: 1px solid var(--line); background: var(--surface); }
-/* From 1060px, where the header is one row, it stays at the top while the page scrolls
-   (long bill and vote pages keep search and the sections at hand); links to a place on
-   the page stop below it. On narrower screens it is two rows and scrolls away. */
-@media (min-width: 1060px) {
-  .top { position: sticky; top: 0; z-index: 20; }
-  html { scroll-padding-top: 92px; }
-}
+/* The header stays at the top while the page scrolls, at every width (long bill and vote
+   pages keep search, the sections and the menu at hand); links to a place on the page stop
+   below it. On phones it is two rows (search under the logo). */
+.top { position: sticky; top: 0; z-index: 20; }
+html { scroll-padding-top: 92px; }
+@media (max-width: 640px) { html { scroll-padding-top: 124px; } }
 @media print { .top { position: static; } }
 .top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; min-height: 72px; padding-top: 12px; padding-bottom: 12px; }
 .brand { display: block; line-height: 0; }
@@ -107,25 +106,42 @@
 .nav-toggle { display: none; align-items: center; gap: 6px; font: inherit; font-size: .9rem; font-weight: 600; min-height: 38px; padding: 4px 12px;
   border: 1px solid var(--line); border-radius: 99px; background: var(--bg); color: var(--text); cursor: pointer; }
 .nav-toggle svg { width: 18px; height: 18px; }
+/* Below 1360px the sections are in a drawer that slides in from the right over the page
+   (static/header.js), the page dimmed and held still behind it; each section's pages fold
+   under its ▾, all folded when the drawer opens. */
+.nav-close, .nav-backdrop { display: none; }
 @media (max-width: 1359px) {
   .js .nav-toggle { display: inline-flex; }
-  .js .top nav { display: none; order: 10; flex-basis: 100%; flex-direction: column; gap: 0; padding: 4px 0 6px; border-top: 1px solid var(--line); font-size: 1rem; }
-  .js .top.nav-open nav { display: flex; }
-  .js .top nav a { padding: 10px 2px; border-bottom: 1px solid var(--line); }
-  .js .top nav a:last-child { border-bottom: 0; }
-  /* the menu: every section with its pages under it, no dropdowns */
-  .js .top nav { align-items: stretch; }
-  .js .top .nav-list { flex-direction: column; align-items: stretch; gap: 0; }
-  .js .top .nav-item { flex-direction: column; align-items: stretch; height: auto; }
-  .js .top .nav-item > a { height: auto; line-height: inherit; }
-  .js .top .sub-toggle { display: none; }
-  .js .top .sub { display: block; position: static; min-width: 0; padding: 0 0 0 16px; border: 0; border-radius: 0; box-shadow: none; background: none; }
+  .js .top nav { position: fixed; top: 0; right: 0; bottom: 0; z-index: 41; display: flex; flex-direction: column; align-items: stretch; gap: 0;
+    width: min(340px, 86vw); padding: 12px 20px 24px; overflow-y: auto; overscroll-behavior: contain; font-size: 1rem;
+    background: var(--surface); border-left: 1px solid var(--line); box-shadow: -12px 0 32px rgb(0 0 0 / .18);
+    transform: translateX(100%); visibility: hidden; transition: transform .22s ease, visibility 0s linear .22s; }
+  .js .top.nav-open nav { transform: none; visibility: visible; transition: transform .22s ease; }
+  .js .nav-backdrop { display: block; position: fixed; inset: 0; z-index: 40; background: rgb(10 14 24 / .45);
+    opacity: 0; visibility: hidden; transition: opacity .22s ease, visibility 0s linear .22s; }
+  .js .top.nav-open .nav-backdrop { opacity: 1; visibility: visible; transition: opacity .22s ease; }
+  .js .nav-close { display: inline-grid; place-items: center; align-self: flex-end; flex: none; width: 40px; height: 40px; margin: 0 -8px 4px 0; padding: 0;
+    border: 0; border-radius: 99px; background: none; color: var(--text); cursor: pointer; }
+  .js .nav-close:hover { background: var(--bg); }
+  .js .nav-close svg { width: 20px; height: 20px; }
+  .js .top nav a { padding: 12px 2px; color: var(--text); }
+  /* the menu: every section on a line of its own, its pages folded under it */
+  .js .top .nav-list { flex-direction: column; flex-wrap: nowrap; align-items: stretch; gap: 0; }
+  .js .top .nav-item { flex-wrap: wrap; align-items: center; height: auto; border-bottom: 1px solid var(--line); }
+  .js .top .nav-item > a { flex: 1; height: auto; line-height: inherit; }
+  .js .top .sub-toggle { width: 44px; height: 44px; margin: 0 -10px 0 0; }
+  .js .top .sub-toggle svg { width: 16px; height: 16px; }
+  .js .top .sub { display: none; position: static; flex-basis: 100%; min-width: 0; padding: 0 0 6px 14px; border: 0; border-radius: 0; box-shadow: none; background: none; }
+  .js .top .nav-item.open > .sub { display: block; }
   .js .top .sub::before { display: none; }
-  .js .top .sub a { padding: 10px 2px; border-radius: 0; border-bottom: 1px solid var(--line); color: var(--muted); }
+  .js .top .sub a { padding: 10px 2px; border-radius: 0; color: var(--muted); }
+  .js .top .sub a[aria-current="page"] { color: var(--accent); }
+  .js .nav-menu-btn { padding: 12px 2px; border: 0; color: var(--text); }
 }
+html.nav-locked { overflow: hidden; }
+@media (prefers-reduced-motion: reduce) { .js .top nav, .js .nav-backdrop { transition: none !important; } }
 @media (max-width: 640px) {
   .site-search { order: 9; flex: 1 1 100%; margin-left: 0; }
-  .js .top .tools { margin-left: auto; }
   /* icon only, so logo, language, theme and menu share one line; the word stays for screen readers */
   .nav-toggle { padding: 4px 9px; }
   .nav-toggle span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
@@ -133,19 +149,19 @@
 
 /* Search is a field that is always there, between the sections and Sejmdle; on phones
    it takes a row of its own under the logo. */
-/* Phones: one row of logo, search, Sejmdle, theme and Menu; the language switch is in
-   the menu, and on the narrowest screens Sejmdle is its icon (its name stays for screen
-   readers) */
+/* Phones: logo, Grafiki, theme and Menu in one row, search under them; Sejmdle and the
+   language switch are in the menu, and on the narrowest screens Grafiki is its icon (its
+   name stays for screen readers) */
 @media (max-width: 640px) {
   .top .wrap { gap: 10px 8px; min-height: 0; }
   .brand { margin-right: 0; }
   .brand .logo { height: 21px; }
   .js .top .lang { display: none; }
   .js .top .nav-lang, .js .top .nav-phone { display: flex !important; }
-  .js .nav-share { display: none; }
-  .js .nav-game { padding: 0 11px 0 9px; font-size: .85rem; }
+  .js .nav-game { display: none; }
+  .js .nav-share { margin-left: auto; padding: 0 12px 0 10px; font-size: .85rem; }
 }
 @media (max-width: 380px) {
-  .js .nav-game { width: 38px; padding: 0; justify-content: center; }
-  .js .nav-game-text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .js .nav-share { width: 38px; padding: 0; justify-content: center; }
+  .js .nav-share-text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 }

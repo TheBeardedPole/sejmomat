@@ -549,11 +549,9 @@ a.btn2:hover { text-decoration: none; }
 .share-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; padding-top: 16px; padding-bottom: 20px; }
 .share-actions .btn { display: inline-flex; align-items: center; gap: 8px; }
 .share-actions .btn svg { width: 16px; height: 16px; }
-.share-actions .small { margin-left: auto; }
 @media (max-width: 700px) {
   .share-dialog > * { padding-left: 16px; padding-right: 16px; }
   .share-body { grid-template-columns: 1fr; }
-  .share-actions .small { margin-left: 0; flex-basis: 100%; }
 }
 
 /* the latest sitting's page (templates/latest.html): its figures in a row */
@@ -613,6 +611,8 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .sala-tip { position: absolute; z-index: 5; display: flex; flex-direction: column; gap: 2px; max-width: 260px; padding: 9px 12px; border-radius: 10px;
   background: var(--surface); border: 1px solid var(--line); box-shadow: var(--float-shadow); font-size: .88rem; pointer-events: none; }
 .sala-tip a { pointer-events: auto; font-weight: 600; margin-top: 2px; }
+.sala-tip.pinned { padding-right: 6px; pointer-events: auto; }
+.sala-tip-close { flex: none; width: 32px; height: 32px; margin: -4px 0 0 auto; }
 .sala-tip-topics { color: var(--accent); }
 .sala-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; margin: 6px 0 0; }
 .sala-key { display: inline-flex; align-items: center; gap: 6px; }

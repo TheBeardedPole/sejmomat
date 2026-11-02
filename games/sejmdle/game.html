@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- One game's page. The build writes one per game, as sejmdle/<page>.html, filling in the
+     {{…}} below (sejmomat/build.py, SEJMDLE_GAMES); this file itself is not published. -->
+<title>{{title}} · Sejmdle</title>
+<meta name="description" content="{{description}}">
+<meta property="og:url" content="https://sejmomat.pl/sejmdle/{{page}}.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sejmomat">
+<meta property="og:title" content="{{title}} · Sejmdle">
+<meta property="og:description" content="{{description}}">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="noindex">
+<meta name="sejmomat-api" content="../api/v1/">
+<meta name="sejmomat-site" content="../">
+<!-- which game this page plays (sejmdle.js, GAMES) -->
+<meta name="sejmdle-game" content="{{game}}">
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("sejmomat-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="apple-touch-icon" href="../static/apple-touch-icon.png">
+<link rel="stylesheet" href="../static/header.css">
+<link rel="stylesheet" href="sejmdle.css">
+</head>
+<body>
+<!-- sejmomat-header -->
+<div class="page">
+<header>
+  <p class="back"><a id="back-link" href="./">← Wróć do listy gier</a></p>
+  <h1 class="wordmark small" aria-label="Sejmdle"><span>S</span><span>E</span><span>J</span><span>M</span><span>D</span><span>L</span><span>E</span></h1>
+  <p class="muted tagline"><span id="today"></span></p>
+  <p class="archive"><label>Archiwum: <select id="day-pick" aria-label="Wybierz dzień z archiwum"></select></label></p>
+</header>
+<main id="game" aria-live="polite"><p class="muted">Wczytywanie danych…</p></main>
+<datalist id="mp-names"></datalist>
+<footer class="muted">
+  Dane: <a href="https://api.sejm.gov.pl">API Sejmu RP</a> przez API Sejmomatu. Zdjęcia posłów wczytywane z serwera Sejmu.
+  Postęp gry zapisywany jest tylko w Twojej przeglądarce; w grze „Twarze w minutę” wynik z nickiem trafia do rankingu na serwerze Sejmomatu, jeśli go zapiszesz.
+  <br>Podoba Ci się Sejmdle? <a href="https://buycoffee.to/sejmomat?tab=subs" target="_blank" rel="noopener">Postaw autorowi kawę</a>.
+</footer>
+</div>
+<a class="support-pill" href="https://buycoffee.to/sejmomat?tab=subs" target="_blank" rel="noopener">☕ Wesprzyj</a>
+<script src="../static/header.js" defer></script>
+<script src="sejmdle.js"></script>
+</body>
+</html>
