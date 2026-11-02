@@ -125,9 +125,18 @@ if (amendTable) {
 const placeIndex = (places, fold) => {
   const entries = Object.entries(places || {}).flatMap(([num, names]) => names.map((name) => ({ num, name, words: fold(name).split(/[\s-]+/), full: fold(name) })));
   return {
-    districts: (w) => new Set(w.length >= 4 ? entries.filter((e) => e.words.some((x) => x.startsWith(w))).map((e) => e.num) : []),
-    // the towns the whole query names, or begins
-    named: (q) => (q.length >= 4 ? entries.filter((e) => e.full.startsWith(q)) : []),
+    // a whole town's name ("szczecin") is that town only, not the ones it begins (Szczecinek)
+    districts: (w) => {
+      if (w.length < 4) return new Set();
+      const whole = entries.filter((e) => e.words.includes(w));
+      return new Set((whole.length ? whole : entries.filter((e) => e.words.some((x) => x.startsWith(w)))).map((e) => e.num));
+    },
+    // the town the whole query names, or else those it begins
+    named: (q) => {
+      if (q.length < 4) return [];
+      const whole = entries.filter((e) => e.full === q);
+      return whole.length ? whole : entries.filter((e) => e.full.startsWith(q));
+    },
   };
 };
 

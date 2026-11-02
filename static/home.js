@@ -1007,15 +1007,22 @@ if (typeof document !== "undefined") (() => {
     const placeText = (num) => fold(`${districtName[num] || ""} ${plan.voivodeships?.[num] || ""}`);
     search.addEventListener("input", () => {
       const q = fold(search.value.trim());
-      const words = q.split(/\s+/).filter(Boolean).map((w) => [w,
-        new Set(w.length >= 4 ? towns.filter((t) => t.words.some((x) => x.startsWith(w))).map((t) => t.num) : [])]);
+      // a whole town's name ("szczecin") is that town only, not the ones it begins (Szczecinek)
+      const townsFor = (w) => {
+        if (w.length < 4) return [];
+        const whole = towns.filter((t) => t.words.includes(w));
+        return whole.length ? whole : towns.filter((t) => t.words.some((x) => x.startsWith(w)));
+      };
+      const words = q.split(/\s+/).filter(Boolean).map((w) => [w, new Set(townsFor(w).map((t) => t.num))]);
       const fits = (m) => words.every(([w, nums]) => fold(m[0]).includes(w) || nums.has(m[9]) || (w.length >= 4 && placeText(m[9]).includes(w)));
       const hits = q.length >= 2 ? rects.filter((r) => r.dataset.mp && fits(plan.mps[r.dataset.mp])) : [];
       svg.classList.toggle("searching", hits.length > 0);
       rects.forEach((r) => r.classList.toggle("match", hits.includes(r)));
-      const town = q.length >= 4 && towns.find((t) => t.full.startsWith(q));
+      // the town the query names, or else those it begins (as on the MP list)
+      const whole = q.length >= 4 ? towns.filter((t) => t.full === q) : [];
+      const named = (whole.length ? whole : q.length >= 4 ? towns.filter((t) => t.full.startsWith(q)) : []).slice(0, 3);
       found.textContent = q.length >= 2 ? [
-        town && L.salaPlace.replace("{place}", town.name).replace("{n}", town.num).replace("{name}", districtName[town.num] || ""),
+        ...named.map((t) => L.salaPlace.replace("{place}", t.name).replace("{n}", t.num).replace("{name}", districtName[t.num] || "")),
         hits.length ? plural(hits.length, L.salaFound).replace("{n}", hits.length) : L.salaNotFound].filter(Boolean).join(" · ") : "";
       if (hits.length === 1) show(hits[0], true);
       else if (pinned) unpin();
