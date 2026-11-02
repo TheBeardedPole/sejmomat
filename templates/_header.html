@@ -20,15 +20,18 @@
         ("interpelacje.html", _("Interpelacje"), ("interpelacje",))]),
       ("komisje.html", _("Komisje"), ("komisj",), []),
       ("statystyki.html", _("Statystyki"), ("statystyki",), []),
+      ("liga.html", "Fantasy", ("liga",), []),
     ] %}
+    {#- sections still being tried out: a "Beta" tag after their name #}
+    {%- set beta = ("liga.html",) %}
     <nav id="site-nav" aria-label="{{ _("Główna nawigacja") }}">
-      {#- below 1360px the nav is a drawer over the page (static/header.css, static/header.js) #}
+      {#- below 1500px the nav is a drawer over the page (static/header.css, static/header.js) #}
       <button type="button" class="nav-close" aria-label="{{ _("Zamknij menu") }}" title="{{ _("Zamknij menu") }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
       <ul class="nav-list">
       {%- for href, label, prefixes, sub in sections %}
         {%- set sub_here = [] %}{% for s in sub %}{% if path.startswith(s[2]) %}{% set _x = sub_here.append(s) %}{% endif %}{% endfor %}
         <li class="nav-item{% if sub %} has-sub{% endif %}{% if sub_here %} current{% endif %}">
-          <a href="{{ root }}{{ href }}"{% if path.startswith(prefixes) %} aria-current="page"{% endif %}>{{ label }}</a>
+          <a href="{{ root }}{{ href }}"{% if path.startswith(prefixes) %} aria-current="page"{% endif %}>{{ label }}{% if href in beta %}<span class="nav-beta">Beta</span>{% endif %}</a>
           {%- if sub %}
           <button type="button" class="sub-toggle" aria-expanded="false" aria-controls="sub-{{ loop.index }}"><span class="visually-hidden">{{ label }}: {{ _("więcej") }}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
           <ul class="sub" id="sub-{{ loop.index }}">

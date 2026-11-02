@@ -33,11 +33,11 @@
     document.addEventListener("click", (e) => {
       if (isOpen() && !nav.contains(e.target) && !navToggle.contains(e.target)) setOpen(false);
     });
-    matchMedia("(min-width: 1360px)").addEventListener("change", (m) => { if (m.matches && isOpen()) setOpen(false); });
+    matchMedia("(min-width: 1500px)").addEventListener("change", (m) => { if (m.matches && isOpen()) setOpen(false); });
   }
   // Submenus in the header (Posiedzenia, Ustawy, Posłowie): open on hover with a mouse
   // (static/header.css) and with their ▾ button from the keyboard or a touch screen;
-  // Escape, a click elsewhere or focus leaving one closes it. Below 1360px they are
+  // Escape, a click elsewhere or focus leaving one closes it. Below 1500px they are
   // listed open under their section in the folded menu, and the buttons are hidden.
   const subToggles = [...document.querySelectorAll("header.top .sub-toggle")];
   function closeSubs(except) {

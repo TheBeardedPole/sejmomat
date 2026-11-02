@@ -318,7 +318,7 @@ Live on sejmomat.pl:
   monthly support against the tiers (150, 200, 550 zł) from `static/wsparcie.json`, edited by hand
   (a push publishes it in a minute).
 
-- **Feedback round of 2 November 2026:** header sticky at every width; below 1360px the
+- **Feedback round of 2 November 2026:** header sticky at every width; below 1500px the
   sections are a drawer from the right over the page (`.nav-backdrop`, `html.nav-locked`), each
   section's pages folded under its ▾; on phones the "Grafiki" pill replaces Sejmdle, which is in
   the menu. The seat card on the plan, opened by a tap, closes with its ×, a tap on the same seat,

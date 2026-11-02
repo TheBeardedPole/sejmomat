@@ -91,7 +91,7 @@ tbody tr:hover { background: var(--accent-bg); }
   --section: #202324; --section-strong: #303536; --accent-bg: #303536;
   background: var(--surface); border-bottom: 4px solid #1d70b8;
 }
-@media (min-width: 1360px) {   /* the dropdowns; below, the pages are listed in the dark drawer */
+@media (min-width: 1500px) {   /* the dropdowns; below, the pages are listed in the dark drawer */
   .top .sub {
     --surface: #ffffff; --bg: #f3f3f3; --text: #0b0c0c; --muted: #484949;
     --accent: #1a65a6; --line: #cecece; --section-strong: #e6e9eb;
