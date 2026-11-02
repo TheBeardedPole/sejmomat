@@ -663,6 +663,19 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .liga-k-pts { font-weight: 700; font-variant-numeric: tabular-nums; }
 .liga-k-table { width: 100%; border-collapse: collapse; font-size: .92rem; }
 .liga-k-table td { padding: 8px 16px; border-top: 1px solid var(--line); vertical-align: top; }
+.liga-k-cap { display: inline-grid; place-items: center; width: 20px; height: 20px; margin-left: 6px; border-radius: 50%;
+  background: var(--gold, #e0b75a); color: #12223d; font-size: .7rem; font-weight: 800; vertical-align: 1px; }
+/* phones: each MP a small block (position and points on top, name, then what they scored for
+   across the full width), not four squeezed columns */
+@media (max-width: 640px) {
+  .liga-k-table tr { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 10px 16px; border-top: 1px solid var(--line); }
+  .liga-k-table td { display: block; padding: 0; border: 0; }
+  .liga-k-pos { grid-column: 1; grid-row: 1; font-size: .78rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  .liga-k-num { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-size: 1.1rem; font-weight: 700; }
+  .liga-k-who { grid-column: 1; grid-row: 2; }
+  .liga-k-facts { grid-column: 1 / -1; grid-row: 3; }
+  .liga-k-facts:empty { display: none; }
+}
 .liga-board h2 { margin: 0 0 8px; }
 .liga-table { width: 100%; border-collapse: collapse; }
 .liga-table th, .liga-table td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; }

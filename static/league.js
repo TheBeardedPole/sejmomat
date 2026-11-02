@@ -380,10 +380,11 @@
           h.final ? null : el("span", { className: "badge neutral", textContent: L.notFinal }),
           h.hit ? el("span", { className: "muted small", textContent: ` (${L.hit.replace("{n}", h.hit)})` }) : null),
         el("table", { className: "liga-k-table" }, el("tbody", {}, h.rows.map((r) => el("tr", {},
-          el("td", { textContent: L.posNames[POS()[r.pos]] }),
-          el("td", {}, el("a", { href: `${SITE}posel/${r.mp}.html`, textContent: nameOf(r.mp) })),
-          el("td", { className: "muted small", textContent: describe(r.facts) }),
-          el("td", { className: "num", textContent: r.points }))))))));
+          el("td", { className: "liga-k-pos", textContent: L.posNames[POS()[r.pos]] }),
+          el("td", { className: "liga-k-who" }, el("a", { href: `${SITE}posel/${r.mp}.html`, textContent: nameOf(r.mp) }),
+            r.captain ? el("span", { className: "liga-k-cap", title: L.isCaptain, ariaLabel: L.isCaptain, textContent: "C" }) : null),
+          el("td", { className: "liga-k-facts muted small", textContent: describe(r.facts) }),
+          el("td", { className: "num liga-k-num", textContent: r.points }))))))));
   };
   const describe = (f) => Object.entries(f || {}).filter(([k]) => L.factNames[k]).map(([k, v]) => `${L.factNames[k]}: ${v}`).join(" · ");
 
@@ -455,7 +456,7 @@
       draft = saved();
       drawSquad();
       main.replaceChildren(el("p", { className: "liga-total" }, `${L.yourTotal}: `, el("strong", { textContent: `${me.user.total} ${L.pts}` })),
-        squadBox, historyBox(), accountBox());
+        ...[squadBox, historyBox(), accountBox()].filter(Boolean));   // no past kolejki: no history (null would print as text)
     }
     drawBoard();
   };

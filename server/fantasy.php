@@ -267,7 +267,8 @@ function kolejka_points(array $h, string $kid): array {
     foreach ($h['slots'] as $i => $s) {
         $p = $pts['mps'][(string)$s['mp']]['p'][$s['pos']] ?? 0;
         $x = $i === $h['captain'] ? 2 * $p : $p;
-        $rows[] = ['mp' => $s['mp'], 'pos' => $s['pos'], 'points' => $x, 'facts' => $pts['mps'][(string)$s['mp']]['f'] ?? new stdClass()];
+        $rows[] = ['mp' => $s['mp'], 'pos' => $s['pos'], 'points' => $x, 'captain' => $i === $h['captain'],
+                   'facts' => $pts['mps'][(string)$s['mp']]['f'] ?? new stdClass()];
         $sum += $x;
     }
     return ['total' => $sum - $h['hit'], 'hit' => $h['hit'], 'transfers' => $h['transfers'], 'rows' => $rows,
