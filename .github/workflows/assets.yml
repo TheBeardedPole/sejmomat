@@ -31,6 +31,7 @@ jobs:
             static
             games
             sejmomat
+            templates
       - name: Copy static files and games over SSH (rsync)
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
@@ -42,11 +43,15 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL }}
         run: |
           source .github/ssh-setup.sh
-          # as in the build: the games page loads its script and styles by
-          # content version, so the new ones show at once despite CDN caching
-          python3 -m sejmomat.stamp games/sejmdle
+          # Sejmdle's pages as the build makes them (sejmomat/sejmdle.py): scripts and styles
+          # stamped with their version (new ones show at once despite CDN caching), the site's
+          # header put in, a page per game from game.html. Copied first, so --delete below
+          # never removes a page the build made.
+          pip install --quiet "jinja2>=3.1"
+          cp -r games/sejmdle /tmp/sejmdle
+          python3 -m sejmomat.sejmdle /tmp/sejmdle
           # same layout as the build: static/ -> /static/, games/sejmdle/ -> /sejmdle/
           rsync --recursive --checksum --compress --delete --itemize-changes \
             -e "$RSYNC_SSH" static/ "$SSH_TARGET:${SSH_DIR}static/"
           rsync --recursive --checksum --compress --delete --itemize-changes \
-            -e "$RSYNC_SSH" games/sejmdle/ "$SSH_TARGET:${SSH_DIR}sejmdle/"
+            -e "$RSYNC_SSH" /tmp/sejmdle/ "$SSH_TARGET:${SSH_DIR}sejmdle/"
