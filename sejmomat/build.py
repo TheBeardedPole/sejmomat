@@ -9,8 +9,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import agenda, analysis, authors, committees, fillgaps, interests, pending, processes, questions, social, speeches
-from .stamp import stamp
+from . import agenda, analysis, authors, committees, fillgaps, interests, pending, places, processes, questions, sejmdle, social, speeches
 from .facts import facts
 from .stats import compute as compute_voting_stats
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
@@ -56,6 +55,7 @@ MOTIONS = [
      "Głosowanie nad całością projektu: „za” oznacza uchwalenie ustawy lub uchwały w całości. Uchwalona ustawa trafia następnie do Senatu.",
      ("Projekt przyjęty", "Projekt odrzucony")),
 ]
+
 
 
 def motion(v):
@@ -966,7 +966,7 @@ def _pages(ctx):
     yield "index.html", "index.html", {}
     yield "sittings.html", "posiedzenia.html", {}
     yield "bills.html", "ustawy.html", {}
-    yield "mps.html", "poslowie.html", {}
+    yield "mps.html", "poslowie.html", {"places": places.by_district()}
     yield "clubs.html", "kluby.html", {}
     yield "amendments.html", "poprawki.html", {}
     yield "pending.html", "poprawki-oczekujace.html", {}
@@ -1041,7 +1041,6 @@ def run():
     # Sejmdle: self-contained games that read the JSON API (test bench here;
     # the folder can be served from another host by changing its API address).
     shutil.copytree(ROOT / "games" / "sejmdle", SITE / "sejmdle")
-    stamp(SITE / "sejmdle")  # so a new script or stylesheet loads at once, despite CDN caching
 
     # Day summaries as images. They need Pillow and a font; without either
     # the summaries are still published, as text only.
@@ -1073,17 +1072,9 @@ def run():
         if getattr(t, "missing", None):
             print(f"[{lang}] untranslated strings: {sorted(t.missing)}")
 
-    # Sejmdle under the site's header: the same partial as every page, for its folder
-    # (games/sejmdle/index.html marks the place)
-    env, _t = _env("pl")
-    game = SITE / "sejmdle" / "index.html"
-    header = env.get_template("_header.html").render(
-        root="../", site_root="../", path="sejmdle/", full_path="sejmdle/", lang="pl",
-        alternates={"pl": "../index.html", "en": "../en/index.html"}, **ctx)
-    text = game.read_text(encoding="utf-8").replace("<!-- sejmomat-header -->", header.strip(), 1)
-    for name in ("header.css", "header.js"):   # versioned, as on the site's pages
-        text = text.replace(f'"../static/{name}"', f'"../static/{name}?v={static_version(name)}"')
-    game.write_text(text, encoding="utf-8")
+    # Sejmdle: the catalog and a page per game, under the site's header (sejmomat/sejmdle.py,
+    # which the quick publish runs too)
+    sejmdle.write(SITE / "sejmdle")
 
     # Fun facts for the stream's quiet moments (tools/livestream.py).
     (SITE / "api" / "v1").mkdir(parents=True, exist_ok=True)

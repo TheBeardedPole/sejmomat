@@ -22,6 +22,8 @@
       ("statystyki.html", _("Statystyki"), ("statystyki",), []),
     ] %}
     <nav id="site-nav" aria-label="{{ _("Główna nawigacja") }}">
+      {#- below 1360px the nav is a drawer over the page (static/header.css, static/header.js) #}
+      <button type="button" class="nav-close" aria-label="{{ _("Zamknij menu") }}" title="{{ _("Zamknij menu") }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
       <ul class="nav-list">
       {%- for href, label, prefixes, sub in sections %}
         {%- set sub_here = [] %}{% for s in sub %}{% if path.startswith(s[2]) %}{% set _x = sub_here.append(s) %}{% endif %}{% endfor %}
@@ -37,11 +39,12 @@
           {%- endif %}
         </li>
       {%- endfor %}
-        {#- on phones the images to share and the language switch move here, into the menu, so the header keeps to one row #}
-        <li class="nav-item nav-phone">{% if path.startswith("sejmdle") %}<a href="{{ root }}index.html#grafiki">{{ _("Grafiki do udostępnienia") }}</a>{% else %}<button type="button" class="nav-menu-btn" data-share-open aria-haspopup="dialog" aria-controls="grafiki">{{ _("Grafiki do udostępnienia") }}</button>{% endif %}</li>
+        {#- on phones Sejmdle and the language switch move here, into the menu, so the header keeps to one row #}
+        <li class="nav-item nav-phone"><a href="{{ site_root }}sejmdle/"{% if path.startswith("sejmdle") %} aria-current="page"{% endif %}>Sejmdle</a></li>
         <li class="nav-item nav-lang">{% if lang == "pl" %}<a href="{{ alternates.en }}" hreflang="en" lang="en">English</a>{% else %}<a href="{{ alternates.pl }}" hreflang="pl" lang="pl">Polski</a>{% endif %}</li>
       </ul>
     </nav>
+    <div class="nav-backdrop"></div>
     {%- if path != "szukaj.html" %}
     <form class="site-search" role="search" action="{{ root }}szukaj.html">
       <label class="visually-hidden" for="site-q">{{ _("Szukaj") }}</label>

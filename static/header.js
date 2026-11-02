@@ -2,37 +2,52 @@
 // narrow screens, the submenus and the light/dark switch. Loaded by every page of
 // the site and by Sejmdle (games/sejmdle), so it needs nothing from static/app.js.
 (() => {
-  // On narrow screens the sections fold behind "Menu" (static/header.css); Escape or a
-  // click outside the header closes them again.
+  // On narrow screens the sections are in a drawer behind "Menu" (static/header.css), over
+  // the page, which holds still meanwhile; its ×, Escape, a click beside it or a wider window
+  // closes it. It opens with every section's pages folded.
   const topBar = document.querySelector("header.top");
   const navToggle = topBar?.querySelector(".nav-toggle");
-  if (navToggle) {
+  const nav = topBar?.querySelector("#site-nav");
+  if (navToggle && nav) {
+    const isOpen = () => topBar.classList.contains("nav-open");
     const setOpen = (open) => {
       navToggle.setAttribute("aria-expanded", String(open));
       topBar.classList.toggle("nav-open", open);
+      document.documentElement.classList.toggle("nav-locked", open);
+      if (open) {
+        closeSubs();
+        nav.querySelector(".nav-close, a")?.focus({ preventScroll: true });
+      }
     };
-    navToggle.addEventListener("click", () => setOpen(navToggle.getAttribute("aria-expanded") !== "true"));
+    navToggle.addEventListener("click", () => setOpen(!isOpen()));
+    nav.querySelector(".nav-close")?.addEventListener("click", () => {
+      setOpen(false);
+      navToggle.focus();
+    });
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && topBar.classList.contains("nav-open")) {
+      if (e.key === "Escape" && isOpen()) {
         setOpen(false);
         navToggle.focus();
       }
     });
     document.addEventListener("click", (e) => {
-      if (topBar.classList.contains("nav-open") && !topBar.contains(e.target)) setOpen(false);
+      if (isOpen() && !nav.contains(e.target) && !navToggle.contains(e.target)) setOpen(false);
     });
+    matchMedia("(min-width: 1360px)").addEventListener("change", (m) => { if (m.matches && isOpen()) setOpen(false); });
   }
   // Submenus in the header (Posiedzenia, Ustawy, Posłowie): open on hover with a mouse
   // (static/header.css) and with their ▾ button from the keyboard or a touch screen;
   // Escape, a click elsewhere or focus leaving one closes it. Below 1360px they are
   // listed open under their section in the folded menu, and the buttons are hidden.
   const subToggles = [...document.querySelectorAll("header.top .sub-toggle")];
-  const closeSubs = (except) => subToggles.forEach((b) => {
-    if (b !== except) {
-      b.setAttribute("aria-expanded", "false");
-      b.parentElement.classList.remove("open");
-    }
-  });
+  function closeSubs(except) {
+    subToggles.forEach((b) => {
+      if (b !== except) {
+        b.setAttribute("aria-expanded", "false");
+        b.parentElement.classList.remove("open");
+      }
+    });
+  }
   subToggles.forEach((b) => {
     const item = b.parentElement;
     b.addEventListener("click", () => {

@@ -1,0 +1,1007 @@
+{
+ "1": {
+  "cities": [
+   "Jelenia Góra",
+   "Legnica"
+  ],
+  "powiats": [
+   "bolesławiecki",
+   "głogowski",
+   "jaworski",
+   "kamiennogórski",
+   "karkonoski",
+   "legnicki",
+   "lubański",
+   "lubiński",
+   "lwówecki",
+   "polkowicki",
+   "zgorzelecki",
+   "złotoryjski"
+  ],
+  "seats": [
+   "Bolesławiec",
+   "Głogów",
+   "Jawor",
+   "Jelenia Góra",
+   "Kamienna Góra",
+   "Legnica",
+   "Lubań",
+   "Lubin",
+   "Lwówek Śląski",
+   "Polkowice",
+   "Zgorzelec",
+   "Złotoryja"
+  ]
+ },
+ "2": {
+  "cities": [
+   "Wałbrzych"
+  ],
+  "powiats": [
+   "dzierżoniowski",
+   "kłodzki",
+   "wałbrzyski",
+   "ząbkowicki",
+   "świdnicki"
+  ],
+  "seats": [
+   "Dzierżoniów",
+   "Kłodzko",
+   "Wałbrzych",
+   "Ząbkowice Śląskie",
+   "Świdnica"
+  ]
+ },
+ "3": {
+  "cities": [
+   "Wrocław"
+  ],
+  "powiats": [
+   "górowski",
+   "milicki",
+   "oleśnicki",
+   "oławski",
+   "strzeliński",
+   "trzebnicki",
+   "wołowski",
+   "wrocławski",
+   "średzki"
+  ],
+  "seats": [
+   "Góra",
+   "Milicz",
+   "Oleśnica",
+   "Oława",
+   "Strzelin",
+   "Trzebnica",
+   "Wołów",
+   "Wrocław",
+   "Środa Śląska"
+  ]
+ },
+ "4": {
+  "cities": [
+   "Bydgoszcz"
+  ],
+  "powiats": [
+   "bydgoski",
+   "inowrocławski",
+   "mogileński",
+   "nakielski",
+   "sępoleński",
+   "tucholski",
+   "świecki",
+   "żniński"
+  ],
+  "seats": [
+   "Bydgoszcz",
+   "Inowrocław",
+   "Mogilno",
+   "Nakło nad Notecią",
+   "Sępólno Krajeńskie",
+   "Tuchola",
+   "Świecie",
+   "Żnin"
+  ]
+ },
+ "5": {
+  "cities": [
+   "Grudziądz",
+   "Toruń",
+   "Włocławek"
+  ],
+  "powiats": [
+   "aleksandrowski",
+   "brodnicki",
+   "chełmiński",
+   "golubsko-dobrzyński",
+   "grudziądzki",
+   "lipnowski",
+   "radziejowski",
+   "rypiński",
+   "toruński",
+   "wąbrzeski",
+   "włocławski"
+  ],
+  "seats": [
+   "Aleksandrów Kujawski",
+   "Brodnica",
+   "Chełmno",
+   "Golub-Dobrzyń",
+   "Grudziądz",
+   "Lipno",
+   "Radziejów",
+   "Rypin",
+   "Toruń",
+   "Wąbrzeźno",
+   "Włocławek"
+  ]
+ },
+ "6": {
+  "cities": [
+   "Lublin"
+  ],
+  "powiats": [
+   "janowski",
+   "kraśnicki",
+   "lubartowski",
+   "lubelski",
+   "opolski",
+   "puławski",
+   "rycki",
+   "łukowski",
+   "łęczyński",
+   "świdnicki"
+  ],
+  "seats": [
+   "Janów Lubelski",
+   "Kraśnik",
+   "Lubartów",
+   "Lublin",
+   "Opole Lubelskie",
+   "Puławy",
+   "Ryki",
+   "Łuków",
+   "Łęczna",
+   "Świdnik"
+  ]
+ },
+ "7": {
+  "cities": [
+   "Biała Podlaska",
+   "Chełm",
+   "Zamość"
+  ],
+  "powiats": [
+   "bialski",
+   "biłgorajski",
+   "chełmski",
+   "hrubieszowski",
+   "krasnostawski",
+   "parczewski",
+   "radzyński",
+   "tomaszowski",
+   "włodawski",
+   "zamojski"
+  ],
+  "seats": [
+   "Biała Podlaska",
+   "Biłgoraj",
+   "Chełm",
+   "Hrubieszów",
+   "Krasnystaw",
+   "Parczew",
+   "Radzyń Podlaski",
+   "Tomaszów Lubelski",
+   "Włodawa",
+   "Zamość"
+  ]
+ },
+ "8": {
+  "cities": [],
+  "powiats": [
+   "gorzowski",
+   "krośnieński",
+   "międzyrzecki",
+   "nowosolski",
+   "strzelecko-drezdenecki",
+   "sulęciński",
+   "słubicki",
+   "wschowski",
+   "zielonogórski",
+   "świebodziński",
+   "żagański",
+   "żarski"
+  ],
+  "seats": [
+   "Gorzów Wielkopolski",
+   "Krosno Odrzańskie",
+   "Międzyrzecz",
+   "Nowa Sól",
+   "Strzelce Krajeńskie",
+   "Sulęcin",
+   "Słubice",
+   "Wschowa",
+   "Zielona Góra",
+   "Świebodzin",
+   "Żagań",
+   "Żary"
+  ]
+ },
+ "9": {
+  "cities": [
+   "Łódź"
+  ],
+  "powiats": [
+   "brzeziński",
+   "łódzki wschodni"
+  ],
+  "seats": [
+   "Brzeziny",
+   "Łódź"
+  ]
+ },
+ "10": {
+  "cities": [
+   "Piotrków Trybunalski",
+   "Skierniewice"
+  ],
+  "powiats": [
+   "bełchatowski",
+   "opoczyński",
+   "piotrkowski",
+   "radomszczański",
+   "rawski",
+   "skierniewicki",
+   "tomaszowski"
+  ],
+  "seats": [
+   "Bełchatów",
+   "Opoczno",
+   "Piotrków Trybunalski",
+   "Radomsko",
+   "Rawa Mazowiecka",
+   "Skierniewice",
+   "Tomaszów Mazowiecki"
+  ]
+ },
+ "11": {
+  "cities": [],
+  "powiats": [
+   "kutnowski",
+   "pabianicki",
+   "pajęczański",
+   "poddębicki",
+   "sieradzki",
+   "wieluński",
+   "wieruszowski",
+   "zduńskowolski",
+   "zgierski",
+   "łaski",
+   "łowicki",
+   "łęczycki"
+  ],
+  "seats": [
+   "Kutno",
+   "Pabianice",
+   "Pajęczno",
+   "Poddębice",
+   "Sieradz",
+   "Wieluń",
+   "Wieruszów",
+   "Zduńska Wola",
+   "Zgierz",
+   "Łask",
+   "Łowicz",
+   "Łęczyca"
+  ]
+ },
+ "12": {
+  "cities": [],
+  "powiats": [
+   "chrzanowski",
+   "myślenicki",
+   "oświęcimski",
+   "suski",
+   "wadowicki"
+  ],
+  "seats": [
+   "Chrzanów",
+   "Myślenice",
+   "Oświęcim",
+   "Sucha Beskidzka",
+   "Wadowice"
+  ]
+ },
+ "13": {
+  "cities": [
+   "Kraków"
+  ],
+  "powiats": [
+   "krakowski",
+   "miechowski",
+   "olkuski"
+  ],
+  "seats": [
+   "Kraków",
+   "Miechów",
+   "Olkusz"
+  ]
+ },
+ "14": {
+  "cities": [
+   "Nowy Sącz"
+  ],
+  "powiats": [
+   "gorlicki",
+   "limanowski",
+   "nowosądecki",
+   "nowotarski",
+   "tatrzański"
+  ],
+  "seats": [
+   "Gorlice",
+   "Limanowa",
+   "Nowy Sącz",
+   "Nowy Targ",
+   "Zakopane"
+  ]
+ },
+ "15": {
+  "cities": [
+   "Tarnów"
+  ],
+  "powiats": [
+   "bocheński",
+   "brzeski",
+   "dąbrowski",
+   "proszowicki",
+   "tarnowski",
+   "wielicki"
+  ],
+  "seats": [
+   "Bochnia",
+   "Brzesko",
+   "Dąbrowa Tarnowska",
+   "Proszowice",
+   "Tarnów",
+   "Wieliczka"
+  ]
+ },
+ "16": {
+  "cities": [
+   "Płock"
+  ],
+  "powiats": [
+   "ciechanowski",
+   "gostyniński",
+   "mławski",
+   "przasnyski",
+   "płocki",
+   "płoński",
+   "sierpecki",
+   "sochaczewski",
+   "żuromiński",
+   "żyrardowski"
+  ],
+  "seats": [
+   "Ciechanów",
+   "Gostynin",
+   "Mława",
+   "Przasnysz",
+   "Płock",
+   "Płońsk",
+   "Sierpc",
+   "Sochaczew",
+   "Żuromin",
+   "Żyrardów"
+  ]
+ },
+ "17": {
+  "cities": [
+   "Radom"
+  ],
+  "powiats": [
+   "białobrzeski",
+   "grójecki",
+   "kozienicki",
+   "lipski",
+   "przysuski",
+   "radomski",
+   "szydłowiecki",
+   "zwoleński"
+  ],
+  "seats": [
+   "Białobrzegi",
+   "Grójec",
+   "Kozienice",
+   "Lipsko",
+   "Przysucha",
+   "Radom",
+   "Szydłowiec",
+   "Zwoleń"
+  ]
+ },
+ "18": {
+  "cities": [
+   "Ostrołęka",
+   "Siedlce"
+  ],
+  "powiats": [
+   "garwoliński",
+   "makowski",
+   "miński",
+   "ostrowski",
+   "ostrołęcki",
+   "pułtuski",
+   "siedlecki",
+   "sokołowski",
+   "wyszkowski",
+   "węgrowski",
+   "łosicki"
+  ],
+  "seats": [
+   "Garwolin",
+   "Maków Mazowiecki",
+   "Mińsk Mazowiecki",
+   "Ostrołęka",
+   "Ostrów Mazowiecka",
+   "Pułtusk",
+   "Siedlce",
+   "Sokołów Podlaski",
+   "Wyszków",
+   "Węgrów",
+   "Łosice"
+  ]
+ },
+ "19": {
+  "cities": [
+   "Warszawa"
+  ],
+  "powiats": [],
+  "seats": []
+ },
+ "20": {
+  "cities": [],
+  "powiats": [
+   "grodziski",
+   "legionowski",
+   "nowodworski",
+   "otwocki",
+   "piaseczyński",
+   "pruszkowski",
+   "warszawski zachodni",
+   "wołomiński"
+  ],
+  "seats": [
+   "Grodzisk Mazowiecki",
+   "Legionowo",
+   "Nowy Dwór Mazowiecki",
+   "Otwock",
+   "Ożarów Mazowiecki",
+   "Piaseczno",
+   "Pruszków",
+   "Wołomin"
+  ]
+ },
+ "21": {
+  "cities": [],
+  "powiats": [
+   "brzeski",
+   "głubczycki",
+   "kluczborski",
+   "krapkowicki",
+   "kędzierzyńsko-kozielski",
+   "namysłowski",
+   "nyski",
+   "oleski",
+   "opolski",
+   "prudnicki",
+   "strzelecki"
+  ],
+  "seats": [
+   "Brzeg",
+   "Głubczyce",
+   "Kluczbork",
+   "Krapkowice",
+   "Kędzierzyn-Koźle",
+   "Namysłów",
+   "Nysa",
+   "Olesno",
+   "Opole",
+   "Prudnik",
+   "Strzelce Opolskie"
+  ]
+ },
+ "22": {
+  "cities": [
+   "Krosno",
+   "Przemyśl"
+  ],
+  "powiats": [
+   "bieszczadzki",
+   "brzozowski",
+   "jarosławski",
+   "jasielski",
+   "krośnieński",
+   "leski",
+   "lubaczowski",
+   "przemyski",
+   "przeworski",
+   "sanocki"
+  ],
+  "seats": [
+   "Brzozów",
+   "Jarosław",
+   "Jasło",
+   "Krosno",
+   "Lesko",
+   "Lubaczów",
+   "Przemyśl",
+   "Przeworsk",
+   "Sanok",
+   "Ustrzyki Dolne"
+  ]
+ },
+ "23": {
+  "cities": [
+   "Rzeszów",
+   "Tarnobrzeg"
+  ],
+  "powiats": [
+   "dębicki",
+   "kolbuszowski",
+   "leżajski",
+   "mielecki",
+   "niżański",
+   "ropczycko-sędziszowski",
+   "rzeszowski",
+   "stalowowolski",
+   "strzyżowski",
+   "tarnobrzeski",
+   "łańcucki"
+  ],
+  "seats": [
+   "Dębica",
+   "Kolbuszowa",
+   "Leżajsk",
+   "Mielec",
+   "Nisko",
+   "Ropczyce",
+   "Rzeszów",
+   "Stalowa Wola",
+   "Strzyżów",
+   "Tarnobrzeg",
+   "Łańcut"
+  ]
+ },
+ "24": {
+  "cities": [],
+  "powiats": [
+   "augustowski",
+   "białostocki",
+   "bielski",
+   "grajewski",
+   "hajnowski",
+   "kolneński",
+   "moniecki",
+   "sejneński",
+   "siemiatycki",
+   "sokólski",
+   "suwalski",
+   "wysokomazowiecki",
+   "zambrowski",
+   "łomżyński"
+  ],
+  "seats": [
+   "Augustów",
+   "Białystok",
+   "Bielsk Podlaski",
+   "Grajewo",
+   "Hajnówka",
+   "Kolno",
+   "Mońki",
+   "Sejny",
+   "Siemiatycze",
+   "Sokółka",
+   "Suwałki",
+   "Wysokie Mazowieckie",
+   "Zambrów",
+   "Łomża"
+  ]
+ },
+ "25": {
+  "cities": [
+   "Gdańsk",
+   "Sopot"
+  ],
+  "powiats": [
+   "gdański",
+   "kwidzyński",
+   "malborski",
+   "nowodworski",
+   "starogardzki",
+   "sztumski",
+   "tczewski"
+  ],
+  "seats": [
+   "Kwidzyn",
+   "Malbork",
+   "Nowy Dwór Gdański",
+   "Pruszcz Gdański",
+   "Starogard Gdański",
+   "Sztum",
+   "Tczew"
+  ]
+ },
+ "26": {
+  "cities": [
+   "Gdynia",
+   "Słupsk"
+  ],
+  "powiats": [
+   "bytowski",
+   "chojnicki",
+   "człuchowski",
+   "kartuski",
+   "kościerski",
+   "lęborski",
+   "pucki",
+   "słupski",
+   "wejherowski"
+  ],
+  "seats": [
+   "Bytów",
+   "Chojnice",
+   "Człuchów",
+   "Kartuzy",
+   "Kościerzyna",
+   "Lębork",
+   "Puck",
+   "Słupsk",
+   "Wejherowo"
+  ]
+ },
+ "27": {
+  "cities": [
+   "Bielsko-Biała"
+  ],
+  "powiats": [
+   "bielski",
+   "cieszyński",
+   "pszczyński",
+   "żywiecki"
+  ],
+  "seats": [
+   "Bielsko-Biała",
+   "Cieszyn",
+   "Pszczyna",
+   "Żywiec"
+  ]
+ },
+ "28": {
+  "cities": [
+   "Częstochowa"
+  ],
+  "powiats": [
+   "częstochowski",
+   "kłobucki",
+   "lubliniecki",
+   "myszkowski"
+  ],
+  "seats": [
+   "Częstochowa",
+   "Kłobuck",
+   "Lubliniec",
+   "Myszków"
+  ]
+ },
+ "29": {
+  "cities": [
+   "Bytom",
+   "Gliwice",
+   "Zabrze"
+  ],
+  "powiats": [
+   "gliwicki",
+   "tarnogórski"
+  ],
+  "seats": [
+   "Gliwice",
+   "Tarnowskie Góry"
+  ]
+ },
+ "30": {
+  "cities": [
+   "Jastrzębie-Zdrój",
+   "Rybnik",
+   "Żory"
+  ],
+  "powiats": [
+   "mikołowski",
+   "raciborski",
+   "rybnicki",
+   "wodzisławski"
+  ],
+  "seats": [
+   "Mikołów",
+   "Racibórz",
+   "Rybnik",
+   "Wodzisław Śląski"
+  ]
+ },
+ "31": {
+  "cities": [
+   "Chorzów",
+   "Katowice",
+   "Mysłowice",
+   "Piekary Śląskie",
+   "Ruda Śląska",
+   "Siemianowice Śląskie",
+   "Tychy",
+   "Świętochłowice"
+  ],
+  "powiats": [
+   "bieruńsko-lędziński"
+  ],
+  "seats": [
+   "Bieruń"
+  ]
+ },
+ "32": {
+  "cities": [
+   "Dąbrowa Górnicza",
+   "Jaworzno",
+   "Sosnowiec"
+  ],
+  "powiats": [
+   "będziński",
+   "zawierciański"
+  ],
+  "seats": [
+   "Będzin",
+   "Zawiercie"
+  ]
+ },
+ "33": {
+  "cities": [],
+  "powiats": [
+   "buski",
+   "jędrzejowski",
+   "kazimierski",
+   "kielecki",
+   "konecki",
+   "opatowski",
+   "ostrowiecki",
+   "pińczowski",
+   "sandomierski",
+   "skarżyski",
+   "starachowicki",
+   "staszowski",
+   "włoszczowski"
+  ],
+  "seats": [
+   "Busko-Zdrój",
+   "Jędrzejów",
+   "Kazimierza Wielka",
+   "Kielce",
+   "Końskie",
+   "Opatów",
+   "Ostrowiec Świętokrzyski",
+   "Pińczów",
+   "Sandomierz",
+   "Skarżysko-Kamienna",
+   "Starachowice",
+   "Staszów",
+   "Włoszczowa"
+  ]
+ },
+ "34": {
+  "cities": [
+   "Elbląg"
+  ],
+  "powiats": [
+   "bartoszycki",
+   "braniewski",
+   "działdowski",
+   "elbląski",
+   "iławski",
+   "lidzbarski",
+   "nowomiejski",
+   "ostródzki"
+  ],
+  "seats": [
+   "Bartoszyce",
+   "Braniewo",
+   "Działdowo",
+   "Elbląg",
+   "Iława",
+   "Lidzbark Warmiński",
+   "Nowe Miasto Lubawskie",
+   "Ostróda"
+  ]
+ },
+ "35": {
+  "cities": [
+   "Olsztyn"
+  ],
+  "powiats": [
+   "ełcki",
+   "giżycki",
+   "gołdapski",
+   "kętrzyński",
+   "mrągowski",
+   "nidzicki",
+   "olecki",
+   "olsztyński",
+   "piski",
+   "szczycieński",
+   "węgorzewski"
+  ],
+  "seats": [
+   "Ełk",
+   "Giżycko",
+   "Gołdap",
+   "Kętrzyn",
+   "Mrągowo",
+   "Nidzica",
+   "Olecko",
+   "Olsztyn",
+   "Pisz",
+   "Szczytno",
+   "Węgorzewo"
+  ]
+ },
+ "36": {
+  "cities": [
+   "Kalisz",
+   "Leszno"
+  ],
+  "powiats": [
+   "gostyński",
+   "jarociński",
+   "kaliski",
+   "kościański",
+   "krotoszyński",
+   "kępiński",
+   "leszczyński",
+   "ostrowski",
+   "ostrzeszowski",
+   "pleszewski",
+   "rawicki"
+  ],
+  "seats": [
+   "Gostyń",
+   "Jarocin",
+   "Kalisz",
+   "Kościan",
+   "Krotoszyn",
+   "Kępno",
+   "Leszno",
+   "Ostrzeszów",
+   "Ostrów Wielkopolski",
+   "Pleszew",
+   "Rawicz"
+  ]
+ },
+ "37": {
+  "cities": [
+   "Konin"
+  ],
+  "powiats": [
+   "gnieźnieński",
+   "kolski",
+   "koniński",
+   "słupecki",
+   "turecki",
+   "wrzesiński",
+   "średzki",
+   "śremski"
+  ],
+  "seats": [
+   "Gniezno",
+   "Konin",
+   "Koło",
+   "Słupca",
+   "Turek",
+   "Września",
+   "Śrem",
+   "Środa Wielkopolska"
+  ]
+ },
+ "38": {
+  "cities": [],
+  "powiats": [
+   "chodzieski",
+   "czarnkowsko-trzcianecki",
+   "grodziski",
+   "międzychodzki",
+   "nowotomyski",
+   "obornicki",
+   "pilski",
+   "szamotulski",
+   "wolsztyński",
+   "wągrowiecki",
+   "złotowski"
+  ],
+  "seats": [
+   "Chodzież",
+   "Czarnków",
+   "Grodzisk Wielkopolski",
+   "Międzychód",
+   "Nowy Tomyśl",
+   "Oborniki",
+   "Piła",
+   "Szamotuły",
+   "Wolsztyn",
+   "Wągrowiec",
+   "Złotów"
+  ]
+ },
+ "39": {
+  "cities": [
+   "Poznań"
+  ],
+  "powiats": [
+   "poznański"
+  ],
+  "seats": [
+   "Poznań"
+  ]
+ },
+ "40": {
+  "cities": [
+   "Koszalin"
+  ],
+  "powiats": [
+   "białogardzki",
+   "choszczeński",
+   "drawski",
+   "koszaliński",
+   "kołobrzeski",
+   "szczecinecki",
+   "sławieński",
+   "wałecki",
+   "świdwiński"
+  ],
+  "seats": [
+   "Białogard",
+   "Choszczno",
+   "Drawsko Pomorskie",
+   "Koszalin",
+   "Kołobrzeg",
+   "Szczecinek",
+   "Sławno",
+   "Wałcz",
+   "Świdwin"
+  ]
+ },
+ "41": {
+  "cities": [
+   "Szczecin",
+   "Świnoujście"
+  ],
+  "powiats": [
+   "goleniowski",
+   "gryficki",
+   "gryfiński",
+   "kamieński",
+   "myśliborski",
+   "policki",
+   "pyrzycki",
+   "stargardzki",
+   "łobeski"
+  ],
+  "seats": [
+   "Goleniów",
+   "Gryfice",
+   "Gryfino",
+   "Kamień Pomorski",
+   "Myślibórz",
+   "Police",
+   "Pyrzyce",
+   "Stargard",
+   "Łobez"
+  ]
+ }
+}

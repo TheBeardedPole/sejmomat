@@ -367,6 +367,11 @@ if (typeof document !== "undefined") (() => {
   const meta = (name, fallback) => document.querySelector(`meta[name="${name}"]`)?.content || fallback;
   const API = meta("sejmomat-api", "../api/v1/");
   const SITE = meta("sejmomat-site", "../");
+  // Each game has a page of its own (sejmdle/<page>.html, made by the build from game.html);
+  // index.html is the catalog of them. The same names are in index.html, for old links.
+  const PAGES = { posel: "zgadnij-posla", przeszlo: "czy-przeszlo", kim: "kim-jestem", prezydium: "prezydium",
+    siatka: "siatka", uzupelnij: "uzupelnij-slowo", twarze: "twarze-w-minute" };
+  const GAME = meta("sejmdle-game", "");
   const PHOTO = (id) => `https://api.sejm.gov.pl/sejm/term10/MP/${id}/photo`;
   // One set of puzzles a day, the same for everyone, picked from the date
   // plus this round number (raise ROUND to deal everyone a fresh set). Every
@@ -443,9 +448,9 @@ if (typeof document !== "undefined") (() => {
     className: "btn primary", onclick: () => pickDay(nextDay(DAY)), textContent: `Następny dzień (#${dayNumber(nextDay(DAY))}) →`,
   })]);
   // The result to share: a line of words, rows of squares (no spoilers), and
-  // the game's address, so sharing it brings people here; the #game part
-  // opens the same game. Change SHARE_URL (and og:url in index.html) when the
-  // games move to their own address.
+  // the game's own page, so sharing it brings people to the same game. Change
+  // SHARE_URL (and og:url in index.html and game.html) when the games move to
+  // their own address.
   const SHARE_URL = "https://sejmomat.pl/sejmdle/";
   const copyText = async (text) => {
     try { await navigator.clipboard.writeText(text); return true; } catch { /* no clipboard here, or no permission */ }
@@ -463,7 +468,7 @@ if (typeof document !== "undefined") (() => {
   // (phones, some desktop browsers), a copy button, and ready-made posts.
   const share = (game, lines) => {
     // an archived day's result links to that day's puzzles
-    const text = [...lines, `Zagraj: ${SHARE_URL}${DAY === TODAY ? "" : `?dzien=${DAY}`}#${game}`].join("\n");
+    const text = [...lines, `Zagraj: ${SHARE_URL}${PAGES[game]}.html${DAY === TODAY ? "" : `?dzien=${DAY}`}`].join("\n");
     const status = h("p", { className: "muted share-status" });
     status.setAttribute("role", "status");
     const copy = async () => {
@@ -1175,18 +1180,28 @@ if (typeof document !== "undefined") (() => {
   // ---- start
   const GAMES = { posel: playPosel, przeszlo: playPrzeszlo, kim: playKim, prezydium: playPrezydium, siatka: playSiatka, uzupelnij: playUzupelnij, twarze: playTwarze };
   const today = document.getElementById("today"), picker = document.getElementById("day-pick");
-  let current = "posel";
   const longDate = new Intl.DateTimeFormat("pl", { day: "numeric", month: "long", year: "numeric" });
   const dateOf = (day) => longDate.format(new Date(`${day}T12:00:00Z`));
   const shift = (day, n) => new Date(Date.parse(`${day}T12:00:00Z`) + n * 864e5).toISOString().slice(0, 10);
   const nextDay = (day) => shift(day, 1);
-  // the archive: every day from today back to FIRST_DAY, newest first
+  const dayQuery = () => (DAY === TODAY ? "" : `?dzien=${DAY}`);
+  document.getElementById("site-link")?.setAttribute("href", SITE);
+  // the catalog: the date, and an archive day carried on to every game's link
+  if (!GAME) {
+    today.textContent = `Sejmdle #${dayNumber(DAY)} · ${dateOf(DAY)}${DAY === TODAY ? "" : " · z archiwum"}`;
+    document.querySelectorAll(".catalog a").forEach((a) => { a.href = `${a.getAttribute("href").split("?")[0]}${dayQuery()}`; });
+    return;
+  }
+  // a game's page: its archive (every day from today back to FIRST_DAY, newest first) and
+  // the way back to the catalog, for the same day
+  const back = document.getElementById("back-link");
   for (let d = TODAY; d >= FIRST_DAY; d = shift(d, -1)) {
     picker.append(h("option", { value: d, textContent: `#${dayNumber(d)} · ${dateOf(d)}${d === TODAY ? " (dziś)" : ""}` }));
   }
   const showDay = () => {
     today.textContent = `Sejmdle #${dayNumber(DAY)} · ${dateOf(DAY)}${DAY === TODAY ? "" : " · z archiwum"}`;
     picker.value = DAY;
+    if (back) back.href = `./${dayQuery()}`;
   };
   const pickDay = (day) => {
     DAY = day;
@@ -1194,12 +1209,13 @@ if (typeof document !== "undefined") (() => {
     if (day === TODAY) url.searchParams.delete("dzien"); else url.searchParams.set("dzien", day);
     history.replaceState(null, "", url);
     showDay();
-    openGame(current);
+    openGame();
     window.scrollTo({ top: 0 });
   };
   picker.addEventListener("change", () => pickDay(picker.value));
+  // "Twarze w minutę" deals new faces each run: no day to pick
+  picker.closest(".archive").hidden = GAME === "twarze";
   showDay();
-  document.getElementById("site-link").href = SITE;
   fetch(`${API}games.json`).then((r) => {
     if (!r.ok) throw new Error(r.status);
     return r.json();
@@ -1208,18 +1224,8 @@ if (typeof document !== "undefined") (() => {
     data.byName = new Map(data.mps.map((m) => [fold(m.name), m]));
     document.getElementById("mp-names").append(
       ...[...data.mps].sort((a, b) => a.name.localeCompare(b.name, "pl")).map((m) => h("option", { value: m.name })));
-    const tabs = [...document.querySelectorAll(".tabs button")];
-    const open = (game) => {
-      current = game;
-      // "Twarze w minutę" deals new faces each run: no day to pick
-      picker.closest(".archive").hidden = game === "twarze";
-      tabs.forEach((t) => t.setAttribute("aria-selected", String(t.dataset.game === game)));
-      GAMES[game](data);
-      history.replaceState(null, "", `${location.search}#${game}`);
-    };
-    openGame = open;
-    tabs.forEach((t) => t.addEventListener("click", () => open(t.dataset.game)));
-    open(GAMES[location.hash.slice(1)] ? location.hash.slice(1) : "posel");
+    openGame = () => GAMES[GAME](data);
+    openGame();
   }).catch(() => {
     main.replaceChildren(h("p", { textContent: "Nie udało się wczytać danych. Spróbuj ponownie później." }));
   });

@@ -120,7 +120,27 @@ if (amendTable) {
   apply();
 }
 
-// MP list: search by name, constituency or club, and filters. The choice is
+// Towns by constituency (sejmomat/places.py): which constituencies a typed word names, from
+// its first 4 letters on ("toru" for Toruń, "sacz" for Nowy Sącz), and the places it names.
+const placeIndex = (places, fold) => {
+  const entries = Object.entries(places || {}).flatMap(([num, names]) => names.map((name) => ({ num, name, words: fold(name).split(/[\s-]+/), full: fold(name) })));
+  return {
+    // a whole town's name ("szczecin") is that town only, not the ones it begins (Szczecinek)
+    districts: (w) => {
+      if (w.length < 4) return new Set();
+      const whole = entries.filter((e) => e.words.includes(w));
+      return new Set((whole.length ? whole : entries.filter((e) => e.words.some((x) => x.startsWith(w)))).map((e) => e.num));
+    },
+    // the town the whole query names, or else those it begins
+    named: (q) => {
+      if (q.length < 4) return [];
+      const whole = entries.filter((e) => e.full === q);
+      return whole.length ? whole : entries.filter((e) => e.full.startsWith(q));
+    },
+  };
+};
+
+// MP list: search by name, town, constituency or club, and filters. The choice is
 // kept in the address (?q=…&klub=…), so a filtered list can be linked to.
 const mpTable = document.getElementById("mp-table");
 if (mpTable) {
@@ -130,21 +150,33 @@ if (mpTable) {
   const rows = [...mpTable.tBodies[0].rows];
   const fold = (s) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ł/g, "l");
   for (const tr of rows) tr._text = fold(tr.dataset.text);
+  const places = placeIndex(JSON.parse(form.dataset.places || "{}"), fold);
+  const districtNames = JSON.parse(form.dataset.districtNames || "{}");
+  const placeNote = document.getElementById("mp-place");
   const value = (name) => {
     const el = form.querySelector(`[name="${name}"]`);
     return el.type === "checkbox" ? (el.checked ? el.value : "") : el.value.trim();
   };
   const apply = () => {
     const q = fold(value("q")), club = value("klub"), district = value("okreg"), active = value("mandat"), moved = value("zmiany");
+    // a word matches an MP by name, constituency, voivodeship or club, or by a town of their constituency
+    const words = q.split(/\s+/).filter(Boolean).map((w) => [w, places.districts(w)]);
     let shown = 0;
     for (const tr of rows) {
       const d = tr.dataset;
-      const hide = (q && !q.split(/\s+/).every((w) => tr._text.includes(w))) || (club && d.club !== club) ||
+      const hide = (words.length && !words.every(([w, nums]) => tr._text.includes(w) || nums.has(d.num))) || (club && d.club !== club) ||
         (district && d.district !== district) || (active && d.active !== active) || (moved && d.switch !== "1");
       tr.hidden = Boolean(hide);
       if (!hide) shown++;
     }
     count.textContent = `${shown} / ${rows.length}`;
+    // the town typed, and its constituency: "Grudziądz: okręg nr 5 (Toruń)"
+    const named = places.named(q).slice(0, 3);
+    if (placeNote) {
+      placeNote.hidden = !named.length;
+      placeNote.textContent = named.map((e) => form.dataset.placeLabel.replace("{place}", e.name).replace("{n}", e.num)
+        .replace("{name}", districtNames[e.num] || "")).join(" · ");
+    }
     const params = new URLSearchParams();
     for (const el of fields) if (value(el.name)) params.set(el.name, value(el.name));
     history.replaceState(null, "", `${location.pathname}${params.size ? `?${params}` : ""}${location.hash}`);

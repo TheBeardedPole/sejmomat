@@ -91,7 +91,7 @@ tbody tr:hover { background: var(--accent-bg); }
   --section: #202324; --section-strong: #303536; --accent-bg: #303536;
   background: var(--surface); border-bottom: 4px solid #1d70b8;
 }
-@media (min-width: 900px) {
+@media (min-width: 1360px) {   /* the dropdowns; below, the pages are listed in the dark drawer */
   .top .sub {
     --surface: #ffffff; --bg: #f3f3f3; --text: #0b0c0c; --muted: #484949;
     --accent: #1a65a6; --line: #cecece; --section-strong: #e6e9eb;
@@ -226,7 +226,6 @@ tbody tr:hover { background: var(--accent-bg); }
 .share-preview .share-status { margin: 0; max-width: 32ch; text-align: center; }
 .share-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; padding-top: 24px; padding-bottom: 28px; }
 .share-actions .btn svg { width: 18px; height: 18px; }
-.share-actions .small { margin-left: auto; max-width: 42ch; }
 @media (max-width: 700px) {
   .share-dialog { width: calc(100vw - 24px); max-height: calc(100dvh - 24px); }
   .share-dialog > * { padding-left: 20px; padding-right: 20px; }
@@ -236,7 +235,6 @@ tbody tr:hover { background: var(--accent-bg); }
   .share-body { grid-template-columns: minmax(0, 1fr); gap: 24px; margin-top: 24px; }
   .share-preview { min-height: 240px; padding: 12px; }
   .share-preview img { max-height: none; }
-  .share-actions .small { margin-left: 0; flex-basis: 100%; }
 }
 
 /* square corners throughout (pills, tags, tabs, cards, the seating plan's views, the support

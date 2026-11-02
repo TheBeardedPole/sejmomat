@@ -998,17 +998,34 @@ if (typeof document !== "undefined") (() => {
       return b;
     }));
 
-    // search: the seats of the MPs whose name matches, marked; one found: their card
+    // search: the seats of the MPs whose name matches, or who sit for the town, constituency or
+    // voivodeship typed (a town from its first 4 letters), marked; one found: their card
     const search = el("input", { type: "search", className: "sala-search", placeholder: L.salaSearch, ariaLabel: L.salaSearch, autocomplete: "off" });
     const found = el("span", { className: "muted small", ariaLive: "polite" });
+    const towns = Object.entries(plan.places || {}).flatMap(([num, names]) => names.map((name) => ({ num: Number(num), name, full: fold(name), words: fold(name).split(/[\s-]+/) })));
+    const districtName = Object.fromEntries(Object.values(plan.mps).map((m) => [m[9], m[3]]));
+    const placeText = (num) => fold(`${districtName[num] || ""} ${plan.voivodeships?.[num] || ""}`);
     search.addEventListener("input", () => {
       const q = fold(search.value.trim());
-      const hits = q.length >= 2 ? rects.filter((r) => r.dataset.mp && fold(plan.mps[r.dataset.mp][0]).includes(q)) : [];
+      // a whole town's name ("szczecin") is that town only, not the ones it begins (Szczecinek)
+      const townsFor = (w) => {
+        if (w.length < 4) return [];
+        const whole = towns.filter((t) => t.words.includes(w));
+        return whole.length ? whole : towns.filter((t) => t.words.some((x) => x.startsWith(w)));
+      };
+      const words = q.split(/\s+/).filter(Boolean).map((w) => [w, new Set(townsFor(w).map((t) => t.num))]);
+      const fits = (m) => words.every(([w, nums]) => fold(m[0]).includes(w) || nums.has(m[9]) || (w.length >= 4 && placeText(m[9]).includes(w)));
+      const hits = q.length >= 2 ? rects.filter((r) => r.dataset.mp && fits(plan.mps[r.dataset.mp])) : [];
       svg.classList.toggle("searching", hits.length > 0);
       rects.forEach((r) => r.classList.toggle("match", hits.includes(r)));
-      found.textContent = q.length >= 2 ? (hits.length ? plural(hits.length, L.salaFound).replace("{n}", hits.length) : L.salaNotFound) : "";
+      // the town the query names, or else those it begins (as on the MP list)
+      const whole = q.length >= 4 ? towns.filter((t) => t.full === q) : [];
+      const named = (whole.length ? whole : q.length >= 4 ? towns.filter((t) => t.full.startsWith(q)) : []).slice(0, 3);
+      found.textContent = q.length >= 2 ? [
+        ...named.map((t) => L.salaPlace.replace("{place}", t.name).replace("{n}", t.num).replace("{name}", districtName[t.num] || "")),
+        hits.length ? plural(hits.length, L.salaFound).replace("{n}", hits.length) : L.salaNotFound].filter(Boolean).join(" · ") : "";
       if (hits.length === 1) show(hits[0], true);
-      else if (pinned) { tip.hidden = true; pinned = false; }
+      else if (pinned) unpin();
     });
 
     const pageOf = (mp) => {
@@ -1029,15 +1046,29 @@ if (typeof document !== "undefined") (() => {
       if (v[2] !== undefined) lines.push(el("span", { className: "sala-tip-fig", textContent: `${v[1]}: ${v[3](m[v[2]])}` }));
       if (tm.length) lines.push(el("span", { className: "sala-tip-topics", textContent: `${L.salaWorks}: ${tm.map(nameOf).join(", ")}` }));
       if (pin) lines.push(link(pageOf(mp), `${L.profile} →`));
-      tip.replaceChildren(photo, el("div", { className: "sala-tip-text" }, lines));
+      // a card opened by a tap or the search has its own close button
+      const close = pin && el("button", { type: "button", className: "icon-btn sala-tip-close", ariaLabel: L.salaClose, title: L.salaClose }, iconSvg(ICON.close, 16));
+      if (close) close.addEventListener("click", (e) => { e.stopPropagation(); unpin(); });
+      tip.replaceChildren(photo, el("div", { className: "sala-tip-text" }, lines), ...(close ? [close] : []));
+      tip.classList.toggle("pinned", pin);
       const b = r.getBoundingClientRect(), host = wrap.getBoundingClientRect();
       tip.hidden = false;
       const left = Math.min(Math.max(8 + wrap.scrollLeft, b.left - host.left + wrap.scrollLeft + b.width / 2 - tip.offsetWidth / 2),
         wrap.scrollLeft + host.width - tip.offsetWidth - 8);
       tip.style.left = `${left}px`;
-      tip.style.top = `${b.top - host.top - tip.offsetHeight - 10}px`;
+      // above the seat, or below it when the front rows leave no room above
+      const above = b.top - host.top - tip.offsetHeight - 10;
+      tip.style.top = `${above >= 0 ? above : b.bottom - host.top + 10}px`;
       rects.forEach((x) => x.classList.toggle("hover", x === r));
       pinned = pin;
+      shown = r;
+    };
+    let shown = null;
+    const unpin = () => {
+      tip.hidden = true;
+      pinned = false;
+      shown = null;
+      rects.forEach((x) => x.classList.remove("hover"));
     };
     let touch = false;
     // with a mouse the card follows the pointer: on a seat it shows, anywhere else (between the
@@ -1061,13 +1092,17 @@ if (typeof document !== "undefined") (() => {
     document.addEventListener("mouseleave", () => { over = null; hide(); });
     window.addEventListener("scroll", () => { over = null; hide(); }, { passive: true });
     svg.addEventListener("pointerdown", (e) => { touch = e.pointerType !== "mouse"; });
+    // a tap on a seat opens its card; on the same seat again, between the seats or anywhere
+    // else on the page it closes (as does the card's × and Escape)
     svg.addEventListener("click", (e) => {
       const mp = e.target.dataset?.mp;
-      if (!mp) return;
-      if (touch) show(e.target, true);
-      else location.href = pageOf(mp);
+      if (!mp) { if (pinned) unpin(); return; }
+      if (!touch) location.href = pageOf(mp);
+      else if (pinned && shown === e.target) unpin();
+      else show(e.target, true);
     });
-    document.addEventListener("click", (e) => { if (pinned && !box.contains(e.target)) { tip.hidden = true; pinned = false; } });
+    document.addEventListener("click", (e) => { if (pinned && !wrap.contains(e.target) && !search.contains(e.target)) unpin(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && pinned) unpin(); });
 
     const wrap = el("div", { className: "sala-wrap" }, svg, tip);
     const body = el("div", { className: "sala-body", id: "sala-body" }, tabRow,

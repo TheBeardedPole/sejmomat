@@ -32,18 +32,38 @@ h2 { font-size: 1.1rem; margin: 0 0 8px; }
 .wordmark span { display: grid; place-items: center; width: 1.9em; height: 1.9em; border-radius: 8px;
   font-weight: 800; color: #fff; background: var(--grey); box-shadow: var(--shadow); }
 .wordmark span:nth-child(1), .wordmark span:nth-child(4) { background: var(--green); }
-.wordmark span:nth-child(2), .wordmark span:nth-child(6) { background: var(--yellow); }
+/* a shade darker than the clues' yellow, so the white letters read (3:1, large bold text: the
+   tiles stay at 18.7px and over) in both themes */
+.wordmark span:nth-child(2), .wordmark span:nth-child(6) { background: #b8860b; }
 .tagline { margin: 0 0 14px; }
 
-/* Game switcher. */
-.tabs { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding: 4px; margin: 0 0 18px;
-  background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); }
-.tabs button { font: inherit; font-weight: 600; padding: 8px 16px; border: 0; border-radius: 9px;
-  background: none; color: var(--muted); cursor: pointer; }
-.tabs button:hover { color: var(--text); }
-.tabs button[aria-selected="true"] { background: var(--accent); color: var(--on-fill); }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tabs button[aria-selected="true"] { color: #0d1b2e; } }
-:root[data-theme="dark"] .tabs button[aria-selected="true"] { color: #0d1b2e; }
+/* The catalog (index.html): a card per game, with its picture and what it is about; each
+   leads to the game's own page. */
+.catalog { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; margin: 6px 0 28px; padding: 0; list-style: none; }
+.game-card { display: flex; flex-direction: column; height: 100%; overflow: hidden; border: 1px solid var(--line); border-radius: 14px;
+  background: var(--surface); box-shadow: var(--shadow); color: var(--text); text-decoration: none; transition: border-color .15s, transform .15s; }
+.game-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.game-card:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.game-pic { display: block; width: 100%; height: auto; aspect-ratio: 160 / 96; padding: 12px 0 8px; background: var(--bg); border-bottom: 1px solid var(--line); }
+.game-text { display: flex; flex-direction: column; gap: 4px; padding: 12px 16px 16px; }
+.game-text strong { font-size: 1.1rem; }
+.game-text span { color: var(--muted); font-size: .92rem; }
+.pic-green { fill: var(--green); } .pic-yellow { fill: var(--yellow); } .pic-grey { fill: var(--grey); } .pic-red { fill: var(--red); }
+.pic-accent { fill: var(--accent); }
+.pic-ring { fill: none; stroke: var(--accent); stroke-width: 7; stroke-linecap: round; }
+.pic-paper { fill: var(--surface); stroke: var(--line); stroke-width: 2; }
+.pic-line { fill: none; stroke: var(--line); stroke-width: 5; stroke-linecap: round; }
+.pic-tick { fill: none; stroke: #fff; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+.pic-mark { fill: #fff; font: 800 20px system-ui, sans-serif; text-anchor: middle; }
+.pic-num { fill: var(--text); font: 800 22px system-ui, sans-serif; text-anchor: middle; }
+@media (prefers-reduced-motion: reduce) { .game-card { transition: none; } .game-card:hover { transform: none; } }
+
+/* A game's page: the way back to the catalog, and a smaller name. */
+.page > header .back { margin: 0 0 6px; text-align: left; }
+.back a { display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border: 1px solid var(--line); border-radius: 99px;
+  background: var(--surface); color: var(--text); font-weight: 600; text-decoration: none; }
+.back a:hover { border-color: var(--accent); color: var(--accent); }
+.wordmark.small { font-size: 1.2rem; }
 
 /* The archive: a day to play instead of today's. */
 .archive { font-size: .9rem; color: var(--muted); }
@@ -147,8 +167,6 @@ details.context summary { cursor: pointer; color: var(--muted); }
 
 @media (max-width: 520px) {
   .wordmark { font-size: 1.2rem; gap: 4px; }
-  .tabs { display: flex; }
-  .tabs button { flex: 1 1 auto; padding: 8px 10px; }
   .reveal { flex-direction: column; }
 }
 

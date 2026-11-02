@@ -11,8 +11,11 @@
 {% set club_pages = club_rows | map(attribute="id") | list %}
 {% set current_clubs = club_rows | selectattr("members") | map(attribute="id") | list %}
 {% set districts = mp_rows | map(attribute="mp") | selectattr("districtName") | map(attribute="districtName") | unique | sort %}
-<div class="filters" id="mp-filters">
-  <input type="search" id="mp-search" name="q" placeholder="{{ _('Szukaj posła, okręgu, klubu…') }}" aria-label="{{ _('Szukaj') }}">
+{#- a town finds the MPs of its constituency (sejmomat/places.py, static/app.js) #}
+{% set district_names = {} %}{% for r in mp_rows if r.mp.districtNum %}{% set _x = district_names.update({r.mp.districtNum: r.mp.districtName}) %}{% endfor %}
+<div class="filters" id="mp-filters" data-places="{{ places | tojson | forceescape }}" data-district-names="{{ district_names | tojson | forceescape }}"
+     data-place-label="{{ _('{place}: okręg nr {n} ({name})') }}">
+  <input type="search" id="mp-search" name="q" placeholder="{{ _('Szukaj posła, miejscowości, klubu…') }}" aria-label="{{ _('Szukaj') }}">
   <select id="mp-club" name="klub" aria-label="{{ _('Klub') }}">
     <option value="">{{ _("Wszystkie kluby") }}</option>
     {% for c in club_rows if c.members %}<option value="{{ c.id }}">{{ c.id }} ({{ c.members | length }})</option>{% endfor %}
@@ -30,6 +33,7 @@
   </select>
   <label><input type="checkbox" id="mp-switch" name="zmiany" value="1"> {{ _("Tylko ci, którzy zmienili klub") }}</label>
   <span class="muted" id="mp-count" aria-live="polite"></span>
+  <p class="muted small mp-place" id="mp-place" hidden></p>
 </div>
 <div class="table-scroll">
 <table id="mp-table">
@@ -46,8 +50,8 @@
   <tbody>
   {% for r in mp_rows %}
   {% set member = r.mp.active and r.mp.club in current_clubs %}
-  <tr data-club="{{ r.mp.club if member else ('-' if r.mp.active else '') }}" data-district="{{ r.mp.districtName or '' }}" data-active="{{ 1 if r.mp.active else 0 }}" data-switch="{{ 1 if r.switches else 0 }}"
-      data-text="{{ r.mp.firstLastName }} {{ r.mp.districtName or '' }} {{ r.mp.club or '' }} {{ clubs.get(r.mp.club, '') }}">
+  <tr data-club="{{ r.mp.club if member else ('-' if r.mp.active else '') }}" data-district="{{ r.mp.districtName or '' }}" data-num="{{ r.mp.districtNum or '' }}" data-active="{{ 1 if r.mp.active else 0 }}" data-switch="{{ 1 if r.switches else 0 }}"
+      data-text="{{ r.mp.firstLastName }} {{ r.mp.districtName or '' }} {{ r.mp.voivodeship or '' }} {{ r.mp.club or '' }} {{ clubs.get(r.mp.club, '') }}">
     <td data-v="{{ r.mp.firstLastName.split()[-1] }}"><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a>{% if not r.mp.active %} <span class="muted">{{ _("(wygasły)") }}</span>{% endif %}</td>
     <td>{% if r.mp.club in club_pages %}<a href="{{ root }}klub/{{ club_slug(r.mp.club) }}.html">{{ r.mp.club }}</a>{% else %}{{ r.mp.club }}{% endif %}</td>
     <td class="num" data-v="{{ r.turnout }}">{{ r.turnout | pct }}</td>

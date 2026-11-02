@@ -24,6 +24,7 @@ import json
 from collections import defaultdict
 from datetime import date, timedelta
 
+from . import places
 from .config import DATA, TERM
 from .social import club_short
 
@@ -273,11 +274,16 @@ def hall(ctx, committees, spec=None, today=None):
         "aspect": plan["aspect"], "source": plan.get("source"),
         "seats": seats,
         # [name, club id, club as readers know it, constituency, turnout, speeches, questions,
-        #  breaks of the club line, terms served (since 1997)]
+        #  breaks of the club line, terms served (since 1997), constituency number]
         "mps": {r["mp"]["id"]: [r["mp"]["firstLastName"], r["mp"].get("club") or "niez.", club_short(r["mp"].get("club") or ""),
                                 r["mp"].get("districtName") or "", round(r["turnout"], 4),
                                 (r.get("speeches") or {}).get("spoken", 0) + (r.get("speeches") or {}).get("written", 0),
-                                len(r.get("questions") or []), r["rebel_count"], len(r.get("terms") or [1])]
+                                len(r.get("questions") or []), r["rebel_count"], len(r.get("terms") or [1]),
+                                r["mp"].get("districtNum")]
                 for r in ctx["mp_rows"] if r["mp"]["id"] in mps},
+        # the towns and the voivodeship of each constituency, for the search (sejmomat/places.py)
+        "places": places.by_district(),
+        "voivodeships": {r["mp"]["districtNum"]: r["mp"]["voivodeship"] for r in ctx["mp_rows"]
+                         if r["mp"].get("districtNum") and r["mp"].get("voivodeship")},
         "active": {iid: {x["id"]: x["score"] for x in rows} for iid, rows in scored.items()},
     }
