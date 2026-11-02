@@ -32,7 +32,9 @@ h2 { font-size: 1.1rem; margin: 0 0 8px; }
 .wordmark span { display: grid; place-items: center; width: 1.9em; height: 1.9em; border-radius: 8px;
   font-weight: 800; color: #fff; background: var(--grey); box-shadow: var(--shadow); }
 .wordmark span:nth-child(1), .wordmark span:nth-child(4) { background: var(--green); }
-.wordmark span:nth-child(2), .wordmark span:nth-child(6) { background: var(--yellow); }
+/* a shade darker than the clues' yellow, so the white letters read (3:1, large bold text: the
+   tiles stay at 18.7px and over) in both themes */
+.wordmark span:nth-child(2), .wordmark span:nth-child(6) { background: #b8860b; }
 .tagline { margin: 0 0 14px; }
 
 /* The catalog (index.html): a card per game, with its picture and what it is about; each
@@ -61,7 +63,7 @@ h2 { font-size: 1.1rem; margin: 0 0 8px; }
 .back a { display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border: 1px solid var(--line); border-radius: 99px;
   background: var(--surface); color: var(--text); font-weight: 600; text-decoration: none; }
 .back a:hover { border-color: var(--accent); color: var(--accent); }
-.wordmark.small { font-size: 1.1rem; }
+.wordmark.small { font-size: 1.2rem; }
 
 /* The archive: a day to play instead of today's. */
 .archive { font-size: .9rem; color: var(--muted); }
@@ -165,7 +167,6 @@ details.context summary { cursor: pointer; color: var(--muted); }
 
 @media (max-width: 520px) {
   .wordmark { font-size: 1.2rem; gap: 4px; }
-  .wordmark.small { font-size: .95rem; }
   .reveal { flex-direction: column; }
 }
 
