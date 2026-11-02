@@ -1,0 +1,837 @@
+                                                                        Druk nr 3220
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+             X kadencja
+
+                                      SPRAWOZDANIE
+        KOMISJI GOSPODARKI MORSKIEJ I ŻEGLUGI ŚRÓDLĄDOWEJ
+
+
+  o rządowym projekcie ustawy o zmianie ustawy
+  o rejestracji jachtów i innych jednostek
+  pływających o długości do 24 m oraz ustawy
+  o bezpieczeństwie morskim (druk nr 2995)
+         Marszałek Sejmu, zgodnie z art. 37 ust.1 i art. 40 ust.1 regulaminu Sejmu
+  skierował w dniu 11 sierpnia 2026 r. powyższy projekt ustawy do Komisji Gospodarki
+  Morskiej i Żeglugi Śródlądowej do pierwszego czytania.
+
+        Komisja Gospodarki Morskiej i Żeglugi Śródlądowej po przeprowadzeniu pierwszego
+  czytania oraz rozpatrzeniu tego projektu ustawy na posiedzeniach w dniach: 3 września
+  oraz 22 października 2026 r.
+
+       wnosi :
+
+       W y s o k i S e j m uchwalić raczy załączony projekt ustawy.
+
+
+  Warszawa, dnia 22 października 2026 r.
+
+
+
+
+                   Sprawozdawca                               Przewodniczący Komisji
+
+                  (-) Piotr Głowski                             (-) Kacper Płażyński
+
+
+
+
+                 Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 23        Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                           1
+X kadencja/druk nr 2995
+
+                                                                                            Projekt
+                                               U S T AWA
+
+                                                  z dnia
+
+     o zmianie ustawy o rejestracji jachtów i innych jednostek pływających o długości
+                            do 24 m oraz ustawy o bezpieczeństwie morskim
+
+
+      Art. 1. W ustawie z dnia 12 kwietnia 2018 r. o rejestracji jachtów i innych jednostek
+pływających o długości do 24 m (Dz. U. z 2024 r. poz. 1536) wprowadza się następujące
+zmiany:
+1)    w art. 2:
+      a)   pkt 1 otrzymuje brzmienie:
+           „1) jednostce pływającej – należy przez to rozumieć jacht oraz jednostkę pływającą
+                    używaną do połowu ryb, o ile nie są urządzeniem wodnym w rozumieniu art. 16
+                    pkt 65 ustawy z dnia 20 lipca 2017 r. – Prawo wodne (Dz. U. z 2025 r. poz. 960
+                    i 1535 oraz z 2026 r. poz. 445, 605 i 815), w szczególności molem, pomostem
+                    lub przystanią, a także inną konstrukcją pływającą nieprzeznaczoną do
+                    uprawiania żeglugi;”,
+      b)   pkt 9 i 10 otrzymują brzmienie:
+           „9) numerze identyfikacyjnym – należy przez to rozumieć numer identyfikacyjny
+                    jednostki pływającej, którym jest oznakowany kadłub tej jednostki:
+                    a)     nadany przez producenta albo przez jednostkę notyfikowaną w procesie
+                           oceny pokonstrukcyjnej (moduł PCA) zgodnie z normą zharmonizowaną
+                           do dyrektywy Parlamentu Europejskiego i Rady 2013/53/UE z dnia
+                           20 listopada 2013 r. w sprawie rekreacyjnych jednostek pływających i
+                           skuterów wodnych i uchylającej dyrektywę 94/25/WE (Dz. Urz. UE L 354
+                           z 28.12.2013, str. 90, z późn. zm.), dotyczącą identyfikacji jednostki i
+                           systemu kodowania dla małych statków, w szczególności numer HIN
+                           (Hull Identification Number), numer CIN (Craft Identification Number),
+                           numer WIN (Watercraft Identification Number),
+                    b)     inny niż wymieniony w lit. a;
+           10) indywidualnym numerze identyfikacyjnym (INI) – należy przez to rozumieć
+                    numer nadawany jednostkom pływającym przez organ rejestrujący podczas
+Liczba stron : 23        Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                          2
+X kadencja/druk nr 2995
+
+                    pierwszej rejestracji w rejestrze jachtów i innych jednostek pływających o
+                    długości do 24 m, zwanym dalej „rejestrem”, w przypadku gdy jednostka
+                    pływająca nie posiada numeru identyfikacyjnego, o którym mowa w pkt 9
+                    lit. a;”,
+     c)    w pkt 11 kropkę zastępuje się średnikiem i dodaje się pkt 12 i 13 w brzmieniu:
+           „12) dacie rocznicowej – należy przez to rozumieć dzień i miesiąc każdego roku,
+                    odpowiadające dacie rejestracji umieszczonej w dokumencie rejestracyjnym;
+           13) jednostce pływającej stanowiącej polską własność – należy przez to rozumieć:
+                    a)     jacht morski:
+                           –    będący własnością podmiotów, o których mowa w art. 73 § 1 i 2
+                                ustawy z dnia 18 września 2001 r. – Kodeks morski,
+                           –    będący co najmniej w połowie własnością podmiotów, o których
+                                mowa w tiret pierwszym, jeżeli armator ma w Rzeczypospolitej
+                                Polskiej miejsce zamieszkania albo siedzibę swojego zakładu
+                                głównego lub oddziału,
+                    b)     jacht śródlądowy lub śródlądową jednostkę pływającą:
+                           –    będące własnością podmiotów, o których mowa w art. 5 ust. 3 ustawy
+                                z dnia 21 grudnia 2000 r. o żegludze śródlądowej (Dz. U. z 2025 r.
+                                poz. 18),
+                           –    będące co najmniej w połowie własnością podmiotów, o których
+                                mowa w tiret pierwszym, jeżeli armator ma w Rzeczypospolitej
+                                Polskiej miejsce zamieszkania albo siedzibę swojego zakładu
+                                głównego lub oddziału.”;
+2)   w art. 3 w ust. 1 część wspólna otrzymuje brzmienie:
+     „– o ile nie posiada innej niż polska przynależności oraz stanowi polską własność.”;
+3)   w art. 4:
+     a)    w ust. 1 skreśla się wyrazy „jachtów i innych jednostek pływających o długości do
+           24 m, zwanego dalej „rejestrem””,
+     b)    po ust. 3 dodaje się ust. 3a i 3b w brzmieniu:
+                    „3a. Rada Ministrów może wprowadzić, w drodze rozporządzenia, zakazy w
+           zakresie wpisywania jednostek pływających do rejestru i utrzymywania ich w
+           rejestrze, jeżeli wymagają tego:
+           1)       ważny interes polityki zagranicznej Rzeczypospolitej Polskiej;
+Liczba stron : 23     Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                             3
+X kadencja/druk nr 2995
+
+           2)       obronność i bezpieczeństwo Rzeczypospolitej Polskiej;
+           3)       bezpieczeństwo publiczne lub porządek publiczny, w szczególności ochrona
+                    granicy państwowej;
+           4)       ważny interes gospodarczy Rzeczypospolitej Polskiej;
+           5)       zobowiązania Rzeczypospolitej Polskiej wynikające z postanowień umów
+                    międzynarodowych,     w    szczególności    z      wiążących   uchwał   Rady
+                    Bezpieczeństwa    Organizacji   Narodów    Zjednoczonych,      przyjętych   na
+                    podstawie rozdziału VII Karty Narodów Zjednoczonych.
+                    3b. Zakazy, o których mowa w ust. 3a, mogą dotyczyć jednostek pływających
+           będących przedmiotem własności lub współwłasności obywateli wskazanego
+           państwa niebędącego państwem członkowskim Unii Europejskiej lub Europejskiego
+           Obszaru Gospodarczego lub podmiotów mających siedzibę w tym państwie.”,
+     c)    ust. 4 otrzymuje brzmienie:
+                    „4. Dokonując rejestracji jednostki pływającej, która nie posiada numeru
+           identyfikacyjnego, o którym mowa w art. 2 pkt 9 lit. a, organ rejestrujący nadaje jej
+           indywidualny numer identyfikacyjny (INI), o ile numer ten nie został wcześniej
+           nadany. Indywidualny numer identyfikacyjny (INI) nie podlega zmianie w okresie
+           istnienia jednostki pływającej.”,
+     d)    po ust. 4 dodaje się ust. 4a w brzmieniu:
+                    „4a. W przypadku, o którym mowa w ust. 4, właściciel jednostki pływającej
+           trwale oznakowuje kadłub jednostki pływającej indywidualnym numerem
+           identyfikacyjnym (INI). Jeżeli jednostka pływająca jest oznakowana numerem
+           identyfikacyjnym, o którym mowa w art. 2 pkt 9 lit. b, indywidualny numer
+           identyfikacyjny (INI) umieszcza się w bezpośrednim sąsiedztwie numeru
+           identyfikacyjnego, zachowując jego widoczność.”,
+     e)    ust. 9 otrzymuje brzmienie:
+                    „9. Oświadczenie, o którym mowa w ust. 8, składa się pod rygorem
+           odpowiedzialności karnej za składanie fałszywych oświadczeń. Składający
+           oświadczenie jest obowiązany do zawarcia w nim klauzuli następującej treści:
+           „Jestem świadomy odpowiedzialności karnej za złożenie fałszywego oświadczenia
+           wynikającej z art. 233 § 6 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny (Dz. U.
+           z 2025 r. poz. 383, 1818 i 1872 oraz z 2026 r. poz. 902 i 988).”. Klauzula ta zastępuje
+Liczba stron : 23   Data : 2026-10-27    Nazwa pliku : V6_2027-1.NK                             4
+X kadencja/druk nr 2995
+
+           pouczenie      organu    o   odpowiedzialności   karnej    za   składanie   fałszywych
+           oświadczeń.”;
+4)   po art. 4 dodaje się art. 4a i art. 4b w brzmieniu:
+           „Art. 4a. 1. Jednostka pływająca niepodlegająca obowiązkowi rejestracji podlega
+     obowiązkowi przeglądu wstępnego przed:
+     1)    wpisaniem do rejestru i uzyskaniem polskiej przynależności;
+     2)    rozpatrzeniem wniosku o zmianę danych w rejestrze, jeżeli w związku ze zmianą
+           właściciela lub współwłaściciela przestała stanowić polską własność.
+           2. Przegląd wstępny przeprowadza, na wniosek właściciela jednostki pływającej,
+     uznana organizacja upoważniona do wykonywania zadań administracji morskiej w
+     zakresie, o którym mowa w art. 8a ust. 1 pkt 1 ustawy z dnia 18 sierpnia 2011 r. o
+     bezpieczeństwie morskim (Dz. U. z 2026 r. poz. 529), zwana dalej „upoważnioną uznaną
+     organizacją”.
+           3. Wniosek o przeprowadzenie przeglądu wstępnego zawiera informacje, o których
+     mowa w art. 6 ust. 1 pkt 2.
+           4. Do wniosku o przeprowadzenie przeglądu wstępnego dołącza się dokumenty i
+     materiały, o których mowa w art. 6 ust. 1 pkt 3.
+           5. Zakres przeglądu wstępnego obejmuje weryfikację:
+     1)    zgodności informacji zawartych we wniosku o przeprowadzenie przeglądu
+           wstępnego ze stanem faktycznym oraz dokumentami i materiałami, o których mowa
+           w art. 6 ust. 1 pkt 3;
+     2)    stanu ogólnego jednostki pływającej pod względem jej zdatności do uprawiania
+           żeglugi w zakresie deklarowanym we wniosku o przeprowadzenie przeglądu
+           wstępnego.
+           6. Przegląd wstępny jednostki pływającej, która posiada deklarację zgodności CE,
+     może być przeprowadzony przy użyciu środków komunikacji elektronicznej. Decyzję o
+     formie przeglądu podejmuje upoważniona uznana organizacja po analizie wniosku o
+     przeprowadzenie przeglądu wstępnego.
+           7. W przypadku pozytywnego wyniku przeglądu wstępnego upoważniona uznana
+     organizacja zamieszcza w rejestrze:
+     1)    dokument potwierdzający pozytywny wynik przeglądu wstępnego;
+     2)    informacje, o których mowa w art. 6 ust. 1 pkt 2;
+     3)    dokumenty i materiały, o których mowa w art. 6 ust. 1 pkt 3.
+Liczba stron : 23      Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                        5
+X kadencja/druk nr 2995
+
+           8. Przegląd wstępny kończy się wynikiem negatywnym, jeżeli:
+     1)    informacje zawarte we wniosku, o którym mowa w ust. 3, i dołączone do niego
+           dokumenty lub materiały:
+           a)       nie odpowiadają pod względem treści i formy wymogom określonym w art. 6
+                    i art. 7,
+           b)       nie są zgodne ze stanem faktycznym;
+     2)    stan ogólny jednostki pływającej wskazuje na brak zdatności do uprawiania żeglugi
+           w zakresie deklarowanym we wniosku o przeprowadzenie przeglądu wstępnego.
+           9. Upoważniona uznana organizacja wydaje wnioskodawcy, w terminie
+     nieprzekraczającym 3 dni roboczych od dnia zakończenia przeglądu wstępnego,
+     dokument potwierdzający wynik przeglądu wstępnego, a w przypadku:
+     1)    pozytywnego wyniku przeglądu – również unikalny kod umożliwiający dołączenie
+           do wniosku o rejestrację dokumentów, materiałów i informacji wprowadzonych do
+           rejestru przez tę organizację zgodnie z ust. 7;
+     2)    negatywnego wyniku przeglądu – również uzasadnienie tego wyniku.
+           10. Dane osobowe, o których mowa w art. 6 ust. 1 pkt 2 i 3, przetwarzane w zakresie
+     niezbędnym do przeprowadzenia przeglądu wstępnego upoważniona uznana organizacja
+     przechowuje przez okres nie dłuższy niż 10 lat od dnia zakończenia przeglądu wstępnego.
+           11. Obowiązek, o którym mowa w ust. 1, nie dotyczy jednostek pływających
+     stanowiących polską własność.
+           Art. 4b. 1. Przeprowadzenie przeglądu wstępnego, o którym mowa w art. 4a ust. 1,
+     podlega opłacie.
+           2. Opłatę, o której mowa w ust. 1, pobiera upoważniona uznana organizacja, która
+     przeprowadza przegląd wstępny.
+           3. Wysokość opłaty, o której mowa w ust. 1, ustala upoważniona uznana organizacja,
+     biorąc pod uwagę długość jednostki pływającej, moc napędu mechanicznego, czas pracy
+     potrzebny na przeprowadzenie przeglądu wstępnego oraz okoliczność, czy przegląd ten
+     jest przeprowadzany przy wykorzystaniu środków komunikacji elektronicznej.
+           4. Maksymalna wysokość opłaty, o której mowa w ust. 1, nie może przekroczyć
+     100 % przeciętnego wynagrodzenia w gospodarce narodowej w roku poprzedzającym rok
+     złożenia wniosku o przeprowadzenie przeglądu wstępnego, ogłaszanego przez Prezesa
+     Głównego Urzędu Statystycznego na podstawie art. 20 pkt 1 lit. a ustawy z dnia
+Liczba stron : 23   Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                           6
+X kadencja/druk nr 2995
+
+     17 grudnia 1998 r. o emeryturach i rentach z Funduszu Ubezpieczeń Społecznych (Dz. U.
+     z 2025 r. poz. 1749 oraz z 2026 r. poz. 26 i 425).
+           5. Opłata, o której mowa w ust. 1, stanowi dochód upoważnionej uznanej
+     organizacji.”;
+5)   po art. 5 dodaje się art. 5a w brzmieniu:
+           „Art. 5a. 1. Wnioski lub inne pisma mogą być złożone do organu rejestrującego
+     osobiście albo przez przedstawiciela ustawowego albo pełnomocnika. Wnosi się je
+     pisemnie w postaci:
+     1)    papierowej – w siedzibie organu rejestrującego albo
+     2)    elektronicznej – za pośrednictwem konta wnioskodawcy utworzonego w systemie
+           teleinformatycznym, w którym jest prowadzony rejestr.
+           2. Wniosek o rejestrację i wniosek o zmianę danych w rejestrze jednostki pływającej
+     podlegającej obowiązkowi przeglądu wstępnego składa się w postaci elektronicznej.
+           3. Uwierzytelnienie wnioskodawcy w systemie, w którym jest prowadzony rejestr,
+     wymaga potwierdzenia tożsamości zgodnie z art. 20a ust. 1 ustawy z dnia 17 lutego
+     2005 r. o informatyzacji działalności podmiotów realizujących zadania publiczne (Dz. U.
+     z 2025 r. poz. 1703 oraz z 2026 r. poz. 160) lub za pomocą kwalifikowanego podpisu
+     elektronicznego.
+           4. Jeżeli wnioski lub inne pisma zostały sporządzone w postaci papierowej, organ
+     rejestrujący wprowadza ich odwzorowanie w postaci elektronicznej do rejestru.
+           5. Organ rejestrujący doręcza wnioskodawcy pisma w postaci:
+     1)    papierowej – przesyłką rejestrowaną w rozumieniu art. 3 pkt 23 ustawy z dnia
+           23 listopada 2012 r. – Prawo pocztowe (Dz. U. z 2026 r. poz. 558), albo przez swoich
+           pracowników lub inne upoważnione osoby lub organy, albo przez operatora
+           wyznaczonego z wykorzystaniem publicznej usługi hybrydowej w rozumieniu art. 2
+           pkt 7 ustawy z dnia 18 listopada 2020 r. o doręczeniach elektronicznych (Dz. U. z
+           2026 r. poz. 3 i 507), jeżeli wnioski lub inne pisma zostały sporządzone w postaci
+           papierowej przez wnioskodawcę;
+     2)    elektronicznej – za pośrednictwem konta wnioskodawcy utworzonego w systemie
+           teleinformatycznym, jeżeli wnioski lub inne pisma zostały sporządzone w postaci
+           elektronicznej przez wnioskodawcę lub w trakcie procedowania sprawy
+           wnioskodawca wniósł wniosek lub inne pismo w postaci elektronicznej.
+Liczba stron : 23   Data : 2026-10-27     Nazwa pliku : V6_2027-1.NK                           7
+X kadencja/druk nr 2995
+
+           6. Do doręczania pism w postaci określonej w ust. 5 pkt 1 stosuje się przepisy
+     art. 40–48 ustawy z dnia 14 czerwca 1960 r. ‒ Kodeks postępowania administracyjnego
+     (Dz. U. z 2025 r. poz. 1691).
+           7. Do ustalenia daty doręczenia, o którym mowa w ust. 5 pkt 2, stosuje
+     się odpowiednio art. 42 ustawy z dnia 18 listopada 2020 r. o doręczeniach
+     elektronicznych, a w zakresie warunków wystawienia dowodów otrzymania stosuje się
+     odpowiednio art. 41 tej ustawy.
+           8. Do doręczenia pism drogą elektroniczną stosuje się przepisy ustawy z dnia
+     18 listopada 2020 r. o doręczeniach elektronicznych w zakresie określonym w niniejszej
+     ustawie.”;
+6)   w art. 6:
+     a)    w ust. 1:
+           –     po pkt 1 dodaje się pkt 1a w brzmieniu:
+                 „1a) dokumentu potwierdzającego pozytywny wynik przeglądu wstępnego, o
+                       którym mowa w art. 4a ust. 7 pkt 1, w przypadku jednostki pływającej
+                       podlegającej obowiązkowi przeglądu wstępnego;”,
+           –     w pkt 2 lit. a otrzymuje brzmienie:
+                 „a) o właścicielu i współwłaścicielach oraz armatorze, jeżeli nie jest nim
+                       właściciel:
+                       –   imię i nazwisko albo nazwę,
+                       –   numer PESEL, a w przypadku jego braku – datę i miejsce urodzenia
+                           oraz serię, numer i datę ważności paszportu lub innego dokumentu
+                           potwierdzającego tożsamość – w przypadku osób fizycznych,
+                       –   NIP w przypadku osób prawnych oraz jednostek organizacyjnych
+                           nieposiadających    osobowości    prawnej   albo   inny   odpowiedni
+                           identyfikator – w przypadku podmiotów zagranicznych,
+                       –   obywatelstwo (obywatelstwa) – w przypadku osób fizycznych,
+                       –   adres zamieszkania albo adres siedziby,
+                       –   wielkość udziału właściciela w prawie własności jednostki pływającej,
+                       –   adres do doręczeń na terytorium Rzeczypospolitej Polskiej,
+                       –   adres poczty elektronicznej armatora w przypadku jednostki, o której
+                           mowa w art. 4a ust. 1, a w przypadku armatorów innych jednostek –
+                           jeżeli posiadają,
+Liczba stron : 23     Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                            8
+X kadencja/druk nr 2995
+
+                       –   numer telefonu armatora w przypadku jednostki, o której mowa w
+                           art. 4a ust. 1, a w przypadku armatorów innych jednostek – jeżeli
+                           posiadają,”,
+     b)    ust. 2 otrzymuje brzmienie:
+                    „2. Oświadczenie, o którym mowa w ust. 1 pkt 1 lit. d, składa się pod rygorem
+           odpowiedzialności karnej za składanie fałszywych oświadczeń. Składający
+           oświadczenie jest obowiązany do zawarcia w nim klauzuli następującej treści:
+           „Jestem świadomy odpowiedzialności karnej za złożenie fałszywego oświadczenia
+           wynikającej z art. 233 § 6 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny (Dz. U.
+           z 2025 r. poz. 383, 1818 i 1872 oraz z 2026 r. poz. 902 i 988).”. Klauzula ta zastępuje
+           pouczenie organu o odpowiedzialności karnej za składanie fałszywych oświadczeń.”,
+     c)    w ust. 3 po wyrazach „uprawianie żeglugi przez armatora,” dodaje się wyrazy „o ile
+           nie jest nim właściciel, i”,
+     d)    po ust. 3 dodaje się ust. 3a i 3b w brzmieniu:
+                    „3a. Wniosek o rejestrację zawiera oświadczenie, że jednostka pływająca nie
+           jest urządzeniem wodnym w rozumieniu art. 16 pkt 65 ustawy z dnia 20 lipca 2017 r.
+           – Prawo wodne, w szczególności molem, pomostem lub przystanią, a także inną
+           konstrukcją pływającą nieprzeznaczoną do uprawiania żeglugi.
+                    3b. Oświadczenie, o którym mowa w ust. 3a, składa się pod rygorem
+           odpowiedzialności karnej za składanie fałszywych oświadczeń. Składający
+           oświadczenie jest obowiązany do zawarcia w nim klauzuli następującej treści:
+           „Jestem świadomy odpowiedzialności karnej za złożenie fałszywego oświadczenia
+           wynikającej z art. 233 § 6 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny (Dz. U.
+           z 2025 r. poz. 383, 1818 i 1872 oraz z 2026 r. poz. 902 i 988).”. Klauzula ta zastępuje
+           pouczenie organu o odpowiedzialności karnej za składanie fałszywych oświadczeń.”,
+     e)    uchyla się ust. 5,
+     f)    ust. 6 otrzymuje brzmienie:
+                    „6. W przypadku gdy do składanego w postaci elektronicznej wniosku o
+           rejestrację albo wniosku o zmianę danych w rejestrze i wydanie dokumentu
+           rejestracyjnego wnioskodawca dołącza odwzorowania cyfrowe dokumentów,
+           których oryginały posiada wyłącznie w postaci papierowej, organ rejestrujący może
+           żądać okazania oryginałów tych dokumentów przed wydaniem dokumentu
+           rejestracyjnego.”;
+Liczba stron : 23     Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                            9
+X kadencja/druk nr 2995
+
+7)   w art. 8 w zdaniu drugim po wyrazach „rezerwowana jest” dodaje się wyrazy „ , w drodze
+     decyzji,”;
+8)   w art. 9:
+     a)    w ust. 2 kropkę na końcu zdania zastępuje się przecinkiem i dodaje się wyrazy
+           „jednak nie dłużej niż przez 60 dni.”,
+     b)    po ust. 2 dodaje się ust. 2a w brzmieniu:
+                    „2a. Zaświadczenie, o którym mowa w ust. 2, nie uprawnia do uprawiania
+           żeglugi na jednostce pływającej i jej eksploatacji na wodzie do czasu wpisania
+           jednostki pływającej do rejestru.”,
+     c)    ust. 4 otrzymuje brzmienie:
+                    „4. Decyzję o odmowie wpisania jednostki pływającej do rejestru albo o
+           odmowie zmiany danych w rejestrze wydaje organ rejestrujący, w przypadku gdy:
+           1)       do jednostki pływającej nie stosuje się przepisów ustawy lub
+           2)       dane zawarte we wniosku o rejestrację albo we wniosku o zmianę danych w
+                    rejestrze nie są zgodne ze stanem faktycznym lub
+           3)       brak jest dokumentu potwierdzającego pozytywny wynik przeglądu wstępnego,
+                    o którym mowa w art. 4a ust. 7 pkt 1, lub
+           4)       na podstawie przepisów ustawy z dnia 24 sierpnia 2007 r. o udziale
+                    Rzeczypospolitej Polskiej w Systemie Informacyjnym Schengen oraz
+                    Wizowym Systemie Informacyjnym uzyskał informację, że jednostka
+                    pływająca lub silnik jednostki pływającej zostały skradzione, przywłaszczone,
+                    utracone lub są poszukiwane jako dowód w postępowaniu karnym lub
+                    postępowaniu karnym skarbowym lub
+           5)       jest to uzasadnione względami bezpieczeństwa, obronności lub innym ważnym
+                    interesem publicznym, lub
+           6)       obowiązuje zakaz określony w przepisach wydanych na podstawie art. 4 ust. 3a
+                    i 3b.”;
+9)   po art. 10 dodaje się art. 10a–10e w brzmieniu:
+           „Art. 10a. 1. W celu zapewnienia aktualności danych w rejestrze właściciel
+     jednostki pływającej w okresie od 90 dni przed upływem co piątej daty rocznicowej do 30
+     dni przed upływem tej daty składa do organu rejestrującego, który wydał dokument
+     rejestracyjny jednostki pływającej, wniosek o potwierdzenie ważności dokumentu
+     rejestracyjnego.
+Liczba stron : 23   Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                        10
+X kadencja/druk nr 2995
+
+           2. Wniosek, o którym mowa w ust. 1, zawiera:
+     1)    informacje, o których mowa w art. 6 ust. 1 pkt 2;
+     2)    informacje, o których mowa w art. 6 ust. 4 – jeżeli informacje te były zawarte we
+           wniosku o rejestrację jednostki pływającej;
+     3)    oświadczenie o aktualności danych zawartych w rejestrze.
+           3. Wniosek, o którym mowa w ust. 1, składany po raz pierwszy zawiera
+     oświadczenie, że jednostka pływająca nie jest urządzeniem wodnym w rozumieniu art. 16
+     pkt 65 ustawy z dnia 20 lipca 2017 r. – Prawo wodne, w szczególności molem, pomostem
+     lub przystanią, a także inną konstrukcją pływającą nieprzeznaczoną do uprawiania
+     żeglugi.
+           4. Oświadczenie, o którym mowa odpowiednio w ust. 2 pkt 3 i ust. 3, składa się pod
+     rygorem odpowiedzialności karnej za składanie fałszywych oświadczeń. Składający
+     oświadczenie jest obowiązany do zawarcia w nim klauzuli następującej treści: „Jestem
+     świadomy odpowiedzialności karnej za złożenie fałszywego oświadczenia wynikającej z
+     art. 233 § 6 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny (Dz. U. z 2025 r. poz. 383,
+     1818 i 1872 oraz z 2026 r. poz. 902 i 988).”. Klauzula ta zastępuje pouczenie organu o
+     odpowiedzialności karnej za składanie fałszywych oświadczeń.
+           5. W przypadku gdy właściciel jednostki pływającej, składając wniosek, o którym
+     mowa w ust. 1, stwierdzi, że dane w rejestrze wymagają zmiany, wraz z wnioskiem, o
+     którym mowa w ust. 1, składa wniosek o zmianę danych w rejestrze, a oświadczenie, o
+     którym mowa w ust. 2 pkt 3, dotyczy danych nieobjętych wnioskiem o zmianę danych w
+     rejestrze. Do wniosku o zmianę danych w rejestrze dołącza się odpowiednią dokumentację
+     poświadczającą zaistniałą zmianę.
+           6. Organ rejestrujący potwierdza ważność dokumentu rejestracyjnego i wskazuje
+     okres, w którym należy złożyć kolejny wniosek, o którym mowa w ust. 1, dokonując
+     wpisu w rejestrze.
+           Art. 10b. 1. Organ rejestrujący, który wydał dokument rejestracyjny jednostki
+     pływającej, zawiesza, w drodze decyzji, ważność tego dokumentu rejestracyjnego, w
+     przypadku gdy:
+     1)    właściciel nie złożył wniosku o potwierdzenie ważności dokumentu rejestracyjnego
+           albo nie uzupełnił braków tego wniosku w wyznaczonym terminie zgodnie z art.
+           10a;
+Liczba stron : 23   Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                          11
+X kadencja/druk nr 2995
+
+     2)    stwierdził on niezgodność danych zawartych we wniosku o potwierdzenie ważności
+           dokumentu rejestracyjnego ze stanem faktycznym, a wnioskodawca, w przypadku,
+           o którym mowa w art. 10a ust. 5, nie złożył wniosku o zmianę danych w rejestrze w
+           zakresie stwierdzonej niezgodności.
+           2. W okresie zawieszenia ważności dokumentu rejestracyjnego, a w przypadku
+     jednostki pływającej, która nie podlega obowiązkowi rejestracji, w terminie 6 miesięcy
+     od dnia doręczenia decyzji o zawieszeniu ważności tego dokumentu, właściciel może
+     złożyć wniosek o potwierdzenie ważności dokumentu rejestracyjnego.
+           3. W przypadku potwierdzenia ważności dokumentu rejestracyjnego zgodnie z
+     art. 10a ust. 6 decyzja, o której mowa w ust. 1, wygasa z mocy prawa, a organ rejestrujący
+     cofa zawieszenie, o którym mowa w ust. 1, przez dokonanie wpisu w rejestrze.
+           Art. 10c. 1. Organ administracji publicznej albo upoważniona uznana organizacja
+     może wystąpić do organu rejestrującego z wnioskiem o wykreślenie z rejestru jednostki
+     pływającej niepodlegającej obowiązkowi rejestracji, jeżeli w sprawie dotyczącej
+     obronności lub bezpieczeństwa Rzeczypospolitej Polskiej, bezpieczeństwa publicznego,
+     porządku publicznego, bezpieczeństwa żeglugi, ochrony środowiska morskiego lub
+     innego ważnego interesu publicznego nie otrzyma w wyznaczonym terminie odpowiedzi
+     na wezwanie skierowane na adres do doręczeń na terytorium Rzeczypospolitej Polskiej, o
+     którym mowa w art. 6 ust. 1 pkt 2 lit. a tiret siódmym.
+           2. Termin do udzielenia odpowiedzi na wezwanie, o którym mowa w ust. 1, nie może
+     być krótszy niż 7 dni.
+           3. Wniosek, o którym mowa w ust. 1, zawiera co najmniej wskazanie podstawy
+     prawnej wezwania oraz uzasadnienie faktyczne i prawne. Do wniosku dołącza się
+     dokumenty potwierdzające skierowanie wezwania na adres do doręczeń na terytorium
+     Rzeczypospolitej Polskiej, o którym mowa w art. 6 ust. 1 pkt 2 lit. a tiret siódmym.
+           Art. 10d. 1. W przypadku jachtu morskiego, który podlega obowiązkowi inspekcji
+     państwa bandery i posiadania karty bezpieczeństwa wydanej na podstawie art. 23 ust. 1
+     ustawy z dnia 18 sierpnia 2011 r. o bezpieczeństwie morskim, ale nie posiada tego
+     dokumentu, organ rejestrujący, który wydał dokument rejestracyjny, na wniosek organu
+     inspekcyjnego albo upoważnionej uznanej organizacji zawiesza, w drodze decyzji,
+     ważność dokumentu rejestracyjnego.
+           2. W okresie zawieszenia ważności dokumentu rejestracyjnego, a w przypadku
+     jednostki pływającej, która nie podlega obowiązkowi rejestracji, w terminie 6 miesięcy
+Liczba stron : 23     Data : 2026-10-27    Nazwa pliku : V6_2027-1.NK                            12
+X kadencja/druk nr 2995
+
+     od dnia doręczenia decyzji o zawieszeniu ważności tego dokumentu, właściciel może
+     złożyć wniosek o przywrócenie ważności dokumentu rejestracyjnego.
+           3. Wniosek o przywrócenie ważności dokumentu rejestracyjnego, o którym mowa w
+     ust. 2, zawiera numer dokumentu rejestracyjnego, którego ważność ma być przywrócona.
+     Do wniosku dołącza się ważną kartę bezpieczeństwa.
+           4. W przypadku przywrócenia ważności dokumentu rejestracyjnego decyzja, o
+     której mowa w ust. 1, wygasa z mocy prawa, a organ rejestrujący cofa zawieszenie, o
+     którym mowa w ust. 1, i przywraca jego ważność przez dokonanie wpisu w rejestrze.
+           Art. 10e. W okresie zawieszenia ważności dokumentu rejestracyjnego uprawianie
+     żeglugi na jednostce pływającej i jej eksploatacja na wodzie są zabronione.”;
+10) w art. 11:
+     a)    w ust. 2:
+           –    po pkt 2 dodaje się pkt 2a–2c w brzmieniu:
+                „2a) gdy ważność dokumentu rejestracyjnego została zawieszona na podstawie
+                       art. 10b ust. 1 i nie złożono wniosku o potwierdzenie ważności dokumentu
+                       rejestracyjnego     albo   nie   uzupełniono   braków    tego   wniosku   w
+                       wyznaczonym terminie zgodnie z art. 10b ust. 2 – w przypadku jednostki
+                       pływającej, która nie podlega obowiązkowi rejestracji;
+                2b) gdy organ administracji publicznej albo upoważniona uznana organizacja
+                       wystąpi z wnioskiem, o którym mowa w art. 10c;
+                2c) gdy ważność dokumentu rejestracyjnego została zawieszona na podstawie
+                       art. 10d ust. 1 i nie złożono wniosku o przywrócenie ważności dokumentu
+                       rejestracyjnego     albo   nie   uzupełniono   braków    tego   wniosku   w
+                       wyznaczonym terminie zgodnie z art. 10d ust. 2 – w przypadku jednostki
+                       pływającej, która nie podlega obowiązkowi rejestracji;”,
+           –    w pkt 3 kropkę zastępuje się średnikiem i dodaje się pkt 4 w brzmieniu:
+                „4) gdy obowiązuje zakaz określony w przepisach wydanych na podstawie art.
+                       4 ust. 3a i 3b.”,
+     b)    ust. 3 otrzymuje brzmienie:
+                    „3. Właściciel jednostki pływającej, która została wykreślona z rejestru z
+           urzędu, jest obowiązany do:
+           1)       zwrócenia dokumentu rejestracyjnego do organu rejestrującego albo
+Liczba stron : 23     Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                           13
+X kadencja/druk nr 2995
+
+           2)       dokonania samodzielnego fizycznego anulowania dokumentu rejestracyjnego
+                    przez jego uszkodzenie polegające na odcięciu prawego dolnego rogu, o
+                    powierzchni co najmniej 1 cm², i złożenia organowi rejestrującemu
+                    oświadczenia o dokonaniu tej czynności
+           – w terminie 14 dni od dnia doręczenia decyzji o wykreśleniu z rejestru.”,
+     c)    po ust. 3 dodaje się ust. 3a w brzmieniu:
+                    „3a. Oświadczenie, o którym mowa w ust. 3 pkt 2, składa się pod rygorem
+           odpowiedzialności karnej za składanie fałszywych oświadczeń. Składający
+           oświadczenie jest obowiązany do zawarcia w nim klauzuli następującej treści:
+           „Jestem świadomy odpowiedzialności karnej za złożenie fałszywego oświadczenia
+           wynikającej z art. 233 § 6 ustawy z dnia 6 czerwca 1997 r. – Kodeks karny (Dz. U.
+           z 2025 r. poz. 383, 1818 i 1872 oraz z 2026 r. poz. 902 i 988).”. Klauzula ta zastępuje
+           pouczenie organu o odpowiedzialności karnej za składanie fałszywych oświadczeń.”,
+     d)    w ust. 4 skreśla się wyrazy „(Dz. U. z 2024 r. poz. 395 i 731)”;
+11) po art. 11 dodaje się art. 11a w brzmieniu:
+           „Art. 11a. Organ rejestrujący dokonuje fizycznego anulowania dokumentu
+     rejestracyjnego w przypadkach, o których mowa w art. 10 ust. 3 i art. 11 ust. 3 pkt 1, przez
+     jego uszkodzenie polegające na odcięciu prawego dolnego rogu, o powierzchni co
+     najmniej 1 cm². Unieważniony dokument rejestracyjny zwraca się właścicielowi na jego
+     wniosek albo niszczy.”;
+12) w art. 12 skreśla się wyrazy „(Dz. U. z 2024 r. poz. 572)”;
+13) w art. 14:
+     a)    w ust. 2:
+           –    po pkt 1 dodaje się pkt 1a w brzmieniu:
+                „1a) dotyczące dokumentu potwierdzającego pozytywny wynik przeglądu
+                       wstępnego, o którym mowa w art. 4a ust. 7 pkt 1, jeżeli jednostka pływająca
+                       podlega obowiązkowi jego wykonania;”,
+           –    pkt 4 otrzymuje brzmienie:
+                „4) wskazanie podstawy i datę:
+                       a)   zawieszenia ważności dokumentu rejestracyjnego,
+                       b)   cofnięcia zawieszenia ważności dokumentu rejestracyjnego,
+                       c)   przywrócenia ważności dokumentu rejestracyjnego,
+                       d)   potwierdzenia ważności dokumentu rejestracyjnego,
+Liczba stron : 23     Data : 2026-10-27     Nazwa pliku : V6_2027-1.NK                         14
+X kadencja/druk nr 2995
+
+                       e)   wykreślenia jednostki pływającej z rejestru;”,
+     b)    w ust. 3 w pkt 4 kropkę zastępuje się średnikiem i dodaje się pkt 5 w brzmieniu:
+           „5) upoważnioną uznaną organizację – w zakresie dokumentów, materiałów i
+                    informacji, o których mowa w art. 4a ust. 7.”,
+     c)    w ust. 4 po wyrazach „Właściciel lub armator jednostki pływającej, używając
+           unikalnego kodu, o którym mowa” dodaje się wyraz „w”;
+14) w art. 15 dodaje się ust. 5 w brzmieniu:
+           „5. Osoby zainteresowane mogą nieodpłatnie zweryfikować elektronicznie w
+     rejestrze:
+     1)    czy jednostka pływająca jest wpisana do rejestru – pod warunkiem wskazania
+           numeru rejestracyjnego tej jednostki;
+     2)    czy dokument rejestracyjny jest ważny – pod warunkiem wskazania serii i numeru
+           tego dokumentu.”;
+15) w art. 18:
+     a)    w ust. 1 w pkt 5 po wyrazach „art. 15 ust. 1” dodaje się przecinek i dodaje się pkt 6 i
+           7 w brzmieniu:
+           „6) potwierdzenie ważności dokumentu rejestracyjnego,
+           7)       przywrócenie ważności dokumentu rejestracyjnego”,
+     b)    w ust. 2 dodaje się zdanie drugie w brzmieniu:
+           „Dowód wniesienia opłaty wnioskodawca dołącza do wniosku.”,
+     c)    w ust. 3:
+           –    pkt 1 otrzymuje brzmienie:
+                „1) pkt 1–3, 6 i 7 nie może przekroczyć 100 %,”,
+           –    część wspólna otrzymuje brzmienie:
+                „–     przeciętnego       wynagrodzenia   w   gospodarce     narodowej   w   roku
+                poprzedzającym rok wejścia w życie przepisów wydanych na podstawie ust. 10,
+                ogłaszanego przez Prezesa Głównego Urzędu Statystycznego na podstawie
+                art. 20 pkt 1 lit. a ustawy z dnia 17 grudnia 1998 r. o emeryturach i rentach z
+                Funduszu Ubezpieczeń Społecznych.”,
+     d)    ust. 7 otrzymuje brzmienie:
+                    „7. Część opłaty za rozpatrzenie wniosku, o którym mowa w ust. 1 pkt 1–3, 6 i
+           7, w wysokości 10 %, stanowi niepodatkową należność budżetu państwa o
+Liczba stron : 23     Data : 2026-10-27     Nazwa pliku : V6_2027-1.NK                                   15
+X kadencja/druk nr 2995
+
+             charakterze publicznoprawnym w rozumieniu ustawy z dnia 27 sierpnia 2009 r. o
+             finansach publicznych (Dz. U. z 2025 r. poz. 1483, z późn. zm.1)).”,
+       e)    ust. 10 otrzymuje brzmienie:
+                    „10. Minister właściwy do spraw gospodarki morskiej w porozumieniu z
+             ministrem właściwym do spraw żeglugi śródlądowej określi, w drodze
+             rozporządzenia, wysokość opłat, o których mowa w ust. 1, uwzględniając koszt
+             produkcji dokumentu rejestracyjnego posiadającego odpowiednie zabezpieczenia,
+             wielkość jednostki pływającej oraz fakt, czy podlega ona obowiązkowi rejestracji,
+             czy jest rejestrowana na wniosek właściciela, a także koszt wykonania odpisu lub
+             wyciągu.”;
+16) w art. 19:
+       a)    po ust. 1 dodaje się ust. 1a w brzmieniu:
+                    „1a. Kto uprawia żeglugę lub w inny sposób eksploatuje na wodzie jednostkę
+             pływającą, której ważność dokumentu rejestracyjnego została zawieszona, podlega
+             karze grzywny.”,
+       b)    w ust. 2 po wyrazach „w ust. 1” dodaje się wyrazy „i 1a”,
+       c)    w ust. 3:
+             –   we wprowadzeniu do wyliczenia po wyrazach „w ust. 1” dodaje się wyrazy „i
+                 1a”,
+             –   w pkt 5 kropkę zastępuje się średnikiem i dodaje się pkt 6 w brzmieniu:
+                 „6) starosta, który ujawnił wykroczenie.”;
+17) w art. 28 uchyla się ust. 5.
+
+       Art. 2. W ustawie z dnia 18 sierpnia 2011 r. o bezpieczeństwie morskim (Dz. U. z 2026 r.
+poz. 529) wprowadza się następujące zmiany:
+1)     w art. 17 w ust. 1a pkt 1 i 2 otrzymują brzmienie:
+       „1) dolnośląskiego, lubuskiego, łódzkiego, małopolskiego, opolskiego, śląskiego,
+             wielkopolskiego oraz zachodniopomorskiego właściwy jest dyrektor urzędu
+             morskiego, którego terytorialny zakres działania obejmuje port w Szczecinie, z
+             wyjątkiem powiatów: kołobrzeskiego, świdwińskiego, drawskiego, wałeckiego,
+             koszalińskiego, sławieńskiego, szczecineckiego oraz białogardzkiego, dla których
+
+
+1)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2025 r. poz. 1844 i 1846 oraz
+     z 2026 r. poz. 426, 635, 680 i 912.
+Liczba stron : 23   Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                         16
+X kadencja/druk nr 2995
+
+           właściwy jest dyrektor urzędu morskiego, którego terytorialny zakres działania
+           obejmuje port w Kołobrzegu;
+     2)    kujawsko-pomorskiego, lubelskiego, mazowieckiego, podlaskiego, podkarpackiego,
+           pomorskiego, świętokrzyskiego oraz warmińsko-mazurskiego właściwy jest
+           dyrektor urzędu morskiego, którego terytorialny zakres działania obejmuje port w
+           Gdyni, z wyjątkiem powiatów: słupskiego, bytowskiego, człuchowskiego,
+           lęborskiego oraz chojnickiego, dla których właściwy jest dyrektor urzędu morskiego,
+           którego terytorialny zakres działania obejmuje port w Ustce.”;
+2)   w art. 19a uchyla się ust. 2;
+3)   w art. 23 po ust. 1a dodaje się ust. 1b w brzmieniu:
+           „1b. Karty bezpieczeństwa dla jachtów morskich o długości do 24 m wydaje uznana
+     organizacja upoważniona w zakresie, o którym mowa w art. 8a ust. 1 pkt 1, i ustala w nich
+     skład załogi jachtu niezbędny dla bezpieczeństwa morskiego. Przepisy art. 80 ust. 1 i 1a
+     stosuje się odpowiednio.”;
+4)   w art. 86 po ust. 3c dodaje się ust. 3d–3l w brzmieniu:
+           „3d. Dyrektor urzędu morskiego może, na wniosek armatora, wydać zezwolenie na
+     eksploatację statku bezzałogowego w polskich obszarach morskich, pod warunkiem że
+     poziom bezpieczeństwa żeglugi i ochrony środowiska morskiego w porównaniu ze
+     statkami obsadzonymi załogą nie zostanie zmniejszony.
+           3e. Wniosek, o którym mowa w ust. 3d, zawiera:
+     1)    nazwę statku;
+     2)    port macierzysty;
+     3)    sygnał rozpoznawczy oraz morski radiowy numer identyfikacyjny MMSI;
+     4)    informację o podstawowych parametrach technicznych statku: długości, pojemności
+           brutto (GT), rodzaju i mocy napędu;
+     5)    opis planowanego sposobu eksploatacji statku bezzałogowego, w tym informację,
+           czy jest planowane wykonywanie operacji poza zasięgiem widoczności wzrokowej;
+     6)    informację o sposobie łączności i komunikacji ze statkiem bezzałogowym oraz o
+           sposobie dowodzenia tym statkiem;
+     7)    opis kwalifikacji operatorów statku bezzałogowego;
+     8)    wnioskowany obszar eksploatacji.
+           3f. Do wniosku, o którym mowa w ust. 3d, dołącza się:
+     1)    dokument potwierdzający rejestrację;
+Liczba stron : 23    Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                            17
+X kadencja/druk nr 2995
+
+     2)    pozwolenie radiowe;
+     3)    dokumentację techniczną statku bezzałogowego, w tym dokument potwierdzający
+           zdatność tego statku do żeglugi;
+     4)    wykaz wyposażenia statku bezzałogowego zawierający w szczególności dane o
+           urządzeniach radiowych, dane systemów i wyposażenia nawigacyjnego, dane
+           urządzeń      i   systemów    zapewniających   monitorowanie   i     kontrolę    statku
+           bezzałogowego przez operatora;
+     5)    analizę      ryzyka    eksploatacji   statku   bezzałogowego       zawierającą    listę
+           zidentyfikowanych zagrożeń i sposoby ograniczania tego ryzyka;
+     6)    analizę sytuacji niebezpiecznych, które wystąpiły w trakcie dotychczasowej
+           eksploatacji statku bezzałogowego – w przypadku statku, dla którego armator
+           wnioskuje o wydanie kolejnego zezwolenia na eksploatację tego statku;
+     7)    dowód uiszczenia opłaty za rozpatrzenie wniosku o wydanie zezwolenia na
+           eksploatację statku bezzałogowego.
+           3g. W przypadku gdy dokumentacja dołączona do wniosku, o którym mowa w
+     ust. 3d, nie pozwala ocenić poziomu bezpieczeństwa żeglugi i ochrony środowiska
+     morskiego, dyrektor urzędu morskiego właściwy ze względu na obszar eksploatacji statku
+     bezzałogowego może wymagać od armatora:
+     1)    przekazania dodatkowej dokumentacji niezbędnej do przeprowadzenia tej oceny, w
+           tym zawierającej opis i efekty wykonanych testów potwierdzających spełnianie
+           wymagań bezpieczeństwa żeglugi i ochrony środowiska morskiego, oraz
+     2)    praktycznej demonstracji potwierdzającej sprawność działania systemów statku
+           bezzałogowego zgodnie ze scenariuszem określonym przez dyrektora urzędu
+           morskiego.
+           3h. Zezwolenie na eksploatację statku bezzałogowego wydaje, w drodze decyzji,
+     dyrektor urzędu morskiego właściwy ze względu na obszar eksploatacji tego statku, po
+     przeprowadzeniu inspekcji, na okres nie dłuższy niż 12 miesięcy.
+           3i. W zezwoleniu na eksploatację statku bezzałogowego określa się:
+     1)    nazwę statku;
+     2)    port macierzysty;
+     3)    sygnał rozpoznawczy oraz morski radiowy numer identyfikacyjny MMSI;
+     4)    informację o podstawowych parametrach technicznych statku: długości, pojemności
+           brutto (GT), rodzaju i mocy napędu;
+Liczba stron : 23   Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                            18
+X kadencja/druk nr 2995
+
+     5)    obszar eksploatacji;
+     6)    wymagania pozwalające na zapewnienie poziomu bezpieczeństwa żeglugi i ochrony
+           środowiska morskiego niemniejszego niż w przypadku statków obsadzonych załogą,
+           które mogą w szczególności dotyczyć obecności statku asystującego oraz
+           kwalifikacji operatora;
+     7)    ograniczenia w zakresie eksploatacji, jeżeli zostały określone;
+     8)    okres ważności zezwolenia.
+           3j. Decyzję o odmowie wydania zezwolenia na eksploatację statku bezzałogowego
+     wydaje dyrektor urzędu morskiego właściwy ze względu na obszar eksploatacji tego
+     statku, w przypadku gdy:
+     1)    informacje zawarte we wniosku, o którym mowa w ust. 3d, i dołączonej do niego
+           dokumentacji nie pozwalają potwierdzić, że zapewniono poziom bezpieczeństwa
+           żeglugi i ochrony środowiska morskiego niemniejszy niż w przypadku statku
+           obsadzonego załogą;
+     2)    jest to uzasadnione względami bezpieczeństwa, obronności lub innym ważnym
+           interesem publicznym.
+           3k. W przypadku gdy obszar eksploatacji wnioskowany przez armatora obejmuje
+     obszar właściwości więcej niż jednego dyrektora urzędu morskiego, decyzję, o której
+     mowa w ust. 3h albo 3j, wydaje dyrektor urzędu morskiego, do którego armator skierował
+     wniosek, po uzgodnieniu z dyrektorem urzędu morskiego, którego obszar właściwości
+     obejmuje część wnioskowanego obszaru eksploatacji.
+           3l. W przypadku stwierdzenia, że:
+     1)    dalsza    eksploatacja    statku   bezzałogowego   powoduje       obniżenie   poziomu
+           bezpieczeństwa żeglugi lub ochrony środowiska morskiego w porównaniu ze
+           statkami obsadzonymi załogą,
+     2)    jest to uzasadnione względami bezpieczeństwa, obronności lub innym ważnym
+           interesem publicznym
+     – dyrektor urzędu morskiego, który wydał zezwolenie, cofa, w drodze decyzji, zezwolenie
+     na eksploatację statku bezzałogowego.”;
+5)   w art. 127 w ust. 2 po pkt 3a dodaje się pkt 3b w brzmieniu:
+     „3b) armator, który eksploatuje statek bezzałogowy niezgodnie z zezwoleniem, o którym
+           mowa w art. 86 ust. 3h, albo nie posiadając zezwolenia na eksploatację statku
+           bezzałogowego;”;
+Liczba stron : 23   Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                            19
+X kadencja/druk nr 2995
+
+6)    w załączniku do ustawy w części I po pkt 16a dodaje się pkt 16b w brzmieniu:
+      „16b. Za przeprowadzenie inspekcji w celu wydania zezwolenia na eksploatację statku
+              bezzałogowego – 1000 PLN”.
+
+      Art. 3. 1. Do spraw wszczętych i niezakończonych przed dniem wejścia w życie
+niniejszej ustawy stosuje się przepisy ustawy zmienianej w art. 1 w brzmieniu nadanym
+niniejszą ustawą.
+      2. Organ rejestrujący wzywa do uzupełnienia wniosku o rejestrację jednostki pływającej
+o informacje, o których mowa w art. 6 ust. 1 pkt 2 lit. a ustawy zmienianej w art. 1, w brzmieniu
+nadanym niniejszą ustawą, oraz o oświadczenie, o którym mowa w art. 6 ust. 3a ustawy
+zmienianej w art. 1.
+      3. W przypadku jednostki pływającej podlegającej obowiązkowi przeglądu wstępnego do
+wniosku o rejestrację jednostki pływającej uzupełnionego zgodnie z ust. 2 wnioskodawca jest
+obowiązany załączyć dokumenty, materiały i informacje, o których mowa w art. 4a ust. 7
+ustawy zmienianej w art. 1.
+      4. Wniosek, o którym mowa w ust. 2, nieuzupełniony w terminie 60 dni liczonych od dnia
+doręczenia wnioskodawcy wezwania, o którym mowa w ust. 2, pozostawia się bez rozpatrzenia.
+      5. Do spraw wszczętych i niezakończonych przed dniem wejścia w życie niniejszej
+ustawy stosuje się opłaty w wysokości określonej w przepisach wykonawczych wydanych na
+podstawie art. 18 ust. 10 ustawy zmienianej w art. 1 w brzmieniu dotychczasowym.
+      6. Przepisy ust. 2–5 stosuje się odpowiednio do wniosków o zmianę danych w rejestrze,
+o których mowa w art. 10 ust. 3 ustawy zmienianej w art. 1, złożonych i nierozpatrzonych przed
+dniem wejścia w życie niniejszej ustawy.
+
+      Art. 4. 1. Wpisy dokonane w rejestrze jachtów i innych jednostek pływających o długości
+do 24 m, zwanym dalej „rejestrem”, oraz dokumenty rejestracyjne jednostek pływających
+wydane przed dniem wejścia w życie niniejszej ustawy zachowują ważność, z uwzględnieniem
+ust. 5 i 7.
+      2. W celu uzupełnienia danych, o których mowa w art. 6 ust. 1 pkt 2 lit. a ustawy
+zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą, i zapewnienia aktualności danych
+w rejestrze właściciel jednostki pływającej, która została wpisana do rejestru przed dniem
+Liczba stron : 23   Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                        20
+X kadencja/druk nr 2995
+
+wejścia w życie niniejszej ustawy, składa wniosek o potwierdzenie ważności dokumentu
+rejestracyjnego zgodnie z art. 10a ustawy zmienianej w art. 1 przed upływem:
+1)   3 miesięcy od dnia wejścia w życie niniejszej ustawy – w przypadku jednostek
+     pływających zarejestrowanych do dnia 31 grudnia 2021 r.;
+2)   6 miesięcy od dnia wejścia w życie niniejszej ustawy – w przypadku jednostek
+     pływających zarejestrowanych w okresie od dnia 1 stycznia 2022 r. do dnia 28 lutego
+     2023 r.;
+3)   9 miesięcy od dnia wejścia w życie niniejszej ustawy – w przypadku jednostek
+     pływających zarejestrowanych w okresie od dnia 1 marca 2023 r. do dnia 31 sierpnia
+     2023 r.;
+4)   12 miesięcy od dnia wejścia w życie niniejszej ustawy – w przypadku jednostek
+     pływających zarejestrowanych w okresie od dnia 1 września 2023 r. do dnia 29 lutego
+     2024 r.;
+5)   15 miesięcy od dnia wejścia w życie niniejszej ustawy – w przypadku jednostek
+     pływających zarejestrowanych w okresie od dnia 1 marca 2024 r. do dnia 31 sierpnia
+     2024 r.;
+6)   18 miesięcy od dnia wejścia w życie niniejszej ustawy – w przypadku jednostek
+     pływających zarejestrowanych w okresie od dnia 1 września 2024 r. do dnia 28 lutego
+     2025 r.;
+7)   21 miesięcy od dnia wejścia w życie niniejszej ustawy – w przypadku jednostek
+     pływających zarejestrowanych w okresie od dnia 1 marca 2025 r. do dnia 28 lutego
+     2026 r.;
+8)   24 miesięcy od dnia wejścia w życie niniejszej ustawy – w pozostałych przypadkach.
+     3. Właściciel jednostki pływającej niestanowiącej polskiej własności poddaje ją
+przeglądowi wstępnemu, o którym mowa w art. 4a ust. 1 ustawy zmienianej w art. 1, i dołącza
+do wniosku, o którym mowa w ust. 2, dokumenty, materiały i informacje, o których mowa w
+art. 4a ust. 7 ustawy zmienianej w art. 1.
+     4. Organ rejestrujący, który wydał dokument rejestracyjny, oznacza w rejestrze wpis
+jednostki pływającej jako zawieszony, w przypadku gdy:
+1)   właściciel zarejestrowanej jednostki pływającej, która podlega obowiązkowi rejestracji,
+     nie dopełnił obowiązku, o którym mowa w ust. 2 lub 3, w terminach przewidzianych w
+     ust. 2;
+Liczba stron : 23   Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                            21
+X kadencja/druk nr 2995
+
+2)   niemożliwe jest ustalenie, czy jednostka pływająca podlega obowiązkowi rejestracji albo
+     czy została wpisana do rejestru na wniosek właściciela zgodnie z art. 3 ust. 3 ustawy
+     zmienianej w art. 1.
+     5. Jeżeli właściciel jednostki pływającej, o której mowa w ust. 4, w terminie 12 miesięcy
+od dnia oznaczenia w rejestrze wpisu jednostki pływającej jako zawieszony nie złoży wniosku
+o potwierdzenie ważności dokumentu rejestracyjnego, a w przypadku właściciela jednostki
+pływającej niestanowiącej polskiej własności nie złoży wniosku o potwierdzenie ważności
+dokumentu rejestracyjnego lub nie dołączy do wniosku dokumentów, materiałów i informacji,
+o których mowa w art. 4a ust. 7 ustawy zmienianej w art. 1, dokument rejestracyjny takiej
+jednostki pływającej traci ważność. W takim przypadku organ rejestrujący, który wydał
+dokument rejestracyjny, oznacza w rejestrze wpis jednostki pływającej jako wykreślony.
+     6. W przypadku potwierdzenia ważności dokumentu rejestracyjnego jednostki
+pływającej, której wpis został zawieszony zgodnie z ust. 4, organ rejestrujący, który potwierdził
+ważność tego dokumentu, cofa to zawieszenie przez dokonanie wpisu w rejestrze.
+     7. W przypadku gdy właściciel zarejestrowanej jednostki pływającej, która nie podlega
+obowiązkowi rejestracji, nie dopełnił obowiązku, o którym mowa w ust. 2 lub 3, w terminach
+określonych w ust. 2, dokument rejestracyjny takiej jednostki pływającej traci ważność. W
+takim przypadku organ rejestrujący, który wydał dokument rejestracyjny, oznacza w rejestrze
+wpis jednostki pływającej jako wykreślony.
+     8. W przypadkach, o których mowa w ust. 5 i 7, właściciel jednostki pływającej jest
+obowiązany do:
+1)   zwrócenia dokumentu rejestracyjnego do organu rejestrującego albo
+2)   dokonania samodzielnego fizycznego anulowania dokumentu rejestracyjnego przez jego
+     uszkodzenie polegające na odcięciu prawego dolnego rogu, o powierzchni co najmniej
+     1 cm2, i złożenia organowi rejestrującemu oświadczenia o dokonaniu tej czynności
+– w terminie 14 dni od dnia oznaczenia w rejestrze wpisu jednostki pływającej jako wykreślony.
+     9. Oświadczenie, o którym mowa w ust. 8 pkt 2, składa się pod rygorem
+odpowiedzialności karnej za składanie fałszywych oświadczeń. Składający oświadczenie jest
+obowiązany do zawarcia w nim klauzuli następującej treści: „Jestem świadomy
+odpowiedzialności karnej za złożenie fałszywego oświadczenia wynikającej z art. 233 § 6
+ustawy z dnia 6 czerwca 1997 r. – Kodeks karny (Dz. U. z 2025 r. poz. 383, 1818 i 1872 oraz
+z 2026 r. poz. 902 i 988).”. Klauzula ta zastępuje pouczenie organu o odpowiedzialności karnej
+za składanie fałszywych oświadczeń.
+Liczba stron : 23   Data : 2026-10-27   Nazwa pliku : V6_2027-1.NK                            22
+X kadencja/druk nr 2995
+
+     10. Organ rejestrujący dokonuje fizycznego anulowania dokumentu rejestracyjnego w
+przypadku, o którym mowa w ust. 8 pkt 1, przez jego uszkodzenie polegające na odcięciu
+prawego dolnego rogu, o powierzchni co najmniej 1 cm2. Unieważniony dokument
+rejestracyjny zwraca się właścicielowi na jego wniosek albo niszczy.
+     11. Właściciel jednostki pływającej, której ważność dokumentu rejestracyjnego została
+potwierdzona zgodnie z ust. 2 albo 6, jest zwolniony z obowiązku złożenia wniosku o
+potwierdzenie ważności dokumentu rejestracyjnego w związku z najbliższą piątą datą
+rocznicową, jeżeli okres między potwierdzeniem ważności tego dokumentu a datą wynikającą
+z najbliżej przypadającej piątej daty rocznicowej jest krótszy niż 36 miesięcy.
+     12. Z dniem oznaczenia wpisów w rejestrze jako wykreślone na podstawie ust. 5 lub 7
+jednostka pływająca, której dotyczyły te wpisy, traci polską przynależność, o ile nie posiada jej
+na podstawie ustawy z dnia 18 września 2001 r. – Kodeks morski (Dz. U. z 2023 r. poz. 1309)
+albo ustawy z dnia 21 grudnia 2000 r. o żegludze śródlądowej (Dz. U. z 2025 r. poz. 18).
+
+     Art. 5. Właściciel     jednostki   pływającej,   której   nadano    indywidualny     numer
+identyfikacyjny (INI) zgodnie z art. 4 ust. 4 ustawy zmienianej w art. 1, w brzmieniu
+dotychczasowym, w terminie 30 dni od dnia wejścia w życie niniejszej ustawy, oznakowuje
+kadłub jednostki pływającej tym numerem zgodnie z art. 4 ust. 4a ustawy zmienianej w art. 1.
+
+     Art. 6. Dotychczasowe przepisy wykonawcze wydane na podstawie art. 13 i art. 14 ust. 5
+ustawy zmienianej w art. 1 tracą moc z dniem wejścia w życie nowych przepisów
+wykonawczych wydanych na podstawie art. 13 i art. 14 ust. 5 ustawy zmienianej w art. 1,
+jednak niepóźniej niż po upływie 48 miesięcy od dnia wejścia w życie niniejszej ustawy i mogą
+być zmieniane na podstawie przepisów dotychczasowych.
+
+     Art. 7. Karty bezpieczeństwa jachtów morskich o długości do 24 m wydane przed dniem
+wejścia w życie niniejszej ustawy zachowują ważność:
+1)   do czasu upływu terminu, na jaki zostały wydane – w przypadku gdy zostały wydane
+     przez uznaną organizację upoważnioną w zakresie, o którym mowa w art. 8a ust. 1 pkt 1
+     ustawy zmienianej w art. 2;
+2)   do czasu upływu terminu najbliższej wymaganej inspekcji państwa bandery, odpowiednio
+     rocznej, pośredniej lub odnowieniowej – w pozostałych przypadkach.
+Liczba stron : 23   Data : 2026-10-27     Nazwa pliku : V6_2027-1.NK                                     23
+X kadencja/druk nr 2995
+
+     Art. 8. Ustawa wchodzi w życie po upływie 12 miesięcy od dnia ogłoszenia, z wyjątkiem:
+1)   art. 1 pkt 3 lit. b, pkt 5 w zakresie art. 5a ust. 1 i 3–8, pkt 6 lit. c i e, pkt 7, pkt 8 lit. a, lit.
+     b i lit. c w zakresie art. 9 ust. 4 pkt 1, 2 i 4–6, pkt 10 lit. a tiret drugie, pkt 10 lit. b i c,
+     pkt 11, 12, pkt 15 lit. b, pkt 16 lit. c tiret drugie, pkt 17,
+2)   art. 2,
+3)   art. 7
+– które wchodzą w życie po upływie 14 dni od dnia ogłoszenia.
+

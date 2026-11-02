@@ -1140,6 +1140,10 @@ def run():
         interests.build(ctx, processes.load(), committee_list, today=ctx["generated"].date(), en=translator("en")),
         ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
+    sala = interests.hall(ctx, committee_list, today=ctx["generated"].date())
+    if sala:
+        (SITE / "dane" / "sala.json").write_text(json.dumps(sala, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
     write_api({**ctx, "print_meta": print_meta, "source_items": source_items}, ctx["generated"])
     # Sejmowa liga: the kolejka, prices and points the game's server reads (server/fantasy.php)
     from . import fantasy
@@ -1152,6 +1156,11 @@ def run():
         "AddType application/json .json\n")
     (SITE / ".htaccess").write_text(
         "AddDefaultCharset UTF-8\n"
+        # short links to a print, said on the stream: sejmomat.pl/3242 -> druk/3242.html, also
+        # an additional report, sejmomat.pl/3242-A (a #poprawka-5 after it is kept by the browser
+        # through the redirect)
+        "<IfModule mod_rewrite.c>\n  RewriteEngine On\n"
+        "  RewriteRule ^([0-9]{1,5}(-[A-Z])?)/?$ /druk/$1.html [R=302,L]\n</IfModule>\n"
         "<IfModule mod_deflate.c>\n"
         "  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json application/xml\n"
         "</IfModule>\n"

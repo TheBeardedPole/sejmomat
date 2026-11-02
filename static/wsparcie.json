@@ -1,0 +1,5 @@
+{
+  "_about": "Wsparcie miesięczne (zł) pokazywane w okienku wsparcia (static/app.js). Zmień 'monthly' i wypchnij: strona pokaże nową kwotę w ciągu minuty, bez przebudowy.",
+  "monthly": 100,
+  "updated": "2026-10-28"
+}

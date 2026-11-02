@@ -304,6 +304,8 @@ EN = {
     "Wygenerowano": "Generated",
     "Kod źródłowy": "Source code",
     "Tryb ciemny": "Dark mode",
+    "Wygląd": "Appearance", "Tryb": "Mode", "Jasny": "Light", "Ciemny": "Dark", "Styl": "Style",
+    "Klasyczny": "Classic", "Styl klasyczny": "Classic style",
     "były członek": "former member", "Byli członkowie": "Former members", "W klubie": "In the club", "Obecnie": "Now",
     "Posłowie, którzy głosowali jako członkowie tego klubu lub koła, a dziś do niego nie należą.":
         "MPs who voted as members of this club or group and no longer belong to it.",
@@ -586,6 +588,7 @@ EN = {
         "Pick your interests and we will suggest MPs who work on those topics.",
     "Powiązane tematy": "Related topics", "Dlaczego może Cię zainteresować:": "Why you may want to follow them:", "członek": "member",
     "{n} interpelacji i zapytań, w tym {recent} w ostatnich 90 dniach": "{n} interpellations and questions, {recent} of them in the last 90 days",
+    ", w tym {recent} w ostatnich 90 dniach": ", {recent} of them in the last 90 days",
     "Wśród autorów projektów w temacie {topic} ({n}), ostatnio": "Among the authors of bills on {topic} ({n}), most recently",
     "Zobacz profil posła": "See the MP's profile", "i {n} więcej na profilu posła": "and {n} more on the MP's profile",
     # home page, was / now / next and the interests flow (design of October 2026)
@@ -805,6 +808,18 @@ EN = {
     "Usuń konto": "Delete account",
     "Usuniemy konto, składy, punkty i adres e-mail. Tego nie da się cofnąć.": "We will delete the account, squads, points and email address. This cannot be undone.",
     "Tak, usuń": "Yes, delete",
+    # the seating plan on the home page
+    "Szczegóły": "Details", "Zwiń": "Fold",
+    "Widok sali": "Chamber view", "Twoje tematy": "Your topics", "Frekwencja": "Turnout", "Wyłamania": "Breaks of the line",
+    "Kadencje": "Terms", "{n} posłów na sali": "{n} MPs in the chamber", "Od {min} do {max}; mediana {med}": "From {min} to {max}; median {med}",
+    "mniej": "fewer", "więcej": "more", "Znajdź posła na sali": "Find an MP in the chamber", "{n} poseł": "{n} MP", "{n} posłów": "{n} MPs",
+    "Nikogo takiego nie ma na sali.": "No one by that name in the chamber.",
+    "Mównica": "Rostrum", "Nad Twoimi tematami pracuje {n} poseł": "{n} MP works on your topics",
+    "Nad Twoimi tematami pracuje {n} posłów": "{n} MPs work on your topics", "Nikt nie pracuje nad tymi tematami.": "Nobody works on these topics.",
+    "Sala posiedzeń": "The chamber", "Sala posiedzeń Sejmu: posłowie pracujący nad Twoimi tematami zaznaczeni": "The Sejm's chamber: MPs who work on your topics marked",
+    "pozostali: najedź lub dotknij, by zobaczyć": "others: hover or tap to see", "pracuje nad": "works on",
+    "pracuje nad Twoimi tematami (im ciemniej, tym więcej)": "works on your topics (the darker, the more)",
+    "układ miejsc według planu sali Kancelarii Sejmu": "seating from the Chancellery of the Sejm's plan",
     "Grafiki": "Images", "Następni": "Next", "Pokaż wszystkich": "Show all", "Poprzedni": "Previous",
     "Posłowie każdego klubu, którzy najwięcej pracują nad tematami, które obserwujesz: w komisjach, interpelacjach i projektach ustaw.":
         "MPs from every club who work most on the topics you follow: in committees, interpellations and bills.",

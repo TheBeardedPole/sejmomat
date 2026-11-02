@@ -38,6 +38,19 @@
 }
 :root[data-theme="dark"] .theme-switch .sun { display: block; }
 :root[data-theme="dark"] .theme-switch .moon { display: none; }
+/* the "Wygląd" menu under the theme button (static/header.js): light or dark, and the style */
+.look { position: relative; }
+.look-menu { position: absolute; right: 0; top: calc(100% + 8px); z-index: 30; min-width: 220px; padding: 12px 14px 14px;
+  border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--text);
+  box-shadow: 0 12px 32px rgb(0 0 0 / .18); white-space: normal; }
+.look-menu[hidden] { display: none; }
+.look-h { margin: 0 0 6px; font-size: .78rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.look-style { margin-top: 12px; }
+.look-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.look-opts button { min-height: 36px; padding: 0 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg);
+  color: var(--text); font: inherit; font-size: .9rem; cursor: pointer; }
+.look-opts button:hover { border-color: var(--accent); }
+.look-opts button[aria-checked="true"] { border-color: var(--accent); background: var(--accent-bg); color: var(--accent); font-weight: 600; }
 /* the header: one compact row (logo, sections, search, language and theme); below
    1360px the sections fold behind the "Menu" button (static/header.js), and without
    scripts they simply wrap */

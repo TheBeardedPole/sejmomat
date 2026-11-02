@@ -335,7 +335,40 @@ if (typeof document !== "undefined") (() => {
       a.addEventListener("click", () => document.dispatchEvent(new CustomEvent("sejmomat:watch")));
       return a;
     };
+    // Folded by default to a slim bar across the strip: what is on (or when the next broadcast
+    // is) in one line, a button to unfold the column; the choice is kept like the theme.
+    const NOW_KEY = "sejmomat-transmisja";
+    let nowOpen = false;
+    try { nowOpen = localStorage.getItem(NOW_KEY) === "open"; } catch { /* folded */ }
     const render = (s, checkedAt) => {
+      renderFull(s, checkedAt);
+      const live = s.state === "live" || s.state === "ours";
+      const title = box.querySelector(".wg-title")?.textContent || box.querySelector(".wg-sub")?.textContent || "";
+      const sub = box.querySelector(".wg-title") ? box.querySelector(".wg-sub")?.textContent : "";
+      const full = el("div", { className: "wg-now-body", id: "wg-now-body" }, [...box.childNodes]);
+      const btn = el("button", { type: "button", className: "lnk wg-now-toggle" });
+      btn.setAttribute("aria-controls", "wg-now-body");
+      const bar = el("div", { className: "wg-now-bar" },
+        live ? el("span", { className: "live-badge" }, el("span", { className: "live-dot", ariaHidden: "true" }), L.liveBadge)
+          : el("span", { className: "wg-now-icon", ariaHidden: "true" }, svg(ICON.tv, 16)),
+        el("span", { className: "wg-now-line" }, el("strong", { textContent: title }), sub ? el("span", { className: "muted", textContent: ` · ${sub}` }) : null),
+        btn);
+      const set = (open) => {
+        nowOpen = open;
+        full.hidden = !open;
+        box.classList.toggle("folded", !open);
+        wg?.classList.toggle("now-folded", !open);
+        btn.setAttribute("aria-expanded", String(open));
+        btn.textContent = open ? L.fold : L.unfold;
+      };
+      btn.addEventListener("click", () => {
+        set(!nowOpen);
+        try { localStorage.setItem(NOW_KEY, nowOpen ? "open" : "closed"); } catch { /* lasts for this page */ }
+      });
+      box.replaceChildren(bar, full);
+      set(nowOpen);
+    };
+    const renderFull = (s, checkedAt) => {
       const v = s.video;
       const official = v?.playerLink || box.dataset.itv;
       const parts = [];
@@ -550,7 +583,7 @@ if (typeof document !== "undefined") (() => {
       show({ focus: true });
     });
     update();
-    home.replaceChildren(form, ...(editing ? [] : placeholders()));
+    home.replaceChildren(form, ...(editing ? [] : [...(PAGE === "home" ? [hallBox()] : []), ...placeholders()]));
     home.hidden = false;
     if (focus) focusSoon(chips[0]);
   }
@@ -687,6 +720,8 @@ if (typeof document !== "undefined") (() => {
         topicTags(state.ids), editIcon());
     }
     parts.push(note);
+    // the seating plan first, where the reader lands (the home page only)
+    if (PAGE === "home") parts.push(hallBox());
     const lead = el("div", { className: "home-lead" }, el("h2", { id: "wazne-dla-ciebie", textContent: L.forYou }),
       el("p", { textContent: L.forYouText }));
     const top = el("section", {}, lead);
@@ -778,6 +813,289 @@ if (typeof document !== "undefined") (() => {
       link(page, `${L.profile} →`, false, { className: "mp-more" }));
   };
 
+  // ---- the Sejm's seating plan (dane/sala.json, from the Chancellery's plan): every seat, in
+  // views to cycle through: the reader's topics (MPs who work on them marked, stronger the more
+  // they do), the clubs, and the MPs' figures (turnout, speeches, questions, breaks of the club
+  // line, terms) in five steps from the lowest fifth to the highest, the same colour for all.
+  // A search marks the seats of the MPs it finds. A card with the MP's photo on hover (on a
+  // touch screen a tap, with the link); a click opens the MP's page. Folding and the view are
+  // kept in this browser (a setting, like the theme).
+  let sala = null;
+  const loadSala = () => sala ??= fetch(home.dataset.sala).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const FOTO = (home.dataset.sala || "").replace(/dane\/sala\.json$/, "static/foto/");
+  const SALA_KEY = "sejmomat-sala";
+  const readSala = () => {
+    try {
+      const v = localStorage.getItem(SALA_KEY);
+      return v && v.startsWith("{") ? JSON.parse(v) : { open: v !== "closed" };
+    } catch { return { open: true }; }
+  };
+  const saveSala = (x) => { try { localStorage.setItem(SALA_KEY, JSON.stringify(x)); } catch { /* lasts for this page */ } };
+  const hallBox = () => {
+    const box = el("div", { className: "sala" });
+    loadSala().then((plan) => { if (plan) drawHall(box, plan); else box.remove(); });
+    return box;
+  };
+  const SAME_CLUB = { "Polska2050-TD": "Polska2050", "niez.": "other" };  // "niez." is no valid property name
+  const iconSvg = svg;   // the icon helper, by a name the plan's own svg does not hide
+  const fold = (t) => t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ł/g, "l");
+  const drawHall = (box, plan) => {
+    const mine = state?.ids?.length ? state.ids : [];
+    const on = new Set(mine);
+    const fmtPct = (x) => `${(x * 100).toFixed(1).replace(".", LANG === "pl" ? "," : ".")}%`;
+    // [id, tab label, the MP's figure (index in plan.mps), how to show it]
+    const VIEWS = [
+      ...(mine.length ? [["topics", L.salaTopics]] : []),
+      ["clubs", L.salaClubs],
+      ["turnout", L.salaTurnout, 4, fmtPct],
+      ["speeches", L.salaSpeeches, 5, String],
+      ["questions", L.salaQuestions, 6, String],
+      ["rebels", L.salaRebels, 7, String],
+      ["terms", L.salaTerms, 8, String],
+    ];
+    const saved = readSala();
+    let view = VIEWS.some((v) => v[0] === saved.view) ? saved.view : VIEWS[0][0];
+
+    const xs = plan.seats.map((p) => p[0]), ys = plan.seats.map((p) => p[1]);
+    const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+    const W = 1000, pad = 16, unit = (W - 2 * pad) / (x1 - x0);
+    const H = Math.round((y1 - y0) * unit / plan.aspect + 2 * pad + 34);
+    const X = (x) => pad + (x - x0) * unit, Y = (y) => pad + (y - y0) * unit / plan.aspect;
+    const NS = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    svg.setAttribute("class", "sala-plan");
+    svg.setAttribute("role", "img");
+    svg.setAttribute("aria-label", L.salaLabel);
+    const size = 13;
+    const rects = plan.seats.map(([x, y, mp]) => {
+      const r = document.createElementNS(NS, "rect");
+      r.setAttribute("x", (X(x) - size / 2).toFixed(1));
+      r.setAttribute("y", (Y(y) - size / 2).toFixed(1));
+      r.setAttribute("width", size);
+      r.setAttribute("height", size);
+      r.setAttribute("rx", 3);
+      if (mp && plan.mps[mp]) r.dataset.mp = mp;
+      svg.append(r);
+      return r;
+    });
+    // the rostrum, in front of the front rows' middle
+    const front = Math.max(...plan.seats.filter((p) => Math.abs(p[0] - (x0 + x1) / 2) < (x1 - x0) * 0.08).map((p) => p[1]));
+    const cx = W / 2, cy = Y(front) + 26;
+    const rost = document.createElementNS(NS, "path");
+    rost.setAttribute("d", `M ${cx - 70} ${cy + 8} Q ${cx} ${cy - 22} ${cx + 70} ${cy + 8}`);
+    rost.setAttribute("class", "sala-rostrum");
+    const rl = document.createElementNS(NS, "text");
+    rl.setAttribute("x", cx);
+    rl.setAttribute("y", cy + 26);
+    rl.setAttribute("class", "sala-rostrum-label");
+    rl.textContent = L.rostrum;
+    svg.append(rost, rl);
+
+    const MARK = 4;   // a topic score this high or more is marked (lower ones named on hover only)
+    const topicScore = (mp) => Math.max(0, ...[...on].map((id) => plan.active[id]?.[mp] || 0));
+    const figure = (mp, i) => plan.mps[mp][i];
+    // the five steps of a figure: by rank among the MPs in office (fifths)
+    const steps = {};
+    for (const [id, , i] of VIEWS) {
+      if (i === undefined) continue;
+      const vals = Object.keys(plan.mps).map((mp) => figure(mp, i)).sort((a, b) => a - b);
+      const cut = [0.2, 0.4, 0.6, 0.8].map((q) => vals[Math.floor(q * (vals.length - 1))]);
+      steps[id] = { cut, min: vals[0], max: vals[vals.length - 1], median: vals[Math.floor(vals.length / 2)] };
+    }
+    // turnout: most MPs are above 95%, so fifths would put 50% and 80% in one step; fixed steps instead
+    steps.turnout.cut = [0.6, 0.75, 0.9, 0.95];
+    steps.turnout.labels = ["< 60%", "60–75%", "75–90%", "90–95%", "> 95%"];
+    const stepOf = (id, v) => 1 + steps[id].cut.filter((c) => v > c).length;
+
+    const count = el("p", { className: "sala-count", ariaLive: "polite" });
+    const legend = el("div", { className: "sala-legend muted small" });
+    const chipsRow = el("div", { className: "sala-chips" });
+    const tip = el("div", { className: "sala-tip", hidden: true, role: "status" });
+
+    const paint = () => {
+      svg.dataset.view = view;
+      const v = VIEWS.find((x) => x[0] === view);
+      let n = 0;
+      rects.forEach((r) => {
+        const mp = r.dataset.mp;
+        r.removeAttribute("style");
+        if (!mp) { r.setAttribute("class", "free"); return; }
+        if (view === "topics") {
+          const sc = topicScore(mp);
+          r.setAttribute("class", sc >= MARK ? `on t${sc >= MARK + 2 ? 3 : sc >= MARK + 1 ? 2 : 1}` : "");
+          if (sc >= MARK) n++;
+        } else if (view === "clubs") {
+          const c = figure(mp, 1);
+          r.setAttribute("class", "club");
+          r.style.fill = `var(--c-${SAME_CLUB[c] || c}, var(--c-other))`;
+        } else {
+          r.setAttribute("class", `q q${stepOf(view, figure(mp, v[2]))}`);
+        }
+      });
+      chipsRow.hidden = view !== "topics";
+      if (view === "topics") {
+        count.textContent = n ? plural(n, L.salaCount).replace("{n}", n) : L.salaNone;
+        legend.replaceChildren(
+          el("span", { className: "sala-key" }, el("span", { className: "sala-sw sala-sw-on" }), L.salaOn),
+          el("span", { className: "sala-key" }, el("span", { className: "sala-sw" }), L.salaOff));
+      } else if (view === "clubs") {
+        const sizes = {};
+        for (const r of rects) if (r.dataset.mp) { const c = figure(r.dataset.mp, 1); sizes[c] = (sizes[c] || 0) + 1; }
+        count.textContent = L.salaSeats.replace("{n}", rects.filter((r) => r.dataset.mp).length);
+        // by size, largest first: the same order for every club, whoever they are
+        legend.replaceChildren(...Object.entries(sizes).sort((a, b) => b[1] - a[1]).map(([c, k]) => {
+          const sw = el("span", { className: "sala-sw" });
+          sw.style.background = `var(--c-${SAME_CLUB[c] || c}, var(--c-other))`;
+          return el("span", { className: "sala-key" }, sw, `${c === "niez." ? L.independents : plan.mps[Object.keys(plan.mps).find((m) => plan.mps[m][1] === c)][2]} ${k}`);
+        }));
+      } else {
+        const st = steps[view], show = v[3];
+        count.textContent = L.salaRange.replace("{min}", show(st.min)).replace("{max}", show(st.max)).replace("{med}", show(st.median));
+        legend.replaceChildren(st.labels
+          ? el("span", { className: "sala-key" }, ...st.labels.map((t, k) => el("span", { className: "sala-step" },
+            el("span", { className: `sala-sw q q${k + 1}` }), t)))
+          : el("span", { className: "sala-key" }, L.salaLess,
+            ...[1, 2, 3, 4, 5].map((k) => el("span", { className: `sala-sw q q${k}` })), L.salaMore));
+      }
+      legend.append(el("span", { className: "sala-src", textContent: L.salaSource }));
+      tabs.forEach((t) => t.setAttribute("aria-selected", String(t.dataset.view === view)));
+      search.dispatchEvent(new Event("input"));
+    };
+    const setView = (id) => {
+      view = id;
+      saveSala({ ...readSala(), view });
+      paint();
+    };
+
+    // the views as tabs, with arrows to go round them
+    const tabs = VIEWS.map(([id, label]) => {
+      const t = el("button", { type: "button", className: "sala-tab", role: "tab", textContent: label });
+      t.dataset.view = id;
+      t.addEventListener("click", () => setView(id));
+      return t;
+    });
+    const turn = (d) => {
+      const i = VIEWS.findIndex((x) => x[0] === view);
+      setView(VIEWS[(i + d + VIEWS.length) % VIEWS.length][0]);
+    };
+    const prev = el("button", { type: "button", className: "icon-btn sala-cycle", ariaLabel: L.prev, title: L.prev }, iconSvg(ICON.left, 18));
+    const next = el("button", { type: "button", className: "icon-btn sala-cycle", ariaLabel: L.next, title: L.next }, iconSvg(ICON.right, 18));
+    prev.addEventListener("click", () => turn(-1));
+    next.addEventListener("click", () => turn(1));
+    const tabRow = el("div", { className: "sala-tabs", role: "tablist", ariaLabel: L.salaViews }, prev, el("div", { className: "sala-tab-list" }, tabs), next);
+
+    // the reader's topics as switches, in the topics view
+    chipsRow.append(...mine.map((id) => {
+      const b = el("button", { type: "button", className: "toggle-chip sala-chip", textContent: nameOf(id) });
+      b.setAttribute("aria-pressed", "true");
+      b.addEventListener("click", () => {
+        if (on.has(id) && on.size === 1) return;   // at least one topic stays on
+        if (on.has(id)) on.delete(id); else on.add(id);
+        b.setAttribute("aria-pressed", String(on.has(id)));
+        paint();
+      });
+      return b;
+    }));
+
+    // search: the seats of the MPs whose name matches, marked; one found: their card
+    const search = el("input", { type: "search", className: "sala-search", placeholder: L.salaSearch, ariaLabel: L.salaSearch, autocomplete: "off" });
+    const found = el("span", { className: "muted small", ariaLive: "polite" });
+    search.addEventListener("input", () => {
+      const q = fold(search.value.trim());
+      const hits = q.length >= 2 ? rects.filter((r) => r.dataset.mp && fold(plan.mps[r.dataset.mp][0]).includes(q)) : [];
+      svg.classList.toggle("searching", hits.length > 0);
+      rects.forEach((r) => r.classList.toggle("match", hits.includes(r)));
+      found.textContent = q.length >= 2 ? (hits.length ? plural(hits.length, L.salaFound).replace("{n}", hits.length) : L.salaNotFound) : "";
+      if (hits.length === 1) show(hits[0], true);
+      else if (pinned) { tip.hidden = true; pinned = false; }
+    });
+
+    const pageOf = (mp) => {
+      const tm = mine.filter((id) => plan.active[id]?.[mp]);
+      return `${ROOT}posel/${mp}.html${tm.length ? `?tematy=${tm.join(",")}#w-twoich-tematach` : ""}`;
+    };
+    let pinned = false;
+    const show = (r, pin) => {
+      const mp = r.dataset.mp;
+      if (!mp) { tip.hidden = true; return; }
+      const m = plan.mps[mp];
+      const tm = mine.filter((id) => plan.active[id]?.[mp]);
+      const v = VIEWS.find((x) => x[0] === view);
+      const photo = el("img", { className: "sala-tip-photo", src: `${FOTO}${mp}.jpg`, alt: "", width: 55, height: 68 });
+      photo.addEventListener("error", () => { if (!photo.dataset.api) { photo.dataset.api = "1"; photo.src = home.dataset.photo.replace("{id}", mp); } else photo.remove(); });
+      const lines = [el("strong", { textContent: m[0] }),
+        el("span", { className: "muted", textContent: [m[1] === "niez." ? L.independent : m[2], m[3] && `${L.district} ${m[3]}`].filter(Boolean).join(" · ") })];
+      if (v[2] !== undefined) lines.push(el("span", { className: "sala-tip-fig", textContent: `${v[1]}: ${v[3](m[v[2]])}` }));
+      if (tm.length) lines.push(el("span", { className: "sala-tip-topics", textContent: `${L.salaWorks}: ${tm.map(nameOf).join(", ")}` }));
+      if (pin) lines.push(link(pageOf(mp), `${L.profile} →`));
+      tip.replaceChildren(photo, el("div", { className: "sala-tip-text" }, lines));
+      const b = r.getBoundingClientRect(), host = wrap.getBoundingClientRect();
+      tip.hidden = false;
+      const left = Math.min(Math.max(8 + wrap.scrollLeft, b.left - host.left + wrap.scrollLeft + b.width / 2 - tip.offsetWidth / 2),
+        wrap.scrollLeft + host.width - tip.offsetWidth - 8);
+      tip.style.left = `${left}px`;
+      tip.style.top = `${b.top - host.top - tip.offsetHeight - 10}px`;
+      rects.forEach((x) => x.classList.toggle("hover", x === r));
+      pinned = pin;
+    };
+    let touch = false;
+    // with a mouse the card follows the pointer: on a seat it shows, anywhere else (between the
+    // seats, off the plan) it goes; a card opened by a tap or the search stays until dismissed
+    const hide = () => {
+      if (pinned) return;
+      tip.hidden = true;
+      rects.forEach((x) => x.classList.remove("hover"));
+    };
+    // the whole page watches the pointer (not only the plan, whose leave events some browsers
+    // and touchpads do not send reliably): over a seat its card, over anything else none
+    let over = null;
+    document.addEventListener("pointermove", (e) => {
+      if (e.pointerType === "touch") return;
+      const seat = e.target?.closest?.(".sala-plan rect[data-mp]") || null;
+      if (seat === over) return;
+      over = seat;
+      if (seat) show(seat, false);
+      else hide();
+    }, { passive: true });
+    document.addEventListener("mouseleave", () => { over = null; hide(); });
+    window.addEventListener("scroll", () => { over = null; hide(); }, { passive: true });
+    svg.addEventListener("pointerdown", (e) => { touch = e.pointerType !== "mouse"; });
+    svg.addEventListener("click", (e) => {
+      const mp = e.target.dataset?.mp;
+      if (!mp) return;
+      if (touch) show(e.target, true);
+      else location.href = pageOf(mp);
+    });
+    document.addEventListener("click", (e) => { if (pinned && !box.contains(e.target)) { tip.hidden = true; pinned = false; } });
+
+    const wrap = el("div", { className: "sala-wrap" }, svg, tip);
+    const body = el("div", { className: "sala-body", id: "sala-body" }, tabRow,
+      el("div", { className: "sala-head" }, chipsRow, count),
+      el("div", { className: "sala-find" }, search, found),
+      wrap, legend);
+    const toggle = el("button", { type: "button", className: "sala-toggle" },
+      el("span", { textContent: L.salaTitle }), el("span", { className: "sala-toggle-count" }));
+    toggle.setAttribute("aria-controls", "sala-body");
+    let open = saved.open !== false;
+    const set = (vOpen) => {
+      open = vOpen;
+      body.hidden = !open;
+      toggle.setAttribute("aria-expanded", String(open));
+      toggle.lastChild.textContent = open ? "" : count.textContent;
+    };
+    toggle.addEventListener("click", () => {
+      set(!open);
+      saveSala({ ...readSala(), open });
+      if (open) requestAnimationFrame(() => { wrap.scrollLeft = (wrap.scrollWidth - wrap.clientWidth) / 2; });
+    });
+    paint();
+    set(open);
+    box.replaceChildren(toggle, body);
+    // on a phone the plan is wider than the screen (seats big enough to tap): start at the middle
+    requestAnimationFrame(() => { wrap.scrollLeft = (wrap.scrollWidth - wrap.clientWidth) / 2; });
+  };
+
   // the home page: one MP from each club (a different one on each visit, clubs in a new
   // order), three at a time in a row that scrolls, and a link to all of them
   const mps = () => {
@@ -821,7 +1139,7 @@ if (typeof document !== "undefined") (() => {
     const b = el("button", { type: "button", className: "btn2", textContent: L.pick });
     b.addEventListener("click", () => showForm([]));
     const note = el("div", { className: "card interests-note skipped" }, el("p", { textContent: L.skippedText }), b);
-    home.replaceChildren(note, ...placeholders());
+    home.replaceChildren(note, ...(PAGE === "home" ? [hallBox()] : []), ...placeholders());
     home.hidden = false;
     if (focus) focusSoon(note);
   };

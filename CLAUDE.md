@@ -229,6 +229,24 @@ Live on sejmomat.pl:
   stream server and *.blueonline.tv).
   Captions name the item from the vote's own title: the API's agenda is the planned
   one (several lists, each from 1) and items are renumbered at the sitting.
+- **Vote links in the stream's chat** (`tools/live_chat.py`, started by `livestream.py` when it
+  streams to RTMP live, or a replay with `--announce`, and the YouTube login is in
+  `/etc/sejmomat-live.env`; `--no-chat` turns it off): a message per vote as the picture reaches it
+  (`POST_AFTER` 6 s), worded by `build.motion`/`build.outcome` (a passed Senate-amendment vote is the
+  amendment rejected), linking `glosowanie-na-zywo.html`. Amendments go into their bill's final-vote
+  line; a run with no final vote (the Senate's) and a run of "skrócenie terminu" motions get one
+  message each. 22 October 2026: 260 votes, 56 messages, about 1,100 of the 10,000 daily quota units
+  (20 a message). `preview <sitting>` shows the messages, nothing sent; `test "text"` sends one.
+  Login: a Google Cloud project with the YouTube Data API v3, an OAuth client "Desktop app", its
+  consent screen "In production" (in "Testing" the refresh token lapses after 7 days); `auth` signs in
+  as @Sejmomat and prints the three `SEJMOMAT_YT_*` lines. Tests: `tests/test_live_chat.py`.
+  Messages wait `SEJMOMAT_CHAT_LAG` (12 s) more, as viewers see the video after the chat. With the
+  login, a live sitting's broadcast is also titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on
+  air (`keep_title`, `SEJMOMAT_YT_TITLE`). `broadcast "title"` makes an unlisted test broadcast with its
+  own key (`TEST_RTMP=… test-stream.sh "…" 8 chat`); `title "…"` renames the one live now.
+  On the 4-vCPU VPS the stream fell ~10 s a minute behind with x264 veryfast: now superfast
+  (`SEJMOMAT_PRESET`, ultrafast if still behind), overlay blended in yuv420, Tesseract on one thread at
+  nice 10. A steady "behind real time" is fine; a growing one is not.
 - **Clips of past sittings** (`tools/clips.py`, run on a Polish address, writes
   `clips/`, not in git): `list` (closest decisive votes, one per bill), `bill
   S:N` (the debate that led to the vote, the latest day up to it with 8+ speeches
@@ -290,6 +308,15 @@ Live on sejmomat.pl:
   leaderboard, optional email (double opt-in) for a reminder and a newsletter over the hosting's SMTP;
   data in `domains/sejmomat.pl/fantasy-data/` (or `srv/data/fantasy/`). Test locally with
   `dev_login` in the config (localhost only). Page: `templates/league.html`, `static/league.js`.
+- **Seating plan on the home page** (`dane/sala.json`, `static/home.js` drawHall): every seat as in the
+  Chancellery's plan (`data/seating.json`, read by `python tools/seating.py <plan.pdf>`, which prints
+  anything it could not place; redo it when the Sejm publishes a new plan), MPs with a score of 4 or more
+  in the reader's topics marked in three strengths (`interests.scored_mps`), the rest named on hover;
+  foldable, the choice kept in localStorage (`sejmomat-sala`).
+- **Support window** (`static/app.js` showSupport): once a day after 3 minutes on the site with consent
+  (time counted in `sejmomat-support`), after 3 minutes on one page without it (nothing stored); the
+  monthly support against the tiers (150, 200, 550 zł) from `static/wsparcie.json`, edited by hand
+  (a push publishes it in a minute).
 
 Waiting on the owner:
 
