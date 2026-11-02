@@ -1,6 +1,5 @@
 """Render the static site from data/ into site/."""
 import hashlib
-import html
 import json
 import re
 import shutil
@@ -10,8 +9,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import agenda, analysis, authors, committees, fillgaps, interests, pending, places, processes, questions, social, speeches
-from .stamp import stamp
+from . import agenda, analysis, authors, committees, fillgaps, interests, pending, places, processes, questions, sejmdle, social, speeches
 from .facts import facts
 from .stats import compute as compute_voting_stats
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
@@ -59,25 +57,6 @@ MOTIONS = [
 ]
 
 
-
-# Sejmdle's games, each on a page of its own (games/sejmdle/game.html): the game's id in
-# sejmdle.js, its page (also in sejmdle.js and index.html, PAGES), title and description.
-SEJMDLE_GAMES = [
-    ("posel", "zgadnij-posla", "Zgadnij posła",
-     "Odgadnij posła dnia w 8 próbach: po każdej widzisz, czy zgadza się klub, okręg, wiek i inne cechy."),
-    ("przeszlo", "czy-przeszlo", "Czy przeszło?",
-     "Pięć poprawek do ustaw: zgadnij, czy Sejm je przyjął, i zobacz wynik głosowania."),
-    ("kim", "kim-jestem", "Kim jestem?",
-     "Jak głosował tajemniczy poseł? Zgadnij, kto to, z podpowiedziami: wiek, komisje, klub, zdjęcie."),
-    ("prezydium", "prezydium", "Prezydium",
-     "Obsadź siedem miejsc w Prezydium Sejmu posłami, którzy spełniają podane warunki."),
-    ("siatka", "siatka", "Siatka",
-     "Wypełnij dziewięć pól posłami, którzy pasują do warunku z wiersza i z kolumny."),
-    ("uzupelnij", "uzupelnij-slowo", "Uzupełnij słowo",
-     "Trzy fragmenty prawdziwych wystąpień z sali, z lukami: wpisz brakujące słowa."),
-    ("twarze", "twarze-w-minute", "Twarze w minutę",
-     "60 sekund na rozpoznanie jak najwięcej posłów ze zdjęć, z rankingiem dnia i wszech czasów."),
-]
 
 def motion(v):
     """(kind, note, (outcome if passed, outcome if not)) or None."""
@@ -1061,7 +1040,6 @@ def run():
     # Sejmdle: self-contained games that read the JSON API (test bench here;
     # the folder can be served from another host by changing its API address).
     shutil.copytree(ROOT / "games" / "sejmdle", SITE / "sejmdle")
-    stamp(SITE / "sejmdle")  # so a new script or stylesheet loads at once, despite CDN caching
 
     # Day summaries as images. They need Pillow and a font; without either
     # the summaries are still published, as text only.
@@ -1093,25 +1071,9 @@ def run():
         if getattr(t, "missing", None):
             print(f"[{lang}] untranslated strings: {sorted(t.missing)}")
 
-    # Sejmdle: the catalog (index.html) and a page per game, from game.html; each under the
-    # site's header, the same partial as every page, for its folder (the pages mark the place)
-    env, _t = _env("pl")
-    header = env.get_template("_header.html").render(
-        root="../", site_root="../", path="sejmdle/", full_path="sejmdle/", lang="pl",
-        alternates={"pl": "../index.html", "en": "../en/index.html"}, **ctx)
-    template = (SITE / "sejmdle" / "game.html").read_text(encoding="utf-8")
-    (SITE / "sejmdle" / "game.html").unlink()
-    game_pages = {"index": (SITE / "sejmdle" / "index.html").read_text(encoding="utf-8")}
-    for game, page, title, description in SEJMDLE_GAMES:
-        text = template
-        for key, value in (("game", game), ("page", page), ("title", title), ("description", description)):
-            text = text.replace("{{%s}}" % key, html.escape(value))
-        game_pages[page] = text
-    for page, text in game_pages.items():
-        text = text.replace("<!-- sejmomat-header -->", header.strip(), 1)
-        for name in ("header.css", "header.js"):   # versioned, as on the site's pages
-            text = text.replace(f'"../static/{name}"', f'"../static/{name}?v={static_version(name)}"')
-        (SITE / "sejmdle" / f"{page}.html").write_text(text, encoding="utf-8")
+    # Sejmdle: the catalog and a page per game, under the site's header (sejmomat/sejmdle.py,
+    # which the quick publish runs too)
+    sejmdle.write(SITE / "sejmdle")
 
     # Fun facts for the stream's quiet moments (tools/livestream.py).
     (SITE / "api" / "v1").mkdir(parents=True, exist_ok=True)

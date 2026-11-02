@@ -163,9 +163,11 @@ if (mpTable) {
     count.textContent = `${shown} / ${rows.length}`;
     // the town typed, and its constituency: "Grudziądz: okręg nr 5 (Toruń)"
     const named = places.named(q).slice(0, 3);
-    placeNote.hidden = !named.length;
-    placeNote.textContent = named.map((e) => form.dataset.placeLabel.replace("{place}", e.name).replace("{n}", e.num)
-      .replace("{name}", districtNames[e.num] || "")).join(" · ");
+    if (placeNote) {
+      placeNote.hidden = !named.length;
+      placeNote.textContent = named.map((e) => form.dataset.placeLabel.replace("{place}", e.name).replace("{n}", e.num)
+        .replace("{name}", districtNames[e.num] || "")).join(" · ");
+    }
     const params = new URLSearchParams();
     for (const el of fields) if (value(el.name)) params.set(el.name, value(el.name));
     history.replaceState(null, "", `${location.pathname}${params.size ? `?${params}` : ""}${location.hash}`);

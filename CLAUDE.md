@@ -317,7 +317,7 @@ Live on sejmomat.pl:
   constituency's MPs by any of its towns (from 4 letters) and name it ("Grudziądz: okręg nr 5
   (Toruń)"). **Sejmdle:** `sejmdle/` is a catalog of the games (pictures are inline SVG in
   `games/sejmdle/index.html`); each game has its own page `sejmdle/<page>.html`, written by the
-  build from `games/sejmdle/game.html` (`build.SEJMDLE_GAMES`), with "Wróć do listy gier" and its
+  build from `games/sejmdle/game.html` (`sejmomat/sejmdle.py`, also run by the quick publish), with "Wróć do listy gier" and its
   archive. Old links (`sejmdle/#kim`, `?dzien=…#game`) redirect; shared results link the game's page.
 
 Waiting on the owner:
