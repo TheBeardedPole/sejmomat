@@ -247,6 +247,9 @@ Live on sejmomat.pl:
   next item has begun now) and "!poprzednipunkt" (still on the previous one), from the channel, its
   moderators or `SEJMOMAT_CHAT_ADMINS` (default AdamKoscielakRZM; a display name is not unique, so a
   moderator is safer); it holds until votes after it are measured (`live_plan.step`, `delay(manual=…)`).
+  "!mowca Imię Nazwisko" (same people) names the speaker: the one MP every word matches, as if the
+  caption had named them; anything else ("!mowca minister finansów") is shown as written. The speaker
+  and the chair are kept in `~/.cache/sejmomat-live.json` and named again after a restart within 10 min.
 - **Vote links in the stream's chat** (`tools/live_chat.py`, started by `livestream.py` when it
   streams to RTMP live, or a replay with `--announce`, and the YouTube login is in
   `/etc/sejmomat-live.env`; `--no-chat` turns it off): a message per vote as the picture reaches it

@@ -25,6 +25,7 @@ Sejm's terms for rebroadcasting its feed.
 """
 import argparse
 import json
+import unicodedata
 import os
 import random
 import re
@@ -247,6 +248,12 @@ def districts():
     rows = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
     return {m["id"]: f"Okręg nr {m['districtNum']} ({m['districtName']})" for m in rows
             if m.get("districtNum") and m.get("districtName")}
+
+
+def fold_name(text):
+    """A name to compare: lower case, no diacritics ("Kosiniak-Kamysz" stays one word)."""
+    t = unicodedata.normalize("NFD", text.lower().replace("ł", "l"))
+    return "".join(c for c in t if not unicodedata.combining(c))
 
 
 def sitting_number(title):
@@ -1332,7 +1339,13 @@ def main():
             over = ""
             if late >= live_plan.OVERRUN:
                 over = f"opóźnienie {live_plan.minutes(late)}" + (", głosowania jeszcze się nie zaczęły" if why == "czeka" else "")
-            if speaking:
+            if speaking and sp.get("custom"):
+                # named by hand from the chat ("!mowca minister X"): as written, no club, no figures
+                item, chip, note = f"Na mównicy · {sp['name']}", None, None
+                topic = f"na mównicy od {speaker['at']:%H:%M}"
+                if now_slot:
+                    vote = textwrap.shorten(f"Wg harmonogramu{f' ({over})' if over else ''}: {plan_label(now_slot)}", 112, placeholder="…")
+            elif speaking:
                 item, chip, note = sp["name"], sp["club"], sp.get("now")
                 # the constituency, since when, how many speeches (the figures are on the card)
                 topic = (f"{sp['district'] + ' · ' if sp.get('district') else ''}na mównicy od {speaker['at']:%H:%M} · "
@@ -1474,6 +1487,40 @@ def main():
                 return f"Harmonogram poprawiony: teraz {plan_label(slot)}"
             chat.command("!nowypunkt", lambda m: moved(m, True), admin=True)
             chat.command("!poprzednipunkt", lambda m: moved(m, False), admin=True)
+
+            def picture_time(m):
+                """The picture's moment when a chat message was written (the chat is read once a
+                minute, the picture is behind live)."""
+                try:
+                    sent = datetime.fromisoformat(((m.get("snippet") or {}).get("publishedAt") or "").replace("Z", "+00:00"))
+                    return now["clock"] - (datetime.now(WARSAW) - sent.astimezone(WARSAW))
+                except ValueError:
+                    return now["clock"]
+
+            mp_list = load_mps(ROOT)
+
+            def named(m):
+                """"!mowca Imię Nazwisko": the MP every word typed matches (one only) becomes the speaker,
+                as if the broadcast's caption had named them; anything else ("!mowca minister X") is
+                shown as written. From the picture's moment of the message on, until the next speaker."""
+                text = " ".join(((m.get("snippet") or {}).get("displayMessage") or "").split()[1:]).strip()
+                if not text:
+                    return "Mówca: wpisz !mowca Imię Nazwisko albo np. !mowca minister finansów"
+                at = picture_time(m)
+                words = fold_name(text).split()
+                found = [x for x in mp_list if x.get("active", True) and all(w in fold_name(x["name"]).split() for w in words)]
+                with lock:
+                    if len(found) == 1:
+                        speaker.update(mp=found[0]["id"], at=at, until=None, card=speaker_card(found[0]))
+                        shown_as = found[0]["name"]
+                    else:
+                        speaker.update(mp=None, at=at, until=None, card={"custom": True, "name": text, "club": None})
+                        showing.update(speaker=at, start=at.timestamp() - SPEAKER_SECONDS)   # no card for a name typed in
+                        shown_as = text
+                save_state()
+                print(f"{at:%H:%M} mówca ręcznie: {shown_as}", flush=True)
+                return f"Mówca: {shown_as}"
+            chat.command("!mowca", named, admin=True)
     # a live sitting: its broadcast titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on air
     if args.out == "rtmp" and not args.at and n and live_chat.configured():
         live_chat.keep_title(n)
