@@ -11,7 +11,12 @@ time. The delay then moves the rest of the plan: an item planned at 15:00 is exp
 when the sitting runs 40 minutes late.
 """
 import re
+import sys
 from datetime import datetime, timedelta
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from sejmomat.agenda import subject  # noqa: E402,F401  (here too: the stream names items by it)
 
 RUN_GAP = timedelta(minutes=20)     # votes this close together are one run (a voting block)
 GRACE = timedelta(minutes=10)       # a block whose first vote comes this late or less is on time
@@ -119,25 +124,6 @@ def minutes(late):
     """A delay in words: "ok. 40 min", "ok. 1 godz. 10 min"."""
     m = int(round(late.total_seconds() / 60 / 5) * 5) or int(late.total_seconds() // 60)
     return f"ok. {m // 60} godz. {m % 60} min" if m >= 60 and m % 60 else f"ok. {m // 60} godz." if m >= 60 else f"ok. {m} min"
-
-
-def subject(t):
-    """What an item is about, short, from its (already shortened) title: the law it changes or
-    makes ("zmiana ustawy o systemie oświaty oraz …" -> "o systemie oświaty", "zmiana ustawy –
-    Karta Nauczyciela" -> "Karta Nauczyciela"), the first one where several are named; a motion
-    by what it asks ("Wotum nieufności wobec …", "Zgoda na …"); anything else as it is."""
-    s = re.sub(r"^(?:projekt ustawy zmieniającej ustawę o zmianie ustawy|projekt ustawy zmieniającej ustawę|"
-               r"zmiana ustawy|ustawa)\s*[–-]?\s*", "", t, flags=re.I)
-    if s != t:
-        s = re.split(r",\s+ustaw[yę]\b|\s+oraz\s+(?:ustaw[yę]|niektórych innych ustaw)\b|\s+w celu\s", s)[0]
-        return s.strip(" ,")
-    m = re.match(r"wniosek o wyrażenie (wotum (?:nie)?ufności.*)", t, re.I)
-    if m:
-        return m[1][0].upper() + m[1][1:]
-    m = re.match(r"rozpatrzenie wniosku .*?o wyrażenie przez Sejm .*?zgody (na .*)", t, re.I)
-    if m:
-        return "Zgoda " + m[1]
-    return t
 
 
 def label(slot, short=lambda t: t):

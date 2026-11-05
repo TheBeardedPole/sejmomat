@@ -679,6 +679,18 @@ EN = {
     "Strona główna": "Home page",
     "Zobacz składy tego gracza": "See this player's squads", "{r}. miejsce w rankingu · {t} pkt w sezonie": "Ranked {r} · {t} pts this season",
     "Ten gracz nie ma jeszcze rozegranych kolejek.": "This player has no rounds played yet.",
+    # the planned timetable (templates/timetable.html)
+    "Harmonogram obrad": "Sitting timetable",
+    "Przybliżony czas rozpatrywania punktów porządku obrad Sejmu, dzień po dniu.": "The approximate times of the items on the Sejm's agenda, day by day.",
+    "Planowany czas punktów porządku obrad: {n} pozycji w {d} dniach.": "Planned times of the agenda's items: {n} slots over {d} days.",
+    "Harmonogram publikuje Kancelaria Sejmu przed posiedzeniem. To plan: obrady często się przesuwają, a punkty zmieniają kolejność.":
+        "The Chancellery of the Sejm publishes the timetable before the sitting. It is a plan: sittings often run late and items change places.",
+    "Na transmisji Sejmomatu opóźnienie liczymy na bieżąco z godzin głosowań; na czacie odpowiada na nie komenda !opoznienie.":
+        "On Sejmomat's stream the delay is worked out live from the times of the votes; in the chat, the !opoznienie command gives it.",
+    "Pełny porządek obrad": "The full agenda", "Godzina": "Time", "Co jest w planie": "What is planned", "Druki": "Prints",
+    "punkty": "items", "teraz wg planu": "now by the plan",
+    "Kancelaria Sejmu nie opublikowała jeszcze harmonogramu najbliższego posiedzenia.": "The Chancellery has not yet published the timetable of the next sitting.",
+    "Harmonogram obrad: planowane godziny punktów": "Sitting timetable: the items' planned times",
     "Główna nawigacja": "Main navigation", "Zamknij menu": "Close the menu", "Ścieżka nawigacji": "Breadcrumb", "Menu": "Menu", "Szukaj…": "Search…",
     "Głosowanie na żywo": "Live vote", "Przyjęte poprawki": "Adopted amendments", "Zgłoszone poprawki": "Amendments proposed",
     "Statystyki": "Statistics", "Wszystkie głosowania tego posiedzenia": "All votes of this sitting",

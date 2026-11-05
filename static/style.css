@@ -925,3 +925,12 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .liga-player { width: min(980px, calc(100vw - 24px)); }
 .liga-player-k { margin: 14px 0 8px; }
 .liga-seat-pts { margin-top: 1px; font-size: .8rem; font-weight: 700; color: #12223d; }
+
+/* the planned timetable (templates/timetable.html): the slot planned for now lit, those behind dimmed */
+.timetable td:first-child { white-space: nowrap; width: 8.5em; font-variant-numeric: tabular-nums; }
+.timetable td:last-child { white-space: nowrap; }
+.timetable tr.is-vote td { background: var(--accent-bg); }
+.timetable tr.is-now td { background: color-mix(in srgb, var(--accent) 16%, var(--surface)); font-weight: 600; }
+.timetable tr.is-past td { color: var(--muted); }
+.timetable .now-tag { margin-left: 8px; padding: 1px 8px; border-radius: 99px; background: var(--accent); color: var(--on-accent, #fff);
+  font-size: .75rem; font-weight: 700; white-space: nowrap; }

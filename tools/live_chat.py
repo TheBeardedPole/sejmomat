@@ -31,7 +31,8 @@ SEJMOMAT_YT_REFRESH_TOKEN. Messages come from the channel itself, so its links
 are not held back.
 
 Viewers can ask: "!punkt" in the chat gets the item on by the plan with its print's page (livestream.py),
-the chat read once a minute, one reply a minute however many ask. The channel, its moderators and
+the chat read once a minute, one reply a minute however many ask; "!opoznienie" how late the sitting runs
+against its planned timetable, with the agenda's page. The channel, its moderators and
 ADMINS (SEJMOMAT_CHAT_ADMINS) can move the plan by hand: "!nowypunkt" (the next item has begun),
 "!poprzednipunkt" (still on the previous one: the sitting runs late).
 
@@ -344,6 +345,10 @@ class VoteChat:
             words = ((m.get("snippet") or {}).get("displayMessage") or "").strip().lower().split()
             word = words[0] if words else ""
             if word not in self.commands:
+                continue
+            if len(words) > 1 and self.is_admin(m):
+                # an admin's command with something after it ("!punkt 12"): every time, the channel too
+                out.append((word, m))
                 continue
             if self.commands[word][1]:
                 if self.is_admin(m):

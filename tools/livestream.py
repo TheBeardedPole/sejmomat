@@ -1607,7 +1607,50 @@ def main():
                     print(f"czat: punkt nie wysłany ({e})", file=sys.stderr, flush=True)
         if not args.at:
             threading.Thread(target=plan_links, daemon=True).start()
-            chat.command("!punkt", lambda m: plan_message(asked=True))
+            def punkt(m):
+                """"!punkt": the item on by the plan; "!punkt 12" from the channel or its moderators: the
+                plan moved so that item 12 starts at the picture's moment of the message."""
+                words = ((m.get("snippet") or {}).get("displayMessage") or "").split()
+                if len(words) > 1 and live_chat.VoteChat.is_admin(m):
+                    n_asked = re.sub(r"\D", "", words[1])
+                    at = picture_time(m)
+                    naive = at.replace(tzinfo=None)
+                    with lock:
+                        slots = timetable["slots"]
+                    found = [x for x in slots if n_asked and int(n_asked) in x["points"] and not x["vote"]]
+                    if not found:
+                        return f"Harmonogram: nie ma punktu {words[1]}."
+                    today = [x for x in found if live_plan.sitting_day(x["start"]) == live_plan.sitting_day(naive)]
+                    x = (today or found)[0]
+                    timetable["manual"] = (naive, naive - x["start"])
+                    print(f"{at:%H:%M} harmonogram ręcznie: {plan_label(x)}", flush=True)
+                    return f"Harmonogram poprawiony: teraz {plan_label(x)}"
+                return plan_message(asked=True)
+            chat.command("!punkt", punkt)
+
+            def delay_message(m):
+                """"!opoznienie": how late the sitting runs against its planned timetable, the item it
+                is at by the plan, and the sitting's agenda on the site."""
+                with lock:
+                    have = bool(timetable["slots"])
+                link = f"Harmonogram: {live_chat.SITE}/harmonogram-obrad.html"
+                if not have:
+                    return f"Nie ma harmonogramu tego posiedzenia. {link}"
+                late, why, slot_now = where(now["clock"])
+                if late >= live_plan.OVERRUN:
+                    head = f"Obrady są opóźnione o {live_plan.minutes(late)[4:]} względem harmonogramu" + (
+                        " (głosowania jeszcze się nie zaczęły)" if why == "czeka" else "")
+                elif late <= -live_plan.OVERRUN:
+                    head = f"Obrady wyprzedzają harmonogram o {live_plan.minutes(-late)[4:]}"
+                else:
+                    head = "Obrady idą zgodnie z harmonogramem"
+                tail = f". {link}"
+                if slot_now:
+                    room = live_chat.MAX_LEN - len(head) - len(tail) - len(". Teraz: ")
+                    head += ". Teraz: " + textwrap.shorten(plan_label(slot_now, druk=False), max(20, room), placeholder="…")
+                return head + tail
+            chat.command("!opoznienie", delay_message)
+            chat.command("!opóźnienie", delay_message)
 
             def moved(m, forward):
                 """"!nowypunkt" / "!poprzednipunkt" from the channel or its moderators: the plan moved

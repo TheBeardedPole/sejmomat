@@ -29,6 +29,7 @@
   <div class="card stat"><b>{{ items | selectattr("eu") | list | length }}</b>{{ _("projektów wykonujących prawo UE") }}</div>
 </div>
 <p class="muted">{{ _("Porządek obrad może się jeszcze zmienić; kolejność punktów ustala Marszałek Sejmu tuż przed posiedzeniem.") }}</p>
+{% if timetable_days %}<p><a href="{{ root }}harmonogram-obrad.html">{{ _("Harmonogram obrad: planowane godziny punktów") }} →</a></p>{% endif %}
 
 {% for g in u.groups %}
 <h2{% if g.heading %} lang="pl"{% endif %}>{% if g.heading %}{{ g.heading }}{% else %}{{ _("Porządek obrad") }}{% endif %}</h2>

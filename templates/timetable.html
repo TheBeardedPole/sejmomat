@@ -1,0 +1,59 @@
+{# The planned timetable of the sitting under way or next ("Przybliżony czas rozpatrywania punktów
+   porządku dziennego", sejmomat/agenda.py timetable_days): a table a day, the slot planned for now
+   marked in the reader's browser (Warsaw time). The stream works out the delay live (tools/live_plan.py). #}
+{% extends "base.html" %}
+{% from "_section_nav.html" import section_nav with context %}
+{% from "_macros.html" import print_link, crumbs, how %}
+{% set u = upcoming %}
+{% block title %}{{ _("Harmonogram obrad") }}{% if u %}: {{ sitting_name(u.number) }}{% endif %}{% endblock %}
+{% block description %}{{ _("Przybliżony czas rozpatrywania punktów porządku obrad Sejmu, dzień po dniu.") }}{% endblock %}
+{% block content %}
+{{ crumbs(root, [(root ~ "posiedzenia.html", _("Posiedzenia"))], _("Harmonogram obrad")) }}
+<h1>{{ _("Harmonogram obrad") }}{% if u %}: {{ sitting_name(u.number) }}{% endif %}</h1>
+{{ section_nav("sittings", "harmonogram-obrad.html") }}
+{% if timetable_days %}
+{% set n_slots = timetable_days | sum(attribute=1, start=[]) | length %}
+<p class="tagline">{{ _("Planowany czas punktów porządku obrad: {n} pozycji w {d} dniach.").replace("{n}", n_slots | string).replace("{d}", timetable_days | length | string) }}</p>
+{% call how(_("Skąd są dane?")) %}
+<p>{{ _("Harmonogram publikuje Kancelaria Sejmu przed posiedzeniem. To plan: obrady często się przesuwają, a punkty zmieniają kolejność.") }}</p>
+<p>{{ _("Na transmisji Sejmomatu opóźnienie liczymy na bieżąco z godzin głosowań; na czacie odpowiada na nie komenda !opoznienie.") }}</p>
+{% endcall %}
+<p><a href="{{ root }}nadchodzace-posiedzenie.html">{{ _("Pełny porządek obrad") }} →</a></p>
+{% for day, slots in timetable_days %}
+<h2>{{ day | date_pl }}</h2>
+<div class="table-scroll">
+<table class="timetable">
+  <thead><tr><th>{{ _("Godzina") }}</th><th>{{ _("Co jest w planie") }}</th><th>{{ _("Druki") }}</th></tr></thead>
+  <tbody>
+  {% for s in slots %}
+  <tr class="{% if s.vote %}is-vote{% endif %}" data-start="{{ s.start }}" data-end="{{ s.end }}">
+    <td class="num">{{ s.from }}–{{ s.to }}</td>
+    <td lang="pl">{% if s.vote %}<strong>{{ _("Głosowania") }}</strong>{% if s.points %} · {{ _("punkty") }} {{ s.points | join(", ") }}{% endif %}{% else %}{{ s.label }}{% endif %}
+      <span class="now-tag" hidden>{{ _("teraz wg planu") }}</span></td>
+    <td>{% for p in s.prints %}{{ print_link(p, root, printed) }}{% if not loop.last %}, {% endif %}{% endfor %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endfor %}
+<script>
+  // the slot planned for now, in Warsaw time (the times on the page are Warsaw's)
+  (() => {
+    const now = new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Warsaw", year: "numeric", month: "2-digit", day: "2-digit",
+      hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date()).replace(" ", "T");
+    for (const tr of document.querySelectorAll(".timetable tr[data-start]")) {
+      if (tr.dataset.start <= now && now < tr.dataset.end) {
+        tr.classList.add("is-now");
+        tr.querySelector(".now-tag").hidden = false;
+      } else if (tr.dataset.end <= now) {
+        tr.classList.add("is-past");
+      }
+    }
+  })();
+</script>
+{% else %}
+<p>{{ _("Kancelaria Sejmu nie opublikowała jeszcze harmonogramu najbliższego posiedzenia.") }}</p>
+<p><a href="{{ root }}nadchodzace-posiedzenie.html">{{ _("Porządek obrad") }} →</a></p>
+{% endif %}
+{% endblock %}

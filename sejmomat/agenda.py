@@ -197,6 +197,51 @@ def timetable(html):
     return out
 
 
+def subject(t):
+    """What an item is about, short, from its (already shortened) title: the law it changes or
+    makes ("zmiana ustawy o systemie oświaty oraz …" -> "o systemie oświaty", "zmiana ustawy –
+    Karta Nauczyciela" -> "Karta Nauczyciela"), the first one where several are named; a motion
+    by what it asks ("Wotum nieufności wobec …", "Zgoda na …"); anything else as it is."""
+    s = re.sub(r"^(?:projekt ustawy zmieniającej ustawę o zmianie ustawy|projekt ustawy zmieniającej ustawę|"
+               r"zmiana ustawy|ustawa)\s*[–-]?\s*", "", t, flags=re.I)
+    if s != t:
+        s = re.split(r",\s+ustaw[yę]\b|\s+oraz\s+(?:ustaw[yę]|niektórych innych ustaw)\b|\s+w celu\s", s)[0]
+        return s.strip(" ,")
+    m = re.match(r"wniosek o wyrażenie (wotum (?:nie)?ufności.*)", t, re.I)
+    if m:
+        return m[1][0].upper() + m[1][1:]
+    m = re.match(r"rozpatrzenie wniosku .*?o wyrażenie przez Sejm .*?zgody (na .*)", t, re.I)
+    if m:
+        return "Zgoda " + m[1]
+    return t
+
+
+def slot_label(slot):
+    """A timetable slot as a reader sees it: \"Punkt 5 · o systemie oświaty\", \"Głosowania\", \"Przerwa\"."""
+    from .social import short_title
+    if slot["vote"]:
+        return "Głosowania"
+    text = subject(short_title(slot["text"]))
+    text = text if text.startswith("o ") else text[:1].upper() + text[1:]
+    pts = slot["points"]
+    if not pts:
+        return text
+    head = f"Punkt {pts[0]}" if len(pts) == 1 else f"Punkty {pts[0]}–{pts[-1]}"
+    return f"{head} (cd.)" if text.lower().startswith("cd. pkt") else f"{head} · {text}"
+
+
+def timetable_days(number):
+    """The kept timetable of a sitting by day: [(day, [slot, …])]; a slot after midnight goes
+    with the day before (the sitting runs on), as the stream counts it (tools/live_plan.py)."""
+    from datetime import datetime
+    days = {}
+    for s in timetables().get(number, []):
+        start = datetime.fromisoformat(s["start"])
+        day = (start - timedelta(hours=6)).date().isoformat()
+        days.setdefault(day, []).append({**s, "label": slot_label(s), "from": s["start"][11:16], "to": s["end"][11:16]})
+    return sorted(days.items())
+
+
 def timetables():
     """{sitting number: timetable()} for every sitting whose timetable is kept."""
     return {p["number"]: timetable(p["schedule"]) for p in _stored() if p.get("number") and p.get("schedule")}

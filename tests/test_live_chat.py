@@ -115,6 +115,13 @@ class Commands(unittest.TestCase):
         self.assertEqual(self.words([viewer]), [])
         self.assertEqual(self.words([owner, mod, named]), ["!nowypunkt"] * 3)   # each one done, no cooldown
 
+    def test_admin_argument_on_viewer_command(self):
+        # "!punkt 12" from the channel or a moderator: every time; from a viewer, the ordinary "!punkt"
+        owner = self.msg("!punkt 12", owner=True)
+        mod = {**self.msg("!punkt 12"), "authorDetails": {"isChatModerator": True}}
+        self.assertEqual(self.words([owner, mod]), ["!punkt", "!punkt"])
+        self.assertEqual(self.words([self.msg("!punkt 12")], now=5000), ["!punkt"])
+
 
 if __name__ == "__main__":
     unittest.main()

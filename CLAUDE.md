@@ -250,6 +250,11 @@ Live on sejmomat.pl:
   "!mowca Imię Nazwisko" (same people) names the speaker: the one MP every word matches, as if the
   caption had named them; anything else ("!mowca minister finansów") is shown as written. The speaker
   and the chair are kept in `~/.cache/sejmomat-live.json` and named again after a restart within 10 min.
+  Viewers: "!opoznienie" (how late against the plan, linking harmonogram-obrad.html); "!punkt 12" from the
+  channel or its moderators moves the plan so item 12 starts now. **harmonogram-obrad.html** (menu
+  Posiedzenia, `templates/timetable.html`): the kept timetable of the sitting under way or next by day
+  (`agenda.timetable_days`, item names by `agenda.subject`, shared with the stream), the slot planned for
+  now marked in the browser.
 - **Vote links in the stream's chat** (`tools/live_chat.py`, started by `livestream.py` when it
   streams to RTMP live, or a replay with `--announce`, and the YouTube login is in
   `/etc/sejmomat-live.env`; `--no-chat` turns it off): a message per vote as the picture reaches it
