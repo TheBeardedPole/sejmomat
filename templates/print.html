@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import result_badge, counts, law_changes, bill_diff, crumbs %}
+{% from "_macros.html" import result_badge, counts, law_changes, bill_diff, crumbs, osr_sections, how %}
 {% block title %}{{ _("Druk nr") }} {{ num }}: {{ (meta.title or "") | truncate(90) }}{% endblock %}
 {% block description %}{{ _("Druk nr") }} {{ num }}{% if meta.documentDate %} ({{ meta.documentDate | date_pl }}){% endif %}: {{ meta.title }}{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
@@ -12,6 +12,8 @@
   <a href="{{ print_url(num) }}">{{ _("strona druku w Sejmie") }}</a>
   {% for att in meta.attachments or [] %} · <a href="{{ pdf_url(num, att) }}">{{ att }}</a>{% endfor %}
 </p>
+
+{{ osr_sections(osr, num, root, printed) }}
 
 {% if law %}
 <h2 id="prawo">{{ _("Zmiany w obowiązującym prawie") }}</h2>

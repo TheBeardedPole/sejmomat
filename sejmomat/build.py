@@ -9,7 +9,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import agenda, analysis, authors, committees, fillgaps, interests, pending, places, processes, questions, sejmdle, social, speeches
+from . import agenda, analysis, authors, committees, fillgaps, interests, osr, pending, places, processes, questions, sejmdle, social, speeches
 from .facts import facts
 from .stats import compute as compute_voting_stats
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
@@ -248,6 +248,13 @@ def build_context():
     rcl = json.loads(rcl_path.read_text(encoding="utf-8")) if rcl_path.exists() else {}
     for b in bill_rows:
         b["rcl"] = rcl.get(b["root"])
+    # what a government bill says of itself (its OSR: the problem, the solution, the consultations
+    # before the Sejm) and the opinions the Sejm received, from the process's stages
+    stages = processes.load()
+    for b in bill_rows:
+        b["osr"] = osr.read(print_text(b["root"]))
+        b["opinions"] = [(st["date"], st["name"]) for st in (stages.get(b["root"]) or {}).get("stages", [])
+                         if st["name"].startswith("Opinia") or st["name"] == "Wpłynęło stanowisko rządu"]
 
     # Tags (data/tags.json): what a bill is about in a few words, written by
     # hand; a vote takes its bill's tags and any of its own ("67-50").
@@ -1032,7 +1039,9 @@ def _pages(ctx):
         # a bill's print: what it would change in the acts in force (a bill before its first
         # reading has no bill page yet, so this is where it is shown)
         law = bill_changes(print_text(num)) if "projekt ustawy" in title.lower() and "prawozdanie" not in title else []
-        yield "print.html", f"druk/{num}.html", {"num": num, "meta": meta, "law": law}
+        bill = "projekt ustawy" in title.lower() and "prawozdanie" not in title
+        yield "print.html", f"druk/{num}.html", {"num": num, "meta": meta, "law": law,
+                                                 "osr": osr.read(print_text(num)) if bill else None}
 
 
 def _lang_path(lang, path):

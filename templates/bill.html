@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "_speeches.html" import styles as speech_styles, list_box with context %}
-{% from "_macros.html" import tag_chips, vote_row, print_link, law_changes, author_label, mp_link, crumbs %}
+{% from "_macros.html" import tag_chips, vote_row, print_link, law_changes, author_label, mp_link, crumbs, osr_sections, how %}
 {% block title %}{{ b.title | truncate(110) }}{% endblock %}
 {% block description %}{{ b.title }}: {{ b.votings | length }} {{ b.votings | length | plural(_("głosowanie"), _("głosowania"), _("głosowań")) }}, {{ _("Nad poprawkami") | lower }}: {{ b.amend_count }}. {{ _("Ostatnie głosowanie") }}: {{ b.last | date_pl }}.{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
@@ -28,6 +28,8 @@
 <p class="muted">{{ _("Prace w rządzie, przed skierowaniem do Sejmu") }}: <a href="{{ b.rcl.link }}" target="_blank" rel="noopener">{{ _("Rządowe Centrum Legislacji") }}, {{ b.rcl.num }}</a>
   <span class="note">({{ _("pierwsze wersje projektu, uzgodnienia i konsultacje; RCL nie pozwala na automatyczne pobieranie danych, dlatego pokazujemy tylko odnośnik") }})</span></p>
 {% endif %}
+
+{{ osr_sections(b.osr, b.root, root, printed, b.opinions) }}
 
 {% if b.law %}
 <h2>{{ _("Zmiany w obowiązującym prawie") }}</h2>

@@ -918,6 +918,25 @@ EN = {
     "Uchwała Senatu utrzymana: ustawa odrzucona": "Senate resolution upheld — bill falls",
     "Senat zaproponował odrzucenie ustawy. „Za” oznacza odrzucenie uchwały Senatu, a więc przyjęcie ustawy; potrzebna jest bezwzględna większość. W przeciwnym razie ustawa upada.": "The Senate proposed rejecting the bill. “For” means rejecting the Senate's resolution — the bill stands; this needs an absolute majority. Otherwise the bill falls.",
     "posłowie niezrzeszeni": "independent MPs",
+    # a government bill's OSR (sejmomat/osr.py): its aim and its consultations
+    "Cel projektu": "The bill's aim",
+    "Jak rząd opisuje problem i swoje rozwiązanie (Ocena Skutków Regulacji w": "How the government describes the problem and its solution (Regulatory Impact Assessment in",
+    "Problem": "Problem", "Rozwiązanie": "Solution",
+    "Cały opis problemu i rozwiązania": "The whole description of the problem and solution",
+    "Jaki problem jest rozwiązywany?": "What problem is being solved?",
+    "Rekomendowane rozwiązanie i oczekiwany efekt": "Recommended solution and expected effect",
+    "Tekst rządu wyodrębniony automatycznie z druku; wiążący jest oficjalny druk.": "The government's text, extracted automatically from the print; the official print is binding.",
+    "Konsultacje i opinie": "Consultations and opinions",
+    "Bez konsultacji publicznych": "No public consultation",
+    "Rząd nie przeprowadził konsultacji publicznych tego projektu.": "The government did not hold a public consultation on this bill.",
+    "Konsultacje publiczne w rządzie trwały": "The government's public consultation lasted",
+    "dzień": "day",
+    "Co rząd pisze o konsultacjach projektu, zanim trafił do Sejmu": "What the government says about consultations on the bill before it reached the Sejm",
+    "Podsumowanie wyników konsultacji": "Summary of the consultation results",
+    "Z Oceny Skutków Regulacji, część „Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji”. Pełne uwagi i odpowiedzi rządu są w raporcie z konsultacji, zwykle dołączonym do druku.":
+        "From the Regulatory Impact Assessment, the part on the scope, length and results of consultations. The full comments and the government's replies are in the consultation report, usually attached to the print.",
+    "Opinie, które wpłynęły do Sejmu": "Opinions received by the Sejm",
+    "stanowisko rządu": "the government's position",
 }
 
 

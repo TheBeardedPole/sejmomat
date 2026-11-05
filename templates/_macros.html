@@ -112,3 +112,37 @@
   {%- endif %}
 </ol></nav>
 {%- endmacro %}
+
+{# A government bill's own account of itself (sejmomat/osr.py, from its OSR): the problem it solves,
+   and the consultations before it reached the Sejm; `opinions`: the opinions the Sejm received. #}
+{% macro osr_sections(o, num, root, printed, opinions=[]) -%}
+{% if o and o.summary %}
+<h2 id="cel">{{ _("Cel projektu") }}</h2>
+<p class="muted">{{ _("Jak rząd opisuje problem i swoje rozwiązanie (Ocena Skutków Regulacji w") }} {{ print_link(num, root, printed, "tekst", _("druku nr") ~ " " ~ num) }}):</p>
+<p lang="pl"><strong>{{ _("Problem") }}:</strong> {{ o.summary }}</p>
+{% if o.solution_lead %}<p lang="pl"><strong>{{ _("Rozwiązanie") }}:</strong> {{ o.solution_lead }}</p>{% endif %}
+{% call how(_("Cały opis problemu i rozwiązania")) %}
+<p><strong>{{ _("Jaki problem jest rozwiązywany?") }}</strong></p>
+{% for p in o.problem %}<p lang="pl">{{ p }}</p>{% endfor %}
+{% if o.solution %}<p><strong>{{ _("Rekomendowane rozwiązanie i oczekiwany efekt") }}</strong></p>
+{% for p in o.solution %}<p lang="pl">{{ p }}</p>{% endfor %}{% endif %}
+<p class="note">{{ _("Tekst rządu wyodrębniony automatycznie z druku; wiążący jest oficjalny druk.") }}</p>
+{% endcall %}
+{% endif %}
+{% if (o and o.consult) or opinions %}
+<h2 id="konsultacje">{{ _("Konsultacje i opinie") }}</h2>
+{% if o and o.consult %}
+{% if o.status == "skipped" %}<p><span class="badge warn">{{ _("Bez konsultacji publicznych") }}</span> {{ _("Rząd nie przeprowadził konsultacji publicznych tego projektu.") }}</p>
+{% elif o.days %}<p>{{ _("Konsultacje publiczne w rządzie trwały") }} {{ o.days }} {{ o.days | plural(_("dzień"), _("dni"), _("dni")) }}.</p>
+{% else %}<p>{{ _("Co rząd pisze o konsultacjach projektu, zanim trafił do Sejmu") }}:</p>{% endif %}
+<p lang="pl">{{ o.consult_lead }}</p>
+{% call how(_("Podsumowanie wyników konsultacji")) %}
+{% for p in o.consult %}<p lang="pl">{{ p }}</p>{% endfor %}
+<p class="note">{{ _("Z Oceny Skutków Regulacji, część „Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji”. Pełne uwagi i odpowiedzi rządu są w raporcie z konsultacji, zwykle dołączonym do druku.") }}</p>
+{% endcall %}
+{% endif %}
+{% if opinions %}
+<p>{{ _("Opinie, które wpłynęły do Sejmu") }}: {% for d, name in opinions %}{{ name | replace("Wpłynęło stanowisko rządu", _("stanowisko rządu")) | replace("Opinia ", "") }} ({{ d | date_pl }}){{ ", " if not loop.last }}{% endfor %}.</p>
+{% endif %}
+{% endif %}
+{%- endmacro %}
