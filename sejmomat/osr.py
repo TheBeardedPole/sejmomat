@@ -24,13 +24,15 @@ _ANY_HEAD = re.compile(r"^[ \t\f]*\d{1,2}\.\s+(?:Jaki|Rekomendowane|Jak\s+proble
                        r"Zmiana\s+obciążeń|Planowane\s+wykonanie|W\s+jaki\s+sposób|Załączniki|Dane\s+i\s+wskaźniki)\b", re.M)
 
 # a lead that says no public consultation was held
-_SKIPPED = re.compile(r"odstąpiono\s+od\s+(?:przeprowadzenia\s+)?(?:pre-?\s*konsultacji\s+i\s+)?konsultacji\s+publicznych"
-                      r"|odstąpiono\s+od\s+(?:przeprowadzenia\s+)?konsultacji|nie\s+był\w*\s+przedmiotem\s+konsultacji\s+publicznych"
-                      r"|nie\s+podlega\w*\s+konsultacjom\s+publicznym|bez\s+przeprowadzenia\s+konsultacji"
-                      r"|z\s+pominięciem\s+(?:etapu\s+)?(?:\w+\s+){0,2}?konsultacji|rezygnacj\w+\s+z\s+(?:prowadzenia\s+)?(?:opiniowania\s+i\s+)?konsultacji"
-                      r"|odstąpiono\s+od\s+(?:przeprowadzania\s+)?(?:opiniowania\s+i\s+)?konsultacji", re.I)
-_DAYS = re.compile(r"(\d+)[\s-]*(?:dniow\w+|dni\w*)\s+(?:\w+\s+){0,3}?konsultacj\w*\s+publiczn", re.I)
-_DAYS_TOO = re.compile(r"konsultacj\w*\s+publiczn\w*\s+(?:\w+\s+){0,4}?(?:w\s+terminie|trwał\w*|przez\s+okres|na\s+okres)\s+(\d+)\s+dni", re.I)
+# "public" or "social" consultations: the forms use both words for the same step
+_PUB = r"(?:publiczn|społeczn)"
+_SKIPPED = re.compile(r"odstąpiono\s+od\s+(?:przeprowadz\w+\s+)?(?:pre-?\s*konsultacji\s+i\s+)?(?:opiniowania\s+i\s+)?konsultacji"
+                      rf"|nie\s+był\w*\s+przedmiotem\s+konsultacji\s+{_PUB}"
+                      rf"|nie\s+podlega\w*\s+konsultacjom\s+{_PUB}|bez\s+przeprowadz\w+\s+konsultacji"
+                      rf"|nie\s+wymaga\w*\s+(?:przeprowadz\w+\s+)?konsultacji\s+{_PUB}"
+                      r"|z\s+pominięciem\s+(?:etapu\s+)?(?:\w+\s+){0,2}?konsultacji|rezygnacj\w+\s+z\s+(?:prowadzenia\s+)?(?:opiniowania\s+i\s+)?konsultacji", re.I)
+_DAYS = re.compile(rf"(\d+)[\s-]*(?:dniow\w+|dni\w*)\s+(?:\w+\s+){{0,3}}?konsultacj\w*\s+{_PUB}", re.I)
+_DAYS_TOO = re.compile(rf"konsultacj\w*\s+{_PUB}\w*\s+(?:\w+\s+){{0,4}}?(?:w\s+terminie|trwał\w*|przez\s+okres|na\s+okres|z\s+terminem)\s+(\d+)\s+dni", re.I)
 
 
 def _section(text, key):
@@ -134,12 +136,12 @@ def consultation_status(paras):
     text = " ".join(paras)
     if not text:
         return None, None
-    if _SKIPPED.search(text) and not re.search(r"skierowan\w+\s+do\s+(?:\d+[\s-]*dniow\w+\s+)?konsultacji\s+publicznych", text, re.I):
+    if _SKIPPED.search(text) and not re.search(rf"(?:skierowan|przekazan|przesłan)\w+\s+do\s+(?:\d+[\s-]*dniow\w+\s+)?konsultacji\s+{_PUB}", text, re.I):
         return "skipped", None
     m = _DAYS.search(text) or _DAYS_TOO.search(text)
     if m:
         return "held", int(m[1])
-    if re.search(r"konsultacj\w*\s+publiczn|opiniowani|przekazan\w*\s+do\s+(?:opinii|zaopiniowania)|uwag", text, re.I):
+    if re.search(rf"konsultacj\w*\s+{_PUB}|opiniowani|przekazan\w*\s+do\s+(?:opinii|zaopiniowania)|uwag", text, re.I):
         return "held", None
     return None, None
 
