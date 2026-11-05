@@ -28,9 +28,12 @@ if [ -d "$DIR/.git" ]; then
 else
     git clone -q "$REPO" "$DIR" || exit 1
 fi
-if [ ! -x "$DIR/.venv/bin/python" ]; then
-    echo "Pierwsze uruchomienie: przygotowuję Pythona…"
-    python3 -m venv "$DIR/.venv" && "$DIR/.venv/bin/pip" install -q pillow requests || exit 1
+# what the stream imports (the site's build needs more; morfeusz2 the stream does not), checked on
+# every run, so a copy made by an older version of this script is put right
+[ -x "$DIR/.venv/bin/python" ] || python3 -m venv "$DIR/.venv" || exit 1
+if ! "$DIR/.venv/bin/python" -c "import PIL, requests, jinja2, numpy" 2>/dev/null; then
+    echo "Instaluję pakiety Pythona…"
+    "$DIR/.venv/bin/pip" install -q pillow requests jinja2 numpy || exit 1
 fi
 
 # the key, asked for once

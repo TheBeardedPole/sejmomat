@@ -42,7 +42,7 @@ say "Środowisko Pythona"
 # morfeusz2 is only needed to build the site: if it will not install, the stream's own packages
 if ! "$DIR/.venv/bin/pip" install -q -r "$DIR/requirements.txt"; then
     echo "pełna lista się nie zainstalowała; instaluję tylko to, czego potrzebuje transmisja"
-    "$DIR/.venv/bin/pip" install -q pillow requests
+    "$DIR/.venv/bin/pip" install -q pillow requests jinja2 numpy
 fi
 echo "ok"
 
