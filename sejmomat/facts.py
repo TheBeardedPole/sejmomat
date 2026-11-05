@@ -179,6 +179,29 @@ def facts(ctx, today=None):
     if q.get("mp_median") is not None:
         fact("Typowy poseł", q["mp_median"], "interpelacji i zapytań", f"Typowy poseł złożył w tej kadencji {q['mp_median']} interpelacji i zapytań.")
 
+    # ---- professions (as the MPs gave them; fields by sejmomat/professions.py)
+    from collections import Counter
+    from .professions import OTHER, UNKNOWN, field
+    named = [r for r in mps if (r["mp"].get("profession") or "").strip()]
+    if named:
+        top, n = Counter(r["mp"]["profession"].strip().lower() for r in named).most_common(1)[0]
+        fact("Najczęstszy zawód", n, f"posłów podaje zawód „{top}”", f"Najczęściej podawany zawód w Sejmie: {top}, {n} posłów.", topic="professions")
+        fields = Counter(field(r["mp"]["profession"]) for r in named)
+        big, n = next((f, k) for f, k in fields.most_common() if f not in (OTHER, UNKNOWN))
+        fact("Zawody w Sejmie", n, f"posłów: {big.lower()}", f"Najliczniejsza grupa zawodów w Sejmie: {big.lower()}, {n} posłów z {len(mps)}.", topic="professions")
+        # which club has the most of a profession everyone knows
+        for title, words, what in (("Kancelaria Sejm", r"prawni|adwokat|radc\w*\s+prawn|sędzi|prokurator|notariusz", "prawników"),
+                                   ("Przychodnia przy Wiejskiej", r"lekar", "lekarzy"),
+                                   ("Pokój nauczycielski", r"nauczyciel(?!\w*\s+akademick)|pedagog", "nauczycieli"),
+                                   ("Prosto z pola", r"rolni", "rolników")):
+            who = [r for r in named if re.search(words, r["mp"]["profession"], re.I)]
+            if len(who) < 3:
+                continue
+            by = Counter(r["mp"].get("club") or "niez." for r in who)
+            club, k = sorted(by.items(), key=lambda kv: (-kv[1], kv[0]))[0]
+            fact(title, len(who), f"{what} w Sejmie; najwięcej w {club}: {k}",
+                 f"{len(who)} {what} w Sejmie; najwięcej w klubie {club}: {k}.", None if club == "niez." else club, "professions")
+
     # ---- Top 5s, one after every TOP_EVERY other cards
     def top5(title, rows, key, show, text, topic, club=None):
         best = [r for r in sorted(rows, key=key, reverse=True)[:5]]
