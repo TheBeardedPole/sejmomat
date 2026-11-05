@@ -375,6 +375,29 @@ class Overlay:
             for i, line in enumerate(textwrap.wrap(card.get("text") or "", 54)[:3]):
                 d.text((24, 104 + i * 24), line, font=self.font(18), fill=(205, 212, 225))
             d.text((24, h - 58), card["url"], font=self.font(30, True), fill=YELLOW)
+        elif card["kind"] == "podium":
+            # the fantasy game's three leaders on a podium: first in the middle and highest
+            steps = card["places"][:3]
+            colours = [(240, 196, 64), (196, 204, 214), (205, 127, 50)]
+            heights = [86, 62, 44]
+            base_y, step_w = h - 46, 150
+            order = [1, 0, 2] if len(steps) >= 2 else [0]
+            for slot, i in enumerate(order):
+                if i >= len(steps):
+                    continue
+                x = width / 2 + (slot - 1) * (step_w + 10) - step_w / 2 if len(order) > 1 else width / 2 - step_w / 2
+                top = base_y - heights[i]
+                d.rounded_rectangle((x, top, x + step_w, base_y), 10, fill=colours[i] + (255,))
+                d.text((x + step_w / 2, top + 22), f"{i + 1}.", font=self.font(30, True), fill=(12, 20, 36), anchor="mm")
+                if heights[i] >= 60:
+                    d.text((x + step_w / 2, top + 54), f"{steps[i]['total']} pkt", font=self.font(19, True), fill=(12, 20, 36), anchor="mm")
+                nick = self.fit(steps[i]["nick"], self.font(21, True), step_w + 6)
+                d.text((x + step_w / 2, top - 30 if heights[i] < 60 else top - 16), nick, font=self.font(21, True), fill="white", anchor="mm")
+                if heights[i] < 60:   # the low step has no room inside: its points under the name
+                    d.text((x + step_w / 2, top - 10), f"{steps[i]['total']} pkt", font=self.font(16, True), fill=YELLOW, anchor="mm")
+            d.text((24, h - 22), card["url"], font=self.font(22, True), fill=YELLOW, anchor="lm")
+            if card.get("note"):
+                d.text((width - 24, h - 22), card["note"], font=self.font(14), fill=(170, 180, 196), anchor="rm")
         elif card["kind"] == "cloud":
             # an MP's word cloud: their name, then the words in centred lines, bigger and brighter
             # the more theirs, the biggest lines in the middle
@@ -586,7 +609,7 @@ class Overlay:
         base = self.card_base(card).copy()
         d = ImageDraw.Draw(base)
         width, h = base.size
-        if card["kind"] in ("promo", "cloud"):
+        if card["kind"] in ("promo", "cloud", "podium"):
             return self._shine(base, t, length)
         # the number counts up (numbers only; "99,1%" or "261:172" are shown as they are)
         value = card["value"]
@@ -830,6 +853,85 @@ class Overlay:
         if settled:
             self._cards[skey] = (base, x0, y0)
         return base, x0, y0
+
+    # where each position sits in the fantasy game's hall, as on the site (static/league.js SEATS):
+    # (distance from the rostrum, 0-1; angle, degrees)
+    LEAGUE_SEATS = {0: [(0.28, 135), (0.28, 45)], 2: [(0.62, 150), (0.62, 115)], 3: [(0.62, 65), (0.62, 30)],
+                    1: [(1, 122), (1, 58)], 4: [(1, 166)], 5: [(1, 14)]}
+
+    def league_hall(self, key, title, subtitle, seats, t, length):
+        """A squad of the fantasy game in the hall, as the site draws it: the benches, each MP at
+        their position's place with their photo, surname, points and position, the captain in
+        gold. seats: [{"mp", "name", "pos" (index), "label", "points", "captain"}]."""
+        x0, y0, x1, y1 = CMP_BOX
+        pw, ph = x1 - x0, y1 - y0
+        ck = ("league", key)
+        if ck not in self._cards:
+            for k in [k for k in self._cards if isinstance(k, tuple) and k[0] == "league"]:
+                del self._cards[k]   # one leader at a time
+            im = Image.new("RGBA", (pw, ph), (0, 0, 0, 0))
+            d = ImageDraw.Draw(im)
+            hall_top = 100
+            d.rounded_rectangle((0, 0, pw - 1, ph - 1), 24, fill=(18, 34, 61, 240))
+            for i in range(pw):   # the heading strip, the accent fading to the right
+                d.line((i, 0, i, 96), fill=mix((18, 34, 61), ACCENT, 0.9 * (1 - i / pw) ** 0.7) + (240,))
+            d.rectangle((0, 96, pw, 99), fill=YELLOW + (255,))
+            d.text((36, 30), title.upper(), font=self.font(32, True), fill="white")
+            d.text((pw - 36, 48), subtitle, font=self.font(18), fill=(215, 222, 235), anchor="rm")
+            # the benches: rows of dots in arcs round the rostrum
+            cx, cy = pw / 2, ph - 34
+            rx, ry = pw * 0.44, (ph - hall_top - 20) * 0.92
+            for r in (0.2, 0.32, 0.44, 0.56, 0.68, 0.8, 0.92, 1.04):
+                n = round(14 + r * 46)
+                for j in range(n + 1):
+                    a = math.pi * (0.02 + 0.96 * j / n)
+                    x, y = cx + math.cos(a) * r * rx, cy - math.sin(a) * r * ry
+                    if y > hall_top + 6:
+                        d.rounded_rectangle((x - 5, y - 4, x + 5, y + 4), 2, fill=(58, 91, 140, 150))
+            d.rounded_rectangle((cx - 60, ph - 30, cx + 60, ph - 8), 6, fill=(224, 183, 90, 255))
+            d.text((cx, ph - 19), "MÓWNICA", font=self.font(13, True), fill=(18, 34, 61), anchor="mm")
+            used = {}
+            for sdata in seats:
+                k = used[sdata["pos"]] = used.get(sdata["pos"], -1) + 1
+                r, a = (self.LEAGUE_SEATS.get(sdata["pos"]) or [(0.9, 90)] * 2)[min(k, 1)]
+                sx = cx + math.cos(math.radians(a)) * r * rx
+                sy = cy - math.sin(math.radians(a)) * r * ry
+                bw, bh = 132, 128
+                bx, by = sx - bw / 2, min(max(sy - bh / 2, hall_top + 6), ph - bh - 36)
+                gold = sdata.get("captain")
+                d.rounded_rectangle((bx, by, bx + bw, by + bh), 12, fill=(247, 248, 251, 255),
+                                    outline=(224, 183, 90, 255) if gold else None, width=4 if gold else 0)
+                photo = self.photo(sdata["mp"])
+                if photo:
+                    side = min(photo.width, photo.height)
+                    p = photo.crop(((photo.width - side) // 2, 0, (photo.width - side) // 2 + side, side)).resize((52, 52), Image.LANCZOS)
+                    mask = Image.new("L", (52, 52), 0)
+                    ImageDraw.Draw(mask).ellipse((0, 0, 51, 51), fill=255)
+                    im.paste(p, (round(sx - 26), round(by + 8)), mask)
+                else:
+                    d.ellipse((sx - 26, by + 8, sx + 26, by + 60), fill=(223, 227, 234))
+                surname = sdata["name"].split()[-1]
+                d.text((sx, by + 72), self.fit(surname, self.font(16, True), bw - 10), font=self.font(16, True), fill=(18, 34, 61), anchor="mm")
+                d.text((sx, by + 92), f"{sdata['points']} pkt", font=self.font(15, True), fill=ACCENT, anchor="mm")
+                lab = sdata["label"].upper()
+                fl = self.font(11, True)
+                lw = fl.getlength(lab)
+                d.rounded_rectangle((sx - lw / 2 - 7, by + 104, sx + lw / 2 + 7, by + 120), 8, fill=(231, 239, 251))
+                d.text((sx, by + 112), lab, font=fl, fill=ACCENT, anchor="mm")
+                if gold:
+                    d.ellipse((bx + bw - 22, by - 8, bx + bw + 6, by + 20), fill=(224, 183, 90), outline=(18, 34, 61), width=2)
+                    d.text((bx + bw - 8, by + 6), "C", font=self.font(14, True), fill=(18, 34, 61), anchor="mm")
+            self._cards[ck] = im
+        im = self._cards[ck]
+        if t < 0.5:
+            base = im.copy()
+            base.putalpha(base.getchannel("A").point(lambda v, k=clamp(t / 0.35): round(v * k)))
+            return base, x0, y0 + round((1 - ease_out_back(clamp(t / 0.5), 1.0)) * 40)
+        if t > length - 0.6:
+            base = im.copy()
+            base.putalpha(base.getchannel("A").point(lambda v, k=clamp((length - t) / 0.6): round(v * k)))
+            return base, x0, y0
+        return im, x0, y0
 
     def hall_scene(self, key, title, subtitle, seats, order, legend, t, length, badge=None, area=None, side=None, note=None):
         """The Sejm's chamber over the hall in a break: every seat (seats: [(x, y, colour)], x and

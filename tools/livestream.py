@@ -26,6 +26,7 @@ Sejm's terms for rebroadcasting its feed.
 import argparse
 import json
 import unicodedata
+from collections import Counter
 import os
 import random
 import re
@@ -388,6 +389,8 @@ LEAGUE_CARD_EVERY = 8                                   # …and one in this man
 LEAGUE_URL = "https://sejmomat.pl/srv/fantasy.php?a=leaders"   # the game's ranking (server/fantasy.php)
 LEAGUE_EVERY = 600                                      # seconds between looks at it
 LEAGUE_POSITIONS = ["Mówcy", "Buntownicy", "Lojaliści", "Klikacze", "Zwycięzca", "Opozycjonista"]   # game.json's positions, as a heading
+LEAGUE_DATA = "https://sejmomat.pl/api/v1/fantasy/"     # the game's data (sejmomat/fantasy.py): who scored what
+MP_STATS_EVERY = 1800                                   # the league's best MPs: at most once in this long, as a card and in a break
 PROMOS = [
     {"kind": "promo", "title": "Zagraj w Sejmdle", "headline": "Codzienne gry o Sejmie",
      "text": "Zgadnij posła, uzupełnij słowo z mównicy, rozpoznaj jak najwięcej twarzy w minutę.",
@@ -917,7 +920,42 @@ def main():
 
     # Sejmowa liga, the fantasy game (server/fantasy.php): its leaders, looked at every LEAGUE_EVERY
     # seconds, for a card now and then and a break's screen with the leading squad
-    league = {"data": None}
+    league = {"data": None, "best": [], "shown": {"card": 0.0, "screen": 0.0}}
+    break_best = {}   # a break's slot: the league's best MPs shown in it, or None
+
+    def best_mps():
+        """The league's best MPs: [(title, rows)] for the latest kolejka and the season, each MP by
+        their best position in each kolejka; one list while they are the same."""
+        def get(path):
+            with urllib.request.urlopen(LEAGUE_DATA + path, timeout=20) as r:
+                return json.load(r)
+        game = get("game.json")
+        played = game.get("played") or []
+        if not played:
+            return []
+        names, positions = game.get("mps", {}), game.get("positions", [])
+        season, latest = Counter(), None
+        for k in played:
+            pts = get(f"points/{k['id']}.json")
+            best = {mp: max(range(len(x["p"])), key=lambda i: x["p"][i]) for mp, x in pts["mps"].items()}
+            for mp, i in best.items():
+                season[mp] += pts["mps"][mp]["p"][i]
+            latest = (k, {mp: (pts["mps"][mp]["p"][i], positions[i] if i < len(positions) else "") for mp, i in best.items()})
+
+        def rows(scored):
+            return [{"mp": int(mp), "name": names.get(mp, [mp])[0], "club": (names.get(mp) or ["", "niez."])[1], "value": value}
+                    for mp, value in scored[:9]]
+        k, lat = latest
+        # the kolejka: the best MP in each position (many score the same capped most as a Buntownik)
+        pts_k = get(f"points/{k['id']}.json")["mps"]
+        per_pos = []
+        for i, pos in enumerate(positions):
+            mp = max(pts_k, key=lambda m: (pts_k[m]["p"][i], -int(m)))
+            per_pos.append((mp, f"{pts_k[mp]['p'][i]} pkt · {pos}"))
+        out = [(f"Sejmowa liga: najlepsi na {k.get('number') or ''}. posiedzeniu".replace(" .", ""), rows(per_pos))]
+        if len(played) > 1:
+            out.append(("Sejmowa liga: najlepsi posłowie sezonu", rows([(mp, f"{p} pkt") for mp, p in season.most_common()])))
+        return out
 
     def load_league():
         while True:
@@ -927,21 +965,30 @@ def main():
                 league["data"] = got if got.get("top") else None
             except Exception as e:
                 print(f"liga: nie wczytano rankingu ({e})", file=sys.stderr, flush=True)
+            try:
+                league["best"] = best_mps()
+            except Exception as e:
+                print(f"liga: nie wczytano punktów posłów ({e})", file=sys.stderr, flush=True)
             time.sleep(LEAGUE_EVERY)
+
+    def best_due(where, now_ts):
+        """The league's best MPs for a card or a break's screen, when MP_STATS_EVERY has passed
+        since that place last showed them; in turn, the kolejka's and the season's."""
+        if not league["best"] or now_ts - league["shown"][where] < MP_STATS_EVERY:
+            return None
+        league["shown"][where] = now_ts
+        i = league["shown"][f"{where}_n"] = league["shown"].get(f"{where}_n", -1) + 1
+        return league["best"][i % len(league["best"])]
     if not args.demo:
         threading.Thread(target=load_league, daemon=True).start()
 
     def league_card():
-        """The game's leaders as a card ("Sejmowa liga: 1. Nick 123 pkt …: sejmomat.pl/fantasy")."""
+        """The game's three leaders on a podium, with its address."""
         d = league["data"]
         if not d:
             return None
-        top = d["top"][:3]
-        return {"kind": "promo", "title": "Sejmowa liga",
-                "headline": f"Prowadzi {top[0]['nick']}: {top[0]['total']} pkt",
-                "text": " · ".join(f"{r['rank']}. {r['nick']} {r['total']} pkt" for r in top[1:]) +
-                        f"{' · ' if len(top) > 1 else ''}graczy: {d['players']}. Wybierz swoich posłów!",
-                "url": "sejmomat.pl/fantasy"}
+        return {"kind": "podium", "title": "Sejmowa liga: podium", "places": d["top"][:3], "url": "sejmomat.pl/fantasy",
+                "note": f"graczy: {d['players']}"}
 
     def league_scene(t, length):
         """A break's screen: the leading squad, a row per position with its MPs, the points they
@@ -952,16 +999,12 @@ def main():
             return None
         names = {m["id"]: m["name"] for m in load_mps(ROOT)} if not league.get("names") else league["names"]
         league["names"] = names
-        rows = []
-        for pos, heading in enumerate(LEAGUE_POSITIONS):
-            mine = [r for r in lead["rows"] if r["pos"] == pos]
-            if not mine:
-                continue
-            who = " · ".join(f"{names.get(r['mp'], r['mp'])}{' (C)' if r.get('captain') else ''}" for r in mine)
-            rows.append((str(sum(r["points"] for r in mine)), f"{heading}: {who}", "", "todo"))
-        last = f"punkty z {lead['number']}. posiedzenia" if lead.get("number") else "punkty z ostatniej kolejki"
-        sub = f"w sezonie {lead['total']} pkt · liczby: {last} · sejmomat.pl/fantasy"
-        return overlay.list_scene(f"Lider ligi: {lead['nick']}", sub, rows, t, length)
+        singular = ["Mówca", "Buntownik", "Lojalista", "Klikacz", "Zwycięzca", "Opozycjonista"]
+        seats = [{"mp": r["mp"], "name": names.get(r["mp"], str(r["mp"])), "pos": r["pos"], "points": r["points"],
+                  "captain": r.get("captain"), "label": singular[r["pos"]] if r["pos"] < len(singular) else ""} for r in lead["rows"]]
+        last = f"{lead['number']}. posiedzenie" if lead.get("number") else "ostatnia kolejka"
+        sub = f"w sezonie {lead['total']} pkt · punkty: {last} · sejmomat.pl/fantasy"
+        return overlay.league_hall((lead["nick"], lead["kolejka"], lead["total"]), f"Lider ligi: {lead['nick']}", sub, seats, t, length)
 
     def pick(slot, clock):
         """The card for a slot, chosen once: while an MP has been speaking a while (a longer
@@ -987,7 +1030,10 @@ def main():
                 i = turns["*"] = turns.get("*", -1) + 1
                 bill = bill_card(clock) if promos and i % BILL_CARD_EVERY == 2 else None
                 lead = league_card() if promos and not bill and i % LEAGUE_CARD_EVERY == 4 else None
-                if bill:
+                best = best_due("card", clock.timestamp()) if promos and not bill and not lead else None
+                if best:
+                    picks[slot] = {"kind": "top5", "title": best[0], "text": "sejmomat.pl/fantasy", "rows": best[1][:5]}
+                elif bill:
                     picks[slot] = bill
                 elif lead:
                     picks[slot] = lead
@@ -1336,6 +1382,14 @@ def main():
                 return overlay.frame_scene(votes_scene(shown, into, length), hhmm)
             if kind == 5 and hall and shown and ballots.get(shown[-1]["votingNumber"]):
                 return overlay.frame_scene(vote_hall(shown[-1], ballots[shown[-1]["votingNumber"]], into, length), hhmm)
+            if kind in (1, 6) and promos:
+                # chosen once for the whole slot (the timer would hide it after its first frame)
+                if slot not in break_best:
+                    break_best[slot] = best_due("screen", clock.timestamp())
+                best = break_best[slot]
+                if best:
+                    rows = [(f"{i}.", f"{r['name']} · {r['club']}", r["value"], "todo") for i, r in enumerate(best[1][:9], 1)]
+                    return overlay.frame_scene(overlay.list_scene(best[0], "punkty w grze · sejmomat.pl/fantasy", rows, into, length), hhmm)
             if kind == 7 and word_lists and (slot // 9) % 2 == 1:
                 return overlay.frame_scene(words_scene(word_lists[(slot // 18) % len(word_lists)], into, length), hhmm)
             k = (slot // 9) * 4 + {1: 0, 4: 1, 6: 2, 7: 3}.get(kind, 0)   # the comparisons' own count in the turns of nine

@@ -170,10 +170,12 @@
     try { return localStorage.getItem(VIEW_KEY) || (matchMedia("(max-width: 700px)").matches ? "list" : "hall"); } catch { return "hall"; }
   })();
   const surname = (name) => name.split(" ").slice(-1)[0];
-  const seat = (i, posIndex, open) => {
-    const s = draft.slots[i];
+  // a seat of the hall: the squad being made (src = draft), or another's played squad, read only,
+  // its MPs' points (pts) in place of their price
+  const seat = (i, posIndex, open, src = draft, pts = null) => {
+    const s = src.slots[i];
     const pos = POS()[posIndex];
-    const captain = s && draft.captain === i;
+    const captain = s && src.captain === i;
     const node = el("div", { className: `liga-seat${s ? "" : " empty"}${captain ? " captain" : ""}` });
     const label = el("span", { className: "liga-seat-pos", textContent: L.posNames[pos] });
     if (!s) {
@@ -185,6 +187,14 @@
     }
     const photo = el("img", { className: "liga-seat-photo", src: PHOTO.replace("{id}", s.mp), alt: "", loading: "lazy", width: 44, height: 44 });
     photo.addEventListener("error", () => photo.replaceWith(el("span", { className: "liga-seat-photo none", ariaHidden: "true" })), { once: true });
+    if (pts) {   // read only: name, club, the points they made (doubled for the captain)
+      node.append(el("div", { className: "liga-seat-main", title: `${nameOf(s.mp)} · ${clubName(clubOf(s.mp))}` },
+        photo, el("strong", { textContent: surname(nameOf(s.mp)) }),
+        el("span", { className: "liga-seat-meta", textContent: clubName(clubOf(s.mp)) }),
+        el("span", { className: "liga-seat-pts", textContent: `${pts[i]} ${L.pts}` }), label));
+      if (captain) node.append(el("span", { className: "liga-seat-cap on", textContent: "C", title: L.isCaptain, ariaLabel: L.isCaptain }));
+      return node;
+    }
     const main = el("button", { type: "button", className: "liga-seat-main", disabled: !open, title: `${nameOf(s.mp)} · ${clubName(clubOf(s.mp))} · ${L.change}` },
       photo, el("strong", { textContent: surname(nameOf(s.mp)) }),
       el("span", { className: "liga-seat-meta", textContent: `${clubName(clubOf(s.mp))} · ${fmt(price(s.mp, posIndex))}` }), label);
@@ -196,14 +206,14 @@
     node.append(main, cap);
     return node;
   };
-  const hall = (open) => {
-    const lay = layout();
+  const hall = (open, src = draft, pts = null) => {
+    const lay = src === draft ? layout() : src.slots.map((x) => x.pos);
     const used = {};
     const seats = lay.map((pi, i) => {
       const pos = POS()[pi];
       const k = used[pos] = (used[pos] ?? -1) + 1;
       const [r, a] = (SEATS[pos] || [])[k] || [0.92, 90];
-      const node = seat(i, pi, open);
+      const node = seat(i, pi, open, src, pts);
       node.style.left = `${CX + Math.cos((a * Math.PI) / 180) * r * RX}%`;
       node.style.top = `${CY - Math.sin((a * Math.PI) / 180) * r * RY}%`;
       return node;
@@ -411,9 +421,16 @@
       playerDlg.showModal();
       try {
         const p = await api(`player&id=${encodeURIComponent(r.id)}`);
+        // their latest kolejka in the hall, with each MP's points; every kolejka below, MP by MP
+        const latest = Object.entries(p.history || {}).sort((a, b) => b[0].localeCompare(a[0]))[0];
+        const h = latest && latest[1];
+        const view = h ? [el("p", { className: "liga-player-k" }, el("strong", { textContent: h.number ? L.kolejkaN.replace("{n}", h.number) : latest[0] }),
+                                ` · ${h.total} ${L.pts}`),
+                          hall(false, { slots: h.rows.map((r) => ({ mp: r.mp, pos: r.pos })), captain: h.rows.findIndex((r) => r.captain) },
+                               h.rows.map((r) => r.points))] : [];
         playerDlg.replaceChildren(head,
-          el("p", {}, L.playerLine.replace("{r}", p.rank).replace("{t}", p.total)),
-          historyBox(p.history, null, true) || el("p", { className: "muted", textContent: L.noKolejki }));
+          el("p", {}, L.playerLine.replace("{r}", p.rank).replace("{t}", p.total)), ...view,
+          historyBox(p.history, null, false) || el("p", { className: "muted", textContent: L.noKolejki }));
       } catch {
         playerDlg.replaceChildren(head, el("p", { className: "muted", textContent: L.failed }));
       }
