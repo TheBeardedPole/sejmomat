@@ -456,3 +456,62 @@ class Vocabulary:
         cloud = [(self.form(k), (score - low) / (high - low) if high > low else 1.0, self.all_forms(k))
                  for score, k in top]
         return sorted(cloud, key=lambda x: x[0])
+
+
+# ------------------------------------------------------------- government roles
+
+# Ministries as the papers abbreviate them; the transcripts give the full name
+# ("Sekretarz Stanu w Ministerstwie Obrony Narodowej", "Minister Zdrowia").
+MINISTRY = {
+    "Spraw Wewnętrznych i Administracji": "MSWiA", "Obrony Narodowej": "MON", "Finansów": "MF",
+    "Sprawiedliwości": "MS", "Zdrowia": "MZ", "Edukacji": "MEN", "Edukacji Narodowej": "MEN",
+    "Spraw Zagranicznych": "MSZ", "Rolnictwa i Rozwoju Wsi": "MRiRW", "Infrastruktury": "MI",
+    "Klimatu i Środowiska": "MKiŚ", "Kultury i Dziedzictwa Narodowego": "MKiDN",
+    "Rodziny, Pracy i Polityki Społecznej": "MRPiPS", "Cyfryzacji": "MC", "Aktywów Państwowych": "MAP",
+    "Nauki i Szkolnictwa Wyższego": "MNiSW", "Nauki": "MNiSW", "Rozwoju i Technologii": "MRiT",
+    "Funduszy i Polityki Regionalnej": "MFiPR", "Sportu i Turystyki": "MSiT", "Przemysłu": "MP",
+    "Energii": "ME", "Finansów i Gospodarki": "MFiG", "Gospodarki": "MG",
+}
+
+
+def _ministry(name):
+    name = name.strip().rstrip(".")
+    return MINISTRY.get(name) or "M" + "".join(w[0].upper() for w in name.split() if w[0].isupper())
+
+
+def gov_role(function):
+    """A government role as a short tag ("Premier", "Wicepremier · MON", "Minister · MZ",
+    "Wicemin. · MSWiA", "Wicemin. · KPRM", "KPRP"), or None for anything else (an MP, the
+    sitting's secretary)."""
+    f = re.sub(r"\s+", " ", function or "").strip()
+    if not f or f.startswith(("Poseł", "Sekretarz Poseł")):
+        return None
+    if f.startswith("Prezes Rady Ministrów"):
+        return "Premier"
+    if f.startswith("Wiceprezes Rady Ministrów"):
+        m = re.search(r"Minister (.+)$", f)
+        return f"Wicepremier · {_ministry(m[1])}" if m else "Wicepremier"
+    if re.match(r"(Pod)?[Ss]ekretarz [Ss]tanu w Kancelarii Prezesa Rady Ministrów", f):
+        return "Wicemin. · KPRM"
+    if m := re.match(r"(?:Pod)?[Ss]ekretarz [Ss]tanu w Ministerstwie (.+)$", f):
+        return f"Wicemin. · {_ministry(m[1])}"
+    if f.startswith(("Szef Kancelarii Prezydenta", "Sekretarz Stanu w Kancelarii Prezydenta", "Zastępca Szefa Kancelarii Prezydenta")):
+        return "KPRP"
+    if re.search(r"koordynator\w* służb", f, re.I):
+        return "Minister · koord. służb"
+    if re.match(r"Minister\s*[-–]\s*[Cc]złonek Rady Ministrów", f):
+        return "Minister"
+    if m := re.match(r"Minister (.+)$", f):
+        return f"Minister · {_ministry(m[1])}"
+    return None
+
+
+def gov_roles(days):
+    """{MP id: tag} for MPs whose latest speech was in a government role (gov_role); an MP whose
+    latest speech was as an MP has none. The sitting's secretary's lines do not count."""
+    latest = {}
+    for d in sorted(days, key=lambda d: d["date"]):
+        for st in d["statements"]:
+            if st.get("mp") and not (st.get("function") or "").startswith("Sekretarz Poseł"):
+                latest[st["mp"]] = st.get("function") or ""
+    return {mp: role for mp, f in latest.items() if (role := gov_role(f))}

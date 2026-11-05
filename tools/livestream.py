@@ -625,6 +625,7 @@ def main():
     # the words said most in the chamber (a break's list) and each MP's word cloud (while they speak)
     word_lists = [f for f in facts if f.get("kind") == "words" and f.get("rows")]
     clouds = next((f["clouds"] for f in facts if f.get("kind") == "mp_clouds"), {})
+    gov_roles = next((f["roles"] for f in facts if f.get("kind") == "mp_roles"), {})   # "Wicemin. · MON", beside the club
     mp_pool = next((f["mps"] for f in facts if f.get("kind") == "mp_pool"), [])
     mp_pairs = {}   # the pair drawn for a slot, kept for that slot (and its drawing cached by the overlay)
 
@@ -648,7 +649,7 @@ def main():
         return mp_pairs[slot]
     # Posłowie z regionu: each MP's constituency, shown while they speak (with their club's cards)
     region_of = {mp: f for f in facts if f.get("kind") == "region" for mp in f.get("mps", [])}
-    facts = [f for f in facts if not f.get("for_club") and f.get("kind") not in ("compare", "region", "mp_pool", "words", "mp_clouds")]
+    facts = [f for f in facts if not f.get("for_club") and f.get("kind") not in ("compare", "region", "mp_pool", "words", "mp_clouds", "mp_roles")]
     every, first, club_after, promos = FACT_EVERY, 0, CLUB_AFTER, PROMOS
     if args.demo:
         # the liveliest cards first, one after another, from the start of the recording
@@ -783,7 +784,7 @@ def main():
 
     def speaker_card(m):
         return {"kind": "mp", "mp": m["id"], "name": m["name"], "club": m.get("club") or "niez.", "title": "Na mównicy",
-                "district": district_of(m["id"]),
+                "district": district_of(m["id"]), "role": gov_roles.get(str(m["id"])),
                 "value": m.get("speeches") or 0, "unit": "wystąpień w kadencji",
                 "stats": [["frekwencja", f"{m.get('turnout', 0) * 100:.1f}%".replace(".", ",")],
                           ["wyłamania", str(m.get("brokeLine", 0))], ["interpelacje", str(m.get("questions", 0))],
@@ -1540,7 +1541,8 @@ def main():
                     if into < length:
                         card = overlay.card(c, into, length)
                         showing["until"] = begun + length
-        return overlay.frame(item, topic, vote, panel, card, chip, note, clock=f"{clock:%H:%M}", chair=chair_now["text"], mini=mini)
+        role = sp.get("role") if speaking and sp and not sp.get("custom") else None
+        return overlay.frame(item, topic, vote, panel, card, chip, note, clock=f"{clock:%H:%M}", chair=chair_now["text"], mini=mini, role=role)
 
     if args.fast and args.out in ("preview", "rtmp"):
         sys.exit("--fast is for a file.")

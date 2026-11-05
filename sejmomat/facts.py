@@ -289,6 +289,10 @@ def words_cards(ctx, mps):
               for r in mps if len((r.get("speeches") or {}).get("cloud", [])) >= 8}
     if clouds:
         out.append({"kind": "mp_clouds", "topic": "clouds", "title": "Słowa posłów", "clouds": clouds})
+    # MPs in the government: a tag beside their club ("Wicemin. · MON"), from their latest speech's role
+    if ctx.get("gov_roles"):
+        out.append({"kind": "mp_roles", "topic": "roles", "title": "Posłowie w rządzie",
+                     "roles": {str(mp): role for mp, role in ctx["gov_roles"].items()}})
     return out
 
 

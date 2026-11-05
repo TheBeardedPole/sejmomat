@@ -69,9 +69,10 @@ def pill(d, x, cy, text, font, fill, fg="white", h=None, outline=None):
     return x + w + 2 * pad
 
 
-def club_chip(d, x, cy, club, font, tag_font, now=None):
-    """A club's pill in its colour, then a "Koalicja"/"Opozycja" one, then, for a past day when
-    the MP has since moved, "(obecnie: <club>)", all centred on cy; returns where they end."""
+def club_chip(d, x, cy, club, font, tag_font, now=None, role=None):
+    """A club's pill in its colour, then a "Koalicja"/"Opozycja" one, then an MP's government role
+    ("Wicemin. · MON"), then, for a past day when the MP has since moved, "(obecnie: <club>)", all
+    centred on cy; returns where they end."""
     h = round(font.size * 1.6)
     end = pill(d, x, cy, club, font, club_colour(club) + (255,), h=h)
     s_ = side(club)
@@ -80,6 +81,9 @@ def club_chip(d, x, cy, club, font, tag_font, now=None):
         end = pill(d, end + 8, cy, s_.upper(), tag_font, (255, 255, 255, 255) if coalition else OPPOSITION_PILL + (255,),
                    fg=(12, 20, 36) if coalition else "white", h=h,
                    outline=None if coalition else (150, 162, 186, 255))
+    if role:
+        h_ = round(font.size * 1.6)
+        end = pill(d, end + 8, cy, role.upper(), tag_font, (224, 183, 90, 255), fg=(12, 20, 36), h=h_)
     if now:
         note = f"(obecnie: {now})"
         d.text((end + 10, cy), note, font=font, fill=LIGHT_BLUE, anchor="lm")
@@ -178,11 +182,11 @@ class Overlay:
             out.append(self.fit(" ".join(words), font, width))
         return out
 
-    def base(self, item, topic, vote, chip=None, note=None, chair=None):
+    def base(self, item, topic, vote, chip=None, note=None, chair=None, role=None):
         """A lower third in the bottom left, in the cards' style: a strip with what is on
         ("Punkt 17", "Na mównicy"), then the headline (the item, or the speaker with their
         club's chip), the topic and the vote. chip: the speaker's club."""
-        key = (item, topic, vote, chip, note, chair)
+        key = (item, topic, vote, chip, note, chair, role)
         if self._base[0] == key:
             return self._base[1]
         self._marquee = []   # lines too long for the box: they scroll (frame), not drawn here
@@ -201,7 +205,7 @@ class Overlay:
         tags = 0
         if chip:
             # the chip and tag, drawn off-image first to measure them
-            tags = club_chip(ImageDraw.Draw(Image.new("RGBA", (600, 40))), 0, 20, chip, self.font(16, True), self.font(13, True), note) + 16
+            tags = club_chip(ImageDraw.Draw(Image.new("RGBA", (900, 40))), 0, 20, chip, self.font(16, True), self.font(13, True), note, role) + 16
         want = max([f_head.getlength(headline) + tags] + [f.getlength(t) for t, f, _ in lines])
         f_chair = self.font(13, True)
         if chair:   # the strip holds the kicker and, at its right end, who runs the sitting
@@ -244,7 +248,7 @@ class Overlay:
             # on the name's line, centred on its capitals, a little apart from it
             cap = f_head.getbbox("H")
             club_chip(b, pad + round(f_head.getlength(heads[0])) + 16, top + (cap[1] + cap[3]) / 2, chip,
-                      self.font(16, True), self.font(13, True), note)
+                      self.font(16, True), self.font(13, True), note, role)
         y += 2
         for text, f, c in lines:
             if f.getlength(text) <= inner:
@@ -458,7 +462,7 @@ class Overlay:
             d.text((x0, 58), name, font=f_name, fill="white")
             low = f_name.getbbox("gjpyŁ")[3]   # the name's lowest ink
             cy = 58 + low + 12 + 13
-            club_chip(d, x0, cy, card["club"], self.font(16, True), self.font(13, True), card.get("now"))
+            club_chip(d, x0, cy, card["club"], self.font(16, True), self.font(13, True), card.get("now"), card.get("role"))
             # the constituency on a line of its own under the chip, its number and town whole
             if card.get("district"):
                 f_d = self.font(17)
@@ -1215,14 +1219,14 @@ class Overlay:
             base.putalpha(base.getchannel("A").point(lambda v, k=clamp((length - t) / 0.6): round(v * k)))
         return base, x0, y0
 
-    def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None, clock=None, chair=None, mini=None):
+    def frame(self, item, topic, vote, panel=None, card=None, chip=None, note=None, clock=None, chair=None, mini=None, role=None):
         """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes.
         Most frames are the same as the one before (nothing moves): those are not redrawn."""
         which = None if card is None else next((k for k, c in self._stills.items() if c[1] is card), False)
-        base = self.base(item, topic, vote, chip, note, chair)
+        base = self.base(item, topic, vote, chip, note, chair, role)
         # a line too long for the bar scrolls: MARQUEE_SPEED pixels a second, so these frames all differ
         offset = int(time.monotonic() * MARQUEE_SPEED) if self._marquee else None
-        key = ((item, topic, vote, chip, note, clock, chair), panel and (panel[0], tuple(panel[1])), which,
+        key = ((item, topic, vote, chip, note, clock, chair, role), panel and (panel[0], tuple(panel[1])), which,
                mini and (id(mini[0]), mini[1], mini[2]), offset) if which is not False else None
         if key is not None and self._last[0] == key:
             return self._last[1]
