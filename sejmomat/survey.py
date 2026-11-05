@@ -21,8 +21,12 @@ from .config import CACHE as _CACHE, DATA
 CACHE = _CACHE / "konsultacje"   # not committed
 PATH = DATA / "survey.json"
 
-_Q = re.compile(r"^\f?Pytanie\s+(\d+)\.(?:\s|$)")   # at the line's start (the table's header is indented)
-_ROW = re.compile(r"^\s*(wybrano\s+[0-5]|Tak|Nie|[Bb]rak\s+odpowiedzi|Siebie|Podmiot\s+inny\s+niż\s+osoba\s+prawna|Osobę\s+prawną)\b")
+_Q = re.compile(r"^\f?Pytanie\s+(\d+)\.?(?:\s|$)")   # at the line's start (the table's header is indented)
+# a table's header; older reports say "Kobieta Mężczyzna Suma", newer "Kobiety Mężczyźni Ogółem"
+_HEAD = re.compile(r"Kobiet[ya]\s+Mężczy(?:źni|zna)\s+(?:Ogółem|Suma)")
+# an answer's row; a chart's label may come before it on the line
+_ROW = re.compile(r"(?:^|\s{2,}|\)\s+)(wybrano\s+[0-5]|Tak|Nie|[Bb]rak\s+odpowiedzi|Siebie|Podmiot\s+inny\s+niż\s+osoba\s+prawna|Osobę\s+prawną)\b")
+_TOTAL = re.compile(r"(?:^|\s{2,})(?:Ogółem|Suma)\b")
 
 
 def _total_at(line, col):
@@ -46,26 +50,26 @@ def parse(text):
             continue
         n = int(m[1])
         words, j = [], i + 1
-        while j < len(lines) and lines[j].strip() and not lines[j].lstrip().startswith("Odpowiedzi w skali"):
+        while j < len(lines) and lines[j].strip() and not lines[j].lstrip().startswith(("Odpowiedzi w skali", "Odpowiedzi:")):
             words.append(lines[j].strip())
             j += 1
         scale = j < len(lines) and lines[j].lstrip().startswith("Odpowiedzi w skali")
         # the table's header: "… Kobiety Mężczyźni Ogółem" (chart labels may follow on the line)
-        while j < len(lines) and not _Q.match(lines[j]) and not re.search(r"Kobiety\s+Mężczyźni\s+Ogółem", lines[j]):
+        while j < len(lines) and not _Q.match(lines[j]) and not _HEAD.search(lines[j]):
             j += 1
         if j >= len(lines) or _Q.match(lines[j]):
             i = j
             continue
-        col = lines[j].index("Ogółem") + len("Ogółem")
+        col = _HEAD.search(lines[j]).end()
         answers = {}
         j += 1
         while j < len(lines) and not _Q.match(lines[j]):
             s = lines[j]
-            if re.match(r"^\s*Ogółem\b", s):
+            if _TOTAL.search(s) and _total_at(s, col) is not None:
                 total = _total_at(s, col)
                 respondents = respondents or total
                 break
-            r = _ROW.match(s)
+            r = _ROW.search(s)
             if r:
                 count = _total_at(s, col)
                 if count is not None:
