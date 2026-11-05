@@ -13,7 +13,7 @@
   {% for att in meta.attachments or [] %} · <a href="{{ pdf_url(num, att) }}">{{ att }}</a>{% endfor %}
 </p>
 
-{{ osr_sections(osr, num, root, printed) }}
+{{ osr_sections(osr, num, root, printed, [], sejm_consult) }}
 
 {% if law %}
 <h2 id="prawo">{{ _("Zmiany w obowiązującym prawie") }}</h2>

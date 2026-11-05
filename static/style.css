@@ -934,3 +934,12 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .timetable tr.is-past td { color: var(--muted); }
 .timetable .now-tag { margin-left: 8px; padding: 1px 8px; border-radius: 99px; background: var(--accent); color: var(--on-accent, #fff);
   font-size: .75rem; font-weight: 700; white-space: nowrap; }
+
+/* the Sejm's consultation survey on bill pages (templates/_macros.html osr_sections) */
+.survey-q { margin: 10px 0 14px; max-width: 640px; }
+.survey-q .survey-text { margin: 0 0 4px; font-weight: 600; }
+.survey-bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; background: var(--line, #ddd); }
+.survey-bar span { display: block; height: 100%; }
+.survey-bar .v-Y { background: var(--y); } .survey-bar .v-N { background: var(--n); }
+.survey-bar .v-A { background: var(--a); } .survey-bar .v-X { background: var(--x); }
+.survey-q .note { margin: 4px 0 0; }

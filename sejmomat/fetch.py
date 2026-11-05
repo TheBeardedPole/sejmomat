@@ -114,6 +114,21 @@ def fetch_rcl():
     print(f"rcl: {sum(1 for v in known.values() if v)} government bills with an RCL number, {len(todo)} asked")
 
 
+def fetch_consultations():
+    """The Sejm's own public consultations ("konsultacje społeczne", an online survey run for bills
+    from MPs, committees, citizens, and some from the Senate and the President; government bills are
+    consulted before they reach the Sejm): {print number: {"number", "start", "end", "results"}}, from
+    the API's bill list, one request. The results are a file on sejm.gov.pl, which turns automated
+    requests away, so it is only linked (build.consultation_url)."""
+    keep = {}
+    for b in api.get("bills?limit=5000") or []:
+        if b.get("publicConsultation") and b.get("print"):
+            keep[b["print"]] = {"number": b["number"], "start": b.get("publicConsultationStartDate"),
+                                "end": b.get("publicConsultationEndDate"), "results": bool(b.get("consultationResults"))}
+    _write_json(DATA / "consultations.json", keep)
+    print(f"consultations: {len(keep)} bills consulted in the Sejm, {sum(v['results'] for v in keep.values())} with results")
+
+
 def _referenced_prints():
     """(print numbers to fetch, of which probed candidates).
 
@@ -400,6 +415,10 @@ def run():
         fetch_rcl()
     except Exception as e:  # a link per bill; not worth failing the update for
         print(f"rcl: not updated ({e})")
+    try:
+        fetch_consultations()
+    except Exception as e:  # dates and a link per bill; as the RCL link
+        print(f"consultations: not updated ({e})")
     try:
         committees.fetch()
     except Exception as e:  # as the calendar

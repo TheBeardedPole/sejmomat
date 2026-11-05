@@ -937,6 +937,14 @@ EN = {
         "From the Regulatory Impact Assessment, the part on the scope, length and results of consultations. The full comments and the government's replies are in the consultation report, usually attached to the print.",
     "Opinie, które wpłynęły do Sejmu": "Opinions received by the Sejm",
     "stanowisko rządu": "the government's position",
+    "Konsultacje społeczne w Sejmie (ankieta dla każdego)": "Public consultation in the Sejm (a survey open to everyone)",
+    "wyniki ankiety (PDF)": "survey results (PDF)",
+    "W ankiecie Sejmu odpowiedziało": "Respondents to the Sejm's survey:", "osoba": "person", "osoby": "people", "osób": "people",
+    "za": "for", "bez zdania": "no view", "przeciw": "against",
+    "za (4–5)": "for (4–5)", "bez zdania (3)": "no view (3)", "przeciw (1–2)": "against (1–2)", "brak odpowiedzi": "no answer",
+    "Kto odpowiada w ankiecie?": "Who answers the survey?",
+    "Ankietę Sejmu może wypełnić każdy, kto zechce; to nie jest sondaż reprezentatywny. Odpowiedzi w skali od 1 (zdecydowany brak zgody) do 5 (zdecydowana zgoda).":
+        "Anyone who wishes can fill in the Sejm's survey; it is not a representative poll. Answers on a scale from 1 (strongly disagree) to 5 (strongly agree).",
 }
 
 

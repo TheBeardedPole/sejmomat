@@ -115,7 +115,7 @@
 
 {# A government bill's own account of itself (sejmomat/osr.py, from its OSR): the problem it solves,
    and the consultations before it reached the Sejm; `opinions`: the opinions the Sejm received. #}
-{% macro osr_sections(o, num, root, printed, opinions=[]) -%}
+{% macro osr_sections(o, num, root, printed, opinions=[], sejm=none) -%}
 {% if o and o.summary %}
 <h2 id="cel">{{ _("Cel projektu") }}</h2>
 <p class="muted">{{ _("Jak rząd opisuje problem i swoje rozwiązanie (Ocena Skutków Regulacji w") }} {{ print_link(num, root, printed, "tekst", _("druku nr") ~ " " ~ num) }}):</p>
@@ -129,8 +129,24 @@
 <p class="note">{{ _("Tekst rządu wyodrębniony automatycznie z druku; wiążący jest oficjalny druk.") }}</p>
 {% endcall %}
 {% endif %}
-{% if (o and o.consult) or opinions %}
+{% if (o and o.consult) or opinions or sejm %}
 <h2 id="konsultacje">{{ _("Konsultacje i opinie") }}</h2>
+{% if sejm %}
+<p>{{ _("Konsultacje społeczne w Sejmie (ankieta dla każdego)") }}: {{ sejm.start | date_pl }} – {{ sejm.end | date_pl }}{% if sejm.results %} · <a href="{{ consultation_url(sejm.number) }}" target="_blank" rel="noopener">{{ _("wyniki ankiety (PDF)") }}</a>{% endif %}</p>
+{% if sejm.survey %}{% set sv = sejm.survey %}
+<p>{{ _("W ankiecie Sejmu odpowiedziało") }} {{ sv.respondents }} {{ sv.respondents | plural(_("osoba"), _("osoby"), _("osób")) }}:</p>
+{% for q in [sv.needed, sv.accepted] if q %}
+<div class="survey-q">
+  <p class="survey-text" lang="pl">{{ q.text }}</p>
+  <div class="survey-bar" role="img" aria-label="{{ _('za') }} {{ q.for }}, {{ _('bez zdania') }} {{ q.neutral }}, {{ _('przeciw') }} {{ q.against }}">
+    {% for k, cls in [("for", "v-Y"), ("neutral", "v-A"), ("against", "v-N"), ("none", "v-X")] if q[k] %}<span class="{{ cls }}" style="width:{{ (100 * q[k] / q.total) | round(1) }}%"></span>{% endfor %}
+  </div>
+  <p class="note">{{ _("za (4–5)") }} {{ q.for }} · {{ _("bez zdania (3)") }} {{ q.neutral }} · {{ _("przeciw (1–2)") }} {{ q.against }}{% if q.none %} · {{ _("brak odpowiedzi") }} {{ q.none }}{% endif %}</p>
+</div>
+{% endfor %}
+{% call how(_("Kto odpowiada w ankiecie?")) %}<p>{{ _("Ankietę Sejmu może wypełnić każdy, kto zechce; to nie jest sondaż reprezentatywny. Odpowiedzi w skali od 1 (zdecydowany brak zgody) do 5 (zdecydowana zgoda).") }}</p>{% endcall %}
+{% endif %}
+{% endif %}
 {% if o and o.consult %}
 {% if o.status == "skipped" %}<p><span class="badge warn">{{ _("Bez konsultacji publicznych") }}</span> {{ _("Rząd nie przeprowadził konsultacji publicznych tego projektu.") }}</p>
 {% elif o.days %}<p>{{ _("Konsultacje publiczne w rządzie trwały") }} {{ o.days }} {{ o.days | plural(_("dzień"), _("dni"), _("dni")) }}.</p>
