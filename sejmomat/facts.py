@@ -260,7 +260,85 @@ def facts(ctx, today=None):
     groups = [[c for c in out if c["kind"] == "mp"], [c for c in out if c["kind"] == "fact" and not c.get("stats")],
               [c for c in out if c["kind"] == "fact" and c.get("stats")]]
     mixed = [c for row in zip_longest(*groups) for c in row if c]
-    return spread(mixed, tops) + per_club + comparisons(ctx, mps) + regions(mps)
+    return spread(mixed, tops) + per_club + comparisons(ctx, mps) + regions(mps) + words_cards(ctx, mps) + antitheses(ctx, mps)
+
+
+# Words that are the chamber's trade rather than its subjects ("ustawa", "projekt"): left out of
+# the "most said" lists, which would otherwise open with them every time.
+PROCEDURE = set("""ustawa projekt poprawka komisja sprawa punkt głosowanie druk artykuł przepis
+pytanie odpowiedź wniosek rząd minister ministerstwo klub posiedzenie czytanie sprawozdanie
+rok czas dzień dotyczyć jeden dwa trzy pierwszy drugi rzecz kwestia przypadek miejsce strona
+mieć dać sprawić zostać możliwość""".split())
+
+
+def words_cards(ctx, mps):
+    """For the stream: the words said most in the chamber, over the term and at the latest
+    sitting ({"kind": "words", "title", "sub", "rows": [[word, count]]}, a break's list), and each
+    MP's word cloud ({"kind": "mp_clouds", "clouds": {mp: [[word, weight 0-1], …]}}: the words they
+    use markedly more than the chamber, sejmomat/speeches.py, shown while they speak)."""
+    out = []
+    top = ctx.get("top_words") or {}
+    keep = lambda rows: [[w, c] for w, c in rows if w not in PROCEDURE][:9]   # noqa: E731
+    if top.get("term"):
+        out.append({"kind": "words", "topic": "words", "title": "Najczęściej padające słowa",
+                    "sub": "na sali przez całą kadencję", "rows": keep(top["term"])})
+    if top.get("sitting_words"):
+        out.append({"kind": "words", "topic": "words", "title": "Najczęściej padające słowa",
+                    "sub": f"na sali na {top['sitting']}. posiedzeniu", "rows": keep(top["sitting_words"])})
+    clouds = {r["mp"]["id"]: [[w, round(weight, 2)] for w, weight, _ in (r.get("speeches") or {}).get("cloud", [])][:24]
+              for r in mps if len((r.get("speeches") or {}).get("cloud", [])) >= 8}
+    if clouds:
+        out.append({"kind": "mp_clouds", "topic": "clouds", "title": "Słowa posłów", "clouds": clouds})
+    return out
+
+
+def antitheses(ctx, mps, n=8, min_share=0.5):
+    """"Antyteza": pairs of MPs who vote most unlike each other, side by side with their figures
+    (a break's comparison, as mp_compare). Agreement: of the votes both cast "za" or "przeciw",
+    the share where they chose the same; MPs in office who voted in at least `min_share` of the
+    votes they could; each MP in one pair at most, the most opposed first."""
+    import numpy as np
+    from .stats import COALITION
+    rows = [r for r in mps if r["eligible"] and r["turnout"] >= min_share]
+    index = {r["mp"]["id"]: i for i, r in enumerate(rows)}
+    votes = list(ctx["by_id"].values())
+    yes = np.zeros((len(rows), len(votes)), dtype=np.float32)
+    no = np.zeros_like(yes)
+    for j, v in enumerate(votes):
+        for groups in (v.get("ballots") or {}).values():
+            for code, ids in groups.items():
+                target = yes if code == "Y" else no if code == "N" else None
+                if target is None:
+                    continue
+                for mp in ids:
+                    i = index.get(mp)
+                    if i is not None:
+                        target[i, j] = 1
+    same = yes @ yes.T + no @ no.T
+    both = (yes + no) @ (yes + no).T
+    with np.errstate(invalid="ignore", divide="ignore"):
+        rate = np.where(both >= 200, same / both, np.nan)
+    np.fill_diagonal(rate, np.nan)
+    order = np.dstack(np.unravel_index(np.argsort(np.nan_to_num(rate, nan=2.0), axis=None), rate.shape))[0]
+    tag = lambda club: "Koalicja" if club in COALITION else "Opozycja"   # noqa: E731
+    used, out = set(), []
+    for a, b in order:
+        if len(out) >= n or np.isnan(rate[a, b]):
+            break
+        if a >= b or a in used or b in used:
+            continue
+        used |= {a, b}
+        ra, rb = rows[a], rows[b]
+        side = lambda r: {"id": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club") or "niez.",   # noqa: E731
+                          "tag": tag(r["mp"].get("club")), "num": r["mp"].get("districtNum"), "district": r["mp"].get("districtName") or "",
+                          "speeches": _speeches(r), "questions": len(r["questions"]), "turnout": r["turnout"],
+                          "votes": r["mp"].get("numberOfVotes") or 0, "adopted": r["signed_adopted"], "rebels": r["rebel_count"]}
+        card = mp_compare(side(ra), side(rb))
+        card.update(topic="antyteza", title="Antyteza",
+                    headline=f"Antyteza: głosują tak samo tylko w {pct(float(rate[a, b]))} głosowań",
+                    sub=f"Najbardziej różni w głosowaniach · {int(both[a, b])} wspólnych głosowań · cała kadencja")
+        out.append(card)
+    return out
 
 
 def regions(mps):

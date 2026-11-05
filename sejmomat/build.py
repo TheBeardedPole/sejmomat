@@ -301,6 +301,20 @@ def build_context():
     for d in days:
         statements_of[d["sitting"]] += [{"point": st.get("point"), "prints": st.get("prints"), "agenda": st.get("agenda")}
                                          for st in d["statements"]]
+    # the words said most in the chamber (the stream's break screens, sejmomat/facts.py): over the
+    # term, and at the latest sitting with transcripts; by dictionary form, function words left out
+    def most_said(texts, n=40):
+        counts = Counter()
+        for text in texts:
+            for w in speeches.words(text):
+                k = vocabulary.key.get(w)
+                if k:
+                    counts[k] += 1
+        return [(vocabulary.form(k), c) for k, c in counts.most_common(n)]
+    last_sitting = max((d["sitting"] for d in days if d.get("sitting")), default=None)
+    top_words = {"term": [(vocabulary.form(k), c) for k, c in sorted(vocabulary.counts.items(), key=lambda kv: -kv[1])[:40]],
+                 "sitting": last_sitting,
+                 "sitting_words": most_said(st["text"] for d in days if d.get("sitting") == last_sitting for st in d["statements"])}
     del days
 
     def speech_figures(items):
@@ -460,7 +474,7 @@ def build_context():
     total = sum(1 for v in by_id.values() for a in v["amendments"])
     return {
         "mps": mps, "clubs": clubs, "sittings": sittings, "by_id": by_id,
-        "mp_rows": mp_rows, "mp_by_id": {r["mp"]["id"]: r for r in mp_rows},
+        "mp_rows": mp_rows, "mp_by_id": {r["mp"]["id"]: r for r in mp_rows}, "top_words": top_words,
         "club_rows": club_rows, "club_slug": club_slug,
         "adopted": adopted, "proposers": proposers, "mp_proposers": mp_proposers,
         "by_proposer": by_proposer,

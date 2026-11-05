@@ -609,7 +609,13 @@ def main():
         pool.sort(key=lambda f: f.get("kind") != "top5")   # its Top 5s first, then the club's card
     # the comparisons, for breaks only: clubs and MPs taking turns
     # clubs from the list; MPs drawn at random each time from the pool (sejmomat/facts.py, mp_compare)
-    compares = [f for f in facts if f.get("kind") == "compare" and f.get("topic") == "clubs"]
+    # clubs against clubs and, in between, "Antyteza": the MPs who vote most unlike each other
+    clubs_cmp = [f for f in facts if f.get("kind") == "compare" and f.get("topic") == "clubs"]
+    anti = [f for f in facts if f.get("kind") == "compare" and f.get("topic") == "antyteza"]
+    compares = [c for pair in zip_longest(clubs_cmp, anti) for c in pair if c]
+    # the words said most in the chamber (a break's list) and each MP's word cloud (while they speak)
+    word_lists = [f for f in facts if f.get("kind") == "words" and f.get("rows")]
+    clouds = next((f["clouds"] for f in facts if f.get("kind") == "mp_clouds"), {})
     mp_pool = next((f["mps"] for f in facts if f.get("kind") == "mp_pool"), [])
     mp_pairs = {}   # the pair drawn for a slot, kept for that slot (and its drawing cached by the overlay)
 
@@ -633,7 +639,7 @@ def main():
         return mp_pairs[slot]
     # Posłowie z regionu: each MP's constituency, shown while they speak (with their club's cards)
     region_of = {mp: f for f in facts if f.get("kind") == "region" for mp in f.get("mps", [])}
-    facts = [f for f in facts if not f.get("for_club") and f.get("kind") not in ("compare", "region", "mp_pool")]
+    facts = [f for f in facts if not f.get("for_club") and f.get("kind") not in ("compare", "region", "mp_pool", "words", "mp_clouds")]
     every, first, club_after, promos = FACT_EVERY, 0, CLUB_AFTER, PROMOS
     if args.demo:
         # the liveliest cards first, one after another, from the start of the recording
@@ -914,9 +920,14 @@ def main():
             region = region_of.get(sp.get("mp")) if sp else None
             pool = by_club.get(sp["club"]) if sp else None
             speaking = sp and club_after <= (clock - at).total_seconds() < SPEAKER_BAR and not (speaker["until"] and clock > speaker["until"])
+            cloud = clouds.get(str(sp.get("mp"))) if sp else None
             if speaking and region and ("region", at) not in turns:
                 turns[("region", at)] = True
                 picks[slot] = region
+            elif speaking and cloud and ("cloud", at) not in turns:
+                turns[("cloud", at)] = True
+                picks[slot] = {"kind": "cloud", "title": "Ulubione słowa", "mp": sp["mp"], "name": sp["name"], "club": sp["club"],
+                               "words": cloud, "note": "częściej niż reszta sali · cała kadencja"}
             elif speaking and pool:
                 i = turns[sp["club"]] = turns.get(sp["club"], -1) + 1
                 picks[slot] = pool[i % len(pool)]
@@ -1204,6 +1215,11 @@ def main():
             sub += f" · strona {page + 1}/{len(pages)}"
         return overlay.list_scene("Porządek obrad", sub, pages[page], t, length, rows_t=t % per if len(pages) > 1 else t)
 
+    def words_scene(card, t, length):
+        """Najczęściej padające słowa: the chamber's most said words, how many times each."""
+        rows = [(f"{i}.", word, f"{count:,} razy".replace(",", " "), "todo") for i, (word, count) in enumerate(card["rows"][:9], 1)]
+        return overlay.list_scene(card["title"], card["sub"], rows, t, length)
+
     def votes_scene(shown, t, length):
         """Głosowania: today's latest, with what was decided, and the day's count."""
         today = [v for v in shown if v["date"][:10] == shown[-1]["date"][:10]]
@@ -1261,6 +1277,8 @@ def main():
                 return overlay.frame_scene(votes_scene(shown, into, length), hhmm)
             if kind == 5 and hall and shown and ballots.get(shown[-1]["votingNumber"]):
                 return overlay.frame_scene(vote_hall(shown[-1], ballots[shown[-1]["votingNumber"]], into, length), hhmm)
+            if kind == 7 and word_lists and (slot // 9) % 2 == 1:
+                return overlay.frame_scene(words_scene(word_lists[(slot // 18) % len(word_lists)], into, length), hhmm)
             k = (slot // 9) * 4 + {1: 0, 4: 1, 6: 2, 7: 3}.get(kind, 0)   # the comparisons' own count in the turns of nine
             # clubs and a random pair of MPs taking turns
             c = mp_pair((on_break[0], slot)) if (k % 2 or not compares) and mp_pool else None   # a new pair each break

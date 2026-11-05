@@ -375,6 +375,44 @@ class Overlay:
             for i, line in enumerate(textwrap.wrap(card.get("text") or "", 54)[:3]):
                 d.text((24, 104 + i * 24), line, font=self.font(18), fill=(205, 212, 225))
             d.text((24, h - 58), card["url"], font=self.font(30, True), fill=YELLOW)
+        elif card["kind"] == "cloud":
+            # an MP's word cloud: their name, then the words in centred lines, bigger and brighter
+            # the more theirs, the biggest lines in the middle
+            d.text((24, 58), card["name"], font=self.font(24, True), fill="white")
+            # their 16 most characteristic words of 4 letters or more ("co" and the like say nothing)
+            words = sorted((w for w in card["words"] if len(w[0]) >= 4), key=lambda w: -w[1])[:16]
+            hi = max((k for _, k in words), default=1) or 1
+            styled = [(w, self.font(round(18 + 22 * (k / hi)), k / hi >= 0.45), YELLOW if k / hi >= 0.66 else (240, 242, 248) if k / hi >= 0.2 else (175, 185, 200))
+                      for w, k in words]
+            left, right, top, bottom = 24, width - 24, 100, h - 40
+            lines, line, used = [], [], 0
+            for w, f, c in styled:
+                wide = f.getlength(w)
+                if line and used + 18 + wide > right - left:
+                    lines.append(line)
+                    line, used = [], 0
+                line.append((w, f, c, wide))
+                used += (18 if len(line) > 1 else 0) + wide
+            if line:
+                lines.append(line)
+            heights = [max(f.size for _, f, _, _ in ln) + 8 for ln in lines]
+            while lines and sum(heights) > bottom - top:   # the smallest lines go first when it is full
+                lines.pop()
+                heights.pop()
+            placed = []   # the lines come biggest first: each next one below, then above, so the biggest is in the middle
+            for i, ln in enumerate(lines):
+                placed.append(ln) if i % 2 == 0 else placed.insert(0, ln)
+            y = top + (bottom - top - sum(heights)) / 2
+            for ln in placed:
+                lh = max(f.size for _, f, _, _ in ln) + 8
+                total = sum(wide for *_, wide in ln) + 18 * (len(ln) - 1)
+                x = left + (right - left - total) / 2
+                for w, f, c, wide in ln:
+                    d.text((x, y + lh / 2), w, font=f, fill=c, anchor="lm")
+                    x += wide + 18
+                y += lh
+            if card.get("note"):
+                d.text((24, h - 22), card["note"], font=self.font(13), fill=(150, 160, 178), anchor="lm")
         elif card["kind"] == "mp":
             x0 = 176
             name, f_name = self.name_fit(card["name"], 27, width - x0 - 24, 22)
@@ -548,7 +586,7 @@ class Overlay:
         base = self.card_base(card).copy()
         d = ImageDraw.Draw(base)
         width, h = base.size
-        if card["kind"] == "promo":
+        if card["kind"] in ("promo", "cloud"):
             return self._shine(base, t, length)
         # the number counts up (numbers only; "99,1%" or "261:172" are shown as they are)
         value = card["value"]
