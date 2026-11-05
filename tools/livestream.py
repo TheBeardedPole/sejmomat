@@ -1268,7 +1268,8 @@ def main():
                 topic = (f"{sp['district'] + ' · ' if sp.get('district') else ''}na mównicy od {speaker['at']:%H:%M} · "
                          f"{sp['value']} wystąpień w kadencji")
                 if now_slot:
-                    vote = textwrap.shorten(f"Wg harmonogramu: {plan_label(now_slot)}" + (f" · {over}" if over else ""), 112, placeholder="…")
+                    # the delay before the item, whose name is long and is cut at the box's width
+                    vote = textwrap.shorten(f"Wg harmonogramu{f' ({over})' if over else ''}: {plan_label(now_slot)}", 112, placeholder="…")
             elif now_slot:
                 lab = plan_label(now_slot)
                 head, _, rest = lab.partition(" · ")
