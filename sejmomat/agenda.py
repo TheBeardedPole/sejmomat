@@ -8,6 +8,11 @@ who presents it. `fetch()` keeps the calendar in data/proceedings.json with
 the agenda of every numbered sitting (fetched again until REFRESH_DAYS after
 the sitting, as items are added while it runs); `parse()` turns an agenda
 into items. Item numbers are the "punkt porządku dziennego" of the speeches.
+
+Beside the agenda the API has the planned timetable, "Przybliżony czas rozpatrywania
+punktów porządku dziennego" (`schedule`): kept with it here, as the API keeps it only
+while the sitting is current; `timetable()` turns it into time slots (the stream's caption
+and its break screen, tools/livestream.py).
 """
 import difflib
 import json
@@ -27,6 +32,7 @@ def fetch(today=None):
     from .fetch import _write_json
     today = today or date.today()
     stored = {p["number"]: p.get("agenda") for p in _stored() if p.get("number")}
+    stored_schedule = {p["number"]: p.get("schedule") for p in _stored() if p.get("number") and p.get("schedule")}
     fresh = (today - timedelta(days=REFRESH_DAYS)).isoformat()
     out, fetched = [], 0
     for p in api.get("proceedings") or []:
@@ -36,9 +42,14 @@ def fetch(today=None):
             if p["dates"][-1] >= fresh or not stored.get(n):
                 full = api.get(f"proceedings/{n}") or {}
                 keep["agenda"] = full.get("agenda") or stored.get(n) or ""
+                # the API drops the timetable once the sitting is over: the last one seen is kept
+                if full.get("schedule") or stored_schedule.get(n):
+                    keep["schedule"] = full.get("schedule") or stored_schedule[n]
                 fetched += 1
             else:
                 keep["agenda"] = stored[n]
+                if stored_schedule.get(n):
+                    keep["schedule"] = stored_schedule[n]
         out.append(keep)
     _write_json(PATH, out)
     print(f"proceedings: {len(out)} sittings in the calendar, {fetched} agendas fetched")
@@ -134,6 +145,58 @@ def parse(html):
     p.feed(html or "")
     note = re.sub(r"\s+", " ", p.note.replace("\xa0", " ")).strip()
     return {"groups": [g for g in p.groups if g["items"]], "note": note}
+
+
+_MONTHS = {m: i + 1 for i, m in enumerate(["stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca",
+                                              "sierpnia", "września", "października", "listopada", "grudnia"])}
+_DAY_RE = re.compile(r"w dniu (\d{1,2}) (\w+) (\d{4})")
+_SLOT_RE = re.compile(r"godz\.\s*(\d{1,2})[:.](\d{2})\s*[–-]\s*(\d{1,2})[:.](\d{2})")
+
+
+def timetable(html):
+    """The planned timetable as slots in order: [{"start", "end" (ISO, Warsaw time; a slot ending
+    after midnight ends the next day), "points": item numbers in it, "vote": a block of votes,
+    "text": what is on, short}]. Items in a block of votes ("Głosowania, w tym: … (pkt 23)") are
+    the ones to be voted there; "cd pkt 15" goes on with item 15."""
+    from datetime import datetime
+    text = unescape(re.sub(r"<[^>]+>", "\n", html or "")).replace("\xa0", " ")
+    text = re.sub(r"[ \t]+", " ", text)
+    marks = sorted([(m.start(), m.end(), "day", m) for m in _DAY_RE.finditer(text)] +
+                   [(m.start(), m.end(), "slot", m) for m in _SLOT_RE.finditer(text)], key=lambda x: x[0])
+    out, day = [], None
+    for i, (a, b, kind, m) in enumerate(marks):
+        if kind == "day":
+            month = _MONTHS.get(m[2].lower())
+            day = datetime(int(m[3]), month, int(m[1])) if month else None
+            continue
+        if not day:
+            continue
+        body = text[b:marks[i + 1][0] if i + 1 < len(marks) else len(text)]
+        start = day.replace(hour=int(m[1]), minute=int(m[2]))
+        end = day.replace(hour=int(m[3]), minute=int(m[4]))
+        if end <= start:
+            end += timedelta(days=1)
+        if out and start < datetime.fromisoformat(out[-1]["start"]) and start.hour < 6:
+            start += timedelta(days=1)   # "godz. 0:00 – 1:00" after the evening: the night after
+            end += timedelta(days=1)
+        flat = re.sub(r"\s+", " ", body).strip(" -")
+        points = sorted({int(x) for x in re.findall(r"\(pkt\.? ?(\d+)\)|\bcd\.? pkt\.? ?(\d+)", flat) for x in x if x})
+        vote = bool(re.match(r"głosowani", flat, re.I))
+        # what is on, short: the first entry without the speaking times and item numbers
+        first = re.split(r"\s-\s(?=[A-ZŁŚŻŹĆ])|\s-\s*$", flat)[0]
+        short = re.sub(r"\((?:\d+-minutowe|pkt)[^)]*\)", "", first)
+        short = re.sub(r"\s*\(druk[^)]*\)", "", short)
+        short = re.sub(r",? w tym:?$", "", re.sub(r"\s+", " ", short)).strip(" -,")
+        if re.match(r"cd\.? pkt", short, re.I):
+            short = f"cd. pkt {points[0]}" if points else short
+        out.append({"start": start.isoformat(timespec="minutes"), "end": end.isoformat(timespec="minutes"),
+                    "points": points, "vote": vote, "text": short})
+    return out
+
+
+def timetables():
+    """{sitting number: timetable()} for every sitting whose timetable is kept."""
+    return {p["number"]: timetable(p["schedule"]) for p in _stored() if p.get("number") and p.get("schedule")}
 
 
 def upcoming(today=None):

@@ -53,8 +53,9 @@ from sejmomat.model import link_amendments  # noqa: E402  (what an amendment cha
 from live_overlay import H, W, Overlay  # noqa: E402
 from live_speaker import BAND, Recogniser, load_mps, read  # noqa: E402
 import live_chat  # noqa: E402
+import live_plan  # noqa: E402
 from sejmomat.facts import spread  # noqa: E402
-from sejmomat.social import club_short, shorten  # noqa: E402
+from sejmomat.social import club_short, short_title, shorten  # noqa: E402
 
 API = "https://api.sejm.gov.pl/sejm/term10"
 WARSAW = ZoneInfo("Europe/Warsaw")
@@ -348,6 +349,7 @@ RESULT_SECONDS = 12                                     # after each vote: its r
 REACTION = 8                                            # after a vote on a whole bill: the hall's reaction, the result small, before the next amendment
 SHRINK = 0.5                                            # …in its last seconds (no amendment after it) it shrinks into a small window, bottom right
 FULL_WIDTH, FULL_LINES = 84, 10                         # then what an amendment changes, full screen: characters a line, lines a page
+PLAN_EVERY = 600                                        # seconds between reloads of the planned timetable (it changes during a sitting)
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
 # A break in the sitting: the broadcast holds its wide shot of the hall (tools/break/*.png,
 # thumbnails of it), with nobody named and no votes. Then the screen shows comparisons
@@ -881,6 +883,86 @@ def main():
 
     agenda_turn = {"n": 0, "slot": None}
 
+    # the planned timetable ("Przybliżony czas rozpatrywania punktów", sejmomat/agenda.py): from
+    # the API, which has it while the sitting is current, every PLAN_EVERY seconds; for a past day
+    # the copy kept in data/proceedings.json. Where the sitting is against it: tools/live_plan.py
+    timetable = {"slots": [], "late": None}
+
+    def load_plan():
+        try:
+            from sejmomat import agenda as _agenda
+            got = get_or_none(f"proceedings/{n}") if n else None
+            slots = _agenda.timetable(got["schedule"]) if got and got.get("schedule") else _agenda.timetables().get(n, [])
+            with lock:
+                timetable["slots"] = live_plan.slots_of(slots)
+            return bool(slots)
+        except Exception as e:
+            print(f"harmonogram: nie wczytano ({e})", file=sys.stderr, flush=True)
+            return False
+
+    if load_plan():
+        print(f"harmonogram: {len(timetable['slots'])} pozycji", flush=True)
+
+    def refresh_plan():
+        while True:
+            time.sleep(PLAN_EVERY)
+            load_plan()
+    if not args.at:
+        threading.Thread(target=refresh_plan, daemon=True).start()
+
+    def where(clock):
+        """(how late the sitting runs, the slot it is in by the plan) at the picture's `clock`;
+        a change of the delay written to the log."""
+        with lock:
+            slots = timetable["slots"]
+            votes_now = [v for v in votes if warsaw(v["date"]) <= clock]
+        if not slots:
+            return timedelta(0), None, None
+        naive = clock.replace(tzinfo=None)
+        late, why = live_plan.delay(slots, votes_now, naive)
+        shown_late = late if abs(late) >= live_plan.OVERRUN else timedelta(0)
+        if shown_late != timetable["late"]:
+            timetable["late"] = shown_late
+            print(f"{clock:%H:%M} harmonogram: " + (f"opóźnienie {live_plan.minutes(late)}" + (" (głosowania jeszcze się nie zaczęły)" if why == "czeka" else "")
+                                                     if late > timedelta(0) else "przed czasem" if late < timedelta(0) else "zgodnie z planem"), flush=True)
+        return late, why, live_plan.current(slots, naive, late)
+
+    def plan_label(slot):
+        return live_plan.label(slot, lambda t: live_chat.first_upper(short_title(t)))
+
+    def plan_scene(clock, t, length, slot):
+        """Harmonogram obrad: the day's planned slots, nine a page, the one the sitting is in by the
+        plan (moved by the delay) lit, those behind it dimmed, those ahead with the delay."""
+        late, why, now_slot = where(clock)
+        naive = clock.replace(tzinfo=None)
+        day = live_plan.sitting_day(naive)
+        with lock:
+            slots = [x for x in timetable["slots"] if live_plan.sitting_day(x["start"]) == day]
+        over = late >= live_plan.OVERRUN
+        rows = []
+        for x in slots:
+            text = plan_label(x)
+            if x["vote"] and x["points"]:
+                text += f" · pkt {x['points'][0]}" + (f"–{x['points'][-1]}" if len(x["points"]) > 1 else "")
+            if x is now_slot:
+                rows.append((f"{x['start']:%H:%M}", text, "TERAZ", "next"))
+            elif x["end"] + late <= naive:
+                rows.append((f"{x['start']:%H:%M}", text, "", "done"))
+            else:
+                rows.append((f"{x['start']:%H:%M}", text, f"+{int(late.total_seconds() // 60)} min" if over else "", "todo"))
+        # from two rows before the one the sitting is at: what just passed, now, what comes next
+        now_i = next((i for i, r in enumerate(rows) if r[3] == "next"), None)
+        if now_i is None:   # between slots or past the last: from the first not yet passed
+            now_i = next((i for i, r in enumerate(rows) if r[3] == "todo"), len(rows))
+        rows = rows[max(0, min(now_i - 2, len(rows) - 9)):]
+        pages = [rows[i:i + 9] for i in range(0, len(rows), 9)] or [[]]
+        per = 10
+        page = int(t // per) % len(pages)
+        sub = f"{len(slots)} pozycji · " + (f"opóźnienie {live_plan.minutes(late)}" if over else "zgodnie z planem")
+        if len(pages) > 1:
+            sub += f" · strona {page + 1}/{len(pages)}"
+        return overlay.list_scene("Harmonogram obrad", sub, pages[page], t, length, rows_t=t % per if len(pages) > 1 else t)
+
     # ---- the chamber in a break (data/seating.json, from the Chancellery's seating plan): every
     # MP's seat, coloured by club or by how they voted, lit one after another
     import math
@@ -1092,6 +1174,8 @@ def main():
                 want_ballots.add(shown[-1]["votingNumber"])
             if kind == 8 and promos:
                 return overlay.frame_scene(overlay.promo_scene(promos[(slot // 9) % len(promos)], into, length), hhmm)
+            if kind == 0 and timetable["slots"] and (slot // 9) % 2 == 0:
+                return overlay.frame_scene(plan_scene(clock, into, length, slot), hhmm)
             if kind == 0 and planned:
                 return overlay.frame_scene(agenda_scene(shown, into, length, slot), hhmm)
             if kind == 2 and hall:
@@ -1172,14 +1256,26 @@ def main():
         # a question before the vote): they are shown, until the next vote
         floor = bool(recent) and speaking and speaker["at"] > warsaw(shown[-1]["date"])
         if not recent or floor:
-            # no votes going on, or a speaker between them: the bar names who is speaking
+            # no votes going on, or a speaker between them: the bar names who is speaking, and
+            # the item the sitting is at by the plan (nothing in the data says which it is)
+            late, why, now_slot = where(clock)
+            over = ""
+            if late >= live_plan.OVERRUN:
+                over = f"opóźnienie {live_plan.minutes(late)}" + (", głosowania jeszcze się nie zaczęły" if why == "czeka" else "")
             if speaking:
                 item, chip, note = sp["name"], sp["club"], sp.get("now")
                 # the constituency, since when, how many speeches (the figures are on the card)
                 topic = (f"{sp['district'] + ' · ' if sp.get('district') else ''}na mównicy od {speaker['at']:%H:%M} · "
                          f"{sp['value']} wystąpień w kadencji")
+                if now_slot:
+                    vote = textwrap.shorten(f"Wg harmonogramu: {plan_label(now_slot)}" + (f" · {over}" if over else ""), 112, placeholder="…")
+            elif now_slot:
+                lab = plan_label(now_slot)
+                head, _, rest = lab.partition(" · ")
+                item = f"{head} wg planu · {rest}" if rest else f"Wg planu · {head}"
+                topic = (f"Harmonogram: {over}" if over else "Mówca pojawi się tu, gdy transmisja go przedstawi")
             else:
-                item, topic = title, "Mówca pojawi się tu, gdy transmisja go przedstawi"
+                item, topic = title, (f"Harmonogram: {over}" if over else "Mówca pojawi się tu, gdy transmisja go przedstawi")
         panel = card = mini = None
         if recent and not floor and hall and shown[-1]["votingNumber"] in ballot_clubs and decisive(shown[-1]):
             # the picture back after the vote's full screen: its result in a small window, bottom right

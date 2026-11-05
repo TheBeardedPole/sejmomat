@@ -229,6 +229,17 @@ Live on sejmomat.pl:
   stream server and *.blueonline.tv).
   Captions name the item from the vote's own title: the API's agenda is the planned
   one (several lists, each from 1) and items are renumbered at the sitting.
+- **Planned timetable and overruns** (5 November 2026): the API's `proceedings/N` → `schedule`
+  ("Przybliżony czas rozpatrywania punktów porządku dziennego": time slots with "pkt N", voting
+  blocks), kept by `agenda.fetch()` in `data/proceedings.json` (the API empties it once the sitting
+  is over), parsed by `agenda.timetable()`. The stream reloads it every 10 min and `tools/live_plan.py`
+  says where the sitting is: the delay from each run of votes against its planned block (matched by
+  "Pkt. N", else by time; up to 10 min late counts as on time), or a planned block not begun by now;
+  each sitting day on its own (before 6:00 counts with the day before). The bar: "Punkt 5 wg planu"
+  with no speaker named, "Wg harmonogramu: …" under a speaker, "opóźnienie ok. 40 min" from 15 min;
+  breaks: "Harmonogram obrad" (turns with the agenda), the slot now lit, those ahead with the delay;
+  the log notes each change. Tests: `tests/test_live_plan.py`. Not measured yet against transcripts
+  (no timetable was kept before sitting 68).
 - **Vote links in the stream's chat** (`tools/live_chat.py`, started by `livestream.py` when it
   streams to RTMP live, or a replay with `--announce`, and the YouTube login is in
   `/etc/sejmomat-live.env`; `--no-chat` turns it off): a message per vote as the picture reaches it
