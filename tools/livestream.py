@@ -342,7 +342,7 @@ def captions(shown, tags, title):
     else:
         result = "PRZYJĘTO" if passed(v) else "ODRZUCONO"
         vote = f"Głosowanie nr {v['votingNumber']} · {short_topic(v.get('topic'))} · {result}: {v['yes']} za / {v['no']} przeciw / {v['abstain']} wstrz."
-    return "\n".join(lines), (f"Temat: {topic}" if topic else " "), textwrap.shorten(vote, 110, placeholder="…")
+    return "\n".join(lines), (f"Temat: {topic}" if topic else " "), vote   # a line too long scrolls (live_overlay)
 
 
 DIFF_LINES = 12                                         # lines of the panel with what an amendment changes
@@ -993,8 +993,8 @@ def main():
     def plan_label(slot, druk=True):
         """"Punkt 5 · o systemie oświaty · druk nr 3278": the law's subject, capitalised unless it
         begins with "o", and the bill's print."""
-        def short(t):   # a long one shortened, so the print after it is still seen
-            t = textwrap.shorten(live_plan.subject(short_title(t)), 50, placeholder="…")
+        def short(t):   # a very long one shortened (the bar scrolls a long line; a break's row cuts it)
+            t = textwrap.shorten(live_plan.subject(short_title(t)), 120, placeholder="…")
             return t if t.startswith("o ") else live_chat.first_upper(t)
         text = live_plan.label(slot, short)
         if druk and slot.get("prints") and not slot["vote"] and not text.endswith("(cd.)"):
@@ -1326,7 +1326,7 @@ def main():
         chip = note = None
         if shown and not recent:
             # a debate or a break: the vote below is an earlier one
-            vote = textwrap.shorten(f"Ostatnie głosowanie ({shown[-1]['date'][11:16]}): {vote.replace('Głosowanie ', '')}", 112, placeholder="…")
+            vote = f"Ostatnie głosowanie ({shown[-1]['date'][11:16]}): {vote.replace('Głosowanie ', '')}"
         sp = speaker["card"]
         speaking = bool(sp) and 0 <= (clock - speaker["at"]).total_seconds() < SPEAKER_BAR and not (speaker["until"] and clock > speaker["until"])
         # in a block of votes, someone named after the latest one has the floor (a formal motion,
@@ -1344,7 +1344,7 @@ def main():
                 item, chip, note = f"Na mównicy · {sp['name']}", None, None
                 topic = f"na mównicy od {speaker['at']:%H:%M}"
                 if now_slot:
-                    vote = textwrap.shorten(f"Wg harmonogramu{f' ({over})' if over else ''}: {plan_label(now_slot)}", 112, placeholder="…")
+                    vote = f"Wg harmonogramu{f' ({over})' if over else ''}: {plan_label(now_slot)}"
             elif speaking:
                 item, chip, note = sp["name"], sp["club"], sp.get("now")
                 # the constituency, since when, how many speeches (the figures are on the card)
@@ -1352,7 +1352,7 @@ def main():
                          f"{sp['value']} wystąpień w kadencji")
                 if now_slot:
                     # the delay before the item, whose name is long and is cut at the box's width
-                    vote = textwrap.shorten(f"Wg harmonogramu{f' ({over})' if over else ''}: {plan_label(now_slot)}", 112, placeholder="…")
+                    vote = f"Wg harmonogramu{f' ({over})' if over else ''}: {plan_label(now_slot)}"
             elif now_slot:
                 lab = plan_label(now_slot)
                 head, _, rest = lab.partition(" · ")

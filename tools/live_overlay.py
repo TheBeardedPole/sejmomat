@@ -12,6 +12,7 @@ import math
 import re
 import sys
 import textwrap
+import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -109,9 +110,13 @@ def clamp(x):
     return max(0.0, min(1.0, x))
 
 
+MARQUEE_SPEED = 60   # pixels a second: a bar line too long for the box scrolls this fast
+
+
 class Overlay:
     def __init__(self, bold, regular, logo, label):
         self._fonts = {}
+        self._marquee = []
         self.bold_path, self.regular_path = bold, regular
         self.logo = None
         if logo and Path(logo).exists():
@@ -180,6 +185,7 @@ class Overlay:
         key = (item, topic, vote, chip, note, chair)
         if self._base[0] == key:
             return self._base[1]
+        self._marquee = []   # lines too long for the box: they scroll (frame), not drawn here
         im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         d = ImageDraw.Draw(im)
         first = item.split("\n")[0]
@@ -231,7 +237,15 @@ class Overlay:
                       self.font(16, True), self.font(13, True), note)
         y += 2
         for text, f, c in lines:
-            b.text((pad, y), self.fit(text, f, inner), font=f, fill=c)
+            if f.getlength(text) <= inner:
+                b.text((pad, y), text, font=f, fill=c)
+            else:
+                # too long: a strip of it twice over, a window of which moves along (frame)
+                gap = "     ·     "
+                period = round(f.getlength(text + gap))
+                strip = Image.new("RGBA", (2 * period + inner, 24), (0, 0, 0, 0))
+                ImageDraw.Draw(strip).text((0, 0), text + gap + text + gap + text, font=f, fill=c)
+                self._marquee.append((strip, x0 + pad, y0 + y, round(inner), period))
             y += 24
         im.alpha_composite(box, (x0, y0))
         f = self.font(18)
@@ -1049,11 +1063,17 @@ class Overlay:
         """One frame: the bar, then the amendment panel or the card. Returns RGBA bytes.
         Most frames are the same as the one before (nothing moves): those are not redrawn."""
         which = None if card is None else next((k for k, c in self._stills.items() if c[1] is card), False)
+        base = self.base(item, topic, vote, chip, note, chair)
+        # a line too long for the bar scrolls: MARQUEE_SPEED pixels a second, so these frames all differ
+        offset = int(time.monotonic() * MARQUEE_SPEED) if self._marquee else None
         key = ((item, topic, vote, chip, note, clock, chair), panel and (panel[0], tuple(panel[1])), which,
-               mini and (id(mini[0]), mini[1], mini[2])) if which is not False else None
+               mini and (id(mini[0]), mini[1], mini[2]), offset) if which is not False else None
         if key is not None and self._last[0] == key:
             return self._last[1]
-        im = self.base(item, topic, vote, chip, note, chair).copy()
+        im = base.copy()
+        for strip, x, y, width, period in self._marquee:
+            o = offset % period
+            im.alpha_composite(strip.crop((o, 0, o + width, strip.height)), (x, y))
         self.clock_pill(im, clock)
         if panel:
             p = self.panel(*panel)
