@@ -939,6 +939,18 @@ EN = {
     "stanowisko rządu": "the government's position",
     "Konsultacje społeczne w Sejmie (ankieta dla każdego)": "Public consultation in the Sejm (a survey open to everyone)",
     "wyniki ankiety (PDF)": "survey results (PDF)",
+    # MPs' professions in fields (sejmomat/professions.py)
+    "Zawody": "Professions", "Zawód": "Profession", "brak danych": "not given",
+    "Zawód podany przez posła, w grupach według pierwszego wymienionego": "The profession the MP gave, grouped by the first one named",
+    "Polityka": "Politics", "Prawo": "Law", "Zdrowie": "Health", "Nauka": "Science and academia", "Edukacja": "Education",
+    "Rolnictwo": "Farming", "Gospodarka i biznes": "Economy and business", "Administracja i samorząd": "Public administration",
+    "Inżynieria i technika": "Engineering and technology", "Nauki społeczne i humanistyczne": "Social sciences and humanities",
+    "Media i kultura": "Media and culture", "Służby mundurowe": "Uniformed services", "Sport": "Sport", "Inne": "Other",
+    "Brak danych": "Not given",
+    "Zawody posłów": "MPs' professions", "posłów": "MPs", "Najliczniejsza grupa:": "The largest group:", "z": "of", "Razem": "Total",
+    "Najczęściej podawane zawody": "The professions given most often",
+    "Zawód to ten, który poseł podał Sejmowi (np. „prawnik”, „nauczyciel akademicki”). Grupujemy według pierwszego wymienionego zawodu; liczymy posłów sprawujących dziś mandat, według ich obecnego klubu.":
+        "The profession is the one the MP gave the Sejm (e.g. “prawnik”, “nauczyciel akademicki”). Grouped by the first one named; MPs in office now, by their current club.",
     "W ankiecie Sejmu odpowiedziało": "Respondents to the Sejm's survey:", "osoba": "person", "osoby": "people", "osób": "people",
     "za": "for", "bez zdania": "no view", "przeciw": "against",
     "za (4–5)": "for (4–5)", "bez zdania (3)": "no view (3)", "przeciw (1–2)": "against (1–2)", "brak odpowiedzi": "no answer",

@@ -10,7 +10,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import agenda, analysis, authors, committees, fillgaps, interests, osr, pending, places, processes, questions, sejmdle, social, speeches, survey
+from . import agenda, analysis, authors, committees, fillgaps, interests, osr, pending, places, processes, professions, questions, sejmdle, social, speeches, survey
 from .facts import facts
 from .stats import compute as compute_voting_stats
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
@@ -496,7 +496,7 @@ def build_context():
     return {
         "mps": mps, "clubs": clubs, "sittings": sittings, "by_id": by_id,
         "mp_rows": mp_rows, "mp_by_id": {r["mp"]["id"]: r for r in mp_rows}, "top_words": top_words, "gov_roles": gov_roles,
-        "club_rows": club_rows, "club_slug": club_slug,
+        "club_rows": club_rows, "club_slug": club_slug, "professions": profession_table(mp_rows),
         "adopted": adopted, "proposers": proposers, "mp_proposers": mp_proposers,
         "by_proposer": by_proposer,
         "all_amendments": all_amendments, "latest": latest, "latest_sitting": last_sitting, "voting_stats": voting_stats, "tag_index": tag_index(bill_rows, by_id, tags), "bill_tags": tags["bills"],
@@ -987,6 +987,7 @@ def _env(lang):
         _=t, lang=lang, SITE_URL=SITE_URL, asset_version=asset_version(),
         sitting_name=sitting_name(lang), term_name=f"{TERM}. kadencja" if lang == "pl" else f"{TERM}th term",
         anchor=anchor, source_items=source_items, print_paragraphs=print_paragraphs, print_too_big=print_too_big, consultation_url=consultation_url,
+        field_names=lambda tr: {n: tr(n) for n in professions.ORDER},
         VOTE_LABEL=VOTE_LABEL, LINE_LABEL=LINE_LABEL, MAJORITY_LABEL=MAJORITY_LABEL, KIND_LABEL=KIND_LABEL,
         print_url=print_url, pdf_url=pdf_url, act_url=act_url, TERM=TERM,
         post_weight=social.weight, POST_LIMIT=social.LIMIT, CARD_DIR=social.CARD_DIR,
@@ -1053,6 +1054,24 @@ def _pages(ctx):
         yield "print.html", f"druk/{num}.html", {"num": num, "meta": meta, "law": law,
                                                  "osr": osr.read(print_text(num)) if bill else None,
                                                  "sejm_consult": ctx["sejm_consults"].get(num)}
+
+
+def profession_table(mp_rows):
+    """MPs in office by their profession's field (sejmomat/professions.py) and club: {"clubs": [club
+    ids, largest first], "rows": [{"field", "total", "by_club": {club: n}}], largest first with "Inne"
+    and "Brak danych" last, "top": [(profession as stated, n)], the most common ten}."""
+    active = [r["mp"] for r in mp_rows if r["mp"].get("active", True)]
+    size = Counter(m.get("club") or "" for m in active)
+    clubs = sorted(size, key=lambda c: (c == "", -size[c], c))   # largest first, the independents last
+    rows = defaultdict(Counter)
+    for m in active:
+        rows[professions.field(m.get("profession"))][m.get("club") or ""] += 1
+    tail = {professions.OTHER, professions.UNKNOWN}
+    out = sorted(({"field": f, "total": sum(c.values()), "by_club": dict(c)} for f, c in rows.items()),
+                 key=lambda r: (r["field"] in tail, -r["total"], r["field"]))
+    top = Counter((m.get("profession") or "").strip().lower() for m in active if (m.get("profession") or "").strip())
+    return {"clubs": clubs, "rows": out,
+            "top": sorted(top.items(), key=lambda kv: (-kv[1], kv[0]))[:10], "count": len(active)}
 
 
 def load_consultations():

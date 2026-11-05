@@ -114,6 +114,25 @@
   {% endfor %}
   </tbody>
 </table></div>
+
+{% set P = professions %}
+{% if P.rows %}
+<h2 id="zawody">{{ _("Zawody posłów") }}</h2>
+<p>{{ _("Najliczniejsza grupa:") }} {{ _(P.rows[0].field) | lower }}, {{ P.rows[0].total }} {{ P.rows[0].total | plural(_("poseł"), _("posłów"), _("posłów")) }} {{ _("z") }} {{ P.count }}.</p>
+{% call how(_("Jak liczymy?")) %}<p>{{ _("Zawód to ten, który poseł podał Sejmowi (np. „prawnik”, „nauczyciel akademicki”). Grupujemy według pierwszego wymienionego zawodu; liczymy posłów sprawujących dziś mandat, według ich obecnego klubu.") }}</p>{% endcall %}
+<div class="table-scroll"><table class="heat">
+  <thead><tr><th>{{ _("Zawód") }}</th><th class="num">{{ _("Razem") }}</th>
+    {% for c in P.clubs %}<th class="num">{% if c and c != "niez." %}<a href="{{ root }}klub/{{ club_slug(c) }}.html">{{ c }}</a>{% else %}{{ _("niezrzeszeni") }}{% endif %}</th>{% endfor %}</tr></thead>
+  <tbody>
+  {% for r in P.rows %}
+  <tr><td>{{ _(r.field) }}</td><td class="num"><strong>{{ r.total }}</strong></td>
+    {% for c in P.clubs %}<td class="num">{{ r.by_club.get(c) or "" }}</td>{% endfor %}</tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+<h3>{{ _("Najczęściej podawane zawody") }}</h3>
+<p lang="pl">{% for p, n in P.top %}{{ p }} {{ n }}{{ ", " if not loop.last }}{% endfor %}</p>
+{% endif %}
 </div>
 <script src="{{ site_root }}static/stats.js?v={{ static_version('stats.js') }}" defer></script>
 {% endblock %}

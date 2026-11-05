@@ -852,7 +852,13 @@ if (typeof document !== "undefined") (() => {
       ["questions", L.salaQuestions, 6, String],
       ["rebels", L.salaRebels, 7, String],
       ["terms", L.salaTerms, 8, String],
+      ...(plan.fields ? [["professions", L.salaProfessions]] : []),
     ];
+    // the professions' fields (sejmomat/professions.py), a colour each; "Inne" and "Brak danych" grey
+    const FIELD_COLOURS = ["#6e6e6e", "#2a78d6", "#d0453b", "#7f6fd1", "#eda100", "#3f8f2f", "#1baf7a",
+                           "#4f8fb0", "#b0682a", "#c2185b", "#d07ac0", "#1f4fa0", "#9a8a2a", "#a3a3a3", "#d6d6d6"];
+    const fieldColour = (k) => FIELD_COLOURS[k] || "#a3a3a3";
+    const fieldName = (k) => L.salaFields?.[plan.fields[k]] || plan.fields[k];
     const saved = readSala();
     let view = VIEWS.some((v) => v[0] === saved.view) ? saved.view : VIEWS[0][0];
 
@@ -925,6 +931,9 @@ if (typeof document !== "undefined") (() => {
           const sc = topicScore(mp);
           r.setAttribute("class", sc >= MARK ? `on t${sc >= MARK + 2 ? 3 : sc >= MARK + 1 ? 2 : 1}` : "");
           if (sc >= MARK) n++;
+        } else if (view === "professions") {
+          r.setAttribute("class", "club");
+          r.style.fill = fieldColour(figure(mp, 11));
         } else if (view === "clubs") {
           const c = figure(mp, 1);
           r.setAttribute("class", "club");
@@ -949,6 +958,18 @@ if (typeof document !== "undefined") (() => {
           sw.style.background = `var(--c-${SAME_CLUB[c] || c}, var(--c-other))`;
           return el("span", { className: "sala-key" }, sw, `${c === "niez." ? L.independents : plan.mps[Object.keys(plan.mps).find((m) => plan.mps[m][1] === c)][2]} ${k}`);
         }));
+      } else if (view === "professions") {
+        const sizes = {};
+        for (const r of rects) if (r.dataset.mp) { const k = figure(r.dataset.mp, 11); sizes[k] = (sizes[k] || 0) + 1; }
+        count.textContent = L.salaFieldsNote;
+        // largest first; "Inne" and "Brak danych" last
+        const last = new Set([plan.fields.length - 2, plan.fields.length - 1]);
+        legend.replaceChildren(...Object.entries(sizes).map(([k, n]) => [Number(k), n])
+          .sort((a, b) => (last.has(a[0]) - last.has(b[0])) || b[1] - a[1]).map(([k, n]) => {
+            const sw = el("span", { className: "sala-sw" });
+            sw.style.background = fieldColour(k);
+            return el("span", { className: "sala-key" }, sw, `${fieldName(k)} ${n}`);
+          }));
       } else {
         const st = steps[view], show = v[3];
         count.textContent = L.salaRange.replace("{min}", show(st.min)).replace("{max}", show(st.max)).replace("{med}", show(st.median));
@@ -1044,6 +1065,7 @@ if (typeof document !== "undefined") (() => {
       const lines = [el("strong", { textContent: m[0] }),
         el("span", { className: "muted", textContent: [m[1] === "niez." ? L.independent : m[2], m[3] && `${L.district} ${m[3]}`].filter(Boolean).join(" · ") })];
       if (v[2] !== undefined) lines.push(el("span", { className: "sala-tip-fig", textContent: `${v[1]}: ${v[3](m[v[2]])}` }));
+      if (view === "professions") lines.push(el("span", { className: "sala-tip-fig", textContent: `${L.salaProfession}: ${m[10] || L.salaNoProfession}` }));
       if (tm.length) lines.push(el("span", { className: "sala-tip-topics", textContent: `${L.salaWorks}: ${tm.map(nameOf).join(", ")}` }));
       if (pin) lines.push(link(pageOf(mp), `${L.profile} →`));
       // a card opened by a tap or the search has its own close button
