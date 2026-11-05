@@ -384,6 +384,10 @@ TOP_SECONDS = 16                                        # a Top 5 card, longer t
 FACTS_URL = "https://sejmomat.pl/api/v1/ciekawostki.json"
 PROMO_EVERY = 8                                         # one card in this many (of the general turn) is about the site
 BILL_CARD_EVERY = 5                                     # …and one in this many points to the bill debated (by the plan)
+LEAGUE_CARD_EVERY = 8                                   # …and one in this many shows the fantasy game's leaders
+LEAGUE_URL = "https://sejmomat.pl/srv/fantasy.php?a=leaders"   # the game's ranking (server/fantasy.php)
+LEAGUE_EVERY = 600                                      # seconds between looks at it
+LEAGUE_POSITIONS = ["Mówcy", "Buntownicy", "Lojaliści", "Klikacze", "Zwycięzca", "Opozycjonista"]   # game.json's positions, as a heading
 PROMOS = [
     {"kind": "promo", "title": "Zagraj w Sejmdle", "headline": "Codzienne gry o Sejmie",
      "text": "Zgadnij posła, uzupełnij słowo z mównicy, rozpoznaj jak najwięcej twarzy w minutę.",
@@ -911,6 +915,54 @@ def main():
                 "headline": "Przeczytaj ustawę, o której debatują" if is_bill else "Przeczytaj, nad czym debatują",
                 "text": f"{plan_label(x, druk=False)} (wg harmonogramu obrad)", "url": f"sejmomat.pl/{x['prints'][0]}"}
 
+    # Sejmowa liga, the fantasy game (server/fantasy.php): its leaders, looked at every LEAGUE_EVERY
+    # seconds, for a card now and then and a break's screen with the leading squad
+    league = {"data": None}
+
+    def load_league():
+        while True:
+            try:
+                with urllib.request.urlopen(LEAGUE_URL, timeout=20) as r:
+                    got = json.load(r)
+                league["data"] = got if got.get("top") else None
+            except Exception as e:
+                print(f"liga: nie wczytano rankingu ({e})", file=sys.stderr, flush=True)
+            time.sleep(LEAGUE_EVERY)
+    if not args.demo:
+        threading.Thread(target=load_league, daemon=True).start()
+
+    def league_card():
+        """The game's leaders as a card ("Sejmowa liga: 1. Nick 123 pkt …: sejmomat.pl/fantasy")."""
+        d = league["data"]
+        if not d:
+            return None
+        top = d["top"][:3]
+        return {"kind": "promo", "title": "Sejmowa liga",
+                "headline": f"Prowadzi {top[0]['nick']}: {top[0]['total']} pkt",
+                "text": " · ".join(f"{r['rank']}. {r['nick']} {r['total']} pkt" for r in top[1:]) +
+                        f"{' · ' if len(top) > 1 else ''}graczy: {d['players']}. Wybierz swoich posłów!",
+                "url": "sejmomat.pl/fantasy"}
+
+    def league_scene(t, length):
+        """A break's screen: the leading squad, a row per position with its MPs, the points they
+        made in the latest kolejka; always with the game's address."""
+        d = league["data"]
+        lead = d and d.get("leader")
+        if not lead:
+            return None
+        names = {m["id"]: m["name"] for m in load_mps(ROOT)} if not league.get("names") else league["names"]
+        league["names"] = names
+        rows = []
+        for pos, heading in enumerate(LEAGUE_POSITIONS):
+            mine = [r for r in lead["rows"] if r["pos"] == pos]
+            if not mine:
+                continue
+            who = " · ".join(f"{names.get(r['mp'], r['mp'])}{' (C)' if r.get('captain') else ''}" for r in mine)
+            rows.append((str(sum(r["points"] for r in mine)), f"{heading}: {who}", "", "todo"))
+        last = f"punkty z {lead['number']}. posiedzenia" if lead.get("number") else "punkty z ostatniej kolejki"
+        sub = f"w sezonie {lead['total']} pkt · liczby: {last} · sejmomat.pl/fantasy"
+        return overlay.list_scene(f"Lider ligi: {lead['nick']}", sub, rows, t, length)
+
     def pick(slot, clock):
         """The card for a slot, chosen once: while an MP has been speaking a while (a longer
         speech), the next of their club's cards; otherwise the next of the general turn."""
@@ -934,8 +986,11 @@ def main():
             else:
                 i = turns["*"] = turns.get("*", -1) + 1
                 bill = bill_card(clock) if promos and i % BILL_CARD_EVERY == 2 else None
+                lead = league_card() if promos and not bill and i % LEAGUE_CARD_EVERY == 4 else None
                 if bill:
                     picks[slot] = bill
+                elif lead:
+                    picks[slot] = lead
                 elif promos and i % PROMO_EVERY == PROMO_EVERY - 1:
                     picks[slot] = promos[(i // PROMO_EVERY) % len(promos)]
                 else:
@@ -1265,6 +1320,10 @@ def main():
             kind = slot % 9
             if hall and shown:
                 want_ballots.add(shown[-1]["votingNumber"])
+            if kind == 8 and promos and (slot // 9) % 2 == 0:
+                scene = league_scene(into, length)
+                if scene:
+                    return overlay.frame_scene(scene, hhmm)
             if kind == 8 and promos:
                 return overlay.frame_scene(overlay.promo_scene(promos[(slot // 9) % len(promos)], into, length), hhmm)
             if kind == 0 and timetable["slots"] and (slot // 9) % 2 == 0:

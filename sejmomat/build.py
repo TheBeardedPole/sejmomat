@@ -1173,7 +1173,9 @@ def run():
         # an additional report, sejmomat.pl/3242-A (a #poprawka-5 after it is kept by the browser
         # through the redirect)
         "<IfModule mod_rewrite.c>\n  RewriteEngine On\n"
-        "  RewriteRule ^([0-9]{1,5}(-[A-Z])?)/?$ /druk/$1.html [R=302,L]\n</IfModule>\n"
+        "  RewriteRule ^([0-9]{1,5}(-[A-Z])?)/?$ /druk/$1.html [R=302,L]\n"
+        # the fantasy game's address said on the stream: sejmomat.pl/fantasy -> liga.html
+        "  RewriteRule ^fantasy/?$ /liga.html [R=302,L]\n</IfModule>\n"
         "<IfModule mod_deflate.c>\n"
         "  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json application/xml\n"
         "</IfModule>\n"

@@ -203,6 +203,29 @@ function sell_price(array $slot): int {
 
 function uid_for(string $sub): string { return substr(hash_hmac('sha256', "google|$sub", secret()), 0, 24); }
 
+// a player's id for others (the ranking's links to their squads): not their account's own id
+function pub_id(string $uid): string { return substr(hash_hmac('sha256', "pub|$uid", secret()), 0, 12); }
+
+// the ranking: [['uid', 'nick', 'total', 'last', 'rank']] best first, players with a squad scored
+function ranking(): array {
+    $rows = [];
+    foreach (read_json('users') as $id => $u) {
+        if (empty($u['history']) || empty($u['nick'])) continue;
+        [$total, $last] = season_total($u);
+        $rows[] = ['uid' => $id, 'nick' => $u['nick'], 'total' => $total, 'last' => $last];
+    }
+    usort($rows, fn($a, $b) => $b['total'] <=> $a['total'] ?: strcmp($a['nick'], $b['nick']));
+    $rank = 0;
+    $prev = null;
+    foreach ($rows as $i => &$r) {
+        if ($r['total'] !== $prev) $rank = $i + 1;   // equal totals, equal rank
+        $prev = $r['total'];
+        $r['rank'] = $rank;
+    }
+    unset($r);
+    return $rows;
+}
+
 function current_uid(): ?string {
     $token = $_COOKIE[COOKIE] ?? '';
     if ($token === '' || strlen($token) > 100) return null;
@@ -549,25 +572,45 @@ case 'squad': {
 case 'board': {
     freeze_all();
     $uid = current_uid();
-    $rows = [];
-    foreach (read_json('users') as $id => $u) {
-        if (empty($u['history']) || empty($u['nick'])) continue;
-        [$total, $last] = season_total($u);
-        $rows[] = ['uid' => $id, 'nick' => $u['nick'], 'total' => $total, 'last' => $last];
-    }
-    usort($rows, fn($a, $b) => $b['total'] <=> $a['total'] ?: strcmp($a['nick'], $b['nick']));
+    $rows = ranking();
     $me = null;
-    $rank = 0;
-    $prev = null;
-    foreach ($rows as $i => &$r) {
-        if ($r['total'] !== $prev) $rank = $i + 1;   // equal totals, equal rank
-        $prev = $r['total'];
-        $r['rank'] = $rank;
-        if ($r['uid'] === $uid) $me = ['rank' => $rank, 'total' => $r['total'], 'of' => count($rows)];
+    foreach ($rows as $r) {
+        if ($r['uid'] === $uid) $me = ['rank' => $r['rank'], 'total' => $r['total'], 'of' => count($rows)];
     }
-    unset($r);
-    out(['rows' => array_map(fn($r) => ['rank' => $r['rank'], 'nick' => $r['nick'], 'total' => $r['total'], 'last' => $r['last'], 'me' => $r['uid'] === $uid],
+    out(['rows' => array_map(fn($r) => ['rank' => $r['rank'], 'nick' => $r['nick'], 'total' => $r['total'], 'last' => $r['last'],
+                                        'me' => $r['uid'] === $uid, 'id' => pub_id($r['uid'])],
                              array_slice($rows, 0, BOARD_SHOWN)), 'players' => count($rows), 'me' => $me]);
+}
+
+// another player's squads, as anyone may see them: only kolejki already locked (the squad being
+// made for the next one stays theirs until it locks)
+case 'player': {
+    freeze_all();
+    $want = preg_replace('/[^0-9a-f]/', '', (string)($_GET['id'] ?? ''));
+    foreach (ranking() as $r) {
+        if (pub_id($r['uid']) !== $want) continue;
+        $u = read_json('users')[$r['uid']];
+        $history = [];
+        foreach ($u['history'] ?? [] as $kid => $h) $history[$kid] = kolejka_points($h, $kid);
+        out(['nick' => $r['nick'], 'rank' => $r['rank'], 'total' => $r['total'], 'history' => $history ?: new stdClass()]);
+    }
+    fail(404, 'Nie ma takiego gracza.');
+}
+
+// for the stream (tools/livestream.py): the leaders, and the leader's latest locked squad
+case 'leaders': {
+    freeze_all();
+    $rows = ranking();
+    $lead = null;
+    if ($rows) {
+        $u = read_json('users')[$rows[0]['uid']];
+        $kids = array_keys($u['history'] ?? []);
+        sort($kids);
+        $kid = end($kids);
+        if ($kid) $lead = ['nick' => $rows[0]['nick'], 'total' => $rows[0]['total'], 'kolejka' => $kid] + kolejka_points($u['history'][$kid], $kid);
+    }
+    out(['top' => array_map(fn($r) => ['rank' => $r['rank'], 'nick' => $r['nick'], 'total' => $r['total'], 'last' => $r['last']],
+                            array_slice($rows, 0, 5)), 'players' => count($rows), 'leader' => $lead]);
 }
 
 case 'email': {

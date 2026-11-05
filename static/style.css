@@ -918,3 +918,7 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .not-found-search input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); }
 .not-found-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 20px; margin: 0; padding: 0; list-style: none; }
 .not-found-links a { font-weight: 600; }
+
+/* Sejmowa liga: a player in the ranking opens their squads (static/league.js) */
+.liga-who-btn { padding: 0; font: inherit; font-weight: 600; text-align: left; }
+.liga-player .liga-history h2 { display: none; }

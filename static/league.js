@@ -378,11 +378,12 @@
   };
 
   // ---- past kolejki
-  const historyBox = () => {
-    const ks = Object.entries(me.history || {}).sort((a, b) => b[0].localeCompare(a[0]));
+  // the kolejki played, each with every MP's points: the player's own, or another's from the ranking
+  const historyBox = (history = me.history, heading = L.history, open = false) => {
+    const ks = Object.entries(history || {}).sort((a, b) => b[0].localeCompare(a[0]));
     if (!ks.length) return null;
-    return el("section", { className: "liga-history" }, el("h2", { textContent: L.history }),
-      ks.map(([kid, h]) => el("details", { className: "card liga-k" },
+    return el("section", { className: "liga-history" }, heading ? el("h2", { textContent: heading }) : null,
+      ks.map(([kid, h], i) => el("details", { className: "card liga-k", open: open && i === 0 },
         el("summary", {}, el("strong", { textContent: h.number ? L.kolejkaN.replace("{n}", h.number) : kid }),
           el("span", { className: "liga-k-pts", textContent: `${h.total} ${L.pts}` }),
           h.final ? null : el("span", { className: "badge neutral", textContent: L.notFinal }),
@@ -396,6 +397,30 @@
   };
   const describe = (f) => Object.entries(f || {}).filter(([k]) => L.factNames[k]).map(([k, v]) => `${L.factNames[k]}: ${v}`).join(" · ");
 
+  // ---- another player's squads (only the kolejki already locked), from the ranking
+  const playerDlg = el("dialog", { className: "liga-picker liga-player" });
+  document.body.append(playerDlg);
+  playerDlg.addEventListener("click", (e) => { if (e.target === playerDlg) playerDlg.close(); });
+  const playerButton = (r) => {
+    const b = el("button", { type: "button", className: "lnk liga-who-btn", textContent: r.nick, title: L.seeSquads });
+    b.addEventListener("click", async () => {
+      const close = el("button", { type: "button", className: "icon-btn", ariaLabel: L.close, title: L.close, textContent: "×" });
+      close.addEventListener("click", () => playerDlg.close());
+      const head = el("div", { className: "liga-picker-head" }, el("h2", { textContent: r.nick }), close);
+      playerDlg.replaceChildren(head, el("p", { className: "muted", textContent: L.loading }));
+      playerDlg.showModal();
+      try {
+        const p = await api(`player&id=${encodeURIComponent(r.id)}`);
+        playerDlg.replaceChildren(head,
+          el("p", {}, L.playerLine.replace("{r}", p.rank).replace("{t}", p.total)),
+          historyBox(p.history, null, true) || el("p", { className: "muted", textContent: L.noKolejki }));
+      } catch {
+        playerDlg.replaceChildren(head, el("p", { className: "muted", textContent: L.failed }));
+      }
+    });
+    return b;
+  };
+
   // ---- the leaderboard
   const drawBoard = async () => {
     board.replaceChildren(el("h2", { id: "liga-board-h", textContent: L.board }), el("p", { className: "muted", textContent: L.loading }));
@@ -405,14 +430,16 @@
         board.replaceChildren(board.firstChild, el("p", { className: "muted", textContent: L.boardEmpty }));
         return;
       }
-      board.replaceChildren(board.firstChild,
+      // a visitor has no rank of their own: nothing in its place (null would print as text)
+      board.replaceChildren(...[board.firstChild,
         b.me ? el("p", {}, L.yourRank.replace("{r}", b.me.rank).replace("{n}", b.players).replace("{t}", b.me.total)) : null,
         el("div", { className: "table-scroll" }, el("table", { className: "liga-table" },
           el("thead", {}, el("tr", {}, el("th", { className: "num", textContent: "#" }), el("th", { textContent: L.player }),
             el("th", { className: "num", textContent: L.lastK }), el("th", { className: "num", textContent: L.total }))),
           el("tbody", {}, b.rows.map((r) => el("tr", { className: r.me ? "me" : "" },
-            el("td", { className: "num", textContent: r.rank }), el("td", { textContent: r.nick }),
-            el("td", { className: "num", textContent: r.last ?? "–" }), el("td", { className: "num", textContent: r.total })))))));
+            el("td", { className: "num", textContent: r.rank }),
+            el("td", {}, r.id ? playerButton(r) : r.nick),
+            el("td", { className: "num", textContent: r.last ?? "–" }), el("td", { className: "num", textContent: r.total }))))))].filter(Boolean));
     } catch {
       board.replaceChildren(board.firstChild, el("p", { className: "muted", textContent: L.failed }));
     }

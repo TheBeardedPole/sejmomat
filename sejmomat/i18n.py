@@ -677,6 +677,8 @@ EN = {
     "Adres mógł się zmienić albo ma literówkę. Poszukaj tego, czego potrzebujesz:":
         "The address may have changed or have a typo. Search for what you need:",
     "Strona główna": "Home page",
+    "Zobacz składy tego gracza": "See this player's squads", "{r}. miejsce w rankingu · {t} pkt w sezonie": "Ranked {r} · {t} pts this season",
+    "Ten gracz nie ma jeszcze rozegranych kolejek.": "This player has no rounds played yet.",
     "Główna nawigacja": "Main navigation", "Zamknij menu": "Close the menu", "Ścieżka nawigacji": "Breadcrumb", "Menu": "Menu", "Szukaj…": "Search…",
     "Głosowanie na żywo": "Live vote", "Przyjęte poprawki": "Adopted amendments", "Zgłoszone poprawki": "Amendments proposed",
     "Statystyki": "Statistics", "Wszystkie głosowania tego posiedzenia": "All votes of this sitting",
