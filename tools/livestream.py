@@ -364,6 +364,8 @@ BREAK_NO_SPEAKER = 180                                  # …or of a speaker bei
 CMP_SECONDS = 20                                        # each comparison on screen this long
 THUMB = (64, 36)
 SPEAKER_SECONDS = 20                                    # how long the card of a speaker who has just begun stays
+STATE = Path.home() / ".cache" / "sejmomat-live.json"   # the speaker and chair, for a quick restart
+RESTORE_WITHIN = 600                                    # seconds: a restart this soon after the last save names them again
 SPEAKER_BAR = 600                                       # how long the bar names a speaker (until the next one)
 CAPTION_LAG = 8                                         # the broadcast names a speaker this long after they begin, or later (10th percentile of 73 speeches, October 2026: median 12 s; tools/caption_lag.py)
 LOOKAHEAD = 25                                          # the captions are read this far ahead of the picture, so a speaker's card can start when they do
@@ -847,6 +849,43 @@ def main():
     picks, turns = {}, {}
     showing = {"until": 0.0, "speaker": None, "start": 0.0}   # when the card on screen goes; the speaker card's turn
 
+    # Who was speaking and who ran the sitting, kept on disk (STATE) when they change, so a restart
+    # within RESTORE_WITHIN (a dropped connection, a new version) names them again at once rather
+    # than waiting for the broadcast's next caption. Live only, for the same sitting.
+    def save_state():
+        try:
+            STATE.parent.mkdir(parents=True, exist_ok=True)
+            STATE.write_text(json.dumps({
+                "saved": datetime.now(WARSAW).isoformat(), "sitting": n,
+                "speaker": {"mp": speaker["mp"], "at": speaker["at"].isoformat()} if speaker.get("mp") and speaker.get("at") else None,
+                "chair": {"text": chair_now.get("text"), "mp": chair_now.get("mp")} if chair_now.get("text") else None}))
+        except Exception as e:
+            print(f"stan: nie zapisano ({e})", file=sys.stderr, flush=True)
+
+    def restore_state():
+        try:
+            st = json.loads(STATE.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            return
+        if st.get("sitting") != n or datetime.now(WARSAW) - datetime.fromisoformat(st["saved"]) > timedelta(seconds=RESTORE_WITHIN):
+            return
+        sp = st.get("speaker")
+        m = sp and next((x for x in load_mps(ROOT) if x["id"] == sp["mp"]), None)
+        if m:
+            at = datetime.fromisoformat(sp["at"])
+            speaker.update(mp=m["id"], at=at, until=None, card=speaker_card(m))
+            # their card was shown before the restart: not again
+            showing.update(speaker=at, start=at.timestamp() - SPEAKER_SECONDS)
+            print(f"stan: mówca przywrócony: {m['name']} (od {at:%H:%M})", flush=True)
+        if st.get("chair"):
+            chair_now.update(text=st["chair"]["text"], mp=st["chair"].get("mp"))
+            if st["chair"].get("mp"):
+                chair["mp"] = st["chair"]["mp"]
+            print(f"stan: prowadzący przywrócony: {st['chair']['text']}", flush=True)
+
+    if not args.at:
+        restore_state()
+
     def bill_card(clock):
         """A card pointing to the print debated by the plan ("Przeczytaj ustawę, o której
         debatują: sejmomat.pl/3278"), or None outside a debate with a print. `where` is defined
@@ -948,7 +987,7 @@ def main():
         """"Punkt 5 · o systemie oświaty · druk nr 3278": the law's subject, capitalised unless it
         begins with "o", and the bill's print."""
         def short(t):   # a long one shortened, so the print after it is still seen
-            t = textwrap.shorten(live_plan.subject(short_title(t)), 70, placeholder="…")
+            t = textwrap.shorten(live_plan.subject(short_title(t)), 50, placeholder="…")
             return t if t.startswith("o ") else live_chat.first_upper(t)
         text = live_plan.label(slot, short)
         if druk and slot.get("prints") and not slot["vote"] and not text.endswith("(cd.)"):
@@ -1178,11 +1217,17 @@ def main():
             shown = [v for v in votes if warsaw(v["date"]) <= clock]
             nxt = next((v for v in votes if warsaw(v["date"]) > clock), None)
             # a speaker recognised ahead: theirs once the picture reaches the moment they began
+            changed = False
             while pending and pending[0][0] <= clock:
                 speaker.update(pending.pop(0)[1])
+                changed = True
             while pending_chair and pending_chair[0][0] <= clock:
-                chair_now["text"] = pending_chair.pop(0)[1]["text"]
+                got = pending_chair.pop(0)[1]
+                chair_now.update(text=got["text"], mp=got.get("mp"))
+                changed = True
             on_break = next((b for b in breaks if b[0] <= clock and (b[1] is None or clock < b[1])), None)
+        if changed:
+            save_state()
         # a break: comparisons over the hall, nothing else (not within BREAK_NO_VOTE of a vote)
         since_vote = (clock - warsaw(shown[-1]["date"])).total_seconds() if shown else 1e9
         if on_break and (compares or mp_pool) and since_vote > BREAK_NO_VOTE:
