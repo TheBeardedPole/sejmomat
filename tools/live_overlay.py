@@ -378,7 +378,13 @@ class Overlay:
         d.polygon([(0, 0), (width - 60, 0), (width - 90, 44), (0, 44)], fill=colour + (255,))
         d.rounded_rectangle((0, 0, 40, 44), 16, fill=colour + (255,))
         d.text((20, 9), card["title"].upper(), font=self.font(21, True), fill="white")
-        d.text((width - 50, 12), "?!", font=self.font(20, True), fill=YELLOW)
+        # the corner: a speaker's club logo on its white tile; "?!" on every other card (and an MP
+        # whose club has no logo)
+        badge = self.logo_badge(card.get("club"), 36) if card["kind"] in ("mp", "cloud") and card.get("club") not in (None, "niez.") else None
+        if badge:
+            im.alpha_composite(badge, (width - 52, 4))
+        else:
+            d.text((width - 50, 12), "?!", font=self.font(20, True), fill=YELLOW)
         if card["kind"] == "promo":
             # a word about the site: a headline, a line or two, the address in yellow
             d.text((24, 60), card["headline"], font=self.font(28, True), fill="white")
