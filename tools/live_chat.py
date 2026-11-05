@@ -8,9 +8,11 @@ by itself when it streams to the platform and the YouTube login is set:
     python tools/live_chat.py test "Dzień dobry"   # one message to the stream live now
     python tools/live_chat.py broadcast "Test"     # a new unlisted broadcast with its own stream key
     python tools/live_chat.py title "Nowy tytuł"   # the title of the broadcast live now
+    python tools/live_chat.py autostop             # the broadcast live now kept on air if the video drops
 
 A live sitting's broadcast is also titled by itself once on air: TITLE, "67. Posiedzenie
-Sejmu | Lepsza Transmisja" (SEJMOMAT_YT_TITLE to change it; replays and tests are left alone).
+Sejmu | Lepsza Transmisja" (SEJMOMAT_YT_TITLE to change it; replays and tests are left alone),
+and its Auto-stop turned off, so a dropped connection pauses the broadcast rather than ending it.
 
 Which votes: every vote but a quorum check, its result worded as on the vote's
 page (sejmomat/build.py: a motion to reject passed is a bill rejected, a Senate
@@ -459,6 +461,38 @@ def set_title(title):
     print(f"{old!r} -> {title[:100]!r}" if old is not None else f"already {title[:100]!r}")
 
 
+# the broadcast's settings sent back as they are when one changes (contentDetails is replaced whole)
+KEEP_DETAILS = ("enableAutoStart", "enableAutoStop", "enableDvr", "enableEmbed", "recordFromStart",
+                "closedCaptionsType", "latencyPreference", "projection")
+
+
+def no_autostop(yt, b):
+    """Broadcast `b` kept on air when the video stops (YouTube's "Auto-stop" off): a dropped
+    connection then pauses it, and the encoder's reconnect carries on, instead of ending it and
+    leaving the new video without a broadcast (5 November 2026). True if it was changed."""
+    got = yt._call("GET", "liveBroadcasts", {"part": "contentDetails", "id": b["id"]})
+    cd = got["items"][0]["contentDetails"]
+    if cd.get("enableAutoStop") is False:
+        return False
+    body = {k: cd[k] for k in KEEP_DETAILS if k in cd}
+    ms = cd.get("monitorStream") or {}
+    body["monitorStream"] = {k: ms[k] for k in ("enableMonitorStream", "broadcastStreamDelayMs") if k in ms}
+    body["enableAutoStop"] = False
+    yt._call("PUT", "liveBroadcasts", {"part": "contentDetails"}, {"id": b["id"], "contentDetails": body})
+    return True
+
+
+def set_no_autostop():
+    """Auto-stop off on the broadcast live now."""
+    if not configured():
+        sys.exit("The YouTube login is not set (python tools/live_chat.py auth).")
+    yt = Chat()
+    b = on_air(yt)
+    if not b:
+        sys.exit("No broadcast live on the channel now.")
+    print("auto-stop off" if no_autostop(yt, b) else "auto-stop was already off")
+
+
 def keep_title(sitting):
     """In the background, for livestream.py: once the sitting's broadcast is on air (the channel's
     default key starts a new one under Studio's default title), the title TITLE, once. Looked for
@@ -473,6 +507,12 @@ def keep_title(sitting):
                 if b:
                     old = retitle(yt, b, title)
                     print(f"tytuł: {title}" + (f" (był: {old})" if old else ""), flush=True)
+                    try:   # a drop then pauses the broadcast instead of ending it
+                        if no_autostop(yt, b):
+                            print("auto-stop: wyłączony", flush=True)
+                    except Exception as e:
+                        why = _reason(e) if isinstance(e, urllib.error.HTTPError) else e
+                        print(f"auto-stop: nie wyłączono ({why})", file=sys.stderr, flush=True)
                     return
             except Exception as e:
                 print(f"tytuł: nie ustawiono ({e})", file=sys.stderr, flush=True)
@@ -503,5 +543,7 @@ if __name__ == "__main__":
         broadcast(" ".join(sys.argv[2:]))
     elif cmd == "title" and len(sys.argv) > 2:
         set_title(" ".join(sys.argv[2:]))
+    elif cmd == "autostop":
+        set_no_autostop()
     else:
         sys.exit(__doc__)
