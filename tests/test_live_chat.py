@@ -83,5 +83,27 @@ class Messages(unittest.TestCase):
             self.assertIn("https://sejmomat.pl/", m)
 
 
+class Commands(unittest.TestCase):
+    """"!punkt" and the like: who is answered, and how often."""
+
+    def msg(self, text, owner=False):
+        return {"snippet": {"displayMessage": text}, "authorDetails": {"isChatOwner": owner}}
+
+    def setUp(self):
+        self.chat = live_chat.VoteChat.__new__(live_chat.VoteChat)
+        self.chat.commands, self.chat.answered = {"!punkt": lambda: "x"}, {}
+
+    def test_answered_once_per_read(self):
+        self.assertEqual(self.chat._asked([self.msg("!punkt"), self.msg("!PUNKT proszę"), self.msg("hej")], now=1000), ["!punkt"])
+
+    def test_cooldown(self):
+        self.chat._asked([self.msg("!punkt")], now=1000)
+        self.assertEqual(self.chat._asked([self.msg("!punkt")], now=1030), [])
+        self.assertEqual(self.chat._asked([self.msg("!punkt")], now=1000 + live_chat.COMMAND_COOLDOWN), ["!punkt"])
+
+    def test_not_own_messages_nor_mid_sentence(self):
+        self.assertEqual(self.chat._asked([self.msg("!punkt", owner=True), self.msg("co to za !punkt")], now=1000), [])
+
+
 if __name__ == "__main__":
     unittest.main()

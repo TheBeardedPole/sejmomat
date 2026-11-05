@@ -30,7 +30,11 @@ signs in as the channel (@Sejmomat) and prints three lines for
 SEJMOMAT_YT_REFRESH_TOKEN. Messages come from the channel itself, so its links
 are not held back.
 
-Quota: a message costs 20 units, finding the stream's chat 1, of 10,000 a day; a new
+Viewers can ask: "!punkt" in the chat gets the item on by the plan with its print's page (livestream.py),
+the chat read once a minute, one reply a minute however many ask.
+
+Quota: a message costs 20 units, finding the stream's chat 1, a read of the chat 5 (once a minute:
+some 4,200 over a long day), of 10,000 a day; a new
 broadcast with its stream some 150, a new title 50.
 
 `broadcast` is for a test: an unlisted broadcast that starts when video comes to its
@@ -75,6 +79,8 @@ CHAT_LAG = float(os.environ.get("SEJMOMAT_CHAT_LAG", "") or 12)
 AMEND_RUN_END = 180      # a run of votes (amendments, motions) this long after its last: posted, the run over
 GAP = 4                  # seconds between two messages at least
 FIND_EVERY = 15          # seconds between looks for the stream's chat while there is none
+COMMAND_EVERY = 60       # seconds between reads of the chat for commands ("!punkt"): 5 units a read
+COMMAND_COOLDOWN = 60    # a command answered at most once in this long, however many ask
 KEEP_FOR = 300           # a message waits this long for the chat (a broadcast takes a while to go live)
 
 # a sitting's broadcast is given this title once it is live (SEJMOMAT_YT_TITLE, {n}: the sitting)
@@ -297,6 +303,7 @@ class VoteChat:
         self.clock, self.votes = clock, votes
         self.planner, self.chat, self.out = Planner(start, name, CHAT_LAG), Chat(), queue.Queue()
         self.looked = 0
+        self.commands, self.answered, self.token = {}, {}, None
 
     def start(self):
         threading.Thread(target=self._plan, daemon=True).start()
@@ -306,6 +313,54 @@ class VoteChat:
     def post(self, text):
         """A message of the stream's own (the item on by the plan), sent in turn with the votes'."""
         self.out.put(text[:MAX_LEN])
+
+    def command(self, word, answer):
+        """Viewers typing `word` ("!punkt") in the chat get `answer()` in reply: the chat read every
+        COMMAND_EVERY seconds, one reply per COMMAND_COOLDOWN whoever asks."""
+        if not self.commands:
+            threading.Thread(target=self._listen, daemon=True).start()
+        self.commands[word.lower()] = answer
+        return self
+
+    def _asked(self, items, now=None):
+        """The commands asked in these chat messages, to be answered now: each once, not again
+        within COMMAND_COOLDOWN, never the channel's own messages."""
+        now = time.time() if now is None else now
+        out = []
+        for m in items:
+            if (m.get("authorDetails") or {}).get("isChatOwner"):
+                continue
+            words = ((m.get("snippet") or {}).get("displayMessage") or "").strip().lower().split()
+            word = words[0] if words else ""
+            if word in self.commands and word not in out and now - self.answered.get(word, 0) >= COMMAND_COOLDOWN:
+                self.answered[word] = now
+                out.append(word)
+        return out
+
+    def _listen(self):
+        while True:
+            try:
+                if not self.chat.chat_id and time.time() - self.looked >= FIND_EVERY:
+                    self.looked = time.time()
+                    self.chat.find()
+                if self.chat.chat_id:
+                    params = {"liveChatId": self.chat.chat_id, "part": "snippet,authorDetails", "maxResults": 200}
+                    if self.token:
+                        params["pageToken"] = self.token
+                    got = self.chat._call("GET", "liveChat/messages", params)
+                    first, self.token = self.token is None, got.get("nextPageToken")
+                    # the first read only marks where the chat is: what was asked before is left
+                    for word in ([] if first else self._asked(got.get("items", []))):
+                        self.post(self.commands[word]())
+                        print(f"czat: odpowiedź na {word}", flush=True)
+            except urllib.error.HTTPError as e:
+                why = _reason(e)
+                print(f"czat: nie odczytano ({e.code} {why})", file=sys.stderr, flush=True)
+                if why in ("liveChatEnded", "liveChatNotFound", "liveChatDisabled", "forbidden"):
+                    self.chat.chat_id, self.token = None, None
+            except Exception as e:
+                print(f"czat: nie odczytano ({e})", file=sys.stderr, flush=True)
+            time.sleep(COMMAND_EVERY)
 
     def _plan(self):
         while True:

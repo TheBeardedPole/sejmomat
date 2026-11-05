@@ -374,6 +374,7 @@ CLUB_AFTER = 40                                         # a speech this far in: 
 TOP_SECONDS = 16                                        # a Top 5 card, longer to read
 FACTS_URL = "https://sejmomat.pl/api/v1/ciekawostki.json"
 PROMO_EVERY = 8                                         # one card in this many (of the general turn) is about the site
+BILL_CARD_EVERY = 5                                     # …and one in this many points to the bill debated (by the plan)
 PROMOS = [
     {"kind": "promo", "title": "Zagraj w Sejmdle", "headline": "Codzienne gry o Sejmie",
      "text": "Zgadnij posła, uzupełnij słowo z mównicy, rozpoznaj jak najwięcej twarzy w minutę.",
@@ -846,6 +847,18 @@ def main():
     picks, turns = {}, {}
     showing = {"until": 0.0, "speaker": None, "start": 0.0}   # when the card on screen goes; the speaker card's turn
 
+    def bill_card(clock):
+        """A card pointing to the print debated by the plan ("Przeczytaj ustawę, o której
+        debatują: sejmomat.pl/3278"), or None outside a debate with a print. `where` is defined
+        later in main(), by the time cards are drawn."""
+        late, why, x = where(clock)
+        if not x or x["vote"] or not x.get("prints"):
+            return None
+        is_bill = re.search(r"ustaw", x["text"], re.I)
+        return {"kind": "promo", "title": "Teraz w debacie",
+                "headline": "Przeczytaj ustawę, o której debatują" if is_bill else "Przeczytaj, nad czym debatują",
+                "text": f"{plan_label(x, druk=False)} (wg harmonogramu obrad)", "url": f"sejmomat.pl/{x['prints'][0]}"}
+
     def pick(slot, clock):
         """The card for a slot, chosen once: while an MP has been speaking a while (a longer
         speech), the next of their club's cards; otherwise the next of the general turn."""
@@ -863,7 +876,10 @@ def main():
                 picks[slot] = pool[i % len(pool)]
             else:
                 i = turns["*"] = turns.get("*", -1) + 1
-                if promos and i % PROMO_EVERY == PROMO_EVERY - 1:
+                bill = bill_card(clock) if promos and i % BILL_CARD_EVERY == 2 else None
+                if bill:
+                    picks[slot] = bill
+                elif promos and i % PROMO_EVERY == PROMO_EVERY - 1:
                     picks[slot] = promos[(i // PROMO_EVERY) % len(promos)]
                 else:
                     j = turns["facts"] = turns.get("facts", -1) + 1
@@ -1359,24 +1375,39 @@ def main():
         chat = live_chat.VoteChat(lambda: now["clock"], votes_now, start, short_topic).start()
         print("czat: linki do głosowań włączone", flush=True)
 
-        # every PLAN_LINK_EVERY seconds, the item on by the plan with its print's page on the site
-        # (sejmomat.pl/3278 leads to druk/3278.html), for viewers who come in during a debate
+        def plan_message(asked=False):
+            """The item on by the plan with its print's page on the site (sejmomat.pl/3278 leads
+            to druk/3278.html); the name shortened, never the link (YouTube's 200 characters).
+            None when there is nothing to link to, unless asked ("!punkt"): then what is on."""
+            late, why, slot_now = where(now["clock"])
+            if slot_now and not slot_now["vote"] and slot_now.get("prints"):
+                p = slot_now["prints"][0]
+                tail = f" (druk nr {p}): {live_chat.SITE}/{p}"
+                head = "Teraz wg harmonogramu: "
+                name = textwrap.shorten(plan_label(slot_now, druk=False), live_chat.MAX_LEN - len(head) - len(tail), placeholder="…")
+                return head + name + tail
+            if not asked:
+                return None
+            if slot_now and slot_now["vote"]:
+                return f"Teraz wg harmonogramu: głosowania. Wyniki na bieżąco: {live_chat.SITE}/glosowanie-na-zywo.html"
+            if slot_now:
+                return f"Teraz wg harmonogramu: {plan_label(slot_now, druk=False)}"
+            return "Harmonogram nie przewiduje teraz żadnego punktu."
+
+        # every PLAN_LINK_EVERY seconds the item on by the plan, for viewers who come in during a
+        # debate; and on "!punkt" in the chat
         def plan_links():
             while True:
                 time.sleep(PLAN_LINK_EVERY)
                 try:
-                    late, why, slot_now = where(now["clock"])
-                    if slot_now and not slot_now["vote"] and slot_now.get("prints"):
-                        p = slot_now["prints"][0]
-                        tail = f" (druk nr {p}): {live_chat.SITE}/{p}"
-                        head = "Teraz wg harmonogramu: "
-                        # the item's name shortened, never the link (YouTube's 200 characters)
-                        name = textwrap.shorten(plan_label(slot_now, druk=False), live_chat.MAX_LEN - len(head) - len(tail), placeholder="…")
-                        chat.post(head + name + tail)
+                    text = plan_message()
+                    if text:
+                        chat.post(text)
                 except Exception as e:
                     print(f"czat: punkt nie wysłany ({e})", file=sys.stderr, flush=True)
         if not args.at:
             threading.Thread(target=plan_links, daemon=True).start()
+            chat.command("!punkt", lambda: plan_message(asked=True))
     # a live sitting: its broadcast titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on air
     if args.out == "rtmp" and not args.at and n and live_chat.configured():
         live_chat.keep_title(n)

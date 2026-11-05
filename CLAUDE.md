@@ -239,7 +239,11 @@ Live on sejmomat.pl:
   with no speaker named, "Wg harmonogramu: …" under a speaker, "opóźnienie ok. 40 min" from 15 min;
   breaks: "Harmonogram obrad" (turns with the agenda), the slot now lit, those ahead with the delay;
   the log notes each change. Tests: `tests/test_live_plan.py`. Not measured yet against transcripts
-  (no timetable was kept before sitting 68).
+  (no timetable was kept before sitting 68). Items are named by their law's subject (`live_plan.subject`:
+  "Punkt 5 · o systemie oświaty · druk nr 3278"). The bill debated by the plan also reaches viewers as a
+  card every ~5 min ("Przeczytaj ustawę, o której debatują: sejmomat.pl/3278", BILL_CARD_EVERY), a chat
+  message every 15 min (PLAN_LINK_EVERY) and a reply to "!punkt" (the chat read once a minute, 5 units a
+  read, one reply a minute; `VoteChat.command`).
 - **Vote links in the stream's chat** (`tools/live_chat.py`, started by `livestream.py` when it
   streams to RTMP live, or a replay with `--announce`, and the YouTube login is in
   `/etc/sejmomat-live.env`; `--no-chat` turns it off): a message per vote as the picture reaches it
