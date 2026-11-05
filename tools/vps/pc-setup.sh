@@ -25,8 +25,14 @@ if ((${#missing[@]})); then
     echo "Brakuje: ${missing[*]}. Na Fedorze/Nobarze: sudo dnf install ${missing[*]}" >&2
     exit 1
 fi
+# Tesseract with Polish reads the speakers' names off the broadcast; installed if missing (sudo)
 if ! command -v tesseract >/dev/null || ! tesseract --list-langs 2>/dev/null | grep -qx pol; then
-    echo "Uwaga: bez tesseract z językiem polskim nie będzie nazwisk mówców (sudo dnf install tesseract tesseract-langpack-pol)."
+    echo "Instaluję Tesseract z językiem polskim (nazwiska mówców); może zapytać o hasło…"
+    if command -v dnf >/dev/null; then sudo dnf install -y -q tesseract tesseract-langpack-pol
+    elif command -v apt-get >/dev/null; then sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-pol
+    elif command -v pacman >/dev/null; then sudo pacman -S --needed --noconfirm tesseract tesseract-data-pol
+    fi
+    tesseract --list-langs 2>/dev/null | grep -qx pol || echo "Uwaga: bez Tesseracta z polskim nie będzie nazwisk mówców (transmisja i tak ruszy)."
 fi
 echo "ok"
 

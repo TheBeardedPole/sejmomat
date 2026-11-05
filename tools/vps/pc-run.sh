@@ -15,6 +15,15 @@ ENV="$HOME/.config/sejmomat-live.env"
 for c in git python3 ffmpeg; do
     command -v "$c" >/dev/null || { echo "Brakuje programu: $c" >&2; exit 1; }
 done
+# Tesseract with Polish reads the speakers' names off the broadcast; installed if missing (sudo)
+if ! command -v tesseract >/dev/null || ! tesseract --list-langs 2>/dev/null | grep -qx pol; then
+    echo "Instaluję Tesseract z językiem polskim (nazwiska mówców); może zapytać o hasło…"
+    if command -v dnf >/dev/null; then sudo dnf install -y -q tesseract tesseract-langpack-pol
+    elif command -v apt-get >/dev/null; then sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-pol
+    elif command -v pacman >/dev/null; then sudo pacman -S --needed --noconfirm tesseract tesseract-data-pol
+    fi
+    tesseract --list-langs 2>/dev/null | grep -qx pol || echo "Uwaga: bez Tesseracta z polskim nie będzie nazwisk mówców (transmisja i tak ruszy)."
+fi
 # the service (pc-setup.sh) or the server must not stream at the same time: one key, one stream
 if systemctl --user is-active -q sejmomat-live 2>/dev/null; then
     echo "Usługa sejmomat-live już nadaje z tego komputera (systemctl --user stop sejmomat-live, by ją zatrzymać)." >&2
