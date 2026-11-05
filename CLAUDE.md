@@ -205,7 +205,7 @@ Live on sejmomat.pl:
   apart (the host's SSH times out now and then).
 
 - **Own stream with captions** (`tools/livestream.py`, run locally, not part of
-  the site): the Sejm's plenary stream through ffmpeg, ~100 s behind live (or a
+  the site): the Sejm's plenary stream through ffmpeg, ~150 s behind live (ffmpeg told to start at the playlist's first segment, `-live_start_index 0`; without it a live playlist plays from near its end) (or a
   replay from `--at "YYYY-MM-DD HH:MM"`), with a caption box in the bottom left (the cards' style) for the agenda item,
   its tags and the latest vote with its result, each shown when the picture
   reaches it (the clock is ffmpeg's position, not the wall clock). Out to a

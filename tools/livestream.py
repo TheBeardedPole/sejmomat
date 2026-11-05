@@ -2,7 +2,7 @@
 latest vote with its result, as they come up on screen. Run on your own
 computer (needs ffmpeg; ffplay for the preview window):
 
-    python tools/livestream.py                       # live, ~100 s behind, preview window
+    python tools/livestream.py                       # live, ~150 s behind, preview window
     python tools/livestream.py --out obrady.mkv      # live, to a file
     python tools/livestream.py --at "2026-10-22 17:40"   # replay from that moment
     SEJMOMAT_RTMP=rtmp://a.rtmp.youtube.com/live2/KEY python tools/livestream.py --out rtmp
@@ -478,6 +478,12 @@ FPS = 25
 FIT = f"scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2"
 
 
+# A live playlist asked "from start" lists everything from that moment to the live edge, but
+# ffmpeg plays a live playlist from 3 segments before its end unless told otherwise: the picture
+# was then live while the captions waited the delay (5 November 2026). From its first segment.
+FROM_START = ["-live_start_index", "0"]
+
+
 def snapshot_command(ahead, snapshot):
     """A second ffmpeg, apart from the picture's (in the same process the two readings
     held each other back): the stream from LOOKAHEAD seconds further on, read at
@@ -489,7 +495,7 @@ def snapshot_command(ahead, snapshot):
     thumbs = str(snapshot).replace("band-", "thumb-")
     graph = (f"[0:v]fps=1/{SNAP_EVERY},split=2[a][b];[a]{FIT},crop={bw}:{bh}:{bx}:{by}[band];"
              f"[b]scale={THUMB[0]}:{THUMB[1]},format=gray[thumb]")
-    return ["ffmpeg", "-hide_banner", "-loglevel", "error", "-re", *proxy, "-skip_frame", "nokey", "-i", ahead, "-an",
+    return ["ffmpeg", "-hide_banner", "-loglevel", "error", "-re", *proxy, *FROM_START, "-skip_frame", "nokey", "-i", ahead, "-an",
             "-filter_complex", graph,
             "-map", "[band]", "-f", "image2", "-start_number", "0", "-y", str(snapshot),
             "-map", "[thumb]", "-f", "image2", "-start_number", "0", "-y", thumbs]
@@ -511,7 +517,7 @@ def ffmpeg_command(src, out, snapshot, fast=False):
     needed here, as when snapshot_command reads them ahead). The picture ends when the
     overlay does (stdin closed), so a file is finished properly."""
     proxy = ["-http_proxy", VIDEO_PROXY] if VIDEO_PROXY else []
-    inputs = [*([] if fast else ["-re"]), *proxy, "-i", src,
+    inputs = [*([] if fast else ["-re"]), *proxy, *FROM_START, "-i", src,
               "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-framerate", str(FPS), "-thread_queue_size", "64", "-i", "pipe:0"]
     bx, by, bw, bh = BAND
     scaled = f"[0:v]{FIT},fps={FPS}"
@@ -541,7 +547,9 @@ def ffmpeg_command(src, out, snapshot, fast=False):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--at", help='replay from this Warsaw time, e.g. "2026-10-22 17:40"')
-    ap.add_argument("--delay", type=int, default=100, help="live: seconds behind live (default 100)")
+    # the API lists a vote 1-2 minutes after it is taken (114 s seen on 5 November 2026, votes
+    # coming in batches); the picture waits long enough for the vote to be there when it gets to it
+    ap.add_argument("--delay", type=int, default=150, help="live: seconds behind live (default 150)")
     ap.add_argument("--out", default="preview", help='"preview" (window), "rtmp" (SEJMOMAT_RTMP), or a file name')
     ap.add_argument("--seconds", type=int, help="stop after this many seconds")
     ap.add_argument("--quality", type=int, default=720, help="stream quality to read: picture height, e.g. 1080, 720, 384 (default 720)")
