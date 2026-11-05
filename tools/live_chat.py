@@ -301,6 +301,11 @@ class VoteChat:
     def start(self):
         threading.Thread(target=self._plan, daemon=True).start()
         threading.Thread(target=self._send, daemon=True).start()
+        return self
+
+    def post(self, text):
+        """A message of the stream's own (the item on by the plan), sent in turn with the votes'."""
+        self.out.put(text[:MAX_LEN])
 
     def _plan(self):
         while True:

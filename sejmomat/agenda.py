@@ -156,7 +156,7 @@ _SLOT_RE = re.compile(r"godz\.\s*(\d{1,2})[:.](\d{2})\s*[–-]\s*(\d{1,2})[:.](\
 def timetable(html):
     """The planned timetable as slots in order: [{"start", "end" (ISO, Warsaw time; a slot ending
     after midnight ends the next day), "points": item numbers in it, "vote": a block of votes,
-    "text": what is on, short}]. Items in a block of votes ("Głosowania, w tym: … (pkt 23)") are
+    "text": what is on, short, "prints": its print numbers, the bill's first}]. Items in a block of votes ("Głosowania, w tym: … (pkt 23)") are
     the ones to be voted there; "cd pkt 15" goes on with item 15."""
     from datetime import datetime
     text = unescape(re.sub(r"<[^>]+>", "\n", html or "")).replace("\xa0", " ")
@@ -184,13 +184,16 @@ def timetable(html):
         vote = bool(re.match(r"głosowani", flat, re.I))
         # what is on, short: the first entry without the speaking times and item numbers
         first = re.split(r"\s-\s(?=[A-ZŁŚŻŹĆ])|\s-\s*$", flat)[0]
+        # its prints ("druki nr 3263 i 3291"): the bill's first, then the committee's report
+        dm = re.search(r"\(druk(?:i|ów)?\s+nr\s+([^)]*)\)", first)
+        prints = re.findall(r"\d+(?:-[A-Z])?", dm[1]) if dm else []
         short = re.sub(r"\((?:\d+-minutowe|pkt)[^)]*\)", "", first)
         short = re.sub(r"\s*\(druk[^)]*\)", "", short)
         short = re.sub(r",? w tym:?$", "", re.sub(r"\s+", " ", short)).strip(" -,")
         if re.match(r"cd\.? pkt", short, re.I):
             short = f"cd. pkt {points[0]}" if points else short
         out.append({"start": start.isoformat(timespec="minutes"), "end": end.isoformat(timespec="minutes"),
-                    "points": points, "vote": vote, "text": short})
+                    "points": points, "vote": vote, "text": short, "prints": [] if vote else prints})
     return out
 
 

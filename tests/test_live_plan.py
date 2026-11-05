@@ -83,6 +83,18 @@ class Words(unittest.TestCase):
         self.assertEqual(lp.minutes(timedelta(minutes=70)), "ok. 1 godz. 10 min")
         self.assertEqual(lp.minutes(timedelta(minutes=118)), "ok. 2 godz.")
 
+    def test_subject(self):
+        self.assertEqual(lp.subject("projekt ustawy zmieniającej ustawę o zmianie ustawy o systemie oświaty oraz niektórych innych ustaw oraz ustawę o rynku pracy"),
+                         "o systemie oświaty")
+        self.assertEqual(lp.subject("zmiana ustawy o podatku dochodowym od osób fizycznych, ustawy o podatku dochodowym od osób prawnych"),
+                         "o podatku dochodowym od osób fizycznych")
+        self.assertEqual(lp.subject("zmiana ustawy – Karta Nauczyciela"), "Karta Nauczyciela")
+        self.assertEqual(lp.subject("ustawa o Karcie Rodziny Mundurowej"), "o Karcie Rodziny Mundurowej")
+        self.assertEqual(lp.subject("Wniosek o wyrażenie wotum nieufności wobec Ministra Spraw Wewnętrznych"), "Wotum nieufności wobec Ministra Spraw Wewnętrznych")
+        self.assertEqual(lp.subject("Rozpatrzenie wniosku Rady Ministrów o wyrażenie przez Sejm Rzeczypospolitej Polskiej zgody na przedłużenie ograniczenia"),
+                         "Zgoda na przedłużenie ograniczenia")
+        self.assertEqual(lp.subject("Informacja bieżąca"), "Informacja bieżąca")
+
     def test_label(self):
         self.assertEqual(lp.label(SLOTS[1]), "Punkt 1 · Pierwsze czytanie projektu ustawy o podatku")
         self.assertEqual(lp.label(SLOTS[0]), "Głosowania")

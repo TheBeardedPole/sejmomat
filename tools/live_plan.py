@@ -100,6 +100,25 @@ def minutes(late):
     return f"ok. {m // 60} godz. {m % 60} min" if m >= 60 and m % 60 else f"ok. {m // 60} godz." if m >= 60 else f"ok. {m} min"
 
 
+def subject(t):
+    """What an item is about, short, from its (already shortened) title: the law it changes or
+    makes ("zmiana ustawy o systemie oświaty oraz …" -> "o systemie oświaty", "zmiana ustawy –
+    Karta Nauczyciela" -> "Karta Nauczyciela"), the first one where several are named; a motion
+    by what it asks ("Wotum nieufności wobec …", "Zgoda na …"); anything else as it is."""
+    s = re.sub(r"^(?:projekt ustawy zmieniającej ustawę o zmianie ustawy|projekt ustawy zmieniającej ustawę|"
+               r"zmiana ustawy|ustawa)\s*[–-]?\s*", "", t, flags=re.I)
+    if s != t:
+        s = re.split(r",\s+ustaw[yę]\b|\s+oraz\s+(?:ustaw[yę]|niektórych innych ustaw)\b|\s+w celu\s", s)[0]
+        return s.strip(" ,")
+    m = re.match(r"wniosek o wyrażenie (wotum (?:nie)?ufności.*)", t, re.I)
+    if m:
+        return m[1][0].upper() + m[1][1:]
+    m = re.match(r"rozpatrzenie wniosku .*?o wyrażenie przez Sejm .*?zgody (na .*)", t, re.I)
+    if m:
+        return "Zgoda " + m[1]
+    return t
+
+
 def label(slot, short=lambda t: t):
     """What a slot is, for the caption: "Punkt 3 · Karta Nauczyciela", "Głosowania", "Przerwa"."""
     if slot["vote"]:

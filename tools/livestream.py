@@ -349,6 +349,7 @@ RESULT_SECONDS = 12                                     # after each vote: its r
 REACTION = 8                                            # after a vote on a whole bill: the hall's reaction, the result small, before the next amendment
 SHRINK = 0.5                                            # …in its last seconds (no amendment after it) it shrinks into a small window, bottom right
 FULL_WIDTH, FULL_LINES = 84, 10                         # then what an amendment changes, full screen: characters a line, lines a page
+PLAN_LINK_EVERY = 900                                   # seconds between chat messages with the planned item's page
 PLAN_EVERY = 600                                        # seconds between reloads of the planned timetable (it changes during a sitting)
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
 # A break in the sitting: the broadcast holds its wide shot of the hall (tools/break/*.png,
@@ -927,8 +928,16 @@ def main():
                                                      if late > timedelta(0) else "przed czasem" if late < timedelta(0) else "zgodnie z planem"), flush=True)
         return late, why, live_plan.current(slots, naive, late)
 
-    def plan_label(slot):
-        return live_plan.label(slot, lambda t: live_chat.first_upper(short_title(t)))
+    def plan_label(slot, druk=True):
+        """"Punkt 5 · o systemie oświaty · druk nr 3278": the law's subject, capitalised unless it
+        begins with "o", and the bill's print."""
+        def short(t):   # a long one shortened, so the print after it is still seen
+            t = textwrap.shorten(live_plan.subject(short_title(t)), 70, placeholder="…")
+            return t if t.startswith("o ") else live_chat.first_upper(t)
+        text = live_plan.label(slot, short)
+        if druk and slot.get("prints") and not slot["vote"] and not text.endswith("(cd.)"):
+            text += f" · druk nr {slot['prints'][0]}"
+        return text
 
     def plan_scene(clock, t, length, slot):
         """Harmonogram obrad: the day's planned slots, nine a page, the one the sitting is in by the
@@ -1347,8 +1356,27 @@ def main():
         def votes_now():
             with lock:
                 return list(votes)
-        live_chat.VoteChat(lambda: now["clock"], votes_now, start, short_topic).start()
+        chat = live_chat.VoteChat(lambda: now["clock"], votes_now, start, short_topic).start()
         print("czat: linki do głosowań włączone", flush=True)
+
+        # every PLAN_LINK_EVERY seconds, the item on by the plan with its print's page on the site
+        # (sejmomat.pl/3278 leads to druk/3278.html), for viewers who come in during a debate
+        def plan_links():
+            while True:
+                time.sleep(PLAN_LINK_EVERY)
+                try:
+                    late, why, slot_now = where(now["clock"])
+                    if slot_now and not slot_now["vote"] and slot_now.get("prints"):
+                        p = slot_now["prints"][0]
+                        tail = f" (druk nr {p}): {live_chat.SITE}/{p}"
+                        head = "Teraz wg harmonogramu: "
+                        # the item's name shortened, never the link (YouTube's 200 characters)
+                        name = textwrap.shorten(plan_label(slot_now, druk=False), live_chat.MAX_LEN - len(head) - len(tail), placeholder="…")
+                        chat.post(head + name + tail)
+                except Exception as e:
+                    print(f"czat: punkt nie wysłany ({e})", file=sys.stderr, flush=True)
+        if not args.at:
+            threading.Thread(target=plan_links, daemon=True).start()
     # a live sitting: its broadcast titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on air
     if args.out == "rtmp" and not args.at and n and live_chat.configured():
         live_chat.keep_title(n)
