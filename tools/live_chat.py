@@ -31,7 +31,9 @@ SEJMOMAT_YT_REFRESH_TOKEN. Messages come from the channel itself, so its links
 are not held back.
 
 Viewers can ask: "!punkt" in the chat gets the item on by the plan with its print's page (livestream.py),
-the chat read once a minute, one reply a minute however many ask.
+the chat read once a minute, one reply a minute however many ask. The channel, its moderators and
+ADMINS (SEJMOMAT_CHAT_ADMINS) can move the plan by hand: "!nowypunkt" (the next item has begun),
+"!poprzednipunkt" (still on the previous one: the sitting runs late).
 
 Quota: a message costs 20 units, finding the stream's chat 1, a read of the chat 5 (once a minute:
 some 4,200 over a long day), of 10,000 a day; a new
@@ -81,6 +83,10 @@ GAP = 4                  # seconds between two messages at least
 FIND_EVERY = 15          # seconds between looks for the stream's chat while there is none
 COMMAND_EVERY = 60       # seconds between reads of the chat for commands ("!punkt"): 5 units a read
 COMMAND_COOLDOWN = 60    # a command answered at most once in this long, however many ask
+# who may give the stream's own commands ("!nowypunkt"): the channel itself, its moderators (YouTube
+# vouches for both), and these names (a display name is not unique: making the account a moderator
+# is the safe way)
+ADMINS = {n.strip().lstrip("@").lower() for n in (os.environ.get("SEJMOMAT_CHAT_ADMINS") or "AdamKoscielakRZM").split(",") if n.strip()}
 KEEP_FOR = 300           # a message waits this long for the chat (a broadcast takes a while to go live)
 
 # a sitting's broadcast is given this title once it is live (SEJMOMAT_YT_TITLE, {n}: the sitting)
@@ -314,27 +320,38 @@ class VoteChat:
         """A message of the stream's own (the item on by the plan), sent in turn with the votes'."""
         self.out.put(text[:MAX_LEN])
 
-    def command(self, word, answer):
-        """Viewers typing `word` ("!punkt") in the chat get `answer()` in reply: the chat read every
-        COMMAND_EVERY seconds, one reply per COMMAND_COOLDOWN whoever asks."""
+    def command(self, word, answer, admin=False):
+        """`word` ("!punkt") typed in the chat gets `answer(message)` in reply (None: no reply): the
+        chat read every COMMAND_EVERY seconds. For viewers, one reply per COMMAND_COOLDOWN whoever
+        asks; an `admin` command only from the channel, its moderators or ADMINS, each one done."""
         if not self.commands:
             threading.Thread(target=self._listen, daemon=True).start()
-        self.commands[word.lower()] = answer
+        self.commands[word.lower()] = (answer, admin)
         return self
 
+    @staticmethod
+    def is_admin(m):
+        a = m.get("authorDetails") or {}
+        return bool(a.get("isChatOwner") or a.get("isChatModerator") or (a.get("displayName") or "").lstrip("@").lower() in ADMINS)
+
     def _asked(self, items, now=None):
-        """The commands asked in these chat messages, to be answered now: each once, not again
-        within COMMAND_COOLDOWN, never the channel's own messages."""
+        """[(command, message)] asked in these chat messages, to be done now: a viewers' command
+        once, not again within COMMAND_COOLDOWN, never from the channel's own messages (its replies);
+        an admin command each time, from those allowed only."""
         now = time.time() if now is None else now
         out = []
         for m in items:
-            if (m.get("authorDetails") or {}).get("isChatOwner"):
-                continue
             words = ((m.get("snippet") or {}).get("displayMessage") or "").strip().lower().split()
             word = words[0] if words else ""
-            if word in self.commands and word not in out and now - self.answered.get(word, 0) >= COMMAND_COOLDOWN:
+            if word not in self.commands:
+                continue
+            if self.commands[word][1]:
+                if self.is_admin(m):
+                    out.append((word, m))
+            elif (not (m.get("authorDetails") or {}).get("isChatOwner") and all(w != word for w, _ in out)
+                  and now - self.answered.get(word, 0) >= COMMAND_COOLDOWN):
                 self.answered[word] = now
-                out.append(word)
+                out.append((word, m))
         return out
 
     def _listen(self):
@@ -350,9 +367,11 @@ class VoteChat:
                     got = self.chat._call("GET", "liveChat/messages", params)
                     first, self.token = self.token is None, got.get("nextPageToken")
                     # the first read only marks where the chat is: what was asked before is left
-                    for word in ([] if first else self._asked(got.get("items", []))):
-                        self.post(self.commands[word]())
-                        print(f"czat: odpowiedź na {word}", flush=True)
+                    for word, m in ([] if first else self._asked(got.get("items", []))):
+                        reply = self.commands[word][0](m)
+                        if reply:
+                            self.post(reply)
+                        print(f"czat: {word} od {(m.get('authorDetails') or {}).get('displayName')}", flush=True)
             except urllib.error.HTTPError as e:
                 why = _reason(e)
                 print(f"czat: nie odczytano ({e.code} {why})", file=sys.stderr, flush=True)

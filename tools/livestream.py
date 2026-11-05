@@ -903,7 +903,7 @@ def main():
     # the planned timetable ("Przybliżony czas rozpatrywania punktów", sejmomat/agenda.py): from
     # the API, which has it while the sitting is current, every PLAN_EVERY seconds; for a past day
     # the copy kept in data/proceedings.json. Where the sitting is against it: tools/live_plan.py
-    timetable = {"slots": [], "late": None}
+    timetable = {"slots": [], "late": None, "manual": None}   # manual: (when, delay), from "!nowypunkt" / "!poprzednipunkt"
 
     def load_plan():
         try:
@@ -936,7 +936,7 @@ def main():
         if not slots:
             return timedelta(0), None, None
         naive = clock.replace(tzinfo=None)
-        late, why = live_plan.delay(slots, votes_now, naive)
+        late, why = live_plan.delay(slots, votes_now, naive, timetable["manual"])
         shown_late = late if abs(late) >= live_plan.OVERRUN else timedelta(0)
         if shown_late != timetable["late"]:
             timetable["late"] = shown_late
@@ -1407,7 +1407,28 @@ def main():
                     print(f"czat: punkt nie wysłany ({e})", file=sys.stderr, flush=True)
         if not args.at:
             threading.Thread(target=plan_links, daemon=True).start()
-            chat.command("!punkt", lambda: plan_message(asked=True))
+            chat.command("!punkt", lambda m: plan_message(asked=True))
+
+            def moved(m, forward):
+                """"!nowypunkt" / "!poprzednipunkt" from the channel or its moderators: the plan moved
+                by hand, at the picture's moment when the message was written (the chat is read once a
+                minute, the picture is behind live); the reply names the item now on."""
+                try:
+                    sent = datetime.fromisoformat(((m.get("snippet") or {}).get("publishedAt") or "").replace("Z", "+00:00"))
+                    at = now["clock"] - (datetime.now(WARSAW) - sent.astimezone(WARSAW))
+                except ValueError:
+                    at = now["clock"]
+                late, why, _ = where(at)
+                with lock:
+                    slots = timetable["slots"]
+                new_late, slot = live_plan.step(slots, at.replace(tzinfo=None), late, forward)
+                if slot is None:
+                    return "Harmonogram: nie ma " + ("następnego" if forward else "poprzedniego") + " punktu."
+                timetable["manual"] = (at.replace(tzinfo=None), new_late)
+                print(f"{at:%H:%M} harmonogram ręcznie: {plan_label(slot)} (opóźnienie {int(new_late.total_seconds() // 60)} min)", flush=True)
+                return f"Harmonogram poprawiony: teraz {plan_label(slot)}"
+            chat.command("!nowypunkt", lambda m: moved(m, True), admin=True)
+            chat.command("!poprzednipunkt", lambda m: moved(m, False), admin=True)
     # a live sitting: its broadcast titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on air
     if args.out == "rtmp" and not args.at and n and live_chat.configured():
         live_chat.keep_title(n)

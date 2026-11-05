@@ -243,7 +243,10 @@ Live on sejmomat.pl:
   "Punkt 5 · o systemie oświaty · druk nr 3278"). The bill debated by the plan also reaches viewers as a
   card every ~5 min ("Przeczytaj ustawę, o której debatują: sejmomat.pl/3278", BILL_CARD_EVERY), a chat
   message every 15 min (PLAN_LINK_EVERY) and a reply to "!punkt" (the chat read once a minute, 5 units a
-  read, one reply a minute; `VoteChat.command`).
+  read, one reply a minute; `VoteChat.command`). The plan moved by hand from the chat: "!nowypunkt" (the
+  next item has begun now) and "!poprzednipunkt" (still on the previous one), from the channel, its
+  moderators or `SEJMOMAT_CHAT_ADMINS` (default AdamKoscielakRZM; a display name is not unique, so a
+  moderator is safer); it holds until votes after it are measured (`live_plan.step`, `delay(manual=…)`).
 - **Vote links in the stream's chat** (`tools/live_chat.py`, started by `livestream.py` when it
   streams to RTMP live, or a replay with `--announce`, and the YouTube login is in
   `/etc/sejmomat-live.env`; `--no-chat` turns it off): a message per vote as the picture reaches it

@@ -77,6 +77,30 @@ class Delay(unittest.TestCase):
         self.assertEqual(late, timedelta(0))
 
 
+class ByHand(unittest.TestCase):
+    """!nowypunkt / !poprzednipunkt from the chat."""
+
+    def test_next_starts_now(self):
+        late, slot = lp.step(SLOTS, at("15:30"), timedelta(0), forward=True)   # plan: item 5 until 15:45
+        self.assertEqual(slot["points"], [6])
+        self.assertEqual(late, timedelta(minutes=-15))
+        self.assertEqual(lp.current(SLOTS, at("15:30"), late)["points"], [6])
+
+    def test_previous_means_late(self):
+        late, slot = lp.step(SLOTS, at("16:00"), timedelta(0), forward=False)  # plan: item 6; still on item 5
+        self.assertEqual(slot["points"], [5])
+        self.assertEqual(lp.current(SLOTS, at("16:00"), late)["points"], [5])
+        self.assertGreater(late, timedelta(0))
+
+    def test_manual_holds_until_votes_after_it(self):
+        votes = [vote("09:08"), vote("10:51", 1)]
+        manual = (at("15:30"), timedelta(minutes=50))
+        self.assertEqual(lp.delay(SLOTS, votes, at("15:40"), manual), (timedelta(minutes=50), "ręcznie"))
+        # votes measured after it take over: the 16:30 block run at 17:00 is 30 min late
+        late, why = lp.delay(SLOTS, votes + [vote("17:00", 7)], at("17:05"), manual)
+        self.assertEqual((late, why), (timedelta(minutes=30), "głosowania"))
+
+
 class Words(unittest.TestCase):
     def test_minutes(self):
         self.assertEqual(lp.minutes(timedelta(minutes=41)), "ok. 40 min")

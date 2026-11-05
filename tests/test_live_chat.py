@@ -91,18 +91,29 @@ class Commands(unittest.TestCase):
 
     def setUp(self):
         self.chat = live_chat.VoteChat.__new__(live_chat.VoteChat)
-        self.chat.commands, self.chat.answered = {"!punkt": lambda: "x"}, {}
+        self.chat.commands, self.chat.answered = {"!punkt": (lambda m: "x", False), "!nowypunkt": (lambda m: "y", True)}, {}
+
+    def words(self, items, now=1000):
+        return [w for w, _ in self.chat._asked(items, now=now)]
 
     def test_answered_once_per_read(self):
-        self.assertEqual(self.chat._asked([self.msg("!punkt"), self.msg("!PUNKT proszę"), self.msg("hej")], now=1000), ["!punkt"])
+        self.assertEqual(self.words([self.msg("!punkt"), self.msg("!PUNKT proszę"), self.msg("hej")]), ["!punkt"])
 
     def test_cooldown(self):
-        self.chat._asked([self.msg("!punkt")], now=1000)
-        self.assertEqual(self.chat._asked([self.msg("!punkt")], now=1030), [])
-        self.assertEqual(self.chat._asked([self.msg("!punkt")], now=1000 + live_chat.COMMAND_COOLDOWN), ["!punkt"])
+        self.words([self.msg("!punkt")], now=1000)
+        self.assertEqual(self.words([self.msg("!punkt")], now=1030), [])
+        self.assertEqual(self.words([self.msg("!punkt")], now=1000 + live_chat.COMMAND_COOLDOWN), ["!punkt"])
 
     def test_not_own_messages_nor_mid_sentence(self):
-        self.assertEqual(self.chat._asked([self.msg("!punkt", owner=True), self.msg("co to za !punkt")], now=1000), [])
+        self.assertEqual(self.words([self.msg("!punkt", owner=True), self.msg("co to za !punkt")]), [])
+
+    def test_admin_commands(self):
+        viewer = self.msg("!nowypunkt")
+        owner = self.msg("!nowypunkt", owner=True)
+        mod = {**self.msg("!nowypunkt"), "authorDetails": {"isChatModerator": True}}
+        named = {**self.msg("!nowypunkt"), "authorDetails": {"displayName": "@AdamKoscielakRZM"}}
+        self.assertEqual(self.words([viewer]), [])
+        self.assertEqual(self.words([owner, mod, named]), ["!nowypunkt"] * 3)   # each one done, no cooldown
 
 
 if __name__ == "__main__":

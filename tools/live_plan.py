@@ -55,10 +55,12 @@ def sitting_day(t):
     return (t - timedelta(hours=6)).date()
 
 
-def delay(slots, votes, clock):
+def delay(slots, votes, clock, manual=None):
     """(delay, why): how late the sitting runs at `clock` (a timedelta, negative when ahead), and
-    "głosowania" (measured on a run of votes), "czeka" (a planned block not begun yet) or None.
-    Each sitting day on its own: the morning does not inherit the night before's delay."""
+    "głosowania" (measured on a run of votes), "ręcznie" (set from the chat, `manual`: (when, delay),
+    see step()), "czeka" (a planned block not begun yet) or None. A manual delay holds until a run of
+    votes after it is measured. Each sitting day on its own: the morning does not inherit the night
+    before's delay."""
     day = sitting_day(clock)
     blocks = [s for s in slots if s["vote"] and sitting_day(s["start"]) == day]
     if not blocks:
@@ -78,14 +80,33 @@ def delay(slots, votes, clock):
         b = pick[0]
         used.add(id(b))
         late = first - b["start"]
-        found = (b, timedelta(0) if timedelta(0) <= late <= GRACE else max(late, -MAX_AHEAD))
+        found = (b, timedelta(0) if timedelta(0) <= late <= GRACE else max(late, -MAX_AHEAD), first)
     late, why = (found[1], "głosowania") if found else (timedelta(0), None)
+    measured = found[2] if found else datetime.min
+    if manual and manual[0] <= clock and sitting_day(manual[0]) == day and manual[0] >= measured:
+        late, why = manual[1], "ręcznie"
     # the next block after the last one matched: should it have begun by now?
     after = found[0]["start"] if found else datetime.min
     nxt = next((b for b in blocks if b["start"] > after and id(b) not in used), None)
     if nxt and clock > nxt["start"] + max(late, timedelta(0)) + GRACE:
         late, why = clock - nxt["start"], "czeka"
     return late, why
+
+
+def step(slots, clock, late, forward):
+    """Moved by hand from the chat ("!nowypunkt", "!poprzednipunkt"): (the delay that puts the
+    sitting at the next slot, starting at `clock`, or still in the previous one, at its middle;
+    that slot), or (None, None) when there is no such slot."""
+    now = current(slots, clock, late)
+    t = clock - late
+    if forward:
+        nxt = next((s for s in slots if s["start"] > (now["start"] if now else t)), None)
+        return (clock - nxt["start"], nxt) if nxt else (None, None)
+    before = [s for s in slots if s["start"] < (now["start"] if now else t)]
+    if not before:
+        return None, None
+    prev = before[-1]
+    return clock - (prev["start"] + (prev["end"] - prev["start"]) / 2), prev
 
 
 def current(slots, clock, late):
