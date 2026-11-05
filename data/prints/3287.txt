@@ -1,0 +1,620 @@
+                                                                         Druk nr 3287
+          SEJM
+RZECZYPOSPOLITEJ POLSKIE J
+            X kadencja
+
+
+                                     SPRAWOZDANIE
+                            KOMISJI FINANSÓW PUBLICZNYCH
+
+
+   o rządowym projekcie ustawy o zmianie ustawy
+   o rachunkowości oraz niektórych innych ustaw
+   (druk nr 3261)
+
+         Marszałek Sejmu, zgodnie z art. 37 ust. 1 i art. 40 ust. 1 regulaminu Sejmu skierował
+   w dniu 22 października 2026 r. powyższy projekt ustawy do Komisji Finansów Publicznych
+   do pierwszego czytania.
+
+         Komisja Finansów Publicznych po przeprowadzeniu pierwszego czytania oraz
+   rozpatrzeniu tego projektu ustawy na posiedzeniu w dniu 4 listopada 2026 r.
+
+        wnosi:
+
+   W y s o k i S e j m uchwalić raczy załączony projekt ustawy.
+
+
+
+   Warszawa, dnia 4 listopada 2026 r.
+
+
+
+                  Sprawozdawca                                   Przewodniczący
+                                                           Komisji Finansów Publicznych
+
+
+                 (-) Zofia Czernow                                (-) Janusz Cichoń
+
+
+
+
+                  Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 16     Data : 2026-11-05     Nazwa pliku : V7_164-23.NK                                     1
+X kadencja/druk nr 3261
+
+                                                                                                    Projekt
+                                               U S T AWA
+
+                                                   z dnia
+
+             o zmianie ustawy o rachunkowości oraz niektórych innych ustaw1), 2)
+
+
+       Art. 1. W ustawie z dnia 29 września 1994 r. o rachunkowości (Dz. U. z 2026 r. poz. 522,
+640, 644 i 1206) wprowadza się następujące zmiany:
+1)     odnośnik nr 1 do ustawy otrzymuje brzmienie:
+       „1) Niniejsza ustawa wdraża dyrektywę Parlamentu Europejskiego i Rady 2013/34/UE z
+            dnia 26 czerwca 2013 r. w sprawie rocznych sprawozdań finansowych,
+            skonsolidowanych sprawozdań finansowych i powiązanych sprawozdań niektórych
+            rodzajów jednostek, zmieniającą dyrektywę Parlamentu Europejskiego i Rady
+            2006/43/WE oraz uchylającą dyrektywy Rady 78/660/EWG i 83/349/EWG (Dz. Urz.
+            UE L 182 z 29.06.2013, str. 19, z późn. zm.).”;
+2)     w art. 3 w ust. 1:
+       a)    uchyla się pkt 1c,
+       b)    uchyla się pkt 1e;
+3)     w art. 49:
+       a)    w ust. 3b wprowadzenie do wyliczenia otrzymuje brzmienie:
+             „Sprawozdanie z działalności jednostki, w przypadku której w roku obrotowym i
+             roku poprzedzającym ten rok obrotowy przychody netto ze sprzedaży towarów i
+             produktów za rok obrotowy przekroczyły 1 900 000 000 zł oraz średnioroczne
+             zatrudnienie w przeliczeniu na pełne etaty przekroczyło 1000 osób, zawiera
+             również:”,
+
+
+
+
+1)
+     Niniejsza ustawa wdraża dyrektywę Parlamentu Europejskiego i Rady (UE) 2026/470 z dnia 24 lutego 2026 r.
+     w sprawie zmiany dyrektyw 2006/43/WE, 2013/34/UE, (UE) 2022/2464 i (UE) 2024/1760 w odniesieniu do
+     niektórych wymogów dotyczących sprawozdawczości przedsiębiorstw w zakresie zrównoważonego rozwoju
+     i niektórych wymogów w zakresie należytej staranności przedsiębiorstw w zakresie zrównoważonego rozwoju
+     (Dz. Urz. UE L 2026/470 z 26.02.2026).
+2)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 11 maja 2017 r. o biegłych rewidentach, firmach
+     audytorskich oraz nadzorze publicznym oraz ustawę z dnia 6 grudnia 2024 r. o zmianie ustawy o
+     rachunkowości, ustawy o biegłych rewidentach, firmach audytorskich oraz nadzorze publicznym oraz
+     niektórych innych ustaw.
+Liczba stron : 16     Data : 2026-11-05     Nazwa pliku : V7_164-23.NK                         2
+X kadencja/druk nr 3261
+
+     b)    po ust. 3b dodaje się ust. 3c i 3d w brzmieniu:
+                    „3c. Przepis ust. 3b stosuje się wyłącznie do sprawozdania z działalności
+           jednostki będącej:
+           1)       spółką kapitałową;
+           2)       spółką komandytowo-akcyjną;
+           3)       spółką jawną lub komandytową, której wszystkimi wspólnikami ponoszącymi
+                    nieograniczoną        odpowiedzialność    są   spółki   kapitałowe,   spółki
+                    komandytowo-akcyjne lub spółki z innych państw o podobnej do tych spółek
+                    formie prawnej.
+                    3d. Sprawozdanie z działalności jednostki przestaje podlegać wymogom
+           określonym w ust. 3b, jeżeli w roku obrotowym i roku poprzedzającym ten rok
+           obrotowy przychody netto ze sprzedaży towarów i produktów tej jednostki za rok
+           obrotowy lub średnioroczne zatrudnienie w przeliczeniu na pełne etaty nie
+           przekroczyły wielkości wskazanych w tym przepisie.”;
+4)   w art. 55:
+     a)    ust. 2a otrzymuje brzmienie:
+                    „2a. Do rocznego skonsolidowanego sprawozdania finansowego dołącza się
+           sprawozdanie z działalności grupy kapitałowej, sporządzone odpowiednio według
+           wymogów, o których mowa w art. 49 ust. 2–3d i 7–9, z tym że:
+           1)       w przypadku informacji określonych w art. 49 ust. 2 pkt 5 sprawozdanie to
+                    obejmuje informacje o udziałach własnych posiadanych przez jednostkę
+                    dominującą, jednostki wchodzące w skład grupy kapitałowej oraz osoby
+                    działające w ich imieniu;
+           2)       określony w art. 49 ust. 3b warunek uzyskania przychodów netto ze sprzedaży
+                    towarów i produktów w roku obrotowym i roku poprzedzającym ten rok
+                    obrotowy uznaje się za spełniony, jeżeli przychody te przekraczają 1 900 000
+                    000 zł po dokonaniu wyłączeń konsolidacyjnych, o których mowa w art. 60
+                    ust. 2 i 6, oraz 2 280 000 000 zł przed dokonaniem tych wyłączeń.”,
+     b)    po ust. 2a dodaje się ust. 2aa w brzmieniu:
+                    „2aa. Sprawozdanie z działalności grupy kapitałowej można sporządzić łącznie
+           ze sprawozdaniem z działalności jednostki dominującej jako jedno sprawozdanie.”;
+5)   w art. 63p:
+     a)    uchyla się pkt 3,
+Liczba stron : 16        Data : 2026-11-05    Nazwa pliku : V7_164-23.NK                        3
+X kadencja/druk nr 3261
+
+     b)    dodaje się pkt 4–6 w brzmieniu:
+           „4) dobrowolnych standardach sprawozdawczości zrównoważonego rozwoju –
+                    rozumie się przez to standardy określone przez Komisję Europejską w drodze
+                    aktów delegowanych wydanych na podstawie art. 29ca ust. 1 dyrektywy
+                    Parlamentu Europejskiego i Rady 2013/34/UE z dnia 26 czerwca 2013 r. w
+                    sprawie rocznych sprawozdań finansowych, skonsolidowanych sprawozdań
+                    finansowych i powiązanych sprawozdań niektórych rodzajów jednostek,
+                    zmieniającej dyrektywę Parlamentu Europejskiego i Rady 2006/43/WE oraz
+                    uchylającej dyrektywy Rady 78/660/EWG i 83/349/EWG;
+           5)       finansowej jednostce holdingowej – rozumie się przez to jednostkę, której
+                    wyłącznym przedmiotem działalności jest nabywanie udziałów w innych
+                    jednostkach oraz zarządzanie tymi udziałami i osiąganie z nich zysków, o ile
+                    jednostka ta nie angażuje się bezpośrednio lub pośrednio w zarządzanie tymi
+                    jednostkami, z wyłączeniem przypadków korzystania przez tę jednostkę z praw
+                    przysługujących jej jako akcjonariuszowi;
+           6)       jednostce chronionej – rozumie się przez to podmiot spełniający łącznie
+                    następujące warunki:
+                    a)     jest podmiotem w łańcuchu wartości jednostki, o której mowa w art. 63r
+                           ust. 1 lub art. 63x ust. 1,
+                    b)     na dzień bilansowy średnioroczne zatrudnienie w przeliczeniu na pełne
+                           etaty w poprzednim roku obrotowym nie przekroczyło w tym podmiocie
+                           1000 osób.”;
+6)   w art. 63r:
+     a)    ust. 1 otrzymuje brzmienie:
+                    „1. Jednostka, w przypadku której w roku obrotowym i roku poprzedzającym
+           ten rok obrotowy przychody netto ze sprzedaży towarów i produktów za rok
+           obrotowy przekroczyły 1 900 000 000 zł oraz średnioroczne zatrudnienie w
+           przeliczeniu na pełne etaty przekroczyło 1000 osób, jest obowiązana przedstawić w
+           wyodrębnionej części sprawozdania z działalności informacje niezbędne do
+           zrozumienia wpływu jednostki na kwestie zrównoważonego rozwoju oraz do
+           zrozumienia, w jaki sposób kwestie zrównoważonego rozwoju wpływają na rozwój,
+           wyniki i sytuację jednostki, zwane dalej „sprawozdawczością zrównoważonego
+           rozwoju”.”,
+Liczba stron : 16     Data : 2026-11-05    Nazwa pliku : V7_164-23.NK                           4
+X kadencja/druk nr 3261
+
+     b)    po ust. 1 dodaje się ust. 1a w brzmieniu:
+                    „1a. Jednostka przestaje podlegać obowiązkowi, o którym mowa w ust. 1, jeżeli
+           w roku obrotowym i roku poprzedzającym ten rok obrotowy jej przychody netto ze
+           sprzedaży towarów i produktów za rok obrotowy lub średnioroczne zatrudnienie w
+           przeliczeniu na pełne etaty nie przekroczyły wielkości wskazanych w tym
+           przepisie.”,
+     c)    po ust. 5 dodaje się ust. 5a–5g w brzmieniu:
+                    „5a. W przypadku wystąpienia przez jednostkę do jednostki chronionej z
+           żądaniem przekazania informacji na potrzeby sprawozdawczości zrównoważonego
+           rozwoju jednostce chronionej przysługuje prawo odmowy udzielenia informacji
+           wykraczających        poza      zakres     określony    w   dobrowolnych   standardach
+           sprawozdawczości zrównoważonego rozwoju.
+                    5b. Na potrzeby przedstawienia w sprawozdawczości zrównoważonego
+           rozwoju informacji o łańcuchu wartości jednostka nie może wymagać zawarcia w
+           umowach lub innych porozumieniach z jednostką chronioną postanowień
+           zobowiązujących jednostkę chronioną do przekazywania informacji wykraczających
+           poza       zakres   określony    w       dobrowolnych   standardach   sprawozdawczości
+           zrównoważonego rozwoju. W przypadku zawarcia takich postanowień w umowie
+           lub innym porozumieniu uznaje się je za niewiążące, przy czym okoliczność ta
+           pozostaje bez wpływu na związanie pozostałymi postanowieniami umowy lub
+           innego porozumienia.
+                    5c. Występując, bezpośrednio lub pośrednio, do jednostki chronionej o
+           informacje na potrzeby sprawozdawczości zrównoważonego rozwoju, jednostka
+           informuje jednostkę chronioną o tym, które z żądanych informacji wykraczają poza
+           zakres określony w dobrowolnych standardach sprawozdawczości zrównoważonego
+           rozwoju, oraz o prawie jednostki chronionej do odmowy udzielenia tych informacji.
+                    5d. W przypadku gdy jednostka przedstawiła w sprawozdawczości
+           zrównoważonego rozwoju niezbędne informacje na temat łańcucha wartości z
+           pominięciem przekazania przez jednostkę chronioną informacji wykraczających
+           poza       zakres   określony    w       dobrowolnych   standardach   sprawozdawczości
+           zrównoważonego rozwoju, uznaje się, że jednostka ta wypełniła obowiązek
+           przedstawienia informacji na temat łańcucha wartości określony w ust. 5 pkt 1.
+Liczba stron : 16        Data : 2026-11-05    Nazwa pliku : V7_164-23.NK                          5
+X kadencja/druk nr 3261
+
+                    5e. Przy ustalaniu, czy jednostka w łańcuchu wartości jest jednostką chronioną,
+           jednostka może polegać na oświadczeniu tej jednostki w łańcuchu wartości i nie ma
+           obowiązku weryfikacji informacji zawartych w takim oświadczeniu, chyba że wie
+           lub, oceniając rozsądnie, powinna wiedzieć, że oświadczenie jest w oczywisty
+           sposób nieprawdziwe.
+                    5f. Przepisy ust. 5a–5e:
+           1)       nie ograniczają prawa jednostki do żądania od jednostek w łańcuchu wartości
+                    przekazywania         informacji   na   potrzeby   inne   niż   sprawozdawczość
+                    zrównoważonego rozwoju, w tym na potrzeby spełnienia wymogów
+                    dotyczących procesu należytej staranności wynikających z przepisów prawa
+                    Unii Europejskiej;
+           2)       nie mogą stanowić podstawy do nałożenia na jednostkę w łańcuchu wartości
+                    obowiązku przekazywania informacji w zakresie zrównoważonego rozwoju.
+                    5g. W przypadku gdy nie wszystkie niezbędne informacje na temat łańcucha
+           wartości jednostki są dostępne, jednostka przedstawia w sprawozdawczości
+           zrównoważonego rozwoju sporządzanej za:
+           1)       pierwsze 3 lata obrotowe podlegania obowiązkowi określonemu w ust. 1:
+                    a)     informacje o działaniach podjętych w celu uzyskania niezbędnych
+                           informacji na temat jej łańcucha wartości oraz
+                    b)     powody nieuzyskania niezbędnych informacji na temat jej łańcucha
+                           wartości, oraz
+                    c)     działania, jakie zamierza podjąć w celu uzyskania tych informacji w
+                           przyszłości;
+           2)       czwarty rok obrotowy i kolejne lata obrotowe podlegania obowiązkowi
+                    określonemu w ust. 1 – informacje na temat jej łańcucha wartości na podstawie
+                    informacji uzyskanych bezpośrednio od jednostek w jej łańcuchu wartości lub
+                    danych szacunkowych.”,
+     d)    ust. 7 otrzymuje brzmienie:
+                    „7. Jednostka może pominąć w sprawozdawczości zrównoważonego rozwoju:
+           1)       w wyjątkowych przypadkach – informacje, których ujawnienie miałoby istotnie
+                    szkodliwy wpływ na sytuację rynkową jednostki, pod warunkiem że:
+                    a)     pominięcie tych informacji nie uniemożliwia prawidłowej i obiektywnej
+                           oceny rozwoju, wyników i sytuacji jednostki lub głównych ryzyk dla
+Liczba stron : 16        Data : 2026-11-05   Nazwa pliku : V7_164-23.NK                            6
+X kadencja/druk nr 3261
+
+                           jednostki związanych z kwestiami zrównoważonego rozwoju, lub
+                           głównych wpływów jednostki na kwestie zrównoważonego rozwoju oraz
+                    b)     jednostka ustaliła, że nie jest możliwe ujawnienie informacji bez istotnie
+                           szkodliwego wpływu na jej sytuację rynkową w sposób, który pozwoliłby
+                           jej wypełnić obowiązek informacyjny, w tym w drodze agregacji danych,
+                           oraz
+                    c)     jednostka ujawni fakt, że skorzystała z możliwości pominięcia informacji
+                           na podstawie niniejszego przepisu, oraz
+                    d)     na każdy dzień sprawozdawczy jednostka ponownie oceni dopuszczalność
+                           pominięcia tych informacji;
+           2)       informacje dotyczące kapitału intelektualnego, własności intelektualnej,
+                    know-how, informacji technologicznych lub wyników innowacji, które
+                    stanowią tajemnicę przedsiębiorstwa w rozumieniu art. 11 ust. 2 ustawy z dnia
+                    16 kwietnia 1993 r. o zwalczaniu nieuczciwej konkurencji (Dz. U. z 2026 r.
+                    poz. 85), pod warunkiem że:
+                    a)     jednostka ujawni fakt, że skorzystała z możliwości pominięcia informacji
+                           na podstawie niniejszego przepisu, oraz
+                    b)     na każdy dzień sprawozdawczy jednostka ponownie oceni dopuszczalność
+                           pominięcia tych informacji;
+           3)       informacje niejawne w rozumieniu art. 2 pkt 7 rozporządzenia Parlamentu
+                    Europejskiego i Rady (UE) 2023/2418 z dnia 18 października 2023 r. w sprawie
+                    ustanowienia instrumentu na rzecz wzmocnienia europejskiego przemysłu
+                    obronnego przez zamówienia realizowane na zasadzie współpracy (EDIRPA)
+                    (Dz. Urz. UE L 2023/2418 z 26.10.2023), pod warunkiem że:
+                    a)     jednostka ujawni fakt, że skorzystała z możliwości pominięcia informacji
+                           na podstawie niniejszego przepisu, oraz
+                    b)     na każdy dzień sprawozdawczy jednostka ponownie oceni dopuszczalność
+                           pominięcia tych informacji;
+           4)       informacje inne niż wymienione w pkt 1–3, które mają być chronione przed
+                    nieuprawnionym dostępem lub ujawnieniem na podstawie odrębnych
+Liczba stron : 16        Data : 2026-11-05   Nazwa pliku : V7_164-23.NK                            7
+X kadencja/druk nr 3261
+
+                    przepisów lub w celu ochrony prywatności lub bezpieczeństwa osoby fizycznej
+                    lub bezpieczeństwa osoby prawnej, pod warunkiem że:
+                    a)      jednostka ujawni fakt, że skorzystała z możliwości pominięcia informacji
+                            na podstawie niniejszego przepisu, oraz
+                    b)      na każdy dzień sprawozdawczy jednostka ponownie oceni dopuszczalność
+                            pominięcia tych informacji.”;
+7)   uchyla się art. 63s;
+8)   w art. 63w uchyla się ust. 1;
+9)   w art. 63x:
+     a)    ust. 1 otrzymuje brzmienie:
+                    „1. Jednostka dominująca grupy kapitałowej, która w roku obrotowym i roku
+           poprzedzającym ten rok obrotowy przekroczyła na poziomie grupy kapitałowej
+           następujące wielkości:
+           1)       1 900 000 000 zł po dokonaniu wyłączeń konsolidacyjnych, o których mowa w
+                    art. 60 ust. 2 i 6, oraz 2 280 000 000 zł przed dokonaniem tych wyłączeń – w
+                    przypadku przychodów netto ze sprzedaży towarów i produktów za rok
+                    obrotowy, oraz
+           2)       1000 osób – w przypadku średniorocznego zatrudnienia w przeliczeniu na pełne
+                    etaty
+           – jest obowiązana przedstawić w wyodrębnionej części sprawozdania z działalności
+           grupy kapitałowej informacje niezbędne do zrozumienia wpływu grupy kapitałowej
+           na kwestie zrównoważonego rozwoju oraz do zrozumienia, w jaki sposób kwestie
+           zrównoważonego rozwoju wpływają na rozwój, wyniki i sytuację grupy kapitałowej,
+           zwane dalej „sprawozdawczością zrównoważonego rozwoju grupy kapitałowej”.”,
+     b)    po ust. 1 dodaje się ust. 1a i 1b w brzmieniu:
+                    „1a. Jednostka dominująca przestaje podlegać obowiązkowi, o którym mowa w
+           ust. 1, jeżeli w roku obrotowym i roku poprzedzającym ten rok obrotowy nie
+           przekroczyła na poziomie grupy kapitałowej co najmniej jednej z trzech wielkości
+           wskazanych w ust. 1.
+                    1b. Kierownik jednostki dominującej będącej finansową jednostką holdingową
+           może podjąć decyzję o niesporządzaniu sprawozdawczości zrównoważonego
+           rozwoju grupy kapitałowej, jeżeli modele biznesowe i prowadzona działalność jej
+           jednostek zależnych są od siebie niezależne.”,
+Liczba stron : 16     Data : 2026-11-05   Nazwa pliku : V7_164-23.NK                             8
+X kadencja/druk nr 3261
+
+     c)    po ust. 5 dodaje się ust. 5a–5g w brzmieniu:
+                    „5a. W przypadku wystąpienia przez jednostkę dominującą do jednostki
+           chronionej z żądaniem przekazania informacji na potrzeby sprawozdawczości
+           zrównoważonego rozwoju grupy kapitałowej jednostce chronionej przysługuje
+           prawo odmowy udzielenia informacji wykraczających poza zakres określony w
+           dobrowolnych standardach sprawozdawczości zrównoważonego rozwoju.
+                    5b. Na potrzeby przedstawienia w sprawozdawczości zrównoważonego
+           rozwoju grupy kapitałowej informacji o łańcuchu wartości jednostka dominująca nie
+           może wymagać zawarcia w umowach lub innych porozumieniach z jednostką
+           chronioną postanowień zobowiązujących jednostkę chronioną do przekazywania
+           informacji wykraczających poza zakres określony w dobrowolnych standardach
+           sprawozdawczości zrównoważonego rozwoju. W przypadku zawarcia takich
+           postanowień w umowie lub innym porozumieniu uznaje się je za niewiążące, przy
+           czym okoliczność ta pozostaje bez wpływu na związanie pozostałymi
+           postanowieniami umowy lub innego porozumienia.
+                    5c. Występując, bezpośrednio lub pośrednio, do jednostki chronionej o
+           informacje na potrzeby sprawozdawczości zrównoważonego rozwoju grupy
+           kapitałowej, jednostka dominująca informuje jednostkę chronioną o tym, które z
+           żądanych informacji wykraczają poza zakres określony w dobrowolnych standardach
+           sprawozdawczości zrównoważonego rozwoju, oraz o prawie jednostki chronionej do
+           odmowy udzielenia tych informacji.
+                    5d. W przypadku gdy jednostka dominująca przedstawiła w sprawozdawczości
+           zrównoważonego rozwoju grupy kapitałowej niezbędne informacje na temat
+           łańcucha wartości z pominięciem przekazania przez jednostkę chronioną informacji
+           wykraczających        poza     zakres   określony    w    dobrowolnych      standardach
+           sprawozdawczości zrównoważonego rozwoju, uznaje się, że ta jednostka dominująca
+           wypełniła obowiązek przedstawienia informacji na temat łańcucha wartości
+           określony w ust. 5 pkt 1.
+                    5e. Przy ustalaniu, czy jednostka w łańcuchu wartości jest jednostką chronioną,
+           jednostka dominująca może polegać na oświadczeniu tej jednostki w łańcuchu
+           wartości i nie ma obowiązku weryfikacji informacji zawartych w takim
+           oświadczeniu, chyba że wie lub, oceniając rozsądnie, powinna wiedzieć, że
+           oświadczenie jest w oczywisty sposób nieprawdziwe.
+Liczba stron : 16        Data : 2026-11-05     Nazwa pliku : V7_164-23.NK                            9
+X kadencja/druk nr 3261
+
+                    5f. Przepisy ust. 5a–5e:
+           1)       nie ograniczają prawa jednostki dominującej do żądania od jednostek w
+                    łańcuchu wartości          przekazywania     informacji   na potrzeby   inne   niż
+                    sprawozdawczość zrównoważonego rozwoju grupy kapitałowej, w tym na
+                    potrzeby spełnienia wymogów dotyczących procesu należytej staranności
+                    wynikających z przepisów prawa Unii Europejskiej;
+           2)       nie mogą stanowić podstawy do nałożenia na jednostkę w łańcuchu wartości
+                    obowiązku przekazywania informacji w zakresie zrównoważonego rozwoju.
+                    5g. W przypadku gdy nie wszystkie niezbędne informacje na temat łańcucha
+           wartości jednostki dominującej są dostępne, jednostka dominująca przedstawia w
+           sprawozdawczości zrównoważonego rozwoju grupy kapitałowej sporządzanej za:
+           1)       pierwsze 3 lata obrotowe podlegania obowiązkowi określonemu w ust. 1:
+                    a)     informacje o działaniach podjętych w celu uzyskania niezbędnych
+                           informacji na temat jej łańcucha wartości oraz
+                    b)     powody nieuzyskania niezbędnych informacji na temat jej łańcucha
+                           wartości, oraz
+                    c)     działania, jakie zamierza podjąć w celu uzyskania tych informacji w
+                           przyszłości;
+           2)       czwarty rok obrotowy i kolejne lata obrotowe podlegania obowiązkowi
+                    określonemu w ust. 1 – informacje na temat jej łańcucha wartości na podstawie
+                    informacji uzyskanych bezpośrednio od jednostek w jej łańcuchu wartości lub
+                    danych szacunkowych.”,
+     d)    ust. 7 otrzymuje brzmienie:
+                    „7.     Jednostka        dominująca   może      pominąć    w   sprawozdawczości
+           zrównoważonego rozwoju grupy kapitałowej:
+           1)       w wyjątkowych przypadkach – informacje, których ujawnienie miałoby istotnie
+                    szkodliwy wpływ na sytuację rynkową grupy kapitałowej, pod warunkiem że:
+                    a)     pominięcie tych informacji nie uniemożliwia prawidłowej i obiektywnej
+                           oceny rozwoju, wyników i sytuacji grupy kapitałowej lub głównych ryzyk
+                           dla grupy kapitałowej związanych z kwestiami zrównoważonego rozwoju,
+                           lub głównych wpływów grupy kapitałowej na kwestie zrównoważonego
+                           rozwoju oraz
+Liczba stron : 16        Data : 2026-11-05   Nazwa pliku : V7_164-23.NK                          10
+X kadencja/druk nr 3261
+
+                    b)     jednostka dominująca ustaliła, że nie jest możliwe ujawnienie informacji
+                           bez istotnie szkodliwego wpływu na sytuację rynkową grupy kapitałowej
+                           w sposób, który pozwoliłby tej jednostce dominującej wypełnić
+                           obowiązek informacyjny, w tym w drodze agregacji danych, oraz
+                    c)     jednostka dominująca ujawni fakt, że skorzystała z możliwości pominięcia
+                           informacji na podstawie niniejszego przepisu, oraz
+                    d)     na każdy dzień sprawozdawczy jednostka dominująca ponownie oceni
+                           dopuszczalność pominięcia tych informacji;
+           2)       informacje dotyczące kapitału intelektualnego, własności intelektualnej,
+                    know-how, informacji technologicznych lub wyników innowacji, które
+                    stanowią tajemnicę przedsiębiorstwa w rozumieniu art. 11 ust. 2 ustawy z dnia
+                    16 kwietnia 1993 r. o zwalczaniu nieuczciwej konkurencji, pod warunkiem że:
+                    a)     jednostka dominująca ujawni fakt, że skorzystała z możliwości pominięcia
+                           informacji na podstawie niniejszego przepisu, oraz
+                    b)     na każdy dzień sprawozdawczy jednostka dominująca ponownie oceni
+                           dopuszczalność pominięcia tych informacji;
+           3)       informacje niejawne w rozumieniu art. 2 pkt 7 rozporządzenia Parlamentu
+                    Europejskiego i Rady (UE) 2023/2418 z dnia 18 października 2023 r. w sprawie
+                    ustanowienia instrumentu na rzecz wzmocnienia europejskiego przemysłu
+                    obronnego przez zamówienia realizowane na zasadzie współpracy (EDIRPA),
+                    pod warunkiem że:
+                    a)     jednostka dominująca ujawni fakt, że skorzystała z możliwości pominięcia
+                           informacji na podstawie niniejszego przepisu, oraz
+                    b)     na każdy dzień sprawozdawczy jednostka dominująca ponownie oceni
+                           dopuszczalność pominięcia tych informacji;
+           4)       informacje inne niż wymienione w pkt 1–3, które mają być chronione przed
+                    nieuprawnionym dostępem lub ujawnieniem na podstawie odrębnych
+                    przepisów lub w celu ochrony prywatności lub bezpieczeństwa osoby fizycznej
+                    lub bezpieczeństwa osoby prawnej, pod warunkiem że:
+                    a)     jednostka dominująca ujawni fakt, że skorzystała z możliwości pominięcia
+                           informacji na podstawie niniejszego przepisu, oraz
+                    b)     na każdy dzień sprawozdawczy jednostka dominująca ponownie oceni
+                           dopuszczalność pominięcia tych informacji.”,
+Liczba stron : 16     Data : 2026-11-05   Nazwa pliku : V7_164-23.NK                             11
+X kadencja/druk nr 3261
+
+     e)    po ust. 8 dodaje się ust. 8a w brzmieniu:
+                    „8a. Jednostka dominująca może nie uwzględnić w sprawozdawczości
+           zrównoważonego rozwoju grupy kapitałowej za dany rok obrotowy informacji
+           dotyczących:
+           1)       jednostek podlegających nabyciu lub połączeniu, których skutkiem jest zmiana
+                    składu grupy kapitałowej w trakcie tego roku obrotowego,
+           2)       jednostki zależnej, która przestała być częścią grupy kapitałowej w trakcie tego
+                    roku obrotowego
+           – przy czym jednostka dominująca przedstawia informacje o znaczących
+           zdarzeniach, które miały wpływ w trakcie roku obrotowego na jednostki, o których
+           mowa w pkt 1 lub 2, jeżeli zdarzenia te oddziałują na wpływy grupy kapitałowej na
+           kwestie zrównoważonego rozwoju lub na ryzyka lub szanse grupy kapitałowej
+           związane z kwestiami zrównoważonego rozwoju.”,
+     f)    ust. 10 otrzymuje brzmienie:
+                    „10. W przypadku gdy jednostka dominująca grupy kapitałowej określona w
+           ust. 1 nie sporządza zgodnie z art. 56 ust. 3 skonsolidowanego sprawozdania
+           finansowego na podstawie art. 58, jednostka ta przedstawia sprawozdawczość
+           zrównoważonego rozwoju grupy kapitałowej w sprawozdaniu z działalności
+           jednostki.”;
+10) w art. 63zb uchyla się ust. 1;
+11) w art. 63zd:
+     a)    w ust. 1:
+           –    w pkt 1:
+                – – lit. a otrzymuje brzmienie:
+                      „a) jednostka zależna uzyskała przychody netto ze sprzedaży towarów i
+                            produktów w poprzedzającym roku obrotowym w wysokości
+                            przekraczającej 890 000 000 zł,”,
+                – – w lit. b wyrazy „150 000 000 euro” zastępuje się wyrazami „450 000 000
+                      euro”,
+           –    w pkt 2:
+                – – we wprowadzeniu do wyliczenia wyrazy „40 000 000 euro” zastępuje się
+                      wyrazami „890 000 000 zł”,
+Liczba stron : 16     Data : 2026-11-05   Nazwa pliku : V7_164-23.NK                             12
+X kadencja/druk nr 3261
+
+               – – w lit. a wyrazy „150 000 000 euro” zastępuje się wyrazami „450 000 000
+                      euro”,
+               – – w lit. b w tiret drugim wyrazy „150 000 000 euro” zastępuje się wyrazami
+                      „450 000 000 euro”,
+     b)    po ust. 1 dodaje się ust. 1a w brzmieniu:
+                    „1a. Kierownik jednostki zależnej, o której mowa w ust. 1 pkt 1, albo kierownik
+           oddziału, o którym mowa w ust. 1 pkt 2, może podjąć decyzję o niepublikowaniu
+           sprawozdawczości         zrównoważonego      rozwoju    jednostek   z   państw    spoza
+           Europejskiego Obszaru Gospodarczego dotyczącej grupy kapitałowej jednostki
+           dominującej najwyższego szczebla, jeżeli jednostka dominująca najwyższego
+           szczebla, o której mowa w ust. 1 pkt 1 albo pkt 2 lit. b, jest finansową jednostką
+           holdingową, a modele biznesowe i prowadzona działalność jej jednostek zależnych
+           są od siebie niezależne.”;
+12) w art. 66 ust. 8 otrzymuje brzmienie:
+           „8. Różnice poglądów w zakresie stosowania zasad rachunkowości, standardów
+     badania, standardów sprawozdawczości zrównoważonego rozwoju lub standardów
+     atestacji sprawozdawczości zrównoważonego rozwoju nie stanowią uzasadnionej
+     podstawy rozwiązania odpowiednio umowy o badanie lub umowy o atestację
+     sprawozdawczości zrównoważonego rozwoju.”.
+
+     Art. 2. W ustawie z dnia 11 maja 2017 r. o biegłych rewidentach, firmach audytorskich
+oraz nadzorze publicznym (Dz. U. z 2025 r. poz. 1891 oraz z 2026 r. poz. 640, 644 i 1206)
+wprowadza się następujące zmiany:
+1)   odnośnik nr 1 do ustawy otrzymuje brzmienie:
+     „1) Niniejsza ustawa wdraża:
+          1) dyrektywę 2006/43/WE Parlamentu Europejskiego i Rady z dnia 17 maja 2006 r.
+              w       sprawie   ustawowych     badań    rocznych    sprawozdań     finansowych    i
+              skonsolidowanych sprawozdań finansowych, zmieniającą dyrektywy Rady
+              78/660/EWG i 83/349/EWG oraz uchylającą dyrektywę Rady 84/253/EWG (Dz.
+              Urz. UE L 157 z 09.06.2006, str. 87, z późn. zm.);
+          2) dyrektywę Parlamentu Europejskiego i Rady 2013/34/UE z dnia 26 czerwca
+              2013 r. w sprawie rocznych sprawozdań finansowych, skonsolidowanych
+              sprawozdań finansowych i powiązanych sprawozdań niektórych rodzajów
+              jednostek, zmieniającą dyrektywę Parlamentu Europejskiego i Rady 2006/43/WE
+Liczba stron : 16     Data : 2026-11-05   Nazwa pliku : V7_164-23.NK                         13
+X kadencja/druk nr 3261
+
+               oraz uchylającą dyrektywy Rady 78/660/EWG i 83/349/EWG (Dz. Urz. UE L
+               182 z 29.06.2013, str. 19, z późn. zm.).”;
+2)   w art. 2 w pkt 4a skreśla się wyrazy „i art. 63s”;
+3)   w art. 14 w ust. 2a w pkt 2 wyrazy „standardów sprawozdawczości zrównoważonego
+     rozwoju dla małych i średnich jednostek w rozumieniu art. 63p pkt 3 tej ustawy” zastępuje
+     się wyrazami „dobrowolnych standardów sprawozdawczości zrównoważonego rozwoju
+     w rozumieniu art. 63p pkt 4 tej ustawy”;
+4)   w art. 87a:
+     a)    w ust. 3:
+           –   pkt 7 otrzymuje brzmienie:
+               „7) wskazanie, że jest to usługa atestacyjna dająca ograniczoną pewność;”,
+           –   w pkt 9 w lit. a skreśla się wyrazy „albo ze standardami sprawozdawczości
+               zrównoważonego rozwoju dla małych i średnich jednostek w rozumieniu art. 63p
+               pkt 3 tej ustawy”,
+     b)    dodaje się ust. 4 w brzmieniu:
+                    „4. Nie wpływa na opinię, o której mowa w ust. 3 pkt 9, skorzystanie przez
+           jednostkę chronioną w rozumieniu art. 63p pkt 6 ustawy z dnia 29 września 1994 r.
+           o rachunkowości z przysługującego jej prawa do odmowy udzielenia jednostce
+           sporządzającej sprawozdawczość zrównoważonego rozwoju lub sprawozdawczość
+           zrównoważonego rozwoju grupy kapitałowej informacji wykraczających poza
+           zakres określony w dobrowolnych standardach sprawozdawczości zrównoważonego
+           rozwoju w rozumieniu art. 63p pkt 4 tej ustawy.”;
+5)   w art. 130 w ust. 1 w pkt 1 w lit. a w tiret drugim skreśla się wyrazy „albo ze standardami
+     sprawozdawczości zrównoważonego rozwoju dla małych i średnich jednostek w
+     rozumieniu art. 63p pkt 3 tej ustawy”;
+6)   w art. 205 w ust. 1a pkt 1 otrzymuje brzmienie:
+     „1) większość członków organów zarządzających jednostki audytorskiej pochodzącej z
+           państwa trzeciego spełnia wymagania dla biegłych rewidentów równoważne z
+           wymaganiami dla biegłych rewidentów odnośnie do badania ustawowego
+           przewidzianymi w niniejszej ustawie;”;
+Liczba stron : 16   Data : 2026-11-05   Nazwa pliku : V7_164-23.NK                        14
+X kadencja/druk nr 3261
+
+7)   po rozdziale 13 dodaje się rozdział 13a w brzmieniu:
+                                             „Rozdział 13a
+
+                                          Przepisy epizodyczne
+
+           Art. 263a. 1. Jednostka audytorska pochodząca z państwa trzeciego, która zamierza
+     przeprowadzać lub przeprowadza atestację sprawozdawczości zrównoważonego rozwoju
+     jednostki zarejestrowanej w państwie trzecim, której papiery wartościowe są dopuszczone
+     do obrotu na rynku regulowanym w Rzeczypospolitej Polskiej, sporządzonej za lata
+     obrotowe rozpoczynające się od dnia 1 stycznia 2025 r. do dnia 31 grudnia 2030 r.,
+     podlega, na swój wniosek, wpisowi na listę, o której mowa w art. 204 ust. 1, w celu
+     przeprowadzenia tej atestacji, pod warunkiem że przedstawi we wniosku następujące
+     informacje:
+     1)    pełną i skróconą nazwę, adres oraz formę organizacyjno-prawną jednostki
+           audytorskiej pochodzącej z państwa trzeciego;
+     2)    oświadczenie, że biegły rewident pochodzący z państwa trzeciego podpisujący
+           sprawozdanie z atestacji sprawozdawczości zrównoważonego rozwoju uzyskał
+           wiedzę w zakresie sprawozdawczości zrównoważonego rozwoju oraz jej atestacji,
+           wraz z określeniem poziomu tej wiedzy;
+     3)    informację o członkostwie w sieci oraz opis tej sieci, o ile jednostka audytorska
+           pochodząca z państwa trzeciego należy do sieci;
+     4)    wskazanie standardów atestacji sprawozdawczości zrównoważonego rozwoju i
+           wymogów        niezależności     mających    zastosowanie   do   danej   atestacji
+           sprawozdawczości zrównoważonego rozwoju;
+     5)    opis systemu zarządzania jakością jednostki audytorskiej pochodzącej z państwa
+           trzeciego obejmującego atestację sprawozdawczości zrównoważonego rozwoju;
+     6)    wskazanie, czy została przeprowadzona kontrola systemu zapewnienia jakości
+           jednostki audytorskiej pochodzącej z państwa trzeciego w zakresie atestacji
+           sprawozdawczości zrównoważonego rozwoju, a w przypadku odpowiedzi
+           pozytywnej – wskazanie daty ostatniej przeprowadzonej kontroli i informację o
+           wyniku tej kontroli.
+           2. W przypadku jednostki audytorskiej pochodzącej z państwa trzeciego, o której
+     mowa w ust. 1, lista określona w art. 204 ust. 1 obejmuje następujące dane:
+     1)    numer wpisu na listę;
+Liczba stron : 16   Data : 2026-11-05   Nazwa pliku : V7_164-23.NK                             15
+X kadencja/druk nr 3261
+
+     2)    pełną i skróconą nazwę oraz adres jednostki audytorskiej pochodzącej z państwa
+           trzeciego;
+     3)    formę organizacyjno-prawną;
+     4)    informację o członkostwie w sieci oraz opis tej sieci, o ile jednostka audytorska
+           pochodząca z państwa trzeciego należy do sieci;
+     5)    datę wpisu na listę;
+     6)    informację, że jednostka audytorska pochodząca z państwa trzeciego została wpisana
+           na listę na podstawie ust. 1 i w celu określonym w tym przepisie.
+           3. Jednostka audytorska pochodząca z państwa trzeciego, o której mowa w ust. 1,
+     prowadząca jako biegły rewident działalność gospodarczą we własnym imieniu i na
+     własny rachunek podlega, na swój wniosek, wpisowi na listę, o której mowa w art. 204
+     ust. 1, w zakresie określonym w ust. 2, pod warunkiem przedstawienia informacji, o
+     których mowa w ust. 1.
+           4. Do wniosku, o którym mowa w ust. 1 i 3, jednostka audytorska pochodząca z
+     państwa trzeciego dołącza oświadczenie o zgodności tych informacji ze stanem
+     faktycznym i prawnym, podpisane zgodnie z zasadami reprezentacji tej jednostki lub
+     przez jej pełnomocnika.
+           5. W przypadku jednostki audytorskiej pochodzącej z państwa trzeciego, o której
+     mowa w ust. 1:
+     1)    przepisy art. 205 ust. 3–6, 11 i 12 oraz art. 209 ust. 1 pkt 1 i 6 stosuje się
+           odpowiednio;
+     2)    przepisów art. 88 ust. 1 pkt 5, art. 204 ust. 3, art. 205 ust. 1a, 2a i 7–10, art. 207,
+           art. 208, art. 209 ust. 1 pkt 2–5 i ust. 2 oraz art. 210 nie stosuje się.
+           6. Agencja skreśla jednostkę audytorską pochodzącą z państwa trzeciego, o której
+     mowa w ust. 1, z listy, o której mowa w art. 204 ust. 1, po dniu 1 stycznia 2034 r.,
+     niepóźniej jednak niż do dnia 31 stycznia 2034 r.”.
+
+     Art. 3. W ustawie z dnia 6 grudnia 2024 r. o zmianie ustawy o rachunkowości, ustawy o
+biegłych rewidentach, firmach audytorskich oraz nadzorze publicznym oraz niektórych innych
+ustaw (Dz. U. poz. 1863 oraz z 2025 r. poz. 1020) wprowadza się następujące zmiany:
+1)   w art. 14:
+     a)    w ust. 5 uchyla się pkt 2 i 3,
+     b)    uchyla się ust. 7;
+2)   uchyla się art. 26.
+Liczba stron : 16   Data : 2026-11-05    Nazwa pliku : V7_164-23.NK                                  16
+X kadencja/druk nr 3261
+
+     Art. 4. 1. Przepisy art. 49 ust. 3b–3d, art. 55 ust. 2a i 2aa, art. 63p pkt 4–6, art. 63r ust. 1,
+1a, 5a–5g i 7, art. 63x ust. 1–1b, 5a–5g, 7, 8a i 10 oraz art. 66 ust. 8 ustawy zmienianej w art. 1,
+w brzmieniu nadanym niniejszą ustawą, oraz art. 2 pkt 4a, art. 14 ust. 2a pkt 2, art. 87a ust. 3
+pkt 7 i pkt 9 lit. a i ust. 4 oraz art. 130 ust. 1 pkt 1 lit. a tiret drugie ustawy zmienianej w art. 2,
+w brzmieniu nadanym niniejszą ustawą, mają zastosowanie po raz pierwszy do roku
+obrotowego rozpoczynającego się po dniu 31 grudnia 2026 r.
+     2. Przepisy art. 63zd ust. 1 i 1a ustawy zmienianej w art. 1, w brzmieniu nadanym niniejszą
+ustawą, mają zastosowanie po raz pierwszy do roku obrotowego rozpoczynającego się po dniu
+31 grudnia 2027 r.
+     3. W przypadku jednostek, o których mowa w art. 14 ust. 5 pkt 2 ustawy zmienianej w
+art. 3, które spełniają kryteria określone w art. 63r ust. 1 lub art. 63x ust. 1 ustawy zmienianej
+w art. 1, w brzmieniu nadanym niniejszą ustawą, oraz w przypadku Banku Gospodarstwa
+Krajowego przepisy art. 49 ust. 3b–3d, art. 55 ust. 2a, art. 56 ust. 2c oraz rozdziału 6c ustawy
+zmienianej w art. 1, w brzmieniu nadanym niniejszą ustawą, mają zastosowanie po raz pierwszy
+do roku obrotowego rozpoczynającego się po dniu 31 grudnia 2026 r.
+     4. Jednostki, o których mowa w art. 14 ust. 5 pkt 1 ustawy zmienianej w art. 3,
+przedstawiają informacje na temat kluczowych zasobów niematerialnych jednostki lub grupy
+oraz sporządzają sprawozdawczość zrównoważonego rozwoju lub sprawozdawczość
+zrównoważonego rozwoju grupy kapitałowej za rok obrotowy rozpoczynający się przed dniem
+1 stycznia 2027 r. zgodnie z przepisami art. 3 ust. 1 pkt 1e, art. 49 ust. 3b, art. 55 ust. 2a zdanie
+pierwsze i rozdziału 6c ustawy zmienianej w art. 1, w brzmieniu dotychczasowym, oraz art. 14
+ust. 7 ustawy zmienianej w art. 3, w brzmieniu dotychczasowym.
+     5. Jednostki, o których mowa w art. 14 ust. 5 pkt 1 ustawy zmienianej w art. 3, mogą,
+począwszy od roku obrotowego rozpoczynającego się po dniu 31 grudnia 2025 r.:
+1)   stosować przepisy art. 63x ust. 1b i 8a ustawy zmienianej w art. 1;
+2)   nie stosować przepisów art. 63w ust. 1 i art. 63zb ust. 1 ustawy zmienianej w art. 1.
+
+     Art. 5. Do wniosków, o których mowa w art. 205 ust. 1a i 2a ustawy zmienianej w art. 2,
+w brzmieniu dotychczasowym, złożonych i nierozpatrzonych przed dniem wejścia w życie
+niniejszej ustawy stosuje się przepisy art. 263a ustawy zmienianej w art. 2.
+
+     Art. 6. Ustawa wchodzi w życie z dniem 1 stycznia 2027 r.
+

@@ -1,0 +1,615 @@
+                                                                      Druk nr 3309
+                                                                Warszawa, 2 września 2026 r.
+          SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+        X kadencja
+
+
+                                                             Pan
+                                                             Włodzimierz Czarzasty
+                                                             Marszałek Sejmu
+                                                             Rzeczypospolitej Polskiej
+
+
+
+
+         Na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej i na podstawie
+ art. 32 ust. 2 regulaminu Sejmu niżej podpisani posłowie wnoszą projekt ustawy:
+
+
+
+  - o zmianie ustawy - Prawo oświatowe.
+
+      Do reprezentowania wnioskodawców w pracach nad projektem ustawy
+ upoważniamy pana posła Janusza Cieszyńskiego.
+
+
+  (-) Anna Baluch; (-) Ryszard Bartosik; (-) Zbigniew Chmielowiec; (-) Anna Ewa
+ Cicholska; (-) Janusz Cieszyński; (-) Michał Cieślak; (-) Elżbieta Duda; (-) Robert
+ Gontarz; (-) Marcin Gwóźdź; (-) Marcin Horała; (-) Paweł Jabłoński; (-) Marek
+ Jakubiak; (-) Fryderyk Sylwester Kapinos; (-) Łukasz Kmita; (-) Maria
+ Koc; (-) Wiesław Krajewski; (-) Andrzej Kryj; (-) Krzysztof Kubów; (-) Anna
+ Kwiecień; (-) Krzysztof Lipiec; (-) Marzena Anna Machałek; (-) Grzegorz
+ Macko;     (-) Mateusz Morawiecki;        (-) Monika Pawłowska;        (-) Grzegorz
+ Puda; (-) Paweł Rychlik; (-) Łukasz Schreiber; (-) Olga Ewa Semeniuk-
+ Patkowska;        (-) Sławomir       Skwarek;       (-) Mirosława       Stachowiak-
+ Różecka; (-) Krzysztof Szczucki; (-) Szymon Szynkowski vel Sęk; (-) Agnieszka
+ Ścigaj; (-) Ryszard Terlecki; (-) Włodzimierz Tomaszewski; (-) Sylwester
+ Tułajew; (-) Piotr Uściński; (-) Wojciech Michał Zubowski; (-) Ireneusz Zyska.
+
+
+
+
+               Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                  Projekt
+
+                                          USTAWA
+                           z dnia .............................. 2026 r.
+
+                        o zmianie ustawy – Prawo oświatowe
+
+Art. 1. W ustawie z dnia 14 grudnia 2016 r. – Prawo oświatowe (Dz. U. z 2026 r. poz. 820,
+z późn. zm.) wprowadza się następujące zmiany:
+1) w art. 4 w pkt 44 kropkę zastępuje się średnikiem i dodaje się pkt 45 w brzmieniu:
+       „45) systemie dziennika elektronicznego – należy przez to rozumieć system
+       teleinformatyczny wykorzystywany przez szkołę lub placówkę do prowadzenia w
+       postaci elektronicznej dokumentacji przebiegu nauczania, działalności
+       wychowawczej i opiekuńczej, wraz ze wszystkimi kanałami dostępu do danych i
+       informacji przetwarzanych w tym systemie, w szczególności stroną internetową,
+       aplikacją mobilną oraz usługą powiadomień.”;
+2) po art. 47 dodaje się art. 47a w brzmieniu:
+„Art. 47a. 1. Nie pobiera się od ucznia ani rodzica ucznia opłat za dostęp do systemu
+dziennika elektronicznego oraz za korzystanie z funkcjonalności tego systemu w zakresie
+dotyczącym danego ucznia, w szczególności za:
+       1) dostęp do danych i informacji wpisywanych do dziennika lekcyjnego oraz do
+          innych dzienników, o których mowa w przepisach wydanych na podstawie art.
+          47 ust. 1 pkt 7, w tym do ocen bieżących, ocen klasyfikacyjnych, oceny
+          zachowania, frekwencji, tematów zajęć oraz uwag;
+
+       2) dostęp do informacji o organizacji pracy szkoły w zakresie dotyczącym ucznia,
+          w tym o tygodniowym rozkładzie zajęć i jego zmianach, zastępstwach,
+          terminach sprawdzianów oraz zadaniach zadanych do wykonania;
+
+       3) korzystanie z modułu komunikacji ze szkołą, w tym odbieranie i wysyłanie
+          wiadomości oraz przekazywanie usprawiedliwień nieobecności ucznia;
+
+       4) otrzymywanie powiadomień o zdarzeniach odnotowanych w systemie dziennika
+          elektronicznego;
+
+       5) korzystanie z aplikacji mobilnej albo z innego kanału dostępu do systemu
+          dziennika elektronicznego;
+
+       6) liczbę urządzeń, z których następuje dostęp, częstotliwość aktualizacji
+          udostępnianych danych oraz dostęp do danych z całego roku szkolnego.
+
+2. Zakres danych, informacji i funkcjonalności udostępnianych nieodpłatnie zgodnie z ust.
+1 nie może być różnicowany w zależności od kanału dostępu do systemu dziennika
+elektronicznego ani ograniczany, w szczególności przez opóźnianie aktualizacji danych,
+jeżeli takie ograniczenie jest znoszone w zamian za opłatę.
+3. Zakaz, o którym mowa w ust. 1, obejmuje również pobieranie opłat w sposób pośredni,
+w szczególności za pośrednictwem rady rodziców, w ramach składek, darowizn lub innych
+świadczeń, których wniesienie warunkuje dostęp do systemu dziennika elektronicznego lub
+do jego funkcjonalności.
+4. Dostęp do systemu dziennika elektronicznego oraz do funkcjonalności, o których mowa
+w ust. 1, nie może być uzależniony od wyrażenia przez ucznia lub rodzica ucznia zgody na
+przetwarzanie danych osobowych w celach innych niż realizacja zadań szkoły ani od
+wyrażenia zgody na otrzymywanie informacji handlowej.
+5. W kanałach dostępu do systemu dziennika elektronicznego udostępnianych uczniom i
+rodzicom uczniów nie prezentuje się reklam ani innych treści o charakterze
+marketingowym oraz nie wykorzystuje się danych przetwarzanych w tym systemie do
+celów marketingowych.
+6. Podmiot udostępniający szkole lub organowi prowadzącemu szkołę system dziennika
+elektronicznego nie może ograniczyć zakresu funkcjonalności tego systemu
+udostępnianych uczniom i rodzicom uczniów ani warunków korzystania z nich w stosunku
+do stanu istniejącego w dniu 1 sierpnia 2026 r. Zakaz obejmuje w szczególności usunięcie
+funkcjonalności, wyłączenie kanału dostępu, zawężenie zakresu udostępnianych danych
+oraz obniżenie częstotliwości ich aktualizacji.
+7. Minister właściwy do spraw oświaty i wychowania, na wniosek podmiotu
+udostępniającego szkole lub organowi prowadzącemu szkołę system dziennika
+elektronicznego, wyraża, w drodze decyzji, zgodę na ograniczenie, o którym mowa w ust.
+6, jeżeli jest ono uzasadnione:
+      1) względami bezpieczeństwa systemu teleinformatycznego lub ochrony danych
+         osobowych;
+
+      2) koniecznością dostosowania systemu do zmiany przepisów prawa;
+
+      3) zastąpieniem dotychczasowej funkcjonalności rozwiązaniem o co najmniej
+         równoważnej użyteczności dla ucznia i rodzica ucznia;
+
+      4) znikomym zakresem korzystania z danej funkcjonalności przez uczniów i
+         rodziców uczniów.
+
+Wniosek zawiera wskazanie funkcjonalności, której dotyczy, opis skutków
+projektowanego ograniczenia dla uczniów i rodziców uczniów oraz uzasadnienie. Minister
+właściwy do spraw oświaty i wychowania rozpatruje wniosek w terminie 30 dni od dnia
+jego otrzymania.
+8. Umowa, której przedmiotem jest udostępnienie szkole lub organowi prowadzącemu
+szkołę systemu dziennika elektronicznego, zawiera zobowiązanie podmiotu
+udostępniającego ten system do zapewnienia dostępu w zakresie określonym w ust. 1, 2 i
+6. Postanowienia umowne sprzeczne z ust. 1–6 są nieważne.
+9. Opłata pobrana z naruszeniem ust. 1 lub 3 podlega zwrotowi.
+10. Naruszenie zakazów, o których mowa w ust. 1–6, przez podmiot udostępniający szkole
+lub organowi prowadzącemu szkołę system dziennika elektronicznego stanowi bezprawne
+działanie godzące w zbiorowe interesy konsumentów w rozumieniu art. 24 ust. 2 ustawy z
+dnia 16 lutego 2007 r. o ochronie konkurencji i konsumentów (Dz. U. z 2025 r. poz. 1714).
+11. Dyrektor szkoły, w terminie 14 dni od dnia rozpoczęcia zajęć dydaktyczno-
+wychowawczych w roku szkolnym, informuje rodziców uczniów o zakresie danych,
+informacji i funkcjonalności udostępnianych nieodpłatnie zgodnie z ust. 1, 2 i 6 oraz o
+sposobie uzyskania do nich dostępu.”.
+
+Art. 2. 1. Przepisy art. 47a ustawy zmienianej w art. 1 stosuje się również do umów
+zawartych przed dniem wejścia w życie niniejszej ustawy.
+2. Postanowienia umów, o których mowa w ust. 1, sprzeczne z art. 47a ust. 1–6 ustawy
+zmienianej w art. 1, tracą moc z dniem wejścia w życie niniejszej ustawy.
+3. Opłata wniesiona przed dniem wejścia w życie niniejszej ustawy podlega zwrotowi w
+części przypadającej na okres po tym dniu.
+4. Podmiot udostępniający szkole lub organowi prowadzącemu szkołę system dziennika
+elektronicznego, który po dniu 1 sierpnia 2026 r., a przed dniem wejścia w życie niniejszej
+ustawy, ograniczył zakres funkcjonalności w sposób, o którym mowa w art. 47a ust. 6
+ustawy zmienianej w art. 1, przywraca stan zgodny z tym przepisem w terminie 3 miesięcy
+od dnia wejścia w życie niniejszej ustawy albo w tym terminie występuje z wnioskiem, o
+którym mowa w art. 47a ust. 7 ustawy zmienianej w art. 1.
+
+Art. 3. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+                                   UZASADNIENIE
+
+I. Potrzeba i cel wydania ustawy
+   Dziennik elektroniczny jest dziś podstawowym i w praktyce jedynym kanałem, przez który
+   rodzic dowiaduje się o ocenach, nieobecnościach, zmianach w organizacji zajęć i o
+   wiadomościach kierowanych do niego przez nauczycieli. Według danych przedstawionych
+   przez Ministerstwo Edukacji Narodowej na dzień 31 grudnia 2025 r. z systemów dziennika
+   elektronicznego    korzystało     97,06%   publicznych      szkół    podstawowych    i
+   ponadpodstawowych w Polsce, a rynek jest zdominowany przez dwóch dostawców.
+   Jednocześnie utrwaliła się praktyka, w której podstawowy dostęp przez przeglądarkę
+   internetową jest bezpłatny, natomiast realnie użyteczny dostęp – aplikacja mobilna,
+   powiadomienia o nowych ocenach i wiadomościach, pełny moduł komunikacji z
+   nauczycielem, usprawiedliwianie nieobecności – jest usługą płatną, rozliczaną osobno za
+   każde dziecko w gospodarstwie domowym. Koszt jednostkowy jest niewielki (w sezonie
+   2024/2025 rzędu 33–50 zł za rok szkolny na dziecko), lecz ponoszony przez miliony rodzin
+   i pobierany za dostęp do informacji o przebiegu nauki własnego dziecka w szkole
+   publicznej.
+   Celem ustawy jest usunięcie tej praktyki przez wprowadzenie wprost do ustawy zakazu
+   pobierania od ucznia i rodzica jakichkolwiek opłat za dostęp do dziennika elektronicznego
+   i za korzystanie z jego funkcjonalności w zakresie dotyczącym danego ucznia – niezależnie
+   od tego, kto opłatę pobiera i niezależnie od kanału dostępu.
+
+II. Rzeczywisty stan w dziedzinie, która ma być unormowana
+   Obecnie kwestię odpłatności reguluje wyłącznie akt wykonawczy. Zgodnie z § 21 ust. 3
+   pkt 5 rozporządzenia Ministra Edukacji Narodowej z dnia 25 sierpnia 2017 r. w sprawie
+   sposobu prowadzenia przez publiczne przedszkola, szkoły i placówki dokumentacji
+   przebiegu nauczania, działalności wychowawczej i opiekuńczej oraz rodzajów tej
+   dokumentacji (Dz. U. z 2024 r. poz. 50) prowadzenie dziennika elektronicznego wymaga
+   umożliwienia rodzicom bezpłatnego wglądu do dziennika w zakresie dotyczącym ich
+   dzieci.
+   Przepis ten ma trzy słabości, które w praktyce czynią go nieskutecznym.
+   Po pierwsze, adresatem obowiązku jest szkoła, a nie podmiot udostępniający system.
+   Opłata pobierana bezpośrednio od rodzica przez przedsiębiorcę, na podstawie odrębnej
+   umowy konsumenckiej, formalnie pozostaje poza zakresem tego przepisu.
+   Po drugie, obowiązek dotyczy „wglądu”, a nie pełnego dostępu i korzystania. Pozwala to
+   na model, w którym bezpłatny jest bierny podgląd danych w przeglądarce, natomiast
+   moduł komunikacji, powiadomienia i aplikacja mobilna są sprzedawane jako usługa
+   dodatkowa.
+   Po trzecie, przepis nie zawiera żadnej sankcji ani mechanizmu egzekwowania.
+   Skala problemu została zdiagnozowana przez organy administracji rządowej. Do
+   Ministerstwa Edukacji Narodowej oraz do Urzędu Ochrony Konkurencji i Konsumentów
+   wpływały sygnały dotyczące konieczności ponoszenia przez rodziców opłat za pełną
+   wersję aplikacji mobilnych dzienników elektronicznych oraz reklam wyświetlanych w
+   tych aplikacjach. Prezes UOKiK wszczął w tej sprawie postępowania wyjaśniające wobec
+   dwóch największych operatorów, w ramach których badano, czy nie doszło do naruszenia
+   chronionych prawem interesów konsumentów. Sama potrzeba usunięcia tych opłat nie jest
+   zatem przedmiotem sporu; brakuje wyłącznie przepisu, który by je zakazywał.
+   Niezależnie od kierunku, w jakim rozwijać się będą rozwiązania organizacyjne dotyczące
+   systemów teleinformatycznych wykorzystywanych w szkołach, sama kwestia odpłatności
+   wymaga rozstrzygnięcia na poziomie ustawowym. Udostępnienie szkołom alternatywnego
+   systemu nie usuwa opłat tam, gdzie szkoła pozostaje przy systemie komercyjnym – a
+   wybór systemu należy do dyrektora szkoły i organu prowadzącego. Opłat pobieranych od
+   rodziców nie eliminuje się przez tworzenie konkurencji dla dostawcy, lecz przez zakaz ich
+   pobierania.
+
+III. Różnica między dotychczasowym a projektowanym stanem prawnym
+   Projekt wprowadza do ustawy – Prawo oświatowe dwie zmiany.
+   Po pierwsze, do słowniczka ustawowego w art. 4 dodaje się pkt 45 zawierający definicję
+   systemu dziennika elektronicznego. Definicja obejmuje system teleinformatyczny
+   wykorzystywany przez szkołę lub placówkę do prowadzenia dokumentacji w postaci
+   elektronicznej wraz ze wszystkimi kanałami dostępu do przetwarzanych w nim danych.
+   Objęcie definicją strony internetowej, aplikacji mobilnej i usługi powiadomień przesądza,
+   że regulacja odnosi się do systemu jako całości, a nie do wybranego sposobu korzystania
+   z niego – co jest warunkiem skuteczności zakazu, ponieważ obecna praktyka rynkowa
+   opiera się właśnie na różnicowaniu kanałów. Umieszczenie definicji w art. 4 pozwala
+   posługiwać się tym pojęciem w całej ustawie i w aktach wykonawczych bez powtarzania
+   jego treści.
+   Projekt nie wprowadza definicji podmiotu udostępniającego system ani kręgu osób
+   uprawnionych. Nie jest to potrzebne: obowiązek z art. 47a ust. 1 sformułowano
+   bezpodmiotowo („nie pobiera się”), przez co wiąże on każdego, kto opłatę pobiera –
+   szkołę, organ prowadzący i przedsiębiorcę – niezależnie od podstawy prawnej jej pobrania.
+   Krąg osób chronionych wyznaczają natomiast pojęcia już zdefiniowane w ustawie:
+   zgodnie z art. 4 pkt 19 przez rodziców rozumie się także prawnych opiekunów dziecka
+   oraz osoby i podmioty sprawujące nad nim pieczę zastępczą.
+   Po drugie, dodaje się art. 47a, który:
+   1) przenosi zasadę bezpłatności z poziomu rozporządzenia na poziom ustawy i rozszerza
+      ją z „wglądu” na „dostęp” i korzystanie z funkcjonalności systemu w zakresie
+      dotyczącym danego ucznia (ust. 1);
+
+   2) wprowadza zasadę równoważności kanałów dostępu, przesądzając, że aplikacja
+      mobilna i powiadomienia nie mogą oferować węższego bezpłatnego zakresu niż strona
+      internetowa, oraz zakazuje pozornych ograniczeń, takich jak opóźnianie aktualizacji
+      danych znoszone za opłatą (ust. 2);
+
+   3) zamyka drogi obejścia zakazu przez świadczenia pośrednie, w tym składki zbierane za
+      pośrednictwem rady rodziców, oraz przez warunkowanie dostępu zgodami
+      marketingowymi (ust. 3 i 4);
+
+   4) zakazuje prezentowania reklam w kanałach dostępu udostępnianych dzieciom
+      rodzicom oraz wykorzystywania danych z dziennika do celów marketingowych (ust.
+      5);
+
+   5) wprowadza klauzulę zachowania stanu posiadania, zakazującą ograniczania zakresu
+      funkcjonalności dostępnych uczniom i rodzicom w stosunku do stanu z dnia 1 sierpnia
+      2026 r., z możliwością uzyskania zgody ministra właściwego do spraw oświaty i
+      wychowania w przypadkach uzasadnionych bezpieczeństwem systemu, ochroną
+      danych osobowych, zmianą przepisów, zastąpieniem funkcjonalności rozwiązaniem
+      równoważnym albo znikomym zakresem korzystania z niej (ust. 6 i 7);
+
+   6) wprowadza sankcję cywilnoprawną w postaci nieważności postanowień umownych i
+      obowiązku zwrotu opłaty (ust. 8 i 9);
+
+   7) przesądza, że naruszenie zakazu przez przedsiębiorcę jest bezprawnym działaniem
+      godzącym w zbiorowe interesy konsumentów, co otwiera drogę do postępowania przed
+      Prezesem UOKiK bez tworzenia nowego aparatu kontrolnego (ust. 10);
+
+   8) nakłada na dyrektora szkoły obowiązek corocznego informowania rodziców o zakresie
+      bezpłatnego dostępu (ust. 11).
+
+   Klauzula z ust. 6 odpowiada na przewidywalną reakcję obronną rynku. Bez niej
+   przedsiębiorca mógłby dostosować się do zakazu opłat nie przez udostępnienie funkcji
+   bezpłatnie, lecz przez ich usunięcie – wygaszenie aplikacji mobilnej, likwidację
+   powiadomień albo modułu wiadomości. Skutkiem byłoby pogorszenie sytuacji wszystkich
+   rodziców, także tych, którzy dotąd nie ponosili opłat. Data 1 sierpnia 2026 r. została
+   przyjęta świadomie jako moment poprzedzający rozpoczęcie roku szkolnego 2026/2027 i
+   publiczną dyskusję nad niniejszym projektem; przyjęcie jako punktu odniesienia dnia
+   wejścia ustawy w życie stwarzałoby zachętę do wcześniejszego okrojenia oferty. Przepis
+   nie działa wstecz: nie sankcjonuje zachowań sprzed wejścia ustawy w życie, lecz wyznacza
+   stan, który ma być utrzymany albo – zgodnie z art. 2 ust. 4 projektu – przywrócony w
+   terminie trzech miesięcy, chyba że przedsiębiorca uzyska zgodę ministra.
+
+IV. Uzasadnienie konstytucyjne i zgodność z prawem ochrony danych osobowych
+   Zgodnie z art. 70 ust. 2 Konstytucji RP nauka w szkołach publicznych jest bezpłatna.
+   Odpłatny dostęp do informacji o przebiegu nauki dziecka stanowi faktyczne przeniesienie
+   na rodzica części kosztu realizacji zadania publicznego i osłabia tę gwarancję.
+   Projekt służy także realizacji prawa rodziców do wychowania dzieci zgodnie z własnymi
+   przekonaniami (art. 48 ust. 1 Konstytucji) oraz zasady ochrony dobra dziecka (art. 72 ust.
+   1 Konstytucji). Rodzic pozbawiony powiadomień o nieobecnościach i wiadomościach od
+   nauczyciela jest w praktyce wyłączony z bieżącego nadzoru nad edukacją dziecka.
+   Odpłatność różnicuje sytuację uczniów w zależności od zamożności rodziny, co pozostaje
+   w napięciu z zasadą równości (art. 32 Konstytucji). Nauczyciel kierujący wiadomość przez
+   dziennik nie wie, czy rodzic wykupił dostęp umożliwiający jej odebranie, co obniża
+   skuteczność komunikacji szkoły z domem jako całości.
+   Projekt ogranicza wolność działalności gospodarczej, jednak w sposób odpowiadający
+   wymogom art. 22 i art. 31 ust. 3 Konstytucji: ograniczenie następuje w drodze ustawy, jest
+   uzasadnione ważnym interesem publicznym oraz proporcjonalne. Zakaz dotyczy
+   wyłącznie relacji z uczniem i rodzicem i wyłącznie dostępu do danych o własnym dziecku;
+   nie ogranicza swobody kształtowania wynagrodzenia w umowach ze szkołami i organami
+   prowadzącymi, nie reguluje cen licencji ani nie wyklucza sprzedaży usług niezwiązanych
+   z dokumentacją przebiegu nauczania.
+   Niezależnie od powyższego należy zauważyć, że dane przetwarzane w dzienniku
+   elektronicznym są danymi osobowymi ucznia, a rodzic wykonuje wobec nich prawa osoby,
+   której dane dotyczą, albo działa w imieniu dziecka. Zgodnie z art. 12 ust. 5 rozporządzenia
+   (UE) 2016/679 informacje i komunikaty w wykonaniu m.in. prawa dostępu są udzielane
+   bezpłatnie. Pobieranie opłaty za dostęp do danych o własnym dziecku pozostaje z tą zasadą
+   w oczywistym napięciu; projektowana regulacja usuwa tę wątpliwość na gruncie prawa
+   oświatowego.
+
+V. Przewidywane skutki społeczne, gospodarcze i finansowe
+   Skutki społeczne. Regulacja obejmie ok. 5,4 mln uczniów oraz ok. 10 mln rodziców i
+   opiekunów prawnych (dane Ministerstwa Edukacji Narodowej). Zapewni równy dostęp
+   wszystkich rodziców do bieżącej informacji o dziecku, niezależnie od sytuacji materialnej
+   rodziny, i wzmocni skuteczność komunikacji szkoła–dom.
+   Skutki dla gospodarstw domowych. Wysokość faktycznych wpływów z opłat pobieranych
+   od rodziców nie jest danymi publicznymi. Przy założeniu, że dostęp płatny wykupuje od
+   25% do 40% rodziców uczniów, przy średniej opłacie 40 zł rocznie na dziecko, roczna
+   oszczędność rodzin wynosi ok. 54–86 mln zł. Rekomenduje się zweryfikowanie tego
+   szacunku na etapie prac komisyjnych na podstawie danych Prezesa UOKiK
+   zgromadzonych w postępowaniach wyjaśniających wobec największych operatorów.
+   Skutki dla przedsiębiorców. Podmioty udostępniające komercyjne systemy dziennika
+   elektronicznego utracą przychód z segmentu skierowanego bezpośrednio do
+   konsumentów. Zachowują możliwość odpowiedniego ukształtowania wynagrodzenia w
+   umowach ze szkołami i organami prowadzącymi. Klauzula z art. 47a ust. 6 nie zamraża
+   rozwoju systemów – nie ogranicza dodawania nowych funkcjonalności, a ograniczenie
+   funkcjonalności dotychczasowych pozostaje możliwe za zgodą ministra właściwego do
+   spraw oświaty i wychowania, wydawaną w formie decyzji podlegającej kontroli
+   sądowoadministracyjnej.
+   Skutki dla jednostek samorządu terytorialnego. Projekt ingeruje w relację przedsiębiorca–
+   rodzic, a nie w relację przedsiębiorca–organ prowadzący. Umowy licencyjne zawarte na
+   rok szkolny 2026/2027 pozostają w mocy na dotychczasowych warunkach cenowych, w
+   związku z czym w bieżącym roku budżetowym skutek dla jednostek samorządu
+   terytorialnego nie wystąpi. Przy renegocjacji umów na kolejne lata możliwa jest próba
+   przeniesienia części utraconego przychodu na organy prowadzące. Ryzyka tego nie należy
+   pomijać – samorządy nie dysponują dziś bezpłatną alternatywą dla systemów
+   komercyjnych, która ograniczałaby siłę negocjacyjną dostawców. Czynnikiem
+   ograniczającym pozostaje konkurencja pomiędzy działającymi na tym rynku podmiotami
+   oraz okoliczność, że przychody z segmentu konsumenckiego stanowią jedynie część ich
+   przychodów. Rekomenduje się, aby na etapie prac komisyjnych zwrócić się do Prezesa
+   UOKiK o dane pozwalające oszacować skalę tego zjawiska. Projekt nie nakłada na
+   jednostki samorządu terytorialnego nowego zadania; doprecyzowuje wyłącznie standard
+   realizacji zadania już wykonywanego, tj. prowadzenia dokumentacji przebiegu nauczania,
+   wobec czego nie zachodzi przesłanka z art. 167 ust. 4 Konstytucji RP.
+   Vacatio legis. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia. Termin ten
+   jest odpowiedni w rozumieniu art. 4 ust. 1 ustawy z dnia 20 lipca 2000 r. o ogłaszaniu
+   aktów normatywnych i niektórych innych aktów prawnych, ponieważ wykonanie
+   zasadniczej części obowiązków nie wymaga prac wdrożeniowych: chodzi o zaprzestanie
+   pobierania opłat i odblokowanie funkcjonalności już istniejących w systemach, a nie o ich
+   zbudowanie. Za rozwiązaniem tym przemawia również to, że opłaty są wnoszone
+   cyklicznie na początku każdego roku szkolnego – każdy kolejny rok zwłoki oznacza
+   kolejny rocznik rodzin obciążonych opłatą za dostęp do informacji o własnym dziecku.
+   Dla jedynego obowiązku wymagającego prac technicznych, tj. przywrócenia
+   funkcjonalności ograniczonych po dniu 1 sierpnia 2026 r., art. 2 ust. 4 projektu przewiduje
+   odrębny, trzymiesięczny termin.
+   Skutki prawne. Postanowienia umowne sprzeczne z zakazem staną się nieważne z mocy
+   prawa, a opłaty pobrane wbrew zakazowi będą podlegać zwrotowi jako świadczenie
+   nienależne. Naruszenia po stronie przedsiębiorców będą podlegać kompetencjom Prezesa
+   UOKiK na zasadach ogólnych.
+
+VI. Źródła finansowania
+   Projekt nie pociąga za sobą obciążenia budżetu państwa. Nie wymaga budowy ani
+   utrzymania żadnego systemu teleinformatycznego, nie wiąże się z wydatkami
+   inwestycyjnymi ani z kosztami wdrożenia po stronie szkół. Ewentualne skutki po stronie
+   budżetów jednostek samorządu terytorialnego, o których mowa w części V, mieszczą się
+   w dotychczasowym zakresie finansowania zadań oświatowych.
+
+VII. Założenia projektów podstawowych aktów wykonawczych
+   Projekt nie zawiera upoważnień do wydania aktów wykonawczych. Rekomenduje się
+   jednak dostosowanie § 21 ust. 3 pkt 5 rozporządzenia Ministra Edukacji Narodowej z dnia
+   25 sierpnia 2017 r. do brzmienia projektowanego art. 47a, w celu usunięcia rozbieżności
+   terminologicznej między „wglądem” a „dostępem”.
+
+VIII. Konsultacje i warianty regulacyjne
+   Projekt powinien zostać skierowany do zaopiniowania w szczególności przez: Prezesa
+   Urzędu Ochrony Konkurencji i Konsumentów, Prezesa Urzędu Ochrony Danych
+   Osobowych, Rzecznika Praw Dziecka, Rzecznika Praw Obywatelskich, Komisję Wspólną
+   Rządu i Samorządu Terytorialnego, ogólnopolskie organizacje związkowe zrzeszające
+   nauczycieli oraz podmioty udostępniające systemy dziennika elektronicznego.
+   Rozważono wariant polegający na zmianie wyłącznie rozporządzenia. Odrzucono go,
+   ponieważ akt wykonawczy nie może skutecznie nałożyć obowiązku na przedsiębiorcę nie
+   będącego adresatem prawa oświatowego ani ustanowić sankcji. Rozważono również
+   wariant polegający na oczekiwaniu, że problem rozwiąże udostępnienie szkołom
+   bezpłatnego systemu alternatywnego. Odrzucono go, ponieważ wybór systemu należy do
+   dyrektora szkoły i organu prowadzącego, wobec czego w placówkach pozostających przy
+   rozwiązaniach komercyjnych opłaty byłyby nadal pobierane. Niniejszy projekt nie
+   przesądza kształtu rozwiązań organizacyjnych i pozostaje wobec nich neutralny.
+
+IX. Oświadczenie o zgodności z prawem Unii Europejskiej
+   Przedmiot projektowanej regulacji nie jest objęty prawem Unii Europejskiej, a
+   projektowane przepisy nie są sprzeczne z prawem Unii Europejskiej, w szczególności
+   pozostają zgodne z rozporządzeniem (UE) 2016/679.
+   Projektowany art. 47a ust. 1, 2, 5 i 6 – w zakresie, w jakim odnosi się do usług
+   świadczonych drogą elektroniczną przez przedsiębiorców – stanowi „zasadę dotyczącą
+   usług” w rozumieniu art. 1 ust. 1 lit. e dyrektywy (UE) 2015/1535 i powinien zostać
+   przekazany Komisji Europejskiej w ramach procedury notyfikacyjnej przed jego
+   uchwaleniem..
+                                                                                  Załącznik
+                                                                                 do uchwały nr 51
+                                                                                  Prezydium Sejmu
+                                                                                  z dnia 26 sierpnia 2024 r.
+
+
+
+
+                                                WZÓR
+
+
+
+                      DEKLAROWANE SKUTKI REGULACJI (DSR)
+                               projektu ustawy
+
+
+
+Informacja o projekcie
+   a) Tytuł projektu:
+
+Projekt ustawy o zmianie ustawy – Prawo oświatowe
+
+
+
+
+   b) Przedstawiciel wnioskodawcy:
+
+Janusz Cieszyński
+
+
+
+
+I. Część wstępna
+[1] Zwięzły opis zidentyfikowanego problemu i proponowanych rozwiązań.
+
+Problemem jest pobieranie od rodziców i uczniów opłat za korzystanie z części funkcjonalności dzienników
+elektronicznych, w szczególności aplikacji mobilnych, powiadomień, pełnego modułu komunikacji oraz
+możliwości przekazywania usprawiedliwień. Bezpłatny dostęp jest często ograniczony do podstawowego
+wglądu przez przeglądarkę internetową. Według danych Ministerstwa Edukacji Narodowej na dzień 31
+grudnia 2025 r. z systemów dziennika elektronicznego korzystało 97,06% publicznych szkół podstawowych
+i ponadpodstawowych w Polsce, a rynek był zdominowany przez dwóch dostawców. Opłata w roku
+szkolnym 2024/2025 wynosiła około 33–50 zł rocznie na jedno dziecko.
+Projekt wprowadza ustawowy zakaz pobierania od ucznia i rodzica opłat za dostęp do systemu dziennika
+elektronicznego oraz za korzystanie z jego funkcjonalności w zakresie dotyczącym danego ucznia,
+niezależnie od kanału dostępu. Zakaz obejmuje także opłaty pośrednie, uzależnianie dostępu od zgód
+marketingowych, prezentowanie reklam oraz wykorzystywanie danych do celów marketingowych. Projekt
+przewiduje również obowiązek zachowania dotychczasowego zakresu funkcjonalności, sankcję
+nieważności sprzecznych postanowień umownych, zwrot opłat i możliwość interwencji Prezesa UOKiK.
+Brak zmiany oznacza utrzymanie nierównego dostępu rodziców do bieżących informacji o edukacji
+dziecka, zależnego od sytuacji materialnej rodziny, oraz dalsze obciążanie gospodarstw domowych
+opłatami za funkcjonalności służące komunikacji ze szkołą.
+[2] Czy były rozważane rozwiązania alternatywne?
+
+       ☒ Tak
+       ☐ Nie
+
+ TAK. Rozważono dwa rozwiązania alternatywne. Pierwszym była zmiana wyłącznie rozporządzenia w
+ sprawie dokumentacji przebiegu nauczania. Rozwiązanie odrzucono, ponieważ akt wykonawczy nie
+ zapewnia dostatecznej podstawy do nałożenia obowiązków i sankcji na przedsiębiorców udostępniających
+ systemy. Drugim wariantem było oczekiwanie na udostępnienie szkołom bezpłatnego systemu
+ alternatywnego. Wariant odrzucono, ponieważ nie usunąłby opłat w szkołach, które nadal korzystałyby z
+ systemów komercyjnych. Wybrano bezpośrednią regulację ustawową, neutralną wobec wyboru
+ konkretnego systemu przez szkołę i organ prowadzący.
+
+
+
+
+II. Wymogi określone w art. 34 ust. 2 pkt 3–5 regulaminu Sejmu
+
+[3] Jakie są przewidywane skutki prawne projektowanych rozwiązań?
+
+ Obecnie § 21 ust. 3 pkt 5 rozporządzenia w sprawie dokumentacji przebiegu nauczania wymaga
+ zapewnienia rodzicom bezpłatnego wglądu do dziennika elektronicznego w zakresie dotyczącym ich
+ dzieci. Projekt przenosi zasadę bezpłatności na poziom ustawy i rozszerza ją z samego wglądu na dostęp
+ do danych, informacji oraz korzystanie z funkcjonalności systemu.
+ Do art. 4 ustawy – Prawo oświatowe zostaje dodany pkt 45 zawierający definicję systemu dziennika
+ elektronicznego. Do ustawy – Prawo oświatowe zostaje dodany art. 47a określający zakres bezpłatnego
+ dostępu, równoważność kanałów dostępu, zakaz opłat pośrednich, reklam i wykorzystywania danych do
+ celów marketingowych oraz obowiązki dostawców i dyrektorów szkół. Postanowienia umowne sprzeczne
+ z zakazem mają być nieważne, a opłaty pobrane z naruszeniem ustawy – zwracane. Naruszenia po stronie
+ przedsiębiorców mają podlegać kompetencji Prezesa UOKiK. Przepisy przejściowe obejmują również
+ umowy zawarte przed wejściem ustawy w życie.
+ Projekt służy realizacji konstytucyjnej zasady bezpłatności nauki w szkołach publicznych, zasady równości,
+ ochrony dobra dziecka i prawa rodziców do wychowania dzieci. Ograniczenie wolności działalności
+ gospodarczej następuje w ustawie i dotyczy dostępu ucznia oraz rodzica do informacji i funkcjonalności
+ związanych z danym uczniem. Projekt przewiduje 14-dniowe vacatio legis oraz trzymiesięczny termin na
+ przywrócenie funkcjonalności ograniczonych po 1 sierpnia 2026 roku.
+ Projekt pozostaje zgodny z rozporządzeniem (UE) 2016/679. Ze względu na regulowanie funkcjonalności
+ usług świadczonych drogą elektroniczną projektowany art. 47a ust. 1, 2, 5 i 6 – w zakresie, w jakim odnosi
+ się do usług świadczonych drogą elektroniczną przez przedsiębiorców – stanowi „zasadę dotyczącą usług”
+ w rozumieniu art. 1 ust. 1 lit. e dyrektywy (UE) 2015/1535 i powinien zostać przekazany Komisji
+ Europejskiej w ramach procedury notyfikacyjnej przed jego uchwaleniem.
+
+
+[4] Jakie są przewidywane skutki społeczne projektowanych rozwiązań?
+
+ Projekt oddziałuje przede wszystkim na około 5,4 mln uczniów oraz około 10 mln rodziców i opiekunów
+ prawnych. Pozytywnym skutkiem będzie równy, niezależny od sytuacji materialnej rodziny dostęp do
+ informacji o ocenach, frekwencji, organizacji zajęć i komunikacji ze szkołą. Regulacja powinna poprawić
+ bieżącą współpracę szkoły z domem oraz ułatwić rodzicom sprawowanie nadzoru nad edukacją dziecka.
+ Korzyść pieniężna gospodarstw domowych została oszacowana na około 54–86 mln zł rocznie. Przyjęto,
+ że płatny dostęp wykupują rodzice 25–40% uczniów, a średnia opłata wynosi 40 zł rocznie na dziecko.
+ Wyliczenie: 5,4 mln uczniów × 25–40% × 40 zł. Rzeczywista wartość zależy od liczby wykupionych
+ dostępów i cen stosowanych przez operatorów. Nie zidentyfikowano istotnych negatywnych skutków
+ społecznych.
+[5] Jakie są przewidywane skutki gospodarcze projektowanych rozwiązań?
+
+ Projekt wpływa na gospodarstwa domowe jako konsumentów, podmioty udostępniające komercyjne systemy
+ dzienników elektronicznych, szkoły oraz organy prowadzące. Konsumenci uzyskają korzyść w postaci
+ unikniętych opłat, szacowaną na 54–86 mln zł rocznie. Odpowiadająca tej kwocie część przychodów
+ przedsiębiorców ze sprzedaży płatnych dostępów rodzicom może zostać utracona. Nie oznacza to
+ automatycznie straty netto w tej samej wysokości, ponieważ operatorzy zachowają przychody z umów
+ licencyjnych zawieranych ze szkołami i organami prowadzącymi.
+ W kolejnych latach możliwa jest próba uwzględnienia części utraconych przychodów w cenach licencji. Skala
+ tego zjawiska nie jest możliwa do wiarygodnego oszacowania na podstawie dostępnych danych. Projekt nie
+ różnicuje dostawców według ich wielkości i może oddziaływać również na mikroprzedsiębiorców oraz małych
+ i średnich przedsiębiorców, jeżeli udostępniają szkołom systemy dzienników elektronicznych. Liczba takich
+ podmiotów, zgodnie z danymi własnymi Ministerstwa Edukacji Narodowej wynosi ok. 5, przy czym rynek jest
+ zdominowany przez dwóch dostawców.
+
+
+
+
+[6] Jakie są przewidywane skutki finansowe projektowanych rozwiązań,       w
+szczególności wpływ na sektor finansów publicznych, w tym na budżet państwa i
+budżety jednostek samorządu terytorialnego?
+
+ Budżet państwa: nie przewiduje się bezpośredniego wpływu na dochody ani wydatki budżetu państwa (0
+ mln zł). Projekt nie zakłada budowy ani utrzymania publicznego systemu teleinformatycznego. Obsługa
+ wniosków o zgodę na ograniczenie funkcjonalności będzie zadaniem ministra właściwego do spraw
+ oświaty i wychowania; koszty administracyjne nie zostały odrębnie oszacowane i zakłada się ich pokrycie
+ w ramach istniejących zasobów.
+ Jednostki samorządu terytorialnego: w roku wejścia w życie ustawy przewiduje się wpływ 0 mln zł,
+ ponieważ umowy licencyjne na rok szkolny 2026/2027 pozostają na dotychczasowych warunkach
+ cenowych. W kolejnych latach możliwy jest pośredni wzrost cen licencji, jeżeli dostawcy przeniosą część
+ utraconych przychodów na organy prowadzące. Brak danych pozwalających na wiarygodne oszacowanie
+ tego ryzyka. Projekt nie ustanawia nowego zadania oświatowego jednostek samorządu terytorialnego, lecz
+ doprecyzowuje standard realizacji zadania już wykonywanego.
+
+
+
+
+[7] Wykaz źródeł finansowania, jeśli projekt ustawy pociąga za sobą obciążenie
+budżetu państwa lub budżetów jednostek samorządu terytorialnego.
+
+ Projekt nie zakłada bezpośredniego zwiększenia wydatków ani zmniejszenia dochodów budżetu państwa
+ lub budżetów jednostek samorządu terytorialnego, dlatego nie przewiduje się konieczności pozyskania
+ dodatkowych środków. Zadania administracyjne ministra mają być finansowane w ramach środków
+ pozostających w dyspozycji urzędu obsługującego ministra właściwego do spraw oświaty i wychowania.
+ Ewentualny pośredni wpływ na ceny licencji w kolejnych latach nie został skwantyfikowany.
+
+
+
+[8] Czy projekt ustawy podlega procedurze notyfikacyjnej?
+        ☐ Nie
+
+    ☒ Tak, ponieważ:
+
+        ☐ określa plan przyznania lub zmiany pomocy państwa (art. 108 ust. 3 Traktatu o
+        funkcjonowaniu Unii Europejskiej);
+        ☒ zawiera przepisy techniczne (dyrektywa (UE) 1535/2015);
+        ☐ dotyczy dziedziny podlegającej kompetencji Europejskiego Banku Centralnego (art.
+        127 ust. 4 tiret drugie TfUE);
+        ☐ ma zastosowanie do usług świadczonych przez usługodawców (dyrektywa
+      2006/123/WE);
+      ☐ dotyczy innych niż wymienione wyżej dziedzin objętych procedurą notyfikacyjną.
+                                               -4-
+TAK – projekt zawiera zasady dotyczące usług społeczeństwa informacyjnego w rozumieniu dyrektywy
+(UE) 2015/1535. Projektowane przepisy regulują warunki udostępniania przez przedsiębiorców aplikacji
+mobilnych, powiadomień i innych kanałów elektronicznego dostępu do systemu, zakazują pobierania
+określonych opłat oraz ograniczania funkcjonalności. Projekt powinien zostać przekazany Komisji
+Europejskiej w ramach procedury notyfikacyjnej przed jego uchwaleniem. Nie przewiduje się obowiązku
+notyfikacji z tytułu pomocy państwa ani kompetencji Europejskiego Banku Centralnego.
+                                                 -5-
+
+III. Wymogi określone w art. 34 ust. 2a i 2b regulaminu Sejmu
+
+[9] Czy projekt ustawy zawiera przepisy określające zasady podejmowania,
+wykonywania lub zakończenia działalności gospodarczej (art. 34 ust. 2a regulaminu
+Sejmu)?
+       ☐ Nie
+       ☒ Tak
+ TAK. Projekt określa zasady wykonywania działalności gospodarczej przez podmioty udostępniające
+ szkołom lub organom prowadzącym systemy dzienników elektronicznych. Nakłada zakaz pobierania opłat
+ od uczniów i rodziców za określony zakres dostępu, zakaz reklam i wykorzystywania danych do celów
+ marketingowych oraz obowiązek utrzymania funkcjonalności.
+ Rozważono zmianę rozporządzenia i utworzenie bezpłatnego systemu alternatywnego. Rozwiązania te nie
+ zapewniały usunięcia opłat we wszystkich szkołach korzystających z systemów komercyjnych. Regulacja
+ ustawowa została uznana za konieczną do skutecznego objęcia obowiązkiem przedsiębiorców i
+ ustanowienia mechanizmów egzekwowania. Projekt nie ogranicza możliwości zawierania odpłatnych
+ umów licencyjnych ze szkołami i organami prowadzącymi ani świadczenia usług niezwiązanych z
+ dokumentacją i komunikacją dotyczącą ucznia.
+
+
+
+
+[10] Czy wdrożenie projektowanych przepisów spowoduje obciążenia administracyjne
+mikroprzedsiębiorców, małych i średnich przedsiębiorców (art. 34 ust. 2a regulaminu
+Sejmu)?
+       ☐ Nie
+       ☒ Tak
+ TAK. Obciążeniem administracyjnym jest konieczność wystąpienia do ministra właściwego do spraw
+ oświaty i wychowania z wnioskiem o zgodę na ograniczenie dotychczasowej funkcjonalności systemu.
+ Wniosek powinien wskazywać funkcjonalność, opisywać skutki ograniczenia dla uczniów i rodziców oraz
+ zawierać uzasadnienie. Obowiązek ten dotyczy także mikroprzedsiębiorców oraz małych i średnich
+ przedsiębiorców, jeżeli są dostawcami takiego systemu.
+ Ograniczeniu obciążeń służy brak obowiązku uzyskiwania zgody na rozwijanie systemu lub dodawanie
+ nowych funkcjonalności oraz wymaganie złożenia wniosku tylko w przypadku planowanego ograniczenia
+ dotychczasowych funkcji. Dalsze uproszczenie nie pozwalałoby na realizację celu polegającego na
+ przeciwdziałaniu obchodzeniu zakazu opłat przez usuwanie lub ograniczanie funkcjonalności.
+
+[11] Czy projekt ustawy zawiera przepisy regulacyjne lub określa wymogi dotyczące
+świadczenia usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r. o
+zasadach uznawania kwalifikacji zawodowych nabytych w państwach członkowskich
+Unii Europejskiej (art. 34 ust. 2b regulaminu Sejmu)?
+       ☒ Nie
+       ☐ Tak
+ NIE. Projekt nie reguluje dostępu do zawodu ani działalności zawodowej wymagającej określonych
+ kwalifikacji i nie ustanawia wymogów dotyczących uznawania kwalifikacji zawodowych lub świadczenia
+ usług transgranicznych w rozumieniu ustawy z dnia 22 grudnia 2015 r. o zasadach uznawania kwalifikacji
+ zawodowych nabytych w państwach członkowskich Unii Europejskiej.
+
+
+
+
+                                                 -6-
+
