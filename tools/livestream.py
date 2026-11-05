@@ -240,6 +240,14 @@ def variant(url, quality):
     return path if path.startswith("http") else f"{base}/{path}"
 
 
+def districts():
+    """{MP id: "Okręg nr 5 (Toruń)"}: the constituency each MP was elected in (data/mps.json)."""
+    path = ROOT / "data" / "mps.json"
+    rows = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    return {m["id"]: f"Okręg nr {m['districtNum']} ({m['districtName']})" for m in rows
+            if m.get("districtNum") and m.get("districtName")}
+
+
 def sitting_number(title):
     m = re.match(r"\s*(\d+)\.", title)
     return int(m[1]) if m else None
@@ -743,9 +751,11 @@ def main():
                     print(f"{brk['first_miss']:%H:%M:%S} koniec przerwy", flush=True)
                 brk.update(run=None, on=False)
     now = {"clock": start}
+    district_of = districts().get
 
     def speaker_card(m):
         return {"kind": "mp", "mp": m["id"], "name": m["name"], "club": m.get("club") or "niez.", "title": "Na mównicy",
+                "district": district_of(m["id"]),
                 "value": m.get("speeches") or 0, "unit": "wystąpień w kadencji",
                 "stats": [["frekwencja", f"{m.get('turnout', 0) * 100:.1f}%".replace(".", ",")],
                           ["wyłamania", str(m.get("brokeLine", 0))], ["interpelacje", str(m.get("questions", 0))],
@@ -1164,10 +1174,10 @@ def main():
         if not recent or floor:
             # no votes going on, or a speaker between them: the bar names who is speaking
             if speaking:
-                stats = dict(sp["stats"])
                 item, chip, note = sp["name"], sp["club"], sp.get("now")
-                topic = (f"Na mównicy od {speaker['at']:%H:%M} · {sp['value']} wystąpień w kadencji · "
-                         f"frekwencja {stats.get('frekwencja')} · wyłamania z linii klubu: {stats.get('wyłamania')}")
+                # the constituency, since when, how many speeches (the figures are on the card)
+                topic = (f"{sp['district'] + ' · ' if sp.get('district') else ''}na mównicy od {speaker['at']:%H:%M} · "
+                         f"{sp['value']} wystąpień w kadencji")
             else:
                 item, topic = title, "Mówca pojawi się tu, gdy transmisja go przedstawi"
         panel = card = mini = None

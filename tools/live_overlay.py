@@ -344,7 +344,8 @@ class Overlay:
         hit = self._cards.get(key)
         if hit and hit[0] is card:
             return hit[1]
-        width, h = 560, 268
+        # an MP's card with their constituency has a line more
+        width, h = 560, 296 if card["kind"] == "mp" and card.get("district") else 268
         im = Image.new("RGBA", (width, h), (0, 0, 0, 0))
         d = ImageDraw.Draw(im)
         colour = club_colour(card.get("club")) if card.get("club") else ACCENT
@@ -365,7 +366,12 @@ class Overlay:
             name, f_name = self.name_fit(card["name"], 27, width - x0 - 24, 22)
             d.text((x0, 58), name, font=f_name, fill="white")
             low = f_name.getbbox("gjpyŁ")[3]   # the name's lowest ink
-            club_chip(d, x0, 58 + low + 12 + 13, card["club"], self.font(16, True), self.font(13, True), card.get("now"))
+            cy = 58 + low + 12 + 13
+            club_chip(d, x0, cy, card["club"], self.font(16, True), self.font(13, True), card.get("now"))
+            # the constituency on a line of its own under the chip, its number and town whole
+            if card.get("district"):
+                f_d = self.font(17)
+                d.text((x0, cy + 30), self.fit(card["district"], f_d, width - x0 - 24), font=f_d, fill=(205, 212, 225), anchor="lm")
             # small stats along the bottom
             stats = card.get("stats") or []
             sx = x0
@@ -537,7 +543,7 @@ class Overlay:
             k = clamp((t - 0.35) / 1.1)
             shown = str(round(value * (1 - (1 - k) ** 3)))
         mp = card["kind"] == "mp"
-        nx, ny = (176, 128) if mp else (24, 56)
+        nx, ny = (176, 156 if card.get("district") else 128) if mp else (24, 56)
         if card.get("stats") and not mp and self.club_logo(card.get("club")):
             nx, ny = 102, 58   # right of the club's logo
         # a club card's name, above its tiles, is a heading rather than a figure
