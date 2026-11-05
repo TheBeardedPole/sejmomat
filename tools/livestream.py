@@ -358,6 +358,8 @@ REACTION = 8                                            # after a vote on a whol
 SHRINK = 0.5                                            # …in its last seconds (no amendment after it) it shrinks into a small window, bottom right
 FULL_WIDTH, FULL_LINES = 84, 10                         # then what an amendment changes, full screen: characters a line, lines a page
 PLAN_LINK_EVERY = 900                                   # seconds between chat messages with the planned item's page
+PLAN_INFO_EVERY = 180                                   # under a speaker the bar names the planned item; once in this many seconds…
+PLAN_INFO_FOR = 20                                      # …for this long it says instead that it is the plan, and the delay
 PLAN_EVERY = 600                                        # seconds between reloads of the planned timetable (it changes during a sitting)
 QUIET = 300                                             # seconds without a vote: the panel shows fun facts
 # A break in the sitting: the broadcast holds its wide shot of the hall (tools/break/*.png,
@@ -951,8 +953,10 @@ def main():
         per_pos = []
         for i, pos in enumerate(positions):
             mp = max(pts_k, key=lambda m: (pts_k[m]["p"][i], -int(m)))
-            per_pos.append((mp, f"{pts_k[mp]['p'][i]} pkt · {pos}"))
-        out = [(f"Sejmowa liga: najlepsi na {k.get('number') or ''}. posiedzeniu".replace(" .", ""), rows(per_pos))]
+            per_pos.append((pts_k[mp]["p"][i], mp, f"{pts_k[mp]['p'][i]} pkt · {pos}"))
+        per_pos.sort(key=lambda x: -x[0])   # by points: the ranks read 1, 2, 3
+        out = [(f"Sejmowa liga: najlepsi na {k.get('number') or ''}. posiedzeniu".replace(" .", ""),
+                rows([(mp, value) for _, mp, value in per_pos]))]
         if len(played) > 1:
             out.append(("Sejmowa liga: najlepsi posłowie sezonu", rows([(mp, f"{p} pkt") for mp, p in season.most_common()])))
         return out
@@ -1102,11 +1106,18 @@ def main():
                                                      if late > timedelta(0) else "przed czasem" if late < timedelta(0) else "zgodnie z planem"), flush=True)
         return late, why, live_plan.current(slots, naive, late)
 
+    def plan_line(slot, over, clock):
+        """The bar's line under a speaker: the item on by the plan, and now and then (PLAN_INFO_FOR
+        seconds in every PLAN_INFO_EVERY) where that comes from and how late the sitting runs."""
+        if clock.timestamp() % PLAN_INFO_EVERY < PLAN_INFO_FOR:
+            return "Wg harmonogramu obrad" + (f" · {over}" if over else " · zgodnie z planem")
+        return plan_label(slot)
+
     def plan_label(slot, druk=True):
         """"Punkt 5 · o systemie oświaty · druk nr 3278": the law's subject, capitalised unless it
         begins with "o", and the bill's print."""
         def short(t):   # a very long one shortened (the bar scrolls a long line; a break's row cuts it)
-            t = textwrap.shorten(live_plan.subject(short_title(t)), 120, placeholder="…")
+            t = textwrap.shorten(live_plan.subject(short_title(t)), 220, placeholder="…")
             return t if t.startswith("o ") else live_chat.first_upper(t)
         text = live_plan.label(slot, short)
         if druk and slot.get("prints") and not slot["vote"] and not text.endswith("(cd.)"):
@@ -1475,15 +1486,15 @@ def main():
                 item, chip, note = f"Na mównicy · {sp['name']}", None, None
                 topic = f"na mównicy od {speaker['at']:%H:%M}"
                 if now_slot:
-                    vote = f"Wg harmonogramu{f' ({over})' if over else ''}: {plan_label(now_slot)}"
+                    vote = plan_line(now_slot, over, clock)
             elif speaking:
                 item, chip, note = sp["name"], sp["club"], sp.get("now")
                 # the constituency, since when, how many speeches (the figures are on the card)
                 topic = (f"{sp['district'] + ' · ' if sp.get('district') else ''}na mównicy od {speaker['at']:%H:%M} · "
                          f"{sp['value']} wystąpień w kadencji")
                 if now_slot:
-                    # the delay before the item, whose name is long and is cut at the box's width
-                    vote = f"Wg harmonogramu{f' ({over})' if over else ''}: {plan_label(now_slot)}"
+                    # the item, now and then the plan's word and the delay (plan_line)
+                    vote = plan_line(now_slot, over, clock)
             elif now_slot:
                 lab = plan_label(now_slot)
                 head, _, rest = lab.partition(" · ")

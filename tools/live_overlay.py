@@ -210,6 +210,10 @@ class Overlay:
         inner = width - 2 * pad
         # a long agenda item takes two lines; a speaker's name one, with the chip after it
         heads = [self.fit(headline, f_head, inner - tags)] if chip else self.wrap(headline, f_head, inner)
+        # an item's name too long for its two lines: on one line that scrolls, rather than cut short
+        long_head = not chip and heads and heads[-1].endswith("…") and not headline.endswith("…")
+        if long_head:
+            heads = [""]
         height = top + 30 * len(heads) + 2 + 24 * len(lines) + 12
         x0, y0 = 20, H - height - 18
         box = Image.new("RGBA", (width, height), (0, 0, 0, 0))
@@ -230,6 +234,12 @@ class Overlay:
         for line in heads:
             b.text((pad, y), line, font=f_head, fill="white")
             y += 30
+        if long_head:
+            gap = "     ·     "
+            period = round(f_head.getlength(headline + gap))
+            strip = Image.new("RGBA", (2 * period + inner, 30), (0, 0, 0, 0))
+            ImageDraw.Draw(strip).text((0, 0), headline + gap + headline + gap + headline, font=f_head, fill="white")
+            self._marquee.append((strip, x0 + pad, y0 + top, round(inner), period))
         if chip:
             # on the name's line, centred on its capitals, a little apart from it
             cap = f_head.getbbox("H")
