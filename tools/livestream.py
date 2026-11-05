@@ -343,8 +343,37 @@ def captions(shown, tags, title):
     else:
         result = "PRZYJĘTO" if passed(v) else "ODRZUCONO"
         vote = f"Głosowanie nr {v['votingNumber']} · {short_topic(v.get('topic'))} · {result}: {v['yes']} za / {v['no']} przeciw / {v['abstain']} wstrz."
+        if senate_amendment(v):   # the Sejm votes on rejecting a Senate amendment: "za" rejects it
+            vote += " · poprawka Senatu " + ("odrzucona" if passed(v) else "przyjęta")
     return "\n".join(lines), (f"Temat: {topic}" if topic else " "), vote   # a line too long scrolls (live_overlay)
 
+
+
+# where a new article, paragraph or numbered point begins inside an amendment's text: "Art. 5a.",
+# "„Art. 5b.", "§ 2.", a paragraph "2. Treść", a point "2) ", "2a) ", "Rozdział 2a" (after a space, so
+# "art. 5" mid-sentence and "lit. a)" stay)
+UNIT_BREAK = re.compile(r"(?<!§)(?<!ust\.)(?<!art\.)(?<!Art\.)(?<!pkt)\s+(?=„?(?:Rozdział\s+\d+[a-z]*\b|Art\.\s*\d+[a-z]*\.(?:\s|$)|§\s*\d+[a-z]*\.\s|\d+[a-z]?\)\s"
+                        r"|\d+[a-z]?\.\s+[A-ZĄĆĘŁŃÓŚŹŻ]))")
+
+
+def split_units(text):
+    """An amendment's text cut where articles, paragraphs and points begin; an article's heading
+    ("Art. 11a.") stays with its first paragraph."""
+    out = []
+    for part in (p.strip() for p in UNIT_BREAK.split(text)):
+        if not part:
+            continue
+        if out and re.fullmatch(r"„?(?:Art\.\s*\d+[a-z]*\.|Rozdział\s+\d+[a-z]*)", out[-1]):
+            out[-1] = f"{out[-1]} {part}"
+        else:
+            out.append(part)
+    return out
+
+
+def senate_amendment(v):
+    """A vote on one of the Senate's amendments (its title names the Senate's resolution, its topic
+    "poprawka N"): the Sejm votes on rejecting it, so a motion passed is the amendment rejected."""
+    return bool(live_chat.SENATE_RE.search(v.get("title") or "")) and (v.get("topic") or "").lower().startswith("poprawk")
 
 DIFF_LINES = 12                                         # lines of the panel with what an amendment changes
 DIFF_SLOTS = DIFF_LINES + 4                             # with PAGE_STRETCH below: lines the panel can hold
@@ -450,18 +479,25 @@ def diff_panel(v, width=46, lines=None):
         passages = []   # each a list of (colour, line), kept on one page where it fits
 
         def wrap(text, mark, colour):
-            return [(colour, line) for line in textwrap.wrap(f"{mark} {text}", width, subsequent_indent="   ") or [mark]]
+            # each article, paragraph and numbered point on a line of its own (an amendment adding
+            # art. 5a and 5b reads as two blocks, not one run of text)
+            parts = split_units(text) or [""]
+            out = []
+            for k, part in enumerate(parts):
+                lead = f"{mark} " if k == 0 else "  "
+                out += [(colour, line) for line in textwrap.wrap(lead + part, width, subsequent_indent="   ") or [mark]]
+            return out
         changes = (it.get("bill_diff") or {}).get("changes") or []
         for ch in changes:
             where = [("w", line) for line in textwrap.wrap(ch.get("where") or "", width)]
             for r in ch.get("rows", []):
                 html = r["html"]
                 if r["state"] == "removed":
-                    passages.append(wrap(_plain(html), "−", "r"))
+                    passages.append(wrap(_plain(html), "–", "r"))
                 elif r["state"] == "added":
                     passages.append(wrap(_plain(html), "+", "g"))
                 elif r["state"] == "changed":
-                    passages.append(wrap(_plain(re.sub(r"<ins>.*?</ins>", "", html)), "−", "r")
+                    passages.append(wrap(_plain(re.sub(r"<ins>.*?</ins>", "", html)), "–", "r")
                                     + wrap(_plain(re.sub(r"<del>.*?</del>", "", html)), "+", "g"))
                 else:
                     continue
@@ -469,8 +505,9 @@ def diff_panel(v, width=46, lines=None):
                     passages[-1] = where + passages[-1]
                     where = []
         if not passages:
-            # no comparison with the bill: the amendment's own words
-            passages = [[("w", line)] for line in textwrap.wrap(_plain(it.get("text") or ""), width)]
+            # no comparison with the bill: the amendment's own words, an article or point a block
+            passages = [[("w", line)] for part in split_units(_plain(it.get("text") or ""))
+                        for line in textwrap.wrap(part, width)]
         per = (lines or DIFF_LINES) - 1
         pages, page = [], []
         for passage in passages:
@@ -949,17 +986,25 @@ def main():
             return [{"mp": int(mp), "name": names.get(mp, [mp])[0], "club": (names.get(mp) or ["", "niez."])[1], "value": value}
                     for mp, value in scored[:9]]
         k, lat = latest
-        # the kolejka: the best MP in each position (many score the same capped most as a Buntownik)
+        # the kolejka: the best MP in each position, a different MP for each (one MP may top several),
+        # ties drawn at random (many score the same capped most as a Buntownik)
         pts_k = get(f"points/{k['id']}.json")["mps"]
-        per_pos = []
+        per_pos, taken = [], set()
         for i, pos in enumerate(positions):
-            mp = max(pts_k, key=lambda m: (pts_k[m]["p"][i], -int(m)))
-            per_pos.append((pts_k[mp]["p"][i], mp, f"{pts_k[mp]['p'][i]} pkt · {pos}"))
+            free = [m for m in pts_k if m not in taken]
+            if not free:
+                break
+            top = max(pts_k[m]["p"][i] for m in free)
+            mp = random.choice([m for m in free if pts_k[m]["p"][i] == top])
+            taken.add(mp)
+            per_pos.append((top, mp, f"{top} pkt · {pos}"))
         per_pos.sort(key=lambda x: -x[0])   # by points: the ranks read 1, 2, 3
         out = [(f"Sejmowa liga: najlepsi na {k.get('number') or ''}. posiedzeniu".replace(" .", ""),
                 rows([(mp, value) for _, mp, value in per_pos]))]
         if len(played) > 1:
-            out.append(("Sejmowa liga: najlepsi posłowie sezonu", rows([(mp, f"{p} pkt") for mp, p in season.most_common()])))
+            # equal points in a random order, not by id
+            order = sorted(season.items(), key=lambda kv: (-kv[1], random.random()))
+            out.append(("Sejmowa liga: najlepsi posłowie sezonu", rows([(mp, f"{p} pkt") for mp, p in order])))
         return out
 
     def load_league():
@@ -1229,7 +1274,10 @@ def main():
                                   badge=("PRZYJĘTO", (40, 150, 90)) if ok else ("ODRZUCONO", (190, 60, 60)), note=reject_note(v))
 
     def reject_note(v, short=False):
-        """A motion to reject a bill reads the other way round: rejecting it keeps the bill going."""
+        """A motion to reject a bill reads the other way round: rejecting it keeps the bill going. So
+        does a Senate amendment: the Sejm votes on rejecting it."""
+        if senate_amendment(v):
+            return "Przyjęcie = odrzucenie poprawki Senatu" if passed(v) else "Odrzucenie = przyjęcie poprawki Senatu"
         if "wniosek o odrzucenie" not in (v.get("topic") or "").lower():
             return None
         if passed(v):
