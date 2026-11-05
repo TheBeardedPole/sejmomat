@@ -13,6 +13,12 @@
   {% for att in meta.attachments or [] %} · <a href="{{ pdf_url(num, att) }}">{{ att }}</a>{% endfor %}
 </p>
 
+{% if law %}
+<h2 id="prawo">{{ _("Zmiany w obowiązującym prawie") }}</h2>
+<p class="muted">{{ _("Co ten projekt zmienia w ustawach, które dziś obowiązują: przepisy w obecnym brzmieniu porównane z nowym.") }}</p>
+{{ law_changes(law, true, "prawo") }}
+{% endif %}
+
 {% for kind, report in (sources.get(num) or {}).items() %}
 {% set items = source_items(num, kind, report) %}
 {% if items %}

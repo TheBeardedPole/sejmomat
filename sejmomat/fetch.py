@@ -266,8 +266,57 @@ def _fetch_act(eli_id):
     base.with_suffix(".txt").write_text(text, encoding="utf-8")
 
 
+PASSED = DATA / "passed"   # the act as the Sejm passed it (third reading), which the Senate amends
+
+
+def _stages(stages):
+    for st in stages or []:
+        yield st
+        yield from _stages(st.get("children"))
+
+
+def _fetch_passed(root):
+    """The act as passed at the third reading, for the bill whose process starts with print
+    `root`: the process's "textAfter3" PDF as text, data/passed/<root>.txt (and .json, its URL)."""
+    base = PASSED / root
+    if base.with_suffix(".txt").exists():
+        return
+    proc = api.get(f"processes/{root}")
+    url = next((st.get("textAfter3") for st in _stages((proc or {}).get("stages")) if st.get("textAfter3")), None)
+    if not url:
+        return
+    pdf = api.get(url.rsplit("/sejm/term", 1)[1].split("/", 1)[1], binary=True) if "/sejm/term" in url else None
+    if not pdf:
+        return
+    base.parent.mkdir(parents=True, exist_ok=True)
+    tmp = base.with_suffix(".pdf")
+    tmp.write_bytes(pdf)
+    text = pdf_text(tmp)
+    tmp.unlink()
+    _write_json(base.with_suffix(".json"), {"process": root, "url": url})
+    base.with_suffix(".txt").write_text(text, encoding="utf-8")
+
+
+def fetch_passed():
+    """The acts as passed by the Sejm for every bill the Senate amended (its resolution's print),
+    so Senate amendments are compared with what they amend. Kept in data/passed and committed."""
+    roots = set()
+    for meta_path in (DATA / "prints").glob("*.json"):
+        if "." in meta_path.stem or meta_path.stem.startswith("_"):
+            continue
+        meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        if isinstance(meta, dict) and (meta.get("title") or "").startswith("Uchwała Senatu"):
+            roots.update(meta.get("processPrint") or [])
+    missing = sorted(r for r in roots if not (PASSED / f"{r}.txt").exists())
+    with ThreadPoolExecutor(3) as pool:
+        list(pool.map(_fetch_passed, missing))
+    have = sum(1 for r in roots if (PASSED / f"{r}.txt").exists())
+    print(f"passed acts: {have}/{len(roots)} bills the Senate amended")
+
+
 def fetch_acts():
-    """Consolidated texts of acts that committee reports and amendments change.
+    """Consolidated texts of acts that bills, committee reports and amendments change (a bill
+    before its first reading too: its print page shows what it would change).
 
     Kept in data/acts and committed, like the print texts, so every build
     has them without re-downloading from the slow ELI API.
@@ -278,7 +327,7 @@ def fetch_acts():
             continue
         title = json.loads(meta_path.read_text(encoding="utf-8")).get("title") or ""
         text_path = meta_path.with_suffix(".txt")
-        if "prawozdanie" not in title or not text_path.exists():
+        if not ("prawozdanie" in title or "projekt ustawy" in title.lower()) or not text_path.exists():
             continue
         flat = "\n".join(clean_bill_lines(text_path.read_text(encoding="utf-8")))
         wanted.update(act_id(m.groupdict()) for m in CITE_RE.finditer(flat))
@@ -365,6 +414,10 @@ def run():
     except Exception as e:  # stages of bills, for frozen bills and amendments not yet voted on
         print(f"processes: not updated ({e})")
     fetch_prints()
+    try:
+        fetch_passed()
+    except Exception as e:  # for comparing Senate amendments; not worth failing the update for
+        print(f"passed acts: not updated ({e})")
     speeches.fetch()
     state = _data_state()
     if ACTS_SCANNED.exists() and ACTS_SCANNED.read_text().strip() == state:

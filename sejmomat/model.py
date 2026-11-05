@@ -24,8 +24,19 @@ def print_meta(num):
 
 @cache
 def print_text(num):
-    path = DATA / "prints" / f"{num}.txt"
+    """A print's text; "u3:<root>": the act as the Sejm passed it, for the bill starting with print
+    <root> (data/passed, fetch.fetch_passed), which Senate amendments are compared with."""
+    if str(num).startswith("u3:"):
+        path = DATA / "passed" / f"{num[3:]}.txt"
+    else:
+        path = DATA / "prints" / f"{num}.txt"
     return path.read_text(encoding="utf-8") if path.exists() else None
+
+
+def passed_url(base):
+    """The Sejm's PDF of a passed act ("u3:<root>"), or None."""
+    path = DATA / "passed" / f"{str(base)[3:]}.json"
+    return json.loads(path.read_text(encoding="utf-8")).get("url") if str(base).startswith("u3:") and path.exists() else None
 
 
 def _title(num):
@@ -61,12 +72,44 @@ def bill_articles(num):
     return articles if len(articles) >= 2 and "1" in articles else None
 
 
+@cache
+def _reports_by_root():
+    """{a process's first print: [its committee reports' numbers]}, from the prints' records."""
+    out = {}
+    for path in (DATA / "prints").glob("*.json"):
+        if "." in path.stem or path.stem.startswith("_"):
+            continue
+        meta = json.loads(path.read_text(encoding="utf-8"))
+        title = meta.get("title") or ""
+        if "prawozdanie" in title and "Senat" not in title:
+            for root in meta.get("processPrint") or []:
+                out.setdefault(root, []).append(path.stem)
+    return out
+
+
+def _num_key(n):
+    m = re.match(r"(\d+)(.*)", n)
+    return (int(m[1]), m[2]) if m else (0, n)
+
+
 def amendment_base(src, kind):
     """Print holding the bill text an amendment refers to: the committee
     report it belongs to, or - when the report's PDF has no bill text - the
-    bill as submitted (the first print of the process)."""
-    if not src or kind == "senate":
-        return None  # Senate amendments refer to the act as passed, not a print
+    bill as submitted (the first print of the process). The Senate amends the
+    act as the Sejm passed it, which is no print: for its amendments the
+    latest committee report of the process with the bill in it stands in."""
+    if not src:
+        return None
+    if kind == "senate":
+        roots = (print_meta(src) or {}).get("processPrint") or []
+        for root in roots:   # the act as passed, when we have it
+            if bill_articles(f"u3:{root}"):
+                return f"u3:{root}"
+        for root in roots:
+            for report in sorted(_reports_by_root().get(root, []), key=_num_key, reverse=True):
+                if bill_articles(report):
+                    return report
+        return next((r for r in roots if bill_articles(r)), None)
     report = re.sub(r"-[A-Z]+$", "", src) if kind == AMENDMENT else src
     if bill_articles(report):
         return report
@@ -82,9 +125,13 @@ def bill_diff(src, kind, text):
     if not articles:
         return None
     changes = changes_against(articles, text)
-    if not any(c["found"] for c in changes):
+    # nothing matched in the bill: still shown, each change's new wording as added, unless no
+    # instruction could be read at all, or the amendment spells out the old and new words (its
+    # word diff, extract(), says more)
+    if not any(c["found"] for c in changes) and (not any(c["rows"] for c in changes) or extract(text)):
         return None
-    return {"base": base, "changes": changes}
+    passed = passed_url(base)
+    return {"base": base, "changes": changes, "approx": kind == "senate" and not passed, "passed": passed}
 
 
 def _sources(nums, senate):

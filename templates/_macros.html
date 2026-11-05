@@ -83,7 +83,8 @@
 
 {% macro bill_diff(bd, root, printed) -%}
 <div class="bill-diff">
-  <p class="note">{{ _("Porównanie z projektem według") }} {{ print_link(bd.base, root, printed, none, _("druku nr") ~ " " ~ bd.base) }}:
+  {% if bd.approx %}<p class="note muted">{{ _("Senat zmienia ustawę w brzmieniu uchwalonym przez Sejm. Porównujemy z projektem z ostatniego sprawozdania komisji: numeracja przepisów zwykle się zgadza, ale tekst mógł się jeszcze zmienić w drugim i trzecim czytaniu.") }}</p>{% endif %}
+  <p class="note">{% if bd.passed %}{{ _("Porównanie z") }} <a href="{{ bd.passed }}">{{ _("tekstem ustawy uchwalonej przez Sejm") }}</a>{% else %}{{ _("Porównanie z projektem według") }} {{ print_link(bd.base, root, printed, none, _("druku nr") ~ " " ~ bd.base) }}{% endif %}:
     <span class="r-legend"><del>{{ _("usunięte") }}</del> <ins>{{ _("dodane") }}</ins> <span class="muted">{{ _("szare: sąsiednie przepisy") }}</span></span></p>
   {% for c in bd.changes %}
   <div class="diff law-change" lang="pl">

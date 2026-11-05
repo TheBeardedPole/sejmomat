@@ -691,6 +691,11 @@ EN = {
     "punkty": "items", "teraz wg planu": "now by the plan",
     "Kancelaria Sejmu nie opublikowała jeszcze harmonogramu najbliższego posiedzenia.": "The Chancellery has not yet published the timetable of the next sitting.",
     "Harmonogram obrad: planowane godziny punktów": "Sitting timetable: the items' planned times",
+    "Co ten projekt zmienia w ustawach, które dziś obowiązują: przepisy w obecnym brzmieniu porównane z nowym.":
+        "What this bill would change in the acts in force: the provisions as they read now, compared with the new wording.",
+    "Senat zmienia ustawę w brzmieniu uchwalonym przez Sejm. Porównujemy z projektem z ostatniego sprawozdania komisji: numeracja przepisów zwykle się zgadza, ale tekst mógł się jeszcze zmienić w drugim i trzecim czytaniu.":
+        "The Senate amends the act as the Sejm passed it. We compare with the bill in the committee's latest report: the provisions are usually numbered the same, but the text may still have changed at the second and third readings.",
+    "Porównanie z": "Compared with", "tekstem ustawy uchwalonej przez Sejm": "the act as passed by the Sejm",
     "Główna nawigacja": "Main navigation", "Zamknij menu": "Close the menu", "Ścieżka nawigacji": "Breadcrumb", "Menu": "Menu", "Szukaj…": "Search…",
     "Głosowanie na żywo": "Live vote", "Przyjęte poprawki": "Adopted amendments", "Zgłoszone poprawki": "Amendments proposed",
     "Statystyki": "Statistics", "Wszystkie głosowania tego posiedzenia": "All votes of this sitting",

@@ -357,6 +357,18 @@ Live on sejmomat.pl:
   build from `games/sejmdle/game.html` (`sejmomat/sejmdle.py`, also run by the quick publish), with "Wróć do listy gier" and its
   archive. Old links (`sejmdle/#kim`, `?dzien=…#game`) redirect; shared results link the game's page.
 
+- **Comparisons widened** (5 November 2026): a bill's print page ("…projekt ustawy…") shows what it
+  would change in the acts in force ("Zmiany w obowiązującym prawie", `bill_changes`), so a bill before
+  its first reading has it too; `fetch_acts` now also downloads acts that bill prints cite. Senate
+  amendments are compared with the act as the Sejm passed it (`data/passed/<process>.txt`, the
+  process's "textAfter3" PDF, `fetch.fetch_passed`, run by `fetch`; `print_text("u3:<root>")`), else with
+  the latest committee report (`model.amendment_base`, a note on the page). An amendment matching
+  nothing in its bill still shows its new wording as added (unless it has a word diff). `acts.resolve`
+  reaches into a quote by any address its quoting text names, or by searching the quote (`_find_path`:
+  "dodaje się art. 5a–5f" holds art. 5d), and reads "w pkt 5" as art. 1 pkt 5. Of 4,913 amendments
+  3,565 are compared (was 1,708), 906 have none (was 1,950; mostly the budget's tables, resolutions,
+  motions to reject, and amendments whose committee version of the bill could not be read).
+
 Waiting on the owner:
 
 - **Sejmowa liga setup** before launch: (1) Google Cloud Console → a project → OAuth consent screen

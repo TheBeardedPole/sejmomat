@@ -448,12 +448,34 @@ def _quoted_part(text):
     return (text[:i], _quoted(text, i + 1)) if i >= 0 else (text, "")
 
 
+def _find_path(root, path):
+    """The unit at `path` under `root`, its first step searched among all of root's descendants
+    (a quote's units sit at any depth: "dodaje się art. 5a–5f" holds art. 5d at its top level,
+    "lit. b ... po ust. 3 dodaje się ust. 4" holds ust. 4 under it)."""
+    def walk(u):
+        for ch in u.children:
+            yield ch
+            yield from walk(ch)
+    kind, label = path[0]
+    for u in walk(root):
+        if u.kind == kind and u.label == label:
+            target = u
+            for k2, l2 in path[1:]:
+                target = target.find(k2, l2) if target else None
+            if target is not None:
+                return target
+    return None
+
+
 def resolve(articles, toks):
     """(unit, context unit) for an address that may reach inside quoted text.
 
     "w art. 1 w pkt 34, w art. 38a ust. 14": art. 1 pkt 34 is a unit of the
     bill; art. 38a ust. 14 is inside the provision that unit quotes.
     """
+    # a bill amending one act in one article: its amendments say "w pkt 5", meaning art. 1 pkt 5
+    if toks and toks[0][0] in ("pkt", "ust") and "1" in articles:
+        toks = [("art", "1")] + list(toks)
     if not toks or toks[0][0] != "art" or toks[0][1] not in articles:
         return None, None
     unit, parent = articles[toks[0][1]], None
@@ -468,17 +490,25 @@ def resolve(articles, toks):
             return None, None
         own = tokens(head)          # what the quoting unit itself addresses
         rest = toks[i:]
-        k = 0
-        while k < len(own) and k < len(rest) and own[k] == rest[k]:
-            k += 1
-        if k == 0 and own:
-            return None, None
         inner = tree_from_text(quoted)
-        target = inner
-        if len(inner.children) == 1 and own and inner.children[0].kind == own[-1][0]:
-            target = inner.children[0]  # the quoted text is the addressed unit itself
-        for kind2, label2 in rest[k:]:
-            target = target.find(kind2, label2) if target else None
+        # the address may start at any of them: "po art. 109 dodaje się art. 109a w brzmieniu"
+        # quotes art. 109a, which an amendment reaches as "w art. 1, w art. 109a ust. 7"
+        start = next((p for p in range(len(own)) if own[p] == rest[0]), 0)
+        k = 0
+        while start + k < len(own) and k < len(rest) and own[start + k] == rest[k]:
+            k += 1
+        target = None
+        if k or not own:
+            own = own[:start + k] if k else own
+            target = inner
+            if len(inner.children) == 1 and own and inner.children[0].kind == own[-1][0]:
+                target = inner.children[0]  # the quoted text is the addressed unit itself
+            for kind2, label2 in rest[k:]:
+                target = target.find(kind2, label2) if target else None
+        if target is None:
+            # the quoting text does not name the unit ("dodaje się art. 5a–5f" holds art. 5d):
+            # looked for in the quoted provisions themselves
+            target = _find_path(inner, rest)
         return target, unit
     return unit, parent
 

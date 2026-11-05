@@ -1025,7 +1025,12 @@ def _pages(ctx):
     for r in ctx["mp_rows"]:
         yield "mp.html", f"posel/{r['mp']['id']}.html", {"r": r}
     for num in ctx["printed_list"]:
-        yield "print.html", f"druk/{num}.html", {"num": num, "meta": print_meta(num)}
+        meta = print_meta(num)
+        title = (meta or {}).get("title") or ""
+        # a bill's print: what it would change in the acts in force (a bill before its first
+        # reading has no bill page yet, so this is where it is shown)
+        law = bill_changes(print_text(num)) if "projekt ustawy" in title.lower() and "prawozdanie" not in title else []
+        yield "print.html", f"druk/{num}.html", {"num": num, "meta": meta, "law": law}
 
 
 def _lang_path(lang, path):
