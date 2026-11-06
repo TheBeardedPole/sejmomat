@@ -88,6 +88,8 @@ ExecStartPre=-/usr/bin/git -C %h/sejmomat-live pull --ff-only -q
 # the computer does not go to sleep while it streams
 ExecStart=/usr/bin/systemd-inhibit --what=sleep:idle --who=Sejmomat --why="Transmisja Sejmu" %h/sejmomat-live/.venv/bin/python tools/livestream.py --wait --out rtmp
 Restart=always
+KillMode=mixed
+TimeoutStopSec=30
 RestartSec=30
 
 [Install]

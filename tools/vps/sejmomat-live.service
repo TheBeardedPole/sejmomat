@@ -16,6 +16,10 @@ ExecStart=/opt/sejmomat/.venv/bin/python tools/livestream.py --wait --out rtmp
 Restart=always
 RestartSec=30
 Nice=-5
+# a stop or restart: the signal to the stream alone (it shows the restart for a few seconds, then
+# ends its ffmpeg itself); anything left after 30 s is killed
+KillMode=mixed
+TimeoutStopSec=30
 
 [Install]
 WantedBy=multi-user.target

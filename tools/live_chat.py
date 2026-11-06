@@ -537,8 +537,12 @@ def retitle(yt, b, title):
     sn = b["snippet"]
     if sn.get("title") == title[:100]:
         return None
-    yt._call("PUT", "liveBroadcasts", {"part": "snippet"}, {"id": b["id"], "snippet": {
-        "title": title[:100], "description": sn.get("description", ""), "scheduledStartTime": sn["scheduledStartTime"]}})
+    # a broadcast the channel's default key started has no scheduled start (6 November 2026: the
+    # rename failed on its absence every 15 s); it is sent only when there is one
+    body = {"title": title[:100], "description": sn.get("description", "")}
+    if sn.get("scheduledStartTime"):
+        body["scheduledStartTime"] = sn["scheduledStartTime"]
+    yt._call("PUT", "liveBroadcasts", {"part": "snippet"}, {"id": b["id"], "snippet": body})
     return sn.get("title")
 
 

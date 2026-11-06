@@ -719,7 +719,8 @@ def ffmpeg_command(src, out, snapshot, fast=False, music=None):
     else:
         v = f"{scaled}[base];{ovl};{lay}"
     if music:
-        v += ";[0:a]aresample=44100,aformat=channel_layouts=stereo[hall];[hall][2:a]amix=inputs=2:normalize=0:duration=first[a]"
+        # amix halves each input (its "normalize" switch is only in ffmpeg 4.4 and later): doubled after
+        v += ";[0:a]aresample=44100,aformat=channel_layouts=stereo[hall];[hall][2:a]amix=inputs=2:duration=first:dropout_transition=0,volume=2[a]"
     # on a server (no terminal) the progress line once a minute, for the log
     quiet = [] if sys.stderr.isatty() else ["-stats_period", "60"]
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *quiet, *inputs, "-filter_complex", v, "-map", "[v]",
@@ -1823,6 +1824,16 @@ def main():
     cmd, preview = ffmpeg_command(src, args.out, snapshot if recogniser and not ahead else None, args.fast,
                                   str(music_pipe) if music_pipe else None)
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE if preview else None)
+    if music_pipe:
+        # ffmpeg refusing the music's part (an older version, a missing filter) must not take the stream
+        # down: if it has ended within a few seconds, it starts again without music
+        time.sleep(4)
+        if proc.poll() is not None:
+            print("muzyka: ffmpeg jej nie przyjął, transmisja bez muzyki", file=sys.stderr, flush=True)
+            music_q.put(None)
+            music_pipe = None
+            cmd, preview = ffmpeg_command(src, args.out, snapshot if recogniser and not ahead else None, args.fast, None)
+            proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE if preview else None)
     reader = subprocess.Popen(snapshot_command(ahead, snapshot), stdin=subprocess.DEVNULL) if ahead else None
     # on air: the site hears of it every LIVE_EVERY seconds (a live sitting always; a replay with --announce)
     stopped = threading.Event()
@@ -2042,26 +2053,31 @@ def main():
     restarting = {"at": None}
 
     def on_term(signum, frame_):
+        """Only marks the restart: a signal handler runs in the main loop's place, so anything slow
+        here (the Sejm's API, the chat) held the loop up until systemd killed it (6 November 2026);
+        that is done in a thread."""
         if restarting["at"]:
             return
         restarting["at"] = time.monotonic()
+        threading.Thread(target=announce_restart, daemon=True).start()
+
+    def announce_restart():
         print("restart: zatrzymuję transmisję", flush=True)
         live = args.out == "rtmp" and not args.at and not day_over(base, video_start)
-        if live and chat:
-            def tell():
-                try:
-                    if chat.chat.chat_id or chat.chat.find():
-                        chat.chat.send(RESTART_NOTICE)
-                        print(f"czat: {RESTART_NOTICE}", flush=True)
-                except Exception as e:
-                    print(f"czat: nie wysłano ({e})", file=sys.stderr, flush=True)
-            threading.Thread(target=tell, daemon=True).start()
-        if live:
+        if not live:
+            return
+        try:
+            RUN_FILE.parent.mkdir(parents=True, exist_ok=True)
+            RUN_FILE.write_text(json.dumps({"sitting": n, "stopped": time.time()}), encoding="utf-8")
+        except OSError:
+            pass
+        if chat:
             try:
-                RUN_FILE.parent.mkdir(parents=True, exist_ok=True)
-                RUN_FILE.write_text(json.dumps({"sitting": n, "stopped": time.time()}), encoding="utf-8")
-            except OSError:
-                pass
+                if chat.chat.chat_id or chat.chat.find():
+                    chat.chat.send(RESTART_NOTICE)
+                    print(f"czat: {RESTART_NOTICE}", flush=True)
+            except Exception as e:
+                print(f"czat: nie wysłano ({e})", file=sys.stderr, flush=True)
     if args.out == "rtmp":
         signal.signal(signal.SIGTERM, on_term)
 
