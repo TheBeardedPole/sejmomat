@@ -249,7 +249,8 @@ Live on sejmomat.pl:
   moderator is safer); it holds until votes after it are measured (`live_plan.step`, `delay(manual=…)`).
   "!mowca Imię Nazwisko" (same people) names the speaker: the one MP every word matches, as if the
   caption had named them; anything else ("!mowca minister finansów") is shown as written. The speaker
-  and the chair are kept in `~/.cache/sejmomat-live.json` and named again after a restart within 10 min.
+  and the chair are kept in `~/.cache/sejmomat-live.json` ("!marszalek [wicemarszałek] Imię Nazwisko", same people,
+  sets the chair: the Presidium first, `live_speaker.PRESIDIUM`) and named again after a restart within 10 min.
   Viewers: "!opoznienie" (how late against the plan, linking harmonogram-obrad.html); "!punkt 12" from the
   channel or its moderators moves the plan so item 12 starts now. **harmonogram-obrad.html** (menu
   Posiedzenia, `templates/timetable.html`): the kept timetable of the sitting under way or next by day

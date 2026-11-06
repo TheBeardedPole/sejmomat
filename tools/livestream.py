@@ -1866,6 +1866,42 @@ def main():
                 print(f"{at:%H:%M} mówca ręcznie: {shown_as}", flush=True)
                 return f"Mówca: {shown_as}"
             chat.command("!mowca", named, admin=True)
+
+            def chair_named(m):
+                """"!marszalek [wicemarszałek] Imię Nazwisko": who runs the sitting, as if their caption
+                had been read: the Presidium first (Bosak is Krzysztof), then any MP every word matches
+                (one only); anything else shown as written. "wicemarszałek" / "marszałek" before the
+                name gives the role on the bar."""
+                text = " ".join(((m.get("snippet") or {}).get("displayMessage") or "").split()[1:]).strip()
+                if not text:
+                    return "Prowadzący: wpisz !marszalek Imię Nazwisko (np. !marszalek wicemarszałek Bosak)"
+                at = picture_time(m)
+                words = fold_name(text).split()
+                role = None
+                if words and words[0] in ("wicemarszalek", "marszalek"):
+                    role = "wicemarszałek" if words[0].startswith("wice") else "marszałek"
+                    words, text = words[1:], " ".join(text.split()[1:])
+                fits = lambda x: words and all(w in fold_name(x["name"]).split() for w in words)   # noqa: E731
+                active = [x for x in mp_list if x.get("active", True)]
+                found = [x for x in active if x["name"] in PRESIDIUM and fits(x)]
+                if len(found) != 1:
+                    found = [x for x in active if fits(x)]
+                lead = f"Obrady prowadzi: {role} " if role else "Obrady prowadzi: "
+                with lock:
+                    if len(found) == 1:
+                        x = found[0]
+                        club = CHAIR_CLUB.get(x.get("club"), club_short(x.get("club") or ""))
+                        pending_chair.append((at, {"mp": x["id"], "text": f"{lead}{x['name']} · {club}"}))
+                        chair["mp"] = x["id"]
+                        shown_as = x["name"]
+                    else:
+                        pending_chair.append((at, {"mp": None, "text": f"{lead}{text}"}))
+                        chair["mp"] = None
+                        shown_as = text
+                    pending_chair.sort(key=lambda x: x[0])   # captions are read ahead: theirs may be queued later
+                print(f"{at:%H:%M} prowadzący ręcznie: {shown_as}", flush=True)
+                return f"Prowadzący: {shown_as}"
+            chat.command("!marszalek", chair_named, admin=True)
     # a live sitting: its broadcast titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on air
     if args.out == "rtmp" and not args.at and n and live_chat.configured():
         live_chat.keep_title(n, sitting_day(n, video_start))
