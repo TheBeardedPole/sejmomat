@@ -69,6 +69,20 @@ PRESIDIUM = {"Szymon Hołownia", "Włodzimierz Czarzasty", "Krzysztof Bosak", "D
              "Monika Wielichowska", "Piotr Zgorzelski"}
 
 
+# a club's name as its caption spells it out: whole words, to confirm a short surname
+CLUB_WORDS = {"KO": ("KOALICJA", "OBYWATELSKA"), "PiS": ("PRAWO", "SPRAWIEDLIWOSC"), "Lewica": ("LEWICA", "LEWICY"),
+              "PSL-TD": ("STRONNICTWO", "LUDOWE", "TRZECIA"), "Polska2050": ("POLSKA",), "Konfederacja": ("KONFEDERACJA",),
+              "Konfederacja_KP": ("KONFEDERACJA", "KORONY"), "Razem": ("RAZEM",), "Centrum": ("CENTRUM",),
+              "Demokracja": ("DEMOKRACJA",), "RozwojPlus": ("ROZWOJ",)}
+# a government role in a caption ("Prezes Rady Ministrów", "Minister Finansów", "Sekretarz Stanu")
+ROLE_WORDS = re.compile(r"\b(?:PREZES RADY|PREMIER|WICEPREMIER|MINISTER|SEKRETARZ STANU|PODSEKRETARZ)")
+
+
+def _club_word(club, words):
+    """Whether a whole word of the club's name is among the caption's words."""
+    return any(w in words for w in CLUB_WORDS.get(club or "", ()))
+
+
 class Recogniser:
     def __init__(self, mps):
         self.mps = [m for m in mps if m.get("active")]
@@ -96,9 +110,11 @@ class Recogniser:
             if first_seen:
                 bonus += 0.15
             # a short surname ("RAK") comes close to any short word the OCR makes of the picture
-            # ("DRAK", "KRAK" scored 0.86, and a stray "KO" added the club): only the exact word, with
-            # the first name read too
-            if len(surname) <= 4 and not (s == 1.0 and first_seen):
+            # ("DRAK", "KRAK" scored 0.86, and a stray "KO" added the club): only the exact word, and
+            # something else of theirs read too: the first name, a whole word of the club's name
+            # ("KOALICJA", not "KO"), or a government role ("PREZES RADY MINISTRÓW" over Donald Tusk)
+            if len(surname) <= 4 and not (s == 1.0 and (first_seen or _club_word(m.get("club"), words) or
+                                                          (m.get("gov") or m.get("role")) and ROLE_WORDS.search(folded))):
                 continue
             club = _fold(m.get("club") or "").replace("-", " ")
             if club and club.split()[0] in set(folded.replace("-", " ").split()):

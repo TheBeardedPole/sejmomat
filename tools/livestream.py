@@ -886,6 +886,8 @@ def main():
             gov_roles.setdefault(str(mp["id"]), role)
         else:
             gov_entries.append({"id": None, "name": name, "club": gov_parties.get(name), "active": True, "gov": role})
+    for m in mp_list_all:   # an MP's government role confirms a short surname ("Prezes Rady Ministrów" over TUSK)
+        m["role"] = gov_roles.get(str(m["id"]))
     recogniser = Recogniser(mp_list_all + gov_entries) if shutil.which("tesseract") and not (args.no_speakers or args.transcript) else None
     if not recogniser and not (args.no_speakers or args.transcript):
         print("tesseract not found: no speaker recognition", file=sys.stderr)
