@@ -39,3 +39,33 @@ def field(profession):
             if rule.search(text):
                 return name
     return OTHER
+
+
+# education levels as the Sejm's API gives them, highest first (the plan's colours and the tables'
+# order); anything else after them
+EDUCATION = ["wyższe", "średnie policealne/pomaturalne", "średnie zawodowe", "średnie ogólne", "zasadnicze zawodowe",
+             "gimnazjalne", "podstawowe"]
+
+
+def education(level):
+    """An MP's education level as an index into EDUCATION (len(EDUCATION) when not given or new)."""
+    level = (level or "").strip().lower()
+    return EDUCATION.index(level) if level in EDUCATION else len(EDUCATION)
+
+
+# age groups for the tables (lower bound, label)
+AGE_GROUPS = [(0, "poniżej 30"), (30, "30–39"), (40, "40–49"), (50, "50–59"), (60, "60–69"), (70, "70 i więcej")]
+
+
+def age(birth, today):
+    """Full years from a birth date ("1959-01-04") to `today` (a date), or None."""
+    try:
+        y, m, d = (int(x) for x in (birth or "")[:10].split("-"))
+    except ValueError:
+        return None
+    return today.year - y - ((today.month, today.day) < (m, d))
+
+
+def age_group(years):
+    """The label of the group an age falls in."""
+    return [label for low, label in AGE_GROUPS if years >= low][-1]

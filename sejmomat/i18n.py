@@ -947,6 +947,18 @@ EN = {
     "Inżynieria i technika": "Engineering and technology", "Nauki społeczne i humanistyczne": "Social sciences and humanities",
     "Media i kultura": "Media and culture", "Służby mundurowe": "Uniformed services", "Sport": "Sport", "Inne": "Other",
     "Brak danych": "Not given",
+    "Łącznie": "Total", "Wiek posłów": "MPs' age", "Przeciętny poseł ma": "The typical MP is",
+    "(mediana); najmłodszy": "old (median); the youngest", "30–39": "30–39", "40–49": "40–49", "50–59": "50–59", "60–69": "60–69", "najstarszy": "the oldest", "najmłodszy": "the youngest",
+    "rok": "year", "lata": "years", "mediana": "median", "średnia": "mean", "lat": "years", "Wiek": "Age",
+    "poniżej 30": "under 30", "70 i więcej": "70 and over",
+    "Wiek w pełnych latach na dziś, z daty urodzenia podanej przez Sejm. Mediana to wiek posła w środku listy od najmłodszego do najstarszego. Liczymy posłów sprawujących dziś mandat, według ich obecnego klubu.":
+        "Age in full years today, from the birth date the Sejm gives. The median is the age of the MP in the middle of the list from youngest to oldest. MPs in office now, by their current club.",
+    "Wykształcenie": "Education", "Wykształcenie posłów": "MPs' education", "Wyższe wykształcenie ma": "Higher education:",
+    "Poziom wykształcenia to ten, który poseł podał Sejmowi. Sejm nie podaje w swoich danych, co poseł studiował. Liczymy posłów sprawujących dziś mandat, według ich obecnego klubu.":
+        "The level of education is the one the MP gave the Sejm. The Sejm's data do not say what an MP studied. MPs in office now, by their current club.", "Poziom wykształcenia podany przez posła": "The level of education the MP gave",
+    "wyższe": "higher", "średnie policealne/pomaturalne": "post-secondary", "średnie zawodowe": "vocational secondary",
+    "średnie ogólne": "general secondary", "zasadnicze zawodowe": "basic vocational", "gimnazjalne": "lower secondary",
+    "podstawowe": "primary",
     "Zawody posłów": "MPs' professions", "posłów": "MPs", "Najliczniejsza grupa:": "The largest group:", "z": "of", "Razem": "Total",
     "Najczęściej podawane zawody": "The professions given most often",
     "Zawód to ten, który poseł podał Sejmowi (np. „prawnik”, „nauczyciel akademicki”). Grupujemy według pierwszego wymienionego zawodu; liczymy posłów sprawujących dziś mandat, według ich obecnego klubu.":

@@ -204,6 +204,33 @@ def facts(ctx, today=None):
             fact(title, len(who), unit,
                  f"Najwięcej w klubie {club}: {k} z {size[club]} posłów.", None if club == "niez." else club, "professions")
 
+    # ---- age: the chamber's average, and the youngest and oldest club on average (5 MPs or more)
+    aged = [(r["mp"].get("club") or "niez.", _age(r["mp"]["birthDate"], today)) for r in mps if r["mp"].get("birthDate")]
+    if aged:
+        num = lambda x: f"{x:.1f}".replace(".", ",")   # noqa: E731  (a decimal comma)
+        mean = sum(a for _, a in aged) / len(aged)
+        per = {}
+        for c, a in aged:
+            per.setdefault(c, []).append(a)
+        avg = sorted((sum(v) / len(v), c) for c, v in per.items() if c != "niez." and len(v) >= 5)
+        text = f"Średnia wieku posła: {num(mean)} roku."
+        if len(avg) >= 2:
+            text = f"Najmłodszy klub: {avg[0][1]}, średnio {num(avg[0][0])} roku; najstarszy: {avg[-1][1]}, {num(avg[-1][0])} roku."
+        fact("Średnia wieku", num(mean), "roku: średni wiek posła", text, topic="age")
+        if len(avg) >= 2:
+            for title, (years, club) in (("Najmłodszy klub", avg[0]), ("Najstarszy klub", avg[-1])):
+                fact(title, num(years), f"roku: średnia wieku w klubie {club}", f"{title} w Sejmie: {club}, średnio {num(years)} roku.", club, "age")
+
+    # ---- education (the level the MPs gave)
+    without = [r for r in mps if (r["mp"].get("educationLevel") or "").strip() and r["mp"]["educationLevel"].strip() != "wyższe"]
+    if without:
+        by = Counter(r["mp"].get("club") or "niez." for r in without)
+        club, k = sorted(by.items(), key=lambda kv: (-kv[1], kv[0]))[0]
+        size = Counter(r["mp"].get("club") or "niez." for r in mps)
+        fact("Bez dyplomu uczelni", len(without), "posłów bez wyższego wykształcenia",
+             f"Najwięcej w klubie {club}: {k} z {size[club]} posłów." if club != "niez." else f"Najwięcej wśród niezrzeszonych: {k}.",
+             None if club == "niez." else club, "professions")
+
     # ---- Top 5s, one after every TOP_EVERY other cards
     def top5(title, rows, key, show, text, topic, club=None):
         best = [r for r in sorted(rows, key=key, reverse=True)[:5]]

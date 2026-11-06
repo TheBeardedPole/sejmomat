@@ -275,17 +275,21 @@ def hall(ctx, committees, spec=None, today=None):
         "seats": seats,
         # [name, club id, club as readers know it, constituency, turnout, speeches, questions,
         #  breaks of the club line, terms served (since 1997), constituency number, profession as
-        #  stated, its field (an index into "fields", sejmomat/professions.py)]
+        #  stated, its field (an index into "fields", sejmomat/professions.py), education level (an
+        #  index into "education", len(education) when not given), age in years (0 when not given)]
         "mps": {r["mp"]["id"]: [r["mp"]["firstLastName"], r["mp"].get("club") or "niez.", club_short(r["mp"].get("club") or ""),
                                 r["mp"].get("districtName") or "", round(r["turnout"], 4),
                                 (r.get("speeches") or {}).get("spoken", 0) + (r.get("speeches") or {}).get("written", 0),
                                 len(r.get("questions") or []), r["rebel_count"], len(r.get("terms") or [1]),
                                 r["mp"].get("districtNum"), (r["mp"].get("profession") or "").strip(),
-                                professions.ORDER.index(professions.field(r["mp"].get("profession")))]
+                                professions.ORDER.index(professions.field(r["mp"].get("profession"))),
+                                professions.education(r["mp"].get("educationLevel")),
+                                professions.age(r["mp"].get("birthDate"), today) or 0]
                 for r in ctx["mp_rows"] if r["mp"]["id"] in mps},
         # the towns and the voivodeship of each constituency, for the search (sejmomat/places.py)
         "places": places.by_district(),
         "fields": professions.ORDER,
+        "education": professions.EDUCATION,
         "voivodeships": {r["mp"]["districtNum"]: r["mp"]["voivodeship"] for r in ctx["mp_rows"]
                          if r["mp"].get("districtNum") and r["mp"].get("voivodeship")},
         "active": {iid: {x["id"]: x["score"] for x in rows} for iid, rows in scored.items()},

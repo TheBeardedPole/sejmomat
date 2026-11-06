@@ -988,6 +988,7 @@ def _env(lang):
         sitting_name=sitting_name(lang), term_name=f"{TERM}. kadencja" if lang == "pl" else f"{TERM}th term",
         anchor=anchor, source_items=source_items, print_paragraphs=print_paragraphs, print_too_big=print_too_big, consultation_url=consultation_url,
         field_names=lambda tr: {n: tr(n) for n in professions.ORDER},
+        education_names=lambda tr: {n: tr(n) for n in professions.EDUCATION},
         VOTE_LABEL=VOTE_LABEL, LINE_LABEL=LINE_LABEL, MAJORITY_LABEL=MAJORITY_LABEL, KIND_LABEL=KIND_LABEL,
         print_url=print_url, pdf_url=pdf_url, act_url=act_url, TERM=TERM,
         post_weight=social.weight, POST_LIMIT=social.LIMIT, CARD_DIR=social.CARD_DIR,
@@ -1070,7 +1071,29 @@ def profession_table(mp_rows):
     out = sorted(({"field": f, "total": sum(c.values()), "by_club": dict(c)} for f, c in rows.items()),
                  key=lambda r: (r["field"] in tail, -r["total"], r["field"]))
     top = Counter((m.get("profession") or "").strip().lower() for m in active if (m.get("profession") or "").strip())
-    return {"clubs": clubs, "rows": out,
+    edu = defaultdict(Counter)
+    for m in active:
+        k = professions.education(m.get("educationLevel"))
+        edu[professions.EDUCATION[k] if k < len(professions.EDUCATION) else professions.UNKNOWN][m.get("club") or ""] += 1
+    order = professions.EDUCATION + [professions.UNKNOWN]
+    education = [{"level": lv, "total": sum(edu[lv].values()), "by_club": dict(edu[lv])} for lv in order if lv in edu]
+    # age: groups by club, and each club's median, youngest and oldest
+    today = date.today()
+    ages = [(m.get("club") or "", professions.age(m.get("birthDate"), today)) for m in active]
+    ages = [(c, a) for c, a in ages if a is not None]
+    groups = defaultdict(Counter)
+    for c, a in ages:
+        groups[professions.age_group(a)][c] += 1
+    age_rows = [{"group": label, "total": sum(groups[label].values()), "by_club": dict(groups[label])}
+                for _, label in professions.AGE_GROUPS if label in groups]
+
+    def summary(xs):
+        xs = sorted(xs)
+        return {"median": xs[len(xs) // 2] if len(xs) % 2 else (xs[len(xs) // 2 - 1] + xs[len(xs) // 2]) / 2,
+                "mean": round(sum(xs) / len(xs), 1), "min": xs[0], "max": xs[-1], "n": len(xs)} if xs else None
+    by_club_age = {c: summary([a for cc, a in ages if cc == c]) for c in clubs}
+    return {"clubs": clubs, "rows": out, "education": education, "ages": age_rows, "age_by_club": by_club_age,
+            "age_all": summary([a for _, a in ages]),
             "top": sorted(top.items(), key=lambda kv: (-kv[1], kv[0]))[:10], "count": len(active)}
 
 

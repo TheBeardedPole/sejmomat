@@ -853,7 +853,14 @@ if (typeof document !== "undefined") (() => {
       ["rebels", L.salaRebels, 7, String],
       ["terms", L.salaTerms, 8, String],
       ...(plan.fields ? [["professions", L.salaProfessions]] : []),
+      ...(plan.education ? [["education", L.salaEducation]] : []),
+      ...(plan.education ? [["age", L.salaAge, 13, (x) => `${x} ${L.salaYears}`]] : []),
     ];
+    // education levels (sejmomat/professions.py EDUCATION, highest first): higher education in the
+    // accent, the secondary ones in steps, anything not given grey
+    const EDU_COLOURS = ["#2a78d6", "#eda100", "#d0453b", "#7f6fd1", "#3f8f2f", "#b0682a", "#6e6e6e"];
+    const eduColour = (k) => EDU_COLOURS[k] || "#a3a3a3";
+    const eduName = (k) => plan.education[k] ? (L.salaLevels?.[plan.education[k]] || plan.education[k]) : L.salaNoProfession;
     // the professions' fields (sejmomat/professions.py), a colour each; "Inne" and "Brak danych" grey
     const FIELD_COLOURS = ["#6e6e6e", "#2a78d6", "#d0453b", "#7f6fd1", "#eda100", "#3f8f2f", "#1baf7a",
                            "#4f8fb0", "#b0682a", "#c2185b", "#d07ac0", "#1f4fa0", "#9a8a2a", "#a3a3a3", "#d6d6d6"];
@@ -934,6 +941,9 @@ if (typeof document !== "undefined") (() => {
         } else if (view === "professions") {
           r.setAttribute("class", "club");
           r.style.fill = fieldColour(figure(mp, 11));
+        } else if (view === "education") {
+          r.setAttribute("class", "club");
+          r.style.fill = eduColour(figure(mp, 12));
         } else if (view === "clubs") {
           const c = figure(mp, 1);
           r.setAttribute("class", "club");
@@ -970,6 +980,15 @@ if (typeof document !== "undefined") (() => {
             sw.style.background = fieldColour(k);
             return el("span", { className: "sala-key" }, sw, `${fieldName(k)} ${n}`);
           }));
+      } else if (view === "education") {
+        const sizes = {};
+        for (const r of rects) if (r.dataset.mp) { const k = figure(r.dataset.mp, 12); sizes[k] = (sizes[k] || 0) + 1; }
+        count.textContent = L.salaEducationNote;
+        legend.replaceChildren(...Object.entries(sizes).map(([k, n]) => [Number(k), n]).sort((a, b) => a[0] - b[0]).map(([k, n]) => {
+          const sw = el("span", { className: "sala-sw" });
+          sw.style.background = eduColour(k);
+          return el("span", { className: "sala-key" }, sw, `${eduName(k)} ${n}`);
+        }));
       } else {
         const st = steps[view], show = v[3];
         count.textContent = L.salaRange.replace("{min}", show(st.min)).replace("{max}", show(st.max)).replace("{med}", show(st.median));
@@ -1066,6 +1085,7 @@ if (typeof document !== "undefined") (() => {
         el("span", { className: "muted", textContent: [m[1] === "niez." ? L.independent : m[2], m[3] && `${L.district} ${m[3]}`].filter(Boolean).join(" · ") })];
       if (v[2] !== undefined) lines.push(el("span", { className: "sala-tip-fig", textContent: `${v[1]}: ${v[3](m[v[2]])}` }));
       if (view === "professions") lines.push(el("span", { className: "sala-tip-fig", textContent: `${L.salaProfession}: ${m[10] || L.salaNoProfession}` }));
+      if (view === "education") lines.push(el("span", { className: "sala-tip-fig", textContent: `${L.salaEducation}: ${eduName(m[12])}` }));
       if (tm.length) lines.push(el("span", { className: "sala-tip-topics", textContent: `${L.salaWorks}: ${tm.map(nameOf).join(", ")}` }));
       if (pin) lines.push(link(pageOf(mp), `${L.profile} →`));
       // a card opened by a tap or the search has its own close button
