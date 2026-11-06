@@ -522,6 +522,20 @@ def proposer(a):
     return f"{who} · komisja: {rec}" if rec else who
 
 
+def proposed_by(v):
+    """For a vote on an amendment or a minority motion: "Zgłoszona przez: KO, Lewica" ("Zgłoszony" a
+    minority motion, "Zgłoszone" several), from its panel's lookup (cached); else None."""
+    topic = (v.get("topic") or "").lower()
+    if not topic.startswith(("poprawk", "wniosek mniejszości", "wnioski mniejszości")):
+        return None
+    who = diff_panel(v)[3]
+    if not who:
+        return None
+    names = who.split(" · komisja")[0].removeprefix("zgłasza: ")
+    form = "Zgłoszone" if topic.startswith(("poprawki", "wnioski")) else "Zgłoszony" if topic.startswith("wniosek") else "Zgłoszona"
+    return f"{form} przez: {names}"
+
+
 def diff_panel(v, width=46, lines=None):
     """(heading, [page of (colour, line)], print number, who proposed it and the committee's advice)
     for a vote on amendments or minority
@@ -1477,6 +1491,12 @@ def main():
         rows = []
         for v in reversed(today[-9:]):
             text = short_topic(re.sub(r"^\s*Pkt\.?\s*\d+\.?\s*", "", v.get("topic") or v.get("title") or ""))
+            # "Poprawka nr 28 – Zgłoszona przez: KO"
+            text = re.sub(r"^(poprawk[ai]|wniosek mniejszości|wnioski mniejszości)\s+(?!nr\b)(\d)", r"\1 nr \2", text)
+            text = text[:1].upper() + text[1:]
+            by = proposed_by(v)
+            if by:
+                text = f"{text} – {by}"
             ok = passed(v)
             rows.append((f"nr {v['votingNumber']}", text, f"{'PRZYJĘTO' if ok else 'ODRZUCONO'} {v['yes']}/{v['no']}/{v['abstain']}",
                          "adopted" if ok else "rejected"))
