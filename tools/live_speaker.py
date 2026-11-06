@@ -92,8 +92,14 @@ class Recogniser:
                 continue
             # the first name (allowing for an OCR slip: "KRZYSZTOT") or the club seen too
             bonus = 0.0
-            if first and (first in folded or any(difflib.SequenceMatcher(None, first, w).ratio() >= 0.75 for w in words)):
+            first_seen = bool(first and (first in folded or any(difflib.SequenceMatcher(None, first, w).ratio() >= 0.75 for w in words)))
+            if first_seen:
                 bonus += 0.15
+            # a short surname ("RAK") comes close to any short word the OCR makes of the picture
+            # ("DRAK", "KRAK" scored 0.86, and a stray "KO" added the club): only the exact word, with
+            # the first name read too
+            if len(surname) <= 4 and not (s == 1.0 and first_seen):
+                continue
             club = _fold(m.get("club") or "").replace("-", " ")
             if club and club.split()[0] in set(folded.replace("-", " ").split()):
                 bonus += 0.1
