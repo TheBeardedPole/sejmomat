@@ -330,6 +330,7 @@ def build_context():
         return [(vocabulary.form(k), c) for k, c in counts.most_common(n)]
     # MPs in the government, by their latest speech's role (the stream tags them, sejmomat/facts.py)
     gov_roles = speeches.gov_roles(days)
+    gov_people = speeches.gov_people(days)
     last_sitting = max((d["sitting"] for d in days if d.get("sitting")), default=None)
     top_words = {"term": [(vocabulary.form(k), c) for k, c in sorted(vocabulary.counts.items(), key=lambda kv: -kv[1])[:40]],
                  "sitting": last_sitting,
@@ -495,7 +496,7 @@ def build_context():
     total = sum(1 for v in by_id.values() for a in v["amendments"])
     return {
         "mps": mps, "clubs": clubs, "sittings": sittings, "by_id": by_id,
-        "mp_rows": mp_rows, "mp_by_id": {r["mp"]["id"]: r for r in mp_rows}, "top_words": top_words, "gov_roles": gov_roles,
+        "mp_rows": mp_rows, "mp_by_id": {r["mp"]["id"]: r for r in mp_rows}, "top_words": top_words, "gov_roles": gov_roles, "gov_people": gov_people,
         "club_rows": club_rows, "club_slug": club_slug, "professions": profession_table(mp_rows),
         "adopted": adopted, "proposers": proposers, "mp_proposers": mp_proposers,
         "by_proposer": by_proposer,

@@ -506,6 +506,18 @@ def gov_role(function):
     return None
 
 
+def gov_people(days):
+    """{name: tag} for the government's people who are not MPs (deputy ministers, ministers from
+    outside the Sejm, the President's people) as their latest speech in the chamber names them
+    (gov_role), for the stream to recognise from the broadcast's caption."""
+    latest = {}
+    for d in sorted(days, key=lambda d: d["date"]):
+        for st in d["statements"]:
+            if not st.get("mp") and st.get("name") and (role := gov_role(st.get("function"))):
+                latest[re.sub(r"\s+", " ", st["name"]).strip()] = role
+    return latest
+
+
 def gov_roles(days):
     """{MP id: tag} for MPs whose latest speech was in a government role (gov_role); an MP whose
     latest speech was as an MP has none. The sitting's secretary's lines do not count."""

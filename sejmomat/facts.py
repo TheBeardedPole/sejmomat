@@ -357,6 +357,9 @@ def words_cards(ctx, mps):
     if ctx.get("gov_roles"):
         out.append({"kind": "mp_roles", "topic": "roles", "title": "Posłowie w rządzie",
                      "roles": {str(mp): role for mp, role in ctx["gov_roles"].items()}})
+    people = ctx.get("gov_people") or {}
+    if people:
+        out.append({"kind": "gov_people", "topic": "roles", "title": "Rząd spoza Sejmu", "people": people})
     return out
 
 

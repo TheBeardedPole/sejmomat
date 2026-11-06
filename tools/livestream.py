@@ -154,6 +154,17 @@ def wait_for_plenary(delay):
 
 
 
+def load_gov_parties():
+    """{name: party} for the government's people from outside the Sejm whose party is known
+    (data/gov_parties.json, kept by hand with a source for each): the club their party sits in (PSL ->
+    PSL-TD, Nowa Lewica -> Lewica, Zieloni -> KO), as the bar shows MPs."""
+    try:
+        data = json.loads((ROOT / "data" / "gov_parties.json").read_text(encoding="utf-8"))
+        return {name: x.get("club") or x["party"] for name, x in data.items() if x.get("party")}
+    except Exception:
+        return {}
+
+
 def sitting_day(n, when):
     """", dzień 2" for the day of a sitting of several days that `when` falls on (by the sitting's
     dates in data/proceedings.json; a day running past midnight counts with the one it began),
@@ -765,6 +776,10 @@ def main():
     word_lists = [f for f in facts if f.get("kind") == "words" and f.get("rows")]
     clouds = next((f["clouds"] for f in facts if f.get("kind") == "mp_clouds"), {})
     gov_roles = next((f["roles"] for f in facts if f.get("kind") == "mp_roles"), {})   # "Wicemin. · MON", beside the club
+    # the government's people who are not MPs (deputy ministers and others, from the transcripts):
+    # recognised from the caption like MPs, shown on the bar with their role (no card: no figures)
+    gov_people = next((f["people"] for f in facts if f.get("kind") == "gov_people"), {})
+    gov_parties = load_gov_parties()
     mp_pool = next((f["mps"] for f in facts if f.get("kind") == "mp_pool"), [])
     mp_pairs = {}   # the pair drawn for a slot, kept for that slot (and its drawing cached by the overlay)
 
@@ -788,7 +803,7 @@ def main():
         return mp_pairs[slot]
     # Posłowie z regionu: each MP's constituency, shown while they speak (with their club's cards)
     region_of = {mp: f for f in facts if f.get("kind") == "region" for mp in f.get("mps", [])}
-    facts = [f for f in facts if not f.get("for_club") and f.get("kind") not in ("compare", "region", "mp_pool", "words", "mp_clouds", "mp_roles")]
+    facts = [f for f in facts if not f.get("for_club") and f.get("kind") not in ("compare", "region", "mp_pool", "words", "mp_clouds", "mp_roles", "gov_people")]
     every, first, club_after, promos = FACT_EVERY, 0, CLUB_AFTER, PROMOS
     if args.demo:
         # the liveliest cards first, one after another, from the start of the recording
@@ -860,7 +875,18 @@ def main():
     # who is speaking: the broadcast's name caption, read every SNAP_EVERY seconds
     work = Path(tempfile.mkdtemp(prefix="sejmomat-live-"))
     snapshot = work / "band-%d.png"
-    recogniser = Recogniser(load_mps(ROOT)) if shutil.which("tesseract") and not (args.no_speakers or args.transcript) else None
+    # one who is also an MP ("Marcin Robert Kulasek" in the transcripts, the MP "Marcin Kulasek") stays
+    # the MP, with the role: two entries would tie and name nobody
+    mp_list_all = load_mps(ROOT)
+    mp_key = {(fold_name(m["name"].split()[0]), fold_name(m["name"].split()[-1])): m for m in mp_list_all if m.get("active")}
+    gov_entries = []
+    for name, role in gov_people.items():
+        mp = mp_key.get((fold_name(name.split()[0]), fold_name(name.split()[-1])))
+        if mp:
+            gov_roles.setdefault(str(mp["id"]), role)
+        else:
+            gov_entries.append({"id": None, "name": name, "club": gov_parties.get(name), "active": True, "gov": role})
+    recogniser = Recogniser(mp_list_all + gov_entries) if shutil.which("tesseract") and not (args.no_speakers or args.transcript) else None
     if not recogniser and not (args.no_speakers or args.transcript):
         print("tesseract not found: no speaker recognition", file=sys.stderr)
     # The caption comes CAPTION_LAG seconds into a speech. Read LOOKAHEAD seconds ahead (a
@@ -920,6 +946,10 @@ def main():
                 brk.update(run=None, on=False)
     now = {"clock": start}
     district_of = districts().get
+
+    def gov_card(m):
+        """A government member from outside the Sejm on the bar: name, party if known, role; no card."""
+        return {"custom": True, "gov": True, "name": m["name"], "club": m.get("club"), "role": m.get("gov")}
 
     def speaker_card(m):
         return {"kind": "mp", "mp": m["id"], "name": m["name"], "club": m.get("club") or "niez.", "title": "Na mównicy",
@@ -991,16 +1021,19 @@ def main():
                 # clock now (its file numbers run ahead at the start and do not keep time)
                 seen = start + timedelta(seconds=lead + SNAP_EVERY * i) if ahead else now["clock"]
                 # the caption stays a few seconds: one card per speaker, not one per snapshot
-                if last["mp"] == m["id"] and (seen - last["seen"]).total_seconds() < 60:
+                who = m["id"] or m["name"]   # a minister from outside the Sejm has no MP id
+                if last["mp"] == who and (seen - last["seen"]).total_seconds() < 60:
                     continue
-                last.update(mp=m["id"], seen=seen)
+                last.update(mp=who, seen=seen)
                 # when they began; never before the picture, where a card would start halfway through
                 began = max(seen - timedelta(seconds=CAPTION_LAG if lead else 0), now["clock"])
                 print(f"{began:%H:%M:%S} na mównicy: {m['name']} ({m.get('club')})"
                       f"{f', napis o {seen:%H:%M:%S}' if lead else ''}", flush=True)
-                overlay.photo(m["id"])
+                if m["id"]:
+                    overlay.photo(m["id"])
                 with lock:
-                    pending.append((began, {"mp": m["id"], "at": began, "until": None, "card": speaker_card(m)}))
+                    pending.append((began, {"mp": m["id"], "at": began, "until": None,
+                                            "card": speaker_card(m) if m["id"] else gov_card(m)}))
                     # someone has the floor: a break on screen ends when they began, and none starts for a while
                     if brk["on"] and breaks and breaks[-1][1] is None:
                         breaks[-1][1] = max(began, breaks[-1][0])
@@ -1642,7 +1675,7 @@ def main():
                 over = f"opóźnienie {live_plan.minutes(late)}" + (", głosowania jeszcze się nie zaczęły" if why == "czeka" else "")
             if speaking and sp.get("custom"):
                 # named by hand from the chat ("!mowca minister X"): as written, no club, no figures
-                item, chip, note = f"Na mównicy · {sp['name']}", None, None
+                item, chip, note = (sp["name"], sp.get("club"), None) if sp.get("gov") else (f"Na mównicy · {sp['name']}", None, None)
                 topic = f"na mównicy od {speaker['at']:%H:%M}"
                 if now_slot:
                     vote = plan_line(now_slot, over, clock)
@@ -1699,7 +1732,7 @@ def main():
                     if into < length:
                         card = overlay.card(c, into, length)
                         showing["until"] = begun + length
-        role = sp.get("role") if speaking and sp and not sp.get("custom") else None
+        role = sp.get("role") if speaking and sp and (sp.get("gov") or not sp.get("custom")) else None
         return overlay.frame(item, topic, vote, panel, card, chip, note, clock=f"{clock:%H:%M}", chair=chair_now["text"], mini=mini, role=role)
 
     if args.fast and args.out in ("preview", "rtmp"):
@@ -1854,10 +1887,15 @@ def main():
                 at = picture_time(m)
                 words = fold_name(text).split()
                 found = [x for x in mp_list if x.get("active", True) and all(w in fold_name(x["name"]).split() for w in words)]
+                gov = [g for g in gov_entries if all(w in fold_name(g["name"]).split() for w in words)] if not found else []
                 with lock:
                     if len(found) == 1:
                         speaker.update(mp=found[0]["id"], at=at, until=None, card=speaker_card(found[0]))
                         shown_as = found[0]["name"]
+                    elif len(gov) == 1:
+                        speaker.update(mp=None, at=at, until=None, card=gov_card(gov[0]))
+                        showing.update(speaker=at, start=at.timestamp() - SPEAKER_SECONDS)   # the bar only
+                        shown_as = f"{gov[0]['name']} ({gov[0]['gov']})"
                     else:
                         speaker.update(mp=None, at=at, until=None, card={"custom": True, "name": text, "club": None})
                         showing.update(speaker=at, start=at.timestamp() - SPEAKER_SECONDS)   # no card for a name typed in

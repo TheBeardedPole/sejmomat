@@ -74,8 +74,9 @@ def club_chip(d, x, cy, club, font, tag_font, now=None, role=None):
     ("Wicemin. · MON"), then, for a past day when the MP has since moved, "(obecnie: <club>)", all
     centred on cy; returns where they end."""
     h = round(font.size * 1.6)
-    end = pill(d, x, cy, club, font, club_colour(club) + (255,), h=h)
-    s_ = side(club)
+    # no club (a minister from outside the Sejm, party unknown): the role alone
+    end = pill(d, x, cy, club, font, club_colour(club) + (255,), h=h) if club else x - 8
+    s_ = side(club) if club else None
     if s_:
         coalition = s_ == "Koalicja"
         end = pill(d, end + 8, cy, s_.upper(), tag_font, (255, 255, 255, 255) if coalition else OPPOSITION_PILL + (255,),
@@ -193,7 +194,7 @@ class Overlay:
         im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         d = ImageDraw.Draw(im)
         first = item.split("\n")[0]
-        if chip:
+        if chip or role:   # a speaker: an MP (their club) or a minister (their role)
             kicker, headline = "Na mównicy", first
         elif " · " in first:
             kicker, headline = first.split(" · ", 1)
@@ -203,7 +204,7 @@ class Overlay:
         pad, top = 20, 44
         lines = [(t, f_line, c) for t, c in ((topic, LIGHT_BLUE), (vote, YELLOW)) if t and t.strip()]
         tags = 0
-        if chip:
+        if chip or role:
             # the chip and tag, drawn off-image first to measure them
             tags = club_chip(ImageDraw.Draw(Image.new("RGBA", (900, 40))), 0, 20, chip, self.font(16, True), self.font(13, True), note, role) + 16
         want = max([f_head.getlength(headline) + tags] + [f.getlength(t) for t, f, _ in lines])
@@ -244,7 +245,7 @@ class Overlay:
             strip = Image.new("RGBA", (2 * period + inner, 30), (0, 0, 0, 0))
             ImageDraw.Draw(strip).text((0, 0), headline + gap + headline + gap + headline, font=f_head, fill="white")
             self._marquee.append((strip, x0 + pad, y0 + top, round(inner), period))
-        if chip:
+        if chip or role:
             # on the name's line, centred on its capitals, a little apart from it
             cap = f_head.getbbox("H")
             club_chip(b, pad + round(f_head.getlength(heads[0])) + 16, top + (cap[1] + cap[3]) / 2, chip,
