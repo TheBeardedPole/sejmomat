@@ -1037,7 +1037,7 @@ class Overlay:
 
     def text_scene(self, key, title, subtitle, rows, t, length, badge=None, fade=(True, True)):
         """Lines of text over the hall, large (what an amendment changes, full screen): rows of
-        (colour, line), "w" white, "r" removed, "g" added. fade: (in, out), so pages in a row do not
+        (colour, line), "w" white, "r" removed, "g" added, "y" gold (who proposed it). fade: (in, out), so pages in a row do not
         each fade."""
         x0, y0, x1, y1 = CMP_BOX
         pw, ph = x1 - x0, y1 - y0
@@ -1062,7 +1062,7 @@ class Overlay:
                 bw = fb.getlength(text)
                 d.rounded_rectangle((pw - 36 - bw - 24, 32, pw - 36, 68), 12, fill=colour + (255,))
                 d.text((pw - 36 - bw - 12, 50), text, font=fb, fill="white", anchor="lm")
-            colours = {"w": (235, 238, 245), "r": RED, "g": GREEN}
+            colours = {"w": (235, 238, 245), "r": RED, "g": GREEN, "y": (255, 212, 121)}
             f = self.font(TEXT_SIZE)
             for i, (c, line) in enumerate(rows):
                 if c in "rg":   # a faint band behind removed and added lines, as on the site

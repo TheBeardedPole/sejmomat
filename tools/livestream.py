@@ -480,8 +480,51 @@ def _plain(html):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", html)).strip()
 
 
+# an amendment's authors as the report names them, shortened for the screen
+AUTHOR_CLUB = {"Konfederacja Wolność i Niepodległość": "Konfederacja", "Konfederacja Korony Polskiej": "KKP",
+               "PSL Trzecia Droga": "PSL", "PSL–TD": "PSL", "PSL-TD": "PSL", "Polska 2050": "Polska 2050",
+               "Koalicja Obywatelska": "KO", "Prawo i Sprawiedliwość": "PiS", "Rozwój Plus": "Rozwój+"}
+_mp_clubs = {}
+
+
+def _mp_club(name):
+    """The club of "poseł J. Kowalski" (initial and surname), or None when not one MP."""
+    if not _mp_clubs:
+        for m in load_mps(ROOT):
+            if m.get("active"):
+                parts = m["name"].split()
+                _mp_clubs.setdefault((parts[0][0], parts[-1]), []).append(m.get("club") or "niez.")
+    m = re.match(r"(?:poseł|posłanka)\s+(\w)\.\s*(?:\w\.\s*)?([\w-]+)$", name.strip())
+    clubs = _mp_clubs.get((m[1], m[2])) if m else None
+    return clubs[0] if clubs and len(clubs) == 1 else None
+
+
+def proposer(a):
+    """Who proposed an amendment and what the committee advises: "zgłasza: PiS · komisja: odrzucić",
+    "zgłasza: poseł J. Kowalski (PiS)", "zgłasza: Senat"; None when not known."""
+    it = a.get("item") or {}
+    names = []
+    for x in it.get("authors") or []:
+        x = x.strip()
+        if x.startswith("KP "):
+            club = x[3:].strip()
+            names.append(AUTHOR_CLUB.get(club, club))
+        else:
+            club = _mp_club(x)
+            names.append(f"{x} ({AUTHOR_CLUB.get(club, club_short(club))})" if club and club != "niez." else x)
+    names = list(dict.fromkeys(names))   # a club named twice ("KP KO", "KP KO")
+    if not names and a.get("kind") == "senate":
+        names = ["Senat"]
+    if not names:
+        return None
+    who = "zgłasza: " + ", ".join(names[:3]) + (f" i {len(names) - 3} innych" if len(names) > 3 else "")
+    rec = (it.get("recommendation") or "").strip()
+    return f"{who} · komisja: {rec}" if rec else who
+
+
 def diff_panel(v, width=46, lines=None):
-    """(heading, [page of (colour, line)], print number) for a vote on amendments or minority
+    """(heading, [page of (colour, line)], print number, who proposed it and the committee's advice)
+    for a vote on amendments or minority
     motions: what the first of them changes in the bill (removed lines red, added green), or
     its text, in pages of DIFF_LINES - 1 lines; ("", [], None) otherwise. The print holds
     them all (sejmomat.pl/<print> opens its page). Needs the report prints in data/prints
@@ -494,7 +537,7 @@ def diff_panel(v, width=46, lines=None):
         for f in vars(model).values():
             if hasattr(f, "cache_clear"):
                 f.cache_clear()
-    out = ("", [], None)
+    out = ("", [], None, None)
     try:
         linked = [a for a in link_amendments({**v, "prints": None}) if a["item"]]
     except Exception:
@@ -535,7 +578,8 @@ def diff_panel(v, width=46, lines=None):
             # no comparison with the bill: the amendment's own words, an article or point a block
             passages = [[("w", line)] for part in split_units(_plain(it.get("text") or ""))
                         for line in textwrap.wrap(part, width)]
-        per = (lines or DIFF_LINES) - 1
+        who = proposer(a)
+        per = (lines or DIFF_LINES) - 1 - (1 if who else 0)   # a line for who proposed it, on every page
         pages, page = [], []
         for passage in passages:
             # a passage that fits on a page (stretched a little) is not split across pages
@@ -559,7 +603,9 @@ def diff_panel(v, width=46, lines=None):
         if len(pages) > MAX_PAGES:
             pages = pages[:MAX_PAGES]
             pages[-1] = pages[-1][:per - 1] + [("w", f"… dalej w druku nr {a['source']}")]
-        out = (f"Co zmienia {what} {a['number']}" + (f" (druk {a['source']})" if a["source"] else ""), pages, a["source"])
+        if who:
+            pages = [[("y", textwrap.shorten(who[0].upper() + who[1:], width, placeholder="…"))] + p for p in pages]
+        out = (f"Co zmienia {what} {a['number']}" + (f" (druk {a['source']})" if a["source"] else ""), pages, a["source"], who)
     # nothing found is tried again a minute later: the report print may not be pulled yet
     _diffs[key] = (time.time(), out)
     return out
@@ -1534,7 +1580,7 @@ def main():
         if nxt and hall and decisive(nxt):
             # the next vote on an amendment: its pages full screen, ending as the vote is taken
             to_go = (warsaw(nxt["date"]) - clock).total_seconds()
-            head, pages, src = diff_panel(nxt, FULL_WIDTH, FULL_LINES) if to_go < PAGE_CYCLE + RESULT_SECONDS else ("", [], None)
+            head, pages, src, who = diff_panel(nxt, FULL_WIDTH, FULL_LINES) if to_go < PAGE_CYCLE + RESULT_SECONDS else ("", [], None, None)
             if pages:
                 num = nxt["votingNumber"]
                 # the time it has: from the latest result's end (or when the vote is first known) to the vote
@@ -1605,7 +1651,7 @@ def main():
             mini = (img, x, y)
         elif recent and not floor:
             # votes going on: no cards; with the chamber, amendments are full screen before their vote
-            head, pages, _ = diff_panel(shown[-1]) if not hall else ("", [], None)
+            head, pages, _, who = diff_panel(shown[-1]) if not hall else ("", [], None, None)
             if pages:
                 each = max(PAGE_MIN, min(PAGE_SECONDS, PAGE_CYCLE / len(pages)))
                 page = int((clock - warsaw(shown[-1]["date"])).total_seconds() // each) % len(pages)
