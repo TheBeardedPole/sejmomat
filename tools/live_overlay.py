@@ -17,7 +17,63 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageColor, ImageDraw, ImageFont
+
+# PIL draws rounded rectangles without anti-aliasing: the boards' corners and the pills came out
+# stair-stepped on the stream. Here, on RGBA images, a filled one is drawn as a mask at SMOOTH times
+# the size, scaled down, and the fill blended in by it: inside exactly as before (replaced), only
+# the edge pixels mixed with what is under them.
+SMOOTH = 4
+_rounded = ImageDraw.ImageDraw.rounded_rectangle
+
+
+def _smooth_rounded(self, xy, radius=0, fill=None, outline=None, width=1, **kw):
+    im = getattr(self, "_image", None)
+    if fill is None or outline is not None or im is None or im.mode != "RGBA" or kw:
+        return _rounded(self, xy, radius, fill, outline, width, **kw)
+    (x0, y0), (x1, y1) = (xy[0], xy[1]) if isinstance(xy[0], (tuple, list)) else ((xy[0], xy[1]), (xy[2], xy[3]))
+    bx0, by0 = max(0, math.floor(x0)), max(0, math.floor(y0))
+    bx1, by1 = min(im.width, math.ceil(x1) + 1), min(im.height, math.ceil(y1) + 1)
+    if bx1 <= bx0 or by1 <= by0:
+        return None
+    w, h = bx1 - bx0, by1 - by0
+    mask = Image.new("L", (w * SMOOTH, h * SMOOTH), 0)
+    _rounded(ImageDraw.Draw(mask), ((x0 - bx0) * SMOOTH, (y0 - by0) * SMOOTH, (x1 - bx0 + 1) * SMOOTH - 1, (y1 - by0 + 1) * SMOOTH - 1),
+             radius * SMOOTH, fill=255)
+    mask = mask.resize((w, h), Image.BOX)
+    colour = ImageColor.getrgb(fill) if isinstance(fill, str) else tuple(fill)
+    colour = colour + (255,) * (4 - len(colour))
+    region = im.crop((bx0, by0, bx1, by1))
+    im.paste(Image.composite(Image.new("RGBA", (w, h), colour), region, mask), (bx0, by0))
+    return None
+
+
+ImageDraw.ImageDraw.rounded_rectangle = _smooth_rounded
+_polygon = ImageDraw.ImageDraw.polygon
+
+
+def _smooth_polygon(self, xy, fill=None, outline=None, width=1):
+    """A filled polygon the same way (the slanted ends of the cards' and the bar's strips)."""
+    im = getattr(self, "_image", None)
+    pts = [tuple(p) for p in xy] if xy and isinstance(xy[0], (tuple, list)) else list(zip(xy[0::2], xy[1::2]))
+    if fill is None or outline is not None or im is None or im.mode != "RGBA" or not pts:
+        return _polygon(self, xy, fill, outline, width)
+    bx0, by0 = max(0, math.floor(min(p[0] for p in pts))), max(0, math.floor(min(p[1] for p in pts)))
+    bx1, by1 = min(im.width, math.ceil(max(p[0] for p in pts)) + 1), min(im.height, math.ceil(max(p[1] for p in pts)) + 1)
+    if bx1 <= bx0 or by1 <= by0:
+        return None
+    w, h = bx1 - bx0, by1 - by0
+    mask = Image.new("L", (w * SMOOTH, h * SMOOTH), 0)
+    _polygon(ImageDraw.Draw(mask), [((x - bx0) * SMOOTH + SMOOTH / 2, (y - by0) * SMOOTH + SMOOTH / 2) for x, y in pts], fill=255)
+    mask = mask.resize((w, h), Image.BOX)
+    colour = ImageColor.getrgb(fill) if isinstance(fill, str) else tuple(fill)
+    colour = colour + (255,) * (4 - len(colour))
+    region = im.crop((bx0, by0, bx1, by1))
+    im.paste(Image.composite(Image.new("RGBA", (w, h), colour), region, mask), (bx0, by0))
+    return None
+
+
+ImageDraw.ImageDraw.polygon = _smooth_polygon
 
 W, H = 1280, 720
 CACHE = Path.home() / ".cache" / "sejmomat-live"
