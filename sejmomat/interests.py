@@ -286,7 +286,8 @@ def hall(ctx, committees, spec=None, today=None):
         #  breaks of the club line, terms served (since 1997), constituency number, profession as
         #  stated, its field (an index into "fields", sejmomat/professions.py), education level (an
         #  index into "education", len(education) when not given), age in years (0 when not given),
-        #  degree and field of study (indexes into "degrees" and "study_fields", -1 when not known)]
+        #  degree and field of study (indexes into "degrees" and "study_fields", -1 when not known),
+        #  share of their votes against the club line]
         "mps": {r["mp"]["id"]: [r["mp"]["firstLastName"], r["mp"].get("club") or "niez.", club_short(r["mp"].get("club") or ""),
                                 r["mp"].get("districtName") or "", round(r["turnout"], 4),
                                 (r.get("speeches") or {}).get("spoken", 0) + (r.get("speeches") or {}).get("written", 0),
@@ -295,7 +296,7 @@ def hall(ctx, committees, spec=None, today=None):
                                 professions.ORDER.index(professions.field(r["mp"].get("profession"))),
                                 professions.education(r["mp"].get("educationLevel")),
                                 professions.age(r["mp"].get("birthDate"), today) or 0,
-                                *study(school.get(str(r["mp"]["id"])))]
+                                *study(school.get(str(r["mp"]["id"]))), round(r["rebel_rate"], 4)]
                 for r in ctx["mp_rows"] if r["mp"]["id"] in mps},
         # the towns and the voivodeship of each constituency, for the search (sejmomat/places.py)
         "places": places.by_district(),

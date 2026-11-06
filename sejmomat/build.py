@@ -856,7 +856,7 @@ def build_committees(mp_rows, bill_of_print, bill_by_root):
 
 def build_clubs(clubs, mps, by_id, mp_rows):
     """Per-club cohesion, effectiveness, agreement with other clubs, members."""
-    stats = defaultdict(lambda: {"votes": 0, "shares": [], "split": [], "rebellions": 0,
+    stats = defaultdict(lambda: {"votes": 0, "shares": [], "split": [], "rebellions": 0, "lined": 0,
                                  "decided": 0, "won": 0, "first": None, "last": None,
                                  "sittings": defaultdict(Counter)})
     agree = defaultdict(Counter)  # (a, b) -> {"same": n, "both": n}
@@ -879,6 +879,8 @@ def build_clubs(clubs, mps, by_id, mp_rows):
                 if not c["line"]:
                     st["split"].append(v)
             st["rebellions"] += len(c["rebels"])
+            if c["line"]:   # ballots cast where the club had a line: the base of its share of breaks
+                st["lined"] += voted
             if c["line"] in ("Y", "N"):
                 st["decided"] += 1
                 st["won"] += (c["line"] == "Y") == v["passed"]
@@ -911,6 +913,7 @@ def build_clubs(clubs, mps, by_id, mp_rows):
             "votes": st["votes"], "first": st["first"], "last": st["last"],
             "cohesion": sum(st["shares"]) / len(st["shares"]) if st["shares"] else 0,
             "split": st["split"], "rebellions": st["rebellions"],
+            "rebel_rate": st["rebellions"] / st["lined"] if st["lined"] else 0,
             "effectiveness": st["won"] / st["decided"] if st["decided"] else 0,
             "agreement": others, "members": members, "former": former,
             # newest first: {"sitting", "votes", "Y", "N", "A", "split", "cast", "X", "rebels"}

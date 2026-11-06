@@ -33,7 +33,7 @@ def _speeches(r):
 def _mp(r, title, value, unit, text, topic):
     return {"kind": "mp", "topic": topic, "mp": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club") or "niez.",
             "title": title, "value": value, "unit": unit, "text": text,
-            "stats": [["frekwencja", pct(r["turnout"])], ["wyłamania", str(r["rebel_count"])],
+            "stats": [["frekwencja", pct(r["turnout"])], ["wyłamania", pct(r["rebel_rate"])],
                       ["wystąpienia", str(_speeches(r))], ["interpelacje", str(len(r["questions"]))]]}
 
 
@@ -61,9 +61,9 @@ def facts(ctx, today=None):
     r = max(steady, key=lambda r: (r["turnout"], r["eligible"]))
     out.append(_mp(r, "Żelazna frekwencja", pct(r["turnout"]), f"z {r['eligible']} głosowań",
                    f"Najwyższa frekwencja w głosowaniach: {who(r)}, {pct(r['turnout'])}.", "turnout"))
-    r = max(steady, key=lambda r: r["rebel_count"])
-    out.append(_mp(r, "Najczęściej wbrew klubowi", r["rebel_count"], "wyłamań z linii klubu",
-                   f"Najczęściej wyłamuje się z linii swojego klubu: {who(r)}, {r['rebel_count']} razy.", "rebels"))
+    r = max(steady, key=lambda r: (r["rebel_rate"], r["rebel_count"]))
+    out.append(_mp(r, "Najczęściej wbrew klubowi", pct(r["rebel_rate"]), "głosów wbrew linii klubu",
+                   f"Najczęściej wyłamuje się z linii swojego klubu: {who(r)}, {pct(r['rebel_rate'])} głosów ({r['rebel_count']} razy).", "rebels"))
     r = max(mps, key=lambda r: r["mp"].get("numberOfVotes") or 0)
     out.append(_mp(r, "Rekordzista wyborów", f"{r['mp']['numberOfVotes']:,}".replace(",", " "), "głosów w wyborach",
                    f"Najwięcej głosów w wyborach do Sejmu dostał(a) {who(r)}: {r['mp']['numberOfVotes']}.", "election"))
@@ -263,8 +263,8 @@ def facts(ctx, today=None):
              lambda r: f"{r['mp'].get('numberOfVotes') or 0:,}".replace(",", " "), "Najwięcej głosów w wyborach do Sejmu.", "election"),
             ("frekwencja", steady_rows, lambda r: (r["turnout"], r["eligible"]), lambda r: pct(r["turnout"]),
              "Najwyższa frekwencja w głosowaniach (posłowie z co najmniej 1000 głosowań).", "turnout"),
-            ("wbrew klubowi", steady_rows, lambda r: r["rebel_count"], lambda r: str(r["rebel_count"]),
-             "Najwięcej wyłamań z linii własnego klubu.", "rebels"),
+            ("wbrew klubowi", steady_rows, lambda r: (r["rebel_rate"], r["rebel_count"]), lambda r: pct(r["rebel_rate"]),
+             "Największy odsetek głosów wbrew linii własnego klubu.", "rebels"),
             ("skuteczne poprawki", rows, lambda r: r["signed_adopted"], lambda r: str(r["signed_adopted"]),
              "Najwięcej przyjętych poprawek i wniosków, pod którymi się podpisali.", "amendments"),
         ]
@@ -403,7 +403,7 @@ def antitheses(ctx, mps, n=8, min_share=0.5):
         side = lambda r: {"id": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club") or "niez.",   # noqa: E731
                           "tag": tag(r["mp"].get("club")), "num": r["mp"].get("districtNum"), "district": r["mp"].get("districtName") or "",
                           "speeches": _speeches(r), "questions": len(r["questions"]), "turnout": r["turnout"],
-                          "votes": r["mp"].get("numberOfVotes") or 0, "adopted": r["signed_adopted"], "rebels": r["rebel_count"]}
+                          "votes": r["mp"].get("numberOfVotes") or 0, "adopted": r["signed_adopted"], "rebels": r["rebel_rate"]}
         card = mp_compare(side(ra), side(rb))
         card.update(topic="antyteza", title="Antyteza",
                     headline=f"Antyteza: głosują tak samo tylko w {pct(float(rate[a, b]))} głosowań",
@@ -444,7 +444,7 @@ def mp_compare(k, o):
                      _row("frekwencja", k["turnout"], o["turnout"], pct),
                      _row("głosy w wyborach", k["votes"], o["votes"], _num),
                      _row("przyjęte poprawki (podpisane)", k["adopted"], o["adopted"], str),
-                     _row("wyłamania z linii klubu", k["rebels"], o["rebels"], str, "none")],
+                     _row("głosy wbrew linii klubu", k["rebels"], o["rebels"], pct, "none")],
             "headline": f"Ten sam okręg: {k['district']}" if same else "Koalicja kontra opozycja",
             "sub": "Poseł koalicji i poseł opozycji · cała kadencja"}
 
@@ -482,7 +482,7 @@ def comparisons(ctx, mps):
                              _row("po stronie zwycięskiej", a["effectiveness"], b["effectiveness"], pct),
                              _row("wystąpienia", _speeches(a), _speeches(b), _num),
                              _row("interpelacje i zapytania", questions(a), questions(b), _num),
-                             _row("wyłamania z linii klubu", a["rebellions"], b["rebellions"], _num, "none")],
+                             _row("głosy wbrew linii klubu", a["rebel_rate"], b["rebel_rate"], pct, "none")],
                     "headline": headline or (f"Głosują tak samo w {pct(rate)} głosowań" if rate is not None else ""),
                     "sub": sub})
 
@@ -506,7 +506,7 @@ def comparisons(ctx, mps):
                 "mps": [{"id": r["mp"]["id"], "name": r["mp"]["firstLastName"], "club": r["mp"].get("club") or "niez.",
                          "tag": tag(r["mp"].get("club")), "num": r["mp"].get("districtNum"), "district": r["mp"].get("districtName") or "",
                          "speeches": _speeches(r), "questions": len(r["questions"]), "turnout": r["turnout"],
-                         "votes": r["mp"].get("numberOfVotes") or 0, "adopted": r["signed_adopted"], "rebels": r["rebel_count"]}
+                         "votes": r["mp"].get("numberOfVotes") or 0, "adopted": r["signed_adopted"], "rebels": r["rebel_rate"]}
                         for r in mps if r["mp"].get("districtNum")]})
     return out
 

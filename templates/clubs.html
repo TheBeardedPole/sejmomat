@@ -16,6 +16,7 @@
     <th class="num" data-sort="num">{{ _("Spójność") }}</th>
     <th class="num" data-sort="num">{{ _("Podziały") }}</th>
     <th class="num" data-sort="num">{{ _("Wyłamania") }}</th>
+    <th class="num" data-sort="num">{{ _("% głosów") }}</th>
     <th class="num" data-sort="num">{{ _("Skuteczność") }}</th>
     <th class="num" data-sort="num">{{ _("Głosowania") }}</th>
   </tr></thead>
@@ -27,6 +28,7 @@
     <td class="num" data-v="{{ c.cohesion }}">{{ c.cohesion | pct }}</td>
     <td class="num" data-v="{{ c.split | length }}">{{ c.split | length }}</td>
     <td class="num" data-v="{{ c.rebellions }}">{{ c.rebellions }}</td>
+    <td class="num" data-v="{{ c.rebel_rate }}">{{ c.rebel_rate | pct }}</td>
     <td class="num" data-v="{{ c.effectiveness }}">{{ c.effectiveness | pct }}</td>
     <td class="num" data-v="{{ c.votes }}">{{ c.votes }}</td>
   </tr>

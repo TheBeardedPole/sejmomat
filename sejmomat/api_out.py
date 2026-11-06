@@ -197,7 +197,7 @@ def _games(ctx):
         "district": r["mp"].get("districtName"), "districtNum": r["mp"].get("districtNum"),
         "voivodeship": r["mp"].get("voivodeship"), "birthDate": r["mp"].get("birthDate"),
         "education": r["mp"].get("educationLevel"), "electionVotes": r["mp"].get("numberOfVotes"),
-        "turnout": round(r["turnout"], 4), "brokeLine": r["rebel_count"],
+        "turnout": round(r["turnout"], 4), "brokeLine": r["rebel_count"], "brokeLineRate": round(r["rebel_rate"], 4),
     } for r in ctx["mp_rows"] if r["mp"].get("active") and r["mp"].get("birthDate")]
     votes = sorted(ctx["by_id"].values(), key=lambda v: (v["date"], v["votingNumber"]))
 

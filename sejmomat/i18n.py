@@ -947,7 +947,7 @@ EN = {
     "Inżynieria i technika": "Engineering and technology", "Nauki społeczne i humanistyczne": "Social sciences and humanities",
     "Media i kultura": "Media and culture", "Służby mundurowe": "Uniformed services", "Sport": "Sport", "Inne": "Other",
     "Brak danych": "Not given",
-    "Łącznie": "Total", "Wiek posłów": "MPs' age", "Przeciętny poseł ma": "The typical MP is",
+    "Łącznie": "Total", "% głosów": "% of votes", "Wiek posłów": "MPs' age", "Przeciętny poseł ma": "The typical MP is",
     "(mediana); najmłodszy": "old (median); the youngest", "30–39": "30–39", "40–49": "40–49", "50–59": "50–59", "60–69": "60–69", "najstarszy": "the oldest", "najmłodszy": "the youngest",
     "rok": "year", "lata": "years", "mediana": "median", "średnia": "mean", "lat": "years", "Wiek": "Age",
     "poniżej 30": "under 30", "70 i więcej": "70 and over",

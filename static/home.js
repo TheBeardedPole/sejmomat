@@ -850,7 +850,8 @@ if (typeof document !== "undefined") (() => {
       ["turnout", L.salaTurnout, 4, fmtPct],
       ["speeches", L.salaSpeeches, 5, String],
       ["questions", L.salaQuestions, 6, String],
-      ["rebels", L.salaRebels, 7, String],
+      // breaks of the club line as a share of the MP's votes where the club had a line (the count beside it)
+      ["rebels", L.salaRebels, 16, fmtPct],
       ["terms", L.salaTerms, 8, String],
       ...(plan.fields ? [["professions", L.salaProfessions]] : []),
       ...(plan.education ? [["education", L.salaEducation]] : []),
@@ -1107,7 +1108,7 @@ if (typeof document !== "undefined") (() => {
       photo.addEventListener("error", () => { if (!photo.dataset.api) { photo.dataset.api = "1"; photo.src = home.dataset.photo.replace("{id}", mp); } else photo.remove(); });
       const lines = [el("strong", { textContent: m[0] }),
         el("span", { className: "muted", textContent: [m[1] === "niez." ? L.independent : m[2], m[3] && `${L.district} ${m[3]}`].filter(Boolean).join(" · ") })];
-      if (v[2] !== undefined) lines.push(el("span", { className: "sala-tip-fig", textContent: `${v[1]}: ${v[3](m[v[2]])}` }));
+      if (v[2] !== undefined) lines.push(el("span", { className: "sala-tip-fig", textContent: `${v[1]}: ${v[3](m[v[2]])}${view === "rebels" ? ` (${m[7]})` : ""}` }));
       if (view === "professions") lines.push(el("span", { className: "sala-tip-fig", textContent: `${L.salaProfession}: ${m[10] || L.salaNoProfession}` }));
       if (view === "education") {
         lines.push(el("span", { className: "sala-tip-fig", textContent: `${L.salaEducation}: ${eduName(m[12])}` }));

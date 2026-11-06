@@ -989,7 +989,7 @@ def main():
                 "district": district_of(m["id"]), "role": gov_roles.get(str(m["id"])),
                 "value": m.get("speeches") or 0, "unit": "wystąpień w kadencji",
                 "stats": [["frekwencja", f"{m.get('turnout', 0) * 100:.1f}%".replace(".", ",")],
-                          ["wyłamania", str(m.get("brokeLine", 0))], ["interpelacje", str(m.get("questions", 0))],
+                          ["wyłamania", f"{(m.get('brokeLineRate') or 0) * 100:.1f}%".replace(".", ",")], ["interpelacje", str(m.get("questions", 0))],
                           ["zmiany klubu", str(m.get("clubSwitches", 0))]]}
 
     # a past day (--transcript): who spoke when, from the transcript, instead of reading the screen
