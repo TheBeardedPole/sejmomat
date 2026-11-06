@@ -706,7 +706,7 @@ def ffmpeg_command(src, out, snapshot, fast=False, music=None):
     inputs = [*([] if fast else ["-re"]), *proxy, *FROM_START, "-i", src,
               "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-framerate", str(FPS), "-thread_queue_size", "64", "-i", "pipe:0"]
     if music:   # the break music, from this script: a named pipe of raw samples (silence between breaks)
-        inputs += ["-f", "s16le", "-ar", str(RATE), "-ac", "2", "-thread_queue_size", "1024", "-i", music]
+        inputs += ["-f", "s16le", "-ar", str(RATE), "-ac", "2", "-thread_queue_size", "16", "-i", music]
     bx, by, bw, bh = BAND
     fit = FIT if OUT_H == H else f"scale={OUT_W}:{OUT_H}:force_original_aspect_ratio=decrease,pad={OUT_W}:{OUT_H}:(ow-iw)/2:(oh-ih)/2"
     scaled = f"[0:v]{fit},fps={FPS}"
@@ -720,7 +720,10 @@ def ffmpeg_command(src, out, snapshot, fast=False, music=None):
         v = f"{scaled}[base];{ovl};{lay}"
     if music:
         # amix halves each input (its "normalize" switch is only in ffmpeg 4.4 and later): doubled after
-        v += ";[0:a]aresample=44100,aformat=channel_layouts=stereo[hall];[hall][2:a]amix=inputs=2:duration=first:dropout_transition=0,volume=2[a]"
+        # both from zero: the live stream's timestamps start where its day began (39,804 s on 6 November
+        # 2026), the music's at 0, and amix waited for the music to catch up: the stream stalled
+        v += (";[0:a]asetpts=PTS-STARTPTS,aresample=44100,aformat=channel_layouts=stereo[hall];[2:a]asetpts=PTS-STARTPTS[mus];"
+              "[hall][mus]amix=inputs=2:duration=first:dropout_transition=0,volume=2[a]")
     # on a server (no terminal) the progress line once a minute, for the log
     quiet = [] if sys.stderr.isatty() else ["-stats_period", "60"]
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *quiet, *inputs, "-filter_complex", v, "-map", "[v]",
@@ -1583,7 +1586,6 @@ def main():
         out, silence otherwise; the credit on screen while it can be heard."""
         step = 1 / (MUSIC_FADE * FPS)
         music["gain"] = min(1.0, music["gain"] + step) if music["on"] else max(0.0, music["gain"] - step)
-        overlay.credit = MUSIC_CREDIT if music["gain"] > 0 else None
         if music["gain"] <= 0:
             music["pos"] = 0   # the next break starts the tune from the top
             return bytes(PER)
@@ -1800,7 +1802,7 @@ def main():
         sys.exit("--fast is for a file.")
     # the break music: the track decoded once, then fed to ffmpeg through a named pipe, a frame's worth
     # of samples for each picture (silence between breaks), faded in and out (MUSIC_FADE)
-    pcm, music_pipe, music_q = b"", None, queue.Queue()
+    pcm, music_pipe, music_stop = b"", None, threading.Event()
     if MUSIC != "off" and Path(MUSIC).exists():
         pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", MUSIC, "-f", "s16le", "-ar", str(RATE), "-ac", "2", "-"],
                              capture_output=True).stdout
@@ -1810,16 +1812,15 @@ def main():
             print(f"muzyka w przerwach: {Path(MUSIC).name}, {len(pcm) / (4 * RATE):.0f} s", flush=True)
 
             def feed():
+                # written as fast as ffmpeg takes it, not a picture's worth after each picture: live,
+                # ffmpeg reads the hall's sound a segment ahead and wants the music as far, and waited
+                # for it while the script waited for ffmpeg to take a picture (6 November 2026)
                 with open(music_pipe, "wb") as f:   # opens once ffmpeg reads it
-                    while (chunk := music_q.get()) is not None:
+                    while not music_stop.is_set():
                         try:
-                            f.write(chunk)
+                            f.write(music_chunk())
                         except (BrokenPipeError, OSError):
                             return
-            # ffmpeg reads a little of every input before it takes any picture: two seconds of silence
-            # ready in the pipe, or it waits for the music while the script waits for it (a deadlock)
-            for _ in range(2 * FPS):
-                music_q.put(bytes(RATE // FPS * 4))
             threading.Thread(target=feed, daemon=True).start()
     cmd, preview = ffmpeg_command(src, args.out, snapshot if recogniser and not ahead else None, args.fast,
                                   str(music_pipe) if music_pipe else None)
@@ -1830,7 +1831,7 @@ def main():
         time.sleep(4)
         if proc.poll() is not None:
             print("muzyka: ffmpeg jej nie przyjął, transmisja bez muzyki", file=sys.stderr, flush=True)
-            music_q.put(None)
+            music_stop.set()
             music_pipe = None
             cmd, preview = ffmpeg_command(src, args.out, snapshot if recogniser and not ahead else None, args.fast, None)
             proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE if preview else None)
@@ -2099,8 +2100,8 @@ def main():
             took = time.perf_counter() - a
             drawn, worst = drawn + took, max(worst, took)
             proc.stdin.write(image)
-            if music_pipe:
-                music_q.put(music_chunk())
+            if music_pipe:   # the credit while the music can be heard
+                overlay.credit = MUSIC_CREDIT if music["gain"] > 0 else None
             i += 1
             if i % (60 * FPS) == 0:
                 # once a minute: how long the overlay takes, and whether the picture keeps up
