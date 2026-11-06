@@ -61,12 +61,20 @@ def read(path):
         return ""
 
 
+# who may chair a sitting (the Marshal and deputy marshals in this term): a chair's caption
+# ("Wicemarszałek Sejmu Krzysztof BOSAK") is matched among them first, which tells Krzysztof Bosak
+# from Karina Bosak and Szymon from Bożenna Hołownia; anyone not listed is still found by the
+# ordinary match, so the list only has to be right, not complete
+PRESIDIUM = {"Szymon Hołownia", "Włodzimierz Czarzasty", "Krzysztof Bosak", "Dorota Niedziela",
+             "Monika Wielichowska", "Piotr Zgorzelski"}
+
+
 class Recogniser:
     def __init__(self, mps):
         self.mps = [m for m in mps if m.get("active")]
 
-    def match(self, text):
-        """The MP the caption names, or None."""
+    def match(self, text, only=None):
+        """The MP the caption names, or None; among the MPs named in `only` if given."""
         lines = [l for l in text.splitlines() if l.strip()]
         if not lines:
             return None
@@ -76,7 +84,7 @@ class Recogniser:
         folded = _fold(text)
         words = [w for w in folded.replace("-", " ").split() if len(w) >= 3]
         scored = []
-        for m in self.mps:
+        for m in (self.mps if only is None else [m for m in self.mps if m["name"] in only]):
             parts = m["name"].split()
             surname, first = _fold(parts[-1]), _fold(parts[0])
             s = max(difflib.SequenceMatcher(None, surname, _fold(w)).ratio() for w in caps)

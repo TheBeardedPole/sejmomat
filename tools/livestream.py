@@ -53,7 +53,7 @@ sys.path.insert(0, str(ROOT))
 from sejmomat import model  # noqa: E402
 from sejmomat.model import link_amendments  # noqa: E402  (what an amendment changes, as on vote pages)
 from live_overlay import H, W, Overlay  # noqa: E402
-from live_speaker import BAND, Recogniser, load_mps, read  # noqa: E402
+from live_speaker import BAND, PRESIDIUM, Recogniser, load_mps, read  # noqa: E402
 import live_chat  # noqa: E402
 import live_plan  # noqa: E402
 from sejmomat.facts import spread  # noqa: E402
@@ -904,6 +904,8 @@ def main():
                 done = i
                 text = read(path)
                 m = recogniser.match(text)
+                if re.search(r"sejmu", text, re.I):   # a chair's caption: the Presidium first
+                    m = recogniser.match(text, only=PRESIDIUM) or m
                 path.unlink(missing_ok=True)
                 path.with_suffix(".ocr.png").unlink(missing_ok=True)
                 thumb = work / f"thumb-{i}.png"
