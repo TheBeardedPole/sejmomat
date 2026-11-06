@@ -1285,10 +1285,15 @@ def main():
         naive = clock.replace(tzinfo=None)
         late, why = live_plan.delay(slots, votes_now, naive, timetable["manual"])
         shown_late = late if abs(late) >= live_plan.OVERRUN else timedelta(0)
-        if shown_late != timetable["late"]:
-            timetable["late"] = shown_late
-            print(f"{clock:%H:%M} harmonogram: " + (f"opóźnienie {live_plan.minutes(late)}" + (" (głosowania jeszcze się nie zaczęły)" if why == "czeka" else "")
-                                                     if late > timedelta(0) else "przed czasem" if late < timedelta(0) else "zgodnie z planem"), flush=True)
+        # the log: when the delay as written changes ("ok. 25 min"), not when it grows by a fraction of
+        # a second (while a voting block has not begun, the delay is the time since its start: every
+        # frame wrote the same line, 6 November 2026)
+        said = (f"opóźnienie {live_plan.minutes(shown_late)}" + (" (głosowania jeszcze się nie zaczęły)" if why == "czeka" else "")
+                if shown_late > timedelta(0) else "przed czasem" if shown_late < timedelta(0) else "zgodnie z planem")
+        if said != timetable.get("said"):
+            timetable["said"] = said
+            print(f"{clock:%H:%M} harmonogram: {said}", flush=True)
+        timetable["late"] = shown_late
         return late, why, live_plan.current(slots, naive, late)
 
     def plan_line(slot, over, clock):
