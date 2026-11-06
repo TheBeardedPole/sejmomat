@@ -153,6 +153,18 @@ def wait_for_plenary(delay):
         time.sleep(300)
 
 
+
+def day_over(base, video_start):
+    """Whether the Sejm's video of the day (by its address) has ended: its end time set and past.
+    Looked up by the day it began, as a sitting runs past midnight."""
+    try:
+        videos = get_or_none(f"videos/{video_start.date().isoformat()}") or []
+    except Exception:
+        return False
+    v = next((v for v in videos if (v.get("videoLink") or "").split("?")[0] == base), None)
+    end = v and v.get("endDateTime") and warsaw(v["endDateTime"])
+    return bool(end and end <= datetime.now(WARSAW))
+
 # The Sejm's video CDN sends viewers to an edge server; some of its edges sit inside
 # Polish home providers' networks (Vectra's tvo-18-*) and do not answer servers in a
 # data centre. If the edge given does not answer, the same path is asked of these.
@@ -640,11 +652,25 @@ def main():
         title, base, _, end = plenary(start.date().isoformat())
         mode = "Retransmisja"
     else:
-        title, base, _, end = wait_for_plenary(args.delay) if args.wait else plenary("today")
+        title, base, video_start, end = wait_for_plenary(args.delay) if args.wait else plenary("today")
         start = datetime.now(WARSAW).replace(microsecond=0) - timedelta(seconds=args.delay)
         mode = f"Na żywo, ~{round(args.delay / 60)} min opóźnienia"
     src = source(base, start, end, args.quality)
     n = sitting_number(title)
+    # the day's broadcast on YouTube, before the video goes: a previous day's left on air (auto-stop
+    # is off) ended, then one for today waiting on the key (YouTube does not always start one)
+    if args.out == "rtmp" and not args.at and live_chat.configured():
+        try:
+            old = live_chat.close_before(video_start)
+            if old:
+                print(f"transmisja z poprzedniego dnia zakończona: {old}", flush=True)
+                time.sleep(15)   # YouTube ends it before the new one is made
+            got = live_chat.prepare(n, os.environ.get("SEJMOMAT_RTMP", "").rstrip("/").rsplit("/", 1)[-1], video_start)
+            print(f"transmisja na dziś: {got}" if got else "transmisja na dziś: klucza nie ma wśród strumieni kanału",
+                  flush=True)
+        except Exception as e:
+            why = live_chat._reason(e) if isinstance(e, urllib.error.HTTPError) else e
+            print(f"transmisja na dziś: nie przygotowano ({why})", file=sys.stderr, flush=True)
     tags, facts = load_tags(), load_facts()
     # the general turn, and for each club its own cards (its Top 5s, its card), for while one of its MPs speaks
     by_club = {}
@@ -1787,6 +1813,15 @@ def main():
         pass
     finally:
         stopped.set()
+        # the day's sitting over (the Sejm's video for the day has ended, not just a dropped
+        # connection): the broadcast ended too, so the next day's starts a new one
+        if args.out == "rtmp" and not args.at and live_chat.configured() and day_over(base, video_start):
+            try:
+                ended = live_chat.close_now()
+                if ended:
+                    print(f"koniec dnia obrad: transmisja zakończona ({ended})", flush=True)
+            except Exception as e:
+                print(f"koniec dnia obrad: transmisji nie zakończono ({e})", file=sys.stderr, flush=True)
         if on_air:
             try:   # off air: at once, not when the last report runs out
                 announce(False, shown_title)

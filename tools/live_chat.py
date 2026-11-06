@@ -9,6 +9,8 @@ by itself when it streams to the platform and the YouTube login is set:
     python tools/live_chat.py broadcast "Test"     # a new unlisted broadcast with its own stream key
     python tools/live_chat.py title "Nowy tytuł"   # the title of the broadcast live now
     python tools/live_chat.py autostop             # the broadcast live now kept on air if the video drops
+    python tools/live_chat.py end                  # the broadcast live now ended (its video kept)
+    python tools/live_chat.py prepare 68           # what the stream does before going on air: a broadcast waiting on SEJMOMAT_RTMP's key
 
 A live sitting's broadcast is also titled by itself once on air: TITLE, "67. Posiedzenie
 Sejmu | Lepsza Transmisja" (SEJMOMAT_YT_TITLE to change it; replays and tests are left alone),
@@ -92,6 +94,7 @@ KEEP_FOR = 300           # a message waits this long for the chat (a broadcast t
 
 # a sitting's broadcast is given this title once it is live (SEJMOMAT_YT_TITLE, {n}: the sitting)
 TITLE = os.environ.get("SEJMOMAT_YT_TITLE", "").strip() or "{n}. Posiedzenie Sejmu | Lepsza Transmisja"
+PRIVACY = os.environ.get("SEJMOMAT_YT_PRIVACY", "").strip() or "public"   # of the broadcast the stream makes for a day
 TITLE_FOR = 900          # seconds the stream keeps looking for its broadcast to give it the title
 
 CLIENT_ID = os.environ.get("SEJMOMAT_YT_CLIENT_ID", "").strip()
@@ -577,6 +580,79 @@ def set_no_autostop():
     print("auto-stop off" if no_autostop(yt, b) else "auto-stop was already off")
 
 
+def end_broadcast(yt, b):
+    """Broadcast `b` ended ("complete"; its recording stays on the channel). With auto-stop off it
+    would otherwise stay on air with no video, and the next day's stream would join it instead of
+    starting a broadcast of its own (6 November 2026)."""
+    yt._call("POST", "liveBroadcasts/transition", {"broadcastStatus": "complete", "id": b["id"], "part": "status"})
+
+
+def close_before(when):
+    """For livestream.py, before it goes on air: the channel's broadcast still on air ended if it
+    began before `when` (the start of the day's sitting video): a previous day's, left on air.
+    Its title if one was ended, else None."""
+    yt = Chat()
+    b = on_air(yt)
+    began = (b or {}).get("snippet", {}).get("actualStartTime")
+    if not b or not began or datetime.fromisoformat(began.replace("Z", "+00:00")) >= when:
+        return None
+    end_broadcast(yt, b)
+    return b["snippet"].get("title")
+
+
+def prepare(sitting, key, since):
+    """For livestream.py, before it goes on air: a broadcast for the day waiting on the stream key
+    `key` (the one in SEJMOMAT_RTMP), so the video has somewhere to go. YouTube does not always
+    start one for the default key by itself (6 November 2026: the second day's video found none).
+    One live on this key since `since` (the day's sitting video began: a restart) or one waiting on
+    it is kept; else a new one, titled TITLE, PRIVACY, started by the video and not stopped when it
+    drops. "kept: <id>", "new: <id>", or None when the key is not among the channel's streams."""
+    yt = Chat()
+    streams = yt._call("GET", "liveStreams", {"part": "id,cdn", "mine": "true", "maxResults": 50}).get("items", [])
+    st = next((x for x in streams if (x.get("cdn", {}).get("ingestionInfo") or {}).get("streamName") == key), None)
+    if not st:
+        return None
+    # waiting: a scheduled one only, not the channel's persistent default broadcast (the one that
+    # found no video on 6 November)
+    for status, kind in (("active", "all"), ("upcoming", "event")):
+        got = yt._call("GET", "liveBroadcasts", {"part": "id,snippet,contentDetails,status", "broadcastStatus": status,
+                                                 "broadcastType": kind, "maxResults": 50}).get("items", [])
+        for b in got:
+            if b.get("contentDetails", {}).get("boundStreamId") != st["id"]:
+                continue
+            began = b["snippet"].get("actualStartTime")
+            if status == "upcoming" or (began and datetime.fromisoformat(began.replace("Z", "+00:00")) >= since):
+                return f"kept: {b['id']}"
+    now = datetime.now(WARSAW).isoformat(timespec="seconds")
+    b = yt._call("POST", "liveBroadcasts", {"part": "snippet,status,contentDetails"}, {
+        "snippet": {"title": (TITLE.format(n=sitting) if sitting else "Posiedzenie Sejmu | Lepsza Transmisja")[:100],
+                    "scheduledStartTime": now},
+        "status": {"privacyStatus": PRIVACY, "selfDeclaredMadeForKids": False},
+        "contentDetails": {"enableAutoStart": True, "enableAutoStop": False, "enableDvr": True, "recordFromStart": True,
+                           "monitorStream": {"enableMonitorStream": False}}})
+    yt._call("POST", "liveBroadcasts/bind", {"id": b["id"], "part": "id,contentDetails", "streamId": st["id"]})
+    return f"new: {b['id']}"
+
+
+def close_now():
+    """For livestream.py, once the day's sitting has ended: the broadcast on air ended. Its title
+    if one was ended, else None."""
+    yt = Chat()
+    b = on_air(yt)
+    if not b:
+        return None
+    end_broadcast(yt, b)
+    return b["snippet"].get("title")
+
+
+def end_now():
+    """The broadcast live now ended."""
+    if not configured():
+        sys.exit("The YouTube login is not set (python tools/live_chat.py auth).")
+    title = close_now()
+    print(f"ended: {title}" if title else "No broadcast live on the channel now.")
+
+
 def keep_title(sitting):
     """In the background, for livestream.py: once the sitting's broadcast is on air (the channel's
     default key starts a new one under Studio's default title), the title TITLE, once. Looked for
@@ -629,5 +705,12 @@ if __name__ == "__main__":
         set_title(" ".join(sys.argv[2:]))
     elif cmd == "autostop":
         set_no_autostop()
+    elif cmd == "end":
+        end_now()
+    elif cmd == "prepare" and len(sys.argv) > 2:
+        if not configured():
+            sys.exit("The YouTube login is not set (python tools/live_chat.py auth).")
+        key = os.environ.get("SEJMOMAT_RTMP", "").rstrip("/").rsplit("/", 1)[-1]
+        print(prepare(int(sys.argv[2]), key, datetime.now(WARSAW).replace(hour=0, minute=0, second=0)) or "the key is not among the channel's streams")
     else:
         sys.exit(__doc__)

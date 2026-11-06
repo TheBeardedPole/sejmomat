@@ -270,6 +270,12 @@ Live on sejmomat.pl:
   login, a live sitting's broadcast is also titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on
   air (`keep_title`, `SEJMOMAT_YT_TITLE`). `broadcast "title"` makes an unlisted test broadcast with its
   own key (`TEST_RTMP=… test-stream.sh "…" 8 chat`); `title "…"` renames the one live now.
+  Each sitting day gets its own broadcast (6 November 2026: with auto-stop off, YouTube started none for
+  the second day and the video went nowhere): before going on air the stream ends a broadcast left on air
+  from a previous day (`live_chat.close_before`), then keeps one live on its key since the day's video
+  began or a scheduled one waiting on it, else makes one (`live_chat.prepare`: public, `SEJMOMAT_YT_PRIVACY`,
+  auto-start on, auto-stop off, bound to SEJMOMAT_RTMP's key); when the Sejm's video for the day has ended
+  (its endDateTime past) it ends the broadcast (`close_now`). By hand: `prepare 68`, `end`.
   On the 4-vCPU VPS the stream fell ~10 s a minute behind with x264 veryfast: now superfast
   (`SEJMOMAT_PRESET`, ultrafast if still behind), overlay blended in yuv420, Tesseract on one thread at
   nice 10. A steady "behind real time" is fine; a growing one is not.
