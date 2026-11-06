@@ -93,7 +93,13 @@ ADMINS = {n.strip().lstrip("@").lower() for n in (os.environ.get("SEJMOMAT_CHAT_
 KEEP_FOR = 300           # a message waits this long for the chat (a broadcast takes a while to go live)
 
 # a sitting's broadcast is given this title once it is live (SEJMOMAT_YT_TITLE, {n}: the sitting)
-TITLE = os.environ.get("SEJMOMAT_YT_TITLE", "").strip() or "{n}. Posiedzenie Sejmu | Lepsza Transmisja"
+# {day}: ", dzień 2" on a sitting of several days (livestream.sitting_day), else nothing
+TITLE = os.environ.get("SEJMOMAT_YT_TITLE", "").strip() or "{n}. Posiedzenie Sejmu{day} | Lepsza Transmisja"
+
+
+def title_for(sitting, day=""):
+    """The broadcast's title for a sitting (and its day, ", dzień 2")."""
+    return TITLE.format(n=sitting, day=day) if sitting else f"Posiedzenie Sejmu{day} | Lepsza Transmisja"
 PRIVACY = os.environ.get("SEJMOMAT_YT_PRIVACY", "").strip() or "public"   # of the broadcast the stream makes for a day
 TITLE_FOR = 900          # seconds the stream keeps looking for its broadcast to give it the title
 
@@ -600,7 +606,7 @@ def close_before(when):
     return b["snippet"].get("title")
 
 
-def prepare(sitting, key, since):
+def prepare(sitting, key, since, day=""):
     """For livestream.py, before it goes on air: a broadcast for the day waiting on the stream key
     `key` (the one in SEJMOMAT_RTMP), so the video has somewhere to go. YouTube does not always
     start one for the default key by itself (6 November 2026: the second day's video found none).
@@ -625,7 +631,7 @@ def prepare(sitting, key, since):
                 return f"kept: {b['id']}"
     now = datetime.now(WARSAW).isoformat(timespec="seconds")
     b = yt._call("POST", "liveBroadcasts", {"part": "snippet,status,contentDetails"}, {
-        "snippet": {"title": (TITLE.format(n=sitting) if sitting else "Posiedzenie Sejmu | Lepsza Transmisja")[:100],
+        "snippet": {"title": title_for(sitting, day)[:100],
                     "scheduledStartTime": now},
         "status": {"privacyStatus": PRIVACY, "selfDeclaredMadeForKids": False},
         "contentDetails": {"enableAutoStart": True, "enableAutoStop": False, "enableDvr": True, "recordFromStart": True,
@@ -653,11 +659,11 @@ def end_now():
     print(f"ended: {title}" if title else "No broadcast live on the channel now.")
 
 
-def keep_title(sitting):
+def keep_title(sitting, day=""):
     """In the background, for livestream.py: once the sitting's broadcast is on air (the channel's
     default key starts a new one under Studio's default title), the title TITLE, once. Looked for
     every FIND_EVERY seconds for TITLE_FOR seconds; a failure costs the title, not the stream."""
-    title = TITLE.format(n=sitting)
+    title = title_for(sitting, day)
 
     def run():
         yt, until = Chat(), time.time() + TITLE_FOR

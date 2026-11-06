@@ -154,6 +154,21 @@ def wait_for_plenary(delay):
 
 
 
+def sitting_day(n, when):
+    """", dzień 2" for the day of a sitting of several days that `when` falls on (by the sitting's
+    dates in data/proceedings.json; a day running past midnight counts with the one it began),
+    else ""."""
+    try:
+        data = json.loads((ROOT / "data" / "proceedings.json").read_text(encoding="utf-8"))
+        items = data if isinstance(data, list) else data.get("proceedings", data)
+        items = items if isinstance(items, list) else list(items.values())
+        dates = next((p.get("dates") or [] for p in items if isinstance(p, dict) and str(p.get("number")) == str(n)), [])
+    except Exception:
+        return ""
+    day = when.date().isoformat()
+    return f", dzień {dates.index(day) + 1}" if len(dates) > 1 and day in dates else ""
+
+
 def day_over(base, video_start):
     """Whether the Sejm's video of the day (by its address) has ended: its end time set and past.
     Looked up by the day it began, as a sitting runs past midnight."""
@@ -665,7 +680,8 @@ def main():
             if old:
                 print(f"transmisja z poprzedniego dnia zakończona: {old}", flush=True)
                 time.sleep(15)   # YouTube ends it before the new one is made
-            got = live_chat.prepare(n, os.environ.get("SEJMOMAT_RTMP", "").rstrip("/").rsplit("/", 1)[-1], video_start)
+            got = live_chat.prepare(n, os.environ.get("SEJMOMAT_RTMP", "").rstrip("/").rsplit("/", 1)[-1], video_start,
+                                    sitting_day(n, video_start))
             print(f"transmisja na dziś: {got}" if got else "transmisja na dziś: klucza nie ma wśród strumieni kanału",
                   flush=True)
         except Exception as e:
@@ -1784,7 +1800,7 @@ def main():
             chat.command("!mowca", named, admin=True)
     # a live sitting: its broadcast titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on air
     if args.out == "rtmp" and not args.at and n and live_chat.configured():
-        live_chat.keep_title(n)
+        live_chat.keep_title(n, sitting_day(n, video_start))
     viewer = subprocess.Popen(["ffplay", "-hide_banner", "-loglevel", "warning", "-window_title", "Sejmomat", "-"],
                               stdin=proc.stdout) if preview else None
     try:

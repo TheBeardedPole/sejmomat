@@ -267,7 +267,7 @@ Live on sejmomat.pl:
   consent screen "In production" (in "Testing" the refresh token lapses after 7 days); `auth` signs in
   as @Sejmomat and prints the three `SEJMOMAT_YT_*` lines. Tests: `tests/test_live_chat.py`.
   Messages wait `SEJMOMAT_CHAT_LAG` (12 s) more, as viewers see the video after the chat. With the
-  login, a live sitting's broadcast is also titled "N. Posiedzenie Sejmu | Lepsza Transmisja" once on
+  login, a live sitting's broadcast is also titled "N. Posiedzenie Sejmu, dzień 2 | Lepsza Transmisja" (the day only for sittings of several days) once on
   air (`keep_title`, `SEJMOMAT_YT_TITLE`). `broadcast "title"` makes an unlisted test broadcast with its
   own key (`TEST_RTMP=… test-stream.sh "…" 8 chat`); `title "…"` renames the one live now.
   Each sitting day gets its own broadcast (6 November 2026: with auto-stop off, YouTube started none for
