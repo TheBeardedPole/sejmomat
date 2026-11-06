@@ -74,22 +74,29 @@ class Recogniser:
         if not caps:
             return None
         folded = _fold(text)
-        best, score = None, 0.0
+        words = [w for w in folded.replace("-", " ").split() if len(w) >= 3]
+        scored = []
         for m in self.mps:
             parts = m["name"].split()
             surname, first = _fold(parts[-1]), _fold(parts[0])
             s = max(difflib.SequenceMatcher(None, surname, _fold(w)).ratio() for w in caps)
             if s < 0.8:
                 continue
-            # the first name or the club seen too
+            # the first name (allowing for an OCR slip: "KRZYSZTOT") or the club seen too
             bonus = 0.0
-            if first and first in folded:
+            if first and (first in folded or any(difflib.SequenceMatcher(None, first, w).ratio() >= 0.75 for w in words)):
                 bonus += 0.15
             club = _fold(m.get("club") or "").replace("-", " ")
             if club and club.split()[0] in set(folded.replace("-", " ").split()):
                 bonus += 0.1
-            total = s + bonus
-            if total > score:
-                best, score = m, total
+            scored.append((s + bonus, m))
+        if not scored:
+            return None
+        scored.sort(key=lambda x: -x[0])
+        score, best = scored[0]
+        # two MPs as likely (the same surname, the first name unread: Krzysztof and Karina Bosak,
+        # both Konfederacja): nobody rather than the wrong one
+        if len(scored) > 1 and scored[1][0] >= score - 0.01:
+            return None
         # a near-exact surname, or a close one confirmed by first name or club
-        return best if best and score >= 0.95 else None
+        return best if score >= 0.95 else None
