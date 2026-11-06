@@ -175,6 +175,8 @@ MARQUEE_SPEED = 60   # pixels a second: a bar line too long for the box scrolls 
 
 
 class Overlay:
+    credit = None   # the break music's credit, shown on break screens while it plays (livestream.py)
+
     def __init__(self, bold, regular, logo, label):
         self._fonts = {}
         self._marquee = []
@@ -884,8 +886,17 @@ class Overlay:
             for i in range(pw):   # the heading strip, the accent fading to the right
                 d.line((i, 0, i, 96), fill=mix(bg, ACCENT, 0.9 * (1 - i / pw) ** 0.7) + (236,))
             d.rectangle((0, 96, pw, 99), fill=YELLOW + (255,))
-            d.text((36, 30), title.upper(), font=self.font(34, True), fill="white")
-            d.text((pw - 36, 48), subtitle, font=self.font(18), fill=(215, 222, 235), anchor="rm")
+            # the title on the left, what it counts on the right; a title too long for both gets a
+            # smaller size, then the subtitle goes under it ("Sejmowa liga: najlepsi na 68. posiedzeniu")
+            fs, room = self.font(18), pw - 72
+            sub_w = fs.getlength(subtitle)
+            size = next((z for z in (34, 30, 26) if self.font(z, True).getlength(title.upper()) + sub_w + 32 <= room), None)
+            if size:
+                d.text((36, 30), title.upper(), font=self.font(size, True), fill="white")
+                d.text((pw - 36, 48), subtitle, font=fs, fill=(215, 222, 235), anchor="rm")
+            else:
+                d.text((36, 18), self.fit(title.upper(), self.font(30, True), room), font=self.font(30, True), fill="white")
+                d.text((36, 62), subtitle, font=fs, fill=(215, 222, 235))
             rows_im = []
             for number, text, badge, state in rows[:9]:
                 r = Image.new("RGBA", (pw - 48, 50), (0, 0, 0, 0))
@@ -1177,10 +1188,24 @@ class Overlay:
         self._cards[ck] = im
         return im
 
+    def banner(self, frame, text):
+        """`frame` (RGBA bytes) with a notice across the top, in the accent: a restart coming."""
+        im = Image.frombytes("RGBA", (W, H), frame) if isinstance(frame, (bytes, bytearray)) else frame.copy()
+        b = self._cards.get(("banner", text))
+        if b is None:
+            f = self.font(22, True)
+            b = Image.new("RGBA", (W, 64), (0, 0, 0, 0))
+            d = ImageDraw.Draw(b)
+            d.rounded_rectangle((24, 8, W - 24, 56), 16, fill=(255, 212, 121, 245))
+            d.text((W // 2, 32), text, font=f, fill=(12, 20, 36), anchor="mm")
+            self._cards[("banner", text)] = b
+        im.alpha_composite(b, (0, 12))
+        return im.tobytes()
+
     def frame_scene(self, scene, clock=None, label="PRZERWA W OBRADACH"):
         """A frame of a break: the comparison over the hall, the Sejmomat logo top right. A scene
         standing still (the same image, from a cache) gives the same frame, not one composed anew."""
-        key = ("scene", id(scene[0]), scene[1], scene[2], clock, label)
+        key = ("scene", id(scene[0]), scene[1], scene[2], clock, label, self.credit)
         if self._last[0] == key:
             return self._last[1]
         im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -1205,6 +1230,12 @@ class Overlay:
             d.text((x + 12, 40 + (cap[3] - cap[1]) / 2), clock, font=fb, fill=YELLOW, anchor="ls")
         img, x, y = scene
         im.alpha_composite(img, (x, y))
+        if self.credit:   # the music playing, credited (CC BY), small, bottom left
+            d = ImageDraw.Draw(im)
+            fc = self.font(13)
+            tw = fc.getlength(self.credit)
+            d.rounded_rectangle((CMP_BOX[0], H - 34, CMP_BOX[0] + tw + 24, H - 10), 10, fill=(12, 20, 36, 200))
+            d.text((CMP_BOX[0] + 12, H - 22), self.credit, font=fc, fill=(200, 210, 228), anchor="lm")
         out = im.tobytes()
         self._last = (key, out, scene)   # the scene kept, so its id stays its own
         return out

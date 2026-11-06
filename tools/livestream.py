@@ -24,13 +24,16 @@ The Sejm's broadcast is public; before streaming it to a platform, check the
 Sejm's terms for rebroadcasting its feed.
 """
 import argparse
+import array
 import json
 import unicodedata
 from collections import Counter
 import os
+import queue
 import random
 import re
 import shutil
+import signal
 import subprocess
 import sys
 import tempfile
@@ -442,6 +445,10 @@ CMP_SECONDS = 20                                        # each comparison on scr
 THUMB = (64, 36)
 SPEAKER_SECONDS = 20                                    # how long the card of a speaker who has just begun stays
 STATE = Path.home() / ".cache" / "sejmomat-live.json"   # the speaker and chair, for a quick restart
+RUN_FILE = Path.home() / ".cache" / "sejmomat-live-run.json"   # when the stream last stopped for a restart
+RESTART_NOTICE = "Restart serwera transmisji: wracamy za chwilę, możliwe kilka sekund przerwy."
+BACK_NOTICE = "Wracamy! Transmisja wznowiona po restarcie serwera."
+RESTART_BANNER = 5                                      # seconds the picture shows the restart before it stops
 RESTORE_WITHIN = 600                                    # seconds: a restart this soon after the last save names them again
 SPEAKER_BAR = 600                                       # how long the bar names a speaker (until the next one)
 CAPTION_LAG = 8                                         # the broadcast names a speaker this long after they begin, or later (10th percentile of 73 speeches, October 2026: median 12 s; tools/caption_lag.py)
@@ -671,9 +678,23 @@ def snapshot_command(ahead, snapshot):
 # on in yuv420 after converting it once a frame (format=auto took a fifth more). Measured on 60 s
 # of a sitting, 4 cores: x264 veryfast 7.9 s, superfast 5.0 s, ultrafast 2.8 s; the overlay 4.3 s.
 PRESET = os.environ.get("SEJMOMAT_PRESET", "superfast").strip() or "superfast"
+# where the overlay is laid on the picture: "420" (cheap: colour per 2x2 pixels, edges of coloured
+# boxes a little blocky) or "444" (full colour, a little more CPU); the stream goes out in yuv420 either way
+BLEND = "444" if os.environ.get("SEJMOMAT_BLEND", "").strip() == "444" else "420"
+# the picture's height out: 720 (the server) or 1080 (sharper, about twice the CPU: for a strong
+# computer); the overlay is drawn at 1280x720 and scaled up smoothly to 1080p
+OUT_H = 1080 if os.environ.get("SEJMOMAT_HEIGHT", "").strip() == "1080" else 720
+OUT_W = OUT_H * 16 // 9
+# music in the breaks (tools/music, CC BY: its credit on screen while it plays); "off" for none
+MUSIC = os.environ.get("SEJMOMAT_BREAK_MUSIC", "").strip() or str(ROOT / "tools" / "music" / "local-forecast-elevator.mp3")
+MUSIC_CREDIT = os.environ.get("SEJMOMAT_MUSIC_CREDIT", "").strip() or \
+    "Muzyka: „Local Forecast – Elevator”, Kevin MacLeod (incompetech.com) · CC BY 4.0"
+MUSIC_GAIN = 0.6        # the music's volume (the hall's sound is muted in a break: measured -90 dB)
+MUSIC_FADE = 3.0        # seconds to fade in and out
+RATE = 44100            # the music's samples a second, two channels, 16 bit
 
 
-def ffmpeg_command(src, out, snapshot, fast=False):
+def ffmpeg_command(src, out, snapshot, fast=False, music=None):
     """The ffmpeg command: the stream read at normal speed and scaled to 1280x720,
     with the overlay (RGBA frames from this script, on stdin) laid over it; and,
     every SNAP_EVERY seconds, the band where the broadcast names a speaker, saved
@@ -684,17 +705,27 @@ def ffmpeg_command(src, out, snapshot, fast=False):
     proxy = ["-http_proxy", VIDEO_PROXY] if VIDEO_PROXY else []
     inputs = [*([] if fast else ["-re"]), *proxy, *FROM_START, "-i", src,
               "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-framerate", str(FPS), "-thread_queue_size", "64", "-i", "pipe:0"]
+    if music:   # the break music, from this script: a named pipe of raw samples (silence between breaks)
+        inputs += ["-f", "s16le", "-ar", str(RATE), "-ac", "2", "-thread_queue_size", "1024", "-i", music]
     bx, by, bw, bh = BAND
-    scaled = f"[0:v]{FIT},fps={FPS}"
+    fit = FIT if OUT_H == H else f"scale={OUT_W}:{OUT_H}:force_original_aspect_ratio=decrease,pad={OUT_W}:{OUT_H}:(ow-iw)/2:(oh-ih)/2"
+    scaled = f"[0:v]{fit},fps={FPS}"
+    ovl = f"[1:v]{'' if OUT_H == H else f'scale={OUT_W}:{OUT_H}:flags=lanczos,'}format=yuva{BLEND}p[ovl]"
+    lay = f"[base][ovl]overlay=0:0:format=yuv{BLEND}:eof_action=endall{',format=yuv420p' if BLEND == '444' else ''}[v]"
     if snapshot:
-        v = (f"{scaled},split=2[base][cap];[1:v]format=yuva420p[ovl];[base][ovl]overlay=0:0:format=yuv420:eof_action=endall[v];"
-             f"[cap]fps=1/{SNAP_EVERY},crop={bw}:{bh}:{bx}:{by}[band]")
+        # the caption band is read at 1280x720, where BAND is measured
+        band = f"[cap]{'' if OUT_H == H else f'scale={W}:{H},'}fps=1/{SNAP_EVERY},crop={bw}:{bh}:{bx}:{by}[band]"
+        v = f"{scaled},split=2[base][cap];{ovl};{lay};{band}"
     else:
-        v = f"{scaled}[base];[1:v]format=yuva420p[ovl];[base][ovl]overlay=0:0:format=yuv420:eof_action=endall[v]"
+        v = f"{scaled}[base];{ovl};{lay}"
+    if music:
+        v += ";[0:a]aresample=44100,aformat=channel_layouts=stereo[hall];[hall][2:a]amix=inputs=2:normalize=0:duration=first[a]"
     # on a server (no terminal) the progress line once a minute, for the log
     quiet = [] if sys.stderr.isatty() else ["-stats_period", "60"]
-    cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *quiet, *inputs, "-filter_complex", v, "-map", "[v]", "-map", "0:a?"]
-    enc = ["-c:v", "libx264", "-preset", PRESET, "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
+    cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *quiet, *inputs, "-filter_complex", v, "-map", "[v]",
+           "-map", "[a]" if music else "0:a?"]
+    rate = "6800k" if OUT_H == 1080 else "4500k"
+    enc = ["-c:v", "libx264", "-preset", PRESET, "-b:v", rate, "-maxrate", rate, "-bufsize", f"{2 * int(rate[:-1])}k",
            "-pix_fmt", "yuv420p", "-g", "50", "-c:a", "aac", "-b:a", "128k", "-ar", "44100"]
     snap = ["-map", "[band]", "-f", "image2", "-start_number", "0", "-y", str(snapshot)] if snapshot else []
     if out == "preview":
@@ -1543,6 +1574,27 @@ def main():
         n_ok = sum(1 for v in today if passed(v))
         return overlay.list_scene("Głosowania", f"dziś {len(today)} · przyjęto {n_ok}, odrzucono {len(today) - n_ok}", rows, t, length)
 
+    music = {"on": False, "gain": 0.0, "pos": 0}
+    PER = RATE // FPS * 4   # bytes of music a picture: two channels, 16 bit
+
+    def music_chunk():
+        """The music for one picture: the track (looping) while a break is on screen, faded in and
+        out, silence otherwise; the credit on screen while it can be heard."""
+        step = 1 / (MUSIC_FADE * FPS)
+        music["gain"] = min(1.0, music["gain"] + step) if music["on"] else max(0.0, music["gain"] - step)
+        overlay.credit = MUSIC_CREDIT if music["gain"] > 0 else None
+        if music["gain"] <= 0:
+            music["pos"] = 0   # the next break starts the tune from the top
+            return bytes(PER)
+        a = music["pos"]
+        chunk = pcm[a:a + PER]
+        if len(chunk) < PER:
+            chunk += pcm[:PER - len(chunk)]
+        music["pos"] = (a + PER) % len(pcm)
+        samples = array.array("h", chunk)
+        k = music["gain"] * MUSIC_GAIN
+        return array.array("h", (int(x * k) for x in samples)).tobytes()
+
     def frame(clock):
         """The overlay for the picture at `clock`."""
         if transcript:
@@ -1564,7 +1616,8 @@ def main():
             save_state()
         # a break: comparisons over the hall, nothing else (not within BREAK_NO_VOTE of a vote)
         since_vote = (clock - warsaw(shown[-1]["date"])).total_seconds() if shown else 1e9
-        if on_break and (compares or mp_pool) and since_vote > BREAK_NO_VOTE:
+        music["on"] = bool(on_break and (compares or mp_pool) and since_vote > BREAK_NO_VOTE)
+        if music["on"]:
             since = (clock - on_break[0]).total_seconds()
             slot, into = int(since // CMP_SECONDS), since % CMP_SECONDS
             length = CMP_SECONDS
@@ -1744,7 +1797,31 @@ def main():
 
     if args.fast and args.out in ("preview", "rtmp"):
         sys.exit("--fast is for a file.")
-    cmd, preview = ffmpeg_command(src, args.out, snapshot if recogniser and not ahead else None, args.fast)
+    # the break music: the track decoded once, then fed to ffmpeg through a named pipe, a frame's worth
+    # of samples for each picture (silence between breaks), faded in and out (MUSIC_FADE)
+    pcm, music_pipe, music_q = b"", None, queue.Queue()
+    if MUSIC != "off" and Path(MUSIC).exists():
+        pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", MUSIC, "-f", "s16le", "-ar", str(RATE), "-ac", "2", "-"],
+                             capture_output=True).stdout
+        if pcm:
+            music_pipe = work / "music.pcm"
+            os.mkfifo(music_pipe)
+            print(f"muzyka w przerwach: {Path(MUSIC).name}, {len(pcm) / (4 * RATE):.0f} s", flush=True)
+
+            def feed():
+                with open(music_pipe, "wb") as f:   # opens once ffmpeg reads it
+                    while (chunk := music_q.get()) is not None:
+                        try:
+                            f.write(chunk)
+                        except (BrokenPipeError, OSError):
+                            return
+            # ffmpeg reads a little of every input before it takes any picture: two seconds of silence
+            # ready in the pipe, or it waits for the music while the script waits for it (a deadlock)
+            for _ in range(2 * FPS):
+                music_q.put(bytes(RATE // FPS * 4))
+            threading.Thread(target=feed, daemon=True).start()
+    cmd, preview = ffmpeg_command(src, args.out, snapshot if recogniser and not ahead else None, args.fast,
+                                  str(music_pipe) if music_pipe else None)
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE if preview else None)
     reader = subprocess.Popen(snapshot_command(ahead, snapshot), stdin=subprocess.DEVNULL) if ahead else None
     # on air: the site hears of it every LIVE_EVERY seconds (a live sitting always; a replay with --announce)
@@ -1768,12 +1845,20 @@ def main():
         threading.Thread(target=keep_announcing, daemon=True).start()
     # the votes into the stream's chat as the picture reaches them (live_chat.py), when on air
     # with the channel's YouTube login set
+    chat = None
     if args.out == "rtmp" and (not args.at or args.announce or args.chat) and live_chat.configured() and not args.no_chat:
         def votes_now():
             with lock:
                 return list(votes)
         chat = live_chat.VoteChat(lambda: now["clock"], votes_now, start, short_topic).start()
         print("czat: linki do głosowań włączone", flush=True)
+        # back after a restart (this sitting, stopped minutes ago): the chat told
+        try:
+            run = json.loads(RUN_FILE.read_text(encoding="utf-8"))
+            if run.get("sitting") == n and time.time() - run.get("stopped", 0) < 900:
+                chat.post(BACK_NOTICE)
+        except (OSError, ValueError):
+            pass
 
         def plan_message(asked=False):
             """The item on by the plan with its print's page on the site (sejmomat.pl/3278 leads
@@ -1952,6 +2037,34 @@ def main():
         live_chat.keep_title(n, sitting_day(n, video_start))
     viewer = subprocess.Popen(["ffplay", "-hide_banner", "-loglevel", "warning", "-window_title", "Sejmomat", "-"],
                               stdin=proc.stdout) if preview else None
+    # a restart (systemctl restart / stop: SIGTERM): RESTART_BANNER seconds of a banner in the picture,
+    # the chat told at once, then the loop ends as it would at the day's end
+    restarting = {"at": None}
+
+    def on_term(signum, frame_):
+        if restarting["at"]:
+            return
+        restarting["at"] = time.monotonic()
+        print("restart: zatrzymuję transmisję", flush=True)
+        live = args.out == "rtmp" and not args.at and not day_over(base, video_start)
+        if live and chat:
+            def tell():
+                try:
+                    if chat.chat.chat_id or chat.chat.find():
+                        chat.chat.send(RESTART_NOTICE)
+                        print(f"czat: {RESTART_NOTICE}", flush=True)
+                except Exception as e:
+                    print(f"czat: nie wysłano ({e})", file=sys.stderr, flush=True)
+            threading.Thread(target=tell, daemon=True).start()
+        if live:
+            try:
+                RUN_FILE.parent.mkdir(parents=True, exist_ok=True)
+                RUN_FILE.write_text(json.dumps({"sitting": n, "stopped": time.time()}), encoding="utf-8")
+            except OSError:
+                pass
+    if args.out == "rtmp":
+        signal.signal(signal.SIGTERM, on_term)
+
     try:
         # one overlay frame per video frame, each drawn for the moment of the picture it goes on;
         # ffmpeg takes them as it needs them, so this loop keeps pace with the stream by itself
@@ -1963,9 +2076,15 @@ def main():
             now["clock"] = start + timedelta(seconds=t)
             a = time.perf_counter()
             image = frame(now["clock"])
+            if restarting["at"]:
+                if time.monotonic() - restarting["at"] > RESTART_BANNER:
+                    break
+                image = overlay.banner(image, RESTART_NOTICE)
             took = time.perf_counter() - a
             drawn, worst = drawn + took, max(worst, took)
             proc.stdin.write(image)
+            if music_pipe:
+                music_q.put(music_chunk())
             i += 1
             if i % (60 * FPS) == 0:
                 # once a minute: how long the overlay takes, and whether the picture keeps up
