@@ -24,7 +24,7 @@ import json
 from collections import defaultdict
 from datetime import date, timedelta
 
-from . import places, professions
+from . import places, professions, schools
 from .config import DATA, TERM
 from .social import club_short
 
@@ -268,6 +268,15 @@ def hall(ctx, committees, spec=None, today=None):
     bills = {b["root"]: {"title": b["title"], "tags": b.get("tags", []), "date": b.get("last") or "",
                          "mps": ((b.get("author") or {}).get("mps") or [])} for b in ctx["bills"]}
     mps = {r["mp"]["id"]: r["mp"] for r in ctx["mp_rows"] if r["mp"].get("active", True)}
+    school = schools.load()
+    fields = [n for n, _ in schools.FIELDS] + [schools.OTHER]
+
+    def study(text):
+        """[degree, field of study] as indexes, -1 each when the MP's school is not known."""
+        if text is None:
+            return [-1, -1]
+        d, f = schools.degree(text), schools.field(text)
+        return [(schools.DEGREES + [schools.NONE]).index(d), fields.index(f) if f else -1]
     seats = [[s["x"], s["y"], s["mp"] if s["mp"] in mps else None] for _, s in sorted(plan["seats"].items(), key=lambda kv: int(kv[0]))]
     scored = scored_mps(spec, ctx["mp_rows"], committees, bills, today)
     return {
@@ -276,7 +285,8 @@ def hall(ctx, committees, spec=None, today=None):
         # [name, club id, club as readers know it, constituency, turnout, speeches, questions,
         #  breaks of the club line, terms served (since 1997), constituency number, profession as
         #  stated, its field (an index into "fields", sejmomat/professions.py), education level (an
-        #  index into "education", len(education) when not given), age in years (0 when not given)]
+        #  index into "education", len(education) when not given), age in years (0 when not given),
+        #  degree and field of study (indexes into "degrees" and "study_fields", -1 when not known)]
         "mps": {r["mp"]["id"]: [r["mp"]["firstLastName"], r["mp"].get("club") or "niez.", club_short(r["mp"].get("club") or ""),
                                 r["mp"].get("districtName") or "", round(r["turnout"], 4),
                                 (r.get("speeches") or {}).get("spoken", 0) + (r.get("speeches") or {}).get("written", 0),
@@ -284,12 +294,16 @@ def hall(ctx, committees, spec=None, today=None):
                                 r["mp"].get("districtNum"), (r["mp"].get("profession") or "").strip(),
                                 professions.ORDER.index(professions.field(r["mp"].get("profession"))),
                                 professions.education(r["mp"].get("educationLevel")),
-                                professions.age(r["mp"].get("birthDate"), today) or 0]
+                                professions.age(r["mp"].get("birthDate"), today) or 0,
+                                *study(school.get(str(r["mp"]["id"])))]
                 for r in ctx["mp_rows"] if r["mp"]["id"] in mps},
         # the towns and the voivodeship of each constituency, for the search (sejmomat/places.py)
         "places": places.by_district(),
         "fields": professions.ORDER,
         "education": professions.EDUCATION,
+        # degree and field of study only once most MPs' schools are known (a few would mislead)
+        **({"degrees": schools.DEGREES + [schools.NONE], "study_fields": fields}
+           if sum(1 for m in mps if str(m) in school) >= 0.9 * len(mps) else {}),
         "voivodeships": {r["mp"]["districtNum"]: r["mp"]["voivodeship"] for r in ctx["mp_rows"]
                          if r["mp"].get("districtNum") and r["mp"].get("voivodeship")},
         "active": {iid: {x["id"]: x["score"] for x in rows} for iid, rows in scored.items()},

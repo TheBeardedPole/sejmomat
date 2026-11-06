@@ -861,6 +861,17 @@ if (typeof document !== "undefined") (() => {
     const EDU_COLOURS = ["#2a78d6", "#eda100", "#d0453b", "#7f6fd1", "#3f8f2f", "#b0682a", "#6e6e6e"];
     const eduColour = (k) => EDU_COLOURS[k] || "#a3a3a3";
     const eduName = (k) => plan.education[k] ? (L.salaLevels?.[plan.education[k]] || plan.education[k]) : L.salaNoProfession;
+    // the education view's three switches: level (the API), degree and field of study (the Sejm's
+    // "Ukończona szkoła", sejmomat/schools.py); the choice kept with the view
+    const EDU_MODES = [["level", L.salaEduLevel], ...(plan.degrees ? [["degree", L.salaEduDegree], ["field", L.salaEduField]] : [])];
+    let eduMode = EDU_MODES.some((m) => m[0] === readSala().edu) ? readSala().edu : "level";
+    const STUDY_COLOURS = ["#2a78d6", "#d0453b", "#eda100", "#7f6fd1", "#3f8f2f", "#1baf7a", "#c2185b", "#b0682a", "#4f8fb0", "#1f4fa0", "#9a8a2a", "#a3a3a3"];
+    const eduOf = (mp) => eduMode === "level" ? figure(mp, 12) : eduMode === "degree" ? figure(mp, 14) : figure(mp, 15);
+    const eduNameOf = (k) => k < 0 || k === undefined ? L.salaNoProfession
+      : eduMode === "level" ? eduName(k)
+      : eduMode === "degree" ? (L.salaDegrees?.[plan.degrees[k]] || plan.degrees[k])
+      : (L.salaStudy?.[plan.study_fields[k]] || plan.study_fields[k]);
+    const eduColourOf = (k) => k < 0 || k === undefined ? "#d6d6d6" : eduMode === "level" ? eduColour(k) : STUDY_COLOURS[k] || "#a3a3a3";
     // the professions' fields (sejmomat/professions.py), a colour each; "Inne" and "Brak danych" grey
     const FIELD_COLOURS = ["#6e6e6e", "#2a78d6", "#d0453b", "#7f6fd1", "#eda100", "#3f8f2f", "#1baf7a",
                            "#4f8fb0", "#b0682a", "#c2185b", "#d07ac0", "#1f4fa0", "#9a8a2a", "#a3a3a3", "#d6d6d6"];
@@ -943,7 +954,7 @@ if (typeof document !== "undefined") (() => {
           r.style.fill = fieldColour(figure(mp, 11));
         } else if (view === "education") {
           r.setAttribute("class", "club");
-          r.style.fill = eduColour(figure(mp, 12));
+          r.style.fill = eduColourOf(eduOf(mp));
         } else if (view === "clubs") {
           const c = figure(mp, 1);
           r.setAttribute("class", "club");
@@ -953,6 +964,8 @@ if (typeof document !== "undefined") (() => {
         }
       });
       chipsRow.hidden = view !== "topics";
+      eduRow.hidden = view !== "education" || EDU_MODES.length < 2;
+      eduRow.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.mode === eduMode)));
       if (view === "topics") {
         count.textContent = n ? plural(n, L.salaCount).replace("{n}", n) : L.salaNone;
         legend.replaceChildren(
@@ -982,12 +995,14 @@ if (typeof document !== "undefined") (() => {
           }));
       } else if (view === "education") {
         const sizes = {};
-        for (const r of rects) if (r.dataset.mp) { const k = figure(r.dataset.mp, 12); sizes[k] = (sizes[k] || 0) + 1; }
-        count.textContent = L.salaEducationNote;
-        legend.replaceChildren(...Object.entries(sizes).map(([k, n]) => [Number(k), n]).sort((a, b) => a[0] - b[0]).map(([k, n]) => {
+        for (const r of rects) if (r.dataset.mp) { const k = eduOf(r.dataset.mp); sizes[k] = (sizes[k] || 0) + 1; }
+        count.textContent = eduMode === "level" ? L.salaEducationNote : L.salaStudyNote;
+        // the degrees highest first; the fields largest first; not known last
+        const order = ([a, x], [b, y]) => (a < 0) - (b < 0) || (eduMode === "field" ? y - x : a - b);
+        legend.replaceChildren(...Object.entries(sizes).map(([k, n]) => [Number(k), n]).sort(order).map(([k, n]) => {
           const sw = el("span", { className: "sala-sw" });
-          sw.style.background = eduColour(k);
-          return el("span", { className: "sala-key" }, sw, `${eduName(k)} ${n}`);
+          sw.style.background = eduColourOf(k);
+          return el("span", { className: "sala-key" }, sw, `${eduNameOf(k)} ${n}`);
         }));
       } else {
         const st = steps[view], show = v[3];
@@ -1024,6 +1039,15 @@ if (typeof document !== "undefined") (() => {
     prev.addEventListener("click", () => turn(-1));
     next.addEventListener("click", () => turn(1));
     const tabRow = el("div", { className: "sala-tabs", role: "tablist", ariaLabel: L.salaViews }, prev, el("div", { className: "sala-tab-list" }, tabs), next);
+
+    // the education view's switches: level, degree, field of study
+    const eduRow = el("div", { className: "sala-chips" });
+    eduRow.append(...EDU_MODES.map(([mode, label]) => {
+      const b = el("button", { type: "button", className: "toggle-chip sala-chip", textContent: label });
+      b.dataset.mode = mode;
+      b.addEventListener("click", () => { eduMode = mode; saveSala({ ...readSala(), edu: mode }); paint(); });
+      return b;
+    }));
 
     // the reader's topics as switches, in the topics view
     chipsRow.append(...mine.map((id) => {
@@ -1085,7 +1109,11 @@ if (typeof document !== "undefined") (() => {
         el("span", { className: "muted", textContent: [m[1] === "niez." ? L.independent : m[2], m[3] && `${L.district} ${m[3]}`].filter(Boolean).join(" · ") })];
       if (v[2] !== undefined) lines.push(el("span", { className: "sala-tip-fig", textContent: `${v[1]}: ${v[3](m[v[2]])}` }));
       if (view === "professions") lines.push(el("span", { className: "sala-tip-fig", textContent: `${L.salaProfession}: ${m[10] || L.salaNoProfession}` }));
-      if (view === "education") lines.push(el("span", { className: "sala-tip-fig", textContent: `${L.salaEducation}: ${eduName(m[12])}` }));
+      if (view === "education") {
+        lines.push(el("span", { className: "sala-tip-fig", textContent: `${L.salaEducation}: ${eduName(m[12])}` }));
+        if (m[14] >= 0) lines.push(el("span", { className: "sala-tip-fig", textContent: [L.salaDegrees?.[plan.degrees[m[14]]] || plan.degrees[m[14]],
+          m[15] >= 0 ? (L.salaStudy?.[plan.study_fields[m[15]]] || plan.study_fields[m[15]]) : null].filter(Boolean).join(" · ") }));
+      }
       if (tm.length) lines.push(el("span", { className: "sala-tip-topics", textContent: `${L.salaWorks}: ${tm.map(nameOf).join(", ")}` }));
       if (pin) lines.push(link(pageOf(mp), `${L.profile} →`));
       // a card opened by a tap or the search has its own close button
@@ -1148,7 +1176,7 @@ if (typeof document !== "undefined") (() => {
 
     const wrap = el("div", { className: "sala-wrap" }, svg, tip);
     const body = el("div", { className: "sala-body", id: "sala-body" }, tabRow,
-      el("div", { className: "sala-head" }, chipsRow, count),
+      el("div", { className: "sala-head" }, chipsRow, eduRow, count),
       el("div", { className: "sala-find" }, search, found),
       wrap, legend);
     const toggle = el("button", { type: "button", className: "sala-toggle" },

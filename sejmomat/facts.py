@@ -231,6 +231,18 @@ def facts(ctx, today=None):
              f"Najwięcej w klubie {club}: {k} z {size[club]} posłów." if club != "niez." else f"Najwięcej wśród niezrzeszonych: {k}.",
              None if club == "niez." else club, "professions")
 
+    # ---- doctors and professors (the degrees in "Ukończona szkoła", sejmomat/schools.py), once most MPs' are known
+    from . import schools
+    known = schools.load()
+    if len([r for r in mps if str(r["mp"]["id"]) in known]) >= 0.9 * len(mps):
+        top = [r for r in mps if schools.degree(known.get(str(r["mp"]["id"]))) in ("doktor", "doktor habilitowany", "profesor")]
+        if len(top) >= 3:
+            by = Counter(r["mp"].get("club") or "niez." for r in top)
+            club, k = sorted(by.items(), key=lambda kv: (-kv[1], kv[0]))[0]
+            size = Counter(r["mp"].get("club") or "niez." for r in mps)
+            fact("Doktorzy w Sejmie", len(top), "posłów ze stopniem doktora lub wyższym",
+                 f"Najwięcej w klubie {club}: {k} z {size[club]} posłów.", None if club == "niez." else club, "professions")
+
     # ---- Top 5s, one after every TOP_EVERY other cards
     def top5(title, rows, key, show, text, topic, club=None):
         best = [r for r in sorted(rows, key=key, reverse=True)[:5]]

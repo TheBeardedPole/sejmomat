@@ -954,8 +954,18 @@ EN = {
     "Wiek w pełnych latach na dziś, z daty urodzenia podanej przez Sejm. Mediana to wiek posła w środku listy od najmłodszego do najstarszego. Liczymy posłów sprawujących dziś mandat, według ich obecnego klubu.":
         "Age in full years today, from the birth date the Sejm gives. The median is the age of the MP in the middle of the list from youngest to oldest. MPs in office now, by their current club.",
     "Wykształcenie": "Education", "Wykształcenie posłów": "MPs' education", "Wyższe wykształcenie ma": "Higher education:",
-    "Poziom wykształcenia to ten, który poseł podał Sejmowi. Sejm nie podaje w swoich danych, co poseł studiował. Liczymy posłów sprawujących dziś mandat, według ich obecnego klubu.":
-        "The level of education is the one the MP gave the Sejm. The Sejm's data do not say what an MP studied. MPs in office now, by their current club.", "Poziom wykształcenia podany przez posła": "The level of education the MP gave",
+    "Poziom wykształcenia to ten, który poseł podał Sejmowi. Stopień i kierunek odczytujemy z „Ukończonej szkoły” na stronie posła: liczy się najwyższy stopień (lekarz i magister inżynier jako magister), a kierunek to kierunek tych studiów; studia podyplomowe nie są stopniem. Liczymy posłów sprawujących dziś mandat, według ich obecnego klubu.":
+        "The level of education is the one the MP gave the Sejm. The degree and field are read from the school the MP's page on the Sejm's site lists: the highest degree counts (a physician's and an engineer's master's as a master's), and the field is that degree's; postgraduate studies are no degree. MPs in office now, by their current club.",
+    "Stopień naukowy i tytuł zawodowy": "Degree", "Kierunek studiów": "Field of study", "Poziom": "Level", "Stopień": "Degree", "Kierunek": "Field",
+    "Z „Ukończonej szkoły” na stronie posła w Sejmie: najwyższy stopień i kierunek tych studiów.": "From the school listed on the MP's page on the Sejm's site: the highest degree and its field.",
+    "Z „Ukończonej szkoły” na stronie posła: najwyższy stopień i jego kierunek": "From the school on the MP's page: the highest degree and its field",
+    "profesor": "professor", "doktor habilitowany": "habilitated doctor", "doktor": "doctorate", "magister": "master's",
+    "inżynier": "engineer (bachelor's)", "licencjat": "bachelor's", "bez stopnia": "no degree",
+    "Prawo i administracja": "Law and administration", "Medycyna i zdrowie": "Medicine and health", "Ekonomia i zarządzanie": "Economics and management",
+    "Politologia i stosunki międzynarodowe": "Political science and international relations", "Nauki techniczne": "Engineering",
+    "Rolnictwo i leśnictwo": "Agriculture and forestry", "Pedagogika i nauczanie": "Education studies",
+    "Nauki humanistyczne i społeczne": "Humanities and social sciences", "Nauki ścisłe i przyrodnicze": "Sciences",
+    "Służby mundurowe i wojsko": "Military and uniformed services", "Inny kierunek": "Other field", "Poziom wykształcenia podany przez posła": "The level of education the MP gave",
     "wyższe": "higher", "średnie policealne/pomaturalne": "post-secondary", "średnie zawodowe": "vocational secondary",
     "średnie ogólne": "general secondary", "zasadnicze zawodowe": "basic vocational", "gimnazjalne": "lower secondary",
     "podstawowe": "primary",

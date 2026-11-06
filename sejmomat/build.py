@@ -10,7 +10,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import agenda, analysis, authors, committees, fillgaps, interests, osr, pending, places, processes, professions, questions, sejmdle, social, speeches, survey
+from . import agenda, analysis, authors, committees, fillgaps, interests, osr, pending, places, processes, professions, schools, questions, sejmdle, social, speeches, survey
 from .facts import facts
 from .stats import compute as compute_voting_stats
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
@@ -989,6 +989,8 @@ def _env(lang):
         anchor=anchor, source_items=source_items, print_paragraphs=print_paragraphs, print_too_big=print_too_big, consultation_url=consultation_url,
         field_names=lambda tr: {n: tr(n) for n in professions.ORDER},
         education_names=lambda tr: {n: tr(n) for n in professions.EDUCATION},
+        degree_names=lambda tr: {n: tr(n) for n in schools.DEGREES + [schools.NONE]},
+        study_names=lambda tr: {n: tr(n) for n, _ in schools.FIELDS + [(schools.OTHER, None)]},
         VOTE_LABEL=VOTE_LABEL, LINE_LABEL=LINE_LABEL, MAJORITY_LABEL=MAJORITY_LABEL, KIND_LABEL=KIND_LABEL,
         print_url=print_url, pdf_url=pdf_url, act_url=act_url, TERM=TERM,
         post_weight=social.weight, POST_LIMIT=social.LIMIT, CARD_DIR=social.CARD_DIR,
@@ -1092,7 +1094,24 @@ def profession_table(mp_rows):
         return {"median": xs[len(xs) // 2] if len(xs) % 2 else (xs[len(xs) // 2 - 1] + xs[len(xs) // 2]) / 2,
                 "mean": round(sum(xs) / len(xs), 1), "min": xs[0], "max": xs[-1], "n": len(xs)} if xs else None
     by_club_age = {c: summary([a for cc, a in ages if cc == c]) for c in clubs}
+    # degree and field of study, where the MP's "Ukończona szkoła" is known (sejmomat/schools.py)
+    known = schools.load()
+    deg, stud = defaultdict(Counter), defaultdict(Counter)
+    for m in active:
+        text = known.get(str(m["id"]))
+        if text is None:
+            continue
+        deg[schools.degree(text)][m.get("club") or ""] += 1
+        f = schools.field(text)
+        if f:
+            stud[f][m.get("club") or ""] += 1
+    enough = sum(1 for m in active if str(m["id"]) in known) >= 0.9 * len(active)   # a few would mislead
+    degrees = [{"level": d, "total": sum(deg[d].values()), "by_club": dict(deg[d])}
+               for d in schools.DEGREES + [schools.NONE] if d in deg] if enough else []
+    studies = sorted(({"level": f, "total": sum(c.values()), "by_club": dict(c)} for f, c in stud.items()),
+                     key=lambda r: (r["level"] == schools.OTHER, -r["total"])) if enough else []
     return {"clubs": clubs, "rows": out, "education": education, "ages": age_rows, "age_by_club": by_club_age,
+            "degrees": degrees, "studies": studies, "schools_known": sum(1 for m in active if str(m["id"]) in known),
             "age_all": summary([a for _, a in ages]),
             "top": sorted(top.items(), key=lambda kv: (-kv[1], kv[0]))[:10], "count": len(active)}
 

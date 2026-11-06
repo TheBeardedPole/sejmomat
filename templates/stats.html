@@ -138,7 +138,7 @@
 <h2 id="wyksztalcenie">{{ _("Wykształcenie posłów") }}</h2>
 {% set higher = P.education | selectattr("level", "equalto", "wyższe") | list %}
 <p>{{ _("Wyższe wykształcenie ma") }} {{ higher[0].total if higher else 0 }} {{ _("z") }} {{ P.count }} {{ _("posłów") }}.</p>
-{% call how(_("Jak liczymy?")) %}<p>{{ _("Poziom wykształcenia to ten, który poseł podał Sejmowi. Sejm nie podaje w swoich danych, co poseł studiował. Liczymy posłów sprawujących dziś mandat, według ich obecnego klubu.") }}</p>{% endcall %}
+{% call how(_("Jak liczymy?")) %}<p>{{ _("Poziom wykształcenia to ten, który poseł podał Sejmowi. Stopień i kierunek odczytujemy z „Ukończonej szkoły” na stronie posła: liczy się najwyższy stopień (lekarz i magister inżynier jako magister), a kierunek to kierunek tych studiów; studia podyplomowe nie są stopniem. Liczymy posłów sprawujących dziś mandat, według ich obecnego klubu.") }}</p>{% endcall %}
 <div class="table-scroll"><table class="heat">
   <thead><tr><th>{{ _("Wykształcenie") }}</th><th class="num">{{ _("Łącznie") }}</th>
     {% for c in P.clubs %}<th class="num">{% if c and c != "niez." %}<a href="{{ root }}klub/{{ club_slug(c) }}.html">{{ c }}</a>{% else %}{{ _("niezrzeszeni") }}{% endif %}</th>{% endfor %}</tr></thead>
@@ -149,6 +149,25 @@
   {% endfor %}
   </tbody>
 </table></div>
+{% endif %}
+
+{% if P.degrees %}
+{% for title, rows, anchor in [(_("Stopień naukowy i tytuł zawodowy"), P.degrees, "stopien"), (_("Kierunek studiów"), P.studies, "kierunek")] %}
+<h3 id="{{ anchor }}">{{ title }}</h3>
+{% if loop.first %}
+<p class="muted">{{ _("Z „Ukończonej szkoły” na stronie posła w Sejmie: najwyższy stopień i kierunek tych studiów.") }} {{ P.schools_known }} {{ _("z") }} {{ P.count }} {{ _("posłów") }}.</p>
+{% endif %}
+<div class="table-scroll"><table class="heat">
+  <thead><tr><th>{{ title }}</th><th class="num">{{ _("Łącznie") }}</th>
+    {% for c in P.clubs %}<th class="num">{% if c and c != "niez." %}<a href="{{ root }}klub/{{ club_slug(c) }}.html">{{ c }}</a>{% else %}{{ _("niezrzeszeni") }}{% endif %}</th>{% endfor %}</tr></thead>
+  <tbody>
+  {% for r in rows %}
+  <tr><td>{{ _(r.level) }}</td><td class="num"><strong>{{ r.total }}</strong></td>
+    {% for c in P.clubs %}<td class="num">{{ r.by_club.get(c) or "" }}</td>{% endfor %}</tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% endfor %}
 {% endif %}
 
 {% if P.ages %}
