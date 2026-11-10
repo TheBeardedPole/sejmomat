@@ -1,0 +1,617 @@
+                                                                         Druk nr 3288
+          SEJM
+RZECZYPOSPOLITEJ POLSKIE J
+            X kadencja
+
+
+
+                                       SPRAWOZDANIE
+            KOMISJI CYFRYZACJI, INNOWACYJNOŚCI I NOWOCZESNYCH
+                                          TECHNOLOGII
+
+
+    o rządowym projekcie ustawy o sprawiedliwym
+    dostępie do danych i ich wykorzystywaniu
+    (druk nr 3266)
+
+         Marszałek Sejmu, zgodnie z art. 37 ust. 1 i art. 40 ust. 1 regulaminu Sejmu
+    – po zasięgnięciu opinii Prezydium Sejmu – skierował w dniu 22 października 2026 r.
+    powyższy projekt ustawy do Komisji Cyfryzacji, Innowacyjności i Nowoczesnych
+    Technologii do pierwszego czytania.
+
+
+           Komisja Cyfryzacji, Innowacyjności i Nowoczesnych Technologii po przeprowadzeniu
+    pierwszego czytania oraz rozpatrzeniu tego projektu ustawy na posiedzeniu w dniu
+    5 listopada 2026 r.
+
+         wnosi:
+
+         W y s o k i S e j m uchwalić raczy załączony projekt ustawy.
+
+
+
+    Warszawa, dnia 5 listopada 2026 r.
+
+
+
+                    Sprawozdawca                               Przewodniczący Komisji
+
+
+                   (-) Artur Gierada                              (-) Bartłomiej Pejo
+
+
+
+
+                  Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 15     Data : 2026-11-09       Nazwa pliku : V8_2736-0.PK                                       1
+X kadencja/druk nr 3266
+
+                                                                                                         Projekt
+                                                 U S T AWA
+
+                                                     z dnia
+
+                  o sprawiedliwym dostępie do danych i ich wykorzystywaniu1)
+
+
+                                                  Rozdział 1
+
+                                               Przepisy ogólne
+
+       Art. 1. Ustawa określa:
+1)     właściwy       organ,    o którym      mowa       w art. 37    ust. 1 rozporządzenia        Parlamentu
+       Europejskiego        i Rady     (UE)     2023/2854 z dnia        13 grudnia      2023 r.        w sprawie
+       zharmonizowanych przepisów dotyczących sprawiedliwego dostępu do danych i ich
+       wykorzystywania oraz w sprawie zmiany rozporządzenia (UE) 2017/2394 i dyrektywy
+       (UE) 2020/1828 (akt w sprawie danych) (Dz. Urz. UE L 2023/2854 z 22.12.2023, z późn.
+       zm.), zwanego dalej „rozporządzeniem 2023/2854”;
+2)     tryb rozpatrywania skarg składanych przez użytkowników lub osoby trzecie na podstawie
+       przepisów rozdziału II rozporządzenia 2023/2854;
+3)     tryb rozpatrywania skarg składanych przez posiadaczy danych na podstawie przepisów
+       rozdziału V rozporządzenia 2023/2854;
+4)     tryb rozpatrywania skarg składanych przez organy sektora publicznego, Komisję
+       Europejską, Europejski Bank Centralny lub organy Unii na podstawie przepisów
+       rozdziału V rozporządzenia 2023/2854;
+5)     organ właściwy do powiadamiania Komisji Europejskiej o prawie krajowym, które nie
+       zezwala na sprzedaż danych na potrzeby tworzenia statystyki publicznej, o którym mowa
+       w art. 20 ust. 4 zdanie drugie rozporządzenia 2023/2854;
+6)     organ właściwy do przekazywania Komisji Europejskiej informacji, o których mowa
+       w art. 33 ust. 10 zdanie pierwsze, art. 35 ust. 7 zdanie pierwsze oraz art. 36 ust. 11 zdanie
+       pierwsze rozporządzenia 2023/2854;
+7)     tryb certyfikacji organów rozstrzygania sporów, o której mowa w art. 10 ust. 5
+       rozporządzenia 2023/2854;
+
+
+
+
+1)
+     Niniejszą ustawą zmienia się ustawę z dnia 12 lipca 2024 r. – Prawo komunikacji elektronicznej.
+Liczba stron : 15   Data : 2026-11-09   Nazwa pliku : V8_2736-0.PK                         2
+X kadencja/druk nr 3266
+
+8)   tryb postępowania w sprawie dotyczącej stosowania przepisów rozporządzenia
+     2023/2854, o którym mowa w art. 37 ust. 5 lit. c rozporządzenia 2023/2854;
+9)   tryb rozpatrywania skargi, o której mowa w art. 38 ust. 1 rozporządzenia 2023/2854;
+10) administracyjne kary pieniężne, o których mowa w art. 40 rozporządzenia 2023/2854.
+
+     Art. 2. 1. W postępowaniach, o których mowa w rozdziałach 3, 4, 7 i 8, Prezes Urzędu
+Komunikacji Elektronicznej, zwany dalej „Prezesem UKE”, może wystąpić do Prezesa Urzędu
+Ochrony Danych Osobowych, zwanego dalej „Prezesem UODO”, o zajęcie stanowiska
+w zakresie wynikającym z art. 37 ust. 3 rozporządzenia 2023/2854.
+     2. Prezes UODO zajmuje stanowisko, o którym mowa w ust. 1, w terminie 1 miesiąca od
+dnia otrzymania wystąpienia Prezesa UKE, a w sprawach szczególnie skomplikowanych
+w terminie niedłuższym niż 3 miesiące od dnia otrzymania wystąpienia Prezesa UKE.
+     3. Terminów określonych w ust. 2 nie wlicza się do terminów, o których mowa w art. 25
+ust. 1 i 2, a także art. 35 ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania
+administracyjnego (Dz. U. z 2025 r. poz. 1691).
+     4. Prezes UKE informuje Prezesa UODO o wydaniu decyzji kończącej postępowanie,
+w którym Prezes UODO zajął stanowisko, o którym mowa w ust. 1, w terminie 7 dni od dnia
+jej wydania.
+
+     Art. 3. W sprawach nieuregulowanych w ustawie lub rozporządzeniu 2023/2854 do
+postępowań przed Prezesem UKE, o których mowa w rozdziałach 3 i 4 oraz 6–9, stosuje się
+przepisy ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego.
+
+                                           Rozdział 2
+
+                                        Właściwy organ
+
+     Art. 4. 1. Prezes UKE jest:
+1)   właściwym organem, o którym mowa w art. 37 ust. 1 rozporządzenia 2023/2854;
+2)   organem właściwym do spraw certyfikacji, o której mowa w art. 10 ust. 5 rozporządzenia
+     2023/2854.
+     2. Prezes UKE wykonuje zadania koordynatora danych, o którym mowa w art. 37
+ust. 2 rozporządzenia 2023/2854.
+Liczba stron : 15     Data : 2026-11-09       Nazwa pliku : V8_2736-0.PK                                  3
+X kadencja/druk nr 3266
+
+                                                 Rozdział 3
+
+          Dzielenie się danymi przez przedsiębiorców z konsumentami oraz z innymi
+                                              przedsiębiorcami
+
+     Art. 5. Do powiadomień, o których mowa w art. 4 ust. 2 zdanie trzecie, ust. 7 zdanie
+trzecie    i ust. 8    zdanie     trzecie   oraz art. 5   ust. 10   zdanie    trzecie   i ust. 11    zdanie
+trzecie rozporządzenia 2023/2854, nie stosuje się przepisów ustawy z dnia 14 czerwca 1960 r.
+– Kodeks postępowania administracyjnego, z wyjątkiem art. 14, art. 33, art. 63 i art. 64 oraz
+działu I rozdziałów 8 i 10.
+
+     Art. 6. 1. Skarga, o której mowa w art. 4 ust. 3 lit. a rozporządzenia 2023/2854, wszczyna
+postępowanie w związku ze sporem w sprawie ograniczeń umownych lub zakazów, o których
+mowa w art. 4 ust. 2 rozporządzenia 2023/2854.
+     2. W wyniku przeprowadzonego postępowania, o którym mowa w ust. 1, Prezes UKE
+rozstrzyga, w drodze decyzji, w sprawie ograniczeń umownych lub zakazów, o których mowa
+w art. 4 ust. 2 rozporządzenia 2023/2854.
+     3. Stronami postępowania, o którym mowa w ust. 1, są:
+1)   użytkownik w rozumieniu art. 2 pkt 12 rozporządzenia 2023/2854, zwany dalej
+     „użytkownikiem”;
+2)   posiadacz danych w rozumieniu art. 2 pkt 13 rozporządzenia 2023/2854, zwany dalej
+     „posiadaczem danych”.
+
+     Art. 7. 1. Skarga, o której mowa w art. 4 ust. 9 lit. a rozporządzenia 2023/2854, wszczyna
+postępowanie          w sprawie     decyzji      posiadacza    danych,       o której   mowa        w art. 4
+ust. 7 rozporządzenia 2023/2854, lub w sprawie odrzucenia wniosku, o którym mowa w art. 4
+ust. 8 rozporządzenia 2023/2854.
+     2. W wyniku przeprowadzonego postępowania, o którym mowa w ust. 1, Prezes UKE
+rozstrzyga, w drodze decyzji, w sprawie decyzji posiadacza danych, o której mowa w art. 4
+ust. 7 rozporządzenia 2023/2854, lub w sprawie odrzucenia wniosku, o którym mowa w art. 4
+ust. 8 rozporządzenia 2023/2854.
+     3. Stronami postępowania, o którym mowa w ust. 1, są:
+1)   użytkownik;
+2)   posiadacz danych.
+Liczba stron : 15   Data : 2026-11-09   Nazwa pliku : V8_2736-0.PK                       4
+X kadencja/druk nr 3266
+
+     Art. 8. 1. Skarga, o której mowa w art. 5 ust. 12 lit. a rozporządzenia 2023/2854,
+wszczyna postępowanie w sprawie decyzji posiadacza danych, o której mowa w art. 5
+ust. 10 rozporządzenia 2023/2854, lub w sprawie odrzucenia wniosku, o którym mowa w art. 5
+ust. 11 rozporządzenia 2023/2854.
+     2. W wyniku przeprowadzonego postępowania, o którym mowa w ust. 1, Prezes UKE
+rozstrzyga, w drodze decyzji, w sprawie decyzji posiadacza danych, o której mowa w art. 5
+ust. 10 rozporządzenia 2023/2854, lub w sprawie odrzucenia wniosku, o którym mowa w art. 5
+ust. 11 rozporządzenia 2023/2854.
+     3. Stronami postępowania, o którym mowa w ust. 1, są:
+1)   osoba trzecia, o której mowa w art. 5 rozporządzenia 2023/2854;
+2)   posiadacz danych.
+
+                                           Rozdział 4
+
+       Udostępnianie danych organom sektora publicznego, Komisji Europejskiej,
+     Europejskiemu Bankowi Centralnemu i organom Unii na podstawie wyjątkowej
+                                            potrzeby
+
+     Art. 9. Wniosek, o którym mowa w art. 17 ust. 2 lit. g rozporządzenia 2023/2854, jest
+udostępniany przez Prezesa UKE w Biuletynie Informacji Publicznej na stronie podmiotowej
+tego organu z wyjątkiem przypadku, o którym mowa w tym przepisie.
+
+     Art. 10. 1. Skarga, o której mowa w art. 17 ust. 5 rozporządzenia 2023/2854, wszczyna
+postępowanie w sprawie naruszenia praw posiadacza danych, o których mowa w rozdziale V
+rozporządzenia 2023/2854.
+     2. W wyniku przeprowadzonego postępowania, o którym mowa w ust. 1, Prezes UKE
+rozstrzyga, w drodze decyzji, w sprawie naruszenia praw posiadacza danych, o których mowa
+w rozdziale V rozporządzenia 2023/2854.
+     3. Stronami postępowania, o którym mowa w ust. 1, są:
+1)   posiadacz danych;
+2)   organ sektora publicznego w rozumieniu art. 2 pkt 28 rozporządzenia 2023/2854, zwany
+     dalej „organem sektora publicznego”, Komisja Europejska, Europejski Bank Centralny
+     lub organ Unii w rozumieniu art. 2 pkt 27 rozporządzenia 2023/2854, zwany dalej
+     „organem Unii”.
+Liczba stron : 15   Data : 2026-11-09   Nazwa pliku : V8_2736-0.PK                         5
+X kadencja/druk nr 3266
+
+     Art. 11. 1. Skarga organu sektora publicznego, Komisji Europejskiej, Europejskiego
+Banku Centralnego lub organu Unii, o której mowa w art. 18 ust. 5 rozporządzenia 2023/2854,
+wszczyna postępowanie w sprawie odmowy dostarczenia żądanych danych przez posiadacza
+danych.
+     2. Skarga posiadacza danych, o której mowa w art. 18 ust. 5 rozporządzenia 2023/2854,
+wszczyna postępowanie w sprawie wniosku o udostępnienie danych złożonego przez organ
+sektora publicznego, Komisję Europejską, Europejski Bank Centralny lub organ Unii.
+     3. W wyniku przeprowadzonego postępowania, o którym mowa w ust. 1, Prezes UKE
+rozstrzyga, w drodze decyzji, w sprawie odmowy dostarczenia żądanych danych przez
+posiadacza danych.
+     4. W wyniku przeprowadzonego postępowania, o którym mowa w ust. 2, Prezes UKE
+rozstrzyga, w drodze decyzji, w sprawie wniosku o udostępnienie danych złożonego przez
+organ sektora publicznego, Komisję Europejską, Europejski Bank Centralny lub organ Unii.
+     5. Stronami postępowań, o których mowa w ust. 1 i 2, są:
+1)   posiadacz danych;
+2)   organ sektora publicznego, Komisja Europejska, Europejski Bank Centralny lub organ
+     Unii.
+
+     Art. 12. 1. Skarga, o której mowa w art. 20 ust. 5 rozporządzenia 2023/2854, wszczyna
+postępowanie w sprawie wysokości rekompensaty żądanej przez posiadacza danych.
+     2. W wyniku przeprowadzonego postępowania, o którym mowa w ust. 1, Prezes UKE
+rozstrzyga, w drodze decyzji, w sprawie wysokości rekompensaty żądanej przez posiadacza
+danych.
+     3. Stronami postępowania, o którym mowa w ust. 1, są:
+1)   posiadacz danych;
+2)   organ sektora publicznego, Komisja Europejska, Europejski Bank Centralny lub organ
+     Unii.
+
+     Art. 13. 1. Skarga, o której mowa w art. 21 ust. 5 rozporządzenia 2023/2854, wszczyna
+postępowanie w sprawie przesłania lub udostępnienia danych, o którym mowa w art. 21
+ust. 1 rozporządzenia 2023/2854.
+     2. W wyniku przeprowadzonego postępowania, o którym mowa w ust. 1, Prezes UKE
+rozstrzyga, w drodze decyzji, w sprawie przesłania lub udostępnienia danych, o którym mowa
+w art. 21 ust. 1 rozporządzenia 2023/2854.
+Liczba stron : 15   Data : 2026-11-09    Nazwa pliku : V8_2736-0.PK                                   6
+X kadencja/druk nr 3266
+
+      3. Stronami postępowania, o którym mowa w ust. 1, są:
+1)    posiadacz danych;
+2)    organ sektora publicznego, Komisja Europejska, Europejski Bank Centralny lub organ
+      Unii.
+
+      Art. 14. Minister właściwy do spraw informatyzacji powiadamia Komisję Europejską
+o prawie krajowym, niezezwalającym na sprzedaż danych na potrzeby tworzenia statystyki
+publicznej, o którym mowa w art. 20 ust. 4 zdanie drugie rozporządzenia 2023/2854.
+
+                                              Rozdział 5
+
+     Dzielenie się danymi nieosobowymi przez dostawców usług przetwarzania danych
+                                        i interoperacyjność
+
+      Art. 15. Do opinii, o której mowa w art. 32 ust. 3 rozporządzenia 2023/2854, stosuje się
+przepisy art. 14, art. 20, art. 22, art. 33, art. 57, art. 63 i art. 64 oraz działu I rozdziału 8 ustawy
+z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego.
+
+      Art. 16. Minister właściwy do spraw informatyzacji przekazuje Komisji Europejskiej
+informacje, o których mowa w art. 33 ust. 10 zdanie pierwsze, art. 35 ust. 7 zdanie pierwsze
+oraz art. 36 ust. 11 zdanie pierwsze rozporządzenia 2023/2854.
+
+                                              Rozdział 6
+
+                          Certyfikacja organów rozstrzygania sporów
+
+      Art. 17. Certyfikacji, o której mowa w art. 10 ust. 5 rozporządzenia 2023/2854, zwanej
+dalej „certyfikacją”, dokonuje Prezes UKE na okres 5 lat, na zasadach określonych w tym
+rozporządzeniu.
+
+      Art. 18. 1. Organ rozstrzygania sporów ubiegający się o dokonanie certyfikacji składa do
+Prezesa       UKE    wniosek       o    dokonanie certyfikacji,      o którym      mowa       w art. 10
+ust. 5 rozporządzenia 2023/2854.
+      2. Wniosek o dokonanie certyfikacji zawiera:
+1)    nazwę organu rozstrzygania sporów ubiegającego się o dokonanie certyfikacji;
+2)    adres siedziby organu rozstrzygania sporów ubiegającego się o dokonanie certyfikacji
+      albo adres miejsca wykonywania przez ten organ działalności gospodarczej;
+3)    informacje    potwierdzające      spełnianie     warunków,      o których     mowa      w art. 10
+      ust. 5 rozporządzenia 2023/2854.
+Liczba stron : 15   Data : 2026-11-09   Nazwa pliku : V8_2736-0.PK                              7
+X kadencja/druk nr 3266
+
+     3. Do wniosku o dokonanie certyfikacji dołącza się dokumenty potwierdzające spełnianie
+warunków, o których mowa w art. 10 ust. 5 rozporządzenia 2023/2854.
+
+     Art. 19. 1. Prezes UKE zawiadamia organ rozstrzygania sporów ubiegający się
+o dokonanie certyfikacji o jej dokonaniu.
+     2. Dokumentem potwierdzającym dokonanie certyfikacji jest certyfikat wydawany przez
+Prezesa UKE.
+     3. Certyfikat zawiera następujące informacje:
+1)   nazwę certyfikowanego organu rozstrzygania sporów;
+2)   adres siedziby certyfikowanego organu rozstrzygania sporów albo miejsca wykonywania
+     przez ten organ działalności gospodarczej;
+3)   nazwę organu dokonującego certyfikacji;
+4)   adres siedziby organu dokonującego certyfikacji;
+5)   numer lub oznaczenie certyfikatu;
+6)   datę wydania certyfikatu;
+7)   okres, na jaki została dokonana certyfikacja;
+8)   podpis organu dokonującego certyfikacji albo osoby przez niego upoważnionej.
+
+     Art. 20. Prezes UKE odmawia, w drodze decyzji, dokonania certyfikacji, jeżeli organ
+rozstrzygania sporów ubiegający się o dokonanie certyfikacji nie spełnia co najmniej jednego
+z warunków, o których mowa w art. 10 ust. 5 rozporządzenia 2023/2854.
+
+     Art. 21. 1. W okresie, na jaki została dokonana certyfikacja, certyfikowany organ
+rozstrzygania sporów jest obowiązany spełniać warunki, o których mowa w art. 10
+ust. 5 rozporządzenia 2023/2854.
+     2. W przypadku uzasadnionych wątpliwości co do spełniania przez certyfikowany organ
+rozstrzygania sporów warunków, o których mowa w art. 10 ust. 5 rozporządzenia 2023/2854,
+Prezes UKE wzywa ten organ do przedstawienia informacji i dokumentów potwierdzających
+spełnianie tych warunków.
+
+     Art. 22. 1. Na wniosek certyfikowanego organu rozstrzygania sporów Prezes UKE
+przedłuża okres, na jaki została dokonana certyfikacja, na kolejne 5 lat, jeżeli organ ten spełnia
+warunki, o których mowa w art. 10 ust. 5 rozporządzenia 2023/2854.
+     2. Wniosek składa się niepóźniej niż 60 dni przed dniem upływu okresu, na jaki została
+dokonana certyfikacja. Wniosek złożony bez zachowania tego terminu pozostawia się bez
+rozpoznania.
+Liczba stron : 15   Data : 2026-11-09     Nazwa pliku : V8_2736-0.PK                           8
+X kadencja/druk nr 3266
+
+     3. Wniosek zawiera informacje, o których mowa w art. 18 ust. 2.
+     4. Do wniosku dołącza się dokumenty potwierdzające spełnianie warunków, o których
+mowa w art. 10 ust. 5 rozporządzenia 2023/2854.
+     5. Przedłużenie okresu, na jaki została dokonana certyfikacja, następuje przez wydanie
+nowego certyfikatu, o którym mowa w art. 19 ust. 2.
+     6. Prezes UKE odmawia, w drodze decyzji, przedłużenia okresu, na jaki została dokonana
+certyfikacja, jeżeli certyfikowany organ rozstrzygania sporów ubiegający się o jej przedłużenie
+nie spełnia co najmniej jednego z warunków, o których mowa w art. 10 ust. 5 rozporządzenia
+2023/2854.
+
+     Art. 23. Prezes UKE niezwłocznie dokonuje zgłoszenia, o którym mowa w art. 10 ust. 6
+rozporządzenia 2023/2854, oraz informuje Komisję Europejską o cofnięciu certyfikacji.
+
+     Art. 24. 1. Prezes UKE cofa, w drodze decyzji, certyfikację:
+1)   w przypadku stwierdzenia, że certyfikowany organ rozstrzygania sporów nie spełnia już
+     co najmniej jednego z warunków, o których mowa w art. 10 ust. 5 rozporządzenia
+     2023/2854, lub
+2)   na wniosek certyfikowanego organu rozstrzygania sporów.
+     2. Decyzja o cofnięciu certyfikacji podlega natychmiastowemu wykonaniu.
+
+                                             Rozdział 7
+
+                                     Skarga do Prezesa UKE
+
+     Art. 25. 1. Prezes UKE przekazuje skarżącemu informacje, o których mowa w art. 38
+ust. 2 rozporządzenia 2023/2854, niepóźniej niż w terminie 2 miesięcy od dnia wniesienia
+skargi, o której mowa w art. 38 ust. 1 rozporządzenia 2023/2854.
+     2. W przypadku gdy informacje, o których mowa w art. 38 ust. 2 rozporządzenia
+2023/2854, nie mogą zostać przekazane w terminie, o którym mowa w ust. 1, Prezes UKE
+zawiadamia skarżącego o przyczynach opóźnienia oraz o terminie, w jakim przekaże
+informacje, niedłuższym niż 4 miesiące od dnia wniesienia skargi.
+     3. Prezes UKE może zawiesić postępowanie w sprawie skargi, o której mowa w art. 38
+ust. 1 rozporządzenia 2023/2854, jeżeli przekazanie skarżącemu informacji, o których mowa
+w art. 38    ust. 2 rozporządzenia      2023/2854,   zależy   od   uprzedniego   rozstrzygnięcia
+postępowania w sprawie stosowania przepisów rozporządzenia 2023/2854, o którym mowa
+w rozdziale 8.
+Liczba stron : 15   Data : 2026-11-09   Nazwa pliku : V8_2736-0.PK                       9
+X kadencja/druk nr 3266
+
+     4. Skarga, o której mowa w art. 38 ust. 1 rozporządzenia 2023/2854, nie jest skargą
+w rozumieniu przepisów działu VIII ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania
+administracyjnego.
+
+                                           Rozdział 8
+
+  Postępowanie w sprawie dotyczącej stosowania przepisów rozporządzenia 2023/2854
+
+     Art. 26. 1. Prezes UKE może wszcząć z urzędu postępowanie w sprawie dotyczącej
+stosowania przepisów rozporządzenia 2023/2854, o którym mowa w art. 37 ust. 5 lit. c
+rozporządzenia 2023/2854, zwane dalej „postępowaniem w sprawie stosowania przepisów
+rozporządzenia 2023/2854”.
+     2. Stroną postępowania w sprawie stosowania przepisów rozporządzenia 2023/2854 jest
+każdy, wobec kogo zostało wszczęte to postępowanie.
+
+     Art. 27. W przypadku stwierdzenia przez Prezesa UKE naruszenia przez stronę
+postępowania w sprawie stosowania przepisów rozporządzenia 2023/2854 obowiązków
+wynikających z przepisów tego rozporządzenia Prezes UKE doręcza tej stronie pismo
+wskazujące te naruszenia wraz z pouczeniem o możliwości przedstawienia stanowiska co do
+wskazanych naruszeń w terminie niekrótszym niż 14 dni od dnia doręczenia tego pisma.
+
+     Art. 28. 1. W przypadku gdy strona postępowania w sprawie stosowania przepisów
+rozporządzenia 2023/2854 nie przedstawi stanowiska, o którym mowa w art. 27, albo
+przedstawione stanowisko jest niewystarczające do stwierdzenia braku naruszenia obowiązków
+wynikających z przepisów tego rozporządzenia, Prezes UKE wzywa tę stronę do zaprzestania
+naruszania obowiązków wynikających z przepisów rozporządzenia 2023/2854.
+     2. Prezes UKE określa w wezwaniu, o którym mowa w ust. 1, termin jego wykonania.
+     3. Prezes UKE może na uzasadniony wniosek strony postępowania w sprawie stosowania
+przepisów rozporządzenia 2023/2854 wydłużyć termin wykonania wezwania, o którym mowa
+w ust. 2.
+     4. Terminów, o których mowa w ust. 2 i 3, nie wlicza się do terminów, o których mowa
+w art. 35 ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego.
+
+     Art. 29. Jeżeli po upływie terminu wyznaczonego w wezwaniu, o którym mowa w art. 28
+ust. 2 i 3, strona postępowania w sprawie stosowania przepisów rozporządzenia 2023/2854
+nadal narusza obowiązki wynikające z przepisów tego rozporządzenia, Prezes UKE nakazuje,
+Liczba stron : 15    Data : 2026-11-09   Nazwa pliku : V8_2736-0.PK                           10
+X kadencja/druk nr 3266
+
+w drodze decyzji, usunięcie stwierdzonych naruszeń oraz w przypadkach określonych w art. 31
+ust. 1–14 nakłada administracyjną karę pieniężną.
+
+     Art. 30. Prezes UKE umarza, w drodze decyzji, postępowanie w sprawie stosowania
+przepisów rozporządzenia 2023/2854, jeżeli w jego toku stwierdzi, że nie doszło do naruszenia
+obowiązków wynikających z przepisów rozporządzenia 2023/2854 lub strona tego
+postępowania zaprzestała naruszania tych obowiązków.
+
+                                             Rozdział 9
+
+                        Przepisy o administracyjnych karach pieniężnych
+
+     Art. 31. 1. Producent produktu skomunikowanego w rozumieniu art. 2 pkt 5
+rozporządzenia 2023/2854 lub usługi powiązanej w rozumieniu art. 2 pkt 6 rozporządzenia
+2023/2854, który nie wypełnia obowiązków, o których mowa w art. 3 ust. 1 rozporządzenia
+2023/2854, podlega administracyjnej karze pieniężnej.
+     2.   Sprzedawca,       wynajmujący,     wydzierżawiający     lub   leasingodawca,   będący
+przedsiębiorcą w rozumieniu art. 4 ustawy z dnia 6 marca 2018 r. – Prawo przedsiębiorców
+(Dz. U. z 2025 r. poz. 1480, 1795 i 1826 oraz z 2026 r. poz. 507), który nie wypełnia
+obowiązków,         o których   mowa     w art. 3   ust. 2 rozporządzenia   2023/2854,   podlega
+administracyjnej karze pieniężnej.
+     3. Dostawca usługi powiązanej, który nie wypełnia obowiązków, o których mowa w art. 3
+ust. 3 rozporządzenia 2023/2854, podlega administracyjnej karze pieniężnej.
+     4. Posiadacz danych, który nie wypełnia obowiązków, o których mowa w:
+1)   art. 4 ust. 1, 4–6, ust. 7 zdanie drugie, ust. 8 zdanie drugie, ust. 13 lub ust. 14 zdanie
+     pierwsze rozporządzenia 2023/2854,
+2)   art. 5 ust. 1, 4, 6, 9, ust. 10 zdanie drugie lub ust. 11 zdanie drugie rozporządzenia
+     2023/2854,
+3)   art. 8 ust. 3 lub 4 rozporządzenia 2023/2854,
+4)   art. 9 ust. 7 rozporządzenia 2023/2854,
+5)   art. 11 ust. 1 zdanie drugie rozporządzenia 2023/2854,
+6)   art. 18 ust. 1 rozporządzenia 2023/2854,
+7)   art. 20 ust. 2 zdanie trzecie rozporządzenia 2023/2854
+– podlega administracyjnej karze pieniężnej.
+     5. Użytkownik, który nie wypełnia obowiązków, o których mowa w:
+1)   art. 4 ust. 10 lub 11 rozporządzenia 2023/2854,
+Liczba stron : 15    Data : 2026-11-09   Nazwa pliku : V8_2736-0.PK                           11
+X kadencja/druk nr 3266
+
+2)   art. 11 ust. 1 zdanie trzecie rozporządzenia 2023/2854
+– podlega administracyjnej karze pieniężnej.
+     6. Strażnik dostępu w rozumieniu art. 3 rozporządzenia Parlamentu Europejskiego i Rady
+(UE) 2022/1925 z dnia 14 września 2022 r. w sprawie kontestowalnych i uczciwych rynków w
+sektorze cyfrowym oraz zmiany dyrektyw (UE) 2019/1937 i (UE) 2020/1828 (akt o rynkach
+cyfrowych) (Tekst mający znaczenie dla EOG) (Dz. Urz. UE L 265 z 12.10.2022), który nie
+wypełnia obowiązków, o których mowa w art. 5 ust. 3 rozporządzenia 2023/2854, podlega
+administracyjnej karze pieniężnej.
+     7. Osoba trzecia, o której mowa w art. 5 rozporządzenia 2023/2854, która nie wypełnia
+obowiązków,         o których   mowa     w art. 5   ust. 5 rozporządzenia   2023/2854,   podlega
+administracyjnej karze pieniężnej.
+     8. Osoba trzecia, o której mowa w art. 6 rozporządzenia 2023/2854, która nie wypełnia
+obowiązków, o których mowa w tym przepisie, podlega administracyjnej karze pieniężnej.
+     9. Osoba trzecia, o której mowa w art. 11 rozporządzenia 2023/2854, która nie wypełnia
+obowiązków, o których mowa w art. 11 ust. 1 zdanie trzecie lub ust. 2 rozporządzenia
+2023/2854, podlega administracyjnej karze pieniężnej.
+     10. Odbiorca danych w rozumieniu art. 2 pkt 14 rozporządzenia 2023/2854, który nie
+wypełnia obowiązków, o których mowa w art. 11 ust. 1 zdanie trzecie lub ust. 2 rozporządzenia
+2023/2854, podlega administracyjnej karze pieniężnej.
+     11. Osoba trzecia, o której mowa w art. 17 ust. 4 rozporządzenia 2023/2854, która nie
+wypełnia obowiązków, o których mowa w tym przepisie, podlega administracyjnej karze
+pieniężnej.
+     12. Osoba fizyczna lub organizacja, która otrzymała dane na podstawie art. 21
+ust. 1 rozporządzenia 2023/2854, a która nie wypełnia obowiązków, o których mowa w art. 21
+ust. 3 lub 4 rozporządzenia 2023/2854, podlega administracyjnej karze pieniężnej.
+     13. Dostawca usług przetwarzania danych w rozumieniu art. 2 pkt 8 rozporządzenia
+2023/2854, który nie wypełnia obowiązków, o których mowa w:
+1)   art. 23 rozporządzenia 2023/2854,
+2)   art. 25 rozporządzenia 2023/2854,
+3)   art. 26 rozporządzenia 2023/2854,
+4)   art. 28 rozporządzenia 2023/2854,
+5)   art. 29 ust. 1 lub 4 rozporządzenia 2023/2854,
+6)   art. 30 ust. 2, 3, 4 lub 5 rozporządzenia 2023/2854,
+Liczba stron : 15   Data : 2026-11-09   Nazwa pliku : V8_2736-0.PK                          12
+X kadencja/druk nr 3266
+
+7)   art. 31 ust. 3 rozporządzenia 2023/2854,
+8)   art. 32 ust. 1, 2, ust. 3 zdanie pierwsze lub ust. 5 rozporządzenia 2023/2854
+– podlega administracyjnej karze pieniężnej.
+     14. Podmiot objęty zakresem stosowania rozporządzenia 2023/2854, który udostępnia
+produkty skomunikowane lub oferuje usługi w Unii Europejskiej i nie ma siedziby w Unii
+Europejskiej oraz nie wypełnia obowiązku, o którym mowa w art. 37 ust. 11 rozporządzenia
+2023/2854, podlega administracyjnej karze pieniężnej.
+     15. Administracyjną karę pieniężną, o której mowa w ust. 1–14, nakłada Prezes UKE
+w wysokości do 100 000 zł, a w przypadku przedsiębiorcy – w wysokości niewiększej niż 4 %
+obrotu osiągniętego przez tego przedsiębiorcę w roku obrotowym poprzedzającym rok
+nałożenia tej kary.
+
+     Art. 32. 1. Wysokość obrotu, o którym mowa w art. 31 ust. 15, oblicza się jako sumę:
+1)   przychodów wykazanych w rachunku zysków i strat – w przypadku przedsiębiorcy, który
+     sporządza ten rachunek na podstawie przepisów o rachunkowości;
+2)   przychodów wykazanych w sprawozdaniu finansowym za rok obrotowy równoważnych
+     przychodom prezentowanym w rachunku zysków i strat sporządzanym na podstawie
+     przepisów o rachunkowości lub wykazanych w innym dokumencie podsumowującym
+     przychody w roku obrotowym, w tym w sprawozdaniu z wykonania budżetu –
+     w przypadku przedsiębiorcy, który nie sporządza rachunku zysków i strat na podstawie
+     przepisów o rachunkowości;
+3)   udokumentowanych przychodów uzyskanych w roku obrotowym – w przypadku braku
+     dokumentów, o których mowa w pkt 1 i 2.
+     2. W przypadku gdy przedsiębiorca powstał w wyniku połączenia lub przekształcenia
+innych podmiotów, obliczając wysokość jego obrotu, o którym mowa w art. 31 ust. 15, Prezes
+UKE uwzględnia obrót osiągnięty przez te podmioty w roku obrotowym poprzedzającym rok
+nałożenia administracyjnej kary pieniężnej, o której mowa w art. 31 ust. 1–14.
+     3. W przypadku gdy przedsiębiorca w roku obrotowym poprzedzającym rok nałożenia
+administracyjnej kary pieniężnej nie osiągnął obrotu, Prezes UKE, nakładając administracyjną
+karę pieniężną, o której mowa w art. 31 ust. 1–14, uwzględnia średni obrót osiągnięty przez
+przedsiębiorcę w trzech kolejnych latach obrotowych poprzedzających rok nałożenia tej kary.
+     4. W przypadku gdy przedsiębiorca nie osiągnął obrotu w okresie trzyletnim, o którym
+mowa w ust. 3, wysokość administracyjnej kary pieniężnej nałożonej przez Prezesa UKE na
+podstawie art. 31 ust. 1–14 nie przekracza 100 000 zł.
+Liczba stron : 15   Data : 2026-11-09   Nazwa pliku : V8_2736-0.PK                           13
+X kadencja/druk nr 3266
+
+     5. W przypadku gdy przedsiębiorca przed wydaniem decyzji nakładającej administracyjną
+karę pieniężną nie dysponuje danymi finansowymi niezbędnymi do ustalenia obrotu za rok
+obrotowy poprzedzający rok nałożenia kary, Prezes UKE, nakładając administracyjną karę
+pieniężną, o której mowa w art. 31 ust. 1–14, uwzględnia:
+1)   obrót osiągnięty przez przedsiębiorcę w roku obrotowym poprzedzającym ten rok;
+2)   w przypadku, o którym mowa w ust. 3, średni obrót osiągnięty przez przedsiębiorcę
+     w trzech kolejnych latach obrotowych poprzedzających ten rok.
+     6. W przypadku, o którym mowa w ust. 5 pkt 2, przepis ust. 4 stosuje się odpowiednio.
+
+     Art. 33. Ustalając wysokość administracyjnej kary pieniężnej, o której mowa w art. 31
+ust. 1–14, Prezes UKE uwzględnia kryteria, o których mowa w art. 40 ust. 3 rozporządzenia
+2023/2854, a także możliwości finansowe podmiotu podlegającego tej karze.
+
+     Art. 34. Prezes UKE może, w drodze decyzji, odstąpić od nałożenia administracyjnej
+kary pieniężnej, o której mowa w art. 31 ust. 1–14, biorąc pod uwagę kryteria, o których mowa
+w art. 40 ust. 3 rozporządzenia 2023/2854.
+
+     Art. 35. 1. Podmiot podlegający administracyjnej karze pieniężnej, o której mowa w art.
+31 ust. 1–14, będący przedsiębiorcą, dostarcza Prezesowi UKE, na każde jego żądanie,
+w terminie 30 dni od dnia otrzymania żądania, dane lub dokumenty niezbędne do ustalenia
+wysokości tej kary.
+     2. W przypadku gdy nie zostały dostarczone dane lub dokumenty, o których mowa
+w ust. 1, lub gdy dostarczone dane lub dokumenty nie pozwalają na ustalenie wysokości
+administracyjnej kary pieniężnej, o której mowa w art. 31 ust. 1–14, Prezes UKE może ustalić
+wysokość tej kary w sposób szacunkowy, uwzględniając wielkość podmiotu, o którym mowa
+w ust. 1, specyfikę wykonywanej przez niego działalności lub ogólnie dostępne dotyczące go
+dane finansowe.
+
+     Art. 36. Wniesienie przez stronę skargi do sądu administracyjnego wstrzymuje
+wykonanie decyzji, o której mowa w art. 29.
+
+     Art. 37. Administracyjne kary pieniężne, o których mowa w art. 31 ust. 1–14, uiszcza się
+w terminie 14 dni od dnia upływu terminu na wniesienie skargi do sądu administracyjnego albo
+od dnia uprawomocnienia się orzeczenia sądu administracyjnego.
+Liczba stron : 15     Data : 2026-11-09      Nazwa pliku : V8_2736-0.PK                                      14
+X kadencja/druk nr 3266
+
+       Art. 38. Do administracyjnych kar pieniężnych, o których mowa w art. 31 ust. 1–14, nie
+stosuje się przepisu art. 189e ustawy z dnia 14 czerwca 1960 r. – Kodeks postępowania
+administracyjnego.
+
+       Art. 39. W zakresie nieuregulowanym w niniejszej ustawie oraz w ustawie z dnia
+14 czerwca 1960 r. – Kodeks postępowania administracyjnego do administracyjnych kar
+pieniężnych, o których mowa w art. 31 ust. 1–14, stosuje się odpowiednio przepisy działu III
+ustawy z dnia 29 sierpnia 1997 r. – Ordynacja podatkowa (Dz. U. z 2026 r. poz. 622, z późn.
+zm.2)), z tym że uprawnienia organów podatkowych określone w tych przepisach przysługują
+Prezesowi UKE.
+
+       Art. 40. Administracyjne kary pieniężne, o których mowa w art. 31 ust. 1–14, podlegają
+egzekucji w trybie ustawy z dnia 17 czerwca 1966 r. o postępowaniu egzekucyjnym
+w administracji (Dz. U. z 2026 r. poz. 1311) w zakresie egzekucji należności pieniężnych.
+
+                                                 Rozdział 10
+
+                  Zmiany w przepisach, przepis przejściowy i przepis końcowy
+
+       Art. 41. W ustawie z dnia 12 lipca 2024 r. – Prawo komunikacji elektronicznej (Dz. U.
+poz. 1221, z 2025 r. poz. 637 i 820 oraz z 2026 r. poz. 252, 815 i 1296) w art. 419 w ust. 1
+w pkt 24 kropkę zastępuje się średnikiem i dodaje się pkt 25–27 w brzmieniu:
+       „25) wykonywanie zadań właściwego organu, o którym mowa w art. 37 ust. 1
+             rozporządzenia Parlamentu Europejskiego i Rady (UE) 2023/2854 z dnia 13 grudnia
+             2023 r. w sprawie zharmonizowanych przepisów dotyczących sprawiedliwego
+             dostępu do danych i ich wykorzystywania oraz w sprawie zmiany rozporządzenia
+             (UE) 2017/2394 i dyrektywy (UE) 2020/1828 (akt w sprawie danych) (Dz. Urz. UE
+             L 2023/2854 z 22.12.2023, z późn. zm.), zwanego dalej „rozporządzeniem
+             2023/2854”;
+       26) wykonywanie zadań organu właściwego do spraw certyfikacji, o której mowa
+             w art. 10 ust. 5 rozporządzenia 2023/2854;
+       27) wykonywanie            zadań     koordynatora       danych,      o którym      mowa       w art. 37
+             ust. 2 rozporządzenia 2023/2854.”.
+
+
+
+
+2)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2026 r. poz. 825, 846, 875, 1098,
+     1154 i 1206.
+Liczba stron : 15   Data : 2026-11-09   Nazwa pliku : V8_2736-0.PK                       15
+X kadencja/druk nr 3266
+
+        Art. 42. 1. Maksymalny limit wydatków budżetu państwa dla części budżetowej 76 –
+Urząd Komunikacji Elektronicznej, będących skutkiem finansowym wejścia w życie ustawy,
+wynosi 93 230 000 zł, z tym że w poszczególnych latach limit ten wynosi w:
+1)      2027 r. – 7 780 000 zł;
+2)      2028 r. – 9 670 000 zł;
+3)      2029 r. – 9 230 000 zł;
+4)      2030 r. – 8 720 000 zł;
+5)      2031 r. – 9 360 000 zł;
+6)      2032 r. – 9 150 000 zł;
+7)      2033 r. – 9 410 000 zł;
+8)      2034 r. – 9 590 000 zł;
+9)      2035 r. – 9 870 000 zł;
+10) 2036 r. – 10 450 000 zł.
+        2. W przypadku przekroczenia lub zagrożenia przekroczenia przyjętego na dany rok
+budżetowy maksymalnego limitu wydatków określonego w ust. 1 Prezes UKE stosuje
+mechanizm korygujący polegający na racjonalizacji wydatków budżetu państwa będących
+skutkiem finansowym ustawy lub ograniczeniu kosztów.
+        3. W przypadku gdy wysokość wydatków, o których mowa w ust. 1, po trzech kwartałach
+wyniesie łącznie więcej niż 75 % limitu przewidzianego na ten rok, Prezes UKE wdraża
+mechanizm korygujący, o którym mowa w ust. 2, obniżając wysokość wydatków w IV
+kwartale o kwotę przekroczenia.
+        4. Prezes UKE monitoruje wykorzystanie maksymalnego limitu wydatków, o którym
+mowa w ust. 1, oraz dokonuje oceny wykorzystania danego limitu według stanu na koniec
+każdego kwartału, a w przypadku IV kwartału – według stanu na dzień 20 listopada danego
+roku.
+
+        Art. 43. Ustawa wchodzi w życie po upływie 3 miesięcy od dnia ogłoszenia.
+
