@@ -1,0 +1,12 @@
+{# A bill's AI summary (data/ai/bills.json): open on the bill's own page, folded elsewhere. #}
+{% macro ai_summary(b, root, open=false, elsewhere=false) -%}
+{% if b and b.ai and not b.ai.insufficient %}
+<details class="how ai-summary" id="streszczenie-ai"{% if open %} open{% endif %}><summary>{{ _("Streszczenie projektu (AI)") }}</summary><div class="how-body">
+  <p lang="pl">{{ b.ai.summary }}</p>
+  {% if b.ai.points %}<ul lang="pl">{% for pt in b.ai.points %}<li>{{ pt }}</li>{% endfor %}</ul>{% endif %}
+  {% if b.ai.who %}<p class="muted" lang="pl">{{ b.ai.who }}</p>{% endif %}
+  <p class="note">{{ _("Napisał model językowy na podstawie druku projektu, nie redakcja; może coś pominąć. Opisuje projekt w wersji złożonej, nie zmiany wprowadzone w Sejmie.") }}
+    {% if elsewhere %}<a href="{{ root }}ustawa/{{ b.root }}.html">{{ _("Przebieg prac i głosowania") }}</a> · {% endif %}<a href="{{ root }}ai/index.html">{{ _("Wszystkie streszczenia") }}</a></p>
+</div></details>
+{% endif %}
+{%- endmacro %}

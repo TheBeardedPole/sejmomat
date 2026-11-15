@@ -18,6 +18,7 @@
   {% if x.print %}<tr><th>{{ _("Wniosek Prezydenta") }}</th><td><a href="{{ print_url(x.print.number) }}">{{ _("druk nr") }} {{ x.print.number }}</a>{% if x.print.pages %} <span class="muted">({{ x.print.pages }} {{ x.print.pages | plural(_("strona"), _("strony"), _("stron")) }})</span>{% endif %}</td></tr>{% endif %}
   </tbody>
 </table>
+{% from "_ai.html" import ai_summary with context %}{{ ai_summary(x.bill, root, elsewhere=true) }}
 {% if x.vote %}<p class="callout">{{ _(x.vote.motion[1]) if x.vote.motion else "" }}</p>{% endif %}
 
 <h2 id="uzasadnienie">{{ _("Uzasadnienie weta") }}</h2>

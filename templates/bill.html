@@ -19,13 +19,7 @@
 </details>
 {% endif %}
 {% endif %}
-{% if b.ai and not b.ai.insufficient %}
-<details class="how" id="streszczenie-ai"><summary>{{ _("Streszczenie projektu (AI)") }}</summary><div class="how-body">
-  <p lang="pl">{{ b.ai.summary }}</p>
-  {% if b.ai.points %}<ul lang="pl">{% for pt in b.ai.points %}<li>{{ pt }}</li>{% endfor %}</ul>{% endif %}
-  <p class="note">{{ _("Napisał model językowy na podstawie druku projektu, nie redakcja; może coś pominąć. Opisuje projekt w wersji złożonej, nie zmiany wprowadzone w Sejmie.") }} <a href="{{ root }}ai/index.html">{{ _("Wszystkie streszczenia") }}</a></p>
-</div></details>
-{% endif %}
+{% from "_ai.html" import ai_summary with context %}{{ ai_summary(b, root, open=true) }}
 {% if b.veto %}{% set x = b.veto %}{% from "_veto.html" import veto_status with context %}
 <div class="callout" id="weto"><p><strong>{{ _("Weto Prezydenta") }}:</strong> {{ x.president }} {{ _("odmówił podpisania ustawy") }} {{ x.veto | date_pl }}.</p>
   <p>{{ veto_status(x, root) }}</p>

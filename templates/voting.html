@@ -13,6 +13,7 @@
     {% for p in v.prints %}{{ print_link(p, root, printed) }}{{ ", " if not loop.last }}{% endfor %}
   {% endif %}
 </p>
+{% if v.bill %}{% from "_ai.html" import ai_summary with context %}{{ ai_summary(bill_by_root.get(v.bill), root, elsewhere=true) }}{% endif %}
 
 <p class="compare-link"><a class="btn2" href="{{ root }}porownaj-glosowania.html?a={{ v.sitting }}-{{ v.votingNumber }}"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h14l-4-4"/><path d="M20 16H6l4 4"/></svg>{{ _("Porównaj z innym głosowaniem") }}</a></p>
 <div class="card">

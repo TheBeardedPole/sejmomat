@@ -13,6 +13,8 @@
   {% for att in meta.attachments or [] %} · <a href="{{ pdf_url(num, att) }}">{{ att }}</a>{% endfor %}
 </p>
 
+{% if root_print %}{% from "_ai.html" import ai_summary with context %}{{ ai_summary(bill_by_root.get(root_print), root, elsewhere=true) }}{% endif %}
+
 {{ osr_sections(osr, num, root, printed, [], sejm_consult) }}
 
 {% if law %}
