@@ -387,8 +387,10 @@ Live on sejmomat.pl:
 - **AI summaries of bills** (`ai/index.html`, a fold-out on bill pages): `data/ai/bills.json`, written by
   Claude Sonnet 5.5 subagents from each bill's print (opening + justification, 40k characters), labelled
   as AI everywhere; they describe the bill as submitted, not its fate (the page shows that from data).
-  First run: the 111 bills a model ranked most important (tier 1 of 4); 6 marked insufficient, since their
-  print text is only a cover letter or annex (223, 316, 611, 703, 1749, 3150). Tiers 2–3 not done yet.
+  First run: the 111 bills a model ranked most important (tier 1 of 4). For 6 of them (223, 316, 611, 703,
+  1749, 3150) the stored print text is only a cover letter or annex, so they were summarised from the print's
+  other attachments (the .docx with bill and justification, an OCR of the scan, the budget's act and
+  justification). Tiers 2–3 not done yet; the ranking was a one-off and is not in the repo.
 
 Waiting on the owner:
 

@@ -223,10 +223,16 @@
   "date": "2026-11-15"
  },
  "223": {
-  "summary": "Brakuje treści projektu i uzasadnienia: dostępny jest tylko tytuł, opis Sejmu i lista wnioskodawców. Z opisu wynika jedynie, że projekt ma realizować zobowiązanie programowe dotyczące odwrócenia skutków orzeczenia Trybunału Konstytucyjnego z 2020 r. w sprawie dopuszczalności przerywania ciąży. Nie wiadomo, jakie konkretnie przepisy zmienia.",
-  "points": [],
-  "who": "Brak wystarczających danych, by rzetelnie określić, kogo projekt dotyczy.",
-  "insufficient": true,
+  "summary": "Projekt zmienia ustawę o planowaniu rodziny i warunkach przerywania ciąży. Przywraca możliwość przerwania ciąży przy dużym prawdopodobieństwie ciężkich i nieodwracalnych wad płodu albo nieuleczalnej choroby zagrażającej jego życiu. Autorzy projektu wskazują, że realizują w ten sposób zobowiązanie programowe odwrócenia skutków orzeczenia Trybunału Konstytucyjnego z 22 października 2020 r. (K 1/20).",
+  "points": [
+   "Przerwanie ciąży byłoby dopuszczalne, gdy ciąża zagraża życiu lub zdrowiu kobiety, gdy badania wskazują na ciężkie i nieodwracalne wady płodu albo nieuleczalną chorobę zagrażającą jego życiu, albo gdy ciąża powstała w wyniku czynu zabronionego.",
+   "Gdy ciąża powstała w wyniku czynu zabronionego, prokurator w ciągu 3 dni kalendarzowych od wniosku wydawałby postanowienie, możliwe na podstawie niebudzącego wątpliwości oświadczenia kobiety; od odmowy przysługiwałoby zażalenie do sądu rozpatrywane w 3 dni.",
+   "Przerwanie ciąży byłoby bezpłatne dla osób objętych ubezpieczeniem zdrowotnym, także metodą farmakologiczną poza szpitalem, a świadczeniodawcy z umową z NFZ w zakresie opieki nad kobietą w ciąży musieliby je zapewniać oraz oferować pomoc psychologiczną w ciągu 24 godzin od zgłoszenia potrzeby.",
+   "Zabieg miałby być wykonany bez zbędnej zwłoki, nie później niż w 72 godziny od wyrażenia woli przez kobietę po stwierdzeniu przesłanek.",
+   "W szkołach miałaby być nauczana także wiedza o metodach i środkach antykoncepcji, a minister zdrowia określiłby w rozporządzeniu kwalifikacje lekarzy stwierdzających przesłanki i tryb ich stwierdzania."
+  ],
+  "who": "Projekt dotyczy najbardziej kobiet w ciąży, lekarzy i placówek medycznych realizujących świadczenia finansowane przez NFZ oraz prokuratorów.",
+  "insufficient": false,
   "model": "Claude Sonnet 5.5",
   "date": "2026-11-15"
  },
@@ -287,10 +293,16 @@
   "date": "2026-11-15"
  },
  "316": {
-  "summary": "Brakuje treści projektu i uzasadnienia: plik zawiera tylko pismo Prezydenta kierujące projekt do Sejmu. Z opisu Sejmu wynika jedynie, że projekt ma uregulować usługę asystencji osobistej dla osób z niepełnosprawnościami. Szczegółowych rozwiązań ani argumentów autorów nie da się rzetelnie streścić.",
-  "points": [],
-  "who": "Projekt dotyczy osób z niepełnosprawnościami, które korzystają lub mogłyby korzystać z usługi asystencji osobistej.",
-  "insufficient": true,
+  "summary": "Projekt przedstawiony przez Prezydenta tworzy system usługi asystencji osobistej dla osób z niepełnosprawnościami: określa, kto ma do niej prawo, jak się ją przyznaje i jak jest wykonywana. Według treści projektu usługa ma służyć realizacji prawa do aktywnego włączenia i możliwie pełnego udziału w życiu społecznym i zawodowym oraz do niezależności w życiu codziennym. W dostępnym tekście brakuje uzasadnienia, więc motywy autorów wynikają tylko z przepisów i opisu Sejmu.",
+  "points": [
+   "Usługa przysługuje osobom pełnoletnim, którym decyzja o poziomie potrzeby wsparcia przyznała od 70 do 100 punktów, w wymiarze od 40 do 200 godzin miesięcznie, na zasadach opisanych też dla cudzoziemców mających prawo pobytu.",
+   "Prawo do usługi ustala w drodze decyzji starosta powiatu (zadanie zlecone z zakresu administracji rządowej), po wniosku, kwestionariuszu autodiagnozy potrzeb i diagnozie sytuacji osobistej wykonanej przez pracownika socjalnego; decyzję wydaje się na nie więcej niż 3 lata.",
+   "Usługę wykonują asystenci osobiści zatrudniani przez usługodawców (np. jednostki powiatu, organizacje pozarządowe), a pracę koordynuje koordynator usługi; użytkownik, usługodawca i asystent zawierają kontrakt trójstronny ze spersonalizowanym planem wsparcia.",
+   "Asystentem nie może być osoba skazana za wskazane przestępstwa ani bliski członek rodziny użytkownika; asystenci i koordynatorzy mają obowiązkowe szkolenia powtarzane co 5 lat, a asystenci prawo do superwizji (wsparcia) co najmniej raz na kwartał.",
+   "Powiaty finansują usługę z dotacji celowej z budżetu państwa; projekt zwalnia wartość usługi z podatku dochodowego i VAT oraz daje asystentowi towarzyszącemu w podróży ulgę 95% na bilety jednorazowe w transporcie kolejowym i autobusowym."
+  ],
+  "who": "Projekt dotyczy najbardziej osób z niepełnosprawnościami o dużej potrzebie wsparcia, asystentów osobistych oraz powiatów, które mają przyznawać i organizować usługę.",
+  "insufficient": false,
   "model": "Claude Sonnet 5.5",
   "date": "2026-11-15"
  },
@@ -407,14 +419,16 @@
   "date": "2026-11-15"
  },
  "611": {
-  "summary": "Dostępny tekst nie wystarcza do rzetelnego streszczenia. Zawiera tylko pismo przewodnie, listę podpisów posłów i opis Sejmu, według którego projekt zmienia Kodeks karny w zakresie częściowej dekryminalizacji przerywania ciąży za zgodą kobiety z naruszeniem przepisów oraz dekryminalizacji pomocy w samodzielnej aborcji. Brakuje treści przepisów i uzasadnienia autorów.",
+  "summary": "Projekt zmienia Kodeks karny tak, by przerwanie ciąży za zgodą kobiety było przestępstwem tylko wtedy, gdy od początku ciąży minęło więcej niż 12 tygodni i zabieg wykonano poza przypadkami wskazanymi w ustawie. Znosi też karalność pomocy w przerwaniu ciąży i nakłaniania do niego. Autorzy projektu wskazują, że obecne przepisy nie ograniczają liczby przerwanych ciąż, utrudniają dostęp do bezpiecznych metod i wywołują u lekarzy obawę przed odpowiedzialnością karną.",
   "points": [
-   "Brak treści proponowanych zmian w Kodeksie karnym.",
-   "Brak uzasadnienia projektu.",
-   "Z opisu Sejmu wynika jedynie ogólny zakres: częściowa dekryminalizacja przerywania ciąży za zgodą kobiety oraz pomocy w samodzielnej aborcji."
+   "Uchylone zostają art. 152 § 1 i 2 Kodeksu karnego: przerwanie ciąży za zgodą kobiety z naruszeniem ustawy (dziś do 3 lat więzienia) oraz pomocnictwo i nakłanianie do takiego przerwania.",
+   "Nowy art. 152 § 3: kto za zgodą kobiety przerywa ciążę poza przypadkami wskazanymi w ustawie, gdy od początku ciąży minęło więcej niż 12 tygodni, podlega karze ograniczenia wolności albo pozbawienia wolności do lat 5.",
+   "Nowy art. 152 § 4: lekarz, pielęgniarka lub położna nie popełnia tego przestępstwa, gdy przerwanie ciąży wynika z procedury medycznej potrzebnej do uchylenia zagrożenia zdrowia lub życia kobiety albo gdy badania wskazują na duże prawdopodobieństwo ciężkich i nieodwracalnych wad płodu lub nieuleczalnej choroby zagrażającej jego życiu.",
+   "Przerwanie ciąży bez zgody kobiety pozostaje karalne; w art. 154 kara od 2 do 15 lat więzienia dotyczy przypadków, gdy skutkiem jest śmierć kobiety ciężarnej.",
+   "W art. 157a § 2 wyłączenie odpowiedzialności za uszkodzenie ciała dziecka poczętego przy ratowaniu zdrowia lub życia obejmie także pielęgniarki i położne, nie tylko lekarzy."
   ],
-  "who": "Z dostępnych danych wynika, że projekt dotyczy kobiet w ciąży oraz osób udzielających im pomocy w przerwaniu ciąży.",
-  "insufficient": true,
+  "who": "Projekt dotyczy najbardziej kobiet w ciąży, osób im pomagających oraz lekarzy, pielęgniarek i położnych.",
+  "insufficient": false,
   "model": "Claude Sonnet 5.5",
   "date": "2026-11-15"
  },
@@ -475,10 +489,16 @@
   "date": "2026-11-15"
  },
  "703": {
-  "summary": "Brakuje treści przepisów projektu i większości uzasadnienia: dostępny fragment druku to głównie przypisy i opis zakażeń wirusem SARS-CoV-2 na fermach norek w kilku krajach. Z opisu Sejmu wynika jedynie, że projekt dotyczy zakazu chowu i hodowli zwierząt na futro w celach komercyjnych, z wyjątkiem królika, z możliwością prowadzenia dotychczasowej hodowli do 1 stycznia 2029 r.",
-  "points": [],
-  "who": "Brak wystarczającego tekstu, by rzetelnie wskazać, kogo projekt dotyczy najbardziej.",
-  "insufficient": true,
+  "summary": "Projekt dopisuje do ustawy o ochronie zwierząt zakaz chowu i hodowli zwierząt futerkowych w celach komercyjnych, z wyjątkiem królika. Dotychczasowi hodowcy mogliby działać na starych zasadach do 1 stycznia 2029 r., a za zakończenie działalności miałoby przysługiwać odszkodowanie. Autorzy projektu wskazują na społeczne poparcie dla zakazu, na warunki życia zwierząt na fermach (klatki, zachowania stereotypowe, sposoby uśmiercania) oraz na nieprawidłowości udokumentowane przez organizacje prozwierzęce.",
+  "points": [
+   "Nowy art. 12 ust. 4c zakazuje komercyjnego chowu lub hodowli zwierząt futerkowych, w szczególności w celu pozyskania futer, z wyjątkiem królika.",
+   "Podmioty i rolnicy prowadzący taką działalność w dniu wejścia w życie ustawy mogą ją prowadzić do 1 stycznia 2029 r. na dotychczasowych przepisach.",
+   "Odszkodowanie ze Skarbu Państwa to od 25% do 5% średniego rocznego przychodu z lat 2021-2023, zależnie od tego, czy hodowca zakończył działalność do 1 stycznia 2025, 2026, 2027, 2028 lub 2029 r.; wniosek składa się do ministra rolnictwa, który decyduje w 3 miesiące, a od decyzji można wnieść powództwo do sądu.",
+   "Pracownikowi, z którym rozwiązano umowę z powodu dostosowania się do zakazu, przysługuje odprawa w wysokości trzymiesięcznego wynagrodzenia.",
+   "Odszkodowanie nie jest przychodem w rozumieniu przepisów o podatku dochodowym; ustawa miałaby wejść w życie po 14 dniach od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy najbardziej hodowców zwierząt futerkowych i ich pracowników oraz zwierząt utrzymywanych na fermach futrzarskich.",
+  "insufficient": false,
   "model": "Claude Sonnet 5.5",
   "date": "2026-11-15"
  },
@@ -956,15 +976,16 @@
   "date": "2026-11-15"
  },
  "1749": {
-  "summary": "Brakuje tekstu samej ustawy budżetowej na 2026 rok: plik zawiera tylko dołączony do niej trzyletni plan limitu mianowań urzędników w służbie cywilnej na lata 2026-2028. Nie ma w nim dochodów, wydatków, deficytu ani innych przepisów budżetu, więc nie da się rzetelnie streścić projektu. Plan przewiduje limit 500 mianowań rocznie w każdym z trzech lat.",
+  "summary": "Rządowy projekt ustawy budżetowej na 2026 rok ustala plan dochodów i wydatków budżetu państwa oraz limity zadłużenia, poręczeń i wynagrodzeń w państwowej sferze budżetowej. Według tekstu projektu dochody budżetu państwa mają wynieść 647,2 mld zł, wydatki 918,9 mld zł, a deficyt nie więcej niż 271,7 mld zł. Autorzy projektu wskazują, że budżet odpowiada na wyzwania geopolityczne i rozwojowe, przy utrzymaniu stabilności finansów publicznych oraz zgodności ze ścieżką wydatków zaleconą przez Radę UE.",
   "points": [
-   "Rada Ministrów proponuje limit mianowań urzędników służby cywilnej: 500 osób w 2026 r., 500 w 2027 r. i 500 w 2028 r., z terminem mianowań 1 grudnia 2026 r.",
-   "Skutki finansowe mianowań w 2026 r. szacuje się na 668 050 zł bez pochodnych (składek) i 799 523 zł z pochodnymi.",
-   "Autorzy planu wskazują, że liczba urzędników mianowanych spadła z 7890 osób w 2019 r. do 7652 w 2024 r., a limit 500 ma zatrzymać ten spadek.",
-   "Autorzy planu piszą, że limit utrzymano na dotychczasowym poziomie z powodu ograniczeń budżetowych, i uważają, że w kolejnych latach powinien rosnąć."
+   "Dochody budżetu państwa: 647,2 mld zł (według uzasadnienia o 14,4 mld zł więcej niż w ustawie budżetowej na 2025 r.), w tym podatkowe 579,9 mld zł; wśród zmian wpływających na dochody uzasadnienie wymienia podwyżkę stawki CIT dla sektora bankowego, wyższe stawki akcyzy i uszczelnianie podatków.",
+   "Wydatki budżetu państwa: 918,9 mld zł, deficyt nie więcej niż 271,7 mld zł; przyrost zadłużenia z papierów wartościowych i kredytów nie może przekroczyć 510 mld zł, a poręczenia i gwarancje Skarbu Państwa mogą sięgnąć 200 mld zł.",
+   "Wśród priorytetów uzasadnienie wymienia obronę narodową (200,1 mld zł, według uzasadnienia 4,81% PKB) oraz ochronę zdrowia (247,8 mld zł, według uzasadnienia 6,81% PKB).",
+   "Uzasadnienie wskazuje też inwestycje w drogi i koleje, Centralny Port Komunikacyjny, energetykę jądrową i rozwój sztucznej inteligencji, a także więcej środków na mieszkalnictwo, naukę i szkolnictwo wyższe oraz dla samorządów.",
+   "Zabezpieczono m.in. waloryzację emerytur i rent (22 mld zł), całoroczne koszty tzw. renty wdowiej (ok. 7 mld zł) oraz podwyższenie zasiłku pogrzebowego do 7000 zł; projekt ustala też średnioroczny wzrost wynagrodzeń w państwowej sferze budżetowej na 103,0% i etaty Policji na 110 795."
   ],
-  "who": "Te fragmenty dotyczą najbardziej członków korpusu służby cywilnej ubiegających się o mianowanie oraz urzędów administracji rządowej.",
-  "insufficient": true,
+  "who": "Projekt dotyczy wszystkich: ustala państwowe wydatki i dochody, a najbardziej angażuje instytucje państwowe, samorządy, pracowników sfery budżetowej oraz odbiorców świadczeń finansowanych z budżetu.",
+  "insufficient": false,
   "model": "Claude Sonnet 5.5",
   "date": "2026-11-15"
  },
@@ -1472,10 +1493,16 @@
   "date": "2026-11-15"
  },
  "3150": {
-  "summary": "Brakuje treści samej ustawy budżetowej na rok 2027: dostępny fragment to tylko załącznik, czyli trzyletni plan limitu mianowań urzędników w służbie cywilnej na lata 2027–2029, przedkładany Sejmowi razem z projektem budżetu. Rada Ministrów proponuje w nim limit 500 mianowań rocznie w każdym z lat 2027, 2028 i 2029, a koszt nowych mianowań w 2027 r. szacuje na 688 090 zł bez pochodnych i 823 507 zł z pochodnymi. Brakuje danych o dochodach, wydatkach, deficycie i podziale środków w budżecie.",
-  "points": [],
-  "who": "Dostępny fragment dotyczy najbardziej urzędników służby cywilnej i ich mianowania, a nie budżetu jako całości.",
-  "insufficient": true,
+  "summary": "Rządowy projekt ustawy budżetowej na 2027 rok ustala plan dochodów i wydatków budżetu państwa oraz limity zadłużenia, poręczeń i wynagrodzeń w państwowej sferze budżetowej. Według tekstu projektu dochody budżetu państwa mają wynieść 696,4 mld zł, wydatki 977,6 mld zł, a deficyt nie więcej niż 281,2 mld zł. Autorzy projektu wskazują, że środki mają być koncentrowane tam, gdzie wymagane jest szczególne zaangażowanie państwa, z uwzględnieniem stabilizującej reguły wydatkowej, limitów długu i unijnej procedury nadmiernego deficytu.",
+  "points": [
+   "Dochody budżetu państwa: 696,4 mld zł; wydatki: 977,6 mld zł; deficyt nie więcej niż 281,2 mld zł na koniec 2027 r.",
+   "Przyrost zadłużenia z kredytów i papierów wartościowych nie może przekroczyć 470 mld zł, a poręczenia i gwarancje Skarbu Państwa mogą sięgnąć 200 mld zł.",
+   "W uzasadnieniu jako czynniki wzrostu i obszary inwestycji wymieniono m.in. inwestycje wojskowe, budowę elektrowni jądrowej, programy infrastrukturalne i środki z Krajowego Planu Odbudowy; w tekście projektu mowa też o wzmacnianiu bezpieczeństwa i potencjału rozwojowego państwa.",
+   "Po raz pierwszy wydatki są pogrupowane w pięć grup (transfery bieżące, świadczenia na rzecz osób fizycznych, wydatki bieżące, wydatki majątkowe i transfery majątkowe), co według autorów ma pokazać, jakimi środkami dysponują poszczególni ministrowie.",
+   "Projekt ustala średnioroczny wzrost wynagrodzeń w państwowej sferze budżetowej na 103,0%, kwotę bazową dla nauczycieli na 5 765,80 zł oraz etaty Policji na 110 795; przyjmuje prognozę inflacji 102,8% i przeciętnego wynagrodzenia 10 033 zł miesięcznie."
+  ],
+  "who": "Projekt dotyczy wszystkich: ustala państwowe wydatki i dochody, a najbardziej angażuje instytucje państwowe, samorządy, pracowników sfery budżetowej oraz odbiorców świadczeń finansowanych z budżetu.",
+  "insufficient": false,
   "model": "Claude Sonnet 5.5",
   "date": "2026-11-15"
  },
