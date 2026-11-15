@@ -523,7 +523,7 @@ def build_context():
         "summaries": social.summaries({"by_id": by_id, "bill_by_root": bill_by_root}),
         "printed": set(printed), "printed_list": printed, "upcoming": upcoming, "planned": planned, "timetable_days": timetable_days, "sitting_agendas": sitting_agendas,
         "committee_rows": committee_rows, "pending_amendments": pending_amendments, "pending_by_root": pending_by_root,
-        "pending_prints": {g["print"] for g in pending_amendments}, "frozen": frozen, "vetoes": veto_data, "questions_summary": questions_summary, "fill_gaps": fill_gaps, "committee_names": {c["code"]: c["name"] for c in committee_rows},
+        "pending_prints": {g["print"] for g in pending_amendments}, "frozen": frozen, "vetoes": veto_data, "ai_bills": ai_bills, "questions_summary": questions_summary, "fill_gaps": fill_gaps, "committee_names": {c["code"]: c["name"] for c in committee_rows},
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
         "interest_list": [{"id": i["id"], "pl": i["pl"], "en": i["en"]} for i in interests.load()],
         # the prints with a page here as [first, last] runs, for the schedule's links (static/schedule.js)

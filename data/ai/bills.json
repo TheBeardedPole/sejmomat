@@ -1547,5 +1547,444 @@
   "insufficient": false,
   "model": "Claude Sonnet 5.5",
   "date": "2026-11-15"
+ },
+ "2007": {
+  "summary": "Projekt zaostrza przepisy o alkoholu: wprowadza całkowity zakaz reklamy i promocji wszystkich napojów alkoholowych, w tym piwa, oraz ogranicza miejsca i godziny sprzedaży. Autorzy projektu wskazują, że pojawiły się nowe formy alkoholu (proszki, żele, saszetki) i praktyki marketingowe sprzyjające impulsywnym zakupom, a ograniczanie dostępności i reklamy jest według nich zgodne z zaleceniami Światowej Organizacji Zdrowia.",
+  "points": [
+   "Zakaz reklamy i promocji obejmuje wszystkie napoje alkoholowe, a pojęcie promocji obejmuje m.in. degustacje, rabaty, upusty, pakiety i programy lojalnościowe.",
+   "Zakaz sprzedaży alkoholu na stacjach paliw, na terenie zakładów leczniczych oraz w całym kraju w godzinach od 22.00 do 6.00 (sprzedaż do spożycia poza miejscem sprzedaży).",
+   "Obowiązek żądania dokumentu przy wątpliwościach co do wieku nabywcy, zakaz sprzedaży alkoholu w cenie niższej niż należne podatki (akcyza i VAT) oraz zakaz sprzedaży alkoholu w postaci innej niż płyn.",
+   "Sprzedaż alkoholu na odległość tylko z odbiorem w punkcie sprzedaży, po sprawdzeniu tożsamości i wieku nabywcy.",
+   "Narodowy Fundusz Zdrowia miałby przekazywać 22 mln zł na Fundusz Zajęć Sportowych dla Uczniów, a gminy mogłyby przeznaczać opłaty za zezwolenia także na koszty udziału personelu medycznego w działaniach przeciwko przemocy domowej."
+  ],
+  "who": "Projekt dotyczy sprzedawców i producentów alkoholu, gmin oraz kupujących alkohol, a według autorów ma chronić zdrowie publiczne, zwłaszcza dzieci i młodzieży.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2126": {
+  "summary": "Projekt zmienia jeden przepis ustawy o referendum lokalnym, dotyczący protestów przeciwko ważności referendum. Autorzy projektu wskazują, że obecny przepis odsyła do ordynacji wyborczej, która od 1 sierpnia 2011 r. nie obowiązuje, więc projekt zastępuje to odesłanie przepisami Kodeksu wyborczego.",
+  "points": [
+   "Do wnoszenia i rozpoznawania protestów oraz skutków ich uwzględnienia stosuje się odpowiednio art. 392 § 1 i 2, art. 393, art. 394, art. 396 § 1-3 i art. 397 Kodeksu wyborczego.",
+   "Przepisy te określają formę protestu, organ, do którego go wnosi się, wymóg podania zarzutów i dowodów oraz tryb rozpoznania przez sąd.",
+   "Obejmują też rozstrzygnięcie sądu o ważności i zasady ponownego głosowania, jeśli naruszenia miały wpływ na wynik.",
+   "Projekt ma wejść w życie po upływie 14 dni od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy mieszkańców uprawnionych do udziału w referendum lokalnym i do składania protestów oraz sądów, które je rozpatrują.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2415": {
+  "summary": "Projekt zwalnia małoletnich zstępnych (czyli dzieci i wnuki poniżej 18 lat) z obowiązku wnoszenia opłaty za pobyt krewnego w domu pomocy społecznej. Autorzy projektu wskazują, że obecnie dziecko, które ma własny majątek, na przykład rentę rodzinną, może być zobowiązane do płacenia za pobyt dorosłego krewnego, nawet jeśli nie łączą ich żadne więzi.",
+  "points": [
+   "W art. 61 ustawy o pomocy społecznej dodaje się ust. 1a: małoletni zstępni nie są obowiązani do wnoszenia opłaty za pobyt mieszkańca w domu pomocy społecznej.",
+   "Obecnie obowiązek dotyczy kolejno mieszkańca, małżonka, zstępnych przed wstępnymi i gminy, a zstępni małoletni są traktowani tak samo jak dorośli.",
+   "Autorzy wskazują, że możliwość zwolnienia z opłat przewidziana w innych przepisach jest uznaniowa i nie gwarantuje, że dziecko nie zostanie obciążone.",
+   "Projekt ma wejść w życie po upływie 3 miesięcy od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy małoletnich dzieci i wnuków mieszkańców domów pomocy społecznej oraz ich rodzin.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "258": {
+  "summary": "Projekt wprowadza rekompensaty z budżetu państwa za szkody, które w uprawach na gruntach ornych wyrządzają gęsi, łabędzie i żuraw, oraz za szkody kormorana na gruntach pod stawami rybnymi. Autorzy projektu wskazują, że ptaki te niszczą zasiewy i obsadę stawów, co zmusza rolników i hodowców ryb do ponownych nakładów.",
+  "points": [
+   "Skarb Państwa odpowiada za szkody wyrządzone przez wymienione gatunki ptaków, a o rekompensatę może się ubiegać posiadacz gruntów rolnych lub gruntów pod stawami rybnymi, na których wystąpiły szkody.",
+   "Wniosek składa się do dyrektora oddziału terenowego Krajowego Ośrodka Wsparcia Rolnictwa, także za pośrednictwem wojewódzkiego ośrodka doradztwa rolniczego.",
+   "Szkody w uprawach potwierdza zespół złożony z przedstawiciela ośrodka doradztwa, przedstawiciela izby rolniczej i poszkodowanego, który sporządza protokół z oględzin.",
+   "Wysokość rekompensaty za szkody w uprawach wylicza się z obszaru uszkodzonej uprawy, procentowego rozmiaru szkody i stawki, a za szkody kormorana uwzględnia się miejsca jego występowania i liczebność, ogłaszane co roku przez ministra właściwego do spraw środowiska.",
+   "Wysokość rekompensaty ustala decyzja dyrektora oddziału, od której przysługuje odwołanie do Dyrektora Generalnego Krajowego Ośrodka, a potem powództwo do sądu."
+  ],
+  "who": "Projekt dotyczy rolników i gospodarstw rybackich, którzy ponoszą straty w uprawach i stawach przez ptaki.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2621": {
+  "summary": "Projekt przyznaje pacjentom hospicjów stacjonarnych i oddziałów medycyny paliatywnej prawo do kontaktu ze zwierzętami domowymi. Autorzy projektu wskazują, że taki kontakt zmniejsza stres i poprawia nastrój, a obecnie nie ma przepisów gwarantujących go pacjentom.",
+  "points": [
+   "W ustawie o prawach pacjenta dodaje się ust. 3 do art. 33: pacjent w hospicjum stacjonarnym lub oddziale medycyny paliatywnej ma prawo do kontaktu ze zwierzętami domowymi.",
+   "Zwierzęta domowe rozumie się tak, jak w ustawie o ochronie zwierząt: zwierzęta tradycyjnie przebywające z człowiekiem jako jego towarzysze.",
+   "Kierownik placówki lub upoważniony lekarz może ograniczyć to prawo przy zagrożeniu epidemicznym, ze względu na bezpieczeństwo zdrowotne pacjentów oraz ze względu na możliwości organizacyjne placówki.",
+   "Projekt ma wejść w życie po upływie 3 miesięcy od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy pacjentów hospicjów stacjonarnych i oddziałów medycyny paliatywnej oraz kierowników tych placówek.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2644": {
+  "summary": "Projekt tworzy system statusu artysty zawodowego i dopłat do składek na ubezpieczenia społeczne i zdrowotne dla osób wykonujących zawód artystyczny. Autorzy projektu wskazują, że wielu artystów ma nieregularne lub niskie dochody, nie opłaca stałych składek i przez to bywa nieubezpieczonych, a dopłata ma uzupełniać luki w składkach do poziomu wynikającego z minimalnego wynagrodzenia.",
+  "points": [
+   "O statusie artysty zawodowego decyduje dyrektor wskazanej w projekcie instytucji (specjalistycznej jednostki nadzoru z Prawa oświatowego), a od decyzji przysługuje odwołanie do ministra kultury, a potem do sądu administracyjnego.",
+   "Status dotyczy dziedzin takich jak muzyka, sztuki wizualne, teatr, film, literatura, taniec i twórczość ludowa; dopłata jest adresowana do osób nieprowadzących pozarolniczej działalności gospodarczej.",
+   "Dopłata do składek pochodzi z budżetu państwa, jest ewidencjonowana na koncie w ZUS i przekazywana automatycznie, a wsparcie ma próg dochodowy (autorzy wskazują 125 procent minimalnego wynagrodzenia miesięcznego).",
+   "Przy dyrektorze instytucji działają Rada Programowo-Naukowa (15 członków, badania i analizy sytuacji artystów) oraz Komisja Opiniująca, a projekt przewiduje też działania podnoszące kwalifikacje artystów.",
+   "Projekt zmienia kilka innych ustaw, m.in. o systemie ubezpieczeń społecznych, o podatku dochodowym od osób fizycznych i o świadczeniach opieki zdrowotnej."
+  ],
+  "who": "Projekt dotyczy osób wykonujących zawód artystyczny, zwłaszcza tych o niskich i nieregularnych dochodach, oraz ZUS i ministra kultury jako organów realizujących system.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2806": {
+  "summary": "Projekt podnosi z 15 000 zł do 25 000 zł wartość jednorazowej transakcji między przedsiębiorcami, powyżej której płatność trzeba rozliczyć przez rachunek płatniczy, a nie gotówką. Autorzy projektu wskazują, że limit nie zmienił się od 2018 r., a inflacja obniżyła jego realną wartość, przez co dziś obejmuje drobniejsze transakcje niż pierwotnie.",
+  "points": [
+   "W Prawie przedsiębiorców w art. 19 pkt 2 kwotę 15 000 zł zastępuje się kwotą 25 000 zł.",
+   "W ustawie o podatku od towarów i usług art. 108a ust. 1a odsyła do kwoty z art. 19 Prawa przedsiębiorców zamiast wskazywać własną kwotę 15 000 zł.",
+   "Nowy limit stosuje się do płatności dokonywanych po wejściu w życie ustawy, także z umów zawartych wcześniej.",
+   "Projekt ma wejść w życie 1 stycznia 2027 r."
+  ],
+  "who": "Projekt dotyczy przedsiębiorców, zwłaszcza mikro, małych i średnich firm, które rozliczają się między sobą gotówką.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2865": {
+  "summary": "Projekt zmienia przepisy o usługach hotelarskich tak, aby obejmowały także najem krótkoterminowy (krócej niż 30 dni jednorazowo wobec jednego klienta). Autorzy projektu wskazują, że ma to wykonać unijne rozporządzenie 2024/1028 o danych dotyczących najmu krótkoterminowego i pozwolić skuteczniej ograniczać szarą strefę w tym obszarze.",
+  "points": [
+   "Nowa definicja usług hotelarskich: krótkoterminowe, ogólnie dostępne wynajmowanie domów, mieszkań, pokoi, miejsc noclegowych, miejsc na namioty i przyczepy, trwające krócej niż 30 dni jednorazowo wobec jednego klienta.",
+   "Powstaje jawny Centralny Wykaz Turystycznych Obiektów Noclegowych prowadzony na stronie ministra turystyki, a obiekty dostają numery ID.",
+   "Przedsiębiorca lub rolnik ma podać platformie internetowej pośredniczącej w najmie numer ID z wykazu, zanim zamieści ofertę.",
+   "Wójt, burmistrz lub prezydent miasta może wykreślić obiekt z ewidencji przy powtarzających się uchybieniach w zakresie bezpieczeństwa i porządku publicznego, a ponowny wpis jest możliwy po roku.",
+   "Dla budynków mieszkalnych z usługami w nie więcej niż 6 lokalach projekt przewiduje uproszczone warunki uznania wymagań przeciwpożarowych oraz kontrole na zgłoszenie sąsiadów, wspólnoty lub spółdzielni mieszkaniowej."
+  ],
+  "who": "Projekt dotyczy najbardziej osób i firm wynajmujących krótkoterminowo mieszkania i pokoje, właścicieli obiektów noclegowych, platform internetowych z ofertami noclegów oraz gmin prowadzących ewidencje.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2867": {
+  "summary": "Projekt na nowo reguluje dwie sprawy dotyczące sędziów sądów powszechnych: dalsze orzekanie po osiągnięciu wieku emerytalnego (65 lat) oraz delegowanie sędziów do innych zadań, zwłaszcza administracyjnych. Autorzy projektu wskazują, że w najbliższych latach liczba sędziów odchodzących w stan spoczynku mocno wzrośnie, a obecna zgoda Krajowej Rady Sądownictwa na dalsze orzekanie zniechęca sędziów i jest uznaniowa.",
+  "points": [
+   "Sędzia po 65. roku życia pozostaje na stanowisku, jeśli złoży oświadczenie i przedstawi zaświadczenie lekarskie o zdolności do pracy, bez zgody Krajowej Rady Sądownictwa. Może orzekać najdłużej do 70. roku życia.",
+   "Taki sędzia może wnioskować o zmniejszony udział w przydziale spraw (o 25%, 50% albo 75%), z odpowiednio obniżonym wynagrodzeniem i kwotą równą uposażeniu, jakie dostałby w stanie spoczynku, obniżoną w tym samym stopniu.",
+   "Projekt uchyla przepisy o możliwości przejścia w stan spoczynku po 55 i 60 latach przy odpowiednim stażu (art. 69 § 2 i 2a).",
+   "Delegowania do Ministerstwa Sprawiedliwości i podległych jednostek mają trwać najwyżej 4 lata łącznie, z przerwą przed ponownym delegowaniem. Znikają delegowania do Kancelarii Prezydenta i urzędu ministra spraw zagranicznych.",
+   "Delegowanie do czynności administracyjnych wymaga uzasadnionych potrzeb jednostki, a do ministerstwa może być delegowany tylko sędzia o wysokim poziomie wiedzy prawniczej. Okresu takiego delegowania nie wlicza się do stażu na danym stanowisku."
+  ],
+  "who": "Projekt dotyczy najbardziej sędziów sądów powszechnych zbliżających się do 65. roku życia oraz sędziów delegowanych do ministerstwa i innych jednostek.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2884": {
+  "summary": "Projekt zmienia jeden przepis ustawy o znakach Sił Zbrojnych: prawo do posiadania sztandaru ma przysługiwać jednostkom przeznaczonym do prowadzenia walki zbrojnej lub zabezpieczenia bojowego działań oraz szkołom wojskowym, a nie tylko jednostkom, które już są zdolne do walki. Autorzy projektu wskazują, że dziś jednostki w trakcie formowania długo czekają na sztandar, więc nie mogą go używać przy przysiędze żołnierzy ani przy uroczystościach.",
+  "points": [
+   "Nowe brzmienie art. 9: sztandar mogą mieć jednostki wojskowe przeznaczone do walki zbrojnej lub zabezpieczenia bojowego oraz szkoły wojskowe.",
+   "Sztandar będzie można nadać także jednostce, która jest w trakcie formowania i nabywania zdolności bojowych.",
+   "Autorzy podają, że sztandar służy przysiędze żołnierzy Dobrowolnej Zasadniczej Służby Wojskowej i kształtowaniu postaw patriotycznych, a zmianę zgłosili dowódcy jednostek.",
+   "Według autorów projekt nie wymaga dodatkowych kosztów z budżetu, bo sztandary mogą być ufundowane.",
+   "Ustawa miałaby wejść w życie po 14 dniach od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy najbardziej jednostek wojskowych, zwłaszcza nowo formowanych, oraz żołnierzy składających przysięgę na sztandar.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2995": {
+  "summary": "Projekt zmienia ustawę o rejestracji jachtów i innych jednostek pływających do 24 m oraz ustawę o bezpieczeństwie morskim, aby polska administracja morska mogła skuteczniej nadzorować jednostki uzyskujące polską przynależność. Autorzy projektu wskazują, że w rejestrze jest ponad 100 tysięcy jednostek, około 40 procent z nich ma właściciela spoza Polski, a organy rejestrujące mają zbyt mało narzędzi do weryfikacji wniosków.",
+  "points": [
+   "Wprowadzenie obowiązkowego przeglądu wstępnego jednostki przed wpisem do rejestru i uzyskaniem polskiej przynależności, wykonywanego przez uznaną organizację upoważnioną do zadań administracji morskiej.",
+   "Polska przynależność będzie przysługiwać jednostkom, które stanowią polską własność (nowa definicja z kryteriami dotyczącymi właściciela i armatora) i nie mają innej przynależności.",
+   "Rada Ministrów będzie mogła w rozporządzeniu zakazać wpisywania i utrzymywania jednostek w rejestrze, np. z powodu obronności, bezpieczeństwa, interesu polityki zagranicznej czy umów międzynarodowych, także wobec właścicieli z wybranego państwa spoza UE i EOG.",
+   "Jednostki bez numeru identyfikacyjnego od producenta dostaną indywidualny numer identyfikacyjny (INI), który właściciel trwale oznacza na kadłubie.",
+   "Zmiany w składaniu wniosków i pism oraz oświadczeń pod rygorem odpowiedzialności karnej, mające usprawnić rejestr i zapewnić aktualność danych."
+  ],
+  "who": "Projekt dotyczy najbardziej właścicieli jachtów i innych jednostek pływających do 24 m, zwłaszcza zagranicznych, a także organów rejestrujących i organizacji wykonujących przeglądy.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2996": {
+  "summary": "Projekt rozszerza listę podmiotów, które mogą odpłatnie pobierać z rejestru PESEL serię, numer i datę ważności nowego dowodu osobistego swoich klientów po wymianie dokumentu, o zakłady ubezpieczeń. Autorzy projektu wskazują, że dziś ubezpieczyciele muszą w tym celu kontaktować się z klientami i agentami, co generuje koszty i niedogodności.",
+  "points": [
+   "Zakłady ubezpieczeń (krajowe i z państw UE oraz EFTA działające w Polsce) dołączają do banków, SKOK-ów, firm inwestycyjnych i towarzystw funduszy inwestycyjnych w art. 49a ustawy o ewidencji ludności.",
+   "Dane o dowodzie mają służyć do sprawdzenia aktualności i aktualizacji danych klienta.",
+   "Według uzasadnienia dostęp dotyczy zakładów prowadzących ubezpieczenia na życie (dział I załącznika do ustawy o działalności ubezpieczeniowej), które podlegają przepisom o przeciwdziałaniu praniu pieniędzy.",
+   "Banki i podobne instytucje mogą dostawać dane przez instytucję utworzoną na podstawie Prawa bankowego (art. 105 ust. 4).",
+   "Dotychczasowe przepisy wykonawcze o opłatach zachowują moc, a ustawa wchodzi w życie po 14 dniach od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy najbardziej zakładów ubezpieczeń i ich klientów, zwłaszcza posiadaczy polis na życie, którzy wymienili dowód osobisty.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2999": {
+  "summary": "Projekt dostosowuje polskie przepisy o rybołówstwie morskim i organizacji rynku rybnego do zrewidowanego unijnego systemu kontroli rybołówstwa (znowelizowane rozporządzenie nr 1224/2009 i akty wykonawcze Komisji). Autorzy projektu wskazują, że unijne przepisy obowiązują wprost, więc ustawy krajowe trzeba zmienić tylko tam, gdzie potrzebne jest ich uzupełnienie lub uszczegółowienie.",
+  "points": [
+   "Zasady punktów za poważne naruszenia przepisów rybackich: minister zawiesza licencję połowową na okresy wskazane w prawie UE, a przy piątym zawieszeniu i co najmniej 90 punktach licencję cofa. Statek jest wtedy uznawany za wycofany z rybołówstwa komercyjnego, a o zawieszeniu lub cofnięciu minister informuje Głównego Inspektora Rybołówstwa Morskiego.",
+   "Odesłania do uchylonego rozporządzenia nr 404/2011 są zastępowane odesłaniami do rozporządzenia wykonawczego 2025/2196.",
+   "Dokumenty wymagane przez rozporządzenie 2025/2196 wydaje lub zatwierdza uznana organizacja klasyfikacyjna.",
+   "Zmiany w raportowaniu: dane z elektronicznego dziennika połowowego trafiają do Centrum Monitorowania Rybołówstwa, które ma informować na stronie urzędu o awarii i wznowieniu systemu raportowania połowów.",
+   "Przepisy o ważeniu produktów rybołówstwa obejmą także osoby i firmy zajmujące się obrotem produktami rybołówstwa, a zmiany dotyczą też ustawy o organizacji rynku rybnego."
+  ],
+  "who": "Projekt dotyczy najbardziej armatorów statków rybackich, osób zajmujących się obrotem produktami rybołówstwa oraz administracji rybackiej, w tym ministra i inspekcji rybołówstwa morskiego.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3004": {
+  "summary": "Projekt zmienia ustawę o Krajowym Rejestrze Sądowym (KRS) oraz kilka innych ustaw, aby zmniejszyć obciążenia administracyjne dzięki automatyzacji i informatyzacji. Autorzy projektu wskazują, że część obecnych przepisów nie pasuje do potrzeb obrotu gospodarczego i możliwości sądów rejestrowych, a projekt porządkuje też zasady akt rejestrowych i dostępu do dokumentów.",
+  "points": [
+   "Wnioski i pisma w sprawach podmiotów wpisanych do rejestru przedsiębiorców i rejestru stowarzyszeń składa się wyłącznie przez system teleinformatyczny, a podmiot z założonym kontem ma składać je przez to konto. Pismo złożone z naruszeniem tej zasady jest zwracane bez wzywania do uzupełnienia braków.",
+   "Podmiot musi mieć tytuł prawny do lokalu zgłoszonego jako siedziba i dołączyć do wniosku dokument to potwierdzający.",
+   "Dokumenty papierowe złożone przed wpisem podmiotu przechowuje się w zbiorze dokumentów akt sprawy rozpoznawanej, a po wpisie dołącza do zbioru dokumentów podmiotu. Autorzy wskazują, że to opisuje obecną praktykę sądów.",
+   "Informacje z Krajowego Rejestru Karnego znajdujące się w aktach rejestrowych będą dostępne tylko dla sądu rejestrowego i sądu rozpoznającego środek zaskarżenia, a nie dla każdego przeglądającego akta.",
+   "Pisma zawierające dane osobowe lub inne dane o ograniczonym dostępie trzeba składać z dołączonym wyciągiem bez tych danych, a wnioski o wpis lub zmianę wpisu dotyczące nabycia udziałów lub akcji mają zawierać oświadczenie, czy nabywca jest cudzoziemcem."
+  ],
+  "who": "Projekt dotyczy najbardziej spółek, fundacji, stowarzyszeń i innych podmiotów wpisanych do KRS oraz sądów rejestrowych.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3030": {
+  "summary": "Projekt wskazuje w ustawie listę kluczowych inwestycji infrastrukturalnych i wprowadza dla nich szybszą ścieżkę administracyjną. Autorzy projektu wskazują, że duże inwestycje trwają obecnie kilka lat, a drogowe ponad 10 lat, a ich przyspieszenie jest potrzebne ze względu na obronność, bezpieczeństwo energetyczne i ochronę przed skutkami powodzi.",
+  "points": [
+   "Lista inwestycji kluczowych obejmuje m.in. drogę krajową nr 7 do terminala promowego w Gdyni, porty zewnętrzne w Gdyni i Świnoujściu, wskazane linie kolejowe, inwestycje przeciwpowodziowe, elementy kolejowej łączności radiowej (RMR), rozbudowę lotnisk oraz infrastrukturę związaną z elektrownią jądrową na Pomorzu.",
+   "Wnioski o decyzję o środowiskowych uwarunkowaniach, pozwolenie wodnoprawne i ocenę wodnoprawną dla tych inwestycji rozpatruje się niezwłocznie, poza kolejnością wpływu.",
+   "Krótsze terminy: akta i odpowiedź na skargę trafiają do sądu administracyjnego w 7 dni, sąd rozpatruje skargę w 30 dni, a skargę kasacyjną w 2 miesiące. Weryfikacja prac geodezyjnych trwa najwyżej 7 dni roboczych, a decyzje wojewódzkiego konserwatora zabytków wydaje się w 5 dni roboczych od oględzin.",
+   "Uproszczenia na placu budowy: odstępstwa od zatwierdzonego projektu zagospodarowania w liniach rozgraniczających nie są istotnym odstąpieniem, jeśli nie wymagają zmiany decyzji środowiskowej, a decyzje zatwierdzające projekty robót geologicznych podlegają natychmiastowemu wykonaniu.",
+   "Przy usuwaniu drzew i krzewów oraz wylesieniach związanych z tymi inwestycjami nie stosuje się obowiązku uzyskiwania zezwoleń i opłat z wybranych przepisów o ochronie przyrody i ochronie gruntów rolnych i leśnych. Projekt zmienia też Prawo budowlane, Prawo energetyczne oraz Prawo geologiczne i górnicze."
+  ],
+  "who": "Projekt dotyczy najbardziej inwestorów i wykonawców wymienionych inwestycji, urzędów wydających decyzje i opinie oraz mieszkańców terenów, na których inwestycje powstaną.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3035": {
+  "summary": "Projekt dodaje do zadań ABW, Agencji Wywiadu, CBA, Służby Kontrwywiadu Wojskowego i Służby Wywiadu Wojskowego ochronę ich własnych szefów. Upraszcza też procedury budowlane i środowiskowe dla inwestycji na terenach zamkniętych ustalonych przez szefów tych służb. Autorzy projektu wskazują, że chodzi o uproszczenie i usprawnienie procesu inwestycyjno-budowlanego oraz o zapewnienie bezpieczeństwa osób realizujących zadania służb.",
+  "points": [
+   "Służby mają zapewniać ochronę swoich szefów, a w uzasadnionych przypadkach także wskazanego funkcjonariusza lub pracownika.",
+   "Przy wykonywaniu czynności ochronnych funkcjonariusz ma m.in. podawać dane i przyczynę czynności, a osobie, wobec której je podjęto, przysługuje zażalenie do prokuratora w ciągu 7 dni.",
+   "Obiekty na terenach zamkniętych ustalonych przez szefów służb nie podlegają obowiązkowi publikacji informacji o inwestycji w Biuletynie Informacji Publicznej.",
+   "Dla budynków i budowli na tych terenach nie jest wymagane pozwolenie na rozbiórkę ani jej zgłoszenie, ani zgłoszenie zmiany sposobu użytkowania.",
+   "Inwestycje na tych terenach zostają dopisane do wyjątków w przepisach o planowaniu przestrzennym i ocenach oddziaływania na środowisko, a szefowie służb dołączają do organów uzgadniających strefy ochronne."
+  ],
+  "who": "Projekt dotyczy najbardziej służb specjalnych (ABW, AW, CBA, SKW, SWW), ich szefów i funkcjonariuszy oraz inwestycji prowadzonych na terenach zamkniętych tych służb.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3038": {
+  "summary": "Projekt dopisuje do Prawa ochrony środowiska możliwość uwzględniania przez organ ochrony środowiska specyfiki obiektów sportowych ważnych dla szkolenia i zawodów krajowych lub międzynarodowych, zwłaszcza torów sportów motorowych, przy ustalaniu dopuszczalnego hałasu. Autorzy projektu wskazują, że obecne przepisy nie dają wyraźnych narzędzi, by dopasować warunki działania takich obiektów do ich okresowego i intensywnego charakteru.",
+  "points": [
+   "Organ, wydając decyzję o dopuszczalnym poziomie hałasu, może wziąć pod uwagę częstotliwość, czas trwania i rodzaj działalności obiektu sportowego.",
+   "Organ może określić m.in. przypadki czasowego odstąpienia od warunków z decyzji, dopuszczalne godziny, rodzaje aktywności i wymagania ograniczające hałas.",
+   "Odstępstwa mogą mieć tylko charakter okresowy i nie mogą istotnie ograniczać ochrony przed hałasem m.in. na terenach zabudowy mieszkaniowej, szpitali czy domów opieki.",
+   "Na wniosek prowadzącego obiekt można ponownie ocenić warunki w decyzjach już wydanych, a sprawy w toku będą rozpatrywane według nowych przepisów.",
+   "Projekt miałby wejść w życie po 14 dniach od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy najbardziej prowadzących obiekty sportowe, w tym tory sportów motorowych, oraz mieszkańców okolicznych terenów narażonych na hałas.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3085": {
+  "summary": "Projekt zmienia zasady ostatniego etapu oddłużania osób fizycznych, czyli wykonywania planu spłaty wierzycieli ustalonego przez sąd. Sąd przestaje z urzędu nadzorować spłaty, a o zmianę lub uchylenie planu mogą występować wierzyciele i dłużnik. Autorzy projektu wskazują, że ma to odciążyć sądy i przyspieszyć postępowania, a jednocześnie zwiększyć przejrzystość i ochronę wierzycieli.",
+  "points": [
+   "Po upływie okresu planu spłaty (nie dłuższego niż 36 miesięcy) niespłacone długi są umarzane z mocy prawa po kolejnych trzech miesiącach, jeśli plan nie został w tym czasie zmieniony lub uchylony.",
+   "Informacja o dacie umorzenia długów jest ogłaszana w obwieszczeniach, w tym w Krajowym Rejestrze Zadłużonych.",
+   "Wierzyciele mogą wnosić o uchylenie planu, gdy dłużnik go nie wykonuje; dłużnik może wnosić o zmianę planu, przedłużenie go o najwyżej 18 miesięcy albo skrócenie nie więcej niż o połowę.",
+   "Samo niezłożenie rocznego sprawozdania nie powoduje już obowiązkowego uchylenia planu, a dłużnik przy sprawozdaniu dołącza kopię zeznania podatkowego (PIT).",
+   "Uchylony zostaje przepis o skardze kasacyjnej w sprawach planu spłaty, a obwieszczenia mogą wykonywać także asystenci sędziów i pracownicy sekretariatu."
+  ],
+  "who": "Projekt dotyczy najbardziej osób fizycznych w upadłości (konsumenckiej i prowadzących działalność), ich wierzycieli oraz sądów upadłościowych.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3121": {
+  "summary": "Projekt zmienia zasady dwóch programów wsparcia mieszkalnictwa: budownictwa socjalnego i komunalnego (BSK) oraz programu TERMO. Pozwala też przeznaczyć niewykorzystane środki z programu Stop Smog na premie w programie TERMO. Autorzy projektu wskazują, że wsparcie TERMO cieszy się dużym zainteresowaniem, a nabory wstrzymywano z powodu wyczerpania limitu, oraz że w BSK potrzebne są zabezpieczenia dla nowych organizacji.",
+  "points": [
+   "Organizacje pozarządowe starające się o wsparcie na mieszkania treningowe, wspomagane i zasób interwencyjny muszą być organizacjami pożytku publicznego albo przez co najmniej 3 lata prowadzić działalność w pomocy społecznej lub pomocy osobom bezdomnym.",
+   "Dla gmin wprowadzone są limity łącznego wsparcia: 60 proc. kosztów przedsięwzięcia (łącznie z funduszami UE) i 65 proc. (łącznie z funduszami UE i partycypacją), a przy przekroczeniu wsparcie jest obniżane.",
+   "Zmieniony jest sposób wyliczania stawek dla pomieszczeń dla studentów i doktorantów w art. 7c ust. 3a.",
+   "Niewykorzystane środki z programu Stop Smog na rachunku Funduszu Termomodernizacji i Remontów mają iść na wypłatę premii, premii MZG i premii powodziowych.",
+   "W jednej z ustaw wyrazy \"331 mln zł\" są zastąpione wyrazami \"401 mln zł\", a nazwy części inwestycji są dostosowane do Krajowego Planu Odbudowy."
+  ],
+  "who": "Projekt dotyczy najbardziej gmin, organizacji pozarządowych tworzących mieszkania wspomagane, wspólnot i spółdzielni mieszkaniowych oraz właścicieli i zarządców budynków wielorodzinnych.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3138": {
+  "summary": "Projekt zmienia zwolnienie z podatku dochodowego od osób prawnych (CIT) dla podmiotów zarządzających portami i przystaniami morskimi, aby spełniało wymogi unijnego prawa o pomocy publicznej. Autorzy projektu wskazują, że Komisja Europejska uznała obecne zwolnienie za pomoc niezgodną z rynkiem wewnętrznym, a zmiana ma zmniejszyć ryzyko zwrotu pomocy i umożliwić dalsze inwestycje w porty.",
+  "points": [
+   "Zwolnieniem objęte są wydatki na budowę, wymianę i modernizację infrastruktury portowej i dostępowej od strony morza i lądu, pogłębianie oraz planowanie tych działań.",
+   "Zwolnione są także wydatki na działalność niegospodarczą: kontrolę i bezpieczeństwo ruchu morskiego, ochronę przeciwpożarową, ochronę portów oraz ogólnodostępną infrastrukturę poza portem.",
+   "Zwolnienie jest ograniczone do wysokości pomocy dopuszczalnej według unijnego rozporządzenia 651/2014, a za działalność niegospodarczą trzeba prowadzić odrębną ewidencję rachunkową.",
+   "Dyrektor urzędu morskiego weryfikuje wniosek i wydaje decyzję, a w razie pomocy nienależnej ustala jej zwrot z odsetkami; wniosek składa się z m.in. sprawozdania biegłego rewidenta.",
+   "Przepisy miałyby wejść w życie 1 stycznia 2027 r."
+  ],
+  "who": "Projekt dotyczy najbardziej podmiotów zarządzających portami i przystaniami morskimi oraz urzędów morskich.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3139": {
+  "summary": "Projekt ustawy daje zgodę na ratyfikację przez Prezydenta Wzmocnionej umowy o partnerstwie i współpracy między Unią Europejską i jej państwami członkowskimi a Republiką Kirgiską, podpisanej w Brukseli 25 czerwca 2024 r. Autorzy projektu wskazują, że umowa przenosi relacje na wyższy poziom i zastąpi umowę z 1995 r.",
+  "points": [
+   "Umowa zastąpi umowę z 1995 r. i ma 327 artykułów, a jej postanowienia są bardziej szczegółowe.",
+   "Wprowadza ochronę 167 oznaczeń geograficznych produktów z UE w Kirgistanie, w tym dla Polski Wódki ziołowej z Niziny Północnopodlaskiej i Polskiej Wódki.",
+   "Ustanawia Radę Współpracy, Komitet Współpracy, Komitet Współpracy Parlamentarnej i Podkomitet do spraw Praw Własności Intelektualnej.",
+   "Tworzy ramy dla współpracy w pomocy prawnej i ekstradycji, w tym bliższej współpracy z Eurojustem.",
+   "Autorzy wskazują też na możliwość rozmów o prawach człowieka i praworządności oraz na lepsze ramy dla handlu."
+  ],
+  "who": "Projekt dotyczy najbardziej relacji Polski i UE z Kirgistanem, w tym producentów napojów spirytusowych oraz instytucji współpracy prawnej.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3140": {
+  "summary": "Projekt ustawy daje zgodę na ratyfikację przez Prezydenta Wzmocnionej umowy o partnerstwie i współpracy między Unią Europejską i jej państwami członkowskimi a Republiką Uzbekistanu, podpisanej w Brukseli 24 października 2025 r. Autorzy projektu wskazują, że umowa odzwierciedla nowe realia polityczne i gospodarcze oraz pogłębia współpracę z Uzbekistanem.",
+  "points": [
+   "Umowa zastąpi umowę z 1996 r. i ma 356 artykułów, w tym obszerne przepisy o handlu i prawach własności intelektualnej.",
+   "Ustanawia Radę Współpracy, Komitet Współpracy, Komitet Współpracy Parlamentarnej i Podkomitet do spraw Praw Własności Intelektualnej.",
+   "Wprowadza mechanizm rozstrzygania sporów o wykładnię i stosowanie umowy.",
+   "Tworzy ramy współpracy w dziedzinie migracji, w tym readmisji osób niespełniających warunków pobytu.",
+   "Autorzy wskazują, że umowa ma wspierać prawa człowieka, praworządność oraz warunki dla handlu i inwestycji polskich firm."
+  ],
+  "who": "Projekt dotyczy najbardziej relacji Polski i UE z Uzbekistanem, w tym polskich przedsiębiorców zainteresowanych handlem i inwestycjami w tym kraju.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3141": {
+  "summary": "Projekt zmienia ustawę o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych i kilka innych ustaw. Wprowadza zasady powoływania Ośrodków Eksperckich Chorób Rzadkich, dostosowuje przepisy o leczeniu w innych państwach UE i zwrocie kosztów do unijnego prawa oraz uszczelnia pobieranie składki zdrowotnej od zagranicznych emerytur i rent. Autorzy projektu wskazują, że chodzi o zgodność z prawem UE i likwidację luk w przepisach.",
+  "points": [
+   "Ośrodki Eksperckie Chorób Rzadkich są komórkami zakładów leczniczych, a status nadaje im minister zdrowia na 5 lat, m.in. komórkom należącym do Europejskich Sieci Referencyjnych.",
+   "Zwrot kosztów leku kupionego w innym państwie UE lub EOG jest możliwy na podstawie polskiej recepty uprawniającej do refundacji, także gdy nie jest to recepta transgraniczna.",
+   "Nie można odmówić zwrotu kosztów leczenia za granicą tylko dlatego, że pacjent nie złożył wniosku przed wyjazdem, jeśli leczenie było pilne dla ratowania życia lub zdrowia; wniosek można złożyć w ciągu 30 dni po jego zakończeniu.",
+   "Do wniosku o zgodę na leczenie można dołączyć opinię lekarza z innego państwa UE lub EFTA wraz z tłumaczeniem przysięgłym.",
+   "Nowy art. 42ia ustawowo reguluje refundację niezbędnych świadczeń udzielonych podczas pobytu w państwach UE, EFTA lub w Wielkiej Brytanii."
+  ],
+  "who": "Projekt dotyczy najbardziej pacjentów leczących się lub przebywających w innych państwach UE, osób z chorobami rzadkimi, NFZ oraz osób pobierających zagraniczne emerytury i renty.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3184": {
+  "summary": "Obywatelski projekt zmienia Prawo łowieckie, aby zwiększyć bezpieczeństwo związane z polowaniami, udział społeczeństwa w decyzjach o gospodarce łowieckiej i kontrolę organów ochrony przyrody. Autorzy projektu wskazują, że obecny model opiera się na silnej pozycji Polskiego Związku Łowieckiego i ma ograniczoną kontrolę zewnętrzną.",
+  "points": [
+   "Gatunek może być uznany za łowny tylko na podstawie aktualnych danych o nadmiernej liczebności lub szkodach, a minister środowiska ocenia listę gatunków co najmniej raz na 5 lat.",
+   "Roczne plany łowieckie wymagają uzgodnienia z regionalnym dyrektorem ochrony środowiska, a wieloletnie plany hodowlane strategicznej oceny oddziaływania na środowisko; organizacje społeczne mogą uczestniczyć w postępowaniach jako strona.",
+   "Zakaz stawiania ambon w otulinach parków narodowych, rezerwatach i na obszarach Natura 2000 (z możliwością zezwolenia), zakaz dokarmiania i nęcenia zwierząt łownych (z wyjątkami) oraz zakaz polowań w ostojach zwierząt.",
+   "Zakaz komercyjnego organizowania, sprzedawania i reklamowania odpłatnych polowań.",
+   "Właściciel nieruchomości może nie wyrazić zgody na włączenie jej do obwodu łowieckiego, a w obwodach nie mogą się znaleźć m.in. ośrodki rehabilitacji dzikich zwierząt i tereny zieleni."
+  ],
+  "who": "Projekt dotyczy przede wszystkim myśliwych, kół łowieckich i Polskiego Związku Łowieckiego, a także właścicieli gruntów, gmin, organizacji ochrony przyrody i osób mieszkających w pobliżu terenów łowieckich.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3204": {
+  "summary": "Projekt doprecyzowuje, jakie informacje Zarządca Rozliczeń może uzyskiwać od ZUS przy monitorowaniu zatrudnienia osób, które skorzystały z osłon socjalnych w sektorze elektroenergetycznym i górnictwie węgla brunatnego. Zmienia też sposób liczenia dotacji dla ZUS na obsługę tych zadań. Autorzy projektu wskazują, że po blisko trzech latach stosowania ustawy ujawniła się potrzeba doprecyzowania zagadnień technicznych.",
+  "points": [
+   "Zarządca Rozliczeń może prosić ZUS o informacje o aktualnym zatrudnieniu osób objętych świadczeniami, ze wskazaniem ich numeru PESEL oraz REGON podmiotu, na rzecz którego pracują.",
+   "Zarządca może też zlecić ZUS postępowanie wyjaśniające lub kontrolę wypłat, a ZUS informuje go o wynikach.",
+   "Dotacja celowa dla ZUS wynosi 0,1 % dotacji wypłaconej w poprzednim roku podmiotom objętym ustawą, co wiąże ją z faktycznym wykorzystaniem środków.",
+   "Dotacja za rok 2025 ma zostać przekazana w ciągu 3 miesięcy od wejścia przepisów w życie, a ustawa ma wejść w życie po 14 dniach od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy głównie Zarządcy Rozliczeń, ZUS oraz pracowników i firm objętych osłonami socjalnymi w energetyce i górnictwie węgla brunatnego.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3233": {
+  "summary": "Projekt pozwala spółdzielniom mieszkaniowym żądać ustanowienia użytkowania wieczystego gruntów państwowych i samorządowych, z których korzystają, oraz nieodpłatnego przeniesienia własności budynków. Autorzy projektu wskazują, że spółdzielnie od lat nie mają trwałego prawa do takich gruntów, co utrudnia ustanawianie praw do lokali i ich obrót, np. zabezpieczanie kredytu hipoteką.",
+  "points": [
+   "Żądanie dotyczy spółdzielni, które zbudowały budynki za zezwoleniem organu (po 5 grudnia 1990 r., albo wcześniej z własnych środków, jeśli nie zgłosiły do 31 grudnia 1996 r. roszczenia z ustawy o gospodarce nieruchomościami) oraz gruntów w ich nieprzerwanym posiadaniu od 5 grudnia 1990 r.",
+   "Wniosek ma być rozpatrzony w ciągu 12 miesięcy decyzją starosty, wójta, burmistrza, prezydenta miasta albo zarządu powiatu lub województwa, zależnie od właściciela gruntu.",
+   "Spółdzielnia płaci pierwszą opłatę i opłaty roczne za użytkowanie wieczyste, przy czym przewidziano bonifikaty od pierwszej opłaty.",
+   "Na gruntach niepotrzebnych do korzystania z budynków można budować wyłącznie społeczne budownictwo czynszowe, a za czas postępowania nie pobiera się należności za bezumowne korzystanie z gruntu.",
+   "Zmiana obejmuje też spółdzielnie, które dotąd korzystają z gruntu odpłatnie na innej podstawie niż własność lub użytkowanie wieczyste, oraz osoby z nierozpatrzonymi wnioskami, które mogą w ciągu 12 miesięcy zażądać ich rozpatrzenia."
+  ],
+  "who": "Projekt dotyczy spółdzielni mieszkaniowych i ich członków, a także Skarbu Państwa i samorządów jako właścicieli gruntów.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3266": {
+  "summary": "Projekt wyznacza organy i procedury potrzebne do stosowania w Polsce unijnego rozporządzenia o sprawiedliwym dostępie do danych i ich wykorzystywaniu (akt w sprawie danych). Autorzy projektu wskazują, że rozporządzenie wymaga od państw członkowskich wskazania organu nadzorczego, rozpatrywania skarg i przepisów o karach. Dotyczy ono m.in. danych z urządzeń podłączonych do internetu.",
+  "points": [
+   "Właściwym organem do nadzoru nad przestrzeganiem rozporządzenia ma być Prezes Urzędu Komunikacji Elektronicznej (UKE).",
+   "Prezes UKE rozpatruje skargi na domniemane naruszenia, może nakładać kary pieniężne i współpracuje z organami innych państw UE.",
+   "Prezes UKE ma certyfikować podmioty rozstrzygające spory dotyczące dostępu do danych.",
+   "Obowiązki informacyjne wobec Komisji Europejskiej wykonuje Minister Cyfryzacji."
+  ],
+  "who": "Projekt dotyczy firm wytwarzających urządzenia podłączone do internetu, dostawców usług przetwarzania danych (np. chmury), użytkowników takich urządzeń oraz urzędów.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3268": {
+  "summary": "Projekt zmienia Kodeks karny, aby rozszerzyć odpowiedzialność za nadużycia z użyciem technik cyfrowych, w tym sztucznej inteligencji, przy tworzeniu treści pornograficznych. Autorzy projektu wskazują, że deepfake'i (obrazy i nagrania wygenerowane lub zmienione przez AI) są stosowane masowo, a projekt realizuje też unijną dyrektywę 2024/1385 o przemocy wobec kobiet.",
+  "points": [
+   "Rozpowszechnianie bez zgody wizerunku osoby nagiej lub podczas czynności seksualnej, wytworzonego lub przetworzonego technikami cyfrowymi, ma być karane tak samo jak rozpowszechnianie prawdziwych materiałów (art. 191a).",
+   "Nowe przestępstwo: wytwarzanie lub przetwarzanie przy użyciu AI treści pornograficznych mogących wywołać przekonanie o udziale małoletniego, zagrożone karą pozbawienia wolności od 3 miesięcy do lat 5.",
+   "Sprowadzanie, przechowywanie, posiadanie lub uzyskiwanie dostępu do treści pornograficznych z udziałem małoletniego ma być zagrożone karą od 6 miesięcy do lat 8, a te przepisy obejmą też treści stworzone cyfrowo.",
+   "Karalny ma być także nieudolny grooming, czyli próba nawiązania kontaktu z dzieckiem poniżej 15 lat, które w rzeczywistości nie istnieje, np. gdy sprawca ma do czynienia z deepfake'iem."
+  ],
+  "who": "Projekt dotyczy osób, których wizerunek może zostać użyty w deepfake'ach, zwłaszcza dzieci i młodzieży, a także sprawców takich czynów, organów ścigania i sądów.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3281": {
+  "summary": "Projekt zmienia ustawę refundacyjną, czyli zasady, według których państwo finansuje leki, specjalne środki spożywcze i wyroby medyczne. Autorzy projektu wskazują, że poprzednia nowelizacja z 2023 r. wywołała wątpliwości interpretacyjne, a część przepisów jest wadliwa lub trudna do stosowania. Celem jest uproszczenie procedur i zwiększenie dostępności refundowanych produktów.",
+  "points": [
+   "Zniesienie wzoru na wielkość dostaw leków i zastąpienie go negocjacjami z udziałem Komisji Ekonomicznej, która oceni zapotrzebowanie indywidualnie.",
+   "Szybka ścieżka refundacji leków w opakowaniach obcojęzycznych w razie niedoborów, bez czasochłonnych negocjacji cenowych.",
+   "Wniosek refundacyjny nie musi już zawierać dowodów dostępności leku w obrocie.",
+   "Udział przedstawicieli organizacji pacjentów w negocjacjach cenowych i posiedzeniach zespołów koordynacyjnych w programach lekowych oraz kadencyjność członków Komisji Ekonomicznej.",
+   "Definicja ceny efektywnej, nowy System Wspomagania Decyzji w Polityce Lekowej i rozszerzenie systemu monitorowania obrotu produktami leczniczymi, a także poprawa rentowności obrotu refundowanymi produktami przez hurtownie."
+  ],
+  "who": "Projekt dotyczy pacjentów korzystających z leków refundowanych, firm farmaceutycznych, hurtowni, aptek oraz organów prowadzących politykę refundacyjną.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3295": {
+  "summary": "Projekt zapewnia dodatkowe finansowanie działań zmierzających do zwiększenia produkcji układów scalonych (chipów) w Polsce. Autorzy projektu wskazują, że Polska nie ma własnej produkcji dedykowanych układów scalonych od 1996 r., a zaopatrzenie gospodarki i sektora obronnego opiera się na dostawach zewnętrznych.",
+  "points": [
+   "Jednorazowa wpłata do Funduszu Polskiej Nauki w wysokości 1,5 mld zł, pochodząca z wydatków na obronę narodową.",
+   "Rozszerzenie przychodów i zakresu działalności Funduszu o strategiczne programy badawcze, projekty o wysokim ryzyku technologicznym, demonstratory technologii i projekty pilotażowe.",
+   "Nowa funkcja kierownika programu badawczego oraz możliwość etapowego finansowania zależnie od osiągania kamieni milowych.",
+   "Podmiot zarządzający zajmuje się komercjalizacją wyników badań, a Rada Ministrów dostaje informację o wykorzystaniu środków i osiągniętych celach."
+  ],
+  "who": "Projekt dotyczy ośrodków badawczych i firm zajmujących się półprzewodnikami, Funduszu Polskiej Nauki oraz sektora obronnego i przemysłu zależnego od układów scalonych.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3298": {
+  "summary": "Projekt wdraża unijną dyrektywę 2024/2811 i umożliwia stosowanie unijnych rozporządzeń, których celem jest obniżenie kosztów i formalności przy pozyskiwaniu kapitału na rynku publicznym, zwłaszcza przez małe i średnie firmy. Autorzy projektu wskazują, że wejście na giełdę uchodzi za zbyt kosztowne i złożone. Projekt rezygnuje też z niektórych krajowych wymogów, które nie wynikają z prawa UE.",
+  "points": [
+   "Zmiana ustawy o obrocie instrumentami finansowymi w zakresie rynków rozwoju małych i średnich przedsiębiorstw oraz badań inwestycyjnych.",
+   "W Kodeksie spółek handlowych ustalono nowe terminy zgłoszenia podwyższenia kapitału w sądzie, gdy nowe akcje są przedmiotem oferty publicznej z prospektem (m.in. 12 miesięcy od zatwierdzenia prospektu).",
+   "Dostosowanie przepisów do unijnych zasad sprzedaży uprawnień do emisji gazów cieplarnianych na aukcjach oraz do przepisów o ratingach ESG.",
+   "Zmiany obejmują m.in. Prawo bankowe, ustawy o giełdach towarowych, funduszach inwestycyjnych, nadzorze nad rynkiem kapitałowym i obligacjach."
+  ],
+  "who": "Projekt dotyczy spółek, zwłaszcza małych i średnich, planujących pozyskanie kapitału na rynku publicznym, oraz inwestorów, giełd i instytucji nadzoru rynku.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "604": {
+  "summary": "Projekt zmienia przepis ustawy o Krajowej Administracji Skarbowej o tym, kiedy organy skarbowe mogą żądać od banków informacji o rachunku bankowym. Autorzy projektu wskazują, że od 1 lipca 2022 r. uprawnienie to jest zbyt szerokie i chcą wrócić do wcześniejszego stanu, w którym dotyczyło ono tylko podejrzanego.",
+  "points": [
+   "Żądanie informacji o rachunku bankowym byłoby możliwe wobec podejrzanego, a nie wobec każdej osoby fizycznej.",
+   "Żądanie musi być na piśmie, wydane w związku z wszczętym postępowaniem przygotowawczym lub czynnościami wyjaśniającymi.",
+   "Zachowane zostają pozostałe zmiany wprowadzone w 2022 r., w tym uprawnienie naczelników urzędów skarbowych.",
+   "Do żądań wydanych przed wejściem w życie zmiany stosuje się dotychczasowe przepisy.",
+   "Zmiana miałaby wejść w życie po upływie 14 dni od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy osób fizycznych, wobec których organy skarbowe mogą żądać informacji o rachunkach bankowych, oraz banków i organów Krajowej Administracji Skarbowej.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
  }
 }

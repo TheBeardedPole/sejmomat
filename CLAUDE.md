@@ -391,6 +391,16 @@ Live on sejmomat.pl:
   1749, 3150) the stored print text is only a cover letter or annex, so they were summarised from the print's
   other attachments (the .docx with bill and justification, an OCR of the scan, the budget's act and
   justification). Tiers 2–3 not done yet; the ranking was a one-off and is not in the repo.
+  15 November 2026: also the bills on sitting 69's agenda (32 more; Senate-resolution items have no print yet, so
+  their bill was matched by the law's title against processes with a stage since mid-October). Shown open on the
+  bill page (`templates/_ai.html`), folded on its votes, prints and veto; a bill with no votes yet (no bill page)
+  on its print pages, from `ai_bills`. Keyed by the site's root (a joint bill: the lowest print, e.g. 2007 not 2010).
+  **In the stream** (`tools/live_ai.py`): the bill debated by the plan gets an AI card at most every 150 s
+  (AI_CARD_EVERY; the summary, then its points a few to a card, in turn), and before a bill's first vote in a run
+  and its vote on the whole, with no amendment to show, the summary full screen ("O czym jest projekt", badge
+  STRESZCZENIE AI, AI_CYCLE 24 s). Found from any print of the bill (report → processPrint, joint prints);
+  reloaded with the timetable every 10 min. Tests: `tests/test_live_ai.py`. Checked on replays of 22 October
+  19:18 (vote 203, print 604) and 5 November 12:45 (debate on 3263).
 
 Waiting on the owner:
 

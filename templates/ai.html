@@ -14,10 +14,10 @@
   #ai-filter { width: 100%; max-width: 28em; padding: 6px 10px; margin: 6px 0 4px; }
 </style>
 <h1>{{ _("Streszczenia ustaw") }} <span class="ai-badge">AI</span></h1>
-<p>{{ rows | length }} {{ rows | length | plural(_("najważniejszy projekt"), _("najważniejsze projekty"), _("najważniejszych projektów")) }} {{ _("tej kadencji, każdy streszczony w kilku zdaniach, od ostatnio głosowanych.") }}</p>
+<p>{{ rows | length }} {{ rows | length | plural(_("projekt ustawy"), _("projekty ustaw"), _("projektów ustaw")) }} {{ _("tej kadencji, każdy streszczony w kilku zdaniach, od ostatnio głosowanych.") }}</p>
 <p class="callout">{{ _("Te streszczenia napisał model językowy (AI), nie redakcja Sejmomatu. Mogą coś pominąć albo uprościć. Opisują projekt w wersji złożonej w Sejmie; to, co Sejm zmienił, uchwalił albo odrzucił, pokazuje strona ustawy, wprost z danych Sejmu.") }}</p>
 {% call how(_("Jak powstały?")) %}
-<p>{{ _("Model czytał tytuł, opis Sejmu i druk projektu (jego początek i uzasadnienie), bez innych źródeł i bez własnej oceny. Projekty wybrał i uszeregował według wagi dla zwykłego czytelnika również model; nie ma tu ustaw technicznych, wyborów osób ani sprawozdań.") }}</p>
+<p>{{ _("Model czytał tytuł, opis Sejmu i druk projektu (jego początek i uzasadnienie), bez innych źródeł i bez własnej oceny. Są tu najważniejsze projekty kadencji (wybrał je i uszeregował według wagi dla zwykłego czytelnika również model) oraz projekty z porządku obrad kolejnych posiedzeń.") }}</p>
 {% set models = rows | map(attribute="ai.model") | unique | list %}
 <p>{{ _("Model") }}: {{ models | join(", ") }}.</p>
 {% endcall %}

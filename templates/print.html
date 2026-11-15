@@ -13,7 +13,10 @@
   {% for att in meta.attachments or [] %} · <a href="{{ pdf_url(num, att) }}">{{ att }}</a>{% endfor %}
 </p>
 
-{% if root_print %}{% from "_ai.html" import ai_summary with context %}{{ ai_summary(bill_by_root.get(root_print), root, elsewhere=true) }}{% endif %}
+{% if root_print %}{% from "_ai.html" import ai_summary with context %}
+{# a bill not voted on yet has no bill page: its summary straight from data/ai/bills.json #}
+{% if root_print in bill_by_root %}{{ ai_summary(bill_by_root[root_print], root, elsewhere=true) }}
+{% elif ai_bills.get(root_print) %}{{ ai_summary({"root": root_print, "ai": ai_bills[root_print]}, root) }}{% endif %}{% endif %}
 
 {{ osr_sections(osr, num, root, printed, [], sejm_consult) }}
 

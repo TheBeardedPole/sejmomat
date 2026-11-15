@@ -433,6 +433,20 @@ class Overlay:
             return hit[1]
         # an MP's card with their constituency has a line more
         width, h = 560, 296 if card["kind"] == "mp" and card.get("district") else 268
+        if card["kind"] == "ai":
+            # a bill's AI summary (tools/live_ai.py): the headline, then the text or the main changes
+            # in as many lines as they take (up to nine), the card as tall as that
+            f_ai = self.font(20)
+            if card.get("points"):
+                ai_lines = []
+                for pt in card["points"]:
+                    got = self.wrap(pt, f_ai, width - 48 - 22, 9)   # each point whole: those that do not fit wait
+                    if ai_lines and len(ai_lines) + len(got) > 9:
+                        break
+                    ai_lines += [("• " if i == 0 else "   ") + line for i, line in enumerate(got)]
+            else:
+                ai_lines = self.wrap(card["text"], f_ai, width - 48, 9)
+            h = 60 + 40 + 27 * len(ai_lines) + 64
         im = Image.new("RGBA", (width, h), (0, 0, 0, 0))
         d = ImageDraw.Draw(im)
         colour = club_colour(card.get("club")) if card.get("club") else ACCENT
@@ -447,13 +461,19 @@ class Overlay:
         if badge:
             im.alpha_composite(badge, (width - 52, 4))
         else:
-            d.text((width - 50, 12), "?!", font=self.font(20, True), fill=YELLOW)
+            d.text((width - 50, 12), "AI" if card["kind"] == "ai" else "?!", font=self.font(20, True), fill=YELLOW)
         if card["kind"] == "promo":
             # a word about the site: a headline, a line or two, the address in yellow
             d.text((24, 60), card["headline"], font=self.font(28, True), fill="white")
             for i, line in enumerate(textwrap.wrap(card.get("text") or "", 54)[:3]):
                 d.text((24, 104 + i * 24), line, font=self.font(18), fill=(205, 212, 225))
             d.text((24, h - 58), card["url"], font=self.font(30, True), fill=YELLOW)
+        elif card["kind"] == "ai":
+            d.text((24, 58), self.fit(card["headline"], self.font(26, True), width - 48), font=self.font(26, True), fill="white")
+            for i, line in enumerate(ai_lines):
+                d.text((24, 104 + i * 27), line, font=f_ai, fill=(222, 228, 238))
+            d.text((24, h - 44), card["url"], font=self.font(24, True), fill=YELLOW, anchor="lm")
+            d.text((24, h - 18), "napisał model językowy na podstawie druku, nie redakcja", font=self.font(14), fill=(170, 180, 196), anchor="lm")
         elif card["kind"] == "podium":
             # the fantasy game's three leaders on a podium: first in the middle and highest
             steps = card["places"][:3]
@@ -688,7 +708,7 @@ class Overlay:
         base = self.card_base(card).copy()
         d = ImageDraw.Draw(base)
         width, h = base.size
-        if card["kind"] in ("promo", "cloud", "podium"):
+        if card["kind"] in ("promo", "cloud", "podium", "ai"):
             return self._shine(base, t, length)
         # the number counts up (numbers only; "99,1%" or "261:172" are shown as they are)
         value = card["value"]

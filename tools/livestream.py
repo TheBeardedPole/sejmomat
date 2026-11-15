@@ -59,6 +59,7 @@ from live_overlay import H, W, Overlay  # noqa: E402
 from live_speaker import BAND, PRESIDIUM, Recogniser, load_mps, read  # noqa: E402
 import live_chat  # noqa: E402
 import live_plan  # noqa: E402
+import live_ai  # noqa: E402
 from sejmomat.facts import spread  # noqa: E402
 from sejmomat.social import club_short, short_title, shorten  # noqa: E402
 
@@ -461,6 +462,10 @@ TOP_SECONDS = 16                                        # a Top 5 card, longer t
 FACTS_URL = "https://sejmomat.pl/api/v1/ciekawostki.json"
 PROMO_EVERY = 8                                         # one card in this many (of the general turn) is about the site
 BILL_CARD_EVERY = 5                                     # …and one in this many points to the bill debated (by the plan)
+AI_CARD_EVERY = 150                                     # a debate on a bill with an AI summary (tools/live_ai.py): its card at most once in this long…
+AI_SECONDS = 20                                         # …on screen this long (several lines to read)
+AI_BADGE = (122, 84, 196)                               # the full screen's "STRESZCZENIE AI" badge
+AI_CYCLE = 24                                           # before a bill's first vote in a run and its vote on the whole: the summary full screen, at most this long
 LEAGUE_CARD_EVERY = 8                                   # …and one in this many shows the fantasy game's leaders
 LEAGUE_URL = "https://sejmomat.pl/srv/fantasy.php?a=leaders"   # the game's ranking (server/fantasy.php)
 LEAGUE_EVERY = 600                                      # seconds between looks at it
@@ -1120,6 +1125,29 @@ def main():
     if not args.at:
         restore_state()
 
+    # the AI summaries of bills (tools/live_ai.py): a card now and then in the debate on a bill,
+    # and full screen before its votes
+    summaries = live_ai.Summaries()
+    print(f"streszczenia AI: {len(summaries.by_root)}", flush=True)
+    ai_turn = {"at": -1e9, "n": 0, "cards": {}}
+
+    def ai_card(clock):
+        """The next AI card of the bill debated by the plan, at most once in AI_CARD_EVERY
+        seconds (the summary, then its main changes, in turn), or None."""
+        if clock.timestamp() - ai_turn["at"] < AI_CARD_EVERY:
+            return None
+        late, why, x = where(clock)
+        got = summaries.get(x["prints"]) if x and not x["vote"] and x.get("prints") else None
+        if not got:
+            return None
+        root, entry = got
+        if root not in ai_turn["cards"]:   # made once: the overlay keeps a drawn card by the object
+            ai_turn["cards"][root] = live_ai.cards(root, entry, plan_label(x, druk=False))
+        ai_turn["at"] = clock.timestamp()
+        ai_turn["n"] += 1
+        both = ai_turn["cards"][root]
+        return both[(ai_turn["n"] - 1) % len(both)]
+
     def bill_card(clock):
         """A card pointing to the print debated by the plan ("Przeczytaj ustawę, o której
         debatują: sejmomat.pl/3278"), or None outside a debate with a print. `where` is defined
@@ -1247,6 +1275,8 @@ def main():
                 turns[("cloud", at)] = True
                 picks[slot] = {"kind": "cloud", "title": "Ulubione słowa", "mp": sp["mp"], "name": sp["name"], "club": sp["club"],
                                "words": cloud, "note": "częściej niż reszta sali · cała kadencja"}
+            elif (ai := ai_card(clock)) is not None:   # the debated bill's AI summary, now and then
+                picks[slot] = ai
             elif speaking and pool:
                 i = turns[sp["club"]] = turns.get(sp["club"], -1) + 1
                 picks[slot] = pool[i % len(pool)]
@@ -1306,6 +1336,7 @@ def main():
         while True:
             time.sleep(PLAN_EVERY)
             load_plan()
+            summaries.load()   # data/ai/bills.json, new ones arriving with git pull
     if not args.at:
         threading.Thread(target=refresh_plan, daemon=True).start()
 
@@ -1465,6 +1496,7 @@ def main():
 
     result_from = {}   # vote number -> seconds after the vote its result came on screen
     diff_from = {}     # vote number -> seconds its amendment had on screen before it
+    ai_from = {}       # vote number -> seconds its AI summary had on screen before it
 
     def vote_result(v, t, length):
         """A vote just taken, full screen: the chamber seat by seat on the left (as in a break),
@@ -1718,6 +1750,31 @@ def main():
                     return overlay.frame_scene(overlay.text_scene(("diff", num, page), head, sub, shown_pages[page],
                                                                   begun - page * each, each,
                                                                   fade=(page == 0, False)), hhmm, "GŁOSOWANIE")
+            # no amendment to show: before a bill's first vote in a run and its vote on the whole, its
+            # AI summary (tools/live_ai.py), in the same window
+            got = summaries.get(vote_prints(nxt)) if not pages and to_go < AI_CYCLE + RESULT_SECONDS else None
+            before = next((v for v in reversed(shown) if decisive(v)), None)
+            if got and (whole(nxt) or not before or summaries.root_of(vote_prints(before)) != got[0]):
+                root, entry = got
+                num = nxt["votingNumber"]
+                prev_end = 0
+                if before and before is shown[-1] and num != before["votingNumber"] and before["votingNumber"] in result_from:
+                    prev_end = RESULT_SECONDS + result_from[before["votingNumber"]] - since_vote
+                    if whole(before):
+                        prev_end += REACTION
+                window = ai_from.setdefault(num, min(AI_CYCLE, to_go - max(0, prev_end)))
+                begun = window - to_go
+                ai_pages = live_ai.pages(entry, FULL_WIDTH, FULL_LINES)
+                if window >= PAGE_MIN - 1 and 0 <= begun < window:
+                    each = window / min(len(ai_pages), max(1, int(window // PAGE_MIN)))
+                    shown_pages = ai_pages[:max(1, int(window // each))]
+                    page = min(int(begun // each), len(shown_pages) - 1)
+                    rest = f" · całość: sejmomat.pl/{root} · głosowanie nr {num} za chwilę" \
+                        + (f" · strona {page + 1}/{len(shown_pages)}" if len(shown_pages) > 1 else "")
+                    sub = shorten(live_chat.item(nxt), SUB_CHARS - len(rest)) + rest
+                    return overlay.frame_scene(overlay.text_scene(("ai", num, page), "O czym jest projekt", sub, shown_pages[page],
+                                                                  begun - page * each, each, badge=("STRESZCZENIE AI", AI_BADGE),
+                                                                  fade=(page == 0, False)), hhmm, "GŁOSOWANIE")
         item, topic, vote = captions(shown, tags, title)
         recent = shown and (clock - warsaw(shown[-1]["date"])).total_seconds() < QUIET
         chip = note = None
@@ -1791,7 +1848,7 @@ def main():
                     if c.get("kind") == "region":   # five MPs a page, five seconds a page
                         length = min(max(10, 5 * -(-len(c["rows"]) // 5)), 30, every - 1)
                     else:
-                        length = min(TOP_SECONDS if c.get("kind") == "top5" else FACT_SECONDS, every - 1)
+                        length = min({"top5": TOP_SECONDS, "ai": AI_SECONDS}.get(c.get("kind"), FACT_SECONDS), every - 1)
                     if into < length:
                         card = overlay.card(c, into, length)
                         showing["until"] = begun + length
