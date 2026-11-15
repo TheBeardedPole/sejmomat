@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% from "_macros.html" import how, crumbs %}
+{% from "_section_nav.html" import section_nav with context %}
+{% from "_veto.html" import veto_status with context %}
+{% set rows = vetoes.vetoes %}
+{% block title %}{{ _("Weta Prezydenta") }}{% endblock %}
+{% block description %}{{ rows | length }} {{ rows | length | plural(_("ustawa zawetowana"), _("ustawy zawetowane"), _("ustaw zawetowanych")) }} {{ _("w tej kadencji: uzasadnienia Prezydenta i głosowania Sejmu nad odrzuceniem weta.") }}{% endblock %}
+{% block content %}
+{{ crumbs(root, [(root ~ "ustawy.html", _("Ustawy"))], _("Weta Prezydenta")) }}
+<style>
+  #veto-table td:nth-child(2) { min-width: 16em; }
+  .veto-stats td, .veto-stats th { text-align: right; }
+  .veto-stats td:first-child, .veto-stats th:first-child { text-align: left; }
+</style>
+<h1>{{ _("Weta Prezydenta") }}</h1>
+{{ section_nav("bills", "weta.html") }}
+<p>{{ _("W tej kadencji Prezydent odmówił podpisania") }} {{ rows | length }} {{ rows | length | plural(_("ustawy"), _("ustaw"), _("ustaw")) }}:
+  {% for name, n in vetoes.by_president | dictsort(by="value", reverse=true) %}{{ name }} {{ n }}{{ ", " if not loop.last }}{% endfor %}.</p>
+{% call how(_("Jak liczymy?")) %}
+<p>{{ _("Prezydent może odmówić podpisania ustawy i przekazać ją Sejmowi do ponownego rozpatrzenia (art. 122 ust. 5 Konstytucji). Sejm odrzuca weto, uchwalając ustawę ponownie większością 3/5 głosów przy obecności co najmniej połowy posłów; wtedy Prezydent musi ją podpisać. Jeśli Sejm nie głosuje albo głosów jest za mało, ustawa nie wchodzi w życie.") }}</p>
+<p>{{ _("Projekty rozpatrywane wspólnie są jedną ustawą i liczą się jako jedno weto. Prezydenta przypisujemy według daty weta: do 5 sierpnia 2025 r. Andrzej Duda, od 6 sierpnia 2025 r. Karol Nawrocki. Przebieg prac pochodzi z API Sejmu, uzasadnienia z druków sejmowych z wnioskiem Prezydenta.") }}</p>
+{% endcall %}
+
+<div class="grid">
+  <div class="card stat"><b>{{ rows | length }}</b>{{ _("weta w tej kadencji") }}</div>
+  <div class="card stat"><b>{{ rows | selectattr("status", "equalto", "upheld") | list | length }}</b>{{ _("Sejm głosował, weto utrzymane") }}</div>
+  <div class="card stat"><b>{{ rows | selectattr("status", "equalto", "overridden") | list | length }}</b>{{ _("weto odrzucone") }}</div>
+  <div class="card stat"><b>{{ rows | selectattr("status", "in", ["waiting", "committee"]) | list | length }}</b>{{ _("Sejm nie głosował") }}</div>
+</div>
+
+<h2>{{ _("Zawetowane ustawy") }}</h2>
+<p class="muted">{{ _("Od najnowszych. Uzasadnienie to tekst wniosku Prezydenta, odczytany ze skanu druku.") }}</p>
+<div class="table-scroll"><table id="veto-table">
+  <thead><tr><th data-sort="text">{{ _("Weto") }}</th><th data-sort="text">{{ _("Ustawa") }}</th><th data-sort="text">{{ _("Prezydent") }}</th>
+    <th data-sort="text">{{ _("Co zrobił Sejm") }}</th><th>{{ _("Uzasadnienie") }}</th></tr></thead>
+  <tbody>
+  {% for x in rows %}
+  <tr>
+    <td data-v="{{ x.veto }}">{{ x.veto | date_pl }}</td>
+    <td lang="pl">{% if x.bill %}<a href="{{ root }}ustawa/{{ x.bill.root }}.html">{{ x.title }}</a>{% else %}{{ x.title }}{% endif %}
+      {% if x.law_date %} <span class="muted">({{ _("uchwalona") }} {{ x.law_date | date_pl }})</span>{% endif %}</td>
+    <td>{{ x.president }}</td>
+    <td>{{ veto_status(x, root) }}</td>
+    <td>{% if x.print and x.print.paragraphs %}<a href="{{ root }}weto/{{ x.slug }}.html">{{ _("Czytaj") }}</a>{% elif x.print %}<a href="{{ print_url(x.print.number) }}">{{ _("druk nr") }} {{ x.print.number }}</a>{% else %}<span class="muted">{{ _("brak druku") }}</span>{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+
+{% set voted = rows | selectattr("vote") | list %}
+{% if voted %}
+<h2>{{ _("Jak kluby głosowały nad odrzuceniem weta") }}</h2>
+<p>{{ _("Głosy klubów we wszystkich głosowaniach nad ponownym uchwaleniem ustawy") }} ({{ voted | length }}). {{ _("„Za” oznacza odrzucenie weta.") }}</p>
+{% set tally = {} %}
+{% for x in voted %}{% for club, c in x.vote.clubs.items() %}
+  {% set t = tally.setdefault(club, {"Y": 0, "N": 0, "A": 0, "X": 0}) %}
+  {% for k in ("Y", "N", "A", "X") %}{% set _x = t.update({k: t[k] + c[k]}) %}{% endfor %}
+{% endfor %}{% endfor %}
+{% set club_pages = club_rows | map(attribute="id") | list %}
+<div class="table-scroll"><table class="veto-stats">
+  <thead><tr><th>{{ _("Klub") }}</th><th>{{ _("za") }}</th><th>{{ _("przeciw") }}</th><th>{{ _("wstrzymało się") }}</th><th>{{ _("nie głosowało") }}</th></tr></thead>
+  <tbody>
+  {% for club, t in tally | dictsort | sort(attribute="1.Y", reverse=true) %}
+  <tr><td>{% if club in club_pages %}<a href="{{ root }}klub/{{ club_slug(club) }}.html">{{ club }}</a>{% else %}{{ _("niezrzeszeni") if club == "niez." else club }}{% endif %}</td>
+    <td class="v-Y">{{ t.Y }}</td><td class="v-N">{{ t.N }}</td><td>{{ t.A }}</td><td>{{ t.X }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% endif %}
+
+{% if vetoes.tk %}
+<h2>{{ _("Ustawy skierowane do Trybunału Konstytucyjnego") }}</h2>
+<p>{{ _("Zamiast weta Prezydent może przed podpisaniem zapytać Trybunał, czy ustawa jest zgodna z Konstytucją. Tak było") }} {{ vetoes.tk | length }} {{ vetoes.tk | length | plural(_("raz"), _("razy"), _("razy")) }}.</p>
+<div class="table-scroll"><table>
+  <thead><tr><th>{{ _("Data") }}</th><th>{{ _("Ustawa") }}</th><th>{{ _("Prezydent") }}</th></tr></thead>
+  <tbody>
+  {% for x in vetoes.tk %}
+  <tr><td>{{ x.date | date_pl }}</td>
+    <td lang="pl">{% if x.bill %}<a href="{{ root }}ustawa/{{ x.bill.root }}.html">{{ x.title }}</a>{% else %}{{ x.title }}{% endif %}</td>
+    <td>{{ x.president }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% endif %}
+{% endblock %}

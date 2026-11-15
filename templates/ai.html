@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% from "_macros.html" import how, crumbs, tag_chips %}
+{% set rows = bills | selectattr("ai") | rejectattr("ai.insufficient") | list %}
+{% block title %}{{ _("Streszczenia ustaw (AI)") }}{% endblock %}
+{% block description %}{{ _("Najważniejsze projekty ustaw tej kadencji streszczone prostym językiem przez model językowy, z odnośnikami do przebiegu prac i głosowań.") }}{% endblock %}
+{% block content %}
+{{ crumbs(root, [(root ~ "ustawy.html", _("Ustawy"))], _("Streszczenia AI")) }}
+<style>
+  .ai-badge { display: inline-block; font-size: .78rem; font-weight: 600; padding: 2px 8px; border-radius: 999px;
+              background: var(--warn-bg); vertical-align: middle; }
+  .ai-item { border-top: 1px solid var(--border, #8884); padding: 14px 0; }
+  .ai-item h3 { margin: 0 0 4px; font-size: 1.05rem; }
+  .ai-item ul { margin: 6px 0 4px 1.2em; padding: 0; }
+  #ai-filter { width: 100%; max-width: 28em; padding: 6px 10px; margin: 6px 0 4px; }
+</style>
+<h1>{{ _("Streszczenia ustaw") }} <span class="ai-badge">AI</span></h1>
+<p>{{ rows | length }} {{ rows | length | plural(_("najważniejszy projekt"), _("najważniejsze projekty"), _("najważniejszych projektów")) }} {{ _("tej kadencji, każdy streszczony w kilku zdaniach, od ostatnio głosowanych.") }}</p>
+<p class="callout">{{ _("Te streszczenia napisał model językowy (AI), nie redakcja Sejmomatu. Mogą coś pominąć albo uprościć. Opisują projekt w wersji złożonej w Sejmie; to, co Sejm zmienił, uchwalił albo odrzucił, pokazuje strona ustawy, wprost z danych Sejmu.") }}</p>
+{% call how(_("Jak powstały?")) %}
+<p>{{ _("Model czytał tytuł, opis Sejmu i druk projektu (jego początek i uzasadnienie), bez innych źródeł i bez własnej oceny. Projekty wybrał i uszeregował według wagi dla zwykłego czytelnika również model; nie ma tu ustaw technicznych, wyborów osób ani sprawozdań.") }}</p>
+{% set models = rows | map(attribute="ai.model") | unique | list %}
+<p>{{ _("Model") }}: {{ models | join(", ") }}.</p>
+{% endcall %}
+
+<label for="ai-filter" class="muted">{{ _("Szukaj w streszczeniach") }}</label><br>
+<input id="ai-filter" type="search" autocomplete="off">
+{% for b in rows | sort(attribute="last", reverse=true) %}
+<article class="ai-item" id="ustawa-{{ b.root }}" data-text="{{ (b.title ~ ' ' ~ b.ai.summary ~ ' ' ~ (b.ai.points | join(' ')) ~ ' ' ~ (b.tags | join(' '))) | lower }}">
+  <h3 lang="pl"><a href="{{ root }}ustawa/{{ b.root }}.html">{{ b.title }}</a></h3>
+  {% if b.tags %}<p>{{ tag_chips(b.tags, root) }}</p>{% endif %}
+  <p lang="pl">{{ b.ai.summary }}</p>
+  {% if b.ai.points %}<ul lang="pl">{% for pt in b.ai.points %}<li>{{ pt }}</li>{% endfor %}</ul>{% endif %}
+  {% if b.ai.who %}<p class="muted" lang="pl">{{ b.ai.who }}</p>{% endif %}
+  <p><a href="{{ root }}ustawa/{{ b.root }}.html">{{ _("Przebieg prac i głosowania") }}</a>{% if b.veto %} · <a href="{{ root }}weto/{{ b.veto.slug }}.html">{{ _("Weto Prezydenta") }}</a>{% endif %}</p>
+</article>
+{% else %}
+<p class="muted">{{ _("Streszczeń jeszcze nie ma.") }}</p>
+{% endfor %}
+<script>
+(() => {
+  const box = document.getElementById("ai-filter");
+  const items = [...document.querySelectorAll(".ai-item")];
+  box?.addEventListener("input", () => {
+    const q = box.value.trim().toLowerCase();
+    for (const el of items) el.hidden = q && !el.dataset.text.includes(q);
+  });
+})();
+</script>
+{% endblock %}

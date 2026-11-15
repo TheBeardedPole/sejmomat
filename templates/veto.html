@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% from "_macros.html" import how, crumbs %}
+{% from "_veto.html" import veto_status with context %}
+{% block title %}{{ _("Weto") }}: {{ x.title | truncate(100) }}{% endblock %}
+{% block description %}{{ x.president }} {{ _("odmówił podpisania ustawy") }} {{ x.law }} ({{ x.veto | date_pl }}). {{ _("Uzasadnienie weta i głosowanie Sejmu.") }}{% endblock %}
+{% block main_attrs %} data-pagefind-body{% endblock %}
+{% block content %}
+{{ crumbs(root, [(root ~ "ustawy.html", _("Ustawy")), (root ~ "weta.html", _("Weta Prezydenta"))], _("Weto z") ~ " " ~ (x.veto | date_pl)) }}
+<h1 lang="pl">{{ x.title }}</h1>
+<p>{{ x.president }} {{ _("odmówił podpisania ustawy") }} {{ x.veto | date_pl }}.</p>
+<table class="facts">
+  <tbody>
+  {% if x.law_date %}<tr><th>{{ _("Uchwalona przez Sejm") }}</th><td>{{ x.law_date | date_pl }}</td></tr>{% endif %}
+  {% if x.sent %}<tr><th>{{ _("Przekazana Prezydentowi") }}</th><td>{{ x.sent | date_pl }}</td></tr>{% endif %}
+  <tr><th>{{ _("Weto") }}</th><td>{{ x.veto | date_pl }}</td></tr>
+  <tr><th>{{ _("Co zrobił Sejm") }}</th><td>{{ veto_status(x, root) }}</td></tr>
+  {% if x.bill %}<tr><th>{{ _("Przebieg prac i głosowania") }}</th><td><a href="{{ root }}ustawa/{{ x.bill.root }}.html">{{ _("druk nr") }} {{ x.bill.root }}</a></td></tr>{% endif %}
+  {% if x.print %}<tr><th>{{ _("Wniosek Prezydenta") }}</th><td><a href="{{ print_url(x.print.number) }}">{{ _("druk nr") }} {{ x.print.number }}</a>{% if x.print.pages %} <span class="muted">({{ x.print.pages }} {{ x.print.pages | plural(_("strona"), _("strony"), _("stron")) }})</span>{% endif %}</td></tr>{% endif %}
+  </tbody>
+</table>
+{% if x.vote %}<p class="callout">{{ _(x.vote.motion[1]) if x.vote.motion else "" }}</p>{% endif %}
+
+<h2 id="uzasadnienie">{{ _("Uzasadnienie weta") }}</h2>
+{% if x.print and x.print.paragraphs %}
+{% call how(_("Skąd jest ten tekst?")) %}<p>{{ _("To uzasadnienie z wniosku Prezydenta o ponowne rozpatrzenie ustawy, druk sejmowy nr") }} {{ x.print.number }}. {{ _("Druk jest skanem, więc tekst odczytaliśmy automatycznie (OCR); mogą się w nim zdarzyć błędy odczytu. Wiążące jest brzmienie druku na stronie Sejmu.") }}</p>{% endcall %}
+<div class="prose" lang="pl">
+{% for p in x.print.paragraphs %}<p>{{ p }}</p>
+{% endfor %}
+</div>
+{% elif x.print %}
+<p>{{ _("Uzasadnienie jest w druku nr") }} <a href="{{ print_url(x.print.number) }}">{{ x.print.number }}</a>; {{ _("jego tekstu jeszcze nie odczytaliśmy.") }}</p>
+{% else %}
+<p class="muted">{{ _("Nie znaleźliśmy druku z wnioskiem Prezydenta.") }}</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,1524 @@
+{
+ "31": {
+  "summary": "Obywatelski projekt wprowadza obowiązek, by minister zdrowia opracował, wdrożył i sfinansował program leczenia niepłodności, w tym zapłodnienia pozaustrojowego (in vitro). Autorzy projektu wskazują, że niepłodność dotyka wielu osób, a kryzys demograficzny uzasadnia finansowanie takiego leczenia ze środków budżetu państwa.",
+  "points": [
+   "Minister zdrowia ma obowiązkowo przygotować i sfinansować program leczenia niepłodności obejmujący procedury wspomaganej prokreacji, w tym in vitro.",
+   "Do tego programu nie stosowałoby się części przepisów o zwykłych programach polityki zdrowotnej.",
+   "Minister ma co roku do 31 lipca przedkładać Sejmowi sprawozdanie z wykonania programu.",
+   "Na program ma być przeznaczane co roku z budżetu państwa nie mniej niż 500 mln zł.",
+   "Realizacja programu ma ruszyć od 1 stycznia 2023 r., a ustawa ma wejść w życie po 14 dniach od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy przede wszystkim par i osób leczących niepłodność oraz Ministra Zdrowia, który musiałby prowadzić i finansować program.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "32": {
+  "summary": "Obywatelski projekt wprowadza rentę wdowią: nową regułę dla osób, które mają prawo zarówno do własnej emerytury lub renty, jak i do renty rodzinnej po zmarłym współmałżonku. Zamiast wybierać jedno świadczenie, osoba taka mogłaby pobierać jedno w całości i połowę drugiego. Autorzy wskazują, że dzisiejsze zasady zmuszają wdowy i wdowców do pokrywania kosztów prowadzenia domu z jednego świadczenia zamiast z dwóch.",
+  "points": [
+   "Wdowa lub wdowiec wybiera jeden z dwóch wariantów: rentę rodzinną powiększoną o 50% własnej emerytury lub renty albo własną emeryturę lub rentę powiększoną o 50% renty rodzinnej.",
+   "Zasada obejmuje świadczenia z ZUS, z KRUS oraz wojskowe i policyjne, a także renty z ubezpieczenia wypadkowego.",
+   "Renta wdowia nie mogłaby przekroczyć trzykrotności przeciętnej miesięcznej emerytury z Funduszu Ubezpieczeń Społecznych ostatnio ogłoszonej przez Prezesa ZUS.",
+   "Wskaźnik 50% byłby wprowadzany stopniowo: 15% od 1 lipca 2023 r. do 31 grudnia 2023 r., potem 20% od 1 stycznia 2024 r. do 30 czerwca 2024 r.",
+   "Organy rentowe i emerytalne miałyby w ciągu miesiąca poinformować świadczeniobiorców o nowych warunkach."
+  ],
+  "who": "Projekt dotyczy najbardziej wdów i wdowców, którzy mają prawo do własnej emerytury lub renty oraz do renty rodzinnej po zmarłym małżonku.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "56": {
+  "summary": "Projekt uchwały powołuje Komisję Śledczą, czyli specjalny zespół posłów z uprawnieniami do badania sprawy. Ma ona zbadać legalność i prawidłowość działań oraz możliwe nadużycia i zaniedbania przy legalizacji pobytu cudzoziemców w Polsce od 1 stycznia 2019 r. do 20 listopada 2023 r. Autorzy projektu wskazują, że potrzebę badania uzasadnia tzw. afera wizowa oraz wzrost liczby wydawanych wiz.",
+  "points": [
+   "Komisja ma badać działania członków Rady Ministrów, urzędników Ministerstwa Spraw Zagranicznych, konsulów, prokuratury oraz służb ścigających przestępstwa.",
+   "Komisja ma ocenić umowy dotyczące pośrednictwa wizowego oraz działania związane z ich przygotowaniem i wykonywaniem.",
+   "Komisja ma ustalić liczbę i tożsamość osób, które przekroczyły granicę nielegalnie lub którym zalegalizowano pobyt w wyniku nadużyć lub zaniedbań.",
+   "Komisja ma przygotować projekty zmian w prawie dotyczących legalizacji pobytu cudzoziemców.",
+   "W skład Komisji wchodzi 11 posłów, a uchwała wchodzi w życie z dniem podjęcia."
+  ],
+  "who": "Projekt dotyczy przede wszystkim urzędników i organów państwa zajmujących się wizami i legalizacją pobytu cudzoziemców oraz osób, które w badanym okresie uzyskały wizy lub zalegalizowały pobyt.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "57": {
+  "summary": "Projekt uchwały powołuje komisję śledczą Sejmu, czyli specjalną komisję z uprawnieniami do przesłuchiwania świadków. Ma ona zbadać, czy czynności operacyjne służb, w tym z użyciem oprogramowania Pegasus, były legalne, prawidłowe i celowe w okresie od 16 listopada 2015 r. do 20 listopada 2023 r. Autorzy projektu wskazują, że skala inwigilacji obywateli jest niejasna, a organy państwa nie wyjaśniły sprawy.",
+  "points": [
+   "Komisja bada czynności operacyjno-rozpoznawcze, czyli m.in. podsłuchy, kontrolę korespondencji i utrwalanie rozmów, prowadzone przez członków Rady Ministrów, służby specjalne, Policję oraz organy kontroli skarbowej i celno-skarbowej.",
+   "Do jej zadań należy ocena zakupu Pegasusa lub podobnych narzędzi oraz ustalenie osób odpowiedzialnych za ten zakup.",
+   "Komisja ma ustalić liczbę zastosowanych czynności bez wiedzy osób, których dotyczyły, oraz osoby, wobec których użyto ich w sposób nieprawidłowy, nielegalny lub niecelowy.",
+   "Ma też ustalić, kto mógł doprowadzić do nielegalnego ujawnienia danych o zainteresowaniach polskich służb obcym wywiadom.",
+   "W skład komisji wchodzi 11 posłów, a uchwała wchodzi w życie z dniem podjęcia."
+  ],
+  "who": "Projekt dotyczy przede wszystkim członków rządu i szefów służb, którzy decydowali o inwigilacji lub ją prowadzili, oraz osób, wobec których użyto takich narzędzi.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "58": {
+  "summary": "Projekt uchwały powołuje sejmową komisję śledczą, czyli organ Sejmu z uprawnieniami do wyjaśniania spraw, do zbadania działań podjętych w celu przygotowania i przeprowadzenia wyborów prezydenckich w 2020 roku w formie głosowania korespondencyjnego. Autorzy projektu wskazują, że potrzebne jest zbadanie legalności, prawidłowości i celowości tych działań.",
+  "points": [
+   "Komisja składałaby się z 11 posłów.",
+   "Zbadałaby działania rządu, w tym Prezesa Rady Ministrów i ministra aktywów państwowych, a także polecenia wydane spółkom Poczta Polska i Polska Wytwórnia Papierów Wartościowych.",
+   "Objęłaby prace Sejmu i jego organów nad rządowym projektem ustawy o szczególnych instrumentach wsparcia w związku z koronawirusem, do którego dodano przepis wyłączający część Kodeksu wyborczego.",
+   "Miałaby ustalić, czy organizacja wyborów w czasie pandemii mogła zagrażać życiu lub zdrowiu wielu osób.",
+   "Miałaby ustalić, czy działania te doprowadziły do niekorzystnego rozporządzenia środkami publicznymi lub mieniem Skarbu Państwa."
+  ],
+  "who": "Projekt dotyczy przede wszystkim członków ówczesnego rządu, spółek państwowych, którym wydano polecenia, oraz posłów, którzy mieliby zasiadać w komisji.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "71": {
+  "summary": "Projekt przedłuża na 2024 rok mechanizmy osłonowe dotyczące cen energii elektrycznej, paliw gazowych i ciepła, które obowiązywały w latach 2022 i 2023. Autorzy projektu wskazują, że sytuacja na rynku energii się poprawiła, ale skutki kryzysu energetycznego są nadal odczuwalne, zwłaszcza przez gospodarstwa domowe, instytucje użyteczności publicznej oraz małe i średnie firmy.",
+  "points": [
+   "Energia elektryczna: w gospodarstwach domowych w 2024 r. w rozliczeniach stosuje się ceny i stawki opłat dystrybucyjnych z taryf na 2022 r., do limitu zużycia 3 MWh.",
+   "Podwyższone limity zużycia, 4 MWh albo 3,6 MWh, dla gospodarstw prowadzących działalność rolną, rodzin z Kartą Dużej Rodziny i osób niepełnosprawnych.",
+   "Cena maksymalna energii elektrycznej 693 zł/MWh dla podmiotów użyteczności publicznej, samorządów, producentów rolnych, odbiorców wrażliwych oraz mikro, małych i średnich firm, a także dla gospodarstw domowych po przekroczeniu limitu.",
+   "Paliwa gazowe: cena maksymalna 200,17 zł/MWh w 2024 r. dla odbiorców chronionych, w tym piekarni, oraz dalsze rekompensaty dla firm energetycznych i gazowy odpis na fundusz.",
+   "Ciepło: ceny i stawki dla uprawnionych odbiorców nie wyższe niż z 30 września 2022 r. powiększone o 40%, a firmy ciepłownicze dostają wyrównanie z budżetu państwa."
+  ],
+  "who": "Projekt dotyczy najbardziej gospodarstw domowych, a także instytucji użyteczności publicznej, samorządów, małych i średnich firm oraz przedsiębiorstw energetycznych, które otrzymują rekompensaty.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "95": {
+  "summary": "To wniosek posłów o wybór Donalda Franciszka Tuska na Prezesa Rady Ministrów, złożony do Marszałka Sejmu na podstawie art. 154 ust. 3 Konstytucji i regulaminu Sejmu. Wnioskodawcy przedstawiają życiorys kandydata i uzasadniają, że daje on rękojmię należytego wykonywania obowiązków premiera.",
+  "points": [
+   "Wniosek dotyczy wyboru jednej osoby, Donalda Franciszka Tuska, na stanowisko Prezesa Rady Ministrów.",
+   "Do reprezentowania wnioskodawców w pracach nad wnioskiem upoważniono posła Borysa Budkę.",
+   "Autorzy przypominają, że kandydat był premierem w latach 2007-2014 oraz Przewodniczącym Rady Europejskiej w latach 2014-2019.",
+   "Autorzy wskazują, że za jego rządów polska gospodarka urosła o niemal 20%, a w sytuacji agresji Rosji na Ukrainę kandydat będzie dbał o interesy kraju i relacje z sojusznikami.",
+   "Uzasadnienie opisuje też jego działalność opozycyjną, parlamentarną, nagrody i odznaczenia."
+  ],
+  "who": "Wniosek dotyczy kandydata na premiera oraz posłów Sejmu, którzy mają zdecydować o wyborze Prezesa Rady Ministrów.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "96": {
+  "summary": "Prezes Rady Ministrów Donald Tusk zwraca się do Marszałka Sejmu o wybór 26 osób w skład Rady Ministrów. Wniosek opiera się na art. 154 ust. 3 Konstytucji i jest datowany na 12 grudnia 2023 r. Dokument nie zawiera uzasadnienia, to sama lista kandydatów na poszczególne urzędy.",
+  "points": [
+   "Wniosek obejmuje 26 osób, każda z przypisanym urzędem.",
+   "Dwie osoby mają objąć urzędy Wiceprezesa Rady Ministrów: jedna łącznie z funkcją Ministra Obrony Narodowej, druga łącznie z funkcją Ministra Cyfryzacji.",
+   "Wśród proponowanych urzędów są m.in. Minister Sprawiedliwości, Minister Finansów, Minister Spraw Zagranicznych, Minister Zdrowia i Minister Edukacji.",
+   "Cztery osoby są wskazane na urząd Ministra, Członka Rady Ministrów, bez resortu w nazwie urzędu."
+  ],
+  "who": "Wniosek dotyczy osób proponowanych do składu rządu oraz Sejmu, który wybiera członków Rady Ministrów.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "125": {
+  "summary": "Projekt ustawy budżetowej na rok 2024 ustala plan dochodów i wydatków państwa oraz limity zadłużenia na ten rok. Rząd przedstawił go Sejmowi razem ze Strategią zarządzania długiem sektora finansów publicznych na lata 2024–2027 i planem limitu mianowań urzędników w służbie cywilnej. Projekt ma wejść w życie 1 stycznia 2024 r.",
+  "points": [
+   "Dochody budżetu państwa: 682 375 747 tys. zł, wydatki: 866 375 747 tys. zł, deficyt nie większy niż 184 000 000 tys. zł.",
+   "Budżet środków europejskich: dochody 88 151 660 tys. zł, wydatki 120 660 069 tys. zł.",
+   "Limit przyrostu zadłużenia (kredyty, pożyczki, papiery wartościowe) do 370 000 000 tys. zł oraz limit poręczeń i gwarancji Skarbu Państwa do 200 000 000 tys. zł.",
+   "Kwoty bazowe i wskaźnik wzrostu wynagrodzeń w państwowej sferze budżetowej (średnioroczny wskaźnik 120,0%, z wyłączeniem kierowniczych stanowisk państwowych), etaty Policji w liczbie 108 995 oraz rezerwa ogólna 450 000 tys. zł.",
+   "Plany finansowe agencji, instytucji gospodarki budżetowej i funduszy oraz limit zobowiązań z umów o partnerstwie publiczno-prywatnym do 3 000 000 tys. zł."
+  ],
+  "who": "Projekt dotyczy całego państwa: urzędów, służb, samorządów i wszystkich, którzy płacą podatki lub korzystają z wydatków publicznych.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "128": {
+  "summary": "Projekt zawiera przepisy, które mają umożliwić wykonanie budżetu państwa na rok 2024. Zmienia na ten rok m.in. zasady ustalania wynagrodzeń sędziów, prokuratorów i nauczycieli oraz sposób finansowania części zadań państwa. Autorzy projektu wskazują, że rozwiązania są ściśle powiązane z kwotami w projekcie ustawy budżetowej na 2024 rok.",
+  "points": [
+   "Podstawa wynagrodzenia sędziów (Trybunału Konstytucyjnego, sądów powszechnych, Sądu Najwyższego) i prokuratorów w 2024 roku wynosi 6 114,08 zł. Autorzy wskazują, że to wzrost o 12,3% w porównaniu z 5 444,42 zł w 2023 roku.",
+   "Średnie wynagrodzenie nauczycieli ma być w 2024 roku zwiększone o 6,857%, a podstawa wynagrodzeń kadry kierowniczej w spółkach i podmiotach publicznych pozostaje na poziomie przyjętym na 2023 rok.",
+   "Uczelniom z programu \"Inicjatywa doskonałości - uczelnia badawcza\" państwo przekaże skarbowe papiery wartościowe o wartości do 496 733 tys. zł, a Funduszowi Reprywatyzacji do 10 mld zł.",
+   "PKP Polskie Linie Kolejowe dostaną skarbowe papiery wartościowe o wartości 1 300 000 tys. zł na podwyższenie kapitału, z przeznaczeniem na inwestycje.",
+   "Dotacja dla Funduszu Ubezpieczeń Społecznych może w 2024 roku pokrywać też rekompensatę składek przekazywanych do otwartych funduszy emerytalnych, a środki Funduszu rozwoju przewozów autobusowych zostają w Funduszu na dofinansowanie przewozów."
+  ],
+  "who": "Projekt dotyczy najbardziej sędziów, prokuratorów, nauczycieli, uczelni, samorządów oraz instytucji finansowanych z budżetu państwa, takich jak PKP Polskie Linie Kolejowe.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "176": {
+  "summary": "Projekt zmienia art. 152 Kodeksu karnego, który dotyczy przerywania ciąży. Przerwanie ciąży za zgodą kobiety do 12. tygodnia przestałoby być przestępstwem. Autorzy projektu wskazują, że obecne przepisy zmuszają wiele kobiet do szukania zabiegu poza publiczną opieką zdrowotną i karzą też osoby, które im pomagają.",
+  "points": [
+   "Przerwanie ciąży za zgodą kobiety nie byłoby przestępstwem, jeśli od początku ciąży nie minęło więcej niż 12 tygodni.",
+   "Nie podlegałoby karze przerwanie ciąży za zgodą kobiety, gdy badania wskazują na duże prawdopodobieństwo ciężkiego i nieodwracalnego upośledzenia płodu albo nieuleczalnej choroby zagrażającej jego życiu.",
+   "Za przerwanie ciąży poza tymi przypadkami zamiast do 3 lat więzienia groziłaby grzywna albo ograniczenie wolności.",
+   "Uchylona zostałaby kara za pomoc w przerwaniu ciąży i nakłanianie do niego, co według autorów chroni bliskich kobiety.",
+   "Projekt miałby wejść w życie po 14 dniach od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy najbardziej kobiet w ciąży, osób, które im pomagają, oraz lekarzy wykonujących zabiegi.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "185": {
+  "summary": "Projekt uchyla przepis z 2017 r., który nakazywał, by wszystkie leki antykoncepcyjne wydawano wyłącznie na receptę. Dzięki temu o dostępności leku bez recepty ma znów decydować kategoria nadana przy dopuszczeniu go do obrotu. Autorzy projektu wskazują, że obecny przepis wymusza receptę także tam, gdzie dopuszczenie do obrotu przewidywało sprzedaż bez niej.",
+  "points": [
+   "Uchylenie art. 23a ust. 1a Prawa farmaceutycznego, który przypisywał wszystkim lekom antykoncepcyjnym kategorię „wydawane z przepisu lekarza (Rp)”.",
+   "Zgodnie z uzasadnieniem bez recepty stanie się dostępny tylko jeden środek, zawierający octan uliprystalu, który ma taką kategorię w decyzji o dopuszczeniu do obrotu.",
+   "Minister zdrowia będzie mógł rozporządzeniem wskazać leki antykoncepcyjne bez recepty, które mimo to będą wydawane na receptę, w szczególności ze względu na wiek osoby.",
+   "Wydanie takiego rozporządzenia będzie dobrowolne, aby minister mógł ocenić sytuację.",
+   "Projekt ma wejść w życie po 14 dniach od ogłoszenia, bez przepisów przejściowych."
+  ],
+  "who": "Projekt dotyczy najbardziej osób kupujących środki antykoncepcyjne oraz aptek ogólnodostępnych.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "188": {
+  "summary": "Rządowy projekt przedłuża do 30 czerwca 2024 r. szczególne zasady pobytu i pomocy dla obywateli Ukrainy, które miały wygasnąć 4 marca 2024 r. Przedłuża też na rok 2024 ulgi podatkowe związane z pomocą Ukrainie. Autorzy projektu wskazują, że wynika to z przedłużenia przez Radę Unii Europejskiej tymczasowej ochrony do 4 marca 2025 r. i z trwającej wojny.",
+  "points": [
+   "Termin 4 marca 2024 r. zastępuje się terminem 30 czerwca 2024 r. m.in. w przepisach o legalnym pobycie obywateli Ukrainy, ważności wiz i zezwoleń oraz zawieszeniu części postępowań w sprawach pobytowych.",
+   "Okres, w którym obywatele Ukrainy z kwalifikacjami lekarza, lekarza dentysty, pielęgniarki lub położnej spoza Unii mogą uzyskać zgodę na wykonywanie zawodu, wydłuża się z 25 do 28 miesięcy.",
+   "Preferencje w podatku dochodowym od osób fizycznych i prawnych obowiązujące do końca 2023 r. mają obowiązywać do 31 grudnia 2024 r.: koszty darowizn na cele związane z wojną w Ukrainie, brak opodatkowania otrzymanych darowizn i zwolnienie pomocy humanitarnej dla obywateli Ukrainy.",
+   "Ośrodek interesów życiowych w Polsce, potrzebny przy podatku od osób fizycznych, można nadal wykazać pisemnym oświadczeniem.",
+   "Projekt ma wejść w życie z dniem następującym po dniu ogłoszenia."
+  ],
+  "who": "Projekt dotyczy najbardziej obywateli Ukrainy przebywających w Polsce oraz podatników przekazujących darowizny na pomoc Ukrainie.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "194": {
+  "summary": "Projekt zmienia ustawę o podatku dochodowym od osób fizycznych tak, aby kwota wolna od podatku była jednakowa dla wszystkich i wynosiła dwunastokrotność minimalnego wynagrodzenia za pracę, ale nie mniej niż 60 000 zł. Autorzy projektu wskazują, że ma to zmniejszyć tzw. klin podatkowy (różnicę między kosztami pracy a wynagrodzeniem na rękę), podnieść płace netto i oprzeć podatki na zasadzie zdolności płatniczej.",
+  "points": [
+   "Do przepisu o kwocie zmniejszającej podatek dodaje się reguły: kwota odliczana w rocznym rozliczeniu równa 12-krotności minimalnego wynagrodzenia, nie mniej niż 60 000 zł.",
+   "Uchylone zostają ustępy 1c i 1d, czyli dotychczasowe zasady, według których kwota wolna zależy od wysokości dochodów.",
+   "Według autorów dochody do wysokości minimalnego wynagrodzenia nie byłyby w ogóle opodatkowane.",
+   "Projekt miałby wejść w życie 1 stycznia 2024 r.",
+   "Wnioskodawcy szacują maksymalne koszty dla finansów publicznych na 35 mld zł, w tym 18 mld zł dla samorządów."
+  ],
+  "who": "Projekt dotyczy najbardziej osób płacących podatek dochodowy od osób fizycznych, zwłaszcza pracujących za wynagrodzenie.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "209": {
+  "summary": "Projekt zmienia Kodeks karny tak, aby przestępstwo zgwałcenia opierało się na braku świadomej i dobrowolnej zgody osoby, a nie na użyciu przemocy, groźby czy podstępu. Według opisu Sejmu projekt zmienia też kategorię tego czynu z występku na zbrodnię, czyli poważniejszy rodzaj przestępstwa. W dostępnym fragmencie druku nie ma uzasadnienia autorów, więc nie wiadomo, jak sami opisują cel zmian.",
+  "points": [
+   "Rozdział Kodeksu karnego o przestępstwach seksualnych dostaje nazwę: „Przestępstwa przeciwko autonomii seksualnej”.",
+   "Kto doprowadza inną osobę do obcowania płciowego bez wcześniejszej świadomej i dobrowolnej zgody tej osoby, podlega karze pozbawienia wolności na czas nie krótszy od lat 3.",
+   "Za doprowadzenie do innej czynności seksualnej bez zgody kara wynosi od lat 2 do 10, zamiast obecnych od 6 miesięcy do lat 8.",
+   "Te same kary dotyczą wykorzystania bezradności albo braku zdolności rozpoznania znaczenia czynu (art. 198) oraz nadużycia stosunku zależności lub krytycznego położenia (art. 199).",
+   "Projekt ma wejść w życie po upływie 30 dni od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy przede wszystkim osób, wobec których popełniane są przestępstwa seksualne, oraz osób, które mogą być za nie karane.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "219": {
+  "summary": "Rządowy projekt zmienia zasady wyboru sędziów do Krajowej Rady Sądownictwa (KRS), czyli organu, który wskazuje kandydatów na sędziów. Sędziowie członkowie KRS mają być wybierani przez samych sędziów w tajnych wyborach bezpośrednich, a nie przez Sejm. Autorzy projektu wskazują, że ma to przywrócić zgodność przepisów z Konstytucją i z orzeczeniami sądów europejskich oraz polskich sądów.",
+  "points": [
+   "Uchylane są dotychczasowe przepisy o wyborze sędziów do KRS (art. 9a i art. 11a–11e).",
+   "Wybierani mają być: jeden sędzia Sądu Najwyższego, dwóch sędziów sądów apelacyjnych, trzech okręgowych, sześciu rejonowych, jeden sądu wojskowego, jeden Naczelnego Sądu Administracyjnego i jeden wojewódzkiego sądu administracyjnego.",
+   "Głosować mogą czynni sędziowie, każdy na jednego kandydata. Wybory zarządza i przeprowadza Państwowa Komisja Wyborcza.",
+   "Kandydata zgłasza grupa sędziów: 10, 25 albo 40, zależnie od rodzaju sądu. Od odmowy przyjęcia zgłoszenia można odwołać się do Naczelnego Sądu Administracyjnego w terminie 3 dni.",
+   "Przed wyborami odbywa się publiczne wysłuchanie kandydatów, w którym pytania mogą zadawać osoby fizyczne."
+  ],
+  "who": "Projekt dotyczy przede wszystkim sędziów wybierających członków KRS i kandydujących do niej oraz Państwowej Komisji Wyborczej, która ma przeprowadzać wybory.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "223": {
+  "summary": "Brakuje treści projektu i uzasadnienia: dostępny jest tylko tytuł, opis Sejmu i lista wnioskodawców. Z opisu wynika jedynie, że projekt ma realizować zobowiązanie programowe dotyczące odwrócenia skutków orzeczenia Trybunału Konstytucyjnego z 2020 r. w sprawie dopuszczalności przerywania ciąży. Nie wiadomo, jakie konkretnie przepisy zmienia.",
+  "points": [],
+  "who": "Brak wystarczających danych, by rzetelnie określić, kogo projekt dotyczy.",
+  "insufficient": true,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "233": {
+  "summary": "Projekt dopisuje język śląski obok kaszubskiego do listy języków regionalnych w ustawie o mniejszościach narodowych i etnicznych oraz o języku regionalnym. Zmienia też skład Komisji Wspólnej Rządu i Mniejszości Narodowych i Etnicznych. Autorzy projektu wskazują, że status języka regionalnego jest decyzją prawno-polityczną, a śląski spełnia związane z nim warunki.",
+  "points": [
+   "W ustawie pojęcie \"język regionalny\" zostaje zastąpione liczbą mnogą \"języki regionalne\", także w tytule i w rozdziale 4.",
+   "Językami regionalnymi mają być język kaszubski oraz język śląski.",
+   "W Komisji Wspólnej Rządu i Mniejszości Narodowych i Etnicznych zasiadają po dwaj przedstawiciele społeczności kaszubskiej i śląskiej, a społeczności językowe zyskują podobne uprawnienia jak mniejszości, na przykład zgłaszanie kandydatów i współprzewodniczenie komisji.",
+   "Przepisy o wspieraniu języka przez organy publiczne, o programach wojewody oraz o raportach ministra obejmują także języki regionalne.",
+   "Podobne zmiany wprowadza się w innych ustawach: o systemie oświaty, o radiofonii i telewizji, o działach administracji rządowej, o języku polskim, o pożytku publicznym i o urzędowych nazwach miejscowości."
+  ],
+  "who": "Projekt dotyczy najbardziej osób posługujących się językiem śląskim oraz organizacji mniejszości i społeczności językowych uczestniczących w pracach Komisji Wspólnej.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "248": {
+  "summary": "Projekt rozszerza pomoc dla osób spłacających kredyt mieszkaniowy: ułatwia dostęp do wsparcia z Funduszu Wsparcia Kredytobiorców i przedłuża tzw. wakacje kredytowe, czyli możliwość zawieszenia spłaty rat kredytu hipotecznego. Autorzy projektu wskazują, że warunki spłaty kredytów zaciągniętych przed 1 lipca 2022 r. nadal są dla kredytobiorców znacząco gorsze niż w dniu podpisania umowy.",
+  "points": [
+   "Wsparcie z funduszu będzie dostępne, gdy rata przekracza 40% dochodu gospodarstwa domowego (obecnie 50%), a limit dochodu rośnie do dwuipółkrotności kryteriów z ustawy o pomocy społecznej (obecnie dwukrotność).",
+   "Okres wsparcia wydłuża się z 36 do 40 miesięcy, miesięczna kwota wsparcia rośnie z 2000 zł do 3000 zł, a maksymalna pożyczka na spłatę zadłużenia z 72 000 zł do 120 000 zł.",
+   "Zwrot wsparcia rozłożono na 200 rat zamiast 144, a umorzenie reszty nastąpi po terminowej spłacie 134 rat zamiast 100.",
+   "Wakacje kredytowe w 2024 r.: dwa miesiące od 1 maja do 30 czerwca oraz po miesiącu w każdym kwartale od 1 lipca do 31 grudnia, dla kredytów do 1 200 000 zł.",
+   "Warunkiem wakacji kredytowych jest średni wskaźnik raty do dochodu powyżej 30% z ostatnich trzech miesięcy albo troje dzieci na utrzymaniu. Podobne zawieszenie dotyczy kredytów BGK na mieszkania na wynajem, z zakazem podwyżki czynszów ponad stawki z 31 grudnia 2023 r."
+  ],
+  "who": "Projekt dotyczy najbardziej osób spłacających kredyt hipoteczny na cele mieszkaniowe, zwłaszcza tych z wysoką ratą w stosunku do dochodów lub z co najmniej trójką dzieci.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "253": {
+  "summary": "Projekt to nowa, jedna ustawa o Trybunale Konstytucyjnym, która ma zastąpić dwie obecnie obowiązujące ustawy z 30 listopada 2016 r. (o organizacji i trybie postępowania oraz o statusie sędziów). Autorzy projektu wskazują, że kryzys wokół Trybunału, w tym udział osób nieuprawnionych do orzekania i wątpliwości co do wyboru Prezesa i Wiceprezesa, wymaga uporządkowania zasad jego działania i odbudowy zaufania do kontroli zgodności prawa z Konstytucją.",
+  "points": [
+   "Projekt określa zadania Trybunału i sprawy, w których orzeka, m.in. zgodność ustaw z Konstytucją, skargi konstytucyjne, pytania prawne i spory kompetencyjne między najważniejszymi organami państwa.",
+   "Organami Trybunału są Zgromadzenie Ogólne Sędziów i Prezes. Zgromadzenie zbiera się co najmniej raz w miesiącu i wybiera kandydatów na Prezesa i Wiceprezesa.",
+   "Prezesa powołuje Prezydent spośród dwóch kandydatów przedstawionych przez Zgromadzenie Ogólne, na 3-letnią kadencję, z możliwością jednego ponownego powołania.",
+   "Sędziów wybiera Sejm indywidualnie, na 9-letnią kadencję, większością 3/5 głosów, a ponowny wybór jest niedopuszczalny. Sędzią może być osoba w wieku od 40 do 70 lat spełniająca wymogi wiedzy prawniczej.",
+   "Prezes co roku, do końca czerwca, przedkłada Sejmowi i Senatowi informację o problemach wynikających z działalności i orzecznictwa Trybunału."
+  ],
+  "who": "Projekt dotyczy przede wszystkim sędziów i organów Trybunału Konstytucyjnego oraz osób i instytucji kierujących do niego wnioski, skargi i pytania prawne.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "296": {
+  "summary": "Poselski projekt zmienia Kodeks wyborczy tak, aby głosować korespondencyjnie (przez pocztę, bez wizyty w lokalu wyborczym) mógł każdy wyborca. Autorzy projektu wskazują, że głosowanie korespondencyjne jest dobrowolne, ułatwia oddanie głosu i korzystnie wpłynie na frekwencję. Projekt ma wejść w życie po upływie 6 miesięcy od ogłoszenia.",
+  "points": [
+   "Każdy wyborca może głosować korespondencyjnie, ale nie w wyborach do rad samorządowych i na wójta. W tych wyborach mogą tak głosować tylko osoby z niepełnosprawnością w znacznym lub umiarkowanym stopniu.",
+   "Zamiar głosowania zgłasza się komisarzowi wyborczemu (w kraju) lub konsulowi (za granicą) do 13 dnia przed wyborami: ustnie, na piśmie, elektronicznie, a osoba z niepełnosprawnością także telefonicznie.",
+   "Pakiet wyborczy trafia do wyborcy najpóźniej 6 dni przed wyborami (za granicą konsul wysyła go najpóźniej 10 dni przed wyborami), a w kraju jest doręczany do rąk własnych za okazaniem dokumentu tożsamości.",
+   "Głosowanie korespondencyjne jest wyłączone m.in. w szpitalach, domach pomocy społecznej, zakładach karnych i domach studenckich oraz na polskich statkach morskich.",
+   "Głosy korespondencyjne liczą wskazane obwodowe komisje wyborcze, m.in. te w lokalach dostosowanych do potrzeb osób z niepełnosprawnościami."
+  ],
+  "who": "Projekt dotyczy wszystkich uprawnionych do głosowania, a szczególnie osób, którym trudno dotrzeć do lokalu wyborczego, oraz Polaków za granicą.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "316": {
+  "summary": "Brakuje treści projektu i uzasadnienia: plik zawiera tylko pismo Prezydenta kierujące projekt do Sejmu. Z opisu Sejmu wynika jedynie, że projekt ma uregulować usługę asystencji osobistej dla osób z niepełnosprawnościami. Szczegółowych rozwiązań ani argumentów autorów nie da się rzetelnie streścić.",
+  "points": [],
+  "who": "Projekt dotyczy osób z niepełnosprawnościami, które korzystają lub mogłyby korzystać z usługi asystencji osobistej.",
+  "insufficient": true,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "319": {
+  "summary": "Projekt wprowadza trzy świadczenia dla rodziców dzieci w wieku od 12. do 35. miesiąca życia: \"aktywni rodzice w pracy\", \"aktywnie w żłobku\" i \"aktywnie w domu\". Autorzy projektu wskazują, że ma to ułatwić rodzicom łączenie opieki nad dzieckiem z pracą, a jednocześnie zostawić im wybór formy opieki. Na to samo dziecko w danym miesiącu przysługuje tylko jedno z tych świadczeń.",
+  "points": [
+   "Świadczenie \"aktywni rodzice w pracy\" jest dla aktywnych zawodowo rodziców dziecka, które nie chodzi do żłobka, klubu dziecięcego, przedszkola ani nie ma dziennego opiekuna. Co do zasady wymaga aktywności zawodowej obojga rodziców, a tylko jednego, gdy deklaruje on samotne wychowywanie dziecka.",
+   "Świadczenie \"aktywnie w żłobku\" zastąpi obecne dofinansowanie opłaty za żłobek, klub dziecięcy lub dziennego opiekuna. Maksymalna kwota wzrośnie z 400 zł do 1500 zł miesięcznie.",
+   "Świadczenie \"aktywnie w domu\" działa na zasadach podobnych do rodzinnego kapitału opiekuńczego, ale przysługuje na każde dziecko w tym wieku, także pierwsze i jedyne. Jest dla rodziców, którzy nie korzystają z pozostałych dwóch świadczeń.",
+   "Projekt uchyla ustawę o rodzinnym kapitale opiekuńczym, ale zachowuje prawa nabyte. Rodzic będzie mógł zmieniać świadczenie wielokrotnie, pod warunkiem że w danym miesiącu na dziecko wypłacane jest tylko jedno.",
+   "Od 1 stycznia 2026 r. instytucje opieki mają obowiązkowo spełniać minimalne standardy opieki, a minister do spraw rodziny może prowadzić działania promocyjne i badania w tym obszarze."
+  ],
+  "who": "Projekt dotyczy najbardziej rodziców i opiekunów dzieci w wieku od 12. do 35. miesiąca życia oraz żłobków, klubów dziecięcych i dziennych opiekunów.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "324": {
+  "summary": "Projekt zmienia zasady liczenia składki zdrowotnej przedsiębiorców: zamiast od rzeczywistego dochodu ma ona wynikać ze stałej, zadeklarowanej kwoty. Przywraca też możliwość odliczenia składki od podatku dochodowego, tak jak było do 2021 r. Autorzy projektu wskazują, że składka zdrowotna najbardziej ciąży przedsiębiorcom, zwłaszcza tym, którzy nie mogą wybrać ryczałtu od przychodów ewidencjonowanych.",
+  "points": [
+   "Podstawą składki osób prowadzących działalność ma być zadeklarowana kwota, nie niższa niż 75% przeciętnego miesięcznego wynagrodzenia w sektorze przedsiębiorstw w czwartym kwartale roku poprzedniego.",
+   "Składka w nowej wysokości ma obowiązywać od 1 stycznia do 31 grudnia danego roku, a składka ma być miesięczna i niepodzielna.",
+   "Składkę zdrowotną będzie można odliczyć od podatku dochodowego, do wysokości 7,75% podstawy jej wymiaru.",
+   "Odliczenie ma też obejmować składki płacone w innych państwach UE i EOG oraz w Szwajcarii, pod określonymi warunkami.",
+   "Projekt uchyla przepisy dotyczące dotychczasowego rocznego rozliczania składki od dochodu i ma wejść w życie 1 stycznia 2025 r."
+  ],
+  "who": "Projekt dotyczy najbardziej przedsiębiorców i innych osób prowadzących pozarolniczą działalność, którzy opłacają składkę zdrowotną.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "342": {
+  "summary": "Rządowy projekt przedłuża do 30 września 2025 r. okres, w którym pobyt w Polsce obywateli Ukrainy uciekających przed wojną jest uznawany za legalny, wraz z dostępem do świadczeń. Zmienia też zasady nadawania numeru PESEL tej grupie. Autorzy projektu wskazują, że wynika to z przedłużenia przez Radę Unii Europejskiej tymczasowej ochrony do 4 marca 2025 r., z długości roku szkolnego oraz z potrzeby uporządkowania przepisów po ponad dwóch latach ich stosowania.",
+  "points": [
+   "Termin 30 czerwca 2024 r. zastępuje się terminem 30 września 2025 r. w przepisach o legalnym pobycie, ważności wiz i dokumentów pobytowych, noclegach zbiorowych i zawieszeniu części postępowań w sprawach pobytowych.",
+   "Rozszerza się definicję obywatela Ukrainy o małżonka oraz małoletnie dziecko obywatela Ukrainy lub jego małżonka, jeśli przybyli z Ukrainy w związku z wojną.",
+   "Numer PESEL ma być nadawany po potwierdzeniu tożsamości ważnym dokumentem podróży. Osoby, które dostały PESEL na podstawie oświadczenia lub innego dokumentu, mają potwierdzić tożsamość w urzędzie gminy w ciągu 60 dni od daty wydania dokumentu podróży.",
+   "Termin na uzyskanie PESEL zmienia się z 30 dni od przyjazdu na wniosek składany niezwłocznie po przybyciu, a obowiązek pobrania odcisków palców dotyczy osób od 6. roku życia.",
+   "Minister spraw wewnętrznych będzie mógł na czas oznaczony, przy dużym napływie osób, dopuścić potwierdzanie tożsamości innym dokumentem niż dokument podróży."
+  ],
+  "who": "Projekt dotyczy najbardziej obywateli Ukrainy mieszkających w Polsce w związku z wojną oraz urzędów gmin, które nadają numery PESEL.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "346": {
+  "summary": "Rządowy projekt wprowadza na drugą połowę 2024 r. rozwiązania osłonowe w związku z cenami energii: jednorazowy bon energetyczny dla gospodarstw domowych o niższych dochodach oraz przedłużenie ograniczeń cen energii elektrycznej, gazu i ciepła. Autorzy projektu wskazują, że po stabilizacji rynku energii należy stopniowo odchodzić od mechanizmów interwencyjnych, a wsparcie kierować przede wszystkim do gospodarstw najbardziej odczuwających wzrost rachunków.",
+  "points": [
+   "Bon energetyczny przysługuje jednorazowo gospodarstwu jednoosobowemu o przeciętnym dochodzie za 2023 r. do 2500 zł oraz wieloosobowemu do 1700 zł na osobę. Wynosi od 300 zł do 600 zł, zależnie od liczby osób.",
+   "Gospodarstwa, których główne źródło ogrzewania jest zasilane energią elektryczną (np. pompa ciepła, piec akumulacyjny), otrzymują bon w podwójnej wysokości: od 600 zł do 1200 zł.",
+   "Wnioski o bon składa się wójtowi, burmistrzowi lub prezydentowi miasta od 1 sierpnia 2024 r. do 30 września 2024 r.",
+   "Cena maksymalna energii elektrycznej w drugiej połowie 2024 r. wynosi 500 zł/MWh dla gospodarstw domowych oraz 693 zł/MWh dla samorządów, podmiotów użyteczności publicznej i małych oraz średnich przedsiębiorców.",
+   "Mechanizm maksymalnej ceny dostawy ciepła zostaje przedłużony do 30 czerwca 2025 r., a przedsiębiorstwa energetyczne mają złożyć do zatwierdzenia taryfy na energię elektryczną obowiązujące co najmniej do 31 grudnia 2025 r."
+  ],
+  "who": "Projekt dotyczy najbardziej gospodarstw domowych o niższych dochodach oraz odbiorców energii elektrycznej, gazu i ciepła, w tym samorządów i małych firm.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "351": {
+  "summary": "Projekt uchyla ustawę z 14 kwietnia 2023 r. o Państwowej Komisji do spraw badania wpływów rosyjskich na bezpieczeństwo wewnętrzne Polski w latach 2007-2022, co formalnie kończy działalność tej komisji. Autorzy projektu wskazują, że uchylana ustawa narusza przepisy Konstytucji, m.in. zasadę demokratycznego państwa prawa i trójpodział władzy.",
+  "points": [
+   "Ustawa o Państwowej Komisji do spraw badania wpływów rosyjskich traci moc w całości.",
+   "Autorzy zarzucają jej m.in. nieprecyzyjne przepisy działające wstecz oraz przyznanie funkcji sądowniczych organowi politycznemu.",
+   "Autorzy podają, że Sejm 29 listopada 2023 r. odwołał wszystkich członków komisji, a uchylana ustawa jest obecnie „martwa”.",
+   "Autorzy wskazują, że uchylenie da oszczędność dla Skarbu Państwa w wysokości kosztów obsługi komisji i wynagrodzeń jej członków.",
+   "Projekt ma wejść w życie po upływie 14 dni od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy przede wszystkim samej Państwowej Komisji do spraw badania wpływów rosyjskich oraz osób, które mogłyby być objęte jej postępowaniami.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "410": {
+  "summary": "Projekt zmienia Kodeks postępowania karnego tak, aby w procesie nie można było wykorzystać dowodu zdobytego za pomocą przestępstwa. Dotyczy to też dowodów uzyskanych przy okazji kontroli operacyjnej (podsłuchów i podobnych czynności służb), o których wykorzystaniu ma decydować sąd, a nie prokurator. Autorzy projektu, powołując się na petycję Naczelnej Rady Adwokackiej, wskazują, że obecne przepisy naruszają prawo do rzetelnego procesu i prawo do prywatności.",
+  "points": [
+   "Art. 168a otrzymuje nowe brzmienie: niedopuszczalne jest przeprowadzenie i wykorzystanie dowodu uzyskanego do celów postępowania karnego za pomocą czynu zabronionego.",
+   "Uchylany jest art. 168b, który dziś pozwala prokuratorowi zdecydować o wykorzystaniu dowodu uzyskanego przy okazji kontroli operacyjnej.",
+   "Zgodnie z nowym art. 237a prokurator może wystąpić do sądu o zgodę na wykorzystanie takiego dowodu w czasie kontroli lub w ciągu miesiąca od jej zakończenia. Sąd decyduje w ciągu 14 dni na posiedzeniu bez udziału stron.",
+   "Nowe przepisy mają działać także w postępowaniach już wszczętych. Prokurator, który wcześniej sam zdecydował o wykorzystaniu dowodu, ma 6 miesięcy na złożenie wniosku do sądu.",
+   "Ustawa miałaby wejść w życie po 14 dniach od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy przede wszystkim osób objętych postępowaniem karnym, prokuratorów, sądów oraz służb prowadzących kontrolę operacyjną.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "471": {
+  "summary": "Rządowy projekt zmienia kilka ustaw, aby uregulować użycie Sił Zbrojnych do samodzielnych działań w czasie pokoju oraz zapewnić prawną ochronę działań żołnierzy, policjantów i funkcjonariuszy Straży Granicznej. Autorzy projektu wskazują, że potrzebę zmian wynika z sytuacji geopolitycznej i zagrożenia na granicy z Rosją i Białorusią.",
+  "points": [
+   "Wprowadzenie pojęcia operacji wojskowej prowadzonej w Polsce w czasie pokoju oraz zasad, według których żołnierze mogą w niej używać środków przymusu bezpośredniego, broni i uzbrojenia. O użyciu wojska w takiej operacji decydowałby Prezydent na wniosek Rady Ministrów.",
+   "Nowe przepisy karne: żołnierz, policjant lub funkcjonariusz Straży Granicznej nie popełnia przestępstwa, gdy w określonych sytuacjach (np. odpieranie zamachu na życie, zdrowie lub wolność) użyje siły z naruszeniem zasad jej stosowania, jeśli okoliczności wymagają natychmiastowego działania.",
+   "Możliwość żądania obrońcy z urzędu przez żołnierza lub funkcjonariusza oskarżonego o przestępstwo popełnione w następstwie użycia środków przymusu lub broni w służbie, a także zwrot kosztów pomocy prawnej jeszcze w trakcie postępowania.",
+   "Możliwość zachowania pełnego uposażenia przez żołnierza zawieszonego w czynnościach służbowych, przeciwko któremu wszczęto takie postępowanie karne, o czym decydowałby dowódca jednostki.",
+   "Możliwość użycia policjantów do pomocy Straży Granicznej, także w formie samodzielnych działań, oraz zmiany dotyczące wojsk sojuszniczych, Żandarmerii Wojskowej i katalogu środków przymusu bezpośredniego (np. siatki obezwładniające)."
+  ],
+  "who": "Projekt dotyczy przede wszystkim żołnierzy, policjantów i funkcjonariuszy Straży Granicznej działających na granicy państwa oraz osób, wobec których mogą oni użyć siły.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "608": {
+  "summary": "Projekt wprowadza całkowity zakaz trzymania psów na uwięzi, czyli na przykład na łańcuchu przy budzie. Zamiast tego pies, który ma być utrzymywany na zewnątrz, ma przebywać w kojcu o określonych wymiarach. Autorzy projektu wskazują, że obecny przepis, który zakazuje trzymania na uwięzi dłużej niż 12 godzin na dobę, jest w praktyce trudny do wyegzekwowania, a trzymanie zwierząt na łańcuchu jest niehumanitarne.",
+  "points": [
+   "Zakaz utrzymywania psów na uwięzi, z wyjątkiem tymczasowego trzymania podczas spaceru lub transportu.",
+   "Definicja kojca: ogrodzona, zadaszona przestrzeń z dostępem do światła dziennego, w której co najmniej połowa podłoża jest utwardzona.",
+   "Minimalna powierzchnia kojca zależy od wysokości psa w kłębie: nie mniej niż 10 m2 dla psa poniżej 50 cm, 15 m2 dla psa o wysokości od 51 do 65 cm i 20 m2 dla psa powyżej 66 cm.",
+   "Dla każdego kolejnego psa w kojcu powierzchnię zwiększa się o połowę, a suka ze szczeniętami do 3 miesiąca życia dostaje dodatkowe pomieszczenie lub przedział, by móc się odseparować od młodych.",
+   "Obowiązek zapewnienia psu pomieszczenia chroniącego przed pogodą oraz możliwości ruchu poza kojcem co najmniej dwa razy dziennie. Przepisy mają wejść w życie po 6 miesiącach od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy najbardziej osób, które trzymają psy na zewnątrz na łańcuchu lub w kojcu, oraz samych psów.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "611": {
+  "summary": "Dostępny tekst nie wystarcza do rzetelnego streszczenia. Zawiera tylko pismo przewodnie, listę podpisów posłów i opis Sejmu, według którego projekt zmienia Kodeks karny w zakresie częściowej dekryminalizacji przerywania ciąży za zgodą kobiety z naruszeniem przepisów oraz dekryminalizacji pomocy w samodzielnej aborcji. Brakuje treści przepisów i uzasadnienia autorów.",
+  "points": [
+   "Brak treści proponowanych zmian w Kodeksie karnym.",
+   "Brak uzasadnienia projektu.",
+   "Z opisu Sejmu wynika jedynie ogólny zakres: częściowa dekryminalizacja przerywania ciąży za zgodą kobiety oraz pomocy w samodzielnej aborcji."
+  ],
+  "who": "Z dostępnych danych wynika, że projekt dotyczy kobiet w ciąży oraz osób udzielających im pomocy w przerwaniu ciąży.",
+  "insufficient": true,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "622": {
+  "summary": "Rządowy projekt zastępuje obowiązującą od ponad 20 lat ustawę z 2003 r. o dochodach jednostek samorządu terytorialnego (JST: gmin, miast na prawach powiatu, powiatów i województw). Autorzy projektu wskazują, że dotychczasowy system nie dawał samorządom stabilności i przewidywalności, więc proponują oparcie finansów głównie na dochodach własnych z podatków, a subwencję z budżetu państwa jako uzupełnienie.",
+  "points": [
+   "Udział samorządów w PIT i CIT miałby być liczony jako procent od dochodów podatników z terenu danej JST, a nie od podatku należnego. Autorzy wskazują, że ulgi i zmiany podatkowe nie wpływałyby wtedy bezpośrednio na dochody samorządów.",
+   "Samorządy uczestniczyłyby także w PIT płaconym w formie ryczałtu od przychodów ewidencjonowanych.",
+   "Zamiast części subwencji ogólnej pojawiają się potrzeby finansowe: wyrównawcze (z uwzględnieniem zróżnicowanych potrzeb wydatkowych), oświatowe i rozwojowe. Finansowałyby je zwiększone udziały w PIT i CIT, a gdy to nie wystarczy, subwencja ogólna.",
+   "Finansowanie wychowania przedszkolnego zmieniłoby się z dotacji celowych na dochody własne, a potrzeby oświatowe uwzględniałyby skutki podwyżek wynagrodzeń nauczycieli przedszkolnych.",
+   "Miasta na prawach powiatu stanowiłyby osobną kategorię JST, a samorządy miałyby nie dokonywać wpłat do budżetu państwa (tzw. janosikowe)."
+  ],
+  "who": "Projekt dotyczy przede wszystkim gmin, miast na prawach powiatu, powiatów i województw oraz ich budżetów, a pośrednio mieszkańców korzystających z usług samorządów.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "664": {
+  "summary": "Projekt tworzy jedną ustawę o ochronie ludności i obronie cywilnej: wskazuje, kto i jakie zadania wykonuje, gdy ludności grozi niebezpieczeństwo. Obejmuje to zagrożenia naturalne, cybernetyczne, terrorystyczne i wojskowe. Autorzy projektu wskazują, że potrzebę kompleksowej regulacji pokazały kontrole Najwyższej Izby Kontroli, a zadania obrony cywilnej trzeba uregulować w sposób jednolity.",
+  "points": [
+   "Ustawa określa zadania ochrony ludności i obrony cywilnej, organy i podmioty, które je wykonują, oraz zasady planowania tych zadań.",
+   "Projekt reguluje system wykrywania zagrożeń, ostrzegania, powiadamiania i alarmowania ludności.",
+   "Projekt określa zasady użytkowania i ewidencjonowania obiektów zbiorowej ochrony (schronów) oraz warunki techniczne tych obiektów.",
+   "Projekt przewiduje planowanie ewakuacji, miejsc doraźnego schronienia i rezerw materiałowych oraz przygotowanie przekształcenia podmiotów ochrony ludności w podmioty obrony cywilnej.",
+   "Określa organizację obrony cywilnej, sposób powoływania jej personelu i finansowanie zadań, a także zmienia wiele innych ustaw, m.in. o samorządach, Państwowej Straży Pożarnej i zarządzaniu kryzysowym."
+  ],
+  "who": "Projekt dotyczy przede wszystkim organów administracji rządowej i samorządów, służb ratowniczych oraz mieszkańców, którzy mają być informowani i przygotowywani na sytuacje zagrożenia.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "672": {
+  "summary": "Projekt uzupełnia istniejącą ustawę o szczególnych rozwiązaniach związanych z usuwaniem skutków powodzi o dodatkowe formy wsparcia po powodzi z września 2024 roku. Obejmuje pomoc finansową dla rodzin, ułatwienia dla pracowników i pracodawców oraz uproszczenia procedur w urzędach i placówkach. Autorzy projektu wskazują, że ogrom strat wymaga działań wykraczających poza obecne przepisy.",
+  "points": [
+   "Jednorazowy zasiłek losowy na cele edukacyjne w kwocie 1000 zł dla dziecka z rocznego przygotowania przedszkolnego lub ucznia poszkodowanego w powodzi, przyznawany niezależnie od dochodów. Decyzję ma wydać wójt, burmistrz lub prezydent miasta w ciągu 2 dni od wpłynięcia wniosku.",
+   "Dodatkowy zasiłek opiekuńczy dla rodziców i opiekunów, gdy z powodu powodzi zamknięto żłobek, przedszkole, szkołę lub placówkę dla osób z niepełnosprawnościami.",
+   "Ułatwienia w prawie pracy: więcej dni urlopu na żądanie (o 4 dni więcej niż w Kodeksie pracy), urlop w wymiarze części dnia pracy, obniżenie wymiaru czasu pracy do co najmniej połowy etatu na wniosek pracownika, a także brak możliwości zatrudniania w nadgodzinach lub delegowania pracownika z terenów objętych powodzią bez jego zgody.",
+   "Podmioty lecznicze, które poniosły szkody w powodzi, mogą ubiegać się o pożyczki, a wójt może upoważnić do wydawania decyzji i wypłaty zasiłków każdego pracownika urzędu gminy lub gminnej jednostki.",
+   "Przedłużenie lub zawieszenie niektórych terminów: w postępowaniach administracyjnych i sądowo-administracyjnych, na odwołanie od wypowiedzenia umowy o pracę, a także kadencji rad pracowników i społecznych inspektorów pracy."
+  ],
+  "who": "Projekt dotyczy najbardziej osób i rodzin poszkodowanych w powodzi, w tym uczniów, rodziców, pracowników i pracodawców z terenów objętych powodzią, a także gmin i placówek opiekuńczych, oświatowych i leczniczych.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "687": {
+  "summary": "Projekt ustawy budżetowej określa plan dochodów i wydatków państwa na 2025 rok oraz limity zadłużenia i gwarancji. Dostępne fragmenty zawierają same przepisy i zestawienia liczbowe, bez uzasadnienia autorów, więc nie wiadomo, jak rząd opisuje cele tych założeń. Projekt miałby wejść w życie 1 stycznia 2025 r.",
+  "points": [
+   "Dochody budżetu państwa planowane są w wysokości 632 848 215 tys. zł, a wydatki w wysokości 921 618 215 tys. zł.",
+   "Deficyt budżetu państwa na koniec 2025 r. ma wynieść nie więcej niż 288 770 000 tys. zł.",
+   "Przyrost zadłużenia z tytułu kredytów, pożyczek i papierów wartościowych nie może przekroczyć 460 000 000 tys. zł, a poręczenia i gwarancje Skarbu Państwa mogą sięgnąć 200 000 000 tys. zł.",
+   "Założono średnioroczny wzrost cen towarów i usług konsumpcyjnych o 105,0% oraz przeciętne miesięczne wynagrodzenie brutto w gospodarce w wysokości 8 673 zł.",
+   "Kwota bazowa dla nauczycieli wynosi 5 434,82 zł, średnioroczny wskaźnik wzrostu wynagrodzeń w państwowej sferze budżetowej 105,0%, a etaty Policji ustalono na 110 795."
+  ],
+  "who": "Projekt dotyczy wszystkich, ale najbardziej instytucji publicznych, pracowników państwowej sfery budżetowej oraz osób korzystających z funduszy i świadczeń finansowanych z budżetu.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "703": {
+  "summary": "Brakuje treści przepisów projektu i większości uzasadnienia: dostępny fragment druku to głównie przypisy i opis zakażeń wirusem SARS-CoV-2 na fermach norek w kilku krajach. Z opisu Sejmu wynika jedynie, że projekt dotyczy zakazu chowu i hodowli zwierząt na futro w celach komercyjnych, z wyjątkiem królika, z możliwością prowadzenia dotychczasowej hodowli do 1 stycznia 2029 r.",
+  "points": [],
+  "who": "Brak wystarczającego tekstu, by rzetelnie wskazać, kogo projekt dotyczy najbardziej.",
+  "insufficient": true,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "764": {
+  "summary": "Rządowy projekt wyłącza przychody ze sprzedaży środków trwałych (np. nieruchomości czy maszyn używanych w firmie) z podstawy, od której przedsiębiorcy liczą składkę zdrowotną. Autorzy projektu wskazują, że obecne zasady są odbierane jako niesprawiedliwe, bo jednorazowa sprzedaż majątku firmy może oznaczać bardzo wysoką miesięczną składkę.",
+  "points": [
+   "Dotyczy przedsiębiorców rozliczających się według skali podatkowej lub podatkiem liniowym, u których składka zdrowotna liczona jest od dochodu.",
+   "Sprzedaż środków trwałych oraz wartości niematerialnych i prawnych nie będzie wliczana do przychodu na potrzeby składki zdrowotnej, a przy takiej sprzedaży nie wykazuje się ani przychodu, ani kosztu.",
+   "W zeznaniach podatkowych mają pojawić się pola z przychodami ze zbycia środków trwałych, aby ZUS mógł je uwzględniać przy weryfikacji składki.",
+   "Nowe zasady mają dotyczyć składek należnych za okres od 1 lutego 2025 r., a ustawa ma wejść w życie 1 stycznia 2025 r.",
+   "Autorzy projektu zaznaczają, że pełne oszacowanie skutków dla budżetu Narodowego Funduszu Zdrowia nie jest możliwe z powodu braku danych."
+  ],
+  "who": "Projekt dotyczy najbardziej przedsiębiorców prowadzących pozarolniczą działalność gospodarczą, którzy sprzedają środki trwałe firmy.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "777": {
+  "summary": "Poselski projekt ustanawia 24 grudnia, czyli Wigilię Bożego Narodzenia, dniem wolnym od pracy dla wszystkich pracowników. Autorzy projektu wskazują, że dla wielu osób jest to ważny dzień rodzinny, a obecnie część pracowników, np. w handlu czy w systemie zmianowym, nie ma tego dnia wolnego. Projekt dostosowuje do tej zmiany także Kodeks pracy i przepisy o ograniczeniu handlu w niedziele i święta.",
+  "points": [
+   "W ustawie o dniach wolnych od pracy dodaje się 24 grudnia jako Wigilię Bożego Narodzenia.",
+   "Zmienia się przepisy o ograniczeniu handlu: usuwa się szczególne reguły dotyczące 24 grudnia, a w sobotę przed Wielkanocą handel jest zakazany po godzinie 14.00.",
+   "Zakaz handlu nie obowiązuje w kolejne dwie niedziele poprzedzające 24 grudnia, w niedzielę przed Wielkanocą oraz w ostatnią niedzielę stycznia, kwietnia, czerwca i sierpnia.",
+   "Projekt miałby wejść w życie w dniu następującym po dniu ogłoszenia, bez przepisów przejściowych.",
+   "Według autorów Wigilia jest dniem wolnym w części państw Unii Europejskiej, m.in. w Czechach, Danii i na Litwie."
+  ],
+  "who": "Projekt dotyczy najbardziej pracowników, w tym zatrudnionych w handlu i w systemie zmianowym, oraz ich pracodawców.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "800": {
+  "summary": "Projekt podnosi najwyższą miesięczną kwotę świadczenia z funduszu alimentacyjnego z 500 zł do 1000 zł. Fundusz alimentacyjny to wsparcie dla osób uprawnionych do alimentów, które nie dostają ich od rodzica, bo egzekucja komornicza jest bezskuteczna. Autorzy projektu wskazują, że kwota 500 zł nie zmieniła się od 2008 r., a koszty utrzymania i alimenty ustalane przez sądy wyraźnie wzrosły.",
+  "points": [
+   "Świadczenie przysługuje w wysokości bieżąco ustalonych alimentów, ale nie wyższej niż 1000 zł, a nie jak dotąd 500 zł.",
+   "Nowa kwota ma obowiązywać po raz pierwszy przy ustalaniu prawa do świadczeń na okresy świadczeniowe po 30 września 2024 r.",
+   "Gminy mają z urzędu zmienić decyzje przyznane na okres od 1 października 2024 r. do 30 września 2025 r., bez zgody osoby uprawnionej.",
+   "Projekt ma wejść w życie dzień po ogłoszeniu, a rodziny mają otrzymać świadczenia w wyższej kwocie z wyrównaniem.",
+   "Według oceny skutków regulacji z wyższego świadczenia skorzysta około 38,8 tys. osób, którym zasądzono alimenty powyżej 500 zł."
+  ],
+  "who": "Projekt dotyczy przede wszystkim dzieci i młodych osób uprawnionych do alimentów, którym zasądzono alimenty powyżej 500 zł i które nie dostają ich od zobowiązanego rodzica, oraz ich rodzin.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "802": {
+  "summary": "Rządowy projekt zmienia ustawę o szczególnych rozwiązaniach związanych z usuwaniem skutków powodzi oraz kilka innych ustaw. Autorzy projektu wskazują, że po dodatkowej analizie obowiązujących przepisów potrzebne są kolejne zmiany, które ułatwią udzielanie pomocy osobom i instytucjom poszkodowanym we wrześniowej powodzi 2024 r.",
+  "points": [
+   "Zaniechanie poboru podatku od dochodów z usuwania skutków powodzi, wprowadzone rozporządzeniem dla przedsiębiorców, ma być traktowane jako pomoc publiczna udzielana na zasadach tej ustawy. Limit pomocy ma uwzględniać nie tylko szkody materialne, ale też utratę dochodu.",
+   "Zwiększa się kontrola nad zwrotem wynagrodzeń pracowników zwolnionych od pracy przy usuwaniu skutków powodzi: marszałek województwa może kontrolować pracodawców, pobierać dane z ZUS i innych rejestrów oraz dochodzić zwrotu nienależnych kwot, a także rozkładać je na raty lub umarzać.",
+   "Świadczenie interwencyjne (pomoc wypłacana przez ZUS) obejmuje także organizacje pozarządowe i podmioty ekonomii społecznej, a ułatwienia mają dotyczyć też rolników zatrudniających pracowników na umowę o pracę.",
+   "Pożyczki na utworzenie stanowiska pracy i na rozpoczęcie działalności mogą być umarzane w całości lub części, jeśli powódź zniszczyła stanowiska albo uniemożliwiła lub ograniczyła działalność.",
+   "Pozostałe zmiany: dotacja na naprawę szkód dla operatora pocztowego, tankowanie lokomotyw spalinowych bezpośrednio z autocystern oraz odroczenie aktualizacji wywiadów środowiskowych w pomocy społecznej."
+  ],
+  "who": "Projekt dotyczy przede wszystkim przedsiębiorców, pracodawców, organizacji pozarządowych i rolników poszkodowanych w powodzi oraz urzędów, które wypłacają i rozliczają pomoc.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "838": {
+  "summary": "Rządowy projekt zmienia zasady liczenia składki zdrowotnej przedsiębiorców prowadzących działalność pozarolniczą, od 1 stycznia 2026 r. Według autorów obecne zasady są skomplikowane i podnoszą koszty prowadzenia firmy, a celem zmian jest uproszczenie rozliczeń i obniżenie składki, szczególnie dla przedsiębiorców o niskich i średnich dochodach.",
+  "points": [
+   "Dla osób rozliczających się według skali podatkowej lub podatkiem liniowym składka miałaby się składać z części stałej, czyli 9% od 75% minimalnego wynagrodzenia, oraz dodatkowej części liczonej od dochodu ponad próg równy 1,5-krotności przeciętnego wynagrodzenia (4,9% nadwyżki).",
+   "Dla osób na ryczałcie część stała byłaby taka sama, a dodatkowe 3,5% liczone byłoby od przychodu ponad próg równy 3-krotności przeciętnego wynagrodzenia.",
+   "Osoby na karcie podatkowej oraz osoby współpracujące z przedsiębiorcami płaciłyby 9% od 75% minimalnego wynagrodzenia.",
+   "Zniesione zostałaby możliwość rozliczenia części zapłaconej składki zdrowotnej w podatku dochodowym (dotyczy podatku liniowego, ryczałtu i karty podatkowej) dla dochodów od 2026 r.",
+   "Jeśli przedsiębiorca nie przekaże do ZUS informacji o dochodzie lub przychodzie, ZUS ustaliłby składkę od podstawy równej 150% minimalnego wynagrodzenia."
+  ],
+  "who": "Projekt dotyczy przede wszystkim przedsiębiorców prowadzących pozarolniczą działalność gospodarczą, rozliczających się według skali podatkowej, podatkiem liniowym, ryczałtem lub kartą podatkową.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "841": {
+  "summary": "Projekt przedłuża na 2025 rok ochronę gospodarstw domowych przed wzrostem rachunków za energię elektryczną: cenę maksymalną oraz zerową stawkę opłaty mocowej. Autorzy projektu wskazują, że skutki kryzysu energetycznego są nadal odczuwalne, więc wsparcie ma wygasać stopniowo i być skierowane przede wszystkim do gospodarstw domowych. Projekt porządkuje też przepływy pieniędzy na rekompensaty dla firm energetycznych.",
+  "points": [
+   "Cena maksymalna energii elektrycznej dla gospodarstw domowych wynosi 500 zł/MWh. W tekście projektu okres jej stosowania to od 1 stycznia do 30 września 2025 r.",
+   "Wsparcie dotyczy tylko gospodarstw domowych. Autorzy projektu wskazują, że samorządy, instytucje użyteczności publicznej i małe i średnie firmy są w lepszej sytuacji i mogą korzystać z mechanizmów rynkowych.",
+   "Opłata mocowa, czyli składnik rachunku za prąd, dla odbiorców głównie w gospodarstwach domowych pozostaje w 2025 r. na poziomie 0 zł miesięcznie, a operator sieci przesyłowej dostaje za to rekompensatę z Funduszu Przeciwdziałania COVID-19.",
+   "Przedsiębiorstwa sprzedające energię mają złożyć do Prezesa Urzędu Regulacji Energetyki wnioski o zmianę taryf do 30 kwietnia 2025 r.",
+   "Zarządca Rozliczeń S.A. może na polecenie ministra energii przesuwać środki między funduszami, a projekt doprecyzowuje terminy i zasady rozliczeń rekompensat oraz zwrotu odpisów na fundusz."
+  ],
+  "who": "Projekt dotyczy najbardziej odbiorców energii elektrycznej w gospodarstwach domowych oraz firm sprzedających energię i operatora sieci przesyłowej, które otrzymują rekompensaty.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "876": {
+  "summary": "Projekt zmienia Kodeks karny tak, aby przemoc, groźby, publiczne zniewagi i nawoływanie do nienawiści były karane także wtedy, gdy motywem jest niepełnosprawność, wiek, płeć lub orientacja seksualna. Autorzy projektu wskazują, że obecne przepisy chronią tylko wybrane grupy (narodowe, etniczne, rasowe, wyznaniowe i osoby bezwyznaniowe), a zmiana ma pełniej realizować konstytucyjny zakaz dyskryminacji i zalecenia organizacji międzynarodowych.",
+  "points": [
+   "Do listy cech, ze względu na które przestępstwa z nienawiści są karane, projekt dodaje niepełnosprawność, wiek, płeć i orientację seksualną (art. 119 § 1, art. 256 § 1 i art. 257 Kodeksu karnego).",
+   "Motyw nienawiści z tych powodów będzie okolicznością, którą sąd bierze pod uwagę jako obciążającą przy wymierzaniu kary (art. 53 § 2a pkt 6).",
+   "Zwrot \"z powodu przynależności\" zostaje zastąpiony zwrotem \"w związku z przynależnością\", więc kara będzie możliwa także wtedy, gdy ofiara w rzeczywistości nie należy do grupy, która wywołała zachowanie sprawcy.",
+   "Zgodnie z brzmieniem art. 257 w projekcie za publiczną zniewagę lub naruszenie nietykalności cielesnej grozi grzywna, ograniczenie wolności albo pozbawienie wolności do lat 2.",
+   "Projekt ma wejść w życie po upływie 14 dni od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy najbardziej osób narażonych na przemoc i mowę nienawiści z powodu niepełnosprawności, wieku, płci lub orientacji seksualnej oraz sprawców takich czynów.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "923": {
+  "summary": "Projekt wprowadza przejściowe, szczególne zasady rozpoznawania przez Sąd Najwyższy spraw związanych z wyborami Prezydenta oraz wyborami uzupełniającymi do Senatu, zarządzonymi w 2025 r. Autorzy projektu wskazują, że chodzi o to, by rozstrzygnięcia o protestach wyborczych i ważności wyborów nie budziły wątpliwości co do swojej skuteczności i zapewniały stabilność funkcjonowania państwa.",
+  "points": [
+   "Protesty wyborcze i stwierdzenie ważności tych wyborów rozpoznawałby Sąd Najwyższy w składzie połączonych izb: Cywilnej, Karnej oraz Pracy i Ubezpieczeń Społecznych, zamiast Izby Kontroli Nadzwyczajnej i Spraw Publicznych.",
+   "Odwołania od uchwał Państwowej Komisji Wyborczej dotyczących tych wyborów rozpoznawałby skład 3 sędziów losowanych spośród sędziów trzech wymienionych izb.",
+   "W obu przypadkach składowi orzekającemu przewodniczyłby sędzia najstarszy służbą na stanowisku sędziego.",
+   "Nowe zasady obejmowałyby tylko sprawy związane z wyborami zarządzonymi w 2025 r.",
+   "Projekt miałby wejść w życie po upływie 3 dni od ogłoszenia, ponieważ na początku 2025 r. zostaną zarządzone wybory Prezydenta."
+  ],
+  "who": "Projekt dotyczy Sądu Najwyższego oraz uczestników wyborów Prezydenta i wyborów uzupełniających do Senatu w 2025 r., którzy kwestionują ich przebieg lub wynik.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "924": {
+  "summary": "Projekt zmienia ustawę o udzielaniu cudzoziemcom ochrony i pozwala rządowi czasowo ograniczyć prawo składania wniosków o ochronę międzynarodową (azyl), gdy państwo sąsiednie lub inny podmiot celowo ułatwia nielegalne przekraczanie granicy zewnętrznej. Autorzy projektu wskazują, że ma to przeciwdziałać destabilizacji kraju przez sztuczną presję migracyjną, stosowaną od lipca 2021 r. na granicy z Białorusią. Projekt rozszerza też przyczyny utraty statusu uchodźcy.",
+  "points": [
+   "Nowe pojęcie instrumentalizacji: działania państwa sąsiedniego lub innego podmiotu, które umożliwiają cudzoziemcom nielegalne przekroczenie granicy zewnętrznej, zwłaszcza z przemocą wobec funkcjonariuszy lub niszczeniem infrastruktury granicznej.",
+   "Rada Ministrów może rozporządzeniem czasowo ograniczyć prawo złożenia wniosku o ochronę międzynarodową na wskazanym odcinku granicy, na nie więcej niż 60 dni. Przedłużenie, także o nie więcej niż 60 dni, wymaga zgody Sejmu.",
+   "W okresie ograniczenia Straż Graniczna nie przyjmuje wniosków, ale przyjmuje je od małoletnich bez opieki, kobiet w ciąży, osób wymagających szczególnego traktowania (np. ze względu na wiek lub zdrowie), osób zagrożonych poważną krzywdą oraz obywateli państwa stosującego instrumentalizację. Wyjątek nie dotyczy osób, wobec których użyto środków przymusu lub broni po przekroczeniu granicy z użyciem przemocy.",
+   "Do przyczyn pozbawienia statusu uchodźcy dochodzą: zagrożenie dla bezpieczeństwa państwa oraz prawomocny wyrok za szczególnie poważne przestępstwo połączony z zagrożeniem dla społeczeństwa.",
+   "Projekt ma wejść w życie dzień po ogłoszeniu."
+  ],
+  "who": "Projekt dotyczy przede wszystkim cudzoziemców, którzy próbują przekroczyć granicę z Białorusią i ubiegać się o ochronę w Polsce, oraz Straży Granicznej i rządu.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "934": {
+  "summary": "Projekt zmienia Kodeks pracy tak, aby pracodawcy musieli podawać w ogłoszeniach o pracę proponowane wynagrodzenie. Zmiany mają też dać pracownikom prawo do informacji o poziomie płac. Autorzy projektu wskazują, że w Polsce wynagrodzenia są tematem tabu, a brak informacji o nich szczególnie utrudnia sytuację młodych pracowników i kobiet.",
+  "points": [
+   "Pracodawca publikujący ofertę pracy ma podać minimalną i maksymalną wysokość proponowanego wynagrodzenia i może dodać informację, że kwota podlega negocjacji.",
+   "Osoby ubiegające się o pracę mogą otrzymać informację o początkowym wynagrodzeniu lub jego przedziale oraz o przepisach układu zbiorowego stosowanych na danym stanowisku.",
+   "Pracownik może poprosić o informację o swoim wynagrodzeniu i o średnich wynagrodzeniach według płci na takich samych lub równych wartością stanowiskach, a pracodawca ma odpowiedzieć w ciągu 14 dni. Pracodawca nie może zakazać pracownikowi ujawniania informacji o jego wynagrodzeniu.",
+   "Pracodawca ma raz w roku informować pracowników o ich prawach do informacji o wynagrodzeniach, a pracodawca zatrudniający mniej niż 50 osób może być zwolniony z obowiązku udostępniania kryteriów ustalania płac.",
+   "Za niepodanie wynagrodzenia w ofercie, niedanie pracownikowi informacji o płacach oraz zatrudnienie za mniej niż w ofercie ma grozić grzywna (w uzasadnieniu: od 1000 zł do 30 000 zł). Przepisy mają wejść w życie po 6 miesiącach od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy najbardziej pracodawców publikujących ogłoszenia o pracę oraz osób szukających zatrudnienia i obecnych pracowników.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "949": {
+  "summary": "Projekt zbiera w nowej ustawie zasady, na jakich cudzoziemcy mogą pracować w Polsce, i wyodrębnia je z ustawy o promocji zatrudnienia i instytucjach rynku pracy. Autorzy projektu wskazują, że ma on ograniczyć nadużycia, uprościć procedury, zmniejszyć zaległości w urzędach i w pełni przenieść postępowania do internetu. Projekt wykonuje też część zobowiązań z Krajowego Planu Odbudowy i prawa Unii Europejskiej.",
+  "points": [
+   "Postępowanie w sprawie zezwolenia na pracę cudzoziemca, od wniosku po odbiór decyzji i odwołanie, ma odbywać się elektronicznie.",
+   "Znika wymóg informacji starosty o braku możliwości zaspokojenia potrzeb kadrowych pracodawcy (tzw. test rynku pracy). Zamiast niego starosta może, za zgodą wojewody, ustalić listę zawodów, w których w danym powiecie nie wydaje się zezwoleń na pracę cudzoziemcom.",
+   "Likwidowane jest osobne postępowanie o przedłużenie zezwolenia. Przy dalszym zatrudnianiu cudzoziemca wydaje się nowe zezwolenie, wniosek rozpatruje się w pierwszej kolejności, a cudzoziemiec może pracować w trakcie procedury.",
+   "Oświadczenia o powierzeniu pracy cudzoziemcowi mogą dotyczyć pracy do 24 miesięcy, a wynagrodzenie cudzoziemca nie może być niższe niż wynagrodzenie osób na porównywalnym stanowisku.",
+   "Odmowa zezwolenia będzie obowiązkowa, gdy pracodawca nie opłaca składek na ubezpieczenie społeczne lub zaliczek na podatek dochodowy, albo gdy podmiot działa głównie po to, by ułatwiać cudzoziemcom wjazd do Polski. W powiatowych urzędach pracy mają powstać punkty wsparcia dla cudzoziemców."
+  ],
+  "who": "Projekt dotyczy najbardziej cudzoziemców chcących pracować w Polsce, ich pracodawców oraz urzędów pracy i urzędów wojewódzkich prowadzących te sprawy.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "962": {
+  "summary": "Projekt przedłuża na cały 2025 r. osłony, które ograniczają ceny energii elektrycznej, gazu i ciepła, oraz zmienia związane z nimi terminy i rozliczenia rekompensat. Autorzy projektu wskazują, że podwyższone ceny energii nadal obciążają gospodarstwa domowe, instytucje użyteczności publicznej i małe oraz średnie firmy. Celem ma być przeciwdziałanie ubóstwu energetycznemu, czyli sytuacji, w której rachunki za energię zbyt mocno obciążają budżet domowy.",
+  "points": [
+   "Dla odbiorców w gospodarstwach domowych cena energii elektrycznej ma wynosić najwyżej 412 zł/MWh przez cały 2025 r.",
+   "Dla części innych odbiorców uprawnionych, między innymi podmiotów użyteczności publicznej, przewidziano cenę 693 zł/MWh w drugiej połowie 2024 r. i 500 zł/MWh w 2025 r.",
+   "Odbiorcy, którzy mieli status odbiorcy uprawnionego na koniec 2024 r. i nadal spełniają warunki, nie będą musieli składać nowych oświadczeń na 2025 r.",
+   "Rekompensaty dla przedsiębiorstw energetycznych oraz rozwiązania dotyczące ciepła mają obowiązywać do końca 2025 r., z przesuniętymi terminami wniosków i wypłat.",
+   "Limit wydatków z Funduszu Przeciwdziałania COVID-19 na rekompensaty za 2025 r. ma wynosić 7 582 400 000 zł w 2025 r. i 1 000 000 000 zł w 2026 r."
+  ],
+  "who": "Projekt dotyczy najbardziej gospodarstw domowych oraz podmiotów użyteczności publicznej i małych i średnich firm, które kupują energię elektryczną, gaz lub ciepło.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1108": {
+  "summary": "Rządowy projekt zmienia jednocześnie wiele ustaw gospodarczych i administracyjnych w ramach tzw. deregulacji, czyli ograniczania wymogów nakładanych na firmy. Autorzy projektu wskazują, że ma to zmniejszyć koszty przedsiębiorców oraz przyspieszyć postępowania w urzędach, zarówno przy zakładaniu firmy, jak i w kolejnych latach jej działania.",
+  "points": [
+   "W Kodeksie postępowania administracyjnego pismo do firmy, której adres siedziby nie istnieje lub jest niezgodny z rejestrem, ma być doręczane osobie uprawnionej do jej reprezentowania, a gdy nie da się ustalić jej adresu, zostaje w aktach ze skutkiem doręczenia.",
+   "Urząd ma wskazywać w aktach, czy sprawa nadaje się do mediacji (rozwiązania sporu z pomocą neutralnego mediatora), a zawiadomienie o możliwości mediacji będzie można ponawiać na każdym etapie postępowania.",
+   "Postępowanie zawieszone na wniosek strony, gdy przyczyny zawieszenia nie ustąpią przez trzy lata, będzie mogło zostać umorzone, jeśli nie sprzeciwią się pozostałe strony.",
+   "Załączniki do decyzji wydanej na papierze będzie można doręczyć na innym trwałym nośniku informacji, za zgodą strony.",
+   "Projekt zmienia też zasady odraczania i rozkładania na raty zaległych administracyjnych kar pieniężnych oraz porusza m.in. kontrole firm, rzemiosło, leasing i zamówienia publiczne."
+  ],
+  "who": "Projekt dotyczy najbardziej przedsiębiorców oraz urzędów prowadzących postępowania administracyjne wobec firm.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1112": {
+  "summary": "Poselski projekt zobowiązuje deweloperów do prowadzenia własnej strony internetowej z cenami oferowanych mieszkań i domów, od rozpoczęcia sprzedaży do sprzedaży ostatniej nieruchomości. Autorzy projektu wskazują, że kupujący mają trudności z poznaniem faktycznych cen, bo często podaje się je dopiero na zapytanie lub w biurze sprzedaży, i że ceny bywają niepełne.",
+  "points": [
+   "Deweloper podaje na swojej stronie cenę za metr kwadratowy oraz cenę całej nieruchomości, a także ceny pomieszczeń przynależnych i inne opłaty, które kupujący musi zapłacić z umowy, z uwzględnieniem podatku VAT.",
+   "Każda zmiana ceny, także obniżka, ma być uaktualniona z datą zmiany, a informacje od początku sprzedaży mają zostać na stronie.",
+   "W reklamach i ogłoszeniach deweloper ma podawać adres strony z cenami.",
+   "Naruszenie tych obowiązków byłoby traktowane jako praktyka naruszająca zbiorowe interesy konsumentów, co wiąże się z kompetencjami Urzędu Ochrony Konkurencji i Konsumentów.",
+   "Podmioty, które rozpoczęły sprzedaż przed wejściem przepisów w życie, miałyby 6 miesięcy na dostosowanie się, a przepisy weszłyby w życie po upływie miesiąca od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy najbardziej deweloperów oraz osób kupujących mieszkania i domy na rynku pierwotnym.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1130": {
+  "summary": "Projekt zmienia zasady stawiania elektrowni wiatrowych na lądzie: zamiast zasady „10H” (odległość równa dziesięciokrotności wysokości turbiny) wprowadza stałą minimalną odległość 500 m od budynków mieszkalnych, zamiast obecnych 700 m. Autorzy projektu wskazują, że dotychczasowa liberalizacja była niewystarczająca z punktu widzenia bezpieczeństwa energetycznego i że część gotowych planów miejscowych nie może być wykorzystana. Projekt wprowadza też nowe ograniczenia dotyczące m.in. dróg krajowych, obszarów Natura 2000 i przestrzeni lotnictwa wojskowego.",
+  "points": [
+   "Minimalna odległość elektrowni wiatrowej od budynków mieszkalnych wynosi 500 m, zamiast 700 m, a ogólna zasada 10H przestaje obowiązywać.",
+   "Odległość od parku narodowego wynosi co najmniej 1500 m, a od wybranych obszarów Natura 2000 (ochrona ptaków i nietoperzy) co najmniej 500 m.",
+   "Zakazuje się stawiania elektrowni wiatrowych, które są przeszkodami lotniczymi, w strefach lotnictwa wojskowego (MCTR i MRT).",
+   "Elektrownia musi stać od drogi krajowej w odległości co najmniej równej jej całkowitej wysokości, z możliwością odstępstwa za zgodą Generalnego Dyrektora Dróg Krajowych i Autostrad.",
+   "Projekt wprowadza pojęcie modernizacji istniejących elektrowni, a operator sieci może w uzasadnionych przypadkach wskazać inną odległość od linii najwyższych napięć."
+  ],
+  "who": "Projekt dotyczy przede wszystkim inwestorów w energetykę wiatrową, gmin planujących lokalizację turbin oraz mieszkańców terenów w pobliżu takich inwestycji.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1176": {
+  "summary": "Rządowy projekt zmienia ustawę o usuwaniu skutków powodzi i kilkanaście innych ustaw, aby rozszerzyć wsparcie dla mieszkańców i przedsiębiorców poszkodowanych w powodzi z września 2024 r. Autorzy projektu wskazują, że dotychczasowa pomoc, np. od 100 do 200 tys. zł dla osób, których domy lub mieszkania zniszczono, w wielu przypadkach nie wystarcza na odbudowę, a odbudowa na terenach zalewowych grozi kolejnym zalaniem. Projekt przewiduje m.in. wykup zniszczonych nieruchomości, zamianę na lokale komunalne i uproszczenie procedur.",
+  "points": [
+   "Nowe świadczenie lokalowe dla osób fizycznych, które wynajmowały lokal użytkowy przedsiębiorcy: pieniądze na remont lub zwrot już poniesionych kosztów, do wysokości szkody pomniejszonej o odszkodowanie. Wniosek składa się do ZUS.",
+   "Możliwość zamiany zniszczonego domu lub mieszkania na komunalny lokal mieszkalny, przez 3 lata od powodzi. Przy większej powierzchni lokalu komunalnego poszkodowany dopłaca różnicę wartości rynkowej.",
+   "Wykup przez Skarb Państwa (Wody Polskie) zniszczonych nieruchomości przeznaczonych do rozbiórki oraz położonych na terenach najbardziej narażonych na ponowne zalanie.",
+   "Wydłużenie z 5 do 10 miesięcy terminu na przesłanie oszacowania szkód przy świadczeniu interwencyjnym oraz nowy okres umarzania składek na ubezpieczenia społeczne dla przedsiębiorców, określany w rozporządzeniu.",
+   "Uproszczenie procedur rozbiórki, odbudowy i przebudowy budynków oraz budowy i odtwarzania urządzeń przeciwpowodziowych, a także wzmocnienie kontroli zabudowy terenów zagrożonych powodzią."
+  ],
+  "who": "Projekt dotyczy przede wszystkim mieszkańców i przedsiębiorców z terenów dotkniętych powodzią we wrześniu 2024 r., właścicieli wynajmowanych lokali użytkowych oraz gmin i urzędów, które wypłacają pomoc.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1225": {
+  "summary": "Rada Ministrów prosi Sejm o zgodę na przedłużenie, od 26 maja 2025 r. o 60 dni, czasowego ograniczenia prawa do złożenia wniosku o ochronę międzynarodową (np. azyl) na granicy z Białorusią. Rząd wskazuje, że przyczyny wprowadzenia ograniczenia nie ustały: nadal trwa tzw. instrumentalizacja migracji, czyli działania państwa sąsiedniego lub innego podmiotu mające umożliwić cudzoziemcom nielegalne przekraczanie granicy.",
+  "points": [
+   "Ograniczenie wprowadzono rozporządzeniem Rady Ministrów z 27 marca 2025 r. na 60 dni, do 25 maja 2025 r. Wniosek dotyczy przedłużenia na tym samym odcinku, czyli na całej granicy z Białorusią, na kolejne 60 dni.",
+   "Ustawa pozwala na przedłużenie na czas nie dłuższy niż 60 dni, po wyrażeniu zgody przez Sejm.",
+   "Rząd opisuje ataki na polskie patrole, niszczenie zapory granicznej i udział białoruskich służb w tych działaniach oraz wskazuje, że dotychczasowe środki okazały się niewystarczające.",
+   "Rząd podaje, że od 27 marca do 28 kwietnia 2025 r. odnotowano 3238 prób nielegalnego przekroczenia granicy, wobec 6009 w analogicznym okresie roku ubiegłego.",
+   "W tym czasie nie przyjęto wniosków od 16 cudzoziemców, a od 6 cudzoziemców z grup wrażliwych wnioski przyjęto."
+  ],
+  "who": "Wniosek dotyczy przede wszystkim cudzoziemców przekraczających granicę z Białorusią, którzy chcieliby ubiegać się o ochronę międzynarodową, oraz służb chroniących tę granicę.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1261": {
+  "summary": "Projekt wyraża zgodę na to, by Prezydent wypowiedział Konwencję o zakazie użycia, składowania, produkcji i przekazywania min przeciwpiechotnych oraz o ich zniszczeniu (Konwencję Ottawską). Autorzy projektu wskazują, że po agresji Rosji na Ukrainę sytuacja bezpieczeństwa w regionie się pogorszyła, a zobowiązania z konwencji ograniczają możliwości obrony.",
+  "points": [
+   "Art. 1 projektu: zgoda na wypowiedzenie konwencji przez Prezydenta. Ustawa miałaby wejść w życie w dniu następującym po ogłoszeniu.",
+   "Po wypowiedzeniu Polska będzie mogła produkować, nabywać, używać i składować miny przeciwpiechotne. Obecnie ich nie ma, bo zapasy zniszczono, ostatnie w 2016 r.",
+   "Zgodnie z konwencją wypowiedzenie wchodzi w życie po sześciu miesiącach od otrzymania dokumentu przez Depozytariusza, czyli Sekretarza Generalnego ONZ.",
+   "Autorzy projektu zapowiadają, że produkowane lub kupowane miny będą miały systemy autodezaktywacji lub zdalnego sterowania, a Polska nadal będzie przestrzegać międzynarodowego prawa humanitarnego, w tym ochrony ludności cywilnej.",
+   "Polska zamierza dobrowolnie kontynuować pomoc ofiarom min i rozminowywanie, a wypowiedzenie nie wymaga zmiany prawa krajowego ani nie niesie bezpośrednich skutków finansowych dla finansów publicznych."
+  ],
+  "who": "Projekt dotyczy najbardziej obronności państwa i sił zbrojnych oraz ludności w rejonach, gdzie miny mogłyby być użyte.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1270": {
+  "summary": "Projekt zmienia ustawę o obronie Ojczyzny, aby wzmocnić liczebnie i jakościowo personel Sił Zbrojnych. Autorzy projektu wskazują, że obecna sytuacja geopolityczna wymaga usprawnienia naboru do służby wojskowej, a zakupy uzbrojenia i sprzętu, także od partnerów zagranicznych, wymagają zmian w funkcjonowaniu Funduszu Wsparcia Sił Zbrojnych i w kierowaniu żołnierzy na naukę.",
+  "points": [
+   "Nabór: postępowanie rekrutacyjne ma być prowadzone bez zbędnej zwłoki, badania psychologiczne będą przeprowadzane odrębnie dla różnych form służby, a orzeczenie psychologiczne będzie ważne rok.",
+   "Osoba, której stan zdrowia się pogorszył, będzie mogła wnioskować o skierowanie do wojskowej komisji lekarskiej w celu zmiany kategorii zdolności do służby.",
+   "Żołnierz zawodowy skierowany na naukę za granicą na ponad 6 miesięcy będzie mógł przebywać tam z małżonkiem i dziećmi. Zmieniają się też zasady umów o zwrot kosztów nauki (maksymalny zwrot nie więcej niż sześćdziesięciokrotność najniższego uposażenia żołnierza zawodowego).",
+   "Zwiększa się odszkodowanie z tytułu śmierci żołnierza związanej z wykonywaniem obowiązków służbowych oraz wprowadza się świadczenie motywacyjne dla żołnierzy w trakcie kształcenia w szkołach wojskowych i dla żołnierzy niezawodowych.",
+   "Zmiany dotyczą też Funduszu Wsparcia Sił Zbrojnych (m.in. rachunek w banku centralnym kraju realizującego zamówienia), dotacji dla organizacji proobronnych oraz zwrotu kosztów przejazdów osób wezwanych na ćwiczenia wojskowe od 1 stycznia do 27 września 2023 r."
+  ],
+  "who": "Projekt dotyczy najbardziej żołnierzy zawodowych i osób ubiegających się o służbę wojskową oraz rodzin żołnierzy.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1346": {
+  "summary": "Projekt nadaje język śląski (określany w uzasadnieniu jako etnolekt, czyli odmiana językowa używana przez określoną grupę) status języka regionalnego, obok języka kaszubskiego, który jest dziś jedynym językiem regionalnym w ustawie z 2005 r. o mniejszościach narodowych i etnicznych. Autorzy projektu wskazują, że pojęcie języka regionalnego jest kategorią prawno-polityczną, a lekt śląski spełnia warunki, które spełnia kaszubski.",
+  "points": [
+   "W art. 19 ust. 2 ustawy o mniejszościach narodowych i etnicznych językami regionalnymi byłyby język kaszubski oraz język śląski.",
+   "W całej ustawie i w innych ustawach (m.in. o systemie oświaty, o radiofonii i telewizji, o języku polskim) zapis w liczbie pojedynczej „język regionalny” zastąpiono by liczbą mnogą „języki regionalne”.",
+   "W Komisji Wspólnej Rządu i Mniejszości Narodowych i Etnicznych zasiadałoby dwóch przedstawicieli społeczności posługującej się językiem śląskim, obok dwóch przedstawicieli społeczności kaszubskiej.",
+   "Prawo do nauki języków regionalnych lub w tych językach byłoby realizowane na zasadach określonych w ustawie o systemie oświaty.",
+   "Raport o sytuacji mniejszości i społeczności posługujących się językami regionalnymi minister przygotowywałby nie rzadziej niż raz na dwa lata."
+  ],
+  "who": "Projekt dotyczy przede wszystkim osób posługujących się językiem śląskim oraz instytucji, które realizują przepisy o językach regionalnych, takich jak szkoły, media publiczne i administracja.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1350": {
+  "summary": "Premier zwraca się do Sejmu z wnioskiem o wyrażenie Radzie Ministrów wotum zaufania, czyli o poparcie dla rządu w głosowaniu. Wniosek opiera się na art. 160 Konstytucji. Premier prosi też o rozpatrzenie wniosku na 36. posiedzeniu Sejmu.",
+  "points": [
+   "Wniosek o wotum zaufania dla Rady Ministrów złożony na podstawie art. 160 Konstytucji.",
+   "Wniosek o rozpatrzenie sprawy na 36. posiedzeniu Sejmu, zgodnie z art. 117 ust. 1 Regulaminu Sejmu."
+  ],
+  "who": "Wniosek dotyczy rządu oraz posłów, którzy głosują nad jego poparciem.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1381": {
+  "summary": "Projekt zmienia przepisy o sprawdzaniu karalności osób, które mają pracować z dziećmi lub wykonywać działalność wobec nich. Ma usunąć wątpliwości, kiedy pracodawca lub organizator musi sprawdzać dane w rejestrach, a kiedy osoba sama musi przedstawić informacje o swojej karalności. Autorzy projektu wskazują, że obecne przepisy są różnie rozumiane, co powoduje trudności w ich stosowaniu.",
+  "points": [
+   "Dodany zostaje słowniczek, który wyjaśnia m.in., czym jest \"dopuszczenie do innej działalności\" (powierzenie zadań na innej podstawie niż umowa o pracę), \"inny organizator\", opieka, wychowanie, wypoczynek i standardy ochrony małoletnich.",
+   "Obowiązek sprawdzania dotyczy czynności wykonywanych bezpośrednio z udziałem małoletnich, a zwrot \"związanej z\" zastępuje się zwrotem \"polegającej na\".",
+   "Pracodawca lub organizator sprawdza w Rejestrze sprawców przestępstw na tle seksualnym, a gdy jest osobą fizyczną niebędącą przedsiębiorcą, informację z tego rejestru przedstawia osoba zatrudniana. Wyjątek nie dotyczy osób fizycznych prowadzących przedszkola, szkoły, placówki oświatowe i organizujących wypoczynek.",
+   "Osoba zatrudniana przedstawia informację z Krajowego Rejestru Karnego o wskazanych skazaniach, a w razie pobytu za granicą co najmniej 12 miesięcy w ciągu ostatnich 20 lat także informację z zagranicznych rejestrów karnych albo oświadczenie, gdy nie może jej uzyskać.",
+   "Przy stosunku pracy lub działalności trwających dłużej niż 2 lata sprawdzenie można powtórzyć, nie częściej niż raz na 2 lata. Projekt uzupełnia też przepisy o ochronę danych osobowych."
+  ],
+  "who": "Projekt dotyczy najbardziej pracodawców i organizatorów (szkół, przedszkoli, organizatorów wypoczynku, klubów, fundacji) oraz osób, które pracują lub działają wobec dzieci.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1389": {
+  "summary": "Projekt zmienia Kodeks wyborczy tak, aby głosować korespondencyjnie, czyli przez pocztę, mógł każdy wyborca, w kraju i za granicą. Autorzy projektu wskazują, że głosowanie korespondencyjne pozostaje dobrowolne, ułatwia oddanie głosu i korzystnie wpłynie na frekwencję. Projekt miałby wejść w życie po 6 miesiącach od ogłoszenia.",
+  "points": [
+   "Głosowanie korespondencyjne byłoby możliwe we wszystkich wyborach poza wyborami do rad samorządowych i wyborem wójta.",
+   "W wyborach samorządowych i wyborze wójta głosować korespondencyjnie mogliby tylko wyborcy z umiarkowanym lub znacznym stopniem niepełnosprawności, osoby kończące najpóźniej w dniu głosowania 60 lat oraz osoby objęte kwarantanną lub izolacją.",
+   "Zamiar głosowania korespondencyjnego w kraju zgłasza się wójtowi do 13. dnia przed wyborami, a za granicą konsulowi do 30. dnia przed wyborami.",
+   "Pakiet wyborczy w kraju jest doręczany przez operatora pocztowego do rąk własnych wyborcy po okazaniu dokumentu tożsamości.",
+   "Za granicą wyborcy mogą okazywać ważny dowód osobisty zamiast paszportu, a konsulat ma wyznaczyć komisję dla głosowania korespondencyjnego, jeśli zamiar zgłosi co najmniej 100 wyborców w okręgu."
+  ],
+  "who": "Projekt dotyczy najbardziej wyborców, którzy wolą głosować z domu, w tym osób starszych, niepełnosprawnych i mieszkających za granicą, oraz wójtów, konsulów i poczty.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1424": {
+  "summary": "Projekt wprowadza w Polsce przepisy potrzebne do stosowania unijnego rozporządzenia MiCA o rynkach kryptoaktywów (takich jak kryptowaluty i tokeny). Wyznacza Komisję Nadzoru Finansowego jako organ, który będzie nadzorował ten rynek i wydawał zezwolenia. Autorzy projektu wskazują, że unijne ramy mają wspierać innowacje i uczciwą konkurencję, a jednocześnie chronić inwestorów detalicznych i uczciwość rynku.",
+  "points": [
+   "Komisja Nadzoru Finansowego ma wykonywać zadania wynikające z rozporządzenia MiCA, w tym nadzór nad emitentami tokenów i firmami świadczącymi usługi w zakresie kryptoaktywów.",
+   "Nadzorowane podmioty będą musiały przekazywać KNF informacje o swojej działalności, a KNF będzie mogła żądać dodatkowych, niezbędnych informacji.",
+   "KNF dostanie środki nadzorcze, na przykład nakaz wstrzymania lub zakaz rozpoczęcia oferty publicznej kryptoaktywów albo zakaz dopuszczenia ich do obrotu, oraz możliwość nakładania kar pieniężnych.",
+   "Projekt przewiduje odpowiedzialność karną (grzywna, ograniczenie lub pozbawienie wolności) za najpoważniejsze naruszenia, w tym związane z emisją tokenów i świadczeniem usług.",
+   "Projekt określa zakres tajemnicy zawodowej oraz pozwala składać oświadczenia woli w postaci elektronicznej, z mocą równą formie pisemnej zastrzeżonej pod rygorem nieważności."
+  ],
+  "who": "Projekt dotyczy najbardziej firm emitujących tokeny i świadczących usługi związane z kryptoaktywami oraz ich klientów.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1426": {
+  "summary": "Rządowy projekt zmienia Kodeks pracy tak, aby do okresu zatrudnienia (stażu pracy) wliczały się też okresy innej aktywności zawodowej: umowy zlecenia, własnej działalności gospodarczej czy pracy za granicą. Autorzy projektu wskazują, że obecnie takie okresy nie liczą się do stażu, co utrudnia dostęp do niektórych uprawnień pracowniczych i stanowisk wymagających określonego doświadczenia.",
+  "points": [
+   "Do okresu zatrudnienia będą wliczane okresy prowadzenia pozarolniczej działalności gospodarczej, umowy zlecenia i podobnych umów o świadczenie usług, umowy agencyjnej oraz pozostawania osobą współpracującą.",
+   "Wlicza się także udokumentowaną pracę zarobkową za granicą u zagranicznego pracodawcy oraz okres zawieszenia działalności w celu opieki nad dzieckiem, za który opłacono składki.",
+   "Okresy te mają potwierdzać zaświadczenia ZUS, o które wniosek składa się elektronicznie, a nakładające się okresy liczą się tylko raz.",
+   "Pracownik zatrudniony w dniu wejścia w życie przepisów ma 24 miesiące na udokumentowanie takich okresów, a uprawnienia wynikające z ich wliczenia przysługują nie wcześniej niż od wejścia ustawy w życie.",
+   "Zmiany obejmują też wliczanie służby w Służbie Celno-Skarbowej i pracy skazanych (z wyłączeniem umowy o dzieło). Ustawa ma wejść w życie 1 stycznia 2026 r., a u pracodawców spoza sektora finansów publicznych stosuje się ją po 6 miesiącach od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy najbardziej pracowników, którzy przed zatrudnieniem pracowali na zlecenie, prowadzili własną firmę lub pracowali za granicą.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1452": {
+  "summary": "Rada Ministrów prosi Sejm o zgodę na kolejne przedłużenie czasowego ograniczenia prawa do składania wniosków o ochronę międzynarodową (azyl) na granicy z Białorusią. Przedłużenie miałoby obowiązywać od 25 lipca 2025 r. przez 60 dni. Rząd wskazuje, że przyczyny wprowadzenia ograniczenia nie ustały.",
+  "points": [
+   "Wniosek dotyczy przedłużenia ograniczenia wprowadzonego rozporządzeniem z 27 marca 2025 r. i już raz przedłużonego rozporządzeniem z 23 maja 2025 r.",
+   "Przedłużenie obejmowałoby całą granicę z Białorusią, na czas oznaczony wynoszący 60 dni, czyli maksymalny okres dopuszczony przepisami.",
+   "Rząd uzasadnia, że trwa instrumentalizacja migracji, czyli działania państwa sąsiedniego mające umożliwić cudzoziemcom nielegalne przekraczanie granicy, które stanowią poważne zagrożenie dla bezpieczeństwa państwa lub społeczeństwa.",
+   "Według wniosku od 1 stycznia do 29 czerwca 2025 r. odnotowano 15 022 próby nielegalnego przekroczenia granicy, wobec 20 424 w analogicznym okresie roku poprzedniego.",
+   "Wnioskodawca podaje, że od 27 marca do 29 czerwca 2025 r. nie przyjęto wniosków od 47 cudzoziemców, a przyjęto 35 wniosków od osób z tzw. grup wrażliwych."
+  ],
+  "who": "Wniosek dotyczy najbardziej cudzoziemców zamierzających złożyć wniosek o ochronę międzynarodową na granicy polsko-białoruskiej oraz służb ochraniających tę granicę.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1483": {
+  "summary": "Projekt zmienia zasady działania szpitali w systemie publicznym, aby, jak wskazują autorzy, lepiej dopasować je do lokalnych potrzeb zdrowotnych i zasobów kadrowych. Dotyczy to elastyczniejszego podstawowego szpitalnego zabezpieczenia świadczeń (PSZ), łatwiejszego łączenia szpitali przez samorządy oraz dokładniejszych programów naprawczych dla szpitali ze stratą. Autorzy wskazują, że zmiany realizują „kamień milowy” Krajowego Planu Odbudowy i że reforma z 2017 r. nie dała zadowalających rezultatów.",
+  "points": [
+   "Na wniosek szpitala Prezes NFZ może wykreślić z umowy dany profil świadczeń i zawrzeć umowę na planowe leczenie, leczenie jednego dnia albo opiekę długoterminową, jeśli poprawi to strukturę świadczeń w regionie.",
+   "Wprowadza się nowy rodzaj świadczeń gwarantowanych w powiatowym centrum zdrowia dla powiatów bez szpitala: m.in. drobne zabiegi chirurgiczne, konsultacje internisty, łóżka obserwacyjne i transport sanitarny.",
+   "Związki jednostek samorządu terytorialnego mogą tworzyć i prowadzić szpitale, a połączone szpitale mogą mieć kilku podmiotów tworzących, którzy decydują przez radę przedstawicieli.",
+   "Program naprawczy szpitala poprzedzają szczegółowe analizy, a opiniują go NFZ i wojewoda, a zatwierdza podmiot tworzący. Analizy na zlecenie ministra zdrowia ma prowadzić Agencja Oceny Technologii Medycznych i Taryfikacji.",
+   "Do porady optometrysty, psychologa i lekarza medycyny sportowej nie będzie potrzebne skierowanie, a optometryści mogą kierować do okulisty."
+  ],
+  "who": "Projekt dotyczy przede wszystkim szpitali publicznych, samorządów jako ich właścicieli oraz NFZ, a także pacjentów korzystających ze świadczeń szpitalnych i ambulatoryjnych.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1492": {
+  "summary": "Rządowy projekt przedłuża do 4 marca 2026 r. okres, w którym pobyt obywateli Ukrainy uciekających przed wojną jest w Polsce uznawany za legalny, wraz z dostępem do świadczeń zdrowotnych, rodzinnych i socjalnych. Obecnie ten okres kończy się 30 września 2025 r. Autorzy projektu wskazują, że wynika to z decyzji Rady UE o przedłużeniu ochrony czasowej, a jednocześnie proponują doprecyzowanie przepisów i ograniczenie części form pomocy.",
+  "points": [
+   "Termin 30 września 2025 r. jest zastępowany terminem 4 marca 2026 r. w przepisach o legalnym pobycie, ważności dokumentów pobytowych i innych rozwiązaniach tej ustawy.",
+   "Ochrona czasowa nie ma obejmować osób, które już uzyskały ją w innym państwie UE, ani osób przekraczających granicę w ramach małego ruchu granicznego.",
+   "Zaostrzone są zasady nadawania numeru PESEL ze statusem UKR: koniec składania wniosków w miejscu pobytu osoby, obecność dziecka bez względu na wiek, potwierdzanie więzów rodzinnych dokumentami oraz możliwość weryfikacji tożsamości na podstawie zdjęcia i danych Straży Granicznej.",
+   "Zakwaterowanie zbiorowe z wyżywieniem jest zapewniane do 31 października 2025 r., a od 1 listopada 2025 r. tylko wybranym grupom, np. osobom z niepełnosprawnością, kobietom po 60. roku życia i mężczyznom po 65., kobietom w ciąży i samotnym opiekunom troje lub więcej dzieci. Część osób ma pokrywać 15 zł dziennie.",
+   "Wojewoda może nakazać natychmiastowe wykwaterowanie osób, które m.in. notorycznie łamią regulamin obiektu."
+  ],
+  "who": "Projekt dotyczy przede wszystkim obywateli Ukrainy przebywających w Polsce w związku z wojną oraz gmin i wojewodów, którzy nadają numery PESEL i zapewniają zakwaterowanie.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1526": {
+  "summary": "Poselski projekt zmienia Prawo oświatowe tak, aby uczniowie szkół podstawowych nie mogli korzystać na terenie szkoły z telefonów komórkowych i innych urządzeń umożliwiających porozumiewanie się na odległość. Autorzy projektu wskazują, że używanie telefonów negatywnie wpływa na koncentrację, relacje rówieśnicze i zdrowie psychiczne dzieci oraz zwiększa ryzyko uzależnienia od internetu, a obecne przepisy nie dają szkołom podstawy do wprowadzenia takiego zakazu.",
+  "points": [
+   "Zakaz korzystania z telefonów i podobnych urządzeń w szkołach podstawowych. Zakaz dotyczy korzystania, a nie samego wnoszenia urządzeń do szkoły.",
+   "Statut szkoły może określić wyjątki w uzasadnionych przypadkach, np. na potrzeby zajęć lub ze względów medycznych. Autorzy zakładają, że wyjątek na potrzeby działalności dydaktycznej będzie potrzebny we wszystkich szkołach podstawowych.",
+   "W szkołach ponadpodstawowych i placówkach zakaz mógłby być wprowadzony w statucie, ale nie byłby obowiązkowy. Każda taka szkoła musiałaby w ciągu 3 miesięcy zdecydować, czy go wprowadza.",
+   "Zmiany w statucie wymagałyby zasięgnięcia opinii rady rodziców i samorządu uczniowskiego. Opinia nie byłaby wiążąca, a brak opinii w ciągu 30 dni oznaczałby opinię pozytywną.",
+   "Rozszerzenie zadań szkoły o profilaktykę uzależnień, w szczególności od internetu, oraz o bezpieczeństwo korzystania z nowych technologii. Szkoły miałyby 3 miesiące od wejścia w życie przepisów na zmianę statutów."
+  ],
+  "who": "Projekt dotyczy przede wszystkim uczniów szkół podstawowych, ich rodziców, nauczycieli i dyrekcji szkół oraz organów prowadzących szkoły.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1529": {
+  "summary": "Projekt znosi limit dwóch kadencji dla wójtów, burmistrzów i prezydentów miast oraz zakaz łączenia kandydowania na to stanowisko z kandydowaniem do rady powiatu i sejmiku województwa. Autorzy projektu wskazują, że o tym, kto rządzi gminą, powinni decydować wyborcy, a limit kadencji ogranicza ich wybór i bierne prawo wyborcze, czyli prawo do kandydowania.",
+  "points": [
+   "Uchylenie przepisu Kodeksu wyborczego (art. 11 § 4), który wyklucza z kandydowania osobę dwukrotnie wybraną na wójta, burmistrza lub prezydenta miasta.",
+   "Uchylenie przepisów, które nie pozwalają kandydatowi na wójta, burmistrza lub prezydenta jednocześnie ubiegać się o mandat w radzie powiatu lub sejmiku województwa.",
+   "Autorzy projektu wskazują, że limit kadencji dotyczy tylko organów wykonawczych gmin, a nie radnych, posłów czy senatorów, i powołują się na zasady równości oraz proporcjonalności ograniczeń praw obywatelskich.",
+   "Wnioskodawcy opisują skutki: możliwa ciągłość polityki lokalnej tam, gdzie mieszkańcy dobrze oceniają władze, ale też ryzyko ograniczonej rotacji władzy i utrwalenia lokalnych układów.",
+   "Przepisy mają wejść w życie po 6 miesiącach od ogłoszenia, bez przepisów przejściowych."
+  ],
+  "who": "Projekt dotyczy najbardziej wójtów, burmistrzów i prezydentów miast, osób, które chcą na te stanowiska kandydować, oraz wyborców w gminach.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1603": {
+  "summary": "Obywatelski projekt wprowadza do przedszkoli i szkół obowiązkowe zajęcia z religii lub etyki w wymiarze dwóch godzin lekcyjnych tygodniowo oraz zapisuje zasady ich organizacji w ustawie, a nie w rozporządzeniu. Autorzy projektu wskazują, że projekt w zasadzie powiela przepisy rozporządzenia sprzed lipca 2024 r., a rangę ustawy mają one zabezpieczyć przed zmianami zależnymi od decyzji ministra.",
+  "points": [
+   "Przedszkola i szkoły (z wyjątkiem szkół dla dorosłych) mają organizować obowiązkowe zajęcia z religii lub etyki, a uczeń uczęszcza na co najmniej jedne z nich. Rodzic lub pełnoletni uczeń może do 10 lipca zmienić wybór z religii na etykę lub odwrotnie.",
+   "Lekcje religii można zmniejszyć do jednej godziny tygodniowo tylko za zgodą biskupa diecezjalnego albo władz właściwego kościoła lub związku wyznaniowego.",
+   "Grupa na religię powstaje, gdy w klasie zgłosi się co najmniej siedmiu uczniów. Przy mniejszej liczbie tworzy się grupy międzyoddziałowe, międzyszkolne lub punkty katechetyczne, do 24 uczniów w grupie.",
+   "Nauczyciela religii szkoła zatrudnia na podstawie pisemnego skierowania biskupa lub władz kościoła. Ocena z religii lub etyki trafia na świadectwo, liczy się do średniej i do promocji do następnej klasy.",
+   "Projekt przewiduje też zwolnienie na trzydniowe rekolekcje wielkopostne, dopuszcza krzyż w pomieszczeniach szkolnych i modlitwę w szkole oraz zakłada wejście w życie 1 września 2025 r."
+  ],
+  "who": "Projekt dotyczy najbardziej uczniów, ich rodziców, szkół i przedszkoli oraz nauczycieli religii i etyki.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1674": {
+  "summary": "Rada Ministrów prosi Sejm o zgodę na kolejne przedłużenie czasowego ograniczenia prawa do złożenia wniosku o udzielenie ochrony międzynarodowej na granicy z Białorusią. Przedłużenie miałoby obowiązywać od 23 września 2025 r. na 60 dni, na tym samym odcinku granicy, na którym ograniczenie działa obecnie.",
+  "points": [
+   "Ograniczenie wprowadzono rozporządzeniem z 27 marca 2025 r., a następnie przedłużano rozporządzeniami z 23 maja i 24 lipca 2025 r., każdorazowo o 60 dni.",
+   "Zgodnie z art. 33a ust. 3 ustawy o udzielaniu cudzoziemcom ochrony przedłużenie na czas nie dłuższy niż 60 dni wymaga zgody Sejmu.",
+   "Rząd wskazuje, że nie ustały przyczyny ograniczenia: trwa instrumentalizacja, czyli działania państwa sąsiedniego mające umożliwić cudzoziemcom nielegalne przekroczenie granicy, a także presja migracyjna i ataki na polskie służby.",
+   "Według danych z projektu, od 27 marca do 28 sierpnia 2025 r. nie przyjęto wniosków od 221 cudzoziemców, a przyjęto wnioski od 50 osób z grup wrażliwych.",
+   "Rząd uzasadnia wybór maksymalnego okresu 60 dni brakiem przesłanek, że instrumentalizacja ustanie wcześniej."
+  ],
+  "who": "Wniosek dotyczy cudzoziemców, którzy chcą złożyć wniosek o ochronę międzynarodową na granicy z Białorusią, oraz funkcjonariuszy i żołnierzy chroniących tę granicę.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1685": {
+  "summary": "Projekt zmienia kilka ustaw, aby sprawdzać prawo cudzoziemców z państw trzecich do świadczeń na rzecz rodziny (m.in. świadczenia wychowawczego, czyli 800 plus, Dobrego Startu i Aktywnego rodzica). Prawo do świadczeń ma zależeć od aktywności zawodowej wnioskodawcy i nauki dzieci w polskiej szkole, a dane będą porównywane między rejestrami. Projekt przedłuża też do 4 marca 2026 r. niektóre rozwiązania pomocy obywatelom Ukrainy, w związku z przedłużeniem w UE ochrony tymczasowej do tej daty.",
+  "points": [
+   "Świadczenie wychowawcze dla cudzoziemców z państw trzecich zależy od aktywności zawodowej (np. praca lub działalność z podstawą składek nie niższą niż 50% minimalnego wynagrodzenia) oraz nauki dzieci w polskiej szkole. Podobny warunek aktywności zawodowej lub ubezpieczenia zdrowotnego dotyczy świadczenia Dobry Start.",
+   "Numer PESEL dla cudzoziemców (poza dziećmi urodzonymi w Polsce) będzie nadawany po osobistym stawiennictwie, a dane z rejestru PESEL, rejestru Straży Granicznej i systemu ZUS będą porównywane, w tym w celu sprawdzania, czy dziecko mieszka w Polsce.",
+   "Przedłużenie do 31 grudnia 2026 r. preferencji podatkowych w PIT i CIT związanych z pomocą Ukrainie oraz do 4 marca 2026 r. części rozwiązań ustawy o pomocy obywatelom Ukrainy.",
+   "Zaostrzenie zasad uproszczonego trybu pracy lekarzy i lekarzy dentystów spoza UE: wniosek o prawo wykonywania zawodu w ciągu 6 miesięcy od zgody, obowiązek informowania ministra zdrowia o zmianie danych i nowe obowiązki informacyjne izb lekarskich.",
+   "Możliwość przedłużenia, nie dłużej niż o 3 lata, warunkowego prawa wykonywania zawodu pielęgniarkom i położnym z Ukrainy, które kształcą się zgodnie z wymogami UE."
+  ],
+  "who": "Projekt dotyczy przede wszystkim cudzoziemców z państw trzecich, w tym obywateli Ukrainy, którzy pobierają lub chcą pobierać świadczenia na dzieci, oraz ZUS i urzędów prowadzących rejestry.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1726": {
+  "summary": "Projekt zmienia zasady pomocy dla obywateli Ukrainy, którzy przebywają w Polsce w związku z wojną: wydłuża część terminów do 4 marca 2026 r., zmienia zasady zakwaterowania zbiorowego, opieki zdrowotnej i świadczenia wychowawczego (800 plus). W dostępnym tekście nie ma uzasadnienia, więc powody zmian wynikają tylko z opisu Sejmu: równy dostęp do opieki zdrowotnej dla obywateli Polski i cudzoziemców oraz zmiana kryteriów przyznawania świadczenia wychowawczego.",
+  "points": [
+   "Opieka zdrowotna: obywatel Ukrainy z legalnym pobytem ma prawo do świadczeń tak jak obywatel polski, pod warunkiem spełnienia wymogów ogólnej ustawy o świadczeniach finansowanych ze środków publicznych.",
+   "Świadczenie wychowawcze: prawo do niego mają zamieszkujący z dzieckiem w Polsce rodzice, którzy z tytułu aktywności zawodowej podlegają ubezpieczeniu emerytalnemu i rentowemu od podstawy co najmniej 50% minimalnego wynagrodzenia, a dziecko spełnia obowiązek przedszkolny, szkolny lub nauki. Dotychczasowe prawo do tego świadczenia wygasa z dniem 1 grudnia 2025 r., a osoby mogą złożyć nowy wniosek.",
+   "Zakwaterowanie zbiorowe: od 1 listopada 2025 r. pomoc przysługuje tylko osobom ze statusem UKR spełniającym jeden z warunków, np. niepełnosprawność, wiek 60 lat (kobiety) lub 65 lat (mężczyźni), ciąża, samotne wychowywanie trojga lub więcej dzieci, albo częściowe pokrycie kosztów z góry w wysokości 15 zł za osobę dziennie. Wojewoda może nakazać wykwaterowanie osób, które łamią regulamin, nadużywają alkoholu lub nie płacą.",
+   "Pobyt i dokumenty: ochrona czasowa w innym państwie Unii oraz przekroczenie granicy w małym ruchu granicznym wpływają na uprawnienia do pomocy, zezwolenie na pobyt czasowy może być udzielone tylko raz, a Straż Graniczna ma weryfikować tożsamość przy nadawaniu numeru PESEL.",
+   "Przepisy dodatkowe: zmiany w zasadach uznawania kwalifikacji lekarzy i pielęgniarek, w Kodeksie karnym (m.in. kary za nielegalne przekraczanie granicy i propagowanie wskazanych ideologii), w ustawie o IPN, w ustawie o obywatelstwie polskim (wymóg 10 lat pobytu na podstawie pobytu stałego lub rezydenta) oraz przedłużenie do końca 2026 r. niektórych ulg podatkowych."
+  ],
+  "who": "Projekt dotyczy najbardziej obywateli Ukrainy przebywających w Polsce w związku z wojną, a także samorządów, placówek zakwaterowania, lekarzy i pielęgniarek z Ukrainy.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1749": {
+  "summary": "Brakuje tekstu samej ustawy budżetowej na 2026 rok: plik zawiera tylko dołączony do niej trzyletni plan limitu mianowań urzędników w służbie cywilnej na lata 2026-2028. Nie ma w nim dochodów, wydatków, deficytu ani innych przepisów budżetu, więc nie da się rzetelnie streścić projektu. Plan przewiduje limit 500 mianowań rocznie w każdym z trzech lat.",
+  "points": [
+   "Rada Ministrów proponuje limit mianowań urzędników służby cywilnej: 500 osób w 2026 r., 500 w 2027 r. i 500 w 2028 r., z terminem mianowań 1 grudnia 2026 r.",
+   "Skutki finansowe mianowań w 2026 r. szacuje się na 668 050 zł bez pochodnych (składek) i 799 523 zł z pochodnymi.",
+   "Autorzy planu wskazują, że liczba urzędników mianowanych spadła z 7890 osób w 2019 r. do 7652 w 2024 r., a limit 500 ma zatrzymać ten spadek.",
+   "Autorzy planu piszą, że limit utrzymano na dotychczasowym poziomie z powodu ograniczeń budżetowych, i uważają, że w kolejnych latach powinien rosnąć."
+  ],
+  "who": "Te fragmenty dotyczą najbardziej członków korpusu służby cywilnej ubiegających się o mianowanie oraz urzędów administracji rządowej.",
+  "insufficient": true,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1752": {
+  "summary": "Projekt podnosi podatek dochodowy od osób prawnych (CIT) dla banków krajowych i zagranicznych, instytucji kredytowych, spółdzielczych kas oszczędnościowo-kredytowych oraz podatkowych grup kapitałowych z bankiem. Podwyżka ma być wprowadzana stopniowo: najpierw wyższe stawki przejściowe, docelowo 23% zamiast 19%. Autorzy projektu wskazują, że banki mają duże zyski, a państwo potrzebuje dodatkowych wpływów na rosnące wydatki na obronność.",
+  "points": [
+   "Dla banków i podobnych podmiotów stawka CIT wyniesie docelowo 23% zamiast 19%, a dla tych, które spełniają warunki stawki 9% (przychody do 2 000 000 euro), docelowo 13%.",
+   "Stawki przejściowe: 30% w roku podatkowym rozpoczynającym się w 2026 r. i 26% w kolejnym roku (dla stawki obniżonej odpowiednio 20% i 16%).",
+   "Projekt zmienia zasady zaliczek na podatek, w tym dla podatkowych grup kapitałowych, gdzie wyższa stawka obejmie część podstawy odpowiadającą udziałowi przychodów banku.",
+   "Od 2027 r. maleje podatek od niektórych instytucji finansowych: z 0,0366% do 0,0293% podstawy miesięcznie dla części podmiotów, a w 2027 r. stawka wyniesie 0,0329%. Autorzy projektu uzasadniają to przejściowym charakterem zysków banków.",
+   "Projekt ma wejść w życie 1 stycznia 2026 r., a zmiany w podatku od instytucji finansowych 1 stycznia 2027 r.; minister finansów ma w ciągu 3 lat przedstawić rządowi informację o skutkach przepisów."
+  ],
+  "who": "Projekt dotyczy najbardziej banków, spółdzielczych kas oszczędnościowo-kredytowych i grup podatkowych z bankiem.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1757": {
+  "summary": "Rządowy projekt dostosowuje polskie przepisy do unijnego rozporządzenia o jednolitym rynku usług cyfrowych (akt o usługach cyfrowych, DSA). Rozporządzenie obowiązuje bezpośrednio, więc projekt nie powtarza jego treści, tylko wskazuje organy, procedury i sankcje potrzebne do jego stosowania w Polsce. Autorzy projektu wskazują, że celem jest bezpieczniejsze środowisko internetowe oraz skuteczniejsze zwalczanie nielegalnych treści.",
+  "points": [
+   "Koordynatorem do spraw usług cyfrowych ma być Prezes Urzędu Komunikacji Elektronicznej, a właściwymi organami także Przewodniczący Krajowej Rady Radiofonii i Telewizji oraz Prezes Urzędu Ochrony Konkurencji i Konsumentów.",
+   "Prokurator, Policja, organ Krajowej Administracji Skarbowej, użytkownik lub zaufany podmiot sygnalizujący będą mogli wnosić o nakaz uniemożliwienia dostępu do nielegalnych treści, a użytkownik także o nakaz usunięcia ograniczeń nałożonych przez dostawcę usługi hostingu.",
+   "Projekt wprowadza jednolitą procedurę postępowania i kontroli w sprawach naruszeń obowiązków z rozporządzenia, zasady nakładania kar oraz odpowiedzialność cywilną i postępowanie przed sądem.",
+   "Ustala tryb przyznawania statusu zaufanego podmiotu sygnalizującego i zweryfikowanego badacza oraz certyfikacji organów pozasądowego rozstrzygania sporów.",
+   "Zmienia kilka innych ustaw, m.in. o prawie autorskim, radiofonii i telewizji oraz Prawo komunikacji elektronicznej, usuwając przepisy niezgodne z rozporządzeniem lub je powielające."
+  ],
+  "who": "Projekt dotyczy najbardziej dostawców usług internetowych, takich jak platformy, serwisy hostingowe i wyszukiwarki, oraz ich użytkowników.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1758": {
+  "summary": "Rządowy projekt wprowadza odrębne przepisy procesowe dla spraw sądowych dotyczących umów kredytu lub pożyczki hipotecznej denominowanych lub indeksowanych do franka szwajcarskiego, zawartych z konsumentami. Autorzy projektu wskazują, że masowy napływ takich spraw wydłuża oczekiwanie na rozpoznanie wszystkich spraw w sądach okręgowych i apelacyjnych. Projekt ma przyspieszyć postępowania, nie zmienia natomiast zasad rozstrzygania tych spraw.",
+  "points": [
+   "Z chwilą doręczenia pozwu konsumenta obowiązek spłacania rat wstrzymuje się z mocy prawa do prawomocnego zakończenia sprawy, a bank nie może z tego powodu rozwiązać umowy ani zgłaszać konsumenta do rejestrów dłużników. Osobne wnioski o takie zabezpieczenie roszczenia zostają zbędne.",
+   "Sąd może rozpoznać sprawę na posiedzeniu niejawnym nawet wtedy, gdy strona chce być wysłuchana na rozprawie. Sąd drugiej instancji orzeka w składzie jednego sędziego, a strona może zeznawać na piśmie.",
+   "Zarzut potrącenia (zaliczenia długu wobec banku) można zgłosić aż do zamknięcia rozprawy w drugiej instancji, a powództwo wzajemne aż do zamknięcia rozprawy w pierwszej instancji.",
+   "Cofnięcie pozwu, apelacji lub skargi kasacyjnej w ciągu 6 miesięcy od wejścia przepisów w życie daje zwrot połowy opłaty, a w razie cofnięcia pozwu lub apelacji postanowienie o umorzeniu może wydać referendarz sądowy.",
+   "Przepisy mają dotyczyć także spraw wszczętych przed ich wejściem w życie, ale nie obejmują m.in. postępowań grupowych, upadłościowych i restrukturyzacyjnych."
+  ],
+  "who": "Projekt dotyczy najbardziej osób, które zawarły z bankami umowy kredytu frankowego jako konsumenci, banków oraz sądów rozpoznających te sprawy.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1836": {
+  "summary": "Projekt podwyższa tzw. opłatę cukrową, czyli opłatę od słodzonych napojów, oraz zryczałtowany podatek od wygranych w konkursach, grach i zakładach. Autorzy projektu wskazują, że obecne stawki z 2021 r. są zbyt niskie wobec dzisiejszych cen napojów, by zmieniać zachowania konsumentów i ograniczać otyłość. Podwyżka podatku od wygranych ma, jak podają autorzy, zwiększyć wpływy państwa w związku z koniecznością obniżenia deficytu.",
+  "points": [
+   "Opłata za napoje z cukrem w ilości do 5 g w 100 ml lub z substancjami słodzącymi rośnie z 0,50 zł do 0,70 zł za litr.",
+   "Opłata za każdy gram cukru powyżej 5 g w 100 ml rośnie z 0,05 zł do 0,10 zł.",
+   "Opłata za dodatek kofeiny lub tauryny rośnie z 0,10 zł do 1,00 zł za litr, a maksymalna opłata z 1,20 zł do 1,80 zł za litr.",
+   "Zryczałtowany podatek od wygranych w konkursach, grach i zakładach wzajemnych oraz od nagród w sprzedaży premiowej rośnie z 10% do 15%.",
+   "Projekt ma wejść w życie 1 stycznia 2026 r."
+  ],
+  "who": "Projekt dotyczy przede wszystkim producentów i sprzedawców słodzonych napojów oraz ich nabywców, a także organizatorów gier i konkursów oraz osób, które w nich wygrywają.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1857": {
+  "summary": "Rządowy projekt zmienia Prawo oświatowe i kilka innych ustaw, aby umożliwić reformę podstawy programowej, czyli ministerialnego opisu tego, czego uczy się w przedszkolach i szkołach. W miejsce dotychczasowych treści nauczania i wymagań szczegółowych mają być określone oczekiwane efekty uczenia się oraz doświadczenia edukacyjne, w których uczniowie powinni uczestniczyć. Autorzy projektu wskazują, że ma to położyć większy nacisk na umiejętności i kompetencje uczniów oraz dać nauczycielom większą swobodę.",
+  "points": [
+   "Zmieniają się definicje podstawy programowej wychowania przedszkolnego i kształcenia ogólnego: obejmują one cele, oczekiwane efekty uczenia się i wymagania dotyczące doświadczeń edukacyjnych.",
+   "Do ustawy dodana zostaje definicja ramowego planu nauczania, w tym minimalny wymiar godzin pomocy psychologiczno-pedagogicznej i doradztwa zawodowego oraz tydzień projektowy w każdym roku szkolnym.",
+   "Nowa podstawa ma być wdrażana od 1 września 2026 r. w wychowaniu przedszkolnym oraz w klasach I i IV szkoły podstawowej, a od 1 września 2027 r. w szkołach ponadpodstawowych. W pozostałych klasach do końca cyklu kształcenia obowiązują dotychczasowe podstawy.",
+   "Osoby, które po zasadniczej szkole zawodowej zdały egzaminy eksternistyczne z przedmiotów ogólnych i spełniły warunki zawodowe, mają mieć wykształcenie średnie branżowe i prawo przystąpienia do matury.",
+   "Powstaje system teleinformatyczny wspierający młodzieżowe ośrodki wychowawcze i nadzór pedagogiczny nad nimi, z dostępem dla wskazanych grup pracowników."
+  ],
+  "who": "Projekt dotyczy przede wszystkim uczniów, nauczycieli i dyrektorów przedszkoli i szkół oraz ministerstwa edukacji i instytucji przygotowujących nową podstawę programową.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1882": {
+  "summary": "Rada Ministrów prosi Sejm o zgodę na kolejne przedłużenie, od 22 listopada 2025 r. o 60 dni, czasowego ograniczenia prawa do złożenia wniosku o ochronę międzynarodową (np. azyl) na granicy z Białorusią. Rząd wskazuje, że przyczyny wprowadzenia ograniczenia nie ustały: nadal trwa tzw. instrumentalizacja migracji, czyli działania państwa sąsiedniego lub innego podmiotu mające umożliwić cudzoziemcom nielegalne przekraczanie granicy.",
+  "points": [
+   "Ograniczenie wprowadzono rozporządzeniem z 27 marca 2025 r., a następnie przedłużano rozporządzeniami z 23 maja, 24 lipca i 17 września 2025 r., za każdym razem na 60 dni. Obecny wniosek dotyczy kolejnych 60 dni na całej granicy z Białorusią.",
+   "Ustawa dopuszcza przedłużenie na czas nie dłuższy niż 60 dni, po wyrażeniu zgody przez Sejm.",
+   "Rząd opisuje ataki na polskie patrole, niszczenie zapory i udział białoruskich służb w tych działaniach oraz wskazuje, że dotychczasowe środki były niewystarczające.",
+   "Rząd podaje, że od 27 marca do 26 października 2025 r. nie przyjęto wniosków od 301 cudzoziemców, a wnioski od 66 cudzoziemców z grup wrażliwych przyjęto.",
+   "Dla porównania rząd podaje, że w analogicznym okresie 2024 r. na tym odcinku granicy złożono 2458 wniosków o ochronę międzynarodową, obejmujących 2751 osób."
+  ],
+  "who": "Wniosek dotyczy przede wszystkim cudzoziemców przekraczających granicę z Białorusią, którzy chcieliby ubiegać się o ochronę międzynarodową, oraz służb chroniących tę granicę.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "1884": {
+  "summary": "Projekt likwiduje Centralne Biuro Antykorupcyjne (CBA) i przenosi ciężar zwalczania korupcji na inne instytucje: Policję, Agencję Bezpieczeństwa Wewnętrznego i Krajową Administrację Skarbową. Wprowadza też w ustawie zasady koordynacji działań antykorupcyjnych. Autorzy projektu wskazują, że wobec CBA od lat formułowane są zarzuty naruszania praworządności i swobód obywatelskich oraz braku politycznej neutralności, a zadania antykorupcyjne powinny prowadzić instytucje neutralne politycznie.",
+  "points": [
+   "Likwidacja CBA, a zadania Biura przejmują jednostki organizacyjne Policji, Agencji Bezpieczeństwa Wewnętrznego i Krajowej Administracji Skarbowej.",
+   "Definicje korupcji i działalności godzącej w interesy ekonomiczne państwa, dotąd zapisane w ustawie o CBA, zostają przeniesione do nowej ustawy bez zmiany ich treści.",
+   "Osłona antykorupcyjna, czyli procedury wspierające rządowe przedsięwzięcia o zwiększonym ryzyku korupcji, zostaje uregulowana w ustawie, a nie tylko w wytycznych Prezesa Rady Ministrów. Prowadzą ją Policja, ABW i Służba Kontrwywiadu Wojskowego.",
+   "O objęciu przedsięwzięcia osłoną decyduje Prezes Rady Ministrów po zasięgnięciu opinii służb, biorąc pod uwagę wartość przedsięwzięcia, jego znaczenie dla bezpieczeństwa lub interesów ekonomicznych państwa oraz ponadstandardowe zagrożenie korupcyjne.",
+   "Projekt zmienia bardzo wiele innych ustaw, głównie tam, gdzie występuje odniesienie do CBA. Autorzy projektu zapowiadają też większy nacisk na profilaktykę i edukację antykorupcyjną."
+  ],
+  "who": "Projekt dotyczy najbardziej służb zajmujących się zwalczaniem korupcji, w tym funkcjonariuszy CBA, oraz instytucji realizujących rządowe przedsięwzięcia objęte osłoną antykorupcyjną.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2006": {
+  "summary": "Projekt zmienia Kodeks wyborczy: wprowadza do obwodowych komisji wyborczych nową funkcję sekretarza oraz przywraca zasadę, że kandydatów do tych komisji zgłaszają komitety wyborcze działające na obszarze danego okręgu. Autorzy projektu wskazują, że ma to usprawnić i uprofesjonalizować pracę komisji, a obecne instytucje męża zaufania i obserwatora społecznego nie wydają się wystarczające.",
+  "points": [
+   "Sekretarza komisji powołuje komisarz wyborczy spośród kandydatów zgłoszonych przez wójta. Musi on być obywatelem polskim, mieć co najmniej 25 lat i wykształcenie wyższe oraz pracować w administracji lub mieć 2-letni staż w niej albo być nauczycielem mianowanym lub dyplomowanym.",
+   "Sekretarzem nie może być m.in. osoba powyżej 65 lat, członek partii politycznej, kandydat w wyborach, osoba skazana prawomocnie za przestępstwo umyślne ścigane z oskarżenia publicznego lub umyślne przestępstwo skarbowe.",
+   "Sekretarz wspólnie z przewodniczącym zapewnia prawidłowe działanie komisji: odpowiada m.in. za przeliczenie kart do głosowania, przebieg głosowania, sporządzenie protokołu i przekazanie dokumentów. Dostaje dietę w wysokości 130% diety przewodniczącego, a komisarz może go odwołać za niewykonywanie zadań.",
+   "Zmienia się skład komisji: sekretarz wchodzi w jej ustawowy skład (od 7 do 13 osób w zwykłych obwodach i od 5 do 11 w odrębnych), a w komisjach za granicą jego zadania wykonuje osoba wskazana przez konsula.",
+   "Pełnomocnik wyborczy będzie mógł zgłosić po jednym kandydacie do komisji tylko na obszarze okręgu, w którym zarejestrowano jego listę lub kandydata. Przepisy mają działać od wyborów zarządzonych po upływie 6 miesięcy od wejścia w życie."
+  ],
+  "who": "Projekt dotyczy najbardziej członków obwodowych komisji wyborczych, komitetów wyborczych, wójtów i komisarzy wyborczych.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2064": {
+  "summary": "Projekt służy stosowaniu w Polsce unijnego rozporządzenia 2023/1114 (MiCA), które ustanawia wspólne dla państw UE zasady dla rynku kryptoaktywów, czyli cyfrowych aktywów takich jak kryptowaluty. Autorzy projektu wskazują, że ustawa ma wyznaczyć organ nadzoru i określić jego uprawnienia, a także zasady odpowiedzialności podmiotów działających na tym rynku. Projekt zmienia też wiele innych ustaw, m.in. o przeciwdziałaniu praniu pieniędzy.",
+  "points": [
+   "Komisja Nadzoru Finansowego (KNF) zostaje wyznaczona jako organ odpowiedzialny za wykonywanie rozporządzenia i nadzór nad emitentami, oferującymi i dostawcami usług w zakresie kryptoaktywów.",
+   "Emitenci i dostawcy usług mają obowiązek przekazywać KNF informacje o swojej działalności, a KNF może żądać dodatkowych informacji.",
+   "KNF może m.in. nakazać wstrzymanie lub przerwanie oferty publicznej kryptoaktywów albo zakazać jej rozpoczęcia, a także nakładać sankcje, w tym kary pieniężne.",
+   "Projekt wprowadza odpowiedzialność karną za najpoważniejsze naruszenia, z karą grzywny, ograniczenia wolności lub pozbawienia wolności.",
+   "Oświadczenia woli dotyczące usług w zakresie kryptoaktywów mogłyby być składane elektronicznie z taką samą mocą jak forma pisemna zastrzeżona pod rygorem nieważności. Projekt określa też zakres tajemnicy zawodowej."
+  ],
+  "who": "Projekt dotyczy firm emitujących kryptoaktywa i świadczących usługi z nimi związane, ich klientów oraz Komisji Nadzoru Finansowego.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2107": {
+  "summary": "Projekt reguluje skutki uchwał, które w sprawach indywidualnych (np. wnioski o powołanie sędziów) podjęła Krajowa Rada Sądownictwa w składzie wybranym na podstawie ustawy z 8 grudnia 2017 r., czyli w okresie od 7 marca 2018 r. do 13 maja 2026 r. Autorzy projektu wskazują, że ta Rada utraciła konstytucyjną tożsamość, a projekt ma przywrócić prawo do niezależnego i bezstronnego sądu oraz wykonać wyrok Europejskiego Trybunału Praw Człowieka w sprawie Wałęsa przeciwko Polsce. Projekt zmienia też kilka ustaw o ustroju sądów.",
+  "points": [
+   "Uchwały tej Rady o przedstawieniu wniosku o powołanie na stanowisko sędziego (m.in. w Sądzie Najwyższym, sądach powszechnych, administracyjnych i wojskowych) są pozbawione mocy prawnej, z wyjątkami m.in. dla niektórych sędziów sądów rejonowych.",
+   "Osoby, które przed takim powołaniem były sędziami powołanymi w inny sposób, wracają na poprzednie stanowisko z zachowaniem ciągłości stosunku służbowego i dotychczasowego wynagrodzenia, a przez 2 lata są delegowane do sądu, w którym orzekały.",
+   "Stosunek służbowy pozostałych osób powołanych na podstawie tych uchwał ustaje z dniem wejścia w życie ustawy. Mogą one złożyć w ciągu miesiąca wniosek o mianowanie na referendarza sądowego, a byli prokuratorzy o powołanie na poprzednie stanowisko prokuratorskie.",
+   "Projekt przewiduje ponowne postępowania w sprawie powołań na objęte nimi stanowiska, szczególną podstawę uchylenia orzeczeń wydanych z udziałem osób powołanych na wniosek tej Rady oraz zmiany w ustawie o Sądzie Najwyższym, w tym w strukturze Sądu Najwyższego i skardze nadzwyczajnej."
+  ],
+  "who": "Projekt dotyczy przede wszystkim sędziów powołanych na wniosek Krajowej Rady Sądownictwa z lat 2018-2026, sądów oraz stron postępowań, w których orzekały takie osoby.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2108": {
+  "summary": "Projekt zmienia zasady wyboru 15 sędziów do Krajowej Rady Sądownictwa, czyli organu, który m.in. przedstawia kandydatów na sędziów. Zamiast wyboru przez Sejm członków-sędziów mają wybierać sędziowie wszystkich rodzajów sądów, w głosowaniu bezpośrednim i tajnym. Autorzy projektu wskazują, że celem jest zgodność przepisów z Konstytucją oraz z orzeczeniami sądów europejskich i polskich, dotyczącymi niezależności Rady od władzy ustawodawczej i wykonawczej.",
+  "points": [
+   "Sędziowie wybierają 15 członków Rady: jednego sędziego Sądu Najwyższego, dwóch sądów apelacyjnych, trzech okręgowych, sześciu rejonowych, jednego sądu wojskowego, jednego Naczelnego Sądu Administracyjnego i jednego wojewódzkiego sądu administracyjnego.",
+   "Każdy czynny sędzia może oddać do 15 głosów, w tym tyle głosów w danej grupie sądów, ile miejsc w niej przypada, nie więcej niż jeden głos na kandydata. Kandydować może sędzia z co najmniej dziesięcioletnim stażem, w tym pięcioletnim na obecnym stanowisku.",
+   "Kandydata zgłasza grupa stu sędziów albo Naczelna Rada Adwokacka, Krajowa Rada Radców Prawnych lub Krajowa Rada Notarialna. Sędzia może poprzeć tylko jednego kandydata i nie może poprzeć siebie, a poparcie wycofane nie rodzi skutków.",
+   "Wybory zarządza i przeprowadza Państwowa Komisja Wyborcza, która weryfikuje zgłoszenia. Od uchwały odmawiającej przyjęcia zgłoszenia można w ciągu trzech dni odwołać się do Naczelnego Sądu Administracyjnego.",
+   "Projekt uchyla dotychczasowe przepisy o wyborze sędziów do Rady (art. 9a i art. 11a–11e) i zmienia także Kodeks wyborczy."
+  ],
+  "who": "Projekt dotyczy najbardziej sędziów wszystkich rodzajów sądów, którzy będą wybierać i być wybierani do Krajowej Rady Sądownictwa, oraz Państwowej Komisji Wyborczej.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2110": {
+  "summary": "Projekt wprowadza umowę o wspólnym pożyciu, którą dwie pełnoletnie osoby, tej samej lub różnej płci, mogą zawrzeć przed notariuszem. Strony takiej umowy uzyskują status osoby najbliższej w związku. Autorzy projektu wskazują, że ma on dać ochronę parom, które nie mogą lub nie chcą zawrzeć małżeństwa, oraz wykonać wyroki Europejskiego Trybunału Praw Człowieka przeciwko Polsce.",
+  "points": [
+   "Umowa jest zawierana w formie aktu notarialnego, a notariusz przekazuje jej część ogólną do urzędu stanu cywilnego w celu rejestracji statusu osoby najbliższej w związku. Opłata za rejestrację wynosi 100 zł.",
+   "Umowy nie mogą zawrzeć osoby niepełnoletnie, niemające zdolności do czynności prawnych, krewni w linii prostej, rodzeństwo, osoby w stosunku przysposobienia oraz osoby będące w małżeństwie lub w innej umowie.",
+   "Po zawarciu umowy strony pozostają w rozdzielności majątkowej, ale w umowie mogą ustanowić wspólność majątkową albo rozdzielność z wyrównaniem dorobków.",
+   "W części szczegółowej umowy strony mogą m.in. ustalić obowiązek alimentacyjny po rozwiązaniu umowy, prawo do korzystania z mieszkania, dostęp do informacji o zdrowiu, pełnomocnictwa oraz załączyć testamenty.",
+   "Strony zobowiązują się do wzajemnego szacunku, lojalności, pomocy i troski oraz do przyczyniania się do zaspokajania wspólnych potrzeb, a umowa nie tworzy powinowactwa, czyli pokrewieństwa z rodziną drugiej strony."
+  ],
+  "who": "Projekt dotyczy najbardziej par tej samej i różnej płci żyjących w związkach nieformalnych oraz osób, które nie mogą zawrzeć małżeństwa.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2111": {
+  "summary": "Projekt dostosowuje wiele obowiązujących ustaw do osobnego projektu ustawy o statusie osoby najbliższej w związku i umowie o wspólnym pożyciu. Zgodnie z nim strony umowy zawartej u notariusza uzyskują status osoby najbliższej w związku. Autorzy projektu wskazują, że zmiany mają uporządkować system prawny i wykonać zobowiązania Polski wynikające z wyroków Europejskiego Trybunału Praw Człowieka, który wskazał na potrzebę ram prawnych dla związków osób tej samej płci.",
+  "points": [
+   "Projekt nowelizuje wiele ustaw, między innymi Prawo o aktach stanu cywilnego, Kodeks postępowania cywilnego i ustawy o podatkach, tak aby uwzględniały osobę najbliższą w związku.",
+   "Zmiany obejmują według autorów prawo do pochówku, opiekę zdrowotną, zabezpieczenie społeczne, ubezpieczenie zdrowotne, pomoc społeczną, dziedziczenie, podatki oraz prawo pobytu cudzoziemców.",
+   "Zawarcie umowy o wspólnym pożyciu ma wywoływać skutki prawne dla stron, a także dla osób trzecich oraz w zakresie unikania konfliktów interesów.",
+   "Autorzy projektu wskazują, że dziś osoby w związkach nieformalnych korzystają tylko z rozproszonych uprawnień i muszą udzielać sobie osobnych upoważnień, za które płaci się opłatę skarbową.",
+   "Ustawa o statusie osoby najbliższej w związku ma wejść w życie 1 stycznia 2027 r."
+  ],
+  "who": "Projekt dotyczy najbardziej osób żyjących w związkach nieformalnych, w tym par tej samej płci, oraz urzędów i instytucji stosujących zmieniane przepisy.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2118": {
+  "summary": "To wniosek Rady Ministrów, a nie projekt ustawy: rząd prosi Sejm o zgodę na kolejne przedłużenie czasowego ograniczenia prawa do składania wniosków o ochronę międzynarodową (np. azyl) na granicy z Białorusią. Przedłużenie miałoby obowiązywać od 21 stycznia 2026 r. i trwać 60 dni. Rząd wskazuje, że przyczyny wprowadzenia ograniczenia nie ustały.",
+  "points": [
+   "Ograniczenie wprowadzono rozporządzeniem z 27 marca 2025 r. i dotąd przedłużano je czterokrotnie, za każdym razem na 60 dni.",
+   "Rząd wskazuje, że trwa instrumentalizacja migracji, czyli działania państwa sąsiedniego mające umożliwić cudzoziemcom nielegalne przekraczanie granicy, i że stanowi to zagrożenie dla bezpieczeństwa państwa.",
+   "Jako przykłady rząd podaje ataki na polskie patrole, niszczenie zapory granicznej oraz próby przerzutu osób tunelami pod zaporą, w tym próbę z 11 grudnia 2025 r. z udziałem 186 osób.",
+   "Według wniosku od 27 marca do 17 grudnia 2025 r. nie przyjęto wniosków od 411 cudzoziemców, a przyjęto wnioski od 69 osób z grup wrażliwych.",
+   "Rząd porównuje te dane z analogicznym okresem 2024 r., gdy na tym odcinku granicy złożono 2703 wnioski dotyczące 3066 osób, i uznaje, że ograniczenie działa prewencyjnie."
+  ],
+  "who": "Wniosek dotyczy najbardziej cudzoziemców przybywających do Polski przez granicę z Białorusią oraz służb chroniących tę granicę.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2121": {
+  "summary": "Rządowy projekt wprowadza możliwość rozwiązania małżeństwa bez sądu, przed kierownikiem urzędu stanu cywilnego (rozwód pozasądowy). Autorzy projektu wskazują, że ma to odciążyć sądy w sprawach, w których małżonkowie są zgodni, zwiększyć autonomię stron i skrócić czas rozwiązania związku. Tryb sądowy pozostaje dostępny jako alternatywa.",
+  "points": [
+   "Z rozwodu pozasądowego mogą skorzystać małżonkowie, między którymi nastąpił zupełny i trwały rozkład pożycia, którzy są w małżeństwie dłużej niż rok i nie mają wspólnych małoletnich dzieci ani wspólnych dzieci poczętych, lecz nieurodzonych.",
+   "Procedura ma dwa etapy: najpierw małżonkowie jednocześnie składają w urzędzie pisemne zapewnienia, że spełniają przesłanki, a oświadczenia o rozwiązaniu małżeństwa mogą złożyć dopiero po upływie miesiąca.",
+   "Małżeństwo uważa się za rozwiązane po dołączeniu do aktu małżeństwa wzmianki dodatkowej, a skutki są takie, jakby żaden z małżonków nie ponosił winy rozkładu pożycia.",
+   "Rozwód pozasądowy można unieważnić przed sądem, m.in. gdy małżonkowie mieli wspólne małoletnie dzieci albo gdy oświadczenie złożono pod wpływem groźby lub podstępu. Powództwo może wnieść także prokurator.",
+   "Według uzasadnienia z procedury mogą korzystać małżonkowie będący oboje obywatelami polskimi albo niemający wspólnego obywatelstwa, ale mieszkający w Polsce. Projekt przewiduje też rejestr rozwodów pozasądowych i opłatę skarbową 20 zł za zaświadczenie potrzebne do uznania rozwodu w innych państwach UE."
+  ],
+  "who": "Projekt dotyczy najbardziej małżonków bez wspólnych małoletnich dzieci, którzy zgodnie chcą zakończyć małżeństwo, oraz urzędów stanu cywilnego.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2172": {
+  "summary": "Projekt stopniowo wygasza specjalną ustawę z 2022 r. o pomocy obywatelom Ukrainy i przenosi część jej rozwiązań do ogólnej ustawy o udzielaniu cudzoziemcom ochrony. Autorzy projektu wskazują, że sytuacja uchodźców jest dziś bardziej stabilna, a utrzymywanie osobnych przepisów może prowadzić do nierównego traktowania cudzoziemców. Ochrona czasowa ma trwać dalej na podstawie decyzji Rady UE, która obowiązuje do 4 marca 2027 r.",
+  "points": [
+   "Zasady ochrony czasowej, w tym legalny pobyt od wjazdu do końca obowiązywania decyzji Rady UE, trafiają do ustawy o udzielaniu cudzoziemcom ochrony.",
+   "Rejestracja ma się opierać na numerze PESEL ze statusem UKR nadawanym w gminie, zamiast papierowych zaświadczeń Szefa Urzędu do Spraw Cudzoziemców. Brak wniosku w terminie 30 dni od przyjazdu oznacza wygaśnięcie ochrony.",
+   "Szef Urzędu może odmówić ochrony albo ją odebrać osobom, które popełniły poważne przestępstwa lub zagrażają bezpieczeństwu państwa, a decyzję wydaje w ciągu 2 dni od wniosku służb.",
+   "Ochrona czasowa wygasa m.in. po wyjeździe z Polski na ponad 30 dni, po uzyskaniu zezwolenia na pobyt lub ochrony międzynarodowej albo po uzyskaniu ochrony w innym państwie UE.",
+   "Uczniowie z zagranicy kończą szkołę podstawową po pozytywnych ocenach z przedmiotów realizowanych w Polsce i przystąpieniu do egzaminu ósmoklasisty, a okres ograniczenia prawa do wniosku o ochronę międzynarodową wydłuża się z 60 do 120 dni."
+  ],
+  "who": "Projekt dotyczy przede wszystkim osób objętych ochroną czasową w Polsce, głównie obywateli Ukrainy, oraz urzędów i szkół, które je obsługują.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2227": {
+  "summary": "Rządowy projekt tworzy w Banku Gospodarstwa Krajowego (BGK) wyodrębniony instrument finansowy SAFE, przez który mają przepływać środki z pożyczki udzielanej przez Unię Europejską na zbrojenia. Określa, skąd pochodzą te środki, na co można je wydawać oraz jak są planowane, rozliczane i kontrolowane. Autorzy projektu wskazują, że ustawa jest potrzebna przed zawarciem umowy pożyczkowej z Komisją Europejską, planowanym na marzec 2026 r.",
+  "points": [
+   "BGK prowadzi instrument, a rolę wiodącą w jego koordynacji pełni Minister Obrony Narodowej. Pożyczkobiorcą jest BGK, a gwarantem Skarb Państwa.",
+   "Środki pochodzą z pożyczki SAFE, budżetu państwa, kredytów, pożyczek i obligacji oraz innych źródeł. Przeznacza się je m.in. na zadania z planu inwestycji w europejskim przemyśle obronnym, spłatę pożyczki i zwrot wcześniejszych wydatków innych funduszy.",
+   "BGK sporządza roczny plan finansowy instrumentu, który zatwierdza Minister Obrony Narodowej. Sprawozdania roczne trafiają także do sejmowych komisji obrony i budżetu.",
+   "Gwarancja Skarbu Państwa obejmuje 100 proc. pozostających do spłaty świadczeń z pożyczki wraz z odsetkami i kosztami.",
+   "Powstaje system kontroli i audytu wykorzystania środków, z audytem prowadzonym przez Szefa Krajowej Administracji Skarbowej. Zmieniane są też przepisy o klauzuli obronnej w regule wydatkowej, aby objęły wydatki finansowane z SAFE."
+  ],
+  "who": "Projekt dotyczy przede wszystkim Ministerstwa Obrony Narodowej, innych resortów realizujących zadania obronne, BGK oraz podmiotów wykonujących zadania finansowane z pożyczki.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2250": {
+  "summary": "Rządowy projekt wzmacnia uprawnienia Państwowej Inspekcji Pracy (PIP), aby skuteczniej przeciwdziałać zastępowaniu umów o pracę umowami cywilnoprawnymi (np. zlecenie, B2B) lub pracy bez żadnej umowy tam, gdzie według Kodeksu pracy powinna być umowa o pracę. Autorzy projektu wskazują, że obecne środki PIP, jak wystąpienia, polecenia czy powództwa do sądu, nie są wystarczająco skuteczne, a część zmian realizuje kamienie milowe reformy PIP w Krajowym Planie Odbudowy.",
+  "points": [
+   "Okręgowy inspektor pracy mógłby wydać decyzję stwierdzającą istnienie stosunku pracy, ale dopiero gdy strony nie wykonają wcześniejszego polecenia usunięcia naruszeń. Decyzja działałaby na przyszłość, a skutek wsteczny mógłby dać tylko wyrok sądu pracy.",
+   "Osoba, której dotyczy postępowanie, byłaby chroniona od wszczęcia kontroli podobnie jak pracownik, w szczególności przed rozwiązaniem stosunku prawnego przez podmiot zatrudniający. Złamanie zakazu niekorzystnego traktowania byłoby wykroczeniem.",
+   "Kontrola PIP obejmowałaby też podmioty, na rzecz których praca była świadczona w ciągu roku przed rozpoczęciem kontroli, także przez osoby prowadzące własną działalność, bez względu na podstawę świadczenia pracy.",
+   "PIP miałaby szerszy dostęp do danych ZUS i udostępniałaby ZUS dane ustalone w kontrolach (m.in. dane podmiotu i osób wykonujących pracę).",
+   "Główny Inspektor Pracy wydawałby za opłatą 40 zł interpretacje indywidualne, czy dany stosunek prawny jest umową o pracę, w terminie 30 dni. Opracowałby też wieloletnią strategię wzmocnienia zdolności PIP, m.in. wobec nieobsadzonych etatów."
+  ],
+  "who": "Projekt dotyczy przede wszystkim osób pracujących na umowach cywilnoprawnych lub bez umowy w warunkach typowych dla etatu, podmiotów je zatrudniających oraz inspektorów PIP.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2270": {
+  "summary": "Projekt wprowadza zakaz trzymania zwierząt domowych na uwięzi, co ma rozwiązać problem psów trzymanych na łańcuchu. Zakaz obejmuje wszystkie zwierzęta domowe, a nie tylko psy. Autorzy projektu wskazują, że trzymanie na uwięzi jest niehumanitarne i prowadzi do takich skutków jak wrastanie łańcucha w szyję czy przymarzanie go do ciała zimą, a obecny przepis o limicie 12 godzin na dobę jest w praktyce trudny do udowodnienia.",
+  "points": [
+   "Zakaz trzymania zwierząt domowych na uwięzi zastępuje obecny przepis, który zabrania trzymania na uwięzi dłużej niż 12 godzin na dobę. Naruszenie nadal jest wykroczeniem zagrożonym aresztem albo grzywną.",
+   "Wyjątki: smycz lub uwiązanie na czas transportu, wystawy, pokazu, treningu, zabiegu weterynaryjnego lub pielęgnacyjnego, a także krótkotrwale poza miejscem stałego bytowania oraz gdy jest to niezbędne, by zapobiec zagrożeniu lub szkodzie.",
+   "Kto trzyma psa w kojcu, nieogrzewanym pomieszczeniu lub na otwartej przestrzeni, musi zapewnić mu budę z drewna lub materiałów drewnopochodnych, z izolacją cieplną, odpowiednią do wielkości psa i odizolowaną od podłoża. Przy kilku psach każdy dostaje budę.",
+   "Przepisy nie dotyczą psów wykorzystywanych do celów specjalnych, na przykład w służbach i ratownictwie oraz jako przewodnicy osób niewidomych, ani psów pasterskich podczas sezonowego wypasu kulturowego.",
+   "Przepisy przejściowe: właściciele psów dotąd trzymanych na uwięzi muszą zapobiegać ich niekontrolowanemu wydostaniu się, a istniejące budy trzeba dostosować do wymagań. Ustawa ma wejść w życie po 12 miesiącach od ogłoszenia."
+  ],
+  "who": "Projekt dotyczy najbardziej właścicieli i opiekunów psów oraz innych zwierząt domowych trzymanych na uwięzi.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2289": {
+  "summary": "Projekt zmienia Kodeks pracy i Kodeks postępowania cywilnego, aby skuteczniej chronić pracowników przed mobbingiem, dyskryminacją i naruszaniem godności w pracy. Zawiera nową, prostszą definicję mobbingu jako uporczywego nękania, zasady odpowiedzialności pracodawcy oraz zmiany w procedurze sądowej. Autorzy projektu wskazują, że definicje dyskryminacji i mobbingu wprowadzono w związku z koniecznością dostosowania prawa do przepisów Unii Europejskiej.",
+  "points": [
+   "Mobbing to uporczywe nękanie, czyli zachowania powtarzalne, nawracające lub stałe. Projekt wylicza jego przejawy (m.in. upokarzanie, zastraszanie, izolowanie pracownika, nieuzasadniona krytyka). Incydentalne zachowania nie są mobbingiem, a uzasadniona krytyka lub rozliczanie z pracy wyrażone we właściwej formie też nie.",
+   "Pracownik, który doznał mobbingu, może dochodzić od pracodawcy zadośćuczynienia nie niższego niż sześciokrotność minimalnego wynagrodzenia albo odszkodowania. Pracodawca może później żądać zwrotu od osoby, która mobbowała.",
+   "W sprawach o dyskryminację osoba poszkodowana tylko uprawdopodabnia naruszenie, a pracodawca musi wykazać, że do niego nie doszło. Dyskryminacją jest też traktowanie gorsze z powodu błędnie przypisanej cechy lub powiązania z inną osobą. Za naruszenie równego traktowania należy się zadośćuczynienie nie niższe niż minimalne wynagrodzenie, a przy wielokrotnym naruszeniu nie niższe niż jego trzykrotność.",
+   "Pracodawca ma obowiązek aktywnie i stale przeciwdziałać mobbingowi i nierównemu traktowaniu. Pracodawca zatrudniający co najmniej 9 pracowników ustala w regulaminie reguły, procedury i częstotliwość takich działań, uzgadniając je ze związkami zawodowymi lub przedstawicielami pracowników, i ma na to 6 miesięcy od wejścia ustawy w życie.",
+   "Zakaz niekorzystnego traktowania obejmuje pracownika, który skorzystał ze swoich uprawnień lub wsparł innego pracownika, a sprawy o dobra osobiste, mobbing i nierówne traktowanie mają trafiać do sądów rejonowych bez względu na wartość sporu."
+  ],
+  "who": "Projekt dotyczy najbardziej pracowników zgłaszających mobbing lub dyskryminację oraz pracodawców, na których spoczną nowe obowiązki.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2308": {
+  "summary": "Rada Ministrów prosi Sejm o zgodę na kolejne przedłużenie czasowego ograniczenia prawa do złożenia wniosku o udzielenie ochrony międzynarodowej na granicy z Białorusią. Przedłużenie miałoby obowiązywać od 22 marca 2026 r. na 60 dni, na całym odcinku granicy, na którym ograniczenie jest stosowane.",
+  "points": [
+   "Ograniczenie wprowadzono rozporządzeniem z 27 marca 2025 r. i przedłużano kolejnymi rozporządzeniami, ostatnio 16 stycznia 2026 r., każdorazowo o 60 dni.",
+   "Zgodnie z art. 33a ust. 3 ustawy o udzielaniu cudzoziemcom ochrony przedłużenie na czas nie dłuższy niż 60 dni wymaga zgody Sejmu.",
+   "Rząd wskazuje, że nie ustały przyczyny ograniczenia: trwa instrumentalizacja, czyli działania państwa sąsiedniego mające umożliwić cudzoziemcom nielegalne przekroczenie granicy, oraz presja migracyjna. Jako przykład podaje próbę wykorzystania tunelu pod zaporą 11 grudnia 2025 r. przez 186 osób.",
+   "Według danych z projektu, od 27 marca 2025 r. do 22 lutego 2026 r. nie przyjęto wniosków od 451 cudzoziemców, a przyjęto wnioski od 94 osób z grup wrażliwych. W analogicznym okresie rok wcześniej złożono 2723 wnioski obejmujące 3117 osób.",
+   "Rząd uzasadnia wybór maksymalnego okresu 60 dni brakiem przesłanek, że instrumentalizacja ustanie wcześniej."
+  ],
+  "who": "Wniosek dotyczy cudzoziemców, którzy chcą złożyć wniosek o ochronę międzynarodową na granicy z Białorusią, oraz funkcjonariuszy i żołnierzy chroniących tę granicę.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2411": {
+  "summary": "Projekt wzmacnia nadzór sądów nad kontrolą operacyjną, czyli niejawnymi działaniami służb, takimi jak podsłuchy, służącymi wykrywaniu przestępstw. Autorzy projektu wskazują, że obecne przepisy zostawiają obszary bez nadzoru sądowego, i uznają za zasadne ich uzupełnienie. Zmiany obejmują ustawy o Policji, Straży Granicznej, Żandarmerii Wojskowej, ABW i Agencji Wywiadu, CBA, wojskowych służbach, Krajowej Administracji Skarbowej i Służbie Ochrony Państwa.",
+  "points": [
+   "Sąd musi każdorazowo uzasadnić postanowienie w sprawie kontroli operacyjnej (zarządzenie, przedłużenie i inne decyzje), także gdy zgadza się z wnioskiem służby.",
+   "Służba ma informować sąd, który wydał postanowienie, oraz prokuratora o wynikach kontroli po jej zakończeniu, a na ich żądanie także o jej przebiegu w trakcie trwania, przedstawiając zebrane materiały.",
+   "Sąd i prokurator mogą w każdym czasie wydać uzasadnione postanowienie o przerwaniu kontroli operacyjnej.",
+   "Materiały, których nie wolno wykorzystać w postępowaniu karnym, służba ma zniszczyć w ciągu 3 miesięcy od zarządzenia sądu (w uzasadnionych przypadkach z możliwością przedłużenia o kolejne 3 miesiące) i poinformować o tym sąd i prokuratora.",
+   "Prokuratorowi i służbie, która złożyła wniosek, przysługuje zażalenie na postanowienia sądu w tych sprawach, a minister spraw wewnętrznych ma co roku przedstawiać Sejmowi i Senatowi informację o tej działalności Straży Granicznej do 30 czerwca następnego roku."
+  ],
+  "who": "Projekt dotyczy przede wszystkim służb uprawnionych do kontroli operacyjnej, sądów okręgowych oraz osób, których prywatność może być naruszana przez takie działania.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2443": {
+  "summary": "Projekt tworzy w Polsce system nadzoru nad systemami sztucznej inteligencji, aby można było stosować unijne rozporządzenie 2024/1689 (tzw. akt o AI). Nadzór ma sprawować nowy organ: Komisja Rozwoju i Bezpieczeństwa Sztucznej Inteligencji. Autorzy projektu wskazują, że w Polsce nie ma obecnie instytucji spełniającej wymogi rozporządzenia, a ustawa jest potrzebna do nadawania uprawnień nadzorczych, przyjmowania skarg i nakładania kar.",
+  "points": [
+   "Komisja Rozwoju i Bezpieczeństwa Sztucznej Inteligencji jest organem nadzoru rynku systemów AI i pojedynczym punktem kontaktowym wobec instytucji unijnych.",
+   "Do zadań Komisji należą m.in. kontrola przestrzegania przepisów, wydawanie decyzji o naruszeniach, prowadzenie rejestru skarg, wydawanie opinii indywidualnych i wyjaśnień oraz działania edukacyjne i informacyjne.",
+   "Projekt określa postępowanie w sprawie naruszeń, zasady akredytacji i notyfikacji jednostek oceniających zgodność oraz zasady nakładania administracyjnych kar pieniężnych.",
+   "Komisja ma wspierać rozwój AI, w tym przez tworzenie piaskownic regulacyjnych, czyli kontrolowanych warunków testowania nowych rozwiązań, z uwzględnieniem małych i średnich firm.",
+   "Ustawa nie obejmuje m.in. obrony narodowej, działań służb specjalnych, badań naukowych i prac rozwojowych (poza testami w warunkach rzeczywistych) oraz osób używających AI wyłącznie do celów osobistych. Kontrolę służb specjalnych ma prowadzić Prezes Rady Ministrów albo Minister Koordynator Służb Specjalnych."
+  ],
+  "who": "Projekt dotyczy najbardziej firm i instytucji, które tworzą, wprowadzają na rynek lub stosują systemy sztucznej inteligencji, oraz nowego organu nadzoru.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2449": {
+  "summary": "Projekt zmienia Prawo oświatowe i inne ustawy: zbiera w ustawie prawa, wolności i obowiązki uczniów, wprowadza zamknięty katalog kar oraz tworzy system rzeczników praw uczniowskich. Autorzy projektu wskazują, że dziś te zasady są rozproszone i różnią się między szkolnymi statutami, a uczniowie są szczególnie narażeni na naruszenia swoich praw. Ustawa miałaby wyznaczać krajowe minimum, które szkoły mogą rozszerzać na korzyść uczniów.",
+  "points": [
+   "Ustawowy katalog praw ucznia obejmuje m.in. poszanowanie godności, równe traktowanie, prywatność, jawne i umotywowane ocenianie, prawo do skarg bez negatywnych skutków oraz wolność od przemocy, dyskryminacji i wolność słowa.",
+   "Ustawowy, zamknięty katalog obowiązków ucznia obejmuje m.in. przestrzeganie przepisów szkoły, szanowanie praw innych, uczęszczanie na zajęcia i noszenie stroju zgodnego z normami społecznymi.",
+   "Szkoła może stosować działania wychowawcze, takie jak uwagi ustne czy kontrakt wychowawczy, a karami są upomnienie pisemne, nagana, nagana z ostrzeżeniem oraz przeniesienie do innej szkoły dla uczniów objętych obowiązkiem szkolnym.",
+   "Powstaje system rzeczników praw uczniowskich: Krajowy Rzecznik Praw Uczniowskich, 16 wojewódzkich rzeczników i szkolni rzecznicy, a gminy i powiaty mogą powoływać własnych. Według opisu Sejmu szkolnymi i wojewódzkimi rzecznikami mogą być tylko nauczyciele.",
+   "Powoływanie rad szkół lub placówek, w których równą liczbą zasiadają uczniowie, rodzice i nauczyciele, staje się obowiązkowe."
+  ],
+  "who": "Projekt dotyczy najbardziej uczniów szkół podstawowych, ponadpodstawowych i artystycznych oraz placówek, a także ich nauczycieli, dyrektorów i rodziców.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2501": {
+  "summary": "Rada Ministrów prosi Sejm o zgodę na kolejne przedłużenie czasowego ograniczenia prawa do składania wniosków o ochronę międzynarodową (azyl) na granicy z Białorusią. Przedłużenie ma obowiązywać od 21 maja 2026 r. przez 60 dni. Rząd wskazuje, że przyczyny wprowadzenia ograniczenia nie ustały: nadal trwa tak zwana instrumentalizacja migracji, czyli działania państwa sąsiedniego ułatwiające cudzoziemcom nielegalne przekraczanie granicy.",
+  "points": [
+   "Wniosek dotyczy całej granicy państwowej z Białorusią, na której ograniczenie już obowiązuje, i okresu 60 dni, czyli najdłuższego dopuszczalnego przez ustawę.",
+   "Ograniczenie wprowadzono rozporządzeniem z 27 marca 2025 r., a następnie przedłużano kolejnymi rozporządzeniami po zgodzie Sejmu.",
+   "Rząd opisuje ataki na polskich funkcjonariuszy i żołnierzy, niszczenie zapory oraz próby przerzutu cudzoziemców tunelem, w tym próbę z 11 grudnia 2025 r. z udziałem 186 osób.",
+   "Według danych z wniosku od 1 stycznia do 12 kwietnia 2026 r. odnotowano 158 prób nielegalnego przekroczenia granicy, a w porównywalnym okresie 2025 r. 5170.",
+   "Od 27 marca 2025 r. do 21 kwietnia 2026 r. nie przyjęto wniosków od 475 cudzoziemców, a przyjęto wnioski od 127 osób z grup wrażliwych."
+  ],
+  "who": "Wniosek dotyczy najbardziej cudzoziemców, którzy chcą złożyć wniosek o ochronę międzynarodową na granicy z Białorusią, oraz służb chroniących tę granicę.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2579": {
+  "summary": "Rządowy projekt porządkuje system opieki długoterminowej, czyli usług i świadczeń dla osób potrzebujących wsparcia w codziennym życiu, i wprowadza jej koordynację na poziomie powiatów. Daje też podstawę prawną dla bonu senioralnego, czyli wsparcia dla osób 65+ w formie dostępu do usług. Autorzy projektu wskazują, że opieka jest dziś rozproszona między ochroną zdrowia a pomocą społeczną, a populacja seniorów rośnie.",
+  "points": [
+   "Projekt wprowadza jedną definicję opieki długoterminowej oraz definicje opiekuna nieformalnego (osoby, która bez wynagrodzenia wspiera bliską osobę) i opieki nieformalnej.",
+   "Koordynacja opieki jest zadaniem własnym powiatu, a koordynatorem ma być m.in. kierownik powiatowego centrum pomocy rodzinie. Doradza on w wyborze usług, zbiera dane, informuje mieszkańców i współpracuje z podmiotami leczniczymi, pomocy społecznej i organizacjami pozarządowymi.",
+   "Samorządy mogą wspierać opiekunów nieformalnych, m.in. szkoleniami, grupami wsparcia, konsultacjami psychologicznymi i czasowym zastępstwem w opiece.",
+   "Projekt wprowadza monitorowanie sytuacji osób starszych i opieki długoterminowej oraz wzmacnia rolę organu do spraw polityki senioralnej, a ustawa o osobach starszych z 2015 r. zostaje uchylona.",
+   "Podstawa prawna dla Programu Bonu Senioralnego ma, według autorów projektu, odciążyć rodziny i opiekunów oraz rozwinąć usługi dla seniorów, zwłaszcza w gminach wiejskich i peryferyjnych."
+  ],
+  "who": "Projekt dotyczy najbardziej osób starszych i innych osób potrzebujących wsparcia w codziennym życiu, ich opiekunów nieformalnych oraz powiatów i gmin.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2670": {
+  "summary": "Senacki projekt zmienia Kodeks wyborczy oraz ustawę o referendum lokalnym, głównie w zasadach działania komisji wyborczych i ustalania wyników głosowania. Autorzy projektu wskazują na nieprawidłowości przy wydawaniu kart i przeliczaniu głosów w wyborach prezydenta w 2025 r. oraz na potrzebę zwiększenia profesjonalizmu administracji wyborczej i zaufania obywateli. Projekt w dużej części wraca do rozwiązań sprzed 2018 r.",
+  "points": [
+   "Okręgowe i rejonowe komisje wyborcze byłyby powoływane spośród adwokatów, radców prawnych i notariuszy, a przewodniczy im komisarz wyborczy. Komisarzami byliby sędziowie lub sędziowie w stanie spoczynku do 70. roku życia, w liczbie od 2 do 6 na województwo, zgłaszani przez prezesów sądów apelacyjnych.",
+   "Stały obwód głosowania obejmowałby od 200 do 3000 mieszkańców (obecnie do 4000), a w uzasadnionych przypadkach do 4000. W obwodach powyżej 2500 mieszkańców komisja liczyłaby 13 osób.",
+   "Do obwodowej komisji każdy komitet zgłaszałby kandydatów tylko tam, gdzie zarejestrował listę lub kandydata, a przewodniczący i jego zastępca nie mogliby pochodzić od tego samego pełnomocnika. Znosi się dietę dla mężów zaufania.",
+   "Termin na przekazanie wyników z obwodu wydłuża się z 24 do 48 godzin, z możliwością przedłużenia przez Państwową Komisję Wyborczą do 72 godzin, i obejmuje także obwody w kraju oraz inne rodzaje wyborów.",
+   "Za granicą polski dowód osobisty byłby równorzędny z paszportem, a komisje w obwodach zagranicznych mogłyby liczyć do 16 osób. Liczbę posłów wybieranych w okręgu ogłaszałaby co roku Państwowa Komisja Wyborcza, a w razie jej zaniechania ustalałby ją Naczelny Sąd Administracyjny."
+  ],
+  "who": "Projekt dotyczy najbardziej organów wyborczych i członków komisji wyborczych oraz wyborców, w tym głosujących za granicą.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2684": {
+  "summary": "Projekt wprowadza czasowy podatek od nadzwyczajnych zysków ze sprzedaży paliw ciekłych, osiągniętych od 1 marca do 31 grudnia 2026 r. Autorzy projektu wskazują, że kryzys na Bliskim Wschodzie i blokada ważnego szlaku przewozu ropy podniosły ceny paliw i marże części firm paliwowych. Według autorów wpływy z podatku mają częściowo pokryć ubytek dochodów budżetu po obniżeniu VAT i akcyzy na paliwa oraz po wprowadzeniu cen maksymalnych.",
+  "points": [
+   "Podatek płacą firmy, które produkują paliwa ciekłe z ropy naftowej w Polsce albo handlują paliwami na podstawie koncesji na obrót z zagranicą. Oleje opałowe są wyłączone.",
+   "Podstawą jest nadwyżka rzeczywistych przychodów ze sprzedaży paliw ponad przychody, które firma osiągnęłaby przy marży referencyjnej, czyli średniej marży z 2025 r. powiększonej o 20% (nie mniej niż 2,00%).",
+   "Stawka podatku wynosi 60% tak obliczonej nadwyżki, a wpływy trafiają do budżetu państwa.",
+   "Firmy wpłacają miesięczne zaliczki, a pierwszą za okres od marca do lipca 2026 r. płacą w czterech równych częściach od sierpnia do listopada 2026 r. Zeznanie roczne trzeba złożyć do 30 kwietnia 2027 r.",
+   "Zapłacony podatek nie może być wliczony w koszty uzyskania przychodów w podatkach dochodowych. Projekt ma wejść w życie 1 sierpnia 2026 r., ale obejmuje zyski od 1 marca 2026 r."
+  ],
+  "who": "Projekt dotyczy przede wszystkim producentów paliw z ropy naftowej oraz firm importujących i sprzedających paliwa ciekłe na podstawie koncesji na obrót z zagranicą.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2694": {
+  "summary": "Rządowy projekt zmienia ustawę o świadczeniu usług drogą elektroniczną i kilka innych ustaw, aby w Polsce można było stosować unijny akt o usługach cyfrowych (DSA), czyli rozporządzenie o obowiązkach platform internetowych i innych usług pośrednich. Wyznacza organy, które mają pilnować przestrzegania tych obowiązków, i określa procedury z nimi związane. Autorzy projektu wskazują, że rozporządzenie obowiązuje bezpośrednio, więc krajowe przepisy mają tylko zapewnić jego skuteczne stosowanie.",
+  "points": [
+   "Prezes Urzędu Komunikacji Elektronicznej (UKE) zostaje koordynatorem do spraw usług cyfrowych, czyli głównym organem i punktem kontaktowym wobec Komisji Europejskiej i organów innych państw.",
+   "Właściwymi organami są też Prezes UOKiK, w sprawach dotyczących platform internetowych i interesów konsumentów, oraz Przewodniczący KRRiT, w sprawach platform udostępniania wideo. Spory o właściwość między nimi rozstrzyga Prezes Rady Ministrów.",
+   "Koordynator przyznaje statusy zaufanego podmiotu sygnalizującego (którego zgłoszenia nielegalnych treści są rozpatrywane priorytetowo) i zweryfikowanego badacza, który może uzyskać dostęp do danych bardzo dużych platform do badań, oraz certyfikuje organy pozasądowego rozstrzygania sporów.",
+   "Przy koordynatorze działa 12-osobowa Krajowa Rada do spraw Usług Cyfrowych jako organ doradczy z czteroletnią kadencją.",
+   "Projekt określa tryb postępowania w sprawie naruszeń, odpowiedzialność cywilną i postępowanie przed sądem oraz procedury nakładania administracyjnych kar pieniężnych, których maksymalna wysokość wynika z rozporządzenia."
+  ],
+  "who": "Projekt dotyczy przede wszystkim dostawców platform internetowych, wyszukiwarek i innych usług pośrednich oraz organów nadzorujących, a także użytkowników i badaczy korzystających z nowych mechanizmów.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2698": {
+  "summary": "Rządowy projekt zmienia ustawę o opiece nad dziećmi w wieku do lat 3. Wprowadza nową formę opieki, punkt opieki dziennej, w którym pracują dzienni opiekunowie, oraz nowe uprawnienia i wymagania dla osób opiekujących się najmłodszymi dziećmi. Autorzy projektu wskazują, że zmiany mają podnieść jakość opieki, zwiększyć jej dostępność, zwłaszcza w gminach bez żadnej formy opieki, i podnieść prestiż zawodu opiekuna.",
+  "points": [
+   "Punkt opieki dziennej zastępuje dotychczasową formę dziennego opiekuna jako samodzielnej instytucji. Opiekę mogłoby sprawować kilku dziennych opiekunów w jednym miejscu, co ułatwia zastępstwa w razie choroby lub urlopu. Opiekun mógłby zająć się do ośmiorga dzieci, ale w jednym lokalu byłoby ich nie więcej niż 16, a na dziecko przypadałoby co najmniej 5 m2.",
+   "Nowy rejestr instytucji opieki obejmie żłobki, kluby dziecięce i punkty opieki dziennej oraz dane o zatrudnionych w nich osobach. Obecny wykaz dziennych opiekunów zostanie zlikwidowany.",
+   "Nowe uprawnienia opiekunów: płatny czas wolny na podnoszenie kwalifikacji, legitymacja opiekuna małego dziecka, ulga 33% na przejazdy publicznym transportem zbiorowym, ochrona przysługująca funkcjonariuszowi publicznemu oraz Dzień Opiekuna Małego Dziecka 4 kwietnia, z możliwością nagrody pieniężnej.",
+   "Zmiany wymagań: ujednolicone standardy opieki, dostęp dzieci do wody do picia, zasady wyżywienia w żłobkach i klubach dziecięcych oraz wymogi dotyczące placów zabaw przy żłobkach. Wszyscy opiekunowie mieliby ukończyć 30-godzinne szkolenie w ciągu 2 lat od 1 stycznia 2027 r.",
+   "Zakaz publicznego udostępniania wizerunku dzieci objętych opieką nawet za zgodą rodzica oraz zmiany w wymaganiach wobec dyrektorów żłobków i osób kierujących klubami dziecięcymi. Instytucje przekraczające limit dzieci w lokalu musiałyby się przekształcić w żłobek lub klub dziecięcy do 31 grudnia 2031 r."
+  ],
+  "who": "Projekt dotyczy przede wszystkim rodziców dzieci do lat 3, opiekunów w żłobkach, klubach dziecięcych i dziennych opiekunów oraz podmiotów i gmin prowadzących lub nadzorujących te formy opieki.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "2739": {
+  "summary": "To wniosek Rady Ministrów o zgodę Sejmu na kolejne przedłużenie czasowego ograniczenia prawa do złożenia wniosku o udzielenie ochrony międzynarodowej (azylu) na granicy z Białorusią. Przedłużenie miałoby obowiązywać od 20 lipca 2026 r. przez 60 dni. Rząd wskazuje, że przyczyny wprowadzenia ograniczenia nie ustały: nadal trwa tak zwana instrumentalizacja migracji, czyli działania państwa sąsiedniego lub innego podmiotu mające umożliwić cudzoziemcom nielegalne przekroczenie granicy.",
+  "points": [
+   "Ograniczenie dotyczy całego odcinka granicy państwowej z Białorusią, na którym zostało wprowadzone rozporządzeniem z 27 marca 2025 r., a następnie wielokrotnie przedłużane, każdorazowo na 60 dni.",
+   "Zgodnie z ustawą o udzielaniu cudzoziemcom ochrony przedłużenie możliwe jest na czas oznaczony, nie dłuższy niż 60 dni, po wyrażeniu zgody przez Sejm.",
+   "Rząd opisuje ataki na polskie patrole, niszczenie zapory granicznej, udział białoruskich służb w tych działaniach oraz próby przerzutu ludzi tunelami pod zaporą, w tym próbę z 11 grudnia 2025 r. dotyczącą 186 osób.",
+   "Wnioskodawca podaje dane: od 1 stycznia do 21 czerwca 2026 r. odnotowano 229 prób nielegalnego przekroczenia granicy, a w podobnym okresie 2025 r. 14 063. Od 27 marca 2025 r. do 21 czerwca 2026 r. nie przyjęto wniosków od 484 cudzoziemców i przyjęto wnioski od 149 osób z grup wrażliwych.",
+   "Rząd uznaje, że ograniczenie działa prewencyjnie, bo utrudnia wykorzystywanie procedury azylowej do wjazdu i legalizacji pobytu w drodze do innych państw Unii Europejskiej."
+  ],
+  "who": "Wniosek dotyczy najbardziej cudzoziemców przekraczających granicę z Białorusią, którzy chcieliby tam złożyć wniosek o ochronę międzynarodową, oraz służb chroniących granicę.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3010": {
+  "summary": "Projekt umarza z mocy prawa nieprzedawnione należności dochodzone przez ZUS, które powstały przed 1 stycznia 1999 r., razem z odsetkami i kosztami. Autorzy projektu wskazują, że egzekucja tych starych zaległości jest mało skuteczna i kosztowna, a odzyskiwane kwoty pokrywają głównie koszty i odsetki, a nie należność główną. Projekt ma charakter deregulacyjny.",
+  "points": [
+   "Umorzeniu podlegają nieprzedawnione składki sprzed 1999 r. (na ubezpieczenie społeczne, Fundusz Pracy i Fundusz Gwarantowanych Świadczeń Pracowniczych) oraz odsetki za zwłokę, dodatkowe opłaty, opłaty prolongacyjne, koszty upomnienia i koszty egzekucyjne. Nie wydaje się decyzji, a ZUS informuje dłużników na profilu PUE ZUS albo listownie.",
+   "Wszczęte i niezakończone postępowania egzekucyjne i zabezpieczające dotyczące tych należności ulegają umorzeniu, a ZUS powiadamia komorników, syndyków i sądy o należnościach zgłoszonych w upadłości lub restrukturyzacji.",
+   "Osoby prowadzące działalność gospodarczą i inne osoby opłacające składki za siebie dostaną od ZUS zawiadomienie i w ciągu 30 dni będą mogły złożyć oświadczenie o odstąpieniu od umorzenia, dotyczące całości należności.",
+   "Jeśli składki za takie osoby zostaną umorzone, okres, którego dotyczyły, nie będzie liczony do kapitału początkowego, podstawy emerytury ani okresów uprawniających do emerytur i rent, ale będzie wliczany do okresu zatrudnienia w rozumieniu Kodeksu pracy.",
+   "Umorzenie nie będzie przychodem podlegającym podatkowi dochodowemu. Według autorów zadłużenie sprzed 1999 r. wynosi około 315 mln zł i dotyczy około 7,1 tys. płatników składek."
+  ],
+  "who": "Projekt dotyczy najbardziej płatników składek z zaległościami wobec ZUS z lat przed 1999 r., w tym przedsiębiorców, także tych, którzy zakończyli działalność.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3027": {
+  "summary": "Rada Ministrów prosi Sejm o zgodę na kolejne przedłużenie czasowego ograniczenia prawa do złożenia wniosku o udzielenie ochrony międzynarodowej na granicy z Białorusią. Przedłużenie miałoby obowiązywać od 18 września 2026 r. na 60 dni, na całym odcinku granicy, na którym ograniczenie jest stosowane.",
+  "points": [
+   "Ograniczenie wprowadzono rozporządzeniem z 27 marca 2025 r. i przedłużano kolejnymi rozporządzeniami, ostatnio 13 lipca 2026 r., każdorazowo o 60 dni.",
+   "Zgodnie z art. 33a ust. 3 ustawy o udzielaniu cudzoziemcom ochrony przedłużenie na czas nie dłuższy niż 60 dni wymaga zgody Sejmu.",
+   "Rząd przyznaje, że od 1 stycznia do 16 sierpnia 2026 r. na granicy z Białorusią odnotowano 377 prób nielegalnego przekroczenia (w porównywalnym okresie 2025 r. 21 937). Wskazuje jednak, że okresowy spadek nie oznacza trwałego ustania instrumentalizacji, czyli działań państwa sąsiedniego mających umożliwić cudzoziemcom nielegalne przekroczenie granicy.",
+   "Autorzy wniosku powołują się też na wzrost prób nielegalnego przekroczenia granicy polsko-litewskiej: 1046 w tym okresie 2026 r. wobec 465 rok wcześniej, a także na ponad 80 zatrzymanych pomocników i organizatorów.",
+   "Według danych z wniosku, od 27 marca 2025 r. do 16 sierpnia 2026 r. nie przyjęto wniosków od 492 cudzoziemców, a przyjęto wnioski od 178 osób z grup wrażliwych."
+  ],
+  "who": "Wniosek dotyczy cudzoziemców, którzy chcą złożyć wniosek o ochronę międzynarodową na granicy z Białorusią, oraz funkcjonariuszy i żołnierzy chroniących tę granicę.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3100": {
+  "summary": "Projekt wprowadza czasowy podatek od nadzwyczajnych zysków (tzw. windfall tax) ze zbycia paliw ciekłych, osiągniętych od 1 marca do 31 grudnia 2026 r. Autorzy projektu wskazują, że wzrost cen ropy po kryzysie na Bliskim Wschodzie dał części firm paliwowych ponadprzeciętne marże, a obniżki VAT i akcyzy na paliwa obciążyły budżet państwa. Wpływy z podatku mają zasilić budżet i zrównoważyć te ubytki.",
+  "points": [
+   "Podatek płacą podmioty, które wytwarzają paliwa ciekłe w Polsce (przerób ropy naftowej) albo handlują nimi na podstawie koncesji na obrót paliwami z zagranicą. Podatek jest dochodem budżetu państwa.",
+   "Podstawą jest nadwyżka rzeczywistych przychodów ze sprzedaży paliw ponad przychody, które firma osiągnęłaby przy marży referencyjnej: średniej marży z 2025 r. powiększonej o 20%, lecz nie niższej niż 2,00%.",
+   "Stawka podatku wynosi 60% tak obliczonej podstawy. Dla podmiotów, które nie wytwarzają paliw, podatek nie może przekroczyć ich dochodu lub zysku przypadającego proporcjonalnie na rok podatkowy.",
+   "Podatnicy wpłacają miesięczne zaliczki do 25. dnia miesiąca (pierwsza za okres od 1 marca do 31 października 2026 r.) oraz składają zeznanie i wpłacają podatek do 30 kwietnia 2027 r.",
+   "Projekt zmienia też ustawy o podatku dochodowym od osób fizycznych i prawnych, a wejście w życie ustawy zaplanowano na 1 listopada 2026 r."
+  ],
+  "who": "Projekt dotyczy przede wszystkim producentów paliw (rafinerii) i firm handlujących paliwami sprowadzanymi z zagranicy.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3137": {
+  "summary": "Projekt zmienia przepisy o podatku dochodowym od osób fizycznych (PIT), od osób prawnych (CIT) i o ryczałcie od niektórych przychodów. Autorzy projektu wskazują, że część zmian ma dostosować przepisy do aktualnych realiów, wyjaśnić wątpliwości interpretacyjne i wprowadzić rozwiązania korzystne dla podatników, a część ma uszczelnić system podatkowy.",
+  "points": [
+   "Świadczenia na zaspokojenie potrzeb rodziny między małżonkami mają być wyłączone z zakresu PIT niezależnie od ustroju majątkowego, a nie tylko przy wspólności majątkowej. Autorzy wskazują, że obowiązek ich dawania nie zależy od ustroju małżeńskiego.",
+   "Przychód z waloryzacji środków na tzw. rachunkach uśpionych (umowa wygasła po 10 latach braku aktywności) ma być zaliczony do kapitałów pieniężnych i powstawać w dniu dopisania waloryzacji do rachunku. Autorzy wskazują, że to porządkuje stan prawny zgodny z objaśnieniami podatkowymi Ministra Finansów (podatek 19%).",
+   "Przy obliczaniu daniny solidarnościowej, liczonej od nadwyżki ponad 1 000 000 zł dochodów, ma być jasno określone, że można odliczyć tylko wskazane straty i składki, bez innych odliczeń. Danina ma obejmować także dochody z tzw. IP Box.",
+   "Zmiany uszczelniające: koszty przy sprzedaży udziałów spółki powstałej z przekształcenia, zasady datio in solutum (przekazania rzeczy w zamian za zwolnienie z długu), ograniczenie wstecznej zmiany stawek amortyzacyjnych oraz wyższe stawki ryczałtu (17% i 15%) dla niektórych przychodów z najmu i praw od podmiotów powiązanych.",
+   "Projekt rozszerza zwolnienie podatkowe dla organizacji pozarządowych w CIT, zmienia sposób ustalania emisji CO2 samochodu przy limitach kosztów (150 000 zł i 100 000 zł) oraz zmienia zasady tzw. estońskiego CIT, m.in. definicję wydatków niezwiązanych z działalnością i warunek zatrudnienia."
+  ],
+  "who": "Projekt dotyczy najbardziej podatników PIT i CIT, w tym przedsiębiorców, małżonków, osób o wysokich dochodach, wspólników spółek oraz organizacji pozarządowych.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3147": {
+  "summary": "Projekt zmienia podatek dochodowy od osób fizycznych (PIT), od osób prawnych (CIT) oraz ryczałt od przychodów ewidencjonowanych. Skala PIT dostaje trzy przedziały zamiast dwóch, a nowe obciążenia dla największych firm, osób o najwyższych dochodach i przedsiębiorców na ryczałcie mają według autorów projektu sfinansować te zmiany. Autorzy projektu wskazują, że celem jest złagodzenie skokowego wzrostu stawki po przekroczeniu obecnego progu 120 tys. zł oraz rozłożenie ciężarów podatkowych według możliwości płatniczych.",
+  "points": [
+   "Skala PIT: 12% do 130 tys. zł (z kwotą zmniejszającą podatek 3 600 zł), 24% od nadwyżki ponad 130 tys. zł do 150 tys. zł i 32% od nadwyżki ponad 150 tys. zł. Dziś próg wynosi 120 tys. zł, a powyżej niego stawka to 32%.",
+   "Danina solidarnościowa płacona przez osoby z dochodem powyżej 1 mln zł rośnie z 4% do 5%.",
+   "W CIT pojawia się stawka 22% (zamiast 19%) dla podatników, których przychody w poprzednim roku przekroczyły równowartość 50 mln euro, oraz dla jednostek z grup objętych podatkiem wyrównawczym, z przepisami przeciw obchodzeniu zmiany przez reorganizacje.",
+   "Limit przychodów uprawniający do ryczałtu od przychodów ewidencjonowanych spada z 2 mln euro do 250 tys. euro, a od nadwyżki przychodów ponad 300 tys. euro w roku obowiązuje stawka ryczałtu 17%.",
+   "Zmiany mają dotyczyć dochodów i przychodów uzyskanych od 1 stycznia 2027 r."
+  ],
+  "who": "Projekt dotyczy najbardziej podatników rozliczających się według skali podatkowej, osób o dochodach powyżej 1 mln zł, największych firm oraz przedsiębiorców na ryczałcie o wysokich przychodach.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3150": {
+  "summary": "Brakuje treści samej ustawy budżetowej na rok 2027: dostępny fragment to tylko załącznik, czyli trzyletni plan limitu mianowań urzędników w służbie cywilnej na lata 2027–2029, przedkładany Sejmowi razem z projektem budżetu. Rada Ministrów proponuje w nim limit 500 mianowań rocznie w każdym z lat 2027, 2028 i 2029, a koszt nowych mianowań w 2027 r. szacuje na 688 090 zł bez pochodnych i 823 507 zł z pochodnymi. Brakuje danych o dochodach, wydatkach, deficycie i podziale środków w budżecie.",
+  "points": [],
+  "who": "Dostępny fragment dotyczy najbardziej urzędników służby cywilnej i ich mianowania, a nie budżetu jako całości.",
+  "insufficient": true,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3157": {
+  "summary": "Rządowy projekt wprowadza limity czasu pracy i wynagrodzeń pracowników medycznych (np. lekarzy i pielęgniarek), którzy udzielają świadczeń finansowanych przez NFZ. Autorzy projektu wskazują, że przy niedoborze kadr placówki przelicytowują się stawkami, co podnosi koszty świadczeń i zadłuża podmioty lecznicze. Celem ma być powstrzymanie wzrostu wynagrodzeń i zwiększenie liczby świadczeń możliwych do sfinansowania przez NFZ. Projekt zmienia też zasady wyceny świadczeń i kontroli.",
+  "points": [
+   "Łączny wymiar zatrudnienia pracownika medycznego u wszystkich świadczeniodawców, razem z praktyką zawodową, nie może przekraczać dwukrotności pełnego wymiaru czasu pracy.",
+   "Stawka godzinowa za udzielanie świadczeń ma być ograniczona do 1/20 minimalnego wynagrodzenia, z możliwością dodatków, np. motywacyjnych, za wysługę lat lub za funkcje kierownicze i zadania dydaktyczne.",
+   "Średniomiesięczne wynagrodzenie u jednego świadczeniodawcy ma być ograniczone do ośmiokrotności minimalnego wynagrodzenia (proporcjonalnie do wymiaru zatrudnienia), a łączne ze wszystkich umów do szesnastokrotności.",
+   "Wynagrodzenia nie wolno ustalać jako procentu kwoty, którą placówka dostaje od NFZ za realizację umowy. Pracownik ma składać oświadczenia o łącznym wynagrodzeniu pod rygorem odpowiedzialności karnej.",
+   "Agencja Oceny Technologii Medycznych i Taryfikacji dostaje uprawnienie do weryfikacji standardu rachunku kosztów u świadczeniodawców, a Prezes NFZ do kontroli wykorzystania środków publicznych."
+  ],
+  "who": "Projekt dotyczy najbardziej lekarzy, pielęgniarek i innych pracowników medycznych oraz placówek leczniczych działających w ramach umów z NFZ.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3263": {
+  "summary": "Rządowy projekt podwyższa na stałe wskaźnik, według którego ustala się średnie wynagrodzenie nauczycieli początkujących, ze 120% do 122,7696% kwoty bazowej określanej corocznie w ustawie budżetowej. Autorzy projektu wskazują, że bez zmiany planowany wzrost kwoty bazowej o 3% dałby nauczycielom początkującym wzrost średniego wynagrodzenia w 2027 r. tylko o 0,68%, podczas gdy nauczyciele mianowani i dyplomowani otrzymają 3%.",
+  "points": [
+   "W Karcie Nauczyciela wskaźnik dla nauczyciela początkującego zmienia się ze 120% na 122,7696% kwoty bazowej.",
+   "Według autorów nowy wskaźnik odtwarza dodatkowe zwiększenie o 2,308%, które w latach 2024 do 2026 wprowadzano jednorazowo w ustawach okołobudżetowych.",
+   "Zmiana ma zapewnić nauczycielom początkującym w 2027 r. i w kolejnych latach taki sam procentowy wzrost średniego wynagrodzenia jak nauczycielom mianowanym i dyplomowanym, czyli 3% w 2027 r.",
+   "W 2027 r. podwyżka ma nastąpić nie później niż w ciągu 3 miesięcy po ogłoszeniu ustawy budżetowej, z wyrównaniem od 1 stycznia 2027 r.",
+   "Projekt miałby wejść w życie 1 stycznia 2027 r. Według uzasadnienia skutki zaplanowano już w kwocie potrzeb oświatowych samorządów na 2027 r., a strona samorządowa Komisji Wspólnej Rządu i Samorządu Terytorialnego zaopiniowała projekt negatywnie."
+  ],
+  "who": "Projekt dotyczy najbardziej nauczycieli początkujących (według danych w druku ok. 121 tys. osób) oraz samorządów i organów prowadzących szkoły.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ },
+ "3276": {
+  "summary": "Rada Ministrów prosi Sejm o zgodę na kolejne przedłużenie, od 17 listopada 2026 r. na 60 dni, czasowego ograniczenia prawa do złożenia wniosku o ochronę międzynarodową na granicy z Białorusią. Ograniczenie to wprowadzono w marcu 2025 r. i było już wielokrotnie przedłużane. Autorzy wniosku wskazują, że nie ustały przyczyny jego wprowadzenia, czyli tzw. instrumentalizacja migracji, którą uznają za zagrożenie dla bezpieczeństwa państwa.",
+  "points": [
+   "Wniosek dotyczy przedłużenia ograniczenia na całym odcinku granicy polsko-białoruskiej, na czas oznaczony 60 dni, czyli maksymalny okres dopuszczony przez ustawę.",
+   "Instrumentalizacja oznacza działania państwa sąsiedniego lub innego podmiotu, które mają umożliwić cudzoziemcom nielegalne przekroczenie granicy, np. z użyciem przemocy wobec służb lub niszczeniem infrastruktury.",
+   "Autorzy podają, że od 1 stycznia do 15 października 2026 r. na granicy z Białorusią odnotowano 474 próby nielegalnego przekroczenia, wobec 28 328 w porównywalnym okresie 2025 r., ale uznają to za niewystarczającą podstawę do uznania zagrożenia za trwale zakończone.",
+   "Autorzy wskazują na 1054 próby nielegalnego przekroczenia granicy z Litwą w tym samym okresie 2026 r., wobec 569 rok wcześniej, oraz na ataki na polskie patrole i próby budowy tuneli pod zaporą.",
+   "Autorzy podają, że od 27 marca 2025 r. do 15 października 2026 r. nie przyjęto wniosków od 496 cudzoziemców, a przyjęto wnioski od 201 osób z grup wrażliwych."
+  ],
+  "who": "Wniosek dotyczy przede wszystkim cudzoziemców, którzy chcą złożyć wniosek o ochronę międzynarodową na granicy z Białorusią, oraz służb chroniących tę granicę.",
+  "insufficient": false,
+  "model": "Claude Sonnet 5.5",
+  "date": "2026-11-15"
+ }
+}

@@ -376,6 +376,20 @@ Live on sejmomat.pl:
   3,565 are compared (was 1,708), 906 have none (was 1,950; mostly the budget's tables, resolutions,
   motions to reject, and amendments whose committee version of the bill could not be read).
 
+- **Presidential vetoes** (branch `weta`, 15 November 2026): `weta.html` (section Ustawy) lists every law the
+  President refused to sign, `weto/<print>.html` gives each one's reasons, and bill pages carry a note.
+  `sejmomat/vetoes.py`: the processes' stages ("Wniosek Prezydenta (weto)", "Rozpatrywanie na forum Sejmu
+  wniosku Prezydenta"), joint processes as one law, the override votes (3/5; build motion kind "veto": "za" =
+  the veto overridden), Duda until 5 August 2025, Nawrocki after; also the referrals to the Constitutional
+  Tribunal. The reasons are in the veto prints ("Wniosek Prezydenta RP o ponowne rozpatrzenie ustawy…"),
+  which are scans: `vetoes.fetch()` (run by `fetch`) OCRs each new one once into `data/vetoes.json`. Most
+  have no "Uzasadnienie" heading; the reasons start after "…motywuję następującymi względami".
+- **AI summaries of bills** (`ai/index.html`, a fold-out on bill pages): `data/ai/bills.json`, written by
+  Claude Sonnet 5.5 subagents from each bill's print (opening + justification, 40k characters), labelled
+  as AI everywhere; they describe the bill as submitted, not its fate (the page shows that from data).
+  First run: the 111 bills a model ranked most important (tier 1 of 4); 6 marked insufficient, since their
+  print text is only a cover letter or annex (223, 316, 611, 703, 1749, 3150). Tiers 2–3 not done yet.
+
 Waiting on the owner:
 
 - **Sejmowa liga setup** before launch: (1) Google Cloud Console → a project → OAuth consent screen

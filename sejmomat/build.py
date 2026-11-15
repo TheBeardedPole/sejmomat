@@ -10,7 +10,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import agenda, analysis, authors, committees, fillgaps, interests, osr, pending, places, processes, professions, schools, questions, sejmdle, social, speeches, survey
+from . import agenda, analysis, authors, committees, fillgaps, interests, osr, pending, places, processes, professions, schools, questions, sejmdle, social, speeches, survey, vetoes
 from .facts import facts
 from .stats import compute as compute_voting_stats
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
@@ -34,6 +34,9 @@ KIND_LABEL = {"amendment": "Poprawka", "minority": "Wniosek mniejszości", "sena
 # Votes on motions where "for" does not mean "for the bill": an explanation
 # and outcome wording per kind. Patterns are matched against the lowercased topic.
 MOTIONS = [
+    ("veto", r"ponown\w* uchwaleni|wniosku o ponowne rozpatrzenie ustawy",
+     "Głosowanie nad ponownym uchwaleniem ustawy, której Prezydent odmówił podpisania: „za” oznacza odrzucenie weta i przyjęcie ustawy w dotychczasowym brzmieniu. Potrzebna jest większość 3/5 głosów przy obecności co najmniej połowy posłów. W przeciwnym razie ustawa upada.",
+     ("Weto odrzucone: ustawa uchwalona ponownie", "Weto utrzymane: ustawa upada")),
     ("reject_info", r"odrzuceni\w* (informacji|sprawozdania|dokumentu)",
      "Głosowanie nad wnioskiem o odrzucenie informacji lub sprawozdania: „za” oznacza odrzucenie dokumentu, „przeciw” jego przyjęcie do wiadomości.",
      ("Wniosek przyjęty: dokument odrzucony", "Wniosek odrzucony: dokument nie został odrzucony")),
@@ -287,7 +290,7 @@ def build_context():
     for root, b in bill_by_root.items():
         for v in b["votings"]:
             kind = v["motion"][0] if v["motion"] else None
-            rank = (kind == "final", kind in ("reject_bill", "reject_senate"), v["votingNumber"])
+            rank = (kind in ("final", "veto"), kind in ("reject_bill", "reject_senate"), v["votingNumber"])
             key = (root, v["sitting"])
             if key not in settled_at or rank > settled_at[key][0]:
                 settled_at[key] = (rank, {"s": v["sitting"], "n": v["votingNumber"], "o": v["outcome_class"],
@@ -375,7 +378,7 @@ def build_context():
     # Latest sitting: figures and the bills decided as a whole (no amendment votes).
     last_sitting = max(sittings)
     last_votes = sittings[last_sitting]
-    whole = [v for v in last_votes if v["motion"] and v["motion"][0] in ("final", "reject_bill", "reject_senate")]
+    whole = [v for v in last_votes if v["motion"] and v["motion"][0] in ("final", "reject_bill", "reject_senate", "veto")]
     decided_bills = {}
     for v in whole:  # the last vote on the whole bill is the one that settled it
         decided_bills[v["bill"] or v["agenda"]] = v
@@ -487,6 +490,18 @@ def build_context():
 
     frozen = pending.frozen(procs, names, lead_club)
     frozen["committees"] = pending.committees(frozen["bills"], committees.load(), names)
+    # the President's vetoes, his reasons and the votes to pass the laws again (sejmomat/vetoes.py)
+    veto_data = vetoes.build(procs, by_id.values(), bill_by_root, today=date.today())
+    for x in veto_data["vetoes"]:
+        if x["bill"]:
+            x["bill"]["veto"] = x
+    # plain-language summaries of bills written by a language model from the bill's print, kept
+    # apart from the data and labelled as such: listed on ai/, linked from the bill's page
+    # (data/ai/bills.json: {root: {"summary", "points", "who", "model", "date"}})
+    ai_path = DATA / "ai" / "bills.json"
+    ai_bills = json.loads(ai_path.read_text(encoding="utf-8")) if ai_path.exists() else {}
+    for b in bill_rows:
+        b["ai"] = ai_bills.get(b["root"])
     pending_by_root = defaultdict(list)
     for g in pending_amendments:
         pending_by_root[g["root"]].append(g)
@@ -508,7 +523,7 @@ def build_context():
         "summaries": social.summaries({"by_id": by_id, "bill_by_root": bill_by_root}),
         "printed": set(printed), "printed_list": printed, "upcoming": upcoming, "planned": planned, "timetable_days": timetable_days, "sitting_agendas": sitting_agendas,
         "committee_rows": committee_rows, "pending_amendments": pending_amendments, "pending_by_root": pending_by_root,
-        "pending_prints": {g["print"] for g in pending_amendments}, "frozen": frozen, "questions_summary": questions_summary, "fill_gaps": fill_gaps, "committee_names": {c["code"]: c["name"] for c in committee_rows},
+        "pending_prints": {g["print"] for g in pending_amendments}, "frozen": frozen, "vetoes": veto_data, "questions_summary": questions_summary, "fill_gaps": fill_gaps, "committee_names": {c["code"]: c["name"] for c in committee_rows},
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
         "interest_list": [{"id": i["id"], "pl": i["pl"], "en": i["en"]} for i in interests.load()],
         # the prints with a page here as [first, last] runs, for the schedule's links (static/schedule.js)
@@ -1014,6 +1029,10 @@ def _pages(ctx):
     yield "amendments.html", "poprawki.html", {}
     yield "pending.html", "poprawki-oczekujace.html", {}
     yield "frozen.html", "zamrazarka.html", {}
+    yield "vetoes.html", "weta.html", {}
+    yield "ai.html", "ai/index.html", {}
+    for x in ctx["vetoes"]["vetoes"]:
+        yield "veto.html", f"weto/{x['slug']}.html", {"x": x}
     yield "live_vote.html", "glosowanie-na-zywo.html", {}
     yield "compare.html", "porownaj-glosowania.html", {}
     yield "stats.html", "statystyki.html", {}

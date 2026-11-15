@@ -1,0 +1,16 @@
+{# A veto's status in a few words, and the vote to pass the law again if there was one. #}
+{% macro veto_status(x, root) -%}
+{%- if x.status == "upheld" -%}
+<strong class="v-N">{{ _("Weto utrzymane") }}</strong>
+{%- elif x.status == "overridden" -%}
+<strong class="v-Y">{{ _("Weto odrzucone") }}</strong>
+{%- elif x.status == "committee" -%}
+<strong>{{ _("W komisji") }}</strong>
+{%- else -%}
+<strong>{{ _("Sejm nie głosował") }}</strong>
+{%- endif %}
+{%- if x.vote %}<br><span class="muted"><a href="{{ root }}glosowanie/{{ x.vote.sitting }}-{{ x.vote.votingNumber }}.html">{{ x.vote.yes }} {{ _("za") }}, {{ x.vote.no }} {{ _("przeciw") }}</a>;
+  {{ _("potrzeba") }} {{ x.vote.majorityVotes }}{% if x.short %}, {{ _("zabrakło") }} {{ x.short }}{% endif %}</span>
+{%- elif x.waiting_days is not none %}<br><span class="muted">{{ x.waiting_days }} {{ x.waiting_days | plural(_("dzień"), _("dni"), _("dni")) }} {{ _("od weta") }}</span>
+{%- endif %}
+{%- endmacro %}

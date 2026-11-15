@@ -40,7 +40,7 @@ STAGES = {
     "Stanowisko Senatu", "Prezydent podpisał ustawę", "Wniosek Prezydenta (weto)", "Wycofano",
     "Prezydent skierował ustawę do Trybunału Konstytucyjnego", "nie uchwalona ponownie po wecie Prezydenta",
 }
-WHOLE = ("final", "reject_bill", "reject_senate")   # votes on a bill as a whole
+WHOLE = ("final", "reject_bill", "reject_senate", "veto")   # votes on a bill as a whole
 # committee roles, as the API names them, and their weight
 ROLES = {"przewodniczący": 4, "przewodnicząca": 4, "zastępca przewodniczącego": 3, "zastępczyni przewodniczącego": 3}
 MEMBER = 2

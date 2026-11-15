@@ -401,7 +401,7 @@ def run():
     is something new since the last completed acts scan (a new sitting, new
     votes or new prints). Between sittings nothing changes, so the scan and
     the slow ELI API are skipped. `python -m sejmomat acts` forces the step."""
-    from . import agenda, committees, processes, questions, speeches  # they build on this module
+    from . import agenda, committees, processes, questions, speeches, vetoes  # they build on this module
     try:
         agenda.fetch()
     except Exception as e:  # the calendar is a nice-to-have; votes come first
@@ -432,6 +432,10 @@ def run():
         processes.fetch()
     except Exception as e:  # stages of bills, for frozen bills and amendments not yet voted on
         print(f"processes: not updated ({e})")
+    try:
+        vetoes.fetch()
+    except Exception as e:  # the President's vetoes: new motions read (OCR) once
+        print(f"vetoes: not updated ({e})")
     fetch_prints()
     try:
         fetch_passed()
