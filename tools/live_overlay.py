@@ -473,7 +473,7 @@ class Overlay:
             for i, line in enumerate(ai_lines):
                 d.text((24, 104 + i * 27), line, font=f_ai, fill=(222, 228, 238))
             d.text((24, h - 44), card["url"], font=self.font(24, True), fill=YELLOW, anchor="lm")
-            d.text((24, h - 18), "napisał model językowy na podstawie druku, nie redakcja", font=self.font(14), fill=(170, 180, 196), anchor="lm")
+            d.text((24, h - 18), "napisał model językowy na podstawie druku, bez ludzkiej weryfikacji", font=self.font(14), fill=(170, 180, 196), anchor="lm")
         elif card["kind"] == "podium":
             # the fantasy game's three leaders on a podium: first in the middle and highest
             steps = card["places"][:3]

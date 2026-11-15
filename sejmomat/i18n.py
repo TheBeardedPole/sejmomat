@@ -1049,11 +1049,11 @@ EN = {
     "projekty ustaw": "bills",
     "projektów ustaw": "bills",
     "tej kadencji, każdy streszczony w kilku zdaniach, od ostatnio głosowanych.": "of this term, each summarised in a few sentences, most recently voted first.",
-    "Te streszczenia napisał model językowy (AI), nie redakcja Sejmomatu. Mogą coś pominąć albo uprościć. Opisują projekt w wersji złożonej w Sejmie; to, co Sejm zmienił, uchwalił albo odrzucił, pokazuje strona ustawy, wprost z danych Sejmu.": "These summaries were written by a language model (AI), not by Sejmomat's editors. They may leave things out or simplify. They describe the bill as submitted to the Sejm; what the Sejm changed, passed or rejected is on the bill's page, straight from the Sejm's data.",
+    "Te streszczenia napisał model językowy (AI), bez ludzkiej weryfikacji. Mogą coś pominąć albo uprościć. Opisują projekt w wersji złożonej w Sejmie; to, co Sejm zmienił, uchwalił albo odrzucił, pokazuje strona ustawy, wprost z danych Sejmu.": "These summaries were written by a language model (AI), without human review. They may leave things out or simplify. They describe the bill as submitted to the Sejm; what the Sejm changed, passed or rejected is on the bill's page, straight from the Sejm's data.",
     "Model czytał tytuł, opis Sejmu i druk projektu (jego początek i uzasadnienie), bez innych źródeł i bez własnej oceny. Są tu najważniejsze projekty kadencji (wybrał je i uszeregował według wagi dla zwykłego czytelnika również model) oraz projekty z porządku obrad kolejnych posiedzeń.": "The model read the title, the Sejm's description and the bill's print (its opening and its justification), with no other sources and no judgement of its own. These are the term's most important bills (also chosen and ranked by importance to an ordinary reader by a model) and the bills on the agenda of upcoming sittings.",
     "Szukaj w streszczeniach": "Search the summaries",
     "Streszczenie projektu (AI)": "Summary of the bill (AI)",
-    "Napisał model językowy na podstawie druku projektu, nie redakcja; może coś pominąć. Opisuje projekt w wersji złożonej, nie zmiany wprowadzone w Sejmie.": "Written by a language model from the bill's print, not by the editors; it may leave things out. It describes the bill as submitted, not the changes made in the Sejm.",
+    "Napisał model językowy na podstawie druku projektu, bez ludzkiej weryfikacji; może coś pominąć. Opisuje projekt w wersji złożonej, nie zmiany wprowadzone w Sejmie.": "Written by a language model from the bill's print, without human review; it may leave things out. It describes the bill as submitted, not the changes made in the Sejm.",
     "Wszystkie streszczenia": "All summaries",
     "ustaw": "laws", "ustawy": "laws",
 }

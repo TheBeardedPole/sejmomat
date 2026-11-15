@@ -6,7 +6,7 @@ import textwrap
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-NOTE = "streszczenie AI: napisał model językowy na podstawie druku projektu, nie redakcja"
+NOTE = "streszczenie AI: napisał model językowy na podstawie druku projektu, bez ludzkiej weryfikacji"
 
 
 class Summaries:
