@@ -965,10 +965,10 @@ def asset_version():
     Pages load them as "static/app.js?v=<this>". The host's CDN keeps scripts
     and styles for a while (and once kept them for a week), so without a
     version in the address visitors could get an old script long after a
-    deploy. Changing either file changes the address in every page.
+    deploy. Changing any of them changes the address in every page.
     """
     digest = hashlib.sha256()
-    for name in ("style.css", "app.js"):
+    for name in ("style.css", "app.js", "analytics.js"):   # app.js loads analytics.js with its version
         digest.update((STATIC / name).read_bytes())
     return digest.hexdigest()[:10]
 

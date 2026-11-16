@@ -442,7 +442,21 @@ if (typeof document !== "undefined") (() => {
   const load = (game) => {
     try { return JSON.parse(store.get(`sejmdle:${game}:${seedFor(game)}`) || "null"); } catch { return null; }
   };
-  const save = (game, state) => store.set(`sejmdle:${game}:${seedFor(game)}`, JSON.stringify(state));
+  // Analytics (static/analytics.js, only with consent; smTrack is missing otherwise): a game started
+  // (its first move saved), finished (its result shown after a move made on this visit), or left
+  // unfinished (the page hidden after a move, with no result yet).
+  const track = (name, params) => window.smTrack?.(name, { game: params.game, day_type: DAY === TODAY ? "today" : "archive", ...params });
+  const played = new Set(), finished = new Set();
+  const save = (game, state) => {
+    const key = `sejmdle:${game}:${seedFor(game)}`;
+    if (store.get(key) === null && !played.has(game)) track("game_start", { game });
+    played.add(game);
+    store.set(key, JSON.stringify(state));
+  };
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState !== "hidden") return;
+    for (const game of played) if (!finished.has(game)) { finished.add(game); track("game_left_unfinished", { game }); }
+  });
   // After an archived day's puzzle: on to the next day (or back to today).
   const nextButton = (game, over) => over && DAY < TODAY && h("p", { className: "next" }, [h("button", {
     className: "btn primary", onclick: () => pickDay(nextDay(DAY)), textContent: `Następny dzień (#${dayNumber(nextDay(DAY))}) →`,
@@ -467,6 +481,10 @@ if (typeof document !== "undefined") (() => {
   // The text is shown as it will be pasted, with: the system's share sheet
   // (phones, some desktop browsers), a copy button, and ready-made posts.
   const share = (game, lines) => {
+    if (played.has(game) && !finished.has(game)) {
+      finished.add(game);
+      track("game_complete", { game, result: lines[0].replace(/^Sejmdle (#\d+ )?— /, "").slice(0, 80) });
+    }
     // an archived day's result links to that day's puzzles
     const text = [...lines, `Zagraj: ${SHARE_URL}${PAGES[game]}.html${DAY === TODAY ? "" : `?dzien=${DAY}`}`].join("\n");
     const status = h("p", { className: "muted share-status" });
@@ -1060,6 +1078,10 @@ if (typeof document !== "undefined") (() => {
       message("Wczytywanie zdjęć…");
       try {
         const run = await callServer("start");
+        // every run is a game of its own for analytics (track above)
+        finished.delete("twarze");
+        played.add("twarze");
+        track("game_start", { game: "twarze" });
         // photos load on demand, a few faces ahead of the player
         const photos = [];
         const photo = (k) => photos[k] ??= new Promise((resolve, reject) => {

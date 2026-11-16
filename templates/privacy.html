@@ -17,11 +17,21 @@ przetwarzanych w związku z działaniem strony.</p>
 <ul>
   {% if GA_ID %}
   <li><strong>Google Analytics: tylko za zgodą.</strong> Jeśli klikniesz „Zgadzam się”, strona wczyta Google Analytics (Google Ireland
-      Limited), by liczyć odwiedziny i sprawdzać, które strony są czytane. Google zapisuje wtedy swoje pliki cookie (_ga) i otrzymuje
-      Twój adres IP, informacje o przeglądarce i odwiedzanych podstronach; dane mogą być przekazywane do USA (na podstawie
+      Limited), by liczyć odwiedziny i sprawdzać, które strony są czytane, z których funkcji się korzysta i co nie działa.
+      Google zapisuje wtedy swoje pliki cookie (_ga) i otrzymuje Twój adres IP, informacje o przeglądarce i odwiedzanych podstronach,
+      a także: kliknięte przyciski, zakładki i rozwijane objaśnienia, udostępnienia i pobrania grafik, jak daleko przewijasz stronę,
+      to, że skopiowano tekst (bez jego treści), błędy skryptów, nieudane lub wolne zapytania o dane, czas wczytywania strony,
+      w grach Sejmdle rozpoczęcie i wynik gry, a na stronie wyszukiwania wpisane słowa (skrócone; nie wysyłamy ich, gdy wyglądają na
+      adres e-mail lub długi numer) i liczbę wyników. Nie wysyłamy niczego innego, co wpisujesz. Gry Sejmdle wysyłają te dane tylko,
+      jeśli zgodziłeś się na nie na stronie Sejmomatu.
+      Te dane służą wyłącznie do ulepszania strony: by wiedzieć, z czego czytelnicy korzystają, co jest niejasne, co się psuje
+      i co działa za wolno. Oglądamy je tylko w zbiorczych raportach. Nie sprzedajemy ich, nie udostępniamy nikomu poza Google
+      jako dostawcą narzędzia i nie używamy do reklam ani profilowania: funkcje reklamowe Google Analytics (Google Signals,
+      personalizacja reklam) są wyłączone. Google Analytics przechowuje je przez 14 miesięcy. Dane mogą być przekazywane do USA (na podstawie
       EU-U.S. Data Privacy Framework). Podstawą jest Twoja zgoda (art. 6 ust. 1 lit. a RODO), którą możesz w każdej chwili wycofać
       linkiem „Ustawienia zgody” w stopce; strona usuwa wtedy pliki cookie Google. Bez zgody Google Analytics się nie wczytuje.
-      Poza tym strona nie ma reklam, a kont i newslettera poza Sejmową ligą (o czym niżej); wyszukiwarka działa w Twojej przeglądarce.</li>
+      Poza tym strona nie ma reklam, a kont i newslettera poza Sejmową ligą (o czym niżej); wyszukiwarka działa w Twojej przeglądarce
+      (bez zgody wpisane słowa nie są nigdzie wysyłane).</li>
   {% else %}
   <li><strong>Brak plików cookie, śledzenia i reklam.</strong> Strona nie używa cookies (poza sesją zalogowanego gracza Sejmowej ligi, o czym niżej), narzędzi analitycznych ani skryptów
       zewnętrznych firm (poza zdjęciami posłów i nagraniami wystąpień i posiedzeń komisji, o czym niżej). Poza Sejmową ligą nie ma kont ani newslettera. Wyszukiwarka działa w Twojej przeglądarce: zapytania nie są nigdzie wysyłane.</li>
@@ -92,11 +102,21 @@ the data processed in connection with the site.</p>
 <ul>
   {% if GA_ID %}
   <li><strong>Google Analytics: only with your consent.</strong> If you click “I agree”, the site loads Google Analytics (Google
-      Ireland Limited) to count visits and see which pages are read. Google then sets its cookies (_ga) and receives your IP address,
-      browser information and the pages you visit; the data may be transferred to the USA (under the EU-U.S. Data Privacy Framework).
+      Ireland Limited) to count visits and see which pages are read, which features are used and what breaks. Google then sets its
+      cookies (_ga) and receives your IP address, browser information and the pages you visit, and also: the buttons, tabs and
+      explanations you open, images shared or downloaded, how far you scroll, the fact that text was copied (not the text), script
+      errors, data requests that fail or are slow, page load times, in the Sejmdle games a game started and its result, and on the
+      search page the words you type (shortened; not sent when they look like an email address or a long number) and the number of
+      results. Nothing else you type is sent. The Sejmdle games send this only if you agreed on Sejmomat's pages.
+      This data is used only to improve the site: to learn what readers use, what is unclear, what breaks and what is too slow.
+      We look at it only in aggregate reports. We do not sell it, share it with anyone other than Google as the tool's provider,
+      or use it for advertising or profiling: Google Analytics' advertising features (Google Signals, ad personalisation) are
+      turned off. Google Analytics keeps it for 14 months. The data may be
+      transferred to the USA (under the EU-U.S. Data Privacy Framework).
       The legal basis is your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time with “Consent settings” in the footer;
       the site then removes Google's cookies. Without consent Google Analytics is not loaded. Otherwise the site has no ads,
-      accounts or newsletters outside Sejmowa liga (see below), and search runs in your browser.</li>
+      accounts or newsletters outside Sejmowa liga (see below), and search runs in your browser (without consent the words you
+      type are not sent anywhere).</li>
   {% else %}
   <li><strong>No cookies, tracking or ads.</strong> The site uses no cookies (apart from a signed-in Sejmowa liga player's session, see below), analytics or third-party scripts (apart from MPs' photos and speech and committee videos, see below). Apart from Sejmowa liga there are no
       accounts or newsletters. Search runs in your browser: queries are not sent anywhere.</li>

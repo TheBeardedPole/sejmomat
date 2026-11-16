@@ -61,7 +61,7 @@ def write(folder):
     top = header()
     for page, text in pages.items():
         text = text.replace("<!-- sejmomat-header -->", top, 1)
-        for name in ("header.css", "header.js"):   # versioned, as on the site's pages
+        for name in ("header.css", "header.js", "analytics.js"):   # versioned, as on the site's pages
             version = hashlib.sha256((STATIC / name).read_bytes()).hexdigest()[:10]
             text = text.replace(f'"../static/{name}"', f'"../static/{name}?v={version}"')
         (folder / f"{page}.html").write_text(text, encoding="utf-8")

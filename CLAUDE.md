@@ -302,7 +302,7 @@ Live on sejmomat.pl:
 - **Sejmomat's own YouTube stream** (`server/youtube-live.php`, copied to `/srv/`, checks
   youtube.com/@Sejmomat/live at most once a minute; `static/yt.js`): when it is live it takes
   the Sejm stream's place on the home page, the upcoming sitting page and the schedule. It
-  starts by itself only with consent ("Zgadzam się", consent version 3/4), else a Play box.
+  starts by itself only with consent ("Zgadzam się", consent version 3/5), else a Play box.
 - **Speaker cards in the stream** start when the speaker begins: the name caption is read by a
   second ffmpeg `LOOKAHEAD` (25 s) ahead of the picture and backdated by `CAPTION_LAG` (8 s,
   measured with `tools/caption_lag.py`: median 12 s over 73 speeches). Reading the caption
@@ -421,12 +421,25 @@ Waiting on the owner:
   without "publish" only shows what would be posted.
 - Scheduled data updates are paused until the date in the repository
   variable `PAUSE_SCHEDULED_UNTIL`.
-- **Google Analytics:** ready but off. Setting the repository variable
-  `GA_MEASUREMENT_ID` ("G-...") and rebuilding turns it on: the build adds
-  `<meta name="sejmomat-ga">`, `static/app.js` loads gtag only after
-  "Zgadzam się", the consent text and version change (everyone is asked
-  again) and the privacy page gets its GA section. "Tylko niezbędne"
-  removes the `_ga` cookies. Sejmdle has no analytics.
+- **Analytics** (GA4 `G-134T088FZ4`, repository variable `GA_MEASUREMENT_ID`, on since 18 October 2026):
+  the build adds `<meta name="sejmomat-ga">`; after "Zgadzam się" `static/app.js` loads
+  `static/analytics.js` (page views plus events, listed at the top of that file: features used,
+  searches, Sejmdle games, and pain points: script errors, failed or slow requests, broken images,
+  rage and dead clicks, 404s, page speed). Consent version 5 (bumped from 4 on 16 November 2026 when
+  events were added: everyone is asked again). Sejmdle loads the same script and sends only if the
+  reader agreed on the site (the consent record keeps the GA id, `ga`). "Tylko niezbędne" removes the
+  `_ga` cookies and stops events. `analytics.js` is in `asset_version()`, so changing it needs a
+  rebuild (every page's script address changes). Debug: `?sm_debug=1` logs events to the console and
+  sends them to GA's DebugView. Event parameters show in GA reports only once registered (Admin →
+  Custom definitions), event-scoped dimensions: `ui_label`, `ui_kind`, `ui_region`, `ui_action`,
+  `ui_value`, `game`, `day_type`, `result`, `method`, `item_id`, `position`, `missing_path`, `from`,
+  `error_message`, `error_source`, `request_host`, `request_path`, `status_code`, `length`,
+  `perf_rating`, `percent`; metrics: `results_count`, `duration_ms`, `lcp_ms`, `cls_x1000`, `inp_ms`,
+  `ttfb_ms`, `load_ms` (milliseconds). Page type is GA's content group (`content_group`).
+  The privacy page promises: used only to improve the site, aggregate reports only, not sold or
+  shared beyond Google, no ads or profiling (`analytics.js` turns off Google Signals and ad
+  personalisation), kept 14 months: GA Admin → Data collection and modification → Data retention
+  must be set to 14 months (GA's default is 2), and Google Signals left off.
 
 Known gaps in the speeches:
 

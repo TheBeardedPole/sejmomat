@@ -289,7 +289,7 @@ const T = {
     consentText: "Ta strona Cię nie śledzi. Za Twoją zgodą zapisze w przeglądarce, ile czasu dziś tu spędzasz, " +
       "wyłącznie po to, by najwyżej raz dziennie przypomnieć o możliwości wsparcia projektu, i sama włączy odtwarzacz " +
       "YouTube, gdy nadajemy na żywo (Google otrzymuje wtedy Twój adres IP).",
-    consentTextGa: "Za Twoją zgodą strona użyje Google Analytics, by liczyć odwiedziny (pliki cookie Google), i zapisze w przeglądarce " +
+    consentTextGa: "Za Twoją zgodą strona użyje Google Analytics, by liczyć odwiedziny i sprawdzać, z czego korzystasz i co nie działa (pliki cookie Google), i zapisze w przeglądarce " +
       "czas spędzony dziś na stronie, używany do przypominania o możliwości wsparcia projektu, oraz sama włączy odtwarzacz YouTube, " +
       "gdy nadajemy na żywo. Bez zgody nic z tego się nie dzieje.",
     pitchGa: "Projekt jest darmowy i bez reklam. Jeśli chcesz, możesz postawić autorowi kawę.",
@@ -309,7 +309,7 @@ const T = {
     consentText: "This site does not track you. With your consent it will keep in your browser how long you spend here each day, " +
       "used only to mention at most once a day that you can support the project, and start the YouTube player by itself when we are " +
       "live (Google then receives your IP address).",
-    consentTextGa: "With your consent the site will use Google Analytics to count visits (Google cookies), and keep in your browser " +
+    consentTextGa: "With your consent the site will use Google Analytics to count visits and see which features are used and what breaks (Google cookies), and keep in your browser " +
       "the time spent on the site today, used to mention that you can support the project, and start the YouTube player by itself when we " +
       "are live. Without consent none of this happens.",
     pitchGa: "The project is free, with no ads. If you like, you can buy the author a coffee.",
@@ -346,8 +346,9 @@ const privacyLink = () => h("a", { href: `${ROOT}prywatnosc.html`, textContent: 
 // "agree". With analytics the text and the privacy page say so, and the
 // consent version is new, so everyone is asked again.
 const GA_ID = document.querySelector('meta[name="sejmomat-ga"]')?.content || "";
-// 3 and 4 (were 1 and 2): consent also starts Sejmomat's YouTube player (static/yt.js), so it is asked again
-const CONSENT_VERSION = GA_ID ? 4 : 3;
+// 3 and 4 (were 1 and 2): consent also starts Sejmomat's YouTube player (static/yt.js), so it is asked again;
+// 5 (was 4): analytics also measure which features are used and where pages fail (static/analytics.js)
+const CONSENT_VERSION = GA_ID ? 5 : 3;
 if (GA_ID) Object.assign(T, { consentText: T.consentTextGa, pitch: T.pitchGa });
 const CONSENT_KEY = "sejmomat-consent";
 const SUPPORT_KEY = "sejmomat-support";
@@ -378,7 +379,8 @@ const dropAnalyticsCookies = () => {
 };
 const choose = (optional) => {
   try {
-    localStorage.setItem(CONSENT_KEY, JSON.stringify({ v: CONSENT_VERSION, optional, at: Date.now() }));
+    // "ga": Sejmdle's pages have no id of their own and read it here (static/analytics.js)
+    localStorage.setItem(CONSENT_KEY, JSON.stringify({ v: CONSENT_VERSION, optional, at: Date.now(), ...(GA_ID && optional ? { ga: GA_ID } : {}) }));
     if (!optional) localStorage.removeItem(SUPPORT_KEY);
   } catch {
     // storage unavailable: the choice lasts for this page only
@@ -400,14 +402,12 @@ const consentBar = h("div", { className: "sm-choice", hidden: true }, [
 consentBar.setAttribute("role", "region");
 consentBar.setAttribute("aria-label", T.consentSettings);
 
-// Google Analytics, only with consent and only when the site has an id.
+// Google Analytics, only with consent and only when the site has an id: static/analytics.js
+// (page views and events: which features are used, errors, slow pages), same version as this file.
 if (GA_ID) {
   onConsent.push(() => {
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function gtag() { window.dataLayer.push(arguments); };
-    window.gtag("js", new Date());
-    window.gtag("config", GA_ID);
-    document.head.append(h("script", { async: true, src: `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GA_ID)}` }));
+    const own = document.querySelector('script[src*="static/app.js"]')?.getAttribute("src") || "";
+    document.head.append(h("script", { defer: true, src: own.replace("app.js", "analytics.js") || `${SITE_ROOT}static/analytics.js` }));
   });
 }
 
