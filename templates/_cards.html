@@ -155,6 +155,16 @@
 {% endif %}
 {% endmacro %}
 
+{#- The timetable's slots for the day ahead (today's at build time, else the sitting's first day):
+   [day, [slot, ...]] or none when the Chancellery has not published one (agenda.timetable_days). #}
+{% set peek_today = generated.isoformat()[:10] %}
+{% set peek = (timetable_days | selectattr(0, "ge", peek_today) | first) if timetable_days else none %}
+{% set peek = peek or (timetable_days[-1] if timetable_days else none) %}
+{% macro timetable_list(limit) %}
+{%- set day, slots = peek -%}
+<ul class="upcoming-top timetable-peek" lang="pl">{% for s in slots[:limit] %}<li><span class="num">{{ s.from }}</span> {% if s.vote %}<strong>{{ _("Głosowania") }}</strong>{% else %}{{ s.label | truncate(110) }}{% endif %}</li>{% endfor %}</ul>
+{%- endmacro %}
+
 {% macro upcoming_card() %}
 {% set u = upcoming %}
 <section class="card upcoming-card">
@@ -162,8 +172,15 @@
   {% if u %}
   <p><strong>{{ u.dates[0] | date_pl }}{% if u.dates[-1] != u.dates[0] %} – {{ u.dates[-1] | date_pl }}{% endif %}</strong> ·
     {{ u.groups[0]["items"] | length }} {{ _("punktów w porządku obrad") }}{% if u.groups | length > 1 %}, {{ _("kolejne mogą zostać dodane") }}{% endif %}.</p>
+  {% if peek %}
+  {#- once the Chancellery publishes the timetable it shows here instead of the agenda's first items #}
+  <p class="muted">{{ _("Plan na") }} {{ peek[0] | date_pl }}:</p>
+  {{ timetable_list(4) }}
+  <p><a href="{{ root }}harmonogram-obrad.html">{{ _("Harmonogram obrad") }} →</a> · <a href="{{ root }}nadchodzace-posiedzenie.html">{{ _("Cały porządek obrad") }}</a></p>
+  {% else %}
   <ul class="upcoming-top" lang="pl">{% for item in u.groups[0]["items"][:3] %}<li><strong>{{ item.kind }}</strong> {{ item.rest | truncate(140) }}</li>{% endfor %}</ul>
   <p><a href="{{ root }}nadchodzace-posiedzenie.html">{{ _("Cały porządek obrad") }} →</a></p>
+  {% endif %}
   {% else %}
   <p class="muted">{{ _("Porządek obrad następnego posiedzenia nie został jeszcze opublikowany.") }}{% if planned %} {{ _("Najbliższe planowane posiedzenie") }}: {{ planned[0].dates[0] | date_pl }}.{% endif %}</p>
   {% endif %}

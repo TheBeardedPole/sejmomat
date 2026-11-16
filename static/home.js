@@ -399,7 +399,7 @@ if (typeof document !== "undefined") (() => {
         const day = plenaryDates.indexOf(today);
         if (v.type === PLENARY && sitting && day !== -1) {
           parts.push(el("p", { className: "wg-sub" }, `${sittingN(sitting)} · ${L.day.replace("{n}", day + 1)} · `,
-            link(box.dataset.upcoming, L.agenda)));
+            box.dataset.timetable ? link(box.dataset.timetable, L.timetable) : link(box.dataset.upcoming, L.agenda)));
         }
         // our own player, when the page has it (static/live.js), else the Sejm's
         const ours = v.type === PLENARY && document.getElementById("na-zywo");

@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "_macros.html" import result_badge, counts, author_label %}
-{% from "_cards.html" import live_box with context %}
+{% from "_cards.html" import live_box, timetable_list, peek with context %}
 {% from "_for_you.html" import for_you with context %}
 {% macro icon_tv() %}<svg class="ico" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="13" rx="2"/><path d="M17 2l-5 5-5-5"/></svg>{% endmacro %}
 {% block generated %}{{ _("Wygenerowano") }} {{ generated | date_pl(true) }}.{% endblock %}
@@ -33,6 +33,7 @@
     data-api="https://api.sejm.gov.pl/sejm/term{{ TERM }}/videos"
     data-itv="https://www.sejm.gov.pl/Sejm{{ TERM }}.nsf/transmisje.xsp"
     data-upcoming="{{ root }}nadchodzace-posiedzenie.html"
+    {% if timetable_days %}data-timetable="{{ root }}harmonogram-obrad.html"{% endif %}
     data-schedule="{{ root }}transmisje.html"
     data-yt="{{ site_root }}srv/youtube-live.php"
     data-sitting="{{ u.number if u else '' }}"
@@ -42,7 +43,7 @@
     data-generated="{{ generated.isoformat()[:16] }}"
     data-labels="{{ {"kicker": _("Transmisja"), "liveBadge": _("Na żywo"), "live": _("Trwa transmisja z Sejmu"),
                      "ours": _("Sejmomat na żywo"), "oursSub": _("Relacja na żywo z komentarzem i wynikami głosowań"),
-                     "day": _("{n}. dzień obrad"), "agenda": _("porządek obrad"),
+                     "day": _("{n}. dzień obrad"), "agenda": _("porządek obrad"), "timetable": _("harmonogram obrad"),
                      "watch": _("Oglądaj transmisję"), "newTab": _("otwiera się w nowej karcie"),
                      "others": _("+{n} inne transmisje"), "othersMany": _("+{n} innych transmisji"), "othersOne": _("+1 inna transmisja"),
                      "scheduled": _("Transmisja zaplanowana na teraz"), "from": _("od"),
@@ -65,9 +66,16 @@
     <p class="k">{{ _("Nadchodzące posiedzenie") }}</p>
     <p class="wg-title"><a href="{{ root }}nadchodzace-posiedzenie.html">{{ sitting_name(u.number) }}</a></p>
     <p class="wg-sub">{{ u.dates[0] | date_range(u.dates[-1]) }}</p>
+    {% if peek %}
+    {#- the timetable, once published, rather than the agenda's count #}
+    <p class="wg-line muted">{{ _("Plan na") }} {{ peek[0] | date_pl }}:</p>
+    {{ timetable_list(3) }}
+    <a class="wg-more" href="{{ root }}harmonogram-obrad.html">{{ _("Harmonogram obrad") }} →</a>
+    {% else %}
     {% set n_items = u.groups[0]["items"] | length %}
     <p class="wg-line"><b>{{ n_items }}</b> {{ n_items | plural(_("punkt w porządku obrad"), _("punkty w porządku obrad"), _("punktów w porządku obrad")) }}{% if u.groups | length > 1 %}, {{ _("kolejne mogą zostać dodane") }}{% endif %}</p>
     <a class="wg-more" href="{{ root }}nadchodzace-posiedzenie.html">{{ _("Porządek obrad") }} →</a>
+    {% endif %}
     {% elif next_sitting %}
     <p class="k">{{ _("Następne posiedzenie") if u and u.under_way else _("Nadchodzące posiedzenie") }}</p>
     <p class="wg-title">{% if next_sitting.number %}{{ sitting_name(next_sitting.number) }}{% else %}{{ _("Posiedzenie Sejmu") }}{% endif %}</p>

@@ -943,3 +943,8 @@ details.how .how-body p:last-child { margin-bottom: 0; }
 .survey-bar .v-Y { background: var(--y); } .survey-bar .v-N { background: var(--n); }
 .survey-bar .v-A { background: var(--a); } .survey-bar .v-X { background: var(--x); }
 .survey-q .note { margin: 4px 0 0; }
+
+/* the timetable's next slots (templates/_cards.html timetable_list): home page and the sittings list */
+.timetable-peek { list-style: none; padding-left: 0; margin: 6px 0; font-size: .92rem; }
+.timetable-peek li { margin: 3px 0; padding-left: 3.4em; text-indent: -3.4em; }
+.timetable-peek .num { display: inline-block; width: 3.4em; text-indent: 0; font-weight: 600; font-variant-numeric: tabular-nums; }

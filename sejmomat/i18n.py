@@ -680,7 +680,7 @@ EN = {
     "Zobacz składy tego gracza": "See this player's squads", "{r}. miejsce w rankingu · {t} pkt w sezonie": "Ranked {r} · {t} pts this season",
     "Ten gracz nie ma jeszcze rozegranych kolejek.": "This player has no rounds played yet.",
     # the planned timetable (templates/timetable.html)
-    "Harmonogram obrad": "Sitting timetable",
+    "Harmonogram obrad": "Sitting timetable", "harmonogram obrad": "sitting timetable", "Plan na": "Plan for",
     "Przybliżony czas rozpatrywania punktów porządku obrad Sejmu, dzień po dniu.": "The approximate times of the items on the Sejm's agenda, day by day.",
     "Planowany czas punktów porządku obrad: {n} pozycji w {d} dniach.": "Planned times of the agenda's items: {n} slots over {d} days.",
     "Harmonogram publikuje Kancelaria Sejmu przed posiedzeniem. To plan: obrady często się przesuwają, a punkty zmieniają kolejność.":
