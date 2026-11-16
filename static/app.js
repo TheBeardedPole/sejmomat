@@ -289,9 +289,8 @@ const T = {
     consentText: "Ta strona Cię nie śledzi. Za Twoją zgodą zapisze w przeglądarce, ile czasu dziś tu spędzasz, " +
       "wyłącznie po to, by najwyżej raz dziennie przypomnieć o możliwości wsparcia projektu, i sama włączy odtwarzacz " +
       "YouTube, gdy nadajemy na żywo (Google otrzymuje wtedy Twój adres IP).",
-    consentTextGa: "Za Twoją zgodą strona użyje Google Analytics, by liczyć odwiedziny i sprawdzać, z czego korzystasz i co nie działa (pliki cookie Google), i zapisze w przeglądarce " +
-      "czas spędzony dziś na stronie, używany do przypominania o możliwości wsparcia projektu, oraz sama włączy odtwarzacz YouTube, " +
-      "gdy nadajemy na żywo. Bez zgody nic z tego się nie dzieje.",
+    consentTextGa: "Za Twoją zgodą strona użyje Google Analytics (pliki cookie Google), by liczyć odwiedziny i sprawdzać, jakie funkcjonalności " +
+      "są popularne i gdzie są potencjalne problemy, oraz sama włączy odtwarzacz YouTube, gdy nadajemy na żywo. Bez zgody nic z tego się nie dzieje.",
     pitchGa: "Projekt jest darmowy i bez reklam. Jeśli chcesz, możesz postawić autorowi kawę.",
     essential: "Tylko niezbędne", agree: "Zgadzam się",
     support: "Wesprzyj", close: "Zamknij", useful: "Sejmomat się przydaje?",
@@ -309,9 +308,8 @@ const T = {
     consentText: "This site does not track you. With your consent it will keep in your browser how long you spend here each day, " +
       "used only to mention at most once a day that you can support the project, and start the YouTube player by itself when we are " +
       "live (Google then receives your IP address).",
-    consentTextGa: "With your consent the site will use Google Analytics to count visits and see which features are used and what breaks (Google cookies), and keep in your browser " +
-      "the time spent on the site today, used to mention that you can support the project, and start the YouTube player by itself when we " +
-      "are live. Without consent none of this happens.",
+    consentTextGa: "With your consent the site will use Google Analytics (Google cookies) to count visits and see which features are popular " +
+      "and where problems might be, and start the YouTube player by itself when we are live. Without consent none of this happens.",
     pitchGa: "The project is free, with no ads. If you like, you can buy the author a coffee.",
     essential: "Only essential", agree: "I agree",
     support: "Support", close: "Close", useful: "Finding Sejmomat useful?",
