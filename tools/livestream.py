@@ -1226,6 +1226,25 @@ def main():
     # seconds, for a card now and then and a break's screen with the leading squad
     league = {"data": None, "best": [], "shown": {"card": 0.0, "screen": 0.0}}
     break_best = {}   # a break's slot: the league's best MPs shown in it, or None
+    cmp_picks, cmp_turn = {}, {"n": 0, "club": 0}   # a break's slot: its comparison; the turns so far, all breaks
+
+    def break_compare(key):
+        """The comparison for a break's slot (key: the break's start, the slot), chosen once: clubs and
+        a random pair of MPs taking turns, the clubs' in order over the day, each once before any comes
+        again. Counted as they are shown, not from the slot's place in the turn of nine: slots whose own
+        screen was missing, and a pair's turn before the photos were in, fell back to the comparison of
+        the slot before, the same one twice in a break (17 November 2026)."""
+        if key not in cmp_picks:
+            for old in [k for k in cmp_picks if k[0] != key[0]]:   # earlier breaks'
+                del cmp_picks[old]
+            n = cmp_turn["n"]
+            cmp_turn["n"] += 1
+            c = mp_pair(key) if (n % 2 or not compares) and mp_pool else None
+            if c is None and compares:
+                c = compares[cmp_turn["club"] % len(compares)]
+                cmp_turn["club"] += 1
+            cmp_picks[key] = c
+        return cmp_picks[key]
 
     def best_mps():
         """The league's best MPs: [(title, rows)] for the latest kolejka with points and the season,
@@ -1763,10 +1782,7 @@ def main():
                     return overlay.frame_scene(overlay.list_scene(best[0], "punkty w grze · sejmomat.pl/fantasy", rows, into, length), hhmm)
             if kind == 7 and word_lists and (slot // 9) % 2 == 1:
                 return overlay.frame_scene(words_scene(word_lists[(slot // 18) % len(word_lists)], into, length), hhmm)
-            k = (slot // 9) * 4 + {1: 0, 4: 1, 6: 2, 7: 3}.get(kind, 0)   # the comparisons' own count in the turns of nine
-            # clubs and a random pair of MPs taking turns
-            c = mp_pair((on_break[0], slot)) if (k % 2 or not compares) and mp_pool else None   # a new pair each break
-            c = c or (compares[(k // 2) % len(compares)] if compares else None)
+            c = break_compare((on_break[0], slot))
             if c:
                 return overlay.frame_scene(overlay.compare(c, into, length), hhmm)
         # votes full screen: what an amendment changes, before its vote (the Marshal reads it out
@@ -1906,10 +1922,13 @@ def main():
             ts = clock.timestamp()
             # a speaker who has just come to the rostrum: their card, but only once the card on
             # screen has gone (the bar names them at once)
-            if speaker["card"] and showing["speaker"] != speaker["at"]:
+            # someone from outside the Sejm read off the caption (gov_card) or a name typed in: the bar
+            # alone, no card (drawn as one, it took the stream down on 17 November 2026)
+            due = speaker["card"] if speaker["card"] and speaker["card"].get("kind") else None
+            if due and showing["speaker"] != speaker["at"]:
                 showing.update(speaker=speaker["at"], start=max(speaker["at"].timestamp(), showing["until"]))
             since = ts - showing["start"] if showing["speaker"] else -1
-            if speaker["card"] and 0 <= since < SPEAKER_SECONDS:
+            if due and 0 <= since < SPEAKER_SECONDS:
                 card = overlay.card(speaker["card"], since, SPEAKER_SECONDS)
             elif facts and not floor:
                 # a debate, a break: a fun-fact card, one every FACT_EVERY seconds for FACT_SECONDS;
