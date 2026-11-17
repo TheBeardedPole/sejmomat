@@ -1047,6 +1047,7 @@ def _pages(ctx):
     yield "summaries.html", "podsumowania.html", {}
     yield "upcoming.html", "nadchodzace-posiedzenie.html", {}
     yield "timetable.html", "harmonogram-obrad.html", {}
+    yield "tierlist.html", "tierlista.html", {}
     yield "latest.html", "ostatnie-posiedzenie.html", {}
     yield "events.html", "wydarzenia.html", {}
     yield "mps_for_you.html", "poslowie-dla-ciebie.html", {}
@@ -1270,6 +1271,19 @@ def run():
             json.dumps(items, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (SITE / "dane" / "poslowie.json").write_text(json.dumps(
         {m["id"]: m["firstLastName"] for m in ctx["mps"].values()}, ensure_ascii=False, separators=(",", ":")))
+
+    # The MP tier list (tierlista.html, static/tierlist.js): the sitting MPs with what its filters use.
+    # Ages are worked out in the browser from the birth date; terms are those served since 1997 and this one.
+    from .social import club_short
+    tier_mps = [{"i": r["mp"]["id"], "n": r["mp"]["firstLastName"], "s": r["mp"].get("lastName") or r["mp"]["firstLastName"].split()[-1],
+                 "c": r["mp"].get("club") or "niez.", "d": r["mp"].get("districtNum"), "dn": r["mp"].get("districtName") or "",
+                 "w": r["mp"].get("voivodeship") or "", "b": (r["mp"].get("birthDate") or "")[:10], "t": len(r.get("terms") or [TERM])}
+                for r in ctx["mp_rows"] if r["mp"].get("active")]
+    tier_clubs = sorted({m["c"] for m in tier_mps}, key=lambda c: (c == "niez.", -sum(m["c"] == c for m in tier_mps)))
+    (SITE / "dane" / "tierlista.json").write_text(json.dumps(
+        {"term": TERM, "mps": sorted(tier_mps, key=lambda m: (m["s"], m["n"])),
+         "clubs": [[c, "Niezrzeszeni" if c == "niez." else club_short(c)] for c in tier_clubs]},
+        ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     # Interests on the home page: recent events and suggested MPs per topic (sejmomat/interests.py, static/home.js).
     committee_list = json.loads((DATA / "committees.json").read_text(encoding="utf-8")) if (DATA / "committees.json").exists() else []

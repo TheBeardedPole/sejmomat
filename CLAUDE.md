@@ -411,6 +411,17 @@ Live on sejmomat.pl:
   reloaded with the timetable every 10 min. Tests: `tests/test_live_ai.py`. Checked on replays of 22 October
   19:18 (vote 203, print 604) and 5 November 12:45 (debate on 3263).
 
+- **MP tier list** (`tierlista.html`, menu Posłowie, 17 November 2026): `templates/tierlist.html`,
+  `static/tierlist.js`, data `dane/tierlista.json` (the build: sitting MPs with club, district, voivodeship,
+  birth date, terms since 1997). Categories renamed, recoloured, moved, added, removed (default S–F); MPs
+  dragged (mouse at once, a finger after holding ~0.3 s so the page still scrolls) or tapped then a
+  category; filters on the pool: clubs, voivodeships, districts (narrowed to the chosen voivodeships),
+  any number of age ranges, terms (7+ in one), name search. Kept in localStorage `sejmomat-tierlista`
+  (privacy page says so); a share link carries the list in `#t=` (base64url JSON), so nothing is sent; a
+  list opened from a link is not saved over the reader's own until they change it. PNG drawn in the
+  browser in the cards' style (photos `photo-mini`, which the Sejm's API allows for sejmomat.pl). Club
+  colours: the `--c-*` variables of `.sala`, now also on `.tl`. Events `tierlist_export`, `tierlist_share`.
+
 Waiting on the owner:
 
 - **Sejmowa liga setup** before launch: (1) Google Cloud Console → a project → OAuth consent screen

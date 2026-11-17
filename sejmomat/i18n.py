@@ -1056,6 +1056,35 @@ EN = {
     "Napisał model językowy na podstawie druku projektu, bez ludzkiej weryfikacji; może coś pominąć. Opisuje projekt w wersji złożonej, nie zmiany wprowadzone w Sejmie.": "Written by a language model from the bill's print, without human review; it may leave things out. It describes the bill as submitted, not the changes made in the Sejm.",
     "Wszystkie streszczenia": "All summaries",
     "ustaw": "laws", "ustawy": "laws",
+    # the MP tier list (templates/tierlist.html, static/tierlist.js)
+    "Tier lista posłów": "MP tier list",
+    "Ułóż własną tier listę posłów: nazwij kategorie, przeciągnij posłów i pobierz grafikę. Filtry: klub, okręg, województwo, wiek i liczba kadencji.":
+        "Make your own tier list of MPs: name the categories, drag MPs into them and download the image. Filters: club, district, voivodeship, age and number of terms.",
+    "Ułóż posłów w swoje kategorie i pobierz grafikę albo link do udostępnienia.": "Sort MPs into your own categories and download the image or a link to share.",
+    "Jak to działa?": "How does it work?",
+    "Przeciągnij posła do kategorii albo wybierz go, a potem kategorię. Nazwy i kolory kategorii możesz zmieniać, możesz też dodawać nowe.":
+        "Drag an MP into a category, or pick the MP and then the category. You can rename and recolour categories and add new ones.",
+    "Filtry zawężają listę posłów do ułożenia; ci już ułożeni zostają na miejscu. Przedziałów wieku możesz dodać kilka. Kadencje liczymy od 1997 roku, wliczając obecną.":
+        "Filters narrow the MPs left to sort; those already placed stay where they are. You can add several age ranges. Terms are counted from 1997, including the current one.",
+    "Lista zostaje tylko w Twojej przeglądarce. Link do udostępnienia zawiera całą listę, więc nic nie trafia na nasz serwer.":
+        "The list stays in your browser. The link to share holds the whole list, so nothing reaches our server.",
+    "Tier lista działa w przeglądarce. Włącz JavaScript, by z niej skorzystać.": "The tier list runs in your browser. Turn on JavaScript to use it.",
+    "Moja tier lista posłów": "My MP tier list", "Tytuł listy": "List title", "Kategorie": "Categories",
+    "Nazwa kategorii": "Category name", "Kolor kategorii": "Category colour", "Wyżej": "Up", "Niżej": "Down",
+    "Usuń kategorię": "Remove category", "Dodaj kategorię": "Add category", "Nowa": "New", "Wyczyść listę": "Clear the list",
+    "Na pewno? Wszyscy posłowie wrócą do puli, a kategorie do domyślnych.": "Are you sure? All MPs go back to the pool and the categories to the defaults.",
+    "Posłowie do ułożenia": "MPs to sort", "Pokazano {n} z {m}": "Showing {n} of {m}",
+    "Żaden poseł nie spełnia tych filtrów.": "No MP matches these filters.",
+    "Wszyscy posłowie z tych filtrów są już ułożeni.": "Every MP matching these filters is already placed.",
+    "Szukaj posła": "Search for an MP", "Filtry": "Filters", "Wyczyść filtry": "Clear filters", "Województwo": "Voivodeship",
+    "Okręgi z wybranych województw": "Districts in the chosen voivodeships", "Dodaj przedział": "Add range", "Usuń przedział": "Remove range",
+    "{n}. kadencja": "term {n}", "pierwsza": "first", "{n} i więcej": "{n} or more",
+    "Wybrano: {name}. Wybierz kategorię albo pulę, by przenieść posła.": "Picked: {name}. Pick a category or the pool to move them.",
+    "Przenieś do: {tier}": "Move to: {tier}", "Udostępnij link": "Share link", "Link skopiowany.": "Link copied.",
+    "Nie udało się skopiować. Skopiuj adres z paska przeglądarki.": "Could not copy. Copy the address from the browser's address bar.",
+    "Rysuję grafikę…": "Drawing the image…", "Wczytano listę z linku.": "Loaded the list from the link.",
+    "Nie udało się wczytać listy posłów.": "Could not load the list of MPs.", "Zobacz więcej na": "See more at",
+    "Dane: API Sejmu RP": "Data: Sejm API", "ułożonych": "placed",
 }
 
 

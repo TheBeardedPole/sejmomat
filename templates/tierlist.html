@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% from "_macros.html" import crumbs, how %}
+{% from "_section_nav.html" import section_nav with context %}
+{# The MP tier list: the reader ranks sitting MPs into categories of their own. Everything runs in the
+   browser (static/tierlist.js, data dane/tierlista.json from the build); the list is kept in this browser
+   only, shared as a link (#t=…) or saved as a PNG. #}
+{% block title %}{{ _("Tier lista posłów") }}{% endblock %}
+{% block description %}{{ _("Ułóż własną tier listę posłów: nazwij kategorie, przeciągnij posłów i pobierz grafikę. Filtry: klub, okręg, województwo, wiek i liczba kadencji.") }}{% endblock %}
+{% block content %}
+<style>
+  .tl-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 12px 0; }
+  .tl-title { font: inherit; font-size: 1.25rem; font-weight: 700; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px;
+    background: var(--surface); color: var(--text); width: min(26em, 100%); }
+  .tl-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tl-status { flex-basis: 100%; margin: 0; min-height: 1.4em; }
+  .tl-board { display: grid; gap: 6px; }
+  .tl-row { display: grid; grid-template-columns: 120px 1fr auto; border: 1px solid var(--line); border-radius: 12px;
+    background: var(--surface); overflow: hidden; min-height: 96px; }
+  .tl-head { background: var(--tier); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 8px; }
+  .tl-label { width: 100%; text-align: center; font: inherit; font-weight: 700; font-size: 1.5rem; color: #1d1d1f;
+    background: transparent; border: 1px dashed transparent; border-radius: 6px; padding: 2px; }
+  .tl-label:hover, .tl-label:focus { border-color: rgba(0,0,0,.35); outline: none; background: rgba(255,255,255,.35); }
+  .tl-colour { width: 22px; height: 22px; padding: 0; border: 2px solid rgba(255,255,255,.9); border-radius: 50%; background: none;
+    cursor: pointer; box-shadow: 0 0 0 1px rgba(0,0,0,.3); -webkit-appearance: none; appearance: none; overflow: hidden; }
+  .tl-colour::-webkit-color-swatch-wrapper { padding: 0; }
+  .tl-colour::-webkit-color-swatch { border: 0; border-radius: 50%; }
+  .tl-colour::-moz-color-swatch { border: 0; border-radius: 50%; }
+  .tl-zone, .tl-pool { display: flex; flex-wrap: wrap; align-content: flex-start; gap: 6px; padding: 8px; min-height: 96px; }
+  .tl-zone:focus-visible, .tl-pool:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .tl-picking .tl-zone, .tl-picking .tl-pool { box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--accent) 35%, transparent); cursor: copy; }
+  .tl-over { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+  .tl-ctls { display: flex; flex-direction: column; justify-content: center; border-left: 1px solid var(--line); }
+  .tl-ctl { flex: 1; min-width: 40px; min-height: 30px; border: 0; background: none; color: var(--muted); font-size: 1.05rem; cursor: pointer; }
+  .tl-ctl:hover:not(:disabled) { color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, transparent); }
+  .tl-ctl:disabled { opacity: .3; cursor: default; }
+  .tl-mp { width: 72px; padding: 0 0 4px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text);
+    cursor: grab; font: inherit; font-size: .75rem; line-height: 1.2; overflow: hidden; user-select: none; -webkit-user-select: none;
+    -webkit-touch-callout: none; box-shadow: inset 0 -4px 0 var(--club); }
+  .tl-mp img, .tl-noimg { display: block; width: 72px; height: 88px; object-fit: cover; object-position: top; pointer-events: none; background: var(--line); }
+  .tl-noimg { display: grid; place-items: center; font-weight: 700; font-size: 1.2rem; color: var(--muted); }
+  .tl-name { display: block; padding: 3px 3px 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .tl-mp.sel { outline: 3px solid var(--accent); outline-offset: 1px; }
+  .tl-dragging { opacity: .35; }
+  .tl-ghost { position: fixed; left: 0; top: 0; z-index: 1000; pointer-events: none; cursor: grabbing; box-shadow: 0 8px 24px rgba(0,0,0,.25); opacity: .95; }
+  .tl-pool-wrap { margin-top: 24px; }
+  .tl-pool-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
+  .tl-pool-head h2 { margin: 0; }
+  .tl-count { font-size: .9rem; font-weight: 400; }
+  .tl-search { font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); width: min(18em, 100%); }
+  .tl-filters { margin: 12px 0; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); padding: 4px 14px; }
+  .tl-filters > summary { cursor: pointer; font-weight: 600; padding: 8px 0; }
+  .tl-filter-body { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 4px 20px; padding-bottom: 8px; }
+  .tl-group { border: 0; padding: 0; margin: 6px 0; min-width: 0; }
+  .tl-group legend { font-weight: 600; font-size: .9rem; margin-bottom: 6px; padding: 0; }
+  .tl-hint { margin: 0 0 6px; font-size: .82rem; }
+  .tl-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tl-chips-scroll { max-height: 9.5em; overflow-y: auto; padding-right: 4px; }
+  .tl-chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border: 1px solid var(--line); border-radius: 99px;
+    font-size: .85rem; cursor: pointer; user-select: none; }
+  .tl-chip input { position: absolute; opacity: 0; pointer-events: none; }
+  .tl-chip.on { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
+  .tl-chip:has(input:focus-visible) { outline: 2px solid var(--accent); }
+  .tl-dot { width: 10px; height: 10px; border-radius: 50%; }
+  .tl-age { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .tl-age-field { display: inline-flex; align-items: center; gap: 4px; font-size: .85rem; }
+  .tl-age-field input { width: 4.2em; font: inherit; padding: 4px 6px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--text); }
+  .tl-x { border: 0; background: none; color: var(--muted); font-size: 1.2rem; cursor: pointer; min-width: 32px; min-height: 32px; }
+  .tl-small { min-height: 34px; padding: 0 12px; font-size: .85rem; }
+  .tl-pool { border: 1px dashed var(--line); border-radius: 12px; min-height: 120px; }
+  .tl-empty { margin: auto; }
+  @media (max-width: 600px) {
+    .tl-row { grid-template-columns: 76px 1fr auto; }
+    .tl-label { font-size: 1.15rem; }
+    .tl-mp { width: 60px; }
+    .tl-mp img, .tl-noimg { width: 60px; height: 74px; }
+  }
+</style>
+{{ crumbs(root, [(root ~ "poslowie.html", _("Posłowie"))], _("Tier lista posłów")) }}
+<h1>{{ _("Tier lista posłów") }}</h1>
+{{ section_nav("mps", "tierlista.html") }}
+<p class="tagline">{{ _("Ułóż posłów w swoje kategorie i pobierz grafikę albo link do udostępnienia.") }}</p>
+{% call how(_("Jak to działa?")) %}
+<p>{{ _("Przeciągnij posła do kategorii albo wybierz go, a potem kategorię. Nazwy i kolory kategorii możesz zmieniać, możesz też dodawać nowe.") }}</p>
+<p>{{ _("Filtry zawężają listę posłów do ułożenia; ci już ułożeni zostają na miejscu. Przedziałów wieku możesz dodać kilka. Kadencje liczymy od 1997 roku, wliczając obecną.") }}</p>
+<p>{{ _("Lista zostaje tylko w Twojej przeglądarce. Link do udostępnienia zawiera całą listę, więc nic nie trafia na nasz serwer.") }}</p>
+{% endcall %}
+<noscript><p>{{ _("Tier lista działa w przeglądarce. Włącz JavaScript, by z niej skorzystać.") }}</p></noscript>
+
+<div id="tierlist" class="tl js-only" data-src="{{ site_root }}dane/tierlista.json" data-root="{{ root }}"
+  data-labels="{{ {
+    "title": _("Moja tier lista posłów"), "titleLabel": _("Tytuł listy"),
+    "rename": _("Nazwa kategorii"), "colour": _("Kolor kategorii"), "up": _("Wyżej"), "down": _("Niżej"),
+    "remove": _("Usuń kategorię"), "addTier": _("Dodaj kategorię"), "newTier": _("Nowa"),
+    "reset": _("Wyczyść listę"), "resetConfirm": _("Na pewno? Wszyscy posłowie wrócą do puli, a kategorie do domyślnych."),
+    "pool": _("Posłowie do ułożenia"), "shown": _("Pokazano {n} z {m}"), "empty": _("Żaden poseł nie spełnia tych filtrów."),
+    "allPlaced": _("Wszyscy posłowie z tych filtrów są już ułożeni."),
+    "search": _("Szukaj posła"), "filters": _("Filtry"), "clearFilters": _("Wyczyść filtry"),
+    "club": _("Klub"), "voiv": _("Województwo"), "district": _("Okręg"), "age": _("Wiek"), "terms": _("Kadencje"),
+    "districtHint": _("Okręgi z wybranych województw"),
+    "ageFrom": _("od"), "ageTo": _("do"), "years": _("lat"), "addAge": _("Dodaj przedział"), "removeAge": _("Usuń przedział"),
+    "termsN": _("{n}. kadencja"), "termsFirst": _("pierwsza"), "termsMore": _("{n} i więcej"),
+    "selected": _("Wybrano: {name}. Wybierz kategorię albo pulę, by przenieść posła."),
+    "moveTo": _("Przenieś do: {tier}"),
+    "png": _("Pobierz PNG"), "share": _("Udostępnij link"), "copied": _("Link skopiowany."),
+    "copyFail": _("Nie udało się skopiować. Skopiuj adres z paska przeglądarki."),
+    "drawing": _("Rysuję grafikę…"), "loaded": _("Wczytano listę z linku."),
+    "error": _("Nie udało się wczytać listy posłów."), "more": _("Zobacz więcej na"), "data": _("Dane: API Sejmu RP"),
+    "placed": _("ułożonych"),
+  } | tojson | forceescape }}">
+  <div class="tl-bar">
+    <label class="tl-title-label"><span class="visually-hidden">{{ _("Tytuł listy") }}</span>
+      <input type="text" class="tl-title" maxlength="60"></label>
+    <span class="tl-actions">
+      <button type="button" class="btn tl-png">{{ _("Pobierz PNG") }}</button>
+      <button type="button" class="btn2 tl-share">{{ _("Udostępnij link") }}</button>
+      <button type="button" class="btn2 tl-reset">{{ _("Wyczyść listę") }}</button>
+    </span>
+    <p class="tl-status muted" role="status" aria-live="polite"></p>
+  </div>
+  <div class="tl-board" aria-label="{{ _("Kategorie") }}"></div>
+  <p><button type="button" class="btn2 tl-add">+ {{ _("Dodaj kategorię") }}</button></p>
+
+  <section class="tl-pool-wrap" aria-label="{{ _("Posłowie do ułożenia") }}">
+    <div class="tl-pool-head">
+      <h2>{{ _("Posłowie do ułożenia") }} <span class="tl-count muted"></span></h2>
+      <input type="search" class="tl-search" placeholder="{{ _("Szukaj posła") }}" aria-label="{{ _("Szukaj posła") }}">
+    </div>
+    <details class="tl-filters" open>
+      <summary>{{ _("Filtry") }} <span class="tl-filter-count"></span></summary>
+      <div class="tl-filter-body"></div>
+    </details>
+    <div class="tl-pool" data-tier="pool"></div>
+  </section>
+</div>
+<script src="{{ site_root }}static/tierlist.js?v={{ static_version('tierlist.js') }}" defer></script>
+{% endblock %}
