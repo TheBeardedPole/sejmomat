@@ -1086,6 +1086,7 @@ EN = {
     "Nie udało się wczytać listy posłów.": "Could not load the list of MPs.", "Zobacz więcej na": "See more at",
     "Dane: API Sejmu RP": "Data: Sejm API", "ułożonych": "placed", "Wróć do puli": "Back to the pool",
     "Podpis": "Signature", "Podpis, np. @twój_nick": "Signature, e.g. @your_handle", "Autor: {name}": "By {name}",
+    "Wygląd grafiki": "Image style", "Jasna": "Light", "Ciemna": "Dark",
 }
 
 

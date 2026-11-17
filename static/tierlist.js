@@ -20,8 +20,15 @@
   const NEW_COLOURS = ["#7fffff", "#bf7fff", "#ff7fbf", "#d4d4d4", "#9fdf9f"];
   let uid = 0;
   const tier = (label, colour, ids = []) => ({ id: `t${++uid}`, label, colour, ids });
-  const blank = () => ({ title: L.title, sign: "", tiers: DEFAULT_TIERS.map(([l, c]) => tier(l, c)), filters: { clubs: [], voivs: [], districts: [], ages: [], terms: [], q: "" } });
+  // the image's look: the site's current theme until the reader picks one
+  const siteTheme = () => document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const blank = () => ({ title: L.title, sign: "", theme: null, tiers: DEFAULT_TIERS.map(([l, c]) => tier(l, c)), filters: { clubs: [], voivs: [], districts: [], ages: [], terms: [], q: "" } });
 
+  // dark or white text on a category's colour, whichever reads better
+  const onColour = (hex) => {
+    const [r, g, b] = [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16) / 255).map((c) => (c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4));
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.25 ? "#1d1d1f" : "#ffffff";
+  };
   let data, byId, state, selected = null, fromLink = false;
   const photo = (id) => `https://api.sejm.gov.pl/sejm/term${data.term}/MP/${id}/photo-mini`;
   const clubName = (c) => (data.clubs.find((x) => x[0] === c) || [c, c])[1];
@@ -38,7 +45,7 @@
   const save = () => {
     if (fromLink) return;   // a list opened from a link is not saved over the reader's own until they change it
     try {
-      localStorage.setItem(KEY, JSON.stringify({ title: state.title, sign: state.sign, tiers: state.tiers.map((t) => [t.label, t.colour, t.ids]), filters: state.filters }));
+      localStorage.setItem(KEY, JSON.stringify({ title: state.title, sign: state.sign, theme: state.theme, tiers: state.tiers.map((t) => [t.label, t.colour, t.ids]), filters: state.filters }));
     } catch { /* storage unavailable: the list lasts for this visit */ }
   };
   const edited = () => { fromLink = false; save(); };
@@ -49,6 +56,7 @@
     if (tiers.length) s.tiers = tiers;
     if (typeof raw.title === "string") s.title = raw.title.slice(0, 60);
     if (typeof raw.sign === "string") s.sign = raw.sign.slice(0, 40);
+    if (raw.theme === "light" || raw.theme === "dark") s.theme = raw.theme;
     if (filters && raw.filters) s.filters = { ...s.filters, ...raw.filters };
     return s;
   };
@@ -56,7 +64,7 @@
     enc: (obj) => btoa(String.fromCharCode(...new TextEncoder().encode(JSON.stringify(obj)))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, ""),
     dec: (s) => JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(s.replace(/-/g, "+").replace(/_/g, "/")), (c) => c.charCodeAt(0)))),
   };
-  const shareUrl = () => `${location.origin}${location.pathname}#t=${b64.enc({ title: state.title, sign: state.sign || undefined, tiers: state.tiers.map((t) => [t.label, t.colour, t.ids]) })}`;
+  const shareUrl = () => `${location.origin}${location.pathname}#t=${b64.enc({ title: state.title, sign: state.sign || undefined, theme: state.theme || undefined, tiers: state.tiers.map((t) => [t.label, t.colour, t.ids]) })}`;
   const status = (text) => { $(".tl-status").textContent = text || ""; };
 
   // ---- filters ----
@@ -143,7 +151,7 @@
       const label = h("input", { type: "text", className: "tl-label", value: t.label, maxLength: 24, ariaLabel: L.rename,
         oninput: (e) => { t.label = e.target.value; zone.setAttribute("aria-label", fmt(L.moveTo, { tier: t.label || "…" })); edited(); } });
       const colour = h("input", { type: "color", className: "tl-colour", value: t.colour, title: L.colour, ariaLabel: L.colour,
-        oninput: (e) => { t.colour = e.target.value; row.style.setProperty("--tier", t.colour); edited(); } });
+        oninput: (e) => { t.colour = e.target.value; row.style.setProperty("--tier", t.colour); label.style.color = onColour(t.colour); edited(); } });
       const ctl = (text, title, fn, disabled) => h("button", { type: "button", className: "tl-ctl", textContent: text, title, ariaLabel: title, disabled, onclick: fn });
       const move = (dir) => { const [x] = state.tiers.splice(k, 1); state.tiers.splice(k + dir, 0, x); edited(); drawBoard(); };
       const row = h("div", { className: "tl-row" }, [
@@ -153,6 +161,7 @@
           Object.assign(ctl("×", L.remove, () => { state.tiers.splice(k, 1); edited(); drawBoard(); drawPool(); }, state.tiers.length === 1), { className: "tl-ctl tl-del" })]),
       ]);
       row.style.setProperty("--tier", t.colour);
+      label.style.color = onColour(t.colour);
       return row;
     }));
   };
@@ -164,7 +173,10 @@
     const pool = $(".tl-pool");
     pool.replaceChildren(...(free.length ? free.map(tile) : [h("p", { className: "muted tl-empty", textContent: fits.length ? L.allPlaced : L.empty })]));
   };
-  const drawAll = () => { $(".tl-title").value = state.title; $(".tl-sign").value = state.sign || ""; drawBoard(); drawFilters(); drawPool(); };
+  const drawAll = () => {
+    $(".tl-title").value = state.title; $(".tl-sign").value = state.sign || "";
+    const th = state.theme || siteTheme();
+    root.querySelectorAll('input[name="tl-theme"]').forEach((r) => { r.checked = r.value === th; }); drawBoard(); drawFilters(); drawPool(); };
 
   // ---- moving MPs ----
   const moveTo = (id, target, before = null) => {
@@ -301,6 +313,15 @@
   root.addEventListener("contextmenu", (e) => { if (e.target.closest(".tl-mp")) e.preventDefault(); });   // long press on a phone
 
   // ---- the image ----
+  // the image's two looks: the site's light and dark themes (static/style.css), club colours as in .sala/.tl
+  const PALETTES = {
+    light: { bg: "#fbfaf8", surface: "#ffffff", line: "#e4e2dd", text: "#1d1d1f", muted: "#6b6b70", foot: "#1d5fc4", footMuted: "#d3e2f8",
+      clubs: { KO: "#eb6834", PiS: "#2a78d6", RozwojPlus: "#1baf7a", Polska2050: "#eda100", "PSL-TD": "#008300", Lewica: "#c2185b", Konfederacja: "#4a3aa7",
+        Centrum: "#9e7bd8", Razem: "#b03a8a", Demokracja: "#4f8fb0", Republikanie: "#1f4fa0", Konfederacja_KP: "#7f6fd1", Kukiz15: "#6e6e6e", other: "#a3a3a3" } },
+    dark: { bg: "#141416", surface: "#1c1c1f", line: "#2e2e33", text: "#ececee", muted: "#9a9aa2", foot: "#1d5fc4", footMuted: "#d3e2f8",
+      clubs: { KO: "#f07a45", PiS: "#4a90e8", RozwojPlus: "#22c08a", Polska2050: "#f2b01c", "PSL-TD": "#2aa52a", Lewica: "#e0457f", Konfederacja: "#8f84ee",
+        Centrum: "#b39af0", Razem: "#d063aa", Demokracja: "#79acc4", Republikanie: "#5a86d8", Konfederacja_KP: "#a99cf0", Kukiz15: "#9a9a9a", other: "#7d7d7d" } },
+  };
   const W = 1200, PAD = 48, FOOT = 132, LABEL_W = 150, TILE_W = 88, TILE_H = 118, GAPX = 8;
   const FAMILY = '"Noto Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif';
   const font = (weight, size) => `${weight === "bold" ? 700 : 400} ${size}px ${FAMILY}`;
@@ -340,27 +361,28 @@
       Promise.all(ids.map(photoFor)).then((list) => new Map(ids.map((id, k) => [id, list[k]]))),
       loadImg(`${root.dataset.root}${document.documentElement.lang === "en" ? "../" : ""}static/logo-white.png`, false),
     ]);
+    const P = PALETTES[state.theme || siteTheme()] || PALETTES.light;
     const sign = (state.sign || "").trim();
     const top = sign ? 186 : 150, rowGap = 8;
     const bodyH = rows.reduce((s, n) => s + n * TILE_H + (n - 1) * 6 + 16 + rowGap, 0);
     const H = top + bodyH + 40 + FOOT;
     const c = Object.assign(document.createElement("canvas"), { width: W, height: H });
     const d = c.getContext("2d");
-    d.fillStyle = "#fbfaf8"; d.fillRect(0, 0, W, H);
+    d.fillStyle = P.bg; d.fillRect(0, 0, W, H);
     d.textBaseline = "alphabetic";
-    d.fillStyle = "#6b6b70"; d.font = font("bold", 22);
+    d.fillStyle = P.muted; d.font = font("bold", 22);
     d.fillText(document.documentElement.lang === "en" ? "SEJM TIER LIST · SEJMOMAT" : "TIER LISTA POSŁÓW · SEJMOMAT", PAD, 62);
-    d.fillStyle = "#1d1d1f"; d.font = font("bold", 50);
+    d.fillStyle = P.text; d.font = font("bold", 50);
     d.fillText(fitText(d, state.title || L.title, W - 2 * PAD), PAD, 120);
-    if (sign) { d.fillStyle = "#6b6b70"; d.font = font("regular", 28); d.fillText(fitText(d, fmt(L.signBy, { name: sign }), W - 2 * PAD), PAD, 162); }
+    if (sign) { d.fillStyle = P.muted; d.font = font("regular", 28); d.fillText(fitText(d, fmt(L.signBy, { name: sign }), W - 2 * PAD), PAD, 162); }
     let y = top;
     state.tiers.forEach((t, k) => {
       const hgt = rows[k] * TILE_H + (rows[k] - 1) * 6 + 16;
-      d.fillStyle = "#ffffff"; d.strokeStyle = "#e4e2dd"; d.lineWidth = 2;
+      d.fillStyle = P.surface; d.strokeStyle = P.line; d.lineWidth = 2;
       d.beginPath(); d.roundRect(PAD, y, W - 2 * PAD, hgt, 14); d.fill(); d.stroke();
       d.fillStyle = t.colour;
       d.beginPath(); d.roundRect(PAD, y, LABEL_W, hgt, [14, 0, 0, 14]); d.fill();
-      d.fillStyle = "#1d1d1f";
+      d.fillStyle = onColour(t.colour);
       const big = t.label.length <= 3;
       d.font = font("bold", big ? 46 : 24);
       const lines = wrapLines(d, t.label, LABEL_W - 20, big ? 1 : 4);
@@ -378,11 +400,11 @@
         if (img) {
           const s = Math.max(TILE_W / img.width, ph / img.height);
           d.drawImage(img, x + (TILE_W - img.width * s) / 2, ty, img.width * s, img.height * s);
-        } else { d.fillStyle = "#e4e2dd"; d.fillRect(x, ty, TILE_W, ph); }
+        } else { d.fillStyle = P.line; d.fillRect(x, ty, TILE_W, ph); }
         d.restore();
-        d.fillStyle = getComputedStyle(root).getPropertyValue(`--c-${{ "Polska2050-TD": "Polska2050", "niez.": "other" }[m.c] || m.c}`).trim() || "#a3a3a3";
+        d.fillStyle = P.clubs[{ "Polska2050-TD": "Polska2050", "niez.": "other" }[m.c] || m.c] || P.clubs.other;
         d.fillRect(x, ty + ph - 5, TILE_W, 5);
-        d.fillStyle = "#1d1d1f"; d.font = font("regular", 15);
+        d.fillStyle = P.text; d.font = font("regular", 15);
         d.textAlign = "center";
         d.fillText(fitText(d, m.s, TILE_W), x + TILE_W / 2, ty + ph + 19);
         d.textAlign = "left";
@@ -390,14 +412,14 @@
       y += hgt + rowGap;
     });
     // the footer band, as on the site's other images
-    d.fillStyle = "#1d5fc4"; d.fillRect(0, H - FOOT, W, FOOT);
+    d.fillStyle = P.foot; d.fillRect(0, H - FOOT, W, FOOT);
     const mid = H - FOOT / 2 + 16;
     d.fillStyle = "#ffffff"; d.font = font("regular", 36);
     const lead = `${L.more} `;
     d.fillText(lead, PAD, mid);
     const lw0 = d.measureText(lead).width;
     d.font = font("bold", 50); d.fillText("sejmomat.pl", PAD + lw0, mid);
-    d.textAlign = "right"; d.fillStyle = "#d3e2f8"; d.font = font("regular", 22);
+    d.textAlign = "right"; d.fillStyle = P.footMuted; d.font = font("regular", 22);
     if (logo) {
       const lh = 40, lw = Math.round(logo.width * lh / logo.height);
       d.drawImage(logo, W - PAD - lw, H - FOOT + 30, lw, lh);
@@ -410,7 +432,7 @@
       document.body.append(a); a.click(); a.remove();
       setTimeout(() => URL.revokeObjectURL(a.href), 4000);
       status("");
-      window.smTrack?.("tierlist_export", { placed: ids.length, tiers: state.tiers.length });
+      window.smTrack?.("tierlist_export", { placed: ids.length, tiers: state.tiers.length, theme: state.theme || siteTheme() });
     }, "image/png");
   };
 
@@ -419,6 +441,7 @@
   $(".tl-title").setAttribute("aria-label", L.titleLabel);
   $(".tl-sign").addEventListener("input", (e) => { state.sign = e.target.value; edited(); });
   $(".tl-sign").setAttribute("aria-label", L.sign);
+  root.querySelectorAll('input[name="tl-theme"]').forEach((r) => r.addEventListener("change", () => { state.theme = r.value; edited(); }));
   $(".tl-add").addEventListener("click", () => {
     state.tiers.push(tier(L.newTier, NEW_COLOURS[state.tiers.length % NEW_COLOURS.length]));
     edited(); drawBoard();
