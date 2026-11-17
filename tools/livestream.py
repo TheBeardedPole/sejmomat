@@ -137,14 +137,74 @@ def clubs_on(day):
     return {mp: lasting.get(club, club) for club, b in (last.get("ballots") or {}).items() for ids in b.values() for mp in ids}
 
 
+# the day's broadcast made this long before the sitting (--wait to the platform, with the YouTube
+# login): listed as upcoming on the channel, found in search and open to reminders before it starts
+SCHEDULE_AHEAD = timedelta(hours=12)
+
+
+def stream_key():
+    return os.environ.get("SEJMOMAT_RTMP", "").rstrip("/").rsplit("/", 1)[-1]
+
+
+def publicize(got, n, video_start):
+    """The day's broadcast ("new: <id>" / "kept: <id>" from live_chat.prepare) given its description,
+    tags, category and thumbnail (live_chat.publicize; the thumbnail drawn by Overlay.thumbnail)."""
+    if not got or ": " not in got:
+        return
+    video, day = got.split(": ", 1)[1], video_start.date()
+    suffix = sitting_day(n, video_start)
+    plan = [x[1] for x in live_chat.day_plan(n, day) if not live_chat.ROUTINE.match(x[1])]
+    # a vote of no confidence or the like first: what most come for
+    plan.sort(key=lambda t: not re.match(r"(Wotum|Zgoda|Wniosek)", t))
+    topics = [f"Ustawa {t}" if t.startswith("o ") else t for t in plan]
+    jpeg = None
+    try:
+        import io
+        ov = Overlay(font(True), font(False), None, "")
+        when = f"{day.day} {live_chat.MONTHS[day.month - 1]} {day.year} · od {video_start:%H:%M}"
+        buf = io.BytesIO()
+        ov.thumbnail(ROOT / "static" / "logo-white.png", f"{n}. posiedzenie{suffix}", when, topics).save(buf, "JPEG", quality=88)
+        jpeg = buf.getvalue()
+    except Exception as e:
+        print(f"miniatura: nie narysowano ({e})", file=sys.stderr, flush=True)
+    try:
+        failed = live_chat.publicize(video, n, day, suffix, jpeg)
+        print(f"opis transmisji: {'ustawiony' if not failed else failed}", flush=True)
+    except Exception as e:
+        print(f"opis transmisji: nie ustawiono ({e})", file=sys.stderr, flush=True)
+
+
+def schedule_ahead(v, done):
+    """The day's broadcast made SCHEDULE_AHEAD before the sitting (see there), once a day (`done`:
+    the days already made); scheduled for when the stream goes on air (HOLDING before the start)."""
+    start = warsaw(v["startDateTime"])
+    if start.date() in done or datetime.now(WARSAW) < start - SCHEDULE_AHEAD:
+        return
+    n = sitting_number(v["title"])
+    try:
+        got = live_chat.schedule(n, stream_key(), start - timedelta(minutes=HOLDING), sitting_day(n, start))
+    except Exception as e:
+        why = live_chat._reason(e) if isinstance(e, urllib.error.HTTPError) else e
+        print(f"transmisja z wyprzedzeniem: nie przygotowano ({why})", file=sys.stderr, flush=True)
+        return
+    print(f"transmisja z wyprzedzeniem: {got}", flush=True)
+    if got == "on air":   # yesterday's still on air: tried again on the next look
+        return
+    done.add(start.date())
+    publicize(got, n, start)
+
+
 def wait_for_plenary(delay, early=0):
     """Unattended (--wait): today's plenary stream once it has been on for `delay` seconds (or
     `early` seconds before it starts, for the holding screen), checking every few minutes until
     then; on a day without one, or once it has ended, it waits for the next day's."""
+    scheduled = set()
     while True:
         videos = get_or_none("videos/today") or []
         v = next((v for v in videos if v.get("type") == "posiedzenie" and v.get("videoLink")), None)
         now = datetime.now(WARSAW)
+        if v and early and live_chat.configured():
+            schedule_ahead(v, scheduled)
         if v:
             start, end = warsaw(v["startDateTime"]), v.get("endDateTime") and warsaw(v["endDateTime"])
             if not (end and end < now):
@@ -844,11 +904,11 @@ def main():
             if old:
                 print(f"transmisja z poprzedniego dnia zakończona: {old}", flush=True)
                 time.sleep(15)   # YouTube ends it before the new one is made
-            got = live_chat.prepare(n, os.environ.get("SEJMOMAT_RTMP", "").rstrip("/").rsplit("/", 1)[-1],
-                                    video_start - timedelta(minutes=HOLDING + 5),
+            got = live_chat.prepare(n, stream_key(), video_start - timedelta(minutes=HOLDING + 5),
                                     sitting_day(n, video_start))
             print(f"transmisja na dziś: {got}" if got else "transmisja na dziś: klucza nie ma wśród strumieni kanału",
                   flush=True)
+            publicize(got, n, video_start)   # again: the timetable may have changed since it was made
         except Exception as e:
             why = live_chat._reason(e) if isinstance(e, urllib.error.HTTPError) else e
             print(f"transmisja na dziś: nie przygotowano ({why})", file=sys.stderr, flush=True)

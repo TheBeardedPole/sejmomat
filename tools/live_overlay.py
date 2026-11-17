@@ -1286,6 +1286,31 @@ class Overlay:
             d.text((x + 12, H - 38), self.credit, font=fc, fill=(200, 210, 228), anchor="lm")
         return im
 
+    def thumbnail(self, logo, sitting, when, topics):
+        """The broadcast's thumbnail on YouTube (livestream.py, live_chat.publicize): "NA ŻYWO", the
+        sitting and day, the day's main items; large, as it is seen small in search. RGB, 1280x720."""
+        im = Image.new("RGBA", (W, H), (12, 20, 36, 255))
+        d = ImageDraw.Draw(im)
+        for y in range(H):
+            d.line((0, y, W, y), fill=(*mix((12, 20, 36), ACCENT, 0.35 * (1 - y / H)), 255))
+        if logo and Path(logo).exists():
+            lg = Image.open(logo).convert("RGBA")
+            lg = lg.resize((round(lg.width * 64 / lg.height), 64), Image.LANCZOS)
+            im.alpha_composite(lg, (W - lg.width - 56, 52))
+        x = 72
+        pill(d, x, 88, "NA ŻYWO", self.font(40, True), (214, 40, 57, 255), h=72)
+        d.text((x - 6, 150), "Obrady Sejmu", font=self.font(124, True), fill="white")
+        d.text((x, 310), self.fit(sitting, self.font(46, True), W - 2 * x), font=self.font(46, True), fill=YELLOW)
+        d.text((x, 372), when, font=self.font(36), fill=LIGHT_BLUE)
+        y = 460
+        for t in topics[:3]:
+            f = self.font(38, True)
+            text = self.fit(t, f, W - 2 * x - 48)
+            d.rounded_rectangle((x, y, x + f.getlength(text) + 48, y + 64), 16, fill=(255, 255, 255, 235))
+            d.text((x + 24, y + 32), text, font=f, fill=(12, 20, 36), anchor="lm")
+            y += 78
+        return im.convert("RGB")
+
     def clock_pill(self, im, clock):
         """The picture's time, HH:MM, beside the label top left (that is the time "Na mównicy
         od" and the votes are given in; live it is the picture's, ~100 s behind the wall)."""

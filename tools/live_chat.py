@@ -94,12 +94,110 @@ KEEP_FOR = 300           # a message waits this long for the chat (a broadcast t
 
 # a sitting's broadcast is given this title once it is live (SEJMOMAT_YT_TITLE, {n}: the sitting)
 # {day}: ", dzień 2" on a sitting of several days (livestream.sitting_day), else nothing
-TITLE = os.environ.get("SEJMOMAT_YT_TITLE", "").strip() or "{n}. Posiedzenie Sejmu{day} | Lepsza Transmisja"
+# The words people search for first ("sejm na żywo", "obrady", "głosowania"): YouTube's search
+# weighs the title most, and "67. Posiedzenie Sejmu" alone was not found (17 November 2026)
+TITLE = os.environ.get("SEJMOMAT_YT_TITLE", "").strip() or \
+    "Sejm na żywo: {n}. posiedzenie Sejmu{day} · obrady i głosowania | Lepsza Transmisja"
 
 
 def title_for(sitting, day=""):
     """The broadcast's title for a sitting (and its day, ", dzień 2")."""
-    return TITLE.format(n=sitting, day=day) if sitting else f"Posiedzenie Sejmu{day} | Lepsza Transmisja"
+    return TITLE.format(n=sitting, day=day) if sitting else f"Sejm na żywo: posiedzenie Sejmu{day} | Lepsza Transmisja"
+
+
+# ---- what YouTube's search reads besides the title: the description, tags, category, language
+
+SITE = "https://sejmomat.pl"
+NEWS = "25"              # YouTube's category "News & Politics"
+TAGS = ["Sejm", "Sejm na żywo", "obrady Sejmu", "transmisja Sejmu", "posiedzenie Sejmu", "głosowania w Sejmie",
+        "Sejm RP", "polityka", "Sejmomat", "Lepsza Transmisja"]
+MONTHS = ["stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca", "sierpnia", "września",
+          "października", "listopada", "grudnia"]
+
+
+# items every sitting day has: no use as a tag or on the thumbnail
+ROUTINE = re.compile(r"(Głosowania|Pytania w sprawach|Informacja bieżąca|Ew\. oświadczenia|Oświadczenia)")
+
+
+def day_plan(sitting, day):
+    """The day's planned items from the sitting's timetable (sejmomat.agenda), [(HH:MM, label, prints, full)],
+    each item once (a debate split by a break is one); [] when no timetable is kept. A fourth field: the
+    label in full for the description (a constructive vote of no confidence with its candidate)."""
+    try:
+        from sejmomat import agenda
+        slots = dict(agenda.timetable_days(sitting)).get(day.isoformat(), [])
+    except Exception as e:
+        print(f"opis: brak harmonogramu ({e})", file=sys.stderr, flush=True)
+        return []
+    out, seen = [], set()
+    for x in slots:
+        label = x["label"]
+        m = re.match(r"Wotum nieufności (?:Radzie Ministrów|wobec Rady Ministrów).*?Prezesa Rady Ministrów (?:Pana |Pani )?(.+)", label)
+        if m:   # the official name runs to two lines; a constructive one names the new premier after "oraz"
+            label = f"Wotum nieufności dla rządu {m[1].split(' oraz ')[0]}"
+        elif m := re.match(r"Wotum nieufności wobec (?:ministra|Ministra) (.+)", label):
+            label = f"Wotum nieufności dla ministra {m[1]}"
+        if label in ("Przerwa",) or (label in seen and label != "Głosowania"):
+            continue
+        seen.add(label)
+        cand = re.search(r"wybór (?:Pana |Pani )?(.+?) na Prezesa Rady Ministrów", x["label"]) if m else None
+        out.append((x["from"], label if len(label) <= 90 else label[:89].rstrip(" ,") + "…", x.get("prints") or [],
+                    f"{label} i wybór {cand[1]} na premiera" if cand else label))
+    return out
+
+
+def describe(sitting, day, suffix=""):
+    """(description, tags) of a sitting day's broadcast: what the stream adds, the day's plan with
+    links to the prints, the site's live pages, hashtags (YouTube shows the first three above the
+    title). YouTube refuses "<" and ">" in either and caps tags at 500 characters."""
+    plan = day_plan(sitting, day)
+    when = f"{day.day} {MONTHS[day.month - 1]} {day.year}"
+    lines = ["Obrady Sejmu na żywo z napisami Sejmomatu: kto przemawia i z jakiego klubu, wyniki głosowań, "
+             "gdy tylko zapadną, i co zmienia każda poprawka. Obraz z transmisji Kancelarii Sejmu, "
+             "około 2,5 minuty później.", "",
+             f"{sitting}. posiedzenie Sejmu X kadencji{suffix}, {when}." if sitting else f"Posiedzenie Sejmu{suffix}, {when}."]
+    if plan:
+        lines += ["", "W planie obrad (godziny według harmonogramu Sejmu, często się przesuwają):"]
+        for hhmm, _, prints, full in plan:
+            lines.append(f"{hhmm} {full}" + (f": {SITE}/{prints[0]}" if prints else ""))
+    lines += ["", f"Głosowania na żywo: {SITE}/glosowanie-na-zywo.html",
+              f"Harmonogram obrad: {SITE}/harmonogram-obrad.html",
+              f"Porządek posiedzenia: {SITE}/nadchodzace-posiedzenie.html",
+              "", "#Sejm #NaŻywo #PosiedzenieSejmu"]
+    text = "\n".join(lines).replace("<", "‹").replace(">", "›")[:4900]
+    tags, used = [], 0
+    for t in TAGS + ([f"{sitting}. posiedzenie Sejmu"] if sitting else []) + [x[1] for x in plan if not ROUTINE.match(x[1])]:
+        t = re.sub(r"[<>,\"]", "", t).strip()
+        t = t if len(t) <= 60 else t[:61].rsplit(" ", 1)[0]   # a long law's name cut at a word
+        if t and t not in tags and used + len(t) + 3 <= 480:   # a tag with a space counts with its quotes
+            tags.append(t)
+            used += len(t) + (3 if " " in t else 1)
+    return text, tags
+
+
+def publicize(video, sitting, day, suffix="", thumbnail=None):
+    """The sitting day's broadcast (its video id) given the title, description, tags, category News &
+    Politics and Polish as its language, embedding on (`suffix`: ", dzień 2", as for title_for); and the thumbnail (JPEG bytes) when there is one (the
+    channel must be verified). 50 quota units, 50 more with the thumbnail. What failed, or ""."""
+    yt, title = Chat(), title_for(sitting, suffix)
+    text, tags = describe(sitting, day, suffix)
+    failed = []
+    try:
+        # the status sent whole: its privacy as it is, embedding on (the site plays the stream)
+        privacy = yt._call("GET", "videos", {"part": "status", "id": video})["items"][0]["status"]["privacyStatus"]
+        yt._call("PUT", "videos", {"part": "snippet,status"}, {"id": video, "snippet": {
+            "title": title[:100], "description": text, "tags": tags, "categoryId": NEWS,
+            "defaultLanguage": "pl", "defaultAudioLanguage": "pl"},
+            "status": {"privacyStatus": privacy, "embeddable": True, "selfDeclaredMadeForKids": False}})
+    except urllib.error.HTTPError as e:
+        failed.append(f"opis: {_reason(e)}")
+    if thumbnail:
+        try:
+            yt._upload(f"thumbnails/set?videoId={video}", thumbnail, "image/jpeg")
+        except urllib.error.HTTPError as e:
+            failed.append(f"miniatura: {_reason(e)}")
+    return "; ".join(failed)
+
 PRIVACY = os.environ.get("SEJMOMAT_YT_PRIVACY", "").strip() or "public"   # of the broadcast the stream makes for a day
 TITLE_FOR = 900          # seconds the stream keeps looking for its broadcast to give it the title
 
@@ -282,6 +380,13 @@ class Chat:
         req = urllib.request.Request(url, method=method, data=data,
                                      headers={"Authorization": f"Bearer {self._access()}", "Content-Type": "application/json"})
         with urllib.request.urlopen(req, timeout=20) as r:
+            return json.load(r)
+
+    def _upload(self, path, data, kind):
+        """A file sent to the API's upload address (a thumbnail)."""
+        req = urllib.request.Request(f"{YT.replace('/youtube/', '/upload/youtube/')}/{path}", method="POST", data=data,
+                                     headers={"Authorization": f"Bearer {self._access()}", "Content-Type": kind})
+        with urllib.request.urlopen(req, timeout=60) as r:
             return json.load(r)
 
     def find(self):
@@ -610,13 +715,14 @@ def close_before(when):
     return b["snippet"].get("title")
 
 
-def prepare(sitting, key, since, day=""):
+def prepare(sitting, key, since, day="", at=None):
     """For livestream.py, before it goes on air: a broadcast for the day waiting on the stream key
     `key` (the one in SEJMOMAT_RTMP), so the video has somewhere to go. YouTube does not always
     start one for the default key by itself (6 November 2026: the second day's video found none).
     One live on this key since `since` (the day's sitting video began: a restart) or one waiting on
     it is kept; else a new one, titled TITLE, PRIVACY, started by the video and not stopped when it
-    drops. "kept: <id>", "new: <id>", or None when the key is not among the channel's streams."""
+    drops; scheduled for `at` (the stream's start, when made ahead of it), else now. "kept: <id>",
+    "new: <id>", or None when the key is not among the channel's streams."""
     yt = Chat()
     streams = yt._call("GET", "liveStreams", {"part": "id,cdn", "mine": "true", "maxResults": 50}).get("items", [])
     st = next((x for x in streams if (x.get("cdn", {}).get("ingestionInfo") or {}).get("streamName") == key), None)
@@ -633,15 +739,27 @@ def prepare(sitting, key, since, day=""):
             began = b["snippet"].get("actualStartTime")
             if status == "upcoming" or (began and datetime.fromisoformat(began.replace("Z", "+00:00")) >= since):
                 return f"kept: {b['id']}"
-    now = datetime.now(WARSAW).isoformat(timespec="seconds")
+    when = max(at or datetime.now(WARSAW), datetime.now(WARSAW)).isoformat(timespec="seconds")
     b = yt._call("POST", "liveBroadcasts", {"part": "snippet,status,contentDetails"}, {
         "snippet": {"title": title_for(sitting, day)[:100],
-                    "scheduledStartTime": now},
+                    "scheduledStartTime": when},
         "status": {"privacyStatus": PRIVACY, "selfDeclaredMadeForKids": False},
         "contentDetails": {"enableAutoStart": True, "enableAutoStop": False, "enableDvr": True, "recordFromStart": True,
+                           "enableEmbed": True,   # the site plays it (static/yt.js); it was off on 17 November 2026
                            "monitorStream": {"enableMonitorStream": False}}})
     yt._call("POST", "liveBroadcasts/bind", {"id": b["id"], "part": "id,contentDetails", "streamId": st["id"]})
     return f"new: {b['id']}"
+
+
+def schedule(sitting, key, at, day=""):
+    """For livestream.py --wait, hours before the sitting: the day's broadcast made and listed as
+    upcoming on the channel (so it can be found and a reminder set), scheduled for `at`, when it
+    goes on air. Not while a broadcast is on air (a sitting run past midnight: livestream.py ends it
+    first when it goes on air, then makes this one). As prepare, or "on air" when one is."""
+    yt = Chat()
+    if on_air(yt):
+        return "on air"
+    return prepare(sitting, key, at, day, at=at)
 
 
 def close_now():

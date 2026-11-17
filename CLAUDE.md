@@ -224,6 +224,12 @@ Live on sejmomat.pl:
   Holding screen (17 November 2026): with `--wait --out rtmp` the stream goes on air `SEJMOMAT_HOLDING`
   (10) minutes before the sitting's planned start with a "Start o 10:00" card (`Overlay.holding`, the
   minutes left, break music), its own ffmpeg until the picture (`--delay` behind) reaches the start; 0 turns it off.
+  Found on YouTube (17 November 2026: the stream did not come up in search; category was Entertainment, no
+  description, embedding off): the title leads with "Sejm na żywo"; `live_chat.publicize` gives each day's broadcast
+  a description from the day's timetable (items with print links, the site's live pages, hashtags), tags, category
+  News & Politics, Polish, embedding on, and a thumbnail (`Overlay.thumbnail`; the channel is verified). `--wait`
+  makes the broadcast 12 h ahead (`SCHEDULE_AHEAD`, as soon as `videos/today` lists the sitting), so it is listed
+  as upcoming; done again when the stream goes on air, as the timetable changes. About 100 quota units each time.
   The video CDN (blueonline) answers only Polish addresses (its picker also hands
   out edges inside Vectra's network; `FALLBACK_EDGES` lists one that answers
   elsewhere in Poland), so the stream server needs a Polish IP address. A server
