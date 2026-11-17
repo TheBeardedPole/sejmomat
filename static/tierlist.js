@@ -20,7 +20,7 @@
   const NEW_COLOURS = ["#7fffff", "#bf7fff", "#ff7fbf", "#d4d4d4", "#9fdf9f"];
   let uid = 0;
   const tier = (label, colour, ids = []) => ({ id: `t${++uid}`, label, colour, ids });
-  const blank = () => ({ title: L.title, tiers: DEFAULT_TIERS.map(([l, c]) => tier(l, c)), filters: { clubs: [], voivs: [], districts: [], ages: [], terms: [], q: "" } });
+  const blank = () => ({ title: L.title, sign: "", tiers: DEFAULT_TIERS.map(([l, c]) => tier(l, c)), filters: { clubs: [], voivs: [], districts: [], ages: [], terms: [], q: "" } });
 
   let data, byId, state, selected = null, fromLink = false;
   const photo = (id) => `https://api.sejm.gov.pl/sejm/term${data.term}/MP/${id}/photo-mini`;
@@ -38,7 +38,7 @@
   const save = () => {
     if (fromLink) return;   // a list opened from a link is not saved over the reader's own until they change it
     try {
-      localStorage.setItem(KEY, JSON.stringify({ title: state.title, tiers: state.tiers.map((t) => [t.label, t.colour, t.ids]), filters: state.filters }));
+      localStorage.setItem(KEY, JSON.stringify({ title: state.title, sign: state.sign, tiers: state.tiers.map((t) => [t.label, t.colour, t.ids]), filters: state.filters }));
     } catch { /* storage unavailable: the list lasts for this visit */ }
   };
   const edited = () => { fromLink = false; save(); };
@@ -48,6 +48,7 @@
     const s = blank();
     if (tiers.length) s.tiers = tiers;
     if (typeof raw.title === "string") s.title = raw.title.slice(0, 60);
+    if (typeof raw.sign === "string") s.sign = raw.sign.slice(0, 40);
     if (filters && raw.filters) s.filters = { ...s.filters, ...raw.filters };
     return s;
   };
@@ -55,7 +56,7 @@
     enc: (obj) => btoa(String.fromCharCode(...new TextEncoder().encode(JSON.stringify(obj)))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, ""),
     dec: (s) => JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(s.replace(/-/g, "+").replace(/_/g, "/")), (c) => c.charCodeAt(0)))),
   };
-  const shareUrl = () => `${location.origin}${location.pathname}#t=${b64.enc({ title: state.title, tiers: state.tiers.map((t) => [t.label, t.colour, t.ids]) })}`;
+  const shareUrl = () => `${location.origin}${location.pathname}#t=${b64.enc({ title: state.title, sign: state.sign || undefined, tiers: state.tiers.map((t) => [t.label, t.colour, t.ids]) })}`;
   const status = (text) => { $(".tl-status").textContent = text || ""; };
 
   // ---- filters ----
@@ -123,8 +124,11 @@
   // ---- board and pool ----
   const tile = (m) => {
     const t = h("button", { type: "button", className: `tl-mp${selected === m.i ? " sel" : ""}`, title: `${m.n} (${clubName(m.c)})` }, [
-      h("img", { src: photo(m.i), alt: "", loading: "lazy", width: 64, height: 80, onerror: (e) => { e.target.replaceWith(h("span", { className: "tl-noimg", textContent: m.n.split(" ").map((w) => w[0]).join("").slice(0, 2) })); } }),
+      // with CORS, so the PNG can draw the photo already on screen instead of fetching it again
+      h("img", { crossOrigin: "anonymous", src: photo(m.i), alt: "", loading: "lazy", width: 56, height: 64, onerror: (e) => { e.target.replaceWith(h("span", { className: "tl-noimg", textContent: m.n.split(" ").map((w) => w[0]).join("").slice(0, 2) })); } }),
       h("span", { className: "tl-name", textContent: m.s }),
+      // placed MPs: a corner × sends them back to the pool (a span, as a button cannot hold a button)
+      h("span", { className: "tl-out", textContent: "×", title: L.out, ariaHidden: "true" }),
     ]);
     t.dataset.id = m.i;
     t.style.setProperty("--club", clubVar(m.c));
@@ -146,7 +150,7 @@
         h("div", { className: "tl-head" }, [label, colour]),
         zone,
         h("div", { className: "tl-ctls" }, [ctl("↑", L.up, () => move(-1), k === 0), ctl("↓", L.down, () => move(1), k === state.tiers.length - 1),
-          ctl("×", L.remove, () => { state.tiers.splice(k, 1); edited(); drawBoard(); drawPool(); }, state.tiers.length === 1)]),
+          Object.assign(ctl("×", L.remove, () => { state.tiers.splice(k, 1); edited(); drawBoard(); drawPool(); }, state.tiers.length === 1), { className: "tl-ctl tl-del" })]),
       ]);
       row.style.setProperty("--tier", t.colour);
       return row;
@@ -160,7 +164,7 @@
     const pool = $(".tl-pool");
     pool.replaceChildren(...(free.length ? free.map(tile) : [h("p", { className: "muted tl-empty", textContent: fits.length ? L.allPlaced : L.empty })]));
   };
-  const drawAll = () => { $(".tl-title").value = state.title; drawBoard(); drawFilters(); drawPool(); };
+  const drawAll = () => { $(".tl-title").value = state.title; $(".tl-sign").value = state.sign || ""; drawBoard(); drawFilters(); drawPool(); };
 
   // ---- moving MPs ----
   const moveTo = (id, target, before = null) => {
@@ -187,6 +191,8 @@
   let suppressClick = false;
   root.addEventListener("click", (e) => {
     if (suppressClick) { suppressClick = false; return; }
+    const out = e.target.closest(".tl-out");
+    if (out) { moveTo(+out.closest(".tl-mp").dataset.id, "pool"); root.classList.remove("tl-picking"); return; }
     const mp = e.target.closest(".tl-mp");
     const zone = e.target.closest(".tl-zone, .tl-pool");
     if (mp && !(selected !== null && selected !== +mp.dataset.id && zone)) { select(+mp.dataset.id); return; }
@@ -196,13 +202,19 @@
       root.classList.remove("tl-picking");
     }
   });
-  root.addEventListener("keydown", (e) => {
+  // keys on the whole page: a button picked with the mouse may not keep focus (Safari, Firefox on macOS)
+  document.addEventListener("keydown", (e) => {
     if ((e.key === "Enter" || e.key === " ") && e.target.matches(".tl-zone") && selected !== null) {
       e.preventDefault();
       moveTo(selected, e.target.dataset.tier);
       root.classList.remove("tl-picking");
     }
     if (e.key === "Escape" && selected !== null) { select(selected); root.classList.remove("tl-picking"); }
+    // Delete or Backspace on a placed MP (picked, or with focus) sends them back to the pool
+    if ((e.key === "Delete" || e.key === "Backspace") && !e.target.matches("input, textarea")) {
+      const id = selected ?? (e.target.matches(".tl-zone .tl-mp") ? +e.target.dataset.id : null);
+      if (id !== null && placed().has(id)) { e.preventDefault(); moveTo(id, "pool"); root.classList.remove("tl-picking"); }
+    }
   });
 
   // Dragging: the mouse at once, a finger after holding still for a moment (so the page still scrolls).
@@ -221,6 +233,7 @@
     const r = el.getBoundingClientRect();
     const ghost = el.cloneNode(true);
     ghost.classList.add("tl-ghost");
+    ghost.querySelector(".tl-out")?.remove();
     Object.assign(ghost.style, { width: `${r.width}px`, height: `${r.height}px` });
     root.append(ghost);   // inside the list, for its club colours
     drag = { id: +el.dataset.id, el, ghost, dx: x - r.left, dy: y - r.top, zone: null };
@@ -233,8 +246,12 @@
     drag.ghost.style.transform = `translate(${x - drag.dx}px, ${y - drag.dy}px)`;
     const zone = zoneAt(x, y);
     if (zone !== drag.zone) { drag.zone?.classList.remove("tl-over"); zone?.classList.add("tl-over"); drag.zone = zone; }
-    // near the window's edge the page scrolls along
-    if (y < 60) scrollBy(0, -14); else if (y > innerHeight - 60) scrollBy(0, 14);
+    // near an edge the pool panel (when over it) or else the page scrolls along
+    const panel = $(".tl-pool-wrap"), pr = panel.getBoundingClientRect();
+    const overPanel = x >= pr.left && x <= pr.right && y >= pr.top && y <= pr.bottom && panel.scrollHeight > panel.clientHeight;
+    if (overPanel && y < pr.top + 50) panel.scrollTop -= 12;
+    else if (overPanel && y > pr.bottom - 50) panel.scrollTop += 12;
+    else if (y < 60) scrollBy(0, -14); else if (y > innerHeight - 60) scrollBy(0, 14);
   };
   const dragEnd = (x, y) => {
     if (!drag) return;
@@ -252,7 +269,7 @@
   root.addEventListener("pointerdown", (e) => {
     if (e.pointerType === "touch" || e.button !== 0) return;
     const el = e.target.closest(".tl-mp");
-    if (!el) return;
+    if (!el || e.target.closest(".tl-out")) return;
     const sx = e.clientX, sy = e.clientY;
     const move = (ev) => {
       if (!drag && Math.hypot(ev.clientX - sx, ev.clientY - sy) > 6) dragStart(el, ev.clientX, ev.clientY);
@@ -265,7 +282,7 @@
   });
   root.addEventListener("touchstart", (e) => {
     const el = e.target.closest(".tl-mp");
-    if (!el || e.touches.length > 1) return;
+    if (!el || e.touches.length > 1 || e.target.closest(".tl-out")) return;
     const t0 = e.touches[0], sx = t0.clientX, sy = t0.clientY;
     let last = t0;
     const hold = setTimeout(() => { navigator.vibrate?.(15); dragStart(el, last.clientX, last.clientY); }, 280);
@@ -292,9 +309,14 @@
     if (cors) img.crossOrigin = "anonymous";
     img.onload = () => resolve(img);
     img.onerror = () => resolve(null);
-    setTimeout(() => resolve(null), 8000);
+    setTimeout(() => resolve(null), 20000);   // the pool's own photos may be ahead in the queue
     img.src = src;
   });
+  // a placed MP's photo: the one on screen when it has loaded, else fetched
+  const photoFor = (id) => {
+    const shown = root.querySelector(`.tl-zone .tl-mp[data-id="${id}"] img`);
+    return shown && shown.complete && shown.naturalWidth ? Promise.resolve(shown) : loadImg(photo(id), true);
+  };
   const fitText = (d, text, max) => {
     if (d.measureText(text).width <= max) return text;
     while (text.length > 1 && d.measureText(text + "…").width > max) text = text.slice(0, -1);
@@ -315,10 +337,11 @@
     const rows = state.tiers.map((t) => Math.max(1, Math.ceil(t.ids.length / perRow)));
     const ids = state.tiers.flatMap((t) => t.ids);
     const [photos, logo] = await Promise.all([
-      Promise.all(ids.map((id) => loadImg(photo(id), true))).then((list) => new Map(ids.map((id, k) => [id, list[k]]))),
+      Promise.all(ids.map(photoFor)).then((list) => new Map(ids.map((id, k) => [id, list[k]]))),
       loadImg(`${root.dataset.root}${document.documentElement.lang === "en" ? "../" : ""}static/logo-white.png`, false),
     ]);
-    const top = 150, rowGap = 8;
+    const sign = (state.sign || "").trim();
+    const top = sign ? 186 : 150, rowGap = 8;
     const bodyH = rows.reduce((s, n) => s + n * TILE_H + (n - 1) * 6 + 16 + rowGap, 0);
     const H = top + bodyH + 40 + FOOT;
     const c = Object.assign(document.createElement("canvas"), { width: W, height: H });
@@ -329,6 +352,7 @@
     d.fillText(document.documentElement.lang === "en" ? "SEJM TIER LIST · SEJMOMAT" : "TIER LISTA POSŁÓW · SEJMOMAT", PAD, 62);
     d.fillStyle = "#1d1d1f"; d.font = font("bold", 50);
     d.fillText(fitText(d, state.title || L.title, W - 2 * PAD), PAD, 120);
+    if (sign) { d.fillStyle = "#6b6b70"; d.font = font("regular", 28); d.fillText(fitText(d, fmt(L.signBy, { name: sign }), W - 2 * PAD), PAD, 162); }
     let y = top;
     state.tiers.forEach((t, k) => {
       const hgt = rows[k] * TILE_H + (rows[k] - 1) * 6 + 16;
@@ -393,6 +417,8 @@
   // ---- the bar ----
   $(".tl-title").addEventListener("input", (e) => { state.title = e.target.value; edited(); });
   $(".tl-title").setAttribute("aria-label", L.titleLabel);
+  $(".tl-sign").addEventListener("input", (e) => { state.sign = e.target.value; edited(); });
+  $(".tl-sign").setAttribute("aria-label", L.sign);
   $(".tl-add").addEventListener("click", () => {
     state.tiers.push(tier(L.newTier, NEW_COLOURS[state.tiers.length % NEW_COLOURS.length]));
     edited(); drawBoard();
@@ -409,6 +435,12 @@
     const url = shareUrl();
     try { await navigator.clipboard.writeText(url); status(L.copied); } catch { history.replaceState(null, "", url); status(L.copyFail); }
     window.smTrack?.("tierlist_share", { placed: placed().size });
+  });
+  const toggleBtn = $(".tl-filter-toggle");
+  toggleBtn.addEventListener("click", () => {
+    const open = toggleBtn.getAttribute("aria-expanded") !== "true";
+    toggleBtn.setAttribute("aria-expanded", String(open));
+    $(".tl-filters").hidden = !open;
   });
   let searchTimer = null;
   $(".tl-search").addEventListener("input", (e) => {
