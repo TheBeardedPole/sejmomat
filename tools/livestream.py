@@ -1228,8 +1228,10 @@ def main():
     break_best = {}   # a break's slot: the league's best MPs shown in it, or None
 
     def best_mps():
-        """The league's best MPs: [(title, rows)] for the latest kolejka and the season, each MP by
-        their best position in each kolejka; one list while they are the same."""
+        """The league's best MPs: [(title, rows)] for the latest kolejka with points and the season,
+        each MP by their best position in each kolejka; one list while they are the same. A kolejka
+        not yet scored (its sitting just begun: no points, 17 November 2026) is left out, so the
+        previous one's are shown."""
         def get(path):
             with urllib.request.urlopen(LEAGUE_DATA + path, timeout=20) as r:
                 return json.load(r)
@@ -1238,21 +1240,24 @@ def main():
         if not played:
             return []
         names, positions = game.get("mps", {}), game.get("positions", [])
-        season, latest = Counter(), None
+        season, done = Counter(), []
         for k in played:
             pts = get(f"points/{k['id']}.json")
+            if not any(p > 0 for x in pts["mps"].values() for p in x["p"]):
+                continue
+            done.append((k, pts["mps"]))
             best = {mp: max(range(len(x["p"])), key=lambda i: x["p"][i]) for mp, x in pts["mps"].items()}
             for mp, i in best.items():
                 season[mp] += pts["mps"][mp]["p"][i]
-            latest = (k, {mp: (pts["mps"][mp]["p"][i], positions[i] if i < len(positions) else "") for mp, i in best.items()})
 
         def rows(scored):
             return [{"mp": int(mp), "name": names.get(mp, [mp])[0], "club": (names.get(mp) or ["", "niez."])[1], "value": value}
                     for mp, value in scored[:9]]
-        k, lat = latest
+        if not done:
+            return []
+        k, pts_k = done[-1]
         # the kolejka: the best MP in each position, a different MP for each (one MP may top several),
         # ties drawn at random (many score the same capped most as a Buntownik)
-        pts_k = get(f"points/{k['id']}.json")["mps"]
         per_pos, taken = [], set()
         for i, pos in enumerate(positions):
             free = [m for m in pts_k if m not in taken]
@@ -1265,7 +1270,7 @@ def main():
         per_pos.sort(key=lambda x: -x[0])   # by points: the ranks read 1, 2, 3
         out = [(f"Sejmowa liga: najlepsi na {k.get('number') or ''}. posiedzeniu".replace(" .", ""),
                 rows([(mp, value) for _, mp, value in per_pos]))]
-        if len(played) > 1:
+        if len(done) > 1:
             # equal points in a random order, not by id
             order = sorted(season.items(), key=lambda kv: (-kv[1], random.random()))
             out.append(("Sejmowa liga: najlepsi posłowie sezonu", rows([(mp, f"{p} pkt") for mp, p in order])))
@@ -1276,7 +1281,8 @@ def main():
             try:
                 with urllib.request.urlopen(LEAGUE_URL, timeout=20) as r:
                     got = json.load(r)
-                league["data"] = got if got.get("top") else None
+                # nothing to show until someone has points (a new season)
+                league["data"] = got if any(r.get("total") for r in got.get("top") or []) else None
             except Exception as e:
                 print(f"liga: nie wczytano rankingu ({e})", file=sys.stderr, flush=True)
             try:
@@ -1311,6 +1317,11 @@ def main():
         lead = d and d.get("leader")
         if not lead:
             return None
+        if not any(r["points"] for r in lead["rows"]):
+            # the kolejka not scored yet (its sitting just begun): the table so far, not a squad of zeros
+            rows = [(f"{r['rank']}.", r["nick"], f"{r['total']} pkt", "todo") for r in d["top"][:9]]
+            return overlay.list_scene("Sejmowa liga: czołówka", f"punkty w sezonie · graczy: {d['players']} · sejmomat.pl/fantasy",
+                                      rows, t, length)
         names = {m["id"]: m["name"] for m in load_mps(ROOT)} if not league.get("names") else league["names"]
         league["names"] = names
         singular = ["Mówca", "Buntownik", "Lojalista", "Klikacz", "Zwycięzca", "Opozycjonista"]
