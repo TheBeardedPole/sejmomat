@@ -33,6 +33,8 @@ if [ ! -f /etc/sejmomat-live.env ]; then
         '# SEJMOMAT_YT_REFRESH_TOKEN=' \
         '# seconds a vote message waits beyond the picture (YouTube shows the video later than chat):' \
         '# SEJMOMAT_CHAT_LAG=12' \
+        '# minutes on air before the sitting with a "Start o 10:00" screen (0: none)' \
+        '# SEJMOMAT_HOLDING=10' \
         '# a sitting'"'"'s broadcast title once live ({n}: the sitting):' \
         '# SEJMOMAT_YT_TITLE={n}. Posiedzenie Sejmu | Lepsza Transmisja' > /etc/sejmomat-live.env
 fi

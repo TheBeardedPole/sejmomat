@@ -1260,6 +1260,32 @@ class Overlay:
         self._last = (key, out, scene)   # the scene kept, so its id stays its own
         return out
 
+    def holding(self, title, at, left):
+        """The screen before the sitting (livestream.py, HOLDING): the sitting, "Start o 10:00" and
+        the minutes left, over the panels' dark blue, the logo top right. Opaque: there is no hall
+        under it yet."""
+        im = Image.new("RGBA", (W, H), (12, 20, 36, 255))
+        d = ImageDraw.Draw(im)
+        for y in range(H):   # a little lighter towards the top, in the accent
+            k = 0.22 * (1 - y / H)
+            d.line((0, y, W, y), fill=(*mix((12, 20, 36), ACCENT, k), 255))
+        if self.logo:
+            im.alpha_composite(self.logo, (W - self.logo.width - 24, 22))
+        x = 120
+        f = self.font(19, True)
+        pill(d, x, 230, "TRANSMISJA WKRÓTCE", f, YELLOW, fg=(12, 20, 36), h=40)
+        d.text((x, 270), self.fit(title, self.font(34, True), W - 2 * x), font=self.font(34, True), fill="white")
+        d.text((x - 4, 318), f"Start o {at:%H:%M}", font=self.font(96, True), fill=YELLOW)
+        soon = f"za {left} min" if left > 0 else "za chwilę"
+        d.text((x, 450), f"{soon} · obrady na żywo z wynikami głosowań i informacjami o posłach",
+               font=self.font(22), fill=LIGHT_BLUE)
+        d.text((x, 486), "sejmomat.pl", font=self.font(22, True), fill="white")
+        if self.credit:
+            fc = self.font(13)
+            d.rounded_rectangle((x, H - 50, x + fc.getlength(self.credit) + 24, H - 26), 10, fill=(12, 20, 36, 255))
+            d.text((x + 12, H - 38), self.credit, font=fc, fill=(200, 210, 228), anchor="lm")
+        return im
+
     def clock_pill(self, im, clock):
         """The picture's time, HH:MM, beside the label top left (that is the time "Na mównicy
         od" and the votes are given in; live it is the picture's, ~100 s behind the wall)."""

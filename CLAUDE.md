@@ -221,6 +221,9 @@ Live on sejmomat.pl:
   sitting; key in `/etc/sejmomat-live.env`) and `sejmomat-pull.timer` (git pull
   every 10 min, for the amendment prints CI commits on sitting days);
   `tools/vps/test-stream.sh` sends a replay to the same address as a test.
+  Holding screen (17 November 2026): with `--wait --out rtmp` the stream goes on air `SEJMOMAT_HOLDING`
+  (10) minutes before the sitting's planned start with a "Start o 10:00" card (`Overlay.holding`, the
+  minutes left, break music), its own ffmpeg until the picture (`--delay` behind) reaches the start; 0 turns it off.
   The video CDN (blueonline) answers only Polish addresses (its picker also hands
   out edges inside Vectra's network; `FALLBACK_EDGES` lists one that answers
   elsewhere in Poland), so the stream server needs a Polish IP address. A server

@@ -137,10 +137,10 @@ def clubs_on(day):
     return {mp: lasting.get(club, club) for club, b in (last.get("ballots") or {}).items() for ids in b.values() for mp in ids}
 
 
-def wait_for_plenary(delay):
-    """Unattended (--wait): today's plenary stream once it has been on for `delay` seconds,
-    checking every few minutes until then; on a day without one, or once it has ended,
-    it waits for the next day's."""
+def wait_for_plenary(delay, early=0):
+    """Unattended (--wait): today's plenary stream once it has been on for `delay` seconds (or
+    `early` seconds before it starts, for the holding screen), checking every few minutes until
+    then; on a day without one, or once it has ended, it waits for the next day's."""
     while True:
         videos = get_or_none("videos/today") or []
         v = next((v for v in videos if v.get("type") == "posiedzenie" and v.get("videoLink")), None)
@@ -148,7 +148,7 @@ def wait_for_plenary(delay):
         if v:
             start, end = warsaw(v["startDateTime"]), v.get("endDateTime") and warsaw(v["endDateTime"])
             if not (end and end < now):
-                ready = start + timedelta(seconds=delay)
+                ready = start + timedelta(seconds=-early if early else delay)
                 if ready <= now:
                     return v["title"], v["videoLink"].split("?")[0], start, end
                 print(f"{now:%H:%M} {v['title']}: starts {start:%H:%M}", flush=True)
@@ -649,6 +649,9 @@ def diff_panel(v, width=46, lines=None):
 
 
 FPS = 25
+# minutes before the sitting's planned start the stream goes on air with a "Start o 10:00" screen
+# (--wait to the platform only), until the picture reaches the start; 0: none
+HOLDING = int(os.environ.get("SEJMOMAT_HOLDING", "").strip() or 10)
 
 
 # the picture fitted to 1280x720
@@ -749,6 +752,56 @@ def ffmpeg_command(src, out, snapshot, fast=False, music=None):
     return cmd + enc + ["-shortest", "-y", out] + snap, False
 
 
+def holding(overlay, title, at, until, out):
+    """The screen before the sitting, sent until `until`: the card (Overlay.holding) redrawn
+    once a second for the minutes left, the break music under it (or silence). Its own ffmpeg,
+    ended before the stream's: YouTube keeps the broadcast through the moment between the two
+    (auto-stop is off)."""
+    music = MUSIC if MUSIC != "off" and Path(MUSIC).exists() else None
+    overlay.credit = MUSIC_CREDIT if music else None
+    sound = ["-stream_loop", "-1", "-re", "-i", music] if music else \
+        ["-f", "lavfi", "-i", f"anullsrc=channel_layout=stereo:sample_rate={RATE}"]
+    rate = "6800k" if OUT_H == 1080 else "4500k"
+    if out == "rtmp":
+        url = os.environ.get("SEJMOMAT_RTMP")
+        if not url:
+            sys.exit("Set SEJMOMAT_RTMP to the platform's address with your stream key.")
+        dest = ["-f", "flv", url]
+    else:
+        dest = ["-f", "matroska", "-y", out if out != "preview" else "holding.mkv"]
+    # one picture a second in, 25 out: a still screen needs no more from this script
+    cmd = ["ffmpeg", "-hide_banner", "-loglevel", "warning", *([] if sys.stderr.isatty() else ["-stats_period", "60"]),
+           "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-framerate", "1", "-i", "pipe:0", *sound,
+           "-filter_complex", f"[0:v]scale={OUT_W}:{OUT_H}:flags=lanczos,fps={FPS},format=yuv420p[v]",
+           "-map", "[v]", "-map", "1:a", "-c:v", "libx264", "-preset", PRESET, "-tune", "stillimage",
+           "-b:v", "1500k", "-maxrate", rate, "-bufsize", f"{2 * int(rate[:-1])}k", "-g", "50",
+           "-c:a", "aac", "-b:a", "128k", "-ar", str(RATE), "-shortest", *dest]
+    print(f"ekran przed obradami: start o {at:%H:%M}, do {until:%H:%M:%S}", flush=True)
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    frame, shown, began = None, None, time.monotonic()
+    try:
+        i = 0
+        while proc.poll() is None:
+            now = datetime.now(WARSAW)
+            if now >= until:
+                break
+            left = max(0, -(-int((at - now).total_seconds()) // 60))   # minutes, rounded up
+            if left != shown:
+                frame, shown = overlay.holding(title, at, left).tobytes(), left
+            proc.stdin.write(frame)
+            i += 1
+            time.sleep(max(0, began + i - time.monotonic()))
+    except BrokenPipeError:
+        print("ekran przed obradami: ffmpeg przerwał", file=sys.stderr, flush=True)
+    finally:
+        overlay.credit = None
+        try:
+            proc.stdin.close()
+            proc.wait(timeout=10)
+        except Exception:
+            proc.kill()
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--at", help='replay from this Warsaw time, e.g. "2026-10-22 17:40"')
@@ -778,26 +831,35 @@ def main():
         title, base, _, end = plenary(start.date().isoformat())
         mode = "Retransmisja"
     else:
-        title, base, video_start, end = wait_for_plenary(args.delay) if args.wait else plenary("today")
-        start = datetime.now(WARSAW).replace(microsecond=0) - timedelta(seconds=args.delay)
+        early = HOLDING * 60 if args.wait and args.out == "rtmp" else 0
+        title, base, video_start, end = wait_for_plenary(args.delay, early) if args.wait else plenary("today")
         mode = f"Na żywo, ~{round(args.delay / 60)} min opóźnienia"
-    src = source(base, start, end, args.quality)
     n = sitting_number(title)
     # the day's broadcast on YouTube, before the video goes: a previous day's left on air (auto-stop
     # is off) ended, then one for today waiting on the key (YouTube does not always start one)
     if args.out == "rtmp" and not args.at and live_chat.configured():
         try:
-            old = live_chat.close_before(video_start)
+            # (the holding screen may have put the broadcast on air before the video began)
+            old = live_chat.close_before(video_start - timedelta(minutes=HOLDING + 5))
             if old:
                 print(f"transmisja z poprzedniego dnia zakończona: {old}", flush=True)
                 time.sleep(15)   # YouTube ends it before the new one is made
-            got = live_chat.prepare(n, os.environ.get("SEJMOMAT_RTMP", "").rstrip("/").rsplit("/", 1)[-1], video_start,
+            got = live_chat.prepare(n, os.environ.get("SEJMOMAT_RTMP", "").rstrip("/").rsplit("/", 1)[-1],
+                                    video_start - timedelta(minutes=HOLDING + 5),
                                     sitting_day(n, video_start))
             print(f"transmisja na dziś: {got}" if got else "transmisja na dziś: klucza nie ma wśród strumieni kanału",
                   flush=True)
         except Exception as e:
             why = live_chat._reason(e) if isinstance(e, urllib.error.HTTPError) else e
             print(f"transmisja na dziś: nie przygotowano ({why})", file=sys.stderr, flush=True)
+    if not args.at:
+        # before the sitting: the holding screen until the picture, args.delay behind, reaches its start
+        until = video_start + timedelta(seconds=args.delay)
+        if early and datetime.now(WARSAW) < until:
+            holding(Overlay(args.font_bold or font(True), args.font or font(False), ROOT / "static" / "logo-white.png", ""),
+                    f"{title}{sitting_day(n, video_start)}", video_start, until, args.out)
+        start = datetime.now(WARSAW).replace(microsecond=0) - timedelta(seconds=args.delay)
+    src = source(base, start, end, args.quality)
     tags, facts = load_tags(), load_facts()
     # the general turn, and for each club its own cards (its Top 5s, its card), for while one of its MPs speaks
     by_club = {}
