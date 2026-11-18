@@ -745,7 +745,8 @@ def prepare(sitting, key, since, day="", at=None):
                     "scheduledStartTime": when},
         "status": {"privacyStatus": PRIVACY, "selfDeclaredMadeForKids": False},
         "contentDetails": {"enableAutoStart": True, "enableAutoStop": False, "enableDvr": True, "recordFromStart": True,
-                           "enableEmbed": True,   # the site plays it (static/yt.js); it was off on 17 November 2026
+                           # no "enableEmbed": YouTube refuses the broadcast with invalidEmbedSetting (17-18 November
+                           # 2026, the sitting not streamed); publicize turns embedding on through videos.update
                            "monitorStream": {"enableMonitorStream": False}}})
     yt._call("POST", "liveBroadcasts/bind", {"id": b["id"], "part": "id,contentDetails", "streamId": st["id"]})
     return f"new: {b['id']}"
