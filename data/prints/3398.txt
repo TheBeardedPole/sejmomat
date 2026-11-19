@@ -1,0 +1,1319 @@
+                                                                       Druk nr 3398
+                                                              Warszawa, 18 listopada 2026 r.
+            SEJM
+RZECZYPOSPOLITEJ POLSKIEJ
+          X kadencja
+    Prezes Rady Ministrów
+       RM-0610-201-26
+
+
+                                                              Pan
+                                                              Włodzimierz Czarzasty
+                                                              Marszałek Sejmu
+                                                              Rzeczypospolitej Polskiej
+
+
+
+
+        Szanowny Panie Marszałku,
+       na podstawie art. 118 ust. 1 Konstytucji Rzeczypospolitej Polskiej przedstawiam
+ Sejmowi Rzeczypospolitej Polskiej projekt ustawy
+
+
+ - o zmianie niektórych ustaw w związku
+  z     rozwojem    rejestrów publicznych
+  prowadzonych z wykorzystaniem systemu
+  rejestrów państwowych.
+
+         Do prezentowania stanowiska Rządu w tej sprawie w toku prac parlamentarnych
+ został upoważniony Minister Cyfryzacji.
+
+
+                                                           Z poważaniem
+                                                            Donald Tusk
+                                            /podpisano kwalifikowanym podpisem elektronicznym/
+
+
+
+
+              Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+                                                                                                       Projekt
+                                                U S T AWA
+
+                                                     z dnia
+
+            o zmianie niektórych ustaw w związku z rozwojem rejestrów publicznych
+              prowadzonych z wykorzystaniem systemu rejestrów państwowych1)
+
+
+       Art. 1. W ustawie z dnia 25 lutego 1964 r. – Kodeks rodzinny i opiekuńczy (Dz. U.
+z 2026 r. poz. 236) w art. 59 dotychczasową treść oznacza się jako § 1 i dodaje się § 2
+w brzmieniu:
+              „§ 2. Oświadczenie, o którym mowa w § 1, może być złożone kierownikowi urzędu
+       stanu cywilnego przy użyciu usługi elektronicznej udostępnionej przez ministra
+       właściwego do spraw informatyzacji po uwierzytelnieniu w sposób określony w art. 20a
+       ust. 1 ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów
+       realizujących zadania publiczne (Dz. U. z 2026 r. poz. 1241) i po opatrzeniu
+       kwalifikowanym podpisem elektronicznym, podpisem zaufanym albo podpisem
+       osobistym.”.
+
+       Art. 2. W ustawie z dnia 24 września 2010 r. o ewidencji ludności (Dz. U. z 2026 r. poz.
+384 i 1206) wprowadza się następujące zmiany:
+1)     w art. 8 w pkt 24 przed wyrazem „seria” dodaje się wyraz „rodzaj,”;
+2)     w art. 10 w ust. 1:
+       a)    pkt 5 otrzymuje brzmienie:
+             „5) organ gminy właściwy do zameldowania na pobyt stały i czasowy obywatela
+                   polskiego – w zakresie danych, o których mowa w art. 8 pkt 3a i 14–21;”,
+       b)    po pkt 5 dodaje się pkt 5a w brzmieniu:
+             „5a) organ gminy właściwy do wymeldowania albo zgłoszenia wyjazdu poza gra-
+                   nice Rzeczypospolitej Polskiej oraz powrotu z wyjazdu poza granice Rzeczy-
+                   pospolitej Polskiej – w zakresie danych, o których mowa w art. 8 pkt 17 i 19–
+                   21;”,
+       c)    pkt 7 otrzymuje brzmienie:
+
+
+
+1)
+     Niniejszą ustawą zmienia się ustawy: ustawę z dnia 25 lutego 1964 r. – Kodeks rodzinny i opiekuńczy, ustawę
+     z dnia 24 września 2010 r. o ewidencji ludności, ustawę z dnia 28 listopada 2014 r. – Prawo o aktach stanu
+     cywilnego oraz ustawę z dnia 27 stycznia 2022 r. o dokumentach paszportowych.
+                                                –2–
+
+
+           „7) organ gminy właściwy do wydania dowodu osobistego – w zakresie danych, o
+                    których mowa w art. 8 pkt 3a i 22;”;
+3)   w art. 18 po ust. 2 dodaje się ust. 2a w brzmieniu:
+               „2a. Podstawy prawnej, o której mowa w ust. 2, nie stanowi obowiązek podania
+     numeru PESEL w celu potwierdzenia profilu zaufanego, o którym mowa w art. 3 pkt 14
+     ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów realizujących
+     zadania publiczne (Dz. U. z 2026 r. poz. 1241).”;
+4)   w art. 23e w ust. 2 w pkt 1 w lit. a wyraz „albo” zastępuje się przecinkiem i uchyla się
+     lit. b;
+5) po art. 23e dodaje się art. 23ea w brzmieniu:
+               „Art. 23ea. 1. W przypadku niemożności złożenia wniosku o cofnięcie zastrzeżenia
+     numeru PESEL z przyczyn wskazanych w art. 23e ust. 4 cofnięcia zastrzeżenia numeru
+     PESEL można dokonać przez pełnomocnika w trybie, o którym mowa w art. 23e ust. 2
+     pkt 2.
+               2. Pełnomocnik składa pełnomocnictwo szczególne do złożenia wniosku o cofnięcie
+     zastrzeżenia numeru PESEL:
+     1)        na piśmie utrwalonym w postaci papierowej lub elektronicznej – jeżeli pełnomocni-
+               kiem jest adwokat, radca prawny, doradca podatkowy albo rzecznik patentowy,
+     2)        w formie aktu notarialnego – jeżeli pełnomocnikiem jest osoba inna niż wymieniona
+               w pkt 1
+     – i potwierdza swoją tożsamość za pomocą dokumentu tożsamości.
+               3. Do pełnomocnictwa, o którym mowa w ust. 2 pkt 1, stosuje się art. 33 § 3 ustawy
+     z dnia 14 czerwca 1960 r. – Kodeks postępowania administracyjnego (Dz. U. z 2025 r.
+     poz. 1691).”;
+6)   w art. 23f w ust. 3 pkt 1 otrzymuje brzmienie:
+     „1) na wniosek podmiotu, o którym mowa w ust. 1, udziela zgody na dokonywanie za-
+               strzeżeń numerów PESEL, jeżeli podmiot ten spełnia warunki, o których mowa w
+               art. 48 ust. 1 pkt 1 i 2, w odniesieniu do rejestru zastrzeżeń numerów PESEL, oraz
+               warunki dotyczące:
+               a)   opracowania, ustanawiania, wdrażania, eksploatowania, monitorowania i prze-
+                    glądania oraz utrzymywania i doskonalenia systemu zarządzania bezpieczeń-
+                    stwem informacji,
+                                                –3–
+
+
+               b)   przeprowadzenia testów integracyjnych z rejestrem zastrzeżeń numerów PE-
+                    SEL lub testów integracyjnych z instytucją utworzoną na podstawie art. 105
+                    ust. 4 ustawy z dnia 29 sierpnia 1997 r. – Prawo bankowe;”;
+7)   w art. 23j w ust. 2 w pkt 1 w lit. a wyraz „albo” zastępuje się przecinkiem i uchyla się
+     lit. b;
+8)   w art. 23k ust. 1 otrzymuje brzmienie:
+               „1. Osobie, której dane są przetwarzane w rejestrze zastrzeżeń numerów PESEL,
+     umożliwia się wgląd do rejestru zastrzeżeń numerów PESEL w zakresie danych jej
+     dotyczących. Wgląd następuje przy użyciu usługi elektronicznej udostępnionej przez
+     ministra właściwego do spraw informatyzacji po uwierzytelnieniu w sposób określony w
+     art. 20a ust. 1 ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów
+     realizujących zadania publiczne.”;
+9)   w art. 23l ust. 1 otrzymuje brzmienie:
+               „1. Osobie, której dane są przetwarzane w rejestrze zastrzeżeń numerów PESEL,
+     umożliwia się wgląd do informacji o tym, kto i kiedy dokonywał weryfikacji zastrzeżenia
+     jej numeru PESEL. Wgląd następuje przy użyciu usługi elektronicznej udostępnionej
+     przez ministra właściwego do spraw informatyzacji po uwierzytelnieniu w sposób
+     określony w art. 20a ust. 1 ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności
+     podmiotów realizujących zadania publiczne.”;
+10) w art. 33 w ust. 2 pkt 1 otrzymuje brzmienie:
+     „1) papierowej – na formularzu opatrzonym własnoręcznym podpisem, w organie do-
+               wolnej gminy, przedstawiając do wglądu dowód osobisty lub paszport, albo”;
+11) w art. 36 w ust. 3 pkt 1 otrzymuje brzmienie:
+     „1) papierowej, w organie dowolnej gminy, na formularzu opatrzonym własnoręcznym
+               podpisem, przedstawiając do wglądu dowód osobisty lub paszport, albo”.
+
+     Art. 3. W ustawie z dnia 28 listopada 2014 r. – Prawo o aktach stanu cywilnego (Dz. U.
+z 2026 r. poz. 393) wprowadza się następujące zmiany:
+1)   w art. 41 w ust. 1 we wprowadzeniu do wyliczenia wyrazy „sporządził wzmiankę” zastę-
+     puje się wyrazami „sporządził akt stanu cywilnego”;
+2)   w art. 90 dodaje się ust. 5 i 6 w brzmieniu:
+               „5. Oświadczenie o powrocie do nazwiska noszonego przed zawarciem małżeństwa
+     i składane w sposób określony w art. 59 § 2 Kodeksu rodzinnego i opiekuńczego jest
+                                               –4–
+
+
+     kierowane do kierownika urzędu stanu cywilnego właściwego do sporządzenia aktu
+     małżeństwa i zawiera:
+     1)   nazwisko, imię (imiona), nazwisko rodowe, datę i miejsce urodzenia rozwiedzio-
+          nego małżonka oraz numer PESEL;
+     2)   oznaczenie aktu małżeństwa;
+     3)   datę uprawomocnienia się orzeczenia o rozwodzie, oznaczenie sądu oraz sygnaturę
+          akt sprawy;
+     4)   oświadczenie o powrocie do nazwiska noszonego przed zawarciem małżeństwa;
+     5)   adres do korespondencji rozwiedzionego małżonka;
+     6)   adres poczty elektronicznej lub numer telefonu komórkowego rozwiedzionego mał-
+          żonka, jeżeli posiada;
+     7)   informację o wyrażeniu zgody na przekazanie danych do rejestru danych kontakto-
+          wych osób fizycznych.
+          6. Oświadczenie o powrocie do nazwiska noszonego przed zawarciem małżeństwa
+     złożone w sposób określony w ust. 5 zastępuje protokół, o którym mowa w ust. 1, i
+     stanowi podstawę dołączenia przez kierownika urzędu stanu cywilnego wzmianki
+     dodatkowej do aktu małżeństwa o nazwisku rozwiedzionego małżonka.”.
+
+     Art. 4. W ustawie z dnia 27 stycznia 2022 r. o dokumentach paszportowych (Dz. U.
+z 2026 r. poz. 196) wprowadza się następujące zmiany:
+1)   w art. 43:
+     a)   w ust. 4 i 5 wyrazy „przedkłada się” zastępuje się wyrazami „dołącza się”,
+     b)   po ust. 6 dodaje się ust. 6a w brzmieniu:
+                  „6a. Zgodę wyrażoną w formie, o której mowa w ust. 3 pkt 2 i 3, dołącza się do
+          wniosku o wydanie dokumentu paszportowego.”;
+2)   w art. 82 w ust. 1:
+     a)   po pkt 4 dodaje się pkt 4a w brzmieniu:
+          „4a) dane zamieszczone w zgodzie na wydanie dokumentu paszportowego, wyrażo-
+                  nej w formie, o której mowa w art. 43 ust. 3 pkt 2 i 3;”,
+     b)   po pkt 14 dodaje się pkt 14a i 14b w brzmieniu:
+          „14a) informacje dotyczące dokumentu określającego zakres władzy rodzicielskiej:
+                  a)   imię i nazwisko oraz numer PESEL, a jeżeli nie nadano tego numeru –
+                       rodzaj, serię i numer dokumentu tożsamości wnioskodawcy oraz uczest-
+                       nika postępowania,
+                                              –5–
+
+
+                b)   oznaczenie dokumentu,
+                c)   datę wydania dokumentu oraz dane dotyczące podmiotu, który go wydał
+                – w przypadkach, o których mowa w art. 43 ust. 4 ustawy;
+          14b) informacje dotyczące orzeczenia sądu rodzinnego, które zastępuje zgodę na
+                wydanie dokumentu paszportowego:
+                a)   imię i nazwisko oraz numer PESEL, a jeżeli nie nadano tego numeru –
+                     rodzaj, serię i numer dokumentu tożsamości wnioskodawcy oraz uczest-
+                     nika postępowania,
+                b)   sygnaturę akt sprawy,
+                c)   datę wydania oraz oznaczenie sądu rodzinnego, który wydał to orzeczenie
+                – w przypadkach, o których mowa w art. 43 ust. 5 ustawy;”;
+3)   w art. 86 po pkt 9 dodaje się pkt 9a w brzmieniu:
+     „9a) Ministrowi Sprawiedliwości,”.
+
+     Art. 5. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia, z wyjątkiem art. 1,
+art. 2 pkt 1, 2, 10 i 11 oraz art. 3, które wchodzą w życie z dniem 1 lutego 2028 r.
+                                     UZASADNIENIE
+
+Celem projektowanej ustawy jest wprowadzenie podstaw prawnych dla funkcjonowania
+rozwiązań usprawniających oraz rozwijających funkcjonowanie rejestru PESEL, rejestru stanu
+cywilnego oraz Rejestru Dokumentów Paszportowych.
+
+Zmiany wprowadzane w ustawie z dnia 25 lutego 1964 r. – Kodeks rodzinny i opiekuńczy
+(Dz. U. z 2026 r. poz. 236), zwanej dalej „KRiO”, w ustawie z dnia 28 listopada 2014 r. –
+Prawo o aktach stanu cywilnego (Dz. U. z 2026 r. poz. 393).
+
+Zgodnie z aktualnym brzmieniem art. 59 KRiO w ciągu roku od chwili uprawomocnienia się
+orzeczenia rozwodu małżonek rozwiedziony, który wskutek zawarcia małżeństwa zmienił
+swoje dotychczasowe nazwisko, może przez oświadczenie złożone przed kierownikiem urzędu
+stanu cywilnego lub konsulem powrócić do nazwiska, które nosił przed zawarciem małżeństwa.
+W 2023 r. złożono 11 tys., a w 2024 r. 11,7 tys. takich oświadczeń.
+
+Projektowany art. 59 KRiO zakłada, że jeżeli oświadczenie takie ma być złożone przed
+kierownikiem urzędu stanu cywilnego, możliwe jest skorzystanie z przeznaczonej dla tego celu
+usługi elektronicznej. Należy mieć na uwadze, że w procesie powrotu do nazwiska noszonego
+przed zawarciem małżeństwa nie jest wymagana zgoda organu. Zasadnym zatem jest
+uproszczenie procesu powrotu do tego nazwiska. Od strony technicznej proces zakłada pełną
+automatyzację: składane oświadczenie jest weryfikowane z danymi w akcie małżeństwa
+sporządzonego w rejestrze stanu cywilnego, tj. czy nazwisko, do którego wraca dana osoba,
+jest tożsame z wynikającym z aktu małżeństwa, a dotyczącym osoby zawierającej małżeństwo
+i czy między złożeniem oświadczenia o powrocie do nazwiska noszonego przed zawarciem
+małżeństwa nie minęło więcej niż 1 rok od daty uprawomocnienia się wyroku rozwodowego
+(informacja o dacie prawomocności orzeczenia rozwodowego wynika ze wzmianki o rozwodzie
+dołączonej do aktu małżeństwa). Ponadto projektowany przepis precyzuje, że oświadczenie
+wymaga opatrzenia kwalifikowanym podpisem elektronicznym, podpisem zaufanym albo
+podpisem osobistym. Pozytywna weryfikacja tych warunków będzie skutkować zmianą nazwiska
+osoby składającej oświadczenie na nazwisko noszone przed zawarciem małżeństwa.
+
+Zmiany związane z nowelizacją art. 90 ustawy z dnia 28 listopada 2014 r. – Prawo o aktach
+stanu cywilnego są konsekwencją zmian w KRiO omówionych w pierwszym i drugim akapicie.
+
+W zakresie art. 90a ustawy z dnia 28 listopada 2014 r. – Prawo o aktach stanu cywilnego dodaje
+i doprecyzowuje się, jakie dane zawiera oświadczenie o powrocie do nazwiska noszonego
+przed zawarciem małżeństwa. Zakres danych jest tożsamy z zakresem danych składanych do
+protokołu, z uwzględnieniem wyłącznie odrębności związanych ze zmianą ścieżki składanego
+oświadczenia. Jednocześnie przesądza się, że oświadczenie złożone z wykorzystaniem usługi
+elektronicznej, po pozytywnej weryfikacji spełnienia za pomocą tej usługi warunków powrotu
+do nazwiska noszonego przed zawarciem małżeństwa, stanowi podstawę dołączenia przez
+kierownika urzędu stanu cywilnego wzmianki dodatkowej o nazwisku rozwiedzionego
+małżonka i zastępuje protokół sporządzany przez kierownika urzędu stanu cywilnego
+w sytuacji składania przed nim takiego oświadczenia.
+
+Zmiany wprowadzane w ustawie z dnia 24 września 2010 r. o ewidencji ludności
+(Dz. U. z 2026 r. poz. 384 i 1206).
+
+W art. 8 proponuje się uzupełnienie zakresu danych gromadzonych w rejestrze PESEL
+o informacje o rodzaju dokumentu podróży cudzoziemca lub innego ważnego dokumentu
+potwierdzającego tożsamość i obywatelstwo. Wprowadzenie tej informacji ma na celu
+rejestrowanie informacji dotyczącej rodzaju dokumentu z podziałem na m.in. paszporty
+(zwykłe), paszporty służbowe lub dyplomatyczne lub innego rodzaju dokumenty podróży.
+Powyższe jest oparte m.in. o dane zawarte w polu odczytu maszynowego, które zostały
+określone w postaci norm ICAO (Doc 9303). Działanie to ma przyczynić się do podniesienia
+interoperacyjności między rejestrem PESEL a rejestrami prowadzonymi przez Komendanta
+Głównego Straży Granicznej, który rejestruje rodzaj tego dokumentu. Jest to informacja istotna
+z punktu widzenia weryfikacji osoby w różnych bazach administracji publicznej i ustalenia,
+czy różne bazy referują do danych tej samej osoby, także monitorowania sytuacji
+zarejestrowania zmiany danych dokumentu. Przewiduje się zastosowanie takich samych
+wartości rodzajów dokumentu, jakie wykorzystywane są w bazach Straży Granicznej.
+
+Zmiana w art. 10 ust. 1 ustawy ma na celu umożliwienie rejestracji danych parentyzacyjnych
+w rejestrze PESEL nie tylko kierownikowi urzędu stanu cywilnego, ale także pracownikom
+urzędu gminy wykonującym zadania z zakresu ewidencji ludności i dowodów osobistych.
+W konsekwencji osoby te będą mogły również dokonywać usunięcia niezgodności w tych
+danych (uzupełnienie brakującej danej o numerze PESEL rodzica jest także niezgodnością)
+podczas realizacji zadań z obszaru ewidencji ludności i dowodów osobistych. Rozwiązanie
+takie przyczyni się do poprawy jakości danych parentyzacyjnych, w szczególności dla osób
+urodzonych przed 2015 r. Urzędnicy ewidencji ludności i dowodów osobistych podczas
+realizacji swoich czynności mają możliwość weryfikacji danych w PESEL, a tym samym
+
+                                              2
+w przypadku kiedy będą znali numery PESEL rodziców osoby – będą mogli uzupełnić te dane
+w rekordzie osoby przy okazji realizacji swoich innych obowiązków. Ponadto w związku
+z koniecznością zapewnienia odpowiedniej jakości danych oraz przeciwdziałania sytuacjom
+omyłkowego wprowadzania danych – w systemie rejestrów państwowych, w którego skład
+wchodzą m.in. rejestr PESEL, rejestr stanu cywilnego i Rejestr Dowodów Osobistych,
+wdrożono funkcjonalności, które powinny znacznie ograniczyć możliwość popełnienia błędów
+przy wprowadzaniu i aktualizacji danych. Dotyczy to zarówno obecnych, jak i przyszłych
+użytkowników ww. systemów. W rejestrze stanu cywilnego w zakresie funkcjonalności
+modyfikacji danych przy próbie usunięcia, dodania lub zmiany numeru PESEL obecnie
+pojawiają się komunikaty o możliwej rozbieżności między poszczególnymi rejestrami po
+zapisaniu tych zmian. Ponadto w procesach rejestracji zmiany danych urodzenia oraz usuwania
+niezgodności w danych urodzenia wprowadzono dodatkowe komunikaty, które wyświetlają się
+przy zmianie imienia matki oraz imienia ojca. Komunikaty te informują o rozbieżności
+wprowadzonych zmian z danymi widniejącymi w Rejestrze Dowodów Osobistych. Powiązanie
+parentyzacyjne w rejestrze PESEL uzupełniane będzie, co do zasady, przy wystąpieniu
+zdarzenia powodującego wizytę osoby w urzędzie, tj. głównie przy zameldowaniu lub
+wnioskowaniu (odbiorze) dowodu osobistego. W przypadku osób małoletnich urzędnik
+dokonujący zameldowania lub wydania dowodu osobistego na wniosek rodzica weryfikuje, czy
+osoba jest przedstawicielem ustawowym dziecka. Sytuację tę można wykorzystać do
+uzupełnienia powiązań parentyzacyjnych obojga rodziców w rejestrze PESEL. Dopuszczalna
+będzie także sytuacja uzupełnienia wyłącznie powiązania parentyzacyjnego w trybie art. 11 ust.
+2b ustawy z dnia 24 września 2010 r. o ewidencji ludności, gdzie usunięcie niezgodności
+polegać może także na uzupełnieniu danych. Należy też zauważyć, że w przypadku kiedy akt
+urodzenia nie ma w rejestrze stanu cywilnego postaci elektronicznej (nie został zmigrowany),
+to przy akcie takim nie znajdują się numery PESEL rodziców. Wprowadzenie tych danych do
+rejestru PESEL niewątpliwie wpłynie na poprawę jakości gromadzonych danych.
+
+W rejestrze PESEL w celu zminimalizowania ryzyka ewentualnej pomyłki wdrożono
+mechanizm, który w przypadku wprowadzenia przez użytkownika zmiany dotyczącej danych
+rodziców powodujących jednoczesną zmianę dotyczącą imienia pierwszego matki oraz/lub
+imienia pierwszego ojca, tj. zmiany numeru PESEL na inny, usunięcia numeru PESEL
+(usunięcie powiązania parentyzacyjnego), dodania numeru PESEL (utworzenie powiązania
+parentyzacyjnego) albo bezpośredniej zmiany danych w polach dotyczących imienia ojca
+i matki – uruchamia funkcjonalność weryfikującą zgodność między nowymi wartościami
+                                              3
+a imionami rodziców zawartymi w aktualnym dowodzie osobistym osoby, u której dokonano
+zmian. Jeśli dane te są inne niż dane zawarte w aktualnym (ważnym) dowodzie osobistym, to
+pod polami dotyczącymi imienia pierwszego matki lub ojca pojawia się ostrzegawczy
+komunikat informujący o ich rozbieżności. Zmiana została wprowadzona w 2025 r.
+
+W art. 18 w proponowanym ust. 2a wprowadza się ograniczenie, że żądanie nadania numeru
+PESEL nie będzie mogło być uzasadniane obowiązkiem podania numeru PESEL w celu
+potwierdzenia profilu zaufanego. Zasadne jest, aby numer PESEL był nadawany wyłącznie
+osobom, które są w kraju lub mają z nim określony związek. W tym celu jest wystarczające
+nadawanie numeru PESEL w związku z okolicznościami przewidzianymi w ustawie z dnia 24
+września 2010 r. o ewidencji ludności i nielicznymi przypadkami przepisów odrębnych, które
+stanowią podstawę do nadania numeru PESEL. Celem projektowanej regulacji jest
+wyeliminowanie możliwości nadawania numeru PESEL w związku z ubieganiem się przez
+wnioskodawcę o potwierdzenie profilu zaufanego. Profil zaufany, tj. środek identyfikacji
+elektronicznej, powinny otrzymywać osoby, które uzyskały już numer PESEL, a tym samym
+związek z naszym krajem np. przez świadczenie w nim pracy lub zamieszkiwanie. W ramach
+uzasadnienia należy wyjaśnić, że na przestrzeni ostatnich lat przez organy państwowe –
+głównie Ministerstwo Spraw Zagranicznych – była podnoszona kwestia ubiegania się
+o potwierdzenie profilu zaufanego przez osoby, które mogą nie rozumieć znaczenia i skutków
+prawnych tej czynności, w szczególności przez osoby przebywające poza granicami Polski i nie
+związane z naszym krajem. W konsulatach mają miejsce przypadki zgłaszania się obywateli
+państw obcych, którzy wyrażają wolę potwierdzenia profilu zaufanego, a nie rozumieją celu
+takiego działania. Sytuacja ta skutkuje prawdopodobnym wykorzystywaniem tych osób jako
+tzw. „słupy” w celu realizacji czynności niezgodnych z prawem. Proceder ten jest związany
+z zakładaniem „wirtualnych” spółek oraz składaniem wniosków wizowych, do których
+dołączano zaproszenia biznesowe, lub zezwolenia na pracę wydane przez „wirtualne”
+podmioty gospodarcze. Jednocześnie osoby te nie korzystają z wydanego im profilu zaufanego,
+a podstawa o ubieganie się o ten środek identyfikacji jest dla nich wyłącznie narzędziem do
+uzyskania numeru PESEL. Projektowana zmiana nie wywoła negatywnych konsekwencji dla
+cudzoziemców ubiegających się o określonego rodzaju zezwolenie na pobyt. Na podstawie
+ustawy z dnia 21 listopada 2025 r. o zmianie ustawy o cudzoziemcach oraz niektórych innych
+ustaw (Dz. U. z 2025 r. poz. 1794) w ustawie z dnia 12 grudnia 2013 r. o cudzoziemcach (Dz.
+U. z 2025 r. poz. 1079, z późn. zm.) zaszły zmiany w zakresie procedur składania przez
+cudzoziemca wniosków o określonego rodzaju zezwolenie na pobyt. Wnioski te będzie trzeba
+                                             4
+podpisać kwalifikowanym podpisem elektronicznym lub podpisem zaufanym. Należy mieć
+jednak na uwadze, iż zgodnie z art. 40 ust. 1 ustawy z dnia 24 września 2010 r. o ewidencji
+ludności cudzoziemiec przebywający na terytorium Rzeczypospolitej Polskiej jest obowiązany
+wykonywać obowiązek meldunkowy na zasadach określonych w tej ustawie, o ile przepisy nie
+stanowią inaczej. W przedstawionej uwadze mowa jest zatem o grupie cudzoziemców
+zamieszkujących w Polsce, natomiast projektowany przepis odnosi się do tych osób, które nie
+przebywają na terytorium Rzeczypospolitej Polskiej i wnioskują głównie w konsulatach, a więc
+poza granicami kraju, o nadanie numeru PESEL, uzasadniając to potrzebą podania tego
+identyfikatora we wniosku o potwierdzenie profilu zaufanego. Nadal będzie istniała możliwość
+nadania numeru PESEL na podstawie przepisów odrębnych, np. w celu rozliczenia podatku.
+
+Dodawany w niniejszym projekcie art. 23ea dotyczy wprowadzenia podstawy prawnej do
+cofnięcia   zastrzeżenia    numeru     PESEL      przez   pełnomocnika      osoby    posiadającego
+pełnomocnictwo notarialne do tej czynności albo pełnomocnika profesjonalnego będącego
+adwokatem lub radcą prawnym, który posiada pełnomocnictwo do dokonania tej czynności w
+imieniu reprezentowanego. Zmiana ta wynika z postulatów zgłaszanych przez obywateli oraz
+urzędników gminnych, którzy sygnalizowali, że w obecnym stanie prawnym obostrzenia przy
+cofaniu zastrzeżenia numeru PESEL mogą stanowić nadmierne ograniczenie praw
+obywatelskich w sytuacjach związanych z brakiem możliwości cofnięcia zastrzeżenia przez
+osoby, które nie korzystają z usług elektronicznych i nie mogą zdalnie dokonać ww. czynności,
+a jednocześnie choroba, niepełnosprawność lub inna niedająca się pokonać przeszkoda
+uniemożliwia im osobiste stawiennictwo w urzędzie w celu cofnięcia zastrzeżenia. Wychodząc
+zatem naprzeciw oczekiwaniom społecznym, ustawodawca zwiększa dostępność usługi
+cofnięcia zastrzeżenia numeru PESEL przez uprawnienie do załatwienia tej sprawy
+w określonych przypadkach również przez pełnomocnika.
+
+Zmiany w art. 23e ust. 2 pkt 1 lit. b, art. 23j, art. 23k oraz art. 23l dotyczą aktualizacji podstawy
+prawnej wynikającej z ustawy z dnia 26 maja 2023 r. o aplikacji mObywatel (Dz. U. z 2026 r.
+poz. 1232), która uchyliła art. 19e ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności
+podmiotów realizujących zadania publiczne (Dz. U. z 2026 r. poz. 1241).
+
+Znowelizowane brzmienie art. 23f przez dodanie odniesienia do art. 48 ust. 1 pkt 1 i 2 ustawy
+uszczegóławia przesłanki, jakie musi spełnić podmiot ubiegający się o dostęp do usługi
+zastrzegania numeru PESEL. Dzięki temu przepis jest spójny z wymaganiami dotyczącymi
+trybów udostępniania danych z rejestru PESEL przewidzianych w zmienianej ustawie.
+
+                                                 5
+Warunki te są w tym zakresie wspólne zarówno dla usług udostępniania danych z powyższego
+rejestru, jak i zastrzeżenia numeru PESEL.
+
+Wprowadzane zmiany w art. 33 i art. 36 ustawy uproszczą dokonanie wymeldowania osoby,
+które będzie mogło zostać odnotowane przez organ dowolnej gminy, a nie tak jak obecnie przez
+organ gminy właściwy dla dotychczasowego miejsca pobytu.
+
+Zmiany w ustawie z dnia 27 stycznia 2022 r. o dokumentach paszportowych (Dz. U.
+z 2026 r. poz. 196).
+
+W art. 43 precyzuje się ust. 4 i 5 przez wyraźne wskazanie na obowiązek dołączenia
+dokumentów wskazanych w tych przepisach. Zmiana polegająca na dodaniu ust. 6a w art. 43
+w sposób jednoznaczny określi, że zgoda na wydanie dokumentu paszportowego osobie
+małoletniej, wyrażona na zasadach określonych w ustawie zmienianej jest dołączana do
+wniosku o wydanie dokumentu paszportowego.
+
+Projektowana zmiana w art. 82 ust. 1 pkt 4a ma na celu określenie danych przetwarzanych
+w Rejestrze Dokumentów Paszportowych, dotyczących zgody na wydanie dokumentu
+paszportowego osobie małoletniej. Ponadto w art. 82 ust. 1 dodano pkt 14a i 14b, które
+precyzują katalog danych przetwarzanych w Rejestrze Dokumentów Paszportowych,
+uwzględniając dane dotyczące dokumentu określającego zakres władzy rodzicielskiej oraz
+informacje dotyczące orzeczenia sądu rodzinnego, które zastępuje zgodę na wydanie
+dokumentu paszportowego.
+
+W art. 86 po pkt 9 dodaje się pkt 9a i tym samym w katalogu podmiotów uprawnionych do
+pozyskiwania danych z Rejestru Dokumentów Paszportowych do realizacji zadań ustawowych
+uwzględnia się Ministra Sprawiedliwości. Obecnie przepis ten w pkt 9 przewiduje
+udostępnianie danych z Rejestru Dokumentów Paszportowych sądom. Sądy nie korzystają
+jednak z własnych indywidualnych rozwiązań informatycznych w celu uzyskiwania dostępu
+do danych, lecz system taki w postaci brokera komunikacyjnego zapewnia Minister
+Sprawiedliwości. Aby udostępnianie danych dla sądów mogło odbywać się z wykorzystaniem
+systemu    Ministra    Sprawiedliwości,   niezbędne     jest   umocowanie     także   Ministra
+Sprawiedliwości jako podmiotu uprawnionego do przetwarzania danych z Rejestru
+Dokumentów Paszportowych. Podobne rozwiązania funkcjonują już na gruncie ustawy z dnia
+6 sierpnia 2010 r. o dowodach osobistych (Dz. U. z 2025 r. poz. 1753 oraz z 2026 r. poz. 1206).
+
+Pozostałe informacje.
+
+                                              6
+Zmiany wprowadzane projektowaną ustawą nie wymagają wprowadzenia przepisów
+przejściowych.
+
+Przewiduje się, że projektowane przepisy wejdą w życie po upływie 14 dni od dnia ogłoszenia,
+oprócz art. 1, art. 2 pkt 1, 2, 10 i 11 oraz art. 3, które wejdą w życie z dniem 1 lutego 2028 r.
+Określenie dla części przepisów daty wejścia w życie na dzień 1 lutego 2028 r. wynika
+z konieczności uprzedniej realizacji prac dostosowujących systemy teleinformatyczne tak,
+by udostępnić planowane funkcjonalności urzędnikom. Prace zostaną wykonane w roku 2027
+w ramach limitu wydatków w części 27 budżetu państwa.
+
+Ustalenie daty wejścia w życie art. 1 i art. 3 ustawy na 1 lutego 2028 r. wynika z realizowanych
+i zaplanowanych prac związanych z kompleksową modernizacją rejestru stanu cywilnego (tzw.
+refaktor RSC).
+
+Projektowane regulacje nie stoją w sprzeczności z prawem Unii Europejskiej.
+
+Projekt nie wymaga zasięgnięcia opinii, dokonania konsultacji oraz uzgodnienia z właściwymi
+organami i instytucjami Unii Europejskiej.
+
+Projekt ustawy nie zawiera przepisów technicznych i w związku z tym nie podlega procedurze
+notyfikacji zgodnie z przepisami dotyczącymi funkcjonowania krajowego systemu notyfikacji
+norm i aktów prawnych, stosownie do § 27 ust. 3 pkt 4 lit. b uchwały nr 190 Rady Ministrów
+z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2026 r. poz. 404).
+
+Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej
+w procesie stanowienia prawa (Dz. U. z 2026 r. poz. 936) projekt został udostępniony
+w Biuletynie Informacji Publicznej na stronie podmiotowej Ministra Cyfryzacji. Ponadto
+zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia 29 października 2013 r. –
+Regulamin pracy Rady Ministrów został udostępniony w Biuletynie Informacji Publicznej na
+stronie podmiotowej Rządowego Centrum Legislacji w zakładce Rządowy Proces Legislacyjny.
+
+
+
+
+                                               7
+Nazwa projektu                                                  Data sporządzenia
+Ustawa o zmianie niektórych ustaw w związku z rozwojem          6 listopada 2026 r.
+rejestrów publicznych prowadzonych z wykorzystaniem
+systemu rejestrów państwowych                                   Źródło
+Ministerstwo wiodące i ministerstwa współpracujące              Inne
+Ministerstwo Cyfryzacji
+                                                                Nr w Wykazie prac legislacyjnych i
+Osoba odpowiedzialna za projekt w randze Ministra,              programowych Rady Ministrów
+Sekretarza Stanu lub Podsekretarza Stanu                        UD337
+Dariusz Standerski – Sekretarz Stanu w Ministerstwie
+Cyfryzacji
+Kontakt do opiekuna merytorycznego projektu:
+Monika Małowiecka – Zastępca Dyrektora Departamentu
+Transformacji Cyfrowej w Ministerstwie Cyfryzacji, e-mail:
+monika.malowiecka3@cyfra.gov.pl
+                                OCENA SKUTKÓW REGULACJI
+1. Jaki problem jest rozwiązywany?
+W aktualnym stanie prawnym w ciągu roku od chwili uprawomocnienia się orzeczenia rozwodu małżonek
+rozwiedziony, który wskutek zawarcia małżeństwa zmienił swoje dotychczasowe nazwisko, może przez
+oświadczenie złożone przed kierownikiem urzędu stanu cywilnego lub konsulem powrócić do nazwiska,
+które nosił przed zawarciem małżeństwa. W 2023 r. złożono 11 tys., a w 2024 r. 11,7 tys. takich oświadczeń.
+Obecnie nie ma jednak podstawy do realizacji tego procesu w drodze elektronicznej.
+Jak wynika z analiz Ministerstwa Spraw Zagranicznych, cudzoziemcy głównie poza granicami kraju
+składają wnioski o nadanie numeru PESEL w celu potwierdzenia profilu zaufanego. Wnioskujący nie mają
+żadnego związku z Polską, a numer PESEL jest niezbędny w celu dalszego wykorzystywania utworzonej
+tożsamości. Nadanie numeru PESEL odbywa się na podstawie ustawy z dnia 24 września 2010 r. o ewidencji
+ludności (Dz. U. z 2026 r. poz. 384 i 1206) i rozporządzenia Ministra Spraw Wewnętrznych z dnia 4 stycznia
+2012 r. w sprawie nadania lub zmiany numeru PESEL (Dz. U. z 2015 r. poz. 1984 oraz z 2022 r. poz. 996).
+Zgodnie z art. 7 ust. 2 w zw. z art. 18 ww. ustawy numer PESEL może być nadany osobie, która jest
+obowiązana      na    podstawie        odrębnych     przepisów     do     posiadania  numeru      PESEL.
+W załączniku nr 1 do ww. rozporządzenia w pkt 7 istnieje rubryka umożliwiająca wskazanie przepisu,
+z którego wynika obowiązek posiadania numeru PESEL. Postępowanie w sprawie nadania numeru PESEL
+jest postępowaniem administracyjnym i stosuje się do niego ustawę z dnia 14 czerwca 1960 r. – Kodeks
+postępowania administracyjnego (Dz. U. z 2025 r. poz. 1691). Katalog podstaw prawnych ma charakter
+otwarty, a projektowaną regulacją jedna z nich – dotycząca konieczności nadania numeru PESEL w celu
+założenia i potwierdzenia profilu zaufanego – zostanie z tej kategorii wyłączona przez ustawodawcę i nie
+będzie mogła stanowić wyłącznego uzasadnienia wniosku o nadanie numeru PESEL.
+W obecnym stanie prawnym rejestracji parentyzacji (numeru PESEL rodzica w rekordzie dziecka) w
+rejestrze PESEL może dokonać tylko kierownik urzędu stanu cywilnego. Jest to dana gromadzona w
+rejestrze PESEL od roku 2018, dlatego też szczególnie istotne jest podniesienie jakości danych w tym
+obszarze przez zwiększenie liczby powiązań parentyzacyjnych.
+Obecnie w celu wymeldowania się z adresu zameldowania jest konieczne złożenie wniosku do organu
+gminy właściwego dla dotychczasowego miejsca pobytu, co powoduje trudności np. gdy osoba przebywa
+w znacznej odległości od urzędu lub za granicą.
+Aktualnie w rejestrze PESEL nie jest gromadzona dana dotycząca rodzaju dokumentu podróży lub innego
+dokumentu potwierdzającego tożsamość i obywatelstwo cudzoziemca, co stwarza problemy np. w wymianie
+danych o obywatelach Ukrainy ze Strażą Graniczną, która rejestruje rodzaj dokumentu i wykorzystuje go
+w celu łączenia danych i ustalania danych osoby w swoich systemach teleinformatycznych.
+Obecnie cofnięcie zastrzeżenia numeru PESEL jest możliwe wyłącznie za pomocą usługi elektronicznej
+dostępnej w portalu mobywatel.gov.pl lub aplikacji mObywatel. Jeśli osoba nie korzysta z ww. usług, to
+jedyną opcją alternatywną jest obecnie złożenie osobiście w dowolnym urzędzie gminy wniosku o cofnięcie
+zastrzeżenia numeru PESEL. Trudności pojawiają się w sytuacji, gdy osoba nie korzysta z usług
+elektronicznych i jednocześnie z powodu złego stanu zdrowia lub innej uzasadnionej przyczyny nie jest w
+stanie cofnąć zastrzeżenia numeru PESEL, a jest to w danych okolicznościach niezbędne w celu załatwienia
+ważnej sprawy życiowej, np. sprzedaży nieruchomości.
+W aktualnym stanie prawnym sądy mają możliwość uzyskiwania danych z Rejestru Dokumentów
+Paszportowych, jednakże z uwagi na scentralizowany charakter rozwiązania technicznego, przy użyciu
+którego będzie następować udostępnianie danych (z wykorzystaniem systemu Ministra Sprawiedliwości),
+konieczne jest także umocowanie samego Ministra Sprawiedliwości jako podmiotu upoważnionego do
+przetwarzania danych z tego rejestru.
+
+2. Rekomendowane rozwiązanie, w tym planowane narzędzia interwencji i oczekiwany efekt
+Celem projektowanej ustawy jest wprowadzenie zmian prawnych mających na celu m.in. usprawnienie
+oraz rozwój funkcjonowania rejestru PESEL, Rejestru Dokumentów Paszportowych i rejestru stanu
+cywilnego.
+Projekt zawiera propozycje przepisów:
+1) wprowadzających podstawy prawne dla wdrożenia nowej usługi administracji publicznej, realizowanej z
+wykorzystaniem usługi elektronicznej dostępnej po uwierzytelnieniu użytkownika, pozwalającej
+rozwiedzionemu małżonkowi, który wskutek zawarcia małżeństwa zmienił swoje dotychczasowe nazwisko, na
+złożenie kierownikowi urzędu stanu cywilnego oświadczenia o powrocie do nazwiska, które osoba ta nosiła
+przed zawarciem małżeństwa;
+2) wprowadzających podstawę prawną do ograniczenia nadawania numeru PESEL cudzoziemcom, którzy
+jako podstawę prawną do nadania numeru PESEL wskazali konieczność potwierdzenia profilu zaufanego;
+3) wprowadzających odmiejscowienie wymeldowania; wymeldowanie będzie mogło zostać odnotowane
+przez organ dowolnej gminy, a nie tak jak obecnie przez organ gminy właściwy dla dotychczasowego
+miejsca pobytu;
+4) umożliwiających rejestrację danych parentyzacyjnych także przez urzędników referatów ewidencji
+ludności i dowodów osobistych, którzy będą mogli rejestrować powiązania parentyzacyjne przy okazji
+obsługi innych spraw i zdarzeń dotyczących osoby;
+5) wprowadzających obowiązek gromadzenia w rejestrze PESEL informacji o rodzaju dokumentu podróży
+lub dokumentu potwierdzającego tożsamość i obywatelstwo cudzoziemca;
+6) wprowadzających możliwość cofnięcia zastrzeżenia numeru PESEL w określonych przypadkach przez
+pełnomocnika;
+7) doprecyzowujących przepisy w zakresie realizacji spraw paszportowych oraz rozszerzających katalog
+podmiotów uprawnionych do dostępu do danych w Rejestrze Dokumentów Paszportowych w celu realizacji
+ustawowych zadań.
+
+3. Jak problem został rozwiązany w innych krajach, w szczególności krajach członkowskich
+   OECD/UE?
+Nie zidentyfikowano odpowiedników wprowadzanych procedur w innych krajach członkowskich
+OECD/UE.
+4. Podmioty, na które oddziałuje projekt
+   Grupa           Wielkość          Źródło danych                      Oddziaływanie
+
+
+
+
+                                                     2
+Obywatele      37,489 mln         Mały Rocznik            Możliwość korzystania z usług elektronicznych –
+                                  Statystyczny 2025       ułatwienie i przyspieszenie załatwiania spraw.
+                                  GUS                     Przetwarzanie danych osobowych. Możliwość
+                                                          cofnięcia zastrzeżenia numeru PESEL przez
+                                                          pełnomocnika w określonych sytuacjach.
+Urzędy gmin    2479               Analiza własna          Wykonywanie zadań zleconych z zakresu
+i miast                                                   administracji rządowej, w tym ewidencji
+                                                          ludności.
+Cudzoziemcy    ok. 1 mln 400      Analiza własna          Możliwość korzystania z usług elektronicznych -
+mogący mieć    tys. osób                                  ułatwienie i przyspieszenie załatwiania spraw.
+kontakt z                                                 Przetwarzanie danych osobowych. Ograniczenie
+polskimi                                                  katalogu podstaw prawnych do nadania numeru
+podmiotami                                                PESEL.
+publicznymi
+Minister       1                  Dane                    Utrzymywanie i rozwój oprogramowania
+Cyfryzacji                        ogólnodostępne          służącego do obsługi rejestrów i udostępnianie
+                                                          usług elektronicznych.
+Minister       1                  Dane                    Umożliwienie pozyskiwania danych z Rejestru
+Sprawiedliw                       ogólnodostępne          Dokumentów Paszportowych.
+ości
+Pracownicy     ok. 20 tys. osób   Analiza własna          Konieczność realizacji dodatkowych
+referatów                                                 obowiązków wynikających z realizacji czynności
+ewidencji                                                 dotyczących wniosku o wymeldowanie
+ludności i                                                złożonego do organu dowolnej gminy oraz
+dowodów                                                   rejestracji danych parentyzacyjnych.
+osobistych
+5. Informacje na temat zakresu, czasu trwania i podsumowanie wyników konsultacji
+Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. z 2026 r. poz. 936) projekt został udostępniony w Biuletynie Informacji
+Publicznej na stronie podmiotowej Ministra Cyfryzacji. Ponadto zgodnie z § 52 ust. 1 uchwały nr 190 Rady
+Ministrów z dnia 29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2026 r. poz. 404)
+został udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum
+Legislacji w zakładce Rządowy Proces Legislacyjny.
+Projekt poddany został konsultacjom publicznym oraz opiniowaniu.
+W ramach konsultacji publicznych projekt otrzymały na 30 dni następujące podmioty:
+1) Fundacja ePaństwo;
+2) Fundacja Panoptykon;
+3) Ogólnopolskie Porozumienie Organizacji Samorządowych;
+4) Polska Izba Informatyki i Telekomunikacji;
+5) Rada do spraw Cyfryzacji;
+6) Stowarzyszenie Inspektorów Ochrony Danych Osobowych;
+7) Stowarzyszenie Sieć Obywatelska – Watchdog Polska;
+8) Stowarzyszenie Urzędników Stanu Cywilnego Rzeczypospolitej Polskiej.
+
+W ramach opiniowania projekt otrzymały na 21 dni następujące podmioty:
+1) Główny Urząd Statystyczny;
+2) Prezes Urzędu Ochrony Danych Osobowych;
+3) Prezes Urzędu Ochrony Konkurencji i Konsumentów.
+
+Zgodnie z ustawą z dnia 23 maja 1991 r. o związkach zawodowych (Dz. U. z 2026 r. poz. 549 i 1340) projekt
+został przekazany do opiniowania na 30 dni do następujących organizacji związków zawodowych:
+ 1) NSZZ „Solidarność”;
+
+
+                                                      3
+2) Ogólnopolskiego Porozumienia Związków Zawodowych;
+3) Forum Związków Zawodowych.
+
+Zgodnie z ustawą z dnia 23 maja 1991 r. o organizacjach pracodawców (Dz. U. z 2025 r. poz. 423) projekt
+został przekazany do opiniowania na 30 dni do następujących reprezentatywnych organizacji pracodawców:
+1) Konfederacji „Lewiatan”;
+2) Związku Rzemiosła Polskiego;
+3) Pracodawców Rzeczypospolitej Polskiej;
+4) Business Centre Club;
+5) Związku Przedsiębiorców i Pracodawców;
+6) Federacji Przedsiębiorców Polskich;
+7) Polskiego Towarzystwa Gospodarczego.
+
+Projekt został skierowany do Komisji Wspólnej Rządu i Samorządu Terytorialnego, Rady Działalności
+Pożytku Publicznego, Rady Dialogu Społecznego i Rady Dialogu z Młodym Pokoleniem w celu wydania
+opinii.
+6. Wpływ na sektor finansów publicznych
+(ceny stałe z                 Skutki w okresie 10 lat od wejścia w życie zmian [mln zł]
+2021 r.)
+                         0         1       2      3       4   5    6     7     8     9    10    Łącznie
+                                                                                                 (0-10)
+                                                                                                   0
+Dochody ogółem           0         0       0      0       0   0    0     0     0     0     0
+
+                                                                                                   0
+budżet państwa           0         0       0      0       0   0    0     0     0     0     0
+                         0         0       0      0       0   0    0     0     0     0     0       0
+JST
+pozostałe jednostki      0         0       0      0       0   0    0     0     0     0     0       0
+(oddzielnie)
+Wydatki ogółem           0        1,43     0      0       0   0    0     0     0     0     0      1,43
+
+budżet państwa           0        1,43     0      0       0   0    0     0     0     0     0      1,43
+
+JST                      0         0       0      0       0   0    0     0     0     0     0       0
+
+pozostałe jednostki
+(oddzielnie)             0         0       0      0       0   0    0     0     0     0     0       0
+
+                                                                                                 -1,43
+Saldo ogółem             0        -1,43    0      0       0   0    0     0     0     0     0
+                                                                                                 -1,43
+budżet państwa           0       1-1,43    0      0       0   0    0     0     0     0     0
+                         0         0       0      0       0   0    0     0     0     0     0       0
+JST
+pozostałe jednostki      0         0       0      0       0   0    0     0     0     0     0       0
+(oddzielnie)
+Źródła       Zadania wycenione na kwotę 1,43 mln zł zostaną sfinansowane z budżetu państwa z części
+finansowania 27 – Informatyzacja w ramach limitu środków.
+Dodatkowe    W zakresie prac przewidzianych do wykonania w 2027 r.:
+informacje,
+             1. koszty realizacji odmiejscowienia wymeldowania, rejestracji danych parentyzacyjnych
+w tym
+                przez urzędników referatów ewidencji ludności i dowodów osobistych, a także
+wskazanie
+                obowiązku gromadzenia w rejestrze PESEL informacji o rodzaju dokumentu podróży
+źródeł
+                lub dokumentu potwierdzającego tożsamość i obywatelstwo cudzoziemca oszacowano
+danych i
+                na 693 840 zł;
+przyjętych
+do obliczeń  2. wydatki związane z koniecznością dostosowania rejestru PESEL do obowiązku
+założeń         gromadzenia informacji o rodzaju dokumentu podróży lub dokumentu
+                potwierdzającego tożsamość i obywatelstwo cudzoziemca ustalono w kwocie 62 910 zł;
+
+
+                                                      4
+              3. wydatki dotyczące utworzenia usługi elektronicznej pozwalającej rozwiedzionemu
+                 małżonkowi na złożenie oświadczenia o powrocie do nazwiska noszonego przed
+                 zawarciem małżeństwa ustalono na kwotę 674 015 zł.
+               Wydatki na dostosowanie systemów teleinformatycznych po stronie Ministra Cyfryzacji
+               obejmują prace analityczne i wytwórcze po stronie systemu rejestrów państwowych oraz
+               uruchomienie funkcjonalności umożliwiających realizację czynności wskazanych w
+               projektowanych przepisach.
+               Proponowane rozwiązania nie będą miały wpływu na finansowanie zadań zleconych z
+               zakresu administracji rządowej i nie będą stanowiły podstawy do ubiegania się o dodatkowe
+               środki z budżetu państwa. Nie ma również konieczności aktualizacji katalogu i określonych
+               czasochłonności w odniesieniu do zadań zleconych z zakresu spraw obywatelskich.
+
+7. Wpływ na konkurencyjność gospodarki i przedsiębiorczość, w tym funkcjonowanie
+   przedsiębiorców, oraz na rodzinę, obywateli i gospodarstwa domowe
+                                                Skutki
+Czas w latach od wejścia     0     1       2      3          4         10          Łącznie (0-10)
+w życie zmian
+W ujęciu       duże          0     0       0       0         0     0                      0
+
+pieniężnym     przedsiębi
+(w mln zł,     orstwa
+               rodzina,      0     0       0       0         0     0                      0
+ceny stałe z
+…… r.)         obywatele
+               ,
+               gospodarst
+               wa
+               domowe,
+               osoby
+               niepełnos
+               prawne
+               oraz
+               osoby
+               starsze
+W ujęciu       duże         Brak wpływu.
+niepieniężny przedsiębi
+m              orstwa
+               sektor       Brak wpływu.
+               mikro-,
+               małych i
+               średnich
+               przedsiębi
+               orstw
+               rodzina,     Możliwość realizacji czynności z zakresu rejestracji stanu cywilnego online,
+               obywatele    zgłoszenia wymeldowania do organu dowolnej gminy oraz cofnięcia
+               oraz         zastrzeżenia numeru PESEL przez pełnomocnika.
+               gospo-
+               darstwa
+               domowe,
+               osoby
+               niepełno-
+               sprawne
+               oraz
+
+
+
+
+                                                    5
+               osoby
+               starsze
+               Obywatel
+               e
+Dodatkowe
+informacje,
+w tym
+wskazanie
+źródeł          -
+danych i
+przyjętych do
+obliczeń
+założeń
+ 8. Zmiana obciążeń regulacyjnych (w tym obowiązków informacyjnych) wynikających z projektu
+ nie dotyczy
+Wprowadzane są       tak
+obciążenia poza      nie
+bezwzględnie         nie dotyczy
+wymaganymi przez
+UE (szczegóły w
+odwróconej tabeli
+zgodności).
+ zmniejszenie          zwiększenie liczby dokumentów
+liczby                 zwiększenie liczby procedur
+dokumentów             wydłużenie czasu na załatwienie sprawy
+ zmniejszenie          inne:
+liczby procedur
+ skrócenie czasu na
+załatwienie sprawy
+ inne:
+Wprowadzane            tak
+obciążenia są          nie
+przystosowane do       nie dotyczy
+ich elektronizacji.
+Komentarz: Zwiększeniu ulegnie liczba obowiązków pracowników referatów ewidencji ludności i
+dowodów osobistych wynikająca z rejestracji danych parentyzacyjnych. W zakresie odmiejscowienia
+wymeldowania proces realizacji jest znany, stąd też nie będzie generował dodatkowych trudności, gdyż ci
+sami urzędnicy prowadzą tego rodzaju sprawy we właściwości organu gminy. Zmniejszy się liczba
+oświadczeń kierowanych do kierownika urzędu stanu cywilnego oraz konsula o powrocie do nazwiska
+noszonego przed zawarciem małżeństwa, co potencjalnie wpłynie na zmniejszenie obciążenia sprawami
+realizowanymi przez te osoby.
+9. Wpływ na rynek pracy
+Projekt nie ma wpływu na rynek pracy.
+10. Wpływ na pozostałe obszary
+ środowisko       demografia                informatyzacja
+naturalne         mienie państwowe          zdrowie
+ sytuacja i
+rozwój
+regionalny
+
+
+
+
+                                                    6
+ sądy
+powszechne,
+administracyj
+ne lub
+wojskowe
+ inne:
+Omówienie       Celem projektu jest elektronizacja procedur z zakresu rejestracji stanu cywilnego.
+wpływu
+
+11. Planowane wykonanie przepisów aktu prawnego
+Przepisy projektowanej ustawy wejdą w życie po upływie 14 dni od ich ogłoszenia, z wyjątkami określonymi
+w ustawie.
+12. W jaki sposób i kiedy nastąpi ewaluacja efektów projektu oraz jakie mierniki zostaną zastosowane?
+Zakłada się prowadzenie statystyk mających na celu zbadanie po roku: ilu rozwiedzionych małżonków, którzy
+wskutek zawarcia małżeństwa zmienili swoje dotychczasowe nazwisko, złożyło za pośrednictwem nowej usługi
+kierownikowi urzędu stanu cywilnego oświadczenia o powrocie do nazwiska, które nosili przed zawarciem
+małżeństwa. Ponadto sprawdzona zostanie ilość powiązań parentyzacyjnych w rejestrze PESEL, jakie
+utworzyli urzędnicy zajmujący się sprawami dotyczącymi ewidencji ludności i dowodów osobistych.
+13. Załączniki (istotne dokumenty źródłowe, badania, analizy itp.)
+Brak.
+
+
+
+
+                                                       7
+                                    RAPORT Z KONSULTACJI
+    dotyczący projektu ustawy o zmianie niektórych ustaw w związku z rozwojem rejestrów
+    publicznych prowadzonych z wykorzystaniem systemu rejestrów państwowych (UD337)
+
+
+1. Omówienie wyników przeprowadzanych konsultacji publicznych i opiniowania
+Projekt ustawy o zmianie niektórych ustaw w związku z rozwojem rejestrów publicznych
+prowadzonych z wykorzystaniem systemu rejestrów państwowych (UD337) został skierowany do
+konsultacji publicznych w dniu 3 stycznia 2026 r. z terminem 30 dni na zgłaszanie uwag. Do
+opiniowania projekt został przesłany również w dniu 3 stycznia 2026 r. Na zgłoszenie uwag wyznaczono
+natomiast termin 21 dni.
+Stosownie do postanowień art. 5 ustawy z dnia 7 lipca 2005 r. o działalności lobbingowej w procesie
+stanowienia prawa (Dz. U. z 2026 r. poz. 936) projekt został udostępniony w Biuletynie Informacji
+Publicznej Ministerstwa Cyfryzacji. Ponadto, zgodnie z § 52 ust. 1 uchwały nr 190 Rady Ministrów z dnia
+29 października 2013 r. – Regulamin pracy Rady Ministrów (M.P. z 2026 r. poz. 404), projekt został
+udostępniony w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum Legislacji
+w serwisie Rządowy Proces Legislacyjny.
+W ramach konsultacji publicznych projekt został skierowany do następujących podmiotów:
+    1. Fundacja ePaństwo;
+    2. Fundacja Panoptykon;
+    3. Ogólnopolskie Porozumienie Organizacji Samorządowych;
+    4. Polska Izba Informatyki i Telekomunikacji;
+    5. Rada do spraw Cyfryzacji;
+    6. Stowarzyszenie Inspektorów Ochrony Danych Osobowych;
+    7. Stowarzyszenie Sieć Obywatelska–Watchdog Polska;
+    8. Stowarzyszenie Urzędników Stanu Cywilnego Rzeczypospolitej Polskiej.
+W ramach opiniowania projekt skierowano do następujących podmiotów:
+    1. Prezes Głównego Urzędu Statystycznego;
+    2. Prezes Urzędu Ochrony Danych Osobowych;
+    3. Prezes Urzędu Ochrony Konkurencji i Konsumentów.
+2. Omówienie wyników przeprowadzonych konsultacji publicznych i opiniowania
+Szczegółowe uwagi zgłoszone do projektu ustawy przez podmioty w ramach konsultacji publicznych
+i opiniowania wraz ze stanowiskiem Ministra Cyfryzacji do zgłoszonych uwag znajdują się w tabelach
+uwag załączonych do niniejszego raportu. Tabele z uzgodnień, opiniowania i konsultacji publicznych
+zostały udostępnione w Biuletynie Informacji Publicznej na stronie podmiotowej Rządowego Centrum
+Legislacji w serwisie Rządowy Proces Legislacyjny.
+3. Przedstawienie wyników zasięgnięcia opinii, dokonania konsultacji albo uzgodnienia projektu
+z właściwymi organami i instytucjami Unii Europejskiej, w tym Europejskim Bankiem
+Centralnym
+Projekt nie wymaga przedłożenia instytucjom i organom Unii Europejskiej, w tym Europejskiemu
+Bankowi Centralnemu, w celu uzyskania opinii, dokonania powiadomienia, konsultacji albo
+uzgodnienia.
+4. Wskazanie podmiotów, które zgłosiły zainteresowanie pracami nad projektem w trybie
+przepisów o działalności lobbingowej w procesie stanowienia prawa wraz ze wskazaniem
+kolejności dokonania zgłoszeń albo informację o ich braku
+W toku prac nad projektem żaden podmiot nie zgłosił zainteresowania w trybie przepisów o działalności
+lobbingowej w procesie stanowienia prawa.
+                                                                            Tabela uwag
+zgłoszonych do projektu ustawy o zmianie niektórych ustaw w związku z rozwojem rejestrów publicznych prowadzonych z wykorzystaniem systemu rejestrów państwowych
+                                                                  w ramach konsultacji publicznych
+
+                      Jednostka
+          Podmiot     redakcyjna,
+lp.       wnoszący    do której         Zgłoszone uwagi                                                         Stanowisko
+          uwagi       wnoszone są
+                      uwagi
+      1. Rada do      art. 2 i art. 3   w art. 1 i art. 3 - zapisy dot. składania oświadczeń w sprawach         Uwaga wyjaśniona
+         Spraw                          rodzinnych i stanu cywilnego / dla zachowania jasności dla USC i        Proponowany przepis jest nadmiarowy, bowiem już z art. 26
+         Cyfryzacji                     archiwów państwowych                                                    ust. 3 ustawy - Prawo o aktach stanu cywilnego wynika
+                                        --> można dodać: „Oświadczenie złożone w formie elektronicznej          konieczność dołączenia takiego dokumentu sporządzonego
+                                        dołącza się do akt w postaci wydruku lub jako dokument                  w postaci elektronicznej do akt zbiorowych rejestracji stanu
+                                        elektroniczny w systemie teleinformatycznym.”;                          cywilnego gromadzonych w rejestrze stanu cywilnego.
+      2. Akademia     art. 2 pkt 1      W art. 2 pkt 1 zaproponowano, by w ustawie z dnia 24 września           Uwaga nieuwzględniona
+         WSB                            2010 r. o ewidencji ludności (Dz. U. z 2025 r. poz. 274, z późn. zm.)   Umieszczenie projektowanego przepisu jest zamierzone,
+                                        wprowadzić zmianę w art. 7 polegającą na dodaniu ust. 2 dodaje          ponieważ wprowadza on wykluczenie możliwości nadania
+                                        się ust. 2a w brzmieniu:                                                numeru PESEL na podstawie określonych przesłanek. Obecnie
+                                        „2a. Obowiązek podania numeru PESEL celem potwierdzenia                 art. 7 ust. 2 ustawy o ewidencji ludności stanowi, że
+                                        profilu zaufanego, o którym mowa w art. 3 pkt 14 ustawy z dnia 17       w rejestrze PESEL mogą być gromadzone dane osób
+                                        lutego 2005 r. o informatyzacji działalności podmiotów                  obowiązanych, na podstawie odrębnych przepisów, do
+                                        realizujących zadania publiczne, nie stanowi podstawy do nadania        posiadania numeru PESEL. Katalog tych przesłanek jest
+                                        numeru PESEL.”.                                                         otwarty. Ustawodawca zdecydował się zatem na dodanie
+                                        Przepis ten w istocie odnosi się do podstaw do nadania numeru           przepisu szczególnego, który a contrario daje podstawę do
+                                        PESEL, co powinno w mojej ocenie skłaniać do umieszczenia tej           odmowy nadania numeru PESEL, jeśli wnioskujący powołuje
+                                        regulacji w części dotyczącej zasad i trybu nadawania numeru            się wyłącznie na potrzebę posiadania numeru PESEL w celu
+                                        PESEL, czyli w rozdziale 3 zmienianej ustawy. Sugerowałbym, by          założenia profilu zaufanego.
+                                        proponowany przepis – jako ust. 2a – został dodany w art. 16 po
+                                        ust. 2 ustawy o ewidencji ludności.
+      3. Rada do      art. 5            w art. 5 - nadaje się sądom dostęp do wymienionych rejestrów bez        Uwaga uwzględniona
+         Spraw                          konieczności składania wniosków / rodzi się tutaj jednak pytanie:       Projektodawca zrezygnował z proponowanej regulacji.
+         Cyfryzacji                     czy np. dostęp do odpisów aktów stanu cywilnego ma być używany
+                                        również do doręczeń elektronicznych, czy tylko do pobierania
+                                        danych?
+                                        --> można doprecyzować: „Dane udostępniane sądom mogą być
+                                        wykorzystywane w prowadzonych postępowaniach również w
+                                        zakresie realizacji doręczeń elektronicznych.”
+      4. Obywatel     Uwaga             wnoszę o dodanie do procedowanego projektu ustawy zapisu                Uwaga nieuwzględniona
+                      ogólna            umożliwiającego przekazywanie za pośrednictwem systemu
+                         teletransmisji : daty zgonu klientów na zasadzie subskrypcji lub w    Projektodawca obecnie nie planuje tego rodzaju zmian,
+                         prostszym zakresie przekazywanie tejże daty w systemie PESEL,         ponieważ wymaga to przeprowadzenia i sfinansowania prac
+                         który aktualnie potwierdza jedynie fakt zgonu, a nie jego datę.       mających na celu dostosowanie systemów
+                         Powyższe powinno zostać udostępnione Podmiotom, o których             teleinformatycznych do możliwości udostępniania danych
+                         mowa w art. 4 ust. 1 pkt 1, 17, 18 i 20 ustawy z dnia 29 sierpnia     w tym trybie. Tego rodzaju wydatki i prace nie są obecnie
+                         1997 r. – Prawo bankowe, spółdzielczym kasom oszczędnościowo-         zaplanowane, podobnie jak wydatki na ich realizację.
+                         kredytowym, Krajowej Spółdzielczej Kasie Oszczędnościowo - -
+                         Kredytowej, firmom inwestycyjnym, o których mowa w art. 3 pkt
+                         33 ustawy z dnia 29 lipca 2005 r. o obrocie instrumentami
+                         finansowymi (Dz. U. z 2024 r. poz. 722 i 1863 oraz z 2025 r. poz.
+                         146, 820 i 923), lub towarzystwom funduszy inwestycyjnych, o
+                         których mowa w art. 2 pkt 3 ustawy z dnia 27 maja 2004 r. o
+                         funduszach inwestycyjnych i zarządzaniu alternatywnymi
+                         funduszami inwestycyjnymi (Dz. U. z 2024 r. poz. 1034 i 1863 oraz z
+                         2025 r. poz. 146, 820 i 935. Rozwiązanie to nie jest skomplikowane
+                         technicznie i jest możliwe do wdrożenia, a znacząco przyspieszy
+                         procedury, w których data zgonu jest kluczowa pod kątem
+                         rozpoczęcia działań, jak również przyspieszy/umożliwi przekazane
+                         środków na rzecz Skarbu Państwa w określonych ustawą
+                         przypadkach.
+5. Rada do      Uwaga    projekt dot. wielu rejestrów, natomiast pomijany jest rejestr z SI    Uwaga nieuwzględniona
+   Spraw        ogólna   CEPiK (dostęp ma Minister ds. Cyfryzacji) / w projekcie mowa o        Zagadnienia dotyczące Centralnej Ewidencji Pojazdów
+   Cyfryzacji            Ministrze Sprawiedliwości, zatem może to pominięcie jest celowe       i Centralnej Ewidencji Kierowców, w tym zasady pozyskiwania
+                         --> natomiast może warto dodać przepis o odesłaniu ogólnym: "że       dostępu do danych z tych systemów, są uregulowane w
+                         ustawa nie narusza zasad udostępniania danych z CEP i CEK".           ustawie z dnia 20 czerwca 1997 r. - Prawo o ruchu drogowym.
+                                                                                               Niniejszy projekt dotyczy innych niż ww. rejestrów.
+
+
+
+
+                                                                     2
+                                                                            Tabela uwag
+zgłoszonych do projektu ustawy o zmianie niektórych ustaw w związku z rozwojem rejestrów publicznych prowadzonych z wykorzystaniem systemu rejestrów państwowych
+                                                                        w ramach opiniowania
+
+                     Jednostka
+           Podmiot   redakcyjna
+lp.        wnosząc   , do której   Zgłoszone uwagi                                                                                 Stanowisko
+           y uwagi   wnoszone
+                     są uwagi
+      1.   UODO      art. 5        Nowy model przetwarzania danych osobowych z rejestrów publicznych przez sądy i Ministra         Uwaga uwzględniona
+                                   Sprawiedliwości.                                                                                W związku z istotnymi wątpliwościami
+                                                                                                                                   zgłoszonymi przez Prezesa Urzędu
+                                   1. Zgodnie z projektowanym art. 5 ust. 1 dane z rejestrów: rejestru PESEL, Rejestru Dowodów     Ochrony Danych Osobowych,
+                                   Osobistych, rejestru stanu cywilnego, rejestru danych kontaktowych osób fizycznych oraz         projektodawca zdecydował o usunięciu
+                                   Rejestru Dokumentów Paszportowych, do których Minister Sprawiedliwości posiada dostęp za        tego przepisu z projektu i zaprzestaniu
+                                   pomocą urządzeń teletransmisji danych, na podstawie przepisów odrębnych, mogą być               dalszych prac w tym zakresie. Proces
+                                   udostępniane sądom do realizacji ich zadań ustawowych z wykorzystaniem systemu                  pozyskiwania przez sądy dostępu do
+                                   teleinformatycznego, którego administratorem jest Minister Sprawiedliwości. W ust. 2 ww.        danych z rejestru PESEL, Rejestru
+                                   przepisu wskazano, że uzyskanie dostępu do rejestrów publicznych w ww. trybie ma nie            Dowodów Osobistych, rejestru stanu
+                                   wymagać złożenia przez sąd wniosku do ministra właściwego do spraw informatyzacji o             cywilnego, rejestru danych
+                                   udostępnienie danych za pomocą urządzeń teletransmisji danych. W uzasadnieniu do projektu       kontaktowych osób fizycznych oraz
+                                   – niestety jednie w sposób ogólny – wskazano na konsekwencje projektowanego rozwiązania         Rejestru Dokumentów Paszportowych
+                                   podkreślając, że: „ponieważ liczba sądów powszechnych w skali całego kraju wynosi obecnie       nie zostanie zmodyfikowany. Każdy sąd
+                                   377 jednostek, to dzięki wprowadzanej regulacji nie będzie potrzeby wydawania kilkuset zgód     będzie zatem musiał skierować do
+                                   na dostęp do danych z powyższych rejestrów.”.                                                   ministra właściwego do spraw
+                                   Prezes Urzędu Ochrony Danych Osobowych nie kwestionuje, że projektowane rozwiązania             informatyzacji oddzielny wniosek
+                                   mają i powinny usprawnić dostęp do rejestrów publicznych dla sądów i w dużej części wiążą się   o udostępnienie danych za pomocą
+                                   z przetwarzaniem danych osobowych dla orzekania o prawach 16.                                   urządzeń teletransmisji do realizacji
+                                   Niezwykle istotne jest jednak to, że rozwiązania te zasadniczo zmieniają dotychczasowy          zadań ustawowych.
+                                   model pozyskiwania danych osobowych przez sądy. Dostęp do danych osobowych z rejestrów
+                                   publicznych za pośrednictwem systemów teleinformatycznych w formie teletransmisji
+                                   generuje bowiem wiele ryzyk, związanych w szczególności z koniecznością zachowania
+                                   poufności i integralności tych danych, a także cyberbezpieczeństwa. Bezpieczeństwo to
+                                   obejmuje dobra nie tylko poszczególnych osób, których dane dotyczą, systemu wymiaru
+                                   sprawiedliwości, ale także bezpieczeństwa państwa. Wprowadzenie rozwiązania, zgodnie z
+                                   którym wszystkie sądy w Polsce na podstawie jedynie blankietowego sformułowania w
+                                   postaci „realizacji ich zadań ustawowych” mogą w bliżej niesprecyzowany i nieograniczony
+                                   sposób, w formie teletransmisji pozyskiwać dane osobowe z rejestrów publicznych, wymaga
+                                   głębokiej analizy i refleksji oraz wprowadzenia odpowiednich procedur uwzględniających i
+zabezpieczających możliwe ryzyka dla przetwarzania danych osobowych w projektowany
+sposób.
+Dla oceny zaproponowanych w projekcie rozwiązań duże znaczenie powinna mieć treść
+motywu 31 rozporządzenia 2016/679, zdanie drugie w brzmieniu: „Żądanie ujawnienia danych
+osobowych, z którym występują takie organy publiczne, powinno zawsze mieć formę pisemną,
+być uzasadnione, mieć charakter wyjątkowy, nie powinno dotyczyć całego zbioru danych ani
+prowadzić do połączenia zbiorów danych.”. Przetwarzając otrzymane dane osobowe, takie
+organy powinny przestrzegać mających zastosowanie przepisów o ochronie danych, zgodnie z
+celami przetwarzania. Warto wskazać również na wyrok TSUE w sprawie C-201/142 Smaranda
+Bara, z którego treści można wywieść, że odrębne organy w ramach administracji publicznej
+należy traktować jako odrębnych administratorów z własnymi przesłankami, co w
+konsekwencji oznacza, że organ któremu w ramach administracji przekazuje się dane osobowe
+jest odbiorcą.
+Udostępnianie sądom w drodze teletransmisji dostępu do prowadzonych rejestrów nie znosi
+odpowiedzialności administratorów zgromadzonych w nich danych osobowych za legalność,
+celowość i proporcjonalność przetwarzania danych osobowych. Projektodawca bez
+uzasadnienia takiego rozwiązania likwiduje również konieczność złożenia przez sądy wniosku
+do ministra właściwego do spraw informatyzacji o udostępnienie danych z rejestrów
+publicznych za pomocą urządzeń teletransmisji danych, która to procedura co najmniej
+ograniczała do tej pory, choć nie wyłączała całkowicie ryzyka związanego z przetwarzaniem
+danych w taki sposób. W istocie więc projektowane rozwiązanie wprowadza pozyskiwanie
+danych osobowych poza trybami przewidzianymi w przepisach poszczególnych ustaw za
+pośrednictwem Ministerstwa Sprawiedliwości, z pominięciem ustawowych gwarancji 18, które
+tryby te przewidują.
+
+2. Jako mocno kontrowersyjne ocenić należy rozwiązanie, zgodnie z którym dane pozyskane z
+rejestrów nie będą przekazywane bezpośrednio sądom, lecz będą przetwarzane przez system
+teleinformatyczny, którego administratorem ma być rządowy organ administracji publicznej
+(Minister Sprawiedliwości). W istocie więc poprzez rozwiązanie pozornie mające charakter
+jedynie techniczny oraz bez wskazania w przepisach prawa jaki cel realizowany jest w ten
+sposób przez ministra, prawodawca stwarza możliwość, aby organ administracji publicznej
+(władza wykonawcza) mógł decydować o celach i sposobach przetwarzania danych osobowych
+pozyskiwanych dla celów realizowanych przez sądy (władza sądownicza). Dane te będą
+bowiem przetwarzane w systemie teleinformatycznym prowadzonym przez Ministra
+Sprawiedliwości, w którym organ ten będzie pełnił rolę administratora w rozumieniu
+przepisów rozporządzenia 2016/679.
+W związku z przekazywaniem z rejestrów publicznych sądom danych osobowych za
+pośrednictwem systemu teleinformatycznego, którego administratorem jest Minister
+Sprawiedliwości należy mieć na uwadze szereg ryzyk. Jednym z nich są zmiany celów
+przetwarzania tych danych. Zmiany takie – zgodnie z art. 6 ust. 4 rozporządzenia 2016/67919 –
+                                                  2
+mogą zachodzić jedynie na podstawie prawa państwa członkowskiego stanowiącego w
+demokratycznym społeczeństwie niezbędny i proporcjonalny środek służący zagwarantowaniu
+jedynie celów, o których mowa w art. 23 ust. 1 rozporządzenia 2016/67920 oraz powinny być
+wprowadzone z uwzględnieniem zasad i warunków z tego przepisu wynikających. Rozwiązanie
+to budzi również wątpliwości w świetle zasady praworządności wynikającej z art. 7 Konstytucji
+Rzeczypospolitej Polskiej.
+Tymczasem projektodawca nie określa w tworzonych przepisach w jakich celach i w jakim
+zakresie Minister Sprawiedliwości będzie przetwarzał dane pozyskane z rejestrów
+publicznych w administrowanym systemie teleinformatycznym. W przepisach brak jest nie
+tylko jakichkolwiek rozwiązań określających sposoby przetwarzania, a także niezbędne
+kryteria zapewnienia bezpieczeństwa danych osobowych w tym systemie, co pozostaje w
+sprzeczności z zasadą integralności i poufności (art. 5 ust. 1 lit. f) i rozliczalności (art. 5 ust. 2
+rozporządzenia 2016/679), ale również brak jest jakiegokolwiek zastrzeżenia, co do celu
+działań Ministra Sprawiedliwości, to jest jego roli w procesach przetwarzania danych, które
+są niezbędne sądom dla orzekania o prawach. Tak istotne rozwiązanie, jak dopuszczenie
+Ministra Sprawiedliwości do tak szerokiego dostępu do danych i swoistego „pośrednictwa” w
+pozyskiwaniu danych niezbędnych sądom dla orzekania o prawach i obowiązkach, nie znajduje
+uzasadnienia w lakonicznym stwierdzeniu, że: „ponieważ liczba sądów powszechnych w skali
+całego kraju wynosi obecnie 377 jednostek, to dzięki wprowadzanej regulacji nie będzie
+potrzeby wydawania kilkuset zgód na dostęp do danych z powyższych rejestrów.”.
+Z projektu tego nie wynika również jednoznaczne ograniczenie co do tego czy potencjalnie
+inne organy oprócz Ministra Sprawiedliwości, a jeżeli tak to w jakich celach, miałyby dostęp
+do wskazanego w art. 5 projektu systemu teleinformatycznego, a tym samym do danych
+osobowych. Wbrew zasadzie ograniczenia przechowania (art. 5 ust. 1 lit. e rozporządzenia
+2016/679) w przepisach nie określono też okresu usuwania danych osobowych z tego
+systemu.
+W obecnym kształcie projektowany art. 5 uznać należy jako niezgodny z zasadami
+dotyczącymi przetwarzania danych osobowych: zgodności z prawem, rzetelności i
+przejrzystości (art. 5 ust. 1 lit. a), ograniczenia celu (art. 5 ust. 1 lit. b), minimalizacji danych
+(art. 5 ust. 1 lit. c), integralności i poufności (art. 5 ust. 1 lit. f), ograniczenia przechowania oraz
+rozliczalności (art. 5 ust. 2 rozporządzenia 2016/679). Przepis ten wymaga modyfikacji
+uwzględniającej wyżej wskazane zastrzeżenia, w tym co do spełnienia warunków określonych
+w art. 23 rozporządzenia 2016/679.
+A zatem – celem uniknięcia ryzyka łączenia zbiorów danych lub też przekazywania danych
+niezgodnie z celami oraz innych zagrożeń dla tych danych, w tym dla doprecyzowania
+rzeczywistej roli Ministra Sprawiedliwości dla realizacji ratio legis projektowanych przepisów –
+projektodawca powinien rozważyć wprowadzenie rozwiązań, które służyć będą zakładanemu
+celowi, tj. przyczynią się do usprawnienia procesów przetwarzania danych przez sądy w
+ramach ich działalności orzeczniczej, ale jednocześnie ograniczą wyżej wskazane ryzyka
+
+                                                        3
+związane z tym przetwarzaniem, a także zapewnią administratorom tych rejestrów realną
+kontrolę nad tym procesami przetwarzania wynikającymi z ich statusu.
+Prezes Urzędu Ochrony Danych Osobowych zwracał już uwagę w swoich opiniach
+legislacyjnych22 na aspekt przetwarzania danych osobowych przez sądy w trybie teletransmisji
+pod kątem stworzenia dodatkowych gwarancji normatywnych w związku z koniecznością
+realizacji zasady rozliczalności przez administratora udostępniającego dane. Stanowisko
+organu nadzorczego co do tworzenia prawidłowych rozwiązań w zakresie przetwarzania przez
+sądy danych osobowych w systemach teleinformatycznych zostało również przedstawiane w
+ramach opiniowania projektu informatycznego „Cyfrowy Sąd” w trakcie prac Komitetu Rady
+Ministrów do spraw Cyfryzacji23.
+
+16
+   Zgodnie z motywem 20 rozporządzenia 2016/679 „Niniejsze rozporządzenie ma
+zastosowanie między innymi do działań sądów i innych organów wymiaru sprawiedliwości,
+niemniej prawo Unii lub prawo państwa członkowskiego może doprecyzować operacje i
+procedury przetwarzania danych osobowych przez sądy i inne organy wymiaru
+sprawiedliwości. Właściwość organów nadzorczych nie powinna dotyczyć przetwarzania
+danych osobowych przez sądy w ramach sprawowania wymiaru sprawiedliwości - tak by
+chronić niezawisłość sprawowania wymiaru sprawiedliwości. Powinna istnieć możliwość
+powierzenia nadzoru nad takimi operacjami przetwarzania danych specjalnym organom w
+systemie wymiaru sprawiedliwości państwa członkowskiego, organy te powinny w
+szczególności zapewnić przestrzeganie przepisów niniejszego rozporządzenia, zwiększać w
+wymiarze sprawiedliwości wiedzę o jego obowiązkach wynikających z niniejszego
+rozporządzenia oraz rozpatrywać skargi związane z takim operacjami przetwarzania danych.”.
+18
+   Wskazane gwarancje zakładają, weryfikację czy podmiot, który ma korzystać z trybu
+teletransmisji posiada: urządzenia lub systemy teleinformatyczne umożliwiające identyfikację
+osoby uzyskującej dane z rejestru, zakres oraz datę ich uzyskania; zabezpieczenia techniczne i
+organizacyjne właściwe dla przetwarzania danych osobowych, w szczególności
+uniemożliwiające dostęp osób nieuprawnionych do przetwarzania danych osobowych i
+wykorzystanie danych niezgodnie z celem ich uzyskania; a uzyskanie danych drogą
+teletransmisji jest uzasadnione specyfiką lub zakresem wykonywanych zadań albo
+prowadzonej działalności.
+19
+   Zgodnie z art.. 6 ust. 4 rozporządzenia 2016/679 jeżeli przetwarzanie w celu innym niż cel, w
+którym dane osobowe zostały zebrane, nie odbywa się na podstawie zgody osoby, której dane
+dotyczą, ani prawa Unii lub prawa państwa członkowskiego stanowiących w demokratycznym
+społeczeństwie niezbędny i proporcjonalny środek służący zagwarantowaniu celów, o których
+mowa w art. 23 ust. 1, administrator - aby ustalić, czy przetwarzanie w innym celu jest zgodne
+z celem, w którym dane osobowe zostały pierwotnie zebrane - bierze pod uwagę między
+innymi: a) wszelkie związki między celami, w których zebrano dane osobowe, a celami
+zamierzonego dalszego przetwarzania; b) kontekst, w którym zebrano dane osobowe, w
+szczególności relację między osobami, których dane dotyczą, a administratorem; c) charakter
+                                                    4
+                     danych osobowych, w szczególności czy przetwarzane są szczególne kategorie danych
+                     osobowych zgodnie z art. 9 lub dane osobowe dotyczące wyroków skazujących i czynów
+                     zabronionych zgodnie z art. 10; d) ewentualne konsekwencje zamierzonego dalszego
+                     przetwarzania dla osób, których dane dotyczą; e) istnienie odpowiednich zabezpieczeń, w tym
+                     ewentualnie szyfrowania lub pseudonimizacji.
+                     20
+                        Zgodnie z art 23 ust. 1 rozporządzenia 2016/679 Prawo Unii lub prawo państwa
+                     członkowskiego, któremu podlegają administrator danych lub podmiot przetwarzający, może
+                     aktem prawnym ograniczyć zakres obowiązków i praw przewidzianych w art. 12-22 i w art. 34,
+                     a także w art. 5 - o ile jego przepisy odpowiadają prawom i obowiązkom przewidzianym w art.
+                     12-22 - jeżeli ograniczenie takie nie narusza istoty podstawowych praw i wolności oraz jest w
+                     demokratycznym społeczeństwie środkiem niezbędnym i proporcjonalnym, służącym: a)
+                     bezpieczeństwu narodowemu; b) obronie; c) bezpieczeństwu publicznemu; d) zapobieganiu
+                     przestępczości, prowadzeniu postępowań przygotowawczych, wykrywaniu lub ściganiu czynów
+                     zabronionych lub wykonywaniu kar, w tym ochronie przed zagrożeniami dla bezpieczeństwa
+                     publicznego i zapobieganiu takim zagrożeniom; e) innym ważnym celom leżącym w ogólnym
+                     interesie publicznym Unii lub państwa członkowskiego, w szczególności ważnemu interesowi
+                     gospodarczemu lub finansowemu Unii lub państwa członkowskiego, w tym kwestiom
+                     pieniężnym, budżetowym i podatkowym, zdrowiu publicznemu i zabezpieczeniu społecznemu;
+                     f) ochronie niezależności sądów i postępowania sądowego; g) zapobieganiu naruszeniom zasad
+                     etyki w zawodach regulowanych, prowadzeniu postępowań w takich sprawach, ich
+                     wykrywaniu oraz ściganiu; h) funkcjom kontrolnym, inspekcyjnym lub regulacyjnym
+                     związanym, nawet sporadycznie, ze sprawowaniem władzy publicznej w przypadkach, o
+                     których mowa w lit. a) - e) oraz g); i) ochronie osoby, której dane dotyczą, lub praw i wolności
+                     innych osób; j) egzekucji roszczeń cywilnoprawnych.
+                     22
+                        Zob. Stanowiska Prezesa Urzędu Ochrony Danych do rządowego projektu ustawy o zmianie
+                     ustawy – Kodeks cywilny oraz niektórych innych ustaw (druk senacki nr 1009, druki sejmowe
+                     nr 2977, 3028 i 3028-A), Pisma: z 13 stycznia 2022 r.; 22 kwietnia 2022 r.; 11 maja 2022 r.; 21
+                     czerwca 2022 r.; 6 lipca 2026 r. (DOL.401.605.2021.WL.OJ).
+                     23
+                        Zob. Pismo Prezesa Urzędu Ochrony Danych Osobowych z 25 marca 2025 r. dotyczące opisu
+                     założeń projektu informatycznego „Cyfrowy Sąd” (DPNT.060.28.2025.WL.OJ).
+2.   UODO   Uwaga    Jak wskazano w uzasadnieniu do projektu, „celem projektowanej ustawy jest wprowadzenie             Uwaga uwzględniona
+            ogólna   podstaw prawnych dla funkcjonowania rozwiązań usprawniających oraz rozwijających                   W związku z istotnymi wątpliwościami
+                     funkcjonowanie rejestru PESEL, rejestru stanu cywilnego oraz Rejestru Dokumentów                   zgłoszonymi przez Prezesa Urzędu
+                     Paszportowych.”. By zrealizować wskazany cel projektodawca wprowadza zmiany w ustawie z            Ochrony Danych Osobowych,
+                     dnia 25 lutego 1964 r. – Kodeks rodzinny i opiekuńczy, ustawie z dnia 24 września 2010 r. o        projektodawca zdecydował o usunięciu
+                     ewidencji ludności, w ustawie z dnia 27 stycznia 2022 r. o dokumentach paszportowych, w            przepisu art. 5 z projektu i zaprzestaniu
+                     ustawie z dnia 28 listopada 2014 r. – Prawo o aktach stanu cywilnego oraz w art. 5 projektu        dalszych prac w tym zakresie.
+                     określa procedurę udostepnienia sądom szeregu danych osobowych przetwarzanych w
+                     rejestrach publicznych.
+
+                                                                        5
+Nowelizując wskazane akty prawne i art. 5 projektu ustawodawca zawarł w projekcie
+propozycje przepisów:
+1) wprowadzających podstawy prawne dla wdrożenia nowej usługi administracji publicznej,
+realizowanej z wykorzystaniem usługi elektronicznej dostępnej po uwierzytelnieniu
+użytkownika, pozwalającej rozwiedzionemu małżonkowi, który wskutek zawarcia małżeństwa
+zmienił swoje dotychczasowe nazwisko, na złożenie kierownikowi urzędu stanu cywilnego
+oświadczenia o powrocie do nazwiska, które osoba ta nosiła przed zawarciem małżeństwa;
+2) wprowadzających podstawę prawną do ograniczenia nadawania numeru PESEL
+cudzoziemcom, którzy jako podstawę prawną do nadania numeru PESEL wskazali konieczność
+potwierdzenia profilu zaufanego;
+3) wprowadzających odmiejscowienie wymeldowania; wymeldowanie będzie mogło zostać
+odnotowane przez organ dowolnej gminy, a nie tak jak obecnie przez organ gminy właściwy
+dla dotychczasowego miejsca pobytu;
+4) umożliwiających rejestrację danych parentyzacyjnych także przez urzędników referatów
+ewidencji ludności i dowodów osobistych, którzy będą mogli rejestrować powiązania
+parentyzacyjne przy okazji obsługi innych spraw i zdarzeń dotyczących osoby;
+5) wprowadzających obowiązek gromadzenia w rejestrze PESEL informacji o rodzaju
+dokumentu podróży lub dokumentu potwierdzającego tożsamość i obywatelstwo
+cudzoziemca;
+6) umożliwienie sądom korzystania z dostępu do danych z rejestru PESEL, Rejestru
+Dokumentów Paszportowych, Rejestru Dowodów Osobistych, rejestru stanu cywilnego (w tym
+pobierania odpisów skróconych aktów stanu cywilnego za pomocą usług sieciowych) oraz
+rejestru danych kontaktowych osób fizycznych na podstawie zgód wydanych na podstawie
+odrębnych przepisów Ministrowi Sprawiedliwości bez konieczności odrębnego wnioskowania
+przez każdy sąd o dostęp do ww. rejestrów, co jak wskazano w Ocenie Skutków Regulacji
+projektu ma przyspieszyć proces informatyzacji wymiaru sprawiedliwości przez zapewnienie
+dostępu do rejestrów z wykorzystaniem systemu Ministra Sprawiedliwości.
+Zmiana przepisów jest znacząca. Projektowane przepisy w ogromnym zakresie zmieniają
+sposób przetwarzania danych osobowych w rejestrach publicznych. Na konieczność
+stanowienia odpowiednich rozwiązań mających zapewnić bezpieczeństwo i zgodność
+przetwarzanych danych osobowych w rejestrach publicznych organ nadzorczy zwracał uwagę
+w wystąpieniu z 29 października 2025 r. dotyczącym konieczności przeglądu przepisów prawa
+regulujących przetwarzanie danych osobowych w rejestrach publicznych skierowanym do
+Ministra Cyfryzacji8. Istotne jest zatem, aby projektodawca ponownie przeanalizował
+projektowane rozwiązania, wziąwszy jednak pod uwagę przedstawione w ww. wystąpieniu
+zagadnienia, szczególnie w kontekście projektowanej procedury pozyskiwania przez sądy z
+rejestrów publicznych danych osobowych przy wykorzystaniu „systemu teleinformatycznego
+Ministra Sprawiedliwości”. Powyższe zagadnienie projektodawca powinien rozważyć w
+szczególności pod kątem wskazanych w wystąpieniu ryzyk łączenia baz danych, a także
+
+                                                6
+                     sprzecznych z przepisami rozporządzenia 2016/679 zmian celów przetwarzania danych
+                     osobowych, które pierwotnie były pozyskiwane do rejestrów publicznych w innych celach.
+
+                     8
+                       Wystąpienie Prezesa Urzędu Ochrony Danych Osobowych na podstawie art. 52 ust. 2 ustawy
+                     z dnia 10 maja 2018 r. o ochronie danych osobowych z 29 października 2025 r. (sygn.)
+                     DOL.413.11.2024.WL.OJ skierowane do Pana Krzysztof Gawkowskiego Wiceprezesa Rady
+                     Ministrów, Ministra Cyfryzacji dotyczące przeglądu przepisów prawa regulujących
+                     przetwarzanie danych osobowych w rejestrach publicznych, dalej: Wystąpienie dotyczące
+                     przeglądu przepisów prawa regulujących przetwarzanie danych osobowych w rejestrach
+                     publicznych z 29 października 2025 r., zob. https://uodo.gov.pl/pl/138/3968.
+3.   UODO   Uwaga    Test prywatności.                                                                               Uwaga uwzględniona
+            ogólna   Analiza projektowanych przepisów wskazuje, że dla ich realizacji będą przetwarzane w            W związku z istotnymi wątpliwościami
+                     znacznej ilości oraz na wielką skalę – w tym z użyciem nowych technologii (pozyskiwane z        zgłoszonymi przez Prezesa Urzędu
+                     rejestrów publicznych za pomocą urządzeń teletransmisji danych) – dane osobowe podmiotów        Ochrony Danych Osobowych,
+                     danych będących osobami fizycznymi przetwarzane w wielu rejestrach: PESEL (1), Dowodów          projektodawca zdecydował o usunięciu
+                     Osobistych (2), stanu cywilnego (3), danych kontaktowych osób fizycznych (4) oraz               tego przepisu z projektu i zaprzestaniu
+                     Dokumentów Paszportowych (5), a także w systemie teleinformatycznym prowadzonym przez           dalszych prac w tym zakresie.
+                     Ministra Sprawiedliwości (6).
+                     Będą to zarówno tzw. dane zwykłe, mogące jednak dotyczyć szczególnie wrażliwych dla
+                     prywatności i istotnej życiowo problematyki spraw sądowych (m.in. dane dotyczące np.
+                     spraw rozwodowych, ustalenia ojcostwa, etc.), jak i dane wprost w przepisach prawa
+                     określone jako szczególne kategorie danych objęte ochroną na postawie art. 9 ust. 1
+                     rozporządzenia 2016/6799, np. dane biometryczne (odciski palców10, fotografie twarzy).
+                     Projektowane zmiany – w związku z pozyskiwaniem przez sądy danych z rejestrów publicznych
+                     – będą powodować również przetwarzanie danych podlegających wzmocnionemu reżimowi
+                     ochrony w rozumieniu art. 10 rozporządzenia 2016/67911 (np. jeżeli w systemie
+                     teleinformatycznym Ministerstwa Sprawiedliwości będą przetwarzane przykładowo informacje
+                     co do tego, że sąd penitencjarny pobiera np. dane z bazy PESEL konkretnej osoby).
+                     Oprócz ww. danych, na podstawie projektowanych rozwiązań będą przetwarzane numery
+                     PESEL, stanowiące krajowy numer identyfikacyjny zgodnie z art. 87 rozporządzenia 2016/679 12,
+                     którego przetwarzanie podlega wzmocnionej ochronie prawnej. To oznacza, że przetwarzanie
+                     danych powinno być nie tylko zgodne ze standardami i zasadami dotyczącymi przetwarzania
+                     danych osobowych ukształtowanymi mocą art. 5 rozporządzenia 2016/679 13, ale i objęte
+                     testem prywatności wraz z oceną skutków dla ochrony danych (art. 2514 i 35 ust. 115
+                     rozporządzenia 2016/679). Pozwoliłoby to m.in. zbadać, ale i przyjąć takie rozwiązania, aby
+                     projektowane przepisy – zgodnie z art. 6 ust. 3 z rozporządzenia 2016/679 – były
+                     proporcjonalne i zawierały gwarancje odpowiednie do ratio legis projektu. Istotne jest zatem,
+                     aby projektowane przepisy zapewniły stosowanie norm ogólnego rozporządzenia o ochronie
+                     danych dla realizacji proponowanych rozwiązań i były przeanalizowane z uwzględnieniem
+                     ryzyk towarzyszących operacjom przetwarzania takich danych osobowych, bez obniżenia
+                                                                       7
+wymaganych standardów, a tym samym zapewniały gwarancje wynikające z przepisów
+dotyczących przetwarzania danych osobowych, m.in. co do realizacji praw i wolności osób,
+których dane dotyczą (podmiotów danych). Szczególną uwagą projektodawcy powinny być
+objęte sposób przetwarzania danych osobowych pozyskiwanych przez sądy w trybie
+teletransmisji z rejestrów publicznych, a także przetwarzanie tych danych w systemie
+teleinformatycznym przez Ministra Sprawiedliwości. Projektodawca powinien bowiem ocenić
+czy projektowane rozwiązania ustawy nie powinny zostać rozbudowane tak by w pełni
+realizowały zasady ochrony danych osobowych (art. 5 rozporządzenia 2016/679), a także
+zawierały rozwiązania gwarantujące środki ochrony praw i wolności osób, których dane
+dotyczą.
+
+9
+  Zgodnie z art. 9 ust. 1 rozporządzenia 2016/679 zabrania się przetwarzania danych
+osobowych ujawniających pochodzenie rasowe lub etniczne, poglądy polityczne, przekonania
+religijne lub światopoglądowe, przynależność do związków zawodowych oraz przetwarzania
+danych genetycznych, danych biometrycznych w celu jednoznacznego zidentyfikowania osoby
+fizycznej lub danych dotyczących zdrowia, seksualności lub orientacji seksualnej tej osoby.
+10
+   Zgodnie z § 4 ust 5 rozporządzenia Ministra Cyfryzacji z dnia 15 października 2021 r. w
+sprawie prowadzenia Rejestru Dowodów Osobistych (Dz. U. poz. 1903) dane biometryczne w
+zakresie odcisków palców gromadzone w RDO mogą być przetwarzane w postaci
+niezaszyfrowanej w trakcie procesu ich pobierania oraz personalizacji dowodu osobistego.
+11
+   Zgodnie z art. 10 rozporządzenia 2016/679 przetwarzania danych osobowych dotyczących
+wyroków skazujących oraz czynów zabronionych lub powiązanych środków bezpieczeństwa na
+podstawie art. 6 ust. 1 wolno dokonywać wyłącznie pod nadzorem władz publicznych lub jeżeli
+przetwarzanie jest dozwolone prawem Unii lub prawem państwa członkowskiego
+przewidującymi odpowiednie zabezpieczenia praw i wolności osób, których dane dotyczą.
+Wszelkie kompletne rejestry wyroków skazujących są prowadzone wyłącznie pod nadzorem
+władz publicznych.
+12
+   Państwa członkowskie mogą określić szczególne warunki przetwarzania krajowego numeru
+identyfikacyjnego lub innego identyfikatora o zasięgu ogólnym. W takim przypadku krajowego
+numeru identyfikacyjnego lub innego identyfikatora o zasięgu ogólnym używa się wyłącznie z
+zachowaniem odpowiednich zabezpieczeń praw i wolności osoby, której dane dotyczą, które
+przewiduje niniejsze rozporządzenie.
+13
+   Zgodnie z art. 5 ust. 1 rozporządzenia 2016/679 dane osobowe muszą być: a) przetwarzane
+zgodnie z prawem, rzetelnie i w sposób przejrzysty dla osoby, której dane dotyczą ("zgodność z
+prawem, rzetelność i przejrzystość"); b) zbierane w konkretnych, wyraźnych i prawnie
+uzasadnionych celach i nieprzetwarzane dalej w sposób niezgodny z tymi celami; dalsze
+przetwarzanie do celów archiwalnych w interesie publicznym, do celów badań naukowych lub
+historycznych lub do celów statystycznych nie jest uznawane w myśl art. 89 ust. 1 za niezgodne
+z pierwotnymi celami ("ograniczenie celu"); c) adekwatne, stosowne oraz ograniczone do tego,
+co niezbędne do celów, w których są przetwarzane ("minimalizacja danych"); d) prawidłowe i
+                                                  8
+w razie potrzeby uaktualniane; należy podjąć wszelkie rozsądne działania, aby dane osobowe,
+które są nieprawidłowe w świetle celów ich przetwarzania, zostały niezwłocznie usunięte lub
+sprostowane ("prawidłowość"); e) przechowywane w formie umożliwiającej identyfikację
+osoby, której dane dotyczą, przez okres nie dłuższy, niż jest to niezbędne do celów, w których
+dane te są przetwarzane; dane osobowe można przechowywać przez okres dłuższy, o ile będą
+one przetwarzane wyłącznie do celów archiwalnych w interesie publicznym, do celów badań
+naukowych lub historycznych lub do celów statystycznych na mocy art. 89 ust. 1, z
+zastrzeżeniem że wdrożone zostaną odpowiednie środki techniczne i organizacyjne wymagane
+na mocy niniejszego rozporządzenia w celu ochrony praw i wolności osób, których dane
+dotyczą ("ograniczenie przechowywania"); f) przetwarzane w sposób zapewniający
+odpowiednie bezpieczeństwo danych osobowych, w tym ochronę przed niedozwolonym lub
+niezgodnym z prawem przetwarzaniem oraz przypadkową utratą, zniszczeniem lub
+uszkodzeniem, za pomocą odpowiednich środków technicznych lub organizacyjnych
+("integralność i poufność"). Zgodnie z art. 5 ust. 2 rozporządzenia 2016/679 Administrator jest
+odpowiedzialny za przestrzeganie przepisów ust. 1 i musi być w stanie wykazać ich
+przestrzeganie ("rozliczalność").
+14
+   Ust. 1 Uwzględniając stan wiedzy technicznej, koszt wdrażania oraz charakter, zakres,
+kontekst i cele przetwarzania oraz ryzyko naruszenia praw lub wolności osób fizycznych o
+różnym prawdopodobieństwie wystąpienia i wadze wynikające z przetwarzania, administrator
+- zarówno przy określaniu sposobów przetwarzania, jak i w czasie samego przetwarzania -
+wdraża odpowiednie środki techniczne i organizacyjne, takie jak pseudonimizacja,
+zaprojektowane w celu skutecznej realizacji zasad ochrony danych, takich jak minimalizacja
+danych, oraz w celu nadania przetwarzaniu niezbędnych zabezpieczeń, tak by spełnić wymogi
+niniejszego rozporządzenia oraz chronić prawa osób, których dane dotyczą. 2. Administrator
+wdraża odpowiednie środki techniczne i organizacyjne, aby domyślnie przetwarzane były
+wyłącznie te dane osobowe, które są niezbędne dla osiągnięcia każdego konkretnego celu
+przetwarzania. Obowiązek ten odnosi się do ilości zbieranych danych osobowych, zakresu ich
+przetwarzania, okresu ich przechowywania oraz ich dostępności. W szczególności środki te
+zapewniają, by domyślnie dane osobowe nie były udostępniane bez interwencji danej osoby
+nieokreślonej liczbie osób fizycznych. 3. Wywiązywanie się z obowiązków, o których mowa w
+ust. 1 i 2 niniejszego artykułu, można wykazać między innymi poprzez wprowadzenie
+zatwierdzonego mechanizmu certyfikacji określonego w art. 42.
+15
+   Jeżeli dany rodzaj przetwarzania - w szczególności z użyciem nowych technologii - ze
+względu na swój charakter, zakres, kontekst i cele z dużym prawdopodobieństwem może
+powodować wysokie ryzyko naruszenia praw lub wolności osób fizycznych, administrator
+przed rozpoczęciem przetwarzania dokonuje oceny skutków planowanych operacji
+przetwarzania dla ochrony danych osobowych. Dla podobnych operacji przetwarzania danych
+wiążących się z podobnym wysokim ryzykiem można przeprowadzić pojedynczą ocenę.
+
+
+
+                                                   9
+
