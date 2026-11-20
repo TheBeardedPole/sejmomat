@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% from "_macros.html" import how, crumbs %}
+{% from "_section_nav.html" import section_nav with context %}
+{% from "_memberships.html" import styles, motion with context %}
+{% set changes = membership_events | rejectattr("initial") | list %}
+{% set initial = membership_events | selectattr("initial") | list %}
+{% set n_in = changes | sum(attribute="n_add") %}
+{% set n_out = changes | sum(attribute="n_drop") %}
+{% block title %}{{ _("Zmiany w składach komisji") }}{% endblock %}
+{% block description %}{{ _("Kto wszedł do komisji sejmowych i kto z nich odszedł w tej kadencji: każda uchwała Sejmu o zmianach w składach komisji, z drukiem i głosowaniem.") }}{% endblock %}
+{% block content %}
+{{ styles() }}
+{{ crumbs(root, [(root ~ "komisje.html", _("Komisje"))], _("Zmiany w składach")) }}
+{{ section_nav("committees", "komisje-zmiany.html") }}
+<h1>{{ _("Zmiany w składach komisji") }}</h1>
+<p>{{ _("Sejm zmieniał składy komisji") }} {{ changes | length }} {{ changes | length | plural(_("raz"), _("razy"), _("razy")) }} {{ _("w tej kadencji") }}: {{ n_in }} {{ _("wejść do komisji") }}, {{ n_out }} {{ _("odejść") }}.</p>
+{% call how(_("Skąd są dane?")) %}
+<p>{{ _("Składy komisji zmienia Sejm uchwałą, na wniosek Prezydium Sejmu. Czytamy te wnioski (druki) i datujemy każdą zmianę dniem głosowania, w którym Sejm ją przyjął. Nazwiska z druków przypisujemy posłom automatycznie.") }}</p>
+<p>{{ _("Niektóre członkostwa kończą się bez uchwały: poseł, który zostaje ministrem lub wiceministrem, przestaje być członkiem komisji, tak samo poseł, którego mandat wygasł. Takich odejść tu nie ma; na stronach komisji są na liście byłych członków bez daty.") }}</p>
+<p>{{ _("Klub przy nazwisku to obecny klub posła, nie ten z dnia zmiany.") }}</p>
+{% endcall %}
+
+<section>
+<input type="search" class="mchange-search" data-filter=".mchange" placeholder="{{ _('Szukaj posła lub komisji…') }}" aria-label="{{ _('Szukaj posła lub komisji') }}"> <span class="muted" data-filter-count></span>
+{% for ev in changes %}{{ motion(ev) }}{% endfor %}
+</section>
+
+{% if initial %}
+<h2>{{ _("Wybór składów") }}</h2>
+<p>{{ _("Pierwsze składy komisji na początku kadencji i komisji powołanych później.") }}</p>
+<details><summary>{{ initial | length }} {{ initial | length | plural(_("uchwała"), _("uchwały"), _("uchwał")) }}</summary>
+{% for ev in initial %}{{ motion(ev) }}{% endfor %}
+</details>
+{% endif %}
+{% endblock %}

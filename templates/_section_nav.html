@@ -1,6 +1,6 @@
 {# The pages of a section that the header folds into a submenu (templates/base.html),
    as a row of links on each of them, so that none is reachable only through the menu.
-   group: "sittings", "mps" or "bills"; here: the page's own link. #}
+   group: "sittings", "mps", "committees" or "bills"; here: the page's own link. #}
 {% macro section_nav(group, here) -%}
 {%- set groups = {
   "sittings": [("posiedzenia.html", _("Wszystkie posiedzenia")), ("ostatnie-posiedzenie.html", _("Ostatnie posiedzenie")),
@@ -8,6 +8,7 @@
                ("transmisje.html", _("Harmonogram transmisji"))],
   "mps": [("poslowie.html", _("Wszyscy posłowie")), ("kluby.html", _("Kluby")), ("interpelacje.html", _("Interpelacje")),
           ("poslowie-dla-ciebie.html", _("Posłowie, którzy mogą Cię zainteresować")), ("tierlista.html", _("Tier lista posłów"))],
+  "committees": [("komisje.html", _("Wszystkie komisje")), ("komisje-zmiany.html", _("Zmiany w składach"))],
   "bills": [("ustawy.html", _("Wszystkie ustawy")), ("tematy.html", _("Tematy")), ("zamrazarka.html", _("Zamrażarka")), ("weta.html", _("Weta Prezydenta")), ("ai/index.html", _("Streszczenia AI")),
             ("poprawki-oczekujace.html", _("Poprawki czekające na głosowanie")), ("statystyki.html", _("Statystyki głosowań"))],
 } %}

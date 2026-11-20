@@ -3,11 +3,13 @@
 {% from "_macros.html" import crumbs %}
 {% from "_tabs.html" import bar as tab_bar with context %}
 {% from "_committees.html" import styles, meeting with context %}
+{% from "_memberships.html" import styles as m_styles, motion with context %}
+{% set m_changes = c.changes | rejectattr("1.initial") | list %}
 {% block title %}{{ c.name }}{% endblock %}
 {% block description %}{{ c.name }}: {{ c.members | length }} {{ c.members | length | plural(_("członek"), _("członkowie"), _("członków")) }}, {{ c.held | length }} {{ c.held | length | plural(_("posiedzenie w tej kadencji"), _("posiedzenia w tej kadencji"), _("posiedzeń w tej kadencji")) }}.{% endblock %}
 {% block main_attrs %} data-pagefind-body{% endblock %}
 {% block content %}
-{{ styles() }}
+{{ styles() }}{{ m_styles() }}
 {{ crumbs(root, [(root ~ "komisje.html", _("Komisje"))], c.name | truncate(70), "pl") }}
 <h1 lang="pl">{{ c.name }}</h1>
 <p class="muted">{{ _("Komisja " ~ c.type) }} · {{ c.code }}</p>
@@ -20,6 +22,7 @@
 
 {{ tab_bar([("posiedzenia", _("Posiedzenia"), c.held | length + c.planned | length)]
   + [("czlonkowie", _("Członkowie"), c.members | length)]
+  + ([("zmiany", _("Zmiany w składzie"), m_changes | length)] if m_changes or c.former else [])
   + ([("projekty", _("Projekty"), c.bills | length)] if c.bills else [])) }}
 <div class="tab-panels">
 
@@ -41,18 +44,44 @@
 {% set club_ids = club_rows | map(attribute="id") | list %}
 <h2 class="tab-title">{{ _("Członkowie") }}</h2>
 <div class="table-scroll"><table>
-  <thead><tr><th data-sort="text">{{ _("Poseł") }}</th><th data-sort="text">{{ _("Klub") }}</th><th data-sort="text">{{ _("Funkcja") }}</th></tr></thead>
+  <thead><tr><th data-sort="text">{{ _("Poseł") }}</th><th data-sort="text">{{ _("Klub") }}</th><th data-sort="text">{{ _("Funkcja") }}</th><th data-sort="text">{{ _("W komisji od") }}</th></tr></thead>
   <tbody>
   {% for r, function in c.members %}
   <tr>
     <td data-v="{{ r.mp.firstLastName.split()[-1] }}"><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a></td>
     <td>{% if r.mp.club in club_ids %}<a href="{{ root }}klub/{{ club_slug(r.mp.club) }}.html">{{ r.mp.club }}</a>{% else %}{{ r.mp.club }}{% endif %}</td>
     <td data-v="{{ loop.index }}">{% if function %}<span lang="pl">{{ function }}</span>{% endif %}</td>
+    {% set since = c.joined.get(r.mp.id) %}<td data-v="{{ since or '' }}" style="white-space:nowrap">{% if since %}{{ since | date_pl }}{% endif %}</td>
   </tr>
   {% endfor %}
   </tbody>
 </table></div>
 </section>
+
+{% if m_changes or c.former %}
+<section class="tab-panel" id="zmiany">
+<h2 class="tab-title">{{ _("Zmiany w składzie") }}</h2>
+<p>{{ m_changes | length }} {{ m_changes | length | plural(_("uchwała Sejmu zmieniła"), _("uchwały Sejmu zmieniły"), _("uchwał Sejmu zmieniło")) }} {{ _("skład komisji w tej kadencji") }}; {{ c.former | length }} {{ c.former | length | plural(_("były członek"), _("byłych członków"), _("byłych członków")) }}.</p>
+{% for ev, p in m_changes %}{{ motion(ev, c.code) }}{% endfor %}
+{% if c.former %}
+<h3>{{ _("Byli członkowie") }}</h3>
+<div class="table-scroll"><table>
+  <thead><tr><th data-sort="text">{{ _("Poseł") }}</th><th data-sort="text">{{ _("Klub") }}</th><th data-sort="text">{{ _("Od") }}</th><th data-sort="text">{{ _("Do") }}</th></tr></thead>
+  <tbody>
+  {% for r, start, end in c.former %}
+  <tr>
+    <td data-v="{{ r.mp.firstLastName.split()[-1] }}"><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a></td>
+    <td>{{ r.mp.club }}</td>
+    <td data-v="{{ start or '' }}" style="white-space:nowrap">{% if start %}{{ start | date_pl }}{% endif %}</td>
+    <td data-v="{{ end or '9999' }}" style="white-space:nowrap">{% if end %}{{ end | date_pl }}{% else %}<span class="muted">{{ _("bez uchwały") }}</span>{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% endif %}
+{% call how(_("Skąd są dane?")) %}<p>{{ _("Z wniosków Prezydium Sejmu o zmianach w składach komisji, datowanych dniem głosowania. „Bez uchwały”: członkostwo skończyło się bez uchwały Sejmu, na przykład gdy poseł został ministrem lub wiceministrem albo wygasł jego mandat. Data „od” pusta: poseł wszedł do komisji uchwałą, której nie udało się odczytać.") }}</p>{% endcall %}
+</section>
+{% endif %}
 
 {% if c.bills %}
 <section class="tab-panel" id="projekty">

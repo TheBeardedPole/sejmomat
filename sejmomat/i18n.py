@@ -207,6 +207,34 @@ EN = {
     "Członkowie, posiedzenia z porządkiem obrad, nagraniami i stenogramami oraz projekty ustaw, którymi zajmowała się każda komisja.":
         "Members, meetings with their agendas, recordings and transcripts, and the bills each committee worked on.",
     "Projekty ustaw": "Bills", "Projekty": "Bills", "Funkcja": "Role", "członków": "members",
+    # changes in committee membership (komisje-zmiany.html, sejmomat/memberships.py)
+    "Zmiany w składach komisji": "Changes in committee membership", "Zmiany w składach": "Membership changes",
+    "Zmiany w składzie": "Membership changes",
+    "Kto wszedł do komisji sejmowych i kto z nich odszedł w tej kadencji: każda uchwała Sejmu o zmianach w składach komisji, z drukiem i głosowaniem.":
+        "Who joined and who left the Sejm's committees this term: every resolution changing committee membership, with its print and vote.",
+    "Sejm zmieniał składy komisji": "The Sejm changed committee membership", "w tej kadencji": "this term",
+    "wejść do komisji": "committee seats taken", "odejść": "seats given up",
+    "Składy komisji zmienia Sejm uchwałą, na wniosek Prezydium Sejmu. Czytamy te wnioski (druki) i datujemy każdą zmianę dniem głosowania, w którym Sejm ją przyjął. Nazwiska z druków przypisujemy posłom automatycznie.":
+        "The Sejm changes committee membership by resolution, on a motion of the Presidium. We read these motions (prints) and date each change by the vote that adopted it. Names in the prints are matched to MPs automatically.",
+    "Niektóre członkostwa kończą się bez uchwały: poseł, który zostaje ministrem lub wiceministrem, przestaje być członkiem komisji, tak samo poseł, którego mandat wygasł. Takich odejść tu nie ma; na stronach komisji są na liście byłych członków bez daty.":
+        "Some memberships end without a resolution: an MP who becomes a minister or deputy minister stops being a committee member, as does an MP whose mandate has ended. Those departures are not listed here; committee pages list them among former members, without a date.",
+    "Klub przy nazwisku to obecny klub posła, nie ten z dnia zmiany.": "The club shown is the MP's club now, not on the day of the change.",
+    "Szukaj posła lub komisji…": "Search for an MP or committee…", "Szukaj posła lub komisji": "Search for an MP or committee",
+    "Wybór składów": "Elected memberships", "Pierwsze składy komisji na początku kadencji i komisji powołanych później.":
+        "The first membership of each committee at the start of the term, and of committees set up later.",
+    "uchwała": "resolution", "uchwały": "resolutions", "uchwał": "resolutions",
+    "Wybór składu komisji": "Committee membership elected",
+    "wchodzi": "joins", "weszli": "join", "odchodzi": "leaves", "odeszli": "leave",
+    "Sejm wybrał cały skład komisji od nowa; tu jest różnica wobec poprzedniego.":
+        "The Sejm elected the committee's whole membership anew; shown here is the difference from the previous one.",
+    "W komisji od": "Member since", "bez uchwały": "no resolution",
+    "uchwała Sejmu zmieniła": "resolution of the Sejm changed", "uchwały Sejmu zmieniły": "resolutions of the Sejm changed",
+    "uchwał Sejmu zmieniło": "resolutions of the Sejm changed", "skład komisji w tej kadencji": "the committee's membership this term",
+    "byłych członków": "former members",
+    "Z wniosków Prezydium Sejmu o zmianach w składach komisji, datowanych dniem głosowania. „Bez uchwały”: członkostwo skończyło się bez uchwały Sejmu, na przykład gdy poseł został ministrem lub wiceministrem albo wygasł jego mandat. Data „od” pusta: poseł wszedł do komisji uchwałą, której nie udało się odczytać.":
+        "From the Presidium's motions on committee membership, dated by the vote. “No resolution”: the membership ended without a resolution of the Sejm, for instance when the MP became a minister or deputy minister or their mandate ended. No “since” date: the MP joined through a resolution that could not be read.",
+    "Sejm głosował nad wnioskiem Prezydium Sejmu": "The Sejm voted on a motion of the Presidium", "Wejścia do komisji": "Seats taken",
+    "odejścia": "seats given up", "Wszystkie zmiany w składach komisji": "All changes in committee membership",
     "posiedzeń w tej kadencji": "meetings this term", "zaplanowanych posiedzeń": "planned meetings",
     "projektów ustaw i uchwał, nad którymi głosował Sejm": "bills and resolutions voted on by the Sejm",
     "Zaplanowane": "Planned", "Odbyte": "Held", "zaplanowane": "planned", "zamknięte": "closed", "zdalne": "remote",

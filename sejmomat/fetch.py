@@ -221,11 +221,15 @@ PENDING_PRINT_RE = re.compile(r"^(Dodatkowe sprawozdanie Komisji|Sprawozdanie Ko
 
 
 def _pending_prints():
-    """Reports and Senate resolutions (amendments not yet voted on), and the
+    """Reports and Senate resolutions (amendments not yet voted on), the
     first print of every open process (the signatures under MPs' bills, for
-    frozen bills: sejmomat/pending.py)."""
+    frozen bills: sejmomat/pending.py), and the Presidium's motions on
+    committee membership, some of which are adopted without a vote
+    (sejmomat/memberships.py)."""
+    from .memberships import is_motion
     from .processes import load
-    reports = {p["number"] for p in api.get("prints") or [] if PENDING_PRINT_RE.match(p.get("title") or "")}
+    reports = {p["number"] for p in api.get("prints") or []
+               if PENDING_PRINT_RE.match(p.get("title") or "") or is_motion(p.get("title") or "")}
     return reports | {n for n, p in load().items() if not p["closed"]}
 
 

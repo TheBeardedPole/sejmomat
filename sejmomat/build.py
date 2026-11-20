@@ -10,7 +10,7 @@ from functools import cache
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import agenda, analysis, authors, committees, fillgaps, interests, osr, pending, places, processes, professions, schools, questions, sejmdle, social, speeches, survey, vetoes
+from . import agenda, analysis, authors, committees, memberships, fillgaps, interests, osr, pending, places, processes, professions, schools, questions, sejmdle, social, speeches, survey, vetoes
 from .facts import facts
 from .stats import compute as compute_voting_stats
 from .config import DATA, ROOT, SITE, SITE_URL, STATIC, TEMPLATES, TERM, GA_ID
@@ -467,6 +467,7 @@ def build_context():
         sitting_agendas[s] = a
 
     committee_rows = build_committees(mp_rows, bill_of_print, bill_by_root)
+    membership_events = build_memberships(committee_rows, mp_rows, sittings)
     voting_stats = compute_voting_stats(sittings, mps, club_rows)
 
     # What is waiting: amendments no vote has dealt with yet, and bills held up
@@ -522,7 +523,7 @@ def build_context():
         "coverage": (linked, total),
         "summaries": social.summaries({"by_id": by_id, "bill_by_root": bill_by_root}),
         "printed": set(printed), "printed_list": printed, "upcoming": upcoming, "planned": planned, "timetable_days": timetable_days, "sitting_agendas": sitting_agendas,
-        "committee_rows": committee_rows, "pending_amendments": pending_amendments, "pending_by_root": pending_by_root,
+        "committee_rows": committee_rows, "membership_events": membership_events, "pending_amendments": pending_amendments, "pending_by_root": pending_by_root,
         "pending_prints": {g["print"] for g in pending_amendments}, "frozen": frozen, "vetoes": veto_data, "ai_bills": ai_bills, "questions_summary": questions_summary, "fill_gaps": fill_gaps, "committee_names": {c["code"]: c["name"] for c in committee_rows},
         "votes_by_print": votes_by_print, "decided": decided, "sources": sources,
         "interest_list": [{"id": i["id"], "pl": i["pl"], "en": i["en"]} for i in interests.load()],
@@ -869,6 +870,36 @@ def build_committees(mp_rows, bill_of_print, bill_by_root):
     return rows
 
 
+def build_memberships(committee_rows, mp_rows, sittings):
+    """Who joined and left each committee, from the Presidium's motions
+    (sejmomat/memberships.py). Adds "changes", "former" and a start date per
+    member ("joined") to each committee row, and "membership" (the motion it
+    adopted) to its vote. Returns the motions, newest first, MP ids replaced
+    by MP rows."""
+    listed = json.loads((DATA / "committees.json").read_text(encoding="utf-8"))
+    events, spans = memberships.load()
+    events, per = memberships.for_site(events, spans, listed)
+    by_id = {r["mp"]["id"]: r for r in mp_rows}
+    names = {c["code"]: c["name"] for c in committee_rows}
+    votes = {(v["sitting"], v["votingNumber"]): v for vs in sittings.values() for v in vs}
+    for ev in events:
+        for part in ev["committees"]:
+            part["add"] = [by_id[m] for m in part["add"] if m in by_id]
+            part["drop"] = [by_id[m] for m in part["drop"] if m in by_id]
+            part["current"] = names.get(part["code"])   # its name now, if it still sits
+        ev["n_add"] = sum(len(p["add"]) for p in ev["committees"] if not p.get("initial"))
+        ev["n_drop"] = sum(len(p["drop"]) for p in ev["committees"])
+        ev["initial"] = all(p.get("initial") for p in ev["committees"])
+        if ev["vote"] and ev["vote"] in votes:
+            votes[ev["vote"]]["membership"] = ev
+    for c in committee_rows:
+        m = per.get(c["code"], {"changes": [], "joined": {}, "former": []})
+        c["changes"] = m["changes"]
+        c["joined"] = m["joined"]
+        c["former"] = [(by_id[mp], a, b) for mp, a, b in m["former"] if mp in by_id]
+    return list(reversed(events))
+
+
 def build_clubs(clubs, mps, by_id, mp_rows):
     """Per-club cohesion, effectiveness, agreement with other clubs, members."""
     stats = defaultdict(lambda: {"votes": 0, "shares": [], "split": [], "rebellions": 0, "lined": 0,
@@ -1055,6 +1086,7 @@ def _pages(ctx):
     yield "schedule.html", "transmisje.html", {}
     yield "questions.html", "interpelacje.html", {}
     yield "committees.html", "komisje.html", {}
+    yield "committee_changes.html", "komisje-zmiany.html", {}
     for c in ctx["committee_rows"]:
         yield "committee.html", f"komisja/{c['code']}.html", {"c": c}
     for c in ctx["club_rows"]:

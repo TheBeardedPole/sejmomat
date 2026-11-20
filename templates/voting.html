@@ -31,6 +31,15 @@
   {% endif %}
 </div>
 
+{% if v.membership %}
+{% from "_memberships.html" import styles as m_styles, part with context %}
+{{ m_styles() }}
+<h2>{{ _("Zmiany w składach komisji") }}</h2>
+<p>{{ _("Sejm głosował nad wnioskiem Prezydium Sejmu") }} ({{ print_link(v.membership.print, root, printed, none, _("druk nr") ~ " " ~ v.membership.print) }}).{% if v.membership.n_add or v.membership.n_drop %} {{ _("Wejścia do komisji") }}: {{ v.membership.n_add }}, {{ _("odejścia") }}: {{ v.membership.n_drop }}.{% endif %}</p>
+<div class="card">{% for p in v.membership.committees %}{{ part(p) }}{% endfor %}</div>
+<p class="note"><a href="{{ root }}komisje-zmiany.html">{{ _("Wszystkie zmiany w składach komisji") }}</a></p>
+{% endif %}
+
 {% if v.amendments %}
 <h2>{{ _("Czego dotyczyło głosowanie") }}</h2>
 {% for a in v.amendments %}

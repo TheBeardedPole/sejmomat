@@ -1,0 +1,59 @@
+{# Changes in committee membership (sejmomat/memberships.py): on the changes page,
+   committee pages and the votes that adopted them. Import "with context". #}
+{% from "_macros.html" import print_link %}
+
+{% macro styles() %}
+<style>
+  .mchange { padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .mchange-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+  .mchange-head .when { font-weight: 600; }
+  .mchange-head .meta { color: var(--muted); font-size: .9rem; }
+  .mpart { margin: 8px 0 0; }
+  .mpart h3 { font-size: 1rem; margin: 0 0 2px; }
+  .mpart ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 2px 14px; }
+  .mpart li { white-space: nowrap; }
+  .mpart .sign { display: inline-block; width: 1.1em; font-weight: 700; }
+  .mpart .in .sign { color: var(--ok, #2e7d32); }
+  .mpart .out .sign { color: var(--muted); }
+  .mpart .club { color: var(--muted); font-size: .85rem; }
+  .mpart .row { display: flex; flex-wrap: wrap; gap: 2px 8px; align-items: baseline; }
+  .mpart .row > span:first-child { color: var(--muted); font-size: .88rem; min-width: 5.5em; }
+  .mchange-search { font: inherit; width: min(420px, 100%); padding: 6px 10px; margin: 8px 0; background: var(--surface);
+    color: var(--text); border: 1px solid var(--line); border-radius: 6px; }
+</style>
+{% endmacro %}
+
+{% macro mp_item(r, cls, sign) -%}
+<li class="{{ cls }}"><span class="sign" aria-hidden="true">{{ sign }}</span><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a> <span class="club">{{ r.mp.club }}</span></li>
+{%- endmacro %}
+
+{# One committee's part of a motion. `heading`: show the committee's name. #}
+{% macro part(p, heading=true) %}
+<div class="mpart">
+  {% if heading %}<h3 lang="pl">{% if p.current %}<a href="{{ root }}komisja/{{ p.code }}.html">{{ p.current }}</a>{% else %}{{ p.name }}{% endif %}</h3>{% endif %}
+  {% if p.initial %}
+  <p class="muted">{{ _("Wybór składu komisji") }}: {{ p.add | length }} {{ p.add | length | plural(_("poseł"), _("posłów"), _("posłów")) }}.</p>
+  {% else %}
+  {% if p.add %}<div class="row"><span>{{ _("weszli") if p.add | length > 1 else _("wchodzi") }}</span><ul>{% for r in p.add %}{{ mp_item(r, "in", "+") }}{% endfor %}</ul></div>{% endif %}
+  {% if p.drop %}<div class="row"><span>{{ _("odeszli") if p.drop | length > 1 else _("odchodzi") }}</span><ul>{% for r in p.drop %}{{ mp_item(r, "out", "−") }}{% endfor %}</ul></div>{% endif %}
+  {% if p.replaced %}<p class="note">{{ _("Sejm wybrał cały skład komisji od nowa; tu jest różnica wobec poprzedniego.") }}</p>{% endif %}
+  {% endif %}
+</div>
+{% endmacro %}
+
+{# The date, print and vote of a motion. #}
+{% macro head(ev) -%}
+<div class="mchange-head">
+  <span class="when">{{ ev.date | date_pl }}</span>
+  <span class="meta">{{ print_link(ev.print, root, printed, none, _("druk nr") ~ " " ~ ev.print) }}{% if ev.vote %} · <a href="{{ root }}glosowanie/{{ ev.vote[0] }}-{{ ev.vote[1] }}.html">{{ _("głosowanie") }}</a>{% endif %}</span>
+</div>
+{%- endmacro %}
+
+{# A whole motion; `code`: only that committee's part (on a committee page). #}
+{% macro motion(ev, code=none) %}
+{% set parts = ev.committees | selectattr("code", "equalto", code) | list if code else ev.committees %}
+<article class="mchange" data-text="{{ ev.date }} {% for p in parts %}{{ p.current or p.name }} {% for r in p.add + p.drop %}{{ r.mp.firstLastName }} {{ r.mp.club }} {% endfor %}{% endfor %}">
+  {{ head(ev) }}
+  {% for p in parts %}{{ part(p, heading=not code) }}{% endfor %}
+</article>
+{% endmacro %}

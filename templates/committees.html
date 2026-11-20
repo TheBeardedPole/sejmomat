@@ -1,9 +1,11 @@
 {% extends "base.html" %}
 {% from "_macros.html" import crumbs %}
+{% from "_section_nav.html" import section_nav with context %}
 {% block title %}{{ _("Komisje sejmowe") }}{% endblock %}
 {% block description %}{{ _("Komisje Sejmu: członkowie, posiedzenia z porządkiem obrad, nagraniami i stenogramami oraz projekty ustaw, którymi się zajmowały.") }}{% endblock %}
 {% block content %}
 {{ crumbs(root, [], _("Komisje")) }}
+{{ section_nav("committees", "komisje.html") }}
 <h1>{{ _("Komisje sejmowe") }}</h1>
 <p class="muted">{{ _("Członkowie, posiedzenia z porządkiem obrad, nagraniami i stenogramami oraz projekty ustaw, którymi zajmowała się każda komisja.") }}</p>
 <div class="table-scroll">
