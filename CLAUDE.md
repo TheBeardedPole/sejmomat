@@ -141,6 +141,7 @@ Live on sejmomat.pl:
   the replay keeps are memberships that ended without a motion (MPs who became ministers or deputy ministers, or
   left the Sejm), shown as former members "bez uchwały". `fetch` now also fetches every such motion from the
   list of all prints (two, 119 and 120, were never cited by a vote's title).
+  The changes page filters by club (`?klub=`, static/app.js): only that club's MPs stay in each motion.
 - **First-day club ids merged:** on 13 November 2023 three clubs voted
   under provisional ids (PSL, Nowa_Lewica, Polska2050) and switched the next
   day; `model.merge_opening_ids()` counts those votes under the lasting id

@@ -17,11 +17,19 @@
 {% call how(_("Skąd są dane?")) %}
 <p>{{ _("Składy komisji zmienia Sejm uchwałą, na wniosek Prezydium Sejmu. Czytamy te wnioski (druki) i datujemy każdą zmianę dniem głosowania, w którym Sejm ją przyjął. Nazwiska z druków przypisujemy posłom automatycznie.") }}</p>
 <p>{{ _("Niektóre członkostwa kończą się bez uchwały: poseł, który zostaje ministrem lub wiceministrem, przestaje być członkiem komisji, tak samo poseł, którego mandat wygasł. Takich odejść tu nie ma; na stronach komisji są na liście byłych członków bez daty.") }}</p>
-<p>{{ _("Klub przy nazwisku to obecny klub posła, nie ten z dnia zmiany.") }}</p>
+<p>{{ _("Klub przy nazwisku to obecny klub posła, nie ten z dnia zmiany; filtr klubów działa tak samo.") }}</p>
 {% endcall %}
 
 <section>
-<input type="search" class="mchange-search" data-filter=".mchange" placeholder="{{ _('Szukaj posła lub komisji…') }}" aria-label="{{ _('Szukaj posła lub komisji') }}"> <span class="muted" data-filter-count></span>
+{% set club_n = {} %}{% for ev in changes %}{% for p in ev.committees if not p.initial %}{% for r in p.add + p.drop %}{% set _x = club_n.update({r.mp.club: club_n.get(r.mp.club, 0) + 1}) %}{% endfor %}{% endfor %}{% endfor %}
+<div class="filters" id="mchange-filters">
+  <input type="search" id="mchange-text" placeholder="{{ _('Szukaj posła lub komisji…') }}" aria-label="{{ _('Szukaj posła lub komisji') }}">
+  <select id="mchange-club" aria-label="{{ _('Klub') }}">
+    <option value="">{{ _("Wszystkie kluby") }}</option>
+    {% for club, n in club_n | dictsort(by="value", reverse=true) %}<option value="{{ club }}">{{ club }} ({{ n }})</option>{% endfor %}
+  </select>
+  <span class="muted" id="mchange-count" aria-live="polite"></span>
+</div>
 {% for ev in changes %}{{ motion(ev) }}{% endfor %}
 </section>
 

@@ -24,7 +24,7 @@
 {% endmacro %}
 
 {% macro mp_item(r, cls, sign) -%}
-<li class="{{ cls }}"><span class="sign" aria-hidden="true">{{ sign }}</span><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a> <span class="club">{{ r.mp.club }}</span></li>
+<li class="{{ cls }}" data-club="{{ r.mp.club }}"><span class="sign" aria-hidden="true">{{ sign }}</span><a href="{{ root }}posel/{{ r.mp.id }}.html">{{ r.mp.firstLastName }}</a> <span class="club">{{ r.mp.club }}</span></li>
 {%- endmacro %}
 
 {# One committee's part of a motion. `heading`: show the committee's name. #}
@@ -34,8 +34,8 @@
   {% if p.initial %}
   <p class="muted">{{ _("Wybór składu komisji") }}: {{ p.add | length }} {{ p.add | length | plural(_("poseł"), _("posłów"), _("posłów")) }}.</p>
   {% else %}
-  {% if p.add %}<div class="row"><span>{{ _("weszli") if p.add | length > 1 else _("wchodzi") }}</span><ul>{% for r in p.add %}{{ mp_item(r, "in", "+") }}{% endfor %}</ul></div>{% endif %}
-  {% if p.drop %}<div class="row"><span>{{ _("odeszli") if p.drop | length > 1 else _("odchodzi") }}</span><ul>{% for r in p.drop %}{{ mp_item(r, "out", "−") }}{% endfor %}</ul></div>{% endif %}
+  {% if p.add %}<div class="row"><span data-one="{{ _("wchodzi") }}" data-many="{{ _("weszli") }}">{{ _("weszli") if p.add | length > 1 else _("wchodzi") }}</span><ul>{% for r in p.add %}{{ mp_item(r, "in", "+") }}{% endfor %}</ul></div>{% endif %}
+  {% if p.drop %}<div class="row"><span data-one="{{ _("odchodzi") }}" data-many="{{ _("odeszli") }}">{{ _("odeszli") if p.drop | length > 1 else _("odchodzi") }}</span><ul>{% for r in p.drop %}{{ mp_item(r, "out", "−") }}{% endfor %}</ul></div>{% endif %}
   {% if p.replaced %}<p class="note">{{ _("Sejm wybrał cały skład komisji od nowa; tu jest różnica wobec poprzedniego.") }}</p>{% endif %}
   {% endif %}
 </div>

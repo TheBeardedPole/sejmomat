@@ -213,6 +213,51 @@ for (const input of document.querySelectorAll("input[data-filter]")) {
   });
 }
 
+// Committee membership changes (templates/committee_changes.html): search and a
+// club filter. With a club picked, only that club's MPs stay in each motion, and
+// motions without any are hidden. The club is kept in the address (?klub=…).
+const mchangeForm = document.getElementById("mchange-filters");
+if (mchangeForm) {
+  const text = document.getElementById("mchange-text");
+  const club = document.getElementById("mchange-club");
+  const count = document.getElementById("mchange-count");
+  const scope = mchangeForm.closest("section") || document;
+  const items = [...scope.querySelectorAll(".mchange")];
+  const fold = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ł/g, "l");
+  for (const el of items) el._text = fold(el.dataset.text || el.textContent);
+  const apply = () => {
+    const words = fold(text.value.trim()).split(/\s+/).filter(Boolean);
+    const c = club.value;
+    let shown = 0;
+    for (const el of items) {
+      let any = !c;
+      for (const li of el.querySelectorAll("li[data-club]")) {
+        li.hidden = !!c && li.dataset.club !== c;
+        if (!li.hidden) any = true;
+      }
+      for (const row of el.querySelectorAll(".mpart .row")) {
+        const n = row.querySelectorAll("li:not([hidden])").length, label = row.querySelector("[data-one]");
+        row.hidden = !n;
+        if (label && n) label.textContent = n > 1 ? label.dataset.many : label.dataset.one;
+      }
+      for (const part of el.querySelectorAll(".mpart")) part.hidden = !!c && !part.querySelector(".row:not([hidden])");
+      el.hidden = !any || !words.every((w) => el._text.includes(w));
+      if (!el.hidden) shown++;
+    }
+    count.textContent = words.length || c ? `${shown} / ${items.length}` : "";
+  };
+  const fromUrl = new URLSearchParams(location.search).get("klub");
+  if (fromUrl && [...club.options].some((o) => o.value === fromUrl)) club.value = fromUrl;
+  text.addEventListener("input", apply);
+  club.addEventListener("change", () => {
+    const url = new URL(location.href);
+    if (club.value) url.searchParams.set("klub", club.value); else url.searchParams.delete("klub");
+    history.replaceState(null, "", url);
+    apply();
+  });
+  if (club.value) apply();
+}
+
 // Sections of MP and club pages as tabs (templates/_tabs.html): one shown
 // at a time, picked by a click or by the address, which a click updates
 // without jumping; arrow keys move between tabs.

@@ -218,7 +218,7 @@ EN = {
         "The Sejm changes committee membership by resolution, on a motion of the Presidium. We read these motions (prints) and date each change by the vote that adopted it. Names in the prints are matched to MPs automatically.",
     "Niektóre członkostwa kończą się bez uchwały: poseł, który zostaje ministrem lub wiceministrem, przestaje być członkiem komisji, tak samo poseł, którego mandat wygasł. Takich odejść tu nie ma; na stronach komisji są na liście byłych członków bez daty.":
         "Some memberships end without a resolution: an MP who becomes a minister or deputy minister stops being a committee member, as does an MP whose mandate has ended. Those departures are not listed here; committee pages list them among former members, without a date.",
-    "Klub przy nazwisku to obecny klub posła, nie ten z dnia zmiany.": "The club shown is the MP's club now, not on the day of the change.",
+    "Klub przy nazwisku to obecny klub posła, nie ten z dnia zmiany; filtr klubów działa tak samo.": "The club shown is the MP's club now, not on the day of the change; the club filter works the same way.",
     "Szukaj posła lub komisji…": "Search for an MP or committee…", "Szukaj posła lub komisji": "Search for an MP or committee",
     "Wybór składów": "Elected memberships", "Pierwsze składy komisji na początku kadencji i komisji powołanych później.":
         "The first membership of each committee at the start of the term, and of committees set up later.",
