@@ -1,0 +1,286 @@
+                                                                        Druk nr 3380
+          SEJM
+RZECZYPOSPOLITEJ POLSKIE J
+               X kadencja
+
+
+
+                                    SPRAWOZDANIE
+                                KOMISJI INFRASTRUKTURY
+
+
+
+   o rządowym projekcie ustawy o zmianie ustawy
+   o systemach homologacji pojazdów oraz ich
+   wyposażenia oraz ustawy – Prawo o ruchu
+   drogowym (druk nr 3362)
+
+         Marszałek Sejmu, zgodnie z art. 37 ust. 1 i art. 40 ust. 1 regulaminu Sejmu –
+   po zasięgnięciu opinii Prezydium Sejmu – skierował w dniu 17 listopada 2026 r. powyższy
+   projekt ustawy do Komisji Infrastruktury do pierwszego czytania.
+
+
+         Komisja Infrastruktury po przeprowadzeniu pierwszego czytania oraz rozpatrzeniu tego
+   projektu ustawy na posiedzeniu w dniu 19 listopada 2026 r.
+
+        wnosi:
+
+        W y s o k i S e j m uchwalić raczy załączony projekt ustawy.
+
+
+
+   Warszawa, dnia 19 listopada 2026 r.
+
+
+                                                               Przewodniczący Komisji
+                                                                   i Sprawozdawca
+
+                                                                 (-) Mirosław Suchoń
+
+
+
+
+                 Tłoczono z polecenia Marszałka Sejmu Rzeczypospolitej Polskiej
+Liczba stron : 7    Data : 2026-11-24     Nazwa pliku : V5_2450-1.NK 1
+X kadencja/druk nr 3362
+
+                                                                                                  Projekt
+                                              U S T AWA
+
+                                                  z dnia
+
+         o zmianie ustawy o systemach homologacji pojazdów oraz ich wyposażenia
+                             oraz ustawy – Prawo o ruchu drogowym1)
+
+
+       Art. 1. W ustawie z dnia 14 kwietnia 2023 r. o systemach homologacji pojazdów oraz ich
+wyposażenia (Dz. U. poz. 919) wprowadza się następujące zmiany:
+1)     odnośnik nr 1 do tytułu ustawy otrzymuje brzmienie:
+       „1) Niniejsza ustawa służy stosowaniu:
+            1) rozporządzenia Parlamentu Europejskiego i Rady (UE) nr 167/2013 z dnia
+                5 lutego 2013 r. w sprawie homologacji i nadzoru rynku pojazdów rolniczych
+                i leśnych (Dz. Urz. UE L 60 z 02.03.2013, str. 1, z późn. zm.);
+            2) rozporządzenia Parlamentu Europejskiego i Rady (UE) nr 168/2013 z dnia
+                15 stycznia 2013 r. w sprawie homologacji i nadzoru rynku pojazdów dwu- lub
+                trzykołowych oraz czterokołowców (Dz. Urz. UE L 60 z 02.03.2013, str. 52,
+                z późn. zm.);
+            3) rozporządzenia Parlamentu Europejskiego i Rady (UE) 2018/858 z dnia 30 maja
+                2018 r. w sprawie homologacji i nadzoru rynku pojazdów silnikowych i ich
+                przyczep oraz układów, komponentów i oddzielnych zespołów technicznych
+                przeznaczonych do tych pojazdów, zmieniającego rozporządzenie (WE)
+                nr 715/2007 i (WE) nr 595/2009 oraz uchylającego dyrektywę 2007/46/WE
+                (Dz. Urz. UE L 151 z 14.06.2018, str. 1, z późn. zm.);
+            4) rozporządzenia wykonawczego Komisji (UE) 2021/133 z dnia 4 lutego 2021 r.
+                w sprawie wykonania rozporządzenia Parlamentu Europejskiego i Rady (UE)
+                2018/858 w odniesieniu do podstawowego formatu, struktury i środków wymiany
+
+1)
+     Niniejsza ustawa służy stosowaniu:
+     1) rozporządzenia Parlamentu Europejskiego i Rady (UE) 2018/858 z dnia 30 maja 2018 r. w sprawie
+        homologacji i nadzoru rynku pojazdów silnikowych i ich przyczep oraz układów, komponentów
+        i oddzielnych zespołów technicznych przeznaczonych do tych pojazdów, zmieniającego rozporządzenie
+        (WE) nr 715/2007 i (WE) nr 595/2009 oraz uchylającego dyrektywę 2007/46/WE (Dz. Urz. UE L 151
+        z 14.06.2018, str. 1, z późn. zm.);
+     2) rozporządzenia wykonawczego Komisji (UE) 2021/133 z dnia 4 lutego 2021 r. w sprawie wykonania
+        rozporządzenia Parlamentu Europejskiego i Rady (UE) 2018/858 w odniesieniu do podstawowego formatu,
+        struktury i środków wymiany danych dotyczących świadectw zgodności w formacie elektronicznym
+        (Dz. Urz. UE L 42 z 05.02.2021, str. 1, z późn. zm.).
+Liczba stron : 7      Data : 2026-11-24   Nazwa pliku : V5_2450-1.NK 2
+X kadencja/druk nr 3362
+
+                 danych dotyczących świadectw zgodności w formacie elektronicznym (Dz. Urz.
+                 UE L 42 z 05.02.2021, str. 1, z późn. zm.).”;
+2)   w art. 3:
+     a)    ust. 2 otrzymuje brzmienie:
+                    „2. Dyrektor TDT prowadzi bazę świadectw zgodności przekazanych przez
+           producentów pojazdów do centralnej ewidencji pojazdów, o której mowa w art. 80a
+           ust. 1 ustawy z dnia 20 czerwca 1997 r. – Prawo o ruchu drogowym, zwanej dalej
+           „ewidencją”.”,
+     b)    po ust. 2 dodaje się ust. 2a i 2b w brzmieniu:
+                    „2a. Dyrektor TDT, za pośrednictwem ewidencji, zapewnia producentowi
+           kolejnego etapu, o którym mowa w art. 37 ust. 5 zdanie drugie rozporządzenia
+           2018/858, dostęp do świadectw zgodności przekazanych do ewidencji przez
+           producentów pojazdów.
+                    2b. Dyrektor TDT przekazuje producentowi pojazdu, który wystawił
+           świadectwo zgodności w postaci elektronicznej, informację o wykrytej rozbieżności
+           pomiędzy tym świadectwem zgodności a odpowiednim świadectwem homologacji
+           typu pojazdu, przez jej automatyczne udostępnienie w systemie teleinformatycznym
+           obsługującym ewidencję, jako informację do pobrania.”;
+3)   w art. 27:
+     a)    w ust. 1:
+           –       pkt 2 i 3 otrzymują brzmienie:
+                 „2) wystawić w postaci papierowej świadectwo zgodności do każdego pojazdu,
+                        na którego typ wydano odpowiednie świadectwo homologacji; świadectwo
+                        zgodności     może    być    podpisane    podpisem      odbitym   sposobem
+                        mechanicznym; świadectwo zgodności może być wystawione w postaci
+                        elektronicznej i w takim przypadku jest ono przekazywane do ewidencji,
+                        z uwzględnieniem pkt 3a;
+                 3)     wystawić    w     postaci   papierowej   oświadczenie    zawierające   dane
+                        i informacje o pojeździe niezbędne do rejestracji i ewidencji pojazdu,
+                        zgodnie ze wzorem określonym w przepisach wydanych na podstawie
+                        art. 54 ust. 1 lub art. 55 ust. 1; oświadczenie może być podpisane podpisem
+                        odbitym sposobem mechanicznym i może je wystawić w imieniu
+                        producenta pojazdu importer, dystrybutor lub przedstawiciel producenta;
+Liczba stron : 7     Data : 2026-11-24   Nazwa pliku : V5_2450-1.NK 3
+X kadencja/druk nr 3362
+
+                        oświadczenie może być wystawione w postaci elektronicznej i w takim
+                        przypadku jest ono przekazywane do ewidencji, z uwzględnieniem
+                        pkt 3a;”,
+           –       po pkt 3 dodaje się pkt 3a w brzmieniu:
+               „3a) wystawić        w    postaci   elektronicznej   świadectwo   zgodności   oraz
+                        oświadczenie, o którym mowa w pkt 3, do każdego pojazdu kategorii M,
+                        N, O, na którego typ Dyrektor TDT wydał świadectwo homologacji typu
+                        UE pojazdu, i przekazać je do ewidencji odpowiednio w sposób określony
+                        w przepisach rozporządzenia wykonawczego Komisji (UE) 2021/133 z
+                        dnia 4 lutego 2021 r. w sprawie wykonania rozporządzenia Parlamentu
+                        Europejskiego i Rady (UE) 2018/858 w odniesieniu do podstawowego
+                        formatu, struktury i środków wymiany danych dotyczących świadectw
+                        zgodności w formacie elektronicznym (Dz. Urz. UE L 42 z 05.02.2021, str.
+                        1, z późn. zm.); w imieniu producenta pojazdu oświadczenie w postaci
+                        elektronicznej może wystawić importer, dystrybutor lub przedstawiciel
+                        producenta; przepisów pkt 2 i 3 w zakresie obowiązku stosowania postaci
+                        papierowej dokumentów nie stosuje się, z wyjątkiem wystawienia
+                        duplikatu świadectwa zgodności w przypadku, o którym mowa w art. 36
+                        ust. 3 lub art. 37 ust. 10 rozporządzenia 2018/858;”,
+     b)    po ust. 1 dodaje się ust. 1a w brzmieniu:
+                    „1a. Producent pojazdu kategorii M, N, O, na którego typ Dyrektor TDT wydał
+           świadectwo krajowej homologacji typu pojazdów produkowanych w małych seriach,
+           może wystawić świadectwo zgodności oraz oświadczenie zawierające dane i
+           informacje o pojeździe niezbędne do rejestracji i ewidencji pojazdu w postaci
+           elektronicznej do każdego takiego pojazdu i przekazać je do ewidencji zgodnie z ust.
+           1 pkt 3a. W imieniu producenta pojazdu oświadczenie w postaci elektronicznej może
+           wystawić importer, dystrybutor lub przedstawiciel producenta. W przypadku
+           wystawienia dokumentów w postaci elektronicznej przepisów ust. 1 pkt 2 i 3 w
+           zakresie obowiązku stosowania postaci papierowej tych dokumentów nie stosuje
+           się.”.
+Liczba stron : 7     Data : 2026-11-24     Nazwa pliku : V5_2450-1.NK 4
+X kadencja/druk nr 3362
+
+       Art. 2. W ustawie z dnia 20 czerwca 1997 r. – Prawo o ruchu drogowym (Dz. U. z 2024 r.
+poz. 1251, z późn. zm.2)) wprowadza się następujące zmiany:
+1)     w art. 72:
+       a)    w ust. 1 w pkt 3 lit. c otrzymuje brzmienie:
+             „c) świadectwa zgodności, o którym mowa w art. 27 ust. 1 pkt 2 lub 3a albo ust. 1a
+                    ustawy z dnia 14 kwietnia 2023 r. o systemach homologacji pojazdów oraz ich
+                    wyposażenia, wraz z oświadczeniem zawierającym dane i informacje o
+                    pojeździe niezbędne do rejestracji i ewidencji pojazdu,”,
+       b)    po ust. 2b dodaje się ust. 2c i 2d w brzmieniu:
+                    „2c. W przypadku braku możliwości uzyskania od producenta pojazdu, jego
+             przedstawiciela, importera lub dystrybutora dla nowego pojazdu oświadczenia
+             zawierającego dane i informacje o pojeździe niezbędne do rejestracji i ewidencji
+             pojazdu zamiast tego oświadczenia dopuszcza się przedstawienie zaświadczenia
+             o przeprowadzonym dodatkowym badaniu technicznym pojazdu, o którym mowa
+             w art. 81 ust. 11 pkt 2 lit. a.
+                    2d.   W    przypadku,      o   którym      mowa      w    ust.   2c,   zaświadczenia
+             o przeprowadzonym dodatkowym badaniu technicznym pojazdu, o którym mowa
+             w art. 81 ust. 11 pkt 2 lit. a, nie przedstawia się, jeżeli dane wynikające z tego badania
+             są zgromadzone w centralnej ewidencji pojazdów.”;
+2)     po art. 72a dodaje się art. 72b w brzmieniu:
+             „Art. 72b. 1. W przypadku gdy świadectwo zgodności i oświadczenie zawierające
+       dane i informacje o pojeździe niezbędne do rejestracji i ewidencji pojazdu określone w
+       art. 72 ust. 1 pkt 3 lit. c zostały wystawione przez producenta pojazdu w postaci
+       elektronicznej, na podstawie świadectwa homologacji typu UE pojazdu albo świadectwa
+       krajowej homologacji typu pojazdów produkowanych w małych seriach, wydanego przez
+       Dyrektora Transportowego Dozoru Technicznego, i są one dostępne w centralnej
+       ewidencji pojazdów, organ rejestrujący wykorzystuje te dokumenty na potrzeby rejestracji
+       pojazdu i nie wymaga ich przedłożenia przez wnioskodawcę.
+             2. W przypadku gdy świadectwo zgodności określone w art. 72 ust. 1 pkt 3 lit. c
+       zostało wystawione przez producenta pojazdu w postaci elektronicznej, na podstawie
+       świadectwa homologacji typu UE pojazdu wydanego przez inny niż Dyrektor
+
+2)
+     Zmiany tekstu jednolitego wymienionej ustawy zostały ogłoszone w Dz. U. z 2025 r. poz. 820, 1006, 1676,
+     1734, 1843 i 1872 oraz z 2026 r. poz. 180, 875, 982, 1073 i 1466.
+Liczba stron : 7   Data : 2026-11-24   Nazwa pliku : V5_2450-1.NK 5
+X kadencja/druk nr 3362
+
+     Transportowego Dozoru Technicznego właściwy organ państwa członkowskiego Unii
+     Europejskiej, organ rejestrujący występuje z zapytaniem o udostępnienie tego świadectwa
+     zgodności, za pośrednictwem krajowego punktu dostępu, o którym mowa w art. 80aa
+     ust. 1, a po otrzymaniu tego świadectwa zgodności uznaje je na potrzeby rejestracji
+     pojazdu. Na potrzeby rejestracji pojazdu uznaje się również oświadczenie wystawione w
+     postaci elektronicznej przez producenta, przedstawiciela producenta, importera lub
+     dystrybutora tego pojazdu, jeżeli jest dostępne w centralnej ewidencji pojazdów.”;
+3)   w art. 80a w ust. 2 w pkt 3 w lit. e kropkę zastępuje się przecinkiem i dodaje się lit. f i g
+     w brzmieniu:
+     „f) wystawiono w postaci elektronicznej świadectwo zgodności określone w art. 72
+           ust. 1 pkt 3 lit. c,
+     g)    wystawiono w postaci elektronicznej oświadczenie zawierające dane i informacje
+           o pojeździe niezbędne do rejestracji i ewidencji pojazdu określone w art. 72 ust. 1
+           pkt 3 lit. c.”;
+4)   po art. 80a dodaje się art. 80aa w brzmieniu:
+             „Art. 80aa. 1. Tworzy się krajowy punkt dostępu przy ewidencji.
+             2. Krajowy punkt dostępu prowadzi minister właściwy do spraw informatyzacji
+     w systemie teleinformatycznym, o którym mowa w art. 80a ust. 4 zdanie pierwsze.
+             3. Krajowy punkt dostępu umożliwia wymianę danych z krajowymi punktami
+     dostępu innych państw członkowskich Unii Europejskiej oraz udostępnianie danych
+     krajowym podmiotom uprawnionym – w zakresie danych dotyczących świadectw
+     zgodności w postaci elektronicznej, w ramach dostępu do europejskiego systemu
+     informacji o pojazdach i prawach jazdy (EUCARIS), zgodnie z art. 1 rozporządzenia
+     wykonawczego Komisji (UE) 2021/133 z dnia 4 lutego 2021 r. w sprawie wykonania
+     rozporządzenia Parlamentu Europejskiego i Rady (UE) 2018/858 w odniesieniu do
+     podstawowego formatu, struktury i środków wymiany danych dotyczących świadectw
+     zgodności w formacie elektronicznym (Dz. Urz. UE L 42 z 05.02.2021, str. 1, z późn.
+     zm.).
+             4. Krajowymi podmiotami uprawnionymi, w zakresie niezbędnym do realizacji ich
+     ustawowych zadań, są:
+     1)      organy właściwe w sprawach rejestracji pojazdów;
+     2)      Dyrektor Transportowego Dozoru Technicznego;
+Liczba stron : 7    Data : 2026-11-24    Nazwa pliku : V5_2450-1.NK 6
+X kadencja/druk nr 3362
+
+     3)    podmiot odpowiedzialny za prowadzenie katalogu marek i typów pojazdów
+           homologowanych oraz dopuszczonych do ruchu na terytorium Rzeczypospolitej
+           Polskiej, o którym mowa w art. 80bh ust. 1;
+     4)    minister właściwy do spraw transportu.”;
+5)   w art. 80b:
+     a)    w ust. 1 po pkt 18 dodaje się pkt 18a i 18b w brzmieniu:
+           „18a) dotyczące świadectw zgodności w postaci elektronicznej określonych w art. 72
+                   ust. 1 pkt 3 lit. c oraz zamieszczone w tych świadectwach;
+           18b) o oświadczeniach zawierających dane i informacje o pojeździe niezbędne do
+                   rejestracji i ewidencji pojazdu;”,
+     b)    w ust. 2 wyrazy „pkt 8–18” zastępuje się wyrazami „pkt 8–18b”;
+6)   w art. 80ba:
+     a)    w ust. 1 w pkt 10 kropkę zastępuje się średnikiem i dodaje się pkt 11 i 12
+           w brzmieniu:
+           „11) przez producentów pojazdów, w przypadku gdy świadectwo zgodności
+                   w postaci elektronicznej zostało wystawione na podstawie świadectwa
+                   homologacji typu UE pojazdu albo świadectwa krajowej homologacji typu
+                   pojazdów produkowanych w małych seriach, wydanego przez Dyrektora
+                   Transportowego Dozoru Technicznego, albo przez krajowy punkt dostępu,
+                   w przypadku gdy świadectwo zgodności w postaci elektronicznej zostało
+                   wystawione na podstawie świadectwa homologacji typu UE pojazdu wydanego
+                   przez inny niż Dyrektor Transportowego Dozoru Technicznego właściwy organ
+                   państwa członkowskiego Unii Europejskiej – w zakresie danych, o których
+                   mowa w art. 80b ust. 1 pkt 18a;
+           12) przez producenta, przedstawiciela producenta, importera lub dystrybutora w
+                   przypadkach, o których mowa w art. 27 ust. 1 pkt 3 i 3a oraz ust. 1a ustawy z
+                   dnia 14 kwietnia 2023 r. o systemach homologacji pojazdów oraz ich
+                   wyposażenia – w zakresie danych, o których mowa w art. 80b ust. 1 pkt 18b.”,
+     b)    w ust. 1a wyrazy „pkt 8–18” zastępuje się wyrazami „pkt 8–18b”;
+7)   w art. 135 w ust. 1 w pkt 2 lit. a otrzymuje brzmienie:
+           „a) kierowaniu pojazdem z prędkością przekraczającą dopuszczalną o więcej niż
+                   50 km/h na obszarze zabudowanym lub na drodze jednojezdniowej
+                   dwukierunkowej poza obszarem zabudowanym,”.
+Liczba stron : 7   Data : 2026-11-24   Nazwa pliku : V5_2450-1.NK 7
+X kadencja/druk nr 3362
+
+     Art. 3. Dotychczasowe przepisy wykonawcze wydane na podstawie art. 80b ust. 2,
+art. 80bb ust. 4 oraz art. 80cf ust. 2 ustawy zmienianej w art. 2 tracą moc z dniem wejścia
+w życie przepisów wykonawczych wydanych na podstawie art. 80b ust. 2, art. 80bb ust. 4 oraz
+art. 80cf ust. 2 ustawy zmienianej w art. 2, jednak niepóźniej niż po upływie 12 miesięcy od
+dnia wejścia w życie niniejszej ustawy, i mogą być zmieniane na podstawie art. 80b ust. 2,
+art. 80bb ust. 4 oraz art. 80cf ust. 2 ustawy zmienianej w art. 2 w brzmieniu dotychczasowym.
+
+     Art. 4. Przepisy:
+1)   art. 1 pkt 2 lit. b w zakresie ust. 2b, pkt 3 lit. a tiret pierwsze w zakresie pkt 3, tiret drugie
+     oraz lit. b – w zakresie, w jakim dotyczą oświadczeń zawierających dane i informacje
+     o pojeździe niezbędne do rejestracji i ewidencji pojazdu w postaci elektronicznej oraz
+     art. 2 pkt 5 lit. a w zakresie pkt 18b – stosuje się po upływie 8 miesięcy od dnia wejścia w
+     życie niniejszej ustawy;
+2)   art. 2 pkt 1 lit. b w zakresie ust. 2d – stosuje się po upływie 12 miesięcy od dnia wejścia
+     w życie niniejszej ustawy.
+
+     Art. 5. Ustawa wchodzi w życie po upływie 14 dni od dnia ogłoszenia.
+
